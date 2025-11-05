@@ -26,12 +26,12 @@ chunked :: ChunkedBody -> Algorithm a
 chunked
   c@ChunkedBody {length = len}
   rq@Request {service = service@Service {endpoint}}
-  a
+  a@(AuthEnv {secretAccessKey})
   region
   ts =
     signRequest meta (toRequestBody body) auth
     where
-      (meta, auth) = V4.base (Tag digest) (prepare rq) a region ts
+      (meta@(V4 {metaSignature}), auth) = V4.base (Tag digest) (prepare rq) a region ts
 
       -- Although https://docs.aws.amazon.com/AmazonS3/latest/API/sigv4-streaming.html says to include
       -- `Content-Encoding: aws-chunked`, we don't. If it's the only header, S3 will remove
@@ -50,9 +50,9 @@ chunked
                    ]
           }
 
-      body = Chunked (c `fuseChunks` sign (metaSignature meta))
+      body = Chunked (c `fuseChunks` sign metaSignature)
 
-      sign :: Monad m => Signature -> ConduitM ByteString ByteString m ()
+      sign :: (Monad m) => Signature -> ConduitM ByteString ByteString m ()
       sign prev = do
         mx <- Conduit.await
 
@@ -72,7 +72,7 @@ chunked
             <> Build.byteString crlf
 
       chunkSignature prev x =
-        signature (secretAccessKey a ^. _Sensitive) scope (chunkStringToSign prev x)
+        signature (secretAccessKey ^. _Sensitive) scope (chunkStringToSign prev x)
 
       chunkStringToSign prev x =
         Tag $
@@ -96,15 +96,15 @@ chunked
       end = endpoint region
 
 metadataLength :: ChunkedBody -> Integer
-metadataLength c =
+metadataLength c@ChunkedBody {size} =
   -- Number of full sized chunks.
-  fullChunks c * chunkLength (size c)
+  fullChunks c * chunkLength size
     -- Non-full chunk preceeding the final chunk.
     + maybe 0 chunkLength (remainderBytes c)
     -- The final empty chunk.
     + chunkLength (0 :: Integer)
   where
-    chunkLength :: Integral a => a -> Integer
+    chunkLength :: (Integral a) => a -> Integer
     chunkLength (toInteger -> n) =
       fromIntegral (Prelude.length (Numeric.showHex n ""))
         + headerLength

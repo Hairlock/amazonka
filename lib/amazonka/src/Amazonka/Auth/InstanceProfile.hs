@@ -34,10 +34,10 @@ fromDefaultInstanceProfile ::
   (MonadIO m) =>
   Env' withAuth ->
   m Env
-fromDefaultInstanceProfile env =
+fromDefaultInstanceProfile env@(Env {manager = envManager}) =
   liftIO $ do
     ls <-
-      Exception.try $ metadata (manager env) (IAM (SecurityCredentials Nothing))
+      Exception.try $ metadata envManager (IAM (SecurityCredentials Nothing))
 
     case BS8.lines <$> ls of
       Right (x : _) -> fromNamedInstanceProfile (Text.decodeUtf8 x) env
@@ -67,7 +67,7 @@ fromNamedInstanceProfile ::
   Text ->
   Env' withAuth ->
   m Env
-fromNamedInstanceProfile name env@Env {manager} =
+fromNamedInstanceProfile name env@(Env {manager = envManager}) =
   liftIO $ do
     keys <- fetchAuthInBackground getCredentials
     region <- getRegionFromIdentity
@@ -75,12 +75,12 @@ fromNamedInstanceProfile name env@Env {manager} =
     pure env {auth = Identity keys, region}
   where
     getCredentials =
-      Exception.try (metadata manager (IAM . SecurityCredentials $ Just name))
+      Exception.try (metadata envManager (IAM . SecurityCredentials $ Just name))
         >>= handleErr (eitherDecode' . LBS8.fromStrict) invalidIAMErr
 
     getRegionFromIdentity =
-      Exception.try (identity manager)
-        >>= handleErr (fmap IdentityDocument.region) invalidIdentityErr
+      Exception.try (identity envManager)
+        >>= handleErr (fmap (\(IdentityDocument.IdentityDocument {IdentityDocument.region = r}) -> r)) invalidIdentityErr
 
     handleErr f g = \case
       Left e -> Exception.throwIO (RetrievalError e)

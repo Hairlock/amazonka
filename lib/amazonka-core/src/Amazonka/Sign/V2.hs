@@ -31,7 +31,7 @@ instance ToLog V2 where
     buildLines
       [ "[Version 2 Metadata] {",
         "  time      = " <> build metaTime,
-        "  endpoint  = " <> build (host metaEndpoint),
+        "  endpoint  = " <> build (let Endpoint {host} = metaEndpoint in host),
         "  signature = " <> build metaSignature,
         "}"
       ]

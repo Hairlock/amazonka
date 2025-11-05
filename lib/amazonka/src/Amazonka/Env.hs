@@ -173,7 +173,7 @@ newEnvNoAuthFromManager manager = do
 
 -- | Get "the" 'Auth' from an 'Env'', if we can.
 authMaybe :: (Foldable withAuth) => Env' withAuth -> Maybe Auth
-authMaybe = foldr (const . Just) Nothing . auth
+authMaybe (Env {auth}) = foldr (const . Just) Nothing auth
 
 -- | Look up the region in the @AWS_REGION@ environment variable.
 lookupRegion :: (MonadIO m) => m (Maybe Region)
@@ -203,7 +203,7 @@ retryConnectionFailure limit n = \case
 -- | Provide a function which will be added to the existing stack
 -- of overrides applied to all service configurations.
 overrideService :: (Service -> Service) -> Env' withAuth -> Env' withAuth
-overrideService f env = env {overrides = f . overrides env}
+overrideService f env@(Env {overrides}) = env {overrides = f . overrides}
 
 -- | Configure a specific service. All requests belonging to the
 -- supplied service will use this configuration instead of the default.
@@ -211,10 +211,10 @@ overrideService f env = env {overrides = f . overrides env}
 -- It's suggested you modify the default service configuration,
 -- such as @Amazonka.DynamoDB.defaultService@.
 configureService :: Service -> Env' withAuth -> Env' withAuth
-configureService s = overrideService f
+configureService s@(Service {abbrev = sAbbrev}) = overrideService f
   where
-    f x
-      | Function.on (==) Service.abbrev s x = s
+    f x@(Service {abbrev = xAbbrev})
+      | sAbbrev == xAbbrev = s
       | otherwise = x
 
 -- | Override the timeout value for this 'Env'.

@@ -50,7 +50,7 @@ instance ToLog V2Header where
     buildLines
       [ "[Version 2 Header Metadata] {",
         "  time      = " <> build metaTime,
-        "  endpoint  = " <> build (host metaEndpoint),
+        "  endpoint  = " <> build (let Endpoint {host} = metaEndpoint in host),
         "  signature = " <> build metaSignature,
         "  headers = " <> build headers,
         "  signer = " <> build signer,

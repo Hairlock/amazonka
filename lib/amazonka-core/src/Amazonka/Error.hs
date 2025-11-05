@@ -70,19 +70,19 @@ hasService ::
   (Applicative f) =>
   Service ->
   LensLike' f ServiceError ServiceError
-hasService Service {abbrev} = filtered ((abbrev ==) . ServiceError.abbrev)
+hasService Service {abbrev} = filtered (\ServiceError.ServiceError' {abbrev = a} -> abbrev == a)
 
 hasStatus ::
   (Applicative f) =>
   Int ->
   LensLike' f ServiceError ServiceError
-hasStatus n = filtered ((n ==) . fromEnum . ServiceError.status)
+hasStatus n = filtered (\ServiceError.ServiceError' {status} -> n == fromEnum status)
 
 hasCode ::
   (Applicative f) =>
   ErrorCode ->
   LensLike' f ServiceError ServiceError
-hasCode c = filtered ((c ==) . ServiceError.code)
+hasCode c = filtered (\ServiceError.ServiceError' {code} -> c == code)
 
 serviceError ::
   Abbrev ->

@@ -31,8 +31,8 @@ import qualified System.Mem.Weak as Weak
 -- resulting 'Auth' to keep the temporary credentials up to date.
 fetchAuthInBackground :: IO AuthEnv -> IO Auth
 fetchAuthInBackground menv =
-  menv >>= \env -> liftIO $
-    case expiration env of
+  menv >>= \env@(AuthEnv {expiration}) -> liftIO $
+    case expiration of
       Nothing -> pure (Auth env)
       Just x -> do
         r <- IORef.newIORef env
@@ -66,13 +66,13 @@ fetchAuthInBackground menv =
           Just (RetrievalError e') -> RetrievalError e'
           Just (AuthServiceError e') -> AuthServiceError e'
           _ -> OtherAuthError e
-        Right a -> do
+        Right a@(AuthEnv {expiration}) -> do
           mr <- Weak.deRefWeak w
           case mr of
             Nothing -> pure ()
             Just r -> do
               IORef.atomicWriteIORef r a
-              maybe (pure ()) (loop ma w p) (expiration a)
+              maybe (pure ()) (loop ma w p) expiration
 
     diff (Time x) y = picoToMicro $ if n > 0 then n else 1
       where

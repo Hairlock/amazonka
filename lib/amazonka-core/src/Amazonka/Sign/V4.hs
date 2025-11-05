@@ -36,12 +36,12 @@ v4 = Signer sign presign
 -- In the edge case that the request body is a @Amazonka.Data.Body.ChunkedBody@ we will also use the `UNSIGNED-PAYLOAD` literal as we won't consume the stream
 -- to hash it.
 presign :: Seconds -> Algorithm a
-presign ex rq@Request {body, service} a region ts =
+presign ex rq@Request {body, service = service@(Service {signingName, endpoint})} a@(AuthEnv {sessionToken}) region ts =
   Base.signRequest meta mempty auth
   where
-    auth = clientRequestQuery <>~ ("&X-Amz-Signature=" <> toBS (Base.metaSignature meta))
+    auth = clientRequestQuery <>~ ("&X-Amz-Signature=" <> toBS metaSignature)
 
-    meta = Base.signMetadata a region ts presigner digest (prepare rq)
+    meta@(Base.V4 {Base.metaSignature}) = Base.signMetadata a region ts presigner digest (prepare rq)
 
     presigner c shs =
       pair (CI.original hAMZAlgorithm) Base.algorithm
@@ -49,14 +49,14 @@ presign ex rq@Request {body, service} a region ts =
         . pair (CI.original hAMZDate) (Time ts :: AWSTime)
         . pair (CI.original hAMZExpires) ex
         . pair (CI.original hAMZSignedHeaders) (toBS shs)
-        . pair (CI.original hAMZToken) (toBS <$> sessionToken a)
+        . pair (CI.original hAMZToken) (toBS <$> sessionToken)
 
     digest =
       case body of
         Chunked _ -> unsignedPayload
         Hashed (HashedStream h _ _) -> Base.Tag $ encodeBase16 h
         Hashed (HashedBytes h b)
-          | BS.null b && signingName service == "s3" -> unsignedPayload
+          | BS.null b && signingName == "s3" -> unsignedPayload
           | otherwise -> Base.Tag $ encodeBase16 h
 
     unsignedPayload = Base.Tag "UNSIGNED-PAYLOAD"
@@ -70,7 +70,7 @@ presign ex rq@Request {body, service} a region ts =
         (True, 443) -> host
         _ -> mconcat [host, ":", toBS port]
 
-    Endpoint {host, port, secure} = endpoint service region
+    Endpoint {host, port, secure} = endpoint region
 
 sign :: Algorithm a
 sign rq@Request {body} a r ts =

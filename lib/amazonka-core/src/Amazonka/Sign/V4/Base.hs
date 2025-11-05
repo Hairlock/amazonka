@@ -65,7 +65,7 @@ base ::
   Region ->
   UTCTime ->
   (V4, ClientRequest -> ClientRequest)
-base h rq a region ts = (meta, auth)
+base h rq a@(AuthEnv {sessionToken}) region ts = (meta, auth)
   where
     auth = clientRequestHeaders <>~ [(HTTP.hAuthorization, authorisation meta)]
 
@@ -81,7 +81,7 @@ base h rq a region ts = (meta, auth)
               & hdr hHost realHost
               & hdr hAMZDate (toBS (Time ts :: AWSTime))
               & hdr hAMZContentSHA256 (toBS h)
-              & maybe id (hdr hAMZToken . toBS) (sessionToken a)
+              & maybe id (hdr hAMZToken . toBS) sessionToken
         }
 
     realHost =
@@ -90,7 +90,7 @@ base h rq a region ts = (meta, auth)
         (True, 443) -> host
         _ -> mconcat [host, ":", toBS port]
 
-    Endpoint {host, port, secure} = endpoint (service rq) region
+    Endpoint {host, port, secure} = let Request {service = Service {endpoint}} = rq in endpoint region
 
 -- | Used to tag provenance. This allows keeping the same layout as
 -- the signing documentation, passing 'ByteString's everywhere, with
@@ -101,12 +101,12 @@ base h rq a region ts = (meta, auth)
 newtype Tag (s :: Symbol) a = Tag {untag :: a}
   deriving stock (Show)
 
-instance ToByteString (Tag s ByteString) where toBS = untag
+instance ToByteString (Tag s ByteString) where toBS (Tag x) = x
 
-instance ToLog (Tag s ByteString) where build = build . untag
+instance ToLog (Tag s ByteString) where build = build . (\(Tag x) -> x)
 
 instance ToByteString CredentialScope where
-  toBS = BS8.intercalate "/" . untag
+  toBS = BS8.intercalate "/" . (\(Tag x) -> x)
 
 type Hash = Tag "body-digest" ByteString
 
@@ -179,7 +179,7 @@ signMetadata ::
   Hash ->
   Request a ->
   V4
-signMetadata a r ts presign digest rq@Request {headers, method, query, service} =
+signMetadata a@(AuthEnv {accessKeyId, secretAccessKey}) r ts presign digest rq@Request {headers, method, query, service} =
   V4
     { metaTime = ts,
       metaMethod = method',
@@ -191,15 +191,15 @@ signMetadata a r ts presign digest rq@Request {headers, method, query, service} 
       metaCanonicalHeaders = chs,
       metaSignedHeaders = shs,
       metaStringToSign = sts,
-      metaSignature = signature (secretAccessKey a ^. _Sensitive) scope sts,
+      metaSignature = signature (secretAccessKey ^. _Sensitive) scope sts,
       metaHeaders = headers,
-      metaTimeout = timeout service
+      metaTimeout = let Service {timeout} = service in timeout
     }
   where
     query' = canonicalQuery $ presign cred shs query
 
     sts = stringToSign ts scope crq
-    cred = credential (accessKeyId a) scope
+    cred = credential accessKeyId scope
     scope = credentialScope service end ts
     crq = canonicalRequest method' cpath digest query' chs shs
 
@@ -207,7 +207,7 @@ signMetadata a r ts presign digest rq@Request {headers, method, query, service} 
     shs = signedHeaders normalisedHeaders
     normalisedHeaders = normaliseHeaders headers
 
-    end = endpoint service r
+    end = let Service {endpoint} = service in endpoint r
     method' = Tag $ toBS method
     path = escapedPath r rq
     cpath = canonicalPath r rq
@@ -216,9 +216,9 @@ algorithm :: ByteString
 algorithm = "AWS4-HMAC-SHA256"
 
 signature :: SecretKey -> CredentialScope -> StringToSign -> Signature
-signature k c = Tag . Bytes.encodeBase16 . Crypto.hmacSHA256 signingKey . untag
+signature k c = Tag . Bytes.encodeBase16 . Crypto.hmacSHA256 signingKey . (\(Tag x) -> x)
   where
-    signingKey = Foldable.foldl' hmac ("AWS4" <> toBS k) (untag c)
+    signingKey = Foldable.foldl' hmac ("AWS4" <> toBS k) ((\(Tag x) -> x) c)
 
     hmac x y = Bytes.convert (Crypto.hmacSHA256 x y)
 
@@ -285,7 +285,8 @@ canonicalPath r rq@Request {service = Service {abbrev}} =
 -- the endpoint.
 fullRawPath :: Region -> Request a -> RawPath
 fullRawPath r Request {path, service = Service {endpoint}} =
-  basePath (endpoint r) <> path
+  let Endpoint {basePath} = endpoint r
+   in basePath <> path
 
 canonicalQuery :: QueryString -> CanonicalQuery
 canonicalQuery = Tag . toBS
@@ -294,12 +295,12 @@ canonicalQuery = Tag . toBS
 -- all internal whitespace, replacing with a single space char,
 -- unless quoted with \"...\"
 canonicalHeaders :: NormalisedHeaders -> CanonicalHeaders
-canonicalHeaders = Tag . BSL.toStrict . BSB.toLazyByteString . Foldable.foldMap (uncurry f) . untag
+canonicalHeaders = Tag . BSL.toStrict . BSB.toLazyByteString . Foldable.foldMap (uncurry f) . (\(Tag x) -> x)
   where
     f k v = BSB.byteString k <> BSB.char7 ':' <> BSB.byteString (stripBS v) <> BSB.char7 '\n'
 
 signedHeaders :: NormalisedHeaders -> SignedHeaders
-signedHeaders = Tag . BS8.intercalate ";" . map fst . untag
+signedHeaders = Tag . BS8.intercalate ";" . map fst . (\(Tag x) -> x)
 
 -- | Besides normalising capitalisation, this function removes certain headers
 -- that shouldn't be signed. AWS states that only @host@ and @x-amz-*@ headers

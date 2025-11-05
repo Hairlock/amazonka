@@ -34,7 +34,7 @@ instance Hashable Base64
 instance NFData Base64
 
 _Base64 :: Iso' Base64 ByteString
-_Base64 = iso unBase64 Base64
+_Base64 = iso (\(Base64 x) -> x) Base64
 
 -- FIXME: a mistake to wrap a ByteString since the underlying serialisers
 -- (JSON, XML) use Text internally.
@@ -42,7 +42,7 @@ instance FromText Base64 where
   fromText = fmap Base64 . Bytes.decodeBase64 . Text.encodeUtf8
 
 instance ToByteString Base64 where
-  toBS = Bytes.encodeBase64 . unBase64
+  toBS = Bytes.encodeBase64 . (\(Base64 x) -> x)
 
 instance Show Base64 where
   show = show . toBS

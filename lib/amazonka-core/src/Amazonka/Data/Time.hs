@@ -58,7 +58,7 @@ instance Hashable (Time a) where
       `hashWithSalt` toRational t
 
 _Time :: Iso' (Time a) UTCTime
-_Time = iso fromTime Time
+_Time = iso (\(Time x) -> x) Time
 
 convert :: Time a -> Time b
 convert = coerce

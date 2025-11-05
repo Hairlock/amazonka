@@ -79,7 +79,7 @@ fromSSO cachedTokenFile ssoRegion accountId roleName env = do
   pure $ env {auth = Identity keys}
   where
     getCredentials = do
-      CachedAccessToken {..} <- readCachedAccessToken cachedTokenFile
+      CachedAccessToken {accessToken = Sensitive accessTokenText, region = cachedRegion} <- readCachedAccessToken cachedTokenFile
 
       -- The Region you SSO through may differ from the Region you intend to
       -- interact with after. The former is handled here, the latter is taken
@@ -90,7 +90,7 @@ fromSSO cachedTokenFile ssoRegion accountId roleName env = do
             SSO.newGetRoleCredentials
               roleName
               accountId
-              (fromSensitive accessToken)
+              accessTokenText
 
       resp <- runResourceT $ sendUnsigned ssoEnv getRoleCredentials
       pure . roleCredentialsToAuthEnv $
@@ -122,9 +122,9 @@ readCachedAccessToken p = liftIO $
             ]
 
 roleCredentialsToAuthEnv :: SSO.RoleCredentials -> AuthEnv
-roleCredentialsToAuthEnv rc =
+roleCredentialsToAuthEnv (SSO.RoleCredentials' {accessKeyId, secretAccessKey, sessionToken, expiration}) =
   AuthEnv
-    (SSO.accessKeyId rc)
-    (SSO.secretAccessKey rc)
-    (SSO.sessionToken rc)
-    (Time . posixSecondsToUTCTime . fromInteger <$> SSO.expiration rc)
+    accessKeyId
+    secretAccessKey
+    sessionToken
+    (Time . posixSecondsToUTCTime . fromInteger <$> expiration)

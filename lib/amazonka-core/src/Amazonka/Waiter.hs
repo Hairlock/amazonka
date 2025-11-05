@@ -86,7 +86,7 @@ wait_acceptors :: Lens (Wait a) (Wait b) [Acceptor a] [Acceptor b]
 wait_acceptors f w@Wait {acceptors} = f acceptors <&> \acceptors' -> w {acceptors = acceptors'}
 
 accept :: Wait a -> Acceptor a
-accept w rq rs = listToMaybe . mapMaybe (\f -> f rq rs) $ acceptors w
+accept Wait {acceptors} rq rs = listToMaybe . mapMaybe (\f -> f rq rs) $ acceptors
 
 matchAll :: (Eq b) => b -> Accept -> Fold (AWSResponse a) b -> Acceptor a
 matchAll x a l = match (all (x ==) . toListOf l) a
@@ -106,7 +106,7 @@ matchStatus x a _ = \case
 
 matchError :: ErrorCode -> Accept -> Acceptor a
 matchError c a _ = \case
-  Left e | Just c == e ^? _ServiceError . to code -> Just a
+  Left e | Just c == e ^? _ServiceError . to (\(ServiceError' {code}) -> code) -> Just a
   _ -> Nothing
 
 match :: (AWSResponse a -> Bool) -> Accept -> Acceptor a

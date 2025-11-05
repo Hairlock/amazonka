@@ -36,7 +36,7 @@ fromContainer ::
   Text ->
   Env' withAuth ->
   m Env
-fromContainer url env =
+fromContainer url env@(Env {manager = envManager}) =
   liftIO $ do
     req <- Client.parseUrlThrow $ Text.unpack url
     keys <- fetchAuthInBackground (renew req)
@@ -45,7 +45,7 @@ fromContainer url env =
   where
     renew :: ClientRequest -> IO AuthEnv
     renew req = do
-      rs <- Client.httpLbs req $ manager env
+      rs <- Client.httpLbs req envManager
 
       either
         (Exception.throwIO . invalidIdentityErr)

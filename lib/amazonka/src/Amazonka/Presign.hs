@@ -100,5 +100,5 @@ presignWithHeaders f g ae r ts ex x =
   let rq@Request {headers} = request g x
       rq' :: Request a
       rq' = rq {headers = f headers}
-      !creq = signedRequest $ requestPresign ex rq' ae r ts
+      Signed {signedRequest = !creq} = requestPresign ex rq' ae r ts
    in creq

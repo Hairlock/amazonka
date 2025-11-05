@@ -49,6 +49,7 @@ common base
     GeneralizedNewtypeDeriving
     LambdaCase
     NamedFieldPuns
+    NoFieldSelectors
     NoImplicitPrelude
     OverloadedStrings
     PackageImports

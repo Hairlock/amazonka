@@ -431,12 +431,13 @@ presign ::
   -- | Request to presign.
   a ->
   m ClientRequest
-presign env time expires rq = withAuth (runIdentity $ Env.auth env) $ \ae ->
-  pure $!
-    Presign.presignWith
-      (Env.overrides env)
-      ae
-      (Env.region env)
-      time
-      expires
-      rq
+presign env@(Env.Env {Env.auth = envAuth, Env.overrides = envOverrides, Env.region = envRegion}) time expires rq =
+  withAuth (runIdentity envAuth) $ \ae ->
+    pure $!
+      Presign.presignWith
+        envOverrides
+        ae
+        envRegion
+        time
+        expires
+        rq

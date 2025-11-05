@@ -47,4 +47,4 @@ instance ToLog (Sensitive a) where
   build = const "******"
 
 _Sensitive :: Iso' (Sensitive a) a
-_Sensitive = iso fromSensitive Sensitive
+_Sensitive = iso (\(Sensitive x) -> x) Sensitive
