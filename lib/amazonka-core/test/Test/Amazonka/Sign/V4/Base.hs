@@ -20,6 +20,10 @@ import Test.Tasty
 import Test.Tasty.HUnit
 import Test.Tasty.QuickCheck
 
+-- Helper to extract value from Tag (needed with NoFieldSelectors)
+untag :: forall s a. Base.Tag s a -> a
+untag (Base.Tag x) = x
+
 tests :: TestTree
 tests =
   testGroup
