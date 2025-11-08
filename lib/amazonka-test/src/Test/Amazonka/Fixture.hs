@@ -65,7 +65,7 @@ req n f e = testCase n $ do
   assertDiff f e' (first show a)
   where
     expected = do
-      let x = signedRequest (requestSign (request id e) auth NorthVirginia time)
+      let Signed {signedRequest = x} = requestSign (request id e) auth NorthVirginia time
       b <- sink (Client.requestBody x)
       return $!
         mkReq
@@ -83,7 +83,7 @@ req n f e = testCase n $ do
 
 testResponse ::
   forall a.
-  AWSRequest a =>
+  (AWSRequest a) =>
   Service ->
   Proxy a ->
   ByteStringLazy ->
@@ -132,5 +132,5 @@ instance FromJSON Req where
       <*> pure (map (bimap (CI.mk . Text.encodeUtf8) Text.encodeUtf8) headers)
       <*> (o .:? "body" .!= mempty)
 
-sortKeys :: Ord a => [(a, b)] -> [(a, b)]
+sortKeys :: (Ord a) => [(a, b)] -> [(a, b)]
 sortKeys = List.sortBy (Ord.comparing fst)
