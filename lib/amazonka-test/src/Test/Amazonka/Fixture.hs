@@ -28,6 +28,8 @@ import qualified Data.Conduit.Binary as Conduit
 import qualified Data.List as List
 import qualified Data.Ord as Ord
 import qualified Data.Text.Encoding as Text
+import Data.Time.Calendar (fromGregorian)
+import Data.Time.Clock (UTCTime (..), secondsToDiffTime)
 import qualified Data.Yaml as YAML
 import qualified Network.HTTP.Client.Internal as Client
 import Network.HTTP.Types (Method)
@@ -107,7 +109,9 @@ auth :: AuthEnv
 auth = AuthEnv "access" "secret" Nothing Nothing
 
 time :: UTCTime
-time = $(mkTime "2009-10-28T22:32:00Z")
+-- Hardcoded to avoid Template Haskell Lift issues in GHC 9.8+
+-- Was: $(mkTime "2009-10-28T22:32:00Z")
+time = UTCTime (fromGregorian 2009 10 28) (secondsToDiffTime (22 * 3600 + 32 * 60))
 
 data Req = Req
   { _method :: Method,
