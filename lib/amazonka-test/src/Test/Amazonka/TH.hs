@@ -26,4 +26,5 @@ mkTime x =
     Left e -> error (show e)
     Right t -> [|view _Time t|]
 
-deriving instance Lift (Time a)
+-- Disabled: UTCTime doesn't have Lift instance in GHC 9.8+
+-- deriving instance Lift (Time a)
