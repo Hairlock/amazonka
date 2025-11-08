@@ -21,10 +21,10 @@ import Language.Haskell.TH
 import Language.Haskell.TH.Syntax
 
 mkTime :: Text -> Q Exp
-mkTime x =
-  case fromText x :: Either String ISO8601 of
-    Left e -> error (show e)
-    Right t -> [|view _Time t|]
+mkTime _ =
+  -- Disabled: ISO8601 doesn't have Lift instance in GHC 9.8+
+  -- This is only used in test fixtures which are not compiled with doCheck = false
+  fail "mkTime is not available in GHC 9.8+ (Lift instance missing for ISO8601)"
 
 -- Disabled: UTCTime doesn't have Lift instance in GHC 9.8+
 -- deriving instance Lift (Time a)
