@@ -141,7 +141,7 @@ module Amazonka.AutoScaling.Types
     alarm_alarmName,
 
     -- * AutoScalingGroup
-    AutoScalingGroup (..),
+    AutoScalingGroup (AutoScalingGroup'),
     newAutoScalingGroup,
     autoScalingGroup_autoScalingGroupARN,
     autoScalingGroup_capacityRebalance,
@@ -727,7 +727,7 @@ module Amazonka.AutoScaling.Types
     vCpuCountRequest_min,
 
     -- * WarmPoolConfiguration
-    WarmPoolConfiguration (..),
+    WarmPoolConfiguration (WarmPoolConfiguration'),
     newWarmPoolConfiguration,
     warmPoolConfiguration_instanceReusePolicy,
     warmPoolConfiguration_maxGroupPreparedCapacity,
