@@ -43,7 +43,7 @@ data ParameterHistory = ParameterHistory'
     -- | The ID of the query key used for this parameter.
     keyId :: Prelude.Maybe Prelude.Text,
     -- | Labels assigned to the parameter version.
-    labels :: Prelude.Maybe (Prelude.NonEmpty Prelude.Text),
+    labels :: Prelude.Maybe [Prelude.Text],
     -- | Date the parameter was last changed or updated.
     lastModifiedDate :: Prelude.Maybe Data.POSIX,
     -- | Amazon Resource Name (ARN) of the Amazon Web Services user who last
@@ -146,7 +146,7 @@ parameterHistory_keyId :: Lens.Lens' ParameterHistory (Prelude.Maybe Prelude.Tex
 parameterHistory_keyId = Lens.lens (\ParameterHistory' {keyId} -> keyId) (\s@ParameterHistory' {} a -> s {keyId = a} :: ParameterHistory)
 
 -- | Labels assigned to the parameter version.
-parameterHistory_labels :: Lens.Lens' ParameterHistory (Prelude.Maybe (Prelude.NonEmpty Prelude.Text))
+parameterHistory_labels :: Lens.Lens' ParameterHistory (Prelude.Maybe [Prelude.Text])
 parameterHistory_labels = Lens.lens (\ParameterHistory' {labels} -> labels) (\s@ParameterHistory' {} a -> s {labels = a} :: ParameterHistory) Prelude.. Lens.mapping Lens.coerced
 
 -- | Date the parameter was last changed or updated.
