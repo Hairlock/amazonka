@@ -43,46 +43,46 @@ module Amazonka.WorkMail.Types
     _UnsupportedOperationException,
 
     -- * AccessControlRuleEffect
-    AccessControlRuleEffect (AccessControlRuleEffect'),
+    AccessControlRuleEffect (..),
 
     -- * AccessEffect
-    AccessEffect (AccessEffect'),
+    AccessEffect (..),
 
     -- * AvailabilityProviderType
-    AvailabilityProviderType (AvailabilityProviderType'),
+    AvailabilityProviderType (..),
 
     -- * DnsRecordVerificationStatus
-    DnsRecordVerificationStatus (DnsRecordVerificationStatus'),
+    DnsRecordVerificationStatus (..),
 
     -- * EntityState
-    EntityState (EntityState'),
+    EntityState (..),
 
     -- * FolderName
-    FolderName (FolderName'),
+    FolderName (..),
 
     -- * ImpersonationRoleType
-    ImpersonationRoleType (ImpersonationRoleType'),
+    ImpersonationRoleType (..),
 
     -- * MailboxExportJobState
-    MailboxExportJobState (MailboxExportJobState'),
+    MailboxExportJobState (..),
 
     -- * MemberType
-    MemberType (MemberType'),
+    MemberType (..),
 
     -- * MobileDeviceAccessRuleEffect
-    MobileDeviceAccessRuleEffect (MobileDeviceAccessRuleEffect'),
+    MobileDeviceAccessRuleEffect (..),
 
     -- * PermissionType
-    PermissionType (PermissionType'),
+    PermissionType (..),
 
     -- * ResourceType
-    ResourceType (ResourceType'),
+    ResourceType (..),
 
     -- * RetentionAction
-    RetentionAction (RetentionAction'),
+    RetentionAction (..),
 
     -- * UserRole
-    UserRole (UserRole'),
+    UserRole (..),
 
     -- * AccessControlRule
     AccessControlRule (AccessControlRule'),

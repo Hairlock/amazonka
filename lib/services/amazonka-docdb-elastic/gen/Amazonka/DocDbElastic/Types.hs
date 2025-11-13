@@ -28,10 +28,10 @@ module Amazonka.DocDbElastic.Types
     _ValidationException,
 
     -- * Auth
-    Auth (Auth'),
+    Auth (..),
 
     -- * Status
-    Status (Status'),
+    Status (..),
 
     -- * Cluster
     Cluster (Cluster'),

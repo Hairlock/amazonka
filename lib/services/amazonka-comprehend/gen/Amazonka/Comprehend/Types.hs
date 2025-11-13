@@ -37,79 +37,79 @@ module Amazonka.Comprehend.Types
     _UnsupportedLanguageException,
 
     -- * AugmentedManifestsDocumentTypeFormat
-    AugmentedManifestsDocumentTypeFormat (AugmentedManifestsDocumentTypeFormat'),
+    AugmentedManifestsDocumentTypeFormat (..),
 
     -- * BlockType
-    BlockType (BlockType'),
+    BlockType (..),
 
     -- * DocumentClassifierDataFormat
-    DocumentClassifierDataFormat (DocumentClassifierDataFormat'),
+    DocumentClassifierDataFormat (..),
 
     -- * DocumentClassifierMode
-    DocumentClassifierMode (DocumentClassifierMode'),
+    DocumentClassifierMode (..),
 
     -- * DocumentReadAction
-    DocumentReadAction (DocumentReadAction'),
+    DocumentReadAction (..),
 
     -- * DocumentReadFeatureTypes
-    DocumentReadFeatureTypes (DocumentReadFeatureTypes'),
+    DocumentReadFeatureTypes (..),
 
     -- * DocumentReadMode
-    DocumentReadMode (DocumentReadMode'),
+    DocumentReadMode (..),
 
     -- * DocumentType
-    DocumentType (DocumentType'),
+    DocumentType (..),
 
     -- * EndpointStatus
-    EndpointStatus (EndpointStatus'),
+    EndpointStatus (..),
 
     -- * EntityRecognizerDataFormat
-    EntityRecognizerDataFormat (EntityRecognizerDataFormat'),
+    EntityRecognizerDataFormat (..),
 
     -- * EntityType
-    EntityType (EntityType'),
+    EntityType (..),
 
     -- * InputFormat
-    InputFormat (InputFormat'),
+    InputFormat (..),
 
     -- * JobStatus
-    JobStatus (JobStatus'),
+    JobStatus (..),
 
     -- * LanguageCode
-    LanguageCode (LanguageCode'),
+    LanguageCode (..),
 
     -- * ModelStatus
-    ModelStatus (ModelStatus'),
+    ModelStatus (..),
 
     -- * PageBasedErrorCode
-    PageBasedErrorCode (PageBasedErrorCode'),
+    PageBasedErrorCode (..),
 
     -- * PartOfSpeechTagType
-    PartOfSpeechTagType (PartOfSpeechTagType'),
+    PartOfSpeechTagType (..),
 
     -- * PiiEntitiesDetectionMaskMode
-    PiiEntitiesDetectionMaskMode (PiiEntitiesDetectionMaskMode'),
+    PiiEntitiesDetectionMaskMode (..),
 
     -- * PiiEntitiesDetectionMode
-    PiiEntitiesDetectionMode (PiiEntitiesDetectionMode'),
+    PiiEntitiesDetectionMode (..),
 
     -- * PiiEntityType
-    PiiEntityType (PiiEntityType'),
+    PiiEntityType (..),
 
     -- * RelationshipType
-    RelationshipType (RelationshipType'),
+    RelationshipType (..),
 
     -- * SentimentType
-    SentimentType (SentimentType'),
+    SentimentType (..),
 
     -- * Split
-    Split (Split'),
+    Split (..),
 
     -- * SyntaxLanguageCode
-    SyntaxLanguageCode (SyntaxLanguageCode'),
+    SyntaxLanguageCode (..),
 
     -- * TargetedSentimentEntityType
-    TargetedSentimentEntityType (TargetedSentimentEntityType'),
+    TargetedSentimentEntityType (..),
 
     -- * AugmentedManifestsListItem
     AugmentedManifestsListItem (AugmentedManifestsListItem'),

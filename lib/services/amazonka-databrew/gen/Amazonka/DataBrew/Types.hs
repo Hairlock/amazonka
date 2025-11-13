@@ -27,61 +27,61 @@ module Amazonka.DataBrew.Types
     _ValidationException,
 
     -- * AnalyticsMode
-    AnalyticsMode (AnalyticsMode'),
+    AnalyticsMode (..),
 
     -- * CompressionFormat
-    CompressionFormat (CompressionFormat'),
+    CompressionFormat (..),
 
     -- * DatabaseOutputMode
-    DatabaseOutputMode (DatabaseOutputMode'),
+    DatabaseOutputMode (..),
 
     -- * EncryptionMode
-    EncryptionMode (EncryptionMode'),
+    EncryptionMode (..),
 
     -- * InputFormat
-    InputFormat (InputFormat'),
+    InputFormat (..),
 
     -- * JobRunState
-    JobRunState (JobRunState'),
+    JobRunState (..),
 
     -- * JobType
-    JobType (JobType'),
+    JobType (..),
 
     -- * LogSubscription
-    LogSubscription (LogSubscription'),
+    LogSubscription (..),
 
     -- * Order
-    Order (Order'),
+    Order (..),
 
     -- * OrderedBy
-    OrderedBy (OrderedBy'),
+    OrderedBy (..),
 
     -- * OutputFormat
-    OutputFormat (OutputFormat'),
+    OutputFormat (..),
 
     -- * ParameterType
-    ParameterType (ParameterType'),
+    ParameterType (..),
 
     -- * SampleMode
-    SampleMode (SampleMode'),
+    SampleMode (..),
 
     -- * SampleType
-    SampleType (SampleType'),
+    SampleType (..),
 
     -- * SessionStatus
-    SessionStatus (SessionStatus'),
+    SessionStatus (..),
 
     -- * Source
-    Source (Source'),
+    Source (..),
 
     -- * ThresholdType
-    ThresholdType (ThresholdType'),
+    ThresholdType (..),
 
     -- * ThresholdUnit
-    ThresholdUnit (ThresholdUnit'),
+    ThresholdUnit (..),
 
     -- * ValidationMode
-    ValidationMode (ValidationMode'),
+    ValidationMode (..),
 
     -- * AllowedStatistics
     AllowedStatistics (AllowedStatistics'),

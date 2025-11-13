@@ -30,142 +30,142 @@ module Amazonka.ComputeOptimizer.Types
     _ThrottlingException,
 
     -- * AutoScalingConfiguration
-    AutoScalingConfiguration (AutoScalingConfiguration'),
+    AutoScalingConfiguration (..),
 
     -- * CpuVendorArchitecture
-    CpuVendorArchitecture (CpuVendorArchitecture'),
+    CpuVendorArchitecture (..),
 
     -- * Currency
-    Currency (Currency'),
+    Currency (..),
 
     -- * CurrentPerformanceRisk
-    CurrentPerformanceRisk (CurrentPerformanceRisk'),
+    CurrentPerformanceRisk (..),
 
     -- * EBSFilterName
-    EBSFilterName (EBSFilterName'),
+    EBSFilterName (..),
 
     -- * EBSFinding
-    EBSFinding (EBSFinding'),
+    EBSFinding (..),
 
     -- * EBSMetricName
-    EBSMetricName (EBSMetricName'),
+    EBSMetricName (..),
 
     -- * ECSServiceLaunchType
-    ECSServiceLaunchType (ECSServiceLaunchType'),
+    ECSServiceLaunchType (..),
 
     -- * ECSServiceMetricName
-    ECSServiceMetricName (ECSServiceMetricName'),
+    ECSServiceMetricName (..),
 
     -- * ECSServiceMetricStatistic
-    ECSServiceMetricStatistic (ECSServiceMetricStatistic'),
+    ECSServiceMetricStatistic (..),
 
     -- * ECSServiceRecommendationFilterName
-    ECSServiceRecommendationFilterName (ECSServiceRecommendationFilterName'),
+    ECSServiceRecommendationFilterName (..),
 
     -- * ECSServiceRecommendationFinding
-    ECSServiceRecommendationFinding (ECSServiceRecommendationFinding'),
+    ECSServiceRecommendationFinding (..),
 
     -- * ECSServiceRecommendationFindingReasonCode
-    ECSServiceRecommendationFindingReasonCode (ECSServiceRecommendationFindingReasonCode'),
+    ECSServiceRecommendationFindingReasonCode (..),
 
     -- * EnhancedInfrastructureMetrics
-    EnhancedInfrastructureMetrics (EnhancedInfrastructureMetrics'),
+    EnhancedInfrastructureMetrics (..),
 
     -- * EnrollmentFilterName
-    EnrollmentFilterName (EnrollmentFilterName'),
+    EnrollmentFilterName (..),
 
     -- * ExportableAutoScalingGroupField
-    ExportableAutoScalingGroupField (ExportableAutoScalingGroupField'),
+    ExportableAutoScalingGroupField (..),
 
     -- * ExportableECSServiceField
-    ExportableECSServiceField (ExportableECSServiceField'),
+    ExportableECSServiceField (..),
 
     -- * ExportableInstanceField
-    ExportableInstanceField (ExportableInstanceField'),
+    ExportableInstanceField (..),
 
     -- * ExportableLambdaFunctionField
-    ExportableLambdaFunctionField (ExportableLambdaFunctionField'),
+    ExportableLambdaFunctionField (..),
 
     -- * ExportableVolumeField
-    ExportableVolumeField (ExportableVolumeField'),
+    ExportableVolumeField (..),
 
     -- * ExternalMetricsSource
-    ExternalMetricsSource (ExternalMetricsSource'),
+    ExternalMetricsSource (..),
 
     -- * FileFormat
-    FileFormat (FileFormat'),
+    FileFormat (..),
 
     -- * FilterName
-    FilterName (FilterName'),
+    FilterName (..),
 
     -- * Finding
-    Finding (Finding'),
+    Finding (..),
 
     -- * FindingReasonCode
-    FindingReasonCode (FindingReasonCode'),
+    FindingReasonCode (..),
 
     -- * InferredWorkloadType
-    InferredWorkloadType (InferredWorkloadType'),
+    InferredWorkloadType (..),
 
     -- * InferredWorkloadTypesPreference
-    InferredWorkloadTypesPreference (InferredWorkloadTypesPreference'),
+    InferredWorkloadTypesPreference (..),
 
     -- * InstanceRecommendationFindingReasonCode
-    InstanceRecommendationFindingReasonCode (InstanceRecommendationFindingReasonCode'),
+    InstanceRecommendationFindingReasonCode (..),
 
     -- * JobFilterName
-    JobFilterName (JobFilterName'),
+    JobFilterName (..),
 
     -- * JobStatus
-    JobStatus (JobStatus'),
+    JobStatus (..),
 
     -- * LambdaFunctionMemoryMetricName
-    LambdaFunctionMemoryMetricName (LambdaFunctionMemoryMetricName'),
+    LambdaFunctionMemoryMetricName (..),
 
     -- * LambdaFunctionMemoryMetricStatistic
-    LambdaFunctionMemoryMetricStatistic (LambdaFunctionMemoryMetricStatistic'),
+    LambdaFunctionMemoryMetricStatistic (..),
 
     -- * LambdaFunctionMetricName
-    LambdaFunctionMetricName (LambdaFunctionMetricName'),
+    LambdaFunctionMetricName (..),
 
     -- * LambdaFunctionMetricStatistic
-    LambdaFunctionMetricStatistic (LambdaFunctionMetricStatistic'),
+    LambdaFunctionMetricStatistic (..),
 
     -- * LambdaFunctionRecommendationFilterName
-    LambdaFunctionRecommendationFilterName (LambdaFunctionRecommendationFilterName'),
+    LambdaFunctionRecommendationFilterName (..),
 
     -- * LambdaFunctionRecommendationFinding
-    LambdaFunctionRecommendationFinding (LambdaFunctionRecommendationFinding'),
+    LambdaFunctionRecommendationFinding (..),
 
     -- * LambdaFunctionRecommendationFindingReasonCode
-    LambdaFunctionRecommendationFindingReasonCode (LambdaFunctionRecommendationFindingReasonCode'),
+    LambdaFunctionRecommendationFindingReasonCode (..),
 
     -- * MetricName
-    MetricName (MetricName'),
+    MetricName (..),
 
     -- * MetricStatistic
-    MetricStatistic (MetricStatistic'),
+    MetricStatistic (..),
 
     -- * MigrationEffort
-    MigrationEffort (MigrationEffort'),
+    MigrationEffort (..),
 
     -- * PlatformDifference
-    PlatformDifference (PlatformDifference'),
+    PlatformDifference (..),
 
     -- * RecommendationPreferenceName
-    RecommendationPreferenceName (RecommendationPreferenceName'),
+    RecommendationPreferenceName (..),
 
     -- * RecommendationSourceType
-    RecommendationSourceType (RecommendationSourceType'),
+    RecommendationSourceType (..),
 
     -- * ResourceType
-    ResourceType (ResourceType'),
+    ResourceType (..),
 
     -- * ScopeName
-    ScopeName (ScopeName'),
+    ScopeName (..),
 
     -- * Status
-    Status (Status'),
+    Status (..),
 
     -- * AccountEnrollmentStatus
     AccountEnrollmentStatus (AccountEnrollmentStatus'),

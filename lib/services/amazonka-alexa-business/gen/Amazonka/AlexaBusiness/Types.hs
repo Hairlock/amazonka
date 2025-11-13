@@ -36,88 +36,88 @@ module Amazonka.AlexaBusiness.Types
     _UnauthorizedException,
 
     -- * BusinessReportFailureCode
-    BusinessReportFailureCode (BusinessReportFailureCode'),
+    BusinessReportFailureCode (..),
 
     -- * BusinessReportFormat
-    BusinessReportFormat (BusinessReportFormat'),
+    BusinessReportFormat (..),
 
     -- * BusinessReportInterval
-    BusinessReportInterval (BusinessReportInterval'),
+    BusinessReportInterval (..),
 
     -- * BusinessReportStatus
-    BusinessReportStatus (BusinessReportStatus'),
+    BusinessReportStatus (..),
 
     -- * CommsProtocol
-    CommsProtocol (CommsProtocol'),
+    CommsProtocol (..),
 
     -- * ConferenceProviderType
-    ConferenceProviderType (ConferenceProviderType'),
+    ConferenceProviderType (..),
 
     -- * ConnectionStatus
-    ConnectionStatus (ConnectionStatus'),
+    ConnectionStatus (..),
 
     -- * DeviceEventType
-    DeviceEventType (DeviceEventType'),
+    DeviceEventType (..),
 
     -- * DeviceStatus
-    DeviceStatus (DeviceStatus'),
+    DeviceStatus (..),
 
     -- * DeviceStatusDetailCode
-    DeviceStatusDetailCode (DeviceStatusDetailCode'),
+    DeviceStatusDetailCode (..),
 
     -- * DeviceUsageType
-    DeviceUsageType (DeviceUsageType'),
+    DeviceUsageType (..),
 
     -- * DistanceUnit
-    DistanceUnit (DistanceUnit'),
+    DistanceUnit (..),
 
     -- * EnablementType
-    EnablementType (EnablementType'),
+    EnablementType (..),
 
     -- * EnablementTypeFilter
-    EnablementTypeFilter (EnablementTypeFilter'),
+    EnablementTypeFilter (..),
 
     -- * EndOfMeetingReminderType
-    EndOfMeetingReminderType (EndOfMeetingReminderType'),
+    EndOfMeetingReminderType (..),
 
     -- * EnrollmentStatus
-    EnrollmentStatus (EnrollmentStatus'),
+    EnrollmentStatus (..),
 
     -- * Feature
-    Feature (Feature'),
+    Feature (..),
 
     -- * Locale
-    Locale (Locale'),
+    Locale (..),
 
     -- * NetworkEapMethod
-    NetworkEapMethod (NetworkEapMethod'),
+    NetworkEapMethod (..),
 
     -- * NetworkSecurityType
-    NetworkSecurityType (NetworkSecurityType'),
+    NetworkSecurityType (..),
 
     -- * PhoneNumberType
-    PhoneNumberType (PhoneNumberType'),
+    PhoneNumberType (..),
 
     -- * RequirePin
-    RequirePin (RequirePin'),
+    RequirePin (..),
 
     -- * SipType
-    SipType (SipType'),
+    SipType (..),
 
     -- * SkillType
-    SkillType (SkillType'),
+    SkillType (..),
 
     -- * SkillTypeFilter
-    SkillTypeFilter (SkillTypeFilter'),
+    SkillTypeFilter (..),
 
     -- * SortValue
-    SortValue (SortValue'),
+    SortValue (..),
 
     -- * TemperatureUnit
-    TemperatureUnit (TemperatureUnit'),
+    TemperatureUnit (..),
 
     -- * WakeWord
-    WakeWord (WakeWord'),
+    WakeWord (..),
 
     -- * AddressBook
     AddressBook (AddressBook'),

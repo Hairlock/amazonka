@@ -36,40 +36,40 @@ module Amazonka.SecurityLake.Types
     _ValidationException,
 
     -- * AccessType
-    AccessType (AccessType'),
+    AccessType (..),
 
     -- * AwsLogSourceType
-    AwsLogSourceType (AwsLogSourceType'),
+    AwsLogSourceType (..),
 
     -- * Dimension
-    Dimension (Dimension'),
+    Dimension (..),
 
     -- * EndpointProtocol
-    EndpointProtocol (EndpointProtocol'),
+    EndpointProtocol (..),
 
     -- * HttpsMethod
-    HttpsMethod (HttpsMethod'),
+    HttpsMethod (..),
 
     -- * OcsfEventClass
-    OcsfEventClass (OcsfEventClass'),
+    OcsfEventClass (..),
 
     -- * Region
-    Region (Region'),
+    Region (..),
 
     -- * SettingsStatus
-    SettingsStatus (SettingsStatus'),
+    SettingsStatus (..),
 
     -- * SourceStatus
-    SourceStatus (SourceStatus'),
+    SourceStatus (..),
 
     -- * StorageClass
-    StorageClass (StorageClass'),
+    StorageClass (..),
 
     -- * SubscriptionProtocolType
-    SubscriptionProtocolType (SubscriptionProtocolType'),
+    SubscriptionProtocolType (..),
 
     -- * SubscriptionStatus
-    SubscriptionStatus (SubscriptionStatus'),
+    SubscriptionStatus (..),
 
     -- * AccountSources
     AccountSources (AccountSources'),

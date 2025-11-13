@@ -28,31 +28,31 @@ module Amazonka.IoTAnalytics.Types
     _ThrottlingException,
 
     -- * ChannelStatus
-    ChannelStatus (ChannelStatus'),
+    ChannelStatus (..),
 
     -- * ComputeType
-    ComputeType (ComputeType'),
+    ComputeType (..),
 
     -- * DatasetActionType
-    DatasetActionType (DatasetActionType'),
+    DatasetActionType (..),
 
     -- * DatasetContentState
-    DatasetContentState (DatasetContentState'),
+    DatasetContentState (..),
 
     -- * DatasetStatus
-    DatasetStatus (DatasetStatus'),
+    DatasetStatus (..),
 
     -- * DatastoreStatus
-    DatastoreStatus (DatastoreStatus'),
+    DatastoreStatus (..),
 
     -- * FileFormatType
-    FileFormatType (FileFormatType'),
+    FileFormatType (..),
 
     -- * LoggingLevel
-    LoggingLevel (LoggingLevel'),
+    LoggingLevel (..),
 
     -- * ReprocessingStatus
-    ReprocessingStatus (ReprocessingStatus'),
+    ReprocessingStatus (..),
 
     -- * AddAttributesActivity
     AddAttributesActivity (AddAttributesActivity'),

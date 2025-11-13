@@ -26,19 +26,19 @@ module Amazonka.RBin.Types
     _ValidationException,
 
     -- * LockState
-    LockState (LockState'),
+    LockState (..),
 
     -- * ResourceType
-    ResourceType (ResourceType'),
+    ResourceType (..),
 
     -- * RetentionPeriodUnit
-    RetentionPeriodUnit (RetentionPeriodUnit'),
+    RetentionPeriodUnit (..),
 
     -- * RuleStatus
-    RuleStatus (RuleStatus'),
+    RuleStatus (..),
 
     -- * UnlockDelayUnit
-    UnlockDelayUnit (UnlockDelayUnit'),
+    UnlockDelayUnit (..),
 
     -- * LockConfiguration
     LockConfiguration (LockConfiguration'),

@@ -25,19 +25,19 @@ module Amazonka.MwAA.Types
     _ValidationException,
 
     -- * EnvironmentStatus
-    EnvironmentStatus (EnvironmentStatus'),
+    EnvironmentStatus (..),
 
     -- * LoggingLevel
-    LoggingLevel (LoggingLevel'),
+    LoggingLevel (..),
 
     -- * Unit
-    Unit (Unit'),
+    Unit (..),
 
     -- * UpdateStatus
-    UpdateStatus (UpdateStatus'),
+    UpdateStatus (..),
 
     -- * WebserverAccessMode
-    WebserverAccessMode (WebserverAccessMode'),
+    WebserverAccessMode (..),
 
     -- * Dimension
     Dimension (Dimension'),

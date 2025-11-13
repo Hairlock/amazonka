@@ -35,31 +35,31 @@ module Amazonka.Textract.Types
     _UnsupportedDocumentException,
 
     -- * BlockType
-    BlockType (BlockType'),
+    BlockType (..),
 
     -- * ContentClassifier
-    ContentClassifier (ContentClassifier'),
+    ContentClassifier (..),
 
     -- * EntityType
-    EntityType (EntityType'),
+    EntityType (..),
 
     -- * FeatureType
-    FeatureType (FeatureType'),
+    FeatureType (..),
 
     -- * JobStatus
-    JobStatus (JobStatus'),
+    JobStatus (..),
 
     -- * RelationshipType
-    RelationshipType (RelationshipType'),
+    RelationshipType (..),
 
     -- * SelectionStatus
-    SelectionStatus (SelectionStatus'),
+    SelectionStatus (..),
 
     -- * TextType
-    TextType (TextType'),
+    TextType (..),
 
     -- * ValueType
-    ValueType (ValueType'),
+    ValueType (..),
 
     -- * AnalyzeIDDetections
     AnalyzeIDDetections (AnalyzeIDDetections'),

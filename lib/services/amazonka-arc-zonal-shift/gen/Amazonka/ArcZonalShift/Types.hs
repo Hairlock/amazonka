@@ -27,10 +27,10 @@ module Amazonka.ArcZonalShift.Types
     _ValidationException,
 
     -- * AppliedStatus
-    AppliedStatus (AppliedStatus'),
+    AppliedStatus (..),
 
     -- * ZonalShiftStatus
-    ZonalShiftStatus (ZonalShiftStatus'),
+    ZonalShiftStatus (..),
 
     -- * ManagedResourceSummary
     ManagedResourceSummary (ManagedResourceSummary'),

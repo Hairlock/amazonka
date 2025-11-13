@@ -29,91 +29,91 @@ module Amazonka.MGN.Types
     _ValidationException,
 
     -- * ApplicationHealthStatus
-    ApplicationHealthStatus (ApplicationHealthStatus'),
+    ApplicationHealthStatus (..),
 
     -- * ApplicationProgressStatus
-    ApplicationProgressStatus (ApplicationProgressStatus'),
+    ApplicationProgressStatus (..),
 
     -- * BootMode
-    BootMode (BootMode'),
+    BootMode (..),
 
     -- * ChangeServerLifeCycleStateSourceServerLifecycleState
-    ChangeServerLifeCycleStateSourceServerLifecycleState (ChangeServerLifeCycleStateSourceServerLifecycleState'),
+    ChangeServerLifeCycleStateSourceServerLifecycleState (..),
 
     -- * DataReplicationErrorString
-    DataReplicationErrorString (DataReplicationErrorString'),
+    DataReplicationErrorString (..),
 
     -- * DataReplicationInitiationStepName
-    DataReplicationInitiationStepName (DataReplicationInitiationStepName'),
+    DataReplicationInitiationStepName (..),
 
     -- * DataReplicationInitiationStepStatus
-    DataReplicationInitiationStepStatus (DataReplicationInitiationStepStatus'),
+    DataReplicationInitiationStepStatus (..),
 
     -- * DataReplicationState
-    DataReplicationState (DataReplicationState'),
+    DataReplicationState (..),
 
     -- * FirstBoot
-    FirstBoot (FirstBoot'),
+    FirstBoot (..),
 
     -- * InitiatedBy
-    InitiatedBy (InitiatedBy'),
+    InitiatedBy (..),
 
     -- * JobLogEvent
-    JobLogEvent (JobLogEvent'),
+    JobLogEvent (..),
 
     -- * JobStatus
-    JobStatus (JobStatus'),
+    JobStatus (..),
 
     -- * JobType
-    JobType (JobType'),
+    JobType (..),
 
     -- * LaunchDisposition
-    LaunchDisposition (LaunchDisposition'),
+    LaunchDisposition (..),
 
     -- * LaunchStatus
-    LaunchStatus (LaunchStatus'),
+    LaunchStatus (..),
 
     -- * LifeCycleState
-    LifeCycleState (LifeCycleState'),
+    LifeCycleState (..),
 
     -- * PostLaunchActionExecutionStatus
-    PostLaunchActionExecutionStatus (PostLaunchActionExecutionStatus'),
+    PostLaunchActionExecutionStatus (..),
 
     -- * PostLaunchActionsDeploymentType
-    PostLaunchActionsDeploymentType (PostLaunchActionsDeploymentType'),
+    PostLaunchActionsDeploymentType (..),
 
     -- * ReplicationConfigurationDataPlaneRouting
-    ReplicationConfigurationDataPlaneRouting (ReplicationConfigurationDataPlaneRouting'),
+    ReplicationConfigurationDataPlaneRouting (..),
 
     -- * ReplicationConfigurationDefaultLargeStagingDiskType
-    ReplicationConfigurationDefaultLargeStagingDiskType (ReplicationConfigurationDefaultLargeStagingDiskType'),
+    ReplicationConfigurationDefaultLargeStagingDiskType (..),
 
     -- * ReplicationConfigurationEbsEncryption
-    ReplicationConfigurationEbsEncryption (ReplicationConfigurationEbsEncryption'),
+    ReplicationConfigurationEbsEncryption (..),
 
     -- * ReplicationConfigurationReplicatedDiskStagingDiskType
-    ReplicationConfigurationReplicatedDiskStagingDiskType (ReplicationConfigurationReplicatedDiskStagingDiskType'),
+    ReplicationConfigurationReplicatedDiskStagingDiskType (..),
 
     -- * ReplicationType
-    ReplicationType (ReplicationType'),
+    ReplicationType (..),
 
     -- * SsmDocumentType
-    SsmDocumentType (SsmDocumentType'),
+    SsmDocumentType (..),
 
     -- * SsmParameterStoreParameterType
-    SsmParameterStoreParameterType (SsmParameterStoreParameterType'),
+    SsmParameterStoreParameterType (..),
 
     -- * TargetInstanceTypeRightSizingMethod
-    TargetInstanceTypeRightSizingMethod (TargetInstanceTypeRightSizingMethod'),
+    TargetInstanceTypeRightSizingMethod (..),
 
     -- * VolumeType
-    VolumeType (VolumeType'),
+    VolumeType (..),
 
     -- * WaveHealthStatus
-    WaveHealthStatus (WaveHealthStatus'),
+    WaveHealthStatus (..),
 
     -- * WaveProgressStatus
-    WaveProgressStatus (WaveProgressStatus'),
+    WaveProgressStatus (..),
 
     -- * Application
     Application (Application'),

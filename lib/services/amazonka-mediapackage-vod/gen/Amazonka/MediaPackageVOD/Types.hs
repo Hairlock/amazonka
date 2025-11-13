@@ -27,34 +27,34 @@ module Amazonka.MediaPackageVOD.Types
     _UnprocessableEntityException,
 
     -- * AdMarkers
-    AdMarkers (AdMarkers'),
+    AdMarkers (..),
 
     -- * EncryptionMethod
-    EncryptionMethod (EncryptionMethod'),
+    EncryptionMethod (..),
 
     -- * ManifestLayout
-    ManifestLayout (ManifestLayout'),
+    ManifestLayout (..),
 
     -- * PeriodTriggersElement
-    PeriodTriggersElement (PeriodTriggersElement'),
+    PeriodTriggersElement (..),
 
     -- * PresetSpeke20Audio
-    PresetSpeke20Audio (PresetSpeke20Audio'),
+    PresetSpeke20Audio (..),
 
     -- * PresetSpeke20Video
-    PresetSpeke20Video (PresetSpeke20Video'),
+    PresetSpeke20Video (..),
 
     -- * Profile
-    Profile (Profile'),
+    Profile (..),
 
     -- * ScteMarkersSource
-    ScteMarkersSource (ScteMarkersSource'),
+    ScteMarkersSource (..),
 
     -- * SegmentTemplateFormat
-    SegmentTemplateFormat (SegmentTemplateFormat'),
+    SegmentTemplateFormat (..),
 
     -- * StreamOrder
-    StreamOrder (StreamOrder'),
+    StreamOrder (..),
 
     -- * AssetShallow
     AssetShallow (AssetShallow'),

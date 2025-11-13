@@ -27,31 +27,31 @@ module Amazonka.CodeGuruProfiler.Types
     _ValidationException,
 
     -- * ActionGroup
-    ActionGroup (ActionGroup'),
+    ActionGroup (..),
 
     -- * AgentParameterField
-    AgentParameterField (AgentParameterField'),
+    AgentParameterField (..),
 
     -- * AggregationPeriod
-    AggregationPeriod (AggregationPeriod'),
+    AggregationPeriod (..),
 
     -- * ComputePlatform
-    ComputePlatform (ComputePlatform'),
+    ComputePlatform (..),
 
     -- * EventPublisher
-    EventPublisher (EventPublisher'),
+    EventPublisher (..),
 
     -- * FeedbackType
-    FeedbackType (FeedbackType'),
+    FeedbackType (..),
 
     -- * MetadataField
-    MetadataField (MetadataField'),
+    MetadataField (..),
 
     -- * MetricType
-    MetricType (MetricType'),
+    MetricType (..),
 
     -- * OrderBy
-    OrderBy (OrderBy'),
+    OrderBy (..),
 
     -- * AgentConfiguration
     AgentConfiguration (AgentConfiguration'),

@@ -27,7 +27,7 @@ module Amazonka.KinesisVideoSignaling.Types
     _SessionExpiredException,
 
     -- * Service
-    Service (Service'),
+    Service (..),
 
     -- * IceServer
     IceServer (IceServer'),

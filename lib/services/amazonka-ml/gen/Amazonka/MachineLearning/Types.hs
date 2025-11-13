@@ -29,37 +29,37 @@ module Amazonka.MachineLearning.Types
     _TagLimitExceededException,
 
     -- * Algorithm
-    Algorithm (Algorithm'),
+    Algorithm (..),
 
     -- * BatchPredictionFilterVariable
-    BatchPredictionFilterVariable (BatchPredictionFilterVariable'),
+    BatchPredictionFilterVariable (..),
 
     -- * DataSourceFilterVariable
-    DataSourceFilterVariable (DataSourceFilterVariable'),
+    DataSourceFilterVariable (..),
 
     -- * DetailsAttributes
-    DetailsAttributes (DetailsAttributes'),
+    DetailsAttributes (..),
 
     -- * EntityStatus
-    EntityStatus (EntityStatus'),
+    EntityStatus (..),
 
     -- * EvaluationFilterVariable
-    EvaluationFilterVariable (EvaluationFilterVariable'),
+    EvaluationFilterVariable (..),
 
     -- * MLModelFilterVariable
-    MLModelFilterVariable (MLModelFilterVariable'),
+    MLModelFilterVariable (..),
 
     -- * MLModelType
-    MLModelType (MLModelType'),
+    MLModelType (..),
 
     -- * RealtimeEndpointStatus
-    RealtimeEndpointStatus (RealtimeEndpointStatus'),
+    RealtimeEndpointStatus (..),
 
     -- * SortOrder
-    SortOrder (SortOrder'),
+    SortOrder (..),
 
     -- * TaggableResourceType
-    TaggableResourceType (TaggableResourceType'),
+    TaggableResourceType (..),
 
     -- * BatchPrediction
     BatchPrediction (BatchPrediction'),

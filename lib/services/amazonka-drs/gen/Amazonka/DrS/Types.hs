@@ -29,91 +29,91 @@ module Amazonka.DrS.Types
     _ValidationException,
 
     -- * DataReplicationErrorString
-    DataReplicationErrorString (DataReplicationErrorString'),
+    DataReplicationErrorString (..),
 
     -- * DataReplicationInitiationStepName
-    DataReplicationInitiationStepName (DataReplicationInitiationStepName'),
+    DataReplicationInitiationStepName (..),
 
     -- * DataReplicationInitiationStepStatus
-    DataReplicationInitiationStepStatus (DataReplicationInitiationStepStatus'),
+    DataReplicationInitiationStepStatus (..),
 
     -- * DataReplicationState
-    DataReplicationState (DataReplicationState'),
+    DataReplicationState (..),
 
     -- * EC2InstanceState
-    EC2InstanceState (EC2InstanceState'),
+    EC2InstanceState (..),
 
     -- * ExtensionStatus
-    ExtensionStatus (ExtensionStatus'),
+    ExtensionStatus (..),
 
     -- * FailbackLaunchType
-    FailbackLaunchType (FailbackLaunchType'),
+    FailbackLaunchType (..),
 
     -- * FailbackReplicationError
-    FailbackReplicationError (FailbackReplicationError'),
+    FailbackReplicationError (..),
 
     -- * FailbackState
-    FailbackState (FailbackState'),
+    FailbackState (..),
 
     -- * InitiatedBy
-    InitiatedBy (InitiatedBy'),
+    InitiatedBy (..),
 
     -- * JobLogEvent
-    JobLogEvent (JobLogEvent'),
+    JobLogEvent (..),
 
     -- * JobStatus
-    JobStatus (JobStatus'),
+    JobStatus (..),
 
     -- * JobType
-    JobType (JobType'),
+    JobType (..),
 
     -- * LastLaunchResult
-    LastLaunchResult (LastLaunchResult'),
+    LastLaunchResult (..),
 
     -- * LastLaunchType
-    LastLaunchType (LastLaunchType'),
+    LastLaunchType (..),
 
     -- * LaunchDisposition
-    LaunchDisposition (LaunchDisposition'),
+    LaunchDisposition (..),
 
     -- * LaunchStatus
-    LaunchStatus (LaunchStatus'),
+    LaunchStatus (..),
 
     -- * OriginEnvironment
-    OriginEnvironment (OriginEnvironment'),
+    OriginEnvironment (..),
 
     -- * PITPolicyRuleUnits
-    PITPolicyRuleUnits (PITPolicyRuleUnits'),
+    PITPolicyRuleUnits (..),
 
     -- * RecoveryInstanceDataReplicationInitiationStepName
-    RecoveryInstanceDataReplicationInitiationStepName (RecoveryInstanceDataReplicationInitiationStepName'),
+    RecoveryInstanceDataReplicationInitiationStepName (..),
 
     -- * RecoveryInstanceDataReplicationInitiationStepStatus
-    RecoveryInstanceDataReplicationInitiationStepStatus (RecoveryInstanceDataReplicationInitiationStepStatus'),
+    RecoveryInstanceDataReplicationInitiationStepStatus (..),
 
     -- * RecoveryInstanceDataReplicationState
-    RecoveryInstanceDataReplicationState (RecoveryInstanceDataReplicationState'),
+    RecoveryInstanceDataReplicationState (..),
 
     -- * RecoverySnapshotsOrder
-    RecoverySnapshotsOrder (RecoverySnapshotsOrder'),
+    RecoverySnapshotsOrder (..),
 
     -- * ReplicationConfigurationDataPlaneRouting
-    ReplicationConfigurationDataPlaneRouting (ReplicationConfigurationDataPlaneRouting'),
+    ReplicationConfigurationDataPlaneRouting (..),
 
     -- * ReplicationConfigurationDefaultLargeStagingDiskType
-    ReplicationConfigurationDefaultLargeStagingDiskType (ReplicationConfigurationDefaultLargeStagingDiskType'),
+    ReplicationConfigurationDefaultLargeStagingDiskType (..),
 
     -- * ReplicationConfigurationEbsEncryption
-    ReplicationConfigurationEbsEncryption (ReplicationConfigurationEbsEncryption'),
+    ReplicationConfigurationEbsEncryption (..),
 
     -- * ReplicationConfigurationReplicatedDiskStagingDiskType
-    ReplicationConfigurationReplicatedDiskStagingDiskType (ReplicationConfigurationReplicatedDiskStagingDiskType'),
+    ReplicationConfigurationReplicatedDiskStagingDiskType (..),
 
     -- * ReplicationDirection
-    ReplicationDirection (ReplicationDirection'),
+    ReplicationDirection (..),
 
     -- * TargetInstanceTypeRightSizingMethod
-    TargetInstanceTypeRightSizingMethod (TargetInstanceTypeRightSizingMethod'),
+    TargetInstanceTypeRightSizingMethod (..),
 
     -- * Account
     Account (Account'),

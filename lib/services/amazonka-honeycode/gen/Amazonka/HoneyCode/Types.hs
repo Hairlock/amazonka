@@ -31,22 +31,22 @@ module Amazonka.HoneyCode.Types
     _ValidationException,
 
     -- * ErrorCode
-    ErrorCode (ErrorCode'),
+    ErrorCode (..),
 
     -- * Format
-    Format (Format'),
+    Format (..),
 
     -- * ImportDataCharacterEncoding
-    ImportDataCharacterEncoding (ImportDataCharacterEncoding'),
+    ImportDataCharacterEncoding (..),
 
     -- * ImportSourceDataFormat
-    ImportSourceDataFormat (ImportSourceDataFormat'),
+    ImportSourceDataFormat (..),
 
     -- * TableDataImportJobStatus
-    TableDataImportJobStatus (TableDataImportJobStatus'),
+    TableDataImportJobStatus (..),
 
     -- * UpsertAction
-    UpsertAction (UpsertAction'),
+    UpsertAction (..),
 
     -- * Cell
     Cell (Cell'),

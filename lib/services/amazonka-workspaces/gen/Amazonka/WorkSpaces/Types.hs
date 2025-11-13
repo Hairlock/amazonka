@@ -35,103 +35,103 @@ module Amazonka.WorkSpaces.Types
     _WorkspacesDefaultRoleNotFoundException,
 
     -- * AccessPropertyValue
-    AccessPropertyValue (AccessPropertyValue'),
+    AccessPropertyValue (..),
 
     -- * Application
-    Application (Application'),
+    Application (..),
 
     -- * AssociationStatus
-    AssociationStatus (AssociationStatus'),
+    AssociationStatus (..),
 
     -- * BundleType
-    BundleType (BundleType'),
+    BundleType (..),
 
     -- * CertificateBasedAuthStatusEnum
-    CertificateBasedAuthStatusEnum (CertificateBasedAuthStatusEnum'),
+    CertificateBasedAuthStatusEnum (..),
 
     -- * ClientDeviceType
-    ClientDeviceType (ClientDeviceType'),
+    ClientDeviceType (..),
 
     -- * Compute
-    Compute (Compute'),
+    Compute (..),
 
     -- * ConnectionAliasState
-    ConnectionAliasState (ConnectionAliasState'),
+    ConnectionAliasState (..),
 
     -- * ConnectionState
-    ConnectionState (ConnectionState'),
+    ConnectionState (..),
 
     -- * DedicatedTenancyModificationStateEnum
-    DedicatedTenancyModificationStateEnum (DedicatedTenancyModificationStateEnum'),
+    DedicatedTenancyModificationStateEnum (..),
 
     -- * DedicatedTenancySupportEnum
-    DedicatedTenancySupportEnum (DedicatedTenancySupportEnum'),
+    DedicatedTenancySupportEnum (..),
 
     -- * DedicatedTenancySupportResultEnum
-    DedicatedTenancySupportResultEnum (DedicatedTenancySupportResultEnum'),
+    DedicatedTenancySupportResultEnum (..),
 
     -- * DeletableCertificateBasedAuthProperty
-    DeletableCertificateBasedAuthProperty (DeletableCertificateBasedAuthProperty'),
+    DeletableCertificateBasedAuthProperty (..),
 
     -- * DeletableSamlProperty
-    DeletableSamlProperty (DeletableSamlProperty'),
+    DeletableSamlProperty (..),
 
     -- * ImageType
-    ImageType (ImageType'),
+    ImageType (..),
 
     -- * LogUploadEnum
-    LogUploadEnum (LogUploadEnum'),
+    LogUploadEnum (..),
 
     -- * ModificationResourceEnum
-    ModificationResourceEnum (ModificationResourceEnum'),
+    ModificationResourceEnum (..),
 
     -- * ModificationStateEnum
-    ModificationStateEnum (ModificationStateEnum'),
+    ModificationStateEnum (..),
 
     -- * OperatingSystemType
-    OperatingSystemType (OperatingSystemType'),
+    OperatingSystemType (..),
 
     -- * Protocol
-    Protocol (Protocol'),
+    Protocol (..),
 
     -- * ReconnectEnum
-    ReconnectEnum (ReconnectEnum'),
+    ReconnectEnum (..),
 
     -- * RunningMode
-    RunningMode (RunningMode'),
+    RunningMode (..),
 
     -- * SamlStatusEnum
-    SamlStatusEnum (SamlStatusEnum'),
+    SamlStatusEnum (..),
 
     -- * StandbyWorkspaceRelationshipType
-    StandbyWorkspaceRelationshipType (StandbyWorkspaceRelationshipType'),
+    StandbyWorkspaceRelationshipType (..),
 
     -- * TargetWorkspaceState
-    TargetWorkspaceState (TargetWorkspaceState'),
+    TargetWorkspaceState (..),
 
     -- * Tenancy
-    Tenancy (Tenancy'),
+    Tenancy (..),
 
     -- * WorkspaceBundleState
-    WorkspaceBundleState (WorkspaceBundleState'),
+    WorkspaceBundleState (..),
 
     -- * WorkspaceDirectoryState
-    WorkspaceDirectoryState (WorkspaceDirectoryState'),
+    WorkspaceDirectoryState (..),
 
     -- * WorkspaceDirectoryType
-    WorkspaceDirectoryType (WorkspaceDirectoryType'),
+    WorkspaceDirectoryType (..),
 
     -- * WorkspaceImageIngestionProcess
-    WorkspaceImageIngestionProcess (WorkspaceImageIngestionProcess'),
+    WorkspaceImageIngestionProcess (..),
 
     -- * WorkspaceImageRequiredTenancy
-    WorkspaceImageRequiredTenancy (WorkspaceImageRequiredTenancy'),
+    WorkspaceImageRequiredTenancy (..),
 
     -- * WorkspaceImageState
-    WorkspaceImageState (WorkspaceImageState'),
+    WorkspaceImageState (..),
 
     -- * WorkspaceState
-    WorkspaceState (WorkspaceState'),
+    WorkspaceState (..),
 
     -- * AccountModification
     AccountModification (AccountModification'),

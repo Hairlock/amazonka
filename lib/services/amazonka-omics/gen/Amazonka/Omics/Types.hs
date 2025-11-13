@@ -30,88 +30,88 @@ module Amazonka.Omics.Types
     _ValidationException,
 
     -- * AnnotationType
-    AnnotationType (AnnotationType'),
+    AnnotationType (..),
 
     -- * EncryptionType
-    EncryptionType (EncryptionType'),
+    EncryptionType (..),
 
     -- * FileType
-    FileType (FileType'),
+    FileType (..),
 
     -- * FormatToHeaderKey
-    FormatToHeaderKey (FormatToHeaderKey'),
+    FormatToHeaderKey (..),
 
     -- * JobStatus
-    JobStatus (JobStatus'),
+    JobStatus (..),
 
     -- * ReadSetActivationJobItemStatus
-    ReadSetActivationJobItemStatus (ReadSetActivationJobItemStatus'),
+    ReadSetActivationJobItemStatus (..),
 
     -- * ReadSetActivationJobStatus
-    ReadSetActivationJobStatus (ReadSetActivationJobStatus'),
+    ReadSetActivationJobStatus (..),
 
     -- * ReadSetExportJobItemStatus
-    ReadSetExportJobItemStatus (ReadSetExportJobItemStatus'),
+    ReadSetExportJobItemStatus (..),
 
     -- * ReadSetExportJobStatus
-    ReadSetExportJobStatus (ReadSetExportJobStatus'),
+    ReadSetExportJobStatus (..),
 
     -- * ReadSetFile
-    ReadSetFile (ReadSetFile'),
+    ReadSetFile (..),
 
     -- * ReadSetImportJobItemStatus
-    ReadSetImportJobItemStatus (ReadSetImportJobItemStatus'),
+    ReadSetImportJobItemStatus (..),
 
     -- * ReadSetImportJobStatus
-    ReadSetImportJobStatus (ReadSetImportJobStatus'),
+    ReadSetImportJobStatus (..),
 
     -- * ReadSetStatus
-    ReadSetStatus (ReadSetStatus'),
+    ReadSetStatus (..),
 
     -- * ReferenceFile
-    ReferenceFile (ReferenceFile'),
+    ReferenceFile (..),
 
     -- * ReferenceImportJobItemStatus
-    ReferenceImportJobItemStatus (ReferenceImportJobItemStatus'),
+    ReferenceImportJobItemStatus (..),
 
     -- * ReferenceImportJobStatus
-    ReferenceImportJobStatus (ReferenceImportJobStatus'),
+    ReferenceImportJobStatus (..),
 
     -- * ReferenceStatus
-    ReferenceStatus (ReferenceStatus'),
+    ReferenceStatus (..),
 
     -- * RunExport
-    RunExport (RunExport'),
+    RunExport (..),
 
     -- * RunLogLevel
-    RunLogLevel (RunLogLevel'),
+    RunLogLevel (..),
 
     -- * RunStatus
-    RunStatus (RunStatus'),
+    RunStatus (..),
 
     -- * SchemaValueType
-    SchemaValueType (SchemaValueType'),
+    SchemaValueType (..),
 
     -- * StoreFormat
-    StoreFormat (StoreFormat'),
+    StoreFormat (..),
 
     -- * StoreStatus
-    StoreStatus (StoreStatus'),
+    StoreStatus (..),
 
     -- * TaskStatus
-    TaskStatus (TaskStatus'),
+    TaskStatus (..),
 
     -- * WorkflowEngine
-    WorkflowEngine (WorkflowEngine'),
+    WorkflowEngine (..),
 
     -- * WorkflowExport
-    WorkflowExport (WorkflowExport'),
+    WorkflowExport (..),
 
     -- * WorkflowStatus
-    WorkflowStatus (WorkflowStatus'),
+    WorkflowStatus (..),
 
     -- * WorkflowType
-    WorkflowType (WorkflowType'),
+    WorkflowType (..),
 
     -- * ActivateReadSetFilter
     ActivateReadSetFilter (ActivateReadSetFilter'),

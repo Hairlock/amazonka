@@ -58,58 +58,58 @@ module Amazonka.CodePipeline.Types
     _WebhookNotFoundException,
 
     -- * ActionCategory
-    ActionCategory (ActionCategory'),
+    ActionCategory (..),
 
     -- * ActionConfigurationPropertyType
-    ActionConfigurationPropertyType (ActionConfigurationPropertyType'),
+    ActionConfigurationPropertyType (..),
 
     -- * ActionExecutionStatus
-    ActionExecutionStatus (ActionExecutionStatus'),
+    ActionExecutionStatus (..),
 
     -- * ActionOwner
-    ActionOwner (ActionOwner'),
+    ActionOwner (..),
 
     -- * ApprovalStatus
-    ApprovalStatus (ApprovalStatus'),
+    ApprovalStatus (..),
 
     -- * ArtifactLocationType
-    ArtifactLocationType (ArtifactLocationType'),
+    ArtifactLocationType (..),
 
     -- * ArtifactStoreType
-    ArtifactStoreType (ArtifactStoreType'),
+    ArtifactStoreType (..),
 
     -- * BlockerType
-    BlockerType (BlockerType'),
+    BlockerType (..),
 
     -- * EncryptionKeyType
-    EncryptionKeyType (EncryptionKeyType'),
+    EncryptionKeyType (..),
 
     -- * ExecutorType
-    ExecutorType (ExecutorType'),
+    ExecutorType (..),
 
     -- * FailureType
-    FailureType (FailureType'),
+    FailureType (..),
 
     -- * JobStatus
-    JobStatus (JobStatus'),
+    JobStatus (..),
 
     -- * PipelineExecutionStatus
-    PipelineExecutionStatus (PipelineExecutionStatus'),
+    PipelineExecutionStatus (..),
 
     -- * StageExecutionStatus
-    StageExecutionStatus (StageExecutionStatus'),
+    StageExecutionStatus (..),
 
     -- * StageRetryMode
-    StageRetryMode (StageRetryMode'),
+    StageRetryMode (..),
 
     -- * StageTransitionType
-    StageTransitionType (StageTransitionType'),
+    StageTransitionType (..),
 
     -- * TriggerType
-    TriggerType (TriggerType'),
+    TriggerType (..),
 
     -- * WebhookAuthenticationType
-    WebhookAuthenticationType (WebhookAuthenticationType'),
+    WebhookAuthenticationType (..),
 
     -- * AWSSessionCredentials
     AWSSessionCredentials (AWSSessionCredentials'),

@@ -21,7 +21,7 @@ module Amazonka.SageMakerMetrics.Types
     -- * Errors
 
     -- * PutMetricsErrorCode
-    PutMetricsErrorCode (PutMetricsErrorCode'),
+    PutMetricsErrorCode (..),
 
     -- * BatchPutMetricsError
     BatchPutMetricsError (BatchPutMetricsError'),

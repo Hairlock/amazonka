@@ -36,49 +36,49 @@ module Amazonka.KinesisVideo.Types
     _VersionMismatchException,
 
     -- * APIName
-    APIName (APIName'),
+    APIName (..),
 
     -- * ChannelProtocol
-    ChannelProtocol (ChannelProtocol'),
+    ChannelProtocol (..),
 
     -- * ChannelRole
-    ChannelRole (ChannelRole'),
+    ChannelRole (..),
 
     -- * ChannelType
-    ChannelType (ChannelType'),
+    ChannelType (..),
 
     -- * ComparisonOperator
-    ComparisonOperator (ComparisonOperator'),
+    ComparisonOperator (..),
 
     -- * ConfigurationStatus
-    ConfigurationStatus (ConfigurationStatus'),
+    ConfigurationStatus (..),
 
     -- * Format
-    Format (Format'),
+    Format (..),
 
     -- * FormatConfigKey
-    FormatConfigKey (FormatConfigKey'),
+    FormatConfigKey (..),
 
     -- * ImageSelectorType
-    ImageSelectorType (ImageSelectorType'),
+    ImageSelectorType (..),
 
     -- * MediaStorageConfigurationStatus
-    MediaStorageConfigurationStatus (MediaStorageConfigurationStatus'),
+    MediaStorageConfigurationStatus (..),
 
     -- * MediaUriType
-    MediaUriType (MediaUriType'),
+    MediaUriType (..),
 
     -- * StrategyOnFullSize
-    StrategyOnFullSize (StrategyOnFullSize'),
+    StrategyOnFullSize (..),
 
     -- * StreamStatus
-    StreamStatus (StreamStatus'),
+    StreamStatus (..),
 
     -- * SyncStatus
-    SyncStatus (SyncStatus'),
+    SyncStatus (..),
 
     -- * UpdateDataRetentionOperation
-    UpdateDataRetentionOperation (UpdateDataRetentionOperation'),
+    UpdateDataRetentionOperation (..),
 
     -- * ChannelInfo
     ChannelInfo (ChannelInfo'),

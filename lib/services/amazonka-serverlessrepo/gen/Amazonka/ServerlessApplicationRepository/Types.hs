@@ -27,10 +27,10 @@ module Amazonka.ServerlessApplicationRepository.Types
     _TooManyRequestsException,
 
     -- * Capability
-    Capability (Capability'),
+    Capability (..),
 
     -- * Status
-    Status (Status'),
+    Status (..),
 
     -- * ApplicationDependencySummary
     ApplicationDependencySummary (ApplicationDependencySummary'),

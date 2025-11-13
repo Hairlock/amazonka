@@ -28,16 +28,16 @@ module Amazonka.AMP.Types
     _ValidationException,
 
     -- * AlertManagerDefinitionStatusCode
-    AlertManagerDefinitionStatusCode (AlertManagerDefinitionStatusCode'),
+    AlertManagerDefinitionStatusCode (..),
 
     -- * LoggingConfigurationStatusCode
-    LoggingConfigurationStatusCode (LoggingConfigurationStatusCode'),
+    LoggingConfigurationStatusCode (..),
 
     -- * RuleGroupsNamespaceStatusCode
-    RuleGroupsNamespaceStatusCode (RuleGroupsNamespaceStatusCode'),
+    RuleGroupsNamespaceStatusCode (..),
 
     -- * WorkspaceStatusCode
-    WorkspaceStatusCode (WorkspaceStatusCode'),
+    WorkspaceStatusCode (..),
 
     -- * AlertManagerDefinitionDescription
     AlertManagerDefinitionDescription (AlertManagerDefinitionDescription'),

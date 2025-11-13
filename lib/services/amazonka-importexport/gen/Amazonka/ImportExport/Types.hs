@@ -41,7 +41,7 @@ module Amazonka.ImportExport.Types
     _UnableToUpdateJobIdException,
 
     -- * JobType
-    JobType (JobType'),
+    JobType (..),
 
     -- * Artifact
     Artifact (Artifact'),

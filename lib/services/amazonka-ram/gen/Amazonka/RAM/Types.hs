@@ -43,31 +43,31 @@ module Amazonka.RAM.Types
     _UnknownResourceException,
 
     -- * ResourceOwner
-    ResourceOwner (ResourceOwner'),
+    ResourceOwner (..),
 
     -- * ResourceRegionScope
-    ResourceRegionScope (ResourceRegionScope'),
+    ResourceRegionScope (..),
 
     -- * ResourceRegionScopeFilter
-    ResourceRegionScopeFilter (ResourceRegionScopeFilter'),
+    ResourceRegionScopeFilter (..),
 
     -- * ResourceShareAssociationStatus
-    ResourceShareAssociationStatus (ResourceShareAssociationStatus'),
+    ResourceShareAssociationStatus (..),
 
     -- * ResourceShareAssociationType
-    ResourceShareAssociationType (ResourceShareAssociationType'),
+    ResourceShareAssociationType (..),
 
     -- * ResourceShareFeatureSet
-    ResourceShareFeatureSet (ResourceShareFeatureSet'),
+    ResourceShareFeatureSet (..),
 
     -- * ResourceShareInvitationStatus
-    ResourceShareInvitationStatus (ResourceShareInvitationStatus'),
+    ResourceShareInvitationStatus (..),
 
     -- * ResourceShareStatus
-    ResourceShareStatus (ResourceShareStatus'),
+    ResourceShareStatus (..),
 
     -- * ResourceStatus
-    ResourceStatus (ResourceStatus'),
+    ResourceStatus (..),
 
     -- * Principal
     Principal (Principal'),

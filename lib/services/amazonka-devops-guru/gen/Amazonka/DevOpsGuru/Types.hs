@@ -28,76 +28,76 @@ module Amazonka.DevOpsGuru.Types
     _ValidationException,
 
     -- * AnomalySeverity
-    AnomalySeverity (AnomalySeverity'),
+    AnomalySeverity (..),
 
     -- * AnomalyStatus
-    AnomalyStatus (AnomalyStatus'),
+    AnomalyStatus (..),
 
     -- * AnomalyType
-    AnomalyType (AnomalyType'),
+    AnomalyType (..),
 
     -- * CloudWatchMetricDataStatusCode
-    CloudWatchMetricDataStatusCode (CloudWatchMetricDataStatusCode'),
+    CloudWatchMetricDataStatusCode (..),
 
     -- * CloudWatchMetricsStat
-    CloudWatchMetricsStat (CloudWatchMetricsStat'),
+    CloudWatchMetricsStat (..),
 
     -- * CostEstimationServiceResourceState
-    CostEstimationServiceResourceState (CostEstimationServiceResourceState'),
+    CostEstimationServiceResourceState (..),
 
     -- * CostEstimationStatus
-    CostEstimationStatus (CostEstimationStatus'),
+    CostEstimationStatus (..),
 
     -- * EventClass
-    EventClass (EventClass'),
+    EventClass (..),
 
     -- * EventDataSource
-    EventDataSource (EventDataSource'),
+    EventDataSource (..),
 
     -- * EventSourceOptInStatus
-    EventSourceOptInStatus (EventSourceOptInStatus'),
+    EventSourceOptInStatus (..),
 
     -- * InsightFeedbackOption
-    InsightFeedbackOption (InsightFeedbackOption'),
+    InsightFeedbackOption (..),
 
     -- * InsightSeverity
-    InsightSeverity (InsightSeverity'),
+    InsightSeverity (..),
 
     -- * InsightStatus
-    InsightStatus (InsightStatus'),
+    InsightStatus (..),
 
     -- * InsightType
-    InsightType (InsightType'),
+    InsightType (..),
 
     -- * Locale
-    Locale (Locale'),
+    Locale (..),
 
     -- * LogAnomalyType
-    LogAnomalyType (LogAnomalyType'),
+    LogAnomalyType (..),
 
     -- * NotificationMessageType
-    NotificationMessageType (NotificationMessageType'),
+    NotificationMessageType (..),
 
     -- * OptInStatus
-    OptInStatus (OptInStatus'),
+    OptInStatus (..),
 
     -- * OrganizationResourceCollectionType
-    OrganizationResourceCollectionType (OrganizationResourceCollectionType'),
+    OrganizationResourceCollectionType (..),
 
     -- * ResourceCollectionType
-    ResourceCollectionType (ResourceCollectionType'),
+    ResourceCollectionType (..),
 
     -- * ResourcePermission
-    ResourcePermission (ResourcePermission'),
+    ResourcePermission (..),
 
     -- * ResourceTypeFilter
-    ResourceTypeFilter (ResourceTypeFilter'),
+    ResourceTypeFilter (..),
 
     -- * ServiceName
-    ServiceName (ServiceName'),
+    ServiceName (..),
 
     -- * UpdateResourceCollectionAction
-    UpdateResourceCollectionAction (UpdateResourceCollectionAction'),
+    UpdateResourceCollectionAction (..),
 
     -- * AccountHealth
     AccountHealth (AccountHealth'),

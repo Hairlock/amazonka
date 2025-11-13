@@ -31,58 +31,58 @@ module Amazonka.ChimeSdkVoice.Types
     _UnauthorizedClientException,
 
     -- * AlexaSkillStatus
-    AlexaSkillStatus (AlexaSkillStatus'),
+    AlexaSkillStatus (..),
 
     -- * CallingNameStatus
-    CallingNameStatus (CallingNameStatus'),
+    CallingNameStatus (..),
 
     -- * Capability
-    Capability (Capability'),
+    Capability (..),
 
     -- * ErrorCode
-    ErrorCode (ErrorCode'),
+    ErrorCode (..),
 
     -- * GeoMatchLevel
-    GeoMatchLevel (GeoMatchLevel'),
+    GeoMatchLevel (..),
 
     -- * NotificationTarget
-    NotificationTarget (NotificationTarget'),
+    NotificationTarget (..),
 
     -- * NumberSelectionBehavior
-    NumberSelectionBehavior (NumberSelectionBehavior'),
+    NumberSelectionBehavior (..),
 
     -- * OrderedPhoneNumberStatus
-    OrderedPhoneNumberStatus (OrderedPhoneNumberStatus'),
+    OrderedPhoneNumberStatus (..),
 
     -- * OriginationRouteProtocol
-    OriginationRouteProtocol (OriginationRouteProtocol'),
+    OriginationRouteProtocol (..),
 
     -- * PhoneNumberAssociationName
-    PhoneNumberAssociationName (PhoneNumberAssociationName'),
+    PhoneNumberAssociationName (..),
 
     -- * PhoneNumberOrderStatus
-    PhoneNumberOrderStatus (PhoneNumberOrderStatus'),
+    PhoneNumberOrderStatus (..),
 
     -- * PhoneNumberOrderType
-    PhoneNumberOrderType (PhoneNumberOrderType'),
+    PhoneNumberOrderType (..),
 
     -- * PhoneNumberProductType
-    PhoneNumberProductType (PhoneNumberProductType'),
+    PhoneNumberProductType (..),
 
     -- * PhoneNumberStatus
-    PhoneNumberStatus (PhoneNumberStatus'),
+    PhoneNumberStatus (..),
 
     -- * PhoneNumberType
-    PhoneNumberType (PhoneNumberType'),
+    PhoneNumberType (..),
 
     -- * ProxySessionStatus
-    ProxySessionStatus (ProxySessionStatus'),
+    ProxySessionStatus (..),
 
     -- * SipRuleTriggerType
-    SipRuleTriggerType (SipRuleTriggerType'),
+    SipRuleTriggerType (..),
 
     -- * VoiceConnectorAwsRegion
-    VoiceConnectorAwsRegion (VoiceConnectorAwsRegion'),
+    VoiceConnectorAwsRegion (..),
 
     -- * Address
     Address (Address'),

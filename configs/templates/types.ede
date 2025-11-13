@@ -44,7 +44,7 @@ module {{ moduleName }}
     {% when "sum" %}
 
     -- * {{ shape.value.name }}
-    , {{ shape.value.name }} ({{ shape.value.constructor.name }})
+    , {{ shape.value.name }} (..)
     {% endcase %}
   {% endfor %}
     ) where

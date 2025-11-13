@@ -27,49 +27,49 @@ module Amazonka.PrivateNetworks.Types
     _ValidationException,
 
     -- * AcknowledgmentStatus
-    AcknowledgmentStatus (AcknowledgmentStatus'),
+    AcknowledgmentStatus (..),
 
     -- * DeviceIdentifierFilterKeys
-    DeviceIdentifierFilterKeys (DeviceIdentifierFilterKeys'),
+    DeviceIdentifierFilterKeys (..),
 
     -- * DeviceIdentifierStatus
-    DeviceIdentifierStatus (DeviceIdentifierStatus'),
+    DeviceIdentifierStatus (..),
 
     -- * ElevationReference
-    ElevationReference (ElevationReference'),
+    ElevationReference (..),
 
     -- * ElevationUnit
-    ElevationUnit (ElevationUnit'),
+    ElevationUnit (..),
 
     -- * HealthStatus
-    HealthStatus (HealthStatus'),
+    HealthStatus (..),
 
     -- * NetworkFilterKeys
-    NetworkFilterKeys (NetworkFilterKeys'),
+    NetworkFilterKeys (..),
 
     -- * NetworkResourceDefinitionType
-    NetworkResourceDefinitionType (NetworkResourceDefinitionType'),
+    NetworkResourceDefinitionType (..),
 
     -- * NetworkResourceFilterKeys
-    NetworkResourceFilterKeys (NetworkResourceFilterKeys'),
+    NetworkResourceFilterKeys (..),
 
     -- * NetworkResourceStatus
-    NetworkResourceStatus (NetworkResourceStatus'),
+    NetworkResourceStatus (..),
 
     -- * NetworkResourceType
-    NetworkResourceType (NetworkResourceType'),
+    NetworkResourceType (..),
 
     -- * NetworkSiteFilterKeys
-    NetworkSiteFilterKeys (NetworkSiteFilterKeys'),
+    NetworkSiteFilterKeys (..),
 
     -- * NetworkSiteStatus
-    NetworkSiteStatus (NetworkSiteStatus'),
+    NetworkSiteStatus (..),
 
     -- * NetworkStatus
-    NetworkStatus (NetworkStatus'),
+    NetworkStatus (..),
 
     -- * OrderFilterKeys
-    OrderFilterKeys (OrderFilterKeys'),
+    OrderFilterKeys (..),
 
     -- * Address
     Address (Address'),

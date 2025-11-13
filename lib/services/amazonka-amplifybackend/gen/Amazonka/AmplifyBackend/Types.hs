@@ -25,52 +25,52 @@ module Amazonka.AmplifyBackend.Types
     _TooManyRequestsException,
 
     -- * AdditionalConstraintsElement
-    AdditionalConstraintsElement (AdditionalConstraintsElement'),
+    AdditionalConstraintsElement (..),
 
     -- * AuthResources
-    AuthResources (AuthResources'),
+    AuthResources (..),
 
     -- * AuthenticatedElement
-    AuthenticatedElement (AuthenticatedElement'),
+    AuthenticatedElement (..),
 
     -- * DeliveryMethod
-    DeliveryMethod (DeliveryMethod'),
+    DeliveryMethod (..),
 
     -- * MFAMode
-    MFAMode (MFAMode'),
+    MFAMode (..),
 
     -- * MfaTypesElement
-    MfaTypesElement (MfaTypesElement'),
+    MfaTypesElement (..),
 
     -- * Mode
-    Mode (Mode'),
+    Mode (..),
 
     -- * OAuthGrantType
-    OAuthGrantType (OAuthGrantType'),
+    OAuthGrantType (..),
 
     -- * OAuthScopesElement
-    OAuthScopesElement (OAuthScopesElement'),
+    OAuthScopesElement (..),
 
     -- * RequiredSignUpAttributesElement
-    RequiredSignUpAttributesElement (RequiredSignUpAttributesElement'),
+    RequiredSignUpAttributesElement (..),
 
     -- * ResolutionStrategy
-    ResolutionStrategy (ResolutionStrategy'),
+    ResolutionStrategy (..),
 
     -- * Service
-    Service (Service'),
+    Service (..),
 
     -- * ServiceName
-    ServiceName (ServiceName'),
+    ServiceName (..),
 
     -- * SignInMethod
-    SignInMethod (SignInMethod'),
+    SignInMethod (..),
 
     -- * Status
-    Status (Status'),
+    Status (..),
 
     -- * UnAuthenticatedElement
-    UnAuthenticatedElement (UnAuthenticatedElement'),
+    UnAuthenticatedElement (..),
 
     -- * BackendAPIAppSyncAuthSettings
     BackendAPIAppSyncAuthSettings (BackendAPIAppSyncAuthSettings'),

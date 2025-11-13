@@ -28,40 +28,40 @@ module Amazonka.VoiceId.Types
     _ValidationException,
 
     -- * AuthenticationDecision
-    AuthenticationDecision (AuthenticationDecision'),
+    AuthenticationDecision (..),
 
     -- * DomainStatus
-    DomainStatus (DomainStatus'),
+    DomainStatus (..),
 
     -- * DuplicateRegistrationAction
-    DuplicateRegistrationAction (DuplicateRegistrationAction'),
+    DuplicateRegistrationAction (..),
 
     -- * ExistingEnrollmentAction
-    ExistingEnrollmentAction (ExistingEnrollmentAction'),
+    ExistingEnrollmentAction (..),
 
     -- * FraudDetectionAction
-    FraudDetectionAction (FraudDetectionAction'),
+    FraudDetectionAction (..),
 
     -- * FraudDetectionDecision
-    FraudDetectionDecision (FraudDetectionDecision'),
+    FraudDetectionDecision (..),
 
     -- * FraudDetectionReason
-    FraudDetectionReason (FraudDetectionReason'),
+    FraudDetectionReason (..),
 
     -- * FraudsterRegistrationJobStatus
-    FraudsterRegistrationJobStatus (FraudsterRegistrationJobStatus'),
+    FraudsterRegistrationJobStatus (..),
 
     -- * ServerSideEncryptionUpdateStatus
-    ServerSideEncryptionUpdateStatus (ServerSideEncryptionUpdateStatus'),
+    ServerSideEncryptionUpdateStatus (..),
 
     -- * SpeakerEnrollmentJobStatus
-    SpeakerEnrollmentJobStatus (SpeakerEnrollmentJobStatus'),
+    SpeakerEnrollmentJobStatus (..),
 
     -- * SpeakerStatus
-    SpeakerStatus (SpeakerStatus'),
+    SpeakerStatus (..),
 
     -- * StreamingStatus
-    StreamingStatus (StreamingStatus'),
+    StreamingStatus (..),
 
     -- * AuthenticationConfiguration
     AuthenticationConfiguration (AuthenticationConfiguration'),

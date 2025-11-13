@@ -31,25 +31,25 @@ module Amazonka.Signer.Types
     _ValidationException,
 
     -- * Category
-    Category (Category'),
+    Category (..),
 
     -- * EncryptionAlgorithm
-    EncryptionAlgorithm (EncryptionAlgorithm'),
+    EncryptionAlgorithm (..),
 
     -- * HashAlgorithm
-    HashAlgorithm (HashAlgorithm'),
+    HashAlgorithm (..),
 
     -- * ImageFormat
-    ImageFormat (ImageFormat'),
+    ImageFormat (..),
 
     -- * SigningProfileStatus
-    SigningProfileStatus (SigningProfileStatus'),
+    SigningProfileStatus (..),
 
     -- * SigningStatus
-    SigningStatus (SigningStatus'),
+    SigningStatus (..),
 
     -- * ValidityType
-    ValidityType (ValidityType'),
+    ValidityType (..),
 
     -- * Destination
     Destination (Destination'),

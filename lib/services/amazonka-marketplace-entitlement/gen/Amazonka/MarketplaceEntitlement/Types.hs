@@ -24,7 +24,7 @@ module Amazonka.MarketplaceEntitlement.Types
     _ThrottlingException,
 
     -- * GetEntitlementFilterName
-    GetEntitlementFilterName (GetEntitlementFilterName'),
+    GetEntitlementFilterName (..),
 
     -- * Entitlement
     Entitlement (Entitlement'),

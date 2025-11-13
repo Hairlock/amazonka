@@ -48,22 +48,22 @@ module Amazonka.DAX.Types
     _TagQuotaPerResourceExceeded,
 
     -- * ChangeType
-    ChangeType (ChangeType'),
+    ChangeType (..),
 
     -- * ClusterEndpointEncryptionType
-    ClusterEndpointEncryptionType (ClusterEndpointEncryptionType'),
+    ClusterEndpointEncryptionType (..),
 
     -- * IsModifiable
-    IsModifiable (IsModifiable'),
+    IsModifiable (..),
 
     -- * ParameterType
-    ParameterType (ParameterType'),
+    ParameterType (..),
 
     -- * SSEStatus
-    SSEStatus (SSEStatus'),
+    SSEStatus (..),
 
     -- * SourceType
-    SourceType (SourceType'),
+    SourceType (..),
 
     -- * Cluster
     Cluster (Cluster'),

@@ -55,52 +55,52 @@ module Amazonka.SES.Types
     _TrackingOptionsDoesNotExistException,
 
     -- * BehaviorOnMXFailure
-    BehaviorOnMXFailure (BehaviorOnMXFailure'),
+    BehaviorOnMXFailure (..),
 
     -- * BounceType
-    BounceType (BounceType'),
+    BounceType (..),
 
     -- * BulkEmailStatus
-    BulkEmailStatus (BulkEmailStatus'),
+    BulkEmailStatus (..),
 
     -- * ConfigurationSetAttribute
-    ConfigurationSetAttribute (ConfigurationSetAttribute'),
+    ConfigurationSetAttribute (..),
 
     -- * CustomMailFromStatus
-    CustomMailFromStatus (CustomMailFromStatus'),
+    CustomMailFromStatus (..),
 
     -- * DimensionValueSource
-    DimensionValueSource (DimensionValueSource'),
+    DimensionValueSource (..),
 
     -- * DsnAction
-    DsnAction (DsnAction'),
+    DsnAction (..),
 
     -- * EventType
-    EventType (EventType'),
+    EventType (..),
 
     -- * IdentityType
-    IdentityType (IdentityType'),
+    IdentityType (..),
 
     -- * InvocationType
-    InvocationType (InvocationType'),
+    InvocationType (..),
 
     -- * NotificationType
-    NotificationType (NotificationType'),
+    NotificationType (..),
 
     -- * ReceiptFilterPolicy
-    ReceiptFilterPolicy (ReceiptFilterPolicy'),
+    ReceiptFilterPolicy (..),
 
     -- * SNSActionEncoding
-    SNSActionEncoding (SNSActionEncoding'),
+    SNSActionEncoding (..),
 
     -- * StopScope
-    StopScope (StopScope'),
+    StopScope (..),
 
     -- * TlsPolicy
-    TlsPolicy (TlsPolicy'),
+    TlsPolicy (..),
 
     -- * VerificationStatus
-    VerificationStatus (VerificationStatus'),
+    VerificationStatus (..),
 
     -- * AddHeaderAction
     AddHeaderAction (AddHeaderAction'),

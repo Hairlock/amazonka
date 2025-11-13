@@ -30,25 +30,25 @@ module Amazonka.ConnectCampaigns.Types
     _ValidationException,
 
     -- * CampaignState
-    CampaignState (CampaignState'),
+    CampaignState (..),
 
     -- * EncryptionType
-    EncryptionType (EncryptionType'),
+    EncryptionType (..),
 
     -- * FailureCode
-    FailureCode (FailureCode'),
+    FailureCode (..),
 
     -- * GetCampaignStateBatchFailureCode
-    GetCampaignStateBatchFailureCode (GetCampaignStateBatchFailureCode'),
+    GetCampaignStateBatchFailureCode (..),
 
     -- * InstanceIdFilterOperator
-    InstanceIdFilterOperator (InstanceIdFilterOperator'),
+    InstanceIdFilterOperator (..),
 
     -- * InstanceOnboardingJobFailureCode
-    InstanceOnboardingJobFailureCode (InstanceOnboardingJobFailureCode'),
+    InstanceOnboardingJobFailureCode (..),
 
     -- * InstanceOnboardingJobStatusCode
-    InstanceOnboardingJobStatusCode (InstanceOnboardingJobStatusCode'),
+    InstanceOnboardingJobStatusCode (..),
 
     -- * AnswerMachineDetectionConfig
     AnswerMachineDetectionConfig (AnswerMachineDetectionConfig'),

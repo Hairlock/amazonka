@@ -28,34 +28,34 @@ module Amazonka.CodeArtifact.Types
     _ValidationException,
 
     -- * AllowPublish
-    AllowPublish (AllowPublish'),
+    AllowPublish (..),
 
     -- * AllowUpstream
-    AllowUpstream (AllowUpstream'),
+    AllowUpstream (..),
 
     -- * DomainStatus
-    DomainStatus (DomainStatus'),
+    DomainStatus (..),
 
     -- * ExternalConnectionStatus
-    ExternalConnectionStatus (ExternalConnectionStatus'),
+    ExternalConnectionStatus (..),
 
     -- * HashAlgorithm
-    HashAlgorithm (HashAlgorithm'),
+    HashAlgorithm (..),
 
     -- * PackageFormat
-    PackageFormat (PackageFormat'),
+    PackageFormat (..),
 
     -- * PackageVersionErrorCode
-    PackageVersionErrorCode (PackageVersionErrorCode'),
+    PackageVersionErrorCode (..),
 
     -- * PackageVersionOriginType
-    PackageVersionOriginType (PackageVersionOriginType'),
+    PackageVersionOriginType (..),
 
     -- * PackageVersionSortType
-    PackageVersionSortType (PackageVersionSortType'),
+    PackageVersionSortType (..),
 
     -- * PackageVersionStatus
-    PackageVersionStatus (PackageVersionStatus'),
+    PackageVersionStatus (..),
 
     -- * AssetSummary
     AssetSummary (AssetSummary'),

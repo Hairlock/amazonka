@@ -29,10 +29,10 @@ module Amazonka.Mobile.Types
     _UnauthorizedException,
 
     -- * Platform
-    Platform (Platform'),
+    Platform (..),
 
     -- * ProjectState
-    ProjectState (ProjectState'),
+    ProjectState (..),
 
     -- * BundleDetails
     BundleDetails (BundleDetails'),

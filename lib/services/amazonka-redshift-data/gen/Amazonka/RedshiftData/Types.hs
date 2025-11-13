@@ -28,10 +28,10 @@ module Amazonka.RedshiftData.Types
     _ValidationException,
 
     -- * StatementStatusString
-    StatementStatusString (StatementStatusString'),
+    StatementStatusString (..),
 
     -- * StatusString
-    StatusString (StatusString'),
+    StatusString (..),
 
     -- * ColumnMetadata
     ColumnMetadata (ColumnMetadata'),

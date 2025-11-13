@@ -38,58 +38,58 @@ module Amazonka.LicenseManager.Types
     _ValidationException,
 
     -- * AllowedOperation
-    AllowedOperation (AllowedOperation'),
+    AllowedOperation (..),
 
     -- * CheckoutType
-    CheckoutType (CheckoutType'),
+    CheckoutType (..),
 
     -- * DigitalSignatureMethod
-    DigitalSignatureMethod (DigitalSignatureMethod'),
+    DigitalSignatureMethod (..),
 
     -- * EntitlementDataUnit
-    EntitlementDataUnit (EntitlementDataUnit'),
+    EntitlementDataUnit (..),
 
     -- * EntitlementUnit
-    EntitlementUnit (EntitlementUnit'),
+    EntitlementUnit (..),
 
     -- * GrantStatus
-    GrantStatus (GrantStatus'),
+    GrantStatus (..),
 
     -- * InventoryFilterCondition
-    InventoryFilterCondition (InventoryFilterCondition'),
+    InventoryFilterCondition (..),
 
     -- * LicenseConfigurationStatus
-    LicenseConfigurationStatus (LicenseConfigurationStatus'),
+    LicenseConfigurationStatus (..),
 
     -- * LicenseConversionTaskStatus
-    LicenseConversionTaskStatus (LicenseConversionTaskStatus'),
+    LicenseConversionTaskStatus (..),
 
     -- * LicenseCountingType
-    LicenseCountingType (LicenseCountingType'),
+    LicenseCountingType (..),
 
     -- * LicenseDeletionStatus
-    LicenseDeletionStatus (LicenseDeletionStatus'),
+    LicenseDeletionStatus (..),
 
     -- * LicenseStatus
-    LicenseStatus (LicenseStatus'),
+    LicenseStatus (..),
 
     -- * ReceivedStatus
-    ReceivedStatus (ReceivedStatus'),
+    ReceivedStatus (..),
 
     -- * RenewType
-    RenewType (RenewType'),
+    RenewType (..),
 
     -- * ReportFrequencyType
-    ReportFrequencyType (ReportFrequencyType'),
+    ReportFrequencyType (..),
 
     -- * ReportType
-    ReportType (ReportType'),
+    ReportType (..),
 
     -- * ResourceType
-    ResourceType (ResourceType'),
+    ResourceType (..),
 
     -- * TokenType
-    TokenType (TokenType'),
+    TokenType (..),
 
     -- * AutomatedDiscoveryInformation
     AutomatedDiscoveryInformation (AutomatedDiscoveryInformation'),

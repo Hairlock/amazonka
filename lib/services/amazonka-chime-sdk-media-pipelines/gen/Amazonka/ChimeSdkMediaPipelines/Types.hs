@@ -29,61 +29,61 @@ module Amazonka.ChimeSdkMediaPipelines.Types
     _UnauthorizedClientException,
 
     -- * ArtifactsConcatenationState
-    ArtifactsConcatenationState (ArtifactsConcatenationState'),
+    ArtifactsConcatenationState (..),
 
     -- * ArtifactsState
-    ArtifactsState (ArtifactsState'),
+    ArtifactsState (..),
 
     -- * AudioArtifactsConcatenationState
-    AudioArtifactsConcatenationState (AudioArtifactsConcatenationState'),
+    AudioArtifactsConcatenationState (..),
 
     -- * AudioChannelsOption
-    AudioChannelsOption (AudioChannelsOption'),
+    AudioChannelsOption (..),
 
     -- * AudioMuxType
-    AudioMuxType (AudioMuxType'),
+    AudioMuxType (..),
 
     -- * ConcatenationSinkType
-    ConcatenationSinkType (ConcatenationSinkType'),
+    ConcatenationSinkType (..),
 
     -- * ConcatenationSourceType
-    ConcatenationSourceType (ConcatenationSourceType'),
+    ConcatenationSourceType (..),
 
     -- * ContentMuxType
-    ContentMuxType (ContentMuxType'),
+    ContentMuxType (..),
 
     -- * ContentShareLayoutOption
-    ContentShareLayoutOption (ContentShareLayoutOption'),
+    ContentShareLayoutOption (..),
 
     -- * LayoutOption
-    LayoutOption (LayoutOption'),
+    LayoutOption (..),
 
     -- * LiveConnectorMuxType
-    LiveConnectorMuxType (LiveConnectorMuxType'),
+    LiveConnectorMuxType (..),
 
     -- * LiveConnectorSinkType
-    LiveConnectorSinkType (LiveConnectorSinkType'),
+    LiveConnectorSinkType (..),
 
     -- * LiveConnectorSourceType
-    LiveConnectorSourceType (LiveConnectorSourceType'),
+    LiveConnectorSourceType (..),
 
     -- * MediaPipelineSinkType
-    MediaPipelineSinkType (MediaPipelineSinkType'),
+    MediaPipelineSinkType (..),
 
     -- * MediaPipelineSourceType
-    MediaPipelineSourceType (MediaPipelineSourceType'),
+    MediaPipelineSourceType (..),
 
     -- * MediaPipelineStatus
-    MediaPipelineStatus (MediaPipelineStatus'),
+    MediaPipelineStatus (..),
 
     -- * PresenterPosition
-    PresenterPosition (PresenterPosition'),
+    PresenterPosition (..),
 
     -- * ResolutionOption
-    ResolutionOption (ResolutionOption'),
+    ResolutionOption (..),
 
     -- * VideoMuxType
-    VideoMuxType (VideoMuxType'),
+    VideoMuxType (..),
 
     -- * ArtifactsConcatenationConfiguration
     ArtifactsConcatenationConfiguration (ArtifactsConcatenationConfiguration'),

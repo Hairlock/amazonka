@@ -27,52 +27,52 @@ module Amazonka.Forecast.Types
     _ResourceNotFoundException,
 
     -- * AttributeType
-    AttributeType (AttributeType'),
+    AttributeType (..),
 
     -- * AutoMLOverrideStrategy
-    AutoMLOverrideStrategy (AutoMLOverrideStrategy'),
+    AutoMLOverrideStrategy (..),
 
     -- * Condition
-    Condition (Condition'),
+    Condition (..),
 
     -- * DatasetType
-    DatasetType (DatasetType'),
+    DatasetType (..),
 
     -- * DayOfWeek
-    DayOfWeek (DayOfWeek'),
+    DayOfWeek (..),
 
     -- * Domain
-    Domain (Domain'),
+    Domain (..),
 
     -- * EvaluationType
-    EvaluationType (EvaluationType'),
+    EvaluationType (..),
 
     -- * FeaturizationMethodName
-    FeaturizationMethodName (FeaturizationMethodName'),
+    FeaturizationMethodName (..),
 
     -- * FilterConditionString
-    FilterConditionString (FilterConditionString'),
+    FilterConditionString (..),
 
     -- * Month
-    Month (Month'),
+    Month (..),
 
     -- * Operation
-    Operation (Operation'),
+    Operation (..),
 
     -- * OptimizationMetric
-    OptimizationMetric (OptimizationMetric'),
+    OptimizationMetric (..),
 
     -- * ScalingType
-    ScalingType (ScalingType'),
+    ScalingType (..),
 
     -- * State
-    State (State'),
+    State (..),
 
     -- * TimePointGranularity
-    TimePointGranularity (TimePointGranularity'),
+    TimePointGranularity (..),
 
     -- * TimeSeriesGranularity
-    TimeSeriesGranularity (TimeSeriesGranularity'),
+    TimeSeriesGranularity (..),
 
     -- * Action
     Action (Action'),

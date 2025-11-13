@@ -46,178 +46,178 @@ module Amazonka.ECS.Types
     _UpdateInProgressException,
 
     -- * AgentUpdateStatus
-    AgentUpdateStatus (AgentUpdateStatus'),
+    AgentUpdateStatus (..),
 
     -- * ApplicationProtocol
-    ApplicationProtocol (ApplicationProtocol'),
+    ApplicationProtocol (..),
 
     -- * AssignPublicIp
-    AssignPublicIp (AssignPublicIp'),
+    AssignPublicIp (..),
 
     -- * CPUArchitecture
-    CPUArchitecture (CPUArchitecture'),
+    CPUArchitecture (..),
 
     -- * CapacityProviderField
-    CapacityProviderField (CapacityProviderField'),
+    CapacityProviderField (..),
 
     -- * CapacityProviderStatus
-    CapacityProviderStatus (CapacityProviderStatus'),
+    CapacityProviderStatus (..),
 
     -- * CapacityProviderUpdateStatus
-    CapacityProviderUpdateStatus (CapacityProviderUpdateStatus'),
+    CapacityProviderUpdateStatus (..),
 
     -- * ClusterField
-    ClusterField (ClusterField'),
+    ClusterField (..),
 
     -- * ClusterSettingName
-    ClusterSettingName (ClusterSettingName'),
+    ClusterSettingName (..),
 
     -- * Compatibility
-    Compatibility (Compatibility'),
+    Compatibility (..),
 
     -- * Connectivity
-    Connectivity (Connectivity'),
+    Connectivity (..),
 
     -- * ContainerCondition
-    ContainerCondition (ContainerCondition'),
+    ContainerCondition (..),
 
     -- * ContainerInstanceField
-    ContainerInstanceField (ContainerInstanceField'),
+    ContainerInstanceField (..),
 
     -- * ContainerInstanceStatus
-    ContainerInstanceStatus (ContainerInstanceStatus'),
+    ContainerInstanceStatus (..),
 
     -- * DeploymentControllerType
-    DeploymentControllerType (DeploymentControllerType'),
+    DeploymentControllerType (..),
 
     -- * DeploymentRolloutState
-    DeploymentRolloutState (DeploymentRolloutState'),
+    DeploymentRolloutState (..),
 
     -- * DesiredStatus
-    DesiredStatus (DesiredStatus'),
+    DesiredStatus (..),
 
     -- * DeviceCgroupPermission
-    DeviceCgroupPermission (DeviceCgroupPermission'),
+    DeviceCgroupPermission (..),
 
     -- * EFSAuthorizationConfigIAM
-    EFSAuthorizationConfigIAM (EFSAuthorizationConfigIAM'),
+    EFSAuthorizationConfigIAM (..),
 
     -- * EFSTransitEncryption
-    EFSTransitEncryption (EFSTransitEncryption'),
+    EFSTransitEncryption (..),
 
     -- * EnvironmentFileType
-    EnvironmentFileType (EnvironmentFileType'),
+    EnvironmentFileType (..),
 
     -- * ExecuteCommandLogging
-    ExecuteCommandLogging (ExecuteCommandLogging'),
+    ExecuteCommandLogging (..),
 
     -- * FirelensConfigurationType
-    FirelensConfigurationType (FirelensConfigurationType'),
+    FirelensConfigurationType (..),
 
     -- * HealthStatus
-    HealthStatus (HealthStatus'),
+    HealthStatus (..),
 
     -- * InstanceHealthCheckState
-    InstanceHealthCheckState (InstanceHealthCheckState'),
+    InstanceHealthCheckState (..),
 
     -- * InstanceHealthCheckType
-    InstanceHealthCheckType (InstanceHealthCheckType'),
+    InstanceHealthCheckType (..),
 
     -- * IpcMode
-    IpcMode (IpcMode'),
+    IpcMode (..),
 
     -- * LaunchType
-    LaunchType (LaunchType'),
+    LaunchType (..),
 
     -- * LogDriver
-    LogDriver (LogDriver'),
+    LogDriver (..),
 
     -- * ManagedAgentName
-    ManagedAgentName (ManagedAgentName'),
+    ManagedAgentName (..),
 
     -- * ManagedScalingStatus
-    ManagedScalingStatus (ManagedScalingStatus'),
+    ManagedScalingStatus (..),
 
     -- * ManagedTerminationProtection
-    ManagedTerminationProtection (ManagedTerminationProtection'),
+    ManagedTerminationProtection (..),
 
     -- * NetworkMode
-    NetworkMode (NetworkMode'),
+    NetworkMode (..),
 
     -- * OSFamily
-    OSFamily (OSFamily'),
+    OSFamily (..),
 
     -- * PidMode
-    PidMode (PidMode'),
+    PidMode (..),
 
     -- * PlacementConstraintType
-    PlacementConstraintType (PlacementConstraintType'),
+    PlacementConstraintType (..),
 
     -- * PlacementStrategyType
-    PlacementStrategyType (PlacementStrategyType'),
+    PlacementStrategyType (..),
 
     -- * PlatformDeviceType
-    PlatformDeviceType (PlatformDeviceType'),
+    PlatformDeviceType (..),
 
     -- * PropagateTags
-    PropagateTags (PropagateTags'),
+    PropagateTags (..),
 
     -- * ProxyConfigurationType
-    ProxyConfigurationType (ProxyConfigurationType'),
+    ProxyConfigurationType (..),
 
     -- * ResourceType
-    ResourceType (ResourceType'),
+    ResourceType (..),
 
     -- * ScaleUnit
-    ScaleUnit (ScaleUnit'),
+    ScaleUnit (..),
 
     -- * SchedulingStrategy
-    SchedulingStrategy (SchedulingStrategy'),
+    SchedulingStrategy (..),
 
     -- * Scope
-    Scope (Scope'),
+    Scope (..),
 
     -- * ServiceField
-    ServiceField (ServiceField'),
+    ServiceField (..),
 
     -- * SettingName
-    SettingName (SettingName'),
+    SettingName (..),
 
     -- * SortOrder
-    SortOrder (SortOrder'),
+    SortOrder (..),
 
     -- * StabilityStatus
-    StabilityStatus (StabilityStatus'),
+    StabilityStatus (..),
 
     -- * TargetType
-    TargetType (TargetType'),
+    TargetType (..),
 
     -- * TaskDefinitionFamilyStatus
-    TaskDefinitionFamilyStatus (TaskDefinitionFamilyStatus'),
+    TaskDefinitionFamilyStatus (..),
 
     -- * TaskDefinitionField
-    TaskDefinitionField (TaskDefinitionField'),
+    TaskDefinitionField (..),
 
     -- * TaskDefinitionPlacementConstraintType
-    TaskDefinitionPlacementConstraintType (TaskDefinitionPlacementConstraintType'),
+    TaskDefinitionPlacementConstraintType (..),
 
     -- * TaskDefinitionStatus
-    TaskDefinitionStatus (TaskDefinitionStatus'),
+    TaskDefinitionStatus (..),
 
     -- * TaskField
-    TaskField (TaskField'),
+    TaskField (..),
 
     -- * TaskSetField
-    TaskSetField (TaskSetField'),
+    TaskSetField (..),
 
     -- * TaskStopCode
-    TaskStopCode (TaskStopCode'),
+    TaskStopCode (..),
 
     -- * TransportProtocol
-    TransportProtocol (TransportProtocol'),
+    TransportProtocol (..),
 
     -- * UlimitName
-    UlimitName (UlimitName'),
+    UlimitName (..),
 
     -- * Attachment
     Attachment (Attachment'),

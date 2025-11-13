@@ -34,37 +34,37 @@ module Amazonka.Shield.Types
     _ResourceNotFoundException,
 
     -- * ApplicationLayerAutomaticResponseStatus
-    ApplicationLayerAutomaticResponseStatus (ApplicationLayerAutomaticResponseStatus'),
+    ApplicationLayerAutomaticResponseStatus (..),
 
     -- * AttackLayer
-    AttackLayer (AttackLayer'),
+    AttackLayer (..),
 
     -- * AttackPropertyIdentifier
-    AttackPropertyIdentifier (AttackPropertyIdentifier'),
+    AttackPropertyIdentifier (..),
 
     -- * AutoRenew
-    AutoRenew (AutoRenew'),
+    AutoRenew (..),
 
     -- * ProactiveEngagementStatus
-    ProactiveEngagementStatus (ProactiveEngagementStatus'),
+    ProactiveEngagementStatus (..),
 
     -- * ProtectedResourceType
-    ProtectedResourceType (ProtectedResourceType'),
+    ProtectedResourceType (..),
 
     -- * ProtectionGroupAggregation
-    ProtectionGroupAggregation (ProtectionGroupAggregation'),
+    ProtectionGroupAggregation (..),
 
     -- * ProtectionGroupPattern
-    ProtectionGroupPattern (ProtectionGroupPattern'),
+    ProtectionGroupPattern (..),
 
     -- * SubResourceType
-    SubResourceType (SubResourceType'),
+    SubResourceType (..),
 
     -- * SubscriptionState
-    SubscriptionState (SubscriptionState'),
+    SubscriptionState (..),
 
     -- * Unit
-    Unit (Unit'),
+    Unit (..),
 
     -- * ApplicationLayerAutomaticResponseConfiguration
     ApplicationLayerAutomaticResponseConfiguration (ApplicationLayerAutomaticResponseConfiguration'),

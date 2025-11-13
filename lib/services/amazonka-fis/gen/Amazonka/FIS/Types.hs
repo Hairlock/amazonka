@@ -25,10 +25,10 @@ module Amazonka.FIS.Types
     _ValidationException,
 
     -- * ExperimentActionStatus
-    ExperimentActionStatus (ExperimentActionStatus'),
+    ExperimentActionStatus (..),
 
     -- * ExperimentStatus
-    ExperimentStatus (ExperimentStatus'),
+    ExperimentStatus (..),
 
     -- * Action
     Action (Action'),

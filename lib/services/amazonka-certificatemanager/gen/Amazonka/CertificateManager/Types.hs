@@ -37,49 +37,49 @@ module Amazonka.CertificateManager.Types
     _ValidationException,
 
     -- * CertificateStatus
-    CertificateStatus (CertificateStatus'),
+    CertificateStatus (..),
 
     -- * CertificateTransparencyLoggingPreference
-    CertificateTransparencyLoggingPreference (CertificateTransparencyLoggingPreference'),
+    CertificateTransparencyLoggingPreference (..),
 
     -- * CertificateType
-    CertificateType (CertificateType'),
+    CertificateType (..),
 
     -- * DomainStatus
-    DomainStatus (DomainStatus'),
+    DomainStatus (..),
 
     -- * ExtendedKeyUsageName
-    ExtendedKeyUsageName (ExtendedKeyUsageName'),
+    ExtendedKeyUsageName (..),
 
     -- * FailureReason
-    FailureReason (FailureReason'),
+    FailureReason (..),
 
     -- * KeyAlgorithm
-    KeyAlgorithm (KeyAlgorithm'),
+    KeyAlgorithm (..),
 
     -- * KeyUsageName
-    KeyUsageName (KeyUsageName'),
+    KeyUsageName (..),
 
     -- * RecordType
-    RecordType (RecordType'),
+    RecordType (..),
 
     -- * RenewalEligibility
-    RenewalEligibility (RenewalEligibility'),
+    RenewalEligibility (..),
 
     -- * RenewalStatus
-    RenewalStatus (RenewalStatus'),
+    RenewalStatus (..),
 
     -- * RevocationReason
-    RevocationReason (RevocationReason'),
+    RevocationReason (..),
 
     -- * SortBy
-    SortBy (SortBy'),
+    SortBy (..),
 
     -- * SortOrder
-    SortOrder (SortOrder'),
+    SortOrder (..),
 
     -- * ValidationMethod
-    ValidationMethod (ValidationMethod'),
+    ValidationMethod (..),
 
     -- * CertificateDetail
     CertificateDetail (CertificateDetail'),

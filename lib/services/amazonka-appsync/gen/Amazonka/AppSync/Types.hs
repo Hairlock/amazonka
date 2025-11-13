@@ -32,55 +32,55 @@ module Amazonka.AppSync.Types
     _UnauthorizedException,
 
     -- * ApiCacheStatus
-    ApiCacheStatus (ApiCacheStatus'),
+    ApiCacheStatus (..),
 
     -- * ApiCacheType
-    ApiCacheType (ApiCacheType'),
+    ApiCacheType (..),
 
     -- * ApiCachingBehavior
-    ApiCachingBehavior (ApiCachingBehavior'),
+    ApiCachingBehavior (..),
 
     -- * AssociationStatus
-    AssociationStatus (AssociationStatus'),
+    AssociationStatus (..),
 
     -- * AuthenticationType
-    AuthenticationType (AuthenticationType'),
+    AuthenticationType (..),
 
     -- * AuthorizationType
-    AuthorizationType (AuthorizationType'),
+    AuthorizationType (..),
 
     -- * ConflictDetectionType
-    ConflictDetectionType (ConflictDetectionType'),
+    ConflictDetectionType (..),
 
     -- * ConflictHandlerType
-    ConflictHandlerType (ConflictHandlerType'),
+    ConflictHandlerType (..),
 
     -- * DataSourceType
-    DataSourceType (DataSourceType'),
+    DataSourceType (..),
 
     -- * DefaultAction
-    DefaultAction (DefaultAction'),
+    DefaultAction (..),
 
     -- * FieldLogLevel
-    FieldLogLevel (FieldLogLevel'),
+    FieldLogLevel (..),
 
     -- * OutputType
-    OutputType (OutputType'),
+    OutputType (..),
 
     -- * RelationalDatabaseSourceType
-    RelationalDatabaseSourceType (RelationalDatabaseSourceType'),
+    RelationalDatabaseSourceType (..),
 
     -- * ResolverKind
-    ResolverKind (ResolverKind'),
+    ResolverKind (..),
 
     -- * RuntimeName
-    RuntimeName (RuntimeName'),
+    RuntimeName (..),
 
     -- * SchemaStatus
-    SchemaStatus (SchemaStatus'),
+    SchemaStatus (..),
 
     -- * TypeDefinitionFormat
-    TypeDefinitionFormat (TypeDefinitionFormat'),
+    TypeDefinitionFormat (..),
 
     -- * AdditionalAuthenticationProvider
     AdditionalAuthenticationProvider (AdditionalAuthenticationProvider'),

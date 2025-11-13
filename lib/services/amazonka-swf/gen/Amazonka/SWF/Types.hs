@@ -31,82 +31,82 @@ module Amazonka.SWF.Types
     _WorkflowExecutionAlreadyStartedFault,
 
     -- * ActivityTaskTimeoutType
-    ActivityTaskTimeoutType (ActivityTaskTimeoutType'),
+    ActivityTaskTimeoutType (..),
 
     -- * CancelTimerFailedCause
-    CancelTimerFailedCause (CancelTimerFailedCause'),
+    CancelTimerFailedCause (..),
 
     -- * CancelWorkflowExecutionFailedCause
-    CancelWorkflowExecutionFailedCause (CancelWorkflowExecutionFailedCause'),
+    CancelWorkflowExecutionFailedCause (..),
 
     -- * ChildPolicy
-    ChildPolicy (ChildPolicy'),
+    ChildPolicy (..),
 
     -- * CloseStatus
-    CloseStatus (CloseStatus'),
+    CloseStatus (..),
 
     -- * CompleteWorkflowExecutionFailedCause
-    CompleteWorkflowExecutionFailedCause (CompleteWorkflowExecutionFailedCause'),
+    CompleteWorkflowExecutionFailedCause (..),
 
     -- * ContinueAsNewWorkflowExecutionFailedCause
-    ContinueAsNewWorkflowExecutionFailedCause (ContinueAsNewWorkflowExecutionFailedCause'),
+    ContinueAsNewWorkflowExecutionFailedCause (..),
 
     -- * DecisionTaskTimeoutType
-    DecisionTaskTimeoutType (DecisionTaskTimeoutType'),
+    DecisionTaskTimeoutType (..),
 
     -- * DecisionType
-    DecisionType (DecisionType'),
+    DecisionType (..),
 
     -- * EventType
-    EventType (EventType'),
+    EventType (..),
 
     -- * ExecutionStatus
-    ExecutionStatus (ExecutionStatus'),
+    ExecutionStatus (..),
 
     -- * FailWorkflowExecutionFailedCause
-    FailWorkflowExecutionFailedCause (FailWorkflowExecutionFailedCause'),
+    FailWorkflowExecutionFailedCause (..),
 
     -- * LambdaFunctionTimeoutType
-    LambdaFunctionTimeoutType (LambdaFunctionTimeoutType'),
+    LambdaFunctionTimeoutType (..),
 
     -- * RecordMarkerFailedCause
-    RecordMarkerFailedCause (RecordMarkerFailedCause'),
+    RecordMarkerFailedCause (..),
 
     -- * RegistrationStatus
-    RegistrationStatus (RegistrationStatus'),
+    RegistrationStatus (..),
 
     -- * RequestCancelActivityTaskFailedCause
-    RequestCancelActivityTaskFailedCause (RequestCancelActivityTaskFailedCause'),
+    RequestCancelActivityTaskFailedCause (..),
 
     -- * RequestCancelExternalWorkflowExecutionFailedCause
-    RequestCancelExternalWorkflowExecutionFailedCause (RequestCancelExternalWorkflowExecutionFailedCause'),
+    RequestCancelExternalWorkflowExecutionFailedCause (..),
 
     -- * ScheduleActivityTaskFailedCause
-    ScheduleActivityTaskFailedCause (ScheduleActivityTaskFailedCause'),
+    ScheduleActivityTaskFailedCause (..),
 
     -- * ScheduleLambdaFunctionFailedCause
-    ScheduleLambdaFunctionFailedCause (ScheduleLambdaFunctionFailedCause'),
+    ScheduleLambdaFunctionFailedCause (..),
 
     -- * SignalExternalWorkflowExecutionFailedCause
-    SignalExternalWorkflowExecutionFailedCause (SignalExternalWorkflowExecutionFailedCause'),
+    SignalExternalWorkflowExecutionFailedCause (..),
 
     -- * StartChildWorkflowExecutionFailedCause
-    StartChildWorkflowExecutionFailedCause (StartChildWorkflowExecutionFailedCause'),
+    StartChildWorkflowExecutionFailedCause (..),
 
     -- * StartLambdaFunctionFailedCause
-    StartLambdaFunctionFailedCause (StartLambdaFunctionFailedCause'),
+    StartLambdaFunctionFailedCause (..),
 
     -- * StartTimerFailedCause
-    StartTimerFailedCause (StartTimerFailedCause'),
+    StartTimerFailedCause (..),
 
     -- * WorkflowExecutionCancelRequestedCause
-    WorkflowExecutionCancelRequestedCause (WorkflowExecutionCancelRequestedCause'),
+    WorkflowExecutionCancelRequestedCause (..),
 
     -- * WorkflowExecutionTerminatedCause
-    WorkflowExecutionTerminatedCause (WorkflowExecutionTerminatedCause'),
+    WorkflowExecutionTerminatedCause (..),
 
     -- * WorkflowExecutionTimeoutType
-    WorkflowExecutionTimeoutType (WorkflowExecutionTimeoutType'),
+    WorkflowExecutionTimeoutType (..),
 
     -- * ActivityTaskCancelRequestedEventAttributes
     ActivityTaskCancelRequestedEventAttributes (ActivityTaskCancelRequestedEventAttributes'),

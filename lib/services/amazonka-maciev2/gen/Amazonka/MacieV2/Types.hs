@@ -29,169 +29,169 @@ module Amazonka.MacieV2.Types
     _ValidationException,
 
     -- * AdminStatus
-    AdminStatus (AdminStatus'),
+    AdminStatus (..),
 
     -- * AllowListStatusCode
-    AllowListStatusCode (AllowListStatusCode'),
+    AllowListStatusCode (..),
 
     -- * AllowsUnencryptedObjectUploads
-    AllowsUnencryptedObjectUploads (AllowsUnencryptedObjectUploads'),
+    AllowsUnencryptedObjectUploads (..),
 
     -- * AutomatedDiscoveryStatus
-    AutomatedDiscoveryStatus (AutomatedDiscoveryStatus'),
+    AutomatedDiscoveryStatus (..),
 
     -- * AvailabilityCode
-    AvailabilityCode (AvailabilityCode'),
+    AvailabilityCode (..),
 
     -- * BucketMetadataErrorCode
-    BucketMetadataErrorCode (BucketMetadataErrorCode'),
+    BucketMetadataErrorCode (..),
 
     -- * ClassificationScopeUpdateOperation
-    ClassificationScopeUpdateOperation (ClassificationScopeUpdateOperation'),
+    ClassificationScopeUpdateOperation (..),
 
     -- * Currency
-    Currency (Currency'),
+    Currency (..),
 
     -- * DataIdentifierSeverity
-    DataIdentifierSeverity (DataIdentifierSeverity'),
+    DataIdentifierSeverity (..),
 
     -- * DataIdentifierType
-    DataIdentifierType (DataIdentifierType'),
+    DataIdentifierType (..),
 
     -- * DayOfWeek
-    DayOfWeek (DayOfWeek'),
+    DayOfWeek (..),
 
     -- * EffectivePermission
-    EffectivePermission (EffectivePermission'),
+    EffectivePermission (..),
 
     -- * EncryptionType
-    EncryptionType (EncryptionType'),
+    EncryptionType (..),
 
     -- * ErrorCode
-    ErrorCode (ErrorCode'),
+    ErrorCode (..),
 
     -- * FindingActionType
-    FindingActionType (FindingActionType'),
+    FindingActionType (..),
 
     -- * FindingCategory
-    FindingCategory (FindingCategory'),
+    FindingCategory (..),
 
     -- * FindingPublishingFrequency
-    FindingPublishingFrequency (FindingPublishingFrequency'),
+    FindingPublishingFrequency (..),
 
     -- * FindingStatisticsSortAttributeName
-    FindingStatisticsSortAttributeName (FindingStatisticsSortAttributeName'),
+    FindingStatisticsSortAttributeName (..),
 
     -- * FindingType
-    FindingType (FindingType'),
+    FindingType (..),
 
     -- * FindingsFilterAction
-    FindingsFilterAction (FindingsFilterAction'),
+    FindingsFilterAction (..),
 
     -- * GroupBy
-    GroupBy (GroupBy'),
+    GroupBy (..),
 
     -- * IsDefinedInJob
-    IsDefinedInJob (IsDefinedInJob'),
+    IsDefinedInJob (..),
 
     -- * IsMonitoredByJob
-    IsMonitoredByJob (IsMonitoredByJob'),
+    IsMonitoredByJob (..),
 
     -- * JobComparator
-    JobComparator (JobComparator'),
+    JobComparator (..),
 
     -- * JobStatus
-    JobStatus (JobStatus'),
+    JobStatus (..),
 
     -- * JobType
-    JobType (JobType'),
+    JobType (..),
 
     -- * LastRunErrorStatusCode
-    LastRunErrorStatusCode (LastRunErrorStatusCode'),
+    LastRunErrorStatusCode (..),
 
     -- * ListJobsFilterKey
-    ListJobsFilterKey (ListJobsFilterKey'),
+    ListJobsFilterKey (..),
 
     -- * ListJobsSortAttributeName
-    ListJobsSortAttributeName (ListJobsSortAttributeName'),
+    ListJobsSortAttributeName (..),
 
     -- * MacieStatus
-    MacieStatus (MacieStatus'),
+    MacieStatus (..),
 
     -- * ManagedDataIdentifierSelector
-    ManagedDataIdentifierSelector (ManagedDataIdentifierSelector'),
+    ManagedDataIdentifierSelector (..),
 
     -- * OrderBy
-    OrderBy (OrderBy'),
+    OrderBy (..),
 
     -- * OriginType
-    OriginType (OriginType'),
+    OriginType (..),
 
     -- * RelationshipStatus
-    RelationshipStatus (RelationshipStatus'),
+    RelationshipStatus (..),
 
     -- * RevealRequestStatus
-    RevealRequestStatus (RevealRequestStatus'),
+    RevealRequestStatus (..),
 
     -- * RevealStatus
-    RevealStatus (RevealStatus'),
+    RevealStatus (..),
 
     -- * ScopeFilterKey
-    ScopeFilterKey (ScopeFilterKey'),
+    ScopeFilterKey (..),
 
     -- * SearchResourcesComparator
-    SearchResourcesComparator (SearchResourcesComparator'),
+    SearchResourcesComparator (..),
 
     -- * SearchResourcesSimpleCriterionKey
-    SearchResourcesSimpleCriterionKey (SearchResourcesSimpleCriterionKey'),
+    SearchResourcesSimpleCriterionKey (..),
 
     -- * SearchResourcesSortAttributeName
-    SearchResourcesSortAttributeName (SearchResourcesSortAttributeName'),
+    SearchResourcesSortAttributeName (..),
 
     -- * SensitiveDataItemCategory
-    SensitiveDataItemCategory (SensitiveDataItemCategory'),
+    SensitiveDataItemCategory (..),
 
     -- * SeverityDescription
-    SeverityDescription (SeverityDescription'),
+    SeverityDescription (..),
 
     -- * SharedAccess
-    SharedAccess (SharedAccess'),
+    SharedAccess (..),
 
     -- * SimpleCriterionKeyForJob
-    SimpleCriterionKeyForJob (SimpleCriterionKeyForJob'),
+    SimpleCriterionKeyForJob (..),
 
     -- * StorageClass
-    StorageClass (StorageClass'),
+    StorageClass (..),
 
     -- * TagTarget
-    TagTarget (TagTarget'),
+    TagTarget (..),
 
     -- * TimeRange
-    TimeRange (TimeRange'),
+    TimeRange (..),
 
     -- * Type
-    Type (Type'),
+    Type (..),
 
     -- * UnavailabilityReasonCode
-    UnavailabilityReasonCode (UnavailabilityReasonCode'),
+    UnavailabilityReasonCode (..),
 
     -- * Unit
-    Unit (Unit'),
+    Unit (..),
 
     -- * UsageStatisticsFilterComparator
-    UsageStatisticsFilterComparator (UsageStatisticsFilterComparator'),
+    UsageStatisticsFilterComparator (..),
 
     -- * UsageStatisticsFilterKey
-    UsageStatisticsFilterKey (UsageStatisticsFilterKey'),
+    UsageStatisticsFilterKey (..),
 
     -- * UsageStatisticsSortKey
-    UsageStatisticsSortKey (UsageStatisticsSortKey'),
+    UsageStatisticsSortKey (..),
 
     -- * UsageType
-    UsageType (UsageType'),
+    UsageType (..),
 
     -- * UserIdentityType
-    UserIdentityType (UserIdentityType'),
+    UserIdentityType (..),
 
     -- * AccessControlList
     AccessControlList (AccessControlList'),

@@ -133,97 +133,97 @@ module Amazonka.CodeDeploy.Types
     _UnsupportedActionForDeploymentTypeException,
 
     -- * ApplicationRevisionSortBy
-    ApplicationRevisionSortBy (ApplicationRevisionSortBy'),
+    ApplicationRevisionSortBy (..),
 
     -- * AutoRollbackEvent
-    AutoRollbackEvent (AutoRollbackEvent'),
+    AutoRollbackEvent (..),
 
     -- * BundleType
-    BundleType (BundleType'),
+    BundleType (..),
 
     -- * ComputePlatform
-    ComputePlatform (ComputePlatform'),
+    ComputePlatform (..),
 
     -- * DeployErrorCode
-    DeployErrorCode (DeployErrorCode'),
+    DeployErrorCode (..),
 
     -- * DeploymentCreator
-    DeploymentCreator (DeploymentCreator'),
+    DeploymentCreator (..),
 
     -- * DeploymentOption
-    DeploymentOption (DeploymentOption'),
+    DeploymentOption (..),
 
     -- * DeploymentReadyAction
-    DeploymentReadyAction (DeploymentReadyAction'),
+    DeploymentReadyAction (..),
 
     -- * DeploymentStatus
-    DeploymentStatus (DeploymentStatus'),
+    DeploymentStatus (..),
 
     -- * DeploymentTargetType
-    DeploymentTargetType (DeploymentTargetType'),
+    DeploymentTargetType (..),
 
     -- * DeploymentType
-    DeploymentType (DeploymentType'),
+    DeploymentType (..),
 
     -- * DeploymentWaitType
-    DeploymentWaitType (DeploymentWaitType'),
+    DeploymentWaitType (..),
 
     -- * EC2TagFilterType
-    EC2TagFilterType (EC2TagFilterType'),
+    EC2TagFilterType (..),
 
     -- * FileExistsBehavior
-    FileExistsBehavior (FileExistsBehavior'),
+    FileExistsBehavior (..),
 
     -- * GreenFleetProvisioningAction
-    GreenFleetProvisioningAction (GreenFleetProvisioningAction'),
+    GreenFleetProvisioningAction (..),
 
     -- * InstanceAction
-    InstanceAction (InstanceAction'),
+    InstanceAction (..),
 
     -- * LifecycleErrorCode
-    LifecycleErrorCode (LifecycleErrorCode'),
+    LifecycleErrorCode (..),
 
     -- * LifecycleEventStatus
-    LifecycleEventStatus (LifecycleEventStatus'),
+    LifecycleEventStatus (..),
 
     -- * ListStateFilterAction
-    ListStateFilterAction (ListStateFilterAction'),
+    ListStateFilterAction (..),
 
     -- * MinimumHealthyHostsType
-    MinimumHealthyHostsType (MinimumHealthyHostsType'),
+    MinimumHealthyHostsType (..),
 
     -- * OutdatedInstancesStrategy
-    OutdatedInstancesStrategy (OutdatedInstancesStrategy'),
+    OutdatedInstancesStrategy (..),
 
     -- * RegistrationStatus
-    RegistrationStatus (RegistrationStatus'),
+    RegistrationStatus (..),
 
     -- * RevisionLocationType
-    RevisionLocationType (RevisionLocationType'),
+    RevisionLocationType (..),
 
     -- * SortOrder
-    SortOrder (SortOrder'),
+    SortOrder (..),
 
     -- * StopStatus
-    StopStatus (StopStatus'),
+    StopStatus (..),
 
     -- * TagFilterType
-    TagFilterType (TagFilterType'),
+    TagFilterType (..),
 
     -- * TargetFilterName
-    TargetFilterName (TargetFilterName'),
+    TargetFilterName (..),
 
     -- * TargetLabel
-    TargetLabel (TargetLabel'),
+    TargetLabel (..),
 
     -- * TargetStatus
-    TargetStatus (TargetStatus'),
+    TargetStatus (..),
 
     -- * TrafficRoutingType
-    TrafficRoutingType (TrafficRoutingType'),
+    TrafficRoutingType (..),
 
     -- * TriggerEventType
-    TriggerEventType (TriggerEventType'),
+    TriggerEventType (..),
 
     -- * Alarm
     Alarm (Alarm'),

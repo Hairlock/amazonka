@@ -27,58 +27,58 @@ module Amazonka.Pipes.Types
     _ValidationException,
 
     -- * AssignPublicIp
-    AssignPublicIp (AssignPublicIp'),
+    AssignPublicIp (..),
 
     -- * BatchJobDependencyType
-    BatchJobDependencyType (BatchJobDependencyType'),
+    BatchJobDependencyType (..),
 
     -- * BatchResourceRequirementType
-    BatchResourceRequirementType (BatchResourceRequirementType'),
+    BatchResourceRequirementType (..),
 
     -- * DynamoDBStreamStartPosition
-    DynamoDBStreamStartPosition (DynamoDBStreamStartPosition'),
+    DynamoDBStreamStartPosition (..),
 
     -- * EcsEnvironmentFileType
-    EcsEnvironmentFileType (EcsEnvironmentFileType'),
+    EcsEnvironmentFileType (..),
 
     -- * EcsResourceRequirementType
-    EcsResourceRequirementType (EcsResourceRequirementType'),
+    EcsResourceRequirementType (..),
 
     -- * KinesisStreamStartPosition
-    KinesisStreamStartPosition (KinesisStreamStartPosition'),
+    KinesisStreamStartPosition (..),
 
     -- * LaunchType
-    LaunchType (LaunchType'),
+    LaunchType (..),
 
     -- * MSKStartPosition
-    MSKStartPosition (MSKStartPosition'),
+    MSKStartPosition (..),
 
     -- * OnPartialBatchItemFailureStreams
-    OnPartialBatchItemFailureStreams (OnPartialBatchItemFailureStreams'),
+    OnPartialBatchItemFailureStreams (..),
 
     -- * PipeState
-    PipeState (PipeState'),
+    PipeState (..),
 
     -- * PipeTargetInvocationType
-    PipeTargetInvocationType (PipeTargetInvocationType'),
+    PipeTargetInvocationType (..),
 
     -- * PlacementConstraintType
-    PlacementConstraintType (PlacementConstraintType'),
+    PlacementConstraintType (..),
 
     -- * PlacementStrategyType
-    PlacementStrategyType (PlacementStrategyType'),
+    PlacementStrategyType (..),
 
     -- * PropagateTags
-    PropagateTags (PropagateTags'),
+    PropagateTags (..),
 
     -- * RequestedPipeState
-    RequestedPipeState (RequestedPipeState'),
+    RequestedPipeState (..),
 
     -- * RequestedPipeStateDescribeResponse
-    RequestedPipeStateDescribeResponse (RequestedPipeStateDescribeResponse'),
+    RequestedPipeStateDescribeResponse (..),
 
     -- * SelfManagedKafkaStartPosition
-    SelfManagedKafkaStartPosition (SelfManagedKafkaStartPosition'),
+    SelfManagedKafkaStartPosition (..),
 
     -- * AwsVpcConfiguration
     AwsVpcConfiguration (AwsVpcConfiguration'),

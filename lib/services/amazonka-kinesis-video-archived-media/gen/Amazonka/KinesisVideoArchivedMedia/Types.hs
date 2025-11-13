@@ -30,49 +30,49 @@ module Amazonka.KinesisVideoArchivedMedia.Types
     _UnsupportedStreamMediaTypeException,
 
     -- * ClipFragmentSelectorType
-    ClipFragmentSelectorType (ClipFragmentSelectorType'),
+    ClipFragmentSelectorType (..),
 
     -- * ContainerFormat
-    ContainerFormat (ContainerFormat'),
+    ContainerFormat (..),
 
     -- * DASHDisplayFragmentNumber
-    DASHDisplayFragmentNumber (DASHDisplayFragmentNumber'),
+    DASHDisplayFragmentNumber (..),
 
     -- * DASHDisplayFragmentTimestamp
-    DASHDisplayFragmentTimestamp (DASHDisplayFragmentTimestamp'),
+    DASHDisplayFragmentTimestamp (..),
 
     -- * DASHFragmentSelectorType
-    DASHFragmentSelectorType (DASHFragmentSelectorType'),
+    DASHFragmentSelectorType (..),
 
     -- * DASHPlaybackMode
-    DASHPlaybackMode (DASHPlaybackMode'),
+    DASHPlaybackMode (..),
 
     -- * Format
-    Format (Format'),
+    Format (..),
 
     -- * FormatConfigKey
-    FormatConfigKey (FormatConfigKey'),
+    FormatConfigKey (..),
 
     -- * FragmentSelectorType
-    FragmentSelectorType (FragmentSelectorType'),
+    FragmentSelectorType (..),
 
     -- * HLSDiscontinuityMode
-    HLSDiscontinuityMode (HLSDiscontinuityMode'),
+    HLSDiscontinuityMode (..),
 
     -- * HLSDisplayFragmentTimestamp
-    HLSDisplayFragmentTimestamp (HLSDisplayFragmentTimestamp'),
+    HLSDisplayFragmentTimestamp (..),
 
     -- * HLSFragmentSelectorType
-    HLSFragmentSelectorType (HLSFragmentSelectorType'),
+    HLSFragmentSelectorType (..),
 
     -- * HLSPlaybackMode
-    HLSPlaybackMode (HLSPlaybackMode'),
+    HLSPlaybackMode (..),
 
     -- * ImageError
-    ImageError (ImageError'),
+    ImageError (..),
 
     -- * ImageSelectorType
-    ImageSelectorType (ImageSelectorType'),
+    ImageSelectorType (..),
 
     -- * ClipFragmentSelector
     ClipFragmentSelector (ClipFragmentSelector'),

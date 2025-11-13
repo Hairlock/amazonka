@@ -40,433 +40,433 @@ module Amazonka.QuickSight.Types
     _UnsupportedUserEditionException,
 
     -- * AnalysisErrorType
-    AnalysisErrorType (AnalysisErrorType'),
+    AnalysisErrorType (..),
 
     -- * AnalysisFilterAttribute
-    AnalysisFilterAttribute (AnalysisFilterAttribute'),
+    AnalysisFilterAttribute (..),
 
     -- * AnchorOption
-    AnchorOption (AnchorOption'),
+    AnchorOption (..),
 
     -- * ArcThickness
-    ArcThickness (ArcThickness'),
+    ArcThickness (..),
 
     -- * ArcThicknessOptions
-    ArcThicknessOptions (ArcThicknessOptions'),
+    ArcThicknessOptions (..),
 
     -- * AssignmentStatus
-    AssignmentStatus (AssignmentStatus'),
+    AssignmentStatus (..),
 
     -- * AuthenticationMethodOption
-    AuthenticationMethodOption (AuthenticationMethodOption'),
+    AuthenticationMethodOption (..),
 
     -- * AxisBinding
-    AxisBinding (AxisBinding'),
+    AxisBinding (..),
 
     -- * BarChartOrientation
-    BarChartOrientation (BarChartOrientation'),
+    BarChartOrientation (..),
 
     -- * BarsArrangement
-    BarsArrangement (BarsArrangement'),
+    BarsArrangement (..),
 
     -- * BaseMapStyleType
-    BaseMapStyleType (BaseMapStyleType'),
+    BaseMapStyleType (..),
 
     -- * BoxPlotFillStyle
-    BoxPlotFillStyle (BoxPlotFillStyle'),
+    BoxPlotFillStyle (..),
 
     -- * CategoricalAggregationFunction
-    CategoricalAggregationFunction (CategoricalAggregationFunction'),
+    CategoricalAggregationFunction (..),
 
     -- * CategoryFilterMatchOperator
-    CategoryFilterMatchOperator (CategoryFilterMatchOperator'),
+    CategoryFilterMatchOperator (..),
 
     -- * CategoryFilterSelectAllOptions
-    CategoryFilterSelectAllOptions (CategoryFilterSelectAllOptions'),
+    CategoryFilterSelectAllOptions (..),
 
     -- * ColorFillType
-    ColorFillType (ColorFillType'),
+    ColorFillType (..),
 
     -- * ColumnDataType
-    ColumnDataType (ColumnDataType'),
+    ColumnDataType (..),
 
     -- * ColumnRole
-    ColumnRole (ColumnRole'),
+    ColumnRole (..),
 
     -- * ColumnTagName
-    ColumnTagName (ColumnTagName'),
+    ColumnTagName (..),
 
     -- * ComparisonMethod
-    ComparisonMethod (ComparisonMethod'),
+    ComparisonMethod (..),
 
     -- * ConditionalFormattingIconDisplayOption
-    ConditionalFormattingIconDisplayOption (ConditionalFormattingIconDisplayOption'),
+    ConditionalFormattingIconDisplayOption (..),
 
     -- * ConditionalFormattingIconSetType
-    ConditionalFormattingIconSetType (ConditionalFormattingIconSetType'),
+    ConditionalFormattingIconSetType (..),
 
     -- * CrossDatasetTypes
-    CrossDatasetTypes (CrossDatasetTypes'),
+    CrossDatasetTypes (..),
 
     -- * CustomContentImageScalingConfiguration
-    CustomContentImageScalingConfiguration (CustomContentImageScalingConfiguration'),
+    CustomContentImageScalingConfiguration (..),
 
     -- * CustomContentType
-    CustomContentType (CustomContentType'),
+    CustomContentType (..),
 
     -- * DashboardBehavior
-    DashboardBehavior (DashboardBehavior'),
+    DashboardBehavior (..),
 
     -- * DashboardErrorType
-    DashboardErrorType (DashboardErrorType'),
+    DashboardErrorType (..),
 
     -- * DashboardFilterAttribute
-    DashboardFilterAttribute (DashboardFilterAttribute'),
+    DashboardFilterAttribute (..),
 
     -- * DashboardUIState
-    DashboardUIState (DashboardUIState'),
+    DashboardUIState (..),
 
     -- * DataLabelContent
-    DataLabelContent (DataLabelContent'),
+    DataLabelContent (..),
 
     -- * DataLabelOverlap
-    DataLabelOverlap (DataLabelOverlap'),
+    DataLabelOverlap (..),
 
     -- * DataLabelPosition
-    DataLabelPosition (DataLabelPosition'),
+    DataLabelPosition (..),
 
     -- * DataSetFilterAttribute
-    DataSetFilterAttribute (DataSetFilterAttribute'),
+    DataSetFilterAttribute (..),
 
     -- * DataSetImportMode
-    DataSetImportMode (DataSetImportMode'),
+    DataSetImportMode (..),
 
     -- * DataSourceErrorInfoType
-    DataSourceErrorInfoType (DataSourceErrorInfoType'),
+    DataSourceErrorInfoType (..),
 
     -- * DataSourceFilterAttribute
-    DataSourceFilterAttribute (DataSourceFilterAttribute'),
+    DataSourceFilterAttribute (..),
 
     -- * DataSourceType
-    DataSourceType (DataSourceType'),
+    DataSourceType (..),
 
     -- * DateAggregationFunction
-    DateAggregationFunction (DateAggregationFunction'),
+    DateAggregationFunction (..),
 
     -- * Edition
-    Edition (Edition'),
+    Edition (..),
 
     -- * EmbeddingIdentityType
-    EmbeddingIdentityType (EmbeddingIdentityType'),
+    EmbeddingIdentityType (..),
 
     -- * FileFormat
-    FileFormat (FileFormat'),
+    FileFormat (..),
 
     -- * FilterNullOption
-    FilterNullOption (FilterNullOption'),
+    FilterNullOption (..),
 
     -- * FilterOperator
-    FilterOperator (FilterOperator'),
+    FilterOperator (..),
 
     -- * FilterVisualScope
-    FilterVisualScope (FilterVisualScope'),
+    FilterVisualScope (..),
 
     -- * FolderFilterAttribute
-    FolderFilterAttribute (FolderFilterAttribute'),
+    FolderFilterAttribute (..),
 
     -- * FolderType
-    FolderType (FolderType'),
+    FolderType (..),
 
     -- * FontDecoration
-    FontDecoration (FontDecoration'),
+    FontDecoration (..),
 
     -- * FontStyle
-    FontStyle (FontStyle'),
+    FontStyle (..),
 
     -- * FontWeightName
-    FontWeightName (FontWeightName'),
+    FontWeightName (..),
 
     -- * ForecastComputationSeasonality
-    ForecastComputationSeasonality (ForecastComputationSeasonality'),
+    ForecastComputationSeasonality (..),
 
     -- * FunnelChartMeasureDataLabelStyle
-    FunnelChartMeasureDataLabelStyle (FunnelChartMeasureDataLabelStyle'),
+    FunnelChartMeasureDataLabelStyle (..),
 
     -- * GeoSpatialCountryCode
-    GeoSpatialCountryCode (GeoSpatialCountryCode'),
+    GeoSpatialCountryCode (..),
 
     -- * GeoSpatialDataRole
-    GeoSpatialDataRole (GeoSpatialDataRole'),
+    GeoSpatialDataRole (..),
 
     -- * GeospatialSelectedPointStyle
-    GeospatialSelectedPointStyle (GeospatialSelectedPointStyle'),
+    GeospatialSelectedPointStyle (..),
 
     -- * GroupFilterAttribute
-    GroupFilterAttribute (GroupFilterAttribute'),
+    GroupFilterAttribute (..),
 
     -- * GroupFilterOperator
-    GroupFilterOperator (GroupFilterOperator'),
+    GroupFilterOperator (..),
 
     -- * HistogramBinType
-    HistogramBinType (HistogramBinType'),
+    HistogramBinType (..),
 
     -- * HorizontalTextAlignment
-    HorizontalTextAlignment (HorizontalTextAlignment'),
+    HorizontalTextAlignment (..),
 
     -- * Icon
-    Icon (Icon'),
+    Icon (..),
 
     -- * IdentityStore
-    IdentityStore (IdentityStore'),
+    IdentityStore (..),
 
     -- * IdentityType
-    IdentityType (IdentityType'),
+    IdentityType (..),
 
     -- * IngestionErrorType
-    IngestionErrorType (IngestionErrorType'),
+    IngestionErrorType (..),
 
     -- * IngestionRequestSource
-    IngestionRequestSource (IngestionRequestSource'),
+    IngestionRequestSource (..),
 
     -- * IngestionRequestType
-    IngestionRequestType (IngestionRequestType'),
+    IngestionRequestType (..),
 
     -- * IngestionStatus
-    IngestionStatus (IngestionStatus'),
+    IngestionStatus (..),
 
     -- * IngestionType
-    IngestionType (IngestionType'),
+    IngestionType (..),
 
     -- * InputColumnDataType
-    InputColumnDataType (InputColumnDataType'),
+    InputColumnDataType (..),
 
     -- * JoinType
-    JoinType (JoinType'),
+    JoinType (..),
 
     -- * LayoutElementType
-    LayoutElementType (LayoutElementType'),
+    LayoutElementType (..),
 
     -- * LegendPosition
-    LegendPosition (LegendPosition'),
+    LegendPosition (..),
 
     -- * LineChartLineStyle
-    LineChartLineStyle (LineChartLineStyle'),
+    LineChartLineStyle (..),
 
     -- * LineChartMarkerShape
-    LineChartMarkerShape (LineChartMarkerShape'),
+    LineChartMarkerShape (..),
 
     -- * LineChartType
-    LineChartType (LineChartType'),
+    LineChartType (..),
 
     -- * LineInterpolation
-    LineInterpolation (LineInterpolation'),
+    LineInterpolation (..),
 
     -- * MapZoomMode
-    MapZoomMode (MapZoomMode'),
+    MapZoomMode (..),
 
     -- * MaximumMinimumComputationType
-    MaximumMinimumComputationType (MaximumMinimumComputationType'),
+    MaximumMinimumComputationType (..),
 
     -- * MemberType
-    MemberType (MemberType'),
+    MemberType (..),
 
     -- * MissingDataTreatmentOption
-    MissingDataTreatmentOption (MissingDataTreatmentOption'),
+    MissingDataTreatmentOption (..),
 
     -- * NamespaceErrorType
-    NamespaceErrorType (NamespaceErrorType'),
+    NamespaceErrorType (..),
 
     -- * NamespaceStatus
-    NamespaceStatus (NamespaceStatus'),
+    NamespaceStatus (..),
 
     -- * NegativeValueDisplayMode
-    NegativeValueDisplayMode (NegativeValueDisplayMode'),
+    NegativeValueDisplayMode (..),
 
     -- * NumberScale
-    NumberScale (NumberScale'),
+    NumberScale (..),
 
     -- * NumericEqualityMatchOperator
-    NumericEqualityMatchOperator (NumericEqualityMatchOperator'),
+    NumericEqualityMatchOperator (..),
 
     -- * NumericFilterSelectAllOptions
-    NumericFilterSelectAllOptions (NumericFilterSelectAllOptions'),
+    NumericFilterSelectAllOptions (..),
 
     -- * NumericSeparatorSymbol
-    NumericSeparatorSymbol (NumericSeparatorSymbol'),
+    NumericSeparatorSymbol (..),
 
     -- * OtherCategories
-    OtherCategories (OtherCategories'),
+    OtherCategories (..),
 
     -- * PanelBorderStyle
-    PanelBorderStyle (PanelBorderStyle'),
+    PanelBorderStyle (..),
 
     -- * PaperOrientation
-    PaperOrientation (PaperOrientation'),
+    PaperOrientation (..),
 
     -- * PaperSize
-    PaperSize (PaperSize'),
+    PaperSize (..),
 
     -- * ParameterValueType
-    ParameterValueType (ParameterValueType'),
+    ParameterValueType (..),
 
     -- * PivotTableConditionalFormattingScopeRole
-    PivotTableConditionalFormattingScopeRole (PivotTableConditionalFormattingScopeRole'),
+    PivotTableConditionalFormattingScopeRole (..),
 
     -- * PivotTableMetricPlacement
-    PivotTableMetricPlacement (PivotTableMetricPlacement'),
+    PivotTableMetricPlacement (..),
 
     -- * PivotTableSubtotalLevel
-    PivotTableSubtotalLevel (PivotTableSubtotalLevel'),
+    PivotTableSubtotalLevel (..),
 
     -- * PrimaryValueDisplayType
-    PrimaryValueDisplayType (PrimaryValueDisplayType'),
+    PrimaryValueDisplayType (..),
 
     -- * ReferenceLineLabelHorizontalPosition
-    ReferenceLineLabelHorizontalPosition (ReferenceLineLabelHorizontalPosition'),
+    ReferenceLineLabelHorizontalPosition (..),
 
     -- * ReferenceLineLabelVerticalPosition
-    ReferenceLineLabelVerticalPosition (ReferenceLineLabelVerticalPosition'),
+    ReferenceLineLabelVerticalPosition (..),
 
     -- * ReferenceLinePatternType
-    ReferenceLinePatternType (ReferenceLinePatternType'),
+    ReferenceLinePatternType (..),
 
     -- * ReferenceLineValueLabelRelativePosition
-    ReferenceLineValueLabelRelativePosition (ReferenceLineValueLabelRelativePosition'),
+    ReferenceLineValueLabelRelativePosition (..),
 
     -- * RelativeDateType
-    RelativeDateType (RelativeDateType'),
+    RelativeDateType (..),
 
     -- * RelativeFontSize
-    RelativeFontSize (RelativeFontSize'),
+    RelativeFontSize (..),
 
     -- * ResizeOption
-    ResizeOption (ResizeOption'),
+    ResizeOption (..),
 
     -- * ResourceStatus
-    ResourceStatus (ResourceStatus'),
+    ResourceStatus (..),
 
     -- * RowLevelPermissionFormatVersion
-    RowLevelPermissionFormatVersion (RowLevelPermissionFormatVersion'),
+    RowLevelPermissionFormatVersion (..),
 
     -- * RowLevelPermissionPolicy
-    RowLevelPermissionPolicy (RowLevelPermissionPolicy'),
+    RowLevelPermissionPolicy (..),
 
     -- * SectionPageBreakStatus
-    SectionPageBreakStatus (SectionPageBreakStatus'),
+    SectionPageBreakStatus (..),
 
     -- * SelectAllValueOptions
-    SelectAllValueOptions (SelectAllValueOptions'),
+    SelectAllValueOptions (..),
 
     -- * SelectedFieldOptions
-    SelectedFieldOptions (SelectedFieldOptions'),
+    SelectedFieldOptions (..),
 
     -- * SelectedTooltipType
-    SelectedTooltipType (SelectedTooltipType'),
+    SelectedTooltipType (..),
 
     -- * SheetContentType
-    SheetContentType (SheetContentType'),
+    SheetContentType (..),
 
     -- * SheetControlDateTimePickerType
-    SheetControlDateTimePickerType (SheetControlDateTimePickerType'),
+    SheetControlDateTimePickerType (..),
 
     -- * SheetControlListType
-    SheetControlListType (SheetControlListType'),
+    SheetControlListType (..),
 
     -- * SheetControlSliderType
-    SheetControlSliderType (SheetControlSliderType'),
+    SheetControlSliderType (..),
 
     -- * SimpleNumericalAggregationFunction
-    SimpleNumericalAggregationFunction (SimpleNumericalAggregationFunction'),
+    SimpleNumericalAggregationFunction (..),
 
     -- * SortDirection
-    SortDirection (SortDirection'),
+    SortDirection (..),
 
     -- * Status
-    Status (Status'),
+    Status (..),
 
     -- * TableBorderStyle
-    TableBorderStyle (TableBorderStyle'),
+    TableBorderStyle (..),
 
     -- * TableCellImageScalingConfiguration
-    TableCellImageScalingConfiguration (TableCellImageScalingConfiguration'),
+    TableCellImageScalingConfiguration (..),
 
     -- * TableFieldIconSetType
-    TableFieldIconSetType (TableFieldIconSetType'),
+    TableFieldIconSetType (..),
 
     -- * TableOrientation
-    TableOrientation (TableOrientation'),
+    TableOrientation (..),
 
     -- * TableTotalsPlacement
-    TableTotalsPlacement (TableTotalsPlacement'),
+    TableTotalsPlacement (..),
 
     -- * TableTotalsScrollStatus
-    TableTotalsScrollStatus (TableTotalsScrollStatus'),
+    TableTotalsScrollStatus (..),
 
     -- * TargetVisualOptions
-    TargetVisualOptions (TargetVisualOptions'),
+    TargetVisualOptions (..),
 
     -- * TemplateErrorType
-    TemplateErrorType (TemplateErrorType'),
+    TemplateErrorType (..),
 
     -- * TextQualifier
-    TextQualifier (TextQualifier'),
+    TextQualifier (..),
 
     -- * TextWrap
-    TextWrap (TextWrap'),
+    TextWrap (..),
 
     -- * ThemeErrorType
-    ThemeErrorType (ThemeErrorType'),
+    ThemeErrorType (..),
 
     -- * ThemeType
-    ThemeType (ThemeType'),
+    ThemeType (..),
 
     -- * TimeGranularity
-    TimeGranularity (TimeGranularity'),
+    TimeGranularity (..),
 
     -- * TooltipTitleType
-    TooltipTitleType (TooltipTitleType'),
+    TooltipTitleType (..),
 
     -- * TopBottomComputationType
-    TopBottomComputationType (TopBottomComputationType'),
+    TopBottomComputationType (..),
 
     -- * TopBottomSortOrder
-    TopBottomSortOrder (TopBottomSortOrder'),
+    TopBottomSortOrder (..),
 
     -- * URLTargetConfiguration
-    URLTargetConfiguration (URLTargetConfiguration'),
+    URLTargetConfiguration (..),
 
     -- * UserRole
-    UserRole (UserRole'),
+    UserRole (..),
 
     -- * ValueWhenUnsetOption
-    ValueWhenUnsetOption (ValueWhenUnsetOption'),
+    ValueWhenUnsetOption (..),
 
     -- * VerticalTextAlignment
-    VerticalTextAlignment (VerticalTextAlignment'),
+    VerticalTextAlignment (..),
 
     -- * Visibility
-    Visibility (Visibility'),
+    Visibility (..),
 
     -- * VisualCustomActionTrigger
-    VisualCustomActionTrigger (VisualCustomActionTrigger'),
+    VisualCustomActionTrigger (..),
 
     -- * WidgetStatus
-    WidgetStatus (WidgetStatus'),
+    WidgetStatus (..),
 
     -- * WordCloudCloudLayout
-    WordCloudCloudLayout (WordCloudCloudLayout'),
+    WordCloudCloudLayout (..),
 
     -- * WordCloudWordCasing
-    WordCloudWordCasing (WordCloudWordCasing'),
+    WordCloudWordCasing (..),
 
     -- * WordCloudWordOrientation
-    WordCloudWordOrientation (WordCloudWordOrientation'),
+    WordCloudWordOrientation (..),
 
     -- * WordCloudWordPadding
-    WordCloudWordPadding (WordCloudWordPadding'),
+    WordCloudWordPadding (..),
 
     -- * WordCloudWordScaling
-    WordCloudWordScaling (WordCloudWordScaling'),
+    WordCloudWordScaling (..),
 
     -- * AccountCustomization
     AccountCustomization (AccountCustomization'),

@@ -27,19 +27,19 @@ module Amazonka.CloudHSMV2.Types
     _CloudHsmTagException,
 
     -- * BackupPolicy
-    BackupPolicy (BackupPolicy'),
+    BackupPolicy (..),
 
     -- * BackupRetentionType
-    BackupRetentionType (BackupRetentionType'),
+    BackupRetentionType (..),
 
     -- * BackupState
-    BackupState (BackupState'),
+    BackupState (..),
 
     -- * ClusterState
-    ClusterState (ClusterState'),
+    ClusterState (..),
 
     -- * HsmState
-    HsmState (HsmState'),
+    HsmState (..),
 
     -- * Backup
     Backup (Backup'),

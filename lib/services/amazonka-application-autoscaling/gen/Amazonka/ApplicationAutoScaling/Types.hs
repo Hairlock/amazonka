@@ -28,28 +28,28 @@ module Amazonka.ApplicationAutoScaling.Types
     _ValidationException,
 
     -- * AdjustmentType
-    AdjustmentType (AdjustmentType'),
+    AdjustmentType (..),
 
     -- * MetricAggregationType
-    MetricAggregationType (MetricAggregationType'),
+    MetricAggregationType (..),
 
     -- * MetricStatistic
-    MetricStatistic (MetricStatistic'),
+    MetricStatistic (..),
 
     -- * MetricType
-    MetricType (MetricType'),
+    MetricType (..),
 
     -- * PolicyType
-    PolicyType (PolicyType'),
+    PolicyType (..),
 
     -- * ScalableDimension
-    ScalableDimension (ScalableDimension'),
+    ScalableDimension (..),
 
     -- * ScalingActivityStatusCode
-    ScalingActivityStatusCode (ScalingActivityStatusCode'),
+    ScalingActivityStatusCode (..),
 
     -- * ServiceNamespace
-    ServiceNamespace (ServiceNamespace'),
+    ServiceNamespace (..),
 
     -- * Alarm
     Alarm (Alarm'),

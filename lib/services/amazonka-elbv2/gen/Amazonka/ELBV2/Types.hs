@@ -58,43 +58,43 @@ module Amazonka.ELBV2.Types
     _UnsupportedProtocolException,
 
     -- * ActionTypeEnum
-    ActionTypeEnum (ActionTypeEnum'),
+    ActionTypeEnum (..),
 
     -- * AuthenticateCognitoActionConditionalBehaviorEnum
-    AuthenticateCognitoActionConditionalBehaviorEnum (AuthenticateCognitoActionConditionalBehaviorEnum'),
+    AuthenticateCognitoActionConditionalBehaviorEnum (..),
 
     -- * AuthenticateOidcActionConditionalBehaviorEnum
-    AuthenticateOidcActionConditionalBehaviorEnum (AuthenticateOidcActionConditionalBehaviorEnum'),
+    AuthenticateOidcActionConditionalBehaviorEnum (..),
 
     -- * IpAddressType
-    IpAddressType (IpAddressType'),
+    IpAddressType (..),
 
     -- * LoadBalancerSchemeEnum
-    LoadBalancerSchemeEnum (LoadBalancerSchemeEnum'),
+    LoadBalancerSchemeEnum (..),
 
     -- * LoadBalancerStateEnum
-    LoadBalancerStateEnum (LoadBalancerStateEnum'),
+    LoadBalancerStateEnum (..),
 
     -- * LoadBalancerTypeEnum
-    LoadBalancerTypeEnum (LoadBalancerTypeEnum'),
+    LoadBalancerTypeEnum (..),
 
     -- * ProtocolEnum
-    ProtocolEnum (ProtocolEnum'),
+    ProtocolEnum (..),
 
     -- * RedirectActionStatusCodeEnum
-    RedirectActionStatusCodeEnum (RedirectActionStatusCodeEnum'),
+    RedirectActionStatusCodeEnum (..),
 
     -- * TargetGroupIpAddressTypeEnum
-    TargetGroupIpAddressTypeEnum (TargetGroupIpAddressTypeEnum'),
+    TargetGroupIpAddressTypeEnum (..),
 
     -- * TargetHealthReasonEnum
-    TargetHealthReasonEnum (TargetHealthReasonEnum'),
+    TargetHealthReasonEnum (..),
 
     -- * TargetHealthStateEnum
-    TargetHealthStateEnum (TargetHealthStateEnum'),
+    TargetHealthStateEnum (..),
 
     -- * TargetTypeEnum
-    TargetTypeEnum (TargetTypeEnum'),
+    TargetTypeEnum (..),
 
     -- * Action
     Action (Action'),

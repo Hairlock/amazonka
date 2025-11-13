@@ -29,43 +29,43 @@ module Amazonka.MigrationHubReFactorSpaces.Types
     _ValidationException,
 
     -- * ApiGatewayEndpointType
-    ApiGatewayEndpointType (ApiGatewayEndpointType'),
+    ApiGatewayEndpointType (..),
 
     -- * ApplicationState
-    ApplicationState (ApplicationState'),
+    ApplicationState (..),
 
     -- * EnvironmentState
-    EnvironmentState (EnvironmentState'),
+    EnvironmentState (..),
 
     -- * ErrorCode
-    ErrorCode (ErrorCode'),
+    ErrorCode (..),
 
     -- * ErrorResourceType
-    ErrorResourceType (ErrorResourceType'),
+    ErrorResourceType (..),
 
     -- * HttpMethod
-    HttpMethod (HttpMethod'),
+    HttpMethod (..),
 
     -- * NetworkFabricType
-    NetworkFabricType (NetworkFabricType'),
+    NetworkFabricType (..),
 
     -- * ProxyType
-    ProxyType (ProxyType'),
+    ProxyType (..),
 
     -- * RouteActivationState
-    RouteActivationState (RouteActivationState'),
+    RouteActivationState (..),
 
     -- * RouteState
-    RouteState (RouteState'),
+    RouteState (..),
 
     -- * RouteType
-    RouteType (RouteType'),
+    RouteType (..),
 
     -- * ServiceEndpointType
-    ServiceEndpointType (ServiceEndpointType'),
+    ServiceEndpointType (..),
 
     -- * ServiceState
-    ServiceState (ServiceState'),
+    ServiceState (..),
 
     -- * ApiGatewayProxyConfig
     ApiGatewayProxyConfig (ApiGatewayProxyConfig'),

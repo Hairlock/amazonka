@@ -42,13 +42,13 @@ module Amazonka.CloudControl.Types
     _UnsupportedActionException,
 
     -- * HandlerErrorCode
-    HandlerErrorCode (HandlerErrorCode'),
+    HandlerErrorCode (..),
 
     -- * Operation
-    Operation (Operation'),
+    Operation (..),
 
     -- * OperationStatus
-    OperationStatus (OperationStatus'),
+    OperationStatus (..),
 
     -- * ProgressEvent
     ProgressEvent (ProgressEvent'),

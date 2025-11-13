@@ -29,13 +29,13 @@ module Amazonka.EBS.Types
     _ValidationException,
 
     -- * ChecksumAggregationMethod
-    ChecksumAggregationMethod (ChecksumAggregationMethod'),
+    ChecksumAggregationMethod (..),
 
     -- * ChecksumAlgorithm
-    ChecksumAlgorithm (ChecksumAlgorithm'),
+    ChecksumAlgorithm (..),
 
     -- * Status
-    Status (Status'),
+    Status (..),
 
     -- * Block
     Block (Block'),

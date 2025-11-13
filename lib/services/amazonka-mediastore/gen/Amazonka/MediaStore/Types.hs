@@ -27,13 +27,13 @@ module Amazonka.MediaStore.Types
     _PolicyNotFoundException,
 
     -- * ContainerLevelMetrics
-    ContainerLevelMetrics (ContainerLevelMetrics'),
+    ContainerLevelMetrics (..),
 
     -- * ContainerStatus
-    ContainerStatus (ContainerStatus'),
+    ContainerStatus (..),
 
     -- * MethodName
-    MethodName (MethodName'),
+    MethodName (..),
 
     -- * Container
     Container (Container'),

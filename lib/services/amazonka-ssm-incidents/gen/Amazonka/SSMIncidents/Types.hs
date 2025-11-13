@@ -28,28 +28,28 @@ module Amazonka.SSMIncidents.Types
     _ValidationException,
 
     -- * IncidentRecordStatus
-    IncidentRecordStatus (IncidentRecordStatus'),
+    IncidentRecordStatus (..),
 
     -- * ItemType
-    ItemType (ItemType'),
+    ItemType (..),
 
     -- * RegionStatus
-    RegionStatus (RegionStatus'),
+    RegionStatus (..),
 
     -- * ReplicationSetStatus
-    ReplicationSetStatus (ReplicationSetStatus'),
+    ReplicationSetStatus (..),
 
     -- * SortOrder
-    SortOrder (SortOrder'),
+    SortOrder (..),
 
     -- * SsmTargetAccount
-    SsmTargetAccount (SsmTargetAccount'),
+    SsmTargetAccount (..),
 
     -- * TimelineEventSort
-    TimelineEventSort (TimelineEventSort'),
+    TimelineEventSort (..),
 
     -- * VariableType
-    VariableType (VariableType'),
+    VariableType (..),
 
     -- * Action
     Action (Action'),

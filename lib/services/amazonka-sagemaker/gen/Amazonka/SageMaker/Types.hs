@@ -25,685 +25,685 @@ module Amazonka.SageMaker.Types
     _ResourceNotFound,
 
     -- * ActionStatus
-    ActionStatus (ActionStatus'),
+    ActionStatus (..),
 
     -- * AlgorithmSortBy
-    AlgorithmSortBy (AlgorithmSortBy'),
+    AlgorithmSortBy (..),
 
     -- * AlgorithmStatus
-    AlgorithmStatus (AlgorithmStatus'),
+    AlgorithmStatus (..),
 
     -- * AppImageConfigSortKey
-    AppImageConfigSortKey (AppImageConfigSortKey'),
+    AppImageConfigSortKey (..),
 
     -- * AppInstanceType
-    AppInstanceType (AppInstanceType'),
+    AppInstanceType (..),
 
     -- * AppNetworkAccessType
-    AppNetworkAccessType (AppNetworkAccessType'),
+    AppNetworkAccessType (..),
 
     -- * AppSecurityGroupManagement
-    AppSecurityGroupManagement (AppSecurityGroupManagement'),
+    AppSecurityGroupManagement (..),
 
     -- * AppSortKey
-    AppSortKey (AppSortKey'),
+    AppSortKey (..),
 
     -- * AppStatus
-    AppStatus (AppStatus'),
+    AppStatus (..),
 
     -- * AppType
-    AppType (AppType'),
+    AppType (..),
 
     -- * ArtifactSourceIdType
-    ArtifactSourceIdType (ArtifactSourceIdType'),
+    ArtifactSourceIdType (..),
 
     -- * AssemblyType
-    AssemblyType (AssemblyType'),
+    AssemblyType (..),
 
     -- * AssociationEdgeType
-    AssociationEdgeType (AssociationEdgeType'),
+    AssociationEdgeType (..),
 
     -- * AthenaResultCompressionType
-    AthenaResultCompressionType (AthenaResultCompressionType'),
+    AthenaResultCompressionType (..),
 
     -- * AthenaResultFormat
-    AthenaResultFormat (AthenaResultFormat'),
+    AthenaResultFormat (..),
 
     -- * AuthMode
-    AuthMode (AuthMode'),
+    AuthMode (..),
 
     -- * AutoMLChannelType
-    AutoMLChannelType (AutoMLChannelType'),
+    AutoMLChannelType (..),
 
     -- * AutoMLJobObjectiveType
-    AutoMLJobObjectiveType (AutoMLJobObjectiveType'),
+    AutoMLJobObjectiveType (..),
 
     -- * AutoMLJobSecondaryStatus
-    AutoMLJobSecondaryStatus (AutoMLJobSecondaryStatus'),
+    AutoMLJobSecondaryStatus (..),
 
     -- * AutoMLJobStatus
-    AutoMLJobStatus (AutoMLJobStatus'),
+    AutoMLJobStatus (..),
 
     -- * AutoMLMetricEnum
-    AutoMLMetricEnum (AutoMLMetricEnum'),
+    AutoMLMetricEnum (..),
 
     -- * AutoMLMetricExtendedEnum
-    AutoMLMetricExtendedEnum (AutoMLMetricExtendedEnum'),
+    AutoMLMetricExtendedEnum (..),
 
     -- * AutoMLMode
-    AutoMLMode (AutoMLMode'),
+    AutoMLMode (..),
 
     -- * AutoMLS3DataType
-    AutoMLS3DataType (AutoMLS3DataType'),
+    AutoMLS3DataType (..),
 
     -- * AutoMLSortBy
-    AutoMLSortBy (AutoMLSortBy'),
+    AutoMLSortBy (..),
 
     -- * AutoMLSortOrder
-    AutoMLSortOrder (AutoMLSortOrder'),
+    AutoMLSortOrder (..),
 
     -- * AwsManagedHumanLoopRequestSource
-    AwsManagedHumanLoopRequestSource (AwsManagedHumanLoopRequestSource'),
+    AwsManagedHumanLoopRequestSource (..),
 
     -- * BatchStrategy
-    BatchStrategy (BatchStrategy'),
+    BatchStrategy (..),
 
     -- * BooleanOperator
-    BooleanOperator (BooleanOperator'),
+    BooleanOperator (..),
 
     -- * CandidateSortBy
-    CandidateSortBy (CandidateSortBy'),
+    CandidateSortBy (..),
 
     -- * CandidateStatus
-    CandidateStatus (CandidateStatus'),
+    CandidateStatus (..),
 
     -- * CandidateStepType
-    CandidateStepType (CandidateStepType'),
+    CandidateStepType (..),
 
     -- * CapacitySizeType
-    CapacitySizeType (CapacitySizeType'),
+    CapacitySizeType (..),
 
     -- * CaptureMode
-    CaptureMode (CaptureMode'),
+    CaptureMode (..),
 
     -- * CaptureStatus
-    CaptureStatus (CaptureStatus'),
+    CaptureStatus (..),
 
     -- * ClarifyFeatureType
-    ClarifyFeatureType (ClarifyFeatureType'),
+    ClarifyFeatureType (..),
 
     -- * ClarifyTextGranularity
-    ClarifyTextGranularity (ClarifyTextGranularity'),
+    ClarifyTextGranularity (..),
 
     -- * ClarifyTextLanguage
-    ClarifyTextLanguage (ClarifyTextLanguage'),
+    ClarifyTextLanguage (..),
 
     -- * CodeRepositorySortBy
-    CodeRepositorySortBy (CodeRepositorySortBy'),
+    CodeRepositorySortBy (..),
 
     -- * CodeRepositorySortOrder
-    CodeRepositorySortOrder (CodeRepositorySortOrder'),
+    CodeRepositorySortOrder (..),
 
     -- * CompilationJobStatus
-    CompilationJobStatus (CompilationJobStatus'),
+    CompilationJobStatus (..),
 
     -- * CompressionType
-    CompressionType (CompressionType'),
+    CompressionType (..),
 
     -- * ConditionOutcome
-    ConditionOutcome (ConditionOutcome'),
+    ConditionOutcome (..),
 
     -- * ContainerMode
-    ContainerMode (ContainerMode'),
+    ContainerMode (..),
 
     -- * ContentClassifier
-    ContentClassifier (ContentClassifier'),
+    ContentClassifier (..),
 
     -- * DataDistributionType
-    DataDistributionType (DataDistributionType'),
+    DataDistributionType (..),
 
     -- * DetailedAlgorithmStatus
-    DetailedAlgorithmStatus (DetailedAlgorithmStatus'),
+    DetailedAlgorithmStatus (..),
 
     -- * DetailedModelPackageStatus
-    DetailedModelPackageStatus (DetailedModelPackageStatus'),
+    DetailedModelPackageStatus (..),
 
     -- * DeviceDeploymentStatus
-    DeviceDeploymentStatus (DeviceDeploymentStatus'),
+    DeviceDeploymentStatus (..),
 
     -- * DeviceSubsetType
-    DeviceSubsetType (DeviceSubsetType'),
+    DeviceSubsetType (..),
 
     -- * DirectInternetAccess
-    DirectInternetAccess (DirectInternetAccess'),
+    DirectInternetAccess (..),
 
     -- * Direction
-    Direction (Direction'),
+    Direction (..),
 
     -- * DomainStatus
-    DomainStatus (DomainStatus'),
+    DomainStatus (..),
 
     -- * EdgePackagingJobStatus
-    EdgePackagingJobStatus (EdgePackagingJobStatus'),
+    EdgePackagingJobStatus (..),
 
     -- * EdgePresetDeploymentStatus
-    EdgePresetDeploymentStatus (EdgePresetDeploymentStatus'),
+    EdgePresetDeploymentStatus (..),
 
     -- * EdgePresetDeploymentType
-    EdgePresetDeploymentType (EdgePresetDeploymentType'),
+    EdgePresetDeploymentType (..),
 
     -- * EndpointConfigSortKey
-    EndpointConfigSortKey (EndpointConfigSortKey'),
+    EndpointConfigSortKey (..),
 
     -- * EndpointSortKey
-    EndpointSortKey (EndpointSortKey'),
+    EndpointSortKey (..),
 
     -- * EndpointStatus
-    EndpointStatus (EndpointStatus'),
+    EndpointStatus (..),
 
     -- * ExecutionRoleIdentityConfig
-    ExecutionRoleIdentityConfig (ExecutionRoleIdentityConfig'),
+    ExecutionRoleIdentityConfig (..),
 
     -- * ExecutionStatus
-    ExecutionStatus (ExecutionStatus'),
+    ExecutionStatus (..),
 
     -- * FailureHandlingPolicy
-    FailureHandlingPolicy (FailureHandlingPolicy'),
+    FailureHandlingPolicy (..),
 
     -- * FeatureGroupSortBy
-    FeatureGroupSortBy (FeatureGroupSortBy'),
+    FeatureGroupSortBy (..),
 
     -- * FeatureGroupSortOrder
-    FeatureGroupSortOrder (FeatureGroupSortOrder'),
+    FeatureGroupSortOrder (..),
 
     -- * FeatureGroupStatus
-    FeatureGroupStatus (FeatureGroupStatus'),
+    FeatureGroupStatus (..),
 
     -- * FeatureStatus
-    FeatureStatus (FeatureStatus'),
+    FeatureStatus (..),
 
     -- * FeatureType
-    FeatureType (FeatureType'),
+    FeatureType (..),
 
     -- * FileSystemAccessMode
-    FileSystemAccessMode (FileSystemAccessMode'),
+    FileSystemAccessMode (..),
 
     -- * FileSystemType
-    FileSystemType (FileSystemType'),
+    FileSystemType (..),
 
     -- * FlowDefinitionStatus
-    FlowDefinitionStatus (FlowDefinitionStatus'),
+    FlowDefinitionStatus (..),
 
     -- * Framework
-    Framework (Framework'),
+    Framework (..),
 
     -- * HubContentSortBy
-    HubContentSortBy (HubContentSortBy'),
+    HubContentSortBy (..),
 
     -- * HubContentStatus
-    HubContentStatus (HubContentStatus'),
+    HubContentStatus (..),
 
     -- * HubContentType
-    HubContentType (HubContentType'),
+    HubContentType (..),
 
     -- * HubSortBy
-    HubSortBy (HubSortBy'),
+    HubSortBy (..),
 
     -- * HubStatus
-    HubStatus (HubStatus'),
+    HubStatus (..),
 
     -- * HumanTaskUiStatus
-    HumanTaskUiStatus (HumanTaskUiStatus'),
+    HumanTaskUiStatus (..),
 
     -- * HyperParameterScalingType
-    HyperParameterScalingType (HyperParameterScalingType'),
+    HyperParameterScalingType (..),
 
     -- * HyperParameterTuningAllocationStrategy
-    HyperParameterTuningAllocationStrategy (HyperParameterTuningAllocationStrategy'),
+    HyperParameterTuningAllocationStrategy (..),
 
     -- * HyperParameterTuningJobObjectiveType
-    HyperParameterTuningJobObjectiveType (HyperParameterTuningJobObjectiveType'),
+    HyperParameterTuningJobObjectiveType (..),
 
     -- * HyperParameterTuningJobSortByOptions
-    HyperParameterTuningJobSortByOptions (HyperParameterTuningJobSortByOptions'),
+    HyperParameterTuningJobSortByOptions (..),
 
     -- * HyperParameterTuningJobStatus
-    HyperParameterTuningJobStatus (HyperParameterTuningJobStatus'),
+    HyperParameterTuningJobStatus (..),
 
     -- * HyperParameterTuningJobStrategyType
-    HyperParameterTuningJobStrategyType (HyperParameterTuningJobStrategyType'),
+    HyperParameterTuningJobStrategyType (..),
 
     -- * HyperParameterTuningJobWarmStartType
-    HyperParameterTuningJobWarmStartType (HyperParameterTuningJobWarmStartType'),
+    HyperParameterTuningJobWarmStartType (..),
 
     -- * ImageSortBy
-    ImageSortBy (ImageSortBy'),
+    ImageSortBy (..),
 
     -- * ImageSortOrder
-    ImageSortOrder (ImageSortOrder'),
+    ImageSortOrder (..),
 
     -- * ImageStatus
-    ImageStatus (ImageStatus'),
+    ImageStatus (..),
 
     -- * ImageVersionSortBy
-    ImageVersionSortBy (ImageVersionSortBy'),
+    ImageVersionSortBy (..),
 
     -- * ImageVersionSortOrder
-    ImageVersionSortOrder (ImageVersionSortOrder'),
+    ImageVersionSortOrder (..),
 
     -- * ImageVersionStatus
-    ImageVersionStatus (ImageVersionStatus'),
+    ImageVersionStatus (..),
 
     -- * InferenceExecutionMode
-    InferenceExecutionMode (InferenceExecutionMode'),
+    InferenceExecutionMode (..),
 
     -- * InferenceExperimentStatus
-    InferenceExperimentStatus (InferenceExperimentStatus'),
+    InferenceExperimentStatus (..),
 
     -- * InferenceExperimentStopDesiredState
-    InferenceExperimentStopDesiredState (InferenceExperimentStopDesiredState'),
+    InferenceExperimentStopDesiredState (..),
 
     -- * InferenceExperimentType
-    InferenceExperimentType (InferenceExperimentType'),
+    InferenceExperimentType (..),
 
     -- * InputMode
-    InputMode (InputMode'),
+    InputMode (..),
 
     -- * InstanceType
-    InstanceType (InstanceType'),
+    InstanceType (..),
 
     -- * JobType
-    JobType (JobType'),
+    JobType (..),
 
     -- * JoinSource
-    JoinSource (JoinSource'),
+    JoinSource (..),
 
     -- * LabelingJobStatus
-    LabelingJobStatus (LabelingJobStatus'),
+    LabelingJobStatus (..),
 
     -- * LastUpdateStatusValue
-    LastUpdateStatusValue (LastUpdateStatusValue'),
+    LastUpdateStatusValue (..),
 
     -- * LineageType
-    LineageType (LineageType'),
+    LineageType (..),
 
     -- * ListCompilationJobsSortBy
-    ListCompilationJobsSortBy (ListCompilationJobsSortBy'),
+    ListCompilationJobsSortBy (..),
 
     -- * ListDeviceFleetsSortBy
-    ListDeviceFleetsSortBy (ListDeviceFleetsSortBy'),
+    ListDeviceFleetsSortBy (..),
 
     -- * ListEdgeDeploymentPlansSortBy
-    ListEdgeDeploymentPlansSortBy (ListEdgeDeploymentPlansSortBy'),
+    ListEdgeDeploymentPlansSortBy (..),
 
     -- * ListEdgePackagingJobsSortBy
-    ListEdgePackagingJobsSortBy (ListEdgePackagingJobsSortBy'),
+    ListEdgePackagingJobsSortBy (..),
 
     -- * ListInferenceRecommendationsJobsSortBy
-    ListInferenceRecommendationsJobsSortBy (ListInferenceRecommendationsJobsSortBy'),
+    ListInferenceRecommendationsJobsSortBy (..),
 
     -- * ListLabelingJobsForWorkteamSortByOptions
-    ListLabelingJobsForWorkteamSortByOptions (ListLabelingJobsForWorkteamSortByOptions'),
+    ListLabelingJobsForWorkteamSortByOptions (..),
 
     -- * ListWorkforcesSortByOptions
-    ListWorkforcesSortByOptions (ListWorkforcesSortByOptions'),
+    ListWorkforcesSortByOptions (..),
 
     -- * ListWorkteamsSortByOptions
-    ListWorkteamsSortByOptions (ListWorkteamsSortByOptions'),
+    ListWorkteamsSortByOptions (..),
 
     -- * MetricSetSource
-    MetricSetSource (MetricSetSource'),
+    MetricSetSource (..),
 
     -- * ModelApprovalStatus
-    ModelApprovalStatus (ModelApprovalStatus'),
+    ModelApprovalStatus (..),
 
     -- * ModelCacheSetting
-    ModelCacheSetting (ModelCacheSetting'),
+    ModelCacheSetting (..),
 
     -- * ModelCardExportJobSortBy
-    ModelCardExportJobSortBy (ModelCardExportJobSortBy'),
+    ModelCardExportJobSortBy (..),
 
     -- * ModelCardExportJobSortOrder
-    ModelCardExportJobSortOrder (ModelCardExportJobSortOrder'),
+    ModelCardExportJobSortOrder (..),
 
     -- * ModelCardExportJobStatus
-    ModelCardExportJobStatus (ModelCardExportJobStatus'),
+    ModelCardExportJobStatus (..),
 
     -- * ModelCardProcessingStatus
-    ModelCardProcessingStatus (ModelCardProcessingStatus'),
+    ModelCardProcessingStatus (..),
 
     -- * ModelCardSortBy
-    ModelCardSortBy (ModelCardSortBy'),
+    ModelCardSortBy (..),
 
     -- * ModelCardSortOrder
-    ModelCardSortOrder (ModelCardSortOrder'),
+    ModelCardSortOrder (..),
 
     -- * ModelCardStatus
-    ModelCardStatus (ModelCardStatus'),
+    ModelCardStatus (..),
 
     -- * ModelCardVersionSortBy
-    ModelCardVersionSortBy (ModelCardVersionSortBy'),
+    ModelCardVersionSortBy (..),
 
     -- * ModelInfrastructureType
-    ModelInfrastructureType (ModelInfrastructureType'),
+    ModelInfrastructureType (..),
 
     -- * ModelMetadataFilterType
-    ModelMetadataFilterType (ModelMetadataFilterType'),
+    ModelMetadataFilterType (..),
 
     -- * ModelPackageGroupSortBy
-    ModelPackageGroupSortBy (ModelPackageGroupSortBy'),
+    ModelPackageGroupSortBy (..),
 
     -- * ModelPackageGroupStatus
-    ModelPackageGroupStatus (ModelPackageGroupStatus'),
+    ModelPackageGroupStatus (..),
 
     -- * ModelPackageSortBy
-    ModelPackageSortBy (ModelPackageSortBy'),
+    ModelPackageSortBy (..),
 
     -- * ModelPackageStatus
-    ModelPackageStatus (ModelPackageStatus'),
+    ModelPackageStatus (..),
 
     -- * ModelPackageType
-    ModelPackageType (ModelPackageType'),
+    ModelPackageType (..),
 
     -- * ModelSortKey
-    ModelSortKey (ModelSortKey'),
+    ModelSortKey (..),
 
     -- * ModelVariantAction
-    ModelVariantAction (ModelVariantAction'),
+    ModelVariantAction (..),
 
     -- * ModelVariantStatus
-    ModelVariantStatus (ModelVariantStatus'),
+    ModelVariantStatus (..),
 
     -- * MonitoringAlertHistorySortKey
-    MonitoringAlertHistorySortKey (MonitoringAlertHistorySortKey'),
+    MonitoringAlertHistorySortKey (..),
 
     -- * MonitoringAlertStatus
-    MonitoringAlertStatus (MonitoringAlertStatus'),
+    MonitoringAlertStatus (..),
 
     -- * MonitoringExecutionSortKey
-    MonitoringExecutionSortKey (MonitoringExecutionSortKey'),
+    MonitoringExecutionSortKey (..),
 
     -- * MonitoringJobDefinitionSortKey
-    MonitoringJobDefinitionSortKey (MonitoringJobDefinitionSortKey'),
+    MonitoringJobDefinitionSortKey (..),
 
     -- * MonitoringProblemType
-    MonitoringProblemType (MonitoringProblemType'),
+    MonitoringProblemType (..),
 
     -- * MonitoringScheduleSortKey
-    MonitoringScheduleSortKey (MonitoringScheduleSortKey'),
+    MonitoringScheduleSortKey (..),
 
     -- * MonitoringType
-    MonitoringType (MonitoringType'),
+    MonitoringType (..),
 
     -- * NotebookInstanceAcceleratorType
-    NotebookInstanceAcceleratorType (NotebookInstanceAcceleratorType'),
+    NotebookInstanceAcceleratorType (..),
 
     -- * NotebookInstanceLifecycleConfigSortKey
-    NotebookInstanceLifecycleConfigSortKey (NotebookInstanceLifecycleConfigSortKey'),
+    NotebookInstanceLifecycleConfigSortKey (..),
 
     -- * NotebookInstanceLifecycleConfigSortOrder
-    NotebookInstanceLifecycleConfigSortOrder (NotebookInstanceLifecycleConfigSortOrder'),
+    NotebookInstanceLifecycleConfigSortOrder (..),
 
     -- * NotebookInstanceSortKey
-    NotebookInstanceSortKey (NotebookInstanceSortKey'),
+    NotebookInstanceSortKey (..),
 
     -- * NotebookInstanceSortOrder
-    NotebookInstanceSortOrder (NotebookInstanceSortOrder'),
+    NotebookInstanceSortOrder (..),
 
     -- * NotebookInstanceStatus
-    NotebookInstanceStatus (NotebookInstanceStatus'),
+    NotebookInstanceStatus (..),
 
     -- * NotebookOutputOption
-    NotebookOutputOption (NotebookOutputOption'),
+    NotebookOutputOption (..),
 
     -- * ObjectiveStatus
-    ObjectiveStatus (ObjectiveStatus'),
+    ObjectiveStatus (..),
 
     -- * OfflineStoreStatusValue
-    OfflineStoreStatusValue (OfflineStoreStatusValue'),
+    OfflineStoreStatusValue (..),
 
     -- * Operator
-    Operator (Operator'),
+    Operator (..),
 
     -- * OrderKey
-    OrderKey (OrderKey'),
+    OrderKey (..),
 
     -- * ParameterType
-    ParameterType (ParameterType'),
+    ParameterType (..),
 
     -- * PipelineExecutionStatus
-    PipelineExecutionStatus (PipelineExecutionStatus'),
+    PipelineExecutionStatus (..),
 
     -- * PipelineStatus
-    PipelineStatus (PipelineStatus'),
+    PipelineStatus (..),
 
     -- * ProblemType
-    ProblemType (ProblemType'),
+    ProblemType (..),
 
     -- * ProcessingInstanceType
-    ProcessingInstanceType (ProcessingInstanceType'),
+    ProcessingInstanceType (..),
 
     -- * ProcessingJobStatus
-    ProcessingJobStatus (ProcessingJobStatus'),
+    ProcessingJobStatus (..),
 
     -- * ProcessingS3CompressionType
-    ProcessingS3CompressionType (ProcessingS3CompressionType'),
+    ProcessingS3CompressionType (..),
 
     -- * ProcessingS3DataDistributionType
-    ProcessingS3DataDistributionType (ProcessingS3DataDistributionType'),
+    ProcessingS3DataDistributionType (..),
 
     -- * ProcessingS3DataType
-    ProcessingS3DataType (ProcessingS3DataType'),
+    ProcessingS3DataType (..),
 
     -- * ProcessingS3InputMode
-    ProcessingS3InputMode (ProcessingS3InputMode'),
+    ProcessingS3InputMode (..),
 
     -- * ProcessingS3UploadMode
-    ProcessingS3UploadMode (ProcessingS3UploadMode'),
+    ProcessingS3UploadMode (..),
 
     -- * Processor
-    Processor (Processor'),
+    Processor (..),
 
     -- * ProductionVariantAcceleratorType
-    ProductionVariantAcceleratorType (ProductionVariantAcceleratorType'),
+    ProductionVariantAcceleratorType (..),
 
     -- * ProductionVariantInstanceType
-    ProductionVariantInstanceType (ProductionVariantInstanceType'),
+    ProductionVariantInstanceType (..),
 
     -- * ProfilingStatus
-    ProfilingStatus (ProfilingStatus'),
+    ProfilingStatus (..),
 
     -- * ProjectSortBy
-    ProjectSortBy (ProjectSortBy'),
+    ProjectSortBy (..),
 
     -- * ProjectSortOrder
-    ProjectSortOrder (ProjectSortOrder'),
+    ProjectSortOrder (..),
 
     -- * ProjectStatus
-    ProjectStatus (ProjectStatus'),
+    ProjectStatus (..),
 
     -- * RStudioServerProAccessStatus
-    RStudioServerProAccessStatus (RStudioServerProAccessStatus'),
+    RStudioServerProAccessStatus (..),
 
     -- * RStudioServerProUserGroup
-    RStudioServerProUserGroup (RStudioServerProUserGroup'),
+    RStudioServerProUserGroup (..),
 
     -- * RecommendationJobStatus
-    RecommendationJobStatus (RecommendationJobStatus'),
+    RecommendationJobStatus (..),
 
     -- * RecommendationJobType
-    RecommendationJobType (RecommendationJobType'),
+    RecommendationJobType (..),
 
     -- * RecommendationStepType
-    RecommendationStepType (RecommendationStepType'),
+    RecommendationStepType (..),
 
     -- * RecordWrapper
-    RecordWrapper (RecordWrapper'),
+    RecordWrapper (..),
 
     -- * RedshiftResultCompressionType
-    RedshiftResultCompressionType (RedshiftResultCompressionType'),
+    RedshiftResultCompressionType (..),
 
     -- * RedshiftResultFormat
-    RedshiftResultFormat (RedshiftResultFormat'),
+    RedshiftResultFormat (..),
 
     -- * RepositoryAccessMode
-    RepositoryAccessMode (RepositoryAccessMode'),
+    RepositoryAccessMode (..),
 
     -- * ResourceType
-    ResourceType (ResourceType'),
+    ResourceType (..),
 
     -- * RetentionType
-    RetentionType (RetentionType'),
+    RetentionType (..),
 
     -- * RootAccess
-    RootAccess (RootAccess'),
+    RootAccess (..),
 
     -- * RuleEvaluationStatus
-    RuleEvaluationStatus (RuleEvaluationStatus'),
+    RuleEvaluationStatus (..),
 
     -- * S3DataDistribution
-    S3DataDistribution (S3DataDistribution'),
+    S3DataDistribution (..),
 
     -- * S3DataType
-    S3DataType (S3DataType'),
+    S3DataType (..),
 
     -- * SagemakerServicecatalogStatus
-    SagemakerServicecatalogStatus (SagemakerServicecatalogStatus'),
+    SagemakerServicecatalogStatus (..),
 
     -- * ScheduleStatus
-    ScheduleStatus (ScheduleStatus'),
+    ScheduleStatus (..),
 
     -- * SearchSortOrder
-    SearchSortOrder (SearchSortOrder'),
+    SearchSortOrder (..),
 
     -- * SecondaryStatus
-    SecondaryStatus (SecondaryStatus'),
+    SecondaryStatus (..),
 
     -- * SortActionsBy
-    SortActionsBy (SortActionsBy'),
+    SortActionsBy (..),
 
     -- * SortArtifactsBy
-    SortArtifactsBy (SortArtifactsBy'),
+    SortArtifactsBy (..),
 
     -- * SortAssociationsBy
-    SortAssociationsBy (SortAssociationsBy'),
+    SortAssociationsBy (..),
 
     -- * SortBy
-    SortBy (SortBy'),
+    SortBy (..),
 
     -- * SortContextsBy
-    SortContextsBy (SortContextsBy'),
+    SortContextsBy (..),
 
     -- * SortExperimentsBy
-    SortExperimentsBy (SortExperimentsBy'),
+    SortExperimentsBy (..),
 
     -- * SortInferenceExperimentsBy
-    SortInferenceExperimentsBy (SortInferenceExperimentsBy'),
+    SortInferenceExperimentsBy (..),
 
     -- * SortLineageGroupsBy
-    SortLineageGroupsBy (SortLineageGroupsBy'),
+    SortLineageGroupsBy (..),
 
     -- * SortOrder
-    SortOrder (SortOrder'),
+    SortOrder (..),
 
     -- * SortPipelineExecutionsBy
-    SortPipelineExecutionsBy (SortPipelineExecutionsBy'),
+    SortPipelineExecutionsBy (..),
 
     -- * SortPipelinesBy
-    SortPipelinesBy (SortPipelinesBy'),
+    SortPipelinesBy (..),
 
     -- * SortTrialComponentsBy
-    SortTrialComponentsBy (SortTrialComponentsBy'),
+    SortTrialComponentsBy (..),
 
     -- * SortTrialsBy
-    SortTrialsBy (SortTrialsBy'),
+    SortTrialsBy (..),
 
     -- * SpaceSortKey
-    SpaceSortKey (SpaceSortKey'),
+    SpaceSortKey (..),
 
     -- * SpaceStatus
-    SpaceStatus (SpaceStatus'),
+    SpaceStatus (..),
 
     -- * SplitType
-    SplitType (SplitType'),
+    SplitType (..),
 
     -- * StageStatus
-    StageStatus (StageStatus'),
+    StageStatus (..),
 
     -- * StepStatus
-    StepStatus (StepStatus'),
+    StepStatus (..),
 
     -- * StudioLifecycleConfigAppType
-    StudioLifecycleConfigAppType (StudioLifecycleConfigAppType'),
+    StudioLifecycleConfigAppType (..),
 
     -- * StudioLifecycleConfigSortKey
-    StudioLifecycleConfigSortKey (StudioLifecycleConfigSortKey'),
+    StudioLifecycleConfigSortKey (..),
 
     -- * TableFormat
-    TableFormat (TableFormat'),
+    TableFormat (..),
 
     -- * TargetDevice
-    TargetDevice (TargetDevice'),
+    TargetDevice (..),
 
     -- * TargetPlatformAccelerator
-    TargetPlatformAccelerator (TargetPlatformAccelerator'),
+    TargetPlatformAccelerator (..),
 
     -- * TargetPlatformArch
-    TargetPlatformArch (TargetPlatformArch'),
+    TargetPlatformArch (..),
 
     -- * TargetPlatformOs
-    TargetPlatformOs (TargetPlatformOs'),
+    TargetPlatformOs (..),
 
     -- * TrafficRoutingConfigType
-    TrafficRoutingConfigType (TrafficRoutingConfigType'),
+    TrafficRoutingConfigType (..),
 
     -- * TrafficType
-    TrafficType (TrafficType'),
+    TrafficType (..),
 
     -- * TrainingInputMode
-    TrainingInputMode (TrainingInputMode'),
+    TrainingInputMode (..),
 
     -- * TrainingInstanceType
-    TrainingInstanceType (TrainingInstanceType'),
+    TrainingInstanceType (..),
 
     -- * TrainingJobEarlyStoppingType
-    TrainingJobEarlyStoppingType (TrainingJobEarlyStoppingType'),
+    TrainingJobEarlyStoppingType (..),
 
     -- * TrainingJobSortByOptions
-    TrainingJobSortByOptions (TrainingJobSortByOptions'),
+    TrainingJobSortByOptions (..),
 
     -- * TrainingJobStatus
-    TrainingJobStatus (TrainingJobStatus'),
+    TrainingJobStatus (..),
 
     -- * TransformInstanceType
-    TransformInstanceType (TransformInstanceType'),
+    TransformInstanceType (..),
 
     -- * TransformJobStatus
-    TransformJobStatus (TransformJobStatus'),
+    TransformJobStatus (..),
 
     -- * TrialComponentPrimaryStatus
-    TrialComponentPrimaryStatus (TrialComponentPrimaryStatus'),
+    TrialComponentPrimaryStatus (..),
 
     -- * UserProfileSortKey
-    UserProfileSortKey (UserProfileSortKey'),
+    UserProfileSortKey (..),
 
     -- * UserProfileStatus
-    UserProfileStatus (UserProfileStatus'),
+    UserProfileStatus (..),
 
     -- * VariantPropertyType
-    VariantPropertyType (VariantPropertyType'),
+    VariantPropertyType (..),
 
     -- * VariantStatus
-    VariantStatus (VariantStatus'),
+    VariantStatus (..),
 
     -- * VendorGuidance
-    VendorGuidance (VendorGuidance'),
+    VendorGuidance (..),
 
     -- * WarmPoolResourceStatus
-    WarmPoolResourceStatus (WarmPoolResourceStatus'),
+    WarmPoolResourceStatus (..),
 
     -- * WorkforceStatus
-    WorkforceStatus (WorkforceStatus'),
+    WorkforceStatus (..),
 
     -- * ActionSource
     ActionSource (ActionSource'),

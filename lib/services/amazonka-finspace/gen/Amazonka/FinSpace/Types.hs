@@ -29,10 +29,10 @@ module Amazonka.FinSpace.Types
     _ValidationException,
 
     -- * EnvironmentStatus
-    EnvironmentStatus (EnvironmentStatus'),
+    EnvironmentStatus (..),
 
     -- * FederationMode
-    FederationMode (FederationMode'),
+    FederationMode (..),
 
     -- * Environment
     Environment (Environment'),

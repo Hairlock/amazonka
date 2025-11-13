@@ -23,97 +23,97 @@ module Amazonka.DataSync.Types
     _InvalidRequestException,
 
     -- * AgentStatus
-    AgentStatus (AgentStatus'),
+    AgentStatus (..),
 
     -- * Atime
-    Atime (Atime'),
+    Atime (..),
 
     -- * EfsInTransitEncryption
-    EfsInTransitEncryption (EfsInTransitEncryption'),
+    EfsInTransitEncryption (..),
 
     -- * EndpointType
-    EndpointType (EndpointType'),
+    EndpointType (..),
 
     -- * FilterType
-    FilterType (FilterType'),
+    FilterType (..),
 
     -- * Gid
-    Gid (Gid'),
+    Gid (..),
 
     -- * HdfsAuthenticationType
-    HdfsAuthenticationType (HdfsAuthenticationType'),
+    HdfsAuthenticationType (..),
 
     -- * HdfsDataTransferProtection
-    HdfsDataTransferProtection (HdfsDataTransferProtection'),
+    HdfsDataTransferProtection (..),
 
     -- * HdfsRpcProtection
-    HdfsRpcProtection (HdfsRpcProtection'),
+    HdfsRpcProtection (..),
 
     -- * LocationFilterName
-    LocationFilterName (LocationFilterName'),
+    LocationFilterName (..),
 
     -- * LogLevel
-    LogLevel (LogLevel'),
+    LogLevel (..),
 
     -- * Mtime
-    Mtime (Mtime'),
+    Mtime (..),
 
     -- * NfsVersion
-    NfsVersion (NfsVersion'),
+    NfsVersion (..),
 
     -- * ObjectStorageServerProtocol
-    ObjectStorageServerProtocol (ObjectStorageServerProtocol'),
+    ObjectStorageServerProtocol (..),
 
     -- * ObjectTags
-    ObjectTags (ObjectTags'),
+    ObjectTags (..),
 
     -- * Operator
-    Operator (Operator'),
+    Operator (..),
 
     -- * OverwriteMode
-    OverwriteMode (OverwriteMode'),
+    OverwriteMode (..),
 
     -- * PhaseStatus
-    PhaseStatus (PhaseStatus'),
+    PhaseStatus (..),
 
     -- * PosixPermissions
-    PosixPermissions (PosixPermissions'),
+    PosixPermissions (..),
 
     -- * PreserveDeletedFiles
-    PreserveDeletedFiles (PreserveDeletedFiles'),
+    PreserveDeletedFiles (..),
 
     -- * PreserveDevices
-    PreserveDevices (PreserveDevices'),
+    PreserveDevices (..),
 
     -- * S3StorageClass
-    S3StorageClass (S3StorageClass'),
+    S3StorageClass (..),
 
     -- * SmbSecurityDescriptorCopyFlags
-    SmbSecurityDescriptorCopyFlags (SmbSecurityDescriptorCopyFlags'),
+    SmbSecurityDescriptorCopyFlags (..),
 
     -- * SmbVersion
-    SmbVersion (SmbVersion'),
+    SmbVersion (..),
 
     -- * TaskExecutionStatus
-    TaskExecutionStatus (TaskExecutionStatus'),
+    TaskExecutionStatus (..),
 
     -- * TaskFilterName
-    TaskFilterName (TaskFilterName'),
+    TaskFilterName (..),
 
     -- * TaskQueueing
-    TaskQueueing (TaskQueueing'),
+    TaskQueueing (..),
 
     -- * TaskStatus
-    TaskStatus (TaskStatus'),
+    TaskStatus (..),
 
     -- * TransferMode
-    TransferMode (TransferMode'),
+    TransferMode (..),
 
     -- * Uid
-    Uid (Uid'),
+    Uid (..),
 
     -- * VerifyMode
-    VerifyMode (VerifyMode'),
+    VerifyMode (..),
 
     -- * AgentListEntry
     AgentListEntry (AgentListEntry'),

@@ -34,106 +34,106 @@ module Amazonka.SESV2.Types
     _TooManyRequestsException,
 
     -- * BehaviorOnMxFailure
-    BehaviorOnMxFailure (BehaviorOnMxFailure'),
+    BehaviorOnMxFailure (..),
 
     -- * BulkEmailStatus
-    BulkEmailStatus (BulkEmailStatus'),
+    BulkEmailStatus (..),
 
     -- * ContactLanguage
-    ContactLanguage (ContactLanguage'),
+    ContactLanguage (..),
 
     -- * ContactListImportAction
-    ContactListImportAction (ContactListImportAction'),
+    ContactListImportAction (..),
 
     -- * DataFormat
-    DataFormat (DataFormat'),
+    DataFormat (..),
 
     -- * DeliverabilityDashboardAccountStatus
-    DeliverabilityDashboardAccountStatus (DeliverabilityDashboardAccountStatus'),
+    DeliverabilityDashboardAccountStatus (..),
 
     -- * DeliverabilityTestStatus
-    DeliverabilityTestStatus (DeliverabilityTestStatus'),
+    DeliverabilityTestStatus (..),
 
     -- * DimensionValueSource
-    DimensionValueSource (DimensionValueSource'),
+    DimensionValueSource (..),
 
     -- * DkimSigningAttributesOrigin
-    DkimSigningAttributesOrigin (DkimSigningAttributesOrigin'),
+    DkimSigningAttributesOrigin (..),
 
     -- * DkimSigningKeyLength
-    DkimSigningKeyLength (DkimSigningKeyLength'),
+    DkimSigningKeyLength (..),
 
     -- * DkimStatus
-    DkimStatus (DkimStatus'),
+    DkimStatus (..),
 
     -- * EventType
-    EventType (EventType'),
+    EventType (..),
 
     -- * FeatureStatus
-    FeatureStatus (FeatureStatus'),
+    FeatureStatus (..),
 
     -- * IdentityType
-    IdentityType (IdentityType'),
+    IdentityType (..),
 
     -- * ImportDestinationType
-    ImportDestinationType (ImportDestinationType'),
+    ImportDestinationType (..),
 
     -- * JobStatus
-    JobStatus (JobStatus'),
+    JobStatus (..),
 
     -- * ListRecommendationsFilterKey
-    ListRecommendationsFilterKey (ListRecommendationsFilterKey'),
+    ListRecommendationsFilterKey (..),
 
     -- * MailFromDomainStatus
-    MailFromDomainStatus (MailFromDomainStatus'),
+    MailFromDomainStatus (..),
 
     -- * MailType
-    MailType (MailType'),
+    MailType (..),
 
     -- * Metric
-    Metric (Metric'),
+    Metric (..),
 
     -- * MetricDimensionName
-    MetricDimensionName (MetricDimensionName'),
+    MetricDimensionName (..),
 
     -- * MetricNamespace
-    MetricNamespace (MetricNamespace'),
+    MetricNamespace (..),
 
     -- * QueryErrorCode
-    QueryErrorCode (QueryErrorCode'),
+    QueryErrorCode (..),
 
     -- * RecommendationImpact
-    RecommendationImpact (RecommendationImpact'),
+    RecommendationImpact (..),
 
     -- * RecommendationStatus
-    RecommendationStatus (RecommendationStatus'),
+    RecommendationStatus (..),
 
     -- * RecommendationType
-    RecommendationType (RecommendationType'),
+    RecommendationType (..),
 
     -- * ReviewStatus
-    ReviewStatus (ReviewStatus'),
+    ReviewStatus (..),
 
     -- * ScalingMode
-    ScalingMode (ScalingMode'),
+    ScalingMode (..),
 
     -- * SubscriptionStatus
-    SubscriptionStatus (SubscriptionStatus'),
+    SubscriptionStatus (..),
 
     -- * SuppressionListImportAction
-    SuppressionListImportAction (SuppressionListImportAction'),
+    SuppressionListImportAction (..),
 
     -- * SuppressionListReason
-    SuppressionListReason (SuppressionListReason'),
+    SuppressionListReason (..),
 
     -- * TlsPolicy
-    TlsPolicy (TlsPolicy'),
+    TlsPolicy (..),
 
     -- * VerificationStatus
-    VerificationStatus (VerificationStatus'),
+    VerificationStatus (..),
 
     -- * WarmupStatus
-    WarmupStatus (WarmupStatus'),
+    WarmupStatus (..),
 
     -- * AccountDetails
     AccountDetails (AccountDetails'),

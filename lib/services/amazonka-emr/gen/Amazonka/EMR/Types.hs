@@ -24,118 +24,118 @@ module Amazonka.EMR.Types
     _InvalidRequestException,
 
     -- * ActionOnFailure
-    ActionOnFailure (ActionOnFailure'),
+    ActionOnFailure (..),
 
     -- * AdjustmentType
-    AdjustmentType (AdjustmentType'),
+    AdjustmentType (..),
 
     -- * AuthMode
-    AuthMode (AuthMode'),
+    AuthMode (..),
 
     -- * AutoScalingPolicyState
-    AutoScalingPolicyState (AutoScalingPolicyState'),
+    AutoScalingPolicyState (..),
 
     -- * AutoScalingPolicyStateChangeReasonCode
-    AutoScalingPolicyStateChangeReasonCode (AutoScalingPolicyStateChangeReasonCode'),
+    AutoScalingPolicyStateChangeReasonCode (..),
 
     -- * CancelStepsRequestStatus
-    CancelStepsRequestStatus (CancelStepsRequestStatus'),
+    CancelStepsRequestStatus (..),
 
     -- * ClusterState
-    ClusterState (ClusterState'),
+    ClusterState (..),
 
     -- * ClusterStateChangeReasonCode
-    ClusterStateChangeReasonCode (ClusterStateChangeReasonCode'),
+    ClusterStateChangeReasonCode (..),
 
     -- * ComparisonOperator
-    ComparisonOperator (ComparisonOperator'),
+    ComparisonOperator (..),
 
     -- * ComputeLimitsUnitType
-    ComputeLimitsUnitType (ComputeLimitsUnitType'),
+    ComputeLimitsUnitType (..),
 
     -- * ExecutionEngineType
-    ExecutionEngineType (ExecutionEngineType'),
+    ExecutionEngineType (..),
 
     -- * IdentityType
-    IdentityType (IdentityType'),
+    IdentityType (..),
 
     -- * InstanceCollectionType
-    InstanceCollectionType (InstanceCollectionType'),
+    InstanceCollectionType (..),
 
     -- * InstanceFleetState
-    InstanceFleetState (InstanceFleetState'),
+    InstanceFleetState (..),
 
     -- * InstanceFleetStateChangeReasonCode
-    InstanceFleetStateChangeReasonCode (InstanceFleetStateChangeReasonCode'),
+    InstanceFleetStateChangeReasonCode (..),
 
     -- * InstanceFleetType
-    InstanceFleetType (InstanceFleetType'),
+    InstanceFleetType (..),
 
     -- * InstanceGroupState
-    InstanceGroupState (InstanceGroupState'),
+    InstanceGroupState (..),
 
     -- * InstanceGroupStateChangeReasonCode
-    InstanceGroupStateChangeReasonCode (InstanceGroupStateChangeReasonCode'),
+    InstanceGroupStateChangeReasonCode (..),
 
     -- * InstanceGroupType
-    InstanceGroupType (InstanceGroupType'),
+    InstanceGroupType (..),
 
     -- * InstanceRoleType
-    InstanceRoleType (InstanceRoleType'),
+    InstanceRoleType (..),
 
     -- * InstanceState
-    InstanceState (InstanceState'),
+    InstanceState (..),
 
     -- * InstanceStateChangeReasonCode
-    InstanceStateChangeReasonCode (InstanceStateChangeReasonCode'),
+    InstanceStateChangeReasonCode (..),
 
     -- * MarketType
-    MarketType (MarketType'),
+    MarketType (..),
 
     -- * NotebookExecutionStatus
-    NotebookExecutionStatus (NotebookExecutionStatus'),
+    NotebookExecutionStatus (..),
 
     -- * OnDemandCapacityReservationPreference
-    OnDemandCapacityReservationPreference (OnDemandCapacityReservationPreference'),
+    OnDemandCapacityReservationPreference (..),
 
     -- * OnDemandCapacityReservationUsageStrategy
-    OnDemandCapacityReservationUsageStrategy (OnDemandCapacityReservationUsageStrategy'),
+    OnDemandCapacityReservationUsageStrategy (..),
 
     -- * OnDemandProvisioningAllocationStrategy
-    OnDemandProvisioningAllocationStrategy (OnDemandProvisioningAllocationStrategy'),
+    OnDemandProvisioningAllocationStrategy (..),
 
     -- * PlacementGroupStrategy
-    PlacementGroupStrategy (PlacementGroupStrategy'),
+    PlacementGroupStrategy (..),
 
     -- * ReconfigurationType
-    ReconfigurationType (ReconfigurationType'),
+    ReconfigurationType (..),
 
     -- * RepoUpgradeOnBoot
-    RepoUpgradeOnBoot (RepoUpgradeOnBoot'),
+    RepoUpgradeOnBoot (..),
 
     -- * ScaleDownBehavior
-    ScaleDownBehavior (ScaleDownBehavior'),
+    ScaleDownBehavior (..),
 
     -- * SpotProvisioningAllocationStrategy
-    SpotProvisioningAllocationStrategy (SpotProvisioningAllocationStrategy'),
+    SpotProvisioningAllocationStrategy (..),
 
     -- * SpotProvisioningTimeoutAction
-    SpotProvisioningTimeoutAction (SpotProvisioningTimeoutAction'),
+    SpotProvisioningTimeoutAction (..),
 
     -- * Statistic
-    Statistic (Statistic'),
+    Statistic (..),
 
     -- * StepCancellationOption
-    StepCancellationOption (StepCancellationOption'),
+    StepCancellationOption (..),
 
     -- * StepState
-    StepState (StepState'),
+    StepState (..),
 
     -- * StepStateChangeReasonCode
-    StepStateChangeReasonCode (StepStateChangeReasonCode'),
+    StepStateChangeReasonCode (..),
 
     -- * Unit
-    Unit (Unit'),
+    Unit (..),
 
     -- * Application
     Application (Application'),

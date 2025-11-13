@@ -32,88 +32,88 @@ module Amazonka.OpenSearch.Types
     _ValidationException,
 
     -- * AutoTuneDesiredState
-    AutoTuneDesiredState (AutoTuneDesiredState'),
+    AutoTuneDesiredState (..),
 
     -- * AutoTuneState
-    AutoTuneState (AutoTuneState'),
+    AutoTuneState (..),
 
     -- * AutoTuneType
-    AutoTuneType (AutoTuneType'),
+    AutoTuneType (..),
 
     -- * DeploymentStatus
-    DeploymentStatus (DeploymentStatus'),
+    DeploymentStatus (..),
 
     -- * DescribePackagesFilterName
-    DescribePackagesFilterName (DescribePackagesFilterName'),
+    DescribePackagesFilterName (..),
 
     -- * DomainPackageStatus
-    DomainPackageStatus (DomainPackageStatus'),
+    DomainPackageStatus (..),
 
     -- * EngineType
-    EngineType (EngineType'),
+    EngineType (..),
 
     -- * InboundConnectionStatusCode
-    InboundConnectionStatusCode (InboundConnectionStatusCode'),
+    InboundConnectionStatusCode (..),
 
     -- * LogType
-    LogType (LogType'),
+    LogType (..),
 
     -- * OpenSearchPartitionInstanceType
-    OpenSearchPartitionInstanceType (OpenSearchPartitionInstanceType'),
+    OpenSearchPartitionInstanceType (..),
 
     -- * OpenSearchWarmPartitionInstanceType
-    OpenSearchWarmPartitionInstanceType (OpenSearchWarmPartitionInstanceType'),
+    OpenSearchWarmPartitionInstanceType (..),
 
     -- * OptionState
-    OptionState (OptionState'),
+    OptionState (..),
 
     -- * OutboundConnectionStatusCode
-    OutboundConnectionStatusCode (OutboundConnectionStatusCode'),
+    OutboundConnectionStatusCode (..),
 
     -- * OverallChangeStatus
-    OverallChangeStatus (OverallChangeStatus'),
+    OverallChangeStatus (..),
 
     -- * PackageStatus
-    PackageStatus (PackageStatus'),
+    PackageStatus (..),
 
     -- * PackageType
-    PackageType (PackageType'),
+    PackageType (..),
 
     -- * PrincipalType
-    PrincipalType (PrincipalType'),
+    PrincipalType (..),
 
     -- * ReservedInstancePaymentOption
-    ReservedInstancePaymentOption (ReservedInstancePaymentOption'),
+    ReservedInstancePaymentOption (..),
 
     -- * RollbackOnDisable
-    RollbackOnDisable (RollbackOnDisable'),
+    RollbackOnDisable (..),
 
     -- * ScheduledAutoTuneActionType
-    ScheduledAutoTuneActionType (ScheduledAutoTuneActionType'),
+    ScheduledAutoTuneActionType (..),
 
     -- * ScheduledAutoTuneSeverityType
-    ScheduledAutoTuneSeverityType (ScheduledAutoTuneSeverityType'),
+    ScheduledAutoTuneSeverityType (..),
 
     -- * TLSSecurityPolicy
-    TLSSecurityPolicy (TLSSecurityPolicy'),
+    TLSSecurityPolicy (..),
 
     -- * TimeUnit
-    TimeUnit (TimeUnit'),
+    TimeUnit (..),
 
     -- * UpgradeStatus
-    UpgradeStatus (UpgradeStatus'),
+    UpgradeStatus (..),
 
     -- * UpgradeStep
-    UpgradeStep (UpgradeStep'),
+    UpgradeStep (..),
 
     -- * VolumeType
-    VolumeType (VolumeType'),
+    VolumeType (..),
 
     -- * VpcEndpointErrorCode
-    VpcEndpointErrorCode (VpcEndpointErrorCode'),
+    VpcEndpointErrorCode (..),
 
     -- * VpcEndpointStatus
-    VpcEndpointStatus (VpcEndpointStatus'),
+    VpcEndpointStatus (..),
 
     -- * AWSDomainInformation
     AWSDomainInformation (AWSDomainInformation'),

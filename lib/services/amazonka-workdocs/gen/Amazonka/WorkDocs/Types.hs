@@ -46,82 +46,82 @@ module Amazonka.WorkDocs.Types
     _UnauthorizedResourceAccessException,
 
     -- * ActivityType
-    ActivityType (ActivityType'),
+    ActivityType (..),
 
     -- * BooleanEnumType
-    BooleanEnumType (BooleanEnumType'),
+    BooleanEnumType (..),
 
     -- * CommentStatusType
-    CommentStatusType (CommentStatusType'),
+    CommentStatusType (..),
 
     -- * CommentVisibilityType
-    CommentVisibilityType (CommentVisibilityType'),
+    CommentVisibilityType (..),
 
     -- * DocumentSourceType
-    DocumentSourceType (DocumentSourceType'),
+    DocumentSourceType (..),
 
     -- * DocumentStatusType
-    DocumentStatusType (DocumentStatusType'),
+    DocumentStatusType (..),
 
     -- * DocumentThumbnailType
-    DocumentThumbnailType (DocumentThumbnailType'),
+    DocumentThumbnailType (..),
 
     -- * DocumentVersionStatus
-    DocumentVersionStatus (DocumentVersionStatus'),
+    DocumentVersionStatus (..),
 
     -- * FolderContentType
-    FolderContentType (FolderContentType'),
+    FolderContentType (..),
 
     -- * LocaleType
-    LocaleType (LocaleType'),
+    LocaleType (..),
 
     -- * OrderType
-    OrderType (OrderType'),
+    OrderType (..),
 
     -- * PrincipalType
-    PrincipalType (PrincipalType'),
+    PrincipalType (..),
 
     -- * ResourceCollectionType
-    ResourceCollectionType (ResourceCollectionType'),
+    ResourceCollectionType (..),
 
     -- * ResourceSortType
-    ResourceSortType (ResourceSortType'),
+    ResourceSortType (..),
 
     -- * ResourceStateType
-    ResourceStateType (ResourceStateType'),
+    ResourceStateType (..),
 
     -- * ResourceType
-    ResourceType (ResourceType'),
+    ResourceType (..),
 
     -- * RolePermissionType
-    RolePermissionType (RolePermissionType'),
+    RolePermissionType (..),
 
     -- * RoleType
-    RoleType (RoleType'),
+    RoleType (..),
 
     -- * ShareStatusType
-    ShareStatusType (ShareStatusType'),
+    ShareStatusType (..),
 
     -- * StorageType
-    StorageType (StorageType'),
+    StorageType (..),
 
     -- * SubscriptionProtocolType
-    SubscriptionProtocolType (SubscriptionProtocolType'),
+    SubscriptionProtocolType (..),
 
     -- * SubscriptionType
-    SubscriptionType (SubscriptionType'),
+    SubscriptionType (..),
 
     -- * UserFilterType
-    UserFilterType (UserFilterType'),
+    UserFilterType (..),
 
     -- * UserSortType
-    UserSortType (UserSortType'),
+    UserSortType (..),
 
     -- * UserStatusType
-    UserStatusType (UserStatusType'),
+    UserStatusType (..),
 
     -- * UserType
-    UserType (UserType'),
+    UserType (..),
 
     -- * Activity
     Activity (Activity'),

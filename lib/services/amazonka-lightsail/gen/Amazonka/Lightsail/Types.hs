@@ -28,223 +28,223 @@ module Amazonka.Lightsail.Types
     _UnauthenticatedException,
 
     -- * AccessDirection
-    AccessDirection (AccessDirection'),
+    AccessDirection (..),
 
     -- * AccessType
-    AccessType (AccessType'),
+    AccessType (..),
 
     -- * AccountLevelBpaSyncStatus
-    AccountLevelBpaSyncStatus (AccountLevelBpaSyncStatus'),
+    AccountLevelBpaSyncStatus (..),
 
     -- * AddOnType
-    AddOnType (AddOnType'),
+    AddOnType (..),
 
     -- * AlarmState
-    AlarmState (AlarmState'),
+    AlarmState (..),
 
     -- * AutoSnapshotStatus
-    AutoSnapshotStatus (AutoSnapshotStatus'),
+    AutoSnapshotStatus (..),
 
     -- * BPAStatusMessage
-    BPAStatusMessage (BPAStatusMessage'),
+    BPAStatusMessage (..),
 
     -- * BehaviorEnum
-    BehaviorEnum (BehaviorEnum'),
+    BehaviorEnum (..),
 
     -- * BlueprintType
-    BlueprintType (BlueprintType'),
+    BlueprintType (..),
 
     -- * BucketMetricName
-    BucketMetricName (BucketMetricName'),
+    BucketMetricName (..),
 
     -- * CertificateDomainValidationStatus
-    CertificateDomainValidationStatus (CertificateDomainValidationStatus'),
+    CertificateDomainValidationStatus (..),
 
     -- * CertificateStatus
-    CertificateStatus (CertificateStatus'),
+    CertificateStatus (..),
 
     -- * CloudFormationStackRecordSourceType
-    CloudFormationStackRecordSourceType (CloudFormationStackRecordSourceType'),
+    CloudFormationStackRecordSourceType (..),
 
     -- * ComparisonOperator
-    ComparisonOperator (ComparisonOperator'),
+    ComparisonOperator (..),
 
     -- * ContactMethodStatus
-    ContactMethodStatus (ContactMethodStatus'),
+    ContactMethodStatus (..),
 
     -- * ContactMethodVerificationProtocol
-    ContactMethodVerificationProtocol (ContactMethodVerificationProtocol'),
+    ContactMethodVerificationProtocol (..),
 
     -- * ContactProtocol
-    ContactProtocol (ContactProtocol'),
+    ContactProtocol (..),
 
     -- * ContainerServiceDeploymentState
-    ContainerServiceDeploymentState (ContainerServiceDeploymentState'),
+    ContainerServiceDeploymentState (..),
 
     -- * ContainerServiceMetricName
-    ContainerServiceMetricName (ContainerServiceMetricName'),
+    ContainerServiceMetricName (..),
 
     -- * ContainerServicePowerName
-    ContainerServicePowerName (ContainerServicePowerName'),
+    ContainerServicePowerName (..),
 
     -- * ContainerServiceProtocol
-    ContainerServiceProtocol (ContainerServiceProtocol'),
+    ContainerServiceProtocol (..),
 
     -- * ContainerServiceState
-    ContainerServiceState (ContainerServiceState'),
+    ContainerServiceState (..),
 
     -- * ContainerServiceStateDetailCode
-    ContainerServiceStateDetailCode (ContainerServiceStateDetailCode'),
+    ContainerServiceStateDetailCode (..),
 
     -- * DiskSnapshotState
-    DiskSnapshotState (DiskSnapshotState'),
+    DiskSnapshotState (..),
 
     -- * DiskState
-    DiskState (DiskState'),
+    DiskState (..),
 
     -- * DistributionMetricName
-    DistributionMetricName (DistributionMetricName'),
+    DistributionMetricName (..),
 
     -- * DnsRecordCreationStateCode
-    DnsRecordCreationStateCode (DnsRecordCreationStateCode'),
+    DnsRecordCreationStateCode (..),
 
     -- * ExportSnapshotRecordSourceType
-    ExportSnapshotRecordSourceType (ExportSnapshotRecordSourceType'),
+    ExportSnapshotRecordSourceType (..),
 
     -- * ForwardValues
-    ForwardValues (ForwardValues'),
+    ForwardValues (..),
 
     -- * HeaderEnum
-    HeaderEnum (HeaderEnum'),
+    HeaderEnum (..),
 
     -- * HttpEndpoint
-    HttpEndpoint (HttpEndpoint'),
+    HttpEndpoint (..),
 
     -- * HttpProtocolIpv6
-    HttpProtocolIpv6 (HttpProtocolIpv6'),
+    HttpProtocolIpv6 (..),
 
     -- * HttpTokens
-    HttpTokens (HttpTokens'),
+    HttpTokens (..),
 
     -- * InstanceAccessProtocol
-    InstanceAccessProtocol (InstanceAccessProtocol'),
+    InstanceAccessProtocol (..),
 
     -- * InstanceHealthReason
-    InstanceHealthReason (InstanceHealthReason'),
+    InstanceHealthReason (..),
 
     -- * InstanceHealthState
-    InstanceHealthState (InstanceHealthState'),
+    InstanceHealthState (..),
 
     -- * InstanceMetadataState
-    InstanceMetadataState (InstanceMetadataState'),
+    InstanceMetadataState (..),
 
     -- * InstanceMetricName
-    InstanceMetricName (InstanceMetricName'),
+    InstanceMetricName (..),
 
     -- * InstancePlatform
-    InstancePlatform (InstancePlatform'),
+    InstancePlatform (..),
 
     -- * InstanceSnapshotState
-    InstanceSnapshotState (InstanceSnapshotState'),
+    InstanceSnapshotState (..),
 
     -- * IpAddressType
-    IpAddressType (IpAddressType'),
+    IpAddressType (..),
 
     -- * LoadBalancerAttributeName
-    LoadBalancerAttributeName (LoadBalancerAttributeName'),
+    LoadBalancerAttributeName (..),
 
     -- * LoadBalancerMetricName
-    LoadBalancerMetricName (LoadBalancerMetricName'),
+    LoadBalancerMetricName (..),
 
     -- * LoadBalancerProtocol
-    LoadBalancerProtocol (LoadBalancerProtocol'),
+    LoadBalancerProtocol (..),
 
     -- * LoadBalancerState
-    LoadBalancerState (LoadBalancerState'),
+    LoadBalancerState (..),
 
     -- * LoadBalancerTlsCertificateDnsRecordCreationStateCode
-    LoadBalancerTlsCertificateDnsRecordCreationStateCode (LoadBalancerTlsCertificateDnsRecordCreationStateCode'),
+    LoadBalancerTlsCertificateDnsRecordCreationStateCode (..),
 
     -- * LoadBalancerTlsCertificateDomainStatus
-    LoadBalancerTlsCertificateDomainStatus (LoadBalancerTlsCertificateDomainStatus'),
+    LoadBalancerTlsCertificateDomainStatus (..),
 
     -- * LoadBalancerTlsCertificateFailureReason
-    LoadBalancerTlsCertificateFailureReason (LoadBalancerTlsCertificateFailureReason'),
+    LoadBalancerTlsCertificateFailureReason (..),
 
     -- * LoadBalancerTlsCertificateRenewalStatus
-    LoadBalancerTlsCertificateRenewalStatus (LoadBalancerTlsCertificateRenewalStatus'),
+    LoadBalancerTlsCertificateRenewalStatus (..),
 
     -- * LoadBalancerTlsCertificateRevocationReason
-    LoadBalancerTlsCertificateRevocationReason (LoadBalancerTlsCertificateRevocationReason'),
+    LoadBalancerTlsCertificateRevocationReason (..),
 
     -- * LoadBalancerTlsCertificateStatus
-    LoadBalancerTlsCertificateStatus (LoadBalancerTlsCertificateStatus'),
+    LoadBalancerTlsCertificateStatus (..),
 
     -- * MetricName
-    MetricName (MetricName'),
+    MetricName (..),
 
     -- * MetricStatistic
-    MetricStatistic (MetricStatistic'),
+    MetricStatistic (..),
 
     -- * MetricUnit
-    MetricUnit (MetricUnit'),
+    MetricUnit (..),
 
     -- * NameServersUpdateStateCode
-    NameServersUpdateStateCode (NameServersUpdateStateCode'),
+    NameServersUpdateStateCode (..),
 
     -- * NetworkProtocol
-    NetworkProtocol (NetworkProtocol'),
+    NetworkProtocol (..),
 
     -- * OperationStatus
-    OperationStatus (OperationStatus'),
+    OperationStatus (..),
 
     -- * OperationType
-    OperationType (OperationType'),
+    OperationType (..),
 
     -- * OriginProtocolPolicyEnum
-    OriginProtocolPolicyEnum (OriginProtocolPolicyEnum'),
+    OriginProtocolPolicyEnum (..),
 
     -- * PortAccessType
-    PortAccessType (PortAccessType'),
+    PortAccessType (..),
 
     -- * PortInfoSourceType
-    PortInfoSourceType (PortInfoSourceType'),
+    PortInfoSourceType (..),
 
     -- * PortState
-    PortState (PortState'),
+    PortState (..),
 
     -- * R53HostedZoneDeletionStateCode
-    R53HostedZoneDeletionStateCode (R53HostedZoneDeletionStateCode'),
+    R53HostedZoneDeletionStateCode (..),
 
     -- * RecordState
-    RecordState (RecordState'),
+    RecordState (..),
 
     -- * RegionName
-    RegionName (RegionName'),
+    RegionName (..),
 
     -- * RelationalDatabaseEngine
-    RelationalDatabaseEngine (RelationalDatabaseEngine'),
+    RelationalDatabaseEngine (..),
 
     -- * RelationalDatabaseMetricName
-    RelationalDatabaseMetricName (RelationalDatabaseMetricName'),
+    RelationalDatabaseMetricName (..),
 
     -- * RelationalDatabasePasswordVersion
-    RelationalDatabasePasswordVersion (RelationalDatabasePasswordVersion'),
+    RelationalDatabasePasswordVersion (..),
 
     -- * RenewalStatus
-    RenewalStatus (RenewalStatus'),
+    RenewalStatus (..),
 
     -- * ResourceBucketAccess
-    ResourceBucketAccess (ResourceBucketAccess'),
+    ResourceBucketAccess (..),
 
     -- * ResourceType
-    ResourceType (ResourceType'),
+    ResourceType (..),
 
     -- * StatusType
-    StatusType (StatusType'),
+    StatusType (..),
 
     -- * TreatMissingData
-    TreatMissingData (TreatMissingData'),
+    TreatMissingData (..),
 
     -- * AccessKey
     AccessKey (AccessKey'),

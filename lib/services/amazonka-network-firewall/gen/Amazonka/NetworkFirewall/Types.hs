@@ -33,64 +33,64 @@ module Amazonka.NetworkFirewall.Types
     _UnsupportedOperationException,
 
     -- * AttachmentStatus
-    AttachmentStatus (AttachmentStatus'),
+    AttachmentStatus (..),
 
     -- * ConfigurationSyncState
-    ConfigurationSyncState (ConfigurationSyncState'),
+    ConfigurationSyncState (..),
 
     -- * EncryptionType
-    EncryptionType (EncryptionType'),
+    EncryptionType (..),
 
     -- * FirewallStatusValue
-    FirewallStatusValue (FirewallStatusValue'),
+    FirewallStatusValue (..),
 
     -- * GeneratedRulesType
-    GeneratedRulesType (GeneratedRulesType'),
+    GeneratedRulesType (..),
 
     -- * LogDestinationType
-    LogDestinationType (LogDestinationType'),
+    LogDestinationType (..),
 
     -- * LogType
-    LogType (LogType'),
+    LogType (..),
 
     -- * OverrideAction
-    OverrideAction (OverrideAction'),
+    OverrideAction (..),
 
     -- * PerObjectSyncStatus
-    PerObjectSyncStatus (PerObjectSyncStatus'),
+    PerObjectSyncStatus (..),
 
     -- * ResourceManagedStatus
-    ResourceManagedStatus (ResourceManagedStatus'),
+    ResourceManagedStatus (..),
 
     -- * ResourceManagedType
-    ResourceManagedType (ResourceManagedType'),
+    ResourceManagedType (..),
 
     -- * ResourceStatus
-    ResourceStatus (ResourceStatus'),
+    ResourceStatus (..),
 
     -- * RuleGroupType
-    RuleGroupType (RuleGroupType'),
+    RuleGroupType (..),
 
     -- * RuleOrder
-    RuleOrder (RuleOrder'),
+    RuleOrder (..),
 
     -- * StatefulAction
-    StatefulAction (StatefulAction'),
+    StatefulAction (..),
 
     -- * StatefulRuleDirection
-    StatefulRuleDirection (StatefulRuleDirection'),
+    StatefulRuleDirection (..),
 
     -- * StatefulRuleProtocol
-    StatefulRuleProtocol (StatefulRuleProtocol'),
+    StatefulRuleProtocol (..),
 
     -- * StreamExceptionPolicy
-    StreamExceptionPolicy (StreamExceptionPolicy'),
+    StreamExceptionPolicy (..),
 
     -- * TCPFlag
-    TCPFlag (TCPFlag'),
+    TCPFlag (..),
 
     -- * TargetType
-    TargetType (TargetType'),
+    TargetType (..),
 
     -- * ActionDefinition
     ActionDefinition (ActionDefinition'),

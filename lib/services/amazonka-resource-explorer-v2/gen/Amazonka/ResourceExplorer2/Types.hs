@@ -29,10 +29,10 @@ module Amazonka.ResourceExplorer2.Types
     _ValidationException,
 
     -- * IndexState
-    IndexState (IndexState'),
+    IndexState (..),
 
     -- * IndexType
-    IndexType (IndexType'),
+    IndexType (..),
 
     -- * BatchGetViewError
     BatchGetViewError (BatchGetViewError'),

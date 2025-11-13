@@ -46,25 +46,25 @@ module Amazonka.StepFunctions.Types
     _ValidationException,
 
     -- * ExecutionStatus
-    ExecutionStatus (ExecutionStatus'),
+    ExecutionStatus (..),
 
     -- * HistoryEventType
-    HistoryEventType (HistoryEventType'),
+    HistoryEventType (..),
 
     -- * LogLevel
-    LogLevel (LogLevel'),
+    LogLevel (..),
 
     -- * MapRunStatus
-    MapRunStatus (MapRunStatus'),
+    MapRunStatus (..),
 
     -- * StateMachineStatus
-    StateMachineStatus (StateMachineStatus'),
+    StateMachineStatus (..),
 
     -- * StateMachineType
-    StateMachineType (StateMachineType'),
+    StateMachineType (..),
 
     -- * SyncExecutionStatus
-    SyncExecutionStatus (SyncExecutionStatus'),
+    SyncExecutionStatus (..),
 
     -- * ActivityFailedEventDetails
     ActivityFailedEventDetails (ActivityFailedEventDetails'),

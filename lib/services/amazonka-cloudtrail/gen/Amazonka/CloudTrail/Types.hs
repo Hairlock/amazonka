@@ -93,34 +93,34 @@ module Amazonka.CloudTrail.Types
     _UnsupportedOperationException,
 
     -- * DeliveryStatus
-    DeliveryStatus (DeliveryStatus'),
+    DeliveryStatus (..),
 
     -- * DestinationType
-    DestinationType (DestinationType'),
+    DestinationType (..),
 
     -- * EventCategory
-    EventCategory (EventCategory'),
+    EventCategory (..),
 
     -- * EventDataStoreStatus
-    EventDataStoreStatus (EventDataStoreStatus'),
+    EventDataStoreStatus (..),
 
     -- * ImportFailureStatus
-    ImportFailureStatus (ImportFailureStatus'),
+    ImportFailureStatus (..),
 
     -- * ImportStatus
-    ImportStatus (ImportStatus'),
+    ImportStatus (..),
 
     -- * InsightType
-    InsightType (InsightType'),
+    InsightType (..),
 
     -- * LookupAttributeKey
-    LookupAttributeKey (LookupAttributeKey'),
+    LookupAttributeKey (..),
 
     -- * QueryStatus
-    QueryStatus (QueryStatus'),
+    QueryStatus (..),
 
     -- * ReadWriteType
-    ReadWriteType (ReadWriteType'),
+    ReadWriteType (..),
 
     -- * AdvancedEventSelector
     AdvancedEventSelector (AdvancedEventSelector'),

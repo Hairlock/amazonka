@@ -93,55 +93,55 @@ module Amazonka.Route53.Types
     module Amazonka.Route53.Internal,
 
     -- * AccountLimitType
-    AccountLimitType (AccountLimitType'),
+    AccountLimitType (..),
 
     -- * ChangeAction
-    ChangeAction (ChangeAction'),
+    ChangeAction (..),
 
     -- * ChangeStatus
-    ChangeStatus (ChangeStatus'),
+    ChangeStatus (..),
 
     -- * CidrCollectionChangeAction
-    CidrCollectionChangeAction (CidrCollectionChangeAction'),
+    CidrCollectionChangeAction (..),
 
     -- * CloudWatchRegion
-    CloudWatchRegion (CloudWatchRegion'),
+    CloudWatchRegion (..),
 
     -- * ComparisonOperator
-    ComparisonOperator (ComparisonOperator'),
+    ComparisonOperator (..),
 
     -- * HealthCheckRegion
-    HealthCheckRegion (HealthCheckRegion'),
+    HealthCheckRegion (..),
 
     -- * HealthCheckType
-    HealthCheckType (HealthCheckType'),
+    HealthCheckType (..),
 
     -- * HostedZoneLimitType
-    HostedZoneLimitType (HostedZoneLimitType'),
+    HostedZoneLimitType (..),
 
     -- * InsufficientDataHealthStatus
-    InsufficientDataHealthStatus (InsufficientDataHealthStatus'),
+    InsufficientDataHealthStatus (..),
 
     -- * RRType
-    RRType (RRType'),
+    RRType (..),
 
     -- * ResettableElementName
-    ResettableElementName (ResettableElementName'),
+    ResettableElementName (..),
 
     -- * ResourceRecordSetFailover
-    ResourceRecordSetFailover (ResourceRecordSetFailover'),
+    ResourceRecordSetFailover (..),
 
     -- * ReusableDelegationSetLimitType
-    ReusableDelegationSetLimitType (ReusableDelegationSetLimitType'),
+    ReusableDelegationSetLimitType (..),
 
     -- * Statistic
-    Statistic (Statistic'),
+    Statistic (..),
 
     -- * TagResourceType
-    TagResourceType (TagResourceType'),
+    TagResourceType (..),
 
     -- * VPCRegion
-    VPCRegion (VPCRegion'),
+    VPCRegion (..),
 
     -- * AccountLimit
     AccountLimit (AccountLimit'),

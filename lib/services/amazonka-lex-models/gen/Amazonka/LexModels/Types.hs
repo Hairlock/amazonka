@@ -29,73 +29,73 @@ module Amazonka.LexModels.Types
     _ResourceInUseException,
 
     -- * ChannelStatus
-    ChannelStatus (ChannelStatus'),
+    ChannelStatus (..),
 
     -- * ChannelType
-    ChannelType (ChannelType'),
+    ChannelType (..),
 
     -- * ContentType
-    ContentType (ContentType'),
+    ContentType (..),
 
     -- * Destination
-    Destination (Destination'),
+    Destination (..),
 
     -- * ExportStatus
-    ExportStatus (ExportStatus'),
+    ExportStatus (..),
 
     -- * ExportType
-    ExportType (ExportType'),
+    ExportType (..),
 
     -- * FulfillmentActivityType
-    FulfillmentActivityType (FulfillmentActivityType'),
+    FulfillmentActivityType (..),
 
     -- * ImportStatus
-    ImportStatus (ImportStatus'),
+    ImportStatus (..),
 
     -- * LexStatus
-    LexStatus (LexStatus'),
+    LexStatus (..),
 
     -- * Locale
-    Locale (Locale'),
+    Locale (..),
 
     -- * LogType
-    LogType (LogType'),
+    LogType (..),
 
     -- * MergeStrategy
-    MergeStrategy (MergeStrategy'),
+    MergeStrategy (..),
 
     -- * MigrationAlertType
-    MigrationAlertType (MigrationAlertType'),
+    MigrationAlertType (..),
 
     -- * MigrationSortAttribute
-    MigrationSortAttribute (MigrationSortAttribute'),
+    MigrationSortAttribute (..),
 
     -- * MigrationStatus
-    MigrationStatus (MigrationStatus'),
+    MigrationStatus (..),
 
     -- * MigrationStrategy
-    MigrationStrategy (MigrationStrategy'),
+    MigrationStrategy (..),
 
     -- * ObfuscationSetting
-    ObfuscationSetting (ObfuscationSetting'),
+    ObfuscationSetting (..),
 
     -- * ProcessBehavior
-    ProcessBehavior (ProcessBehavior'),
+    ProcessBehavior (..),
 
     -- * ResourceType
-    ResourceType (ResourceType'),
+    ResourceType (..),
 
     -- * SlotConstraint
-    SlotConstraint (SlotConstraint'),
+    SlotConstraint (..),
 
     -- * SlotValueSelectionStrategy
-    SlotValueSelectionStrategy (SlotValueSelectionStrategy'),
+    SlotValueSelectionStrategy (..),
 
     -- * SortOrder
-    SortOrder (SortOrder'),
+    SortOrder (..),
 
     -- * StatusType
-    StatusType (StatusType'),
+    StatusType (..),
 
     -- * BotAliasMetadata
     BotAliasMetadata (BotAliasMetadata'),

@@ -32,178 +32,178 @@ module Amazonka.Kendra.Types
     _ValidationException,
 
     -- * AdditionalResultAttributeValueType
-    AdditionalResultAttributeValueType (AdditionalResultAttributeValueType'),
+    AdditionalResultAttributeValueType (..),
 
     -- * AlfrescoEntity
-    AlfrescoEntity (AlfrescoEntity'),
+    AlfrescoEntity (..),
 
     -- * ConditionOperator
-    ConditionOperator (ConditionOperator'),
+    ConditionOperator (..),
 
     -- * ConfluenceAttachmentFieldName
-    ConfluenceAttachmentFieldName (ConfluenceAttachmentFieldName'),
+    ConfluenceAttachmentFieldName (..),
 
     -- * ConfluenceAuthenticationType
-    ConfluenceAuthenticationType (ConfluenceAuthenticationType'),
+    ConfluenceAuthenticationType (..),
 
     -- * ConfluenceBlogFieldName
-    ConfluenceBlogFieldName (ConfluenceBlogFieldName'),
+    ConfluenceBlogFieldName (..),
 
     -- * ConfluencePageFieldName
-    ConfluencePageFieldName (ConfluencePageFieldName'),
+    ConfluencePageFieldName (..),
 
     -- * ConfluenceSpaceFieldName
-    ConfluenceSpaceFieldName (ConfluenceSpaceFieldName'),
+    ConfluenceSpaceFieldName (..),
 
     -- * ConfluenceVersion
-    ConfluenceVersion (ConfluenceVersion'),
+    ConfluenceVersion (..),
 
     -- * ContentType
-    ContentType (ContentType'),
+    ContentType (..),
 
     -- * DataSourceStatus
-    DataSourceStatus (DataSourceStatus'),
+    DataSourceStatus (..),
 
     -- * DataSourceSyncJobStatus
-    DataSourceSyncJobStatus (DataSourceSyncJobStatus'),
+    DataSourceSyncJobStatus (..),
 
     -- * DataSourceType
-    DataSourceType (DataSourceType'),
+    DataSourceType (..),
 
     -- * DatabaseEngineType
-    DatabaseEngineType (DatabaseEngineType'),
+    DatabaseEngineType (..),
 
     -- * DocumentAttributeValueType
-    DocumentAttributeValueType (DocumentAttributeValueType'),
+    DocumentAttributeValueType (..),
 
     -- * DocumentStatus
-    DocumentStatus (DocumentStatus'),
+    DocumentStatus (..),
 
     -- * EndpointType
-    EndpointType (EndpointType'),
+    EndpointType (..),
 
     -- * EntityType
-    EntityType (EntityType'),
+    EntityType (..),
 
     -- * ErrorCode
-    ErrorCode (ErrorCode'),
+    ErrorCode (..),
 
     -- * ExperienceStatus
-    ExperienceStatus (ExperienceStatus'),
+    ExperienceStatus (..),
 
     -- * FaqFileFormat
-    FaqFileFormat (FaqFileFormat'),
+    FaqFileFormat (..),
 
     -- * FaqStatus
-    FaqStatus (FaqStatus'),
+    FaqStatus (..),
 
     -- * FsxFileSystemType
-    FsxFileSystemType (FsxFileSystemType'),
+    FsxFileSystemType (..),
 
     -- * HighlightType
-    HighlightType (HighlightType'),
+    HighlightType (..),
 
     -- * IndexEdition
-    IndexEdition (IndexEdition'),
+    IndexEdition (..),
 
     -- * IndexStatus
-    IndexStatus (IndexStatus'),
+    IndexStatus (..),
 
     -- * Interval
-    Interval (Interval'),
+    Interval (..),
 
     -- * IssueSubEntity
-    IssueSubEntity (IssueSubEntity'),
+    IssueSubEntity (..),
 
     -- * KeyLocation
-    KeyLocation (KeyLocation'),
+    KeyLocation (..),
 
     -- * MetricType
-    MetricType (MetricType'),
+    MetricType (..),
 
     -- * Mode
-    Mode (Mode'),
+    Mode (..),
 
     -- * Order
-    Order (Order'),
+    Order (..),
 
     -- * Persona
-    Persona (Persona'),
+    Persona (..),
 
     -- * PrincipalMappingStatus
-    PrincipalMappingStatus (PrincipalMappingStatus'),
+    PrincipalMappingStatus (..),
 
     -- * PrincipalType
-    PrincipalType (PrincipalType'),
+    PrincipalType (..),
 
     -- * QueryIdentifiersEnclosingOption
-    QueryIdentifiersEnclosingOption (QueryIdentifiersEnclosingOption'),
+    QueryIdentifiersEnclosingOption (..),
 
     -- * QueryResultFormat
-    QueryResultFormat (QueryResultFormat'),
+    QueryResultFormat (..),
 
     -- * QueryResultType
-    QueryResultType (QueryResultType'),
+    QueryResultType (..),
 
     -- * QuerySuggestionsBlockListStatus
-    QuerySuggestionsBlockListStatus (QuerySuggestionsBlockListStatus'),
+    QuerySuggestionsBlockListStatus (..),
 
     -- * QuerySuggestionsStatus
-    QuerySuggestionsStatus (QuerySuggestionsStatus'),
+    QuerySuggestionsStatus (..),
 
     -- * ReadAccessType
-    ReadAccessType (ReadAccessType'),
+    ReadAccessType (..),
 
     -- * RelevanceType
-    RelevanceType (RelevanceType'),
+    RelevanceType (..),
 
     -- * SalesforceChatterFeedIncludeFilterType
-    SalesforceChatterFeedIncludeFilterType (SalesforceChatterFeedIncludeFilterType'),
+    SalesforceChatterFeedIncludeFilterType (..),
 
     -- * SalesforceKnowledgeArticleState
-    SalesforceKnowledgeArticleState (SalesforceKnowledgeArticleState'),
+    SalesforceKnowledgeArticleState (..),
 
     -- * SalesforceStandardObjectName
-    SalesforceStandardObjectName (SalesforceStandardObjectName'),
+    SalesforceStandardObjectName (..),
 
     -- * ScoreConfidence
-    ScoreConfidence (ScoreConfidence'),
+    ScoreConfidence (..),
 
     -- * ServiceNowAuthenticationType
-    ServiceNowAuthenticationType (ServiceNowAuthenticationType'),
+    ServiceNowAuthenticationType (..),
 
     -- * ServiceNowBuildVersionType
-    ServiceNowBuildVersionType (ServiceNowBuildVersionType'),
+    ServiceNowBuildVersionType (..),
 
     -- * SharePointOnlineAuthenticationType
-    SharePointOnlineAuthenticationType (SharePointOnlineAuthenticationType'),
+    SharePointOnlineAuthenticationType (..),
 
     -- * SharePointVersion
-    SharePointVersion (SharePointVersion'),
+    SharePointVersion (..),
 
     -- * SlackEntity
-    SlackEntity (SlackEntity'),
+    SlackEntity (..),
 
     -- * SortOrder
-    SortOrder (SortOrder'),
+    SortOrder (..),
 
     -- * ThesaurusStatus
-    ThesaurusStatus (ThesaurusStatus'),
+    ThesaurusStatus (..),
 
     -- * Type
-    Type (Type'),
+    Type (..),
 
     -- * UserContextPolicy
-    UserContextPolicy (UserContextPolicy'),
+    UserContextPolicy (..),
 
     -- * UserGroupResolutionMode
-    UserGroupResolutionMode (UserGroupResolutionMode'),
+    UserGroupResolutionMode (..),
 
     -- * WarningCode
-    WarningCode (WarningCode'),
+    WarningCode (..),
 
     -- * WebCrawlerMode
-    WebCrawlerMode (WebCrawlerMode'),
+    WebCrawlerMode (..),
 
     -- * AccessControlConfigurationSummary
     AccessControlConfigurationSummary (AccessControlConfigurationSummary'),

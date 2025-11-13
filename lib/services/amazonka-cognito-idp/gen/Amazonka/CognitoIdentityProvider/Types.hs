@@ -62,115 +62,115 @@ module Amazonka.CognitoIdentityProvider.Types
     _UsernameExistsException,
 
     -- * AccountTakeoverEventActionType
-    AccountTakeoverEventActionType (AccountTakeoverEventActionType'),
+    AccountTakeoverEventActionType (..),
 
     -- * AdvancedSecurityModeType
-    AdvancedSecurityModeType (AdvancedSecurityModeType'),
+    AdvancedSecurityModeType (..),
 
     -- * AliasAttributeType
-    AliasAttributeType (AliasAttributeType'),
+    AliasAttributeType (..),
 
     -- * AttributeDataType
-    AttributeDataType (AttributeDataType'),
+    AttributeDataType (..),
 
     -- * AuthFlowType
-    AuthFlowType (AuthFlowType'),
+    AuthFlowType (..),
 
     -- * ChallengeName
-    ChallengeName (ChallengeName'),
+    ChallengeName (..),
 
     -- * ChallengeNameType
-    ChallengeNameType (ChallengeNameType'),
+    ChallengeNameType (..),
 
     -- * ChallengeResponse
-    ChallengeResponse (ChallengeResponse'),
+    ChallengeResponse (..),
 
     -- * CompromisedCredentialsEventActionType
-    CompromisedCredentialsEventActionType (CompromisedCredentialsEventActionType'),
+    CompromisedCredentialsEventActionType (..),
 
     -- * CustomEmailSenderLambdaVersionType
-    CustomEmailSenderLambdaVersionType (CustomEmailSenderLambdaVersionType'),
+    CustomEmailSenderLambdaVersionType (..),
 
     -- * CustomSMSSenderLambdaVersionType
-    CustomSMSSenderLambdaVersionType (CustomSMSSenderLambdaVersionType'),
+    CustomSMSSenderLambdaVersionType (..),
 
     -- * DefaultEmailOptionType
-    DefaultEmailOptionType (DefaultEmailOptionType'),
+    DefaultEmailOptionType (..),
 
     -- * DeletionProtectionType
-    DeletionProtectionType (DeletionProtectionType'),
+    DeletionProtectionType (..),
 
     -- * DeliveryMediumType
-    DeliveryMediumType (DeliveryMediumType'),
+    DeliveryMediumType (..),
 
     -- * DeviceRememberedStatusType
-    DeviceRememberedStatusType (DeviceRememberedStatusType'),
+    DeviceRememberedStatusType (..),
 
     -- * DomainStatusType
-    DomainStatusType (DomainStatusType'),
+    DomainStatusType (..),
 
     -- * EmailSendingAccountType
-    EmailSendingAccountType (EmailSendingAccountType'),
+    EmailSendingAccountType (..),
 
     -- * EventFilterType
-    EventFilterType (EventFilterType'),
+    EventFilterType (..),
 
     -- * EventResponseType
-    EventResponseType (EventResponseType'),
+    EventResponseType (..),
 
     -- * EventType
-    EventType (EventType'),
+    EventType (..),
 
     -- * ExplicitAuthFlowsType
-    ExplicitAuthFlowsType (ExplicitAuthFlowsType'),
+    ExplicitAuthFlowsType (..),
 
     -- * FeedbackValueType
-    FeedbackValueType (FeedbackValueType'),
+    FeedbackValueType (..),
 
     -- * IdentityProviderTypeType
-    IdentityProviderTypeType (IdentityProviderTypeType'),
+    IdentityProviderTypeType (..),
 
     -- * MessageActionType
-    MessageActionType (MessageActionType'),
+    MessageActionType (..),
 
     -- * OAuthFlowType
-    OAuthFlowType (OAuthFlowType'),
+    OAuthFlowType (..),
 
     -- * PreventUserExistenceErrorTypes
-    PreventUserExistenceErrorTypes (PreventUserExistenceErrorTypes'),
+    PreventUserExistenceErrorTypes (..),
 
     -- * RecoveryOptionNameType
-    RecoveryOptionNameType (RecoveryOptionNameType'),
+    RecoveryOptionNameType (..),
 
     -- * RiskDecisionType
-    RiskDecisionType (RiskDecisionType'),
+    RiskDecisionType (..),
 
     -- * RiskLevelType
-    RiskLevelType (RiskLevelType'),
+    RiskLevelType (..),
 
     -- * StatusType
-    StatusType (StatusType'),
+    StatusType (..),
 
     -- * TimeUnitsType
-    TimeUnitsType (TimeUnitsType'),
+    TimeUnitsType (..),
 
     -- * UserImportJobStatusType
-    UserImportJobStatusType (UserImportJobStatusType'),
+    UserImportJobStatusType (..),
 
     -- * UserPoolMfaType
-    UserPoolMfaType (UserPoolMfaType'),
+    UserPoolMfaType (..),
 
     -- * UserStatusType
-    UserStatusType (UserStatusType'),
+    UserStatusType (..),
 
     -- * UsernameAttributeType
-    UsernameAttributeType (UsernameAttributeType'),
+    UsernameAttributeType (..),
 
     -- * VerifiedAttributeType
-    VerifiedAttributeType (VerifiedAttributeType'),
+    VerifiedAttributeType (..),
 
     -- * VerifySoftwareTokenResponseType
-    VerifySoftwareTokenResponseType (VerifySoftwareTokenResponseType'),
+    VerifySoftwareTokenResponseType (..),
 
     -- * AccountRecoverySettingType
     AccountRecoverySettingType (AccountRecoverySettingType'),

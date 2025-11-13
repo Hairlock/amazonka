@@ -54,52 +54,52 @@ module Amazonka.ECR.Types
     _ValidationException,
 
     -- * EncryptionType
-    EncryptionType (EncryptionType'),
+    EncryptionType (..),
 
     -- * FindingSeverity
-    FindingSeverity (FindingSeverity'),
+    FindingSeverity (..),
 
     -- * ImageActionType
-    ImageActionType (ImageActionType'),
+    ImageActionType (..),
 
     -- * ImageFailureCode
-    ImageFailureCode (ImageFailureCode'),
+    ImageFailureCode (..),
 
     -- * ImageTagMutability
-    ImageTagMutability (ImageTagMutability'),
+    ImageTagMutability (..),
 
     -- * LayerAvailability
-    LayerAvailability (LayerAvailability'),
+    LayerAvailability (..),
 
     -- * LayerFailureCode
-    LayerFailureCode (LayerFailureCode'),
+    LayerFailureCode (..),
 
     -- * LifecyclePolicyPreviewStatus
-    LifecyclePolicyPreviewStatus (LifecyclePolicyPreviewStatus'),
+    LifecyclePolicyPreviewStatus (..),
 
     -- * ReplicationStatus
-    ReplicationStatus (ReplicationStatus'),
+    ReplicationStatus (..),
 
     -- * RepositoryFilterType
-    RepositoryFilterType (RepositoryFilterType'),
+    RepositoryFilterType (..),
 
     -- * ScanFrequency
-    ScanFrequency (ScanFrequency'),
+    ScanFrequency (..),
 
     -- * ScanStatus
-    ScanStatus (ScanStatus'),
+    ScanStatus (..),
 
     -- * ScanType
-    ScanType (ScanType'),
+    ScanType (..),
 
     -- * ScanningConfigurationFailureCode
-    ScanningConfigurationFailureCode (ScanningConfigurationFailureCode'),
+    ScanningConfigurationFailureCode (..),
 
     -- * ScanningRepositoryFilterType
-    ScanningRepositoryFilterType (ScanningRepositoryFilterType'),
+    ScanningRepositoryFilterType (..),
 
     -- * TagStatus
-    TagStatus (TagStatus'),
+    TagStatus (..),
 
     -- * Attribute
     Attribute (Attribute'),

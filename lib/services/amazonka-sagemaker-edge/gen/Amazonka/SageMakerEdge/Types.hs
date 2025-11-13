@@ -22,19 +22,19 @@ module Amazonka.SageMakerEdge.Types
     _InternalServiceException,
 
     -- * ChecksumType
-    ChecksumType (ChecksumType'),
+    ChecksumType (..),
 
     -- * DeploymentStatus
-    DeploymentStatus (DeploymentStatus'),
+    DeploymentStatus (..),
 
     -- * DeploymentType
-    DeploymentType (DeploymentType'),
+    DeploymentType (..),
 
     -- * FailureHandlingPolicy
-    FailureHandlingPolicy (FailureHandlingPolicy'),
+    FailureHandlingPolicy (..),
 
     -- * ModelState
-    ModelState (ModelState'),
+    ModelState (..),
 
     -- * Checksum
     Checksum (Checksum'),

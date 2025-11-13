@@ -53,16 +53,16 @@ module Amazonka.SNS.Types
     _VerificationException,
 
     -- * LanguageCodeString
-    LanguageCodeString (LanguageCodeString'),
+    LanguageCodeString (..),
 
     -- * NumberCapability
-    NumberCapability (NumberCapability'),
+    NumberCapability (..),
 
     -- * RouteType
-    RouteType (RouteType'),
+    RouteType (..),
 
     -- * SMSSandboxPhoneNumberVerificationStatus
-    SMSSandboxPhoneNumberVerificationStatus (SMSSandboxPhoneNumberVerificationStatus'),
+    SMSSandboxPhoneNumberVerificationStatus (..),
 
     -- * BatchResultErrorEntry
     BatchResultErrorEntry (BatchResultErrorEntry'),

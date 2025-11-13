@@ -165,103 +165,103 @@ module Amazonka.CloudFront.Types
     _UnsupportedOperation,
 
     -- * CachePolicyCookieBehavior
-    CachePolicyCookieBehavior (CachePolicyCookieBehavior'),
+    CachePolicyCookieBehavior (..),
 
     -- * CachePolicyHeaderBehavior
-    CachePolicyHeaderBehavior (CachePolicyHeaderBehavior'),
+    CachePolicyHeaderBehavior (..),
 
     -- * CachePolicyQueryStringBehavior
-    CachePolicyQueryStringBehavior (CachePolicyQueryStringBehavior'),
+    CachePolicyQueryStringBehavior (..),
 
     -- * CachePolicyType
-    CachePolicyType (CachePolicyType'),
+    CachePolicyType (..),
 
     -- * CertificateSource
-    CertificateSource (CertificateSource'),
+    CertificateSource (..),
 
     -- * ContinuousDeploymentPolicyType
-    ContinuousDeploymentPolicyType (ContinuousDeploymentPolicyType'),
+    ContinuousDeploymentPolicyType (..),
 
     -- * EventType
-    EventType (EventType'),
+    EventType (..),
 
     -- * Format
-    Format (Format'),
+    Format (..),
 
     -- * FrameOptionsList
-    FrameOptionsList (FrameOptionsList'),
+    FrameOptionsList (..),
 
     -- * FunctionRuntime
-    FunctionRuntime (FunctionRuntime'),
+    FunctionRuntime (..),
 
     -- * FunctionStage
-    FunctionStage (FunctionStage'),
+    FunctionStage (..),
 
     -- * GeoRestrictionType
-    GeoRestrictionType (GeoRestrictionType'),
+    GeoRestrictionType (..),
 
     -- * HttpVersion
-    HttpVersion (HttpVersion'),
+    HttpVersion (..),
 
     -- * ICPRecordalStatus
-    ICPRecordalStatus (ICPRecordalStatus'),
+    ICPRecordalStatus (..),
 
     -- * ItemSelection
-    ItemSelection (ItemSelection'),
+    ItemSelection (..),
 
     -- * Method
-    Method (Method'),
+    Method (..),
 
     -- * MinimumProtocolVersion
-    MinimumProtocolVersion (MinimumProtocolVersion'),
+    MinimumProtocolVersion (..),
 
     -- * OriginAccessControlOriginTypes
-    OriginAccessControlOriginTypes (OriginAccessControlOriginTypes'),
+    OriginAccessControlOriginTypes (..),
 
     -- * OriginAccessControlSigningBehaviors
-    OriginAccessControlSigningBehaviors (OriginAccessControlSigningBehaviors'),
+    OriginAccessControlSigningBehaviors (..),
 
     -- * OriginAccessControlSigningProtocols
-    OriginAccessControlSigningProtocols (OriginAccessControlSigningProtocols'),
+    OriginAccessControlSigningProtocols (..),
 
     -- * OriginProtocolPolicy
-    OriginProtocolPolicy (OriginProtocolPolicy'),
+    OriginProtocolPolicy (..),
 
     -- * OriginRequestPolicyCookieBehavior
-    OriginRequestPolicyCookieBehavior (OriginRequestPolicyCookieBehavior'),
+    OriginRequestPolicyCookieBehavior (..),
 
     -- * OriginRequestPolicyHeaderBehavior
-    OriginRequestPolicyHeaderBehavior (OriginRequestPolicyHeaderBehavior'),
+    OriginRequestPolicyHeaderBehavior (..),
 
     -- * OriginRequestPolicyQueryStringBehavior
-    OriginRequestPolicyQueryStringBehavior (OriginRequestPolicyQueryStringBehavior'),
+    OriginRequestPolicyQueryStringBehavior (..),
 
     -- * OriginRequestPolicyType
-    OriginRequestPolicyType (OriginRequestPolicyType'),
+    OriginRequestPolicyType (..),
 
     -- * PriceClass
-    PriceClass (PriceClass'),
+    PriceClass (..),
 
     -- * RealtimeMetricsSubscriptionStatus
-    RealtimeMetricsSubscriptionStatus (RealtimeMetricsSubscriptionStatus'),
+    RealtimeMetricsSubscriptionStatus (..),
 
     -- * ReferrerPolicyList
-    ReferrerPolicyList (ReferrerPolicyList'),
+    ReferrerPolicyList (..),
 
     -- * ResponseHeadersPolicyAccessControlAllowMethodsValues
-    ResponseHeadersPolicyAccessControlAllowMethodsValues (ResponseHeadersPolicyAccessControlAllowMethodsValues'),
+    ResponseHeadersPolicyAccessControlAllowMethodsValues (..),
 
     -- * ResponseHeadersPolicyType
-    ResponseHeadersPolicyType (ResponseHeadersPolicyType'),
+    ResponseHeadersPolicyType (..),
 
     -- * SSLSupportMethod
-    SSLSupportMethod (SSLSupportMethod'),
+    SSLSupportMethod (..),
 
     -- * SslProtocol
-    SslProtocol (SslProtocol'),
+    SslProtocol (..),
 
     -- * ViewerProtocolPolicy
-    ViewerProtocolPolicy (ViewerProtocolPolicy'),
+    ViewerProtocolPolicy (..),
 
     -- * ActiveTrustedKeyGroups
     ActiveTrustedKeyGroups (ActiveTrustedKeyGroups'),

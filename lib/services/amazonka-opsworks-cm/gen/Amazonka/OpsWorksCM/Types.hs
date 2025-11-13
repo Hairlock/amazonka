@@ -27,19 +27,19 @@ module Amazonka.OpsWorksCM.Types
     _ValidationException,
 
     -- * BackupStatus
-    BackupStatus (BackupStatus'),
+    BackupStatus (..),
 
     -- * BackupType
-    BackupType (BackupType'),
+    BackupType (..),
 
     -- * MaintenanceStatus
-    MaintenanceStatus (MaintenanceStatus'),
+    MaintenanceStatus (..),
 
     -- * NodeAssociationStatus
-    NodeAssociationStatus (NodeAssociationStatus'),
+    NodeAssociationStatus (..),
 
     -- * ServerStatus
-    ServerStatus (ServerStatus'),
+    ServerStatus (..),
 
     -- * AccountAttribute
     AccountAttribute (AccountAttribute'),

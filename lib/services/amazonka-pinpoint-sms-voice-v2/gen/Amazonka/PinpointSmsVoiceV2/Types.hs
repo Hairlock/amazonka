@@ -28,67 +28,67 @@ module Amazonka.PinpointSmsVoiceV2.Types
     _ValidationException,
 
     -- * AccountAttributeName
-    AccountAttributeName (AccountAttributeName'),
+    AccountAttributeName (..),
 
     -- * AccountLimitName
-    AccountLimitName (AccountLimitName'),
+    AccountLimitName (..),
 
     -- * ConfigurationSetFilterName
-    ConfigurationSetFilterName (ConfigurationSetFilterName'),
+    ConfigurationSetFilterName (..),
 
     -- * DestinationCountryParameterKey
-    DestinationCountryParameterKey (DestinationCountryParameterKey'),
+    DestinationCountryParameterKey (..),
 
     -- * EventType
-    EventType (EventType'),
+    EventType (..),
 
     -- * KeywordAction
-    KeywordAction (KeywordAction'),
+    KeywordAction (..),
 
     -- * KeywordFilterName
-    KeywordFilterName (KeywordFilterName'),
+    KeywordFilterName (..),
 
     -- * MessageType
-    MessageType (MessageType'),
+    MessageType (..),
 
     -- * NumberCapability
-    NumberCapability (NumberCapability'),
+    NumberCapability (..),
 
     -- * NumberStatus
-    NumberStatus (NumberStatus'),
+    NumberStatus (..),
 
     -- * NumberType
-    NumberType (NumberType'),
+    NumberType (..),
 
     -- * OptedOutFilterName
-    OptedOutFilterName (OptedOutFilterName'),
+    OptedOutFilterName (..),
 
     -- * PhoneNumberFilterName
-    PhoneNumberFilterName (PhoneNumberFilterName'),
+    PhoneNumberFilterName (..),
 
     -- * PoolFilterName
-    PoolFilterName (PoolFilterName'),
+    PoolFilterName (..),
 
     -- * PoolOriginationIdentitiesFilterName
-    PoolOriginationIdentitiesFilterName (PoolOriginationIdentitiesFilterName'),
+    PoolOriginationIdentitiesFilterName (..),
 
     -- * PoolStatus
-    PoolStatus (PoolStatus'),
+    PoolStatus (..),
 
     -- * RequestableNumberType
-    RequestableNumberType (RequestableNumberType'),
+    RequestableNumberType (..),
 
     -- * SenderIdFilterName
-    SenderIdFilterName (SenderIdFilterName'),
+    SenderIdFilterName (..),
 
     -- * SpendLimitName
-    SpendLimitName (SpendLimitName'),
+    SpendLimitName (..),
 
     -- * VoiceId
-    VoiceId (VoiceId'),
+    VoiceId (..),
 
     -- * VoiceMessageBodyTextType
-    VoiceMessageBodyTextType (VoiceMessageBodyTextType'),
+    VoiceMessageBodyTextType (..),
 
     -- * AccountAttribute
     AccountAttribute (AccountAttribute'),

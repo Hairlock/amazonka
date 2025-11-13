@@ -28,43 +28,43 @@ module Amazonka.Route53Domains.Types
     _UnsupportedTLD,
 
     -- * ContactType
-    ContactType (ContactType'),
+    ContactType (..),
 
     -- * CountryCode
-    CountryCode (CountryCode'),
+    CountryCode (..),
 
     -- * DomainAvailability
-    DomainAvailability (DomainAvailability'),
+    DomainAvailability (..),
 
     -- * ExtraParamName
-    ExtraParamName (ExtraParamName'),
+    ExtraParamName (..),
 
     -- * ListDomainsAttributeName
-    ListDomainsAttributeName (ListDomainsAttributeName'),
+    ListDomainsAttributeName (..),
 
     -- * ListOperationsSortAttributeName
-    ListOperationsSortAttributeName (ListOperationsSortAttributeName'),
+    ListOperationsSortAttributeName (..),
 
     -- * OperationStatus
-    OperationStatus (OperationStatus'),
+    OperationStatus (..),
 
     -- * OperationType
-    OperationType (OperationType'),
+    OperationType (..),
 
     -- * Operator
-    Operator (Operator'),
+    Operator (..),
 
     -- * ReachabilityStatus
-    ReachabilityStatus (ReachabilityStatus'),
+    ReachabilityStatus (..),
 
     -- * SortOrder
-    SortOrder (SortOrder'),
+    SortOrder (..),
 
     -- * StatusFlag
-    StatusFlag (StatusFlag'),
+    StatusFlag (..),
 
     -- * Transferable
-    Transferable (Transferable'),
+    Transferable (..),
 
     -- * BillingRecord
     BillingRecord (BillingRecord'),

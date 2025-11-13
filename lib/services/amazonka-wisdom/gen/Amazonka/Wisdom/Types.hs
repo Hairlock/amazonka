@@ -28,40 +28,40 @@ module Amazonka.Wisdom.Types
     _ValidationException,
 
     -- * AssistantStatus
-    AssistantStatus (AssistantStatus'),
+    AssistantStatus (..),
 
     -- * AssistantType
-    AssistantType (AssistantType'),
+    AssistantType (..),
 
     -- * AssociationType
-    AssociationType (AssociationType'),
+    AssociationType (..),
 
     -- * ContentStatus
-    ContentStatus (ContentStatus'),
+    ContentStatus (..),
 
     -- * FilterField
-    FilterField (FilterField'),
+    FilterField (..),
 
     -- * FilterOperator
-    FilterOperator (FilterOperator'),
+    FilterOperator (..),
 
     -- * KnowledgeBaseStatus
-    KnowledgeBaseStatus (KnowledgeBaseStatus'),
+    KnowledgeBaseStatus (..),
 
     -- * KnowledgeBaseType
-    KnowledgeBaseType (KnowledgeBaseType'),
+    KnowledgeBaseType (..),
 
     -- * RecommendationSourceType
-    RecommendationSourceType (RecommendationSourceType'),
+    RecommendationSourceType (..),
 
     -- * RecommendationTriggerType
-    RecommendationTriggerType (RecommendationTriggerType'),
+    RecommendationTriggerType (..),
 
     -- * RecommendationType
-    RecommendationType (RecommendationType'),
+    RecommendationType (..),
 
     -- * RelevanceLevel
-    RelevanceLevel (RelevanceLevel'),
+    RelevanceLevel (..),
 
     -- * AppIntegrationsConfiguration
     AppIntegrationsConfiguration (AppIntegrationsConfiguration'),

@@ -23,10 +23,10 @@ module Amazonka.CloudSearchDomains.Types
     _SearchException,
 
     -- * ContentType
-    ContentType (ContentType'),
+    ContentType (..),
 
     -- * QueryParser
-    QueryParser (QueryParser'),
+    QueryParser (..),
 
     -- * Bucket
     Bucket (Bucket'),

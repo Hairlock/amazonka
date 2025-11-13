@@ -29,55 +29,55 @@ module Amazonka.Evidently.Types
     _ValidationException,
 
     -- * ChangeDirectionEnum
-    ChangeDirectionEnum (ChangeDirectionEnum'),
+    ChangeDirectionEnum (..),
 
     -- * EventType
-    EventType (EventType'),
+    EventType (..),
 
     -- * ExperimentBaseStat
-    ExperimentBaseStat (ExperimentBaseStat'),
+    ExperimentBaseStat (..),
 
     -- * ExperimentReportName
-    ExperimentReportName (ExperimentReportName'),
+    ExperimentReportName (..),
 
     -- * ExperimentResultRequestType
-    ExperimentResultRequestType (ExperimentResultRequestType'),
+    ExperimentResultRequestType (..),
 
     -- * ExperimentResultResponseType
-    ExperimentResultResponseType (ExperimentResultResponseType'),
+    ExperimentResultResponseType (..),
 
     -- * ExperimentStatus
-    ExperimentStatus (ExperimentStatus'),
+    ExperimentStatus (..),
 
     -- * ExperimentStopDesiredState
-    ExperimentStopDesiredState (ExperimentStopDesiredState'),
+    ExperimentStopDesiredState (..),
 
     -- * ExperimentType
-    ExperimentType (ExperimentType'),
+    ExperimentType (..),
 
     -- * FeatureEvaluationStrategy
-    FeatureEvaluationStrategy (FeatureEvaluationStrategy'),
+    FeatureEvaluationStrategy (..),
 
     -- * FeatureStatus
-    FeatureStatus (FeatureStatus'),
+    FeatureStatus (..),
 
     -- * LaunchStatus
-    LaunchStatus (LaunchStatus'),
+    LaunchStatus (..),
 
     -- * LaunchStopDesiredState
-    LaunchStopDesiredState (LaunchStopDesiredState'),
+    LaunchStopDesiredState (..),
 
     -- * LaunchType
-    LaunchType (LaunchType'),
+    LaunchType (..),
 
     -- * ProjectStatus
-    ProjectStatus (ProjectStatus'),
+    ProjectStatus (..),
 
     -- * SegmentReferenceResourceType
-    SegmentReferenceResourceType (SegmentReferenceResourceType'),
+    SegmentReferenceResourceType (..),
 
     -- * VariationValueType
-    VariationValueType (VariationValueType'),
+    VariationValueType (..),
 
     -- * CloudWatchLogsDestination
     CloudWatchLogsDestination (CloudWatchLogsDestination'),

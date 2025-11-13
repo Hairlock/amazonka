@@ -28,22 +28,22 @@ module Amazonka.Amplify.Types
     _UnauthorizedException,
 
     -- * DomainStatus
-    DomainStatus (DomainStatus'),
+    DomainStatus (..),
 
     -- * JobStatus
-    JobStatus (JobStatus'),
+    JobStatus (..),
 
     -- * JobType
-    JobType (JobType'),
+    JobType (..),
 
     -- * Platform
-    Platform (Platform'),
+    Platform (..),
 
     -- * RepositoryCloneMethod
-    RepositoryCloneMethod (RepositoryCloneMethod'),
+    RepositoryCloneMethod (..),
 
     -- * Stage
-    Stage (Stage'),
+    Stage (..),
 
     -- * App
     App (App'),

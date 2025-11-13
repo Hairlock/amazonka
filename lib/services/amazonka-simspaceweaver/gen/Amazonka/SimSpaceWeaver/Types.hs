@@ -28,25 +28,25 @@ module Amazonka.SimSpaceWeaver.Types
     _ValidationException,
 
     -- * ClockStatus
-    ClockStatus (ClockStatus'),
+    ClockStatus (..),
 
     -- * ClockTargetStatus
-    ClockTargetStatus (ClockTargetStatus'),
+    ClockTargetStatus (..),
 
     -- * LifecycleManagementStrategy
-    LifecycleManagementStrategy (LifecycleManagementStrategy'),
+    LifecycleManagementStrategy (..),
 
     -- * SimulationAppStatus
-    SimulationAppStatus (SimulationAppStatus'),
+    SimulationAppStatus (..),
 
     -- * SimulationAppTargetStatus
-    SimulationAppTargetStatus (SimulationAppTargetStatus'),
+    SimulationAppTargetStatus (..),
 
     -- * SimulationStatus
-    SimulationStatus (SimulationStatus'),
+    SimulationStatus (..),
 
     -- * SimulationTargetStatus
-    SimulationTargetStatus (SimulationTargetStatus'),
+    SimulationTargetStatus (..),
 
     -- * CloudWatchLogsLogGroup
     CloudWatchLogsLogGroup (CloudWatchLogsLogGroup'),

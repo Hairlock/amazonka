@@ -34,61 +34,61 @@ module Amazonka.EKS.Types
     _UnsupportedAvailabilityZoneException,
 
     -- * AMITypes
-    AMITypes (AMITypes'),
+    AMITypes (..),
 
     -- * AddonIssueCode
-    AddonIssueCode (AddonIssueCode'),
+    AddonIssueCode (..),
 
     -- * AddonStatus
-    AddonStatus (AddonStatus'),
+    AddonStatus (..),
 
     -- * CapacityTypes
-    CapacityTypes (CapacityTypes'),
+    CapacityTypes (..),
 
     -- * ClusterIssueCode
-    ClusterIssueCode (ClusterIssueCode'),
+    ClusterIssueCode (..),
 
     -- * ClusterStatus
-    ClusterStatus (ClusterStatus'),
+    ClusterStatus (..),
 
     -- * ConfigStatus
-    ConfigStatus (ConfigStatus'),
+    ConfigStatus (..),
 
     -- * ConnectorConfigProvider
-    ConnectorConfigProvider (ConnectorConfigProvider'),
+    ConnectorConfigProvider (..),
 
     -- * EKSErrorCode
-    EKSErrorCode (EKSErrorCode'),
+    EKSErrorCode (..),
 
     -- * FargateProfileStatus
-    FargateProfileStatus (FargateProfileStatus'),
+    FargateProfileStatus (..),
 
     -- * IpFamily
-    IpFamily (IpFamily'),
+    IpFamily (..),
 
     -- * LogType
-    LogType (LogType'),
+    LogType (..),
 
     -- * NodegroupIssueCode
-    NodegroupIssueCode (NodegroupIssueCode'),
+    NodegroupIssueCode (..),
 
     -- * NodegroupStatus
-    NodegroupStatus (NodegroupStatus'),
+    NodegroupStatus (..),
 
     -- * ResolveConflicts
-    ResolveConflicts (ResolveConflicts'),
+    ResolveConflicts (..),
 
     -- * TaintEffect
-    TaintEffect (TaintEffect'),
+    TaintEffect (..),
 
     -- * UpdateParamType
-    UpdateParamType (UpdateParamType'),
+    UpdateParamType (..),
 
     -- * UpdateStatus
-    UpdateStatus (UpdateStatus'),
+    UpdateStatus (..),
 
     -- * UpdateType
-    UpdateType (UpdateType'),
+    UpdateType (..),
 
     -- * Addon
     Addon (Addon'),

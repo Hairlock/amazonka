@@ -24,7 +24,7 @@ module Amazonka.ElasticInference.Types
     _ResourceNotFoundException,
 
     -- * LocationType
-    LocationType (LocationType'),
+    LocationType (..),
 
     -- * AcceleratorType
     AcceleratorType (AcceleratorType'),

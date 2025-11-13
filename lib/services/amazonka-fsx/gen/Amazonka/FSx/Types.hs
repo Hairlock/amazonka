@@ -56,160 +56,160 @@ module Amazonka.FSx.Types
     _VolumeNotFound,
 
     -- * AdministrativeActionType
-    AdministrativeActionType (AdministrativeActionType'),
+    AdministrativeActionType (..),
 
     -- * AliasLifecycle
-    AliasLifecycle (AliasLifecycle'),
+    AliasLifecycle (..),
 
     -- * AutoImportPolicyType
-    AutoImportPolicyType (AutoImportPolicyType'),
+    AutoImportPolicyType (..),
 
     -- * BackupLifecycle
-    BackupLifecycle (BackupLifecycle'),
+    BackupLifecycle (..),
 
     -- * BackupType
-    BackupType (BackupType'),
+    BackupType (..),
 
     -- * DataCompressionType
-    DataCompressionType (DataCompressionType'),
+    DataCompressionType (..),
 
     -- * DataRepositoryLifecycle
-    DataRepositoryLifecycle (DataRepositoryLifecycle'),
+    DataRepositoryLifecycle (..),
 
     -- * DataRepositoryTaskFilterName
-    DataRepositoryTaskFilterName (DataRepositoryTaskFilterName'),
+    DataRepositoryTaskFilterName (..),
 
     -- * DataRepositoryTaskLifecycle
-    DataRepositoryTaskLifecycle (DataRepositoryTaskLifecycle'),
+    DataRepositoryTaskLifecycle (..),
 
     -- * DataRepositoryTaskType
-    DataRepositoryTaskType (DataRepositoryTaskType'),
+    DataRepositoryTaskType (..),
 
     -- * DeleteFileSystemOpenZFSOption
-    DeleteFileSystemOpenZFSOption (DeleteFileSystemOpenZFSOption'),
+    DeleteFileSystemOpenZFSOption (..),
 
     -- * DeleteOpenZFSVolumeOption
-    DeleteOpenZFSVolumeOption (DeleteOpenZFSVolumeOption'),
+    DeleteOpenZFSVolumeOption (..),
 
     -- * DiskIopsConfigurationMode
-    DiskIopsConfigurationMode (DiskIopsConfigurationMode'),
+    DiskIopsConfigurationMode (..),
 
     -- * DriveCacheType
-    DriveCacheType (DriveCacheType'),
+    DriveCacheType (..),
 
     -- * EventType
-    EventType (EventType'),
+    EventType (..),
 
     -- * FileCacheLifecycle
-    FileCacheLifecycle (FileCacheLifecycle'),
+    FileCacheLifecycle (..),
 
     -- * FileCacheLustreDeploymentType
-    FileCacheLustreDeploymentType (FileCacheLustreDeploymentType'),
+    FileCacheLustreDeploymentType (..),
 
     -- * FileCacheType
-    FileCacheType (FileCacheType'),
+    FileCacheType (..),
 
     -- * FileSystemLifecycle
-    FileSystemLifecycle (FileSystemLifecycle'),
+    FileSystemLifecycle (..),
 
     -- * FileSystemMaintenanceOperation
-    FileSystemMaintenanceOperation (FileSystemMaintenanceOperation'),
+    FileSystemMaintenanceOperation (..),
 
     -- * FileSystemType
-    FileSystemType (FileSystemType'),
+    FileSystemType (..),
 
     -- * FilterName
-    FilterName (FilterName'),
+    FilterName (..),
 
     -- * FlexCacheEndpointType
-    FlexCacheEndpointType (FlexCacheEndpointType'),
+    FlexCacheEndpointType (..),
 
     -- * InputOntapVolumeType
-    InputOntapVolumeType (InputOntapVolumeType'),
+    InputOntapVolumeType (..),
 
     -- * LustreAccessAuditLogLevel
-    LustreAccessAuditLogLevel (LustreAccessAuditLogLevel'),
+    LustreAccessAuditLogLevel (..),
 
     -- * LustreDeploymentType
-    LustreDeploymentType (LustreDeploymentType'),
+    LustreDeploymentType (..),
 
     -- * NfsVersion
-    NfsVersion (NfsVersion'),
+    NfsVersion (..),
 
     -- * OntapDeploymentType
-    OntapDeploymentType (OntapDeploymentType'),
+    OntapDeploymentType (..),
 
     -- * OntapVolumeType
-    OntapVolumeType (OntapVolumeType'),
+    OntapVolumeType (..),
 
     -- * OpenZFSCopyStrategy
-    OpenZFSCopyStrategy (OpenZFSCopyStrategy'),
+    OpenZFSCopyStrategy (..),
 
     -- * OpenZFSDataCompressionType
-    OpenZFSDataCompressionType (OpenZFSDataCompressionType'),
+    OpenZFSDataCompressionType (..),
 
     -- * OpenZFSDeploymentType
-    OpenZFSDeploymentType (OpenZFSDeploymentType'),
+    OpenZFSDeploymentType (..),
 
     -- * OpenZFSQuotaType
-    OpenZFSQuotaType (OpenZFSQuotaType'),
+    OpenZFSQuotaType (..),
 
     -- * ReportFormat
-    ReportFormat (ReportFormat'),
+    ReportFormat (..),
 
     -- * ReportScope
-    ReportScope (ReportScope'),
+    ReportScope (..),
 
     -- * ResourceType
-    ResourceType (ResourceType'),
+    ResourceType (..),
 
     -- * RestoreOpenZFSVolumeOption
-    RestoreOpenZFSVolumeOption (RestoreOpenZFSVolumeOption'),
+    RestoreOpenZFSVolumeOption (..),
 
     -- * SecurityStyle
-    SecurityStyle (SecurityStyle'),
+    SecurityStyle (..),
 
     -- * SnapshotFilterName
-    SnapshotFilterName (SnapshotFilterName'),
+    SnapshotFilterName (..),
 
     -- * SnapshotLifecycle
-    SnapshotLifecycle (SnapshotLifecycle'),
+    SnapshotLifecycle (..),
 
     -- * Status
-    Status (Status'),
+    Status (..),
 
     -- * StorageType
-    StorageType (StorageType'),
+    StorageType (..),
 
     -- * StorageVirtualMachineFilterName
-    StorageVirtualMachineFilterName (StorageVirtualMachineFilterName'),
+    StorageVirtualMachineFilterName (..),
 
     -- * StorageVirtualMachineLifecycle
-    StorageVirtualMachineLifecycle (StorageVirtualMachineLifecycle'),
+    StorageVirtualMachineLifecycle (..),
 
     -- * StorageVirtualMachineRootVolumeSecurityStyle
-    StorageVirtualMachineRootVolumeSecurityStyle (StorageVirtualMachineRootVolumeSecurityStyle'),
+    StorageVirtualMachineRootVolumeSecurityStyle (..),
 
     -- * StorageVirtualMachineSubtype
-    StorageVirtualMachineSubtype (StorageVirtualMachineSubtype'),
+    StorageVirtualMachineSubtype (..),
 
     -- * TieringPolicyName
-    TieringPolicyName (TieringPolicyName'),
+    TieringPolicyName (..),
 
     -- * VolumeFilterName
-    VolumeFilterName (VolumeFilterName'),
+    VolumeFilterName (..),
 
     -- * VolumeLifecycle
-    VolumeLifecycle (VolumeLifecycle'),
+    VolumeLifecycle (..),
 
     -- * VolumeType
-    VolumeType (VolumeType'),
+    VolumeType (..),
 
     -- * WindowsAccessAuditLogLevel
-    WindowsAccessAuditLogLevel (WindowsAccessAuditLogLevel'),
+    WindowsAccessAuditLogLevel (..),
 
     -- * WindowsDeploymentType
-    WindowsDeploymentType (WindowsDeploymentType'),
+    WindowsDeploymentType (..),
 
     -- * ActiveDirectoryBackupAttributes
     ActiveDirectoryBackupAttributes (ActiveDirectoryBackupAttributes'),

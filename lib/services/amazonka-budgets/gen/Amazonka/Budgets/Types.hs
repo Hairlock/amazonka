@@ -31,46 +31,46 @@ module Amazonka.Budgets.Types
     _ThrottlingException,
 
     -- * ActionStatus
-    ActionStatus (ActionStatus'),
+    ActionStatus (..),
 
     -- * ActionSubType
-    ActionSubType (ActionSubType'),
+    ActionSubType (..),
 
     -- * ActionType
-    ActionType (ActionType'),
+    ActionType (..),
 
     -- * ApprovalModel
-    ApprovalModel (ApprovalModel'),
+    ApprovalModel (..),
 
     -- * AutoAdjustType
-    AutoAdjustType (AutoAdjustType'),
+    AutoAdjustType (..),
 
     -- * BudgetType
-    BudgetType (BudgetType'),
+    BudgetType (..),
 
     -- * ComparisonOperator
-    ComparisonOperator (ComparisonOperator'),
+    ComparisonOperator (..),
 
     -- * EventType
-    EventType (EventType'),
+    EventType (..),
 
     -- * ExecutionType
-    ExecutionType (ExecutionType'),
+    ExecutionType (..),
 
     -- * NotificationState
-    NotificationState (NotificationState'),
+    NotificationState (..),
 
     -- * NotificationType
-    NotificationType (NotificationType'),
+    NotificationType (..),
 
     -- * SubscriptionType
-    SubscriptionType (SubscriptionType'),
+    SubscriptionType (..),
 
     -- * ThresholdType
-    ThresholdType (ThresholdType'),
+    ThresholdType (..),
 
     -- * TimeUnit
-    TimeUnit (TimeUnit'),
+    TimeUnit (..),
 
     -- * Action
     Action (Action'),

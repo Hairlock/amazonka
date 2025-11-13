@@ -29,13 +29,13 @@ module Amazonka.MarketplaceCatalog.Types
     _ValidationException,
 
     -- * ChangeStatus
-    ChangeStatus (ChangeStatus'),
+    ChangeStatus (..),
 
     -- * FailureCode
-    FailureCode (FailureCode'),
+    FailureCode (..),
 
     -- * SortOrder
-    SortOrder (SortOrder'),
+    SortOrder (..),
 
     -- * Change
     Change (Change'),

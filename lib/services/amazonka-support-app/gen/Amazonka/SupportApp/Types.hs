@@ -27,10 +27,10 @@ module Amazonka.SupportApp.Types
     _ValidationException,
 
     -- * AccountType
-    AccountType (AccountType'),
+    AccountType (..),
 
     -- * NotificationSeverityLevel
-    NotificationSeverityLevel (NotificationSeverityLevel'),
+    NotificationSeverityLevel (..),
 
     -- * SlackChannelConfiguration
     SlackChannelConfiguration (SlackChannelConfiguration'),

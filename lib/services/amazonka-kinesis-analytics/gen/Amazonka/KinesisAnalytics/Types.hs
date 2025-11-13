@@ -33,13 +33,13 @@ module Amazonka.KinesisAnalytics.Types
     _UnsupportedOperationException,
 
     -- * ApplicationStatus
-    ApplicationStatus (ApplicationStatus'),
+    ApplicationStatus (..),
 
     -- * InputStartingPosition
-    InputStartingPosition (InputStartingPosition'),
+    InputStartingPosition (..),
 
     -- * RecordFormatType
-    RecordFormatType (RecordFormatType'),
+    RecordFormatType (..),
 
     -- * ApplicationDetail
     ApplicationDetail (ApplicationDetail'),

@@ -29,112 +29,112 @@ module Amazonka.ServiceCatalog.Types
     _TagOptionNotMigratedException,
 
     -- * AccessLevelFilterKey
-    AccessLevelFilterKey (AccessLevelFilterKey'),
+    AccessLevelFilterKey (..),
 
     -- * AccessStatus
-    AccessStatus (AccessStatus'),
+    AccessStatus (..),
 
     -- * ChangeAction
-    ChangeAction (ChangeAction'),
+    ChangeAction (..),
 
     -- * CopyOption
-    CopyOption (CopyOption'),
+    CopyOption (..),
 
     -- * CopyProductStatus
-    CopyProductStatus (CopyProductStatus'),
+    CopyProductStatus (..),
 
     -- * DescribePortfolioShareType
-    DescribePortfolioShareType (DescribePortfolioShareType'),
+    DescribePortfolioShareType (..),
 
     -- * EvaluationType
-    EvaluationType (EvaluationType'),
+    EvaluationType (..),
 
     -- * LastSyncStatus
-    LastSyncStatus (LastSyncStatus'),
+    LastSyncStatus (..),
 
     -- * OrganizationNodeType
-    OrganizationNodeType (OrganizationNodeType'),
+    OrganizationNodeType (..),
 
     -- * PortfolioShareType
-    PortfolioShareType (PortfolioShareType'),
+    PortfolioShareType (..),
 
     -- * PrincipalType
-    PrincipalType (PrincipalType'),
+    PrincipalType (..),
 
     -- * ProductSource
-    ProductSource (ProductSource'),
+    ProductSource (..),
 
     -- * ProductType
-    ProductType (ProductType'),
+    ProductType (..),
 
     -- * ProductViewFilterBy
-    ProductViewFilterBy (ProductViewFilterBy'),
+    ProductViewFilterBy (..),
 
     -- * ProductViewSortBy
-    ProductViewSortBy (ProductViewSortBy'),
+    ProductViewSortBy (..),
 
     -- * PropertyKey
-    PropertyKey (PropertyKey'),
+    PropertyKey (..),
 
     -- * ProvisionedProductPlanStatus
-    ProvisionedProductPlanStatus (ProvisionedProductPlanStatus'),
+    ProvisionedProductPlanStatus (..),
 
     -- * ProvisionedProductPlanType
-    ProvisionedProductPlanType (ProvisionedProductPlanType'),
+    ProvisionedProductPlanType (..),
 
     -- * ProvisionedProductStatus
-    ProvisionedProductStatus (ProvisionedProductStatus'),
+    ProvisionedProductStatus (..),
 
     -- * ProvisionedProductViewFilterBy
-    ProvisionedProductViewFilterBy (ProvisionedProductViewFilterBy'),
+    ProvisionedProductViewFilterBy (..),
 
     -- * ProvisioningArtifactGuidance
-    ProvisioningArtifactGuidance (ProvisioningArtifactGuidance'),
+    ProvisioningArtifactGuidance (..),
 
     -- * ProvisioningArtifactPropertyName
-    ProvisioningArtifactPropertyName (ProvisioningArtifactPropertyName'),
+    ProvisioningArtifactPropertyName (..),
 
     -- * ProvisioningArtifactType
-    ProvisioningArtifactType (ProvisioningArtifactType'),
+    ProvisioningArtifactType (..),
 
     -- * RecordStatus
-    RecordStatus (RecordStatus'),
+    RecordStatus (..),
 
     -- * Replacement
-    Replacement (Replacement'),
+    Replacement (..),
 
     -- * RequestStatus
-    RequestStatus (RequestStatus'),
+    RequestStatus (..),
 
     -- * RequiresRecreation
-    RequiresRecreation (RequiresRecreation'),
+    RequiresRecreation (..),
 
     -- * ResourceAttribute
-    ResourceAttribute (ResourceAttribute'),
+    ResourceAttribute (..),
 
     -- * ServiceActionAssociationErrorCode
-    ServiceActionAssociationErrorCode (ServiceActionAssociationErrorCode'),
+    ServiceActionAssociationErrorCode (..),
 
     -- * ServiceActionDefinitionKey
-    ServiceActionDefinitionKey (ServiceActionDefinitionKey'),
+    ServiceActionDefinitionKey (..),
 
     -- * ServiceActionDefinitionType
-    ServiceActionDefinitionType (ServiceActionDefinitionType'),
+    ServiceActionDefinitionType (..),
 
     -- * ShareStatus
-    ShareStatus (ShareStatus'),
+    ShareStatus (..),
 
     -- * SortOrder
-    SortOrder (SortOrder'),
+    SortOrder (..),
 
     -- * SourceType
-    SourceType (SourceType'),
+    SourceType (..),
 
     -- * StackInstanceStatus
-    StackInstanceStatus (StackInstanceStatus'),
+    StackInstanceStatus (..),
 
     -- * StackSetOperationType
-    StackSetOperationType (StackSetOperationType'),
+    StackSetOperationType (..),
 
     -- * AccessLevelFilter
     AccessLevelFilter (AccessLevelFilter'),

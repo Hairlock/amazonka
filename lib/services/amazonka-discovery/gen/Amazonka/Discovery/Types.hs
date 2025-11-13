@@ -30,34 +30,34 @@ module Amazonka.Discovery.Types
     _ServerInternalErrorException,
 
     -- * AgentStatus
-    AgentStatus (AgentStatus'),
+    AgentStatus (..),
 
     -- * BatchDeleteImportDataErrorCode
-    BatchDeleteImportDataErrorCode (BatchDeleteImportDataErrorCode'),
+    BatchDeleteImportDataErrorCode (..),
 
     -- * ConfigurationItemType
-    ConfigurationItemType (ConfigurationItemType'),
+    ConfigurationItemType (..),
 
     -- * ContinuousExportStatus
-    ContinuousExportStatus (ContinuousExportStatus'),
+    ContinuousExportStatus (..),
 
     -- * DataSource
-    DataSource (DataSource'),
+    DataSource (..),
 
     -- * ExportDataFormat
-    ExportDataFormat (ExportDataFormat'),
+    ExportDataFormat (..),
 
     -- * ExportStatus
-    ExportStatus (ExportStatus'),
+    ExportStatus (..),
 
     -- * ImportStatus
-    ImportStatus (ImportStatus'),
+    ImportStatus (..),
 
     -- * ImportTaskFilterName
-    ImportTaskFilterName (ImportTaskFilterName'),
+    ImportTaskFilterName (..),
 
     -- * OrderString
-    OrderString (OrderString'),
+    OrderString (..),
 
     -- * AgentConfigurationStatus
     AgentConfigurationStatus (AgentConfigurationStatus'),

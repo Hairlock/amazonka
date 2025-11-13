@@ -24,16 +24,16 @@ module Amazonka.LicenseManagerLinuxSubscriptions.Types
     _ValidationException,
 
     -- * LinuxSubscriptionsDiscovery
-    LinuxSubscriptionsDiscovery (LinuxSubscriptionsDiscovery'),
+    LinuxSubscriptionsDiscovery (..),
 
     -- * Operator
-    Operator (Operator'),
+    Operator (..),
 
     -- * OrganizationIntegration
-    OrganizationIntegration (OrganizationIntegration'),
+    OrganizationIntegration (..),
 
     -- * Status
-    Status (Status'),
+    Status (..),
 
     -- * Filter
     Filter (Filter'),

@@ -25,52 +25,52 @@ module Amazonka.DirectConnect.Types
     _TooManyTagsException,
 
     -- * AddressFamily
-    AddressFamily (AddressFamily'),
+    AddressFamily (..),
 
     -- * BGPPeerState
-    BGPPeerState (BGPPeerState'),
+    BGPPeerState (..),
 
     -- * BGPStatus
-    BGPStatus (BGPStatus'),
+    BGPStatus (..),
 
     -- * ConnectionState
-    ConnectionState (ConnectionState'),
+    ConnectionState (..),
 
     -- * DirectConnectGatewayAssociationProposalState
-    DirectConnectGatewayAssociationProposalState (DirectConnectGatewayAssociationProposalState'),
+    DirectConnectGatewayAssociationProposalState (..),
 
     -- * DirectConnectGatewayAssociationState
-    DirectConnectGatewayAssociationState (DirectConnectGatewayAssociationState'),
+    DirectConnectGatewayAssociationState (..),
 
     -- * DirectConnectGatewayAttachmentState
-    DirectConnectGatewayAttachmentState (DirectConnectGatewayAttachmentState'),
+    DirectConnectGatewayAttachmentState (..),
 
     -- * DirectConnectGatewayAttachmentType
-    DirectConnectGatewayAttachmentType (DirectConnectGatewayAttachmentType'),
+    DirectConnectGatewayAttachmentType (..),
 
     -- * DirectConnectGatewayState
-    DirectConnectGatewayState (DirectConnectGatewayState'),
+    DirectConnectGatewayState (..),
 
     -- * GatewayType
-    GatewayType (GatewayType'),
+    GatewayType (..),
 
     -- * HasLogicalRedundancy
-    HasLogicalRedundancy (HasLogicalRedundancy'),
+    HasLogicalRedundancy (..),
 
     -- * InterconnectState
-    InterconnectState (InterconnectState'),
+    InterconnectState (..),
 
     -- * LagState
-    LagState (LagState'),
+    LagState (..),
 
     -- * LoaContentType
-    LoaContentType (LoaContentType'),
+    LoaContentType (..),
 
     -- * NniPartnerType
-    NniPartnerType (NniPartnerType'),
+    NniPartnerType (..),
 
     -- * VirtualInterfaceState
-    VirtualInterfaceState (VirtualInterfaceState'),
+    VirtualInterfaceState (..),
 
     -- * AssociatedGateway
     AssociatedGateway (AssociatedGateway'),

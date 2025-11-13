@@ -28,46 +28,46 @@ module Amazonka.DataExchange.Types
     _ValidationException,
 
     -- * AssetType
-    AssetType (AssetType'),
+    AssetType (..),
 
     -- * Code
-    Code (Code'),
+    Code (..),
 
     -- * DatabaseLFTagPolicyPermission
-    DatabaseLFTagPolicyPermission (DatabaseLFTagPolicyPermission'),
+    DatabaseLFTagPolicyPermission (..),
 
     -- * JobErrorLimitName
-    JobErrorLimitName (JobErrorLimitName'),
+    JobErrorLimitName (..),
 
     -- * JobErrorResourceTypes
-    JobErrorResourceTypes (JobErrorResourceTypes'),
+    JobErrorResourceTypes (..),
 
     -- * LFPermission
-    LFPermission (LFPermission'),
+    LFPermission (..),
 
     -- * LFResourceType
-    LFResourceType (LFResourceType'),
+    LFResourceType (..),
 
     -- * LakeFormationDataPermissionType
-    LakeFormationDataPermissionType (LakeFormationDataPermissionType'),
+    LakeFormationDataPermissionType (..),
 
     -- * Origin
-    Origin (Origin'),
+    Origin (..),
 
     -- * ProtocolType
-    ProtocolType (ProtocolType'),
+    ProtocolType (..),
 
     -- * ServerSideEncryptionTypes
-    ServerSideEncryptionTypes (ServerSideEncryptionTypes'),
+    ServerSideEncryptionTypes (..),
 
     -- * State
-    State (State'),
+    State (..),
 
     -- * TableTagPolicyLFPermission
-    TableTagPolicyLFPermission (TableTagPolicyLFPermission'),
+    TableTagPolicyLFPermission (..),
 
     -- * Type
-    Type (Type'),
+    Type (..),
 
     -- * Action
     Action (Action'),

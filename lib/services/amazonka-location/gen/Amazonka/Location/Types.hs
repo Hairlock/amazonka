@@ -28,31 +28,31 @@ module Amazonka.Location.Types
     _ValidationException,
 
     -- * BatchItemErrorCode
-    BatchItemErrorCode (BatchItemErrorCode'),
+    BatchItemErrorCode (..),
 
     -- * DimensionUnit
-    DimensionUnit (DimensionUnit'),
+    DimensionUnit (..),
 
     -- * DistanceUnit
-    DistanceUnit (DistanceUnit'),
+    DistanceUnit (..),
 
     -- * IntendedUse
-    IntendedUse (IntendedUse'),
+    IntendedUse (..),
 
     -- * PositionFiltering
-    PositionFiltering (PositionFiltering'),
+    PositionFiltering (..),
 
     -- * PricingPlan
-    PricingPlan (PricingPlan'),
+    PricingPlan (..),
 
     -- * RouteMatrixErrorCode
-    RouteMatrixErrorCode (RouteMatrixErrorCode'),
+    RouteMatrixErrorCode (..),
 
     -- * TravelMode
-    TravelMode (TravelMode'),
+    TravelMode (..),
 
     -- * VehicleWeightUnit
-    VehicleWeightUnit (VehicleWeightUnit'),
+    VehicleWeightUnit (..),
 
     -- * BatchDeleteDevicePositionHistoryError
     BatchDeleteDevicePositionHistoryError (BatchDeleteDevicePositionHistoryError'),

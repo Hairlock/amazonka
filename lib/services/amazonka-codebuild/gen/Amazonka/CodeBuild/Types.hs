@@ -26,118 +26,118 @@ module Amazonka.CodeBuild.Types
     _ResourceNotFoundException,
 
     -- * ArtifactNamespace
-    ArtifactNamespace (ArtifactNamespace'),
+    ArtifactNamespace (..),
 
     -- * ArtifactPackaging
-    ArtifactPackaging (ArtifactPackaging'),
+    ArtifactPackaging (..),
 
     -- * ArtifactsType
-    ArtifactsType (ArtifactsType'),
+    ArtifactsType (..),
 
     -- * AuthType
-    AuthType (AuthType'),
+    AuthType (..),
 
     -- * BatchReportModeType
-    BatchReportModeType (BatchReportModeType'),
+    BatchReportModeType (..),
 
     -- * BucketOwnerAccess
-    BucketOwnerAccess (BucketOwnerAccess'),
+    BucketOwnerAccess (..),
 
     -- * BuildBatchPhaseType
-    BuildBatchPhaseType (BuildBatchPhaseType'),
+    BuildBatchPhaseType (..),
 
     -- * BuildPhaseType
-    BuildPhaseType (BuildPhaseType'),
+    BuildPhaseType (..),
 
     -- * CacheMode
-    CacheMode (CacheMode'),
+    CacheMode (..),
 
     -- * CacheType
-    CacheType (CacheType'),
+    CacheType (..),
 
     -- * ComputeType
-    ComputeType (ComputeType'),
+    ComputeType (..),
 
     -- * CredentialProviderType
-    CredentialProviderType (CredentialProviderType'),
+    CredentialProviderType (..),
 
     -- * EnvironmentType
-    EnvironmentType (EnvironmentType'),
+    EnvironmentType (..),
 
     -- * EnvironmentVariableType
-    EnvironmentVariableType (EnvironmentVariableType'),
+    EnvironmentVariableType (..),
 
     -- * FileSystemType
-    FileSystemType (FileSystemType'),
+    FileSystemType (..),
 
     -- * ImagePullCredentialsType
-    ImagePullCredentialsType (ImagePullCredentialsType'),
+    ImagePullCredentialsType (..),
 
     -- * LanguageType
-    LanguageType (LanguageType'),
+    LanguageType (..),
 
     -- * LogsConfigStatusType
-    LogsConfigStatusType (LogsConfigStatusType'),
+    LogsConfigStatusType (..),
 
     -- * PlatformType
-    PlatformType (PlatformType'),
+    PlatformType (..),
 
     -- * ProjectSortByType
-    ProjectSortByType (ProjectSortByType'),
+    ProjectSortByType (..),
 
     -- * ProjectVisibilityType
-    ProjectVisibilityType (ProjectVisibilityType'),
+    ProjectVisibilityType (..),
 
     -- * ReportCodeCoverageSortByType
-    ReportCodeCoverageSortByType (ReportCodeCoverageSortByType'),
+    ReportCodeCoverageSortByType (..),
 
     -- * ReportExportConfigType
-    ReportExportConfigType (ReportExportConfigType'),
+    ReportExportConfigType (..),
 
     -- * ReportGroupSortByType
-    ReportGroupSortByType (ReportGroupSortByType'),
+    ReportGroupSortByType (..),
 
     -- * ReportGroupStatusType
-    ReportGroupStatusType (ReportGroupStatusType'),
+    ReportGroupStatusType (..),
 
     -- * ReportGroupTrendFieldType
-    ReportGroupTrendFieldType (ReportGroupTrendFieldType'),
+    ReportGroupTrendFieldType (..),
 
     -- * ReportPackagingType
-    ReportPackagingType (ReportPackagingType'),
+    ReportPackagingType (..),
 
     -- * ReportStatusType
-    ReportStatusType (ReportStatusType'),
+    ReportStatusType (..),
 
     -- * ReportType
-    ReportType (ReportType'),
+    ReportType (..),
 
     -- * RetryBuildBatchType
-    RetryBuildBatchType (RetryBuildBatchType'),
+    RetryBuildBatchType (..),
 
     -- * ServerType
-    ServerType (ServerType'),
+    ServerType (..),
 
     -- * SharedResourceSortByType
-    SharedResourceSortByType (SharedResourceSortByType'),
+    SharedResourceSortByType (..),
 
     -- * SortOrderType
-    SortOrderType (SortOrderType'),
+    SortOrderType (..),
 
     -- * SourceAuthType
-    SourceAuthType (SourceAuthType'),
+    SourceAuthType (..),
 
     -- * SourceType
-    SourceType (SourceType'),
+    SourceType (..),
 
     -- * StatusType
-    StatusType (StatusType'),
+    StatusType (..),
 
     -- * WebhookBuildType
-    WebhookBuildType (WebhookBuildType'),
+    WebhookBuildType (..),
 
     -- * WebhookFilterType
-    WebhookFilterType (WebhookFilterType'),
+    WebhookFilterType (..),
 
     -- * BatchRestrictions
     BatchRestrictions (BatchRestrictions'),

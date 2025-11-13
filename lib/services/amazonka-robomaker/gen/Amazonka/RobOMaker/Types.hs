@@ -30,58 +30,58 @@ module Amazonka.RobOMaker.Types
     _ThrottlingException,
 
     -- * Architecture
-    Architecture (Architecture'),
+    Architecture (..),
 
     -- * ComputeType
-    ComputeType (ComputeType'),
+    ComputeType (..),
 
     -- * DataSourceType
-    DataSourceType (DataSourceType'),
+    DataSourceType (..),
 
     -- * ExitBehavior
-    ExitBehavior (ExitBehavior'),
+    ExitBehavior (..),
 
     -- * FailureBehavior
-    FailureBehavior (FailureBehavior'),
+    FailureBehavior (..),
 
     -- * RenderingEngineType
-    RenderingEngineType (RenderingEngineType'),
+    RenderingEngineType (..),
 
     -- * RobotSoftwareSuiteType
-    RobotSoftwareSuiteType (RobotSoftwareSuiteType'),
+    RobotSoftwareSuiteType (..),
 
     -- * RobotSoftwareSuiteVersionType
-    RobotSoftwareSuiteVersionType (RobotSoftwareSuiteVersionType'),
+    RobotSoftwareSuiteVersionType (..),
 
     -- * SimulationJobBatchErrorCode
-    SimulationJobBatchErrorCode (SimulationJobBatchErrorCode'),
+    SimulationJobBatchErrorCode (..),
 
     -- * SimulationJobBatchStatus
-    SimulationJobBatchStatus (SimulationJobBatchStatus'),
+    SimulationJobBatchStatus (..),
 
     -- * SimulationJobErrorCode
-    SimulationJobErrorCode (SimulationJobErrorCode'),
+    SimulationJobErrorCode (..),
 
     -- * SimulationJobStatus
-    SimulationJobStatus (SimulationJobStatus'),
+    SimulationJobStatus (..),
 
     -- * SimulationSoftwareSuiteType
-    SimulationSoftwareSuiteType (SimulationSoftwareSuiteType'),
+    SimulationSoftwareSuiteType (..),
 
     -- * UploadBehavior
-    UploadBehavior (UploadBehavior'),
+    UploadBehavior (..),
 
     -- * WorldExportJobErrorCode
-    WorldExportJobErrorCode (WorldExportJobErrorCode'),
+    WorldExportJobErrorCode (..),
 
     -- * WorldExportJobStatus
-    WorldExportJobStatus (WorldExportJobStatus'),
+    WorldExportJobStatus (..),
 
     -- * WorldGenerationJobErrorCode
-    WorldGenerationJobErrorCode (WorldGenerationJobErrorCode'),
+    WorldGenerationJobErrorCode (..),
 
     -- * WorldGenerationJobStatus
-    WorldGenerationJobStatus (WorldGenerationJobStatus'),
+    WorldGenerationJobStatus (..),
 
     -- * BatchPolicy
     BatchPolicy (BatchPolicy'),

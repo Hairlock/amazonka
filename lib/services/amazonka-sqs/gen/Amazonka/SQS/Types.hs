@@ -37,13 +37,13 @@ module Amazonka.SQS.Types
     _UnsupportedOperation,
 
     -- * MessageAttribute
-    MessageAttribute (MessageAttribute'),
+    MessageAttribute (..),
 
     -- * MessageSystemAttributeNameForSends
-    MessageSystemAttributeNameForSends (MessageSystemAttributeNameForSends'),
+    MessageSystemAttributeNameForSends (..),
 
     -- * QueueAttributeName
-    QueueAttributeName (QueueAttributeName'),
+    QueueAttributeName (..),
 
     -- * BatchResultErrorEntry
     BatchResultErrorEntry (BatchResultErrorEntry'),

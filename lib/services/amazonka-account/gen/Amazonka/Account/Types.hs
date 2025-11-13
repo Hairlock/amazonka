@@ -26,7 +26,7 @@ module Amazonka.Account.Types
     _ValidationException,
 
     -- * AlternateContactType
-    AlternateContactType (AlternateContactType'),
+    AlternateContactType (..),
 
     -- * AlternateContact
     AlternateContact (AlternateContact'),

@@ -27,28 +27,28 @@ module Amazonka.Scheduler.Types
     _ValidationException,
 
     -- * AssignPublicIp
-    AssignPublicIp (AssignPublicIp'),
+    AssignPublicIp (..),
 
     -- * FlexibleTimeWindowMode
-    FlexibleTimeWindowMode (FlexibleTimeWindowMode'),
+    FlexibleTimeWindowMode (..),
 
     -- * LaunchType
-    LaunchType (LaunchType'),
+    LaunchType (..),
 
     -- * PlacementConstraintType
-    PlacementConstraintType (PlacementConstraintType'),
+    PlacementConstraintType (..),
 
     -- * PlacementStrategyType
-    PlacementStrategyType (PlacementStrategyType'),
+    PlacementStrategyType (..),
 
     -- * PropagateTags
-    PropagateTags (PropagateTags'),
+    PropagateTags (..),
 
     -- * ScheduleGroupState
-    ScheduleGroupState (ScheduleGroupState'),
+    ScheduleGroupState (..),
 
     -- * ScheduleState
-    ScheduleState (ScheduleState'),
+    ScheduleState (..),
 
     -- * AwsVpcConfiguration
     AwsVpcConfiguration (AwsVpcConfiguration'),

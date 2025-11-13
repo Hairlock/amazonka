@@ -33,109 +33,109 @@ module Amazonka.CostExplorer.Types
     _UnresolvableUsageUnitException,
 
     -- * AccountScope
-    AccountScope (AccountScope'),
+    AccountScope (..),
 
     -- * AnomalyFeedbackType
-    AnomalyFeedbackType (AnomalyFeedbackType'),
+    AnomalyFeedbackType (..),
 
     -- * AnomalySubscriptionFrequency
-    AnomalySubscriptionFrequency (AnomalySubscriptionFrequency'),
+    AnomalySubscriptionFrequency (..),
 
     -- * Context
-    Context (Context'),
+    Context (..),
 
     -- * CostAllocationTagStatus
-    CostAllocationTagStatus (CostAllocationTagStatus'),
+    CostAllocationTagStatus (..),
 
     -- * CostAllocationTagType
-    CostAllocationTagType (CostAllocationTagType'),
+    CostAllocationTagType (..),
 
     -- * CostCategoryInheritedValueDimensionName
-    CostCategoryInheritedValueDimensionName (CostCategoryInheritedValueDimensionName'),
+    CostCategoryInheritedValueDimensionName (..),
 
     -- * CostCategoryRuleType
-    CostCategoryRuleType (CostCategoryRuleType'),
+    CostCategoryRuleType (..),
 
     -- * CostCategoryRuleVersion
-    CostCategoryRuleVersion (CostCategoryRuleVersion'),
+    CostCategoryRuleVersion (..),
 
     -- * CostCategorySplitChargeMethod
-    CostCategorySplitChargeMethod (CostCategorySplitChargeMethod'),
+    CostCategorySplitChargeMethod (..),
 
     -- * CostCategorySplitChargeRuleParameterType
-    CostCategorySplitChargeRuleParameterType (CostCategorySplitChargeRuleParameterType'),
+    CostCategorySplitChargeRuleParameterType (..),
 
     -- * CostCategoryStatus
-    CostCategoryStatus (CostCategoryStatus'),
+    CostCategoryStatus (..),
 
     -- * CostCategoryStatusComponent
-    CostCategoryStatusComponent (CostCategoryStatusComponent'),
+    CostCategoryStatusComponent (..),
 
     -- * Dimension
-    Dimension (Dimension'),
+    Dimension (..),
 
     -- * FindingReasonCode
-    FindingReasonCode (FindingReasonCode'),
+    FindingReasonCode (..),
 
     -- * GenerationStatus
-    GenerationStatus (GenerationStatus'),
+    GenerationStatus (..),
 
     -- * Granularity
-    Granularity (Granularity'),
+    Granularity (..),
 
     -- * GroupDefinitionType
-    GroupDefinitionType (GroupDefinitionType'),
+    GroupDefinitionType (..),
 
     -- * LookbackPeriodInDays
-    LookbackPeriodInDays (LookbackPeriodInDays'),
+    LookbackPeriodInDays (..),
 
     -- * MatchOption
-    MatchOption (MatchOption'),
+    MatchOption (..),
 
     -- * Metric
-    Metric (Metric'),
+    Metric (..),
 
     -- * MonitorDimension
-    MonitorDimension (MonitorDimension'),
+    MonitorDimension (..),
 
     -- * MonitorType
-    MonitorType (MonitorType'),
+    MonitorType (..),
 
     -- * NumericOperator
-    NumericOperator (NumericOperator'),
+    NumericOperator (..),
 
     -- * OfferingClass
-    OfferingClass (OfferingClass'),
+    OfferingClass (..),
 
     -- * PaymentOption
-    PaymentOption (PaymentOption'),
+    PaymentOption (..),
 
     -- * PlatformDifference
-    PlatformDifference (PlatformDifference'),
+    PlatformDifference (..),
 
     -- * RecommendationTarget
-    RecommendationTarget (RecommendationTarget'),
+    RecommendationTarget (..),
 
     -- * RightsizingType
-    RightsizingType (RightsizingType'),
+    RightsizingType (..),
 
     -- * SavingsPlansDataType
-    SavingsPlansDataType (SavingsPlansDataType'),
+    SavingsPlansDataType (..),
 
     -- * SortOrder
-    SortOrder (SortOrder'),
+    SortOrder (..),
 
     -- * SubscriberStatus
-    SubscriberStatus (SubscriberStatus'),
+    SubscriberStatus (..),
 
     -- * SubscriberType
-    SubscriberType (SubscriberType'),
+    SubscriberType (..),
 
     -- * SupportedSavingsPlansType
-    SupportedSavingsPlansType (SupportedSavingsPlansType'),
+    SupportedSavingsPlansType (..),
 
     -- * TermInYears
-    TermInYears (TermInYears'),
+    TermInYears (..),
 
     -- * Anomaly
     Anomaly (Anomaly'),

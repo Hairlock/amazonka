@@ -23,64 +23,64 @@ module Amazonka.Batch.Types
     _ServerException,
 
     -- * ArrayJobDependency
-    ArrayJobDependency (ArrayJobDependency'),
+    ArrayJobDependency (..),
 
     -- * AssignPublicIp
-    AssignPublicIp (AssignPublicIp'),
+    AssignPublicIp (..),
 
     -- * CEState
-    CEState (CEState'),
+    CEState (..),
 
     -- * CEStatus
-    CEStatus (CEStatus'),
+    CEStatus (..),
 
     -- * CEType
-    CEType (CEType'),
+    CEType (..),
 
     -- * CRAllocationStrategy
-    CRAllocationStrategy (CRAllocationStrategy'),
+    CRAllocationStrategy (..),
 
     -- * CRType
-    CRType (CRType'),
+    CRType (..),
 
     -- * CRUpdateAllocationStrategy
-    CRUpdateAllocationStrategy (CRUpdateAllocationStrategy'),
+    CRUpdateAllocationStrategy (..),
 
     -- * DeviceCgroupPermission
-    DeviceCgroupPermission (DeviceCgroupPermission'),
+    DeviceCgroupPermission (..),
 
     -- * EFSAuthorizationConfigIAM
-    EFSAuthorizationConfigIAM (EFSAuthorizationConfigIAM'),
+    EFSAuthorizationConfigIAM (..),
 
     -- * EFSTransitEncryption
-    EFSTransitEncryption (EFSTransitEncryption'),
+    EFSTransitEncryption (..),
 
     -- * JQState
-    JQState (JQState'),
+    JQState (..),
 
     -- * JQStatus
-    JQStatus (JQStatus'),
+    JQStatus (..),
 
     -- * JobDefinitionType
-    JobDefinitionType (JobDefinitionType'),
+    JobDefinitionType (..),
 
     -- * JobStatus
-    JobStatus (JobStatus'),
+    JobStatus (..),
 
     -- * LogDriver
-    LogDriver (LogDriver'),
+    LogDriver (..),
 
     -- * OrchestrationType
-    OrchestrationType (OrchestrationType'),
+    OrchestrationType (..),
 
     -- * PlatformCapability
-    PlatformCapability (PlatformCapability'),
+    PlatformCapability (..),
 
     -- * ResourceType
-    ResourceType (ResourceType'),
+    ResourceType (..),
 
     -- * RetryAction
-    RetryAction (RetryAction'),
+    RetryAction (..),
 
     -- * ArrayProperties
     ArrayProperties (ArrayProperties'),

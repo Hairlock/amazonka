@@ -26,58 +26,58 @@ module Amazonka.AppRunner.Types
     _ServiceQuotaExceededException,
 
     -- * AutoScalingConfigurationStatus
-    AutoScalingConfigurationStatus (AutoScalingConfigurationStatus'),
+    AutoScalingConfigurationStatus (..),
 
     -- * CertificateValidationRecordStatus
-    CertificateValidationRecordStatus (CertificateValidationRecordStatus'),
+    CertificateValidationRecordStatus (..),
 
     -- * ConfigurationSource
-    ConfigurationSource (ConfigurationSource'),
+    ConfigurationSource (..),
 
     -- * ConnectionStatus
-    ConnectionStatus (ConnectionStatus'),
+    ConnectionStatus (..),
 
     -- * CustomDomainAssociationStatus
-    CustomDomainAssociationStatus (CustomDomainAssociationStatus'),
+    CustomDomainAssociationStatus (..),
 
     -- * EgressType
-    EgressType (EgressType'),
+    EgressType (..),
 
     -- * HealthCheckProtocol
-    HealthCheckProtocol (HealthCheckProtocol'),
+    HealthCheckProtocol (..),
 
     -- * ImageRepositoryType
-    ImageRepositoryType (ImageRepositoryType'),
+    ImageRepositoryType (..),
 
     -- * ObservabilityConfigurationStatus
-    ObservabilityConfigurationStatus (ObservabilityConfigurationStatus'),
+    ObservabilityConfigurationStatus (..),
 
     -- * OperationStatus
-    OperationStatus (OperationStatus'),
+    OperationStatus (..),
 
     -- * OperationType
-    OperationType (OperationType'),
+    OperationType (..),
 
     -- * ProviderType
-    ProviderType (ProviderType'),
+    ProviderType (..),
 
     -- * Runtime
-    Runtime (Runtime'),
+    Runtime (..),
 
     -- * ServiceStatus
-    ServiceStatus (ServiceStatus'),
+    ServiceStatus (..),
 
     -- * SourceCodeVersionType
-    SourceCodeVersionType (SourceCodeVersionType'),
+    SourceCodeVersionType (..),
 
     -- * TracingVendor
-    TracingVendor (TracingVendor'),
+    TracingVendor (..),
 
     -- * VpcConnectorStatus
-    VpcConnectorStatus (VpcConnectorStatus'),
+    VpcConnectorStatus (..),
 
     -- * VpcIngressConnectionStatus
-    VpcIngressConnectionStatus (VpcIngressConnectionStatus'),
+    VpcIngressConnectionStatus (..),
 
     -- * AuthenticationConfiguration
     AuthenticationConfiguration (AuthenticationConfiguration'),

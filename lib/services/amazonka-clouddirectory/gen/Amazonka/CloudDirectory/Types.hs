@@ -56,34 +56,34 @@ module Amazonka.CloudDirectory.Types
     _ValidationException,
 
     -- * BatchReadExceptionType
-    BatchReadExceptionType (BatchReadExceptionType'),
+    BatchReadExceptionType (..),
 
     -- * ConsistencyLevel
-    ConsistencyLevel (ConsistencyLevel'),
+    ConsistencyLevel (..),
 
     -- * DirectoryState
-    DirectoryState (DirectoryState'),
+    DirectoryState (..),
 
     -- * FacetAttributeType
-    FacetAttributeType (FacetAttributeType'),
+    FacetAttributeType (..),
 
     -- * FacetStyle
-    FacetStyle (FacetStyle'),
+    FacetStyle (..),
 
     -- * ObjectType
-    ObjectType (ObjectType'),
+    ObjectType (..),
 
     -- * RangeMode
-    RangeMode (RangeMode'),
+    RangeMode (..),
 
     -- * RequiredAttributeBehavior
-    RequiredAttributeBehavior (RequiredAttributeBehavior'),
+    RequiredAttributeBehavior (..),
 
     -- * RuleType
-    RuleType (RuleType'),
+    RuleType (..),
 
     -- * UpdateActionType
-    UpdateActionType (UpdateActionType'),
+    UpdateActionType (..),
 
     -- * AttributeKey
     AttributeKey (AttributeKey'),

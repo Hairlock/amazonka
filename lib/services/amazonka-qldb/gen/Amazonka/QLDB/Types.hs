@@ -27,28 +27,28 @@ module Amazonka.QLDB.Types
     _ResourcePreconditionNotMetException,
 
     -- * EncryptionStatus
-    EncryptionStatus (EncryptionStatus'),
+    EncryptionStatus (..),
 
     -- * ErrorCause
-    ErrorCause (ErrorCause'),
+    ErrorCause (..),
 
     -- * ExportStatus
-    ExportStatus (ExportStatus'),
+    ExportStatus (..),
 
     -- * LedgerState
-    LedgerState (LedgerState'),
+    LedgerState (..),
 
     -- * OutputFormat
-    OutputFormat (OutputFormat'),
+    OutputFormat (..),
 
     -- * PermissionsMode
-    PermissionsMode (PermissionsMode'),
+    PermissionsMode (..),
 
     -- * S3ObjectEncryptionType
-    S3ObjectEncryptionType (S3ObjectEncryptionType'),
+    S3ObjectEncryptionType (..),
 
     -- * StreamStatus
-    StreamStatus (StreamStatus'),
+    StreamStatus (..),
 
     -- * JournalKinesisStreamDescription
     JournalKinesisStreamDescription (JournalKinesisStreamDescription'),

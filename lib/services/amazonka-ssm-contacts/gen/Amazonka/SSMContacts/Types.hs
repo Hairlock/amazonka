@@ -29,22 +29,22 @@ module Amazonka.SSMContacts.Types
     _ValidationException,
 
     -- * AcceptCodeValidation
-    AcceptCodeValidation (AcceptCodeValidation'),
+    AcceptCodeValidation (..),
 
     -- * AcceptType
-    AcceptType (AcceptType'),
+    AcceptType (..),
 
     -- * ActivationStatus
-    ActivationStatus (ActivationStatus'),
+    ActivationStatus (..),
 
     -- * ChannelType
-    ChannelType (ChannelType'),
+    ChannelType (..),
 
     -- * ContactType
-    ContactType (ContactType'),
+    ContactType (..),
 
     -- * ReceiptType
-    ReceiptType (ReceiptType'),
+    ReceiptType (..),
 
     -- * ChannelTargetInfo
     ChannelTargetInfo (ChannelTargetInfo'),

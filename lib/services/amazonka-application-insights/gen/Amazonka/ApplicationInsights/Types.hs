@@ -29,40 +29,40 @@ module Amazonka.ApplicationInsights.Types
     _ValidationException,
 
     -- * CloudWatchEventSource
-    CloudWatchEventSource (CloudWatchEventSource'),
+    CloudWatchEventSource (..),
 
     -- * ConfigurationEventResourceType
-    ConfigurationEventResourceType (ConfigurationEventResourceType'),
+    ConfigurationEventResourceType (..),
 
     -- * ConfigurationEventStatus
-    ConfigurationEventStatus (ConfigurationEventStatus'),
+    ConfigurationEventStatus (..),
 
     -- * DiscoveryType
-    DiscoveryType (DiscoveryType'),
+    DiscoveryType (..),
 
     -- * FeedbackKey
-    FeedbackKey (FeedbackKey'),
+    FeedbackKey (..),
 
     -- * FeedbackValue
-    FeedbackValue (FeedbackValue'),
+    FeedbackValue (..),
 
     -- * GroupingType
-    GroupingType (GroupingType'),
+    GroupingType (..),
 
     -- * LogFilter
-    LogFilter (LogFilter'),
+    LogFilter (..),
 
     -- * OsType
-    OsType (OsType'),
+    OsType (..),
 
     -- * SeverityLevel
-    SeverityLevel (SeverityLevel'),
+    SeverityLevel (..),
 
     -- * Status
-    Status (Status'),
+    Status (..),
 
     -- * Tier
-    Tier (Tier'),
+    Tier (..),
 
     -- * ApplicationComponent
     ApplicationComponent (ApplicationComponent'),

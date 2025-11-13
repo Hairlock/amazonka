@@ -38,46 +38,46 @@ module Amazonka.ImageBuilder.Types
     _ServiceUnavailableException,
 
     -- * BuildType
-    BuildType (BuildType'),
+    BuildType (..),
 
     -- * ComponentFormat
-    ComponentFormat (ComponentFormat'),
+    ComponentFormat (..),
 
     -- * ComponentStatus
-    ComponentStatus (ComponentStatus'),
+    ComponentStatus (..),
 
     -- * ComponentType
-    ComponentType (ComponentType'),
+    ComponentType (..),
 
     -- * ContainerRepositoryService
-    ContainerRepositoryService (ContainerRepositoryService'),
+    ContainerRepositoryService (..),
 
     -- * ContainerType
-    ContainerType (ContainerType'),
+    ContainerType (..),
 
     -- * DiskImageFormat
-    DiskImageFormat (DiskImageFormat'),
+    DiskImageFormat (..),
 
     -- * EbsVolumeType
-    EbsVolumeType (EbsVolumeType'),
+    EbsVolumeType (..),
 
     -- * ImageStatus
-    ImageStatus (ImageStatus'),
+    ImageStatus (..),
 
     -- * ImageType
-    ImageType (ImageType'),
+    ImageType (..),
 
     -- * Ownership
-    Ownership (Ownership'),
+    Ownership (..),
 
     -- * PipelineExecutionStartCondition
-    PipelineExecutionStartCondition (PipelineExecutionStartCondition'),
+    PipelineExecutionStartCondition (..),
 
     -- * PipelineStatus
-    PipelineStatus (PipelineStatus'),
+    PipelineStatus (..),
 
     -- * Platform
-    Platform (Platform'),
+    Platform (..),
 
     -- * AdditionalInstanceConfiguration
     AdditionalInstanceConfiguration (AdditionalInstanceConfiguration'),

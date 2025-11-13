@@ -28,7 +28,7 @@ module Amazonka.IoTRoboRunner.Types
     _ValidationException,
 
     -- * DestinationState
-    DestinationState (DestinationState'),
+    DestinationState (..),
 
     -- * CartesianCoordinates
     CartesianCoordinates (CartesianCoordinates'),

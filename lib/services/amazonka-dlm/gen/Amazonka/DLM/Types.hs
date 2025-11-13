@@ -25,34 +25,34 @@ module Amazonka.DLM.Types
     _ResourceNotFoundException,
 
     -- * EventSourceValues
-    EventSourceValues (EventSourceValues'),
+    EventSourceValues (..),
 
     -- * EventTypeValues
-    EventTypeValues (EventTypeValues'),
+    EventTypeValues (..),
 
     -- * GettablePolicyStateValues
-    GettablePolicyStateValues (GettablePolicyStateValues'),
+    GettablePolicyStateValues (..),
 
     -- * IntervalUnitValues
-    IntervalUnitValues (IntervalUnitValues'),
+    IntervalUnitValues (..),
 
     -- * LocationValues
-    LocationValues (LocationValues'),
+    LocationValues (..),
 
     -- * PolicyTypeValues
-    PolicyTypeValues (PolicyTypeValues'),
+    PolicyTypeValues (..),
 
     -- * ResourceLocationValues
-    ResourceLocationValues (ResourceLocationValues'),
+    ResourceLocationValues (..),
 
     -- * ResourceTypeValues
-    ResourceTypeValues (ResourceTypeValues'),
+    ResourceTypeValues (..),
 
     -- * RetentionIntervalUnitValues
-    RetentionIntervalUnitValues (RetentionIntervalUnitValues'),
+    RetentionIntervalUnitValues (..),
 
     -- * SettablePolicyStateValues
-    SettablePolicyStateValues (SettablePolicyStateValues'),
+    SettablePolicyStateValues (..),
 
     -- * Action
     Action (Action'),

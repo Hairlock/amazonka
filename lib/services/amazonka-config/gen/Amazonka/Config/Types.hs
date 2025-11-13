@@ -75,103 +75,103 @@ module Amazonka.Config.Types
     _ValidationException,
 
     -- * AggregateConformancePackComplianceSummaryGroupKey
-    AggregateConformancePackComplianceSummaryGroupKey (AggregateConformancePackComplianceSummaryGroupKey'),
+    AggregateConformancePackComplianceSummaryGroupKey (..),
 
     -- * AggregatedSourceStatusType
-    AggregatedSourceStatusType (AggregatedSourceStatusType'),
+    AggregatedSourceStatusType (..),
 
     -- * AggregatedSourceType
-    AggregatedSourceType (AggregatedSourceType'),
+    AggregatedSourceType (..),
 
     -- * ChronologicalOrder
-    ChronologicalOrder (ChronologicalOrder'),
+    ChronologicalOrder (..),
 
     -- * ComplianceType
-    ComplianceType (ComplianceType'),
+    ComplianceType (..),
 
     -- * ConfigRuleComplianceSummaryGroupKey
-    ConfigRuleComplianceSummaryGroupKey (ConfigRuleComplianceSummaryGroupKey'),
+    ConfigRuleComplianceSummaryGroupKey (..),
 
     -- * ConfigRuleState
-    ConfigRuleState (ConfigRuleState'),
+    ConfigRuleState (..),
 
     -- * ConfigurationItemStatus
-    ConfigurationItemStatus (ConfigurationItemStatus'),
+    ConfigurationItemStatus (..),
 
     -- * ConformancePackComplianceType
-    ConformancePackComplianceType (ConformancePackComplianceType'),
+    ConformancePackComplianceType (..),
 
     -- * ConformancePackState
-    ConformancePackState (ConformancePackState'),
+    ConformancePackState (..),
 
     -- * DeliveryStatus
-    DeliveryStatus (DeliveryStatus'),
+    DeliveryStatus (..),
 
     -- * EvaluationMode
-    EvaluationMode (EvaluationMode'),
+    EvaluationMode (..),
 
     -- * EventSource
-    EventSource (EventSource'),
+    EventSource (..),
 
     -- * MaximumExecutionFrequency
-    MaximumExecutionFrequency (MaximumExecutionFrequency'),
+    MaximumExecutionFrequency (..),
 
     -- * MemberAccountRuleStatus
-    MemberAccountRuleStatus (MemberAccountRuleStatus'),
+    MemberAccountRuleStatus (..),
 
     -- * MessageType
-    MessageType (MessageType'),
+    MessageType (..),
 
     -- * OrganizationConfigRuleTriggerType
-    OrganizationConfigRuleTriggerType (OrganizationConfigRuleTriggerType'),
+    OrganizationConfigRuleTriggerType (..),
 
     -- * OrganizationConfigRuleTriggerTypeNoSN
-    OrganizationConfigRuleTriggerTypeNoSN (OrganizationConfigRuleTriggerTypeNoSN'),
+    OrganizationConfigRuleTriggerTypeNoSN (..),
 
     -- * OrganizationResourceDetailedStatus
-    OrganizationResourceDetailedStatus (OrganizationResourceDetailedStatus'),
+    OrganizationResourceDetailedStatus (..),
 
     -- * OrganizationResourceStatus
-    OrganizationResourceStatus (OrganizationResourceStatus'),
+    OrganizationResourceStatus (..),
 
     -- * OrganizationRuleStatus
-    OrganizationRuleStatus (OrganizationRuleStatus'),
+    OrganizationRuleStatus (..),
 
     -- * Owner
-    Owner (Owner'),
+    Owner (..),
 
     -- * RecorderStatus
-    RecorderStatus (RecorderStatus'),
+    RecorderStatus (..),
 
     -- * RemediationExecutionState
-    RemediationExecutionState (RemediationExecutionState'),
+    RemediationExecutionState (..),
 
     -- * RemediationExecutionStepState
-    RemediationExecutionStepState (RemediationExecutionStepState'),
+    RemediationExecutionStepState (..),
 
     -- * RemediationTargetType
-    RemediationTargetType (RemediationTargetType'),
+    RemediationTargetType (..),
 
     -- * ResourceConfigurationSchemaType
-    ResourceConfigurationSchemaType (ResourceConfigurationSchemaType'),
+    ResourceConfigurationSchemaType (..),
 
     -- * ResourceCountGroupKey
-    ResourceCountGroupKey (ResourceCountGroupKey'),
+    ResourceCountGroupKey (..),
 
     -- * ResourceEvaluationStatus
-    ResourceEvaluationStatus (ResourceEvaluationStatus'),
+    ResourceEvaluationStatus (..),
 
     -- * ResourceType
-    ResourceType (ResourceType'),
+    ResourceType (..),
 
     -- * ResourceValueType
-    ResourceValueType (ResourceValueType'),
+    ResourceValueType (..),
 
     -- * SortBy
-    SortBy (SortBy'),
+    SortBy (..),
 
     -- * SortOrder
-    SortOrder (SortOrder'),
+    SortOrder (..),
 
     -- * AccountAggregationSource
     AccountAggregationSource (AccountAggregationSource'),

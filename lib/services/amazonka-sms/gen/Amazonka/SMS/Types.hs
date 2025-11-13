@@ -33,61 +33,61 @@ module Amazonka.SMS.Types
     _UnauthorizedOperationException,
 
     -- * AppLaunchConfigurationStatus
-    AppLaunchConfigurationStatus (AppLaunchConfigurationStatus'),
+    AppLaunchConfigurationStatus (..),
 
     -- * AppLaunchStatus
-    AppLaunchStatus (AppLaunchStatus'),
+    AppLaunchStatus (..),
 
     -- * AppReplicationConfigurationStatus
-    AppReplicationConfigurationStatus (AppReplicationConfigurationStatus'),
+    AppReplicationConfigurationStatus (..),
 
     -- * AppReplicationStatus
-    AppReplicationStatus (AppReplicationStatus'),
+    AppReplicationStatus (..),
 
     -- * AppStatus
-    AppStatus (AppStatus'),
+    AppStatus (..),
 
     -- * AppValidationStrategy
-    AppValidationStrategy (AppValidationStrategy'),
+    AppValidationStrategy (..),
 
     -- * ConnectorCapability
-    ConnectorCapability (ConnectorCapability'),
+    ConnectorCapability (..),
 
     -- * ConnectorStatus
-    ConnectorStatus (ConnectorStatus'),
+    ConnectorStatus (..),
 
     -- * LicenseType
-    LicenseType (LicenseType'),
+    LicenseType (..),
 
     -- * OutputFormat
-    OutputFormat (OutputFormat'),
+    OutputFormat (..),
 
     -- * ReplicationJobState
-    ReplicationJobState (ReplicationJobState'),
+    ReplicationJobState (..),
 
     -- * ReplicationRunState
-    ReplicationRunState (ReplicationRunState'),
+    ReplicationRunState (..),
 
     -- * ReplicationRunType
-    ReplicationRunType (ReplicationRunType'),
+    ReplicationRunType (..),
 
     -- * ScriptType
-    ScriptType (ScriptType'),
+    ScriptType (..),
 
     -- * ServerCatalogStatus
-    ServerCatalogStatus (ServerCatalogStatus'),
+    ServerCatalogStatus (..),
 
     -- * ServerType
-    ServerType (ServerType'),
+    ServerType (..),
 
     -- * ServerValidationStrategy
-    ServerValidationStrategy (ServerValidationStrategy'),
+    ServerValidationStrategy (..),
 
     -- * ValidationStatus
-    ValidationStatus (ValidationStatus'),
+    ValidationStatus (..),
 
     -- * VmManagerType
-    VmManagerType (VmManagerType'),
+    VmManagerType (..),
 
     -- * AppSummary
     AppSummary (AppSummary'),

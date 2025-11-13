@@ -28,61 +28,61 @@ module Amazonka.AccessAnalyzer.Types
     _ValidationException,
 
     -- * AccessPreviewStatus
-    AccessPreviewStatus (AccessPreviewStatus'),
+    AccessPreviewStatus (..),
 
     -- * AccessPreviewStatusReasonCode
-    AccessPreviewStatusReasonCode (AccessPreviewStatusReasonCode'),
+    AccessPreviewStatusReasonCode (..),
 
     -- * AclPermission
-    AclPermission (AclPermission'),
+    AclPermission (..),
 
     -- * AnalyzerStatus
-    AnalyzerStatus (AnalyzerStatus'),
+    AnalyzerStatus (..),
 
     -- * FindingChangeType
-    FindingChangeType (FindingChangeType'),
+    FindingChangeType (..),
 
     -- * FindingSourceType
-    FindingSourceType (FindingSourceType'),
+    FindingSourceType (..),
 
     -- * FindingStatus
-    FindingStatus (FindingStatus'),
+    FindingStatus (..),
 
     -- * FindingStatusUpdate
-    FindingStatusUpdate (FindingStatusUpdate'),
+    FindingStatusUpdate (..),
 
     -- * JobErrorCode
-    JobErrorCode (JobErrorCode'),
+    JobErrorCode (..),
 
     -- * JobStatus
-    JobStatus (JobStatus'),
+    JobStatus (..),
 
     -- * KmsGrantOperation
-    KmsGrantOperation (KmsGrantOperation'),
+    KmsGrantOperation (..),
 
     -- * Locale
-    Locale (Locale'),
+    Locale (..),
 
     -- * OrderBy
-    OrderBy (OrderBy'),
+    OrderBy (..),
 
     -- * PolicyType
-    PolicyType (PolicyType'),
+    PolicyType (..),
 
     -- * ReasonCode
-    ReasonCode (ReasonCode'),
+    ReasonCode (..),
 
     -- * ResourceType
-    ResourceType (ResourceType'),
+    ResourceType (..),
 
     -- * Type
-    Type (Type'),
+    Type (..),
 
     -- * ValidatePolicyFindingType
-    ValidatePolicyFindingType (ValidatePolicyFindingType'),
+    ValidatePolicyFindingType (..),
 
     -- * ValidatePolicyResourceType
-    ValidatePolicyResourceType (ValidatePolicyResourceType'),
+    ValidatePolicyResourceType (..),
 
     -- * AccessPreview
     AccessPreview (AccessPreview'),

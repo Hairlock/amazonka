@@ -39,40 +39,40 @@ module Amazonka.LakeFormation.Types
     _WorkUnitsNotReadyYetException,
 
     -- * ComparisonOperator
-    ComparisonOperator (ComparisonOperator'),
+    ComparisonOperator (..),
 
     -- * DataLakeResourceType
-    DataLakeResourceType (DataLakeResourceType'),
+    DataLakeResourceType (..),
 
     -- * FieldNameString
-    FieldNameString (FieldNameString'),
+    FieldNameString (..),
 
     -- * OptimizerType
-    OptimizerType (OptimizerType'),
+    OptimizerType (..),
 
     -- * Permission
-    Permission (Permission'),
+    Permission (..),
 
     -- * PermissionType
-    PermissionType (PermissionType'),
+    PermissionType (..),
 
     -- * QueryStateString
-    QueryStateString (QueryStateString'),
+    QueryStateString (..),
 
     -- * ResourceShareType
-    ResourceShareType (ResourceShareType'),
+    ResourceShareType (..),
 
     -- * ResourceType
-    ResourceType (ResourceType'),
+    ResourceType (..),
 
     -- * TransactionStatus
-    TransactionStatus (TransactionStatus'),
+    TransactionStatus (..),
 
     -- * TransactionStatusFilter
-    TransactionStatusFilter (TransactionStatusFilter'),
+    TransactionStatusFilter (..),
 
     -- * TransactionType
-    TransactionType (TransactionType'),
+    TransactionType (..),
 
     -- * AddObjectInput
     AddObjectInput (AddObjectInput'),

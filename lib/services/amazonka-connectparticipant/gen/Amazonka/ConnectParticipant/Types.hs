@@ -27,22 +27,22 @@ module Amazonka.ConnectParticipant.Types
     _ValidationException,
 
     -- * ArtifactStatus
-    ArtifactStatus (ArtifactStatus'),
+    ArtifactStatus (..),
 
     -- * ChatItemType
-    ChatItemType (ChatItemType'),
+    ChatItemType (..),
 
     -- * ConnectionType
-    ConnectionType (ConnectionType'),
+    ConnectionType (..),
 
     -- * ParticipantRole
-    ParticipantRole (ParticipantRole'),
+    ParticipantRole (..),
 
     -- * ScanDirection
-    ScanDirection (ScanDirection'),
+    ScanDirection (..),
 
     -- * SortKey
-    SortKey (SortKey'),
+    SortKey (..),
 
     -- * AttachmentItem
     AttachmentItem (AttachmentItem'),

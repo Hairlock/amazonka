@@ -27,22 +27,22 @@ module Amazonka.KeySpaces.Types
     _ValidationException,
 
     -- * EncryptionType
-    EncryptionType (EncryptionType'),
+    EncryptionType (..),
 
     -- * PointInTimeRecoveryStatus
-    PointInTimeRecoveryStatus (PointInTimeRecoveryStatus'),
+    PointInTimeRecoveryStatus (..),
 
     -- * SortOrder
-    SortOrder (SortOrder'),
+    SortOrder (..),
 
     -- * TableStatus
-    TableStatus (TableStatus'),
+    TableStatus (..),
 
     -- * ThroughputMode
-    ThroughputMode (ThroughputMode'),
+    ThroughputMode (..),
 
     -- * TimeToLiveStatus
-    TimeToLiveStatus (TimeToLiveStatus'),
+    TimeToLiveStatus (..),
 
     -- * CapacitySpecification
     CapacitySpecification (CapacitySpecification'),

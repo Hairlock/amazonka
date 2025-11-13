@@ -22,37 +22,37 @@ module Amazonka.MediaTailor.Types
     _BadRequestException,
 
     -- * AccessType
-    AccessType (AccessType'),
+    AccessType (..),
 
     -- * ChannelState
-    ChannelState (ChannelState'),
+    ChannelState (..),
 
     -- * MessageType
-    MessageType (MessageType'),
+    MessageType (..),
 
     -- * Mode
-    Mode (Mode'),
+    Mode (..),
 
     -- * Operator
-    Operator (Operator'),
+    Operator (..),
 
     -- * OriginManifestType
-    OriginManifestType (OriginManifestType'),
+    OriginManifestType (..),
 
     -- * PlaybackMode
-    PlaybackMode (PlaybackMode'),
+    PlaybackMode (..),
 
     -- * RelativePosition
-    RelativePosition (RelativePosition'),
+    RelativePosition (..),
 
     -- * ScheduleEntryType
-    ScheduleEntryType (ScheduleEntryType'),
+    ScheduleEntryType (..),
 
     -- * Tier
-    Tier (Tier'),
+    Tier (..),
 
     -- * Type
-    Type (Type'),
+    Type (..),
 
     -- * AccessConfiguration
     AccessConfiguration (AccessConfiguration'),

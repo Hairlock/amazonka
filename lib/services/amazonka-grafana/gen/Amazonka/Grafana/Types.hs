@@ -28,37 +28,37 @@ module Amazonka.Grafana.Types
     _ValidationException,
 
     -- * AccountAccessType
-    AccountAccessType (AccountAccessType'),
+    AccountAccessType (..),
 
     -- * AuthenticationProviderTypes
-    AuthenticationProviderTypes (AuthenticationProviderTypes'),
+    AuthenticationProviderTypes (..),
 
     -- * DataSourceType
-    DataSourceType (DataSourceType'),
+    DataSourceType (..),
 
     -- * LicenseType
-    LicenseType (LicenseType'),
+    LicenseType (..),
 
     -- * NotificationDestinationType
-    NotificationDestinationType (NotificationDestinationType'),
+    NotificationDestinationType (..),
 
     -- * PermissionType
-    PermissionType (PermissionType'),
+    PermissionType (..),
 
     -- * Role
-    Role (Role'),
+    Role (..),
 
     -- * SamlConfigurationStatus
-    SamlConfigurationStatus (SamlConfigurationStatus'),
+    SamlConfigurationStatus (..),
 
     -- * UpdateAction
-    UpdateAction (UpdateAction'),
+    UpdateAction (..),
 
     -- * UserType
-    UserType (UserType'),
+    UserType (..),
 
     -- * WorkspaceStatus
-    WorkspaceStatus (WorkspaceStatus'),
+    WorkspaceStatus (..),
 
     -- * AssertionAttributes
     AssertionAttributes (AssertionAttributes'),

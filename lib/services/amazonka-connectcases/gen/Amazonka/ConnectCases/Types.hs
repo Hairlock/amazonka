@@ -28,25 +28,25 @@ module Amazonka.ConnectCases.Types
     _ValidationException,
 
     -- * CommentBodyTextType
-    CommentBodyTextType (CommentBodyTextType'),
+    CommentBodyTextType (..),
 
     -- * DomainStatus
-    DomainStatus (DomainStatus'),
+    DomainStatus (..),
 
     -- * FieldNamespace
-    FieldNamespace (FieldNamespace'),
+    FieldNamespace (..),
 
     -- * FieldType
-    FieldType (FieldType'),
+    FieldType (..),
 
     -- * Order
-    Order (Order'),
+    Order (..),
 
     -- * RelatedItemType
-    RelatedItemType (RelatedItemType'),
+    RelatedItemType (..),
 
     -- * TemplateStatus
-    TemplateStatus (TemplateStatus'),
+    TemplateStatus (..),
 
     -- * BasicLayout
     BasicLayout (BasicLayout'),

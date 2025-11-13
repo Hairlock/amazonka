@@ -31,22 +31,22 @@ module Amazonka.XRay.Types
     _TooManyTagsException,
 
     -- * EncryptionStatus
-    EncryptionStatus (EncryptionStatus'),
+    EncryptionStatus (..),
 
     -- * EncryptionType
-    EncryptionType (EncryptionType'),
+    EncryptionType (..),
 
     -- * InsightCategory
-    InsightCategory (InsightCategory'),
+    InsightCategory (..),
 
     -- * InsightState
-    InsightState (InsightState'),
+    InsightState (..),
 
     -- * SamplingStrategyName
-    SamplingStrategyName (SamplingStrategyName'),
+    SamplingStrategyName (..),
 
     -- * TimeRangeType
-    TimeRangeType (TimeRangeType'),
+    TimeRangeType (..),
 
     -- * Alias
     Alias (Alias'),

@@ -33,43 +33,43 @@ module Amazonka.ChimeSdkMeetings.Types
     _UnprocessableEntityException,
 
     -- * MediaCapabilities
-    MediaCapabilities (MediaCapabilities'),
+    MediaCapabilities (..),
 
     -- * MeetingFeatureStatus
-    MeetingFeatureStatus (MeetingFeatureStatus'),
+    MeetingFeatureStatus (..),
 
     -- * TranscribeContentIdentificationType
-    TranscribeContentIdentificationType (TranscribeContentIdentificationType'),
+    TranscribeContentIdentificationType (..),
 
     -- * TranscribeContentRedactionType
-    TranscribeContentRedactionType (TranscribeContentRedactionType'),
+    TranscribeContentRedactionType (..),
 
     -- * TranscribeLanguageCode
-    TranscribeLanguageCode (TranscribeLanguageCode'),
+    TranscribeLanguageCode (..),
 
     -- * TranscribeMedicalContentIdentificationType
-    TranscribeMedicalContentIdentificationType (TranscribeMedicalContentIdentificationType'),
+    TranscribeMedicalContentIdentificationType (..),
 
     -- * TranscribeMedicalLanguageCode
-    TranscribeMedicalLanguageCode (TranscribeMedicalLanguageCode'),
+    TranscribeMedicalLanguageCode (..),
 
     -- * TranscribeMedicalRegion
-    TranscribeMedicalRegion (TranscribeMedicalRegion'),
+    TranscribeMedicalRegion (..),
 
     -- * TranscribeMedicalSpecialty
-    TranscribeMedicalSpecialty (TranscribeMedicalSpecialty'),
+    TranscribeMedicalSpecialty (..),
 
     -- * TranscribeMedicalType
-    TranscribeMedicalType (TranscribeMedicalType'),
+    TranscribeMedicalType (..),
 
     -- * TranscribePartialResultsStability
-    TranscribePartialResultsStability (TranscribePartialResultsStability'),
+    TranscribePartialResultsStability (..),
 
     -- * TranscribeRegion
-    TranscribeRegion (TranscribeRegion'),
+    TranscribeRegion (..),
 
     -- * TranscribeVocabularyFilterMethod
-    TranscribeVocabularyFilterMethod (TranscribeVocabularyFilterMethod'),
+    TranscribeVocabularyFilterMethod (..),
 
     -- * Attendee
     Attendee (Attendee'),

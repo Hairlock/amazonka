@@ -33,22 +33,22 @@ module Amazonka.CloudWatchLogs.Types
     _UnrecognizedClientException,
 
     -- * DataProtectionStatus
-    DataProtectionStatus (DataProtectionStatus'),
+    DataProtectionStatus (..),
 
     -- * Distribution
-    Distribution (Distribution'),
+    Distribution (..),
 
     -- * ExportTaskStatusCode
-    ExportTaskStatusCode (ExportTaskStatusCode'),
+    ExportTaskStatusCode (..),
 
     -- * OrderBy
-    OrderBy (OrderBy'),
+    OrderBy (..),
 
     -- * QueryStatus
-    QueryStatus (QueryStatus'),
+    QueryStatus (..),
 
     -- * StandardUnit
-    StandardUnit (StandardUnit'),
+    StandardUnit (..),
 
     -- * Destination
     Destination (Destination'),

@@ -28,31 +28,31 @@ module Amazonka.M2.Types
     _ValidationException,
 
     -- * ApplicationDeploymentLifecycle
-    ApplicationDeploymentLifecycle (ApplicationDeploymentLifecycle'),
+    ApplicationDeploymentLifecycle (..),
 
     -- * ApplicationLifecycle
-    ApplicationLifecycle (ApplicationLifecycle'),
+    ApplicationLifecycle (..),
 
     -- * ApplicationVersionLifecycle
-    ApplicationVersionLifecycle (ApplicationVersionLifecycle'),
+    ApplicationVersionLifecycle (..),
 
     -- * BatchJobExecutionStatus
-    BatchJobExecutionStatus (BatchJobExecutionStatus'),
+    BatchJobExecutionStatus (..),
 
     -- * BatchJobType
-    BatchJobType (BatchJobType'),
+    BatchJobType (..),
 
     -- * DataSetTaskLifecycle
-    DataSetTaskLifecycle (DataSetTaskLifecycle'),
+    DataSetTaskLifecycle (..),
 
     -- * DeploymentLifecycle
-    DeploymentLifecycle (DeploymentLifecycle'),
+    DeploymentLifecycle (..),
 
     -- * EngineType
-    EngineType (EngineType'),
+    EngineType (..),
 
     -- * EnvironmentLifecycle
-    EnvironmentLifecycle (EnvironmentLifecycle'),
+    EnvironmentLifecycle (..),
 
     -- * AlternateKey
     AlternateKey (AlternateKey'),

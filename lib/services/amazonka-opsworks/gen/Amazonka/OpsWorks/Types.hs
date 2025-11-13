@@ -23,49 +23,49 @@ module Amazonka.OpsWorks.Types
     _ValidationException,
 
     -- * AppAttributesKeys
-    AppAttributesKeys (AppAttributesKeys'),
+    AppAttributesKeys (..),
 
     -- * AppType
-    AppType (AppType'),
+    AppType (..),
 
     -- * Architecture
-    Architecture (Architecture'),
+    Architecture (..),
 
     -- * AutoScalingType
-    AutoScalingType (AutoScalingType'),
+    AutoScalingType (..),
 
     -- * CloudWatchLogsEncoding
-    CloudWatchLogsEncoding (CloudWatchLogsEncoding'),
+    CloudWatchLogsEncoding (..),
 
     -- * CloudWatchLogsInitialPosition
-    CloudWatchLogsInitialPosition (CloudWatchLogsInitialPosition'),
+    CloudWatchLogsInitialPosition (..),
 
     -- * CloudWatchLogsTimeZone
-    CloudWatchLogsTimeZone (CloudWatchLogsTimeZone'),
+    CloudWatchLogsTimeZone (..),
 
     -- * DeploymentCommandName
-    DeploymentCommandName (DeploymentCommandName'),
+    DeploymentCommandName (..),
 
     -- * LayerAttributesKeys
-    LayerAttributesKeys (LayerAttributesKeys'),
+    LayerAttributesKeys (..),
 
     -- * LayerType
-    LayerType (LayerType'),
+    LayerType (..),
 
     -- * RootDeviceType
-    RootDeviceType (RootDeviceType'),
+    RootDeviceType (..),
 
     -- * SourceType
-    SourceType (SourceType'),
+    SourceType (..),
 
     -- * StackAttributesKeys
-    StackAttributesKeys (StackAttributesKeys'),
+    StackAttributesKeys (..),
 
     -- * VirtualizationType
-    VirtualizationType (VirtualizationType'),
+    VirtualizationType (..),
 
     -- * VolumeType
-    VolumeType (VolumeType'),
+    VolumeType (..),
 
     -- * AgentVersion
     AgentVersion (AgentVersion'),

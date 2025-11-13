@@ -29,19 +29,19 @@ module Amazonka.WorkSpacesWeb.Types
     _ValidationException,
 
     -- * BrowserType
-    BrowserType (BrowserType'),
+    BrowserType (..),
 
     -- * EnabledType
-    EnabledType (EnabledType'),
+    EnabledType (..),
 
     -- * IdentityProviderType
-    IdentityProviderType (IdentityProviderType'),
+    IdentityProviderType (..),
 
     -- * PortalStatus
-    PortalStatus (PortalStatus'),
+    PortalStatus (..),
 
     -- * RendererType
-    RendererType (RendererType'),
+    RendererType (..),
 
     -- * BrowserSettings
     BrowserSettings (BrowserSettings'),

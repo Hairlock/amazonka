@@ -23,13 +23,13 @@ module Amazonka.IoTSecureTunneling.Types
     _ResourceNotFoundException,
 
     -- * ClientMode
-    ClientMode (ClientMode'),
+    ClientMode (..),
 
     -- * ConnectionStatus
-    ConnectionStatus (ConnectionStatus'),
+    ConnectionStatus (..),
 
     -- * TunnelStatus
-    TunnelStatus (TunnelStatus'),
+    TunnelStatus (..),
 
     -- * ConnectionState
     ConnectionState (ConnectionState'),

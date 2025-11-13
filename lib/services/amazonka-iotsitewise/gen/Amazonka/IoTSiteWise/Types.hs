@@ -31,124 +31,124 @@ module Amazonka.IoTSiteWise.Types
     _UnauthorizedException,
 
     -- * AggregateType
-    AggregateType (AggregateType'),
+    AggregateType (..),
 
     -- * AssetErrorCode
-    AssetErrorCode (AssetErrorCode'),
+    AssetErrorCode (..),
 
     -- * AssetModelState
-    AssetModelState (AssetModelState'),
+    AssetModelState (..),
 
     -- * AssetRelationshipType
-    AssetRelationshipType (AssetRelationshipType'),
+    AssetRelationshipType (..),
 
     -- * AssetState
-    AssetState (AssetState'),
+    AssetState (..),
 
     -- * AuthMode
-    AuthMode (AuthMode'),
+    AuthMode (..),
 
     -- * BatchEntryCompletionStatus
-    BatchEntryCompletionStatus (BatchEntryCompletionStatus'),
+    BatchEntryCompletionStatus (..),
 
     -- * BatchGetAssetPropertyAggregatesErrorCode
-    BatchGetAssetPropertyAggregatesErrorCode (BatchGetAssetPropertyAggregatesErrorCode'),
+    BatchGetAssetPropertyAggregatesErrorCode (..),
 
     -- * BatchGetAssetPropertyValueErrorCode
-    BatchGetAssetPropertyValueErrorCode (BatchGetAssetPropertyValueErrorCode'),
+    BatchGetAssetPropertyValueErrorCode (..),
 
     -- * BatchGetAssetPropertyValueHistoryErrorCode
-    BatchGetAssetPropertyValueHistoryErrorCode (BatchGetAssetPropertyValueHistoryErrorCode'),
+    BatchGetAssetPropertyValueHistoryErrorCode (..),
 
     -- * BatchPutAssetPropertyValueErrorCode
-    BatchPutAssetPropertyValueErrorCode (BatchPutAssetPropertyValueErrorCode'),
+    BatchPutAssetPropertyValueErrorCode (..),
 
     -- * CapabilitySyncStatus
-    CapabilitySyncStatus (CapabilitySyncStatus'),
+    CapabilitySyncStatus (..),
 
     -- * ColumnName
-    ColumnName (ColumnName'),
+    ColumnName (..),
 
     -- * ComputeLocation
-    ComputeLocation (ComputeLocation'),
+    ComputeLocation (..),
 
     -- * ConfigurationState
-    ConfigurationState (ConfigurationState'),
+    ConfigurationState (..),
 
     -- * DetailedErrorCode
-    DetailedErrorCode (DetailedErrorCode'),
+    DetailedErrorCode (..),
 
     -- * DisassociatedDataStorageState
-    DisassociatedDataStorageState (DisassociatedDataStorageState'),
+    DisassociatedDataStorageState (..),
 
     -- * EncryptionType
-    EncryptionType (EncryptionType'),
+    EncryptionType (..),
 
     -- * ErrorCode
-    ErrorCode (ErrorCode'),
+    ErrorCode (..),
 
     -- * ForwardingConfigState
-    ForwardingConfigState (ForwardingConfigState'),
+    ForwardingConfigState (..),
 
     -- * IdentityType
-    IdentityType (IdentityType'),
+    IdentityType (..),
 
     -- * ImageFileType
-    ImageFileType (ImageFileType'),
+    ImageFileType (..),
 
     -- * JobStatus
-    JobStatus (JobStatus'),
+    JobStatus (..),
 
     -- * ListAssetModelPropertiesFilter
-    ListAssetModelPropertiesFilter (ListAssetModelPropertiesFilter'),
+    ListAssetModelPropertiesFilter (..),
 
     -- * ListAssetPropertiesFilter
-    ListAssetPropertiesFilter (ListAssetPropertiesFilter'),
+    ListAssetPropertiesFilter (..),
 
     -- * ListAssetsFilter
-    ListAssetsFilter (ListAssetsFilter'),
+    ListAssetsFilter (..),
 
     -- * ListBulkImportJobsFilter
-    ListBulkImportJobsFilter (ListBulkImportJobsFilter'),
+    ListBulkImportJobsFilter (..),
 
     -- * ListTimeSeriesType
-    ListTimeSeriesType (ListTimeSeriesType'),
+    ListTimeSeriesType (..),
 
     -- * LoggingLevel
-    LoggingLevel (LoggingLevel'),
+    LoggingLevel (..),
 
     -- * MonitorErrorCode
-    MonitorErrorCode (MonitorErrorCode'),
+    MonitorErrorCode (..),
 
     -- * Permission
-    Permission (Permission'),
+    Permission (..),
 
     -- * PortalState
-    PortalState (PortalState'),
+    PortalState (..),
 
     -- * PropertyDataType
-    PropertyDataType (PropertyDataType'),
+    PropertyDataType (..),
 
     -- * PropertyNotificationState
-    PropertyNotificationState (PropertyNotificationState'),
+    PropertyNotificationState (..),
 
     -- * Quality
-    Quality (Quality'),
+    Quality (..),
 
     -- * ResourceType
-    ResourceType (ResourceType'),
+    ResourceType (..),
 
     -- * StorageType
-    StorageType (StorageType'),
+    StorageType (..),
 
     -- * TimeOrdering
-    TimeOrdering (TimeOrdering'),
+    TimeOrdering (..),
 
     -- * TraversalDirection
-    TraversalDirection (TraversalDirection'),
+    TraversalDirection (..),
 
     -- * TraversalType
-    TraversalType (TraversalType'),
+    TraversalType (..),
 
     -- * AccessPolicySummary
     AccessPolicySummary (AccessPolicySummary'),

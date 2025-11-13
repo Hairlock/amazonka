@@ -22,7 +22,7 @@ module Amazonka.MarketplaceAnalytics.Types
     _MarketplaceCommerceAnalyticsException,
 
     -- * DataSetType
-    DataSetType (DataSetType'),
+    DataSetType (..),
 
     -- * SupportDataSetType
     SupportDataSetType (SupportDataSetType'),

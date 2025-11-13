@@ -31,13 +31,13 @@ module Amazonka.Schemas.Types
     _UnauthorizedException,
 
     -- * CodeGenerationStatus
-    CodeGenerationStatus (CodeGenerationStatus'),
+    CodeGenerationStatus (..),
 
     -- * DiscovererState
-    DiscovererState (DiscovererState'),
+    DiscovererState (..),
 
     -- * Type
-    Type (Type'),
+    Type (..),
 
     -- * DiscovererSummary
     DiscovererSummary (DiscovererSummary'),

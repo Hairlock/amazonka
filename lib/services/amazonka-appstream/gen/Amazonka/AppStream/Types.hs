@@ -35,88 +35,88 @@ module Amazonka.AppStream.Types
     _ResourceNotFoundException,
 
     -- * AccessEndpointType
-    AccessEndpointType (AccessEndpointType'),
+    AccessEndpointType (..),
 
     -- * Action
-    Action (Action'),
+    Action (..),
 
     -- * AppVisibility
-    AppVisibility (AppVisibility'),
+    AppVisibility (..),
 
     -- * ApplicationAttribute
-    ApplicationAttribute (ApplicationAttribute'),
+    ApplicationAttribute (..),
 
     -- * AuthenticationType
-    AuthenticationType (AuthenticationType'),
+    AuthenticationType (..),
 
     -- * CertificateBasedAuthStatus
-    CertificateBasedAuthStatus (CertificateBasedAuthStatus'),
+    CertificateBasedAuthStatus (..),
 
     -- * FleetAttribute
-    FleetAttribute (FleetAttribute'),
+    FleetAttribute (..),
 
     -- * FleetErrorCode
-    FleetErrorCode (FleetErrorCode'),
+    FleetErrorCode (..),
 
     -- * FleetState
-    FleetState (FleetState'),
+    FleetState (..),
 
     -- * FleetType
-    FleetType (FleetType'),
+    FleetType (..),
 
     -- * ImageBuilderState
-    ImageBuilderState (ImageBuilderState'),
+    ImageBuilderState (..),
 
     -- * ImageBuilderStateChangeReasonCode
-    ImageBuilderStateChangeReasonCode (ImageBuilderStateChangeReasonCode'),
+    ImageBuilderStateChangeReasonCode (..),
 
     -- * ImageState
-    ImageState (ImageState'),
+    ImageState (..),
 
     -- * ImageStateChangeReasonCode
-    ImageStateChangeReasonCode (ImageStateChangeReasonCode'),
+    ImageStateChangeReasonCode (..),
 
     -- * MessageAction
-    MessageAction (MessageAction'),
+    MessageAction (..),
 
     -- * Permission
-    Permission (Permission'),
+    Permission (..),
 
     -- * PlatformType
-    PlatformType (PlatformType'),
+    PlatformType (..),
 
     -- * PreferredProtocol
-    PreferredProtocol (PreferredProtocol'),
+    PreferredProtocol (..),
 
     -- * SessionConnectionState
-    SessionConnectionState (SessionConnectionState'),
+    SessionConnectionState (..),
 
     -- * SessionState
-    SessionState (SessionState'),
+    SessionState (..),
 
     -- * StackAttribute
-    StackAttribute (StackAttribute'),
+    StackAttribute (..),
 
     -- * StackErrorCode
-    StackErrorCode (StackErrorCode'),
+    StackErrorCode (..),
 
     -- * StorageConnectorType
-    StorageConnectorType (StorageConnectorType'),
+    StorageConnectorType (..),
 
     -- * StreamView
-    StreamView (StreamView'),
+    StreamView (..),
 
     -- * UsageReportExecutionErrorCode
-    UsageReportExecutionErrorCode (UsageReportExecutionErrorCode'),
+    UsageReportExecutionErrorCode (..),
 
     -- * UsageReportSchedule
-    UsageReportSchedule (UsageReportSchedule'),
+    UsageReportSchedule (..),
 
     -- * UserStackAssociationErrorCode
-    UserStackAssociationErrorCode (UserStackAssociationErrorCode'),
+    UserStackAssociationErrorCode (..),
 
     -- * VisibilityType
-    VisibilityType (VisibilityType'),
+    VisibilityType (..),
 
     -- * AccessEndpoint
     AccessEndpoint (AccessEndpoint'),

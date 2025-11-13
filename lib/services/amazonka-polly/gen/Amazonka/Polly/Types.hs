@@ -42,28 +42,28 @@ module Amazonka.Polly.Types
     _UnsupportedPlsLanguageException,
 
     -- * Engine
-    Engine (Engine'),
+    Engine (..),
 
     -- * Gender
-    Gender (Gender'),
+    Gender (..),
 
     -- * LanguageCode
-    LanguageCode (LanguageCode'),
+    LanguageCode (..),
 
     -- * OutputFormat
-    OutputFormat (OutputFormat'),
+    OutputFormat (..),
 
     -- * SpeechMarkType
-    SpeechMarkType (SpeechMarkType'),
+    SpeechMarkType (..),
 
     -- * TaskStatus
-    TaskStatus (TaskStatus'),
+    TaskStatus (..),
 
     -- * TextType
-    TextType (TextType'),
+    TextType (..),
 
     -- * VoiceId
-    VoiceId (VoiceId'),
+    VoiceId (..),
 
     -- * Lexicon
     Lexicon (Lexicon'),

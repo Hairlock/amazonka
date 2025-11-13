@@ -28,25 +28,25 @@ module Amazonka.GamesParks.Types
     _ValidationException,
 
     -- * DeploymentAction
-    DeploymentAction (DeploymentAction'),
+    DeploymentAction (..),
 
     -- * DeploymentState
-    DeploymentState (DeploymentState'),
+    DeploymentState (..),
 
     -- * GameState
-    GameState (GameState'),
+    GameState (..),
 
     -- * GeneratedCodeJobState
-    GeneratedCodeJobState (GeneratedCodeJobState'),
+    GeneratedCodeJobState (..),
 
     -- * Operation
-    Operation (Operation'),
+    Operation (..),
 
     -- * ResultCode
-    ResultCode (ResultCode'),
+    ResultCode (..),
 
     -- * StageState
-    StageState (StageState'),
+    StageState (..),
 
     -- * Connection
     Connection (Connection'),

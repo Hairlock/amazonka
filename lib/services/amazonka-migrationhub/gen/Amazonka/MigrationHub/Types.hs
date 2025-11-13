@@ -31,13 +31,13 @@ module Amazonka.MigrationHub.Types
     _UnauthorizedOperation,
 
     -- * ApplicationStatus
-    ApplicationStatus (ApplicationStatus'),
+    ApplicationStatus (..),
 
     -- * MigrationStatus
-    MigrationStatus (MigrationStatus'),
+    MigrationStatus (..),
 
     -- * ResourceAttributeType
-    ResourceAttributeType (ResourceAttributeType'),
+    ResourceAttributeType (..),
 
     -- * ApplicationState
     ApplicationState (ApplicationState'),

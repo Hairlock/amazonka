@@ -24,895 +24,895 @@ module Amazonka.EC2.Types
     module Amazonka.EC2.Internal,
 
     -- * AcceleratorManufacturer
-    AcceleratorManufacturer (AcceleratorManufacturer'),
+    AcceleratorManufacturer (..),
 
     -- * AcceleratorName
-    AcceleratorName (AcceleratorName'),
+    AcceleratorName (..),
 
     -- * AcceleratorType
-    AcceleratorType (AcceleratorType'),
+    AcceleratorType (..),
 
     -- * AccountAttributeName
-    AccountAttributeName (AccountAttributeName'),
+    AccountAttributeName (..),
 
     -- * ActivityStatus
-    ActivityStatus (ActivityStatus'),
+    ActivityStatus (..),
 
     -- * AddressAttributeName
-    AddressAttributeName (AddressAttributeName'),
+    AddressAttributeName (..),
 
     -- * AddressFamily
-    AddressFamily (AddressFamily'),
+    AddressFamily (..),
 
     -- * AddressStatus
-    AddressStatus (AddressStatus'),
+    AddressStatus (..),
 
     -- * AddressTransferStatus
-    AddressTransferStatus (AddressTransferStatus'),
+    AddressTransferStatus (..),
 
     -- * Affinity
-    Affinity (Affinity'),
+    Affinity (..),
 
     -- * AllocationState
-    AllocationState (AllocationState'),
+    AllocationState (..),
 
     -- * AllocationStrategy
-    AllocationStrategy (AllocationStrategy'),
+    AllocationStrategy (..),
 
     -- * AllocationType
-    AllocationType (AllocationType'),
+    AllocationType (..),
 
     -- * AllowsMultipleInstanceTypes
-    AllowsMultipleInstanceTypes (AllowsMultipleInstanceTypes'),
+    AllowsMultipleInstanceTypes (..),
 
     -- * AnalysisStatus
-    AnalysisStatus (AnalysisStatus'),
+    AnalysisStatus (..),
 
     -- * ApplianceModeSupportValue
-    ApplianceModeSupportValue (ApplianceModeSupportValue'),
+    ApplianceModeSupportValue (..),
 
     -- * ArchitectureType
-    ArchitectureType (ArchitectureType'),
+    ArchitectureType (..),
 
     -- * ArchitectureValues
-    ArchitectureValues (ArchitectureValues'),
+    ArchitectureValues (..),
 
     -- * AssociatedNetworkType
-    AssociatedNetworkType (AssociatedNetworkType'),
+    AssociatedNetworkType (..),
 
     -- * AssociationStatusCode
-    AssociationStatusCode (AssociationStatusCode'),
+    AssociationStatusCode (..),
 
     -- * AttachmentStatus
-    AttachmentStatus (AttachmentStatus'),
+    AttachmentStatus (..),
 
     -- * AutoAcceptSharedAssociationsValue
-    AutoAcceptSharedAssociationsValue (AutoAcceptSharedAssociationsValue'),
+    AutoAcceptSharedAssociationsValue (..),
 
     -- * AutoAcceptSharedAttachmentsValue
-    AutoAcceptSharedAttachmentsValue (AutoAcceptSharedAttachmentsValue'),
+    AutoAcceptSharedAttachmentsValue (..),
 
     -- * AutoPlacement
-    AutoPlacement (AutoPlacement'),
+    AutoPlacement (..),
 
     -- * AvailabilityZoneOptInStatus
-    AvailabilityZoneOptInStatus (AvailabilityZoneOptInStatus'),
+    AvailabilityZoneOptInStatus (..),
 
     -- * AvailabilityZoneState
-    AvailabilityZoneState (AvailabilityZoneState'),
+    AvailabilityZoneState (..),
 
     -- * BareMetal
-    BareMetal (BareMetal'),
+    BareMetal (..),
 
     -- * BatchState
-    BatchState (BatchState'),
+    BatchState (..),
 
     -- * BgpStatus
-    BgpStatus (BgpStatus'),
+    BgpStatus (..),
 
     -- * BootModeType
-    BootModeType (BootModeType'),
+    BootModeType (..),
 
     -- * BootModeValues
-    BootModeValues (BootModeValues'),
+    BootModeValues (..),
 
     -- * BundleTaskState
-    BundleTaskState (BundleTaskState'),
+    BundleTaskState (..),
 
     -- * BurstablePerformance
-    BurstablePerformance (BurstablePerformance'),
+    BurstablePerformance (..),
 
     -- * ByoipCidrState
-    ByoipCidrState (ByoipCidrState'),
+    ByoipCidrState (..),
 
     -- * CancelBatchErrorCode
-    CancelBatchErrorCode (CancelBatchErrorCode'),
+    CancelBatchErrorCode (..),
 
     -- * CancelSpotInstanceRequestState
-    CancelSpotInstanceRequestState (CancelSpotInstanceRequestState'),
+    CancelSpotInstanceRequestState (..),
 
     -- * CapacityReservationFleetState
-    CapacityReservationFleetState (CapacityReservationFleetState'),
+    CapacityReservationFleetState (..),
 
     -- * CapacityReservationInstancePlatform
-    CapacityReservationInstancePlatform (CapacityReservationInstancePlatform'),
+    CapacityReservationInstancePlatform (..),
 
     -- * CapacityReservationPreference
-    CapacityReservationPreference (CapacityReservationPreference'),
+    CapacityReservationPreference (..),
 
     -- * CapacityReservationState
-    CapacityReservationState (CapacityReservationState'),
+    CapacityReservationState (..),
 
     -- * CapacityReservationTenancy
-    CapacityReservationTenancy (CapacityReservationTenancy'),
+    CapacityReservationTenancy (..),
 
     -- * CarrierGatewayState
-    CarrierGatewayState (CarrierGatewayState'),
+    CarrierGatewayState (..),
 
     -- * ClientCertificateRevocationListStatusCode
-    ClientCertificateRevocationListStatusCode (ClientCertificateRevocationListStatusCode'),
+    ClientCertificateRevocationListStatusCode (..),
 
     -- * ClientVpnAuthenticationType
-    ClientVpnAuthenticationType (ClientVpnAuthenticationType'),
+    ClientVpnAuthenticationType (..),
 
     -- * ClientVpnAuthorizationRuleStatusCode
-    ClientVpnAuthorizationRuleStatusCode (ClientVpnAuthorizationRuleStatusCode'),
+    ClientVpnAuthorizationRuleStatusCode (..),
 
     -- * ClientVpnConnectionStatusCode
-    ClientVpnConnectionStatusCode (ClientVpnConnectionStatusCode'),
+    ClientVpnConnectionStatusCode (..),
 
     -- * ClientVpnEndpointAttributeStatusCode
-    ClientVpnEndpointAttributeStatusCode (ClientVpnEndpointAttributeStatusCode'),
+    ClientVpnEndpointAttributeStatusCode (..),
 
     -- * ClientVpnEndpointStatusCode
-    ClientVpnEndpointStatusCode (ClientVpnEndpointStatusCode'),
+    ClientVpnEndpointStatusCode (..),
 
     -- * ClientVpnRouteStatusCode
-    ClientVpnRouteStatusCode (ClientVpnRouteStatusCode'),
+    ClientVpnRouteStatusCode (..),
 
     -- * ConnectionNotificationState
-    ConnectionNotificationState (ConnectionNotificationState'),
+    ConnectionNotificationState (..),
 
     -- * ConnectionNotificationType
-    ConnectionNotificationType (ConnectionNotificationType'),
+    ConnectionNotificationType (..),
 
     -- * ConnectivityType
-    ConnectivityType (ConnectivityType'),
+    ConnectivityType (..),
 
     -- * ContainerFormat
-    ContainerFormat (ContainerFormat'),
+    ContainerFormat (..),
 
     -- * ConversionTaskState
-    ConversionTaskState (ConversionTaskState'),
+    ConversionTaskState (..),
 
     -- * CopyTagsFromSource
-    CopyTagsFromSource (CopyTagsFromSource'),
+    CopyTagsFromSource (..),
 
     -- * CpuManufacturer
-    CpuManufacturer (CpuManufacturer'),
+    CpuManufacturer (..),
 
     -- * CurrencyCodeValues
-    CurrencyCodeValues (CurrencyCodeValues'),
+    CurrencyCodeValues (..),
 
     -- * DatafeedSubscriptionState
-    DatafeedSubscriptionState (DatafeedSubscriptionState'),
+    DatafeedSubscriptionState (..),
 
     -- * DefaultRouteTableAssociationValue
-    DefaultRouteTableAssociationValue (DefaultRouteTableAssociationValue'),
+    DefaultRouteTableAssociationValue (..),
 
     -- * DefaultRouteTablePropagationValue
-    DefaultRouteTablePropagationValue (DefaultRouteTablePropagationValue'),
+    DefaultRouteTablePropagationValue (..),
 
     -- * DefaultTargetCapacityType
-    DefaultTargetCapacityType (DefaultTargetCapacityType'),
+    DefaultTargetCapacityType (..),
 
     -- * DeleteFleetErrorCode
-    DeleteFleetErrorCode (DeleteFleetErrorCode'),
+    DeleteFleetErrorCode (..),
 
     -- * DeleteQueuedReservedInstancesErrorCode
-    DeleteQueuedReservedInstancesErrorCode (DeleteQueuedReservedInstancesErrorCode'),
+    DeleteQueuedReservedInstancesErrorCode (..),
 
     -- * DestinationFileFormat
-    DestinationFileFormat (DestinationFileFormat'),
+    DestinationFileFormat (..),
 
     -- * DeviceTrustProviderType
-    DeviceTrustProviderType (DeviceTrustProviderType'),
+    DeviceTrustProviderType (..),
 
     -- * DeviceType
-    DeviceType (DeviceType'),
+    DeviceType (..),
 
     -- * DiskImageFormat
-    DiskImageFormat (DiskImageFormat'),
+    DiskImageFormat (..),
 
     -- * DiskType
-    DiskType (DiskType'),
+    DiskType (..),
 
     -- * DnsNameState
-    DnsNameState (DnsNameState'),
+    DnsNameState (..),
 
     -- * DnsRecordIpType
-    DnsRecordIpType (DnsRecordIpType'),
+    DnsRecordIpType (..),
 
     -- * DnsSupportValue
-    DnsSupportValue (DnsSupportValue'),
+    DnsSupportValue (..),
 
     -- * DomainType
-    DomainType (DomainType'),
+    DomainType (..),
 
     -- * DynamicRoutingValue
-    DynamicRoutingValue (DynamicRoutingValue'),
+    DynamicRoutingValue (..),
 
     -- * EbsEncryptionSupport
-    EbsEncryptionSupport (EbsEncryptionSupport'),
+    EbsEncryptionSupport (..),
 
     -- * EbsNvmeSupport
-    EbsNvmeSupport (EbsNvmeSupport'),
+    EbsNvmeSupport (..),
 
     -- * EbsOptimizedSupport
-    EbsOptimizedSupport (EbsOptimizedSupport'),
+    EbsOptimizedSupport (..),
 
     -- * ElasticGpuState
-    ElasticGpuState (ElasticGpuState'),
+    ElasticGpuState (..),
 
     -- * ElasticGpuStatus
-    ElasticGpuStatus (ElasticGpuStatus'),
+    ElasticGpuStatus (..),
 
     -- * EnaSupport
-    EnaSupport (EnaSupport'),
+    EnaSupport (..),
 
     -- * EndDateType
-    EndDateType (EndDateType'),
+    EndDateType (..),
 
     -- * EphemeralNvmeSupport
-    EphemeralNvmeSupport (EphemeralNvmeSupport'),
+    EphemeralNvmeSupport (..),
 
     -- * EventCode
-    EventCode (EventCode'),
+    EventCode (..),
 
     -- * EventType
-    EventType (EventType'),
+    EventType (..),
 
     -- * ExcessCapacityTerminationPolicy
-    ExcessCapacityTerminationPolicy (ExcessCapacityTerminationPolicy'),
+    ExcessCapacityTerminationPolicy (..),
 
     -- * ExportEnvironment
-    ExportEnvironment (ExportEnvironment'),
+    ExportEnvironment (..),
 
     -- * ExportTaskState
-    ExportTaskState (ExportTaskState'),
+    ExportTaskState (..),
 
     -- * FastLaunchResourceType
-    FastLaunchResourceType (FastLaunchResourceType'),
+    FastLaunchResourceType (..),
 
     -- * FastLaunchStateCode
-    FastLaunchStateCode (FastLaunchStateCode'),
+    FastLaunchStateCode (..),
 
     -- * FastSnapshotRestoreStateCode
-    FastSnapshotRestoreStateCode (FastSnapshotRestoreStateCode'),
+    FastSnapshotRestoreStateCode (..),
 
     -- * FindingsFound
-    FindingsFound (FindingsFound'),
+    FindingsFound (..),
 
     -- * FleetActivityStatus
-    FleetActivityStatus (FleetActivityStatus'),
+    FleetActivityStatus (..),
 
     -- * FleetCapacityReservationTenancy
-    FleetCapacityReservationTenancy (FleetCapacityReservationTenancy'),
+    FleetCapacityReservationTenancy (..),
 
     -- * FleetCapacityReservationUsageStrategy
-    FleetCapacityReservationUsageStrategy (FleetCapacityReservationUsageStrategy'),
+    FleetCapacityReservationUsageStrategy (..),
 
     -- * FleetEventType
-    FleetEventType (FleetEventType'),
+    FleetEventType (..),
 
     -- * FleetExcessCapacityTerminationPolicy
-    FleetExcessCapacityTerminationPolicy (FleetExcessCapacityTerminationPolicy'),
+    FleetExcessCapacityTerminationPolicy (..),
 
     -- * FleetInstanceMatchCriteria
-    FleetInstanceMatchCriteria (FleetInstanceMatchCriteria'),
+    FleetInstanceMatchCriteria (..),
 
     -- * FleetOnDemandAllocationStrategy
-    FleetOnDemandAllocationStrategy (FleetOnDemandAllocationStrategy'),
+    FleetOnDemandAllocationStrategy (..),
 
     -- * FleetReplacementStrategy
-    FleetReplacementStrategy (FleetReplacementStrategy'),
+    FleetReplacementStrategy (..),
 
     -- * FleetStateCode
-    FleetStateCode (FleetStateCode'),
+    FleetStateCode (..),
 
     -- * FleetType
-    FleetType (FleetType'),
+    FleetType (..),
 
     -- * FlowLogsResourceType
-    FlowLogsResourceType (FlowLogsResourceType'),
+    FlowLogsResourceType (..),
 
     -- * FpgaImageAttributeName
-    FpgaImageAttributeName (FpgaImageAttributeName'),
+    FpgaImageAttributeName (..),
 
     -- * FpgaImageStateCode
-    FpgaImageStateCode (FpgaImageStateCode'),
+    FpgaImageStateCode (..),
 
     -- * GatewayAssociationState
-    GatewayAssociationState (GatewayAssociationState'),
+    GatewayAssociationState (..),
 
     -- * GatewayType
-    GatewayType (GatewayType'),
+    GatewayType (..),
 
     -- * HostRecovery
-    HostRecovery (HostRecovery'),
+    HostRecovery (..),
 
     -- * HostTenancy
-    HostTenancy (HostTenancy'),
+    HostTenancy (..),
 
     -- * HostnameType
-    HostnameType (HostnameType'),
+    HostnameType (..),
 
     -- * HttpTokensState
-    HttpTokensState (HttpTokensState'),
+    HttpTokensState (..),
 
     -- * HypervisorType
-    HypervisorType (HypervisorType'),
+    HypervisorType (..),
 
     -- * IamInstanceProfileAssociationState
-    IamInstanceProfileAssociationState (IamInstanceProfileAssociationState'),
+    IamInstanceProfileAssociationState (..),
 
     -- * Igmpv2SupportValue
-    Igmpv2SupportValue (Igmpv2SupportValue'),
+    Igmpv2SupportValue (..),
 
     -- * ImageAttributeName
-    ImageAttributeName (ImageAttributeName'),
+    ImageAttributeName (..),
 
     -- * ImageState
-    ImageState (ImageState'),
+    ImageState (..),
 
     -- * ImageTypeValues
-    ImageTypeValues (ImageTypeValues'),
+    ImageTypeValues (..),
 
     -- * ImdsSupportValues
-    ImdsSupportValues (ImdsSupportValues'),
+    ImdsSupportValues (..),
 
     -- * InstanceAttributeName
-    InstanceAttributeName (InstanceAttributeName'),
+    InstanceAttributeName (..),
 
     -- * InstanceAutoRecoveryState
-    InstanceAutoRecoveryState (InstanceAutoRecoveryState'),
+    InstanceAutoRecoveryState (..),
 
     -- * InstanceEventWindowState
-    InstanceEventWindowState (InstanceEventWindowState'),
+    InstanceEventWindowState (..),
 
     -- * InstanceGeneration
-    InstanceGeneration (InstanceGeneration'),
+    InstanceGeneration (..),
 
     -- * InstanceHealthStatus
-    InstanceHealthStatus (InstanceHealthStatus'),
+    InstanceHealthStatus (..),
 
     -- * InstanceInterruptionBehavior
-    InstanceInterruptionBehavior (InstanceInterruptionBehavior'),
+    InstanceInterruptionBehavior (..),
 
     -- * InstanceLifecycle
-    InstanceLifecycle (InstanceLifecycle'),
+    InstanceLifecycle (..),
 
     -- * InstanceLifecycleType
-    InstanceLifecycleType (InstanceLifecycleType'),
+    InstanceLifecycleType (..),
 
     -- * InstanceMatchCriteria
-    InstanceMatchCriteria (InstanceMatchCriteria'),
+    InstanceMatchCriteria (..),
 
     -- * InstanceMetadataEndpointState
-    InstanceMetadataEndpointState (InstanceMetadataEndpointState'),
+    InstanceMetadataEndpointState (..),
 
     -- * InstanceMetadataOptionsState
-    InstanceMetadataOptionsState (InstanceMetadataOptionsState'),
+    InstanceMetadataOptionsState (..),
 
     -- * InstanceMetadataProtocolState
-    InstanceMetadataProtocolState (InstanceMetadataProtocolState'),
+    InstanceMetadataProtocolState (..),
 
     -- * InstanceMetadataTagsState
-    InstanceMetadataTagsState (InstanceMetadataTagsState'),
+    InstanceMetadataTagsState (..),
 
     -- * InstanceStateName
-    InstanceStateName (InstanceStateName'),
+    InstanceStateName (..),
 
     -- * InstanceStorageEncryptionSupport
-    InstanceStorageEncryptionSupport (InstanceStorageEncryptionSupport'),
+    InstanceStorageEncryptionSupport (..),
 
     -- * InstanceType
-    InstanceType (InstanceType'),
+    InstanceType (..),
 
     -- * InstanceTypeHypervisor
-    InstanceTypeHypervisor (InstanceTypeHypervisor'),
+    InstanceTypeHypervisor (..),
 
     -- * InterfacePermissionType
-    InterfacePermissionType (InterfacePermissionType'),
+    InterfacePermissionType (..),
 
     -- * InterfaceProtocolType
-    InterfaceProtocolType (InterfaceProtocolType'),
+    InterfaceProtocolType (..),
 
     -- * IpAddressType
-    IpAddressType (IpAddressType'),
+    IpAddressType (..),
 
     -- * IpamAddressHistoryResourceType
-    IpamAddressHistoryResourceType (IpamAddressHistoryResourceType'),
+    IpamAddressHistoryResourceType (..),
 
     -- * IpamComplianceStatus
-    IpamComplianceStatus (IpamComplianceStatus'),
+    IpamComplianceStatus (..),
 
     -- * IpamManagementState
-    IpamManagementState (IpamManagementState'),
+    IpamManagementState (..),
 
     -- * IpamOverlapStatus
-    IpamOverlapStatus (IpamOverlapStatus'),
+    IpamOverlapStatus (..),
 
     -- * IpamPoolAllocationResourceType
-    IpamPoolAllocationResourceType (IpamPoolAllocationResourceType'),
+    IpamPoolAllocationResourceType (..),
 
     -- * IpamPoolAwsService
-    IpamPoolAwsService (IpamPoolAwsService'),
+    IpamPoolAwsService (..),
 
     -- * IpamPoolCidrFailureCode
-    IpamPoolCidrFailureCode (IpamPoolCidrFailureCode'),
+    IpamPoolCidrFailureCode (..),
 
     -- * IpamPoolCidrState
-    IpamPoolCidrState (IpamPoolCidrState'),
+    IpamPoolCidrState (..),
 
     -- * IpamPoolState
-    IpamPoolState (IpamPoolState'),
+    IpamPoolState (..),
 
     -- * IpamResourceType
-    IpamResourceType (IpamResourceType'),
+    IpamResourceType (..),
 
     -- * IpamScopeState
-    IpamScopeState (IpamScopeState'),
+    IpamScopeState (..),
 
     -- * IpamScopeType
-    IpamScopeType (IpamScopeType'),
+    IpamScopeType (..),
 
     -- * IpamState
-    IpamState (IpamState'),
+    IpamState (..),
 
     -- * Ipv6SupportValue
-    Ipv6SupportValue (Ipv6SupportValue'),
+    Ipv6SupportValue (..),
 
     -- * KeyFormat
-    KeyFormat (KeyFormat'),
+    KeyFormat (..),
 
     -- * KeyType
-    KeyType (KeyType'),
+    KeyType (..),
 
     -- * LaunchTemplateAutoRecoveryState
-    LaunchTemplateAutoRecoveryState (LaunchTemplateAutoRecoveryState'),
+    LaunchTemplateAutoRecoveryState (..),
 
     -- * LaunchTemplateErrorCode
-    LaunchTemplateErrorCode (LaunchTemplateErrorCode'),
+    LaunchTemplateErrorCode (..),
 
     -- * LaunchTemplateHttpTokensState
-    LaunchTemplateHttpTokensState (LaunchTemplateHttpTokensState'),
+    LaunchTemplateHttpTokensState (..),
 
     -- * LaunchTemplateInstanceMetadataEndpointState
-    LaunchTemplateInstanceMetadataEndpointState (LaunchTemplateInstanceMetadataEndpointState'),
+    LaunchTemplateInstanceMetadataEndpointState (..),
 
     -- * LaunchTemplateInstanceMetadataOptionsState
-    LaunchTemplateInstanceMetadataOptionsState (LaunchTemplateInstanceMetadataOptionsState'),
+    LaunchTemplateInstanceMetadataOptionsState (..),
 
     -- * LaunchTemplateInstanceMetadataProtocolIpv6
-    LaunchTemplateInstanceMetadataProtocolIpv6 (LaunchTemplateInstanceMetadataProtocolIpv6'),
+    LaunchTemplateInstanceMetadataProtocolIpv6 (..),
 
     -- * LaunchTemplateInstanceMetadataTagsState
-    LaunchTemplateInstanceMetadataTagsState (LaunchTemplateInstanceMetadataTagsState'),
+    LaunchTemplateInstanceMetadataTagsState (..),
 
     -- * ListingState
-    ListingState (ListingState'),
+    ListingState (..),
 
     -- * ListingStatus
-    ListingStatus (ListingStatus'),
+    ListingStatus (..),
 
     -- * LocalGatewayRouteState
-    LocalGatewayRouteState (LocalGatewayRouteState'),
+    LocalGatewayRouteState (..),
 
     -- * LocalGatewayRouteTableMode
-    LocalGatewayRouteTableMode (LocalGatewayRouteTableMode'),
+    LocalGatewayRouteTableMode (..),
 
     -- * LocalGatewayRouteType
-    LocalGatewayRouteType (LocalGatewayRouteType'),
+    LocalGatewayRouteType (..),
 
     -- * LocalStorage
-    LocalStorage (LocalStorage'),
+    LocalStorage (..),
 
     -- * LocalStorageType
-    LocalStorageType (LocalStorageType'),
+    LocalStorageType (..),
 
     -- * LocationType
-    LocationType (LocationType'),
+    LocationType (..),
 
     -- * LogDestinationType
-    LogDestinationType (LogDestinationType'),
+    LogDestinationType (..),
 
     -- * MarketType
-    MarketType (MarketType'),
+    MarketType (..),
 
     -- * MembershipType
-    MembershipType (MembershipType'),
+    MembershipType (..),
 
     -- * MetricType
-    MetricType (MetricType'),
+    MetricType (..),
 
     -- * ModifyAvailabilityZoneOptInStatus
-    ModifyAvailabilityZoneOptInStatus (ModifyAvailabilityZoneOptInStatus'),
+    ModifyAvailabilityZoneOptInStatus (..),
 
     -- * MonitoringState
-    MonitoringState (MonitoringState'),
+    MonitoringState (..),
 
     -- * MoveStatus
-    MoveStatus (MoveStatus'),
+    MoveStatus (..),
 
     -- * MulticastSupportValue
-    MulticastSupportValue (MulticastSupportValue'),
+    MulticastSupportValue (..),
 
     -- * NatGatewayState
-    NatGatewayState (NatGatewayState'),
+    NatGatewayState (..),
 
     -- * NetworkInterfaceAttribute
-    NetworkInterfaceAttribute (NetworkInterfaceAttribute'),
+    NetworkInterfaceAttribute (..),
 
     -- * NetworkInterfaceCreationType
-    NetworkInterfaceCreationType (NetworkInterfaceCreationType'),
+    NetworkInterfaceCreationType (..),
 
     -- * NetworkInterfacePermissionStateCode
-    NetworkInterfacePermissionStateCode (NetworkInterfacePermissionStateCode'),
+    NetworkInterfacePermissionStateCode (..),
 
     -- * NetworkInterfaceStatus
-    NetworkInterfaceStatus (NetworkInterfaceStatus'),
+    NetworkInterfaceStatus (..),
 
     -- * NetworkInterfaceType
-    NetworkInterfaceType (NetworkInterfaceType'),
+    NetworkInterfaceType (..),
 
     -- * OfferingClassType
-    OfferingClassType (OfferingClassType'),
+    OfferingClassType (..),
 
     -- * OfferingTypeValues
-    OfferingTypeValues (OfferingTypeValues'),
+    OfferingTypeValues (..),
 
     -- * OnDemandAllocationStrategy
-    OnDemandAllocationStrategy (OnDemandAllocationStrategy'),
+    OnDemandAllocationStrategy (..),
 
     -- * OperationType
-    OperationType (OperationType'),
+    OperationType (..),
 
     -- * PartitionLoadFrequency
-    PartitionLoadFrequency (PartitionLoadFrequency'),
+    PartitionLoadFrequency (..),
 
     -- * PayerResponsibility
-    PayerResponsibility (PayerResponsibility'),
+    PayerResponsibility (..),
 
     -- * PaymentOption
-    PaymentOption (PaymentOption'),
+    PaymentOption (..),
 
     -- * PeriodType
-    PeriodType (PeriodType'),
+    PeriodType (..),
 
     -- * PermissionGroup
-    PermissionGroup (PermissionGroup'),
+    PermissionGroup (..),
 
     -- * PlacementGroupState
-    PlacementGroupState (PlacementGroupState'),
+    PlacementGroupState (..),
 
     -- * PlacementGroupStrategy
-    PlacementGroupStrategy (PlacementGroupStrategy'),
+    PlacementGroupStrategy (..),
 
     -- * PlacementStrategy
-    PlacementStrategy (PlacementStrategy'),
+    PlacementStrategy (..),
 
     -- * PlatformValues
-    PlatformValues (PlatformValues'),
+    PlatformValues (..),
 
     -- * PrefixListState
-    PrefixListState (PrefixListState'),
+    PrefixListState (..),
 
     -- * PrincipalType
-    PrincipalType (PrincipalType'),
+    PrincipalType (..),
 
     -- * ProductCodeValues
-    ProductCodeValues (ProductCodeValues'),
+    ProductCodeValues (..),
 
     -- * Protocol
-    Protocol (Protocol'),
+    Protocol (..),
 
     -- * ProtocolValue
-    ProtocolValue (ProtocolValue'),
+    ProtocolValue (..),
 
     -- * RIProductDescription
-    RIProductDescription (RIProductDescription'),
+    RIProductDescription (..),
 
     -- * RecurringChargeFrequency
-    RecurringChargeFrequency (RecurringChargeFrequency'),
+    RecurringChargeFrequency (..),
 
     -- * ReplaceRootVolumeTaskState
-    ReplaceRootVolumeTaskState (ReplaceRootVolumeTaskState'),
+    ReplaceRootVolumeTaskState (..),
 
     -- * ReplacementStrategy
-    ReplacementStrategy (ReplacementStrategy'),
+    ReplacementStrategy (..),
 
     -- * ReportInstanceReasonCodes
-    ReportInstanceReasonCodes (ReportInstanceReasonCodes'),
+    ReportInstanceReasonCodes (..),
 
     -- * ReportStatusType
-    ReportStatusType (ReportStatusType'),
+    ReportStatusType (..),
 
     -- * ReservationState
-    ReservationState (ReservationState'),
+    ReservationState (..),
 
     -- * ReservedInstanceState
-    ReservedInstanceState (ReservedInstanceState'),
+    ReservedInstanceState (..),
 
     -- * ResetFpgaImageAttributeName
-    ResetFpgaImageAttributeName (ResetFpgaImageAttributeName'),
+    ResetFpgaImageAttributeName (..),
 
     -- * ResetImageAttributeName
-    ResetImageAttributeName (ResetImageAttributeName'),
+    ResetImageAttributeName (..),
 
     -- * ResourceType
-    ResourceType (ResourceType'),
+    ResourceType (..),
 
     -- * RootDeviceType
-    RootDeviceType (RootDeviceType'),
+    RootDeviceType (..),
 
     -- * RouteOrigin
-    RouteOrigin (RouteOrigin'),
+    RouteOrigin (..),
 
     -- * RouteState
-    RouteState (RouteState'),
+    RouteState (..),
 
     -- * RouteTableAssociationStateCode
-    RouteTableAssociationStateCode (RouteTableAssociationStateCode'),
+    RouteTableAssociationStateCode (..),
 
     -- * RuleAction
-    RuleAction (RuleAction'),
+    RuleAction (..),
 
     -- * Scope
-    Scope (Scope'),
+    Scope (..),
 
     -- * SelfServicePortal
-    SelfServicePortal (SelfServicePortal'),
+    SelfServicePortal (..),
 
     -- * ServiceConnectivityType
-    ServiceConnectivityType (ServiceConnectivityType'),
+    ServiceConnectivityType (..),
 
     -- * ServiceState
-    ServiceState (ServiceState'),
+    ServiceState (..),
 
     -- * ServiceType
-    ServiceType (ServiceType'),
+    ServiceType (..),
 
     -- * ShutdownBehavior
-    ShutdownBehavior (ShutdownBehavior'),
+    ShutdownBehavior (..),
 
     -- * SnapshotAttributeName
-    SnapshotAttributeName (SnapshotAttributeName'),
+    SnapshotAttributeName (..),
 
     -- * SnapshotState
-    SnapshotState (SnapshotState'),
+    SnapshotState (..),
 
     -- * SpotAllocationStrategy
-    SpotAllocationStrategy (SpotAllocationStrategy'),
+    SpotAllocationStrategy (..),
 
     -- * SpotInstanceInterruptionBehavior
-    SpotInstanceInterruptionBehavior (SpotInstanceInterruptionBehavior'),
+    SpotInstanceInterruptionBehavior (..),
 
     -- * SpotInstanceState
-    SpotInstanceState (SpotInstanceState'),
+    SpotInstanceState (..),
 
     -- * SpotInstanceType
-    SpotInstanceType (SpotInstanceType'),
+    SpotInstanceType (..),
 
     -- * SpreadLevel
-    SpreadLevel (SpreadLevel'),
+    SpreadLevel (..),
 
     -- * State
-    State (State'),
+    State (..),
 
     -- * StaticSourcesSupportValue
-    StaticSourcesSupportValue (StaticSourcesSupportValue'),
+    StaticSourcesSupportValue (..),
 
     -- * StatisticType
-    StatisticType (StatisticType'),
+    StatisticType (..),
 
     -- * StatusName
-    StatusName (StatusName'),
+    StatusName (..),
 
     -- * StatusType
-    StatusType (StatusType'),
+    StatusType (..),
 
     -- * StorageTier
-    StorageTier (StorageTier'),
+    StorageTier (..),
 
     -- * SubnetCidrBlockStateCode
-    SubnetCidrBlockStateCode (SubnetCidrBlockStateCode'),
+    SubnetCidrBlockStateCode (..),
 
     -- * SubnetCidrReservationType
-    SubnetCidrReservationType (SubnetCidrReservationType'),
+    SubnetCidrReservationType (..),
 
     -- * SubnetState
-    SubnetState (SubnetState'),
+    SubnetState (..),
 
     -- * SummaryStatus
-    SummaryStatus (SummaryStatus'),
+    SummaryStatus (..),
 
     -- * TargetCapacityUnitType
-    TargetCapacityUnitType (TargetCapacityUnitType'),
+    TargetCapacityUnitType (..),
 
     -- * TargetStorageTier
-    TargetStorageTier (TargetStorageTier'),
+    TargetStorageTier (..),
 
     -- * TelemetryStatus
-    TelemetryStatus (TelemetryStatus'),
+    TelemetryStatus (..),
 
     -- * Tenancy
-    Tenancy (Tenancy'),
+    Tenancy (..),
 
     -- * TieringOperationStatus
-    TieringOperationStatus (TieringOperationStatus'),
+    TieringOperationStatus (..),
 
     -- * TpmSupportValues
-    TpmSupportValues (TpmSupportValues'),
+    TpmSupportValues (..),
 
     -- * TrafficDirection
-    TrafficDirection (TrafficDirection'),
+    TrafficDirection (..),
 
     -- * TrafficMirrorFilterRuleField
-    TrafficMirrorFilterRuleField (TrafficMirrorFilterRuleField'),
+    TrafficMirrorFilterRuleField (..),
 
     -- * TrafficMirrorNetworkService
-    TrafficMirrorNetworkService (TrafficMirrorNetworkService'),
+    TrafficMirrorNetworkService (..),
 
     -- * TrafficMirrorRuleAction
-    TrafficMirrorRuleAction (TrafficMirrorRuleAction'),
+    TrafficMirrorRuleAction (..),
 
     -- * TrafficMirrorSessionField
-    TrafficMirrorSessionField (TrafficMirrorSessionField'),
+    TrafficMirrorSessionField (..),
 
     -- * TrafficMirrorTargetType
-    TrafficMirrorTargetType (TrafficMirrorTargetType'),
+    TrafficMirrorTargetType (..),
 
     -- * TrafficType
-    TrafficType (TrafficType'),
+    TrafficType (..),
 
     -- * TransitGatewayAssociationState
-    TransitGatewayAssociationState (TransitGatewayAssociationState'),
+    TransitGatewayAssociationState (..),
 
     -- * TransitGatewayAttachmentResourceType
-    TransitGatewayAttachmentResourceType (TransitGatewayAttachmentResourceType'),
+    TransitGatewayAttachmentResourceType (..),
 
     -- * TransitGatewayAttachmentState
-    TransitGatewayAttachmentState (TransitGatewayAttachmentState'),
+    TransitGatewayAttachmentState (..),
 
     -- * TransitGatewayConnectPeerState
-    TransitGatewayConnectPeerState (TransitGatewayConnectPeerState'),
+    TransitGatewayConnectPeerState (..),
 
     -- * TransitGatewayMulitcastDomainAssociationState
-    TransitGatewayMulitcastDomainAssociationState (TransitGatewayMulitcastDomainAssociationState'),
+    TransitGatewayMulitcastDomainAssociationState (..),
 
     -- * TransitGatewayMulticastDomainState
-    TransitGatewayMulticastDomainState (TransitGatewayMulticastDomainState'),
+    TransitGatewayMulticastDomainState (..),
 
     -- * TransitGatewayPolicyTableState
-    TransitGatewayPolicyTableState (TransitGatewayPolicyTableState'),
+    TransitGatewayPolicyTableState (..),
 
     -- * TransitGatewayPrefixListReferenceState
-    TransitGatewayPrefixListReferenceState (TransitGatewayPrefixListReferenceState'),
+    TransitGatewayPrefixListReferenceState (..),
 
     -- * TransitGatewayPropagationState
-    TransitGatewayPropagationState (TransitGatewayPropagationState'),
+    TransitGatewayPropagationState (..),
 
     -- * TransitGatewayRouteState
-    TransitGatewayRouteState (TransitGatewayRouteState'),
+    TransitGatewayRouteState (..),
 
     -- * TransitGatewayRouteTableAnnouncementDirection
-    TransitGatewayRouteTableAnnouncementDirection (TransitGatewayRouteTableAnnouncementDirection'),
+    TransitGatewayRouteTableAnnouncementDirection (..),
 
     -- * TransitGatewayRouteTableAnnouncementState
-    TransitGatewayRouteTableAnnouncementState (TransitGatewayRouteTableAnnouncementState'),
+    TransitGatewayRouteTableAnnouncementState (..),
 
     -- * TransitGatewayRouteTableState
-    TransitGatewayRouteTableState (TransitGatewayRouteTableState'),
+    TransitGatewayRouteTableState (..),
 
     -- * TransitGatewayRouteType
-    TransitGatewayRouteType (TransitGatewayRouteType'),
+    TransitGatewayRouteType (..),
 
     -- * TransitGatewayState
-    TransitGatewayState (TransitGatewayState'),
+    TransitGatewayState (..),
 
     -- * TransportProtocol
-    TransportProtocol (TransportProtocol'),
+    TransportProtocol (..),
 
     -- * TrustProviderType
-    TrustProviderType (TrustProviderType'),
+    TrustProviderType (..),
 
     -- * TunnelInsideIpVersion
-    TunnelInsideIpVersion (TunnelInsideIpVersion'),
+    TunnelInsideIpVersion (..),
 
     -- * UnlimitedSupportedInstanceFamily
-    UnlimitedSupportedInstanceFamily (UnlimitedSupportedInstanceFamily'),
+    UnlimitedSupportedInstanceFamily (..),
 
     -- * UnsuccessfulInstanceCreditSpecificationErrorCode
-    UnsuccessfulInstanceCreditSpecificationErrorCode (UnsuccessfulInstanceCreditSpecificationErrorCode'),
+    UnsuccessfulInstanceCreditSpecificationErrorCode (..),
 
     -- * UsageClassType
-    UsageClassType (UsageClassType'),
+    UsageClassType (..),
 
     -- * UserTrustProviderType
-    UserTrustProviderType (UserTrustProviderType'),
+    UserTrustProviderType (..),
 
     -- * VerifiedAccessEndpointAttachmentType
-    VerifiedAccessEndpointAttachmentType (VerifiedAccessEndpointAttachmentType'),
+    VerifiedAccessEndpointAttachmentType (..),
 
     -- * VerifiedAccessEndpointProtocol
-    VerifiedAccessEndpointProtocol (VerifiedAccessEndpointProtocol'),
+    VerifiedAccessEndpointProtocol (..),
 
     -- * VerifiedAccessEndpointStatusCode
-    VerifiedAccessEndpointStatusCode (VerifiedAccessEndpointStatusCode'),
+    VerifiedAccessEndpointStatusCode (..),
 
     -- * VerifiedAccessEndpointType
-    VerifiedAccessEndpointType (VerifiedAccessEndpointType'),
+    VerifiedAccessEndpointType (..),
 
     -- * VerifiedAccessLogDeliveryStatusCode
-    VerifiedAccessLogDeliveryStatusCode (VerifiedAccessLogDeliveryStatusCode'),
+    VerifiedAccessLogDeliveryStatusCode (..),
 
     -- * VirtualizationType
-    VirtualizationType (VirtualizationType'),
+    VirtualizationType (..),
 
     -- * VolumeAttachmentState
-    VolumeAttachmentState (VolumeAttachmentState'),
+    VolumeAttachmentState (..),
 
     -- * VolumeAttributeName
-    VolumeAttributeName (VolumeAttributeName'),
+    VolumeAttributeName (..),
 
     -- * VolumeModificationState
-    VolumeModificationState (VolumeModificationState'),
+    VolumeModificationState (..),
 
     -- * VolumeState
-    VolumeState (VolumeState'),
+    VolumeState (..),
 
     -- * VolumeStatusInfoStatus
-    VolumeStatusInfoStatus (VolumeStatusInfoStatus'),
+    VolumeStatusInfoStatus (..),
 
     -- * VolumeStatusName
-    VolumeStatusName (VolumeStatusName'),
+    VolumeStatusName (..),
 
     -- * VolumeType
-    VolumeType (VolumeType'),
+    VolumeType (..),
 
     -- * VpcAttributeName
-    VpcAttributeName (VpcAttributeName'),
+    VpcAttributeName (..),
 
     -- * VpcCidrBlockStateCode
-    VpcCidrBlockStateCode (VpcCidrBlockStateCode'),
+    VpcCidrBlockStateCode (..),
 
     -- * VpcEndpointType
-    VpcEndpointType (VpcEndpointType'),
+    VpcEndpointType (..),
 
     -- * VpcPeeringConnectionStateReasonCode
-    VpcPeeringConnectionStateReasonCode (VpcPeeringConnectionStateReasonCode'),
+    VpcPeeringConnectionStateReasonCode (..),
 
     -- * VpcState
-    VpcState (VpcState'),
+    VpcState (..),
 
     -- * VpcTenancy
-    VpcTenancy (VpcTenancy'),
+    VpcTenancy (..),
 
     -- * VpnEcmpSupportValue
-    VpnEcmpSupportValue (VpnEcmpSupportValue'),
+    VpnEcmpSupportValue (..),
 
     -- * VpnProtocol
-    VpnProtocol (VpnProtocol'),
+    VpnProtocol (..),
 
     -- * VpnState
-    VpnState (VpnState'),
+    VpnState (..),
 
     -- * VpnStaticRouteSource
-    VpnStaticRouteSource (VpnStaticRouteSource'),
+    VpnStaticRouteSource (..),
 
     -- * WeekDay
-    WeekDay (WeekDay'),
+    WeekDay (..),
 
     -- * AcceleratorCount
     AcceleratorCount (AcceleratorCount'),

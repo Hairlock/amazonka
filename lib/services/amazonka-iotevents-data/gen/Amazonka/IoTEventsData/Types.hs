@@ -26,22 +26,22 @@ module Amazonka.IoTEventsData.Types
     _ThrottlingException,
 
     -- * AlarmStateName
-    AlarmStateName (AlarmStateName'),
+    AlarmStateName (..),
 
     -- * ComparisonOperator
-    ComparisonOperator (ComparisonOperator'),
+    ComparisonOperator (..),
 
     -- * CustomerActionName
-    CustomerActionName (CustomerActionName'),
+    CustomerActionName (..),
 
     -- * ErrorCode
-    ErrorCode (ErrorCode'),
+    ErrorCode (..),
 
     -- * EventType
-    EventType (EventType'),
+    EventType (..),
 
     -- * TriggerType
-    TriggerType (TriggerType'),
+    TriggerType (..),
 
     -- * AcknowledgeActionConfiguration
     AcknowledgeActionConfiguration (AcknowledgeActionConfiguration'),

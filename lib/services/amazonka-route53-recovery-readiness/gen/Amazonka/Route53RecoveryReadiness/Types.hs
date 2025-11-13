@@ -27,7 +27,7 @@ module Amazonka.Route53RecoveryReadiness.Types
     _ValidationException,
 
     -- * Readiness
-    Readiness (Readiness'),
+    Readiness (..),
 
     -- * CellOutput
     CellOutput (CellOutput'),

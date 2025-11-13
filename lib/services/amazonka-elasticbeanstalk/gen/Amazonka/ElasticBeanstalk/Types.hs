@@ -40,61 +40,61 @@ module Amazonka.ElasticBeanstalk.Types
     _TooManyTagsException,
 
     -- * ActionHistoryStatus
-    ActionHistoryStatus (ActionHistoryStatus'),
+    ActionHistoryStatus (..),
 
     -- * ActionStatus
-    ActionStatus (ActionStatus'),
+    ActionStatus (..),
 
     -- * ActionType
-    ActionType (ActionType'),
+    ActionType (..),
 
     -- * ApplicationVersionStatus
-    ApplicationVersionStatus (ApplicationVersionStatus'),
+    ApplicationVersionStatus (..),
 
     -- * ComputeType
-    ComputeType (ComputeType'),
+    ComputeType (..),
 
     -- * ConfigurationDeploymentStatus
-    ConfigurationDeploymentStatus (ConfigurationDeploymentStatus'),
+    ConfigurationDeploymentStatus (..),
 
     -- * ConfigurationOptionValueType
-    ConfigurationOptionValueType (ConfigurationOptionValueType'),
+    ConfigurationOptionValueType (..),
 
     -- * EnvironmentHealth
-    EnvironmentHealth (EnvironmentHealth'),
+    EnvironmentHealth (..),
 
     -- * EnvironmentHealthAttribute
-    EnvironmentHealthAttribute (EnvironmentHealthAttribute'),
+    EnvironmentHealthAttribute (..),
 
     -- * EnvironmentHealthStatus
-    EnvironmentHealthStatus (EnvironmentHealthStatus'),
+    EnvironmentHealthStatus (..),
 
     -- * EnvironmentInfoType
-    EnvironmentInfoType (EnvironmentInfoType'),
+    EnvironmentInfoType (..),
 
     -- * EnvironmentStatus
-    EnvironmentStatus (EnvironmentStatus'),
+    EnvironmentStatus (..),
 
     -- * EventSeverity
-    EventSeverity (EventSeverity'),
+    EventSeverity (..),
 
     -- * FailureType
-    FailureType (FailureType'),
+    FailureType (..),
 
     -- * InstancesHealthAttribute
-    InstancesHealthAttribute (InstancesHealthAttribute'),
+    InstancesHealthAttribute (..),
 
     -- * PlatformStatus
-    PlatformStatus (PlatformStatus'),
+    PlatformStatus (..),
 
     -- * SourceRepository
-    SourceRepository (SourceRepository'),
+    SourceRepository (..),
 
     -- * SourceType
-    SourceType (SourceType'),
+    SourceType (..),
 
     -- * ValidationSeverity
-    ValidationSeverity (ValidationSeverity'),
+    ValidationSeverity (..),
 
     -- * ApplicationDescription
     ApplicationDescription (ApplicationDescription'),

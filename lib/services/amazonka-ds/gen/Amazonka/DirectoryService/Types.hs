@@ -58,97 +58,97 @@ module Amazonka.DirectoryService.Types
     _UserDoesNotExistException,
 
     -- * CertificateState
-    CertificateState (CertificateState'),
+    CertificateState (..),
 
     -- * CertificateType
-    CertificateType (CertificateType'),
+    CertificateType (..),
 
     -- * ClientAuthenticationStatus
-    ClientAuthenticationStatus (ClientAuthenticationStatus'),
+    ClientAuthenticationStatus (..),
 
     -- * ClientAuthenticationType
-    ClientAuthenticationType (ClientAuthenticationType'),
+    ClientAuthenticationType (..),
 
     -- * DirectoryConfigurationStatus
-    DirectoryConfigurationStatus (DirectoryConfigurationStatus'),
+    DirectoryConfigurationStatus (..),
 
     -- * DirectoryEdition
-    DirectoryEdition (DirectoryEdition'),
+    DirectoryEdition (..),
 
     -- * DirectorySize
-    DirectorySize (DirectorySize'),
+    DirectorySize (..),
 
     -- * DirectoryStage
-    DirectoryStage (DirectoryStage'),
+    DirectoryStage (..),
 
     -- * DirectoryType
-    DirectoryType (DirectoryType'),
+    DirectoryType (..),
 
     -- * DomainControllerStatus
-    DomainControllerStatus (DomainControllerStatus'),
+    DomainControllerStatus (..),
 
     -- * IpRouteStatusMsg
-    IpRouteStatusMsg (IpRouteStatusMsg'),
+    IpRouteStatusMsg (..),
 
     -- * LDAPSStatus
-    LDAPSStatus (LDAPSStatus'),
+    LDAPSStatus (..),
 
     -- * LDAPSType
-    LDAPSType (LDAPSType'),
+    LDAPSType (..),
 
     -- * OSVersion
-    OSVersion (OSVersion'),
+    OSVersion (..),
 
     -- * RadiusAuthenticationProtocol
-    RadiusAuthenticationProtocol (RadiusAuthenticationProtocol'),
+    RadiusAuthenticationProtocol (..),
 
     -- * RadiusStatus
-    RadiusStatus (RadiusStatus'),
+    RadiusStatus (..),
 
     -- * RegionType
-    RegionType (RegionType'),
+    RegionType (..),
 
     -- * ReplicationScope
-    ReplicationScope (ReplicationScope'),
+    ReplicationScope (..),
 
     -- * SchemaExtensionStatus
-    SchemaExtensionStatus (SchemaExtensionStatus'),
+    SchemaExtensionStatus (..),
 
     -- * SelectiveAuth
-    SelectiveAuth (SelectiveAuth'),
+    SelectiveAuth (..),
 
     -- * ShareMethod
-    ShareMethod (ShareMethod'),
+    ShareMethod (..),
 
     -- * ShareStatus
-    ShareStatus (ShareStatus'),
+    ShareStatus (..),
 
     -- * SnapshotStatus
-    SnapshotStatus (SnapshotStatus'),
+    SnapshotStatus (..),
 
     -- * SnapshotType
-    SnapshotType (SnapshotType'),
+    SnapshotType (..),
 
     -- * TargetType
-    TargetType (TargetType'),
+    TargetType (..),
 
     -- * TopicStatus
-    TopicStatus (TopicStatus'),
+    TopicStatus (..),
 
     -- * TrustDirection
-    TrustDirection (TrustDirection'),
+    TrustDirection (..),
 
     -- * TrustState
-    TrustState (TrustState'),
+    TrustState (..),
 
     -- * TrustType
-    TrustType (TrustType'),
+    TrustType (..),
 
     -- * UpdateStatus
-    UpdateStatus (UpdateStatus'),
+    UpdateStatus (..),
 
     -- * UpdateType
-    UpdateType (UpdateType'),
+    UpdateType (..),
 
     -- * Attribute
     Attribute (Attribute'),

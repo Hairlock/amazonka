@@ -74,25 +74,25 @@ module Amazonka.MemoryDb.Types
     _UserQuotaExceededFault,
 
     -- * AZStatus
-    AZStatus (AZStatus'),
+    AZStatus (..),
 
     -- * AuthenticationType
-    AuthenticationType (AuthenticationType'),
+    AuthenticationType (..),
 
     -- * DataTieringStatus
-    DataTieringStatus (DataTieringStatus'),
+    DataTieringStatus (..),
 
     -- * InputAuthenticationType
-    InputAuthenticationType (InputAuthenticationType'),
+    InputAuthenticationType (..),
 
     -- * ServiceUpdateStatus
-    ServiceUpdateStatus (ServiceUpdateStatus'),
+    ServiceUpdateStatus (..),
 
     -- * ServiceUpdateType
-    ServiceUpdateType (ServiceUpdateType'),
+    ServiceUpdateType (..),
 
     -- * SourceType
-    SourceType (SourceType'),
+    SourceType (..),
 
     -- * ACL
     ACL (ACL'),

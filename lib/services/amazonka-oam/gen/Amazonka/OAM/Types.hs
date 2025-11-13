@@ -29,7 +29,7 @@ module Amazonka.OAM.Types
     _ValidationException,
 
     -- * ResourceType
-    ResourceType (ResourceType'),
+    ResourceType (..),
 
     -- * ListAttachedLinksItem
     ListAttachedLinksItem (ListAttachedLinksItem'),

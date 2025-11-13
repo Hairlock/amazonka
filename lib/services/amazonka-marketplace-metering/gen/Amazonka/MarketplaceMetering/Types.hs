@@ -38,7 +38,7 @@ module Amazonka.MarketplaceMetering.Types
     _TimestampOutOfBoundsException,
 
     -- * UsageRecordResultStatus
-    UsageRecordResultStatus (UsageRecordResultStatus'),
+    UsageRecordResultStatus (..),
 
     -- * Tag
     Tag (Tag'),

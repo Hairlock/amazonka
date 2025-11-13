@@ -88,82 +88,82 @@ module Amazonka.ElastiCache.Types
     _UserQuotaExceededFault,
 
     -- * AZMode
-    AZMode (AZMode'),
+    AZMode (..),
 
     -- * AuthTokenUpdateStatus
-    AuthTokenUpdateStatus (AuthTokenUpdateStatus'),
+    AuthTokenUpdateStatus (..),
 
     -- * AuthTokenUpdateStrategyType
-    AuthTokenUpdateStrategyType (AuthTokenUpdateStrategyType'),
+    AuthTokenUpdateStrategyType (..),
 
     -- * AuthenticationType
-    AuthenticationType (AuthenticationType'),
+    AuthenticationType (..),
 
     -- * AutomaticFailoverStatus
-    AutomaticFailoverStatus (AutomaticFailoverStatus'),
+    AutomaticFailoverStatus (..),
 
     -- * ChangeType
-    ChangeType (ChangeType'),
+    ChangeType (..),
 
     -- * DataTieringStatus
-    DataTieringStatus (DataTieringStatus'),
+    DataTieringStatus (..),
 
     -- * DestinationType
-    DestinationType (DestinationType'),
+    DestinationType (..),
 
     -- * InputAuthenticationType
-    InputAuthenticationType (InputAuthenticationType'),
+    InputAuthenticationType (..),
 
     -- * IpDiscovery
-    IpDiscovery (IpDiscovery'),
+    IpDiscovery (..),
 
     -- * LogDeliveryConfigurationStatus
-    LogDeliveryConfigurationStatus (LogDeliveryConfigurationStatus'),
+    LogDeliveryConfigurationStatus (..),
 
     -- * LogFormat
-    LogFormat (LogFormat'),
+    LogFormat (..),
 
     -- * LogType
-    LogType (LogType'),
+    LogType (..),
 
     -- * MultiAZStatus
-    MultiAZStatus (MultiAZStatus'),
+    MultiAZStatus (..),
 
     -- * NetworkType
-    NetworkType (NetworkType'),
+    NetworkType (..),
 
     -- * NodeUpdateInitiatedBy
-    NodeUpdateInitiatedBy (NodeUpdateInitiatedBy'),
+    NodeUpdateInitiatedBy (..),
 
     -- * NodeUpdateStatus
-    NodeUpdateStatus (NodeUpdateStatus'),
+    NodeUpdateStatus (..),
 
     -- * OutpostMode
-    OutpostMode (OutpostMode'),
+    OutpostMode (..),
 
     -- * PendingAutomaticFailoverStatus
-    PendingAutomaticFailoverStatus (PendingAutomaticFailoverStatus'),
+    PendingAutomaticFailoverStatus (..),
 
     -- * ServiceUpdateSeverity
-    ServiceUpdateSeverity (ServiceUpdateSeverity'),
+    ServiceUpdateSeverity (..),
 
     -- * ServiceUpdateStatus
-    ServiceUpdateStatus (ServiceUpdateStatus'),
+    ServiceUpdateStatus (..),
 
     -- * ServiceUpdateType
-    ServiceUpdateType (ServiceUpdateType'),
+    ServiceUpdateType (..),
 
     -- * SlaMet
-    SlaMet (SlaMet'),
+    SlaMet (..),
 
     -- * SourceType
-    SourceType (SourceType'),
+    SourceType (..),
 
     -- * TransitEncryptionMode
-    TransitEncryptionMode (TransitEncryptionMode'),
+    TransitEncryptionMode (..),
 
     -- * UpdateActionStatus
-    UpdateActionStatus (UpdateActionStatus'),
+    UpdateActionStatus (..),
 
     -- * Authentication
     Authentication (Authentication'),

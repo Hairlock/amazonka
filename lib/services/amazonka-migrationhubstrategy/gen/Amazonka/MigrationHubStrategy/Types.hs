@@ -30,121 +30,121 @@ module Amazonka.MigrationHubStrategy.Types
     _ValidationException,
 
     -- * AntipatternReportStatus
-    AntipatternReportStatus (AntipatternReportStatus'),
+    AntipatternReportStatus (..),
 
     -- * AppType
-    AppType (AppType'),
+    AppType (..),
 
     -- * AppUnitErrorCategory
-    AppUnitErrorCategory (AppUnitErrorCategory'),
+    AppUnitErrorCategory (..),
 
     -- * ApplicationComponentCriteria
-    ApplicationComponentCriteria (ApplicationComponentCriteria'),
+    ApplicationComponentCriteria (..),
 
     -- * ApplicationMode
-    ApplicationMode (ApplicationMode'),
+    ApplicationMode (..),
 
     -- * AssessmentStatus
-    AssessmentStatus (AssessmentStatus'),
+    AssessmentStatus (..),
 
     -- * AuthType
-    AuthType (AuthType'),
+    AuthType (..),
 
     -- * AwsManagedTargetDestination
-    AwsManagedTargetDestination (AwsManagedTargetDestination'),
+    AwsManagedTargetDestination (..),
 
     -- * CollectorHealth
-    CollectorHealth (CollectorHealth'),
+    CollectorHealth (..),
 
     -- * Condition
-    Condition (Condition'),
+    Condition (..),
 
     -- * DataSourceType
-    DataSourceType (DataSourceType'),
+    DataSourceType (..),
 
     -- * DatabaseManagementPreference
-    DatabaseManagementPreference (DatabaseManagementPreference'),
+    DatabaseManagementPreference (..),
 
     -- * GroupName
-    GroupName (GroupName'),
+    GroupName (..),
 
     -- * HeterogeneousTargetDatabaseEngine
-    HeterogeneousTargetDatabaseEngine (HeterogeneousTargetDatabaseEngine'),
+    HeterogeneousTargetDatabaseEngine (..),
 
     -- * HomogeneousTargetDatabaseEngine
-    HomogeneousTargetDatabaseEngine (HomogeneousTargetDatabaseEngine'),
+    HomogeneousTargetDatabaseEngine (..),
 
     -- * ImportFileTaskStatus
-    ImportFileTaskStatus (ImportFileTaskStatus'),
+    ImportFileTaskStatus (..),
 
     -- * InclusionStatus
-    InclusionStatus (InclusionStatus'),
+    InclusionStatus (..),
 
     -- * NoPreferenceTargetDestination
-    NoPreferenceTargetDestination (NoPreferenceTargetDestination'),
+    NoPreferenceTargetDestination (..),
 
     -- * OSType
-    OSType (OSType'),
+    OSType (..),
 
     -- * OutputFormat
-    OutputFormat (OutputFormat'),
+    OutputFormat (..),
 
     -- * PipelineType
-    PipelineType (PipelineType'),
+    PipelineType (..),
 
     -- * RecommendationReportStatus
-    RecommendationReportStatus (RecommendationReportStatus'),
+    RecommendationReportStatus (..),
 
     -- * ResourceSubType
-    ResourceSubType (ResourceSubType'),
+    ResourceSubType (..),
 
     -- * RunTimeAssessmentStatus
-    RunTimeAssessmentStatus (RunTimeAssessmentStatus'),
+    RunTimeAssessmentStatus (..),
 
     -- * RuntimeAnalysisStatus
-    RuntimeAnalysisStatus (RuntimeAnalysisStatus'),
+    RuntimeAnalysisStatus (..),
 
     -- * SelfManageTargetDestination
-    SelfManageTargetDestination (SelfManageTargetDestination'),
+    SelfManageTargetDestination (..),
 
     -- * ServerCriteria
-    ServerCriteria (ServerCriteria'),
+    ServerCriteria (..),
 
     -- * ServerErrorCategory
-    ServerErrorCategory (ServerErrorCategory'),
+    ServerErrorCategory (..),
 
     -- * ServerOsType
-    ServerOsType (ServerOsType'),
+    ServerOsType (..),
 
     -- * Severity
-    Severity (Severity'),
+    Severity (..),
 
     -- * SortOrder
-    SortOrder (SortOrder'),
+    SortOrder (..),
 
     -- * SrcCodeOrDbAnalysisStatus
-    SrcCodeOrDbAnalysisStatus (SrcCodeOrDbAnalysisStatus'),
+    SrcCodeOrDbAnalysisStatus (..),
 
     -- * Strategy
-    Strategy (Strategy'),
+    Strategy (..),
 
     -- * StrategyRecommendation
-    StrategyRecommendation (StrategyRecommendation'),
+    StrategyRecommendation (..),
 
     -- * TargetDatabaseEngine
-    TargetDatabaseEngine (TargetDatabaseEngine'),
+    TargetDatabaseEngine (..),
 
     -- * TargetDestination
-    TargetDestination (TargetDestination'),
+    TargetDestination (..),
 
     -- * TransformationToolName
-    TransformationToolName (TransformationToolName'),
+    TransformationToolName (..),
 
     -- * VersionControl
-    VersionControl (VersionControl'),
+    VersionControl (..),
 
     -- * VersionControlType
-    VersionControlType (VersionControlType'),
+    VersionControlType (..),
 
     -- * AntipatternSeveritySummary
     AntipatternSeveritySummary (AntipatternSeveritySummary'),

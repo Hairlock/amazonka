@@ -26,13 +26,13 @@ module Amazonka.ServiceCatalogAppRegistry.Types
     _ValidationException,
 
     -- * ResourceGroupState
-    ResourceGroupState (ResourceGroupState'),
+    ResourceGroupState (..),
 
     -- * ResourceType
-    ResourceType (ResourceType'),
+    ResourceType (..),
 
     -- * SyncAction
-    SyncAction (SyncAction'),
+    SyncAction (..),
 
     -- * AppRegistryConfiguration
     AppRegistryConfiguration (AppRegistryConfiguration'),

@@ -32,43 +32,43 @@ module Amazonka.Snowball.Types
     _UnsupportedAddressException,
 
     -- * ClusterState
-    ClusterState (ClusterState'),
+    ClusterState (..),
 
     -- * DeviceServiceName
-    DeviceServiceName (DeviceServiceName'),
+    DeviceServiceName (..),
 
     -- * JobState
-    JobState (JobState'),
+    JobState (..),
 
     -- * JobType
-    JobType (JobType'),
+    JobType (..),
 
     -- * LongTermPricingType
-    LongTermPricingType (LongTermPricingType'),
+    LongTermPricingType (..),
 
     -- * RemoteManagement
-    RemoteManagement (RemoteManagement'),
+    RemoteManagement (..),
 
     -- * ShipmentState
-    ShipmentState (ShipmentState'),
+    ShipmentState (..),
 
     -- * ShippingLabelStatus
-    ShippingLabelStatus (ShippingLabelStatus'),
+    ShippingLabelStatus (..),
 
     -- * ShippingOption
-    ShippingOption (ShippingOption'),
+    ShippingOption (..),
 
     -- * SnowballCapacity
-    SnowballCapacity (SnowballCapacity'),
+    SnowballCapacity (..),
 
     -- * SnowballType
-    SnowballType (SnowballType'),
+    SnowballType (..),
 
     -- * StorageUnit
-    StorageUnit (StorageUnit'),
+    StorageUnit (..),
 
     -- * TransferOption
-    TransferOption (TransferOption'),
+    TransferOption (..),
 
     -- * Address
     Address (Address'),

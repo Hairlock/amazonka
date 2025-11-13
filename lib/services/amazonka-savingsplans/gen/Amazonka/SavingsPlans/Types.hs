@@ -25,43 +25,43 @@ module Amazonka.SavingsPlans.Types
     _ValidationException,
 
     -- * CurrencyCode
-    CurrencyCode (CurrencyCode'),
+    CurrencyCode (..),
 
     -- * SavingsPlanOfferingFilterAttribute
-    SavingsPlanOfferingFilterAttribute (SavingsPlanOfferingFilterAttribute'),
+    SavingsPlanOfferingFilterAttribute (..),
 
     -- * SavingsPlanOfferingPropertyKey
-    SavingsPlanOfferingPropertyKey (SavingsPlanOfferingPropertyKey'),
+    SavingsPlanOfferingPropertyKey (..),
 
     -- * SavingsPlanPaymentOption
-    SavingsPlanPaymentOption (SavingsPlanPaymentOption'),
+    SavingsPlanPaymentOption (..),
 
     -- * SavingsPlanProductType
-    SavingsPlanProductType (SavingsPlanProductType'),
+    SavingsPlanProductType (..),
 
     -- * SavingsPlanRateFilterAttribute
-    SavingsPlanRateFilterAttribute (SavingsPlanRateFilterAttribute'),
+    SavingsPlanRateFilterAttribute (..),
 
     -- * SavingsPlanRateFilterName
-    SavingsPlanRateFilterName (SavingsPlanRateFilterName'),
+    SavingsPlanRateFilterName (..),
 
     -- * SavingsPlanRatePropertyKey
-    SavingsPlanRatePropertyKey (SavingsPlanRatePropertyKey'),
+    SavingsPlanRatePropertyKey (..),
 
     -- * SavingsPlanRateServiceCode
-    SavingsPlanRateServiceCode (SavingsPlanRateServiceCode'),
+    SavingsPlanRateServiceCode (..),
 
     -- * SavingsPlanRateUnit
-    SavingsPlanRateUnit (SavingsPlanRateUnit'),
+    SavingsPlanRateUnit (..),
 
     -- * SavingsPlanState
-    SavingsPlanState (SavingsPlanState'),
+    SavingsPlanState (..),
 
     -- * SavingsPlanType
-    SavingsPlanType (SavingsPlanType'),
+    SavingsPlanType (..),
 
     -- * SavingsPlansFilterName
-    SavingsPlansFilterName (SavingsPlansFilterName'),
+    SavingsPlansFilterName (..),
 
     -- * ParentSavingsPlanOffering
     ParentSavingsPlanOffering (ParentSavingsPlanOffering'),

@@ -28,61 +28,61 @@ module Amazonka.Proton.Types
     _ValidationException,
 
     -- * ComponentDeploymentUpdateType
-    ComponentDeploymentUpdateType (ComponentDeploymentUpdateType'),
+    ComponentDeploymentUpdateType (..),
 
     -- * DeploymentStatus
-    DeploymentStatus (DeploymentStatus'),
+    DeploymentStatus (..),
 
     -- * DeploymentUpdateType
-    DeploymentUpdateType (DeploymentUpdateType'),
+    DeploymentUpdateType (..),
 
     -- * EnvironmentAccountConnectionRequesterAccountType
-    EnvironmentAccountConnectionRequesterAccountType (EnvironmentAccountConnectionRequesterAccountType'),
+    EnvironmentAccountConnectionRequesterAccountType (..),
 
     -- * EnvironmentAccountConnectionStatus
-    EnvironmentAccountConnectionStatus (EnvironmentAccountConnectionStatus'),
+    EnvironmentAccountConnectionStatus (..),
 
     -- * ListServiceInstancesFilterBy
-    ListServiceInstancesFilterBy (ListServiceInstancesFilterBy'),
+    ListServiceInstancesFilterBy (..),
 
     -- * ListServiceInstancesSortBy
-    ListServiceInstancesSortBy (ListServiceInstancesSortBy'),
+    ListServiceInstancesSortBy (..),
 
     -- * ProvisionedResourceEngine
-    ProvisionedResourceEngine (ProvisionedResourceEngine'),
+    ProvisionedResourceEngine (..),
 
     -- * Provisioning
-    Provisioning (Provisioning'),
+    Provisioning (..),
 
     -- * RepositoryProvider
-    RepositoryProvider (RepositoryProvider'),
+    RepositoryProvider (..),
 
     -- * RepositorySyncStatus
-    RepositorySyncStatus (RepositorySyncStatus'),
+    RepositorySyncStatus (..),
 
     -- * ResourceDeploymentStatus
-    ResourceDeploymentStatus (ResourceDeploymentStatus'),
+    ResourceDeploymentStatus (..),
 
     -- * ResourceSyncStatus
-    ResourceSyncStatus (ResourceSyncStatus'),
+    ResourceSyncStatus (..),
 
     -- * ServiceStatus
-    ServiceStatus (ServiceStatus'),
+    ServiceStatus (..),
 
     -- * ServiceTemplateSupportedComponentSourceType
-    ServiceTemplateSupportedComponentSourceType (ServiceTemplateSupportedComponentSourceType'),
+    ServiceTemplateSupportedComponentSourceType (..),
 
     -- * SortOrder
-    SortOrder (SortOrder'),
+    SortOrder (..),
 
     -- * SyncType
-    SyncType (SyncType'),
+    SyncType (..),
 
     -- * TemplateType
-    TemplateType (TemplateType'),
+    TemplateType (..),
 
     -- * TemplateVersionStatus
-    TemplateVersionStatus (TemplateVersionStatus'),
+    TemplateVersionStatus (..),
 
     -- * AccountSettings
     AccountSettings (AccountSettings'),

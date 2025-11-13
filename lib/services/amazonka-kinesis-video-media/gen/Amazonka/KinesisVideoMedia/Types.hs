@@ -27,7 +27,7 @@ module Amazonka.KinesisVideoMedia.Types
     _ResourceNotFoundException,
 
     -- * StartSelectorType
-    StartSelectorType (StartSelectorType'),
+    StartSelectorType (..),
 
     -- * StartSelector
     StartSelector (StartSelector'),

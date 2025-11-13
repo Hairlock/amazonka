@@ -28,76 +28,76 @@ module Amazonka.Firehose.Types
     _ServiceUnavailableException,
 
     -- * AmazonOpenSearchServerlessS3BackupMode
-    AmazonOpenSearchServerlessS3BackupMode (AmazonOpenSearchServerlessS3BackupMode'),
+    AmazonOpenSearchServerlessS3BackupMode (..),
 
     -- * AmazonopensearchserviceIndexRotationPeriod
-    AmazonopensearchserviceIndexRotationPeriod (AmazonopensearchserviceIndexRotationPeriod'),
+    AmazonopensearchserviceIndexRotationPeriod (..),
 
     -- * AmazonopensearchserviceS3BackupMode
-    AmazonopensearchserviceS3BackupMode (AmazonopensearchserviceS3BackupMode'),
+    AmazonopensearchserviceS3BackupMode (..),
 
     -- * CompressionFormat
-    CompressionFormat (CompressionFormat'),
+    CompressionFormat (..),
 
     -- * ContentEncoding
-    ContentEncoding (ContentEncoding'),
+    ContentEncoding (..),
 
     -- * DeliveryStreamEncryptionStatus
-    DeliveryStreamEncryptionStatus (DeliveryStreamEncryptionStatus'),
+    DeliveryStreamEncryptionStatus (..),
 
     -- * DeliveryStreamFailureType
-    DeliveryStreamFailureType (DeliveryStreamFailureType'),
+    DeliveryStreamFailureType (..),
 
     -- * DeliveryStreamStatus
-    DeliveryStreamStatus (DeliveryStreamStatus'),
+    DeliveryStreamStatus (..),
 
     -- * DeliveryStreamType
-    DeliveryStreamType (DeliveryStreamType'),
+    DeliveryStreamType (..),
 
     -- * ElasticsearchIndexRotationPeriod
-    ElasticsearchIndexRotationPeriod (ElasticsearchIndexRotationPeriod'),
+    ElasticsearchIndexRotationPeriod (..),
 
     -- * ElasticsearchS3BackupMode
-    ElasticsearchS3BackupMode (ElasticsearchS3BackupMode'),
+    ElasticsearchS3BackupMode (..),
 
     -- * HECEndpointType
-    HECEndpointType (HECEndpointType'),
+    HECEndpointType (..),
 
     -- * HttpEndpointS3BackupMode
-    HttpEndpointS3BackupMode (HttpEndpointS3BackupMode'),
+    HttpEndpointS3BackupMode (..),
 
     -- * KeyType
-    KeyType (KeyType'),
+    KeyType (..),
 
     -- * NoEncryptionConfig
-    NoEncryptionConfig (NoEncryptionConfig'),
+    NoEncryptionConfig (..),
 
     -- * OrcCompression
-    OrcCompression (OrcCompression'),
+    OrcCompression (..),
 
     -- * OrcFormatVersion
-    OrcFormatVersion (OrcFormatVersion'),
+    OrcFormatVersion (..),
 
     -- * ParquetCompression
-    ParquetCompression (ParquetCompression'),
+    ParquetCompression (..),
 
     -- * ParquetWriterVersion
-    ParquetWriterVersion (ParquetWriterVersion'),
+    ParquetWriterVersion (..),
 
     -- * ProcessorParameterName
-    ProcessorParameterName (ProcessorParameterName'),
+    ProcessorParameterName (..),
 
     -- * ProcessorType
-    ProcessorType (ProcessorType'),
+    ProcessorType (..),
 
     -- * RedshiftS3BackupMode
-    RedshiftS3BackupMode (RedshiftS3BackupMode'),
+    RedshiftS3BackupMode (..),
 
     -- * S3BackupMode
-    S3BackupMode (S3BackupMode'),
+    S3BackupMode (..),
 
     -- * SplunkS3BackupMode
-    SplunkS3BackupMode (SplunkS3BackupMode'),
+    SplunkS3BackupMode (..),
 
     -- * AmazonOpenSearchServerlessBufferingHints
     AmazonOpenSearchServerlessBufferingHints (AmazonOpenSearchServerlessBufferingHints'),

@@ -24,25 +24,25 @@ module Amazonka.EMRContainers.Types
     _ValidationException,
 
     -- * ContainerProviderType
-    ContainerProviderType (ContainerProviderType'),
+    ContainerProviderType (..),
 
     -- * EndpointState
-    EndpointState (EndpointState'),
+    EndpointState (..),
 
     -- * FailureReason
-    FailureReason (FailureReason'),
+    FailureReason (..),
 
     -- * JobRunState
-    JobRunState (JobRunState'),
+    JobRunState (..),
 
     -- * PersistentAppUI
-    PersistentAppUI (PersistentAppUI'),
+    PersistentAppUI (..),
 
     -- * TemplateParameterDataType
-    TemplateParameterDataType (TemplateParameterDataType'),
+    TemplateParameterDataType (..),
 
     -- * VirtualClusterState
-    VirtualClusterState (VirtualClusterState'),
+    VirtualClusterState (..),
 
     -- * Certificate
     Certificate (Certificate'),

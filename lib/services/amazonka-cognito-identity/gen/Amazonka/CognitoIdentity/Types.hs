@@ -32,16 +32,16 @@ module Amazonka.CognitoIdentity.Types
     _TooManyRequestsException,
 
     -- * AmbiguousRoleResolutionType
-    AmbiguousRoleResolutionType (AmbiguousRoleResolutionType'),
+    AmbiguousRoleResolutionType (..),
 
     -- * CognitoErrorCode
-    CognitoErrorCode (CognitoErrorCode'),
+    CognitoErrorCode (..),
 
     -- * MappingRuleMatchType
-    MappingRuleMatchType (MappingRuleMatchType'),
+    MappingRuleMatchType (..),
 
     -- * RoleMappingType
-    RoleMappingType (RoleMappingType'),
+    RoleMappingType (..),
 
     -- * CognitoIdentityProvider
     CognitoIdentityProvider (CognitoIdentityProvider'),

@@ -31,10 +31,10 @@ module Amazonka.BackupStorage.Types
     _ThrottlingException,
 
     -- * DataChecksumAlgorithm
-    DataChecksumAlgorithm (DataChecksumAlgorithm'),
+    DataChecksumAlgorithm (..),
 
     -- * SummaryChecksumAlgorithm
-    SummaryChecksumAlgorithm (SummaryChecksumAlgorithm'),
+    SummaryChecksumAlgorithm (..),
 
     -- * BackupObject
     BackupObject (BackupObject'),

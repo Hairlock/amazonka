@@ -28,28 +28,28 @@ module Amazonka.LookoutVision.Types
     _ValidationException,
 
     -- * DatasetStatus
-    DatasetStatus (DatasetStatus'),
+    DatasetStatus (..),
 
     -- * ModelHostingStatus
-    ModelHostingStatus (ModelHostingStatus'),
+    ModelHostingStatus (..),
 
     -- * ModelPackagingJobStatus
-    ModelPackagingJobStatus (ModelPackagingJobStatus'),
+    ModelPackagingJobStatus (..),
 
     -- * ModelStatus
-    ModelStatus (ModelStatus'),
+    ModelStatus (..),
 
     -- * TargetDevice
-    TargetDevice (TargetDevice'),
+    TargetDevice (..),
 
     -- * TargetPlatformAccelerator
-    TargetPlatformAccelerator (TargetPlatformAccelerator'),
+    TargetPlatformAccelerator (..),
 
     -- * TargetPlatformArch
-    TargetPlatformArch (TargetPlatformArch'),
+    TargetPlatformArch (..),
 
     -- * TargetPlatformOs
-    TargetPlatformOs (TargetPlatformOs'),
+    TargetPlatformOs (..),
 
     -- * Anomaly
     Anomaly (Anomaly'),

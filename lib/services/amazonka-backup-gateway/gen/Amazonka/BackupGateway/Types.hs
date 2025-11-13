@@ -27,13 +27,13 @@ module Amazonka.BackupGateway.Types
     _ValidationException,
 
     -- * GatewayType
-    GatewayType (GatewayType'),
+    GatewayType (..),
 
     -- * HypervisorState
-    HypervisorState (HypervisorState'),
+    HypervisorState (..),
 
     -- * SyncMetadataStatus
-    SyncMetadataStatus (SyncMetadataStatus'),
+    SyncMetadataStatus (..),
 
     -- * BandwidthRateLimitInterval
     BandwidthRateLimitInterval (BandwidthRateLimitInterval'),

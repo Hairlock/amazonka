@@ -28,25 +28,25 @@ module Amazonka.BillingConductor.Types
     _ValidationException,
 
     -- * AssociateResourceErrorReason
-    AssociateResourceErrorReason (AssociateResourceErrorReason'),
+    AssociateResourceErrorReason (..),
 
     -- * BillingGroupStatus
-    BillingGroupStatus (BillingGroupStatus'),
+    BillingGroupStatus (..),
 
     -- * CurrencyCode
-    CurrencyCode (CurrencyCode'),
+    CurrencyCode (..),
 
     -- * CustomLineItemRelationship
-    CustomLineItemRelationship (CustomLineItemRelationship'),
+    CustomLineItemRelationship (..),
 
     -- * CustomLineItemType
-    CustomLineItemType (CustomLineItemType'),
+    CustomLineItemType (..),
 
     -- * PricingRuleScope
-    PricingRuleScope (PricingRuleScope'),
+    PricingRuleScope (..),
 
     -- * PricingRuleType
-    PricingRuleType (PricingRuleType'),
+    PricingRuleType (..),
 
     -- * AccountAssociationsListElement
     AccountAssociationsListElement (AccountAssociationsListElement'),

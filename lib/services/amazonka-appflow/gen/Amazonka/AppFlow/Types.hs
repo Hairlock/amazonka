@@ -31,127 +31,127 @@ module Amazonka.AppFlow.Types
     _ValidationException,
 
     -- * AggregationType
-    AggregationType (AggregationType'),
+    AggregationType (..),
 
     -- * AmplitudeConnectorOperator
-    AmplitudeConnectorOperator (AmplitudeConnectorOperator'),
+    AmplitudeConnectorOperator (..),
 
     -- * AuthenticationType
-    AuthenticationType (AuthenticationType'),
+    AuthenticationType (..),
 
     -- * CatalogType
-    CatalogType (CatalogType'),
+    CatalogType (..),
 
     -- * ConnectionMode
-    ConnectionMode (ConnectionMode'),
+    ConnectionMode (..),
 
     -- * ConnectorProvisioningType
-    ConnectorProvisioningType (ConnectorProvisioningType'),
+    ConnectorProvisioningType (..),
 
     -- * ConnectorType
-    ConnectorType (ConnectorType'),
+    ConnectorType (..),
 
     -- * DataPullMode
-    DataPullMode (DataPullMode'),
+    DataPullMode (..),
 
     -- * DatadogConnectorOperator
-    DatadogConnectorOperator (DatadogConnectorOperator'),
+    DatadogConnectorOperator (..),
 
     -- * DynatraceConnectorOperator
-    DynatraceConnectorOperator (DynatraceConnectorOperator'),
+    DynatraceConnectorOperator (..),
 
     -- * ExecutionStatus
-    ExecutionStatus (ExecutionStatus'),
+    ExecutionStatus (..),
 
     -- * FileType
-    FileType (FileType'),
+    FileType (..),
 
     -- * FlowStatus
-    FlowStatus (FlowStatus'),
+    FlowStatus (..),
 
     -- * GoogleAnalyticsConnectorOperator
-    GoogleAnalyticsConnectorOperator (GoogleAnalyticsConnectorOperator'),
+    GoogleAnalyticsConnectorOperator (..),
 
     -- * InforNexusConnectorOperator
-    InforNexusConnectorOperator (InforNexusConnectorOperator'),
+    InforNexusConnectorOperator (..),
 
     -- * MarketoConnectorOperator
-    MarketoConnectorOperator (MarketoConnectorOperator'),
+    MarketoConnectorOperator (..),
 
     -- * OAuth2CustomPropType
-    OAuth2CustomPropType (OAuth2CustomPropType'),
+    OAuth2CustomPropType (..),
 
     -- * OAuth2GrantType
-    OAuth2GrantType (OAuth2GrantType'),
+    OAuth2GrantType (..),
 
     -- * Operator
-    Operator (Operator'),
+    Operator (..),
 
     -- * OperatorPropertiesKeys
-    OperatorPropertiesKeys (OperatorPropertiesKeys'),
+    OperatorPropertiesKeys (..),
 
     -- * Operators
-    Operators (Operators'),
+    Operators (..),
 
     -- * PathPrefix
-    PathPrefix (PathPrefix'),
+    PathPrefix (..),
 
     -- * PrefixFormat
-    PrefixFormat (PrefixFormat'),
+    PrefixFormat (..),
 
     -- * PrefixType
-    PrefixType (PrefixType'),
+    PrefixType (..),
 
     -- * PrivateConnectionProvisioningFailureCause
-    PrivateConnectionProvisioningFailureCause (PrivateConnectionProvisioningFailureCause'),
+    PrivateConnectionProvisioningFailureCause (..),
 
     -- * PrivateConnectionProvisioningStatus
-    PrivateConnectionProvisioningStatus (PrivateConnectionProvisioningStatus'),
+    PrivateConnectionProvisioningStatus (..),
 
     -- * S3ConnectorOperator
-    S3ConnectorOperator (S3ConnectorOperator'),
+    S3ConnectorOperator (..),
 
     -- * S3InputFileType
-    S3InputFileType (S3InputFileType'),
+    S3InputFileType (..),
 
     -- * SAPODataConnectorOperator
-    SAPODataConnectorOperator (SAPODataConnectorOperator'),
+    SAPODataConnectorOperator (..),
 
     -- * SalesforceConnectorOperator
-    SalesforceConnectorOperator (SalesforceConnectorOperator'),
+    SalesforceConnectorOperator (..),
 
     -- * SalesforceDataTransferApi
-    SalesforceDataTransferApi (SalesforceDataTransferApi'),
+    SalesforceDataTransferApi (..),
 
     -- * ScheduleFrequencyType
-    ScheduleFrequencyType (ScheduleFrequencyType'),
+    ScheduleFrequencyType (..),
 
     -- * ServiceNowConnectorOperator
-    ServiceNowConnectorOperator (ServiceNowConnectorOperator'),
+    ServiceNowConnectorOperator (..),
 
     -- * SingularConnectorOperator
-    SingularConnectorOperator (SingularConnectorOperator'),
+    SingularConnectorOperator (..),
 
     -- * SlackConnectorOperator
-    SlackConnectorOperator (SlackConnectorOperator'),
+    SlackConnectorOperator (..),
 
     -- * TaskType
-    TaskType (TaskType'),
+    TaskType (..),
 
     -- * TrendmicroConnectorOperator
-    TrendmicroConnectorOperator (TrendmicroConnectorOperator'),
+    TrendmicroConnectorOperator (..),
 
     -- * TriggerType
-    TriggerType (TriggerType'),
+    TriggerType (..),
 
     -- * VeevaConnectorOperator
-    VeevaConnectorOperator (VeevaConnectorOperator'),
+    VeevaConnectorOperator (..),
 
     -- * WriteOperationType
-    WriteOperationType (WriteOperationType'),
+    WriteOperationType (..),
 
     -- * ZendeskConnectorOperator
-    ZendeskConnectorOperator (ZendeskConnectorOperator'),
+    ZendeskConnectorOperator (..),
 
     -- * AggregationConfig
     AggregationConfig (AggregationConfig'),

@@ -31,19 +31,19 @@ module Amazonka.Synthetics.Types
     _ValidationException,
 
     -- * CanaryRunState
-    CanaryRunState (CanaryRunState'),
+    CanaryRunState (..),
 
     -- * CanaryRunStateReasonCode
-    CanaryRunStateReasonCode (CanaryRunStateReasonCode'),
+    CanaryRunStateReasonCode (..),
 
     -- * CanaryState
-    CanaryState (CanaryState'),
+    CanaryState (..),
 
     -- * CanaryStateReasonCode
-    CanaryStateReasonCode (CanaryStateReasonCode'),
+    CanaryStateReasonCode (..),
 
     -- * EncryptionMode
-    EncryptionMode (EncryptionMode'),
+    EncryptionMode (..),
 
     -- * ArtifactConfigInput
     ArtifactConfigInput (ArtifactConfigInput'),

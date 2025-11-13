@@ -67,67 +67,67 @@ module Amazonka.KMS.Types
     _XksProxyVpcEndpointServiceNotFoundException,
 
     -- * AlgorithmSpec
-    AlgorithmSpec (AlgorithmSpec'),
+    AlgorithmSpec (..),
 
     -- * ConnectionErrorCodeType
-    ConnectionErrorCodeType (ConnectionErrorCodeType'),
+    ConnectionErrorCodeType (..),
 
     -- * ConnectionStateType
-    ConnectionStateType (ConnectionStateType'),
+    ConnectionStateType (..),
 
     -- * CustomKeyStoreType
-    CustomKeyStoreType (CustomKeyStoreType'),
+    CustomKeyStoreType (..),
 
     -- * CustomerMasterKeySpec
-    CustomerMasterKeySpec (CustomerMasterKeySpec'),
+    CustomerMasterKeySpec (..),
 
     -- * DataKeyPairSpec
-    DataKeyPairSpec (DataKeyPairSpec'),
+    DataKeyPairSpec (..),
 
     -- * DataKeySpec
-    DataKeySpec (DataKeySpec'),
+    DataKeySpec (..),
 
     -- * EncryptionAlgorithmSpec
-    EncryptionAlgorithmSpec (EncryptionAlgorithmSpec'),
+    EncryptionAlgorithmSpec (..),
 
     -- * ExpirationModelType
-    ExpirationModelType (ExpirationModelType'),
+    ExpirationModelType (..),
 
     -- * GrantOperation
-    GrantOperation (GrantOperation'),
+    GrantOperation (..),
 
     -- * KeyManagerType
-    KeyManagerType (KeyManagerType'),
+    KeyManagerType (..),
 
     -- * KeySpec
-    KeySpec (KeySpec'),
+    KeySpec (..),
 
     -- * KeyState
-    KeyState (KeyState'),
+    KeyState (..),
 
     -- * KeyUsageType
-    KeyUsageType (KeyUsageType'),
+    KeyUsageType (..),
 
     -- * MacAlgorithmSpec
-    MacAlgorithmSpec (MacAlgorithmSpec'),
+    MacAlgorithmSpec (..),
 
     -- * MessageType
-    MessageType (MessageType'),
+    MessageType (..),
 
     -- * MultiRegionKeyType
-    MultiRegionKeyType (MultiRegionKeyType'),
+    MultiRegionKeyType (..),
 
     -- * OriginType
-    OriginType (OriginType'),
+    OriginType (..),
 
     -- * SigningAlgorithmSpec
-    SigningAlgorithmSpec (SigningAlgorithmSpec'),
+    SigningAlgorithmSpec (..),
 
     -- * WrappingKeySpec
-    WrappingKeySpec (WrappingKeySpec'),
+    WrappingKeySpec (..),
 
     -- * XksProxyConnectivityType
-    XksProxyConnectivityType (XksProxyConnectivityType'),
+    XksProxyConnectivityType (..),
 
     -- * AliasListEntry
     AliasListEntry (AliasListEntry'),

@@ -36,34 +36,34 @@ module Amazonka.Translate.Types
     _UnsupportedLanguagePairException,
 
     -- * Directionality
-    Directionality (Directionality'),
+    Directionality (..),
 
     -- * DisplayLanguageCode
-    DisplayLanguageCode (DisplayLanguageCode'),
+    DisplayLanguageCode (..),
 
     -- * EncryptionKeyType
-    EncryptionKeyType (EncryptionKeyType'),
+    EncryptionKeyType (..),
 
     -- * Formality
-    Formality (Formality'),
+    Formality (..),
 
     -- * JobStatus
-    JobStatus (JobStatus'),
+    JobStatus (..),
 
     -- * MergeStrategy
-    MergeStrategy (MergeStrategy'),
+    MergeStrategy (..),
 
     -- * ParallelDataFormat
-    ParallelDataFormat (ParallelDataFormat'),
+    ParallelDataFormat (..),
 
     -- * ParallelDataStatus
-    ParallelDataStatus (ParallelDataStatus'),
+    ParallelDataStatus (..),
 
     -- * Profanity
-    Profanity (Profanity'),
+    Profanity (..),
 
     -- * TerminologyDataFormat
-    TerminologyDataFormat (TerminologyDataFormat'),
+    TerminologyDataFormat (..),
 
     -- * AppliedTerminology
     AppliedTerminology (AppliedTerminology'),

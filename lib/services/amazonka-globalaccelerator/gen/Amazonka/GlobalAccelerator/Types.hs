@@ -40,37 +40,37 @@ module Amazonka.GlobalAccelerator.Types
     _TransactionInProgressException,
 
     -- * AcceleratorStatus
-    AcceleratorStatus (AcceleratorStatus'),
+    AcceleratorStatus (..),
 
     -- * ByoipCidrState
-    ByoipCidrState (ByoipCidrState'),
+    ByoipCidrState (..),
 
     -- * ClientAffinity
-    ClientAffinity (ClientAffinity'),
+    ClientAffinity (..),
 
     -- * CustomRoutingAcceleratorStatus
-    CustomRoutingAcceleratorStatus (CustomRoutingAcceleratorStatus'),
+    CustomRoutingAcceleratorStatus (..),
 
     -- * CustomRoutingDestinationTrafficState
-    CustomRoutingDestinationTrafficState (CustomRoutingDestinationTrafficState'),
+    CustomRoutingDestinationTrafficState (..),
 
     -- * CustomRoutingProtocol
-    CustomRoutingProtocol (CustomRoutingProtocol'),
+    CustomRoutingProtocol (..),
 
     -- * HealthCheckProtocol
-    HealthCheckProtocol (HealthCheckProtocol'),
+    HealthCheckProtocol (..),
 
     -- * HealthState
-    HealthState (HealthState'),
+    HealthState (..),
 
     -- * IpAddressFamily
-    IpAddressFamily (IpAddressFamily'),
+    IpAddressFamily (..),
 
     -- * IpAddressType
-    IpAddressType (IpAddressType'),
+    IpAddressType (..),
 
     -- * Protocol
-    Protocol (Protocol'),
+    Protocol (..),
 
     -- * Accelerator
     Accelerator (Accelerator'),

@@ -25,40 +25,40 @@ module Amazonka.GroundStation.Types
     _ResourceNotFoundException,
 
     -- * AngleUnits
-    AngleUnits (AngleUnits'),
+    AngleUnits (..),
 
     -- * BandwidthUnits
-    BandwidthUnits (BandwidthUnits'),
+    BandwidthUnits (..),
 
     -- * ConfigCapabilityType
-    ConfigCapabilityType (ConfigCapabilityType'),
+    ConfigCapabilityType (..),
 
     -- * ContactStatus
-    ContactStatus (ContactStatus'),
+    ContactStatus (..),
 
     -- * Criticality
-    Criticality (Criticality'),
+    Criticality (..),
 
     -- * EirpUnits
-    EirpUnits (EirpUnits'),
+    EirpUnits (..),
 
     -- * EndpointStatus
-    EndpointStatus (EndpointStatus'),
+    EndpointStatus (..),
 
     -- * EphemerisInvalidReason
-    EphemerisInvalidReason (EphemerisInvalidReason'),
+    EphemerisInvalidReason (..),
 
     -- * EphemerisSource
-    EphemerisSource (EphemerisSource'),
+    EphemerisSource (..),
 
     -- * EphemerisStatus
-    EphemerisStatus (EphemerisStatus'),
+    EphemerisStatus (..),
 
     -- * FrequencyUnits
-    FrequencyUnits (FrequencyUnits'),
+    FrequencyUnits (..),
 
     -- * Polarization
-    Polarization (Polarization'),
+    Polarization (..),
 
     -- * AntennaDemodDecodeDetails
     AntennaDemodDecodeDetails (AntennaDemodDecodeDetails'),

@@ -30,34 +30,34 @@ module Amazonka.Braket.Types
     _ValidationException,
 
     -- * CancellationStatus
-    CancellationStatus (CancellationStatus'),
+    CancellationStatus (..),
 
     -- * CompressionType
-    CompressionType (CompressionType'),
+    CompressionType (..),
 
     -- * DeviceStatus
-    DeviceStatus (DeviceStatus'),
+    DeviceStatus (..),
 
     -- * DeviceType
-    DeviceType (DeviceType'),
+    DeviceType (..),
 
     -- * InstanceType
-    InstanceType (InstanceType'),
+    InstanceType (..),
 
     -- * JobEventType
-    JobEventType (JobEventType'),
+    JobEventType (..),
 
     -- * JobPrimaryStatus
-    JobPrimaryStatus (JobPrimaryStatus'),
+    JobPrimaryStatus (..),
 
     -- * QuantumTaskStatus
-    QuantumTaskStatus (QuantumTaskStatus'),
+    QuantumTaskStatus (..),
 
     -- * SearchJobsFilterOperator
-    SearchJobsFilterOperator (SearchJobsFilterOperator'),
+    SearchJobsFilterOperator (..),
 
     -- * SearchQuantumTasksFilterOperator
-    SearchQuantumTasksFilterOperator (SearchQuantumTasksFilterOperator'),
+    SearchQuantumTasksFilterOperator (..),
 
     -- * AlgorithmSpecification
     AlgorithmSpecification (AlgorithmSpecification'),

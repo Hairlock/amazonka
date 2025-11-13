@@ -25,19 +25,19 @@ module Amazonka.IoTDeviceAdvisor.Types
     _ValidationException,
 
     -- * Protocol
-    Protocol (Protocol'),
+    Protocol (..),
 
     -- * Status
-    Status (Status'),
+    Status (..),
 
     -- * SuiteRunStatus
-    SuiteRunStatus (SuiteRunStatus'),
+    SuiteRunStatus (..),
 
     -- * TestCaseScenarioStatus
-    TestCaseScenarioStatus (TestCaseScenarioStatus'),
+    TestCaseScenarioStatus (..),
 
     -- * TestCaseScenarioType
-    TestCaseScenarioType (TestCaseScenarioType'),
+    TestCaseScenarioType (..),
 
     -- * DeviceUnderTest
     DeviceUnderTest (DeviceUnderTest'),

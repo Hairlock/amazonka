@@ -30,79 +30,79 @@ module Amazonka.Transfer.Types
     _ThrottlingException,
 
     -- * AgreementStatusType
-    AgreementStatusType (AgreementStatusType'),
+    AgreementStatusType (..),
 
     -- * As2Transport
-    As2Transport (As2Transport'),
+    As2Transport (..),
 
     -- * CertificateStatusType
-    CertificateStatusType (CertificateStatusType'),
+    CertificateStatusType (..),
 
     -- * CertificateType
-    CertificateType (CertificateType'),
+    CertificateType (..),
 
     -- * CertificateUsageType
-    CertificateUsageType (CertificateUsageType'),
+    CertificateUsageType (..),
 
     -- * CompressionEnum
-    CompressionEnum (CompressionEnum'),
+    CompressionEnum (..),
 
     -- * CustomStepStatus
-    CustomStepStatus (CustomStepStatus'),
+    CustomStepStatus (..),
 
     -- * Domain
-    Domain (Domain'),
+    Domain (..),
 
     -- * EncryptionAlg
-    EncryptionAlg (EncryptionAlg'),
+    EncryptionAlg (..),
 
     -- * EncryptionType
-    EncryptionType (EncryptionType'),
+    EncryptionType (..),
 
     -- * EndpointType
-    EndpointType (EndpointType'),
+    EndpointType (..),
 
     -- * ExecutionErrorType
-    ExecutionErrorType (ExecutionErrorType'),
+    ExecutionErrorType (..),
 
     -- * ExecutionStatus
-    ExecutionStatus (ExecutionStatus'),
+    ExecutionStatus (..),
 
     -- * HomeDirectoryType
-    HomeDirectoryType (HomeDirectoryType'),
+    HomeDirectoryType (..),
 
     -- * IdentityProviderType
-    IdentityProviderType (IdentityProviderType'),
+    IdentityProviderType (..),
 
     -- * MdnResponse
-    MdnResponse (MdnResponse'),
+    MdnResponse (..),
 
     -- * MdnSigningAlg
-    MdnSigningAlg (MdnSigningAlg'),
+    MdnSigningAlg (..),
 
     -- * OverwriteExisting
-    OverwriteExisting (OverwriteExisting'),
+    OverwriteExisting (..),
 
     -- * ProfileType
-    ProfileType (ProfileType'),
+    ProfileType (..),
 
     -- * Protocol
-    Protocol (Protocol'),
+    Protocol (..),
 
     -- * SetStatOption
-    SetStatOption (SetStatOption'),
+    SetStatOption (..),
 
     -- * SigningAlg
-    SigningAlg (SigningAlg'),
+    SigningAlg (..),
 
     -- * State
-    State (State'),
+    State (..),
 
     -- * TlsSessionResumptionMode
-    TlsSessionResumptionMode (TlsSessionResumptionMode'),
+    TlsSessionResumptionMode (..),
 
     -- * WorkflowStepType
-    WorkflowStepType (WorkflowStepType'),
+    WorkflowStepType (..),
 
     -- * As2ConnectorConfig
     As2ConnectorConfig (As2ConnectorConfig'),

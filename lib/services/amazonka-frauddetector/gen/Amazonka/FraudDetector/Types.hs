@@ -28,49 +28,49 @@ module Amazonka.FraudDetector.Types
     _ValidationException,
 
     -- * AsyncJobStatus
-    AsyncJobStatus (AsyncJobStatus'),
+    AsyncJobStatus (..),
 
     -- * DataSource
-    DataSource (DataSource'),
+    DataSource (..),
 
     -- * DataType
-    DataType (DataType'),
+    DataType (..),
 
     -- * DetectorVersionStatus
-    DetectorVersionStatus (DetectorVersionStatus'),
+    DetectorVersionStatus (..),
 
     -- * EventIngestion
-    EventIngestion (EventIngestion'),
+    EventIngestion (..),
 
     -- * Language
-    Language (Language'),
+    Language (..),
 
     -- * ModelEndpointStatus
-    ModelEndpointStatus (ModelEndpointStatus'),
+    ModelEndpointStatus (..),
 
     -- * ModelInputDataFormat
-    ModelInputDataFormat (ModelInputDataFormat'),
+    ModelInputDataFormat (..),
 
     -- * ModelOutputDataFormat
-    ModelOutputDataFormat (ModelOutputDataFormat'),
+    ModelOutputDataFormat (..),
 
     -- * ModelSource
-    ModelSource (ModelSource'),
+    ModelSource (..),
 
     -- * ModelTypeEnum
-    ModelTypeEnum (ModelTypeEnum'),
+    ModelTypeEnum (..),
 
     -- * ModelVersionStatus
-    ModelVersionStatus (ModelVersionStatus'),
+    ModelVersionStatus (..),
 
     -- * RuleExecutionMode
-    RuleExecutionMode (RuleExecutionMode'),
+    RuleExecutionMode (..),
 
     -- * TrainingDataSourceEnum
-    TrainingDataSourceEnum (TrainingDataSourceEnum'),
+    TrainingDataSourceEnum (..),
 
     -- * UnlabeledEventsTreatment
-    UnlabeledEventsTreatment (UnlabeledEventsTreatment'),
+    UnlabeledEventsTreatment (..),
 
     -- * ATIMetricDataPoint
     ATIMetricDataPoint (ATIMetricDataPoint'),

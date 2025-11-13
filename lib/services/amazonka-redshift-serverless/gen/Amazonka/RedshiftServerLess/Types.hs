@@ -31,25 +31,25 @@ module Amazonka.RedshiftServerLess.Types
     _ValidationException,
 
     -- * LogExport
-    LogExport (LogExport'),
+    LogExport (..),
 
     -- * NamespaceStatus
-    NamespaceStatus (NamespaceStatus'),
+    NamespaceStatus (..),
 
     -- * SnapshotStatus
-    SnapshotStatus (SnapshotStatus'),
+    SnapshotStatus (..),
 
     -- * UsageLimitBreachAction
-    UsageLimitBreachAction (UsageLimitBreachAction'),
+    UsageLimitBreachAction (..),
 
     -- * UsageLimitPeriod
-    UsageLimitPeriod (UsageLimitPeriod'),
+    UsageLimitPeriod (..),
 
     -- * UsageLimitUsageType
-    UsageLimitUsageType (UsageLimitUsageType'),
+    UsageLimitUsageType (..),
 
     -- * WorkgroupStatus
-    WorkgroupStatus (WorkgroupStatus'),
+    WorkgroupStatus (..),
 
     -- * ConfigParameter
     ConfigParameter (ConfigParameter'),

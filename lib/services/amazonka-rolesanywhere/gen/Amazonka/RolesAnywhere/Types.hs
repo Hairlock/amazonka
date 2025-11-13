@@ -25,7 +25,7 @@ module Amazonka.RolesAnywhere.Types
     _ValidationException,
 
     -- * TrustAnchorType
-    TrustAnchorType (TrustAnchorType'),
+    TrustAnchorType (..),
 
     -- * CredentialSummary
     CredentialSummary (CredentialSummary'),

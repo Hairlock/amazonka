@@ -34,46 +34,46 @@ module Amazonka.CloudWatch.Types
     _ResourceNotFoundException,
 
     -- * ActionsSuppressedBy
-    ActionsSuppressedBy (ActionsSuppressedBy'),
+    ActionsSuppressedBy (..),
 
     -- * AlarmType
-    AlarmType (AlarmType'),
+    AlarmType (..),
 
     -- * AnomalyDetectorStateValue
-    AnomalyDetectorStateValue (AnomalyDetectorStateValue'),
+    AnomalyDetectorStateValue (..),
 
     -- * AnomalyDetectorType
-    AnomalyDetectorType (AnomalyDetectorType'),
+    AnomalyDetectorType (..),
 
     -- * ComparisonOperator
-    ComparisonOperator (ComparisonOperator'),
+    ComparisonOperator (..),
 
     -- * EvaluationState
-    EvaluationState (EvaluationState'),
+    EvaluationState (..),
 
     -- * HistoryItemType
-    HistoryItemType (HistoryItemType'),
+    HistoryItemType (..),
 
     -- * MetricStreamOutputFormat
-    MetricStreamOutputFormat (MetricStreamOutputFormat'),
+    MetricStreamOutputFormat (..),
 
     -- * RecentlyActive
-    RecentlyActive (RecentlyActive'),
+    RecentlyActive (..),
 
     -- * ScanBy
-    ScanBy (ScanBy'),
+    ScanBy (..),
 
     -- * StandardUnit
-    StandardUnit (StandardUnit'),
+    StandardUnit (..),
 
     -- * StateValue
-    StateValue (StateValue'),
+    StateValue (..),
 
     -- * Statistic
-    Statistic (Statistic'),
+    Statistic (..),
 
     -- * StatusCode
-    StatusCode (StatusCode'),
+    StatusCode (..),
 
     -- * AlarmHistoryItem
     AlarmHistoryItem (AlarmHistoryItem'),

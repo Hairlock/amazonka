@@ -27,82 +27,82 @@ module Amazonka.Panorama.Types
     _ValidationException,
 
     -- * ApplicationInstanceHealthStatus
-    ApplicationInstanceHealthStatus (ApplicationInstanceHealthStatus'),
+    ApplicationInstanceHealthStatus (..),
 
     -- * ApplicationInstanceStatus
-    ApplicationInstanceStatus (ApplicationInstanceStatus'),
+    ApplicationInstanceStatus (..),
 
     -- * ConnectionType
-    ConnectionType (ConnectionType'),
+    ConnectionType (..),
 
     -- * DesiredState
-    DesiredState (DesiredState'),
+    DesiredState (..),
 
     -- * DeviceAggregatedStatus
-    DeviceAggregatedStatus (DeviceAggregatedStatus'),
+    DeviceAggregatedStatus (..),
 
     -- * DeviceBrand
-    DeviceBrand (DeviceBrand'),
+    DeviceBrand (..),
 
     -- * DeviceConnectionStatus
-    DeviceConnectionStatus (DeviceConnectionStatus'),
+    DeviceConnectionStatus (..),
 
     -- * DeviceReportedStatus
-    DeviceReportedStatus (DeviceReportedStatus'),
+    DeviceReportedStatus (..),
 
     -- * DeviceStatus
-    DeviceStatus (DeviceStatus'),
+    DeviceStatus (..),
 
     -- * DeviceType
-    DeviceType (DeviceType'),
+    DeviceType (..),
 
     -- * JobResourceType
-    JobResourceType (JobResourceType'),
+    JobResourceType (..),
 
     -- * JobType
-    JobType (JobType'),
+    JobType (..),
 
     -- * ListDevicesSortBy
-    ListDevicesSortBy (ListDevicesSortBy'),
+    ListDevicesSortBy (..),
 
     -- * NetworkConnectionStatus
-    NetworkConnectionStatus (NetworkConnectionStatus'),
+    NetworkConnectionStatus (..),
 
     -- * NodeCategory
-    NodeCategory (NodeCategory'),
+    NodeCategory (..),
 
     -- * NodeFromTemplateJobStatus
-    NodeFromTemplateJobStatus (NodeFromTemplateJobStatus'),
+    NodeFromTemplateJobStatus (..),
 
     -- * NodeInstanceStatus
-    NodeInstanceStatus (NodeInstanceStatus'),
+    NodeInstanceStatus (..),
 
     -- * NodeSignalValue
-    NodeSignalValue (NodeSignalValue'),
+    NodeSignalValue (..),
 
     -- * PackageImportJobStatus
-    PackageImportJobStatus (PackageImportJobStatus'),
+    PackageImportJobStatus (..),
 
     -- * PackageImportJobType
-    PackageImportJobType (PackageImportJobType'),
+    PackageImportJobType (..),
 
     -- * PackageVersionStatus
-    PackageVersionStatus (PackageVersionStatus'),
+    PackageVersionStatus (..),
 
     -- * PortType
-    PortType (PortType'),
+    PortType (..),
 
     -- * SortOrder
-    SortOrder (SortOrder'),
+    SortOrder (..),
 
     -- * StatusFilter
-    StatusFilter (StatusFilter'),
+    StatusFilter (..),
 
     -- * TemplateType
-    TemplateType (TemplateType'),
+    TemplateType (..),
 
     -- * UpdateProgress
-    UpdateProgress (UpdateProgress'),
+    UpdateProgress (..),
 
     -- * AlternateSoftwareMetadata
     AlternateSoftwareMetadata (AlternateSoftwareMetadata'),

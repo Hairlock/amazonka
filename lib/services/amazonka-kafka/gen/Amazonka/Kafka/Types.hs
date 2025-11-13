@@ -29,31 +29,31 @@ module Amazonka.Kafka.Types
     _UnauthorizedException,
 
     -- * BrokerAZDistribution
-    BrokerAZDistribution (BrokerAZDistribution'),
+    BrokerAZDistribution (..),
 
     -- * ClientBroker
-    ClientBroker (ClientBroker'),
+    ClientBroker (..),
 
     -- * ClusterState
-    ClusterState (ClusterState'),
+    ClusterState (..),
 
     -- * ClusterType
-    ClusterType (ClusterType'),
+    ClusterType (..),
 
     -- * ConfigurationState
-    ConfigurationState (ConfigurationState'),
+    ConfigurationState (..),
 
     -- * EnhancedMonitoring
-    EnhancedMonitoring (EnhancedMonitoring'),
+    EnhancedMonitoring (..),
 
     -- * KafkaVersionStatus
-    KafkaVersionStatus (KafkaVersionStatus'),
+    KafkaVersionStatus (..),
 
     -- * NodeType
-    NodeType (NodeType'),
+    NodeType (..),
 
     -- * StorageMode
-    StorageMode (StorageMode'),
+    StorageMode (..),
 
     -- * BrokerEBSVolumeInfo
     BrokerEBSVolumeInfo (BrokerEBSVolumeInfo'),

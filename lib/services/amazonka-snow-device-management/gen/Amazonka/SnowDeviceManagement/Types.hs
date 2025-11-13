@@ -27,25 +27,25 @@ module Amazonka.SnowDeviceManagement.Types
     _ValidationException,
 
     -- * AttachmentStatus
-    AttachmentStatus (AttachmentStatus'),
+    AttachmentStatus (..),
 
     -- * ExecutionState
-    ExecutionState (ExecutionState'),
+    ExecutionState (..),
 
     -- * InstanceStateName
-    InstanceStateName (InstanceStateName'),
+    InstanceStateName (..),
 
     -- * IpAddressAssignment
-    IpAddressAssignment (IpAddressAssignment'),
+    IpAddressAssignment (..),
 
     -- * PhysicalConnectorType
-    PhysicalConnectorType (PhysicalConnectorType'),
+    PhysicalConnectorType (..),
 
     -- * TaskState
-    TaskState (TaskState'),
+    TaskState (..),
 
     -- * UnlockState
-    UnlockState (UnlockState'),
+    UnlockState (..),
 
     -- * Capacity
     Capacity (Capacity'),

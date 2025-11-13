@@ -30,76 +30,76 @@ module Amazonka.AutoScaling.Types
     _ServiceLinkedRoleFailure,
 
     -- * AcceleratorManufacturer
-    AcceleratorManufacturer (AcceleratorManufacturer'),
+    AcceleratorManufacturer (..),
 
     -- * AcceleratorName
-    AcceleratorName (AcceleratorName'),
+    AcceleratorName (..),
 
     -- * AcceleratorType
-    AcceleratorType (AcceleratorType'),
+    AcceleratorType (..),
 
     -- * BareMetal
-    BareMetal (BareMetal'),
+    BareMetal (..),
 
     -- * BurstablePerformance
-    BurstablePerformance (BurstablePerformance'),
+    BurstablePerformance (..),
 
     -- * CpuManufacturer
-    CpuManufacturer (CpuManufacturer'),
+    CpuManufacturer (..),
 
     -- * InstanceGeneration
-    InstanceGeneration (InstanceGeneration'),
+    InstanceGeneration (..),
 
     -- * InstanceMetadataEndpointState
-    InstanceMetadataEndpointState (InstanceMetadataEndpointState'),
+    InstanceMetadataEndpointState (..),
 
     -- * InstanceMetadataHttpTokensState
-    InstanceMetadataHttpTokensState (InstanceMetadataHttpTokensState'),
+    InstanceMetadataHttpTokensState (..),
 
     -- * InstanceRefreshStatus
-    InstanceRefreshStatus (InstanceRefreshStatus'),
+    InstanceRefreshStatus (..),
 
     -- * LifecycleState
-    LifecycleState (LifecycleState'),
+    LifecycleState (..),
 
     -- * LocalStorage
-    LocalStorage (LocalStorage'),
+    LocalStorage (..),
 
     -- * LocalStorageType
-    LocalStorageType (LocalStorageType'),
+    LocalStorageType (..),
 
     -- * MetricStatistic
-    MetricStatistic (MetricStatistic'),
+    MetricStatistic (..),
 
     -- * MetricType
-    MetricType (MetricType'),
+    MetricType (..),
 
     -- * PredefinedLoadMetricType
-    PredefinedLoadMetricType (PredefinedLoadMetricType'),
+    PredefinedLoadMetricType (..),
 
     -- * PredefinedMetricPairType
-    PredefinedMetricPairType (PredefinedMetricPairType'),
+    PredefinedMetricPairType (..),
 
     -- * PredefinedScalingMetricType
-    PredefinedScalingMetricType (PredefinedScalingMetricType'),
+    PredefinedScalingMetricType (..),
 
     -- * PredictiveScalingMaxCapacityBreachBehavior
-    PredictiveScalingMaxCapacityBreachBehavior (PredictiveScalingMaxCapacityBreachBehavior'),
+    PredictiveScalingMaxCapacityBreachBehavior (..),
 
     -- * PredictiveScalingMode
-    PredictiveScalingMode (PredictiveScalingMode'),
+    PredictiveScalingMode (..),
 
     -- * RefreshStrategy
-    RefreshStrategy (RefreshStrategy'),
+    RefreshStrategy (..),
 
     -- * ScalingActivityStatusCode
-    ScalingActivityStatusCode (ScalingActivityStatusCode'),
+    ScalingActivityStatusCode (..),
 
     -- * WarmPoolState
-    WarmPoolState (WarmPoolState'),
+    WarmPoolState (..),
 
     -- * WarmPoolStatus
-    WarmPoolStatus (WarmPoolStatus'),
+    WarmPoolStatus (..),
 
     -- * AcceleratorCountRequest
     AcceleratorCountRequest (AcceleratorCountRequest'),

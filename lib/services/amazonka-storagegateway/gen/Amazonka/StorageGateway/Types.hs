@@ -24,37 +24,37 @@ module Amazonka.StorageGateway.Types
     _ServiceUnavailableError,
 
     -- * ActiveDirectoryStatus
-    ActiveDirectoryStatus (ActiveDirectoryStatus'),
+    ActiveDirectoryStatus (..),
 
     -- * AvailabilityMonitorTestStatus
-    AvailabilityMonitorTestStatus (AvailabilityMonitorTestStatus'),
+    AvailabilityMonitorTestStatus (..),
 
     -- * CaseSensitivity
-    CaseSensitivity (CaseSensitivity'),
+    CaseSensitivity (..),
 
     -- * FileShareType
-    FileShareType (FileShareType'),
+    FileShareType (..),
 
     -- * GatewayCapacity
-    GatewayCapacity (GatewayCapacity'),
+    GatewayCapacity (..),
 
     -- * HostEnvironment
-    HostEnvironment (HostEnvironment'),
+    HostEnvironment (..),
 
     -- * ObjectACL
-    ObjectACL (ObjectACL'),
+    ObjectACL (..),
 
     -- * PoolStatus
-    PoolStatus (PoolStatus'),
+    PoolStatus (..),
 
     -- * RetentionLockType
-    RetentionLockType (RetentionLockType'),
+    RetentionLockType (..),
 
     -- * SMBSecurityStrategy
-    SMBSecurityStrategy (SMBSecurityStrategy'),
+    SMBSecurityStrategy (..),
 
     -- * TapeStorageClass
-    TapeStorageClass (TapeStorageClass'),
+    TapeStorageClass (..),
 
     -- * AutomaticTapeCreationPolicyInfo
     AutomaticTapeCreationPolicyInfo (AutomaticTapeCreationPolicyInfo'),

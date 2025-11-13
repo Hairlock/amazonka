@@ -24,13 +24,13 @@ module Amazonka.Pi.Types
     _NotAuthorizedException,
 
     -- * DetailStatus
-    DetailStatus (DetailStatus'),
+    DetailStatus (..),
 
     -- * FeatureStatus
-    FeatureStatus (FeatureStatus'),
+    FeatureStatus (..),
 
     -- * ServiceType
-    ServiceType (ServiceType'),
+    ServiceType (..),
 
     -- * DataPoint
     DataPoint (DataPoint'),

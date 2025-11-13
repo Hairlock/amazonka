@@ -28,37 +28,37 @@ module Amazonka.LookoutEquipment.Types
     _ValidationException,
 
     -- * DataUploadFrequency
-    DataUploadFrequency (DataUploadFrequency'),
+    DataUploadFrequency (..),
 
     -- * DatasetStatus
-    DatasetStatus (DatasetStatus'),
+    DatasetStatus (..),
 
     -- * InferenceExecutionStatus
-    InferenceExecutionStatus (InferenceExecutionStatus'),
+    InferenceExecutionStatus (..),
 
     -- * InferenceSchedulerStatus
-    InferenceSchedulerStatus (InferenceSchedulerStatus'),
+    InferenceSchedulerStatus (..),
 
     -- * IngestionJobStatus
-    IngestionJobStatus (IngestionJobStatus'),
+    IngestionJobStatus (..),
 
     -- * LabelRating
-    LabelRating (LabelRating'),
+    LabelRating (..),
 
     -- * LatestInferenceResult
-    LatestInferenceResult (LatestInferenceResult'),
+    LatestInferenceResult (..),
 
     -- * ModelStatus
-    ModelStatus (ModelStatus'),
+    ModelStatus (..),
 
     -- * Monotonicity
-    Monotonicity (Monotonicity'),
+    Monotonicity (..),
 
     -- * StatisticalIssueStatus
-    StatisticalIssueStatus (StatisticalIssueStatus'),
+    StatisticalIssueStatus (..),
 
     -- * TargetSamplingRate
-    TargetSamplingRate (TargetSamplingRate'),
+    TargetSamplingRate (..),
 
     -- * CategoricalValues
     CategoricalValues (CategoricalValues'),

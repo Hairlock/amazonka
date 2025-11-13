@@ -145,73 +145,73 @@ module Amazonka.RDS.Types
     _SubscriptionNotFoundFault,
 
     -- * ActivityStreamMode
-    ActivityStreamMode (ActivityStreamMode'),
+    ActivityStreamMode (..),
 
     -- * ActivityStreamPolicyStatus
-    ActivityStreamPolicyStatus (ActivityStreamPolicyStatus'),
+    ActivityStreamPolicyStatus (..),
 
     -- * ActivityStreamStatus
-    ActivityStreamStatus (ActivityStreamStatus'),
+    ActivityStreamStatus (..),
 
     -- * ApplyMethod
-    ApplyMethod (ApplyMethod'),
+    ApplyMethod (..),
 
     -- * AuditPolicyState
-    AuditPolicyState (AuditPolicyState'),
+    AuditPolicyState (..),
 
     -- * AuthScheme
-    AuthScheme (AuthScheme'),
+    AuthScheme (..),
 
     -- * AutomationMode
-    AutomationMode (AutomationMode'),
+    AutomationMode (..),
 
     -- * ClientPasswordAuthType
-    ClientPasswordAuthType (ClientPasswordAuthType'),
+    ClientPasswordAuthType (..),
 
     -- * CustomEngineVersionStatus
-    CustomEngineVersionStatus (CustomEngineVersionStatus'),
+    CustomEngineVersionStatus (..),
 
     -- * DBProxyEndpointStatus
-    DBProxyEndpointStatus (DBProxyEndpointStatus'),
+    DBProxyEndpointStatus (..),
 
     -- * DBProxyEndpointTargetRole
-    DBProxyEndpointTargetRole (DBProxyEndpointTargetRole'),
+    DBProxyEndpointTargetRole (..),
 
     -- * DBProxyStatus
-    DBProxyStatus (DBProxyStatus'),
+    DBProxyStatus (..),
 
     -- * EngineFamily
-    EngineFamily (EngineFamily'),
+    EngineFamily (..),
 
     -- * ExportSourceType
-    ExportSourceType (ExportSourceType'),
+    ExportSourceType (..),
 
     -- * FailoverStatus
-    FailoverStatus (FailoverStatus'),
+    FailoverStatus (..),
 
     -- * IAMAuthMode
-    IAMAuthMode (IAMAuthMode'),
+    IAMAuthMode (..),
 
     -- * ReplicaMode
-    ReplicaMode (ReplicaMode'),
+    ReplicaMode (..),
 
     -- * SourceType
-    SourceType (SourceType'),
+    SourceType (..),
 
     -- * TargetHealthReason
-    TargetHealthReason (TargetHealthReason'),
+    TargetHealthReason (..),
 
     -- * TargetRole
-    TargetRole (TargetRole'),
+    TargetRole (..),
 
     -- * TargetState
-    TargetState (TargetState'),
+    TargetState (..),
 
     -- * TargetType
-    TargetType (TargetType'),
+    TargetType (..),
 
     -- * WriteForwardingStatus
-    WriteForwardingStatus (WriteForwardingStatus'),
+    WriteForwardingStatus (..),
 
     -- * AccountQuota
     AccountQuota (AccountQuota'),

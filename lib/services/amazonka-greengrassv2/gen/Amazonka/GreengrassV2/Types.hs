@@ -29,61 +29,61 @@ module Amazonka.GreengrassV2.Types
     _ValidationException,
 
     -- * CloudComponentState
-    CloudComponentState (CloudComponentState'),
+    CloudComponentState (..),
 
     -- * ComponentDependencyType
-    ComponentDependencyType (ComponentDependencyType'),
+    ComponentDependencyType (..),
 
     -- * ComponentVisibilityScope
-    ComponentVisibilityScope (ComponentVisibilityScope'),
+    ComponentVisibilityScope (..),
 
     -- * CoreDeviceStatus
-    CoreDeviceStatus (CoreDeviceStatus'),
+    CoreDeviceStatus (..),
 
     -- * DeploymentComponentUpdatePolicyAction
-    DeploymentComponentUpdatePolicyAction (DeploymentComponentUpdatePolicyAction'),
+    DeploymentComponentUpdatePolicyAction (..),
 
     -- * DeploymentFailureHandlingPolicy
-    DeploymentFailureHandlingPolicy (DeploymentFailureHandlingPolicy'),
+    DeploymentFailureHandlingPolicy (..),
 
     -- * DeploymentHistoryFilter
-    DeploymentHistoryFilter (DeploymentHistoryFilter'),
+    DeploymentHistoryFilter (..),
 
     -- * DeploymentStatus
-    DeploymentStatus (DeploymentStatus'),
+    DeploymentStatus (..),
 
     -- * EffectiveDeploymentExecutionStatus
-    EffectiveDeploymentExecutionStatus (EffectiveDeploymentExecutionStatus'),
+    EffectiveDeploymentExecutionStatus (..),
 
     -- * InstalledComponentLifecycleState
-    InstalledComponentLifecycleState (InstalledComponentLifecycleState'),
+    InstalledComponentLifecycleState (..),
 
     -- * InstalledComponentTopologyFilter
-    InstalledComponentTopologyFilter (InstalledComponentTopologyFilter'),
+    InstalledComponentTopologyFilter (..),
 
     -- * IoTJobAbortAction
-    IoTJobAbortAction (IoTJobAbortAction'),
+    IoTJobAbortAction (..),
 
     -- * IoTJobExecutionFailureType
-    IoTJobExecutionFailureType (IoTJobExecutionFailureType'),
+    IoTJobExecutionFailureType (..),
 
     -- * LambdaEventSourceType
-    LambdaEventSourceType (LambdaEventSourceType'),
+    LambdaEventSourceType (..),
 
     -- * LambdaFilesystemPermission
-    LambdaFilesystemPermission (LambdaFilesystemPermission'),
+    LambdaFilesystemPermission (..),
 
     -- * LambdaInputPayloadEncodingType
-    LambdaInputPayloadEncodingType (LambdaInputPayloadEncodingType'),
+    LambdaInputPayloadEncodingType (..),
 
     -- * LambdaIsolationMode
-    LambdaIsolationMode (LambdaIsolationMode'),
+    LambdaIsolationMode (..),
 
     -- * RecipeOutputFormat
-    RecipeOutputFormat (RecipeOutputFormat'),
+    RecipeOutputFormat (..),
 
     -- * VendorGuidance
-    VendorGuidance (VendorGuidance'),
+    VendorGuidance (..),
 
     -- * AssociateClientDeviceWithCoreDeviceEntry
     AssociateClientDeviceWithCoreDeviceEntry (AssociateClientDeviceWithCoreDeviceEntry'),

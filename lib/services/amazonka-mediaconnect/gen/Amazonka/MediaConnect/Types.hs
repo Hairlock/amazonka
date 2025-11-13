@@ -30,67 +30,67 @@ module Amazonka.MediaConnect.Types
     _TooManyRequestsException,
 
     -- * Algorithm
-    Algorithm (Algorithm'),
+    Algorithm (..),
 
     -- * Colorimetry
-    Colorimetry (Colorimetry'),
+    Colorimetry (..),
 
     -- * DurationUnits
-    DurationUnits (DurationUnits'),
+    DurationUnits (..),
 
     -- * EncoderProfile
-    EncoderProfile (EncoderProfile'),
+    EncoderProfile (..),
 
     -- * EncodingName
-    EncodingName (EncodingName'),
+    EncodingName (..),
 
     -- * EntitlementStatus
-    EntitlementStatus (EntitlementStatus'),
+    EntitlementStatus (..),
 
     -- * FailoverMode
-    FailoverMode (FailoverMode'),
+    FailoverMode (..),
 
     -- * KeyType
-    KeyType (KeyType'),
+    KeyType (..),
 
     -- * MaintenanceDay
-    MaintenanceDay (MaintenanceDay'),
+    MaintenanceDay (..),
 
     -- * MediaStreamType
-    MediaStreamType (MediaStreamType'),
+    MediaStreamType (..),
 
     -- * NetworkInterfaceType
-    NetworkInterfaceType (NetworkInterfaceType'),
+    NetworkInterfaceType (..),
 
     -- * PriceUnits
-    PriceUnits (PriceUnits'),
+    PriceUnits (..),
 
     -- * Protocol
-    Protocol (Protocol'),
+    Protocol (..),
 
     -- * Range
-    Range (Range'),
+    Range (..),
 
     -- * ReservationState
-    ReservationState (ReservationState'),
+    ReservationState (..),
 
     -- * ResourceType
-    ResourceType (ResourceType'),
+    ResourceType (..),
 
     -- * ScanMode
-    ScanMode (ScanMode'),
+    ScanMode (..),
 
     -- * SourceType
-    SourceType (SourceType'),
+    SourceType (..),
 
     -- * State
-    State (State'),
+    State (..),
 
     -- * Status
-    Status (Status'),
+    Status (..),
 
     -- * Tcs
-    Tcs (Tcs'),
+    Tcs (..),
 
     -- * AddMaintenance
     AddMaintenance (AddMaintenance'),

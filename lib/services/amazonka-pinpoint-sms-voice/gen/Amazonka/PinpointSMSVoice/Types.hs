@@ -27,7 +27,7 @@ module Amazonka.PinpointSMSVoice.Types
     _TooManyRequestsException,
 
     -- * EventType
-    EventType (EventType'),
+    EventType (..),
 
     -- * CallInstructionsMessageType
     CallInstructionsMessageType (CallInstructionsMessageType'),

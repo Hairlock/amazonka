@@ -28,79 +28,79 @@ module Amazonka.SageMakerGeoSpatial.Types
     _ValidationException,
 
     -- * AlgorithmNameCloudRemoval
-    AlgorithmNameCloudRemoval (AlgorithmNameCloudRemoval'),
+    AlgorithmNameCloudRemoval (..),
 
     -- * AlgorithmNameGeoMosaic
-    AlgorithmNameGeoMosaic (AlgorithmNameGeoMosaic'),
+    AlgorithmNameGeoMosaic (..),
 
     -- * AlgorithmNameResampling
-    AlgorithmNameResampling (AlgorithmNameResampling'),
+    AlgorithmNameResampling (..),
 
     -- * ComparisonOperator
-    ComparisonOperator (ComparisonOperator'),
+    ComparisonOperator (..),
 
     -- * DataCollectionType
-    DataCollectionType (DataCollectionType'),
+    DataCollectionType (..),
 
     -- * EarthObservationJobErrorType
-    EarthObservationJobErrorType (EarthObservationJobErrorType'),
+    EarthObservationJobErrorType (..),
 
     -- * EarthObservationJobExportStatus
-    EarthObservationJobExportStatus (EarthObservationJobExportStatus'),
+    EarthObservationJobExportStatus (..),
 
     -- * EarthObservationJobStatus
-    EarthObservationJobStatus (EarthObservationJobStatus'),
+    EarthObservationJobStatus (..),
 
     -- * ExportErrorType
-    ExportErrorType (ExportErrorType'),
+    ExportErrorType (..),
 
     -- * GroupBy
-    GroupBy (GroupBy'),
+    GroupBy (..),
 
     -- * LogicalOperator
-    LogicalOperator (LogicalOperator'),
+    LogicalOperator (..),
 
     -- * MetadataProvider
-    MetadataProvider (MetadataProvider'),
+    MetadataProvider (..),
 
     -- * OutputType
-    OutputType (OutputType'),
+    OutputType (..),
 
     -- * PredefinedResolution
-    PredefinedResolution (PredefinedResolution'),
+    PredefinedResolution (..),
 
     -- * SortOrder
-    SortOrder (SortOrder'),
+    SortOrder (..),
 
     -- * TargetOptions
-    TargetOptions (TargetOptions'),
+    TargetOptions (..),
 
     -- * TemporalStatistics
-    TemporalStatistics (TemporalStatistics'),
+    TemporalStatistics (..),
 
     -- * Unit
-    Unit (Unit'),
+    Unit (..),
 
     -- * VectorEnrichmentJobDocumentType
-    VectorEnrichmentJobDocumentType (VectorEnrichmentJobDocumentType'),
+    VectorEnrichmentJobDocumentType (..),
 
     -- * VectorEnrichmentJobErrorType
-    VectorEnrichmentJobErrorType (VectorEnrichmentJobErrorType'),
+    VectorEnrichmentJobErrorType (..),
 
     -- * VectorEnrichmentJobExportErrorType
-    VectorEnrichmentJobExportErrorType (VectorEnrichmentJobExportErrorType'),
+    VectorEnrichmentJobExportErrorType (..),
 
     -- * VectorEnrichmentJobExportStatus
-    VectorEnrichmentJobExportStatus (VectorEnrichmentJobExportStatus'),
+    VectorEnrichmentJobExportStatus (..),
 
     -- * VectorEnrichmentJobStatus
-    VectorEnrichmentJobStatus (VectorEnrichmentJobStatus'),
+    VectorEnrichmentJobStatus (..),
 
     -- * VectorEnrichmentJobType
-    VectorEnrichmentJobType (VectorEnrichmentJobType'),
+    VectorEnrichmentJobType (..),
 
     -- * ZonalStatistics
-    ZonalStatistics (ZonalStatistics'),
+    ZonalStatistics (..),
 
     -- * AreaOfInterest
     AreaOfInterest (AreaOfInterest'),

@@ -27,73 +27,73 @@ module Amazonka.Outposts.Types
     _ValidationException,
 
     -- * AddressType
-    AddressType (AddressType'),
+    AddressType (..),
 
     -- * AssetState
-    AssetState (AssetState'),
+    AssetState (..),
 
     -- * AssetType
-    AssetType (AssetType'),
+    AssetType (..),
 
     -- * CatalogItemClass
-    CatalogItemClass (CatalogItemClass'),
+    CatalogItemClass (..),
 
     -- * CatalogItemStatus
-    CatalogItemStatus (CatalogItemStatus'),
+    CatalogItemStatus (..),
 
     -- * ComputeAssetState
-    ComputeAssetState (ComputeAssetState'),
+    ComputeAssetState (..),
 
     -- * FiberOpticCableType
-    FiberOpticCableType (FiberOpticCableType'),
+    FiberOpticCableType (..),
 
     -- * LineItemStatus
-    LineItemStatus (LineItemStatus'),
+    LineItemStatus (..),
 
     -- * MaximumSupportedWeightLbs
-    MaximumSupportedWeightLbs (MaximumSupportedWeightLbs'),
+    MaximumSupportedWeightLbs (..),
 
     -- * OpticalStandard
-    OpticalStandard (OpticalStandard'),
+    OpticalStandard (..),
 
     -- * OrderStatus
-    OrderStatus (OrderStatus'),
+    OrderStatus (..),
 
     -- * OrderType
-    OrderType (OrderType'),
+    OrderType (..),
 
     -- * PaymentOption
-    PaymentOption (PaymentOption'),
+    PaymentOption (..),
 
     -- * PaymentTerm
-    PaymentTerm (PaymentTerm'),
+    PaymentTerm (..),
 
     -- * PowerConnector
-    PowerConnector (PowerConnector'),
+    PowerConnector (..),
 
     -- * PowerDrawKva
-    PowerDrawKva (PowerDrawKva'),
+    PowerDrawKva (..),
 
     -- * PowerFeedDrop
-    PowerFeedDrop (PowerFeedDrop'),
+    PowerFeedDrop (..),
 
     -- * PowerPhase
-    PowerPhase (PowerPhase'),
+    PowerPhase (..),
 
     -- * ShipmentCarrier
-    ShipmentCarrier (ShipmentCarrier'),
+    ShipmentCarrier (..),
 
     -- * SupportedHardwareType
-    SupportedHardwareType (SupportedHardwareType'),
+    SupportedHardwareType (..),
 
     -- * SupportedStorageEnum
-    SupportedStorageEnum (SupportedStorageEnum'),
+    SupportedStorageEnum (..),
 
     -- * UplinkCount
-    UplinkCount (UplinkCount'),
+    UplinkCount (..),
 
     -- * UplinkGbps
-    UplinkGbps (UplinkGbps'),
+    UplinkGbps (..),
 
     -- * Address
     Address (Address'),

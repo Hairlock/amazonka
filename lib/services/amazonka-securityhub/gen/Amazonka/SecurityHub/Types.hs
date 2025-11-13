@@ -28,82 +28,82 @@ module Amazonka.SecurityHub.Types
     _ResourceNotFoundException,
 
     -- * AdminStatus
-    AdminStatus (AdminStatus'),
+    AdminStatus (..),
 
     -- * AutoEnableStandards
-    AutoEnableStandards (AutoEnableStandards'),
+    AutoEnableStandards (..),
 
     -- * AwsIamAccessKeyStatus
-    AwsIamAccessKeyStatus (AwsIamAccessKeyStatus'),
+    AwsIamAccessKeyStatus (..),
 
     -- * AwsS3BucketNotificationConfigurationS3KeyFilterRuleName
-    AwsS3BucketNotificationConfigurationS3KeyFilterRuleName (AwsS3BucketNotificationConfigurationS3KeyFilterRuleName'),
+    AwsS3BucketNotificationConfigurationS3KeyFilterRuleName (..),
 
     -- * ComplianceStatus
-    ComplianceStatus (ComplianceStatus'),
+    ComplianceStatus (..),
 
     -- * ControlStatus
-    ControlStatus (ControlStatus'),
+    ControlStatus (..),
 
     -- * DateRangeUnit
-    DateRangeUnit (DateRangeUnit'),
+    DateRangeUnit (..),
 
     -- * IntegrationType
-    IntegrationType (IntegrationType'),
+    IntegrationType (..),
 
     -- * MalwareState
-    MalwareState (MalwareState'),
+    MalwareState (..),
 
     -- * MalwareType
-    MalwareType (MalwareType'),
+    MalwareType (..),
 
     -- * MapFilterComparison
-    MapFilterComparison (MapFilterComparison'),
+    MapFilterComparison (..),
 
     -- * NetworkDirection
-    NetworkDirection (NetworkDirection'),
+    NetworkDirection (..),
 
     -- * Partition
-    Partition (Partition'),
+    Partition (..),
 
     -- * RecordState
-    RecordState (RecordState'),
+    RecordState (..),
 
     -- * SeverityLabel
-    SeverityLabel (SeverityLabel'),
+    SeverityLabel (..),
 
     -- * SeverityRating
-    SeverityRating (SeverityRating'),
+    SeverityRating (..),
 
     -- * SortOrder
-    SortOrder (SortOrder'),
+    SortOrder (..),
 
     -- * StandardsStatus
-    StandardsStatus (StandardsStatus'),
+    StandardsStatus (..),
 
     -- * StatusReasonCode
-    StatusReasonCode (StatusReasonCode'),
+    StatusReasonCode (..),
 
     -- * StringFilterComparison
-    StringFilterComparison (StringFilterComparison'),
+    StringFilterComparison (..),
 
     -- * ThreatIntelIndicatorCategory
-    ThreatIntelIndicatorCategory (ThreatIntelIndicatorCategory'),
+    ThreatIntelIndicatorCategory (..),
 
     -- * ThreatIntelIndicatorType
-    ThreatIntelIndicatorType (ThreatIntelIndicatorType'),
+    ThreatIntelIndicatorType (..),
 
     -- * VerificationState
-    VerificationState (VerificationState'),
+    VerificationState (..),
 
     -- * VulnerabilityFixAvailable
-    VulnerabilityFixAvailable (VulnerabilityFixAvailable'),
+    VulnerabilityFixAvailable (..),
 
     -- * WorkflowState
-    WorkflowState (WorkflowState'),
+    WorkflowState (..),
 
     -- * WorkflowStatus
-    WorkflowStatus (WorkflowStatus'),
+    WorkflowStatus (..),
 
     -- * AccountDetails
     AccountDetails (AccountDetails'),

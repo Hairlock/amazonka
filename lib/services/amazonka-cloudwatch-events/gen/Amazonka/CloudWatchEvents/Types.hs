@@ -32,52 +32,52 @@ module Amazonka.CloudWatchEvents.Types
     _ResourceNotFoundException,
 
     -- * ApiDestinationHttpMethod
-    ApiDestinationHttpMethod (ApiDestinationHttpMethod'),
+    ApiDestinationHttpMethod (..),
 
     -- * ApiDestinationState
-    ApiDestinationState (ApiDestinationState'),
+    ApiDestinationState (..),
 
     -- * ArchiveState
-    ArchiveState (ArchiveState'),
+    ArchiveState (..),
 
     -- * AssignPublicIp
-    AssignPublicIp (AssignPublicIp'),
+    AssignPublicIp (..),
 
     -- * ConnectionAuthorizationType
-    ConnectionAuthorizationType (ConnectionAuthorizationType'),
+    ConnectionAuthorizationType (..),
 
     -- * ConnectionOAuthHttpMethod
-    ConnectionOAuthHttpMethod (ConnectionOAuthHttpMethod'),
+    ConnectionOAuthHttpMethod (..),
 
     -- * ConnectionState
-    ConnectionState (ConnectionState'),
+    ConnectionState (..),
 
     -- * EndpointState
-    EndpointState (EndpointState'),
+    EndpointState (..),
 
     -- * EventSourceState
-    EventSourceState (EventSourceState'),
+    EventSourceState (..),
 
     -- * LaunchType
-    LaunchType (LaunchType'),
+    LaunchType (..),
 
     -- * PlacementConstraintType
-    PlacementConstraintType (PlacementConstraintType'),
+    PlacementConstraintType (..),
 
     -- * PlacementStrategyType
-    PlacementStrategyType (PlacementStrategyType'),
+    PlacementStrategyType (..),
 
     -- * PropagateTags
-    PropagateTags (PropagateTags'),
+    PropagateTags (..),
 
     -- * ReplayState
-    ReplayState (ReplayState'),
+    ReplayState (..),
 
     -- * ReplicationState
-    ReplicationState (ReplicationState'),
+    ReplicationState (..),
 
     -- * RuleState
-    RuleState (RuleState'),
+    RuleState (..),
 
     -- * ApiDestination
     ApiDestination (ApiDestination'),

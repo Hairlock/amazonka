@@ -24,19 +24,19 @@ module Amazonka.AWSHealth.Types
     _UnsupportedLocale,
 
     -- * EntityStatusCode
-    EntityStatusCode (EntityStatusCode'),
+    EntityStatusCode (..),
 
     -- * EventAggregateField
-    EventAggregateField (EventAggregateField'),
+    EventAggregateField (..),
 
     -- * EventScopeCode
-    EventScopeCode (EventScopeCode'),
+    EventScopeCode (..),
 
     -- * EventStatusCode
-    EventStatusCode (EventStatusCode'),
+    EventStatusCode (..),
 
     -- * EventTypeCategory
-    EventTypeCategory (EventTypeCategory'),
+    EventTypeCategory (..),
 
     -- * AffectedEntity
     AffectedEntity (AffectedEntity'),

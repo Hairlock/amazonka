@@ -32,22 +32,22 @@ module Amazonka.LexRuntime.Types
     _UnsupportedMediaTypeException,
 
     -- * ConfirmationStatus
-    ConfirmationStatus (ConfirmationStatus'),
+    ConfirmationStatus (..),
 
     -- * ContentType
-    ContentType (ContentType'),
+    ContentType (..),
 
     -- * DialogActionType
-    DialogActionType (DialogActionType'),
+    DialogActionType (..),
 
     -- * DialogState
-    DialogState (DialogState'),
+    DialogState (..),
 
     -- * FulfillmentState
-    FulfillmentState (FulfillmentState'),
+    FulfillmentState (..),
 
     -- * MessageFormatType
-    MessageFormatType (MessageFormatType'),
+    MessageFormatType (..),
 
     -- * ActiveContext
     ActiveContext (ActiveContext'),

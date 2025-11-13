@@ -29,19 +29,19 @@ module Amazonka.IVSChat.Types
     _ValidationException,
 
     -- * ChatTokenCapability
-    ChatTokenCapability (ChatTokenCapability'),
+    ChatTokenCapability (..),
 
     -- * CreateLoggingConfigurationState
-    CreateLoggingConfigurationState (CreateLoggingConfigurationState'),
+    CreateLoggingConfigurationState (..),
 
     -- * FallbackResult
-    FallbackResult (FallbackResult'),
+    FallbackResult (..),
 
     -- * LoggingConfigurationState
-    LoggingConfigurationState (LoggingConfigurationState'),
+    LoggingConfigurationState (..),
 
     -- * UpdateLoggingConfigurationState
-    UpdateLoggingConfigurationState (UpdateLoggingConfigurationState'),
+    UpdateLoggingConfigurationState (..),
 
     -- * CloudWatchLogsDestinationConfiguration
     CloudWatchLogsDestinationConfiguration (CloudWatchLogsDestinationConfiguration'),

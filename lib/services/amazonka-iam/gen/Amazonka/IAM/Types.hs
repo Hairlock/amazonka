@@ -48,64 +48,64 @@ module Amazonka.IAM.Types
     _UnrecognizedPublicKeyEncodingException,
 
     -- * AccessAdvisorUsageGranularityType
-    AccessAdvisorUsageGranularityType (AccessAdvisorUsageGranularityType'),
+    AccessAdvisorUsageGranularityType (..),
 
     -- * AssignmentStatusType
-    AssignmentStatusType (AssignmentStatusType'),
+    AssignmentStatusType (..),
 
     -- * ContextKeyTypeEnum
-    ContextKeyTypeEnum (ContextKeyTypeEnum'),
+    ContextKeyTypeEnum (..),
 
     -- * DeletionTaskStatusType
-    DeletionTaskStatusType (DeletionTaskStatusType'),
+    DeletionTaskStatusType (..),
 
     -- * EncodingType
-    EncodingType (EncodingType'),
+    EncodingType (..),
 
     -- * EntityType
-    EntityType (EntityType'),
+    EntityType (..),
 
     -- * GlobalEndpointTokenVersion
-    GlobalEndpointTokenVersion (GlobalEndpointTokenVersion'),
+    GlobalEndpointTokenVersion (..),
 
     -- * JobStatusType
-    JobStatusType (JobStatusType'),
+    JobStatusType (..),
 
     -- * PermissionsBoundaryAttachmentType
-    PermissionsBoundaryAttachmentType (PermissionsBoundaryAttachmentType'),
+    PermissionsBoundaryAttachmentType (..),
 
     -- * PolicyEvaluationDecisionType
-    PolicyEvaluationDecisionType (PolicyEvaluationDecisionType'),
+    PolicyEvaluationDecisionType (..),
 
     -- * PolicyOwnerEntityType
-    PolicyOwnerEntityType (PolicyOwnerEntityType'),
+    PolicyOwnerEntityType (..),
 
     -- * PolicyScopeType
-    PolicyScopeType (PolicyScopeType'),
+    PolicyScopeType (..),
 
     -- * PolicySourceType
-    PolicySourceType (PolicySourceType'),
+    PolicySourceType (..),
 
     -- * PolicyType
-    PolicyType (PolicyType'),
+    PolicyType (..),
 
     -- * PolicyUsageType
-    PolicyUsageType (PolicyUsageType'),
+    PolicyUsageType (..),
 
     -- * ReportFormatType
-    ReportFormatType (ReportFormatType'),
+    ReportFormatType (..),
 
     -- * ReportStateType
-    ReportStateType (ReportStateType'),
+    ReportStateType (..),
 
     -- * SortKeyType
-    SortKeyType (SortKeyType'),
+    SortKeyType (..),
 
     -- * StatusType
-    StatusType (StatusType'),
+    StatusType (..),
 
     -- * SummaryKeyType
-    SummaryKeyType (SummaryKeyType'),
+    SummaryKeyType (..),
 
     -- * AccessDetail
     AccessDetail (AccessDetail'),

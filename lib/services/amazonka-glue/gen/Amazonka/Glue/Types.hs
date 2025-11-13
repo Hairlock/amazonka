@@ -50,247 +50,247 @@ module Amazonka.Glue.Types
     _VersionMismatchException,
 
     -- * AggFunction
-    AggFunction (AggFunction'),
+    AggFunction (..),
 
     -- * BackfillErrorCode
-    BackfillErrorCode (BackfillErrorCode'),
+    BackfillErrorCode (..),
 
     -- * BlueprintRunState
-    BlueprintRunState (BlueprintRunState'),
+    BlueprintRunState (..),
 
     -- * BlueprintStatus
-    BlueprintStatus (BlueprintStatus'),
+    BlueprintStatus (..),
 
     -- * CatalogEncryptionMode
-    CatalogEncryptionMode (CatalogEncryptionMode'),
+    CatalogEncryptionMode (..),
 
     -- * CloudWatchEncryptionMode
-    CloudWatchEncryptionMode (CloudWatchEncryptionMode'),
+    CloudWatchEncryptionMode (..),
 
     -- * ColumnStatisticsType
-    ColumnStatisticsType (ColumnStatisticsType'),
+    ColumnStatisticsType (..),
 
     -- * Comparator
-    Comparator (Comparator'),
+    Comparator (..),
 
     -- * Compatibility
-    Compatibility (Compatibility'),
+    Compatibility (..),
 
     -- * CompressionType
-    CompressionType (CompressionType'),
+    CompressionType (..),
 
     -- * ConnectionPropertyKey
-    ConnectionPropertyKey (ConnectionPropertyKey'),
+    ConnectionPropertyKey (..),
 
     -- * ConnectionType
-    ConnectionType (ConnectionType'),
+    ConnectionType (..),
 
     -- * CrawlState
-    CrawlState (CrawlState'),
+    CrawlState (..),
 
     -- * CrawlerHistoryState
-    CrawlerHistoryState (CrawlerHistoryState'),
+    CrawlerHistoryState (..),
 
     -- * CrawlerLineageSettings
-    CrawlerLineageSettings (CrawlerLineageSettings'),
+    CrawlerLineageSettings (..),
 
     -- * CrawlerState
-    CrawlerState (CrawlerState'),
+    CrawlerState (..),
 
     -- * CsvHeaderOption
-    CsvHeaderOption (CsvHeaderOption'),
+    CsvHeaderOption (..),
 
     -- * DQStopJobOnFailureTiming
-    DQStopJobOnFailureTiming (DQStopJobOnFailureTiming'),
+    DQStopJobOnFailureTiming (..),
 
     -- * DQTransformOutput
-    DQTransformOutput (DQTransformOutput'),
+    DQTransformOutput (..),
 
     -- * DataFormat
-    DataFormat (DataFormat'),
+    DataFormat (..),
 
     -- * DataQualityRuleResultStatus
-    DataQualityRuleResultStatus (DataQualityRuleResultStatus'),
+    DataQualityRuleResultStatus (..),
 
     -- * DeleteBehavior
-    DeleteBehavior (DeleteBehavior'),
+    DeleteBehavior (..),
 
     -- * EnableHybridValues
-    EnableHybridValues (EnableHybridValues'),
+    EnableHybridValues (..),
 
     -- * ExecutionClass
-    ExecutionClass (ExecutionClass'),
+    ExecutionClass (..),
 
     -- * ExistCondition
-    ExistCondition (ExistCondition'),
+    ExistCondition (..),
 
     -- * FieldName
-    FieldName (FieldName'),
+    FieldName (..),
 
     -- * FilterLogicalOperator
-    FilterLogicalOperator (FilterLogicalOperator'),
+    FilterLogicalOperator (..),
 
     -- * FilterOperation
-    FilterOperation (FilterOperation'),
+    FilterOperation (..),
 
     -- * FilterOperator
-    FilterOperator (FilterOperator'),
+    FilterOperator (..),
 
     -- * FilterValueType
-    FilterValueType (FilterValueType'),
+    FilterValueType (..),
 
     -- * GlueRecordType
-    GlueRecordType (GlueRecordType'),
+    GlueRecordType (..),
 
     -- * JDBCDataType
-    JDBCDataType (JDBCDataType'),
+    JDBCDataType (..),
 
     -- * JdbcMetadataEntry
-    JdbcMetadataEntry (JdbcMetadataEntry'),
+    JdbcMetadataEntry (..),
 
     -- * JobBookmarksEncryptionMode
-    JobBookmarksEncryptionMode (JobBookmarksEncryptionMode'),
+    JobBookmarksEncryptionMode (..),
 
     -- * JobRunState
-    JobRunState (JobRunState'),
+    JobRunState (..),
 
     -- * JoinType
-    JoinType (JoinType'),
+    JoinType (..),
 
     -- * Language
-    Language (Language'),
+    Language (..),
 
     -- * LastCrawlStatus
-    LastCrawlStatus (LastCrawlStatus'),
+    LastCrawlStatus (..),
 
     -- * Logical
-    Logical (Logical'),
+    Logical (..),
 
     -- * LogicalOperator
-    LogicalOperator (LogicalOperator'),
+    LogicalOperator (..),
 
     -- * MLUserDataEncryptionModeString
-    MLUserDataEncryptionModeString (MLUserDataEncryptionModeString'),
+    MLUserDataEncryptionModeString (..),
 
     -- * NodeType
-    NodeType (NodeType'),
+    NodeType (..),
 
     -- * ParamType
-    ParamType (ParamType'),
+    ParamType (..),
 
     -- * ParquetCompressionType
-    ParquetCompressionType (ParquetCompressionType'),
+    ParquetCompressionType (..),
 
     -- * PartitionIndexStatus
-    PartitionIndexStatus (PartitionIndexStatus'),
+    PartitionIndexStatus (..),
 
     -- * Permission
-    Permission (Permission'),
+    Permission (..),
 
     -- * PermissionType
-    PermissionType (PermissionType'),
+    PermissionType (..),
 
     -- * PiiType
-    PiiType (PiiType'),
+    PiiType (..),
 
     -- * PrincipalType
-    PrincipalType (PrincipalType'),
+    PrincipalType (..),
 
     -- * QuoteChar
-    QuoteChar (QuoteChar'),
+    QuoteChar (..),
 
     -- * RecrawlBehavior
-    RecrawlBehavior (RecrawlBehavior'),
+    RecrawlBehavior (..),
 
     -- * RegistryStatus
-    RegistryStatus (RegistryStatus'),
+    RegistryStatus (..),
 
     -- * ResourceShareType
-    ResourceShareType (ResourceShareType'),
+    ResourceShareType (..),
 
     -- * ResourceType
-    ResourceType (ResourceType'),
+    ResourceType (..),
 
     -- * S3EncryptionMode
-    S3EncryptionMode (S3EncryptionMode'),
+    S3EncryptionMode (..),
 
     -- * ScheduleState
-    ScheduleState (ScheduleState'),
+    ScheduleState (..),
 
     -- * SchemaDiffType
-    SchemaDiffType (SchemaDiffType'),
+    SchemaDiffType (..),
 
     -- * SchemaStatus
-    SchemaStatus (SchemaStatus'),
+    SchemaStatus (..),
 
     -- * SchemaVersionStatus
-    SchemaVersionStatus (SchemaVersionStatus'),
+    SchemaVersionStatus (..),
 
     -- * Separator
-    Separator (Separator'),
+    Separator (..),
 
     -- * SessionStatus
-    SessionStatus (SessionStatus'),
+    SessionStatus (..),
 
     -- * Sort
-    Sort (Sort'),
+    Sort (..),
 
     -- * SortDirectionType
-    SortDirectionType (SortDirectionType'),
+    SortDirectionType (..),
 
     -- * SourceControlAuthStrategy
-    SourceControlAuthStrategy (SourceControlAuthStrategy'),
+    SourceControlAuthStrategy (..),
 
     -- * SourceControlProvider
-    SourceControlProvider (SourceControlProvider'),
+    SourceControlProvider (..),
 
     -- * StartingPosition
-    StartingPosition (StartingPosition'),
+    StartingPosition (..),
 
     -- * StatementState
-    StatementState (StatementState'),
+    StatementState (..),
 
     -- * TargetFormat
-    TargetFormat (TargetFormat'),
+    TargetFormat (..),
 
     -- * TaskRunSortColumnType
-    TaskRunSortColumnType (TaskRunSortColumnType'),
+    TaskRunSortColumnType (..),
 
     -- * TaskStatusType
-    TaskStatusType (TaskStatusType'),
+    TaskStatusType (..),
 
     -- * TaskType
-    TaskType (TaskType'),
+    TaskType (..),
 
     -- * TransformSortColumnType
-    TransformSortColumnType (TransformSortColumnType'),
+    TransformSortColumnType (..),
 
     -- * TransformStatusType
-    TransformStatusType (TransformStatusType'),
+    TransformStatusType (..),
 
     -- * TransformType
-    TransformType (TransformType'),
+    TransformType (..),
 
     -- * TriggerState
-    TriggerState (TriggerState'),
+    TriggerState (..),
 
     -- * TriggerType
-    TriggerType (TriggerType'),
+    TriggerType (..),
 
     -- * UnionType
-    UnionType (UnionType'),
+    UnionType (..),
 
     -- * UpdateBehavior
-    UpdateBehavior (UpdateBehavior'),
+    UpdateBehavior (..),
 
     -- * UpdateCatalogBehavior
-    UpdateCatalogBehavior (UpdateCatalogBehavior'),
+    UpdateCatalogBehavior (..),
 
     -- * WorkerType
-    WorkerType (WorkerType'),
+    WorkerType (..),
 
     -- * WorkflowRunStatus
-    WorkflowRunStatus (WorkflowRunStatus'),
+    WorkflowRunStatus (..),
 
     -- * Action
     Action (Action'),

@@ -30,25 +30,25 @@ module Amazonka.TimeStreamQuery.Types
     _ValidationException,
 
     -- * DimensionValueType
-    DimensionValueType (DimensionValueType'),
+    DimensionValueType (..),
 
     -- * MeasureValueType
-    MeasureValueType (MeasureValueType'),
+    MeasureValueType (..),
 
     -- * S3EncryptionOption
-    S3EncryptionOption (S3EncryptionOption'),
+    S3EncryptionOption (..),
 
     -- * ScalarMeasureValueType
-    ScalarMeasureValueType (ScalarMeasureValueType'),
+    ScalarMeasureValueType (..),
 
     -- * ScalarType
-    ScalarType (ScalarType'),
+    ScalarType (..),
 
     -- * ScheduledQueryRunStatus
-    ScheduledQueryRunStatus (ScheduledQueryRunStatus'),
+    ScheduledQueryRunStatus (..),
 
     -- * ScheduledQueryState
-    ScheduledQueryState (ScheduledQueryState'),
+    ScheduledQueryState (..),
 
     -- * ColumnInfo
     ColumnInfo (ColumnInfo'),

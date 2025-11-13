@@ -28,79 +28,79 @@ module Amazonka.ResilienceHub.Types
     _ValidationException,
 
     -- * AlarmType
-    AlarmType (AlarmType'),
+    AlarmType (..),
 
     -- * AppAssessmentScheduleType
-    AppAssessmentScheduleType (AppAssessmentScheduleType'),
+    AppAssessmentScheduleType (..),
 
     -- * AppComplianceStatusType
-    AppComplianceStatusType (AppComplianceStatusType'),
+    AppComplianceStatusType (..),
 
     -- * AppStatusType
-    AppStatusType (AppStatusType'),
+    AppStatusType (..),
 
     -- * AssessmentInvoker
-    AssessmentInvoker (AssessmentInvoker'),
+    AssessmentInvoker (..),
 
     -- * AssessmentStatus
-    AssessmentStatus (AssessmentStatus'),
+    AssessmentStatus (..),
 
     -- * ComplianceStatus
-    ComplianceStatus (ComplianceStatus'),
+    ComplianceStatus (..),
 
     -- * ConfigRecommendationOptimizationType
-    ConfigRecommendationOptimizationType (ConfigRecommendationOptimizationType'),
+    ConfigRecommendationOptimizationType (..),
 
     -- * CostFrequency
-    CostFrequency (CostFrequency'),
+    CostFrequency (..),
 
     -- * DataLocationConstraint
-    DataLocationConstraint (DataLocationConstraint'),
+    DataLocationConstraint (..),
 
     -- * DisruptionType
-    DisruptionType (DisruptionType'),
+    DisruptionType (..),
 
     -- * EstimatedCostTier
-    EstimatedCostTier (EstimatedCostTier'),
+    EstimatedCostTier (..),
 
     -- * HaArchitecture
-    HaArchitecture (HaArchitecture'),
+    HaArchitecture (..),
 
     -- * PhysicalIdentifierType
-    PhysicalIdentifierType (PhysicalIdentifierType'),
+    PhysicalIdentifierType (..),
 
     -- * RecommendationComplianceStatus
-    RecommendationComplianceStatus (RecommendationComplianceStatus'),
+    RecommendationComplianceStatus (..),
 
     -- * RecommendationTemplateStatus
-    RecommendationTemplateStatus (RecommendationTemplateStatus'),
+    RecommendationTemplateStatus (..),
 
     -- * RenderRecommendationType
-    RenderRecommendationType (RenderRecommendationType'),
+    RenderRecommendationType (..),
 
     -- * ResiliencyPolicyTier
-    ResiliencyPolicyTier (ResiliencyPolicyTier'),
+    ResiliencyPolicyTier (..),
 
     -- * ResourceImportStatusType
-    ResourceImportStatusType (ResourceImportStatusType'),
+    ResourceImportStatusType (..),
 
     -- * ResourceMappingType
-    ResourceMappingType (ResourceMappingType'),
+    ResourceMappingType (..),
 
     -- * ResourceResolutionStatusType
-    ResourceResolutionStatusType (ResourceResolutionStatusType'),
+    ResourceResolutionStatusType (..),
 
     -- * SopServiceType
-    SopServiceType (SopServiceType'),
+    SopServiceType (..),
 
     -- * TemplateFormat
-    TemplateFormat (TemplateFormat'),
+    TemplateFormat (..),
 
     -- * TestRisk
-    TestRisk (TestRisk'),
+    TestRisk (..),
 
     -- * TestType
-    TestType (TestType'),
+    TestType (..),
 
     -- * AlarmRecommendation
     AlarmRecommendation (AlarmRecommendation'),

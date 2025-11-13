@@ -150,88 +150,88 @@ module Amazonka.Redshift.Types
     module Amazonka.Redshift.Internal,
 
     -- * ActionType
-    ActionType (ActionType'),
+    ActionType (..),
 
     -- * AquaConfigurationStatus
-    AquaConfigurationStatus (AquaConfigurationStatus'),
+    AquaConfigurationStatus (..),
 
     -- * AquaStatus
-    AquaStatus (AquaStatus'),
+    AquaStatus (..),
 
     -- * AuthorizationStatus
-    AuthorizationStatus (AuthorizationStatus'),
+    AuthorizationStatus (..),
 
     -- * DataShareStatus
-    DataShareStatus (DataShareStatus'),
+    DataShareStatus (..),
 
     -- * DataShareStatusForConsumer
-    DataShareStatusForConsumer (DataShareStatusForConsumer'),
+    DataShareStatusForConsumer (..),
 
     -- * DataShareStatusForProducer
-    DataShareStatusForProducer (DataShareStatusForProducer'),
+    DataShareStatusForProducer (..),
 
     -- * LogDestinationType
-    LogDestinationType (LogDestinationType'),
+    LogDestinationType (..),
 
     -- * Mode
-    Mode (Mode'),
+    Mode (..),
 
     -- * NodeConfigurationOptionsFilterName
-    NodeConfigurationOptionsFilterName (NodeConfigurationOptionsFilterName'),
+    NodeConfigurationOptionsFilterName (..),
 
     -- * OperatorType
-    OperatorType (OperatorType'),
+    OperatorType (..),
 
     -- * ParameterApplyType
-    ParameterApplyType (ParameterApplyType'),
+    ParameterApplyType (..),
 
     -- * PartnerIntegrationStatus
-    PartnerIntegrationStatus (PartnerIntegrationStatus'),
+    PartnerIntegrationStatus (..),
 
     -- * ReservedNodeExchangeActionType
-    ReservedNodeExchangeActionType (ReservedNodeExchangeActionType'),
+    ReservedNodeExchangeActionType (..),
 
     -- * ReservedNodeExchangeStatusType
-    ReservedNodeExchangeStatusType (ReservedNodeExchangeStatusType'),
+    ReservedNodeExchangeStatusType (..),
 
     -- * ReservedNodeOfferingType
-    ReservedNodeOfferingType (ReservedNodeOfferingType'),
+    ReservedNodeOfferingType (..),
 
     -- * ScheduleState
-    ScheduleState (ScheduleState'),
+    ScheduleState (..),
 
     -- * ScheduledActionFilterName
-    ScheduledActionFilterName (ScheduledActionFilterName'),
+    ScheduledActionFilterName (..),
 
     -- * ScheduledActionState
-    ScheduledActionState (ScheduledActionState'),
+    ScheduledActionState (..),
 
     -- * ScheduledActionTypeValues
-    ScheduledActionTypeValues (ScheduledActionTypeValues'),
+    ScheduledActionTypeValues (..),
 
     -- * SnapshotAttributeToSortBy
-    SnapshotAttributeToSortBy (SnapshotAttributeToSortBy'),
+    SnapshotAttributeToSortBy (..),
 
     -- * SortByOrder
-    SortByOrder (SortByOrder'),
+    SortByOrder (..),
 
     -- * SourceType
-    SourceType (SourceType'),
+    SourceType (..),
 
     -- * TableRestoreStatusType
-    TableRestoreStatusType (TableRestoreStatusType'),
+    TableRestoreStatusType (..),
 
     -- * UsageLimitBreachAction
-    UsageLimitBreachAction (UsageLimitBreachAction'),
+    UsageLimitBreachAction (..),
 
     -- * UsageLimitFeatureType
-    UsageLimitFeatureType (UsageLimitFeatureType'),
+    UsageLimitFeatureType (..),
 
     -- * UsageLimitLimitType
-    UsageLimitLimitType (UsageLimitLimitType'),
+    UsageLimitLimitType (..),
 
     -- * UsageLimitPeriod
-    UsageLimitPeriod (UsageLimitPeriod'),
+    UsageLimitPeriod (..),
 
     -- * AccountAttribute
     AccountAttribute (AccountAttribute'),

@@ -36,130 +36,130 @@ module Amazonka.GameLift.Types
     _UnsupportedRegionException,
 
     -- * AcceptanceType
-    AcceptanceType (AcceptanceType'),
+    AcceptanceType (..),
 
     -- * BackfillMode
-    BackfillMode (BackfillMode'),
+    BackfillMode (..),
 
     -- * BalancingStrategy
-    BalancingStrategy (BalancingStrategy'),
+    BalancingStrategy (..),
 
     -- * BuildStatus
-    BuildStatus (BuildStatus'),
+    BuildStatus (..),
 
     -- * CertificateType
-    CertificateType (CertificateType'),
+    CertificateType (..),
 
     -- * ComparisonOperatorType
-    ComparisonOperatorType (ComparisonOperatorType'),
+    ComparisonOperatorType (..),
 
     -- * ComputeStatus
-    ComputeStatus (ComputeStatus'),
+    ComputeStatus (..),
 
     -- * ComputeType
-    ComputeType (ComputeType'),
+    ComputeType (..),
 
     -- * EC2InstanceType
-    EC2InstanceType (EC2InstanceType'),
+    EC2InstanceType (..),
 
     -- * EventCode
-    EventCode (EventCode'),
+    EventCode (..),
 
     -- * FleetAction
-    FleetAction (FleetAction'),
+    FleetAction (..),
 
     -- * FleetStatus
-    FleetStatus (FleetStatus'),
+    FleetStatus (..),
 
     -- * FleetType
-    FleetType (FleetType'),
+    FleetType (..),
 
     -- * FlexMatchMode
-    FlexMatchMode (FlexMatchMode'),
+    FlexMatchMode (..),
 
     -- * GameServerClaimStatus
-    GameServerClaimStatus (GameServerClaimStatus'),
+    GameServerClaimStatus (..),
 
     -- * GameServerGroupAction
-    GameServerGroupAction (GameServerGroupAction'),
+    GameServerGroupAction (..),
 
     -- * GameServerGroupDeleteOption
-    GameServerGroupDeleteOption (GameServerGroupDeleteOption'),
+    GameServerGroupDeleteOption (..),
 
     -- * GameServerGroupInstanceType
-    GameServerGroupInstanceType (GameServerGroupInstanceType'),
+    GameServerGroupInstanceType (..),
 
     -- * GameServerGroupStatus
-    GameServerGroupStatus (GameServerGroupStatus'),
+    GameServerGroupStatus (..),
 
     -- * GameServerHealthCheck
-    GameServerHealthCheck (GameServerHealthCheck'),
+    GameServerHealthCheck (..),
 
     -- * GameServerInstanceStatus
-    GameServerInstanceStatus (GameServerInstanceStatus'),
+    GameServerInstanceStatus (..),
 
     -- * GameServerProtectionPolicy
-    GameServerProtectionPolicy (GameServerProtectionPolicy'),
+    GameServerProtectionPolicy (..),
 
     -- * GameServerUtilizationStatus
-    GameServerUtilizationStatus (GameServerUtilizationStatus'),
+    GameServerUtilizationStatus (..),
 
     -- * GameSessionPlacementState
-    GameSessionPlacementState (GameSessionPlacementState'),
+    GameSessionPlacementState (..),
 
     -- * GameSessionStatus
-    GameSessionStatus (GameSessionStatus'),
+    GameSessionStatus (..),
 
     -- * GameSessionStatusReason
-    GameSessionStatusReason (GameSessionStatusReason'),
+    GameSessionStatusReason (..),
 
     -- * InstanceStatus
-    InstanceStatus (InstanceStatus'),
+    InstanceStatus (..),
 
     -- * IpProtocol
-    IpProtocol (IpProtocol'),
+    IpProtocol (..),
 
     -- * LocationFilter
-    LocationFilter (LocationFilter'),
+    LocationFilter (..),
 
     -- * LocationUpdateStatus
-    LocationUpdateStatus (LocationUpdateStatus'),
+    LocationUpdateStatus (..),
 
     -- * MatchmakingConfigurationStatus
-    MatchmakingConfigurationStatus (MatchmakingConfigurationStatus'),
+    MatchmakingConfigurationStatus (..),
 
     -- * MetricName
-    MetricName (MetricName'),
+    MetricName (..),
 
     -- * OperatingSystem
-    OperatingSystem (OperatingSystem'),
+    OperatingSystem (..),
 
     -- * PlayerSessionCreationPolicy
-    PlayerSessionCreationPolicy (PlayerSessionCreationPolicy'),
+    PlayerSessionCreationPolicy (..),
 
     -- * PlayerSessionStatus
-    PlayerSessionStatus (PlayerSessionStatus'),
+    PlayerSessionStatus (..),
 
     -- * PolicyType
-    PolicyType (PolicyType'),
+    PolicyType (..),
 
     -- * PriorityType
-    PriorityType (PriorityType'),
+    PriorityType (..),
 
     -- * ProtectionPolicy
-    ProtectionPolicy (ProtectionPolicy'),
+    ProtectionPolicy (..),
 
     -- * RoutingStrategyType
-    RoutingStrategyType (RoutingStrategyType'),
+    RoutingStrategyType (..),
 
     -- * ScalingAdjustmentType
-    ScalingAdjustmentType (ScalingAdjustmentType'),
+    ScalingAdjustmentType (..),
 
     -- * ScalingStatusType
-    ScalingStatusType (ScalingStatusType'),
+    ScalingStatusType (..),
 
     -- * SortOrder
-    SortOrder (SortOrder'),
+    SortOrder (..),
 
     -- * Alias
     Alias (Alias'),

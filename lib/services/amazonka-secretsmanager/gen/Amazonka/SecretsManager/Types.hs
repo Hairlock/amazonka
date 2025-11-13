@@ -33,13 +33,13 @@ module Amazonka.SecretsManager.Types
     _ResourceNotFoundException,
 
     -- * FilterNameStringType
-    FilterNameStringType (FilterNameStringType'),
+    FilterNameStringType (..),
 
     -- * SortOrderType
-    SortOrderType (SortOrderType'),
+    SortOrderType (..),
 
     -- * StatusType
-    StatusType (StatusType'),
+    StatusType (..),
 
     -- * Filter
     Filter (Filter'),

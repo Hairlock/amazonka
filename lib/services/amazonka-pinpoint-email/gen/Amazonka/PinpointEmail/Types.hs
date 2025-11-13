@@ -31,34 +31,34 @@ module Amazonka.PinpointEmail.Types
     _TooManyRequestsException,
 
     -- * BehaviorOnMxFailure
-    BehaviorOnMxFailure (BehaviorOnMxFailure'),
+    BehaviorOnMxFailure (..),
 
     -- * DeliverabilityDashboardAccountStatus
-    DeliverabilityDashboardAccountStatus (DeliverabilityDashboardAccountStatus'),
+    DeliverabilityDashboardAccountStatus (..),
 
     -- * DeliverabilityTestStatus
-    DeliverabilityTestStatus (DeliverabilityTestStatus'),
+    DeliverabilityTestStatus (..),
 
     -- * DimensionValueSource
-    DimensionValueSource (DimensionValueSource'),
+    DimensionValueSource (..),
 
     -- * DkimStatus
-    DkimStatus (DkimStatus'),
+    DkimStatus (..),
 
     -- * EventType
-    EventType (EventType'),
+    EventType (..),
 
     -- * IdentityType
-    IdentityType (IdentityType'),
+    IdentityType (..),
 
     -- * MailFromDomainStatus
-    MailFromDomainStatus (MailFromDomainStatus'),
+    MailFromDomainStatus (..),
 
     -- * TlsPolicy
-    TlsPolicy (TlsPolicy'),
+    TlsPolicy (..),
 
     -- * WarmupStatus
-    WarmupStatus (WarmupStatus'),
+    WarmupStatus (..),
 
     -- * BlacklistEntry
     BlacklistEntry (BlacklistEntry'),

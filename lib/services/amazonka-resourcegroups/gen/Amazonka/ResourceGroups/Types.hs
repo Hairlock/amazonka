@@ -28,22 +28,22 @@ module Amazonka.ResourceGroups.Types
     _UnauthorizedException,
 
     -- * GroupConfigurationStatus
-    GroupConfigurationStatus (GroupConfigurationStatus'),
+    GroupConfigurationStatus (..),
 
     -- * GroupFilterName
-    GroupFilterName (GroupFilterName'),
+    GroupFilterName (..),
 
     -- * QueryErrorCode
-    QueryErrorCode (QueryErrorCode'),
+    QueryErrorCode (..),
 
     -- * QueryType
-    QueryType (QueryType'),
+    QueryType (..),
 
     -- * ResourceFilterName
-    ResourceFilterName (ResourceFilterName'),
+    ResourceFilterName (..),
 
     -- * ResourceStatusValue
-    ResourceStatusValue (ResourceStatusValue'),
+    ResourceStatusValue (..),
 
     -- * FailedResource
     FailedResource (FailedResource'),

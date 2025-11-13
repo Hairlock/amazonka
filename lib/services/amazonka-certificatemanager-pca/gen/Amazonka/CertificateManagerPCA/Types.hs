@@ -40,55 +40,55 @@ module Amazonka.CertificateManagerPCA.Types
     _TooManyTagsException,
 
     -- * AccessMethodType
-    AccessMethodType (AccessMethodType'),
+    AccessMethodType (..),
 
     -- * ActionType
-    ActionType (ActionType'),
+    ActionType (..),
 
     -- * AuditReportResponseFormat
-    AuditReportResponseFormat (AuditReportResponseFormat'),
+    AuditReportResponseFormat (..),
 
     -- * AuditReportStatus
-    AuditReportStatus (AuditReportStatus'),
+    AuditReportStatus (..),
 
     -- * CertificateAuthorityStatus
-    CertificateAuthorityStatus (CertificateAuthorityStatus'),
+    CertificateAuthorityStatus (..),
 
     -- * CertificateAuthorityType
-    CertificateAuthorityType (CertificateAuthorityType'),
+    CertificateAuthorityType (..),
 
     -- * CertificateAuthorityUsageMode
-    CertificateAuthorityUsageMode (CertificateAuthorityUsageMode'),
+    CertificateAuthorityUsageMode (..),
 
     -- * ExtendedKeyUsageType
-    ExtendedKeyUsageType (ExtendedKeyUsageType'),
+    ExtendedKeyUsageType (..),
 
     -- * FailureReason
-    FailureReason (FailureReason'),
+    FailureReason (..),
 
     -- * KeyAlgorithm
-    KeyAlgorithm (KeyAlgorithm'),
+    KeyAlgorithm (..),
 
     -- * KeyStorageSecurityStandard
-    KeyStorageSecurityStandard (KeyStorageSecurityStandard'),
+    KeyStorageSecurityStandard (..),
 
     -- * PolicyQualifierId
-    PolicyQualifierId (PolicyQualifierId'),
+    PolicyQualifierId (..),
 
     -- * ResourceOwner
-    ResourceOwner (ResourceOwner'),
+    ResourceOwner (..),
 
     -- * RevocationReason
-    RevocationReason (RevocationReason'),
+    RevocationReason (..),
 
     -- * S3ObjectAcl
-    S3ObjectAcl (S3ObjectAcl'),
+    S3ObjectAcl (..),
 
     -- * SigningAlgorithm
-    SigningAlgorithm (SigningAlgorithm'),
+    SigningAlgorithm (..),
 
     -- * ValidityPeriodType
-    ValidityPeriodType (ValidityPeriodType'),
+    ValidityPeriodType (..),
 
     -- * ASN1Subject
     ASN1Subject (ASN1Subject'),

@@ -29,94 +29,94 @@ module Amazonka.NetworkManager.Types
     _ValidationException,
 
     -- * AttachmentState
-    AttachmentState (AttachmentState'),
+    AttachmentState (..),
 
     -- * AttachmentType
-    AttachmentType (AttachmentType'),
+    AttachmentType (..),
 
     -- * ChangeAction
-    ChangeAction (ChangeAction'),
+    ChangeAction (..),
 
     -- * ChangeSetState
-    ChangeSetState (ChangeSetState'),
+    ChangeSetState (..),
 
     -- * ChangeStatus
-    ChangeStatus (ChangeStatus'),
+    ChangeStatus (..),
 
     -- * ChangeType
-    ChangeType (ChangeType'),
+    ChangeType (..),
 
     -- * ConnectPeerAssociationState
-    ConnectPeerAssociationState (ConnectPeerAssociationState'),
+    ConnectPeerAssociationState (..),
 
     -- * ConnectPeerState
-    ConnectPeerState (ConnectPeerState'),
+    ConnectPeerState (..),
 
     -- * ConnectionState
-    ConnectionState (ConnectionState'),
+    ConnectionState (..),
 
     -- * ConnectionStatus
-    ConnectionStatus (ConnectionStatus'),
+    ConnectionStatus (..),
 
     -- * ConnectionType
-    ConnectionType (ConnectionType'),
+    ConnectionType (..),
 
     -- * CoreNetworkPolicyAlias
-    CoreNetworkPolicyAlias (CoreNetworkPolicyAlias'),
+    CoreNetworkPolicyAlias (..),
 
     -- * CoreNetworkState
-    CoreNetworkState (CoreNetworkState'),
+    CoreNetworkState (..),
 
     -- * CustomerGatewayAssociationState
-    CustomerGatewayAssociationState (CustomerGatewayAssociationState'),
+    CustomerGatewayAssociationState (..),
 
     -- * DeviceState
-    DeviceState (DeviceState'),
+    DeviceState (..),
 
     -- * GlobalNetworkState
-    GlobalNetworkState (GlobalNetworkState'),
+    GlobalNetworkState (..),
 
     -- * LinkAssociationState
-    LinkAssociationState (LinkAssociationState'),
+    LinkAssociationState (..),
 
     -- * LinkState
-    LinkState (LinkState'),
+    LinkState (..),
 
     -- * PeeringState
-    PeeringState (PeeringState'),
+    PeeringState (..),
 
     -- * PeeringType
-    PeeringType (PeeringType'),
+    PeeringType (..),
 
     -- * RouteAnalysisCompletionReasonCode
-    RouteAnalysisCompletionReasonCode (RouteAnalysisCompletionReasonCode'),
+    RouteAnalysisCompletionReasonCode (..),
 
     -- * RouteAnalysisCompletionResultCode
-    RouteAnalysisCompletionResultCode (RouteAnalysisCompletionResultCode'),
+    RouteAnalysisCompletionResultCode (..),
 
     -- * RouteAnalysisStatus
-    RouteAnalysisStatus (RouteAnalysisStatus'),
+    RouteAnalysisStatus (..),
 
     -- * RouteState
-    RouteState (RouteState'),
+    RouteState (..),
 
     -- * RouteTableType
-    RouteTableType (RouteTableType'),
+    RouteTableType (..),
 
     -- * RouteType
-    RouteType (RouteType'),
+    RouteType (..),
 
     -- * SiteState
-    SiteState (SiteState'),
+    SiteState (..),
 
     -- * TransitGatewayConnectPeerAssociationState
-    TransitGatewayConnectPeerAssociationState (TransitGatewayConnectPeerAssociationState'),
+    TransitGatewayConnectPeerAssociationState (..),
 
     -- * TransitGatewayRegistrationState
-    TransitGatewayRegistrationState (TransitGatewayRegistrationState'),
+    TransitGatewayRegistrationState (..),
 
     -- * TunnelProtocol
-    TunnelProtocol (TunnelProtocol'),
+    TunnelProtocol (..),
 
     -- * AWSLocation
     AWSLocation (AWSLocation'),

@@ -28,10 +28,10 @@ module Amazonka.Route53RecoveryControlConfig.Types
     _ValidationException,
 
     -- * RuleType
-    RuleType (RuleType'),
+    RuleType (..),
 
     -- * Status
-    Status (Status'),
+    Status (..),
 
     -- * AssertionRule
     AssertionRule (AssertionRule'),

@@ -51,31 +51,31 @@ module Amazonka.EFS.Types
     _ValidationException,
 
     -- * BackupStatus
-    BackupStatus (BackupStatus'),
+    BackupStatus (..),
 
     -- * LifeCycleState
-    LifeCycleState (LifeCycleState'),
+    LifeCycleState (..),
 
     -- * PerformanceMode
-    PerformanceMode (PerformanceMode'),
+    PerformanceMode (..),
 
     -- * ReplicationStatus
-    ReplicationStatus (ReplicationStatus'),
+    ReplicationStatus (..),
 
     -- * Resource
-    Resource (Resource'),
+    Resource (..),
 
     -- * ResourceIdType
-    ResourceIdType (ResourceIdType'),
+    ResourceIdType (..),
 
     -- * ThroughputMode
-    ThroughputMode (ThroughputMode'),
+    ThroughputMode (..),
 
     -- * TransitionToIARules
-    TransitionToIARules (TransitionToIARules'),
+    TransitionToIARules (..),
 
     -- * TransitionToPrimaryStorageClassRules
-    TransitionToPrimaryStorageClassRules (TransitionToPrimaryStorageClassRules'),
+    TransitionToPrimaryStorageClassRules (..),
 
     -- * AccessPointDescription
     AccessPointDescription (AccessPointDescription'),

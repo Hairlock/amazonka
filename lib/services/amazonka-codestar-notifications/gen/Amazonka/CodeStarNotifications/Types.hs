@@ -29,22 +29,22 @@ module Amazonka.CodeStarNotifications.Types
     _ValidationException,
 
     -- * DetailType
-    DetailType (DetailType'),
+    DetailType (..),
 
     -- * ListEventTypesFilterName
-    ListEventTypesFilterName (ListEventTypesFilterName'),
+    ListEventTypesFilterName (..),
 
     -- * ListNotificationRulesFilterName
-    ListNotificationRulesFilterName (ListNotificationRulesFilterName'),
+    ListNotificationRulesFilterName (..),
 
     -- * ListTargetsFilterName
-    ListTargetsFilterName (ListTargetsFilterName'),
+    ListTargetsFilterName (..),
 
     -- * NotificationRuleStatus
-    NotificationRuleStatus (NotificationRuleStatus'),
+    NotificationRuleStatus (..),
 
     -- * TargetStatus
-    TargetStatus (TargetStatus'),
+    TargetStatus (..),
 
     -- * EventTypeSummary
     EventTypeSummary (EventTypeSummary'),

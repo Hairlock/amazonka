@@ -57,112 +57,112 @@ module Amazonka.DynamoDB.Types
     module Amazonka.DynamoDB.Types.WriteRequest,
 
     -- * AttributeAction
-    AttributeAction (AttributeAction'),
+    AttributeAction (..),
 
     -- * BackupStatus
-    BackupStatus (BackupStatus'),
+    BackupStatus (..),
 
     -- * BackupType
-    BackupType (BackupType'),
+    BackupType (..),
 
     -- * BackupTypeFilter
-    BackupTypeFilter (BackupTypeFilter'),
+    BackupTypeFilter (..),
 
     -- * BatchStatementErrorCodeEnum
-    BatchStatementErrorCodeEnum (BatchStatementErrorCodeEnum'),
+    BatchStatementErrorCodeEnum (..),
 
     -- * BillingMode
-    BillingMode (BillingMode'),
+    BillingMode (..),
 
     -- * ComparisonOperator
-    ComparisonOperator (ComparisonOperator'),
+    ComparisonOperator (..),
 
     -- * ConditionalOperator
-    ConditionalOperator (ConditionalOperator'),
+    ConditionalOperator (..),
 
     -- * ContinuousBackupsStatus
-    ContinuousBackupsStatus (ContinuousBackupsStatus'),
+    ContinuousBackupsStatus (..),
 
     -- * ContributorInsightsAction
-    ContributorInsightsAction (ContributorInsightsAction'),
+    ContributorInsightsAction (..),
 
     -- * ContributorInsightsStatus
-    ContributorInsightsStatus (ContributorInsightsStatus'),
+    ContributorInsightsStatus (..),
 
     -- * DestinationStatus
-    DestinationStatus (DestinationStatus'),
+    DestinationStatus (..),
 
     -- * ExportFormat
-    ExportFormat (ExportFormat'),
+    ExportFormat (..),
 
     -- * ExportStatus
-    ExportStatus (ExportStatus'),
+    ExportStatus (..),
 
     -- * GlobalTableStatus
-    GlobalTableStatus (GlobalTableStatus'),
+    GlobalTableStatus (..),
 
     -- * ImportStatus
-    ImportStatus (ImportStatus'),
+    ImportStatus (..),
 
     -- * IndexStatus
-    IndexStatus (IndexStatus'),
+    IndexStatus (..),
 
     -- * InputCompressionType
-    InputCompressionType (InputCompressionType'),
+    InputCompressionType (..),
 
     -- * InputFormat
-    InputFormat (InputFormat'),
+    InputFormat (..),
 
     -- * KeyType
-    KeyType (KeyType'),
+    KeyType (..),
 
     -- * PointInTimeRecoveryStatus
-    PointInTimeRecoveryStatus (PointInTimeRecoveryStatus'),
+    PointInTimeRecoveryStatus (..),
 
     -- * ProjectionType
-    ProjectionType (ProjectionType'),
+    ProjectionType (..),
 
     -- * ReplicaStatus
-    ReplicaStatus (ReplicaStatus'),
+    ReplicaStatus (..),
 
     -- * ReturnConsumedCapacity
-    ReturnConsumedCapacity (ReturnConsumedCapacity'),
+    ReturnConsumedCapacity (..),
 
     -- * ReturnItemCollectionMetrics
-    ReturnItemCollectionMetrics (ReturnItemCollectionMetrics'),
+    ReturnItemCollectionMetrics (..),
 
     -- * ReturnValue
-    ReturnValue (ReturnValue'),
+    ReturnValue (..),
 
     -- * ReturnValuesOnConditionCheckFailure
-    ReturnValuesOnConditionCheckFailure (ReturnValuesOnConditionCheckFailure'),
+    ReturnValuesOnConditionCheckFailure (..),
 
     -- * S3SseAlgorithm
-    S3SseAlgorithm (S3SseAlgorithm'),
+    S3SseAlgorithm (..),
 
     -- * SSEStatus
-    SSEStatus (SSEStatus'),
+    SSEStatus (..),
 
     -- * SSEType
-    SSEType (SSEType'),
+    SSEType (..),
 
     -- * ScalarAttributeType
-    ScalarAttributeType (ScalarAttributeType'),
+    ScalarAttributeType (..),
 
     -- * Select
-    Select (Select'),
+    Select (..),
 
     -- * StreamViewType
-    StreamViewType (StreamViewType'),
+    StreamViewType (..),
 
     -- * TableClass
-    TableClass (TableClass'),
+    TableClass (..),
 
     -- * TableStatus
-    TableStatus (TableStatus'),
+    TableStatus (..),
 
     -- * TimeToLiveStatus
-    TimeToLiveStatus (TimeToLiveStatus'),
+    TimeToLiveStatus (..),
 
     -- * ArchivalSummary
     ArchivalSummary (ArchivalSummary'),

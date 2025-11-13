@@ -28,166 +28,166 @@ module Amazonka.LexV2Models.Types
     _ValidationException,
 
     -- * AggregatedUtterancesFilterName
-    AggregatedUtterancesFilterName (AggregatedUtterancesFilterName'),
+    AggregatedUtterancesFilterName (..),
 
     -- * AggregatedUtterancesFilterOperator
-    AggregatedUtterancesFilterOperator (AggregatedUtterancesFilterOperator'),
+    AggregatedUtterancesFilterOperator (..),
 
     -- * AggregatedUtterancesSortAttribute
-    AggregatedUtterancesSortAttribute (AggregatedUtterancesSortAttribute'),
+    AggregatedUtterancesSortAttribute (..),
 
     -- * AssociatedTranscriptFilterName
-    AssociatedTranscriptFilterName (AssociatedTranscriptFilterName'),
+    AssociatedTranscriptFilterName (..),
 
     -- * AudioRecognitionStrategy
-    AudioRecognitionStrategy (AudioRecognitionStrategy'),
+    AudioRecognitionStrategy (..),
 
     -- * BotAliasStatus
-    BotAliasStatus (BotAliasStatus'),
+    BotAliasStatus (..),
 
     -- * BotFilterName
-    BotFilterName (BotFilterName'),
+    BotFilterName (..),
 
     -- * BotFilterOperator
-    BotFilterOperator (BotFilterOperator'),
+    BotFilterOperator (..),
 
     -- * BotLocaleFilterName
-    BotLocaleFilterName (BotLocaleFilterName'),
+    BotLocaleFilterName (..),
 
     -- * BotLocaleFilterOperator
-    BotLocaleFilterOperator (BotLocaleFilterOperator'),
+    BotLocaleFilterOperator (..),
 
     -- * BotLocaleSortAttribute
-    BotLocaleSortAttribute (BotLocaleSortAttribute'),
+    BotLocaleSortAttribute (..),
 
     -- * BotLocaleStatus
-    BotLocaleStatus (BotLocaleStatus'),
+    BotLocaleStatus (..),
 
     -- * BotRecommendationStatus
-    BotRecommendationStatus (BotRecommendationStatus'),
+    BotRecommendationStatus (..),
 
     -- * BotSortAttribute
-    BotSortAttribute (BotSortAttribute'),
+    BotSortAttribute (..),
 
     -- * BotStatus
-    BotStatus (BotStatus'),
+    BotStatus (..),
 
     -- * BotVersionSortAttribute
-    BotVersionSortAttribute (BotVersionSortAttribute'),
+    BotVersionSortAttribute (..),
 
     -- * BuiltInIntentSortAttribute
-    BuiltInIntentSortAttribute (BuiltInIntentSortAttribute'),
+    BuiltInIntentSortAttribute (..),
 
     -- * BuiltInSlotTypeSortAttribute
-    BuiltInSlotTypeSortAttribute (BuiltInSlotTypeSortAttribute'),
+    BuiltInSlotTypeSortAttribute (..),
 
     -- * CustomVocabularyStatus
-    CustomVocabularyStatus (CustomVocabularyStatus'),
+    CustomVocabularyStatus (..),
 
     -- * DialogActionType
-    DialogActionType (DialogActionType'),
+    DialogActionType (..),
 
     -- * Effect
-    Effect (Effect'),
+    Effect (..),
 
     -- * ErrorCode
-    ErrorCode (ErrorCode'),
+    ErrorCode (..),
 
     -- * ExportFilterName
-    ExportFilterName (ExportFilterName'),
+    ExportFilterName (..),
 
     -- * ExportFilterOperator
-    ExportFilterOperator (ExportFilterOperator'),
+    ExportFilterOperator (..),
 
     -- * ExportSortAttribute
-    ExportSortAttribute (ExportSortAttribute'),
+    ExportSortAttribute (..),
 
     -- * ExportStatus
-    ExportStatus (ExportStatus'),
+    ExportStatus (..),
 
     -- * ImportExportFileFormat
-    ImportExportFileFormat (ImportExportFileFormat'),
+    ImportExportFileFormat (..),
 
     -- * ImportFilterName
-    ImportFilterName (ImportFilterName'),
+    ImportFilterName (..),
 
     -- * ImportFilterOperator
-    ImportFilterOperator (ImportFilterOperator'),
+    ImportFilterOperator (..),
 
     -- * ImportResourceType
-    ImportResourceType (ImportResourceType'),
+    ImportResourceType (..),
 
     -- * ImportSortAttribute
-    ImportSortAttribute (ImportSortAttribute'),
+    ImportSortAttribute (..),
 
     -- * ImportStatus
-    ImportStatus (ImportStatus'),
+    ImportStatus (..),
 
     -- * IntentFilterName
-    IntentFilterName (IntentFilterName'),
+    IntentFilterName (..),
 
     -- * IntentFilterOperator
-    IntentFilterOperator (IntentFilterOperator'),
+    IntentFilterOperator (..),
 
     -- * IntentSortAttribute
-    IntentSortAttribute (IntentSortAttribute'),
+    IntentSortAttribute (..),
 
     -- * MergeStrategy
-    MergeStrategy (MergeStrategy'),
+    MergeStrategy (..),
 
     -- * MessageSelectionStrategy
-    MessageSelectionStrategy (MessageSelectionStrategy'),
+    MessageSelectionStrategy (..),
 
     -- * ObfuscationSettingType
-    ObfuscationSettingType (ObfuscationSettingType'),
+    ObfuscationSettingType (..),
 
     -- * PromptAttempt
-    PromptAttempt (PromptAttempt'),
+    PromptAttempt (..),
 
     -- * SearchOrder
-    SearchOrder (SearchOrder'),
+    SearchOrder (..),
 
     -- * SlotConstraint
-    SlotConstraint (SlotConstraint'),
+    SlotConstraint (..),
 
     -- * SlotFilterName
-    SlotFilterName (SlotFilterName'),
+    SlotFilterName (..),
 
     -- * SlotFilterOperator
-    SlotFilterOperator (SlotFilterOperator'),
+    SlotFilterOperator (..),
 
     -- * SlotShape
-    SlotShape (SlotShape'),
+    SlotShape (..),
 
     -- * SlotSortAttribute
-    SlotSortAttribute (SlotSortAttribute'),
+    SlotSortAttribute (..),
 
     -- * SlotTypeCategory
-    SlotTypeCategory (SlotTypeCategory'),
+    SlotTypeCategory (..),
 
     -- * SlotTypeFilterName
-    SlotTypeFilterName (SlotTypeFilterName'),
+    SlotTypeFilterName (..),
 
     -- * SlotTypeFilterOperator
-    SlotTypeFilterOperator (SlotTypeFilterOperator'),
+    SlotTypeFilterOperator (..),
 
     -- * SlotTypeSortAttribute
-    SlotTypeSortAttribute (SlotTypeSortAttribute'),
+    SlotTypeSortAttribute (..),
 
     -- * SlotValueResolutionStrategy
-    SlotValueResolutionStrategy (SlotValueResolutionStrategy'),
+    SlotValueResolutionStrategy (..),
 
     -- * SortOrder
-    SortOrder (SortOrder'),
+    SortOrder (..),
 
     -- * TimeDimension
-    TimeDimension (TimeDimension'),
+    TimeDimension (..),
 
     -- * TranscriptFormat
-    TranscriptFormat (TranscriptFormat'),
+    TranscriptFormat (..),
 
     -- * VoiceEngine
-    VoiceEngine (VoiceEngine'),
+    VoiceEngine (..),
 
     -- * AdvancedRecognitionSetting
     AdvancedRecognitionSetting (AdvancedRecognitionSetting'),

@@ -52,208 +52,208 @@ module Amazonka.IoT.Types
     _VersionsLimitExceededException,
 
     -- * AbortAction
-    AbortAction (AbortAction'),
+    AbortAction (..),
 
     -- * ActionType
-    ActionType (ActionType'),
+    ActionType (..),
 
     -- * AggregationTypeName
-    AggregationTypeName (AggregationTypeName'),
+    AggregationTypeName (..),
 
     -- * AlertTargetType
-    AlertTargetType (AlertTargetType'),
+    AlertTargetType (..),
 
     -- * AuditCheckRunStatus
-    AuditCheckRunStatus (AuditCheckRunStatus'),
+    AuditCheckRunStatus (..),
 
     -- * AuditFindingSeverity
-    AuditFindingSeverity (AuditFindingSeverity'),
+    AuditFindingSeverity (..),
 
     -- * AuditFrequency
-    AuditFrequency (AuditFrequency'),
+    AuditFrequency (..),
 
     -- * AuditMitigationActionsExecutionStatus
-    AuditMitigationActionsExecutionStatus (AuditMitigationActionsExecutionStatus'),
+    AuditMitigationActionsExecutionStatus (..),
 
     -- * AuditMitigationActionsTaskStatus
-    AuditMitigationActionsTaskStatus (AuditMitigationActionsTaskStatus'),
+    AuditMitigationActionsTaskStatus (..),
 
     -- * AuditNotificationType
-    AuditNotificationType (AuditNotificationType'),
+    AuditNotificationType (..),
 
     -- * AuditTaskStatus
-    AuditTaskStatus (AuditTaskStatus'),
+    AuditTaskStatus (..),
 
     -- * AuditTaskType
-    AuditTaskType (AuditTaskType'),
+    AuditTaskType (..),
 
     -- * AuthDecision
-    AuthDecision (AuthDecision'),
+    AuthDecision (..),
 
     -- * AuthorizerStatus
-    AuthorizerStatus (AuthorizerStatus'),
+    AuthorizerStatus (..),
 
     -- * AutoRegistrationStatus
-    AutoRegistrationStatus (AutoRegistrationStatus'),
+    AutoRegistrationStatus (..),
 
     -- * AwsJobAbortCriteriaAbortAction
-    AwsJobAbortCriteriaAbortAction (AwsJobAbortCriteriaAbortAction'),
+    AwsJobAbortCriteriaAbortAction (..),
 
     -- * AwsJobAbortCriteriaFailureType
-    AwsJobAbortCriteriaFailureType (AwsJobAbortCriteriaFailureType'),
+    AwsJobAbortCriteriaFailureType (..),
 
     -- * BehaviorCriteriaType
-    BehaviorCriteriaType (BehaviorCriteriaType'),
+    BehaviorCriteriaType (..),
 
     -- * CACertificateStatus
-    CACertificateStatus (CACertificateStatus'),
+    CACertificateStatus (..),
 
     -- * CACertificateUpdateAction
-    CACertificateUpdateAction (CACertificateUpdateAction'),
+    CACertificateUpdateAction (..),
 
     -- * CannedAccessControlList
-    CannedAccessControlList (CannedAccessControlList'),
+    CannedAccessControlList (..),
 
     -- * CertificateMode
-    CertificateMode (CertificateMode'),
+    CertificateMode (..),
 
     -- * CertificateStatus
-    CertificateStatus (CertificateStatus'),
+    CertificateStatus (..),
 
     -- * ComparisonOperator
-    ComparisonOperator (ComparisonOperator'),
+    ComparisonOperator (..),
 
     -- * ConfidenceLevel
-    ConfidenceLevel (ConfidenceLevel'),
+    ConfidenceLevel (..),
 
     -- * CustomMetricType
-    CustomMetricType (CustomMetricType'),
+    CustomMetricType (..),
 
     -- * DayOfWeek
-    DayOfWeek (DayOfWeek'),
+    DayOfWeek (..),
 
     -- * DetectMitigationActionExecutionStatus
-    DetectMitigationActionExecutionStatus (DetectMitigationActionExecutionStatus'),
+    DetectMitigationActionExecutionStatus (..),
 
     -- * DetectMitigationActionsTaskStatus
-    DetectMitigationActionsTaskStatus (DetectMitigationActionsTaskStatus'),
+    DetectMitigationActionsTaskStatus (..),
 
     -- * DeviceCertificateUpdateAction
-    DeviceCertificateUpdateAction (DeviceCertificateUpdateAction'),
+    DeviceCertificateUpdateAction (..),
 
     -- * DeviceDefenderIndexingMode
-    DeviceDefenderIndexingMode (DeviceDefenderIndexingMode'),
+    DeviceDefenderIndexingMode (..),
 
     -- * DimensionType
-    DimensionType (DimensionType'),
+    DimensionType (..),
 
     -- * DimensionValueOperator
-    DimensionValueOperator (DimensionValueOperator'),
+    DimensionValueOperator (..),
 
     -- * DomainConfigurationStatus
-    DomainConfigurationStatus (DomainConfigurationStatus'),
+    DomainConfigurationStatus (..),
 
     -- * DomainType
-    DomainType (DomainType'),
+    DomainType (..),
 
     -- * DynamicGroupStatus
-    DynamicGroupStatus (DynamicGroupStatus'),
+    DynamicGroupStatus (..),
 
     -- * DynamoKeyType
-    DynamoKeyType (DynamoKeyType'),
+    DynamoKeyType (..),
 
     -- * EventType
-    EventType (EventType'),
+    EventType (..),
 
     -- * FieldType
-    FieldType (FieldType'),
+    FieldType (..),
 
     -- * FleetMetricUnit
-    FleetMetricUnit (FleetMetricUnit'),
+    FleetMetricUnit (..),
 
     -- * IndexStatus
-    IndexStatus (IndexStatus'),
+    IndexStatus (..),
 
     -- * JobEndBehavior
-    JobEndBehavior (JobEndBehavior'),
+    JobEndBehavior (..),
 
     -- * JobExecutionFailureType
-    JobExecutionFailureType (JobExecutionFailureType'),
+    JobExecutionFailureType (..),
 
     -- * JobExecutionStatus
-    JobExecutionStatus (JobExecutionStatus'),
+    JobExecutionStatus (..),
 
     -- * JobStatus
-    JobStatus (JobStatus'),
+    JobStatus (..),
 
     -- * LogLevel
-    LogLevel (LogLevel'),
+    LogLevel (..),
 
     -- * LogTargetType
-    LogTargetType (LogTargetType'),
+    LogTargetType (..),
 
     -- * MessageFormat
-    MessageFormat (MessageFormat'),
+    MessageFormat (..),
 
     -- * MitigationActionType
-    MitigationActionType (MitigationActionType'),
+    MitigationActionType (..),
 
     -- * ModelStatus
-    ModelStatus (ModelStatus'),
+    ModelStatus (..),
 
     -- * NamedShadowIndexingMode
-    NamedShadowIndexingMode (NamedShadowIndexingMode'),
+    NamedShadowIndexingMode (..),
 
     -- * OTAUpdateStatus
-    OTAUpdateStatus (OTAUpdateStatus'),
+    OTAUpdateStatus (..),
 
     -- * PolicyTemplateName
-    PolicyTemplateName (PolicyTemplateName'),
+    PolicyTemplateName (..),
 
     -- * Protocol
-    Protocol (Protocol'),
+    Protocol (..),
 
     -- * ReportType
-    ReportType (ReportType'),
+    ReportType (..),
 
     -- * ResourceType
-    ResourceType (ResourceType'),
+    ResourceType (..),
 
     -- * RetryableFailureType
-    RetryableFailureType (RetryableFailureType'),
+    RetryableFailureType (..),
 
     -- * ServerCertificateStatus
-    ServerCertificateStatus (ServerCertificateStatus'),
+    ServerCertificateStatus (..),
 
     -- * ServiceType
-    ServiceType (ServiceType'),
+    ServiceType (..),
 
     -- * TargetSelection
-    TargetSelection (TargetSelection'),
+    TargetSelection (..),
 
     -- * TaskStatus
-    TaskStatus (TaskStatus'),
+    TaskStatus (..),
 
     -- * TemplateType
-    TemplateType (TemplateType'),
+    TemplateType (..),
 
     -- * ThingConnectivityIndexingMode
-    ThingConnectivityIndexingMode (ThingConnectivityIndexingMode'),
+    ThingConnectivityIndexingMode (..),
 
     -- * ThingGroupIndexingMode
-    ThingGroupIndexingMode (ThingGroupIndexingMode'),
+    ThingGroupIndexingMode (..),
 
     -- * ThingIndexingMode
-    ThingIndexingMode (ThingIndexingMode'),
+    ThingIndexingMode (..),
 
     -- * TopicRuleDestinationStatus
-    TopicRuleDestinationStatus (TopicRuleDestinationStatus'),
+    TopicRuleDestinationStatus (..),
 
     -- * VerificationState
-    VerificationState (VerificationState'),
+    VerificationState (..),
 
     -- * ViolationEventType
-    ViolationEventType (ViolationEventType'),
+    ViolationEventType (..),
 
     -- * AbortConfig
     AbortConfig (AbortConfig'),

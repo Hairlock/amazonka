@@ -26,13 +26,13 @@ module Amazonka.EMRServerless.Types
     _ValidationException,
 
     -- * ApplicationState
-    ApplicationState (ApplicationState'),
+    ApplicationState (..),
 
     -- * Architecture
-    Architecture (Architecture'),
+    Architecture (..),
 
     -- * JobRunState
-    JobRunState (JobRunState'),
+    JobRunState (..),
 
     -- * Application
     Application (Application'),

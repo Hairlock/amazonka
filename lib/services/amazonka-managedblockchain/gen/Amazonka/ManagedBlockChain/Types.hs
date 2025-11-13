@@ -31,40 +31,40 @@ module Amazonka.ManagedBlockChain.Types
     _TooManyTagsException,
 
     -- * AccessorStatus
-    AccessorStatus (AccessorStatus'),
+    AccessorStatus (..),
 
     -- * AccessorType
-    AccessorType (AccessorType'),
+    AccessorType (..),
 
     -- * Edition
-    Edition (Edition'),
+    Edition (..),
 
     -- * Framework
-    Framework (Framework'),
+    Framework (..),
 
     -- * InvitationStatus
-    InvitationStatus (InvitationStatus'),
+    InvitationStatus (..),
 
     -- * MemberStatus
-    MemberStatus (MemberStatus'),
+    MemberStatus (..),
 
     -- * NetworkStatus
-    NetworkStatus (NetworkStatus'),
+    NetworkStatus (..),
 
     -- * NodeStatus
-    NodeStatus (NodeStatus'),
+    NodeStatus (..),
 
     -- * ProposalStatus
-    ProposalStatus (ProposalStatus'),
+    ProposalStatus (..),
 
     -- * StateDBType
-    StateDBType (StateDBType'),
+    StateDBType (..),
 
     -- * ThresholdComparator
-    ThresholdComparator (ThresholdComparator'),
+    ThresholdComparator (..),
 
     -- * VoteValue
-    VoteValue (VoteValue'),
+    VoteValue (..),
 
     -- * Accessor
     Accessor (Accessor'),

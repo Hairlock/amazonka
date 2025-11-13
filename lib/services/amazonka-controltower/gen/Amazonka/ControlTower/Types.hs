@@ -28,10 +28,10 @@ module Amazonka.ControlTower.Types
     _ValidationException,
 
     -- * ControlOperationStatus
-    ControlOperationStatus (ControlOperationStatus'),
+    ControlOperationStatus (..),
 
     -- * ControlOperationType
-    ControlOperationType (ControlOperationType'),
+    ControlOperationType (..),
 
     -- * ControlOperation
     ControlOperation (ControlOperation'),

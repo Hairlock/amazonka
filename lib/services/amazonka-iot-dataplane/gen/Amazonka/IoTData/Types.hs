@@ -31,7 +31,7 @@ module Amazonka.IoTData.Types
     _UnsupportedDocumentEncodingException,
 
     -- * PayloadFormatIndicator
-    PayloadFormatIndicator (PayloadFormatIndicator'),
+    PayloadFormatIndicator (..),
 
     -- * RetainedMessageSummary
     RetainedMessageSummary (RetainedMessageSummary'),

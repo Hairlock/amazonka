@@ -29,64 +29,64 @@ module Amazonka.ComprehendMedical.Types
     _ValidationException,
 
     -- * AttributeName
-    AttributeName (AttributeName'),
+    AttributeName (..),
 
     -- * EntitySubType
-    EntitySubType (EntitySubType'),
+    EntitySubType (..),
 
     -- * EntityType
-    EntityType (EntityType'),
+    EntityType (..),
 
     -- * ICD10CMAttributeType
-    ICD10CMAttributeType (ICD10CMAttributeType'),
+    ICD10CMAttributeType (..),
 
     -- * ICD10CMEntityCategory
-    ICD10CMEntityCategory (ICD10CMEntityCategory'),
+    ICD10CMEntityCategory (..),
 
     -- * ICD10CMEntityType
-    ICD10CMEntityType (ICD10CMEntityType'),
+    ICD10CMEntityType (..),
 
     -- * ICD10CMRelationshipType
-    ICD10CMRelationshipType (ICD10CMRelationshipType'),
+    ICD10CMRelationshipType (..),
 
     -- * ICD10CMTraitName
-    ICD10CMTraitName (ICD10CMTraitName'),
+    ICD10CMTraitName (..),
 
     -- * JobStatus
-    JobStatus (JobStatus'),
+    JobStatus (..),
 
     -- * LanguageCode
-    LanguageCode (LanguageCode'),
+    LanguageCode (..),
 
     -- * RelationshipType
-    RelationshipType (RelationshipType'),
+    RelationshipType (..),
 
     -- * RxNormAttributeType
-    RxNormAttributeType (RxNormAttributeType'),
+    RxNormAttributeType (..),
 
     -- * RxNormEntityCategory
-    RxNormEntityCategory (RxNormEntityCategory'),
+    RxNormEntityCategory (..),
 
     -- * RxNormEntityType
-    RxNormEntityType (RxNormEntityType'),
+    RxNormEntityType (..),
 
     -- * RxNormTraitName
-    RxNormTraitName (RxNormTraitName'),
+    RxNormTraitName (..),
 
     -- * SNOMEDCTAttributeType
-    SNOMEDCTAttributeType (SNOMEDCTAttributeType'),
+    SNOMEDCTAttributeType (..),
 
     -- * SNOMEDCTEntityCategory
-    SNOMEDCTEntityCategory (SNOMEDCTEntityCategory'),
+    SNOMEDCTEntityCategory (..),
 
     -- * SNOMEDCTEntityType
-    SNOMEDCTEntityType (SNOMEDCTEntityType'),
+    SNOMEDCTEntityType (..),
 
     -- * SNOMEDCTRelationshipType
-    SNOMEDCTRelationshipType (SNOMEDCTRelationshipType'),
+    SNOMEDCTRelationshipType (..),
 
     -- * SNOMEDCTTraitName
-    SNOMEDCTTraitName (SNOMEDCTTraitName'),
+    SNOMEDCTTraitName (..),
 
     -- * Attribute
     Attribute (Attribute'),

@@ -44,16 +44,16 @@ module Amazonka.ECRPublic.Types
     _UploadNotFoundException,
 
     -- * ImageFailureCode
-    ImageFailureCode (ImageFailureCode'),
+    ImageFailureCode (..),
 
     -- * LayerAvailability
-    LayerAvailability (LayerAvailability'),
+    LayerAvailability (..),
 
     -- * LayerFailureCode
-    LayerFailureCode (LayerFailureCode'),
+    LayerFailureCode (..),
 
     -- * RegistryAliasStatus
-    RegistryAliasStatus (RegistryAliasStatus'),
+    RegistryAliasStatus (..),
 
     -- * AuthorizationData
     AuthorizationData (AuthorizationData'),

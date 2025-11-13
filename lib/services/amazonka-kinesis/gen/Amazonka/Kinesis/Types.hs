@@ -37,28 +37,28 @@ module Amazonka.Kinesis.Types
     _ValidationException,
 
     -- * ConsumerStatus
-    ConsumerStatus (ConsumerStatus'),
+    ConsumerStatus (..),
 
     -- * EncryptionType
-    EncryptionType (EncryptionType'),
+    EncryptionType (..),
 
     -- * MetricsName
-    MetricsName (MetricsName'),
+    MetricsName (..),
 
     -- * ScalingType
-    ScalingType (ScalingType'),
+    ScalingType (..),
 
     -- * ShardFilterType
-    ShardFilterType (ShardFilterType'),
+    ShardFilterType (..),
 
     -- * ShardIteratorType
-    ShardIteratorType (ShardIteratorType'),
+    ShardIteratorType (..),
 
     -- * StreamMode
-    StreamMode (StreamMode'),
+    StreamMode (..),
 
     -- * StreamStatus
-    StreamStatus (StreamStatus'),
+    StreamStatus (..),
 
     -- * ChildShard
     ChildShard (ChildShard'),

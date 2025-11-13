@@ -27,40 +27,40 @@ module Amazonka.Athena.Types
     _TooManyRequestsException,
 
     -- * CalculationExecutionState
-    CalculationExecutionState (CalculationExecutionState'),
+    CalculationExecutionState (..),
 
     -- * ColumnNullable
-    ColumnNullable (ColumnNullable'),
+    ColumnNullable (..),
 
     -- * DataCatalogType
-    DataCatalogType (DataCatalogType'),
+    DataCatalogType (..),
 
     -- * EncryptionOption
-    EncryptionOption (EncryptionOption'),
+    EncryptionOption (..),
 
     -- * ExecutorState
-    ExecutorState (ExecutorState'),
+    ExecutorState (..),
 
     -- * ExecutorType
-    ExecutorType (ExecutorType'),
+    ExecutorType (..),
 
     -- * NotebookType
-    NotebookType (NotebookType'),
+    NotebookType (..),
 
     -- * QueryExecutionState
-    QueryExecutionState (QueryExecutionState'),
+    QueryExecutionState (..),
 
     -- * S3AclOption
-    S3AclOption (S3AclOption'),
+    S3AclOption (..),
 
     -- * SessionState
-    SessionState (SessionState'),
+    SessionState (..),
 
     -- * StatementType
-    StatementType (StatementType'),
+    StatementType (..),
 
     -- * WorkGroupState
-    WorkGroupState (WorkGroupState'),
+    WorkGroupState (..),
 
     -- * AclConfiguration
     AclConfiguration (AclConfiguration'),

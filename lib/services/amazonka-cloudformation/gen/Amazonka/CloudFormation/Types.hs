@@ -43,163 +43,163 @@ module Amazonka.CloudFormation.Types
     _TypeNotFoundException,
 
     -- * AccountFilterType
-    AccountFilterType (AccountFilterType'),
+    AccountFilterType (..),
 
     -- * AccountGateStatus
-    AccountGateStatus (AccountGateStatus'),
+    AccountGateStatus (..),
 
     -- * CallAs
-    CallAs (CallAs'),
+    CallAs (..),
 
     -- * Capability
-    Capability (Capability'),
+    Capability (..),
 
     -- * Category
-    Category (Category'),
+    Category (..),
 
     -- * ChangeAction
-    ChangeAction (ChangeAction'),
+    ChangeAction (..),
 
     -- * ChangeSetHooksStatus
-    ChangeSetHooksStatus (ChangeSetHooksStatus'),
+    ChangeSetHooksStatus (..),
 
     -- * ChangeSetStatus
-    ChangeSetStatus (ChangeSetStatus'),
+    ChangeSetStatus (..),
 
     -- * ChangeSetType
-    ChangeSetType (ChangeSetType'),
+    ChangeSetType (..),
 
     -- * ChangeSource
-    ChangeSource (ChangeSource'),
+    ChangeSource (..),
 
     -- * ChangeType
-    ChangeType (ChangeType'),
+    ChangeType (..),
 
     -- * DeprecatedStatus
-    DeprecatedStatus (DeprecatedStatus'),
+    DeprecatedStatus (..),
 
     -- * DifferenceType
-    DifferenceType (DifferenceType'),
+    DifferenceType (..),
 
     -- * EvaluationType
-    EvaluationType (EvaluationType'),
+    EvaluationType (..),
 
     -- * ExecutionStatus
-    ExecutionStatus (ExecutionStatus'),
+    ExecutionStatus (..),
 
     -- * HandlerErrorCode
-    HandlerErrorCode (HandlerErrorCode'),
+    HandlerErrorCode (..),
 
     -- * HookFailureMode
-    HookFailureMode (HookFailureMode'),
+    HookFailureMode (..),
 
     -- * HookInvocationPoint
-    HookInvocationPoint (HookInvocationPoint'),
+    HookInvocationPoint (..),
 
     -- * HookStatus
-    HookStatus (HookStatus'),
+    HookStatus (..),
 
     -- * HookTargetType
-    HookTargetType (HookTargetType'),
+    HookTargetType (..),
 
     -- * IdentityProvider
-    IdentityProvider (IdentityProvider'),
+    IdentityProvider (..),
 
     -- * OnFailure
-    OnFailure (OnFailure'),
+    OnFailure (..),
 
     -- * OperationResultFilterName
-    OperationResultFilterName (OperationResultFilterName'),
+    OperationResultFilterName (..),
 
     -- * OperationStatus
-    OperationStatus (OperationStatus'),
+    OperationStatus (..),
 
     -- * PermissionModels
-    PermissionModels (PermissionModels'),
+    PermissionModels (..),
 
     -- * ProvisioningType
-    ProvisioningType (ProvisioningType'),
+    ProvisioningType (..),
 
     -- * PublisherStatus
-    PublisherStatus (PublisherStatus'),
+    PublisherStatus (..),
 
     -- * RegionConcurrencyType
-    RegionConcurrencyType (RegionConcurrencyType'),
+    RegionConcurrencyType (..),
 
     -- * RegistrationStatus
-    RegistrationStatus (RegistrationStatus'),
+    RegistrationStatus (..),
 
     -- * RegistryType
-    RegistryType (RegistryType'),
+    RegistryType (..),
 
     -- * Replacement
-    Replacement (Replacement'),
+    Replacement (..),
 
     -- * RequiresRecreation
-    RequiresRecreation (RequiresRecreation'),
+    RequiresRecreation (..),
 
     -- * ResourceAttribute
-    ResourceAttribute (ResourceAttribute'),
+    ResourceAttribute (..),
 
     -- * ResourceSignalStatus
-    ResourceSignalStatus (ResourceSignalStatus'),
+    ResourceSignalStatus (..),
 
     -- * ResourceStatus
-    ResourceStatus (ResourceStatus'),
+    ResourceStatus (..),
 
     -- * StackDriftDetectionStatus
-    StackDriftDetectionStatus (StackDriftDetectionStatus'),
+    StackDriftDetectionStatus (..),
 
     -- * StackDriftStatus
-    StackDriftStatus (StackDriftStatus'),
+    StackDriftStatus (..),
 
     -- * StackInstanceDetailedStatus
-    StackInstanceDetailedStatus (StackInstanceDetailedStatus'),
+    StackInstanceDetailedStatus (..),
 
     -- * StackInstanceFilterName
-    StackInstanceFilterName (StackInstanceFilterName'),
+    StackInstanceFilterName (..),
 
     -- * StackInstanceStatus
-    StackInstanceStatus (StackInstanceStatus'),
+    StackInstanceStatus (..),
 
     -- * StackResourceDriftStatus
-    StackResourceDriftStatus (StackResourceDriftStatus'),
+    StackResourceDriftStatus (..),
 
     -- * StackSetDriftDetectionStatus
-    StackSetDriftDetectionStatus (StackSetDriftDetectionStatus'),
+    StackSetDriftDetectionStatus (..),
 
     -- * StackSetDriftStatus
-    StackSetDriftStatus (StackSetDriftStatus'),
+    StackSetDriftStatus (..),
 
     -- * StackSetOperationAction
-    StackSetOperationAction (StackSetOperationAction'),
+    StackSetOperationAction (..),
 
     -- * StackSetOperationResultStatus
-    StackSetOperationResultStatus (StackSetOperationResultStatus'),
+    StackSetOperationResultStatus (..),
 
     -- * StackSetOperationStatus
-    StackSetOperationStatus (StackSetOperationStatus'),
+    StackSetOperationStatus (..),
 
     -- * StackSetStatus
-    StackSetStatus (StackSetStatus'),
+    StackSetStatus (..),
 
     -- * StackStatus
-    StackStatus (StackStatus'),
+    StackStatus (..),
 
     -- * TemplateStage
-    TemplateStage (TemplateStage'),
+    TemplateStage (..),
 
     -- * ThirdPartyType
-    ThirdPartyType (ThirdPartyType'),
+    ThirdPartyType (..),
 
     -- * TypeTestsStatus
-    TypeTestsStatus (TypeTestsStatus'),
+    TypeTestsStatus (..),
 
     -- * VersionBump
-    VersionBump (VersionBump'),
+    VersionBump (..),
 
     -- * Visibility
-    Visibility (Visibility'),
+    Visibility (..),
 
     -- * AccountGateResult
     AccountGateResult (AccountGateResult'),

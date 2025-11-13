@@ -88,10 +88,10 @@ module Amazonka.Neptune.Types
     _SubscriptionNotFoundFault,
 
     -- * ApplyMethod
-    ApplyMethod (ApplyMethod'),
+    ApplyMethod (..),
 
     -- * SourceType
-    SourceType (SourceType'),
+    SourceType (..),
 
     -- * AvailabilityZone
     AvailabilityZone (AvailabilityZone'),

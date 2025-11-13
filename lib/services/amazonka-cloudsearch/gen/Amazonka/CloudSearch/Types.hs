@@ -29,25 +29,25 @@ module Amazonka.CloudSearch.Types
     _ValidationException,
 
     -- * AlgorithmicStemming
-    AlgorithmicStemming (AlgorithmicStemming'),
+    AlgorithmicStemming (..),
 
     -- * AnalysisSchemeLanguage
-    AnalysisSchemeLanguage (AnalysisSchemeLanguage'),
+    AnalysisSchemeLanguage (..),
 
     -- * IndexFieldType
-    IndexFieldType (IndexFieldType'),
+    IndexFieldType (..),
 
     -- * OptionState
-    OptionState (OptionState'),
+    OptionState (..),
 
     -- * PartitionInstanceType
-    PartitionInstanceType (PartitionInstanceType'),
+    PartitionInstanceType (..),
 
     -- * SuggesterFuzzyMatching
-    SuggesterFuzzyMatching (SuggesterFuzzyMatching'),
+    SuggesterFuzzyMatching (..),
 
     -- * TLSSecurityPolicy
-    TLSSecurityPolicy (TLSSecurityPolicy'),
+    TLSSecurityPolicy (..),
 
     -- * AccessPoliciesStatus
     AccessPoliciesStatus (AccessPoliciesStatus'),

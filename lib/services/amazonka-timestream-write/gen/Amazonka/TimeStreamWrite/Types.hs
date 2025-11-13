@@ -30,19 +30,19 @@ module Amazonka.TimeStreamWrite.Types
     _ValidationException,
 
     -- * DimensionValueType
-    DimensionValueType (DimensionValueType'),
+    DimensionValueType (..),
 
     -- * MeasureValueType
-    MeasureValueType (MeasureValueType'),
+    MeasureValueType (..),
 
     -- * S3EncryptionOption
-    S3EncryptionOption (S3EncryptionOption'),
+    S3EncryptionOption (..),
 
     -- * TableStatus
-    TableStatus (TableStatus'),
+    TableStatus (..),
 
     -- * TimeUnit
-    TimeUnit (TimeUnit'),
+    TimeUnit (..),
 
     -- * Database
     Database (Database'),

@@ -25,34 +25,34 @@ module Amazonka.SSMSAP.Types
     _ValidationException,
 
     -- * ApplicationStatus
-    ApplicationStatus (ApplicationStatus'),
+    ApplicationStatus (..),
 
     -- * ApplicationType
-    ApplicationType (ApplicationType'),
+    ApplicationType (..),
 
     -- * ComponentStatus
-    ComponentStatus (ComponentStatus'),
+    ComponentStatus (..),
 
     -- * ComponentType
-    ComponentType (ComponentType'),
+    ComponentType (..),
 
     -- * CredentialType
-    CredentialType (CredentialType'),
+    CredentialType (..),
 
     -- * DatabaseStatus
-    DatabaseStatus (DatabaseStatus'),
+    DatabaseStatus (..),
 
     -- * DatabaseType
-    DatabaseType (DatabaseType'),
+    DatabaseType (..),
 
     -- * HostRole
-    HostRole (HostRole'),
+    HostRole (..),
 
     -- * OperationStatus
-    OperationStatus (OperationStatus'),
+    OperationStatus (..),
 
     -- * PermissionActionType
-    PermissionActionType (PermissionActionType'),
+    PermissionActionType (..),
 
     -- * Application
     Application (Application'),

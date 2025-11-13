@@ -29,34 +29,34 @@ module Amazonka.Glacier.Types
     _ServiceUnavailableException,
 
     -- * ActionCode
-    ActionCode (ActionCode'),
+    ActionCode (..),
 
     -- * CannedACL
-    CannedACL (CannedACL'),
+    CannedACL (..),
 
     -- * EncryptionType
-    EncryptionType (EncryptionType'),
+    EncryptionType (..),
 
     -- * ExpressionType
-    ExpressionType (ExpressionType'),
+    ExpressionType (..),
 
     -- * FileHeaderInfo
-    FileHeaderInfo (FileHeaderInfo'),
+    FileHeaderInfo (..),
 
     -- * Permission
-    Permission (Permission'),
+    Permission (..),
 
     -- * QuoteFields
-    QuoteFields (QuoteFields'),
+    QuoteFields (..),
 
     -- * StatusCode
-    StatusCode (StatusCode'),
+    StatusCode (..),
 
     -- * StorageClass
-    StorageClass (StorageClass'),
+    StorageClass (..),
 
     -- * Type
-    Type (Type'),
+    Type (..),
 
     -- * ArchiveCreationOutput
     ArchiveCreationOutput (ArchiveCreationOutput'),

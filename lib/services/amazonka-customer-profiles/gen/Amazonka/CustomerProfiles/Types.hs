@@ -26,64 +26,64 @@ module Amazonka.CustomerProfiles.Types
     _ThrottlingException,
 
     -- * ConflictResolvingModel
-    ConflictResolvingModel (ConflictResolvingModel'),
+    ConflictResolvingModel (..),
 
     -- * DataPullMode
-    DataPullMode (DataPullMode'),
+    DataPullMode (..),
 
     -- * FieldContentType
-    FieldContentType (FieldContentType'),
+    FieldContentType (..),
 
     -- * Gender
-    Gender (Gender'),
+    Gender (..),
 
     -- * IdentityResolutionJobStatus
-    IdentityResolutionJobStatus (IdentityResolutionJobStatus'),
+    IdentityResolutionJobStatus (..),
 
     -- * JobScheduleDayOfTheWeek
-    JobScheduleDayOfTheWeek (JobScheduleDayOfTheWeek'),
+    JobScheduleDayOfTheWeek (..),
 
     -- * LogicalOperator
-    LogicalOperator (LogicalOperator'),
+    LogicalOperator (..),
 
     -- * MarketoConnectorOperator
-    MarketoConnectorOperator (MarketoConnectorOperator'),
+    MarketoConnectorOperator (..),
 
     -- * OperatorPropertiesKeys
-    OperatorPropertiesKeys (OperatorPropertiesKeys'),
+    OperatorPropertiesKeys (..),
 
     -- * PartyType
-    PartyType (PartyType'),
+    PartyType (..),
 
     -- * S3ConnectorOperator
-    S3ConnectorOperator (S3ConnectorOperator'),
+    S3ConnectorOperator (..),
 
     -- * SalesforceConnectorOperator
-    SalesforceConnectorOperator (SalesforceConnectorOperator'),
+    SalesforceConnectorOperator (..),
 
     -- * ServiceNowConnectorOperator
-    ServiceNowConnectorOperator (ServiceNowConnectorOperator'),
+    ServiceNowConnectorOperator (..),
 
     -- * SourceConnectorType
-    SourceConnectorType (SourceConnectorType'),
+    SourceConnectorType (..),
 
     -- * StandardIdentifier
-    StandardIdentifier (StandardIdentifier'),
+    StandardIdentifier (..),
 
     -- * Status
-    Status (Status'),
+    Status (..),
 
     -- * TaskType
-    TaskType (TaskType'),
+    TaskType (..),
 
     -- * TriggerType
-    TriggerType (TriggerType'),
+    TriggerType (..),
 
     -- * WorkflowType
-    WorkflowType (WorkflowType'),
+    WorkflowType (..),
 
     -- * ZendeskConnectorOperator
-    ZendeskConnectorOperator (ZendeskConnectorOperator'),
+    ZendeskConnectorOperator (..),
 
     -- * AdditionalSearchKey
     AdditionalSearchKey (AdditionalSearchKey'),

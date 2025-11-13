@@ -28,61 +28,61 @@ module Amazonka.APIGateway.Types
     _UnauthorizedException,
 
     -- * ApiKeySourceType
-    ApiKeySourceType (ApiKeySourceType'),
+    ApiKeySourceType (..),
 
     -- * ApiKeysFormat
-    ApiKeysFormat (ApiKeysFormat'),
+    ApiKeysFormat (..),
 
     -- * AuthorizerType
-    AuthorizerType (AuthorizerType'),
+    AuthorizerType (..),
 
     -- * CacheClusterSize
-    CacheClusterSize (CacheClusterSize'),
+    CacheClusterSize (..),
 
     -- * CacheClusterStatus
-    CacheClusterStatus (CacheClusterStatus'),
+    CacheClusterStatus (..),
 
     -- * ConnectionType
-    ConnectionType (ConnectionType'),
+    ConnectionType (..),
 
     -- * ContentHandlingStrategy
-    ContentHandlingStrategy (ContentHandlingStrategy'),
+    ContentHandlingStrategy (..),
 
     -- * DocumentationPartType
-    DocumentationPartType (DocumentationPartType'),
+    DocumentationPartType (..),
 
     -- * DomainNameStatus
-    DomainNameStatus (DomainNameStatus'),
+    DomainNameStatus (..),
 
     -- * EndpointType
-    EndpointType (EndpointType'),
+    EndpointType (..),
 
     -- * GatewayResponseType
-    GatewayResponseType (GatewayResponseType'),
+    GatewayResponseType (..),
 
     -- * IntegrationType
-    IntegrationType (IntegrationType'),
+    IntegrationType (..),
 
     -- * LocationStatusType
-    LocationStatusType (LocationStatusType'),
+    LocationStatusType (..),
 
     -- * Op
-    Op (Op'),
+    Op (..),
 
     -- * PutMode
-    PutMode (PutMode'),
+    PutMode (..),
 
     -- * QuotaPeriodType
-    QuotaPeriodType (QuotaPeriodType'),
+    QuotaPeriodType (..),
 
     -- * SecurityPolicy
-    SecurityPolicy (SecurityPolicy'),
+    SecurityPolicy (..),
 
     -- * UnauthorizedCacheControlHeaderStrategy
-    UnauthorizedCacheControlHeaderStrategy (UnauthorizedCacheControlHeaderStrategy'),
+    UnauthorizedCacheControlHeaderStrategy (..),
 
     -- * VpcLinkStatus
-    VpcLinkStatus (VpcLinkStatus'),
+    VpcLinkStatus (..),
 
     -- * AccessLogSettings
     AccessLogSettings (AccessLogSettings'),

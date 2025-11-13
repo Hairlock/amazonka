@@ -26,67 +26,67 @@ module Amazonka.Transcribe.Types
     _NotFoundException,
 
     -- * BaseModelName
-    BaseModelName (BaseModelName'),
+    BaseModelName (..),
 
     -- * CLMLanguageCode
-    CLMLanguageCode (CLMLanguageCode'),
+    CLMLanguageCode (..),
 
     -- * CallAnalyticsJobStatus
-    CallAnalyticsJobStatus (CallAnalyticsJobStatus'),
+    CallAnalyticsJobStatus (..),
 
     -- * InputType
-    InputType (InputType'),
+    InputType (..),
 
     -- * LanguageCode
-    LanguageCode (LanguageCode'),
+    LanguageCode (..),
 
     -- * MediaFormat
-    MediaFormat (MediaFormat'),
+    MediaFormat (..),
 
     -- * MedicalContentIdentificationType
-    MedicalContentIdentificationType (MedicalContentIdentificationType'),
+    MedicalContentIdentificationType (..),
 
     -- * ModelStatus
-    ModelStatus (ModelStatus'),
+    ModelStatus (..),
 
     -- * OutputLocationType
-    OutputLocationType (OutputLocationType'),
+    OutputLocationType (..),
 
     -- * ParticipantRole
-    ParticipantRole (ParticipantRole'),
+    ParticipantRole (..),
 
     -- * PiiEntityType
-    PiiEntityType (PiiEntityType'),
+    PiiEntityType (..),
 
     -- * RedactionOutput
-    RedactionOutput (RedactionOutput'),
+    RedactionOutput (..),
 
     -- * RedactionType
-    RedactionType (RedactionType'),
+    RedactionType (..),
 
     -- * SentimentValue
-    SentimentValue (SentimentValue'),
+    SentimentValue (..),
 
     -- * Specialty
-    Specialty (Specialty'),
+    Specialty (..),
 
     -- * SubtitleFormat
-    SubtitleFormat (SubtitleFormat'),
+    SubtitleFormat (..),
 
     -- * TranscriptFilterType
-    TranscriptFilterType (TranscriptFilterType'),
+    TranscriptFilterType (..),
 
     -- * TranscriptionJobStatus
-    TranscriptionJobStatus (TranscriptionJobStatus'),
+    TranscriptionJobStatus (..),
 
     -- * Type
-    Type (Type'),
+    Type (..),
 
     -- * VocabularyFilterMethod
-    VocabularyFilterMethod (VocabularyFilterMethod'),
+    VocabularyFilterMethod (..),
 
     -- * VocabularyState
-    VocabularyState (VocabularyState'),
+    VocabularyState (..),
 
     -- * AbsoluteTimeRange
     AbsoluteTimeRange (AbsoluteTimeRange'),

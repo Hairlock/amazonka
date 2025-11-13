@@ -34,16 +34,16 @@ module Amazonka.CognitoSync.Types
     _TooManyRequestsException,
 
     -- * BulkPublishStatus
-    BulkPublishStatus (BulkPublishStatus'),
+    BulkPublishStatus (..),
 
     -- * Operation
-    Operation (Operation'),
+    Operation (..),
 
     -- * Platform
-    Platform (Platform'),
+    Platform (..),
 
     -- * StreamingStatus
-    StreamingStatus (StreamingStatus'),
+    StreamingStatus (..),
 
     -- * CognitoStreams
     CognitoStreams (CognitoStreams'),

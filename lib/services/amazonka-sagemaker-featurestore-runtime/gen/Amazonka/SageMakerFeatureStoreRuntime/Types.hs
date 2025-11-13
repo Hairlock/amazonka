@@ -26,7 +26,7 @@ module Amazonka.SageMakerFeatureStoreRuntime.Types
     _ValidationError,
 
     -- * TargetStore
-    TargetStore (TargetStore'),
+    TargetStore (..),
 
     -- * BatchGetRecordError
     BatchGetRecordError (BatchGetRecordError'),

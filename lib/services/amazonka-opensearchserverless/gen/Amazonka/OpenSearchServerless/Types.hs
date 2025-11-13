@@ -25,22 +25,22 @@ module Amazonka.OpenSearchServerless.Types
     _ValidationException,
 
     -- * AccessPolicyType
-    AccessPolicyType (AccessPolicyType'),
+    AccessPolicyType (..),
 
     -- * CollectionStatus
-    CollectionStatus (CollectionStatus'),
+    CollectionStatus (..),
 
     -- * CollectionType
-    CollectionType (CollectionType'),
+    CollectionType (..),
 
     -- * SecurityConfigType
-    SecurityConfigType (SecurityConfigType'),
+    SecurityConfigType (..),
 
     -- * SecurityPolicyType
-    SecurityPolicyType (SecurityPolicyType'),
+    SecurityPolicyType (..),
 
     -- * VpcEndpointStatus
-    VpcEndpointStatus (VpcEndpointStatus'),
+    VpcEndpointStatus (..),
 
     -- * AccessPolicyDetail
     AccessPolicyDetail (AccessPolicyDetail'),

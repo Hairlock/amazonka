@@ -41,100 +41,100 @@ module Amazonka.Rekognition.Types
     _VideoTooLargeException,
 
     -- * Attribute
-    Attribute (Attribute'),
+    Attribute (..),
 
     -- * BodyPart
-    BodyPart (BodyPart'),
+    BodyPart (..),
 
     -- * CelebrityRecognitionSortBy
-    CelebrityRecognitionSortBy (CelebrityRecognitionSortBy'),
+    CelebrityRecognitionSortBy (..),
 
     -- * ContentClassifier
-    ContentClassifier (ContentClassifier'),
+    ContentClassifier (..),
 
     -- * ContentModerationSortBy
-    ContentModerationSortBy (ContentModerationSortBy'),
+    ContentModerationSortBy (..),
 
     -- * DatasetStatus
-    DatasetStatus (DatasetStatus'),
+    DatasetStatus (..),
 
     -- * DatasetStatusMessageCode
-    DatasetStatusMessageCode (DatasetStatusMessageCode'),
+    DatasetStatusMessageCode (..),
 
     -- * DatasetType
-    DatasetType (DatasetType'),
+    DatasetType (..),
 
     -- * DetectLabelsFeatureName
-    DetectLabelsFeatureName (DetectLabelsFeatureName'),
+    DetectLabelsFeatureName (..),
 
     -- * EmotionName
-    EmotionName (EmotionName'),
+    EmotionName (..),
 
     -- * FaceAttributes
-    FaceAttributes (FaceAttributes'),
+    FaceAttributes (..),
 
     -- * FaceSearchSortBy
-    FaceSearchSortBy (FaceSearchSortBy'),
+    FaceSearchSortBy (..),
 
     -- * GenderType
-    GenderType (GenderType'),
+    GenderType (..),
 
     -- * KnownGenderType
-    KnownGenderType (KnownGenderType'),
+    KnownGenderType (..),
 
     -- * LabelDetectionAggregateBy
-    LabelDetectionAggregateBy (LabelDetectionAggregateBy'),
+    LabelDetectionAggregateBy (..),
 
     -- * LabelDetectionFeatureName
-    LabelDetectionFeatureName (LabelDetectionFeatureName'),
+    LabelDetectionFeatureName (..),
 
     -- * LabelDetectionSortBy
-    LabelDetectionSortBy (LabelDetectionSortBy'),
+    LabelDetectionSortBy (..),
 
     -- * LandmarkType
-    LandmarkType (LandmarkType'),
+    LandmarkType (..),
 
     -- * OrientationCorrection
-    OrientationCorrection (OrientationCorrection'),
+    OrientationCorrection (..),
 
     -- * PersonTrackingSortBy
-    PersonTrackingSortBy (PersonTrackingSortBy'),
+    PersonTrackingSortBy (..),
 
     -- * ProjectStatus
-    ProjectStatus (ProjectStatus'),
+    ProjectStatus (..),
 
     -- * ProjectVersionStatus
-    ProjectVersionStatus (ProjectVersionStatus'),
+    ProjectVersionStatus (..),
 
     -- * ProtectiveEquipmentType
-    ProtectiveEquipmentType (ProtectiveEquipmentType'),
+    ProtectiveEquipmentType (..),
 
     -- * QualityFilter
-    QualityFilter (QualityFilter'),
+    QualityFilter (..),
 
     -- * Reason
-    Reason (Reason'),
+    Reason (..),
 
     -- * SegmentType
-    SegmentType (SegmentType'),
+    SegmentType (..),
 
     -- * StreamProcessorParameterToDelete
-    StreamProcessorParameterToDelete (StreamProcessorParameterToDelete'),
+    StreamProcessorParameterToDelete (..),
 
     -- * StreamProcessorStatus
-    StreamProcessorStatus (StreamProcessorStatus'),
+    StreamProcessorStatus (..),
 
     -- * TechnicalCueType
-    TechnicalCueType (TechnicalCueType'),
+    TechnicalCueType (..),
 
     -- * TextTypes
-    TextTypes (TextTypes'),
+    TextTypes (..),
 
     -- * VideoColorRange
-    VideoColorRange (VideoColorRange'),
+    VideoColorRange (..),
 
     -- * VideoJobStatus
-    VideoJobStatus (VideoJobStatus'),
+    VideoJobStatus (..),
 
     -- * AgeRange
     AgeRange (AgeRange'),

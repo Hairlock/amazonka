@@ -28,46 +28,46 @@ module Amazonka.FinSpaceData.Types
     _ValidationException,
 
     -- * ApiAccess
-    ApiAccess (ApiAccess'),
+    ApiAccess (..),
 
     -- * ApplicationPermission
-    ApplicationPermission (ApplicationPermission'),
+    ApplicationPermission (..),
 
     -- * ChangeType
-    ChangeType (ChangeType'),
+    ChangeType (..),
 
     -- * ColumnDataType
-    ColumnDataType (ColumnDataType'),
+    ColumnDataType (..),
 
     -- * DataViewStatus
-    DataViewStatus (DataViewStatus'),
+    DataViewStatus (..),
 
     -- * DatasetKind
-    DatasetKind (DatasetKind'),
+    DatasetKind (..),
 
     -- * DatasetStatus
-    DatasetStatus (DatasetStatus'),
+    DatasetStatus (..),
 
     -- * ErrorCategory
-    ErrorCategory (ErrorCategory'),
+    ErrorCategory (..),
 
     -- * ExportFileFormat
-    ExportFileFormat (ExportFileFormat'),
+    ExportFileFormat (..),
 
     -- * IngestionStatus
-    IngestionStatus (IngestionStatus'),
+    IngestionStatus (..),
 
     -- * LocationType
-    LocationType (LocationType'),
+    LocationType (..),
 
     -- * PermissionGroupMembershipStatus
-    PermissionGroupMembershipStatus (PermissionGroupMembershipStatus'),
+    PermissionGroupMembershipStatus (..),
 
     -- * UserStatus
-    UserStatus (UserStatus'),
+    UserStatus (..),
 
     -- * UserType
-    UserType (UserType'),
+    UserType (..),
 
     -- * AwsCredentials
     AwsCredentials (AwsCredentials'),

@@ -27,40 +27,40 @@ module Amazonka.AutoScalingPlans.Types
     _ValidationException,
 
     -- * ForecastDataType
-    ForecastDataType (ForecastDataType'),
+    ForecastDataType (..),
 
     -- * LoadMetricType
-    LoadMetricType (LoadMetricType'),
+    LoadMetricType (..),
 
     -- * MetricStatistic
-    MetricStatistic (MetricStatistic'),
+    MetricStatistic (..),
 
     -- * PolicyType
-    PolicyType (PolicyType'),
+    PolicyType (..),
 
     -- * PredictiveScalingMaxCapacityBehavior
-    PredictiveScalingMaxCapacityBehavior (PredictiveScalingMaxCapacityBehavior'),
+    PredictiveScalingMaxCapacityBehavior (..),
 
     -- * PredictiveScalingMode
-    PredictiveScalingMode (PredictiveScalingMode'),
+    PredictiveScalingMode (..),
 
     -- * ScalableDimension
-    ScalableDimension (ScalableDimension'),
+    ScalableDimension (..),
 
     -- * ScalingMetricType
-    ScalingMetricType (ScalingMetricType'),
+    ScalingMetricType (..),
 
     -- * ScalingPlanStatusCode
-    ScalingPlanStatusCode (ScalingPlanStatusCode'),
+    ScalingPlanStatusCode (..),
 
     -- * ScalingPolicyUpdateBehavior
-    ScalingPolicyUpdateBehavior (ScalingPolicyUpdateBehavior'),
+    ScalingPolicyUpdateBehavior (..),
 
     -- * ScalingStatusCode
-    ScalingStatusCode (ScalingStatusCode'),
+    ScalingStatusCode (..),
 
     -- * ServiceNamespace
-    ServiceNamespace (ServiceNamespace'),
+    ServiceNamespace (..),
 
     -- * ApplicationSource
     ApplicationSource (ApplicationSource'),

@@ -30,46 +30,46 @@ module Amazonka.ChimeSDKMessaging.Types
     _UnauthorizedClientException,
 
     -- * AllowNotifications
-    AllowNotifications (AllowNotifications'),
+    AllowNotifications (..),
 
     -- * ChannelMembershipType
-    ChannelMembershipType (ChannelMembershipType'),
+    ChannelMembershipType (..),
 
     -- * ChannelMessagePersistenceType
-    ChannelMessagePersistenceType (ChannelMessagePersistenceType'),
+    ChannelMessagePersistenceType (..),
 
     -- * ChannelMessageStatus
-    ChannelMessageStatus (ChannelMessageStatus'),
+    ChannelMessageStatus (..),
 
     -- * ChannelMessageType
-    ChannelMessageType (ChannelMessageType'),
+    ChannelMessageType (..),
 
     -- * ChannelMode
-    ChannelMode (ChannelMode'),
+    ChannelMode (..),
 
     -- * ChannelPrivacy
-    ChannelPrivacy (ChannelPrivacy'),
+    ChannelPrivacy (..),
 
     -- * ErrorCode
-    ErrorCode (ErrorCode'),
+    ErrorCode (..),
 
     -- * FallbackAction
-    FallbackAction (FallbackAction'),
+    FallbackAction (..),
 
     -- * InvocationType
-    InvocationType (InvocationType'),
+    InvocationType (..),
 
     -- * PushNotificationType
-    PushNotificationType (PushNotificationType'),
+    PushNotificationType (..),
 
     -- * SearchFieldKey
-    SearchFieldKey (SearchFieldKey'),
+    SearchFieldKey (..),
 
     -- * SearchFieldOperator
-    SearchFieldOperator (SearchFieldOperator'),
+    SearchFieldOperator (..),
 
     -- * SortOrder
-    SortOrder (SortOrder'),
+    SortOrder (..),
 
     -- * AppInstanceUserMembershipSummary
     AppInstanceUserMembershipSummary (AppInstanceUserMembershipSummary'),

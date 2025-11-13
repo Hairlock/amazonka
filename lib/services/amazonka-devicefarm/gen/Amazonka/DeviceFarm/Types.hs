@@ -33,88 +33,88 @@ module Amazonka.DeviceFarm.Types
     _TooManyTagsException,
 
     -- * ArtifactCategory
-    ArtifactCategory (ArtifactCategory'),
+    ArtifactCategory (..),
 
     -- * ArtifactType
-    ArtifactType (ArtifactType'),
+    ArtifactType (..),
 
     -- * BillingMethod
-    BillingMethod (BillingMethod'),
+    BillingMethod (..),
 
     -- * CurrencyCode
-    CurrencyCode (CurrencyCode'),
+    CurrencyCode (..),
 
     -- * DeviceAttribute
-    DeviceAttribute (DeviceAttribute'),
+    DeviceAttribute (..),
 
     -- * DeviceAvailability
-    DeviceAvailability (DeviceAvailability'),
+    DeviceAvailability (..),
 
     -- * DeviceFilterAttribute
-    DeviceFilterAttribute (DeviceFilterAttribute'),
+    DeviceFilterAttribute (..),
 
     -- * DeviceFormFactor
-    DeviceFormFactor (DeviceFormFactor'),
+    DeviceFormFactor (..),
 
     -- * DevicePlatform
-    DevicePlatform (DevicePlatform'),
+    DevicePlatform (..),
 
     -- * DevicePoolType
-    DevicePoolType (DevicePoolType'),
+    DevicePoolType (..),
 
     -- * ExecutionResult
-    ExecutionResult (ExecutionResult'),
+    ExecutionResult (..),
 
     -- * ExecutionResultCode
-    ExecutionResultCode (ExecutionResultCode'),
+    ExecutionResultCode (..),
 
     -- * ExecutionStatus
-    ExecutionStatus (ExecutionStatus'),
+    ExecutionStatus (..),
 
     -- * InstanceStatus
-    InstanceStatus (InstanceStatus'),
+    InstanceStatus (..),
 
     -- * InteractionMode
-    InteractionMode (InteractionMode'),
+    InteractionMode (..),
 
     -- * NetworkProfileType
-    NetworkProfileType (NetworkProfileType'),
+    NetworkProfileType (..),
 
     -- * OfferingTransactionType
-    OfferingTransactionType (OfferingTransactionType'),
+    OfferingTransactionType (..),
 
     -- * OfferingType
-    OfferingType (OfferingType'),
+    OfferingType (..),
 
     -- * RecurringChargeFrequency
-    RecurringChargeFrequency (RecurringChargeFrequency'),
+    RecurringChargeFrequency (..),
 
     -- * RuleOperator
-    RuleOperator (RuleOperator'),
+    RuleOperator (..),
 
     -- * SampleType
-    SampleType (SampleType'),
+    SampleType (..),
 
     -- * TestGridSessionArtifactCategory
-    TestGridSessionArtifactCategory (TestGridSessionArtifactCategory'),
+    TestGridSessionArtifactCategory (..),
 
     -- * TestGridSessionArtifactType
-    TestGridSessionArtifactType (TestGridSessionArtifactType'),
+    TestGridSessionArtifactType (..),
 
     -- * TestGridSessionStatus
-    TestGridSessionStatus (TestGridSessionStatus'),
+    TestGridSessionStatus (..),
 
     -- * TestType
-    TestType (TestType'),
+    TestType (..),
 
     -- * UploadCategory
-    UploadCategory (UploadCategory'),
+    UploadCategory (..),
 
     -- * UploadStatus
-    UploadStatus (UploadStatus'),
+    UploadStatus (..),
 
     -- * UploadType
-    UploadType (UploadType'),
+    UploadType (..),
 
     -- * AccountSettings
     AccountSettings (AccountSettings'),

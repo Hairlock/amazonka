@@ -28,94 +28,94 @@ module Amazonka.Nimble.Types
     _ValidationException,
 
     -- * AutomaticTerminationMode
-    AutomaticTerminationMode (AutomaticTerminationMode'),
+    AutomaticTerminationMode (..),
 
     -- * LaunchProfilePersona
-    LaunchProfilePersona (LaunchProfilePersona'),
+    LaunchProfilePersona (..),
 
     -- * LaunchProfilePlatform
-    LaunchProfilePlatform (LaunchProfilePlatform'),
+    LaunchProfilePlatform (..),
 
     -- * LaunchProfileState
-    LaunchProfileState (LaunchProfileState'),
+    LaunchProfileState (..),
 
     -- * LaunchProfileStatusCode
-    LaunchProfileStatusCode (LaunchProfileStatusCode'),
+    LaunchProfileStatusCode (..),
 
     -- * LaunchProfileValidationState
-    LaunchProfileValidationState (LaunchProfileValidationState'),
+    LaunchProfileValidationState (..),
 
     -- * LaunchProfileValidationStatusCode
-    LaunchProfileValidationStatusCode (LaunchProfileValidationStatusCode'),
+    LaunchProfileValidationStatusCode (..),
 
     -- * LaunchProfileValidationType
-    LaunchProfileValidationType (LaunchProfileValidationType'),
+    LaunchProfileValidationType (..),
 
     -- * SessionBackupMode
-    SessionBackupMode (SessionBackupMode'),
+    SessionBackupMode (..),
 
     -- * SessionPersistenceMode
-    SessionPersistenceMode (SessionPersistenceMode'),
+    SessionPersistenceMode (..),
 
     -- * StreamingClipboardMode
-    StreamingClipboardMode (StreamingClipboardMode'),
+    StreamingClipboardMode (..),
 
     -- * StreamingImageEncryptionConfigurationKeyType
-    StreamingImageEncryptionConfigurationKeyType (StreamingImageEncryptionConfigurationKeyType'),
+    StreamingImageEncryptionConfigurationKeyType (..),
 
     -- * StreamingImageState
-    StreamingImageState (StreamingImageState'),
+    StreamingImageState (..),
 
     -- * StreamingImageStatusCode
-    StreamingImageStatusCode (StreamingImageStatusCode'),
+    StreamingImageStatusCode (..),
 
     -- * StreamingInstanceType
-    StreamingInstanceType (StreamingInstanceType'),
+    StreamingInstanceType (..),
 
     -- * StreamingSessionState
-    StreamingSessionState (StreamingSessionState'),
+    StreamingSessionState (..),
 
     -- * StreamingSessionStatusCode
-    StreamingSessionStatusCode (StreamingSessionStatusCode'),
+    StreamingSessionStatusCode (..),
 
     -- * StreamingSessionStorageMode
-    StreamingSessionStorageMode (StreamingSessionStorageMode'),
+    StreamingSessionStorageMode (..),
 
     -- * StreamingSessionStreamState
-    StreamingSessionStreamState (StreamingSessionStreamState'),
+    StreamingSessionStreamState (..),
 
     -- * StreamingSessionStreamStatusCode
-    StreamingSessionStreamStatusCode (StreamingSessionStreamStatusCode'),
+    StreamingSessionStreamStatusCode (..),
 
     -- * StudioComponentInitializationScriptRunContext
-    StudioComponentInitializationScriptRunContext (StudioComponentInitializationScriptRunContext'),
+    StudioComponentInitializationScriptRunContext (..),
 
     -- * StudioComponentState
-    StudioComponentState (StudioComponentState'),
+    StudioComponentState (..),
 
     -- * StudioComponentStatusCode
-    StudioComponentStatusCode (StudioComponentStatusCode'),
+    StudioComponentStatusCode (..),
 
     -- * StudioComponentSubtype
-    StudioComponentSubtype (StudioComponentSubtype'),
+    StudioComponentSubtype (..),
 
     -- * StudioComponentType
-    StudioComponentType (StudioComponentType'),
+    StudioComponentType (..),
 
     -- * StudioEncryptionConfigurationKeyType
-    StudioEncryptionConfigurationKeyType (StudioEncryptionConfigurationKeyType'),
+    StudioEncryptionConfigurationKeyType (..),
 
     -- * StudioPersona
-    StudioPersona (StudioPersona'),
+    StudioPersona (..),
 
     -- * StudioState
-    StudioState (StudioState'),
+    StudioState (..),
 
     -- * StudioStatusCode
-    StudioStatusCode (StudioStatusCode'),
+    StudioStatusCode (..),
 
     -- * VolumeRetentionMode
-    VolumeRetentionMode (VolumeRetentionMode'),
+    VolumeRetentionMode (..),
 
     -- * ActiveDirectoryComputerAttribute
     ActiveDirectoryComputerAttribute (ActiveDirectoryComputerAttribute'),

@@ -35,52 +35,52 @@ module Amazonka.Route53AutoNaming.Types
     _TooManyTagsException,
 
     -- * CustomHealthStatus
-    CustomHealthStatus (CustomHealthStatus'),
+    CustomHealthStatus (..),
 
     -- * FilterCondition
-    FilterCondition (FilterCondition'),
+    FilterCondition (..),
 
     -- * HealthCheckType
-    HealthCheckType (HealthCheckType'),
+    HealthCheckType (..),
 
     -- * HealthStatus
-    HealthStatus (HealthStatus'),
+    HealthStatus (..),
 
     -- * HealthStatusFilter
-    HealthStatusFilter (HealthStatusFilter'),
+    HealthStatusFilter (..),
 
     -- * NamespaceFilterName
-    NamespaceFilterName (NamespaceFilterName'),
+    NamespaceFilterName (..),
 
     -- * NamespaceType
-    NamespaceType (NamespaceType'),
+    NamespaceType (..),
 
     -- * OperationFilterName
-    OperationFilterName (OperationFilterName'),
+    OperationFilterName (..),
 
     -- * OperationStatus
-    OperationStatus (OperationStatus'),
+    OperationStatus (..),
 
     -- * OperationTargetType
-    OperationTargetType (OperationTargetType'),
+    OperationTargetType (..),
 
     -- * OperationType
-    OperationType (OperationType'),
+    OperationType (..),
 
     -- * RecordType
-    RecordType (RecordType'),
+    RecordType (..),
 
     -- * RoutingPolicy
-    RoutingPolicy (RoutingPolicy'),
+    RoutingPolicy (..),
 
     -- * ServiceFilterName
-    ServiceFilterName (ServiceFilterName'),
+    ServiceFilterName (..),
 
     -- * ServiceType
-    ServiceType (ServiceType'),
+    ServiceType (..),
 
     -- * ServiceTypeOption
-    ServiceTypeOption (ServiceTypeOption'),
+    ServiceTypeOption (..),
 
     -- * DnsConfig
     DnsConfig (DnsConfig'),

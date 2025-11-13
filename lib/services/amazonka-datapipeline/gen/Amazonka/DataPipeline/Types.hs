@@ -26,10 +26,10 @@ module Amazonka.DataPipeline.Types
     _TaskNotFoundException,
 
     -- * OperatorType
-    OperatorType (OperatorType'),
+    OperatorType (..),
 
     -- * TaskStatus
-    TaskStatus (TaskStatus'),
+    TaskStatus (..),
 
     -- * Field
     Field (Field'),

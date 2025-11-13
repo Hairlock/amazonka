@@ -28,7 +28,7 @@ module Amazonka.IoTJobsData.Types
     _ThrottlingException,
 
     -- * JobExecutionStatus
-    JobExecutionStatus (JobExecutionStatus'),
+    JobExecutionStatus (..),
 
     -- * JobExecution
     JobExecution (JobExecution'),

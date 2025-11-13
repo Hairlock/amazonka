@@ -27,52 +27,52 @@ module Amazonka.MediaPackage.Types
     _UnprocessableEntityException,
 
     -- * AdMarkers
-    AdMarkers (AdMarkers'),
+    AdMarkers (..),
 
     -- * AdTriggersElement
-    AdTriggersElement (AdTriggersElement'),
+    AdTriggersElement (..),
 
     -- * AdsOnDeliveryRestrictions
-    AdsOnDeliveryRestrictions (AdsOnDeliveryRestrictions'),
+    AdsOnDeliveryRestrictions (..),
 
     -- * CmafEncryptionMethod
-    CmafEncryptionMethod (CmafEncryptionMethod'),
+    CmafEncryptionMethod (..),
 
     -- * EncryptionMethod
-    EncryptionMethod (EncryptionMethod'),
+    EncryptionMethod (..),
 
     -- * ManifestLayout
-    ManifestLayout (ManifestLayout'),
+    ManifestLayout (..),
 
     -- * Origination
-    Origination (Origination'),
+    Origination (..),
 
     -- * PeriodTriggersElement
-    PeriodTriggersElement (PeriodTriggersElement'),
+    PeriodTriggersElement (..),
 
     -- * PlaylistType
-    PlaylistType (PlaylistType'),
+    PlaylistType (..),
 
     -- * PresetSpeke20Audio
-    PresetSpeke20Audio (PresetSpeke20Audio'),
+    PresetSpeke20Audio (..),
 
     -- * PresetSpeke20Video
-    PresetSpeke20Video (PresetSpeke20Video'),
+    PresetSpeke20Video (..),
 
     -- * Profile
-    Profile (Profile'),
+    Profile (..),
 
     -- * SegmentTemplateFormat
-    SegmentTemplateFormat (SegmentTemplateFormat'),
+    SegmentTemplateFormat (..),
 
     -- * Status
-    Status (Status'),
+    Status (..),
 
     -- * StreamOrder
-    StreamOrder (StreamOrder'),
+    StreamOrder (..),
 
     -- * UtcTiming
-    UtcTiming (UtcTiming'),
+    UtcTiming (..),
 
     -- * Authorization
     Authorization (Authorization'),

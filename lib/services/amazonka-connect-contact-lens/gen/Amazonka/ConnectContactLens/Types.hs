@@ -26,7 +26,7 @@ module Amazonka.ConnectContactLens.Types
     _ThrottlingException,
 
     -- * SentimentValue
-    SentimentValue (SentimentValue'),
+    SentimentValue (..),
 
     -- * Categories
     Categories (Categories'),

@@ -29,82 +29,82 @@ module Amazonka.Pinpoint.Types
     _TooManyRequestsException,
 
     -- * Action
-    Action (Action'),
+    Action (..),
 
     -- * Alignment
-    Alignment (Alignment'),
+    Alignment (..),
 
     -- * AttributeType
-    AttributeType (AttributeType'),
+    AttributeType (..),
 
     -- * ButtonAction
-    ButtonAction (ButtonAction'),
+    ButtonAction (..),
 
     -- * CampaignStatus
-    CampaignStatus (CampaignStatus'),
+    CampaignStatus (..),
 
     -- * ChannelType
-    ChannelType (ChannelType'),
+    ChannelType (..),
 
     -- * DayOfWeek
-    DayOfWeek (DayOfWeek'),
+    DayOfWeek (..),
 
     -- * DefinitionFormat
-    DefinitionFormat (DefinitionFormat'),
+    DefinitionFormat (..),
 
     -- * DeliveryStatus
-    DeliveryStatus (DeliveryStatus'),
+    DeliveryStatus (..),
 
     -- * DimensionType
-    DimensionType (DimensionType'),
+    DimensionType (..),
 
     -- * Duration
-    Duration (Duration'),
+    Duration (..),
 
     -- * EndpointTypesElement
-    EndpointTypesElement (EndpointTypesElement'),
+    EndpointTypesElement (..),
 
     -- * FilterType
-    FilterType (FilterType'),
+    FilterType (..),
 
     -- * Frequency
-    Frequency (Frequency'),
+    Frequency (..),
 
     -- * Include
-    Include (Include'),
+    Include (..),
 
     -- * JobStatus
-    JobStatus (JobStatus'),
+    JobStatus (..),
 
     -- * Layout
-    Layout (Layout'),
+    Layout (..),
 
     -- * MessageType
-    MessageType (MessageType'),
+    MessageType (..),
 
     -- * Mode
-    Mode (Mode'),
+    Mode (..),
 
     -- * Operator
-    Operator (Operator'),
+    Operator (..),
 
     -- * RecencyType
-    RecencyType (RecencyType'),
+    RecencyType (..),
 
     -- * SegmentType
-    SegmentType (SegmentType'),
+    SegmentType (..),
 
     -- * SourceType
-    SourceType (SourceType'),
+    SourceType (..),
 
     -- * State
-    State (State'),
+    State (..),
 
     -- * TemplateType
-    TemplateType (TemplateType'),
+    TemplateType (..),
 
     -- * Type
-    Type (Type'),
+    Type (..),
 
     -- * ADMChannelRequest
     ADMChannelRequest (ADMChannelRequest'),

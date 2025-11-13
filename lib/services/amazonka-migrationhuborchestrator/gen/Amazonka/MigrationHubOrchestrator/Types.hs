@@ -26,34 +26,34 @@ module Amazonka.MigrationHubOrchestrator.Types
     _ValidationException,
 
     -- * DataType
-    DataType (DataType'),
+    DataType (..),
 
     -- * MigrationWorkflowStatusEnum
-    MigrationWorkflowStatusEnum (MigrationWorkflowStatusEnum'),
+    MigrationWorkflowStatusEnum (..),
 
     -- * Owner
-    Owner (Owner'),
+    Owner (..),
 
     -- * PluginHealth
-    PluginHealth (PluginHealth'),
+    PluginHealth (..),
 
     -- * RunEnvironment
-    RunEnvironment (RunEnvironment'),
+    RunEnvironment (..),
 
     -- * StepActionType
-    StepActionType (StepActionType'),
+    StepActionType (..),
 
     -- * StepGroupStatus
-    StepGroupStatus (StepGroupStatus'),
+    StepGroupStatus (..),
 
     -- * StepStatus
-    StepStatus (StepStatus'),
+    StepStatus (..),
 
     -- * TargetType
-    TargetType (TargetType'),
+    TargetType (..),
 
     -- * TemplateStatus
-    TemplateStatus (TemplateStatus'),
+    TemplateStatus (..),
 
     -- * MigrationWorkflowSummary
     MigrationWorkflowSummary (MigrationWorkflowSummary'),

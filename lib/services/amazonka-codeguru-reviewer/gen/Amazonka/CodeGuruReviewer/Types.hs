@@ -28,37 +28,37 @@ module Amazonka.CodeGuruReviewer.Types
     _ValidationException,
 
     -- * AnalysisType
-    AnalysisType (AnalysisType'),
+    AnalysisType (..),
 
     -- * ConfigFileState
-    ConfigFileState (ConfigFileState'),
+    ConfigFileState (..),
 
     -- * EncryptionOption
-    EncryptionOption (EncryptionOption'),
+    EncryptionOption (..),
 
     -- * JobState
-    JobState (JobState'),
+    JobState (..),
 
     -- * ProviderType
-    ProviderType (ProviderType'),
+    ProviderType (..),
 
     -- * Reaction
-    Reaction (Reaction'),
+    Reaction (..),
 
     -- * RecommendationCategory
-    RecommendationCategory (RecommendationCategory'),
+    RecommendationCategory (..),
 
     -- * RepositoryAssociationState
-    RepositoryAssociationState (RepositoryAssociationState'),
+    RepositoryAssociationState (..),
 
     -- * Severity
-    Severity (Severity'),
+    Severity (..),
 
     -- * Type
-    Type (Type'),
+    Type (..),
 
     -- * VendorName
-    VendorName (VendorName'),
+    VendorName (..),
 
     -- * BranchDiffSourceCodeType
     BranchDiffSourceCodeType (BranchDiffSourceCodeType'),

@@ -26,10 +26,10 @@ module Amazonka.CodeStarConnections.Types
     _UnsupportedOperationException,
 
     -- * ConnectionStatus
-    ConnectionStatus (ConnectionStatus'),
+    ConnectionStatus (..),
 
     -- * ProviderType
-    ProviderType (ProviderType'),
+    ProviderType (..),
 
     -- * Connection
     Connection (Connection'),

@@ -23,46 +23,46 @@ module Amazonka.Greengrass.Types
     _InternalServerErrorException,
 
     -- * BulkDeploymentStatus
-    BulkDeploymentStatus (BulkDeploymentStatus'),
+    BulkDeploymentStatus (..),
 
     -- * ConfigurationSyncStatus
-    ConfigurationSyncStatus (ConfigurationSyncStatus'),
+    ConfigurationSyncStatus (..),
 
     -- * DeploymentType
-    DeploymentType (DeploymentType'),
+    DeploymentType (..),
 
     -- * EncodingType
-    EncodingType (EncodingType'),
+    EncodingType (..),
 
     -- * FunctionIsolationMode
-    FunctionIsolationMode (FunctionIsolationMode'),
+    FunctionIsolationMode (..),
 
     -- * LoggerComponent
-    LoggerComponent (LoggerComponent'),
+    LoggerComponent (..),
 
     -- * LoggerLevel
-    LoggerLevel (LoggerLevel'),
+    LoggerLevel (..),
 
     -- * LoggerType
-    LoggerType (LoggerType'),
+    LoggerType (..),
 
     -- * Permission
-    Permission (Permission'),
+    Permission (..),
 
     -- * SoftwareToUpdate
-    SoftwareToUpdate (SoftwareToUpdate'),
+    SoftwareToUpdate (..),
 
     -- * Telemetry
-    Telemetry (Telemetry'),
+    Telemetry (..),
 
     -- * UpdateAgentLogLevel
-    UpdateAgentLogLevel (UpdateAgentLogLevel'),
+    UpdateAgentLogLevel (..),
 
     -- * UpdateTargetsArchitecture
-    UpdateTargetsArchitecture (UpdateTargetsArchitecture'),
+    UpdateTargetsArchitecture (..),
 
     -- * UpdateTargetsOperatingSystem
-    UpdateTargetsOperatingSystem (UpdateTargetsOperatingSystem'),
+    UpdateTargetsOperatingSystem (..),
 
     -- * BulkDeployment
     BulkDeployment (BulkDeployment'),

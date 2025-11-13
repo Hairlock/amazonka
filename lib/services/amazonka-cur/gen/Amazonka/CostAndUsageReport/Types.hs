@@ -25,25 +25,25 @@ module Amazonka.CostAndUsageReport.Types
     _ValidationException,
 
     -- * AWSRegion
-    AWSRegion (AWSRegion'),
+    AWSRegion (..),
 
     -- * AdditionalArtifact
-    AdditionalArtifact (AdditionalArtifact'),
+    AdditionalArtifact (..),
 
     -- * CompressionFormat
-    CompressionFormat (CompressionFormat'),
+    CompressionFormat (..),
 
     -- * ReportFormat
-    ReportFormat (ReportFormat'),
+    ReportFormat (..),
 
     -- * ReportVersioning
-    ReportVersioning (ReportVersioning'),
+    ReportVersioning (..),
 
     -- * SchemaElement
-    SchemaElement (SchemaElement'),
+    SchemaElement (..),
 
     -- * TimeUnit
-    TimeUnit (TimeUnit'),
+    TimeUnit (..),
 
     -- * ReportDefinition
     ReportDefinition (ReportDefinition'),

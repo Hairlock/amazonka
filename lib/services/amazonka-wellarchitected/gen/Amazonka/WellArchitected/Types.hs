@@ -28,70 +28,70 @@ module Amazonka.WellArchitected.Types
     _ValidationException,
 
     -- * AdditionalResourceType
-    AdditionalResourceType (AdditionalResourceType'),
+    AdditionalResourceType (..),
 
     -- * AnswerReason
-    AnswerReason (AnswerReason'),
+    AnswerReason (..),
 
     -- * CheckFailureReason
-    CheckFailureReason (CheckFailureReason'),
+    CheckFailureReason (..),
 
     -- * CheckProvider
-    CheckProvider (CheckProvider'),
+    CheckProvider (..),
 
     -- * CheckStatus
-    CheckStatus (CheckStatus'),
+    CheckStatus (..),
 
     -- * ChoiceReason
-    ChoiceReason (ChoiceReason'),
+    ChoiceReason (..),
 
     -- * ChoiceStatus
-    ChoiceStatus (ChoiceStatus'),
+    ChoiceStatus (..),
 
     -- * DifferenceStatus
-    DifferenceStatus (DifferenceStatus'),
+    DifferenceStatus (..),
 
     -- * ImportLensStatus
-    ImportLensStatus (ImportLensStatus'),
+    ImportLensStatus (..),
 
     -- * LensStatus
-    LensStatus (LensStatus'),
+    LensStatus (..),
 
     -- * LensStatusType
-    LensStatusType (LensStatusType'),
+    LensStatusType (..),
 
     -- * LensType
-    LensType (LensType'),
+    LensType (..),
 
     -- * NotificationType
-    NotificationType (NotificationType'),
+    NotificationType (..),
 
     -- * OrganizationSharingStatus
-    OrganizationSharingStatus (OrganizationSharingStatus'),
+    OrganizationSharingStatus (..),
 
     -- * PermissionType
-    PermissionType (PermissionType'),
+    PermissionType (..),
 
     -- * Risk
-    Risk (Risk'),
+    Risk (..),
 
     -- * ShareInvitationAction
-    ShareInvitationAction (ShareInvitationAction'),
+    ShareInvitationAction (..),
 
     -- * ShareResourceType
-    ShareResourceType (ShareResourceType'),
+    ShareResourceType (..),
 
     -- * ShareStatus
-    ShareStatus (ShareStatus'),
+    ShareStatus (..),
 
     -- * TrustedAdvisorIntegrationStatus
-    TrustedAdvisorIntegrationStatus (TrustedAdvisorIntegrationStatus'),
+    TrustedAdvisorIntegrationStatus (..),
 
     -- * WorkloadEnvironment
-    WorkloadEnvironment (WorkloadEnvironment'),
+    WorkloadEnvironment (..),
 
     -- * WorkloadImprovementStatus
-    WorkloadImprovementStatus (WorkloadImprovementStatus'),
+    WorkloadImprovementStatus (..),
 
     -- * AdditionalResources
     AdditionalResources (AdditionalResources'),

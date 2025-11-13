@@ -40,46 +40,46 @@ module Amazonka.WAF.Types
     _WAFTagOperationInternalErrorException,
 
     -- * ChangeAction
-    ChangeAction (ChangeAction'),
+    ChangeAction (..),
 
     -- * ChangeTokenStatus
-    ChangeTokenStatus (ChangeTokenStatus'),
+    ChangeTokenStatus (..),
 
     -- * ComparisonOperator
-    ComparisonOperator (ComparisonOperator'),
+    ComparisonOperator (..),
 
     -- * GeoMatchConstraintType
-    GeoMatchConstraintType (GeoMatchConstraintType'),
+    GeoMatchConstraintType (..),
 
     -- * GeoMatchConstraintValue
-    GeoMatchConstraintValue (GeoMatchConstraintValue'),
+    GeoMatchConstraintValue (..),
 
     -- * IPSetDescriptorType
-    IPSetDescriptorType (IPSetDescriptorType'),
+    IPSetDescriptorType (..),
 
     -- * MatchFieldType
-    MatchFieldType (MatchFieldType'),
+    MatchFieldType (..),
 
     -- * PositionalConstraint
-    PositionalConstraint (PositionalConstraint'),
+    PositionalConstraint (..),
 
     -- * PredicateType
-    PredicateType (PredicateType'),
+    PredicateType (..),
 
     -- * RateKey
-    RateKey (RateKey'),
+    RateKey (..),
 
     -- * TextTransformation
-    TextTransformation (TextTransformation'),
+    TextTransformation (..),
 
     -- * WafActionType
-    WafActionType (WafActionType'),
+    WafActionType (..),
 
     -- * WafOverrideActionType
-    WafOverrideActionType (WafOverrideActionType'),
+    WafOverrideActionType (..),
 
     -- * WafRuleType
-    WafRuleType (WafRuleType'),
+    WafRuleType (..),
 
     -- * ActivatedRule
     ActivatedRule (ActivatedRule'),

@@ -26,13 +26,13 @@ module Amazonka.ApplicationCostProfiler.Types
     _ValidationException,
 
     -- * Format
-    Format (Format'),
+    Format (..),
 
     -- * ReportFrequency
-    ReportFrequency (ReportFrequency'),
+    ReportFrequency (..),
 
     -- * S3BucketRegion
-    S3BucketRegion (S3BucketRegion'),
+    S3BucketRegion (..),
 
     -- * ReportDefinition
     ReportDefinition (ReportDefinition'),

@@ -31,28 +31,28 @@ module Amazonka.Backup.Types
     _ServiceUnavailableException,
 
     -- * BackupJobState
-    BackupJobState (BackupJobState'),
+    BackupJobState (..),
 
     -- * BackupVaultEvent
-    BackupVaultEvent (BackupVaultEvent'),
+    BackupVaultEvent (..),
 
     -- * ConditionType
-    ConditionType (ConditionType'),
+    ConditionType (..),
 
     -- * CopyJobState
-    CopyJobState (CopyJobState'),
+    CopyJobState (..),
 
     -- * LegalHoldStatus
-    LegalHoldStatus (LegalHoldStatus'),
+    LegalHoldStatus (..),
 
     -- * RecoveryPointStatus
-    RecoveryPointStatus (RecoveryPointStatus'),
+    RecoveryPointStatus (..),
 
     -- * RestoreJobStatus
-    RestoreJobStatus (RestoreJobStatus'),
+    RestoreJobStatus (..),
 
     -- * StorageClass
-    StorageClass (StorageClass'),
+    StorageClass (..),
 
     -- * AdvancedBackupSetting
     AdvancedBackupSetting (AdvancedBackupSetting'),

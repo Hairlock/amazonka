@@ -32,175 +32,175 @@ module Amazonka.S3.Types
     module Amazonka.S3.Internal,
 
     -- * AnalyticsS3ExportFileFormat
-    AnalyticsS3ExportFileFormat (AnalyticsS3ExportFileFormat'),
+    AnalyticsS3ExportFileFormat (..),
 
     -- * ArchiveStatus
-    ArchiveStatus (ArchiveStatus'),
+    ArchiveStatus (..),
 
     -- * BucketAccelerateStatus
-    BucketAccelerateStatus (BucketAccelerateStatus'),
+    BucketAccelerateStatus (..),
 
     -- * BucketCannedACL
-    BucketCannedACL (BucketCannedACL'),
+    BucketCannedACL (..),
 
     -- * BucketLogsPermission
-    BucketLogsPermission (BucketLogsPermission'),
+    BucketLogsPermission (..),
 
     -- * BucketVersioningStatus
-    BucketVersioningStatus (BucketVersioningStatus'),
+    BucketVersioningStatus (..),
 
     -- * ChecksumAlgorithm
-    ChecksumAlgorithm (ChecksumAlgorithm'),
+    ChecksumAlgorithm (..),
 
     -- * ChecksumMode
-    ChecksumMode (ChecksumMode'),
+    ChecksumMode (..),
 
     -- * CompressionType
-    CompressionType (CompressionType'),
+    CompressionType (..),
 
     -- * DeleteMarkerReplicationStatus
-    DeleteMarkerReplicationStatus (DeleteMarkerReplicationStatus'),
+    DeleteMarkerReplicationStatus (..),
 
     -- * EncodingType
-    EncodingType (EncodingType'),
+    EncodingType (..),
 
     -- * Event
-    Event (Event'),
+    Event (..),
 
     -- * ExistingObjectReplicationStatus
-    ExistingObjectReplicationStatus (ExistingObjectReplicationStatus'),
+    ExistingObjectReplicationStatus (..),
 
     -- * ExpirationStatus
-    ExpirationStatus (ExpirationStatus'),
+    ExpirationStatus (..),
 
     -- * ExpressionType
-    ExpressionType (ExpressionType'),
+    ExpressionType (..),
 
     -- * FileHeaderInfo
-    FileHeaderInfo (FileHeaderInfo'),
+    FileHeaderInfo (..),
 
     -- * FilterRuleName
-    FilterRuleName (FilterRuleName'),
+    FilterRuleName (..),
 
     -- * IntelligentTieringAccessTier
-    IntelligentTieringAccessTier (IntelligentTieringAccessTier'),
+    IntelligentTieringAccessTier (..),
 
     -- * IntelligentTieringStatus
-    IntelligentTieringStatus (IntelligentTieringStatus'),
+    IntelligentTieringStatus (..),
 
     -- * InventoryFormat
-    InventoryFormat (InventoryFormat'),
+    InventoryFormat (..),
 
     -- * InventoryFrequency
-    InventoryFrequency (InventoryFrequency'),
+    InventoryFrequency (..),
 
     -- * InventoryIncludedObjectVersions
-    InventoryIncludedObjectVersions (InventoryIncludedObjectVersions'),
+    InventoryIncludedObjectVersions (..),
 
     -- * InventoryOptionalField
-    InventoryOptionalField (InventoryOptionalField'),
+    InventoryOptionalField (..),
 
     -- * JSONType
-    JSONType (JSONType'),
+    JSONType (..),
 
     -- * MFADelete
-    MFADelete (MFADelete'),
+    MFADelete (..),
 
     -- * MFADeleteStatus
-    MFADeleteStatus (MFADeleteStatus'),
+    MFADeleteStatus (..),
 
     -- * MetadataDirective
-    MetadataDirective (MetadataDirective'),
+    MetadataDirective (..),
 
     -- * MetricsStatus
-    MetricsStatus (MetricsStatus'),
+    MetricsStatus (..),
 
     -- * ObjectAttributes
-    ObjectAttributes (ObjectAttributes'),
+    ObjectAttributes (..),
 
     -- * ObjectCannedACL
-    ObjectCannedACL (ObjectCannedACL'),
+    ObjectCannedACL (..),
 
     -- * ObjectLockEnabled
-    ObjectLockEnabled (ObjectLockEnabled'),
+    ObjectLockEnabled (..),
 
     -- * ObjectLockLegalHoldStatus
-    ObjectLockLegalHoldStatus (ObjectLockLegalHoldStatus'),
+    ObjectLockLegalHoldStatus (..),
 
     -- * ObjectLockMode
-    ObjectLockMode (ObjectLockMode'),
+    ObjectLockMode (..),
 
     -- * ObjectLockRetentionMode
-    ObjectLockRetentionMode (ObjectLockRetentionMode'),
+    ObjectLockRetentionMode (..),
 
     -- * ObjectOwnership
-    ObjectOwnership (ObjectOwnership'),
+    ObjectOwnership (..),
 
     -- * ObjectStorageClass
-    ObjectStorageClass (ObjectStorageClass'),
+    ObjectStorageClass (..),
 
     -- * ObjectVersionStorageClass
-    ObjectVersionStorageClass (ObjectVersionStorageClass'),
+    ObjectVersionStorageClass (..),
 
     -- * OwnerOverride
-    OwnerOverride (OwnerOverride'),
+    OwnerOverride (..),
 
     -- * Payer
-    Payer (Payer'),
+    Payer (..),
 
     -- * Permission
-    Permission (Permission'),
+    Permission (..),
 
     -- * Protocol
-    Protocol (Protocol'),
+    Protocol (..),
 
     -- * QuoteFields
-    QuoteFields (QuoteFields'),
+    QuoteFields (..),
 
     -- * ReplicaModificationsStatus
-    ReplicaModificationsStatus (ReplicaModificationsStatus'),
+    ReplicaModificationsStatus (..),
 
     -- * ReplicationRuleStatus
-    ReplicationRuleStatus (ReplicationRuleStatus'),
+    ReplicationRuleStatus (..),
 
     -- * ReplicationStatus
-    ReplicationStatus (ReplicationStatus'),
+    ReplicationStatus (..),
 
     -- * ReplicationTimeStatus
-    ReplicationTimeStatus (ReplicationTimeStatus'),
+    ReplicationTimeStatus (..),
 
     -- * RequestCharged
-    RequestCharged (RequestCharged'),
+    RequestCharged (..),
 
     -- * RequestPayer
-    RequestPayer (RequestPayer'),
+    RequestPayer (..),
 
     -- * RestoreRequestType
-    RestoreRequestType (RestoreRequestType'),
+    RestoreRequestType (..),
 
     -- * ServerSideEncryption
-    ServerSideEncryption (ServerSideEncryption'),
+    ServerSideEncryption (..),
 
     -- * SseKmsEncryptedObjectsStatus
-    SseKmsEncryptedObjectsStatus (SseKmsEncryptedObjectsStatus'),
+    SseKmsEncryptedObjectsStatus (..),
 
     -- * StorageClass
-    StorageClass (StorageClass'),
+    StorageClass (..),
 
     -- * StorageClassAnalysisSchemaVersion
-    StorageClassAnalysisSchemaVersion (StorageClassAnalysisSchemaVersion'),
+    StorageClassAnalysisSchemaVersion (..),
 
     -- * TaggingDirective
-    TaggingDirective (TaggingDirective'),
+    TaggingDirective (..),
 
     -- * Tier
-    Tier (Tier'),
+    Tier (..),
 
     -- * TransitionStorageClass
-    TransitionStorageClass (TransitionStorageClass'),
+    TransitionStorageClass (..),
 
     -- * Type
-    Type (Type'),
+    Type (..),
 
     -- * AbortIncompleteMultipartUpload
     AbortIncompleteMultipartUpload (AbortIncompleteMultipartUpload'),

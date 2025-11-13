@@ -25,10 +25,10 @@ module Amazonka.Macie.Types
     _LimitExceededException,
 
     -- * S3ContinuousClassificationType
-    S3ContinuousClassificationType (S3ContinuousClassificationType'),
+    S3ContinuousClassificationType (..),
 
     -- * S3OneTimeClassificationType
-    S3OneTimeClassificationType (S3OneTimeClassificationType'),
+    S3OneTimeClassificationType (..),
 
     -- * ClassificationType
     ClassificationType (ClassificationType'),

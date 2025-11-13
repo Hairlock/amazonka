@@ -27,28 +27,28 @@ module Amazonka.AppConfig.Types
     _ServiceQuotaExceededException,
 
     -- * ActionPoint
-    ActionPoint (ActionPoint'),
+    ActionPoint (..),
 
     -- * DeploymentEventType
-    DeploymentEventType (DeploymentEventType'),
+    DeploymentEventType (..),
 
     -- * DeploymentState
-    DeploymentState (DeploymentState'),
+    DeploymentState (..),
 
     -- * EnvironmentState
-    EnvironmentState (EnvironmentState'),
+    EnvironmentState (..),
 
     -- * GrowthType
-    GrowthType (GrowthType'),
+    GrowthType (..),
 
     -- * ReplicateTo
-    ReplicateTo (ReplicateTo'),
+    ReplicateTo (..),
 
     -- * TriggeredBy
-    TriggeredBy (TriggeredBy'),
+    TriggeredBy (..),
 
     -- * ValidatorType
-    ValidatorType (ValidatorType'),
+    ValidatorType (..),
 
     -- * Action
     Action (Action'),

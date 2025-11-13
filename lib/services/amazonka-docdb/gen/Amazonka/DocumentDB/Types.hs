@@ -78,10 +78,10 @@ module Amazonka.DocumentDB.Types
     _SubscriptionNotFoundFault,
 
     -- * ApplyMethod
-    ApplyMethod (ApplyMethod'),
+    ApplyMethod (..),
 
     -- * SourceType
-    SourceType (SourceType'),
+    SourceType (..),
 
     -- * AvailabilityZone
     AvailabilityZone (AvailabilityZone'),

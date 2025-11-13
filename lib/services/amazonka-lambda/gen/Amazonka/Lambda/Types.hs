@@ -58,64 +58,64 @@ module Amazonka.Lambda.Types
     _UnsupportedMediaTypeException,
 
     -- * Architecture
-    Architecture (Architecture'),
+    Architecture (..),
 
     -- * CodeSigningPolicy
-    CodeSigningPolicy (CodeSigningPolicy'),
+    CodeSigningPolicy (..),
 
     -- * EndPointType
-    EndPointType (EndPointType'),
+    EndPointType (..),
 
     -- * EventSourcePosition
-    EventSourcePosition (EventSourcePosition'),
+    EventSourcePosition (..),
 
     -- * FunctionResponseType
-    FunctionResponseType (FunctionResponseType'),
+    FunctionResponseType (..),
 
     -- * FunctionUrlAuthType
-    FunctionUrlAuthType (FunctionUrlAuthType'),
+    FunctionUrlAuthType (..),
 
     -- * FunctionVersion
-    FunctionVersion (FunctionVersion'),
+    FunctionVersion (..),
 
     -- * InvocationType
-    InvocationType (InvocationType'),
+    InvocationType (..),
 
     -- * LastUpdateStatus
-    LastUpdateStatus (LastUpdateStatus'),
+    LastUpdateStatus (..),
 
     -- * LastUpdateStatusReasonCode
-    LastUpdateStatusReasonCode (LastUpdateStatusReasonCode'),
+    LastUpdateStatusReasonCode (..),
 
     -- * LogType
-    LogType (LogType'),
+    LogType (..),
 
     -- * PackageType
-    PackageType (PackageType'),
+    PackageType (..),
 
     -- * ProvisionedConcurrencyStatusEnum
-    ProvisionedConcurrencyStatusEnum (ProvisionedConcurrencyStatusEnum'),
+    ProvisionedConcurrencyStatusEnum (..),
 
     -- * Runtime
-    Runtime (Runtime'),
+    Runtime (..),
 
     -- * SnapStartApplyOn
-    SnapStartApplyOn (SnapStartApplyOn'),
+    SnapStartApplyOn (..),
 
     -- * SnapStartOptimizationStatus
-    SnapStartOptimizationStatus (SnapStartOptimizationStatus'),
+    SnapStartOptimizationStatus (..),
 
     -- * SourceAccessType
-    SourceAccessType (SourceAccessType'),
+    SourceAccessType (..),
 
     -- * State
-    State (State'),
+    State (..),
 
     -- * StateReasonCode
-    StateReasonCode (StateReasonCode'),
+    StateReasonCode (..),
 
     -- * TracingMode
-    TracingMode (TracingMode'),
+    TracingMode (..),
 
     -- * AccountLimit
     AccountLimit (AccountLimit'),

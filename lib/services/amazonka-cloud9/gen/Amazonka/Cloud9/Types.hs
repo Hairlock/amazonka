@@ -29,28 +29,28 @@ module Amazonka.Cloud9.Types
     _TooManyRequestsException,
 
     -- * ConnectionType
-    ConnectionType (ConnectionType'),
+    ConnectionType (..),
 
     -- * EnvironmentLifecycleStatus
-    EnvironmentLifecycleStatus (EnvironmentLifecycleStatus'),
+    EnvironmentLifecycleStatus (..),
 
     -- * EnvironmentStatus
-    EnvironmentStatus (EnvironmentStatus'),
+    EnvironmentStatus (..),
 
     -- * EnvironmentType
-    EnvironmentType (EnvironmentType'),
+    EnvironmentType (..),
 
     -- * ManagedCredentialsAction
-    ManagedCredentialsAction (ManagedCredentialsAction'),
+    ManagedCredentialsAction (..),
 
     -- * ManagedCredentialsStatus
-    ManagedCredentialsStatus (ManagedCredentialsStatus'),
+    ManagedCredentialsStatus (..),
 
     -- * MemberPermissions
-    MemberPermissions (MemberPermissions'),
+    MemberPermissions (..),
 
     -- * Permissions
-    Permissions (Permissions'),
+    Permissions (..),
 
     -- * Environment
     Environment (Environment'),

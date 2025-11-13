@@ -68,52 +68,52 @@ module Amazonka.Organizations.Types
     _UnsupportedAPIEndpointException,
 
     -- * AccountJoinedMethod
-    AccountJoinedMethod (AccountJoinedMethod'),
+    AccountJoinedMethod (..),
 
     -- * AccountStatus
-    AccountStatus (AccountStatus'),
+    AccountStatus (..),
 
     -- * ActionType
-    ActionType (ActionType'),
+    ActionType (..),
 
     -- * ChildType
-    ChildType (ChildType'),
+    ChildType (..),
 
     -- * CreateAccountFailureReason
-    CreateAccountFailureReason (CreateAccountFailureReason'),
+    CreateAccountFailureReason (..),
 
     -- * CreateAccountState
-    CreateAccountState (CreateAccountState'),
+    CreateAccountState (..),
 
     -- * EffectivePolicyType
-    EffectivePolicyType (EffectivePolicyType'),
+    EffectivePolicyType (..),
 
     -- * HandshakePartyType
-    HandshakePartyType (HandshakePartyType'),
+    HandshakePartyType (..),
 
     -- * HandshakeResourceType
-    HandshakeResourceType (HandshakeResourceType'),
+    HandshakeResourceType (..),
 
     -- * HandshakeState
-    HandshakeState (HandshakeState'),
+    HandshakeState (..),
 
     -- * IAMUserAccessToBilling
-    IAMUserAccessToBilling (IAMUserAccessToBilling'),
+    IAMUserAccessToBilling (..),
 
     -- * OrganizationFeatureSet
-    OrganizationFeatureSet (OrganizationFeatureSet'),
+    OrganizationFeatureSet (..),
 
     -- * ParentType
-    ParentType (ParentType'),
+    ParentType (..),
 
     -- * PolicyType
-    PolicyType (PolicyType'),
+    PolicyType (..),
 
     -- * PolicyTypeStatus
-    PolicyTypeStatus (PolicyTypeStatus'),
+    PolicyTypeStatus (..),
 
     -- * TargetType
-    TargetType (TargetType'),
+    TargetType (..),
 
     -- * Account
     Account (Account'),

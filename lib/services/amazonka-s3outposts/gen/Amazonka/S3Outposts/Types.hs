@@ -26,10 +26,10 @@ module Amazonka.S3Outposts.Types
     _ValidationException,
 
     -- * EndpointAccessType
-    EndpointAccessType (EndpointAccessType'),
+    EndpointAccessType (..),
 
     -- * EndpointStatus
-    EndpointStatus (EndpointStatus'),
+    EndpointStatus (..),
 
     -- * Endpoint
     Endpoint (Endpoint'),

@@ -29,16 +29,16 @@ module Amazonka.ChimeSDKIdentity.Types
     _UnauthorizedClientException,
 
     -- * AllowMessages
-    AllowMessages (AllowMessages'),
+    AllowMessages (..),
 
     -- * AppInstanceUserEndpointType
-    AppInstanceUserEndpointType (AppInstanceUserEndpointType'),
+    AppInstanceUserEndpointType (..),
 
     -- * EndpointStatus
-    EndpointStatus (EndpointStatus'),
+    EndpointStatus (..),
 
     -- * EndpointStatusReason
-    EndpointStatusReason (EndpointStatusReason'),
+    EndpointStatusReason (..),
 
     -- * AppInstance
     AppInstance (AppInstance'),

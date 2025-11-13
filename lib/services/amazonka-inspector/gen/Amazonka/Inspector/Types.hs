@@ -32,49 +32,49 @@ module Amazonka.Inspector.Types
     _UnsupportedFeatureException,
 
     -- * AgentHealth
-    AgentHealth (AgentHealth'),
+    AgentHealth (..),
 
     -- * AgentHealthCode
-    AgentHealthCode (AgentHealthCode'),
+    AgentHealthCode (..),
 
     -- * AssessmentRunNotificationSnsStatusCode
-    AssessmentRunNotificationSnsStatusCode (AssessmentRunNotificationSnsStatusCode'),
+    AssessmentRunNotificationSnsStatusCode (..),
 
     -- * AssessmentRunState
-    AssessmentRunState (AssessmentRunState'),
+    AssessmentRunState (..),
 
     -- * AssetType
-    AssetType (AssetType'),
+    AssetType (..),
 
     -- * FailedItemErrorCode
-    FailedItemErrorCode (FailedItemErrorCode'),
+    FailedItemErrorCode (..),
 
     -- * InspectorEvent
-    InspectorEvent (InspectorEvent'),
+    InspectorEvent (..),
 
     -- * Locale
-    Locale (Locale'),
+    Locale (..),
 
     -- * PreviewStatus
-    PreviewStatus (PreviewStatus'),
+    PreviewStatus (..),
 
     -- * ReportFileFormat
-    ReportFileFormat (ReportFileFormat'),
+    ReportFileFormat (..),
 
     -- * ReportStatus
-    ReportStatus (ReportStatus'),
+    ReportStatus (..),
 
     -- * ReportType
-    ReportType (ReportType'),
+    ReportType (..),
 
     -- * ScopeType
-    ScopeType (ScopeType'),
+    ScopeType (..),
 
     -- * Severity
-    Severity (Severity'),
+    Severity (..),
 
     -- * StopAction
-    StopAction (StopAction'),
+    StopAction (..),
 
     -- * AgentFilter
     AgentFilter (AgentFilter'),

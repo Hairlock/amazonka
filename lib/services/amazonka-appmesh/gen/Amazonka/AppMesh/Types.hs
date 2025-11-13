@@ -31,64 +31,64 @@ module Amazonka.AppMesh.Types
     _TooManyTagsException,
 
     -- * DefaultGatewayRouteRewrite
-    DefaultGatewayRouteRewrite (DefaultGatewayRouteRewrite'),
+    DefaultGatewayRouteRewrite (..),
 
     -- * DnsResponseType
-    DnsResponseType (DnsResponseType'),
+    DnsResponseType (..),
 
     -- * DurationUnit
-    DurationUnit (DurationUnit'),
+    DurationUnit (..),
 
     -- * EgressFilterType
-    EgressFilterType (EgressFilterType'),
+    EgressFilterType (..),
 
     -- * GatewayRouteStatusCode
-    GatewayRouteStatusCode (GatewayRouteStatusCode'),
+    GatewayRouteStatusCode (..),
 
     -- * GrpcRetryPolicyEvent
-    GrpcRetryPolicyEvent (GrpcRetryPolicyEvent'),
+    GrpcRetryPolicyEvent (..),
 
     -- * HttpMethod
-    HttpMethod (HttpMethod'),
+    HttpMethod (..),
 
     -- * HttpScheme
-    HttpScheme (HttpScheme'),
+    HttpScheme (..),
 
     -- * IpPreference
-    IpPreference (IpPreference'),
+    IpPreference (..),
 
     -- * ListenerTlsMode
-    ListenerTlsMode (ListenerTlsMode'),
+    ListenerTlsMode (..),
 
     -- * MeshStatusCode
-    MeshStatusCode (MeshStatusCode'),
+    MeshStatusCode (..),
 
     -- * PortProtocol
-    PortProtocol (PortProtocol'),
+    PortProtocol (..),
 
     -- * RouteStatusCode
-    RouteStatusCode (RouteStatusCode'),
+    RouteStatusCode (..),
 
     -- * TcpRetryPolicyEvent
-    TcpRetryPolicyEvent (TcpRetryPolicyEvent'),
+    TcpRetryPolicyEvent (..),
 
     -- * VirtualGatewayListenerTlsMode
-    VirtualGatewayListenerTlsMode (VirtualGatewayListenerTlsMode'),
+    VirtualGatewayListenerTlsMode (..),
 
     -- * VirtualGatewayPortProtocol
-    VirtualGatewayPortProtocol (VirtualGatewayPortProtocol'),
+    VirtualGatewayPortProtocol (..),
 
     -- * VirtualGatewayStatusCode
-    VirtualGatewayStatusCode (VirtualGatewayStatusCode'),
+    VirtualGatewayStatusCode (..),
 
     -- * VirtualNodeStatusCode
-    VirtualNodeStatusCode (VirtualNodeStatusCode'),
+    VirtualNodeStatusCode (..),
 
     -- * VirtualRouterStatusCode
-    VirtualRouterStatusCode (VirtualRouterStatusCode'),
+    VirtualRouterStatusCode (..),
 
     -- * VirtualServiceStatusCode
-    VirtualServiceStatusCode (VirtualServiceStatusCode'),
+    VirtualServiceStatusCode (..),
 
     -- * AccessLog
     AccessLog (AccessLog'),

@@ -206,49 +206,49 @@ module Amazonka.CodeCommit.Types
     _TooManyTagsException,
 
     -- * ApprovalState
-    ApprovalState (ApprovalState'),
+    ApprovalState (..),
 
     -- * ChangeTypeEnum
-    ChangeTypeEnum (ChangeTypeEnum'),
+    ChangeTypeEnum (..),
 
     -- * ConflictDetailLevelTypeEnum
-    ConflictDetailLevelTypeEnum (ConflictDetailLevelTypeEnum'),
+    ConflictDetailLevelTypeEnum (..),
 
     -- * ConflictResolutionStrategyTypeEnum
-    ConflictResolutionStrategyTypeEnum (ConflictResolutionStrategyTypeEnum'),
+    ConflictResolutionStrategyTypeEnum (..),
 
     -- * FileModeTypeEnum
-    FileModeTypeEnum (FileModeTypeEnum'),
+    FileModeTypeEnum (..),
 
     -- * MergeOptionTypeEnum
-    MergeOptionTypeEnum (MergeOptionTypeEnum'),
+    MergeOptionTypeEnum (..),
 
     -- * ObjectTypeEnum
-    ObjectTypeEnum (ObjectTypeEnum'),
+    ObjectTypeEnum (..),
 
     -- * OrderEnum
-    OrderEnum (OrderEnum'),
+    OrderEnum (..),
 
     -- * OverrideStatus
-    OverrideStatus (OverrideStatus'),
+    OverrideStatus (..),
 
     -- * PullRequestEventType
-    PullRequestEventType (PullRequestEventType'),
+    PullRequestEventType (..),
 
     -- * PullRequestStatusEnum
-    PullRequestStatusEnum (PullRequestStatusEnum'),
+    PullRequestStatusEnum (..),
 
     -- * RelativeFileVersionEnum
-    RelativeFileVersionEnum (RelativeFileVersionEnum'),
+    RelativeFileVersionEnum (..),
 
     -- * ReplacementTypeEnum
-    ReplacementTypeEnum (ReplacementTypeEnum'),
+    ReplacementTypeEnum (..),
 
     -- * RepositoryTriggerEventEnum
-    RepositoryTriggerEventEnum (RepositoryTriggerEventEnum'),
+    RepositoryTriggerEventEnum (..),
 
     -- * SortByEnum
-    SortByEnum (SortByEnum'),
+    SortByEnum (..),
 
     -- * Approval
     Approval (Approval'),

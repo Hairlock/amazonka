@@ -46,94 +46,94 @@ module Amazonka.DMS.Types
     _UpgradeDependencyFailureFault,
 
     -- * AuthMechanismValue
-    AuthMechanismValue (AuthMechanismValue'),
+    AuthMechanismValue (..),
 
     -- * AuthTypeValue
-    AuthTypeValue (AuthTypeValue'),
+    AuthTypeValue (..),
 
     -- * CannedAclForObjectsValue
-    CannedAclForObjectsValue (CannedAclForObjectsValue'),
+    CannedAclForObjectsValue (..),
 
     -- * CharLengthSemantics
-    CharLengthSemantics (CharLengthSemantics'),
+    CharLengthSemantics (..),
 
     -- * CollectorStatus
-    CollectorStatus (CollectorStatus'),
+    CollectorStatus (..),
 
     -- * CompressionTypeValue
-    CompressionTypeValue (CompressionTypeValue'),
+    CompressionTypeValue (..),
 
     -- * DataFormatValue
-    DataFormatValue (DataFormatValue'),
+    DataFormatValue (..),
 
     -- * DatePartitionDelimiterValue
-    DatePartitionDelimiterValue (DatePartitionDelimiterValue'),
+    DatePartitionDelimiterValue (..),
 
     -- * DatePartitionSequenceValue
-    DatePartitionSequenceValue (DatePartitionSequenceValue'),
+    DatePartitionSequenceValue (..),
 
     -- * DmsSslModeValue
-    DmsSslModeValue (DmsSslModeValue'),
+    DmsSslModeValue (..),
 
     -- * EncodingTypeValue
-    EncodingTypeValue (EncodingTypeValue'),
+    EncodingTypeValue (..),
 
     -- * EncryptionModeValue
-    EncryptionModeValue (EncryptionModeValue'),
+    EncryptionModeValue (..),
 
     -- * EndpointSettingTypeValue
-    EndpointSettingTypeValue (EndpointSettingTypeValue'),
+    EndpointSettingTypeValue (..),
 
     -- * KafkaSecurityProtocol
-    KafkaSecurityProtocol (KafkaSecurityProtocol'),
+    KafkaSecurityProtocol (..),
 
     -- * MessageFormatValue
-    MessageFormatValue (MessageFormatValue'),
+    MessageFormatValue (..),
 
     -- * MigrationTypeValue
-    MigrationTypeValue (MigrationTypeValue'),
+    MigrationTypeValue (..),
 
     -- * NestingLevelValue
-    NestingLevelValue (NestingLevelValue'),
+    NestingLevelValue (..),
 
     -- * ParquetVersionValue
-    ParquetVersionValue (ParquetVersionValue'),
+    ParquetVersionValue (..),
 
     -- * PluginNameValue
-    PluginNameValue (PluginNameValue'),
+    PluginNameValue (..),
 
     -- * RedisAuthTypeValue
-    RedisAuthTypeValue (RedisAuthTypeValue'),
+    RedisAuthTypeValue (..),
 
     -- * RefreshSchemasStatusTypeValue
-    RefreshSchemasStatusTypeValue (RefreshSchemasStatusTypeValue'),
+    RefreshSchemasStatusTypeValue (..),
 
     -- * ReleaseStatusValues
-    ReleaseStatusValues (ReleaseStatusValues'),
+    ReleaseStatusValues (..),
 
     -- * ReloadOptionValue
-    ReloadOptionValue (ReloadOptionValue'),
+    ReloadOptionValue (..),
 
     -- * ReplicationEndpointTypeValue
-    ReplicationEndpointTypeValue (ReplicationEndpointTypeValue'),
+    ReplicationEndpointTypeValue (..),
 
     -- * SafeguardPolicy
-    SafeguardPolicy (SafeguardPolicy'),
+    SafeguardPolicy (..),
 
     -- * SourceType
-    SourceType (SourceType'),
+    SourceType (..),
 
     -- * SslSecurityProtocolValue
-    SslSecurityProtocolValue (SslSecurityProtocolValue'),
+    SslSecurityProtocolValue (..),
 
     -- * StartReplicationTaskTypeValue
-    StartReplicationTaskTypeValue (StartReplicationTaskTypeValue'),
+    StartReplicationTaskTypeValue (..),
 
     -- * TargetDbType
-    TargetDbType (TargetDbType'),
+    TargetDbType (..),
 
     -- * VersionStatus
-    VersionStatus (VersionStatus'),
+    VersionStatus (..),
 
     -- * AccountQuota
     AccountQuota (AccountQuota'),

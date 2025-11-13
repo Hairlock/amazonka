@@ -32,157 +32,157 @@ module Amazonka.Chime.Types
     _UnprocessableEntityException,
 
     -- * AccountStatus
-    AccountStatus (AccountStatus'),
+    AccountStatus (..),
 
     -- * AccountType
-    AccountType (AccountType'),
+    AccountType (..),
 
     -- * AppInstanceDataType
-    AppInstanceDataType (AppInstanceDataType'),
+    AppInstanceDataType (..),
 
     -- * ArtifactsState
-    ArtifactsState (ArtifactsState'),
+    ArtifactsState (..),
 
     -- * AudioMuxType
-    AudioMuxType (AudioMuxType'),
+    AudioMuxType (..),
 
     -- * BotType
-    BotType (BotType'),
+    BotType (..),
 
     -- * CallingNameStatus
-    CallingNameStatus (CallingNameStatus'),
+    CallingNameStatus (..),
 
     -- * Capability
-    Capability (Capability'),
+    Capability (..),
 
     -- * ChannelMembershipType
-    ChannelMembershipType (ChannelMembershipType'),
+    ChannelMembershipType (..),
 
     -- * ChannelMessagePersistenceType
-    ChannelMessagePersistenceType (ChannelMessagePersistenceType'),
+    ChannelMessagePersistenceType (..),
 
     -- * ChannelMessageType
-    ChannelMessageType (ChannelMessageType'),
+    ChannelMessageType (..),
 
     -- * ChannelMode
-    ChannelMode (ChannelMode'),
+    ChannelMode (..),
 
     -- * ChannelPrivacy
-    ChannelPrivacy (ChannelPrivacy'),
+    ChannelPrivacy (..),
 
     -- * ContentMuxType
-    ContentMuxType (ContentMuxType'),
+    ContentMuxType (..),
 
     -- * EmailStatus
-    EmailStatus (EmailStatus'),
+    EmailStatus (..),
 
     -- * ErrorCode
-    ErrorCode (ErrorCode'),
+    ErrorCode (..),
 
     -- * GeoMatchLevel
-    GeoMatchLevel (GeoMatchLevel'),
+    GeoMatchLevel (..),
 
     -- * InviteStatus
-    InviteStatus (InviteStatus'),
+    InviteStatus (..),
 
     -- * License
-    License (License'),
+    License (..),
 
     -- * MediaPipelineSinkType
-    MediaPipelineSinkType (MediaPipelineSinkType'),
+    MediaPipelineSinkType (..),
 
     -- * MediaPipelineSourceType
-    MediaPipelineSourceType (MediaPipelineSourceType'),
+    MediaPipelineSourceType (..),
 
     -- * MediaPipelineStatus
-    MediaPipelineStatus (MediaPipelineStatus'),
+    MediaPipelineStatus (..),
 
     -- * MemberType
-    MemberType (MemberType'),
+    MemberType (..),
 
     -- * NotificationTarget
-    NotificationTarget (NotificationTarget'),
+    NotificationTarget (..),
 
     -- * NumberSelectionBehavior
-    NumberSelectionBehavior (NumberSelectionBehavior'),
+    NumberSelectionBehavior (..),
 
     -- * OrderedPhoneNumberStatus
-    OrderedPhoneNumberStatus (OrderedPhoneNumberStatus'),
+    OrderedPhoneNumberStatus (..),
 
     -- * OriginationRouteProtocol
-    OriginationRouteProtocol (OriginationRouteProtocol'),
+    OriginationRouteProtocol (..),
 
     -- * PhoneNumberAssociationName
-    PhoneNumberAssociationName (PhoneNumberAssociationName'),
+    PhoneNumberAssociationName (..),
 
     -- * PhoneNumberOrderStatus
-    PhoneNumberOrderStatus (PhoneNumberOrderStatus'),
+    PhoneNumberOrderStatus (..),
 
     -- * PhoneNumberProductType
-    PhoneNumberProductType (PhoneNumberProductType'),
+    PhoneNumberProductType (..),
 
     -- * PhoneNumberStatus
-    PhoneNumberStatus (PhoneNumberStatus'),
+    PhoneNumberStatus (..),
 
     -- * PhoneNumberType
-    PhoneNumberType (PhoneNumberType'),
+    PhoneNumberType (..),
 
     -- * ProxySessionStatus
-    ProxySessionStatus (ProxySessionStatus'),
+    ProxySessionStatus (..),
 
     -- * RegistrationStatus
-    RegistrationStatus (RegistrationStatus'),
+    RegistrationStatus (..),
 
     -- * RoomMembershipRole
-    RoomMembershipRole (RoomMembershipRole'),
+    RoomMembershipRole (..),
 
     -- * SipRuleTriggerType
-    SipRuleTriggerType (SipRuleTriggerType'),
+    SipRuleTriggerType (..),
 
     -- * SortOrder
-    SortOrder (SortOrder'),
+    SortOrder (..),
 
     -- * TranscribeContentIdentificationType
-    TranscribeContentIdentificationType (TranscribeContentIdentificationType'),
+    TranscribeContentIdentificationType (..),
 
     -- * TranscribeContentRedactionType
-    TranscribeContentRedactionType (TranscribeContentRedactionType'),
+    TranscribeContentRedactionType (..),
 
     -- * TranscribeLanguageCode
-    TranscribeLanguageCode (TranscribeLanguageCode'),
+    TranscribeLanguageCode (..),
 
     -- * TranscribeMedicalContentIdentificationType
-    TranscribeMedicalContentIdentificationType (TranscribeMedicalContentIdentificationType'),
+    TranscribeMedicalContentIdentificationType (..),
 
     -- * TranscribeMedicalLanguageCode
-    TranscribeMedicalLanguageCode (TranscribeMedicalLanguageCode'),
+    TranscribeMedicalLanguageCode (..),
 
     -- * TranscribeMedicalRegion
-    TranscribeMedicalRegion (TranscribeMedicalRegion'),
+    TranscribeMedicalRegion (..),
 
     -- * TranscribeMedicalSpecialty
-    TranscribeMedicalSpecialty (TranscribeMedicalSpecialty'),
+    TranscribeMedicalSpecialty (..),
 
     -- * TranscribeMedicalType
-    TranscribeMedicalType (TranscribeMedicalType'),
+    TranscribeMedicalType (..),
 
     -- * TranscribePartialResultsStability
-    TranscribePartialResultsStability (TranscribePartialResultsStability'),
+    TranscribePartialResultsStability (..),
 
     -- * TranscribeRegion
-    TranscribeRegion (TranscribeRegion'),
+    TranscribeRegion (..),
 
     -- * TranscribeVocabularyFilterMethod
-    TranscribeVocabularyFilterMethod (TranscribeVocabularyFilterMethod'),
+    TranscribeVocabularyFilterMethod (..),
 
     -- * UserType
-    UserType (UserType'),
+    UserType (..),
 
     -- * VideoMuxType
-    VideoMuxType (VideoMuxType'),
+    VideoMuxType (..),
 
     -- * VoiceConnectorAwsRegion
-    VoiceConnectorAwsRegion (VoiceConnectorAwsRegion'),
+    VoiceConnectorAwsRegion (..),
 
     -- * Account
     Account (Account'),

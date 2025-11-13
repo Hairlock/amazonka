@@ -24,16 +24,16 @@ module Amazonka.CloudHSM.Types
     _InvalidRequestException,
 
     -- * ClientVersion
-    ClientVersion (ClientVersion'),
+    ClientVersion (..),
 
     -- * CloudHsmObjectState
-    CloudHsmObjectState (CloudHsmObjectState'),
+    CloudHsmObjectState (..),
 
     -- * HsmStatus
-    HsmStatus (HsmStatus'),
+    HsmStatus (..),
 
     -- * SubscriptionType
-    SubscriptionType (SubscriptionType'),
+    SubscriptionType (..),
 
     -- * Tag
     Tag (Tag'),

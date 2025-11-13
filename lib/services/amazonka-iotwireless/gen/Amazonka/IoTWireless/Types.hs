@@ -28,97 +28,97 @@ module Amazonka.IoTWireless.Types
     _ValidationException,
 
     -- * ApplicationConfigType
-    ApplicationConfigType (ApplicationConfigType'),
+    ApplicationConfigType (..),
 
     -- * BatteryLevel
-    BatteryLevel (BatteryLevel'),
+    BatteryLevel (..),
 
     -- * ConnectionStatus
-    ConnectionStatus (ConnectionStatus'),
+    ConnectionStatus (..),
 
     -- * DeviceState
-    DeviceState (DeviceState'),
+    DeviceState (..),
 
     -- * DlClass
-    DlClass (DlClass'),
+    DlClass (..),
 
     -- * DownlinkMode
-    DownlinkMode (DownlinkMode'),
+    DownlinkMode (..),
 
     -- * Event
-    Event (Event'),
+    Event (..),
 
     -- * EventNotificationPartnerType
-    EventNotificationPartnerType (EventNotificationPartnerType'),
+    EventNotificationPartnerType (..),
 
     -- * EventNotificationResourceType
-    EventNotificationResourceType (EventNotificationResourceType'),
+    EventNotificationResourceType (..),
 
     -- * EventNotificationTopicStatus
-    EventNotificationTopicStatus (EventNotificationTopicStatus'),
+    EventNotificationTopicStatus (..),
 
     -- * ExpressionType
-    ExpressionType (ExpressionType'),
+    ExpressionType (..),
 
     -- * FuotaDeviceStatus
-    FuotaDeviceStatus (FuotaDeviceStatus'),
+    FuotaDeviceStatus (..),
 
     -- * FuotaTaskStatus
-    FuotaTaskStatus (FuotaTaskStatus'),
+    FuotaTaskStatus (..),
 
     -- * IdentifierType
-    IdentifierType (IdentifierType'),
+    IdentifierType (..),
 
     -- * LogLevel
-    LogLevel (LogLevel'),
+    LogLevel (..),
 
     -- * MessageType
-    MessageType (MessageType'),
+    MessageType (..),
 
     -- * PartnerType
-    PartnerType (PartnerType'),
+    PartnerType (..),
 
     -- * PositionResourceType
-    PositionResourceType (PositionResourceType'),
+    PositionResourceType (..),
 
     -- * PositioningConfigStatus
-    PositioningConfigStatus (PositioningConfigStatus'),
+    PositioningConfigStatus (..),
 
     -- * SigningAlg
-    SigningAlg (SigningAlg'),
+    SigningAlg (..),
 
     -- * SupportedRfRegion
-    SupportedRfRegion (SupportedRfRegion'),
+    SupportedRfRegion (..),
 
     -- * WirelessDeviceEvent
-    WirelessDeviceEvent (WirelessDeviceEvent'),
+    WirelessDeviceEvent (..),
 
     -- * WirelessDeviceFrameInfo
-    WirelessDeviceFrameInfo (WirelessDeviceFrameInfo'),
+    WirelessDeviceFrameInfo (..),
 
     -- * WirelessDeviceIdType
-    WirelessDeviceIdType (WirelessDeviceIdType'),
+    WirelessDeviceIdType (..),
 
     -- * WirelessDeviceType
-    WirelessDeviceType (WirelessDeviceType'),
+    WirelessDeviceType (..),
 
     -- * WirelessGatewayEvent
-    WirelessGatewayEvent (WirelessGatewayEvent'),
+    WirelessGatewayEvent (..),
 
     -- * WirelessGatewayIdType
-    WirelessGatewayIdType (WirelessGatewayIdType'),
+    WirelessGatewayIdType (..),
 
     -- * WirelessGatewayServiceType
-    WirelessGatewayServiceType (WirelessGatewayServiceType'),
+    WirelessGatewayServiceType (..),
 
     -- * WirelessGatewayTaskDefinitionType
-    WirelessGatewayTaskDefinitionType (WirelessGatewayTaskDefinitionType'),
+    WirelessGatewayTaskDefinitionType (..),
 
     -- * WirelessGatewayTaskStatus
-    WirelessGatewayTaskStatus (WirelessGatewayTaskStatus'),
+    WirelessGatewayTaskStatus (..),
 
     -- * WirelessGatewayType
-    WirelessGatewayType (WirelessGatewayType'),
+    WirelessGatewayType (..),
 
     -- * AbpV1_0_x
     AbpV1_0_x (..),

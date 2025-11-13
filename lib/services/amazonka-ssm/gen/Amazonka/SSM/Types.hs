@@ -149,259 +149,259 @@ module Amazonka.SSM.Types
     _UnsupportedPlatformType,
 
     -- * AssociationComplianceSeverity
-    AssociationComplianceSeverity (AssociationComplianceSeverity'),
+    AssociationComplianceSeverity (..),
 
     -- * AssociationExecutionFilterKey
-    AssociationExecutionFilterKey (AssociationExecutionFilterKey'),
+    AssociationExecutionFilterKey (..),
 
     -- * AssociationExecutionTargetsFilterKey
-    AssociationExecutionTargetsFilterKey (AssociationExecutionTargetsFilterKey'),
+    AssociationExecutionTargetsFilterKey (..),
 
     -- * AssociationFilterKey
-    AssociationFilterKey (AssociationFilterKey'),
+    AssociationFilterKey (..),
 
     -- * AssociationFilterOperatorType
-    AssociationFilterOperatorType (AssociationFilterOperatorType'),
+    AssociationFilterOperatorType (..),
 
     -- * AssociationStatusName
-    AssociationStatusName (AssociationStatusName'),
+    AssociationStatusName (..),
 
     -- * AssociationSyncCompliance
-    AssociationSyncCompliance (AssociationSyncCompliance'),
+    AssociationSyncCompliance (..),
 
     -- * AttachmentHashType
-    AttachmentHashType (AttachmentHashType'),
+    AttachmentHashType (..),
 
     -- * AttachmentsSourceKey
-    AttachmentsSourceKey (AttachmentsSourceKey'),
+    AttachmentsSourceKey (..),
 
     -- * AutomationExecutionFilterKey
-    AutomationExecutionFilterKey (AutomationExecutionFilterKey'),
+    AutomationExecutionFilterKey (..),
 
     -- * AutomationExecutionStatus
-    AutomationExecutionStatus (AutomationExecutionStatus'),
+    AutomationExecutionStatus (..),
 
     -- * AutomationSubtype
-    AutomationSubtype (AutomationSubtype'),
+    AutomationSubtype (..),
 
     -- * AutomationType
-    AutomationType (AutomationType'),
+    AutomationType (..),
 
     -- * CalendarState
-    CalendarState (CalendarState'),
+    CalendarState (..),
 
     -- * CommandFilterKey
-    CommandFilterKey (CommandFilterKey'),
+    CommandFilterKey (..),
 
     -- * CommandInvocationStatus
-    CommandInvocationStatus (CommandInvocationStatus'),
+    CommandInvocationStatus (..),
 
     -- * CommandPluginStatus
-    CommandPluginStatus (CommandPluginStatus'),
+    CommandPluginStatus (..),
 
     -- * CommandStatus
-    CommandStatus (CommandStatus'),
+    CommandStatus (..),
 
     -- * ComplianceQueryOperatorType
-    ComplianceQueryOperatorType (ComplianceQueryOperatorType'),
+    ComplianceQueryOperatorType (..),
 
     -- * ComplianceSeverity
-    ComplianceSeverity (ComplianceSeverity'),
+    ComplianceSeverity (..),
 
     -- * ComplianceStatus
-    ComplianceStatus (ComplianceStatus'),
+    ComplianceStatus (..),
 
     -- * ComplianceUploadType
-    ComplianceUploadType (ComplianceUploadType'),
+    ComplianceUploadType (..),
 
     -- * ConnectionStatus
-    ConnectionStatus (ConnectionStatus'),
+    ConnectionStatus (..),
 
     -- * DescribeActivationsFilterKeys
-    DescribeActivationsFilterKeys (DescribeActivationsFilterKeys'),
+    DescribeActivationsFilterKeys (..),
 
     -- * DocumentFilterKey
-    DocumentFilterKey (DocumentFilterKey'),
+    DocumentFilterKey (..),
 
     -- * DocumentFormat
-    DocumentFormat (DocumentFormat'),
+    DocumentFormat (..),
 
     -- * DocumentHashType
-    DocumentHashType (DocumentHashType'),
+    DocumentHashType (..),
 
     -- * DocumentMetadataEnum
-    DocumentMetadataEnum (DocumentMetadataEnum'),
+    DocumentMetadataEnum (..),
 
     -- * DocumentParameterType
-    DocumentParameterType (DocumentParameterType'),
+    DocumentParameterType (..),
 
     -- * DocumentPermissionType
-    DocumentPermissionType (DocumentPermissionType'),
+    DocumentPermissionType (..),
 
     -- * DocumentReviewAction
-    DocumentReviewAction (DocumentReviewAction'),
+    DocumentReviewAction (..),
 
     -- * DocumentReviewCommentType
-    DocumentReviewCommentType (DocumentReviewCommentType'),
+    DocumentReviewCommentType (..),
 
     -- * DocumentStatus
-    DocumentStatus (DocumentStatus'),
+    DocumentStatus (..),
 
     -- * DocumentType
-    DocumentType (DocumentType'),
+    DocumentType (..),
 
     -- * ExecutionMode
-    ExecutionMode (ExecutionMode'),
+    ExecutionMode (..),
 
     -- * ExternalAlarmState
-    ExternalAlarmState (ExternalAlarmState'),
+    ExternalAlarmState (..),
 
     -- * Fault
-    Fault (Fault'),
+    Fault (..),
 
     -- * InstanceInformationFilterKey
-    InstanceInformationFilterKey (InstanceInformationFilterKey'),
+    InstanceInformationFilterKey (..),
 
     -- * InstancePatchStateOperatorType
-    InstancePatchStateOperatorType (InstancePatchStateOperatorType'),
+    InstancePatchStateOperatorType (..),
 
     -- * InventoryAttributeDataType
-    InventoryAttributeDataType (InventoryAttributeDataType'),
+    InventoryAttributeDataType (..),
 
     -- * InventoryDeletionStatus
-    InventoryDeletionStatus (InventoryDeletionStatus'),
+    InventoryDeletionStatus (..),
 
     -- * InventoryQueryOperatorType
-    InventoryQueryOperatorType (InventoryQueryOperatorType'),
+    InventoryQueryOperatorType (..),
 
     -- * InventorySchemaDeleteOption
-    InventorySchemaDeleteOption (InventorySchemaDeleteOption'),
+    InventorySchemaDeleteOption (..),
 
     -- * LastResourceDataSyncStatus
-    LastResourceDataSyncStatus (LastResourceDataSyncStatus'),
+    LastResourceDataSyncStatus (..),
 
     -- * MaintenanceWindowExecutionStatus
-    MaintenanceWindowExecutionStatus (MaintenanceWindowExecutionStatus'),
+    MaintenanceWindowExecutionStatus (..),
 
     -- * MaintenanceWindowResourceType
-    MaintenanceWindowResourceType (MaintenanceWindowResourceType'),
+    MaintenanceWindowResourceType (..),
 
     -- * MaintenanceWindowTaskCutoffBehavior
-    MaintenanceWindowTaskCutoffBehavior (MaintenanceWindowTaskCutoffBehavior'),
+    MaintenanceWindowTaskCutoffBehavior (..),
 
     -- * MaintenanceWindowTaskType
-    MaintenanceWindowTaskType (MaintenanceWindowTaskType'),
+    MaintenanceWindowTaskType (..),
 
     -- * NotificationEvent
-    NotificationEvent (NotificationEvent'),
+    NotificationEvent (..),
 
     -- * NotificationType
-    NotificationType (NotificationType'),
+    NotificationType (..),
 
     -- * OperatingSystem
-    OperatingSystem (OperatingSystem'),
+    OperatingSystem (..),
 
     -- * OpsFilterOperatorType
-    OpsFilterOperatorType (OpsFilterOperatorType'),
+    OpsFilterOperatorType (..),
 
     -- * OpsItemDataType
-    OpsItemDataType (OpsItemDataType'),
+    OpsItemDataType (..),
 
     -- * OpsItemEventFilterKey
-    OpsItemEventFilterKey (OpsItemEventFilterKey'),
+    OpsItemEventFilterKey (..),
 
     -- * OpsItemEventFilterOperator
-    OpsItemEventFilterOperator (OpsItemEventFilterOperator'),
+    OpsItemEventFilterOperator (..),
 
     -- * OpsItemFilterKey
-    OpsItemFilterKey (OpsItemFilterKey'),
+    OpsItemFilterKey (..),
 
     -- * OpsItemFilterOperator
-    OpsItemFilterOperator (OpsItemFilterOperator'),
+    OpsItemFilterOperator (..),
 
     -- * OpsItemRelatedItemsFilterKey
-    OpsItemRelatedItemsFilterKey (OpsItemRelatedItemsFilterKey'),
+    OpsItemRelatedItemsFilterKey (..),
 
     -- * OpsItemRelatedItemsFilterOperator
-    OpsItemRelatedItemsFilterOperator (OpsItemRelatedItemsFilterOperator'),
+    OpsItemRelatedItemsFilterOperator (..),
 
     -- * OpsItemStatus
-    OpsItemStatus (OpsItemStatus'),
+    OpsItemStatus (..),
 
     -- * ParameterTier
-    ParameterTier (ParameterTier'),
+    ParameterTier (..),
 
     -- * ParameterType
-    ParameterType (ParameterType'),
+    ParameterType (..),
 
     -- * ParametersFilterKey
-    ParametersFilterKey (ParametersFilterKey'),
+    ParametersFilterKey (..),
 
     -- * PatchAction
-    PatchAction (PatchAction'),
+    PatchAction (..),
 
     -- * PatchComplianceDataState
-    PatchComplianceDataState (PatchComplianceDataState'),
+    PatchComplianceDataState (..),
 
     -- * PatchComplianceLevel
-    PatchComplianceLevel (PatchComplianceLevel'),
+    PatchComplianceLevel (..),
 
     -- * PatchDeploymentStatus
-    PatchDeploymentStatus (PatchDeploymentStatus'),
+    PatchDeploymentStatus (..),
 
     -- * PatchFilterKey
-    PatchFilterKey (PatchFilterKey'),
+    PatchFilterKey (..),
 
     -- * PatchOperationType
-    PatchOperationType (PatchOperationType'),
+    PatchOperationType (..),
 
     -- * PatchProperty
-    PatchProperty (PatchProperty'),
+    PatchProperty (..),
 
     -- * PatchSet
-    PatchSet (PatchSet'),
+    PatchSet (..),
 
     -- * PingStatus
-    PingStatus (PingStatus'),
+    PingStatus (..),
 
     -- * PlatformType
-    PlatformType (PlatformType'),
+    PlatformType (..),
 
     -- * RebootOption
-    RebootOption (RebootOption'),
+    RebootOption (..),
 
     -- * ResourceDataSyncS3Format
-    ResourceDataSyncS3Format (ResourceDataSyncS3Format'),
+    ResourceDataSyncS3Format (..),
 
     -- * ResourceType
-    ResourceType (ResourceType'),
+    ResourceType (..),
 
     -- * ResourceTypeForTagging
-    ResourceTypeForTagging (ResourceTypeForTagging'),
+    ResourceTypeForTagging (..),
 
     -- * ReviewStatus
-    ReviewStatus (ReviewStatus'),
+    ReviewStatus (..),
 
     -- * SessionFilterKey
-    SessionFilterKey (SessionFilterKey'),
+    SessionFilterKey (..),
 
     -- * SessionState
-    SessionState (SessionState'),
+    SessionState (..),
 
     -- * SessionStatus
-    SessionStatus (SessionStatus'),
+    SessionStatus (..),
 
     -- * SignalType
-    SignalType (SignalType'),
+    SignalType (..),
 
     -- * SourceType
-    SourceType (SourceType'),
+    SourceType (..),
 
     -- * StepExecutionFilterKey
-    StepExecutionFilterKey (StepExecutionFilterKey'),
+    StepExecutionFilterKey (..),
 
     -- * StopType
-    StopType (StopType'),
+    StopType (..),
 
     -- * AccountSharingInfo
     AccountSharingInfo (AccountSharingInfo'),

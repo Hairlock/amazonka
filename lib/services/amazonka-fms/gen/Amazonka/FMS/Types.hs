@@ -27,52 +27,52 @@ module Amazonka.FMS.Types
     _ResourceNotFoundException,
 
     -- * AccountRoleStatus
-    AccountRoleStatus (AccountRoleStatus'),
+    AccountRoleStatus (..),
 
     -- * CustomerPolicyScopeIdType
-    CustomerPolicyScopeIdType (CustomerPolicyScopeIdType'),
+    CustomerPolicyScopeIdType (..),
 
     -- * DependentServiceName
-    DependentServiceName (DependentServiceName'),
+    DependentServiceName (..),
 
     -- * DestinationType
-    DestinationType (DestinationType'),
+    DestinationType (..),
 
     -- * FailedItemReason
-    FailedItemReason (FailedItemReason'),
+    FailedItemReason (..),
 
     -- * FirewallDeploymentModel
-    FirewallDeploymentModel (FirewallDeploymentModel'),
+    FirewallDeploymentModel (..),
 
     -- * MarketplaceSubscriptionOnboardingStatus
-    MarketplaceSubscriptionOnboardingStatus (MarketplaceSubscriptionOnboardingStatus'),
+    MarketplaceSubscriptionOnboardingStatus (..),
 
     -- * NetworkFirewallOverrideAction
-    NetworkFirewallOverrideAction (NetworkFirewallOverrideAction'),
+    NetworkFirewallOverrideAction (..),
 
     -- * PolicyComplianceStatusType
-    PolicyComplianceStatusType (PolicyComplianceStatusType'),
+    PolicyComplianceStatusType (..),
 
     -- * RemediationActionType
-    RemediationActionType (RemediationActionType'),
+    RemediationActionType (..),
 
     -- * RuleOrder
-    RuleOrder (RuleOrder'),
+    RuleOrder (..),
 
     -- * SecurityServiceType
-    SecurityServiceType (SecurityServiceType'),
+    SecurityServiceType (..),
 
     -- * TargetType
-    TargetType (TargetType'),
+    TargetType (..),
 
     -- * ThirdPartyFirewall
-    ThirdPartyFirewall (ThirdPartyFirewall'),
+    ThirdPartyFirewall (..),
 
     -- * ThirdPartyFirewallAssociationStatus
-    ThirdPartyFirewallAssociationStatus (ThirdPartyFirewallAssociationStatus'),
+    ThirdPartyFirewallAssociationStatus (..),
 
     -- * ViolationReason
-    ViolationReason (ViolationReason'),
+    ViolationReason (..),
 
     -- * ActionTarget
     ActionTarget (ActionTarget'),

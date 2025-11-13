@@ -28,46 +28,46 @@ module Amazonka.LookoutMetrics.Types
     _ValidationException,
 
     -- * AggregationFunction
-    AggregationFunction (AggregationFunction'),
+    AggregationFunction (..),
 
     -- * AlertStatus
-    AlertStatus (AlertStatus'),
+    AlertStatus (..),
 
     -- * AlertType
-    AlertType (AlertType'),
+    AlertType (..),
 
     -- * AnomalyDetectionTaskStatus
-    AnomalyDetectionTaskStatus (AnomalyDetectionTaskStatus'),
+    AnomalyDetectionTaskStatus (..),
 
     -- * AnomalyDetectorFailureType
-    AnomalyDetectorFailureType (AnomalyDetectorFailureType'),
+    AnomalyDetectorFailureType (..),
 
     -- * AnomalyDetectorStatus
-    AnomalyDetectorStatus (AnomalyDetectorStatus'),
+    AnomalyDetectorStatus (..),
 
     -- * CSVFileCompression
-    CSVFileCompression (CSVFileCompression'),
+    CSVFileCompression (..),
 
     -- * Confidence
-    Confidence (Confidence'),
+    Confidence (..),
 
     -- * DataQualityMetricType
-    DataQualityMetricType (DataQualityMetricType'),
+    DataQualityMetricType (..),
 
     -- * FilterOperation
-    FilterOperation (FilterOperation'),
+    FilterOperation (..),
 
     -- * Frequency
-    Frequency (Frequency'),
+    Frequency (..),
 
     -- * JsonFileCompression
-    JsonFileCompression (JsonFileCompression'),
+    JsonFileCompression (..),
 
     -- * RelationshipType
-    RelationshipType (RelationshipType'),
+    RelationshipType (..),
 
     -- * SnsFormat
-    SnsFormat (SnsFormat'),
+    SnsFormat (..),
 
     -- * Action
     Action (Action'),

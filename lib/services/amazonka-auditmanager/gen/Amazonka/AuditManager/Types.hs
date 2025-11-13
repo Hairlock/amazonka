@@ -27,76 +27,76 @@ module Amazonka.AuditManager.Types
     _ValidationException,
 
     -- * AccountStatus
-    AccountStatus (AccountStatus'),
+    AccountStatus (..),
 
     -- * ActionEnum
-    ActionEnum (ActionEnum'),
+    ActionEnum (..),
 
     -- * AssessmentReportDestinationType
-    AssessmentReportDestinationType (AssessmentReportDestinationType'),
+    AssessmentReportDestinationType (..),
 
     -- * AssessmentReportStatus
-    AssessmentReportStatus (AssessmentReportStatus'),
+    AssessmentReportStatus (..),
 
     -- * AssessmentStatus
-    AssessmentStatus (AssessmentStatus'),
+    AssessmentStatus (..),
 
     -- * ControlResponse
-    ControlResponse (ControlResponse'),
+    ControlResponse (..),
 
     -- * ControlSetStatus
-    ControlSetStatus (ControlSetStatus'),
+    ControlSetStatus (..),
 
     -- * ControlStatus
-    ControlStatus (ControlStatus'),
+    ControlStatus (..),
 
     -- * ControlType
-    ControlType (ControlType'),
+    ControlType (..),
 
     -- * DelegationStatus
-    DelegationStatus (DelegationStatus'),
+    DelegationStatus (..),
 
     -- * DeleteResources
-    DeleteResources (DeleteResources'),
+    DeleteResources (..),
 
     -- * EvidenceFinderBackfillStatus
-    EvidenceFinderBackfillStatus (EvidenceFinderBackfillStatus'),
+    EvidenceFinderBackfillStatus (..),
 
     -- * EvidenceFinderEnablementStatus
-    EvidenceFinderEnablementStatus (EvidenceFinderEnablementStatus'),
+    EvidenceFinderEnablementStatus (..),
 
     -- * FrameworkType
-    FrameworkType (FrameworkType'),
+    FrameworkType (..),
 
     -- * KeywordInputType
-    KeywordInputType (KeywordInputType'),
+    KeywordInputType (..),
 
     -- * ObjectTypeEnum
-    ObjectTypeEnum (ObjectTypeEnum'),
+    ObjectTypeEnum (..),
 
     -- * RoleType
-    RoleType (RoleType'),
+    RoleType (..),
 
     -- * SettingAttribute
-    SettingAttribute (SettingAttribute'),
+    SettingAttribute (..),
 
     -- * ShareRequestAction
-    ShareRequestAction (ShareRequestAction'),
+    ShareRequestAction (..),
 
     -- * ShareRequestStatus
-    ShareRequestStatus (ShareRequestStatus'),
+    ShareRequestStatus (..),
 
     -- * ShareRequestType
-    ShareRequestType (ShareRequestType'),
+    ShareRequestType (..),
 
     -- * SourceFrequency
-    SourceFrequency (SourceFrequency'),
+    SourceFrequency (..),
 
     -- * SourceSetUpOption
-    SourceSetUpOption (SourceSetUpOption'),
+    SourceSetUpOption (..),
 
     -- * SourceType
-    SourceType (SourceType'),
+    SourceType (..),
 
     -- * AWSAccount
     AWSAccount (AWSAccount'),

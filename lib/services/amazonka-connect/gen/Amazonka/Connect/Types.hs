@@ -42,169 +42,169 @@ module Amazonka.Connect.Types
     _UserNotFoundException,
 
     -- * ActionType
-    ActionType (ActionType'),
+    ActionType (..),
 
     -- * AgentStatusState
-    AgentStatusState (AgentStatusState'),
+    AgentStatusState (..),
 
     -- * AgentStatusType
-    AgentStatusType (AgentStatusType'),
+    AgentStatusType (..),
 
     -- * Channel
-    Channel (Channel'),
+    Channel (..),
 
     -- * Comparison
-    Comparison (Comparison'),
+    Comparison (..),
 
     -- * ContactFlowModuleState
-    ContactFlowModuleState (ContactFlowModuleState'),
+    ContactFlowModuleState (..),
 
     -- * ContactFlowModuleStatus
-    ContactFlowModuleStatus (ContactFlowModuleStatus'),
+    ContactFlowModuleStatus (..),
 
     -- * ContactFlowState
-    ContactFlowState (ContactFlowState'),
+    ContactFlowState (..),
 
     -- * ContactFlowType
-    ContactFlowType (ContactFlowType'),
+    ContactFlowType (..),
 
     -- * ContactInitiationMethod
-    ContactInitiationMethod (ContactInitiationMethod'),
+    ContactInitiationMethod (..),
 
     -- * ContactState
-    ContactState (ContactState'),
+    ContactState (..),
 
     -- * CurrentMetricName
-    CurrentMetricName (CurrentMetricName'),
+    CurrentMetricName (..),
 
     -- * DirectoryType
-    DirectoryType (DirectoryType'),
+    DirectoryType (..),
 
     -- * EncryptionType
-    EncryptionType (EncryptionType'),
+    EncryptionType (..),
 
     -- * EventSourceName
-    EventSourceName (EventSourceName'),
+    EventSourceName (..),
 
     -- * Grouping
-    Grouping (Grouping'),
+    Grouping (..),
 
     -- * HierarchyGroupMatchType
-    HierarchyGroupMatchType (HierarchyGroupMatchType'),
+    HierarchyGroupMatchType (..),
 
     -- * HistoricalMetricName
-    HistoricalMetricName (HistoricalMetricName'),
+    HistoricalMetricName (..),
 
     -- * HoursOfOperationDays
-    HoursOfOperationDays (HoursOfOperationDays'),
+    HoursOfOperationDays (..),
 
     -- * InstanceAttributeType
-    InstanceAttributeType (InstanceAttributeType'),
+    InstanceAttributeType (..),
 
     -- * InstanceStatus
-    InstanceStatus (InstanceStatus'),
+    InstanceStatus (..),
 
     -- * InstanceStorageResourceType
-    InstanceStorageResourceType (InstanceStorageResourceType'),
+    InstanceStorageResourceType (..),
 
     -- * IntegrationType
-    IntegrationType (IntegrationType'),
+    IntegrationType (..),
 
     -- * LexVersion
-    LexVersion (LexVersion'),
+    LexVersion (..),
 
     -- * MonitorCapability
-    MonitorCapability (MonitorCapability'),
+    MonitorCapability (..),
 
     -- * NotificationContentType
-    NotificationContentType (NotificationContentType'),
+    NotificationContentType (..),
 
     -- * NotificationDeliveryType
-    NotificationDeliveryType (NotificationDeliveryType'),
+    NotificationDeliveryType (..),
 
     -- * ParticipantTimerAction
-    ParticipantTimerAction (ParticipantTimerAction'),
+    ParticipantTimerAction (..),
 
     -- * ParticipantTimerType
-    ParticipantTimerType (ParticipantTimerType'),
+    ParticipantTimerType (..),
 
     -- * PhoneNumberCountryCode
-    PhoneNumberCountryCode (PhoneNumberCountryCode'),
+    PhoneNumberCountryCode (..),
 
     -- * PhoneNumberType
-    PhoneNumberType (PhoneNumberType'),
+    PhoneNumberType (..),
 
     -- * PhoneNumberWorkflowStatus
-    PhoneNumberWorkflowStatus (PhoneNumberWorkflowStatus'),
+    PhoneNumberWorkflowStatus (..),
 
     -- * PhoneType
-    PhoneType (PhoneType'),
+    PhoneType (..),
 
     -- * QueueStatus
-    QueueStatus (QueueStatus'),
+    QueueStatus (..),
 
     -- * QueueType
-    QueueType (QueueType'),
+    QueueType (..),
 
     -- * QuickConnectType
-    QuickConnectType (QuickConnectType'),
+    QuickConnectType (..),
 
     -- * ReferenceStatus
-    ReferenceStatus (ReferenceStatus'),
+    ReferenceStatus (..),
 
     -- * ReferenceType
-    ReferenceType (ReferenceType'),
+    ReferenceType (..),
 
     -- * RulePublishStatus
-    RulePublishStatus (RulePublishStatus'),
+    RulePublishStatus (..),
 
     -- * SearchableQueueType
-    SearchableQueueType (SearchableQueueType'),
+    SearchableQueueType (..),
 
     -- * SortOrder
-    SortOrder (SortOrder'),
+    SortOrder (..),
 
     -- * SourceType
-    SourceType (SourceType'),
+    SourceType (..),
 
     -- * Statistic
-    Statistic (Statistic'),
+    Statistic (..),
 
     -- * StorageType
-    StorageType (StorageType'),
+    StorageType (..),
 
     -- * StringComparisonType
-    StringComparisonType (StringComparisonType'),
+    StringComparisonType (..),
 
     -- * TaskTemplateFieldType
-    TaskTemplateFieldType (TaskTemplateFieldType'),
+    TaskTemplateFieldType (..),
 
     -- * TaskTemplateStatus
-    TaskTemplateStatus (TaskTemplateStatus'),
+    TaskTemplateStatus (..),
 
     -- * TimerEligibleParticipantRoles
-    TimerEligibleParticipantRoles (TimerEligibleParticipantRoles'),
+    TimerEligibleParticipantRoles (..),
 
     -- * TrafficDistributionGroupStatus
-    TrafficDistributionGroupStatus (TrafficDistributionGroupStatus'),
+    TrafficDistributionGroupStatus (..),
 
     -- * TrafficType
-    TrafficType (TrafficType'),
+    TrafficType (..),
 
     -- * Unit
-    Unit (Unit'),
+    Unit (..),
 
     -- * UseCaseType
-    UseCaseType (UseCaseType'),
+    UseCaseType (..),
 
     -- * VocabularyLanguageCode
-    VocabularyLanguageCode (VocabularyLanguageCode'),
+    VocabularyLanguageCode (..),
 
     -- * VocabularyState
-    VocabularyState (VocabularyState'),
+    VocabularyState (..),
 
     -- * VoiceRecordingTrack
-    VoiceRecordingTrack (VoiceRecordingTrack'),
+    VoiceRecordingTrack (..),
 
     -- * ActionSummary
     ActionSummary (ActionSummary'),

@@ -28,19 +28,19 @@ module Amazonka.Detective.Types
     _ValidationException,
 
     -- * DatasourcePackage
-    DatasourcePackage (DatasourcePackage'),
+    DatasourcePackage (..),
 
     -- * DatasourcePackageIngestState
-    DatasourcePackageIngestState (DatasourcePackageIngestState'),
+    DatasourcePackageIngestState (..),
 
     -- * InvitationType
-    InvitationType (InvitationType'),
+    InvitationType (..),
 
     -- * MemberDisabledReason
-    MemberDisabledReason (MemberDisabledReason'),
+    MemberDisabledReason (..),
 
     -- * MemberStatus
-    MemberStatus (MemberStatus'),
+    MemberStatus (..),
 
     -- * Account
     Account (Account'),

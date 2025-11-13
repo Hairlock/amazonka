@@ -39,76 +39,76 @@ module Amazonka.WAFV2.Types
     _WAFUnavailableEntityException,
 
     -- * ActionValue
-    ActionValue (ActionValue'),
+    ActionValue (..),
 
     -- * BodyParsingFallbackBehavior
-    BodyParsingFallbackBehavior (BodyParsingFallbackBehavior'),
+    BodyParsingFallbackBehavior (..),
 
     -- * ComparisonOperator
-    ComparisonOperator (ComparisonOperator'),
+    ComparisonOperator (..),
 
     -- * CountryCode
-    CountryCode (CountryCode'),
+    CountryCode (..),
 
     -- * FailureReason
-    FailureReason (FailureReason'),
+    FailureReason (..),
 
     -- * FallbackBehavior
-    FallbackBehavior (FallbackBehavior'),
+    FallbackBehavior (..),
 
     -- * FilterBehavior
-    FilterBehavior (FilterBehavior'),
+    FilterBehavior (..),
 
     -- * FilterRequirement
-    FilterRequirement (FilterRequirement'),
+    FilterRequirement (..),
 
     -- * ForwardedIPPosition
-    ForwardedIPPosition (ForwardedIPPosition'),
+    ForwardedIPPosition (..),
 
     -- * IPAddressVersion
-    IPAddressVersion (IPAddressVersion'),
+    IPAddressVersion (..),
 
     -- * InspectionLevel
-    InspectionLevel (InspectionLevel'),
+    InspectionLevel (..),
 
     -- * JsonMatchScope
-    JsonMatchScope (JsonMatchScope'),
+    JsonMatchScope (..),
 
     -- * LabelMatchScope
-    LabelMatchScope (LabelMatchScope'),
+    LabelMatchScope (..),
 
     -- * MapMatchScope
-    MapMatchScope (MapMatchScope'),
+    MapMatchScope (..),
 
     -- * OversizeHandling
-    OversizeHandling (OversizeHandling'),
+    OversizeHandling (..),
 
     -- * PayloadType
-    PayloadType (PayloadType'),
+    PayloadType (..),
 
     -- * Platform
-    Platform (Platform'),
+    Platform (..),
 
     -- * PositionalConstraint
-    PositionalConstraint (PositionalConstraint'),
+    PositionalConstraint (..),
 
     -- * RateBasedStatementAggregateKeyType
-    RateBasedStatementAggregateKeyType (RateBasedStatementAggregateKeyType'),
+    RateBasedStatementAggregateKeyType (..),
 
     -- * ResourceType
-    ResourceType (ResourceType'),
+    ResourceType (..),
 
     -- * ResponseContentType
-    ResponseContentType (ResponseContentType'),
+    ResponseContentType (..),
 
     -- * Scope
-    Scope (Scope'),
+    Scope (..),
 
     -- * SensitivityLevel
-    SensitivityLevel (SensitivityLevel'),
+    SensitivityLevel (..),
 
     -- * TextTransformationType
-    TextTransformationType (TextTransformationType'),
+    TextTransformationType (..),
 
     -- * AWSManagedRulesBotControlRuleSet
     AWSManagedRulesBotControlRuleSet (AWSManagedRulesBotControlRuleSet'),

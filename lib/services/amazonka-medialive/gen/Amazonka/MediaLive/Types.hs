@@ -30,796 +30,796 @@ module Amazonka.MediaLive.Types
     _UnprocessableEntityException,
 
     -- * AacCodingMode
-    AacCodingMode (AacCodingMode'),
+    AacCodingMode (..),
 
     -- * AacInputType
-    AacInputType (AacInputType'),
+    AacInputType (..),
 
     -- * AacProfile
-    AacProfile (AacProfile'),
+    AacProfile (..),
 
     -- * AacRateControlMode
-    AacRateControlMode (AacRateControlMode'),
+    AacRateControlMode (..),
 
     -- * AacRawFormat
-    AacRawFormat (AacRawFormat'),
+    AacRawFormat (..),
 
     -- * AacSpec
-    AacSpec (AacSpec'),
+    AacSpec (..),
 
     -- * AacVbrQuality
-    AacVbrQuality (AacVbrQuality'),
+    AacVbrQuality (..),
 
     -- * Ac3BitstreamMode
-    Ac3BitstreamMode (Ac3BitstreamMode'),
+    Ac3BitstreamMode (..),
 
     -- * Ac3CodingMode
-    Ac3CodingMode (Ac3CodingMode'),
+    Ac3CodingMode (..),
 
     -- * Ac3DrcProfile
-    Ac3DrcProfile (Ac3DrcProfile'),
+    Ac3DrcProfile (..),
 
     -- * Ac3LfeFilter
-    Ac3LfeFilter (Ac3LfeFilter'),
+    Ac3LfeFilter (..),
 
     -- * Ac3MetadataControl
-    Ac3MetadataControl (Ac3MetadataControl'),
+    Ac3MetadataControl (..),
 
     -- * AcceptHeader
-    AcceptHeader (AcceptHeader'),
+    AcceptHeader (..),
 
     -- * AccessibilityType
-    AccessibilityType (AccessibilityType'),
+    AccessibilityType (..),
 
     -- * AfdSignaling
-    AfdSignaling (AfdSignaling'),
+    AfdSignaling (..),
 
     -- * AudioDescriptionAudioTypeControl
-    AudioDescriptionAudioTypeControl (AudioDescriptionAudioTypeControl'),
+    AudioDescriptionAudioTypeControl (..),
 
     -- * AudioDescriptionLanguageCodeControl
-    AudioDescriptionLanguageCodeControl (AudioDescriptionLanguageCodeControl'),
+    AudioDescriptionLanguageCodeControl (..),
 
     -- * AudioLanguageSelectionPolicy
-    AudioLanguageSelectionPolicy (AudioLanguageSelectionPolicy'),
+    AudioLanguageSelectionPolicy (..),
 
     -- * AudioNormalizationAlgorithm
-    AudioNormalizationAlgorithm (AudioNormalizationAlgorithm'),
+    AudioNormalizationAlgorithm (..),
 
     -- * AudioNormalizationAlgorithmControl
-    AudioNormalizationAlgorithmControl (AudioNormalizationAlgorithmControl'),
+    AudioNormalizationAlgorithmControl (..),
 
     -- * AudioOnlyHlsSegmentType
-    AudioOnlyHlsSegmentType (AudioOnlyHlsSegmentType'),
+    AudioOnlyHlsSegmentType (..),
 
     -- * AudioOnlyHlsTrackType
-    AudioOnlyHlsTrackType (AudioOnlyHlsTrackType'),
+    AudioOnlyHlsTrackType (..),
 
     -- * AudioType
-    AudioType (AudioType'),
+    AudioType (..),
 
     -- * AuthenticationScheme
-    AuthenticationScheme (AuthenticationScheme'),
+    AuthenticationScheme (..),
 
     -- * AvailBlankingState
-    AvailBlankingState (AvailBlankingState'),
+    AvailBlankingState (..),
 
     -- * BlackoutSlateNetworkEndBlackout
-    BlackoutSlateNetworkEndBlackout (BlackoutSlateNetworkEndBlackout'),
+    BlackoutSlateNetworkEndBlackout (..),
 
     -- * BlackoutSlateState
-    BlackoutSlateState (BlackoutSlateState'),
+    BlackoutSlateState (..),
 
     -- * BurnInAlignment
-    BurnInAlignment (BurnInAlignment'),
+    BurnInAlignment (..),
 
     -- * BurnInBackgroundColor
-    BurnInBackgroundColor (BurnInBackgroundColor'),
+    BurnInBackgroundColor (..),
 
     -- * BurnInFontColor
-    BurnInFontColor (BurnInFontColor'),
+    BurnInFontColor (..),
 
     -- * BurnInOutlineColor
-    BurnInOutlineColor (BurnInOutlineColor'),
+    BurnInOutlineColor (..),
 
     -- * BurnInShadowColor
-    BurnInShadowColor (BurnInShadowColor'),
+    BurnInShadowColor (..),
 
     -- * BurnInTeletextGridControl
-    BurnInTeletextGridControl (BurnInTeletextGridControl'),
+    BurnInTeletextGridControl (..),
 
     -- * CdiInputResolution
-    CdiInputResolution (CdiInputResolution'),
+    CdiInputResolution (..),
 
     -- * ChannelClass
-    ChannelClass (ChannelClass'),
+    ChannelClass (..),
 
     -- * ChannelState
-    ChannelState (ChannelState'),
+    ChannelState (..),
 
     -- * ContentType
-    ContentType (ContentType'),
+    ContentType (..),
 
     -- * DeviceSettingsSyncState
-    DeviceSettingsSyncState (DeviceSettingsSyncState'),
+    DeviceSettingsSyncState (..),
 
     -- * DeviceUpdateStatus
-    DeviceUpdateStatus (DeviceUpdateStatus'),
+    DeviceUpdateStatus (..),
 
     -- * DolbyEProgramSelection
-    DolbyEProgramSelection (DolbyEProgramSelection'),
+    DolbyEProgramSelection (..),
 
     -- * DvbSdtOutputSdt
-    DvbSdtOutputSdt (DvbSdtOutputSdt'),
+    DvbSdtOutputSdt (..),
 
     -- * DvbSubDestinationAlignment
-    DvbSubDestinationAlignment (DvbSubDestinationAlignment'),
+    DvbSubDestinationAlignment (..),
 
     -- * DvbSubDestinationBackgroundColor
-    DvbSubDestinationBackgroundColor (DvbSubDestinationBackgroundColor'),
+    DvbSubDestinationBackgroundColor (..),
 
     -- * DvbSubDestinationFontColor
-    DvbSubDestinationFontColor (DvbSubDestinationFontColor'),
+    DvbSubDestinationFontColor (..),
 
     -- * DvbSubDestinationOutlineColor
-    DvbSubDestinationOutlineColor (DvbSubDestinationOutlineColor'),
+    DvbSubDestinationOutlineColor (..),
 
     -- * DvbSubDestinationShadowColor
-    DvbSubDestinationShadowColor (DvbSubDestinationShadowColor'),
+    DvbSubDestinationShadowColor (..),
 
     -- * DvbSubDestinationTeletextGridControl
-    DvbSubDestinationTeletextGridControl (DvbSubDestinationTeletextGridControl'),
+    DvbSubDestinationTeletextGridControl (..),
 
     -- * DvbSubOcrLanguage
-    DvbSubOcrLanguage (DvbSubOcrLanguage'),
+    DvbSubOcrLanguage (..),
 
     -- * Eac3AtmosCodingMode
-    Eac3AtmosCodingMode (Eac3AtmosCodingMode'),
+    Eac3AtmosCodingMode (..),
 
     -- * Eac3AtmosDrcLine
-    Eac3AtmosDrcLine (Eac3AtmosDrcLine'),
+    Eac3AtmosDrcLine (..),
 
     -- * Eac3AtmosDrcRf
-    Eac3AtmosDrcRf (Eac3AtmosDrcRf'),
+    Eac3AtmosDrcRf (..),
 
     -- * Eac3AttenuationControl
-    Eac3AttenuationControl (Eac3AttenuationControl'),
+    Eac3AttenuationControl (..),
 
     -- * Eac3BitstreamMode
-    Eac3BitstreamMode (Eac3BitstreamMode'),
+    Eac3BitstreamMode (..),
 
     -- * Eac3CodingMode
-    Eac3CodingMode (Eac3CodingMode'),
+    Eac3CodingMode (..),
 
     -- * Eac3DcFilter
-    Eac3DcFilter (Eac3DcFilter'),
+    Eac3DcFilter (..),
 
     -- * Eac3DrcLine
-    Eac3DrcLine (Eac3DrcLine'),
+    Eac3DrcLine (..),
 
     -- * Eac3DrcRf
-    Eac3DrcRf (Eac3DrcRf'),
+    Eac3DrcRf (..),
 
     -- * Eac3LfeControl
-    Eac3LfeControl (Eac3LfeControl'),
+    Eac3LfeControl (..),
 
     -- * Eac3LfeFilter
-    Eac3LfeFilter (Eac3LfeFilter'),
+    Eac3LfeFilter (..),
 
     -- * Eac3MetadataControl
-    Eac3MetadataControl (Eac3MetadataControl'),
+    Eac3MetadataControl (..),
 
     -- * Eac3PassthroughControl
-    Eac3PassthroughControl (Eac3PassthroughControl'),
+    Eac3PassthroughControl (..),
 
     -- * Eac3PhaseControl
-    Eac3PhaseControl (Eac3PhaseControl'),
+    Eac3PhaseControl (..),
 
     -- * Eac3StereoDownmix
-    Eac3StereoDownmix (Eac3StereoDownmix'),
+    Eac3StereoDownmix (..),
 
     -- * Eac3SurroundExMode
-    Eac3SurroundExMode (Eac3SurroundExMode'),
+    Eac3SurroundExMode (..),
 
     -- * Eac3SurroundMode
-    Eac3SurroundMode (Eac3SurroundMode'),
+    Eac3SurroundMode (..),
 
     -- * EbuTtDDestinationStyleControl
-    EbuTtDDestinationStyleControl (EbuTtDDestinationStyleControl'),
+    EbuTtDDestinationStyleControl (..),
 
     -- * EbuTtDFillLineGapControl
-    EbuTtDFillLineGapControl (EbuTtDFillLineGapControl'),
+    EbuTtDFillLineGapControl (..),
 
     -- * EmbeddedConvert608To708
-    EmbeddedConvert608To708 (EmbeddedConvert608To708'),
+    EmbeddedConvert608To708 (..),
 
     -- * EmbeddedScte20Detection
-    EmbeddedScte20Detection (EmbeddedScte20Detection'),
+    EmbeddedScte20Detection (..),
 
     -- * FeatureActivationsInputPrepareScheduleActions
-    FeatureActivationsInputPrepareScheduleActions (FeatureActivationsInputPrepareScheduleActions'),
+    FeatureActivationsInputPrepareScheduleActions (..),
 
     -- * FecOutputIncludeFec
-    FecOutputIncludeFec (FecOutputIncludeFec'),
+    FecOutputIncludeFec (..),
 
     -- * FixedAfd
-    FixedAfd (FixedAfd'),
+    FixedAfd (..),
 
     -- * Fmp4NielsenId3Behavior
-    Fmp4NielsenId3Behavior (Fmp4NielsenId3Behavior'),
+    Fmp4NielsenId3Behavior (..),
 
     -- * Fmp4TimedMetadataBehavior
-    Fmp4TimedMetadataBehavior (Fmp4TimedMetadataBehavior'),
+    Fmp4TimedMetadataBehavior (..),
 
     -- * FollowPoint
-    FollowPoint (FollowPoint'),
+    FollowPoint (..),
 
     -- * FrameCaptureIntervalUnit
-    FrameCaptureIntervalUnit (FrameCaptureIntervalUnit'),
+    FrameCaptureIntervalUnit (..),
 
     -- * GlobalConfigurationInputEndAction
-    GlobalConfigurationInputEndAction (GlobalConfigurationInputEndAction'),
+    GlobalConfigurationInputEndAction (..),
 
     -- * GlobalConfigurationLowFramerateInputs
-    GlobalConfigurationLowFramerateInputs (GlobalConfigurationLowFramerateInputs'),
+    GlobalConfigurationLowFramerateInputs (..),
 
     -- * GlobalConfigurationOutputLockingMode
-    GlobalConfigurationOutputLockingMode (GlobalConfigurationOutputLockingMode'),
+    GlobalConfigurationOutputLockingMode (..),
 
     -- * GlobalConfigurationOutputTimingSource
-    GlobalConfigurationOutputTimingSource (GlobalConfigurationOutputTimingSource'),
+    GlobalConfigurationOutputTimingSource (..),
 
     -- * H264AdaptiveQuantization
-    H264AdaptiveQuantization (H264AdaptiveQuantization'),
+    H264AdaptiveQuantization (..),
 
     -- * H264ColorMetadata
-    H264ColorMetadata (H264ColorMetadata'),
+    H264ColorMetadata (..),
 
     -- * H264EntropyEncoding
-    H264EntropyEncoding (H264EntropyEncoding'),
+    H264EntropyEncoding (..),
 
     -- * H264FlickerAq
-    H264FlickerAq (H264FlickerAq'),
+    H264FlickerAq (..),
 
     -- * H264ForceFieldPictures
-    H264ForceFieldPictures (H264ForceFieldPictures'),
+    H264ForceFieldPictures (..),
 
     -- * H264FramerateControl
-    H264FramerateControl (H264FramerateControl'),
+    H264FramerateControl (..),
 
     -- * H264GopBReference
-    H264GopBReference (H264GopBReference'),
+    H264GopBReference (..),
 
     -- * H264GopSizeUnits
-    H264GopSizeUnits (H264GopSizeUnits'),
+    H264GopSizeUnits (..),
 
     -- * H264Level
-    H264Level (H264Level'),
+    H264Level (..),
 
     -- * H264LookAheadRateControl
-    H264LookAheadRateControl (H264LookAheadRateControl'),
+    H264LookAheadRateControl (..),
 
     -- * H264ParControl
-    H264ParControl (H264ParControl'),
+    H264ParControl (..),
 
     -- * H264Profile
-    H264Profile (H264Profile'),
+    H264Profile (..),
 
     -- * H264QualityLevel
-    H264QualityLevel (H264QualityLevel'),
+    H264QualityLevel (..),
 
     -- * H264RateControlMode
-    H264RateControlMode (H264RateControlMode'),
+    H264RateControlMode (..),
 
     -- * H264ScanType
-    H264ScanType (H264ScanType'),
+    H264ScanType (..),
 
     -- * H264SceneChangeDetect
-    H264SceneChangeDetect (H264SceneChangeDetect'),
+    H264SceneChangeDetect (..),
 
     -- * H264SpatialAq
-    H264SpatialAq (H264SpatialAq'),
+    H264SpatialAq (..),
 
     -- * H264SubGopLength
-    H264SubGopLength (H264SubGopLength'),
+    H264SubGopLength (..),
 
     -- * H264Syntax
-    H264Syntax (H264Syntax'),
+    H264Syntax (..),
 
     -- * H264TemporalAq
-    H264TemporalAq (H264TemporalAq'),
+    H264TemporalAq (..),
 
     -- * H264TimecodeInsertionBehavior
-    H264TimecodeInsertionBehavior (H264TimecodeInsertionBehavior'),
+    H264TimecodeInsertionBehavior (..),
 
     -- * H265AdaptiveQuantization
-    H265AdaptiveQuantization (H265AdaptiveQuantization'),
+    H265AdaptiveQuantization (..),
 
     -- * H265AlternativeTransferFunction
-    H265AlternativeTransferFunction (H265AlternativeTransferFunction'),
+    H265AlternativeTransferFunction (..),
 
     -- * H265ColorMetadata
-    H265ColorMetadata (H265ColorMetadata'),
+    H265ColorMetadata (..),
 
     -- * H265FlickerAq
-    H265FlickerAq (H265FlickerAq'),
+    H265FlickerAq (..),
 
     -- * H265GopSizeUnits
-    H265GopSizeUnits (H265GopSizeUnits'),
+    H265GopSizeUnits (..),
 
     -- * H265Level
-    H265Level (H265Level'),
+    H265Level (..),
 
     -- * H265LookAheadRateControl
-    H265LookAheadRateControl (H265LookAheadRateControl'),
+    H265LookAheadRateControl (..),
 
     -- * H265Profile
-    H265Profile (H265Profile'),
+    H265Profile (..),
 
     -- * H265RateControlMode
-    H265RateControlMode (H265RateControlMode'),
+    H265RateControlMode (..),
 
     -- * H265ScanType
-    H265ScanType (H265ScanType'),
+    H265ScanType (..),
 
     -- * H265SceneChangeDetect
-    H265SceneChangeDetect (H265SceneChangeDetect'),
+    H265SceneChangeDetect (..),
 
     -- * H265Tier
-    H265Tier (H265Tier'),
+    H265Tier (..),
 
     -- * H265TimecodeInsertionBehavior
-    H265TimecodeInsertionBehavior (H265TimecodeInsertionBehavior'),
+    H265TimecodeInsertionBehavior (..),
 
     -- * HlsAdMarkers
-    HlsAdMarkers (HlsAdMarkers'),
+    HlsAdMarkers (..),
 
     -- * HlsAkamaiHttpTransferMode
-    HlsAkamaiHttpTransferMode (HlsAkamaiHttpTransferMode'),
+    HlsAkamaiHttpTransferMode (..),
 
     -- * HlsCaptionLanguageSetting
-    HlsCaptionLanguageSetting (HlsCaptionLanguageSetting'),
+    HlsCaptionLanguageSetting (..),
 
     -- * HlsClientCache
-    HlsClientCache (HlsClientCache'),
+    HlsClientCache (..),
 
     -- * HlsCodecSpecification
-    HlsCodecSpecification (HlsCodecSpecification'),
+    HlsCodecSpecification (..),
 
     -- * HlsDirectoryStructure
-    HlsDirectoryStructure (HlsDirectoryStructure'),
+    HlsDirectoryStructure (..),
 
     -- * HlsDiscontinuityTags
-    HlsDiscontinuityTags (HlsDiscontinuityTags'),
+    HlsDiscontinuityTags (..),
 
     -- * HlsEncryptionType
-    HlsEncryptionType (HlsEncryptionType'),
+    HlsEncryptionType (..),
 
     -- * HlsH265PackagingType
-    HlsH265PackagingType (HlsH265PackagingType'),
+    HlsH265PackagingType (..),
 
     -- * HlsId3SegmentTaggingState
-    HlsId3SegmentTaggingState (HlsId3SegmentTaggingState'),
+    HlsId3SegmentTaggingState (..),
 
     -- * HlsIncompleteSegmentBehavior
-    HlsIncompleteSegmentBehavior (HlsIncompleteSegmentBehavior'),
+    HlsIncompleteSegmentBehavior (..),
 
     -- * HlsIvInManifest
-    HlsIvInManifest (HlsIvInManifest'),
+    HlsIvInManifest (..),
 
     -- * HlsIvSource
-    HlsIvSource (HlsIvSource'),
+    HlsIvSource (..),
 
     -- * HlsManifestCompression
-    HlsManifestCompression (HlsManifestCompression'),
+    HlsManifestCompression (..),
 
     -- * HlsManifestDurationFormat
-    HlsManifestDurationFormat (HlsManifestDurationFormat'),
+    HlsManifestDurationFormat (..),
 
     -- * HlsMediaStoreStorageClass
-    HlsMediaStoreStorageClass (HlsMediaStoreStorageClass'),
+    HlsMediaStoreStorageClass (..),
 
     -- * HlsMode
-    HlsMode (HlsMode'),
+    HlsMode (..),
 
     -- * HlsOutputSelection
-    HlsOutputSelection (HlsOutputSelection'),
+    HlsOutputSelection (..),
 
     -- * HlsProgramDateTime
-    HlsProgramDateTime (HlsProgramDateTime'),
+    HlsProgramDateTime (..),
 
     -- * HlsProgramDateTimeClock
-    HlsProgramDateTimeClock (HlsProgramDateTimeClock'),
+    HlsProgramDateTimeClock (..),
 
     -- * HlsRedundantManifest
-    HlsRedundantManifest (HlsRedundantManifest'),
+    HlsRedundantManifest (..),
 
     -- * HlsScte35SourceType
-    HlsScte35SourceType (HlsScte35SourceType'),
+    HlsScte35SourceType (..),
 
     -- * HlsSegmentationMode
-    HlsSegmentationMode (HlsSegmentationMode'),
+    HlsSegmentationMode (..),
 
     -- * HlsStreamInfResolution
-    HlsStreamInfResolution (HlsStreamInfResolution'),
+    HlsStreamInfResolution (..),
 
     -- * HlsTimedMetadataId3Frame
-    HlsTimedMetadataId3Frame (HlsTimedMetadataId3Frame'),
+    HlsTimedMetadataId3Frame (..),
 
     -- * HlsTsFileMode
-    HlsTsFileMode (HlsTsFileMode'),
+    HlsTsFileMode (..),
 
     -- * HlsWebdavHttpTransferMode
-    HlsWebdavHttpTransferMode (HlsWebdavHttpTransferMode'),
+    HlsWebdavHttpTransferMode (..),
 
     -- * IFrameOnlyPlaylistType
-    IFrameOnlyPlaylistType (IFrameOnlyPlaylistType'),
+    IFrameOnlyPlaylistType (..),
 
     -- * InputClass
-    InputClass (InputClass'),
+    InputClass (..),
 
     -- * InputCodec
-    InputCodec (InputCodec'),
+    InputCodec (..),
 
     -- * InputDeblockFilter
-    InputDeblockFilter (InputDeblockFilter'),
+    InputDeblockFilter (..),
 
     -- * InputDenoiseFilter
-    InputDenoiseFilter (InputDenoiseFilter'),
+    InputDenoiseFilter (..),
 
     -- * InputDeviceActiveInput
-    InputDeviceActiveInput (InputDeviceActiveInput'),
+    InputDeviceActiveInput (..),
 
     -- * InputDeviceConfiguredInput
-    InputDeviceConfiguredInput (InputDeviceConfiguredInput'),
+    InputDeviceConfiguredInput (..),
 
     -- * InputDeviceConnectionState
-    InputDeviceConnectionState (InputDeviceConnectionState'),
+    InputDeviceConnectionState (..),
 
     -- * InputDeviceIpScheme
-    InputDeviceIpScheme (InputDeviceIpScheme'),
+    InputDeviceIpScheme (..),
 
     -- * InputDeviceScanType
-    InputDeviceScanType (InputDeviceScanType'),
+    InputDeviceScanType (..),
 
     -- * InputDeviceState
-    InputDeviceState (InputDeviceState'),
+    InputDeviceState (..),
 
     -- * InputDeviceTransferType
-    InputDeviceTransferType (InputDeviceTransferType'),
+    InputDeviceTransferType (..),
 
     -- * InputDeviceType
-    InputDeviceType (InputDeviceType'),
+    InputDeviceType (..),
 
     -- * InputFilter
-    InputFilter (InputFilter'),
+    InputFilter (..),
 
     -- * InputLossActionForHlsOut
-    InputLossActionForHlsOut (InputLossActionForHlsOut'),
+    InputLossActionForHlsOut (..),
 
     -- * InputLossActionForMsSmoothOut
-    InputLossActionForMsSmoothOut (InputLossActionForMsSmoothOut'),
+    InputLossActionForMsSmoothOut (..),
 
     -- * InputLossActionForRtmpOut
-    InputLossActionForRtmpOut (InputLossActionForRtmpOut'),
+    InputLossActionForRtmpOut (..),
 
     -- * InputLossActionForUdpOut
-    InputLossActionForUdpOut (InputLossActionForUdpOut'),
+    InputLossActionForUdpOut (..),
 
     -- * InputLossImageType
-    InputLossImageType (InputLossImageType'),
+    InputLossImageType (..),
 
     -- * InputMaximumBitrate
-    InputMaximumBitrate (InputMaximumBitrate'),
+    InputMaximumBitrate (..),
 
     -- * InputPreference
-    InputPreference (InputPreference'),
+    InputPreference (..),
 
     -- * InputResolution
-    InputResolution (InputResolution'),
+    InputResolution (..),
 
     -- * InputSecurityGroupState
-    InputSecurityGroupState (InputSecurityGroupState'),
+    InputSecurityGroupState (..),
 
     -- * InputSourceEndBehavior
-    InputSourceEndBehavior (InputSourceEndBehavior'),
+    InputSourceEndBehavior (..),
 
     -- * InputSourceType
-    InputSourceType (InputSourceType'),
+    InputSourceType (..),
 
     -- * InputState
-    InputState (InputState'),
+    InputState (..),
 
     -- * InputTimecodeSource
-    InputTimecodeSource (InputTimecodeSource'),
+    InputTimecodeSource (..),
 
     -- * InputType
-    InputType (InputType'),
+    InputType (..),
 
     -- * LastFrameClippingBehavior
-    LastFrameClippingBehavior (LastFrameClippingBehavior'),
+    LastFrameClippingBehavior (..),
 
     -- * LogLevel
-    LogLevel (LogLevel'),
+    LogLevel (..),
 
     -- * M2tsAbsentInputAudioBehavior
-    M2tsAbsentInputAudioBehavior (M2tsAbsentInputAudioBehavior'),
+    M2tsAbsentInputAudioBehavior (..),
 
     -- * M2tsArib
-    M2tsArib (M2tsArib'),
+    M2tsArib (..),
 
     -- * M2tsAribCaptionsPidControl
-    M2tsAribCaptionsPidControl (M2tsAribCaptionsPidControl'),
+    M2tsAribCaptionsPidControl (..),
 
     -- * M2tsAudioBufferModel
-    M2tsAudioBufferModel (M2tsAudioBufferModel'),
+    M2tsAudioBufferModel (..),
 
     -- * M2tsAudioInterval
-    M2tsAudioInterval (M2tsAudioInterval'),
+    M2tsAudioInterval (..),
 
     -- * M2tsAudioStreamType
-    M2tsAudioStreamType (M2tsAudioStreamType'),
+    M2tsAudioStreamType (..),
 
     -- * M2tsBufferModel
-    M2tsBufferModel (M2tsBufferModel'),
+    M2tsBufferModel (..),
 
     -- * M2tsCcDescriptor
-    M2tsCcDescriptor (M2tsCcDescriptor'),
+    M2tsCcDescriptor (..),
 
     -- * M2tsEbifControl
-    M2tsEbifControl (M2tsEbifControl'),
+    M2tsEbifControl (..),
 
     -- * M2tsEbpPlacement
-    M2tsEbpPlacement (M2tsEbpPlacement'),
+    M2tsEbpPlacement (..),
 
     -- * M2tsEsRateInPes
-    M2tsEsRateInPes (M2tsEsRateInPes'),
+    M2tsEsRateInPes (..),
 
     -- * M2tsKlv
-    M2tsKlv (M2tsKlv'),
+    M2tsKlv (..),
 
     -- * M2tsNielsenId3Behavior
-    M2tsNielsenId3Behavior (M2tsNielsenId3Behavior'),
+    M2tsNielsenId3Behavior (..),
 
     -- * M2tsPcrControl
-    M2tsPcrControl (M2tsPcrControl'),
+    M2tsPcrControl (..),
 
     -- * M2tsRateMode
-    M2tsRateMode (M2tsRateMode'),
+    M2tsRateMode (..),
 
     -- * M2tsScte35Control
-    M2tsScte35Control (M2tsScte35Control'),
+    M2tsScte35Control (..),
 
     -- * M2tsSegmentationMarkers
-    M2tsSegmentationMarkers (M2tsSegmentationMarkers'),
+    M2tsSegmentationMarkers (..),
 
     -- * M2tsSegmentationStyle
-    M2tsSegmentationStyle (M2tsSegmentationStyle'),
+    M2tsSegmentationStyle (..),
 
     -- * M2tsTimedMetadataBehavior
-    M2tsTimedMetadataBehavior (M2tsTimedMetadataBehavior'),
+    M2tsTimedMetadataBehavior (..),
 
     -- * M3u8NielsenId3Behavior
-    M3u8NielsenId3Behavior (M3u8NielsenId3Behavior'),
+    M3u8NielsenId3Behavior (..),
 
     -- * M3u8PcrControl
-    M3u8PcrControl (M3u8PcrControl'),
+    M3u8PcrControl (..),
 
     -- * M3u8Scte35Behavior
-    M3u8Scte35Behavior (M3u8Scte35Behavior'),
+    M3u8Scte35Behavior (..),
 
     -- * M3u8TimedMetadataBehavior
-    M3u8TimedMetadataBehavior (M3u8TimedMetadataBehavior'),
+    M3u8TimedMetadataBehavior (..),
 
     -- * MaintenanceDay
-    MaintenanceDay (MaintenanceDay'),
+    MaintenanceDay (..),
 
     -- * MotionGraphicsInsertion
-    MotionGraphicsInsertion (MotionGraphicsInsertion'),
+    MotionGraphicsInsertion (..),
 
     -- * Mp2CodingMode
-    Mp2CodingMode (Mp2CodingMode'),
+    Mp2CodingMode (..),
 
     -- * Mpeg2AdaptiveQuantization
-    Mpeg2AdaptiveQuantization (Mpeg2AdaptiveQuantization'),
+    Mpeg2AdaptiveQuantization (..),
 
     -- * Mpeg2ColorMetadata
-    Mpeg2ColorMetadata (Mpeg2ColorMetadata'),
+    Mpeg2ColorMetadata (..),
 
     -- * Mpeg2ColorSpace
-    Mpeg2ColorSpace (Mpeg2ColorSpace'),
+    Mpeg2ColorSpace (..),
 
     -- * Mpeg2DisplayRatio
-    Mpeg2DisplayRatio (Mpeg2DisplayRatio'),
+    Mpeg2DisplayRatio (..),
 
     -- * Mpeg2GopSizeUnits
-    Mpeg2GopSizeUnits (Mpeg2GopSizeUnits'),
+    Mpeg2GopSizeUnits (..),
 
     -- * Mpeg2ScanType
-    Mpeg2ScanType (Mpeg2ScanType'),
+    Mpeg2ScanType (..),
 
     -- * Mpeg2SubGopLength
-    Mpeg2SubGopLength (Mpeg2SubGopLength'),
+    Mpeg2SubGopLength (..),
 
     -- * Mpeg2TimecodeInsertionBehavior
-    Mpeg2TimecodeInsertionBehavior (Mpeg2TimecodeInsertionBehavior'),
+    Mpeg2TimecodeInsertionBehavior (..),
 
     -- * MsSmoothH265PackagingType
-    MsSmoothH265PackagingType (MsSmoothH265PackagingType'),
+    MsSmoothH265PackagingType (..),
 
     -- * MultiplexState
-    MultiplexState (MultiplexState'),
+    MultiplexState (..),
 
     -- * NetworkInputServerValidation
-    NetworkInputServerValidation (NetworkInputServerValidation'),
+    NetworkInputServerValidation (..),
 
     -- * NielsenPcmToId3TaggingState
-    NielsenPcmToId3TaggingState (NielsenPcmToId3TaggingState'),
+    NielsenPcmToId3TaggingState (..),
 
     -- * NielsenWatermarksCbetStepaside
-    NielsenWatermarksCbetStepaside (NielsenWatermarksCbetStepaside'),
+    NielsenWatermarksCbetStepaside (..),
 
     -- * NielsenWatermarksDistributionTypes
-    NielsenWatermarksDistributionTypes (NielsenWatermarksDistributionTypes'),
+    NielsenWatermarksDistributionTypes (..),
 
     -- * OfferingDurationUnits
-    OfferingDurationUnits (OfferingDurationUnits'),
+    OfferingDurationUnits (..),
 
     -- * OfferingType
-    OfferingType (OfferingType'),
+    OfferingType (..),
 
     -- * PipelineId
-    PipelineId (PipelineId'),
+    PipelineId (..),
 
     -- * PreferredChannelPipeline
-    PreferredChannelPipeline (PreferredChannelPipeline'),
+    PreferredChannelPipeline (..),
 
     -- * RebootInputDeviceForce
-    RebootInputDeviceForce (RebootInputDeviceForce'),
+    RebootInputDeviceForce (..),
 
     -- * ReservationAutomaticRenewal
-    ReservationAutomaticRenewal (ReservationAutomaticRenewal'),
+    ReservationAutomaticRenewal (..),
 
     -- * ReservationCodec
-    ReservationCodec (ReservationCodec'),
+    ReservationCodec (..),
 
     -- * ReservationMaximumBitrate
-    ReservationMaximumBitrate (ReservationMaximumBitrate'),
+    ReservationMaximumBitrate (..),
 
     -- * ReservationMaximumFramerate
-    ReservationMaximumFramerate (ReservationMaximumFramerate'),
+    ReservationMaximumFramerate (..),
 
     -- * ReservationResolution
-    ReservationResolution (ReservationResolution'),
+    ReservationResolution (..),
 
     -- * ReservationResourceType
-    ReservationResourceType (ReservationResourceType'),
+    ReservationResourceType (..),
 
     -- * ReservationSpecialFeature
-    ReservationSpecialFeature (ReservationSpecialFeature'),
+    ReservationSpecialFeature (..),
 
     -- * ReservationState
-    ReservationState (ReservationState'),
+    ReservationState (..),
 
     -- * ReservationVideoQuality
-    ReservationVideoQuality (ReservationVideoQuality'),
+    ReservationVideoQuality (..),
 
     -- * RtmpAdMarkers
-    RtmpAdMarkers (RtmpAdMarkers'),
+    RtmpAdMarkers (..),
 
     -- * RtmpCacheFullBehavior
-    RtmpCacheFullBehavior (RtmpCacheFullBehavior'),
+    RtmpCacheFullBehavior (..),
 
     -- * RtmpCaptionData
-    RtmpCaptionData (RtmpCaptionData'),
+    RtmpCaptionData (..),
 
     -- * RtmpOutputCertificateMode
-    RtmpOutputCertificateMode (RtmpOutputCertificateMode'),
+    RtmpOutputCertificateMode (..),
 
     -- * S3CannedAcl
-    S3CannedAcl (S3CannedAcl'),
+    S3CannedAcl (..),
 
     -- * Scte20Convert608To708
-    Scte20Convert608To708 (Scte20Convert608To708'),
+    Scte20Convert608To708 (..),
 
     -- * Scte27OcrLanguage
-    Scte27OcrLanguage (Scte27OcrLanguage'),
+    Scte27OcrLanguage (..),
 
     -- * Scte35AposNoRegionalBlackoutBehavior
-    Scte35AposNoRegionalBlackoutBehavior (Scte35AposNoRegionalBlackoutBehavior'),
+    Scte35AposNoRegionalBlackoutBehavior (..),
 
     -- * Scte35AposWebDeliveryAllowedBehavior
-    Scte35AposWebDeliveryAllowedBehavior (Scte35AposWebDeliveryAllowedBehavior'),
+    Scte35AposWebDeliveryAllowedBehavior (..),
 
     -- * Scte35ArchiveAllowedFlag
-    Scte35ArchiveAllowedFlag (Scte35ArchiveAllowedFlag'),
+    Scte35ArchiveAllowedFlag (..),
 
     -- * Scte35DeviceRestrictions
-    Scte35DeviceRestrictions (Scte35DeviceRestrictions'),
+    Scte35DeviceRestrictions (..),
 
     -- * Scte35InputMode
-    Scte35InputMode (Scte35InputMode'),
+    Scte35InputMode (..),
 
     -- * Scte35NoRegionalBlackoutFlag
-    Scte35NoRegionalBlackoutFlag (Scte35NoRegionalBlackoutFlag'),
+    Scte35NoRegionalBlackoutFlag (..),
 
     -- * Scte35SegmentationCancelIndicator
-    Scte35SegmentationCancelIndicator (Scte35SegmentationCancelIndicator'),
+    Scte35SegmentationCancelIndicator (..),
 
     -- * Scte35SpliceInsertNoRegionalBlackoutBehavior
-    Scte35SpliceInsertNoRegionalBlackoutBehavior (Scte35SpliceInsertNoRegionalBlackoutBehavior'),
+    Scte35SpliceInsertNoRegionalBlackoutBehavior (..),
 
     -- * Scte35SpliceInsertWebDeliveryAllowedBehavior
-    Scte35SpliceInsertWebDeliveryAllowedBehavior (Scte35SpliceInsertWebDeliveryAllowedBehavior'),
+    Scte35SpliceInsertWebDeliveryAllowedBehavior (..),
 
     -- * Scte35WebDeliveryAllowedFlag
-    Scte35WebDeliveryAllowedFlag (Scte35WebDeliveryAllowedFlag'),
+    Scte35WebDeliveryAllowedFlag (..),
 
     -- * SmoothGroupAudioOnlyTimecodeControl
-    SmoothGroupAudioOnlyTimecodeControl (SmoothGroupAudioOnlyTimecodeControl'),
+    SmoothGroupAudioOnlyTimecodeControl (..),
 
     -- * SmoothGroupCertificateMode
-    SmoothGroupCertificateMode (SmoothGroupCertificateMode'),
+    SmoothGroupCertificateMode (..),
 
     -- * SmoothGroupEventIdMode
-    SmoothGroupEventIdMode (SmoothGroupEventIdMode'),
+    SmoothGroupEventIdMode (..),
 
     -- * SmoothGroupEventStopBehavior
-    SmoothGroupEventStopBehavior (SmoothGroupEventStopBehavior'),
+    SmoothGroupEventStopBehavior (..),
 
     -- * SmoothGroupSegmentationMode
-    SmoothGroupSegmentationMode (SmoothGroupSegmentationMode'),
+    SmoothGroupSegmentationMode (..),
 
     -- * SmoothGroupSparseTrackType
-    SmoothGroupSparseTrackType (SmoothGroupSparseTrackType'),
+    SmoothGroupSparseTrackType (..),
 
     -- * SmoothGroupStreamManifestBehavior
-    SmoothGroupStreamManifestBehavior (SmoothGroupStreamManifestBehavior'),
+    SmoothGroupStreamManifestBehavior (..),
 
     -- * SmoothGroupTimestampOffsetMode
-    SmoothGroupTimestampOffsetMode (SmoothGroupTimestampOffsetMode'),
+    SmoothGroupTimestampOffsetMode (..),
 
     -- * Smpte2038DataPreference
-    Smpte2038DataPreference (Smpte2038DataPreference'),
+    Smpte2038DataPreference (..),
 
     -- * TemporalFilterPostFilterSharpening
-    TemporalFilterPostFilterSharpening (TemporalFilterPostFilterSharpening'),
+    TemporalFilterPostFilterSharpening (..),
 
     -- * TemporalFilterStrength
-    TemporalFilterStrength (TemporalFilterStrength'),
+    TemporalFilterStrength (..),
 
     -- * TimecodeBurninFontSize
-    TimecodeBurninFontSize (TimecodeBurninFontSize'),
+    TimecodeBurninFontSize (..),
 
     -- * TimecodeBurninPosition
-    TimecodeBurninPosition (TimecodeBurninPosition'),
+    TimecodeBurninPosition (..),
 
     -- * TimecodeConfigSource
-    TimecodeConfigSource (TimecodeConfigSource'),
+    TimecodeConfigSource (..),
 
     -- * TtmlDestinationStyleControl
-    TtmlDestinationStyleControl (TtmlDestinationStyleControl'),
+    TtmlDestinationStyleControl (..),
 
     -- * UdpTimedMetadataId3Frame
-    UdpTimedMetadataId3Frame (UdpTimedMetadataId3Frame'),
+    UdpTimedMetadataId3Frame (..),
 
     -- * VideoDescriptionRespondToAfd
-    VideoDescriptionRespondToAfd (VideoDescriptionRespondToAfd'),
+    VideoDescriptionRespondToAfd (..),
 
     -- * VideoDescriptionScalingBehavior
-    VideoDescriptionScalingBehavior (VideoDescriptionScalingBehavior'),
+    VideoDescriptionScalingBehavior (..),
 
     -- * VideoSelectorColorSpace
-    VideoSelectorColorSpace (VideoSelectorColorSpace'),
+    VideoSelectorColorSpace (..),
 
     -- * VideoSelectorColorSpaceUsage
-    VideoSelectorColorSpaceUsage (VideoSelectorColorSpaceUsage'),
+    VideoSelectorColorSpaceUsage (..),
 
     -- * WavCodingMode
-    WavCodingMode (WavCodingMode'),
+    WavCodingMode (..),
 
     -- * WebvttDestinationStyleControl
-    WebvttDestinationStyleControl (WebvttDestinationStyleControl'),
+    WebvttDestinationStyleControl (..),
 
     -- * AacSettings
     AacSettings (AacSettings'),

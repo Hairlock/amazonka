@@ -23,67 +23,67 @@ module Amazonka.GuardDuty.Types
     _InternalServerErrorException,
 
     -- * AdminStatus
-    AdminStatus (AdminStatus'),
+    AdminStatus (..),
 
     -- * CriterionKey
-    CriterionKey (CriterionKey'),
+    CriterionKey (..),
 
     -- * DataSource
-    DataSource (DataSource'),
+    DataSource (..),
 
     -- * DataSourceStatus
-    DataSourceStatus (DataSourceStatus'),
+    DataSourceStatus (..),
 
     -- * DestinationType
-    DestinationType (DestinationType'),
+    DestinationType (..),
 
     -- * DetectorStatus
-    DetectorStatus (DetectorStatus'),
+    DetectorStatus (..),
 
     -- * EbsSnapshotPreservation
-    EbsSnapshotPreservation (EbsSnapshotPreservation'),
+    EbsSnapshotPreservation (..),
 
     -- * Feedback
-    Feedback (Feedback'),
+    Feedback (..),
 
     -- * FilterAction
-    FilterAction (FilterAction'),
+    FilterAction (..),
 
     -- * FindingPublishingFrequency
-    FindingPublishingFrequency (FindingPublishingFrequency'),
+    FindingPublishingFrequency (..),
 
     -- * FindingStatisticType
-    FindingStatisticType (FindingStatisticType'),
+    FindingStatisticType (..),
 
     -- * IpSetFormat
-    IpSetFormat (IpSetFormat'),
+    IpSetFormat (..),
 
     -- * IpSetStatus
-    IpSetStatus (IpSetStatus'),
+    IpSetStatus (..),
 
     -- * OrderBy
-    OrderBy (OrderBy'),
+    OrderBy (..),
 
     -- * PublishingStatus
-    PublishingStatus (PublishingStatus'),
+    PublishingStatus (..),
 
     -- * ScanCriterionKey
-    ScanCriterionKey (ScanCriterionKey'),
+    ScanCriterionKey (..),
 
     -- * ScanResult
-    ScanResult (ScanResult'),
+    ScanResult (..),
 
     -- * ScanStatus
-    ScanStatus (ScanStatus'),
+    ScanStatus (..),
 
     -- * ThreatIntelSetFormat
-    ThreatIntelSetFormat (ThreatIntelSetFormat'),
+    ThreatIntelSetFormat (..),
 
     -- * ThreatIntelSetStatus
-    ThreatIntelSetStatus (ThreatIntelSetStatus'),
+    ThreatIntelSetStatus (..),
 
     -- * UsageStatisticType
-    UsageStatisticType (UsageStatisticType'),
+    UsageStatisticType (..),
 
     -- * AccessControlList
     AccessControlList (AccessControlList'),

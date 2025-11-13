@@ -34,43 +34,43 @@ module Amazonka.KinesisAnalyticsV2.Types
     _UnsupportedOperationException,
 
     -- * ApplicationMode
-    ApplicationMode (ApplicationMode'),
+    ApplicationMode (..),
 
     -- * ApplicationRestoreType
-    ApplicationRestoreType (ApplicationRestoreType'),
+    ApplicationRestoreType (..),
 
     -- * ApplicationStatus
-    ApplicationStatus (ApplicationStatus'),
+    ApplicationStatus (..),
 
     -- * ArtifactType
-    ArtifactType (ArtifactType'),
+    ArtifactType (..),
 
     -- * CodeContentType
-    CodeContentType (CodeContentType'),
+    CodeContentType (..),
 
     -- * ConfigurationType
-    ConfigurationType (ConfigurationType'),
+    ConfigurationType (..),
 
     -- * InputStartingPosition
-    InputStartingPosition (InputStartingPosition'),
+    InputStartingPosition (..),
 
     -- * LogLevel
-    LogLevel (LogLevel'),
+    LogLevel (..),
 
     -- * MetricsLevel
-    MetricsLevel (MetricsLevel'),
+    MetricsLevel (..),
 
     -- * RecordFormatType
-    RecordFormatType (RecordFormatType'),
+    RecordFormatType (..),
 
     -- * RuntimeEnvironment
-    RuntimeEnvironment (RuntimeEnvironment'),
+    RuntimeEnvironment (..),
 
     -- * SnapshotStatus
-    SnapshotStatus (SnapshotStatus'),
+    SnapshotStatus (..),
 
     -- * UrlType
-    UrlType (UrlType'),
+    UrlType (..),
 
     -- * ApplicationCodeConfiguration
     ApplicationCodeConfiguration (ApplicationCodeConfiguration'),

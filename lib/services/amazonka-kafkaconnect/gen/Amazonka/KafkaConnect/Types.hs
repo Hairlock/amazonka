@@ -29,19 +29,19 @@ module Amazonka.KafkaConnect.Types
     _UnauthorizedException,
 
     -- * ConnectorState
-    ConnectorState (ConnectorState'),
+    ConnectorState (..),
 
     -- * CustomPluginContentType
-    CustomPluginContentType (CustomPluginContentType'),
+    CustomPluginContentType (..),
 
     -- * CustomPluginState
-    CustomPluginState (CustomPluginState'),
+    CustomPluginState (..),
 
     -- * KafkaClusterClientAuthenticationType
-    KafkaClusterClientAuthenticationType (KafkaClusterClientAuthenticationType'),
+    KafkaClusterClientAuthenticationType (..),
 
     -- * KafkaClusterEncryptionInTransitType
-    KafkaClusterEncryptionInTransitType (KafkaClusterEncryptionInTransitType'),
+    KafkaClusterEncryptionInTransitType (..),
 
     -- * ApacheKafkaCluster
     ApacheKafkaCluster (ApacheKafkaCluster'),

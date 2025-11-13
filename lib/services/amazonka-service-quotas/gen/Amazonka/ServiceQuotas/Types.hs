@@ -38,16 +38,16 @@ module Amazonka.ServiceQuotas.Types
     _TooManyTagsException,
 
     -- * ErrorCode
-    ErrorCode (ErrorCode'),
+    ErrorCode (..),
 
     -- * PeriodUnit
-    PeriodUnit (PeriodUnit'),
+    PeriodUnit (..),
 
     -- * RequestStatus
-    RequestStatus (RequestStatus'),
+    RequestStatus (..),
 
     -- * ServiceQuotaTemplateAssociationStatus
-    ServiceQuotaTemplateAssociationStatus (ServiceQuotaTemplateAssociationStatus'),
+    ServiceQuotaTemplateAssociationStatus (..),
 
     -- * ErrorReason
     ErrorReason (ErrorReason'),

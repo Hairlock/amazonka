@@ -23,43 +23,43 @@ module Amazonka.MechanicalTurk.Types
     _ServiceFault,
 
     -- * AssignmentStatus
-    AssignmentStatus (AssignmentStatus'),
+    AssignmentStatus (..),
 
     -- * Comparator
-    Comparator (Comparator'),
+    Comparator (..),
 
     -- * EventType
-    EventType (EventType'),
+    EventType (..),
 
     -- * HITAccessActions
-    HITAccessActions (HITAccessActions'),
+    HITAccessActions (..),
 
     -- * HITReviewStatus
-    HITReviewStatus (HITReviewStatus'),
+    HITReviewStatus (..),
 
     -- * HITStatus
-    HITStatus (HITStatus'),
+    HITStatus (..),
 
     -- * NotificationTransport
-    NotificationTransport (NotificationTransport'),
+    NotificationTransport (..),
 
     -- * NotifyWorkersFailureCode
-    NotifyWorkersFailureCode (NotifyWorkersFailureCode'),
+    NotifyWorkersFailureCode (..),
 
     -- * QualificationStatus
-    QualificationStatus (QualificationStatus'),
+    QualificationStatus (..),
 
     -- * QualificationTypeStatus
-    QualificationTypeStatus (QualificationTypeStatus'),
+    QualificationTypeStatus (..),
 
     -- * ReviewActionStatus
-    ReviewActionStatus (ReviewActionStatus'),
+    ReviewActionStatus (..),
 
     -- * ReviewPolicyLevel
-    ReviewPolicyLevel (ReviewPolicyLevel'),
+    ReviewPolicyLevel (..),
 
     -- * ReviewableHITStatus
-    ReviewableHITStatus (ReviewableHITStatus'),
+    ReviewableHITStatus (..),
 
     -- * Assignment
     Assignment (Assignment'),

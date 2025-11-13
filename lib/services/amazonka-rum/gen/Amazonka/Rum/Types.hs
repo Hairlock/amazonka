@@ -28,16 +28,16 @@ module Amazonka.Rum.Types
     _ValidationException,
 
     -- * CustomEventsStatus
-    CustomEventsStatus (CustomEventsStatus'),
+    CustomEventsStatus (..),
 
     -- * MetricDestination
-    MetricDestination (MetricDestination'),
+    MetricDestination (..),
 
     -- * StateEnum
-    StateEnum (StateEnum'),
+    StateEnum (..),
 
     -- * Telemetry
-    Telemetry (Telemetry'),
+    Telemetry (..),
 
     -- * AppMonitor
     AppMonitor (AppMonitor'),

@@ -32,61 +32,61 @@ module Amazonka.IotTwinMaker.Types
     _ValidationException,
 
     -- * ColumnType
-    ColumnType (ColumnType'),
+    ColumnType (..),
 
     -- * ComponentUpdateType
-    ComponentUpdateType (ComponentUpdateType'),
+    ComponentUpdateType (..),
 
     -- * ErrorCode
-    ErrorCode (ErrorCode'),
+    ErrorCode (..),
 
     -- * GroupType
-    GroupType (GroupType'),
+    GroupType (..),
 
     -- * InterpolationType
-    InterpolationType (InterpolationType'),
+    InterpolationType (..),
 
     -- * Order
-    Order (Order'),
+    Order (..),
 
     -- * OrderByTime
-    OrderByTime (OrderByTime'),
+    OrderByTime (..),
 
     -- * ParentEntityUpdateType
-    ParentEntityUpdateType (ParentEntityUpdateType'),
+    ParentEntityUpdateType (..),
 
     -- * PricingMode
-    PricingMode (PricingMode'),
+    PricingMode (..),
 
     -- * PricingTier
-    PricingTier (PricingTier'),
+    PricingTier (..),
 
     -- * PropertyGroupUpdateType
-    PropertyGroupUpdateType (PropertyGroupUpdateType'),
+    PropertyGroupUpdateType (..),
 
     -- * PropertyUpdateType
-    PropertyUpdateType (PropertyUpdateType'),
+    PropertyUpdateType (..),
 
     -- * Scope
-    Scope (Scope'),
+    Scope (..),
 
     -- * State
-    State (State'),
+    State (..),
 
     -- * SyncJobState
-    SyncJobState (SyncJobState'),
+    SyncJobState (..),
 
     -- * SyncResourceState
-    SyncResourceState (SyncResourceState'),
+    SyncResourceState (..),
 
     -- * SyncResourceType
-    SyncResourceType (SyncResourceType'),
+    SyncResourceType (..),
 
     -- * Type
-    Type (Type'),
+    Type (..),
 
     -- * UpdateReason
-    UpdateReason (UpdateReason'),
+    UpdateReason (..),
 
     -- * BatchPutPropertyError
     BatchPutPropertyError (BatchPutPropertyError'),

@@ -32,88 +32,88 @@ module Amazonka.ElasticSearch.Types
     _ValidationException,
 
     -- * AutoTuneDesiredState
-    AutoTuneDesiredState (AutoTuneDesiredState'),
+    AutoTuneDesiredState (..),
 
     -- * AutoTuneState
-    AutoTuneState (AutoTuneState'),
+    AutoTuneState (..),
 
     -- * AutoTuneType
-    AutoTuneType (AutoTuneType'),
+    AutoTuneType (..),
 
     -- * DeploymentStatus
-    DeploymentStatus (DeploymentStatus'),
+    DeploymentStatus (..),
 
     -- * DescribePackagesFilterName
-    DescribePackagesFilterName (DescribePackagesFilterName'),
+    DescribePackagesFilterName (..),
 
     -- * DomainPackageStatus
-    DomainPackageStatus (DomainPackageStatus'),
+    DomainPackageStatus (..),
 
     -- * ESPartitionInstanceType
-    ESPartitionInstanceType (ESPartitionInstanceType'),
+    ESPartitionInstanceType (..),
 
     -- * ESWarmPartitionInstanceType
-    ESWarmPartitionInstanceType (ESWarmPartitionInstanceType'),
+    ESWarmPartitionInstanceType (..),
 
     -- * EngineType
-    EngineType (EngineType'),
+    EngineType (..),
 
     -- * InboundCrossClusterSearchConnectionStatusCode
-    InboundCrossClusterSearchConnectionStatusCode (InboundCrossClusterSearchConnectionStatusCode'),
+    InboundCrossClusterSearchConnectionStatusCode (..),
 
     -- * LogType
-    LogType (LogType'),
+    LogType (..),
 
     -- * OptionState
-    OptionState (OptionState'),
+    OptionState (..),
 
     -- * OutboundCrossClusterSearchConnectionStatusCode
-    OutboundCrossClusterSearchConnectionStatusCode (OutboundCrossClusterSearchConnectionStatusCode'),
+    OutboundCrossClusterSearchConnectionStatusCode (..),
 
     -- * OverallChangeStatus
-    OverallChangeStatus (OverallChangeStatus'),
+    OverallChangeStatus (..),
 
     -- * PackageStatus
-    PackageStatus (PackageStatus'),
+    PackageStatus (..),
 
     -- * PackageType
-    PackageType (PackageType'),
+    PackageType (..),
 
     -- * PrincipalType
-    PrincipalType (PrincipalType'),
+    PrincipalType (..),
 
     -- * ReservedElasticsearchInstancePaymentOption
-    ReservedElasticsearchInstancePaymentOption (ReservedElasticsearchInstancePaymentOption'),
+    ReservedElasticsearchInstancePaymentOption (..),
 
     -- * RollbackOnDisable
-    RollbackOnDisable (RollbackOnDisable'),
+    RollbackOnDisable (..),
 
     -- * ScheduledAutoTuneActionType
-    ScheduledAutoTuneActionType (ScheduledAutoTuneActionType'),
+    ScheduledAutoTuneActionType (..),
 
     -- * ScheduledAutoTuneSeverityType
-    ScheduledAutoTuneSeverityType (ScheduledAutoTuneSeverityType'),
+    ScheduledAutoTuneSeverityType (..),
 
     -- * TLSSecurityPolicy
-    TLSSecurityPolicy (TLSSecurityPolicy'),
+    TLSSecurityPolicy (..),
 
     -- * TimeUnit
-    TimeUnit (TimeUnit'),
+    TimeUnit (..),
 
     -- * UpgradeStatus
-    UpgradeStatus (UpgradeStatus'),
+    UpgradeStatus (..),
 
     -- * UpgradeStep
-    UpgradeStep (UpgradeStep'),
+    UpgradeStep (..),
 
     -- * VolumeType
-    VolumeType (VolumeType'),
+    VolumeType (..),
 
     -- * VpcEndpointErrorCode
-    VpcEndpointErrorCode (VpcEndpointErrorCode'),
+    VpcEndpointErrorCode (..),
 
     -- * VpcEndpointStatus
-    VpcEndpointStatus (VpcEndpointStatus'),
+    VpcEndpointStatus (..),
 
     -- * AccessPoliciesStatus
     AccessPoliciesStatus (AccessPoliciesStatus'),

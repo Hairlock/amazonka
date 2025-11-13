@@ -27,22 +27,22 @@ module Amazonka.AmplifyUiBuilder.Types
     _UnauthorizedException,
 
     -- * FixedPosition
-    FixedPosition (FixedPosition'),
+    FixedPosition (..),
 
     -- * FormActionType
-    FormActionType (FormActionType'),
+    FormActionType (..),
 
     -- * FormButtonsPosition
-    FormButtonsPosition (FormButtonsPosition'),
+    FormButtonsPosition (..),
 
     -- * FormDataSourceType
-    FormDataSourceType (FormDataSourceType'),
+    FormDataSourceType (..),
 
     -- * SortDirection
-    SortDirection (SortDirection'),
+    SortDirection (..),
 
     -- * TokenProviders
-    TokenProviders (TokenProviders'),
+    TokenProviders (..),
 
     -- * ActionParameters
     ActionParameters (ActionParameters'),

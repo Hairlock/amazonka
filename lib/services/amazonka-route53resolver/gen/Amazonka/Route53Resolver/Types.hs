@@ -37,79 +37,79 @@ module Amazonka.Route53Resolver.Types
     _ValidationException,
 
     -- * Action
-    Action (Action'),
+    Action (..),
 
     -- * AutodefinedReverseFlag
-    AutodefinedReverseFlag (AutodefinedReverseFlag'),
+    AutodefinedReverseFlag (..),
 
     -- * BlockOverrideDnsType
-    BlockOverrideDnsType (BlockOverrideDnsType'),
+    BlockOverrideDnsType (..),
 
     -- * BlockResponse
-    BlockResponse (BlockResponse'),
+    BlockResponse (..),
 
     -- * FirewallDomainImportOperation
-    FirewallDomainImportOperation (FirewallDomainImportOperation'),
+    FirewallDomainImportOperation (..),
 
     -- * FirewallDomainListStatus
-    FirewallDomainListStatus (FirewallDomainListStatus'),
+    FirewallDomainListStatus (..),
 
     -- * FirewallDomainUpdateOperation
-    FirewallDomainUpdateOperation (FirewallDomainUpdateOperation'),
+    FirewallDomainUpdateOperation (..),
 
     -- * FirewallFailOpenStatus
-    FirewallFailOpenStatus (FirewallFailOpenStatus'),
+    FirewallFailOpenStatus (..),
 
     -- * FirewallRuleGroupAssociationStatus
-    FirewallRuleGroupAssociationStatus (FirewallRuleGroupAssociationStatus'),
+    FirewallRuleGroupAssociationStatus (..),
 
     -- * FirewallRuleGroupStatus
-    FirewallRuleGroupStatus (FirewallRuleGroupStatus'),
+    FirewallRuleGroupStatus (..),
 
     -- * IpAddressStatus
-    IpAddressStatus (IpAddressStatus'),
+    IpAddressStatus (..),
 
     -- * MutationProtectionStatus
-    MutationProtectionStatus (MutationProtectionStatus'),
+    MutationProtectionStatus (..),
 
     -- * ResolverAutodefinedReverseStatus
-    ResolverAutodefinedReverseStatus (ResolverAutodefinedReverseStatus'),
+    ResolverAutodefinedReverseStatus (..),
 
     -- * ResolverDNSSECValidationStatus
-    ResolverDNSSECValidationStatus (ResolverDNSSECValidationStatus'),
+    ResolverDNSSECValidationStatus (..),
 
     -- * ResolverEndpointDirection
-    ResolverEndpointDirection (ResolverEndpointDirection'),
+    ResolverEndpointDirection (..),
 
     -- * ResolverEndpointStatus
-    ResolverEndpointStatus (ResolverEndpointStatus'),
+    ResolverEndpointStatus (..),
 
     -- * ResolverQueryLogConfigAssociationError
-    ResolverQueryLogConfigAssociationError (ResolverQueryLogConfigAssociationError'),
+    ResolverQueryLogConfigAssociationError (..),
 
     -- * ResolverQueryLogConfigAssociationStatus
-    ResolverQueryLogConfigAssociationStatus (ResolverQueryLogConfigAssociationStatus'),
+    ResolverQueryLogConfigAssociationStatus (..),
 
     -- * ResolverQueryLogConfigStatus
-    ResolverQueryLogConfigStatus (ResolverQueryLogConfigStatus'),
+    ResolverQueryLogConfigStatus (..),
 
     -- * ResolverRuleAssociationStatus
-    ResolverRuleAssociationStatus (ResolverRuleAssociationStatus'),
+    ResolverRuleAssociationStatus (..),
 
     -- * ResolverRuleStatus
-    ResolverRuleStatus (ResolverRuleStatus'),
+    ResolverRuleStatus (..),
 
     -- * RuleTypeOption
-    RuleTypeOption (RuleTypeOption'),
+    RuleTypeOption (..),
 
     -- * ShareStatus
-    ShareStatus (ShareStatus'),
+    ShareStatus (..),
 
     -- * SortOrder
-    SortOrder (SortOrder'),
+    SortOrder (..),
 
     -- * Validation
-    Validation (Validation'),
+    Validation (..),
 
     -- * Filter
     Filter (Filter'),

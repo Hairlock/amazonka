@@ -27,13 +27,13 @@ module Amazonka.SageMakerA2IRuntime.Types
     _ValidationException,
 
     -- * ContentClassifier
-    ContentClassifier (ContentClassifier'),
+    ContentClassifier (..),
 
     -- * HumanLoopStatus
-    HumanLoopStatus (HumanLoopStatus'),
+    HumanLoopStatus (..),
 
     -- * SortOrder
-    SortOrder (SortOrder'),
+    SortOrder (..),
 
     -- * HumanLoopDataAttributes
     HumanLoopDataAttributes (HumanLoopDataAttributes'),

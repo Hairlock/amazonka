@@ -27,28 +27,28 @@ module Amazonka.MQ.Types
     _UnauthorizedException,
 
     -- * AuthenticationStrategy
-    AuthenticationStrategy (AuthenticationStrategy'),
+    AuthenticationStrategy (..),
 
     -- * BrokerState
-    BrokerState (BrokerState'),
+    BrokerState (..),
 
     -- * BrokerStorageType
-    BrokerStorageType (BrokerStorageType'),
+    BrokerStorageType (..),
 
     -- * ChangeType
-    ChangeType (ChangeType'),
+    ChangeType (..),
 
     -- * DayOfWeek
-    DayOfWeek (DayOfWeek'),
+    DayOfWeek (..),
 
     -- * DeploymentMode
-    DeploymentMode (DeploymentMode'),
+    DeploymentMode (..),
 
     -- * EngineType
-    EngineType (EngineType'),
+    EngineType (..),
 
     -- * SanitizationWarningReason
-    SanitizationWarningReason (SanitizationWarningReason'),
+    SanitizationWarningReason (..),
 
     -- * ActionRequired
     ActionRequired (ActionRequired'),

@@ -31,22 +31,22 @@ module Amazonka.IVS.Types
     _ValidationException,
 
     -- * ChannelLatencyMode
-    ChannelLatencyMode (ChannelLatencyMode'),
+    ChannelLatencyMode (..),
 
     -- * ChannelType
-    ChannelType (ChannelType'),
+    ChannelType (..),
 
     -- * RecordingConfigurationState
-    RecordingConfigurationState (RecordingConfigurationState'),
+    RecordingConfigurationState (..),
 
     -- * RecordingMode
-    RecordingMode (RecordingMode'),
+    RecordingMode (..),
 
     -- * StreamHealth
-    StreamHealth (StreamHealth'),
+    StreamHealth (..),
 
     -- * StreamState
-    StreamState (StreamState'),
+    StreamState (..),
 
     -- * AudioConfiguration
     AudioConfiguration (AudioConfiguration'),

@@ -26,46 +26,46 @@ module Amazonka.ApiGatewayV2.Types
     _TooManyRequestsException,
 
     -- * AuthorizationType
-    AuthorizationType (AuthorizationType'),
+    AuthorizationType (..),
 
     -- * AuthorizerType
-    AuthorizerType (AuthorizerType'),
+    AuthorizerType (..),
 
     -- * ConnectionType
-    ConnectionType (ConnectionType'),
+    ConnectionType (..),
 
     -- * ContentHandlingStrategy
-    ContentHandlingStrategy (ContentHandlingStrategy'),
+    ContentHandlingStrategy (..),
 
     -- * DeploymentStatus
-    DeploymentStatus (DeploymentStatus'),
+    DeploymentStatus (..),
 
     -- * DomainNameStatus
-    DomainNameStatus (DomainNameStatus'),
+    DomainNameStatus (..),
 
     -- * EndpointType
-    EndpointType (EndpointType'),
+    EndpointType (..),
 
     -- * IntegrationType
-    IntegrationType (IntegrationType'),
+    IntegrationType (..),
 
     -- * LoggingLevel
-    LoggingLevel (LoggingLevel'),
+    LoggingLevel (..),
 
     -- * PassthroughBehavior
-    PassthroughBehavior (PassthroughBehavior'),
+    PassthroughBehavior (..),
 
     -- * ProtocolType
-    ProtocolType (ProtocolType'),
+    ProtocolType (..),
 
     -- * SecurityPolicy
-    SecurityPolicy (SecurityPolicy'),
+    SecurityPolicy (..),
 
     -- * VpcLinkStatus
-    VpcLinkStatus (VpcLinkStatus'),
+    VpcLinkStatus (..),
 
     -- * VpcLinkVersion
-    VpcLinkVersion (VpcLinkVersion'),
+    VpcLinkVersion (..),
 
     -- * AccessLogSettings
     AccessLogSettings (AccessLogSettings'),

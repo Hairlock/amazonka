@@ -29,22 +29,22 @@ module Amazonka.Personalize.Types
     _TooManyTagsException,
 
     -- * Domain
-    Domain (Domain'),
+    Domain (..),
 
     -- * ImportMode
-    ImportMode (ImportMode'),
+    ImportMode (..),
 
     -- * IngestionMode
-    IngestionMode (IngestionMode'),
+    IngestionMode (..),
 
     -- * ObjectiveSensitivity
-    ObjectiveSensitivity (ObjectiveSensitivity'),
+    ObjectiveSensitivity (..),
 
     -- * RecipeProvider
-    RecipeProvider (RecipeProvider'),
+    RecipeProvider (..),
 
     -- * TrainingMode
-    TrainingMode (TrainingMode'),
+    TrainingMode (..),
 
     -- * Algorithm
     Algorithm (Algorithm'),

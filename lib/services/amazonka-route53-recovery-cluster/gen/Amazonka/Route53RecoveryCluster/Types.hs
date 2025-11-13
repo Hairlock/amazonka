@@ -29,7 +29,7 @@ module Amazonka.Route53RecoveryCluster.Types
     _ValidationException,
 
     -- * RoutingControlState
-    RoutingControlState (RoutingControlState'),
+    RoutingControlState (..),
 
     -- * RoutingControl
     RoutingControl (RoutingControl'),

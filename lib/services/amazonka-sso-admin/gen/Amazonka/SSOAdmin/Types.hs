@@ -28,22 +28,22 @@ module Amazonka.SSOAdmin.Types
     _ValidationException,
 
     -- * InstanceAccessControlAttributeConfigurationStatus
-    InstanceAccessControlAttributeConfigurationStatus (InstanceAccessControlAttributeConfigurationStatus'),
+    InstanceAccessControlAttributeConfigurationStatus (..),
 
     -- * PrincipalType
-    PrincipalType (PrincipalType'),
+    PrincipalType (..),
 
     -- * ProvisionTargetType
-    ProvisionTargetType (ProvisionTargetType'),
+    ProvisionTargetType (..),
 
     -- * ProvisioningStatus
-    ProvisioningStatus (ProvisioningStatus'),
+    ProvisioningStatus (..),
 
     -- * StatusValues
-    StatusValues (StatusValues'),
+    StatusValues (..),
 
     -- * TargetType
-    TargetType (TargetType'),
+    TargetType (..),
 
     -- * AccessControlAttribute
     AccessControlAttribute (AccessControlAttribute'),

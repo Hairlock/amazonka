@@ -27,19 +27,19 @@ module Amazonka.HealthLake.Types
     _ValidationException,
 
     -- * CmkType
-    CmkType (CmkType'),
+    CmkType (..),
 
     -- * DatastoreStatus
-    DatastoreStatus (DatastoreStatus'),
+    DatastoreStatus (..),
 
     -- * FHIRVersion
-    FHIRVersion (FHIRVersion'),
+    FHIRVersion (..),
 
     -- * JobStatus
-    JobStatus (JobStatus'),
+    JobStatus (..),
 
     -- * PreloadDataType
-    PreloadDataType (PreloadDataType'),
+    PreloadDataType (..),
 
     -- * DatastoreFilter
     DatastoreFilter (DatastoreFilter'),

@@ -28,16 +28,16 @@ module Amazonka.RDSData.Types
     _StatementTimeoutException,
 
     -- * DecimalReturnType
-    DecimalReturnType (DecimalReturnType'),
+    DecimalReturnType (..),
 
     -- * LongReturnType
-    LongReturnType (LongReturnType'),
+    LongReturnType (..),
 
     -- * RecordsFormatType
-    RecordsFormatType (RecordsFormatType'),
+    RecordsFormatType (..),
 
     -- * TypeHint
-    TypeHint (TypeHint'),
+    TypeHint (..),
 
     -- * ArrayValue
     ArrayValue (ArrayValue'),

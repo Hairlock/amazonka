@@ -31,49 +31,49 @@ module Amazonka.IoTFleetWise.Types
     _ValidationException,
 
     -- * CampaignStatus
-    CampaignStatus (CampaignStatus'),
+    CampaignStatus (..),
 
     -- * Compression
-    Compression (Compression'),
+    Compression (..),
 
     -- * DiagnosticsMode
-    DiagnosticsMode (DiagnosticsMode'),
+    DiagnosticsMode (..),
 
     -- * LogType
-    LogType (LogType'),
+    LogType (..),
 
     -- * ManifestStatus
-    ManifestStatus (ManifestStatus'),
+    ManifestStatus (..),
 
     -- * NetworkInterfaceType
-    NetworkInterfaceType (NetworkInterfaceType'),
+    NetworkInterfaceType (..),
 
     -- * NodeDataType
-    NodeDataType (NodeDataType'),
+    NodeDataType (..),
 
     -- * RegistrationStatus
-    RegistrationStatus (RegistrationStatus'),
+    RegistrationStatus (..),
 
     -- * SignalDecoderType
-    SignalDecoderType (SignalDecoderType'),
+    SignalDecoderType (..),
 
     -- * SpoolingMode
-    SpoolingMode (SpoolingMode'),
+    SpoolingMode (..),
 
     -- * TriggerMode
-    TriggerMode (TriggerMode'),
+    TriggerMode (..),
 
     -- * UpdateCampaignAction
-    UpdateCampaignAction (UpdateCampaignAction'),
+    UpdateCampaignAction (..),
 
     -- * UpdateMode
-    UpdateMode (UpdateMode'),
+    UpdateMode (..),
 
     -- * VehicleAssociationBehavior
-    VehicleAssociationBehavior (VehicleAssociationBehavior'),
+    VehicleAssociationBehavior (..),
 
     -- * VehicleState
-    VehicleState (VehicleState'),
+    VehicleState (..),
 
     -- * Actuator
     Actuator (Actuator'),

@@ -29,19 +29,19 @@ module Amazonka.DynamoDBStreams.Types
     module Amazonka.DynamoDBStreams.Types.AttributeValue,
 
     -- * KeyType
-    KeyType (KeyType'),
+    KeyType (..),
 
     -- * OperationType
-    OperationType (OperationType'),
+    OperationType (..),
 
     -- * ShardIteratorType
-    ShardIteratorType (ShardIteratorType'),
+    ShardIteratorType (..),
 
     -- * StreamStatus
-    StreamStatus (StreamStatus'),
+    StreamStatus (..),
 
     -- * StreamViewType
-    StreamViewType (StreamViewType'),
+    StreamViewType (..),
 
     -- * Identity
     Identity (Identity'),

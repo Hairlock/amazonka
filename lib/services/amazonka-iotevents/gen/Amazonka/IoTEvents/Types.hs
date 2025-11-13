@@ -30,31 +30,31 @@ module Amazonka.IoTEvents.Types
     _UnsupportedOperationException,
 
     -- * AlarmModelVersionStatus
-    AlarmModelVersionStatus (AlarmModelVersionStatus'),
+    AlarmModelVersionStatus (..),
 
     -- * AnalysisResultLevel
-    AnalysisResultLevel (AnalysisResultLevel'),
+    AnalysisResultLevel (..),
 
     -- * AnalysisStatus
-    AnalysisStatus (AnalysisStatus'),
+    AnalysisStatus (..),
 
     -- * ComparisonOperator
-    ComparisonOperator (ComparisonOperator'),
+    ComparisonOperator (..),
 
     -- * DetectorModelVersionStatus
-    DetectorModelVersionStatus (DetectorModelVersionStatus'),
+    DetectorModelVersionStatus (..),
 
     -- * EvaluationMethod
-    EvaluationMethod (EvaluationMethod'),
+    EvaluationMethod (..),
 
     -- * InputStatus
-    InputStatus (InputStatus'),
+    InputStatus (..),
 
     -- * LoggingLevel
-    LoggingLevel (LoggingLevel'),
+    LoggingLevel (..),
 
     -- * PayloadType
-    PayloadType (PayloadType'),
+    PayloadType (..),
 
     -- * AcknowledgeFlow
     AcknowledgeFlow (AcknowledgeFlow'),

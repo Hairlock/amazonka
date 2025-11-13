@@ -29,172 +29,172 @@ module Amazonka.Inspector2.Types
     _ValidationException,
 
     -- * AccountSortBy
-    AccountSortBy (AccountSortBy'),
+    AccountSortBy (..),
 
     -- * AggregationFindingType
-    AggregationFindingType (AggregationFindingType'),
+    AggregationFindingType (..),
 
     -- * AggregationResourceType
-    AggregationResourceType (AggregationResourceType'),
+    AggregationResourceType (..),
 
     -- * AggregationType
-    AggregationType (AggregationType'),
+    AggregationType (..),
 
     -- * AmiSortBy
-    AmiSortBy (AmiSortBy'),
+    AmiSortBy (..),
 
     -- * Architecture
-    Architecture (Architecture'),
+    Architecture (..),
 
     -- * AwsEcrContainerSortBy
-    AwsEcrContainerSortBy (AwsEcrContainerSortBy'),
+    AwsEcrContainerSortBy (..),
 
     -- * CoverageMapComparison
-    CoverageMapComparison (CoverageMapComparison'),
+    CoverageMapComparison (..),
 
     -- * CoverageResourceType
-    CoverageResourceType (CoverageResourceType'),
+    CoverageResourceType (..),
 
     -- * CoverageStringComparison
-    CoverageStringComparison (CoverageStringComparison'),
+    CoverageStringComparison (..),
 
     -- * Currency
-    Currency (Currency'),
+    Currency (..),
 
     -- * DelegatedAdminStatus
-    DelegatedAdminStatus (DelegatedAdminStatus'),
+    DelegatedAdminStatus (..),
 
     -- * Ec2InstanceSortBy
-    Ec2InstanceSortBy (Ec2InstanceSortBy'),
+    Ec2InstanceSortBy (..),
 
     -- * Ec2Platform
-    Ec2Platform (Ec2Platform'),
+    Ec2Platform (..),
 
     -- * EcrRescanDuration
-    EcrRescanDuration (EcrRescanDuration'),
+    EcrRescanDuration (..),
 
     -- * EcrRescanDurationStatus
-    EcrRescanDurationStatus (EcrRescanDurationStatus'),
+    EcrRescanDurationStatus (..),
 
     -- * EcrScanFrequency
-    EcrScanFrequency (EcrScanFrequency'),
+    EcrScanFrequency (..),
 
     -- * ErrorCode
-    ErrorCode (ErrorCode'),
+    ErrorCode (..),
 
     -- * ExploitAvailable
-    ExploitAvailable (ExploitAvailable'),
+    ExploitAvailable (..),
 
     -- * ExternalReportStatus
-    ExternalReportStatus (ExternalReportStatus'),
+    ExternalReportStatus (..),
 
     -- * FilterAction
-    FilterAction (FilterAction'),
+    FilterAction (..),
 
     -- * FindingStatus
-    FindingStatus (FindingStatus'),
+    FindingStatus (..),
 
     -- * FindingType
-    FindingType (FindingType'),
+    FindingType (..),
 
     -- * FindingTypeSortBy
-    FindingTypeSortBy (FindingTypeSortBy'),
+    FindingTypeSortBy (..),
 
     -- * FixAvailable
-    FixAvailable (FixAvailable'),
+    FixAvailable (..),
 
     -- * FreeTrialInfoErrorCode
-    FreeTrialInfoErrorCode (FreeTrialInfoErrorCode'),
+    FreeTrialInfoErrorCode (..),
 
     -- * FreeTrialStatus
-    FreeTrialStatus (FreeTrialStatus'),
+    FreeTrialStatus (..),
 
     -- * FreeTrialType
-    FreeTrialType (FreeTrialType'),
+    FreeTrialType (..),
 
     -- * GroupKey
-    GroupKey (GroupKey'),
+    GroupKey (..),
 
     -- * ImageLayerSortBy
-    ImageLayerSortBy (ImageLayerSortBy'),
+    ImageLayerSortBy (..),
 
     -- * LambdaFunctionSortBy
-    LambdaFunctionSortBy (LambdaFunctionSortBy'),
+    LambdaFunctionSortBy (..),
 
     -- * LambdaLayerSortBy
-    LambdaLayerSortBy (LambdaLayerSortBy'),
+    LambdaLayerSortBy (..),
 
     -- * MapComparison
-    MapComparison (MapComparison'),
+    MapComparison (..),
 
     -- * NetworkProtocol
-    NetworkProtocol (NetworkProtocol'),
+    NetworkProtocol (..),
 
     -- * Operation
-    Operation (Operation'),
+    Operation (..),
 
     -- * PackageManager
-    PackageManager (PackageManager'),
+    PackageManager (..),
 
     -- * PackageSortBy
-    PackageSortBy (PackageSortBy'),
+    PackageSortBy (..),
 
     -- * PackageType
-    PackageType (PackageType'),
+    PackageType (..),
 
     -- * RelationshipStatus
-    RelationshipStatus (RelationshipStatus'),
+    RelationshipStatus (..),
 
     -- * ReportFormat
-    ReportFormat (ReportFormat'),
+    ReportFormat (..),
 
     -- * ReportingErrorCode
-    ReportingErrorCode (ReportingErrorCode'),
+    ReportingErrorCode (..),
 
     -- * RepositorySortBy
-    RepositorySortBy (RepositorySortBy'),
+    RepositorySortBy (..),
 
     -- * ResourceScanType
-    ResourceScanType (ResourceScanType'),
+    ResourceScanType (..),
 
     -- * ResourceType
-    ResourceType (ResourceType'),
+    ResourceType (..),
 
     -- * Runtime
-    Runtime (Runtime'),
+    Runtime (..),
 
     -- * ScanStatusCode
-    ScanStatusCode (ScanStatusCode'),
+    ScanStatusCode (..),
 
     -- * ScanStatusReason
-    ScanStatusReason (ScanStatusReason'),
+    ScanStatusReason (..),
 
     -- * ScanType
-    ScanType (ScanType'),
+    ScanType (..),
 
     -- * Service
-    Service (Service'),
+    Service (..),
 
     -- * Severity
-    Severity (Severity'),
+    Severity (..),
 
     -- * SortField
-    SortField (SortField'),
+    SortField (..),
 
     -- * SortOrder
-    SortOrder (SortOrder'),
+    SortOrder (..),
 
     -- * Status
-    Status (Status'),
+    Status (..),
 
     -- * StringComparison
-    StringComparison (StringComparison'),
+    StringComparison (..),
 
     -- * TitleSortBy
-    TitleSortBy (TitleSortBy'),
+    TitleSortBy (..),
 
     -- * UsageType
-    UsageType (UsageType'),
+    UsageType (..),
 
     -- * Account
     Account (Account'),

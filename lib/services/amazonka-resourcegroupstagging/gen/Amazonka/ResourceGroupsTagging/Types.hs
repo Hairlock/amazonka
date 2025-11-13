@@ -27,13 +27,13 @@ module Amazonka.ResourceGroupsTagging.Types
     _ThrottledException,
 
     -- * GroupByAttribute
-    GroupByAttribute (GroupByAttribute'),
+    GroupByAttribute (..),
 
     -- * ResourceErrorCode
-    ResourceErrorCode (ResourceErrorCode'),
+    ResourceErrorCode (..),
 
     -- * TargetIdType
-    TargetIdType (TargetIdType'),
+    TargetIdType (..),
 
     -- * ComplianceDetails
     ComplianceDetails (ComplianceDetails'),
