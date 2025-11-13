@@ -28,24 +28,24 @@ module Amazonka.STS.Types
     _RegionDisabledException,
 
     -- * AssumedRoleUser
-    AssumedRoleUser (..),
+    AssumedRoleUser,
     newAssumedRoleUser,
     assumedRoleUser_assumedRoleId,
     assumedRoleUser_arn,
 
     -- * FederatedUser
-    FederatedUser (..),
+    FederatedUser,
     newFederatedUser,
     federatedUser_federatedUserId,
     federatedUser_arn,
 
     -- * PolicyDescriptorType
-    PolicyDescriptorType (..),
+    PolicyDescriptorType,
     newPolicyDescriptorType,
     policyDescriptorType_arn,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,

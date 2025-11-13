@@ -31,224 +31,224 @@ module Amazonka.S3.Types
     module Amazonka.S3.Internal,
 
     -- * AnalyticsS3ExportFileFormat
-    AnalyticsS3ExportFileFormat (..),
+    AnalyticsS3ExportFileFormat,
 
     -- * ArchiveStatus
-    ArchiveStatus (..),
+    ArchiveStatus,
 
     -- * BucketAccelerateStatus
-    BucketAccelerateStatus (..),
+    BucketAccelerateStatus,
 
     -- * BucketCannedACL
-    BucketCannedACL (..),
+    BucketCannedACL,
 
     -- * BucketLogsPermission
-    BucketLogsPermission (..),
+    BucketLogsPermission,
 
     -- * BucketVersioningStatus
-    BucketVersioningStatus (..),
+    BucketVersioningStatus,
 
     -- * ChecksumAlgorithm
-    ChecksumAlgorithm (..),
+    ChecksumAlgorithm,
 
     -- * ChecksumMode
-    ChecksumMode (..),
+    ChecksumMode,
 
     -- * CompressionType
-    CompressionType (..),
+    CompressionType,
 
     -- * DeleteMarkerReplicationStatus
-    DeleteMarkerReplicationStatus (..),
+    DeleteMarkerReplicationStatus,
 
     -- * EncodingType
-    EncodingType (..),
+    EncodingType,
 
     -- * Event
-    Event (..),
+    Event,
 
     -- * ExistingObjectReplicationStatus
-    ExistingObjectReplicationStatus (..),
+    ExistingObjectReplicationStatus,
 
     -- * ExpirationStatus
-    ExpirationStatus (..),
+    ExpirationStatus,
 
     -- * ExpressionType
-    ExpressionType (..),
+    ExpressionType,
 
     -- * FileHeaderInfo
-    FileHeaderInfo (..),
+    FileHeaderInfo,
 
     -- * FilterRuleName
-    FilterRuleName (..),
+    FilterRuleName,
 
     -- * IntelligentTieringAccessTier
-    IntelligentTieringAccessTier (..),
+    IntelligentTieringAccessTier,
 
     -- * IntelligentTieringStatus
-    IntelligentTieringStatus (..),
+    IntelligentTieringStatus,
 
     -- * InventoryFormat
-    InventoryFormat (..),
+    InventoryFormat,
 
     -- * InventoryFrequency
-    InventoryFrequency (..),
+    InventoryFrequency,
 
     -- * InventoryIncludedObjectVersions
-    InventoryIncludedObjectVersions (..),
+    InventoryIncludedObjectVersions,
 
     -- * InventoryOptionalField
-    InventoryOptionalField (..),
+    InventoryOptionalField,
 
     -- * JSONType
-    JSONType (..),
+    JSONType,
 
     -- * MFADelete
-    MFADelete (..),
+    MFADelete,
 
     -- * MFADeleteStatus
-    MFADeleteStatus (..),
+    MFADeleteStatus,
 
     -- * MetadataDirective
-    MetadataDirective (..),
+    MetadataDirective,
 
     -- * MetricsStatus
-    MetricsStatus (..),
+    MetricsStatus,
 
     -- * ObjectAttributes
-    ObjectAttributes (..),
+    ObjectAttributes,
 
     -- * ObjectCannedACL
-    ObjectCannedACL (..),
+    ObjectCannedACL,
 
     -- * ObjectLockEnabled
-    ObjectLockEnabled (..),
+    ObjectLockEnabled,
 
     -- * ObjectLockLegalHoldStatus
-    ObjectLockLegalHoldStatus (..),
+    ObjectLockLegalHoldStatus,
 
     -- * ObjectLockMode
-    ObjectLockMode (..),
+    ObjectLockMode,
 
     -- * ObjectLockRetentionMode
-    ObjectLockRetentionMode (..),
+    ObjectLockRetentionMode,
 
     -- * ObjectOwnership
-    ObjectOwnership (..),
+    ObjectOwnership,
 
     -- * ObjectStorageClass
-    ObjectStorageClass (..),
+    ObjectStorageClass,
 
     -- * ObjectVersionStorageClass
-    ObjectVersionStorageClass (..),
+    ObjectVersionStorageClass,
 
     -- * OwnerOverride
-    OwnerOverride (..),
+    OwnerOverride,
 
     -- * Payer
-    Payer (..),
+    Payer,
 
     -- * Permission
-    Permission (..),
+    Permission,
 
     -- * Protocol
-    Protocol (..),
+    Protocol,
 
     -- * QuoteFields
-    QuoteFields (..),
+    QuoteFields,
 
     -- * ReplicaModificationsStatus
-    ReplicaModificationsStatus (..),
+    ReplicaModificationsStatus,
 
     -- * ReplicationRuleStatus
-    ReplicationRuleStatus (..),
+    ReplicationRuleStatus,
 
     -- * ReplicationStatus
-    ReplicationStatus (..),
+    ReplicationStatus,
 
     -- * ReplicationTimeStatus
-    ReplicationTimeStatus (..),
+    ReplicationTimeStatus,
 
     -- * RequestCharged
-    RequestCharged (..),
+    RequestCharged,
 
     -- * RequestPayer
-    RequestPayer (..),
+    RequestPayer,
 
     -- * RestoreRequestType
-    RestoreRequestType (..),
+    RestoreRequestType,
 
     -- * ServerSideEncryption
-    ServerSideEncryption (..),
+    ServerSideEncryption,
 
     -- * SseKmsEncryptedObjectsStatus
-    SseKmsEncryptedObjectsStatus (..),
+    SseKmsEncryptedObjectsStatus,
 
     -- * StorageClass
-    StorageClass (..),
+    StorageClass,
 
     -- * StorageClassAnalysisSchemaVersion
-    StorageClassAnalysisSchemaVersion (..),
+    StorageClassAnalysisSchemaVersion,
 
     -- * TaggingDirective
-    TaggingDirective (..),
+    TaggingDirective,
 
     -- * Tier
-    Tier (..),
+    Tier,
 
     -- * TransitionStorageClass
-    TransitionStorageClass (..),
+    TransitionStorageClass,
 
     -- * Type
-    Type (..),
+    Type,
 
     -- * AbortIncompleteMultipartUpload
-    AbortIncompleteMultipartUpload (..),
+    AbortIncompleteMultipartUpload,
     newAbortIncompleteMultipartUpload,
     abortIncompleteMultipartUpload_daysAfterInitiation,
 
     -- * AccelerateConfiguration
-    AccelerateConfiguration (..),
+    AccelerateConfiguration,
     newAccelerateConfiguration,
     accelerateConfiguration_status,
 
     -- * AccessControlPolicy
-    AccessControlPolicy (..),
+    AccessControlPolicy,
     newAccessControlPolicy,
     accessControlPolicy_grants,
     accessControlPolicy_owner,
 
     -- * AccessControlTranslation
-    AccessControlTranslation (..),
+    AccessControlTranslation,
     newAccessControlTranslation,
     accessControlTranslation_owner,
 
     -- * AnalyticsAndOperator
-    AnalyticsAndOperator (..),
+    AnalyticsAndOperator,
     newAnalyticsAndOperator,
     analyticsAndOperator_prefix,
     analyticsAndOperator_tags,
 
     -- * AnalyticsConfiguration
-    AnalyticsConfiguration (..),
+    AnalyticsConfiguration,
     newAnalyticsConfiguration,
     analyticsConfiguration_filter,
     analyticsConfiguration_id,
     analyticsConfiguration_storageClassAnalysis,
 
     -- * AnalyticsExportDestination
-    AnalyticsExportDestination (..),
+    AnalyticsExportDestination,
     newAnalyticsExportDestination,
     analyticsExportDestination_s3BucketDestination,
 
     -- * AnalyticsFilter
-    AnalyticsFilter (..),
+    AnalyticsFilter,
     newAnalyticsFilter,
     analyticsFilter_and,
     analyticsFilter_prefix,
     analyticsFilter_tag,
 
     -- * AnalyticsS3BucketDestination
-    AnalyticsS3BucketDestination (..),
+    AnalyticsS3BucketDestination,
     newAnalyticsS3BucketDestination,
     analyticsS3BucketDestination_bucketAccountId,
     analyticsS3BucketDestination_prefix,
@@ -256,28 +256,28 @@ module Amazonka.S3.Types
     analyticsS3BucketDestination_bucket,
 
     -- * Bucket
-    Bucket (..),
+    Bucket,
     newBucket,
     bucket_creationDate,
     bucket_name,
 
     -- * BucketLifecycleConfiguration
-    BucketLifecycleConfiguration (..),
+    BucketLifecycleConfiguration,
     newBucketLifecycleConfiguration,
     bucketLifecycleConfiguration_rules,
 
     -- * BucketLoggingStatus
-    BucketLoggingStatus (..),
+    BucketLoggingStatus,
     newBucketLoggingStatus,
     bucketLoggingStatus_loggingEnabled,
 
     -- * CORSConfiguration
-    CORSConfiguration (..),
+    CORSConfiguration,
     newCORSConfiguration,
     cORSConfiguration_cORSRules,
 
     -- * CORSRule
-    CORSRule (..),
+    CORSRule,
     newCORSRule,
     cORSRule_allowedHeaders,
     cORSRule_exposeHeaders,
@@ -287,7 +287,7 @@ module Amazonka.S3.Types
     cORSRule_allowedOrigins,
 
     -- * CSVInput
-    CSVInput (..),
+    CSVInput,
     newCSVInput,
     cSVInput_allowQuotedRecordDelimiter,
     cSVInput_comments,
@@ -298,7 +298,7 @@ module Amazonka.S3.Types
     cSVInput_recordDelimiter,
 
     -- * CSVOutput
-    CSVOutput (..),
+    CSVOutput,
     newCSVOutput,
     cSVOutput_fieldDelimiter,
     cSVOutput_quoteCharacter,
@@ -307,7 +307,7 @@ module Amazonka.S3.Types
     cSVOutput_recordDelimiter,
 
     -- * Checksum
-    Checksum (..),
+    Checksum,
     newChecksum,
     checksum_checksumCRC32,
     checksum_checksumCRC32C,
@@ -315,17 +315,17 @@ module Amazonka.S3.Types
     checksum_checksumSHA256,
 
     -- * CommonPrefix
-    CommonPrefix (..),
+    CommonPrefix,
     newCommonPrefix,
     commonPrefix_prefix,
 
     -- * CompletedMultipartUpload
-    CompletedMultipartUpload (..),
+    CompletedMultipartUpload,
     newCompletedMultipartUpload,
     completedMultipartUpload_parts,
 
     -- * CompletedPart
-    CompletedPart (..),
+    CompletedPart,
     newCompletedPart,
     completedPart_checksumCRC32,
     completedPart_checksumCRC32C,
@@ -335,17 +335,17 @@ module Amazonka.S3.Types
     completedPart_eTag,
 
     -- * Condition
-    Condition (..),
+    Condition,
     newCondition,
     condition_httpErrorCodeReturnedEquals,
     condition_keyPrefixEquals,
 
     -- * ContinuationEvent
-    ContinuationEvent (..),
+    ContinuationEvent,
     newContinuationEvent,
 
     -- * CopyObjectResult
-    CopyObjectResult (..),
+    CopyObjectResult,
     newCopyObjectResult,
     copyObjectResult_checksumCRC32,
     copyObjectResult_checksumCRC32C,
@@ -355,7 +355,7 @@ module Amazonka.S3.Types
     copyObjectResult_lastModified,
 
     -- * CopyPartResult
-    CopyPartResult (..),
+    CopyPartResult,
     newCopyPartResult,
     copyPartResult_checksumCRC32,
     copyPartResult_checksumCRC32C,
@@ -365,25 +365,25 @@ module Amazonka.S3.Types
     copyPartResult_lastModified,
 
     -- * CreateBucketConfiguration
-    CreateBucketConfiguration (..),
+    CreateBucketConfiguration,
     newCreateBucketConfiguration,
     createBucketConfiguration_locationConstraint,
 
     -- * DefaultRetention
-    DefaultRetention (..),
+    DefaultRetention,
     newDefaultRetention,
     defaultRetention_days,
     defaultRetention_mode,
     defaultRetention_years,
 
     -- * Delete
-    Delete (..),
+    Delete,
     newDelete,
     delete_quiet,
     delete_objects,
 
     -- * DeleteMarkerEntry
-    DeleteMarkerEntry (..),
+    DeleteMarkerEntry,
     newDeleteMarkerEntry,
     deleteMarkerEntry_isLatest,
     deleteMarkerEntry_key,
@@ -392,12 +392,12 @@ module Amazonka.S3.Types
     deleteMarkerEntry_versionId,
 
     -- * DeleteMarkerReplication
-    DeleteMarkerReplication (..),
+    DeleteMarkerReplication,
     newDeleteMarkerReplication,
     deleteMarkerReplication_status,
 
     -- * DeletedObject
-    DeletedObject (..),
+    DeletedObject,
     newDeletedObject,
     deletedObject_deleteMarker,
     deletedObject_deleteMarkerVersionId,
@@ -405,7 +405,7 @@ module Amazonka.S3.Types
     deletedObject_versionId,
 
     -- * Destination
-    Destination (..),
+    Destination,
     newDestination,
     destination_accessControlTranslation,
     destination_account,
@@ -416,43 +416,43 @@ module Amazonka.S3.Types
     destination_bucket,
 
     -- * Encryption
-    Encryption (..),
+    Encryption,
     newEncryption,
     encryption_kmsContext,
     encryption_kmsKeyId,
     encryption_encryptionType,
 
     -- * EncryptionConfiguration
-    EncryptionConfiguration (..),
+    EncryptionConfiguration,
     newEncryptionConfiguration,
     encryptionConfiguration_replicaKmsKeyID,
 
     -- * EndEvent
-    EndEvent (..),
+    EndEvent,
     newEndEvent,
 
     -- * ErrorDocument
-    ErrorDocument (..),
+    ErrorDocument,
     newErrorDocument,
     errorDocument_key,
 
     -- * EventBridgeConfiguration
-    EventBridgeConfiguration (..),
+    EventBridgeConfiguration,
     newEventBridgeConfiguration,
 
     -- * ExistingObjectReplication
-    ExistingObjectReplication (..),
+    ExistingObjectReplication,
     newExistingObjectReplication,
     existingObjectReplication_status,
 
     -- * FilterRule
-    FilterRule (..),
+    FilterRule,
     newFilterRule,
     filterRule_name,
     filterRule_value,
 
     -- * GetObjectAttributesParts
-    GetObjectAttributesParts (..),
+    GetObjectAttributesParts,
     newGetObjectAttributesParts,
     getObjectAttributesParts_isTruncated,
     getObjectAttributesParts_maxParts,
@@ -462,18 +462,18 @@ module Amazonka.S3.Types
     getObjectAttributesParts_totalPartsCount,
 
     -- * GlacierJobParameters
-    GlacierJobParameters (..),
+    GlacierJobParameters,
     newGlacierJobParameters,
     glacierJobParameters_tier,
 
     -- * Grant
-    Grant (..),
+    Grant,
     newGrant,
     grant_grantee,
     grant_permission,
 
     -- * Grantee
-    Grantee (..),
+    Grantee,
     newGrantee,
     grantee_displayName,
     grantee_emailAddress,
@@ -482,18 +482,18 @@ module Amazonka.S3.Types
     grantee_type,
 
     -- * IndexDocument
-    IndexDocument (..),
+    IndexDocument,
     newIndexDocument,
     indexDocument_suffix,
 
     -- * Initiator
-    Initiator (..),
+    Initiator,
     newInitiator,
     initiator_displayName,
     initiator_id,
 
     -- * InputSerialization
-    InputSerialization (..),
+    InputSerialization,
     newInputSerialization,
     inputSerialization_csv,
     inputSerialization_compressionType,
@@ -501,13 +501,13 @@ module Amazonka.S3.Types
     inputSerialization_parquet,
 
     -- * IntelligentTieringAndOperator
-    IntelligentTieringAndOperator (..),
+    IntelligentTieringAndOperator,
     newIntelligentTieringAndOperator,
     intelligentTieringAndOperator_prefix,
     intelligentTieringAndOperator_tags,
 
     -- * IntelligentTieringConfiguration
-    IntelligentTieringConfiguration (..),
+    IntelligentTieringConfiguration,
     newIntelligentTieringConfiguration,
     intelligentTieringConfiguration_filter,
     intelligentTieringConfiguration_id,
@@ -515,14 +515,14 @@ module Amazonka.S3.Types
     intelligentTieringConfiguration_tierings,
 
     -- * IntelligentTieringFilter
-    IntelligentTieringFilter (..),
+    IntelligentTieringFilter,
     newIntelligentTieringFilter,
     intelligentTieringFilter_and,
     intelligentTieringFilter_prefix,
     intelligentTieringFilter_tag,
 
     -- * InventoryConfiguration
-    InventoryConfiguration (..),
+    InventoryConfiguration,
     newInventoryConfiguration,
     inventoryConfiguration_filter,
     inventoryConfiguration_optionalFields,
@@ -533,23 +533,23 @@ module Amazonka.S3.Types
     inventoryConfiguration_schedule,
 
     -- * InventoryDestination
-    InventoryDestination (..),
+    InventoryDestination,
     newInventoryDestination,
     inventoryDestination_s3BucketDestination,
 
     -- * InventoryEncryption
-    InventoryEncryption (..),
+    InventoryEncryption,
     newInventoryEncryption,
     inventoryEncryption_ssekms,
     inventoryEncryption_sses3,
 
     -- * InventoryFilter
-    InventoryFilter (..),
+    InventoryFilter,
     newInventoryFilter,
     inventoryFilter_prefix,
 
     -- * InventoryS3BucketDestination
-    InventoryS3BucketDestination (..),
+    InventoryS3BucketDestination,
     newInventoryS3BucketDestination,
     inventoryS3BucketDestination_accountId,
     inventoryS3BucketDestination_encryption,
@@ -558,22 +558,22 @@ module Amazonka.S3.Types
     inventoryS3BucketDestination_format,
 
     -- * InventorySchedule
-    InventorySchedule (..),
+    InventorySchedule,
     newInventorySchedule,
     inventorySchedule_frequency,
 
     -- * JSONInput
-    JSONInput (..),
+    JSONInput,
     newJSONInput,
     jSONInput_type,
 
     -- * JSONOutput
-    JSONOutput (..),
+    JSONOutput,
     newJSONOutput,
     jSONOutput_recordDelimiter,
 
     -- * LambdaFunctionConfiguration
-    LambdaFunctionConfiguration (..),
+    LambdaFunctionConfiguration,
     newLambdaFunctionConfiguration,
     lambdaFunctionConfiguration_filter,
     lambdaFunctionConfiguration_id,
@@ -581,14 +581,14 @@ module Amazonka.S3.Types
     lambdaFunctionConfiguration_events,
 
     -- * LifecycleExpiration
-    LifecycleExpiration (..),
+    LifecycleExpiration,
     newLifecycleExpiration,
     lifecycleExpiration_date,
     lifecycleExpiration_days,
     lifecycleExpiration_expiredObjectDeleteMarker,
 
     -- * LifecycleRule
-    LifecycleRule (..),
+    LifecycleRule,
     newLifecycleRule,
     lifecycleRule_abortIncompleteMultipartUpload,
     lifecycleRule_expiration,
@@ -601,7 +601,7 @@ module Amazonka.S3.Types
     lifecycleRule_status,
 
     -- * LifecycleRuleAndOperator
-    LifecycleRuleAndOperator (..),
+    LifecycleRuleAndOperator,
     newLifecycleRuleAndOperator,
     lifecycleRuleAndOperator_objectSizeGreaterThan,
     lifecycleRuleAndOperator_objectSizeLessThan,
@@ -609,7 +609,7 @@ module Amazonka.S3.Types
     lifecycleRuleAndOperator_tags,
 
     -- * LifecycleRuleFilter
-    LifecycleRuleFilter (..),
+    LifecycleRuleFilter,
     newLifecycleRuleFilter,
     lifecycleRuleFilter_and,
     lifecycleRuleFilter_objectSizeGreaterThan,
@@ -618,39 +618,39 @@ module Amazonka.S3.Types
     lifecycleRuleFilter_tag,
 
     -- * LoggingEnabled
-    LoggingEnabled (..),
+    LoggingEnabled,
     newLoggingEnabled,
     loggingEnabled_targetGrants,
     loggingEnabled_targetBucket,
     loggingEnabled_targetPrefix,
 
     -- * MetadataEntry
-    MetadataEntry (..),
+    MetadataEntry,
     newMetadataEntry,
     metadataEntry_name,
     metadataEntry_value,
 
     -- * Metrics
-    Metrics (..),
+    Metrics,
     newMetrics,
     metrics_eventThreshold,
     metrics_status,
 
     -- * MetricsAndOperator
-    MetricsAndOperator (..),
+    MetricsAndOperator,
     newMetricsAndOperator,
     metricsAndOperator_accessPointArn,
     metricsAndOperator_prefix,
     metricsAndOperator_tags,
 
     -- * MetricsConfiguration
-    MetricsConfiguration (..),
+    MetricsConfiguration,
     newMetricsConfiguration,
     metricsConfiguration_filter,
     metricsConfiguration_id,
 
     -- * MetricsFilter
-    MetricsFilter (..),
+    MetricsFilter,
     newMetricsFilter,
     metricsFilter_accessPointArn,
     metricsFilter_and,
@@ -658,7 +658,7 @@ module Amazonka.S3.Types
     metricsFilter_tag,
 
     -- * MultipartUpload
-    MultipartUpload (..),
+    MultipartUpload,
     newMultipartUpload,
     multipartUpload_checksumAlgorithm,
     multipartUpload_initiated,
@@ -669,20 +669,20 @@ module Amazonka.S3.Types
     multipartUpload_uploadId,
 
     -- * NoncurrentVersionExpiration
-    NoncurrentVersionExpiration (..),
+    NoncurrentVersionExpiration,
     newNoncurrentVersionExpiration,
     noncurrentVersionExpiration_newerNoncurrentVersions,
     noncurrentVersionExpiration_noncurrentDays,
 
     -- * NoncurrentVersionTransition
-    NoncurrentVersionTransition (..),
+    NoncurrentVersionTransition,
     newNoncurrentVersionTransition,
     noncurrentVersionTransition_newerNoncurrentVersions,
     noncurrentVersionTransition_noncurrentDays,
     noncurrentVersionTransition_storageClass,
 
     -- * NotificationConfiguration
-    NotificationConfiguration (..),
+    NotificationConfiguration,
     newNotificationConfiguration,
     notificationConfiguration_eventBridgeConfiguration,
     notificationConfiguration_lambdaFunctionConfigurations,
@@ -690,12 +690,12 @@ module Amazonka.S3.Types
     notificationConfiguration_topicConfigurations,
 
     -- * NotificationConfigurationFilter
-    NotificationConfigurationFilter (..),
+    NotificationConfigurationFilter,
     newNotificationConfigurationFilter,
     notificationConfigurationFilter_key,
 
     -- * Object
-    Object (..),
+    Object,
     newObject,
     object_checksumAlgorithm,
     object_owner,
@@ -706,35 +706,35 @@ module Amazonka.S3.Types
     object_lastModified,
 
     -- * ObjectIdentifier
-    ObjectIdentifier (..),
+    ObjectIdentifier,
     newObjectIdentifier,
     objectIdentifier_versionId,
     objectIdentifier_key,
 
     -- * ObjectLockConfiguration
-    ObjectLockConfiguration (..),
+    ObjectLockConfiguration,
     newObjectLockConfiguration,
     objectLockConfiguration_objectLockEnabled,
     objectLockConfiguration_rule,
 
     -- * ObjectLockLegalHold
-    ObjectLockLegalHold (..),
+    ObjectLockLegalHold,
     newObjectLockLegalHold,
     objectLockLegalHold_status,
 
     -- * ObjectLockRetention
-    ObjectLockRetention (..),
+    ObjectLockRetention,
     newObjectLockRetention,
     objectLockRetention_mode,
     objectLockRetention_retainUntilDate,
 
     -- * ObjectLockRule
-    ObjectLockRule (..),
+    ObjectLockRule,
     newObjectLockRule,
     objectLockRule_defaultRetention,
 
     -- * ObjectPart
-    ObjectPart (..),
+    ObjectPart,
     newObjectPart,
     objectPart_checksumCRC32,
     objectPart_checksumCRC32C,
@@ -744,7 +744,7 @@ module Amazonka.S3.Types
     objectPart_size,
 
     -- * ObjectVersion
-    ObjectVersion (..),
+    ObjectVersion,
     newObjectVersion,
     objectVersion_checksumAlgorithm,
     objectVersion_eTag,
@@ -757,38 +757,38 @@ module Amazonka.S3.Types
     objectVersion_versionId,
 
     -- * OutputLocation
-    OutputLocation (..),
+    OutputLocation,
     newOutputLocation,
     outputLocation_s3,
 
     -- * OutputSerialization
-    OutputSerialization (..),
+    OutputSerialization,
     newOutputSerialization,
     outputSerialization_csv,
     outputSerialization_json,
 
     -- * Owner
-    Owner (..),
+    Owner,
     newOwner,
     owner_displayName,
     owner_id,
 
     -- * OwnershipControls
-    OwnershipControls (..),
+    OwnershipControls,
     newOwnershipControls,
     ownershipControls_rules,
 
     -- * OwnershipControlsRule
-    OwnershipControlsRule (..),
+    OwnershipControlsRule,
     newOwnershipControlsRule,
     ownershipControlsRule_objectOwnership,
 
     -- * ParquetInput
-    ParquetInput (..),
+    ParquetInput,
     newParquetInput,
 
     -- * Part
-    Part (..),
+    Part,
     newPart,
     part_checksumCRC32,
     part_checksumCRC32C,
@@ -800,24 +800,24 @@ module Amazonka.S3.Types
     part_size,
 
     -- * PolicyStatus
-    PolicyStatus (..),
+    PolicyStatus,
     newPolicyStatus,
     policyStatus_isPublic,
 
     -- * Progress
-    Progress (..),
+    Progress,
     newProgress,
     progress_bytesProcessed,
     progress_bytesReturned,
     progress_bytesScanned,
 
     -- * ProgressEvent
-    ProgressEvent (..),
+    ProgressEvent,
     newProgressEvent,
     progressEvent_details,
 
     -- * PublicAccessBlockConfiguration
-    PublicAccessBlockConfiguration (..),
+    PublicAccessBlockConfiguration,
     newPublicAccessBlockConfiguration,
     publicAccessBlockConfiguration_blockPublicAcls,
     publicAccessBlockConfiguration_blockPublicPolicy,
@@ -825,7 +825,7 @@ module Amazonka.S3.Types
     publicAccessBlockConfiguration_restrictPublicBuckets,
 
     -- * QueueConfiguration
-    QueueConfiguration (..),
+    QueueConfiguration,
     newQueueConfiguration,
     queueConfiguration_filter,
     queueConfiguration_id,
@@ -833,12 +833,12 @@ module Amazonka.S3.Types
     queueConfiguration_events,
 
     -- * RecordsEvent
-    RecordsEvent (..),
+    RecordsEvent,
     newRecordsEvent,
     recordsEvent_payload,
 
     -- * Redirect
-    Redirect (..),
+    Redirect,
     newRedirect,
     redirect_hostName,
     redirect_httpRedirectCode,
@@ -847,24 +847,24 @@ module Amazonka.S3.Types
     redirect_replaceKeyWith,
 
     -- * RedirectAllRequestsTo
-    RedirectAllRequestsTo (..),
+    RedirectAllRequestsTo,
     newRedirectAllRequestsTo,
     redirectAllRequestsTo_protocol,
     redirectAllRequestsTo_hostName,
 
     -- * ReplicaModifications
-    ReplicaModifications (..),
+    ReplicaModifications,
     newReplicaModifications,
     replicaModifications_status,
 
     -- * ReplicationConfiguration
-    ReplicationConfiguration (..),
+    ReplicationConfiguration,
     newReplicationConfiguration,
     replicationConfiguration_role,
     replicationConfiguration_rules,
 
     -- * ReplicationRule
-    ReplicationRule (..),
+    ReplicationRule,
     newReplicationRule,
     replicationRule_deleteMarkerReplication,
     replicationRule_existingObjectReplication,
@@ -877,41 +877,41 @@ module Amazonka.S3.Types
     replicationRule_destination,
 
     -- * ReplicationRuleAndOperator
-    ReplicationRuleAndOperator (..),
+    ReplicationRuleAndOperator,
     newReplicationRuleAndOperator,
     replicationRuleAndOperator_prefix,
     replicationRuleAndOperator_tags,
 
     -- * ReplicationRuleFilter
-    ReplicationRuleFilter (..),
+    ReplicationRuleFilter,
     newReplicationRuleFilter,
     replicationRuleFilter_and,
     replicationRuleFilter_prefix,
     replicationRuleFilter_tag,
 
     -- * ReplicationTime
-    ReplicationTime (..),
+    ReplicationTime,
     newReplicationTime,
     replicationTime_status,
     replicationTime_time,
 
     -- * ReplicationTimeValue
-    ReplicationTimeValue (..),
+    ReplicationTimeValue,
     newReplicationTimeValue,
     replicationTimeValue_minutes,
 
     -- * RequestPaymentConfiguration
-    RequestPaymentConfiguration (..),
+    RequestPaymentConfiguration,
     newRequestPaymentConfiguration,
     requestPaymentConfiguration_payer,
 
     -- * RequestProgress
-    RequestProgress (..),
+    RequestProgress,
     newRequestProgress,
     requestProgress_enabled,
 
     -- * RestoreRequest
-    RestoreRequest (..),
+    RestoreRequest,
     newRestoreRequest,
     restoreRequest_days,
     restoreRequest_description,
@@ -922,18 +922,18 @@ module Amazonka.S3.Types
     restoreRequest_type,
 
     -- * RoutingRule
-    RoutingRule (..),
+    RoutingRule,
     newRoutingRule,
     routingRule_condition,
     routingRule_redirect,
 
     -- * S3KeyFilter
-    S3KeyFilter (..),
+    S3KeyFilter,
     newS3KeyFilter,
     s3KeyFilter_filterRules,
 
     -- * S3Location
-    S3Location (..),
+    S3Location,
     newS3Location,
     s3Location_accessControlList,
     s3Location_cannedACL,
@@ -945,7 +945,7 @@ module Amazonka.S3.Types
     s3Location_prefix,
 
     -- * S3ServiceError
-    S3ServiceError (..),
+    S3ServiceError,
     newS3ServiceError,
     s3ServiceError_code,
     s3ServiceError_key,
@@ -953,22 +953,22 @@ module Amazonka.S3.Types
     s3ServiceError_versionId,
 
     -- * SSEKMS
-    SSEKMS (..),
+    SSEKMS,
     newSSEKMS,
     ssekms_keyId,
 
     -- * SSES3
-    SSES3 (..),
+    SSES3,
     newSSES3,
 
     -- * ScanRange
-    ScanRange (..),
+    ScanRange,
     newScanRange,
     scanRange_end,
     scanRange_start,
 
     -- * SelectObjectContentEventStream
-    SelectObjectContentEventStream (..),
+    SelectObjectContentEventStream,
     newSelectObjectContentEventStream,
     selectObjectContentEventStream_cont,
     selectObjectContentEventStream_end,
@@ -977,7 +977,7 @@ module Amazonka.S3.Types
     selectObjectContentEventStream_stats,
 
     -- * SelectParameters
-    SelectParameters (..),
+    SelectParameters,
     newSelectParameters,
     selectParameters_inputSerialization,
     selectParameters_expressionType,
@@ -985,81 +985,81 @@ module Amazonka.S3.Types
     selectParameters_outputSerialization,
 
     -- * ServerSideEncryptionByDefault
-    ServerSideEncryptionByDefault (..),
+    ServerSideEncryptionByDefault,
     newServerSideEncryptionByDefault,
     serverSideEncryptionByDefault_kmsMasterKeyID,
     serverSideEncryptionByDefault_sSEAlgorithm,
 
     -- * ServerSideEncryptionConfiguration
-    ServerSideEncryptionConfiguration (..),
+    ServerSideEncryptionConfiguration,
     newServerSideEncryptionConfiguration,
     serverSideEncryptionConfiguration_rules,
 
     -- * ServerSideEncryptionRule
-    ServerSideEncryptionRule (..),
+    ServerSideEncryptionRule,
     newServerSideEncryptionRule,
     serverSideEncryptionRule_applyServerSideEncryptionByDefault,
     serverSideEncryptionRule_bucketKeyEnabled,
 
     -- * SourceSelectionCriteria
-    SourceSelectionCriteria (..),
+    SourceSelectionCriteria,
     newSourceSelectionCriteria,
     sourceSelectionCriteria_replicaModifications,
     sourceSelectionCriteria_sseKmsEncryptedObjects,
 
     -- * SseKmsEncryptedObjects
-    SseKmsEncryptedObjects (..),
+    SseKmsEncryptedObjects,
     newSseKmsEncryptedObjects,
     sseKmsEncryptedObjects_status,
 
     -- * Stats
-    Stats (..),
+    Stats,
     newStats,
     stats_bytesProcessed,
     stats_bytesReturned,
     stats_bytesScanned,
 
     -- * StatsEvent
-    StatsEvent (..),
+    StatsEvent,
     newStatsEvent,
     statsEvent_details,
 
     -- * StorageClassAnalysis
-    StorageClassAnalysis (..),
+    StorageClassAnalysis,
     newStorageClassAnalysis,
     storageClassAnalysis_dataExport,
 
     -- * StorageClassAnalysisDataExport
-    StorageClassAnalysisDataExport (..),
+    StorageClassAnalysisDataExport,
     newStorageClassAnalysisDataExport,
     storageClassAnalysisDataExport_outputSchemaVersion,
     storageClassAnalysisDataExport_destination,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,
 
     -- * Tagging
-    Tagging (..),
+    Tagging,
     newTagging,
     tagging_tagSet,
 
     -- * TargetGrant
-    TargetGrant (..),
+    TargetGrant,
     newTargetGrant,
     targetGrant_grantee,
     targetGrant_permission,
 
     -- * Tiering
-    Tiering (..),
+    Tiering,
     newTiering,
     tiering_days,
     tiering_accessTier,
 
     -- * TopicConfiguration
-    TopicConfiguration (..),
+    TopicConfiguration,
     newTopicConfiguration,
     topicConfiguration_filter,
     topicConfiguration_id,
@@ -1067,20 +1067,20 @@ module Amazonka.S3.Types
     topicConfiguration_events,
 
     -- * Transition
-    Transition (..),
+    Transition,
     newTransition,
     transition_date,
     transition_days,
     transition_storageClass,
 
     -- * VersioningConfiguration
-    VersioningConfiguration (..),
+    VersioningConfiguration,
     newVersioningConfiguration,
     versioningConfiguration_mfaDelete,
     versioningConfiguration_status,
 
     -- * WebsiteConfiguration
-    WebsiteConfiguration (..),
+    WebsiteConfiguration,
     newWebsiteConfiguration,
     websiteConfiguration_errorDocument,
     websiteConfiguration_indexDocument,

@@ -23,922 +23,922 @@ module Amazonka.EC2.Types
     module Amazonka.EC2.Internal,
 
     -- * AcceleratorManufacturer
-    AcceleratorManufacturer (..),
+    AcceleratorManufacturer,
 
     -- * AcceleratorName
-    AcceleratorName (..),
+    AcceleratorName,
 
     -- * AcceleratorType
-    AcceleratorType (..),
+    AcceleratorType,
 
     -- * AccountAttributeName
-    AccountAttributeName (..),
+    AccountAttributeName,
 
     -- * ActivityStatus
-    ActivityStatus (..),
+    ActivityStatus,
 
     -- * AddressAttributeName
-    AddressAttributeName (..),
+    AddressAttributeName,
 
     -- * AddressFamily
-    AddressFamily (..),
+    AddressFamily,
 
     -- * AddressStatus
-    AddressStatus (..),
+    AddressStatus,
 
     -- * AddressTransferStatus
-    AddressTransferStatus (..),
+    AddressTransferStatus,
 
     -- * Affinity
-    Affinity (..),
+    Affinity,
 
     -- * AllocationState
-    AllocationState (..),
+    AllocationState,
 
     -- * AllocationStrategy
-    AllocationStrategy (..),
+    AllocationStrategy,
 
     -- * AllocationType
-    AllocationType (..),
+    AllocationType,
 
     -- * AllowsMultipleInstanceTypes
-    AllowsMultipleInstanceTypes (..),
+    AllowsMultipleInstanceTypes,
 
     -- * AnalysisStatus
-    AnalysisStatus (..),
+    AnalysisStatus,
 
     -- * ApplianceModeSupportValue
-    ApplianceModeSupportValue (..),
+    ApplianceModeSupportValue,
 
     -- * ArchitectureType
-    ArchitectureType (..),
+    ArchitectureType,
 
     -- * ArchitectureValues
-    ArchitectureValues (..),
+    ArchitectureValues,
 
     -- * AssociatedNetworkType
-    AssociatedNetworkType (..),
+    AssociatedNetworkType,
 
     -- * AssociationStatusCode
-    AssociationStatusCode (..),
+    AssociationStatusCode,
 
     -- * AttachmentStatus
-    AttachmentStatus (..),
+    AttachmentStatus,
 
     -- * AutoAcceptSharedAssociationsValue
-    AutoAcceptSharedAssociationsValue (..),
+    AutoAcceptSharedAssociationsValue,
 
     -- * AutoAcceptSharedAttachmentsValue
-    AutoAcceptSharedAttachmentsValue (..),
+    AutoAcceptSharedAttachmentsValue,
 
     -- * AutoPlacement
-    AutoPlacement (..),
+    AutoPlacement,
 
     -- * AvailabilityZoneOptInStatus
-    AvailabilityZoneOptInStatus (..),
+    AvailabilityZoneOptInStatus,
 
     -- * AvailabilityZoneState
-    AvailabilityZoneState (..),
+    AvailabilityZoneState,
 
     -- * BareMetal
-    BareMetal (..),
+    BareMetal,
 
     -- * BatchState
-    BatchState (..),
+    BatchState,
 
     -- * BgpStatus
-    BgpStatus (..),
+    BgpStatus,
 
     -- * BootModeType
-    BootModeType (..),
+    BootModeType,
 
     -- * BootModeValues
-    BootModeValues (..),
+    BootModeValues,
 
     -- * BundleTaskState
-    BundleTaskState (..),
+    BundleTaskState,
 
     -- * BurstablePerformance
-    BurstablePerformance (..),
+    BurstablePerformance,
 
     -- * ByoipCidrState
-    ByoipCidrState (..),
+    ByoipCidrState,
 
     -- * CancelBatchErrorCode
-    CancelBatchErrorCode (..),
+    CancelBatchErrorCode,
 
     -- * CancelSpotInstanceRequestState
-    CancelSpotInstanceRequestState (..),
+    CancelSpotInstanceRequestState,
 
     -- * CapacityReservationFleetState
-    CapacityReservationFleetState (..),
+    CapacityReservationFleetState,
 
     -- * CapacityReservationInstancePlatform
-    CapacityReservationInstancePlatform (..),
+    CapacityReservationInstancePlatform,
 
     -- * CapacityReservationPreference
-    CapacityReservationPreference (..),
+    CapacityReservationPreference,
 
     -- * CapacityReservationState
-    CapacityReservationState (..),
+    CapacityReservationState,
 
     -- * CapacityReservationTenancy
-    CapacityReservationTenancy (..),
+    CapacityReservationTenancy,
 
     -- * CarrierGatewayState
-    CarrierGatewayState (..),
+    CarrierGatewayState,
 
     -- * ClientCertificateRevocationListStatusCode
-    ClientCertificateRevocationListStatusCode (..),
+    ClientCertificateRevocationListStatusCode,
 
     -- * ClientVpnAuthenticationType
-    ClientVpnAuthenticationType (..),
+    ClientVpnAuthenticationType,
 
     -- * ClientVpnAuthorizationRuleStatusCode
-    ClientVpnAuthorizationRuleStatusCode (..),
+    ClientVpnAuthorizationRuleStatusCode,
 
     -- * ClientVpnConnectionStatusCode
-    ClientVpnConnectionStatusCode (..),
+    ClientVpnConnectionStatusCode,
 
     -- * ClientVpnEndpointAttributeStatusCode
-    ClientVpnEndpointAttributeStatusCode (..),
+    ClientVpnEndpointAttributeStatusCode,
 
     -- * ClientVpnEndpointStatusCode
-    ClientVpnEndpointStatusCode (..),
+    ClientVpnEndpointStatusCode,
 
     -- * ClientVpnRouteStatusCode
-    ClientVpnRouteStatusCode (..),
+    ClientVpnRouteStatusCode,
 
     -- * ConnectionNotificationState
-    ConnectionNotificationState (..),
+    ConnectionNotificationState,
 
     -- * ConnectionNotificationType
-    ConnectionNotificationType (..),
+    ConnectionNotificationType,
 
     -- * ConnectivityType
-    ConnectivityType (..),
+    ConnectivityType,
 
     -- * ContainerFormat
-    ContainerFormat (..),
+    ContainerFormat,
 
     -- * ConversionTaskState
-    ConversionTaskState (..),
+    ConversionTaskState,
 
     -- * CopyTagsFromSource
-    CopyTagsFromSource (..),
+    CopyTagsFromSource,
 
     -- * CpuManufacturer
-    CpuManufacturer (..),
+    CpuManufacturer,
 
     -- * CurrencyCodeValues
-    CurrencyCodeValues (..),
+    CurrencyCodeValues,
 
     -- * DatafeedSubscriptionState
-    DatafeedSubscriptionState (..),
+    DatafeedSubscriptionState,
 
     -- * DefaultRouteTableAssociationValue
-    DefaultRouteTableAssociationValue (..),
+    DefaultRouteTableAssociationValue,
 
     -- * DefaultRouteTablePropagationValue
-    DefaultRouteTablePropagationValue (..),
+    DefaultRouteTablePropagationValue,
 
     -- * DefaultTargetCapacityType
-    DefaultTargetCapacityType (..),
+    DefaultTargetCapacityType,
 
     -- * DeleteFleetErrorCode
-    DeleteFleetErrorCode (..),
+    DeleteFleetErrorCode,
 
     -- * DeleteQueuedReservedInstancesErrorCode
-    DeleteQueuedReservedInstancesErrorCode (..),
+    DeleteQueuedReservedInstancesErrorCode,
 
     -- * DestinationFileFormat
-    DestinationFileFormat (..),
+    DestinationFileFormat,
 
     -- * DeviceTrustProviderType
-    DeviceTrustProviderType (..),
+    DeviceTrustProviderType,
 
     -- * DeviceType
-    DeviceType (..),
+    DeviceType,
 
     -- * DiskImageFormat
-    DiskImageFormat (..),
+    DiskImageFormat,
 
     -- * DiskType
-    DiskType (..),
+    DiskType,
 
     -- * DnsNameState
-    DnsNameState (..),
+    DnsNameState,
 
     -- * DnsRecordIpType
-    DnsRecordIpType (..),
+    DnsRecordIpType,
 
     -- * DnsSupportValue
-    DnsSupportValue (..),
+    DnsSupportValue,
 
     -- * DomainType
-    DomainType (..),
+    DomainType,
 
     -- * DynamicRoutingValue
-    DynamicRoutingValue (..),
+    DynamicRoutingValue,
 
     -- * EbsEncryptionSupport
-    EbsEncryptionSupport (..),
+    EbsEncryptionSupport,
 
     -- * EbsNvmeSupport
-    EbsNvmeSupport (..),
+    EbsNvmeSupport,
 
     -- * EbsOptimizedSupport
-    EbsOptimizedSupport (..),
+    EbsOptimizedSupport,
 
     -- * ElasticGpuState
-    ElasticGpuState (..),
+    ElasticGpuState,
 
     -- * ElasticGpuStatus
-    ElasticGpuStatus (..),
+    ElasticGpuStatus,
 
     -- * EnaSupport
-    EnaSupport (..),
+    EnaSupport,
 
     -- * EndDateType
-    EndDateType (..),
+    EndDateType,
 
     -- * EphemeralNvmeSupport
-    EphemeralNvmeSupport (..),
+    EphemeralNvmeSupport,
 
     -- * EventCode
-    EventCode (..),
+    EventCode,
 
     -- * EventType
-    EventType (..),
+    EventType,
 
     -- * ExcessCapacityTerminationPolicy
-    ExcessCapacityTerminationPolicy (..),
+    ExcessCapacityTerminationPolicy,
 
     -- * ExportEnvironment
-    ExportEnvironment (..),
+    ExportEnvironment,
 
     -- * ExportTaskState
-    ExportTaskState (..),
+    ExportTaskState,
 
     -- * FastLaunchResourceType
-    FastLaunchResourceType (..),
+    FastLaunchResourceType,
 
     -- * FastLaunchStateCode
-    FastLaunchStateCode (..),
+    FastLaunchStateCode,
 
     -- * FastSnapshotRestoreStateCode
-    FastSnapshotRestoreStateCode (..),
+    FastSnapshotRestoreStateCode,
 
     -- * FindingsFound
-    FindingsFound (..),
+    FindingsFound,
 
     -- * FleetActivityStatus
-    FleetActivityStatus (..),
+    FleetActivityStatus,
 
     -- * FleetCapacityReservationTenancy
-    FleetCapacityReservationTenancy (..),
+    FleetCapacityReservationTenancy,
 
     -- * FleetCapacityReservationUsageStrategy
-    FleetCapacityReservationUsageStrategy (..),
+    FleetCapacityReservationUsageStrategy,
 
     -- * FleetEventType
-    FleetEventType (..),
+    FleetEventType,
 
     -- * FleetExcessCapacityTerminationPolicy
-    FleetExcessCapacityTerminationPolicy (..),
+    FleetExcessCapacityTerminationPolicy,
 
     -- * FleetInstanceMatchCriteria
-    FleetInstanceMatchCriteria (..),
+    FleetInstanceMatchCriteria,
 
     -- * FleetOnDemandAllocationStrategy
-    FleetOnDemandAllocationStrategy (..),
+    FleetOnDemandAllocationStrategy,
 
     -- * FleetReplacementStrategy
-    FleetReplacementStrategy (..),
+    FleetReplacementStrategy,
 
     -- * FleetStateCode
-    FleetStateCode (..),
+    FleetStateCode,
 
     -- * FleetType
-    FleetType (..),
+    FleetType,
 
     -- * FlowLogsResourceType
-    FlowLogsResourceType (..),
+    FlowLogsResourceType,
 
     -- * FpgaImageAttributeName
-    FpgaImageAttributeName (..),
+    FpgaImageAttributeName,
 
     -- * FpgaImageStateCode
-    FpgaImageStateCode (..),
+    FpgaImageStateCode,
 
     -- * GatewayAssociationState
-    GatewayAssociationState (..),
+    GatewayAssociationState,
 
     -- * GatewayType
-    GatewayType (..),
+    GatewayType,
 
     -- * HostRecovery
-    HostRecovery (..),
+    HostRecovery,
 
     -- * HostTenancy
-    HostTenancy (..),
+    HostTenancy,
 
     -- * HostnameType
-    HostnameType (..),
+    HostnameType,
 
     -- * HttpTokensState
-    HttpTokensState (..),
+    HttpTokensState,
 
     -- * HypervisorType
-    HypervisorType (..),
+    HypervisorType,
 
     -- * IamInstanceProfileAssociationState
-    IamInstanceProfileAssociationState (..),
+    IamInstanceProfileAssociationState,
 
     -- * Igmpv2SupportValue
-    Igmpv2SupportValue (..),
+    Igmpv2SupportValue,
 
     -- * ImageAttributeName
-    ImageAttributeName (..),
+    ImageAttributeName,
 
     -- * ImageState
-    ImageState (..),
+    ImageState,
 
     -- * ImageTypeValues
-    ImageTypeValues (..),
+    ImageTypeValues,
 
     -- * ImdsSupportValues
-    ImdsSupportValues (..),
+    ImdsSupportValues,
 
     -- * InstanceAttributeName
-    InstanceAttributeName (..),
+    InstanceAttributeName,
 
     -- * InstanceAutoRecoveryState
-    InstanceAutoRecoveryState (..),
+    InstanceAutoRecoveryState,
 
     -- * InstanceEventWindowState
-    InstanceEventWindowState (..),
+    InstanceEventWindowState,
 
     -- * InstanceGeneration
-    InstanceGeneration (..),
+    InstanceGeneration,
 
     -- * InstanceHealthStatus
-    InstanceHealthStatus (..),
+    InstanceHealthStatus,
 
     -- * InstanceInterruptionBehavior
-    InstanceInterruptionBehavior (..),
+    InstanceInterruptionBehavior,
 
     -- * InstanceLifecycle
-    InstanceLifecycle (..),
+    InstanceLifecycle,
 
     -- * InstanceLifecycleType
-    InstanceLifecycleType (..),
+    InstanceLifecycleType,
 
     -- * InstanceMatchCriteria
-    InstanceMatchCriteria (..),
+    InstanceMatchCriteria,
 
     -- * InstanceMetadataEndpointState
-    InstanceMetadataEndpointState (..),
+    InstanceMetadataEndpointState,
 
     -- * InstanceMetadataOptionsState
-    InstanceMetadataOptionsState (..),
+    InstanceMetadataOptionsState,
 
     -- * InstanceMetadataProtocolState
-    InstanceMetadataProtocolState (..),
+    InstanceMetadataProtocolState,
 
     -- * InstanceMetadataTagsState
-    InstanceMetadataTagsState (..),
+    InstanceMetadataTagsState,
 
     -- * InstanceStateName
-    InstanceStateName (..),
+    InstanceStateName,
 
     -- * InstanceStorageEncryptionSupport
-    InstanceStorageEncryptionSupport (..),
+    InstanceStorageEncryptionSupport,
 
     -- * InstanceType
-    InstanceType (..),
+    InstanceType,
 
     -- * InstanceTypeHypervisor
-    InstanceTypeHypervisor (..),
+    InstanceTypeHypervisor,
 
     -- * InterfacePermissionType
-    InterfacePermissionType (..),
+    InterfacePermissionType,
 
     -- * InterfaceProtocolType
-    InterfaceProtocolType (..),
+    InterfaceProtocolType,
 
     -- * IpAddressType
-    IpAddressType (..),
+    IpAddressType,
 
     -- * IpamAddressHistoryResourceType
-    IpamAddressHistoryResourceType (..),
+    IpamAddressHistoryResourceType,
 
     -- * IpamComplianceStatus
-    IpamComplianceStatus (..),
+    IpamComplianceStatus,
 
     -- * IpamManagementState
-    IpamManagementState (..),
+    IpamManagementState,
 
     -- * IpamOverlapStatus
-    IpamOverlapStatus (..),
+    IpamOverlapStatus,
 
     -- * IpamPoolAllocationResourceType
-    IpamPoolAllocationResourceType (..),
+    IpamPoolAllocationResourceType,
 
     -- * IpamPoolAwsService
-    IpamPoolAwsService (..),
+    IpamPoolAwsService,
 
     -- * IpamPoolCidrFailureCode
-    IpamPoolCidrFailureCode (..),
+    IpamPoolCidrFailureCode,
 
     -- * IpamPoolCidrState
-    IpamPoolCidrState (..),
+    IpamPoolCidrState,
 
     -- * IpamPoolState
-    IpamPoolState (..),
+    IpamPoolState,
 
     -- * IpamResourceType
-    IpamResourceType (..),
+    IpamResourceType,
 
     -- * IpamScopeState
-    IpamScopeState (..),
+    IpamScopeState,
 
     -- * IpamScopeType
-    IpamScopeType (..),
+    IpamScopeType,
 
     -- * IpamState
-    IpamState (..),
+    IpamState,
 
     -- * Ipv6SupportValue
-    Ipv6SupportValue (..),
+    Ipv6SupportValue,
 
     -- * KeyFormat
-    KeyFormat (..),
+    KeyFormat,
 
     -- * KeyType
-    KeyType (..),
+    KeyType,
 
     -- * LaunchTemplateAutoRecoveryState
-    LaunchTemplateAutoRecoveryState (..),
+    LaunchTemplateAutoRecoveryState,
 
     -- * LaunchTemplateErrorCode
-    LaunchTemplateErrorCode (..),
+    LaunchTemplateErrorCode,
 
     -- * LaunchTemplateHttpTokensState
-    LaunchTemplateHttpTokensState (..),
+    LaunchTemplateHttpTokensState,
 
     -- * LaunchTemplateInstanceMetadataEndpointState
-    LaunchTemplateInstanceMetadataEndpointState (..),
+    LaunchTemplateInstanceMetadataEndpointState,
 
     -- * LaunchTemplateInstanceMetadataOptionsState
-    LaunchTemplateInstanceMetadataOptionsState (..),
+    LaunchTemplateInstanceMetadataOptionsState,
 
     -- * LaunchTemplateInstanceMetadataProtocolIpv6
-    LaunchTemplateInstanceMetadataProtocolIpv6 (..),
+    LaunchTemplateInstanceMetadataProtocolIpv6,
 
     -- * LaunchTemplateInstanceMetadataTagsState
-    LaunchTemplateInstanceMetadataTagsState (..),
+    LaunchTemplateInstanceMetadataTagsState,
 
     -- * ListingState
-    ListingState (..),
+    ListingState,
 
     -- * ListingStatus
-    ListingStatus (..),
+    ListingStatus,
 
     -- * LocalGatewayRouteState
-    LocalGatewayRouteState (..),
+    LocalGatewayRouteState,
 
     -- * LocalGatewayRouteTableMode
-    LocalGatewayRouteTableMode (..),
+    LocalGatewayRouteTableMode,
 
     -- * LocalGatewayRouteType
-    LocalGatewayRouteType (..),
+    LocalGatewayRouteType,
 
     -- * LocalStorage
-    LocalStorage (..),
+    LocalStorage,
 
     -- * LocalStorageType
-    LocalStorageType (..),
+    LocalStorageType,
 
     -- * LocationType
-    LocationType (..),
+    LocationType,
 
     -- * LogDestinationType
-    LogDestinationType (..),
+    LogDestinationType,
 
     -- * MarketType
-    MarketType (..),
+    MarketType,
 
     -- * MembershipType
-    MembershipType (..),
+    MembershipType,
 
     -- * MetricType
-    MetricType (..),
+    MetricType,
 
     -- * ModifyAvailabilityZoneOptInStatus
-    ModifyAvailabilityZoneOptInStatus (..),
+    ModifyAvailabilityZoneOptInStatus,
 
     -- * MonitoringState
-    MonitoringState (..),
+    MonitoringState,
 
     -- * MoveStatus
-    MoveStatus (..),
+    MoveStatus,
 
     -- * MulticastSupportValue
-    MulticastSupportValue (..),
+    MulticastSupportValue,
 
     -- * NatGatewayState
-    NatGatewayState (..),
+    NatGatewayState,
 
     -- * NetworkInterfaceAttribute
-    NetworkInterfaceAttribute (..),
+    NetworkInterfaceAttribute,
 
     -- * NetworkInterfaceCreationType
-    NetworkInterfaceCreationType (..),
+    NetworkInterfaceCreationType,
 
     -- * NetworkInterfacePermissionStateCode
-    NetworkInterfacePermissionStateCode (..),
+    NetworkInterfacePermissionStateCode,
 
     -- * NetworkInterfaceStatus
-    NetworkInterfaceStatus (..),
+    NetworkInterfaceStatus,
 
     -- * NetworkInterfaceType
-    NetworkInterfaceType (..),
+    NetworkInterfaceType,
 
     -- * OfferingClassType
-    OfferingClassType (..),
+    OfferingClassType,
 
     -- * OfferingTypeValues
-    OfferingTypeValues (..),
+    OfferingTypeValues,
 
     -- * OnDemandAllocationStrategy
-    OnDemandAllocationStrategy (..),
+    OnDemandAllocationStrategy,
 
     -- * OperationType
-    OperationType (..),
+    OperationType,
 
     -- * PartitionLoadFrequency
-    PartitionLoadFrequency (..),
+    PartitionLoadFrequency,
 
     -- * PayerResponsibility
-    PayerResponsibility (..),
+    PayerResponsibility,
 
     -- * PaymentOption
-    PaymentOption (..),
+    PaymentOption,
 
     -- * PeriodType
-    PeriodType (..),
+    PeriodType,
 
     -- * PermissionGroup
-    PermissionGroup (..),
+    PermissionGroup,
 
     -- * PlacementGroupState
-    PlacementGroupState (..),
+    PlacementGroupState,
 
     -- * PlacementGroupStrategy
-    PlacementGroupStrategy (..),
+    PlacementGroupStrategy,
 
     -- * PlacementStrategy
-    PlacementStrategy (..),
+    PlacementStrategy,
 
     -- * PlatformValues
-    PlatformValues (..),
+    PlatformValues,
 
     -- * PrefixListState
-    PrefixListState (..),
+    PrefixListState,
 
     -- * PrincipalType
-    PrincipalType (..),
+    PrincipalType,
 
     -- * ProductCodeValues
-    ProductCodeValues (..),
+    ProductCodeValues,
 
     -- * Protocol
-    Protocol (..),
+    Protocol,
 
     -- * ProtocolValue
-    ProtocolValue (..),
+    ProtocolValue,
 
     -- * RIProductDescription
-    RIProductDescription (..),
+    RIProductDescription,
 
     -- * RecurringChargeFrequency
-    RecurringChargeFrequency (..),
+    RecurringChargeFrequency,
 
     -- * ReplaceRootVolumeTaskState
-    ReplaceRootVolumeTaskState (..),
+    ReplaceRootVolumeTaskState,
 
     -- * ReplacementStrategy
-    ReplacementStrategy (..),
+    ReplacementStrategy,
 
     -- * ReportInstanceReasonCodes
-    ReportInstanceReasonCodes (..),
+    ReportInstanceReasonCodes,
 
     -- * ReportStatusType
-    ReportStatusType (..),
+    ReportStatusType,
 
     -- * ReservationState
-    ReservationState (..),
+    ReservationState,
 
     -- * ReservedInstanceState
-    ReservedInstanceState (..),
+    ReservedInstanceState,
 
     -- * ResetFpgaImageAttributeName
-    ResetFpgaImageAttributeName (..),
+    ResetFpgaImageAttributeName,
 
     -- * ResetImageAttributeName
-    ResetImageAttributeName (..),
+    ResetImageAttributeName,
 
     -- * ResourceType
-    ResourceType (..),
+    ResourceType,
 
     -- * RootDeviceType
-    RootDeviceType (..),
+    RootDeviceType,
 
     -- * RouteOrigin
-    RouteOrigin (..),
+    RouteOrigin,
 
     -- * RouteState
-    RouteState (..),
+    RouteState,
 
     -- * RouteTableAssociationStateCode
-    RouteTableAssociationStateCode (..),
+    RouteTableAssociationStateCode,
 
     -- * RuleAction
-    RuleAction (..),
+    RuleAction,
 
     -- * Scope
-    Scope (..),
+    Scope,
 
     -- * SelfServicePortal
-    SelfServicePortal (..),
+    SelfServicePortal,
 
     -- * ServiceConnectivityType
-    ServiceConnectivityType (..),
+    ServiceConnectivityType,
 
     -- * ServiceState
-    ServiceState (..),
+    ServiceState,
 
     -- * ServiceType
-    ServiceType (..),
+    ServiceType,
 
     -- * ShutdownBehavior
-    ShutdownBehavior (..),
+    ShutdownBehavior,
 
     -- * SnapshotAttributeName
-    SnapshotAttributeName (..),
+    SnapshotAttributeName,
 
     -- * SnapshotState
-    SnapshotState (..),
+    SnapshotState,
 
     -- * SpotAllocationStrategy
-    SpotAllocationStrategy (..),
+    SpotAllocationStrategy,
 
     -- * SpotInstanceInterruptionBehavior
-    SpotInstanceInterruptionBehavior (..),
+    SpotInstanceInterruptionBehavior,
 
     -- * SpotInstanceState
-    SpotInstanceState (..),
+    SpotInstanceState,
 
     -- * SpotInstanceType
-    SpotInstanceType (..),
+    SpotInstanceType,
 
     -- * SpreadLevel
-    SpreadLevel (..),
+    SpreadLevel,
 
     -- * State
-    State (..),
+    State,
 
     -- * StaticSourcesSupportValue
-    StaticSourcesSupportValue (..),
+    StaticSourcesSupportValue,
 
     -- * StatisticType
-    StatisticType (..),
+    StatisticType,
 
     -- * StatusName
-    StatusName (..),
+    StatusName,
 
     -- * StatusType
-    StatusType (..),
+    StatusType,
 
     -- * StorageTier
-    StorageTier (..),
+    StorageTier,
 
     -- * SubnetCidrBlockStateCode
-    SubnetCidrBlockStateCode (..),
+    SubnetCidrBlockStateCode,
 
     -- * SubnetCidrReservationType
-    SubnetCidrReservationType (..),
+    SubnetCidrReservationType,
 
     -- * SubnetState
-    SubnetState (..),
+    SubnetState,
 
     -- * SummaryStatus
-    SummaryStatus (..),
+    SummaryStatus,
 
     -- * TargetCapacityUnitType
-    TargetCapacityUnitType (..),
+    TargetCapacityUnitType,
 
     -- * TargetStorageTier
-    TargetStorageTier (..),
+    TargetStorageTier,
 
     -- * TelemetryStatus
-    TelemetryStatus (..),
+    TelemetryStatus,
 
     -- * Tenancy
-    Tenancy (..),
+    Tenancy,
 
     -- * TieringOperationStatus
-    TieringOperationStatus (..),
+    TieringOperationStatus,
 
     -- * TpmSupportValues
-    TpmSupportValues (..),
+    TpmSupportValues,
 
     -- * TrafficDirection
-    TrafficDirection (..),
+    TrafficDirection,
 
     -- * TrafficMirrorFilterRuleField
-    TrafficMirrorFilterRuleField (..),
+    TrafficMirrorFilterRuleField,
 
     -- * TrafficMirrorNetworkService
-    TrafficMirrorNetworkService (..),
+    TrafficMirrorNetworkService,
 
     -- * TrafficMirrorRuleAction
-    TrafficMirrorRuleAction (..),
+    TrafficMirrorRuleAction,
 
     -- * TrafficMirrorSessionField
-    TrafficMirrorSessionField (..),
+    TrafficMirrorSessionField,
 
     -- * TrafficMirrorTargetType
-    TrafficMirrorTargetType (..),
+    TrafficMirrorTargetType,
 
     -- * TrafficType
-    TrafficType (..),
+    TrafficType,
 
     -- * TransitGatewayAssociationState
-    TransitGatewayAssociationState (..),
+    TransitGatewayAssociationState,
 
     -- * TransitGatewayAttachmentResourceType
-    TransitGatewayAttachmentResourceType (..),
+    TransitGatewayAttachmentResourceType,
 
     -- * TransitGatewayAttachmentState
-    TransitGatewayAttachmentState (..),
+    TransitGatewayAttachmentState,
 
     -- * TransitGatewayConnectPeerState
-    TransitGatewayConnectPeerState (..),
+    TransitGatewayConnectPeerState,
 
     -- * TransitGatewayMulitcastDomainAssociationState
-    TransitGatewayMulitcastDomainAssociationState (..),
+    TransitGatewayMulitcastDomainAssociationState,
 
     -- * TransitGatewayMulticastDomainState
-    TransitGatewayMulticastDomainState (..),
+    TransitGatewayMulticastDomainState,
 
     -- * TransitGatewayPolicyTableState
-    TransitGatewayPolicyTableState (..),
+    TransitGatewayPolicyTableState,
 
     -- * TransitGatewayPrefixListReferenceState
-    TransitGatewayPrefixListReferenceState (..),
+    TransitGatewayPrefixListReferenceState,
 
     -- * TransitGatewayPropagationState
-    TransitGatewayPropagationState (..),
+    TransitGatewayPropagationState,
 
     -- * TransitGatewayRouteState
-    TransitGatewayRouteState (..),
+    TransitGatewayRouteState,
 
     -- * TransitGatewayRouteTableAnnouncementDirection
-    TransitGatewayRouteTableAnnouncementDirection (..),
+    TransitGatewayRouteTableAnnouncementDirection,
 
     -- * TransitGatewayRouteTableAnnouncementState
-    TransitGatewayRouteTableAnnouncementState (..),
+    TransitGatewayRouteTableAnnouncementState,
 
     -- * TransitGatewayRouteTableState
-    TransitGatewayRouteTableState (..),
+    TransitGatewayRouteTableState,
 
     -- * TransitGatewayRouteType
-    TransitGatewayRouteType (..),
+    TransitGatewayRouteType,
 
     -- * TransitGatewayState
-    TransitGatewayState (..),
+    TransitGatewayState,
 
     -- * TransportProtocol
-    TransportProtocol (..),
+    TransportProtocol,
 
     -- * TrustProviderType
-    TrustProviderType (..),
+    TrustProviderType,
 
     -- * TunnelInsideIpVersion
-    TunnelInsideIpVersion (..),
+    TunnelInsideIpVersion,
 
     -- * UnlimitedSupportedInstanceFamily
-    UnlimitedSupportedInstanceFamily (..),
+    UnlimitedSupportedInstanceFamily,
 
     -- * UnsuccessfulInstanceCreditSpecificationErrorCode
-    UnsuccessfulInstanceCreditSpecificationErrorCode (..),
+    UnsuccessfulInstanceCreditSpecificationErrorCode,
 
     -- * UsageClassType
-    UsageClassType (..),
+    UsageClassType,
 
     -- * UserTrustProviderType
-    UserTrustProviderType (..),
+    UserTrustProviderType,
 
     -- * VerifiedAccessEndpointAttachmentType
-    VerifiedAccessEndpointAttachmentType (..),
+    VerifiedAccessEndpointAttachmentType,
 
     -- * VerifiedAccessEndpointProtocol
-    VerifiedAccessEndpointProtocol (..),
+    VerifiedAccessEndpointProtocol,
 
     -- * VerifiedAccessEndpointStatusCode
-    VerifiedAccessEndpointStatusCode (..),
+    VerifiedAccessEndpointStatusCode,
 
     -- * VerifiedAccessEndpointType
-    VerifiedAccessEndpointType (..),
+    VerifiedAccessEndpointType,
 
     -- * VerifiedAccessLogDeliveryStatusCode
-    VerifiedAccessLogDeliveryStatusCode (..),
+    VerifiedAccessLogDeliveryStatusCode,
 
     -- * VirtualizationType
-    VirtualizationType (..),
+    VirtualizationType,
 
     -- * VolumeAttachmentState
-    VolumeAttachmentState (..),
+    VolumeAttachmentState,
 
     -- * VolumeAttributeName
-    VolumeAttributeName (..),
+    VolumeAttributeName,
 
     -- * VolumeModificationState
-    VolumeModificationState (..),
+    VolumeModificationState,
 
     -- * VolumeState
-    VolumeState (..),
+    VolumeState,
 
     -- * VolumeStatusInfoStatus
-    VolumeStatusInfoStatus (..),
+    VolumeStatusInfoStatus,
 
     -- * VolumeStatusName
-    VolumeStatusName (..),
+    VolumeStatusName,
 
     -- * VolumeType
-    VolumeType (..),
+    VolumeType,
 
     -- * VpcAttributeName
-    VpcAttributeName (..),
+    VpcAttributeName,
 
     -- * VpcCidrBlockStateCode
-    VpcCidrBlockStateCode (..),
+    VpcCidrBlockStateCode,
 
     -- * VpcEndpointType
-    VpcEndpointType (..),
+    VpcEndpointType,
 
     -- * VpcPeeringConnectionStateReasonCode
-    VpcPeeringConnectionStateReasonCode (..),
+    VpcPeeringConnectionStateReasonCode,
 
     -- * VpcState
-    VpcState (..),
+    VpcState,
 
     -- * VpcTenancy
-    VpcTenancy (..),
+    VpcTenancy,
 
     -- * VpnEcmpSupportValue
-    VpnEcmpSupportValue (..),
+    VpnEcmpSupportValue,
 
     -- * VpnProtocol
-    VpnProtocol (..),
+    VpnProtocol,
 
     -- * VpnState
-    VpnState (..),
+    VpnState,
 
     -- * VpnStaticRouteSource
-    VpnStaticRouteSource (..),
+    VpnStaticRouteSource,
 
     -- * WeekDay
-    WeekDay (..),
+    WeekDay,
 
     -- * AcceleratorCount
-    AcceleratorCount (..),
+    AcceleratorCount,
     newAcceleratorCount,
     acceleratorCount_max,
     acceleratorCount_min,
 
     -- * AcceleratorCountRequest
-    AcceleratorCountRequest (..),
+    AcceleratorCountRequest,
     newAcceleratorCountRequest,
     acceleratorCountRequest_max,
     acceleratorCountRequest_min,
 
     -- * AcceleratorTotalMemoryMiB
-    AcceleratorTotalMemoryMiB (..),
+    AcceleratorTotalMemoryMiB,
     newAcceleratorTotalMemoryMiB,
     acceleratorTotalMemoryMiB_max,
     acceleratorTotalMemoryMiB_min,
 
     -- * AcceleratorTotalMemoryMiBRequest
-    AcceleratorTotalMemoryMiBRequest (..),
+    AcceleratorTotalMemoryMiBRequest,
     newAcceleratorTotalMemoryMiBRequest,
     acceleratorTotalMemoryMiBRequest_max,
     acceleratorTotalMemoryMiBRequest_min,
 
     -- * AccessScopeAnalysisFinding
-    AccessScopeAnalysisFinding (..),
+    AccessScopeAnalysisFinding,
     newAccessScopeAnalysisFinding,
     accessScopeAnalysisFinding_findingComponents,
     accessScopeAnalysisFinding_findingId,
@@ -946,32 +946,32 @@ module Amazonka.EC2.Types
     accessScopeAnalysisFinding_networkInsightsAccessScopeId,
 
     -- * AccessScopePath
-    AccessScopePath (..),
+    AccessScopePath,
     newAccessScopePath,
     accessScopePath_destination,
     accessScopePath_source,
     accessScopePath_throughResources,
 
     -- * AccessScopePathRequest
-    AccessScopePathRequest (..),
+    AccessScopePathRequest,
     newAccessScopePathRequest,
     accessScopePathRequest_destination,
     accessScopePathRequest_source,
     accessScopePathRequest_throughResources,
 
     -- * AccountAttribute
-    AccountAttribute (..),
+    AccountAttribute,
     newAccountAttribute,
     accountAttribute_attributeName,
     accountAttribute_attributeValues,
 
     -- * AccountAttributeValue
-    AccountAttributeValue (..),
+    AccountAttributeValue,
     newAccountAttributeValue,
     accountAttributeValue_attributeValue,
 
     -- * ActiveInstance
-    ActiveInstance (..),
+    ActiveInstance,
     newActiveInstance,
     activeInstance_instanceHealth,
     activeInstance_instanceId,
@@ -979,18 +979,18 @@ module Amazonka.EC2.Types
     activeInstance_spotInstanceRequestId,
 
     -- * AddIpamOperatingRegion
-    AddIpamOperatingRegion (..),
+    AddIpamOperatingRegion,
     newAddIpamOperatingRegion,
     addIpamOperatingRegion_regionName,
 
     -- * AddPrefixListEntry
-    AddPrefixListEntry (..),
+    AddPrefixListEntry,
     newAddPrefixListEntry,
     addPrefixListEntry_description,
     addPrefixListEntry_cidr,
 
     -- * AddedPrincipal
-    AddedPrincipal (..),
+    AddedPrincipal,
     newAddedPrincipal,
     addedPrincipal_principal,
     addedPrincipal_principalType,
@@ -998,13 +998,13 @@ module Amazonka.EC2.Types
     addedPrincipal_servicePermissionId,
 
     -- * AdditionalDetail
-    AdditionalDetail (..),
+    AdditionalDetail,
     newAdditionalDetail,
     additionalDetail_additionalDetailType,
     additionalDetail_component,
 
     -- * Address
-    Address (..),
+    Address,
     newAddress,
     address_allocationId,
     address_associationId,
@@ -1022,7 +1022,7 @@ module Amazonka.EC2.Types
     address_tags,
 
     -- * AddressAttribute
-    AddressAttribute (..),
+    AddressAttribute,
     newAddressAttribute,
     addressAttribute_allocationId,
     addressAttribute_ptrRecord,
@@ -1030,7 +1030,7 @@ module Amazonka.EC2.Types
     addressAttribute_publicIp,
 
     -- * AddressTransfer
-    AddressTransfer (..),
+    AddressTransfer,
     newAddressTransfer,
     addressTransfer_addressTransferStatus,
     addressTransfer_allocationId,
@@ -1040,7 +1040,7 @@ module Amazonka.EC2.Types
     addressTransfer_transferOfferExpirationTimestamp,
 
     -- * AllowedPrincipal
-    AllowedPrincipal (..),
+    AllowedPrincipal,
     newAllowedPrincipal,
     allowedPrincipal_principal,
     allowedPrincipal_principalType,
@@ -1049,13 +1049,13 @@ module Amazonka.EC2.Types
     allowedPrincipal_tags,
 
     -- * AlternatePathHint
-    AlternatePathHint (..),
+    AlternatePathHint,
     newAlternatePathHint,
     alternatePathHint_componentArn,
     alternatePathHint_componentId,
 
     -- * AnalysisAclRule
-    AnalysisAclRule (..),
+    AnalysisAclRule,
     newAnalysisAclRule,
     analysisAclRule_cidr,
     analysisAclRule_egress,
@@ -1065,20 +1065,20 @@ module Amazonka.EC2.Types
     analysisAclRule_ruleNumber,
 
     -- * AnalysisComponent
-    AnalysisComponent (..),
+    AnalysisComponent,
     newAnalysisComponent,
     analysisComponent_arn,
     analysisComponent_id,
     analysisComponent_name,
 
     -- * AnalysisLoadBalancerListener
-    AnalysisLoadBalancerListener (..),
+    AnalysisLoadBalancerListener,
     newAnalysisLoadBalancerListener,
     analysisLoadBalancerListener_instancePort,
     analysisLoadBalancerListener_loadBalancerPort,
 
     -- * AnalysisLoadBalancerTarget
-    AnalysisLoadBalancerTarget (..),
+    AnalysisLoadBalancerTarget,
     newAnalysisLoadBalancerTarget,
     analysisLoadBalancerTarget_address,
     analysisLoadBalancerTarget_availabilityZone,
@@ -1086,7 +1086,7 @@ module Amazonka.EC2.Types
     analysisLoadBalancerTarget_port,
 
     -- * AnalysisPacketHeader
-    AnalysisPacketHeader (..),
+    AnalysisPacketHeader,
     newAnalysisPacketHeader,
     analysisPacketHeader_destinationAddresses,
     analysisPacketHeader_destinationPortRanges,
@@ -1095,7 +1095,7 @@ module Amazonka.EC2.Types
     analysisPacketHeader_sourcePortRanges,
 
     -- * AnalysisRouteTableRoute
-    AnalysisRouteTableRoute (..),
+    AnalysisRouteTableRoute,
     newAnalysisRouteTableRoute,
     analysisRouteTableRoute_destinationCidr,
     analysisRouteTableRoute_destinationPrefixListId,
@@ -1110,7 +1110,7 @@ module Amazonka.EC2.Types
     analysisRouteTableRoute_vpcPeeringConnectionId,
 
     -- * AnalysisSecurityGroupRule
-    AnalysisSecurityGroupRule (..),
+    AnalysisSecurityGroupRule,
     newAnalysisSecurityGroupRule,
     analysisSecurityGroupRule_cidr,
     analysisSecurityGroupRule_direction,
@@ -1120,12 +1120,12 @@ module Amazonka.EC2.Types
     analysisSecurityGroupRule_securityGroupId,
 
     -- * AssignedPrivateIpAddress
-    AssignedPrivateIpAddress (..),
+    AssignedPrivateIpAddress,
     newAssignedPrivateIpAddress,
     assignedPrivateIpAddress_privateIpAddress,
 
     -- * AssociatedRole
-    AssociatedRole (..),
+    AssociatedRole,
     newAssociatedRole,
     associatedRole_associatedRoleArn,
     associatedRole_certificateS3BucketName,
@@ -1133,19 +1133,19 @@ module Amazonka.EC2.Types
     associatedRole_encryptionKmsKeyId,
 
     -- * AssociatedTargetNetwork
-    AssociatedTargetNetwork (..),
+    AssociatedTargetNetwork,
     newAssociatedTargetNetwork,
     associatedTargetNetwork_networkId,
     associatedTargetNetwork_networkType,
 
     -- * AssociationStatus
-    AssociationStatus (..),
+    AssociationStatus,
     newAssociationStatus,
     associationStatus_code,
     associationStatus_message,
 
     -- * AthenaIntegration
-    AthenaIntegration (..),
+    AthenaIntegration,
     newAthenaIntegration,
     athenaIntegration_partitionEndDate,
     athenaIntegration_partitionStartDate,
@@ -1153,28 +1153,28 @@ module Amazonka.EC2.Types
     athenaIntegration_partitionLoadFrequency,
 
     -- * AttachmentEnaSrdSpecification
-    AttachmentEnaSrdSpecification (..),
+    AttachmentEnaSrdSpecification,
     newAttachmentEnaSrdSpecification,
     attachmentEnaSrdSpecification_enaSrdEnabled,
     attachmentEnaSrdSpecification_enaSrdUdpSpecification,
 
     -- * AttachmentEnaSrdUdpSpecification
-    AttachmentEnaSrdUdpSpecification (..),
+    AttachmentEnaSrdUdpSpecification,
     newAttachmentEnaSrdUdpSpecification,
     attachmentEnaSrdUdpSpecification_enaSrdUdpEnabled,
 
     -- * AttributeBooleanValue
-    AttributeBooleanValue (..),
+    AttributeBooleanValue,
     newAttributeBooleanValue,
     attributeBooleanValue_value,
 
     -- * AttributeValue
-    AttributeValue (..),
+    AttributeValue,
     newAttributeValue,
     attributeValue_value,
 
     -- * AuthorizationRule
-    AuthorizationRule (..),
+    AuthorizationRule,
     newAuthorizationRule,
     authorizationRule_accessAll,
     authorizationRule_clientVpnEndpointId,
@@ -1184,7 +1184,7 @@ module Amazonka.EC2.Types
     authorizationRule_status,
 
     -- * AvailabilityZone
-    AvailabilityZone (..),
+    AvailabilityZone,
     newAvailabilityZone,
     availabilityZone_groupName,
     availabilityZone_messages,
@@ -1199,35 +1199,35 @@ module Amazonka.EC2.Types
     availabilityZone_zoneType,
 
     -- * AvailabilityZoneMessage
-    AvailabilityZoneMessage (..),
+    AvailabilityZoneMessage,
     newAvailabilityZoneMessage,
     availabilityZoneMessage_message,
 
     -- * AvailableCapacity
-    AvailableCapacity (..),
+    AvailableCapacity,
     newAvailableCapacity,
     availableCapacity_availableInstanceCapacity,
     availableCapacity_availableVCpus,
 
     -- * BaselineEbsBandwidthMbps
-    BaselineEbsBandwidthMbps (..),
+    BaselineEbsBandwidthMbps,
     newBaselineEbsBandwidthMbps,
     baselineEbsBandwidthMbps_max,
     baselineEbsBandwidthMbps_min,
 
     -- * BaselineEbsBandwidthMbpsRequest
-    BaselineEbsBandwidthMbpsRequest (..),
+    BaselineEbsBandwidthMbpsRequest,
     newBaselineEbsBandwidthMbpsRequest,
     baselineEbsBandwidthMbpsRequest_max,
     baselineEbsBandwidthMbpsRequest_min,
 
     -- * BlobAttributeValue
-    BlobAttributeValue (..),
+    BlobAttributeValue,
     newBlobAttributeValue,
     blobAttributeValue_value,
 
     -- * BlockDeviceMapping
-    BlockDeviceMapping (..),
+    BlockDeviceMapping,
     newBlockDeviceMapping,
     blockDeviceMapping_ebs,
     blockDeviceMapping_noDevice,
@@ -1235,7 +1235,7 @@ module Amazonka.EC2.Types
     blockDeviceMapping_deviceName,
 
     -- * BundleTask
-    BundleTask (..),
+    BundleTask,
     newBundleTask,
     bundleTask_bundleTaskError,
     bundleTask_bundleId,
@@ -1247,13 +1247,13 @@ module Amazonka.EC2.Types
     bundleTask_updateTime,
 
     -- * BundleTaskError
-    BundleTaskError (..),
+    BundleTaskError,
     newBundleTaskError,
     bundleTaskError_code,
     bundleTaskError_message,
 
     -- * ByoipCidr
-    ByoipCidr (..),
+    ByoipCidr,
     newByoipCidr,
     byoipCidr_cidr,
     byoipCidr_description,
@@ -1261,44 +1261,44 @@ module Amazonka.EC2.Types
     byoipCidr_statusMessage,
 
     -- * CancelCapacityReservationFleetError
-    CancelCapacityReservationFleetError (..),
+    CancelCapacityReservationFleetError,
     newCancelCapacityReservationFleetError,
     cancelCapacityReservationFleetError_code,
     cancelCapacityReservationFleetError_message,
 
     -- * CancelSpotFleetRequestsError
-    CancelSpotFleetRequestsError (..),
+    CancelSpotFleetRequestsError,
     newCancelSpotFleetRequestsError,
     cancelSpotFleetRequestsError_code,
     cancelSpotFleetRequestsError_message,
 
     -- * CancelSpotFleetRequestsErrorItem
-    CancelSpotFleetRequestsErrorItem (..),
+    CancelSpotFleetRequestsErrorItem,
     newCancelSpotFleetRequestsErrorItem,
     cancelSpotFleetRequestsErrorItem_error,
     cancelSpotFleetRequestsErrorItem_spotFleetRequestId,
 
     -- * CancelSpotFleetRequestsSuccessItem
-    CancelSpotFleetRequestsSuccessItem (..),
+    CancelSpotFleetRequestsSuccessItem,
     newCancelSpotFleetRequestsSuccessItem,
     cancelSpotFleetRequestsSuccessItem_currentSpotFleetRequestState,
     cancelSpotFleetRequestsSuccessItem_previousSpotFleetRequestState,
     cancelSpotFleetRequestsSuccessItem_spotFleetRequestId,
 
     -- * CancelledSpotInstanceRequest
-    CancelledSpotInstanceRequest (..),
+    CancelledSpotInstanceRequest,
     newCancelledSpotInstanceRequest,
     cancelledSpotInstanceRequest_spotInstanceRequestId,
     cancelledSpotInstanceRequest_state,
 
     -- * CapacityAllocation
-    CapacityAllocation (..),
+    CapacityAllocation,
     newCapacityAllocation,
     capacityAllocation_allocationType,
     capacityAllocation_count,
 
     -- * CapacityReservation
-    CapacityReservation (..),
+    CapacityReservation,
     newCapacityReservation,
     capacityReservation_availabilityZone,
     capacityReservation_availabilityZoneId,
@@ -1325,7 +1325,7 @@ module Amazonka.EC2.Types
     capacityReservation_totalInstanceCount,
 
     -- * CapacityReservationFleet
-    CapacityReservationFleet (..),
+    CapacityReservationFleet,
     newCapacityReservationFleet,
     capacityReservationFleet_allocationStrategy,
     capacityReservationFleet_capacityReservationFleetArn,
@@ -1341,54 +1341,54 @@ module Amazonka.EC2.Types
     capacityReservationFleet_totalTargetCapacity,
 
     -- * CapacityReservationFleetCancellationState
-    CapacityReservationFleetCancellationState (..),
+    CapacityReservationFleetCancellationState,
     newCapacityReservationFleetCancellationState,
     capacityReservationFleetCancellationState_capacityReservationFleetId,
     capacityReservationFleetCancellationState_currentFleetState,
     capacityReservationFleetCancellationState_previousFleetState,
 
     -- * CapacityReservationGroup
-    CapacityReservationGroup (..),
+    CapacityReservationGroup,
     newCapacityReservationGroup,
     capacityReservationGroup_groupArn,
     capacityReservationGroup_ownerId,
 
     -- * CapacityReservationOptions
-    CapacityReservationOptions (..),
+    CapacityReservationOptions,
     newCapacityReservationOptions,
     capacityReservationOptions_usageStrategy,
 
     -- * CapacityReservationOptionsRequest
-    CapacityReservationOptionsRequest (..),
+    CapacityReservationOptionsRequest,
     newCapacityReservationOptionsRequest,
     capacityReservationOptionsRequest_usageStrategy,
 
     -- * CapacityReservationSpecification
-    CapacityReservationSpecification (..),
+    CapacityReservationSpecification,
     newCapacityReservationSpecification,
     capacityReservationSpecification_capacityReservationPreference,
     capacityReservationSpecification_capacityReservationTarget,
 
     -- * CapacityReservationSpecificationResponse
-    CapacityReservationSpecificationResponse (..),
+    CapacityReservationSpecificationResponse,
     newCapacityReservationSpecificationResponse,
     capacityReservationSpecificationResponse_capacityReservationPreference,
     capacityReservationSpecificationResponse_capacityReservationTarget,
 
     -- * CapacityReservationTarget
-    CapacityReservationTarget (..),
+    CapacityReservationTarget,
     newCapacityReservationTarget,
     capacityReservationTarget_capacityReservationId,
     capacityReservationTarget_capacityReservationResourceGroupArn,
 
     -- * CapacityReservationTargetResponse
-    CapacityReservationTargetResponse (..),
+    CapacityReservationTargetResponse,
     newCapacityReservationTargetResponse,
     capacityReservationTargetResponse_capacityReservationId,
     capacityReservationTargetResponse_capacityReservationResourceGroupArn,
 
     -- * CarrierGateway
-    CarrierGateway (..),
+    CarrierGateway,
     newCarrierGateway,
     carrierGateway_carrierGatewayId,
     carrierGateway_ownerId,
@@ -1397,34 +1397,34 @@ module Amazonka.EC2.Types
     carrierGateway_vpcId,
 
     -- * CertificateAuthentication
-    CertificateAuthentication (..),
+    CertificateAuthentication,
     newCertificateAuthentication,
     certificateAuthentication_clientRootCertificateChain,
 
     -- * CertificateAuthenticationRequest
-    CertificateAuthenticationRequest (..),
+    CertificateAuthenticationRequest,
     newCertificateAuthenticationRequest,
     certificateAuthenticationRequest_clientRootCertificateChainArn,
 
     -- * CidrAuthorizationContext
-    CidrAuthorizationContext (..),
+    CidrAuthorizationContext,
     newCidrAuthorizationContext,
     cidrAuthorizationContext_message,
     cidrAuthorizationContext_signature,
 
     -- * CidrBlock
-    CidrBlock (..),
+    CidrBlock,
     newCidrBlock,
     cidrBlock_cidrBlock,
 
     -- * ClassicLinkDnsSupport
-    ClassicLinkDnsSupport (..),
+    ClassicLinkDnsSupport,
     newClassicLinkDnsSupport,
     classicLinkDnsSupport_classicLinkDnsSupported,
     classicLinkDnsSupport_vpcId,
 
     -- * ClassicLinkInstance
-    ClassicLinkInstance (..),
+    ClassicLinkInstance,
     newClassicLinkInstance,
     classicLinkInstance_groups,
     classicLinkInstance_instanceId,
@@ -1432,36 +1432,36 @@ module Amazonka.EC2.Types
     classicLinkInstance_vpcId,
 
     -- * ClassicLoadBalancer
-    ClassicLoadBalancer (..),
+    ClassicLoadBalancer,
     newClassicLoadBalancer,
     classicLoadBalancer_name,
 
     -- * ClassicLoadBalancersConfig
-    ClassicLoadBalancersConfig (..),
+    ClassicLoadBalancersConfig,
     newClassicLoadBalancersConfig,
     classicLoadBalancersConfig_classicLoadBalancers,
 
     -- * ClientCertificateRevocationListStatus
-    ClientCertificateRevocationListStatus (..),
+    ClientCertificateRevocationListStatus,
     newClientCertificateRevocationListStatus,
     clientCertificateRevocationListStatus_code,
     clientCertificateRevocationListStatus_message,
 
     -- * ClientConnectOptions
-    ClientConnectOptions (..),
+    ClientConnectOptions,
     newClientConnectOptions,
     clientConnectOptions_enabled,
     clientConnectOptions_lambdaFunctionArn,
 
     -- * ClientConnectResponseOptions
-    ClientConnectResponseOptions (..),
+    ClientConnectResponseOptions,
     newClientConnectResponseOptions,
     clientConnectResponseOptions_enabled,
     clientConnectResponseOptions_lambdaFunctionArn,
     clientConnectResponseOptions_status,
 
     -- * ClientData
-    ClientData (..),
+    ClientData,
     newClientData,
     clientData_comment,
     clientData_uploadEnd,
@@ -1469,19 +1469,19 @@ module Amazonka.EC2.Types
     clientData_uploadStart,
 
     -- * ClientLoginBannerOptions
-    ClientLoginBannerOptions (..),
+    ClientLoginBannerOptions,
     newClientLoginBannerOptions,
     clientLoginBannerOptions_bannerText,
     clientLoginBannerOptions_enabled,
 
     -- * ClientLoginBannerResponseOptions
-    ClientLoginBannerResponseOptions (..),
+    ClientLoginBannerResponseOptions,
     newClientLoginBannerResponseOptions,
     clientLoginBannerResponseOptions_bannerText,
     clientLoginBannerResponseOptions_enabled,
 
     -- * ClientVpnAuthentication
-    ClientVpnAuthentication (..),
+    ClientVpnAuthentication,
     newClientVpnAuthentication,
     clientVpnAuthentication_activeDirectory,
     clientVpnAuthentication_federatedAuthentication,
@@ -1489,7 +1489,7 @@ module Amazonka.EC2.Types
     clientVpnAuthentication_type,
 
     -- * ClientVpnAuthenticationRequest
-    ClientVpnAuthenticationRequest (..),
+    ClientVpnAuthenticationRequest,
     newClientVpnAuthenticationRequest,
     clientVpnAuthenticationRequest_activeDirectory,
     clientVpnAuthenticationRequest_federatedAuthentication,
@@ -1497,13 +1497,13 @@ module Amazonka.EC2.Types
     clientVpnAuthenticationRequest_type,
 
     -- * ClientVpnAuthorizationRuleStatus
-    ClientVpnAuthorizationRuleStatus (..),
+    ClientVpnAuthorizationRuleStatus,
     newClientVpnAuthorizationRuleStatus,
     clientVpnAuthorizationRuleStatus_code,
     clientVpnAuthorizationRuleStatus_message,
 
     -- * ClientVpnConnection
-    ClientVpnConnection (..),
+    ClientVpnConnection,
     newClientVpnConnection,
     clientVpnConnection_clientIp,
     clientVpnConnection_clientVpnEndpointId,
@@ -1521,13 +1521,13 @@ module Amazonka.EC2.Types
     clientVpnConnection_username,
 
     -- * ClientVpnConnectionStatus
-    ClientVpnConnectionStatus (..),
+    ClientVpnConnectionStatus,
     newClientVpnConnectionStatus,
     clientVpnConnectionStatus_code,
     clientVpnConnectionStatus_message,
 
     -- * ClientVpnEndpoint
-    ClientVpnEndpoint (..),
+    ClientVpnEndpoint,
     newClientVpnEndpoint,
     clientVpnEndpoint_associatedTargetNetworks,
     clientVpnEndpoint_authenticationOptions,
@@ -1554,19 +1554,19 @@ module Amazonka.EC2.Types
     clientVpnEndpoint_vpnProtocol,
 
     -- * ClientVpnEndpointAttributeStatus
-    ClientVpnEndpointAttributeStatus (..),
+    ClientVpnEndpointAttributeStatus,
     newClientVpnEndpointAttributeStatus,
     clientVpnEndpointAttributeStatus_code,
     clientVpnEndpointAttributeStatus_message,
 
     -- * ClientVpnEndpointStatus
-    ClientVpnEndpointStatus (..),
+    ClientVpnEndpointStatus,
     newClientVpnEndpointStatus,
     clientVpnEndpointStatus_code,
     clientVpnEndpointStatus_message,
 
     -- * ClientVpnRoute
-    ClientVpnRoute (..),
+    ClientVpnRoute,
     newClientVpnRoute,
     clientVpnRoute_clientVpnEndpointId,
     clientVpnRoute_description,
@@ -1577,27 +1577,27 @@ module Amazonka.EC2.Types
     clientVpnRoute_type,
 
     -- * ClientVpnRouteStatus
-    ClientVpnRouteStatus (..),
+    ClientVpnRouteStatus,
     newClientVpnRouteStatus,
     clientVpnRouteStatus_code,
     clientVpnRouteStatus_message,
 
     -- * CloudWatchLogOptions
-    CloudWatchLogOptions (..),
+    CloudWatchLogOptions,
     newCloudWatchLogOptions,
     cloudWatchLogOptions_logEnabled,
     cloudWatchLogOptions_logGroupArn,
     cloudWatchLogOptions_logOutputFormat,
 
     -- * CloudWatchLogOptionsSpecification
-    CloudWatchLogOptionsSpecification (..),
+    CloudWatchLogOptionsSpecification,
     newCloudWatchLogOptionsSpecification,
     cloudWatchLogOptionsSpecification_logEnabled,
     cloudWatchLogOptionsSpecification_logGroupArn,
     cloudWatchLogOptionsSpecification_logOutputFormat,
 
     -- * CoipAddressUsage
-    CoipAddressUsage (..),
+    CoipAddressUsage,
     newCoipAddressUsage,
     coipAddressUsage_allocationId,
     coipAddressUsage_awsAccountId,
@@ -1605,14 +1605,14 @@ module Amazonka.EC2.Types
     coipAddressUsage_coIp,
 
     -- * CoipCidr
-    CoipCidr (..),
+    CoipCidr,
     newCoipCidr,
     coipCidr_cidr,
     coipCidr_coipPoolId,
     coipCidr_localGatewayRouteTableId,
 
     -- * CoipPool
-    CoipPool (..),
+    CoipPool,
     newCoipPool,
     coipPool_localGatewayRouteTableId,
     coipPool_poolArn,
@@ -1621,21 +1621,21 @@ module Amazonka.EC2.Types
     coipPool_tags,
 
     -- * ConnectionLogOptions
-    ConnectionLogOptions (..),
+    ConnectionLogOptions,
     newConnectionLogOptions,
     connectionLogOptions_cloudwatchLogGroup,
     connectionLogOptions_cloudwatchLogStream,
     connectionLogOptions_enabled,
 
     -- * ConnectionLogResponseOptions
-    ConnectionLogResponseOptions (..),
+    ConnectionLogResponseOptions,
     newConnectionLogResponseOptions,
     connectionLogResponseOptions_cloudwatchLogGroup,
     connectionLogResponseOptions_cloudwatchLogStream,
     connectionLogResponseOptions_enabled,
 
     -- * ConnectionNotification
-    ConnectionNotification (..),
+    ConnectionNotification,
     newConnectionNotification,
     connectionNotification_connectionEvents,
     connectionNotification_connectionNotificationArn,
@@ -1646,7 +1646,7 @@ module Amazonka.EC2.Types
     connectionNotification_vpcEndpointId,
 
     -- * ConversionTask
-    ConversionTask (..),
+    ConversionTask,
     newConversionTask,
     conversionTask_conversionTaskId,
     conversionTask_expirationTime,
@@ -1657,19 +1657,19 @@ module Amazonka.EC2.Types
     conversionTask_tags,
 
     -- * CpuOptions
-    CpuOptions (..),
+    CpuOptions,
     newCpuOptions,
     cpuOptions_coreCount,
     cpuOptions_threadsPerCore,
 
     -- * CpuOptionsRequest
-    CpuOptionsRequest (..),
+    CpuOptionsRequest,
     newCpuOptionsRequest,
     cpuOptionsRequest_coreCount,
     cpuOptionsRequest_threadsPerCore,
 
     -- * CreateFleetError
-    CreateFleetError (..),
+    CreateFleetError,
     newCreateFleetError,
     createFleetError_errorCode,
     createFleetError_errorMessage,
@@ -1677,7 +1677,7 @@ module Amazonka.EC2.Types
     createFleetError_lifecycle,
 
     -- * CreateFleetInstance
-    CreateFleetInstance (..),
+    CreateFleetInstance,
     newCreateFleetInstance,
     createFleetInstance_instanceIds,
     createFleetInstance_instanceType,
@@ -1686,38 +1686,38 @@ module Amazonka.EC2.Types
     createFleetInstance_platform,
 
     -- * CreateTransitGatewayConnectRequestOptions
-    CreateTransitGatewayConnectRequestOptions (..),
+    CreateTransitGatewayConnectRequestOptions,
     newCreateTransitGatewayConnectRequestOptions,
     createTransitGatewayConnectRequestOptions_protocol,
 
     -- * CreateTransitGatewayMulticastDomainRequestOptions
-    CreateTransitGatewayMulticastDomainRequestOptions (..),
+    CreateTransitGatewayMulticastDomainRequestOptions,
     newCreateTransitGatewayMulticastDomainRequestOptions,
     createTransitGatewayMulticastDomainRequestOptions_autoAcceptSharedAssociations,
     createTransitGatewayMulticastDomainRequestOptions_igmpv2Support,
     createTransitGatewayMulticastDomainRequestOptions_staticSourcesSupport,
 
     -- * CreateTransitGatewayPeeringAttachmentRequestOptions
-    CreateTransitGatewayPeeringAttachmentRequestOptions (..),
+    CreateTransitGatewayPeeringAttachmentRequestOptions,
     newCreateTransitGatewayPeeringAttachmentRequestOptions,
     createTransitGatewayPeeringAttachmentRequestOptions_dynamicRouting,
 
     -- * CreateTransitGatewayVpcAttachmentRequestOptions
-    CreateTransitGatewayVpcAttachmentRequestOptions (..),
+    CreateTransitGatewayVpcAttachmentRequestOptions,
     newCreateTransitGatewayVpcAttachmentRequestOptions,
     createTransitGatewayVpcAttachmentRequestOptions_applianceModeSupport,
     createTransitGatewayVpcAttachmentRequestOptions_dnsSupport,
     createTransitGatewayVpcAttachmentRequestOptions_ipv6Support,
 
     -- * CreateVerifiedAccessEndpointEniOptions
-    CreateVerifiedAccessEndpointEniOptions (..),
+    CreateVerifiedAccessEndpointEniOptions,
     newCreateVerifiedAccessEndpointEniOptions,
     createVerifiedAccessEndpointEniOptions_networkInterfaceId,
     createVerifiedAccessEndpointEniOptions_port,
     createVerifiedAccessEndpointEniOptions_protocol,
 
     -- * CreateVerifiedAccessEndpointLoadBalancerOptions
-    CreateVerifiedAccessEndpointLoadBalancerOptions (..),
+    CreateVerifiedAccessEndpointLoadBalancerOptions,
     newCreateVerifiedAccessEndpointLoadBalancerOptions,
     createVerifiedAccessEndpointLoadBalancerOptions_loadBalancerArn,
     createVerifiedAccessEndpointLoadBalancerOptions_port,
@@ -1725,12 +1725,12 @@ module Amazonka.EC2.Types
     createVerifiedAccessEndpointLoadBalancerOptions_subnetIds,
 
     -- * CreateVerifiedAccessTrustProviderDeviceOptions
-    CreateVerifiedAccessTrustProviderDeviceOptions (..),
+    CreateVerifiedAccessTrustProviderDeviceOptions,
     newCreateVerifiedAccessTrustProviderDeviceOptions,
     createVerifiedAccessTrustProviderDeviceOptions_tenantId,
 
     -- * CreateVerifiedAccessTrustProviderOidcOptions
-    CreateVerifiedAccessTrustProviderOidcOptions (..),
+    CreateVerifiedAccessTrustProviderOidcOptions,
     newCreateVerifiedAccessTrustProviderOidcOptions,
     createVerifiedAccessTrustProviderOidcOptions_authorizationEndpoint,
     createVerifiedAccessTrustProviderOidcOptions_clientId,
@@ -1741,29 +1741,29 @@ module Amazonka.EC2.Types
     createVerifiedAccessTrustProviderOidcOptions_userInfoEndpoint,
 
     -- * CreateVolumePermission
-    CreateVolumePermission (..),
+    CreateVolumePermission,
     newCreateVolumePermission,
     createVolumePermission_group,
     createVolumePermission_userId,
 
     -- * CreateVolumePermissionModifications
-    CreateVolumePermissionModifications (..),
+    CreateVolumePermissionModifications,
     newCreateVolumePermissionModifications,
     createVolumePermissionModifications_add,
     createVolumePermissionModifications_remove,
 
     -- * CreditSpecification
-    CreditSpecification (..),
+    CreditSpecification,
     newCreditSpecification,
     creditSpecification_cpuCredits,
 
     -- * CreditSpecificationRequest
-    CreditSpecificationRequest (..),
+    CreditSpecificationRequest,
     newCreditSpecificationRequest,
     creditSpecificationRequest_cpuCredits,
 
     -- * CustomerGateway
-    CustomerGateway (..),
+    CustomerGateway,
     newCustomerGateway,
     customerGateway_certificateArn,
     customerGateway_deviceName,
@@ -1775,7 +1775,7 @@ module Amazonka.EC2.Types
     customerGateway_type,
 
     -- * DataQuery
-    DataQuery (..),
+    DataQuery,
     newDataQuery,
     dataQuery_destination,
     dataQuery_id,
@@ -1785,7 +1785,7 @@ module Amazonka.EC2.Types
     dataQuery_statistic,
 
     -- * DataResponse
-    DataResponse (..),
+    DataResponse,
     newDataResponse,
     dataResponse_destination,
     dataResponse_id,
@@ -1796,26 +1796,26 @@ module Amazonka.EC2.Types
     dataResponse_statistic,
 
     -- * DeleteFleetError
-    DeleteFleetError (..),
+    DeleteFleetError,
     newDeleteFleetError,
     deleteFleetError_code,
     deleteFleetError_message,
 
     -- * DeleteFleetErrorItem
-    DeleteFleetErrorItem (..),
+    DeleteFleetErrorItem,
     newDeleteFleetErrorItem,
     deleteFleetErrorItem_error,
     deleteFleetErrorItem_fleetId,
 
     -- * DeleteFleetSuccessItem
-    DeleteFleetSuccessItem (..),
+    DeleteFleetSuccessItem,
     newDeleteFleetSuccessItem,
     deleteFleetSuccessItem_currentFleetState,
     deleteFleetSuccessItem_fleetId,
     deleteFleetSuccessItem_previousFleetState,
 
     -- * DeleteLaunchTemplateVersionsResponseErrorItem
-    DeleteLaunchTemplateVersionsResponseErrorItem (..),
+    DeleteLaunchTemplateVersionsResponseErrorItem,
     newDeleteLaunchTemplateVersionsResponseErrorItem,
     deleteLaunchTemplateVersionsResponseErrorItem_launchTemplateId,
     deleteLaunchTemplateVersionsResponseErrorItem_launchTemplateName,
@@ -1823,26 +1823,26 @@ module Amazonka.EC2.Types
     deleteLaunchTemplateVersionsResponseErrorItem_versionNumber,
 
     -- * DeleteLaunchTemplateVersionsResponseSuccessItem
-    DeleteLaunchTemplateVersionsResponseSuccessItem (..),
+    DeleteLaunchTemplateVersionsResponseSuccessItem,
     newDeleteLaunchTemplateVersionsResponseSuccessItem,
     deleteLaunchTemplateVersionsResponseSuccessItem_launchTemplateId,
     deleteLaunchTemplateVersionsResponseSuccessItem_launchTemplateName,
     deleteLaunchTemplateVersionsResponseSuccessItem_versionNumber,
 
     -- * DeleteQueuedReservedInstancesError
-    DeleteQueuedReservedInstancesError (..),
+    DeleteQueuedReservedInstancesError,
     newDeleteQueuedReservedInstancesError,
     deleteQueuedReservedInstancesError_code,
     deleteQueuedReservedInstancesError_message,
 
     -- * DeregisterInstanceTagAttributeRequest
-    DeregisterInstanceTagAttributeRequest (..),
+    DeregisterInstanceTagAttributeRequest,
     newDeregisterInstanceTagAttributeRequest,
     deregisterInstanceTagAttributeRequest_includeAllTagsOfInstance,
     deregisterInstanceTagAttributeRequest_instanceTagKeys,
 
     -- * DescribeFastLaunchImagesSuccessItem
-    DescribeFastLaunchImagesSuccessItem (..),
+    DescribeFastLaunchImagesSuccessItem,
     newDescribeFastLaunchImagesSuccessItem,
     describeFastLaunchImagesSuccessItem_imageId,
     describeFastLaunchImagesSuccessItem_launchTemplate,
@@ -1855,7 +1855,7 @@ module Amazonka.EC2.Types
     describeFastLaunchImagesSuccessItem_stateTransitionTime,
 
     -- * DescribeFastSnapshotRestoreSuccessItem
-    DescribeFastSnapshotRestoreSuccessItem (..),
+    DescribeFastSnapshotRestoreSuccessItem,
     newDescribeFastSnapshotRestoreSuccessItem,
     describeFastSnapshotRestoreSuccessItem_availabilityZone,
     describeFastSnapshotRestoreSuccessItem_disabledTime,
@@ -1870,7 +1870,7 @@ module Amazonka.EC2.Types
     describeFastSnapshotRestoreSuccessItem_stateTransitionReason,
 
     -- * DescribeFleetError
-    DescribeFleetError (..),
+    DescribeFleetError,
     newDescribeFleetError,
     describeFleetError_errorCode,
     describeFleetError_errorMessage,
@@ -1878,7 +1878,7 @@ module Amazonka.EC2.Types
     describeFleetError_lifecycle,
 
     -- * DescribeFleetsInstances
-    DescribeFleetsInstances (..),
+    DescribeFleetsInstances,
     newDescribeFleetsInstances,
     describeFleetsInstances_instanceIds,
     describeFleetsInstances_instanceType,
@@ -1887,32 +1887,32 @@ module Amazonka.EC2.Types
     describeFleetsInstances_platform,
 
     -- * DestinationOptionsRequest
-    DestinationOptionsRequest (..),
+    DestinationOptionsRequest,
     newDestinationOptionsRequest,
     destinationOptionsRequest_fileFormat,
     destinationOptionsRequest_hiveCompatiblePartitions,
     destinationOptionsRequest_perHourPartition,
 
     -- * DestinationOptionsResponse
-    DestinationOptionsResponse (..),
+    DestinationOptionsResponse,
     newDestinationOptionsResponse,
     destinationOptionsResponse_fileFormat,
     destinationOptionsResponse_hiveCompatiblePartitions,
     destinationOptionsResponse_perHourPartition,
 
     -- * DeviceOptions
-    DeviceOptions (..),
+    DeviceOptions,
     newDeviceOptions,
     deviceOptions_tenantId,
 
     -- * DhcpConfiguration
-    DhcpConfiguration (..),
+    DhcpConfiguration,
     newDhcpConfiguration,
     dhcpConfiguration_key,
     dhcpConfiguration_values,
 
     -- * DhcpOptions
-    DhcpOptions (..),
+    DhcpOptions,
     newDhcpOptions,
     dhcpOptions_dhcpConfigurations,
     dhcpOptions_dhcpOptionsId,
@@ -1920,35 +1920,35 @@ module Amazonka.EC2.Types
     dhcpOptions_tags,
 
     -- * DirectoryServiceAuthentication
-    DirectoryServiceAuthentication (..),
+    DirectoryServiceAuthentication,
     newDirectoryServiceAuthentication,
     directoryServiceAuthentication_directoryId,
 
     -- * DirectoryServiceAuthenticationRequest
-    DirectoryServiceAuthenticationRequest (..),
+    DirectoryServiceAuthenticationRequest,
     newDirectoryServiceAuthenticationRequest,
     directoryServiceAuthenticationRequest_directoryId,
 
     -- * DisableFastSnapshotRestoreErrorItem
-    DisableFastSnapshotRestoreErrorItem (..),
+    DisableFastSnapshotRestoreErrorItem,
     newDisableFastSnapshotRestoreErrorItem,
     disableFastSnapshotRestoreErrorItem_fastSnapshotRestoreStateErrors,
     disableFastSnapshotRestoreErrorItem_snapshotId,
 
     -- * DisableFastSnapshotRestoreStateError
-    DisableFastSnapshotRestoreStateError (..),
+    DisableFastSnapshotRestoreStateError,
     newDisableFastSnapshotRestoreStateError,
     disableFastSnapshotRestoreStateError_code,
     disableFastSnapshotRestoreStateError_message,
 
     -- * DisableFastSnapshotRestoreStateErrorItem
-    DisableFastSnapshotRestoreStateErrorItem (..),
+    DisableFastSnapshotRestoreStateErrorItem,
     newDisableFastSnapshotRestoreStateErrorItem,
     disableFastSnapshotRestoreStateErrorItem_availabilityZone,
     disableFastSnapshotRestoreStateErrorItem_error,
 
     -- * DisableFastSnapshotRestoreSuccessItem
-    DisableFastSnapshotRestoreSuccessItem (..),
+    DisableFastSnapshotRestoreSuccessItem,
     newDisableFastSnapshotRestoreSuccessItem,
     disableFastSnapshotRestoreSuccessItem_availabilityZone,
     disableFastSnapshotRestoreSuccessItem_disabledTime,
@@ -1963,14 +1963,14 @@ module Amazonka.EC2.Types
     disableFastSnapshotRestoreSuccessItem_stateTransitionReason,
 
     -- * DiskImage
-    DiskImage (..),
+    DiskImage,
     newDiskImage,
     diskImage_description,
     diskImage_image,
     diskImage_volume,
 
     -- * DiskImageDescription
-    DiskImageDescription (..),
+    DiskImageDescription,
     newDiskImageDescription,
     diskImageDescription_checksum,
     diskImageDescription_format,
@@ -1978,49 +1978,49 @@ module Amazonka.EC2.Types
     diskImageDescription_size,
 
     -- * DiskImageDetail
-    DiskImageDetail (..),
+    DiskImageDetail,
     newDiskImageDetail,
     diskImageDetail_bytes,
     diskImageDetail_format,
     diskImageDetail_importManifestUrl,
 
     -- * DiskImageVolumeDescription
-    DiskImageVolumeDescription (..),
+    DiskImageVolumeDescription,
     newDiskImageVolumeDescription,
     diskImageVolumeDescription_id,
     diskImageVolumeDescription_size,
 
     -- * DiskInfo
-    DiskInfo (..),
+    DiskInfo,
     newDiskInfo,
     diskInfo_count,
     diskInfo_sizeInGB,
     diskInfo_type,
 
     -- * DnsEntry
-    DnsEntry (..),
+    DnsEntry,
     newDnsEntry,
     dnsEntry_dnsName,
     dnsEntry_hostedZoneId,
 
     -- * DnsOptions
-    DnsOptions (..),
+    DnsOptions,
     newDnsOptions,
     dnsOptions_dnsRecordIpType,
 
     -- * DnsOptionsSpecification
-    DnsOptionsSpecification (..),
+    DnsOptionsSpecification,
     newDnsOptionsSpecification,
     dnsOptionsSpecification_dnsRecordIpType,
 
     -- * DnsServersOptionsModifyStructure
-    DnsServersOptionsModifyStructure (..),
+    DnsServersOptionsModifyStructure,
     newDnsServersOptionsModifyStructure,
     dnsServersOptionsModifyStructure_customDnsServers,
     dnsServersOptionsModifyStructure_enabled,
 
     -- * EbsBlockDevice
-    EbsBlockDevice (..),
+    EbsBlockDevice,
     newEbsBlockDevice,
     ebsBlockDevice_deleteOnTermination,
     ebsBlockDevice_encrypted,
@@ -2033,7 +2033,7 @@ module Amazonka.EC2.Types
     ebsBlockDevice_volumeType,
 
     -- * EbsInfo
-    EbsInfo (..),
+    EbsInfo,
     newEbsInfo,
     ebsInfo_ebsOptimizedInfo,
     ebsInfo_ebsOptimizedSupport,
@@ -2041,7 +2041,7 @@ module Amazonka.EC2.Types
     ebsInfo_nvmeSupport,
 
     -- * EbsInstanceBlockDevice
-    EbsInstanceBlockDevice (..),
+    EbsInstanceBlockDevice,
     newEbsInstanceBlockDevice,
     ebsInstanceBlockDevice_attachTime,
     ebsInstanceBlockDevice_deleteOnTermination,
@@ -2049,13 +2049,13 @@ module Amazonka.EC2.Types
     ebsInstanceBlockDevice_volumeId,
 
     -- * EbsInstanceBlockDeviceSpecification
-    EbsInstanceBlockDeviceSpecification (..),
+    EbsInstanceBlockDeviceSpecification,
     newEbsInstanceBlockDeviceSpecification,
     ebsInstanceBlockDeviceSpecification_deleteOnTermination,
     ebsInstanceBlockDeviceSpecification_volumeId,
 
     -- * EbsOptimizedInfo
-    EbsOptimizedInfo (..),
+    EbsOptimizedInfo,
     newEbsOptimizedInfo,
     ebsOptimizedInfo_baselineBandwidthInMbps,
     ebsOptimizedInfo_baselineIops,
@@ -2065,19 +2065,19 @@ module Amazonka.EC2.Types
     ebsOptimizedInfo_maximumThroughputInMBps,
 
     -- * EfaInfo
-    EfaInfo (..),
+    EfaInfo,
     newEfaInfo,
     efaInfo_maximumEfaInterfaces,
 
     -- * EgressOnlyInternetGateway
-    EgressOnlyInternetGateway (..),
+    EgressOnlyInternetGateway,
     newEgressOnlyInternetGateway,
     egressOnlyInternetGateway_attachments,
     egressOnlyInternetGateway_egressOnlyInternetGatewayId,
     egressOnlyInternetGateway_tags,
 
     -- * ElasticGpuAssociation
-    ElasticGpuAssociation (..),
+    ElasticGpuAssociation,
     newElasticGpuAssociation,
     elasticGpuAssociation_elasticGpuAssociationId,
     elasticGpuAssociation_elasticGpuAssociationState,
@@ -2085,22 +2085,22 @@ module Amazonka.EC2.Types
     elasticGpuAssociation_elasticGpuId,
 
     -- * ElasticGpuHealth
-    ElasticGpuHealth (..),
+    ElasticGpuHealth,
     newElasticGpuHealth,
     elasticGpuHealth_status,
 
     -- * ElasticGpuSpecification
-    ElasticGpuSpecification (..),
+    ElasticGpuSpecification,
     newElasticGpuSpecification,
     elasticGpuSpecification_type,
 
     -- * ElasticGpuSpecificationResponse
-    ElasticGpuSpecificationResponse (..),
+    ElasticGpuSpecificationResponse,
     newElasticGpuSpecificationResponse,
     elasticGpuSpecificationResponse_type,
 
     -- * ElasticGpus
-    ElasticGpus (..),
+    ElasticGpus,
     newElasticGpus,
     elasticGpus_availabilityZone,
     elasticGpus_elasticGpuHealth,
@@ -2111,13 +2111,13 @@ module Amazonka.EC2.Types
     elasticGpus_tags,
 
     -- * ElasticInferenceAccelerator
-    ElasticInferenceAccelerator (..),
+    ElasticInferenceAccelerator,
     newElasticInferenceAccelerator,
     elasticInferenceAccelerator_count,
     elasticInferenceAccelerator_type,
 
     -- * ElasticInferenceAcceleratorAssociation
-    ElasticInferenceAcceleratorAssociation (..),
+    ElasticInferenceAcceleratorAssociation,
     newElasticInferenceAcceleratorAssociation,
     elasticInferenceAcceleratorAssociation_elasticInferenceAcceleratorArn,
     elasticInferenceAcceleratorAssociation_elasticInferenceAcceleratorAssociationId,
@@ -2125,36 +2125,36 @@ module Amazonka.EC2.Types
     elasticInferenceAcceleratorAssociation_elasticInferenceAcceleratorAssociationTime,
 
     -- * EnaSrdSpecification
-    EnaSrdSpecification (..),
+    EnaSrdSpecification,
     newEnaSrdSpecification,
     enaSrdSpecification_enaSrdEnabled,
     enaSrdSpecification_enaSrdUdpSpecification,
 
     -- * EnaSrdUdpSpecification
-    EnaSrdUdpSpecification (..),
+    EnaSrdUdpSpecification,
     newEnaSrdUdpSpecification,
     enaSrdUdpSpecification_enaSrdUdpEnabled,
 
     -- * EnableFastSnapshotRestoreErrorItem
-    EnableFastSnapshotRestoreErrorItem (..),
+    EnableFastSnapshotRestoreErrorItem,
     newEnableFastSnapshotRestoreErrorItem,
     enableFastSnapshotRestoreErrorItem_fastSnapshotRestoreStateErrors,
     enableFastSnapshotRestoreErrorItem_snapshotId,
 
     -- * EnableFastSnapshotRestoreStateError
-    EnableFastSnapshotRestoreStateError (..),
+    EnableFastSnapshotRestoreStateError,
     newEnableFastSnapshotRestoreStateError,
     enableFastSnapshotRestoreStateError_code,
     enableFastSnapshotRestoreStateError_message,
 
     -- * EnableFastSnapshotRestoreStateErrorItem
-    EnableFastSnapshotRestoreStateErrorItem (..),
+    EnableFastSnapshotRestoreStateErrorItem,
     newEnableFastSnapshotRestoreStateErrorItem,
     enableFastSnapshotRestoreStateErrorItem_availabilityZone,
     enableFastSnapshotRestoreStateErrorItem_error,
 
     -- * EnableFastSnapshotRestoreSuccessItem
-    EnableFastSnapshotRestoreSuccessItem (..),
+    EnableFastSnapshotRestoreSuccessItem,
     newEnableFastSnapshotRestoreSuccessItem,
     enableFastSnapshotRestoreSuccessItem_availabilityZone,
     enableFastSnapshotRestoreSuccessItem_disabledTime,
@@ -2169,24 +2169,24 @@ module Amazonka.EC2.Types
     enableFastSnapshotRestoreSuccessItem_stateTransitionReason,
 
     -- * EnclaveOptions
-    EnclaveOptions (..),
+    EnclaveOptions,
     newEnclaveOptions,
     enclaveOptions_enabled,
 
     -- * EnclaveOptionsRequest
-    EnclaveOptionsRequest (..),
+    EnclaveOptionsRequest,
     newEnclaveOptionsRequest,
     enclaveOptionsRequest_enabled,
 
     -- * EventInformation
-    EventInformation (..),
+    EventInformation,
     newEventInformation,
     eventInformation_eventDescription,
     eventInformation_eventSubType,
     eventInformation_instanceId,
 
     -- * Explanation
-    Explanation (..),
+    Explanation,
     newExplanation,
     explanation_acl,
     explanation_aclRule,
@@ -2241,7 +2241,7 @@ module Amazonka.EC2.Types
     explanation_vpnGateway,
 
     -- * ExportImageTask
-    ExportImageTask (..),
+    ExportImageTask,
     newExportImageTask,
     exportImageTask_description,
     exportImageTask_exportImageTaskId,
@@ -2253,7 +2253,7 @@ module Amazonka.EC2.Types
     exportImageTask_tags,
 
     -- * ExportTask
-    ExportTask (..),
+    ExportTask,
     newExportTask,
     exportTask_tags,
     exportTask_description,
@@ -2264,19 +2264,19 @@ module Amazonka.EC2.Types
     exportTask_statusMessage,
 
     -- * ExportTaskS3Location
-    ExportTaskS3Location (..),
+    ExportTaskS3Location,
     newExportTaskS3Location,
     exportTaskS3Location_s3Bucket,
     exportTaskS3Location_s3Prefix,
 
     -- * ExportTaskS3LocationRequest
-    ExportTaskS3LocationRequest (..),
+    ExportTaskS3LocationRequest,
     newExportTaskS3LocationRequest,
     exportTaskS3LocationRequest_s3Prefix,
     exportTaskS3LocationRequest_s3Bucket,
 
     -- * ExportToS3Task
-    ExportToS3Task (..),
+    ExportToS3Task,
     newExportToS3Task,
     exportToS3Task_containerFormat,
     exportToS3Task_diskImageFormat,
@@ -2284,7 +2284,7 @@ module Amazonka.EC2.Types
     exportToS3Task_s3Key,
 
     -- * ExportToS3TaskSpecification
-    ExportToS3TaskSpecification (..),
+    ExportToS3TaskSpecification,
     newExportToS3TaskSpecification,
     exportToS3TaskSpecification_containerFormat,
     exportToS3TaskSpecification_diskImageFormat,
@@ -2292,61 +2292,61 @@ module Amazonka.EC2.Types
     exportToS3TaskSpecification_s3Prefix,
 
     -- * FailedCapacityReservationFleetCancellationResult
-    FailedCapacityReservationFleetCancellationResult (..),
+    FailedCapacityReservationFleetCancellationResult,
     newFailedCapacityReservationFleetCancellationResult,
     failedCapacityReservationFleetCancellationResult_cancelCapacityReservationFleetError,
     failedCapacityReservationFleetCancellationResult_capacityReservationFleetId,
 
     -- * FailedQueuedPurchaseDeletion
-    FailedQueuedPurchaseDeletion (..),
+    FailedQueuedPurchaseDeletion,
     newFailedQueuedPurchaseDeletion,
     failedQueuedPurchaseDeletion_error,
     failedQueuedPurchaseDeletion_reservedInstancesId,
 
     -- * FastLaunchLaunchTemplateSpecificationRequest
-    FastLaunchLaunchTemplateSpecificationRequest (..),
+    FastLaunchLaunchTemplateSpecificationRequest,
     newFastLaunchLaunchTemplateSpecificationRequest,
     fastLaunchLaunchTemplateSpecificationRequest_launchTemplateId,
     fastLaunchLaunchTemplateSpecificationRequest_launchTemplateName,
     fastLaunchLaunchTemplateSpecificationRequest_version,
 
     -- * FastLaunchLaunchTemplateSpecificationResponse
-    FastLaunchLaunchTemplateSpecificationResponse (..),
+    FastLaunchLaunchTemplateSpecificationResponse,
     newFastLaunchLaunchTemplateSpecificationResponse,
     fastLaunchLaunchTemplateSpecificationResponse_launchTemplateId,
     fastLaunchLaunchTemplateSpecificationResponse_launchTemplateName,
     fastLaunchLaunchTemplateSpecificationResponse_version,
 
     -- * FastLaunchSnapshotConfigurationRequest
-    FastLaunchSnapshotConfigurationRequest (..),
+    FastLaunchSnapshotConfigurationRequest,
     newFastLaunchSnapshotConfigurationRequest,
     fastLaunchSnapshotConfigurationRequest_targetResourceCount,
 
     -- * FastLaunchSnapshotConfigurationResponse
-    FastLaunchSnapshotConfigurationResponse (..),
+    FastLaunchSnapshotConfigurationResponse,
     newFastLaunchSnapshotConfigurationResponse,
     fastLaunchSnapshotConfigurationResponse_targetResourceCount,
 
     -- * FederatedAuthentication
-    FederatedAuthentication (..),
+    FederatedAuthentication,
     newFederatedAuthentication,
     federatedAuthentication_samlProviderArn,
     federatedAuthentication_selfServiceSamlProviderArn,
 
     -- * FederatedAuthenticationRequest
-    FederatedAuthenticationRequest (..),
+    FederatedAuthenticationRequest,
     newFederatedAuthenticationRequest,
     federatedAuthenticationRequest_sAMLProviderArn,
     federatedAuthenticationRequest_selfServiceSAMLProviderArn,
 
     -- * Filter
-    Filter (..),
+    Filter,
     newFilter,
     filter_values,
     filter_name,
 
     -- * FleetCapacityReservation
-    FleetCapacityReservation (..),
+    FleetCapacityReservation,
     newFleetCapacityReservation,
     fleetCapacityReservation_availabilityZone,
     fleetCapacityReservation_availabilityZoneId,
@@ -2361,7 +2361,7 @@ module Amazonka.EC2.Types
     fleetCapacityReservation_weight,
 
     -- * FleetData
-    FleetData (..),
+    FleetData,
     newFleetData,
     fleetData_activityStatus,
     fleetData_clientToken,
@@ -2386,19 +2386,19 @@ module Amazonka.EC2.Types
     fleetData_validUntil,
 
     -- * FleetLaunchTemplateConfig
-    FleetLaunchTemplateConfig (..),
+    FleetLaunchTemplateConfig,
     newFleetLaunchTemplateConfig,
     fleetLaunchTemplateConfig_launchTemplateSpecification,
     fleetLaunchTemplateConfig_overrides,
 
     -- * FleetLaunchTemplateConfigRequest
-    FleetLaunchTemplateConfigRequest (..),
+    FleetLaunchTemplateConfigRequest,
     newFleetLaunchTemplateConfigRequest,
     fleetLaunchTemplateConfigRequest_launchTemplateSpecification,
     fleetLaunchTemplateConfigRequest_overrides,
 
     -- * FleetLaunchTemplateOverrides
-    FleetLaunchTemplateOverrides (..),
+    FleetLaunchTemplateOverrides,
     newFleetLaunchTemplateOverrides,
     fleetLaunchTemplateOverrides_availabilityZone,
     fleetLaunchTemplateOverrides_imageId,
@@ -2411,7 +2411,7 @@ module Amazonka.EC2.Types
     fleetLaunchTemplateOverrides_weightedCapacity,
 
     -- * FleetLaunchTemplateOverridesRequest
-    FleetLaunchTemplateOverridesRequest (..),
+    FleetLaunchTemplateOverridesRequest,
     newFleetLaunchTemplateOverridesRequest,
     fleetLaunchTemplateOverridesRequest_availabilityZone,
     fleetLaunchTemplateOverridesRequest_imageId,
@@ -2424,43 +2424,43 @@ module Amazonka.EC2.Types
     fleetLaunchTemplateOverridesRequest_weightedCapacity,
 
     -- * FleetLaunchTemplateSpecification
-    FleetLaunchTemplateSpecification (..),
+    FleetLaunchTemplateSpecification,
     newFleetLaunchTemplateSpecification,
     fleetLaunchTemplateSpecification_launchTemplateId,
     fleetLaunchTemplateSpecification_launchTemplateName,
     fleetLaunchTemplateSpecification_version,
 
     -- * FleetLaunchTemplateSpecificationRequest
-    FleetLaunchTemplateSpecificationRequest (..),
+    FleetLaunchTemplateSpecificationRequest,
     newFleetLaunchTemplateSpecificationRequest,
     fleetLaunchTemplateSpecificationRequest_launchTemplateId,
     fleetLaunchTemplateSpecificationRequest_launchTemplateName,
     fleetLaunchTemplateSpecificationRequest_version,
 
     -- * FleetSpotCapacityRebalance
-    FleetSpotCapacityRebalance (..),
+    FleetSpotCapacityRebalance,
     newFleetSpotCapacityRebalance,
     fleetSpotCapacityRebalance_replacementStrategy,
     fleetSpotCapacityRebalance_terminationDelay,
 
     -- * FleetSpotCapacityRebalanceRequest
-    FleetSpotCapacityRebalanceRequest (..),
+    FleetSpotCapacityRebalanceRequest,
     newFleetSpotCapacityRebalanceRequest,
     fleetSpotCapacityRebalanceRequest_replacementStrategy,
     fleetSpotCapacityRebalanceRequest_terminationDelay,
 
     -- * FleetSpotMaintenanceStrategies
-    FleetSpotMaintenanceStrategies (..),
+    FleetSpotMaintenanceStrategies,
     newFleetSpotMaintenanceStrategies,
     fleetSpotMaintenanceStrategies_capacityRebalance,
 
     -- * FleetSpotMaintenanceStrategiesRequest
-    FleetSpotMaintenanceStrategiesRequest (..),
+    FleetSpotMaintenanceStrategiesRequest,
     newFleetSpotMaintenanceStrategiesRequest,
     fleetSpotMaintenanceStrategiesRequest_capacityRebalance,
 
     -- * FlowLog
-    FlowLog (..),
+    FlowLog,
     newFlowLog,
     flowLog_creationTime,
     flowLog_deliverCrossAccountRole,
@@ -2480,7 +2480,7 @@ module Amazonka.EC2.Types
     flowLog_trafficType,
 
     -- * FpgaDeviceInfo
-    FpgaDeviceInfo (..),
+    FpgaDeviceInfo,
     newFpgaDeviceInfo,
     fpgaDeviceInfo_count,
     fpgaDeviceInfo_manufacturer,
@@ -2488,12 +2488,12 @@ module Amazonka.EC2.Types
     fpgaDeviceInfo_name,
 
     -- * FpgaDeviceMemoryInfo
-    FpgaDeviceMemoryInfo (..),
+    FpgaDeviceMemoryInfo,
     newFpgaDeviceMemoryInfo,
     fpgaDeviceMemoryInfo_sizeInMiB,
 
     -- * FpgaImage
-    FpgaImage (..),
+    FpgaImage,
     newFpgaImage,
     fpgaImage_createTime,
     fpgaImage_dataRetentionSupport,
@@ -2513,7 +2513,7 @@ module Amazonka.EC2.Types
     fpgaImage_updateTime,
 
     -- * FpgaImageAttribute
-    FpgaImageAttribute (..),
+    FpgaImageAttribute,
     newFpgaImageAttribute,
     fpgaImageAttribute_description,
     fpgaImageAttribute_fpgaImageId,
@@ -2522,19 +2522,19 @@ module Amazonka.EC2.Types
     fpgaImageAttribute_productCodes,
 
     -- * FpgaImageState
-    FpgaImageState (..),
+    FpgaImageState,
     newFpgaImageState,
     fpgaImageState_code,
     fpgaImageState_message,
 
     -- * FpgaInfo
-    FpgaInfo (..),
+    FpgaInfo,
     newFpgaInfo,
     fpgaInfo_fpgas,
     fpgaInfo_totalFpgaMemoryInMiB,
 
     -- * GpuDeviceInfo
-    GpuDeviceInfo (..),
+    GpuDeviceInfo,
     newGpuDeviceInfo,
     gpuDeviceInfo_count,
     gpuDeviceInfo_manufacturer,
@@ -2542,48 +2542,48 @@ module Amazonka.EC2.Types
     gpuDeviceInfo_name,
 
     -- * GpuDeviceMemoryInfo
-    GpuDeviceMemoryInfo (..),
+    GpuDeviceMemoryInfo,
     newGpuDeviceMemoryInfo,
     gpuDeviceMemoryInfo_sizeInMiB,
 
     -- * GpuInfo
-    GpuInfo (..),
+    GpuInfo,
     newGpuInfo,
     gpuInfo_gpus,
     gpuInfo_totalGpuMemoryInMiB,
 
     -- * GroupIdentifier
-    GroupIdentifier (..),
+    GroupIdentifier,
     newGroupIdentifier,
     groupIdentifier_groupId,
     groupIdentifier_groupName,
 
     -- * HibernationOptions
-    HibernationOptions (..),
+    HibernationOptions,
     newHibernationOptions,
     hibernationOptions_configured,
 
     -- * HibernationOptionsRequest
-    HibernationOptionsRequest (..),
+    HibernationOptionsRequest,
     newHibernationOptionsRequest,
     hibernationOptionsRequest_configured,
 
     -- * HistoryRecord
-    HistoryRecord (..),
+    HistoryRecord,
     newHistoryRecord,
     historyRecord_eventInformation,
     historyRecord_eventType,
     historyRecord_timestamp,
 
     -- * HistoryRecordEntry
-    HistoryRecordEntry (..),
+    HistoryRecordEntry,
     newHistoryRecordEntry,
     historyRecordEntry_eventInformation,
     historyRecordEntry_eventType,
     historyRecordEntry_timestamp,
 
     -- * Host
-    Host (..),
+    Host,
     newHost,
     host_allocationTime,
     host_allowsMultipleInstanceTypes,
@@ -2605,14 +2605,14 @@ module Amazonka.EC2.Types
     host_tags,
 
     -- * HostInstance
-    HostInstance (..),
+    HostInstance,
     newHostInstance,
     hostInstance_instanceId,
     hostInstance_instanceType,
     hostInstance_ownerId,
 
     -- * HostOffering
-    HostOffering (..),
+    HostOffering,
     newHostOffering,
     hostOffering_currencyCode,
     hostOffering_duration,
@@ -2623,7 +2623,7 @@ module Amazonka.EC2.Types
     hostOffering_upfrontPrice,
 
     -- * HostProperties
-    HostProperties (..),
+    HostProperties,
     newHostProperties,
     hostProperties_cores,
     hostProperties_instanceFamily,
@@ -2632,7 +2632,7 @@ module Amazonka.EC2.Types
     hostProperties_totalVCpus,
 
     -- * HostReservation
-    HostReservation (..),
+    HostReservation,
     newHostReservation,
     hostReservation_count,
     hostReservation_currencyCode,
@@ -2650,23 +2650,23 @@ module Amazonka.EC2.Types
     hostReservation_upfrontPrice,
 
     -- * IKEVersionsListValue
-    IKEVersionsListValue (..),
+    IKEVersionsListValue,
     newIKEVersionsListValue,
     iKEVersionsListValue_value,
 
     -- * IKEVersionsRequestListValue
-    IKEVersionsRequestListValue (..),
+    IKEVersionsRequestListValue,
     newIKEVersionsRequestListValue,
     iKEVersionsRequestListValue_value,
 
     -- * IamInstanceProfile
-    IamInstanceProfile (..),
+    IamInstanceProfile,
     newIamInstanceProfile,
     iamInstanceProfile_arn,
     iamInstanceProfile_id,
 
     -- * IamInstanceProfileAssociation
-    IamInstanceProfileAssociation (..),
+    IamInstanceProfileAssociation,
     newIamInstanceProfileAssociation,
     iamInstanceProfileAssociation_associationId,
     iamInstanceProfileAssociation_iamInstanceProfile,
@@ -2675,26 +2675,26 @@ module Amazonka.EC2.Types
     iamInstanceProfileAssociation_timestamp,
 
     -- * IamInstanceProfileSpecification
-    IamInstanceProfileSpecification (..),
+    IamInstanceProfileSpecification,
     newIamInstanceProfileSpecification,
     iamInstanceProfileSpecification_arn,
     iamInstanceProfileSpecification_name,
 
     -- * IcmpTypeCode
-    IcmpTypeCode (..),
+    IcmpTypeCode,
     newIcmpTypeCode,
     icmpTypeCode_code,
     icmpTypeCode_type,
 
     -- * IdFormat
-    IdFormat (..),
+    IdFormat,
     newIdFormat,
     idFormat_deadline,
     idFormat_resource,
     idFormat_useLongIds,
 
     -- * Image
-    Image (..),
+    Image,
     newImage,
     image_blockDeviceMappings,
     image_bootMode,
@@ -2728,7 +2728,7 @@ module Amazonka.EC2.Types
     image_hypervisor,
 
     -- * ImageDiskContainer
-    ImageDiskContainer (..),
+    ImageDiskContainer,
     newImageDiskContainer,
     imageDiskContainer_description,
     imageDiskContainer_deviceName,
@@ -2738,7 +2738,7 @@ module Amazonka.EC2.Types
     imageDiskContainer_userBucket,
 
     -- * ImageRecycleBinInfo
-    ImageRecycleBinInfo (..),
+    ImageRecycleBinInfo,
     newImageRecycleBinInfo,
     imageRecycleBinInfo_description,
     imageRecycleBinInfo_imageId,
@@ -2747,17 +2747,17 @@ module Amazonka.EC2.Types
     imageRecycleBinInfo_recycleBinExitTime,
 
     -- * ImportImageLicenseConfigurationRequest
-    ImportImageLicenseConfigurationRequest (..),
+    ImportImageLicenseConfigurationRequest,
     newImportImageLicenseConfigurationRequest,
     importImageLicenseConfigurationRequest_licenseConfigurationArn,
 
     -- * ImportImageLicenseConfigurationResponse
-    ImportImageLicenseConfigurationResponse (..),
+    ImportImageLicenseConfigurationResponse,
     newImportImageLicenseConfigurationResponse,
     importImageLicenseConfigurationResponse_licenseConfigurationArn,
 
     -- * ImportImageTask
-    ImportImageTask (..),
+    ImportImageTask,
     newImportImageTask,
     importImageTask_architecture,
     importImageTask_bootMode,
@@ -2778,7 +2778,7 @@ module Amazonka.EC2.Types
     importImageTask_usageOperation,
 
     -- * ImportInstanceLaunchSpecification
-    ImportInstanceLaunchSpecification (..),
+    ImportInstanceLaunchSpecification,
     newImportInstanceLaunchSpecification,
     importInstanceLaunchSpecification_additionalInfo,
     importInstanceLaunchSpecification_architecture,
@@ -2793,7 +2793,7 @@ module Amazonka.EC2.Types
     importInstanceLaunchSpecification_userData,
 
     -- * ImportInstanceTaskDetails
-    ImportInstanceTaskDetails (..),
+    ImportInstanceTaskDetails,
     newImportInstanceTaskDetails,
     importInstanceTaskDetails_description,
     importInstanceTaskDetails_instanceId,
@@ -2801,7 +2801,7 @@ module Amazonka.EC2.Types
     importInstanceTaskDetails_volumes,
 
     -- * ImportInstanceVolumeDetailItem
-    ImportInstanceVolumeDetailItem (..),
+    ImportInstanceVolumeDetailItem,
     newImportInstanceVolumeDetailItem,
     importInstanceVolumeDetailItem_availabilityZone,
     importInstanceVolumeDetailItem_bytesConverted,
@@ -2812,7 +2812,7 @@ module Amazonka.EC2.Types
     importInstanceVolumeDetailItem_volume,
 
     -- * ImportSnapshotTask
-    ImportSnapshotTask (..),
+    ImportSnapshotTask,
     newImportSnapshotTask,
     importSnapshotTask_description,
     importSnapshotTask_importTaskId,
@@ -2820,7 +2820,7 @@ module Amazonka.EC2.Types
     importSnapshotTask_tags,
 
     -- * ImportVolumeTaskDetails
-    ImportVolumeTaskDetails (..),
+    ImportVolumeTaskDetails,
     newImportVolumeTaskDetails,
     importVolumeTaskDetails_availabilityZone,
     importVolumeTaskDetails_bytesConverted,
@@ -2829,19 +2829,19 @@ module Amazonka.EC2.Types
     importVolumeTaskDetails_volume,
 
     -- * InferenceAcceleratorInfo
-    InferenceAcceleratorInfo (..),
+    InferenceAcceleratorInfo,
     newInferenceAcceleratorInfo,
     inferenceAcceleratorInfo_accelerators,
 
     -- * InferenceDeviceInfo
-    InferenceDeviceInfo (..),
+    InferenceDeviceInfo,
     newInferenceDeviceInfo,
     inferenceDeviceInfo_count,
     inferenceDeviceInfo_manufacturer,
     inferenceDeviceInfo_name,
 
     -- * Instance
-    Instance (..),
+    Instance,
     newInstance,
     instance_blockDeviceMappings,
     instance_bootMode,
@@ -2901,13 +2901,13 @@ module Amazonka.EC2.Types
     instance_state,
 
     -- * InstanceBlockDeviceMapping
-    InstanceBlockDeviceMapping (..),
+    InstanceBlockDeviceMapping,
     newInstanceBlockDeviceMapping,
     instanceBlockDeviceMapping_deviceName,
     instanceBlockDeviceMapping_ebs,
 
     -- * InstanceBlockDeviceMappingSpecification
-    InstanceBlockDeviceMappingSpecification (..),
+    InstanceBlockDeviceMappingSpecification,
     newInstanceBlockDeviceMappingSpecification,
     instanceBlockDeviceMappingSpecification_deviceName,
     instanceBlockDeviceMappingSpecification_ebs,
@@ -2915,32 +2915,32 @@ module Amazonka.EC2.Types
     instanceBlockDeviceMappingSpecification_virtualName,
 
     -- * InstanceCapacity
-    InstanceCapacity (..),
+    InstanceCapacity,
     newInstanceCapacity,
     instanceCapacity_availableCapacity,
     instanceCapacity_instanceType,
     instanceCapacity_totalCapacity,
 
     -- * InstanceCount
-    InstanceCount (..),
+    InstanceCount,
     newInstanceCount,
     instanceCount_instanceCount,
     instanceCount_state,
 
     -- * InstanceCreditSpecification
-    InstanceCreditSpecification (..),
+    InstanceCreditSpecification,
     newInstanceCreditSpecification,
     instanceCreditSpecification_cpuCredits,
     instanceCreditSpecification_instanceId,
 
     -- * InstanceCreditSpecificationRequest
-    InstanceCreditSpecificationRequest (..),
+    InstanceCreditSpecificationRequest,
     newInstanceCreditSpecificationRequest,
     instanceCreditSpecificationRequest_cpuCredits,
     instanceCreditSpecificationRequest_instanceId,
 
     -- * InstanceEventWindow
-    InstanceEventWindow (..),
+    InstanceEventWindow,
     newInstanceEventWindow,
     instanceEventWindow_associationTarget,
     instanceEventWindow_cronExpression,
@@ -2951,34 +2951,34 @@ module Amazonka.EC2.Types
     instanceEventWindow_timeRanges,
 
     -- * InstanceEventWindowAssociationRequest
-    InstanceEventWindowAssociationRequest (..),
+    InstanceEventWindowAssociationRequest,
     newInstanceEventWindowAssociationRequest,
     instanceEventWindowAssociationRequest_dedicatedHostIds,
     instanceEventWindowAssociationRequest_instanceIds,
     instanceEventWindowAssociationRequest_instanceTags,
 
     -- * InstanceEventWindowAssociationTarget
-    InstanceEventWindowAssociationTarget (..),
+    InstanceEventWindowAssociationTarget,
     newInstanceEventWindowAssociationTarget,
     instanceEventWindowAssociationTarget_dedicatedHostIds,
     instanceEventWindowAssociationTarget_instanceIds,
     instanceEventWindowAssociationTarget_tags,
 
     -- * InstanceEventWindowDisassociationRequest
-    InstanceEventWindowDisassociationRequest (..),
+    InstanceEventWindowDisassociationRequest,
     newInstanceEventWindowDisassociationRequest,
     instanceEventWindowDisassociationRequest_dedicatedHostIds,
     instanceEventWindowDisassociationRequest_instanceIds,
     instanceEventWindowDisassociationRequest_instanceTags,
 
     -- * InstanceEventWindowStateChange
-    InstanceEventWindowStateChange (..),
+    InstanceEventWindowStateChange,
     newInstanceEventWindowStateChange,
     instanceEventWindowStateChange_instanceEventWindowId,
     instanceEventWindowStateChange_state,
 
     -- * InstanceEventWindowTimeRange
-    InstanceEventWindowTimeRange (..),
+    InstanceEventWindowTimeRange,
     newInstanceEventWindowTimeRange,
     instanceEventWindowTimeRange_endHour,
     instanceEventWindowTimeRange_endWeekDay,
@@ -2986,7 +2986,7 @@ module Amazonka.EC2.Types
     instanceEventWindowTimeRange_startWeekDay,
 
     -- * InstanceEventWindowTimeRangeRequest
-    InstanceEventWindowTimeRangeRequest (..),
+    InstanceEventWindowTimeRangeRequest,
     newInstanceEventWindowTimeRangeRequest,
     instanceEventWindowTimeRangeRequest_endHour,
     instanceEventWindowTimeRangeRequest_endWeekDay,
@@ -2994,55 +2994,55 @@ module Amazonka.EC2.Types
     instanceEventWindowTimeRangeRequest_startWeekDay,
 
     -- * InstanceExportDetails
-    InstanceExportDetails (..),
+    InstanceExportDetails,
     newInstanceExportDetails,
     instanceExportDetails_instanceId,
     instanceExportDetails_targetEnvironment,
 
     -- * InstanceFamilyCreditSpecification
-    InstanceFamilyCreditSpecification (..),
+    InstanceFamilyCreditSpecification,
     newInstanceFamilyCreditSpecification,
     instanceFamilyCreditSpecification_cpuCredits,
     instanceFamilyCreditSpecification_instanceFamily,
 
     -- * InstanceIpv4Prefix
-    InstanceIpv4Prefix (..),
+    InstanceIpv4Prefix,
     newInstanceIpv4Prefix,
     instanceIpv4Prefix_ipv4Prefix,
 
     -- * InstanceIpv6Address
-    InstanceIpv6Address (..),
+    InstanceIpv6Address,
     newInstanceIpv6Address,
     instanceIpv6Address_ipv6Address,
 
     -- * InstanceIpv6AddressRequest
-    InstanceIpv6AddressRequest (..),
+    InstanceIpv6AddressRequest,
     newInstanceIpv6AddressRequest,
     instanceIpv6AddressRequest_ipv6Address,
 
     -- * InstanceIpv6Prefix
-    InstanceIpv6Prefix (..),
+    InstanceIpv6Prefix,
     newInstanceIpv6Prefix,
     instanceIpv6Prefix_ipv6Prefix,
 
     -- * InstanceMaintenanceOptions
-    InstanceMaintenanceOptions (..),
+    InstanceMaintenanceOptions,
     newInstanceMaintenanceOptions,
     instanceMaintenanceOptions_autoRecovery,
 
     -- * InstanceMaintenanceOptionsRequest
-    InstanceMaintenanceOptionsRequest (..),
+    InstanceMaintenanceOptionsRequest,
     newInstanceMaintenanceOptionsRequest,
     instanceMaintenanceOptionsRequest_autoRecovery,
 
     -- * InstanceMarketOptionsRequest
-    InstanceMarketOptionsRequest (..),
+    InstanceMarketOptionsRequest,
     newInstanceMarketOptionsRequest,
     instanceMarketOptionsRequest_marketType,
     instanceMarketOptionsRequest_spotOptions,
 
     -- * InstanceMetadataOptionsRequest
-    InstanceMetadataOptionsRequest (..),
+    InstanceMetadataOptionsRequest,
     newInstanceMetadataOptionsRequest,
     instanceMetadataOptionsRequest_httpEndpoint,
     instanceMetadataOptionsRequest_httpProtocolIpv6,
@@ -3051,7 +3051,7 @@ module Amazonka.EC2.Types
     instanceMetadataOptionsRequest_instanceMetadataTags,
 
     -- * InstanceMetadataOptionsResponse
-    InstanceMetadataOptionsResponse (..),
+    InstanceMetadataOptionsResponse,
     newInstanceMetadataOptionsResponse,
     instanceMetadataOptionsResponse_httpEndpoint,
     instanceMetadataOptionsResponse_httpProtocolIpv6,
@@ -3061,13 +3061,13 @@ module Amazonka.EC2.Types
     instanceMetadataOptionsResponse_state,
 
     -- * InstanceMonitoring
-    InstanceMonitoring (..),
+    InstanceMonitoring,
     newInstanceMonitoring,
     instanceMonitoring_instanceId,
     instanceMonitoring_monitoring,
 
     -- * InstanceNetworkInterface
-    InstanceNetworkInterface (..),
+    InstanceNetworkInterface,
     newInstanceNetworkInterface,
     instanceNetworkInterface_association,
     instanceNetworkInterface_attachment,
@@ -3089,7 +3089,7 @@ module Amazonka.EC2.Types
     instanceNetworkInterface_vpcId,
 
     -- * InstanceNetworkInterfaceAssociation
-    InstanceNetworkInterfaceAssociation (..),
+    InstanceNetworkInterfaceAssociation,
     newInstanceNetworkInterfaceAssociation,
     instanceNetworkInterfaceAssociation_carrierIp,
     instanceNetworkInterfaceAssociation_customerOwnedIp,
@@ -3098,7 +3098,7 @@ module Amazonka.EC2.Types
     instanceNetworkInterfaceAssociation_publicIp,
 
     -- * InstanceNetworkInterfaceAttachment
-    InstanceNetworkInterfaceAttachment (..),
+    InstanceNetworkInterfaceAttachment,
     newInstanceNetworkInterfaceAttachment,
     instanceNetworkInterfaceAttachment_attachTime,
     instanceNetworkInterfaceAttachment_attachmentId,
@@ -3108,7 +3108,7 @@ module Amazonka.EC2.Types
     instanceNetworkInterfaceAttachment_status,
 
     -- * InstanceNetworkInterfaceSpecification
-    InstanceNetworkInterfaceSpecification (..),
+    InstanceNetworkInterfaceSpecification,
     newInstanceNetworkInterfaceSpecification,
     instanceNetworkInterfaceSpecification_associateCarrierIpAddress,
     instanceNetworkInterfaceSpecification_associatePublicIpAddress,
@@ -3131,7 +3131,7 @@ module Amazonka.EC2.Types
     instanceNetworkInterfaceSpecification_subnetId,
 
     -- * InstancePrivateIpAddress
-    InstancePrivateIpAddress (..),
+    InstancePrivateIpAddress,
     newInstancePrivateIpAddress,
     instancePrivateIpAddress_association,
     instancePrivateIpAddress_primary,
@@ -3139,7 +3139,7 @@ module Amazonka.EC2.Types
     instancePrivateIpAddress_privateIpAddress,
 
     -- * InstanceRequirements
-    InstanceRequirements (..),
+    InstanceRequirements,
     newInstanceRequirements,
     instanceRequirements_acceleratorCount,
     instanceRequirements_acceleratorManufacturers,
@@ -3166,7 +3166,7 @@ module Amazonka.EC2.Types
     instanceRequirements_vCpuCount,
 
     -- * InstanceRequirementsRequest
-    InstanceRequirementsRequest (..),
+    InstanceRequirementsRequest,
     newInstanceRequirementsRequest,
     instanceRequirementsRequest_acceleratorCount,
     instanceRequirementsRequest_acceleratorManufacturers,
@@ -3193,34 +3193,34 @@ module Amazonka.EC2.Types
     instanceRequirementsRequest_memoryMiB,
 
     -- * InstanceRequirementsWithMetadataRequest
-    InstanceRequirementsWithMetadataRequest (..),
+    InstanceRequirementsWithMetadataRequest,
     newInstanceRequirementsWithMetadataRequest,
     instanceRequirementsWithMetadataRequest_architectureTypes,
     instanceRequirementsWithMetadataRequest_instanceRequirements,
     instanceRequirementsWithMetadataRequest_virtualizationTypes,
 
     -- * InstanceSpecification
-    InstanceSpecification (..),
+    InstanceSpecification,
     newInstanceSpecification,
     instanceSpecification_excludeBootVolume,
     instanceSpecification_excludeDataVolumeIds,
     instanceSpecification_instanceId,
 
     -- * InstanceState
-    InstanceState (..),
+    InstanceState,
     newInstanceState,
     instanceState_name,
     instanceState_code,
 
     -- * InstanceStateChange
-    InstanceStateChange (..),
+    InstanceStateChange,
     newInstanceStateChange,
     instanceStateChange_currentState,
     instanceStateChange_instanceId,
     instanceStateChange_previousState,
 
     -- * InstanceStatus
-    InstanceStatus (..),
+    InstanceStatus,
     newInstanceStatus,
     instanceStatus_availabilityZone,
     instanceStatus_events,
@@ -3231,14 +3231,14 @@ module Amazonka.EC2.Types
     instanceStatus_systemStatus,
 
     -- * InstanceStatusDetails
-    InstanceStatusDetails (..),
+    InstanceStatusDetails,
     newInstanceStatusDetails,
     instanceStatusDetails_impairedSince,
     instanceStatusDetails_name,
     instanceStatusDetails_status,
 
     -- * InstanceStatusEvent
-    InstanceStatusEvent (..),
+    InstanceStatusEvent,
     newInstanceStatusEvent,
     instanceStatusEvent_code,
     instanceStatusEvent_description,
@@ -3248,13 +3248,13 @@ module Amazonka.EC2.Types
     instanceStatusEvent_notBeforeDeadline,
 
     -- * InstanceStatusSummary
-    InstanceStatusSummary (..),
+    InstanceStatusSummary,
     newInstanceStatusSummary,
     instanceStatusSummary_details,
     instanceStatusSummary_status,
 
     -- * InstanceStorageInfo
-    InstanceStorageInfo (..),
+    InstanceStorageInfo,
     newInstanceStorageInfo,
     instanceStorageInfo_disks,
     instanceStorageInfo_encryptionSupport,
@@ -3262,13 +3262,13 @@ module Amazonka.EC2.Types
     instanceStorageInfo_totalSizeInGB,
 
     -- * InstanceTagNotificationAttribute
-    InstanceTagNotificationAttribute (..),
+    InstanceTagNotificationAttribute,
     newInstanceTagNotificationAttribute,
     instanceTagNotificationAttribute_includeAllTagsOfInstance,
     instanceTagNotificationAttribute_instanceTagKeys,
 
     -- * InstanceTypeInfo
-    InstanceTypeInfo (..),
+    InstanceTypeInfo,
     newInstanceTypeInfo,
     instanceTypeInfo_autoRecoverySupported,
     instanceTypeInfo_bareMetal,
@@ -3296,30 +3296,30 @@ module Amazonka.EC2.Types
     instanceTypeInfo_vCpuInfo,
 
     -- * InstanceTypeInfoFromInstanceRequirements
-    InstanceTypeInfoFromInstanceRequirements (..),
+    InstanceTypeInfoFromInstanceRequirements,
     newInstanceTypeInfoFromInstanceRequirements,
     instanceTypeInfoFromInstanceRequirements_instanceType,
 
     -- * InstanceTypeOffering
-    InstanceTypeOffering (..),
+    InstanceTypeOffering,
     newInstanceTypeOffering,
     instanceTypeOffering_instanceType,
     instanceTypeOffering_location,
     instanceTypeOffering_locationType,
 
     -- * InstanceUsage
-    InstanceUsage (..),
+    InstanceUsage,
     newInstanceUsage,
     instanceUsage_accountId,
     instanceUsage_usedInstanceCount,
 
     -- * IntegrateServices
-    IntegrateServices (..),
+    IntegrateServices,
     newIntegrateServices,
     integrateServices_athenaIntegrations,
 
     -- * InternetGateway
-    InternetGateway (..),
+    InternetGateway,
     newInternetGateway,
     internetGateway_attachments,
     internetGateway_ownerId,
@@ -3327,13 +3327,13 @@ module Amazonka.EC2.Types
     internetGateway_internetGatewayId,
 
     -- * InternetGatewayAttachment
-    InternetGatewayAttachment (..),
+    InternetGatewayAttachment,
     newInternetGatewayAttachment,
     internetGatewayAttachment_state,
     internetGatewayAttachment_vpcId,
 
     -- * IpPermission
-    IpPermission (..),
+    IpPermission,
     newIpPermission,
     ipPermission_fromPort,
     ipPermission_ipRanges,
@@ -3344,13 +3344,13 @@ module Amazonka.EC2.Types
     ipPermission_ipProtocol,
 
     -- * IpRange
-    IpRange (..),
+    IpRange,
     newIpRange,
     ipRange_description,
     ipRange_cidrIp,
 
     -- * Ipam
-    Ipam (..),
+    Ipam,
     newIpam,
     ipam_description,
     ipam_ipamArn,
@@ -3365,7 +3365,7 @@ module Amazonka.EC2.Types
     ipam_tags,
 
     -- * IpamAddressHistoryRecord
-    IpamAddressHistoryRecord (..),
+    IpamAddressHistoryRecord,
     newIpamAddressHistoryRecord,
     ipamAddressHistoryRecord_resourceCidr,
     ipamAddressHistoryRecord_resourceComplianceStatus,
@@ -3380,18 +3380,18 @@ module Amazonka.EC2.Types
     ipamAddressHistoryRecord_vpcId,
 
     -- * IpamCidrAuthorizationContext
-    IpamCidrAuthorizationContext (..),
+    IpamCidrAuthorizationContext,
     newIpamCidrAuthorizationContext,
     ipamCidrAuthorizationContext_message,
     ipamCidrAuthorizationContext_signature,
 
     -- * IpamOperatingRegion
-    IpamOperatingRegion (..),
+    IpamOperatingRegion,
     newIpamOperatingRegion,
     ipamOperatingRegion_regionName,
 
     -- * IpamPool
-    IpamPool (..),
+    IpamPool,
     newIpamPool,
     ipamPool_addressFamily,
     ipamPool_allocationDefaultNetmaskLength,
@@ -3417,7 +3417,7 @@ module Amazonka.EC2.Types
     ipamPool_tags,
 
     -- * IpamPoolAllocation
-    IpamPoolAllocation (..),
+    IpamPoolAllocation,
     newIpamPoolAllocation,
     ipamPoolAllocation_cidr,
     ipamPoolAllocation_description,
@@ -3428,20 +3428,20 @@ module Amazonka.EC2.Types
     ipamPoolAllocation_resourceType,
 
     -- * IpamPoolCidr
-    IpamPoolCidr (..),
+    IpamPoolCidr,
     newIpamPoolCidr,
     ipamPoolCidr_cidr,
     ipamPoolCidr_failureReason,
     ipamPoolCidr_state,
 
     -- * IpamPoolCidrFailureReason
-    IpamPoolCidrFailureReason (..),
+    IpamPoolCidrFailureReason,
     newIpamPoolCidrFailureReason,
     ipamPoolCidrFailureReason_code,
     ipamPoolCidrFailureReason_message,
 
     -- * IpamResourceCidr
-    IpamResourceCidr (..),
+    IpamResourceCidr,
     newIpamResourceCidr,
     ipamResourceCidr_complianceStatus,
     ipamResourceCidr_ipUsage,
@@ -3460,13 +3460,13 @@ module Amazonka.EC2.Types
     ipamResourceCidr_vpcId,
 
     -- * IpamResourceTag
-    IpamResourceTag (..),
+    IpamResourceTag,
     newIpamResourceTag,
     ipamResourceTag_key,
     ipamResourceTag_value,
 
     -- * IpamScope
-    IpamScope (..),
+    IpamScope,
     newIpamScope,
     ipamScope_description,
     ipamScope_ipamArn,
@@ -3481,33 +3481,33 @@ module Amazonka.EC2.Types
     ipamScope_tags,
 
     -- * Ipv4PrefixSpecification
-    Ipv4PrefixSpecification (..),
+    Ipv4PrefixSpecification,
     newIpv4PrefixSpecification,
     ipv4PrefixSpecification_ipv4Prefix,
 
     -- * Ipv4PrefixSpecificationRequest
-    Ipv4PrefixSpecificationRequest (..),
+    Ipv4PrefixSpecificationRequest,
     newIpv4PrefixSpecificationRequest,
     ipv4PrefixSpecificationRequest_ipv4Prefix,
 
     -- * Ipv4PrefixSpecificationResponse
-    Ipv4PrefixSpecificationResponse (..),
+    Ipv4PrefixSpecificationResponse,
     newIpv4PrefixSpecificationResponse,
     ipv4PrefixSpecificationResponse_ipv4Prefix,
 
     -- * Ipv6CidrAssociation
-    Ipv6CidrAssociation (..),
+    Ipv6CidrAssociation,
     newIpv6CidrAssociation,
     ipv6CidrAssociation_associatedResource,
     ipv6CidrAssociation_ipv6Cidr,
 
     -- * Ipv6CidrBlock
-    Ipv6CidrBlock (..),
+    Ipv6CidrBlock,
     newIpv6CidrBlock,
     ipv6CidrBlock_ipv6CidrBlock,
 
     -- * Ipv6Pool
-    Ipv6Pool (..),
+    Ipv6Pool,
     newIpv6Pool,
     ipv6Pool_description,
     ipv6Pool_poolCidrBlocks,
@@ -3515,28 +3515,28 @@ module Amazonka.EC2.Types
     ipv6Pool_tags,
 
     -- * Ipv6PrefixSpecification
-    Ipv6PrefixSpecification (..),
+    Ipv6PrefixSpecification,
     newIpv6PrefixSpecification,
     ipv6PrefixSpecification_ipv6Prefix,
 
     -- * Ipv6PrefixSpecificationRequest
-    Ipv6PrefixSpecificationRequest (..),
+    Ipv6PrefixSpecificationRequest,
     newIpv6PrefixSpecificationRequest,
     ipv6PrefixSpecificationRequest_ipv6Prefix,
 
     -- * Ipv6PrefixSpecificationResponse
-    Ipv6PrefixSpecificationResponse (..),
+    Ipv6PrefixSpecificationResponse,
     newIpv6PrefixSpecificationResponse,
     ipv6PrefixSpecificationResponse_ipv6Prefix,
 
     -- * Ipv6Range
-    Ipv6Range (..),
+    Ipv6Range,
     newIpv6Range,
     ipv6Range_cidrIpv6,
     ipv6Range_description,
 
     -- * KeyPairInfo
-    KeyPairInfo (..),
+    KeyPairInfo,
     newKeyPairInfo,
     keyPairInfo_createTime,
     keyPairInfo_keyFingerprint,
@@ -3547,13 +3547,13 @@ module Amazonka.EC2.Types
     keyPairInfo_tags,
 
     -- * LastError
-    LastError (..),
+    LastError,
     newLastError,
     lastError_code,
     lastError_message,
 
     -- * LaunchPermission
-    LaunchPermission (..),
+    LaunchPermission,
     newLaunchPermission,
     launchPermission_group,
     launchPermission_organizationArn,
@@ -3561,13 +3561,13 @@ module Amazonka.EC2.Types
     launchPermission_userId,
 
     -- * LaunchPermissionModifications
-    LaunchPermissionModifications (..),
+    LaunchPermissionModifications,
     newLaunchPermissionModifications,
     launchPermissionModifications_add,
     launchPermissionModifications_remove,
 
     -- * LaunchSpecification
-    LaunchSpecification (..),
+    LaunchSpecification,
     newLaunchSpecification,
     launchSpecification_addressingType,
     launchSpecification_blockDeviceMappings,
@@ -3586,7 +3586,7 @@ module Amazonka.EC2.Types
     launchSpecification_userData,
 
     -- * LaunchTemplate
-    LaunchTemplate (..),
+    LaunchTemplate,
     newLaunchTemplate,
     launchTemplate_createTime,
     launchTemplate_createdBy,
@@ -3597,13 +3597,13 @@ module Amazonka.EC2.Types
     launchTemplate_tags,
 
     -- * LaunchTemplateAndOverridesResponse
-    LaunchTemplateAndOverridesResponse (..),
+    LaunchTemplateAndOverridesResponse,
     newLaunchTemplateAndOverridesResponse,
     launchTemplateAndOverridesResponse_launchTemplateSpecification,
     launchTemplateAndOverridesResponse_overrides,
 
     -- * LaunchTemplateBlockDeviceMapping
-    LaunchTemplateBlockDeviceMapping (..),
+    LaunchTemplateBlockDeviceMapping,
     newLaunchTemplateBlockDeviceMapping,
     launchTemplateBlockDeviceMapping_deviceName,
     launchTemplateBlockDeviceMapping_ebs,
@@ -3611,7 +3611,7 @@ module Amazonka.EC2.Types
     launchTemplateBlockDeviceMapping_virtualName,
 
     -- * LaunchTemplateBlockDeviceMappingRequest
-    LaunchTemplateBlockDeviceMappingRequest (..),
+    LaunchTemplateBlockDeviceMappingRequest,
     newLaunchTemplateBlockDeviceMappingRequest,
     launchTemplateBlockDeviceMappingRequest_deviceName,
     launchTemplateBlockDeviceMappingRequest_ebs,
@@ -3619,37 +3619,37 @@ module Amazonka.EC2.Types
     launchTemplateBlockDeviceMappingRequest_virtualName,
 
     -- * LaunchTemplateCapacityReservationSpecificationRequest
-    LaunchTemplateCapacityReservationSpecificationRequest (..),
+    LaunchTemplateCapacityReservationSpecificationRequest,
     newLaunchTemplateCapacityReservationSpecificationRequest,
     launchTemplateCapacityReservationSpecificationRequest_capacityReservationPreference,
     launchTemplateCapacityReservationSpecificationRequest_capacityReservationTarget,
 
     -- * LaunchTemplateCapacityReservationSpecificationResponse
-    LaunchTemplateCapacityReservationSpecificationResponse (..),
+    LaunchTemplateCapacityReservationSpecificationResponse,
     newLaunchTemplateCapacityReservationSpecificationResponse,
     launchTemplateCapacityReservationSpecificationResponse_capacityReservationPreference,
     launchTemplateCapacityReservationSpecificationResponse_capacityReservationTarget,
 
     -- * LaunchTemplateConfig
-    LaunchTemplateConfig (..),
+    LaunchTemplateConfig,
     newLaunchTemplateConfig,
     launchTemplateConfig_launchTemplateSpecification,
     launchTemplateConfig_overrides,
 
     -- * LaunchTemplateCpuOptions
-    LaunchTemplateCpuOptions (..),
+    LaunchTemplateCpuOptions,
     newLaunchTemplateCpuOptions,
     launchTemplateCpuOptions_coreCount,
     launchTemplateCpuOptions_threadsPerCore,
 
     -- * LaunchTemplateCpuOptionsRequest
-    LaunchTemplateCpuOptionsRequest (..),
+    LaunchTemplateCpuOptionsRequest,
     newLaunchTemplateCpuOptionsRequest,
     launchTemplateCpuOptionsRequest_coreCount,
     launchTemplateCpuOptionsRequest_threadsPerCore,
 
     -- * LaunchTemplateEbsBlockDevice
-    LaunchTemplateEbsBlockDevice (..),
+    LaunchTemplateEbsBlockDevice,
     newLaunchTemplateEbsBlockDevice,
     launchTemplateEbsBlockDevice_deleteOnTermination,
     launchTemplateEbsBlockDevice_encrypted,
@@ -3661,7 +3661,7 @@ module Amazonka.EC2.Types
     launchTemplateEbsBlockDevice_volumeType,
 
     -- * LaunchTemplateEbsBlockDeviceRequest
-    LaunchTemplateEbsBlockDeviceRequest (..),
+    LaunchTemplateEbsBlockDeviceRequest,
     newLaunchTemplateEbsBlockDeviceRequest,
     launchTemplateEbsBlockDeviceRequest_deleteOnTermination,
     launchTemplateEbsBlockDeviceRequest_encrypted,
@@ -3673,73 +3673,73 @@ module Amazonka.EC2.Types
     launchTemplateEbsBlockDeviceRequest_volumeType,
 
     -- * LaunchTemplateElasticInferenceAccelerator
-    LaunchTemplateElasticInferenceAccelerator (..),
+    LaunchTemplateElasticInferenceAccelerator,
     newLaunchTemplateElasticInferenceAccelerator,
     launchTemplateElasticInferenceAccelerator_count,
     launchTemplateElasticInferenceAccelerator_type,
 
     -- * LaunchTemplateElasticInferenceAcceleratorResponse
-    LaunchTemplateElasticInferenceAcceleratorResponse (..),
+    LaunchTemplateElasticInferenceAcceleratorResponse,
     newLaunchTemplateElasticInferenceAcceleratorResponse,
     launchTemplateElasticInferenceAcceleratorResponse_count,
     launchTemplateElasticInferenceAcceleratorResponse_type,
 
     -- * LaunchTemplateEnclaveOptions
-    LaunchTemplateEnclaveOptions (..),
+    LaunchTemplateEnclaveOptions,
     newLaunchTemplateEnclaveOptions,
     launchTemplateEnclaveOptions_enabled,
 
     -- * LaunchTemplateEnclaveOptionsRequest
-    LaunchTemplateEnclaveOptionsRequest (..),
+    LaunchTemplateEnclaveOptionsRequest,
     newLaunchTemplateEnclaveOptionsRequest,
     launchTemplateEnclaveOptionsRequest_enabled,
 
     -- * LaunchTemplateHibernationOptions
-    LaunchTemplateHibernationOptions (..),
+    LaunchTemplateHibernationOptions,
     newLaunchTemplateHibernationOptions,
     launchTemplateHibernationOptions_configured,
 
     -- * LaunchTemplateHibernationOptionsRequest
-    LaunchTemplateHibernationOptionsRequest (..),
+    LaunchTemplateHibernationOptionsRequest,
     newLaunchTemplateHibernationOptionsRequest,
     launchTemplateHibernationOptionsRequest_configured,
 
     -- * LaunchTemplateIamInstanceProfileSpecification
-    LaunchTemplateIamInstanceProfileSpecification (..),
+    LaunchTemplateIamInstanceProfileSpecification,
     newLaunchTemplateIamInstanceProfileSpecification,
     launchTemplateIamInstanceProfileSpecification_arn,
     launchTemplateIamInstanceProfileSpecification_name,
 
     -- * LaunchTemplateIamInstanceProfileSpecificationRequest
-    LaunchTemplateIamInstanceProfileSpecificationRequest (..),
+    LaunchTemplateIamInstanceProfileSpecificationRequest,
     newLaunchTemplateIamInstanceProfileSpecificationRequest,
     launchTemplateIamInstanceProfileSpecificationRequest_arn,
     launchTemplateIamInstanceProfileSpecificationRequest_name,
 
     -- * LaunchTemplateInstanceMaintenanceOptions
-    LaunchTemplateInstanceMaintenanceOptions (..),
+    LaunchTemplateInstanceMaintenanceOptions,
     newLaunchTemplateInstanceMaintenanceOptions,
     launchTemplateInstanceMaintenanceOptions_autoRecovery,
 
     -- * LaunchTemplateInstanceMaintenanceOptionsRequest
-    LaunchTemplateInstanceMaintenanceOptionsRequest (..),
+    LaunchTemplateInstanceMaintenanceOptionsRequest,
     newLaunchTemplateInstanceMaintenanceOptionsRequest,
     launchTemplateInstanceMaintenanceOptionsRequest_autoRecovery,
 
     -- * LaunchTemplateInstanceMarketOptions
-    LaunchTemplateInstanceMarketOptions (..),
+    LaunchTemplateInstanceMarketOptions,
     newLaunchTemplateInstanceMarketOptions,
     launchTemplateInstanceMarketOptions_marketType,
     launchTemplateInstanceMarketOptions_spotOptions,
 
     -- * LaunchTemplateInstanceMarketOptionsRequest
-    LaunchTemplateInstanceMarketOptionsRequest (..),
+    LaunchTemplateInstanceMarketOptionsRequest,
     newLaunchTemplateInstanceMarketOptionsRequest,
     launchTemplateInstanceMarketOptionsRequest_marketType,
     launchTemplateInstanceMarketOptionsRequest_spotOptions,
 
     -- * LaunchTemplateInstanceMetadataOptions
-    LaunchTemplateInstanceMetadataOptions (..),
+    LaunchTemplateInstanceMetadataOptions,
     newLaunchTemplateInstanceMetadataOptions,
     launchTemplateInstanceMetadataOptions_httpEndpoint,
     launchTemplateInstanceMetadataOptions_httpProtocolIpv6,
@@ -3749,7 +3749,7 @@ module Amazonka.EC2.Types
     launchTemplateInstanceMetadataOptions_state,
 
     -- * LaunchTemplateInstanceMetadataOptionsRequest
-    LaunchTemplateInstanceMetadataOptionsRequest (..),
+    LaunchTemplateInstanceMetadataOptionsRequest,
     newLaunchTemplateInstanceMetadataOptionsRequest,
     launchTemplateInstanceMetadataOptionsRequest_httpEndpoint,
     launchTemplateInstanceMetadataOptionsRequest_httpProtocolIpv6,
@@ -3758,7 +3758,7 @@ module Amazonka.EC2.Types
     launchTemplateInstanceMetadataOptionsRequest_instanceMetadataTags,
 
     -- * LaunchTemplateInstanceNetworkInterfaceSpecification
-    LaunchTemplateInstanceNetworkInterfaceSpecification (..),
+    LaunchTemplateInstanceNetworkInterfaceSpecification,
     newLaunchTemplateInstanceNetworkInterfaceSpecification,
     launchTemplateInstanceNetworkInterfaceSpecification_associateCarrierIpAddress,
     launchTemplateInstanceNetworkInterfaceSpecification_associatePublicIpAddress,
@@ -3781,7 +3781,7 @@ module Amazonka.EC2.Types
     launchTemplateInstanceNetworkInterfaceSpecification_subnetId,
 
     -- * LaunchTemplateInstanceNetworkInterfaceSpecificationRequest
-    LaunchTemplateInstanceNetworkInterfaceSpecificationRequest (..),
+    LaunchTemplateInstanceNetworkInterfaceSpecificationRequest,
     newLaunchTemplateInstanceNetworkInterfaceSpecificationRequest,
     launchTemplateInstanceNetworkInterfaceSpecificationRequest_associateCarrierIpAddress,
     launchTemplateInstanceNetworkInterfaceSpecificationRequest_associatePublicIpAddress,
@@ -3804,17 +3804,17 @@ module Amazonka.EC2.Types
     launchTemplateInstanceNetworkInterfaceSpecificationRequest_subnetId,
 
     -- * LaunchTemplateLicenseConfiguration
-    LaunchTemplateLicenseConfiguration (..),
+    LaunchTemplateLicenseConfiguration,
     newLaunchTemplateLicenseConfiguration,
     launchTemplateLicenseConfiguration_licenseConfigurationArn,
 
     -- * LaunchTemplateLicenseConfigurationRequest
-    LaunchTemplateLicenseConfigurationRequest (..),
+    LaunchTemplateLicenseConfigurationRequest,
     newLaunchTemplateLicenseConfigurationRequest,
     launchTemplateLicenseConfigurationRequest_licenseConfigurationArn,
 
     -- * LaunchTemplateOverrides
-    LaunchTemplateOverrides (..),
+    LaunchTemplateOverrides,
     newLaunchTemplateOverrides,
     launchTemplateOverrides_availabilityZone,
     launchTemplateOverrides_instanceRequirements,
@@ -3825,7 +3825,7 @@ module Amazonka.EC2.Types
     launchTemplateOverrides_weightedCapacity,
 
     -- * LaunchTemplatePlacement
-    LaunchTemplatePlacement (..),
+    LaunchTemplatePlacement,
     newLaunchTemplatePlacement,
     launchTemplatePlacement_affinity,
     launchTemplatePlacement_availabilityZone,
@@ -3838,7 +3838,7 @@ module Amazonka.EC2.Types
     launchTemplatePlacement_tenancy,
 
     -- * LaunchTemplatePlacementRequest
-    LaunchTemplatePlacementRequest (..),
+    LaunchTemplatePlacementRequest,
     newLaunchTemplatePlacementRequest,
     launchTemplatePlacementRequest_affinity,
     launchTemplatePlacementRequest_availabilityZone,
@@ -3851,28 +3851,28 @@ module Amazonka.EC2.Types
     launchTemplatePlacementRequest_tenancy,
 
     -- * LaunchTemplatePrivateDnsNameOptions
-    LaunchTemplatePrivateDnsNameOptions (..),
+    LaunchTemplatePrivateDnsNameOptions,
     newLaunchTemplatePrivateDnsNameOptions,
     launchTemplatePrivateDnsNameOptions_enableResourceNameDnsAAAARecord,
     launchTemplatePrivateDnsNameOptions_enableResourceNameDnsARecord,
     launchTemplatePrivateDnsNameOptions_hostnameType,
 
     -- * LaunchTemplatePrivateDnsNameOptionsRequest
-    LaunchTemplatePrivateDnsNameOptionsRequest (..),
+    LaunchTemplatePrivateDnsNameOptionsRequest,
     newLaunchTemplatePrivateDnsNameOptionsRequest,
     launchTemplatePrivateDnsNameOptionsRequest_enableResourceNameDnsAAAARecord,
     launchTemplatePrivateDnsNameOptionsRequest_enableResourceNameDnsARecord,
     launchTemplatePrivateDnsNameOptionsRequest_hostnameType,
 
     -- * LaunchTemplateSpecification
-    LaunchTemplateSpecification (..),
+    LaunchTemplateSpecification,
     newLaunchTemplateSpecification,
     launchTemplateSpecification_launchTemplateId,
     launchTemplateSpecification_launchTemplateName,
     launchTemplateSpecification_version,
 
     -- * LaunchTemplateSpotMarketOptions
-    LaunchTemplateSpotMarketOptions (..),
+    LaunchTemplateSpotMarketOptions,
     newLaunchTemplateSpotMarketOptions,
     launchTemplateSpotMarketOptions_blockDurationMinutes,
     launchTemplateSpotMarketOptions_instanceInterruptionBehavior,
@@ -3881,7 +3881,7 @@ module Amazonka.EC2.Types
     launchTemplateSpotMarketOptions_validUntil,
 
     -- * LaunchTemplateSpotMarketOptionsRequest
-    LaunchTemplateSpotMarketOptionsRequest (..),
+    LaunchTemplateSpotMarketOptionsRequest,
     newLaunchTemplateSpotMarketOptionsRequest,
     launchTemplateSpotMarketOptionsRequest_blockDurationMinutes,
     launchTemplateSpotMarketOptionsRequest_instanceInterruptionBehavior,
@@ -3890,19 +3890,19 @@ module Amazonka.EC2.Types
     launchTemplateSpotMarketOptionsRequest_validUntil,
 
     -- * LaunchTemplateTagSpecification
-    LaunchTemplateTagSpecification (..),
+    LaunchTemplateTagSpecification,
     newLaunchTemplateTagSpecification,
     launchTemplateTagSpecification_resourceType,
     launchTemplateTagSpecification_tags,
 
     -- * LaunchTemplateTagSpecificationRequest
-    LaunchTemplateTagSpecificationRequest (..),
+    LaunchTemplateTagSpecificationRequest,
     newLaunchTemplateTagSpecificationRequest,
     launchTemplateTagSpecificationRequest_resourceType,
     launchTemplateTagSpecificationRequest_tags,
 
     -- * LaunchTemplateVersion
-    LaunchTemplateVersion (..),
+    LaunchTemplateVersion,
     newLaunchTemplateVersion,
     launchTemplateVersion_createTime,
     launchTemplateVersion_createdBy,
@@ -3914,51 +3914,51 @@ module Amazonka.EC2.Types
     launchTemplateVersion_versionNumber,
 
     -- * LaunchTemplatesMonitoring
-    LaunchTemplatesMonitoring (..),
+    LaunchTemplatesMonitoring,
     newLaunchTemplatesMonitoring,
     launchTemplatesMonitoring_enabled,
 
     -- * LaunchTemplatesMonitoringRequest
-    LaunchTemplatesMonitoringRequest (..),
+    LaunchTemplatesMonitoringRequest,
     newLaunchTemplatesMonitoringRequest,
     launchTemplatesMonitoringRequest_enabled,
 
     -- * LicenseConfiguration
-    LicenseConfiguration (..),
+    LicenseConfiguration,
     newLicenseConfiguration,
     licenseConfiguration_licenseConfigurationArn,
 
     -- * LicenseConfigurationRequest
-    LicenseConfigurationRequest (..),
+    LicenseConfigurationRequest,
     newLicenseConfigurationRequest,
     licenseConfigurationRequest_licenseConfigurationArn,
 
     -- * LoadBalancersConfig
-    LoadBalancersConfig (..),
+    LoadBalancersConfig,
     newLoadBalancersConfig,
     loadBalancersConfig_classicLoadBalancersConfig,
     loadBalancersConfig_targetGroupsConfig,
 
     -- * LoadPermission
-    LoadPermission (..),
+    LoadPermission,
     newLoadPermission,
     loadPermission_group,
     loadPermission_userId,
 
     -- * LoadPermissionModifications
-    LoadPermissionModifications (..),
+    LoadPermissionModifications,
     newLoadPermissionModifications,
     loadPermissionModifications_add,
     loadPermissionModifications_remove,
 
     -- * LoadPermissionRequest
-    LoadPermissionRequest (..),
+    LoadPermissionRequest,
     newLoadPermissionRequest,
     loadPermissionRequest_group,
     loadPermissionRequest_userId,
 
     -- * LocalGateway
-    LocalGateway (..),
+    LocalGateway,
     newLocalGateway,
     localGateway_localGatewayId,
     localGateway_outpostArn,
@@ -3967,7 +3967,7 @@ module Amazonka.EC2.Types
     localGateway_tags,
 
     -- * LocalGatewayRoute
-    LocalGatewayRoute (..),
+    LocalGatewayRoute,
     newLocalGatewayRoute,
     localGatewayRoute_coipPoolId,
     localGatewayRoute_destinationCidrBlock,
@@ -3981,7 +3981,7 @@ module Amazonka.EC2.Types
     localGatewayRoute_type,
 
     -- * LocalGatewayRouteTable
-    LocalGatewayRouteTable (..),
+    LocalGatewayRouteTable,
     newLocalGatewayRouteTable,
     localGatewayRouteTable_localGatewayId,
     localGatewayRouteTable_localGatewayRouteTableArn,
@@ -3994,7 +3994,7 @@ module Amazonka.EC2.Types
     localGatewayRouteTable_tags,
 
     -- * LocalGatewayRouteTableVirtualInterfaceGroupAssociation
-    LocalGatewayRouteTableVirtualInterfaceGroupAssociation (..),
+    LocalGatewayRouteTableVirtualInterfaceGroupAssociation,
     newLocalGatewayRouteTableVirtualInterfaceGroupAssociation,
     localGatewayRouteTableVirtualInterfaceGroupAssociation_localGatewayId,
     localGatewayRouteTableVirtualInterfaceGroupAssociation_localGatewayRouteTableArn,
@@ -4006,7 +4006,7 @@ module Amazonka.EC2.Types
     localGatewayRouteTableVirtualInterfaceGroupAssociation_tags,
 
     -- * LocalGatewayRouteTableVpcAssociation
-    LocalGatewayRouteTableVpcAssociation (..),
+    LocalGatewayRouteTableVpcAssociation,
     newLocalGatewayRouteTableVpcAssociation,
     localGatewayRouteTableVpcAssociation_localGatewayId,
     localGatewayRouteTableVpcAssociation_localGatewayRouteTableArn,
@@ -4018,7 +4018,7 @@ module Amazonka.EC2.Types
     localGatewayRouteTableVpcAssociation_vpcId,
 
     -- * LocalGatewayVirtualInterface
-    LocalGatewayVirtualInterface (..),
+    LocalGatewayVirtualInterface,
     newLocalGatewayVirtualInterface,
     localGatewayVirtualInterface_localAddress,
     localGatewayVirtualInterface_localBgpAsn,
@@ -4031,7 +4031,7 @@ module Amazonka.EC2.Types
     localGatewayVirtualInterface_vlan,
 
     -- * LocalGatewayVirtualInterfaceGroup
-    LocalGatewayVirtualInterfaceGroup (..),
+    LocalGatewayVirtualInterfaceGroup,
     newLocalGatewayVirtualInterfaceGroup,
     localGatewayVirtualInterfaceGroup_localGatewayId,
     localGatewayVirtualInterfaceGroup_localGatewayVirtualInterfaceGroupId,
@@ -4040,7 +4040,7 @@ module Amazonka.EC2.Types
     localGatewayVirtualInterfaceGroup_tags,
 
     -- * ManagedPrefixList
-    ManagedPrefixList (..),
+    ManagedPrefixList,
     newManagedPrefixList,
     managedPrefixList_addressFamily,
     managedPrefixList_maxEntries,
@@ -4054,36 +4054,36 @@ module Amazonka.EC2.Types
     managedPrefixList_version,
 
     -- * MemoryGiBPerVCpu
-    MemoryGiBPerVCpu (..),
+    MemoryGiBPerVCpu,
     newMemoryGiBPerVCpu,
     memoryGiBPerVCpu_max,
     memoryGiBPerVCpu_min,
 
     -- * MemoryGiBPerVCpuRequest
-    MemoryGiBPerVCpuRequest (..),
+    MemoryGiBPerVCpuRequest,
     newMemoryGiBPerVCpuRequest,
     memoryGiBPerVCpuRequest_max,
     memoryGiBPerVCpuRequest_min,
 
     -- * MemoryInfo
-    MemoryInfo (..),
+    MemoryInfo,
     newMemoryInfo,
     memoryInfo_sizeInMiB,
 
     -- * MemoryMiB
-    MemoryMiB (..),
+    MemoryMiB,
     newMemoryMiB,
     memoryMiB_max,
     memoryMiB_min,
 
     -- * MemoryMiBRequest
-    MemoryMiBRequest (..),
+    MemoryMiBRequest,
     newMemoryMiBRequest,
     memoryMiBRequest_max,
     memoryMiBRequest_min,
 
     -- * MetricPoint
-    MetricPoint (..),
+    MetricPoint,
     newMetricPoint,
     metricPoint_endDate,
     metricPoint_startDate,
@@ -4091,7 +4091,7 @@ module Amazonka.EC2.Types
     metricPoint_value,
 
     -- * ModifyTransitGatewayOptions
-    ModifyTransitGatewayOptions (..),
+    ModifyTransitGatewayOptions,
     newModifyTransitGatewayOptions,
     modifyTransitGatewayOptions_addTransitGatewayCidrBlocks,
     modifyTransitGatewayOptions_amazonSideAsn,
@@ -4105,32 +4105,32 @@ module Amazonka.EC2.Types
     modifyTransitGatewayOptions_vpnEcmpSupport,
 
     -- * ModifyTransitGatewayVpcAttachmentRequestOptions
-    ModifyTransitGatewayVpcAttachmentRequestOptions (..),
+    ModifyTransitGatewayVpcAttachmentRequestOptions,
     newModifyTransitGatewayVpcAttachmentRequestOptions,
     modifyTransitGatewayVpcAttachmentRequestOptions_applianceModeSupport,
     modifyTransitGatewayVpcAttachmentRequestOptions_dnsSupport,
     modifyTransitGatewayVpcAttachmentRequestOptions_ipv6Support,
 
     -- * ModifyVerifiedAccessEndpointEniOptions
-    ModifyVerifiedAccessEndpointEniOptions (..),
+    ModifyVerifiedAccessEndpointEniOptions,
     newModifyVerifiedAccessEndpointEniOptions,
     modifyVerifiedAccessEndpointEniOptions_port,
     modifyVerifiedAccessEndpointEniOptions_protocol,
 
     -- * ModifyVerifiedAccessEndpointLoadBalancerOptions
-    ModifyVerifiedAccessEndpointLoadBalancerOptions (..),
+    ModifyVerifiedAccessEndpointLoadBalancerOptions,
     newModifyVerifiedAccessEndpointLoadBalancerOptions,
     modifyVerifiedAccessEndpointLoadBalancerOptions_port,
     modifyVerifiedAccessEndpointLoadBalancerOptions_protocol,
     modifyVerifiedAccessEndpointLoadBalancerOptions_subnetIds,
 
     -- * ModifyVerifiedAccessTrustProviderOidcOptions
-    ModifyVerifiedAccessTrustProviderOidcOptions (..),
+    ModifyVerifiedAccessTrustProviderOidcOptions,
     newModifyVerifiedAccessTrustProviderOidcOptions,
     modifyVerifiedAccessTrustProviderOidcOptions_scope,
 
     -- * ModifyVpnTunnelOptionsSpecification
-    ModifyVpnTunnelOptionsSpecification (..),
+    ModifyVpnTunnelOptionsSpecification,
     newModifyVpnTunnelOptionsSpecification,
     modifyVpnTunnelOptionsSpecification_dPDTimeoutAction,
     modifyVpnTunnelOptionsSpecification_dPDTimeoutSeconds,
@@ -4153,18 +4153,18 @@ module Amazonka.EC2.Types
     modifyVpnTunnelOptionsSpecification_tunnelInsideIpv6Cidr,
 
     -- * Monitoring
-    Monitoring (..),
+    Monitoring,
     newMonitoring,
     monitoring_state,
 
     -- * MovingAddressStatus
-    MovingAddressStatus (..),
+    MovingAddressStatus,
     newMovingAddressStatus,
     movingAddressStatus_moveStatus,
     movingAddressStatus_publicIp,
 
     -- * NatGateway
-    NatGateway (..),
+    NatGateway,
     newNatGateway,
     natGateway_connectivityType,
     natGateway_createTime,
@@ -4180,7 +4180,7 @@ module Amazonka.EC2.Types
     natGateway_vpcId,
 
     -- * NatGatewayAddress
-    NatGatewayAddress (..),
+    NatGatewayAddress,
     newNatGatewayAddress,
     natGatewayAddress_allocationId,
     natGatewayAddress_networkInterfaceId,
@@ -4188,7 +4188,7 @@ module Amazonka.EC2.Types
     natGatewayAddress_publicIp,
 
     -- * NetworkAcl
-    NetworkAcl (..),
+    NetworkAcl,
     newNetworkAcl,
     networkAcl_associations,
     networkAcl_entries,
@@ -4199,14 +4199,14 @@ module Amazonka.EC2.Types
     networkAcl_vpcId,
 
     -- * NetworkAclAssociation
-    NetworkAclAssociation (..),
+    NetworkAclAssociation,
     newNetworkAclAssociation,
     networkAclAssociation_networkAclAssociationId,
     networkAclAssociation_networkAclId,
     networkAclAssociation_subnetId,
 
     -- * NetworkAclEntry
-    NetworkAclEntry (..),
+    NetworkAclEntry,
     newNetworkAclEntry,
     networkAclEntry_cidrBlock,
     networkAclEntry_egress,
@@ -4218,26 +4218,26 @@ module Amazonka.EC2.Types
     networkAclEntry_ruleNumber,
 
     -- * NetworkBandwidthGbps
-    NetworkBandwidthGbps (..),
+    NetworkBandwidthGbps,
     newNetworkBandwidthGbps,
     networkBandwidthGbps_max,
     networkBandwidthGbps_min,
 
     -- * NetworkBandwidthGbpsRequest
-    NetworkBandwidthGbpsRequest (..),
+    NetworkBandwidthGbpsRequest,
     newNetworkBandwidthGbpsRequest,
     networkBandwidthGbpsRequest_max,
     networkBandwidthGbpsRequest_min,
 
     -- * NetworkCardInfo
-    NetworkCardInfo (..),
+    NetworkCardInfo,
     newNetworkCardInfo,
     networkCardInfo_maximumNetworkInterfaces,
     networkCardInfo_networkCardIndex,
     networkCardInfo_networkPerformance,
 
     -- * NetworkInfo
-    NetworkInfo (..),
+    NetworkInfo,
     newNetworkInfo,
     networkInfo_defaultNetworkCardIndex,
     networkInfo_efaInfo,
@@ -4254,7 +4254,7 @@ module Amazonka.EC2.Types
     networkInfo_networkPerformance,
 
     -- * NetworkInsightsAccessScope
-    NetworkInsightsAccessScope (..),
+    NetworkInsightsAccessScope,
     newNetworkInsightsAccessScope,
     networkInsightsAccessScope_createdDate,
     networkInsightsAccessScope_networkInsightsAccessScopeArn,
@@ -4263,7 +4263,7 @@ module Amazonka.EC2.Types
     networkInsightsAccessScope_updatedDate,
 
     -- * NetworkInsightsAccessScopeAnalysis
-    NetworkInsightsAccessScopeAnalysis (..),
+    NetworkInsightsAccessScopeAnalysis,
     newNetworkInsightsAccessScopeAnalysis,
     networkInsightsAccessScopeAnalysis_analyzedEniCount,
     networkInsightsAccessScopeAnalysis_endDate,
@@ -4278,14 +4278,14 @@ module Amazonka.EC2.Types
     networkInsightsAccessScopeAnalysis_warningMessage,
 
     -- * NetworkInsightsAccessScopeContent
-    NetworkInsightsAccessScopeContent (..),
+    NetworkInsightsAccessScopeContent,
     newNetworkInsightsAccessScopeContent,
     networkInsightsAccessScopeContent_excludePaths,
     networkInsightsAccessScopeContent_matchPaths,
     networkInsightsAccessScopeContent_networkInsightsAccessScopeId,
 
     -- * NetworkInsightsAnalysis
-    NetworkInsightsAnalysis (..),
+    NetworkInsightsAnalysis,
     newNetworkInsightsAnalysis,
     networkInsightsAnalysis_additionalAccounts,
     networkInsightsAnalysis_alternatePathHints,
@@ -4305,7 +4305,7 @@ module Amazonka.EC2.Types
     networkInsightsAnalysis_warningMessage,
 
     -- * NetworkInsightsPath
-    NetworkInsightsPath (..),
+    NetworkInsightsPath,
     newNetworkInsightsPath,
     networkInsightsPath_createdDate,
     networkInsightsPath_destination,
@@ -4321,7 +4321,7 @@ module Amazonka.EC2.Types
     networkInsightsPath_tags,
 
     -- * NetworkInterface
-    NetworkInterface (..),
+    NetworkInterface,
     newNetworkInterface,
     networkInterface_association,
     networkInterface_attachment,
@@ -4351,7 +4351,7 @@ module Amazonka.EC2.Types
     networkInterface_vpcId,
 
     -- * NetworkInterfaceAssociation
-    NetworkInterfaceAssociation (..),
+    NetworkInterfaceAssociation,
     newNetworkInterfaceAssociation,
     networkInterfaceAssociation_allocationId,
     networkInterfaceAssociation_associationId,
@@ -4362,7 +4362,7 @@ module Amazonka.EC2.Types
     networkInterfaceAssociation_publicIp,
 
     -- * NetworkInterfaceAttachment
-    NetworkInterfaceAttachment (..),
+    NetworkInterfaceAttachment,
     newNetworkInterfaceAttachment,
     networkInterfaceAttachment_attachTime,
     networkInterfaceAttachment_attachmentId,
@@ -4375,30 +4375,30 @@ module Amazonka.EC2.Types
     networkInterfaceAttachment_status,
 
     -- * NetworkInterfaceAttachmentChanges
-    NetworkInterfaceAttachmentChanges (..),
+    NetworkInterfaceAttachmentChanges,
     newNetworkInterfaceAttachmentChanges,
     networkInterfaceAttachmentChanges_attachmentId,
     networkInterfaceAttachmentChanges_deleteOnTermination,
 
     -- * NetworkInterfaceCount
-    NetworkInterfaceCount (..),
+    NetworkInterfaceCount,
     newNetworkInterfaceCount,
     networkInterfaceCount_max,
     networkInterfaceCount_min,
 
     -- * NetworkInterfaceCountRequest
-    NetworkInterfaceCountRequest (..),
+    NetworkInterfaceCountRequest,
     newNetworkInterfaceCountRequest,
     networkInterfaceCountRequest_max,
     networkInterfaceCountRequest_min,
 
     -- * NetworkInterfaceIpv6Address
-    NetworkInterfaceIpv6Address (..),
+    NetworkInterfaceIpv6Address,
     newNetworkInterfaceIpv6Address,
     networkInterfaceIpv6Address_ipv6Address,
 
     -- * NetworkInterfacePermission
-    NetworkInterfacePermission (..),
+    NetworkInterfacePermission,
     newNetworkInterfacePermission,
     networkInterfacePermission_awsAccountId,
     networkInterfacePermission_awsService,
@@ -4408,13 +4408,13 @@ module Amazonka.EC2.Types
     networkInterfacePermission_permissionState,
 
     -- * NetworkInterfacePermissionState
-    NetworkInterfacePermissionState (..),
+    NetworkInterfacePermissionState,
     newNetworkInterfacePermissionState,
     networkInterfacePermissionState_state,
     networkInterfacePermissionState_statusMessage,
 
     -- * NetworkInterfacePrivateIpAddress
-    NetworkInterfacePrivateIpAddress (..),
+    NetworkInterfacePrivateIpAddress,
     newNetworkInterfacePrivateIpAddress,
     networkInterfacePrivateIpAddress_association,
     networkInterfacePrivateIpAddress_primary,
@@ -4422,13 +4422,13 @@ module Amazonka.EC2.Types
     networkInterfacePrivateIpAddress_privateIpAddress,
 
     -- * NewDhcpConfiguration
-    NewDhcpConfiguration (..),
+    NewDhcpConfiguration,
     newNewDhcpConfiguration,
     newDhcpConfiguration_key,
     newDhcpConfiguration_values,
 
     -- * OidcOptions
-    OidcOptions (..),
+    OidcOptions,
     newOidcOptions,
     oidcOptions_authorizationEndpoint,
     oidcOptions_clientId,
@@ -4439,7 +4439,7 @@ module Amazonka.EC2.Types
     oidcOptions_userInfoEndpoint,
 
     -- * OnDemandOptions
-    OnDemandOptions (..),
+    OnDemandOptions,
     newOnDemandOptions,
     onDemandOptions_allocationStrategy,
     onDemandOptions_capacityReservationOptions,
@@ -4449,7 +4449,7 @@ module Amazonka.EC2.Types
     onDemandOptions_singleInstanceType,
 
     -- * OnDemandOptionsRequest
-    OnDemandOptionsRequest (..),
+    OnDemandOptionsRequest,
     newOnDemandOptionsRequest,
     onDemandOptionsRequest_allocationStrategy,
     onDemandOptionsRequest_capacityReservationOptions,
@@ -4459,7 +4459,7 @@ module Amazonka.EC2.Types
     onDemandOptionsRequest_singleInstanceType,
 
     -- * PacketHeaderStatement
-    PacketHeaderStatement (..),
+    PacketHeaderStatement,
     newPacketHeaderStatement,
     packetHeaderStatement_destinationAddresses,
     packetHeaderStatement_destinationPorts,
@@ -4470,7 +4470,7 @@ module Amazonka.EC2.Types
     packetHeaderStatement_sourcePrefixLists,
 
     -- * PacketHeaderStatementRequest
-    PacketHeaderStatementRequest (..),
+    PacketHeaderStatementRequest,
     newPacketHeaderStatementRequest,
     packetHeaderStatementRequest_destinationAddresses,
     packetHeaderStatementRequest_destinationPorts,
@@ -4481,7 +4481,7 @@ module Amazonka.EC2.Types
     packetHeaderStatementRequest_sourcePrefixLists,
 
     -- * PathComponent
-    PathComponent (..),
+    PathComponent,
     newPathComponent,
     pathComponent_aclRule,
     pathComponent_additionalDetails,
@@ -4502,19 +4502,19 @@ module Amazonka.EC2.Types
     pathComponent_vpc,
 
     -- * PathStatement
-    PathStatement (..),
+    PathStatement,
     newPathStatement,
     pathStatement_packetHeaderStatement,
     pathStatement_resourceStatement,
 
     -- * PathStatementRequest
-    PathStatementRequest (..),
+    PathStatementRequest,
     newPathStatementRequest,
     pathStatementRequest_packetHeaderStatement,
     pathStatementRequest_resourceStatement,
 
     -- * PciId
-    PciId (..),
+    PciId,
     newPciId,
     pciId_deviceId,
     pciId_subsystemId,
@@ -4522,27 +4522,27 @@ module Amazonka.EC2.Types
     pciId_vendorId,
 
     -- * PeeringAttachmentStatus
-    PeeringAttachmentStatus (..),
+    PeeringAttachmentStatus,
     newPeeringAttachmentStatus,
     peeringAttachmentStatus_code,
     peeringAttachmentStatus_message,
 
     -- * PeeringConnectionOptions
-    PeeringConnectionOptions (..),
+    PeeringConnectionOptions,
     newPeeringConnectionOptions,
     peeringConnectionOptions_allowDnsResolutionFromRemoteVpc,
     peeringConnectionOptions_allowEgressFromLocalClassicLinkToRemoteVpc,
     peeringConnectionOptions_allowEgressFromLocalVpcToRemoteClassicLink,
 
     -- * PeeringConnectionOptionsRequest
-    PeeringConnectionOptionsRequest (..),
+    PeeringConnectionOptionsRequest,
     newPeeringConnectionOptionsRequest,
     peeringConnectionOptionsRequest_allowDnsResolutionFromRemoteVpc,
     peeringConnectionOptionsRequest_allowEgressFromLocalClassicLinkToRemoteVpc,
     peeringConnectionOptionsRequest_allowEgressFromLocalVpcToRemoteClassicLink,
 
     -- * PeeringTgwInfo
-    PeeringTgwInfo (..),
+    PeeringTgwInfo,
     newPeeringTgwInfo,
     peeringTgwInfo_coreNetworkId,
     peeringTgwInfo_ownerId,
@@ -4550,67 +4550,67 @@ module Amazonka.EC2.Types
     peeringTgwInfo_transitGatewayId,
 
     -- * Phase1DHGroupNumbersListValue
-    Phase1DHGroupNumbersListValue (..),
+    Phase1DHGroupNumbersListValue,
     newPhase1DHGroupNumbersListValue,
     phase1DHGroupNumbersListValue_value,
 
     -- * Phase1DHGroupNumbersRequestListValue
-    Phase1DHGroupNumbersRequestListValue (..),
+    Phase1DHGroupNumbersRequestListValue,
     newPhase1DHGroupNumbersRequestListValue,
     phase1DHGroupNumbersRequestListValue_value,
 
     -- * Phase1EncryptionAlgorithmsListValue
-    Phase1EncryptionAlgorithmsListValue (..),
+    Phase1EncryptionAlgorithmsListValue,
     newPhase1EncryptionAlgorithmsListValue,
     phase1EncryptionAlgorithmsListValue_value,
 
     -- * Phase1EncryptionAlgorithmsRequestListValue
-    Phase1EncryptionAlgorithmsRequestListValue (..),
+    Phase1EncryptionAlgorithmsRequestListValue,
     newPhase1EncryptionAlgorithmsRequestListValue,
     phase1EncryptionAlgorithmsRequestListValue_value,
 
     -- * Phase1IntegrityAlgorithmsListValue
-    Phase1IntegrityAlgorithmsListValue (..),
+    Phase1IntegrityAlgorithmsListValue,
     newPhase1IntegrityAlgorithmsListValue,
     phase1IntegrityAlgorithmsListValue_value,
 
     -- * Phase1IntegrityAlgorithmsRequestListValue
-    Phase1IntegrityAlgorithmsRequestListValue (..),
+    Phase1IntegrityAlgorithmsRequestListValue,
     newPhase1IntegrityAlgorithmsRequestListValue,
     phase1IntegrityAlgorithmsRequestListValue_value,
 
     -- * Phase2DHGroupNumbersListValue
-    Phase2DHGroupNumbersListValue (..),
+    Phase2DHGroupNumbersListValue,
     newPhase2DHGroupNumbersListValue,
     phase2DHGroupNumbersListValue_value,
 
     -- * Phase2DHGroupNumbersRequestListValue
-    Phase2DHGroupNumbersRequestListValue (..),
+    Phase2DHGroupNumbersRequestListValue,
     newPhase2DHGroupNumbersRequestListValue,
     phase2DHGroupNumbersRequestListValue_value,
 
     -- * Phase2EncryptionAlgorithmsListValue
-    Phase2EncryptionAlgorithmsListValue (..),
+    Phase2EncryptionAlgorithmsListValue,
     newPhase2EncryptionAlgorithmsListValue,
     phase2EncryptionAlgorithmsListValue_value,
 
     -- * Phase2EncryptionAlgorithmsRequestListValue
-    Phase2EncryptionAlgorithmsRequestListValue (..),
+    Phase2EncryptionAlgorithmsRequestListValue,
     newPhase2EncryptionAlgorithmsRequestListValue,
     phase2EncryptionAlgorithmsRequestListValue_value,
 
     -- * Phase2IntegrityAlgorithmsListValue
-    Phase2IntegrityAlgorithmsListValue (..),
+    Phase2IntegrityAlgorithmsListValue,
     newPhase2IntegrityAlgorithmsListValue,
     phase2IntegrityAlgorithmsListValue_value,
 
     -- * Phase2IntegrityAlgorithmsRequestListValue
-    Phase2IntegrityAlgorithmsRequestListValue (..),
+    Phase2IntegrityAlgorithmsRequestListValue,
     newPhase2IntegrityAlgorithmsRequestListValue,
     phase2IntegrityAlgorithmsRequestListValue_value,
 
     -- * Placement
-    Placement (..),
+    Placement,
     newPlacement,
     placement_affinity,
     placement_availabilityZone,
@@ -4623,7 +4623,7 @@ module Amazonka.EC2.Types
     placement_tenancy,
 
     -- * PlacementGroup
-    PlacementGroup (..),
+    PlacementGroup,
     newPlacementGroup,
     placementGroup_groupArn,
     placementGroup_groupId,
@@ -4635,53 +4635,53 @@ module Amazonka.EC2.Types
     placementGroup_tags,
 
     -- * PlacementGroupInfo
-    PlacementGroupInfo (..),
+    PlacementGroupInfo,
     newPlacementGroupInfo,
     placementGroupInfo_supportedStrategies,
 
     -- * PlacementResponse
-    PlacementResponse (..),
+    PlacementResponse,
     newPlacementResponse,
     placementResponse_groupName,
 
     -- * PoolCidrBlock
-    PoolCidrBlock (..),
+    PoolCidrBlock,
     newPoolCidrBlock,
     poolCidrBlock_cidr,
 
     -- * PortRange
-    PortRange (..),
+    PortRange,
     newPortRange,
     portRange_from,
     portRange_to,
 
     -- * PrefixList
-    PrefixList (..),
+    PrefixList,
     newPrefixList,
     prefixList_cidrs,
     prefixList_prefixListId,
     prefixList_prefixListName,
 
     -- * PrefixListAssociation
-    PrefixListAssociation (..),
+    PrefixListAssociation,
     newPrefixListAssociation,
     prefixListAssociation_resourceId,
     prefixListAssociation_resourceOwner,
 
     -- * PrefixListEntry
-    PrefixListEntry (..),
+    PrefixListEntry,
     newPrefixListEntry,
     prefixListEntry_cidr,
     prefixListEntry_description,
 
     -- * PrefixListId
-    PrefixListId (..),
+    PrefixListId,
     newPrefixListId,
     prefixListId_description,
     prefixListId_prefixListId,
 
     -- * PriceSchedule
-    PriceSchedule (..),
+    PriceSchedule,
     newPriceSchedule,
     priceSchedule_active,
     priceSchedule_currencyCode,
@@ -4689,31 +4689,31 @@ module Amazonka.EC2.Types
     priceSchedule_term,
 
     -- * PriceScheduleSpecification
-    PriceScheduleSpecification (..),
+    PriceScheduleSpecification,
     newPriceScheduleSpecification,
     priceScheduleSpecification_currencyCode,
     priceScheduleSpecification_price,
     priceScheduleSpecification_term,
 
     -- * PricingDetail
-    PricingDetail (..),
+    PricingDetail,
     newPricingDetail,
     pricingDetail_count,
     pricingDetail_price,
 
     -- * PrincipalIdFormat
-    PrincipalIdFormat (..),
+    PrincipalIdFormat,
     newPrincipalIdFormat,
     principalIdFormat_arn,
     principalIdFormat_statuses,
 
     -- * PrivateDnsDetails
-    PrivateDnsDetails (..),
+    PrivateDnsDetails,
     newPrivateDnsDetails,
     privateDnsDetails_privateDnsName,
 
     -- * PrivateDnsNameConfiguration
-    PrivateDnsNameConfiguration (..),
+    PrivateDnsNameConfiguration,
     newPrivateDnsNameConfiguration,
     privateDnsNameConfiguration_name,
     privateDnsNameConfiguration_state,
@@ -4721,51 +4721,51 @@ module Amazonka.EC2.Types
     privateDnsNameConfiguration_value,
 
     -- * PrivateDnsNameOptionsOnLaunch
-    PrivateDnsNameOptionsOnLaunch (..),
+    PrivateDnsNameOptionsOnLaunch,
     newPrivateDnsNameOptionsOnLaunch,
     privateDnsNameOptionsOnLaunch_enableResourceNameDnsAAAARecord,
     privateDnsNameOptionsOnLaunch_enableResourceNameDnsARecord,
     privateDnsNameOptionsOnLaunch_hostnameType,
 
     -- * PrivateDnsNameOptionsRequest
-    PrivateDnsNameOptionsRequest (..),
+    PrivateDnsNameOptionsRequest,
     newPrivateDnsNameOptionsRequest,
     privateDnsNameOptionsRequest_enableResourceNameDnsAAAARecord,
     privateDnsNameOptionsRequest_enableResourceNameDnsARecord,
     privateDnsNameOptionsRequest_hostnameType,
 
     -- * PrivateDnsNameOptionsResponse
-    PrivateDnsNameOptionsResponse (..),
+    PrivateDnsNameOptionsResponse,
     newPrivateDnsNameOptionsResponse,
     privateDnsNameOptionsResponse_enableResourceNameDnsAAAARecord,
     privateDnsNameOptionsResponse_enableResourceNameDnsARecord,
     privateDnsNameOptionsResponse_hostnameType,
 
     -- * PrivateIpAddressSpecification
-    PrivateIpAddressSpecification (..),
+    PrivateIpAddressSpecification,
     newPrivateIpAddressSpecification,
     privateIpAddressSpecification_primary,
     privateIpAddressSpecification_privateIpAddress,
 
     -- * ProcessorInfo
-    ProcessorInfo (..),
+    ProcessorInfo,
     newProcessorInfo,
     processorInfo_supportedArchitectures,
     processorInfo_sustainedClockSpeedInGhz,
 
     -- * ProductCode
-    ProductCode (..),
+    ProductCode,
     newProductCode,
     productCode_productCodeId,
     productCode_productCodeType,
 
     -- * PropagatingVgw
-    PropagatingVgw (..),
+    PropagatingVgw,
     newPropagatingVgw,
     propagatingVgw_gatewayId,
 
     -- * ProvisionedBandwidth
-    ProvisionedBandwidth (..),
+    ProvisionedBandwidth,
     newProvisionedBandwidth,
     provisionedBandwidth_provisionTime,
     provisionedBandwidth_provisioned,
@@ -4774,14 +4774,14 @@ module Amazonka.EC2.Types
     provisionedBandwidth_status,
 
     -- * PtrUpdateStatus
-    PtrUpdateStatus (..),
+    PtrUpdateStatus,
     newPtrUpdateStatus,
     ptrUpdateStatus_reason,
     ptrUpdateStatus_status,
     ptrUpdateStatus_value,
 
     -- * PublicIpv4Pool
-    PublicIpv4Pool (..),
+    PublicIpv4Pool,
     newPublicIpv4Pool,
     publicIpv4Pool_description,
     publicIpv4Pool_networkBorderGroup,
@@ -4792,7 +4792,7 @@ module Amazonka.EC2.Types
     publicIpv4Pool_totalAvailableAddressCount,
 
     -- * PublicIpv4PoolRange
-    PublicIpv4PoolRange (..),
+    PublicIpv4PoolRange,
     newPublicIpv4PoolRange,
     publicIpv4PoolRange_addressCount,
     publicIpv4PoolRange_availableAddressCount,
@@ -4800,7 +4800,7 @@ module Amazonka.EC2.Types
     publicIpv4PoolRange_lastAddress,
 
     -- * Purchase
-    Purchase (..),
+    Purchase,
     newPurchase,
     purchase_currencyCode,
     purchase_duration,
@@ -4812,19 +4812,19 @@ module Amazonka.EC2.Types
     purchase_upfrontPrice,
 
     -- * PurchaseRequest
-    PurchaseRequest (..),
+    PurchaseRequest,
     newPurchaseRequest,
     purchaseRequest_instanceCount,
     purchaseRequest_purchaseToken,
 
     -- * RecurringCharge
-    RecurringCharge (..),
+    RecurringCharge,
     newRecurringCharge,
     recurringCharge_amount,
     recurringCharge_frequency,
 
     -- * ReferencedSecurityGroup
-    ReferencedSecurityGroup (..),
+    ReferencedSecurityGroup,
     newReferencedSecurityGroup,
     referencedSecurityGroup_groupId,
     referencedSecurityGroup_peeringStatus,
@@ -4833,30 +4833,30 @@ module Amazonka.EC2.Types
     referencedSecurityGroup_vpcPeeringConnectionId,
 
     -- * RegionInfo
-    RegionInfo (..),
+    RegionInfo,
     newRegionInfo,
     regionInfo_endpoint,
     regionInfo_optInStatus,
     regionInfo_regionName,
 
     -- * RegisterInstanceTagAttributeRequest
-    RegisterInstanceTagAttributeRequest (..),
+    RegisterInstanceTagAttributeRequest,
     newRegisterInstanceTagAttributeRequest,
     registerInstanceTagAttributeRequest_includeAllTagsOfInstance,
     registerInstanceTagAttributeRequest_instanceTagKeys,
 
     -- * RemoveIpamOperatingRegion
-    RemoveIpamOperatingRegion (..),
+    RemoveIpamOperatingRegion,
     newRemoveIpamOperatingRegion,
     removeIpamOperatingRegion_regionName,
 
     -- * RemovePrefixListEntry
-    RemovePrefixListEntry (..),
+    RemovePrefixListEntry,
     newRemovePrefixListEntry,
     removePrefixListEntry_cidr,
 
     -- * ReplaceRootVolumeTask
-    ReplaceRootVolumeTask (..),
+    ReplaceRootVolumeTask,
     newReplaceRootVolumeTask,
     replaceRootVolumeTask_completeTime,
     replaceRootVolumeTask_deleteReplacedRootVolume,
@@ -4869,13 +4869,13 @@ module Amazonka.EC2.Types
     replaceRootVolumeTask_taskState,
 
     -- * RequestIpamResourceTag
-    RequestIpamResourceTag (..),
+    RequestIpamResourceTag,
     newRequestIpamResourceTag,
     requestIpamResourceTag_key,
     requestIpamResourceTag_value,
 
     -- * RequestLaunchTemplateData
-    RequestLaunchTemplateData (..),
+    RequestLaunchTemplateData,
     newRequestLaunchTemplateData,
     requestLaunchTemplateData_blockDeviceMappings,
     requestLaunchTemplateData_capacityReservationSpecification,
@@ -4910,7 +4910,7 @@ module Amazonka.EC2.Types
     requestLaunchTemplateData_userData,
 
     -- * RequestSpotLaunchSpecification
-    RequestSpotLaunchSpecification (..),
+    RequestSpotLaunchSpecification,
     newRequestSpotLaunchSpecification,
     requestSpotLaunchSpecification_addressingType,
     requestSpotLaunchSpecification_blockDeviceMappings,
@@ -4930,7 +4930,7 @@ module Amazonka.EC2.Types
     requestSpotLaunchSpecification_userData,
 
     -- * Reservation
-    Reservation (..),
+    Reservation,
     newReservation,
     reservation_groups,
     reservation_instances,
@@ -4939,7 +4939,7 @@ module Amazonka.EC2.Types
     reservation_ownerId,
 
     -- * ReservationFleetInstanceSpecification
-    ReservationFleetInstanceSpecification (..),
+    ReservationFleetInstanceSpecification,
     newReservationFleetInstanceSpecification,
     reservationFleetInstanceSpecification_availabilityZone,
     reservationFleetInstanceSpecification_availabilityZoneId,
@@ -4950,26 +4950,26 @@ module Amazonka.EC2.Types
     reservationFleetInstanceSpecification_weight,
 
     -- * ReservationValue
-    ReservationValue (..),
+    ReservationValue,
     newReservationValue,
     reservationValue_hourlyPrice,
     reservationValue_remainingTotalValue,
     reservationValue_remainingUpfrontValue,
 
     -- * ReservedInstanceLimitPrice
-    ReservedInstanceLimitPrice (..),
+    ReservedInstanceLimitPrice,
     newReservedInstanceLimitPrice,
     reservedInstanceLimitPrice_amount,
     reservedInstanceLimitPrice_currencyCode,
 
     -- * ReservedInstanceReservationValue
-    ReservedInstanceReservationValue (..),
+    ReservedInstanceReservationValue,
     newReservedInstanceReservationValue,
     reservedInstanceReservationValue_reservationValue,
     reservedInstanceReservationValue_reservedInstanceId,
 
     -- * ReservedInstances
-    ReservedInstances (..),
+    ReservedInstances,
     newReservedInstances,
     reservedInstances_availabilityZone,
     reservedInstances_currencyCode,
@@ -4991,7 +4991,7 @@ module Amazonka.EC2.Types
     reservedInstances_usagePrice,
 
     -- * ReservedInstancesConfiguration
-    ReservedInstancesConfiguration (..),
+    ReservedInstancesConfiguration,
     newReservedInstancesConfiguration,
     reservedInstancesConfiguration_availabilityZone,
     reservedInstancesConfiguration_instanceCount,
@@ -5000,12 +5000,12 @@ module Amazonka.EC2.Types
     reservedInstancesConfiguration_scope,
 
     -- * ReservedInstancesId
-    ReservedInstancesId (..),
+    ReservedInstancesId,
     newReservedInstancesId,
     reservedInstancesId_reservedInstancesId,
 
     -- * ReservedInstancesListing
-    ReservedInstancesListing (..),
+    ReservedInstancesListing,
     newReservedInstancesListing,
     reservedInstancesListing_clientToken,
     reservedInstancesListing_createDate,
@@ -5019,7 +5019,7 @@ module Amazonka.EC2.Types
     reservedInstancesListing_updateDate,
 
     -- * ReservedInstancesModification
-    ReservedInstancesModification (..),
+    ReservedInstancesModification,
     newReservedInstancesModification,
     reservedInstancesModification_clientToken,
     reservedInstancesModification_createDate,
@@ -5032,13 +5032,13 @@ module Amazonka.EC2.Types
     reservedInstancesModification_updateDate,
 
     -- * ReservedInstancesModificationResult
-    ReservedInstancesModificationResult (..),
+    ReservedInstancesModificationResult,
     newReservedInstancesModificationResult,
     reservedInstancesModificationResult_reservedInstancesId,
     reservedInstancesModificationResult_targetConfiguration,
 
     -- * ReservedInstancesOffering
-    ReservedInstancesOffering (..),
+    ReservedInstancesOffering,
     newReservedInstancesOffering,
     reservedInstancesOffering_availabilityZone,
     reservedInstancesOffering_currencyCode,
@@ -5057,25 +5057,25 @@ module Amazonka.EC2.Types
     reservedInstancesOffering_usagePrice,
 
     -- * ResourceStatement
-    ResourceStatement (..),
+    ResourceStatement,
     newResourceStatement,
     resourceStatement_resourceTypes,
     resourceStatement_resources,
 
     -- * ResourceStatementRequest
-    ResourceStatementRequest (..),
+    ResourceStatementRequest,
     newResourceStatementRequest,
     resourceStatementRequest_resourceTypes,
     resourceStatementRequest_resources,
 
     -- * ResponseError
-    ResponseError (..),
+    ResponseError,
     newResponseError,
     responseError_code,
     responseError_message,
 
     -- * ResponseLaunchTemplateData
-    ResponseLaunchTemplateData (..),
+    ResponseLaunchTemplateData,
     newResponseLaunchTemplateData,
     responseLaunchTemplateData_blockDeviceMappings,
     responseLaunchTemplateData_capacityReservationSpecification,
@@ -5110,7 +5110,7 @@ module Amazonka.EC2.Types
     responseLaunchTemplateData_userData,
 
     -- * Route
-    Route (..),
+    Route,
     newRoute,
     route_carrierGatewayId,
     route_coreNetworkArn,
@@ -5130,7 +5130,7 @@ module Amazonka.EC2.Types
     route_vpcPeeringConnectionId,
 
     -- * RouteTable
-    RouteTable (..),
+    RouteTable,
     newRouteTable,
     routeTable_associations,
     routeTable_ownerId,
@@ -5141,7 +5141,7 @@ module Amazonka.EC2.Types
     routeTable_vpcId,
 
     -- * RouteTableAssociation
-    RouteTableAssociation (..),
+    RouteTableAssociation,
     newRouteTableAssociation,
     routeTableAssociation_associationState,
     routeTableAssociation_gatewayId,
@@ -5151,24 +5151,24 @@ module Amazonka.EC2.Types
     routeTableAssociation_subnetId,
 
     -- * RouteTableAssociationState
-    RouteTableAssociationState (..),
+    RouteTableAssociationState,
     newRouteTableAssociationState,
     routeTableAssociationState_state,
     routeTableAssociationState_statusMessage,
 
     -- * RunInstancesMonitoringEnabled
-    RunInstancesMonitoringEnabled (..),
+    RunInstancesMonitoringEnabled,
     newRunInstancesMonitoringEnabled,
     runInstancesMonitoringEnabled_enabled,
 
     -- * S3ObjectTag
-    S3ObjectTag (..),
+    S3ObjectTag,
     newS3ObjectTag,
     s3ObjectTag_key,
     s3ObjectTag_value,
 
     -- * S3Storage
-    S3Storage (..),
+    S3Storage,
     newS3Storage,
     s3Storage_aWSAccessKeyId,
     s3Storage_bucket,
@@ -5177,7 +5177,7 @@ module Amazonka.EC2.Types
     s3Storage_uploadPolicySignature,
 
     -- * ScheduledInstance
-    ScheduledInstance (..),
+    ScheduledInstance,
     newScheduledInstance,
     scheduledInstance_availabilityZone,
     scheduledInstance_createDate,
@@ -5196,7 +5196,7 @@ module Amazonka.EC2.Types
     scheduledInstance_totalScheduledInstanceHours,
 
     -- * ScheduledInstanceAvailability
-    ScheduledInstanceAvailability (..),
+    ScheduledInstanceAvailability,
     newScheduledInstanceAvailability,
     scheduledInstanceAvailability_availabilityZone,
     scheduledInstanceAvailability_availableInstanceCount,
@@ -5213,7 +5213,7 @@ module Amazonka.EC2.Types
     scheduledInstanceAvailability_totalScheduledInstanceHours,
 
     -- * ScheduledInstanceRecurrence
-    ScheduledInstanceRecurrence (..),
+    ScheduledInstanceRecurrence,
     newScheduledInstanceRecurrence,
     scheduledInstanceRecurrence_frequency,
     scheduledInstanceRecurrence_interval,
@@ -5222,7 +5222,7 @@ module Amazonka.EC2.Types
     scheduledInstanceRecurrence_occurrenceUnit,
 
     -- * ScheduledInstanceRecurrenceRequest
-    ScheduledInstanceRecurrenceRequest (..),
+    ScheduledInstanceRecurrenceRequest,
     newScheduledInstanceRecurrenceRequest,
     scheduledInstanceRecurrenceRequest_frequency,
     scheduledInstanceRecurrenceRequest_interval,
@@ -5231,7 +5231,7 @@ module Amazonka.EC2.Types
     scheduledInstanceRecurrenceRequest_occurrenceUnit,
 
     -- * ScheduledInstancesBlockDeviceMapping
-    ScheduledInstancesBlockDeviceMapping (..),
+    ScheduledInstancesBlockDeviceMapping,
     newScheduledInstancesBlockDeviceMapping,
     scheduledInstancesBlockDeviceMapping_deviceName,
     scheduledInstancesBlockDeviceMapping_ebs,
@@ -5239,7 +5239,7 @@ module Amazonka.EC2.Types
     scheduledInstancesBlockDeviceMapping_virtualName,
 
     -- * ScheduledInstancesEbs
-    ScheduledInstancesEbs (..),
+    ScheduledInstancesEbs,
     newScheduledInstancesEbs,
     scheduledInstancesEbs_deleteOnTermination,
     scheduledInstancesEbs_encrypted,
@@ -5249,18 +5249,18 @@ module Amazonka.EC2.Types
     scheduledInstancesEbs_volumeType,
 
     -- * ScheduledInstancesIamInstanceProfile
-    ScheduledInstancesIamInstanceProfile (..),
+    ScheduledInstancesIamInstanceProfile,
     newScheduledInstancesIamInstanceProfile,
     scheduledInstancesIamInstanceProfile_arn,
     scheduledInstancesIamInstanceProfile_name,
 
     -- * ScheduledInstancesIpv6Address
-    ScheduledInstancesIpv6Address (..),
+    ScheduledInstancesIpv6Address,
     newScheduledInstancesIpv6Address,
     scheduledInstancesIpv6Address_ipv6Address,
 
     -- * ScheduledInstancesLaunchSpecification
-    ScheduledInstancesLaunchSpecification (..),
+    ScheduledInstancesLaunchSpecification,
     newScheduledInstancesLaunchSpecification,
     scheduledInstancesLaunchSpecification_blockDeviceMappings,
     scheduledInstancesLaunchSpecification_ebsOptimized,
@@ -5278,12 +5278,12 @@ module Amazonka.EC2.Types
     scheduledInstancesLaunchSpecification_imageId,
 
     -- * ScheduledInstancesMonitoring
-    ScheduledInstancesMonitoring (..),
+    ScheduledInstancesMonitoring,
     newScheduledInstancesMonitoring,
     scheduledInstancesMonitoring_enabled,
 
     -- * ScheduledInstancesNetworkInterface
-    ScheduledInstancesNetworkInterface (..),
+    ScheduledInstancesNetworkInterface,
     newScheduledInstancesNetworkInterface,
     scheduledInstancesNetworkInterface_associatePublicIpAddress,
     scheduledInstancesNetworkInterface_deleteOnTermination,
@@ -5299,19 +5299,19 @@ module Amazonka.EC2.Types
     scheduledInstancesNetworkInterface_subnetId,
 
     -- * ScheduledInstancesPlacement
-    ScheduledInstancesPlacement (..),
+    ScheduledInstancesPlacement,
     newScheduledInstancesPlacement,
     scheduledInstancesPlacement_availabilityZone,
     scheduledInstancesPlacement_groupName,
 
     -- * ScheduledInstancesPrivateIpAddressConfig
-    ScheduledInstancesPrivateIpAddressConfig (..),
+    ScheduledInstancesPrivateIpAddressConfig,
     newScheduledInstancesPrivateIpAddressConfig,
     scheduledInstancesPrivateIpAddressConfig_primary,
     scheduledInstancesPrivateIpAddressConfig_privateIpAddress,
 
     -- * SecurityGroup
-    SecurityGroup (..),
+    SecurityGroup,
     newSecurityGroup,
     securityGroup_ipPermissions,
     securityGroup_ipPermissionsEgress,
@@ -5323,20 +5323,20 @@ module Amazonka.EC2.Types
     securityGroup_description,
 
     -- * SecurityGroupIdentifier
-    SecurityGroupIdentifier (..),
+    SecurityGroupIdentifier,
     newSecurityGroupIdentifier,
     securityGroupIdentifier_groupId,
     securityGroupIdentifier_groupName,
 
     -- * SecurityGroupReference
-    SecurityGroupReference (..),
+    SecurityGroupReference,
     newSecurityGroupReference,
     securityGroupReference_groupId,
     securityGroupReference_referencingVpcId,
     securityGroupReference_vpcPeeringConnectionId,
 
     -- * SecurityGroupRule
-    SecurityGroupRule (..),
+    SecurityGroupRule,
     newSecurityGroupRule,
     securityGroupRule_cidrIpv4,
     securityGroupRule_cidrIpv6,
@@ -5353,13 +5353,13 @@ module Amazonka.EC2.Types
     securityGroupRule_toPort,
 
     -- * SecurityGroupRuleDescription
-    SecurityGroupRuleDescription (..),
+    SecurityGroupRuleDescription,
     newSecurityGroupRuleDescription,
     securityGroupRuleDescription_description,
     securityGroupRuleDescription_securityGroupRuleId,
 
     -- * SecurityGroupRuleRequest
-    SecurityGroupRuleRequest (..),
+    SecurityGroupRuleRequest,
     newSecurityGroupRuleRequest,
     securityGroupRuleRequest_cidrIpv4,
     securityGroupRuleRequest_cidrIpv6,
@@ -5371,13 +5371,13 @@ module Amazonka.EC2.Types
     securityGroupRuleRequest_toPort,
 
     -- * SecurityGroupRuleUpdate
-    SecurityGroupRuleUpdate (..),
+    SecurityGroupRuleUpdate,
     newSecurityGroupRuleUpdate,
     securityGroupRuleUpdate_securityGroupRule,
     securityGroupRuleUpdate_securityGroupRuleId,
 
     -- * ServiceConfiguration
-    ServiceConfiguration (..),
+    ServiceConfiguration,
     newServiceConfiguration,
     serviceConfiguration_acceptanceRequired,
     serviceConfiguration_availabilityZones,
@@ -5396,7 +5396,7 @@ module Amazonka.EC2.Types
     serviceConfiguration_tags,
 
     -- * ServiceDetail
-    ServiceDetail (..),
+    ServiceDetail,
     newServiceDetail,
     serviceDetail_acceptanceRequired,
     serviceDetail_availabilityZones,
@@ -5415,24 +5415,24 @@ module Amazonka.EC2.Types
     serviceDetail_vpcEndpointPolicySupported,
 
     -- * ServiceTypeDetail
-    ServiceTypeDetail (..),
+    ServiceTypeDetail,
     newServiceTypeDetail,
     serviceTypeDetail_serviceType,
 
     -- * SlotDateTimeRangeRequest
-    SlotDateTimeRangeRequest (..),
+    SlotDateTimeRangeRequest,
     newSlotDateTimeRangeRequest,
     slotDateTimeRangeRequest_earliestTime,
     slotDateTimeRangeRequest_latestTime,
 
     -- * SlotStartTimeRangeRequest
-    SlotStartTimeRangeRequest (..),
+    SlotStartTimeRangeRequest,
     newSlotStartTimeRangeRequest,
     slotStartTimeRangeRequest_earliestTime,
     slotStartTimeRangeRequest_latestTime,
 
     -- * Snapshot
-    Snapshot (..),
+    Snapshot,
     newSnapshot,
     snapshot_dataEncryptionKeyId,
     snapshot_kmsKeyId,
@@ -5453,7 +5453,7 @@ module Amazonka.EC2.Types
     snapshot_encrypted,
 
     -- * SnapshotDetail
-    SnapshotDetail (..),
+    SnapshotDetail,
     newSnapshotDetail,
     snapshotDetail_description,
     snapshotDetail_deviceName,
@@ -5467,7 +5467,7 @@ module Amazonka.EC2.Types
     snapshotDetail_userBucket,
 
     -- * SnapshotDiskContainer
-    SnapshotDiskContainer (..),
+    SnapshotDiskContainer,
     newSnapshotDiskContainer,
     snapshotDiskContainer_description,
     snapshotDiskContainer_format,
@@ -5475,7 +5475,7 @@ module Amazonka.EC2.Types
     snapshotDiskContainer_userBucket,
 
     -- * SnapshotInfo
-    SnapshotInfo (..),
+    SnapshotInfo,
     newSnapshotInfo,
     snapshotInfo_description,
     snapshotInfo_encrypted,
@@ -5490,7 +5490,7 @@ module Amazonka.EC2.Types
     snapshotInfo_volumeSize,
 
     -- * SnapshotRecycleBinInfo
-    SnapshotRecycleBinInfo (..),
+    SnapshotRecycleBinInfo,
     newSnapshotRecycleBinInfo,
     snapshotRecycleBinInfo_description,
     snapshotRecycleBinInfo_recycleBinEnterTime,
@@ -5499,7 +5499,7 @@ module Amazonka.EC2.Types
     snapshotRecycleBinInfo_volumeId,
 
     -- * SnapshotTaskDetail
-    SnapshotTaskDetail (..),
+    SnapshotTaskDetail,
     newSnapshotTaskDetail,
     snapshotTaskDetail_description,
     snapshotTaskDetail_diskImageSize,
@@ -5514,7 +5514,7 @@ module Amazonka.EC2.Types
     snapshotTaskDetail_userBucket,
 
     -- * SnapshotTierStatus
-    SnapshotTierStatus (..),
+    SnapshotTierStatus,
     newSnapshotTierStatus,
     snapshotTierStatus_archivalCompleteTime,
     snapshotTierStatus_lastTieringOperationStatus,
@@ -5530,13 +5530,13 @@ module Amazonka.EC2.Types
     snapshotTierStatus_volumeId,
 
     -- * SpotCapacityRebalance
-    SpotCapacityRebalance (..),
+    SpotCapacityRebalance,
     newSpotCapacityRebalance,
     spotCapacityRebalance_replacementStrategy,
     spotCapacityRebalance_terminationDelay,
 
     -- * SpotDatafeedSubscription
-    SpotDatafeedSubscription (..),
+    SpotDatafeedSubscription,
     newSpotDatafeedSubscription,
     spotDatafeedSubscription_bucket,
     spotDatafeedSubscription_fault,
@@ -5545,7 +5545,7 @@ module Amazonka.EC2.Types
     spotDatafeedSubscription_state,
 
     -- * SpotFleetLaunchSpecification
-    SpotFleetLaunchSpecification (..),
+    SpotFleetLaunchSpecification,
     newSpotFleetLaunchSpecification,
     spotFleetLaunchSpecification_addressingType,
     spotFleetLaunchSpecification_blockDeviceMappings,
@@ -5568,12 +5568,12 @@ module Amazonka.EC2.Types
     spotFleetLaunchSpecification_weightedCapacity,
 
     -- * SpotFleetMonitoring
-    SpotFleetMonitoring (..),
+    SpotFleetMonitoring,
     newSpotFleetMonitoring,
     spotFleetMonitoring_enabled,
 
     -- * SpotFleetRequestConfig
-    SpotFleetRequestConfig (..),
+    SpotFleetRequestConfig,
     newSpotFleetRequestConfig,
     spotFleetRequestConfig_activityStatus,
     spotFleetRequestConfig_createTime,
@@ -5583,7 +5583,7 @@ module Amazonka.EC2.Types
     spotFleetRequestConfig_tags,
 
     -- * SpotFleetRequestConfigData
-    SpotFleetRequestConfigData (..),
+    SpotFleetRequestConfigData,
     newSpotFleetRequestConfigData,
     spotFleetRequestConfigData_allocationStrategy,
     spotFleetRequestConfigData_clientToken,
@@ -5613,13 +5613,13 @@ module Amazonka.EC2.Types
     spotFleetRequestConfigData_targetCapacity,
 
     -- * SpotFleetTagSpecification
-    SpotFleetTagSpecification (..),
+    SpotFleetTagSpecification,
     newSpotFleetTagSpecification,
     spotFleetTagSpecification_resourceType,
     spotFleetTagSpecification_tags,
 
     -- * SpotInstanceRequest
-    SpotInstanceRequest (..),
+    SpotInstanceRequest,
     newSpotInstanceRequest,
     spotInstanceRequest_actualBlockHourlyPrice,
     spotInstanceRequest_availabilityZoneGroup,
@@ -5642,25 +5642,25 @@ module Amazonka.EC2.Types
     spotInstanceRequest_validUntil,
 
     -- * SpotInstanceStateFault
-    SpotInstanceStateFault (..),
+    SpotInstanceStateFault,
     newSpotInstanceStateFault,
     spotInstanceStateFault_code,
     spotInstanceStateFault_message,
 
     -- * SpotInstanceStatus
-    SpotInstanceStatus (..),
+    SpotInstanceStatus,
     newSpotInstanceStatus,
     spotInstanceStatus_code,
     spotInstanceStatus_message,
     spotInstanceStatus_updateTime,
 
     -- * SpotMaintenanceStrategies
-    SpotMaintenanceStrategies (..),
+    SpotMaintenanceStrategies,
     newSpotMaintenanceStrategies,
     spotMaintenanceStrategies_capacityRebalance,
 
     -- * SpotMarketOptions
-    SpotMarketOptions (..),
+    SpotMarketOptions,
     newSpotMarketOptions,
     spotMarketOptions_blockDurationMinutes,
     spotMarketOptions_instanceInterruptionBehavior,
@@ -5669,7 +5669,7 @@ module Amazonka.EC2.Types
     spotMarketOptions_validUntil,
 
     -- * SpotOptions
-    SpotOptions (..),
+    SpotOptions,
     newSpotOptions,
     spotOptions_allocationStrategy,
     spotOptions_instanceInterruptionBehavior,
@@ -5681,7 +5681,7 @@ module Amazonka.EC2.Types
     spotOptions_singleInstanceType,
 
     -- * SpotOptionsRequest
-    SpotOptionsRequest (..),
+    SpotOptionsRequest,
     newSpotOptionsRequest,
     spotOptionsRequest_allocationStrategy,
     spotOptionsRequest_instanceInterruptionBehavior,
@@ -5693,21 +5693,21 @@ module Amazonka.EC2.Types
     spotOptionsRequest_singleInstanceType,
 
     -- * SpotPlacement
-    SpotPlacement (..),
+    SpotPlacement,
     newSpotPlacement,
     spotPlacement_availabilityZone,
     spotPlacement_groupName,
     spotPlacement_tenancy,
 
     -- * SpotPlacementScore
-    SpotPlacementScore (..),
+    SpotPlacementScore,
     newSpotPlacementScore,
     spotPlacementScore_availabilityZoneId,
     spotPlacementScore_region,
     spotPlacementScore_score,
 
     -- * SpotPrice
-    SpotPrice (..),
+    SpotPrice,
     newSpotPrice,
     spotPrice_availabilityZone,
     spotPrice_instanceType,
@@ -5716,7 +5716,7 @@ module Amazonka.EC2.Types
     spotPrice_timestamp,
 
     -- * StaleIpPermission
-    StaleIpPermission (..),
+    StaleIpPermission,
     newStaleIpPermission,
     staleIpPermission_fromPort,
     staleIpPermission_ipProtocol,
@@ -5726,7 +5726,7 @@ module Amazonka.EC2.Types
     staleIpPermission_userIdGroupPairs,
 
     -- * StaleSecurityGroup
-    StaleSecurityGroup (..),
+    StaleSecurityGroup,
     newStaleSecurityGroup,
     staleSecurityGroup_description,
     staleSecurityGroup_groupId,
@@ -5736,24 +5736,24 @@ module Amazonka.EC2.Types
     staleSecurityGroup_vpcId,
 
     -- * StateReason
-    StateReason (..),
+    StateReason,
     newStateReason,
     stateReason_code,
     stateReason_message,
 
     -- * Storage
-    Storage (..),
+    Storage,
     newStorage,
     storage_s3,
 
     -- * StorageLocation
-    StorageLocation (..),
+    StorageLocation,
     newStorageLocation,
     storageLocation_bucket,
     storageLocation_key,
 
     -- * StoreImageTaskResult
-    StoreImageTaskResult (..),
+    StoreImageTaskResult,
     newStoreImageTaskResult,
     storeImageTaskResult_amiId,
     storeImageTaskResult_bucket,
@@ -5764,7 +5764,7 @@ module Amazonka.EC2.Types
     storeImageTaskResult_taskStartTime,
 
     -- * Subnet
-    Subnet (..),
+    Subnet,
     newSubnet,
     subnet_assignIpv6AddressOnCreation,
     subnet_availabilityZoneId,
@@ -5789,19 +5789,19 @@ module Amazonka.EC2.Types
     subnet_vpcId,
 
     -- * SubnetAssociation
-    SubnetAssociation (..),
+    SubnetAssociation,
     newSubnetAssociation,
     subnetAssociation_state,
     subnetAssociation_subnetId,
 
     -- * SubnetCidrBlockState
-    SubnetCidrBlockState (..),
+    SubnetCidrBlockState,
     newSubnetCidrBlockState,
     subnetCidrBlockState_state,
     subnetCidrBlockState_statusMessage,
 
     -- * SubnetCidrReservation
-    SubnetCidrReservation (..),
+    SubnetCidrReservation,
     newSubnetCidrReservation,
     subnetCidrReservation_cidr,
     subnetCidrReservation_description,
@@ -5812,14 +5812,14 @@ module Amazonka.EC2.Types
     subnetCidrReservation_tags,
 
     -- * SubnetIpv6CidrBlockAssociation
-    SubnetIpv6CidrBlockAssociation (..),
+    SubnetIpv6CidrBlockAssociation,
     newSubnetIpv6CidrBlockAssociation,
     subnetIpv6CidrBlockAssociation_associationId,
     subnetIpv6CidrBlockAssociation_ipv6CidrBlock,
     subnetIpv6CidrBlockAssociation_ipv6CidrBlockState,
 
     -- * Subscription
-    Subscription (..),
+    Subscription,
     newSubscription,
     subscription_destination,
     subscription_metric,
@@ -5828,23 +5828,23 @@ module Amazonka.EC2.Types
     subscription_statistic,
 
     -- * SuccessfulInstanceCreditSpecificationItem
-    SuccessfulInstanceCreditSpecificationItem (..),
+    SuccessfulInstanceCreditSpecificationItem,
     newSuccessfulInstanceCreditSpecificationItem,
     successfulInstanceCreditSpecificationItem_instanceId,
 
     -- * SuccessfulQueuedPurchaseDeletion
-    SuccessfulQueuedPurchaseDeletion (..),
+    SuccessfulQueuedPurchaseDeletion,
     newSuccessfulQueuedPurchaseDeletion,
     successfulQueuedPurchaseDeletion_reservedInstancesId,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,
 
     -- * TagDescription
-    TagDescription (..),
+    TagDescription,
     newTagDescription,
     tagDescription_resourceId,
     tagDescription_resourceType,
@@ -5852,13 +5852,13 @@ module Amazonka.EC2.Types
     tagDescription_value,
 
     -- * TagSpecification
-    TagSpecification (..),
+    TagSpecification,
     newTagSpecification,
     tagSpecification_resourceType,
     tagSpecification_tags,
 
     -- * TargetCapacitySpecification
-    TargetCapacitySpecification (..),
+    TargetCapacitySpecification,
     newTargetCapacitySpecification,
     targetCapacitySpecification_defaultTargetCapacityType,
     targetCapacitySpecification_onDemandTargetCapacity,
@@ -5867,7 +5867,7 @@ module Amazonka.EC2.Types
     targetCapacitySpecification_totalTargetCapacity,
 
     -- * TargetCapacitySpecificationRequest
-    TargetCapacitySpecificationRequest (..),
+    TargetCapacitySpecificationRequest,
     newTargetCapacitySpecificationRequest,
     targetCapacitySpecificationRequest_defaultTargetCapacityType,
     targetCapacitySpecificationRequest_onDemandTargetCapacity,
@@ -5876,29 +5876,29 @@ module Amazonka.EC2.Types
     targetCapacitySpecificationRequest_totalTargetCapacity,
 
     -- * TargetConfiguration
-    TargetConfiguration (..),
+    TargetConfiguration,
     newTargetConfiguration,
     targetConfiguration_instanceCount,
     targetConfiguration_offeringId,
 
     -- * TargetConfigurationRequest
-    TargetConfigurationRequest (..),
+    TargetConfigurationRequest,
     newTargetConfigurationRequest,
     targetConfigurationRequest_instanceCount,
     targetConfigurationRequest_offeringId,
 
     -- * TargetGroup
-    TargetGroup (..),
+    TargetGroup,
     newTargetGroup,
     targetGroup_arn,
 
     -- * TargetGroupsConfig
-    TargetGroupsConfig (..),
+    TargetGroupsConfig,
     newTargetGroupsConfig,
     targetGroupsConfig_targetGroups,
 
     -- * TargetNetwork
-    TargetNetwork (..),
+    TargetNetwork,
     newTargetNetwork,
     targetNetwork_associationId,
     targetNetwork_clientVpnEndpointId,
@@ -5908,42 +5908,42 @@ module Amazonka.EC2.Types
     targetNetwork_vpcId,
 
     -- * TargetReservationValue
-    TargetReservationValue (..),
+    TargetReservationValue,
     newTargetReservationValue,
     targetReservationValue_reservationValue,
     targetReservationValue_targetConfiguration,
 
     -- * TerminateConnectionStatus
-    TerminateConnectionStatus (..),
+    TerminateConnectionStatus,
     newTerminateConnectionStatus,
     terminateConnectionStatus_connectionId,
     terminateConnectionStatus_currentStatus,
     terminateConnectionStatus_previousStatus,
 
     -- * ThroughResourcesStatement
-    ThroughResourcesStatement (..),
+    ThroughResourcesStatement,
     newThroughResourcesStatement,
     throughResourcesStatement_resourceStatement,
 
     -- * ThroughResourcesStatementRequest
-    ThroughResourcesStatementRequest (..),
+    ThroughResourcesStatementRequest,
     newThroughResourcesStatementRequest,
     throughResourcesStatementRequest_resourceStatement,
 
     -- * TotalLocalStorageGB
-    TotalLocalStorageGB (..),
+    TotalLocalStorageGB,
     newTotalLocalStorageGB,
     totalLocalStorageGB_max,
     totalLocalStorageGB_min,
 
     -- * TotalLocalStorageGBRequest
-    TotalLocalStorageGBRequest (..),
+    TotalLocalStorageGBRequest,
     newTotalLocalStorageGBRequest,
     totalLocalStorageGBRequest_max,
     totalLocalStorageGBRequest_min,
 
     -- * TrafficMirrorFilter
-    TrafficMirrorFilter (..),
+    TrafficMirrorFilter,
     newTrafficMirrorFilter,
     trafficMirrorFilter_description,
     trafficMirrorFilter_egressFilterRules,
@@ -5953,7 +5953,7 @@ module Amazonka.EC2.Types
     trafficMirrorFilter_trafficMirrorFilterId,
 
     -- * TrafficMirrorFilterRule
-    TrafficMirrorFilterRule (..),
+    TrafficMirrorFilterRule,
     newTrafficMirrorFilterRule,
     trafficMirrorFilterRule_description,
     trafficMirrorFilterRule_destinationCidrBlock,
@@ -5968,19 +5968,19 @@ module Amazonka.EC2.Types
     trafficMirrorFilterRule_trafficMirrorFilterRuleId,
 
     -- * TrafficMirrorPortRange
-    TrafficMirrorPortRange (..),
+    TrafficMirrorPortRange,
     newTrafficMirrorPortRange,
     trafficMirrorPortRange_fromPort,
     trafficMirrorPortRange_toPort,
 
     -- * TrafficMirrorPortRangeRequest
-    TrafficMirrorPortRangeRequest (..),
+    TrafficMirrorPortRangeRequest,
     newTrafficMirrorPortRangeRequest,
     trafficMirrorPortRangeRequest_fromPort,
     trafficMirrorPortRangeRequest_toPort,
 
     -- * TrafficMirrorSession
-    TrafficMirrorSession (..),
+    TrafficMirrorSession,
     newTrafficMirrorSession,
     trafficMirrorSession_description,
     trafficMirrorSession_networkInterfaceId,
@@ -5994,7 +5994,7 @@ module Amazonka.EC2.Types
     trafficMirrorSession_virtualNetworkId,
 
     -- * TrafficMirrorTarget
-    TrafficMirrorTarget (..),
+    TrafficMirrorTarget,
     newTrafficMirrorTarget,
     trafficMirrorTarget_description,
     trafficMirrorTarget_gatewayLoadBalancerEndpointId,
@@ -6006,7 +6006,7 @@ module Amazonka.EC2.Types
     trafficMirrorTarget_type,
 
     -- * TransitGateway
-    TransitGateway (..),
+    TransitGateway,
     newTransitGateway,
     transitGateway_creationTime,
     transitGateway_description,
@@ -6018,7 +6018,7 @@ module Amazonka.EC2.Types
     transitGateway_transitGatewayId,
 
     -- * TransitGatewayAssociation
-    TransitGatewayAssociation (..),
+    TransitGatewayAssociation,
     newTransitGatewayAssociation,
     transitGatewayAssociation_resourceId,
     transitGatewayAssociation_resourceType,
@@ -6027,7 +6027,7 @@ module Amazonka.EC2.Types
     transitGatewayAssociation_transitGatewayRouteTableId,
 
     -- * TransitGatewayAttachment
-    TransitGatewayAttachment (..),
+    TransitGatewayAttachment,
     newTransitGatewayAttachment,
     transitGatewayAttachment_association,
     transitGatewayAttachment_creationTime,
@@ -6041,13 +6041,13 @@ module Amazonka.EC2.Types
     transitGatewayAttachment_transitGatewayOwnerId,
 
     -- * TransitGatewayAttachmentAssociation
-    TransitGatewayAttachmentAssociation (..),
+    TransitGatewayAttachmentAssociation,
     newTransitGatewayAttachmentAssociation,
     transitGatewayAttachmentAssociation_state,
     transitGatewayAttachmentAssociation_transitGatewayRouteTableId,
 
     -- * TransitGatewayAttachmentBgpConfiguration
-    TransitGatewayAttachmentBgpConfiguration (..),
+    TransitGatewayAttachmentBgpConfiguration,
     newTransitGatewayAttachmentBgpConfiguration,
     transitGatewayAttachmentBgpConfiguration_bgpStatus,
     transitGatewayAttachmentBgpConfiguration_peerAddress,
@@ -6056,13 +6056,13 @@ module Amazonka.EC2.Types
     transitGatewayAttachmentBgpConfiguration_transitGatewayAsn,
 
     -- * TransitGatewayAttachmentPropagation
-    TransitGatewayAttachmentPropagation (..),
+    TransitGatewayAttachmentPropagation,
     newTransitGatewayAttachmentPropagation,
     transitGatewayAttachmentPropagation_state,
     transitGatewayAttachmentPropagation_transitGatewayRouteTableId,
 
     -- * TransitGatewayConnect
-    TransitGatewayConnect (..),
+    TransitGatewayConnect,
     newTransitGatewayConnect,
     transitGatewayConnect_creationTime,
     transitGatewayConnect_options,
@@ -6073,12 +6073,12 @@ module Amazonka.EC2.Types
     transitGatewayConnect_transportTransitGatewayAttachmentId,
 
     -- * TransitGatewayConnectOptions
-    TransitGatewayConnectOptions (..),
+    TransitGatewayConnectOptions,
     newTransitGatewayConnectOptions,
     transitGatewayConnectOptions_protocol,
 
     -- * TransitGatewayConnectPeer
-    TransitGatewayConnectPeer (..),
+    TransitGatewayConnectPeer,
     newTransitGatewayConnectPeer,
     transitGatewayConnectPeer_connectPeerConfiguration,
     transitGatewayConnectPeer_creationTime,
@@ -6088,7 +6088,7 @@ module Amazonka.EC2.Types
     transitGatewayConnectPeer_transitGatewayConnectPeerId,
 
     -- * TransitGatewayConnectPeerConfiguration
-    TransitGatewayConnectPeerConfiguration (..),
+    TransitGatewayConnectPeerConfiguration,
     newTransitGatewayConnectPeerConfiguration,
     transitGatewayConnectPeerConfiguration_bgpConfigurations,
     transitGatewayConnectPeerConfiguration_insideCidrBlocks,
@@ -6097,26 +6097,26 @@ module Amazonka.EC2.Types
     transitGatewayConnectPeerConfiguration_transitGatewayAddress,
 
     -- * TransitGatewayConnectRequestBgpOptions
-    TransitGatewayConnectRequestBgpOptions (..),
+    TransitGatewayConnectRequestBgpOptions,
     newTransitGatewayConnectRequestBgpOptions,
     transitGatewayConnectRequestBgpOptions_peerAsn,
 
     -- * TransitGatewayMulticastDeregisteredGroupMembers
-    TransitGatewayMulticastDeregisteredGroupMembers (..),
+    TransitGatewayMulticastDeregisteredGroupMembers,
     newTransitGatewayMulticastDeregisteredGroupMembers,
     transitGatewayMulticastDeregisteredGroupMembers_deregisteredNetworkInterfaceIds,
     transitGatewayMulticastDeregisteredGroupMembers_groupIpAddress,
     transitGatewayMulticastDeregisteredGroupMembers_transitGatewayMulticastDomainId,
 
     -- * TransitGatewayMulticastDeregisteredGroupSources
-    TransitGatewayMulticastDeregisteredGroupSources (..),
+    TransitGatewayMulticastDeregisteredGroupSources,
     newTransitGatewayMulticastDeregisteredGroupSources,
     transitGatewayMulticastDeregisteredGroupSources_deregisteredNetworkInterfaceIds,
     transitGatewayMulticastDeregisteredGroupSources_groupIpAddress,
     transitGatewayMulticastDeregisteredGroupSources_transitGatewayMulticastDomainId,
 
     -- * TransitGatewayMulticastDomain
-    TransitGatewayMulticastDomain (..),
+    TransitGatewayMulticastDomain,
     newTransitGatewayMulticastDomain,
     transitGatewayMulticastDomain_creationTime,
     transitGatewayMulticastDomain_options,
@@ -6128,7 +6128,7 @@ module Amazonka.EC2.Types
     transitGatewayMulticastDomain_transitGatewayMulticastDomainId,
 
     -- * TransitGatewayMulticastDomainAssociation
-    TransitGatewayMulticastDomainAssociation (..),
+    TransitGatewayMulticastDomainAssociation,
     newTransitGatewayMulticastDomainAssociation,
     transitGatewayMulticastDomainAssociation_resourceId,
     transitGatewayMulticastDomainAssociation_resourceOwnerId,
@@ -6137,7 +6137,7 @@ module Amazonka.EC2.Types
     transitGatewayMulticastDomainAssociation_transitGatewayAttachmentId,
 
     -- * TransitGatewayMulticastDomainAssociations
-    TransitGatewayMulticastDomainAssociations (..),
+    TransitGatewayMulticastDomainAssociations,
     newTransitGatewayMulticastDomainAssociations,
     transitGatewayMulticastDomainAssociations_resourceId,
     transitGatewayMulticastDomainAssociations_resourceOwnerId,
@@ -6147,14 +6147,14 @@ module Amazonka.EC2.Types
     transitGatewayMulticastDomainAssociations_transitGatewayMulticastDomainId,
 
     -- * TransitGatewayMulticastDomainOptions
-    TransitGatewayMulticastDomainOptions (..),
+    TransitGatewayMulticastDomainOptions,
     newTransitGatewayMulticastDomainOptions,
     transitGatewayMulticastDomainOptions_autoAcceptSharedAssociations,
     transitGatewayMulticastDomainOptions_igmpv2Support,
     transitGatewayMulticastDomainOptions_staticSourcesSupport,
 
     -- * TransitGatewayMulticastGroup
-    TransitGatewayMulticastGroup (..),
+    TransitGatewayMulticastGroup,
     newTransitGatewayMulticastGroup,
     transitGatewayMulticastGroup_groupIpAddress,
     transitGatewayMulticastGroup_groupMember,
@@ -6169,21 +6169,21 @@ module Amazonka.EC2.Types
     transitGatewayMulticastGroup_transitGatewayAttachmentId,
 
     -- * TransitGatewayMulticastRegisteredGroupMembers
-    TransitGatewayMulticastRegisteredGroupMembers (..),
+    TransitGatewayMulticastRegisteredGroupMembers,
     newTransitGatewayMulticastRegisteredGroupMembers,
     transitGatewayMulticastRegisteredGroupMembers_groupIpAddress,
     transitGatewayMulticastRegisteredGroupMembers_registeredNetworkInterfaceIds,
     transitGatewayMulticastRegisteredGroupMembers_transitGatewayMulticastDomainId,
 
     -- * TransitGatewayMulticastRegisteredGroupSources
-    TransitGatewayMulticastRegisteredGroupSources (..),
+    TransitGatewayMulticastRegisteredGroupSources,
     newTransitGatewayMulticastRegisteredGroupSources,
     transitGatewayMulticastRegisteredGroupSources_groupIpAddress,
     transitGatewayMulticastRegisteredGroupSources_registeredNetworkInterfaceIds,
     transitGatewayMulticastRegisteredGroupSources_transitGatewayMulticastDomainId,
 
     -- * TransitGatewayOptions
-    TransitGatewayOptions (..),
+    TransitGatewayOptions,
     newTransitGatewayOptions,
     transitGatewayOptions_amazonSideAsn,
     transitGatewayOptions_associationDefaultRouteTableId,
@@ -6197,7 +6197,7 @@ module Amazonka.EC2.Types
     transitGatewayOptions_vpnEcmpSupport,
 
     -- * TransitGatewayPeeringAttachment
-    TransitGatewayPeeringAttachment (..),
+    TransitGatewayPeeringAttachment,
     newTransitGatewayPeeringAttachment,
     transitGatewayPeeringAttachment_accepterTgwInfo,
     transitGatewayPeeringAttachment_accepterTransitGatewayAttachmentId,
@@ -6210,12 +6210,12 @@ module Amazonka.EC2.Types
     transitGatewayPeeringAttachment_transitGatewayAttachmentId,
 
     -- * TransitGatewayPeeringAttachmentOptions
-    TransitGatewayPeeringAttachmentOptions (..),
+    TransitGatewayPeeringAttachmentOptions,
     newTransitGatewayPeeringAttachmentOptions,
     transitGatewayPeeringAttachmentOptions_dynamicRouting,
 
     -- * TransitGatewayPolicyRule
-    TransitGatewayPolicyRule (..),
+    TransitGatewayPolicyRule,
     newTransitGatewayPolicyRule,
     transitGatewayPolicyRule_destinationCidrBlock,
     transitGatewayPolicyRule_destinationPortRange,
@@ -6225,13 +6225,13 @@ module Amazonka.EC2.Types
     transitGatewayPolicyRule_sourcePortRange,
 
     -- * TransitGatewayPolicyRuleMetaData
-    TransitGatewayPolicyRuleMetaData (..),
+    TransitGatewayPolicyRuleMetaData,
     newTransitGatewayPolicyRuleMetaData,
     transitGatewayPolicyRuleMetaData_metaDataKey,
     transitGatewayPolicyRuleMetaData_metaDataValue,
 
     -- * TransitGatewayPolicyTable
-    TransitGatewayPolicyTable (..),
+    TransitGatewayPolicyTable,
     newTransitGatewayPolicyTable,
     transitGatewayPolicyTable_creationTime,
     transitGatewayPolicyTable_state,
@@ -6240,7 +6240,7 @@ module Amazonka.EC2.Types
     transitGatewayPolicyTable_transitGatewayPolicyTableId,
 
     -- * TransitGatewayPolicyTableAssociation
-    TransitGatewayPolicyTableAssociation (..),
+    TransitGatewayPolicyTableAssociation,
     newTransitGatewayPolicyTableAssociation,
     transitGatewayPolicyTableAssociation_resourceId,
     transitGatewayPolicyTableAssociation_resourceType,
@@ -6249,21 +6249,21 @@ module Amazonka.EC2.Types
     transitGatewayPolicyTableAssociation_transitGatewayPolicyTableId,
 
     -- * TransitGatewayPolicyTableEntry
-    TransitGatewayPolicyTableEntry (..),
+    TransitGatewayPolicyTableEntry,
     newTransitGatewayPolicyTableEntry,
     transitGatewayPolicyTableEntry_policyRule,
     transitGatewayPolicyTableEntry_policyRuleNumber,
     transitGatewayPolicyTableEntry_targetRouteTableId,
 
     -- * TransitGatewayPrefixListAttachment
-    TransitGatewayPrefixListAttachment (..),
+    TransitGatewayPrefixListAttachment,
     newTransitGatewayPrefixListAttachment,
     transitGatewayPrefixListAttachment_resourceId,
     transitGatewayPrefixListAttachment_resourceType,
     transitGatewayPrefixListAttachment_transitGatewayAttachmentId,
 
     -- * TransitGatewayPrefixListReference
-    TransitGatewayPrefixListReference (..),
+    TransitGatewayPrefixListReference,
     newTransitGatewayPrefixListReference,
     transitGatewayPrefixListReference_blackhole,
     transitGatewayPrefixListReference_prefixListId,
@@ -6273,7 +6273,7 @@ module Amazonka.EC2.Types
     transitGatewayPrefixListReference_transitGatewayRouteTableId,
 
     -- * TransitGatewayPropagation
-    TransitGatewayPropagation (..),
+    TransitGatewayPropagation,
     newTransitGatewayPropagation,
     transitGatewayPropagation_resourceId,
     transitGatewayPropagation_resourceType,
@@ -6283,7 +6283,7 @@ module Amazonka.EC2.Types
     transitGatewayPropagation_transitGatewayRouteTableId,
 
     -- * TransitGatewayRequestOptions
-    TransitGatewayRequestOptions (..),
+    TransitGatewayRequestOptions,
     newTransitGatewayRequestOptions,
     transitGatewayRequestOptions_amazonSideAsn,
     transitGatewayRequestOptions_autoAcceptSharedAttachments,
@@ -6295,7 +6295,7 @@ module Amazonka.EC2.Types
     transitGatewayRequestOptions_vpnEcmpSupport,
 
     -- * TransitGatewayRoute
-    TransitGatewayRoute (..),
+    TransitGatewayRoute,
     newTransitGatewayRoute,
     transitGatewayRoute_destinationCidrBlock,
     transitGatewayRoute_prefixListId,
@@ -6305,14 +6305,14 @@ module Amazonka.EC2.Types
     transitGatewayRoute_type,
 
     -- * TransitGatewayRouteAttachment
-    TransitGatewayRouteAttachment (..),
+    TransitGatewayRouteAttachment,
     newTransitGatewayRouteAttachment,
     transitGatewayRouteAttachment_resourceId,
     transitGatewayRouteAttachment_resourceType,
     transitGatewayRouteAttachment_transitGatewayAttachmentId,
 
     -- * TransitGatewayRouteTable
-    TransitGatewayRouteTable (..),
+    TransitGatewayRouteTable,
     newTransitGatewayRouteTable,
     transitGatewayRouteTable_creationTime,
     transitGatewayRouteTable_defaultAssociationRouteTable,
@@ -6323,7 +6323,7 @@ module Amazonka.EC2.Types
     transitGatewayRouteTable_transitGatewayRouteTableId,
 
     -- * TransitGatewayRouteTableAnnouncement
-    TransitGatewayRouteTableAnnouncement (..),
+    TransitGatewayRouteTableAnnouncement,
     newTransitGatewayRouteTableAnnouncement,
     transitGatewayRouteTableAnnouncement_announcementDirection,
     transitGatewayRouteTableAnnouncement_coreNetworkId,
@@ -6338,7 +6338,7 @@ module Amazonka.EC2.Types
     transitGatewayRouteTableAnnouncement_transitGatewayRouteTableId,
 
     -- * TransitGatewayRouteTableAssociation
-    TransitGatewayRouteTableAssociation (..),
+    TransitGatewayRouteTableAssociation,
     newTransitGatewayRouteTableAssociation,
     transitGatewayRouteTableAssociation_resourceId,
     transitGatewayRouteTableAssociation_resourceType,
@@ -6346,7 +6346,7 @@ module Amazonka.EC2.Types
     transitGatewayRouteTableAssociation_transitGatewayAttachmentId,
 
     -- * TransitGatewayRouteTablePropagation
-    TransitGatewayRouteTablePropagation (..),
+    TransitGatewayRouteTablePropagation,
     newTransitGatewayRouteTablePropagation,
     transitGatewayRouteTablePropagation_resourceId,
     transitGatewayRouteTablePropagation_resourceType,
@@ -6355,7 +6355,7 @@ module Amazonka.EC2.Types
     transitGatewayRouteTablePropagation_transitGatewayRouteTableAnnouncementId,
 
     -- * TransitGatewayRouteTableRoute
-    TransitGatewayRouteTableRoute (..),
+    TransitGatewayRouteTableRoute,
     newTransitGatewayRouteTableRoute,
     transitGatewayRouteTableRoute_attachmentId,
     transitGatewayRouteTableRoute_destinationCidr,
@@ -6366,7 +6366,7 @@ module Amazonka.EC2.Types
     transitGatewayRouteTableRoute_state,
 
     -- * TransitGatewayVpcAttachment
-    TransitGatewayVpcAttachment (..),
+    TransitGatewayVpcAttachment,
     newTransitGatewayVpcAttachment,
     transitGatewayVpcAttachment_creationTime,
     transitGatewayVpcAttachment_options,
@@ -6379,14 +6379,14 @@ module Amazonka.EC2.Types
     transitGatewayVpcAttachment_vpcOwnerId,
 
     -- * TransitGatewayVpcAttachmentOptions
-    TransitGatewayVpcAttachmentOptions (..),
+    TransitGatewayVpcAttachmentOptions,
     newTransitGatewayVpcAttachmentOptions,
     transitGatewayVpcAttachmentOptions_applianceModeSupport,
     transitGatewayVpcAttachmentOptions_dnsSupport,
     transitGatewayVpcAttachmentOptions_ipv6Support,
 
     -- * TrunkInterfaceAssociation
-    TrunkInterfaceAssociation (..),
+    TrunkInterfaceAssociation,
     newTrunkInterfaceAssociation,
     trunkInterfaceAssociation_associationId,
     trunkInterfaceAssociation_branchInterfaceId,
@@ -6397,7 +6397,7 @@ module Amazonka.EC2.Types
     trunkInterfaceAssociation_vlanId,
 
     -- * TunnelOption
-    TunnelOption (..),
+    TunnelOption,
     newTunnelOption,
     tunnelOption_dpdTimeoutAction,
     tunnelOption_dpdTimeoutSeconds,
@@ -6421,48 +6421,48 @@ module Amazonka.EC2.Types
     tunnelOption_tunnelInsideIpv6Cidr,
 
     -- * UnsuccessfulInstanceCreditSpecificationItem
-    UnsuccessfulInstanceCreditSpecificationItem (..),
+    UnsuccessfulInstanceCreditSpecificationItem,
     newUnsuccessfulInstanceCreditSpecificationItem,
     unsuccessfulInstanceCreditSpecificationItem_error,
     unsuccessfulInstanceCreditSpecificationItem_instanceId,
 
     -- * UnsuccessfulInstanceCreditSpecificationItemError
-    UnsuccessfulInstanceCreditSpecificationItemError (..),
+    UnsuccessfulInstanceCreditSpecificationItemError,
     newUnsuccessfulInstanceCreditSpecificationItemError,
     unsuccessfulInstanceCreditSpecificationItemError_code,
     unsuccessfulInstanceCreditSpecificationItemError_message,
 
     -- * UnsuccessfulItem
-    UnsuccessfulItem (..),
+    UnsuccessfulItem,
     newUnsuccessfulItem,
     unsuccessfulItem_error,
     unsuccessfulItem_resourceId,
 
     -- * UnsuccessfulItemError
-    UnsuccessfulItemError (..),
+    UnsuccessfulItemError,
     newUnsuccessfulItemError,
     unsuccessfulItemError_code,
     unsuccessfulItemError_message,
 
     -- * UserBucket
-    UserBucket (..),
+    UserBucket,
     newUserBucket,
     userBucket_s3Bucket,
     userBucket_s3Key,
 
     -- * UserBucketDetails
-    UserBucketDetails (..),
+    UserBucketDetails,
     newUserBucketDetails,
     userBucketDetails_s3Bucket,
     userBucketDetails_s3Key,
 
     -- * UserData
-    UserData (..),
+    UserData,
     newUserData,
     userData_data,
 
     -- * UserIdGroupPair
-    UserIdGroupPair (..),
+    UserIdGroupPair,
     newUserIdGroupPair,
     userIdGroupPair_description,
     userIdGroupPair_groupId,
@@ -6473,19 +6473,19 @@ module Amazonka.EC2.Types
     userIdGroupPair_vpcPeeringConnectionId,
 
     -- * VCpuCountRange
-    VCpuCountRange (..),
+    VCpuCountRange,
     newVCpuCountRange,
     vCpuCountRange_max,
     vCpuCountRange_min,
 
     -- * VCpuCountRangeRequest
-    VCpuCountRangeRequest (..),
+    VCpuCountRangeRequest,
     newVCpuCountRangeRequest,
     vCpuCountRangeRequest_max,
     vCpuCountRangeRequest_min,
 
     -- * VCpuInfo
-    VCpuInfo (..),
+    VCpuInfo,
     newVCpuInfo,
     vCpuInfo_defaultCores,
     vCpuInfo_defaultThreadsPerCore,
@@ -6494,18 +6494,18 @@ module Amazonka.EC2.Types
     vCpuInfo_validThreadsPerCore,
 
     -- * ValidationError
-    ValidationError (..),
+    ValidationError,
     newValidationError,
     validationError_code,
     validationError_message,
 
     -- * ValidationWarning
-    ValidationWarning (..),
+    ValidationWarning,
     newValidationWarning,
     validationWarning_errors,
 
     -- * VerifiedAccessEndpoint
-    VerifiedAccessEndpoint (..),
+    VerifiedAccessEndpoint,
     newVerifiedAccessEndpoint,
     verifiedAccessEndpoint_applicationDomain,
     verifiedAccessEndpoint_attachmentType,
@@ -6527,14 +6527,14 @@ module Amazonka.EC2.Types
     verifiedAccessEndpoint_verifiedAccessInstanceId,
 
     -- * VerifiedAccessEndpointEniOptions
-    VerifiedAccessEndpointEniOptions (..),
+    VerifiedAccessEndpointEniOptions,
     newVerifiedAccessEndpointEniOptions,
     verifiedAccessEndpointEniOptions_networkInterfaceId,
     verifiedAccessEndpointEniOptions_port,
     verifiedAccessEndpointEniOptions_protocol,
 
     -- * VerifiedAccessEndpointLoadBalancerOptions
-    VerifiedAccessEndpointLoadBalancerOptions (..),
+    VerifiedAccessEndpointLoadBalancerOptions,
     newVerifiedAccessEndpointLoadBalancerOptions,
     verifiedAccessEndpointLoadBalancerOptions_loadBalancerArn,
     verifiedAccessEndpointLoadBalancerOptions_port,
@@ -6542,13 +6542,13 @@ module Amazonka.EC2.Types
     verifiedAccessEndpointLoadBalancerOptions_subnetIds,
 
     -- * VerifiedAccessEndpointStatus
-    VerifiedAccessEndpointStatus (..),
+    VerifiedAccessEndpointStatus,
     newVerifiedAccessEndpointStatus,
     verifiedAccessEndpointStatus_code,
     verifiedAccessEndpointStatus_message,
 
     -- * VerifiedAccessGroup
-    VerifiedAccessGroup (..),
+    VerifiedAccessGroup,
     newVerifiedAccessGroup,
     verifiedAccessGroup_creationTime,
     verifiedAccessGroup_deletionTime,
@@ -6561,7 +6561,7 @@ module Amazonka.EC2.Types
     verifiedAccessGroup_verifiedAccessInstanceId,
 
     -- * VerifiedAccessInstance
-    VerifiedAccessInstance (..),
+    VerifiedAccessInstance,
     newVerifiedAccessInstance,
     verifiedAccessInstance_creationTime,
     verifiedAccessInstance_description,
@@ -6571,52 +6571,52 @@ module Amazonka.EC2.Types
     verifiedAccessInstance_verifiedAccessTrustProviders,
 
     -- * VerifiedAccessInstanceLoggingConfiguration
-    VerifiedAccessInstanceLoggingConfiguration (..),
+    VerifiedAccessInstanceLoggingConfiguration,
     newVerifiedAccessInstanceLoggingConfiguration,
     verifiedAccessInstanceLoggingConfiguration_accessLogs,
     verifiedAccessInstanceLoggingConfiguration_verifiedAccessInstanceId,
 
     -- * VerifiedAccessLogCloudWatchLogsDestination
-    VerifiedAccessLogCloudWatchLogsDestination (..),
+    VerifiedAccessLogCloudWatchLogsDestination,
     newVerifiedAccessLogCloudWatchLogsDestination,
     verifiedAccessLogCloudWatchLogsDestination_deliveryStatus,
     verifiedAccessLogCloudWatchLogsDestination_enabled,
     verifiedAccessLogCloudWatchLogsDestination_logGroup,
 
     -- * VerifiedAccessLogCloudWatchLogsDestinationOptions
-    VerifiedAccessLogCloudWatchLogsDestinationOptions (..),
+    VerifiedAccessLogCloudWatchLogsDestinationOptions,
     newVerifiedAccessLogCloudWatchLogsDestinationOptions,
     verifiedAccessLogCloudWatchLogsDestinationOptions_logGroup,
     verifiedAccessLogCloudWatchLogsDestinationOptions_enabled,
 
     -- * VerifiedAccessLogDeliveryStatus
-    VerifiedAccessLogDeliveryStatus (..),
+    VerifiedAccessLogDeliveryStatus,
     newVerifiedAccessLogDeliveryStatus,
     verifiedAccessLogDeliveryStatus_code,
     verifiedAccessLogDeliveryStatus_message,
 
     -- * VerifiedAccessLogKinesisDataFirehoseDestination
-    VerifiedAccessLogKinesisDataFirehoseDestination (..),
+    VerifiedAccessLogKinesisDataFirehoseDestination,
     newVerifiedAccessLogKinesisDataFirehoseDestination,
     verifiedAccessLogKinesisDataFirehoseDestination_deliveryStatus,
     verifiedAccessLogKinesisDataFirehoseDestination_deliveryStream,
     verifiedAccessLogKinesisDataFirehoseDestination_enabled,
 
     -- * VerifiedAccessLogKinesisDataFirehoseDestinationOptions
-    VerifiedAccessLogKinesisDataFirehoseDestinationOptions (..),
+    VerifiedAccessLogKinesisDataFirehoseDestinationOptions,
     newVerifiedAccessLogKinesisDataFirehoseDestinationOptions,
     verifiedAccessLogKinesisDataFirehoseDestinationOptions_deliveryStream,
     verifiedAccessLogKinesisDataFirehoseDestinationOptions_enabled,
 
     -- * VerifiedAccessLogOptions
-    VerifiedAccessLogOptions (..),
+    VerifiedAccessLogOptions,
     newVerifiedAccessLogOptions,
     verifiedAccessLogOptions_cloudWatchLogs,
     verifiedAccessLogOptions_kinesisDataFirehose,
     verifiedAccessLogOptions_s3,
 
     -- * VerifiedAccessLogS3Destination
-    VerifiedAccessLogS3Destination (..),
+    VerifiedAccessLogS3Destination,
     newVerifiedAccessLogS3Destination,
     verifiedAccessLogS3Destination_bucketName,
     verifiedAccessLogS3Destination_bucketOwner,
@@ -6625,7 +6625,7 @@ module Amazonka.EC2.Types
     verifiedAccessLogS3Destination_prefix,
 
     -- * VerifiedAccessLogS3DestinationOptions
-    VerifiedAccessLogS3DestinationOptions (..),
+    VerifiedAccessLogS3DestinationOptions,
     newVerifiedAccessLogS3DestinationOptions,
     verifiedAccessLogS3DestinationOptions_bucketName,
     verifiedAccessLogS3DestinationOptions_bucketOwner,
@@ -6633,14 +6633,14 @@ module Amazonka.EC2.Types
     verifiedAccessLogS3DestinationOptions_enabled,
 
     -- * VerifiedAccessLogs
-    VerifiedAccessLogs (..),
+    VerifiedAccessLogs,
     newVerifiedAccessLogs,
     verifiedAccessLogs_cloudWatchLogs,
     verifiedAccessLogs_kinesisDataFirehose,
     verifiedAccessLogs_s3,
 
     -- * VerifiedAccessTrustProvider
-    VerifiedAccessTrustProvider (..),
+    VerifiedAccessTrustProvider,
     newVerifiedAccessTrustProvider,
     verifiedAccessTrustProvider_creationTime,
     verifiedAccessTrustProvider_description,
@@ -6655,7 +6655,7 @@ module Amazonka.EC2.Types
     verifiedAccessTrustProvider_verifiedAccessTrustProviderId,
 
     -- * VerifiedAccessTrustProviderCondensed
-    VerifiedAccessTrustProviderCondensed (..),
+    VerifiedAccessTrustProviderCondensed,
     newVerifiedAccessTrustProviderCondensed,
     verifiedAccessTrustProviderCondensed_description,
     verifiedAccessTrustProviderCondensed_deviceTrustProviderType,
@@ -6664,7 +6664,7 @@ module Amazonka.EC2.Types
     verifiedAccessTrustProviderCondensed_verifiedAccessTrustProviderId,
 
     -- * VgwTelemetry
-    VgwTelemetry (..),
+    VgwTelemetry,
     newVgwTelemetry,
     vgwTelemetry_acceptedRouteCount,
     vgwTelemetry_certificateArn,
@@ -6674,7 +6674,7 @@ module Amazonka.EC2.Types
     vgwTelemetry_statusMessage,
 
     -- * Volume
-    Volume (..),
+    Volume,
     newVolume,
     volume_attachments,
     volume_fastRestored,
@@ -6694,7 +6694,7 @@ module Amazonka.EC2.Types
     volume_volumeType,
 
     -- * VolumeAttachment
-    VolumeAttachment (..),
+    VolumeAttachment,
     newVolumeAttachment,
     volumeAttachment_attachTime,
     volumeAttachment_deleteOnTermination,
@@ -6704,12 +6704,12 @@ module Amazonka.EC2.Types
     volumeAttachment_volumeId,
 
     -- * VolumeDetail
-    VolumeDetail (..),
+    VolumeDetail,
     newVolumeDetail,
     volumeDetail_size,
 
     -- * VolumeModification
-    VolumeModification (..),
+    VolumeModification,
     newVolumeModification,
     volumeModification_endTime,
     volumeModification_modificationState,
@@ -6729,7 +6729,7 @@ module Amazonka.EC2.Types
     volumeModification_volumeId,
 
     -- * VolumeStatusAction
-    VolumeStatusAction (..),
+    VolumeStatusAction,
     newVolumeStatusAction,
     volumeStatusAction_code,
     volumeStatusAction_description,
@@ -6737,19 +6737,19 @@ module Amazonka.EC2.Types
     volumeStatusAction_eventType,
 
     -- * VolumeStatusAttachmentStatus
-    VolumeStatusAttachmentStatus (..),
+    VolumeStatusAttachmentStatus,
     newVolumeStatusAttachmentStatus,
     volumeStatusAttachmentStatus_instanceId,
     volumeStatusAttachmentStatus_ioPerformance,
 
     -- * VolumeStatusDetails
-    VolumeStatusDetails (..),
+    VolumeStatusDetails,
     newVolumeStatusDetails,
     volumeStatusDetails_name,
     volumeStatusDetails_status,
 
     -- * VolumeStatusEvent
-    VolumeStatusEvent (..),
+    VolumeStatusEvent,
     newVolumeStatusEvent,
     volumeStatusEvent_description,
     volumeStatusEvent_eventId,
@@ -6759,13 +6759,13 @@ module Amazonka.EC2.Types
     volumeStatusEvent_notBefore,
 
     -- * VolumeStatusInfo
-    VolumeStatusInfo (..),
+    VolumeStatusInfo,
     newVolumeStatusInfo,
     volumeStatusInfo_details,
     volumeStatusInfo_status,
 
     -- * VolumeStatusItem
-    VolumeStatusItem (..),
+    VolumeStatusItem,
     newVolumeStatusItem,
     volumeStatusItem_actions,
     volumeStatusItem_attachmentStatuses,
@@ -6776,7 +6776,7 @@ module Amazonka.EC2.Types
     volumeStatusItem_volumeStatus,
 
     -- * Vpc
-    Vpc (..),
+    Vpc,
     newVpc,
     vpc_cidrBlockAssociationSet,
     vpc_ipv6CidrBlockAssociationSet,
@@ -6790,33 +6790,33 @@ module Amazonka.EC2.Types
     vpc_vpcId,
 
     -- * VpcAttachment
-    VpcAttachment (..),
+    VpcAttachment,
     newVpcAttachment,
     vpcAttachment_state,
     vpcAttachment_vpcId,
 
     -- * VpcCidrBlockAssociation
-    VpcCidrBlockAssociation (..),
+    VpcCidrBlockAssociation,
     newVpcCidrBlockAssociation,
     vpcCidrBlockAssociation_associationId,
     vpcCidrBlockAssociation_cidrBlock,
     vpcCidrBlockAssociation_cidrBlockState,
 
     -- * VpcCidrBlockState
-    VpcCidrBlockState (..),
+    VpcCidrBlockState,
     newVpcCidrBlockState,
     vpcCidrBlockState_state,
     vpcCidrBlockState_statusMessage,
 
     -- * VpcClassicLink
-    VpcClassicLink (..),
+    VpcClassicLink,
     newVpcClassicLink,
     vpcClassicLink_classicLinkEnabled,
     vpcClassicLink_tags,
     vpcClassicLink_vpcId,
 
     -- * VpcEndpoint
-    VpcEndpoint (..),
+    VpcEndpoint,
     newVpcEndpoint,
     vpcEndpoint_creationTimestamp,
     vpcEndpoint_dnsEntries,
@@ -6839,7 +6839,7 @@ module Amazonka.EC2.Types
     vpcEndpoint_vpcId,
 
     -- * VpcEndpointConnection
-    VpcEndpointConnection (..),
+    VpcEndpointConnection,
     newVpcEndpointConnection,
     vpcEndpointConnection_creationTimestamp,
     vpcEndpointConnection_dnsEntries,
@@ -6854,7 +6854,7 @@ module Amazonka.EC2.Types
     vpcEndpointConnection_vpcEndpointState,
 
     -- * VpcIpv6CidrBlockAssociation
-    VpcIpv6CidrBlockAssociation (..),
+    VpcIpv6CidrBlockAssociation,
     newVpcIpv6CidrBlockAssociation,
     vpcIpv6CidrBlockAssociation_associationId,
     vpcIpv6CidrBlockAssociation_ipv6CidrBlock,
@@ -6863,7 +6863,7 @@ module Amazonka.EC2.Types
     vpcIpv6CidrBlockAssociation_networkBorderGroup,
 
     -- * VpcPeeringConnection
-    VpcPeeringConnection (..),
+    VpcPeeringConnection,
     newVpcPeeringConnection,
     vpcPeeringConnection_accepterVpcInfo,
     vpcPeeringConnection_expirationTime,
@@ -6873,20 +6873,20 @@ module Amazonka.EC2.Types
     vpcPeeringConnection_vpcPeeringConnectionId,
 
     -- * VpcPeeringConnectionOptionsDescription
-    VpcPeeringConnectionOptionsDescription (..),
+    VpcPeeringConnectionOptionsDescription,
     newVpcPeeringConnectionOptionsDescription,
     vpcPeeringConnectionOptionsDescription_allowDnsResolutionFromRemoteVpc,
     vpcPeeringConnectionOptionsDescription_allowEgressFromLocalClassicLinkToRemoteVpc,
     vpcPeeringConnectionOptionsDescription_allowEgressFromLocalVpcToRemoteClassicLink,
 
     -- * VpcPeeringConnectionStateReason
-    VpcPeeringConnectionStateReason (..),
+    VpcPeeringConnectionStateReason,
     newVpcPeeringConnectionStateReason,
     vpcPeeringConnectionStateReason_code,
     vpcPeeringConnectionStateReason_message,
 
     -- * VpcPeeringConnectionVpcInfo
-    VpcPeeringConnectionVpcInfo (..),
+    VpcPeeringConnectionVpcInfo,
     newVpcPeeringConnectionVpcInfo,
     vpcPeeringConnectionVpcInfo_cidrBlock,
     vpcPeeringConnectionVpcInfo_cidrBlockSet,
@@ -6897,7 +6897,7 @@ module Amazonka.EC2.Types
     vpcPeeringConnectionVpcInfo_vpcId,
 
     -- * VpnConnection
-    VpnConnection (..),
+    VpnConnection,
     newVpnConnection,
     vpnConnection_category,
     vpnConnection_coreNetworkArn,
@@ -6916,7 +6916,7 @@ module Amazonka.EC2.Types
     vpnConnection_type,
 
     -- * VpnConnectionDeviceType
-    VpnConnectionDeviceType (..),
+    VpnConnectionDeviceType,
     newVpnConnectionDeviceType,
     vpnConnectionDeviceType_platform,
     vpnConnectionDeviceType_software,
@@ -6924,7 +6924,7 @@ module Amazonka.EC2.Types
     vpnConnectionDeviceType_vpnConnectionDeviceTypeId,
 
     -- * VpnConnectionOptions
-    VpnConnectionOptions (..),
+    VpnConnectionOptions,
     newVpnConnectionOptions,
     vpnConnectionOptions_enableAcceleration,
     vpnConnectionOptions_localIpv4NetworkCidr,
@@ -6938,7 +6938,7 @@ module Amazonka.EC2.Types
     vpnConnectionOptions_tunnelOptions,
 
     -- * VpnConnectionOptionsSpecification
-    VpnConnectionOptionsSpecification (..),
+    VpnConnectionOptionsSpecification,
     newVpnConnectionOptionsSpecification,
     vpnConnectionOptionsSpecification_enableAcceleration,
     vpnConnectionOptionsSpecification_localIpv4NetworkCidr,
@@ -6952,7 +6952,7 @@ module Amazonka.EC2.Types
     vpnConnectionOptionsSpecification_tunnelOptions,
 
     -- * VpnGateway
-    VpnGateway (..),
+    VpnGateway,
     newVpnGateway,
     vpnGateway_amazonSideAsn,
     vpnGateway_availabilityZone,
@@ -6963,24 +6963,24 @@ module Amazonka.EC2.Types
     vpnGateway_vpnGatewayId,
 
     -- * VpnStaticRoute
-    VpnStaticRoute (..),
+    VpnStaticRoute,
     newVpnStaticRoute,
     vpnStaticRoute_destinationCidrBlock,
     vpnStaticRoute_source,
     vpnStaticRoute_state,
 
     -- * VpnTunnelLogOptions
-    VpnTunnelLogOptions (..),
+    VpnTunnelLogOptions,
     newVpnTunnelLogOptions,
     vpnTunnelLogOptions_cloudWatchLogOptions,
 
     -- * VpnTunnelLogOptionsSpecification
-    VpnTunnelLogOptionsSpecification (..),
+    VpnTunnelLogOptionsSpecification,
     newVpnTunnelLogOptionsSpecification,
     vpnTunnelLogOptionsSpecification_cloudWatchLogOptions,
 
     -- * VpnTunnelOptionsSpecification
-    VpnTunnelOptionsSpecification (..),
+    VpnTunnelOptionsSpecification,
     newVpnTunnelOptionsSpecification,
     vpnTunnelOptionsSpecification_dPDTimeoutAction,
     vpnTunnelOptionsSpecification_dPDTimeoutSeconds,

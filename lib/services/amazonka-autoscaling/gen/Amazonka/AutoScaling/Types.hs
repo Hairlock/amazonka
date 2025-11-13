@@ -29,91 +29,91 @@ module Amazonka.AutoScaling.Types
     _ServiceLinkedRoleFailure,
 
     -- * AcceleratorManufacturer
-    AcceleratorManufacturer (..),
+    AcceleratorManufacturer,
 
     -- * AcceleratorName
-    AcceleratorName (..),
+    AcceleratorName,
 
     -- * AcceleratorType
-    AcceleratorType (..),
+    AcceleratorType,
 
     -- * BareMetal
-    BareMetal (..),
+    BareMetal,
 
     -- * BurstablePerformance
-    BurstablePerformance (..),
+    BurstablePerformance,
 
     -- * CpuManufacturer
-    CpuManufacturer (..),
+    CpuManufacturer,
 
     -- * InstanceGeneration
-    InstanceGeneration (..),
+    InstanceGeneration,
 
     -- * InstanceMetadataEndpointState
-    InstanceMetadataEndpointState (..),
+    InstanceMetadataEndpointState,
 
     -- * InstanceMetadataHttpTokensState
-    InstanceMetadataHttpTokensState (..),
+    InstanceMetadataHttpTokensState,
 
     -- * InstanceRefreshStatus
-    InstanceRefreshStatus (..),
+    InstanceRefreshStatus,
 
     -- * LifecycleState
-    LifecycleState (..),
+    LifecycleState,
 
     -- * LocalStorage
-    LocalStorage (..),
+    LocalStorage,
 
     -- * LocalStorageType
-    LocalStorageType (..),
+    LocalStorageType,
 
     -- * MetricStatistic
-    MetricStatistic (..),
+    MetricStatistic,
 
     -- * MetricType
-    MetricType (..),
+    MetricType,
 
     -- * PredefinedLoadMetricType
-    PredefinedLoadMetricType (..),
+    PredefinedLoadMetricType,
 
     -- * PredefinedMetricPairType
-    PredefinedMetricPairType (..),
+    PredefinedMetricPairType,
 
     -- * PredefinedScalingMetricType
-    PredefinedScalingMetricType (..),
+    PredefinedScalingMetricType,
 
     -- * PredictiveScalingMaxCapacityBreachBehavior
-    PredictiveScalingMaxCapacityBreachBehavior (..),
+    PredictiveScalingMaxCapacityBreachBehavior,
 
     -- * PredictiveScalingMode
-    PredictiveScalingMode (..),
+    PredictiveScalingMode,
 
     -- * RefreshStrategy
-    RefreshStrategy (..),
+    RefreshStrategy,
 
     -- * ScalingActivityStatusCode
-    ScalingActivityStatusCode (..),
+    ScalingActivityStatusCode,
 
     -- * WarmPoolState
-    WarmPoolState (..),
+    WarmPoolState,
 
     -- * WarmPoolStatus
-    WarmPoolStatus (..),
+    WarmPoolStatus,
 
     -- * AcceleratorCountRequest
-    AcceleratorCountRequest (..),
+    AcceleratorCountRequest,
     newAcceleratorCountRequest,
     acceleratorCountRequest_max,
     acceleratorCountRequest_min,
 
     -- * AcceleratorTotalMemoryMiBRequest
-    AcceleratorTotalMemoryMiBRequest (..),
+    AcceleratorTotalMemoryMiBRequest,
     newAcceleratorTotalMemoryMiBRequest,
     acceleratorTotalMemoryMiBRequest_max,
     acceleratorTotalMemoryMiBRequest_min,
 
     -- * Activity
-    Activity (..),
+    Activity,
     newActivity,
     activity_autoScalingGroupARN,
     activity_autoScalingGroupState,
@@ -129,12 +129,12 @@ module Amazonka.AutoScaling.Types
     activity_statusCode,
 
     -- * AdjustmentType
-    AdjustmentType (..),
+    AdjustmentType,
     newAdjustmentType,
     adjustmentType_adjustmentType,
 
     -- * Alarm
-    Alarm (..),
+    Alarm,
     newAlarm,
     alarm_alarmARN,
     alarm_alarmName,
@@ -178,7 +178,7 @@ module Amazonka.AutoScaling.Types
     autoScalingGroup_createdTime,
 
     -- * AutoScalingInstanceDetails
-    AutoScalingInstanceDetails (..),
+    AutoScalingInstanceDetails,
     newAutoScalingInstanceDetails,
     autoScalingInstanceDetails_instanceType,
     autoScalingInstanceDetails_launchConfigurationName,
@@ -192,13 +192,13 @@ module Amazonka.AutoScaling.Types
     autoScalingInstanceDetails_protectedFromScaleIn,
 
     -- * BaselineEbsBandwidthMbpsRequest
-    BaselineEbsBandwidthMbpsRequest (..),
+    BaselineEbsBandwidthMbpsRequest,
     newBaselineEbsBandwidthMbpsRequest,
     baselineEbsBandwidthMbpsRequest_max,
     baselineEbsBandwidthMbpsRequest_min,
 
     -- * BlockDeviceMapping
-    BlockDeviceMapping (..),
+    BlockDeviceMapping,
     newBlockDeviceMapping,
     blockDeviceMapping_ebs,
     blockDeviceMapping_noDevice,
@@ -206,13 +206,13 @@ module Amazonka.AutoScaling.Types
     blockDeviceMapping_deviceName,
 
     -- * CapacityForecast
-    CapacityForecast (..),
+    CapacityForecast,
     newCapacityForecast,
     capacityForecast_timestamps,
     capacityForecast_values,
 
     -- * CustomizedMetricSpecification
-    CustomizedMetricSpecification (..),
+    CustomizedMetricSpecification,
     newCustomizedMetricSpecification,
     customizedMetricSpecification_dimensions,
     customizedMetricSpecification_metricName,
@@ -222,13 +222,13 @@ module Amazonka.AutoScaling.Types
     customizedMetricSpecification_unit,
 
     -- * DesiredConfiguration
-    DesiredConfiguration (..),
+    DesiredConfiguration,
     newDesiredConfiguration,
     desiredConfiguration_launchTemplate,
     desiredConfiguration_mixedInstancesPolicy,
 
     -- * Ebs
-    Ebs (..),
+    Ebs,
     newEbs,
     ebs_deleteOnTermination,
     ebs_encrypted,
@@ -239,26 +239,26 @@ module Amazonka.AutoScaling.Types
     ebs_volumeType,
 
     -- * EnabledMetric
-    EnabledMetric (..),
+    EnabledMetric,
     newEnabledMetric,
     enabledMetric_granularity,
     enabledMetric_metric,
 
     -- * FailedScheduledUpdateGroupActionRequest
-    FailedScheduledUpdateGroupActionRequest (..),
+    FailedScheduledUpdateGroupActionRequest,
     newFailedScheduledUpdateGroupActionRequest,
     failedScheduledUpdateGroupActionRequest_errorCode,
     failedScheduledUpdateGroupActionRequest_errorMessage,
     failedScheduledUpdateGroupActionRequest_scheduledActionName,
 
     -- * Filter
-    Filter (..),
+    Filter,
     newFilter,
     filter_values,
     filter_name,
 
     -- * Instance
-    Instance (..),
+    Instance,
     newInstance,
     instance_instanceType,
     instance_launchConfigurationName,
@@ -271,19 +271,19 @@ module Amazonka.AutoScaling.Types
     instance_protectedFromScaleIn,
 
     -- * InstanceMetadataOptions
-    InstanceMetadataOptions (..),
+    InstanceMetadataOptions,
     newInstanceMetadataOptions,
     instanceMetadataOptions_httpEndpoint,
     instanceMetadataOptions_httpPutResponseHopLimit,
     instanceMetadataOptions_httpTokens,
 
     -- * InstanceMonitoring
-    InstanceMonitoring (..),
+    InstanceMonitoring,
     newInstanceMonitoring,
     instanceMonitoring_enabled,
 
     -- * InstanceRefresh
-    InstanceRefresh (..),
+    InstanceRefresh,
     newInstanceRefresh,
     instanceRefresh_autoScalingGroupName,
     instanceRefresh_desiredConfiguration,
@@ -298,25 +298,25 @@ module Amazonka.AutoScaling.Types
     instanceRefresh_statusReason,
 
     -- * InstanceRefreshLivePoolProgress
-    InstanceRefreshLivePoolProgress (..),
+    InstanceRefreshLivePoolProgress,
     newInstanceRefreshLivePoolProgress,
     instanceRefreshLivePoolProgress_instancesToUpdate,
     instanceRefreshLivePoolProgress_percentageComplete,
 
     -- * InstanceRefreshProgressDetails
-    InstanceRefreshProgressDetails (..),
+    InstanceRefreshProgressDetails,
     newInstanceRefreshProgressDetails,
     instanceRefreshProgressDetails_livePoolProgress,
     instanceRefreshProgressDetails_warmPoolProgress,
 
     -- * InstanceRefreshWarmPoolProgress
-    InstanceRefreshWarmPoolProgress (..),
+    InstanceRefreshWarmPoolProgress,
     newInstanceRefreshWarmPoolProgress,
     instanceRefreshWarmPoolProgress_instancesToUpdate,
     instanceRefreshWarmPoolProgress_percentageComplete,
 
     -- * InstanceRequirements
-    InstanceRequirements (..),
+    InstanceRequirements,
     newInstanceRequirements,
     instanceRequirements_acceleratorCount,
     instanceRequirements_acceleratorManufacturers,
@@ -343,12 +343,12 @@ module Amazonka.AutoScaling.Types
     instanceRequirements_memoryMiB,
 
     -- * InstanceReusePolicy
-    InstanceReusePolicy (..),
+    InstanceReusePolicy,
     newInstanceReusePolicy,
     instanceReusePolicy_reuseOnScaleIn,
 
     -- * InstancesDistribution
-    InstancesDistribution (..),
+    InstancesDistribution,
     newInstancesDistribution,
     instancesDistribution_onDemandAllocationStrategy,
     instancesDistribution_onDemandBaseCapacity,
@@ -358,7 +358,7 @@ module Amazonka.AutoScaling.Types
     instancesDistribution_spotMaxPrice,
 
     -- * LaunchConfiguration
-    LaunchConfiguration (..),
+    LaunchConfiguration,
     newLaunchConfiguration,
     launchConfiguration_associatePublicIpAddress,
     launchConfiguration_blockDeviceMappings,
@@ -382,13 +382,13 @@ module Amazonka.AutoScaling.Types
     launchConfiguration_createdTime,
 
     -- * LaunchTemplate
-    LaunchTemplate (..),
+    LaunchTemplate,
     newLaunchTemplate,
     launchTemplate_launchTemplateSpecification,
     launchTemplate_overrides,
 
     -- * LaunchTemplateOverrides
-    LaunchTemplateOverrides (..),
+    LaunchTemplateOverrides,
     newLaunchTemplateOverrides,
     launchTemplateOverrides_instanceRequirements,
     launchTemplateOverrides_instanceType,
@@ -396,14 +396,14 @@ module Amazonka.AutoScaling.Types
     launchTemplateOverrides_weightedCapacity,
 
     -- * LaunchTemplateSpecification
-    LaunchTemplateSpecification (..),
+    LaunchTemplateSpecification,
     newLaunchTemplateSpecification,
     launchTemplateSpecification_launchTemplateId,
     launchTemplateSpecification_launchTemplateName,
     launchTemplateSpecification_version,
 
     -- * LifecycleHook
-    LifecycleHook (..),
+    LifecycleHook,
     newLifecycleHook,
     lifecycleHook_autoScalingGroupName,
     lifecycleHook_defaultResult,
@@ -416,7 +416,7 @@ module Amazonka.AutoScaling.Types
     lifecycleHook_roleARN,
 
     -- * LifecycleHookSpecification
-    LifecycleHookSpecification (..),
+    LifecycleHookSpecification,
     newLifecycleHookSpecification,
     lifecycleHookSpecification_defaultResult,
     lifecycleHookSpecification_heartbeatTimeout,
@@ -427,50 +427,50 @@ module Amazonka.AutoScaling.Types
     lifecycleHookSpecification_lifecycleTransition,
 
     -- * LoadBalancerState
-    LoadBalancerState (..),
+    LoadBalancerState,
     newLoadBalancerState,
     loadBalancerState_loadBalancerName,
     loadBalancerState_state,
 
     -- * LoadBalancerTargetGroupState
-    LoadBalancerTargetGroupState (..),
+    LoadBalancerTargetGroupState,
     newLoadBalancerTargetGroupState,
     loadBalancerTargetGroupState_loadBalancerTargetGroupARN,
     loadBalancerTargetGroupState_state,
 
     -- * LoadForecast
-    LoadForecast (..),
+    LoadForecast,
     newLoadForecast,
     loadForecast_timestamps,
     loadForecast_values,
     loadForecast_metricSpecification,
 
     -- * MemoryGiBPerVCpuRequest
-    MemoryGiBPerVCpuRequest (..),
+    MemoryGiBPerVCpuRequest,
     newMemoryGiBPerVCpuRequest,
     memoryGiBPerVCpuRequest_max,
     memoryGiBPerVCpuRequest_min,
 
     -- * MemoryMiBRequest
-    MemoryMiBRequest (..),
+    MemoryMiBRequest,
     newMemoryMiBRequest,
     memoryMiBRequest_max,
     memoryMiBRequest_min,
 
     -- * Metric
-    Metric (..),
+    Metric,
     newMetric,
     metric_dimensions,
     metric_namespace,
     metric_metricName,
 
     -- * MetricCollectionType
-    MetricCollectionType (..),
+    MetricCollectionType,
     newMetricCollectionType,
     metricCollectionType_metric,
 
     -- * MetricDataQuery
-    MetricDataQuery (..),
+    MetricDataQuery,
     newMetricDataQuery,
     metricDataQuery_expression,
     metricDataQuery_label,
@@ -479,56 +479,56 @@ module Amazonka.AutoScaling.Types
     metricDataQuery_id,
 
     -- * MetricDimension
-    MetricDimension (..),
+    MetricDimension,
     newMetricDimension,
     metricDimension_name,
     metricDimension_value,
 
     -- * MetricGranularityType
-    MetricGranularityType (..),
+    MetricGranularityType,
     newMetricGranularityType,
     metricGranularityType_granularity,
 
     -- * MetricStat
-    MetricStat (..),
+    MetricStat,
     newMetricStat,
     metricStat_unit,
     metricStat_metric,
     metricStat_stat,
 
     -- * MixedInstancesPolicy
-    MixedInstancesPolicy (..),
+    MixedInstancesPolicy,
     newMixedInstancesPolicy,
     mixedInstancesPolicy_instancesDistribution,
     mixedInstancesPolicy_launchTemplate,
 
     -- * NetworkBandwidthGbpsRequest
-    NetworkBandwidthGbpsRequest (..),
+    NetworkBandwidthGbpsRequest,
     newNetworkBandwidthGbpsRequest,
     networkBandwidthGbpsRequest_max,
     networkBandwidthGbpsRequest_min,
 
     -- * NetworkInterfaceCountRequest
-    NetworkInterfaceCountRequest (..),
+    NetworkInterfaceCountRequest,
     newNetworkInterfaceCountRequest,
     networkInterfaceCountRequest_max,
     networkInterfaceCountRequest_min,
 
     -- * NotificationConfiguration
-    NotificationConfiguration (..),
+    NotificationConfiguration,
     newNotificationConfiguration,
     notificationConfiguration_autoScalingGroupName,
     notificationConfiguration_notificationType,
     notificationConfiguration_topicARN,
 
     -- * PredefinedMetricSpecification
-    PredefinedMetricSpecification (..),
+    PredefinedMetricSpecification,
     newPredefinedMetricSpecification,
     predefinedMetricSpecification_resourceLabel,
     predefinedMetricSpecification_predefinedMetricType,
 
     -- * PredictiveScalingConfiguration
-    PredictiveScalingConfiguration (..),
+    PredictiveScalingConfiguration,
     newPredictiveScalingConfiguration,
     predictiveScalingConfiguration_maxCapacityBreachBehavior,
     predictiveScalingConfiguration_maxCapacityBuffer,
@@ -537,22 +537,22 @@ module Amazonka.AutoScaling.Types
     predictiveScalingConfiguration_metricSpecifications,
 
     -- * PredictiveScalingCustomizedCapacityMetric
-    PredictiveScalingCustomizedCapacityMetric (..),
+    PredictiveScalingCustomizedCapacityMetric,
     newPredictiveScalingCustomizedCapacityMetric,
     predictiveScalingCustomizedCapacityMetric_metricDataQueries,
 
     -- * PredictiveScalingCustomizedLoadMetric
-    PredictiveScalingCustomizedLoadMetric (..),
+    PredictiveScalingCustomizedLoadMetric,
     newPredictiveScalingCustomizedLoadMetric,
     predictiveScalingCustomizedLoadMetric_metricDataQueries,
 
     -- * PredictiveScalingCustomizedScalingMetric
-    PredictiveScalingCustomizedScalingMetric (..),
+    PredictiveScalingCustomizedScalingMetric,
     newPredictiveScalingCustomizedScalingMetric,
     predictiveScalingCustomizedScalingMetric_metricDataQueries,
 
     -- * PredictiveScalingMetricSpecification
-    PredictiveScalingMetricSpecification (..),
+    PredictiveScalingMetricSpecification,
     newPredictiveScalingMetricSpecification,
     predictiveScalingMetricSpecification_customizedCapacityMetricSpecification,
     predictiveScalingMetricSpecification_customizedLoadMetricSpecification,
@@ -563,30 +563,30 @@ module Amazonka.AutoScaling.Types
     predictiveScalingMetricSpecification_targetValue,
 
     -- * PredictiveScalingPredefinedLoadMetric
-    PredictiveScalingPredefinedLoadMetric (..),
+    PredictiveScalingPredefinedLoadMetric,
     newPredictiveScalingPredefinedLoadMetric,
     predictiveScalingPredefinedLoadMetric_resourceLabel,
     predictiveScalingPredefinedLoadMetric_predefinedMetricType,
 
     -- * PredictiveScalingPredefinedMetricPair
-    PredictiveScalingPredefinedMetricPair (..),
+    PredictiveScalingPredefinedMetricPair,
     newPredictiveScalingPredefinedMetricPair,
     predictiveScalingPredefinedMetricPair_resourceLabel,
     predictiveScalingPredefinedMetricPair_predefinedMetricType,
 
     -- * PredictiveScalingPredefinedScalingMetric
-    PredictiveScalingPredefinedScalingMetric (..),
+    PredictiveScalingPredefinedScalingMetric,
     newPredictiveScalingPredefinedScalingMetric,
     predictiveScalingPredefinedScalingMetric_resourceLabel,
     predictiveScalingPredefinedScalingMetric_predefinedMetricType,
 
     -- * ProcessType
-    ProcessType (..),
+    ProcessType,
     newProcessType,
     processType_processName,
 
     -- * RefreshPreferences
-    RefreshPreferences (..),
+    RefreshPreferences,
     newRefreshPreferences,
     refreshPreferences_checkpointDelay,
     refreshPreferences_checkpointPercentages,
@@ -595,7 +595,7 @@ module Amazonka.AutoScaling.Types
     refreshPreferences_skipMatching,
 
     -- * ScalingPolicy
-    ScalingPolicy (..),
+    ScalingPolicy,
     newScalingPolicy,
     scalingPolicy_adjustmentType,
     scalingPolicy_alarms,
@@ -615,13 +615,13 @@ module Amazonka.AutoScaling.Types
     scalingPolicy_targetTrackingConfiguration,
 
     -- * ScalingProcessQuery
-    ScalingProcessQuery (..),
+    ScalingProcessQuery,
     newScalingProcessQuery,
     scalingProcessQuery_scalingProcesses,
     scalingProcessQuery_autoScalingGroupName,
 
     -- * ScheduledUpdateGroupAction
-    ScheduledUpdateGroupAction (..),
+    ScheduledUpdateGroupAction,
     newScheduledUpdateGroupAction,
     scheduledUpdateGroupAction_autoScalingGroupName,
     scheduledUpdateGroupAction_desiredCapacity,
@@ -636,7 +636,7 @@ module Amazonka.AutoScaling.Types
     scheduledUpdateGroupAction_timeZone,
 
     -- * ScheduledUpdateGroupActionRequest
-    ScheduledUpdateGroupActionRequest (..),
+    ScheduledUpdateGroupActionRequest,
     newScheduledUpdateGroupActionRequest,
     scheduledUpdateGroupActionRequest_desiredCapacity,
     scheduledUpdateGroupActionRequest_endTime,
@@ -648,20 +648,20 @@ module Amazonka.AutoScaling.Types
     scheduledUpdateGroupActionRequest_scheduledActionName,
 
     -- * StepAdjustment
-    StepAdjustment (..),
+    StepAdjustment,
     newStepAdjustment,
     stepAdjustment_metricIntervalLowerBound,
     stepAdjustment_metricIntervalUpperBound,
     stepAdjustment_scalingAdjustment,
 
     -- * SuspendedProcess
-    SuspendedProcess (..),
+    SuspendedProcess,
     newSuspendedProcess,
     suspendedProcess_processName,
     suspendedProcess_suspensionReason,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_resourceId,
@@ -670,7 +670,7 @@ module Amazonka.AutoScaling.Types
     tag_value,
 
     -- * TagDescription
-    TagDescription (..),
+    TagDescription,
     newTagDescription,
     tagDescription_resourceId,
     tagDescription_resourceType,
@@ -679,7 +679,7 @@ module Amazonka.AutoScaling.Types
     tagDescription_value,
 
     -- * TargetTrackingConfiguration
-    TargetTrackingConfiguration (..),
+    TargetTrackingConfiguration,
     newTargetTrackingConfiguration,
     targetTrackingConfiguration_customizedMetricSpecification,
     targetTrackingConfiguration_disableScaleIn,
@@ -687,7 +687,7 @@ module Amazonka.AutoScaling.Types
     targetTrackingConfiguration_targetValue,
 
     -- * TargetTrackingMetricDataQuery
-    TargetTrackingMetricDataQuery (..),
+    TargetTrackingMetricDataQuery,
     newTargetTrackingMetricDataQuery,
     targetTrackingMetricDataQuery_expression,
     targetTrackingMetricDataQuery_label,
@@ -696,31 +696,31 @@ module Amazonka.AutoScaling.Types
     targetTrackingMetricDataQuery_id,
 
     -- * TargetTrackingMetricStat
-    TargetTrackingMetricStat (..),
+    TargetTrackingMetricStat,
     newTargetTrackingMetricStat,
     targetTrackingMetricStat_unit,
     targetTrackingMetricStat_metric,
     targetTrackingMetricStat_stat,
 
     -- * TotalLocalStorageGBRequest
-    TotalLocalStorageGBRequest (..),
+    TotalLocalStorageGBRequest,
     newTotalLocalStorageGBRequest,
     totalLocalStorageGBRequest_max,
     totalLocalStorageGBRequest_min,
 
     -- * TrafficSourceIdentifier
-    TrafficSourceIdentifier (..),
+    TrafficSourceIdentifier,
     newTrafficSourceIdentifier,
     trafficSourceIdentifier_identifier,
 
     -- * TrafficSourceState
-    TrafficSourceState (..),
+    TrafficSourceState,
     newTrafficSourceState,
     trafficSourceState_state,
     trafficSourceState_trafficSource,
 
     -- * VCpuCountRequest
-    VCpuCountRequest (..),
+    VCpuCountRequest,
     newVCpuCountRequest,
     vCpuCountRequest_max,
     vCpuCountRequest_min,
