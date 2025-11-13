@@ -131,6 +131,6 @@ roleCredentialsToAuthEnv :: SSO.RoleCredentials -> AuthEnv
 roleCredentialsToAuthEnv creds =
   AuthEnv
     (creds ^. SSO.roleCredentials_accessKeyId)
-    (creds ^. SSO.roleCredentials_secretAccessKey)
-    (creds ^. SSO.roleCredentials_sessionToken)
+    (Sensitive (creds ^. SSO.roleCredentials_secretAccessKey))
+    (Sensitive <$> (creds ^. SSO.roleCredentials_sessionToken))
     (Time . posixSecondsToUTCTime . fromInteger <$> (creds ^. SSO.roleCredentials_expiration))
