@@ -74,39 +74,39 @@ module Amazonka.ArcZonalShift
     -- $operations
 
     -- ** CancelZonalShift
-    CancelZonalShift (CancelZonalShift'),
+    CancelZonalShift,
     newCancelZonalShift,
-    ZonalShift (ZonalShift'),
+    ZonalShift,
     newZonalShift,
 
     -- ** GetManagedResource
-    GetManagedResource (GetManagedResource'),
+    GetManagedResource,
     newGetManagedResource,
-    GetManagedResourceResponse (GetManagedResourceResponse'),
+    GetManagedResourceResponse,
     newGetManagedResourceResponse,
 
     -- ** ListManagedResources (Paginated)
-    ListManagedResources (ListManagedResources'),
+    ListManagedResources,
     newListManagedResources,
-    ListManagedResourcesResponse (ListManagedResourcesResponse'),
+    ListManagedResourcesResponse,
     newListManagedResourcesResponse,
 
     -- ** ListZonalShifts (Paginated)
-    ListZonalShifts (ListZonalShifts'),
+    ListZonalShifts,
     newListZonalShifts,
-    ListZonalShiftsResponse (ListZonalShiftsResponse'),
+    ListZonalShiftsResponse,
     newListZonalShiftsResponse,
 
     -- ** StartZonalShift
-    StartZonalShift (StartZonalShift'),
+    StartZonalShift,
     newStartZonalShift,
-    ZonalShift (ZonalShift'),
+    ZonalShift,
     newZonalShift,
 
     -- ** UpdateZonalShift
-    UpdateZonalShift (UpdateZonalShift'),
+    UpdateZonalShift,
     newUpdateZonalShift,
-    ZonalShift (ZonalShift'),
+    ZonalShift,
     newZonalShift,
 
     -- * Types
@@ -118,19 +118,19 @@ module Amazonka.ArcZonalShift
     ZonalShiftStatus (..),
 
     -- ** ManagedResourceSummary
-    ManagedResourceSummary (ManagedResourceSummary'),
+    ManagedResourceSummary,
     newManagedResourceSummary,
 
     -- ** ZonalShift
-    ZonalShift (ZonalShift'),
+    ZonalShift,
     newZonalShift,
 
     -- ** ZonalShiftInResource
-    ZonalShiftInResource (ZonalShiftInResource'),
+    ZonalShiftInResource,
     newZonalShiftInResource,
 
     -- ** ZonalShiftSummary
-    ZonalShiftSummary (ZonalShiftSummary'),
+    ZonalShiftSummary,
     newZonalShiftSummary,
   )
 where

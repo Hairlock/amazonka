@@ -157,609 +157,609 @@ module Amazonka.CognitoIdentityProvider
     -- $operations
 
     -- ** AddCustomAttributes
-    AddCustomAttributes (AddCustomAttributes'),
+    AddCustomAttributes,
     newAddCustomAttributes,
-    AddCustomAttributesResponse (AddCustomAttributesResponse'),
+    AddCustomAttributesResponse,
     newAddCustomAttributesResponse,
 
     -- ** AdminAddUserToGroup
-    AdminAddUserToGroup (AdminAddUserToGroup'),
+    AdminAddUserToGroup,
     newAdminAddUserToGroup,
-    AdminAddUserToGroupResponse (AdminAddUserToGroupResponse'),
+    AdminAddUserToGroupResponse,
     newAdminAddUserToGroupResponse,
 
     -- ** AdminConfirmSignUp
-    AdminConfirmSignUp (AdminConfirmSignUp'),
+    AdminConfirmSignUp,
     newAdminConfirmSignUp,
-    AdminConfirmSignUpResponse (AdminConfirmSignUpResponse'),
+    AdminConfirmSignUpResponse,
     newAdminConfirmSignUpResponse,
 
     -- ** AdminCreateUser
-    AdminCreateUser (AdminCreateUser'),
+    AdminCreateUser,
     newAdminCreateUser,
-    AdminCreateUserResponse (AdminCreateUserResponse'),
+    AdminCreateUserResponse,
     newAdminCreateUserResponse,
 
     -- ** AdminDeleteUser
-    AdminDeleteUser (AdminDeleteUser'),
+    AdminDeleteUser,
     newAdminDeleteUser,
-    AdminDeleteUserResponse (AdminDeleteUserResponse'),
+    AdminDeleteUserResponse,
     newAdminDeleteUserResponse,
 
     -- ** AdminDeleteUserAttributes
-    AdminDeleteUserAttributes (AdminDeleteUserAttributes'),
+    AdminDeleteUserAttributes,
     newAdminDeleteUserAttributes,
-    AdminDeleteUserAttributesResponse (AdminDeleteUserAttributesResponse'),
+    AdminDeleteUserAttributesResponse,
     newAdminDeleteUserAttributesResponse,
 
     -- ** AdminDisableProviderForUser
-    AdminDisableProviderForUser (AdminDisableProviderForUser'),
+    AdminDisableProviderForUser,
     newAdminDisableProviderForUser,
-    AdminDisableProviderForUserResponse (AdminDisableProviderForUserResponse'),
+    AdminDisableProviderForUserResponse,
     newAdminDisableProviderForUserResponse,
 
     -- ** AdminDisableUser
-    AdminDisableUser (AdminDisableUser'),
+    AdminDisableUser,
     newAdminDisableUser,
-    AdminDisableUserResponse (AdminDisableUserResponse'),
+    AdminDisableUserResponse,
     newAdminDisableUserResponse,
 
     -- ** AdminEnableUser
-    AdminEnableUser (AdminEnableUser'),
+    AdminEnableUser,
     newAdminEnableUser,
-    AdminEnableUserResponse (AdminEnableUserResponse'),
+    AdminEnableUserResponse,
     newAdminEnableUserResponse,
 
     -- ** AdminForgetDevice
-    AdminForgetDevice (AdminForgetDevice'),
+    AdminForgetDevice,
     newAdminForgetDevice,
-    AdminForgetDeviceResponse (AdminForgetDeviceResponse'),
+    AdminForgetDeviceResponse,
     newAdminForgetDeviceResponse,
 
     -- ** AdminGetDevice
-    AdminGetDevice (AdminGetDevice'),
+    AdminGetDevice,
     newAdminGetDevice,
-    AdminGetDeviceResponse (AdminGetDeviceResponse'),
+    AdminGetDeviceResponse,
     newAdminGetDeviceResponse,
 
     -- ** AdminGetUser
-    AdminGetUser (AdminGetUser'),
+    AdminGetUser,
     newAdminGetUser,
-    AdminGetUserResponse (AdminGetUserResponse'),
+    AdminGetUserResponse,
     newAdminGetUserResponse,
 
     -- ** AdminInitiateAuth
-    AdminInitiateAuth (AdminInitiateAuth'),
+    AdminInitiateAuth,
     newAdminInitiateAuth,
-    AdminInitiateAuthResponse (AdminInitiateAuthResponse'),
+    AdminInitiateAuthResponse,
     newAdminInitiateAuthResponse,
 
     -- ** AdminLinkProviderForUser
-    AdminLinkProviderForUser (AdminLinkProviderForUser'),
+    AdminLinkProviderForUser,
     newAdminLinkProviderForUser,
-    AdminLinkProviderForUserResponse (AdminLinkProviderForUserResponse'),
+    AdminLinkProviderForUserResponse,
     newAdminLinkProviderForUserResponse,
 
     -- ** AdminListDevices
-    AdminListDevices (AdminListDevices'),
+    AdminListDevices,
     newAdminListDevices,
-    AdminListDevicesResponse (AdminListDevicesResponse'),
+    AdminListDevicesResponse,
     newAdminListDevicesResponse,
 
     -- ** AdminListGroupsForUser (Paginated)
-    AdminListGroupsForUser (AdminListGroupsForUser'),
+    AdminListGroupsForUser,
     newAdminListGroupsForUser,
-    AdminListGroupsForUserResponse (AdminListGroupsForUserResponse'),
+    AdminListGroupsForUserResponse,
     newAdminListGroupsForUserResponse,
 
     -- ** AdminListUserAuthEvents (Paginated)
-    AdminListUserAuthEvents (AdminListUserAuthEvents'),
+    AdminListUserAuthEvents,
     newAdminListUserAuthEvents,
-    AdminListUserAuthEventsResponse (AdminListUserAuthEventsResponse'),
+    AdminListUserAuthEventsResponse,
     newAdminListUserAuthEventsResponse,
 
     -- ** AdminRemoveUserFromGroup
-    AdminRemoveUserFromGroup (AdminRemoveUserFromGroup'),
+    AdminRemoveUserFromGroup,
     newAdminRemoveUserFromGroup,
-    AdminRemoveUserFromGroupResponse (AdminRemoveUserFromGroupResponse'),
+    AdminRemoveUserFromGroupResponse,
     newAdminRemoveUserFromGroupResponse,
 
     -- ** AdminResetUserPassword
-    AdminResetUserPassword (AdminResetUserPassword'),
+    AdminResetUserPassword,
     newAdminResetUserPassword,
-    AdminResetUserPasswordResponse (AdminResetUserPasswordResponse'),
+    AdminResetUserPasswordResponse,
     newAdminResetUserPasswordResponse,
 
     -- ** AdminRespondToAuthChallenge
-    AdminRespondToAuthChallenge (AdminRespondToAuthChallenge'),
+    AdminRespondToAuthChallenge,
     newAdminRespondToAuthChallenge,
-    AdminRespondToAuthChallengeResponse (AdminRespondToAuthChallengeResponse'),
+    AdminRespondToAuthChallengeResponse,
     newAdminRespondToAuthChallengeResponse,
 
     -- ** AdminSetUserMFAPreference
-    AdminSetUserMFAPreference (AdminSetUserMFAPreference'),
+    AdminSetUserMFAPreference,
     newAdminSetUserMFAPreference,
-    AdminSetUserMFAPreferenceResponse (AdminSetUserMFAPreferenceResponse'),
+    AdminSetUserMFAPreferenceResponse,
     newAdminSetUserMFAPreferenceResponse,
 
     -- ** AdminSetUserPassword
-    AdminSetUserPassword (AdminSetUserPassword'),
+    AdminSetUserPassword,
     newAdminSetUserPassword,
-    AdminSetUserPasswordResponse (AdminSetUserPasswordResponse'),
+    AdminSetUserPasswordResponse,
     newAdminSetUserPasswordResponse,
 
     -- ** AdminSetUserSettings
-    AdminSetUserSettings (AdminSetUserSettings'),
+    AdminSetUserSettings,
     newAdminSetUserSettings,
-    AdminSetUserSettingsResponse (AdminSetUserSettingsResponse'),
+    AdminSetUserSettingsResponse,
     newAdminSetUserSettingsResponse,
 
     -- ** AdminUpdateAuthEventFeedback
-    AdminUpdateAuthEventFeedback (AdminUpdateAuthEventFeedback'),
+    AdminUpdateAuthEventFeedback,
     newAdminUpdateAuthEventFeedback,
-    AdminUpdateAuthEventFeedbackResponse (AdminUpdateAuthEventFeedbackResponse'),
+    AdminUpdateAuthEventFeedbackResponse,
     newAdminUpdateAuthEventFeedbackResponse,
 
     -- ** AdminUpdateDeviceStatus
-    AdminUpdateDeviceStatus (AdminUpdateDeviceStatus'),
+    AdminUpdateDeviceStatus,
     newAdminUpdateDeviceStatus,
-    AdminUpdateDeviceStatusResponse (AdminUpdateDeviceStatusResponse'),
+    AdminUpdateDeviceStatusResponse,
     newAdminUpdateDeviceStatusResponse,
 
     -- ** AdminUpdateUserAttributes
-    AdminUpdateUserAttributes (AdminUpdateUserAttributes'),
+    AdminUpdateUserAttributes,
     newAdminUpdateUserAttributes,
-    AdminUpdateUserAttributesResponse (AdminUpdateUserAttributesResponse'),
+    AdminUpdateUserAttributesResponse,
     newAdminUpdateUserAttributesResponse,
 
     -- ** AdminUserGlobalSignOut
-    AdminUserGlobalSignOut (AdminUserGlobalSignOut'),
+    AdminUserGlobalSignOut,
     newAdminUserGlobalSignOut,
-    AdminUserGlobalSignOutResponse (AdminUserGlobalSignOutResponse'),
+    AdminUserGlobalSignOutResponse,
     newAdminUserGlobalSignOutResponse,
 
     -- ** AssociateSoftwareToken
-    AssociateSoftwareToken (AssociateSoftwareToken'),
+    AssociateSoftwareToken,
     newAssociateSoftwareToken,
-    AssociateSoftwareTokenResponse (AssociateSoftwareTokenResponse'),
+    AssociateSoftwareTokenResponse,
     newAssociateSoftwareTokenResponse,
 
     -- ** ChangePassword
-    ChangePassword (ChangePassword'),
+    ChangePassword,
     newChangePassword,
-    ChangePasswordResponse (ChangePasswordResponse'),
+    ChangePasswordResponse,
     newChangePasswordResponse,
 
     -- ** ConfirmDevice
-    ConfirmDevice (ConfirmDevice'),
+    ConfirmDevice,
     newConfirmDevice,
-    ConfirmDeviceResponse (ConfirmDeviceResponse'),
+    ConfirmDeviceResponse,
     newConfirmDeviceResponse,
 
     -- ** ConfirmForgotPassword
-    ConfirmForgotPassword (ConfirmForgotPassword'),
+    ConfirmForgotPassword,
     newConfirmForgotPassword,
-    ConfirmForgotPasswordResponse (ConfirmForgotPasswordResponse'),
+    ConfirmForgotPasswordResponse,
     newConfirmForgotPasswordResponse,
 
     -- ** ConfirmSignUp
-    ConfirmSignUp (ConfirmSignUp'),
+    ConfirmSignUp,
     newConfirmSignUp,
-    ConfirmSignUpResponse (ConfirmSignUpResponse'),
+    ConfirmSignUpResponse,
     newConfirmSignUpResponse,
 
     -- ** CreateGroup
-    CreateGroup (CreateGroup'),
+    CreateGroup,
     newCreateGroup,
-    CreateGroupResponse (CreateGroupResponse'),
+    CreateGroupResponse,
     newCreateGroupResponse,
 
     -- ** CreateIdentityProvider
-    CreateIdentityProvider (CreateIdentityProvider'),
+    CreateIdentityProvider,
     newCreateIdentityProvider,
-    CreateIdentityProviderResponse (CreateIdentityProviderResponse'),
+    CreateIdentityProviderResponse,
     newCreateIdentityProviderResponse,
 
     -- ** CreateResourceServer
-    CreateResourceServer (CreateResourceServer'),
+    CreateResourceServer,
     newCreateResourceServer,
-    CreateResourceServerResponse (CreateResourceServerResponse'),
+    CreateResourceServerResponse,
     newCreateResourceServerResponse,
 
     -- ** CreateUserImportJob
-    CreateUserImportJob (CreateUserImportJob'),
+    CreateUserImportJob,
     newCreateUserImportJob,
-    CreateUserImportJobResponse (CreateUserImportJobResponse'),
+    CreateUserImportJobResponse,
     newCreateUserImportJobResponse,
 
     -- ** CreateUserPool
-    CreateUserPool (CreateUserPool'),
+    CreateUserPool,
     newCreateUserPool,
-    CreateUserPoolResponse (CreateUserPoolResponse'),
+    CreateUserPoolResponse,
     newCreateUserPoolResponse,
 
     -- ** CreateUserPoolClient
-    CreateUserPoolClient (CreateUserPoolClient'),
+    CreateUserPoolClient,
     newCreateUserPoolClient,
-    CreateUserPoolClientResponse (CreateUserPoolClientResponse'),
+    CreateUserPoolClientResponse,
     newCreateUserPoolClientResponse,
 
     -- ** CreateUserPoolDomain
-    CreateUserPoolDomain (CreateUserPoolDomain'),
+    CreateUserPoolDomain,
     newCreateUserPoolDomain,
-    CreateUserPoolDomainResponse (CreateUserPoolDomainResponse'),
+    CreateUserPoolDomainResponse,
     newCreateUserPoolDomainResponse,
 
     -- ** DeleteGroup
-    DeleteGroup (DeleteGroup'),
+    DeleteGroup,
     newDeleteGroup,
-    DeleteGroupResponse (DeleteGroupResponse'),
+    DeleteGroupResponse,
     newDeleteGroupResponse,
 
     -- ** DeleteIdentityProvider
-    DeleteIdentityProvider (DeleteIdentityProvider'),
+    DeleteIdentityProvider,
     newDeleteIdentityProvider,
-    DeleteIdentityProviderResponse (DeleteIdentityProviderResponse'),
+    DeleteIdentityProviderResponse,
     newDeleteIdentityProviderResponse,
 
     -- ** DeleteResourceServer
-    DeleteResourceServer (DeleteResourceServer'),
+    DeleteResourceServer,
     newDeleteResourceServer,
-    DeleteResourceServerResponse (DeleteResourceServerResponse'),
+    DeleteResourceServerResponse,
     newDeleteResourceServerResponse,
 
     -- ** DeleteUser
-    DeleteUser (DeleteUser'),
+    DeleteUser,
     newDeleteUser,
-    DeleteUserResponse (DeleteUserResponse'),
+    DeleteUserResponse,
     newDeleteUserResponse,
 
     -- ** DeleteUserAttributes
-    DeleteUserAttributes (DeleteUserAttributes'),
+    DeleteUserAttributes,
     newDeleteUserAttributes,
-    DeleteUserAttributesResponse (DeleteUserAttributesResponse'),
+    DeleteUserAttributesResponse,
     newDeleteUserAttributesResponse,
 
     -- ** DeleteUserPool
-    DeleteUserPool (DeleteUserPool'),
+    DeleteUserPool,
     newDeleteUserPool,
-    DeleteUserPoolResponse (DeleteUserPoolResponse'),
+    DeleteUserPoolResponse,
     newDeleteUserPoolResponse,
 
     -- ** DeleteUserPoolClient
-    DeleteUserPoolClient (DeleteUserPoolClient'),
+    DeleteUserPoolClient,
     newDeleteUserPoolClient,
-    DeleteUserPoolClientResponse (DeleteUserPoolClientResponse'),
+    DeleteUserPoolClientResponse,
     newDeleteUserPoolClientResponse,
 
     -- ** DeleteUserPoolDomain
-    DeleteUserPoolDomain (DeleteUserPoolDomain'),
+    DeleteUserPoolDomain,
     newDeleteUserPoolDomain,
-    DeleteUserPoolDomainResponse (DeleteUserPoolDomainResponse'),
+    DeleteUserPoolDomainResponse,
     newDeleteUserPoolDomainResponse,
 
     -- ** DescribeIdentityProvider
-    DescribeIdentityProvider (DescribeIdentityProvider'),
+    DescribeIdentityProvider,
     newDescribeIdentityProvider,
-    DescribeIdentityProviderResponse (DescribeIdentityProviderResponse'),
+    DescribeIdentityProviderResponse,
     newDescribeIdentityProviderResponse,
 
     -- ** DescribeResourceServer
-    DescribeResourceServer (DescribeResourceServer'),
+    DescribeResourceServer,
     newDescribeResourceServer,
-    DescribeResourceServerResponse (DescribeResourceServerResponse'),
+    DescribeResourceServerResponse,
     newDescribeResourceServerResponse,
 
     -- ** DescribeRiskConfiguration
-    DescribeRiskConfiguration (DescribeRiskConfiguration'),
+    DescribeRiskConfiguration,
     newDescribeRiskConfiguration,
-    DescribeRiskConfigurationResponse (DescribeRiskConfigurationResponse'),
+    DescribeRiskConfigurationResponse,
     newDescribeRiskConfigurationResponse,
 
     -- ** DescribeUserImportJob
-    DescribeUserImportJob (DescribeUserImportJob'),
+    DescribeUserImportJob,
     newDescribeUserImportJob,
-    DescribeUserImportJobResponse (DescribeUserImportJobResponse'),
+    DescribeUserImportJobResponse,
     newDescribeUserImportJobResponse,
 
     -- ** DescribeUserPool
-    DescribeUserPool (DescribeUserPool'),
+    DescribeUserPool,
     newDescribeUserPool,
-    DescribeUserPoolResponse (DescribeUserPoolResponse'),
+    DescribeUserPoolResponse,
     newDescribeUserPoolResponse,
 
     -- ** DescribeUserPoolClient
-    DescribeUserPoolClient (DescribeUserPoolClient'),
+    DescribeUserPoolClient,
     newDescribeUserPoolClient,
-    DescribeUserPoolClientResponse (DescribeUserPoolClientResponse'),
+    DescribeUserPoolClientResponse,
     newDescribeUserPoolClientResponse,
 
     -- ** DescribeUserPoolDomain
-    DescribeUserPoolDomain (DescribeUserPoolDomain'),
+    DescribeUserPoolDomain,
     newDescribeUserPoolDomain,
-    DescribeUserPoolDomainResponse (DescribeUserPoolDomainResponse'),
+    DescribeUserPoolDomainResponse,
     newDescribeUserPoolDomainResponse,
 
     -- ** ForgetDevice
-    ForgetDevice (ForgetDevice'),
+    ForgetDevice,
     newForgetDevice,
-    ForgetDeviceResponse (ForgetDeviceResponse'),
+    ForgetDeviceResponse,
     newForgetDeviceResponse,
 
     -- ** ForgotPassword
-    ForgotPassword (ForgotPassword'),
+    ForgotPassword,
     newForgotPassword,
-    ForgotPasswordResponse (ForgotPasswordResponse'),
+    ForgotPasswordResponse,
     newForgotPasswordResponse,
 
     -- ** GetCSVHeader
-    GetCSVHeader (GetCSVHeader'),
+    GetCSVHeader,
     newGetCSVHeader,
-    GetCSVHeaderResponse (GetCSVHeaderResponse'),
+    GetCSVHeaderResponse,
     newGetCSVHeaderResponse,
 
     -- ** GetDevice
-    GetDevice (GetDevice'),
+    GetDevice,
     newGetDevice,
-    GetDeviceResponse (GetDeviceResponse'),
+    GetDeviceResponse,
     newGetDeviceResponse,
 
     -- ** GetGroup
-    GetGroup (GetGroup'),
+    GetGroup,
     newGetGroup,
-    GetGroupResponse (GetGroupResponse'),
+    GetGroupResponse,
     newGetGroupResponse,
 
     -- ** GetIdentityProviderByIdentifier
-    GetIdentityProviderByIdentifier (GetIdentityProviderByIdentifier'),
+    GetIdentityProviderByIdentifier,
     newGetIdentityProviderByIdentifier,
-    GetIdentityProviderByIdentifierResponse (GetIdentityProviderByIdentifierResponse'),
+    GetIdentityProviderByIdentifierResponse,
     newGetIdentityProviderByIdentifierResponse,
 
     -- ** GetSigningCertificate
-    GetSigningCertificate (GetSigningCertificate'),
+    GetSigningCertificate,
     newGetSigningCertificate,
-    GetSigningCertificateResponse (GetSigningCertificateResponse'),
+    GetSigningCertificateResponse,
     newGetSigningCertificateResponse,
 
     -- ** GetUICustomization
-    GetUICustomization (GetUICustomization'),
+    GetUICustomization,
     newGetUICustomization,
-    GetUICustomizationResponse (GetUICustomizationResponse'),
+    GetUICustomizationResponse,
     newGetUICustomizationResponse,
 
     -- ** GetUser
-    GetUser (GetUser'),
+    GetUser,
     newGetUser,
-    GetUserResponse (GetUserResponse'),
+    GetUserResponse,
     newGetUserResponse,
 
     -- ** GetUserAttributeVerificationCode
-    GetUserAttributeVerificationCode (GetUserAttributeVerificationCode'),
+    GetUserAttributeVerificationCode,
     newGetUserAttributeVerificationCode,
-    GetUserAttributeVerificationCodeResponse (GetUserAttributeVerificationCodeResponse'),
+    GetUserAttributeVerificationCodeResponse,
     newGetUserAttributeVerificationCodeResponse,
 
     -- ** GetUserPoolMfaConfig
-    GetUserPoolMfaConfig (GetUserPoolMfaConfig'),
+    GetUserPoolMfaConfig,
     newGetUserPoolMfaConfig,
-    GetUserPoolMfaConfigResponse (GetUserPoolMfaConfigResponse'),
+    GetUserPoolMfaConfigResponse,
     newGetUserPoolMfaConfigResponse,
 
     -- ** GlobalSignOut
-    GlobalSignOut (GlobalSignOut'),
+    GlobalSignOut,
     newGlobalSignOut,
-    GlobalSignOutResponse (GlobalSignOutResponse'),
+    GlobalSignOutResponse,
     newGlobalSignOutResponse,
 
     -- ** InitiateAuth
-    InitiateAuth (InitiateAuth'),
+    InitiateAuth,
     newInitiateAuth,
-    InitiateAuthResponse (InitiateAuthResponse'),
+    InitiateAuthResponse,
     newInitiateAuthResponse,
 
     -- ** ListDevices
-    ListDevices (ListDevices'),
+    ListDevices,
     newListDevices,
-    ListDevicesResponse (ListDevicesResponse'),
+    ListDevicesResponse,
     newListDevicesResponse,
 
     -- ** ListGroups (Paginated)
-    ListGroups (ListGroups'),
+    ListGroups,
     newListGroups,
-    ListGroupsResponse (ListGroupsResponse'),
+    ListGroupsResponse,
     newListGroupsResponse,
 
     -- ** ListIdentityProviders (Paginated)
-    ListIdentityProviders (ListIdentityProviders'),
+    ListIdentityProviders,
     newListIdentityProviders,
-    ListIdentityProvidersResponse (ListIdentityProvidersResponse'),
+    ListIdentityProvidersResponse,
     newListIdentityProvidersResponse,
 
     -- ** ListResourceServers (Paginated)
-    ListResourceServers (ListResourceServers'),
+    ListResourceServers,
     newListResourceServers,
-    ListResourceServersResponse (ListResourceServersResponse'),
+    ListResourceServersResponse,
     newListResourceServersResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** ListUserImportJobs
-    ListUserImportJobs (ListUserImportJobs'),
+    ListUserImportJobs,
     newListUserImportJobs,
-    ListUserImportJobsResponse (ListUserImportJobsResponse'),
+    ListUserImportJobsResponse,
     newListUserImportJobsResponse,
 
     -- ** ListUserPoolClients (Paginated)
-    ListUserPoolClients (ListUserPoolClients'),
+    ListUserPoolClients,
     newListUserPoolClients,
-    ListUserPoolClientsResponse (ListUserPoolClientsResponse'),
+    ListUserPoolClientsResponse,
     newListUserPoolClientsResponse,
 
     -- ** ListUserPools (Paginated)
-    ListUserPools (ListUserPools'),
+    ListUserPools,
     newListUserPools,
-    ListUserPoolsResponse (ListUserPoolsResponse'),
+    ListUserPoolsResponse,
     newListUserPoolsResponse,
 
     -- ** ListUsers (Paginated)
-    ListUsers (ListUsers'),
+    ListUsers,
     newListUsers,
-    ListUsersResponse (ListUsersResponse'),
+    ListUsersResponse,
     newListUsersResponse,
 
     -- ** ListUsersInGroup (Paginated)
-    ListUsersInGroup (ListUsersInGroup'),
+    ListUsersInGroup,
     newListUsersInGroup,
-    ListUsersInGroupResponse (ListUsersInGroupResponse'),
+    ListUsersInGroupResponse,
     newListUsersInGroupResponse,
 
     -- ** ResendConfirmationCode
-    ResendConfirmationCode (ResendConfirmationCode'),
+    ResendConfirmationCode,
     newResendConfirmationCode,
-    ResendConfirmationCodeResponse (ResendConfirmationCodeResponse'),
+    ResendConfirmationCodeResponse,
     newResendConfirmationCodeResponse,
 
     -- ** RespondToAuthChallenge
-    RespondToAuthChallenge (RespondToAuthChallenge'),
+    RespondToAuthChallenge,
     newRespondToAuthChallenge,
-    RespondToAuthChallengeResponse (RespondToAuthChallengeResponse'),
+    RespondToAuthChallengeResponse,
     newRespondToAuthChallengeResponse,
 
     -- ** RevokeToken
-    RevokeToken (RevokeToken'),
+    RevokeToken,
     newRevokeToken,
-    RevokeTokenResponse (RevokeTokenResponse'),
+    RevokeTokenResponse,
     newRevokeTokenResponse,
 
     -- ** SetRiskConfiguration
-    SetRiskConfiguration (SetRiskConfiguration'),
+    SetRiskConfiguration,
     newSetRiskConfiguration,
-    SetRiskConfigurationResponse (SetRiskConfigurationResponse'),
+    SetRiskConfigurationResponse,
     newSetRiskConfigurationResponse,
 
     -- ** SetUICustomization
-    SetUICustomization (SetUICustomization'),
+    SetUICustomization,
     newSetUICustomization,
-    SetUICustomizationResponse (SetUICustomizationResponse'),
+    SetUICustomizationResponse,
     newSetUICustomizationResponse,
 
     -- ** SetUserMFAPreference
-    SetUserMFAPreference (SetUserMFAPreference'),
+    SetUserMFAPreference,
     newSetUserMFAPreference,
-    SetUserMFAPreferenceResponse (SetUserMFAPreferenceResponse'),
+    SetUserMFAPreferenceResponse,
     newSetUserMFAPreferenceResponse,
 
     -- ** SetUserPoolMfaConfig
-    SetUserPoolMfaConfig (SetUserPoolMfaConfig'),
+    SetUserPoolMfaConfig,
     newSetUserPoolMfaConfig,
-    SetUserPoolMfaConfigResponse (SetUserPoolMfaConfigResponse'),
+    SetUserPoolMfaConfigResponse,
     newSetUserPoolMfaConfigResponse,
 
     -- ** SetUserSettings
-    SetUserSettings (SetUserSettings'),
+    SetUserSettings,
     newSetUserSettings,
-    SetUserSettingsResponse (SetUserSettingsResponse'),
+    SetUserSettingsResponse,
     newSetUserSettingsResponse,
 
     -- ** SignUp
-    SignUp (SignUp'),
+    SignUp,
     newSignUp,
-    SignUpResponse (SignUpResponse'),
+    SignUpResponse,
     newSignUpResponse,
 
     -- ** StartUserImportJob
-    StartUserImportJob (StartUserImportJob'),
+    StartUserImportJob,
     newStartUserImportJob,
-    StartUserImportJobResponse (StartUserImportJobResponse'),
+    StartUserImportJobResponse,
     newStartUserImportJobResponse,
 
     -- ** StopUserImportJob
-    StopUserImportJob (StopUserImportJob'),
+    StopUserImportJob,
     newStopUserImportJob,
-    StopUserImportJobResponse (StopUserImportJobResponse'),
+    StopUserImportJobResponse,
     newStopUserImportJobResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateAuthEventFeedback
-    UpdateAuthEventFeedback (UpdateAuthEventFeedback'),
+    UpdateAuthEventFeedback,
     newUpdateAuthEventFeedback,
-    UpdateAuthEventFeedbackResponse (UpdateAuthEventFeedbackResponse'),
+    UpdateAuthEventFeedbackResponse,
     newUpdateAuthEventFeedbackResponse,
 
     -- ** UpdateDeviceStatus
-    UpdateDeviceStatus (UpdateDeviceStatus'),
+    UpdateDeviceStatus,
     newUpdateDeviceStatus,
-    UpdateDeviceStatusResponse (UpdateDeviceStatusResponse'),
+    UpdateDeviceStatusResponse,
     newUpdateDeviceStatusResponse,
 
     -- ** UpdateGroup
-    UpdateGroup (UpdateGroup'),
+    UpdateGroup,
     newUpdateGroup,
-    UpdateGroupResponse (UpdateGroupResponse'),
+    UpdateGroupResponse,
     newUpdateGroupResponse,
 
     -- ** UpdateIdentityProvider
-    UpdateIdentityProvider (UpdateIdentityProvider'),
+    UpdateIdentityProvider,
     newUpdateIdentityProvider,
-    UpdateIdentityProviderResponse (UpdateIdentityProviderResponse'),
+    UpdateIdentityProviderResponse,
     newUpdateIdentityProviderResponse,
 
     -- ** UpdateResourceServer
-    UpdateResourceServer (UpdateResourceServer'),
+    UpdateResourceServer,
     newUpdateResourceServer,
-    UpdateResourceServerResponse (UpdateResourceServerResponse'),
+    UpdateResourceServerResponse,
     newUpdateResourceServerResponse,
 
     -- ** UpdateUserAttributes
-    UpdateUserAttributes (UpdateUserAttributes'),
+    UpdateUserAttributes,
     newUpdateUserAttributes,
-    UpdateUserAttributesResponse (UpdateUserAttributesResponse'),
+    UpdateUserAttributesResponse,
     newUpdateUserAttributesResponse,
 
     -- ** UpdateUserPool
-    UpdateUserPool (UpdateUserPool'),
+    UpdateUserPool,
     newUpdateUserPool,
-    UpdateUserPoolResponse (UpdateUserPoolResponse'),
+    UpdateUserPoolResponse,
     newUpdateUserPoolResponse,
 
     -- ** UpdateUserPoolClient
-    UpdateUserPoolClient (UpdateUserPoolClient'),
+    UpdateUserPoolClient,
     newUpdateUserPoolClient,
-    UpdateUserPoolClientResponse (UpdateUserPoolClientResponse'),
+    UpdateUserPoolClientResponse,
     newUpdateUserPoolClientResponse,
 
     -- ** UpdateUserPoolDomain
-    UpdateUserPoolDomain (UpdateUserPoolDomain'),
+    UpdateUserPoolDomain,
     newUpdateUserPoolDomain,
-    UpdateUserPoolDomainResponse (UpdateUserPoolDomainResponse'),
+    UpdateUserPoolDomainResponse,
     newUpdateUserPoolDomainResponse,
 
     -- ** VerifySoftwareToken
-    VerifySoftwareToken (VerifySoftwareToken'),
+    VerifySoftwareToken,
     newVerifySoftwareToken,
-    VerifySoftwareTokenResponse (VerifySoftwareTokenResponse'),
+    VerifySoftwareTokenResponse,
     newVerifySoftwareTokenResponse,
 
     -- ** VerifyUserAttribute
-    VerifyUserAttribute (VerifyUserAttribute'),
+    VerifyUserAttribute,
     newVerifyUserAttribute,
-    VerifyUserAttributeResponse (VerifyUserAttributeResponse'),
+    VerifyUserAttributeResponse,
     newVerifyUserAttributeResponse,
 
     -- * Types
@@ -876,263 +876,263 @@ module Amazonka.CognitoIdentityProvider
     VerifySoftwareTokenResponseType (..),
 
     -- ** AccountRecoverySettingType
-    AccountRecoverySettingType (AccountRecoverySettingType'),
+    AccountRecoverySettingType,
     newAccountRecoverySettingType,
 
     -- ** AccountTakeoverActionType
-    AccountTakeoverActionType (AccountTakeoverActionType'),
+    AccountTakeoverActionType,
     newAccountTakeoverActionType,
 
     -- ** AccountTakeoverActionsType
-    AccountTakeoverActionsType (AccountTakeoverActionsType'),
+    AccountTakeoverActionsType,
     newAccountTakeoverActionsType,
 
     -- ** AccountTakeoverRiskConfigurationType
-    AccountTakeoverRiskConfigurationType (AccountTakeoverRiskConfigurationType'),
+    AccountTakeoverRiskConfigurationType,
     newAccountTakeoverRiskConfigurationType,
 
     -- ** AdminCreateUserConfigType
-    AdminCreateUserConfigType (AdminCreateUserConfigType'),
+    AdminCreateUserConfigType,
     newAdminCreateUserConfigType,
 
     -- ** AnalyticsConfigurationType
-    AnalyticsConfigurationType (AnalyticsConfigurationType'),
+    AnalyticsConfigurationType,
     newAnalyticsConfigurationType,
 
     -- ** AnalyticsMetadataType
-    AnalyticsMetadataType (AnalyticsMetadataType'),
+    AnalyticsMetadataType,
     newAnalyticsMetadataType,
 
     -- ** AttributeType
-    AttributeType (AttributeType'),
+    AttributeType,
     newAttributeType,
 
     -- ** AuthEventType
-    AuthEventType (AuthEventType'),
+    AuthEventType,
     newAuthEventType,
 
     -- ** AuthenticationResultType
-    AuthenticationResultType (AuthenticationResultType'),
+    AuthenticationResultType,
     newAuthenticationResultType,
 
     -- ** ChallengeResponseType
-    ChallengeResponseType (ChallengeResponseType'),
+    ChallengeResponseType,
     newChallengeResponseType,
 
     -- ** CodeDeliveryDetailsType
-    CodeDeliveryDetailsType (CodeDeliveryDetailsType'),
+    CodeDeliveryDetailsType,
     newCodeDeliveryDetailsType,
 
     -- ** CompromisedCredentialsActionsType
-    CompromisedCredentialsActionsType (CompromisedCredentialsActionsType'),
+    CompromisedCredentialsActionsType,
     newCompromisedCredentialsActionsType,
 
     -- ** CompromisedCredentialsRiskConfigurationType
-    CompromisedCredentialsRiskConfigurationType (CompromisedCredentialsRiskConfigurationType'),
+    CompromisedCredentialsRiskConfigurationType,
     newCompromisedCredentialsRiskConfigurationType,
 
     -- ** ContextDataType
-    ContextDataType (ContextDataType'),
+    ContextDataType,
     newContextDataType,
 
     -- ** CustomDomainConfigType
-    CustomDomainConfigType (CustomDomainConfigType'),
+    CustomDomainConfigType,
     newCustomDomainConfigType,
 
     -- ** CustomEmailLambdaVersionConfigType
-    CustomEmailLambdaVersionConfigType (CustomEmailLambdaVersionConfigType'),
+    CustomEmailLambdaVersionConfigType,
     newCustomEmailLambdaVersionConfigType,
 
     -- ** CustomSMSLambdaVersionConfigType
-    CustomSMSLambdaVersionConfigType (CustomSMSLambdaVersionConfigType'),
+    CustomSMSLambdaVersionConfigType,
     newCustomSMSLambdaVersionConfigType,
 
     -- ** DeviceConfigurationType
-    DeviceConfigurationType (DeviceConfigurationType'),
+    DeviceConfigurationType,
     newDeviceConfigurationType,
 
     -- ** DeviceSecretVerifierConfigType
-    DeviceSecretVerifierConfigType (DeviceSecretVerifierConfigType'),
+    DeviceSecretVerifierConfigType,
     newDeviceSecretVerifierConfigType,
 
     -- ** DeviceType
-    DeviceType (DeviceType'),
+    DeviceType,
     newDeviceType,
 
     -- ** DomainDescriptionType
-    DomainDescriptionType (DomainDescriptionType'),
+    DomainDescriptionType,
     newDomainDescriptionType,
 
     -- ** EmailConfigurationType
-    EmailConfigurationType (EmailConfigurationType'),
+    EmailConfigurationType,
     newEmailConfigurationType,
 
     -- ** EventContextDataType
-    EventContextDataType (EventContextDataType'),
+    EventContextDataType,
     newEventContextDataType,
 
     -- ** EventFeedbackType
-    EventFeedbackType (EventFeedbackType'),
+    EventFeedbackType,
     newEventFeedbackType,
 
     -- ** EventRiskType
-    EventRiskType (EventRiskType'),
+    EventRiskType,
     newEventRiskType,
 
     -- ** GroupType
-    GroupType (GroupType'),
+    GroupType,
     newGroupType,
 
     -- ** HttpHeader
-    HttpHeader (HttpHeader'),
+    HttpHeader,
     newHttpHeader,
 
     -- ** IdentityProviderType
-    IdentityProviderType (IdentityProviderType'),
+    IdentityProviderType,
     newIdentityProviderType,
 
     -- ** LambdaConfigType
-    LambdaConfigType (LambdaConfigType'),
+    LambdaConfigType,
     newLambdaConfigType,
 
     -- ** MFAOptionType
-    MFAOptionType (MFAOptionType'),
+    MFAOptionType,
     newMFAOptionType,
 
     -- ** MessageTemplateType
-    MessageTemplateType (MessageTemplateType'),
+    MessageTemplateType,
     newMessageTemplateType,
 
     -- ** NewDeviceMetadataType
-    NewDeviceMetadataType (NewDeviceMetadataType'),
+    NewDeviceMetadataType,
     newNewDeviceMetadataType,
 
     -- ** NotifyConfigurationType
-    NotifyConfigurationType (NotifyConfigurationType'),
+    NotifyConfigurationType,
     newNotifyConfigurationType,
 
     -- ** NotifyEmailType
-    NotifyEmailType (NotifyEmailType'),
+    NotifyEmailType,
     newNotifyEmailType,
 
     -- ** NumberAttributeConstraintsType
-    NumberAttributeConstraintsType (NumberAttributeConstraintsType'),
+    NumberAttributeConstraintsType,
     newNumberAttributeConstraintsType,
 
     -- ** PasswordPolicyType
-    PasswordPolicyType (PasswordPolicyType'),
+    PasswordPolicyType,
     newPasswordPolicyType,
 
     -- ** ProviderDescription
-    ProviderDescription (ProviderDescription'),
+    ProviderDescription,
     newProviderDescription,
 
     -- ** ProviderUserIdentifierType
-    ProviderUserIdentifierType (ProviderUserIdentifierType'),
+    ProviderUserIdentifierType,
     newProviderUserIdentifierType,
 
     -- ** RecoveryOptionType
-    RecoveryOptionType (RecoveryOptionType'),
+    RecoveryOptionType,
     newRecoveryOptionType,
 
     -- ** ResourceServerScopeType
-    ResourceServerScopeType (ResourceServerScopeType'),
+    ResourceServerScopeType,
     newResourceServerScopeType,
 
     -- ** ResourceServerType
-    ResourceServerType (ResourceServerType'),
+    ResourceServerType,
     newResourceServerType,
 
     -- ** RiskConfigurationType
-    RiskConfigurationType (RiskConfigurationType'),
+    RiskConfigurationType,
     newRiskConfigurationType,
 
     -- ** RiskExceptionConfigurationType
-    RiskExceptionConfigurationType (RiskExceptionConfigurationType'),
+    RiskExceptionConfigurationType,
     newRiskExceptionConfigurationType,
 
     -- ** SMSMfaSettingsType
-    SMSMfaSettingsType (SMSMfaSettingsType'),
+    SMSMfaSettingsType,
     newSMSMfaSettingsType,
 
     -- ** SchemaAttributeType
-    SchemaAttributeType (SchemaAttributeType'),
+    SchemaAttributeType,
     newSchemaAttributeType,
 
     -- ** SmsConfigurationType
-    SmsConfigurationType (SmsConfigurationType'),
+    SmsConfigurationType,
     newSmsConfigurationType,
 
     -- ** SmsMfaConfigType
-    SmsMfaConfigType (SmsMfaConfigType'),
+    SmsMfaConfigType,
     newSmsMfaConfigType,
 
     -- ** SoftwareTokenMfaConfigType
-    SoftwareTokenMfaConfigType (SoftwareTokenMfaConfigType'),
+    SoftwareTokenMfaConfigType,
     newSoftwareTokenMfaConfigType,
 
     -- ** SoftwareTokenMfaSettingsType
-    SoftwareTokenMfaSettingsType (SoftwareTokenMfaSettingsType'),
+    SoftwareTokenMfaSettingsType,
     newSoftwareTokenMfaSettingsType,
 
     -- ** StringAttributeConstraintsType
-    StringAttributeConstraintsType (StringAttributeConstraintsType'),
+    StringAttributeConstraintsType,
     newStringAttributeConstraintsType,
 
     -- ** TokenValidityUnitsType
-    TokenValidityUnitsType (TokenValidityUnitsType'),
+    TokenValidityUnitsType,
     newTokenValidityUnitsType,
 
     -- ** UICustomizationType
-    UICustomizationType (UICustomizationType'),
+    UICustomizationType,
     newUICustomizationType,
 
     -- ** UserAttributeUpdateSettingsType
-    UserAttributeUpdateSettingsType (UserAttributeUpdateSettingsType'),
+    UserAttributeUpdateSettingsType,
     newUserAttributeUpdateSettingsType,
 
     -- ** UserContextDataType
-    UserContextDataType (UserContextDataType'),
+    UserContextDataType,
     newUserContextDataType,
 
     -- ** UserImportJobType
-    UserImportJobType (UserImportJobType'),
+    UserImportJobType,
     newUserImportJobType,
 
     -- ** UserPoolAddOnsType
-    UserPoolAddOnsType (UserPoolAddOnsType'),
+    UserPoolAddOnsType,
     newUserPoolAddOnsType,
 
     -- ** UserPoolClientDescription
-    UserPoolClientDescription (UserPoolClientDescription'),
+    UserPoolClientDescription,
     newUserPoolClientDescription,
 
     -- ** UserPoolClientType
-    UserPoolClientType (UserPoolClientType'),
+    UserPoolClientType,
     newUserPoolClientType,
 
     -- ** UserPoolDescriptionType
-    UserPoolDescriptionType (UserPoolDescriptionType'),
+    UserPoolDescriptionType,
     newUserPoolDescriptionType,
 
     -- ** UserPoolPolicyType
-    UserPoolPolicyType (UserPoolPolicyType'),
+    UserPoolPolicyType,
     newUserPoolPolicyType,
 
     -- ** UserPoolType
-    UserPoolType (UserPoolType'),
+    UserPoolType,
     newUserPoolType,
 
     -- ** UserType
-    UserType (UserType'),
+    UserType,
     newUserType,
 
     -- ** UsernameConfigurationType
-    UsernameConfigurationType (UsernameConfigurationType'),
+    UsernameConfigurationType,
     newUsernameConfigurationType,
 
     -- ** VerificationMessageTemplateType
-    VerificationMessageTemplateType (VerificationMessageTemplateType'),
+    VerificationMessageTemplateType,
     newVerificationMessageTemplateType,
   )
 where

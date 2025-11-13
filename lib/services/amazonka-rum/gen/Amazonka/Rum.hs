@@ -59,105 +59,105 @@ module Amazonka.Rum
     -- $operations
 
     -- ** BatchCreateRumMetricDefinitions
-    BatchCreateRumMetricDefinitions (BatchCreateRumMetricDefinitions'),
+    BatchCreateRumMetricDefinitions,
     newBatchCreateRumMetricDefinitions,
-    BatchCreateRumMetricDefinitionsResponse (BatchCreateRumMetricDefinitionsResponse'),
+    BatchCreateRumMetricDefinitionsResponse,
     newBatchCreateRumMetricDefinitionsResponse,
 
     -- ** BatchDeleteRumMetricDefinitions
-    BatchDeleteRumMetricDefinitions (BatchDeleteRumMetricDefinitions'),
+    BatchDeleteRumMetricDefinitions,
     newBatchDeleteRumMetricDefinitions,
-    BatchDeleteRumMetricDefinitionsResponse (BatchDeleteRumMetricDefinitionsResponse'),
+    BatchDeleteRumMetricDefinitionsResponse,
     newBatchDeleteRumMetricDefinitionsResponse,
 
     -- ** BatchGetRumMetricDefinitions (Paginated)
-    BatchGetRumMetricDefinitions (BatchGetRumMetricDefinitions'),
+    BatchGetRumMetricDefinitions,
     newBatchGetRumMetricDefinitions,
-    BatchGetRumMetricDefinitionsResponse (BatchGetRumMetricDefinitionsResponse'),
+    BatchGetRumMetricDefinitionsResponse,
     newBatchGetRumMetricDefinitionsResponse,
 
     -- ** CreateAppMonitor
-    CreateAppMonitor (CreateAppMonitor'),
+    CreateAppMonitor,
     newCreateAppMonitor,
-    CreateAppMonitorResponse (CreateAppMonitorResponse'),
+    CreateAppMonitorResponse,
     newCreateAppMonitorResponse,
 
     -- ** DeleteAppMonitor
-    DeleteAppMonitor (DeleteAppMonitor'),
+    DeleteAppMonitor,
     newDeleteAppMonitor,
-    DeleteAppMonitorResponse (DeleteAppMonitorResponse'),
+    DeleteAppMonitorResponse,
     newDeleteAppMonitorResponse,
 
     -- ** DeleteRumMetricsDestination
-    DeleteRumMetricsDestination (DeleteRumMetricsDestination'),
+    DeleteRumMetricsDestination,
     newDeleteRumMetricsDestination,
-    DeleteRumMetricsDestinationResponse (DeleteRumMetricsDestinationResponse'),
+    DeleteRumMetricsDestinationResponse,
     newDeleteRumMetricsDestinationResponse,
 
     -- ** GetAppMonitor
-    GetAppMonitor (GetAppMonitor'),
+    GetAppMonitor,
     newGetAppMonitor,
-    GetAppMonitorResponse (GetAppMonitorResponse'),
+    GetAppMonitorResponse,
     newGetAppMonitorResponse,
 
     -- ** GetAppMonitorData (Paginated)
-    GetAppMonitorData (GetAppMonitorData'),
+    GetAppMonitorData,
     newGetAppMonitorData,
-    GetAppMonitorDataResponse (GetAppMonitorDataResponse'),
+    GetAppMonitorDataResponse,
     newGetAppMonitorDataResponse,
 
     -- ** ListAppMonitors (Paginated)
-    ListAppMonitors (ListAppMonitors'),
+    ListAppMonitors,
     newListAppMonitors,
-    ListAppMonitorsResponse (ListAppMonitorsResponse'),
+    ListAppMonitorsResponse,
     newListAppMonitorsResponse,
 
     -- ** ListRumMetricsDestinations (Paginated)
-    ListRumMetricsDestinations (ListRumMetricsDestinations'),
+    ListRumMetricsDestinations,
     newListRumMetricsDestinations,
-    ListRumMetricsDestinationsResponse (ListRumMetricsDestinationsResponse'),
+    ListRumMetricsDestinationsResponse,
     newListRumMetricsDestinationsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** PutRumEvents
-    PutRumEvents (PutRumEvents'),
+    PutRumEvents,
     newPutRumEvents,
-    PutRumEventsResponse (PutRumEventsResponse'),
+    PutRumEventsResponse,
     newPutRumEventsResponse,
 
     -- ** PutRumMetricsDestination
-    PutRumMetricsDestination (PutRumMetricsDestination'),
+    PutRumMetricsDestination,
     newPutRumMetricsDestination,
-    PutRumMetricsDestinationResponse (PutRumMetricsDestinationResponse'),
+    PutRumMetricsDestinationResponse,
     newPutRumMetricsDestinationResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateAppMonitor
-    UpdateAppMonitor (UpdateAppMonitor'),
+    UpdateAppMonitor,
     newUpdateAppMonitor,
-    UpdateAppMonitorResponse (UpdateAppMonitorResponse'),
+    UpdateAppMonitorResponse,
     newUpdateAppMonitorResponse,
 
     -- ** UpdateRumMetricDefinition
-    UpdateRumMetricDefinition (UpdateRumMetricDefinition'),
+    UpdateRumMetricDefinition,
     newUpdateRumMetricDefinition,
-    UpdateRumMetricDefinitionResponse (UpdateRumMetricDefinitionResponse'),
+    UpdateRumMetricDefinitionResponse,
     newUpdateRumMetricDefinitionResponse,
 
     -- * Types
@@ -175,67 +175,67 @@ module Amazonka.Rum
     Telemetry (..),
 
     -- ** AppMonitor
-    AppMonitor (AppMonitor'),
+    AppMonitor,
     newAppMonitor,
 
     -- ** AppMonitorConfiguration
-    AppMonitorConfiguration (AppMonitorConfiguration'),
+    AppMonitorConfiguration,
     newAppMonitorConfiguration,
 
     -- ** AppMonitorDetails
-    AppMonitorDetails (AppMonitorDetails'),
+    AppMonitorDetails,
     newAppMonitorDetails,
 
     -- ** AppMonitorSummary
-    AppMonitorSummary (AppMonitorSummary'),
+    AppMonitorSummary,
     newAppMonitorSummary,
 
     -- ** BatchCreateRumMetricDefinitionsError
-    BatchCreateRumMetricDefinitionsError (BatchCreateRumMetricDefinitionsError'),
+    BatchCreateRumMetricDefinitionsError,
     newBatchCreateRumMetricDefinitionsError,
 
     -- ** BatchDeleteRumMetricDefinitionsError
-    BatchDeleteRumMetricDefinitionsError (BatchDeleteRumMetricDefinitionsError'),
+    BatchDeleteRumMetricDefinitionsError,
     newBatchDeleteRumMetricDefinitionsError,
 
     -- ** CustomEvents
-    CustomEvents (CustomEvents'),
+    CustomEvents,
     newCustomEvents,
 
     -- ** CwLog
-    CwLog (CwLog'),
+    CwLog,
     newCwLog,
 
     -- ** DataStorage
-    DataStorage (DataStorage'),
+    DataStorage,
     newDataStorage,
 
     -- ** MetricDefinition
-    MetricDefinition (MetricDefinition'),
+    MetricDefinition,
     newMetricDefinition,
 
     -- ** MetricDefinitionRequest
-    MetricDefinitionRequest (MetricDefinitionRequest'),
+    MetricDefinitionRequest,
     newMetricDefinitionRequest,
 
     -- ** MetricDestinationSummary
-    MetricDestinationSummary (MetricDestinationSummary'),
+    MetricDestinationSummary,
     newMetricDestinationSummary,
 
     -- ** QueryFilter
-    QueryFilter (QueryFilter'),
+    QueryFilter,
     newQueryFilter,
 
     -- ** RumEvent
-    RumEvent (RumEvent'),
+    RumEvent,
     newRumEvent,
 
     -- ** TimeRange
-    TimeRange (TimeRange'),
+    TimeRange,
     newTimeRange,
 
     -- ** UserDetails
-    UserDetails (UserDetails'),
+    UserDetails,
     newUserDetails,
   )
 where

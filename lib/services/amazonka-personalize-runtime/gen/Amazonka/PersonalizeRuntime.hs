@@ -30,25 +30,25 @@ module Amazonka.PersonalizeRuntime
     -- $operations
 
     -- ** GetPersonalizedRanking
-    GetPersonalizedRanking (GetPersonalizedRanking'),
+    GetPersonalizedRanking,
     newGetPersonalizedRanking,
-    GetPersonalizedRankingResponse (GetPersonalizedRankingResponse'),
+    GetPersonalizedRankingResponse,
     newGetPersonalizedRankingResponse,
 
     -- ** GetRecommendations
-    GetRecommendations (GetRecommendations'),
+    GetRecommendations,
     newGetRecommendations,
-    GetRecommendationsResponse (GetRecommendationsResponse'),
+    GetRecommendationsResponse,
     newGetRecommendationsResponse,
 
     -- * Types
 
     -- ** PredictedItem
-    PredictedItem (PredictedItem'),
+    PredictedItem,
     newPredictedItem,
 
     -- ** Promotion
-    Promotion (Promotion'),
+    Promotion,
     newPromotion,
   )
 where

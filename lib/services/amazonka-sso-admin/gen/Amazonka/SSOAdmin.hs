@@ -73,225 +73,225 @@ module Amazonka.SSOAdmin
     -- $operations
 
     -- ** AttachCustomerManagedPolicyReferenceToPermissionSet
-    AttachCustomerManagedPolicyReferenceToPermissionSet (AttachCustomerManagedPolicyReferenceToPermissionSet'),
+    AttachCustomerManagedPolicyReferenceToPermissionSet,
     newAttachCustomerManagedPolicyReferenceToPermissionSet,
-    AttachCustomerManagedPolicyReferenceToPermissionSetResponse (AttachCustomerManagedPolicyReferenceToPermissionSetResponse'),
+    AttachCustomerManagedPolicyReferenceToPermissionSetResponse,
     newAttachCustomerManagedPolicyReferenceToPermissionSetResponse,
 
     -- ** AttachManagedPolicyToPermissionSet
-    AttachManagedPolicyToPermissionSet (AttachManagedPolicyToPermissionSet'),
+    AttachManagedPolicyToPermissionSet,
     newAttachManagedPolicyToPermissionSet,
-    AttachManagedPolicyToPermissionSetResponse (AttachManagedPolicyToPermissionSetResponse'),
+    AttachManagedPolicyToPermissionSetResponse,
     newAttachManagedPolicyToPermissionSetResponse,
 
     -- ** CreateAccountAssignment
-    CreateAccountAssignment (CreateAccountAssignment'),
+    CreateAccountAssignment,
     newCreateAccountAssignment,
-    CreateAccountAssignmentResponse (CreateAccountAssignmentResponse'),
+    CreateAccountAssignmentResponse,
     newCreateAccountAssignmentResponse,
 
     -- ** CreateInstanceAccessControlAttributeConfiguration
-    CreateInstanceAccessControlAttributeConfiguration (CreateInstanceAccessControlAttributeConfiguration'),
+    CreateInstanceAccessControlAttributeConfiguration,
     newCreateInstanceAccessControlAttributeConfiguration,
-    CreateInstanceAccessControlAttributeConfigurationResponse (CreateInstanceAccessControlAttributeConfigurationResponse'),
+    CreateInstanceAccessControlAttributeConfigurationResponse,
     newCreateInstanceAccessControlAttributeConfigurationResponse,
 
     -- ** CreatePermissionSet
-    CreatePermissionSet (CreatePermissionSet'),
+    CreatePermissionSet,
     newCreatePermissionSet,
-    CreatePermissionSetResponse (CreatePermissionSetResponse'),
+    CreatePermissionSetResponse,
     newCreatePermissionSetResponse,
 
     -- ** DeleteAccountAssignment
-    DeleteAccountAssignment (DeleteAccountAssignment'),
+    DeleteAccountAssignment,
     newDeleteAccountAssignment,
-    DeleteAccountAssignmentResponse (DeleteAccountAssignmentResponse'),
+    DeleteAccountAssignmentResponse,
     newDeleteAccountAssignmentResponse,
 
     -- ** DeleteInlinePolicyFromPermissionSet
-    DeleteInlinePolicyFromPermissionSet (DeleteInlinePolicyFromPermissionSet'),
+    DeleteInlinePolicyFromPermissionSet,
     newDeleteInlinePolicyFromPermissionSet,
-    DeleteInlinePolicyFromPermissionSetResponse (DeleteInlinePolicyFromPermissionSetResponse'),
+    DeleteInlinePolicyFromPermissionSetResponse,
     newDeleteInlinePolicyFromPermissionSetResponse,
 
     -- ** DeleteInstanceAccessControlAttributeConfiguration
-    DeleteInstanceAccessControlAttributeConfiguration (DeleteInstanceAccessControlAttributeConfiguration'),
+    DeleteInstanceAccessControlAttributeConfiguration,
     newDeleteInstanceAccessControlAttributeConfiguration,
-    DeleteInstanceAccessControlAttributeConfigurationResponse (DeleteInstanceAccessControlAttributeConfigurationResponse'),
+    DeleteInstanceAccessControlAttributeConfigurationResponse,
     newDeleteInstanceAccessControlAttributeConfigurationResponse,
 
     -- ** DeletePermissionSet
-    DeletePermissionSet (DeletePermissionSet'),
+    DeletePermissionSet,
     newDeletePermissionSet,
-    DeletePermissionSetResponse (DeletePermissionSetResponse'),
+    DeletePermissionSetResponse,
     newDeletePermissionSetResponse,
 
     -- ** DeletePermissionsBoundaryFromPermissionSet
-    DeletePermissionsBoundaryFromPermissionSet (DeletePermissionsBoundaryFromPermissionSet'),
+    DeletePermissionsBoundaryFromPermissionSet,
     newDeletePermissionsBoundaryFromPermissionSet,
-    DeletePermissionsBoundaryFromPermissionSetResponse (DeletePermissionsBoundaryFromPermissionSetResponse'),
+    DeletePermissionsBoundaryFromPermissionSetResponse,
     newDeletePermissionsBoundaryFromPermissionSetResponse,
 
     -- ** DescribeAccountAssignmentCreationStatus
-    DescribeAccountAssignmentCreationStatus (DescribeAccountAssignmentCreationStatus'),
+    DescribeAccountAssignmentCreationStatus,
     newDescribeAccountAssignmentCreationStatus,
-    DescribeAccountAssignmentCreationStatusResponse (DescribeAccountAssignmentCreationStatusResponse'),
+    DescribeAccountAssignmentCreationStatusResponse,
     newDescribeAccountAssignmentCreationStatusResponse,
 
     -- ** DescribeAccountAssignmentDeletionStatus
-    DescribeAccountAssignmentDeletionStatus (DescribeAccountAssignmentDeletionStatus'),
+    DescribeAccountAssignmentDeletionStatus,
     newDescribeAccountAssignmentDeletionStatus,
-    DescribeAccountAssignmentDeletionStatusResponse (DescribeAccountAssignmentDeletionStatusResponse'),
+    DescribeAccountAssignmentDeletionStatusResponse,
     newDescribeAccountAssignmentDeletionStatusResponse,
 
     -- ** DescribeInstanceAccessControlAttributeConfiguration
-    DescribeInstanceAccessControlAttributeConfiguration (DescribeInstanceAccessControlAttributeConfiguration'),
+    DescribeInstanceAccessControlAttributeConfiguration,
     newDescribeInstanceAccessControlAttributeConfiguration,
-    DescribeInstanceAccessControlAttributeConfigurationResponse (DescribeInstanceAccessControlAttributeConfigurationResponse'),
+    DescribeInstanceAccessControlAttributeConfigurationResponse,
     newDescribeInstanceAccessControlAttributeConfigurationResponse,
 
     -- ** DescribePermissionSet
-    DescribePermissionSet (DescribePermissionSet'),
+    DescribePermissionSet,
     newDescribePermissionSet,
-    DescribePermissionSetResponse (DescribePermissionSetResponse'),
+    DescribePermissionSetResponse,
     newDescribePermissionSetResponse,
 
     -- ** DescribePermissionSetProvisioningStatus
-    DescribePermissionSetProvisioningStatus (DescribePermissionSetProvisioningStatus'),
+    DescribePermissionSetProvisioningStatus,
     newDescribePermissionSetProvisioningStatus,
-    DescribePermissionSetProvisioningStatusResponse (DescribePermissionSetProvisioningStatusResponse'),
+    DescribePermissionSetProvisioningStatusResponse,
     newDescribePermissionSetProvisioningStatusResponse,
 
     -- ** DetachCustomerManagedPolicyReferenceFromPermissionSet
-    DetachCustomerManagedPolicyReferenceFromPermissionSet (DetachCustomerManagedPolicyReferenceFromPermissionSet'),
+    DetachCustomerManagedPolicyReferenceFromPermissionSet,
     newDetachCustomerManagedPolicyReferenceFromPermissionSet,
-    DetachCustomerManagedPolicyReferenceFromPermissionSetResponse (DetachCustomerManagedPolicyReferenceFromPermissionSetResponse'),
+    DetachCustomerManagedPolicyReferenceFromPermissionSetResponse,
     newDetachCustomerManagedPolicyReferenceFromPermissionSetResponse,
 
     -- ** DetachManagedPolicyFromPermissionSet
-    DetachManagedPolicyFromPermissionSet (DetachManagedPolicyFromPermissionSet'),
+    DetachManagedPolicyFromPermissionSet,
     newDetachManagedPolicyFromPermissionSet,
-    DetachManagedPolicyFromPermissionSetResponse (DetachManagedPolicyFromPermissionSetResponse'),
+    DetachManagedPolicyFromPermissionSetResponse,
     newDetachManagedPolicyFromPermissionSetResponse,
 
     -- ** GetInlinePolicyForPermissionSet
-    GetInlinePolicyForPermissionSet (GetInlinePolicyForPermissionSet'),
+    GetInlinePolicyForPermissionSet,
     newGetInlinePolicyForPermissionSet,
-    GetInlinePolicyForPermissionSetResponse (GetInlinePolicyForPermissionSetResponse'),
+    GetInlinePolicyForPermissionSetResponse,
     newGetInlinePolicyForPermissionSetResponse,
 
     -- ** GetPermissionsBoundaryForPermissionSet
-    GetPermissionsBoundaryForPermissionSet (GetPermissionsBoundaryForPermissionSet'),
+    GetPermissionsBoundaryForPermissionSet,
     newGetPermissionsBoundaryForPermissionSet,
-    GetPermissionsBoundaryForPermissionSetResponse (GetPermissionsBoundaryForPermissionSetResponse'),
+    GetPermissionsBoundaryForPermissionSetResponse,
     newGetPermissionsBoundaryForPermissionSetResponse,
 
     -- ** ListAccountAssignmentCreationStatus (Paginated)
-    ListAccountAssignmentCreationStatus (ListAccountAssignmentCreationStatus'),
+    ListAccountAssignmentCreationStatus,
     newListAccountAssignmentCreationStatus,
-    ListAccountAssignmentCreationStatusResponse (ListAccountAssignmentCreationStatusResponse'),
+    ListAccountAssignmentCreationStatusResponse,
     newListAccountAssignmentCreationStatusResponse,
 
     -- ** ListAccountAssignmentDeletionStatus (Paginated)
-    ListAccountAssignmentDeletionStatus (ListAccountAssignmentDeletionStatus'),
+    ListAccountAssignmentDeletionStatus,
     newListAccountAssignmentDeletionStatus,
-    ListAccountAssignmentDeletionStatusResponse (ListAccountAssignmentDeletionStatusResponse'),
+    ListAccountAssignmentDeletionStatusResponse,
     newListAccountAssignmentDeletionStatusResponse,
 
     -- ** ListAccountAssignments (Paginated)
-    ListAccountAssignments (ListAccountAssignments'),
+    ListAccountAssignments,
     newListAccountAssignments,
-    ListAccountAssignmentsResponse (ListAccountAssignmentsResponse'),
+    ListAccountAssignmentsResponse,
     newListAccountAssignmentsResponse,
 
     -- ** ListAccountsForProvisionedPermissionSet (Paginated)
-    ListAccountsForProvisionedPermissionSet (ListAccountsForProvisionedPermissionSet'),
+    ListAccountsForProvisionedPermissionSet,
     newListAccountsForProvisionedPermissionSet,
-    ListAccountsForProvisionedPermissionSetResponse (ListAccountsForProvisionedPermissionSetResponse'),
+    ListAccountsForProvisionedPermissionSetResponse,
     newListAccountsForProvisionedPermissionSetResponse,
 
     -- ** ListCustomerManagedPolicyReferencesInPermissionSet (Paginated)
-    ListCustomerManagedPolicyReferencesInPermissionSet (ListCustomerManagedPolicyReferencesInPermissionSet'),
+    ListCustomerManagedPolicyReferencesInPermissionSet,
     newListCustomerManagedPolicyReferencesInPermissionSet,
-    ListCustomerManagedPolicyReferencesInPermissionSetResponse (ListCustomerManagedPolicyReferencesInPermissionSetResponse'),
+    ListCustomerManagedPolicyReferencesInPermissionSetResponse,
     newListCustomerManagedPolicyReferencesInPermissionSetResponse,
 
     -- ** ListInstances (Paginated)
-    ListInstances (ListInstances'),
+    ListInstances,
     newListInstances,
-    ListInstancesResponse (ListInstancesResponse'),
+    ListInstancesResponse,
     newListInstancesResponse,
 
     -- ** ListManagedPoliciesInPermissionSet (Paginated)
-    ListManagedPoliciesInPermissionSet (ListManagedPoliciesInPermissionSet'),
+    ListManagedPoliciesInPermissionSet,
     newListManagedPoliciesInPermissionSet,
-    ListManagedPoliciesInPermissionSetResponse (ListManagedPoliciesInPermissionSetResponse'),
+    ListManagedPoliciesInPermissionSetResponse,
     newListManagedPoliciesInPermissionSetResponse,
 
     -- ** ListPermissionSetProvisioningStatus (Paginated)
-    ListPermissionSetProvisioningStatus (ListPermissionSetProvisioningStatus'),
+    ListPermissionSetProvisioningStatus,
     newListPermissionSetProvisioningStatus,
-    ListPermissionSetProvisioningStatusResponse (ListPermissionSetProvisioningStatusResponse'),
+    ListPermissionSetProvisioningStatusResponse,
     newListPermissionSetProvisioningStatusResponse,
 
     -- ** ListPermissionSets (Paginated)
-    ListPermissionSets (ListPermissionSets'),
+    ListPermissionSets,
     newListPermissionSets,
-    ListPermissionSetsResponse (ListPermissionSetsResponse'),
+    ListPermissionSetsResponse,
     newListPermissionSetsResponse,
 
     -- ** ListPermissionSetsProvisionedToAccount (Paginated)
-    ListPermissionSetsProvisionedToAccount (ListPermissionSetsProvisionedToAccount'),
+    ListPermissionSetsProvisionedToAccount,
     newListPermissionSetsProvisionedToAccount,
-    ListPermissionSetsProvisionedToAccountResponse (ListPermissionSetsProvisionedToAccountResponse'),
+    ListPermissionSetsProvisionedToAccountResponse,
     newListPermissionSetsProvisionedToAccountResponse,
 
     -- ** ListTagsForResource (Paginated)
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** ProvisionPermissionSet
-    ProvisionPermissionSet (ProvisionPermissionSet'),
+    ProvisionPermissionSet,
     newProvisionPermissionSet,
-    ProvisionPermissionSetResponse (ProvisionPermissionSetResponse'),
+    ProvisionPermissionSetResponse,
     newProvisionPermissionSetResponse,
 
     -- ** PutInlinePolicyToPermissionSet
-    PutInlinePolicyToPermissionSet (PutInlinePolicyToPermissionSet'),
+    PutInlinePolicyToPermissionSet,
     newPutInlinePolicyToPermissionSet,
-    PutInlinePolicyToPermissionSetResponse (PutInlinePolicyToPermissionSetResponse'),
+    PutInlinePolicyToPermissionSetResponse,
     newPutInlinePolicyToPermissionSetResponse,
 
     -- ** PutPermissionsBoundaryToPermissionSet
-    PutPermissionsBoundaryToPermissionSet (PutPermissionsBoundaryToPermissionSet'),
+    PutPermissionsBoundaryToPermissionSet,
     newPutPermissionsBoundaryToPermissionSet,
-    PutPermissionsBoundaryToPermissionSetResponse (PutPermissionsBoundaryToPermissionSetResponse'),
+    PutPermissionsBoundaryToPermissionSetResponse,
     newPutPermissionsBoundaryToPermissionSetResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateInstanceAccessControlAttributeConfiguration
-    UpdateInstanceAccessControlAttributeConfiguration (UpdateInstanceAccessControlAttributeConfiguration'),
+    UpdateInstanceAccessControlAttributeConfiguration,
     newUpdateInstanceAccessControlAttributeConfiguration,
-    UpdateInstanceAccessControlAttributeConfigurationResponse (UpdateInstanceAccessControlAttributeConfigurationResponse'),
+    UpdateInstanceAccessControlAttributeConfigurationResponse,
     newUpdateInstanceAccessControlAttributeConfigurationResponse,
 
     -- ** UpdatePermissionSet
-    UpdatePermissionSet (UpdatePermissionSet'),
+    UpdatePermissionSet,
     newUpdatePermissionSet,
-    UpdatePermissionSetResponse (UpdatePermissionSetResponse'),
+    UpdatePermissionSetResponse,
     newUpdatePermissionSetResponse,
 
     -- * Types
@@ -315,63 +315,63 @@ module Amazonka.SSOAdmin
     TargetType (..),
 
     -- ** AccessControlAttribute
-    AccessControlAttribute (AccessControlAttribute'),
+    AccessControlAttribute,
     newAccessControlAttribute,
 
     -- ** AccessControlAttributeValue
-    AccessControlAttributeValue (AccessControlAttributeValue'),
+    AccessControlAttributeValue,
     newAccessControlAttributeValue,
 
     -- ** AccountAssignment
-    AccountAssignment (AccountAssignment'),
+    AccountAssignment,
     newAccountAssignment,
 
     -- ** AccountAssignmentOperationStatus
-    AccountAssignmentOperationStatus (AccountAssignmentOperationStatus'),
+    AccountAssignmentOperationStatus,
     newAccountAssignmentOperationStatus,
 
     -- ** AccountAssignmentOperationStatusMetadata
-    AccountAssignmentOperationStatusMetadata (AccountAssignmentOperationStatusMetadata'),
+    AccountAssignmentOperationStatusMetadata,
     newAccountAssignmentOperationStatusMetadata,
 
     -- ** AttachedManagedPolicy
-    AttachedManagedPolicy (AttachedManagedPolicy'),
+    AttachedManagedPolicy,
     newAttachedManagedPolicy,
 
     -- ** CustomerManagedPolicyReference
-    CustomerManagedPolicyReference (CustomerManagedPolicyReference'),
+    CustomerManagedPolicyReference,
     newCustomerManagedPolicyReference,
 
     -- ** InstanceAccessControlAttributeConfiguration
-    InstanceAccessControlAttributeConfiguration (InstanceAccessControlAttributeConfiguration'),
+    InstanceAccessControlAttributeConfiguration,
     newInstanceAccessControlAttributeConfiguration,
 
     -- ** InstanceMetadata
-    InstanceMetadata (InstanceMetadata'),
+    InstanceMetadata,
     newInstanceMetadata,
 
     -- ** OperationStatusFilter
-    OperationStatusFilter (OperationStatusFilter'),
+    OperationStatusFilter,
     newOperationStatusFilter,
 
     -- ** PermissionSet
-    PermissionSet (PermissionSet'),
+    PermissionSet,
     newPermissionSet,
 
     -- ** PermissionSetProvisioningStatus
-    PermissionSetProvisioningStatus (PermissionSetProvisioningStatus'),
+    PermissionSetProvisioningStatus,
     newPermissionSetProvisioningStatus,
 
     -- ** PermissionSetProvisioningStatusMetadata
-    PermissionSetProvisioningStatusMetadata (PermissionSetProvisioningStatusMetadata'),
+    PermissionSetProvisioningStatusMetadata,
     newPermissionSetProvisioningStatusMetadata,
 
     -- ** PermissionsBoundary
-    PermissionsBoundary (PermissionsBoundary'),
+    PermissionsBoundary,
     newPermissionsBoundary,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
   )
 where

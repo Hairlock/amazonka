@@ -48,135 +48,135 @@ module Amazonka.MQ
     -- $operations
 
     -- ** CreateBroker
-    CreateBroker (CreateBroker'),
+    CreateBroker,
     newCreateBroker,
-    CreateBrokerResponse (CreateBrokerResponse'),
+    CreateBrokerResponse,
     newCreateBrokerResponse,
 
     -- ** CreateConfiguration
-    CreateConfiguration (CreateConfiguration'),
+    CreateConfiguration,
     newCreateConfiguration,
-    CreateConfigurationResponse (CreateConfigurationResponse'),
+    CreateConfigurationResponse,
     newCreateConfigurationResponse,
 
     -- ** CreateTags
-    CreateTags (CreateTags'),
+    CreateTags,
     newCreateTags,
-    CreateTagsResponse (CreateTagsResponse'),
+    CreateTagsResponse,
     newCreateTagsResponse,
 
     -- ** CreateUser
-    CreateUser (CreateUser'),
+    CreateUser,
     newCreateUser,
-    CreateUserResponse (CreateUserResponse'),
+    CreateUserResponse,
     newCreateUserResponse,
 
     -- ** DeleteBroker
-    DeleteBroker (DeleteBroker'),
+    DeleteBroker,
     newDeleteBroker,
-    DeleteBrokerResponse (DeleteBrokerResponse'),
+    DeleteBrokerResponse,
     newDeleteBrokerResponse,
 
     -- ** DeleteTags
-    DeleteTags (DeleteTags'),
+    DeleteTags,
     newDeleteTags,
-    DeleteTagsResponse (DeleteTagsResponse'),
+    DeleteTagsResponse,
     newDeleteTagsResponse,
 
     -- ** DeleteUser
-    DeleteUser (DeleteUser'),
+    DeleteUser,
     newDeleteUser,
-    DeleteUserResponse (DeleteUserResponse'),
+    DeleteUserResponse,
     newDeleteUserResponse,
 
     -- ** DescribeBroker
-    DescribeBroker (DescribeBroker'),
+    DescribeBroker,
     newDescribeBroker,
-    DescribeBrokerResponse (DescribeBrokerResponse'),
+    DescribeBrokerResponse,
     newDescribeBrokerResponse,
 
     -- ** DescribeBrokerEngineTypes
-    DescribeBrokerEngineTypes (DescribeBrokerEngineTypes'),
+    DescribeBrokerEngineTypes,
     newDescribeBrokerEngineTypes,
-    DescribeBrokerEngineTypesResponse (DescribeBrokerEngineTypesResponse'),
+    DescribeBrokerEngineTypesResponse,
     newDescribeBrokerEngineTypesResponse,
 
     -- ** DescribeBrokerInstanceOptions
-    DescribeBrokerInstanceOptions (DescribeBrokerInstanceOptions'),
+    DescribeBrokerInstanceOptions,
     newDescribeBrokerInstanceOptions,
-    DescribeBrokerInstanceOptionsResponse (DescribeBrokerInstanceOptionsResponse'),
+    DescribeBrokerInstanceOptionsResponse,
     newDescribeBrokerInstanceOptionsResponse,
 
     -- ** DescribeConfiguration
-    DescribeConfiguration (DescribeConfiguration'),
+    DescribeConfiguration,
     newDescribeConfiguration,
-    DescribeConfigurationResponse (DescribeConfigurationResponse'),
+    DescribeConfigurationResponse,
     newDescribeConfigurationResponse,
 
     -- ** DescribeConfigurationRevision
-    DescribeConfigurationRevision (DescribeConfigurationRevision'),
+    DescribeConfigurationRevision,
     newDescribeConfigurationRevision,
-    DescribeConfigurationRevisionResponse (DescribeConfigurationRevisionResponse'),
+    DescribeConfigurationRevisionResponse,
     newDescribeConfigurationRevisionResponse,
 
     -- ** DescribeUser
-    DescribeUser (DescribeUser'),
+    DescribeUser,
     newDescribeUser,
-    DescribeUserResponse (DescribeUserResponse'),
+    DescribeUserResponse,
     newDescribeUserResponse,
 
     -- ** ListBrokers (Paginated)
-    ListBrokers (ListBrokers'),
+    ListBrokers,
     newListBrokers,
-    ListBrokersResponse (ListBrokersResponse'),
+    ListBrokersResponse,
     newListBrokersResponse,
 
     -- ** ListConfigurationRevisions
-    ListConfigurationRevisions (ListConfigurationRevisions'),
+    ListConfigurationRevisions,
     newListConfigurationRevisions,
-    ListConfigurationRevisionsResponse (ListConfigurationRevisionsResponse'),
+    ListConfigurationRevisionsResponse,
     newListConfigurationRevisionsResponse,
 
     -- ** ListConfigurations
-    ListConfigurations (ListConfigurations'),
+    ListConfigurations,
     newListConfigurations,
-    ListConfigurationsResponse (ListConfigurationsResponse'),
+    ListConfigurationsResponse,
     newListConfigurationsResponse,
 
     -- ** ListTags
-    ListTags (ListTags'),
+    ListTags,
     newListTags,
-    ListTagsResponse (ListTagsResponse'),
+    ListTagsResponse,
     newListTagsResponse,
 
     -- ** ListUsers
-    ListUsers (ListUsers'),
+    ListUsers,
     newListUsers,
-    ListUsersResponse (ListUsersResponse'),
+    ListUsersResponse,
     newListUsersResponse,
 
     -- ** RebootBroker
-    RebootBroker (RebootBroker'),
+    RebootBroker,
     newRebootBroker,
-    RebootBrokerResponse (RebootBrokerResponse'),
+    RebootBrokerResponse,
     newRebootBrokerResponse,
 
     -- ** UpdateBroker
-    UpdateBroker (UpdateBroker'),
+    UpdateBroker,
     newUpdateBroker,
-    UpdateBrokerResponse (UpdateBrokerResponse'),
+    UpdateBrokerResponse,
     newUpdateBrokerResponse,
 
     -- ** UpdateConfiguration
-    UpdateConfiguration (UpdateConfiguration'),
+    UpdateConfiguration,
     newUpdateConfiguration,
-    UpdateConfigurationResponse (UpdateConfigurationResponse'),
+    UpdateConfigurationResponse,
     newUpdateConfigurationResponse,
 
     -- ** UpdateUser
-    UpdateUser (UpdateUser'),
+    UpdateUser,
     newUpdateUser,
-    UpdateUserResponse (UpdateUserResponse'),
+    UpdateUserResponse,
     newUpdateUserResponse,
 
     -- * Types
@@ -206,91 +206,91 @@ module Amazonka.MQ
     SanitizationWarningReason (..),
 
     -- ** ActionRequired
-    ActionRequired (ActionRequired'),
+    ActionRequired,
     newActionRequired,
 
     -- ** AvailabilityZone
-    AvailabilityZone (AvailabilityZone'),
+    AvailabilityZone,
     newAvailabilityZone,
 
     -- ** BrokerEngineType
-    BrokerEngineType (BrokerEngineType'),
+    BrokerEngineType,
     newBrokerEngineType,
 
     -- ** BrokerInstance
-    BrokerInstance (BrokerInstance'),
+    BrokerInstance,
     newBrokerInstance,
 
     -- ** BrokerInstanceOption
-    BrokerInstanceOption (BrokerInstanceOption'),
+    BrokerInstanceOption,
     newBrokerInstanceOption,
 
     -- ** BrokerSummary
-    BrokerSummary (BrokerSummary'),
+    BrokerSummary,
     newBrokerSummary,
 
     -- ** Configuration
-    Configuration (Configuration'),
+    Configuration,
     newConfiguration,
 
     -- ** ConfigurationId
-    ConfigurationId (ConfigurationId'),
+    ConfigurationId,
     newConfigurationId,
 
     -- ** ConfigurationRevision
-    ConfigurationRevision (ConfigurationRevision'),
+    ConfigurationRevision,
     newConfigurationRevision,
 
     -- ** Configurations
-    Configurations (Configurations'),
+    Configurations,
     newConfigurations,
 
     -- ** EncryptionOptions
-    EncryptionOptions (EncryptionOptions'),
+    EncryptionOptions,
     newEncryptionOptions,
 
     -- ** EngineVersion
-    EngineVersion (EngineVersion'),
+    EngineVersion,
     newEngineVersion,
 
     -- ** LdapServerMetadataInput
-    LdapServerMetadataInput (LdapServerMetadataInput'),
+    LdapServerMetadataInput,
     newLdapServerMetadataInput,
 
     -- ** LdapServerMetadataOutput
-    LdapServerMetadataOutput (LdapServerMetadataOutput'),
+    LdapServerMetadataOutput,
     newLdapServerMetadataOutput,
 
     -- ** Logs
-    Logs (Logs'),
+    Logs,
     newLogs,
 
     -- ** LogsSummary
-    LogsSummary (LogsSummary'),
+    LogsSummary,
     newLogsSummary,
 
     -- ** PendingLogs
-    PendingLogs (PendingLogs'),
+    PendingLogs,
     newPendingLogs,
 
     -- ** SanitizationWarning
-    SanitizationWarning (SanitizationWarning'),
+    SanitizationWarning,
     newSanitizationWarning,
 
     -- ** User
-    User (User'),
+    User,
     newUser,
 
     -- ** UserPendingChanges
-    UserPendingChanges (UserPendingChanges'),
+    UserPendingChanges,
     newUserPendingChanges,
 
     -- ** UserSummary
-    UserSummary (UserSummary'),
+    UserSummary,
     newUserSummary,
 
     -- ** WeeklyStartTime
-    WeeklyStartTime (WeeklyStartTime'),
+    WeeklyStartTime,
     newWeeklyStartTime,
   )
 where

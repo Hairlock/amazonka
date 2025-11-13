@@ -67,189 +67,189 @@ module Amazonka.DevOpsGuru
     -- $operations
 
     -- ** AddNotificationChannel
-    AddNotificationChannel (AddNotificationChannel'),
+    AddNotificationChannel,
     newAddNotificationChannel,
-    AddNotificationChannelResponse (AddNotificationChannelResponse'),
+    AddNotificationChannelResponse,
     newAddNotificationChannelResponse,
 
     -- ** DeleteInsight
-    DeleteInsight (DeleteInsight'),
+    DeleteInsight,
     newDeleteInsight,
-    DeleteInsightResponse (DeleteInsightResponse'),
+    DeleteInsightResponse,
     newDeleteInsightResponse,
 
     -- ** DescribeAccountHealth
-    DescribeAccountHealth (DescribeAccountHealth'),
+    DescribeAccountHealth,
     newDescribeAccountHealth,
-    DescribeAccountHealthResponse (DescribeAccountHealthResponse'),
+    DescribeAccountHealthResponse,
     newDescribeAccountHealthResponse,
 
     -- ** DescribeAccountOverview
-    DescribeAccountOverview (DescribeAccountOverview'),
+    DescribeAccountOverview,
     newDescribeAccountOverview,
-    DescribeAccountOverviewResponse (DescribeAccountOverviewResponse'),
+    DescribeAccountOverviewResponse,
     newDescribeAccountOverviewResponse,
 
     -- ** DescribeAnomaly
-    DescribeAnomaly (DescribeAnomaly'),
+    DescribeAnomaly,
     newDescribeAnomaly,
-    DescribeAnomalyResponse (DescribeAnomalyResponse'),
+    DescribeAnomalyResponse,
     newDescribeAnomalyResponse,
 
     -- ** DescribeEventSourcesConfig
-    DescribeEventSourcesConfig (DescribeEventSourcesConfig'),
+    DescribeEventSourcesConfig,
     newDescribeEventSourcesConfig,
-    DescribeEventSourcesConfigResponse (DescribeEventSourcesConfigResponse'),
+    DescribeEventSourcesConfigResponse,
     newDescribeEventSourcesConfigResponse,
 
     -- ** DescribeFeedback
-    DescribeFeedback (DescribeFeedback'),
+    DescribeFeedback,
     newDescribeFeedback,
-    DescribeFeedbackResponse (DescribeFeedbackResponse'),
+    DescribeFeedbackResponse,
     newDescribeFeedbackResponse,
 
     -- ** DescribeInsight
-    DescribeInsight (DescribeInsight'),
+    DescribeInsight,
     newDescribeInsight,
-    DescribeInsightResponse (DescribeInsightResponse'),
+    DescribeInsightResponse,
     newDescribeInsightResponse,
 
     -- ** DescribeOrganizationHealth
-    DescribeOrganizationHealth (DescribeOrganizationHealth'),
+    DescribeOrganizationHealth,
     newDescribeOrganizationHealth,
-    DescribeOrganizationHealthResponse (DescribeOrganizationHealthResponse'),
+    DescribeOrganizationHealthResponse,
     newDescribeOrganizationHealthResponse,
 
     -- ** DescribeOrganizationOverview
-    DescribeOrganizationOverview (DescribeOrganizationOverview'),
+    DescribeOrganizationOverview,
     newDescribeOrganizationOverview,
-    DescribeOrganizationOverviewResponse (DescribeOrganizationOverviewResponse'),
+    DescribeOrganizationOverviewResponse,
     newDescribeOrganizationOverviewResponse,
 
     -- ** DescribeOrganizationResourceCollectionHealth (Paginated)
-    DescribeOrganizationResourceCollectionHealth (DescribeOrganizationResourceCollectionHealth'),
+    DescribeOrganizationResourceCollectionHealth,
     newDescribeOrganizationResourceCollectionHealth,
-    DescribeOrganizationResourceCollectionHealthResponse (DescribeOrganizationResourceCollectionHealthResponse'),
+    DescribeOrganizationResourceCollectionHealthResponse,
     newDescribeOrganizationResourceCollectionHealthResponse,
 
     -- ** DescribeResourceCollectionHealth (Paginated)
-    DescribeResourceCollectionHealth (DescribeResourceCollectionHealth'),
+    DescribeResourceCollectionHealth,
     newDescribeResourceCollectionHealth,
-    DescribeResourceCollectionHealthResponse (DescribeResourceCollectionHealthResponse'),
+    DescribeResourceCollectionHealthResponse,
     newDescribeResourceCollectionHealthResponse,
 
     -- ** DescribeServiceIntegration
-    DescribeServiceIntegration (DescribeServiceIntegration'),
+    DescribeServiceIntegration,
     newDescribeServiceIntegration,
-    DescribeServiceIntegrationResponse (DescribeServiceIntegrationResponse'),
+    DescribeServiceIntegrationResponse,
     newDescribeServiceIntegrationResponse,
 
     -- ** GetCostEstimation (Paginated)
-    GetCostEstimation (GetCostEstimation'),
+    GetCostEstimation,
     newGetCostEstimation,
-    GetCostEstimationResponse (GetCostEstimationResponse'),
+    GetCostEstimationResponse,
     newGetCostEstimationResponse,
 
     -- ** GetResourceCollection (Paginated)
-    GetResourceCollection (GetResourceCollection'),
+    GetResourceCollection,
     newGetResourceCollection,
-    GetResourceCollectionResponse (GetResourceCollectionResponse'),
+    GetResourceCollectionResponse,
     newGetResourceCollectionResponse,
 
     -- ** ListAnomaliesForInsight (Paginated)
-    ListAnomaliesForInsight (ListAnomaliesForInsight'),
+    ListAnomaliesForInsight,
     newListAnomaliesForInsight,
-    ListAnomaliesForInsightResponse (ListAnomaliesForInsightResponse'),
+    ListAnomaliesForInsightResponse,
     newListAnomaliesForInsightResponse,
 
     -- ** ListAnomalousLogGroups (Paginated)
-    ListAnomalousLogGroups (ListAnomalousLogGroups'),
+    ListAnomalousLogGroups,
     newListAnomalousLogGroups,
-    ListAnomalousLogGroupsResponse (ListAnomalousLogGroupsResponse'),
+    ListAnomalousLogGroupsResponse,
     newListAnomalousLogGroupsResponse,
 
     -- ** ListEvents (Paginated)
-    ListEvents (ListEvents'),
+    ListEvents,
     newListEvents,
-    ListEventsResponse (ListEventsResponse'),
+    ListEventsResponse,
     newListEventsResponse,
 
     -- ** ListInsights (Paginated)
-    ListInsights (ListInsights'),
+    ListInsights,
     newListInsights,
-    ListInsightsResponse (ListInsightsResponse'),
+    ListInsightsResponse,
     newListInsightsResponse,
 
     -- ** ListMonitoredResources (Paginated)
-    ListMonitoredResources (ListMonitoredResources'),
+    ListMonitoredResources,
     newListMonitoredResources,
-    ListMonitoredResourcesResponse (ListMonitoredResourcesResponse'),
+    ListMonitoredResourcesResponse,
     newListMonitoredResourcesResponse,
 
     -- ** ListNotificationChannels (Paginated)
-    ListNotificationChannels (ListNotificationChannels'),
+    ListNotificationChannels,
     newListNotificationChannels,
-    ListNotificationChannelsResponse (ListNotificationChannelsResponse'),
+    ListNotificationChannelsResponse,
     newListNotificationChannelsResponse,
 
     -- ** ListOrganizationInsights (Paginated)
-    ListOrganizationInsights (ListOrganizationInsights'),
+    ListOrganizationInsights,
     newListOrganizationInsights,
-    ListOrganizationInsightsResponse (ListOrganizationInsightsResponse'),
+    ListOrganizationInsightsResponse,
     newListOrganizationInsightsResponse,
 
     -- ** ListRecommendations (Paginated)
-    ListRecommendations (ListRecommendations'),
+    ListRecommendations,
     newListRecommendations,
-    ListRecommendationsResponse (ListRecommendationsResponse'),
+    ListRecommendationsResponse,
     newListRecommendationsResponse,
 
     -- ** PutFeedback
-    PutFeedback (PutFeedback'),
+    PutFeedback,
     newPutFeedback,
-    PutFeedbackResponse (PutFeedbackResponse'),
+    PutFeedbackResponse,
     newPutFeedbackResponse,
 
     -- ** RemoveNotificationChannel
-    RemoveNotificationChannel (RemoveNotificationChannel'),
+    RemoveNotificationChannel,
     newRemoveNotificationChannel,
-    RemoveNotificationChannelResponse (RemoveNotificationChannelResponse'),
+    RemoveNotificationChannelResponse,
     newRemoveNotificationChannelResponse,
 
     -- ** SearchInsights (Paginated)
-    SearchInsights (SearchInsights'),
+    SearchInsights,
     newSearchInsights,
-    SearchInsightsResponse (SearchInsightsResponse'),
+    SearchInsightsResponse,
     newSearchInsightsResponse,
 
     -- ** SearchOrganizationInsights (Paginated)
-    SearchOrganizationInsights (SearchOrganizationInsights'),
+    SearchOrganizationInsights,
     newSearchOrganizationInsights,
-    SearchOrganizationInsightsResponse (SearchOrganizationInsightsResponse'),
+    SearchOrganizationInsightsResponse,
     newSearchOrganizationInsightsResponse,
 
     -- ** StartCostEstimation
-    StartCostEstimation (StartCostEstimation'),
+    StartCostEstimation,
     newStartCostEstimation,
-    StartCostEstimationResponse (StartCostEstimationResponse'),
+    StartCostEstimationResponse,
     newStartCostEstimationResponse,
 
     -- ** UpdateEventSourcesConfig
-    UpdateEventSourcesConfig (UpdateEventSourcesConfig'),
+    UpdateEventSourcesConfig,
     newUpdateEventSourcesConfig,
-    UpdateEventSourcesConfigResponse (UpdateEventSourcesConfigResponse'),
+    UpdateEventSourcesConfigResponse,
     newUpdateEventSourcesConfigResponse,
 
     -- ** UpdateResourceCollection
-    UpdateResourceCollection (UpdateResourceCollection'),
+    UpdateResourceCollection,
     newUpdateResourceCollection,
-    UpdateResourceCollectionResponse (UpdateResourceCollectionResponse'),
+    UpdateResourceCollectionResponse,
     newUpdateResourceCollectionResponse,
 
     -- ** UpdateServiceIntegration
-    UpdateServiceIntegration (UpdateServiceIntegration'),
+    UpdateServiceIntegration,
     newUpdateServiceIntegration,
-    UpdateServiceIntegrationResponse (UpdateServiceIntegrationResponse'),
+    UpdateServiceIntegrationResponse,
     newUpdateServiceIntegrationResponse,
 
     -- * Types
@@ -327,355 +327,355 @@ module Amazonka.DevOpsGuru
     UpdateResourceCollectionAction (..),
 
     -- ** AccountHealth
-    AccountHealth (AccountHealth'),
+    AccountHealth,
     newAccountHealth,
 
     -- ** AccountInsightHealth
-    AccountInsightHealth (AccountInsightHealth'),
+    AccountInsightHealth,
     newAccountInsightHealth,
 
     -- ** AmazonCodeGuruProfilerIntegration
-    AmazonCodeGuruProfilerIntegration (AmazonCodeGuruProfilerIntegration'),
+    AmazonCodeGuruProfilerIntegration,
     newAmazonCodeGuruProfilerIntegration,
 
     -- ** AnomalousLogGroup
-    AnomalousLogGroup (AnomalousLogGroup'),
+    AnomalousLogGroup,
     newAnomalousLogGroup,
 
     -- ** AnomalyReportedTimeRange
-    AnomalyReportedTimeRange (AnomalyReportedTimeRange'),
+    AnomalyReportedTimeRange,
     newAnomalyReportedTimeRange,
 
     -- ** AnomalyResource
-    AnomalyResource (AnomalyResource'),
+    AnomalyResource,
     newAnomalyResource,
 
     -- ** AnomalySourceDetails
-    AnomalySourceDetails (AnomalySourceDetails'),
+    AnomalySourceDetails,
     newAnomalySourceDetails,
 
     -- ** AnomalySourceMetadata
-    AnomalySourceMetadata (AnomalySourceMetadata'),
+    AnomalySourceMetadata,
     newAnomalySourceMetadata,
 
     -- ** AnomalyTimeRange
-    AnomalyTimeRange (AnomalyTimeRange'),
+    AnomalyTimeRange,
     newAnomalyTimeRange,
 
     -- ** CloudFormationCollection
-    CloudFormationCollection (CloudFormationCollection'),
+    CloudFormationCollection,
     newCloudFormationCollection,
 
     -- ** CloudFormationCollectionFilter
-    CloudFormationCollectionFilter (CloudFormationCollectionFilter'),
+    CloudFormationCollectionFilter,
     newCloudFormationCollectionFilter,
 
     -- ** CloudFormationCostEstimationResourceCollectionFilter
-    CloudFormationCostEstimationResourceCollectionFilter (CloudFormationCostEstimationResourceCollectionFilter'),
+    CloudFormationCostEstimationResourceCollectionFilter,
     newCloudFormationCostEstimationResourceCollectionFilter,
 
     -- ** CloudFormationHealth
-    CloudFormationHealth (CloudFormationHealth'),
+    CloudFormationHealth,
     newCloudFormationHealth,
 
     -- ** CloudWatchMetricsDataSummary
-    CloudWatchMetricsDataSummary (CloudWatchMetricsDataSummary'),
+    CloudWatchMetricsDataSummary,
     newCloudWatchMetricsDataSummary,
 
     -- ** CloudWatchMetricsDetail
-    CloudWatchMetricsDetail (CloudWatchMetricsDetail'),
+    CloudWatchMetricsDetail,
     newCloudWatchMetricsDetail,
 
     -- ** CloudWatchMetricsDimension
-    CloudWatchMetricsDimension (CloudWatchMetricsDimension'),
+    CloudWatchMetricsDimension,
     newCloudWatchMetricsDimension,
 
     -- ** CostEstimationResourceCollectionFilter
-    CostEstimationResourceCollectionFilter (CostEstimationResourceCollectionFilter'),
+    CostEstimationResourceCollectionFilter,
     newCostEstimationResourceCollectionFilter,
 
     -- ** CostEstimationTimeRange
-    CostEstimationTimeRange (CostEstimationTimeRange'),
+    CostEstimationTimeRange,
     newCostEstimationTimeRange,
 
     -- ** EndTimeRange
-    EndTimeRange (EndTimeRange'),
+    EndTimeRange,
     newEndTimeRange,
 
     -- ** Event
-    Event (Event'),
+    Event,
     newEvent,
 
     -- ** EventResource
-    EventResource (EventResource'),
+    EventResource,
     newEventResource,
 
     -- ** EventSourcesConfig
-    EventSourcesConfig (EventSourcesConfig'),
+    EventSourcesConfig,
     newEventSourcesConfig,
 
     -- ** EventTimeRange
-    EventTimeRange (EventTimeRange'),
+    EventTimeRange,
     newEventTimeRange,
 
     -- ** InsightFeedback
-    InsightFeedback (InsightFeedback'),
+    InsightFeedback,
     newInsightFeedback,
 
     -- ** InsightHealth
-    InsightHealth (InsightHealth'),
+    InsightHealth,
     newInsightHealth,
 
     -- ** InsightTimeRange
-    InsightTimeRange (InsightTimeRange'),
+    InsightTimeRange,
     newInsightTimeRange,
 
     -- ** ListEventsFilters
-    ListEventsFilters (ListEventsFilters'),
+    ListEventsFilters,
     newListEventsFilters,
 
     -- ** ListInsightsAnyStatusFilter
-    ListInsightsAnyStatusFilter (ListInsightsAnyStatusFilter'),
+    ListInsightsAnyStatusFilter,
     newListInsightsAnyStatusFilter,
 
     -- ** ListInsightsClosedStatusFilter
-    ListInsightsClosedStatusFilter (ListInsightsClosedStatusFilter'),
+    ListInsightsClosedStatusFilter,
     newListInsightsClosedStatusFilter,
 
     -- ** ListInsightsOngoingStatusFilter
-    ListInsightsOngoingStatusFilter (ListInsightsOngoingStatusFilter'),
+    ListInsightsOngoingStatusFilter,
     newListInsightsOngoingStatusFilter,
 
     -- ** ListInsightsStatusFilter
-    ListInsightsStatusFilter (ListInsightsStatusFilter'),
+    ListInsightsStatusFilter,
     newListInsightsStatusFilter,
 
     -- ** ListMonitoredResourcesFilters
-    ListMonitoredResourcesFilters (ListMonitoredResourcesFilters'),
+    ListMonitoredResourcesFilters,
     newListMonitoredResourcesFilters,
 
     -- ** LogAnomalyClass
-    LogAnomalyClass (LogAnomalyClass'),
+    LogAnomalyClass,
     newLogAnomalyClass,
 
     -- ** LogAnomalyShowcase
-    LogAnomalyShowcase (LogAnomalyShowcase'),
+    LogAnomalyShowcase,
     newLogAnomalyShowcase,
 
     -- ** LogsAnomalyDetectionIntegration
-    LogsAnomalyDetectionIntegration (LogsAnomalyDetectionIntegration'),
+    LogsAnomalyDetectionIntegration,
     newLogsAnomalyDetectionIntegration,
 
     -- ** LogsAnomalyDetectionIntegrationConfig
-    LogsAnomalyDetectionIntegrationConfig (LogsAnomalyDetectionIntegrationConfig'),
+    LogsAnomalyDetectionIntegrationConfig,
     newLogsAnomalyDetectionIntegrationConfig,
 
     -- ** MonitoredResourceIdentifier
-    MonitoredResourceIdentifier (MonitoredResourceIdentifier'),
+    MonitoredResourceIdentifier,
     newMonitoredResourceIdentifier,
 
     -- ** NotificationChannel
-    NotificationChannel (NotificationChannel'),
+    NotificationChannel,
     newNotificationChannel,
 
     -- ** NotificationChannelConfig
-    NotificationChannelConfig (NotificationChannelConfig'),
+    NotificationChannelConfig,
     newNotificationChannelConfig,
 
     -- ** NotificationFilterConfig
-    NotificationFilterConfig (NotificationFilterConfig'),
+    NotificationFilterConfig,
     newNotificationFilterConfig,
 
     -- ** OpsCenterIntegration
-    OpsCenterIntegration (OpsCenterIntegration'),
+    OpsCenterIntegration,
     newOpsCenterIntegration,
 
     -- ** OpsCenterIntegrationConfig
-    OpsCenterIntegrationConfig (OpsCenterIntegrationConfig'),
+    OpsCenterIntegrationConfig,
     newOpsCenterIntegrationConfig,
 
     -- ** PerformanceInsightsMetricDimensionGroup
-    PerformanceInsightsMetricDimensionGroup (PerformanceInsightsMetricDimensionGroup'),
+    PerformanceInsightsMetricDimensionGroup,
     newPerformanceInsightsMetricDimensionGroup,
 
     -- ** PerformanceInsightsMetricQuery
-    PerformanceInsightsMetricQuery (PerformanceInsightsMetricQuery'),
+    PerformanceInsightsMetricQuery,
     newPerformanceInsightsMetricQuery,
 
     -- ** PerformanceInsightsMetricsDetail
-    PerformanceInsightsMetricsDetail (PerformanceInsightsMetricsDetail'),
+    PerformanceInsightsMetricsDetail,
     newPerformanceInsightsMetricsDetail,
 
     -- ** PerformanceInsightsReferenceComparisonValues
-    PerformanceInsightsReferenceComparisonValues (PerformanceInsightsReferenceComparisonValues'),
+    PerformanceInsightsReferenceComparisonValues,
     newPerformanceInsightsReferenceComparisonValues,
 
     -- ** PerformanceInsightsReferenceData
-    PerformanceInsightsReferenceData (PerformanceInsightsReferenceData'),
+    PerformanceInsightsReferenceData,
     newPerformanceInsightsReferenceData,
 
     -- ** PerformanceInsightsReferenceMetric
-    PerformanceInsightsReferenceMetric (PerformanceInsightsReferenceMetric'),
+    PerformanceInsightsReferenceMetric,
     newPerformanceInsightsReferenceMetric,
 
     -- ** PerformanceInsightsReferenceScalar
-    PerformanceInsightsReferenceScalar (PerformanceInsightsReferenceScalar'),
+    PerformanceInsightsReferenceScalar,
     newPerformanceInsightsReferenceScalar,
 
     -- ** PerformanceInsightsStat
-    PerformanceInsightsStat (PerformanceInsightsStat'),
+    PerformanceInsightsStat,
     newPerformanceInsightsStat,
 
     -- ** PredictionTimeRange
-    PredictionTimeRange (PredictionTimeRange'),
+    PredictionTimeRange,
     newPredictionTimeRange,
 
     -- ** ProactiveAnomaly
-    ProactiveAnomaly (ProactiveAnomaly'),
+    ProactiveAnomaly,
     newProactiveAnomaly,
 
     -- ** ProactiveAnomalySummary
-    ProactiveAnomalySummary (ProactiveAnomalySummary'),
+    ProactiveAnomalySummary,
     newProactiveAnomalySummary,
 
     -- ** ProactiveInsight
-    ProactiveInsight (ProactiveInsight'),
+    ProactiveInsight,
     newProactiveInsight,
 
     -- ** ProactiveInsightSummary
-    ProactiveInsightSummary (ProactiveInsightSummary'),
+    ProactiveInsightSummary,
     newProactiveInsightSummary,
 
     -- ** ProactiveOrganizationInsightSummary
-    ProactiveOrganizationInsightSummary (ProactiveOrganizationInsightSummary'),
+    ProactiveOrganizationInsightSummary,
     newProactiveOrganizationInsightSummary,
 
     -- ** ReactiveAnomaly
-    ReactiveAnomaly (ReactiveAnomaly'),
+    ReactiveAnomaly,
     newReactiveAnomaly,
 
     -- ** ReactiveAnomalySummary
-    ReactiveAnomalySummary (ReactiveAnomalySummary'),
+    ReactiveAnomalySummary,
     newReactiveAnomalySummary,
 
     -- ** ReactiveInsight
-    ReactiveInsight (ReactiveInsight'),
+    ReactiveInsight,
     newReactiveInsight,
 
     -- ** ReactiveInsightSummary
-    ReactiveInsightSummary (ReactiveInsightSummary'),
+    ReactiveInsightSummary,
     newReactiveInsightSummary,
 
     -- ** ReactiveOrganizationInsightSummary
-    ReactiveOrganizationInsightSummary (ReactiveOrganizationInsightSummary'),
+    ReactiveOrganizationInsightSummary,
     newReactiveOrganizationInsightSummary,
 
     -- ** Recommendation
-    Recommendation (Recommendation'),
+    Recommendation,
     newRecommendation,
 
     -- ** RecommendationRelatedAnomaly
-    RecommendationRelatedAnomaly (RecommendationRelatedAnomaly'),
+    RecommendationRelatedAnomaly,
     newRecommendationRelatedAnomaly,
 
     -- ** RecommendationRelatedAnomalyResource
-    RecommendationRelatedAnomalyResource (RecommendationRelatedAnomalyResource'),
+    RecommendationRelatedAnomalyResource,
     newRecommendationRelatedAnomalyResource,
 
     -- ** RecommendationRelatedAnomalySourceDetail
-    RecommendationRelatedAnomalySourceDetail (RecommendationRelatedAnomalySourceDetail'),
+    RecommendationRelatedAnomalySourceDetail,
     newRecommendationRelatedAnomalySourceDetail,
 
     -- ** RecommendationRelatedCloudWatchMetricsSourceDetail
-    RecommendationRelatedCloudWatchMetricsSourceDetail (RecommendationRelatedCloudWatchMetricsSourceDetail'),
+    RecommendationRelatedCloudWatchMetricsSourceDetail,
     newRecommendationRelatedCloudWatchMetricsSourceDetail,
 
     -- ** RecommendationRelatedEvent
-    RecommendationRelatedEvent (RecommendationRelatedEvent'),
+    RecommendationRelatedEvent,
     newRecommendationRelatedEvent,
 
     -- ** RecommendationRelatedEventResource
-    RecommendationRelatedEventResource (RecommendationRelatedEventResource'),
+    RecommendationRelatedEventResource,
     newRecommendationRelatedEventResource,
 
     -- ** ResourceCollection
-    ResourceCollection (ResourceCollection'),
+    ResourceCollection,
     newResourceCollection,
 
     -- ** ResourceCollectionFilter
-    ResourceCollectionFilter (ResourceCollectionFilter'),
+    ResourceCollectionFilter,
     newResourceCollectionFilter,
 
     -- ** SearchInsightsFilters
-    SearchInsightsFilters (SearchInsightsFilters'),
+    SearchInsightsFilters,
     newSearchInsightsFilters,
 
     -- ** SearchOrganizationInsightsFilters
-    SearchOrganizationInsightsFilters (SearchOrganizationInsightsFilters'),
+    SearchOrganizationInsightsFilters,
     newSearchOrganizationInsightsFilters,
 
     -- ** ServiceCollection
-    ServiceCollection (ServiceCollection'),
+    ServiceCollection,
     newServiceCollection,
 
     -- ** ServiceHealth
-    ServiceHealth (ServiceHealth'),
+    ServiceHealth,
     newServiceHealth,
 
     -- ** ServiceInsightHealth
-    ServiceInsightHealth (ServiceInsightHealth'),
+    ServiceInsightHealth,
     newServiceInsightHealth,
 
     -- ** ServiceIntegrationConfig
-    ServiceIntegrationConfig (ServiceIntegrationConfig'),
+    ServiceIntegrationConfig,
     newServiceIntegrationConfig,
 
     -- ** ServiceResourceCost
-    ServiceResourceCost (ServiceResourceCost'),
+    ServiceResourceCost,
     newServiceResourceCost,
 
     -- ** SnsChannelConfig
-    SnsChannelConfig (SnsChannelConfig'),
+    SnsChannelConfig,
     newSnsChannelConfig,
 
     -- ** StartTimeRange
-    StartTimeRange (StartTimeRange'),
+    StartTimeRange,
     newStartTimeRange,
 
     -- ** TagCollection
-    TagCollection (TagCollection'),
+    TagCollection,
     newTagCollection,
 
     -- ** TagCollectionFilter
-    TagCollectionFilter (TagCollectionFilter'),
+    TagCollectionFilter,
     newTagCollectionFilter,
 
     -- ** TagCostEstimationResourceCollectionFilter
-    TagCostEstimationResourceCollectionFilter (TagCostEstimationResourceCollectionFilter'),
+    TagCostEstimationResourceCollectionFilter,
     newTagCostEstimationResourceCollectionFilter,
 
     -- ** TagHealth
-    TagHealth (TagHealth'),
+    TagHealth,
     newTagHealth,
 
     -- ** TimestampMetricValuePair
-    TimestampMetricValuePair (TimestampMetricValuePair'),
+    TimestampMetricValuePair,
     newTimestampMetricValuePair,
 
     -- ** UpdateCloudFormationCollectionFilter
-    UpdateCloudFormationCollectionFilter (UpdateCloudFormationCollectionFilter'),
+    UpdateCloudFormationCollectionFilter,
     newUpdateCloudFormationCollectionFilter,
 
     -- ** UpdateResourceCollectionFilter
-    UpdateResourceCollectionFilter (UpdateResourceCollectionFilter'),
+    UpdateResourceCollectionFilter,
     newUpdateResourceCollectionFilter,
 
     -- ** UpdateServiceIntegrationConfig
-    UpdateServiceIntegrationConfig (UpdateServiceIntegrationConfig'),
+    UpdateServiceIntegrationConfig,
     newUpdateServiceIntegrationConfig,
 
     -- ** UpdateTagCollectionFilter
-    UpdateTagCollectionFilter (UpdateTagCollectionFilter'),
+    UpdateTagCollectionFilter,
     newUpdateTagCollectionFilter,
   )
 where

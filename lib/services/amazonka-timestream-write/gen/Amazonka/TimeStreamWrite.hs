@@ -68,93 +68,93 @@ module Amazonka.TimeStreamWrite
     -- $operations
 
     -- ** CreateDatabase
-    CreateDatabase (CreateDatabase'),
+    CreateDatabase,
     newCreateDatabase,
-    CreateDatabaseResponse (CreateDatabaseResponse'),
+    CreateDatabaseResponse,
     newCreateDatabaseResponse,
 
     -- ** CreateTable
-    CreateTable (CreateTable'),
+    CreateTable,
     newCreateTable,
-    CreateTableResponse (CreateTableResponse'),
+    CreateTableResponse,
     newCreateTableResponse,
 
     -- ** DeleteDatabase
-    DeleteDatabase (DeleteDatabase'),
+    DeleteDatabase,
     newDeleteDatabase,
-    DeleteDatabaseResponse (DeleteDatabaseResponse'),
+    DeleteDatabaseResponse,
     newDeleteDatabaseResponse,
 
     -- ** DeleteTable
-    DeleteTable (DeleteTable'),
+    DeleteTable,
     newDeleteTable,
-    DeleteTableResponse (DeleteTableResponse'),
+    DeleteTableResponse,
     newDeleteTableResponse,
 
     -- ** DescribeDatabase
-    DescribeDatabase (DescribeDatabase'),
+    DescribeDatabase,
     newDescribeDatabase,
-    DescribeDatabaseResponse (DescribeDatabaseResponse'),
+    DescribeDatabaseResponse,
     newDescribeDatabaseResponse,
 
     -- ** DescribeEndpoints
-    DescribeEndpoints (DescribeEndpoints'),
+    DescribeEndpoints,
     newDescribeEndpoints,
-    DescribeEndpointsResponse (DescribeEndpointsResponse'),
+    DescribeEndpointsResponse,
     newDescribeEndpointsResponse,
 
     -- ** DescribeTable
-    DescribeTable (DescribeTable'),
+    DescribeTable,
     newDescribeTable,
-    DescribeTableResponse (DescribeTableResponse'),
+    DescribeTableResponse,
     newDescribeTableResponse,
 
     -- ** ListDatabases
-    ListDatabases (ListDatabases'),
+    ListDatabases,
     newListDatabases,
-    ListDatabasesResponse (ListDatabasesResponse'),
+    ListDatabasesResponse,
     newListDatabasesResponse,
 
     -- ** ListTables
-    ListTables (ListTables'),
+    ListTables,
     newListTables,
-    ListTablesResponse (ListTablesResponse'),
+    ListTablesResponse,
     newListTablesResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateDatabase
-    UpdateDatabase (UpdateDatabase'),
+    UpdateDatabase,
     newUpdateDatabase,
-    UpdateDatabaseResponse (UpdateDatabaseResponse'),
+    UpdateDatabaseResponse,
     newUpdateDatabaseResponse,
 
     -- ** UpdateTable
-    UpdateTable (UpdateTable'),
+    UpdateTable,
     newUpdateTable,
-    UpdateTableResponse (UpdateTableResponse'),
+    UpdateTableResponse,
     newUpdateTableResponse,
 
     -- ** WriteRecords
-    WriteRecords (WriteRecords'),
+    WriteRecords,
     newWriteRecords,
-    WriteRecordsResponse (WriteRecordsResponse'),
+    WriteRecordsResponse,
     newWriteRecordsResponse,
 
     -- * Types
@@ -175,51 +175,51 @@ module Amazonka.TimeStreamWrite
     TimeUnit (..),
 
     -- ** Database
-    Database (Database'),
+    Database,
     newDatabase,
 
     -- ** Dimension
-    Dimension (Dimension'),
+    Dimension,
     newDimension,
 
     -- ** Endpoint
-    Endpoint (Endpoint'),
+    Endpoint,
     newEndpoint,
 
     -- ** MagneticStoreRejectedDataLocation
-    MagneticStoreRejectedDataLocation (MagneticStoreRejectedDataLocation'),
+    MagneticStoreRejectedDataLocation,
     newMagneticStoreRejectedDataLocation,
 
     -- ** MagneticStoreWriteProperties
-    MagneticStoreWriteProperties (MagneticStoreWriteProperties'),
+    MagneticStoreWriteProperties,
     newMagneticStoreWriteProperties,
 
     -- ** MeasureValue
-    MeasureValue (MeasureValue'),
+    MeasureValue,
     newMeasureValue,
 
     -- ** Record
-    Record (Record'),
+    Record,
     newRecord,
 
     -- ** RecordsIngested
-    RecordsIngested (RecordsIngested'),
+    RecordsIngested,
     newRecordsIngested,
 
     -- ** RetentionProperties
-    RetentionProperties (RetentionProperties'),
+    RetentionProperties,
     newRetentionProperties,
 
     -- ** S3Configuration
-    S3Configuration (S3Configuration'),
+    S3Configuration,
     newS3Configuration,
 
     -- ** Table
-    Table (Table'),
+    Table,
     newTable,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
   )
 where

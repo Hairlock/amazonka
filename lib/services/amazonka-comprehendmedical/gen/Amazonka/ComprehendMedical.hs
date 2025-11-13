@@ -51,153 +51,153 @@ module Amazonka.ComprehendMedical
     -- $operations
 
     -- ** DescribeEntitiesDetectionV2Job
-    DescribeEntitiesDetectionV2Job (DescribeEntitiesDetectionV2Job'),
+    DescribeEntitiesDetectionV2Job,
     newDescribeEntitiesDetectionV2Job,
-    DescribeEntitiesDetectionV2JobResponse (DescribeEntitiesDetectionV2JobResponse'),
+    DescribeEntitiesDetectionV2JobResponse,
     newDescribeEntitiesDetectionV2JobResponse,
 
     -- ** DescribeICD10CMInferenceJob
-    DescribeICD10CMInferenceJob (DescribeICD10CMInferenceJob'),
+    DescribeICD10CMInferenceJob,
     newDescribeICD10CMInferenceJob,
-    DescribeICD10CMInferenceJobResponse (DescribeICD10CMInferenceJobResponse'),
+    DescribeICD10CMInferenceJobResponse,
     newDescribeICD10CMInferenceJobResponse,
 
     -- ** DescribePHIDetectionJob
-    DescribePHIDetectionJob (DescribePHIDetectionJob'),
+    DescribePHIDetectionJob,
     newDescribePHIDetectionJob,
-    DescribePHIDetectionJobResponse (DescribePHIDetectionJobResponse'),
+    DescribePHIDetectionJobResponse,
     newDescribePHIDetectionJobResponse,
 
     -- ** DescribeRxNormInferenceJob
-    DescribeRxNormInferenceJob (DescribeRxNormInferenceJob'),
+    DescribeRxNormInferenceJob,
     newDescribeRxNormInferenceJob,
-    DescribeRxNormInferenceJobResponse (DescribeRxNormInferenceJobResponse'),
+    DescribeRxNormInferenceJobResponse,
     newDescribeRxNormInferenceJobResponse,
 
     -- ** DescribeSNOMEDCTInferenceJob
-    DescribeSNOMEDCTInferenceJob (DescribeSNOMEDCTInferenceJob'),
+    DescribeSNOMEDCTInferenceJob,
     newDescribeSNOMEDCTInferenceJob,
-    DescribeSNOMEDCTInferenceJobResponse (DescribeSNOMEDCTInferenceJobResponse'),
+    DescribeSNOMEDCTInferenceJobResponse,
     newDescribeSNOMEDCTInferenceJobResponse,
 
     -- ** DetectEntitiesV2
-    DetectEntitiesV2 (DetectEntitiesV2'),
+    DetectEntitiesV2,
     newDetectEntitiesV2,
-    DetectEntitiesV2Response (DetectEntitiesV2Response'),
+    DetectEntitiesV2Response,
     newDetectEntitiesV2Response,
 
     -- ** DetectPHI
-    DetectPHI (DetectPHI'),
+    DetectPHI,
     newDetectPHI,
-    DetectPHIResponse (DetectPHIResponse'),
+    DetectPHIResponse,
     newDetectPHIResponse,
 
     -- ** InferICD10CM
-    InferICD10CM (InferICD10CM'),
+    InferICD10CM,
     newInferICD10CM,
-    InferICD10CMResponse (InferICD10CMResponse'),
+    InferICD10CMResponse,
     newInferICD10CMResponse,
 
     -- ** InferRxNorm
-    InferRxNorm (InferRxNorm'),
+    InferRxNorm,
     newInferRxNorm,
-    InferRxNormResponse (InferRxNormResponse'),
+    InferRxNormResponse,
     newInferRxNormResponse,
 
     -- ** InferSNOMEDCT
-    InferSNOMEDCT (InferSNOMEDCT'),
+    InferSNOMEDCT,
     newInferSNOMEDCT,
-    InferSNOMEDCTResponse (InferSNOMEDCTResponse'),
+    InferSNOMEDCTResponse,
     newInferSNOMEDCTResponse,
 
     -- ** ListEntitiesDetectionV2Jobs
-    ListEntitiesDetectionV2Jobs (ListEntitiesDetectionV2Jobs'),
+    ListEntitiesDetectionV2Jobs,
     newListEntitiesDetectionV2Jobs,
-    ListEntitiesDetectionV2JobsResponse (ListEntitiesDetectionV2JobsResponse'),
+    ListEntitiesDetectionV2JobsResponse,
     newListEntitiesDetectionV2JobsResponse,
 
     -- ** ListICD10CMInferenceJobs
-    ListICD10CMInferenceJobs (ListICD10CMInferenceJobs'),
+    ListICD10CMInferenceJobs,
     newListICD10CMInferenceJobs,
-    ListICD10CMInferenceJobsResponse (ListICD10CMInferenceJobsResponse'),
+    ListICD10CMInferenceJobsResponse,
     newListICD10CMInferenceJobsResponse,
 
     -- ** ListPHIDetectionJobs
-    ListPHIDetectionJobs (ListPHIDetectionJobs'),
+    ListPHIDetectionJobs,
     newListPHIDetectionJobs,
-    ListPHIDetectionJobsResponse (ListPHIDetectionJobsResponse'),
+    ListPHIDetectionJobsResponse,
     newListPHIDetectionJobsResponse,
 
     -- ** ListRxNormInferenceJobs
-    ListRxNormInferenceJobs (ListRxNormInferenceJobs'),
+    ListRxNormInferenceJobs,
     newListRxNormInferenceJobs,
-    ListRxNormInferenceJobsResponse (ListRxNormInferenceJobsResponse'),
+    ListRxNormInferenceJobsResponse,
     newListRxNormInferenceJobsResponse,
 
     -- ** ListSNOMEDCTInferenceJobs
-    ListSNOMEDCTInferenceJobs (ListSNOMEDCTInferenceJobs'),
+    ListSNOMEDCTInferenceJobs,
     newListSNOMEDCTInferenceJobs,
-    ListSNOMEDCTInferenceJobsResponse (ListSNOMEDCTInferenceJobsResponse'),
+    ListSNOMEDCTInferenceJobsResponse,
     newListSNOMEDCTInferenceJobsResponse,
 
     -- ** StartEntitiesDetectionV2Job
-    StartEntitiesDetectionV2Job (StartEntitiesDetectionV2Job'),
+    StartEntitiesDetectionV2Job,
     newStartEntitiesDetectionV2Job,
-    StartEntitiesDetectionV2JobResponse (StartEntitiesDetectionV2JobResponse'),
+    StartEntitiesDetectionV2JobResponse,
     newStartEntitiesDetectionV2JobResponse,
 
     -- ** StartICD10CMInferenceJob
-    StartICD10CMInferenceJob (StartICD10CMInferenceJob'),
+    StartICD10CMInferenceJob,
     newStartICD10CMInferenceJob,
-    StartICD10CMInferenceJobResponse (StartICD10CMInferenceJobResponse'),
+    StartICD10CMInferenceJobResponse,
     newStartICD10CMInferenceJobResponse,
 
     -- ** StartPHIDetectionJob
-    StartPHIDetectionJob (StartPHIDetectionJob'),
+    StartPHIDetectionJob,
     newStartPHIDetectionJob,
-    StartPHIDetectionJobResponse (StartPHIDetectionJobResponse'),
+    StartPHIDetectionJobResponse,
     newStartPHIDetectionJobResponse,
 
     -- ** StartRxNormInferenceJob
-    StartRxNormInferenceJob (StartRxNormInferenceJob'),
+    StartRxNormInferenceJob,
     newStartRxNormInferenceJob,
-    StartRxNormInferenceJobResponse (StartRxNormInferenceJobResponse'),
+    StartRxNormInferenceJobResponse,
     newStartRxNormInferenceJobResponse,
 
     -- ** StartSNOMEDCTInferenceJob
-    StartSNOMEDCTInferenceJob (StartSNOMEDCTInferenceJob'),
+    StartSNOMEDCTInferenceJob,
     newStartSNOMEDCTInferenceJob,
-    StartSNOMEDCTInferenceJobResponse (StartSNOMEDCTInferenceJobResponse'),
+    StartSNOMEDCTInferenceJobResponse,
     newStartSNOMEDCTInferenceJobResponse,
 
     -- ** StopEntitiesDetectionV2Job
-    StopEntitiesDetectionV2Job (StopEntitiesDetectionV2Job'),
+    StopEntitiesDetectionV2Job,
     newStopEntitiesDetectionV2Job,
-    StopEntitiesDetectionV2JobResponse (StopEntitiesDetectionV2JobResponse'),
+    StopEntitiesDetectionV2JobResponse,
     newStopEntitiesDetectionV2JobResponse,
 
     -- ** StopICD10CMInferenceJob
-    StopICD10CMInferenceJob (StopICD10CMInferenceJob'),
+    StopICD10CMInferenceJob,
     newStopICD10CMInferenceJob,
-    StopICD10CMInferenceJobResponse (StopICD10CMInferenceJobResponse'),
+    StopICD10CMInferenceJobResponse,
     newStopICD10CMInferenceJobResponse,
 
     -- ** StopPHIDetectionJob
-    StopPHIDetectionJob (StopPHIDetectionJob'),
+    StopPHIDetectionJob,
     newStopPHIDetectionJob,
-    StopPHIDetectionJobResponse (StopPHIDetectionJobResponse'),
+    StopPHIDetectionJobResponse,
     newStopPHIDetectionJobResponse,
 
     -- ** StopRxNormInferenceJob
-    StopRxNormInferenceJob (StopRxNormInferenceJob'),
+    StopRxNormInferenceJob,
     newStopRxNormInferenceJob,
-    StopRxNormInferenceJobResponse (StopRxNormInferenceJobResponse'),
+    StopRxNormInferenceJobResponse,
     newStopRxNormInferenceJobResponse,
 
     -- ** StopSNOMEDCTInferenceJob
-    StopSNOMEDCTInferenceJob (StopSNOMEDCTInferenceJob'),
+    StopSNOMEDCTInferenceJob,
     newStopSNOMEDCTInferenceJob,
-    StopSNOMEDCTInferenceJobResponse (StopSNOMEDCTInferenceJobResponse'),
+    StopSNOMEDCTInferenceJobResponse,
     newStopSNOMEDCTInferenceJobResponse,
 
     -- * Types
@@ -263,91 +263,91 @@ module Amazonka.ComprehendMedical
     SNOMEDCTTraitName (..),
 
     -- ** Attribute
-    Attribute (Attribute'),
+    Attribute,
     newAttribute,
 
     -- ** Characters
-    Characters (Characters'),
+    Characters,
     newCharacters,
 
     -- ** ComprehendMedicalAsyncJobFilter
-    ComprehendMedicalAsyncJobFilter (ComprehendMedicalAsyncJobFilter'),
+    ComprehendMedicalAsyncJobFilter,
     newComprehendMedicalAsyncJobFilter,
 
     -- ** ComprehendMedicalAsyncJobProperties
-    ComprehendMedicalAsyncJobProperties (ComprehendMedicalAsyncJobProperties'),
+    ComprehendMedicalAsyncJobProperties,
     newComprehendMedicalAsyncJobProperties,
 
     -- ** Entity
-    Entity (Entity'),
+    Entity,
     newEntity,
 
     -- ** ICD10CMAttribute
-    ICD10CMAttribute (ICD10CMAttribute'),
+    ICD10CMAttribute,
     newICD10CMAttribute,
 
     -- ** ICD10CMConcept
-    ICD10CMConcept (ICD10CMConcept'),
+    ICD10CMConcept,
     newICD10CMConcept,
 
     -- ** ICD10CMEntity
-    ICD10CMEntity (ICD10CMEntity'),
+    ICD10CMEntity,
     newICD10CMEntity,
 
     -- ** ICD10CMTrait
-    ICD10CMTrait (ICD10CMTrait'),
+    ICD10CMTrait,
     newICD10CMTrait,
 
     -- ** InputDataConfig
-    InputDataConfig (InputDataConfig'),
+    InputDataConfig,
     newInputDataConfig,
 
     -- ** OutputDataConfig
-    OutputDataConfig (OutputDataConfig'),
+    OutputDataConfig,
     newOutputDataConfig,
 
     -- ** RxNormAttribute
-    RxNormAttribute (RxNormAttribute'),
+    RxNormAttribute,
     newRxNormAttribute,
 
     -- ** RxNormConcept
-    RxNormConcept (RxNormConcept'),
+    RxNormConcept,
     newRxNormConcept,
 
     -- ** RxNormEntity
-    RxNormEntity (RxNormEntity'),
+    RxNormEntity,
     newRxNormEntity,
 
     -- ** RxNormTrait
-    RxNormTrait (RxNormTrait'),
+    RxNormTrait,
     newRxNormTrait,
 
     -- ** SNOMEDCTAttribute
-    SNOMEDCTAttribute (SNOMEDCTAttribute'),
+    SNOMEDCTAttribute,
     newSNOMEDCTAttribute,
 
     -- ** SNOMEDCTConcept
-    SNOMEDCTConcept (SNOMEDCTConcept'),
+    SNOMEDCTConcept,
     newSNOMEDCTConcept,
 
     -- ** SNOMEDCTDetails
-    SNOMEDCTDetails (SNOMEDCTDetails'),
+    SNOMEDCTDetails,
     newSNOMEDCTDetails,
 
     -- ** SNOMEDCTEntity
-    SNOMEDCTEntity (SNOMEDCTEntity'),
+    SNOMEDCTEntity,
     newSNOMEDCTEntity,
 
     -- ** SNOMEDCTTrait
-    SNOMEDCTTrait (SNOMEDCTTrait'),
+    SNOMEDCTTrait,
     newSNOMEDCTTrait,
 
     -- ** Trait
-    Trait (Trait'),
+    Trait,
     newTrait,
 
     -- ** UnmappedAttribute
-    UnmappedAttribute (UnmappedAttribute'),
+    UnmappedAttribute,
     newUnmappedAttribute,
   )
 where

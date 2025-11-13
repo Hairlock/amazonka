@@ -41,125 +41,125 @@ module Amazonka.IoT1ClickProjects
     -- $operations
 
     -- ** AssociateDeviceWithPlacement
-    AssociateDeviceWithPlacement (AssociateDeviceWithPlacement'),
+    AssociateDeviceWithPlacement,
     newAssociateDeviceWithPlacement,
-    AssociateDeviceWithPlacementResponse (AssociateDeviceWithPlacementResponse'),
+    AssociateDeviceWithPlacementResponse,
     newAssociateDeviceWithPlacementResponse,
 
     -- ** CreatePlacement
-    CreatePlacement (CreatePlacement'),
+    CreatePlacement,
     newCreatePlacement,
-    CreatePlacementResponse (CreatePlacementResponse'),
+    CreatePlacementResponse,
     newCreatePlacementResponse,
 
     -- ** CreateProject
-    CreateProject (CreateProject'),
+    CreateProject,
     newCreateProject,
-    CreateProjectResponse (CreateProjectResponse'),
+    CreateProjectResponse,
     newCreateProjectResponse,
 
     -- ** DeletePlacement
-    DeletePlacement (DeletePlacement'),
+    DeletePlacement,
     newDeletePlacement,
-    DeletePlacementResponse (DeletePlacementResponse'),
+    DeletePlacementResponse,
     newDeletePlacementResponse,
 
     -- ** DeleteProject
-    DeleteProject (DeleteProject'),
+    DeleteProject,
     newDeleteProject,
-    DeleteProjectResponse (DeleteProjectResponse'),
+    DeleteProjectResponse,
     newDeleteProjectResponse,
 
     -- ** DescribePlacement
-    DescribePlacement (DescribePlacement'),
+    DescribePlacement,
     newDescribePlacement,
-    DescribePlacementResponse (DescribePlacementResponse'),
+    DescribePlacementResponse,
     newDescribePlacementResponse,
 
     -- ** DescribeProject
-    DescribeProject (DescribeProject'),
+    DescribeProject,
     newDescribeProject,
-    DescribeProjectResponse (DescribeProjectResponse'),
+    DescribeProjectResponse,
     newDescribeProjectResponse,
 
     -- ** DisassociateDeviceFromPlacement
-    DisassociateDeviceFromPlacement (DisassociateDeviceFromPlacement'),
+    DisassociateDeviceFromPlacement,
     newDisassociateDeviceFromPlacement,
-    DisassociateDeviceFromPlacementResponse (DisassociateDeviceFromPlacementResponse'),
+    DisassociateDeviceFromPlacementResponse,
     newDisassociateDeviceFromPlacementResponse,
 
     -- ** GetDevicesInPlacement
-    GetDevicesInPlacement (GetDevicesInPlacement'),
+    GetDevicesInPlacement,
     newGetDevicesInPlacement,
-    GetDevicesInPlacementResponse (GetDevicesInPlacementResponse'),
+    GetDevicesInPlacementResponse,
     newGetDevicesInPlacementResponse,
 
     -- ** ListPlacements (Paginated)
-    ListPlacements (ListPlacements'),
+    ListPlacements,
     newListPlacements,
-    ListPlacementsResponse (ListPlacementsResponse'),
+    ListPlacementsResponse,
     newListPlacementsResponse,
 
     -- ** ListProjects (Paginated)
-    ListProjects (ListProjects'),
+    ListProjects,
     newListProjects,
-    ListProjectsResponse (ListProjectsResponse'),
+    ListProjectsResponse,
     newListProjectsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdatePlacement
-    UpdatePlacement (UpdatePlacement'),
+    UpdatePlacement,
     newUpdatePlacement,
-    UpdatePlacementResponse (UpdatePlacementResponse'),
+    UpdatePlacementResponse,
     newUpdatePlacementResponse,
 
     -- ** UpdateProject
-    UpdateProject (UpdateProject'),
+    UpdateProject,
     newUpdateProject,
-    UpdateProjectResponse (UpdateProjectResponse'),
+    UpdateProjectResponse,
     newUpdateProjectResponse,
 
     -- * Types
 
     -- ** DeviceTemplate
-    DeviceTemplate (DeviceTemplate'),
+    DeviceTemplate,
     newDeviceTemplate,
 
     -- ** PlacementDescription
-    PlacementDescription (PlacementDescription'),
+    PlacementDescription,
     newPlacementDescription,
 
     -- ** PlacementSummary
-    PlacementSummary (PlacementSummary'),
+    PlacementSummary,
     newPlacementSummary,
 
     -- ** PlacementTemplate
-    PlacementTemplate (PlacementTemplate'),
+    PlacementTemplate,
     newPlacementTemplate,
 
     -- ** ProjectDescription
-    ProjectDescription (ProjectDescription'),
+    ProjectDescription,
     newProjectDescription,
 
     -- ** ProjectSummary
-    ProjectSummary (ProjectSummary'),
+    ProjectSummary,
     newProjectSummary,
   )
 where

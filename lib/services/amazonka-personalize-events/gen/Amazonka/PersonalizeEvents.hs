@@ -38,39 +38,39 @@ module Amazonka.PersonalizeEvents
     -- $operations
 
     -- ** PutEvents
-    PutEvents (PutEvents'),
+    PutEvents,
     newPutEvents,
-    PutEventsResponse (PutEventsResponse'),
+    PutEventsResponse,
     newPutEventsResponse,
 
     -- ** PutItems
-    PutItems (PutItems'),
+    PutItems,
     newPutItems,
-    PutItemsResponse (PutItemsResponse'),
+    PutItemsResponse,
     newPutItemsResponse,
 
     -- ** PutUsers
-    PutUsers (PutUsers'),
+    PutUsers,
     newPutUsers,
-    PutUsersResponse (PutUsersResponse'),
+    PutUsersResponse,
     newPutUsersResponse,
 
     -- * Types
 
     -- ** Event
-    Event (Event'),
+    Event,
     newEvent,
 
     -- ** Item
-    Item (Item'),
+    Item,
     newItem,
 
     -- ** MetricAttribution
-    MetricAttribution (MetricAttribution'),
+    MetricAttribution,
     newMetricAttribution,
 
     -- ** User
-    User (User'),
+    User,
     newUser,
   )
 where

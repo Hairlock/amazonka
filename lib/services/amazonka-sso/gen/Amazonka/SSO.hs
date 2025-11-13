@@ -58,41 +58,41 @@ module Amazonka.SSO
     -- $operations
 
     -- ** GetRoleCredentials
-    GetRoleCredentials (GetRoleCredentials'),
+    GetRoleCredentials,
     newGetRoleCredentials,
-    GetRoleCredentialsResponse (GetRoleCredentialsResponse'),
+    GetRoleCredentialsResponse,
     newGetRoleCredentialsResponse,
 
     -- ** ListAccountRoles (Paginated)
-    ListAccountRoles (ListAccountRoles'),
+    ListAccountRoles,
     newListAccountRoles,
-    ListAccountRolesResponse (ListAccountRolesResponse'),
+    ListAccountRolesResponse,
     newListAccountRolesResponse,
 
     -- ** ListAccounts (Paginated)
-    ListAccounts (ListAccounts'),
+    ListAccounts,
     newListAccounts,
-    ListAccountsResponse (ListAccountsResponse'),
+    ListAccountsResponse,
     newListAccountsResponse,
 
     -- ** Logout
-    Logout (Logout'),
+    Logout,
     newLogout,
-    LogoutResponse (LogoutResponse'),
+    LogoutResponse,
     newLogoutResponse,
 
     -- * Types
 
     -- ** AccountInfo
-    AccountInfo (AccountInfo'),
+    AccountInfo,
     newAccountInfo,
 
     -- ** RoleCredentials
-    RoleCredentials (RoleCredentials'),
+    RoleCredentials,
     newRoleCredentials,
 
     -- ** RoleInfo
-    RoleInfo (RoleInfo'),
+    RoleInfo,
     newRoleInfo,
   )
 where

@@ -44,381 +44,381 @@ module Amazonka.Forecast
     -- $operations
 
     -- ** CreateAutoPredictor
-    CreateAutoPredictor (CreateAutoPredictor'),
+    CreateAutoPredictor,
     newCreateAutoPredictor,
-    CreateAutoPredictorResponse (CreateAutoPredictorResponse'),
+    CreateAutoPredictorResponse,
     newCreateAutoPredictorResponse,
 
     -- ** CreateDataset
-    CreateDataset (CreateDataset'),
+    CreateDataset,
     newCreateDataset,
-    CreateDatasetResponse (CreateDatasetResponse'),
+    CreateDatasetResponse,
     newCreateDatasetResponse,
 
     -- ** CreateDatasetGroup
-    CreateDatasetGroup (CreateDatasetGroup'),
+    CreateDatasetGroup,
     newCreateDatasetGroup,
-    CreateDatasetGroupResponse (CreateDatasetGroupResponse'),
+    CreateDatasetGroupResponse,
     newCreateDatasetGroupResponse,
 
     -- ** CreateDatasetImportJob
-    CreateDatasetImportJob (CreateDatasetImportJob'),
+    CreateDatasetImportJob,
     newCreateDatasetImportJob,
-    CreateDatasetImportJobResponse (CreateDatasetImportJobResponse'),
+    CreateDatasetImportJobResponse,
     newCreateDatasetImportJobResponse,
 
     -- ** CreateExplainability
-    CreateExplainability (CreateExplainability'),
+    CreateExplainability,
     newCreateExplainability,
-    CreateExplainabilityResponse (CreateExplainabilityResponse'),
+    CreateExplainabilityResponse,
     newCreateExplainabilityResponse,
 
     -- ** CreateExplainabilityExport
-    CreateExplainabilityExport (CreateExplainabilityExport'),
+    CreateExplainabilityExport,
     newCreateExplainabilityExport,
-    CreateExplainabilityExportResponse (CreateExplainabilityExportResponse'),
+    CreateExplainabilityExportResponse,
     newCreateExplainabilityExportResponse,
 
     -- ** CreateForecast
-    CreateForecast (CreateForecast'),
+    CreateForecast,
     newCreateForecast,
-    CreateForecastResponse (CreateForecastResponse'),
+    CreateForecastResponse,
     newCreateForecastResponse,
 
     -- ** CreateForecastExportJob
-    CreateForecastExportJob (CreateForecastExportJob'),
+    CreateForecastExportJob,
     newCreateForecastExportJob,
-    CreateForecastExportJobResponse (CreateForecastExportJobResponse'),
+    CreateForecastExportJobResponse,
     newCreateForecastExportJobResponse,
 
     -- ** CreateMonitor
-    CreateMonitor (CreateMonitor'),
+    CreateMonitor,
     newCreateMonitor,
-    CreateMonitorResponse (CreateMonitorResponse'),
+    CreateMonitorResponse,
     newCreateMonitorResponse,
 
     -- ** CreatePredictor
-    CreatePredictor (CreatePredictor'),
+    CreatePredictor,
     newCreatePredictor,
-    CreatePredictorResponse (CreatePredictorResponse'),
+    CreatePredictorResponse,
     newCreatePredictorResponse,
 
     -- ** CreatePredictorBacktestExportJob
-    CreatePredictorBacktestExportJob (CreatePredictorBacktestExportJob'),
+    CreatePredictorBacktestExportJob,
     newCreatePredictorBacktestExportJob,
-    CreatePredictorBacktestExportJobResponse (CreatePredictorBacktestExportJobResponse'),
+    CreatePredictorBacktestExportJobResponse,
     newCreatePredictorBacktestExportJobResponse,
 
     -- ** CreateWhatIfAnalysis
-    CreateWhatIfAnalysis (CreateWhatIfAnalysis'),
+    CreateWhatIfAnalysis,
     newCreateWhatIfAnalysis,
-    CreateWhatIfAnalysisResponse (CreateWhatIfAnalysisResponse'),
+    CreateWhatIfAnalysisResponse,
     newCreateWhatIfAnalysisResponse,
 
     -- ** CreateWhatIfForecast
-    CreateWhatIfForecast (CreateWhatIfForecast'),
+    CreateWhatIfForecast,
     newCreateWhatIfForecast,
-    CreateWhatIfForecastResponse (CreateWhatIfForecastResponse'),
+    CreateWhatIfForecastResponse,
     newCreateWhatIfForecastResponse,
 
     -- ** CreateWhatIfForecastExport
-    CreateWhatIfForecastExport (CreateWhatIfForecastExport'),
+    CreateWhatIfForecastExport,
     newCreateWhatIfForecastExport,
-    CreateWhatIfForecastExportResponse (CreateWhatIfForecastExportResponse'),
+    CreateWhatIfForecastExportResponse,
     newCreateWhatIfForecastExportResponse,
 
     -- ** DeleteDataset
-    DeleteDataset (DeleteDataset'),
+    DeleteDataset,
     newDeleteDataset,
-    DeleteDatasetResponse (DeleteDatasetResponse'),
+    DeleteDatasetResponse,
     newDeleteDatasetResponse,
 
     -- ** DeleteDatasetGroup
-    DeleteDatasetGroup (DeleteDatasetGroup'),
+    DeleteDatasetGroup,
     newDeleteDatasetGroup,
-    DeleteDatasetGroupResponse (DeleteDatasetGroupResponse'),
+    DeleteDatasetGroupResponse,
     newDeleteDatasetGroupResponse,
 
     -- ** DeleteDatasetImportJob
-    DeleteDatasetImportJob (DeleteDatasetImportJob'),
+    DeleteDatasetImportJob,
     newDeleteDatasetImportJob,
-    DeleteDatasetImportJobResponse (DeleteDatasetImportJobResponse'),
+    DeleteDatasetImportJobResponse,
     newDeleteDatasetImportJobResponse,
 
     -- ** DeleteExplainability
-    DeleteExplainability (DeleteExplainability'),
+    DeleteExplainability,
     newDeleteExplainability,
-    DeleteExplainabilityResponse (DeleteExplainabilityResponse'),
+    DeleteExplainabilityResponse,
     newDeleteExplainabilityResponse,
 
     -- ** DeleteExplainabilityExport
-    DeleteExplainabilityExport (DeleteExplainabilityExport'),
+    DeleteExplainabilityExport,
     newDeleteExplainabilityExport,
-    DeleteExplainabilityExportResponse (DeleteExplainabilityExportResponse'),
+    DeleteExplainabilityExportResponse,
     newDeleteExplainabilityExportResponse,
 
     -- ** DeleteForecast
-    DeleteForecast (DeleteForecast'),
+    DeleteForecast,
     newDeleteForecast,
-    DeleteForecastResponse (DeleteForecastResponse'),
+    DeleteForecastResponse,
     newDeleteForecastResponse,
 
     -- ** DeleteForecastExportJob
-    DeleteForecastExportJob (DeleteForecastExportJob'),
+    DeleteForecastExportJob,
     newDeleteForecastExportJob,
-    DeleteForecastExportJobResponse (DeleteForecastExportJobResponse'),
+    DeleteForecastExportJobResponse,
     newDeleteForecastExportJobResponse,
 
     -- ** DeleteMonitor
-    DeleteMonitor (DeleteMonitor'),
+    DeleteMonitor,
     newDeleteMonitor,
-    DeleteMonitorResponse (DeleteMonitorResponse'),
+    DeleteMonitorResponse,
     newDeleteMonitorResponse,
 
     -- ** DeletePredictor
-    DeletePredictor (DeletePredictor'),
+    DeletePredictor,
     newDeletePredictor,
-    DeletePredictorResponse (DeletePredictorResponse'),
+    DeletePredictorResponse,
     newDeletePredictorResponse,
 
     -- ** DeletePredictorBacktestExportJob
-    DeletePredictorBacktestExportJob (DeletePredictorBacktestExportJob'),
+    DeletePredictorBacktestExportJob,
     newDeletePredictorBacktestExportJob,
-    DeletePredictorBacktestExportJobResponse (DeletePredictorBacktestExportJobResponse'),
+    DeletePredictorBacktestExportJobResponse,
     newDeletePredictorBacktestExportJobResponse,
 
     -- ** DeleteResourceTree
-    DeleteResourceTree (DeleteResourceTree'),
+    DeleteResourceTree,
     newDeleteResourceTree,
-    DeleteResourceTreeResponse (DeleteResourceTreeResponse'),
+    DeleteResourceTreeResponse,
     newDeleteResourceTreeResponse,
 
     -- ** DeleteWhatIfAnalysis
-    DeleteWhatIfAnalysis (DeleteWhatIfAnalysis'),
+    DeleteWhatIfAnalysis,
     newDeleteWhatIfAnalysis,
-    DeleteWhatIfAnalysisResponse (DeleteWhatIfAnalysisResponse'),
+    DeleteWhatIfAnalysisResponse,
     newDeleteWhatIfAnalysisResponse,
 
     -- ** DeleteWhatIfForecast
-    DeleteWhatIfForecast (DeleteWhatIfForecast'),
+    DeleteWhatIfForecast,
     newDeleteWhatIfForecast,
-    DeleteWhatIfForecastResponse (DeleteWhatIfForecastResponse'),
+    DeleteWhatIfForecastResponse,
     newDeleteWhatIfForecastResponse,
 
     -- ** DeleteWhatIfForecastExport
-    DeleteWhatIfForecastExport (DeleteWhatIfForecastExport'),
+    DeleteWhatIfForecastExport,
     newDeleteWhatIfForecastExport,
-    DeleteWhatIfForecastExportResponse (DeleteWhatIfForecastExportResponse'),
+    DeleteWhatIfForecastExportResponse,
     newDeleteWhatIfForecastExportResponse,
 
     -- ** DescribeAutoPredictor
-    DescribeAutoPredictor (DescribeAutoPredictor'),
+    DescribeAutoPredictor,
     newDescribeAutoPredictor,
-    DescribeAutoPredictorResponse (DescribeAutoPredictorResponse'),
+    DescribeAutoPredictorResponse,
     newDescribeAutoPredictorResponse,
 
     -- ** DescribeDataset
-    DescribeDataset (DescribeDataset'),
+    DescribeDataset,
     newDescribeDataset,
-    DescribeDatasetResponse (DescribeDatasetResponse'),
+    DescribeDatasetResponse,
     newDescribeDatasetResponse,
 
     -- ** DescribeDatasetGroup
-    DescribeDatasetGroup (DescribeDatasetGroup'),
+    DescribeDatasetGroup,
     newDescribeDatasetGroup,
-    DescribeDatasetGroupResponse (DescribeDatasetGroupResponse'),
+    DescribeDatasetGroupResponse,
     newDescribeDatasetGroupResponse,
 
     -- ** DescribeDatasetImportJob
-    DescribeDatasetImportJob (DescribeDatasetImportJob'),
+    DescribeDatasetImportJob,
     newDescribeDatasetImportJob,
-    DescribeDatasetImportJobResponse (DescribeDatasetImportJobResponse'),
+    DescribeDatasetImportJobResponse,
     newDescribeDatasetImportJobResponse,
 
     -- ** DescribeExplainability
-    DescribeExplainability (DescribeExplainability'),
+    DescribeExplainability,
     newDescribeExplainability,
-    DescribeExplainabilityResponse (DescribeExplainabilityResponse'),
+    DescribeExplainabilityResponse,
     newDescribeExplainabilityResponse,
 
     -- ** DescribeExplainabilityExport
-    DescribeExplainabilityExport (DescribeExplainabilityExport'),
+    DescribeExplainabilityExport,
     newDescribeExplainabilityExport,
-    DescribeExplainabilityExportResponse (DescribeExplainabilityExportResponse'),
+    DescribeExplainabilityExportResponse,
     newDescribeExplainabilityExportResponse,
 
     -- ** DescribeForecast
-    DescribeForecast (DescribeForecast'),
+    DescribeForecast,
     newDescribeForecast,
-    DescribeForecastResponse (DescribeForecastResponse'),
+    DescribeForecastResponse,
     newDescribeForecastResponse,
 
     -- ** DescribeForecastExportJob
-    DescribeForecastExportJob (DescribeForecastExportJob'),
+    DescribeForecastExportJob,
     newDescribeForecastExportJob,
-    DescribeForecastExportJobResponse (DescribeForecastExportJobResponse'),
+    DescribeForecastExportJobResponse,
     newDescribeForecastExportJobResponse,
 
     -- ** DescribeMonitor
-    DescribeMonitor (DescribeMonitor'),
+    DescribeMonitor,
     newDescribeMonitor,
-    DescribeMonitorResponse (DescribeMonitorResponse'),
+    DescribeMonitorResponse,
     newDescribeMonitorResponse,
 
     -- ** DescribePredictor
-    DescribePredictor (DescribePredictor'),
+    DescribePredictor,
     newDescribePredictor,
-    DescribePredictorResponse (DescribePredictorResponse'),
+    DescribePredictorResponse,
     newDescribePredictorResponse,
 
     -- ** DescribePredictorBacktestExportJob
-    DescribePredictorBacktestExportJob (DescribePredictorBacktestExportJob'),
+    DescribePredictorBacktestExportJob,
     newDescribePredictorBacktestExportJob,
-    DescribePredictorBacktestExportJobResponse (DescribePredictorBacktestExportJobResponse'),
+    DescribePredictorBacktestExportJobResponse,
     newDescribePredictorBacktestExportJobResponse,
 
     -- ** DescribeWhatIfAnalysis
-    DescribeWhatIfAnalysis (DescribeWhatIfAnalysis'),
+    DescribeWhatIfAnalysis,
     newDescribeWhatIfAnalysis,
-    DescribeWhatIfAnalysisResponse (DescribeWhatIfAnalysisResponse'),
+    DescribeWhatIfAnalysisResponse,
     newDescribeWhatIfAnalysisResponse,
 
     -- ** DescribeWhatIfForecast
-    DescribeWhatIfForecast (DescribeWhatIfForecast'),
+    DescribeWhatIfForecast,
     newDescribeWhatIfForecast,
-    DescribeWhatIfForecastResponse (DescribeWhatIfForecastResponse'),
+    DescribeWhatIfForecastResponse,
     newDescribeWhatIfForecastResponse,
 
     -- ** DescribeWhatIfForecastExport
-    DescribeWhatIfForecastExport (DescribeWhatIfForecastExport'),
+    DescribeWhatIfForecastExport,
     newDescribeWhatIfForecastExport,
-    DescribeWhatIfForecastExportResponse (DescribeWhatIfForecastExportResponse'),
+    DescribeWhatIfForecastExportResponse,
     newDescribeWhatIfForecastExportResponse,
 
     -- ** GetAccuracyMetrics
-    GetAccuracyMetrics (GetAccuracyMetrics'),
+    GetAccuracyMetrics,
     newGetAccuracyMetrics,
-    GetAccuracyMetricsResponse (GetAccuracyMetricsResponse'),
+    GetAccuracyMetricsResponse,
     newGetAccuracyMetricsResponse,
 
     -- ** ListDatasetGroups (Paginated)
-    ListDatasetGroups (ListDatasetGroups'),
+    ListDatasetGroups,
     newListDatasetGroups,
-    ListDatasetGroupsResponse (ListDatasetGroupsResponse'),
+    ListDatasetGroupsResponse,
     newListDatasetGroupsResponse,
 
     -- ** ListDatasetImportJobs (Paginated)
-    ListDatasetImportJobs (ListDatasetImportJobs'),
+    ListDatasetImportJobs,
     newListDatasetImportJobs,
-    ListDatasetImportJobsResponse (ListDatasetImportJobsResponse'),
+    ListDatasetImportJobsResponse,
     newListDatasetImportJobsResponse,
 
     -- ** ListDatasets (Paginated)
-    ListDatasets (ListDatasets'),
+    ListDatasets,
     newListDatasets,
-    ListDatasetsResponse (ListDatasetsResponse'),
+    ListDatasetsResponse,
     newListDatasetsResponse,
 
     -- ** ListExplainabilities (Paginated)
-    ListExplainabilities (ListExplainabilities'),
+    ListExplainabilities,
     newListExplainabilities,
-    ListExplainabilitiesResponse (ListExplainabilitiesResponse'),
+    ListExplainabilitiesResponse,
     newListExplainabilitiesResponse,
 
     -- ** ListExplainabilityExports (Paginated)
-    ListExplainabilityExports (ListExplainabilityExports'),
+    ListExplainabilityExports,
     newListExplainabilityExports,
-    ListExplainabilityExportsResponse (ListExplainabilityExportsResponse'),
+    ListExplainabilityExportsResponse,
     newListExplainabilityExportsResponse,
 
     -- ** ListForecastExportJobs (Paginated)
-    ListForecastExportJobs (ListForecastExportJobs'),
+    ListForecastExportJobs,
     newListForecastExportJobs,
-    ListForecastExportJobsResponse (ListForecastExportJobsResponse'),
+    ListForecastExportJobsResponse,
     newListForecastExportJobsResponse,
 
     -- ** ListForecasts (Paginated)
-    ListForecasts (ListForecasts'),
+    ListForecasts,
     newListForecasts,
-    ListForecastsResponse (ListForecastsResponse'),
+    ListForecastsResponse,
     newListForecastsResponse,
 
     -- ** ListMonitorEvaluations (Paginated)
-    ListMonitorEvaluations (ListMonitorEvaluations'),
+    ListMonitorEvaluations,
     newListMonitorEvaluations,
-    ListMonitorEvaluationsResponse (ListMonitorEvaluationsResponse'),
+    ListMonitorEvaluationsResponse,
     newListMonitorEvaluationsResponse,
 
     -- ** ListMonitors (Paginated)
-    ListMonitors (ListMonitors'),
+    ListMonitors,
     newListMonitors,
-    ListMonitorsResponse (ListMonitorsResponse'),
+    ListMonitorsResponse,
     newListMonitorsResponse,
 
     -- ** ListPredictorBacktestExportJobs (Paginated)
-    ListPredictorBacktestExportJobs (ListPredictorBacktestExportJobs'),
+    ListPredictorBacktestExportJobs,
     newListPredictorBacktestExportJobs,
-    ListPredictorBacktestExportJobsResponse (ListPredictorBacktestExportJobsResponse'),
+    ListPredictorBacktestExportJobsResponse,
     newListPredictorBacktestExportJobsResponse,
 
     -- ** ListPredictors (Paginated)
-    ListPredictors (ListPredictors'),
+    ListPredictors,
     newListPredictors,
-    ListPredictorsResponse (ListPredictorsResponse'),
+    ListPredictorsResponse,
     newListPredictorsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** ListWhatIfAnalyses (Paginated)
-    ListWhatIfAnalyses (ListWhatIfAnalyses'),
+    ListWhatIfAnalyses,
     newListWhatIfAnalyses,
-    ListWhatIfAnalysesResponse (ListWhatIfAnalysesResponse'),
+    ListWhatIfAnalysesResponse,
     newListWhatIfAnalysesResponse,
 
     -- ** ListWhatIfForecastExports (Paginated)
-    ListWhatIfForecastExports (ListWhatIfForecastExports'),
+    ListWhatIfForecastExports,
     newListWhatIfForecastExports,
-    ListWhatIfForecastExportsResponse (ListWhatIfForecastExportsResponse'),
+    ListWhatIfForecastExportsResponse,
     newListWhatIfForecastExportsResponse,
 
     -- ** ListWhatIfForecasts (Paginated)
-    ListWhatIfForecasts (ListWhatIfForecasts'),
+    ListWhatIfForecasts,
     newListWhatIfForecasts,
-    ListWhatIfForecastsResponse (ListWhatIfForecastsResponse'),
+    ListWhatIfForecastsResponse,
     newListWhatIfForecastsResponse,
 
     -- ** ResumeResource
-    ResumeResource (ResumeResource'),
+    ResumeResource,
     newResumeResource,
-    ResumeResourceResponse (ResumeResourceResponse'),
+    ResumeResourceResponse,
     newResumeResourceResponse,
 
     -- ** StopResource
-    StopResource (StopResource'),
+    StopResource,
     newStopResource,
-    StopResourceResponse (StopResourceResponse'),
+    StopResourceResponse,
     newStopResourceResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateDatasetGroup
-    UpdateDatasetGroup (UpdateDatasetGroup'),
+    UpdateDatasetGroup,
     newUpdateDatasetGroup,
-    UpdateDatasetGroupResponse (UpdateDatasetGroupResponse'),
+    UpdateDatasetGroupResponse,
     newUpdateDatasetGroupResponse,
 
     -- * Types
@@ -472,255 +472,255 @@ module Amazonka.Forecast
     TimeSeriesGranularity (..),
 
     -- ** Action
-    Action (Action'),
+    Action,
     newAction,
 
     -- ** AdditionalDataset
-    AdditionalDataset (AdditionalDataset'),
+    AdditionalDataset,
     newAdditionalDataset,
 
     -- ** AttributeConfig
-    AttributeConfig (AttributeConfig'),
+    AttributeConfig,
     newAttributeConfig,
 
     -- ** Baseline
-    Baseline (Baseline'),
+    Baseline,
     newBaseline,
 
     -- ** BaselineMetric
-    BaselineMetric (BaselineMetric'),
+    BaselineMetric,
     newBaselineMetric,
 
     -- ** CategoricalParameterRange
-    CategoricalParameterRange (CategoricalParameterRange'),
+    CategoricalParameterRange,
     newCategoricalParameterRange,
 
     -- ** ContinuousParameterRange
-    ContinuousParameterRange (ContinuousParameterRange'),
+    ContinuousParameterRange,
     newContinuousParameterRange,
 
     -- ** DataConfig
-    DataConfig (DataConfig'),
+    DataConfig,
     newDataConfig,
 
     -- ** DataDestination
-    DataDestination (DataDestination'),
+    DataDestination,
     newDataDestination,
 
     -- ** DataSource
-    DataSource (DataSource'),
+    DataSource,
     newDataSource,
 
     -- ** DatasetGroupSummary
-    DatasetGroupSummary (DatasetGroupSummary'),
+    DatasetGroupSummary,
     newDatasetGroupSummary,
 
     -- ** DatasetImportJobSummary
-    DatasetImportJobSummary (DatasetImportJobSummary'),
+    DatasetImportJobSummary,
     newDatasetImportJobSummary,
 
     -- ** DatasetSummary
-    DatasetSummary (DatasetSummary'),
+    DatasetSummary,
     newDatasetSummary,
 
     -- ** EncryptionConfig
-    EncryptionConfig (EncryptionConfig'),
+    EncryptionConfig,
     newEncryptionConfig,
 
     -- ** ErrorMetric
-    ErrorMetric (ErrorMetric'),
+    ErrorMetric,
     newErrorMetric,
 
     -- ** EvaluationParameters
-    EvaluationParameters (EvaluationParameters'),
+    EvaluationParameters,
     newEvaluationParameters,
 
     -- ** EvaluationResult
-    EvaluationResult (EvaluationResult'),
+    EvaluationResult,
     newEvaluationResult,
 
     -- ** ExplainabilityConfig
-    ExplainabilityConfig (ExplainabilityConfig'),
+    ExplainabilityConfig,
     newExplainabilityConfig,
 
     -- ** ExplainabilityExportSummary
-    ExplainabilityExportSummary (ExplainabilityExportSummary'),
+    ExplainabilityExportSummary,
     newExplainabilityExportSummary,
 
     -- ** ExplainabilityInfo
-    ExplainabilityInfo (ExplainabilityInfo'),
+    ExplainabilityInfo,
     newExplainabilityInfo,
 
     -- ** ExplainabilitySummary
-    ExplainabilitySummary (ExplainabilitySummary'),
+    ExplainabilitySummary,
     newExplainabilitySummary,
 
     -- ** Featurization
-    Featurization (Featurization'),
+    Featurization,
     newFeaturization,
 
     -- ** FeaturizationConfig
-    FeaturizationConfig (FeaturizationConfig'),
+    FeaturizationConfig,
     newFeaturizationConfig,
 
     -- ** FeaturizationMethod
-    FeaturizationMethod (FeaturizationMethod'),
+    FeaturizationMethod,
     newFeaturizationMethod,
 
     -- ** Filter
-    Filter (Filter'),
+    Filter,
     newFilter,
 
     -- ** ForecastExportJobSummary
-    ForecastExportJobSummary (ForecastExportJobSummary'),
+    ForecastExportJobSummary,
     newForecastExportJobSummary,
 
     -- ** ForecastSummary
-    ForecastSummary (ForecastSummary'),
+    ForecastSummary,
     newForecastSummary,
 
     -- ** HyperParameterTuningJobConfig
-    HyperParameterTuningJobConfig (HyperParameterTuningJobConfig'),
+    HyperParameterTuningJobConfig,
     newHyperParameterTuningJobConfig,
 
     -- ** InputDataConfig
-    InputDataConfig (InputDataConfig'),
+    InputDataConfig,
     newInputDataConfig,
 
     -- ** IntegerParameterRange
-    IntegerParameterRange (IntegerParameterRange'),
+    IntegerParameterRange,
     newIntegerParameterRange,
 
     -- ** MetricResult
-    MetricResult (MetricResult'),
+    MetricResult,
     newMetricResult,
 
     -- ** Metrics
-    Metrics (Metrics'),
+    Metrics,
     newMetrics,
 
     -- ** MonitorConfig
-    MonitorConfig (MonitorConfig'),
+    MonitorConfig,
     newMonitorConfig,
 
     -- ** MonitorDataSource
-    MonitorDataSource (MonitorDataSource'),
+    MonitorDataSource,
     newMonitorDataSource,
 
     -- ** MonitorInfo
-    MonitorInfo (MonitorInfo'),
+    MonitorInfo,
     newMonitorInfo,
 
     -- ** MonitorSummary
-    MonitorSummary (MonitorSummary'),
+    MonitorSummary,
     newMonitorSummary,
 
     -- ** ParameterRanges
-    ParameterRanges (ParameterRanges'),
+    ParameterRanges,
     newParameterRanges,
 
     -- ** PredictorBacktestExportJobSummary
-    PredictorBacktestExportJobSummary (PredictorBacktestExportJobSummary'),
+    PredictorBacktestExportJobSummary,
     newPredictorBacktestExportJobSummary,
 
     -- ** PredictorBaseline
-    PredictorBaseline (PredictorBaseline'),
+    PredictorBaseline,
     newPredictorBaseline,
 
     -- ** PredictorEvent
-    PredictorEvent (PredictorEvent'),
+    PredictorEvent,
     newPredictorEvent,
 
     -- ** PredictorExecution
-    PredictorExecution (PredictorExecution'),
+    PredictorExecution,
     newPredictorExecution,
 
     -- ** PredictorExecutionDetails
-    PredictorExecutionDetails (PredictorExecutionDetails'),
+    PredictorExecutionDetails,
     newPredictorExecutionDetails,
 
     -- ** PredictorMonitorEvaluation
-    PredictorMonitorEvaluation (PredictorMonitorEvaluation'),
+    PredictorMonitorEvaluation,
     newPredictorMonitorEvaluation,
 
     -- ** PredictorSummary
-    PredictorSummary (PredictorSummary'),
+    PredictorSummary,
     newPredictorSummary,
 
     -- ** ReferencePredictorSummary
-    ReferencePredictorSummary (ReferencePredictorSummary'),
+    ReferencePredictorSummary,
     newReferencePredictorSummary,
 
     -- ** S3Config
-    S3Config (S3Config'),
+    S3Config,
     newS3Config,
 
     -- ** Schema
-    Schema (Schema'),
+    Schema,
     newSchema,
 
     -- ** SchemaAttribute
-    SchemaAttribute (SchemaAttribute'),
+    SchemaAttribute,
     newSchemaAttribute,
 
     -- ** Statistics
-    Statistics (Statistics'),
+    Statistics,
     newStatistics,
 
     -- ** SupplementaryFeature
-    SupplementaryFeature (SupplementaryFeature'),
+    SupplementaryFeature,
     newSupplementaryFeature,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
 
     -- ** TestWindowSummary
-    TestWindowSummary (TestWindowSummary'),
+    TestWindowSummary,
     newTestWindowSummary,
 
     -- ** TimeAlignmentBoundary
-    TimeAlignmentBoundary (TimeAlignmentBoundary'),
+    TimeAlignmentBoundary,
     newTimeAlignmentBoundary,
 
     -- ** TimeSeriesCondition
-    TimeSeriesCondition (TimeSeriesCondition'),
+    TimeSeriesCondition,
     newTimeSeriesCondition,
 
     -- ** TimeSeriesIdentifiers
-    TimeSeriesIdentifiers (TimeSeriesIdentifiers'),
+    TimeSeriesIdentifiers,
     newTimeSeriesIdentifiers,
 
     -- ** TimeSeriesReplacementsDataSource
-    TimeSeriesReplacementsDataSource (TimeSeriesReplacementsDataSource'),
+    TimeSeriesReplacementsDataSource,
     newTimeSeriesReplacementsDataSource,
 
     -- ** TimeSeriesSelector
-    TimeSeriesSelector (TimeSeriesSelector'),
+    TimeSeriesSelector,
     newTimeSeriesSelector,
 
     -- ** TimeSeriesTransformation
-    TimeSeriesTransformation (TimeSeriesTransformation'),
+    TimeSeriesTransformation,
     newTimeSeriesTransformation,
 
     -- ** WeightedQuantileLoss
-    WeightedQuantileLoss (WeightedQuantileLoss'),
+    WeightedQuantileLoss,
     newWeightedQuantileLoss,
 
     -- ** WhatIfAnalysisSummary
-    WhatIfAnalysisSummary (WhatIfAnalysisSummary'),
+    WhatIfAnalysisSummary,
     newWhatIfAnalysisSummary,
 
     -- ** WhatIfForecastExportSummary
-    WhatIfForecastExportSummary (WhatIfForecastExportSummary'),
+    WhatIfForecastExportSummary,
     newWhatIfForecastExportSummary,
 
     -- ** WhatIfForecastSummary
-    WhatIfForecastSummary (WhatIfForecastSummary'),
+    WhatIfForecastSummary,
     newWhatIfForecastSummary,
 
     -- ** WindowSummary
-    WindowSummary (WindowSummary'),
+    WindowSummary,
     newWindowSummary,
   )
 where

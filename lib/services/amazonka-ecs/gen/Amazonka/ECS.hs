@@ -129,333 +129,333 @@ module Amazonka.ECS
     -- $operations
 
     -- ** CreateCapacityProvider
-    CreateCapacityProvider (CreateCapacityProvider'),
+    CreateCapacityProvider,
     newCreateCapacityProvider,
-    CreateCapacityProviderResponse (CreateCapacityProviderResponse'),
+    CreateCapacityProviderResponse,
     newCreateCapacityProviderResponse,
 
     -- ** CreateCluster
-    CreateCluster (CreateCluster'),
+    CreateCluster,
     newCreateCluster,
-    CreateClusterResponse (CreateClusterResponse'),
+    CreateClusterResponse,
     newCreateClusterResponse,
 
     -- ** CreateService
-    CreateService (CreateService'),
+    CreateService,
     newCreateService,
-    CreateServiceResponse (CreateServiceResponse'),
+    CreateServiceResponse,
     newCreateServiceResponse,
 
     -- ** CreateTaskSet
-    CreateTaskSet (CreateTaskSet'),
+    CreateTaskSet,
     newCreateTaskSet,
-    CreateTaskSetResponse (CreateTaskSetResponse'),
+    CreateTaskSetResponse,
     newCreateTaskSetResponse,
 
     -- ** DeleteAccountSetting
-    DeleteAccountSetting (DeleteAccountSetting'),
+    DeleteAccountSetting,
     newDeleteAccountSetting,
-    DeleteAccountSettingResponse (DeleteAccountSettingResponse'),
+    DeleteAccountSettingResponse,
     newDeleteAccountSettingResponse,
 
     -- ** DeleteAttributes
-    DeleteAttributes (DeleteAttributes'),
+    DeleteAttributes,
     newDeleteAttributes,
-    DeleteAttributesResponse (DeleteAttributesResponse'),
+    DeleteAttributesResponse,
     newDeleteAttributesResponse,
 
     -- ** DeleteCapacityProvider
-    DeleteCapacityProvider (DeleteCapacityProvider'),
+    DeleteCapacityProvider,
     newDeleteCapacityProvider,
-    DeleteCapacityProviderResponse (DeleteCapacityProviderResponse'),
+    DeleteCapacityProviderResponse,
     newDeleteCapacityProviderResponse,
 
     -- ** DeleteCluster
-    DeleteCluster (DeleteCluster'),
+    DeleteCluster,
     newDeleteCluster,
-    DeleteClusterResponse (DeleteClusterResponse'),
+    DeleteClusterResponse,
     newDeleteClusterResponse,
 
     -- ** DeleteService
-    DeleteService (DeleteService'),
+    DeleteService,
     newDeleteService,
-    DeleteServiceResponse (DeleteServiceResponse'),
+    DeleteServiceResponse,
     newDeleteServiceResponse,
 
     -- ** DeleteTaskSet
-    DeleteTaskSet (DeleteTaskSet'),
+    DeleteTaskSet,
     newDeleteTaskSet,
-    DeleteTaskSetResponse (DeleteTaskSetResponse'),
+    DeleteTaskSetResponse,
     newDeleteTaskSetResponse,
 
     -- ** DeregisterContainerInstance
-    DeregisterContainerInstance (DeregisterContainerInstance'),
+    DeregisterContainerInstance,
     newDeregisterContainerInstance,
-    DeregisterContainerInstanceResponse (DeregisterContainerInstanceResponse'),
+    DeregisterContainerInstanceResponse,
     newDeregisterContainerInstanceResponse,
 
     -- ** DeregisterTaskDefinition
-    DeregisterTaskDefinition (DeregisterTaskDefinition'),
+    DeregisterTaskDefinition,
     newDeregisterTaskDefinition,
-    DeregisterTaskDefinitionResponse (DeregisterTaskDefinitionResponse'),
+    DeregisterTaskDefinitionResponse,
     newDeregisterTaskDefinitionResponse,
 
     -- ** DescribeCapacityProviders
-    DescribeCapacityProviders (DescribeCapacityProviders'),
+    DescribeCapacityProviders,
     newDescribeCapacityProviders,
-    DescribeCapacityProvidersResponse (DescribeCapacityProvidersResponse'),
+    DescribeCapacityProvidersResponse,
     newDescribeCapacityProvidersResponse,
 
     -- ** DescribeClusters
-    DescribeClusters (DescribeClusters'),
+    DescribeClusters,
     newDescribeClusters,
-    DescribeClustersResponse (DescribeClustersResponse'),
+    DescribeClustersResponse,
     newDescribeClustersResponse,
 
     -- ** DescribeContainerInstances
-    DescribeContainerInstances (DescribeContainerInstances'),
+    DescribeContainerInstances,
     newDescribeContainerInstances,
-    DescribeContainerInstancesResponse (DescribeContainerInstancesResponse'),
+    DescribeContainerInstancesResponse,
     newDescribeContainerInstancesResponse,
 
     -- ** DescribeServices
-    DescribeServices (DescribeServices'),
+    DescribeServices,
     newDescribeServices,
-    DescribeServicesResponse (DescribeServicesResponse'),
+    DescribeServicesResponse,
     newDescribeServicesResponse,
 
     -- ** DescribeTaskDefinition
-    DescribeTaskDefinition (DescribeTaskDefinition'),
+    DescribeTaskDefinition,
     newDescribeTaskDefinition,
-    DescribeTaskDefinitionResponse (DescribeTaskDefinitionResponse'),
+    DescribeTaskDefinitionResponse,
     newDescribeTaskDefinitionResponse,
 
     -- ** DescribeTaskSets
-    DescribeTaskSets (DescribeTaskSets'),
+    DescribeTaskSets,
     newDescribeTaskSets,
-    DescribeTaskSetsResponse (DescribeTaskSetsResponse'),
+    DescribeTaskSetsResponse,
     newDescribeTaskSetsResponse,
 
     -- ** DescribeTasks
-    DescribeTasks (DescribeTasks'),
+    DescribeTasks,
     newDescribeTasks,
-    DescribeTasksResponse (DescribeTasksResponse'),
+    DescribeTasksResponse,
     newDescribeTasksResponse,
 
     -- ** DiscoverPollEndpoint
-    DiscoverPollEndpoint (DiscoverPollEndpoint'),
+    DiscoverPollEndpoint,
     newDiscoverPollEndpoint,
-    DiscoverPollEndpointResponse (DiscoverPollEndpointResponse'),
+    DiscoverPollEndpointResponse,
     newDiscoverPollEndpointResponse,
 
     -- ** ExecuteCommand
-    ExecuteCommand (ExecuteCommand'),
+    ExecuteCommand,
     newExecuteCommand,
-    ExecuteCommandResponse (ExecuteCommandResponse'),
+    ExecuteCommandResponse,
     newExecuteCommandResponse,
 
     -- ** GetTaskProtection
-    GetTaskProtection (GetTaskProtection'),
+    GetTaskProtection,
     newGetTaskProtection,
-    GetTaskProtectionResponse (GetTaskProtectionResponse'),
+    GetTaskProtectionResponse,
     newGetTaskProtectionResponse,
 
     -- ** ListAccountSettings (Paginated)
-    ListAccountSettings (ListAccountSettings'),
+    ListAccountSettings,
     newListAccountSettings,
-    ListAccountSettingsResponse (ListAccountSettingsResponse'),
+    ListAccountSettingsResponse,
     newListAccountSettingsResponse,
 
     -- ** ListAttributes (Paginated)
-    ListAttributes (ListAttributes'),
+    ListAttributes,
     newListAttributes,
-    ListAttributesResponse (ListAttributesResponse'),
+    ListAttributesResponse,
     newListAttributesResponse,
 
     -- ** ListClusters (Paginated)
-    ListClusters (ListClusters'),
+    ListClusters,
     newListClusters,
-    ListClustersResponse (ListClustersResponse'),
+    ListClustersResponse,
     newListClustersResponse,
 
     -- ** ListContainerInstances (Paginated)
-    ListContainerInstances (ListContainerInstances'),
+    ListContainerInstances,
     newListContainerInstances,
-    ListContainerInstancesResponse (ListContainerInstancesResponse'),
+    ListContainerInstancesResponse,
     newListContainerInstancesResponse,
 
     -- ** ListServices (Paginated)
-    ListServices (ListServices'),
+    ListServices,
     newListServices,
-    ListServicesResponse (ListServicesResponse'),
+    ListServicesResponse,
     newListServicesResponse,
 
     -- ** ListServicesByNamespace (Paginated)
-    ListServicesByNamespace (ListServicesByNamespace'),
+    ListServicesByNamespace,
     newListServicesByNamespace,
-    ListServicesByNamespaceResponse (ListServicesByNamespaceResponse'),
+    ListServicesByNamespaceResponse,
     newListServicesByNamespaceResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** ListTaskDefinitionFamilies (Paginated)
-    ListTaskDefinitionFamilies (ListTaskDefinitionFamilies'),
+    ListTaskDefinitionFamilies,
     newListTaskDefinitionFamilies,
-    ListTaskDefinitionFamiliesResponse (ListTaskDefinitionFamiliesResponse'),
+    ListTaskDefinitionFamiliesResponse,
     newListTaskDefinitionFamiliesResponse,
 
     -- ** ListTaskDefinitions (Paginated)
-    ListTaskDefinitions (ListTaskDefinitions'),
+    ListTaskDefinitions,
     newListTaskDefinitions,
-    ListTaskDefinitionsResponse (ListTaskDefinitionsResponse'),
+    ListTaskDefinitionsResponse,
     newListTaskDefinitionsResponse,
 
     -- ** ListTasks (Paginated)
-    ListTasks (ListTasks'),
+    ListTasks,
     newListTasks,
-    ListTasksResponse (ListTasksResponse'),
+    ListTasksResponse,
     newListTasksResponse,
 
     -- ** PutAccountSetting
-    PutAccountSetting (PutAccountSetting'),
+    PutAccountSetting,
     newPutAccountSetting,
-    PutAccountSettingResponse (PutAccountSettingResponse'),
+    PutAccountSettingResponse,
     newPutAccountSettingResponse,
 
     -- ** PutAccountSettingDefault
-    PutAccountSettingDefault (PutAccountSettingDefault'),
+    PutAccountSettingDefault,
     newPutAccountSettingDefault,
-    PutAccountSettingDefaultResponse (PutAccountSettingDefaultResponse'),
+    PutAccountSettingDefaultResponse,
     newPutAccountSettingDefaultResponse,
 
     -- ** PutAttributes
-    PutAttributes (PutAttributes'),
+    PutAttributes,
     newPutAttributes,
-    PutAttributesResponse (PutAttributesResponse'),
+    PutAttributesResponse,
     newPutAttributesResponse,
 
     -- ** PutClusterCapacityProviders
-    PutClusterCapacityProviders (PutClusterCapacityProviders'),
+    PutClusterCapacityProviders,
     newPutClusterCapacityProviders,
-    PutClusterCapacityProvidersResponse (PutClusterCapacityProvidersResponse'),
+    PutClusterCapacityProvidersResponse,
     newPutClusterCapacityProvidersResponse,
 
     -- ** RegisterContainerInstance
-    RegisterContainerInstance (RegisterContainerInstance'),
+    RegisterContainerInstance,
     newRegisterContainerInstance,
-    RegisterContainerInstanceResponse (RegisterContainerInstanceResponse'),
+    RegisterContainerInstanceResponse,
     newRegisterContainerInstanceResponse,
 
     -- ** RegisterTaskDefinition
-    RegisterTaskDefinition (RegisterTaskDefinition'),
+    RegisterTaskDefinition,
     newRegisterTaskDefinition,
-    RegisterTaskDefinitionResponse (RegisterTaskDefinitionResponse'),
+    RegisterTaskDefinitionResponse,
     newRegisterTaskDefinitionResponse,
 
     -- ** RunTask
-    RunTask (RunTask'),
+    RunTask,
     newRunTask,
-    RunTaskResponse (RunTaskResponse'),
+    RunTaskResponse,
     newRunTaskResponse,
 
     -- ** StartTask
-    StartTask (StartTask'),
+    StartTask,
     newStartTask,
-    StartTaskResponse (StartTaskResponse'),
+    StartTaskResponse,
     newStartTaskResponse,
 
     -- ** StopTask
-    StopTask (StopTask'),
+    StopTask,
     newStopTask,
-    StopTaskResponse (StopTaskResponse'),
+    StopTaskResponse,
     newStopTaskResponse,
 
     -- ** SubmitAttachmentStateChanges
-    SubmitAttachmentStateChanges (SubmitAttachmentStateChanges'),
+    SubmitAttachmentStateChanges,
     newSubmitAttachmentStateChanges,
-    SubmitAttachmentStateChangesResponse (SubmitAttachmentStateChangesResponse'),
+    SubmitAttachmentStateChangesResponse,
     newSubmitAttachmentStateChangesResponse,
 
     -- ** SubmitContainerStateChange
-    SubmitContainerStateChange (SubmitContainerStateChange'),
+    SubmitContainerStateChange,
     newSubmitContainerStateChange,
-    SubmitContainerStateChangeResponse (SubmitContainerStateChangeResponse'),
+    SubmitContainerStateChangeResponse,
     newSubmitContainerStateChangeResponse,
 
     -- ** SubmitTaskStateChange
-    SubmitTaskStateChange (SubmitTaskStateChange'),
+    SubmitTaskStateChange,
     newSubmitTaskStateChange,
-    SubmitTaskStateChangeResponse (SubmitTaskStateChangeResponse'),
+    SubmitTaskStateChangeResponse,
     newSubmitTaskStateChangeResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateCapacityProvider
-    UpdateCapacityProvider (UpdateCapacityProvider'),
+    UpdateCapacityProvider,
     newUpdateCapacityProvider,
-    UpdateCapacityProviderResponse (UpdateCapacityProviderResponse'),
+    UpdateCapacityProviderResponse,
     newUpdateCapacityProviderResponse,
 
     -- ** UpdateCluster
-    UpdateCluster (UpdateCluster'),
+    UpdateCluster,
     newUpdateCluster,
-    UpdateClusterResponse (UpdateClusterResponse'),
+    UpdateClusterResponse,
     newUpdateClusterResponse,
 
     -- ** UpdateClusterSettings
-    UpdateClusterSettings (UpdateClusterSettings'),
+    UpdateClusterSettings,
     newUpdateClusterSettings,
-    UpdateClusterSettingsResponse (UpdateClusterSettingsResponse'),
+    UpdateClusterSettingsResponse,
     newUpdateClusterSettingsResponse,
 
     -- ** UpdateContainerAgent
-    UpdateContainerAgent (UpdateContainerAgent'),
+    UpdateContainerAgent,
     newUpdateContainerAgent,
-    UpdateContainerAgentResponse (UpdateContainerAgentResponse'),
+    UpdateContainerAgentResponse,
     newUpdateContainerAgentResponse,
 
     -- ** UpdateContainerInstancesState
-    UpdateContainerInstancesState (UpdateContainerInstancesState'),
+    UpdateContainerInstancesState,
     newUpdateContainerInstancesState,
-    UpdateContainerInstancesStateResponse (UpdateContainerInstancesStateResponse'),
+    UpdateContainerInstancesStateResponse,
     newUpdateContainerInstancesStateResponse,
 
     -- ** UpdateService
-    UpdateService (UpdateService'),
+    UpdateService,
     newUpdateService,
-    UpdateServiceResponse (UpdateServiceResponse'),
+    UpdateServiceResponse,
     newUpdateServiceResponse,
 
     -- ** UpdateServicePrimaryTaskSet
-    UpdateServicePrimaryTaskSet (UpdateServicePrimaryTaskSet'),
+    UpdateServicePrimaryTaskSet,
     newUpdateServicePrimaryTaskSet,
-    UpdateServicePrimaryTaskSetResponse (UpdateServicePrimaryTaskSetResponse'),
+    UpdateServicePrimaryTaskSetResponse,
     newUpdateServicePrimaryTaskSetResponse,
 
     -- ** UpdateTaskProtection
-    UpdateTaskProtection (UpdateTaskProtection'),
+    UpdateTaskProtection,
     newUpdateTaskProtection,
-    UpdateTaskProtectionResponse (UpdateTaskProtectionResponse'),
+    UpdateTaskProtectionResponse,
     newUpdateTaskProtectionResponse,
 
     -- ** UpdateTaskSet
-    UpdateTaskSet (UpdateTaskSet'),
+    UpdateTaskSet,
     newUpdateTaskSet,
-    UpdateTaskSetResponse (UpdateTaskSetResponse'),
+    UpdateTaskSetResponse,
     newUpdateTaskSetResponse,
 
     -- * Types
@@ -635,355 +635,355 @@ module Amazonka.ECS
     UlimitName (..),
 
     -- ** Attachment
-    Attachment (Attachment'),
+    Attachment,
     newAttachment,
 
     -- ** AttachmentStateChange
-    AttachmentStateChange (AttachmentStateChange'),
+    AttachmentStateChange,
     newAttachmentStateChange,
 
     -- ** Attribute
-    Attribute (Attribute'),
+    Attribute,
     newAttribute,
 
     -- ** AutoScalingGroupProvider
-    AutoScalingGroupProvider (AutoScalingGroupProvider'),
+    AutoScalingGroupProvider,
     newAutoScalingGroupProvider,
 
     -- ** AutoScalingGroupProviderUpdate
-    AutoScalingGroupProviderUpdate (AutoScalingGroupProviderUpdate'),
+    AutoScalingGroupProviderUpdate,
     newAutoScalingGroupProviderUpdate,
 
     -- ** AwsVpcConfiguration
-    AwsVpcConfiguration (AwsVpcConfiguration'),
+    AwsVpcConfiguration,
     newAwsVpcConfiguration,
 
     -- ** CapacityProvider
-    CapacityProvider (CapacityProvider'),
+    CapacityProvider,
     newCapacityProvider,
 
     -- ** CapacityProviderStrategyItem
-    CapacityProviderStrategyItem (CapacityProviderStrategyItem'),
+    CapacityProviderStrategyItem,
     newCapacityProviderStrategyItem,
 
     -- ** Cluster
-    Cluster (Cluster'),
+    Cluster,
     newCluster,
 
     -- ** ClusterConfiguration
-    ClusterConfiguration (ClusterConfiguration'),
+    ClusterConfiguration,
     newClusterConfiguration,
 
     -- ** ClusterServiceConnectDefaults
-    ClusterServiceConnectDefaults (ClusterServiceConnectDefaults'),
+    ClusterServiceConnectDefaults,
     newClusterServiceConnectDefaults,
 
     -- ** ClusterServiceConnectDefaultsRequest
-    ClusterServiceConnectDefaultsRequest (ClusterServiceConnectDefaultsRequest'),
+    ClusterServiceConnectDefaultsRequest,
     newClusterServiceConnectDefaultsRequest,
 
     -- ** ClusterSetting
-    ClusterSetting (ClusterSetting'),
+    ClusterSetting,
     newClusterSetting,
 
     -- ** Container
-    Container (Container'),
+    Container,
     newContainer,
 
     -- ** ContainerDefinition
-    ContainerDefinition (ContainerDefinition'),
+    ContainerDefinition,
     newContainerDefinition,
 
     -- ** ContainerDependency
-    ContainerDependency (ContainerDependency'),
+    ContainerDependency,
     newContainerDependency,
 
     -- ** ContainerInstance
-    ContainerInstance (ContainerInstance'),
+    ContainerInstance,
     newContainerInstance,
 
     -- ** ContainerInstanceHealthStatus
-    ContainerInstanceHealthStatus (ContainerInstanceHealthStatus'),
+    ContainerInstanceHealthStatus,
     newContainerInstanceHealthStatus,
 
     -- ** ContainerOverride
-    ContainerOverride (ContainerOverride'),
+    ContainerOverride,
     newContainerOverride,
 
     -- ** ContainerService
-    ContainerService (ContainerService'),
+    ContainerService,
     newContainerService,
 
     -- ** ContainerStateChange
-    ContainerStateChange (ContainerStateChange'),
+    ContainerStateChange,
     newContainerStateChange,
 
     -- ** Deployment
-    Deployment (Deployment'),
+    Deployment,
     newDeployment,
 
     -- ** DeploymentAlarms
-    DeploymentAlarms (DeploymentAlarms'),
+    DeploymentAlarms,
     newDeploymentAlarms,
 
     -- ** DeploymentCircuitBreaker
-    DeploymentCircuitBreaker (DeploymentCircuitBreaker'),
+    DeploymentCircuitBreaker,
     newDeploymentCircuitBreaker,
 
     -- ** DeploymentConfiguration
-    DeploymentConfiguration (DeploymentConfiguration'),
+    DeploymentConfiguration,
     newDeploymentConfiguration,
 
     -- ** DeploymentController
-    DeploymentController (DeploymentController'),
+    DeploymentController,
     newDeploymentController,
 
     -- ** Device
-    Device (Device'),
+    Device,
     newDevice,
 
     -- ** DockerVolumeConfiguration
-    DockerVolumeConfiguration (DockerVolumeConfiguration'),
+    DockerVolumeConfiguration,
     newDockerVolumeConfiguration,
 
     -- ** EFSAuthorizationConfig
-    EFSAuthorizationConfig (EFSAuthorizationConfig'),
+    EFSAuthorizationConfig,
     newEFSAuthorizationConfig,
 
     -- ** EFSVolumeConfiguration
-    EFSVolumeConfiguration (EFSVolumeConfiguration'),
+    EFSVolumeConfiguration,
     newEFSVolumeConfiguration,
 
     -- ** EnvironmentFile
-    EnvironmentFile (EnvironmentFile'),
+    EnvironmentFile,
     newEnvironmentFile,
 
     -- ** EphemeralStorage
-    EphemeralStorage (EphemeralStorage'),
+    EphemeralStorage,
     newEphemeralStorage,
 
     -- ** ExecuteCommandConfiguration
-    ExecuteCommandConfiguration (ExecuteCommandConfiguration'),
+    ExecuteCommandConfiguration,
     newExecuteCommandConfiguration,
 
     -- ** ExecuteCommandLogConfiguration
-    ExecuteCommandLogConfiguration (ExecuteCommandLogConfiguration'),
+    ExecuteCommandLogConfiguration,
     newExecuteCommandLogConfiguration,
 
     -- ** FSxWindowsFileServerAuthorizationConfig
-    FSxWindowsFileServerAuthorizationConfig (FSxWindowsFileServerAuthorizationConfig'),
+    FSxWindowsFileServerAuthorizationConfig,
     newFSxWindowsFileServerAuthorizationConfig,
 
     -- ** FSxWindowsFileServerVolumeConfiguration
-    FSxWindowsFileServerVolumeConfiguration (FSxWindowsFileServerVolumeConfiguration'),
+    FSxWindowsFileServerVolumeConfiguration,
     newFSxWindowsFileServerVolumeConfiguration,
 
     -- ** Failure
-    Failure (Failure'),
+    Failure,
     newFailure,
 
     -- ** FirelensConfiguration
-    FirelensConfiguration (FirelensConfiguration'),
+    FirelensConfiguration,
     newFirelensConfiguration,
 
     -- ** HealthCheck
-    HealthCheck (HealthCheck'),
+    HealthCheck,
     newHealthCheck,
 
     -- ** HostEntry
-    HostEntry (HostEntry'),
+    HostEntry,
     newHostEntry,
 
     -- ** HostVolumeProperties
-    HostVolumeProperties (HostVolumeProperties'),
+    HostVolumeProperties,
     newHostVolumeProperties,
 
     -- ** InferenceAccelerator
-    InferenceAccelerator (InferenceAccelerator'),
+    InferenceAccelerator,
     newInferenceAccelerator,
 
     -- ** InferenceAcceleratorOverride
-    InferenceAcceleratorOverride (InferenceAcceleratorOverride'),
+    InferenceAcceleratorOverride,
     newInferenceAcceleratorOverride,
 
     -- ** InstanceHealthCheckResult
-    InstanceHealthCheckResult (InstanceHealthCheckResult'),
+    InstanceHealthCheckResult,
     newInstanceHealthCheckResult,
 
     -- ** KernelCapabilities
-    KernelCapabilities (KernelCapabilities'),
+    KernelCapabilities,
     newKernelCapabilities,
 
     -- ** KeyValuePair
-    KeyValuePair (KeyValuePair'),
+    KeyValuePair,
     newKeyValuePair,
 
     -- ** LinuxParameters
-    LinuxParameters (LinuxParameters'),
+    LinuxParameters,
     newLinuxParameters,
 
     -- ** LoadBalancer
-    LoadBalancer (LoadBalancer'),
+    LoadBalancer,
     newLoadBalancer,
 
     -- ** LogConfiguration
-    LogConfiguration (LogConfiguration'),
+    LogConfiguration,
     newLogConfiguration,
 
     -- ** ManagedAgent
-    ManagedAgent (ManagedAgent'),
+    ManagedAgent,
     newManagedAgent,
 
     -- ** ManagedAgentStateChange
-    ManagedAgentStateChange (ManagedAgentStateChange'),
+    ManagedAgentStateChange,
     newManagedAgentStateChange,
 
     -- ** ManagedScaling
-    ManagedScaling (ManagedScaling'),
+    ManagedScaling,
     newManagedScaling,
 
     -- ** MountPoint
-    MountPoint (MountPoint'),
+    MountPoint,
     newMountPoint,
 
     -- ** NetworkBinding
-    NetworkBinding (NetworkBinding'),
+    NetworkBinding,
     newNetworkBinding,
 
     -- ** NetworkConfiguration
-    NetworkConfiguration (NetworkConfiguration'),
+    NetworkConfiguration,
     newNetworkConfiguration,
 
     -- ** NetworkInterface
-    NetworkInterface (NetworkInterface'),
+    NetworkInterface,
     newNetworkInterface,
 
     -- ** PlacementConstraint
-    PlacementConstraint (PlacementConstraint'),
+    PlacementConstraint,
     newPlacementConstraint,
 
     -- ** PlacementStrategy
-    PlacementStrategy (PlacementStrategy'),
+    PlacementStrategy,
     newPlacementStrategy,
 
     -- ** PlatformDevice
-    PlatformDevice (PlatformDevice'),
+    PlatformDevice,
     newPlatformDevice,
 
     -- ** PortMapping
-    PortMapping (PortMapping'),
+    PortMapping,
     newPortMapping,
 
     -- ** ProtectedTask
-    ProtectedTask (ProtectedTask'),
+    ProtectedTask,
     newProtectedTask,
 
     -- ** ProxyConfiguration
-    ProxyConfiguration (ProxyConfiguration'),
+    ProxyConfiguration,
     newProxyConfiguration,
 
     -- ** RepositoryCredentials
-    RepositoryCredentials (RepositoryCredentials'),
+    RepositoryCredentials,
     newRepositoryCredentials,
 
     -- ** Resource
-    Resource (Resource'),
+    Resource,
     newResource,
 
     -- ** ResourceRequirement
-    ResourceRequirement (ResourceRequirement'),
+    ResourceRequirement,
     newResourceRequirement,
 
     -- ** RuntimePlatform
-    RuntimePlatform (RuntimePlatform'),
+    RuntimePlatform,
     newRuntimePlatform,
 
     -- ** Scale
-    Scale (Scale'),
+    Scale,
     newScale,
 
     -- ** Secret
-    Secret (Secret'),
+    Secret,
     newSecret,
 
     -- ** ServiceConnectClientAlias
-    ServiceConnectClientAlias (ServiceConnectClientAlias'),
+    ServiceConnectClientAlias,
     newServiceConnectClientAlias,
 
     -- ** ServiceConnectConfiguration
-    ServiceConnectConfiguration (ServiceConnectConfiguration'),
+    ServiceConnectConfiguration,
     newServiceConnectConfiguration,
 
     -- ** ServiceConnectService
-    ServiceConnectService (ServiceConnectService'),
+    ServiceConnectService,
     newServiceConnectService,
 
     -- ** ServiceConnectServiceResource
-    ServiceConnectServiceResource (ServiceConnectServiceResource'),
+    ServiceConnectServiceResource,
     newServiceConnectServiceResource,
 
     -- ** ServiceEvent
-    ServiceEvent (ServiceEvent'),
+    ServiceEvent,
     newServiceEvent,
 
     -- ** ServiceRegistry
-    ServiceRegistry (ServiceRegistry'),
+    ServiceRegistry,
     newServiceRegistry,
 
     -- ** Session
-    Session (Session'),
+    Session,
     newSession,
 
     -- ** Setting
-    Setting (Setting'),
+    Setting,
     newSetting,
 
     -- ** SystemControl
-    SystemControl (SystemControl'),
+    SystemControl,
     newSystemControl,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
 
     -- ** Task
-    Task (Task'),
+    Task,
     newTask,
 
     -- ** TaskDefinition
-    TaskDefinition (TaskDefinition'),
+    TaskDefinition,
     newTaskDefinition,
 
     -- ** TaskDefinitionPlacementConstraint
-    TaskDefinitionPlacementConstraint (TaskDefinitionPlacementConstraint'),
+    TaskDefinitionPlacementConstraint,
     newTaskDefinitionPlacementConstraint,
 
     -- ** TaskOverride
-    TaskOverride (TaskOverride'),
+    TaskOverride,
     newTaskOverride,
 
     -- ** TaskSet
-    TaskSet (TaskSet'),
+    TaskSet,
     newTaskSet,
 
     -- ** Tmpfs
-    Tmpfs (Tmpfs'),
+    Tmpfs,
     newTmpfs,
 
     -- ** Ulimit
-    Ulimit (Ulimit'),
+    Ulimit,
     newUlimit,
 
     -- ** VersionInfo
-    VersionInfo (VersionInfo'),
+    VersionInfo,
     newVersionInfo,
 
     -- ** Volume
-    Volume (Volume'),
+    Volume,
     newVolume,
 
     -- ** VolumeFrom
-    VolumeFrom (VolumeFrom'),
+    VolumeFrom,
     newVolumeFrom,
   )
 where

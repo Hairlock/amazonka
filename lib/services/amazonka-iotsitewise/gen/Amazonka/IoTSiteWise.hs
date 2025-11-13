@@ -82,441 +82,441 @@ module Amazonka.IoTSiteWise
     -- $operations
 
     -- ** AssociateAssets
-    AssociateAssets (AssociateAssets'),
+    AssociateAssets,
     newAssociateAssets,
-    AssociateAssetsResponse (AssociateAssetsResponse'),
+    AssociateAssetsResponse,
     newAssociateAssetsResponse,
 
     -- ** AssociateTimeSeriesToAssetProperty
-    AssociateTimeSeriesToAssetProperty (AssociateTimeSeriesToAssetProperty'),
+    AssociateTimeSeriesToAssetProperty,
     newAssociateTimeSeriesToAssetProperty,
-    AssociateTimeSeriesToAssetPropertyResponse (AssociateTimeSeriesToAssetPropertyResponse'),
+    AssociateTimeSeriesToAssetPropertyResponse,
     newAssociateTimeSeriesToAssetPropertyResponse,
 
     -- ** BatchAssociateProjectAssets
-    BatchAssociateProjectAssets (BatchAssociateProjectAssets'),
+    BatchAssociateProjectAssets,
     newBatchAssociateProjectAssets,
-    BatchAssociateProjectAssetsResponse (BatchAssociateProjectAssetsResponse'),
+    BatchAssociateProjectAssetsResponse,
     newBatchAssociateProjectAssetsResponse,
 
     -- ** BatchDisassociateProjectAssets
-    BatchDisassociateProjectAssets (BatchDisassociateProjectAssets'),
+    BatchDisassociateProjectAssets,
     newBatchDisassociateProjectAssets,
-    BatchDisassociateProjectAssetsResponse (BatchDisassociateProjectAssetsResponse'),
+    BatchDisassociateProjectAssetsResponse,
     newBatchDisassociateProjectAssetsResponse,
 
     -- ** BatchGetAssetPropertyAggregates
-    BatchGetAssetPropertyAggregates (BatchGetAssetPropertyAggregates'),
+    BatchGetAssetPropertyAggregates,
     newBatchGetAssetPropertyAggregates,
-    BatchGetAssetPropertyAggregatesResponse (BatchGetAssetPropertyAggregatesResponse'),
+    BatchGetAssetPropertyAggregatesResponse,
     newBatchGetAssetPropertyAggregatesResponse,
 
     -- ** BatchGetAssetPropertyValue
-    BatchGetAssetPropertyValue (BatchGetAssetPropertyValue'),
+    BatchGetAssetPropertyValue,
     newBatchGetAssetPropertyValue,
-    BatchGetAssetPropertyValueResponse (BatchGetAssetPropertyValueResponse'),
+    BatchGetAssetPropertyValueResponse,
     newBatchGetAssetPropertyValueResponse,
 
     -- ** BatchGetAssetPropertyValueHistory
-    BatchGetAssetPropertyValueHistory (BatchGetAssetPropertyValueHistory'),
+    BatchGetAssetPropertyValueHistory,
     newBatchGetAssetPropertyValueHistory,
-    BatchGetAssetPropertyValueHistoryResponse (BatchGetAssetPropertyValueHistoryResponse'),
+    BatchGetAssetPropertyValueHistoryResponse,
     newBatchGetAssetPropertyValueHistoryResponse,
 
     -- ** BatchPutAssetPropertyValue
-    BatchPutAssetPropertyValue (BatchPutAssetPropertyValue'),
+    BatchPutAssetPropertyValue,
     newBatchPutAssetPropertyValue,
-    BatchPutAssetPropertyValueResponse (BatchPutAssetPropertyValueResponse'),
+    BatchPutAssetPropertyValueResponse,
     newBatchPutAssetPropertyValueResponse,
 
     -- ** CreateAccessPolicy
-    CreateAccessPolicy (CreateAccessPolicy'),
+    CreateAccessPolicy,
     newCreateAccessPolicy,
-    CreateAccessPolicyResponse (CreateAccessPolicyResponse'),
+    CreateAccessPolicyResponse,
     newCreateAccessPolicyResponse,
 
     -- ** CreateAsset
-    CreateAsset (CreateAsset'),
+    CreateAsset,
     newCreateAsset,
-    CreateAssetResponse (CreateAssetResponse'),
+    CreateAssetResponse,
     newCreateAssetResponse,
 
     -- ** CreateAssetModel
-    CreateAssetModel (CreateAssetModel'),
+    CreateAssetModel,
     newCreateAssetModel,
-    CreateAssetModelResponse (CreateAssetModelResponse'),
+    CreateAssetModelResponse,
     newCreateAssetModelResponse,
 
     -- ** CreateBulkImportJob
-    CreateBulkImportJob (CreateBulkImportJob'),
+    CreateBulkImportJob,
     newCreateBulkImportJob,
-    CreateBulkImportJobResponse (CreateBulkImportJobResponse'),
+    CreateBulkImportJobResponse,
     newCreateBulkImportJobResponse,
 
     -- ** CreateDashboard
-    CreateDashboard (CreateDashboard'),
+    CreateDashboard,
     newCreateDashboard,
-    CreateDashboardResponse (CreateDashboardResponse'),
+    CreateDashboardResponse,
     newCreateDashboardResponse,
 
     -- ** CreateGateway
-    CreateGateway (CreateGateway'),
+    CreateGateway,
     newCreateGateway,
-    CreateGatewayResponse (CreateGatewayResponse'),
+    CreateGatewayResponse,
     newCreateGatewayResponse,
 
     -- ** CreatePortal
-    CreatePortal (CreatePortal'),
+    CreatePortal,
     newCreatePortal,
-    CreatePortalResponse (CreatePortalResponse'),
+    CreatePortalResponse,
     newCreatePortalResponse,
 
     -- ** CreateProject
-    CreateProject (CreateProject'),
+    CreateProject,
     newCreateProject,
-    CreateProjectResponse (CreateProjectResponse'),
+    CreateProjectResponse,
     newCreateProjectResponse,
 
     -- ** DeleteAccessPolicy
-    DeleteAccessPolicy (DeleteAccessPolicy'),
+    DeleteAccessPolicy,
     newDeleteAccessPolicy,
-    DeleteAccessPolicyResponse (DeleteAccessPolicyResponse'),
+    DeleteAccessPolicyResponse,
     newDeleteAccessPolicyResponse,
 
     -- ** DeleteAsset
-    DeleteAsset (DeleteAsset'),
+    DeleteAsset,
     newDeleteAsset,
-    DeleteAssetResponse (DeleteAssetResponse'),
+    DeleteAssetResponse,
     newDeleteAssetResponse,
 
     -- ** DeleteAssetModel
-    DeleteAssetModel (DeleteAssetModel'),
+    DeleteAssetModel,
     newDeleteAssetModel,
-    DeleteAssetModelResponse (DeleteAssetModelResponse'),
+    DeleteAssetModelResponse,
     newDeleteAssetModelResponse,
 
     -- ** DeleteDashboard
-    DeleteDashboard (DeleteDashboard'),
+    DeleteDashboard,
     newDeleteDashboard,
-    DeleteDashboardResponse (DeleteDashboardResponse'),
+    DeleteDashboardResponse,
     newDeleteDashboardResponse,
 
     -- ** DeleteGateway
-    DeleteGateway (DeleteGateway'),
+    DeleteGateway,
     newDeleteGateway,
-    DeleteGatewayResponse (DeleteGatewayResponse'),
+    DeleteGatewayResponse,
     newDeleteGatewayResponse,
 
     -- ** DeletePortal
-    DeletePortal (DeletePortal'),
+    DeletePortal,
     newDeletePortal,
-    DeletePortalResponse (DeletePortalResponse'),
+    DeletePortalResponse,
     newDeletePortalResponse,
 
     -- ** DeleteProject
-    DeleteProject (DeleteProject'),
+    DeleteProject,
     newDeleteProject,
-    DeleteProjectResponse (DeleteProjectResponse'),
+    DeleteProjectResponse,
     newDeleteProjectResponse,
 
     -- ** DeleteTimeSeries
-    DeleteTimeSeries (DeleteTimeSeries'),
+    DeleteTimeSeries,
     newDeleteTimeSeries,
-    DeleteTimeSeriesResponse (DeleteTimeSeriesResponse'),
+    DeleteTimeSeriesResponse,
     newDeleteTimeSeriesResponse,
 
     -- ** DescribeAccessPolicy
-    DescribeAccessPolicy (DescribeAccessPolicy'),
+    DescribeAccessPolicy,
     newDescribeAccessPolicy,
-    DescribeAccessPolicyResponse (DescribeAccessPolicyResponse'),
+    DescribeAccessPolicyResponse,
     newDescribeAccessPolicyResponse,
 
     -- ** DescribeAsset
-    DescribeAsset (DescribeAsset'),
+    DescribeAsset,
     newDescribeAsset,
-    DescribeAssetResponse (DescribeAssetResponse'),
+    DescribeAssetResponse,
     newDescribeAssetResponse,
 
     -- ** DescribeAssetModel
-    DescribeAssetModel (DescribeAssetModel'),
+    DescribeAssetModel,
     newDescribeAssetModel,
-    DescribeAssetModelResponse (DescribeAssetModelResponse'),
+    DescribeAssetModelResponse,
     newDescribeAssetModelResponse,
 
     -- ** DescribeAssetProperty
-    DescribeAssetProperty (DescribeAssetProperty'),
+    DescribeAssetProperty,
     newDescribeAssetProperty,
-    DescribeAssetPropertyResponse (DescribeAssetPropertyResponse'),
+    DescribeAssetPropertyResponse,
     newDescribeAssetPropertyResponse,
 
     -- ** DescribeBulkImportJob
-    DescribeBulkImportJob (DescribeBulkImportJob'),
+    DescribeBulkImportJob,
     newDescribeBulkImportJob,
-    DescribeBulkImportJobResponse (DescribeBulkImportJobResponse'),
+    DescribeBulkImportJobResponse,
     newDescribeBulkImportJobResponse,
 
     -- ** DescribeDashboard
-    DescribeDashboard (DescribeDashboard'),
+    DescribeDashboard,
     newDescribeDashboard,
-    DescribeDashboardResponse (DescribeDashboardResponse'),
+    DescribeDashboardResponse,
     newDescribeDashboardResponse,
 
     -- ** DescribeDefaultEncryptionConfiguration
-    DescribeDefaultEncryptionConfiguration (DescribeDefaultEncryptionConfiguration'),
+    DescribeDefaultEncryptionConfiguration,
     newDescribeDefaultEncryptionConfiguration,
-    DescribeDefaultEncryptionConfigurationResponse (DescribeDefaultEncryptionConfigurationResponse'),
+    DescribeDefaultEncryptionConfigurationResponse,
     newDescribeDefaultEncryptionConfigurationResponse,
 
     -- ** DescribeGateway
-    DescribeGateway (DescribeGateway'),
+    DescribeGateway,
     newDescribeGateway,
-    DescribeGatewayResponse (DescribeGatewayResponse'),
+    DescribeGatewayResponse,
     newDescribeGatewayResponse,
 
     -- ** DescribeGatewayCapabilityConfiguration
-    DescribeGatewayCapabilityConfiguration (DescribeGatewayCapabilityConfiguration'),
+    DescribeGatewayCapabilityConfiguration,
     newDescribeGatewayCapabilityConfiguration,
-    DescribeGatewayCapabilityConfigurationResponse (DescribeGatewayCapabilityConfigurationResponse'),
+    DescribeGatewayCapabilityConfigurationResponse,
     newDescribeGatewayCapabilityConfigurationResponse,
 
     -- ** DescribeLoggingOptions
-    DescribeLoggingOptions (DescribeLoggingOptions'),
+    DescribeLoggingOptions,
     newDescribeLoggingOptions,
-    DescribeLoggingOptionsResponse (DescribeLoggingOptionsResponse'),
+    DescribeLoggingOptionsResponse,
     newDescribeLoggingOptionsResponse,
 
     -- ** DescribePortal
-    DescribePortal (DescribePortal'),
+    DescribePortal,
     newDescribePortal,
-    DescribePortalResponse (DescribePortalResponse'),
+    DescribePortalResponse,
     newDescribePortalResponse,
 
     -- ** DescribeProject
-    DescribeProject (DescribeProject'),
+    DescribeProject,
     newDescribeProject,
-    DescribeProjectResponse (DescribeProjectResponse'),
+    DescribeProjectResponse,
     newDescribeProjectResponse,
 
     -- ** DescribeStorageConfiguration
-    DescribeStorageConfiguration (DescribeStorageConfiguration'),
+    DescribeStorageConfiguration,
     newDescribeStorageConfiguration,
-    DescribeStorageConfigurationResponse (DescribeStorageConfigurationResponse'),
+    DescribeStorageConfigurationResponse,
     newDescribeStorageConfigurationResponse,
 
     -- ** DescribeTimeSeries
-    DescribeTimeSeries (DescribeTimeSeries'),
+    DescribeTimeSeries,
     newDescribeTimeSeries,
-    DescribeTimeSeriesResponse (DescribeTimeSeriesResponse'),
+    DescribeTimeSeriesResponse,
     newDescribeTimeSeriesResponse,
 
     -- ** DisassociateAssets
-    DisassociateAssets (DisassociateAssets'),
+    DisassociateAssets,
     newDisassociateAssets,
-    DisassociateAssetsResponse (DisassociateAssetsResponse'),
+    DisassociateAssetsResponse,
     newDisassociateAssetsResponse,
 
     -- ** DisassociateTimeSeriesFromAssetProperty
-    DisassociateTimeSeriesFromAssetProperty (DisassociateTimeSeriesFromAssetProperty'),
+    DisassociateTimeSeriesFromAssetProperty,
     newDisassociateTimeSeriesFromAssetProperty,
-    DisassociateTimeSeriesFromAssetPropertyResponse (DisassociateTimeSeriesFromAssetPropertyResponse'),
+    DisassociateTimeSeriesFromAssetPropertyResponse,
     newDisassociateTimeSeriesFromAssetPropertyResponse,
 
     -- ** GetAssetPropertyAggregates (Paginated)
-    GetAssetPropertyAggregates (GetAssetPropertyAggregates'),
+    GetAssetPropertyAggregates,
     newGetAssetPropertyAggregates,
-    GetAssetPropertyAggregatesResponse (GetAssetPropertyAggregatesResponse'),
+    GetAssetPropertyAggregatesResponse,
     newGetAssetPropertyAggregatesResponse,
 
     -- ** GetAssetPropertyValue
-    GetAssetPropertyValue (GetAssetPropertyValue'),
+    GetAssetPropertyValue,
     newGetAssetPropertyValue,
-    GetAssetPropertyValueResponse (GetAssetPropertyValueResponse'),
+    GetAssetPropertyValueResponse,
     newGetAssetPropertyValueResponse,
 
     -- ** GetAssetPropertyValueHistory (Paginated)
-    GetAssetPropertyValueHistory (GetAssetPropertyValueHistory'),
+    GetAssetPropertyValueHistory,
     newGetAssetPropertyValueHistory,
-    GetAssetPropertyValueHistoryResponse (GetAssetPropertyValueHistoryResponse'),
+    GetAssetPropertyValueHistoryResponse,
     newGetAssetPropertyValueHistoryResponse,
 
     -- ** GetInterpolatedAssetPropertyValues (Paginated)
-    GetInterpolatedAssetPropertyValues (GetInterpolatedAssetPropertyValues'),
+    GetInterpolatedAssetPropertyValues,
     newGetInterpolatedAssetPropertyValues,
-    GetInterpolatedAssetPropertyValuesResponse (GetInterpolatedAssetPropertyValuesResponse'),
+    GetInterpolatedAssetPropertyValuesResponse,
     newGetInterpolatedAssetPropertyValuesResponse,
 
     -- ** ListAccessPolicies (Paginated)
-    ListAccessPolicies (ListAccessPolicies'),
+    ListAccessPolicies,
     newListAccessPolicies,
-    ListAccessPoliciesResponse (ListAccessPoliciesResponse'),
+    ListAccessPoliciesResponse,
     newListAccessPoliciesResponse,
 
     -- ** ListAssetModelProperties (Paginated)
-    ListAssetModelProperties (ListAssetModelProperties'),
+    ListAssetModelProperties,
     newListAssetModelProperties,
-    ListAssetModelPropertiesResponse (ListAssetModelPropertiesResponse'),
+    ListAssetModelPropertiesResponse,
     newListAssetModelPropertiesResponse,
 
     -- ** ListAssetModels (Paginated)
-    ListAssetModels (ListAssetModels'),
+    ListAssetModels,
     newListAssetModels,
-    ListAssetModelsResponse (ListAssetModelsResponse'),
+    ListAssetModelsResponse,
     newListAssetModelsResponse,
 
     -- ** ListAssetProperties (Paginated)
-    ListAssetProperties (ListAssetProperties'),
+    ListAssetProperties,
     newListAssetProperties,
-    ListAssetPropertiesResponse (ListAssetPropertiesResponse'),
+    ListAssetPropertiesResponse,
     newListAssetPropertiesResponse,
 
     -- ** ListAssetRelationships (Paginated)
-    ListAssetRelationships (ListAssetRelationships'),
+    ListAssetRelationships,
     newListAssetRelationships,
-    ListAssetRelationshipsResponse (ListAssetRelationshipsResponse'),
+    ListAssetRelationshipsResponse,
     newListAssetRelationshipsResponse,
 
     -- ** ListAssets (Paginated)
-    ListAssets (ListAssets'),
+    ListAssets,
     newListAssets,
-    ListAssetsResponse (ListAssetsResponse'),
+    ListAssetsResponse,
     newListAssetsResponse,
 
     -- ** ListAssociatedAssets (Paginated)
-    ListAssociatedAssets (ListAssociatedAssets'),
+    ListAssociatedAssets,
     newListAssociatedAssets,
-    ListAssociatedAssetsResponse (ListAssociatedAssetsResponse'),
+    ListAssociatedAssetsResponse,
     newListAssociatedAssetsResponse,
 
     -- ** ListBulkImportJobs (Paginated)
-    ListBulkImportJobs (ListBulkImportJobs'),
+    ListBulkImportJobs,
     newListBulkImportJobs,
-    ListBulkImportJobsResponse (ListBulkImportJobsResponse'),
+    ListBulkImportJobsResponse,
     newListBulkImportJobsResponse,
 
     -- ** ListDashboards (Paginated)
-    ListDashboards (ListDashboards'),
+    ListDashboards,
     newListDashboards,
-    ListDashboardsResponse (ListDashboardsResponse'),
+    ListDashboardsResponse,
     newListDashboardsResponse,
 
     -- ** ListGateways (Paginated)
-    ListGateways (ListGateways'),
+    ListGateways,
     newListGateways,
-    ListGatewaysResponse (ListGatewaysResponse'),
+    ListGatewaysResponse,
     newListGatewaysResponse,
 
     -- ** ListPortals (Paginated)
-    ListPortals (ListPortals'),
+    ListPortals,
     newListPortals,
-    ListPortalsResponse (ListPortalsResponse'),
+    ListPortalsResponse,
     newListPortalsResponse,
 
     -- ** ListProjectAssets (Paginated)
-    ListProjectAssets (ListProjectAssets'),
+    ListProjectAssets,
     newListProjectAssets,
-    ListProjectAssetsResponse (ListProjectAssetsResponse'),
+    ListProjectAssetsResponse,
     newListProjectAssetsResponse,
 
     -- ** ListProjects (Paginated)
-    ListProjects (ListProjects'),
+    ListProjects,
     newListProjects,
-    ListProjectsResponse (ListProjectsResponse'),
+    ListProjectsResponse,
     newListProjectsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** ListTimeSeries (Paginated)
-    ListTimeSeries (ListTimeSeries'),
+    ListTimeSeries,
     newListTimeSeries,
-    ListTimeSeriesResponse (ListTimeSeriesResponse'),
+    ListTimeSeriesResponse,
     newListTimeSeriesResponse,
 
     -- ** PutDefaultEncryptionConfiguration
-    PutDefaultEncryptionConfiguration (PutDefaultEncryptionConfiguration'),
+    PutDefaultEncryptionConfiguration,
     newPutDefaultEncryptionConfiguration,
-    PutDefaultEncryptionConfigurationResponse (PutDefaultEncryptionConfigurationResponse'),
+    PutDefaultEncryptionConfigurationResponse,
     newPutDefaultEncryptionConfigurationResponse,
 
     -- ** PutLoggingOptions
-    PutLoggingOptions (PutLoggingOptions'),
+    PutLoggingOptions,
     newPutLoggingOptions,
-    PutLoggingOptionsResponse (PutLoggingOptionsResponse'),
+    PutLoggingOptionsResponse,
     newPutLoggingOptionsResponse,
 
     -- ** PutStorageConfiguration
-    PutStorageConfiguration (PutStorageConfiguration'),
+    PutStorageConfiguration,
     newPutStorageConfiguration,
-    PutStorageConfigurationResponse (PutStorageConfigurationResponse'),
+    PutStorageConfigurationResponse,
     newPutStorageConfigurationResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateAccessPolicy
-    UpdateAccessPolicy (UpdateAccessPolicy'),
+    UpdateAccessPolicy,
     newUpdateAccessPolicy,
-    UpdateAccessPolicyResponse (UpdateAccessPolicyResponse'),
+    UpdateAccessPolicyResponse,
     newUpdateAccessPolicyResponse,
 
     -- ** UpdateAsset
-    UpdateAsset (UpdateAsset'),
+    UpdateAsset,
     newUpdateAsset,
-    UpdateAssetResponse (UpdateAssetResponse'),
+    UpdateAssetResponse,
     newUpdateAssetResponse,
 
     -- ** UpdateAssetModel
-    UpdateAssetModel (UpdateAssetModel'),
+    UpdateAssetModel,
     newUpdateAssetModel,
-    UpdateAssetModelResponse (UpdateAssetModelResponse'),
+    UpdateAssetModelResponse,
     newUpdateAssetModelResponse,
 
     -- ** UpdateAssetProperty
-    UpdateAssetProperty (UpdateAssetProperty'),
+    UpdateAssetProperty,
     newUpdateAssetProperty,
-    UpdateAssetPropertyResponse (UpdateAssetPropertyResponse'),
+    UpdateAssetPropertyResponse,
     newUpdateAssetPropertyResponse,
 
     -- ** UpdateDashboard
-    UpdateDashboard (UpdateDashboard'),
+    UpdateDashboard,
     newUpdateDashboard,
-    UpdateDashboardResponse (UpdateDashboardResponse'),
+    UpdateDashboardResponse,
     newUpdateDashboardResponse,
 
     -- ** UpdateGateway
-    UpdateGateway (UpdateGateway'),
+    UpdateGateway,
     newUpdateGateway,
-    UpdateGatewayResponse (UpdateGatewayResponse'),
+    UpdateGatewayResponse,
     newUpdateGatewayResponse,
 
     -- ** UpdateGatewayCapabilityConfiguration
-    UpdateGatewayCapabilityConfiguration (UpdateGatewayCapabilityConfiguration'),
+    UpdateGatewayCapabilityConfiguration,
     newUpdateGatewayCapabilityConfiguration,
-    UpdateGatewayCapabilityConfigurationResponse (UpdateGatewayCapabilityConfigurationResponse'),
+    UpdateGatewayCapabilityConfigurationResponse,
     newUpdateGatewayCapabilityConfigurationResponse,
 
     -- ** UpdatePortal
-    UpdatePortal (UpdatePortal'),
+    UpdatePortal,
     newUpdatePortal,
-    UpdatePortalResponse (UpdatePortalResponse'),
+    UpdatePortalResponse,
     newUpdatePortalResponse,
 
     -- ** UpdateProject
-    UpdateProject (UpdateProject'),
+    UpdateProject,
     newUpdateProject,
-    UpdateProjectResponse (UpdateProjectResponse'),
+    UpdateProjectResponse,
     newUpdateProjectResponse,
 
     -- * Types
@@ -642,391 +642,391 @@ module Amazonka.IoTSiteWise
     TraversalType (..),
 
     -- ** AccessPolicySummary
-    AccessPolicySummary (AccessPolicySummary'),
+    AccessPolicySummary,
     newAccessPolicySummary,
 
     -- ** AggregatedValue
-    AggregatedValue (AggregatedValue'),
+    AggregatedValue,
     newAggregatedValue,
 
     -- ** Aggregates
-    Aggregates (Aggregates'),
+    Aggregates,
     newAggregates,
 
     -- ** Alarms
-    Alarms (Alarms'),
+    Alarms,
     newAlarms,
 
     -- ** AssetCompositeModel
-    AssetCompositeModel (AssetCompositeModel'),
+    AssetCompositeModel,
     newAssetCompositeModel,
 
     -- ** AssetErrorDetails
-    AssetErrorDetails (AssetErrorDetails'),
+    AssetErrorDetails,
     newAssetErrorDetails,
 
     -- ** AssetHierarchy
-    AssetHierarchy (AssetHierarchy'),
+    AssetHierarchy,
     newAssetHierarchy,
 
     -- ** AssetHierarchyInfo
-    AssetHierarchyInfo (AssetHierarchyInfo'),
+    AssetHierarchyInfo,
     newAssetHierarchyInfo,
 
     -- ** AssetModelCompositeModel
-    AssetModelCompositeModel (AssetModelCompositeModel'),
+    AssetModelCompositeModel,
     newAssetModelCompositeModel,
 
     -- ** AssetModelCompositeModelDefinition
-    AssetModelCompositeModelDefinition (AssetModelCompositeModelDefinition'),
+    AssetModelCompositeModelDefinition,
     newAssetModelCompositeModelDefinition,
 
     -- ** AssetModelHierarchy
-    AssetModelHierarchy (AssetModelHierarchy'),
+    AssetModelHierarchy,
     newAssetModelHierarchy,
 
     -- ** AssetModelHierarchyDefinition
-    AssetModelHierarchyDefinition (AssetModelHierarchyDefinition'),
+    AssetModelHierarchyDefinition,
     newAssetModelHierarchyDefinition,
 
     -- ** AssetModelProperty
-    AssetModelProperty (AssetModelProperty'),
+    AssetModelProperty,
     newAssetModelProperty,
 
     -- ** AssetModelPropertyDefinition
-    AssetModelPropertyDefinition (AssetModelPropertyDefinition'),
+    AssetModelPropertyDefinition,
     newAssetModelPropertyDefinition,
 
     -- ** AssetModelPropertySummary
-    AssetModelPropertySummary (AssetModelPropertySummary'),
+    AssetModelPropertySummary,
     newAssetModelPropertySummary,
 
     -- ** AssetModelStatus
-    AssetModelStatus (AssetModelStatus'),
+    AssetModelStatus,
     newAssetModelStatus,
 
     -- ** AssetModelSummary
-    AssetModelSummary (AssetModelSummary'),
+    AssetModelSummary,
     newAssetModelSummary,
 
     -- ** AssetProperty
-    AssetProperty (AssetProperty'),
+    AssetProperty,
     newAssetProperty,
 
     -- ** AssetPropertySummary
-    AssetPropertySummary (AssetPropertySummary'),
+    AssetPropertySummary,
     newAssetPropertySummary,
 
     -- ** AssetPropertyValue
-    AssetPropertyValue (AssetPropertyValue'),
+    AssetPropertyValue,
     newAssetPropertyValue,
 
     -- ** AssetRelationshipSummary
-    AssetRelationshipSummary (AssetRelationshipSummary'),
+    AssetRelationshipSummary,
     newAssetRelationshipSummary,
 
     -- ** AssetStatus
-    AssetStatus (AssetStatus'),
+    AssetStatus,
     newAssetStatus,
 
     -- ** AssetSummary
-    AssetSummary (AssetSummary'),
+    AssetSummary,
     newAssetSummary,
 
     -- ** AssociatedAssetsSummary
-    AssociatedAssetsSummary (AssociatedAssetsSummary'),
+    AssociatedAssetsSummary,
     newAssociatedAssetsSummary,
 
     -- ** Attribute
-    Attribute (Attribute'),
+    Attribute,
     newAttribute,
 
     -- ** BatchGetAssetPropertyAggregatesEntry
-    BatchGetAssetPropertyAggregatesEntry (BatchGetAssetPropertyAggregatesEntry'),
+    BatchGetAssetPropertyAggregatesEntry,
     newBatchGetAssetPropertyAggregatesEntry,
 
     -- ** BatchGetAssetPropertyAggregatesErrorEntry
-    BatchGetAssetPropertyAggregatesErrorEntry (BatchGetAssetPropertyAggregatesErrorEntry'),
+    BatchGetAssetPropertyAggregatesErrorEntry,
     newBatchGetAssetPropertyAggregatesErrorEntry,
 
     -- ** BatchGetAssetPropertyAggregatesErrorInfo
-    BatchGetAssetPropertyAggregatesErrorInfo (BatchGetAssetPropertyAggregatesErrorInfo'),
+    BatchGetAssetPropertyAggregatesErrorInfo,
     newBatchGetAssetPropertyAggregatesErrorInfo,
 
     -- ** BatchGetAssetPropertyAggregatesSkippedEntry
-    BatchGetAssetPropertyAggregatesSkippedEntry (BatchGetAssetPropertyAggregatesSkippedEntry'),
+    BatchGetAssetPropertyAggregatesSkippedEntry,
     newBatchGetAssetPropertyAggregatesSkippedEntry,
 
     -- ** BatchGetAssetPropertyAggregatesSuccessEntry
-    BatchGetAssetPropertyAggregatesSuccessEntry (BatchGetAssetPropertyAggregatesSuccessEntry'),
+    BatchGetAssetPropertyAggregatesSuccessEntry,
     newBatchGetAssetPropertyAggregatesSuccessEntry,
 
     -- ** BatchGetAssetPropertyValueEntry
-    BatchGetAssetPropertyValueEntry (BatchGetAssetPropertyValueEntry'),
+    BatchGetAssetPropertyValueEntry,
     newBatchGetAssetPropertyValueEntry,
 
     -- ** BatchGetAssetPropertyValueErrorEntry
-    BatchGetAssetPropertyValueErrorEntry (BatchGetAssetPropertyValueErrorEntry'),
+    BatchGetAssetPropertyValueErrorEntry,
     newBatchGetAssetPropertyValueErrorEntry,
 
     -- ** BatchGetAssetPropertyValueErrorInfo
-    BatchGetAssetPropertyValueErrorInfo (BatchGetAssetPropertyValueErrorInfo'),
+    BatchGetAssetPropertyValueErrorInfo,
     newBatchGetAssetPropertyValueErrorInfo,
 
     -- ** BatchGetAssetPropertyValueHistoryEntry
-    BatchGetAssetPropertyValueHistoryEntry (BatchGetAssetPropertyValueHistoryEntry'),
+    BatchGetAssetPropertyValueHistoryEntry,
     newBatchGetAssetPropertyValueHistoryEntry,
 
     -- ** BatchGetAssetPropertyValueHistoryErrorEntry
-    BatchGetAssetPropertyValueHistoryErrorEntry (BatchGetAssetPropertyValueHistoryErrorEntry'),
+    BatchGetAssetPropertyValueHistoryErrorEntry,
     newBatchGetAssetPropertyValueHistoryErrorEntry,
 
     -- ** BatchGetAssetPropertyValueHistoryErrorInfo
-    BatchGetAssetPropertyValueHistoryErrorInfo (BatchGetAssetPropertyValueHistoryErrorInfo'),
+    BatchGetAssetPropertyValueHistoryErrorInfo,
     newBatchGetAssetPropertyValueHistoryErrorInfo,
 
     -- ** BatchGetAssetPropertyValueHistorySkippedEntry
-    BatchGetAssetPropertyValueHistorySkippedEntry (BatchGetAssetPropertyValueHistorySkippedEntry'),
+    BatchGetAssetPropertyValueHistorySkippedEntry,
     newBatchGetAssetPropertyValueHistorySkippedEntry,
 
     -- ** BatchGetAssetPropertyValueHistorySuccessEntry
-    BatchGetAssetPropertyValueHistorySuccessEntry (BatchGetAssetPropertyValueHistorySuccessEntry'),
+    BatchGetAssetPropertyValueHistorySuccessEntry,
     newBatchGetAssetPropertyValueHistorySuccessEntry,
 
     -- ** BatchGetAssetPropertyValueSkippedEntry
-    BatchGetAssetPropertyValueSkippedEntry (BatchGetAssetPropertyValueSkippedEntry'),
+    BatchGetAssetPropertyValueSkippedEntry,
     newBatchGetAssetPropertyValueSkippedEntry,
 
     -- ** BatchGetAssetPropertyValueSuccessEntry
-    BatchGetAssetPropertyValueSuccessEntry (BatchGetAssetPropertyValueSuccessEntry'),
+    BatchGetAssetPropertyValueSuccessEntry,
     newBatchGetAssetPropertyValueSuccessEntry,
 
     -- ** BatchPutAssetPropertyError
-    BatchPutAssetPropertyError (BatchPutAssetPropertyError'),
+    BatchPutAssetPropertyError,
     newBatchPutAssetPropertyError,
 
     -- ** BatchPutAssetPropertyErrorEntry
-    BatchPutAssetPropertyErrorEntry (BatchPutAssetPropertyErrorEntry'),
+    BatchPutAssetPropertyErrorEntry,
     newBatchPutAssetPropertyErrorEntry,
 
     -- ** CompositeModelProperty
-    CompositeModelProperty (CompositeModelProperty'),
+    CompositeModelProperty,
     newCompositeModelProperty,
 
     -- ** ConfigurationErrorDetails
-    ConfigurationErrorDetails (ConfigurationErrorDetails'),
+    ConfigurationErrorDetails,
     newConfigurationErrorDetails,
 
     -- ** ConfigurationStatus
-    ConfigurationStatus (ConfigurationStatus'),
+    ConfigurationStatus,
     newConfigurationStatus,
 
     -- ** Csv
-    Csv (Csv'),
+    Csv,
     newCsv,
 
     -- ** CustomerManagedS3Storage
-    CustomerManagedS3Storage (CustomerManagedS3Storage'),
+    CustomerManagedS3Storage,
     newCustomerManagedS3Storage,
 
     -- ** DashboardSummary
-    DashboardSummary (DashboardSummary'),
+    DashboardSummary,
     newDashboardSummary,
 
     -- ** DetailedError
-    DetailedError (DetailedError'),
+    DetailedError,
     newDetailedError,
 
     -- ** ErrorDetails
-    ErrorDetails (ErrorDetails'),
+    ErrorDetails,
     newErrorDetails,
 
     -- ** ErrorReportLocation
-    ErrorReportLocation (ErrorReportLocation'),
+    ErrorReportLocation,
     newErrorReportLocation,
 
     -- ** ExpressionVariable
-    ExpressionVariable (ExpressionVariable'),
+    ExpressionVariable,
     newExpressionVariable,
 
     -- ** File
-    File (File'),
+    File,
     newFile,
 
     -- ** FileFormat
-    FileFormat (FileFormat'),
+    FileFormat,
     newFileFormat,
 
     -- ** ForwardingConfig
-    ForwardingConfig (ForwardingConfig'),
+    ForwardingConfig,
     newForwardingConfig,
 
     -- ** GatewayCapabilitySummary
-    GatewayCapabilitySummary (GatewayCapabilitySummary'),
+    GatewayCapabilitySummary,
     newGatewayCapabilitySummary,
 
     -- ** GatewayPlatform
-    GatewayPlatform (GatewayPlatform'),
+    GatewayPlatform,
     newGatewayPlatform,
 
     -- ** GatewaySummary
-    GatewaySummary (GatewaySummary'),
+    GatewaySummary,
     newGatewaySummary,
 
     -- ** Greengrass
-    Greengrass (Greengrass'),
+    Greengrass,
     newGreengrass,
 
     -- ** GreengrassV2
-    GreengrassV2 (GreengrassV2'),
+    GreengrassV2,
     newGreengrassV2,
 
     -- ** GroupIdentity
-    GroupIdentity (GroupIdentity'),
+    GroupIdentity,
     newGroupIdentity,
 
     -- ** IAMRoleIdentity
-    IAMRoleIdentity (IAMRoleIdentity'),
+    IAMRoleIdentity,
     newIAMRoleIdentity,
 
     -- ** IAMUserIdentity
-    IAMUserIdentity (IAMUserIdentity'),
+    IAMUserIdentity,
     newIAMUserIdentity,
 
     -- ** Identity
-    Identity (Identity'),
+    Identity,
     newIdentity,
 
     -- ** Image
-    Image (Image'),
+    Image,
     newImage,
 
     -- ** ImageFile
-    ImageFile (ImageFile'),
+    ImageFile,
     newImageFile,
 
     -- ** ImageLocation
-    ImageLocation (ImageLocation'),
+    ImageLocation,
     newImageLocation,
 
     -- ** InterpolatedAssetPropertyValue
-    InterpolatedAssetPropertyValue (InterpolatedAssetPropertyValue'),
+    InterpolatedAssetPropertyValue,
     newInterpolatedAssetPropertyValue,
 
     -- ** JobConfiguration
-    JobConfiguration (JobConfiguration'),
+    JobConfiguration,
     newJobConfiguration,
 
     -- ** JobSummary
-    JobSummary (JobSummary'),
+    JobSummary,
     newJobSummary,
 
     -- ** LoggingOptions
-    LoggingOptions (LoggingOptions'),
+    LoggingOptions,
     newLoggingOptions,
 
     -- ** Measurement
-    Measurement (Measurement'),
+    Measurement,
     newMeasurement,
 
     -- ** MeasurementProcessingConfig
-    MeasurementProcessingConfig (MeasurementProcessingConfig'),
+    MeasurementProcessingConfig,
     newMeasurementProcessingConfig,
 
     -- ** Metric
-    Metric (Metric'),
+    Metric,
     newMetric,
 
     -- ** MetricProcessingConfig
-    MetricProcessingConfig (MetricProcessingConfig'),
+    MetricProcessingConfig,
     newMetricProcessingConfig,
 
     -- ** MetricWindow
-    MetricWindow (MetricWindow'),
+    MetricWindow,
     newMetricWindow,
 
     -- ** MonitorErrorDetails
-    MonitorErrorDetails (MonitorErrorDetails'),
+    MonitorErrorDetails,
     newMonitorErrorDetails,
 
     -- ** MultiLayerStorage
-    MultiLayerStorage (MultiLayerStorage'),
+    MultiLayerStorage,
     newMultiLayerStorage,
 
     -- ** PortalResource
-    PortalResource (PortalResource'),
+    PortalResource,
     newPortalResource,
 
     -- ** PortalStatus
-    PortalStatus (PortalStatus'),
+    PortalStatus,
     newPortalStatus,
 
     -- ** PortalSummary
-    PortalSummary (PortalSummary'),
+    PortalSummary,
     newPortalSummary,
 
     -- ** ProjectResource
-    ProjectResource (ProjectResource'),
+    ProjectResource,
     newProjectResource,
 
     -- ** ProjectSummary
-    ProjectSummary (ProjectSummary'),
+    ProjectSummary,
     newProjectSummary,
 
     -- ** Property
-    Property (Property'),
+    Property,
     newProperty,
 
     -- ** PropertyNotification
-    PropertyNotification (PropertyNotification'),
+    PropertyNotification,
     newPropertyNotification,
 
     -- ** PropertyType
-    PropertyType (PropertyType'),
+    PropertyType,
     newPropertyType,
 
     -- ** PutAssetPropertyValueEntry
-    PutAssetPropertyValueEntry (PutAssetPropertyValueEntry'),
+    PutAssetPropertyValueEntry,
     newPutAssetPropertyValueEntry,
 
     -- ** Resource
-    Resource (Resource'),
+    Resource,
     newResource,
 
     -- ** RetentionPeriod
-    RetentionPeriod (RetentionPeriod'),
+    RetentionPeriod,
     newRetentionPeriod,
 
     -- ** TimeInNanos
-    TimeInNanos (TimeInNanos'),
+    TimeInNanos,
     newTimeInNanos,
 
     -- ** TimeSeriesSummary
-    TimeSeriesSummary (TimeSeriesSummary'),
+    TimeSeriesSummary,
     newTimeSeriesSummary,
 
     -- ** Transform
-    Transform (Transform'),
+    Transform,
     newTransform,
 
     -- ** TransformProcessingConfig
-    TransformProcessingConfig (TransformProcessingConfig'),
+    TransformProcessingConfig,
     newTransformProcessingConfig,
 
     -- ** TumblingWindow
-    TumblingWindow (TumblingWindow'),
+    TumblingWindow,
     newTumblingWindow,
 
     -- ** UserIdentity
-    UserIdentity (UserIdentity'),
+    UserIdentity,
     newUserIdentity,
 
     -- ** VariableValue
-    VariableValue (VariableValue'),
+    VariableValue,
     newVariableValue,
 
     -- ** Variant
-    Variant (Variant'),
+    Variant,
     newVariant,
   )
 where

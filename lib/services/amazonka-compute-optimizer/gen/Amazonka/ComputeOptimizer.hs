@@ -67,129 +67,129 @@ module Amazonka.ComputeOptimizer
     -- $operations
 
     -- ** DeleteRecommendationPreferences
-    DeleteRecommendationPreferences (DeleteRecommendationPreferences'),
+    DeleteRecommendationPreferences,
     newDeleteRecommendationPreferences,
-    DeleteRecommendationPreferencesResponse (DeleteRecommendationPreferencesResponse'),
+    DeleteRecommendationPreferencesResponse,
     newDeleteRecommendationPreferencesResponse,
 
     -- ** DescribeRecommendationExportJobs (Paginated)
-    DescribeRecommendationExportJobs (DescribeRecommendationExportJobs'),
+    DescribeRecommendationExportJobs,
     newDescribeRecommendationExportJobs,
-    DescribeRecommendationExportJobsResponse (DescribeRecommendationExportJobsResponse'),
+    DescribeRecommendationExportJobsResponse,
     newDescribeRecommendationExportJobsResponse,
 
     -- ** ExportAutoScalingGroupRecommendations
-    ExportAutoScalingGroupRecommendations (ExportAutoScalingGroupRecommendations'),
+    ExportAutoScalingGroupRecommendations,
     newExportAutoScalingGroupRecommendations,
-    ExportAutoScalingGroupRecommendationsResponse (ExportAutoScalingGroupRecommendationsResponse'),
+    ExportAutoScalingGroupRecommendationsResponse,
     newExportAutoScalingGroupRecommendationsResponse,
 
     -- ** ExportEBSVolumeRecommendations
-    ExportEBSVolumeRecommendations (ExportEBSVolumeRecommendations'),
+    ExportEBSVolumeRecommendations,
     newExportEBSVolumeRecommendations,
-    ExportEBSVolumeRecommendationsResponse (ExportEBSVolumeRecommendationsResponse'),
+    ExportEBSVolumeRecommendationsResponse,
     newExportEBSVolumeRecommendationsResponse,
 
     -- ** ExportEC2InstanceRecommendations
-    ExportEC2InstanceRecommendations (ExportEC2InstanceRecommendations'),
+    ExportEC2InstanceRecommendations,
     newExportEC2InstanceRecommendations,
-    ExportEC2InstanceRecommendationsResponse (ExportEC2InstanceRecommendationsResponse'),
+    ExportEC2InstanceRecommendationsResponse,
     newExportEC2InstanceRecommendationsResponse,
 
     -- ** ExportECSServiceRecommendations
-    ExportECSServiceRecommendations (ExportECSServiceRecommendations'),
+    ExportECSServiceRecommendations,
     newExportECSServiceRecommendations,
-    ExportECSServiceRecommendationsResponse (ExportECSServiceRecommendationsResponse'),
+    ExportECSServiceRecommendationsResponse,
     newExportECSServiceRecommendationsResponse,
 
     -- ** ExportLambdaFunctionRecommendations
-    ExportLambdaFunctionRecommendations (ExportLambdaFunctionRecommendations'),
+    ExportLambdaFunctionRecommendations,
     newExportLambdaFunctionRecommendations,
-    ExportLambdaFunctionRecommendationsResponse (ExportLambdaFunctionRecommendationsResponse'),
+    ExportLambdaFunctionRecommendationsResponse,
     newExportLambdaFunctionRecommendationsResponse,
 
     -- ** GetAutoScalingGroupRecommendations
-    GetAutoScalingGroupRecommendations (GetAutoScalingGroupRecommendations'),
+    GetAutoScalingGroupRecommendations,
     newGetAutoScalingGroupRecommendations,
-    GetAutoScalingGroupRecommendationsResponse (GetAutoScalingGroupRecommendationsResponse'),
+    GetAutoScalingGroupRecommendationsResponse,
     newGetAutoScalingGroupRecommendationsResponse,
 
     -- ** GetEBSVolumeRecommendations
-    GetEBSVolumeRecommendations (GetEBSVolumeRecommendations'),
+    GetEBSVolumeRecommendations,
     newGetEBSVolumeRecommendations,
-    GetEBSVolumeRecommendationsResponse (GetEBSVolumeRecommendationsResponse'),
+    GetEBSVolumeRecommendationsResponse,
     newGetEBSVolumeRecommendationsResponse,
 
     -- ** GetEC2InstanceRecommendations
-    GetEC2InstanceRecommendations (GetEC2InstanceRecommendations'),
+    GetEC2InstanceRecommendations,
     newGetEC2InstanceRecommendations,
-    GetEC2InstanceRecommendationsResponse (GetEC2InstanceRecommendationsResponse'),
+    GetEC2InstanceRecommendationsResponse,
     newGetEC2InstanceRecommendationsResponse,
 
     -- ** GetEC2RecommendationProjectedMetrics
-    GetEC2RecommendationProjectedMetrics (GetEC2RecommendationProjectedMetrics'),
+    GetEC2RecommendationProjectedMetrics,
     newGetEC2RecommendationProjectedMetrics,
-    GetEC2RecommendationProjectedMetricsResponse (GetEC2RecommendationProjectedMetricsResponse'),
+    GetEC2RecommendationProjectedMetricsResponse,
     newGetEC2RecommendationProjectedMetricsResponse,
 
     -- ** GetECSServiceRecommendationProjectedMetrics
-    GetECSServiceRecommendationProjectedMetrics (GetECSServiceRecommendationProjectedMetrics'),
+    GetECSServiceRecommendationProjectedMetrics,
     newGetECSServiceRecommendationProjectedMetrics,
-    GetECSServiceRecommendationProjectedMetricsResponse (GetECSServiceRecommendationProjectedMetricsResponse'),
+    GetECSServiceRecommendationProjectedMetricsResponse,
     newGetECSServiceRecommendationProjectedMetricsResponse,
 
     -- ** GetECSServiceRecommendations
-    GetECSServiceRecommendations (GetECSServiceRecommendations'),
+    GetECSServiceRecommendations,
     newGetECSServiceRecommendations,
-    GetECSServiceRecommendationsResponse (GetECSServiceRecommendationsResponse'),
+    GetECSServiceRecommendationsResponse,
     newGetECSServiceRecommendationsResponse,
 
     -- ** GetEffectiveRecommendationPreferences
-    GetEffectiveRecommendationPreferences (GetEffectiveRecommendationPreferences'),
+    GetEffectiveRecommendationPreferences,
     newGetEffectiveRecommendationPreferences,
-    GetEffectiveRecommendationPreferencesResponse (GetEffectiveRecommendationPreferencesResponse'),
+    GetEffectiveRecommendationPreferencesResponse,
     newGetEffectiveRecommendationPreferencesResponse,
 
     -- ** GetEnrollmentStatus
-    GetEnrollmentStatus (GetEnrollmentStatus'),
+    GetEnrollmentStatus,
     newGetEnrollmentStatus,
-    GetEnrollmentStatusResponse (GetEnrollmentStatusResponse'),
+    GetEnrollmentStatusResponse,
     newGetEnrollmentStatusResponse,
 
     -- ** GetEnrollmentStatusesForOrganization (Paginated)
-    GetEnrollmentStatusesForOrganization (GetEnrollmentStatusesForOrganization'),
+    GetEnrollmentStatusesForOrganization,
     newGetEnrollmentStatusesForOrganization,
-    GetEnrollmentStatusesForOrganizationResponse (GetEnrollmentStatusesForOrganizationResponse'),
+    GetEnrollmentStatusesForOrganizationResponse,
     newGetEnrollmentStatusesForOrganizationResponse,
 
     -- ** GetLambdaFunctionRecommendations (Paginated)
-    GetLambdaFunctionRecommendations (GetLambdaFunctionRecommendations'),
+    GetLambdaFunctionRecommendations,
     newGetLambdaFunctionRecommendations,
-    GetLambdaFunctionRecommendationsResponse (GetLambdaFunctionRecommendationsResponse'),
+    GetLambdaFunctionRecommendationsResponse,
     newGetLambdaFunctionRecommendationsResponse,
 
     -- ** GetRecommendationPreferences (Paginated)
-    GetRecommendationPreferences (GetRecommendationPreferences'),
+    GetRecommendationPreferences,
     newGetRecommendationPreferences,
-    GetRecommendationPreferencesResponse (GetRecommendationPreferencesResponse'),
+    GetRecommendationPreferencesResponse,
     newGetRecommendationPreferencesResponse,
 
     -- ** GetRecommendationSummaries (Paginated)
-    GetRecommendationSummaries (GetRecommendationSummaries'),
+    GetRecommendationSummaries,
     newGetRecommendationSummaries,
-    GetRecommendationSummariesResponse (GetRecommendationSummariesResponse'),
+    GetRecommendationSummariesResponse,
     newGetRecommendationSummariesResponse,
 
     -- ** PutRecommendationPreferences
-    PutRecommendationPreferences (PutRecommendationPreferences'),
+    PutRecommendationPreferences,
     newPutRecommendationPreferences,
-    PutRecommendationPreferencesResponse (PutRecommendationPreferencesResponse'),
+    PutRecommendationPreferencesResponse,
     newPutRecommendationPreferencesResponse,
 
     -- ** UpdateEnrollmentStatus
-    UpdateEnrollmentStatus (UpdateEnrollmentStatus'),
+    UpdateEnrollmentStatus,
     newUpdateEnrollmentStatus,
-    UpdateEnrollmentStatusResponse (UpdateEnrollmentStatusResponse'),
+    UpdateEnrollmentStatusResponse,
     newUpdateEnrollmentStatusResponse,
 
     -- * Types
@@ -333,203 +333,203 @@ module Amazonka.ComputeOptimizer
     Status (..),
 
     -- ** AccountEnrollmentStatus
-    AccountEnrollmentStatus (AccountEnrollmentStatus'),
+    AccountEnrollmentStatus,
     newAccountEnrollmentStatus,
 
     -- ** AutoScalingGroupConfiguration
-    AutoScalingGroupConfiguration (AutoScalingGroupConfiguration'),
+    AutoScalingGroupConfiguration,
     newAutoScalingGroupConfiguration,
 
     -- ** AutoScalingGroupRecommendation
-    AutoScalingGroupRecommendation (AutoScalingGroupRecommendation'),
+    AutoScalingGroupRecommendation,
     newAutoScalingGroupRecommendation,
 
     -- ** AutoScalingGroupRecommendationOption
-    AutoScalingGroupRecommendationOption (AutoScalingGroupRecommendationOption'),
+    AutoScalingGroupRecommendationOption,
     newAutoScalingGroupRecommendationOption,
 
     -- ** ContainerConfiguration
-    ContainerConfiguration (ContainerConfiguration'),
+    ContainerConfiguration,
     newContainerConfiguration,
 
     -- ** ContainerRecommendation
-    ContainerRecommendation (ContainerRecommendation'),
+    ContainerRecommendation,
     newContainerRecommendation,
 
     -- ** CurrentPerformanceRiskRatings
-    CurrentPerformanceRiskRatings (CurrentPerformanceRiskRatings'),
+    CurrentPerformanceRiskRatings,
     newCurrentPerformanceRiskRatings,
 
     -- ** EBSFilter
-    EBSFilter (EBSFilter'),
+    EBSFilter,
     newEBSFilter,
 
     -- ** EBSUtilizationMetric
-    EBSUtilizationMetric (EBSUtilizationMetric'),
+    EBSUtilizationMetric,
     newEBSUtilizationMetric,
 
     -- ** ECSServiceProjectedMetric
-    ECSServiceProjectedMetric (ECSServiceProjectedMetric'),
+    ECSServiceProjectedMetric,
     newECSServiceProjectedMetric,
 
     -- ** ECSServiceProjectedUtilizationMetric
-    ECSServiceProjectedUtilizationMetric (ECSServiceProjectedUtilizationMetric'),
+    ECSServiceProjectedUtilizationMetric,
     newECSServiceProjectedUtilizationMetric,
 
     -- ** ECSServiceRecommendation
-    ECSServiceRecommendation (ECSServiceRecommendation'),
+    ECSServiceRecommendation,
     newECSServiceRecommendation,
 
     -- ** ECSServiceRecommendationFilter
-    ECSServiceRecommendationFilter (ECSServiceRecommendationFilter'),
+    ECSServiceRecommendationFilter,
     newECSServiceRecommendationFilter,
 
     -- ** ECSServiceRecommendationOption
-    ECSServiceRecommendationOption (ECSServiceRecommendationOption'),
+    ECSServiceRecommendationOption,
     newECSServiceRecommendationOption,
 
     -- ** ECSServiceRecommendedOptionProjectedMetric
-    ECSServiceRecommendedOptionProjectedMetric (ECSServiceRecommendedOptionProjectedMetric'),
+    ECSServiceRecommendedOptionProjectedMetric,
     newECSServiceRecommendedOptionProjectedMetric,
 
     -- ** ECSServiceUtilizationMetric
-    ECSServiceUtilizationMetric (ECSServiceUtilizationMetric'),
+    ECSServiceUtilizationMetric,
     newECSServiceUtilizationMetric,
 
     -- ** EffectiveRecommendationPreferences
-    EffectiveRecommendationPreferences (EffectiveRecommendationPreferences'),
+    EffectiveRecommendationPreferences,
     newEffectiveRecommendationPreferences,
 
     -- ** EnrollmentFilter
-    EnrollmentFilter (EnrollmentFilter'),
+    EnrollmentFilter,
     newEnrollmentFilter,
 
     -- ** EstimatedMonthlySavings
-    EstimatedMonthlySavings (EstimatedMonthlySavings'),
+    EstimatedMonthlySavings,
     newEstimatedMonthlySavings,
 
     -- ** ExportDestination
-    ExportDestination (ExportDestination'),
+    ExportDestination,
     newExportDestination,
 
     -- ** ExternalMetricsPreference
-    ExternalMetricsPreference (ExternalMetricsPreference'),
+    ExternalMetricsPreference,
     newExternalMetricsPreference,
 
     -- ** Filter
-    Filter (Filter'),
+    Filter,
     newFilter,
 
     -- ** GetRecommendationError
-    GetRecommendationError (GetRecommendationError'),
+    GetRecommendationError,
     newGetRecommendationError,
 
     -- ** InstanceRecommendation
-    InstanceRecommendation (InstanceRecommendation'),
+    InstanceRecommendation,
     newInstanceRecommendation,
 
     -- ** InstanceRecommendationOption
-    InstanceRecommendationOption (InstanceRecommendationOption'),
+    InstanceRecommendationOption,
     newInstanceRecommendationOption,
 
     -- ** JobFilter
-    JobFilter (JobFilter'),
+    JobFilter,
     newJobFilter,
 
     -- ** LambdaFunctionMemoryProjectedMetric
-    LambdaFunctionMemoryProjectedMetric (LambdaFunctionMemoryProjectedMetric'),
+    LambdaFunctionMemoryProjectedMetric,
     newLambdaFunctionMemoryProjectedMetric,
 
     -- ** LambdaFunctionMemoryRecommendationOption
-    LambdaFunctionMemoryRecommendationOption (LambdaFunctionMemoryRecommendationOption'),
+    LambdaFunctionMemoryRecommendationOption,
     newLambdaFunctionMemoryRecommendationOption,
 
     -- ** LambdaFunctionRecommendation
-    LambdaFunctionRecommendation (LambdaFunctionRecommendation'),
+    LambdaFunctionRecommendation,
     newLambdaFunctionRecommendation,
 
     -- ** LambdaFunctionRecommendationFilter
-    LambdaFunctionRecommendationFilter (LambdaFunctionRecommendationFilter'),
+    LambdaFunctionRecommendationFilter,
     newLambdaFunctionRecommendationFilter,
 
     -- ** LambdaFunctionUtilizationMetric
-    LambdaFunctionUtilizationMetric (LambdaFunctionUtilizationMetric'),
+    LambdaFunctionUtilizationMetric,
     newLambdaFunctionUtilizationMetric,
 
     -- ** MemorySizeConfiguration
-    MemorySizeConfiguration (MemorySizeConfiguration'),
+    MemorySizeConfiguration,
     newMemorySizeConfiguration,
 
     -- ** ProjectedMetric
-    ProjectedMetric (ProjectedMetric'),
+    ProjectedMetric,
     newProjectedMetric,
 
     -- ** ReasonCodeSummary
-    ReasonCodeSummary (ReasonCodeSummary'),
+    ReasonCodeSummary,
     newReasonCodeSummary,
 
     -- ** RecommendationExportJob
-    RecommendationExportJob (RecommendationExportJob'),
+    RecommendationExportJob,
     newRecommendationExportJob,
 
     -- ** RecommendationPreferences
-    RecommendationPreferences (RecommendationPreferences'),
+    RecommendationPreferences,
     newRecommendationPreferences,
 
     -- ** RecommendationPreferencesDetail
-    RecommendationPreferencesDetail (RecommendationPreferencesDetail'),
+    RecommendationPreferencesDetail,
     newRecommendationPreferencesDetail,
 
     -- ** RecommendationSource
-    RecommendationSource (RecommendationSource'),
+    RecommendationSource,
     newRecommendationSource,
 
     -- ** RecommendationSummary
-    RecommendationSummary (RecommendationSummary'),
+    RecommendationSummary,
     newRecommendationSummary,
 
     -- ** RecommendedOptionProjectedMetric
-    RecommendedOptionProjectedMetric (RecommendedOptionProjectedMetric'),
+    RecommendedOptionProjectedMetric,
     newRecommendedOptionProjectedMetric,
 
     -- ** S3Destination
-    S3Destination (S3Destination'),
+    S3Destination,
     newS3Destination,
 
     -- ** S3DestinationConfig
-    S3DestinationConfig (S3DestinationConfig'),
+    S3DestinationConfig,
     newS3DestinationConfig,
 
     -- ** SavingsOpportunity
-    SavingsOpportunity (SavingsOpportunity'),
+    SavingsOpportunity,
     newSavingsOpportunity,
 
     -- ** Scope
-    Scope (Scope'),
+    Scope,
     newScope,
 
     -- ** ServiceConfiguration
-    ServiceConfiguration (ServiceConfiguration'),
+    ServiceConfiguration,
     newServiceConfiguration,
 
     -- ** Summary
-    Summary (Summary'),
+    Summary,
     newSummary,
 
     -- ** UtilizationMetric
-    UtilizationMetric (UtilizationMetric'),
+    UtilizationMetric,
     newUtilizationMetric,
 
     -- ** VolumeConfiguration
-    VolumeConfiguration (VolumeConfiguration'),
+    VolumeConfiguration,
     newVolumeConfiguration,
 
     -- ** VolumeRecommendation
-    VolumeRecommendation (VolumeRecommendation'),
+    VolumeRecommendation,
     newVolumeRecommendation,
 
     -- ** VolumeRecommendationOption
-    VolumeRecommendationOption (VolumeRecommendationOption'),
+    VolumeRecommendationOption,
     newVolumeRecommendationOption,
   )
 where

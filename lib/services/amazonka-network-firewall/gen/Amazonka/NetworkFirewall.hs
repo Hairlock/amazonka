@@ -137,189 +137,189 @@ module Amazonka.NetworkFirewall
     -- $operations
 
     -- ** AssociateFirewallPolicy
-    AssociateFirewallPolicy (AssociateFirewallPolicy'),
+    AssociateFirewallPolicy,
     newAssociateFirewallPolicy,
-    AssociateFirewallPolicyResponse (AssociateFirewallPolicyResponse'),
+    AssociateFirewallPolicyResponse,
     newAssociateFirewallPolicyResponse,
 
     -- ** AssociateSubnets
-    AssociateSubnets (AssociateSubnets'),
+    AssociateSubnets,
     newAssociateSubnets,
-    AssociateSubnetsResponse (AssociateSubnetsResponse'),
+    AssociateSubnetsResponse,
     newAssociateSubnetsResponse,
 
     -- ** CreateFirewall
-    CreateFirewall (CreateFirewall'),
+    CreateFirewall,
     newCreateFirewall,
-    CreateFirewallResponse (CreateFirewallResponse'),
+    CreateFirewallResponse,
     newCreateFirewallResponse,
 
     -- ** CreateFirewallPolicy
-    CreateFirewallPolicy (CreateFirewallPolicy'),
+    CreateFirewallPolicy,
     newCreateFirewallPolicy,
-    CreateFirewallPolicyResponse (CreateFirewallPolicyResponse'),
+    CreateFirewallPolicyResponse,
     newCreateFirewallPolicyResponse,
 
     -- ** CreateRuleGroup
-    CreateRuleGroup (CreateRuleGroup'),
+    CreateRuleGroup,
     newCreateRuleGroup,
-    CreateRuleGroupResponse (CreateRuleGroupResponse'),
+    CreateRuleGroupResponse,
     newCreateRuleGroupResponse,
 
     -- ** DeleteFirewall
-    DeleteFirewall (DeleteFirewall'),
+    DeleteFirewall,
     newDeleteFirewall,
-    DeleteFirewallResponse (DeleteFirewallResponse'),
+    DeleteFirewallResponse,
     newDeleteFirewallResponse,
 
     -- ** DeleteFirewallPolicy
-    DeleteFirewallPolicy (DeleteFirewallPolicy'),
+    DeleteFirewallPolicy,
     newDeleteFirewallPolicy,
-    DeleteFirewallPolicyResponse (DeleteFirewallPolicyResponse'),
+    DeleteFirewallPolicyResponse,
     newDeleteFirewallPolicyResponse,
 
     -- ** DeleteResourcePolicy
-    DeleteResourcePolicy (DeleteResourcePolicy'),
+    DeleteResourcePolicy,
     newDeleteResourcePolicy,
-    DeleteResourcePolicyResponse (DeleteResourcePolicyResponse'),
+    DeleteResourcePolicyResponse,
     newDeleteResourcePolicyResponse,
 
     -- ** DeleteRuleGroup
-    DeleteRuleGroup (DeleteRuleGroup'),
+    DeleteRuleGroup,
     newDeleteRuleGroup,
-    DeleteRuleGroupResponse (DeleteRuleGroupResponse'),
+    DeleteRuleGroupResponse,
     newDeleteRuleGroupResponse,
 
     -- ** DescribeFirewall
-    DescribeFirewall (DescribeFirewall'),
+    DescribeFirewall,
     newDescribeFirewall,
-    DescribeFirewallResponse (DescribeFirewallResponse'),
+    DescribeFirewallResponse,
     newDescribeFirewallResponse,
 
     -- ** DescribeFirewallPolicy
-    DescribeFirewallPolicy (DescribeFirewallPolicy'),
+    DescribeFirewallPolicy,
     newDescribeFirewallPolicy,
-    DescribeFirewallPolicyResponse (DescribeFirewallPolicyResponse'),
+    DescribeFirewallPolicyResponse,
     newDescribeFirewallPolicyResponse,
 
     -- ** DescribeLoggingConfiguration
-    DescribeLoggingConfiguration (DescribeLoggingConfiguration'),
+    DescribeLoggingConfiguration,
     newDescribeLoggingConfiguration,
-    DescribeLoggingConfigurationResponse (DescribeLoggingConfigurationResponse'),
+    DescribeLoggingConfigurationResponse,
     newDescribeLoggingConfigurationResponse,
 
     -- ** DescribeResourcePolicy
-    DescribeResourcePolicy (DescribeResourcePolicy'),
+    DescribeResourcePolicy,
     newDescribeResourcePolicy,
-    DescribeResourcePolicyResponse (DescribeResourcePolicyResponse'),
+    DescribeResourcePolicyResponse,
     newDescribeResourcePolicyResponse,
 
     -- ** DescribeRuleGroup
-    DescribeRuleGroup (DescribeRuleGroup'),
+    DescribeRuleGroup,
     newDescribeRuleGroup,
-    DescribeRuleGroupResponse (DescribeRuleGroupResponse'),
+    DescribeRuleGroupResponse,
     newDescribeRuleGroupResponse,
 
     -- ** DescribeRuleGroupMetadata
-    DescribeRuleGroupMetadata (DescribeRuleGroupMetadata'),
+    DescribeRuleGroupMetadata,
     newDescribeRuleGroupMetadata,
-    DescribeRuleGroupMetadataResponse (DescribeRuleGroupMetadataResponse'),
+    DescribeRuleGroupMetadataResponse,
     newDescribeRuleGroupMetadataResponse,
 
     -- ** DisassociateSubnets
-    DisassociateSubnets (DisassociateSubnets'),
+    DisassociateSubnets,
     newDisassociateSubnets,
-    DisassociateSubnetsResponse (DisassociateSubnetsResponse'),
+    DisassociateSubnetsResponse,
     newDisassociateSubnetsResponse,
 
     -- ** ListFirewallPolicies (Paginated)
-    ListFirewallPolicies (ListFirewallPolicies'),
+    ListFirewallPolicies,
     newListFirewallPolicies,
-    ListFirewallPoliciesResponse (ListFirewallPoliciesResponse'),
+    ListFirewallPoliciesResponse,
     newListFirewallPoliciesResponse,
 
     -- ** ListFirewalls (Paginated)
-    ListFirewalls (ListFirewalls'),
+    ListFirewalls,
     newListFirewalls,
-    ListFirewallsResponse (ListFirewallsResponse'),
+    ListFirewallsResponse,
     newListFirewallsResponse,
 
     -- ** ListRuleGroups (Paginated)
-    ListRuleGroups (ListRuleGroups'),
+    ListRuleGroups,
     newListRuleGroups,
-    ListRuleGroupsResponse (ListRuleGroupsResponse'),
+    ListRuleGroupsResponse,
     newListRuleGroupsResponse,
 
     -- ** ListTagsForResource (Paginated)
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** PutResourcePolicy
-    PutResourcePolicy (PutResourcePolicy'),
+    PutResourcePolicy,
     newPutResourcePolicy,
-    PutResourcePolicyResponse (PutResourcePolicyResponse'),
+    PutResourcePolicyResponse,
     newPutResourcePolicyResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateFirewallDeleteProtection
-    UpdateFirewallDeleteProtection (UpdateFirewallDeleteProtection'),
+    UpdateFirewallDeleteProtection,
     newUpdateFirewallDeleteProtection,
-    UpdateFirewallDeleteProtectionResponse (UpdateFirewallDeleteProtectionResponse'),
+    UpdateFirewallDeleteProtectionResponse,
     newUpdateFirewallDeleteProtectionResponse,
 
     -- ** UpdateFirewallDescription
-    UpdateFirewallDescription (UpdateFirewallDescription'),
+    UpdateFirewallDescription,
     newUpdateFirewallDescription,
-    UpdateFirewallDescriptionResponse (UpdateFirewallDescriptionResponse'),
+    UpdateFirewallDescriptionResponse,
     newUpdateFirewallDescriptionResponse,
 
     -- ** UpdateFirewallEncryptionConfiguration
-    UpdateFirewallEncryptionConfiguration (UpdateFirewallEncryptionConfiguration'),
+    UpdateFirewallEncryptionConfiguration,
     newUpdateFirewallEncryptionConfiguration,
-    UpdateFirewallEncryptionConfigurationResponse (UpdateFirewallEncryptionConfigurationResponse'),
+    UpdateFirewallEncryptionConfigurationResponse,
     newUpdateFirewallEncryptionConfigurationResponse,
 
     -- ** UpdateFirewallPolicy
-    UpdateFirewallPolicy (UpdateFirewallPolicy'),
+    UpdateFirewallPolicy,
     newUpdateFirewallPolicy,
-    UpdateFirewallPolicyResponse (UpdateFirewallPolicyResponse'),
+    UpdateFirewallPolicyResponse,
     newUpdateFirewallPolicyResponse,
 
     -- ** UpdateFirewallPolicyChangeProtection
-    UpdateFirewallPolicyChangeProtection (UpdateFirewallPolicyChangeProtection'),
+    UpdateFirewallPolicyChangeProtection,
     newUpdateFirewallPolicyChangeProtection,
-    UpdateFirewallPolicyChangeProtectionResponse (UpdateFirewallPolicyChangeProtectionResponse'),
+    UpdateFirewallPolicyChangeProtectionResponse,
     newUpdateFirewallPolicyChangeProtectionResponse,
 
     -- ** UpdateLoggingConfiguration
-    UpdateLoggingConfiguration (UpdateLoggingConfiguration'),
+    UpdateLoggingConfiguration,
     newUpdateLoggingConfiguration,
-    UpdateLoggingConfigurationResponse (UpdateLoggingConfigurationResponse'),
+    UpdateLoggingConfigurationResponse,
     newUpdateLoggingConfigurationResponse,
 
     -- ** UpdateRuleGroup
-    UpdateRuleGroup (UpdateRuleGroup'),
+    UpdateRuleGroup,
     newUpdateRuleGroup,
-    UpdateRuleGroupResponse (UpdateRuleGroupResponse'),
+    UpdateRuleGroupResponse,
     newUpdateRuleGroupResponse,
 
     -- ** UpdateSubnetChangeProtection
-    UpdateSubnetChangeProtection (UpdateSubnetChangeProtection'),
+    UpdateSubnetChangeProtection,
     newUpdateSubnetChangeProtection,
-    UpdateSubnetChangeProtectionResponse (UpdateSubnetChangeProtectionResponse'),
+    UpdateSubnetChangeProtectionResponse,
     newUpdateSubnetChangeProtectionResponse,
 
     -- * Types
@@ -385,191 +385,191 @@ module Amazonka.NetworkFirewall
     TargetType (..),
 
     -- ** ActionDefinition
-    ActionDefinition (ActionDefinition'),
+    ActionDefinition,
     newActionDefinition,
 
     -- ** Address
-    Address (Address'),
+    Address,
     newAddress,
 
     -- ** Attachment
-    Attachment (Attachment'),
+    Attachment,
     newAttachment,
 
     -- ** CIDRSummary
-    CIDRSummary (CIDRSummary'),
+    CIDRSummary,
     newCIDRSummary,
 
     -- ** CapacityUsageSummary
-    CapacityUsageSummary (CapacityUsageSummary'),
+    CapacityUsageSummary,
     newCapacityUsageSummary,
 
     -- ** CustomAction
-    CustomAction (CustomAction'),
+    CustomAction,
     newCustomAction,
 
     -- ** Dimension
-    Dimension (Dimension'),
+    Dimension,
     newDimension,
 
     -- ** EncryptionConfiguration
-    EncryptionConfiguration (EncryptionConfiguration'),
+    EncryptionConfiguration,
     newEncryptionConfiguration,
 
     -- ** Firewall
-    Firewall (Firewall'),
+    Firewall,
     newFirewall,
 
     -- ** FirewallMetadata
-    FirewallMetadata (FirewallMetadata'),
+    FirewallMetadata,
     newFirewallMetadata,
 
     -- ** FirewallPolicy
-    FirewallPolicy (FirewallPolicy'),
+    FirewallPolicy,
     newFirewallPolicy,
 
     -- ** FirewallPolicyMetadata
-    FirewallPolicyMetadata (FirewallPolicyMetadata'),
+    FirewallPolicyMetadata,
     newFirewallPolicyMetadata,
 
     -- ** FirewallPolicyResponse
-    FirewallPolicyResponse (FirewallPolicyResponse'),
+    FirewallPolicyResponse,
     newFirewallPolicyResponse,
 
     -- ** FirewallStatus
-    FirewallStatus (FirewallStatus'),
+    FirewallStatus,
     newFirewallStatus,
 
     -- ** Header
-    Header (Header'),
+    Header,
     newHeader,
 
     -- ** IPSet
-    IPSet (IPSet'),
+    IPSet,
     newIPSet,
 
     -- ** IPSetMetadata
-    IPSetMetadata (IPSetMetadata'),
+    IPSetMetadata,
     newIPSetMetadata,
 
     -- ** IPSetReference
-    IPSetReference (IPSetReference'),
+    IPSetReference,
     newIPSetReference,
 
     -- ** LogDestinationConfig
-    LogDestinationConfig (LogDestinationConfig'),
+    LogDestinationConfig,
     newLogDestinationConfig,
 
     -- ** LoggingConfiguration
-    LoggingConfiguration (LoggingConfiguration'),
+    LoggingConfiguration,
     newLoggingConfiguration,
 
     -- ** MatchAttributes
-    MatchAttributes (MatchAttributes'),
+    MatchAttributes,
     newMatchAttributes,
 
     -- ** PerObjectStatus
-    PerObjectStatus (PerObjectStatus'),
+    PerObjectStatus,
     newPerObjectStatus,
 
     -- ** PortRange
-    PortRange (PortRange'),
+    PortRange,
     newPortRange,
 
     -- ** PortSet
-    PortSet (PortSet'),
+    PortSet,
     newPortSet,
 
     -- ** PublishMetricAction
-    PublishMetricAction (PublishMetricAction'),
+    PublishMetricAction,
     newPublishMetricAction,
 
     -- ** ReferenceSets
-    ReferenceSets (ReferenceSets'),
+    ReferenceSets,
     newReferenceSets,
 
     -- ** RuleDefinition
-    RuleDefinition (RuleDefinition'),
+    RuleDefinition,
     newRuleDefinition,
 
     -- ** RuleGroup
-    RuleGroup (RuleGroup'),
+    RuleGroup,
     newRuleGroup,
 
     -- ** RuleGroupMetadata
-    RuleGroupMetadata (RuleGroupMetadata'),
+    RuleGroupMetadata,
     newRuleGroupMetadata,
 
     -- ** RuleGroupResponse
-    RuleGroupResponse (RuleGroupResponse'),
+    RuleGroupResponse,
     newRuleGroupResponse,
 
     -- ** RuleOption
-    RuleOption (RuleOption'),
+    RuleOption,
     newRuleOption,
 
     -- ** RuleVariables
-    RuleVariables (RuleVariables'),
+    RuleVariables,
     newRuleVariables,
 
     -- ** RulesSource
-    RulesSource (RulesSource'),
+    RulesSource,
     newRulesSource,
 
     -- ** RulesSourceList
-    RulesSourceList (RulesSourceList'),
+    RulesSourceList,
     newRulesSourceList,
 
     -- ** SourceMetadata
-    SourceMetadata (SourceMetadata'),
+    SourceMetadata,
     newSourceMetadata,
 
     -- ** StatefulEngineOptions
-    StatefulEngineOptions (StatefulEngineOptions'),
+    StatefulEngineOptions,
     newStatefulEngineOptions,
 
     -- ** StatefulRule
-    StatefulRule (StatefulRule'),
+    StatefulRule,
     newStatefulRule,
 
     -- ** StatefulRuleGroupOverride
-    StatefulRuleGroupOverride (StatefulRuleGroupOverride'),
+    StatefulRuleGroupOverride,
     newStatefulRuleGroupOverride,
 
     -- ** StatefulRuleGroupReference
-    StatefulRuleGroupReference (StatefulRuleGroupReference'),
+    StatefulRuleGroupReference,
     newStatefulRuleGroupReference,
 
     -- ** StatefulRuleOptions
-    StatefulRuleOptions (StatefulRuleOptions'),
+    StatefulRuleOptions,
     newStatefulRuleOptions,
 
     -- ** StatelessRule
-    StatelessRule (StatelessRule'),
+    StatelessRule,
     newStatelessRule,
 
     -- ** StatelessRuleGroupReference
-    StatelessRuleGroupReference (StatelessRuleGroupReference'),
+    StatelessRuleGroupReference,
     newStatelessRuleGroupReference,
 
     -- ** StatelessRulesAndCustomActions
-    StatelessRulesAndCustomActions (StatelessRulesAndCustomActions'),
+    StatelessRulesAndCustomActions,
     newStatelessRulesAndCustomActions,
 
     -- ** SubnetMapping
-    SubnetMapping (SubnetMapping'),
+    SubnetMapping,
     newSubnetMapping,
 
     -- ** SyncState
-    SyncState (SyncState'),
+    SyncState,
     newSyncState,
 
     -- ** TCPFlagField
-    TCPFlagField (TCPFlagField'),
+    TCPFlagField,
     newTCPFlagField,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
   )
 where

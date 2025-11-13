@@ -66,933 +66,933 @@ module Amazonka.Lightsail
     -- $operations
 
     -- ** AllocateStaticIp
-    AllocateStaticIp (AllocateStaticIp'),
+    AllocateStaticIp,
     newAllocateStaticIp,
-    AllocateStaticIpResponse (AllocateStaticIpResponse'),
+    AllocateStaticIpResponse,
     newAllocateStaticIpResponse,
 
     -- ** AttachCertificateToDistribution
-    AttachCertificateToDistribution (AttachCertificateToDistribution'),
+    AttachCertificateToDistribution,
     newAttachCertificateToDistribution,
-    AttachCertificateToDistributionResponse (AttachCertificateToDistributionResponse'),
+    AttachCertificateToDistributionResponse,
     newAttachCertificateToDistributionResponse,
 
     -- ** AttachDisk
-    AttachDisk (AttachDisk'),
+    AttachDisk,
     newAttachDisk,
-    AttachDiskResponse (AttachDiskResponse'),
+    AttachDiskResponse,
     newAttachDiskResponse,
 
     -- ** AttachInstancesToLoadBalancer
-    AttachInstancesToLoadBalancer (AttachInstancesToLoadBalancer'),
+    AttachInstancesToLoadBalancer,
     newAttachInstancesToLoadBalancer,
-    AttachInstancesToLoadBalancerResponse (AttachInstancesToLoadBalancerResponse'),
+    AttachInstancesToLoadBalancerResponse,
     newAttachInstancesToLoadBalancerResponse,
 
     -- ** AttachLoadBalancerTlsCertificate
-    AttachLoadBalancerTlsCertificate (AttachLoadBalancerTlsCertificate'),
+    AttachLoadBalancerTlsCertificate,
     newAttachLoadBalancerTlsCertificate,
-    AttachLoadBalancerTlsCertificateResponse (AttachLoadBalancerTlsCertificateResponse'),
+    AttachLoadBalancerTlsCertificateResponse,
     newAttachLoadBalancerTlsCertificateResponse,
 
     -- ** AttachStaticIp
-    AttachStaticIp (AttachStaticIp'),
+    AttachStaticIp,
     newAttachStaticIp,
-    AttachStaticIpResponse (AttachStaticIpResponse'),
+    AttachStaticIpResponse,
     newAttachStaticIpResponse,
 
     -- ** CloseInstancePublicPorts
-    CloseInstancePublicPorts (CloseInstancePublicPorts'),
+    CloseInstancePublicPorts,
     newCloseInstancePublicPorts,
-    CloseInstancePublicPortsResponse (CloseInstancePublicPortsResponse'),
+    CloseInstancePublicPortsResponse,
     newCloseInstancePublicPortsResponse,
 
     -- ** CopySnapshot
-    CopySnapshot (CopySnapshot'),
+    CopySnapshot,
     newCopySnapshot,
-    CopySnapshotResponse (CopySnapshotResponse'),
+    CopySnapshotResponse,
     newCopySnapshotResponse,
 
     -- ** CreateBucket
-    CreateBucket (CreateBucket'),
+    CreateBucket,
     newCreateBucket,
-    CreateBucketResponse (CreateBucketResponse'),
+    CreateBucketResponse,
     newCreateBucketResponse,
 
     -- ** CreateBucketAccessKey
-    CreateBucketAccessKey (CreateBucketAccessKey'),
+    CreateBucketAccessKey,
     newCreateBucketAccessKey,
-    CreateBucketAccessKeyResponse (CreateBucketAccessKeyResponse'),
+    CreateBucketAccessKeyResponse,
     newCreateBucketAccessKeyResponse,
 
     -- ** CreateCertificate
-    CreateCertificate (CreateCertificate'),
+    CreateCertificate,
     newCreateCertificate,
-    CreateCertificateResponse (CreateCertificateResponse'),
+    CreateCertificateResponse,
     newCreateCertificateResponse,
 
     -- ** CreateCloudFormationStack
-    CreateCloudFormationStack (CreateCloudFormationStack'),
+    CreateCloudFormationStack,
     newCreateCloudFormationStack,
-    CreateCloudFormationStackResponse (CreateCloudFormationStackResponse'),
+    CreateCloudFormationStackResponse,
     newCreateCloudFormationStackResponse,
 
     -- ** CreateContactMethod
-    CreateContactMethod (CreateContactMethod'),
+    CreateContactMethod,
     newCreateContactMethod,
-    CreateContactMethodResponse (CreateContactMethodResponse'),
+    CreateContactMethodResponse,
     newCreateContactMethodResponse,
 
     -- ** CreateContainerService
-    CreateContainerService (CreateContainerService'),
+    CreateContainerService,
     newCreateContainerService,
-    CreateContainerServiceResponse (CreateContainerServiceResponse'),
+    CreateContainerServiceResponse,
     newCreateContainerServiceResponse,
 
     -- ** CreateContainerServiceDeployment
-    CreateContainerServiceDeployment (CreateContainerServiceDeployment'),
+    CreateContainerServiceDeployment,
     newCreateContainerServiceDeployment,
-    CreateContainerServiceDeploymentResponse (CreateContainerServiceDeploymentResponse'),
+    CreateContainerServiceDeploymentResponse,
     newCreateContainerServiceDeploymentResponse,
 
     -- ** CreateContainerServiceRegistryLogin
-    CreateContainerServiceRegistryLogin (CreateContainerServiceRegistryLogin'),
+    CreateContainerServiceRegistryLogin,
     newCreateContainerServiceRegistryLogin,
-    CreateContainerServiceRegistryLoginResponse (CreateContainerServiceRegistryLoginResponse'),
+    CreateContainerServiceRegistryLoginResponse,
     newCreateContainerServiceRegistryLoginResponse,
 
     -- ** CreateDisk
-    CreateDisk (CreateDisk'),
+    CreateDisk,
     newCreateDisk,
-    CreateDiskResponse (CreateDiskResponse'),
+    CreateDiskResponse,
     newCreateDiskResponse,
 
     -- ** CreateDiskFromSnapshot
-    CreateDiskFromSnapshot (CreateDiskFromSnapshot'),
+    CreateDiskFromSnapshot,
     newCreateDiskFromSnapshot,
-    CreateDiskFromSnapshotResponse (CreateDiskFromSnapshotResponse'),
+    CreateDiskFromSnapshotResponse,
     newCreateDiskFromSnapshotResponse,
 
     -- ** CreateDiskSnapshot
-    CreateDiskSnapshot (CreateDiskSnapshot'),
+    CreateDiskSnapshot,
     newCreateDiskSnapshot,
-    CreateDiskSnapshotResponse (CreateDiskSnapshotResponse'),
+    CreateDiskSnapshotResponse,
     newCreateDiskSnapshotResponse,
 
     -- ** CreateDistribution
-    CreateDistribution (CreateDistribution'),
+    CreateDistribution,
     newCreateDistribution,
-    CreateDistributionResponse (CreateDistributionResponse'),
+    CreateDistributionResponse,
     newCreateDistributionResponse,
 
     -- ** CreateDomain
-    CreateDomain (CreateDomain'),
+    CreateDomain,
     newCreateDomain,
-    CreateDomainResponse (CreateDomainResponse'),
+    CreateDomainResponse,
     newCreateDomainResponse,
 
     -- ** CreateDomainEntry
-    CreateDomainEntry (CreateDomainEntry'),
+    CreateDomainEntry,
     newCreateDomainEntry,
-    CreateDomainEntryResponse (CreateDomainEntryResponse'),
+    CreateDomainEntryResponse,
     newCreateDomainEntryResponse,
 
     -- ** CreateInstanceSnapshot
-    CreateInstanceSnapshot (CreateInstanceSnapshot'),
+    CreateInstanceSnapshot,
     newCreateInstanceSnapshot,
-    CreateInstanceSnapshotResponse (CreateInstanceSnapshotResponse'),
+    CreateInstanceSnapshotResponse,
     newCreateInstanceSnapshotResponse,
 
     -- ** CreateInstances
-    CreateInstances (CreateInstances'),
+    CreateInstances,
     newCreateInstances,
-    CreateInstancesResponse (CreateInstancesResponse'),
+    CreateInstancesResponse,
     newCreateInstancesResponse,
 
     -- ** CreateInstancesFromSnapshot
-    CreateInstancesFromSnapshot (CreateInstancesFromSnapshot'),
+    CreateInstancesFromSnapshot,
     newCreateInstancesFromSnapshot,
-    CreateInstancesFromSnapshotResponse (CreateInstancesFromSnapshotResponse'),
+    CreateInstancesFromSnapshotResponse,
     newCreateInstancesFromSnapshotResponse,
 
     -- ** CreateKeyPair
-    CreateKeyPair (CreateKeyPair'),
+    CreateKeyPair,
     newCreateKeyPair,
-    CreateKeyPairResponse (CreateKeyPairResponse'),
+    CreateKeyPairResponse,
     newCreateKeyPairResponse,
 
     -- ** CreateLoadBalancer
-    CreateLoadBalancer (CreateLoadBalancer'),
+    CreateLoadBalancer,
     newCreateLoadBalancer,
-    CreateLoadBalancerResponse (CreateLoadBalancerResponse'),
+    CreateLoadBalancerResponse,
     newCreateLoadBalancerResponse,
 
     -- ** CreateLoadBalancerTlsCertificate
-    CreateLoadBalancerTlsCertificate (CreateLoadBalancerTlsCertificate'),
+    CreateLoadBalancerTlsCertificate,
     newCreateLoadBalancerTlsCertificate,
-    CreateLoadBalancerTlsCertificateResponse (CreateLoadBalancerTlsCertificateResponse'),
+    CreateLoadBalancerTlsCertificateResponse,
     newCreateLoadBalancerTlsCertificateResponse,
 
     -- ** CreateRelationalDatabase
-    CreateRelationalDatabase (CreateRelationalDatabase'),
+    CreateRelationalDatabase,
     newCreateRelationalDatabase,
-    CreateRelationalDatabaseResponse (CreateRelationalDatabaseResponse'),
+    CreateRelationalDatabaseResponse,
     newCreateRelationalDatabaseResponse,
 
     -- ** CreateRelationalDatabaseFromSnapshot
-    CreateRelationalDatabaseFromSnapshot (CreateRelationalDatabaseFromSnapshot'),
+    CreateRelationalDatabaseFromSnapshot,
     newCreateRelationalDatabaseFromSnapshot,
-    CreateRelationalDatabaseFromSnapshotResponse (CreateRelationalDatabaseFromSnapshotResponse'),
+    CreateRelationalDatabaseFromSnapshotResponse,
     newCreateRelationalDatabaseFromSnapshotResponse,
 
     -- ** CreateRelationalDatabaseSnapshot
-    CreateRelationalDatabaseSnapshot (CreateRelationalDatabaseSnapshot'),
+    CreateRelationalDatabaseSnapshot,
     newCreateRelationalDatabaseSnapshot,
-    CreateRelationalDatabaseSnapshotResponse (CreateRelationalDatabaseSnapshotResponse'),
+    CreateRelationalDatabaseSnapshotResponse,
     newCreateRelationalDatabaseSnapshotResponse,
 
     -- ** DeleteAlarm
-    DeleteAlarm (DeleteAlarm'),
+    DeleteAlarm,
     newDeleteAlarm,
-    DeleteAlarmResponse (DeleteAlarmResponse'),
+    DeleteAlarmResponse,
     newDeleteAlarmResponse,
 
     -- ** DeleteAutoSnapshot
-    DeleteAutoSnapshot (DeleteAutoSnapshot'),
+    DeleteAutoSnapshot,
     newDeleteAutoSnapshot,
-    DeleteAutoSnapshotResponse (DeleteAutoSnapshotResponse'),
+    DeleteAutoSnapshotResponse,
     newDeleteAutoSnapshotResponse,
 
     -- ** DeleteBucket
-    DeleteBucket (DeleteBucket'),
+    DeleteBucket,
     newDeleteBucket,
-    DeleteBucketResponse (DeleteBucketResponse'),
+    DeleteBucketResponse,
     newDeleteBucketResponse,
 
     -- ** DeleteBucketAccessKey
-    DeleteBucketAccessKey (DeleteBucketAccessKey'),
+    DeleteBucketAccessKey,
     newDeleteBucketAccessKey,
-    DeleteBucketAccessKeyResponse (DeleteBucketAccessKeyResponse'),
+    DeleteBucketAccessKeyResponse,
     newDeleteBucketAccessKeyResponse,
 
     -- ** DeleteCertificate
-    DeleteCertificate (DeleteCertificate'),
+    DeleteCertificate,
     newDeleteCertificate,
-    DeleteCertificateResponse (DeleteCertificateResponse'),
+    DeleteCertificateResponse,
     newDeleteCertificateResponse,
 
     -- ** DeleteContactMethod
-    DeleteContactMethod (DeleteContactMethod'),
+    DeleteContactMethod,
     newDeleteContactMethod,
-    DeleteContactMethodResponse (DeleteContactMethodResponse'),
+    DeleteContactMethodResponse,
     newDeleteContactMethodResponse,
 
     -- ** DeleteContainerImage
-    DeleteContainerImage (DeleteContainerImage'),
+    DeleteContainerImage,
     newDeleteContainerImage,
-    DeleteContainerImageResponse (DeleteContainerImageResponse'),
+    DeleteContainerImageResponse,
     newDeleteContainerImageResponse,
 
     -- ** DeleteContainerService
-    DeleteContainerService (DeleteContainerService'),
+    DeleteContainerService,
     newDeleteContainerService,
-    DeleteContainerServiceResponse (DeleteContainerServiceResponse'),
+    DeleteContainerServiceResponse,
     newDeleteContainerServiceResponse,
 
     -- ** DeleteDisk
-    DeleteDisk (DeleteDisk'),
+    DeleteDisk,
     newDeleteDisk,
-    DeleteDiskResponse (DeleteDiskResponse'),
+    DeleteDiskResponse,
     newDeleteDiskResponse,
 
     -- ** DeleteDiskSnapshot
-    DeleteDiskSnapshot (DeleteDiskSnapshot'),
+    DeleteDiskSnapshot,
     newDeleteDiskSnapshot,
-    DeleteDiskSnapshotResponse (DeleteDiskSnapshotResponse'),
+    DeleteDiskSnapshotResponse,
     newDeleteDiskSnapshotResponse,
 
     -- ** DeleteDistribution
-    DeleteDistribution (DeleteDistribution'),
+    DeleteDistribution,
     newDeleteDistribution,
-    DeleteDistributionResponse (DeleteDistributionResponse'),
+    DeleteDistributionResponse,
     newDeleteDistributionResponse,
 
     -- ** DeleteDomain
-    DeleteDomain (DeleteDomain'),
+    DeleteDomain,
     newDeleteDomain,
-    DeleteDomainResponse (DeleteDomainResponse'),
+    DeleteDomainResponse,
     newDeleteDomainResponse,
 
     -- ** DeleteDomainEntry
-    DeleteDomainEntry (DeleteDomainEntry'),
+    DeleteDomainEntry,
     newDeleteDomainEntry,
-    DeleteDomainEntryResponse (DeleteDomainEntryResponse'),
+    DeleteDomainEntryResponse,
     newDeleteDomainEntryResponse,
 
     -- ** DeleteInstance
-    DeleteInstance (DeleteInstance'),
+    DeleteInstance,
     newDeleteInstance,
-    DeleteInstanceResponse (DeleteInstanceResponse'),
+    DeleteInstanceResponse,
     newDeleteInstanceResponse,
 
     -- ** DeleteInstanceSnapshot
-    DeleteInstanceSnapshot (DeleteInstanceSnapshot'),
+    DeleteInstanceSnapshot,
     newDeleteInstanceSnapshot,
-    DeleteInstanceSnapshotResponse (DeleteInstanceSnapshotResponse'),
+    DeleteInstanceSnapshotResponse,
     newDeleteInstanceSnapshotResponse,
 
     -- ** DeleteKeyPair
-    DeleteKeyPair (DeleteKeyPair'),
+    DeleteKeyPair,
     newDeleteKeyPair,
-    DeleteKeyPairResponse (DeleteKeyPairResponse'),
+    DeleteKeyPairResponse,
     newDeleteKeyPairResponse,
 
     -- ** DeleteKnownHostKeys
-    DeleteKnownHostKeys (DeleteKnownHostKeys'),
+    DeleteKnownHostKeys,
     newDeleteKnownHostKeys,
-    DeleteKnownHostKeysResponse (DeleteKnownHostKeysResponse'),
+    DeleteKnownHostKeysResponse,
     newDeleteKnownHostKeysResponse,
 
     -- ** DeleteLoadBalancer
-    DeleteLoadBalancer (DeleteLoadBalancer'),
+    DeleteLoadBalancer,
     newDeleteLoadBalancer,
-    DeleteLoadBalancerResponse (DeleteLoadBalancerResponse'),
+    DeleteLoadBalancerResponse,
     newDeleteLoadBalancerResponse,
 
     -- ** DeleteLoadBalancerTlsCertificate
-    DeleteLoadBalancerTlsCertificate (DeleteLoadBalancerTlsCertificate'),
+    DeleteLoadBalancerTlsCertificate,
     newDeleteLoadBalancerTlsCertificate,
-    DeleteLoadBalancerTlsCertificateResponse (DeleteLoadBalancerTlsCertificateResponse'),
+    DeleteLoadBalancerTlsCertificateResponse,
     newDeleteLoadBalancerTlsCertificateResponse,
 
     -- ** DeleteRelationalDatabase
-    DeleteRelationalDatabase (DeleteRelationalDatabase'),
+    DeleteRelationalDatabase,
     newDeleteRelationalDatabase,
-    DeleteRelationalDatabaseResponse (DeleteRelationalDatabaseResponse'),
+    DeleteRelationalDatabaseResponse,
     newDeleteRelationalDatabaseResponse,
 
     -- ** DeleteRelationalDatabaseSnapshot
-    DeleteRelationalDatabaseSnapshot (DeleteRelationalDatabaseSnapshot'),
+    DeleteRelationalDatabaseSnapshot,
     newDeleteRelationalDatabaseSnapshot,
-    DeleteRelationalDatabaseSnapshotResponse (DeleteRelationalDatabaseSnapshotResponse'),
+    DeleteRelationalDatabaseSnapshotResponse,
     newDeleteRelationalDatabaseSnapshotResponse,
 
     -- ** DetachCertificateFromDistribution
-    DetachCertificateFromDistribution (DetachCertificateFromDistribution'),
+    DetachCertificateFromDistribution,
     newDetachCertificateFromDistribution,
-    DetachCertificateFromDistributionResponse (DetachCertificateFromDistributionResponse'),
+    DetachCertificateFromDistributionResponse,
     newDetachCertificateFromDistributionResponse,
 
     -- ** DetachDisk
-    DetachDisk (DetachDisk'),
+    DetachDisk,
     newDetachDisk,
-    DetachDiskResponse (DetachDiskResponse'),
+    DetachDiskResponse,
     newDetachDiskResponse,
 
     -- ** DetachInstancesFromLoadBalancer
-    DetachInstancesFromLoadBalancer (DetachInstancesFromLoadBalancer'),
+    DetachInstancesFromLoadBalancer,
     newDetachInstancesFromLoadBalancer,
-    DetachInstancesFromLoadBalancerResponse (DetachInstancesFromLoadBalancerResponse'),
+    DetachInstancesFromLoadBalancerResponse,
     newDetachInstancesFromLoadBalancerResponse,
 
     -- ** DetachStaticIp
-    DetachStaticIp (DetachStaticIp'),
+    DetachStaticIp,
     newDetachStaticIp,
-    DetachStaticIpResponse (DetachStaticIpResponse'),
+    DetachStaticIpResponse,
     newDetachStaticIpResponse,
 
     -- ** DisableAddOn
-    DisableAddOn (DisableAddOn'),
+    DisableAddOn,
     newDisableAddOn,
-    DisableAddOnResponse (DisableAddOnResponse'),
+    DisableAddOnResponse,
     newDisableAddOnResponse,
 
     -- ** DownloadDefaultKeyPair
-    DownloadDefaultKeyPair (DownloadDefaultKeyPair'),
+    DownloadDefaultKeyPair,
     newDownloadDefaultKeyPair,
-    DownloadDefaultKeyPairResponse (DownloadDefaultKeyPairResponse'),
+    DownloadDefaultKeyPairResponse,
     newDownloadDefaultKeyPairResponse,
 
     -- ** EnableAddOn
-    EnableAddOn (EnableAddOn'),
+    EnableAddOn,
     newEnableAddOn,
-    EnableAddOnResponse (EnableAddOnResponse'),
+    EnableAddOnResponse,
     newEnableAddOnResponse,
 
     -- ** ExportSnapshot
-    ExportSnapshot (ExportSnapshot'),
+    ExportSnapshot,
     newExportSnapshot,
-    ExportSnapshotResponse (ExportSnapshotResponse'),
+    ExportSnapshotResponse,
     newExportSnapshotResponse,
 
     -- ** GetActiveNames (Paginated)
-    GetActiveNames (GetActiveNames'),
+    GetActiveNames,
     newGetActiveNames,
-    GetActiveNamesResponse (GetActiveNamesResponse'),
+    GetActiveNamesResponse,
     newGetActiveNamesResponse,
 
     -- ** GetAlarms
-    GetAlarms (GetAlarms'),
+    GetAlarms,
     newGetAlarms,
-    GetAlarmsResponse (GetAlarmsResponse'),
+    GetAlarmsResponse,
     newGetAlarmsResponse,
 
     -- ** GetAutoSnapshots
-    GetAutoSnapshots (GetAutoSnapshots'),
+    GetAutoSnapshots,
     newGetAutoSnapshots,
-    GetAutoSnapshotsResponse (GetAutoSnapshotsResponse'),
+    GetAutoSnapshotsResponse,
     newGetAutoSnapshotsResponse,
 
     -- ** GetBlueprints (Paginated)
-    GetBlueprints (GetBlueprints'),
+    GetBlueprints,
     newGetBlueprints,
-    GetBlueprintsResponse (GetBlueprintsResponse'),
+    GetBlueprintsResponse,
     newGetBlueprintsResponse,
 
     -- ** GetBucketAccessKeys
-    GetBucketAccessKeys (GetBucketAccessKeys'),
+    GetBucketAccessKeys,
     newGetBucketAccessKeys,
-    GetBucketAccessKeysResponse (GetBucketAccessKeysResponse'),
+    GetBucketAccessKeysResponse,
     newGetBucketAccessKeysResponse,
 
     -- ** GetBucketBundles
-    GetBucketBundles (GetBucketBundles'),
+    GetBucketBundles,
     newGetBucketBundles,
-    GetBucketBundlesResponse (GetBucketBundlesResponse'),
+    GetBucketBundlesResponse,
     newGetBucketBundlesResponse,
 
     -- ** GetBucketMetricData
-    GetBucketMetricData (GetBucketMetricData'),
+    GetBucketMetricData,
     newGetBucketMetricData,
-    GetBucketMetricDataResponse (GetBucketMetricDataResponse'),
+    GetBucketMetricDataResponse,
     newGetBucketMetricDataResponse,
 
     -- ** GetBuckets
-    GetBuckets (GetBuckets'),
+    GetBuckets,
     newGetBuckets,
-    GetBucketsResponse (GetBucketsResponse'),
+    GetBucketsResponse,
     newGetBucketsResponse,
 
     -- ** GetBundles (Paginated)
-    GetBundles (GetBundles'),
+    GetBundles,
     newGetBundles,
-    GetBundlesResponse (GetBundlesResponse'),
+    GetBundlesResponse,
     newGetBundlesResponse,
 
     -- ** GetCertificates
-    GetCertificates (GetCertificates'),
+    GetCertificates,
     newGetCertificates,
-    GetCertificatesResponse (GetCertificatesResponse'),
+    GetCertificatesResponse,
     newGetCertificatesResponse,
 
     -- ** GetCloudFormationStackRecords (Paginated)
-    GetCloudFormationStackRecords (GetCloudFormationStackRecords'),
+    GetCloudFormationStackRecords,
     newGetCloudFormationStackRecords,
-    GetCloudFormationStackRecordsResponse (GetCloudFormationStackRecordsResponse'),
+    GetCloudFormationStackRecordsResponse,
     newGetCloudFormationStackRecordsResponse,
 
     -- ** GetContactMethods
-    GetContactMethods (GetContactMethods'),
+    GetContactMethods,
     newGetContactMethods,
-    GetContactMethodsResponse (GetContactMethodsResponse'),
+    GetContactMethodsResponse,
     newGetContactMethodsResponse,
 
     -- ** GetContainerAPIMetadata
-    GetContainerAPIMetadata (GetContainerAPIMetadata'),
+    GetContainerAPIMetadata,
     newGetContainerAPIMetadata,
-    GetContainerAPIMetadataResponse (GetContainerAPIMetadataResponse'),
+    GetContainerAPIMetadataResponse,
     newGetContainerAPIMetadataResponse,
 
     -- ** GetContainerImages
-    GetContainerImages (GetContainerImages'),
+    GetContainerImages,
     newGetContainerImages,
-    GetContainerImagesResponse (GetContainerImagesResponse'),
+    GetContainerImagesResponse,
     newGetContainerImagesResponse,
 
     -- ** GetContainerLog
-    GetContainerLog (GetContainerLog'),
+    GetContainerLog,
     newGetContainerLog,
-    GetContainerLogResponse (GetContainerLogResponse'),
+    GetContainerLogResponse,
     newGetContainerLogResponse,
 
     -- ** GetContainerServiceDeployments
-    GetContainerServiceDeployments (GetContainerServiceDeployments'),
+    GetContainerServiceDeployments,
     newGetContainerServiceDeployments,
-    GetContainerServiceDeploymentsResponse (GetContainerServiceDeploymentsResponse'),
+    GetContainerServiceDeploymentsResponse,
     newGetContainerServiceDeploymentsResponse,
 
     -- ** GetContainerServiceMetricData
-    GetContainerServiceMetricData (GetContainerServiceMetricData'),
+    GetContainerServiceMetricData,
     newGetContainerServiceMetricData,
-    GetContainerServiceMetricDataResponse (GetContainerServiceMetricDataResponse'),
+    GetContainerServiceMetricDataResponse,
     newGetContainerServiceMetricDataResponse,
 
     -- ** GetContainerServicePowers
-    GetContainerServicePowers (GetContainerServicePowers'),
+    GetContainerServicePowers,
     newGetContainerServicePowers,
-    GetContainerServicePowersResponse (GetContainerServicePowersResponse'),
+    GetContainerServicePowersResponse,
     newGetContainerServicePowersResponse,
 
     -- ** GetContainerServices
-    GetContainerServices (GetContainerServices'),
+    GetContainerServices,
     newGetContainerServices,
-    GetContainerServicesResponse (GetContainerServicesResponse'),
+    GetContainerServicesResponse,
     newGetContainerServicesResponse,
 
     -- ** GetDisk
-    GetDisk (GetDisk'),
+    GetDisk,
     newGetDisk,
-    GetDiskResponse (GetDiskResponse'),
+    GetDiskResponse,
     newGetDiskResponse,
 
     -- ** GetDiskSnapshot
-    GetDiskSnapshot (GetDiskSnapshot'),
+    GetDiskSnapshot,
     newGetDiskSnapshot,
-    GetDiskSnapshotResponse (GetDiskSnapshotResponse'),
+    GetDiskSnapshotResponse,
     newGetDiskSnapshotResponse,
 
     -- ** GetDiskSnapshots (Paginated)
-    GetDiskSnapshots (GetDiskSnapshots'),
+    GetDiskSnapshots,
     newGetDiskSnapshots,
-    GetDiskSnapshotsResponse (GetDiskSnapshotsResponse'),
+    GetDiskSnapshotsResponse,
     newGetDiskSnapshotsResponse,
 
     -- ** GetDisks (Paginated)
-    GetDisks (GetDisks'),
+    GetDisks,
     newGetDisks,
-    GetDisksResponse (GetDisksResponse'),
+    GetDisksResponse,
     newGetDisksResponse,
 
     -- ** GetDistributionBundles
-    GetDistributionBundles (GetDistributionBundles'),
+    GetDistributionBundles,
     newGetDistributionBundles,
-    GetDistributionBundlesResponse (GetDistributionBundlesResponse'),
+    GetDistributionBundlesResponse,
     newGetDistributionBundlesResponse,
 
     -- ** GetDistributionLatestCacheReset
-    GetDistributionLatestCacheReset (GetDistributionLatestCacheReset'),
+    GetDistributionLatestCacheReset,
     newGetDistributionLatestCacheReset,
-    GetDistributionLatestCacheResetResponse (GetDistributionLatestCacheResetResponse'),
+    GetDistributionLatestCacheResetResponse,
     newGetDistributionLatestCacheResetResponse,
 
     -- ** GetDistributionMetricData
-    GetDistributionMetricData (GetDistributionMetricData'),
+    GetDistributionMetricData,
     newGetDistributionMetricData,
-    GetDistributionMetricDataResponse (GetDistributionMetricDataResponse'),
+    GetDistributionMetricDataResponse,
     newGetDistributionMetricDataResponse,
 
     -- ** GetDistributions
-    GetDistributions (GetDistributions'),
+    GetDistributions,
     newGetDistributions,
-    GetDistributionsResponse (GetDistributionsResponse'),
+    GetDistributionsResponse,
     newGetDistributionsResponse,
 
     -- ** GetDomain
-    GetDomain (GetDomain'),
+    GetDomain,
     newGetDomain,
-    GetDomainResponse (GetDomainResponse'),
+    GetDomainResponse,
     newGetDomainResponse,
 
     -- ** GetDomains (Paginated)
-    GetDomains (GetDomains'),
+    GetDomains,
     newGetDomains,
-    GetDomainsResponse (GetDomainsResponse'),
+    GetDomainsResponse,
     newGetDomainsResponse,
 
     -- ** GetExportSnapshotRecords (Paginated)
-    GetExportSnapshotRecords (GetExportSnapshotRecords'),
+    GetExportSnapshotRecords,
     newGetExportSnapshotRecords,
-    GetExportSnapshotRecordsResponse (GetExportSnapshotRecordsResponse'),
+    GetExportSnapshotRecordsResponse,
     newGetExportSnapshotRecordsResponse,
 
     -- ** GetInstance
-    GetInstance (GetInstance'),
+    GetInstance,
     newGetInstance,
-    GetInstanceResponse (GetInstanceResponse'),
+    GetInstanceResponse,
     newGetInstanceResponse,
 
     -- ** GetInstanceAccessDetails
-    GetInstanceAccessDetails (GetInstanceAccessDetails'),
+    GetInstanceAccessDetails,
     newGetInstanceAccessDetails,
-    GetInstanceAccessDetailsResponse (GetInstanceAccessDetailsResponse'),
+    GetInstanceAccessDetailsResponse,
     newGetInstanceAccessDetailsResponse,
 
     -- ** GetInstanceMetricData
-    GetInstanceMetricData (GetInstanceMetricData'),
+    GetInstanceMetricData,
     newGetInstanceMetricData,
-    GetInstanceMetricDataResponse (GetInstanceMetricDataResponse'),
+    GetInstanceMetricDataResponse,
     newGetInstanceMetricDataResponse,
 
     -- ** GetInstancePortStates
-    GetInstancePortStates (GetInstancePortStates'),
+    GetInstancePortStates,
     newGetInstancePortStates,
-    GetInstancePortStatesResponse (GetInstancePortStatesResponse'),
+    GetInstancePortStatesResponse,
     newGetInstancePortStatesResponse,
 
     -- ** GetInstanceSnapshot
-    GetInstanceSnapshot (GetInstanceSnapshot'),
+    GetInstanceSnapshot,
     newGetInstanceSnapshot,
-    GetInstanceSnapshotResponse (GetInstanceSnapshotResponse'),
+    GetInstanceSnapshotResponse,
     newGetInstanceSnapshotResponse,
 
     -- ** GetInstanceSnapshots (Paginated)
-    GetInstanceSnapshots (GetInstanceSnapshots'),
+    GetInstanceSnapshots,
     newGetInstanceSnapshots,
-    GetInstanceSnapshotsResponse (GetInstanceSnapshotsResponse'),
+    GetInstanceSnapshotsResponse,
     newGetInstanceSnapshotsResponse,
 
     -- ** GetInstanceState
-    GetInstanceState (GetInstanceState'),
+    GetInstanceState,
     newGetInstanceState,
-    GetInstanceStateResponse (GetInstanceStateResponse'),
+    GetInstanceStateResponse,
     newGetInstanceStateResponse,
 
     -- ** GetInstances (Paginated)
-    GetInstances (GetInstances'),
+    GetInstances,
     newGetInstances,
-    GetInstancesResponse (GetInstancesResponse'),
+    GetInstancesResponse,
     newGetInstancesResponse,
 
     -- ** GetKeyPair
-    GetKeyPair (GetKeyPair'),
+    GetKeyPair,
     newGetKeyPair,
-    GetKeyPairResponse (GetKeyPairResponse'),
+    GetKeyPairResponse,
     newGetKeyPairResponse,
 
     -- ** GetKeyPairs (Paginated)
-    GetKeyPairs (GetKeyPairs'),
+    GetKeyPairs,
     newGetKeyPairs,
-    GetKeyPairsResponse (GetKeyPairsResponse'),
+    GetKeyPairsResponse,
     newGetKeyPairsResponse,
 
     -- ** GetLoadBalancer
-    GetLoadBalancer (GetLoadBalancer'),
+    GetLoadBalancer,
     newGetLoadBalancer,
-    GetLoadBalancerResponse (GetLoadBalancerResponse'),
+    GetLoadBalancerResponse,
     newGetLoadBalancerResponse,
 
     -- ** GetLoadBalancerMetricData
-    GetLoadBalancerMetricData (GetLoadBalancerMetricData'),
+    GetLoadBalancerMetricData,
     newGetLoadBalancerMetricData,
-    GetLoadBalancerMetricDataResponse (GetLoadBalancerMetricDataResponse'),
+    GetLoadBalancerMetricDataResponse,
     newGetLoadBalancerMetricDataResponse,
 
     -- ** GetLoadBalancerTlsCertificates
-    GetLoadBalancerTlsCertificates (GetLoadBalancerTlsCertificates'),
+    GetLoadBalancerTlsCertificates,
     newGetLoadBalancerTlsCertificates,
-    GetLoadBalancerTlsCertificatesResponse (GetLoadBalancerTlsCertificatesResponse'),
+    GetLoadBalancerTlsCertificatesResponse,
     newGetLoadBalancerTlsCertificatesResponse,
 
     -- ** GetLoadBalancerTlsPolicies
-    GetLoadBalancerTlsPolicies (GetLoadBalancerTlsPolicies'),
+    GetLoadBalancerTlsPolicies,
     newGetLoadBalancerTlsPolicies,
-    GetLoadBalancerTlsPoliciesResponse (GetLoadBalancerTlsPoliciesResponse'),
+    GetLoadBalancerTlsPoliciesResponse,
     newGetLoadBalancerTlsPoliciesResponse,
 
     -- ** GetLoadBalancers (Paginated)
-    GetLoadBalancers (GetLoadBalancers'),
+    GetLoadBalancers,
     newGetLoadBalancers,
-    GetLoadBalancersResponse (GetLoadBalancersResponse'),
+    GetLoadBalancersResponse,
     newGetLoadBalancersResponse,
 
     -- ** GetOperation
-    GetOperation (GetOperation'),
+    GetOperation,
     newGetOperation,
-    GetOperationResponse (GetOperationResponse'),
+    GetOperationResponse,
     newGetOperationResponse,
 
     -- ** GetOperations (Paginated)
-    GetOperations (GetOperations'),
+    GetOperations,
     newGetOperations,
-    GetOperationsResponse (GetOperationsResponse'),
+    GetOperationsResponse,
     newGetOperationsResponse,
 
     -- ** GetOperationsForResource
-    GetOperationsForResource (GetOperationsForResource'),
+    GetOperationsForResource,
     newGetOperationsForResource,
-    GetOperationsForResourceResponse (GetOperationsForResourceResponse'),
+    GetOperationsForResourceResponse,
     newGetOperationsForResourceResponse,
 
     -- ** GetRegions
-    GetRegions (GetRegions'),
+    GetRegions,
     newGetRegions,
-    GetRegionsResponse (GetRegionsResponse'),
+    GetRegionsResponse,
     newGetRegionsResponse,
 
     -- ** GetRelationalDatabase
-    GetRelationalDatabase (GetRelationalDatabase'),
+    GetRelationalDatabase,
     newGetRelationalDatabase,
-    GetRelationalDatabaseResponse (GetRelationalDatabaseResponse'),
+    GetRelationalDatabaseResponse,
     newGetRelationalDatabaseResponse,
 
     -- ** GetRelationalDatabaseBlueprints (Paginated)
-    GetRelationalDatabaseBlueprints (GetRelationalDatabaseBlueprints'),
+    GetRelationalDatabaseBlueprints,
     newGetRelationalDatabaseBlueprints,
-    GetRelationalDatabaseBlueprintsResponse (GetRelationalDatabaseBlueprintsResponse'),
+    GetRelationalDatabaseBlueprintsResponse,
     newGetRelationalDatabaseBlueprintsResponse,
 
     -- ** GetRelationalDatabaseBundles (Paginated)
-    GetRelationalDatabaseBundles (GetRelationalDatabaseBundles'),
+    GetRelationalDatabaseBundles,
     newGetRelationalDatabaseBundles,
-    GetRelationalDatabaseBundlesResponse (GetRelationalDatabaseBundlesResponse'),
+    GetRelationalDatabaseBundlesResponse,
     newGetRelationalDatabaseBundlesResponse,
 
     -- ** GetRelationalDatabaseEvents (Paginated)
-    GetRelationalDatabaseEvents (GetRelationalDatabaseEvents'),
+    GetRelationalDatabaseEvents,
     newGetRelationalDatabaseEvents,
-    GetRelationalDatabaseEventsResponse (GetRelationalDatabaseEventsResponse'),
+    GetRelationalDatabaseEventsResponse,
     newGetRelationalDatabaseEventsResponse,
 
     -- ** GetRelationalDatabaseLogEvents
-    GetRelationalDatabaseLogEvents (GetRelationalDatabaseLogEvents'),
+    GetRelationalDatabaseLogEvents,
     newGetRelationalDatabaseLogEvents,
-    GetRelationalDatabaseLogEventsResponse (GetRelationalDatabaseLogEventsResponse'),
+    GetRelationalDatabaseLogEventsResponse,
     newGetRelationalDatabaseLogEventsResponse,
 
     -- ** GetRelationalDatabaseLogStreams
-    GetRelationalDatabaseLogStreams (GetRelationalDatabaseLogStreams'),
+    GetRelationalDatabaseLogStreams,
     newGetRelationalDatabaseLogStreams,
-    GetRelationalDatabaseLogStreamsResponse (GetRelationalDatabaseLogStreamsResponse'),
+    GetRelationalDatabaseLogStreamsResponse,
     newGetRelationalDatabaseLogStreamsResponse,
 
     -- ** GetRelationalDatabaseMasterUserPassword
-    GetRelationalDatabaseMasterUserPassword (GetRelationalDatabaseMasterUserPassword'),
+    GetRelationalDatabaseMasterUserPassword,
     newGetRelationalDatabaseMasterUserPassword,
-    GetRelationalDatabaseMasterUserPasswordResponse (GetRelationalDatabaseMasterUserPasswordResponse'),
+    GetRelationalDatabaseMasterUserPasswordResponse,
     newGetRelationalDatabaseMasterUserPasswordResponse,
 
     -- ** GetRelationalDatabaseMetricData
-    GetRelationalDatabaseMetricData (GetRelationalDatabaseMetricData'),
+    GetRelationalDatabaseMetricData,
     newGetRelationalDatabaseMetricData,
-    GetRelationalDatabaseMetricDataResponse (GetRelationalDatabaseMetricDataResponse'),
+    GetRelationalDatabaseMetricDataResponse,
     newGetRelationalDatabaseMetricDataResponse,
 
     -- ** GetRelationalDatabaseParameters (Paginated)
-    GetRelationalDatabaseParameters (GetRelationalDatabaseParameters'),
+    GetRelationalDatabaseParameters,
     newGetRelationalDatabaseParameters,
-    GetRelationalDatabaseParametersResponse (GetRelationalDatabaseParametersResponse'),
+    GetRelationalDatabaseParametersResponse,
     newGetRelationalDatabaseParametersResponse,
 
     -- ** GetRelationalDatabaseSnapshot
-    GetRelationalDatabaseSnapshot (GetRelationalDatabaseSnapshot'),
+    GetRelationalDatabaseSnapshot,
     newGetRelationalDatabaseSnapshot,
-    GetRelationalDatabaseSnapshotResponse (GetRelationalDatabaseSnapshotResponse'),
+    GetRelationalDatabaseSnapshotResponse,
     newGetRelationalDatabaseSnapshotResponse,
 
     -- ** GetRelationalDatabaseSnapshots (Paginated)
-    GetRelationalDatabaseSnapshots (GetRelationalDatabaseSnapshots'),
+    GetRelationalDatabaseSnapshots,
     newGetRelationalDatabaseSnapshots,
-    GetRelationalDatabaseSnapshotsResponse (GetRelationalDatabaseSnapshotsResponse'),
+    GetRelationalDatabaseSnapshotsResponse,
     newGetRelationalDatabaseSnapshotsResponse,
 
     -- ** GetRelationalDatabases (Paginated)
-    GetRelationalDatabases (GetRelationalDatabases'),
+    GetRelationalDatabases,
     newGetRelationalDatabases,
-    GetRelationalDatabasesResponse (GetRelationalDatabasesResponse'),
+    GetRelationalDatabasesResponse,
     newGetRelationalDatabasesResponse,
 
     -- ** GetStaticIp
-    GetStaticIp (GetStaticIp'),
+    GetStaticIp,
     newGetStaticIp,
-    GetStaticIpResponse (GetStaticIpResponse'),
+    GetStaticIpResponse,
     newGetStaticIpResponse,
 
     -- ** GetStaticIps (Paginated)
-    GetStaticIps (GetStaticIps'),
+    GetStaticIps,
     newGetStaticIps,
-    GetStaticIpsResponse (GetStaticIpsResponse'),
+    GetStaticIpsResponse,
     newGetStaticIpsResponse,
 
     -- ** ImportKeyPair
-    ImportKeyPair (ImportKeyPair'),
+    ImportKeyPair,
     newImportKeyPair,
-    ImportKeyPairResponse (ImportKeyPairResponse'),
+    ImportKeyPairResponse,
     newImportKeyPairResponse,
 
     -- ** IsVpcPeered
-    IsVpcPeered (IsVpcPeered'),
+    IsVpcPeered,
     newIsVpcPeered,
-    IsVpcPeeredResponse (IsVpcPeeredResponse'),
+    IsVpcPeeredResponse,
     newIsVpcPeeredResponse,
 
     -- ** OpenInstancePublicPorts
-    OpenInstancePublicPorts (OpenInstancePublicPorts'),
+    OpenInstancePublicPorts,
     newOpenInstancePublicPorts,
-    OpenInstancePublicPortsResponse (OpenInstancePublicPortsResponse'),
+    OpenInstancePublicPortsResponse,
     newOpenInstancePublicPortsResponse,
 
     -- ** PeerVpc
-    PeerVpc (PeerVpc'),
+    PeerVpc,
     newPeerVpc,
-    PeerVpcResponse (PeerVpcResponse'),
+    PeerVpcResponse,
     newPeerVpcResponse,
 
     -- ** PutAlarm
-    PutAlarm (PutAlarm'),
+    PutAlarm,
     newPutAlarm,
-    PutAlarmResponse (PutAlarmResponse'),
+    PutAlarmResponse,
     newPutAlarmResponse,
 
     -- ** PutInstancePublicPorts
-    PutInstancePublicPorts (PutInstancePublicPorts'),
+    PutInstancePublicPorts,
     newPutInstancePublicPorts,
-    PutInstancePublicPortsResponse (PutInstancePublicPortsResponse'),
+    PutInstancePublicPortsResponse,
     newPutInstancePublicPortsResponse,
 
     -- ** RebootInstance
-    RebootInstance (RebootInstance'),
+    RebootInstance,
     newRebootInstance,
-    RebootInstanceResponse (RebootInstanceResponse'),
+    RebootInstanceResponse,
     newRebootInstanceResponse,
 
     -- ** RebootRelationalDatabase
-    RebootRelationalDatabase (RebootRelationalDatabase'),
+    RebootRelationalDatabase,
     newRebootRelationalDatabase,
-    RebootRelationalDatabaseResponse (RebootRelationalDatabaseResponse'),
+    RebootRelationalDatabaseResponse,
     newRebootRelationalDatabaseResponse,
 
     -- ** RegisterContainerImage
-    RegisterContainerImage (RegisterContainerImage'),
+    RegisterContainerImage,
     newRegisterContainerImage,
-    RegisterContainerImageResponse (RegisterContainerImageResponse'),
+    RegisterContainerImageResponse,
     newRegisterContainerImageResponse,
 
     -- ** ReleaseStaticIp
-    ReleaseStaticIp (ReleaseStaticIp'),
+    ReleaseStaticIp,
     newReleaseStaticIp,
-    ReleaseStaticIpResponse (ReleaseStaticIpResponse'),
+    ReleaseStaticIpResponse,
     newReleaseStaticIpResponse,
 
     -- ** ResetDistributionCache
-    ResetDistributionCache (ResetDistributionCache'),
+    ResetDistributionCache,
     newResetDistributionCache,
-    ResetDistributionCacheResponse (ResetDistributionCacheResponse'),
+    ResetDistributionCacheResponse,
     newResetDistributionCacheResponse,
 
     -- ** SendContactMethodVerification
-    SendContactMethodVerification (SendContactMethodVerification'),
+    SendContactMethodVerification,
     newSendContactMethodVerification,
-    SendContactMethodVerificationResponse (SendContactMethodVerificationResponse'),
+    SendContactMethodVerificationResponse,
     newSendContactMethodVerificationResponse,
 
     -- ** SetIpAddressType
-    SetIpAddressType (SetIpAddressType'),
+    SetIpAddressType,
     newSetIpAddressType,
-    SetIpAddressTypeResponse (SetIpAddressTypeResponse'),
+    SetIpAddressTypeResponse,
     newSetIpAddressTypeResponse,
 
     -- ** SetResourceAccessForBucket
-    SetResourceAccessForBucket (SetResourceAccessForBucket'),
+    SetResourceAccessForBucket,
     newSetResourceAccessForBucket,
-    SetResourceAccessForBucketResponse (SetResourceAccessForBucketResponse'),
+    SetResourceAccessForBucketResponse,
     newSetResourceAccessForBucketResponse,
 
     -- ** StartInstance
-    StartInstance (StartInstance'),
+    StartInstance,
     newStartInstance,
-    StartInstanceResponse (StartInstanceResponse'),
+    StartInstanceResponse,
     newStartInstanceResponse,
 
     -- ** StartRelationalDatabase
-    StartRelationalDatabase (StartRelationalDatabase'),
+    StartRelationalDatabase,
     newStartRelationalDatabase,
-    StartRelationalDatabaseResponse (StartRelationalDatabaseResponse'),
+    StartRelationalDatabaseResponse,
     newStartRelationalDatabaseResponse,
 
     -- ** StopInstance
-    StopInstance (StopInstance'),
+    StopInstance,
     newStopInstance,
-    StopInstanceResponse (StopInstanceResponse'),
+    StopInstanceResponse,
     newStopInstanceResponse,
 
     -- ** StopRelationalDatabase
-    StopRelationalDatabase (StopRelationalDatabase'),
+    StopRelationalDatabase,
     newStopRelationalDatabase,
-    StopRelationalDatabaseResponse (StopRelationalDatabaseResponse'),
+    StopRelationalDatabaseResponse,
     newStopRelationalDatabaseResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** TestAlarm
-    TestAlarm (TestAlarm'),
+    TestAlarm,
     newTestAlarm,
-    TestAlarmResponse (TestAlarmResponse'),
+    TestAlarmResponse,
     newTestAlarmResponse,
 
     -- ** UnpeerVpc
-    UnpeerVpc (UnpeerVpc'),
+    UnpeerVpc,
     newUnpeerVpc,
-    UnpeerVpcResponse (UnpeerVpcResponse'),
+    UnpeerVpcResponse,
     newUnpeerVpcResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateBucket
-    UpdateBucket (UpdateBucket'),
+    UpdateBucket,
     newUpdateBucket,
-    UpdateBucketResponse (UpdateBucketResponse'),
+    UpdateBucketResponse,
     newUpdateBucketResponse,
 
     -- ** UpdateBucketBundle
-    UpdateBucketBundle (UpdateBucketBundle'),
+    UpdateBucketBundle,
     newUpdateBucketBundle,
-    UpdateBucketBundleResponse (UpdateBucketBundleResponse'),
+    UpdateBucketBundleResponse,
     newUpdateBucketBundleResponse,
 
     -- ** UpdateContainerService
-    UpdateContainerService (UpdateContainerService'),
+    UpdateContainerService,
     newUpdateContainerService,
-    UpdateContainerServiceResponse (UpdateContainerServiceResponse'),
+    UpdateContainerServiceResponse,
     newUpdateContainerServiceResponse,
 
     -- ** UpdateDistribution
-    UpdateDistribution (UpdateDistribution'),
+    UpdateDistribution,
     newUpdateDistribution,
-    UpdateDistributionResponse (UpdateDistributionResponse'),
+    UpdateDistributionResponse,
     newUpdateDistributionResponse,
 
     -- ** UpdateDistributionBundle
-    UpdateDistributionBundle (UpdateDistributionBundle'),
+    UpdateDistributionBundle,
     newUpdateDistributionBundle,
-    UpdateDistributionBundleResponse (UpdateDistributionBundleResponse'),
+    UpdateDistributionBundleResponse,
     newUpdateDistributionBundleResponse,
 
     -- ** UpdateDomainEntry
-    UpdateDomainEntry (UpdateDomainEntry'),
+    UpdateDomainEntry,
     newUpdateDomainEntry,
-    UpdateDomainEntryResponse (UpdateDomainEntryResponse'),
+    UpdateDomainEntryResponse,
     newUpdateDomainEntryResponse,
 
     -- ** UpdateInstanceMetadataOptions
-    UpdateInstanceMetadataOptions (UpdateInstanceMetadataOptions'),
+    UpdateInstanceMetadataOptions,
     newUpdateInstanceMetadataOptions,
-    UpdateInstanceMetadataOptionsResponse (UpdateInstanceMetadataOptionsResponse'),
+    UpdateInstanceMetadataOptionsResponse,
     newUpdateInstanceMetadataOptionsResponse,
 
     -- ** UpdateLoadBalancerAttribute
-    UpdateLoadBalancerAttribute (UpdateLoadBalancerAttribute'),
+    UpdateLoadBalancerAttribute,
     newUpdateLoadBalancerAttribute,
-    UpdateLoadBalancerAttributeResponse (UpdateLoadBalancerAttributeResponse'),
+    UpdateLoadBalancerAttributeResponse,
     newUpdateLoadBalancerAttributeResponse,
 
     -- ** UpdateRelationalDatabase
-    UpdateRelationalDatabase (UpdateRelationalDatabase'),
+    UpdateRelationalDatabase,
     newUpdateRelationalDatabase,
-    UpdateRelationalDatabaseResponse (UpdateRelationalDatabaseResponse'),
+    UpdateRelationalDatabaseResponse,
     newUpdateRelationalDatabaseResponse,
 
     -- ** UpdateRelationalDatabaseParameters
-    UpdateRelationalDatabaseParameters (UpdateRelationalDatabaseParameters'),
+    UpdateRelationalDatabaseParameters,
     newUpdateRelationalDatabaseParameters,
-    UpdateRelationalDatabaseParametersResponse (UpdateRelationalDatabaseParametersResponse'),
+    UpdateRelationalDatabaseParametersResponse,
     newUpdateRelationalDatabaseParametersResponse,
 
     -- * Types
@@ -1217,439 +1217,439 @@ module Amazonka.Lightsail
     TreatMissingData (..),
 
     -- ** AccessKey
-    AccessKey (AccessKey'),
+    AccessKey,
     newAccessKey,
 
     -- ** AccessKeyLastUsed
-    AccessKeyLastUsed (AccessKeyLastUsed'),
+    AccessKeyLastUsed,
     newAccessKeyLastUsed,
 
     -- ** AccessRules
-    AccessRules (AccessRules'),
+    AccessRules,
     newAccessRules,
 
     -- ** AccountLevelBpaSync
-    AccountLevelBpaSync (AccountLevelBpaSync'),
+    AccountLevelBpaSync,
     newAccountLevelBpaSync,
 
     -- ** AddOn
-    AddOn (AddOn'),
+    AddOn,
     newAddOn,
 
     -- ** AddOnRequest
-    AddOnRequest (AddOnRequest'),
+    AddOnRequest,
     newAddOnRequest,
 
     -- ** Alarm
-    Alarm (Alarm'),
+    Alarm,
     newAlarm,
 
     -- ** AttachedDisk
-    AttachedDisk (AttachedDisk'),
+    AttachedDisk,
     newAttachedDisk,
 
     -- ** AutoSnapshotAddOnRequest
-    AutoSnapshotAddOnRequest (AutoSnapshotAddOnRequest'),
+    AutoSnapshotAddOnRequest,
     newAutoSnapshotAddOnRequest,
 
     -- ** AutoSnapshotDetails
-    AutoSnapshotDetails (AutoSnapshotDetails'),
+    AutoSnapshotDetails,
     newAutoSnapshotDetails,
 
     -- ** AvailabilityZone
-    AvailabilityZone (AvailabilityZone'),
+    AvailabilityZone,
     newAvailabilityZone,
 
     -- ** Blueprint
-    Blueprint (Blueprint'),
+    Blueprint,
     newBlueprint,
 
     -- ** Bucket
-    Bucket (Bucket'),
+    Bucket,
     newBucket,
 
     -- ** BucketAccessLogConfig
-    BucketAccessLogConfig (BucketAccessLogConfig'),
+    BucketAccessLogConfig,
     newBucketAccessLogConfig,
 
     -- ** BucketBundle
-    BucketBundle (BucketBundle'),
+    BucketBundle,
     newBucketBundle,
 
     -- ** BucketState
-    BucketState (BucketState'),
+    BucketState,
     newBucketState,
 
     -- ** Bundle
-    Bundle (Bundle'),
+    Bundle,
     newBundle,
 
     -- ** CacheBehavior
-    CacheBehavior (CacheBehavior'),
+    CacheBehavior,
     newCacheBehavior,
 
     -- ** CacheBehaviorPerPath
-    CacheBehaviorPerPath (CacheBehaviorPerPath'),
+    CacheBehaviorPerPath,
     newCacheBehaviorPerPath,
 
     -- ** CacheSettings
-    CacheSettings (CacheSettings'),
+    CacheSettings,
     newCacheSettings,
 
     -- ** Certificate
-    Certificate (Certificate'),
+    Certificate,
     newCertificate,
 
     -- ** CertificateSummary
-    CertificateSummary (CertificateSummary'),
+    CertificateSummary,
     newCertificateSummary,
 
     -- ** CloudFormationStackRecord
-    CloudFormationStackRecord (CloudFormationStackRecord'),
+    CloudFormationStackRecord,
     newCloudFormationStackRecord,
 
     -- ** CloudFormationStackRecordSourceInfo
-    CloudFormationStackRecordSourceInfo (CloudFormationStackRecordSourceInfo'),
+    CloudFormationStackRecordSourceInfo,
     newCloudFormationStackRecordSourceInfo,
 
     -- ** ContactMethod
-    ContactMethod (ContactMethod'),
+    ContactMethod,
     newContactMethod,
 
     -- ** Container
-    Container (Container'),
+    Container,
     newContainer,
 
     -- ** ContainerImage
-    ContainerImage (ContainerImage'),
+    ContainerImage,
     newContainerImage,
 
     -- ** ContainerService
-    ContainerService (ContainerService'),
+    ContainerService,
     newContainerService,
 
     -- ** ContainerServiceDeployment
-    ContainerServiceDeployment (ContainerServiceDeployment'),
+    ContainerServiceDeployment,
     newContainerServiceDeployment,
 
     -- ** ContainerServiceDeploymentRequest
-    ContainerServiceDeploymentRequest (ContainerServiceDeploymentRequest'),
+    ContainerServiceDeploymentRequest,
     newContainerServiceDeploymentRequest,
 
     -- ** ContainerServiceECRImagePullerRole
-    ContainerServiceECRImagePullerRole (ContainerServiceECRImagePullerRole'),
+    ContainerServiceECRImagePullerRole,
     newContainerServiceECRImagePullerRole,
 
     -- ** ContainerServiceECRImagePullerRoleRequest
-    ContainerServiceECRImagePullerRoleRequest (ContainerServiceECRImagePullerRoleRequest'),
+    ContainerServiceECRImagePullerRoleRequest,
     newContainerServiceECRImagePullerRoleRequest,
 
     -- ** ContainerServiceEndpoint
-    ContainerServiceEndpoint (ContainerServiceEndpoint'),
+    ContainerServiceEndpoint,
     newContainerServiceEndpoint,
 
     -- ** ContainerServiceHealthCheckConfig
-    ContainerServiceHealthCheckConfig (ContainerServiceHealthCheckConfig'),
+    ContainerServiceHealthCheckConfig,
     newContainerServiceHealthCheckConfig,
 
     -- ** ContainerServiceLogEvent
-    ContainerServiceLogEvent (ContainerServiceLogEvent'),
+    ContainerServiceLogEvent,
     newContainerServiceLogEvent,
 
     -- ** ContainerServicePower
-    ContainerServicePower (ContainerServicePower'),
+    ContainerServicePower,
     newContainerServicePower,
 
     -- ** ContainerServiceRegistryLogin
-    ContainerServiceRegistryLogin (ContainerServiceRegistryLogin'),
+    ContainerServiceRegistryLogin,
     newContainerServiceRegistryLogin,
 
     -- ** ContainerServiceStateDetail
-    ContainerServiceStateDetail (ContainerServiceStateDetail'),
+    ContainerServiceStateDetail,
     newContainerServiceStateDetail,
 
     -- ** CookieObject
-    CookieObject (CookieObject'),
+    CookieObject,
     newCookieObject,
 
     -- ** DestinationInfo
-    DestinationInfo (DestinationInfo'),
+    DestinationInfo,
     newDestinationInfo,
 
     -- ** Disk
-    Disk (Disk'),
+    Disk,
     newDisk,
 
     -- ** DiskInfo
-    DiskInfo (DiskInfo'),
+    DiskInfo,
     newDiskInfo,
 
     -- ** DiskMap
-    DiskMap (DiskMap'),
+    DiskMap,
     newDiskMap,
 
     -- ** DiskSnapshot
-    DiskSnapshot (DiskSnapshot'),
+    DiskSnapshot,
     newDiskSnapshot,
 
     -- ** DiskSnapshotInfo
-    DiskSnapshotInfo (DiskSnapshotInfo'),
+    DiskSnapshotInfo,
     newDiskSnapshotInfo,
 
     -- ** DistributionBundle
-    DistributionBundle (DistributionBundle'),
+    DistributionBundle,
     newDistributionBundle,
 
     -- ** DnsRecordCreationState
-    DnsRecordCreationState (DnsRecordCreationState'),
+    DnsRecordCreationState,
     newDnsRecordCreationState,
 
     -- ** Domain
-    Domain (Domain'),
+    Domain,
     newDomain,
 
     -- ** DomainEntry
-    DomainEntry (DomainEntry'),
+    DomainEntry,
     newDomainEntry,
 
     -- ** DomainValidationRecord
-    DomainValidationRecord (DomainValidationRecord'),
+    DomainValidationRecord,
     newDomainValidationRecord,
 
     -- ** EndpointRequest
-    EndpointRequest (EndpointRequest'),
+    EndpointRequest,
     newEndpointRequest,
 
     -- ** ExportSnapshotRecord
-    ExportSnapshotRecord (ExportSnapshotRecord'),
+    ExportSnapshotRecord,
     newExportSnapshotRecord,
 
     -- ** ExportSnapshotRecordSourceInfo
-    ExportSnapshotRecordSourceInfo (ExportSnapshotRecordSourceInfo'),
+    ExportSnapshotRecordSourceInfo,
     newExportSnapshotRecordSourceInfo,
 
     -- ** HeaderObject
-    HeaderObject (HeaderObject'),
+    HeaderObject,
     newHeaderObject,
 
     -- ** HostKeyAttributes
-    HostKeyAttributes (HostKeyAttributes'),
+    HostKeyAttributes,
     newHostKeyAttributes,
 
     -- ** InputOrigin
-    InputOrigin (InputOrigin'),
+    InputOrigin,
     newInputOrigin,
 
     -- ** Instance
-    Instance (Instance'),
+    Instance,
     newInstance,
 
     -- ** InstanceAccessDetails
-    InstanceAccessDetails (InstanceAccessDetails'),
+    InstanceAccessDetails,
     newInstanceAccessDetails,
 
     -- ** InstanceEntry
-    InstanceEntry (InstanceEntry'),
+    InstanceEntry,
     newInstanceEntry,
 
     -- ** InstanceHardware
-    InstanceHardware (InstanceHardware'),
+    InstanceHardware,
     newInstanceHardware,
 
     -- ** InstanceHealthSummary
-    InstanceHealthSummary (InstanceHealthSummary'),
+    InstanceHealthSummary,
     newInstanceHealthSummary,
 
     -- ** InstanceMetadataOptions
-    InstanceMetadataOptions (InstanceMetadataOptions'),
+    InstanceMetadataOptions,
     newInstanceMetadataOptions,
 
     -- ** InstanceNetworking
-    InstanceNetworking (InstanceNetworking'),
+    InstanceNetworking,
     newInstanceNetworking,
 
     -- ** InstancePortInfo
-    InstancePortInfo (InstancePortInfo'),
+    InstancePortInfo,
     newInstancePortInfo,
 
     -- ** InstancePortState
-    InstancePortState (InstancePortState'),
+    InstancePortState,
     newInstancePortState,
 
     -- ** InstanceSnapshot
-    InstanceSnapshot (InstanceSnapshot'),
+    InstanceSnapshot,
     newInstanceSnapshot,
 
     -- ** InstanceSnapshotInfo
-    InstanceSnapshotInfo (InstanceSnapshotInfo'),
+    InstanceSnapshotInfo,
     newInstanceSnapshotInfo,
 
     -- ** InstanceState
-    InstanceState (InstanceState'),
+    InstanceState,
     newInstanceState,
 
     -- ** KeyPair
-    KeyPair (KeyPair'),
+    KeyPair,
     newKeyPair,
 
     -- ** LightsailDistribution
-    LightsailDistribution (LightsailDistribution'),
+    LightsailDistribution,
     newLightsailDistribution,
 
     -- ** LoadBalancer
-    LoadBalancer (LoadBalancer'),
+    LoadBalancer,
     newLoadBalancer,
 
     -- ** LoadBalancerTlsCertificate
-    LoadBalancerTlsCertificate (LoadBalancerTlsCertificate'),
+    LoadBalancerTlsCertificate,
     newLoadBalancerTlsCertificate,
 
     -- ** LoadBalancerTlsCertificateDnsRecordCreationState
-    LoadBalancerTlsCertificateDnsRecordCreationState (LoadBalancerTlsCertificateDnsRecordCreationState'),
+    LoadBalancerTlsCertificateDnsRecordCreationState,
     newLoadBalancerTlsCertificateDnsRecordCreationState,
 
     -- ** LoadBalancerTlsCertificateDomainValidationOption
-    LoadBalancerTlsCertificateDomainValidationOption (LoadBalancerTlsCertificateDomainValidationOption'),
+    LoadBalancerTlsCertificateDomainValidationOption,
     newLoadBalancerTlsCertificateDomainValidationOption,
 
     -- ** LoadBalancerTlsCertificateDomainValidationRecord
-    LoadBalancerTlsCertificateDomainValidationRecord (LoadBalancerTlsCertificateDomainValidationRecord'),
+    LoadBalancerTlsCertificateDomainValidationRecord,
     newLoadBalancerTlsCertificateDomainValidationRecord,
 
     -- ** LoadBalancerTlsCertificateRenewalSummary
-    LoadBalancerTlsCertificateRenewalSummary (LoadBalancerTlsCertificateRenewalSummary'),
+    LoadBalancerTlsCertificateRenewalSummary,
     newLoadBalancerTlsCertificateRenewalSummary,
 
     -- ** LoadBalancerTlsCertificateSummary
-    LoadBalancerTlsCertificateSummary (LoadBalancerTlsCertificateSummary'),
+    LoadBalancerTlsCertificateSummary,
     newLoadBalancerTlsCertificateSummary,
 
     -- ** LoadBalancerTlsPolicy
-    LoadBalancerTlsPolicy (LoadBalancerTlsPolicy'),
+    LoadBalancerTlsPolicy,
     newLoadBalancerTlsPolicy,
 
     -- ** LogEvent
-    LogEvent (LogEvent'),
+    LogEvent,
     newLogEvent,
 
     -- ** MetricDatapoint
-    MetricDatapoint (MetricDatapoint'),
+    MetricDatapoint,
     newMetricDatapoint,
 
     -- ** MonitoredResourceInfo
-    MonitoredResourceInfo (MonitoredResourceInfo'),
+    MonitoredResourceInfo,
     newMonitoredResourceInfo,
 
     -- ** MonthlyTransfer
-    MonthlyTransfer (MonthlyTransfer'),
+    MonthlyTransfer,
     newMonthlyTransfer,
 
     -- ** NameServersUpdateState
-    NameServersUpdateState (NameServersUpdateState'),
+    NameServersUpdateState,
     newNameServersUpdateState,
 
     -- ** Operation
-    Operation (Operation'),
+    Operation,
     newOperation,
 
     -- ** Origin
-    Origin (Origin'),
+    Origin,
     newOrigin,
 
     -- ** PasswordData
-    PasswordData (PasswordData'),
+    PasswordData,
     newPasswordData,
 
     -- ** PendingMaintenanceAction
-    PendingMaintenanceAction (PendingMaintenanceAction'),
+    PendingMaintenanceAction,
     newPendingMaintenanceAction,
 
     -- ** PendingModifiedRelationalDatabaseValues
-    PendingModifiedRelationalDatabaseValues (PendingModifiedRelationalDatabaseValues'),
+    PendingModifiedRelationalDatabaseValues,
     newPendingModifiedRelationalDatabaseValues,
 
     -- ** PortInfo
-    PortInfo (PortInfo'),
+    PortInfo,
     newPortInfo,
 
     -- ** PrivateRegistryAccess
-    PrivateRegistryAccess (PrivateRegistryAccess'),
+    PrivateRegistryAccess,
     newPrivateRegistryAccess,
 
     -- ** PrivateRegistryAccessRequest
-    PrivateRegistryAccessRequest (PrivateRegistryAccessRequest'),
+    PrivateRegistryAccessRequest,
     newPrivateRegistryAccessRequest,
 
     -- ** QueryStringObject
-    QueryStringObject (QueryStringObject'),
+    QueryStringObject,
     newQueryStringObject,
 
     -- ** R53HostedZoneDeletionState
-    R53HostedZoneDeletionState (R53HostedZoneDeletionState'),
+    R53HostedZoneDeletionState,
     newR53HostedZoneDeletionState,
 
     -- ** RegionInfo
-    RegionInfo (RegionInfo'),
+    RegionInfo,
     newRegionInfo,
 
     -- ** RegisteredDomainDelegationInfo
-    RegisteredDomainDelegationInfo (RegisteredDomainDelegationInfo'),
+    RegisteredDomainDelegationInfo,
     newRegisteredDomainDelegationInfo,
 
     -- ** RelationalDatabase
-    RelationalDatabase (RelationalDatabase'),
+    RelationalDatabase,
     newRelationalDatabase,
 
     -- ** RelationalDatabaseBlueprint
-    RelationalDatabaseBlueprint (RelationalDatabaseBlueprint'),
+    RelationalDatabaseBlueprint,
     newRelationalDatabaseBlueprint,
 
     -- ** RelationalDatabaseBundle
-    RelationalDatabaseBundle (RelationalDatabaseBundle'),
+    RelationalDatabaseBundle,
     newRelationalDatabaseBundle,
 
     -- ** RelationalDatabaseEndpoint
-    RelationalDatabaseEndpoint (RelationalDatabaseEndpoint'),
+    RelationalDatabaseEndpoint,
     newRelationalDatabaseEndpoint,
 
     -- ** RelationalDatabaseEvent
-    RelationalDatabaseEvent (RelationalDatabaseEvent'),
+    RelationalDatabaseEvent,
     newRelationalDatabaseEvent,
 
     -- ** RelationalDatabaseHardware
-    RelationalDatabaseHardware (RelationalDatabaseHardware'),
+    RelationalDatabaseHardware,
     newRelationalDatabaseHardware,
 
     -- ** RelationalDatabaseParameter
-    RelationalDatabaseParameter (RelationalDatabaseParameter'),
+    RelationalDatabaseParameter,
     newRelationalDatabaseParameter,
 
     -- ** RelationalDatabaseSnapshot
-    RelationalDatabaseSnapshot (RelationalDatabaseSnapshot'),
+    RelationalDatabaseSnapshot,
     newRelationalDatabaseSnapshot,
 
     -- ** RenewalSummary
-    RenewalSummary (RenewalSummary'),
+    RenewalSummary,
     newRenewalSummary,
 
     -- ** ResourceLocation
-    ResourceLocation (ResourceLocation'),
+    ResourceLocation,
     newResourceLocation,
 
     -- ** ResourceReceivingAccess
-    ResourceReceivingAccess (ResourceReceivingAccess'),
+    ResourceReceivingAccess,
     newResourceReceivingAccess,
 
     -- ** ResourceRecord
-    ResourceRecord (ResourceRecord'),
+    ResourceRecord,
     newResourceRecord,
 
     -- ** StaticIp
-    StaticIp (StaticIp'),
+    StaticIp,
     newStaticIp,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
   )
 where

@@ -30,9 +30,9 @@ module Amazonka.SageMakerMetrics
     -- $operations
 
     -- ** BatchPutMetrics
-    BatchPutMetrics (BatchPutMetrics'),
+    BatchPutMetrics,
     newBatchPutMetrics,
-    BatchPutMetricsResponse (BatchPutMetricsResponse'),
+    BatchPutMetricsResponse,
     newBatchPutMetricsResponse,
 
     -- * Types
@@ -41,11 +41,11 @@ module Amazonka.SageMakerMetrics
     PutMetricsErrorCode (..),
 
     -- ** BatchPutMetricsError
-    BatchPutMetricsError (BatchPutMetricsError'),
+    BatchPutMetricsError,
     newBatchPutMetricsError,
 
     -- ** RawMetricData
-    RawMetricData (RawMetricData'),
+    RawMetricData,
     newRawMetricData,
   )
 where

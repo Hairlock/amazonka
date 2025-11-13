@@ -113,129 +113,129 @@ module Amazonka.DAX
     -- $operations
 
     -- ** CreateCluster
-    CreateCluster (CreateCluster'),
+    CreateCluster,
     newCreateCluster,
-    CreateClusterResponse (CreateClusterResponse'),
+    CreateClusterResponse,
     newCreateClusterResponse,
 
     -- ** CreateParameterGroup
-    CreateParameterGroup (CreateParameterGroup'),
+    CreateParameterGroup,
     newCreateParameterGroup,
-    CreateParameterGroupResponse (CreateParameterGroupResponse'),
+    CreateParameterGroupResponse,
     newCreateParameterGroupResponse,
 
     -- ** CreateSubnetGroup
-    CreateSubnetGroup (CreateSubnetGroup'),
+    CreateSubnetGroup,
     newCreateSubnetGroup,
-    CreateSubnetGroupResponse (CreateSubnetGroupResponse'),
+    CreateSubnetGroupResponse,
     newCreateSubnetGroupResponse,
 
     -- ** DecreaseReplicationFactor
-    DecreaseReplicationFactor (DecreaseReplicationFactor'),
+    DecreaseReplicationFactor,
     newDecreaseReplicationFactor,
-    DecreaseReplicationFactorResponse (DecreaseReplicationFactorResponse'),
+    DecreaseReplicationFactorResponse,
     newDecreaseReplicationFactorResponse,
 
     -- ** DeleteCluster
-    DeleteCluster (DeleteCluster'),
+    DeleteCluster,
     newDeleteCluster,
-    DeleteClusterResponse (DeleteClusterResponse'),
+    DeleteClusterResponse,
     newDeleteClusterResponse,
 
     -- ** DeleteParameterGroup
-    DeleteParameterGroup (DeleteParameterGroup'),
+    DeleteParameterGroup,
     newDeleteParameterGroup,
-    DeleteParameterGroupResponse (DeleteParameterGroupResponse'),
+    DeleteParameterGroupResponse,
     newDeleteParameterGroupResponse,
 
     -- ** DeleteSubnetGroup
-    DeleteSubnetGroup (DeleteSubnetGroup'),
+    DeleteSubnetGroup,
     newDeleteSubnetGroup,
-    DeleteSubnetGroupResponse (DeleteSubnetGroupResponse'),
+    DeleteSubnetGroupResponse,
     newDeleteSubnetGroupResponse,
 
     -- ** DescribeClusters (Paginated)
-    DescribeClusters (DescribeClusters'),
+    DescribeClusters,
     newDescribeClusters,
-    DescribeClustersResponse (DescribeClustersResponse'),
+    DescribeClustersResponse,
     newDescribeClustersResponse,
 
     -- ** DescribeDefaultParameters (Paginated)
-    DescribeDefaultParameters (DescribeDefaultParameters'),
+    DescribeDefaultParameters,
     newDescribeDefaultParameters,
-    DescribeDefaultParametersResponse (DescribeDefaultParametersResponse'),
+    DescribeDefaultParametersResponse,
     newDescribeDefaultParametersResponse,
 
     -- ** DescribeEvents (Paginated)
-    DescribeEvents (DescribeEvents'),
+    DescribeEvents,
     newDescribeEvents,
-    DescribeEventsResponse (DescribeEventsResponse'),
+    DescribeEventsResponse,
     newDescribeEventsResponse,
 
     -- ** DescribeParameterGroups (Paginated)
-    DescribeParameterGroups (DescribeParameterGroups'),
+    DescribeParameterGroups,
     newDescribeParameterGroups,
-    DescribeParameterGroupsResponse (DescribeParameterGroupsResponse'),
+    DescribeParameterGroupsResponse,
     newDescribeParameterGroupsResponse,
 
     -- ** DescribeParameters (Paginated)
-    DescribeParameters (DescribeParameters'),
+    DescribeParameters,
     newDescribeParameters,
-    DescribeParametersResponse (DescribeParametersResponse'),
+    DescribeParametersResponse,
     newDescribeParametersResponse,
 
     -- ** DescribeSubnetGroups (Paginated)
-    DescribeSubnetGroups (DescribeSubnetGroups'),
+    DescribeSubnetGroups,
     newDescribeSubnetGroups,
-    DescribeSubnetGroupsResponse (DescribeSubnetGroupsResponse'),
+    DescribeSubnetGroupsResponse,
     newDescribeSubnetGroupsResponse,
 
     -- ** IncreaseReplicationFactor
-    IncreaseReplicationFactor (IncreaseReplicationFactor'),
+    IncreaseReplicationFactor,
     newIncreaseReplicationFactor,
-    IncreaseReplicationFactorResponse (IncreaseReplicationFactorResponse'),
+    IncreaseReplicationFactorResponse,
     newIncreaseReplicationFactorResponse,
 
     -- ** ListTags (Paginated)
-    ListTags (ListTags'),
+    ListTags,
     newListTags,
-    ListTagsResponse (ListTagsResponse'),
+    ListTagsResponse,
     newListTagsResponse,
 
     -- ** RebootNode
-    RebootNode (RebootNode'),
+    RebootNode,
     newRebootNode,
-    RebootNodeResponse (RebootNodeResponse'),
+    RebootNodeResponse,
     newRebootNodeResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateCluster
-    UpdateCluster (UpdateCluster'),
+    UpdateCluster,
     newUpdateCluster,
-    UpdateClusterResponse (UpdateClusterResponse'),
+    UpdateClusterResponse,
     newUpdateClusterResponse,
 
     -- ** UpdateParameterGroup
-    UpdateParameterGroup (UpdateParameterGroup'),
+    UpdateParameterGroup,
     newUpdateParameterGroup,
-    UpdateParameterGroupResponse (UpdateParameterGroupResponse'),
+    UpdateParameterGroupResponse,
     newUpdateParameterGroupResponse,
 
     -- ** UpdateSubnetGroup
-    UpdateSubnetGroup (UpdateSubnetGroup'),
+    UpdateSubnetGroup,
     newUpdateSubnetGroup,
-    UpdateSubnetGroupResponse (UpdateSubnetGroupResponse'),
+    UpdateSubnetGroupResponse,
     newUpdateSubnetGroupResponse,
 
     -- * Types
@@ -259,67 +259,67 @@ module Amazonka.DAX
     SourceType (..),
 
     -- ** Cluster
-    Cluster (Cluster'),
+    Cluster,
     newCluster,
 
     -- ** Endpoint
-    Endpoint (Endpoint'),
+    Endpoint,
     newEndpoint,
 
     -- ** Event
-    Event (Event'),
+    Event,
     newEvent,
 
     -- ** Node
-    Node (Node'),
+    Node,
     newNode,
 
     -- ** NodeTypeSpecificValue
-    NodeTypeSpecificValue (NodeTypeSpecificValue'),
+    NodeTypeSpecificValue,
     newNodeTypeSpecificValue,
 
     -- ** NotificationConfiguration
-    NotificationConfiguration (NotificationConfiguration'),
+    NotificationConfiguration,
     newNotificationConfiguration,
 
     -- ** Parameter
-    Parameter (Parameter'),
+    Parameter,
     newParameter,
 
     -- ** ParameterGroup
-    ParameterGroup (ParameterGroup'),
+    ParameterGroup,
     newParameterGroup,
 
     -- ** ParameterGroupStatus
-    ParameterGroupStatus (ParameterGroupStatus'),
+    ParameterGroupStatus,
     newParameterGroupStatus,
 
     -- ** ParameterNameValue
-    ParameterNameValue (ParameterNameValue'),
+    ParameterNameValue,
     newParameterNameValue,
 
     -- ** SSEDescription
-    SSEDescription (SSEDescription'),
+    SSEDescription,
     newSSEDescription,
 
     -- ** SSESpecification
-    SSESpecification (SSESpecification'),
+    SSESpecification,
     newSSESpecification,
 
     -- ** SecurityGroupMembership
-    SecurityGroupMembership (SecurityGroupMembership'),
+    SecurityGroupMembership,
     newSecurityGroupMembership,
 
     -- ** Subnet
-    Subnet (Subnet'),
+    Subnet,
     newSubnet,
 
     -- ** SubnetGroup
-    SubnetGroup (SubnetGroup'),
+    SubnetGroup,
     newSubnetGroup,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
   )
 where

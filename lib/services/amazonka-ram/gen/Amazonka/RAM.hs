@@ -107,153 +107,153 @@ module Amazonka.RAM
     -- $operations
 
     -- ** AcceptResourceShareInvitation
-    AcceptResourceShareInvitation (AcceptResourceShareInvitation'),
+    AcceptResourceShareInvitation,
     newAcceptResourceShareInvitation,
-    AcceptResourceShareInvitationResponse (AcceptResourceShareInvitationResponse'),
+    AcceptResourceShareInvitationResponse,
     newAcceptResourceShareInvitationResponse,
 
     -- ** AssociateResourceShare
-    AssociateResourceShare (AssociateResourceShare'),
+    AssociateResourceShare,
     newAssociateResourceShare,
-    AssociateResourceShareResponse (AssociateResourceShareResponse'),
+    AssociateResourceShareResponse,
     newAssociateResourceShareResponse,
 
     -- ** AssociateResourceSharePermission
-    AssociateResourceSharePermission (AssociateResourceSharePermission'),
+    AssociateResourceSharePermission,
     newAssociateResourceSharePermission,
-    AssociateResourceSharePermissionResponse (AssociateResourceSharePermissionResponse'),
+    AssociateResourceSharePermissionResponse,
     newAssociateResourceSharePermissionResponse,
 
     -- ** CreateResourceShare
-    CreateResourceShare (CreateResourceShare'),
+    CreateResourceShare,
     newCreateResourceShare,
-    CreateResourceShareResponse (CreateResourceShareResponse'),
+    CreateResourceShareResponse,
     newCreateResourceShareResponse,
 
     -- ** DeleteResourceShare
-    DeleteResourceShare (DeleteResourceShare'),
+    DeleteResourceShare,
     newDeleteResourceShare,
-    DeleteResourceShareResponse (DeleteResourceShareResponse'),
+    DeleteResourceShareResponse,
     newDeleteResourceShareResponse,
 
     -- ** DisassociateResourceShare
-    DisassociateResourceShare (DisassociateResourceShare'),
+    DisassociateResourceShare,
     newDisassociateResourceShare,
-    DisassociateResourceShareResponse (DisassociateResourceShareResponse'),
+    DisassociateResourceShareResponse,
     newDisassociateResourceShareResponse,
 
     -- ** DisassociateResourceSharePermission
-    DisassociateResourceSharePermission (DisassociateResourceSharePermission'),
+    DisassociateResourceSharePermission,
     newDisassociateResourceSharePermission,
-    DisassociateResourceSharePermissionResponse (DisassociateResourceSharePermissionResponse'),
+    DisassociateResourceSharePermissionResponse,
     newDisassociateResourceSharePermissionResponse,
 
     -- ** EnableSharingWithAwsOrganization
-    EnableSharingWithAwsOrganization (EnableSharingWithAwsOrganization'),
+    EnableSharingWithAwsOrganization,
     newEnableSharingWithAwsOrganization,
-    EnableSharingWithAwsOrganizationResponse (EnableSharingWithAwsOrganizationResponse'),
+    EnableSharingWithAwsOrganizationResponse,
     newEnableSharingWithAwsOrganizationResponse,
 
     -- ** GetPermission
-    GetPermission (GetPermission'),
+    GetPermission,
     newGetPermission,
-    GetPermissionResponse (GetPermissionResponse'),
+    GetPermissionResponse,
     newGetPermissionResponse,
 
     -- ** GetResourcePolicies (Paginated)
-    GetResourcePolicies (GetResourcePolicies'),
+    GetResourcePolicies,
     newGetResourcePolicies,
-    GetResourcePoliciesResponse (GetResourcePoliciesResponse'),
+    GetResourcePoliciesResponse,
     newGetResourcePoliciesResponse,
 
     -- ** GetResourceShareAssociations (Paginated)
-    GetResourceShareAssociations (GetResourceShareAssociations'),
+    GetResourceShareAssociations,
     newGetResourceShareAssociations,
-    GetResourceShareAssociationsResponse (GetResourceShareAssociationsResponse'),
+    GetResourceShareAssociationsResponse,
     newGetResourceShareAssociationsResponse,
 
     -- ** GetResourceShareInvitations (Paginated)
-    GetResourceShareInvitations (GetResourceShareInvitations'),
+    GetResourceShareInvitations,
     newGetResourceShareInvitations,
-    GetResourceShareInvitationsResponse (GetResourceShareInvitationsResponse'),
+    GetResourceShareInvitationsResponse,
     newGetResourceShareInvitationsResponse,
 
     -- ** GetResourceShares (Paginated)
-    GetResourceShares (GetResourceShares'),
+    GetResourceShares,
     newGetResourceShares,
-    GetResourceSharesResponse (GetResourceSharesResponse'),
+    GetResourceSharesResponse,
     newGetResourceSharesResponse,
 
     -- ** ListPendingInvitationResources
-    ListPendingInvitationResources (ListPendingInvitationResources'),
+    ListPendingInvitationResources,
     newListPendingInvitationResources,
-    ListPendingInvitationResourcesResponse (ListPendingInvitationResourcesResponse'),
+    ListPendingInvitationResourcesResponse,
     newListPendingInvitationResourcesResponse,
 
     -- ** ListPermissionVersions
-    ListPermissionVersions (ListPermissionVersions'),
+    ListPermissionVersions,
     newListPermissionVersions,
-    ListPermissionVersionsResponse (ListPermissionVersionsResponse'),
+    ListPermissionVersionsResponse,
     newListPermissionVersionsResponse,
 
     -- ** ListPermissions
-    ListPermissions (ListPermissions'),
+    ListPermissions,
     newListPermissions,
-    ListPermissionsResponse (ListPermissionsResponse'),
+    ListPermissionsResponse,
     newListPermissionsResponse,
 
     -- ** ListPrincipals (Paginated)
-    ListPrincipals (ListPrincipals'),
+    ListPrincipals,
     newListPrincipals,
-    ListPrincipalsResponse (ListPrincipalsResponse'),
+    ListPrincipalsResponse,
     newListPrincipalsResponse,
 
     -- ** ListResourceSharePermissions
-    ListResourceSharePermissions (ListResourceSharePermissions'),
+    ListResourceSharePermissions,
     newListResourceSharePermissions,
-    ListResourceSharePermissionsResponse (ListResourceSharePermissionsResponse'),
+    ListResourceSharePermissionsResponse,
     newListResourceSharePermissionsResponse,
 
     -- ** ListResourceTypes
-    ListResourceTypes (ListResourceTypes'),
+    ListResourceTypes,
     newListResourceTypes,
-    ListResourceTypesResponse (ListResourceTypesResponse'),
+    ListResourceTypesResponse,
     newListResourceTypesResponse,
 
     -- ** ListResources (Paginated)
-    ListResources (ListResources'),
+    ListResources,
     newListResources,
-    ListResourcesResponse (ListResourcesResponse'),
+    ListResourcesResponse,
     newListResourcesResponse,
 
     -- ** PromoteResourceShareCreatedFromPolicy
-    PromoteResourceShareCreatedFromPolicy (PromoteResourceShareCreatedFromPolicy'),
+    PromoteResourceShareCreatedFromPolicy,
     newPromoteResourceShareCreatedFromPolicy,
-    PromoteResourceShareCreatedFromPolicyResponse (PromoteResourceShareCreatedFromPolicyResponse'),
+    PromoteResourceShareCreatedFromPolicyResponse,
     newPromoteResourceShareCreatedFromPolicyResponse,
 
     -- ** RejectResourceShareInvitation
-    RejectResourceShareInvitation (RejectResourceShareInvitation'),
+    RejectResourceShareInvitation,
     newRejectResourceShareInvitation,
-    RejectResourceShareInvitationResponse (RejectResourceShareInvitationResponse'),
+    RejectResourceShareInvitationResponse,
     newRejectResourceShareInvitationResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateResourceShare
-    UpdateResourceShare (UpdateResourceShare'),
+    UpdateResourceShare,
     newUpdateResourceShare,
-    UpdateResourceShareResponse (UpdateResourceShareResponse'),
+    UpdateResourceShareResponse,
     newUpdateResourceShareResponse,
 
     -- * Types
@@ -286,43 +286,43 @@ module Amazonka.RAM
     ResourceStatus (..),
 
     -- ** Principal
-    Principal (Principal'),
+    Principal,
     newPrincipal,
 
     -- ** Resource
-    Resource (Resource'),
+    Resource,
     newResource,
 
     -- ** ResourceShare
-    ResourceShare (ResourceShare'),
+    ResourceShare,
     newResourceShare,
 
     -- ** ResourceShareAssociation
-    ResourceShareAssociation (ResourceShareAssociation'),
+    ResourceShareAssociation,
     newResourceShareAssociation,
 
     -- ** ResourceShareInvitation
-    ResourceShareInvitation (ResourceShareInvitation'),
+    ResourceShareInvitation,
     newResourceShareInvitation,
 
     -- ** ResourceSharePermissionDetail
-    ResourceSharePermissionDetail (ResourceSharePermissionDetail'),
+    ResourceSharePermissionDetail,
     newResourceSharePermissionDetail,
 
     -- ** ResourceSharePermissionSummary
-    ResourceSharePermissionSummary (ResourceSharePermissionSummary'),
+    ResourceSharePermissionSummary,
     newResourceSharePermissionSummary,
 
     -- ** ServiceNameAndResourceType
-    ServiceNameAndResourceType (ServiceNameAndResourceType'),
+    ServiceNameAndResourceType,
     newServiceNameAndResourceType,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
 
     -- ** TagFilter
-    TagFilter (TagFilter'),
+    TagFilter,
     newTagFilter,
   )
 where

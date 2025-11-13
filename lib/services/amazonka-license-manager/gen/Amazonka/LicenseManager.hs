@@ -78,303 +78,303 @@ module Amazonka.LicenseManager
     -- $operations
 
     -- ** AcceptGrant
-    AcceptGrant (AcceptGrant'),
+    AcceptGrant,
     newAcceptGrant,
-    AcceptGrantResponse (AcceptGrantResponse'),
+    AcceptGrantResponse,
     newAcceptGrantResponse,
 
     -- ** CheckInLicense
-    CheckInLicense (CheckInLicense'),
+    CheckInLicense,
     newCheckInLicense,
-    CheckInLicenseResponse (CheckInLicenseResponse'),
+    CheckInLicenseResponse,
     newCheckInLicenseResponse,
 
     -- ** CheckoutBorrowLicense
-    CheckoutBorrowLicense (CheckoutBorrowLicense'),
+    CheckoutBorrowLicense,
     newCheckoutBorrowLicense,
-    CheckoutBorrowLicenseResponse (CheckoutBorrowLicenseResponse'),
+    CheckoutBorrowLicenseResponse,
     newCheckoutBorrowLicenseResponse,
 
     -- ** CheckoutLicense
-    CheckoutLicense (CheckoutLicense'),
+    CheckoutLicense,
     newCheckoutLicense,
-    CheckoutLicenseResponse (CheckoutLicenseResponse'),
+    CheckoutLicenseResponse,
     newCheckoutLicenseResponse,
 
     -- ** CreateGrant
-    CreateGrant (CreateGrant'),
+    CreateGrant,
     newCreateGrant,
-    CreateGrantResponse (CreateGrantResponse'),
+    CreateGrantResponse,
     newCreateGrantResponse,
 
     -- ** CreateGrantVersion
-    CreateGrantVersion (CreateGrantVersion'),
+    CreateGrantVersion,
     newCreateGrantVersion,
-    CreateGrantVersionResponse (CreateGrantVersionResponse'),
+    CreateGrantVersionResponse,
     newCreateGrantVersionResponse,
 
     -- ** CreateLicense
-    CreateLicense (CreateLicense'),
+    CreateLicense,
     newCreateLicense,
-    CreateLicenseResponse (CreateLicenseResponse'),
+    CreateLicenseResponse,
     newCreateLicenseResponse,
 
     -- ** CreateLicenseConfiguration
-    CreateLicenseConfiguration (CreateLicenseConfiguration'),
+    CreateLicenseConfiguration,
     newCreateLicenseConfiguration,
-    CreateLicenseConfigurationResponse (CreateLicenseConfigurationResponse'),
+    CreateLicenseConfigurationResponse,
     newCreateLicenseConfigurationResponse,
 
     -- ** CreateLicenseConversionTaskForResource
-    CreateLicenseConversionTaskForResource (CreateLicenseConversionTaskForResource'),
+    CreateLicenseConversionTaskForResource,
     newCreateLicenseConversionTaskForResource,
-    CreateLicenseConversionTaskForResourceResponse (CreateLicenseConversionTaskForResourceResponse'),
+    CreateLicenseConversionTaskForResourceResponse,
     newCreateLicenseConversionTaskForResourceResponse,
 
     -- ** CreateLicenseManagerReportGenerator
-    CreateLicenseManagerReportGenerator (CreateLicenseManagerReportGenerator'),
+    CreateLicenseManagerReportGenerator,
     newCreateLicenseManagerReportGenerator,
-    CreateLicenseManagerReportGeneratorResponse (CreateLicenseManagerReportGeneratorResponse'),
+    CreateLicenseManagerReportGeneratorResponse,
     newCreateLicenseManagerReportGeneratorResponse,
 
     -- ** CreateLicenseVersion
-    CreateLicenseVersion (CreateLicenseVersion'),
+    CreateLicenseVersion,
     newCreateLicenseVersion,
-    CreateLicenseVersionResponse (CreateLicenseVersionResponse'),
+    CreateLicenseVersionResponse,
     newCreateLicenseVersionResponse,
 
     -- ** CreateToken
-    CreateToken (CreateToken'),
+    CreateToken,
     newCreateToken,
-    CreateTokenResponse (CreateTokenResponse'),
+    CreateTokenResponse,
     newCreateTokenResponse,
 
     -- ** DeleteGrant
-    DeleteGrant (DeleteGrant'),
+    DeleteGrant,
     newDeleteGrant,
-    DeleteGrantResponse (DeleteGrantResponse'),
+    DeleteGrantResponse,
     newDeleteGrantResponse,
 
     -- ** DeleteLicense
-    DeleteLicense (DeleteLicense'),
+    DeleteLicense,
     newDeleteLicense,
-    DeleteLicenseResponse (DeleteLicenseResponse'),
+    DeleteLicenseResponse,
     newDeleteLicenseResponse,
 
     -- ** DeleteLicenseConfiguration
-    DeleteLicenseConfiguration (DeleteLicenseConfiguration'),
+    DeleteLicenseConfiguration,
     newDeleteLicenseConfiguration,
-    DeleteLicenseConfigurationResponse (DeleteLicenseConfigurationResponse'),
+    DeleteLicenseConfigurationResponse,
     newDeleteLicenseConfigurationResponse,
 
     -- ** DeleteLicenseManagerReportGenerator
-    DeleteLicenseManagerReportGenerator (DeleteLicenseManagerReportGenerator'),
+    DeleteLicenseManagerReportGenerator,
     newDeleteLicenseManagerReportGenerator,
-    DeleteLicenseManagerReportGeneratorResponse (DeleteLicenseManagerReportGeneratorResponse'),
+    DeleteLicenseManagerReportGeneratorResponse,
     newDeleteLicenseManagerReportGeneratorResponse,
 
     -- ** DeleteToken
-    DeleteToken (DeleteToken'),
+    DeleteToken,
     newDeleteToken,
-    DeleteTokenResponse (DeleteTokenResponse'),
+    DeleteTokenResponse,
     newDeleteTokenResponse,
 
     -- ** ExtendLicenseConsumption
-    ExtendLicenseConsumption (ExtendLicenseConsumption'),
+    ExtendLicenseConsumption,
     newExtendLicenseConsumption,
-    ExtendLicenseConsumptionResponse (ExtendLicenseConsumptionResponse'),
+    ExtendLicenseConsumptionResponse,
     newExtendLicenseConsumptionResponse,
 
     -- ** GetAccessToken
-    GetAccessToken (GetAccessToken'),
+    GetAccessToken,
     newGetAccessToken,
-    GetAccessTokenResponse (GetAccessTokenResponse'),
+    GetAccessTokenResponse,
     newGetAccessTokenResponse,
 
     -- ** GetGrant
-    GetGrant (GetGrant'),
+    GetGrant,
     newGetGrant,
-    GetGrantResponse (GetGrantResponse'),
+    GetGrantResponse,
     newGetGrantResponse,
 
     -- ** GetLicense
-    GetLicense (GetLicense'),
+    GetLicense,
     newGetLicense,
-    GetLicenseResponse (GetLicenseResponse'),
+    GetLicenseResponse,
     newGetLicenseResponse,
 
     -- ** GetLicenseConfiguration
-    GetLicenseConfiguration (GetLicenseConfiguration'),
+    GetLicenseConfiguration,
     newGetLicenseConfiguration,
-    GetLicenseConfigurationResponse (GetLicenseConfigurationResponse'),
+    GetLicenseConfigurationResponse,
     newGetLicenseConfigurationResponse,
 
     -- ** GetLicenseConversionTask
-    GetLicenseConversionTask (GetLicenseConversionTask'),
+    GetLicenseConversionTask,
     newGetLicenseConversionTask,
-    GetLicenseConversionTaskResponse (GetLicenseConversionTaskResponse'),
+    GetLicenseConversionTaskResponse,
     newGetLicenseConversionTaskResponse,
 
     -- ** GetLicenseManagerReportGenerator
-    GetLicenseManagerReportGenerator (GetLicenseManagerReportGenerator'),
+    GetLicenseManagerReportGenerator,
     newGetLicenseManagerReportGenerator,
-    GetLicenseManagerReportGeneratorResponse (GetLicenseManagerReportGeneratorResponse'),
+    GetLicenseManagerReportGeneratorResponse,
     newGetLicenseManagerReportGeneratorResponse,
 
     -- ** GetLicenseUsage
-    GetLicenseUsage (GetLicenseUsage'),
+    GetLicenseUsage,
     newGetLicenseUsage,
-    GetLicenseUsageResponse (GetLicenseUsageResponse'),
+    GetLicenseUsageResponse,
     newGetLicenseUsageResponse,
 
     -- ** GetServiceSettings
-    GetServiceSettings (GetServiceSettings'),
+    GetServiceSettings,
     newGetServiceSettings,
-    GetServiceSettingsResponse (GetServiceSettingsResponse'),
+    GetServiceSettingsResponse,
     newGetServiceSettingsResponse,
 
     -- ** ListAssociationsForLicenseConfiguration (Paginated)
-    ListAssociationsForLicenseConfiguration (ListAssociationsForLicenseConfiguration'),
+    ListAssociationsForLicenseConfiguration,
     newListAssociationsForLicenseConfiguration,
-    ListAssociationsForLicenseConfigurationResponse (ListAssociationsForLicenseConfigurationResponse'),
+    ListAssociationsForLicenseConfigurationResponse,
     newListAssociationsForLicenseConfigurationResponse,
 
     -- ** ListDistributedGrants
-    ListDistributedGrants (ListDistributedGrants'),
+    ListDistributedGrants,
     newListDistributedGrants,
-    ListDistributedGrantsResponse (ListDistributedGrantsResponse'),
+    ListDistributedGrantsResponse,
     newListDistributedGrantsResponse,
 
     -- ** ListFailuresForLicenseConfigurationOperations
-    ListFailuresForLicenseConfigurationOperations (ListFailuresForLicenseConfigurationOperations'),
+    ListFailuresForLicenseConfigurationOperations,
     newListFailuresForLicenseConfigurationOperations,
-    ListFailuresForLicenseConfigurationOperationsResponse (ListFailuresForLicenseConfigurationOperationsResponse'),
+    ListFailuresForLicenseConfigurationOperationsResponse,
     newListFailuresForLicenseConfigurationOperationsResponse,
 
     -- ** ListLicenseConfigurations (Paginated)
-    ListLicenseConfigurations (ListLicenseConfigurations'),
+    ListLicenseConfigurations,
     newListLicenseConfigurations,
-    ListLicenseConfigurationsResponse (ListLicenseConfigurationsResponse'),
+    ListLicenseConfigurationsResponse,
     newListLicenseConfigurationsResponse,
 
     -- ** ListLicenseConversionTasks
-    ListLicenseConversionTasks (ListLicenseConversionTasks'),
+    ListLicenseConversionTasks,
     newListLicenseConversionTasks,
-    ListLicenseConversionTasksResponse (ListLicenseConversionTasksResponse'),
+    ListLicenseConversionTasksResponse,
     newListLicenseConversionTasksResponse,
 
     -- ** ListLicenseManagerReportGenerators
-    ListLicenseManagerReportGenerators (ListLicenseManagerReportGenerators'),
+    ListLicenseManagerReportGenerators,
     newListLicenseManagerReportGenerators,
-    ListLicenseManagerReportGeneratorsResponse (ListLicenseManagerReportGeneratorsResponse'),
+    ListLicenseManagerReportGeneratorsResponse,
     newListLicenseManagerReportGeneratorsResponse,
 
     -- ** ListLicenseSpecificationsForResource (Paginated)
-    ListLicenseSpecificationsForResource (ListLicenseSpecificationsForResource'),
+    ListLicenseSpecificationsForResource,
     newListLicenseSpecificationsForResource,
-    ListLicenseSpecificationsForResourceResponse (ListLicenseSpecificationsForResourceResponse'),
+    ListLicenseSpecificationsForResourceResponse,
     newListLicenseSpecificationsForResourceResponse,
 
     -- ** ListLicenseVersions
-    ListLicenseVersions (ListLicenseVersions'),
+    ListLicenseVersions,
     newListLicenseVersions,
-    ListLicenseVersionsResponse (ListLicenseVersionsResponse'),
+    ListLicenseVersionsResponse,
     newListLicenseVersionsResponse,
 
     -- ** ListLicenses
-    ListLicenses (ListLicenses'),
+    ListLicenses,
     newListLicenses,
-    ListLicensesResponse (ListLicensesResponse'),
+    ListLicensesResponse,
     newListLicensesResponse,
 
     -- ** ListReceivedGrants
-    ListReceivedGrants (ListReceivedGrants'),
+    ListReceivedGrants,
     newListReceivedGrants,
-    ListReceivedGrantsResponse (ListReceivedGrantsResponse'),
+    ListReceivedGrantsResponse,
     newListReceivedGrantsResponse,
 
     -- ** ListReceivedGrantsForOrganization
-    ListReceivedGrantsForOrganization (ListReceivedGrantsForOrganization'),
+    ListReceivedGrantsForOrganization,
     newListReceivedGrantsForOrganization,
-    ListReceivedGrantsForOrganizationResponse (ListReceivedGrantsForOrganizationResponse'),
+    ListReceivedGrantsForOrganizationResponse,
     newListReceivedGrantsForOrganizationResponse,
 
     -- ** ListReceivedLicenses
-    ListReceivedLicenses (ListReceivedLicenses'),
+    ListReceivedLicenses,
     newListReceivedLicenses,
-    ListReceivedLicensesResponse (ListReceivedLicensesResponse'),
+    ListReceivedLicensesResponse,
     newListReceivedLicensesResponse,
 
     -- ** ListReceivedLicensesForOrganization
-    ListReceivedLicensesForOrganization (ListReceivedLicensesForOrganization'),
+    ListReceivedLicensesForOrganization,
     newListReceivedLicensesForOrganization,
-    ListReceivedLicensesForOrganizationResponse (ListReceivedLicensesForOrganizationResponse'),
+    ListReceivedLicensesForOrganizationResponse,
     newListReceivedLicensesForOrganizationResponse,
 
     -- ** ListResourceInventory (Paginated)
-    ListResourceInventory (ListResourceInventory'),
+    ListResourceInventory,
     newListResourceInventory,
-    ListResourceInventoryResponse (ListResourceInventoryResponse'),
+    ListResourceInventoryResponse,
     newListResourceInventoryResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** ListTokens
-    ListTokens (ListTokens'),
+    ListTokens,
     newListTokens,
-    ListTokensResponse (ListTokensResponse'),
+    ListTokensResponse,
     newListTokensResponse,
 
     -- ** ListUsageForLicenseConfiguration (Paginated)
-    ListUsageForLicenseConfiguration (ListUsageForLicenseConfiguration'),
+    ListUsageForLicenseConfiguration,
     newListUsageForLicenseConfiguration,
-    ListUsageForLicenseConfigurationResponse (ListUsageForLicenseConfigurationResponse'),
+    ListUsageForLicenseConfigurationResponse,
     newListUsageForLicenseConfigurationResponse,
 
     -- ** RejectGrant
-    RejectGrant (RejectGrant'),
+    RejectGrant,
     newRejectGrant,
-    RejectGrantResponse (RejectGrantResponse'),
+    RejectGrantResponse,
     newRejectGrantResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateLicenseConfiguration
-    UpdateLicenseConfiguration (UpdateLicenseConfiguration'),
+    UpdateLicenseConfiguration,
     newUpdateLicenseConfiguration,
-    UpdateLicenseConfigurationResponse (UpdateLicenseConfigurationResponse'),
+    UpdateLicenseConfigurationResponse,
     newUpdateLicenseConfigurationResponse,
 
     -- ** UpdateLicenseManagerReportGenerator
-    UpdateLicenseManagerReportGenerator (UpdateLicenseManagerReportGenerator'),
+    UpdateLicenseManagerReportGenerator,
     newUpdateLicenseManagerReportGenerator,
-    UpdateLicenseManagerReportGeneratorResponse (UpdateLicenseManagerReportGeneratorResponse'),
+    UpdateLicenseManagerReportGeneratorResponse,
     newUpdateLicenseManagerReportGeneratorResponse,
 
     -- ** UpdateLicenseSpecificationsForResource
-    UpdateLicenseSpecificationsForResource (UpdateLicenseSpecificationsForResource'),
+    UpdateLicenseSpecificationsForResource,
     newUpdateLicenseSpecificationsForResource,
-    UpdateLicenseSpecificationsForResourceResponse (UpdateLicenseSpecificationsForResourceResponse'),
+    UpdateLicenseSpecificationsForResourceResponse,
     newUpdateLicenseSpecificationsForResourceResponse,
 
     -- ** UpdateServiceSettings
-    UpdateServiceSettings (UpdateServiceSettings'),
+    UpdateServiceSettings,
     newUpdateServiceSettings,
-    UpdateServiceSettingsResponse (UpdateServiceSettingsResponse'),
+    UpdateServiceSettingsResponse,
     newUpdateServiceSettingsResponse,
 
     -- * Types
@@ -434,151 +434,151 @@ module Amazonka.LicenseManager
     TokenType (..),
 
     -- ** AutomatedDiscoveryInformation
-    AutomatedDiscoveryInformation (AutomatedDiscoveryInformation'),
+    AutomatedDiscoveryInformation,
     newAutomatedDiscoveryInformation,
 
     -- ** BorrowConfiguration
-    BorrowConfiguration (BorrowConfiguration'),
+    BorrowConfiguration,
     newBorrowConfiguration,
 
     -- ** ConsumedLicenseSummary
-    ConsumedLicenseSummary (ConsumedLicenseSummary'),
+    ConsumedLicenseSummary,
     newConsumedLicenseSummary,
 
     -- ** ConsumptionConfiguration
-    ConsumptionConfiguration (ConsumptionConfiguration'),
+    ConsumptionConfiguration,
     newConsumptionConfiguration,
 
     -- ** DatetimeRange
-    DatetimeRange (DatetimeRange'),
+    DatetimeRange,
     newDatetimeRange,
 
     -- ** Entitlement
-    Entitlement (Entitlement'),
+    Entitlement,
     newEntitlement,
 
     -- ** EntitlementData
-    EntitlementData (EntitlementData'),
+    EntitlementData,
     newEntitlementData,
 
     -- ** EntitlementUsage
-    EntitlementUsage (EntitlementUsage'),
+    EntitlementUsage,
     newEntitlementUsage,
 
     -- ** Filter
-    Filter (Filter'),
+    Filter,
     newFilter,
 
     -- ** Grant
-    Grant (Grant'),
+    Grant,
     newGrant,
 
     -- ** GrantedLicense
-    GrantedLicense (GrantedLicense'),
+    GrantedLicense,
     newGrantedLicense,
 
     -- ** InventoryFilter
-    InventoryFilter (InventoryFilter'),
+    InventoryFilter,
     newInventoryFilter,
 
     -- ** Issuer
-    Issuer (Issuer'),
+    Issuer,
     newIssuer,
 
     -- ** IssuerDetails
-    IssuerDetails (IssuerDetails'),
+    IssuerDetails,
     newIssuerDetails,
 
     -- ** License
-    License (License'),
+    License,
     newLicense,
 
     -- ** LicenseConfiguration
-    LicenseConfiguration (LicenseConfiguration'),
+    LicenseConfiguration,
     newLicenseConfiguration,
 
     -- ** LicenseConfigurationAssociation
-    LicenseConfigurationAssociation (LicenseConfigurationAssociation'),
+    LicenseConfigurationAssociation,
     newLicenseConfigurationAssociation,
 
     -- ** LicenseConfigurationUsage
-    LicenseConfigurationUsage (LicenseConfigurationUsage'),
+    LicenseConfigurationUsage,
     newLicenseConfigurationUsage,
 
     -- ** LicenseConversionContext
-    LicenseConversionContext (LicenseConversionContext'),
+    LicenseConversionContext,
     newLicenseConversionContext,
 
     -- ** LicenseConversionTask
-    LicenseConversionTask (LicenseConversionTask'),
+    LicenseConversionTask,
     newLicenseConversionTask,
 
     -- ** LicenseOperationFailure
-    LicenseOperationFailure (LicenseOperationFailure'),
+    LicenseOperationFailure,
     newLicenseOperationFailure,
 
     -- ** LicenseSpecification
-    LicenseSpecification (LicenseSpecification'),
+    LicenseSpecification,
     newLicenseSpecification,
 
     -- ** LicenseUsage
-    LicenseUsage (LicenseUsage'),
+    LicenseUsage,
     newLicenseUsage,
 
     -- ** ManagedResourceSummary
-    ManagedResourceSummary (ManagedResourceSummary'),
+    ManagedResourceSummary,
     newManagedResourceSummary,
 
     -- ** Metadata
-    Metadata (Metadata'),
+    Metadata,
     newMetadata,
 
     -- ** OrganizationConfiguration
-    OrganizationConfiguration (OrganizationConfiguration'),
+    OrganizationConfiguration,
     newOrganizationConfiguration,
 
     -- ** ProductInformation
-    ProductInformation (ProductInformation'),
+    ProductInformation,
     newProductInformation,
 
     -- ** ProductInformationFilter
-    ProductInformationFilter (ProductInformationFilter'),
+    ProductInformationFilter,
     newProductInformationFilter,
 
     -- ** ProvisionalConfiguration
-    ProvisionalConfiguration (ProvisionalConfiguration'),
+    ProvisionalConfiguration,
     newProvisionalConfiguration,
 
     -- ** ReceivedMetadata
-    ReceivedMetadata (ReceivedMetadata'),
+    ReceivedMetadata,
     newReceivedMetadata,
 
     -- ** ReportContext
-    ReportContext (ReportContext'),
+    ReportContext,
     newReportContext,
 
     -- ** ReportFrequency
-    ReportFrequency (ReportFrequency'),
+    ReportFrequency,
     newReportFrequency,
 
     -- ** ReportGenerator
-    ReportGenerator (ReportGenerator'),
+    ReportGenerator,
     newReportGenerator,
 
     -- ** ResourceInventory
-    ResourceInventory (ResourceInventory'),
+    ResourceInventory,
     newResourceInventory,
 
     -- ** S3Location
-    S3Location (S3Location'),
+    S3Location,
     newS3Location,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
 
     -- ** TokenData
-    TokenData (TokenData'),
+    TokenData,
     newTokenData,
   )
 where

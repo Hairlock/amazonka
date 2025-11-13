@@ -49,107 +49,107 @@ module Amazonka.LicenseManagerUserSubscriptions
     -- $operations
 
     -- ** AssociateUser
-    AssociateUser (AssociateUser'),
+    AssociateUser,
     newAssociateUser,
-    AssociateUserResponse (AssociateUserResponse'),
+    AssociateUserResponse,
     newAssociateUserResponse,
 
     -- ** DeregisterIdentityProvider
-    DeregisterIdentityProvider (DeregisterIdentityProvider'),
+    DeregisterIdentityProvider,
     newDeregisterIdentityProvider,
-    DeregisterIdentityProviderResponse (DeregisterIdentityProviderResponse'),
+    DeregisterIdentityProviderResponse,
     newDeregisterIdentityProviderResponse,
 
     -- ** DisassociateUser
-    DisassociateUser (DisassociateUser'),
+    DisassociateUser,
     newDisassociateUser,
-    DisassociateUserResponse (DisassociateUserResponse'),
+    DisassociateUserResponse,
     newDisassociateUserResponse,
 
     -- ** ListIdentityProviders (Paginated)
-    ListIdentityProviders (ListIdentityProviders'),
+    ListIdentityProviders,
     newListIdentityProviders,
-    ListIdentityProvidersResponse (ListIdentityProvidersResponse'),
+    ListIdentityProvidersResponse,
     newListIdentityProvidersResponse,
 
     -- ** ListInstances (Paginated)
-    ListInstances (ListInstances'),
+    ListInstances,
     newListInstances,
-    ListInstancesResponse (ListInstancesResponse'),
+    ListInstancesResponse,
     newListInstancesResponse,
 
     -- ** ListProductSubscriptions (Paginated)
-    ListProductSubscriptions (ListProductSubscriptions'),
+    ListProductSubscriptions,
     newListProductSubscriptions,
-    ListProductSubscriptionsResponse (ListProductSubscriptionsResponse'),
+    ListProductSubscriptionsResponse,
     newListProductSubscriptionsResponse,
 
     -- ** ListUserAssociations (Paginated)
-    ListUserAssociations (ListUserAssociations'),
+    ListUserAssociations,
     newListUserAssociations,
-    ListUserAssociationsResponse (ListUserAssociationsResponse'),
+    ListUserAssociationsResponse,
     newListUserAssociationsResponse,
 
     -- ** RegisterIdentityProvider
-    RegisterIdentityProvider (RegisterIdentityProvider'),
+    RegisterIdentityProvider,
     newRegisterIdentityProvider,
-    RegisterIdentityProviderResponse (RegisterIdentityProviderResponse'),
+    RegisterIdentityProviderResponse,
     newRegisterIdentityProviderResponse,
 
     -- ** StartProductSubscription
-    StartProductSubscription (StartProductSubscription'),
+    StartProductSubscription,
     newStartProductSubscription,
-    StartProductSubscriptionResponse (StartProductSubscriptionResponse'),
+    StartProductSubscriptionResponse,
     newStartProductSubscriptionResponse,
 
     -- ** StopProductSubscription
-    StopProductSubscription (StopProductSubscription'),
+    StopProductSubscription,
     newStopProductSubscription,
-    StopProductSubscriptionResponse (StopProductSubscriptionResponse'),
+    StopProductSubscriptionResponse,
     newStopProductSubscriptionResponse,
 
     -- ** UpdateIdentityProviderSettings
-    UpdateIdentityProviderSettings (UpdateIdentityProviderSettings'),
+    UpdateIdentityProviderSettings,
     newUpdateIdentityProviderSettings,
-    UpdateIdentityProviderSettingsResponse (UpdateIdentityProviderSettingsResponse'),
+    UpdateIdentityProviderSettingsResponse,
     newUpdateIdentityProviderSettingsResponse,
 
     -- * Types
 
     -- ** ActiveDirectoryIdentityProvider
-    ActiveDirectoryIdentityProvider (ActiveDirectoryIdentityProvider'),
+    ActiveDirectoryIdentityProvider,
     newActiveDirectoryIdentityProvider,
 
     -- ** Filter
-    Filter (Filter'),
+    Filter,
     newFilter,
 
     -- ** IdentityProvider
-    IdentityProvider (IdentityProvider'),
+    IdentityProvider,
     newIdentityProvider,
 
     -- ** IdentityProviderSummary
-    IdentityProviderSummary (IdentityProviderSummary'),
+    IdentityProviderSummary,
     newIdentityProviderSummary,
 
     -- ** InstanceSummary
-    InstanceSummary (InstanceSummary'),
+    InstanceSummary,
     newInstanceSummary,
 
     -- ** InstanceUserSummary
-    InstanceUserSummary (InstanceUserSummary'),
+    InstanceUserSummary,
     newInstanceUserSummary,
 
     -- ** ProductUserSummary
-    ProductUserSummary (ProductUserSummary'),
+    ProductUserSummary,
     newProductUserSummary,
 
     -- ** Settings
-    Settings (Settings'),
+    Settings,
     newSettings,
 
     -- ** UpdateSettings
-    UpdateSettings (UpdateSettings'),
+    UpdateSettings,
     newUpdateSettings,
   )
 where

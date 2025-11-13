@@ -47,117 +47,117 @@ module Amazonka.SageMakerGeoSpatial
     -- $operations
 
     -- ** DeleteEarthObservationJob
-    DeleteEarthObservationJob (DeleteEarthObservationJob'),
+    DeleteEarthObservationJob,
     newDeleteEarthObservationJob,
-    DeleteEarthObservationJobResponse (DeleteEarthObservationJobResponse'),
+    DeleteEarthObservationJobResponse,
     newDeleteEarthObservationJobResponse,
 
     -- ** DeleteVectorEnrichmentJob
-    DeleteVectorEnrichmentJob (DeleteVectorEnrichmentJob'),
+    DeleteVectorEnrichmentJob,
     newDeleteVectorEnrichmentJob,
-    DeleteVectorEnrichmentJobResponse (DeleteVectorEnrichmentJobResponse'),
+    DeleteVectorEnrichmentJobResponse,
     newDeleteVectorEnrichmentJobResponse,
 
     -- ** ExportEarthObservationJob
-    ExportEarthObservationJob (ExportEarthObservationJob'),
+    ExportEarthObservationJob,
     newExportEarthObservationJob,
-    ExportEarthObservationJobResponse (ExportEarthObservationJobResponse'),
+    ExportEarthObservationJobResponse,
     newExportEarthObservationJobResponse,
 
     -- ** ExportVectorEnrichmentJob
-    ExportVectorEnrichmentJob (ExportVectorEnrichmentJob'),
+    ExportVectorEnrichmentJob,
     newExportVectorEnrichmentJob,
-    ExportVectorEnrichmentJobResponse (ExportVectorEnrichmentJobResponse'),
+    ExportVectorEnrichmentJobResponse,
     newExportVectorEnrichmentJobResponse,
 
     -- ** GetEarthObservationJob
-    GetEarthObservationJob (GetEarthObservationJob'),
+    GetEarthObservationJob,
     newGetEarthObservationJob,
-    GetEarthObservationJobResponse (GetEarthObservationJobResponse'),
+    GetEarthObservationJobResponse,
     newGetEarthObservationJobResponse,
 
     -- ** GetRasterDataCollection
-    GetRasterDataCollection (GetRasterDataCollection'),
+    GetRasterDataCollection,
     newGetRasterDataCollection,
-    GetRasterDataCollectionResponse (GetRasterDataCollectionResponse'),
+    GetRasterDataCollectionResponse,
     newGetRasterDataCollectionResponse,
 
     -- ** GetTile
-    GetTile (GetTile'),
+    GetTile,
     newGetTile,
-    GetTileResponse (GetTileResponse'),
+    GetTileResponse,
     newGetTileResponse,
 
     -- ** GetVectorEnrichmentJob
-    GetVectorEnrichmentJob (GetVectorEnrichmentJob'),
+    GetVectorEnrichmentJob,
     newGetVectorEnrichmentJob,
-    GetVectorEnrichmentJobResponse (GetVectorEnrichmentJobResponse'),
+    GetVectorEnrichmentJobResponse,
     newGetVectorEnrichmentJobResponse,
 
     -- ** ListEarthObservationJobs (Paginated)
-    ListEarthObservationJobs (ListEarthObservationJobs'),
+    ListEarthObservationJobs,
     newListEarthObservationJobs,
-    ListEarthObservationJobsResponse (ListEarthObservationJobsResponse'),
+    ListEarthObservationJobsResponse,
     newListEarthObservationJobsResponse,
 
     -- ** ListRasterDataCollections (Paginated)
-    ListRasterDataCollections (ListRasterDataCollections'),
+    ListRasterDataCollections,
     newListRasterDataCollections,
-    ListRasterDataCollectionsResponse (ListRasterDataCollectionsResponse'),
+    ListRasterDataCollectionsResponse,
     newListRasterDataCollectionsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** ListVectorEnrichmentJobs (Paginated)
-    ListVectorEnrichmentJobs (ListVectorEnrichmentJobs'),
+    ListVectorEnrichmentJobs,
     newListVectorEnrichmentJobs,
-    ListVectorEnrichmentJobsResponse (ListVectorEnrichmentJobsResponse'),
+    ListVectorEnrichmentJobsResponse,
     newListVectorEnrichmentJobsResponse,
 
     -- ** SearchRasterDataCollection
-    SearchRasterDataCollection (SearchRasterDataCollection'),
+    SearchRasterDataCollection,
     newSearchRasterDataCollection,
-    SearchRasterDataCollectionResponse (SearchRasterDataCollectionResponse'),
+    SearchRasterDataCollectionResponse,
     newSearchRasterDataCollectionResponse,
 
     -- ** StartEarthObservationJob
-    StartEarthObservationJob (StartEarthObservationJob'),
+    StartEarthObservationJob,
     newStartEarthObservationJob,
-    StartEarthObservationJobResponse (StartEarthObservationJobResponse'),
+    StartEarthObservationJobResponse,
     newStartEarthObservationJobResponse,
 
     -- ** StartVectorEnrichmentJob
-    StartVectorEnrichmentJob (StartVectorEnrichmentJob'),
+    StartVectorEnrichmentJob,
     newStartVectorEnrichmentJob,
-    StartVectorEnrichmentJobResponse (StartVectorEnrichmentJobResponse'),
+    StartVectorEnrichmentJobResponse,
     newStartVectorEnrichmentJobResponse,
 
     -- ** StopEarthObservationJob
-    StopEarthObservationJob (StopEarthObservationJob'),
+    StopEarthObservationJob,
     newStopEarthObservationJob,
-    StopEarthObservationJobResponse (StopEarthObservationJobResponse'),
+    StopEarthObservationJobResponse,
     newStopEarthObservationJobResponse,
 
     -- ** StopVectorEnrichmentJob
-    StopVectorEnrichmentJob (StopVectorEnrichmentJob'),
+    StopVectorEnrichmentJob,
     newStopVectorEnrichmentJob,
-    StopVectorEnrichmentJobResponse (StopVectorEnrichmentJobResponse'),
+    StopVectorEnrichmentJobResponse,
     newStopVectorEnrichmentJobResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- * Types
@@ -238,239 +238,239 @@ module Amazonka.SageMakerGeoSpatial
     ZonalStatistics (..),
 
     -- ** AreaOfInterest
-    AreaOfInterest (AreaOfInterest'),
+    AreaOfInterest,
     newAreaOfInterest,
 
     -- ** AreaOfInterestGeometry
-    AreaOfInterestGeometry (AreaOfInterestGeometry'),
+    AreaOfInterestGeometry,
     newAreaOfInterestGeometry,
 
     -- ** AssetValue
-    AssetValue (AssetValue'),
+    AssetValue,
     newAssetValue,
 
     -- ** BandMathConfigInput
-    BandMathConfigInput (BandMathConfigInput'),
+    BandMathConfigInput,
     newBandMathConfigInput,
 
     -- ** CloudMaskingConfigInput
-    CloudMaskingConfigInput (CloudMaskingConfigInput'),
+    CloudMaskingConfigInput,
     newCloudMaskingConfigInput,
 
     -- ** CloudRemovalConfigInput
-    CloudRemovalConfigInput (CloudRemovalConfigInput'),
+    CloudRemovalConfigInput,
     newCloudRemovalConfigInput,
 
     -- ** CustomIndicesInput
-    CustomIndicesInput (CustomIndicesInput'),
+    CustomIndicesInput,
     newCustomIndicesInput,
 
     -- ** EarthObservationJobErrorDetails
-    EarthObservationJobErrorDetails (EarthObservationJobErrorDetails'),
+    EarthObservationJobErrorDetails,
     newEarthObservationJobErrorDetails,
 
     -- ** EoCloudCoverInput
-    EoCloudCoverInput (EoCloudCoverInput'),
+    EoCloudCoverInput,
     newEoCloudCoverInput,
 
     -- ** EojDataSourceConfigInput
-    EojDataSourceConfigInput (EojDataSourceConfigInput'),
+    EojDataSourceConfigInput,
     newEojDataSourceConfigInput,
 
     -- ** ExportErrorDetails
-    ExportErrorDetails (ExportErrorDetails'),
+    ExportErrorDetails,
     newExportErrorDetails,
 
     -- ** ExportErrorDetailsOutput
-    ExportErrorDetailsOutput (ExportErrorDetailsOutput'),
+    ExportErrorDetailsOutput,
     newExportErrorDetailsOutput,
 
     -- ** ExportS3DataInput
-    ExportS3DataInput (ExportS3DataInput'),
+    ExportS3DataInput,
     newExportS3DataInput,
 
     -- ** ExportVectorEnrichmentJobOutputConfig
-    ExportVectorEnrichmentJobOutputConfig (ExportVectorEnrichmentJobOutputConfig'),
+    ExportVectorEnrichmentJobOutputConfig,
     newExportVectorEnrichmentJobOutputConfig,
 
     -- ** Filter
-    Filter (Filter'),
+    Filter,
     newFilter,
 
     -- ** GeoMosaicConfigInput
-    GeoMosaicConfigInput (GeoMosaicConfigInput'),
+    GeoMosaicConfigInput,
     newGeoMosaicConfigInput,
 
     -- ** Geometry
-    Geometry (Geometry'),
+    Geometry,
     newGeometry,
 
     -- ** InputConfigInput
-    InputConfigInput (InputConfigInput'),
+    InputConfigInput,
     newInputConfigInput,
 
     -- ** InputConfigOutput
-    InputConfigOutput (InputConfigOutput'),
+    InputConfigOutput,
     newInputConfigOutput,
 
     -- ** ItemSource
-    ItemSource (ItemSource'),
+    ItemSource,
     newItemSource,
 
     -- ** JobConfigInput
-    JobConfigInput (JobConfigInput'),
+    JobConfigInput,
     newJobConfigInput,
 
     -- ** LandCoverSegmentationConfigInput
-    LandCoverSegmentationConfigInput (LandCoverSegmentationConfigInput'),
+    LandCoverSegmentationConfigInput,
     newLandCoverSegmentationConfigInput,
 
     -- ** LandsatCloudCoverLandInput
-    LandsatCloudCoverLandInput (LandsatCloudCoverLandInput'),
+    LandsatCloudCoverLandInput,
     newLandsatCloudCoverLandInput,
 
     -- ** ListEarthObservationJobOutputConfig
-    ListEarthObservationJobOutputConfig (ListEarthObservationJobOutputConfig'),
+    ListEarthObservationJobOutputConfig,
     newListEarthObservationJobOutputConfig,
 
     -- ** ListVectorEnrichmentJobOutputConfig
-    ListVectorEnrichmentJobOutputConfig (ListVectorEnrichmentJobOutputConfig'),
+    ListVectorEnrichmentJobOutputConfig,
     newListVectorEnrichmentJobOutputConfig,
 
     -- ** MapMatchingConfig
-    MapMatchingConfig (MapMatchingConfig'),
+    MapMatchingConfig,
     newMapMatchingConfig,
 
     -- ** MultiPolygonGeometryInput
-    MultiPolygonGeometryInput (MultiPolygonGeometryInput'),
+    MultiPolygonGeometryInput,
     newMultiPolygonGeometryInput,
 
     -- ** Operation
-    Operation (Operation'),
+    Operation,
     newOperation,
 
     -- ** OutputBand
-    OutputBand (OutputBand'),
+    OutputBand,
     newOutputBand,
 
     -- ** OutputConfigInput
-    OutputConfigInput (OutputConfigInput'),
+    OutputConfigInput,
     newOutputConfigInput,
 
     -- ** OutputResolutionResamplingInput
-    OutputResolutionResamplingInput (OutputResolutionResamplingInput'),
+    OutputResolutionResamplingInput,
     newOutputResolutionResamplingInput,
 
     -- ** OutputResolutionStackInput
-    OutputResolutionStackInput (OutputResolutionStackInput'),
+    OutputResolutionStackInput,
     newOutputResolutionStackInput,
 
     -- ** PlatformInput
-    PlatformInput (PlatformInput'),
+    PlatformInput,
     newPlatformInput,
 
     -- ** PolygonGeometryInput
-    PolygonGeometryInput (PolygonGeometryInput'),
+    PolygonGeometryInput,
     newPolygonGeometryInput,
 
     -- ** Properties
-    Properties (Properties'),
+    Properties,
     newProperties,
 
     -- ** Property
-    Property (Property'),
+    Property,
     newProperty,
 
     -- ** PropertyFilter
-    PropertyFilter (PropertyFilter'),
+    PropertyFilter,
     newPropertyFilter,
 
     -- ** PropertyFilters
-    PropertyFilters (PropertyFilters'),
+    PropertyFilters,
     newPropertyFilters,
 
     -- ** RasterDataCollectionMetadata
-    RasterDataCollectionMetadata (RasterDataCollectionMetadata'),
+    RasterDataCollectionMetadata,
     newRasterDataCollectionMetadata,
 
     -- ** RasterDataCollectionQueryInput
-    RasterDataCollectionQueryInput (RasterDataCollectionQueryInput'),
+    RasterDataCollectionQueryInput,
     newRasterDataCollectionQueryInput,
 
     -- ** RasterDataCollectionQueryOutput
-    RasterDataCollectionQueryOutput (RasterDataCollectionQueryOutput'),
+    RasterDataCollectionQueryOutput,
     newRasterDataCollectionQueryOutput,
 
     -- ** RasterDataCollectionQueryWithBandFilterInput
-    RasterDataCollectionQueryWithBandFilterInput (RasterDataCollectionQueryWithBandFilterInput'),
+    RasterDataCollectionQueryWithBandFilterInput,
     newRasterDataCollectionQueryWithBandFilterInput,
 
     -- ** ResamplingConfigInput
-    ResamplingConfigInput (ResamplingConfigInput'),
+    ResamplingConfigInput,
     newResamplingConfigInput,
 
     -- ** ReverseGeocodingConfig
-    ReverseGeocodingConfig (ReverseGeocodingConfig'),
+    ReverseGeocodingConfig,
     newReverseGeocodingConfig,
 
     -- ** S3DataInput
-    S3DataInput (S3DataInput'),
+    S3DataInput,
     newS3DataInput,
 
     -- ** StackConfigInput
-    StackConfigInput (StackConfigInput'),
+    StackConfigInput,
     newStackConfigInput,
 
     -- ** TemporalStatisticsConfigInput
-    TemporalStatisticsConfigInput (TemporalStatisticsConfigInput'),
+    TemporalStatisticsConfigInput,
     newTemporalStatisticsConfigInput,
 
     -- ** TimeRangeFilterInput
-    TimeRangeFilterInput (TimeRangeFilterInput'),
+    TimeRangeFilterInput,
     newTimeRangeFilterInput,
 
     -- ** UserDefined
-    UserDefined (UserDefined'),
+    UserDefined,
     newUserDefined,
 
     -- ** VectorEnrichmentJobConfig
-    VectorEnrichmentJobConfig (VectorEnrichmentJobConfig'),
+    VectorEnrichmentJobConfig,
     newVectorEnrichmentJobConfig,
 
     -- ** VectorEnrichmentJobDataSourceConfigInput
-    VectorEnrichmentJobDataSourceConfigInput (VectorEnrichmentJobDataSourceConfigInput'),
+    VectorEnrichmentJobDataSourceConfigInput,
     newVectorEnrichmentJobDataSourceConfigInput,
 
     -- ** VectorEnrichmentJobErrorDetails
-    VectorEnrichmentJobErrorDetails (VectorEnrichmentJobErrorDetails'),
+    VectorEnrichmentJobErrorDetails,
     newVectorEnrichmentJobErrorDetails,
 
     -- ** VectorEnrichmentJobExportErrorDetails
-    VectorEnrichmentJobExportErrorDetails (VectorEnrichmentJobExportErrorDetails'),
+    VectorEnrichmentJobExportErrorDetails,
     newVectorEnrichmentJobExportErrorDetails,
 
     -- ** VectorEnrichmentJobInputConfig
-    VectorEnrichmentJobInputConfig (VectorEnrichmentJobInputConfig'),
+    VectorEnrichmentJobInputConfig,
     newVectorEnrichmentJobInputConfig,
 
     -- ** VectorEnrichmentJobS3Data
-    VectorEnrichmentJobS3Data (VectorEnrichmentJobS3Data'),
+    VectorEnrichmentJobS3Data,
     newVectorEnrichmentJobS3Data,
 
     -- ** ViewOffNadirInput
-    ViewOffNadirInput (ViewOffNadirInput'),
+    ViewOffNadirInput,
     newViewOffNadirInput,
 
     -- ** ViewSunAzimuthInput
-    ViewSunAzimuthInput (ViewSunAzimuthInput'),
+    ViewSunAzimuthInput,
     newViewSunAzimuthInput,
 
     -- ** ViewSunElevationInput
-    ViewSunElevationInput (ViewSunElevationInput'),
+    ViewSunElevationInput,
     newViewSunElevationInput,
 
     -- ** ZonalStatisticsConfigInput
-    ZonalStatisticsConfigInput (ZonalStatisticsConfigInput'),
+    ZonalStatisticsConfigInput,
     newZonalStatisticsConfigInput,
   )
 where

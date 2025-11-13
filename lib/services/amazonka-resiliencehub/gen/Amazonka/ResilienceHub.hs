@@ -53,237 +53,237 @@ module Amazonka.ResilienceHub
     -- $operations
 
     -- ** AddDraftAppVersionResourceMappings
-    AddDraftAppVersionResourceMappings (AddDraftAppVersionResourceMappings'),
+    AddDraftAppVersionResourceMappings,
     newAddDraftAppVersionResourceMappings,
-    AddDraftAppVersionResourceMappingsResponse (AddDraftAppVersionResourceMappingsResponse'),
+    AddDraftAppVersionResourceMappingsResponse,
     newAddDraftAppVersionResourceMappingsResponse,
 
     -- ** CreateApp
-    CreateApp (CreateApp'),
+    CreateApp,
     newCreateApp,
-    CreateAppResponse (CreateAppResponse'),
+    CreateAppResponse,
     newCreateAppResponse,
 
     -- ** CreateRecommendationTemplate
-    CreateRecommendationTemplate (CreateRecommendationTemplate'),
+    CreateRecommendationTemplate,
     newCreateRecommendationTemplate,
-    CreateRecommendationTemplateResponse (CreateRecommendationTemplateResponse'),
+    CreateRecommendationTemplateResponse,
     newCreateRecommendationTemplateResponse,
 
     -- ** CreateResiliencyPolicy
-    CreateResiliencyPolicy (CreateResiliencyPolicy'),
+    CreateResiliencyPolicy,
     newCreateResiliencyPolicy,
-    CreateResiliencyPolicyResponse (CreateResiliencyPolicyResponse'),
+    CreateResiliencyPolicyResponse,
     newCreateResiliencyPolicyResponse,
 
     -- ** DeleteApp
-    DeleteApp (DeleteApp'),
+    DeleteApp,
     newDeleteApp,
-    DeleteAppResponse (DeleteAppResponse'),
+    DeleteAppResponse,
     newDeleteAppResponse,
 
     -- ** DeleteAppAssessment
-    DeleteAppAssessment (DeleteAppAssessment'),
+    DeleteAppAssessment,
     newDeleteAppAssessment,
-    DeleteAppAssessmentResponse (DeleteAppAssessmentResponse'),
+    DeleteAppAssessmentResponse,
     newDeleteAppAssessmentResponse,
 
     -- ** DeleteRecommendationTemplate
-    DeleteRecommendationTemplate (DeleteRecommendationTemplate'),
+    DeleteRecommendationTemplate,
     newDeleteRecommendationTemplate,
-    DeleteRecommendationTemplateResponse (DeleteRecommendationTemplateResponse'),
+    DeleteRecommendationTemplateResponse,
     newDeleteRecommendationTemplateResponse,
 
     -- ** DeleteResiliencyPolicy
-    DeleteResiliencyPolicy (DeleteResiliencyPolicy'),
+    DeleteResiliencyPolicy,
     newDeleteResiliencyPolicy,
-    DeleteResiliencyPolicyResponse (DeleteResiliencyPolicyResponse'),
+    DeleteResiliencyPolicyResponse,
     newDeleteResiliencyPolicyResponse,
 
     -- ** DescribeApp
-    DescribeApp (DescribeApp'),
+    DescribeApp,
     newDescribeApp,
-    DescribeAppResponse (DescribeAppResponse'),
+    DescribeAppResponse,
     newDescribeAppResponse,
 
     -- ** DescribeAppAssessment
-    DescribeAppAssessment (DescribeAppAssessment'),
+    DescribeAppAssessment,
     newDescribeAppAssessment,
-    DescribeAppAssessmentResponse (DescribeAppAssessmentResponse'),
+    DescribeAppAssessmentResponse,
     newDescribeAppAssessmentResponse,
 
     -- ** DescribeAppVersionResourcesResolutionStatus
-    DescribeAppVersionResourcesResolutionStatus (DescribeAppVersionResourcesResolutionStatus'),
+    DescribeAppVersionResourcesResolutionStatus,
     newDescribeAppVersionResourcesResolutionStatus,
-    DescribeAppVersionResourcesResolutionStatusResponse (DescribeAppVersionResourcesResolutionStatusResponse'),
+    DescribeAppVersionResourcesResolutionStatusResponse,
     newDescribeAppVersionResourcesResolutionStatusResponse,
 
     -- ** DescribeAppVersionTemplate
-    DescribeAppVersionTemplate (DescribeAppVersionTemplate'),
+    DescribeAppVersionTemplate,
     newDescribeAppVersionTemplate,
-    DescribeAppVersionTemplateResponse (DescribeAppVersionTemplateResponse'),
+    DescribeAppVersionTemplateResponse,
     newDescribeAppVersionTemplateResponse,
 
     -- ** DescribeDraftAppVersionResourcesImportStatus
-    DescribeDraftAppVersionResourcesImportStatus (DescribeDraftAppVersionResourcesImportStatus'),
+    DescribeDraftAppVersionResourcesImportStatus,
     newDescribeDraftAppVersionResourcesImportStatus,
-    DescribeDraftAppVersionResourcesImportStatusResponse (DescribeDraftAppVersionResourcesImportStatusResponse'),
+    DescribeDraftAppVersionResourcesImportStatusResponse,
     newDescribeDraftAppVersionResourcesImportStatusResponse,
 
     -- ** DescribeResiliencyPolicy
-    DescribeResiliencyPolicy (DescribeResiliencyPolicy'),
+    DescribeResiliencyPolicy,
     newDescribeResiliencyPolicy,
-    DescribeResiliencyPolicyResponse (DescribeResiliencyPolicyResponse'),
+    DescribeResiliencyPolicyResponse,
     newDescribeResiliencyPolicyResponse,
 
     -- ** ImportResourcesToDraftAppVersion
-    ImportResourcesToDraftAppVersion (ImportResourcesToDraftAppVersion'),
+    ImportResourcesToDraftAppVersion,
     newImportResourcesToDraftAppVersion,
-    ImportResourcesToDraftAppVersionResponse (ImportResourcesToDraftAppVersionResponse'),
+    ImportResourcesToDraftAppVersionResponse,
     newImportResourcesToDraftAppVersionResponse,
 
     -- ** ListAlarmRecommendations
-    ListAlarmRecommendations (ListAlarmRecommendations'),
+    ListAlarmRecommendations,
     newListAlarmRecommendations,
-    ListAlarmRecommendationsResponse (ListAlarmRecommendationsResponse'),
+    ListAlarmRecommendationsResponse,
     newListAlarmRecommendationsResponse,
 
     -- ** ListAppAssessments
-    ListAppAssessments (ListAppAssessments'),
+    ListAppAssessments,
     newListAppAssessments,
-    ListAppAssessmentsResponse (ListAppAssessmentsResponse'),
+    ListAppAssessmentsResponse,
     newListAppAssessmentsResponse,
 
     -- ** ListAppComponentCompliances
-    ListAppComponentCompliances (ListAppComponentCompliances'),
+    ListAppComponentCompliances,
     newListAppComponentCompliances,
-    ListAppComponentCompliancesResponse (ListAppComponentCompliancesResponse'),
+    ListAppComponentCompliancesResponse,
     newListAppComponentCompliancesResponse,
 
     -- ** ListAppComponentRecommendations
-    ListAppComponentRecommendations (ListAppComponentRecommendations'),
+    ListAppComponentRecommendations,
     newListAppComponentRecommendations,
-    ListAppComponentRecommendationsResponse (ListAppComponentRecommendationsResponse'),
+    ListAppComponentRecommendationsResponse,
     newListAppComponentRecommendationsResponse,
 
     -- ** ListAppVersionResourceMappings
-    ListAppVersionResourceMappings (ListAppVersionResourceMappings'),
+    ListAppVersionResourceMappings,
     newListAppVersionResourceMappings,
-    ListAppVersionResourceMappingsResponse (ListAppVersionResourceMappingsResponse'),
+    ListAppVersionResourceMappingsResponse,
     newListAppVersionResourceMappingsResponse,
 
     -- ** ListAppVersionResources
-    ListAppVersionResources (ListAppVersionResources'),
+    ListAppVersionResources,
     newListAppVersionResources,
-    ListAppVersionResourcesResponse (ListAppVersionResourcesResponse'),
+    ListAppVersionResourcesResponse,
     newListAppVersionResourcesResponse,
 
     -- ** ListAppVersions
-    ListAppVersions (ListAppVersions'),
+    ListAppVersions,
     newListAppVersions,
-    ListAppVersionsResponse (ListAppVersionsResponse'),
+    ListAppVersionsResponse,
     newListAppVersionsResponse,
 
     -- ** ListApps
-    ListApps (ListApps'),
+    ListApps,
     newListApps,
-    ListAppsResponse (ListAppsResponse'),
+    ListAppsResponse,
     newListAppsResponse,
 
     -- ** ListRecommendationTemplates
-    ListRecommendationTemplates (ListRecommendationTemplates'),
+    ListRecommendationTemplates,
     newListRecommendationTemplates,
-    ListRecommendationTemplatesResponse (ListRecommendationTemplatesResponse'),
+    ListRecommendationTemplatesResponse,
     newListRecommendationTemplatesResponse,
 
     -- ** ListResiliencyPolicies
-    ListResiliencyPolicies (ListResiliencyPolicies'),
+    ListResiliencyPolicies,
     newListResiliencyPolicies,
-    ListResiliencyPoliciesResponse (ListResiliencyPoliciesResponse'),
+    ListResiliencyPoliciesResponse,
     newListResiliencyPoliciesResponse,
 
     -- ** ListSopRecommendations
-    ListSopRecommendations (ListSopRecommendations'),
+    ListSopRecommendations,
     newListSopRecommendations,
-    ListSopRecommendationsResponse (ListSopRecommendationsResponse'),
+    ListSopRecommendationsResponse,
     newListSopRecommendationsResponse,
 
     -- ** ListSuggestedResiliencyPolicies
-    ListSuggestedResiliencyPolicies (ListSuggestedResiliencyPolicies'),
+    ListSuggestedResiliencyPolicies,
     newListSuggestedResiliencyPolicies,
-    ListSuggestedResiliencyPoliciesResponse (ListSuggestedResiliencyPoliciesResponse'),
+    ListSuggestedResiliencyPoliciesResponse,
     newListSuggestedResiliencyPoliciesResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** ListTestRecommendations
-    ListTestRecommendations (ListTestRecommendations'),
+    ListTestRecommendations,
     newListTestRecommendations,
-    ListTestRecommendationsResponse (ListTestRecommendationsResponse'),
+    ListTestRecommendationsResponse,
     newListTestRecommendationsResponse,
 
     -- ** ListUnsupportedAppVersionResources
-    ListUnsupportedAppVersionResources (ListUnsupportedAppVersionResources'),
+    ListUnsupportedAppVersionResources,
     newListUnsupportedAppVersionResources,
-    ListUnsupportedAppVersionResourcesResponse (ListUnsupportedAppVersionResourcesResponse'),
+    ListUnsupportedAppVersionResourcesResponse,
     newListUnsupportedAppVersionResourcesResponse,
 
     -- ** PublishAppVersion
-    PublishAppVersion (PublishAppVersion'),
+    PublishAppVersion,
     newPublishAppVersion,
-    PublishAppVersionResponse (PublishAppVersionResponse'),
+    PublishAppVersionResponse,
     newPublishAppVersionResponse,
 
     -- ** PutDraftAppVersionTemplate
-    PutDraftAppVersionTemplate (PutDraftAppVersionTemplate'),
+    PutDraftAppVersionTemplate,
     newPutDraftAppVersionTemplate,
-    PutDraftAppVersionTemplateResponse (PutDraftAppVersionTemplateResponse'),
+    PutDraftAppVersionTemplateResponse,
     newPutDraftAppVersionTemplateResponse,
 
     -- ** RemoveDraftAppVersionResourceMappings
-    RemoveDraftAppVersionResourceMappings (RemoveDraftAppVersionResourceMappings'),
+    RemoveDraftAppVersionResourceMappings,
     newRemoveDraftAppVersionResourceMappings,
-    RemoveDraftAppVersionResourceMappingsResponse (RemoveDraftAppVersionResourceMappingsResponse'),
+    RemoveDraftAppVersionResourceMappingsResponse,
     newRemoveDraftAppVersionResourceMappingsResponse,
 
     -- ** ResolveAppVersionResources
-    ResolveAppVersionResources (ResolveAppVersionResources'),
+    ResolveAppVersionResources,
     newResolveAppVersionResources,
-    ResolveAppVersionResourcesResponse (ResolveAppVersionResourcesResponse'),
+    ResolveAppVersionResourcesResponse,
     newResolveAppVersionResourcesResponse,
 
     -- ** StartAppAssessment
-    StartAppAssessment (StartAppAssessment'),
+    StartAppAssessment,
     newStartAppAssessment,
-    StartAppAssessmentResponse (StartAppAssessmentResponse'),
+    StartAppAssessmentResponse,
     newStartAppAssessmentResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateApp
-    UpdateApp (UpdateApp'),
+    UpdateApp,
     newUpdateApp,
-    UpdateAppResponse (UpdateAppResponse'),
+    UpdateAppResponse,
     newUpdateAppResponse,
 
     -- ** UpdateResiliencyPolicy
-    UpdateResiliencyPolicy (UpdateResiliencyPolicy'),
+    UpdateResiliencyPolicy,
     newUpdateResiliencyPolicy,
-    UpdateResiliencyPolicyResponse (UpdateResiliencyPolicyResponse'),
+    UpdateResiliencyPolicyResponse,
     newUpdateResiliencyPolicyResponse,
 
     -- * Types
@@ -364,119 +364,119 @@ module Amazonka.ResilienceHub
     TestType (..),
 
     -- ** AlarmRecommendation
-    AlarmRecommendation (AlarmRecommendation'),
+    AlarmRecommendation,
     newAlarmRecommendation,
 
     -- ** App
-    App (App'),
+    App,
     newApp,
 
     -- ** AppAssessment
-    AppAssessment (AppAssessment'),
+    AppAssessment,
     newAppAssessment,
 
     -- ** AppAssessmentSummary
-    AppAssessmentSummary (AppAssessmentSummary'),
+    AppAssessmentSummary,
     newAppAssessmentSummary,
 
     -- ** AppComponent
-    AppComponent (AppComponent'),
+    AppComponent,
     newAppComponent,
 
     -- ** AppComponentCompliance
-    AppComponentCompliance (AppComponentCompliance'),
+    AppComponentCompliance,
     newAppComponentCompliance,
 
     -- ** AppSummary
-    AppSummary (AppSummary'),
+    AppSummary,
     newAppSummary,
 
     -- ** AppVersionSummary
-    AppVersionSummary (AppVersionSummary'),
+    AppVersionSummary,
     newAppVersionSummary,
 
     -- ** ComponentRecommendation
-    ComponentRecommendation (ComponentRecommendation'),
+    ComponentRecommendation,
     newComponentRecommendation,
 
     -- ** ConfigRecommendation
-    ConfigRecommendation (ConfigRecommendation'),
+    ConfigRecommendation,
     newConfigRecommendation,
 
     -- ** Cost
-    Cost (Cost'),
+    Cost,
     newCost,
 
     -- ** DisruptionCompliance
-    DisruptionCompliance (DisruptionCompliance'),
+    DisruptionCompliance,
     newDisruptionCompliance,
 
     -- ** FailurePolicy
-    FailurePolicy (FailurePolicy'),
+    FailurePolicy,
     newFailurePolicy,
 
     -- ** LogicalResourceId
-    LogicalResourceId (LogicalResourceId'),
+    LogicalResourceId,
     newLogicalResourceId,
 
     -- ** PhysicalResource
-    PhysicalResource (PhysicalResource'),
+    PhysicalResource,
     newPhysicalResource,
 
     -- ** PhysicalResourceId
-    PhysicalResourceId (PhysicalResourceId'),
+    PhysicalResourceId,
     newPhysicalResourceId,
 
     -- ** RecommendationDisruptionCompliance
-    RecommendationDisruptionCompliance (RecommendationDisruptionCompliance'),
+    RecommendationDisruptionCompliance,
     newRecommendationDisruptionCompliance,
 
     -- ** RecommendationItem
-    RecommendationItem (RecommendationItem'),
+    RecommendationItem,
     newRecommendationItem,
 
     -- ** RecommendationTemplate
-    RecommendationTemplate (RecommendationTemplate'),
+    RecommendationTemplate,
     newRecommendationTemplate,
 
     -- ** ResiliencyPolicy
-    ResiliencyPolicy (ResiliencyPolicy'),
+    ResiliencyPolicy,
     newResiliencyPolicy,
 
     -- ** ResiliencyScore
-    ResiliencyScore (ResiliencyScore'),
+    ResiliencyScore,
     newResiliencyScore,
 
     -- ** ResourceError
-    ResourceError (ResourceError'),
+    ResourceError,
     newResourceError,
 
     -- ** ResourceErrorsDetails
-    ResourceErrorsDetails (ResourceErrorsDetails'),
+    ResourceErrorsDetails,
     newResourceErrorsDetails,
 
     -- ** ResourceMapping
-    ResourceMapping (ResourceMapping'),
+    ResourceMapping,
     newResourceMapping,
 
     -- ** S3Location
-    S3Location (S3Location'),
+    S3Location,
     newS3Location,
 
     -- ** SopRecommendation
-    SopRecommendation (SopRecommendation'),
+    SopRecommendation,
     newSopRecommendation,
 
     -- ** TerraformSource
-    TerraformSource (TerraformSource'),
+    TerraformSource,
     newTerraformSource,
 
     -- ** TestRecommendation
-    TestRecommendation (TestRecommendation'),
+    TestRecommendation,
     newTestRecommendation,
 
     -- ** UnsupportedResource
-    UnsupportedResource (UnsupportedResource'),
+    UnsupportedResource,
     newUnsupportedResource,
   )
 where

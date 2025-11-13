@@ -49,147 +49,147 @@ module Amazonka.Batch
     -- $operations
 
     -- ** CancelJob
-    CancelJob (CancelJob'),
+    CancelJob,
     newCancelJob,
-    CancelJobResponse (CancelJobResponse'),
+    CancelJobResponse,
     newCancelJobResponse,
 
     -- ** CreateComputeEnvironment
-    CreateComputeEnvironment (CreateComputeEnvironment'),
+    CreateComputeEnvironment,
     newCreateComputeEnvironment,
-    CreateComputeEnvironmentResponse (CreateComputeEnvironmentResponse'),
+    CreateComputeEnvironmentResponse,
     newCreateComputeEnvironmentResponse,
 
     -- ** CreateJobQueue
-    CreateJobQueue (CreateJobQueue'),
+    CreateJobQueue,
     newCreateJobQueue,
-    CreateJobQueueResponse (CreateJobQueueResponse'),
+    CreateJobQueueResponse,
     newCreateJobQueueResponse,
 
     -- ** CreateSchedulingPolicy
-    CreateSchedulingPolicy (CreateSchedulingPolicy'),
+    CreateSchedulingPolicy,
     newCreateSchedulingPolicy,
-    CreateSchedulingPolicyResponse (CreateSchedulingPolicyResponse'),
+    CreateSchedulingPolicyResponse,
     newCreateSchedulingPolicyResponse,
 
     -- ** DeleteComputeEnvironment
-    DeleteComputeEnvironment (DeleteComputeEnvironment'),
+    DeleteComputeEnvironment,
     newDeleteComputeEnvironment,
-    DeleteComputeEnvironmentResponse (DeleteComputeEnvironmentResponse'),
+    DeleteComputeEnvironmentResponse,
     newDeleteComputeEnvironmentResponse,
 
     -- ** DeleteJobQueue
-    DeleteJobQueue (DeleteJobQueue'),
+    DeleteJobQueue,
     newDeleteJobQueue,
-    DeleteJobQueueResponse (DeleteJobQueueResponse'),
+    DeleteJobQueueResponse,
     newDeleteJobQueueResponse,
 
     -- ** DeleteSchedulingPolicy
-    DeleteSchedulingPolicy (DeleteSchedulingPolicy'),
+    DeleteSchedulingPolicy,
     newDeleteSchedulingPolicy,
-    DeleteSchedulingPolicyResponse (DeleteSchedulingPolicyResponse'),
+    DeleteSchedulingPolicyResponse,
     newDeleteSchedulingPolicyResponse,
 
     -- ** DeregisterJobDefinition
-    DeregisterJobDefinition (DeregisterJobDefinition'),
+    DeregisterJobDefinition,
     newDeregisterJobDefinition,
-    DeregisterJobDefinitionResponse (DeregisterJobDefinitionResponse'),
+    DeregisterJobDefinitionResponse,
     newDeregisterJobDefinitionResponse,
 
     -- ** DescribeComputeEnvironments (Paginated)
-    DescribeComputeEnvironments (DescribeComputeEnvironments'),
+    DescribeComputeEnvironments,
     newDescribeComputeEnvironments,
-    DescribeComputeEnvironmentsResponse (DescribeComputeEnvironmentsResponse'),
+    DescribeComputeEnvironmentsResponse,
     newDescribeComputeEnvironmentsResponse,
 
     -- ** DescribeJobDefinitions (Paginated)
-    DescribeJobDefinitions (DescribeJobDefinitions'),
+    DescribeJobDefinitions,
     newDescribeJobDefinitions,
-    DescribeJobDefinitionsResponse (DescribeJobDefinitionsResponse'),
+    DescribeJobDefinitionsResponse,
     newDescribeJobDefinitionsResponse,
 
     -- ** DescribeJobQueues (Paginated)
-    DescribeJobQueues (DescribeJobQueues'),
+    DescribeJobQueues,
     newDescribeJobQueues,
-    DescribeJobQueuesResponse (DescribeJobQueuesResponse'),
+    DescribeJobQueuesResponse,
     newDescribeJobQueuesResponse,
 
     -- ** DescribeJobs
-    DescribeJobs (DescribeJobs'),
+    DescribeJobs,
     newDescribeJobs,
-    DescribeJobsResponse (DescribeJobsResponse'),
+    DescribeJobsResponse,
     newDescribeJobsResponse,
 
     -- ** DescribeSchedulingPolicies
-    DescribeSchedulingPolicies (DescribeSchedulingPolicies'),
+    DescribeSchedulingPolicies,
     newDescribeSchedulingPolicies,
-    DescribeSchedulingPoliciesResponse (DescribeSchedulingPoliciesResponse'),
+    DescribeSchedulingPoliciesResponse,
     newDescribeSchedulingPoliciesResponse,
 
     -- ** ListJobs (Paginated)
-    ListJobs (ListJobs'),
+    ListJobs,
     newListJobs,
-    ListJobsResponse (ListJobsResponse'),
+    ListJobsResponse,
     newListJobsResponse,
 
     -- ** ListSchedulingPolicies (Paginated)
-    ListSchedulingPolicies (ListSchedulingPolicies'),
+    ListSchedulingPolicies,
     newListSchedulingPolicies,
-    ListSchedulingPoliciesResponse (ListSchedulingPoliciesResponse'),
+    ListSchedulingPoliciesResponse,
     newListSchedulingPoliciesResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** RegisterJobDefinition
-    RegisterJobDefinition (RegisterJobDefinition'),
+    RegisterJobDefinition,
     newRegisterJobDefinition,
-    RegisterJobDefinitionResponse (RegisterJobDefinitionResponse'),
+    RegisterJobDefinitionResponse,
     newRegisterJobDefinitionResponse,
 
     -- ** SubmitJob
-    SubmitJob (SubmitJob'),
+    SubmitJob,
     newSubmitJob,
-    SubmitJobResponse (SubmitJobResponse'),
+    SubmitJobResponse,
     newSubmitJobResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** TerminateJob
-    TerminateJob (TerminateJob'),
+    TerminateJob,
     newTerminateJob,
-    TerminateJobResponse (TerminateJobResponse'),
+    TerminateJobResponse,
     newTerminateJobResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateComputeEnvironment
-    UpdateComputeEnvironment (UpdateComputeEnvironment'),
+    UpdateComputeEnvironment,
     newUpdateComputeEnvironment,
-    UpdateComputeEnvironmentResponse (UpdateComputeEnvironmentResponse'),
+    UpdateComputeEnvironmentResponse,
     newUpdateComputeEnvironmentResponse,
 
     -- ** UpdateJobQueue
-    UpdateJobQueue (UpdateJobQueue'),
+    UpdateJobQueue,
     newUpdateJobQueue,
-    UpdateJobQueueResponse (UpdateJobQueueResponse'),
+    UpdateJobQueueResponse,
     newUpdateJobQueueResponse,
 
     -- ** UpdateSchedulingPolicy
-    UpdateSchedulingPolicy (UpdateSchedulingPolicy'),
+    UpdateSchedulingPolicy,
     newUpdateSchedulingPolicy,
-    UpdateSchedulingPolicyResponse (UpdateSchedulingPolicyResponse'),
+    UpdateSchedulingPolicyResponse,
     newUpdateSchedulingPolicyResponse,
 
     -- * Types
@@ -255,287 +255,287 @@ module Amazonka.Batch
     RetryAction (..),
 
     -- ** ArrayProperties
-    ArrayProperties (ArrayProperties'),
+    ArrayProperties,
     newArrayProperties,
 
     -- ** ArrayPropertiesDetail
-    ArrayPropertiesDetail (ArrayPropertiesDetail'),
+    ArrayPropertiesDetail,
     newArrayPropertiesDetail,
 
     -- ** ArrayPropertiesSummary
-    ArrayPropertiesSummary (ArrayPropertiesSummary'),
+    ArrayPropertiesSummary,
     newArrayPropertiesSummary,
 
     -- ** AttemptContainerDetail
-    AttemptContainerDetail (AttemptContainerDetail'),
+    AttemptContainerDetail,
     newAttemptContainerDetail,
 
     -- ** AttemptDetail
-    AttemptDetail (AttemptDetail'),
+    AttemptDetail,
     newAttemptDetail,
 
     -- ** ComputeEnvironmentDetail
-    ComputeEnvironmentDetail (ComputeEnvironmentDetail'),
+    ComputeEnvironmentDetail,
     newComputeEnvironmentDetail,
 
     -- ** ComputeEnvironmentOrder
-    ComputeEnvironmentOrder (ComputeEnvironmentOrder'),
+    ComputeEnvironmentOrder,
     newComputeEnvironmentOrder,
 
     -- ** ComputeResource
-    ComputeResource (ComputeResource'),
+    ComputeResource,
     newComputeResource,
 
     -- ** ComputeResourceUpdate
-    ComputeResourceUpdate (ComputeResourceUpdate'),
+    ComputeResourceUpdate,
     newComputeResourceUpdate,
 
     -- ** ContainerDetail
-    ContainerDetail (ContainerDetail'),
+    ContainerDetail,
     newContainerDetail,
 
     -- ** ContainerOverrides
-    ContainerOverrides (ContainerOverrides'),
+    ContainerOverrides,
     newContainerOverrides,
 
     -- ** ContainerProperties
-    ContainerProperties (ContainerProperties'),
+    ContainerProperties,
     newContainerProperties,
 
     -- ** ContainerSummary
-    ContainerSummary (ContainerSummary'),
+    ContainerSummary,
     newContainerSummary,
 
     -- ** Device
-    Device (Device'),
+    Device,
     newDevice,
 
     -- ** EFSAuthorizationConfig
-    EFSAuthorizationConfig (EFSAuthorizationConfig'),
+    EFSAuthorizationConfig,
     newEFSAuthorizationConfig,
 
     -- ** EFSVolumeConfiguration
-    EFSVolumeConfiguration (EFSVolumeConfiguration'),
+    EFSVolumeConfiguration,
     newEFSVolumeConfiguration,
 
     -- ** Ec2Configuration
-    Ec2Configuration (Ec2Configuration'),
+    Ec2Configuration,
     newEc2Configuration,
 
     -- ** EksAttemptContainerDetail
-    EksAttemptContainerDetail (EksAttemptContainerDetail'),
+    EksAttemptContainerDetail,
     newEksAttemptContainerDetail,
 
     -- ** EksAttemptDetail
-    EksAttemptDetail (EksAttemptDetail'),
+    EksAttemptDetail,
     newEksAttemptDetail,
 
     -- ** EksConfiguration
-    EksConfiguration (EksConfiguration'),
+    EksConfiguration,
     newEksConfiguration,
 
     -- ** EksContainer
-    EksContainer (EksContainer'),
+    EksContainer,
     newEksContainer,
 
     -- ** EksContainerDetail
-    EksContainerDetail (EksContainerDetail'),
+    EksContainerDetail,
     newEksContainerDetail,
 
     -- ** EksContainerEnvironmentVariable
-    EksContainerEnvironmentVariable (EksContainerEnvironmentVariable'),
+    EksContainerEnvironmentVariable,
     newEksContainerEnvironmentVariable,
 
     -- ** EksContainerOverride
-    EksContainerOverride (EksContainerOverride'),
+    EksContainerOverride,
     newEksContainerOverride,
 
     -- ** EksContainerResourceRequirements
-    EksContainerResourceRequirements (EksContainerResourceRequirements'),
+    EksContainerResourceRequirements,
     newEksContainerResourceRequirements,
 
     -- ** EksContainerSecurityContext
-    EksContainerSecurityContext (EksContainerSecurityContext'),
+    EksContainerSecurityContext,
     newEksContainerSecurityContext,
 
     -- ** EksContainerVolumeMount
-    EksContainerVolumeMount (EksContainerVolumeMount'),
+    EksContainerVolumeMount,
     newEksContainerVolumeMount,
 
     -- ** EksEmptyDir
-    EksEmptyDir (EksEmptyDir'),
+    EksEmptyDir,
     newEksEmptyDir,
 
     -- ** EksHostPath
-    EksHostPath (EksHostPath'),
+    EksHostPath,
     newEksHostPath,
 
     -- ** EksPodProperties
-    EksPodProperties (EksPodProperties'),
+    EksPodProperties,
     newEksPodProperties,
 
     -- ** EksPodPropertiesDetail
-    EksPodPropertiesDetail (EksPodPropertiesDetail'),
+    EksPodPropertiesDetail,
     newEksPodPropertiesDetail,
 
     -- ** EksPodPropertiesOverride
-    EksPodPropertiesOverride (EksPodPropertiesOverride'),
+    EksPodPropertiesOverride,
     newEksPodPropertiesOverride,
 
     -- ** EksProperties
-    EksProperties (EksProperties'),
+    EksProperties,
     newEksProperties,
 
     -- ** EksPropertiesDetail
-    EksPropertiesDetail (EksPropertiesDetail'),
+    EksPropertiesDetail,
     newEksPropertiesDetail,
 
     -- ** EksPropertiesOverride
-    EksPropertiesOverride (EksPropertiesOverride'),
+    EksPropertiesOverride,
     newEksPropertiesOverride,
 
     -- ** EksSecret
-    EksSecret (EksSecret'),
+    EksSecret,
     newEksSecret,
 
     -- ** EksVolume
-    EksVolume (EksVolume'),
+    EksVolume,
     newEksVolume,
 
     -- ** EvaluateOnExit
-    EvaluateOnExit (EvaluateOnExit'),
+    EvaluateOnExit,
     newEvaluateOnExit,
 
     -- ** FairsharePolicy
-    FairsharePolicy (FairsharePolicy'),
+    FairsharePolicy,
     newFairsharePolicy,
 
     -- ** FargatePlatformConfiguration
-    FargatePlatformConfiguration (FargatePlatformConfiguration'),
+    FargatePlatformConfiguration,
     newFargatePlatformConfiguration,
 
     -- ** Host
-    Host (Host'),
+    Host,
     newHost,
 
     -- ** JobDefinition
-    JobDefinition (JobDefinition'),
+    JobDefinition,
     newJobDefinition,
 
     -- ** JobDependency
-    JobDependency (JobDependency'),
+    JobDependency,
     newJobDependency,
 
     -- ** JobDetail
-    JobDetail (JobDetail'),
+    JobDetail,
     newJobDetail,
 
     -- ** JobQueueDetail
-    JobQueueDetail (JobQueueDetail'),
+    JobQueueDetail,
     newJobQueueDetail,
 
     -- ** JobSummary
-    JobSummary (JobSummary'),
+    JobSummary,
     newJobSummary,
 
     -- ** JobTimeout
-    JobTimeout (JobTimeout'),
+    JobTimeout,
     newJobTimeout,
 
     -- ** KeyValuePair
-    KeyValuePair (KeyValuePair'),
+    KeyValuePair,
     newKeyValuePair,
 
     -- ** KeyValuesPair
-    KeyValuesPair (KeyValuesPair'),
+    KeyValuesPair,
     newKeyValuesPair,
 
     -- ** LaunchTemplateSpecification
-    LaunchTemplateSpecification (LaunchTemplateSpecification'),
+    LaunchTemplateSpecification,
     newLaunchTemplateSpecification,
 
     -- ** LinuxParameters
-    LinuxParameters (LinuxParameters'),
+    LinuxParameters,
     newLinuxParameters,
 
     -- ** LogConfiguration
-    LogConfiguration (LogConfiguration'),
+    LogConfiguration,
     newLogConfiguration,
 
     -- ** MountPoint
-    MountPoint (MountPoint'),
+    MountPoint,
     newMountPoint,
 
     -- ** NetworkConfiguration
-    NetworkConfiguration (NetworkConfiguration'),
+    NetworkConfiguration,
     newNetworkConfiguration,
 
     -- ** NetworkInterface
-    NetworkInterface (NetworkInterface'),
+    NetworkInterface,
     newNetworkInterface,
 
     -- ** NodeDetails
-    NodeDetails (NodeDetails'),
+    NodeDetails,
     newNodeDetails,
 
     -- ** NodeOverrides
-    NodeOverrides (NodeOverrides'),
+    NodeOverrides,
     newNodeOverrides,
 
     -- ** NodeProperties
-    NodeProperties (NodeProperties'),
+    NodeProperties,
     newNodeProperties,
 
     -- ** NodePropertiesSummary
-    NodePropertiesSummary (NodePropertiesSummary'),
+    NodePropertiesSummary,
     newNodePropertiesSummary,
 
     -- ** NodePropertyOverride
-    NodePropertyOverride (NodePropertyOverride'),
+    NodePropertyOverride,
     newNodePropertyOverride,
 
     -- ** NodeRangeProperty
-    NodeRangeProperty (NodeRangeProperty'),
+    NodeRangeProperty,
     newNodeRangeProperty,
 
     -- ** ResourceRequirement
-    ResourceRequirement (ResourceRequirement'),
+    ResourceRequirement,
     newResourceRequirement,
 
     -- ** RetryStrategy
-    RetryStrategy (RetryStrategy'),
+    RetryStrategy,
     newRetryStrategy,
 
     -- ** SchedulingPolicyDetail
-    SchedulingPolicyDetail (SchedulingPolicyDetail'),
+    SchedulingPolicyDetail,
     newSchedulingPolicyDetail,
 
     -- ** SchedulingPolicyListingDetail
-    SchedulingPolicyListingDetail (SchedulingPolicyListingDetail'),
+    SchedulingPolicyListingDetail,
     newSchedulingPolicyListingDetail,
 
     -- ** Secret
-    Secret (Secret'),
+    Secret,
     newSecret,
 
     -- ** ShareAttributes
-    ShareAttributes (ShareAttributes'),
+    ShareAttributes,
     newShareAttributes,
 
     -- ** Tmpfs
-    Tmpfs (Tmpfs'),
+    Tmpfs,
     newTmpfs,
 
     -- ** Ulimit
-    Ulimit (Ulimit'),
+    Ulimit,
     newUlimit,
 
     -- ** UpdatePolicy
-    UpdatePolicy (UpdatePolicy'),
+    UpdatePolicy,
     newUpdatePolicy,
 
     -- ** Volume
-    Volume (Volume'),
+    Volume,
     newVolume,
   )
 where

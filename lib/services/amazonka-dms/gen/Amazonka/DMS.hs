@@ -137,393 +137,393 @@ module Amazonka.DMS
     -- $operations
 
     -- ** AddTagsToResource
-    AddTagsToResource (AddTagsToResource'),
+    AddTagsToResource,
     newAddTagsToResource,
-    AddTagsToResourceResponse (AddTagsToResourceResponse'),
+    AddTagsToResourceResponse,
     newAddTagsToResourceResponse,
 
     -- ** ApplyPendingMaintenanceAction
-    ApplyPendingMaintenanceAction (ApplyPendingMaintenanceAction'),
+    ApplyPendingMaintenanceAction,
     newApplyPendingMaintenanceAction,
-    ApplyPendingMaintenanceActionResponse (ApplyPendingMaintenanceActionResponse'),
+    ApplyPendingMaintenanceActionResponse,
     newApplyPendingMaintenanceActionResponse,
 
     -- ** CancelReplicationTaskAssessmentRun
-    CancelReplicationTaskAssessmentRun (CancelReplicationTaskAssessmentRun'),
+    CancelReplicationTaskAssessmentRun,
     newCancelReplicationTaskAssessmentRun,
-    CancelReplicationTaskAssessmentRunResponse (CancelReplicationTaskAssessmentRunResponse'),
+    CancelReplicationTaskAssessmentRunResponse,
     newCancelReplicationTaskAssessmentRunResponse,
 
     -- ** CreateEndpoint
-    CreateEndpoint (CreateEndpoint'),
+    CreateEndpoint,
     newCreateEndpoint,
-    CreateEndpointResponse (CreateEndpointResponse'),
+    CreateEndpointResponse,
     newCreateEndpointResponse,
 
     -- ** CreateEventSubscription
-    CreateEventSubscription (CreateEventSubscription'),
+    CreateEventSubscription,
     newCreateEventSubscription,
-    CreateEventSubscriptionResponse (CreateEventSubscriptionResponse'),
+    CreateEventSubscriptionResponse,
     newCreateEventSubscriptionResponse,
 
     -- ** CreateFleetAdvisorCollector
-    CreateFleetAdvisorCollector (CreateFleetAdvisorCollector'),
+    CreateFleetAdvisorCollector,
     newCreateFleetAdvisorCollector,
-    CreateFleetAdvisorCollectorResponse (CreateFleetAdvisorCollectorResponse'),
+    CreateFleetAdvisorCollectorResponse,
     newCreateFleetAdvisorCollectorResponse,
 
     -- ** CreateReplicationInstance
-    CreateReplicationInstance (CreateReplicationInstance'),
+    CreateReplicationInstance,
     newCreateReplicationInstance,
-    CreateReplicationInstanceResponse (CreateReplicationInstanceResponse'),
+    CreateReplicationInstanceResponse,
     newCreateReplicationInstanceResponse,
 
     -- ** CreateReplicationSubnetGroup
-    CreateReplicationSubnetGroup (CreateReplicationSubnetGroup'),
+    CreateReplicationSubnetGroup,
     newCreateReplicationSubnetGroup,
-    CreateReplicationSubnetGroupResponse (CreateReplicationSubnetGroupResponse'),
+    CreateReplicationSubnetGroupResponse,
     newCreateReplicationSubnetGroupResponse,
 
     -- ** CreateReplicationTask
-    CreateReplicationTask (CreateReplicationTask'),
+    CreateReplicationTask,
     newCreateReplicationTask,
-    CreateReplicationTaskResponse (CreateReplicationTaskResponse'),
+    CreateReplicationTaskResponse,
     newCreateReplicationTaskResponse,
 
     -- ** DeleteCertificate
-    DeleteCertificate (DeleteCertificate'),
+    DeleteCertificate,
     newDeleteCertificate,
-    DeleteCertificateResponse (DeleteCertificateResponse'),
+    DeleteCertificateResponse,
     newDeleteCertificateResponse,
 
     -- ** DeleteConnection
-    DeleteConnection (DeleteConnection'),
+    DeleteConnection,
     newDeleteConnection,
-    DeleteConnectionResponse (DeleteConnectionResponse'),
+    DeleteConnectionResponse,
     newDeleteConnectionResponse,
 
     -- ** DeleteEndpoint
-    DeleteEndpoint (DeleteEndpoint'),
+    DeleteEndpoint,
     newDeleteEndpoint,
-    DeleteEndpointResponse (DeleteEndpointResponse'),
+    DeleteEndpointResponse,
     newDeleteEndpointResponse,
 
     -- ** DeleteEventSubscription
-    DeleteEventSubscription (DeleteEventSubscription'),
+    DeleteEventSubscription,
     newDeleteEventSubscription,
-    DeleteEventSubscriptionResponse (DeleteEventSubscriptionResponse'),
+    DeleteEventSubscriptionResponse,
     newDeleteEventSubscriptionResponse,
 
     -- ** DeleteFleetAdvisorCollector
-    DeleteFleetAdvisorCollector (DeleteFleetAdvisorCollector'),
+    DeleteFleetAdvisorCollector,
     newDeleteFleetAdvisorCollector,
-    DeleteFleetAdvisorCollectorResponse (DeleteFleetAdvisorCollectorResponse'),
+    DeleteFleetAdvisorCollectorResponse,
     newDeleteFleetAdvisorCollectorResponse,
 
     -- ** DeleteFleetAdvisorDatabases
-    DeleteFleetAdvisorDatabases (DeleteFleetAdvisorDatabases'),
+    DeleteFleetAdvisorDatabases,
     newDeleteFleetAdvisorDatabases,
-    DeleteFleetAdvisorDatabasesResponse (DeleteFleetAdvisorDatabasesResponse'),
+    DeleteFleetAdvisorDatabasesResponse,
     newDeleteFleetAdvisorDatabasesResponse,
 
     -- ** DeleteReplicationInstance
-    DeleteReplicationInstance (DeleteReplicationInstance'),
+    DeleteReplicationInstance,
     newDeleteReplicationInstance,
-    DeleteReplicationInstanceResponse (DeleteReplicationInstanceResponse'),
+    DeleteReplicationInstanceResponse,
     newDeleteReplicationInstanceResponse,
 
     -- ** DeleteReplicationSubnetGroup
-    DeleteReplicationSubnetGroup (DeleteReplicationSubnetGroup'),
+    DeleteReplicationSubnetGroup,
     newDeleteReplicationSubnetGroup,
-    DeleteReplicationSubnetGroupResponse (DeleteReplicationSubnetGroupResponse'),
+    DeleteReplicationSubnetGroupResponse,
     newDeleteReplicationSubnetGroupResponse,
 
     -- ** DeleteReplicationTask
-    DeleteReplicationTask (DeleteReplicationTask'),
+    DeleteReplicationTask,
     newDeleteReplicationTask,
-    DeleteReplicationTaskResponse (DeleteReplicationTaskResponse'),
+    DeleteReplicationTaskResponse,
     newDeleteReplicationTaskResponse,
 
     -- ** DeleteReplicationTaskAssessmentRun
-    DeleteReplicationTaskAssessmentRun (DeleteReplicationTaskAssessmentRun'),
+    DeleteReplicationTaskAssessmentRun,
     newDeleteReplicationTaskAssessmentRun,
-    DeleteReplicationTaskAssessmentRunResponse (DeleteReplicationTaskAssessmentRunResponse'),
+    DeleteReplicationTaskAssessmentRunResponse,
     newDeleteReplicationTaskAssessmentRunResponse,
 
     -- ** DescribeAccountAttributes
-    DescribeAccountAttributes (DescribeAccountAttributes'),
+    DescribeAccountAttributes,
     newDescribeAccountAttributes,
-    DescribeAccountAttributesResponse (DescribeAccountAttributesResponse'),
+    DescribeAccountAttributesResponse,
     newDescribeAccountAttributesResponse,
 
     -- ** DescribeApplicableIndividualAssessments
-    DescribeApplicableIndividualAssessments (DescribeApplicableIndividualAssessments'),
+    DescribeApplicableIndividualAssessments,
     newDescribeApplicableIndividualAssessments,
-    DescribeApplicableIndividualAssessmentsResponse (DescribeApplicableIndividualAssessmentsResponse'),
+    DescribeApplicableIndividualAssessmentsResponse,
     newDescribeApplicableIndividualAssessmentsResponse,
 
     -- ** DescribeCertificates (Paginated)
-    DescribeCertificates (DescribeCertificates'),
+    DescribeCertificates,
     newDescribeCertificates,
-    DescribeCertificatesResponse (DescribeCertificatesResponse'),
+    DescribeCertificatesResponse,
     newDescribeCertificatesResponse,
 
     -- ** DescribeConnections (Paginated)
-    DescribeConnections (DescribeConnections'),
+    DescribeConnections,
     newDescribeConnections,
-    DescribeConnectionsResponse (DescribeConnectionsResponse'),
+    DescribeConnectionsResponse,
     newDescribeConnectionsResponse,
 
     -- ** DescribeEndpointSettings
-    DescribeEndpointSettings (DescribeEndpointSettings'),
+    DescribeEndpointSettings,
     newDescribeEndpointSettings,
-    DescribeEndpointSettingsResponse (DescribeEndpointSettingsResponse'),
+    DescribeEndpointSettingsResponse,
     newDescribeEndpointSettingsResponse,
 
     -- ** DescribeEndpointTypes (Paginated)
-    DescribeEndpointTypes (DescribeEndpointTypes'),
+    DescribeEndpointTypes,
     newDescribeEndpointTypes,
-    DescribeEndpointTypesResponse (DescribeEndpointTypesResponse'),
+    DescribeEndpointTypesResponse,
     newDescribeEndpointTypesResponse,
 
     -- ** DescribeEndpoints (Paginated)
-    DescribeEndpoints (DescribeEndpoints'),
+    DescribeEndpoints,
     newDescribeEndpoints,
-    DescribeEndpointsResponse (DescribeEndpointsResponse'),
+    DescribeEndpointsResponse,
     newDescribeEndpointsResponse,
 
     -- ** DescribeEventCategories
-    DescribeEventCategories (DescribeEventCategories'),
+    DescribeEventCategories,
     newDescribeEventCategories,
-    DescribeEventCategoriesResponse (DescribeEventCategoriesResponse'),
+    DescribeEventCategoriesResponse,
     newDescribeEventCategoriesResponse,
 
     -- ** DescribeEventSubscriptions (Paginated)
-    DescribeEventSubscriptions (DescribeEventSubscriptions'),
+    DescribeEventSubscriptions,
     newDescribeEventSubscriptions,
-    DescribeEventSubscriptionsResponse (DescribeEventSubscriptionsResponse'),
+    DescribeEventSubscriptionsResponse,
     newDescribeEventSubscriptionsResponse,
 
     -- ** DescribeEvents (Paginated)
-    DescribeEvents (DescribeEvents'),
+    DescribeEvents,
     newDescribeEvents,
-    DescribeEventsResponse (DescribeEventsResponse'),
+    DescribeEventsResponse,
     newDescribeEventsResponse,
 
     -- ** DescribeFleetAdvisorCollectors
-    DescribeFleetAdvisorCollectors (DescribeFleetAdvisorCollectors'),
+    DescribeFleetAdvisorCollectors,
     newDescribeFleetAdvisorCollectors,
-    DescribeFleetAdvisorCollectorsResponse (DescribeFleetAdvisorCollectorsResponse'),
+    DescribeFleetAdvisorCollectorsResponse,
     newDescribeFleetAdvisorCollectorsResponse,
 
     -- ** DescribeFleetAdvisorDatabases
-    DescribeFleetAdvisorDatabases (DescribeFleetAdvisorDatabases'),
+    DescribeFleetAdvisorDatabases,
     newDescribeFleetAdvisorDatabases,
-    DescribeFleetAdvisorDatabasesResponse (DescribeFleetAdvisorDatabasesResponse'),
+    DescribeFleetAdvisorDatabasesResponse,
     newDescribeFleetAdvisorDatabasesResponse,
 
     -- ** DescribeFleetAdvisorLsaAnalysis
-    DescribeFleetAdvisorLsaAnalysis (DescribeFleetAdvisorLsaAnalysis'),
+    DescribeFleetAdvisorLsaAnalysis,
     newDescribeFleetAdvisorLsaAnalysis,
-    DescribeFleetAdvisorLsaAnalysisResponse (DescribeFleetAdvisorLsaAnalysisResponse'),
+    DescribeFleetAdvisorLsaAnalysisResponse,
     newDescribeFleetAdvisorLsaAnalysisResponse,
 
     -- ** DescribeFleetAdvisorSchemaObjectSummary
-    DescribeFleetAdvisorSchemaObjectSummary (DescribeFleetAdvisorSchemaObjectSummary'),
+    DescribeFleetAdvisorSchemaObjectSummary,
     newDescribeFleetAdvisorSchemaObjectSummary,
-    DescribeFleetAdvisorSchemaObjectSummaryResponse (DescribeFleetAdvisorSchemaObjectSummaryResponse'),
+    DescribeFleetAdvisorSchemaObjectSummaryResponse,
     newDescribeFleetAdvisorSchemaObjectSummaryResponse,
 
     -- ** DescribeFleetAdvisorSchemas
-    DescribeFleetAdvisorSchemas (DescribeFleetAdvisorSchemas'),
+    DescribeFleetAdvisorSchemas,
     newDescribeFleetAdvisorSchemas,
-    DescribeFleetAdvisorSchemasResponse (DescribeFleetAdvisorSchemasResponse'),
+    DescribeFleetAdvisorSchemasResponse,
     newDescribeFleetAdvisorSchemasResponse,
 
     -- ** DescribeOrderableReplicationInstances (Paginated)
-    DescribeOrderableReplicationInstances (DescribeOrderableReplicationInstances'),
+    DescribeOrderableReplicationInstances,
     newDescribeOrderableReplicationInstances,
-    DescribeOrderableReplicationInstancesResponse (DescribeOrderableReplicationInstancesResponse'),
+    DescribeOrderableReplicationInstancesResponse,
     newDescribeOrderableReplicationInstancesResponse,
 
     -- ** DescribePendingMaintenanceActions
-    DescribePendingMaintenanceActions (DescribePendingMaintenanceActions'),
+    DescribePendingMaintenanceActions,
     newDescribePendingMaintenanceActions,
-    DescribePendingMaintenanceActionsResponse (DescribePendingMaintenanceActionsResponse'),
+    DescribePendingMaintenanceActionsResponse,
     newDescribePendingMaintenanceActionsResponse,
 
     -- ** DescribeRefreshSchemasStatus
-    DescribeRefreshSchemasStatus (DescribeRefreshSchemasStatus'),
+    DescribeRefreshSchemasStatus,
     newDescribeRefreshSchemasStatus,
-    DescribeRefreshSchemasStatusResponse (DescribeRefreshSchemasStatusResponse'),
+    DescribeRefreshSchemasStatusResponse,
     newDescribeRefreshSchemasStatusResponse,
 
     -- ** DescribeReplicationInstanceTaskLogs
-    DescribeReplicationInstanceTaskLogs (DescribeReplicationInstanceTaskLogs'),
+    DescribeReplicationInstanceTaskLogs,
     newDescribeReplicationInstanceTaskLogs,
-    DescribeReplicationInstanceTaskLogsResponse (DescribeReplicationInstanceTaskLogsResponse'),
+    DescribeReplicationInstanceTaskLogsResponse,
     newDescribeReplicationInstanceTaskLogsResponse,
 
     -- ** DescribeReplicationInstances (Paginated)
-    DescribeReplicationInstances (DescribeReplicationInstances'),
+    DescribeReplicationInstances,
     newDescribeReplicationInstances,
-    DescribeReplicationInstancesResponse (DescribeReplicationInstancesResponse'),
+    DescribeReplicationInstancesResponse,
     newDescribeReplicationInstancesResponse,
 
     -- ** DescribeReplicationSubnetGroups (Paginated)
-    DescribeReplicationSubnetGroups (DescribeReplicationSubnetGroups'),
+    DescribeReplicationSubnetGroups,
     newDescribeReplicationSubnetGroups,
-    DescribeReplicationSubnetGroupsResponse (DescribeReplicationSubnetGroupsResponse'),
+    DescribeReplicationSubnetGroupsResponse,
     newDescribeReplicationSubnetGroupsResponse,
 
     -- ** DescribeReplicationTaskAssessmentResults (Paginated)
-    DescribeReplicationTaskAssessmentResults (DescribeReplicationTaskAssessmentResults'),
+    DescribeReplicationTaskAssessmentResults,
     newDescribeReplicationTaskAssessmentResults,
-    DescribeReplicationTaskAssessmentResultsResponse (DescribeReplicationTaskAssessmentResultsResponse'),
+    DescribeReplicationTaskAssessmentResultsResponse,
     newDescribeReplicationTaskAssessmentResultsResponse,
 
     -- ** DescribeReplicationTaskAssessmentRuns
-    DescribeReplicationTaskAssessmentRuns (DescribeReplicationTaskAssessmentRuns'),
+    DescribeReplicationTaskAssessmentRuns,
     newDescribeReplicationTaskAssessmentRuns,
-    DescribeReplicationTaskAssessmentRunsResponse (DescribeReplicationTaskAssessmentRunsResponse'),
+    DescribeReplicationTaskAssessmentRunsResponse,
     newDescribeReplicationTaskAssessmentRunsResponse,
 
     -- ** DescribeReplicationTaskIndividualAssessments
-    DescribeReplicationTaskIndividualAssessments (DescribeReplicationTaskIndividualAssessments'),
+    DescribeReplicationTaskIndividualAssessments,
     newDescribeReplicationTaskIndividualAssessments,
-    DescribeReplicationTaskIndividualAssessmentsResponse (DescribeReplicationTaskIndividualAssessmentsResponse'),
+    DescribeReplicationTaskIndividualAssessmentsResponse,
     newDescribeReplicationTaskIndividualAssessmentsResponse,
 
     -- ** DescribeReplicationTasks (Paginated)
-    DescribeReplicationTasks (DescribeReplicationTasks'),
+    DescribeReplicationTasks,
     newDescribeReplicationTasks,
-    DescribeReplicationTasksResponse (DescribeReplicationTasksResponse'),
+    DescribeReplicationTasksResponse,
     newDescribeReplicationTasksResponse,
 
     -- ** DescribeSchemas (Paginated)
-    DescribeSchemas (DescribeSchemas'),
+    DescribeSchemas,
     newDescribeSchemas,
-    DescribeSchemasResponse (DescribeSchemasResponse'),
+    DescribeSchemasResponse,
     newDescribeSchemasResponse,
 
     -- ** DescribeTableStatistics (Paginated)
-    DescribeTableStatistics (DescribeTableStatistics'),
+    DescribeTableStatistics,
     newDescribeTableStatistics,
-    DescribeTableStatisticsResponse (DescribeTableStatisticsResponse'),
+    DescribeTableStatisticsResponse,
     newDescribeTableStatisticsResponse,
 
     -- ** ImportCertificate
-    ImportCertificate (ImportCertificate'),
+    ImportCertificate,
     newImportCertificate,
-    ImportCertificateResponse (ImportCertificateResponse'),
+    ImportCertificateResponse,
     newImportCertificateResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** ModifyEndpoint
-    ModifyEndpoint (ModifyEndpoint'),
+    ModifyEndpoint,
     newModifyEndpoint,
-    ModifyEndpointResponse (ModifyEndpointResponse'),
+    ModifyEndpointResponse,
     newModifyEndpointResponse,
 
     -- ** ModifyEventSubscription
-    ModifyEventSubscription (ModifyEventSubscription'),
+    ModifyEventSubscription,
     newModifyEventSubscription,
-    ModifyEventSubscriptionResponse (ModifyEventSubscriptionResponse'),
+    ModifyEventSubscriptionResponse,
     newModifyEventSubscriptionResponse,
 
     -- ** ModifyReplicationInstance
-    ModifyReplicationInstance (ModifyReplicationInstance'),
+    ModifyReplicationInstance,
     newModifyReplicationInstance,
-    ModifyReplicationInstanceResponse (ModifyReplicationInstanceResponse'),
+    ModifyReplicationInstanceResponse,
     newModifyReplicationInstanceResponse,
 
     -- ** ModifyReplicationSubnetGroup
-    ModifyReplicationSubnetGroup (ModifyReplicationSubnetGroup'),
+    ModifyReplicationSubnetGroup,
     newModifyReplicationSubnetGroup,
-    ModifyReplicationSubnetGroupResponse (ModifyReplicationSubnetGroupResponse'),
+    ModifyReplicationSubnetGroupResponse,
     newModifyReplicationSubnetGroupResponse,
 
     -- ** ModifyReplicationTask
-    ModifyReplicationTask (ModifyReplicationTask'),
+    ModifyReplicationTask,
     newModifyReplicationTask,
-    ModifyReplicationTaskResponse (ModifyReplicationTaskResponse'),
+    ModifyReplicationTaskResponse,
     newModifyReplicationTaskResponse,
 
     -- ** MoveReplicationTask
-    MoveReplicationTask (MoveReplicationTask'),
+    MoveReplicationTask,
     newMoveReplicationTask,
-    MoveReplicationTaskResponse (MoveReplicationTaskResponse'),
+    MoveReplicationTaskResponse,
     newMoveReplicationTaskResponse,
 
     -- ** RebootReplicationInstance
-    RebootReplicationInstance (RebootReplicationInstance'),
+    RebootReplicationInstance,
     newRebootReplicationInstance,
-    RebootReplicationInstanceResponse (RebootReplicationInstanceResponse'),
+    RebootReplicationInstanceResponse,
     newRebootReplicationInstanceResponse,
 
     -- ** RefreshSchemas
-    RefreshSchemas (RefreshSchemas'),
+    RefreshSchemas,
     newRefreshSchemas,
-    RefreshSchemasResponse (RefreshSchemasResponse'),
+    RefreshSchemasResponse,
     newRefreshSchemasResponse,
 
     -- ** ReloadTables
-    ReloadTables (ReloadTables'),
+    ReloadTables,
     newReloadTables,
-    ReloadTablesResponse (ReloadTablesResponse'),
+    ReloadTablesResponse,
     newReloadTablesResponse,
 
     -- ** RemoveTagsFromResource
-    RemoveTagsFromResource (RemoveTagsFromResource'),
+    RemoveTagsFromResource,
     newRemoveTagsFromResource,
-    RemoveTagsFromResourceResponse (RemoveTagsFromResourceResponse'),
+    RemoveTagsFromResourceResponse,
     newRemoveTagsFromResourceResponse,
 
     -- ** RunFleetAdvisorLsaAnalysis
-    RunFleetAdvisorLsaAnalysis (RunFleetAdvisorLsaAnalysis'),
+    RunFleetAdvisorLsaAnalysis,
     newRunFleetAdvisorLsaAnalysis,
-    RunFleetAdvisorLsaAnalysisResponse (RunFleetAdvisorLsaAnalysisResponse'),
+    RunFleetAdvisorLsaAnalysisResponse,
     newRunFleetAdvisorLsaAnalysisResponse,
 
     -- ** StartReplicationTask
-    StartReplicationTask (StartReplicationTask'),
+    StartReplicationTask,
     newStartReplicationTask,
-    StartReplicationTaskResponse (StartReplicationTaskResponse'),
+    StartReplicationTaskResponse,
     newStartReplicationTaskResponse,
 
     -- ** StartReplicationTaskAssessment
-    StartReplicationTaskAssessment (StartReplicationTaskAssessment'),
+    StartReplicationTaskAssessment,
     newStartReplicationTaskAssessment,
-    StartReplicationTaskAssessmentResponse (StartReplicationTaskAssessmentResponse'),
+    StartReplicationTaskAssessmentResponse,
     newStartReplicationTaskAssessmentResponse,
 
     -- ** StartReplicationTaskAssessmentRun
-    StartReplicationTaskAssessmentRun (StartReplicationTaskAssessmentRun'),
+    StartReplicationTaskAssessmentRun,
     newStartReplicationTaskAssessmentRun,
-    StartReplicationTaskAssessmentRunResponse (StartReplicationTaskAssessmentRunResponse'),
+    StartReplicationTaskAssessmentRunResponse,
     newStartReplicationTaskAssessmentRunResponse,
 
     -- ** StopReplicationTask
-    StopReplicationTask (StopReplicationTask'),
+    StopReplicationTask,
     newStopReplicationTask,
-    StopReplicationTaskResponse (StopReplicationTaskResponse'),
+    StopReplicationTaskResponse,
     newStopReplicationTaskResponse,
 
     -- ** TestConnection
-    TestConnection (TestConnection'),
+    TestConnection,
     newTestConnection,
-    TestConnectionResponse (TestConnectionResponse'),
+    TestConnectionResponse,
     newTestConnectionResponse,
 
     -- ** UpdateSubscriptionsToEventBridge
-    UpdateSubscriptionsToEventBridge (UpdateSubscriptionsToEventBridge'),
+    UpdateSubscriptionsToEventBridge,
     newUpdateSubscriptionsToEventBridge,
-    UpdateSubscriptionsToEventBridgeResponse (UpdateSubscriptionsToEventBridgeResponse'),
+    UpdateSubscriptionsToEventBridgeResponse,
     newUpdateSubscriptionsToEventBridgeResponse,
 
     -- * Types
@@ -619,243 +619,243 @@ module Amazonka.DMS
     VersionStatus (..),
 
     -- ** AccountQuota
-    AccountQuota (AccountQuota'),
+    AccountQuota,
     newAccountQuota,
 
     -- ** AvailabilityZone
-    AvailabilityZone (AvailabilityZone'),
+    AvailabilityZone,
     newAvailabilityZone,
 
     -- ** Certificate
-    Certificate (Certificate'),
+    Certificate,
     newCertificate,
 
     -- ** CollectorHealthCheck
-    CollectorHealthCheck (CollectorHealthCheck'),
+    CollectorHealthCheck,
     newCollectorHealthCheck,
 
     -- ** CollectorResponse
-    CollectorResponse (CollectorResponse'),
+    CollectorResponse,
     newCollectorResponse,
 
     -- ** CollectorShortInfoResponse
-    CollectorShortInfoResponse (CollectorShortInfoResponse'),
+    CollectorShortInfoResponse,
     newCollectorShortInfoResponse,
 
     -- ** Connection
-    Connection (Connection'),
+    Connection,
     newConnection,
 
     -- ** DatabaseInstanceSoftwareDetailsResponse
-    DatabaseInstanceSoftwareDetailsResponse (DatabaseInstanceSoftwareDetailsResponse'),
+    DatabaseInstanceSoftwareDetailsResponse,
     newDatabaseInstanceSoftwareDetailsResponse,
 
     -- ** DatabaseResponse
-    DatabaseResponse (DatabaseResponse'),
+    DatabaseResponse,
     newDatabaseResponse,
 
     -- ** DatabaseShortInfoResponse
-    DatabaseShortInfoResponse (DatabaseShortInfoResponse'),
+    DatabaseShortInfoResponse,
     newDatabaseShortInfoResponse,
 
     -- ** DmsTransferSettings
-    DmsTransferSettings (DmsTransferSettings'),
+    DmsTransferSettings,
     newDmsTransferSettings,
 
     -- ** DocDbSettings
-    DocDbSettings (DocDbSettings'),
+    DocDbSettings,
     newDocDbSettings,
 
     -- ** DynamoDbSettings
-    DynamoDbSettings (DynamoDbSettings'),
+    DynamoDbSettings,
     newDynamoDbSettings,
 
     -- ** ElasticsearchSettings
-    ElasticsearchSettings (ElasticsearchSettings'),
+    ElasticsearchSettings,
     newElasticsearchSettings,
 
     -- ** Endpoint
-    Endpoint (Endpoint'),
+    Endpoint,
     newEndpoint,
 
     -- ** EndpointSetting
-    EndpointSetting (EndpointSetting'),
+    EndpointSetting,
     newEndpointSetting,
 
     -- ** Event
-    Event (Event'),
+    Event,
     newEvent,
 
     -- ** EventCategoryGroup
-    EventCategoryGroup (EventCategoryGroup'),
+    EventCategoryGroup,
     newEventCategoryGroup,
 
     -- ** EventSubscription
-    EventSubscription (EventSubscription'),
+    EventSubscription,
     newEventSubscription,
 
     -- ** Filter
-    Filter (Filter'),
+    Filter,
     newFilter,
 
     -- ** FleetAdvisorLsaAnalysisResponse
-    FleetAdvisorLsaAnalysisResponse (FleetAdvisorLsaAnalysisResponse'),
+    FleetAdvisorLsaAnalysisResponse,
     newFleetAdvisorLsaAnalysisResponse,
 
     -- ** FleetAdvisorSchemaObjectResponse
-    FleetAdvisorSchemaObjectResponse (FleetAdvisorSchemaObjectResponse'),
+    FleetAdvisorSchemaObjectResponse,
     newFleetAdvisorSchemaObjectResponse,
 
     -- ** GcpMySQLSettings
-    GcpMySQLSettings (GcpMySQLSettings'),
+    GcpMySQLSettings,
     newGcpMySQLSettings,
 
     -- ** IBMDb2Settings
-    IBMDb2Settings (IBMDb2Settings'),
+    IBMDb2Settings,
     newIBMDb2Settings,
 
     -- ** InventoryData
-    InventoryData (InventoryData'),
+    InventoryData,
     newInventoryData,
 
     -- ** KafkaSettings
-    KafkaSettings (KafkaSettings'),
+    KafkaSettings,
     newKafkaSettings,
 
     -- ** KinesisSettings
-    KinesisSettings (KinesisSettings'),
+    KinesisSettings,
     newKinesisSettings,
 
     -- ** MicrosoftSQLServerSettings
-    MicrosoftSQLServerSettings (MicrosoftSQLServerSettings'),
+    MicrosoftSQLServerSettings,
     newMicrosoftSQLServerSettings,
 
     -- ** MongoDbSettings
-    MongoDbSettings (MongoDbSettings'),
+    MongoDbSettings,
     newMongoDbSettings,
 
     -- ** MySQLSettings
-    MySQLSettings (MySQLSettings'),
+    MySQLSettings,
     newMySQLSettings,
 
     -- ** NeptuneSettings
-    NeptuneSettings (NeptuneSettings'),
+    NeptuneSettings,
     newNeptuneSettings,
 
     -- ** OracleSettings
-    OracleSettings (OracleSettings'),
+    OracleSettings,
     newOracleSettings,
 
     -- ** OrderableReplicationInstance
-    OrderableReplicationInstance (OrderableReplicationInstance'),
+    OrderableReplicationInstance,
     newOrderableReplicationInstance,
 
     -- ** PendingMaintenanceAction
-    PendingMaintenanceAction (PendingMaintenanceAction'),
+    PendingMaintenanceAction,
     newPendingMaintenanceAction,
 
     -- ** PostgreSQLSettings
-    PostgreSQLSettings (PostgreSQLSettings'),
+    PostgreSQLSettings,
     newPostgreSQLSettings,
 
     -- ** RedisSettings
-    RedisSettings (RedisSettings'),
+    RedisSettings,
     newRedisSettings,
 
     -- ** RedshiftSettings
-    RedshiftSettings (RedshiftSettings'),
+    RedshiftSettings,
     newRedshiftSettings,
 
     -- ** RefreshSchemasStatus
-    RefreshSchemasStatus (RefreshSchemasStatus'),
+    RefreshSchemasStatus,
     newRefreshSchemasStatus,
 
     -- ** ReplicationInstance
-    ReplicationInstance (ReplicationInstance'),
+    ReplicationInstance,
     newReplicationInstance,
 
     -- ** ReplicationInstanceTaskLog
-    ReplicationInstanceTaskLog (ReplicationInstanceTaskLog'),
+    ReplicationInstanceTaskLog,
     newReplicationInstanceTaskLog,
 
     -- ** ReplicationPendingModifiedValues
-    ReplicationPendingModifiedValues (ReplicationPendingModifiedValues'),
+    ReplicationPendingModifiedValues,
     newReplicationPendingModifiedValues,
 
     -- ** ReplicationSubnetGroup
-    ReplicationSubnetGroup (ReplicationSubnetGroup'),
+    ReplicationSubnetGroup,
     newReplicationSubnetGroup,
 
     -- ** ReplicationTask
-    ReplicationTask (ReplicationTask'),
+    ReplicationTask,
     newReplicationTask,
 
     -- ** ReplicationTaskAssessmentResult
-    ReplicationTaskAssessmentResult (ReplicationTaskAssessmentResult'),
+    ReplicationTaskAssessmentResult,
     newReplicationTaskAssessmentResult,
 
     -- ** ReplicationTaskAssessmentRun
-    ReplicationTaskAssessmentRun (ReplicationTaskAssessmentRun'),
+    ReplicationTaskAssessmentRun,
     newReplicationTaskAssessmentRun,
 
     -- ** ReplicationTaskAssessmentRunProgress
-    ReplicationTaskAssessmentRunProgress (ReplicationTaskAssessmentRunProgress'),
+    ReplicationTaskAssessmentRunProgress,
     newReplicationTaskAssessmentRunProgress,
 
     -- ** ReplicationTaskIndividualAssessment
-    ReplicationTaskIndividualAssessment (ReplicationTaskIndividualAssessment'),
+    ReplicationTaskIndividualAssessment,
     newReplicationTaskIndividualAssessment,
 
     -- ** ReplicationTaskStats
-    ReplicationTaskStats (ReplicationTaskStats'),
+    ReplicationTaskStats,
     newReplicationTaskStats,
 
     -- ** ResourcePendingMaintenanceActions
-    ResourcePendingMaintenanceActions (ResourcePendingMaintenanceActions'),
+    ResourcePendingMaintenanceActions,
     newResourcePendingMaintenanceActions,
 
     -- ** S3Settings
-    S3Settings (S3Settings'),
+    S3Settings,
     newS3Settings,
 
     -- ** SchemaResponse
-    SchemaResponse (SchemaResponse'),
+    SchemaResponse,
     newSchemaResponse,
 
     -- ** SchemaShortInfoResponse
-    SchemaShortInfoResponse (SchemaShortInfoResponse'),
+    SchemaShortInfoResponse,
     newSchemaShortInfoResponse,
 
     -- ** ServerShortInfoResponse
-    ServerShortInfoResponse (ServerShortInfoResponse'),
+    ServerShortInfoResponse,
     newServerShortInfoResponse,
 
     -- ** Subnet
-    Subnet (Subnet'),
+    Subnet,
     newSubnet,
 
     -- ** SupportedEndpointType
-    SupportedEndpointType (SupportedEndpointType'),
+    SupportedEndpointType,
     newSupportedEndpointType,
 
     -- ** SybaseSettings
-    SybaseSettings (SybaseSettings'),
+    SybaseSettings,
     newSybaseSettings,
 
     -- ** TableStatistics
-    TableStatistics (TableStatistics'),
+    TableStatistics,
     newTableStatistics,
 
     -- ** TableToReload
-    TableToReload (TableToReload'),
+    TableToReload,
     newTableToReload,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
 
     -- ** VpcSecurityGroupMembership
-    VpcSecurityGroupMembership (VpcSecurityGroupMembership'),
+    VpcSecurityGroupMembership,
     newVpcSecurityGroupMembership,
   )
 where

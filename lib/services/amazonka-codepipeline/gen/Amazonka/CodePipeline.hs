@@ -276,237 +276,237 @@ module Amazonka.CodePipeline
     -- $operations
 
     -- ** AcknowledgeJob
-    AcknowledgeJob (AcknowledgeJob'),
+    AcknowledgeJob,
     newAcknowledgeJob,
-    AcknowledgeJobResponse (AcknowledgeJobResponse'),
+    AcknowledgeJobResponse,
     newAcknowledgeJobResponse,
 
     -- ** AcknowledgeThirdPartyJob
-    AcknowledgeThirdPartyJob (AcknowledgeThirdPartyJob'),
+    AcknowledgeThirdPartyJob,
     newAcknowledgeThirdPartyJob,
-    AcknowledgeThirdPartyJobResponse (AcknowledgeThirdPartyJobResponse'),
+    AcknowledgeThirdPartyJobResponse,
     newAcknowledgeThirdPartyJobResponse,
 
     -- ** CreateCustomActionType
-    CreateCustomActionType (CreateCustomActionType'),
+    CreateCustomActionType,
     newCreateCustomActionType,
-    CreateCustomActionTypeResponse (CreateCustomActionTypeResponse'),
+    CreateCustomActionTypeResponse,
     newCreateCustomActionTypeResponse,
 
     -- ** CreatePipeline
-    CreatePipeline (CreatePipeline'),
+    CreatePipeline,
     newCreatePipeline,
-    CreatePipelineResponse (CreatePipelineResponse'),
+    CreatePipelineResponse,
     newCreatePipelineResponse,
 
     -- ** DeleteCustomActionType
-    DeleteCustomActionType (DeleteCustomActionType'),
+    DeleteCustomActionType,
     newDeleteCustomActionType,
-    DeleteCustomActionTypeResponse (DeleteCustomActionTypeResponse'),
+    DeleteCustomActionTypeResponse,
     newDeleteCustomActionTypeResponse,
 
     -- ** DeletePipeline
-    DeletePipeline (DeletePipeline'),
+    DeletePipeline,
     newDeletePipeline,
-    DeletePipelineResponse (DeletePipelineResponse'),
+    DeletePipelineResponse,
     newDeletePipelineResponse,
 
     -- ** DeleteWebhook
-    DeleteWebhook (DeleteWebhook'),
+    DeleteWebhook,
     newDeleteWebhook,
-    DeleteWebhookResponse (DeleteWebhookResponse'),
+    DeleteWebhookResponse,
     newDeleteWebhookResponse,
 
     -- ** DeregisterWebhookWithThirdParty
-    DeregisterWebhookWithThirdParty (DeregisterWebhookWithThirdParty'),
+    DeregisterWebhookWithThirdParty,
     newDeregisterWebhookWithThirdParty,
-    DeregisterWebhookWithThirdPartyResponse (DeregisterWebhookWithThirdPartyResponse'),
+    DeregisterWebhookWithThirdPartyResponse,
     newDeregisterWebhookWithThirdPartyResponse,
 
     -- ** DisableStageTransition
-    DisableStageTransition (DisableStageTransition'),
+    DisableStageTransition,
     newDisableStageTransition,
-    DisableStageTransitionResponse (DisableStageTransitionResponse'),
+    DisableStageTransitionResponse,
     newDisableStageTransitionResponse,
 
     -- ** EnableStageTransition
-    EnableStageTransition (EnableStageTransition'),
+    EnableStageTransition,
     newEnableStageTransition,
-    EnableStageTransitionResponse (EnableStageTransitionResponse'),
+    EnableStageTransitionResponse,
     newEnableStageTransitionResponse,
 
     -- ** GetActionType
-    GetActionType (GetActionType'),
+    GetActionType,
     newGetActionType,
-    GetActionTypeResponse (GetActionTypeResponse'),
+    GetActionTypeResponse,
     newGetActionTypeResponse,
 
     -- ** GetJobDetails
-    GetJobDetails (GetJobDetails'),
+    GetJobDetails,
     newGetJobDetails,
-    GetJobDetailsResponse (GetJobDetailsResponse'),
+    GetJobDetailsResponse,
     newGetJobDetailsResponse,
 
     -- ** GetPipeline
-    GetPipeline (GetPipeline'),
+    GetPipeline,
     newGetPipeline,
-    GetPipelineResponse (GetPipelineResponse'),
+    GetPipelineResponse,
     newGetPipelineResponse,
 
     -- ** GetPipelineExecution
-    GetPipelineExecution (GetPipelineExecution'),
+    GetPipelineExecution,
     newGetPipelineExecution,
-    GetPipelineExecutionResponse (GetPipelineExecutionResponse'),
+    GetPipelineExecutionResponse,
     newGetPipelineExecutionResponse,
 
     -- ** GetPipelineState
-    GetPipelineState (GetPipelineState'),
+    GetPipelineState,
     newGetPipelineState,
-    GetPipelineStateResponse (GetPipelineStateResponse'),
+    GetPipelineStateResponse,
     newGetPipelineStateResponse,
 
     -- ** GetThirdPartyJobDetails
-    GetThirdPartyJobDetails (GetThirdPartyJobDetails'),
+    GetThirdPartyJobDetails,
     newGetThirdPartyJobDetails,
-    GetThirdPartyJobDetailsResponse (GetThirdPartyJobDetailsResponse'),
+    GetThirdPartyJobDetailsResponse,
     newGetThirdPartyJobDetailsResponse,
 
     -- ** ListActionExecutions (Paginated)
-    ListActionExecutions (ListActionExecutions'),
+    ListActionExecutions,
     newListActionExecutions,
-    ListActionExecutionsResponse (ListActionExecutionsResponse'),
+    ListActionExecutionsResponse,
     newListActionExecutionsResponse,
 
     -- ** ListActionTypes (Paginated)
-    ListActionTypes (ListActionTypes'),
+    ListActionTypes,
     newListActionTypes,
-    ListActionTypesResponse (ListActionTypesResponse'),
+    ListActionTypesResponse,
     newListActionTypesResponse,
 
     -- ** ListPipelineExecutions (Paginated)
-    ListPipelineExecutions (ListPipelineExecutions'),
+    ListPipelineExecutions,
     newListPipelineExecutions,
-    ListPipelineExecutionsResponse (ListPipelineExecutionsResponse'),
+    ListPipelineExecutionsResponse,
     newListPipelineExecutionsResponse,
 
     -- ** ListPipelines (Paginated)
-    ListPipelines (ListPipelines'),
+    ListPipelines,
     newListPipelines,
-    ListPipelinesResponse (ListPipelinesResponse'),
+    ListPipelinesResponse,
     newListPipelinesResponse,
 
     -- ** ListTagsForResource (Paginated)
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** ListWebhooks (Paginated)
-    ListWebhooks (ListWebhooks'),
+    ListWebhooks,
     newListWebhooks,
-    ListWebhooksResponse (ListWebhooksResponse'),
+    ListWebhooksResponse,
     newListWebhooksResponse,
 
     -- ** PollForJobs
-    PollForJobs (PollForJobs'),
+    PollForJobs,
     newPollForJobs,
-    PollForJobsResponse (PollForJobsResponse'),
+    PollForJobsResponse,
     newPollForJobsResponse,
 
     -- ** PollForThirdPartyJobs
-    PollForThirdPartyJobs (PollForThirdPartyJobs'),
+    PollForThirdPartyJobs,
     newPollForThirdPartyJobs,
-    PollForThirdPartyJobsResponse (PollForThirdPartyJobsResponse'),
+    PollForThirdPartyJobsResponse,
     newPollForThirdPartyJobsResponse,
 
     -- ** PutActionRevision
-    PutActionRevision (PutActionRevision'),
+    PutActionRevision,
     newPutActionRevision,
-    PutActionRevisionResponse (PutActionRevisionResponse'),
+    PutActionRevisionResponse,
     newPutActionRevisionResponse,
 
     -- ** PutApprovalResult
-    PutApprovalResult (PutApprovalResult'),
+    PutApprovalResult,
     newPutApprovalResult,
-    PutApprovalResultResponse (PutApprovalResultResponse'),
+    PutApprovalResultResponse,
     newPutApprovalResultResponse,
 
     -- ** PutJobFailureResult
-    PutJobFailureResult (PutJobFailureResult'),
+    PutJobFailureResult,
     newPutJobFailureResult,
-    PutJobFailureResultResponse (PutJobFailureResultResponse'),
+    PutJobFailureResultResponse,
     newPutJobFailureResultResponse,
 
     -- ** PutJobSuccessResult
-    PutJobSuccessResult (PutJobSuccessResult'),
+    PutJobSuccessResult,
     newPutJobSuccessResult,
-    PutJobSuccessResultResponse (PutJobSuccessResultResponse'),
+    PutJobSuccessResultResponse,
     newPutJobSuccessResultResponse,
 
     -- ** PutThirdPartyJobFailureResult
-    PutThirdPartyJobFailureResult (PutThirdPartyJobFailureResult'),
+    PutThirdPartyJobFailureResult,
     newPutThirdPartyJobFailureResult,
-    PutThirdPartyJobFailureResultResponse (PutThirdPartyJobFailureResultResponse'),
+    PutThirdPartyJobFailureResultResponse,
     newPutThirdPartyJobFailureResultResponse,
 
     -- ** PutThirdPartyJobSuccessResult
-    PutThirdPartyJobSuccessResult (PutThirdPartyJobSuccessResult'),
+    PutThirdPartyJobSuccessResult,
     newPutThirdPartyJobSuccessResult,
-    PutThirdPartyJobSuccessResultResponse (PutThirdPartyJobSuccessResultResponse'),
+    PutThirdPartyJobSuccessResultResponse,
     newPutThirdPartyJobSuccessResultResponse,
 
     -- ** PutWebhook
-    PutWebhook (PutWebhook'),
+    PutWebhook,
     newPutWebhook,
-    PutWebhookResponse (PutWebhookResponse'),
+    PutWebhookResponse,
     newPutWebhookResponse,
 
     -- ** RegisterWebhookWithThirdParty
-    RegisterWebhookWithThirdParty (RegisterWebhookWithThirdParty'),
+    RegisterWebhookWithThirdParty,
     newRegisterWebhookWithThirdParty,
-    RegisterWebhookWithThirdPartyResponse (RegisterWebhookWithThirdPartyResponse'),
+    RegisterWebhookWithThirdPartyResponse,
     newRegisterWebhookWithThirdPartyResponse,
 
     -- ** RetryStageExecution
-    RetryStageExecution (RetryStageExecution'),
+    RetryStageExecution,
     newRetryStageExecution,
-    RetryStageExecutionResponse (RetryStageExecutionResponse'),
+    RetryStageExecutionResponse,
     newRetryStageExecutionResponse,
 
     -- ** StartPipelineExecution
-    StartPipelineExecution (StartPipelineExecution'),
+    StartPipelineExecution,
     newStartPipelineExecution,
-    StartPipelineExecutionResponse (StartPipelineExecutionResponse'),
+    StartPipelineExecutionResponse,
     newStartPipelineExecutionResponse,
 
     -- ** StopPipelineExecution
-    StopPipelineExecution (StopPipelineExecution'),
+    StopPipelineExecution,
     newStopPipelineExecution,
-    StopPipelineExecutionResponse (StopPipelineExecutionResponse'),
+    StopPipelineExecutionResponse,
     newStopPipelineExecutionResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateActionType
-    UpdateActionType (UpdateActionType'),
+    UpdateActionType,
     newUpdateActionType,
-    UpdateActionTypeResponse (UpdateActionTypeResponse'),
+    UpdateActionTypeResponse,
     newUpdateActionTypeResponse,
 
     -- ** UpdatePipeline
-    UpdatePipeline (UpdatePipeline'),
+    UpdatePipeline,
     newUpdatePipeline,
-    UpdatePipelineResponse (UpdatePipelineResponse'),
+    UpdatePipelineResponse,
     newUpdatePipelineResponse,
 
     -- * Types
@@ -566,275 +566,275 @@ module Amazonka.CodePipeline
     WebhookAuthenticationType (..),
 
     -- ** AWSSessionCredentials
-    AWSSessionCredentials (AWSSessionCredentials'),
+    AWSSessionCredentials,
     newAWSSessionCredentials,
 
     -- ** ActionConfiguration
-    ActionConfiguration (ActionConfiguration'),
+    ActionConfiguration,
     newActionConfiguration,
 
     -- ** ActionConfigurationProperty
-    ActionConfigurationProperty (ActionConfigurationProperty'),
+    ActionConfigurationProperty,
     newActionConfigurationProperty,
 
     -- ** ActionContext
-    ActionContext (ActionContext'),
+    ActionContext,
     newActionContext,
 
     -- ** ActionDeclaration
-    ActionDeclaration (ActionDeclaration'),
+    ActionDeclaration,
     newActionDeclaration,
 
     -- ** ActionExecution
-    ActionExecution (ActionExecution'),
+    ActionExecution,
     newActionExecution,
 
     -- ** ActionExecutionDetail
-    ActionExecutionDetail (ActionExecutionDetail'),
+    ActionExecutionDetail,
     newActionExecutionDetail,
 
     -- ** ActionExecutionFilter
-    ActionExecutionFilter (ActionExecutionFilter'),
+    ActionExecutionFilter,
     newActionExecutionFilter,
 
     -- ** ActionExecutionInput
-    ActionExecutionInput (ActionExecutionInput'),
+    ActionExecutionInput,
     newActionExecutionInput,
 
     -- ** ActionExecutionOutput
-    ActionExecutionOutput (ActionExecutionOutput'),
+    ActionExecutionOutput,
     newActionExecutionOutput,
 
     -- ** ActionExecutionResult
-    ActionExecutionResult (ActionExecutionResult'),
+    ActionExecutionResult,
     newActionExecutionResult,
 
     -- ** ActionRevision
-    ActionRevision (ActionRevision'),
+    ActionRevision,
     newActionRevision,
 
     -- ** ActionState
-    ActionState (ActionState'),
+    ActionState,
     newActionState,
 
     -- ** ActionType
-    ActionType (ActionType'),
+    ActionType,
     newActionType,
 
     -- ** ActionTypeArtifactDetails
-    ActionTypeArtifactDetails (ActionTypeArtifactDetails'),
+    ActionTypeArtifactDetails,
     newActionTypeArtifactDetails,
 
     -- ** ActionTypeDeclaration
-    ActionTypeDeclaration (ActionTypeDeclaration'),
+    ActionTypeDeclaration,
     newActionTypeDeclaration,
 
     -- ** ActionTypeExecutor
-    ActionTypeExecutor (ActionTypeExecutor'),
+    ActionTypeExecutor,
     newActionTypeExecutor,
 
     -- ** ActionTypeId
-    ActionTypeId (ActionTypeId'),
+    ActionTypeId,
     newActionTypeId,
 
     -- ** ActionTypeIdentifier
-    ActionTypeIdentifier (ActionTypeIdentifier'),
+    ActionTypeIdentifier,
     newActionTypeIdentifier,
 
     -- ** ActionTypePermissions
-    ActionTypePermissions (ActionTypePermissions'),
+    ActionTypePermissions,
     newActionTypePermissions,
 
     -- ** ActionTypeProperty
-    ActionTypeProperty (ActionTypeProperty'),
+    ActionTypeProperty,
     newActionTypeProperty,
 
     -- ** ActionTypeSettings
-    ActionTypeSettings (ActionTypeSettings'),
+    ActionTypeSettings,
     newActionTypeSettings,
 
     -- ** ActionTypeUrls
-    ActionTypeUrls (ActionTypeUrls'),
+    ActionTypeUrls,
     newActionTypeUrls,
 
     -- ** ApprovalResult
-    ApprovalResult (ApprovalResult'),
+    ApprovalResult,
     newApprovalResult,
 
     -- ** Artifact
-    Artifact (Artifact'),
+    Artifact,
     newArtifact,
 
     -- ** ArtifactDetail
-    ArtifactDetail (ArtifactDetail'),
+    ArtifactDetail,
     newArtifactDetail,
 
     -- ** ArtifactDetails
-    ArtifactDetails (ArtifactDetails'),
+    ArtifactDetails,
     newArtifactDetails,
 
     -- ** ArtifactLocation
-    ArtifactLocation (ArtifactLocation'),
+    ArtifactLocation,
     newArtifactLocation,
 
     -- ** ArtifactRevision
-    ArtifactRevision (ArtifactRevision'),
+    ArtifactRevision,
     newArtifactRevision,
 
     -- ** ArtifactStore
-    ArtifactStore (ArtifactStore'),
+    ArtifactStore,
     newArtifactStore,
 
     -- ** BlockerDeclaration
-    BlockerDeclaration (BlockerDeclaration'),
+    BlockerDeclaration,
     newBlockerDeclaration,
 
     -- ** CurrentRevision
-    CurrentRevision (CurrentRevision'),
+    CurrentRevision,
     newCurrentRevision,
 
     -- ** EncryptionKey
-    EncryptionKey (EncryptionKey'),
+    EncryptionKey,
     newEncryptionKey,
 
     -- ** ErrorDetails
-    ErrorDetails (ErrorDetails'),
+    ErrorDetails,
     newErrorDetails,
 
     -- ** ExecutionDetails
-    ExecutionDetails (ExecutionDetails'),
+    ExecutionDetails,
     newExecutionDetails,
 
     -- ** ExecutionTrigger
-    ExecutionTrigger (ExecutionTrigger'),
+    ExecutionTrigger,
     newExecutionTrigger,
 
     -- ** ExecutorConfiguration
-    ExecutorConfiguration (ExecutorConfiguration'),
+    ExecutorConfiguration,
     newExecutorConfiguration,
 
     -- ** FailureDetails
-    FailureDetails (FailureDetails'),
+    FailureDetails,
     newFailureDetails,
 
     -- ** InputArtifact
-    InputArtifact (InputArtifact'),
+    InputArtifact,
     newInputArtifact,
 
     -- ** Job
-    Job (Job'),
+    Job,
     newJob,
 
     -- ** JobData
-    JobData (JobData'),
+    JobData,
     newJobData,
 
     -- ** JobDetails
-    JobDetails (JobDetails'),
+    JobDetails,
     newJobDetails,
 
     -- ** JobWorkerExecutorConfiguration
-    JobWorkerExecutorConfiguration (JobWorkerExecutorConfiguration'),
+    JobWorkerExecutorConfiguration,
     newJobWorkerExecutorConfiguration,
 
     -- ** LambdaExecutorConfiguration
-    LambdaExecutorConfiguration (LambdaExecutorConfiguration'),
+    LambdaExecutorConfiguration,
     newLambdaExecutorConfiguration,
 
     -- ** ListWebhookItem
-    ListWebhookItem (ListWebhookItem'),
+    ListWebhookItem,
     newListWebhookItem,
 
     -- ** OutputArtifact
-    OutputArtifact (OutputArtifact'),
+    OutputArtifact,
     newOutputArtifact,
 
     -- ** PipelineContext
-    PipelineContext (PipelineContext'),
+    PipelineContext,
     newPipelineContext,
 
     -- ** PipelineDeclaration
-    PipelineDeclaration (PipelineDeclaration'),
+    PipelineDeclaration,
     newPipelineDeclaration,
 
     -- ** PipelineExecution
-    PipelineExecution (PipelineExecution'),
+    PipelineExecution,
     newPipelineExecution,
 
     -- ** PipelineExecutionSummary
-    PipelineExecutionSummary (PipelineExecutionSummary'),
+    PipelineExecutionSummary,
     newPipelineExecutionSummary,
 
     -- ** PipelineMetadata
-    PipelineMetadata (PipelineMetadata'),
+    PipelineMetadata,
     newPipelineMetadata,
 
     -- ** PipelineSummary
-    PipelineSummary (PipelineSummary'),
+    PipelineSummary,
     newPipelineSummary,
 
     -- ** S3ArtifactLocation
-    S3ArtifactLocation (S3ArtifactLocation'),
+    S3ArtifactLocation,
     newS3ArtifactLocation,
 
     -- ** S3Location
-    S3Location (S3Location'),
+    S3Location,
     newS3Location,
 
     -- ** SourceRevision
-    SourceRevision (SourceRevision'),
+    SourceRevision,
     newSourceRevision,
 
     -- ** StageContext
-    StageContext (StageContext'),
+    StageContext,
     newStageContext,
 
     -- ** StageDeclaration
-    StageDeclaration (StageDeclaration'),
+    StageDeclaration,
     newStageDeclaration,
 
     -- ** StageExecution
-    StageExecution (StageExecution'),
+    StageExecution,
     newStageExecution,
 
     -- ** StageState
-    StageState (StageState'),
+    StageState,
     newStageState,
 
     -- ** StopExecutionTrigger
-    StopExecutionTrigger (StopExecutionTrigger'),
+    StopExecutionTrigger,
     newStopExecutionTrigger,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
 
     -- ** ThirdPartyJob
-    ThirdPartyJob (ThirdPartyJob'),
+    ThirdPartyJob,
     newThirdPartyJob,
 
     -- ** ThirdPartyJobData
-    ThirdPartyJobData (ThirdPartyJobData'),
+    ThirdPartyJobData,
     newThirdPartyJobData,
 
     -- ** ThirdPartyJobDetails
-    ThirdPartyJobDetails (ThirdPartyJobDetails'),
+    ThirdPartyJobDetails,
     newThirdPartyJobDetails,
 
     -- ** TransitionState
-    TransitionState (TransitionState'),
+    TransitionState,
     newTransitionState,
 
     -- ** WebhookAuthConfiguration
-    WebhookAuthConfiguration (WebhookAuthConfiguration'),
+    WebhookAuthConfiguration,
     newWebhookAuthConfiguration,
 
     -- ** WebhookDefinition
-    WebhookDefinition (WebhookDefinition'),
+    WebhookDefinition,
     newWebhookDefinition,
 
     -- ** WebhookFilterRule
-    WebhookFilterRule (WebhookFilterRule'),
+    WebhookFilterRule,
     newWebhookFilterRule,
   )
 where

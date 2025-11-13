@@ -252,393 +252,393 @@ module Amazonka.ElastiCache
     -- $operations
 
     -- ** AddTagsToResource
-    AddTagsToResource (AddTagsToResource'),
+    AddTagsToResource,
     newAddTagsToResource,
-    TagListMessage (TagListMessage'),
+    TagListMessage,
     newTagListMessage,
 
     -- ** AuthorizeCacheSecurityGroupIngress
-    AuthorizeCacheSecurityGroupIngress (AuthorizeCacheSecurityGroupIngress'),
+    AuthorizeCacheSecurityGroupIngress,
     newAuthorizeCacheSecurityGroupIngress,
-    AuthorizeCacheSecurityGroupIngressResponse (AuthorizeCacheSecurityGroupIngressResponse'),
+    AuthorizeCacheSecurityGroupIngressResponse,
     newAuthorizeCacheSecurityGroupIngressResponse,
 
     -- ** BatchApplyUpdateAction
-    BatchApplyUpdateAction (BatchApplyUpdateAction'),
+    BatchApplyUpdateAction,
     newBatchApplyUpdateAction,
-    UpdateActionResultsMessage (UpdateActionResultsMessage'),
+    UpdateActionResultsMessage,
     newUpdateActionResultsMessage,
 
     -- ** BatchStopUpdateAction
-    BatchStopUpdateAction (BatchStopUpdateAction'),
+    BatchStopUpdateAction,
     newBatchStopUpdateAction,
-    UpdateActionResultsMessage (UpdateActionResultsMessage'),
+    UpdateActionResultsMessage,
     newUpdateActionResultsMessage,
 
     -- ** CompleteMigration
-    CompleteMigration (CompleteMigration'),
+    CompleteMigration,
     newCompleteMigration,
-    CompleteMigrationResponse (CompleteMigrationResponse'),
+    CompleteMigrationResponse,
     newCompleteMigrationResponse,
 
     -- ** CopySnapshot
-    CopySnapshot (CopySnapshot'),
+    CopySnapshot,
     newCopySnapshot,
-    CopySnapshotResponse (CopySnapshotResponse'),
+    CopySnapshotResponse,
     newCopySnapshotResponse,
 
     -- ** CreateCacheCluster
-    CreateCacheCluster (CreateCacheCluster'),
+    CreateCacheCluster,
     newCreateCacheCluster,
-    CreateCacheClusterResponse (CreateCacheClusterResponse'),
+    CreateCacheClusterResponse,
     newCreateCacheClusterResponse,
 
     -- ** CreateCacheParameterGroup
-    CreateCacheParameterGroup (CreateCacheParameterGroup'),
+    CreateCacheParameterGroup,
     newCreateCacheParameterGroup,
-    CreateCacheParameterGroupResponse (CreateCacheParameterGroupResponse'),
+    CreateCacheParameterGroupResponse,
     newCreateCacheParameterGroupResponse,
 
     -- ** CreateCacheSecurityGroup
-    CreateCacheSecurityGroup (CreateCacheSecurityGroup'),
+    CreateCacheSecurityGroup,
     newCreateCacheSecurityGroup,
-    CreateCacheSecurityGroupResponse (CreateCacheSecurityGroupResponse'),
+    CreateCacheSecurityGroupResponse,
     newCreateCacheSecurityGroupResponse,
 
     -- ** CreateCacheSubnetGroup
-    CreateCacheSubnetGroup (CreateCacheSubnetGroup'),
+    CreateCacheSubnetGroup,
     newCreateCacheSubnetGroup,
-    CreateCacheSubnetGroupResponse (CreateCacheSubnetGroupResponse'),
+    CreateCacheSubnetGroupResponse,
     newCreateCacheSubnetGroupResponse,
 
     -- ** CreateGlobalReplicationGroup
-    CreateGlobalReplicationGroup (CreateGlobalReplicationGroup'),
+    CreateGlobalReplicationGroup,
     newCreateGlobalReplicationGroup,
-    CreateGlobalReplicationGroupResponse (CreateGlobalReplicationGroupResponse'),
+    CreateGlobalReplicationGroupResponse,
     newCreateGlobalReplicationGroupResponse,
 
     -- ** CreateReplicationGroup
-    CreateReplicationGroup (CreateReplicationGroup'),
+    CreateReplicationGroup,
     newCreateReplicationGroup,
-    CreateReplicationGroupResponse (CreateReplicationGroupResponse'),
+    CreateReplicationGroupResponse,
     newCreateReplicationGroupResponse,
 
     -- ** CreateSnapshot
-    CreateSnapshot (CreateSnapshot'),
+    CreateSnapshot,
     newCreateSnapshot,
-    CreateSnapshotResponse (CreateSnapshotResponse'),
+    CreateSnapshotResponse,
     newCreateSnapshotResponse,
 
     -- ** CreateUser
-    CreateUser (CreateUser'),
+    CreateUser,
     newCreateUser,
-    User (User'),
+    User,
     newUser,
 
     -- ** CreateUserGroup
-    CreateUserGroup (CreateUserGroup'),
+    CreateUserGroup,
     newCreateUserGroup,
-    UserGroup (UserGroup'),
+    UserGroup,
     newUserGroup,
 
     -- ** DecreaseNodeGroupsInGlobalReplicationGroup
-    DecreaseNodeGroupsInGlobalReplicationGroup (DecreaseNodeGroupsInGlobalReplicationGroup'),
+    DecreaseNodeGroupsInGlobalReplicationGroup,
     newDecreaseNodeGroupsInGlobalReplicationGroup,
-    DecreaseNodeGroupsInGlobalReplicationGroupResponse (DecreaseNodeGroupsInGlobalReplicationGroupResponse'),
+    DecreaseNodeGroupsInGlobalReplicationGroupResponse,
     newDecreaseNodeGroupsInGlobalReplicationGroupResponse,
 
     -- ** DecreaseReplicaCount
-    DecreaseReplicaCount (DecreaseReplicaCount'),
+    DecreaseReplicaCount,
     newDecreaseReplicaCount,
-    DecreaseReplicaCountResponse (DecreaseReplicaCountResponse'),
+    DecreaseReplicaCountResponse,
     newDecreaseReplicaCountResponse,
 
     -- ** DeleteCacheCluster
-    DeleteCacheCluster (DeleteCacheCluster'),
+    DeleteCacheCluster,
     newDeleteCacheCluster,
-    DeleteCacheClusterResponse (DeleteCacheClusterResponse'),
+    DeleteCacheClusterResponse,
     newDeleteCacheClusterResponse,
 
     -- ** DeleteCacheParameterGroup
-    DeleteCacheParameterGroup (DeleteCacheParameterGroup'),
+    DeleteCacheParameterGroup,
     newDeleteCacheParameterGroup,
-    DeleteCacheParameterGroupResponse (DeleteCacheParameterGroupResponse'),
+    DeleteCacheParameterGroupResponse,
     newDeleteCacheParameterGroupResponse,
 
     -- ** DeleteCacheSecurityGroup
-    DeleteCacheSecurityGroup (DeleteCacheSecurityGroup'),
+    DeleteCacheSecurityGroup,
     newDeleteCacheSecurityGroup,
-    DeleteCacheSecurityGroupResponse (DeleteCacheSecurityGroupResponse'),
+    DeleteCacheSecurityGroupResponse,
     newDeleteCacheSecurityGroupResponse,
 
     -- ** DeleteCacheSubnetGroup
-    DeleteCacheSubnetGroup (DeleteCacheSubnetGroup'),
+    DeleteCacheSubnetGroup,
     newDeleteCacheSubnetGroup,
-    DeleteCacheSubnetGroupResponse (DeleteCacheSubnetGroupResponse'),
+    DeleteCacheSubnetGroupResponse,
     newDeleteCacheSubnetGroupResponse,
 
     -- ** DeleteGlobalReplicationGroup
-    DeleteGlobalReplicationGroup (DeleteGlobalReplicationGroup'),
+    DeleteGlobalReplicationGroup,
     newDeleteGlobalReplicationGroup,
-    DeleteGlobalReplicationGroupResponse (DeleteGlobalReplicationGroupResponse'),
+    DeleteGlobalReplicationGroupResponse,
     newDeleteGlobalReplicationGroupResponse,
 
     -- ** DeleteReplicationGroup
-    DeleteReplicationGroup (DeleteReplicationGroup'),
+    DeleteReplicationGroup,
     newDeleteReplicationGroup,
-    DeleteReplicationGroupResponse (DeleteReplicationGroupResponse'),
+    DeleteReplicationGroupResponse,
     newDeleteReplicationGroupResponse,
 
     -- ** DeleteSnapshot
-    DeleteSnapshot (DeleteSnapshot'),
+    DeleteSnapshot,
     newDeleteSnapshot,
-    DeleteSnapshotResponse (DeleteSnapshotResponse'),
+    DeleteSnapshotResponse,
     newDeleteSnapshotResponse,
 
     -- ** DeleteUser
-    DeleteUser (DeleteUser'),
+    DeleteUser,
     newDeleteUser,
-    User (User'),
+    User,
     newUser,
 
     -- ** DeleteUserGroup
-    DeleteUserGroup (DeleteUserGroup'),
+    DeleteUserGroup,
     newDeleteUserGroup,
-    UserGroup (UserGroup'),
+    UserGroup,
     newUserGroup,
 
     -- ** DescribeCacheClusters (Paginated)
-    DescribeCacheClusters (DescribeCacheClusters'),
+    DescribeCacheClusters,
     newDescribeCacheClusters,
-    DescribeCacheClustersResponse (DescribeCacheClustersResponse'),
+    DescribeCacheClustersResponse,
     newDescribeCacheClustersResponse,
 
     -- ** DescribeCacheEngineVersions (Paginated)
-    DescribeCacheEngineVersions (DescribeCacheEngineVersions'),
+    DescribeCacheEngineVersions,
     newDescribeCacheEngineVersions,
-    DescribeCacheEngineVersionsResponse (DescribeCacheEngineVersionsResponse'),
+    DescribeCacheEngineVersionsResponse,
     newDescribeCacheEngineVersionsResponse,
 
     -- ** DescribeCacheParameterGroups (Paginated)
-    DescribeCacheParameterGroups (DescribeCacheParameterGroups'),
+    DescribeCacheParameterGroups,
     newDescribeCacheParameterGroups,
-    DescribeCacheParameterGroupsResponse (DescribeCacheParameterGroupsResponse'),
+    DescribeCacheParameterGroupsResponse,
     newDescribeCacheParameterGroupsResponse,
 
     -- ** DescribeCacheParameters (Paginated)
-    DescribeCacheParameters (DescribeCacheParameters'),
+    DescribeCacheParameters,
     newDescribeCacheParameters,
-    DescribeCacheParametersResponse (DescribeCacheParametersResponse'),
+    DescribeCacheParametersResponse,
     newDescribeCacheParametersResponse,
 
     -- ** DescribeCacheSecurityGroups (Paginated)
-    DescribeCacheSecurityGroups (DescribeCacheSecurityGroups'),
+    DescribeCacheSecurityGroups,
     newDescribeCacheSecurityGroups,
-    DescribeCacheSecurityGroupsResponse (DescribeCacheSecurityGroupsResponse'),
+    DescribeCacheSecurityGroupsResponse,
     newDescribeCacheSecurityGroupsResponse,
 
     -- ** DescribeCacheSubnetGroups (Paginated)
-    DescribeCacheSubnetGroups (DescribeCacheSubnetGroups'),
+    DescribeCacheSubnetGroups,
     newDescribeCacheSubnetGroups,
-    DescribeCacheSubnetGroupsResponse (DescribeCacheSubnetGroupsResponse'),
+    DescribeCacheSubnetGroupsResponse,
     newDescribeCacheSubnetGroupsResponse,
 
     -- ** DescribeEngineDefaultParameters (Paginated)
-    DescribeEngineDefaultParameters (DescribeEngineDefaultParameters'),
+    DescribeEngineDefaultParameters,
     newDescribeEngineDefaultParameters,
-    DescribeEngineDefaultParametersResponse (DescribeEngineDefaultParametersResponse'),
+    DescribeEngineDefaultParametersResponse,
     newDescribeEngineDefaultParametersResponse,
 
     -- ** DescribeEvents (Paginated)
-    DescribeEvents (DescribeEvents'),
+    DescribeEvents,
     newDescribeEvents,
-    DescribeEventsResponse (DescribeEventsResponse'),
+    DescribeEventsResponse,
     newDescribeEventsResponse,
 
     -- ** DescribeGlobalReplicationGroups (Paginated)
-    DescribeGlobalReplicationGroups (DescribeGlobalReplicationGroups'),
+    DescribeGlobalReplicationGroups,
     newDescribeGlobalReplicationGroups,
-    DescribeGlobalReplicationGroupsResponse (DescribeGlobalReplicationGroupsResponse'),
+    DescribeGlobalReplicationGroupsResponse,
     newDescribeGlobalReplicationGroupsResponse,
 
     -- ** DescribeReplicationGroups (Paginated)
-    DescribeReplicationGroups (DescribeReplicationGroups'),
+    DescribeReplicationGroups,
     newDescribeReplicationGroups,
-    DescribeReplicationGroupsResponse (DescribeReplicationGroupsResponse'),
+    DescribeReplicationGroupsResponse,
     newDescribeReplicationGroupsResponse,
 
     -- ** DescribeReservedCacheNodes (Paginated)
-    DescribeReservedCacheNodes (DescribeReservedCacheNodes'),
+    DescribeReservedCacheNodes,
     newDescribeReservedCacheNodes,
-    DescribeReservedCacheNodesResponse (DescribeReservedCacheNodesResponse'),
+    DescribeReservedCacheNodesResponse,
     newDescribeReservedCacheNodesResponse,
 
     -- ** DescribeReservedCacheNodesOfferings (Paginated)
-    DescribeReservedCacheNodesOfferings (DescribeReservedCacheNodesOfferings'),
+    DescribeReservedCacheNodesOfferings,
     newDescribeReservedCacheNodesOfferings,
-    DescribeReservedCacheNodesOfferingsResponse (DescribeReservedCacheNodesOfferingsResponse'),
+    DescribeReservedCacheNodesOfferingsResponse,
     newDescribeReservedCacheNodesOfferingsResponse,
 
     -- ** DescribeServiceUpdates (Paginated)
-    DescribeServiceUpdates (DescribeServiceUpdates'),
+    DescribeServiceUpdates,
     newDescribeServiceUpdates,
-    DescribeServiceUpdatesResponse (DescribeServiceUpdatesResponse'),
+    DescribeServiceUpdatesResponse,
     newDescribeServiceUpdatesResponse,
 
     -- ** DescribeSnapshots (Paginated)
-    DescribeSnapshots (DescribeSnapshots'),
+    DescribeSnapshots,
     newDescribeSnapshots,
-    DescribeSnapshotsResponse (DescribeSnapshotsResponse'),
+    DescribeSnapshotsResponse,
     newDescribeSnapshotsResponse,
 
     -- ** DescribeUpdateActions (Paginated)
-    DescribeUpdateActions (DescribeUpdateActions'),
+    DescribeUpdateActions,
     newDescribeUpdateActions,
-    DescribeUpdateActionsResponse (DescribeUpdateActionsResponse'),
+    DescribeUpdateActionsResponse,
     newDescribeUpdateActionsResponse,
 
     -- ** DescribeUserGroups (Paginated)
-    DescribeUserGroups (DescribeUserGroups'),
+    DescribeUserGroups,
     newDescribeUserGroups,
-    DescribeUserGroupsResponse (DescribeUserGroupsResponse'),
+    DescribeUserGroupsResponse,
     newDescribeUserGroupsResponse,
 
     -- ** DescribeUsers (Paginated)
-    DescribeUsers (DescribeUsers'),
+    DescribeUsers,
     newDescribeUsers,
-    DescribeUsersResponse (DescribeUsersResponse'),
+    DescribeUsersResponse,
     newDescribeUsersResponse,
 
     -- ** DisassociateGlobalReplicationGroup
-    DisassociateGlobalReplicationGroup (DisassociateGlobalReplicationGroup'),
+    DisassociateGlobalReplicationGroup,
     newDisassociateGlobalReplicationGroup,
-    DisassociateGlobalReplicationGroupResponse (DisassociateGlobalReplicationGroupResponse'),
+    DisassociateGlobalReplicationGroupResponse,
     newDisassociateGlobalReplicationGroupResponse,
 
     -- ** FailoverGlobalReplicationGroup
-    FailoverGlobalReplicationGroup (FailoverGlobalReplicationGroup'),
+    FailoverGlobalReplicationGroup,
     newFailoverGlobalReplicationGroup,
-    FailoverGlobalReplicationGroupResponse (FailoverGlobalReplicationGroupResponse'),
+    FailoverGlobalReplicationGroupResponse,
     newFailoverGlobalReplicationGroupResponse,
 
     -- ** IncreaseNodeGroupsInGlobalReplicationGroup
-    IncreaseNodeGroupsInGlobalReplicationGroup (IncreaseNodeGroupsInGlobalReplicationGroup'),
+    IncreaseNodeGroupsInGlobalReplicationGroup,
     newIncreaseNodeGroupsInGlobalReplicationGroup,
-    IncreaseNodeGroupsInGlobalReplicationGroupResponse (IncreaseNodeGroupsInGlobalReplicationGroupResponse'),
+    IncreaseNodeGroupsInGlobalReplicationGroupResponse,
     newIncreaseNodeGroupsInGlobalReplicationGroupResponse,
 
     -- ** IncreaseReplicaCount
-    IncreaseReplicaCount (IncreaseReplicaCount'),
+    IncreaseReplicaCount,
     newIncreaseReplicaCount,
-    IncreaseReplicaCountResponse (IncreaseReplicaCountResponse'),
+    IncreaseReplicaCountResponse,
     newIncreaseReplicaCountResponse,
 
     -- ** ListAllowedNodeTypeModifications
-    ListAllowedNodeTypeModifications (ListAllowedNodeTypeModifications'),
+    ListAllowedNodeTypeModifications,
     newListAllowedNodeTypeModifications,
-    ListAllowedNodeTypeModificationsResponse (ListAllowedNodeTypeModificationsResponse'),
+    ListAllowedNodeTypeModificationsResponse,
     newListAllowedNodeTypeModificationsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    TagListMessage (TagListMessage'),
+    TagListMessage,
     newTagListMessage,
 
     -- ** ModifyCacheCluster
-    ModifyCacheCluster (ModifyCacheCluster'),
+    ModifyCacheCluster,
     newModifyCacheCluster,
-    ModifyCacheClusterResponse (ModifyCacheClusterResponse'),
+    ModifyCacheClusterResponse,
     newModifyCacheClusterResponse,
 
     -- ** ModifyCacheParameterGroup
-    ModifyCacheParameterGroup (ModifyCacheParameterGroup'),
+    ModifyCacheParameterGroup,
     newModifyCacheParameterGroup,
-    CacheParameterGroupNameMessage (CacheParameterGroupNameMessage'),
+    CacheParameterGroupNameMessage,
     newCacheParameterGroupNameMessage,
 
     -- ** ModifyCacheSubnetGroup
-    ModifyCacheSubnetGroup (ModifyCacheSubnetGroup'),
+    ModifyCacheSubnetGroup,
     newModifyCacheSubnetGroup,
-    ModifyCacheSubnetGroupResponse (ModifyCacheSubnetGroupResponse'),
+    ModifyCacheSubnetGroupResponse,
     newModifyCacheSubnetGroupResponse,
 
     -- ** ModifyGlobalReplicationGroup
-    ModifyGlobalReplicationGroup (ModifyGlobalReplicationGroup'),
+    ModifyGlobalReplicationGroup,
     newModifyGlobalReplicationGroup,
-    ModifyGlobalReplicationGroupResponse (ModifyGlobalReplicationGroupResponse'),
+    ModifyGlobalReplicationGroupResponse,
     newModifyGlobalReplicationGroupResponse,
 
     -- ** ModifyReplicationGroup
-    ModifyReplicationGroup (ModifyReplicationGroup'),
+    ModifyReplicationGroup,
     newModifyReplicationGroup,
-    ModifyReplicationGroupResponse (ModifyReplicationGroupResponse'),
+    ModifyReplicationGroupResponse,
     newModifyReplicationGroupResponse,
 
     -- ** ModifyReplicationGroupShardConfiguration
-    ModifyReplicationGroupShardConfiguration (ModifyReplicationGroupShardConfiguration'),
+    ModifyReplicationGroupShardConfiguration,
     newModifyReplicationGroupShardConfiguration,
-    ModifyReplicationGroupShardConfigurationResponse (ModifyReplicationGroupShardConfigurationResponse'),
+    ModifyReplicationGroupShardConfigurationResponse,
     newModifyReplicationGroupShardConfigurationResponse,
 
     -- ** ModifyUser
-    ModifyUser (ModifyUser'),
+    ModifyUser,
     newModifyUser,
-    User (User'),
+    User,
     newUser,
 
     -- ** ModifyUserGroup
-    ModifyUserGroup (ModifyUserGroup'),
+    ModifyUserGroup,
     newModifyUserGroup,
-    UserGroup (UserGroup'),
+    UserGroup,
     newUserGroup,
 
     -- ** PurchaseReservedCacheNodesOffering
-    PurchaseReservedCacheNodesOffering (PurchaseReservedCacheNodesOffering'),
+    PurchaseReservedCacheNodesOffering,
     newPurchaseReservedCacheNodesOffering,
-    PurchaseReservedCacheNodesOfferingResponse (PurchaseReservedCacheNodesOfferingResponse'),
+    PurchaseReservedCacheNodesOfferingResponse,
     newPurchaseReservedCacheNodesOfferingResponse,
 
     -- ** RebalanceSlotsInGlobalReplicationGroup
-    RebalanceSlotsInGlobalReplicationGroup (RebalanceSlotsInGlobalReplicationGroup'),
+    RebalanceSlotsInGlobalReplicationGroup,
     newRebalanceSlotsInGlobalReplicationGroup,
-    RebalanceSlotsInGlobalReplicationGroupResponse (RebalanceSlotsInGlobalReplicationGroupResponse'),
+    RebalanceSlotsInGlobalReplicationGroupResponse,
     newRebalanceSlotsInGlobalReplicationGroupResponse,
 
     -- ** RebootCacheCluster
-    RebootCacheCluster (RebootCacheCluster'),
+    RebootCacheCluster,
     newRebootCacheCluster,
-    RebootCacheClusterResponse (RebootCacheClusterResponse'),
+    RebootCacheClusterResponse,
     newRebootCacheClusterResponse,
 
     -- ** RemoveTagsFromResource
-    RemoveTagsFromResource (RemoveTagsFromResource'),
+    RemoveTagsFromResource,
     newRemoveTagsFromResource,
-    TagListMessage (TagListMessage'),
+    TagListMessage,
     newTagListMessage,
 
     -- ** ResetCacheParameterGroup
-    ResetCacheParameterGroup (ResetCacheParameterGroup'),
+    ResetCacheParameterGroup,
     newResetCacheParameterGroup,
-    CacheParameterGroupNameMessage (CacheParameterGroupNameMessage'),
+    CacheParameterGroupNameMessage,
     newCacheParameterGroupNameMessage,
 
     -- ** RevokeCacheSecurityGroupIngress
-    RevokeCacheSecurityGroupIngress (RevokeCacheSecurityGroupIngress'),
+    RevokeCacheSecurityGroupIngress,
     newRevokeCacheSecurityGroupIngress,
-    RevokeCacheSecurityGroupIngressResponse (RevokeCacheSecurityGroupIngressResponse'),
+    RevokeCacheSecurityGroupIngressResponse,
     newRevokeCacheSecurityGroupIngressResponse,
 
     -- ** StartMigration
-    StartMigration (StartMigration'),
+    StartMigration,
     newStartMigration,
-    StartMigrationResponse (StartMigrationResponse'),
+    StartMigrationResponse,
     newStartMigrationResponse,
 
     -- ** TestFailover
-    TestFailover (TestFailover'),
+    TestFailover,
     newTestFailover,
-    TestFailoverResponse (TestFailoverResponse'),
+    TestFailoverResponse,
     newTestFailoverResponse,
 
     -- * Types
@@ -722,271 +722,271 @@ module Amazonka.ElastiCache
     UpdateActionStatus (..),
 
     -- ** Authentication
-    Authentication (Authentication'),
+    Authentication,
     newAuthentication,
 
     -- ** AuthenticationMode
-    AuthenticationMode (AuthenticationMode'),
+    AuthenticationMode,
     newAuthenticationMode,
 
     -- ** AvailabilityZone
-    AvailabilityZone (AvailabilityZone'),
+    AvailabilityZone,
     newAvailabilityZone,
 
     -- ** CacheCluster
-    CacheCluster (CacheCluster'),
+    CacheCluster,
     newCacheCluster,
 
     -- ** CacheEngineVersion
-    CacheEngineVersion (CacheEngineVersion'),
+    CacheEngineVersion,
     newCacheEngineVersion,
 
     -- ** CacheNode
-    CacheNode (CacheNode'),
+    CacheNode,
     newCacheNode,
 
     -- ** CacheNodeTypeSpecificParameter
-    CacheNodeTypeSpecificParameter (CacheNodeTypeSpecificParameter'),
+    CacheNodeTypeSpecificParameter,
     newCacheNodeTypeSpecificParameter,
 
     -- ** CacheNodeTypeSpecificValue
-    CacheNodeTypeSpecificValue (CacheNodeTypeSpecificValue'),
+    CacheNodeTypeSpecificValue,
     newCacheNodeTypeSpecificValue,
 
     -- ** CacheNodeUpdateStatus
-    CacheNodeUpdateStatus (CacheNodeUpdateStatus'),
+    CacheNodeUpdateStatus,
     newCacheNodeUpdateStatus,
 
     -- ** CacheParameterGroup
-    CacheParameterGroup (CacheParameterGroup'),
+    CacheParameterGroup,
     newCacheParameterGroup,
 
     -- ** CacheParameterGroupNameMessage
-    CacheParameterGroupNameMessage (CacheParameterGroupNameMessage'),
+    CacheParameterGroupNameMessage,
     newCacheParameterGroupNameMessage,
 
     -- ** CacheParameterGroupStatus
-    CacheParameterGroupStatus (CacheParameterGroupStatus'),
+    CacheParameterGroupStatus,
     newCacheParameterGroupStatus,
 
     -- ** CacheSecurityGroup
-    CacheSecurityGroup (CacheSecurityGroup'),
+    CacheSecurityGroup,
     newCacheSecurityGroup,
 
     -- ** CacheSecurityGroupMembership
-    CacheSecurityGroupMembership (CacheSecurityGroupMembership'),
+    CacheSecurityGroupMembership,
     newCacheSecurityGroupMembership,
 
     -- ** CacheSubnetGroup
-    CacheSubnetGroup (CacheSubnetGroup'),
+    CacheSubnetGroup,
     newCacheSubnetGroup,
 
     -- ** CloudWatchLogsDestinationDetails
-    CloudWatchLogsDestinationDetails (CloudWatchLogsDestinationDetails'),
+    CloudWatchLogsDestinationDetails,
     newCloudWatchLogsDestinationDetails,
 
     -- ** ConfigureShard
-    ConfigureShard (ConfigureShard'),
+    ConfigureShard,
     newConfigureShard,
 
     -- ** CustomerNodeEndpoint
-    CustomerNodeEndpoint (CustomerNodeEndpoint'),
+    CustomerNodeEndpoint,
     newCustomerNodeEndpoint,
 
     -- ** DestinationDetails
-    DestinationDetails (DestinationDetails'),
+    DestinationDetails,
     newDestinationDetails,
 
     -- ** EC2SecurityGroup
-    EC2SecurityGroup (EC2SecurityGroup'),
+    EC2SecurityGroup,
     newEC2SecurityGroup,
 
     -- ** Endpoint
-    Endpoint (Endpoint'),
+    Endpoint,
     newEndpoint,
 
     -- ** EngineDefaults
-    EngineDefaults (EngineDefaults'),
+    EngineDefaults,
     newEngineDefaults,
 
     -- ** Event
-    Event (Event'),
+    Event,
     newEvent,
 
     -- ** Filter
-    Filter (Filter'),
+    Filter,
     newFilter,
 
     -- ** GlobalNodeGroup
-    GlobalNodeGroup (GlobalNodeGroup'),
+    GlobalNodeGroup,
     newGlobalNodeGroup,
 
     -- ** GlobalReplicationGroup
-    GlobalReplicationGroup (GlobalReplicationGroup'),
+    GlobalReplicationGroup,
     newGlobalReplicationGroup,
 
     -- ** GlobalReplicationGroupInfo
-    GlobalReplicationGroupInfo (GlobalReplicationGroupInfo'),
+    GlobalReplicationGroupInfo,
     newGlobalReplicationGroupInfo,
 
     -- ** GlobalReplicationGroupMember
-    GlobalReplicationGroupMember (GlobalReplicationGroupMember'),
+    GlobalReplicationGroupMember,
     newGlobalReplicationGroupMember,
 
     -- ** KinesisFirehoseDestinationDetails
-    KinesisFirehoseDestinationDetails (KinesisFirehoseDestinationDetails'),
+    KinesisFirehoseDestinationDetails,
     newKinesisFirehoseDestinationDetails,
 
     -- ** LogDeliveryConfiguration
-    LogDeliveryConfiguration (LogDeliveryConfiguration'),
+    LogDeliveryConfiguration,
     newLogDeliveryConfiguration,
 
     -- ** LogDeliveryConfigurationRequest
-    LogDeliveryConfigurationRequest (LogDeliveryConfigurationRequest'),
+    LogDeliveryConfigurationRequest,
     newLogDeliveryConfigurationRequest,
 
     -- ** NodeGroup
-    NodeGroup (NodeGroup'),
+    NodeGroup,
     newNodeGroup,
 
     -- ** NodeGroupConfiguration
-    NodeGroupConfiguration (NodeGroupConfiguration'),
+    NodeGroupConfiguration,
     newNodeGroupConfiguration,
 
     -- ** NodeGroupMember
-    NodeGroupMember (NodeGroupMember'),
+    NodeGroupMember,
     newNodeGroupMember,
 
     -- ** NodeGroupMemberUpdateStatus
-    NodeGroupMemberUpdateStatus (NodeGroupMemberUpdateStatus'),
+    NodeGroupMemberUpdateStatus,
     newNodeGroupMemberUpdateStatus,
 
     -- ** NodeGroupUpdateStatus
-    NodeGroupUpdateStatus (NodeGroupUpdateStatus'),
+    NodeGroupUpdateStatus,
     newNodeGroupUpdateStatus,
 
     -- ** NodeSnapshot
-    NodeSnapshot (NodeSnapshot'),
+    NodeSnapshot,
     newNodeSnapshot,
 
     -- ** NotificationConfiguration
-    NotificationConfiguration (NotificationConfiguration'),
+    NotificationConfiguration,
     newNotificationConfiguration,
 
     -- ** Parameter
-    Parameter (Parameter'),
+    Parameter,
     newParameter,
 
     -- ** ParameterNameValue
-    ParameterNameValue (ParameterNameValue'),
+    ParameterNameValue,
     newParameterNameValue,
 
     -- ** PendingLogDeliveryConfiguration
-    PendingLogDeliveryConfiguration (PendingLogDeliveryConfiguration'),
+    PendingLogDeliveryConfiguration,
     newPendingLogDeliveryConfiguration,
 
     -- ** PendingModifiedValues
-    PendingModifiedValues (PendingModifiedValues'),
+    PendingModifiedValues,
     newPendingModifiedValues,
 
     -- ** ProcessedUpdateAction
-    ProcessedUpdateAction (ProcessedUpdateAction'),
+    ProcessedUpdateAction,
     newProcessedUpdateAction,
 
     -- ** RecurringCharge
-    RecurringCharge (RecurringCharge'),
+    RecurringCharge,
     newRecurringCharge,
 
     -- ** RegionalConfiguration
-    RegionalConfiguration (RegionalConfiguration'),
+    RegionalConfiguration,
     newRegionalConfiguration,
 
     -- ** ReplicationGroup
-    ReplicationGroup (ReplicationGroup'),
+    ReplicationGroup,
     newReplicationGroup,
 
     -- ** ReplicationGroupPendingModifiedValues
-    ReplicationGroupPendingModifiedValues (ReplicationGroupPendingModifiedValues'),
+    ReplicationGroupPendingModifiedValues,
     newReplicationGroupPendingModifiedValues,
 
     -- ** ReservedCacheNode
-    ReservedCacheNode (ReservedCacheNode'),
+    ReservedCacheNode,
     newReservedCacheNode,
 
     -- ** ReservedCacheNodesOffering
-    ReservedCacheNodesOffering (ReservedCacheNodesOffering'),
+    ReservedCacheNodesOffering,
     newReservedCacheNodesOffering,
 
     -- ** ReshardingConfiguration
-    ReshardingConfiguration (ReshardingConfiguration'),
+    ReshardingConfiguration,
     newReshardingConfiguration,
 
     -- ** ReshardingStatus
-    ReshardingStatus (ReshardingStatus'),
+    ReshardingStatus,
     newReshardingStatus,
 
     -- ** SecurityGroupMembership
-    SecurityGroupMembership (SecurityGroupMembership'),
+    SecurityGroupMembership,
     newSecurityGroupMembership,
 
     -- ** ServiceUpdate
-    ServiceUpdate (ServiceUpdate'),
+    ServiceUpdate,
     newServiceUpdate,
 
     -- ** SlotMigration
-    SlotMigration (SlotMigration'),
+    SlotMigration,
     newSlotMigration,
 
     -- ** Snapshot
-    Snapshot (Snapshot'),
+    Snapshot,
     newSnapshot,
 
     -- ** Subnet
-    Subnet (Subnet'),
+    Subnet,
     newSubnet,
 
     -- ** SubnetOutpost
-    SubnetOutpost (SubnetOutpost'),
+    SubnetOutpost,
     newSubnetOutpost,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
 
     -- ** TagListMessage
-    TagListMessage (TagListMessage'),
+    TagListMessage,
     newTagListMessage,
 
     -- ** TimeRangeFilter
-    TimeRangeFilter (TimeRangeFilter'),
+    TimeRangeFilter,
     newTimeRangeFilter,
 
     -- ** UnprocessedUpdateAction
-    UnprocessedUpdateAction (UnprocessedUpdateAction'),
+    UnprocessedUpdateAction,
     newUnprocessedUpdateAction,
 
     -- ** UpdateAction
-    UpdateAction (UpdateAction'),
+    UpdateAction,
     newUpdateAction,
 
     -- ** UpdateActionResultsMessage
-    UpdateActionResultsMessage (UpdateActionResultsMessage'),
+    UpdateActionResultsMessage,
     newUpdateActionResultsMessage,
 
     -- ** User
-    User (User'),
+    User,
     newUser,
 
     -- ** UserGroup
-    UserGroup (UserGroup'),
+    UserGroup,
     newUserGroup,
 
     -- ** UserGroupPendingChanges
-    UserGroupPendingChanges (UserGroupPendingChanges'),
+    UserGroupPendingChanges,
     newUserGroupPendingChanges,
 
     -- ** UserGroupsUpdateStatus
-    UserGroupsUpdateStatus (UserGroupsUpdateStatus'),
+    UserGroupsUpdateStatus,
     newUserGroupsUpdateStatus,
   )
 where

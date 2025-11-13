@@ -93,89 +93,89 @@ module Amazonka.SDB
     -- $operations
 
     -- ** BatchDeleteAttributes
-    BatchDeleteAttributes (BatchDeleteAttributes'),
+    BatchDeleteAttributes,
     newBatchDeleteAttributes,
-    BatchDeleteAttributesResponse (BatchDeleteAttributesResponse'),
+    BatchDeleteAttributesResponse,
     newBatchDeleteAttributesResponse,
 
     -- ** BatchPutAttributes
-    BatchPutAttributes (BatchPutAttributes'),
+    BatchPutAttributes,
     newBatchPutAttributes,
-    BatchPutAttributesResponse (BatchPutAttributesResponse'),
+    BatchPutAttributesResponse,
     newBatchPutAttributesResponse,
 
     -- ** CreateDomain
-    CreateDomain (CreateDomain'),
+    CreateDomain,
     newCreateDomain,
-    CreateDomainResponse (CreateDomainResponse'),
+    CreateDomainResponse,
     newCreateDomainResponse,
 
     -- ** DeleteAttributes
-    DeleteAttributes (DeleteAttributes'),
+    DeleteAttributes,
     newDeleteAttributes,
-    DeleteAttributesResponse (DeleteAttributesResponse'),
+    DeleteAttributesResponse,
     newDeleteAttributesResponse,
 
     -- ** DeleteDomain
-    DeleteDomain (DeleteDomain'),
+    DeleteDomain,
     newDeleteDomain,
-    DeleteDomainResponse (DeleteDomainResponse'),
+    DeleteDomainResponse,
     newDeleteDomainResponse,
 
     -- ** DomainMetadata
-    DomainMetadata (DomainMetadata'),
+    DomainMetadata,
     newDomainMetadata,
-    DomainMetadataResponse (DomainMetadataResponse'),
+    DomainMetadataResponse,
     newDomainMetadataResponse,
 
     -- ** GetAttributes
-    GetAttributes (GetAttributes'),
+    GetAttributes,
     newGetAttributes,
-    GetAttributesResponse (GetAttributesResponse'),
+    GetAttributesResponse,
     newGetAttributesResponse,
 
     -- ** ListDomains (Paginated)
-    ListDomains (ListDomains'),
+    ListDomains,
     newListDomains,
-    ListDomainsResponse (ListDomainsResponse'),
+    ListDomainsResponse,
     newListDomainsResponse,
 
     -- ** PutAttributes
-    PutAttributes (PutAttributes'),
+    PutAttributes,
     newPutAttributes,
-    PutAttributesResponse (PutAttributesResponse'),
+    PutAttributesResponse,
     newPutAttributesResponse,
 
     -- ** Select (Paginated)
-    Select (Select'),
+    Select,
     newSelect,
-    SelectResponse (SelectResponse'),
+    SelectResponse,
     newSelectResponse,
 
     -- * Types
 
     -- ** Attribute
-    Attribute (Attribute'),
+    Attribute,
     newAttribute,
 
     -- ** DeletableItem
-    DeletableItem (DeletableItem'),
+    DeletableItem,
     newDeletableItem,
 
     -- ** Item
-    Item (Item'),
+    Item,
     newItem,
 
     -- ** ReplaceableAttribute
-    ReplaceableAttribute (ReplaceableAttribute'),
+    ReplaceableAttribute,
     newReplaceableAttribute,
 
     -- ** ReplaceableItem
-    ReplaceableItem (ReplaceableItem'),
+    ReplaceableItem,
     newReplaceableItem,
 
     -- ** UpdateCondition
-    UpdateCondition (UpdateCondition'),
+    UpdateCondition,
     newUpdateCondition,
   )
 where

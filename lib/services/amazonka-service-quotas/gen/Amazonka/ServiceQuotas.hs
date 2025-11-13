@@ -81,117 +81,117 @@ module Amazonka.ServiceQuotas
     -- $operations
 
     -- ** AssociateServiceQuotaTemplate
-    AssociateServiceQuotaTemplate (AssociateServiceQuotaTemplate'),
+    AssociateServiceQuotaTemplate,
     newAssociateServiceQuotaTemplate,
-    AssociateServiceQuotaTemplateResponse (AssociateServiceQuotaTemplateResponse'),
+    AssociateServiceQuotaTemplateResponse,
     newAssociateServiceQuotaTemplateResponse,
 
     -- ** DeleteServiceQuotaIncreaseRequestFromTemplate
-    DeleteServiceQuotaIncreaseRequestFromTemplate (DeleteServiceQuotaIncreaseRequestFromTemplate'),
+    DeleteServiceQuotaIncreaseRequestFromTemplate,
     newDeleteServiceQuotaIncreaseRequestFromTemplate,
-    DeleteServiceQuotaIncreaseRequestFromTemplateResponse (DeleteServiceQuotaIncreaseRequestFromTemplateResponse'),
+    DeleteServiceQuotaIncreaseRequestFromTemplateResponse,
     newDeleteServiceQuotaIncreaseRequestFromTemplateResponse,
 
     -- ** DisassociateServiceQuotaTemplate
-    DisassociateServiceQuotaTemplate (DisassociateServiceQuotaTemplate'),
+    DisassociateServiceQuotaTemplate,
     newDisassociateServiceQuotaTemplate,
-    DisassociateServiceQuotaTemplateResponse (DisassociateServiceQuotaTemplateResponse'),
+    DisassociateServiceQuotaTemplateResponse,
     newDisassociateServiceQuotaTemplateResponse,
 
     -- ** GetAWSDefaultServiceQuota
-    GetAWSDefaultServiceQuota (GetAWSDefaultServiceQuota'),
+    GetAWSDefaultServiceQuota,
     newGetAWSDefaultServiceQuota,
-    GetAWSDefaultServiceQuotaResponse (GetAWSDefaultServiceQuotaResponse'),
+    GetAWSDefaultServiceQuotaResponse,
     newGetAWSDefaultServiceQuotaResponse,
 
     -- ** GetAssociationForServiceQuotaTemplate
-    GetAssociationForServiceQuotaTemplate (GetAssociationForServiceQuotaTemplate'),
+    GetAssociationForServiceQuotaTemplate,
     newGetAssociationForServiceQuotaTemplate,
-    GetAssociationForServiceQuotaTemplateResponse (GetAssociationForServiceQuotaTemplateResponse'),
+    GetAssociationForServiceQuotaTemplateResponse,
     newGetAssociationForServiceQuotaTemplateResponse,
 
     -- ** GetRequestedServiceQuotaChange
-    GetRequestedServiceQuotaChange (GetRequestedServiceQuotaChange'),
+    GetRequestedServiceQuotaChange,
     newGetRequestedServiceQuotaChange,
-    GetRequestedServiceQuotaChangeResponse (GetRequestedServiceQuotaChangeResponse'),
+    GetRequestedServiceQuotaChangeResponse,
     newGetRequestedServiceQuotaChangeResponse,
 
     -- ** GetServiceQuota
-    GetServiceQuota (GetServiceQuota'),
+    GetServiceQuota,
     newGetServiceQuota,
-    GetServiceQuotaResponse (GetServiceQuotaResponse'),
+    GetServiceQuotaResponse,
     newGetServiceQuotaResponse,
 
     -- ** GetServiceQuotaIncreaseRequestFromTemplate
-    GetServiceQuotaIncreaseRequestFromTemplate (GetServiceQuotaIncreaseRequestFromTemplate'),
+    GetServiceQuotaIncreaseRequestFromTemplate,
     newGetServiceQuotaIncreaseRequestFromTemplate,
-    GetServiceQuotaIncreaseRequestFromTemplateResponse (GetServiceQuotaIncreaseRequestFromTemplateResponse'),
+    GetServiceQuotaIncreaseRequestFromTemplateResponse,
     newGetServiceQuotaIncreaseRequestFromTemplateResponse,
 
     -- ** ListAWSDefaultServiceQuotas (Paginated)
-    ListAWSDefaultServiceQuotas (ListAWSDefaultServiceQuotas'),
+    ListAWSDefaultServiceQuotas,
     newListAWSDefaultServiceQuotas,
-    ListAWSDefaultServiceQuotasResponse (ListAWSDefaultServiceQuotasResponse'),
+    ListAWSDefaultServiceQuotasResponse,
     newListAWSDefaultServiceQuotasResponse,
 
     -- ** ListRequestedServiceQuotaChangeHistory (Paginated)
-    ListRequestedServiceQuotaChangeHistory (ListRequestedServiceQuotaChangeHistory'),
+    ListRequestedServiceQuotaChangeHistory,
     newListRequestedServiceQuotaChangeHistory,
-    ListRequestedServiceQuotaChangeHistoryResponse (ListRequestedServiceQuotaChangeHistoryResponse'),
+    ListRequestedServiceQuotaChangeHistoryResponse,
     newListRequestedServiceQuotaChangeHistoryResponse,
 
     -- ** ListRequestedServiceQuotaChangeHistoryByQuota (Paginated)
-    ListRequestedServiceQuotaChangeHistoryByQuota (ListRequestedServiceQuotaChangeHistoryByQuota'),
+    ListRequestedServiceQuotaChangeHistoryByQuota,
     newListRequestedServiceQuotaChangeHistoryByQuota,
-    ListRequestedServiceQuotaChangeHistoryByQuotaResponse (ListRequestedServiceQuotaChangeHistoryByQuotaResponse'),
+    ListRequestedServiceQuotaChangeHistoryByQuotaResponse,
     newListRequestedServiceQuotaChangeHistoryByQuotaResponse,
 
     -- ** ListServiceQuotaIncreaseRequestsInTemplate (Paginated)
-    ListServiceQuotaIncreaseRequestsInTemplate (ListServiceQuotaIncreaseRequestsInTemplate'),
+    ListServiceQuotaIncreaseRequestsInTemplate,
     newListServiceQuotaIncreaseRequestsInTemplate,
-    ListServiceQuotaIncreaseRequestsInTemplateResponse (ListServiceQuotaIncreaseRequestsInTemplateResponse'),
+    ListServiceQuotaIncreaseRequestsInTemplateResponse,
     newListServiceQuotaIncreaseRequestsInTemplateResponse,
 
     -- ** ListServiceQuotas (Paginated)
-    ListServiceQuotas (ListServiceQuotas'),
+    ListServiceQuotas,
     newListServiceQuotas,
-    ListServiceQuotasResponse (ListServiceQuotasResponse'),
+    ListServiceQuotasResponse,
     newListServiceQuotasResponse,
 
     -- ** ListServices (Paginated)
-    ListServices (ListServices'),
+    ListServices,
     newListServices,
-    ListServicesResponse (ListServicesResponse'),
+    ListServicesResponse,
     newListServicesResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** PutServiceQuotaIncreaseRequestIntoTemplate
-    PutServiceQuotaIncreaseRequestIntoTemplate (PutServiceQuotaIncreaseRequestIntoTemplate'),
+    PutServiceQuotaIncreaseRequestIntoTemplate,
     newPutServiceQuotaIncreaseRequestIntoTemplate,
-    PutServiceQuotaIncreaseRequestIntoTemplateResponse (PutServiceQuotaIncreaseRequestIntoTemplateResponse'),
+    PutServiceQuotaIncreaseRequestIntoTemplateResponse,
     newPutServiceQuotaIncreaseRequestIntoTemplateResponse,
 
     -- ** RequestServiceQuotaIncrease
-    RequestServiceQuotaIncrease (RequestServiceQuotaIncrease'),
+    RequestServiceQuotaIncrease,
     newRequestServiceQuotaIncrease,
-    RequestServiceQuotaIncreaseResponse (RequestServiceQuotaIncreaseResponse'),
+    RequestServiceQuotaIncreaseResponse,
     newRequestServiceQuotaIncreaseResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- * Types
@@ -209,35 +209,35 @@ module Amazonka.ServiceQuotas
     ServiceQuotaTemplateAssociationStatus (..),
 
     -- ** ErrorReason
-    ErrorReason (ErrorReason'),
+    ErrorReason,
     newErrorReason,
 
     -- ** MetricInfo
-    MetricInfo (MetricInfo'),
+    MetricInfo,
     newMetricInfo,
 
     -- ** QuotaPeriod
-    QuotaPeriod (QuotaPeriod'),
+    QuotaPeriod,
     newQuotaPeriod,
 
     -- ** RequestedServiceQuotaChange
-    RequestedServiceQuotaChange (RequestedServiceQuotaChange'),
+    RequestedServiceQuotaChange,
     newRequestedServiceQuotaChange,
 
     -- ** ServiceInfo
-    ServiceInfo (ServiceInfo'),
+    ServiceInfo,
     newServiceInfo,
 
     -- ** ServiceQuota
-    ServiceQuota (ServiceQuota'),
+    ServiceQuota,
     newServiceQuota,
 
     -- ** ServiceQuotaIncreaseRequestInTemplate
-    ServiceQuotaIncreaseRequestInTemplate (ServiceQuotaIncreaseRequestInTemplate'),
+    ServiceQuotaIncreaseRequestInTemplate,
     newServiceQuotaIncreaseRequestInTemplate,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
   )
 where

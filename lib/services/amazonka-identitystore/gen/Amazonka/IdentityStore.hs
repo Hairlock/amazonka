@@ -52,179 +52,179 @@ module Amazonka.IdentityStore
     -- $operations
 
     -- ** CreateGroup
-    CreateGroup (CreateGroup'),
+    CreateGroup,
     newCreateGroup,
-    CreateGroupResponse (CreateGroupResponse'),
+    CreateGroupResponse,
     newCreateGroupResponse,
 
     -- ** CreateGroupMembership
-    CreateGroupMembership (CreateGroupMembership'),
+    CreateGroupMembership,
     newCreateGroupMembership,
-    CreateGroupMembershipResponse (CreateGroupMembershipResponse'),
+    CreateGroupMembershipResponse,
     newCreateGroupMembershipResponse,
 
     -- ** CreateUser
-    CreateUser (CreateUser'),
+    CreateUser,
     newCreateUser,
-    CreateUserResponse (CreateUserResponse'),
+    CreateUserResponse,
     newCreateUserResponse,
 
     -- ** DeleteGroup
-    DeleteGroup (DeleteGroup'),
+    DeleteGroup,
     newDeleteGroup,
-    DeleteGroupResponse (DeleteGroupResponse'),
+    DeleteGroupResponse,
     newDeleteGroupResponse,
 
     -- ** DeleteGroupMembership
-    DeleteGroupMembership (DeleteGroupMembership'),
+    DeleteGroupMembership,
     newDeleteGroupMembership,
-    DeleteGroupMembershipResponse (DeleteGroupMembershipResponse'),
+    DeleteGroupMembershipResponse,
     newDeleteGroupMembershipResponse,
 
     -- ** DeleteUser
-    DeleteUser (DeleteUser'),
+    DeleteUser,
     newDeleteUser,
-    DeleteUserResponse (DeleteUserResponse'),
+    DeleteUserResponse,
     newDeleteUserResponse,
 
     -- ** DescribeGroup
-    DescribeGroup (DescribeGroup'),
+    DescribeGroup,
     newDescribeGroup,
-    DescribeGroupResponse (DescribeGroupResponse'),
+    DescribeGroupResponse,
     newDescribeGroupResponse,
 
     -- ** DescribeGroupMembership
-    DescribeGroupMembership (DescribeGroupMembership'),
+    DescribeGroupMembership,
     newDescribeGroupMembership,
-    DescribeGroupMembershipResponse (DescribeGroupMembershipResponse'),
+    DescribeGroupMembershipResponse,
     newDescribeGroupMembershipResponse,
 
     -- ** DescribeUser
-    DescribeUser (DescribeUser'),
+    DescribeUser,
     newDescribeUser,
-    DescribeUserResponse (DescribeUserResponse'),
+    DescribeUserResponse,
     newDescribeUserResponse,
 
     -- ** GetGroupId
-    GetGroupId (GetGroupId'),
+    GetGroupId,
     newGetGroupId,
-    GetGroupIdResponse (GetGroupIdResponse'),
+    GetGroupIdResponse,
     newGetGroupIdResponse,
 
     -- ** GetGroupMembershipId
-    GetGroupMembershipId (GetGroupMembershipId'),
+    GetGroupMembershipId,
     newGetGroupMembershipId,
-    GetGroupMembershipIdResponse (GetGroupMembershipIdResponse'),
+    GetGroupMembershipIdResponse,
     newGetGroupMembershipIdResponse,
 
     -- ** GetUserId
-    GetUserId (GetUserId'),
+    GetUserId,
     newGetUserId,
-    GetUserIdResponse (GetUserIdResponse'),
+    GetUserIdResponse,
     newGetUserIdResponse,
 
     -- ** IsMemberInGroups
-    IsMemberInGroups (IsMemberInGroups'),
+    IsMemberInGroups,
     newIsMemberInGroups,
-    IsMemberInGroupsResponse (IsMemberInGroupsResponse'),
+    IsMemberInGroupsResponse,
     newIsMemberInGroupsResponse,
 
     -- ** ListGroupMemberships (Paginated)
-    ListGroupMemberships (ListGroupMemberships'),
+    ListGroupMemberships,
     newListGroupMemberships,
-    ListGroupMembershipsResponse (ListGroupMembershipsResponse'),
+    ListGroupMembershipsResponse,
     newListGroupMembershipsResponse,
 
     -- ** ListGroupMembershipsForMember (Paginated)
-    ListGroupMembershipsForMember (ListGroupMembershipsForMember'),
+    ListGroupMembershipsForMember,
     newListGroupMembershipsForMember,
-    ListGroupMembershipsForMemberResponse (ListGroupMembershipsForMemberResponse'),
+    ListGroupMembershipsForMemberResponse,
     newListGroupMembershipsForMemberResponse,
 
     -- ** ListGroups (Paginated)
-    ListGroups (ListGroups'),
+    ListGroups,
     newListGroups,
-    ListGroupsResponse (ListGroupsResponse'),
+    ListGroupsResponse,
     newListGroupsResponse,
 
     -- ** ListUsers (Paginated)
-    ListUsers (ListUsers'),
+    ListUsers,
     newListUsers,
-    ListUsersResponse (ListUsersResponse'),
+    ListUsersResponse,
     newListUsersResponse,
 
     -- ** UpdateGroup
-    UpdateGroup (UpdateGroup'),
+    UpdateGroup,
     newUpdateGroup,
-    UpdateGroupResponse (UpdateGroupResponse'),
+    UpdateGroupResponse,
     newUpdateGroupResponse,
 
     -- ** UpdateUser
-    UpdateUser (UpdateUser'),
+    UpdateUser,
     newUpdateUser,
-    UpdateUserResponse (UpdateUserResponse'),
+    UpdateUserResponse,
     newUpdateUserResponse,
 
     -- * Types
 
     -- ** Address
-    Address (Address'),
+    Address,
     newAddress,
 
     -- ** AlternateIdentifier
-    AlternateIdentifier (AlternateIdentifier'),
+    AlternateIdentifier,
     newAlternateIdentifier,
 
     -- ** AttributeOperation
-    AttributeOperation (AttributeOperation'),
+    AttributeOperation,
     newAttributeOperation,
 
     -- ** AttributeValue
-    AttributeValue (AttributeValue'),
+    AttributeValue,
     newAttributeValue,
 
     -- ** Email
-    Email (Email'),
+    Email,
     newEmail,
 
     -- ** ExternalId
-    ExternalId (ExternalId'),
+    ExternalId,
     newExternalId,
 
     -- ** Filter
-    Filter (Filter'),
+    Filter,
     newFilter,
 
     -- ** Group
-    Group (Group'),
+    Group,
     newGroup,
 
     -- ** GroupMembership
-    GroupMembership (GroupMembership'),
+    GroupMembership,
     newGroupMembership,
 
     -- ** GroupMembershipExistenceResult
-    GroupMembershipExistenceResult (GroupMembershipExistenceResult'),
+    GroupMembershipExistenceResult,
     newGroupMembershipExistenceResult,
 
     -- ** MemberId
-    MemberId (MemberId'),
+    MemberId,
     newMemberId,
 
     -- ** Name
-    Name (Name'),
+    Name,
     newName,
 
     -- ** PhoneNumber
-    PhoneNumber (PhoneNumber'),
+    PhoneNumber,
     newPhoneNumber,
 
     -- ** UniqueAttribute
-    UniqueAttribute (UniqueAttribute'),
+    UniqueAttribute,
     newUniqueAttribute,
 
     -- ** User
-    User (User'),
+    User,
     newUser,
   )
 where

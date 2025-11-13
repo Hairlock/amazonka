@@ -50,213 +50,213 @@ module Amazonka.DrS
     -- $operations
 
     -- ** CreateExtendedSourceServer
-    CreateExtendedSourceServer (CreateExtendedSourceServer'),
+    CreateExtendedSourceServer,
     newCreateExtendedSourceServer,
-    CreateExtendedSourceServerResponse (CreateExtendedSourceServerResponse'),
+    CreateExtendedSourceServerResponse,
     newCreateExtendedSourceServerResponse,
 
     -- ** CreateReplicationConfigurationTemplate
-    CreateReplicationConfigurationTemplate (CreateReplicationConfigurationTemplate'),
+    CreateReplicationConfigurationTemplate,
     newCreateReplicationConfigurationTemplate,
-    ReplicationConfigurationTemplate (ReplicationConfigurationTemplate'),
+    ReplicationConfigurationTemplate,
     newReplicationConfigurationTemplate,
 
     -- ** DeleteJob
-    DeleteJob (DeleteJob'),
+    DeleteJob,
     newDeleteJob,
-    DeleteJobResponse (DeleteJobResponse'),
+    DeleteJobResponse,
     newDeleteJobResponse,
 
     -- ** DeleteRecoveryInstance
-    DeleteRecoveryInstance (DeleteRecoveryInstance'),
+    DeleteRecoveryInstance,
     newDeleteRecoveryInstance,
-    DeleteRecoveryInstanceResponse (DeleteRecoveryInstanceResponse'),
+    DeleteRecoveryInstanceResponse,
     newDeleteRecoveryInstanceResponse,
 
     -- ** DeleteReplicationConfigurationTemplate
-    DeleteReplicationConfigurationTemplate (DeleteReplicationConfigurationTemplate'),
+    DeleteReplicationConfigurationTemplate,
     newDeleteReplicationConfigurationTemplate,
-    DeleteReplicationConfigurationTemplateResponse (DeleteReplicationConfigurationTemplateResponse'),
+    DeleteReplicationConfigurationTemplateResponse,
     newDeleteReplicationConfigurationTemplateResponse,
 
     -- ** DeleteSourceServer
-    DeleteSourceServer (DeleteSourceServer'),
+    DeleteSourceServer,
     newDeleteSourceServer,
-    DeleteSourceServerResponse (DeleteSourceServerResponse'),
+    DeleteSourceServerResponse,
     newDeleteSourceServerResponse,
 
     -- ** DescribeJobLogItems (Paginated)
-    DescribeJobLogItems (DescribeJobLogItems'),
+    DescribeJobLogItems,
     newDescribeJobLogItems,
-    DescribeJobLogItemsResponse (DescribeJobLogItemsResponse'),
+    DescribeJobLogItemsResponse,
     newDescribeJobLogItemsResponse,
 
     -- ** DescribeJobs (Paginated)
-    DescribeJobs (DescribeJobs'),
+    DescribeJobs,
     newDescribeJobs,
-    DescribeJobsResponse (DescribeJobsResponse'),
+    DescribeJobsResponse,
     newDescribeJobsResponse,
 
     -- ** DescribeRecoveryInstances (Paginated)
-    DescribeRecoveryInstances (DescribeRecoveryInstances'),
+    DescribeRecoveryInstances,
     newDescribeRecoveryInstances,
-    DescribeRecoveryInstancesResponse (DescribeRecoveryInstancesResponse'),
+    DescribeRecoveryInstancesResponse,
     newDescribeRecoveryInstancesResponse,
 
     -- ** DescribeRecoverySnapshots (Paginated)
-    DescribeRecoverySnapshots (DescribeRecoverySnapshots'),
+    DescribeRecoverySnapshots,
     newDescribeRecoverySnapshots,
-    DescribeRecoverySnapshotsResponse (DescribeRecoverySnapshotsResponse'),
+    DescribeRecoverySnapshotsResponse,
     newDescribeRecoverySnapshotsResponse,
 
     -- ** DescribeReplicationConfigurationTemplates (Paginated)
-    DescribeReplicationConfigurationTemplates (DescribeReplicationConfigurationTemplates'),
+    DescribeReplicationConfigurationTemplates,
     newDescribeReplicationConfigurationTemplates,
-    DescribeReplicationConfigurationTemplatesResponse (DescribeReplicationConfigurationTemplatesResponse'),
+    DescribeReplicationConfigurationTemplatesResponse,
     newDescribeReplicationConfigurationTemplatesResponse,
 
     -- ** DescribeSourceServers (Paginated)
-    DescribeSourceServers (DescribeSourceServers'),
+    DescribeSourceServers,
     newDescribeSourceServers,
-    DescribeSourceServersResponse (DescribeSourceServersResponse'),
+    DescribeSourceServersResponse,
     newDescribeSourceServersResponse,
 
     -- ** DisconnectRecoveryInstance
-    DisconnectRecoveryInstance (DisconnectRecoveryInstance'),
+    DisconnectRecoveryInstance,
     newDisconnectRecoveryInstance,
-    DisconnectRecoveryInstanceResponse (DisconnectRecoveryInstanceResponse'),
+    DisconnectRecoveryInstanceResponse,
     newDisconnectRecoveryInstanceResponse,
 
     -- ** DisconnectSourceServer
-    DisconnectSourceServer (DisconnectSourceServer'),
+    DisconnectSourceServer,
     newDisconnectSourceServer,
-    SourceServer (SourceServer'),
+    SourceServer,
     newSourceServer,
 
     -- ** GetFailbackReplicationConfiguration
-    GetFailbackReplicationConfiguration (GetFailbackReplicationConfiguration'),
+    GetFailbackReplicationConfiguration,
     newGetFailbackReplicationConfiguration,
-    GetFailbackReplicationConfigurationResponse (GetFailbackReplicationConfigurationResponse'),
+    GetFailbackReplicationConfigurationResponse,
     newGetFailbackReplicationConfigurationResponse,
 
     -- ** GetLaunchConfiguration
-    GetLaunchConfiguration (GetLaunchConfiguration'),
+    GetLaunchConfiguration,
     newGetLaunchConfiguration,
-    LaunchConfiguration (LaunchConfiguration'),
+    LaunchConfiguration,
     newLaunchConfiguration,
 
     -- ** GetReplicationConfiguration
-    GetReplicationConfiguration (GetReplicationConfiguration'),
+    GetReplicationConfiguration,
     newGetReplicationConfiguration,
-    ReplicationConfiguration (ReplicationConfiguration'),
+    ReplicationConfiguration,
     newReplicationConfiguration,
 
     -- ** InitializeService
-    InitializeService (InitializeService'),
+    InitializeService,
     newInitializeService,
-    InitializeServiceResponse (InitializeServiceResponse'),
+    InitializeServiceResponse,
     newInitializeServiceResponse,
 
     -- ** ListExtensibleSourceServers (Paginated)
-    ListExtensibleSourceServers (ListExtensibleSourceServers'),
+    ListExtensibleSourceServers,
     newListExtensibleSourceServers,
-    ListExtensibleSourceServersResponse (ListExtensibleSourceServersResponse'),
+    ListExtensibleSourceServersResponse,
     newListExtensibleSourceServersResponse,
 
     -- ** ListStagingAccounts (Paginated)
-    ListStagingAccounts (ListStagingAccounts'),
+    ListStagingAccounts,
     newListStagingAccounts,
-    ListStagingAccountsResponse (ListStagingAccountsResponse'),
+    ListStagingAccountsResponse,
     newListStagingAccountsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** RetryDataReplication
-    RetryDataReplication (RetryDataReplication'),
+    RetryDataReplication,
     newRetryDataReplication,
-    SourceServer (SourceServer'),
+    SourceServer,
     newSourceServer,
 
     -- ** ReverseReplication
-    ReverseReplication (ReverseReplication'),
+    ReverseReplication,
     newReverseReplication,
-    ReverseReplicationResponse (ReverseReplicationResponse'),
+    ReverseReplicationResponse,
     newReverseReplicationResponse,
 
     -- ** StartFailbackLaunch
-    StartFailbackLaunch (StartFailbackLaunch'),
+    StartFailbackLaunch,
     newStartFailbackLaunch,
-    StartFailbackLaunchResponse (StartFailbackLaunchResponse'),
+    StartFailbackLaunchResponse,
     newStartFailbackLaunchResponse,
 
     -- ** StartRecovery
-    StartRecovery (StartRecovery'),
+    StartRecovery,
     newStartRecovery,
-    StartRecoveryResponse (StartRecoveryResponse'),
+    StartRecoveryResponse,
     newStartRecoveryResponse,
 
     -- ** StartReplication
-    StartReplication (StartReplication'),
+    StartReplication,
     newStartReplication,
-    StartReplicationResponse (StartReplicationResponse'),
+    StartReplicationResponse,
     newStartReplicationResponse,
 
     -- ** StopFailback
-    StopFailback (StopFailback'),
+    StopFailback,
     newStopFailback,
-    StopFailbackResponse (StopFailbackResponse'),
+    StopFailbackResponse,
     newStopFailbackResponse,
 
     -- ** StopReplication
-    StopReplication (StopReplication'),
+    StopReplication,
     newStopReplication,
-    StopReplicationResponse (StopReplicationResponse'),
+    StopReplicationResponse,
     newStopReplicationResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** TerminateRecoveryInstances
-    TerminateRecoveryInstances (TerminateRecoveryInstances'),
+    TerminateRecoveryInstances,
     newTerminateRecoveryInstances,
-    TerminateRecoveryInstancesResponse (TerminateRecoveryInstancesResponse'),
+    TerminateRecoveryInstancesResponse,
     newTerminateRecoveryInstancesResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateFailbackReplicationConfiguration
-    UpdateFailbackReplicationConfiguration (UpdateFailbackReplicationConfiguration'),
+    UpdateFailbackReplicationConfiguration,
     newUpdateFailbackReplicationConfiguration,
-    UpdateFailbackReplicationConfigurationResponse (UpdateFailbackReplicationConfigurationResponse'),
+    UpdateFailbackReplicationConfigurationResponse,
     newUpdateFailbackReplicationConfigurationResponse,
 
     -- ** UpdateLaunchConfiguration
-    UpdateLaunchConfiguration (UpdateLaunchConfiguration'),
+    UpdateLaunchConfiguration,
     newUpdateLaunchConfiguration,
-    LaunchConfiguration (LaunchConfiguration'),
+    LaunchConfiguration,
     newLaunchConfiguration,
 
     -- ** UpdateReplicationConfiguration
-    UpdateReplicationConfiguration (UpdateReplicationConfiguration'),
+    UpdateReplicationConfiguration,
     newUpdateReplicationConfiguration,
-    ReplicationConfiguration (ReplicationConfiguration'),
+    ReplicationConfiguration,
     newReplicationConfiguration,
 
     -- ** UpdateReplicationConfigurationTemplate
-    UpdateReplicationConfigurationTemplate (UpdateReplicationConfigurationTemplate'),
+    UpdateReplicationConfigurationTemplate,
     newUpdateReplicationConfigurationTemplate,
-    ReplicationConfigurationTemplate (ReplicationConfigurationTemplate'),
+    ReplicationConfigurationTemplate,
     newReplicationConfigurationTemplate,
 
     -- * Types
@@ -349,183 +349,183 @@ module Amazonka.DrS
     TargetInstanceTypeRightSizingMethod (..),
 
     -- ** Account
-    Account (Account'),
+    Account,
     newAccount,
 
     -- ** CPU
-    CPU (CPU'),
+    CPU,
     newCPU,
 
     -- ** ConversionProperties
-    ConversionProperties (ConversionProperties'),
+    ConversionProperties,
     newConversionProperties,
 
     -- ** DataReplicationError
-    DataReplicationError (DataReplicationError'),
+    DataReplicationError,
     newDataReplicationError,
 
     -- ** DataReplicationInfo
-    DataReplicationInfo (DataReplicationInfo'),
+    DataReplicationInfo,
     newDataReplicationInfo,
 
     -- ** DataReplicationInfoReplicatedDisk
-    DataReplicationInfoReplicatedDisk (DataReplicationInfoReplicatedDisk'),
+    DataReplicationInfoReplicatedDisk,
     newDataReplicationInfoReplicatedDisk,
 
     -- ** DataReplicationInitiation
-    DataReplicationInitiation (DataReplicationInitiation'),
+    DataReplicationInitiation,
     newDataReplicationInitiation,
 
     -- ** DataReplicationInitiationStep
-    DataReplicationInitiationStep (DataReplicationInitiationStep'),
+    DataReplicationInitiationStep,
     newDataReplicationInitiationStep,
 
     -- ** DescribeJobsRequestFilters
-    DescribeJobsRequestFilters (DescribeJobsRequestFilters'),
+    DescribeJobsRequestFilters,
     newDescribeJobsRequestFilters,
 
     -- ** DescribeRecoveryInstancesRequestFilters
-    DescribeRecoveryInstancesRequestFilters (DescribeRecoveryInstancesRequestFilters'),
+    DescribeRecoveryInstancesRequestFilters,
     newDescribeRecoveryInstancesRequestFilters,
 
     -- ** DescribeRecoverySnapshotsRequestFilters
-    DescribeRecoverySnapshotsRequestFilters (DescribeRecoverySnapshotsRequestFilters'),
+    DescribeRecoverySnapshotsRequestFilters,
     newDescribeRecoverySnapshotsRequestFilters,
 
     -- ** DescribeSourceServersRequestFilters
-    DescribeSourceServersRequestFilters (DescribeSourceServersRequestFilters'),
+    DescribeSourceServersRequestFilters,
     newDescribeSourceServersRequestFilters,
 
     -- ** Disk
-    Disk (Disk'),
+    Disk,
     newDisk,
 
     -- ** IdentificationHints
-    IdentificationHints (IdentificationHints'),
+    IdentificationHints,
     newIdentificationHints,
 
     -- ** Job
-    Job (Job'),
+    Job,
     newJob,
 
     -- ** JobLog
-    JobLog (JobLog'),
+    JobLog,
     newJobLog,
 
     -- ** JobLogEventData
-    JobLogEventData (JobLogEventData'),
+    JobLogEventData,
     newJobLogEventData,
 
     -- ** LaunchConfiguration
-    LaunchConfiguration (LaunchConfiguration'),
+    LaunchConfiguration,
     newLaunchConfiguration,
 
     -- ** Licensing
-    Licensing (Licensing'),
+    Licensing,
     newLicensing,
 
     -- ** LifeCycle
-    LifeCycle (LifeCycle'),
+    LifeCycle,
     newLifeCycle,
 
     -- ** LifeCycleLastLaunch
-    LifeCycleLastLaunch (LifeCycleLastLaunch'),
+    LifeCycleLastLaunch,
     newLifeCycleLastLaunch,
 
     -- ** LifeCycleLastLaunchInitiated
-    LifeCycleLastLaunchInitiated (LifeCycleLastLaunchInitiated'),
+    LifeCycleLastLaunchInitiated,
     newLifeCycleLastLaunchInitiated,
 
     -- ** NetworkInterface
-    NetworkInterface (NetworkInterface'),
+    NetworkInterface,
     newNetworkInterface,
 
     -- ** OS
-    OS (OS'),
+    OS,
     newOS,
 
     -- ** PITPolicyRule
-    PITPolicyRule (PITPolicyRule'),
+    PITPolicyRule,
     newPITPolicyRule,
 
     -- ** ParticipatingServer
-    ParticipatingServer (ParticipatingServer'),
+    ParticipatingServer,
     newParticipatingServer,
 
     -- ** RecoveryInstance
-    RecoveryInstance (RecoveryInstance'),
+    RecoveryInstance,
     newRecoveryInstance,
 
     -- ** RecoveryInstanceDataReplicationError
-    RecoveryInstanceDataReplicationError (RecoveryInstanceDataReplicationError'),
+    RecoveryInstanceDataReplicationError,
     newRecoveryInstanceDataReplicationError,
 
     -- ** RecoveryInstanceDataReplicationInfo
-    RecoveryInstanceDataReplicationInfo (RecoveryInstanceDataReplicationInfo'),
+    RecoveryInstanceDataReplicationInfo,
     newRecoveryInstanceDataReplicationInfo,
 
     -- ** RecoveryInstanceDataReplicationInfoReplicatedDisk
-    RecoveryInstanceDataReplicationInfoReplicatedDisk (RecoveryInstanceDataReplicationInfoReplicatedDisk'),
+    RecoveryInstanceDataReplicationInfoReplicatedDisk,
     newRecoveryInstanceDataReplicationInfoReplicatedDisk,
 
     -- ** RecoveryInstanceDataReplicationInitiation
-    RecoveryInstanceDataReplicationInitiation (RecoveryInstanceDataReplicationInitiation'),
+    RecoveryInstanceDataReplicationInitiation,
     newRecoveryInstanceDataReplicationInitiation,
 
     -- ** RecoveryInstanceDataReplicationInitiationStep
-    RecoveryInstanceDataReplicationInitiationStep (RecoveryInstanceDataReplicationInitiationStep'),
+    RecoveryInstanceDataReplicationInitiationStep,
     newRecoveryInstanceDataReplicationInitiationStep,
 
     -- ** RecoveryInstanceDisk
-    RecoveryInstanceDisk (RecoveryInstanceDisk'),
+    RecoveryInstanceDisk,
     newRecoveryInstanceDisk,
 
     -- ** RecoveryInstanceFailback
-    RecoveryInstanceFailback (RecoveryInstanceFailback'),
+    RecoveryInstanceFailback,
     newRecoveryInstanceFailback,
 
     -- ** RecoveryInstanceProperties
-    RecoveryInstanceProperties (RecoveryInstanceProperties'),
+    RecoveryInstanceProperties,
     newRecoveryInstanceProperties,
 
     -- ** RecoverySnapshot
-    RecoverySnapshot (RecoverySnapshot'),
+    RecoverySnapshot,
     newRecoverySnapshot,
 
     -- ** ReplicationConfiguration
-    ReplicationConfiguration (ReplicationConfiguration'),
+    ReplicationConfiguration,
     newReplicationConfiguration,
 
     -- ** ReplicationConfigurationReplicatedDisk
-    ReplicationConfigurationReplicatedDisk (ReplicationConfigurationReplicatedDisk'),
+    ReplicationConfigurationReplicatedDisk,
     newReplicationConfigurationReplicatedDisk,
 
     -- ** ReplicationConfigurationTemplate
-    ReplicationConfigurationTemplate (ReplicationConfigurationTemplate'),
+    ReplicationConfigurationTemplate,
     newReplicationConfigurationTemplate,
 
     -- ** SourceCloudProperties
-    SourceCloudProperties (SourceCloudProperties'),
+    SourceCloudProperties,
     newSourceCloudProperties,
 
     -- ** SourceProperties
-    SourceProperties (SourceProperties'),
+    SourceProperties,
     newSourceProperties,
 
     -- ** SourceServer
-    SourceServer (SourceServer'),
+    SourceServer,
     newSourceServer,
 
     -- ** StagingArea
-    StagingArea (StagingArea'),
+    StagingArea,
     newStagingArea,
 
     -- ** StagingSourceServer
-    StagingSourceServer (StagingSourceServer'),
+    StagingSourceServer,
     newStagingSourceServer,
 
     -- ** StartRecoveryRequestSourceServer
-    StartRecoveryRequestSourceServer (StartRecoveryRequestSourceServer'),
+    StartRecoveryRequestSourceServer,
     newStartRecoveryRequestSourceServer,
   )
 where

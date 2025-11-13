@@ -62,105 +62,105 @@ module Amazonka.MigrationHub
     -- $operations
 
     -- ** AssociateCreatedArtifact
-    AssociateCreatedArtifact (AssociateCreatedArtifact'),
+    AssociateCreatedArtifact,
     newAssociateCreatedArtifact,
-    AssociateCreatedArtifactResponse (AssociateCreatedArtifactResponse'),
+    AssociateCreatedArtifactResponse,
     newAssociateCreatedArtifactResponse,
 
     -- ** AssociateDiscoveredResource
-    AssociateDiscoveredResource (AssociateDiscoveredResource'),
+    AssociateDiscoveredResource,
     newAssociateDiscoveredResource,
-    AssociateDiscoveredResourceResponse (AssociateDiscoveredResourceResponse'),
+    AssociateDiscoveredResourceResponse,
     newAssociateDiscoveredResourceResponse,
 
     -- ** CreateProgressUpdateStream
-    CreateProgressUpdateStream (CreateProgressUpdateStream'),
+    CreateProgressUpdateStream,
     newCreateProgressUpdateStream,
-    CreateProgressUpdateStreamResponse (CreateProgressUpdateStreamResponse'),
+    CreateProgressUpdateStreamResponse,
     newCreateProgressUpdateStreamResponse,
 
     -- ** DeleteProgressUpdateStream
-    DeleteProgressUpdateStream (DeleteProgressUpdateStream'),
+    DeleteProgressUpdateStream,
     newDeleteProgressUpdateStream,
-    DeleteProgressUpdateStreamResponse (DeleteProgressUpdateStreamResponse'),
+    DeleteProgressUpdateStreamResponse,
     newDeleteProgressUpdateStreamResponse,
 
     -- ** DescribeApplicationState
-    DescribeApplicationState (DescribeApplicationState'),
+    DescribeApplicationState,
     newDescribeApplicationState,
-    DescribeApplicationStateResponse (DescribeApplicationStateResponse'),
+    DescribeApplicationStateResponse,
     newDescribeApplicationStateResponse,
 
     -- ** DescribeMigrationTask
-    DescribeMigrationTask (DescribeMigrationTask'),
+    DescribeMigrationTask,
     newDescribeMigrationTask,
-    DescribeMigrationTaskResponse (DescribeMigrationTaskResponse'),
+    DescribeMigrationTaskResponse,
     newDescribeMigrationTaskResponse,
 
     -- ** DisassociateCreatedArtifact
-    DisassociateCreatedArtifact (DisassociateCreatedArtifact'),
+    DisassociateCreatedArtifact,
     newDisassociateCreatedArtifact,
-    DisassociateCreatedArtifactResponse (DisassociateCreatedArtifactResponse'),
+    DisassociateCreatedArtifactResponse,
     newDisassociateCreatedArtifactResponse,
 
     -- ** DisassociateDiscoveredResource
-    DisassociateDiscoveredResource (DisassociateDiscoveredResource'),
+    DisassociateDiscoveredResource,
     newDisassociateDiscoveredResource,
-    DisassociateDiscoveredResourceResponse (DisassociateDiscoveredResourceResponse'),
+    DisassociateDiscoveredResourceResponse,
     newDisassociateDiscoveredResourceResponse,
 
     -- ** ImportMigrationTask
-    ImportMigrationTask (ImportMigrationTask'),
+    ImportMigrationTask,
     newImportMigrationTask,
-    ImportMigrationTaskResponse (ImportMigrationTaskResponse'),
+    ImportMigrationTaskResponse,
     newImportMigrationTaskResponse,
 
     -- ** ListApplicationStates (Paginated)
-    ListApplicationStates (ListApplicationStates'),
+    ListApplicationStates,
     newListApplicationStates,
-    ListApplicationStatesResponse (ListApplicationStatesResponse'),
+    ListApplicationStatesResponse,
     newListApplicationStatesResponse,
 
     -- ** ListCreatedArtifacts (Paginated)
-    ListCreatedArtifacts (ListCreatedArtifacts'),
+    ListCreatedArtifacts,
     newListCreatedArtifacts,
-    ListCreatedArtifactsResponse (ListCreatedArtifactsResponse'),
+    ListCreatedArtifactsResponse,
     newListCreatedArtifactsResponse,
 
     -- ** ListDiscoveredResources (Paginated)
-    ListDiscoveredResources (ListDiscoveredResources'),
+    ListDiscoveredResources,
     newListDiscoveredResources,
-    ListDiscoveredResourcesResponse (ListDiscoveredResourcesResponse'),
+    ListDiscoveredResourcesResponse,
     newListDiscoveredResourcesResponse,
 
     -- ** ListMigrationTasks (Paginated)
-    ListMigrationTasks (ListMigrationTasks'),
+    ListMigrationTasks,
     newListMigrationTasks,
-    ListMigrationTasksResponse (ListMigrationTasksResponse'),
+    ListMigrationTasksResponse,
     newListMigrationTasksResponse,
 
     -- ** ListProgressUpdateStreams (Paginated)
-    ListProgressUpdateStreams (ListProgressUpdateStreams'),
+    ListProgressUpdateStreams,
     newListProgressUpdateStreams,
-    ListProgressUpdateStreamsResponse (ListProgressUpdateStreamsResponse'),
+    ListProgressUpdateStreamsResponse,
     newListProgressUpdateStreamsResponse,
 
     -- ** NotifyApplicationState
-    NotifyApplicationState (NotifyApplicationState'),
+    NotifyApplicationState,
     newNotifyApplicationState,
-    NotifyApplicationStateResponse (NotifyApplicationStateResponse'),
+    NotifyApplicationStateResponse,
     newNotifyApplicationStateResponse,
 
     -- ** NotifyMigrationTaskState
-    NotifyMigrationTaskState (NotifyMigrationTaskState'),
+    NotifyMigrationTaskState,
     newNotifyMigrationTaskState,
-    NotifyMigrationTaskStateResponse (NotifyMigrationTaskStateResponse'),
+    NotifyMigrationTaskStateResponse,
     newNotifyMigrationTaskStateResponse,
 
     -- ** PutResourceAttributes
-    PutResourceAttributes (PutResourceAttributes'),
+    PutResourceAttributes,
     newPutResourceAttributes,
-    PutResourceAttributesResponse (PutResourceAttributesResponse'),
+    PutResourceAttributesResponse,
     newPutResourceAttributesResponse,
 
     -- * Types
@@ -175,35 +175,35 @@ module Amazonka.MigrationHub
     ResourceAttributeType (..),
 
     -- ** ApplicationState
-    ApplicationState (ApplicationState'),
+    ApplicationState,
     newApplicationState,
 
     -- ** CreatedArtifact
-    CreatedArtifact (CreatedArtifact'),
+    CreatedArtifact,
     newCreatedArtifact,
 
     -- ** DiscoveredResource
-    DiscoveredResource (DiscoveredResource'),
+    DiscoveredResource,
     newDiscoveredResource,
 
     -- ** MigrationTask
-    MigrationTask (MigrationTask'),
+    MigrationTask,
     newMigrationTask,
 
     -- ** MigrationTaskSummary
-    MigrationTaskSummary (MigrationTaskSummary'),
+    MigrationTaskSummary,
     newMigrationTaskSummary,
 
     -- ** ProgressUpdateStreamSummary
-    ProgressUpdateStreamSummary (ProgressUpdateStreamSummary'),
+    ProgressUpdateStreamSummary,
     newProgressUpdateStreamSummary,
 
     -- ** ResourceAttribute
-    ResourceAttribute (ResourceAttribute'),
+    ResourceAttribute,
     newResourceAttribute,
 
     -- ** Task
-    Task (Task'),
+    Task,
     newTask,
   )
 where

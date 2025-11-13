@@ -53,195 +53,195 @@ module Amazonka.M2
     -- $operations
 
     -- ** CancelBatchJobExecution
-    CancelBatchJobExecution (CancelBatchJobExecution'),
+    CancelBatchJobExecution,
     newCancelBatchJobExecution,
-    CancelBatchJobExecutionResponse (CancelBatchJobExecutionResponse'),
+    CancelBatchJobExecutionResponse,
     newCancelBatchJobExecutionResponse,
 
     -- ** CreateApplication
-    CreateApplication (CreateApplication'),
+    CreateApplication,
     newCreateApplication,
-    CreateApplicationResponse (CreateApplicationResponse'),
+    CreateApplicationResponse,
     newCreateApplicationResponse,
 
     -- ** CreateDataSetImportTask
-    CreateDataSetImportTask (CreateDataSetImportTask'),
+    CreateDataSetImportTask,
     newCreateDataSetImportTask,
-    CreateDataSetImportTaskResponse (CreateDataSetImportTaskResponse'),
+    CreateDataSetImportTaskResponse,
     newCreateDataSetImportTaskResponse,
 
     -- ** CreateDeployment
-    CreateDeployment (CreateDeployment'),
+    CreateDeployment,
     newCreateDeployment,
-    CreateDeploymentResponse (CreateDeploymentResponse'),
+    CreateDeploymentResponse,
     newCreateDeploymentResponse,
 
     -- ** CreateEnvironment
-    CreateEnvironment (CreateEnvironment'),
+    CreateEnvironment,
     newCreateEnvironment,
-    CreateEnvironmentResponse (CreateEnvironmentResponse'),
+    CreateEnvironmentResponse,
     newCreateEnvironmentResponse,
 
     -- ** DeleteApplication
-    DeleteApplication (DeleteApplication'),
+    DeleteApplication,
     newDeleteApplication,
-    DeleteApplicationResponse (DeleteApplicationResponse'),
+    DeleteApplicationResponse,
     newDeleteApplicationResponse,
 
     -- ** DeleteApplicationFromEnvironment
-    DeleteApplicationFromEnvironment (DeleteApplicationFromEnvironment'),
+    DeleteApplicationFromEnvironment,
     newDeleteApplicationFromEnvironment,
-    DeleteApplicationFromEnvironmentResponse (DeleteApplicationFromEnvironmentResponse'),
+    DeleteApplicationFromEnvironmentResponse,
     newDeleteApplicationFromEnvironmentResponse,
 
     -- ** DeleteEnvironment
-    DeleteEnvironment (DeleteEnvironment'),
+    DeleteEnvironment,
     newDeleteEnvironment,
-    DeleteEnvironmentResponse (DeleteEnvironmentResponse'),
+    DeleteEnvironmentResponse,
     newDeleteEnvironmentResponse,
 
     -- ** GetApplication
-    GetApplication (GetApplication'),
+    GetApplication,
     newGetApplication,
-    GetApplicationResponse (GetApplicationResponse'),
+    GetApplicationResponse,
     newGetApplicationResponse,
 
     -- ** GetApplicationVersion
-    GetApplicationVersion (GetApplicationVersion'),
+    GetApplicationVersion,
     newGetApplicationVersion,
-    GetApplicationVersionResponse (GetApplicationVersionResponse'),
+    GetApplicationVersionResponse,
     newGetApplicationVersionResponse,
 
     -- ** GetBatchJobExecution
-    GetBatchJobExecution (GetBatchJobExecution'),
+    GetBatchJobExecution,
     newGetBatchJobExecution,
-    GetBatchJobExecutionResponse (GetBatchJobExecutionResponse'),
+    GetBatchJobExecutionResponse,
     newGetBatchJobExecutionResponse,
 
     -- ** GetDataSetDetails
-    GetDataSetDetails (GetDataSetDetails'),
+    GetDataSetDetails,
     newGetDataSetDetails,
-    GetDataSetDetailsResponse (GetDataSetDetailsResponse'),
+    GetDataSetDetailsResponse,
     newGetDataSetDetailsResponse,
 
     -- ** GetDataSetImportTask
-    GetDataSetImportTask (GetDataSetImportTask'),
+    GetDataSetImportTask,
     newGetDataSetImportTask,
-    GetDataSetImportTaskResponse (GetDataSetImportTaskResponse'),
+    GetDataSetImportTaskResponse,
     newGetDataSetImportTaskResponse,
 
     -- ** GetDeployment
-    GetDeployment (GetDeployment'),
+    GetDeployment,
     newGetDeployment,
-    GetDeploymentResponse (GetDeploymentResponse'),
+    GetDeploymentResponse,
     newGetDeploymentResponse,
 
     -- ** GetEnvironment
-    GetEnvironment (GetEnvironment'),
+    GetEnvironment,
     newGetEnvironment,
-    GetEnvironmentResponse (GetEnvironmentResponse'),
+    GetEnvironmentResponse,
     newGetEnvironmentResponse,
 
     -- ** ListApplicationVersions (Paginated)
-    ListApplicationVersions (ListApplicationVersions'),
+    ListApplicationVersions,
     newListApplicationVersions,
-    ListApplicationVersionsResponse (ListApplicationVersionsResponse'),
+    ListApplicationVersionsResponse,
     newListApplicationVersionsResponse,
 
     -- ** ListApplications (Paginated)
-    ListApplications (ListApplications'),
+    ListApplications,
     newListApplications,
-    ListApplicationsResponse (ListApplicationsResponse'),
+    ListApplicationsResponse,
     newListApplicationsResponse,
 
     -- ** ListBatchJobDefinitions (Paginated)
-    ListBatchJobDefinitions (ListBatchJobDefinitions'),
+    ListBatchJobDefinitions,
     newListBatchJobDefinitions,
-    ListBatchJobDefinitionsResponse (ListBatchJobDefinitionsResponse'),
+    ListBatchJobDefinitionsResponse,
     newListBatchJobDefinitionsResponse,
 
     -- ** ListBatchJobExecutions (Paginated)
-    ListBatchJobExecutions (ListBatchJobExecutions'),
+    ListBatchJobExecutions,
     newListBatchJobExecutions,
-    ListBatchJobExecutionsResponse (ListBatchJobExecutionsResponse'),
+    ListBatchJobExecutionsResponse,
     newListBatchJobExecutionsResponse,
 
     -- ** ListDataSetImportHistory (Paginated)
-    ListDataSetImportHistory (ListDataSetImportHistory'),
+    ListDataSetImportHistory,
     newListDataSetImportHistory,
-    ListDataSetImportHistoryResponse (ListDataSetImportHistoryResponse'),
+    ListDataSetImportHistoryResponse,
     newListDataSetImportHistoryResponse,
 
     -- ** ListDataSets (Paginated)
-    ListDataSets (ListDataSets'),
+    ListDataSets,
     newListDataSets,
-    ListDataSetsResponse (ListDataSetsResponse'),
+    ListDataSetsResponse,
     newListDataSetsResponse,
 
     -- ** ListDeployments (Paginated)
-    ListDeployments (ListDeployments'),
+    ListDeployments,
     newListDeployments,
-    ListDeploymentsResponse (ListDeploymentsResponse'),
+    ListDeploymentsResponse,
     newListDeploymentsResponse,
 
     -- ** ListEngineVersions (Paginated)
-    ListEngineVersions (ListEngineVersions'),
+    ListEngineVersions,
     newListEngineVersions,
-    ListEngineVersionsResponse (ListEngineVersionsResponse'),
+    ListEngineVersionsResponse,
     newListEngineVersionsResponse,
 
     -- ** ListEnvironments (Paginated)
-    ListEnvironments (ListEnvironments'),
+    ListEnvironments,
     newListEnvironments,
-    ListEnvironmentsResponse (ListEnvironmentsResponse'),
+    ListEnvironmentsResponse,
     newListEnvironmentsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** StartApplication
-    StartApplication (StartApplication'),
+    StartApplication,
     newStartApplication,
-    StartApplicationResponse (StartApplicationResponse'),
+    StartApplicationResponse,
     newStartApplicationResponse,
 
     -- ** StartBatchJob
-    StartBatchJob (StartBatchJob'),
+    StartBatchJob,
     newStartBatchJob,
-    StartBatchJobResponse (StartBatchJobResponse'),
+    StartBatchJobResponse,
     newStartBatchJobResponse,
 
     -- ** StopApplication
-    StopApplication (StopApplication'),
+    StopApplication,
     newStopApplication,
-    StopApplicationResponse (StopApplicationResponse'),
+    StopApplicationResponse,
     newStopApplicationResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateApplication
-    UpdateApplication (UpdateApplication'),
+    UpdateApplication,
     newUpdateApplication,
-    UpdateApplicationResponse (UpdateApplicationResponse'),
+    UpdateApplicationResponse,
     newUpdateApplicationResponse,
 
     -- ** UpdateEnvironment
-    UpdateEnvironment (UpdateEnvironment'),
+    UpdateEnvironment,
     newUpdateEnvironment,
-    UpdateEnvironmentResponse (UpdateEnvironmentResponse'),
+    UpdateEnvironmentResponse,
     newUpdateEnvironmentResponse,
 
     -- * Types
@@ -274,151 +274,151 @@ module Amazonka.M2
     EnvironmentLifecycle (..),
 
     -- ** AlternateKey
-    AlternateKey (AlternateKey'),
+    AlternateKey,
     newAlternateKey,
 
     -- ** ApplicationSummary
-    ApplicationSummary (ApplicationSummary'),
+    ApplicationSummary,
     newApplicationSummary,
 
     -- ** ApplicationVersionSummary
-    ApplicationVersionSummary (ApplicationVersionSummary'),
+    ApplicationVersionSummary,
     newApplicationVersionSummary,
 
     -- ** BatchJobDefinition
-    BatchJobDefinition (BatchJobDefinition'),
+    BatchJobDefinition,
     newBatchJobDefinition,
 
     -- ** BatchJobExecutionSummary
-    BatchJobExecutionSummary (BatchJobExecutionSummary'),
+    BatchJobExecutionSummary,
     newBatchJobExecutionSummary,
 
     -- ** BatchJobIdentifier
-    BatchJobIdentifier (BatchJobIdentifier'),
+    BatchJobIdentifier,
     newBatchJobIdentifier,
 
     -- ** DataSet
-    DataSet (DataSet'),
+    DataSet,
     newDataSet,
 
     -- ** DataSetImportConfig
-    DataSetImportConfig (DataSetImportConfig'),
+    DataSetImportConfig,
     newDataSetImportConfig,
 
     -- ** DataSetImportItem
-    DataSetImportItem (DataSetImportItem'),
+    DataSetImportItem,
     newDataSetImportItem,
 
     -- ** DataSetImportSummary
-    DataSetImportSummary (DataSetImportSummary'),
+    DataSetImportSummary,
     newDataSetImportSummary,
 
     -- ** DataSetImportTask
-    DataSetImportTask (DataSetImportTask'),
+    DataSetImportTask,
     newDataSetImportTask,
 
     -- ** DataSetSummary
-    DataSetSummary (DataSetSummary'),
+    DataSetSummary,
     newDataSetSummary,
 
     -- ** DatasetDetailOrgAttributes
-    DatasetDetailOrgAttributes (DatasetDetailOrgAttributes'),
+    DatasetDetailOrgAttributes,
     newDatasetDetailOrgAttributes,
 
     -- ** DatasetOrgAttributes
-    DatasetOrgAttributes (DatasetOrgAttributes'),
+    DatasetOrgAttributes,
     newDatasetOrgAttributes,
 
     -- ** Definition
-    Definition (Definition'),
+    Definition,
     newDefinition,
 
     -- ** DeployedVersionSummary
-    DeployedVersionSummary (DeployedVersionSummary'),
+    DeployedVersionSummary,
     newDeployedVersionSummary,
 
     -- ** DeploymentSummary
-    DeploymentSummary (DeploymentSummary'),
+    DeploymentSummary,
     newDeploymentSummary,
 
     -- ** EfsStorageConfiguration
-    EfsStorageConfiguration (EfsStorageConfiguration'),
+    EfsStorageConfiguration,
     newEfsStorageConfiguration,
 
     -- ** EngineVersionsSummary
-    EngineVersionsSummary (EngineVersionsSummary'),
+    EngineVersionsSummary,
     newEngineVersionsSummary,
 
     -- ** EnvironmentSummary
-    EnvironmentSummary (EnvironmentSummary'),
+    EnvironmentSummary,
     newEnvironmentSummary,
 
     -- ** ExternalLocation
-    ExternalLocation (ExternalLocation'),
+    ExternalLocation,
     newExternalLocation,
 
     -- ** FileBatchJobDefinition
-    FileBatchJobDefinition (FileBatchJobDefinition'),
+    FileBatchJobDefinition,
     newFileBatchJobDefinition,
 
     -- ** FileBatchJobIdentifier
-    FileBatchJobIdentifier (FileBatchJobIdentifier'),
+    FileBatchJobIdentifier,
     newFileBatchJobIdentifier,
 
     -- ** FsxStorageConfiguration
-    FsxStorageConfiguration (FsxStorageConfiguration'),
+    FsxStorageConfiguration,
     newFsxStorageConfiguration,
 
     -- ** GdgAttributes
-    GdgAttributes (GdgAttributes'),
+    GdgAttributes,
     newGdgAttributes,
 
     -- ** GdgDetailAttributes
-    GdgDetailAttributes (GdgDetailAttributes'),
+    GdgDetailAttributes,
     newGdgDetailAttributes,
 
     -- ** HighAvailabilityConfig
-    HighAvailabilityConfig (HighAvailabilityConfig'),
+    HighAvailabilityConfig,
     newHighAvailabilityConfig,
 
     -- ** LogGroupSummary
-    LogGroupSummary (LogGroupSummary'),
+    LogGroupSummary,
     newLogGroupSummary,
 
     -- ** MaintenanceSchedule
-    MaintenanceSchedule (MaintenanceSchedule'),
+    MaintenanceSchedule,
     newMaintenanceSchedule,
 
     -- ** PendingMaintenance
-    PendingMaintenance (PendingMaintenance'),
+    PendingMaintenance,
     newPendingMaintenance,
 
     -- ** PrimaryKey
-    PrimaryKey (PrimaryKey'),
+    PrimaryKey,
     newPrimaryKey,
 
     -- ** RecordLength
-    RecordLength (RecordLength'),
+    RecordLength,
     newRecordLength,
 
     -- ** ScriptBatchJobDefinition
-    ScriptBatchJobDefinition (ScriptBatchJobDefinition'),
+    ScriptBatchJobDefinition,
     newScriptBatchJobDefinition,
 
     -- ** ScriptBatchJobIdentifier
-    ScriptBatchJobIdentifier (ScriptBatchJobIdentifier'),
+    ScriptBatchJobIdentifier,
     newScriptBatchJobIdentifier,
 
     -- ** StorageConfiguration
-    StorageConfiguration (StorageConfiguration'),
+    StorageConfiguration,
     newStorageConfiguration,
 
     -- ** VsamAttributes
-    VsamAttributes (VsamAttributes'),
+    VsamAttributes,
     newVsamAttributes,
 
     -- ** VsamDetailAttributes
-    VsamDetailAttributes (VsamDetailAttributes'),
+    VsamDetailAttributes,
     newVsamDetailAttributes,
   )
 where

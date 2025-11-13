@@ -72,129 +72,129 @@ module Amazonka.Synthetics
     -- $operations
 
     -- ** AssociateResource
-    AssociateResource (AssociateResource'),
+    AssociateResource,
     newAssociateResource,
-    AssociateResourceResponse (AssociateResourceResponse'),
+    AssociateResourceResponse,
     newAssociateResourceResponse,
 
     -- ** CreateCanary
-    CreateCanary (CreateCanary'),
+    CreateCanary,
     newCreateCanary,
-    CreateCanaryResponse (CreateCanaryResponse'),
+    CreateCanaryResponse,
     newCreateCanaryResponse,
 
     -- ** CreateGroup
-    CreateGroup (CreateGroup'),
+    CreateGroup,
     newCreateGroup,
-    CreateGroupResponse (CreateGroupResponse'),
+    CreateGroupResponse,
     newCreateGroupResponse,
 
     -- ** DeleteCanary
-    DeleteCanary (DeleteCanary'),
+    DeleteCanary,
     newDeleteCanary,
-    DeleteCanaryResponse (DeleteCanaryResponse'),
+    DeleteCanaryResponse,
     newDeleteCanaryResponse,
 
     -- ** DeleteGroup
-    DeleteGroup (DeleteGroup'),
+    DeleteGroup,
     newDeleteGroup,
-    DeleteGroupResponse (DeleteGroupResponse'),
+    DeleteGroupResponse,
     newDeleteGroupResponse,
 
     -- ** DescribeCanaries
-    DescribeCanaries (DescribeCanaries'),
+    DescribeCanaries,
     newDescribeCanaries,
-    DescribeCanariesResponse (DescribeCanariesResponse'),
+    DescribeCanariesResponse,
     newDescribeCanariesResponse,
 
     -- ** DescribeCanariesLastRun
-    DescribeCanariesLastRun (DescribeCanariesLastRun'),
+    DescribeCanariesLastRun,
     newDescribeCanariesLastRun,
-    DescribeCanariesLastRunResponse (DescribeCanariesLastRunResponse'),
+    DescribeCanariesLastRunResponse,
     newDescribeCanariesLastRunResponse,
 
     -- ** DescribeRuntimeVersions
-    DescribeRuntimeVersions (DescribeRuntimeVersions'),
+    DescribeRuntimeVersions,
     newDescribeRuntimeVersions,
-    DescribeRuntimeVersionsResponse (DescribeRuntimeVersionsResponse'),
+    DescribeRuntimeVersionsResponse,
     newDescribeRuntimeVersionsResponse,
 
     -- ** DisassociateResource
-    DisassociateResource (DisassociateResource'),
+    DisassociateResource,
     newDisassociateResource,
-    DisassociateResourceResponse (DisassociateResourceResponse'),
+    DisassociateResourceResponse,
     newDisassociateResourceResponse,
 
     -- ** GetCanary
-    GetCanary (GetCanary'),
+    GetCanary,
     newGetCanary,
-    GetCanaryResponse (GetCanaryResponse'),
+    GetCanaryResponse,
     newGetCanaryResponse,
 
     -- ** GetCanaryRuns
-    GetCanaryRuns (GetCanaryRuns'),
+    GetCanaryRuns,
     newGetCanaryRuns,
-    GetCanaryRunsResponse (GetCanaryRunsResponse'),
+    GetCanaryRunsResponse,
     newGetCanaryRunsResponse,
 
     -- ** GetGroup
-    GetGroup (GetGroup'),
+    GetGroup,
     newGetGroup,
-    GetGroupResponse (GetGroupResponse'),
+    GetGroupResponse,
     newGetGroupResponse,
 
     -- ** ListAssociatedGroups
-    ListAssociatedGroups (ListAssociatedGroups'),
+    ListAssociatedGroups,
     newListAssociatedGroups,
-    ListAssociatedGroupsResponse (ListAssociatedGroupsResponse'),
+    ListAssociatedGroupsResponse,
     newListAssociatedGroupsResponse,
 
     -- ** ListGroupResources
-    ListGroupResources (ListGroupResources'),
+    ListGroupResources,
     newListGroupResources,
-    ListGroupResourcesResponse (ListGroupResourcesResponse'),
+    ListGroupResourcesResponse,
     newListGroupResourcesResponse,
 
     -- ** ListGroups
-    ListGroups (ListGroups'),
+    ListGroups,
     newListGroups,
-    ListGroupsResponse (ListGroupsResponse'),
+    ListGroupsResponse,
     newListGroupsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** StartCanary
-    StartCanary (StartCanary'),
+    StartCanary,
     newStartCanary,
-    StartCanaryResponse (StartCanaryResponse'),
+    StartCanaryResponse,
     newStartCanaryResponse,
 
     -- ** StopCanary
-    StopCanary (StopCanary'),
+    StopCanary,
     newStopCanary,
-    StopCanaryResponse (StopCanaryResponse'),
+    StopCanaryResponse,
     newStopCanaryResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateCanary
-    UpdateCanary (UpdateCanary'),
+    UpdateCanary,
     newUpdateCanary,
-    UpdateCanaryResponse (UpdateCanaryResponse'),
+    UpdateCanaryResponse,
     newUpdateCanaryResponse,
 
     -- * Types
@@ -215,99 +215,99 @@ module Amazonka.Synthetics
     EncryptionMode (..),
 
     -- ** ArtifactConfigInput
-    ArtifactConfigInput (ArtifactConfigInput'),
+    ArtifactConfigInput,
     newArtifactConfigInput,
 
     -- ** ArtifactConfigOutput
-    ArtifactConfigOutput (ArtifactConfigOutput'),
+    ArtifactConfigOutput,
     newArtifactConfigOutput,
 
     -- ** BaseScreenshot
-    BaseScreenshot (BaseScreenshot'),
+    BaseScreenshot,
     newBaseScreenshot,
 
     -- ** Canary
-    Canary (Canary'),
+    Canary,
     newCanary,
 
     -- ** CanaryCodeInput
-    CanaryCodeInput (CanaryCodeInput'),
+    CanaryCodeInput,
     newCanaryCodeInput,
 
     -- ** CanaryCodeOutput
-    CanaryCodeOutput (CanaryCodeOutput'),
+    CanaryCodeOutput,
     newCanaryCodeOutput,
 
     -- ** CanaryLastRun
-    CanaryLastRun (CanaryLastRun'),
+    CanaryLastRun,
     newCanaryLastRun,
 
     -- ** CanaryRun
-    CanaryRun (CanaryRun'),
+    CanaryRun,
     newCanaryRun,
 
     -- ** CanaryRunConfigInput
-    CanaryRunConfigInput (CanaryRunConfigInput'),
+    CanaryRunConfigInput,
     newCanaryRunConfigInput,
 
     -- ** CanaryRunConfigOutput
-    CanaryRunConfigOutput (CanaryRunConfigOutput'),
+    CanaryRunConfigOutput,
     newCanaryRunConfigOutput,
 
     -- ** CanaryRunStatus
-    CanaryRunStatus (CanaryRunStatus'),
+    CanaryRunStatus,
     newCanaryRunStatus,
 
     -- ** CanaryRunTimeline
-    CanaryRunTimeline (CanaryRunTimeline'),
+    CanaryRunTimeline,
     newCanaryRunTimeline,
 
     -- ** CanaryScheduleInput
-    CanaryScheduleInput (CanaryScheduleInput'),
+    CanaryScheduleInput,
     newCanaryScheduleInput,
 
     -- ** CanaryScheduleOutput
-    CanaryScheduleOutput (CanaryScheduleOutput'),
+    CanaryScheduleOutput,
     newCanaryScheduleOutput,
 
     -- ** CanaryStatus
-    CanaryStatus (CanaryStatus'),
+    CanaryStatus,
     newCanaryStatus,
 
     -- ** CanaryTimeline
-    CanaryTimeline (CanaryTimeline'),
+    CanaryTimeline,
     newCanaryTimeline,
 
     -- ** Group
-    Group (Group'),
+    Group,
     newGroup,
 
     -- ** GroupSummary
-    GroupSummary (GroupSummary'),
+    GroupSummary,
     newGroupSummary,
 
     -- ** RuntimeVersion
-    RuntimeVersion (RuntimeVersion'),
+    RuntimeVersion,
     newRuntimeVersion,
 
     -- ** S3EncryptionConfig
-    S3EncryptionConfig (S3EncryptionConfig'),
+    S3EncryptionConfig,
     newS3EncryptionConfig,
 
     -- ** VisualReferenceInput
-    VisualReferenceInput (VisualReferenceInput'),
+    VisualReferenceInput,
     newVisualReferenceInput,
 
     -- ** VisualReferenceOutput
-    VisualReferenceOutput (VisualReferenceOutput'),
+    VisualReferenceOutput,
     newVisualReferenceOutput,
 
     -- ** VpcConfigInput
-    VpcConfigInput (VpcConfigInput'),
+    VpcConfigInput,
     newVpcConfigInput,
 
     -- ** VpcConfigOutput
-    VpcConfigOutput (VpcConfigOutput'),
+    VpcConfigOutput,
     newVpcConfigOutput,
   )
 where

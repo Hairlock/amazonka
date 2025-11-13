@@ -123,159 +123,159 @@ module Amazonka.StepFunctions
     -- $operations
 
     -- ** CreateActivity
-    CreateActivity (CreateActivity'),
+    CreateActivity,
     newCreateActivity,
-    CreateActivityResponse (CreateActivityResponse'),
+    CreateActivityResponse,
     newCreateActivityResponse,
 
     -- ** CreateStateMachine
-    CreateStateMachine (CreateStateMachine'),
+    CreateStateMachine,
     newCreateStateMachine,
-    CreateStateMachineResponse (CreateStateMachineResponse'),
+    CreateStateMachineResponse,
     newCreateStateMachineResponse,
 
     -- ** DeleteActivity
-    DeleteActivity (DeleteActivity'),
+    DeleteActivity,
     newDeleteActivity,
-    DeleteActivityResponse (DeleteActivityResponse'),
+    DeleteActivityResponse,
     newDeleteActivityResponse,
 
     -- ** DeleteStateMachine
-    DeleteStateMachine (DeleteStateMachine'),
+    DeleteStateMachine,
     newDeleteStateMachine,
-    DeleteStateMachineResponse (DeleteStateMachineResponse'),
+    DeleteStateMachineResponse,
     newDeleteStateMachineResponse,
 
     -- ** DescribeActivity
-    DescribeActivity (DescribeActivity'),
+    DescribeActivity,
     newDescribeActivity,
-    DescribeActivityResponse (DescribeActivityResponse'),
+    DescribeActivityResponse,
     newDescribeActivityResponse,
 
     -- ** DescribeExecution
-    DescribeExecution (DescribeExecution'),
+    DescribeExecution,
     newDescribeExecution,
-    DescribeExecutionResponse (DescribeExecutionResponse'),
+    DescribeExecutionResponse,
     newDescribeExecutionResponse,
 
     -- ** DescribeMapRun
-    DescribeMapRun (DescribeMapRun'),
+    DescribeMapRun,
     newDescribeMapRun,
-    DescribeMapRunResponse (DescribeMapRunResponse'),
+    DescribeMapRunResponse,
     newDescribeMapRunResponse,
 
     -- ** DescribeStateMachine
-    DescribeStateMachine (DescribeStateMachine'),
+    DescribeStateMachine,
     newDescribeStateMachine,
-    DescribeStateMachineResponse (DescribeStateMachineResponse'),
+    DescribeStateMachineResponse,
     newDescribeStateMachineResponse,
 
     -- ** DescribeStateMachineForExecution
-    DescribeStateMachineForExecution (DescribeStateMachineForExecution'),
+    DescribeStateMachineForExecution,
     newDescribeStateMachineForExecution,
-    DescribeStateMachineForExecutionResponse (DescribeStateMachineForExecutionResponse'),
+    DescribeStateMachineForExecutionResponse,
     newDescribeStateMachineForExecutionResponse,
 
     -- ** GetActivityTask
-    GetActivityTask (GetActivityTask'),
+    GetActivityTask,
     newGetActivityTask,
-    GetActivityTaskResponse (GetActivityTaskResponse'),
+    GetActivityTaskResponse,
     newGetActivityTaskResponse,
 
     -- ** GetExecutionHistory (Paginated)
-    GetExecutionHistory (GetExecutionHistory'),
+    GetExecutionHistory,
     newGetExecutionHistory,
-    GetExecutionHistoryResponse (GetExecutionHistoryResponse'),
+    GetExecutionHistoryResponse,
     newGetExecutionHistoryResponse,
 
     -- ** ListActivities (Paginated)
-    ListActivities (ListActivities'),
+    ListActivities,
     newListActivities,
-    ListActivitiesResponse (ListActivitiesResponse'),
+    ListActivitiesResponse,
     newListActivitiesResponse,
 
     -- ** ListExecutions (Paginated)
-    ListExecutions (ListExecutions'),
+    ListExecutions,
     newListExecutions,
-    ListExecutionsResponse (ListExecutionsResponse'),
+    ListExecutionsResponse,
     newListExecutionsResponse,
 
     -- ** ListMapRuns (Paginated)
-    ListMapRuns (ListMapRuns'),
+    ListMapRuns,
     newListMapRuns,
-    ListMapRunsResponse (ListMapRunsResponse'),
+    ListMapRunsResponse,
     newListMapRunsResponse,
 
     -- ** ListStateMachines (Paginated)
-    ListStateMachines (ListStateMachines'),
+    ListStateMachines,
     newListStateMachines,
-    ListStateMachinesResponse (ListStateMachinesResponse'),
+    ListStateMachinesResponse,
     newListStateMachinesResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** SendTaskFailure
-    SendTaskFailure (SendTaskFailure'),
+    SendTaskFailure,
     newSendTaskFailure,
-    SendTaskFailureResponse (SendTaskFailureResponse'),
+    SendTaskFailureResponse,
     newSendTaskFailureResponse,
 
     -- ** SendTaskHeartbeat
-    SendTaskHeartbeat (SendTaskHeartbeat'),
+    SendTaskHeartbeat,
     newSendTaskHeartbeat,
-    SendTaskHeartbeatResponse (SendTaskHeartbeatResponse'),
+    SendTaskHeartbeatResponse,
     newSendTaskHeartbeatResponse,
 
     -- ** SendTaskSuccess
-    SendTaskSuccess (SendTaskSuccess'),
+    SendTaskSuccess,
     newSendTaskSuccess,
-    SendTaskSuccessResponse (SendTaskSuccessResponse'),
+    SendTaskSuccessResponse,
     newSendTaskSuccessResponse,
 
     -- ** StartExecution
-    StartExecution (StartExecution'),
+    StartExecution,
     newStartExecution,
-    StartExecutionResponse (StartExecutionResponse'),
+    StartExecutionResponse,
     newStartExecutionResponse,
 
     -- ** StartSyncExecution
-    StartSyncExecution (StartSyncExecution'),
+    StartSyncExecution,
     newStartSyncExecution,
-    StartSyncExecutionResponse (StartSyncExecutionResponse'),
+    StartSyncExecutionResponse,
     newStartSyncExecutionResponse,
 
     -- ** StopExecution
-    StopExecution (StopExecution'),
+    StopExecution,
     newStopExecution,
-    StopExecutionResponse (StopExecutionResponse'),
+    StopExecutionResponse,
     newStopExecutionResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateMapRun
-    UpdateMapRun (UpdateMapRun'),
+    UpdateMapRun,
     newUpdateMapRun,
-    UpdateMapRunResponse (UpdateMapRunResponse'),
+    UpdateMapRunResponse,
     newUpdateMapRunResponse,
 
     -- ** UpdateStateMachine
-    UpdateStateMachine (UpdateStateMachine'),
+    UpdateStateMachine,
     newUpdateStateMachine,
-    UpdateStateMachineResponse (UpdateStateMachineResponse'),
+    UpdateStateMachineResponse,
     newUpdateStateMachineResponse,
 
     -- * Types
@@ -302,191 +302,191 @@ module Amazonka.StepFunctions
     SyncExecutionStatus (..),
 
     -- ** ActivityFailedEventDetails
-    ActivityFailedEventDetails (ActivityFailedEventDetails'),
+    ActivityFailedEventDetails,
     newActivityFailedEventDetails,
 
     -- ** ActivityListItem
-    ActivityListItem (ActivityListItem'),
+    ActivityListItem,
     newActivityListItem,
 
     -- ** ActivityScheduleFailedEventDetails
-    ActivityScheduleFailedEventDetails (ActivityScheduleFailedEventDetails'),
+    ActivityScheduleFailedEventDetails,
     newActivityScheduleFailedEventDetails,
 
     -- ** ActivityScheduledEventDetails
-    ActivityScheduledEventDetails (ActivityScheduledEventDetails'),
+    ActivityScheduledEventDetails,
     newActivityScheduledEventDetails,
 
     -- ** ActivityStartedEventDetails
-    ActivityStartedEventDetails (ActivityStartedEventDetails'),
+    ActivityStartedEventDetails,
     newActivityStartedEventDetails,
 
     -- ** ActivitySucceededEventDetails
-    ActivitySucceededEventDetails (ActivitySucceededEventDetails'),
+    ActivitySucceededEventDetails,
     newActivitySucceededEventDetails,
 
     -- ** ActivityTimedOutEventDetails
-    ActivityTimedOutEventDetails (ActivityTimedOutEventDetails'),
+    ActivityTimedOutEventDetails,
     newActivityTimedOutEventDetails,
 
     -- ** BillingDetails
-    BillingDetails (BillingDetails'),
+    BillingDetails,
     newBillingDetails,
 
     -- ** CloudWatchEventsExecutionDataDetails
-    CloudWatchEventsExecutionDataDetails (CloudWatchEventsExecutionDataDetails'),
+    CloudWatchEventsExecutionDataDetails,
     newCloudWatchEventsExecutionDataDetails,
 
     -- ** CloudWatchLogsLogGroup
-    CloudWatchLogsLogGroup (CloudWatchLogsLogGroup'),
+    CloudWatchLogsLogGroup,
     newCloudWatchLogsLogGroup,
 
     -- ** ExecutionAbortedEventDetails
-    ExecutionAbortedEventDetails (ExecutionAbortedEventDetails'),
+    ExecutionAbortedEventDetails,
     newExecutionAbortedEventDetails,
 
     -- ** ExecutionFailedEventDetails
-    ExecutionFailedEventDetails (ExecutionFailedEventDetails'),
+    ExecutionFailedEventDetails,
     newExecutionFailedEventDetails,
 
     -- ** ExecutionListItem
-    ExecutionListItem (ExecutionListItem'),
+    ExecutionListItem,
     newExecutionListItem,
 
     -- ** ExecutionStartedEventDetails
-    ExecutionStartedEventDetails (ExecutionStartedEventDetails'),
+    ExecutionStartedEventDetails,
     newExecutionStartedEventDetails,
 
     -- ** ExecutionSucceededEventDetails
-    ExecutionSucceededEventDetails (ExecutionSucceededEventDetails'),
+    ExecutionSucceededEventDetails,
     newExecutionSucceededEventDetails,
 
     -- ** ExecutionTimedOutEventDetails
-    ExecutionTimedOutEventDetails (ExecutionTimedOutEventDetails'),
+    ExecutionTimedOutEventDetails,
     newExecutionTimedOutEventDetails,
 
     -- ** HistoryEvent
-    HistoryEvent (HistoryEvent'),
+    HistoryEvent,
     newHistoryEvent,
 
     -- ** HistoryEventExecutionDataDetails
-    HistoryEventExecutionDataDetails (HistoryEventExecutionDataDetails'),
+    HistoryEventExecutionDataDetails,
     newHistoryEventExecutionDataDetails,
 
     -- ** LambdaFunctionFailedEventDetails
-    LambdaFunctionFailedEventDetails (LambdaFunctionFailedEventDetails'),
+    LambdaFunctionFailedEventDetails,
     newLambdaFunctionFailedEventDetails,
 
     -- ** LambdaFunctionScheduleFailedEventDetails
-    LambdaFunctionScheduleFailedEventDetails (LambdaFunctionScheduleFailedEventDetails'),
+    LambdaFunctionScheduleFailedEventDetails,
     newLambdaFunctionScheduleFailedEventDetails,
 
     -- ** LambdaFunctionScheduledEventDetails
-    LambdaFunctionScheduledEventDetails (LambdaFunctionScheduledEventDetails'),
+    LambdaFunctionScheduledEventDetails,
     newLambdaFunctionScheduledEventDetails,
 
     -- ** LambdaFunctionStartFailedEventDetails
-    LambdaFunctionStartFailedEventDetails (LambdaFunctionStartFailedEventDetails'),
+    LambdaFunctionStartFailedEventDetails,
     newLambdaFunctionStartFailedEventDetails,
 
     -- ** LambdaFunctionSucceededEventDetails
-    LambdaFunctionSucceededEventDetails (LambdaFunctionSucceededEventDetails'),
+    LambdaFunctionSucceededEventDetails,
     newLambdaFunctionSucceededEventDetails,
 
     -- ** LambdaFunctionTimedOutEventDetails
-    LambdaFunctionTimedOutEventDetails (LambdaFunctionTimedOutEventDetails'),
+    LambdaFunctionTimedOutEventDetails,
     newLambdaFunctionTimedOutEventDetails,
 
     -- ** LogDestination
-    LogDestination (LogDestination'),
+    LogDestination,
     newLogDestination,
 
     -- ** LoggingConfiguration
-    LoggingConfiguration (LoggingConfiguration'),
+    LoggingConfiguration,
     newLoggingConfiguration,
 
     -- ** MapIterationEventDetails
-    MapIterationEventDetails (MapIterationEventDetails'),
+    MapIterationEventDetails,
     newMapIterationEventDetails,
 
     -- ** MapRunExecutionCounts
-    MapRunExecutionCounts (MapRunExecutionCounts'),
+    MapRunExecutionCounts,
     newMapRunExecutionCounts,
 
     -- ** MapRunFailedEventDetails
-    MapRunFailedEventDetails (MapRunFailedEventDetails'),
+    MapRunFailedEventDetails,
     newMapRunFailedEventDetails,
 
     -- ** MapRunItemCounts
-    MapRunItemCounts (MapRunItemCounts'),
+    MapRunItemCounts,
     newMapRunItemCounts,
 
     -- ** MapRunListItem
-    MapRunListItem (MapRunListItem'),
+    MapRunListItem,
     newMapRunListItem,
 
     -- ** MapRunStartedEventDetails
-    MapRunStartedEventDetails (MapRunStartedEventDetails'),
+    MapRunStartedEventDetails,
     newMapRunStartedEventDetails,
 
     -- ** MapStateStartedEventDetails
-    MapStateStartedEventDetails (MapStateStartedEventDetails'),
+    MapStateStartedEventDetails,
     newMapStateStartedEventDetails,
 
     -- ** StateEnteredEventDetails
-    StateEnteredEventDetails (StateEnteredEventDetails'),
+    StateEnteredEventDetails,
     newStateEnteredEventDetails,
 
     -- ** StateExitedEventDetails
-    StateExitedEventDetails (StateExitedEventDetails'),
+    StateExitedEventDetails,
     newStateExitedEventDetails,
 
     -- ** StateMachineListItem
-    StateMachineListItem (StateMachineListItem'),
+    StateMachineListItem,
     newStateMachineListItem,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
 
     -- ** TaskCredentials
-    TaskCredentials (TaskCredentials'),
+    TaskCredentials,
     newTaskCredentials,
 
     -- ** TaskFailedEventDetails
-    TaskFailedEventDetails (TaskFailedEventDetails'),
+    TaskFailedEventDetails,
     newTaskFailedEventDetails,
 
     -- ** TaskScheduledEventDetails
-    TaskScheduledEventDetails (TaskScheduledEventDetails'),
+    TaskScheduledEventDetails,
     newTaskScheduledEventDetails,
 
     -- ** TaskStartFailedEventDetails
-    TaskStartFailedEventDetails (TaskStartFailedEventDetails'),
+    TaskStartFailedEventDetails,
     newTaskStartFailedEventDetails,
 
     -- ** TaskStartedEventDetails
-    TaskStartedEventDetails (TaskStartedEventDetails'),
+    TaskStartedEventDetails,
     newTaskStartedEventDetails,
 
     -- ** TaskSubmitFailedEventDetails
-    TaskSubmitFailedEventDetails (TaskSubmitFailedEventDetails'),
+    TaskSubmitFailedEventDetails,
     newTaskSubmitFailedEventDetails,
 
     -- ** TaskSubmittedEventDetails
-    TaskSubmittedEventDetails (TaskSubmittedEventDetails'),
+    TaskSubmittedEventDetails,
     newTaskSubmittedEventDetails,
 
     -- ** TaskSucceededEventDetails
-    TaskSucceededEventDetails (TaskSucceededEventDetails'),
+    TaskSucceededEventDetails,
     newTaskSucceededEventDetails,
 
     -- ** TaskTimedOutEventDetails
-    TaskTimedOutEventDetails (TaskTimedOutEventDetails'),
+    TaskTimedOutEventDetails,
     newTaskTimedOutEventDetails,
 
     -- ** TracingConfiguration
-    TracingConfiguration (TracingConfiguration'),
+    TracingConfiguration,
     newTracingConfiguration,
   )
 where

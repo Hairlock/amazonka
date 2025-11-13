@@ -44,111 +44,111 @@ module Amazonka.MediaPackage
     -- $operations
 
     -- ** ConfigureLogs
-    ConfigureLogs (ConfigureLogs'),
+    ConfigureLogs,
     newConfigureLogs,
-    ConfigureLogsResponse (ConfigureLogsResponse'),
+    ConfigureLogsResponse,
     newConfigureLogsResponse,
 
     -- ** CreateChannel
-    CreateChannel (CreateChannel'),
+    CreateChannel,
     newCreateChannel,
-    CreateChannelResponse (CreateChannelResponse'),
+    CreateChannelResponse,
     newCreateChannelResponse,
 
     -- ** CreateHarvestJob
-    CreateHarvestJob (CreateHarvestJob'),
+    CreateHarvestJob,
     newCreateHarvestJob,
-    CreateHarvestJobResponse (CreateHarvestJobResponse'),
+    CreateHarvestJobResponse,
     newCreateHarvestJobResponse,
 
     -- ** CreateOriginEndpoint
-    CreateOriginEndpoint (CreateOriginEndpoint'),
+    CreateOriginEndpoint,
     newCreateOriginEndpoint,
-    CreateOriginEndpointResponse (CreateOriginEndpointResponse'),
+    CreateOriginEndpointResponse,
     newCreateOriginEndpointResponse,
 
     -- ** DeleteChannel
-    DeleteChannel (DeleteChannel'),
+    DeleteChannel,
     newDeleteChannel,
-    DeleteChannelResponse (DeleteChannelResponse'),
+    DeleteChannelResponse,
     newDeleteChannelResponse,
 
     -- ** DeleteOriginEndpoint
-    DeleteOriginEndpoint (DeleteOriginEndpoint'),
+    DeleteOriginEndpoint,
     newDeleteOriginEndpoint,
-    DeleteOriginEndpointResponse (DeleteOriginEndpointResponse'),
+    DeleteOriginEndpointResponse,
     newDeleteOriginEndpointResponse,
 
     -- ** DescribeChannel
-    DescribeChannel (DescribeChannel'),
+    DescribeChannel,
     newDescribeChannel,
-    DescribeChannelResponse (DescribeChannelResponse'),
+    DescribeChannelResponse,
     newDescribeChannelResponse,
 
     -- ** DescribeHarvestJob
-    DescribeHarvestJob (DescribeHarvestJob'),
+    DescribeHarvestJob,
     newDescribeHarvestJob,
-    DescribeHarvestJobResponse (DescribeHarvestJobResponse'),
+    DescribeHarvestJobResponse,
     newDescribeHarvestJobResponse,
 
     -- ** DescribeOriginEndpoint
-    DescribeOriginEndpoint (DescribeOriginEndpoint'),
+    DescribeOriginEndpoint,
     newDescribeOriginEndpoint,
-    DescribeOriginEndpointResponse (DescribeOriginEndpointResponse'),
+    DescribeOriginEndpointResponse,
     newDescribeOriginEndpointResponse,
 
     -- ** ListChannels (Paginated)
-    ListChannels (ListChannels'),
+    ListChannels,
     newListChannels,
-    ListChannelsResponse (ListChannelsResponse'),
+    ListChannelsResponse,
     newListChannelsResponse,
 
     -- ** ListHarvestJobs (Paginated)
-    ListHarvestJobs (ListHarvestJobs'),
+    ListHarvestJobs,
     newListHarvestJobs,
-    ListHarvestJobsResponse (ListHarvestJobsResponse'),
+    ListHarvestJobsResponse,
     newListHarvestJobsResponse,
 
     -- ** ListOriginEndpoints (Paginated)
-    ListOriginEndpoints (ListOriginEndpoints'),
+    ListOriginEndpoints,
     newListOriginEndpoints,
-    ListOriginEndpointsResponse (ListOriginEndpointsResponse'),
+    ListOriginEndpointsResponse,
     newListOriginEndpointsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** RotateIngestEndpointCredentials
-    RotateIngestEndpointCredentials (RotateIngestEndpointCredentials'),
+    RotateIngestEndpointCredentials,
     newRotateIngestEndpointCredentials,
-    RotateIngestEndpointCredentialsResponse (RotateIngestEndpointCredentialsResponse'),
+    RotateIngestEndpointCredentialsResponse,
     newRotateIngestEndpointCredentialsResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateChannel
-    UpdateChannel (UpdateChannel'),
+    UpdateChannel,
     newUpdateChannel,
-    UpdateChannelResponse (UpdateChannelResponse'),
+    UpdateChannelResponse,
     newUpdateChannelResponse,
 
     -- ** UpdateOriginEndpoint
-    UpdateOriginEndpoint (UpdateOriginEndpoint'),
+    UpdateOriginEndpoint,
     newUpdateOriginEndpoint,
-    UpdateOriginEndpointResponse (UpdateOriginEndpointResponse'),
+    UpdateOriginEndpointResponse,
     newUpdateOriginEndpointResponse,
 
     -- * Types
@@ -202,95 +202,95 @@ module Amazonka.MediaPackage
     UtcTiming (..),
 
     -- ** Authorization
-    Authorization (Authorization'),
+    Authorization,
     newAuthorization,
 
     -- ** Channel
-    Channel (Channel'),
+    Channel,
     newChannel,
 
     -- ** CmafEncryption
-    CmafEncryption (CmafEncryption'),
+    CmafEncryption,
     newCmafEncryption,
 
     -- ** CmafPackage
-    CmafPackage (CmafPackage'),
+    CmafPackage,
     newCmafPackage,
 
     -- ** CmafPackageCreateOrUpdateParameters
-    CmafPackageCreateOrUpdateParameters (CmafPackageCreateOrUpdateParameters'),
+    CmafPackageCreateOrUpdateParameters,
     newCmafPackageCreateOrUpdateParameters,
 
     -- ** DashEncryption
-    DashEncryption (DashEncryption'),
+    DashEncryption,
     newDashEncryption,
 
     -- ** DashPackage
-    DashPackage (DashPackage'),
+    DashPackage,
     newDashPackage,
 
     -- ** EgressAccessLogs
-    EgressAccessLogs (EgressAccessLogs'),
+    EgressAccessLogs,
     newEgressAccessLogs,
 
     -- ** EncryptionContractConfiguration
-    EncryptionContractConfiguration (EncryptionContractConfiguration'),
+    EncryptionContractConfiguration,
     newEncryptionContractConfiguration,
 
     -- ** HarvestJob
-    HarvestJob (HarvestJob'),
+    HarvestJob,
     newHarvestJob,
 
     -- ** HlsEncryption
-    HlsEncryption (HlsEncryption'),
+    HlsEncryption,
     newHlsEncryption,
 
     -- ** HlsIngest
-    HlsIngest (HlsIngest'),
+    HlsIngest,
     newHlsIngest,
 
     -- ** HlsManifest
-    HlsManifest (HlsManifest'),
+    HlsManifest,
     newHlsManifest,
 
     -- ** HlsManifestCreateOrUpdateParameters
-    HlsManifestCreateOrUpdateParameters (HlsManifestCreateOrUpdateParameters'),
+    HlsManifestCreateOrUpdateParameters,
     newHlsManifestCreateOrUpdateParameters,
 
     -- ** HlsPackage
-    HlsPackage (HlsPackage'),
+    HlsPackage,
     newHlsPackage,
 
     -- ** IngestEndpoint
-    IngestEndpoint (IngestEndpoint'),
+    IngestEndpoint,
     newIngestEndpoint,
 
     -- ** IngressAccessLogs
-    IngressAccessLogs (IngressAccessLogs'),
+    IngressAccessLogs,
     newIngressAccessLogs,
 
     -- ** MssEncryption
-    MssEncryption (MssEncryption'),
+    MssEncryption,
     newMssEncryption,
 
     -- ** MssPackage
-    MssPackage (MssPackage'),
+    MssPackage,
     newMssPackage,
 
     -- ** OriginEndpoint
-    OriginEndpoint (OriginEndpoint'),
+    OriginEndpoint,
     newOriginEndpoint,
 
     -- ** S3Destination
-    S3Destination (S3Destination'),
+    S3Destination,
     newS3Destination,
 
     -- ** SpekeKeyProvider
-    SpekeKeyProvider (SpekeKeyProvider'),
+    SpekeKeyProvider,
     newSpekeKeyProvider,
 
     -- ** StreamSelection
-    StreamSelection (StreamSelection'),
+    StreamSelection,
     newStreamSelection,
   )
 where

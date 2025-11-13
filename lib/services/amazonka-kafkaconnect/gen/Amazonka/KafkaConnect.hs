@@ -48,75 +48,75 @@ module Amazonka.KafkaConnect
     -- $operations
 
     -- ** CreateConnector
-    CreateConnector (CreateConnector'),
+    CreateConnector,
     newCreateConnector,
-    CreateConnectorResponse (CreateConnectorResponse'),
+    CreateConnectorResponse,
     newCreateConnectorResponse,
 
     -- ** CreateCustomPlugin
-    CreateCustomPlugin (CreateCustomPlugin'),
+    CreateCustomPlugin,
     newCreateCustomPlugin,
-    CreateCustomPluginResponse (CreateCustomPluginResponse'),
+    CreateCustomPluginResponse,
     newCreateCustomPluginResponse,
 
     -- ** CreateWorkerConfiguration
-    CreateWorkerConfiguration (CreateWorkerConfiguration'),
+    CreateWorkerConfiguration,
     newCreateWorkerConfiguration,
-    CreateWorkerConfigurationResponse (CreateWorkerConfigurationResponse'),
+    CreateWorkerConfigurationResponse,
     newCreateWorkerConfigurationResponse,
 
     -- ** DeleteConnector
-    DeleteConnector (DeleteConnector'),
+    DeleteConnector,
     newDeleteConnector,
-    DeleteConnectorResponse (DeleteConnectorResponse'),
+    DeleteConnectorResponse,
     newDeleteConnectorResponse,
 
     -- ** DeleteCustomPlugin
-    DeleteCustomPlugin (DeleteCustomPlugin'),
+    DeleteCustomPlugin,
     newDeleteCustomPlugin,
-    DeleteCustomPluginResponse (DeleteCustomPluginResponse'),
+    DeleteCustomPluginResponse,
     newDeleteCustomPluginResponse,
 
     -- ** DescribeConnector
-    DescribeConnector (DescribeConnector'),
+    DescribeConnector,
     newDescribeConnector,
-    DescribeConnectorResponse (DescribeConnectorResponse'),
+    DescribeConnectorResponse,
     newDescribeConnectorResponse,
 
     -- ** DescribeCustomPlugin
-    DescribeCustomPlugin (DescribeCustomPlugin'),
+    DescribeCustomPlugin,
     newDescribeCustomPlugin,
-    DescribeCustomPluginResponse (DescribeCustomPluginResponse'),
+    DescribeCustomPluginResponse,
     newDescribeCustomPluginResponse,
 
     -- ** DescribeWorkerConfiguration
-    DescribeWorkerConfiguration (DescribeWorkerConfiguration'),
+    DescribeWorkerConfiguration,
     newDescribeWorkerConfiguration,
-    DescribeWorkerConfigurationResponse (DescribeWorkerConfigurationResponse'),
+    DescribeWorkerConfigurationResponse,
     newDescribeWorkerConfigurationResponse,
 
     -- ** ListConnectors (Paginated)
-    ListConnectors (ListConnectors'),
+    ListConnectors,
     newListConnectors,
-    ListConnectorsResponse (ListConnectorsResponse'),
+    ListConnectorsResponse,
     newListConnectorsResponse,
 
     -- ** ListCustomPlugins (Paginated)
-    ListCustomPlugins (ListCustomPlugins'),
+    ListCustomPlugins,
     newListCustomPlugins,
-    ListCustomPluginsResponse (ListCustomPluginsResponse'),
+    ListCustomPluginsResponse,
     newListCustomPluginsResponse,
 
     -- ** ListWorkerConfigurations (Paginated)
-    ListWorkerConfigurations (ListWorkerConfigurations'),
+    ListWorkerConfigurations,
     newListWorkerConfigurations,
-    ListWorkerConfigurationsResponse (ListWorkerConfigurationsResponse'),
+    ListWorkerConfigurationsResponse,
     newListWorkerConfigurationsResponse,
 
     -- ** UpdateConnector
-    UpdateConnector (UpdateConnector'),
+    UpdateConnector,
     newUpdateConnector,
-    UpdateConnectorResponse (UpdateConnectorResponse'),
+    UpdateConnectorResponse,
     newUpdateConnectorResponse,
 
     -- * Types
@@ -137,215 +137,215 @@ module Amazonka.KafkaConnect
     KafkaClusterEncryptionInTransitType (..),
 
     -- ** ApacheKafkaCluster
-    ApacheKafkaCluster (ApacheKafkaCluster'),
+    ApacheKafkaCluster,
     newApacheKafkaCluster,
 
     -- ** ApacheKafkaClusterDescription
-    ApacheKafkaClusterDescription (ApacheKafkaClusterDescription'),
+    ApacheKafkaClusterDescription,
     newApacheKafkaClusterDescription,
 
     -- ** AutoScaling
-    AutoScaling (AutoScaling'),
+    AutoScaling,
     newAutoScaling,
 
     -- ** AutoScalingDescription
-    AutoScalingDescription (AutoScalingDescription'),
+    AutoScalingDescription,
     newAutoScalingDescription,
 
     -- ** AutoScalingUpdate
-    AutoScalingUpdate (AutoScalingUpdate'),
+    AutoScalingUpdate,
     newAutoScalingUpdate,
 
     -- ** Capacity
-    Capacity (Capacity'),
+    Capacity,
     newCapacity,
 
     -- ** CapacityDescription
-    CapacityDescription (CapacityDescription'),
+    CapacityDescription,
     newCapacityDescription,
 
     -- ** CapacityUpdate
-    CapacityUpdate (CapacityUpdate'),
+    CapacityUpdate,
     newCapacityUpdate,
 
     -- ** CloudWatchLogsLogDelivery
-    CloudWatchLogsLogDelivery (CloudWatchLogsLogDelivery'),
+    CloudWatchLogsLogDelivery,
     newCloudWatchLogsLogDelivery,
 
     -- ** CloudWatchLogsLogDeliveryDescription
-    CloudWatchLogsLogDeliveryDescription (CloudWatchLogsLogDeliveryDescription'),
+    CloudWatchLogsLogDeliveryDescription,
     newCloudWatchLogsLogDeliveryDescription,
 
     -- ** ConnectorSummary
-    ConnectorSummary (ConnectorSummary'),
+    ConnectorSummary,
     newConnectorSummary,
 
     -- ** CustomPlugin
-    CustomPlugin (CustomPlugin'),
+    CustomPlugin,
     newCustomPlugin,
 
     -- ** CustomPluginDescription
-    CustomPluginDescription (CustomPluginDescription'),
+    CustomPluginDescription,
     newCustomPluginDescription,
 
     -- ** CustomPluginFileDescription
-    CustomPluginFileDescription (CustomPluginFileDescription'),
+    CustomPluginFileDescription,
     newCustomPluginFileDescription,
 
     -- ** CustomPluginLocation
-    CustomPluginLocation (CustomPluginLocation'),
+    CustomPluginLocation,
     newCustomPluginLocation,
 
     -- ** CustomPluginLocationDescription
-    CustomPluginLocationDescription (CustomPluginLocationDescription'),
+    CustomPluginLocationDescription,
     newCustomPluginLocationDescription,
 
     -- ** CustomPluginRevisionSummary
-    CustomPluginRevisionSummary (CustomPluginRevisionSummary'),
+    CustomPluginRevisionSummary,
     newCustomPluginRevisionSummary,
 
     -- ** CustomPluginSummary
-    CustomPluginSummary (CustomPluginSummary'),
+    CustomPluginSummary,
     newCustomPluginSummary,
 
     -- ** FirehoseLogDelivery
-    FirehoseLogDelivery (FirehoseLogDelivery'),
+    FirehoseLogDelivery,
     newFirehoseLogDelivery,
 
     -- ** FirehoseLogDeliveryDescription
-    FirehoseLogDeliveryDescription (FirehoseLogDeliveryDescription'),
+    FirehoseLogDeliveryDescription,
     newFirehoseLogDeliveryDescription,
 
     -- ** KafkaCluster
-    KafkaCluster (KafkaCluster'),
+    KafkaCluster,
     newKafkaCluster,
 
     -- ** KafkaClusterClientAuthentication
-    KafkaClusterClientAuthentication (KafkaClusterClientAuthentication'),
+    KafkaClusterClientAuthentication,
     newKafkaClusterClientAuthentication,
 
     -- ** KafkaClusterClientAuthenticationDescription
-    KafkaClusterClientAuthenticationDescription (KafkaClusterClientAuthenticationDescription'),
+    KafkaClusterClientAuthenticationDescription,
     newKafkaClusterClientAuthenticationDescription,
 
     -- ** KafkaClusterDescription
-    KafkaClusterDescription (KafkaClusterDescription'),
+    KafkaClusterDescription,
     newKafkaClusterDescription,
 
     -- ** KafkaClusterEncryptionInTransit
-    KafkaClusterEncryptionInTransit (KafkaClusterEncryptionInTransit'),
+    KafkaClusterEncryptionInTransit,
     newKafkaClusterEncryptionInTransit,
 
     -- ** KafkaClusterEncryptionInTransitDescription
-    KafkaClusterEncryptionInTransitDescription (KafkaClusterEncryptionInTransitDescription'),
+    KafkaClusterEncryptionInTransitDescription,
     newKafkaClusterEncryptionInTransitDescription,
 
     -- ** LogDelivery
-    LogDelivery (LogDelivery'),
+    LogDelivery,
     newLogDelivery,
 
     -- ** LogDeliveryDescription
-    LogDeliveryDescription (LogDeliveryDescription'),
+    LogDeliveryDescription,
     newLogDeliveryDescription,
 
     -- ** Plugin
-    Plugin (Plugin'),
+    Plugin,
     newPlugin,
 
     -- ** PluginDescription
-    PluginDescription (PluginDescription'),
+    PluginDescription,
     newPluginDescription,
 
     -- ** ProvisionedCapacity
-    ProvisionedCapacity (ProvisionedCapacity'),
+    ProvisionedCapacity,
     newProvisionedCapacity,
 
     -- ** ProvisionedCapacityDescription
-    ProvisionedCapacityDescription (ProvisionedCapacityDescription'),
+    ProvisionedCapacityDescription,
     newProvisionedCapacityDescription,
 
     -- ** ProvisionedCapacityUpdate
-    ProvisionedCapacityUpdate (ProvisionedCapacityUpdate'),
+    ProvisionedCapacityUpdate,
     newProvisionedCapacityUpdate,
 
     -- ** S3Location
-    S3Location (S3Location'),
+    S3Location,
     newS3Location,
 
     -- ** S3LocationDescription
-    S3LocationDescription (S3LocationDescription'),
+    S3LocationDescription,
     newS3LocationDescription,
 
     -- ** S3LogDelivery
-    S3LogDelivery (S3LogDelivery'),
+    S3LogDelivery,
     newS3LogDelivery,
 
     -- ** S3LogDeliveryDescription
-    S3LogDeliveryDescription (S3LogDeliveryDescription'),
+    S3LogDeliveryDescription,
     newS3LogDeliveryDescription,
 
     -- ** ScaleInPolicy
-    ScaleInPolicy (ScaleInPolicy'),
+    ScaleInPolicy,
     newScaleInPolicy,
 
     -- ** ScaleInPolicyDescription
-    ScaleInPolicyDescription (ScaleInPolicyDescription'),
+    ScaleInPolicyDescription,
     newScaleInPolicyDescription,
 
     -- ** ScaleInPolicyUpdate
-    ScaleInPolicyUpdate (ScaleInPolicyUpdate'),
+    ScaleInPolicyUpdate,
     newScaleInPolicyUpdate,
 
     -- ** ScaleOutPolicy
-    ScaleOutPolicy (ScaleOutPolicy'),
+    ScaleOutPolicy,
     newScaleOutPolicy,
 
     -- ** ScaleOutPolicyDescription
-    ScaleOutPolicyDescription (ScaleOutPolicyDescription'),
+    ScaleOutPolicyDescription,
     newScaleOutPolicyDescription,
 
     -- ** ScaleOutPolicyUpdate
-    ScaleOutPolicyUpdate (ScaleOutPolicyUpdate'),
+    ScaleOutPolicyUpdate,
     newScaleOutPolicyUpdate,
 
     -- ** StateDescription
-    StateDescription (StateDescription'),
+    StateDescription,
     newStateDescription,
 
     -- ** Vpc
-    Vpc (Vpc'),
+    Vpc,
     newVpc,
 
     -- ** VpcDescription
-    VpcDescription (VpcDescription'),
+    VpcDescription,
     newVpcDescription,
 
     -- ** WorkerConfiguration
-    WorkerConfiguration (WorkerConfiguration'),
+    WorkerConfiguration,
     newWorkerConfiguration,
 
     -- ** WorkerConfigurationDescription
-    WorkerConfigurationDescription (WorkerConfigurationDescription'),
+    WorkerConfigurationDescription,
     newWorkerConfigurationDescription,
 
     -- ** WorkerConfigurationRevisionDescription
-    WorkerConfigurationRevisionDescription (WorkerConfigurationRevisionDescription'),
+    WorkerConfigurationRevisionDescription,
     newWorkerConfigurationRevisionDescription,
 
     -- ** WorkerConfigurationRevisionSummary
-    WorkerConfigurationRevisionSummary (WorkerConfigurationRevisionSummary'),
+    WorkerConfigurationRevisionSummary,
     newWorkerConfigurationRevisionSummary,
 
     -- ** WorkerConfigurationSummary
-    WorkerConfigurationSummary (WorkerConfigurationSummary'),
+    WorkerConfigurationSummary,
     newWorkerConfigurationSummary,
 
     -- ** WorkerLogDelivery
-    WorkerLogDelivery (WorkerLogDelivery'),
+    WorkerLogDelivery,
     newWorkerLogDelivery,
 
     -- ** WorkerLogDeliveryDescription
-    WorkerLogDeliveryDescription (WorkerLogDeliveryDescription'),
+    WorkerLogDeliveryDescription,
     newWorkerLogDeliveryDescription,
   )
 where

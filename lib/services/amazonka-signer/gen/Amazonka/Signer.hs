@@ -81,105 +81,105 @@ module Amazonka.Signer
     -- $operations
 
     -- ** AddProfilePermission
-    AddProfilePermission (AddProfilePermission'),
+    AddProfilePermission,
     newAddProfilePermission,
-    AddProfilePermissionResponse (AddProfilePermissionResponse'),
+    AddProfilePermissionResponse,
     newAddProfilePermissionResponse,
 
     -- ** CancelSigningProfile
-    CancelSigningProfile (CancelSigningProfile'),
+    CancelSigningProfile,
     newCancelSigningProfile,
-    CancelSigningProfileResponse (CancelSigningProfileResponse'),
+    CancelSigningProfileResponse,
     newCancelSigningProfileResponse,
 
     -- ** DescribeSigningJob
-    DescribeSigningJob (DescribeSigningJob'),
+    DescribeSigningJob,
     newDescribeSigningJob,
-    DescribeSigningJobResponse (DescribeSigningJobResponse'),
+    DescribeSigningJobResponse,
     newDescribeSigningJobResponse,
 
     -- ** GetSigningPlatform
-    GetSigningPlatform (GetSigningPlatform'),
+    GetSigningPlatform,
     newGetSigningPlatform,
-    GetSigningPlatformResponse (GetSigningPlatformResponse'),
+    GetSigningPlatformResponse,
     newGetSigningPlatformResponse,
 
     -- ** GetSigningProfile
-    GetSigningProfile (GetSigningProfile'),
+    GetSigningProfile,
     newGetSigningProfile,
-    GetSigningProfileResponse (GetSigningProfileResponse'),
+    GetSigningProfileResponse,
     newGetSigningProfileResponse,
 
     -- ** ListProfilePermissions
-    ListProfilePermissions (ListProfilePermissions'),
+    ListProfilePermissions,
     newListProfilePermissions,
-    ListProfilePermissionsResponse (ListProfilePermissionsResponse'),
+    ListProfilePermissionsResponse,
     newListProfilePermissionsResponse,
 
     -- ** ListSigningJobs (Paginated)
-    ListSigningJobs (ListSigningJobs'),
+    ListSigningJobs,
     newListSigningJobs,
-    ListSigningJobsResponse (ListSigningJobsResponse'),
+    ListSigningJobsResponse,
     newListSigningJobsResponse,
 
     -- ** ListSigningPlatforms (Paginated)
-    ListSigningPlatforms (ListSigningPlatforms'),
+    ListSigningPlatforms,
     newListSigningPlatforms,
-    ListSigningPlatformsResponse (ListSigningPlatformsResponse'),
+    ListSigningPlatformsResponse,
     newListSigningPlatformsResponse,
 
     -- ** ListSigningProfiles (Paginated)
-    ListSigningProfiles (ListSigningProfiles'),
+    ListSigningProfiles,
     newListSigningProfiles,
-    ListSigningProfilesResponse (ListSigningProfilesResponse'),
+    ListSigningProfilesResponse,
     newListSigningProfilesResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** PutSigningProfile
-    PutSigningProfile (PutSigningProfile'),
+    PutSigningProfile,
     newPutSigningProfile,
-    PutSigningProfileResponse (PutSigningProfileResponse'),
+    PutSigningProfileResponse,
     newPutSigningProfileResponse,
 
     -- ** RemoveProfilePermission
-    RemoveProfilePermission (RemoveProfilePermission'),
+    RemoveProfilePermission,
     newRemoveProfilePermission,
-    RemoveProfilePermissionResponse (RemoveProfilePermissionResponse'),
+    RemoveProfilePermissionResponse,
     newRemoveProfilePermissionResponse,
 
     -- ** RevokeSignature
-    RevokeSignature (RevokeSignature'),
+    RevokeSignature,
     newRevokeSignature,
-    RevokeSignatureResponse (RevokeSignatureResponse'),
+    RevokeSignatureResponse,
     newRevokeSignatureResponse,
 
     -- ** RevokeSigningProfile
-    RevokeSigningProfile (RevokeSigningProfile'),
+    RevokeSigningProfile,
     newRevokeSigningProfile,
-    RevokeSigningProfileResponse (RevokeSigningProfileResponse'),
+    RevokeSigningProfileResponse,
     newRevokeSigningProfileResponse,
 
     -- ** StartSigningJob
-    StartSigningJob (StartSigningJob'),
+    StartSigningJob,
     newStartSigningJob,
-    StartSigningJobResponse (StartSigningJobResponse'),
+    StartSigningJobResponse,
     newStartSigningJobResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- * Types
@@ -206,83 +206,83 @@ module Amazonka.Signer
     ValidityType (..),
 
     -- ** Destination
-    Destination (Destination'),
+    Destination,
     newDestination,
 
     -- ** EncryptionAlgorithmOptions
-    EncryptionAlgorithmOptions (EncryptionAlgorithmOptions'),
+    EncryptionAlgorithmOptions,
     newEncryptionAlgorithmOptions,
 
     -- ** HashAlgorithmOptions
-    HashAlgorithmOptions (HashAlgorithmOptions'),
+    HashAlgorithmOptions,
     newHashAlgorithmOptions,
 
     -- ** Permission
-    Permission (Permission'),
+    Permission,
     newPermission,
 
     -- ** S3Destination
-    S3Destination (S3Destination'),
+    S3Destination,
     newS3Destination,
 
     -- ** S3SignedObject
-    S3SignedObject (S3SignedObject'),
+    S3SignedObject,
     newS3SignedObject,
 
     -- ** S3Source
-    S3Source (S3Source'),
+    S3Source,
     newS3Source,
 
     -- ** SignatureValidityPeriod
-    SignatureValidityPeriod (SignatureValidityPeriod'),
+    SignatureValidityPeriod,
     newSignatureValidityPeriod,
 
     -- ** SignedObject
-    SignedObject (SignedObject'),
+    SignedObject,
     newSignedObject,
 
     -- ** SigningConfiguration
-    SigningConfiguration (SigningConfiguration'),
+    SigningConfiguration,
     newSigningConfiguration,
 
     -- ** SigningConfigurationOverrides
-    SigningConfigurationOverrides (SigningConfigurationOverrides'),
+    SigningConfigurationOverrides,
     newSigningConfigurationOverrides,
 
     -- ** SigningImageFormat
-    SigningImageFormat (SigningImageFormat'),
+    SigningImageFormat,
     newSigningImageFormat,
 
     -- ** SigningJob
-    SigningJob (SigningJob'),
+    SigningJob,
     newSigningJob,
 
     -- ** SigningJobRevocationRecord
-    SigningJobRevocationRecord (SigningJobRevocationRecord'),
+    SigningJobRevocationRecord,
     newSigningJobRevocationRecord,
 
     -- ** SigningMaterial
-    SigningMaterial (SigningMaterial'),
+    SigningMaterial,
     newSigningMaterial,
 
     -- ** SigningPlatform
-    SigningPlatform (SigningPlatform'),
+    SigningPlatform,
     newSigningPlatform,
 
     -- ** SigningPlatformOverrides
-    SigningPlatformOverrides (SigningPlatformOverrides'),
+    SigningPlatformOverrides,
     newSigningPlatformOverrides,
 
     -- ** SigningProfile
-    SigningProfile (SigningProfile'),
+    SigningProfile,
     newSigningProfile,
 
     -- ** SigningProfileRevocationRecord
-    SigningProfileRevocationRecord (SigningProfileRevocationRecord'),
+    SigningProfileRevocationRecord,
     newSigningProfileRevocationRecord,
 
     -- ** Source
-    Source (Source'),
+    Source,
     newSource,
   )
 where

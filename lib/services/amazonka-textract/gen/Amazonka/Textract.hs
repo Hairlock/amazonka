@@ -70,81 +70,81 @@ module Amazonka.Textract
     -- $operations
 
     -- ** AnalyzeDocument
-    AnalyzeDocument (AnalyzeDocument'),
+    AnalyzeDocument,
     newAnalyzeDocument,
-    AnalyzeDocumentResponse (AnalyzeDocumentResponse'),
+    AnalyzeDocumentResponse,
     newAnalyzeDocumentResponse,
 
     -- ** AnalyzeExpense
-    AnalyzeExpense (AnalyzeExpense'),
+    AnalyzeExpense,
     newAnalyzeExpense,
-    AnalyzeExpenseResponse (AnalyzeExpenseResponse'),
+    AnalyzeExpenseResponse,
     newAnalyzeExpenseResponse,
 
     -- ** AnalyzeID
-    AnalyzeID (AnalyzeID'),
+    AnalyzeID,
     newAnalyzeID,
-    AnalyzeIDResponse (AnalyzeIDResponse'),
+    AnalyzeIDResponse,
     newAnalyzeIDResponse,
 
     -- ** DetectDocumentText
-    DetectDocumentText (DetectDocumentText'),
+    DetectDocumentText,
     newDetectDocumentText,
-    DetectDocumentTextResponse (DetectDocumentTextResponse'),
+    DetectDocumentTextResponse,
     newDetectDocumentTextResponse,
 
     -- ** GetDocumentAnalysis
-    GetDocumentAnalysis (GetDocumentAnalysis'),
+    GetDocumentAnalysis,
     newGetDocumentAnalysis,
-    GetDocumentAnalysisResponse (GetDocumentAnalysisResponse'),
+    GetDocumentAnalysisResponse,
     newGetDocumentAnalysisResponse,
 
     -- ** GetDocumentTextDetection
-    GetDocumentTextDetection (GetDocumentTextDetection'),
+    GetDocumentTextDetection,
     newGetDocumentTextDetection,
-    GetDocumentTextDetectionResponse (GetDocumentTextDetectionResponse'),
+    GetDocumentTextDetectionResponse,
     newGetDocumentTextDetectionResponse,
 
     -- ** GetExpenseAnalysis
-    GetExpenseAnalysis (GetExpenseAnalysis'),
+    GetExpenseAnalysis,
     newGetExpenseAnalysis,
-    GetExpenseAnalysisResponse (GetExpenseAnalysisResponse'),
+    GetExpenseAnalysisResponse,
     newGetExpenseAnalysisResponse,
 
     -- ** GetLendingAnalysis
-    GetLendingAnalysis (GetLendingAnalysis'),
+    GetLendingAnalysis,
     newGetLendingAnalysis,
-    GetLendingAnalysisResponse (GetLendingAnalysisResponse'),
+    GetLendingAnalysisResponse,
     newGetLendingAnalysisResponse,
 
     -- ** GetLendingAnalysisSummary
-    GetLendingAnalysisSummary (GetLendingAnalysisSummary'),
+    GetLendingAnalysisSummary,
     newGetLendingAnalysisSummary,
-    GetLendingAnalysisSummaryResponse (GetLendingAnalysisSummaryResponse'),
+    GetLendingAnalysisSummaryResponse,
     newGetLendingAnalysisSummaryResponse,
 
     -- ** StartDocumentAnalysis
-    StartDocumentAnalysis (StartDocumentAnalysis'),
+    StartDocumentAnalysis,
     newStartDocumentAnalysis,
-    StartDocumentAnalysisResponse (StartDocumentAnalysisResponse'),
+    StartDocumentAnalysisResponse,
     newStartDocumentAnalysisResponse,
 
     -- ** StartDocumentTextDetection
-    StartDocumentTextDetection (StartDocumentTextDetection'),
+    StartDocumentTextDetection,
     newStartDocumentTextDetection,
-    StartDocumentTextDetectionResponse (StartDocumentTextDetectionResponse'),
+    StartDocumentTextDetectionResponse,
     newStartDocumentTextDetectionResponse,
 
     -- ** StartExpenseAnalysis
-    StartExpenseAnalysis (StartExpenseAnalysis'),
+    StartExpenseAnalysis,
     newStartExpenseAnalysis,
-    StartExpenseAnalysisResponse (StartExpenseAnalysisResponse'),
+    StartExpenseAnalysisResponse,
     newStartExpenseAnalysisResponse,
 
     -- ** StartLendingAnalysis
-    StartLendingAnalysis (StartLendingAnalysis'),
+    StartLendingAnalysis,
     newStartLendingAnalysis,
-    StartLendingAnalysisResponse (StartLendingAnalysisResponse'),
+    StartLendingAnalysisResponse,
     newStartLendingAnalysisResponse,
 
     -- * Types
@@ -177,171 +177,171 @@ module Amazonka.Textract
     ValueType (..),
 
     -- ** AnalyzeIDDetections
-    AnalyzeIDDetections (AnalyzeIDDetections'),
+    AnalyzeIDDetections,
     newAnalyzeIDDetections,
 
     -- ** Block
-    Block (Block'),
+    Block,
     newBlock,
 
     -- ** BoundingBox
-    BoundingBox (BoundingBox'),
+    BoundingBox,
     newBoundingBox,
 
     -- ** DetectedSignature
-    DetectedSignature (DetectedSignature'),
+    DetectedSignature,
     newDetectedSignature,
 
     -- ** Document
-    Document (Document'),
+    Document,
     newDocument,
 
     -- ** DocumentGroup
-    DocumentGroup (DocumentGroup'),
+    DocumentGroup,
     newDocumentGroup,
 
     -- ** DocumentLocation
-    DocumentLocation (DocumentLocation'),
+    DocumentLocation,
     newDocumentLocation,
 
     -- ** DocumentMetadata
-    DocumentMetadata (DocumentMetadata'),
+    DocumentMetadata,
     newDocumentMetadata,
 
     -- ** ExpenseCurrency
-    ExpenseCurrency (ExpenseCurrency'),
+    ExpenseCurrency,
     newExpenseCurrency,
 
     -- ** ExpenseDetection
-    ExpenseDetection (ExpenseDetection'),
+    ExpenseDetection,
     newExpenseDetection,
 
     -- ** ExpenseDocument
-    ExpenseDocument (ExpenseDocument'),
+    ExpenseDocument,
     newExpenseDocument,
 
     -- ** ExpenseField
-    ExpenseField (ExpenseField'),
+    ExpenseField,
     newExpenseField,
 
     -- ** ExpenseGroupProperty
-    ExpenseGroupProperty (ExpenseGroupProperty'),
+    ExpenseGroupProperty,
     newExpenseGroupProperty,
 
     -- ** ExpenseType
-    ExpenseType (ExpenseType'),
+    ExpenseType,
     newExpenseType,
 
     -- ** Extraction
-    Extraction (Extraction'),
+    Extraction,
     newExtraction,
 
     -- ** Geometry
-    Geometry (Geometry'),
+    Geometry,
     newGeometry,
 
     -- ** HumanLoopActivationOutput
-    HumanLoopActivationOutput (HumanLoopActivationOutput'),
+    HumanLoopActivationOutput,
     newHumanLoopActivationOutput,
 
     -- ** HumanLoopConfig
-    HumanLoopConfig (HumanLoopConfig'),
+    HumanLoopConfig,
     newHumanLoopConfig,
 
     -- ** HumanLoopDataAttributes
-    HumanLoopDataAttributes (HumanLoopDataAttributes'),
+    HumanLoopDataAttributes,
     newHumanLoopDataAttributes,
 
     -- ** IdentityDocument
-    IdentityDocument (IdentityDocument'),
+    IdentityDocument,
     newIdentityDocument,
 
     -- ** IdentityDocumentField
-    IdentityDocumentField (IdentityDocumentField'),
+    IdentityDocumentField,
     newIdentityDocumentField,
 
     -- ** LendingDetection
-    LendingDetection (LendingDetection'),
+    LendingDetection,
     newLendingDetection,
 
     -- ** LendingDocument
-    LendingDocument (LendingDocument'),
+    LendingDocument,
     newLendingDocument,
 
     -- ** LendingField
-    LendingField (LendingField'),
+    LendingField,
     newLendingField,
 
     -- ** LendingResult
-    LendingResult (LendingResult'),
+    LendingResult,
     newLendingResult,
 
     -- ** LendingSummary
-    LendingSummary (LendingSummary'),
+    LendingSummary,
     newLendingSummary,
 
     -- ** LineItemFields
-    LineItemFields (LineItemFields'),
+    LineItemFields,
     newLineItemFields,
 
     -- ** LineItemGroup
-    LineItemGroup (LineItemGroup'),
+    LineItemGroup,
     newLineItemGroup,
 
     -- ** NormalizedValue
-    NormalizedValue (NormalizedValue'),
+    NormalizedValue,
     newNormalizedValue,
 
     -- ** NotificationChannel
-    NotificationChannel (NotificationChannel'),
+    NotificationChannel,
     newNotificationChannel,
 
     -- ** OutputConfig
-    OutputConfig (OutputConfig'),
+    OutputConfig,
     newOutputConfig,
 
     -- ** PageClassification
-    PageClassification (PageClassification'),
+    PageClassification,
     newPageClassification,
 
     -- ** Point
-    Point (Point'),
+    Point,
     newPoint,
 
     -- ** Prediction
-    Prediction (Prediction'),
+    Prediction,
     newPrediction,
 
     -- ** QueriesConfig
-    QueriesConfig (QueriesConfig'),
+    QueriesConfig,
     newQueriesConfig,
 
     -- ** Query
-    Query (Query'),
+    Query,
     newQuery,
 
     -- ** Relationship
-    Relationship (Relationship'),
+    Relationship,
     newRelationship,
 
     -- ** S3Object
-    S3Object (S3Object'),
+    S3Object,
     newS3Object,
 
     -- ** SignatureDetection
-    SignatureDetection (SignatureDetection'),
+    SignatureDetection,
     newSignatureDetection,
 
     -- ** SplitDocument
-    SplitDocument (SplitDocument'),
+    SplitDocument,
     newSplitDocument,
 
     -- ** UndetectedSignature
-    UndetectedSignature (UndetectedSignature'),
+    UndetectedSignature,
     newUndetectedSignature,
 
     -- ** Warning
-    Warning (Warning'),
+    Warning,
     newWarning,
   )
 where

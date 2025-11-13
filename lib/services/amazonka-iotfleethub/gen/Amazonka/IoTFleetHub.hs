@@ -48,51 +48,51 @@ module Amazonka.IoTFleetHub
     -- $operations
 
     -- ** CreateApplication
-    CreateApplication (CreateApplication'),
+    CreateApplication,
     newCreateApplication,
-    CreateApplicationResponse (CreateApplicationResponse'),
+    CreateApplicationResponse,
     newCreateApplicationResponse,
 
     -- ** DeleteApplication
-    DeleteApplication (DeleteApplication'),
+    DeleteApplication,
     newDeleteApplication,
-    DeleteApplicationResponse (DeleteApplicationResponse'),
+    DeleteApplicationResponse,
     newDeleteApplicationResponse,
 
     -- ** DescribeApplication
-    DescribeApplication (DescribeApplication'),
+    DescribeApplication,
     newDescribeApplication,
-    DescribeApplicationResponse (DescribeApplicationResponse'),
+    DescribeApplicationResponse,
     newDescribeApplicationResponse,
 
     -- ** ListApplications (Paginated)
-    ListApplications (ListApplications'),
+    ListApplications,
     newListApplications,
-    ListApplicationsResponse (ListApplicationsResponse'),
+    ListApplicationsResponse,
     newListApplicationsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateApplication
-    UpdateApplication (UpdateApplication'),
+    UpdateApplication,
     newUpdateApplication,
-    UpdateApplicationResponse (UpdateApplicationResponse'),
+    UpdateApplicationResponse,
     newUpdateApplicationResponse,
 
     -- * Types
@@ -101,7 +101,7 @@ module Amazonka.IoTFleetHub
     ApplicationState (..),
 
     -- ** ApplicationSummary
-    ApplicationSummary (ApplicationSummary'),
+    ApplicationSummary,
     newApplicationSummary,
   )
 where

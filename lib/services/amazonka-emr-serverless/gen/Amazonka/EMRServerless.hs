@@ -61,93 +61,93 @@ module Amazonka.EMRServerless
     -- $operations
 
     -- ** CancelJobRun
-    CancelJobRun (CancelJobRun'),
+    CancelJobRun,
     newCancelJobRun,
-    CancelJobRunResponse (CancelJobRunResponse'),
+    CancelJobRunResponse,
     newCancelJobRunResponse,
 
     -- ** CreateApplication
-    CreateApplication (CreateApplication'),
+    CreateApplication,
     newCreateApplication,
-    CreateApplicationResponse (CreateApplicationResponse'),
+    CreateApplicationResponse,
     newCreateApplicationResponse,
 
     -- ** DeleteApplication
-    DeleteApplication (DeleteApplication'),
+    DeleteApplication,
     newDeleteApplication,
-    DeleteApplicationResponse (DeleteApplicationResponse'),
+    DeleteApplicationResponse,
     newDeleteApplicationResponse,
 
     -- ** GetApplication
-    GetApplication (GetApplication'),
+    GetApplication,
     newGetApplication,
-    GetApplicationResponse (GetApplicationResponse'),
+    GetApplicationResponse,
     newGetApplicationResponse,
 
     -- ** GetDashboardForJobRun
-    GetDashboardForJobRun (GetDashboardForJobRun'),
+    GetDashboardForJobRun,
     newGetDashboardForJobRun,
-    GetDashboardForJobRunResponse (GetDashboardForJobRunResponse'),
+    GetDashboardForJobRunResponse,
     newGetDashboardForJobRunResponse,
 
     -- ** GetJobRun
-    GetJobRun (GetJobRun'),
+    GetJobRun,
     newGetJobRun,
-    GetJobRunResponse (GetJobRunResponse'),
+    GetJobRunResponse,
     newGetJobRunResponse,
 
     -- ** ListApplications (Paginated)
-    ListApplications (ListApplications'),
+    ListApplications,
     newListApplications,
-    ListApplicationsResponse (ListApplicationsResponse'),
+    ListApplicationsResponse,
     newListApplicationsResponse,
 
     -- ** ListJobRuns (Paginated)
-    ListJobRuns (ListJobRuns'),
+    ListJobRuns,
     newListJobRuns,
-    ListJobRunsResponse (ListJobRunsResponse'),
+    ListJobRunsResponse,
     newListJobRunsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** StartApplication
-    StartApplication (StartApplication'),
+    StartApplication,
     newStartApplication,
-    StartApplicationResponse (StartApplicationResponse'),
+    StartApplicationResponse,
     newStartApplicationResponse,
 
     -- ** StartJobRun
-    StartJobRun (StartJobRun'),
+    StartJobRun,
     newStartJobRun,
-    StartJobRunResponse (StartJobRunResponse'),
+    StartJobRunResponse,
     newStartJobRunResponse,
 
     -- ** StopApplication
-    StopApplication (StopApplication'),
+    StopApplication,
     newStopApplication,
-    StopApplicationResponse (StopApplicationResponse'),
+    StopApplicationResponse,
     newStopApplicationResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateApplication
-    UpdateApplication (UpdateApplication'),
+    UpdateApplication,
     newUpdateApplication,
-    UpdateApplicationResponse (UpdateApplicationResponse'),
+    UpdateApplicationResponse,
     newUpdateApplicationResponse,
 
     -- * Types
@@ -162,95 +162,95 @@ module Amazonka.EMRServerless
     JobRunState (..),
 
     -- ** Application
-    Application (Application'),
+    Application,
     newApplication,
 
     -- ** ApplicationSummary
-    ApplicationSummary (ApplicationSummary'),
+    ApplicationSummary,
     newApplicationSummary,
 
     -- ** AutoStartConfig
-    AutoStartConfig (AutoStartConfig'),
+    AutoStartConfig,
     newAutoStartConfig,
 
     -- ** AutoStopConfig
-    AutoStopConfig (AutoStopConfig'),
+    AutoStopConfig,
     newAutoStopConfig,
 
     -- ** Configuration
-    Configuration (Configuration'),
+    Configuration,
     newConfiguration,
 
     -- ** ConfigurationOverrides
-    ConfigurationOverrides (ConfigurationOverrides'),
+    ConfigurationOverrides,
     newConfigurationOverrides,
 
     -- ** Hive
-    Hive (Hive'),
+    Hive,
     newHive,
 
     -- ** ImageConfiguration
-    ImageConfiguration (ImageConfiguration'),
+    ImageConfiguration,
     newImageConfiguration,
 
     -- ** ImageConfigurationInput
-    ImageConfigurationInput (ImageConfigurationInput'),
+    ImageConfigurationInput,
     newImageConfigurationInput,
 
     -- ** InitialCapacityConfig
-    InitialCapacityConfig (InitialCapacityConfig'),
+    InitialCapacityConfig,
     newInitialCapacityConfig,
 
     -- ** JobDriver
-    JobDriver (JobDriver'),
+    JobDriver,
     newJobDriver,
 
     -- ** JobRun
-    JobRun (JobRun'),
+    JobRun,
     newJobRun,
 
     -- ** JobRunSummary
-    JobRunSummary (JobRunSummary'),
+    JobRunSummary,
     newJobRunSummary,
 
     -- ** ManagedPersistenceMonitoringConfiguration
-    ManagedPersistenceMonitoringConfiguration (ManagedPersistenceMonitoringConfiguration'),
+    ManagedPersistenceMonitoringConfiguration,
     newManagedPersistenceMonitoringConfiguration,
 
     -- ** MaximumAllowedResources
-    MaximumAllowedResources (MaximumAllowedResources'),
+    MaximumAllowedResources,
     newMaximumAllowedResources,
 
     -- ** MonitoringConfiguration
-    MonitoringConfiguration (MonitoringConfiguration'),
+    MonitoringConfiguration,
     newMonitoringConfiguration,
 
     -- ** NetworkConfiguration
-    NetworkConfiguration (NetworkConfiguration'),
+    NetworkConfiguration,
     newNetworkConfiguration,
 
     -- ** S3MonitoringConfiguration
-    S3MonitoringConfiguration (S3MonitoringConfiguration'),
+    S3MonitoringConfiguration,
     newS3MonitoringConfiguration,
 
     -- ** SparkSubmit
-    SparkSubmit (SparkSubmit'),
+    SparkSubmit,
     newSparkSubmit,
 
     -- ** TotalResourceUtilization
-    TotalResourceUtilization (TotalResourceUtilization'),
+    TotalResourceUtilization,
     newTotalResourceUtilization,
 
     -- ** WorkerResourceConfig
-    WorkerResourceConfig (WorkerResourceConfig'),
+    WorkerResourceConfig,
     newWorkerResourceConfig,
 
     -- ** WorkerTypeSpecification
-    WorkerTypeSpecification (WorkerTypeSpecification'),
+    WorkerTypeSpecification,
     newWorkerTypeSpecification,
 
     -- ** WorkerTypeSpecificationInput
-    WorkerTypeSpecificationInput (WorkerTypeSpecificationInput'),
+    WorkerTypeSpecificationInput,
     newWorkerTypeSpecificationInput,
   )
 where

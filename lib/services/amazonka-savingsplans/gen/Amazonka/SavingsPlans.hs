@@ -42,57 +42,57 @@ module Amazonka.SavingsPlans
     -- $operations
 
     -- ** CreateSavingsPlan
-    CreateSavingsPlan (CreateSavingsPlan'),
+    CreateSavingsPlan,
     newCreateSavingsPlan,
-    CreateSavingsPlanResponse (CreateSavingsPlanResponse'),
+    CreateSavingsPlanResponse,
     newCreateSavingsPlanResponse,
 
     -- ** DeleteQueuedSavingsPlan
-    DeleteQueuedSavingsPlan (DeleteQueuedSavingsPlan'),
+    DeleteQueuedSavingsPlan,
     newDeleteQueuedSavingsPlan,
-    DeleteQueuedSavingsPlanResponse (DeleteQueuedSavingsPlanResponse'),
+    DeleteQueuedSavingsPlanResponse,
     newDeleteQueuedSavingsPlanResponse,
 
     -- ** DescribeSavingsPlanRates
-    DescribeSavingsPlanRates (DescribeSavingsPlanRates'),
+    DescribeSavingsPlanRates,
     newDescribeSavingsPlanRates,
-    DescribeSavingsPlanRatesResponse (DescribeSavingsPlanRatesResponse'),
+    DescribeSavingsPlanRatesResponse,
     newDescribeSavingsPlanRatesResponse,
 
     -- ** DescribeSavingsPlans
-    DescribeSavingsPlans (DescribeSavingsPlans'),
+    DescribeSavingsPlans,
     newDescribeSavingsPlans,
-    DescribeSavingsPlansResponse (DescribeSavingsPlansResponse'),
+    DescribeSavingsPlansResponse,
     newDescribeSavingsPlansResponse,
 
     -- ** DescribeSavingsPlansOfferingRates
-    DescribeSavingsPlansOfferingRates (DescribeSavingsPlansOfferingRates'),
+    DescribeSavingsPlansOfferingRates,
     newDescribeSavingsPlansOfferingRates,
-    DescribeSavingsPlansOfferingRatesResponse (DescribeSavingsPlansOfferingRatesResponse'),
+    DescribeSavingsPlansOfferingRatesResponse,
     newDescribeSavingsPlansOfferingRatesResponse,
 
     -- ** DescribeSavingsPlansOfferings
-    DescribeSavingsPlansOfferings (DescribeSavingsPlansOfferings'),
+    DescribeSavingsPlansOfferings,
     newDescribeSavingsPlansOfferings,
-    DescribeSavingsPlansOfferingsResponse (DescribeSavingsPlansOfferingsResponse'),
+    DescribeSavingsPlansOfferingsResponse,
     newDescribeSavingsPlansOfferingsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- * Types
@@ -137,51 +137,51 @@ module Amazonka.SavingsPlans
     SavingsPlansFilterName (..),
 
     -- ** ParentSavingsPlanOffering
-    ParentSavingsPlanOffering (ParentSavingsPlanOffering'),
+    ParentSavingsPlanOffering,
     newParentSavingsPlanOffering,
 
     -- ** SavingsPlan
-    SavingsPlan (SavingsPlan'),
+    SavingsPlan,
     newSavingsPlan,
 
     -- ** SavingsPlanFilter
-    SavingsPlanFilter (SavingsPlanFilter'),
+    SavingsPlanFilter,
     newSavingsPlanFilter,
 
     -- ** SavingsPlanOffering
-    SavingsPlanOffering (SavingsPlanOffering'),
+    SavingsPlanOffering,
     newSavingsPlanOffering,
 
     -- ** SavingsPlanOfferingFilterElement
-    SavingsPlanOfferingFilterElement (SavingsPlanOfferingFilterElement'),
+    SavingsPlanOfferingFilterElement,
     newSavingsPlanOfferingFilterElement,
 
     -- ** SavingsPlanOfferingProperty
-    SavingsPlanOfferingProperty (SavingsPlanOfferingProperty'),
+    SavingsPlanOfferingProperty,
     newSavingsPlanOfferingProperty,
 
     -- ** SavingsPlanOfferingRate
-    SavingsPlanOfferingRate (SavingsPlanOfferingRate'),
+    SavingsPlanOfferingRate,
     newSavingsPlanOfferingRate,
 
     -- ** SavingsPlanOfferingRateFilterElement
-    SavingsPlanOfferingRateFilterElement (SavingsPlanOfferingRateFilterElement'),
+    SavingsPlanOfferingRateFilterElement,
     newSavingsPlanOfferingRateFilterElement,
 
     -- ** SavingsPlanOfferingRateProperty
-    SavingsPlanOfferingRateProperty (SavingsPlanOfferingRateProperty'),
+    SavingsPlanOfferingRateProperty,
     newSavingsPlanOfferingRateProperty,
 
     -- ** SavingsPlanRate
-    SavingsPlanRate (SavingsPlanRate'),
+    SavingsPlanRate,
     newSavingsPlanRate,
 
     -- ** SavingsPlanRateFilter
-    SavingsPlanRateFilter (SavingsPlanRateFilter'),
+    SavingsPlanRateFilter,
     newSavingsPlanRateFilter,
 
     -- ** SavingsPlanRateProperty
-    SavingsPlanRateProperty (SavingsPlanRateProperty'),
+    SavingsPlanRateProperty,
     newSavingsPlanRateProperty,
   )
 where

@@ -41,99 +41,99 @@ module Amazonka.SSMSAP
     -- $operations
 
     -- ** DeleteResourcePermission
-    DeleteResourcePermission (DeleteResourcePermission'),
+    DeleteResourcePermission,
     newDeleteResourcePermission,
-    DeleteResourcePermissionResponse (DeleteResourcePermissionResponse'),
+    DeleteResourcePermissionResponse,
     newDeleteResourcePermissionResponse,
 
     -- ** DeregisterApplication
-    DeregisterApplication (DeregisterApplication'),
+    DeregisterApplication,
     newDeregisterApplication,
-    DeregisterApplicationResponse (DeregisterApplicationResponse'),
+    DeregisterApplicationResponse,
     newDeregisterApplicationResponse,
 
     -- ** GetApplication
-    GetApplication (GetApplication'),
+    GetApplication,
     newGetApplication,
-    GetApplicationResponse (GetApplicationResponse'),
+    GetApplicationResponse,
     newGetApplicationResponse,
 
     -- ** GetComponent
-    GetComponent (GetComponent'),
+    GetComponent,
     newGetComponent,
-    GetComponentResponse (GetComponentResponse'),
+    GetComponentResponse,
     newGetComponentResponse,
 
     -- ** GetDatabase
-    GetDatabase (GetDatabase'),
+    GetDatabase,
     newGetDatabase,
-    GetDatabaseResponse (GetDatabaseResponse'),
+    GetDatabaseResponse,
     newGetDatabaseResponse,
 
     -- ** GetOperation
-    GetOperation (GetOperation'),
+    GetOperation,
     newGetOperation,
-    GetOperationResponse (GetOperationResponse'),
+    GetOperationResponse,
     newGetOperationResponse,
 
     -- ** GetResourcePermission
-    GetResourcePermission (GetResourcePermission'),
+    GetResourcePermission,
     newGetResourcePermission,
-    GetResourcePermissionResponse (GetResourcePermissionResponse'),
+    GetResourcePermissionResponse,
     newGetResourcePermissionResponse,
 
     -- ** ListApplications (Paginated)
-    ListApplications (ListApplications'),
+    ListApplications,
     newListApplications,
-    ListApplicationsResponse (ListApplicationsResponse'),
+    ListApplicationsResponse,
     newListApplicationsResponse,
 
     -- ** ListComponents (Paginated)
-    ListComponents (ListComponents'),
+    ListComponents,
     newListComponents,
-    ListComponentsResponse (ListComponentsResponse'),
+    ListComponentsResponse,
     newListComponentsResponse,
 
     -- ** ListDatabases (Paginated)
-    ListDatabases (ListDatabases'),
+    ListDatabases,
     newListDatabases,
-    ListDatabasesResponse (ListDatabasesResponse'),
+    ListDatabasesResponse,
     newListDatabasesResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** PutResourcePermission
-    PutResourcePermission (PutResourcePermission'),
+    PutResourcePermission,
     newPutResourcePermission,
-    PutResourcePermissionResponse (PutResourcePermissionResponse'),
+    PutResourcePermissionResponse,
     newPutResourcePermissionResponse,
 
     -- ** RegisterApplication
-    RegisterApplication (RegisterApplication'),
+    RegisterApplication,
     newRegisterApplication,
-    RegisterApplicationResponse (RegisterApplicationResponse'),
+    RegisterApplicationResponse,
     newRegisterApplicationResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateApplicationSettings
-    UpdateApplicationSettings (UpdateApplicationSettings'),
+    UpdateApplicationSettings,
     newUpdateApplicationSettings,
-    UpdateApplicationSettingsResponse (UpdateApplicationSettingsResponse'),
+    UpdateApplicationSettingsResponse,
     newUpdateApplicationSettingsResponse,
 
     -- * Types
@@ -169,39 +169,39 @@ module Amazonka.SSMSAP
     PermissionActionType (..),
 
     -- ** Application
-    Application (Application'),
+    Application,
     newApplication,
 
     -- ** ApplicationCredential
-    ApplicationCredential (ApplicationCredential'),
+    ApplicationCredential,
     newApplicationCredential,
 
     -- ** ApplicationSummary
-    ApplicationSummary (ApplicationSummary'),
+    ApplicationSummary,
     newApplicationSummary,
 
     -- ** Component
-    Component (Component'),
+    Component,
     newComponent,
 
     -- ** ComponentSummary
-    ComponentSummary (ComponentSummary'),
+    ComponentSummary,
     newComponentSummary,
 
     -- ** Database
-    Database (Database'),
+    Database,
     newDatabase,
 
     -- ** DatabaseSummary
-    DatabaseSummary (DatabaseSummary'),
+    DatabaseSummary,
     newDatabaseSummary,
 
     -- ** Host
-    Host (Host'),
+    Host,
     newHost,
 
     -- ** Operation
-    Operation (Operation'),
+    Operation,
     newOperation,
   )
 where

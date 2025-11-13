@@ -58,33 +58,33 @@ module Amazonka.RDSData
     -- $operations
 
     -- ** BatchExecuteStatement
-    BatchExecuteStatement (BatchExecuteStatement'),
+    BatchExecuteStatement,
     newBatchExecuteStatement,
-    BatchExecuteStatementResponse (BatchExecuteStatementResponse'),
+    BatchExecuteStatementResponse,
     newBatchExecuteStatementResponse,
 
     -- ** BeginTransaction
-    BeginTransaction (BeginTransaction'),
+    BeginTransaction,
     newBeginTransaction,
-    BeginTransactionResponse (BeginTransactionResponse'),
+    BeginTransactionResponse,
     newBeginTransactionResponse,
 
     -- ** CommitTransaction
-    CommitTransaction (CommitTransaction'),
+    CommitTransaction,
     newCommitTransaction,
-    CommitTransactionResponse (CommitTransactionResponse'),
+    CommitTransactionResponse,
     newCommitTransactionResponse,
 
     -- ** ExecuteStatement
-    ExecuteStatement (ExecuteStatement'),
+    ExecuteStatement,
     newExecuteStatement,
-    ExecuteStatementResponse (ExecuteStatementResponse'),
+    ExecuteStatementResponse,
     newExecuteStatementResponse,
 
     -- ** RollbackTransaction
-    RollbackTransaction (RollbackTransaction'),
+    RollbackTransaction,
     newRollbackTransaction,
-    RollbackTransactionResponse (RollbackTransactionResponse'),
+    RollbackTransactionResponse,
     newRollbackTransactionResponse,
 
     -- * Types
@@ -102,27 +102,27 @@ module Amazonka.RDSData
     TypeHint (..),
 
     -- ** ArrayValue
-    ArrayValue (ArrayValue'),
+    ArrayValue,
     newArrayValue,
 
     -- ** ColumnMetadata
-    ColumnMetadata (ColumnMetadata'),
+    ColumnMetadata,
     newColumnMetadata,
 
     -- ** Field
-    Field (Field'),
+    Field,
     newField,
 
     -- ** ResultSetOptions
-    ResultSetOptions (ResultSetOptions'),
+    ResultSetOptions,
     newResultSetOptions,
 
     -- ** SqlParameter
-    SqlParameter (SqlParameter'),
+    SqlParameter,
     newSqlParameter,
 
     -- ** UpdateResult
-    UpdateResult (UpdateResult'),
+    UpdateResult,
     newUpdateResult,
   )
 where

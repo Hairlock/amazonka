@@ -71,123 +71,123 @@ module Amazonka.KinesisAnalytics
     -- $operations
 
     -- ** AddApplicationCloudWatchLoggingOption
-    AddApplicationCloudWatchLoggingOption (AddApplicationCloudWatchLoggingOption'),
+    AddApplicationCloudWatchLoggingOption,
     newAddApplicationCloudWatchLoggingOption,
-    AddApplicationCloudWatchLoggingOptionResponse (AddApplicationCloudWatchLoggingOptionResponse'),
+    AddApplicationCloudWatchLoggingOptionResponse,
     newAddApplicationCloudWatchLoggingOptionResponse,
 
     -- ** AddApplicationInput
-    AddApplicationInput (AddApplicationInput'),
+    AddApplicationInput,
     newAddApplicationInput,
-    AddApplicationInputResponse (AddApplicationInputResponse'),
+    AddApplicationInputResponse,
     newAddApplicationInputResponse,
 
     -- ** AddApplicationInputProcessingConfiguration
-    AddApplicationInputProcessingConfiguration (AddApplicationInputProcessingConfiguration'),
+    AddApplicationInputProcessingConfiguration,
     newAddApplicationInputProcessingConfiguration,
-    AddApplicationInputProcessingConfigurationResponse (AddApplicationInputProcessingConfigurationResponse'),
+    AddApplicationInputProcessingConfigurationResponse,
     newAddApplicationInputProcessingConfigurationResponse,
 
     -- ** AddApplicationOutput
-    AddApplicationOutput (AddApplicationOutput'),
+    AddApplicationOutput,
     newAddApplicationOutput,
-    AddApplicationOutputResponse (AddApplicationOutputResponse'),
+    AddApplicationOutputResponse,
     newAddApplicationOutputResponse,
 
     -- ** AddApplicationReferenceDataSource
-    AddApplicationReferenceDataSource (AddApplicationReferenceDataSource'),
+    AddApplicationReferenceDataSource,
     newAddApplicationReferenceDataSource,
-    AddApplicationReferenceDataSourceResponse (AddApplicationReferenceDataSourceResponse'),
+    AddApplicationReferenceDataSourceResponse,
     newAddApplicationReferenceDataSourceResponse,
 
     -- ** CreateApplication
-    CreateApplication (CreateApplication'),
+    CreateApplication,
     newCreateApplication,
-    CreateApplicationResponse (CreateApplicationResponse'),
+    CreateApplicationResponse,
     newCreateApplicationResponse,
 
     -- ** DeleteApplication
-    DeleteApplication (DeleteApplication'),
+    DeleteApplication,
     newDeleteApplication,
-    DeleteApplicationResponse (DeleteApplicationResponse'),
+    DeleteApplicationResponse,
     newDeleteApplicationResponse,
 
     -- ** DeleteApplicationCloudWatchLoggingOption
-    DeleteApplicationCloudWatchLoggingOption (DeleteApplicationCloudWatchLoggingOption'),
+    DeleteApplicationCloudWatchLoggingOption,
     newDeleteApplicationCloudWatchLoggingOption,
-    DeleteApplicationCloudWatchLoggingOptionResponse (DeleteApplicationCloudWatchLoggingOptionResponse'),
+    DeleteApplicationCloudWatchLoggingOptionResponse,
     newDeleteApplicationCloudWatchLoggingOptionResponse,
 
     -- ** DeleteApplicationInputProcessingConfiguration
-    DeleteApplicationInputProcessingConfiguration (DeleteApplicationInputProcessingConfiguration'),
+    DeleteApplicationInputProcessingConfiguration,
     newDeleteApplicationInputProcessingConfiguration,
-    DeleteApplicationInputProcessingConfigurationResponse (DeleteApplicationInputProcessingConfigurationResponse'),
+    DeleteApplicationInputProcessingConfigurationResponse,
     newDeleteApplicationInputProcessingConfigurationResponse,
 
     -- ** DeleteApplicationOutput
-    DeleteApplicationOutput (DeleteApplicationOutput'),
+    DeleteApplicationOutput,
     newDeleteApplicationOutput,
-    DeleteApplicationOutputResponse (DeleteApplicationOutputResponse'),
+    DeleteApplicationOutputResponse,
     newDeleteApplicationOutputResponse,
 
     -- ** DeleteApplicationReferenceDataSource
-    DeleteApplicationReferenceDataSource (DeleteApplicationReferenceDataSource'),
+    DeleteApplicationReferenceDataSource,
     newDeleteApplicationReferenceDataSource,
-    DeleteApplicationReferenceDataSourceResponse (DeleteApplicationReferenceDataSourceResponse'),
+    DeleteApplicationReferenceDataSourceResponse,
     newDeleteApplicationReferenceDataSourceResponse,
 
     -- ** DescribeApplication
-    DescribeApplication (DescribeApplication'),
+    DescribeApplication,
     newDescribeApplication,
-    DescribeApplicationResponse (DescribeApplicationResponse'),
+    DescribeApplicationResponse,
     newDescribeApplicationResponse,
 
     -- ** DiscoverInputSchema
-    DiscoverInputSchema (DiscoverInputSchema'),
+    DiscoverInputSchema,
     newDiscoverInputSchema,
-    DiscoverInputSchemaResponse (DiscoverInputSchemaResponse'),
+    DiscoverInputSchemaResponse,
     newDiscoverInputSchemaResponse,
 
     -- ** ListApplications
-    ListApplications (ListApplications'),
+    ListApplications,
     newListApplications,
-    ListApplicationsResponse (ListApplicationsResponse'),
+    ListApplicationsResponse,
     newListApplicationsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** StartApplication
-    StartApplication (StartApplication'),
+    StartApplication,
     newStartApplication,
-    StartApplicationResponse (StartApplicationResponse'),
+    StartApplicationResponse,
     newStartApplicationResponse,
 
     -- ** StopApplication
-    StopApplication (StopApplication'),
+    StopApplication,
     newStopApplication,
-    StopApplicationResponse (StopApplicationResponse'),
+    StopApplicationResponse,
     newStopApplicationResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateApplication
-    UpdateApplication (UpdateApplication'),
+    UpdateApplication,
     newUpdateApplication,
-    UpdateApplicationResponse (UpdateApplicationResponse'),
+    UpdateApplicationResponse,
     newUpdateApplicationResponse,
 
     -- * Types
@@ -202,215 +202,215 @@ module Amazonka.KinesisAnalytics
     RecordFormatType (..),
 
     -- ** ApplicationDetail
-    ApplicationDetail (ApplicationDetail'),
+    ApplicationDetail,
     newApplicationDetail,
 
     -- ** ApplicationSummary
-    ApplicationSummary (ApplicationSummary'),
+    ApplicationSummary,
     newApplicationSummary,
 
     -- ** ApplicationUpdate
-    ApplicationUpdate (ApplicationUpdate'),
+    ApplicationUpdate,
     newApplicationUpdate,
 
     -- ** CSVMappingParameters
-    CSVMappingParameters (CSVMappingParameters'),
+    CSVMappingParameters,
     newCSVMappingParameters,
 
     -- ** CloudWatchLoggingOption
-    CloudWatchLoggingOption (CloudWatchLoggingOption'),
+    CloudWatchLoggingOption,
     newCloudWatchLoggingOption,
 
     -- ** CloudWatchLoggingOptionDescription
-    CloudWatchLoggingOptionDescription (CloudWatchLoggingOptionDescription'),
+    CloudWatchLoggingOptionDescription,
     newCloudWatchLoggingOptionDescription,
 
     -- ** CloudWatchLoggingOptionUpdate
-    CloudWatchLoggingOptionUpdate (CloudWatchLoggingOptionUpdate'),
+    CloudWatchLoggingOptionUpdate,
     newCloudWatchLoggingOptionUpdate,
 
     -- ** DestinationSchema
-    DestinationSchema (DestinationSchema'),
+    DestinationSchema,
     newDestinationSchema,
 
     -- ** Input
-    Input (Input'),
+    Input,
     newInput,
 
     -- ** InputConfiguration
-    InputConfiguration (InputConfiguration'),
+    InputConfiguration,
     newInputConfiguration,
 
     -- ** InputDescription
-    InputDescription (InputDescription'),
+    InputDescription,
     newInputDescription,
 
     -- ** InputLambdaProcessor
-    InputLambdaProcessor (InputLambdaProcessor'),
+    InputLambdaProcessor,
     newInputLambdaProcessor,
 
     -- ** InputLambdaProcessorDescription
-    InputLambdaProcessorDescription (InputLambdaProcessorDescription'),
+    InputLambdaProcessorDescription,
     newInputLambdaProcessorDescription,
 
     -- ** InputLambdaProcessorUpdate
-    InputLambdaProcessorUpdate (InputLambdaProcessorUpdate'),
+    InputLambdaProcessorUpdate,
     newInputLambdaProcessorUpdate,
 
     -- ** InputParallelism
-    InputParallelism (InputParallelism'),
+    InputParallelism,
     newInputParallelism,
 
     -- ** InputParallelismUpdate
-    InputParallelismUpdate (InputParallelismUpdate'),
+    InputParallelismUpdate,
     newInputParallelismUpdate,
 
     -- ** InputProcessingConfiguration
-    InputProcessingConfiguration (InputProcessingConfiguration'),
+    InputProcessingConfiguration,
     newInputProcessingConfiguration,
 
     -- ** InputProcessingConfigurationDescription
-    InputProcessingConfigurationDescription (InputProcessingConfigurationDescription'),
+    InputProcessingConfigurationDescription,
     newInputProcessingConfigurationDescription,
 
     -- ** InputProcessingConfigurationUpdate
-    InputProcessingConfigurationUpdate (InputProcessingConfigurationUpdate'),
+    InputProcessingConfigurationUpdate,
     newInputProcessingConfigurationUpdate,
 
     -- ** InputSchemaUpdate
-    InputSchemaUpdate (InputSchemaUpdate'),
+    InputSchemaUpdate,
     newInputSchemaUpdate,
 
     -- ** InputStartingPositionConfiguration
-    InputStartingPositionConfiguration (InputStartingPositionConfiguration'),
+    InputStartingPositionConfiguration,
     newInputStartingPositionConfiguration,
 
     -- ** InputUpdate
-    InputUpdate (InputUpdate'),
+    InputUpdate,
     newInputUpdate,
 
     -- ** JSONMappingParameters
-    JSONMappingParameters (JSONMappingParameters'),
+    JSONMappingParameters,
     newJSONMappingParameters,
 
     -- ** KinesisFirehoseInput
-    KinesisFirehoseInput (KinesisFirehoseInput'),
+    KinesisFirehoseInput,
     newKinesisFirehoseInput,
 
     -- ** KinesisFirehoseInputDescription
-    KinesisFirehoseInputDescription (KinesisFirehoseInputDescription'),
+    KinesisFirehoseInputDescription,
     newKinesisFirehoseInputDescription,
 
     -- ** KinesisFirehoseInputUpdate
-    KinesisFirehoseInputUpdate (KinesisFirehoseInputUpdate'),
+    KinesisFirehoseInputUpdate,
     newKinesisFirehoseInputUpdate,
 
     -- ** KinesisFirehoseOutput
-    KinesisFirehoseOutput (KinesisFirehoseOutput'),
+    KinesisFirehoseOutput,
     newKinesisFirehoseOutput,
 
     -- ** KinesisFirehoseOutputDescription
-    KinesisFirehoseOutputDescription (KinesisFirehoseOutputDescription'),
+    KinesisFirehoseOutputDescription,
     newKinesisFirehoseOutputDescription,
 
     -- ** KinesisFirehoseOutputUpdate
-    KinesisFirehoseOutputUpdate (KinesisFirehoseOutputUpdate'),
+    KinesisFirehoseOutputUpdate,
     newKinesisFirehoseOutputUpdate,
 
     -- ** KinesisStreamsInput
-    KinesisStreamsInput (KinesisStreamsInput'),
+    KinesisStreamsInput,
     newKinesisStreamsInput,
 
     -- ** KinesisStreamsInputDescription
-    KinesisStreamsInputDescription (KinesisStreamsInputDescription'),
+    KinesisStreamsInputDescription,
     newKinesisStreamsInputDescription,
 
     -- ** KinesisStreamsInputUpdate
-    KinesisStreamsInputUpdate (KinesisStreamsInputUpdate'),
+    KinesisStreamsInputUpdate,
     newKinesisStreamsInputUpdate,
 
     -- ** KinesisStreamsOutput
-    KinesisStreamsOutput (KinesisStreamsOutput'),
+    KinesisStreamsOutput,
     newKinesisStreamsOutput,
 
     -- ** KinesisStreamsOutputDescription
-    KinesisStreamsOutputDescription (KinesisStreamsOutputDescription'),
+    KinesisStreamsOutputDescription,
     newKinesisStreamsOutputDescription,
 
     -- ** KinesisStreamsOutputUpdate
-    KinesisStreamsOutputUpdate (KinesisStreamsOutputUpdate'),
+    KinesisStreamsOutputUpdate,
     newKinesisStreamsOutputUpdate,
 
     -- ** LambdaOutput
-    LambdaOutput (LambdaOutput'),
+    LambdaOutput,
     newLambdaOutput,
 
     -- ** LambdaOutputDescription
-    LambdaOutputDescription (LambdaOutputDescription'),
+    LambdaOutputDescription,
     newLambdaOutputDescription,
 
     -- ** LambdaOutputUpdate
-    LambdaOutputUpdate (LambdaOutputUpdate'),
+    LambdaOutputUpdate,
     newLambdaOutputUpdate,
 
     -- ** MappingParameters
-    MappingParameters (MappingParameters'),
+    MappingParameters,
     newMappingParameters,
 
     -- ** Output
-    Output (Output'),
+    Output,
     newOutput,
 
     -- ** OutputDescription
-    OutputDescription (OutputDescription'),
+    OutputDescription,
     newOutputDescription,
 
     -- ** OutputUpdate
-    OutputUpdate (OutputUpdate'),
+    OutputUpdate,
     newOutputUpdate,
 
     -- ** RecordColumn
-    RecordColumn (RecordColumn'),
+    RecordColumn,
     newRecordColumn,
 
     -- ** RecordFormat
-    RecordFormat (RecordFormat'),
+    RecordFormat,
     newRecordFormat,
 
     -- ** ReferenceDataSource
-    ReferenceDataSource (ReferenceDataSource'),
+    ReferenceDataSource,
     newReferenceDataSource,
 
     -- ** ReferenceDataSourceDescription
-    ReferenceDataSourceDescription (ReferenceDataSourceDescription'),
+    ReferenceDataSourceDescription,
     newReferenceDataSourceDescription,
 
     -- ** ReferenceDataSourceUpdate
-    ReferenceDataSourceUpdate (ReferenceDataSourceUpdate'),
+    ReferenceDataSourceUpdate,
     newReferenceDataSourceUpdate,
 
     -- ** S3Configuration
-    S3Configuration (S3Configuration'),
+    S3Configuration,
     newS3Configuration,
 
     -- ** S3ReferenceDataSource
-    S3ReferenceDataSource (S3ReferenceDataSource'),
+    S3ReferenceDataSource,
     newS3ReferenceDataSource,
 
     -- ** S3ReferenceDataSourceDescription
-    S3ReferenceDataSourceDescription (S3ReferenceDataSourceDescription'),
+    S3ReferenceDataSourceDescription,
     newS3ReferenceDataSourceDescription,
 
     -- ** S3ReferenceDataSourceUpdate
-    S3ReferenceDataSourceUpdate (S3ReferenceDataSourceUpdate'),
+    S3ReferenceDataSourceUpdate,
     newS3ReferenceDataSourceUpdate,
 
     -- ** SourceSchema
-    SourceSchema (SourceSchema'),
+    SourceSchema,
     newSourceSchema,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
   )
 where

@@ -83,1803 +83,1803 @@ module Amazonka.SageMaker
     -- $operations
 
     -- ** AddAssociation
-    AddAssociation (AddAssociation'),
+    AddAssociation,
     newAddAssociation,
-    AddAssociationResponse (AddAssociationResponse'),
+    AddAssociationResponse,
     newAddAssociationResponse,
 
     -- ** AddTags
-    AddTags (AddTags'),
+    AddTags,
     newAddTags,
-    AddTagsResponse (AddTagsResponse'),
+    AddTagsResponse,
     newAddTagsResponse,
 
     -- ** AssociateTrialComponent
-    AssociateTrialComponent (AssociateTrialComponent'),
+    AssociateTrialComponent,
     newAssociateTrialComponent,
-    AssociateTrialComponentResponse (AssociateTrialComponentResponse'),
+    AssociateTrialComponentResponse,
     newAssociateTrialComponentResponse,
 
     -- ** BatchDescribeModelPackage
-    BatchDescribeModelPackage (BatchDescribeModelPackage'),
+    BatchDescribeModelPackage,
     newBatchDescribeModelPackage,
-    BatchDescribeModelPackageResponse (BatchDescribeModelPackageResponse'),
+    BatchDescribeModelPackageResponse,
     newBatchDescribeModelPackageResponse,
 
     -- ** CreateAction
-    CreateAction (CreateAction'),
+    CreateAction,
     newCreateAction,
-    CreateActionResponse (CreateActionResponse'),
+    CreateActionResponse,
     newCreateActionResponse,
 
     -- ** CreateAlgorithm
-    CreateAlgorithm (CreateAlgorithm'),
+    CreateAlgorithm,
     newCreateAlgorithm,
-    CreateAlgorithmResponse (CreateAlgorithmResponse'),
+    CreateAlgorithmResponse,
     newCreateAlgorithmResponse,
 
     -- ** CreateApp
-    CreateApp (CreateApp'),
+    CreateApp,
     newCreateApp,
-    CreateAppResponse (CreateAppResponse'),
+    CreateAppResponse,
     newCreateAppResponse,
 
     -- ** CreateAppImageConfig
-    CreateAppImageConfig (CreateAppImageConfig'),
+    CreateAppImageConfig,
     newCreateAppImageConfig,
-    CreateAppImageConfigResponse (CreateAppImageConfigResponse'),
+    CreateAppImageConfigResponse,
     newCreateAppImageConfigResponse,
 
     -- ** CreateArtifact
-    CreateArtifact (CreateArtifact'),
+    CreateArtifact,
     newCreateArtifact,
-    CreateArtifactResponse (CreateArtifactResponse'),
+    CreateArtifactResponse,
     newCreateArtifactResponse,
 
     -- ** CreateAutoMLJob
-    CreateAutoMLJob (CreateAutoMLJob'),
+    CreateAutoMLJob,
     newCreateAutoMLJob,
-    CreateAutoMLJobResponse (CreateAutoMLJobResponse'),
+    CreateAutoMLJobResponse,
     newCreateAutoMLJobResponse,
 
     -- ** CreateCodeRepository
-    CreateCodeRepository (CreateCodeRepository'),
+    CreateCodeRepository,
     newCreateCodeRepository,
-    CreateCodeRepositoryResponse (CreateCodeRepositoryResponse'),
+    CreateCodeRepositoryResponse,
     newCreateCodeRepositoryResponse,
 
     -- ** CreateCompilationJob
-    CreateCompilationJob (CreateCompilationJob'),
+    CreateCompilationJob,
     newCreateCompilationJob,
-    CreateCompilationJobResponse (CreateCompilationJobResponse'),
+    CreateCompilationJobResponse,
     newCreateCompilationJobResponse,
 
     -- ** CreateContext
-    CreateContext (CreateContext'),
+    CreateContext,
     newCreateContext,
-    CreateContextResponse (CreateContextResponse'),
+    CreateContextResponse,
     newCreateContextResponse,
 
     -- ** CreateDataQualityJobDefinition
-    CreateDataQualityJobDefinition (CreateDataQualityJobDefinition'),
+    CreateDataQualityJobDefinition,
     newCreateDataQualityJobDefinition,
-    CreateDataQualityJobDefinitionResponse (CreateDataQualityJobDefinitionResponse'),
+    CreateDataQualityJobDefinitionResponse,
     newCreateDataQualityJobDefinitionResponse,
 
     -- ** CreateDeviceFleet
-    CreateDeviceFleet (CreateDeviceFleet'),
+    CreateDeviceFleet,
     newCreateDeviceFleet,
-    CreateDeviceFleetResponse (CreateDeviceFleetResponse'),
+    CreateDeviceFleetResponse,
     newCreateDeviceFleetResponse,
 
     -- ** CreateDomain
-    CreateDomain (CreateDomain'),
+    CreateDomain,
     newCreateDomain,
-    CreateDomainResponse (CreateDomainResponse'),
+    CreateDomainResponse,
     newCreateDomainResponse,
 
     -- ** CreateEdgeDeploymentPlan
-    CreateEdgeDeploymentPlan (CreateEdgeDeploymentPlan'),
+    CreateEdgeDeploymentPlan,
     newCreateEdgeDeploymentPlan,
-    CreateEdgeDeploymentPlanResponse (CreateEdgeDeploymentPlanResponse'),
+    CreateEdgeDeploymentPlanResponse,
     newCreateEdgeDeploymentPlanResponse,
 
     -- ** CreateEdgeDeploymentStage
-    CreateEdgeDeploymentStage (CreateEdgeDeploymentStage'),
+    CreateEdgeDeploymentStage,
     newCreateEdgeDeploymentStage,
-    CreateEdgeDeploymentStageResponse (CreateEdgeDeploymentStageResponse'),
+    CreateEdgeDeploymentStageResponse,
     newCreateEdgeDeploymentStageResponse,
 
     -- ** CreateEdgePackagingJob
-    CreateEdgePackagingJob (CreateEdgePackagingJob'),
+    CreateEdgePackagingJob,
     newCreateEdgePackagingJob,
-    CreateEdgePackagingJobResponse (CreateEdgePackagingJobResponse'),
+    CreateEdgePackagingJobResponse,
     newCreateEdgePackagingJobResponse,
 
     -- ** CreateEndpoint
-    CreateEndpoint (CreateEndpoint'),
+    CreateEndpoint,
     newCreateEndpoint,
-    CreateEndpointResponse (CreateEndpointResponse'),
+    CreateEndpointResponse,
     newCreateEndpointResponse,
 
     -- ** CreateEndpointConfig
-    CreateEndpointConfig (CreateEndpointConfig'),
+    CreateEndpointConfig,
     newCreateEndpointConfig,
-    CreateEndpointConfigResponse (CreateEndpointConfigResponse'),
+    CreateEndpointConfigResponse,
     newCreateEndpointConfigResponse,
 
     -- ** CreateExperiment
-    CreateExperiment (CreateExperiment'),
+    CreateExperiment,
     newCreateExperiment,
-    CreateExperimentResponse (CreateExperimentResponse'),
+    CreateExperimentResponse,
     newCreateExperimentResponse,
 
     -- ** CreateFeatureGroup
-    CreateFeatureGroup (CreateFeatureGroup'),
+    CreateFeatureGroup,
     newCreateFeatureGroup,
-    CreateFeatureGroupResponse (CreateFeatureGroupResponse'),
+    CreateFeatureGroupResponse,
     newCreateFeatureGroupResponse,
 
     -- ** CreateFlowDefinition
-    CreateFlowDefinition (CreateFlowDefinition'),
+    CreateFlowDefinition,
     newCreateFlowDefinition,
-    CreateFlowDefinitionResponse (CreateFlowDefinitionResponse'),
+    CreateFlowDefinitionResponse,
     newCreateFlowDefinitionResponse,
 
     -- ** CreateHub
-    CreateHub (CreateHub'),
+    CreateHub,
     newCreateHub,
-    CreateHubResponse (CreateHubResponse'),
+    CreateHubResponse,
     newCreateHubResponse,
 
     -- ** CreateHumanTaskUi
-    CreateHumanTaskUi (CreateHumanTaskUi'),
+    CreateHumanTaskUi,
     newCreateHumanTaskUi,
-    CreateHumanTaskUiResponse (CreateHumanTaskUiResponse'),
+    CreateHumanTaskUiResponse,
     newCreateHumanTaskUiResponse,
 
     -- ** CreateHyperParameterTuningJob
-    CreateHyperParameterTuningJob (CreateHyperParameterTuningJob'),
+    CreateHyperParameterTuningJob,
     newCreateHyperParameterTuningJob,
-    CreateHyperParameterTuningJobResponse (CreateHyperParameterTuningJobResponse'),
+    CreateHyperParameterTuningJobResponse,
     newCreateHyperParameterTuningJobResponse,
 
     -- ** CreateImage
-    CreateImage (CreateImage'),
+    CreateImage,
     newCreateImage,
-    CreateImageResponse (CreateImageResponse'),
+    CreateImageResponse,
     newCreateImageResponse,
 
     -- ** CreateImageVersion
-    CreateImageVersion (CreateImageVersion'),
+    CreateImageVersion,
     newCreateImageVersion,
-    CreateImageVersionResponse (CreateImageVersionResponse'),
+    CreateImageVersionResponse,
     newCreateImageVersionResponse,
 
     -- ** CreateInferenceExperiment
-    CreateInferenceExperiment (CreateInferenceExperiment'),
+    CreateInferenceExperiment,
     newCreateInferenceExperiment,
-    CreateInferenceExperimentResponse (CreateInferenceExperimentResponse'),
+    CreateInferenceExperimentResponse,
     newCreateInferenceExperimentResponse,
 
     -- ** CreateInferenceRecommendationsJob
-    CreateInferenceRecommendationsJob (CreateInferenceRecommendationsJob'),
+    CreateInferenceRecommendationsJob,
     newCreateInferenceRecommendationsJob,
-    CreateInferenceRecommendationsJobResponse (CreateInferenceRecommendationsJobResponse'),
+    CreateInferenceRecommendationsJobResponse,
     newCreateInferenceRecommendationsJobResponse,
 
     -- ** CreateLabelingJob
-    CreateLabelingJob (CreateLabelingJob'),
+    CreateLabelingJob,
     newCreateLabelingJob,
-    CreateLabelingJobResponse (CreateLabelingJobResponse'),
+    CreateLabelingJobResponse,
     newCreateLabelingJobResponse,
 
     -- ** CreateModel
-    CreateModel (CreateModel'),
+    CreateModel,
     newCreateModel,
-    CreateModelResponse (CreateModelResponse'),
+    CreateModelResponse,
     newCreateModelResponse,
 
     -- ** CreateModelBiasJobDefinition
-    CreateModelBiasJobDefinition (CreateModelBiasJobDefinition'),
+    CreateModelBiasJobDefinition,
     newCreateModelBiasJobDefinition,
-    CreateModelBiasJobDefinitionResponse (CreateModelBiasJobDefinitionResponse'),
+    CreateModelBiasJobDefinitionResponse,
     newCreateModelBiasJobDefinitionResponse,
 
     -- ** CreateModelCard
-    CreateModelCard (CreateModelCard'),
+    CreateModelCard,
     newCreateModelCard,
-    CreateModelCardResponse (CreateModelCardResponse'),
+    CreateModelCardResponse,
     newCreateModelCardResponse,
 
     -- ** CreateModelCardExportJob
-    CreateModelCardExportJob (CreateModelCardExportJob'),
+    CreateModelCardExportJob,
     newCreateModelCardExportJob,
-    CreateModelCardExportJobResponse (CreateModelCardExportJobResponse'),
+    CreateModelCardExportJobResponse,
     newCreateModelCardExportJobResponse,
 
     -- ** CreateModelExplainabilityJobDefinition
-    CreateModelExplainabilityJobDefinition (CreateModelExplainabilityJobDefinition'),
+    CreateModelExplainabilityJobDefinition,
     newCreateModelExplainabilityJobDefinition,
-    CreateModelExplainabilityJobDefinitionResponse (CreateModelExplainabilityJobDefinitionResponse'),
+    CreateModelExplainabilityJobDefinitionResponse,
     newCreateModelExplainabilityJobDefinitionResponse,
 
     -- ** CreateModelPackage
-    CreateModelPackage (CreateModelPackage'),
+    CreateModelPackage,
     newCreateModelPackage,
-    CreateModelPackageResponse (CreateModelPackageResponse'),
+    CreateModelPackageResponse,
     newCreateModelPackageResponse,
 
     -- ** CreateModelPackageGroup
-    CreateModelPackageGroup (CreateModelPackageGroup'),
+    CreateModelPackageGroup,
     newCreateModelPackageGroup,
-    CreateModelPackageGroupResponse (CreateModelPackageGroupResponse'),
+    CreateModelPackageGroupResponse,
     newCreateModelPackageGroupResponse,
 
     -- ** CreateModelQualityJobDefinition
-    CreateModelQualityJobDefinition (CreateModelQualityJobDefinition'),
+    CreateModelQualityJobDefinition,
     newCreateModelQualityJobDefinition,
-    CreateModelQualityJobDefinitionResponse (CreateModelQualityJobDefinitionResponse'),
+    CreateModelQualityJobDefinitionResponse,
     newCreateModelQualityJobDefinitionResponse,
 
     -- ** CreateMonitoringSchedule
-    CreateMonitoringSchedule (CreateMonitoringSchedule'),
+    CreateMonitoringSchedule,
     newCreateMonitoringSchedule,
-    CreateMonitoringScheduleResponse (CreateMonitoringScheduleResponse'),
+    CreateMonitoringScheduleResponse,
     newCreateMonitoringScheduleResponse,
 
     -- ** CreateNotebookInstance
-    CreateNotebookInstance (CreateNotebookInstance'),
+    CreateNotebookInstance,
     newCreateNotebookInstance,
-    CreateNotebookInstanceResponse (CreateNotebookInstanceResponse'),
+    CreateNotebookInstanceResponse,
     newCreateNotebookInstanceResponse,
 
     -- ** CreateNotebookInstanceLifecycleConfig
-    CreateNotebookInstanceLifecycleConfig (CreateNotebookInstanceLifecycleConfig'),
+    CreateNotebookInstanceLifecycleConfig,
     newCreateNotebookInstanceLifecycleConfig,
-    CreateNotebookInstanceLifecycleConfigResponse (CreateNotebookInstanceLifecycleConfigResponse'),
+    CreateNotebookInstanceLifecycleConfigResponse,
     newCreateNotebookInstanceLifecycleConfigResponse,
 
     -- ** CreatePipeline
-    CreatePipeline (CreatePipeline'),
+    CreatePipeline,
     newCreatePipeline,
-    CreatePipelineResponse (CreatePipelineResponse'),
+    CreatePipelineResponse,
     newCreatePipelineResponse,
 
     -- ** CreatePresignedDomainUrl
-    CreatePresignedDomainUrl (CreatePresignedDomainUrl'),
+    CreatePresignedDomainUrl,
     newCreatePresignedDomainUrl,
-    CreatePresignedDomainUrlResponse (CreatePresignedDomainUrlResponse'),
+    CreatePresignedDomainUrlResponse,
     newCreatePresignedDomainUrlResponse,
 
     -- ** CreatePresignedNotebookInstanceUrl
-    CreatePresignedNotebookInstanceUrl (CreatePresignedNotebookInstanceUrl'),
+    CreatePresignedNotebookInstanceUrl,
     newCreatePresignedNotebookInstanceUrl,
-    CreatePresignedNotebookInstanceUrlResponse (CreatePresignedNotebookInstanceUrlResponse'),
+    CreatePresignedNotebookInstanceUrlResponse,
     newCreatePresignedNotebookInstanceUrlResponse,
 
     -- ** CreateProcessingJob
-    CreateProcessingJob (CreateProcessingJob'),
+    CreateProcessingJob,
     newCreateProcessingJob,
-    CreateProcessingJobResponse (CreateProcessingJobResponse'),
+    CreateProcessingJobResponse,
     newCreateProcessingJobResponse,
 
     -- ** CreateProject
-    CreateProject (CreateProject'),
+    CreateProject,
     newCreateProject,
-    CreateProjectResponse (CreateProjectResponse'),
+    CreateProjectResponse,
     newCreateProjectResponse,
 
     -- ** CreateSpace
-    CreateSpace (CreateSpace'),
+    CreateSpace,
     newCreateSpace,
-    CreateSpaceResponse (CreateSpaceResponse'),
+    CreateSpaceResponse,
     newCreateSpaceResponse,
 
     -- ** CreateStudioLifecycleConfig
-    CreateStudioLifecycleConfig (CreateStudioLifecycleConfig'),
+    CreateStudioLifecycleConfig,
     newCreateStudioLifecycleConfig,
-    CreateStudioLifecycleConfigResponse (CreateStudioLifecycleConfigResponse'),
+    CreateStudioLifecycleConfigResponse,
     newCreateStudioLifecycleConfigResponse,
 
     -- ** CreateTrainingJob
-    CreateTrainingJob (CreateTrainingJob'),
+    CreateTrainingJob,
     newCreateTrainingJob,
-    CreateTrainingJobResponse (CreateTrainingJobResponse'),
+    CreateTrainingJobResponse,
     newCreateTrainingJobResponse,
 
     -- ** CreateTransformJob
-    CreateTransformJob (CreateTransformJob'),
+    CreateTransformJob,
     newCreateTransformJob,
-    CreateTransformJobResponse (CreateTransformJobResponse'),
+    CreateTransformJobResponse,
     newCreateTransformJobResponse,
 
     -- ** CreateTrial
-    CreateTrial (CreateTrial'),
+    CreateTrial,
     newCreateTrial,
-    CreateTrialResponse (CreateTrialResponse'),
+    CreateTrialResponse,
     newCreateTrialResponse,
 
     -- ** CreateTrialComponent
-    CreateTrialComponent (CreateTrialComponent'),
+    CreateTrialComponent,
     newCreateTrialComponent,
-    CreateTrialComponentResponse (CreateTrialComponentResponse'),
+    CreateTrialComponentResponse,
     newCreateTrialComponentResponse,
 
     -- ** CreateUserProfile
-    CreateUserProfile (CreateUserProfile'),
+    CreateUserProfile,
     newCreateUserProfile,
-    CreateUserProfileResponse (CreateUserProfileResponse'),
+    CreateUserProfileResponse,
     newCreateUserProfileResponse,
 
     -- ** CreateWorkforce
-    CreateWorkforce (CreateWorkforce'),
+    CreateWorkforce,
     newCreateWorkforce,
-    CreateWorkforceResponse (CreateWorkforceResponse'),
+    CreateWorkforceResponse,
     newCreateWorkforceResponse,
 
     -- ** CreateWorkteam
-    CreateWorkteam (CreateWorkteam'),
+    CreateWorkteam,
     newCreateWorkteam,
-    CreateWorkteamResponse (CreateWorkteamResponse'),
+    CreateWorkteamResponse,
     newCreateWorkteamResponse,
 
     -- ** DeleteAction
-    DeleteAction (DeleteAction'),
+    DeleteAction,
     newDeleteAction,
-    DeleteActionResponse (DeleteActionResponse'),
+    DeleteActionResponse,
     newDeleteActionResponse,
 
     -- ** DeleteAlgorithm
-    DeleteAlgorithm (DeleteAlgorithm'),
+    DeleteAlgorithm,
     newDeleteAlgorithm,
-    DeleteAlgorithmResponse (DeleteAlgorithmResponse'),
+    DeleteAlgorithmResponse,
     newDeleteAlgorithmResponse,
 
     -- ** DeleteApp
-    DeleteApp (DeleteApp'),
+    DeleteApp,
     newDeleteApp,
-    DeleteAppResponse (DeleteAppResponse'),
+    DeleteAppResponse,
     newDeleteAppResponse,
 
     -- ** DeleteAppImageConfig
-    DeleteAppImageConfig (DeleteAppImageConfig'),
+    DeleteAppImageConfig,
     newDeleteAppImageConfig,
-    DeleteAppImageConfigResponse (DeleteAppImageConfigResponse'),
+    DeleteAppImageConfigResponse,
     newDeleteAppImageConfigResponse,
 
     -- ** DeleteArtifact
-    DeleteArtifact (DeleteArtifact'),
+    DeleteArtifact,
     newDeleteArtifact,
-    DeleteArtifactResponse (DeleteArtifactResponse'),
+    DeleteArtifactResponse,
     newDeleteArtifactResponse,
 
     -- ** DeleteAssociation
-    DeleteAssociation (DeleteAssociation'),
+    DeleteAssociation,
     newDeleteAssociation,
-    DeleteAssociationResponse (DeleteAssociationResponse'),
+    DeleteAssociationResponse,
     newDeleteAssociationResponse,
 
     -- ** DeleteCodeRepository
-    DeleteCodeRepository (DeleteCodeRepository'),
+    DeleteCodeRepository,
     newDeleteCodeRepository,
-    DeleteCodeRepositoryResponse (DeleteCodeRepositoryResponse'),
+    DeleteCodeRepositoryResponse,
     newDeleteCodeRepositoryResponse,
 
     -- ** DeleteContext
-    DeleteContext (DeleteContext'),
+    DeleteContext,
     newDeleteContext,
-    DeleteContextResponse (DeleteContextResponse'),
+    DeleteContextResponse,
     newDeleteContextResponse,
 
     -- ** DeleteDataQualityJobDefinition
-    DeleteDataQualityJobDefinition (DeleteDataQualityJobDefinition'),
+    DeleteDataQualityJobDefinition,
     newDeleteDataQualityJobDefinition,
-    DeleteDataQualityJobDefinitionResponse (DeleteDataQualityJobDefinitionResponse'),
+    DeleteDataQualityJobDefinitionResponse,
     newDeleteDataQualityJobDefinitionResponse,
 
     -- ** DeleteDeviceFleet
-    DeleteDeviceFleet (DeleteDeviceFleet'),
+    DeleteDeviceFleet,
     newDeleteDeviceFleet,
-    DeleteDeviceFleetResponse (DeleteDeviceFleetResponse'),
+    DeleteDeviceFleetResponse,
     newDeleteDeviceFleetResponse,
 
     -- ** DeleteDomain
-    DeleteDomain (DeleteDomain'),
+    DeleteDomain,
     newDeleteDomain,
-    DeleteDomainResponse (DeleteDomainResponse'),
+    DeleteDomainResponse,
     newDeleteDomainResponse,
 
     -- ** DeleteEdgeDeploymentPlan
-    DeleteEdgeDeploymentPlan (DeleteEdgeDeploymentPlan'),
+    DeleteEdgeDeploymentPlan,
     newDeleteEdgeDeploymentPlan,
-    DeleteEdgeDeploymentPlanResponse (DeleteEdgeDeploymentPlanResponse'),
+    DeleteEdgeDeploymentPlanResponse,
     newDeleteEdgeDeploymentPlanResponse,
 
     -- ** DeleteEdgeDeploymentStage
-    DeleteEdgeDeploymentStage (DeleteEdgeDeploymentStage'),
+    DeleteEdgeDeploymentStage,
     newDeleteEdgeDeploymentStage,
-    DeleteEdgeDeploymentStageResponse (DeleteEdgeDeploymentStageResponse'),
+    DeleteEdgeDeploymentStageResponse,
     newDeleteEdgeDeploymentStageResponse,
 
     -- ** DeleteEndpoint
-    DeleteEndpoint (DeleteEndpoint'),
+    DeleteEndpoint,
     newDeleteEndpoint,
-    DeleteEndpointResponse (DeleteEndpointResponse'),
+    DeleteEndpointResponse,
     newDeleteEndpointResponse,
 
     -- ** DeleteEndpointConfig
-    DeleteEndpointConfig (DeleteEndpointConfig'),
+    DeleteEndpointConfig,
     newDeleteEndpointConfig,
-    DeleteEndpointConfigResponse (DeleteEndpointConfigResponse'),
+    DeleteEndpointConfigResponse,
     newDeleteEndpointConfigResponse,
 
     -- ** DeleteExperiment
-    DeleteExperiment (DeleteExperiment'),
+    DeleteExperiment,
     newDeleteExperiment,
-    DeleteExperimentResponse (DeleteExperimentResponse'),
+    DeleteExperimentResponse,
     newDeleteExperimentResponse,
 
     -- ** DeleteFeatureGroup
-    DeleteFeatureGroup (DeleteFeatureGroup'),
+    DeleteFeatureGroup,
     newDeleteFeatureGroup,
-    DeleteFeatureGroupResponse (DeleteFeatureGroupResponse'),
+    DeleteFeatureGroupResponse,
     newDeleteFeatureGroupResponse,
 
     -- ** DeleteFlowDefinition
-    DeleteFlowDefinition (DeleteFlowDefinition'),
+    DeleteFlowDefinition,
     newDeleteFlowDefinition,
-    DeleteFlowDefinitionResponse (DeleteFlowDefinitionResponse'),
+    DeleteFlowDefinitionResponse,
     newDeleteFlowDefinitionResponse,
 
     -- ** DeleteHub
-    DeleteHub (DeleteHub'),
+    DeleteHub,
     newDeleteHub,
-    DeleteHubResponse (DeleteHubResponse'),
+    DeleteHubResponse,
     newDeleteHubResponse,
 
     -- ** DeleteHubContent
-    DeleteHubContent (DeleteHubContent'),
+    DeleteHubContent,
     newDeleteHubContent,
-    DeleteHubContentResponse (DeleteHubContentResponse'),
+    DeleteHubContentResponse,
     newDeleteHubContentResponse,
 
     -- ** DeleteHumanTaskUi
-    DeleteHumanTaskUi (DeleteHumanTaskUi'),
+    DeleteHumanTaskUi,
     newDeleteHumanTaskUi,
-    DeleteHumanTaskUiResponse (DeleteHumanTaskUiResponse'),
+    DeleteHumanTaskUiResponse,
     newDeleteHumanTaskUiResponse,
 
     -- ** DeleteImage
-    DeleteImage (DeleteImage'),
+    DeleteImage,
     newDeleteImage,
-    DeleteImageResponse (DeleteImageResponse'),
+    DeleteImageResponse,
     newDeleteImageResponse,
 
     -- ** DeleteImageVersion
-    DeleteImageVersion (DeleteImageVersion'),
+    DeleteImageVersion,
     newDeleteImageVersion,
-    DeleteImageVersionResponse (DeleteImageVersionResponse'),
+    DeleteImageVersionResponse,
     newDeleteImageVersionResponse,
 
     -- ** DeleteInferenceExperiment
-    DeleteInferenceExperiment (DeleteInferenceExperiment'),
+    DeleteInferenceExperiment,
     newDeleteInferenceExperiment,
-    DeleteInferenceExperimentResponse (DeleteInferenceExperimentResponse'),
+    DeleteInferenceExperimentResponse,
     newDeleteInferenceExperimentResponse,
 
     -- ** DeleteModel
-    DeleteModel (DeleteModel'),
+    DeleteModel,
     newDeleteModel,
-    DeleteModelResponse (DeleteModelResponse'),
+    DeleteModelResponse,
     newDeleteModelResponse,
 
     -- ** DeleteModelBiasJobDefinition
-    DeleteModelBiasJobDefinition (DeleteModelBiasJobDefinition'),
+    DeleteModelBiasJobDefinition,
     newDeleteModelBiasJobDefinition,
-    DeleteModelBiasJobDefinitionResponse (DeleteModelBiasJobDefinitionResponse'),
+    DeleteModelBiasJobDefinitionResponse,
     newDeleteModelBiasJobDefinitionResponse,
 
     -- ** DeleteModelCard
-    DeleteModelCard (DeleteModelCard'),
+    DeleteModelCard,
     newDeleteModelCard,
-    DeleteModelCardResponse (DeleteModelCardResponse'),
+    DeleteModelCardResponse,
     newDeleteModelCardResponse,
 
     -- ** DeleteModelExplainabilityJobDefinition
-    DeleteModelExplainabilityJobDefinition (DeleteModelExplainabilityJobDefinition'),
+    DeleteModelExplainabilityJobDefinition,
     newDeleteModelExplainabilityJobDefinition,
-    DeleteModelExplainabilityJobDefinitionResponse (DeleteModelExplainabilityJobDefinitionResponse'),
+    DeleteModelExplainabilityJobDefinitionResponse,
     newDeleteModelExplainabilityJobDefinitionResponse,
 
     -- ** DeleteModelPackage
-    DeleteModelPackage (DeleteModelPackage'),
+    DeleteModelPackage,
     newDeleteModelPackage,
-    DeleteModelPackageResponse (DeleteModelPackageResponse'),
+    DeleteModelPackageResponse,
     newDeleteModelPackageResponse,
 
     -- ** DeleteModelPackageGroup
-    DeleteModelPackageGroup (DeleteModelPackageGroup'),
+    DeleteModelPackageGroup,
     newDeleteModelPackageGroup,
-    DeleteModelPackageGroupResponse (DeleteModelPackageGroupResponse'),
+    DeleteModelPackageGroupResponse,
     newDeleteModelPackageGroupResponse,
 
     -- ** DeleteModelPackageGroupPolicy
-    DeleteModelPackageGroupPolicy (DeleteModelPackageGroupPolicy'),
+    DeleteModelPackageGroupPolicy,
     newDeleteModelPackageGroupPolicy,
-    DeleteModelPackageGroupPolicyResponse (DeleteModelPackageGroupPolicyResponse'),
+    DeleteModelPackageGroupPolicyResponse,
     newDeleteModelPackageGroupPolicyResponse,
 
     -- ** DeleteModelQualityJobDefinition
-    DeleteModelQualityJobDefinition (DeleteModelQualityJobDefinition'),
+    DeleteModelQualityJobDefinition,
     newDeleteModelQualityJobDefinition,
-    DeleteModelQualityJobDefinitionResponse (DeleteModelQualityJobDefinitionResponse'),
+    DeleteModelQualityJobDefinitionResponse,
     newDeleteModelQualityJobDefinitionResponse,
 
     -- ** DeleteMonitoringSchedule
-    DeleteMonitoringSchedule (DeleteMonitoringSchedule'),
+    DeleteMonitoringSchedule,
     newDeleteMonitoringSchedule,
-    DeleteMonitoringScheduleResponse (DeleteMonitoringScheduleResponse'),
+    DeleteMonitoringScheduleResponse,
     newDeleteMonitoringScheduleResponse,
 
     -- ** DeleteNotebookInstance
-    DeleteNotebookInstance (DeleteNotebookInstance'),
+    DeleteNotebookInstance,
     newDeleteNotebookInstance,
-    DeleteNotebookInstanceResponse (DeleteNotebookInstanceResponse'),
+    DeleteNotebookInstanceResponse,
     newDeleteNotebookInstanceResponse,
 
     -- ** DeleteNotebookInstanceLifecycleConfig
-    DeleteNotebookInstanceLifecycleConfig (DeleteNotebookInstanceLifecycleConfig'),
+    DeleteNotebookInstanceLifecycleConfig,
     newDeleteNotebookInstanceLifecycleConfig,
-    DeleteNotebookInstanceLifecycleConfigResponse (DeleteNotebookInstanceLifecycleConfigResponse'),
+    DeleteNotebookInstanceLifecycleConfigResponse,
     newDeleteNotebookInstanceLifecycleConfigResponse,
 
     -- ** DeletePipeline
-    DeletePipeline (DeletePipeline'),
+    DeletePipeline,
     newDeletePipeline,
-    DeletePipelineResponse (DeletePipelineResponse'),
+    DeletePipelineResponse,
     newDeletePipelineResponse,
 
     -- ** DeleteProject
-    DeleteProject (DeleteProject'),
+    DeleteProject,
     newDeleteProject,
-    DeleteProjectResponse (DeleteProjectResponse'),
+    DeleteProjectResponse,
     newDeleteProjectResponse,
 
     -- ** DeleteSpace
-    DeleteSpace (DeleteSpace'),
+    DeleteSpace,
     newDeleteSpace,
-    DeleteSpaceResponse (DeleteSpaceResponse'),
+    DeleteSpaceResponse,
     newDeleteSpaceResponse,
 
     -- ** DeleteStudioLifecycleConfig
-    DeleteStudioLifecycleConfig (DeleteStudioLifecycleConfig'),
+    DeleteStudioLifecycleConfig,
     newDeleteStudioLifecycleConfig,
-    DeleteStudioLifecycleConfigResponse (DeleteStudioLifecycleConfigResponse'),
+    DeleteStudioLifecycleConfigResponse,
     newDeleteStudioLifecycleConfigResponse,
 
     -- ** DeleteTags
-    DeleteTags (DeleteTags'),
+    DeleteTags,
     newDeleteTags,
-    DeleteTagsResponse (DeleteTagsResponse'),
+    DeleteTagsResponse,
     newDeleteTagsResponse,
 
     -- ** DeleteTrial
-    DeleteTrial (DeleteTrial'),
+    DeleteTrial,
     newDeleteTrial,
-    DeleteTrialResponse (DeleteTrialResponse'),
+    DeleteTrialResponse,
     newDeleteTrialResponse,
 
     -- ** DeleteTrialComponent
-    DeleteTrialComponent (DeleteTrialComponent'),
+    DeleteTrialComponent,
     newDeleteTrialComponent,
-    DeleteTrialComponentResponse (DeleteTrialComponentResponse'),
+    DeleteTrialComponentResponse,
     newDeleteTrialComponentResponse,
 
     -- ** DeleteUserProfile
-    DeleteUserProfile (DeleteUserProfile'),
+    DeleteUserProfile,
     newDeleteUserProfile,
-    DeleteUserProfileResponse (DeleteUserProfileResponse'),
+    DeleteUserProfileResponse,
     newDeleteUserProfileResponse,
 
     -- ** DeleteWorkforce
-    DeleteWorkforce (DeleteWorkforce'),
+    DeleteWorkforce,
     newDeleteWorkforce,
-    DeleteWorkforceResponse (DeleteWorkforceResponse'),
+    DeleteWorkforceResponse,
     newDeleteWorkforceResponse,
 
     -- ** DeleteWorkteam
-    DeleteWorkteam (DeleteWorkteam'),
+    DeleteWorkteam,
     newDeleteWorkteam,
-    DeleteWorkteamResponse (DeleteWorkteamResponse'),
+    DeleteWorkteamResponse,
     newDeleteWorkteamResponse,
 
     -- ** DeregisterDevices
-    DeregisterDevices (DeregisterDevices'),
+    DeregisterDevices,
     newDeregisterDevices,
-    DeregisterDevicesResponse (DeregisterDevicesResponse'),
+    DeregisterDevicesResponse,
     newDeregisterDevicesResponse,
 
     -- ** DescribeAction
-    DescribeAction (DescribeAction'),
+    DescribeAction,
     newDescribeAction,
-    DescribeActionResponse (DescribeActionResponse'),
+    DescribeActionResponse,
     newDescribeActionResponse,
 
     -- ** DescribeAlgorithm
-    DescribeAlgorithm (DescribeAlgorithm'),
+    DescribeAlgorithm,
     newDescribeAlgorithm,
-    DescribeAlgorithmResponse (DescribeAlgorithmResponse'),
+    DescribeAlgorithmResponse,
     newDescribeAlgorithmResponse,
 
     -- ** DescribeApp
-    DescribeApp (DescribeApp'),
+    DescribeApp,
     newDescribeApp,
-    DescribeAppResponse (DescribeAppResponse'),
+    DescribeAppResponse,
     newDescribeAppResponse,
 
     -- ** DescribeAppImageConfig
-    DescribeAppImageConfig (DescribeAppImageConfig'),
+    DescribeAppImageConfig,
     newDescribeAppImageConfig,
-    DescribeAppImageConfigResponse (DescribeAppImageConfigResponse'),
+    DescribeAppImageConfigResponse,
     newDescribeAppImageConfigResponse,
 
     -- ** DescribeArtifact
-    DescribeArtifact (DescribeArtifact'),
+    DescribeArtifact,
     newDescribeArtifact,
-    DescribeArtifactResponse (DescribeArtifactResponse'),
+    DescribeArtifactResponse,
     newDescribeArtifactResponse,
 
     -- ** DescribeAutoMLJob
-    DescribeAutoMLJob (DescribeAutoMLJob'),
+    DescribeAutoMLJob,
     newDescribeAutoMLJob,
-    DescribeAutoMLJobResponse (DescribeAutoMLJobResponse'),
+    DescribeAutoMLJobResponse,
     newDescribeAutoMLJobResponse,
 
     -- ** DescribeCodeRepository
-    DescribeCodeRepository (DescribeCodeRepository'),
+    DescribeCodeRepository,
     newDescribeCodeRepository,
-    DescribeCodeRepositoryResponse (DescribeCodeRepositoryResponse'),
+    DescribeCodeRepositoryResponse,
     newDescribeCodeRepositoryResponse,
 
     -- ** DescribeCompilationJob
-    DescribeCompilationJob (DescribeCompilationJob'),
+    DescribeCompilationJob,
     newDescribeCompilationJob,
-    DescribeCompilationJobResponse (DescribeCompilationJobResponse'),
+    DescribeCompilationJobResponse,
     newDescribeCompilationJobResponse,
 
     -- ** DescribeContext
-    DescribeContext (DescribeContext'),
+    DescribeContext,
     newDescribeContext,
-    DescribeContextResponse (DescribeContextResponse'),
+    DescribeContextResponse,
     newDescribeContextResponse,
 
     -- ** DescribeDataQualityJobDefinition
-    DescribeDataQualityJobDefinition (DescribeDataQualityJobDefinition'),
+    DescribeDataQualityJobDefinition,
     newDescribeDataQualityJobDefinition,
-    DescribeDataQualityJobDefinitionResponse (DescribeDataQualityJobDefinitionResponse'),
+    DescribeDataQualityJobDefinitionResponse,
     newDescribeDataQualityJobDefinitionResponse,
 
     -- ** DescribeDevice
-    DescribeDevice (DescribeDevice'),
+    DescribeDevice,
     newDescribeDevice,
-    DescribeDeviceResponse (DescribeDeviceResponse'),
+    DescribeDeviceResponse,
     newDescribeDeviceResponse,
 
     -- ** DescribeDeviceFleet
-    DescribeDeviceFleet (DescribeDeviceFleet'),
+    DescribeDeviceFleet,
     newDescribeDeviceFleet,
-    DescribeDeviceFleetResponse (DescribeDeviceFleetResponse'),
+    DescribeDeviceFleetResponse,
     newDescribeDeviceFleetResponse,
 
     -- ** DescribeDomain
-    DescribeDomain (DescribeDomain'),
+    DescribeDomain,
     newDescribeDomain,
-    DescribeDomainResponse (DescribeDomainResponse'),
+    DescribeDomainResponse,
     newDescribeDomainResponse,
 
     -- ** DescribeEdgeDeploymentPlan
-    DescribeEdgeDeploymentPlan (DescribeEdgeDeploymentPlan'),
+    DescribeEdgeDeploymentPlan,
     newDescribeEdgeDeploymentPlan,
-    DescribeEdgeDeploymentPlanResponse (DescribeEdgeDeploymentPlanResponse'),
+    DescribeEdgeDeploymentPlanResponse,
     newDescribeEdgeDeploymentPlanResponse,
 
     -- ** DescribeEdgePackagingJob
-    DescribeEdgePackagingJob (DescribeEdgePackagingJob'),
+    DescribeEdgePackagingJob,
     newDescribeEdgePackagingJob,
-    DescribeEdgePackagingJobResponse (DescribeEdgePackagingJobResponse'),
+    DescribeEdgePackagingJobResponse,
     newDescribeEdgePackagingJobResponse,
 
     -- ** DescribeEndpoint
-    DescribeEndpoint (DescribeEndpoint'),
+    DescribeEndpoint,
     newDescribeEndpoint,
-    DescribeEndpointResponse (DescribeEndpointResponse'),
+    DescribeEndpointResponse,
     newDescribeEndpointResponse,
 
     -- ** DescribeEndpointConfig
-    DescribeEndpointConfig (DescribeEndpointConfig'),
+    DescribeEndpointConfig,
     newDescribeEndpointConfig,
-    DescribeEndpointConfigResponse (DescribeEndpointConfigResponse'),
+    DescribeEndpointConfigResponse,
     newDescribeEndpointConfigResponse,
 
     -- ** DescribeExperiment
-    DescribeExperiment (DescribeExperiment'),
+    DescribeExperiment,
     newDescribeExperiment,
-    DescribeExperimentResponse (DescribeExperimentResponse'),
+    DescribeExperimentResponse,
     newDescribeExperimentResponse,
 
     -- ** DescribeFeatureGroup
-    DescribeFeatureGroup (DescribeFeatureGroup'),
+    DescribeFeatureGroup,
     newDescribeFeatureGroup,
-    DescribeFeatureGroupResponse (DescribeFeatureGroupResponse'),
+    DescribeFeatureGroupResponse,
     newDescribeFeatureGroupResponse,
 
     -- ** DescribeFeatureMetadata
-    DescribeFeatureMetadata (DescribeFeatureMetadata'),
+    DescribeFeatureMetadata,
     newDescribeFeatureMetadata,
-    DescribeFeatureMetadataResponse (DescribeFeatureMetadataResponse'),
+    DescribeFeatureMetadataResponse,
     newDescribeFeatureMetadataResponse,
 
     -- ** DescribeFlowDefinition
-    DescribeFlowDefinition (DescribeFlowDefinition'),
+    DescribeFlowDefinition,
     newDescribeFlowDefinition,
-    DescribeFlowDefinitionResponse (DescribeFlowDefinitionResponse'),
+    DescribeFlowDefinitionResponse,
     newDescribeFlowDefinitionResponse,
 
     -- ** DescribeHub
-    DescribeHub (DescribeHub'),
+    DescribeHub,
     newDescribeHub,
-    DescribeHubResponse (DescribeHubResponse'),
+    DescribeHubResponse,
     newDescribeHubResponse,
 
     -- ** DescribeHubContent
-    DescribeHubContent (DescribeHubContent'),
+    DescribeHubContent,
     newDescribeHubContent,
-    DescribeHubContentResponse (DescribeHubContentResponse'),
+    DescribeHubContentResponse,
     newDescribeHubContentResponse,
 
     -- ** DescribeHumanTaskUi
-    DescribeHumanTaskUi (DescribeHumanTaskUi'),
+    DescribeHumanTaskUi,
     newDescribeHumanTaskUi,
-    DescribeHumanTaskUiResponse (DescribeHumanTaskUiResponse'),
+    DescribeHumanTaskUiResponse,
     newDescribeHumanTaskUiResponse,
 
     -- ** DescribeHyperParameterTuningJob
-    DescribeHyperParameterTuningJob (DescribeHyperParameterTuningJob'),
+    DescribeHyperParameterTuningJob,
     newDescribeHyperParameterTuningJob,
-    DescribeHyperParameterTuningJobResponse (DescribeHyperParameterTuningJobResponse'),
+    DescribeHyperParameterTuningJobResponse,
     newDescribeHyperParameterTuningJobResponse,
 
     -- ** DescribeImage
-    DescribeImage (DescribeImage'),
+    DescribeImage,
     newDescribeImage,
-    DescribeImageResponse (DescribeImageResponse'),
+    DescribeImageResponse,
     newDescribeImageResponse,
 
     -- ** DescribeImageVersion
-    DescribeImageVersion (DescribeImageVersion'),
+    DescribeImageVersion,
     newDescribeImageVersion,
-    DescribeImageVersionResponse (DescribeImageVersionResponse'),
+    DescribeImageVersionResponse,
     newDescribeImageVersionResponse,
 
     -- ** DescribeInferenceExperiment
-    DescribeInferenceExperiment (DescribeInferenceExperiment'),
+    DescribeInferenceExperiment,
     newDescribeInferenceExperiment,
-    DescribeInferenceExperimentResponse (DescribeInferenceExperimentResponse'),
+    DescribeInferenceExperimentResponse,
     newDescribeInferenceExperimentResponse,
 
     -- ** DescribeInferenceRecommendationsJob
-    DescribeInferenceRecommendationsJob (DescribeInferenceRecommendationsJob'),
+    DescribeInferenceRecommendationsJob,
     newDescribeInferenceRecommendationsJob,
-    DescribeInferenceRecommendationsJobResponse (DescribeInferenceRecommendationsJobResponse'),
+    DescribeInferenceRecommendationsJobResponse,
     newDescribeInferenceRecommendationsJobResponse,
 
     -- ** DescribeLabelingJob
-    DescribeLabelingJob (DescribeLabelingJob'),
+    DescribeLabelingJob,
     newDescribeLabelingJob,
-    DescribeLabelingJobResponse (DescribeLabelingJobResponse'),
+    DescribeLabelingJobResponse,
     newDescribeLabelingJobResponse,
 
     -- ** DescribeLineageGroup
-    DescribeLineageGroup (DescribeLineageGroup'),
+    DescribeLineageGroup,
     newDescribeLineageGroup,
-    DescribeLineageGroupResponse (DescribeLineageGroupResponse'),
+    DescribeLineageGroupResponse,
     newDescribeLineageGroupResponse,
 
     -- ** DescribeModel
-    DescribeModel (DescribeModel'),
+    DescribeModel,
     newDescribeModel,
-    DescribeModelResponse (DescribeModelResponse'),
+    DescribeModelResponse,
     newDescribeModelResponse,
 
     -- ** DescribeModelBiasJobDefinition
-    DescribeModelBiasJobDefinition (DescribeModelBiasJobDefinition'),
+    DescribeModelBiasJobDefinition,
     newDescribeModelBiasJobDefinition,
-    DescribeModelBiasJobDefinitionResponse (DescribeModelBiasJobDefinitionResponse'),
+    DescribeModelBiasJobDefinitionResponse,
     newDescribeModelBiasJobDefinitionResponse,
 
     -- ** DescribeModelCard
-    DescribeModelCard (DescribeModelCard'),
+    DescribeModelCard,
     newDescribeModelCard,
-    DescribeModelCardResponse (DescribeModelCardResponse'),
+    DescribeModelCardResponse,
     newDescribeModelCardResponse,
 
     -- ** DescribeModelCardExportJob
-    DescribeModelCardExportJob (DescribeModelCardExportJob'),
+    DescribeModelCardExportJob,
     newDescribeModelCardExportJob,
-    DescribeModelCardExportJobResponse (DescribeModelCardExportJobResponse'),
+    DescribeModelCardExportJobResponse,
     newDescribeModelCardExportJobResponse,
 
     -- ** DescribeModelExplainabilityJobDefinition
-    DescribeModelExplainabilityJobDefinition (DescribeModelExplainabilityJobDefinition'),
+    DescribeModelExplainabilityJobDefinition,
     newDescribeModelExplainabilityJobDefinition,
-    DescribeModelExplainabilityJobDefinitionResponse (DescribeModelExplainabilityJobDefinitionResponse'),
+    DescribeModelExplainabilityJobDefinitionResponse,
     newDescribeModelExplainabilityJobDefinitionResponse,
 
     -- ** DescribeModelPackage
-    DescribeModelPackage (DescribeModelPackage'),
+    DescribeModelPackage,
     newDescribeModelPackage,
-    DescribeModelPackageResponse (DescribeModelPackageResponse'),
+    DescribeModelPackageResponse,
     newDescribeModelPackageResponse,
 
     -- ** DescribeModelPackageGroup
-    DescribeModelPackageGroup (DescribeModelPackageGroup'),
+    DescribeModelPackageGroup,
     newDescribeModelPackageGroup,
-    DescribeModelPackageGroupResponse (DescribeModelPackageGroupResponse'),
+    DescribeModelPackageGroupResponse,
     newDescribeModelPackageGroupResponse,
 
     -- ** DescribeModelQualityJobDefinition
-    DescribeModelQualityJobDefinition (DescribeModelQualityJobDefinition'),
+    DescribeModelQualityJobDefinition,
     newDescribeModelQualityJobDefinition,
-    DescribeModelQualityJobDefinitionResponse (DescribeModelQualityJobDefinitionResponse'),
+    DescribeModelQualityJobDefinitionResponse,
     newDescribeModelQualityJobDefinitionResponse,
 
     -- ** DescribeMonitoringSchedule
-    DescribeMonitoringSchedule (DescribeMonitoringSchedule'),
+    DescribeMonitoringSchedule,
     newDescribeMonitoringSchedule,
-    DescribeMonitoringScheduleResponse (DescribeMonitoringScheduleResponse'),
+    DescribeMonitoringScheduleResponse,
     newDescribeMonitoringScheduleResponse,
 
     -- ** DescribeNotebookInstance
-    DescribeNotebookInstance (DescribeNotebookInstance'),
+    DescribeNotebookInstance,
     newDescribeNotebookInstance,
-    DescribeNotebookInstanceResponse (DescribeNotebookInstanceResponse'),
+    DescribeNotebookInstanceResponse,
     newDescribeNotebookInstanceResponse,
 
     -- ** DescribeNotebookInstanceLifecycleConfig
-    DescribeNotebookInstanceLifecycleConfig (DescribeNotebookInstanceLifecycleConfig'),
+    DescribeNotebookInstanceLifecycleConfig,
     newDescribeNotebookInstanceLifecycleConfig,
-    DescribeNotebookInstanceLifecycleConfigResponse (DescribeNotebookInstanceLifecycleConfigResponse'),
+    DescribeNotebookInstanceLifecycleConfigResponse,
     newDescribeNotebookInstanceLifecycleConfigResponse,
 
     -- ** DescribePipeline
-    DescribePipeline (DescribePipeline'),
+    DescribePipeline,
     newDescribePipeline,
-    DescribePipelineResponse (DescribePipelineResponse'),
+    DescribePipelineResponse,
     newDescribePipelineResponse,
 
     -- ** DescribePipelineDefinitionForExecution
-    DescribePipelineDefinitionForExecution (DescribePipelineDefinitionForExecution'),
+    DescribePipelineDefinitionForExecution,
     newDescribePipelineDefinitionForExecution,
-    DescribePipelineDefinitionForExecutionResponse (DescribePipelineDefinitionForExecutionResponse'),
+    DescribePipelineDefinitionForExecutionResponse,
     newDescribePipelineDefinitionForExecutionResponse,
 
     -- ** DescribePipelineExecution
-    DescribePipelineExecution (DescribePipelineExecution'),
+    DescribePipelineExecution,
     newDescribePipelineExecution,
-    DescribePipelineExecutionResponse (DescribePipelineExecutionResponse'),
+    DescribePipelineExecutionResponse,
     newDescribePipelineExecutionResponse,
 
     -- ** DescribeProcessingJob
-    DescribeProcessingJob (DescribeProcessingJob'),
+    DescribeProcessingJob,
     newDescribeProcessingJob,
-    DescribeProcessingJobResponse (DescribeProcessingJobResponse'),
+    DescribeProcessingJobResponse,
     newDescribeProcessingJobResponse,
 
     -- ** DescribeProject
-    DescribeProject (DescribeProject'),
+    DescribeProject,
     newDescribeProject,
-    DescribeProjectResponse (DescribeProjectResponse'),
+    DescribeProjectResponse,
     newDescribeProjectResponse,
 
     -- ** DescribeSpace
-    DescribeSpace (DescribeSpace'),
+    DescribeSpace,
     newDescribeSpace,
-    DescribeSpaceResponse (DescribeSpaceResponse'),
+    DescribeSpaceResponse,
     newDescribeSpaceResponse,
 
     -- ** DescribeStudioLifecycleConfig
-    DescribeStudioLifecycleConfig (DescribeStudioLifecycleConfig'),
+    DescribeStudioLifecycleConfig,
     newDescribeStudioLifecycleConfig,
-    DescribeStudioLifecycleConfigResponse (DescribeStudioLifecycleConfigResponse'),
+    DescribeStudioLifecycleConfigResponse,
     newDescribeStudioLifecycleConfigResponse,
 
     -- ** DescribeSubscribedWorkteam
-    DescribeSubscribedWorkteam (DescribeSubscribedWorkteam'),
+    DescribeSubscribedWorkteam,
     newDescribeSubscribedWorkteam,
-    DescribeSubscribedWorkteamResponse (DescribeSubscribedWorkteamResponse'),
+    DescribeSubscribedWorkteamResponse,
     newDescribeSubscribedWorkteamResponse,
 
     -- ** DescribeTrainingJob
-    DescribeTrainingJob (DescribeTrainingJob'),
+    DescribeTrainingJob,
     newDescribeTrainingJob,
-    DescribeTrainingJobResponse (DescribeTrainingJobResponse'),
+    DescribeTrainingJobResponse,
     newDescribeTrainingJobResponse,
 
     -- ** DescribeTransformJob
-    DescribeTransformJob (DescribeTransformJob'),
+    DescribeTransformJob,
     newDescribeTransformJob,
-    DescribeTransformJobResponse (DescribeTransformJobResponse'),
+    DescribeTransformJobResponse,
     newDescribeTransformJobResponse,
 
     -- ** DescribeTrial
-    DescribeTrial (DescribeTrial'),
+    DescribeTrial,
     newDescribeTrial,
-    DescribeTrialResponse (DescribeTrialResponse'),
+    DescribeTrialResponse,
     newDescribeTrialResponse,
 
     -- ** DescribeTrialComponent
-    DescribeTrialComponent (DescribeTrialComponent'),
+    DescribeTrialComponent,
     newDescribeTrialComponent,
-    DescribeTrialComponentResponse (DescribeTrialComponentResponse'),
+    DescribeTrialComponentResponse,
     newDescribeTrialComponentResponse,
 
     -- ** DescribeUserProfile
-    DescribeUserProfile (DescribeUserProfile'),
+    DescribeUserProfile,
     newDescribeUserProfile,
-    DescribeUserProfileResponse (DescribeUserProfileResponse'),
+    DescribeUserProfileResponse,
     newDescribeUserProfileResponse,
 
     -- ** DescribeWorkforce
-    DescribeWorkforce (DescribeWorkforce'),
+    DescribeWorkforce,
     newDescribeWorkforce,
-    DescribeWorkforceResponse (DescribeWorkforceResponse'),
+    DescribeWorkforceResponse,
     newDescribeWorkforceResponse,
 
     -- ** DescribeWorkteam
-    DescribeWorkteam (DescribeWorkteam'),
+    DescribeWorkteam,
     newDescribeWorkteam,
-    DescribeWorkteamResponse (DescribeWorkteamResponse'),
+    DescribeWorkteamResponse,
     newDescribeWorkteamResponse,
 
     -- ** DisableSagemakerServicecatalogPortfolio
-    DisableSagemakerServicecatalogPortfolio (DisableSagemakerServicecatalogPortfolio'),
+    DisableSagemakerServicecatalogPortfolio,
     newDisableSagemakerServicecatalogPortfolio,
-    DisableSagemakerServicecatalogPortfolioResponse (DisableSagemakerServicecatalogPortfolioResponse'),
+    DisableSagemakerServicecatalogPortfolioResponse,
     newDisableSagemakerServicecatalogPortfolioResponse,
 
     -- ** DisassociateTrialComponent
-    DisassociateTrialComponent (DisassociateTrialComponent'),
+    DisassociateTrialComponent,
     newDisassociateTrialComponent,
-    DisassociateTrialComponentResponse (DisassociateTrialComponentResponse'),
+    DisassociateTrialComponentResponse,
     newDisassociateTrialComponentResponse,
 
     -- ** EnableSagemakerServicecatalogPortfolio
-    EnableSagemakerServicecatalogPortfolio (EnableSagemakerServicecatalogPortfolio'),
+    EnableSagemakerServicecatalogPortfolio,
     newEnableSagemakerServicecatalogPortfolio,
-    EnableSagemakerServicecatalogPortfolioResponse (EnableSagemakerServicecatalogPortfolioResponse'),
+    EnableSagemakerServicecatalogPortfolioResponse,
     newEnableSagemakerServicecatalogPortfolioResponse,
 
     -- ** GetDeviceFleetReport
-    GetDeviceFleetReport (GetDeviceFleetReport'),
+    GetDeviceFleetReport,
     newGetDeviceFleetReport,
-    GetDeviceFleetReportResponse (GetDeviceFleetReportResponse'),
+    GetDeviceFleetReportResponse,
     newGetDeviceFleetReportResponse,
 
     -- ** GetLineageGroupPolicy
-    GetLineageGroupPolicy (GetLineageGroupPolicy'),
+    GetLineageGroupPolicy,
     newGetLineageGroupPolicy,
-    GetLineageGroupPolicyResponse (GetLineageGroupPolicyResponse'),
+    GetLineageGroupPolicyResponse,
     newGetLineageGroupPolicyResponse,
 
     -- ** GetModelPackageGroupPolicy
-    GetModelPackageGroupPolicy (GetModelPackageGroupPolicy'),
+    GetModelPackageGroupPolicy,
     newGetModelPackageGroupPolicy,
-    GetModelPackageGroupPolicyResponse (GetModelPackageGroupPolicyResponse'),
+    GetModelPackageGroupPolicyResponse,
     newGetModelPackageGroupPolicyResponse,
 
     -- ** GetSagemakerServicecatalogPortfolioStatus
-    GetSagemakerServicecatalogPortfolioStatus (GetSagemakerServicecatalogPortfolioStatus'),
+    GetSagemakerServicecatalogPortfolioStatus,
     newGetSagemakerServicecatalogPortfolioStatus,
-    GetSagemakerServicecatalogPortfolioStatusResponse (GetSagemakerServicecatalogPortfolioStatusResponse'),
+    GetSagemakerServicecatalogPortfolioStatusResponse,
     newGetSagemakerServicecatalogPortfolioStatusResponse,
 
     -- ** GetSearchSuggestions
-    GetSearchSuggestions (GetSearchSuggestions'),
+    GetSearchSuggestions,
     newGetSearchSuggestions,
-    GetSearchSuggestionsResponse (GetSearchSuggestionsResponse'),
+    GetSearchSuggestionsResponse,
     newGetSearchSuggestionsResponse,
 
     -- ** ImportHubContent
-    ImportHubContent (ImportHubContent'),
+    ImportHubContent,
     newImportHubContent,
-    ImportHubContentResponse (ImportHubContentResponse'),
+    ImportHubContentResponse,
     newImportHubContentResponse,
 
     -- ** ListActions (Paginated)
-    ListActions (ListActions'),
+    ListActions,
     newListActions,
-    ListActionsResponse (ListActionsResponse'),
+    ListActionsResponse,
     newListActionsResponse,
 
     -- ** ListAlgorithms (Paginated)
-    ListAlgorithms (ListAlgorithms'),
+    ListAlgorithms,
     newListAlgorithms,
-    ListAlgorithmsResponse (ListAlgorithmsResponse'),
+    ListAlgorithmsResponse,
     newListAlgorithmsResponse,
 
     -- ** ListAliases (Paginated)
-    ListAliases (ListAliases'),
+    ListAliases,
     newListAliases,
-    ListAliasesResponse (ListAliasesResponse'),
+    ListAliasesResponse,
     newListAliasesResponse,
 
     -- ** ListAppImageConfigs (Paginated)
-    ListAppImageConfigs (ListAppImageConfigs'),
+    ListAppImageConfigs,
     newListAppImageConfigs,
-    ListAppImageConfigsResponse (ListAppImageConfigsResponse'),
+    ListAppImageConfigsResponse,
     newListAppImageConfigsResponse,
 
     -- ** ListApps (Paginated)
-    ListApps (ListApps'),
+    ListApps,
     newListApps,
-    ListAppsResponse (ListAppsResponse'),
+    ListAppsResponse,
     newListAppsResponse,
 
     -- ** ListArtifacts (Paginated)
-    ListArtifacts (ListArtifacts'),
+    ListArtifacts,
     newListArtifacts,
-    ListArtifactsResponse (ListArtifactsResponse'),
+    ListArtifactsResponse,
     newListArtifactsResponse,
 
     -- ** ListAssociations (Paginated)
-    ListAssociations (ListAssociations'),
+    ListAssociations,
     newListAssociations,
-    ListAssociationsResponse (ListAssociationsResponse'),
+    ListAssociationsResponse,
     newListAssociationsResponse,
 
     -- ** ListAutoMLJobs (Paginated)
-    ListAutoMLJobs (ListAutoMLJobs'),
+    ListAutoMLJobs,
     newListAutoMLJobs,
-    ListAutoMLJobsResponse (ListAutoMLJobsResponse'),
+    ListAutoMLJobsResponse,
     newListAutoMLJobsResponse,
 
     -- ** ListCandidatesForAutoMLJob (Paginated)
-    ListCandidatesForAutoMLJob (ListCandidatesForAutoMLJob'),
+    ListCandidatesForAutoMLJob,
     newListCandidatesForAutoMLJob,
-    ListCandidatesForAutoMLJobResponse (ListCandidatesForAutoMLJobResponse'),
+    ListCandidatesForAutoMLJobResponse,
     newListCandidatesForAutoMLJobResponse,
 
     -- ** ListCodeRepositories (Paginated)
-    ListCodeRepositories (ListCodeRepositories'),
+    ListCodeRepositories,
     newListCodeRepositories,
-    ListCodeRepositoriesResponse (ListCodeRepositoriesResponse'),
+    ListCodeRepositoriesResponse,
     newListCodeRepositoriesResponse,
 
     -- ** ListCompilationJobs (Paginated)
-    ListCompilationJobs (ListCompilationJobs'),
+    ListCompilationJobs,
     newListCompilationJobs,
-    ListCompilationJobsResponse (ListCompilationJobsResponse'),
+    ListCompilationJobsResponse,
     newListCompilationJobsResponse,
 
     -- ** ListContexts (Paginated)
-    ListContexts (ListContexts'),
+    ListContexts,
     newListContexts,
-    ListContextsResponse (ListContextsResponse'),
+    ListContextsResponse,
     newListContextsResponse,
 
     -- ** ListDataQualityJobDefinitions (Paginated)
-    ListDataQualityJobDefinitions (ListDataQualityJobDefinitions'),
+    ListDataQualityJobDefinitions,
     newListDataQualityJobDefinitions,
-    ListDataQualityJobDefinitionsResponse (ListDataQualityJobDefinitionsResponse'),
+    ListDataQualityJobDefinitionsResponse,
     newListDataQualityJobDefinitionsResponse,
 
     -- ** ListDeviceFleets (Paginated)
-    ListDeviceFleets (ListDeviceFleets'),
+    ListDeviceFleets,
     newListDeviceFleets,
-    ListDeviceFleetsResponse (ListDeviceFleetsResponse'),
+    ListDeviceFleetsResponse,
     newListDeviceFleetsResponse,
 
     -- ** ListDevices (Paginated)
-    ListDevices (ListDevices'),
+    ListDevices,
     newListDevices,
-    ListDevicesResponse (ListDevicesResponse'),
+    ListDevicesResponse,
     newListDevicesResponse,
 
     -- ** ListDomains (Paginated)
-    ListDomains (ListDomains'),
+    ListDomains,
     newListDomains,
-    ListDomainsResponse (ListDomainsResponse'),
+    ListDomainsResponse,
     newListDomainsResponse,
 
     -- ** ListEdgeDeploymentPlans (Paginated)
-    ListEdgeDeploymentPlans (ListEdgeDeploymentPlans'),
+    ListEdgeDeploymentPlans,
     newListEdgeDeploymentPlans,
-    ListEdgeDeploymentPlansResponse (ListEdgeDeploymentPlansResponse'),
+    ListEdgeDeploymentPlansResponse,
     newListEdgeDeploymentPlansResponse,
 
     -- ** ListEdgePackagingJobs (Paginated)
-    ListEdgePackagingJobs (ListEdgePackagingJobs'),
+    ListEdgePackagingJobs,
     newListEdgePackagingJobs,
-    ListEdgePackagingJobsResponse (ListEdgePackagingJobsResponse'),
+    ListEdgePackagingJobsResponse,
     newListEdgePackagingJobsResponse,
 
     -- ** ListEndpointConfigs (Paginated)
-    ListEndpointConfigs (ListEndpointConfigs'),
+    ListEndpointConfigs,
     newListEndpointConfigs,
-    ListEndpointConfigsResponse (ListEndpointConfigsResponse'),
+    ListEndpointConfigsResponse,
     newListEndpointConfigsResponse,
 
     -- ** ListEndpoints (Paginated)
-    ListEndpoints (ListEndpoints'),
+    ListEndpoints,
     newListEndpoints,
-    ListEndpointsResponse (ListEndpointsResponse'),
+    ListEndpointsResponse,
     newListEndpointsResponse,
 
     -- ** ListExperiments (Paginated)
-    ListExperiments (ListExperiments'),
+    ListExperiments,
     newListExperiments,
-    ListExperimentsResponse (ListExperimentsResponse'),
+    ListExperimentsResponse,
     newListExperimentsResponse,
 
     -- ** ListFeatureGroups (Paginated)
-    ListFeatureGroups (ListFeatureGroups'),
+    ListFeatureGroups,
     newListFeatureGroups,
-    ListFeatureGroupsResponse (ListFeatureGroupsResponse'),
+    ListFeatureGroupsResponse,
     newListFeatureGroupsResponse,
 
     -- ** ListFlowDefinitions (Paginated)
-    ListFlowDefinitions (ListFlowDefinitions'),
+    ListFlowDefinitions,
     newListFlowDefinitions,
-    ListFlowDefinitionsResponse (ListFlowDefinitionsResponse'),
+    ListFlowDefinitionsResponse,
     newListFlowDefinitionsResponse,
 
     -- ** ListHubContentVersions
-    ListHubContentVersions (ListHubContentVersions'),
+    ListHubContentVersions,
     newListHubContentVersions,
-    ListHubContentVersionsResponse (ListHubContentVersionsResponse'),
+    ListHubContentVersionsResponse,
     newListHubContentVersionsResponse,
 
     -- ** ListHubContents
-    ListHubContents (ListHubContents'),
+    ListHubContents,
     newListHubContents,
-    ListHubContentsResponse (ListHubContentsResponse'),
+    ListHubContentsResponse,
     newListHubContentsResponse,
 
     -- ** ListHubs
-    ListHubs (ListHubs'),
+    ListHubs,
     newListHubs,
-    ListHubsResponse (ListHubsResponse'),
+    ListHubsResponse,
     newListHubsResponse,
 
     -- ** ListHumanTaskUis (Paginated)
-    ListHumanTaskUis (ListHumanTaskUis'),
+    ListHumanTaskUis,
     newListHumanTaskUis,
-    ListHumanTaskUisResponse (ListHumanTaskUisResponse'),
+    ListHumanTaskUisResponse,
     newListHumanTaskUisResponse,
 
     -- ** ListHyperParameterTuningJobs (Paginated)
-    ListHyperParameterTuningJobs (ListHyperParameterTuningJobs'),
+    ListHyperParameterTuningJobs,
     newListHyperParameterTuningJobs,
-    ListHyperParameterTuningJobsResponse (ListHyperParameterTuningJobsResponse'),
+    ListHyperParameterTuningJobsResponse,
     newListHyperParameterTuningJobsResponse,
 
     -- ** ListImageVersions (Paginated)
-    ListImageVersions (ListImageVersions'),
+    ListImageVersions,
     newListImageVersions,
-    ListImageVersionsResponse (ListImageVersionsResponse'),
+    ListImageVersionsResponse,
     newListImageVersionsResponse,
 
     -- ** ListImages (Paginated)
-    ListImages (ListImages'),
+    ListImages,
     newListImages,
-    ListImagesResponse (ListImagesResponse'),
+    ListImagesResponse,
     newListImagesResponse,
 
     -- ** ListInferenceExperiments (Paginated)
-    ListInferenceExperiments (ListInferenceExperiments'),
+    ListInferenceExperiments,
     newListInferenceExperiments,
-    ListInferenceExperimentsResponse (ListInferenceExperimentsResponse'),
+    ListInferenceExperimentsResponse,
     newListInferenceExperimentsResponse,
 
     -- ** ListInferenceRecommendationsJobSteps (Paginated)
-    ListInferenceRecommendationsJobSteps (ListInferenceRecommendationsJobSteps'),
+    ListInferenceRecommendationsJobSteps,
     newListInferenceRecommendationsJobSteps,
-    ListInferenceRecommendationsJobStepsResponse (ListInferenceRecommendationsJobStepsResponse'),
+    ListInferenceRecommendationsJobStepsResponse,
     newListInferenceRecommendationsJobStepsResponse,
 
     -- ** ListInferenceRecommendationsJobs (Paginated)
-    ListInferenceRecommendationsJobs (ListInferenceRecommendationsJobs'),
+    ListInferenceRecommendationsJobs,
     newListInferenceRecommendationsJobs,
-    ListInferenceRecommendationsJobsResponse (ListInferenceRecommendationsJobsResponse'),
+    ListInferenceRecommendationsJobsResponse,
     newListInferenceRecommendationsJobsResponse,
 
     -- ** ListLabelingJobs (Paginated)
-    ListLabelingJobs (ListLabelingJobs'),
+    ListLabelingJobs,
     newListLabelingJobs,
-    ListLabelingJobsResponse (ListLabelingJobsResponse'),
+    ListLabelingJobsResponse,
     newListLabelingJobsResponse,
 
     -- ** ListLabelingJobsForWorkteam (Paginated)
-    ListLabelingJobsForWorkteam (ListLabelingJobsForWorkteam'),
+    ListLabelingJobsForWorkteam,
     newListLabelingJobsForWorkteam,
-    ListLabelingJobsForWorkteamResponse (ListLabelingJobsForWorkteamResponse'),
+    ListLabelingJobsForWorkteamResponse,
     newListLabelingJobsForWorkteamResponse,
 
     -- ** ListLineageGroups (Paginated)
-    ListLineageGroups (ListLineageGroups'),
+    ListLineageGroups,
     newListLineageGroups,
-    ListLineageGroupsResponse (ListLineageGroupsResponse'),
+    ListLineageGroupsResponse,
     newListLineageGroupsResponse,
 
     -- ** ListModelBiasJobDefinitions (Paginated)
-    ListModelBiasJobDefinitions (ListModelBiasJobDefinitions'),
+    ListModelBiasJobDefinitions,
     newListModelBiasJobDefinitions,
-    ListModelBiasJobDefinitionsResponse (ListModelBiasJobDefinitionsResponse'),
+    ListModelBiasJobDefinitionsResponse,
     newListModelBiasJobDefinitionsResponse,
 
     -- ** ListModelCardExportJobs (Paginated)
-    ListModelCardExportJobs (ListModelCardExportJobs'),
+    ListModelCardExportJobs,
     newListModelCardExportJobs,
-    ListModelCardExportJobsResponse (ListModelCardExportJobsResponse'),
+    ListModelCardExportJobsResponse,
     newListModelCardExportJobsResponse,
 
     -- ** ListModelCardVersions (Paginated)
-    ListModelCardVersions (ListModelCardVersions'),
+    ListModelCardVersions,
     newListModelCardVersions,
-    ListModelCardVersionsResponse (ListModelCardVersionsResponse'),
+    ListModelCardVersionsResponse,
     newListModelCardVersionsResponse,
 
     -- ** ListModelCards (Paginated)
-    ListModelCards (ListModelCards'),
+    ListModelCards,
     newListModelCards,
-    ListModelCardsResponse (ListModelCardsResponse'),
+    ListModelCardsResponse,
     newListModelCardsResponse,
 
     -- ** ListModelExplainabilityJobDefinitions (Paginated)
-    ListModelExplainabilityJobDefinitions (ListModelExplainabilityJobDefinitions'),
+    ListModelExplainabilityJobDefinitions,
     newListModelExplainabilityJobDefinitions,
-    ListModelExplainabilityJobDefinitionsResponse (ListModelExplainabilityJobDefinitionsResponse'),
+    ListModelExplainabilityJobDefinitionsResponse,
     newListModelExplainabilityJobDefinitionsResponse,
 
     -- ** ListModelMetadata (Paginated)
-    ListModelMetadata (ListModelMetadata'),
+    ListModelMetadata,
     newListModelMetadata,
-    ListModelMetadataResponse (ListModelMetadataResponse'),
+    ListModelMetadataResponse,
     newListModelMetadataResponse,
 
     -- ** ListModelPackageGroups (Paginated)
-    ListModelPackageGroups (ListModelPackageGroups'),
+    ListModelPackageGroups,
     newListModelPackageGroups,
-    ListModelPackageGroupsResponse (ListModelPackageGroupsResponse'),
+    ListModelPackageGroupsResponse,
     newListModelPackageGroupsResponse,
 
     -- ** ListModelPackages (Paginated)
-    ListModelPackages (ListModelPackages'),
+    ListModelPackages,
     newListModelPackages,
-    ListModelPackagesResponse (ListModelPackagesResponse'),
+    ListModelPackagesResponse,
     newListModelPackagesResponse,
 
     -- ** ListModelQualityJobDefinitions (Paginated)
-    ListModelQualityJobDefinitions (ListModelQualityJobDefinitions'),
+    ListModelQualityJobDefinitions,
     newListModelQualityJobDefinitions,
-    ListModelQualityJobDefinitionsResponse (ListModelQualityJobDefinitionsResponse'),
+    ListModelQualityJobDefinitionsResponse,
     newListModelQualityJobDefinitionsResponse,
 
     -- ** ListModels (Paginated)
-    ListModels (ListModels'),
+    ListModels,
     newListModels,
-    ListModelsResponse (ListModelsResponse'),
+    ListModelsResponse,
     newListModelsResponse,
 
     -- ** ListMonitoringAlertHistory (Paginated)
-    ListMonitoringAlertHistory (ListMonitoringAlertHistory'),
+    ListMonitoringAlertHistory,
     newListMonitoringAlertHistory,
-    ListMonitoringAlertHistoryResponse (ListMonitoringAlertHistoryResponse'),
+    ListMonitoringAlertHistoryResponse,
     newListMonitoringAlertHistoryResponse,
 
     -- ** ListMonitoringAlerts (Paginated)
-    ListMonitoringAlerts (ListMonitoringAlerts'),
+    ListMonitoringAlerts,
     newListMonitoringAlerts,
-    ListMonitoringAlertsResponse (ListMonitoringAlertsResponse'),
+    ListMonitoringAlertsResponse,
     newListMonitoringAlertsResponse,
 
     -- ** ListMonitoringExecutions (Paginated)
-    ListMonitoringExecutions (ListMonitoringExecutions'),
+    ListMonitoringExecutions,
     newListMonitoringExecutions,
-    ListMonitoringExecutionsResponse (ListMonitoringExecutionsResponse'),
+    ListMonitoringExecutionsResponse,
     newListMonitoringExecutionsResponse,
 
     -- ** ListMonitoringSchedules (Paginated)
-    ListMonitoringSchedules (ListMonitoringSchedules'),
+    ListMonitoringSchedules,
     newListMonitoringSchedules,
-    ListMonitoringSchedulesResponse (ListMonitoringSchedulesResponse'),
+    ListMonitoringSchedulesResponse,
     newListMonitoringSchedulesResponse,
 
     -- ** ListNotebookInstanceLifecycleConfigs (Paginated)
-    ListNotebookInstanceLifecycleConfigs (ListNotebookInstanceLifecycleConfigs'),
+    ListNotebookInstanceLifecycleConfigs,
     newListNotebookInstanceLifecycleConfigs,
-    ListNotebookInstanceLifecycleConfigsResponse (ListNotebookInstanceLifecycleConfigsResponse'),
+    ListNotebookInstanceLifecycleConfigsResponse,
     newListNotebookInstanceLifecycleConfigsResponse,
 
     -- ** ListNotebookInstances (Paginated)
-    ListNotebookInstances (ListNotebookInstances'),
+    ListNotebookInstances,
     newListNotebookInstances,
-    ListNotebookInstancesResponse (ListNotebookInstancesResponse'),
+    ListNotebookInstancesResponse,
     newListNotebookInstancesResponse,
 
     -- ** ListPipelineExecutionSteps (Paginated)
-    ListPipelineExecutionSteps (ListPipelineExecutionSteps'),
+    ListPipelineExecutionSteps,
     newListPipelineExecutionSteps,
-    ListPipelineExecutionStepsResponse (ListPipelineExecutionStepsResponse'),
+    ListPipelineExecutionStepsResponse,
     newListPipelineExecutionStepsResponse,
 
     -- ** ListPipelineExecutions (Paginated)
-    ListPipelineExecutions (ListPipelineExecutions'),
+    ListPipelineExecutions,
     newListPipelineExecutions,
-    ListPipelineExecutionsResponse (ListPipelineExecutionsResponse'),
+    ListPipelineExecutionsResponse,
     newListPipelineExecutionsResponse,
 
     -- ** ListPipelineParametersForExecution (Paginated)
-    ListPipelineParametersForExecution (ListPipelineParametersForExecution'),
+    ListPipelineParametersForExecution,
     newListPipelineParametersForExecution,
-    ListPipelineParametersForExecutionResponse (ListPipelineParametersForExecutionResponse'),
+    ListPipelineParametersForExecutionResponse,
     newListPipelineParametersForExecutionResponse,
 
     -- ** ListPipelines (Paginated)
-    ListPipelines (ListPipelines'),
+    ListPipelines,
     newListPipelines,
-    ListPipelinesResponse (ListPipelinesResponse'),
+    ListPipelinesResponse,
     newListPipelinesResponse,
 
     -- ** ListProcessingJobs (Paginated)
-    ListProcessingJobs (ListProcessingJobs'),
+    ListProcessingJobs,
     newListProcessingJobs,
-    ListProcessingJobsResponse (ListProcessingJobsResponse'),
+    ListProcessingJobsResponse,
     newListProcessingJobsResponse,
 
     -- ** ListProjects
-    ListProjects (ListProjects'),
+    ListProjects,
     newListProjects,
-    ListProjectsResponse (ListProjectsResponse'),
+    ListProjectsResponse,
     newListProjectsResponse,
 
     -- ** ListSpaces (Paginated)
-    ListSpaces (ListSpaces'),
+    ListSpaces,
     newListSpaces,
-    ListSpacesResponse (ListSpacesResponse'),
+    ListSpacesResponse,
     newListSpacesResponse,
 
     -- ** ListStageDevices (Paginated)
-    ListStageDevices (ListStageDevices'),
+    ListStageDevices,
     newListStageDevices,
-    ListStageDevicesResponse (ListStageDevicesResponse'),
+    ListStageDevicesResponse,
     newListStageDevicesResponse,
 
     -- ** ListStudioLifecycleConfigs (Paginated)
-    ListStudioLifecycleConfigs (ListStudioLifecycleConfigs'),
+    ListStudioLifecycleConfigs,
     newListStudioLifecycleConfigs,
-    ListStudioLifecycleConfigsResponse (ListStudioLifecycleConfigsResponse'),
+    ListStudioLifecycleConfigsResponse,
     newListStudioLifecycleConfigsResponse,
 
     -- ** ListSubscribedWorkteams (Paginated)
-    ListSubscribedWorkteams (ListSubscribedWorkteams'),
+    ListSubscribedWorkteams,
     newListSubscribedWorkteams,
-    ListSubscribedWorkteamsResponse (ListSubscribedWorkteamsResponse'),
+    ListSubscribedWorkteamsResponse,
     newListSubscribedWorkteamsResponse,
 
     -- ** ListTags (Paginated)
-    ListTags (ListTags'),
+    ListTags,
     newListTags,
-    ListTagsResponse (ListTagsResponse'),
+    ListTagsResponse,
     newListTagsResponse,
 
     -- ** ListTrainingJobs (Paginated)
-    ListTrainingJobs (ListTrainingJobs'),
+    ListTrainingJobs,
     newListTrainingJobs,
-    ListTrainingJobsResponse (ListTrainingJobsResponse'),
+    ListTrainingJobsResponse,
     newListTrainingJobsResponse,
 
     -- ** ListTrainingJobsForHyperParameterTuningJob (Paginated)
-    ListTrainingJobsForHyperParameterTuningJob (ListTrainingJobsForHyperParameterTuningJob'),
+    ListTrainingJobsForHyperParameterTuningJob,
     newListTrainingJobsForHyperParameterTuningJob,
-    ListTrainingJobsForHyperParameterTuningJobResponse (ListTrainingJobsForHyperParameterTuningJobResponse'),
+    ListTrainingJobsForHyperParameterTuningJobResponse,
     newListTrainingJobsForHyperParameterTuningJobResponse,
 
     -- ** ListTransformJobs (Paginated)
-    ListTransformJobs (ListTransformJobs'),
+    ListTransformJobs,
     newListTransformJobs,
-    ListTransformJobsResponse (ListTransformJobsResponse'),
+    ListTransformJobsResponse,
     newListTransformJobsResponse,
 
     -- ** ListTrialComponents (Paginated)
-    ListTrialComponents (ListTrialComponents'),
+    ListTrialComponents,
     newListTrialComponents,
-    ListTrialComponentsResponse (ListTrialComponentsResponse'),
+    ListTrialComponentsResponse,
     newListTrialComponentsResponse,
 
     -- ** ListTrials (Paginated)
-    ListTrials (ListTrials'),
+    ListTrials,
     newListTrials,
-    ListTrialsResponse (ListTrialsResponse'),
+    ListTrialsResponse,
     newListTrialsResponse,
 
     -- ** ListUserProfiles (Paginated)
-    ListUserProfiles (ListUserProfiles'),
+    ListUserProfiles,
     newListUserProfiles,
-    ListUserProfilesResponse (ListUserProfilesResponse'),
+    ListUserProfilesResponse,
     newListUserProfilesResponse,
 
     -- ** ListWorkforces (Paginated)
-    ListWorkforces (ListWorkforces'),
+    ListWorkforces,
     newListWorkforces,
-    ListWorkforcesResponse (ListWorkforcesResponse'),
+    ListWorkforcesResponse,
     newListWorkforcesResponse,
 
     -- ** ListWorkteams (Paginated)
-    ListWorkteams (ListWorkteams'),
+    ListWorkteams,
     newListWorkteams,
-    ListWorkteamsResponse (ListWorkteamsResponse'),
+    ListWorkteamsResponse,
     newListWorkteamsResponse,
 
     -- ** PutModelPackageGroupPolicy
-    PutModelPackageGroupPolicy (PutModelPackageGroupPolicy'),
+    PutModelPackageGroupPolicy,
     newPutModelPackageGroupPolicy,
-    PutModelPackageGroupPolicyResponse (PutModelPackageGroupPolicyResponse'),
+    PutModelPackageGroupPolicyResponse,
     newPutModelPackageGroupPolicyResponse,
 
     -- ** QueryLineage
-    QueryLineage (QueryLineage'),
+    QueryLineage,
     newQueryLineage,
-    QueryLineageResponse (QueryLineageResponse'),
+    QueryLineageResponse,
     newQueryLineageResponse,
 
     -- ** RegisterDevices
-    RegisterDevices (RegisterDevices'),
+    RegisterDevices,
     newRegisterDevices,
-    RegisterDevicesResponse (RegisterDevicesResponse'),
+    RegisterDevicesResponse,
     newRegisterDevicesResponse,
 
     -- ** RenderUiTemplate
-    RenderUiTemplate (RenderUiTemplate'),
+    RenderUiTemplate,
     newRenderUiTemplate,
-    RenderUiTemplateResponse (RenderUiTemplateResponse'),
+    RenderUiTemplateResponse,
     newRenderUiTemplateResponse,
 
     -- ** RetryPipelineExecution
-    RetryPipelineExecution (RetryPipelineExecution'),
+    RetryPipelineExecution,
     newRetryPipelineExecution,
-    RetryPipelineExecutionResponse (RetryPipelineExecutionResponse'),
+    RetryPipelineExecutionResponse,
     newRetryPipelineExecutionResponse,
 
     -- ** Search (Paginated)
-    Search (Search'),
+    Search,
     newSearch,
-    SearchResponse (SearchResponse'),
+    SearchResponse,
     newSearchResponse,
 
     -- ** SendPipelineExecutionStepFailure
-    SendPipelineExecutionStepFailure (SendPipelineExecutionStepFailure'),
+    SendPipelineExecutionStepFailure,
     newSendPipelineExecutionStepFailure,
-    SendPipelineExecutionStepFailureResponse (SendPipelineExecutionStepFailureResponse'),
+    SendPipelineExecutionStepFailureResponse,
     newSendPipelineExecutionStepFailureResponse,
 
     -- ** SendPipelineExecutionStepSuccess
-    SendPipelineExecutionStepSuccess (SendPipelineExecutionStepSuccess'),
+    SendPipelineExecutionStepSuccess,
     newSendPipelineExecutionStepSuccess,
-    SendPipelineExecutionStepSuccessResponse (SendPipelineExecutionStepSuccessResponse'),
+    SendPipelineExecutionStepSuccessResponse,
     newSendPipelineExecutionStepSuccessResponse,
 
     -- ** StartEdgeDeploymentStage
-    StartEdgeDeploymentStage (StartEdgeDeploymentStage'),
+    StartEdgeDeploymentStage,
     newStartEdgeDeploymentStage,
-    StartEdgeDeploymentStageResponse (StartEdgeDeploymentStageResponse'),
+    StartEdgeDeploymentStageResponse,
     newStartEdgeDeploymentStageResponse,
 
     -- ** StartInferenceExperiment
-    StartInferenceExperiment (StartInferenceExperiment'),
+    StartInferenceExperiment,
     newStartInferenceExperiment,
-    StartInferenceExperimentResponse (StartInferenceExperimentResponse'),
+    StartInferenceExperimentResponse,
     newStartInferenceExperimentResponse,
 
     -- ** StartMonitoringSchedule
-    StartMonitoringSchedule (StartMonitoringSchedule'),
+    StartMonitoringSchedule,
     newStartMonitoringSchedule,
-    StartMonitoringScheduleResponse (StartMonitoringScheduleResponse'),
+    StartMonitoringScheduleResponse,
     newStartMonitoringScheduleResponse,
 
     -- ** StartNotebookInstance
-    StartNotebookInstance (StartNotebookInstance'),
+    StartNotebookInstance,
     newStartNotebookInstance,
-    StartNotebookInstanceResponse (StartNotebookInstanceResponse'),
+    StartNotebookInstanceResponse,
     newStartNotebookInstanceResponse,
 
     -- ** StartPipelineExecution
-    StartPipelineExecution (StartPipelineExecution'),
+    StartPipelineExecution,
     newStartPipelineExecution,
-    StartPipelineExecutionResponse (StartPipelineExecutionResponse'),
+    StartPipelineExecutionResponse,
     newStartPipelineExecutionResponse,
 
     -- ** StopAutoMLJob
-    StopAutoMLJob (StopAutoMLJob'),
+    StopAutoMLJob,
     newStopAutoMLJob,
-    StopAutoMLJobResponse (StopAutoMLJobResponse'),
+    StopAutoMLJobResponse,
     newStopAutoMLJobResponse,
 
     -- ** StopCompilationJob
-    StopCompilationJob (StopCompilationJob'),
+    StopCompilationJob,
     newStopCompilationJob,
-    StopCompilationJobResponse (StopCompilationJobResponse'),
+    StopCompilationJobResponse,
     newStopCompilationJobResponse,
 
     -- ** StopEdgeDeploymentStage
-    StopEdgeDeploymentStage (StopEdgeDeploymentStage'),
+    StopEdgeDeploymentStage,
     newStopEdgeDeploymentStage,
-    StopEdgeDeploymentStageResponse (StopEdgeDeploymentStageResponse'),
+    StopEdgeDeploymentStageResponse,
     newStopEdgeDeploymentStageResponse,
 
     -- ** StopEdgePackagingJob
-    StopEdgePackagingJob (StopEdgePackagingJob'),
+    StopEdgePackagingJob,
     newStopEdgePackagingJob,
-    StopEdgePackagingJobResponse (StopEdgePackagingJobResponse'),
+    StopEdgePackagingJobResponse,
     newStopEdgePackagingJobResponse,
 
     -- ** StopHyperParameterTuningJob
-    StopHyperParameterTuningJob (StopHyperParameterTuningJob'),
+    StopHyperParameterTuningJob,
     newStopHyperParameterTuningJob,
-    StopHyperParameterTuningJobResponse (StopHyperParameterTuningJobResponse'),
+    StopHyperParameterTuningJobResponse,
     newStopHyperParameterTuningJobResponse,
 
     -- ** StopInferenceExperiment
-    StopInferenceExperiment (StopInferenceExperiment'),
+    StopInferenceExperiment,
     newStopInferenceExperiment,
-    StopInferenceExperimentResponse (StopInferenceExperimentResponse'),
+    StopInferenceExperimentResponse,
     newStopInferenceExperimentResponse,
 
     -- ** StopInferenceRecommendationsJob
-    StopInferenceRecommendationsJob (StopInferenceRecommendationsJob'),
+    StopInferenceRecommendationsJob,
     newStopInferenceRecommendationsJob,
-    StopInferenceRecommendationsJobResponse (StopInferenceRecommendationsJobResponse'),
+    StopInferenceRecommendationsJobResponse,
     newStopInferenceRecommendationsJobResponse,
 
     -- ** StopLabelingJob
-    StopLabelingJob (StopLabelingJob'),
+    StopLabelingJob,
     newStopLabelingJob,
-    StopLabelingJobResponse (StopLabelingJobResponse'),
+    StopLabelingJobResponse,
     newStopLabelingJobResponse,
 
     -- ** StopMonitoringSchedule
-    StopMonitoringSchedule (StopMonitoringSchedule'),
+    StopMonitoringSchedule,
     newStopMonitoringSchedule,
-    StopMonitoringScheduleResponse (StopMonitoringScheduleResponse'),
+    StopMonitoringScheduleResponse,
     newStopMonitoringScheduleResponse,
 
     -- ** StopNotebookInstance
-    StopNotebookInstance (StopNotebookInstance'),
+    StopNotebookInstance,
     newStopNotebookInstance,
-    StopNotebookInstanceResponse (StopNotebookInstanceResponse'),
+    StopNotebookInstanceResponse,
     newStopNotebookInstanceResponse,
 
     -- ** StopPipelineExecution
-    StopPipelineExecution (StopPipelineExecution'),
+    StopPipelineExecution,
     newStopPipelineExecution,
-    StopPipelineExecutionResponse (StopPipelineExecutionResponse'),
+    StopPipelineExecutionResponse,
     newStopPipelineExecutionResponse,
 
     -- ** StopProcessingJob
-    StopProcessingJob (StopProcessingJob'),
+    StopProcessingJob,
     newStopProcessingJob,
-    StopProcessingJobResponse (StopProcessingJobResponse'),
+    StopProcessingJobResponse,
     newStopProcessingJobResponse,
 
     -- ** StopTrainingJob
-    StopTrainingJob (StopTrainingJob'),
+    StopTrainingJob,
     newStopTrainingJob,
-    StopTrainingJobResponse (StopTrainingJobResponse'),
+    StopTrainingJobResponse,
     newStopTrainingJobResponse,
 
     -- ** StopTransformJob
-    StopTransformJob (StopTransformJob'),
+    StopTransformJob,
     newStopTransformJob,
-    StopTransformJobResponse (StopTransformJobResponse'),
+    StopTransformJobResponse,
     newStopTransformJobResponse,
 
     -- ** UpdateAction
-    UpdateAction (UpdateAction'),
+    UpdateAction,
     newUpdateAction,
-    UpdateActionResponse (UpdateActionResponse'),
+    UpdateActionResponse,
     newUpdateActionResponse,
 
     -- ** UpdateAppImageConfig
-    UpdateAppImageConfig (UpdateAppImageConfig'),
+    UpdateAppImageConfig,
     newUpdateAppImageConfig,
-    UpdateAppImageConfigResponse (UpdateAppImageConfigResponse'),
+    UpdateAppImageConfigResponse,
     newUpdateAppImageConfigResponse,
 
     -- ** UpdateArtifact
-    UpdateArtifact (UpdateArtifact'),
+    UpdateArtifact,
     newUpdateArtifact,
-    UpdateArtifactResponse (UpdateArtifactResponse'),
+    UpdateArtifactResponse,
     newUpdateArtifactResponse,
 
     -- ** UpdateCodeRepository
-    UpdateCodeRepository (UpdateCodeRepository'),
+    UpdateCodeRepository,
     newUpdateCodeRepository,
-    UpdateCodeRepositoryResponse (UpdateCodeRepositoryResponse'),
+    UpdateCodeRepositoryResponse,
     newUpdateCodeRepositoryResponse,
 
     -- ** UpdateContext
-    UpdateContext (UpdateContext'),
+    UpdateContext,
     newUpdateContext,
-    UpdateContextResponse (UpdateContextResponse'),
+    UpdateContextResponse,
     newUpdateContextResponse,
 
     -- ** UpdateDeviceFleet
-    UpdateDeviceFleet (UpdateDeviceFleet'),
+    UpdateDeviceFleet,
     newUpdateDeviceFleet,
-    UpdateDeviceFleetResponse (UpdateDeviceFleetResponse'),
+    UpdateDeviceFleetResponse,
     newUpdateDeviceFleetResponse,
 
     -- ** UpdateDevices
-    UpdateDevices (UpdateDevices'),
+    UpdateDevices,
     newUpdateDevices,
-    UpdateDevicesResponse (UpdateDevicesResponse'),
+    UpdateDevicesResponse,
     newUpdateDevicesResponse,
 
     -- ** UpdateDomain
-    UpdateDomain (UpdateDomain'),
+    UpdateDomain,
     newUpdateDomain,
-    UpdateDomainResponse (UpdateDomainResponse'),
+    UpdateDomainResponse,
     newUpdateDomainResponse,
 
     -- ** UpdateEndpoint
-    UpdateEndpoint (UpdateEndpoint'),
+    UpdateEndpoint,
     newUpdateEndpoint,
-    UpdateEndpointResponse (UpdateEndpointResponse'),
+    UpdateEndpointResponse,
     newUpdateEndpointResponse,
 
     -- ** UpdateEndpointWeightsAndCapacities
-    UpdateEndpointWeightsAndCapacities (UpdateEndpointWeightsAndCapacities'),
+    UpdateEndpointWeightsAndCapacities,
     newUpdateEndpointWeightsAndCapacities,
-    UpdateEndpointWeightsAndCapacitiesResponse (UpdateEndpointWeightsAndCapacitiesResponse'),
+    UpdateEndpointWeightsAndCapacitiesResponse,
     newUpdateEndpointWeightsAndCapacitiesResponse,
 
     -- ** UpdateExperiment
-    UpdateExperiment (UpdateExperiment'),
+    UpdateExperiment,
     newUpdateExperiment,
-    UpdateExperimentResponse (UpdateExperimentResponse'),
+    UpdateExperimentResponse,
     newUpdateExperimentResponse,
 
     -- ** UpdateFeatureGroup
-    UpdateFeatureGroup (UpdateFeatureGroup'),
+    UpdateFeatureGroup,
     newUpdateFeatureGroup,
-    UpdateFeatureGroupResponse (UpdateFeatureGroupResponse'),
+    UpdateFeatureGroupResponse,
     newUpdateFeatureGroupResponse,
 
     -- ** UpdateFeatureMetadata
-    UpdateFeatureMetadata (UpdateFeatureMetadata'),
+    UpdateFeatureMetadata,
     newUpdateFeatureMetadata,
-    UpdateFeatureMetadataResponse (UpdateFeatureMetadataResponse'),
+    UpdateFeatureMetadataResponse,
     newUpdateFeatureMetadataResponse,
 
     -- ** UpdateHub
-    UpdateHub (UpdateHub'),
+    UpdateHub,
     newUpdateHub,
-    UpdateHubResponse (UpdateHubResponse'),
+    UpdateHubResponse,
     newUpdateHubResponse,
 
     -- ** UpdateImage
-    UpdateImage (UpdateImage'),
+    UpdateImage,
     newUpdateImage,
-    UpdateImageResponse (UpdateImageResponse'),
+    UpdateImageResponse,
     newUpdateImageResponse,
 
     -- ** UpdateImageVersion
-    UpdateImageVersion (UpdateImageVersion'),
+    UpdateImageVersion,
     newUpdateImageVersion,
-    UpdateImageVersionResponse (UpdateImageVersionResponse'),
+    UpdateImageVersionResponse,
     newUpdateImageVersionResponse,
 
     -- ** UpdateInferenceExperiment
-    UpdateInferenceExperiment (UpdateInferenceExperiment'),
+    UpdateInferenceExperiment,
     newUpdateInferenceExperiment,
-    UpdateInferenceExperimentResponse (UpdateInferenceExperimentResponse'),
+    UpdateInferenceExperimentResponse,
     newUpdateInferenceExperimentResponse,
 
     -- ** UpdateModelCard
-    UpdateModelCard (UpdateModelCard'),
+    UpdateModelCard,
     newUpdateModelCard,
-    UpdateModelCardResponse (UpdateModelCardResponse'),
+    UpdateModelCardResponse,
     newUpdateModelCardResponse,
 
     -- ** UpdateModelPackage
-    UpdateModelPackage (UpdateModelPackage'),
+    UpdateModelPackage,
     newUpdateModelPackage,
-    UpdateModelPackageResponse (UpdateModelPackageResponse'),
+    UpdateModelPackageResponse,
     newUpdateModelPackageResponse,
 
     -- ** UpdateMonitoringAlert
-    UpdateMonitoringAlert (UpdateMonitoringAlert'),
+    UpdateMonitoringAlert,
     newUpdateMonitoringAlert,
-    UpdateMonitoringAlertResponse (UpdateMonitoringAlertResponse'),
+    UpdateMonitoringAlertResponse,
     newUpdateMonitoringAlertResponse,
 
     -- ** UpdateMonitoringSchedule
-    UpdateMonitoringSchedule (UpdateMonitoringSchedule'),
+    UpdateMonitoringSchedule,
     newUpdateMonitoringSchedule,
-    UpdateMonitoringScheduleResponse (UpdateMonitoringScheduleResponse'),
+    UpdateMonitoringScheduleResponse,
     newUpdateMonitoringScheduleResponse,
 
     -- ** UpdateNotebookInstance
-    UpdateNotebookInstance (UpdateNotebookInstance'),
+    UpdateNotebookInstance,
     newUpdateNotebookInstance,
-    UpdateNotebookInstanceResponse (UpdateNotebookInstanceResponse'),
+    UpdateNotebookInstanceResponse,
     newUpdateNotebookInstanceResponse,
 
     -- ** UpdateNotebookInstanceLifecycleConfig
-    UpdateNotebookInstanceLifecycleConfig (UpdateNotebookInstanceLifecycleConfig'),
+    UpdateNotebookInstanceLifecycleConfig,
     newUpdateNotebookInstanceLifecycleConfig,
-    UpdateNotebookInstanceLifecycleConfigResponse (UpdateNotebookInstanceLifecycleConfigResponse'),
+    UpdateNotebookInstanceLifecycleConfigResponse,
     newUpdateNotebookInstanceLifecycleConfigResponse,
 
     -- ** UpdatePipeline
-    UpdatePipeline (UpdatePipeline'),
+    UpdatePipeline,
     newUpdatePipeline,
-    UpdatePipelineResponse (UpdatePipelineResponse'),
+    UpdatePipelineResponse,
     newUpdatePipelineResponse,
 
     -- ** UpdatePipelineExecution
-    UpdatePipelineExecution (UpdatePipelineExecution'),
+    UpdatePipelineExecution,
     newUpdatePipelineExecution,
-    UpdatePipelineExecutionResponse (UpdatePipelineExecutionResponse'),
+    UpdatePipelineExecutionResponse,
     newUpdatePipelineExecutionResponse,
 
     -- ** UpdateProject
-    UpdateProject (UpdateProject'),
+    UpdateProject,
     newUpdateProject,
-    UpdateProjectResponse (UpdateProjectResponse'),
+    UpdateProjectResponse,
     newUpdateProjectResponse,
 
     -- ** UpdateSpace
-    UpdateSpace (UpdateSpace'),
+    UpdateSpace,
     newUpdateSpace,
-    UpdateSpaceResponse (UpdateSpaceResponse'),
+    UpdateSpaceResponse,
     newUpdateSpaceResponse,
 
     -- ** UpdateTrainingJob
-    UpdateTrainingJob (UpdateTrainingJob'),
+    UpdateTrainingJob,
     newUpdateTrainingJob,
-    UpdateTrainingJobResponse (UpdateTrainingJobResponse'),
+    UpdateTrainingJobResponse,
     newUpdateTrainingJobResponse,
 
     -- ** UpdateTrial
-    UpdateTrial (UpdateTrial'),
+    UpdateTrial,
     newUpdateTrial,
-    UpdateTrialResponse (UpdateTrialResponse'),
+    UpdateTrialResponse,
     newUpdateTrialResponse,
 
     -- ** UpdateTrialComponent
-    UpdateTrialComponent (UpdateTrialComponent'),
+    UpdateTrialComponent,
     newUpdateTrialComponent,
-    UpdateTrialComponentResponse (UpdateTrialComponentResponse'),
+    UpdateTrialComponentResponse,
     newUpdateTrialComponentResponse,
 
     -- ** UpdateUserProfile
-    UpdateUserProfile (UpdateUserProfile'),
+    UpdateUserProfile,
     newUpdateUserProfile,
-    UpdateUserProfileResponse (UpdateUserProfileResponse'),
+    UpdateUserProfileResponse,
     newUpdateUserProfileResponse,
 
     -- ** UpdateWorkforce
-    UpdateWorkforce (UpdateWorkforce'),
+    UpdateWorkforce,
     newUpdateWorkforce,
-    UpdateWorkforceResponse (UpdateWorkforceResponse'),
+    UpdateWorkforceResponse,
     newUpdateWorkforceResponse,
 
     -- ** UpdateWorkteam
-    UpdateWorkteam (UpdateWorkteam'),
+    UpdateWorkteam,
     newUpdateWorkteam,
-    UpdateWorkteamResponse (UpdateWorkteamResponse'),
+    UpdateWorkteamResponse,
     newUpdateWorkteamResponse,
 
     -- * Types
@@ -2566,1867 +2566,1867 @@ module Amazonka.SageMaker
     WorkforceStatus (..),
 
     -- ** ActionSource
-    ActionSource (ActionSource'),
+    ActionSource,
     newActionSource,
 
     -- ** ActionSummary
-    ActionSummary (ActionSummary'),
+    ActionSummary,
     newActionSummary,
 
     -- ** AdditionalInferenceSpecificationDefinition
-    AdditionalInferenceSpecificationDefinition (AdditionalInferenceSpecificationDefinition'),
+    AdditionalInferenceSpecificationDefinition,
     newAdditionalInferenceSpecificationDefinition,
 
     -- ** AgentVersion
-    AgentVersion (AgentVersion'),
+    AgentVersion,
     newAgentVersion,
 
     -- ** Alarm
-    Alarm (Alarm'),
+    Alarm,
     newAlarm,
 
     -- ** AlgorithmSpecification
-    AlgorithmSpecification (AlgorithmSpecification'),
+    AlgorithmSpecification,
     newAlgorithmSpecification,
 
     -- ** AlgorithmStatusDetails
-    AlgorithmStatusDetails (AlgorithmStatusDetails'),
+    AlgorithmStatusDetails,
     newAlgorithmStatusDetails,
 
     -- ** AlgorithmStatusItem
-    AlgorithmStatusItem (AlgorithmStatusItem'),
+    AlgorithmStatusItem,
     newAlgorithmStatusItem,
 
     -- ** AlgorithmSummary
-    AlgorithmSummary (AlgorithmSummary'),
+    AlgorithmSummary,
     newAlgorithmSummary,
 
     -- ** AlgorithmValidationProfile
-    AlgorithmValidationProfile (AlgorithmValidationProfile'),
+    AlgorithmValidationProfile,
     newAlgorithmValidationProfile,
 
     -- ** AlgorithmValidationSpecification
-    AlgorithmValidationSpecification (AlgorithmValidationSpecification'),
+    AlgorithmValidationSpecification,
     newAlgorithmValidationSpecification,
 
     -- ** AnnotationConsolidationConfig
-    AnnotationConsolidationConfig (AnnotationConsolidationConfig'),
+    AnnotationConsolidationConfig,
     newAnnotationConsolidationConfig,
 
     -- ** AppDetails
-    AppDetails (AppDetails'),
+    AppDetails,
     newAppDetails,
 
     -- ** AppImageConfigDetails
-    AppImageConfigDetails (AppImageConfigDetails'),
+    AppImageConfigDetails,
     newAppImageConfigDetails,
 
     -- ** AppSpecification
-    AppSpecification (AppSpecification'),
+    AppSpecification,
     newAppSpecification,
 
     -- ** ArtifactSource
-    ArtifactSource (ArtifactSource'),
+    ArtifactSource,
     newArtifactSource,
 
     -- ** ArtifactSourceType
-    ArtifactSourceType (ArtifactSourceType'),
+    ArtifactSourceType,
     newArtifactSourceType,
 
     -- ** ArtifactSummary
-    ArtifactSummary (ArtifactSummary'),
+    ArtifactSummary,
     newArtifactSummary,
 
     -- ** AssociationSummary
-    AssociationSummary (AssociationSummary'),
+    AssociationSummary,
     newAssociationSummary,
 
     -- ** AsyncInferenceClientConfig
-    AsyncInferenceClientConfig (AsyncInferenceClientConfig'),
+    AsyncInferenceClientConfig,
     newAsyncInferenceClientConfig,
 
     -- ** AsyncInferenceConfig
-    AsyncInferenceConfig (AsyncInferenceConfig'),
+    AsyncInferenceConfig,
     newAsyncInferenceConfig,
 
     -- ** AsyncInferenceNotificationConfig
-    AsyncInferenceNotificationConfig (AsyncInferenceNotificationConfig'),
+    AsyncInferenceNotificationConfig,
     newAsyncInferenceNotificationConfig,
 
     -- ** AsyncInferenceOutputConfig
-    AsyncInferenceOutputConfig (AsyncInferenceOutputConfig'),
+    AsyncInferenceOutputConfig,
     newAsyncInferenceOutputConfig,
 
     -- ** AthenaDatasetDefinition
-    AthenaDatasetDefinition (AthenaDatasetDefinition'),
+    AthenaDatasetDefinition,
     newAthenaDatasetDefinition,
 
     -- ** AutoMLCandidate
-    AutoMLCandidate (AutoMLCandidate'),
+    AutoMLCandidate,
     newAutoMLCandidate,
 
     -- ** AutoMLCandidateGenerationConfig
-    AutoMLCandidateGenerationConfig (AutoMLCandidateGenerationConfig'),
+    AutoMLCandidateGenerationConfig,
     newAutoMLCandidateGenerationConfig,
 
     -- ** AutoMLCandidateStep
-    AutoMLCandidateStep (AutoMLCandidateStep'),
+    AutoMLCandidateStep,
     newAutoMLCandidateStep,
 
     -- ** AutoMLChannel
-    AutoMLChannel (AutoMLChannel'),
+    AutoMLChannel,
     newAutoMLChannel,
 
     -- ** AutoMLContainerDefinition
-    AutoMLContainerDefinition (AutoMLContainerDefinition'),
+    AutoMLContainerDefinition,
     newAutoMLContainerDefinition,
 
     -- ** AutoMLDataSource
-    AutoMLDataSource (AutoMLDataSource'),
+    AutoMLDataSource,
     newAutoMLDataSource,
 
     -- ** AutoMLDataSplitConfig
-    AutoMLDataSplitConfig (AutoMLDataSplitConfig'),
+    AutoMLDataSplitConfig,
     newAutoMLDataSplitConfig,
 
     -- ** AutoMLJobArtifacts
-    AutoMLJobArtifacts (AutoMLJobArtifacts'),
+    AutoMLJobArtifacts,
     newAutoMLJobArtifacts,
 
     -- ** AutoMLJobCompletionCriteria
-    AutoMLJobCompletionCriteria (AutoMLJobCompletionCriteria'),
+    AutoMLJobCompletionCriteria,
     newAutoMLJobCompletionCriteria,
 
     -- ** AutoMLJobConfig
-    AutoMLJobConfig (AutoMLJobConfig'),
+    AutoMLJobConfig,
     newAutoMLJobConfig,
 
     -- ** AutoMLJobObjective
-    AutoMLJobObjective (AutoMLJobObjective'),
+    AutoMLJobObjective,
     newAutoMLJobObjective,
 
     -- ** AutoMLJobStepMetadata
-    AutoMLJobStepMetadata (AutoMLJobStepMetadata'),
+    AutoMLJobStepMetadata,
     newAutoMLJobStepMetadata,
 
     -- ** AutoMLJobSummary
-    AutoMLJobSummary (AutoMLJobSummary'),
+    AutoMLJobSummary,
     newAutoMLJobSummary,
 
     -- ** AutoMLOutputDataConfig
-    AutoMLOutputDataConfig (AutoMLOutputDataConfig'),
+    AutoMLOutputDataConfig,
     newAutoMLOutputDataConfig,
 
     -- ** AutoMLPartialFailureReason
-    AutoMLPartialFailureReason (AutoMLPartialFailureReason'),
+    AutoMLPartialFailureReason,
     newAutoMLPartialFailureReason,
 
     -- ** AutoMLS3DataSource
-    AutoMLS3DataSource (AutoMLS3DataSource'),
+    AutoMLS3DataSource,
     newAutoMLS3DataSource,
 
     -- ** AutoMLSecurityConfig
-    AutoMLSecurityConfig (AutoMLSecurityConfig'),
+    AutoMLSecurityConfig,
     newAutoMLSecurityConfig,
 
     -- ** AutoRollbackConfig
-    AutoRollbackConfig (AutoRollbackConfig'),
+    AutoRollbackConfig,
     newAutoRollbackConfig,
 
     -- ** BatchDataCaptureConfig
-    BatchDataCaptureConfig (BatchDataCaptureConfig'),
+    BatchDataCaptureConfig,
     newBatchDataCaptureConfig,
 
     -- ** BatchDescribeModelPackageError
-    BatchDescribeModelPackageError (BatchDescribeModelPackageError'),
+    BatchDescribeModelPackageError,
     newBatchDescribeModelPackageError,
 
     -- ** BatchDescribeModelPackageSummary
-    BatchDescribeModelPackageSummary (BatchDescribeModelPackageSummary'),
+    BatchDescribeModelPackageSummary,
     newBatchDescribeModelPackageSummary,
 
     -- ** BatchTransformInput
-    BatchTransformInput (BatchTransformInput'),
+    BatchTransformInput,
     newBatchTransformInput,
 
     -- ** Bias
-    Bias (Bias'),
+    Bias,
     newBias,
 
     -- ** BlueGreenUpdatePolicy
-    BlueGreenUpdatePolicy (BlueGreenUpdatePolicy'),
+    BlueGreenUpdatePolicy,
     newBlueGreenUpdatePolicy,
 
     -- ** CacheHitResult
-    CacheHitResult (CacheHitResult'),
+    CacheHitResult,
     newCacheHitResult,
 
     -- ** CallbackStepMetadata
-    CallbackStepMetadata (CallbackStepMetadata'),
+    CallbackStepMetadata,
     newCallbackStepMetadata,
 
     -- ** CandidateArtifactLocations
-    CandidateArtifactLocations (CandidateArtifactLocations'),
+    CandidateArtifactLocations,
     newCandidateArtifactLocations,
 
     -- ** CandidateProperties
-    CandidateProperties (CandidateProperties'),
+    CandidateProperties,
     newCandidateProperties,
 
     -- ** CanvasAppSettings
-    CanvasAppSettings (CanvasAppSettings'),
+    CanvasAppSettings,
     newCanvasAppSettings,
 
     -- ** CapacitySize
-    CapacitySize (CapacitySize'),
+    CapacitySize,
     newCapacitySize,
 
     -- ** CaptureContentTypeHeader
-    CaptureContentTypeHeader (CaptureContentTypeHeader'),
+    CaptureContentTypeHeader,
     newCaptureContentTypeHeader,
 
     -- ** CaptureOption
-    CaptureOption (CaptureOption'),
+    CaptureOption,
     newCaptureOption,
 
     -- ** CategoricalParameter
-    CategoricalParameter (CategoricalParameter'),
+    CategoricalParameter,
     newCategoricalParameter,
 
     -- ** CategoricalParameterRange
-    CategoricalParameterRange (CategoricalParameterRange'),
+    CategoricalParameterRange,
     newCategoricalParameterRange,
 
     -- ** CategoricalParameterRangeSpecification
-    CategoricalParameterRangeSpecification (CategoricalParameterRangeSpecification'),
+    CategoricalParameterRangeSpecification,
     newCategoricalParameterRangeSpecification,
 
     -- ** Channel
-    Channel (Channel'),
+    Channel,
     newChannel,
 
     -- ** ChannelSpecification
-    ChannelSpecification (ChannelSpecification'),
+    ChannelSpecification,
     newChannelSpecification,
 
     -- ** CheckpointConfig
-    CheckpointConfig (CheckpointConfig'),
+    CheckpointConfig,
     newCheckpointConfig,
 
     -- ** ClarifyCheckStepMetadata
-    ClarifyCheckStepMetadata (ClarifyCheckStepMetadata'),
+    ClarifyCheckStepMetadata,
     newClarifyCheckStepMetadata,
 
     -- ** ClarifyExplainerConfig
-    ClarifyExplainerConfig (ClarifyExplainerConfig'),
+    ClarifyExplainerConfig,
     newClarifyExplainerConfig,
 
     -- ** ClarifyInferenceConfig
-    ClarifyInferenceConfig (ClarifyInferenceConfig'),
+    ClarifyInferenceConfig,
     newClarifyInferenceConfig,
 
     -- ** ClarifyShapBaselineConfig
-    ClarifyShapBaselineConfig (ClarifyShapBaselineConfig'),
+    ClarifyShapBaselineConfig,
     newClarifyShapBaselineConfig,
 
     -- ** ClarifyShapConfig
-    ClarifyShapConfig (ClarifyShapConfig'),
+    ClarifyShapConfig,
     newClarifyShapConfig,
 
     -- ** ClarifyTextConfig
-    ClarifyTextConfig (ClarifyTextConfig'),
+    ClarifyTextConfig,
     newClarifyTextConfig,
 
     -- ** CodeRepository
-    CodeRepository (CodeRepository'),
+    CodeRepository,
     newCodeRepository,
 
     -- ** CodeRepositorySummary
-    CodeRepositorySummary (CodeRepositorySummary'),
+    CodeRepositorySummary,
     newCodeRepositorySummary,
 
     -- ** CognitoConfig
-    CognitoConfig (CognitoConfig'),
+    CognitoConfig,
     newCognitoConfig,
 
     -- ** CognitoMemberDefinition
-    CognitoMemberDefinition (CognitoMemberDefinition'),
+    CognitoMemberDefinition,
     newCognitoMemberDefinition,
 
     -- ** CollectionConfiguration
-    CollectionConfiguration (CollectionConfiguration'),
+    CollectionConfiguration,
     newCollectionConfiguration,
 
     -- ** CompilationJobSummary
-    CompilationJobSummary (CompilationJobSummary'),
+    CompilationJobSummary,
     newCompilationJobSummary,
 
     -- ** ConditionStepMetadata
-    ConditionStepMetadata (ConditionStepMetadata'),
+    ConditionStepMetadata,
     newConditionStepMetadata,
 
     -- ** ContainerDefinition
-    ContainerDefinition (ContainerDefinition'),
+    ContainerDefinition,
     newContainerDefinition,
 
     -- ** ContextSource
-    ContextSource (ContextSource'),
+    ContextSource,
     newContextSource,
 
     -- ** ContextSummary
-    ContextSummary (ContextSummary'),
+    ContextSummary,
     newContextSummary,
 
     -- ** ContinuousParameterRange
-    ContinuousParameterRange (ContinuousParameterRange'),
+    ContinuousParameterRange,
     newContinuousParameterRange,
 
     -- ** ContinuousParameterRangeSpecification
-    ContinuousParameterRangeSpecification (ContinuousParameterRangeSpecification'),
+    ContinuousParameterRangeSpecification,
     newContinuousParameterRangeSpecification,
 
     -- ** CustomImage
-    CustomImage (CustomImage'),
+    CustomImage,
     newCustomImage,
 
     -- ** DataCaptureConfig
-    DataCaptureConfig (DataCaptureConfig'),
+    DataCaptureConfig,
     newDataCaptureConfig,
 
     -- ** DataCaptureConfigSummary
-    DataCaptureConfigSummary (DataCaptureConfigSummary'),
+    DataCaptureConfigSummary,
     newDataCaptureConfigSummary,
 
     -- ** DataCatalogConfig
-    DataCatalogConfig (DataCatalogConfig'),
+    DataCatalogConfig,
     newDataCatalogConfig,
 
     -- ** DataProcessing
-    DataProcessing (DataProcessing'),
+    DataProcessing,
     newDataProcessing,
 
     -- ** DataQualityAppSpecification
-    DataQualityAppSpecification (DataQualityAppSpecification'),
+    DataQualityAppSpecification,
     newDataQualityAppSpecification,
 
     -- ** DataQualityBaselineConfig
-    DataQualityBaselineConfig (DataQualityBaselineConfig'),
+    DataQualityBaselineConfig,
     newDataQualityBaselineConfig,
 
     -- ** DataQualityJobInput
-    DataQualityJobInput (DataQualityJobInput'),
+    DataQualityJobInput,
     newDataQualityJobInput,
 
     -- ** DataSource
-    DataSource (DataSource'),
+    DataSource,
     newDataSource,
 
     -- ** DatasetDefinition
-    DatasetDefinition (DatasetDefinition'),
+    DatasetDefinition,
     newDatasetDefinition,
 
     -- ** DebugHookConfig
-    DebugHookConfig (DebugHookConfig'),
+    DebugHookConfig,
     newDebugHookConfig,
 
     -- ** DebugRuleConfiguration
-    DebugRuleConfiguration (DebugRuleConfiguration'),
+    DebugRuleConfiguration,
     newDebugRuleConfiguration,
 
     -- ** DebugRuleEvaluationStatus
-    DebugRuleEvaluationStatus (DebugRuleEvaluationStatus'),
+    DebugRuleEvaluationStatus,
     newDebugRuleEvaluationStatus,
 
     -- ** DefaultSpaceSettings
-    DefaultSpaceSettings (DefaultSpaceSettings'),
+    DefaultSpaceSettings,
     newDefaultSpaceSettings,
 
     -- ** DeployedImage
-    DeployedImage (DeployedImage'),
+    DeployedImage,
     newDeployedImage,
 
     -- ** DeploymentConfig
-    DeploymentConfig (DeploymentConfig'),
+    DeploymentConfig,
     newDeploymentConfig,
 
     -- ** DeploymentStage
-    DeploymentStage (DeploymentStage'),
+    DeploymentStage,
     newDeploymentStage,
 
     -- ** DeploymentStageStatusSummary
-    DeploymentStageStatusSummary (DeploymentStageStatusSummary'),
+    DeploymentStageStatusSummary,
     newDeploymentStageStatusSummary,
 
     -- ** DesiredWeightAndCapacity
-    DesiredWeightAndCapacity (DesiredWeightAndCapacity'),
+    DesiredWeightAndCapacity,
     newDesiredWeightAndCapacity,
 
     -- ** Device
-    Device (Device'),
+    Device,
     newDevice,
 
     -- ** DeviceDeploymentSummary
-    DeviceDeploymentSummary (DeviceDeploymentSummary'),
+    DeviceDeploymentSummary,
     newDeviceDeploymentSummary,
 
     -- ** DeviceFleetSummary
-    DeviceFleetSummary (DeviceFleetSummary'),
+    DeviceFleetSummary,
     newDeviceFleetSummary,
 
     -- ** DeviceSelectionConfig
-    DeviceSelectionConfig (DeviceSelectionConfig'),
+    DeviceSelectionConfig,
     newDeviceSelectionConfig,
 
     -- ** DeviceStats
-    DeviceStats (DeviceStats'),
+    DeviceStats,
     newDeviceStats,
 
     -- ** DeviceSummary
-    DeviceSummary (DeviceSummary'),
+    DeviceSummary,
     newDeviceSummary,
 
     -- ** DomainDetails
-    DomainDetails (DomainDetails'),
+    DomainDetails,
     newDomainDetails,
 
     -- ** DomainSettings
-    DomainSettings (DomainSettings'),
+    DomainSettings,
     newDomainSettings,
 
     -- ** DomainSettingsForUpdate
-    DomainSettingsForUpdate (DomainSettingsForUpdate'),
+    DomainSettingsForUpdate,
     newDomainSettingsForUpdate,
 
     -- ** DriftCheckBaselines
-    DriftCheckBaselines (DriftCheckBaselines'),
+    DriftCheckBaselines,
     newDriftCheckBaselines,
 
     -- ** DriftCheckBias
-    DriftCheckBias (DriftCheckBias'),
+    DriftCheckBias,
     newDriftCheckBias,
 
     -- ** DriftCheckExplainability
-    DriftCheckExplainability (DriftCheckExplainability'),
+    DriftCheckExplainability,
     newDriftCheckExplainability,
 
     -- ** DriftCheckModelDataQuality
-    DriftCheckModelDataQuality (DriftCheckModelDataQuality'),
+    DriftCheckModelDataQuality,
     newDriftCheckModelDataQuality,
 
     -- ** DriftCheckModelQuality
-    DriftCheckModelQuality (DriftCheckModelQuality'),
+    DriftCheckModelQuality,
     newDriftCheckModelQuality,
 
     -- ** EMRStepMetadata
-    EMRStepMetadata (EMRStepMetadata'),
+    EMRStepMetadata,
     newEMRStepMetadata,
 
     -- ** Edge
-    Edge (Edge'),
+    Edge,
     newEdge,
 
     -- ** EdgeDeploymentConfig
-    EdgeDeploymentConfig (EdgeDeploymentConfig'),
+    EdgeDeploymentConfig,
     newEdgeDeploymentConfig,
 
     -- ** EdgeDeploymentModelConfig
-    EdgeDeploymentModelConfig (EdgeDeploymentModelConfig'),
+    EdgeDeploymentModelConfig,
     newEdgeDeploymentModelConfig,
 
     -- ** EdgeDeploymentPlanSummary
-    EdgeDeploymentPlanSummary (EdgeDeploymentPlanSummary'),
+    EdgeDeploymentPlanSummary,
     newEdgeDeploymentPlanSummary,
 
     -- ** EdgeDeploymentStatus
-    EdgeDeploymentStatus (EdgeDeploymentStatus'),
+    EdgeDeploymentStatus,
     newEdgeDeploymentStatus,
 
     -- ** EdgeModel
-    EdgeModel (EdgeModel'),
+    EdgeModel,
     newEdgeModel,
 
     -- ** EdgeModelStat
-    EdgeModelStat (EdgeModelStat'),
+    EdgeModelStat,
     newEdgeModelStat,
 
     -- ** EdgeModelSummary
-    EdgeModelSummary (EdgeModelSummary'),
+    EdgeModelSummary,
     newEdgeModelSummary,
 
     -- ** EdgeOutputConfig
-    EdgeOutputConfig (EdgeOutputConfig'),
+    EdgeOutputConfig,
     newEdgeOutputConfig,
 
     -- ** EdgePackagingJobSummary
-    EdgePackagingJobSummary (EdgePackagingJobSummary'),
+    EdgePackagingJobSummary,
     newEdgePackagingJobSummary,
 
     -- ** EdgePresetDeploymentOutput
-    EdgePresetDeploymentOutput (EdgePresetDeploymentOutput'),
+    EdgePresetDeploymentOutput,
     newEdgePresetDeploymentOutput,
 
     -- ** Endpoint
-    Endpoint (Endpoint'),
+    Endpoint,
     newEndpoint,
 
     -- ** EndpointConfigSummary
-    EndpointConfigSummary (EndpointConfigSummary'),
+    EndpointConfigSummary,
     newEndpointConfigSummary,
 
     -- ** EndpointInfo
-    EndpointInfo (EndpointInfo'),
+    EndpointInfo,
     newEndpointInfo,
 
     -- ** EndpointInput
-    EndpointInput (EndpointInput'),
+    EndpointInput,
     newEndpointInput,
 
     -- ** EndpointInputConfiguration
-    EndpointInputConfiguration (EndpointInputConfiguration'),
+    EndpointInputConfiguration,
     newEndpointInputConfiguration,
 
     -- ** EndpointMetadata
-    EndpointMetadata (EndpointMetadata'),
+    EndpointMetadata,
     newEndpointMetadata,
 
     -- ** EndpointOutputConfiguration
-    EndpointOutputConfiguration (EndpointOutputConfiguration'),
+    EndpointOutputConfiguration,
     newEndpointOutputConfiguration,
 
     -- ** EndpointPerformance
-    EndpointPerformance (EndpointPerformance'),
+    EndpointPerformance,
     newEndpointPerformance,
 
     -- ** EndpointSummary
-    EndpointSummary (EndpointSummary'),
+    EndpointSummary,
     newEndpointSummary,
 
     -- ** EnvironmentParameter
-    EnvironmentParameter (EnvironmentParameter'),
+    EnvironmentParameter,
     newEnvironmentParameter,
 
     -- ** EnvironmentParameterRanges
-    EnvironmentParameterRanges (EnvironmentParameterRanges'),
+    EnvironmentParameterRanges,
     newEnvironmentParameterRanges,
 
     -- ** Experiment
-    Experiment (Experiment'),
+    Experiment,
     newExperiment,
 
     -- ** ExperimentConfig
-    ExperimentConfig (ExperimentConfig'),
+    ExperimentConfig,
     newExperimentConfig,
 
     -- ** ExperimentSource
-    ExperimentSource (ExperimentSource'),
+    ExperimentSource,
     newExperimentSource,
 
     -- ** ExperimentSummary
-    ExperimentSummary (ExperimentSummary'),
+    ExperimentSummary,
     newExperimentSummary,
 
     -- ** Explainability
-    Explainability (Explainability'),
+    Explainability,
     newExplainability,
 
     -- ** ExplainerConfig
-    ExplainerConfig (ExplainerConfig'),
+    ExplainerConfig,
     newExplainerConfig,
 
     -- ** FailStepMetadata
-    FailStepMetadata (FailStepMetadata'),
+    FailStepMetadata,
     newFailStepMetadata,
 
     -- ** FeatureDefinition
-    FeatureDefinition (FeatureDefinition'),
+    FeatureDefinition,
     newFeatureDefinition,
 
     -- ** FeatureGroup
-    FeatureGroup (FeatureGroup'),
+    FeatureGroup,
     newFeatureGroup,
 
     -- ** FeatureGroupSummary
-    FeatureGroupSummary (FeatureGroupSummary'),
+    FeatureGroupSummary,
     newFeatureGroupSummary,
 
     -- ** FeatureMetadata
-    FeatureMetadata (FeatureMetadata'),
+    FeatureMetadata,
     newFeatureMetadata,
 
     -- ** FeatureParameter
-    FeatureParameter (FeatureParameter'),
+    FeatureParameter,
     newFeatureParameter,
 
     -- ** FileSource
-    FileSource (FileSource'),
+    FileSource,
     newFileSource,
 
     -- ** FileSystemConfig
-    FileSystemConfig (FileSystemConfig'),
+    FileSystemConfig,
     newFileSystemConfig,
 
     -- ** FileSystemDataSource
-    FileSystemDataSource (FileSystemDataSource'),
+    FileSystemDataSource,
     newFileSystemDataSource,
 
     -- ** Filter
-    Filter (Filter'),
+    Filter,
     newFilter,
 
     -- ** FinalAutoMLJobObjectiveMetric
-    FinalAutoMLJobObjectiveMetric (FinalAutoMLJobObjectiveMetric'),
+    FinalAutoMLJobObjectiveMetric,
     newFinalAutoMLJobObjectiveMetric,
 
     -- ** FinalHyperParameterTuningJobObjectiveMetric
-    FinalHyperParameterTuningJobObjectiveMetric (FinalHyperParameterTuningJobObjectiveMetric'),
+    FinalHyperParameterTuningJobObjectiveMetric,
     newFinalHyperParameterTuningJobObjectiveMetric,
 
     -- ** FlowDefinitionOutputConfig
-    FlowDefinitionOutputConfig (FlowDefinitionOutputConfig'),
+    FlowDefinitionOutputConfig,
     newFlowDefinitionOutputConfig,
 
     -- ** FlowDefinitionSummary
-    FlowDefinitionSummary (FlowDefinitionSummary'),
+    FlowDefinitionSummary,
     newFlowDefinitionSummary,
 
     -- ** GitConfig
-    GitConfig (GitConfig'),
+    GitConfig,
     newGitConfig,
 
     -- ** GitConfigForUpdate
-    GitConfigForUpdate (GitConfigForUpdate'),
+    GitConfigForUpdate,
     newGitConfigForUpdate,
 
     -- ** HubContentDependency
-    HubContentDependency (HubContentDependency'),
+    HubContentDependency,
     newHubContentDependency,
 
     -- ** HubContentInfo
-    HubContentInfo (HubContentInfo'),
+    HubContentInfo,
     newHubContentInfo,
 
     -- ** HubInfo
-    HubInfo (HubInfo'),
+    HubInfo,
     newHubInfo,
 
     -- ** HubS3StorageConfig
-    HubS3StorageConfig (HubS3StorageConfig'),
+    HubS3StorageConfig,
     newHubS3StorageConfig,
 
     -- ** HumanLoopActivationConditionsConfig
-    HumanLoopActivationConditionsConfig (HumanLoopActivationConditionsConfig'),
+    HumanLoopActivationConditionsConfig,
     newHumanLoopActivationConditionsConfig,
 
     -- ** HumanLoopActivationConfig
-    HumanLoopActivationConfig (HumanLoopActivationConfig'),
+    HumanLoopActivationConfig,
     newHumanLoopActivationConfig,
 
     -- ** HumanLoopConfig
-    HumanLoopConfig (HumanLoopConfig'),
+    HumanLoopConfig,
     newHumanLoopConfig,
 
     -- ** HumanLoopRequestSource
-    HumanLoopRequestSource (HumanLoopRequestSource'),
+    HumanLoopRequestSource,
     newHumanLoopRequestSource,
 
     -- ** HumanTaskConfig
-    HumanTaskConfig (HumanTaskConfig'),
+    HumanTaskConfig,
     newHumanTaskConfig,
 
     -- ** HumanTaskUiSummary
-    HumanTaskUiSummary (HumanTaskUiSummary'),
+    HumanTaskUiSummary,
     newHumanTaskUiSummary,
 
     -- ** HyperParameterAlgorithmSpecification
-    HyperParameterAlgorithmSpecification (HyperParameterAlgorithmSpecification'),
+    HyperParameterAlgorithmSpecification,
     newHyperParameterAlgorithmSpecification,
 
     -- ** HyperParameterSpecification
-    HyperParameterSpecification (HyperParameterSpecification'),
+    HyperParameterSpecification,
     newHyperParameterSpecification,
 
     -- ** HyperParameterTrainingJobDefinition
-    HyperParameterTrainingJobDefinition (HyperParameterTrainingJobDefinition'),
+    HyperParameterTrainingJobDefinition,
     newHyperParameterTrainingJobDefinition,
 
     -- ** HyperParameterTrainingJobSummary
-    HyperParameterTrainingJobSummary (HyperParameterTrainingJobSummary'),
+    HyperParameterTrainingJobSummary,
     newHyperParameterTrainingJobSummary,
 
     -- ** HyperParameterTuningInstanceConfig
-    HyperParameterTuningInstanceConfig (HyperParameterTuningInstanceConfig'),
+    HyperParameterTuningInstanceConfig,
     newHyperParameterTuningInstanceConfig,
 
     -- ** HyperParameterTuningJobConfig
-    HyperParameterTuningJobConfig (HyperParameterTuningJobConfig'),
+    HyperParameterTuningJobConfig,
     newHyperParameterTuningJobConfig,
 
     -- ** HyperParameterTuningJobObjective
-    HyperParameterTuningJobObjective (HyperParameterTuningJobObjective'),
+    HyperParameterTuningJobObjective,
     newHyperParameterTuningJobObjective,
 
     -- ** HyperParameterTuningJobSearchEntity
-    HyperParameterTuningJobSearchEntity (HyperParameterTuningJobSearchEntity'),
+    HyperParameterTuningJobSearchEntity,
     newHyperParameterTuningJobSearchEntity,
 
     -- ** HyperParameterTuningJobStrategyConfig
-    HyperParameterTuningJobStrategyConfig (HyperParameterTuningJobStrategyConfig'),
+    HyperParameterTuningJobStrategyConfig,
     newHyperParameterTuningJobStrategyConfig,
 
     -- ** HyperParameterTuningJobSummary
-    HyperParameterTuningJobSummary (HyperParameterTuningJobSummary'),
+    HyperParameterTuningJobSummary,
     newHyperParameterTuningJobSummary,
 
     -- ** HyperParameterTuningJobWarmStartConfig
-    HyperParameterTuningJobWarmStartConfig (HyperParameterTuningJobWarmStartConfig'),
+    HyperParameterTuningJobWarmStartConfig,
     newHyperParameterTuningJobWarmStartConfig,
 
     -- ** HyperParameterTuningResourceConfig
-    HyperParameterTuningResourceConfig (HyperParameterTuningResourceConfig'),
+    HyperParameterTuningResourceConfig,
     newHyperParameterTuningResourceConfig,
 
     -- ** HyperbandStrategyConfig
-    HyperbandStrategyConfig (HyperbandStrategyConfig'),
+    HyperbandStrategyConfig,
     newHyperbandStrategyConfig,
 
     -- ** Image
-    Image (Image'),
+    Image,
     newImage,
 
     -- ** ImageConfig
-    ImageConfig (ImageConfig'),
+    ImageConfig,
     newImageConfig,
 
     -- ** ImageVersion
-    ImageVersion (ImageVersion'),
+    ImageVersion,
     newImageVersion,
 
     -- ** InferenceExecutionConfig
-    InferenceExecutionConfig (InferenceExecutionConfig'),
+    InferenceExecutionConfig,
     newInferenceExecutionConfig,
 
     -- ** InferenceExperimentDataStorageConfig
-    InferenceExperimentDataStorageConfig (InferenceExperimentDataStorageConfig'),
+    InferenceExperimentDataStorageConfig,
     newInferenceExperimentDataStorageConfig,
 
     -- ** InferenceExperimentSchedule
-    InferenceExperimentSchedule (InferenceExperimentSchedule'),
+    InferenceExperimentSchedule,
     newInferenceExperimentSchedule,
 
     -- ** InferenceExperimentSummary
-    InferenceExperimentSummary (InferenceExperimentSummary'),
+    InferenceExperimentSummary,
     newInferenceExperimentSummary,
 
     -- ** InferenceMetrics
-    InferenceMetrics (InferenceMetrics'),
+    InferenceMetrics,
     newInferenceMetrics,
 
     -- ** InferenceRecommendation
-    InferenceRecommendation (InferenceRecommendation'),
+    InferenceRecommendation,
     newInferenceRecommendation,
 
     -- ** InferenceRecommendationsJob
-    InferenceRecommendationsJob (InferenceRecommendationsJob'),
+    InferenceRecommendationsJob,
     newInferenceRecommendationsJob,
 
     -- ** InferenceRecommendationsJobStep
-    InferenceRecommendationsJobStep (InferenceRecommendationsJobStep'),
+    InferenceRecommendationsJobStep,
     newInferenceRecommendationsJobStep,
 
     -- ** InferenceSpecification
-    InferenceSpecification (InferenceSpecification'),
+    InferenceSpecification,
     newInferenceSpecification,
 
     -- ** InputConfig
-    InputConfig (InputConfig'),
+    InputConfig,
     newInputConfig,
 
     -- ** InstanceGroup
-    InstanceGroup (InstanceGroup'),
+    InstanceGroup,
     newInstanceGroup,
 
     -- ** InstanceMetadataServiceConfiguration
-    InstanceMetadataServiceConfiguration (InstanceMetadataServiceConfiguration'),
+    InstanceMetadataServiceConfiguration,
     newInstanceMetadataServiceConfiguration,
 
     -- ** IntegerParameterRange
-    IntegerParameterRange (IntegerParameterRange'),
+    IntegerParameterRange,
     newIntegerParameterRange,
 
     -- ** IntegerParameterRangeSpecification
-    IntegerParameterRangeSpecification (IntegerParameterRangeSpecification'),
+    IntegerParameterRangeSpecification,
     newIntegerParameterRangeSpecification,
 
     -- ** JupyterServerAppSettings
-    JupyterServerAppSettings (JupyterServerAppSettings'),
+    JupyterServerAppSettings,
     newJupyterServerAppSettings,
 
     -- ** KernelGatewayAppSettings
-    KernelGatewayAppSettings (KernelGatewayAppSettings'),
+    KernelGatewayAppSettings,
     newKernelGatewayAppSettings,
 
     -- ** KernelGatewayImageConfig
-    KernelGatewayImageConfig (KernelGatewayImageConfig'),
+    KernelGatewayImageConfig,
     newKernelGatewayImageConfig,
 
     -- ** KernelSpec
-    KernelSpec (KernelSpec'),
+    KernelSpec,
     newKernelSpec,
 
     -- ** LabelCounters
-    LabelCounters (LabelCounters'),
+    LabelCounters,
     newLabelCounters,
 
     -- ** LabelCountersForWorkteam
-    LabelCountersForWorkteam (LabelCountersForWorkteam'),
+    LabelCountersForWorkteam,
     newLabelCountersForWorkteam,
 
     -- ** LabelingJobAlgorithmsConfig
-    LabelingJobAlgorithmsConfig (LabelingJobAlgorithmsConfig'),
+    LabelingJobAlgorithmsConfig,
     newLabelingJobAlgorithmsConfig,
 
     -- ** LabelingJobDataAttributes
-    LabelingJobDataAttributes (LabelingJobDataAttributes'),
+    LabelingJobDataAttributes,
     newLabelingJobDataAttributes,
 
     -- ** LabelingJobDataSource
-    LabelingJobDataSource (LabelingJobDataSource'),
+    LabelingJobDataSource,
     newLabelingJobDataSource,
 
     -- ** LabelingJobForWorkteamSummary
-    LabelingJobForWorkteamSummary (LabelingJobForWorkteamSummary'),
+    LabelingJobForWorkteamSummary,
     newLabelingJobForWorkteamSummary,
 
     -- ** LabelingJobInputConfig
-    LabelingJobInputConfig (LabelingJobInputConfig'),
+    LabelingJobInputConfig,
     newLabelingJobInputConfig,
 
     -- ** LabelingJobOutput
-    LabelingJobOutput (LabelingJobOutput'),
+    LabelingJobOutput,
     newLabelingJobOutput,
 
     -- ** LabelingJobOutputConfig
-    LabelingJobOutputConfig (LabelingJobOutputConfig'),
+    LabelingJobOutputConfig,
     newLabelingJobOutputConfig,
 
     -- ** LabelingJobResourceConfig
-    LabelingJobResourceConfig (LabelingJobResourceConfig'),
+    LabelingJobResourceConfig,
     newLabelingJobResourceConfig,
 
     -- ** LabelingJobS3DataSource
-    LabelingJobS3DataSource (LabelingJobS3DataSource'),
+    LabelingJobS3DataSource,
     newLabelingJobS3DataSource,
 
     -- ** LabelingJobSnsDataSource
-    LabelingJobSnsDataSource (LabelingJobSnsDataSource'),
+    LabelingJobSnsDataSource,
     newLabelingJobSnsDataSource,
 
     -- ** LabelingJobStoppingConditions
-    LabelingJobStoppingConditions (LabelingJobStoppingConditions'),
+    LabelingJobStoppingConditions,
     newLabelingJobStoppingConditions,
 
     -- ** LabelingJobSummary
-    LabelingJobSummary (LabelingJobSummary'),
+    LabelingJobSummary,
     newLabelingJobSummary,
 
     -- ** LambdaStepMetadata
-    LambdaStepMetadata (LambdaStepMetadata'),
+    LambdaStepMetadata,
     newLambdaStepMetadata,
 
     -- ** LastUpdateStatus
-    LastUpdateStatus (LastUpdateStatus'),
+    LastUpdateStatus,
     newLastUpdateStatus,
 
     -- ** LineageGroupSummary
-    LineageGroupSummary (LineageGroupSummary'),
+    LineageGroupSummary,
     newLineageGroupSummary,
 
     -- ** MemberDefinition
-    MemberDefinition (MemberDefinition'),
+    MemberDefinition,
     newMemberDefinition,
 
     -- ** MetadataProperties
-    MetadataProperties (MetadataProperties'),
+    MetadataProperties,
     newMetadataProperties,
 
     -- ** MetricData
-    MetricData (MetricData'),
+    MetricData,
     newMetricData,
 
     -- ** MetricDatum
-    MetricDatum (MetricDatum'),
+    MetricDatum,
     newMetricDatum,
 
     -- ** MetricDefinition
-    MetricDefinition (MetricDefinition'),
+    MetricDefinition,
     newMetricDefinition,
 
     -- ** MetricsSource
-    MetricsSource (MetricsSource'),
+    MetricsSource,
     newMetricsSource,
 
     -- ** Model
-    Model (Model'),
+    Model,
     newModel,
 
     -- ** ModelArtifacts
-    ModelArtifacts (ModelArtifacts'),
+    ModelArtifacts,
     newModelArtifacts,
 
     -- ** ModelBiasAppSpecification
-    ModelBiasAppSpecification (ModelBiasAppSpecification'),
+    ModelBiasAppSpecification,
     newModelBiasAppSpecification,
 
     -- ** ModelBiasBaselineConfig
-    ModelBiasBaselineConfig (ModelBiasBaselineConfig'),
+    ModelBiasBaselineConfig,
     newModelBiasBaselineConfig,
 
     -- ** ModelBiasJobInput
-    ModelBiasJobInput (ModelBiasJobInput'),
+    ModelBiasJobInput,
     newModelBiasJobInput,
 
     -- ** ModelCard
-    ModelCard (ModelCard'),
+    ModelCard,
     newModelCard,
 
     -- ** ModelCardExportArtifacts
-    ModelCardExportArtifacts (ModelCardExportArtifacts'),
+    ModelCardExportArtifacts,
     newModelCardExportArtifacts,
 
     -- ** ModelCardExportJobSummary
-    ModelCardExportJobSummary (ModelCardExportJobSummary'),
+    ModelCardExportJobSummary,
     newModelCardExportJobSummary,
 
     -- ** ModelCardExportOutputConfig
-    ModelCardExportOutputConfig (ModelCardExportOutputConfig'),
+    ModelCardExportOutputConfig,
     newModelCardExportOutputConfig,
 
     -- ** ModelCardSecurityConfig
-    ModelCardSecurityConfig (ModelCardSecurityConfig'),
+    ModelCardSecurityConfig,
     newModelCardSecurityConfig,
 
     -- ** ModelCardSummary
-    ModelCardSummary (ModelCardSummary'),
+    ModelCardSummary,
     newModelCardSummary,
 
     -- ** ModelCardVersionSummary
-    ModelCardVersionSummary (ModelCardVersionSummary'),
+    ModelCardVersionSummary,
     newModelCardVersionSummary,
 
     -- ** ModelClientConfig
-    ModelClientConfig (ModelClientConfig'),
+    ModelClientConfig,
     newModelClientConfig,
 
     -- ** ModelConfiguration
-    ModelConfiguration (ModelConfiguration'),
+    ModelConfiguration,
     newModelConfiguration,
 
     -- ** ModelDashboardEndpoint
-    ModelDashboardEndpoint (ModelDashboardEndpoint'),
+    ModelDashboardEndpoint,
     newModelDashboardEndpoint,
 
     -- ** ModelDashboardIndicatorAction
-    ModelDashboardIndicatorAction (ModelDashboardIndicatorAction'),
+    ModelDashboardIndicatorAction,
     newModelDashboardIndicatorAction,
 
     -- ** ModelDashboardModel
-    ModelDashboardModel (ModelDashboardModel'),
+    ModelDashboardModel,
     newModelDashboardModel,
 
     -- ** ModelDashboardModelCard
-    ModelDashboardModelCard (ModelDashboardModelCard'),
+    ModelDashboardModelCard,
     newModelDashboardModelCard,
 
     -- ** ModelDashboardMonitoringSchedule
-    ModelDashboardMonitoringSchedule (ModelDashboardMonitoringSchedule'),
+    ModelDashboardMonitoringSchedule,
     newModelDashboardMonitoringSchedule,
 
     -- ** ModelDataQuality
-    ModelDataQuality (ModelDataQuality'),
+    ModelDataQuality,
     newModelDataQuality,
 
     -- ** ModelDeployConfig
-    ModelDeployConfig (ModelDeployConfig'),
+    ModelDeployConfig,
     newModelDeployConfig,
 
     -- ** ModelDeployResult
-    ModelDeployResult (ModelDeployResult'),
+    ModelDeployResult,
     newModelDeployResult,
 
     -- ** ModelDigests
-    ModelDigests (ModelDigests'),
+    ModelDigests,
     newModelDigests,
 
     -- ** ModelExplainabilityAppSpecification
-    ModelExplainabilityAppSpecification (ModelExplainabilityAppSpecification'),
+    ModelExplainabilityAppSpecification,
     newModelExplainabilityAppSpecification,
 
     -- ** ModelExplainabilityBaselineConfig
-    ModelExplainabilityBaselineConfig (ModelExplainabilityBaselineConfig'),
+    ModelExplainabilityBaselineConfig,
     newModelExplainabilityBaselineConfig,
 
     -- ** ModelExplainabilityJobInput
-    ModelExplainabilityJobInput (ModelExplainabilityJobInput'),
+    ModelExplainabilityJobInput,
     newModelExplainabilityJobInput,
 
     -- ** ModelInfrastructureConfig
-    ModelInfrastructureConfig (ModelInfrastructureConfig'),
+    ModelInfrastructureConfig,
     newModelInfrastructureConfig,
 
     -- ** ModelInput
-    ModelInput (ModelInput'),
+    ModelInput,
     newModelInput,
 
     -- ** ModelLatencyThreshold
-    ModelLatencyThreshold (ModelLatencyThreshold'),
+    ModelLatencyThreshold,
     newModelLatencyThreshold,
 
     -- ** ModelMetadataFilter
-    ModelMetadataFilter (ModelMetadataFilter'),
+    ModelMetadataFilter,
     newModelMetadataFilter,
 
     -- ** ModelMetadataSearchExpression
-    ModelMetadataSearchExpression (ModelMetadataSearchExpression'),
+    ModelMetadataSearchExpression,
     newModelMetadataSearchExpression,
 
     -- ** ModelMetadataSummary
-    ModelMetadataSummary (ModelMetadataSummary'),
+    ModelMetadataSummary,
     newModelMetadataSummary,
 
     -- ** ModelMetrics
-    ModelMetrics (ModelMetrics'),
+    ModelMetrics,
     newModelMetrics,
 
     -- ** ModelPackage
-    ModelPackage (ModelPackage'),
+    ModelPackage,
     newModelPackage,
 
     -- ** ModelPackageContainerDefinition
-    ModelPackageContainerDefinition (ModelPackageContainerDefinition'),
+    ModelPackageContainerDefinition,
     newModelPackageContainerDefinition,
 
     -- ** ModelPackageGroup
-    ModelPackageGroup (ModelPackageGroup'),
+    ModelPackageGroup,
     newModelPackageGroup,
 
     -- ** ModelPackageGroupSummary
-    ModelPackageGroupSummary (ModelPackageGroupSummary'),
+    ModelPackageGroupSummary,
     newModelPackageGroupSummary,
 
     -- ** ModelPackageStatusDetails
-    ModelPackageStatusDetails (ModelPackageStatusDetails'),
+    ModelPackageStatusDetails,
     newModelPackageStatusDetails,
 
     -- ** ModelPackageStatusItem
-    ModelPackageStatusItem (ModelPackageStatusItem'),
+    ModelPackageStatusItem,
     newModelPackageStatusItem,
 
     -- ** ModelPackageSummary
-    ModelPackageSummary (ModelPackageSummary'),
+    ModelPackageSummary,
     newModelPackageSummary,
 
     -- ** ModelPackageValidationProfile
-    ModelPackageValidationProfile (ModelPackageValidationProfile'),
+    ModelPackageValidationProfile,
     newModelPackageValidationProfile,
 
     -- ** ModelPackageValidationSpecification
-    ModelPackageValidationSpecification (ModelPackageValidationSpecification'),
+    ModelPackageValidationSpecification,
     newModelPackageValidationSpecification,
 
     -- ** ModelQuality
-    ModelQuality (ModelQuality'),
+    ModelQuality,
     newModelQuality,
 
     -- ** ModelQualityAppSpecification
-    ModelQualityAppSpecification (ModelQualityAppSpecification'),
+    ModelQualityAppSpecification,
     newModelQualityAppSpecification,
 
     -- ** ModelQualityBaselineConfig
-    ModelQualityBaselineConfig (ModelQualityBaselineConfig'),
+    ModelQualityBaselineConfig,
     newModelQualityBaselineConfig,
 
     -- ** ModelQualityJobInput
-    ModelQualityJobInput (ModelQualityJobInput'),
+    ModelQualityJobInput,
     newModelQualityJobInput,
 
     -- ** ModelStepMetadata
-    ModelStepMetadata (ModelStepMetadata'),
+    ModelStepMetadata,
     newModelStepMetadata,
 
     -- ** ModelSummary
-    ModelSummary (ModelSummary'),
+    ModelSummary,
     newModelSummary,
 
     -- ** ModelVariantConfig
-    ModelVariantConfig (ModelVariantConfig'),
+    ModelVariantConfig,
     newModelVariantConfig,
 
     -- ** ModelVariantConfigSummary
-    ModelVariantConfigSummary (ModelVariantConfigSummary'),
+    ModelVariantConfigSummary,
     newModelVariantConfigSummary,
 
     -- ** MonitoringAlertActions
-    MonitoringAlertActions (MonitoringAlertActions'),
+    MonitoringAlertActions,
     newMonitoringAlertActions,
 
     -- ** MonitoringAlertHistorySummary
-    MonitoringAlertHistorySummary (MonitoringAlertHistorySummary'),
+    MonitoringAlertHistorySummary,
     newMonitoringAlertHistorySummary,
 
     -- ** MonitoringAlertSummary
-    MonitoringAlertSummary (MonitoringAlertSummary'),
+    MonitoringAlertSummary,
     newMonitoringAlertSummary,
 
     -- ** MonitoringAppSpecification
-    MonitoringAppSpecification (MonitoringAppSpecification'),
+    MonitoringAppSpecification,
     newMonitoringAppSpecification,
 
     -- ** MonitoringBaselineConfig
-    MonitoringBaselineConfig (MonitoringBaselineConfig'),
+    MonitoringBaselineConfig,
     newMonitoringBaselineConfig,
 
     -- ** MonitoringClusterConfig
-    MonitoringClusterConfig (MonitoringClusterConfig'),
+    MonitoringClusterConfig,
     newMonitoringClusterConfig,
 
     -- ** MonitoringConstraintsResource
-    MonitoringConstraintsResource (MonitoringConstraintsResource'),
+    MonitoringConstraintsResource,
     newMonitoringConstraintsResource,
 
     -- ** MonitoringCsvDatasetFormat
-    MonitoringCsvDatasetFormat (MonitoringCsvDatasetFormat'),
+    MonitoringCsvDatasetFormat,
     newMonitoringCsvDatasetFormat,
 
     -- ** MonitoringDatasetFormat
-    MonitoringDatasetFormat (MonitoringDatasetFormat'),
+    MonitoringDatasetFormat,
     newMonitoringDatasetFormat,
 
     -- ** MonitoringExecutionSummary
-    MonitoringExecutionSummary (MonitoringExecutionSummary'),
+    MonitoringExecutionSummary,
     newMonitoringExecutionSummary,
 
     -- ** MonitoringGroundTruthS3Input
-    MonitoringGroundTruthS3Input (MonitoringGroundTruthS3Input'),
+    MonitoringGroundTruthS3Input,
     newMonitoringGroundTruthS3Input,
 
     -- ** MonitoringInput
-    MonitoringInput (MonitoringInput'),
+    MonitoringInput,
     newMonitoringInput,
 
     -- ** MonitoringJobDefinition
-    MonitoringJobDefinition (MonitoringJobDefinition'),
+    MonitoringJobDefinition,
     newMonitoringJobDefinition,
 
     -- ** MonitoringJobDefinitionSummary
-    MonitoringJobDefinitionSummary (MonitoringJobDefinitionSummary'),
+    MonitoringJobDefinitionSummary,
     newMonitoringJobDefinitionSummary,
 
     -- ** MonitoringJsonDatasetFormat
-    MonitoringJsonDatasetFormat (MonitoringJsonDatasetFormat'),
+    MonitoringJsonDatasetFormat,
     newMonitoringJsonDatasetFormat,
 
     -- ** MonitoringNetworkConfig
-    MonitoringNetworkConfig (MonitoringNetworkConfig'),
+    MonitoringNetworkConfig,
     newMonitoringNetworkConfig,
 
     -- ** MonitoringOutput
-    MonitoringOutput (MonitoringOutput'),
+    MonitoringOutput,
     newMonitoringOutput,
 
     -- ** MonitoringOutputConfig
-    MonitoringOutputConfig (MonitoringOutputConfig'),
+    MonitoringOutputConfig,
     newMonitoringOutputConfig,
 
     -- ** MonitoringParquetDatasetFormat
-    MonitoringParquetDatasetFormat (MonitoringParquetDatasetFormat'),
+    MonitoringParquetDatasetFormat,
     newMonitoringParquetDatasetFormat,
 
     -- ** MonitoringResources
-    MonitoringResources (MonitoringResources'),
+    MonitoringResources,
     newMonitoringResources,
 
     -- ** MonitoringS3Output
-    MonitoringS3Output (MonitoringS3Output'),
+    MonitoringS3Output,
     newMonitoringS3Output,
 
     -- ** MonitoringSchedule
-    MonitoringSchedule (MonitoringSchedule'),
+    MonitoringSchedule,
     newMonitoringSchedule,
 
     -- ** MonitoringScheduleConfig
-    MonitoringScheduleConfig (MonitoringScheduleConfig'),
+    MonitoringScheduleConfig,
     newMonitoringScheduleConfig,
 
     -- ** MonitoringScheduleSummary
-    MonitoringScheduleSummary (MonitoringScheduleSummary'),
+    MonitoringScheduleSummary,
     newMonitoringScheduleSummary,
 
     -- ** MonitoringStatisticsResource
-    MonitoringStatisticsResource (MonitoringStatisticsResource'),
+    MonitoringStatisticsResource,
     newMonitoringStatisticsResource,
 
     -- ** MonitoringStoppingCondition
-    MonitoringStoppingCondition (MonitoringStoppingCondition'),
+    MonitoringStoppingCondition,
     newMonitoringStoppingCondition,
 
     -- ** MultiModelConfig
-    MultiModelConfig (MultiModelConfig'),
+    MultiModelConfig,
     newMultiModelConfig,
 
     -- ** NeoVpcConfig
-    NeoVpcConfig (NeoVpcConfig'),
+    NeoVpcConfig,
     newNeoVpcConfig,
 
     -- ** NestedFilters
-    NestedFilters (NestedFilters'),
+    NestedFilters,
     newNestedFilters,
 
     -- ** NetworkConfig
-    NetworkConfig (NetworkConfig'),
+    NetworkConfig,
     newNetworkConfig,
 
     -- ** NotebookInstanceLifecycleConfigSummary
-    NotebookInstanceLifecycleConfigSummary (NotebookInstanceLifecycleConfigSummary'),
+    NotebookInstanceLifecycleConfigSummary,
     newNotebookInstanceLifecycleConfigSummary,
 
     -- ** NotebookInstanceLifecycleHook
-    NotebookInstanceLifecycleHook (NotebookInstanceLifecycleHook'),
+    NotebookInstanceLifecycleHook,
     newNotebookInstanceLifecycleHook,
 
     -- ** NotebookInstanceSummary
-    NotebookInstanceSummary (NotebookInstanceSummary'),
+    NotebookInstanceSummary,
     newNotebookInstanceSummary,
 
     -- ** NotificationConfiguration
-    NotificationConfiguration (NotificationConfiguration'),
+    NotificationConfiguration,
     newNotificationConfiguration,
 
     -- ** ObjectiveStatusCounters
-    ObjectiveStatusCounters (ObjectiveStatusCounters'),
+    ObjectiveStatusCounters,
     newObjectiveStatusCounters,
 
     -- ** OfflineStoreConfig
-    OfflineStoreConfig (OfflineStoreConfig'),
+    OfflineStoreConfig,
     newOfflineStoreConfig,
 
     -- ** OfflineStoreStatus
-    OfflineStoreStatus (OfflineStoreStatus'),
+    OfflineStoreStatus,
     newOfflineStoreStatus,
 
     -- ** OidcConfig
-    OidcConfig (OidcConfig'),
+    OidcConfig,
     newOidcConfig,
 
     -- ** OidcConfigForResponse
-    OidcConfigForResponse (OidcConfigForResponse'),
+    OidcConfigForResponse,
     newOidcConfigForResponse,
 
     -- ** OidcMemberDefinition
-    OidcMemberDefinition (OidcMemberDefinition'),
+    OidcMemberDefinition,
     newOidcMemberDefinition,
 
     -- ** OnlineStoreConfig
-    OnlineStoreConfig (OnlineStoreConfig'),
+    OnlineStoreConfig,
     newOnlineStoreConfig,
 
     -- ** OnlineStoreSecurityConfig
-    OnlineStoreSecurityConfig (OnlineStoreSecurityConfig'),
+    OnlineStoreSecurityConfig,
     newOnlineStoreSecurityConfig,
 
     -- ** OutputConfig
-    OutputConfig (OutputConfig'),
+    OutputConfig,
     newOutputConfig,
 
     -- ** OutputDataConfig
-    OutputDataConfig (OutputDataConfig'),
+    OutputDataConfig,
     newOutputDataConfig,
 
     -- ** OutputParameter
-    OutputParameter (OutputParameter'),
+    OutputParameter,
     newOutputParameter,
 
     -- ** ParallelismConfiguration
-    ParallelismConfiguration (ParallelismConfiguration'),
+    ParallelismConfiguration,
     newParallelismConfiguration,
 
     -- ** Parameter
-    Parameter (Parameter'),
+    Parameter,
     newParameter,
 
     -- ** ParameterRange
-    ParameterRange (ParameterRange'),
+    ParameterRange,
     newParameterRange,
 
     -- ** ParameterRanges
-    ParameterRanges (ParameterRanges'),
+    ParameterRanges,
     newParameterRanges,
 
     -- ** Parent
-    Parent (Parent'),
+    Parent,
     newParent,
 
     -- ** ParentHyperParameterTuningJob
-    ParentHyperParameterTuningJob (ParentHyperParameterTuningJob'),
+    ParentHyperParameterTuningJob,
     newParentHyperParameterTuningJob,
 
     -- ** PendingDeploymentSummary
-    PendingDeploymentSummary (PendingDeploymentSummary'),
+    PendingDeploymentSummary,
     newPendingDeploymentSummary,
 
     -- ** PendingProductionVariantSummary
-    PendingProductionVariantSummary (PendingProductionVariantSummary'),
+    PendingProductionVariantSummary,
     newPendingProductionVariantSummary,
 
     -- ** Phase
-    Phase (Phase'),
+    Phase,
     newPhase,
 
     -- ** Pipeline
-    Pipeline (Pipeline'),
+    Pipeline,
     newPipeline,
 
     -- ** PipelineDefinitionS3Location
-    PipelineDefinitionS3Location (PipelineDefinitionS3Location'),
+    PipelineDefinitionS3Location,
     newPipelineDefinitionS3Location,
 
     -- ** PipelineExecution
-    PipelineExecution (PipelineExecution'),
+    PipelineExecution,
     newPipelineExecution,
 
     -- ** PipelineExecutionStep
-    PipelineExecutionStep (PipelineExecutionStep'),
+    PipelineExecutionStep,
     newPipelineExecutionStep,
 
     -- ** PipelineExecutionStepMetadata
-    PipelineExecutionStepMetadata (PipelineExecutionStepMetadata'),
+    PipelineExecutionStepMetadata,
     newPipelineExecutionStepMetadata,
 
     -- ** PipelineExecutionSummary
-    PipelineExecutionSummary (PipelineExecutionSummary'),
+    PipelineExecutionSummary,
     newPipelineExecutionSummary,
 
     -- ** PipelineExperimentConfig
-    PipelineExperimentConfig (PipelineExperimentConfig'),
+    PipelineExperimentConfig,
     newPipelineExperimentConfig,
 
     -- ** PipelineSummary
-    PipelineSummary (PipelineSummary'),
+    PipelineSummary,
     newPipelineSummary,
 
     -- ** ProcessingClusterConfig
-    ProcessingClusterConfig (ProcessingClusterConfig'),
+    ProcessingClusterConfig,
     newProcessingClusterConfig,
 
     -- ** ProcessingFeatureStoreOutput
-    ProcessingFeatureStoreOutput (ProcessingFeatureStoreOutput'),
+    ProcessingFeatureStoreOutput,
     newProcessingFeatureStoreOutput,
 
     -- ** ProcessingInput
-    ProcessingInput (ProcessingInput'),
+    ProcessingInput,
     newProcessingInput,
 
     -- ** ProcessingJob
-    ProcessingJob (ProcessingJob'),
+    ProcessingJob,
     newProcessingJob,
 
     -- ** ProcessingJobStepMetadata
-    ProcessingJobStepMetadata (ProcessingJobStepMetadata'),
+    ProcessingJobStepMetadata,
     newProcessingJobStepMetadata,
 
     -- ** ProcessingJobSummary
-    ProcessingJobSummary (ProcessingJobSummary'),
+    ProcessingJobSummary,
     newProcessingJobSummary,
 
     -- ** ProcessingOutput
-    ProcessingOutput (ProcessingOutput'),
+    ProcessingOutput,
     newProcessingOutput,
 
     -- ** ProcessingOutputConfig
-    ProcessingOutputConfig (ProcessingOutputConfig'),
+    ProcessingOutputConfig,
     newProcessingOutputConfig,
 
     -- ** ProcessingResources
-    ProcessingResources (ProcessingResources'),
+    ProcessingResources,
     newProcessingResources,
 
     -- ** ProcessingS3Input
-    ProcessingS3Input (ProcessingS3Input'),
+    ProcessingS3Input,
     newProcessingS3Input,
 
     -- ** ProcessingS3Output
-    ProcessingS3Output (ProcessingS3Output'),
+    ProcessingS3Output,
     newProcessingS3Output,
 
     -- ** ProcessingStoppingCondition
-    ProcessingStoppingCondition (ProcessingStoppingCondition'),
+    ProcessingStoppingCondition,
     newProcessingStoppingCondition,
 
     -- ** ProductionVariant
-    ProductionVariant (ProductionVariant'),
+    ProductionVariant,
     newProductionVariant,
 
     -- ** ProductionVariantCoreDumpConfig
-    ProductionVariantCoreDumpConfig (ProductionVariantCoreDumpConfig'),
+    ProductionVariantCoreDumpConfig,
     newProductionVariantCoreDumpConfig,
 
     -- ** ProductionVariantServerlessConfig
-    ProductionVariantServerlessConfig (ProductionVariantServerlessConfig'),
+    ProductionVariantServerlessConfig,
     newProductionVariantServerlessConfig,
 
     -- ** ProductionVariantStatus
-    ProductionVariantStatus (ProductionVariantStatus'),
+    ProductionVariantStatus,
     newProductionVariantStatus,
 
     -- ** ProductionVariantSummary
-    ProductionVariantSummary (ProductionVariantSummary'),
+    ProductionVariantSummary,
     newProductionVariantSummary,
 
     -- ** ProfilerConfig
-    ProfilerConfig (ProfilerConfig'),
+    ProfilerConfig,
     newProfilerConfig,
 
     -- ** ProfilerConfigForUpdate
-    ProfilerConfigForUpdate (ProfilerConfigForUpdate'),
+    ProfilerConfigForUpdate,
     newProfilerConfigForUpdate,
 
     -- ** ProfilerRuleConfiguration
-    ProfilerRuleConfiguration (ProfilerRuleConfiguration'),
+    ProfilerRuleConfiguration,
     newProfilerRuleConfiguration,
 
     -- ** ProfilerRuleEvaluationStatus
-    ProfilerRuleEvaluationStatus (ProfilerRuleEvaluationStatus'),
+    ProfilerRuleEvaluationStatus,
     newProfilerRuleEvaluationStatus,
 
     -- ** Project
-    Project (Project'),
+    Project,
     newProject,
 
     -- ** ProjectSummary
-    ProjectSummary (ProjectSummary'),
+    ProjectSummary,
     newProjectSummary,
 
     -- ** PropertyNameQuery
-    PropertyNameQuery (PropertyNameQuery'),
+    PropertyNameQuery,
     newPropertyNameQuery,
 
     -- ** PropertyNameSuggestion
-    PropertyNameSuggestion (PropertyNameSuggestion'),
+    PropertyNameSuggestion,
     newPropertyNameSuggestion,
 
     -- ** ProvisioningParameter
-    ProvisioningParameter (ProvisioningParameter'),
+    ProvisioningParameter,
     newProvisioningParameter,
 
     -- ** PublicWorkforceTaskPrice
-    PublicWorkforceTaskPrice (PublicWorkforceTaskPrice'),
+    PublicWorkforceTaskPrice,
     newPublicWorkforceTaskPrice,
 
     -- ** QualityCheckStepMetadata
-    QualityCheckStepMetadata (QualityCheckStepMetadata'),
+    QualityCheckStepMetadata,
     newQualityCheckStepMetadata,
 
     -- ** QueryFilters
-    QueryFilters (QueryFilters'),
+    QueryFilters,
     newQueryFilters,
 
     -- ** RSessionAppSettings
-    RSessionAppSettings (RSessionAppSettings'),
+    RSessionAppSettings,
     newRSessionAppSettings,
 
     -- ** RStudioServerProAppSettings
-    RStudioServerProAppSettings (RStudioServerProAppSettings'),
+    RStudioServerProAppSettings,
     newRStudioServerProAppSettings,
 
     -- ** RStudioServerProDomainSettings
-    RStudioServerProDomainSettings (RStudioServerProDomainSettings'),
+    RStudioServerProDomainSettings,
     newRStudioServerProDomainSettings,
 
     -- ** RStudioServerProDomainSettingsForUpdate
-    RStudioServerProDomainSettingsForUpdate (RStudioServerProDomainSettingsForUpdate'),
+    RStudioServerProDomainSettingsForUpdate,
     newRStudioServerProDomainSettingsForUpdate,
 
     -- ** RealTimeInferenceConfig
-    RealTimeInferenceConfig (RealTimeInferenceConfig'),
+    RealTimeInferenceConfig,
     newRealTimeInferenceConfig,
 
     -- ** RecommendationJobCompiledOutputConfig
-    RecommendationJobCompiledOutputConfig (RecommendationJobCompiledOutputConfig'),
+    RecommendationJobCompiledOutputConfig,
     newRecommendationJobCompiledOutputConfig,
 
     -- ** RecommendationJobContainerConfig
-    RecommendationJobContainerConfig (RecommendationJobContainerConfig'),
+    RecommendationJobContainerConfig,
     newRecommendationJobContainerConfig,
 
     -- ** RecommendationJobInferenceBenchmark
-    RecommendationJobInferenceBenchmark (RecommendationJobInferenceBenchmark'),
+    RecommendationJobInferenceBenchmark,
     newRecommendationJobInferenceBenchmark,
 
     -- ** RecommendationJobInputConfig
-    RecommendationJobInputConfig (RecommendationJobInputConfig'),
+    RecommendationJobInputConfig,
     newRecommendationJobInputConfig,
 
     -- ** RecommendationJobOutputConfig
-    RecommendationJobOutputConfig (RecommendationJobOutputConfig'),
+    RecommendationJobOutputConfig,
     newRecommendationJobOutputConfig,
 
     -- ** RecommendationJobPayloadConfig
-    RecommendationJobPayloadConfig (RecommendationJobPayloadConfig'),
+    RecommendationJobPayloadConfig,
     newRecommendationJobPayloadConfig,
 
     -- ** RecommendationJobResourceLimit
-    RecommendationJobResourceLimit (RecommendationJobResourceLimit'),
+    RecommendationJobResourceLimit,
     newRecommendationJobResourceLimit,
 
     -- ** RecommendationJobStoppingConditions
-    RecommendationJobStoppingConditions (RecommendationJobStoppingConditions'),
+    RecommendationJobStoppingConditions,
     newRecommendationJobStoppingConditions,
 
     -- ** RecommendationJobVpcConfig
-    RecommendationJobVpcConfig (RecommendationJobVpcConfig'),
+    RecommendationJobVpcConfig,
     newRecommendationJobVpcConfig,
 
     -- ** RecommendationMetrics
-    RecommendationMetrics (RecommendationMetrics'),
+    RecommendationMetrics,
     newRecommendationMetrics,
 
     -- ** RedshiftDatasetDefinition
-    RedshiftDatasetDefinition (RedshiftDatasetDefinition'),
+    RedshiftDatasetDefinition,
     newRedshiftDatasetDefinition,
 
     -- ** RegisterModelStepMetadata
-    RegisterModelStepMetadata (RegisterModelStepMetadata'),
+    RegisterModelStepMetadata,
     newRegisterModelStepMetadata,
 
     -- ** RenderableTask
-    RenderableTask (RenderableTask'),
+    RenderableTask,
     newRenderableTask,
 
     -- ** RenderingError
-    RenderingError (RenderingError'),
+    RenderingError,
     newRenderingError,
 
     -- ** RepositoryAuthConfig
-    RepositoryAuthConfig (RepositoryAuthConfig'),
+    RepositoryAuthConfig,
     newRepositoryAuthConfig,
 
     -- ** ResolvedAttributes
-    ResolvedAttributes (ResolvedAttributes'),
+    ResolvedAttributes,
     newResolvedAttributes,
 
     -- ** ResourceConfig
-    ResourceConfig (ResourceConfig'),
+    ResourceConfig,
     newResourceConfig,
 
     -- ** ResourceConfigForUpdate
-    ResourceConfigForUpdate (ResourceConfigForUpdate'),
+    ResourceConfigForUpdate,
     newResourceConfigForUpdate,
 
     -- ** ResourceLimits
-    ResourceLimits (ResourceLimits'),
+    ResourceLimits,
     newResourceLimits,
 
     -- ** ResourceSpec
-    ResourceSpec (ResourceSpec'),
+    ResourceSpec,
     newResourceSpec,
 
     -- ** RetentionPolicy
-    RetentionPolicy (RetentionPolicy'),
+    RetentionPolicy,
     newRetentionPolicy,
 
     -- ** RetryStrategy
-    RetryStrategy (RetryStrategy'),
+    RetryStrategy,
     newRetryStrategy,
 
     -- ** S3DataSource
-    S3DataSource (S3DataSource'),
+    S3DataSource,
     newS3DataSource,
 
     -- ** S3StorageConfig
-    S3StorageConfig (S3StorageConfig'),
+    S3StorageConfig,
     newS3StorageConfig,
 
     -- ** ScheduleConfig
-    ScheduleConfig (ScheduleConfig'),
+    ScheduleConfig,
     newScheduleConfig,
 
     -- ** SearchExpression
-    SearchExpression (SearchExpression'),
+    SearchExpression,
     newSearchExpression,
 
     -- ** SearchRecord
-    SearchRecord (SearchRecord'),
+    SearchRecord,
     newSearchRecord,
 
     -- ** SecondaryStatusTransition
-    SecondaryStatusTransition (SecondaryStatusTransition'),
+    SecondaryStatusTransition,
     newSecondaryStatusTransition,
 
     -- ** ServiceCatalogProvisionedProductDetails
-    ServiceCatalogProvisionedProductDetails (ServiceCatalogProvisionedProductDetails'),
+    ServiceCatalogProvisionedProductDetails,
     newServiceCatalogProvisionedProductDetails,
 
     -- ** ServiceCatalogProvisioningDetails
-    ServiceCatalogProvisioningDetails (ServiceCatalogProvisioningDetails'),
+    ServiceCatalogProvisioningDetails,
     newServiceCatalogProvisioningDetails,
 
     -- ** ServiceCatalogProvisioningUpdateDetails
-    ServiceCatalogProvisioningUpdateDetails (ServiceCatalogProvisioningUpdateDetails'),
+    ServiceCatalogProvisioningUpdateDetails,
     newServiceCatalogProvisioningUpdateDetails,
 
     -- ** ShadowModeConfig
-    ShadowModeConfig (ShadowModeConfig'),
+    ShadowModeConfig,
     newShadowModeConfig,
 
     -- ** ShadowModelVariantConfig
-    ShadowModelVariantConfig (ShadowModelVariantConfig'),
+    ShadowModelVariantConfig,
     newShadowModelVariantConfig,
 
     -- ** SharingSettings
-    SharingSettings (SharingSettings'),
+    SharingSettings,
     newSharingSettings,
 
     -- ** ShuffleConfig
-    ShuffleConfig (ShuffleConfig'),
+    ShuffleConfig,
     newShuffleConfig,
 
     -- ** SourceAlgorithm
-    SourceAlgorithm (SourceAlgorithm'),
+    SourceAlgorithm,
     newSourceAlgorithm,
 
     -- ** SourceAlgorithmSpecification
-    SourceAlgorithmSpecification (SourceAlgorithmSpecification'),
+    SourceAlgorithmSpecification,
     newSourceAlgorithmSpecification,
 
     -- ** SourceIpConfig
-    SourceIpConfig (SourceIpConfig'),
+    SourceIpConfig,
     newSourceIpConfig,
 
     -- ** SpaceDetails
-    SpaceDetails (SpaceDetails'),
+    SpaceDetails,
     newSpaceDetails,
 
     -- ** SpaceSettings
-    SpaceSettings (SpaceSettings'),
+    SpaceSettings,
     newSpaceSettings,
 
     -- ** StoppingCondition
-    StoppingCondition (StoppingCondition'),
+    StoppingCondition,
     newStoppingCondition,
 
     -- ** StudioLifecycleConfigDetails
-    StudioLifecycleConfigDetails (StudioLifecycleConfigDetails'),
+    StudioLifecycleConfigDetails,
     newStudioLifecycleConfigDetails,
 
     -- ** SubscribedWorkteam
-    SubscribedWorkteam (SubscribedWorkteam'),
+    SubscribedWorkteam,
     newSubscribedWorkteam,
 
     -- ** SuggestionQuery
-    SuggestionQuery (SuggestionQuery'),
+    SuggestionQuery,
     newSuggestionQuery,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
 
     -- ** TargetPlatform
-    TargetPlatform (TargetPlatform'),
+    TargetPlatform,
     newTargetPlatform,
 
     -- ** TensorBoardAppSettings
-    TensorBoardAppSettings (TensorBoardAppSettings'),
+    TensorBoardAppSettings,
     newTensorBoardAppSettings,
 
     -- ** TensorBoardOutputConfig
-    TensorBoardOutputConfig (TensorBoardOutputConfig'),
+    TensorBoardOutputConfig,
     newTensorBoardOutputConfig,
 
     -- ** TimeSeriesForecastingSettings
-    TimeSeriesForecastingSettings (TimeSeriesForecastingSettings'),
+    TimeSeriesForecastingSettings,
     newTimeSeriesForecastingSettings,
 
     -- ** TrafficPattern
-    TrafficPattern (TrafficPattern'),
+    TrafficPattern,
     newTrafficPattern,
 
     -- ** TrafficRoutingConfig
-    TrafficRoutingConfig (TrafficRoutingConfig'),
+    TrafficRoutingConfig,
     newTrafficRoutingConfig,
 
     -- ** TrainingJob
-    TrainingJob (TrainingJob'),
+    TrainingJob,
     newTrainingJob,
 
     -- ** TrainingJobDefinition
-    TrainingJobDefinition (TrainingJobDefinition'),
+    TrainingJobDefinition,
     newTrainingJobDefinition,
 
     -- ** TrainingJobStatusCounters
-    TrainingJobStatusCounters (TrainingJobStatusCounters'),
+    TrainingJobStatusCounters,
     newTrainingJobStatusCounters,
 
     -- ** TrainingJobStepMetadata
-    TrainingJobStepMetadata (TrainingJobStepMetadata'),
+    TrainingJobStepMetadata,
     newTrainingJobStepMetadata,
 
     -- ** TrainingJobSummary
-    TrainingJobSummary (TrainingJobSummary'),
+    TrainingJobSummary,
     newTrainingJobSummary,
 
     -- ** TrainingSpecification
-    TrainingSpecification (TrainingSpecification'),
+    TrainingSpecification,
     newTrainingSpecification,
 
     -- ** TransformDataSource
-    TransformDataSource (TransformDataSource'),
+    TransformDataSource,
     newTransformDataSource,
 
     -- ** TransformInput
-    TransformInput (TransformInput'),
+    TransformInput,
     newTransformInput,
 
     -- ** TransformJob
-    TransformJob (TransformJob'),
+    TransformJob,
     newTransformJob,
 
     -- ** TransformJobDefinition
-    TransformJobDefinition (TransformJobDefinition'),
+    TransformJobDefinition,
     newTransformJobDefinition,
 
     -- ** TransformJobStepMetadata
-    TransformJobStepMetadata (TransformJobStepMetadata'),
+    TransformJobStepMetadata,
     newTransformJobStepMetadata,
 
     -- ** TransformJobSummary
-    TransformJobSummary (TransformJobSummary'),
+    TransformJobSummary,
     newTransformJobSummary,
 
     -- ** TransformOutput
-    TransformOutput (TransformOutput'),
+    TransformOutput,
     newTransformOutput,
 
     -- ** TransformResources
-    TransformResources (TransformResources'),
+    TransformResources,
     newTransformResources,
 
     -- ** TransformS3DataSource
-    TransformS3DataSource (TransformS3DataSource'),
+    TransformS3DataSource,
     newTransformS3DataSource,
 
     -- ** Trial
-    Trial (Trial'),
+    Trial,
     newTrial,
 
     -- ** TrialComponent
-    TrialComponent (TrialComponent'),
+    TrialComponent,
     newTrialComponent,
 
     -- ** TrialComponentArtifact
-    TrialComponentArtifact (TrialComponentArtifact'),
+    TrialComponentArtifact,
     newTrialComponentArtifact,
 
     -- ** TrialComponentMetricSummary
-    TrialComponentMetricSummary (TrialComponentMetricSummary'),
+    TrialComponentMetricSummary,
     newTrialComponentMetricSummary,
 
     -- ** TrialComponentParameterValue
-    TrialComponentParameterValue (TrialComponentParameterValue'),
+    TrialComponentParameterValue,
     newTrialComponentParameterValue,
 
     -- ** TrialComponentSimpleSummary
-    TrialComponentSimpleSummary (TrialComponentSimpleSummary'),
+    TrialComponentSimpleSummary,
     newTrialComponentSimpleSummary,
 
     -- ** TrialComponentSource
-    TrialComponentSource (TrialComponentSource'),
+    TrialComponentSource,
     newTrialComponentSource,
 
     -- ** TrialComponentSourceDetail
-    TrialComponentSourceDetail (TrialComponentSourceDetail'),
+    TrialComponentSourceDetail,
     newTrialComponentSourceDetail,
 
     -- ** TrialComponentStatus
-    TrialComponentStatus (TrialComponentStatus'),
+    TrialComponentStatus,
     newTrialComponentStatus,
 
     -- ** TrialComponentSummary
-    TrialComponentSummary (TrialComponentSummary'),
+    TrialComponentSummary,
     newTrialComponentSummary,
 
     -- ** TrialSource
-    TrialSource (TrialSource'),
+    TrialSource,
     newTrialSource,
 
     -- ** TrialSummary
-    TrialSummary (TrialSummary'),
+    TrialSummary,
     newTrialSummary,
 
     -- ** TuningJobCompletionCriteria
-    TuningJobCompletionCriteria (TuningJobCompletionCriteria'),
+    TuningJobCompletionCriteria,
     newTuningJobCompletionCriteria,
 
     -- ** TuningJobStepMetaData
-    TuningJobStepMetaData (TuningJobStepMetaData'),
+    TuningJobStepMetaData,
     newTuningJobStepMetaData,
 
     -- ** USD
-    USD (USD'),
+    USD,
     newUSD,
 
     -- ** UiConfig
-    UiConfig (UiConfig'),
+    UiConfig,
     newUiConfig,
 
     -- ** UiTemplate
-    UiTemplate (UiTemplate'),
+    UiTemplate,
     newUiTemplate,
 
     -- ** UiTemplateInfo
-    UiTemplateInfo (UiTemplateInfo'),
+    UiTemplateInfo,
     newUiTemplateInfo,
 
     -- ** UserContext
-    UserContext (UserContext'),
+    UserContext,
     newUserContext,
 
     -- ** UserProfileDetails
-    UserProfileDetails (UserProfileDetails'),
+    UserProfileDetails,
     newUserProfileDetails,
 
     -- ** UserSettings
-    UserSettings (UserSettings'),
+    UserSettings,
     newUserSettings,
 
     -- ** VariantProperty
-    VariantProperty (VariantProperty'),
+    VariantProperty,
     newVariantProperty,
 
     -- ** Vertex
-    Vertex (Vertex'),
+    Vertex,
     newVertex,
 
     -- ** VpcConfig
-    VpcConfig (VpcConfig'),
+    VpcConfig,
     newVpcConfig,
 
     -- ** WarmPoolStatus
-    WarmPoolStatus (WarmPoolStatus'),
+    WarmPoolStatus,
     newWarmPoolStatus,
 
     -- ** Workforce
-    Workforce (Workforce'),
+    Workforce,
     newWorkforce,
 
     -- ** WorkforceVpcConfigRequest
-    WorkforceVpcConfigRequest (WorkforceVpcConfigRequest'),
+    WorkforceVpcConfigRequest,
     newWorkforceVpcConfigRequest,
 
     -- ** WorkforceVpcConfigResponse
-    WorkforceVpcConfigResponse (WorkforceVpcConfigResponse'),
+    WorkforceVpcConfigResponse,
     newWorkforceVpcConfigResponse,
 
     -- ** Workteam
-    Workteam (Workteam'),
+    Workteam,
     newWorkteam,
   )
 where

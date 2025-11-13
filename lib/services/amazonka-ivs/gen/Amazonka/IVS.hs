@@ -291,171 +291,171 @@ module Amazonka.IVS
     -- $operations
 
     -- ** BatchGetChannel
-    BatchGetChannel (BatchGetChannel'),
+    BatchGetChannel,
     newBatchGetChannel,
-    BatchGetChannelResponse (BatchGetChannelResponse'),
+    BatchGetChannelResponse,
     newBatchGetChannelResponse,
 
     -- ** BatchGetStreamKey
-    BatchGetStreamKey (BatchGetStreamKey'),
+    BatchGetStreamKey,
     newBatchGetStreamKey,
-    BatchGetStreamKeyResponse (BatchGetStreamKeyResponse'),
+    BatchGetStreamKeyResponse,
     newBatchGetStreamKeyResponse,
 
     -- ** CreateChannel
-    CreateChannel (CreateChannel'),
+    CreateChannel,
     newCreateChannel,
-    CreateChannelResponse (CreateChannelResponse'),
+    CreateChannelResponse,
     newCreateChannelResponse,
 
     -- ** CreateRecordingConfiguration
-    CreateRecordingConfiguration (CreateRecordingConfiguration'),
+    CreateRecordingConfiguration,
     newCreateRecordingConfiguration,
-    CreateRecordingConfigurationResponse (CreateRecordingConfigurationResponse'),
+    CreateRecordingConfigurationResponse,
     newCreateRecordingConfigurationResponse,
 
     -- ** CreateStreamKey
-    CreateStreamKey (CreateStreamKey'),
+    CreateStreamKey,
     newCreateStreamKey,
-    CreateStreamKeyResponse (CreateStreamKeyResponse'),
+    CreateStreamKeyResponse,
     newCreateStreamKeyResponse,
 
     -- ** DeleteChannel
-    DeleteChannel (DeleteChannel'),
+    DeleteChannel,
     newDeleteChannel,
-    DeleteChannelResponse (DeleteChannelResponse'),
+    DeleteChannelResponse,
     newDeleteChannelResponse,
 
     -- ** DeletePlaybackKeyPair
-    DeletePlaybackKeyPair (DeletePlaybackKeyPair'),
+    DeletePlaybackKeyPair,
     newDeletePlaybackKeyPair,
-    DeletePlaybackKeyPairResponse (DeletePlaybackKeyPairResponse'),
+    DeletePlaybackKeyPairResponse,
     newDeletePlaybackKeyPairResponse,
 
     -- ** DeleteRecordingConfiguration
-    DeleteRecordingConfiguration (DeleteRecordingConfiguration'),
+    DeleteRecordingConfiguration,
     newDeleteRecordingConfiguration,
-    DeleteRecordingConfigurationResponse (DeleteRecordingConfigurationResponse'),
+    DeleteRecordingConfigurationResponse,
     newDeleteRecordingConfigurationResponse,
 
     -- ** DeleteStreamKey
-    DeleteStreamKey (DeleteStreamKey'),
+    DeleteStreamKey,
     newDeleteStreamKey,
-    DeleteStreamKeyResponse (DeleteStreamKeyResponse'),
+    DeleteStreamKeyResponse,
     newDeleteStreamKeyResponse,
 
     -- ** GetChannel
-    GetChannel (GetChannel'),
+    GetChannel,
     newGetChannel,
-    GetChannelResponse (GetChannelResponse'),
+    GetChannelResponse,
     newGetChannelResponse,
 
     -- ** GetPlaybackKeyPair
-    GetPlaybackKeyPair (GetPlaybackKeyPair'),
+    GetPlaybackKeyPair,
     newGetPlaybackKeyPair,
-    GetPlaybackKeyPairResponse (GetPlaybackKeyPairResponse'),
+    GetPlaybackKeyPairResponse,
     newGetPlaybackKeyPairResponse,
 
     -- ** GetRecordingConfiguration
-    GetRecordingConfiguration (GetRecordingConfiguration'),
+    GetRecordingConfiguration,
     newGetRecordingConfiguration,
-    GetRecordingConfigurationResponse (GetRecordingConfigurationResponse'),
+    GetRecordingConfigurationResponse,
     newGetRecordingConfigurationResponse,
 
     -- ** GetStream
-    GetStream (GetStream'),
+    GetStream,
     newGetStream,
-    GetStreamResponse (GetStreamResponse'),
+    GetStreamResponse,
     newGetStreamResponse,
 
     -- ** GetStreamKey
-    GetStreamKey (GetStreamKey'),
+    GetStreamKey,
     newGetStreamKey,
-    GetStreamKeyResponse (GetStreamKeyResponse'),
+    GetStreamKeyResponse,
     newGetStreamKeyResponse,
 
     -- ** GetStreamSession
-    GetStreamSession (GetStreamSession'),
+    GetStreamSession,
     newGetStreamSession,
-    GetStreamSessionResponse (GetStreamSessionResponse'),
+    GetStreamSessionResponse,
     newGetStreamSessionResponse,
 
     -- ** ImportPlaybackKeyPair
-    ImportPlaybackKeyPair (ImportPlaybackKeyPair'),
+    ImportPlaybackKeyPair,
     newImportPlaybackKeyPair,
-    ImportPlaybackKeyPairResponse (ImportPlaybackKeyPairResponse'),
+    ImportPlaybackKeyPairResponse,
     newImportPlaybackKeyPairResponse,
 
     -- ** ListChannels (Paginated)
-    ListChannels (ListChannels'),
+    ListChannels,
     newListChannels,
-    ListChannelsResponse (ListChannelsResponse'),
+    ListChannelsResponse,
     newListChannelsResponse,
 
     -- ** ListPlaybackKeyPairs (Paginated)
-    ListPlaybackKeyPairs (ListPlaybackKeyPairs'),
+    ListPlaybackKeyPairs,
     newListPlaybackKeyPairs,
-    ListPlaybackKeyPairsResponse (ListPlaybackKeyPairsResponse'),
+    ListPlaybackKeyPairsResponse,
     newListPlaybackKeyPairsResponse,
 
     -- ** ListRecordingConfigurations (Paginated)
-    ListRecordingConfigurations (ListRecordingConfigurations'),
+    ListRecordingConfigurations,
     newListRecordingConfigurations,
-    ListRecordingConfigurationsResponse (ListRecordingConfigurationsResponse'),
+    ListRecordingConfigurationsResponse,
     newListRecordingConfigurationsResponse,
 
     -- ** ListStreamKeys (Paginated)
-    ListStreamKeys (ListStreamKeys'),
+    ListStreamKeys,
     newListStreamKeys,
-    ListStreamKeysResponse (ListStreamKeysResponse'),
+    ListStreamKeysResponse,
     newListStreamKeysResponse,
 
     -- ** ListStreamSessions
-    ListStreamSessions (ListStreamSessions'),
+    ListStreamSessions,
     newListStreamSessions,
-    ListStreamSessionsResponse (ListStreamSessionsResponse'),
+    ListStreamSessionsResponse,
     newListStreamSessionsResponse,
 
     -- ** ListStreams (Paginated)
-    ListStreams (ListStreams'),
+    ListStreams,
     newListStreams,
-    ListStreamsResponse (ListStreamsResponse'),
+    ListStreamsResponse,
     newListStreamsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** PutMetadata
-    PutMetadata (PutMetadata'),
+    PutMetadata,
     newPutMetadata,
-    PutMetadataResponse (PutMetadataResponse'),
+    PutMetadataResponse,
     newPutMetadataResponse,
 
     -- ** StopStream
-    StopStream (StopStream'),
+    StopStream,
     newStopStream,
-    StopStreamResponse (StopStreamResponse'),
+    StopStreamResponse,
     newStopStreamResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateChannel
-    UpdateChannel (UpdateChannel'),
+    UpdateChannel,
     newUpdateChannel,
-    UpdateChannelResponse (UpdateChannelResponse'),
+    UpdateChannelResponse,
     newUpdateChannelResponse,
 
     -- * Types
@@ -479,87 +479,87 @@ module Amazonka.IVS
     StreamState (..),
 
     -- ** AudioConfiguration
-    AudioConfiguration (AudioConfiguration'),
+    AudioConfiguration,
     newAudioConfiguration,
 
     -- ** BatchError
-    BatchError (BatchError'),
+    BatchError,
     newBatchError,
 
     -- ** Channel
-    Channel (Channel'),
+    Channel,
     newChannel,
 
     -- ** ChannelSummary
-    ChannelSummary (ChannelSummary'),
+    ChannelSummary,
     newChannelSummary,
 
     -- ** DestinationConfiguration
-    DestinationConfiguration (DestinationConfiguration'),
+    DestinationConfiguration,
     newDestinationConfiguration,
 
     -- ** IngestConfiguration
-    IngestConfiguration (IngestConfiguration'),
+    IngestConfiguration,
     newIngestConfiguration,
 
     -- ** PlaybackKeyPair
-    PlaybackKeyPair (PlaybackKeyPair'),
+    PlaybackKeyPair,
     newPlaybackKeyPair,
 
     -- ** PlaybackKeyPairSummary
-    PlaybackKeyPairSummary (PlaybackKeyPairSummary'),
+    PlaybackKeyPairSummary,
     newPlaybackKeyPairSummary,
 
     -- ** RecordingConfiguration
-    RecordingConfiguration (RecordingConfiguration'),
+    RecordingConfiguration,
     newRecordingConfiguration,
 
     -- ** RecordingConfigurationSummary
-    RecordingConfigurationSummary (RecordingConfigurationSummary'),
+    RecordingConfigurationSummary,
     newRecordingConfigurationSummary,
 
     -- ** S3DestinationConfiguration
-    S3DestinationConfiguration (S3DestinationConfiguration'),
+    S3DestinationConfiguration,
     newS3DestinationConfiguration,
 
     -- ** Stream
-    Stream (Stream'),
+    Stream,
     newStream,
 
     -- ** StreamEvent
-    StreamEvent (StreamEvent'),
+    StreamEvent,
     newStreamEvent,
 
     -- ** StreamFilters
-    StreamFilters (StreamFilters'),
+    StreamFilters,
     newStreamFilters,
 
     -- ** StreamKey
-    StreamKey (StreamKey'),
+    StreamKey,
     newStreamKey,
 
     -- ** StreamKeySummary
-    StreamKeySummary (StreamKeySummary'),
+    StreamKeySummary,
     newStreamKeySummary,
 
     -- ** StreamSession
-    StreamSession (StreamSession'),
+    StreamSession,
     newStreamSession,
 
     -- ** StreamSessionSummary
-    StreamSessionSummary (StreamSessionSummary'),
+    StreamSessionSummary,
     newStreamSessionSummary,
 
     -- ** StreamSummary
-    StreamSummary (StreamSummary'),
+    StreamSummary,
     newStreamSummary,
 
     -- ** ThumbnailConfiguration
-    ThumbnailConfiguration (ThumbnailConfiguration'),
+    ThumbnailConfiguration,
     newThumbnailConfiguration,
 
     -- ** VideoConfiguration
-    VideoConfiguration (VideoConfiguration'),
+    VideoConfiguration,
     newVideoConfiguration,
   )
 where

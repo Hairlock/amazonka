@@ -59,189 +59,189 @@ module Amazonka.Schemas
     -- $operations
 
     -- ** CreateDiscoverer
-    CreateDiscoverer (CreateDiscoverer'),
+    CreateDiscoverer,
     newCreateDiscoverer,
-    CreateDiscovererResponse (CreateDiscovererResponse'),
+    CreateDiscovererResponse,
     newCreateDiscovererResponse,
 
     -- ** CreateRegistry
-    CreateRegistry (CreateRegistry'),
+    CreateRegistry,
     newCreateRegistry,
-    CreateRegistryResponse (CreateRegistryResponse'),
+    CreateRegistryResponse,
     newCreateRegistryResponse,
 
     -- ** CreateSchema
-    CreateSchema (CreateSchema'),
+    CreateSchema,
     newCreateSchema,
-    CreateSchemaResponse (CreateSchemaResponse'),
+    CreateSchemaResponse,
     newCreateSchemaResponse,
 
     -- ** DeleteDiscoverer
-    DeleteDiscoverer (DeleteDiscoverer'),
+    DeleteDiscoverer,
     newDeleteDiscoverer,
-    DeleteDiscovererResponse (DeleteDiscovererResponse'),
+    DeleteDiscovererResponse,
     newDeleteDiscovererResponse,
 
     -- ** DeleteRegistry
-    DeleteRegistry (DeleteRegistry'),
+    DeleteRegistry,
     newDeleteRegistry,
-    DeleteRegistryResponse (DeleteRegistryResponse'),
+    DeleteRegistryResponse,
     newDeleteRegistryResponse,
 
     -- ** DeleteResourcePolicy
-    DeleteResourcePolicy (DeleteResourcePolicy'),
+    DeleteResourcePolicy,
     newDeleteResourcePolicy,
-    DeleteResourcePolicyResponse (DeleteResourcePolicyResponse'),
+    DeleteResourcePolicyResponse,
     newDeleteResourcePolicyResponse,
 
     -- ** DeleteSchema
-    DeleteSchema (DeleteSchema'),
+    DeleteSchema,
     newDeleteSchema,
-    DeleteSchemaResponse (DeleteSchemaResponse'),
+    DeleteSchemaResponse,
     newDeleteSchemaResponse,
 
     -- ** DeleteSchemaVersion
-    DeleteSchemaVersion (DeleteSchemaVersion'),
+    DeleteSchemaVersion,
     newDeleteSchemaVersion,
-    DeleteSchemaVersionResponse (DeleteSchemaVersionResponse'),
+    DeleteSchemaVersionResponse,
     newDeleteSchemaVersionResponse,
 
     -- ** DescribeCodeBinding
-    DescribeCodeBinding (DescribeCodeBinding'),
+    DescribeCodeBinding,
     newDescribeCodeBinding,
-    DescribeCodeBindingResponse (DescribeCodeBindingResponse'),
+    DescribeCodeBindingResponse,
     newDescribeCodeBindingResponse,
 
     -- ** DescribeDiscoverer
-    DescribeDiscoverer (DescribeDiscoverer'),
+    DescribeDiscoverer,
     newDescribeDiscoverer,
-    DescribeDiscovererResponse (DescribeDiscovererResponse'),
+    DescribeDiscovererResponse,
     newDescribeDiscovererResponse,
 
     -- ** DescribeRegistry
-    DescribeRegistry (DescribeRegistry'),
+    DescribeRegistry,
     newDescribeRegistry,
-    DescribeRegistryResponse (DescribeRegistryResponse'),
+    DescribeRegistryResponse,
     newDescribeRegistryResponse,
 
     -- ** DescribeSchema
-    DescribeSchema (DescribeSchema'),
+    DescribeSchema,
     newDescribeSchema,
-    DescribeSchemaResponse (DescribeSchemaResponse'),
+    DescribeSchemaResponse,
     newDescribeSchemaResponse,
 
     -- ** ExportSchema
-    ExportSchema (ExportSchema'),
+    ExportSchema,
     newExportSchema,
-    ExportSchemaResponse (ExportSchemaResponse'),
+    ExportSchemaResponse,
     newExportSchemaResponse,
 
     -- ** GetCodeBindingSource
-    GetCodeBindingSource (GetCodeBindingSource'),
+    GetCodeBindingSource,
     newGetCodeBindingSource,
-    GetCodeBindingSourceResponse (GetCodeBindingSourceResponse'),
+    GetCodeBindingSourceResponse,
     newGetCodeBindingSourceResponse,
 
     -- ** GetDiscoveredSchema
-    GetDiscoveredSchema (GetDiscoveredSchema'),
+    GetDiscoveredSchema,
     newGetDiscoveredSchema,
-    GetDiscoveredSchemaResponse (GetDiscoveredSchemaResponse'),
+    GetDiscoveredSchemaResponse,
     newGetDiscoveredSchemaResponse,
 
     -- ** GetResourcePolicy
-    GetResourcePolicy (GetResourcePolicy'),
+    GetResourcePolicy,
     newGetResourcePolicy,
-    GetResourcePolicyResponse (GetResourcePolicyResponse'),
+    GetResourcePolicyResponse,
     newGetResourcePolicyResponse,
 
     -- ** ListDiscoverers (Paginated)
-    ListDiscoverers (ListDiscoverers'),
+    ListDiscoverers,
     newListDiscoverers,
-    ListDiscoverersResponse (ListDiscoverersResponse'),
+    ListDiscoverersResponse,
     newListDiscoverersResponse,
 
     -- ** ListRegistries (Paginated)
-    ListRegistries (ListRegistries'),
+    ListRegistries,
     newListRegistries,
-    ListRegistriesResponse (ListRegistriesResponse'),
+    ListRegistriesResponse,
     newListRegistriesResponse,
 
     -- ** ListSchemaVersions (Paginated)
-    ListSchemaVersions (ListSchemaVersions'),
+    ListSchemaVersions,
     newListSchemaVersions,
-    ListSchemaVersionsResponse (ListSchemaVersionsResponse'),
+    ListSchemaVersionsResponse,
     newListSchemaVersionsResponse,
 
     -- ** ListSchemas (Paginated)
-    ListSchemas (ListSchemas'),
+    ListSchemas,
     newListSchemas,
-    ListSchemasResponse (ListSchemasResponse'),
+    ListSchemasResponse,
     newListSchemasResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** PutCodeBinding
-    PutCodeBinding (PutCodeBinding'),
+    PutCodeBinding,
     newPutCodeBinding,
-    PutCodeBindingResponse (PutCodeBindingResponse'),
+    PutCodeBindingResponse,
     newPutCodeBindingResponse,
 
     -- ** PutResourcePolicy
-    PutResourcePolicy (PutResourcePolicy'),
+    PutResourcePolicy,
     newPutResourcePolicy,
-    PutResourcePolicyResponse (PutResourcePolicyResponse'),
+    PutResourcePolicyResponse,
     newPutResourcePolicyResponse,
 
     -- ** SearchSchemas (Paginated)
-    SearchSchemas (SearchSchemas'),
+    SearchSchemas,
     newSearchSchemas,
-    SearchSchemasResponse (SearchSchemasResponse'),
+    SearchSchemasResponse,
     newSearchSchemasResponse,
 
     -- ** StartDiscoverer
-    StartDiscoverer (StartDiscoverer'),
+    StartDiscoverer,
     newStartDiscoverer,
-    StartDiscovererResponse (StartDiscovererResponse'),
+    StartDiscovererResponse,
     newStartDiscovererResponse,
 
     -- ** StopDiscoverer
-    StopDiscoverer (StopDiscoverer'),
+    StopDiscoverer,
     newStopDiscoverer,
-    StopDiscovererResponse (StopDiscovererResponse'),
+    StopDiscovererResponse,
     newStopDiscovererResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateDiscoverer
-    UpdateDiscoverer (UpdateDiscoverer'),
+    UpdateDiscoverer,
     newUpdateDiscoverer,
-    UpdateDiscovererResponse (UpdateDiscovererResponse'),
+    UpdateDiscovererResponse,
     newUpdateDiscovererResponse,
 
     -- ** UpdateRegistry
-    UpdateRegistry (UpdateRegistry'),
+    UpdateRegistry,
     newUpdateRegistry,
-    UpdateRegistryResponse (UpdateRegistryResponse'),
+    UpdateRegistryResponse,
     newUpdateRegistryResponse,
 
     -- ** UpdateSchema
-    UpdateSchema (UpdateSchema'),
+    UpdateSchema,
     newUpdateSchema,
-    UpdateSchemaResponse (UpdateSchemaResponse'),
+    UpdateSchemaResponse,
     newUpdateSchemaResponse,
 
     -- * Types
@@ -256,27 +256,27 @@ module Amazonka.Schemas
     Type (..),
 
     -- ** DiscovererSummary
-    DiscovererSummary (DiscovererSummary'),
+    DiscovererSummary,
     newDiscovererSummary,
 
     -- ** RegistrySummary
-    RegistrySummary (RegistrySummary'),
+    RegistrySummary,
     newRegistrySummary,
 
     -- ** SchemaSummary
-    SchemaSummary (SchemaSummary'),
+    SchemaSummary,
     newSchemaSummary,
 
     -- ** SchemaVersionSummary
-    SchemaVersionSummary (SchemaVersionSummary'),
+    SchemaVersionSummary,
     newSchemaVersionSummary,
 
     -- ** SearchSchemaSummary
-    SearchSchemaSummary (SearchSchemaSummary'),
+    SearchSchemaSummary,
     newSearchSchemaSummary,
 
     -- ** SearchSchemaVersionSummary
-    SearchSchemaVersionSummary (SearchSchemaVersionSummary'),
+    SearchSchemaVersionSummary,
     newSearchSchemaVersionSummary,
   )
 where

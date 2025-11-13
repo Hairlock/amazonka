@@ -79,141 +79,141 @@ module Amazonka.CognitoIdentity
     -- $operations
 
     -- ** CreateIdentityPool
-    CreateIdentityPool (CreateIdentityPool'),
+    CreateIdentityPool,
     newCreateIdentityPool,
-    IdentityPool (IdentityPool'),
+    IdentityPool,
     newIdentityPool,
 
     -- ** DeleteIdentities
-    DeleteIdentities (DeleteIdentities'),
+    DeleteIdentities,
     newDeleteIdentities,
-    DeleteIdentitiesResponse (DeleteIdentitiesResponse'),
+    DeleteIdentitiesResponse,
     newDeleteIdentitiesResponse,
 
     -- ** DeleteIdentityPool
-    DeleteIdentityPool (DeleteIdentityPool'),
+    DeleteIdentityPool,
     newDeleteIdentityPool,
-    DeleteIdentityPoolResponse (DeleteIdentityPoolResponse'),
+    DeleteIdentityPoolResponse,
     newDeleteIdentityPoolResponse,
 
     -- ** DescribeIdentity
-    DescribeIdentity (DescribeIdentity'),
+    DescribeIdentity,
     newDescribeIdentity,
-    IdentityDescription (IdentityDescription'),
+    IdentityDescription,
     newIdentityDescription,
 
     -- ** DescribeIdentityPool
-    DescribeIdentityPool (DescribeIdentityPool'),
+    DescribeIdentityPool,
     newDescribeIdentityPool,
-    IdentityPool (IdentityPool'),
+    IdentityPool,
     newIdentityPool,
 
     -- ** GetCredentialsForIdentity
-    GetCredentialsForIdentity (GetCredentialsForIdentity'),
+    GetCredentialsForIdentity,
     newGetCredentialsForIdentity,
-    GetCredentialsForIdentityResponse (GetCredentialsForIdentityResponse'),
+    GetCredentialsForIdentityResponse,
     newGetCredentialsForIdentityResponse,
 
     -- ** GetId
-    GetId (GetId'),
+    GetId,
     newGetId,
-    GetIdResponse (GetIdResponse'),
+    GetIdResponse,
     newGetIdResponse,
 
     -- ** GetIdentityPoolRoles
-    GetIdentityPoolRoles (GetIdentityPoolRoles'),
+    GetIdentityPoolRoles,
     newGetIdentityPoolRoles,
-    GetIdentityPoolRolesResponse (GetIdentityPoolRolesResponse'),
+    GetIdentityPoolRolesResponse,
     newGetIdentityPoolRolesResponse,
 
     -- ** GetOpenIdToken
-    GetOpenIdToken (GetOpenIdToken'),
+    GetOpenIdToken,
     newGetOpenIdToken,
-    GetOpenIdTokenResponse (GetOpenIdTokenResponse'),
+    GetOpenIdTokenResponse,
     newGetOpenIdTokenResponse,
 
     -- ** GetOpenIdTokenForDeveloperIdentity
-    GetOpenIdTokenForDeveloperIdentity (GetOpenIdTokenForDeveloperIdentity'),
+    GetOpenIdTokenForDeveloperIdentity,
     newGetOpenIdTokenForDeveloperIdentity,
-    GetOpenIdTokenForDeveloperIdentityResponse (GetOpenIdTokenForDeveloperIdentityResponse'),
+    GetOpenIdTokenForDeveloperIdentityResponse,
     newGetOpenIdTokenForDeveloperIdentityResponse,
 
     -- ** GetPrincipalTagAttributeMap
-    GetPrincipalTagAttributeMap (GetPrincipalTagAttributeMap'),
+    GetPrincipalTagAttributeMap,
     newGetPrincipalTagAttributeMap,
-    GetPrincipalTagAttributeMapResponse (GetPrincipalTagAttributeMapResponse'),
+    GetPrincipalTagAttributeMapResponse,
     newGetPrincipalTagAttributeMapResponse,
 
     -- ** ListIdentities
-    ListIdentities (ListIdentities'),
+    ListIdentities,
     newListIdentities,
-    ListIdentitiesResponse (ListIdentitiesResponse'),
+    ListIdentitiesResponse,
     newListIdentitiesResponse,
 
     -- ** ListIdentityPools (Paginated)
-    ListIdentityPools (ListIdentityPools'),
+    ListIdentityPools,
     newListIdentityPools,
-    ListIdentityPoolsResponse (ListIdentityPoolsResponse'),
+    ListIdentityPoolsResponse,
     newListIdentityPoolsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** LookupDeveloperIdentity
-    LookupDeveloperIdentity (LookupDeveloperIdentity'),
+    LookupDeveloperIdentity,
     newLookupDeveloperIdentity,
-    LookupDeveloperIdentityResponse (LookupDeveloperIdentityResponse'),
+    LookupDeveloperIdentityResponse,
     newLookupDeveloperIdentityResponse,
 
     -- ** MergeDeveloperIdentities
-    MergeDeveloperIdentities (MergeDeveloperIdentities'),
+    MergeDeveloperIdentities,
     newMergeDeveloperIdentities,
-    MergeDeveloperIdentitiesResponse (MergeDeveloperIdentitiesResponse'),
+    MergeDeveloperIdentitiesResponse,
     newMergeDeveloperIdentitiesResponse,
 
     -- ** SetIdentityPoolRoles
-    SetIdentityPoolRoles (SetIdentityPoolRoles'),
+    SetIdentityPoolRoles,
     newSetIdentityPoolRoles,
-    SetIdentityPoolRolesResponse (SetIdentityPoolRolesResponse'),
+    SetIdentityPoolRolesResponse,
     newSetIdentityPoolRolesResponse,
 
     -- ** SetPrincipalTagAttributeMap
-    SetPrincipalTagAttributeMap (SetPrincipalTagAttributeMap'),
+    SetPrincipalTagAttributeMap,
     newSetPrincipalTagAttributeMap,
-    SetPrincipalTagAttributeMapResponse (SetPrincipalTagAttributeMapResponse'),
+    SetPrincipalTagAttributeMapResponse,
     newSetPrincipalTagAttributeMapResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UnlinkDeveloperIdentity
-    UnlinkDeveloperIdentity (UnlinkDeveloperIdentity'),
+    UnlinkDeveloperIdentity,
     newUnlinkDeveloperIdentity,
-    UnlinkDeveloperIdentityResponse (UnlinkDeveloperIdentityResponse'),
+    UnlinkDeveloperIdentityResponse,
     newUnlinkDeveloperIdentityResponse,
 
     -- ** UnlinkIdentity
-    UnlinkIdentity (UnlinkIdentity'),
+    UnlinkIdentity,
     newUnlinkIdentity,
-    UnlinkIdentityResponse (UnlinkIdentityResponse'),
+    UnlinkIdentityResponse,
     newUnlinkIdentityResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateIdentityPool
-    UpdateIdentityPool (UpdateIdentityPool'),
+    UpdateIdentityPool,
     newUpdateIdentityPool,
-    IdentityPool (IdentityPool'),
+    IdentityPool,
     newIdentityPool,
 
     -- * Types
@@ -231,39 +231,39 @@ module Amazonka.CognitoIdentity
     RoleMappingType (..),
 
     -- ** CognitoIdentityProvider
-    CognitoIdentityProvider (CognitoIdentityProvider'),
+    CognitoIdentityProvider,
     newCognitoIdentityProvider,
 
     -- ** Credentials
-    Credentials (Credentials'),
+    Credentials,
     newCredentials,
 
     -- ** IdentityDescription
-    IdentityDescription (IdentityDescription'),
+    IdentityDescription,
     newIdentityDescription,
 
     -- ** IdentityPool
-    IdentityPool (IdentityPool'),
+    IdentityPool,
     newIdentityPool,
 
     -- ** IdentityPoolShortDescription
-    IdentityPoolShortDescription (IdentityPoolShortDescription'),
+    IdentityPoolShortDescription,
     newIdentityPoolShortDescription,
 
     -- ** MappingRule
-    MappingRule (MappingRule'),
+    MappingRule,
     newMappingRule,
 
     -- ** RoleMapping
-    RoleMapping (RoleMapping'),
+    RoleMapping,
     newRoleMapping,
 
     -- ** RulesConfigurationType
-    RulesConfigurationType (RulesConfigurationType'),
+    RulesConfigurationType,
     newRulesConfigurationType,
 
     -- ** UnprocessedIdentityId
-    UnprocessedIdentityId (UnprocessedIdentityId'),
+    UnprocessedIdentityId,
     newUnprocessedIdentityId,
   )
 where

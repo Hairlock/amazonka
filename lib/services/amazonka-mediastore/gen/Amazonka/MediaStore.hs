@@ -46,129 +46,129 @@ module Amazonka.MediaStore
     -- $operations
 
     -- ** CreateContainer
-    CreateContainer (CreateContainer'),
+    CreateContainer,
     newCreateContainer,
-    CreateContainerResponse (CreateContainerResponse'),
+    CreateContainerResponse,
     newCreateContainerResponse,
 
     -- ** DeleteContainer
-    DeleteContainer (DeleteContainer'),
+    DeleteContainer,
     newDeleteContainer,
-    DeleteContainerResponse (DeleteContainerResponse'),
+    DeleteContainerResponse,
     newDeleteContainerResponse,
 
     -- ** DeleteContainerPolicy
-    DeleteContainerPolicy (DeleteContainerPolicy'),
+    DeleteContainerPolicy,
     newDeleteContainerPolicy,
-    DeleteContainerPolicyResponse (DeleteContainerPolicyResponse'),
+    DeleteContainerPolicyResponse,
     newDeleteContainerPolicyResponse,
 
     -- ** DeleteCorsPolicy
-    DeleteCorsPolicy (DeleteCorsPolicy'),
+    DeleteCorsPolicy,
     newDeleteCorsPolicy,
-    DeleteCorsPolicyResponse (DeleteCorsPolicyResponse'),
+    DeleteCorsPolicyResponse,
     newDeleteCorsPolicyResponse,
 
     -- ** DeleteLifecyclePolicy
-    DeleteLifecyclePolicy (DeleteLifecyclePolicy'),
+    DeleteLifecyclePolicy,
     newDeleteLifecyclePolicy,
-    DeleteLifecyclePolicyResponse (DeleteLifecyclePolicyResponse'),
+    DeleteLifecyclePolicyResponse,
     newDeleteLifecyclePolicyResponse,
 
     -- ** DeleteMetricPolicy
-    DeleteMetricPolicy (DeleteMetricPolicy'),
+    DeleteMetricPolicy,
     newDeleteMetricPolicy,
-    DeleteMetricPolicyResponse (DeleteMetricPolicyResponse'),
+    DeleteMetricPolicyResponse,
     newDeleteMetricPolicyResponse,
 
     -- ** DescribeContainer
-    DescribeContainer (DescribeContainer'),
+    DescribeContainer,
     newDescribeContainer,
-    DescribeContainerResponse (DescribeContainerResponse'),
+    DescribeContainerResponse,
     newDescribeContainerResponse,
 
     -- ** GetContainerPolicy
-    GetContainerPolicy (GetContainerPolicy'),
+    GetContainerPolicy,
     newGetContainerPolicy,
-    GetContainerPolicyResponse (GetContainerPolicyResponse'),
+    GetContainerPolicyResponse,
     newGetContainerPolicyResponse,
 
     -- ** GetCorsPolicy
-    GetCorsPolicy (GetCorsPolicy'),
+    GetCorsPolicy,
     newGetCorsPolicy,
-    GetCorsPolicyResponse (GetCorsPolicyResponse'),
+    GetCorsPolicyResponse,
     newGetCorsPolicyResponse,
 
     -- ** GetLifecyclePolicy
-    GetLifecyclePolicy (GetLifecyclePolicy'),
+    GetLifecyclePolicy,
     newGetLifecyclePolicy,
-    GetLifecyclePolicyResponse (GetLifecyclePolicyResponse'),
+    GetLifecyclePolicyResponse,
     newGetLifecyclePolicyResponse,
 
     -- ** GetMetricPolicy
-    GetMetricPolicy (GetMetricPolicy'),
+    GetMetricPolicy,
     newGetMetricPolicy,
-    GetMetricPolicyResponse (GetMetricPolicyResponse'),
+    GetMetricPolicyResponse,
     newGetMetricPolicyResponse,
 
     -- ** ListContainers (Paginated)
-    ListContainers (ListContainers'),
+    ListContainers,
     newListContainers,
-    ListContainersResponse (ListContainersResponse'),
+    ListContainersResponse,
     newListContainersResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** PutContainerPolicy
-    PutContainerPolicy (PutContainerPolicy'),
+    PutContainerPolicy,
     newPutContainerPolicy,
-    PutContainerPolicyResponse (PutContainerPolicyResponse'),
+    PutContainerPolicyResponse,
     newPutContainerPolicyResponse,
 
     -- ** PutCorsPolicy
-    PutCorsPolicy (PutCorsPolicy'),
+    PutCorsPolicy,
     newPutCorsPolicy,
-    PutCorsPolicyResponse (PutCorsPolicyResponse'),
+    PutCorsPolicyResponse,
     newPutCorsPolicyResponse,
 
     -- ** PutLifecyclePolicy
-    PutLifecyclePolicy (PutLifecyclePolicy'),
+    PutLifecyclePolicy,
     newPutLifecyclePolicy,
-    PutLifecyclePolicyResponse (PutLifecyclePolicyResponse'),
+    PutLifecyclePolicyResponse,
     newPutLifecyclePolicyResponse,
 
     -- ** PutMetricPolicy
-    PutMetricPolicy (PutMetricPolicy'),
+    PutMetricPolicy,
     newPutMetricPolicy,
-    PutMetricPolicyResponse (PutMetricPolicyResponse'),
+    PutMetricPolicyResponse,
     newPutMetricPolicyResponse,
 
     -- ** StartAccessLogging
-    StartAccessLogging (StartAccessLogging'),
+    StartAccessLogging,
     newStartAccessLogging,
-    StartAccessLoggingResponse (StartAccessLoggingResponse'),
+    StartAccessLoggingResponse,
     newStartAccessLoggingResponse,
 
     -- ** StopAccessLogging
-    StopAccessLogging (StopAccessLogging'),
+    StopAccessLogging,
     newStopAccessLogging,
-    StopAccessLoggingResponse (StopAccessLoggingResponse'),
+    StopAccessLoggingResponse,
     newStopAccessLoggingResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- * Types
@@ -183,23 +183,23 @@ module Amazonka.MediaStore
     MethodName (..),
 
     -- ** Container
-    Container (Container'),
+    Container,
     newContainer,
 
     -- ** CorsRule
-    CorsRule (CorsRule'),
+    CorsRule,
     newCorsRule,
 
     -- ** MetricPolicy
-    MetricPolicy (MetricPolicy'),
+    MetricPolicy,
     newMetricPolicy,
 
     -- ** MetricPolicyRule
-    MetricPolicyRule (MetricPolicyRule'),
+    MetricPolicyRule,
     newMetricPolicyRule,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
   )
 where

@@ -72,111 +72,111 @@ module Amazonka.Translate
     -- $operations
 
     -- ** CreateParallelData
-    CreateParallelData (CreateParallelData'),
+    CreateParallelData,
     newCreateParallelData,
-    CreateParallelDataResponse (CreateParallelDataResponse'),
+    CreateParallelDataResponse,
     newCreateParallelDataResponse,
 
     -- ** DeleteParallelData
-    DeleteParallelData (DeleteParallelData'),
+    DeleteParallelData,
     newDeleteParallelData,
-    DeleteParallelDataResponse (DeleteParallelDataResponse'),
+    DeleteParallelDataResponse,
     newDeleteParallelDataResponse,
 
     -- ** DeleteTerminology
-    DeleteTerminology (DeleteTerminology'),
+    DeleteTerminology,
     newDeleteTerminology,
-    DeleteTerminologyResponse (DeleteTerminologyResponse'),
+    DeleteTerminologyResponse,
     newDeleteTerminologyResponse,
 
     -- ** DescribeTextTranslationJob
-    DescribeTextTranslationJob (DescribeTextTranslationJob'),
+    DescribeTextTranslationJob,
     newDescribeTextTranslationJob,
-    DescribeTextTranslationJobResponse (DescribeTextTranslationJobResponse'),
+    DescribeTextTranslationJobResponse,
     newDescribeTextTranslationJobResponse,
 
     -- ** GetParallelData
-    GetParallelData (GetParallelData'),
+    GetParallelData,
     newGetParallelData,
-    GetParallelDataResponse (GetParallelDataResponse'),
+    GetParallelDataResponse,
     newGetParallelDataResponse,
 
     -- ** GetTerminology
-    GetTerminology (GetTerminology'),
+    GetTerminology,
     newGetTerminology,
-    GetTerminologyResponse (GetTerminologyResponse'),
+    GetTerminologyResponse,
     newGetTerminologyResponse,
 
     -- ** ImportTerminology
-    ImportTerminology (ImportTerminology'),
+    ImportTerminology,
     newImportTerminology,
-    ImportTerminologyResponse (ImportTerminologyResponse'),
+    ImportTerminologyResponse,
     newImportTerminologyResponse,
 
     -- ** ListLanguages
-    ListLanguages (ListLanguages'),
+    ListLanguages,
     newListLanguages,
-    ListLanguagesResponse (ListLanguagesResponse'),
+    ListLanguagesResponse,
     newListLanguagesResponse,
 
     -- ** ListParallelData
-    ListParallelData (ListParallelData'),
+    ListParallelData,
     newListParallelData,
-    ListParallelDataResponse (ListParallelDataResponse'),
+    ListParallelDataResponse,
     newListParallelDataResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** ListTerminologies (Paginated)
-    ListTerminologies (ListTerminologies'),
+    ListTerminologies,
     newListTerminologies,
-    ListTerminologiesResponse (ListTerminologiesResponse'),
+    ListTerminologiesResponse,
     newListTerminologiesResponse,
 
     -- ** ListTextTranslationJobs
-    ListTextTranslationJobs (ListTextTranslationJobs'),
+    ListTextTranslationJobs,
     newListTextTranslationJobs,
-    ListTextTranslationJobsResponse (ListTextTranslationJobsResponse'),
+    ListTextTranslationJobsResponse,
     newListTextTranslationJobsResponse,
 
     -- ** StartTextTranslationJob
-    StartTextTranslationJob (StartTextTranslationJob'),
+    StartTextTranslationJob,
     newStartTextTranslationJob,
-    StartTextTranslationJobResponse (StartTextTranslationJobResponse'),
+    StartTextTranslationJobResponse,
     newStartTextTranslationJobResponse,
 
     -- ** StopTextTranslationJob
-    StopTextTranslationJob (StopTextTranslationJob'),
+    StopTextTranslationJob,
     newStopTextTranslationJob,
-    StopTextTranslationJobResponse (StopTextTranslationJobResponse'),
+    StopTextTranslationJobResponse,
     newStopTextTranslationJobResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** TranslateText
-    TranslateText (TranslateText'),
+    TranslateText,
     newTranslateText,
-    TranslateTextResponse (TranslateTextResponse'),
+    TranslateTextResponse,
     newTranslateTextResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateParallelData
-    UpdateParallelData (UpdateParallelData'),
+    UpdateParallelData,
     newUpdateParallelData,
-    UpdateParallelDataResponse (UpdateParallelDataResponse'),
+    UpdateParallelDataResponse,
     newUpdateParallelDataResponse,
 
     -- * Types
@@ -212,71 +212,71 @@ module Amazonka.Translate
     TerminologyDataFormat (..),
 
     -- ** AppliedTerminology
-    AppliedTerminology (AppliedTerminology'),
+    AppliedTerminology,
     newAppliedTerminology,
 
     -- ** EncryptionKey
-    EncryptionKey (EncryptionKey'),
+    EncryptionKey,
     newEncryptionKey,
 
     -- ** InputDataConfig
-    InputDataConfig (InputDataConfig'),
+    InputDataConfig,
     newInputDataConfig,
 
     -- ** JobDetails
-    JobDetails (JobDetails'),
+    JobDetails,
     newJobDetails,
 
     -- ** Language
-    Language (Language'),
+    Language,
     newLanguage,
 
     -- ** OutputDataConfig
-    OutputDataConfig (OutputDataConfig'),
+    OutputDataConfig,
     newOutputDataConfig,
 
     -- ** ParallelDataConfig
-    ParallelDataConfig (ParallelDataConfig'),
+    ParallelDataConfig,
     newParallelDataConfig,
 
     -- ** ParallelDataDataLocation
-    ParallelDataDataLocation (ParallelDataDataLocation'),
+    ParallelDataDataLocation,
     newParallelDataDataLocation,
 
     -- ** ParallelDataProperties
-    ParallelDataProperties (ParallelDataProperties'),
+    ParallelDataProperties,
     newParallelDataProperties,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
 
     -- ** Term
-    Term (Term'),
+    Term,
     newTerm,
 
     -- ** TerminologyData
-    TerminologyData (TerminologyData'),
+    TerminologyData,
     newTerminologyData,
 
     -- ** TerminologyDataLocation
-    TerminologyDataLocation (TerminologyDataLocation'),
+    TerminologyDataLocation,
     newTerminologyDataLocation,
 
     -- ** TerminologyProperties
-    TerminologyProperties (TerminologyProperties'),
+    TerminologyProperties,
     newTerminologyProperties,
 
     -- ** TextTranslationJobFilter
-    TextTranslationJobFilter (TextTranslationJobFilter'),
+    TextTranslationJobFilter,
     newTextTranslationJobFilter,
 
     -- ** TextTranslationJobProperties
-    TextTranslationJobProperties (TextTranslationJobProperties'),
+    TextTranslationJobProperties,
     newTextTranslationJobProperties,
 
     -- ** TranslationSettings
-    TranslationSettings (TranslationSettings'),
+    TranslationSettings,
     newTranslationSettings,
   )
 where

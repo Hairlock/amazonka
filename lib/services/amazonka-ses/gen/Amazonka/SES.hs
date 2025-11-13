@@ -139,429 +139,429 @@ module Amazonka.SES
     -- $operations
 
     -- ** CloneReceiptRuleSet
-    CloneReceiptRuleSet (CloneReceiptRuleSet'),
+    CloneReceiptRuleSet,
     newCloneReceiptRuleSet,
-    CloneReceiptRuleSetResponse (CloneReceiptRuleSetResponse'),
+    CloneReceiptRuleSetResponse,
     newCloneReceiptRuleSetResponse,
 
     -- ** CreateConfigurationSet
-    CreateConfigurationSet (CreateConfigurationSet'),
+    CreateConfigurationSet,
     newCreateConfigurationSet,
-    CreateConfigurationSetResponse (CreateConfigurationSetResponse'),
+    CreateConfigurationSetResponse,
     newCreateConfigurationSetResponse,
 
     -- ** CreateConfigurationSetEventDestination
-    CreateConfigurationSetEventDestination (CreateConfigurationSetEventDestination'),
+    CreateConfigurationSetEventDestination,
     newCreateConfigurationSetEventDestination,
-    CreateConfigurationSetEventDestinationResponse (CreateConfigurationSetEventDestinationResponse'),
+    CreateConfigurationSetEventDestinationResponse,
     newCreateConfigurationSetEventDestinationResponse,
 
     -- ** CreateConfigurationSetTrackingOptions
-    CreateConfigurationSetTrackingOptions (CreateConfigurationSetTrackingOptions'),
+    CreateConfigurationSetTrackingOptions,
     newCreateConfigurationSetTrackingOptions,
-    CreateConfigurationSetTrackingOptionsResponse (CreateConfigurationSetTrackingOptionsResponse'),
+    CreateConfigurationSetTrackingOptionsResponse,
     newCreateConfigurationSetTrackingOptionsResponse,
 
     -- ** CreateCustomVerificationEmailTemplate
-    CreateCustomVerificationEmailTemplate (CreateCustomVerificationEmailTemplate'),
+    CreateCustomVerificationEmailTemplate,
     newCreateCustomVerificationEmailTemplate,
-    CreateCustomVerificationEmailTemplateResponse (CreateCustomVerificationEmailTemplateResponse'),
+    CreateCustomVerificationEmailTemplateResponse,
     newCreateCustomVerificationEmailTemplateResponse,
 
     -- ** CreateReceiptFilter
-    CreateReceiptFilter (CreateReceiptFilter'),
+    CreateReceiptFilter,
     newCreateReceiptFilter,
-    CreateReceiptFilterResponse (CreateReceiptFilterResponse'),
+    CreateReceiptFilterResponse,
     newCreateReceiptFilterResponse,
 
     -- ** CreateReceiptRule
-    CreateReceiptRule (CreateReceiptRule'),
+    CreateReceiptRule,
     newCreateReceiptRule,
-    CreateReceiptRuleResponse (CreateReceiptRuleResponse'),
+    CreateReceiptRuleResponse,
     newCreateReceiptRuleResponse,
 
     -- ** CreateReceiptRuleSet
-    CreateReceiptRuleSet (CreateReceiptRuleSet'),
+    CreateReceiptRuleSet,
     newCreateReceiptRuleSet,
-    CreateReceiptRuleSetResponse (CreateReceiptRuleSetResponse'),
+    CreateReceiptRuleSetResponse,
     newCreateReceiptRuleSetResponse,
 
     -- ** CreateTemplate
-    CreateTemplate (CreateTemplate'),
+    CreateTemplate,
     newCreateTemplate,
-    CreateTemplateResponse (CreateTemplateResponse'),
+    CreateTemplateResponse,
     newCreateTemplateResponse,
 
     -- ** DeleteConfigurationSet
-    DeleteConfigurationSet (DeleteConfigurationSet'),
+    DeleteConfigurationSet,
     newDeleteConfigurationSet,
-    DeleteConfigurationSetResponse (DeleteConfigurationSetResponse'),
+    DeleteConfigurationSetResponse,
     newDeleteConfigurationSetResponse,
 
     -- ** DeleteConfigurationSetEventDestination
-    DeleteConfigurationSetEventDestination (DeleteConfigurationSetEventDestination'),
+    DeleteConfigurationSetEventDestination,
     newDeleteConfigurationSetEventDestination,
-    DeleteConfigurationSetEventDestinationResponse (DeleteConfigurationSetEventDestinationResponse'),
+    DeleteConfigurationSetEventDestinationResponse,
     newDeleteConfigurationSetEventDestinationResponse,
 
     -- ** DeleteConfigurationSetTrackingOptions
-    DeleteConfigurationSetTrackingOptions (DeleteConfigurationSetTrackingOptions'),
+    DeleteConfigurationSetTrackingOptions,
     newDeleteConfigurationSetTrackingOptions,
-    DeleteConfigurationSetTrackingOptionsResponse (DeleteConfigurationSetTrackingOptionsResponse'),
+    DeleteConfigurationSetTrackingOptionsResponse,
     newDeleteConfigurationSetTrackingOptionsResponse,
 
     -- ** DeleteCustomVerificationEmailTemplate
-    DeleteCustomVerificationEmailTemplate (DeleteCustomVerificationEmailTemplate'),
+    DeleteCustomVerificationEmailTemplate,
     newDeleteCustomVerificationEmailTemplate,
-    DeleteCustomVerificationEmailTemplateResponse (DeleteCustomVerificationEmailTemplateResponse'),
+    DeleteCustomVerificationEmailTemplateResponse,
     newDeleteCustomVerificationEmailTemplateResponse,
 
     -- ** DeleteIdentity
-    DeleteIdentity (DeleteIdentity'),
+    DeleteIdentity,
     newDeleteIdentity,
-    DeleteIdentityResponse (DeleteIdentityResponse'),
+    DeleteIdentityResponse,
     newDeleteIdentityResponse,
 
     -- ** DeleteIdentityPolicy
-    DeleteIdentityPolicy (DeleteIdentityPolicy'),
+    DeleteIdentityPolicy,
     newDeleteIdentityPolicy,
-    DeleteIdentityPolicyResponse (DeleteIdentityPolicyResponse'),
+    DeleteIdentityPolicyResponse,
     newDeleteIdentityPolicyResponse,
 
     -- ** DeleteReceiptFilter
-    DeleteReceiptFilter (DeleteReceiptFilter'),
+    DeleteReceiptFilter,
     newDeleteReceiptFilter,
-    DeleteReceiptFilterResponse (DeleteReceiptFilterResponse'),
+    DeleteReceiptFilterResponse,
     newDeleteReceiptFilterResponse,
 
     -- ** DeleteReceiptRule
-    DeleteReceiptRule (DeleteReceiptRule'),
+    DeleteReceiptRule,
     newDeleteReceiptRule,
-    DeleteReceiptRuleResponse (DeleteReceiptRuleResponse'),
+    DeleteReceiptRuleResponse,
     newDeleteReceiptRuleResponse,
 
     -- ** DeleteReceiptRuleSet
-    DeleteReceiptRuleSet (DeleteReceiptRuleSet'),
+    DeleteReceiptRuleSet,
     newDeleteReceiptRuleSet,
-    DeleteReceiptRuleSetResponse (DeleteReceiptRuleSetResponse'),
+    DeleteReceiptRuleSetResponse,
     newDeleteReceiptRuleSetResponse,
 
     -- ** DeleteTemplate
-    DeleteTemplate (DeleteTemplate'),
+    DeleteTemplate,
     newDeleteTemplate,
-    DeleteTemplateResponse (DeleteTemplateResponse'),
+    DeleteTemplateResponse,
     newDeleteTemplateResponse,
 
     -- ** DeleteVerifiedEmailAddress
-    DeleteVerifiedEmailAddress (DeleteVerifiedEmailAddress'),
+    DeleteVerifiedEmailAddress,
     newDeleteVerifiedEmailAddress,
-    DeleteVerifiedEmailAddressResponse (DeleteVerifiedEmailAddressResponse'),
+    DeleteVerifiedEmailAddressResponse,
     newDeleteVerifiedEmailAddressResponse,
 
     -- ** DescribeActiveReceiptRuleSet
-    DescribeActiveReceiptRuleSet (DescribeActiveReceiptRuleSet'),
+    DescribeActiveReceiptRuleSet,
     newDescribeActiveReceiptRuleSet,
-    DescribeActiveReceiptRuleSetResponse (DescribeActiveReceiptRuleSetResponse'),
+    DescribeActiveReceiptRuleSetResponse,
     newDescribeActiveReceiptRuleSetResponse,
 
     -- ** DescribeConfigurationSet
-    DescribeConfigurationSet (DescribeConfigurationSet'),
+    DescribeConfigurationSet,
     newDescribeConfigurationSet,
-    DescribeConfigurationSetResponse (DescribeConfigurationSetResponse'),
+    DescribeConfigurationSetResponse,
     newDescribeConfigurationSetResponse,
 
     -- ** DescribeReceiptRule
-    DescribeReceiptRule (DescribeReceiptRule'),
+    DescribeReceiptRule,
     newDescribeReceiptRule,
-    DescribeReceiptRuleResponse (DescribeReceiptRuleResponse'),
+    DescribeReceiptRuleResponse,
     newDescribeReceiptRuleResponse,
 
     -- ** DescribeReceiptRuleSet
-    DescribeReceiptRuleSet (DescribeReceiptRuleSet'),
+    DescribeReceiptRuleSet,
     newDescribeReceiptRuleSet,
-    DescribeReceiptRuleSetResponse (DescribeReceiptRuleSetResponse'),
+    DescribeReceiptRuleSetResponse,
     newDescribeReceiptRuleSetResponse,
 
     -- ** GetAccountSendingEnabled
-    GetAccountSendingEnabled (GetAccountSendingEnabled'),
+    GetAccountSendingEnabled,
     newGetAccountSendingEnabled,
-    GetAccountSendingEnabledResponse (GetAccountSendingEnabledResponse'),
+    GetAccountSendingEnabledResponse,
     newGetAccountSendingEnabledResponse,
 
     -- ** GetCustomVerificationEmailTemplate
-    GetCustomVerificationEmailTemplate (GetCustomVerificationEmailTemplate'),
+    GetCustomVerificationEmailTemplate,
     newGetCustomVerificationEmailTemplate,
-    GetCustomVerificationEmailTemplateResponse (GetCustomVerificationEmailTemplateResponse'),
+    GetCustomVerificationEmailTemplateResponse,
     newGetCustomVerificationEmailTemplateResponse,
 
     -- ** GetIdentityDkimAttributes
-    GetIdentityDkimAttributes (GetIdentityDkimAttributes'),
+    GetIdentityDkimAttributes,
     newGetIdentityDkimAttributes,
-    GetIdentityDkimAttributesResponse (GetIdentityDkimAttributesResponse'),
+    GetIdentityDkimAttributesResponse,
     newGetIdentityDkimAttributesResponse,
 
     -- ** GetIdentityMailFromDomainAttributes
-    GetIdentityMailFromDomainAttributes (GetIdentityMailFromDomainAttributes'),
+    GetIdentityMailFromDomainAttributes,
     newGetIdentityMailFromDomainAttributes,
-    GetIdentityMailFromDomainAttributesResponse (GetIdentityMailFromDomainAttributesResponse'),
+    GetIdentityMailFromDomainAttributesResponse,
     newGetIdentityMailFromDomainAttributesResponse,
 
     -- ** GetIdentityNotificationAttributes
-    GetIdentityNotificationAttributes (GetIdentityNotificationAttributes'),
+    GetIdentityNotificationAttributes,
     newGetIdentityNotificationAttributes,
-    GetIdentityNotificationAttributesResponse (GetIdentityNotificationAttributesResponse'),
+    GetIdentityNotificationAttributesResponse,
     newGetIdentityNotificationAttributesResponse,
 
     -- ** GetIdentityPolicies
-    GetIdentityPolicies (GetIdentityPolicies'),
+    GetIdentityPolicies,
     newGetIdentityPolicies,
-    GetIdentityPoliciesResponse (GetIdentityPoliciesResponse'),
+    GetIdentityPoliciesResponse,
     newGetIdentityPoliciesResponse,
 
     -- ** GetIdentityVerificationAttributes
-    GetIdentityVerificationAttributes (GetIdentityVerificationAttributes'),
+    GetIdentityVerificationAttributes,
     newGetIdentityVerificationAttributes,
-    GetIdentityVerificationAttributesResponse (GetIdentityVerificationAttributesResponse'),
+    GetIdentityVerificationAttributesResponse,
     newGetIdentityVerificationAttributesResponse,
 
     -- ** GetSendQuota
-    GetSendQuota (GetSendQuota'),
+    GetSendQuota,
     newGetSendQuota,
-    GetSendQuotaResponse (GetSendQuotaResponse'),
+    GetSendQuotaResponse,
     newGetSendQuotaResponse,
 
     -- ** GetSendStatistics
-    GetSendStatistics (GetSendStatistics'),
+    GetSendStatistics,
     newGetSendStatistics,
-    GetSendStatisticsResponse (GetSendStatisticsResponse'),
+    GetSendStatisticsResponse,
     newGetSendStatisticsResponse,
 
     -- ** GetTemplate
-    GetTemplate (GetTemplate'),
+    GetTemplate,
     newGetTemplate,
-    GetTemplateResponse (GetTemplateResponse'),
+    GetTemplateResponse,
     newGetTemplateResponse,
 
     -- ** ListConfigurationSets (Paginated)
-    ListConfigurationSets (ListConfigurationSets'),
+    ListConfigurationSets,
     newListConfigurationSets,
-    ListConfigurationSetsResponse (ListConfigurationSetsResponse'),
+    ListConfigurationSetsResponse,
     newListConfigurationSetsResponse,
 
     -- ** ListCustomVerificationEmailTemplates (Paginated)
-    ListCustomVerificationEmailTemplates (ListCustomVerificationEmailTemplates'),
+    ListCustomVerificationEmailTemplates,
     newListCustomVerificationEmailTemplates,
-    ListCustomVerificationEmailTemplatesResponse (ListCustomVerificationEmailTemplatesResponse'),
+    ListCustomVerificationEmailTemplatesResponse,
     newListCustomVerificationEmailTemplatesResponse,
 
     -- ** ListIdentities (Paginated)
-    ListIdentities (ListIdentities'),
+    ListIdentities,
     newListIdentities,
-    ListIdentitiesResponse (ListIdentitiesResponse'),
+    ListIdentitiesResponse,
     newListIdentitiesResponse,
 
     -- ** ListIdentityPolicies
-    ListIdentityPolicies (ListIdentityPolicies'),
+    ListIdentityPolicies,
     newListIdentityPolicies,
-    ListIdentityPoliciesResponse (ListIdentityPoliciesResponse'),
+    ListIdentityPoliciesResponse,
     newListIdentityPoliciesResponse,
 
     -- ** ListReceiptFilters
-    ListReceiptFilters (ListReceiptFilters'),
+    ListReceiptFilters,
     newListReceiptFilters,
-    ListReceiptFiltersResponse (ListReceiptFiltersResponse'),
+    ListReceiptFiltersResponse,
     newListReceiptFiltersResponse,
 
     -- ** ListReceiptRuleSets (Paginated)
-    ListReceiptRuleSets (ListReceiptRuleSets'),
+    ListReceiptRuleSets,
     newListReceiptRuleSets,
-    ListReceiptRuleSetsResponse (ListReceiptRuleSetsResponse'),
+    ListReceiptRuleSetsResponse,
     newListReceiptRuleSetsResponse,
 
     -- ** ListTemplates (Paginated)
-    ListTemplates (ListTemplates'),
+    ListTemplates,
     newListTemplates,
-    ListTemplatesResponse (ListTemplatesResponse'),
+    ListTemplatesResponse,
     newListTemplatesResponse,
 
     -- ** ListVerifiedEmailAddresses
-    ListVerifiedEmailAddresses (ListVerifiedEmailAddresses'),
+    ListVerifiedEmailAddresses,
     newListVerifiedEmailAddresses,
-    ListVerifiedEmailAddressesResponse (ListVerifiedEmailAddressesResponse'),
+    ListVerifiedEmailAddressesResponse,
     newListVerifiedEmailAddressesResponse,
 
     -- ** PutConfigurationSetDeliveryOptions
-    PutConfigurationSetDeliveryOptions (PutConfigurationSetDeliveryOptions'),
+    PutConfigurationSetDeliveryOptions,
     newPutConfigurationSetDeliveryOptions,
-    PutConfigurationSetDeliveryOptionsResponse (PutConfigurationSetDeliveryOptionsResponse'),
+    PutConfigurationSetDeliveryOptionsResponse,
     newPutConfigurationSetDeliveryOptionsResponse,
 
     -- ** PutIdentityPolicy
-    PutIdentityPolicy (PutIdentityPolicy'),
+    PutIdentityPolicy,
     newPutIdentityPolicy,
-    PutIdentityPolicyResponse (PutIdentityPolicyResponse'),
+    PutIdentityPolicyResponse,
     newPutIdentityPolicyResponse,
 
     -- ** ReorderReceiptRuleSet
-    ReorderReceiptRuleSet (ReorderReceiptRuleSet'),
+    ReorderReceiptRuleSet,
     newReorderReceiptRuleSet,
-    ReorderReceiptRuleSetResponse (ReorderReceiptRuleSetResponse'),
+    ReorderReceiptRuleSetResponse,
     newReorderReceiptRuleSetResponse,
 
     -- ** SendBounce
-    SendBounce (SendBounce'),
+    SendBounce,
     newSendBounce,
-    SendBounceResponse (SendBounceResponse'),
+    SendBounceResponse,
     newSendBounceResponse,
 
     -- ** SendBulkTemplatedEmail
-    SendBulkTemplatedEmail (SendBulkTemplatedEmail'),
+    SendBulkTemplatedEmail,
     newSendBulkTemplatedEmail,
-    SendBulkTemplatedEmailResponse (SendBulkTemplatedEmailResponse'),
+    SendBulkTemplatedEmailResponse,
     newSendBulkTemplatedEmailResponse,
 
     -- ** SendCustomVerificationEmail
-    SendCustomVerificationEmail (SendCustomVerificationEmail'),
+    SendCustomVerificationEmail,
     newSendCustomVerificationEmail,
-    SendCustomVerificationEmailResponse (SendCustomVerificationEmailResponse'),
+    SendCustomVerificationEmailResponse,
     newSendCustomVerificationEmailResponse,
 
     -- ** SendEmail
-    SendEmail (SendEmail'),
+    SendEmail,
     newSendEmail,
-    SendEmailResponse (SendEmailResponse'),
+    SendEmailResponse,
     newSendEmailResponse,
 
     -- ** SendRawEmail
-    SendRawEmail (SendRawEmail'),
+    SendRawEmail,
     newSendRawEmail,
-    SendRawEmailResponse (SendRawEmailResponse'),
+    SendRawEmailResponse,
     newSendRawEmailResponse,
 
     -- ** SendTemplatedEmail
-    SendTemplatedEmail (SendTemplatedEmail'),
+    SendTemplatedEmail,
     newSendTemplatedEmail,
-    SendTemplatedEmailResponse (SendTemplatedEmailResponse'),
+    SendTemplatedEmailResponse,
     newSendTemplatedEmailResponse,
 
     -- ** SetActiveReceiptRuleSet
-    SetActiveReceiptRuleSet (SetActiveReceiptRuleSet'),
+    SetActiveReceiptRuleSet,
     newSetActiveReceiptRuleSet,
-    SetActiveReceiptRuleSetResponse (SetActiveReceiptRuleSetResponse'),
+    SetActiveReceiptRuleSetResponse,
     newSetActiveReceiptRuleSetResponse,
 
     -- ** SetIdentityDkimEnabled
-    SetIdentityDkimEnabled (SetIdentityDkimEnabled'),
+    SetIdentityDkimEnabled,
     newSetIdentityDkimEnabled,
-    SetIdentityDkimEnabledResponse (SetIdentityDkimEnabledResponse'),
+    SetIdentityDkimEnabledResponse,
     newSetIdentityDkimEnabledResponse,
 
     -- ** SetIdentityFeedbackForwardingEnabled
-    SetIdentityFeedbackForwardingEnabled (SetIdentityFeedbackForwardingEnabled'),
+    SetIdentityFeedbackForwardingEnabled,
     newSetIdentityFeedbackForwardingEnabled,
-    SetIdentityFeedbackForwardingEnabledResponse (SetIdentityFeedbackForwardingEnabledResponse'),
+    SetIdentityFeedbackForwardingEnabledResponse,
     newSetIdentityFeedbackForwardingEnabledResponse,
 
     -- ** SetIdentityHeadersInNotificationsEnabled
-    SetIdentityHeadersInNotificationsEnabled (SetIdentityHeadersInNotificationsEnabled'),
+    SetIdentityHeadersInNotificationsEnabled,
     newSetIdentityHeadersInNotificationsEnabled,
-    SetIdentityHeadersInNotificationsEnabledResponse (SetIdentityHeadersInNotificationsEnabledResponse'),
+    SetIdentityHeadersInNotificationsEnabledResponse,
     newSetIdentityHeadersInNotificationsEnabledResponse,
 
     -- ** SetIdentityMailFromDomain
-    SetIdentityMailFromDomain (SetIdentityMailFromDomain'),
+    SetIdentityMailFromDomain,
     newSetIdentityMailFromDomain,
-    SetIdentityMailFromDomainResponse (SetIdentityMailFromDomainResponse'),
+    SetIdentityMailFromDomainResponse,
     newSetIdentityMailFromDomainResponse,
 
     -- ** SetIdentityNotificationTopic
-    SetIdentityNotificationTopic (SetIdentityNotificationTopic'),
+    SetIdentityNotificationTopic,
     newSetIdentityNotificationTopic,
-    SetIdentityNotificationTopicResponse (SetIdentityNotificationTopicResponse'),
+    SetIdentityNotificationTopicResponse,
     newSetIdentityNotificationTopicResponse,
 
     -- ** SetReceiptRulePosition
-    SetReceiptRulePosition (SetReceiptRulePosition'),
+    SetReceiptRulePosition,
     newSetReceiptRulePosition,
-    SetReceiptRulePositionResponse (SetReceiptRulePositionResponse'),
+    SetReceiptRulePositionResponse,
     newSetReceiptRulePositionResponse,
 
     -- ** TestRenderTemplate
-    TestRenderTemplate (TestRenderTemplate'),
+    TestRenderTemplate,
     newTestRenderTemplate,
-    TestRenderTemplateResponse (TestRenderTemplateResponse'),
+    TestRenderTemplateResponse,
     newTestRenderTemplateResponse,
 
     -- ** UpdateAccountSendingEnabled
-    UpdateAccountSendingEnabled (UpdateAccountSendingEnabled'),
+    UpdateAccountSendingEnabled,
     newUpdateAccountSendingEnabled,
-    UpdateAccountSendingEnabledResponse (UpdateAccountSendingEnabledResponse'),
+    UpdateAccountSendingEnabledResponse,
     newUpdateAccountSendingEnabledResponse,
 
     -- ** UpdateConfigurationSetEventDestination
-    UpdateConfigurationSetEventDestination (UpdateConfigurationSetEventDestination'),
+    UpdateConfigurationSetEventDestination,
     newUpdateConfigurationSetEventDestination,
-    UpdateConfigurationSetEventDestinationResponse (UpdateConfigurationSetEventDestinationResponse'),
+    UpdateConfigurationSetEventDestinationResponse,
     newUpdateConfigurationSetEventDestinationResponse,
 
     -- ** UpdateConfigurationSetReputationMetricsEnabled
-    UpdateConfigurationSetReputationMetricsEnabled (UpdateConfigurationSetReputationMetricsEnabled'),
+    UpdateConfigurationSetReputationMetricsEnabled,
     newUpdateConfigurationSetReputationMetricsEnabled,
-    UpdateConfigurationSetReputationMetricsEnabledResponse (UpdateConfigurationSetReputationMetricsEnabledResponse'),
+    UpdateConfigurationSetReputationMetricsEnabledResponse,
     newUpdateConfigurationSetReputationMetricsEnabledResponse,
 
     -- ** UpdateConfigurationSetSendingEnabled
-    UpdateConfigurationSetSendingEnabled (UpdateConfigurationSetSendingEnabled'),
+    UpdateConfigurationSetSendingEnabled,
     newUpdateConfigurationSetSendingEnabled,
-    UpdateConfigurationSetSendingEnabledResponse (UpdateConfigurationSetSendingEnabledResponse'),
+    UpdateConfigurationSetSendingEnabledResponse,
     newUpdateConfigurationSetSendingEnabledResponse,
 
     -- ** UpdateConfigurationSetTrackingOptions
-    UpdateConfigurationSetTrackingOptions (UpdateConfigurationSetTrackingOptions'),
+    UpdateConfigurationSetTrackingOptions,
     newUpdateConfigurationSetTrackingOptions,
-    UpdateConfigurationSetTrackingOptionsResponse (UpdateConfigurationSetTrackingOptionsResponse'),
+    UpdateConfigurationSetTrackingOptionsResponse,
     newUpdateConfigurationSetTrackingOptionsResponse,
 
     -- ** UpdateCustomVerificationEmailTemplate
-    UpdateCustomVerificationEmailTemplate (UpdateCustomVerificationEmailTemplate'),
+    UpdateCustomVerificationEmailTemplate,
     newUpdateCustomVerificationEmailTemplate,
-    UpdateCustomVerificationEmailTemplateResponse (UpdateCustomVerificationEmailTemplateResponse'),
+    UpdateCustomVerificationEmailTemplateResponse,
     newUpdateCustomVerificationEmailTemplateResponse,
 
     -- ** UpdateReceiptRule
-    UpdateReceiptRule (UpdateReceiptRule'),
+    UpdateReceiptRule,
     newUpdateReceiptRule,
-    UpdateReceiptRuleResponse (UpdateReceiptRuleResponse'),
+    UpdateReceiptRuleResponse,
     newUpdateReceiptRuleResponse,
 
     -- ** UpdateTemplate
-    UpdateTemplate (UpdateTemplate'),
+    UpdateTemplate,
     newUpdateTemplate,
-    UpdateTemplateResponse (UpdateTemplateResponse'),
+    UpdateTemplateResponse,
     newUpdateTemplateResponse,
 
     -- ** VerifyDomainDkim
-    VerifyDomainDkim (VerifyDomainDkim'),
+    VerifyDomainDkim,
     newVerifyDomainDkim,
-    VerifyDomainDkimResponse (VerifyDomainDkimResponse'),
+    VerifyDomainDkimResponse,
     newVerifyDomainDkimResponse,
 
     -- ** VerifyDomainIdentity
-    VerifyDomainIdentity (VerifyDomainIdentity'),
+    VerifyDomainIdentity,
     newVerifyDomainIdentity,
-    VerifyDomainIdentityResponse (VerifyDomainIdentityResponse'),
+    VerifyDomainIdentityResponse,
     newVerifyDomainIdentityResponse,
 
     -- ** VerifyEmailAddress
-    VerifyEmailAddress (VerifyEmailAddress'),
+    VerifyEmailAddress,
     newVerifyEmailAddress,
-    VerifyEmailAddressResponse (VerifyEmailAddressResponse'),
+    VerifyEmailAddressResponse,
     newVerifyEmailAddressResponse,
 
     -- ** VerifyEmailIdentity
-    VerifyEmailIdentity (VerifyEmailIdentity'),
+    VerifyEmailIdentity,
     newVerifyEmailIdentity,
-    VerifyEmailIdentityResponse (VerifyEmailIdentityResponse'),
+    VerifyEmailIdentityResponse,
     newVerifyEmailIdentityResponse,
 
     -- * Types
@@ -615,167 +615,167 @@ module Amazonka.SES
     VerificationStatus (..),
 
     -- ** AddHeaderAction
-    AddHeaderAction (AddHeaderAction'),
+    AddHeaderAction,
     newAddHeaderAction,
 
     -- ** Body
-    Body (Body'),
+    Body,
     newBody,
 
     -- ** BounceAction
-    BounceAction (BounceAction'),
+    BounceAction,
     newBounceAction,
 
     -- ** BouncedRecipientInfo
-    BouncedRecipientInfo (BouncedRecipientInfo'),
+    BouncedRecipientInfo,
     newBouncedRecipientInfo,
 
     -- ** BulkEmailDestination
-    BulkEmailDestination (BulkEmailDestination'),
+    BulkEmailDestination,
     newBulkEmailDestination,
 
     -- ** BulkEmailDestinationStatus
-    BulkEmailDestinationStatus (BulkEmailDestinationStatus'),
+    BulkEmailDestinationStatus,
     newBulkEmailDestinationStatus,
 
     -- ** CloudWatchDestination
-    CloudWatchDestination (CloudWatchDestination'),
+    CloudWatchDestination,
     newCloudWatchDestination,
 
     -- ** CloudWatchDimensionConfiguration
-    CloudWatchDimensionConfiguration (CloudWatchDimensionConfiguration'),
+    CloudWatchDimensionConfiguration,
     newCloudWatchDimensionConfiguration,
 
     -- ** ConfigurationSet
-    ConfigurationSet (ConfigurationSet'),
+    ConfigurationSet,
     newConfigurationSet,
 
     -- ** Content
-    Content (Content'),
+    Content,
     newContent,
 
     -- ** CustomVerificationEmailTemplate
-    CustomVerificationEmailTemplate (CustomVerificationEmailTemplate'),
+    CustomVerificationEmailTemplate,
     newCustomVerificationEmailTemplate,
 
     -- ** DeliveryOptions
-    DeliveryOptions (DeliveryOptions'),
+    DeliveryOptions,
     newDeliveryOptions,
 
     -- ** Destination
-    Destination (Destination'),
+    Destination,
     newDestination,
 
     -- ** EventDestination
-    EventDestination (EventDestination'),
+    EventDestination,
     newEventDestination,
 
     -- ** ExtensionField
-    ExtensionField (ExtensionField'),
+    ExtensionField,
     newExtensionField,
 
     -- ** IdentityDkimAttributes
-    IdentityDkimAttributes (IdentityDkimAttributes'),
+    IdentityDkimAttributes,
     newIdentityDkimAttributes,
 
     -- ** IdentityMailFromDomainAttributes
-    IdentityMailFromDomainAttributes (IdentityMailFromDomainAttributes'),
+    IdentityMailFromDomainAttributes,
     newIdentityMailFromDomainAttributes,
 
     -- ** IdentityNotificationAttributes
-    IdentityNotificationAttributes (IdentityNotificationAttributes'),
+    IdentityNotificationAttributes,
     newIdentityNotificationAttributes,
 
     -- ** IdentityVerificationAttributes
-    IdentityVerificationAttributes (IdentityVerificationAttributes'),
+    IdentityVerificationAttributes,
     newIdentityVerificationAttributes,
 
     -- ** KinesisFirehoseDestination
-    KinesisFirehoseDestination (KinesisFirehoseDestination'),
+    KinesisFirehoseDestination,
     newKinesisFirehoseDestination,
 
     -- ** LambdaAction
-    LambdaAction (LambdaAction'),
+    LambdaAction,
     newLambdaAction,
 
     -- ** Message
-    Message (Message'),
+    Message,
     newMessage,
 
     -- ** MessageDsn
-    MessageDsn (MessageDsn'),
+    MessageDsn,
     newMessageDsn,
 
     -- ** MessageTag
-    MessageTag (MessageTag'),
+    MessageTag,
     newMessageTag,
 
     -- ** RawMessage
-    RawMessage (RawMessage'),
+    RawMessage,
     newRawMessage,
 
     -- ** ReceiptAction
-    ReceiptAction (ReceiptAction'),
+    ReceiptAction,
     newReceiptAction,
 
     -- ** ReceiptFilter
-    ReceiptFilter (ReceiptFilter'),
+    ReceiptFilter,
     newReceiptFilter,
 
     -- ** ReceiptIpFilter
-    ReceiptIpFilter (ReceiptIpFilter'),
+    ReceiptIpFilter,
     newReceiptIpFilter,
 
     -- ** ReceiptRule
-    ReceiptRule (ReceiptRule'),
+    ReceiptRule,
     newReceiptRule,
 
     -- ** ReceiptRuleSetMetadata
-    ReceiptRuleSetMetadata (ReceiptRuleSetMetadata'),
+    ReceiptRuleSetMetadata,
     newReceiptRuleSetMetadata,
 
     -- ** RecipientDsnFields
-    RecipientDsnFields (RecipientDsnFields'),
+    RecipientDsnFields,
     newRecipientDsnFields,
 
     -- ** ReputationOptions
-    ReputationOptions (ReputationOptions'),
+    ReputationOptions,
     newReputationOptions,
 
     -- ** S3Action
-    S3Action (S3Action'),
+    S3Action,
     newS3Action,
 
     -- ** SNSAction
-    SNSAction (SNSAction'),
+    SNSAction,
     newSNSAction,
 
     -- ** SNSDestination
-    SNSDestination (SNSDestination'),
+    SNSDestination,
     newSNSDestination,
 
     -- ** SendDataPoint
-    SendDataPoint (SendDataPoint'),
+    SendDataPoint,
     newSendDataPoint,
 
     -- ** StopAction
-    StopAction (StopAction'),
+    StopAction,
     newStopAction,
 
     -- ** Template
-    Template (Template'),
+    Template,
     newTemplate,
 
     -- ** TemplateMetadata
-    TemplateMetadata (TemplateMetadata'),
+    TemplateMetadata,
     newTemplateMetadata,
 
     -- ** TrackingOptions
-    TrackingOptions (TrackingOptions'),
+    TrackingOptions,
     newTrackingOptions,
 
     -- ** WorkmailAction
-    WorkmailAction (WorkmailAction'),
+    WorkmailAction,
     newWorkmailAction,
   )
 where

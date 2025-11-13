@@ -59,63 +59,63 @@ module Amazonka.RBin
     -- $operations
 
     -- ** CreateRule
-    CreateRule (CreateRule'),
+    CreateRule,
     newCreateRule,
-    CreateRuleResponse (CreateRuleResponse'),
+    CreateRuleResponse,
     newCreateRuleResponse,
 
     -- ** DeleteRule
-    DeleteRule (DeleteRule'),
+    DeleteRule,
     newDeleteRule,
-    DeleteRuleResponse (DeleteRuleResponse'),
+    DeleteRuleResponse,
     newDeleteRuleResponse,
 
     -- ** GetRule
-    GetRule (GetRule'),
+    GetRule,
     newGetRule,
-    GetRuleResponse (GetRuleResponse'),
+    GetRuleResponse,
     newGetRuleResponse,
 
     -- ** ListRules (Paginated)
-    ListRules (ListRules'),
+    ListRules,
     newListRules,
-    ListRulesResponse (ListRulesResponse'),
+    ListRulesResponse,
     newListRulesResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** LockRule
-    LockRule (LockRule'),
+    LockRule,
     newLockRule,
-    LockRuleResponse (LockRuleResponse'),
+    LockRuleResponse,
     newLockRuleResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UnlockRule
-    UnlockRule (UnlockRule'),
+    UnlockRule,
     newUnlockRule,
-    UnlockRuleResponse (UnlockRuleResponse'),
+    UnlockRuleResponse,
     newUnlockRuleResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateRule
-    UpdateRule (UpdateRule'),
+    UpdateRule,
     newUpdateRule,
-    UpdateRuleResponse (UpdateRuleResponse'),
+    UpdateRuleResponse,
     newUpdateRuleResponse,
 
     -- * Types
@@ -136,27 +136,27 @@ module Amazonka.RBin
     UnlockDelayUnit (..),
 
     -- ** LockConfiguration
-    LockConfiguration (LockConfiguration'),
+    LockConfiguration,
     newLockConfiguration,
 
     -- ** ResourceTag
-    ResourceTag (ResourceTag'),
+    ResourceTag,
     newResourceTag,
 
     -- ** RetentionPeriod
-    RetentionPeriod (RetentionPeriod'),
+    RetentionPeriod,
     newRetentionPeriod,
 
     -- ** RuleSummary
-    RuleSummary (RuleSummary'),
+    RuleSummary,
     newRuleSummary,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
 
     -- ** UnlockDelay
-    UnlockDelay (UnlockDelay'),
+    UnlockDelay,
     newUnlockDelay,
   )
 where

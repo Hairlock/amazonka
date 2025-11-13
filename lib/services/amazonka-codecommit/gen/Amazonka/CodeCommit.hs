@@ -855,465 +855,465 @@ module Amazonka.CodeCommit
     -- $operations
 
     -- ** AssociateApprovalRuleTemplateWithRepository
-    AssociateApprovalRuleTemplateWithRepository (AssociateApprovalRuleTemplateWithRepository'),
+    AssociateApprovalRuleTemplateWithRepository,
     newAssociateApprovalRuleTemplateWithRepository,
-    AssociateApprovalRuleTemplateWithRepositoryResponse (AssociateApprovalRuleTemplateWithRepositoryResponse'),
+    AssociateApprovalRuleTemplateWithRepositoryResponse,
     newAssociateApprovalRuleTemplateWithRepositoryResponse,
 
     -- ** BatchAssociateApprovalRuleTemplateWithRepositories
-    BatchAssociateApprovalRuleTemplateWithRepositories (BatchAssociateApprovalRuleTemplateWithRepositories'),
+    BatchAssociateApprovalRuleTemplateWithRepositories,
     newBatchAssociateApprovalRuleTemplateWithRepositories,
-    BatchAssociateApprovalRuleTemplateWithRepositoriesResponse (BatchAssociateApprovalRuleTemplateWithRepositoriesResponse'),
+    BatchAssociateApprovalRuleTemplateWithRepositoriesResponse,
     newBatchAssociateApprovalRuleTemplateWithRepositoriesResponse,
 
     -- ** BatchDescribeMergeConflicts
-    BatchDescribeMergeConflicts (BatchDescribeMergeConflicts'),
+    BatchDescribeMergeConflicts,
     newBatchDescribeMergeConflicts,
-    BatchDescribeMergeConflictsResponse (BatchDescribeMergeConflictsResponse'),
+    BatchDescribeMergeConflictsResponse,
     newBatchDescribeMergeConflictsResponse,
 
     -- ** BatchDisassociateApprovalRuleTemplateFromRepositories
-    BatchDisassociateApprovalRuleTemplateFromRepositories (BatchDisassociateApprovalRuleTemplateFromRepositories'),
+    BatchDisassociateApprovalRuleTemplateFromRepositories,
     newBatchDisassociateApprovalRuleTemplateFromRepositories,
-    BatchDisassociateApprovalRuleTemplateFromRepositoriesResponse (BatchDisassociateApprovalRuleTemplateFromRepositoriesResponse'),
+    BatchDisassociateApprovalRuleTemplateFromRepositoriesResponse,
     newBatchDisassociateApprovalRuleTemplateFromRepositoriesResponse,
 
     -- ** BatchGetCommits
-    BatchGetCommits (BatchGetCommits'),
+    BatchGetCommits,
     newBatchGetCommits,
-    BatchGetCommitsResponse (BatchGetCommitsResponse'),
+    BatchGetCommitsResponse,
     newBatchGetCommitsResponse,
 
     -- ** BatchGetRepositories
-    BatchGetRepositories (BatchGetRepositories'),
+    BatchGetRepositories,
     newBatchGetRepositories,
-    BatchGetRepositoriesResponse (BatchGetRepositoriesResponse'),
+    BatchGetRepositoriesResponse,
     newBatchGetRepositoriesResponse,
 
     -- ** CreateApprovalRuleTemplate
-    CreateApprovalRuleTemplate (CreateApprovalRuleTemplate'),
+    CreateApprovalRuleTemplate,
     newCreateApprovalRuleTemplate,
-    CreateApprovalRuleTemplateResponse (CreateApprovalRuleTemplateResponse'),
+    CreateApprovalRuleTemplateResponse,
     newCreateApprovalRuleTemplateResponse,
 
     -- ** CreateBranch
-    CreateBranch (CreateBranch'),
+    CreateBranch,
     newCreateBranch,
-    CreateBranchResponse (CreateBranchResponse'),
+    CreateBranchResponse,
     newCreateBranchResponse,
 
     -- ** CreateCommit
-    CreateCommit (CreateCommit'),
+    CreateCommit,
     newCreateCommit,
-    CreateCommitResponse (CreateCommitResponse'),
+    CreateCommitResponse,
     newCreateCommitResponse,
 
     -- ** CreatePullRequest
-    CreatePullRequest (CreatePullRequest'),
+    CreatePullRequest,
     newCreatePullRequest,
-    CreatePullRequestResponse (CreatePullRequestResponse'),
+    CreatePullRequestResponse,
     newCreatePullRequestResponse,
 
     -- ** CreatePullRequestApprovalRule
-    CreatePullRequestApprovalRule (CreatePullRequestApprovalRule'),
+    CreatePullRequestApprovalRule,
     newCreatePullRequestApprovalRule,
-    CreatePullRequestApprovalRuleResponse (CreatePullRequestApprovalRuleResponse'),
+    CreatePullRequestApprovalRuleResponse,
     newCreatePullRequestApprovalRuleResponse,
 
     -- ** CreateRepository
-    CreateRepository (CreateRepository'),
+    CreateRepository,
     newCreateRepository,
-    CreateRepositoryResponse (CreateRepositoryResponse'),
+    CreateRepositoryResponse,
     newCreateRepositoryResponse,
 
     -- ** CreateUnreferencedMergeCommit
-    CreateUnreferencedMergeCommit (CreateUnreferencedMergeCommit'),
+    CreateUnreferencedMergeCommit,
     newCreateUnreferencedMergeCommit,
-    CreateUnreferencedMergeCommitResponse (CreateUnreferencedMergeCommitResponse'),
+    CreateUnreferencedMergeCommitResponse,
     newCreateUnreferencedMergeCommitResponse,
 
     -- ** DeleteApprovalRuleTemplate
-    DeleteApprovalRuleTemplate (DeleteApprovalRuleTemplate'),
+    DeleteApprovalRuleTemplate,
     newDeleteApprovalRuleTemplate,
-    DeleteApprovalRuleTemplateResponse (DeleteApprovalRuleTemplateResponse'),
+    DeleteApprovalRuleTemplateResponse,
     newDeleteApprovalRuleTemplateResponse,
 
     -- ** DeleteBranch
-    DeleteBranch (DeleteBranch'),
+    DeleteBranch,
     newDeleteBranch,
-    DeleteBranchResponse (DeleteBranchResponse'),
+    DeleteBranchResponse,
     newDeleteBranchResponse,
 
     -- ** DeleteCommentContent
-    DeleteCommentContent (DeleteCommentContent'),
+    DeleteCommentContent,
     newDeleteCommentContent,
-    DeleteCommentContentResponse (DeleteCommentContentResponse'),
+    DeleteCommentContentResponse,
     newDeleteCommentContentResponse,
 
     -- ** DeleteFile
-    DeleteFile (DeleteFile'),
+    DeleteFile,
     newDeleteFile,
-    DeleteFileResponse (DeleteFileResponse'),
+    DeleteFileResponse,
     newDeleteFileResponse,
 
     -- ** DeletePullRequestApprovalRule
-    DeletePullRequestApprovalRule (DeletePullRequestApprovalRule'),
+    DeletePullRequestApprovalRule,
     newDeletePullRequestApprovalRule,
-    DeletePullRequestApprovalRuleResponse (DeletePullRequestApprovalRuleResponse'),
+    DeletePullRequestApprovalRuleResponse,
     newDeletePullRequestApprovalRuleResponse,
 
     -- ** DeleteRepository
-    DeleteRepository (DeleteRepository'),
+    DeleteRepository,
     newDeleteRepository,
-    DeleteRepositoryResponse (DeleteRepositoryResponse'),
+    DeleteRepositoryResponse,
     newDeleteRepositoryResponse,
 
     -- ** DescribeMergeConflicts
-    DescribeMergeConflicts (DescribeMergeConflicts'),
+    DescribeMergeConflicts,
     newDescribeMergeConflicts,
-    DescribeMergeConflictsResponse (DescribeMergeConflictsResponse'),
+    DescribeMergeConflictsResponse,
     newDescribeMergeConflictsResponse,
 
     -- ** DescribePullRequestEvents (Paginated)
-    DescribePullRequestEvents (DescribePullRequestEvents'),
+    DescribePullRequestEvents,
     newDescribePullRequestEvents,
-    DescribePullRequestEventsResponse (DescribePullRequestEventsResponse'),
+    DescribePullRequestEventsResponse,
     newDescribePullRequestEventsResponse,
 
     -- ** DisassociateApprovalRuleTemplateFromRepository
-    DisassociateApprovalRuleTemplateFromRepository (DisassociateApprovalRuleTemplateFromRepository'),
+    DisassociateApprovalRuleTemplateFromRepository,
     newDisassociateApprovalRuleTemplateFromRepository,
-    DisassociateApprovalRuleTemplateFromRepositoryResponse (DisassociateApprovalRuleTemplateFromRepositoryResponse'),
+    DisassociateApprovalRuleTemplateFromRepositoryResponse,
     newDisassociateApprovalRuleTemplateFromRepositoryResponse,
 
     -- ** EvaluatePullRequestApprovalRules
-    EvaluatePullRequestApprovalRules (EvaluatePullRequestApprovalRules'),
+    EvaluatePullRequestApprovalRules,
     newEvaluatePullRequestApprovalRules,
-    EvaluatePullRequestApprovalRulesResponse (EvaluatePullRequestApprovalRulesResponse'),
+    EvaluatePullRequestApprovalRulesResponse,
     newEvaluatePullRequestApprovalRulesResponse,
 
     -- ** GetApprovalRuleTemplate
-    GetApprovalRuleTemplate (GetApprovalRuleTemplate'),
+    GetApprovalRuleTemplate,
     newGetApprovalRuleTemplate,
-    GetApprovalRuleTemplateResponse (GetApprovalRuleTemplateResponse'),
+    GetApprovalRuleTemplateResponse,
     newGetApprovalRuleTemplateResponse,
 
     -- ** GetBlob
-    GetBlob (GetBlob'),
+    GetBlob,
     newGetBlob,
-    GetBlobResponse (GetBlobResponse'),
+    GetBlobResponse,
     newGetBlobResponse,
 
     -- ** GetBranch
-    GetBranch (GetBranch'),
+    GetBranch,
     newGetBranch,
-    GetBranchResponse (GetBranchResponse'),
+    GetBranchResponse,
     newGetBranchResponse,
 
     -- ** GetComment
-    GetComment (GetComment'),
+    GetComment,
     newGetComment,
-    GetCommentResponse (GetCommentResponse'),
+    GetCommentResponse,
     newGetCommentResponse,
 
     -- ** GetCommentReactions
-    GetCommentReactions (GetCommentReactions'),
+    GetCommentReactions,
     newGetCommentReactions,
-    GetCommentReactionsResponse (GetCommentReactionsResponse'),
+    GetCommentReactionsResponse,
     newGetCommentReactionsResponse,
 
     -- ** GetCommentsForComparedCommit (Paginated)
-    GetCommentsForComparedCommit (GetCommentsForComparedCommit'),
+    GetCommentsForComparedCommit,
     newGetCommentsForComparedCommit,
-    GetCommentsForComparedCommitResponse (GetCommentsForComparedCommitResponse'),
+    GetCommentsForComparedCommitResponse,
     newGetCommentsForComparedCommitResponse,
 
     -- ** GetCommentsForPullRequest (Paginated)
-    GetCommentsForPullRequest (GetCommentsForPullRequest'),
+    GetCommentsForPullRequest,
     newGetCommentsForPullRequest,
-    GetCommentsForPullRequestResponse (GetCommentsForPullRequestResponse'),
+    GetCommentsForPullRequestResponse,
     newGetCommentsForPullRequestResponse,
 
     -- ** GetCommit
-    GetCommit (GetCommit'),
+    GetCommit,
     newGetCommit,
-    GetCommitResponse (GetCommitResponse'),
+    GetCommitResponse,
     newGetCommitResponse,
 
     -- ** GetDifferences (Paginated)
-    GetDifferences (GetDifferences'),
+    GetDifferences,
     newGetDifferences,
-    GetDifferencesResponse (GetDifferencesResponse'),
+    GetDifferencesResponse,
     newGetDifferencesResponse,
 
     -- ** GetFile
-    GetFile (GetFile'),
+    GetFile,
     newGetFile,
-    GetFileResponse (GetFileResponse'),
+    GetFileResponse,
     newGetFileResponse,
 
     -- ** GetFolder
-    GetFolder (GetFolder'),
+    GetFolder,
     newGetFolder,
-    GetFolderResponse (GetFolderResponse'),
+    GetFolderResponse,
     newGetFolderResponse,
 
     -- ** GetMergeCommit
-    GetMergeCommit (GetMergeCommit'),
+    GetMergeCommit,
     newGetMergeCommit,
-    GetMergeCommitResponse (GetMergeCommitResponse'),
+    GetMergeCommitResponse,
     newGetMergeCommitResponse,
 
     -- ** GetMergeConflicts
-    GetMergeConflicts (GetMergeConflicts'),
+    GetMergeConflicts,
     newGetMergeConflicts,
-    GetMergeConflictsResponse (GetMergeConflictsResponse'),
+    GetMergeConflictsResponse,
     newGetMergeConflictsResponse,
 
     -- ** GetMergeOptions
-    GetMergeOptions (GetMergeOptions'),
+    GetMergeOptions,
     newGetMergeOptions,
-    GetMergeOptionsResponse (GetMergeOptionsResponse'),
+    GetMergeOptionsResponse,
     newGetMergeOptionsResponse,
 
     -- ** GetPullRequest
-    GetPullRequest (GetPullRequest'),
+    GetPullRequest,
     newGetPullRequest,
-    GetPullRequestResponse (GetPullRequestResponse'),
+    GetPullRequestResponse,
     newGetPullRequestResponse,
 
     -- ** GetPullRequestApprovalStates
-    GetPullRequestApprovalStates (GetPullRequestApprovalStates'),
+    GetPullRequestApprovalStates,
     newGetPullRequestApprovalStates,
-    GetPullRequestApprovalStatesResponse (GetPullRequestApprovalStatesResponse'),
+    GetPullRequestApprovalStatesResponse,
     newGetPullRequestApprovalStatesResponse,
 
     -- ** GetPullRequestOverrideState
-    GetPullRequestOverrideState (GetPullRequestOverrideState'),
+    GetPullRequestOverrideState,
     newGetPullRequestOverrideState,
-    GetPullRequestOverrideStateResponse (GetPullRequestOverrideStateResponse'),
+    GetPullRequestOverrideStateResponse,
     newGetPullRequestOverrideStateResponse,
 
     -- ** GetRepository
-    GetRepository (GetRepository'),
+    GetRepository,
     newGetRepository,
-    GetRepositoryResponse (GetRepositoryResponse'),
+    GetRepositoryResponse,
     newGetRepositoryResponse,
 
     -- ** GetRepositoryTriggers
-    GetRepositoryTriggers (GetRepositoryTriggers'),
+    GetRepositoryTriggers,
     newGetRepositoryTriggers,
-    GetRepositoryTriggersResponse (GetRepositoryTriggersResponse'),
+    GetRepositoryTriggersResponse,
     newGetRepositoryTriggersResponse,
 
     -- ** ListApprovalRuleTemplates
-    ListApprovalRuleTemplates (ListApprovalRuleTemplates'),
+    ListApprovalRuleTemplates,
     newListApprovalRuleTemplates,
-    ListApprovalRuleTemplatesResponse (ListApprovalRuleTemplatesResponse'),
+    ListApprovalRuleTemplatesResponse,
     newListApprovalRuleTemplatesResponse,
 
     -- ** ListAssociatedApprovalRuleTemplatesForRepository
-    ListAssociatedApprovalRuleTemplatesForRepository (ListAssociatedApprovalRuleTemplatesForRepository'),
+    ListAssociatedApprovalRuleTemplatesForRepository,
     newListAssociatedApprovalRuleTemplatesForRepository,
-    ListAssociatedApprovalRuleTemplatesForRepositoryResponse (ListAssociatedApprovalRuleTemplatesForRepositoryResponse'),
+    ListAssociatedApprovalRuleTemplatesForRepositoryResponse,
     newListAssociatedApprovalRuleTemplatesForRepositoryResponse,
 
     -- ** ListBranches (Paginated)
-    ListBranches (ListBranches'),
+    ListBranches,
     newListBranches,
-    ListBranchesResponse (ListBranchesResponse'),
+    ListBranchesResponse,
     newListBranchesResponse,
 
     -- ** ListPullRequests (Paginated)
-    ListPullRequests (ListPullRequests'),
+    ListPullRequests,
     newListPullRequests,
-    ListPullRequestsResponse (ListPullRequestsResponse'),
+    ListPullRequestsResponse,
     newListPullRequestsResponse,
 
     -- ** ListRepositories (Paginated)
-    ListRepositories (ListRepositories'),
+    ListRepositories,
     newListRepositories,
-    ListRepositoriesResponse (ListRepositoriesResponse'),
+    ListRepositoriesResponse,
     newListRepositoriesResponse,
 
     -- ** ListRepositoriesForApprovalRuleTemplate
-    ListRepositoriesForApprovalRuleTemplate (ListRepositoriesForApprovalRuleTemplate'),
+    ListRepositoriesForApprovalRuleTemplate,
     newListRepositoriesForApprovalRuleTemplate,
-    ListRepositoriesForApprovalRuleTemplateResponse (ListRepositoriesForApprovalRuleTemplateResponse'),
+    ListRepositoriesForApprovalRuleTemplateResponse,
     newListRepositoriesForApprovalRuleTemplateResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** MergeBranchesByFastForward
-    MergeBranchesByFastForward (MergeBranchesByFastForward'),
+    MergeBranchesByFastForward,
     newMergeBranchesByFastForward,
-    MergeBranchesByFastForwardResponse (MergeBranchesByFastForwardResponse'),
+    MergeBranchesByFastForwardResponse,
     newMergeBranchesByFastForwardResponse,
 
     -- ** MergeBranchesBySquash
-    MergeBranchesBySquash (MergeBranchesBySquash'),
+    MergeBranchesBySquash,
     newMergeBranchesBySquash,
-    MergeBranchesBySquashResponse (MergeBranchesBySquashResponse'),
+    MergeBranchesBySquashResponse,
     newMergeBranchesBySquashResponse,
 
     -- ** MergeBranchesByThreeWay
-    MergeBranchesByThreeWay (MergeBranchesByThreeWay'),
+    MergeBranchesByThreeWay,
     newMergeBranchesByThreeWay,
-    MergeBranchesByThreeWayResponse (MergeBranchesByThreeWayResponse'),
+    MergeBranchesByThreeWayResponse,
     newMergeBranchesByThreeWayResponse,
 
     -- ** MergePullRequestByFastForward
-    MergePullRequestByFastForward (MergePullRequestByFastForward'),
+    MergePullRequestByFastForward,
     newMergePullRequestByFastForward,
-    MergePullRequestByFastForwardResponse (MergePullRequestByFastForwardResponse'),
+    MergePullRequestByFastForwardResponse,
     newMergePullRequestByFastForwardResponse,
 
     -- ** MergePullRequestBySquash
-    MergePullRequestBySquash (MergePullRequestBySquash'),
+    MergePullRequestBySquash,
     newMergePullRequestBySquash,
-    MergePullRequestBySquashResponse (MergePullRequestBySquashResponse'),
+    MergePullRequestBySquashResponse,
     newMergePullRequestBySquashResponse,
 
     -- ** MergePullRequestByThreeWay
-    MergePullRequestByThreeWay (MergePullRequestByThreeWay'),
+    MergePullRequestByThreeWay,
     newMergePullRequestByThreeWay,
-    MergePullRequestByThreeWayResponse (MergePullRequestByThreeWayResponse'),
+    MergePullRequestByThreeWayResponse,
     newMergePullRequestByThreeWayResponse,
 
     -- ** OverridePullRequestApprovalRules
-    OverridePullRequestApprovalRules (OverridePullRequestApprovalRules'),
+    OverridePullRequestApprovalRules,
     newOverridePullRequestApprovalRules,
-    OverridePullRequestApprovalRulesResponse (OverridePullRequestApprovalRulesResponse'),
+    OverridePullRequestApprovalRulesResponse,
     newOverridePullRequestApprovalRulesResponse,
 
     -- ** PostCommentForComparedCommit
-    PostCommentForComparedCommit (PostCommentForComparedCommit'),
+    PostCommentForComparedCommit,
     newPostCommentForComparedCommit,
-    PostCommentForComparedCommitResponse (PostCommentForComparedCommitResponse'),
+    PostCommentForComparedCommitResponse,
     newPostCommentForComparedCommitResponse,
 
     -- ** PostCommentForPullRequest
-    PostCommentForPullRequest (PostCommentForPullRequest'),
+    PostCommentForPullRequest,
     newPostCommentForPullRequest,
-    PostCommentForPullRequestResponse (PostCommentForPullRequestResponse'),
+    PostCommentForPullRequestResponse,
     newPostCommentForPullRequestResponse,
 
     -- ** PostCommentReply
-    PostCommentReply (PostCommentReply'),
+    PostCommentReply,
     newPostCommentReply,
-    PostCommentReplyResponse (PostCommentReplyResponse'),
+    PostCommentReplyResponse,
     newPostCommentReplyResponse,
 
     -- ** PutCommentReaction
-    PutCommentReaction (PutCommentReaction'),
+    PutCommentReaction,
     newPutCommentReaction,
-    PutCommentReactionResponse (PutCommentReactionResponse'),
+    PutCommentReactionResponse,
     newPutCommentReactionResponse,
 
     -- ** PutFile
-    PutFile (PutFile'),
+    PutFile,
     newPutFile,
-    PutFileResponse (PutFileResponse'),
+    PutFileResponse,
     newPutFileResponse,
 
     -- ** PutRepositoryTriggers
-    PutRepositoryTriggers (PutRepositoryTriggers'),
+    PutRepositoryTriggers,
     newPutRepositoryTriggers,
-    PutRepositoryTriggersResponse (PutRepositoryTriggersResponse'),
+    PutRepositoryTriggersResponse,
     newPutRepositoryTriggersResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** TestRepositoryTriggers
-    TestRepositoryTriggers (TestRepositoryTriggers'),
+    TestRepositoryTriggers,
     newTestRepositoryTriggers,
-    TestRepositoryTriggersResponse (TestRepositoryTriggersResponse'),
+    TestRepositoryTriggersResponse,
     newTestRepositoryTriggersResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateApprovalRuleTemplateContent
-    UpdateApprovalRuleTemplateContent (UpdateApprovalRuleTemplateContent'),
+    UpdateApprovalRuleTemplateContent,
     newUpdateApprovalRuleTemplateContent,
-    UpdateApprovalRuleTemplateContentResponse (UpdateApprovalRuleTemplateContentResponse'),
+    UpdateApprovalRuleTemplateContentResponse,
     newUpdateApprovalRuleTemplateContentResponse,
 
     -- ** UpdateApprovalRuleTemplateDescription
-    UpdateApprovalRuleTemplateDescription (UpdateApprovalRuleTemplateDescription'),
+    UpdateApprovalRuleTemplateDescription,
     newUpdateApprovalRuleTemplateDescription,
-    UpdateApprovalRuleTemplateDescriptionResponse (UpdateApprovalRuleTemplateDescriptionResponse'),
+    UpdateApprovalRuleTemplateDescriptionResponse,
     newUpdateApprovalRuleTemplateDescriptionResponse,
 
     -- ** UpdateApprovalRuleTemplateName
-    UpdateApprovalRuleTemplateName (UpdateApprovalRuleTemplateName'),
+    UpdateApprovalRuleTemplateName,
     newUpdateApprovalRuleTemplateName,
-    UpdateApprovalRuleTemplateNameResponse (UpdateApprovalRuleTemplateNameResponse'),
+    UpdateApprovalRuleTemplateNameResponse,
     newUpdateApprovalRuleTemplateNameResponse,
 
     -- ** UpdateComment
-    UpdateComment (UpdateComment'),
+    UpdateComment,
     newUpdateComment,
-    UpdateCommentResponse (UpdateCommentResponse'),
+    UpdateCommentResponse,
     newUpdateCommentResponse,
 
     -- ** UpdateDefaultBranch
-    UpdateDefaultBranch (UpdateDefaultBranch'),
+    UpdateDefaultBranch,
     newUpdateDefaultBranch,
-    UpdateDefaultBranchResponse (UpdateDefaultBranchResponse'),
+    UpdateDefaultBranchResponse,
     newUpdateDefaultBranchResponse,
 
     -- ** UpdatePullRequestApprovalRuleContent
-    UpdatePullRequestApprovalRuleContent (UpdatePullRequestApprovalRuleContent'),
+    UpdatePullRequestApprovalRuleContent,
     newUpdatePullRequestApprovalRuleContent,
-    UpdatePullRequestApprovalRuleContentResponse (UpdatePullRequestApprovalRuleContentResponse'),
+    UpdatePullRequestApprovalRuleContentResponse,
     newUpdatePullRequestApprovalRuleContentResponse,
 
     -- ** UpdatePullRequestApprovalState
-    UpdatePullRequestApprovalState (UpdatePullRequestApprovalState'),
+    UpdatePullRequestApprovalState,
     newUpdatePullRequestApprovalState,
-    UpdatePullRequestApprovalStateResponse (UpdatePullRequestApprovalStateResponse'),
+    UpdatePullRequestApprovalStateResponse,
     newUpdatePullRequestApprovalStateResponse,
 
     -- ** UpdatePullRequestDescription
-    UpdatePullRequestDescription (UpdatePullRequestDescription'),
+    UpdatePullRequestDescription,
     newUpdatePullRequestDescription,
-    UpdatePullRequestDescriptionResponse (UpdatePullRequestDescriptionResponse'),
+    UpdatePullRequestDescriptionResponse,
     newUpdatePullRequestDescriptionResponse,
 
     -- ** UpdatePullRequestStatus
-    UpdatePullRequestStatus (UpdatePullRequestStatus'),
+    UpdatePullRequestStatus,
     newUpdatePullRequestStatus,
-    UpdatePullRequestStatusResponse (UpdatePullRequestStatusResponse'),
+    UpdatePullRequestStatusResponse,
     newUpdatePullRequestStatusResponse,
 
     -- ** UpdatePullRequestTitle
-    UpdatePullRequestTitle (UpdatePullRequestTitle'),
+    UpdatePullRequestTitle,
     newUpdatePullRequestTitle,
-    UpdatePullRequestTitleResponse (UpdatePullRequestTitleResponse'),
+    UpdatePullRequestTitleResponse,
     newUpdatePullRequestTitleResponse,
 
     -- ** UpdateRepositoryDescription
-    UpdateRepositoryDescription (UpdateRepositoryDescription'),
+    UpdateRepositoryDescription,
     newUpdateRepositoryDescription,
-    UpdateRepositoryDescriptionResponse (UpdateRepositoryDescriptionResponse'),
+    UpdateRepositoryDescriptionResponse,
     newUpdateRepositoryDescriptionResponse,
 
     -- ** UpdateRepositoryName
-    UpdateRepositoryName (UpdateRepositoryName'),
+    UpdateRepositoryName,
     newUpdateRepositoryName,
-    UpdateRepositoryNameResponse (UpdateRepositoryNameResponse'),
+    UpdateRepositoryNameResponse,
     newUpdateRepositoryNameResponse,
 
     -- * Types
@@ -1364,227 +1364,227 @@ module Amazonka.CodeCommit
     SortByEnum (..),
 
     -- ** Approval
-    Approval (Approval'),
+    Approval,
     newApproval,
 
     -- ** ApprovalRule
-    ApprovalRule (ApprovalRule'),
+    ApprovalRule,
     newApprovalRule,
 
     -- ** ApprovalRuleEventMetadata
-    ApprovalRuleEventMetadata (ApprovalRuleEventMetadata'),
+    ApprovalRuleEventMetadata,
     newApprovalRuleEventMetadata,
 
     -- ** ApprovalRuleOverriddenEventMetadata
-    ApprovalRuleOverriddenEventMetadata (ApprovalRuleOverriddenEventMetadata'),
+    ApprovalRuleOverriddenEventMetadata,
     newApprovalRuleOverriddenEventMetadata,
 
     -- ** ApprovalRuleTemplate
-    ApprovalRuleTemplate (ApprovalRuleTemplate'),
+    ApprovalRuleTemplate,
     newApprovalRuleTemplate,
 
     -- ** ApprovalStateChangedEventMetadata
-    ApprovalStateChangedEventMetadata (ApprovalStateChangedEventMetadata'),
+    ApprovalStateChangedEventMetadata,
     newApprovalStateChangedEventMetadata,
 
     -- ** BatchAssociateApprovalRuleTemplateWithRepositoriesError
-    BatchAssociateApprovalRuleTemplateWithRepositoriesError (BatchAssociateApprovalRuleTemplateWithRepositoriesError'),
+    BatchAssociateApprovalRuleTemplateWithRepositoriesError,
     newBatchAssociateApprovalRuleTemplateWithRepositoriesError,
 
     -- ** BatchDescribeMergeConflictsError
-    BatchDescribeMergeConflictsError (BatchDescribeMergeConflictsError'),
+    BatchDescribeMergeConflictsError,
     newBatchDescribeMergeConflictsError,
 
     -- ** BatchDisassociateApprovalRuleTemplateFromRepositoriesError
-    BatchDisassociateApprovalRuleTemplateFromRepositoriesError (BatchDisassociateApprovalRuleTemplateFromRepositoriesError'),
+    BatchDisassociateApprovalRuleTemplateFromRepositoriesError,
     newBatchDisassociateApprovalRuleTemplateFromRepositoriesError,
 
     -- ** BatchGetCommitsError
-    BatchGetCommitsError (BatchGetCommitsError'),
+    BatchGetCommitsError,
     newBatchGetCommitsError,
 
     -- ** BlobMetadata
-    BlobMetadata (BlobMetadata'),
+    BlobMetadata,
     newBlobMetadata,
 
     -- ** BranchInfo
-    BranchInfo (BranchInfo'),
+    BranchInfo,
     newBranchInfo,
 
     -- ** Comment
-    Comment (Comment'),
+    Comment,
     newComment,
 
     -- ** CommentsForComparedCommit
-    CommentsForComparedCommit (CommentsForComparedCommit'),
+    CommentsForComparedCommit,
     newCommentsForComparedCommit,
 
     -- ** CommentsForPullRequest
-    CommentsForPullRequest (CommentsForPullRequest'),
+    CommentsForPullRequest,
     newCommentsForPullRequest,
 
     -- ** Commit
-    Commit (Commit'),
+    Commit,
     newCommit,
 
     -- ** Conflict
-    Conflict (Conflict'),
+    Conflict,
     newConflict,
 
     -- ** ConflictMetadata
-    ConflictMetadata (ConflictMetadata'),
+    ConflictMetadata,
     newConflictMetadata,
 
     -- ** ConflictResolution
-    ConflictResolution (ConflictResolution'),
+    ConflictResolution,
     newConflictResolution,
 
     -- ** DeleteFileEntry
-    DeleteFileEntry (DeleteFileEntry'),
+    DeleteFileEntry,
     newDeleteFileEntry,
 
     -- ** Difference
-    Difference (Difference'),
+    Difference,
     newDifference,
 
     -- ** Evaluation
-    Evaluation (Evaluation'),
+    Evaluation,
     newEvaluation,
 
     -- ** File
-    File (File'),
+    File,
     newFile,
 
     -- ** FileMetadata
-    FileMetadata (FileMetadata'),
+    FileMetadata,
     newFileMetadata,
 
     -- ** FileModes
-    FileModes (FileModes'),
+    FileModes,
     newFileModes,
 
     -- ** FileSizes
-    FileSizes (FileSizes'),
+    FileSizes,
     newFileSizes,
 
     -- ** Folder
-    Folder (Folder'),
+    Folder,
     newFolder,
 
     -- ** IsBinaryFile
-    IsBinaryFile (IsBinaryFile'),
+    IsBinaryFile,
     newIsBinaryFile,
 
     -- ** Location
-    Location (Location'),
+    Location,
     newLocation,
 
     -- ** MergeHunk
-    MergeHunk (MergeHunk'),
+    MergeHunk,
     newMergeHunk,
 
     -- ** MergeHunkDetail
-    MergeHunkDetail (MergeHunkDetail'),
+    MergeHunkDetail,
     newMergeHunkDetail,
 
     -- ** MergeMetadata
-    MergeMetadata (MergeMetadata'),
+    MergeMetadata,
     newMergeMetadata,
 
     -- ** MergeOperations
-    MergeOperations (MergeOperations'),
+    MergeOperations,
     newMergeOperations,
 
     -- ** ObjectTypes
-    ObjectTypes (ObjectTypes'),
+    ObjectTypes,
     newObjectTypes,
 
     -- ** OriginApprovalRuleTemplate
-    OriginApprovalRuleTemplate (OriginApprovalRuleTemplate'),
+    OriginApprovalRuleTemplate,
     newOriginApprovalRuleTemplate,
 
     -- ** PullRequest
-    PullRequest (PullRequest'),
+    PullRequest,
     newPullRequest,
 
     -- ** PullRequestCreatedEventMetadata
-    PullRequestCreatedEventMetadata (PullRequestCreatedEventMetadata'),
+    PullRequestCreatedEventMetadata,
     newPullRequestCreatedEventMetadata,
 
     -- ** PullRequestEvent
-    PullRequestEvent (PullRequestEvent'),
+    PullRequestEvent,
     newPullRequestEvent,
 
     -- ** PullRequestMergedStateChangedEventMetadata
-    PullRequestMergedStateChangedEventMetadata (PullRequestMergedStateChangedEventMetadata'),
+    PullRequestMergedStateChangedEventMetadata,
     newPullRequestMergedStateChangedEventMetadata,
 
     -- ** PullRequestSourceReferenceUpdatedEventMetadata
-    PullRequestSourceReferenceUpdatedEventMetadata (PullRequestSourceReferenceUpdatedEventMetadata'),
+    PullRequestSourceReferenceUpdatedEventMetadata,
     newPullRequestSourceReferenceUpdatedEventMetadata,
 
     -- ** PullRequestStatusChangedEventMetadata
-    PullRequestStatusChangedEventMetadata (PullRequestStatusChangedEventMetadata'),
+    PullRequestStatusChangedEventMetadata,
     newPullRequestStatusChangedEventMetadata,
 
     -- ** PullRequestTarget
-    PullRequestTarget (PullRequestTarget'),
+    PullRequestTarget,
     newPullRequestTarget,
 
     -- ** PutFileEntry
-    PutFileEntry (PutFileEntry'),
+    PutFileEntry,
     newPutFileEntry,
 
     -- ** ReactionForComment
-    ReactionForComment (ReactionForComment'),
+    ReactionForComment,
     newReactionForComment,
 
     -- ** ReactionValueFormats
-    ReactionValueFormats (ReactionValueFormats'),
+    ReactionValueFormats,
     newReactionValueFormats,
 
     -- ** ReplaceContentEntry
-    ReplaceContentEntry (ReplaceContentEntry'),
+    ReplaceContentEntry,
     newReplaceContentEntry,
 
     -- ** RepositoryMetadata
-    RepositoryMetadata (RepositoryMetadata'),
+    RepositoryMetadata,
     newRepositoryMetadata,
 
     -- ** RepositoryNameIdPair
-    RepositoryNameIdPair (RepositoryNameIdPair'),
+    RepositoryNameIdPair,
     newRepositoryNameIdPair,
 
     -- ** RepositoryTrigger
-    RepositoryTrigger (RepositoryTrigger'),
+    RepositoryTrigger,
     newRepositoryTrigger,
 
     -- ** RepositoryTriggerExecutionFailure
-    RepositoryTriggerExecutionFailure (RepositoryTriggerExecutionFailure'),
+    RepositoryTriggerExecutionFailure,
     newRepositoryTriggerExecutionFailure,
 
     -- ** SetFileModeEntry
-    SetFileModeEntry (SetFileModeEntry'),
+    SetFileModeEntry,
     newSetFileModeEntry,
 
     -- ** SourceFileSpecifier
-    SourceFileSpecifier (SourceFileSpecifier'),
+    SourceFileSpecifier,
     newSourceFileSpecifier,
 
     -- ** SubModule
-    SubModule (SubModule'),
+    SubModule,
     newSubModule,
 
     -- ** SymbolicLink
-    SymbolicLink (SymbolicLink'),
+    SymbolicLink,
     newSymbolicLink,
 
     -- ** Target
-    Target (Target'),
+    Target,
     newTarget,
 
     -- ** UserInfo
-    UserInfo (UserInfo'),
+    UserInfo,
     newUserInfo,
   )
 where

@@ -53,477 +53,477 @@ module Amazonka.MacieV2
     -- $operations
 
     -- ** AcceptInvitation
-    AcceptInvitation (AcceptInvitation'),
+    AcceptInvitation,
     newAcceptInvitation,
-    AcceptInvitationResponse (AcceptInvitationResponse'),
+    AcceptInvitationResponse,
     newAcceptInvitationResponse,
 
     -- ** BatchGetCustomDataIdentifiers
-    BatchGetCustomDataIdentifiers (BatchGetCustomDataIdentifiers'),
+    BatchGetCustomDataIdentifiers,
     newBatchGetCustomDataIdentifiers,
-    BatchGetCustomDataIdentifiersResponse (BatchGetCustomDataIdentifiersResponse'),
+    BatchGetCustomDataIdentifiersResponse,
     newBatchGetCustomDataIdentifiersResponse,
 
     -- ** CreateAllowList
-    CreateAllowList (CreateAllowList'),
+    CreateAllowList,
     newCreateAllowList,
-    CreateAllowListResponse (CreateAllowListResponse'),
+    CreateAllowListResponse,
     newCreateAllowListResponse,
 
     -- ** CreateClassificationJob
-    CreateClassificationJob (CreateClassificationJob'),
+    CreateClassificationJob,
     newCreateClassificationJob,
-    CreateClassificationJobResponse (CreateClassificationJobResponse'),
+    CreateClassificationJobResponse,
     newCreateClassificationJobResponse,
 
     -- ** CreateCustomDataIdentifier
-    CreateCustomDataIdentifier (CreateCustomDataIdentifier'),
+    CreateCustomDataIdentifier,
     newCreateCustomDataIdentifier,
-    CreateCustomDataIdentifierResponse (CreateCustomDataIdentifierResponse'),
+    CreateCustomDataIdentifierResponse,
     newCreateCustomDataIdentifierResponse,
 
     -- ** CreateFindingsFilter
-    CreateFindingsFilter (CreateFindingsFilter'),
+    CreateFindingsFilter,
     newCreateFindingsFilter,
-    CreateFindingsFilterResponse (CreateFindingsFilterResponse'),
+    CreateFindingsFilterResponse,
     newCreateFindingsFilterResponse,
 
     -- ** CreateInvitations
-    CreateInvitations (CreateInvitations'),
+    CreateInvitations,
     newCreateInvitations,
-    CreateInvitationsResponse (CreateInvitationsResponse'),
+    CreateInvitationsResponse,
     newCreateInvitationsResponse,
 
     -- ** CreateMember
-    CreateMember (CreateMember'),
+    CreateMember,
     newCreateMember,
-    CreateMemberResponse (CreateMemberResponse'),
+    CreateMemberResponse,
     newCreateMemberResponse,
 
     -- ** CreateSampleFindings
-    CreateSampleFindings (CreateSampleFindings'),
+    CreateSampleFindings,
     newCreateSampleFindings,
-    CreateSampleFindingsResponse (CreateSampleFindingsResponse'),
+    CreateSampleFindingsResponse,
     newCreateSampleFindingsResponse,
 
     -- ** DeclineInvitations
-    DeclineInvitations (DeclineInvitations'),
+    DeclineInvitations,
     newDeclineInvitations,
-    DeclineInvitationsResponse (DeclineInvitationsResponse'),
+    DeclineInvitationsResponse,
     newDeclineInvitationsResponse,
 
     -- ** DeleteAllowList
-    DeleteAllowList (DeleteAllowList'),
+    DeleteAllowList,
     newDeleteAllowList,
-    DeleteAllowListResponse (DeleteAllowListResponse'),
+    DeleteAllowListResponse,
     newDeleteAllowListResponse,
 
     -- ** DeleteCustomDataIdentifier
-    DeleteCustomDataIdentifier (DeleteCustomDataIdentifier'),
+    DeleteCustomDataIdentifier,
     newDeleteCustomDataIdentifier,
-    DeleteCustomDataIdentifierResponse (DeleteCustomDataIdentifierResponse'),
+    DeleteCustomDataIdentifierResponse,
     newDeleteCustomDataIdentifierResponse,
 
     -- ** DeleteFindingsFilter
-    DeleteFindingsFilter (DeleteFindingsFilter'),
+    DeleteFindingsFilter,
     newDeleteFindingsFilter,
-    DeleteFindingsFilterResponse (DeleteFindingsFilterResponse'),
+    DeleteFindingsFilterResponse,
     newDeleteFindingsFilterResponse,
 
     -- ** DeleteInvitations
-    DeleteInvitations (DeleteInvitations'),
+    DeleteInvitations,
     newDeleteInvitations,
-    DeleteInvitationsResponse (DeleteInvitationsResponse'),
+    DeleteInvitationsResponse,
     newDeleteInvitationsResponse,
 
     -- ** DeleteMember
-    DeleteMember (DeleteMember'),
+    DeleteMember,
     newDeleteMember,
-    DeleteMemberResponse (DeleteMemberResponse'),
+    DeleteMemberResponse,
     newDeleteMemberResponse,
 
     -- ** DescribeBuckets (Paginated)
-    DescribeBuckets (DescribeBuckets'),
+    DescribeBuckets,
     newDescribeBuckets,
-    DescribeBucketsResponse (DescribeBucketsResponse'),
+    DescribeBucketsResponse,
     newDescribeBucketsResponse,
 
     -- ** DescribeClassificationJob
-    DescribeClassificationJob (DescribeClassificationJob'),
+    DescribeClassificationJob,
     newDescribeClassificationJob,
-    DescribeClassificationJobResponse (DescribeClassificationJobResponse'),
+    DescribeClassificationJobResponse,
     newDescribeClassificationJobResponse,
 
     -- ** DescribeOrganizationConfiguration
-    DescribeOrganizationConfiguration (DescribeOrganizationConfiguration'),
+    DescribeOrganizationConfiguration,
     newDescribeOrganizationConfiguration,
-    DescribeOrganizationConfigurationResponse (DescribeOrganizationConfigurationResponse'),
+    DescribeOrganizationConfigurationResponse,
     newDescribeOrganizationConfigurationResponse,
 
     -- ** DisableMacie
-    DisableMacie (DisableMacie'),
+    DisableMacie,
     newDisableMacie,
-    DisableMacieResponse (DisableMacieResponse'),
+    DisableMacieResponse,
     newDisableMacieResponse,
 
     -- ** DisableOrganizationAdminAccount
-    DisableOrganizationAdminAccount (DisableOrganizationAdminAccount'),
+    DisableOrganizationAdminAccount,
     newDisableOrganizationAdminAccount,
-    DisableOrganizationAdminAccountResponse (DisableOrganizationAdminAccountResponse'),
+    DisableOrganizationAdminAccountResponse,
     newDisableOrganizationAdminAccountResponse,
 
     -- ** DisassociateFromAdministratorAccount
-    DisassociateFromAdministratorAccount (DisassociateFromAdministratorAccount'),
+    DisassociateFromAdministratorAccount,
     newDisassociateFromAdministratorAccount,
-    DisassociateFromAdministratorAccountResponse (DisassociateFromAdministratorAccountResponse'),
+    DisassociateFromAdministratorAccountResponse,
     newDisassociateFromAdministratorAccountResponse,
 
     -- ** DisassociateFromMasterAccount
-    DisassociateFromMasterAccount (DisassociateFromMasterAccount'),
+    DisassociateFromMasterAccount,
     newDisassociateFromMasterAccount,
-    DisassociateFromMasterAccountResponse (DisassociateFromMasterAccountResponse'),
+    DisassociateFromMasterAccountResponse,
     newDisassociateFromMasterAccountResponse,
 
     -- ** DisassociateMember
-    DisassociateMember (DisassociateMember'),
+    DisassociateMember,
     newDisassociateMember,
-    DisassociateMemberResponse (DisassociateMemberResponse'),
+    DisassociateMemberResponse,
     newDisassociateMemberResponse,
 
     -- ** EnableMacie
-    EnableMacie (EnableMacie'),
+    EnableMacie,
     newEnableMacie,
-    EnableMacieResponse (EnableMacieResponse'),
+    EnableMacieResponse,
     newEnableMacieResponse,
 
     -- ** EnableOrganizationAdminAccount
-    EnableOrganizationAdminAccount (EnableOrganizationAdminAccount'),
+    EnableOrganizationAdminAccount,
     newEnableOrganizationAdminAccount,
-    EnableOrganizationAdminAccountResponse (EnableOrganizationAdminAccountResponse'),
+    EnableOrganizationAdminAccountResponse,
     newEnableOrganizationAdminAccountResponse,
 
     -- ** GetAdministratorAccount
-    GetAdministratorAccount (GetAdministratorAccount'),
+    GetAdministratorAccount,
     newGetAdministratorAccount,
-    GetAdministratorAccountResponse (GetAdministratorAccountResponse'),
+    GetAdministratorAccountResponse,
     newGetAdministratorAccountResponse,
 
     -- ** GetAllowList
-    GetAllowList (GetAllowList'),
+    GetAllowList,
     newGetAllowList,
-    GetAllowListResponse (GetAllowListResponse'),
+    GetAllowListResponse,
     newGetAllowListResponse,
 
     -- ** GetAutomatedDiscoveryConfiguration
-    GetAutomatedDiscoveryConfiguration (GetAutomatedDiscoveryConfiguration'),
+    GetAutomatedDiscoveryConfiguration,
     newGetAutomatedDiscoveryConfiguration,
-    GetAutomatedDiscoveryConfigurationResponse (GetAutomatedDiscoveryConfigurationResponse'),
+    GetAutomatedDiscoveryConfigurationResponse,
     newGetAutomatedDiscoveryConfigurationResponse,
 
     -- ** GetBucketStatistics
-    GetBucketStatistics (GetBucketStatistics'),
+    GetBucketStatistics,
     newGetBucketStatistics,
-    GetBucketStatisticsResponse (GetBucketStatisticsResponse'),
+    GetBucketStatisticsResponse,
     newGetBucketStatisticsResponse,
 
     -- ** GetClassificationExportConfiguration
-    GetClassificationExportConfiguration (GetClassificationExportConfiguration'),
+    GetClassificationExportConfiguration,
     newGetClassificationExportConfiguration,
-    GetClassificationExportConfigurationResponse (GetClassificationExportConfigurationResponse'),
+    GetClassificationExportConfigurationResponse,
     newGetClassificationExportConfigurationResponse,
 
     -- ** GetClassificationScope
-    GetClassificationScope (GetClassificationScope'),
+    GetClassificationScope,
     newGetClassificationScope,
-    GetClassificationScopeResponse (GetClassificationScopeResponse'),
+    GetClassificationScopeResponse,
     newGetClassificationScopeResponse,
 
     -- ** GetCustomDataIdentifier
-    GetCustomDataIdentifier (GetCustomDataIdentifier'),
+    GetCustomDataIdentifier,
     newGetCustomDataIdentifier,
-    GetCustomDataIdentifierResponse (GetCustomDataIdentifierResponse'),
+    GetCustomDataIdentifierResponse,
     newGetCustomDataIdentifierResponse,
 
     -- ** GetFindingStatistics
-    GetFindingStatistics (GetFindingStatistics'),
+    GetFindingStatistics,
     newGetFindingStatistics,
-    GetFindingStatisticsResponse (GetFindingStatisticsResponse'),
+    GetFindingStatisticsResponse,
     newGetFindingStatisticsResponse,
 
     -- ** GetFindings
-    GetFindings (GetFindings'),
+    GetFindings,
     newGetFindings,
-    GetFindingsResponse (GetFindingsResponse'),
+    GetFindingsResponse,
     newGetFindingsResponse,
 
     -- ** GetFindingsFilter
-    GetFindingsFilter (GetFindingsFilter'),
+    GetFindingsFilter,
     newGetFindingsFilter,
-    GetFindingsFilterResponse (GetFindingsFilterResponse'),
+    GetFindingsFilterResponse,
     newGetFindingsFilterResponse,
 
     -- ** GetFindingsPublicationConfiguration
-    GetFindingsPublicationConfiguration (GetFindingsPublicationConfiguration'),
+    GetFindingsPublicationConfiguration,
     newGetFindingsPublicationConfiguration,
-    GetFindingsPublicationConfigurationResponse (GetFindingsPublicationConfigurationResponse'),
+    GetFindingsPublicationConfigurationResponse,
     newGetFindingsPublicationConfigurationResponse,
 
     -- ** GetInvitationsCount
-    GetInvitationsCount (GetInvitationsCount'),
+    GetInvitationsCount,
     newGetInvitationsCount,
-    GetInvitationsCountResponse (GetInvitationsCountResponse'),
+    GetInvitationsCountResponse,
     newGetInvitationsCountResponse,
 
     -- ** GetMacieSession
-    GetMacieSession (GetMacieSession'),
+    GetMacieSession,
     newGetMacieSession,
-    GetMacieSessionResponse (GetMacieSessionResponse'),
+    GetMacieSessionResponse,
     newGetMacieSessionResponse,
 
     -- ** GetMasterAccount
-    GetMasterAccount (GetMasterAccount'),
+    GetMasterAccount,
     newGetMasterAccount,
-    GetMasterAccountResponse (GetMasterAccountResponse'),
+    GetMasterAccountResponse,
     newGetMasterAccountResponse,
 
     -- ** GetMember
-    GetMember (GetMember'),
+    GetMember,
     newGetMember,
-    GetMemberResponse (GetMemberResponse'),
+    GetMemberResponse,
     newGetMemberResponse,
 
     -- ** GetResourceProfile
-    GetResourceProfile (GetResourceProfile'),
+    GetResourceProfile,
     newGetResourceProfile,
-    GetResourceProfileResponse (GetResourceProfileResponse'),
+    GetResourceProfileResponse,
     newGetResourceProfileResponse,
 
     -- ** GetRevealConfiguration
-    GetRevealConfiguration (GetRevealConfiguration'),
+    GetRevealConfiguration,
     newGetRevealConfiguration,
-    GetRevealConfigurationResponse (GetRevealConfigurationResponse'),
+    GetRevealConfigurationResponse,
     newGetRevealConfigurationResponse,
 
     -- ** GetSensitiveDataOccurrences
-    GetSensitiveDataOccurrences (GetSensitiveDataOccurrences'),
+    GetSensitiveDataOccurrences,
     newGetSensitiveDataOccurrences,
-    GetSensitiveDataOccurrencesResponse (GetSensitiveDataOccurrencesResponse'),
+    GetSensitiveDataOccurrencesResponse,
     newGetSensitiveDataOccurrencesResponse,
 
     -- ** GetSensitiveDataOccurrencesAvailability
-    GetSensitiveDataOccurrencesAvailability (GetSensitiveDataOccurrencesAvailability'),
+    GetSensitiveDataOccurrencesAvailability,
     newGetSensitiveDataOccurrencesAvailability,
-    GetSensitiveDataOccurrencesAvailabilityResponse (GetSensitiveDataOccurrencesAvailabilityResponse'),
+    GetSensitiveDataOccurrencesAvailabilityResponse,
     newGetSensitiveDataOccurrencesAvailabilityResponse,
 
     -- ** GetSensitivityInspectionTemplate
-    GetSensitivityInspectionTemplate (GetSensitivityInspectionTemplate'),
+    GetSensitivityInspectionTemplate,
     newGetSensitivityInspectionTemplate,
-    GetSensitivityInspectionTemplateResponse (GetSensitivityInspectionTemplateResponse'),
+    GetSensitivityInspectionTemplateResponse,
     newGetSensitivityInspectionTemplateResponse,
 
     -- ** GetUsageStatistics (Paginated)
-    GetUsageStatistics (GetUsageStatistics'),
+    GetUsageStatistics,
     newGetUsageStatistics,
-    GetUsageStatisticsResponse (GetUsageStatisticsResponse'),
+    GetUsageStatisticsResponse,
     newGetUsageStatisticsResponse,
 
     -- ** GetUsageTotals
-    GetUsageTotals (GetUsageTotals'),
+    GetUsageTotals,
     newGetUsageTotals,
-    GetUsageTotalsResponse (GetUsageTotalsResponse'),
+    GetUsageTotalsResponse,
     newGetUsageTotalsResponse,
 
     -- ** ListAllowLists (Paginated)
-    ListAllowLists (ListAllowLists'),
+    ListAllowLists,
     newListAllowLists,
-    ListAllowListsResponse (ListAllowListsResponse'),
+    ListAllowListsResponse,
     newListAllowListsResponse,
 
     -- ** ListClassificationJobs (Paginated)
-    ListClassificationJobs (ListClassificationJobs'),
+    ListClassificationJobs,
     newListClassificationJobs,
-    ListClassificationJobsResponse (ListClassificationJobsResponse'),
+    ListClassificationJobsResponse,
     newListClassificationJobsResponse,
 
     -- ** ListClassificationScopes (Paginated)
-    ListClassificationScopes (ListClassificationScopes'),
+    ListClassificationScopes,
     newListClassificationScopes,
-    ListClassificationScopesResponse (ListClassificationScopesResponse'),
+    ListClassificationScopesResponse,
     newListClassificationScopesResponse,
 
     -- ** ListCustomDataIdentifiers (Paginated)
-    ListCustomDataIdentifiers (ListCustomDataIdentifiers'),
+    ListCustomDataIdentifiers,
     newListCustomDataIdentifiers,
-    ListCustomDataIdentifiersResponse (ListCustomDataIdentifiersResponse'),
+    ListCustomDataIdentifiersResponse,
     newListCustomDataIdentifiersResponse,
 
     -- ** ListFindings (Paginated)
-    ListFindings (ListFindings'),
+    ListFindings,
     newListFindings,
-    ListFindingsResponse (ListFindingsResponse'),
+    ListFindingsResponse,
     newListFindingsResponse,
 
     -- ** ListFindingsFilters (Paginated)
-    ListFindingsFilters (ListFindingsFilters'),
+    ListFindingsFilters,
     newListFindingsFilters,
-    ListFindingsFiltersResponse (ListFindingsFiltersResponse'),
+    ListFindingsFiltersResponse,
     newListFindingsFiltersResponse,
 
     -- ** ListInvitations (Paginated)
-    ListInvitations (ListInvitations'),
+    ListInvitations,
     newListInvitations,
-    ListInvitationsResponse (ListInvitationsResponse'),
+    ListInvitationsResponse,
     newListInvitationsResponse,
 
     -- ** ListManagedDataIdentifiers (Paginated)
-    ListManagedDataIdentifiers (ListManagedDataIdentifiers'),
+    ListManagedDataIdentifiers,
     newListManagedDataIdentifiers,
-    ListManagedDataIdentifiersResponse (ListManagedDataIdentifiersResponse'),
+    ListManagedDataIdentifiersResponse,
     newListManagedDataIdentifiersResponse,
 
     -- ** ListMembers (Paginated)
-    ListMembers (ListMembers'),
+    ListMembers,
     newListMembers,
-    ListMembersResponse (ListMembersResponse'),
+    ListMembersResponse,
     newListMembersResponse,
 
     -- ** ListOrganizationAdminAccounts (Paginated)
-    ListOrganizationAdminAccounts (ListOrganizationAdminAccounts'),
+    ListOrganizationAdminAccounts,
     newListOrganizationAdminAccounts,
-    ListOrganizationAdminAccountsResponse (ListOrganizationAdminAccountsResponse'),
+    ListOrganizationAdminAccountsResponse,
     newListOrganizationAdminAccountsResponse,
 
     -- ** ListResourceProfileArtifacts (Paginated)
-    ListResourceProfileArtifacts (ListResourceProfileArtifacts'),
+    ListResourceProfileArtifacts,
     newListResourceProfileArtifacts,
-    ListResourceProfileArtifactsResponse (ListResourceProfileArtifactsResponse'),
+    ListResourceProfileArtifactsResponse,
     newListResourceProfileArtifactsResponse,
 
     -- ** ListResourceProfileDetections (Paginated)
-    ListResourceProfileDetections (ListResourceProfileDetections'),
+    ListResourceProfileDetections,
     newListResourceProfileDetections,
-    ListResourceProfileDetectionsResponse (ListResourceProfileDetectionsResponse'),
+    ListResourceProfileDetectionsResponse,
     newListResourceProfileDetectionsResponse,
 
     -- ** ListSensitivityInspectionTemplates (Paginated)
-    ListSensitivityInspectionTemplates (ListSensitivityInspectionTemplates'),
+    ListSensitivityInspectionTemplates,
     newListSensitivityInspectionTemplates,
-    ListSensitivityInspectionTemplatesResponse (ListSensitivityInspectionTemplatesResponse'),
+    ListSensitivityInspectionTemplatesResponse,
     newListSensitivityInspectionTemplatesResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** PutClassificationExportConfiguration
-    PutClassificationExportConfiguration (PutClassificationExportConfiguration'),
+    PutClassificationExportConfiguration,
     newPutClassificationExportConfiguration,
-    PutClassificationExportConfigurationResponse (PutClassificationExportConfigurationResponse'),
+    PutClassificationExportConfigurationResponse,
     newPutClassificationExportConfigurationResponse,
 
     -- ** PutFindingsPublicationConfiguration
-    PutFindingsPublicationConfiguration (PutFindingsPublicationConfiguration'),
+    PutFindingsPublicationConfiguration,
     newPutFindingsPublicationConfiguration,
-    PutFindingsPublicationConfigurationResponse (PutFindingsPublicationConfigurationResponse'),
+    PutFindingsPublicationConfigurationResponse,
     newPutFindingsPublicationConfigurationResponse,
 
     -- ** SearchResources (Paginated)
-    SearchResources (SearchResources'),
+    SearchResources,
     newSearchResources,
-    SearchResourcesResponse (SearchResourcesResponse'),
+    SearchResourcesResponse,
     newSearchResourcesResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** TestCustomDataIdentifier
-    TestCustomDataIdentifier (TestCustomDataIdentifier'),
+    TestCustomDataIdentifier,
     newTestCustomDataIdentifier,
-    TestCustomDataIdentifierResponse (TestCustomDataIdentifierResponse'),
+    TestCustomDataIdentifierResponse,
     newTestCustomDataIdentifierResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateAllowList
-    UpdateAllowList (UpdateAllowList'),
+    UpdateAllowList,
     newUpdateAllowList,
-    UpdateAllowListResponse (UpdateAllowListResponse'),
+    UpdateAllowListResponse,
     newUpdateAllowListResponse,
 
     -- ** UpdateAutomatedDiscoveryConfiguration
-    UpdateAutomatedDiscoveryConfiguration (UpdateAutomatedDiscoveryConfiguration'),
+    UpdateAutomatedDiscoveryConfiguration,
     newUpdateAutomatedDiscoveryConfiguration,
-    UpdateAutomatedDiscoveryConfigurationResponse (UpdateAutomatedDiscoveryConfigurationResponse'),
+    UpdateAutomatedDiscoveryConfigurationResponse,
     newUpdateAutomatedDiscoveryConfigurationResponse,
 
     -- ** UpdateClassificationJob
-    UpdateClassificationJob (UpdateClassificationJob'),
+    UpdateClassificationJob,
     newUpdateClassificationJob,
-    UpdateClassificationJobResponse (UpdateClassificationJobResponse'),
+    UpdateClassificationJobResponse,
     newUpdateClassificationJobResponse,
 
     -- ** UpdateClassificationScope
-    UpdateClassificationScope (UpdateClassificationScope'),
+    UpdateClassificationScope,
     newUpdateClassificationScope,
-    UpdateClassificationScopeResponse (UpdateClassificationScopeResponse'),
+    UpdateClassificationScopeResponse,
     newUpdateClassificationScopeResponse,
 
     -- ** UpdateFindingsFilter
-    UpdateFindingsFilter (UpdateFindingsFilter'),
+    UpdateFindingsFilter,
     newUpdateFindingsFilter,
-    UpdateFindingsFilterResponse (UpdateFindingsFilterResponse'),
+    UpdateFindingsFilterResponse,
     newUpdateFindingsFilterResponse,
 
     -- ** UpdateMacieSession
-    UpdateMacieSession (UpdateMacieSession'),
+    UpdateMacieSession,
     newUpdateMacieSession,
-    UpdateMacieSessionResponse (UpdateMacieSessionResponse'),
+    UpdateMacieSessionResponse,
     newUpdateMacieSessionResponse,
 
     -- ** UpdateMemberSession
-    UpdateMemberSession (UpdateMemberSession'),
+    UpdateMemberSession,
     newUpdateMemberSession,
-    UpdateMemberSessionResponse (UpdateMemberSessionResponse'),
+    UpdateMemberSessionResponse,
     newUpdateMemberSessionResponse,
 
     -- ** UpdateOrganizationConfiguration
-    UpdateOrganizationConfiguration (UpdateOrganizationConfiguration'),
+    UpdateOrganizationConfiguration,
     newUpdateOrganizationConfiguration,
-    UpdateOrganizationConfigurationResponse (UpdateOrganizationConfigurationResponse'),
+    UpdateOrganizationConfigurationResponse,
     newUpdateOrganizationConfigurationResponse,
 
     -- ** UpdateResourceProfile
-    UpdateResourceProfile (UpdateResourceProfile'),
+    UpdateResourceProfile,
     newUpdateResourceProfile,
-    UpdateResourceProfileResponse (UpdateResourceProfileResponse'),
+    UpdateResourceProfileResponse,
     newUpdateResourceProfileResponse,
 
     -- ** UpdateResourceProfileDetections
-    UpdateResourceProfileDetections (UpdateResourceProfileDetections'),
+    UpdateResourceProfileDetections,
     newUpdateResourceProfileDetections,
-    UpdateResourceProfileDetectionsResponse (UpdateResourceProfileDetectionsResponse'),
+    UpdateResourceProfileDetectionsResponse,
     newUpdateResourceProfileDetectionsResponse,
 
     -- ** UpdateRevealConfiguration
-    UpdateRevealConfiguration (UpdateRevealConfiguration'),
+    UpdateRevealConfiguration,
     newUpdateRevealConfiguration,
-    UpdateRevealConfigurationResponse (UpdateRevealConfigurationResponse'),
+    UpdateRevealConfigurationResponse,
     newUpdateRevealConfigurationResponse,
 
     -- ** UpdateSensitivityInspectionTemplate
-    UpdateSensitivityInspectionTemplate (UpdateSensitivityInspectionTemplate'),
+    UpdateSensitivityInspectionTemplate,
     newUpdateSensitivityInspectionTemplate,
-    UpdateSensitivityInspectionTemplateResponse (UpdateSensitivityInspectionTemplateResponse'),
+    UpdateSensitivityInspectionTemplateResponse,
     newUpdateSensitivityInspectionTemplateResponse,
 
     -- * Types
@@ -694,551 +694,551 @@ module Amazonka.MacieV2
     UserIdentityType (..),
 
     -- ** AccessControlList
-    AccessControlList (AccessControlList'),
+    AccessControlList,
     newAccessControlList,
 
     -- ** AccountDetail
-    AccountDetail (AccountDetail'),
+    AccountDetail,
     newAccountDetail,
 
     -- ** AccountLevelPermissions
-    AccountLevelPermissions (AccountLevelPermissions'),
+    AccountLevelPermissions,
     newAccountLevelPermissions,
 
     -- ** AdminAccount
-    AdminAccount (AdminAccount'),
+    AdminAccount,
     newAdminAccount,
 
     -- ** AllowListCriteria
-    AllowListCriteria (AllowListCriteria'),
+    AllowListCriteria,
     newAllowListCriteria,
 
     -- ** AllowListStatus
-    AllowListStatus (AllowListStatus'),
+    AllowListStatus,
     newAllowListStatus,
 
     -- ** AllowListSummary
-    AllowListSummary (AllowListSummary'),
+    AllowListSummary,
     newAllowListSummary,
 
     -- ** ApiCallDetails
-    ApiCallDetails (ApiCallDetails'),
+    ApiCallDetails,
     newApiCallDetails,
 
     -- ** AssumedRole
-    AssumedRole (AssumedRole'),
+    AssumedRole,
     newAssumedRole,
 
     -- ** AwsAccount
-    AwsAccount (AwsAccount'),
+    AwsAccount,
     newAwsAccount,
 
     -- ** AwsService
-    AwsService (AwsService'),
+    AwsService,
     newAwsService,
 
     -- ** BatchGetCustomDataIdentifierSummary
-    BatchGetCustomDataIdentifierSummary (BatchGetCustomDataIdentifierSummary'),
+    BatchGetCustomDataIdentifierSummary,
     newBatchGetCustomDataIdentifierSummary,
 
     -- ** BlockPublicAccess
-    BlockPublicAccess (BlockPublicAccess'),
+    BlockPublicAccess,
     newBlockPublicAccess,
 
     -- ** BucketCountByEffectivePermission
-    BucketCountByEffectivePermission (BucketCountByEffectivePermission'),
+    BucketCountByEffectivePermission,
     newBucketCountByEffectivePermission,
 
     -- ** BucketCountByEncryptionType
-    BucketCountByEncryptionType (BucketCountByEncryptionType'),
+    BucketCountByEncryptionType,
     newBucketCountByEncryptionType,
 
     -- ** BucketCountBySharedAccessType
-    BucketCountBySharedAccessType (BucketCountBySharedAccessType'),
+    BucketCountBySharedAccessType,
     newBucketCountBySharedAccessType,
 
     -- ** BucketCountPolicyAllowsUnencryptedObjectUploads
-    BucketCountPolicyAllowsUnencryptedObjectUploads (BucketCountPolicyAllowsUnencryptedObjectUploads'),
+    BucketCountPolicyAllowsUnencryptedObjectUploads,
     newBucketCountPolicyAllowsUnencryptedObjectUploads,
 
     -- ** BucketCriteriaAdditionalProperties
-    BucketCriteriaAdditionalProperties (BucketCriteriaAdditionalProperties'),
+    BucketCriteriaAdditionalProperties,
     newBucketCriteriaAdditionalProperties,
 
     -- ** BucketLevelPermissions
-    BucketLevelPermissions (BucketLevelPermissions'),
+    BucketLevelPermissions,
     newBucketLevelPermissions,
 
     -- ** BucketMetadata
-    BucketMetadata (BucketMetadata'),
+    BucketMetadata,
     newBucketMetadata,
 
     -- ** BucketPermissionConfiguration
-    BucketPermissionConfiguration (BucketPermissionConfiguration'),
+    BucketPermissionConfiguration,
     newBucketPermissionConfiguration,
 
     -- ** BucketPolicy
-    BucketPolicy (BucketPolicy'),
+    BucketPolicy,
     newBucketPolicy,
 
     -- ** BucketPublicAccess
-    BucketPublicAccess (BucketPublicAccess'),
+    BucketPublicAccess,
     newBucketPublicAccess,
 
     -- ** BucketServerSideEncryption
-    BucketServerSideEncryption (BucketServerSideEncryption'),
+    BucketServerSideEncryption,
     newBucketServerSideEncryption,
 
     -- ** BucketSortCriteria
-    BucketSortCriteria (BucketSortCriteria'),
+    BucketSortCriteria,
     newBucketSortCriteria,
 
     -- ** BucketStatisticsBySensitivity
-    BucketStatisticsBySensitivity (BucketStatisticsBySensitivity'),
+    BucketStatisticsBySensitivity,
     newBucketStatisticsBySensitivity,
 
     -- ** Cell
-    Cell (Cell'),
+    Cell,
     newCell,
 
     -- ** ClassificationDetails
-    ClassificationDetails (ClassificationDetails'),
+    ClassificationDetails,
     newClassificationDetails,
 
     -- ** ClassificationExportConfiguration
-    ClassificationExportConfiguration (ClassificationExportConfiguration'),
+    ClassificationExportConfiguration,
     newClassificationExportConfiguration,
 
     -- ** ClassificationResult
-    ClassificationResult (ClassificationResult'),
+    ClassificationResult,
     newClassificationResult,
 
     -- ** ClassificationResultStatus
-    ClassificationResultStatus (ClassificationResultStatus'),
+    ClassificationResultStatus,
     newClassificationResultStatus,
 
     -- ** ClassificationScopeSummary
-    ClassificationScopeSummary (ClassificationScopeSummary'),
+    ClassificationScopeSummary,
     newClassificationScopeSummary,
 
     -- ** CriteriaBlockForJob
-    CriteriaBlockForJob (CriteriaBlockForJob'),
+    CriteriaBlockForJob,
     newCriteriaBlockForJob,
 
     -- ** CriteriaForJob
-    CriteriaForJob (CriteriaForJob'),
+    CriteriaForJob,
     newCriteriaForJob,
 
     -- ** CriterionAdditionalProperties
-    CriterionAdditionalProperties (CriterionAdditionalProperties'),
+    CriterionAdditionalProperties,
     newCriterionAdditionalProperties,
 
     -- ** CustomDataIdentifierSummary
-    CustomDataIdentifierSummary (CustomDataIdentifierSummary'),
+    CustomDataIdentifierSummary,
     newCustomDataIdentifierSummary,
 
     -- ** CustomDataIdentifiers
-    CustomDataIdentifiers (CustomDataIdentifiers'),
+    CustomDataIdentifiers,
     newCustomDataIdentifiers,
 
     -- ** CustomDetection
-    CustomDetection (CustomDetection'),
+    CustomDetection,
     newCustomDetection,
 
     -- ** DailySchedule
-    DailySchedule (DailySchedule'),
+    DailySchedule,
     newDailySchedule,
 
     -- ** DefaultDetection
-    DefaultDetection (DefaultDetection'),
+    DefaultDetection,
     newDefaultDetection,
 
     -- ** DetectedDataDetails
-    DetectedDataDetails (DetectedDataDetails'),
+    DetectedDataDetails,
     newDetectedDataDetails,
 
     -- ** Detection
-    Detection (Detection'),
+    Detection,
     newDetection,
 
     -- ** DomainDetails
-    DomainDetails (DomainDetails'),
+    DomainDetails,
     newDomainDetails,
 
     -- ** FederatedUser
-    FederatedUser (FederatedUser'),
+    FederatedUser,
     newFederatedUser,
 
     -- ** Finding
-    Finding (Finding'),
+    Finding,
     newFinding,
 
     -- ** FindingAction
-    FindingAction (FindingAction'),
+    FindingAction,
     newFindingAction,
 
     -- ** FindingActor
-    FindingActor (FindingActor'),
+    FindingActor,
     newFindingActor,
 
     -- ** FindingCriteria
-    FindingCriteria (FindingCriteria'),
+    FindingCriteria,
     newFindingCriteria,
 
     -- ** FindingStatisticsSortCriteria
-    FindingStatisticsSortCriteria (FindingStatisticsSortCriteria'),
+    FindingStatisticsSortCriteria,
     newFindingStatisticsSortCriteria,
 
     -- ** FindingsFilterListItem
-    FindingsFilterListItem (FindingsFilterListItem'),
+    FindingsFilterListItem,
     newFindingsFilterListItem,
 
     -- ** GroupCount
-    GroupCount (GroupCount'),
+    GroupCount,
     newGroupCount,
 
     -- ** IamUser
-    IamUser (IamUser'),
+    IamUser,
     newIamUser,
 
     -- ** Invitation
-    Invitation (Invitation'),
+    Invitation,
     newInvitation,
 
     -- ** IpAddressDetails
-    IpAddressDetails (IpAddressDetails'),
+    IpAddressDetails,
     newIpAddressDetails,
 
     -- ** IpCity
-    IpCity (IpCity'),
+    IpCity,
     newIpCity,
 
     -- ** IpCountry
-    IpCountry (IpCountry'),
+    IpCountry,
     newIpCountry,
 
     -- ** IpGeoLocation
-    IpGeoLocation (IpGeoLocation'),
+    IpGeoLocation,
     newIpGeoLocation,
 
     -- ** IpOwner
-    IpOwner (IpOwner'),
+    IpOwner,
     newIpOwner,
 
     -- ** JobDetails
-    JobDetails (JobDetails'),
+    JobDetails,
     newJobDetails,
 
     -- ** JobScheduleFrequency
-    JobScheduleFrequency (JobScheduleFrequency'),
+    JobScheduleFrequency,
     newJobScheduleFrequency,
 
     -- ** JobScopeTerm
-    JobScopeTerm (JobScopeTerm'),
+    JobScopeTerm,
     newJobScopeTerm,
 
     -- ** JobScopingBlock
-    JobScopingBlock (JobScopingBlock'),
+    JobScopingBlock,
     newJobScopingBlock,
 
     -- ** JobSummary
-    JobSummary (JobSummary'),
+    JobSummary,
     newJobSummary,
 
     -- ** KeyValuePair
-    KeyValuePair (KeyValuePair'),
+    KeyValuePair,
     newKeyValuePair,
 
     -- ** LastRunErrorStatus
-    LastRunErrorStatus (LastRunErrorStatus'),
+    LastRunErrorStatus,
     newLastRunErrorStatus,
 
     -- ** ListJobsFilterCriteria
-    ListJobsFilterCriteria (ListJobsFilterCriteria'),
+    ListJobsFilterCriteria,
     newListJobsFilterCriteria,
 
     -- ** ListJobsFilterTerm
-    ListJobsFilterTerm (ListJobsFilterTerm'),
+    ListJobsFilterTerm,
     newListJobsFilterTerm,
 
     -- ** ListJobsSortCriteria
-    ListJobsSortCriteria (ListJobsSortCriteria'),
+    ListJobsSortCriteria,
     newListJobsSortCriteria,
 
     -- ** ManagedDataIdentifierSummary
-    ManagedDataIdentifierSummary (ManagedDataIdentifierSummary'),
+    ManagedDataIdentifierSummary,
     newManagedDataIdentifierSummary,
 
     -- ** MatchingBucket
-    MatchingBucket (MatchingBucket'),
+    MatchingBucket,
     newMatchingBucket,
 
     -- ** MatchingResource
-    MatchingResource (MatchingResource'),
+    MatchingResource,
     newMatchingResource,
 
     -- ** Member
-    Member (Member'),
+    Member,
     newMember,
 
     -- ** MonthlySchedule
-    MonthlySchedule (MonthlySchedule'),
+    MonthlySchedule,
     newMonthlySchedule,
 
     -- ** ObjectCountByEncryptionType
-    ObjectCountByEncryptionType (ObjectCountByEncryptionType'),
+    ObjectCountByEncryptionType,
     newObjectCountByEncryptionType,
 
     -- ** ObjectLevelStatistics
-    ObjectLevelStatistics (ObjectLevelStatistics'),
+    ObjectLevelStatistics,
     newObjectLevelStatistics,
 
     -- ** Occurrences
-    Occurrences (Occurrences'),
+    Occurrences,
     newOccurrences,
 
     -- ** Page
-    Page (Page'),
+    Page,
     newPage,
 
     -- ** PolicyDetails
-    PolicyDetails (PolicyDetails'),
+    PolicyDetails,
     newPolicyDetails,
 
     -- ** Range
-    Range (Range'),
+    Range,
     newRange,
 
     -- ** Record
-    Record (Record'),
+    Record,
     newRecord,
 
     -- ** ReplicationDetails
-    ReplicationDetails (ReplicationDetails'),
+    ReplicationDetails,
     newReplicationDetails,
 
     -- ** ResourceProfileArtifact
-    ResourceProfileArtifact (ResourceProfileArtifact'),
+    ResourceProfileArtifact,
     newResourceProfileArtifact,
 
     -- ** ResourceStatistics
-    ResourceStatistics (ResourceStatistics'),
+    ResourceStatistics,
     newResourceStatistics,
 
     -- ** ResourcesAffected
-    ResourcesAffected (ResourcesAffected'),
+    ResourcesAffected,
     newResourcesAffected,
 
     -- ** RevealConfiguration
-    RevealConfiguration (RevealConfiguration'),
+    RevealConfiguration,
     newRevealConfiguration,
 
     -- ** S3Bucket
-    S3Bucket (S3Bucket'),
+    S3Bucket,
     newS3Bucket,
 
     -- ** S3BucketCriteriaForJob
-    S3BucketCriteriaForJob (S3BucketCriteriaForJob'),
+    S3BucketCriteriaForJob,
     newS3BucketCriteriaForJob,
 
     -- ** S3BucketDefinitionForJob
-    S3BucketDefinitionForJob (S3BucketDefinitionForJob'),
+    S3BucketDefinitionForJob,
     newS3BucketDefinitionForJob,
 
     -- ** S3BucketOwner
-    S3BucketOwner (S3BucketOwner'),
+    S3BucketOwner,
     newS3BucketOwner,
 
     -- ** S3ClassificationScope
-    S3ClassificationScope (S3ClassificationScope'),
+    S3ClassificationScope,
     newS3ClassificationScope,
 
     -- ** S3ClassificationScopeExclusion
-    S3ClassificationScopeExclusion (S3ClassificationScopeExclusion'),
+    S3ClassificationScopeExclusion,
     newS3ClassificationScopeExclusion,
 
     -- ** S3ClassificationScopeExclusionUpdate
-    S3ClassificationScopeExclusionUpdate (S3ClassificationScopeExclusionUpdate'),
+    S3ClassificationScopeExclusionUpdate,
     newS3ClassificationScopeExclusionUpdate,
 
     -- ** S3ClassificationScopeUpdate
-    S3ClassificationScopeUpdate (S3ClassificationScopeUpdate'),
+    S3ClassificationScopeUpdate,
     newS3ClassificationScopeUpdate,
 
     -- ** S3Destination
-    S3Destination (S3Destination'),
+    S3Destination,
     newS3Destination,
 
     -- ** S3JobDefinition
-    S3JobDefinition (S3JobDefinition'),
+    S3JobDefinition,
     newS3JobDefinition,
 
     -- ** S3Object
-    S3Object (S3Object'),
+    S3Object,
     newS3Object,
 
     -- ** S3WordsList
-    S3WordsList (S3WordsList'),
+    S3WordsList,
     newS3WordsList,
 
     -- ** Scoping
-    Scoping (Scoping'),
+    Scoping,
     newScoping,
 
     -- ** SearchResourcesBucketCriteria
-    SearchResourcesBucketCriteria (SearchResourcesBucketCriteria'),
+    SearchResourcesBucketCriteria,
     newSearchResourcesBucketCriteria,
 
     -- ** SearchResourcesCriteria
-    SearchResourcesCriteria (SearchResourcesCriteria'),
+    SearchResourcesCriteria,
     newSearchResourcesCriteria,
 
     -- ** SearchResourcesCriteriaBlock
-    SearchResourcesCriteriaBlock (SearchResourcesCriteriaBlock'),
+    SearchResourcesCriteriaBlock,
     newSearchResourcesCriteriaBlock,
 
     -- ** SearchResourcesSimpleCriterion
-    SearchResourcesSimpleCriterion (SearchResourcesSimpleCriterion'),
+    SearchResourcesSimpleCriterion,
     newSearchResourcesSimpleCriterion,
 
     -- ** SearchResourcesSortCriteria
-    SearchResourcesSortCriteria (SearchResourcesSortCriteria'),
+    SearchResourcesSortCriteria,
     newSearchResourcesSortCriteria,
 
     -- ** SearchResourcesTagCriterion
-    SearchResourcesTagCriterion (SearchResourcesTagCriterion'),
+    SearchResourcesTagCriterion,
     newSearchResourcesTagCriterion,
 
     -- ** SearchResourcesTagCriterionPair
-    SearchResourcesTagCriterionPair (SearchResourcesTagCriterionPair'),
+    SearchResourcesTagCriterionPair,
     newSearchResourcesTagCriterionPair,
 
     -- ** SecurityHubConfiguration
-    SecurityHubConfiguration (SecurityHubConfiguration'),
+    SecurityHubConfiguration,
     newSecurityHubConfiguration,
 
     -- ** SensitiveDataItem
-    SensitiveDataItem (SensitiveDataItem'),
+    SensitiveDataItem,
     newSensitiveDataItem,
 
     -- ** SensitivityAggregations
-    SensitivityAggregations (SensitivityAggregations'),
+    SensitivityAggregations,
     newSensitivityAggregations,
 
     -- ** SensitivityInspectionTemplateExcludes
-    SensitivityInspectionTemplateExcludes (SensitivityInspectionTemplateExcludes'),
+    SensitivityInspectionTemplateExcludes,
     newSensitivityInspectionTemplateExcludes,
 
     -- ** SensitivityInspectionTemplateIncludes
-    SensitivityInspectionTemplateIncludes (SensitivityInspectionTemplateIncludes'),
+    SensitivityInspectionTemplateIncludes,
     newSensitivityInspectionTemplateIncludes,
 
     -- ** SensitivityInspectionTemplatesEntry
-    SensitivityInspectionTemplatesEntry (SensitivityInspectionTemplatesEntry'),
+    SensitivityInspectionTemplatesEntry,
     newSensitivityInspectionTemplatesEntry,
 
     -- ** ServerSideEncryption
-    ServerSideEncryption (ServerSideEncryption'),
+    ServerSideEncryption,
     newServerSideEncryption,
 
     -- ** ServiceLimit
-    ServiceLimit (ServiceLimit'),
+    ServiceLimit,
     newServiceLimit,
 
     -- ** SessionContext
-    SessionContext (SessionContext'),
+    SessionContext,
     newSessionContext,
 
     -- ** SessionContextAttributes
-    SessionContextAttributes (SessionContextAttributes'),
+    SessionContextAttributes,
     newSessionContextAttributes,
 
     -- ** SessionIssuer
-    SessionIssuer (SessionIssuer'),
+    SessionIssuer,
     newSessionIssuer,
 
     -- ** Severity
-    Severity (Severity'),
+    Severity,
     newSeverity,
 
     -- ** SeverityLevel
-    SeverityLevel (SeverityLevel'),
+    SeverityLevel,
     newSeverityLevel,
 
     -- ** SimpleCriterionForJob
-    SimpleCriterionForJob (SimpleCriterionForJob'),
+    SimpleCriterionForJob,
     newSimpleCriterionForJob,
 
     -- ** SimpleScopeTerm
-    SimpleScopeTerm (SimpleScopeTerm'),
+    SimpleScopeTerm,
     newSimpleScopeTerm,
 
     -- ** SortCriteria
-    SortCriteria (SortCriteria'),
+    SortCriteria,
     newSortCriteria,
 
     -- ** Statistics
-    Statistics (Statistics'),
+    Statistics,
     newStatistics,
 
     -- ** SuppressDataIdentifier
-    SuppressDataIdentifier (SuppressDataIdentifier'),
+    SuppressDataIdentifier,
     newSuppressDataIdentifier,
 
     -- ** TagCriterionForJob
-    TagCriterionForJob (TagCriterionForJob'),
+    TagCriterionForJob,
     newTagCriterionForJob,
 
     -- ** TagCriterionPairForJob
-    TagCriterionPairForJob (TagCriterionPairForJob'),
+    TagCriterionPairForJob,
     newTagCriterionPairForJob,
 
     -- ** TagScopeTerm
-    TagScopeTerm (TagScopeTerm'),
+    TagScopeTerm,
     newTagScopeTerm,
 
     -- ** TagValuePair
-    TagValuePair (TagValuePair'),
+    TagValuePair,
     newTagValuePair,
 
     -- ** UnprocessedAccount
-    UnprocessedAccount (UnprocessedAccount'),
+    UnprocessedAccount,
     newUnprocessedAccount,
 
     -- ** UsageByAccount
-    UsageByAccount (UsageByAccount'),
+    UsageByAccount,
     newUsageByAccount,
 
     -- ** UsageRecord
-    UsageRecord (UsageRecord'),
+    UsageRecord,
     newUsageRecord,
 
     -- ** UsageStatisticsFilter
-    UsageStatisticsFilter (UsageStatisticsFilter'),
+    UsageStatisticsFilter,
     newUsageStatisticsFilter,
 
     -- ** UsageStatisticsSortBy
-    UsageStatisticsSortBy (UsageStatisticsSortBy'),
+    UsageStatisticsSortBy,
     newUsageStatisticsSortBy,
 
     -- ** UsageTotal
-    UsageTotal (UsageTotal'),
+    UsageTotal,
     newUsageTotal,
 
     -- ** UserIdentity
-    UserIdentity (UserIdentity'),
+    UserIdentity,
     newUserIdentity,
 
     -- ** UserIdentityRoot
-    UserIdentityRoot (UserIdentityRoot'),
+    UserIdentityRoot,
     newUserIdentityRoot,
 
     -- ** UserPausedDetails
-    UserPausedDetails (UserPausedDetails'),
+    UserPausedDetails,
     newUserPausedDetails,
 
     -- ** WeeklySchedule
-    WeeklySchedule (WeeklySchedule'),
+    WeeklySchedule,
     newWeeklySchedule,
   )
 where

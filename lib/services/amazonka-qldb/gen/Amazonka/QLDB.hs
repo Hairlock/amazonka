@@ -44,123 +44,123 @@ module Amazonka.QLDB
     -- $operations
 
     -- ** CancelJournalKinesisStream
-    CancelJournalKinesisStream (CancelJournalKinesisStream'),
+    CancelJournalKinesisStream,
     newCancelJournalKinesisStream,
-    CancelJournalKinesisStreamResponse (CancelJournalKinesisStreamResponse'),
+    CancelJournalKinesisStreamResponse,
     newCancelJournalKinesisStreamResponse,
 
     -- ** CreateLedger
-    CreateLedger (CreateLedger'),
+    CreateLedger,
     newCreateLedger,
-    CreateLedgerResponse (CreateLedgerResponse'),
+    CreateLedgerResponse,
     newCreateLedgerResponse,
 
     -- ** DeleteLedger
-    DeleteLedger (DeleteLedger'),
+    DeleteLedger,
     newDeleteLedger,
-    DeleteLedgerResponse (DeleteLedgerResponse'),
+    DeleteLedgerResponse,
     newDeleteLedgerResponse,
 
     -- ** DescribeJournalKinesisStream
-    DescribeJournalKinesisStream (DescribeJournalKinesisStream'),
+    DescribeJournalKinesisStream,
     newDescribeJournalKinesisStream,
-    DescribeJournalKinesisStreamResponse (DescribeJournalKinesisStreamResponse'),
+    DescribeJournalKinesisStreamResponse,
     newDescribeJournalKinesisStreamResponse,
 
     -- ** DescribeJournalS3Export
-    DescribeJournalS3Export (DescribeJournalS3Export'),
+    DescribeJournalS3Export,
     newDescribeJournalS3Export,
-    DescribeJournalS3ExportResponse (DescribeJournalS3ExportResponse'),
+    DescribeJournalS3ExportResponse,
     newDescribeJournalS3ExportResponse,
 
     -- ** DescribeLedger
-    DescribeLedger (DescribeLedger'),
+    DescribeLedger,
     newDescribeLedger,
-    DescribeLedgerResponse (DescribeLedgerResponse'),
+    DescribeLedgerResponse,
     newDescribeLedgerResponse,
 
     -- ** ExportJournalToS3
-    ExportJournalToS3 (ExportJournalToS3'),
+    ExportJournalToS3,
     newExportJournalToS3,
-    ExportJournalToS3Response (ExportJournalToS3Response'),
+    ExportJournalToS3Response,
     newExportJournalToS3Response,
 
     -- ** GetBlock
-    GetBlock (GetBlock'),
+    GetBlock,
     newGetBlock,
-    GetBlockResponse (GetBlockResponse'),
+    GetBlockResponse,
     newGetBlockResponse,
 
     -- ** GetDigest
-    GetDigest (GetDigest'),
+    GetDigest,
     newGetDigest,
-    GetDigestResponse (GetDigestResponse'),
+    GetDigestResponse,
     newGetDigestResponse,
 
     -- ** GetRevision
-    GetRevision (GetRevision'),
+    GetRevision,
     newGetRevision,
-    GetRevisionResponse (GetRevisionResponse'),
+    GetRevisionResponse,
     newGetRevisionResponse,
 
     -- ** ListJournalKinesisStreamsForLedger
-    ListJournalKinesisStreamsForLedger (ListJournalKinesisStreamsForLedger'),
+    ListJournalKinesisStreamsForLedger,
     newListJournalKinesisStreamsForLedger,
-    ListJournalKinesisStreamsForLedgerResponse (ListJournalKinesisStreamsForLedgerResponse'),
+    ListJournalKinesisStreamsForLedgerResponse,
     newListJournalKinesisStreamsForLedgerResponse,
 
     -- ** ListJournalS3Exports
-    ListJournalS3Exports (ListJournalS3Exports'),
+    ListJournalS3Exports,
     newListJournalS3Exports,
-    ListJournalS3ExportsResponse (ListJournalS3ExportsResponse'),
+    ListJournalS3ExportsResponse,
     newListJournalS3ExportsResponse,
 
     -- ** ListJournalS3ExportsForLedger
-    ListJournalS3ExportsForLedger (ListJournalS3ExportsForLedger'),
+    ListJournalS3ExportsForLedger,
     newListJournalS3ExportsForLedger,
-    ListJournalS3ExportsForLedgerResponse (ListJournalS3ExportsForLedgerResponse'),
+    ListJournalS3ExportsForLedgerResponse,
     newListJournalS3ExportsForLedgerResponse,
 
     -- ** ListLedgers
-    ListLedgers (ListLedgers'),
+    ListLedgers,
     newListLedgers,
-    ListLedgersResponse (ListLedgersResponse'),
+    ListLedgersResponse,
     newListLedgersResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** StreamJournalToKinesis
-    StreamJournalToKinesis (StreamJournalToKinesis'),
+    StreamJournalToKinesis,
     newStreamJournalToKinesis,
-    StreamJournalToKinesisResponse (StreamJournalToKinesisResponse'),
+    StreamJournalToKinesisResponse,
     newStreamJournalToKinesisResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateLedger
-    UpdateLedger (UpdateLedger'),
+    UpdateLedger,
     newUpdateLedger,
-    UpdateLedgerResponse (UpdateLedgerResponse'),
+    UpdateLedgerResponse,
     newUpdateLedgerResponse,
 
     -- ** UpdateLedgerPermissionsMode
-    UpdateLedgerPermissionsMode (UpdateLedgerPermissionsMode'),
+    UpdateLedgerPermissionsMode,
     newUpdateLedgerPermissionsMode,
-    UpdateLedgerPermissionsModeResponse (UpdateLedgerPermissionsModeResponse'),
+    UpdateLedgerPermissionsModeResponse,
     newUpdateLedgerPermissionsModeResponse,
 
     -- * Types
@@ -190,35 +190,35 @@ module Amazonka.QLDB
     StreamStatus (..),
 
     -- ** JournalKinesisStreamDescription
-    JournalKinesisStreamDescription (JournalKinesisStreamDescription'),
+    JournalKinesisStreamDescription,
     newJournalKinesisStreamDescription,
 
     -- ** JournalS3ExportDescription
-    JournalS3ExportDescription (JournalS3ExportDescription'),
+    JournalS3ExportDescription,
     newJournalS3ExportDescription,
 
     -- ** KinesisConfiguration
-    KinesisConfiguration (KinesisConfiguration'),
+    KinesisConfiguration,
     newKinesisConfiguration,
 
     -- ** LedgerEncryptionDescription
-    LedgerEncryptionDescription (LedgerEncryptionDescription'),
+    LedgerEncryptionDescription,
     newLedgerEncryptionDescription,
 
     -- ** LedgerSummary
-    LedgerSummary (LedgerSummary'),
+    LedgerSummary,
     newLedgerSummary,
 
     -- ** S3EncryptionConfiguration
-    S3EncryptionConfiguration (S3EncryptionConfiguration'),
+    S3EncryptionConfiguration,
     newS3EncryptionConfiguration,
 
     -- ** S3ExportConfiguration
-    S3ExportConfiguration (S3ExportConfiguration'),
+    S3ExportConfiguration,
     newS3ExportConfiguration,
 
     -- ** ValueHolder
-    ValueHolder (ValueHolder'),
+    ValueHolder,
     newValueHolder,
   )
 where

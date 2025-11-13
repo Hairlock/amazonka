@@ -475,849 +475,849 @@ module Amazonka.RDS
     -- $operations
 
     -- ** AddRoleToDBCluster
-    AddRoleToDBCluster (AddRoleToDBCluster'),
+    AddRoleToDBCluster,
     newAddRoleToDBCluster,
-    AddRoleToDBClusterResponse (AddRoleToDBClusterResponse'),
+    AddRoleToDBClusterResponse,
     newAddRoleToDBClusterResponse,
 
     -- ** AddRoleToDBInstance
-    AddRoleToDBInstance (AddRoleToDBInstance'),
+    AddRoleToDBInstance,
     newAddRoleToDBInstance,
-    AddRoleToDBInstanceResponse (AddRoleToDBInstanceResponse'),
+    AddRoleToDBInstanceResponse,
     newAddRoleToDBInstanceResponse,
 
     -- ** AddSourceIdentifierToSubscription
-    AddSourceIdentifierToSubscription (AddSourceIdentifierToSubscription'),
+    AddSourceIdentifierToSubscription,
     newAddSourceIdentifierToSubscription,
-    AddSourceIdentifierToSubscriptionResponse (AddSourceIdentifierToSubscriptionResponse'),
+    AddSourceIdentifierToSubscriptionResponse,
     newAddSourceIdentifierToSubscriptionResponse,
 
     -- ** AddTagsToResource
-    AddTagsToResource (AddTagsToResource'),
+    AddTagsToResource,
     newAddTagsToResource,
-    AddTagsToResourceResponse (AddTagsToResourceResponse'),
+    AddTagsToResourceResponse,
     newAddTagsToResourceResponse,
 
     -- ** ApplyPendingMaintenanceAction
-    ApplyPendingMaintenanceAction (ApplyPendingMaintenanceAction'),
+    ApplyPendingMaintenanceAction,
     newApplyPendingMaintenanceAction,
-    ApplyPendingMaintenanceActionResponse (ApplyPendingMaintenanceActionResponse'),
+    ApplyPendingMaintenanceActionResponse,
     newApplyPendingMaintenanceActionResponse,
 
     -- ** AuthorizeDBSecurityGroupIngress
-    AuthorizeDBSecurityGroupIngress (AuthorizeDBSecurityGroupIngress'),
+    AuthorizeDBSecurityGroupIngress,
     newAuthorizeDBSecurityGroupIngress,
-    AuthorizeDBSecurityGroupIngressResponse (AuthorizeDBSecurityGroupIngressResponse'),
+    AuthorizeDBSecurityGroupIngressResponse,
     newAuthorizeDBSecurityGroupIngressResponse,
 
     -- ** BacktrackDBCluster
-    BacktrackDBCluster (BacktrackDBCluster'),
+    BacktrackDBCluster,
     newBacktrackDBCluster,
-    DBClusterBacktrack (DBClusterBacktrack'),
+    DBClusterBacktrack,
     newDBClusterBacktrack,
 
     -- ** CancelExportTask
-    CancelExportTask (CancelExportTask'),
+    CancelExportTask,
     newCancelExportTask,
-    ExportTask (ExportTask'),
+    ExportTask,
     newExportTask,
 
     -- ** CopyDBClusterParameterGroup
-    CopyDBClusterParameterGroup (CopyDBClusterParameterGroup'),
+    CopyDBClusterParameterGroup,
     newCopyDBClusterParameterGroup,
-    CopyDBClusterParameterGroupResponse (CopyDBClusterParameterGroupResponse'),
+    CopyDBClusterParameterGroupResponse,
     newCopyDBClusterParameterGroupResponse,
 
     -- ** CopyDBClusterSnapshot
-    CopyDBClusterSnapshot (CopyDBClusterSnapshot'),
+    CopyDBClusterSnapshot,
     newCopyDBClusterSnapshot,
-    CopyDBClusterSnapshotResponse (CopyDBClusterSnapshotResponse'),
+    CopyDBClusterSnapshotResponse,
     newCopyDBClusterSnapshotResponse,
 
     -- ** CopyDBParameterGroup
-    CopyDBParameterGroup (CopyDBParameterGroup'),
+    CopyDBParameterGroup,
     newCopyDBParameterGroup,
-    CopyDBParameterGroupResponse (CopyDBParameterGroupResponse'),
+    CopyDBParameterGroupResponse,
     newCopyDBParameterGroupResponse,
 
     -- ** CopyDBSnapshot
-    CopyDBSnapshot (CopyDBSnapshot'),
+    CopyDBSnapshot,
     newCopyDBSnapshot,
-    CopyDBSnapshotResponse (CopyDBSnapshotResponse'),
+    CopyDBSnapshotResponse,
     newCopyDBSnapshotResponse,
 
     -- ** CopyOptionGroup
-    CopyOptionGroup (CopyOptionGroup'),
+    CopyOptionGroup,
     newCopyOptionGroup,
-    CopyOptionGroupResponse (CopyOptionGroupResponse'),
+    CopyOptionGroupResponse,
     newCopyOptionGroupResponse,
 
     -- ** CreateBlueGreenDeployment
-    CreateBlueGreenDeployment (CreateBlueGreenDeployment'),
+    CreateBlueGreenDeployment,
     newCreateBlueGreenDeployment,
-    CreateBlueGreenDeploymentResponse (CreateBlueGreenDeploymentResponse'),
+    CreateBlueGreenDeploymentResponse,
     newCreateBlueGreenDeploymentResponse,
 
     -- ** CreateCustomDBEngineVersion
-    CreateCustomDBEngineVersion (CreateCustomDBEngineVersion'),
+    CreateCustomDBEngineVersion,
     newCreateCustomDBEngineVersion,
-    DBEngineVersion (DBEngineVersion'),
+    DBEngineVersion,
     newDBEngineVersion,
 
     -- ** CreateDBCluster
-    CreateDBCluster (CreateDBCluster'),
+    CreateDBCluster,
     newCreateDBCluster,
-    CreateDBClusterResponse (CreateDBClusterResponse'),
+    CreateDBClusterResponse,
     newCreateDBClusterResponse,
 
     -- ** CreateDBClusterEndpoint
-    CreateDBClusterEndpoint (CreateDBClusterEndpoint'),
+    CreateDBClusterEndpoint,
     newCreateDBClusterEndpoint,
-    DBClusterEndpoint (DBClusterEndpoint'),
+    DBClusterEndpoint,
     newDBClusterEndpoint,
 
     -- ** CreateDBClusterParameterGroup
-    CreateDBClusterParameterGroup (CreateDBClusterParameterGroup'),
+    CreateDBClusterParameterGroup,
     newCreateDBClusterParameterGroup,
-    CreateDBClusterParameterGroupResponse (CreateDBClusterParameterGroupResponse'),
+    CreateDBClusterParameterGroupResponse,
     newCreateDBClusterParameterGroupResponse,
 
     -- ** CreateDBClusterSnapshot
-    CreateDBClusterSnapshot (CreateDBClusterSnapshot'),
+    CreateDBClusterSnapshot,
     newCreateDBClusterSnapshot,
-    CreateDBClusterSnapshotResponse (CreateDBClusterSnapshotResponse'),
+    CreateDBClusterSnapshotResponse,
     newCreateDBClusterSnapshotResponse,
 
     -- ** CreateDBInstance
-    CreateDBInstance (CreateDBInstance'),
+    CreateDBInstance,
     newCreateDBInstance,
-    CreateDBInstanceResponse (CreateDBInstanceResponse'),
+    CreateDBInstanceResponse,
     newCreateDBInstanceResponse,
 
     -- ** CreateDBInstanceReadReplica
-    CreateDBInstanceReadReplica (CreateDBInstanceReadReplica'),
+    CreateDBInstanceReadReplica,
     newCreateDBInstanceReadReplica,
-    CreateDBInstanceReadReplicaResponse (CreateDBInstanceReadReplicaResponse'),
+    CreateDBInstanceReadReplicaResponse,
     newCreateDBInstanceReadReplicaResponse,
 
     -- ** CreateDBParameterGroup
-    CreateDBParameterGroup (CreateDBParameterGroup'),
+    CreateDBParameterGroup,
     newCreateDBParameterGroup,
-    CreateDBParameterGroupResponse (CreateDBParameterGroupResponse'),
+    CreateDBParameterGroupResponse,
     newCreateDBParameterGroupResponse,
 
     -- ** CreateDBProxy
-    CreateDBProxy (CreateDBProxy'),
+    CreateDBProxy,
     newCreateDBProxy,
-    CreateDBProxyResponse (CreateDBProxyResponse'),
+    CreateDBProxyResponse,
     newCreateDBProxyResponse,
 
     -- ** CreateDBProxyEndpoint
-    CreateDBProxyEndpoint (CreateDBProxyEndpoint'),
+    CreateDBProxyEndpoint,
     newCreateDBProxyEndpoint,
-    CreateDBProxyEndpointResponse (CreateDBProxyEndpointResponse'),
+    CreateDBProxyEndpointResponse,
     newCreateDBProxyEndpointResponse,
 
     -- ** CreateDBSecurityGroup
-    CreateDBSecurityGroup (CreateDBSecurityGroup'),
+    CreateDBSecurityGroup,
     newCreateDBSecurityGroup,
-    CreateDBSecurityGroupResponse (CreateDBSecurityGroupResponse'),
+    CreateDBSecurityGroupResponse,
     newCreateDBSecurityGroupResponse,
 
     -- ** CreateDBSnapshot
-    CreateDBSnapshot (CreateDBSnapshot'),
+    CreateDBSnapshot,
     newCreateDBSnapshot,
-    CreateDBSnapshotResponse (CreateDBSnapshotResponse'),
+    CreateDBSnapshotResponse,
     newCreateDBSnapshotResponse,
 
     -- ** CreateDBSubnetGroup
-    CreateDBSubnetGroup (CreateDBSubnetGroup'),
+    CreateDBSubnetGroup,
     newCreateDBSubnetGroup,
-    CreateDBSubnetGroupResponse (CreateDBSubnetGroupResponse'),
+    CreateDBSubnetGroupResponse,
     newCreateDBSubnetGroupResponse,
 
     -- ** CreateEventSubscription
-    CreateEventSubscription (CreateEventSubscription'),
+    CreateEventSubscription,
     newCreateEventSubscription,
-    CreateEventSubscriptionResponse (CreateEventSubscriptionResponse'),
+    CreateEventSubscriptionResponse,
     newCreateEventSubscriptionResponse,
 
     -- ** CreateGlobalCluster
-    CreateGlobalCluster (CreateGlobalCluster'),
+    CreateGlobalCluster,
     newCreateGlobalCluster,
-    CreateGlobalClusterResponse (CreateGlobalClusterResponse'),
+    CreateGlobalClusterResponse,
     newCreateGlobalClusterResponse,
 
     -- ** CreateOptionGroup
-    CreateOptionGroup (CreateOptionGroup'),
+    CreateOptionGroup,
     newCreateOptionGroup,
-    CreateOptionGroupResponse (CreateOptionGroupResponse'),
+    CreateOptionGroupResponse,
     newCreateOptionGroupResponse,
 
     -- ** DeleteBlueGreenDeployment
-    DeleteBlueGreenDeployment (DeleteBlueGreenDeployment'),
+    DeleteBlueGreenDeployment,
     newDeleteBlueGreenDeployment,
-    DeleteBlueGreenDeploymentResponse (DeleteBlueGreenDeploymentResponse'),
+    DeleteBlueGreenDeploymentResponse,
     newDeleteBlueGreenDeploymentResponse,
 
     -- ** DeleteCustomDBEngineVersion
-    DeleteCustomDBEngineVersion (DeleteCustomDBEngineVersion'),
+    DeleteCustomDBEngineVersion,
     newDeleteCustomDBEngineVersion,
-    DBEngineVersion (DBEngineVersion'),
+    DBEngineVersion,
     newDBEngineVersion,
 
     -- ** DeleteDBCluster
-    DeleteDBCluster (DeleteDBCluster'),
+    DeleteDBCluster,
     newDeleteDBCluster,
-    DeleteDBClusterResponse (DeleteDBClusterResponse'),
+    DeleteDBClusterResponse,
     newDeleteDBClusterResponse,
 
     -- ** DeleteDBClusterEndpoint
-    DeleteDBClusterEndpoint (DeleteDBClusterEndpoint'),
+    DeleteDBClusterEndpoint,
     newDeleteDBClusterEndpoint,
-    DBClusterEndpoint (DBClusterEndpoint'),
+    DBClusterEndpoint,
     newDBClusterEndpoint,
 
     -- ** DeleteDBClusterParameterGroup
-    DeleteDBClusterParameterGroup (DeleteDBClusterParameterGroup'),
+    DeleteDBClusterParameterGroup,
     newDeleteDBClusterParameterGroup,
-    DeleteDBClusterParameterGroupResponse (DeleteDBClusterParameterGroupResponse'),
+    DeleteDBClusterParameterGroupResponse,
     newDeleteDBClusterParameterGroupResponse,
 
     -- ** DeleteDBClusterSnapshot
-    DeleteDBClusterSnapshot (DeleteDBClusterSnapshot'),
+    DeleteDBClusterSnapshot,
     newDeleteDBClusterSnapshot,
-    DeleteDBClusterSnapshotResponse (DeleteDBClusterSnapshotResponse'),
+    DeleteDBClusterSnapshotResponse,
     newDeleteDBClusterSnapshotResponse,
 
     -- ** DeleteDBInstance
-    DeleteDBInstance (DeleteDBInstance'),
+    DeleteDBInstance,
     newDeleteDBInstance,
-    DeleteDBInstanceResponse (DeleteDBInstanceResponse'),
+    DeleteDBInstanceResponse,
     newDeleteDBInstanceResponse,
 
     -- ** DeleteDBInstanceAutomatedBackup
-    DeleteDBInstanceAutomatedBackup (DeleteDBInstanceAutomatedBackup'),
+    DeleteDBInstanceAutomatedBackup,
     newDeleteDBInstanceAutomatedBackup,
-    DeleteDBInstanceAutomatedBackupResponse (DeleteDBInstanceAutomatedBackupResponse'),
+    DeleteDBInstanceAutomatedBackupResponse,
     newDeleteDBInstanceAutomatedBackupResponse,
 
     -- ** DeleteDBParameterGroup
-    DeleteDBParameterGroup (DeleteDBParameterGroup'),
+    DeleteDBParameterGroup,
     newDeleteDBParameterGroup,
-    DeleteDBParameterGroupResponse (DeleteDBParameterGroupResponse'),
+    DeleteDBParameterGroupResponse,
     newDeleteDBParameterGroupResponse,
 
     -- ** DeleteDBProxy
-    DeleteDBProxy (DeleteDBProxy'),
+    DeleteDBProxy,
     newDeleteDBProxy,
-    DeleteDBProxyResponse (DeleteDBProxyResponse'),
+    DeleteDBProxyResponse,
     newDeleteDBProxyResponse,
 
     -- ** DeleteDBProxyEndpoint
-    DeleteDBProxyEndpoint (DeleteDBProxyEndpoint'),
+    DeleteDBProxyEndpoint,
     newDeleteDBProxyEndpoint,
-    DeleteDBProxyEndpointResponse (DeleteDBProxyEndpointResponse'),
+    DeleteDBProxyEndpointResponse,
     newDeleteDBProxyEndpointResponse,
 
     -- ** DeleteDBSecurityGroup
-    DeleteDBSecurityGroup (DeleteDBSecurityGroup'),
+    DeleteDBSecurityGroup,
     newDeleteDBSecurityGroup,
-    DeleteDBSecurityGroupResponse (DeleteDBSecurityGroupResponse'),
+    DeleteDBSecurityGroupResponse,
     newDeleteDBSecurityGroupResponse,
 
     -- ** DeleteDBSnapshot
-    DeleteDBSnapshot (DeleteDBSnapshot'),
+    DeleteDBSnapshot,
     newDeleteDBSnapshot,
-    DeleteDBSnapshotResponse (DeleteDBSnapshotResponse'),
+    DeleteDBSnapshotResponse,
     newDeleteDBSnapshotResponse,
 
     -- ** DeleteDBSubnetGroup
-    DeleteDBSubnetGroup (DeleteDBSubnetGroup'),
+    DeleteDBSubnetGroup,
     newDeleteDBSubnetGroup,
-    DeleteDBSubnetGroupResponse (DeleteDBSubnetGroupResponse'),
+    DeleteDBSubnetGroupResponse,
     newDeleteDBSubnetGroupResponse,
 
     -- ** DeleteEventSubscription
-    DeleteEventSubscription (DeleteEventSubscription'),
+    DeleteEventSubscription,
     newDeleteEventSubscription,
-    DeleteEventSubscriptionResponse (DeleteEventSubscriptionResponse'),
+    DeleteEventSubscriptionResponse,
     newDeleteEventSubscriptionResponse,
 
     -- ** DeleteGlobalCluster
-    DeleteGlobalCluster (DeleteGlobalCluster'),
+    DeleteGlobalCluster,
     newDeleteGlobalCluster,
-    DeleteGlobalClusterResponse (DeleteGlobalClusterResponse'),
+    DeleteGlobalClusterResponse,
     newDeleteGlobalClusterResponse,
 
     -- ** DeleteOptionGroup
-    DeleteOptionGroup (DeleteOptionGroup'),
+    DeleteOptionGroup,
     newDeleteOptionGroup,
-    DeleteOptionGroupResponse (DeleteOptionGroupResponse'),
+    DeleteOptionGroupResponse,
     newDeleteOptionGroupResponse,
 
     -- ** DeregisterDBProxyTargets
-    DeregisterDBProxyTargets (DeregisterDBProxyTargets'),
+    DeregisterDBProxyTargets,
     newDeregisterDBProxyTargets,
-    DeregisterDBProxyTargetsResponse (DeregisterDBProxyTargetsResponse'),
+    DeregisterDBProxyTargetsResponse,
     newDeregisterDBProxyTargetsResponse,
 
     -- ** DescribeAccountAttributes
-    DescribeAccountAttributes (DescribeAccountAttributes'),
+    DescribeAccountAttributes,
     newDescribeAccountAttributes,
-    DescribeAccountAttributesResponse (DescribeAccountAttributesResponse'),
+    DescribeAccountAttributesResponse,
     newDescribeAccountAttributesResponse,
 
     -- ** DescribeBlueGreenDeployments (Paginated)
-    DescribeBlueGreenDeployments (DescribeBlueGreenDeployments'),
+    DescribeBlueGreenDeployments,
     newDescribeBlueGreenDeployments,
-    DescribeBlueGreenDeploymentsResponse (DescribeBlueGreenDeploymentsResponse'),
+    DescribeBlueGreenDeploymentsResponse,
     newDescribeBlueGreenDeploymentsResponse,
 
     -- ** DescribeCertificates (Paginated)
-    DescribeCertificates (DescribeCertificates'),
+    DescribeCertificates,
     newDescribeCertificates,
-    DescribeCertificatesResponse (DescribeCertificatesResponse'),
+    DescribeCertificatesResponse,
     newDescribeCertificatesResponse,
 
     -- ** DescribeDBClusterBacktracks (Paginated)
-    DescribeDBClusterBacktracks (DescribeDBClusterBacktracks'),
+    DescribeDBClusterBacktracks,
     newDescribeDBClusterBacktracks,
-    DescribeDBClusterBacktracksResponse (DescribeDBClusterBacktracksResponse'),
+    DescribeDBClusterBacktracksResponse,
     newDescribeDBClusterBacktracksResponse,
 
     -- ** DescribeDBClusterEndpoints (Paginated)
-    DescribeDBClusterEndpoints (DescribeDBClusterEndpoints'),
+    DescribeDBClusterEndpoints,
     newDescribeDBClusterEndpoints,
-    DescribeDBClusterEndpointsResponse (DescribeDBClusterEndpointsResponse'),
+    DescribeDBClusterEndpointsResponse,
     newDescribeDBClusterEndpointsResponse,
 
     -- ** DescribeDBClusterParameterGroups (Paginated)
-    DescribeDBClusterParameterGroups (DescribeDBClusterParameterGroups'),
+    DescribeDBClusterParameterGroups,
     newDescribeDBClusterParameterGroups,
-    DescribeDBClusterParameterGroupsResponse (DescribeDBClusterParameterGroupsResponse'),
+    DescribeDBClusterParameterGroupsResponse,
     newDescribeDBClusterParameterGroupsResponse,
 
     -- ** DescribeDBClusterParameters (Paginated)
-    DescribeDBClusterParameters (DescribeDBClusterParameters'),
+    DescribeDBClusterParameters,
     newDescribeDBClusterParameters,
-    DescribeDBClusterParametersResponse (DescribeDBClusterParametersResponse'),
+    DescribeDBClusterParametersResponse,
     newDescribeDBClusterParametersResponse,
 
     -- ** DescribeDBClusterSnapshotAttributes
-    DescribeDBClusterSnapshotAttributes (DescribeDBClusterSnapshotAttributes'),
+    DescribeDBClusterSnapshotAttributes,
     newDescribeDBClusterSnapshotAttributes,
-    DescribeDBClusterSnapshotAttributesResponse (DescribeDBClusterSnapshotAttributesResponse'),
+    DescribeDBClusterSnapshotAttributesResponse,
     newDescribeDBClusterSnapshotAttributesResponse,
 
     -- ** DescribeDBClusterSnapshots (Paginated)
-    DescribeDBClusterSnapshots (DescribeDBClusterSnapshots'),
+    DescribeDBClusterSnapshots,
     newDescribeDBClusterSnapshots,
-    DescribeDBClusterSnapshotsResponse (DescribeDBClusterSnapshotsResponse'),
+    DescribeDBClusterSnapshotsResponse,
     newDescribeDBClusterSnapshotsResponse,
 
     -- ** DescribeDBClusters (Paginated)
-    DescribeDBClusters (DescribeDBClusters'),
+    DescribeDBClusters,
     newDescribeDBClusters,
-    DescribeDBClustersResponse (DescribeDBClustersResponse'),
+    DescribeDBClustersResponse,
     newDescribeDBClustersResponse,
 
     -- ** DescribeDBEngineVersions (Paginated)
-    DescribeDBEngineVersions (DescribeDBEngineVersions'),
+    DescribeDBEngineVersions,
     newDescribeDBEngineVersions,
-    DescribeDBEngineVersionsResponse (DescribeDBEngineVersionsResponse'),
+    DescribeDBEngineVersionsResponse,
     newDescribeDBEngineVersionsResponse,
 
     -- ** DescribeDBInstanceAutomatedBackups (Paginated)
-    DescribeDBInstanceAutomatedBackups (DescribeDBInstanceAutomatedBackups'),
+    DescribeDBInstanceAutomatedBackups,
     newDescribeDBInstanceAutomatedBackups,
-    DescribeDBInstanceAutomatedBackupsResponse (DescribeDBInstanceAutomatedBackupsResponse'),
+    DescribeDBInstanceAutomatedBackupsResponse,
     newDescribeDBInstanceAutomatedBackupsResponse,
 
     -- ** DescribeDBInstances (Paginated)
-    DescribeDBInstances (DescribeDBInstances'),
+    DescribeDBInstances,
     newDescribeDBInstances,
-    DescribeDBInstancesResponse (DescribeDBInstancesResponse'),
+    DescribeDBInstancesResponse,
     newDescribeDBInstancesResponse,
 
     -- ** DescribeDBLogFiles (Paginated)
-    DescribeDBLogFiles (DescribeDBLogFiles'),
+    DescribeDBLogFiles,
     newDescribeDBLogFiles,
-    DescribeDBLogFilesResponse (DescribeDBLogFilesResponse'),
+    DescribeDBLogFilesResponse,
     newDescribeDBLogFilesResponse,
 
     -- ** DescribeDBParameterGroups (Paginated)
-    DescribeDBParameterGroups (DescribeDBParameterGroups'),
+    DescribeDBParameterGroups,
     newDescribeDBParameterGroups,
-    DescribeDBParameterGroupsResponse (DescribeDBParameterGroupsResponse'),
+    DescribeDBParameterGroupsResponse,
     newDescribeDBParameterGroupsResponse,
 
     -- ** DescribeDBParameters (Paginated)
-    DescribeDBParameters (DescribeDBParameters'),
+    DescribeDBParameters,
     newDescribeDBParameters,
-    DescribeDBParametersResponse (DescribeDBParametersResponse'),
+    DescribeDBParametersResponse,
     newDescribeDBParametersResponse,
 
     -- ** DescribeDBProxies (Paginated)
-    DescribeDBProxies (DescribeDBProxies'),
+    DescribeDBProxies,
     newDescribeDBProxies,
-    DescribeDBProxiesResponse (DescribeDBProxiesResponse'),
+    DescribeDBProxiesResponse,
     newDescribeDBProxiesResponse,
 
     -- ** DescribeDBProxyEndpoints (Paginated)
-    DescribeDBProxyEndpoints (DescribeDBProxyEndpoints'),
+    DescribeDBProxyEndpoints,
     newDescribeDBProxyEndpoints,
-    DescribeDBProxyEndpointsResponse (DescribeDBProxyEndpointsResponse'),
+    DescribeDBProxyEndpointsResponse,
     newDescribeDBProxyEndpointsResponse,
 
     -- ** DescribeDBProxyTargetGroups (Paginated)
-    DescribeDBProxyTargetGroups (DescribeDBProxyTargetGroups'),
+    DescribeDBProxyTargetGroups,
     newDescribeDBProxyTargetGroups,
-    DescribeDBProxyTargetGroupsResponse (DescribeDBProxyTargetGroupsResponse'),
+    DescribeDBProxyTargetGroupsResponse,
     newDescribeDBProxyTargetGroupsResponse,
 
     -- ** DescribeDBProxyTargets (Paginated)
-    DescribeDBProxyTargets (DescribeDBProxyTargets'),
+    DescribeDBProxyTargets,
     newDescribeDBProxyTargets,
-    DescribeDBProxyTargetsResponse (DescribeDBProxyTargetsResponse'),
+    DescribeDBProxyTargetsResponse,
     newDescribeDBProxyTargetsResponse,
 
     -- ** DescribeDBSecurityGroups (Paginated)
-    DescribeDBSecurityGroups (DescribeDBSecurityGroups'),
+    DescribeDBSecurityGroups,
     newDescribeDBSecurityGroups,
-    DescribeDBSecurityGroupsResponse (DescribeDBSecurityGroupsResponse'),
+    DescribeDBSecurityGroupsResponse,
     newDescribeDBSecurityGroupsResponse,
 
     -- ** DescribeDBSnapshotAttributes
-    DescribeDBSnapshotAttributes (DescribeDBSnapshotAttributes'),
+    DescribeDBSnapshotAttributes,
     newDescribeDBSnapshotAttributes,
-    DescribeDBSnapshotAttributesResponse (DescribeDBSnapshotAttributesResponse'),
+    DescribeDBSnapshotAttributesResponse,
     newDescribeDBSnapshotAttributesResponse,
 
     -- ** DescribeDBSnapshots (Paginated)
-    DescribeDBSnapshots (DescribeDBSnapshots'),
+    DescribeDBSnapshots,
     newDescribeDBSnapshots,
-    DescribeDBSnapshotsResponse (DescribeDBSnapshotsResponse'),
+    DescribeDBSnapshotsResponse,
     newDescribeDBSnapshotsResponse,
 
     -- ** DescribeDBSubnetGroups (Paginated)
-    DescribeDBSubnetGroups (DescribeDBSubnetGroups'),
+    DescribeDBSubnetGroups,
     newDescribeDBSubnetGroups,
-    DescribeDBSubnetGroupsResponse (DescribeDBSubnetGroupsResponse'),
+    DescribeDBSubnetGroupsResponse,
     newDescribeDBSubnetGroupsResponse,
 
     -- ** DescribeEngineDefaultClusterParameters (Paginated)
-    DescribeEngineDefaultClusterParameters (DescribeEngineDefaultClusterParameters'),
+    DescribeEngineDefaultClusterParameters,
     newDescribeEngineDefaultClusterParameters,
-    DescribeEngineDefaultClusterParametersResponse (DescribeEngineDefaultClusterParametersResponse'),
+    DescribeEngineDefaultClusterParametersResponse,
     newDescribeEngineDefaultClusterParametersResponse,
 
     -- ** DescribeEngineDefaultParameters (Paginated)
-    DescribeEngineDefaultParameters (DescribeEngineDefaultParameters'),
+    DescribeEngineDefaultParameters,
     newDescribeEngineDefaultParameters,
-    DescribeEngineDefaultParametersResponse (DescribeEngineDefaultParametersResponse'),
+    DescribeEngineDefaultParametersResponse,
     newDescribeEngineDefaultParametersResponse,
 
     -- ** DescribeEventCategories
-    DescribeEventCategories (DescribeEventCategories'),
+    DescribeEventCategories,
     newDescribeEventCategories,
-    DescribeEventCategoriesResponse (DescribeEventCategoriesResponse'),
+    DescribeEventCategoriesResponse,
     newDescribeEventCategoriesResponse,
 
     -- ** DescribeEventSubscriptions (Paginated)
-    DescribeEventSubscriptions (DescribeEventSubscriptions'),
+    DescribeEventSubscriptions,
     newDescribeEventSubscriptions,
-    DescribeEventSubscriptionsResponse (DescribeEventSubscriptionsResponse'),
+    DescribeEventSubscriptionsResponse,
     newDescribeEventSubscriptionsResponse,
 
     -- ** DescribeEvents (Paginated)
-    DescribeEvents (DescribeEvents'),
+    DescribeEvents,
     newDescribeEvents,
-    DescribeEventsResponse (DescribeEventsResponse'),
+    DescribeEventsResponse,
     newDescribeEventsResponse,
 
     -- ** DescribeExportTasks (Paginated)
-    DescribeExportTasks (DescribeExportTasks'),
+    DescribeExportTasks,
     newDescribeExportTasks,
-    DescribeExportTasksResponse (DescribeExportTasksResponse'),
+    DescribeExportTasksResponse,
     newDescribeExportTasksResponse,
 
     -- ** DescribeGlobalClusters (Paginated)
-    DescribeGlobalClusters (DescribeGlobalClusters'),
+    DescribeGlobalClusters,
     newDescribeGlobalClusters,
-    DescribeGlobalClustersResponse (DescribeGlobalClustersResponse'),
+    DescribeGlobalClustersResponse,
     newDescribeGlobalClustersResponse,
 
     -- ** DescribeOptionGroupOptions (Paginated)
-    DescribeOptionGroupOptions (DescribeOptionGroupOptions'),
+    DescribeOptionGroupOptions,
     newDescribeOptionGroupOptions,
-    DescribeOptionGroupOptionsResponse (DescribeOptionGroupOptionsResponse'),
+    DescribeOptionGroupOptionsResponse,
     newDescribeOptionGroupOptionsResponse,
 
     -- ** DescribeOptionGroups (Paginated)
-    DescribeOptionGroups (DescribeOptionGroups'),
+    DescribeOptionGroups,
     newDescribeOptionGroups,
-    DescribeOptionGroupsResponse (DescribeOptionGroupsResponse'),
+    DescribeOptionGroupsResponse,
     newDescribeOptionGroupsResponse,
 
     -- ** DescribeOrderableDBInstanceOptions (Paginated)
-    DescribeOrderableDBInstanceOptions (DescribeOrderableDBInstanceOptions'),
+    DescribeOrderableDBInstanceOptions,
     newDescribeOrderableDBInstanceOptions,
-    DescribeOrderableDBInstanceOptionsResponse (DescribeOrderableDBInstanceOptionsResponse'),
+    DescribeOrderableDBInstanceOptionsResponse,
     newDescribeOrderableDBInstanceOptionsResponse,
 
     -- ** DescribePendingMaintenanceActions (Paginated)
-    DescribePendingMaintenanceActions (DescribePendingMaintenanceActions'),
+    DescribePendingMaintenanceActions,
     newDescribePendingMaintenanceActions,
-    DescribePendingMaintenanceActionsResponse (DescribePendingMaintenanceActionsResponse'),
+    DescribePendingMaintenanceActionsResponse,
     newDescribePendingMaintenanceActionsResponse,
 
     -- ** DescribeReservedDBInstances (Paginated)
-    DescribeReservedDBInstances (DescribeReservedDBInstances'),
+    DescribeReservedDBInstances,
     newDescribeReservedDBInstances,
-    DescribeReservedDBInstancesResponse (DescribeReservedDBInstancesResponse'),
+    DescribeReservedDBInstancesResponse,
     newDescribeReservedDBInstancesResponse,
 
     -- ** DescribeReservedDBInstancesOfferings (Paginated)
-    DescribeReservedDBInstancesOfferings (DescribeReservedDBInstancesOfferings'),
+    DescribeReservedDBInstancesOfferings,
     newDescribeReservedDBInstancesOfferings,
-    DescribeReservedDBInstancesOfferingsResponse (DescribeReservedDBInstancesOfferingsResponse'),
+    DescribeReservedDBInstancesOfferingsResponse,
     newDescribeReservedDBInstancesOfferingsResponse,
 
     -- ** DescribeSourceRegions (Paginated)
-    DescribeSourceRegions (DescribeSourceRegions'),
+    DescribeSourceRegions,
     newDescribeSourceRegions,
-    DescribeSourceRegionsResponse (DescribeSourceRegionsResponse'),
+    DescribeSourceRegionsResponse,
     newDescribeSourceRegionsResponse,
 
     -- ** DescribeValidDBInstanceModifications
-    DescribeValidDBInstanceModifications (DescribeValidDBInstanceModifications'),
+    DescribeValidDBInstanceModifications,
     newDescribeValidDBInstanceModifications,
-    DescribeValidDBInstanceModificationsResponse (DescribeValidDBInstanceModificationsResponse'),
+    DescribeValidDBInstanceModificationsResponse,
     newDescribeValidDBInstanceModificationsResponse,
 
     -- ** DownloadDBLogFilePortion (Paginated)
-    DownloadDBLogFilePortion (DownloadDBLogFilePortion'),
+    DownloadDBLogFilePortion,
     newDownloadDBLogFilePortion,
-    DownloadDBLogFilePortionResponse (DownloadDBLogFilePortionResponse'),
+    DownloadDBLogFilePortionResponse,
     newDownloadDBLogFilePortionResponse,
 
     -- ** FailoverDBCluster
-    FailoverDBCluster (FailoverDBCluster'),
+    FailoverDBCluster,
     newFailoverDBCluster,
-    FailoverDBClusterResponse (FailoverDBClusterResponse'),
+    FailoverDBClusterResponse,
     newFailoverDBClusterResponse,
 
     -- ** FailoverGlobalCluster
-    FailoverGlobalCluster (FailoverGlobalCluster'),
+    FailoverGlobalCluster,
     newFailoverGlobalCluster,
-    FailoverGlobalClusterResponse (FailoverGlobalClusterResponse'),
+    FailoverGlobalClusterResponse,
     newFailoverGlobalClusterResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** ModifyActivityStream
-    ModifyActivityStream (ModifyActivityStream'),
+    ModifyActivityStream,
     newModifyActivityStream,
-    ModifyActivityStreamResponse (ModifyActivityStreamResponse'),
+    ModifyActivityStreamResponse,
     newModifyActivityStreamResponse,
 
     -- ** ModifyCertificates
-    ModifyCertificates (ModifyCertificates'),
+    ModifyCertificates,
     newModifyCertificates,
-    ModifyCertificatesResponse (ModifyCertificatesResponse'),
+    ModifyCertificatesResponse,
     newModifyCertificatesResponse,
 
     -- ** ModifyCurrentDBClusterCapacity
-    ModifyCurrentDBClusterCapacity (ModifyCurrentDBClusterCapacity'),
+    ModifyCurrentDBClusterCapacity,
     newModifyCurrentDBClusterCapacity,
-    ModifyCurrentDBClusterCapacityResponse (ModifyCurrentDBClusterCapacityResponse'),
+    ModifyCurrentDBClusterCapacityResponse,
     newModifyCurrentDBClusterCapacityResponse,
 
     -- ** ModifyCustomDBEngineVersion
-    ModifyCustomDBEngineVersion (ModifyCustomDBEngineVersion'),
+    ModifyCustomDBEngineVersion,
     newModifyCustomDBEngineVersion,
-    DBEngineVersion (DBEngineVersion'),
+    DBEngineVersion,
     newDBEngineVersion,
 
     -- ** ModifyDBCluster
-    ModifyDBCluster (ModifyDBCluster'),
+    ModifyDBCluster,
     newModifyDBCluster,
-    ModifyDBClusterResponse (ModifyDBClusterResponse'),
+    ModifyDBClusterResponse,
     newModifyDBClusterResponse,
 
     -- ** ModifyDBClusterEndpoint
-    ModifyDBClusterEndpoint (ModifyDBClusterEndpoint'),
+    ModifyDBClusterEndpoint,
     newModifyDBClusterEndpoint,
-    DBClusterEndpoint (DBClusterEndpoint'),
+    DBClusterEndpoint,
     newDBClusterEndpoint,
 
     -- ** ModifyDBClusterParameterGroup
-    ModifyDBClusterParameterGroup (ModifyDBClusterParameterGroup'),
+    ModifyDBClusterParameterGroup,
     newModifyDBClusterParameterGroup,
-    DBClusterParameterGroupNameMessage (DBClusterParameterGroupNameMessage'),
+    DBClusterParameterGroupNameMessage,
     newDBClusterParameterGroupNameMessage,
 
     -- ** ModifyDBClusterSnapshotAttribute
-    ModifyDBClusterSnapshotAttribute (ModifyDBClusterSnapshotAttribute'),
+    ModifyDBClusterSnapshotAttribute,
     newModifyDBClusterSnapshotAttribute,
-    ModifyDBClusterSnapshotAttributeResponse (ModifyDBClusterSnapshotAttributeResponse'),
+    ModifyDBClusterSnapshotAttributeResponse,
     newModifyDBClusterSnapshotAttributeResponse,
 
     -- ** ModifyDBInstance
-    ModifyDBInstance (ModifyDBInstance'),
+    ModifyDBInstance,
     newModifyDBInstance,
-    ModifyDBInstanceResponse (ModifyDBInstanceResponse'),
+    ModifyDBInstanceResponse,
     newModifyDBInstanceResponse,
 
     -- ** ModifyDBParameterGroup
-    ModifyDBParameterGroup (ModifyDBParameterGroup'),
+    ModifyDBParameterGroup,
     newModifyDBParameterGroup,
-    DBParameterGroupNameMessage (DBParameterGroupNameMessage'),
+    DBParameterGroupNameMessage,
     newDBParameterGroupNameMessage,
 
     -- ** ModifyDBProxy
-    ModifyDBProxy (ModifyDBProxy'),
+    ModifyDBProxy,
     newModifyDBProxy,
-    ModifyDBProxyResponse (ModifyDBProxyResponse'),
+    ModifyDBProxyResponse,
     newModifyDBProxyResponse,
 
     -- ** ModifyDBProxyEndpoint
-    ModifyDBProxyEndpoint (ModifyDBProxyEndpoint'),
+    ModifyDBProxyEndpoint,
     newModifyDBProxyEndpoint,
-    ModifyDBProxyEndpointResponse (ModifyDBProxyEndpointResponse'),
+    ModifyDBProxyEndpointResponse,
     newModifyDBProxyEndpointResponse,
 
     -- ** ModifyDBProxyTargetGroup
-    ModifyDBProxyTargetGroup (ModifyDBProxyTargetGroup'),
+    ModifyDBProxyTargetGroup,
     newModifyDBProxyTargetGroup,
-    ModifyDBProxyTargetGroupResponse (ModifyDBProxyTargetGroupResponse'),
+    ModifyDBProxyTargetGroupResponse,
     newModifyDBProxyTargetGroupResponse,
 
     -- ** ModifyDBSnapshot
-    ModifyDBSnapshot (ModifyDBSnapshot'),
+    ModifyDBSnapshot,
     newModifyDBSnapshot,
-    ModifyDBSnapshotResponse (ModifyDBSnapshotResponse'),
+    ModifyDBSnapshotResponse,
     newModifyDBSnapshotResponse,
 
     -- ** ModifyDBSnapshotAttribute
-    ModifyDBSnapshotAttribute (ModifyDBSnapshotAttribute'),
+    ModifyDBSnapshotAttribute,
     newModifyDBSnapshotAttribute,
-    ModifyDBSnapshotAttributeResponse (ModifyDBSnapshotAttributeResponse'),
+    ModifyDBSnapshotAttributeResponse,
     newModifyDBSnapshotAttributeResponse,
 
     -- ** ModifyDBSubnetGroup
-    ModifyDBSubnetGroup (ModifyDBSubnetGroup'),
+    ModifyDBSubnetGroup,
     newModifyDBSubnetGroup,
-    ModifyDBSubnetGroupResponse (ModifyDBSubnetGroupResponse'),
+    ModifyDBSubnetGroupResponse,
     newModifyDBSubnetGroupResponse,
 
     -- ** ModifyEventSubscription
-    ModifyEventSubscription (ModifyEventSubscription'),
+    ModifyEventSubscription,
     newModifyEventSubscription,
-    ModifyEventSubscriptionResponse (ModifyEventSubscriptionResponse'),
+    ModifyEventSubscriptionResponse,
     newModifyEventSubscriptionResponse,
 
     -- ** ModifyGlobalCluster
-    ModifyGlobalCluster (ModifyGlobalCluster'),
+    ModifyGlobalCluster,
     newModifyGlobalCluster,
-    ModifyGlobalClusterResponse (ModifyGlobalClusterResponse'),
+    ModifyGlobalClusterResponse,
     newModifyGlobalClusterResponse,
 
     -- ** ModifyOptionGroup
-    ModifyOptionGroup (ModifyOptionGroup'),
+    ModifyOptionGroup,
     newModifyOptionGroup,
-    ModifyOptionGroupResponse (ModifyOptionGroupResponse'),
+    ModifyOptionGroupResponse,
     newModifyOptionGroupResponse,
 
     -- ** PromoteReadReplica
-    PromoteReadReplica (PromoteReadReplica'),
+    PromoteReadReplica,
     newPromoteReadReplica,
-    PromoteReadReplicaResponse (PromoteReadReplicaResponse'),
+    PromoteReadReplicaResponse,
     newPromoteReadReplicaResponse,
 
     -- ** PromoteReadReplicaDBCluster
-    PromoteReadReplicaDBCluster (PromoteReadReplicaDBCluster'),
+    PromoteReadReplicaDBCluster,
     newPromoteReadReplicaDBCluster,
-    PromoteReadReplicaDBClusterResponse (PromoteReadReplicaDBClusterResponse'),
+    PromoteReadReplicaDBClusterResponse,
     newPromoteReadReplicaDBClusterResponse,
 
     -- ** PurchaseReservedDBInstancesOffering
-    PurchaseReservedDBInstancesOffering (PurchaseReservedDBInstancesOffering'),
+    PurchaseReservedDBInstancesOffering,
     newPurchaseReservedDBInstancesOffering,
-    PurchaseReservedDBInstancesOfferingResponse (PurchaseReservedDBInstancesOfferingResponse'),
+    PurchaseReservedDBInstancesOfferingResponse,
     newPurchaseReservedDBInstancesOfferingResponse,
 
     -- ** RebootDBCluster
-    RebootDBCluster (RebootDBCluster'),
+    RebootDBCluster,
     newRebootDBCluster,
-    RebootDBClusterResponse (RebootDBClusterResponse'),
+    RebootDBClusterResponse,
     newRebootDBClusterResponse,
 
     -- ** RebootDBInstance
-    RebootDBInstance (RebootDBInstance'),
+    RebootDBInstance,
     newRebootDBInstance,
-    RebootDBInstanceResponse (RebootDBInstanceResponse'),
+    RebootDBInstanceResponse,
     newRebootDBInstanceResponse,
 
     -- ** RegisterDBProxyTargets
-    RegisterDBProxyTargets (RegisterDBProxyTargets'),
+    RegisterDBProxyTargets,
     newRegisterDBProxyTargets,
-    RegisterDBProxyTargetsResponse (RegisterDBProxyTargetsResponse'),
+    RegisterDBProxyTargetsResponse,
     newRegisterDBProxyTargetsResponse,
 
     -- ** RemoveFromGlobalCluster
-    RemoveFromGlobalCluster (RemoveFromGlobalCluster'),
+    RemoveFromGlobalCluster,
     newRemoveFromGlobalCluster,
-    RemoveFromGlobalClusterResponse (RemoveFromGlobalClusterResponse'),
+    RemoveFromGlobalClusterResponse,
     newRemoveFromGlobalClusterResponse,
 
     -- ** RemoveRoleFromDBCluster
-    RemoveRoleFromDBCluster (RemoveRoleFromDBCluster'),
+    RemoveRoleFromDBCluster,
     newRemoveRoleFromDBCluster,
-    RemoveRoleFromDBClusterResponse (RemoveRoleFromDBClusterResponse'),
+    RemoveRoleFromDBClusterResponse,
     newRemoveRoleFromDBClusterResponse,
 
     -- ** RemoveRoleFromDBInstance
-    RemoveRoleFromDBInstance (RemoveRoleFromDBInstance'),
+    RemoveRoleFromDBInstance,
     newRemoveRoleFromDBInstance,
-    RemoveRoleFromDBInstanceResponse (RemoveRoleFromDBInstanceResponse'),
+    RemoveRoleFromDBInstanceResponse,
     newRemoveRoleFromDBInstanceResponse,
 
     -- ** RemoveSourceIdentifierFromSubscription
-    RemoveSourceIdentifierFromSubscription (RemoveSourceIdentifierFromSubscription'),
+    RemoveSourceIdentifierFromSubscription,
     newRemoveSourceIdentifierFromSubscription,
-    RemoveSourceIdentifierFromSubscriptionResponse (RemoveSourceIdentifierFromSubscriptionResponse'),
+    RemoveSourceIdentifierFromSubscriptionResponse,
     newRemoveSourceIdentifierFromSubscriptionResponse,
 
     -- ** RemoveTagsFromResource
-    RemoveTagsFromResource (RemoveTagsFromResource'),
+    RemoveTagsFromResource,
     newRemoveTagsFromResource,
-    RemoveTagsFromResourceResponse (RemoveTagsFromResourceResponse'),
+    RemoveTagsFromResourceResponse,
     newRemoveTagsFromResourceResponse,
 
     -- ** ResetDBClusterParameterGroup
-    ResetDBClusterParameterGroup (ResetDBClusterParameterGroup'),
+    ResetDBClusterParameterGroup,
     newResetDBClusterParameterGroup,
-    DBClusterParameterGroupNameMessage (DBClusterParameterGroupNameMessage'),
+    DBClusterParameterGroupNameMessage,
     newDBClusterParameterGroupNameMessage,
 
     -- ** ResetDBParameterGroup
-    ResetDBParameterGroup (ResetDBParameterGroup'),
+    ResetDBParameterGroup,
     newResetDBParameterGroup,
-    DBParameterGroupNameMessage (DBParameterGroupNameMessage'),
+    DBParameterGroupNameMessage,
     newDBParameterGroupNameMessage,
 
     -- ** RestoreDBClusterFromS3
-    RestoreDBClusterFromS3 (RestoreDBClusterFromS3'),
+    RestoreDBClusterFromS3,
     newRestoreDBClusterFromS3,
-    RestoreDBClusterFromS3Response (RestoreDBClusterFromS3Response'),
+    RestoreDBClusterFromS3Response,
     newRestoreDBClusterFromS3Response,
 
     -- ** RestoreDBClusterFromSnapshot
-    RestoreDBClusterFromSnapshot (RestoreDBClusterFromSnapshot'),
+    RestoreDBClusterFromSnapshot,
     newRestoreDBClusterFromSnapshot,
-    RestoreDBClusterFromSnapshotResponse (RestoreDBClusterFromSnapshotResponse'),
+    RestoreDBClusterFromSnapshotResponse,
     newRestoreDBClusterFromSnapshotResponse,
 
     -- ** RestoreDBClusterToPointInTime
-    RestoreDBClusterToPointInTime (RestoreDBClusterToPointInTime'),
+    RestoreDBClusterToPointInTime,
     newRestoreDBClusterToPointInTime,
-    RestoreDBClusterToPointInTimeResponse (RestoreDBClusterToPointInTimeResponse'),
+    RestoreDBClusterToPointInTimeResponse,
     newRestoreDBClusterToPointInTimeResponse,
 
     -- ** RestoreDBInstanceFromDBSnapshot
-    RestoreDBInstanceFromDBSnapshot (RestoreDBInstanceFromDBSnapshot'),
+    RestoreDBInstanceFromDBSnapshot,
     newRestoreDBInstanceFromDBSnapshot,
-    RestoreDBInstanceFromDBSnapshotResponse (RestoreDBInstanceFromDBSnapshotResponse'),
+    RestoreDBInstanceFromDBSnapshotResponse,
     newRestoreDBInstanceFromDBSnapshotResponse,
 
     -- ** RestoreDBInstanceFromS3
-    RestoreDBInstanceFromS3 (RestoreDBInstanceFromS3'),
+    RestoreDBInstanceFromS3,
     newRestoreDBInstanceFromS3,
-    RestoreDBInstanceFromS3Response (RestoreDBInstanceFromS3Response'),
+    RestoreDBInstanceFromS3Response,
     newRestoreDBInstanceFromS3Response,
 
     -- ** RestoreDBInstanceToPointInTime
-    RestoreDBInstanceToPointInTime (RestoreDBInstanceToPointInTime'),
+    RestoreDBInstanceToPointInTime,
     newRestoreDBInstanceToPointInTime,
-    RestoreDBInstanceToPointInTimeResponse (RestoreDBInstanceToPointInTimeResponse'),
+    RestoreDBInstanceToPointInTimeResponse,
     newRestoreDBInstanceToPointInTimeResponse,
 
     -- ** RevokeDBSecurityGroupIngress
-    RevokeDBSecurityGroupIngress (RevokeDBSecurityGroupIngress'),
+    RevokeDBSecurityGroupIngress,
     newRevokeDBSecurityGroupIngress,
-    RevokeDBSecurityGroupIngressResponse (RevokeDBSecurityGroupIngressResponse'),
+    RevokeDBSecurityGroupIngressResponse,
     newRevokeDBSecurityGroupIngressResponse,
 
     -- ** StartActivityStream
-    StartActivityStream (StartActivityStream'),
+    StartActivityStream,
     newStartActivityStream,
-    StartActivityStreamResponse (StartActivityStreamResponse'),
+    StartActivityStreamResponse,
     newStartActivityStreamResponse,
 
     -- ** StartDBCluster
-    StartDBCluster (StartDBCluster'),
+    StartDBCluster,
     newStartDBCluster,
-    StartDBClusterResponse (StartDBClusterResponse'),
+    StartDBClusterResponse,
     newStartDBClusterResponse,
 
     -- ** StartDBInstance
-    StartDBInstance (StartDBInstance'),
+    StartDBInstance,
     newStartDBInstance,
-    StartDBInstanceResponse (StartDBInstanceResponse'),
+    StartDBInstanceResponse,
     newStartDBInstanceResponse,
 
     -- ** StartDBInstanceAutomatedBackupsReplication
-    StartDBInstanceAutomatedBackupsReplication (StartDBInstanceAutomatedBackupsReplication'),
+    StartDBInstanceAutomatedBackupsReplication,
     newStartDBInstanceAutomatedBackupsReplication,
-    StartDBInstanceAutomatedBackupsReplicationResponse (StartDBInstanceAutomatedBackupsReplicationResponse'),
+    StartDBInstanceAutomatedBackupsReplicationResponse,
     newStartDBInstanceAutomatedBackupsReplicationResponse,
 
     -- ** StartExportTask
-    StartExportTask (StartExportTask'),
+    StartExportTask,
     newStartExportTask,
-    ExportTask (ExportTask'),
+    ExportTask,
     newExportTask,
 
     -- ** StopActivityStream
-    StopActivityStream (StopActivityStream'),
+    StopActivityStream,
     newStopActivityStream,
-    StopActivityStreamResponse (StopActivityStreamResponse'),
+    StopActivityStreamResponse,
     newStopActivityStreamResponse,
 
     -- ** StopDBCluster
-    StopDBCluster (StopDBCluster'),
+    StopDBCluster,
     newStopDBCluster,
-    StopDBClusterResponse (StopDBClusterResponse'),
+    StopDBClusterResponse,
     newStopDBClusterResponse,
 
     -- ** StopDBInstance
-    StopDBInstance (StopDBInstance'),
+    StopDBInstance,
     newStopDBInstance,
-    StopDBInstanceResponse (StopDBInstanceResponse'),
+    StopDBInstanceResponse,
     newStopDBInstanceResponse,
 
     -- ** StopDBInstanceAutomatedBackupsReplication
-    StopDBInstanceAutomatedBackupsReplication (StopDBInstanceAutomatedBackupsReplication'),
+    StopDBInstanceAutomatedBackupsReplication,
     newStopDBInstanceAutomatedBackupsReplication,
-    StopDBInstanceAutomatedBackupsReplicationResponse (StopDBInstanceAutomatedBackupsReplicationResponse'),
+    StopDBInstanceAutomatedBackupsReplicationResponse,
     newStopDBInstanceAutomatedBackupsReplicationResponse,
 
     -- ** SwitchoverBlueGreenDeployment
-    SwitchoverBlueGreenDeployment (SwitchoverBlueGreenDeployment'),
+    SwitchoverBlueGreenDeployment,
     newSwitchoverBlueGreenDeployment,
-    SwitchoverBlueGreenDeploymentResponse (SwitchoverBlueGreenDeploymentResponse'),
+    SwitchoverBlueGreenDeploymentResponse,
     newSwitchoverBlueGreenDeploymentResponse,
 
     -- ** SwitchoverReadReplica
-    SwitchoverReadReplica (SwitchoverReadReplica'),
+    SwitchoverReadReplica,
     newSwitchoverReadReplica,
-    SwitchoverReadReplicaResponse (SwitchoverReadReplicaResponse'),
+    SwitchoverReadReplicaResponse,
     newSwitchoverReadReplicaResponse,
 
     -- * Types
@@ -1392,391 +1392,391 @@ module Amazonka.RDS
     WriteForwardingStatus (..),
 
     -- ** AccountQuota
-    AccountQuota (AccountQuota'),
+    AccountQuota,
     newAccountQuota,
 
     -- ** AvailabilityZone
-    AvailabilityZone (AvailabilityZone'),
+    AvailabilityZone,
     newAvailabilityZone,
 
     -- ** AvailableProcessorFeature
-    AvailableProcessorFeature (AvailableProcessorFeature'),
+    AvailableProcessorFeature,
     newAvailableProcessorFeature,
 
     -- ** BlueGreenDeployment
-    BlueGreenDeployment (BlueGreenDeployment'),
+    BlueGreenDeployment,
     newBlueGreenDeployment,
 
     -- ** BlueGreenDeploymentTask
-    BlueGreenDeploymentTask (BlueGreenDeploymentTask'),
+    BlueGreenDeploymentTask,
     newBlueGreenDeploymentTask,
 
     -- ** Certificate
-    Certificate (Certificate'),
+    Certificate,
     newCertificate,
 
     -- ** CertificateDetails
-    CertificateDetails (CertificateDetails'),
+    CertificateDetails,
     newCertificateDetails,
 
     -- ** CharacterSet
-    CharacterSet (CharacterSet'),
+    CharacterSet,
     newCharacterSet,
 
     -- ** CloudwatchLogsExportConfiguration
-    CloudwatchLogsExportConfiguration (CloudwatchLogsExportConfiguration'),
+    CloudwatchLogsExportConfiguration,
     newCloudwatchLogsExportConfiguration,
 
     -- ** ClusterPendingModifiedValues
-    ClusterPendingModifiedValues (ClusterPendingModifiedValues'),
+    ClusterPendingModifiedValues,
     newClusterPendingModifiedValues,
 
     -- ** ConnectionPoolConfiguration
-    ConnectionPoolConfiguration (ConnectionPoolConfiguration'),
+    ConnectionPoolConfiguration,
     newConnectionPoolConfiguration,
 
     -- ** ConnectionPoolConfigurationInfo
-    ConnectionPoolConfigurationInfo (ConnectionPoolConfigurationInfo'),
+    ConnectionPoolConfigurationInfo,
     newConnectionPoolConfigurationInfo,
 
     -- ** CustomDBEngineVersionAMI
-    CustomDBEngineVersionAMI (CustomDBEngineVersionAMI'),
+    CustomDBEngineVersionAMI,
     newCustomDBEngineVersionAMI,
 
     -- ** DBCluster
-    DBCluster (DBCluster'),
+    DBCluster,
     newDBCluster,
 
     -- ** DBClusterBacktrack
-    DBClusterBacktrack (DBClusterBacktrack'),
+    DBClusterBacktrack,
     newDBClusterBacktrack,
 
     -- ** DBClusterEndpoint
-    DBClusterEndpoint (DBClusterEndpoint'),
+    DBClusterEndpoint,
     newDBClusterEndpoint,
 
     -- ** DBClusterMember
-    DBClusterMember (DBClusterMember'),
+    DBClusterMember,
     newDBClusterMember,
 
     -- ** DBClusterOptionGroupStatus
-    DBClusterOptionGroupStatus (DBClusterOptionGroupStatus'),
+    DBClusterOptionGroupStatus,
     newDBClusterOptionGroupStatus,
 
     -- ** DBClusterParameterGroup
-    DBClusterParameterGroup (DBClusterParameterGroup'),
+    DBClusterParameterGroup,
     newDBClusterParameterGroup,
 
     -- ** DBClusterParameterGroupNameMessage
-    DBClusterParameterGroupNameMessage (DBClusterParameterGroupNameMessage'),
+    DBClusterParameterGroupNameMessage,
     newDBClusterParameterGroupNameMessage,
 
     -- ** DBClusterRole
-    DBClusterRole (DBClusterRole'),
+    DBClusterRole,
     newDBClusterRole,
 
     -- ** DBClusterSnapshot
-    DBClusterSnapshot (DBClusterSnapshot'),
+    DBClusterSnapshot,
     newDBClusterSnapshot,
 
     -- ** DBClusterSnapshotAttribute
-    DBClusterSnapshotAttribute (DBClusterSnapshotAttribute'),
+    DBClusterSnapshotAttribute,
     newDBClusterSnapshotAttribute,
 
     -- ** DBClusterSnapshotAttributesResult
-    DBClusterSnapshotAttributesResult (DBClusterSnapshotAttributesResult'),
+    DBClusterSnapshotAttributesResult,
     newDBClusterSnapshotAttributesResult,
 
     -- ** DBEngineVersion
-    DBEngineVersion (DBEngineVersion'),
+    DBEngineVersion,
     newDBEngineVersion,
 
     -- ** DBInstance
-    DBInstance (DBInstance'),
+    DBInstance,
     newDBInstance,
 
     -- ** DBInstanceAutomatedBackup
-    DBInstanceAutomatedBackup (DBInstanceAutomatedBackup'),
+    DBInstanceAutomatedBackup,
     newDBInstanceAutomatedBackup,
 
     -- ** DBInstanceAutomatedBackupsReplication
-    DBInstanceAutomatedBackupsReplication (DBInstanceAutomatedBackupsReplication'),
+    DBInstanceAutomatedBackupsReplication,
     newDBInstanceAutomatedBackupsReplication,
 
     -- ** DBInstanceRole
-    DBInstanceRole (DBInstanceRole'),
+    DBInstanceRole,
     newDBInstanceRole,
 
     -- ** DBInstanceStatusInfo
-    DBInstanceStatusInfo (DBInstanceStatusInfo'),
+    DBInstanceStatusInfo,
     newDBInstanceStatusInfo,
 
     -- ** DBParameterGroup
-    DBParameterGroup (DBParameterGroup'),
+    DBParameterGroup,
     newDBParameterGroup,
 
     -- ** DBParameterGroupNameMessage
-    DBParameterGroupNameMessage (DBParameterGroupNameMessage'),
+    DBParameterGroupNameMessage,
     newDBParameterGroupNameMessage,
 
     -- ** DBParameterGroupStatus
-    DBParameterGroupStatus (DBParameterGroupStatus'),
+    DBParameterGroupStatus,
     newDBParameterGroupStatus,
 
     -- ** DBProxy
-    DBProxy (DBProxy'),
+    DBProxy,
     newDBProxy,
 
     -- ** DBProxyEndpoint
-    DBProxyEndpoint (DBProxyEndpoint'),
+    DBProxyEndpoint,
     newDBProxyEndpoint,
 
     -- ** DBProxyTarget
-    DBProxyTarget (DBProxyTarget'),
+    DBProxyTarget,
     newDBProxyTarget,
 
     -- ** DBProxyTargetGroup
-    DBProxyTargetGroup (DBProxyTargetGroup'),
+    DBProxyTargetGroup,
     newDBProxyTargetGroup,
 
     -- ** DBSecurityGroup
-    DBSecurityGroup (DBSecurityGroup'),
+    DBSecurityGroup,
     newDBSecurityGroup,
 
     -- ** DBSecurityGroupMembership
-    DBSecurityGroupMembership (DBSecurityGroupMembership'),
+    DBSecurityGroupMembership,
     newDBSecurityGroupMembership,
 
     -- ** DBSnapshot
-    DBSnapshot (DBSnapshot'),
+    DBSnapshot,
     newDBSnapshot,
 
     -- ** DBSnapshotAttribute
-    DBSnapshotAttribute (DBSnapshotAttribute'),
+    DBSnapshotAttribute,
     newDBSnapshotAttribute,
 
     -- ** DBSnapshotAttributesResult
-    DBSnapshotAttributesResult (DBSnapshotAttributesResult'),
+    DBSnapshotAttributesResult,
     newDBSnapshotAttributesResult,
 
     -- ** DBSubnetGroup
-    DBSubnetGroup (DBSubnetGroup'),
+    DBSubnetGroup,
     newDBSubnetGroup,
 
     -- ** DescribeDBLogFilesDetails
-    DescribeDBLogFilesDetails (DescribeDBLogFilesDetails'),
+    DescribeDBLogFilesDetails,
     newDescribeDBLogFilesDetails,
 
     -- ** DomainMembership
-    DomainMembership (DomainMembership'),
+    DomainMembership,
     newDomainMembership,
 
     -- ** DoubleRange
-    DoubleRange (DoubleRange'),
+    DoubleRange,
     newDoubleRange,
 
     -- ** EC2SecurityGroup
-    EC2SecurityGroup (EC2SecurityGroup'),
+    EC2SecurityGroup,
     newEC2SecurityGroup,
 
     -- ** Endpoint
-    Endpoint (Endpoint'),
+    Endpoint,
     newEndpoint,
 
     -- ** EngineDefaults
-    EngineDefaults (EngineDefaults'),
+    EngineDefaults,
     newEngineDefaults,
 
     -- ** Event
-    Event (Event'),
+    Event,
     newEvent,
 
     -- ** EventCategoriesMap
-    EventCategoriesMap (EventCategoriesMap'),
+    EventCategoriesMap,
     newEventCategoriesMap,
 
     -- ** EventSubscription
-    EventSubscription (EventSubscription'),
+    EventSubscription,
     newEventSubscription,
 
     -- ** ExportTask
-    ExportTask (ExportTask'),
+    ExportTask,
     newExportTask,
 
     -- ** FailoverState
-    FailoverState (FailoverState'),
+    FailoverState,
     newFailoverState,
 
     -- ** Filter
-    Filter (Filter'),
+    Filter,
     newFilter,
 
     -- ** GlobalCluster
-    GlobalCluster (GlobalCluster'),
+    GlobalCluster,
     newGlobalCluster,
 
     -- ** GlobalClusterMember
-    GlobalClusterMember (GlobalClusterMember'),
+    GlobalClusterMember,
     newGlobalClusterMember,
 
     -- ** IPRange
-    IPRange (IPRange'),
+    IPRange,
     newIPRange,
 
     -- ** MasterUserSecret
-    MasterUserSecret (MasterUserSecret'),
+    MasterUserSecret,
     newMasterUserSecret,
 
     -- ** MinimumEngineVersionPerAllowedValue
-    MinimumEngineVersionPerAllowedValue (MinimumEngineVersionPerAllowedValue'),
+    MinimumEngineVersionPerAllowedValue,
     newMinimumEngineVersionPerAllowedValue,
 
     -- ** Option
-    Option (Option'),
+    Option,
     newOption,
 
     -- ** OptionConfiguration
-    OptionConfiguration (OptionConfiguration'),
+    OptionConfiguration,
     newOptionConfiguration,
 
     -- ** OptionGroup
-    OptionGroup (OptionGroup'),
+    OptionGroup,
     newOptionGroup,
 
     -- ** OptionGroupMembership
-    OptionGroupMembership (OptionGroupMembership'),
+    OptionGroupMembership,
     newOptionGroupMembership,
 
     -- ** OptionGroupOption
-    OptionGroupOption (OptionGroupOption'),
+    OptionGroupOption,
     newOptionGroupOption,
 
     -- ** OptionGroupOptionSetting
-    OptionGroupOptionSetting (OptionGroupOptionSetting'),
+    OptionGroupOptionSetting,
     newOptionGroupOptionSetting,
 
     -- ** OptionSetting
-    OptionSetting (OptionSetting'),
+    OptionSetting,
     newOptionSetting,
 
     -- ** OptionVersion
-    OptionVersion (OptionVersion'),
+    OptionVersion,
     newOptionVersion,
 
     -- ** OrderableDBInstanceOption
-    OrderableDBInstanceOption (OrderableDBInstanceOption'),
+    OrderableDBInstanceOption,
     newOrderableDBInstanceOption,
 
     -- ** Outpost
-    Outpost (Outpost'),
+    Outpost,
     newOutpost,
 
     -- ** Parameter
-    Parameter (Parameter'),
+    Parameter,
     newParameter,
 
     -- ** PendingCloudwatchLogsExports
-    PendingCloudwatchLogsExports (PendingCloudwatchLogsExports'),
+    PendingCloudwatchLogsExports,
     newPendingCloudwatchLogsExports,
 
     -- ** PendingMaintenanceAction
-    PendingMaintenanceAction (PendingMaintenanceAction'),
+    PendingMaintenanceAction,
     newPendingMaintenanceAction,
 
     -- ** PendingModifiedValues
-    PendingModifiedValues (PendingModifiedValues'),
+    PendingModifiedValues,
     newPendingModifiedValues,
 
     -- ** ProcessorFeature
-    ProcessorFeature (ProcessorFeature'),
+    ProcessorFeature,
     newProcessorFeature,
 
     -- ** Range
-    Range (Range'),
+    Range,
     newRange,
 
     -- ** RecurringCharge
-    RecurringCharge (RecurringCharge'),
+    RecurringCharge,
     newRecurringCharge,
 
     -- ** ReservedDBInstance
-    ReservedDBInstance (ReservedDBInstance'),
+    ReservedDBInstance,
     newReservedDBInstance,
 
     -- ** ReservedDBInstancesOffering
-    ReservedDBInstancesOffering (ReservedDBInstancesOffering'),
+    ReservedDBInstancesOffering,
     newReservedDBInstancesOffering,
 
     -- ** ResourcePendingMaintenanceActions
-    ResourcePendingMaintenanceActions (ResourcePendingMaintenanceActions'),
+    ResourcePendingMaintenanceActions,
     newResourcePendingMaintenanceActions,
 
     -- ** RestoreWindow
-    RestoreWindow (RestoreWindow'),
+    RestoreWindow,
     newRestoreWindow,
 
     -- ** ScalingConfiguration
-    ScalingConfiguration (ScalingConfiguration'),
+    ScalingConfiguration,
     newScalingConfiguration,
 
     -- ** ScalingConfigurationInfo
-    ScalingConfigurationInfo (ScalingConfigurationInfo'),
+    ScalingConfigurationInfo,
     newScalingConfigurationInfo,
 
     -- ** ServerlessV2ScalingConfiguration
-    ServerlessV2ScalingConfiguration (ServerlessV2ScalingConfiguration'),
+    ServerlessV2ScalingConfiguration,
     newServerlessV2ScalingConfiguration,
 
     -- ** ServerlessV2ScalingConfigurationInfo
-    ServerlessV2ScalingConfigurationInfo (ServerlessV2ScalingConfigurationInfo'),
+    ServerlessV2ScalingConfigurationInfo,
     newServerlessV2ScalingConfigurationInfo,
 
     -- ** SourceRegion
-    SourceRegion (SourceRegion'),
+    SourceRegion,
     newSourceRegion,
 
     -- ** Subnet
-    Subnet (Subnet'),
+    Subnet,
     newSubnet,
 
     -- ** SwitchoverDetail
-    SwitchoverDetail (SwitchoverDetail'),
+    SwitchoverDetail,
     newSwitchoverDetail,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
 
     -- ** TargetHealth
-    TargetHealth (TargetHealth'),
+    TargetHealth,
     newTargetHealth,
 
     -- ** Timezone
-    Timezone (Timezone'),
+    Timezone,
     newTimezone,
 
     -- ** UpgradeTarget
-    UpgradeTarget (UpgradeTarget'),
+    UpgradeTarget,
     newUpgradeTarget,
 
     -- ** UserAuthConfig
-    UserAuthConfig (UserAuthConfig'),
+    UserAuthConfig,
     newUserAuthConfig,
 
     -- ** UserAuthConfigInfo
-    UserAuthConfigInfo (UserAuthConfigInfo'),
+    UserAuthConfigInfo,
     newUserAuthConfigInfo,
 
     -- ** ValidDBInstanceModificationsMessage
-    ValidDBInstanceModificationsMessage (ValidDBInstanceModificationsMessage'),
+    ValidDBInstanceModificationsMessage,
     newValidDBInstanceModificationsMessage,
 
     -- ** ValidStorageOptions
-    ValidStorageOptions (ValidStorageOptions'),
+    ValidStorageOptions,
     newValidStorageOptions,
 
     -- ** VpcSecurityGroupMembership
-    VpcSecurityGroupMembership (VpcSecurityGroupMembership'),
+    VpcSecurityGroupMembership,
     newVpcSecurityGroupMembership,
   )
 where

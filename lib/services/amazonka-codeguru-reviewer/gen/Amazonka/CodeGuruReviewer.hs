@@ -68,87 +68,87 @@ module Amazonka.CodeGuruReviewer
     -- $operations
 
     -- ** AssociateRepository
-    AssociateRepository (AssociateRepository'),
+    AssociateRepository,
     newAssociateRepository,
-    AssociateRepositoryResponse (AssociateRepositoryResponse'),
+    AssociateRepositoryResponse,
     newAssociateRepositoryResponse,
 
     -- ** CreateCodeReview
-    CreateCodeReview (CreateCodeReview'),
+    CreateCodeReview,
     newCreateCodeReview,
-    CreateCodeReviewResponse (CreateCodeReviewResponse'),
+    CreateCodeReviewResponse,
     newCreateCodeReviewResponse,
 
     -- ** DescribeCodeReview
-    DescribeCodeReview (DescribeCodeReview'),
+    DescribeCodeReview,
     newDescribeCodeReview,
-    DescribeCodeReviewResponse (DescribeCodeReviewResponse'),
+    DescribeCodeReviewResponse,
     newDescribeCodeReviewResponse,
 
     -- ** DescribeRecommendationFeedback
-    DescribeRecommendationFeedback (DescribeRecommendationFeedback'),
+    DescribeRecommendationFeedback,
     newDescribeRecommendationFeedback,
-    DescribeRecommendationFeedbackResponse (DescribeRecommendationFeedbackResponse'),
+    DescribeRecommendationFeedbackResponse,
     newDescribeRecommendationFeedbackResponse,
 
     -- ** DescribeRepositoryAssociation
-    DescribeRepositoryAssociation (DescribeRepositoryAssociation'),
+    DescribeRepositoryAssociation,
     newDescribeRepositoryAssociation,
-    DescribeRepositoryAssociationResponse (DescribeRepositoryAssociationResponse'),
+    DescribeRepositoryAssociationResponse,
     newDescribeRepositoryAssociationResponse,
 
     -- ** DisassociateRepository
-    DisassociateRepository (DisassociateRepository'),
+    DisassociateRepository,
     newDisassociateRepository,
-    DisassociateRepositoryResponse (DisassociateRepositoryResponse'),
+    DisassociateRepositoryResponse,
     newDisassociateRepositoryResponse,
 
     -- ** ListCodeReviews
-    ListCodeReviews (ListCodeReviews'),
+    ListCodeReviews,
     newListCodeReviews,
-    ListCodeReviewsResponse (ListCodeReviewsResponse'),
+    ListCodeReviewsResponse,
     newListCodeReviewsResponse,
 
     -- ** ListRecommendationFeedback
-    ListRecommendationFeedback (ListRecommendationFeedback'),
+    ListRecommendationFeedback,
     newListRecommendationFeedback,
-    ListRecommendationFeedbackResponse (ListRecommendationFeedbackResponse'),
+    ListRecommendationFeedbackResponse,
     newListRecommendationFeedbackResponse,
 
     -- ** ListRecommendations
-    ListRecommendations (ListRecommendations'),
+    ListRecommendations,
     newListRecommendations,
-    ListRecommendationsResponse (ListRecommendationsResponse'),
+    ListRecommendationsResponse,
     newListRecommendationsResponse,
 
     -- ** ListRepositoryAssociations (Paginated)
-    ListRepositoryAssociations (ListRepositoryAssociations'),
+    ListRepositoryAssociations,
     newListRepositoryAssociations,
-    ListRepositoryAssociationsResponse (ListRepositoryAssociationsResponse'),
+    ListRepositoryAssociationsResponse,
     newListRepositoryAssociationsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** PutRecommendationFeedback
-    PutRecommendationFeedback (PutRecommendationFeedback'),
+    PutRecommendationFeedback,
     newPutRecommendationFeedback,
-    PutRecommendationFeedbackResponse (PutRecommendationFeedbackResponse'),
+    PutRecommendationFeedbackResponse,
     newPutRecommendationFeedbackResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- * Types
@@ -187,107 +187,107 @@ module Amazonka.CodeGuruReviewer
     VendorName (..),
 
     -- ** BranchDiffSourceCodeType
-    BranchDiffSourceCodeType (BranchDiffSourceCodeType'),
+    BranchDiffSourceCodeType,
     newBranchDiffSourceCodeType,
 
     -- ** CodeArtifacts
-    CodeArtifacts (CodeArtifacts'),
+    CodeArtifacts,
     newCodeArtifacts,
 
     -- ** CodeCommitRepository
-    CodeCommitRepository (CodeCommitRepository'),
+    CodeCommitRepository,
     newCodeCommitRepository,
 
     -- ** CodeReview
-    CodeReview (CodeReview'),
+    CodeReview,
     newCodeReview,
 
     -- ** CodeReviewSummary
-    CodeReviewSummary (CodeReviewSummary'),
+    CodeReviewSummary,
     newCodeReviewSummary,
 
     -- ** CodeReviewType
-    CodeReviewType (CodeReviewType'),
+    CodeReviewType,
     newCodeReviewType,
 
     -- ** CommitDiffSourceCodeType
-    CommitDiffSourceCodeType (CommitDiffSourceCodeType'),
+    CommitDiffSourceCodeType,
     newCommitDiffSourceCodeType,
 
     -- ** EventInfo
-    EventInfo (EventInfo'),
+    EventInfo,
     newEventInfo,
 
     -- ** KMSKeyDetails
-    KMSKeyDetails (KMSKeyDetails'),
+    KMSKeyDetails,
     newKMSKeyDetails,
 
     -- ** Metrics
-    Metrics (Metrics'),
+    Metrics,
     newMetrics,
 
     -- ** MetricsSummary
-    MetricsSummary (MetricsSummary'),
+    MetricsSummary,
     newMetricsSummary,
 
     -- ** RecommendationFeedback
-    RecommendationFeedback (RecommendationFeedback'),
+    RecommendationFeedback,
     newRecommendationFeedback,
 
     -- ** RecommendationFeedbackSummary
-    RecommendationFeedbackSummary (RecommendationFeedbackSummary'),
+    RecommendationFeedbackSummary,
     newRecommendationFeedbackSummary,
 
     -- ** RecommendationSummary
-    RecommendationSummary (RecommendationSummary'),
+    RecommendationSummary,
     newRecommendationSummary,
 
     -- ** Repository
-    Repository (Repository'),
+    Repository,
     newRepository,
 
     -- ** RepositoryAnalysis
-    RepositoryAnalysis (RepositoryAnalysis'),
+    RepositoryAnalysis,
     newRepositoryAnalysis,
 
     -- ** RepositoryAssociation
-    RepositoryAssociation (RepositoryAssociation'),
+    RepositoryAssociation,
     newRepositoryAssociation,
 
     -- ** RepositoryAssociationSummary
-    RepositoryAssociationSummary (RepositoryAssociationSummary'),
+    RepositoryAssociationSummary,
     newRepositoryAssociationSummary,
 
     -- ** RepositoryHeadSourceCodeType
-    RepositoryHeadSourceCodeType (RepositoryHeadSourceCodeType'),
+    RepositoryHeadSourceCodeType,
     newRepositoryHeadSourceCodeType,
 
     -- ** RequestMetadata
-    RequestMetadata (RequestMetadata'),
+    RequestMetadata,
     newRequestMetadata,
 
     -- ** RuleMetadata
-    RuleMetadata (RuleMetadata'),
+    RuleMetadata,
     newRuleMetadata,
 
     -- ** S3BucketRepository
-    S3BucketRepository (S3BucketRepository'),
+    S3BucketRepository,
     newS3BucketRepository,
 
     -- ** S3Repository
-    S3Repository (S3Repository'),
+    S3Repository,
     newS3Repository,
 
     -- ** S3RepositoryDetails
-    S3RepositoryDetails (S3RepositoryDetails'),
+    S3RepositoryDetails,
     newS3RepositoryDetails,
 
     -- ** SourceCodeType
-    SourceCodeType (SourceCodeType'),
+    SourceCodeType,
     newSourceCodeType,
 
     -- ** ThirdPartySourceRepository
-    ThirdPartySourceRepository (ThirdPartySourceRepository'),
+    ThirdPartySourceRepository,
     newThirdPartySourceRepository,
   )
 where

@@ -68,39 +68,39 @@ module Amazonka.Pi
     -- $operations
 
     -- ** DescribeDimensionKeys
-    DescribeDimensionKeys (DescribeDimensionKeys'),
+    DescribeDimensionKeys,
     newDescribeDimensionKeys,
-    DescribeDimensionKeysResponse (DescribeDimensionKeysResponse'),
+    DescribeDimensionKeysResponse,
     newDescribeDimensionKeysResponse,
 
     -- ** GetDimensionKeyDetails
-    GetDimensionKeyDetails (GetDimensionKeyDetails'),
+    GetDimensionKeyDetails,
     newGetDimensionKeyDetails,
-    GetDimensionKeyDetailsResponse (GetDimensionKeyDetailsResponse'),
+    GetDimensionKeyDetailsResponse,
     newGetDimensionKeyDetailsResponse,
 
     -- ** GetResourceMetadata
-    GetResourceMetadata (GetResourceMetadata'),
+    GetResourceMetadata,
     newGetResourceMetadata,
-    GetResourceMetadataResponse (GetResourceMetadataResponse'),
+    GetResourceMetadataResponse,
     newGetResourceMetadataResponse,
 
     -- ** GetResourceMetrics
-    GetResourceMetrics (GetResourceMetrics'),
+    GetResourceMetrics,
     newGetResourceMetrics,
-    GetResourceMetricsResponse (GetResourceMetricsResponse'),
+    GetResourceMetricsResponse,
     newGetResourceMetricsResponse,
 
     -- ** ListAvailableResourceDimensions
-    ListAvailableResourceDimensions (ListAvailableResourceDimensions'),
+    ListAvailableResourceDimensions,
     newListAvailableResourceDimensions,
-    ListAvailableResourceDimensionsResponse (ListAvailableResourceDimensionsResponse'),
+    ListAvailableResourceDimensionsResponse,
     newListAvailableResourceDimensionsResponse,
 
     -- ** ListAvailableResourceMetrics
-    ListAvailableResourceMetrics (ListAvailableResourceMetrics'),
+    ListAvailableResourceMetrics,
     newListAvailableResourceMetrics,
-    ListAvailableResourceMetricsResponse (ListAvailableResourceMetricsResponse'),
+    ListAvailableResourceMetricsResponse,
     newListAvailableResourceMetricsResponse,
 
     -- * Types
@@ -115,55 +115,55 @@ module Amazonka.Pi
     ServiceType (..),
 
     -- ** DataPoint
-    DataPoint (DataPoint'),
+    DataPoint,
     newDataPoint,
 
     -- ** DimensionDetail
-    DimensionDetail (DimensionDetail'),
+    DimensionDetail,
     newDimensionDetail,
 
     -- ** DimensionGroup
-    DimensionGroup (DimensionGroup'),
+    DimensionGroup,
     newDimensionGroup,
 
     -- ** DimensionGroupDetail
-    DimensionGroupDetail (DimensionGroupDetail'),
+    DimensionGroupDetail,
     newDimensionGroupDetail,
 
     -- ** DimensionKeyDescription
-    DimensionKeyDescription (DimensionKeyDescription'),
+    DimensionKeyDescription,
     newDimensionKeyDescription,
 
     -- ** DimensionKeyDetail
-    DimensionKeyDetail (DimensionKeyDetail'),
+    DimensionKeyDetail,
     newDimensionKeyDetail,
 
     -- ** FeatureMetadata
-    FeatureMetadata (FeatureMetadata'),
+    FeatureMetadata,
     newFeatureMetadata,
 
     -- ** MetricDimensionGroups
-    MetricDimensionGroups (MetricDimensionGroups'),
+    MetricDimensionGroups,
     newMetricDimensionGroups,
 
     -- ** MetricKeyDataPoints
-    MetricKeyDataPoints (MetricKeyDataPoints'),
+    MetricKeyDataPoints,
     newMetricKeyDataPoints,
 
     -- ** MetricQuery
-    MetricQuery (MetricQuery'),
+    MetricQuery,
     newMetricQuery,
 
     -- ** ResponsePartitionKey
-    ResponsePartitionKey (ResponsePartitionKey'),
+    ResponsePartitionKey,
     newResponsePartitionKey,
 
     -- ** ResponseResourceMetric
-    ResponseResourceMetric (ResponseResourceMetric'),
+    ResponseResourceMetric,
     newResponseResourceMetric,
 
     -- ** ResponseResourceMetricKey
-    ResponseResourceMetricKey (ResponseResourceMetricKey'),
+    ResponseResourceMetricKey,
     newResponseResourceMetricKey,
   )
 where

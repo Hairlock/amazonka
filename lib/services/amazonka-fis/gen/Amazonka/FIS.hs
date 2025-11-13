@@ -41,99 +41,99 @@ module Amazonka.FIS
     -- $operations
 
     -- ** CreateExperimentTemplate
-    CreateExperimentTemplate (CreateExperimentTemplate'),
+    CreateExperimentTemplate,
     newCreateExperimentTemplate,
-    CreateExperimentTemplateResponse (CreateExperimentTemplateResponse'),
+    CreateExperimentTemplateResponse,
     newCreateExperimentTemplateResponse,
 
     -- ** DeleteExperimentTemplate
-    DeleteExperimentTemplate (DeleteExperimentTemplate'),
+    DeleteExperimentTemplate,
     newDeleteExperimentTemplate,
-    DeleteExperimentTemplateResponse (DeleteExperimentTemplateResponse'),
+    DeleteExperimentTemplateResponse,
     newDeleteExperimentTemplateResponse,
 
     -- ** GetAction
-    GetAction (GetAction'),
+    GetAction,
     newGetAction,
-    GetActionResponse (GetActionResponse'),
+    GetActionResponse,
     newGetActionResponse,
 
     -- ** GetExperiment
-    GetExperiment (GetExperiment'),
+    GetExperiment,
     newGetExperiment,
-    GetExperimentResponse (GetExperimentResponse'),
+    GetExperimentResponse,
     newGetExperimentResponse,
 
     -- ** GetExperimentTemplate
-    GetExperimentTemplate (GetExperimentTemplate'),
+    GetExperimentTemplate,
     newGetExperimentTemplate,
-    GetExperimentTemplateResponse (GetExperimentTemplateResponse'),
+    GetExperimentTemplateResponse,
     newGetExperimentTemplateResponse,
 
     -- ** GetTargetResourceType
-    GetTargetResourceType (GetTargetResourceType'),
+    GetTargetResourceType,
     newGetTargetResourceType,
-    GetTargetResourceTypeResponse (GetTargetResourceTypeResponse'),
+    GetTargetResourceTypeResponse,
     newGetTargetResourceTypeResponse,
 
     -- ** ListActions
-    ListActions (ListActions'),
+    ListActions,
     newListActions,
-    ListActionsResponse (ListActionsResponse'),
+    ListActionsResponse,
     newListActionsResponse,
 
     -- ** ListExperimentTemplates
-    ListExperimentTemplates (ListExperimentTemplates'),
+    ListExperimentTemplates,
     newListExperimentTemplates,
-    ListExperimentTemplatesResponse (ListExperimentTemplatesResponse'),
+    ListExperimentTemplatesResponse,
     newListExperimentTemplatesResponse,
 
     -- ** ListExperiments
-    ListExperiments (ListExperiments'),
+    ListExperiments,
     newListExperiments,
-    ListExperimentsResponse (ListExperimentsResponse'),
+    ListExperimentsResponse,
     newListExperimentsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** ListTargetResourceTypes
-    ListTargetResourceTypes (ListTargetResourceTypes'),
+    ListTargetResourceTypes,
     newListTargetResourceTypes,
-    ListTargetResourceTypesResponse (ListTargetResourceTypesResponse'),
+    ListTargetResourceTypesResponse,
     newListTargetResourceTypesResponse,
 
     -- ** StartExperiment
-    StartExperiment (StartExperiment'),
+    StartExperiment,
     newStartExperiment,
-    StartExperimentResponse (StartExperimentResponse'),
+    StartExperimentResponse,
     newStartExperimentResponse,
 
     -- ** StopExperiment
-    StopExperiment (StopExperiment'),
+    StopExperiment,
     newStopExperiment,
-    StopExperimentResponse (StopExperimentResponse'),
+    StopExperimentResponse,
     newStopExperimentResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateExperimentTemplate
-    UpdateExperimentTemplate (UpdateExperimentTemplate'),
+    UpdateExperimentTemplate,
     newUpdateExperimentTemplate,
-    UpdateExperimentTemplateResponse (UpdateExperimentTemplateResponse'),
+    UpdateExperimentTemplateResponse,
     newUpdateExperimentTemplateResponse,
 
     -- * Types
@@ -145,155 +145,155 @@ module Amazonka.FIS
     ExperimentStatus (..),
 
     -- ** Action
-    Action (Action'),
+    Action,
     newAction,
 
     -- ** ActionParameter
-    ActionParameter (ActionParameter'),
+    ActionParameter,
     newActionParameter,
 
     -- ** ActionSummary
-    ActionSummary (ActionSummary'),
+    ActionSummary,
     newActionSummary,
 
     -- ** ActionTarget
-    ActionTarget (ActionTarget'),
+    ActionTarget,
     newActionTarget,
 
     -- ** CreateExperimentTemplateActionInput
-    CreateExperimentTemplateActionInput (CreateExperimentTemplateActionInput'),
+    CreateExperimentTemplateActionInput,
     newCreateExperimentTemplateActionInput,
 
     -- ** CreateExperimentTemplateLogConfigurationInput
-    CreateExperimentTemplateLogConfigurationInput (CreateExperimentTemplateLogConfigurationInput'),
+    CreateExperimentTemplateLogConfigurationInput,
     newCreateExperimentTemplateLogConfigurationInput,
 
     -- ** CreateExperimentTemplateStopConditionInput
-    CreateExperimentTemplateStopConditionInput (CreateExperimentTemplateStopConditionInput'),
+    CreateExperimentTemplateStopConditionInput,
     newCreateExperimentTemplateStopConditionInput,
 
     -- ** CreateExperimentTemplateTargetInput
-    CreateExperimentTemplateTargetInput (CreateExperimentTemplateTargetInput'),
+    CreateExperimentTemplateTargetInput,
     newCreateExperimentTemplateTargetInput,
 
     -- ** Experiment
-    Experiment (Experiment'),
+    Experiment,
     newExperiment,
 
     -- ** ExperimentAction
-    ExperimentAction (ExperimentAction'),
+    ExperimentAction,
     newExperimentAction,
 
     -- ** ExperimentActionState
-    ExperimentActionState (ExperimentActionState'),
+    ExperimentActionState,
     newExperimentActionState,
 
     -- ** ExperimentCloudWatchLogsLogConfiguration
-    ExperimentCloudWatchLogsLogConfiguration (ExperimentCloudWatchLogsLogConfiguration'),
+    ExperimentCloudWatchLogsLogConfiguration,
     newExperimentCloudWatchLogsLogConfiguration,
 
     -- ** ExperimentLogConfiguration
-    ExperimentLogConfiguration (ExperimentLogConfiguration'),
+    ExperimentLogConfiguration,
     newExperimentLogConfiguration,
 
     -- ** ExperimentS3LogConfiguration
-    ExperimentS3LogConfiguration (ExperimentS3LogConfiguration'),
+    ExperimentS3LogConfiguration,
     newExperimentS3LogConfiguration,
 
     -- ** ExperimentState
-    ExperimentState (ExperimentState'),
+    ExperimentState,
     newExperimentState,
 
     -- ** ExperimentStopCondition
-    ExperimentStopCondition (ExperimentStopCondition'),
+    ExperimentStopCondition,
     newExperimentStopCondition,
 
     -- ** ExperimentSummary
-    ExperimentSummary (ExperimentSummary'),
+    ExperimentSummary,
     newExperimentSummary,
 
     -- ** ExperimentTarget
-    ExperimentTarget (ExperimentTarget'),
+    ExperimentTarget,
     newExperimentTarget,
 
     -- ** ExperimentTargetFilter
-    ExperimentTargetFilter (ExperimentTargetFilter'),
+    ExperimentTargetFilter,
     newExperimentTargetFilter,
 
     -- ** ExperimentTemplate
-    ExperimentTemplate (ExperimentTemplate'),
+    ExperimentTemplate,
     newExperimentTemplate,
 
     -- ** ExperimentTemplateAction
-    ExperimentTemplateAction (ExperimentTemplateAction'),
+    ExperimentTemplateAction,
     newExperimentTemplateAction,
 
     -- ** ExperimentTemplateCloudWatchLogsLogConfiguration
-    ExperimentTemplateCloudWatchLogsLogConfiguration (ExperimentTemplateCloudWatchLogsLogConfiguration'),
+    ExperimentTemplateCloudWatchLogsLogConfiguration,
     newExperimentTemplateCloudWatchLogsLogConfiguration,
 
     -- ** ExperimentTemplateCloudWatchLogsLogConfigurationInput
-    ExperimentTemplateCloudWatchLogsLogConfigurationInput (ExperimentTemplateCloudWatchLogsLogConfigurationInput'),
+    ExperimentTemplateCloudWatchLogsLogConfigurationInput,
     newExperimentTemplateCloudWatchLogsLogConfigurationInput,
 
     -- ** ExperimentTemplateLogConfiguration
-    ExperimentTemplateLogConfiguration (ExperimentTemplateLogConfiguration'),
+    ExperimentTemplateLogConfiguration,
     newExperimentTemplateLogConfiguration,
 
     -- ** ExperimentTemplateS3LogConfiguration
-    ExperimentTemplateS3LogConfiguration (ExperimentTemplateS3LogConfiguration'),
+    ExperimentTemplateS3LogConfiguration,
     newExperimentTemplateS3LogConfiguration,
 
     -- ** ExperimentTemplateS3LogConfigurationInput
-    ExperimentTemplateS3LogConfigurationInput (ExperimentTemplateS3LogConfigurationInput'),
+    ExperimentTemplateS3LogConfigurationInput,
     newExperimentTemplateS3LogConfigurationInput,
 
     -- ** ExperimentTemplateStopCondition
-    ExperimentTemplateStopCondition (ExperimentTemplateStopCondition'),
+    ExperimentTemplateStopCondition,
     newExperimentTemplateStopCondition,
 
     -- ** ExperimentTemplateSummary
-    ExperimentTemplateSummary (ExperimentTemplateSummary'),
+    ExperimentTemplateSummary,
     newExperimentTemplateSummary,
 
     -- ** ExperimentTemplateTarget
-    ExperimentTemplateTarget (ExperimentTemplateTarget'),
+    ExperimentTemplateTarget,
     newExperimentTemplateTarget,
 
     -- ** ExperimentTemplateTargetFilter
-    ExperimentTemplateTargetFilter (ExperimentTemplateTargetFilter'),
+    ExperimentTemplateTargetFilter,
     newExperimentTemplateTargetFilter,
 
     -- ** ExperimentTemplateTargetInputFilter
-    ExperimentTemplateTargetInputFilter (ExperimentTemplateTargetInputFilter'),
+    ExperimentTemplateTargetInputFilter,
     newExperimentTemplateTargetInputFilter,
 
     -- ** TargetResourceType
-    TargetResourceType (TargetResourceType'),
+    TargetResourceType,
     newTargetResourceType,
 
     -- ** TargetResourceTypeParameter
-    TargetResourceTypeParameter (TargetResourceTypeParameter'),
+    TargetResourceTypeParameter,
     newTargetResourceTypeParameter,
 
     -- ** TargetResourceTypeSummary
-    TargetResourceTypeSummary (TargetResourceTypeSummary'),
+    TargetResourceTypeSummary,
     newTargetResourceTypeSummary,
 
     -- ** UpdateExperimentTemplateActionInputItem
-    UpdateExperimentTemplateActionInputItem (UpdateExperimentTemplateActionInputItem'),
+    UpdateExperimentTemplateActionInputItem,
     newUpdateExperimentTemplateActionInputItem,
 
     -- ** UpdateExperimentTemplateLogConfigurationInput
-    UpdateExperimentTemplateLogConfigurationInput (UpdateExperimentTemplateLogConfigurationInput'),
+    UpdateExperimentTemplateLogConfigurationInput,
     newUpdateExperimentTemplateLogConfigurationInput,
 
     -- ** UpdateExperimentTemplateStopConditionInput
-    UpdateExperimentTemplateStopConditionInput (UpdateExperimentTemplateStopConditionInput'),
+    UpdateExperimentTemplateStopConditionInput,
     newUpdateExperimentTemplateStopConditionInput,
 
     -- ** UpdateExperimentTemplateTargetInput
-    UpdateExperimentTemplateTargetInput (UpdateExperimentTemplateTargetInput'),
+    UpdateExperimentTemplateTargetInput,
     newUpdateExperimentTemplateTargetInput,
   )
 where

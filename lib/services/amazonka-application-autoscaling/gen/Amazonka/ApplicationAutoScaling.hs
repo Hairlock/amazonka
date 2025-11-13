@@ -107,63 +107,63 @@ module Amazonka.ApplicationAutoScaling
     -- $operations
 
     -- ** DeleteScalingPolicy
-    DeleteScalingPolicy (DeleteScalingPolicy'),
+    DeleteScalingPolicy,
     newDeleteScalingPolicy,
-    DeleteScalingPolicyResponse (DeleteScalingPolicyResponse'),
+    DeleteScalingPolicyResponse,
     newDeleteScalingPolicyResponse,
 
     -- ** DeleteScheduledAction
-    DeleteScheduledAction (DeleteScheduledAction'),
+    DeleteScheduledAction,
     newDeleteScheduledAction,
-    DeleteScheduledActionResponse (DeleteScheduledActionResponse'),
+    DeleteScheduledActionResponse,
     newDeleteScheduledActionResponse,
 
     -- ** DeregisterScalableTarget
-    DeregisterScalableTarget (DeregisterScalableTarget'),
+    DeregisterScalableTarget,
     newDeregisterScalableTarget,
-    DeregisterScalableTargetResponse (DeregisterScalableTargetResponse'),
+    DeregisterScalableTargetResponse,
     newDeregisterScalableTargetResponse,
 
     -- ** DescribeScalableTargets (Paginated)
-    DescribeScalableTargets (DescribeScalableTargets'),
+    DescribeScalableTargets,
     newDescribeScalableTargets,
-    DescribeScalableTargetsResponse (DescribeScalableTargetsResponse'),
+    DescribeScalableTargetsResponse,
     newDescribeScalableTargetsResponse,
 
     -- ** DescribeScalingActivities (Paginated)
-    DescribeScalingActivities (DescribeScalingActivities'),
+    DescribeScalingActivities,
     newDescribeScalingActivities,
-    DescribeScalingActivitiesResponse (DescribeScalingActivitiesResponse'),
+    DescribeScalingActivitiesResponse,
     newDescribeScalingActivitiesResponse,
 
     -- ** DescribeScalingPolicies (Paginated)
-    DescribeScalingPolicies (DescribeScalingPolicies'),
+    DescribeScalingPolicies,
     newDescribeScalingPolicies,
-    DescribeScalingPoliciesResponse (DescribeScalingPoliciesResponse'),
+    DescribeScalingPoliciesResponse,
     newDescribeScalingPoliciesResponse,
 
     -- ** DescribeScheduledActions (Paginated)
-    DescribeScheduledActions (DescribeScheduledActions'),
+    DescribeScheduledActions,
     newDescribeScheduledActions,
-    DescribeScheduledActionsResponse (DescribeScheduledActionsResponse'),
+    DescribeScheduledActionsResponse,
     newDescribeScheduledActionsResponse,
 
     -- ** PutScalingPolicy
-    PutScalingPolicy (PutScalingPolicy'),
+    PutScalingPolicy,
     newPutScalingPolicy,
-    PutScalingPolicyResponse (PutScalingPolicyResponse'),
+    PutScalingPolicyResponse,
     newPutScalingPolicyResponse,
 
     -- ** PutScheduledAction
-    PutScheduledAction (PutScheduledAction'),
+    PutScheduledAction,
     newPutScheduledAction,
-    PutScheduledActionResponse (PutScheduledActionResponse'),
+    PutScheduledActionResponse,
     newPutScheduledActionResponse,
 
     -- ** RegisterScalableTarget
-    RegisterScalableTarget (RegisterScalableTarget'),
+    RegisterScalableTarget,
     newRegisterScalableTarget,
-    RegisterScalableTargetResponse (RegisterScalableTargetResponse'),
+    RegisterScalableTargetResponse,
     newRegisterScalableTargetResponse,
 
     -- * Types
@@ -193,59 +193,59 @@ module Amazonka.ApplicationAutoScaling
     ServiceNamespace (..),
 
     -- ** Alarm
-    Alarm (Alarm'),
+    Alarm,
     newAlarm,
 
     -- ** CustomizedMetricSpecification
-    CustomizedMetricSpecification (CustomizedMetricSpecification'),
+    CustomizedMetricSpecification,
     newCustomizedMetricSpecification,
 
     -- ** MetricDimension
-    MetricDimension (MetricDimension'),
+    MetricDimension,
     newMetricDimension,
 
     -- ** NotScaledReason
-    NotScaledReason (NotScaledReason'),
+    NotScaledReason,
     newNotScaledReason,
 
     -- ** PredefinedMetricSpecification
-    PredefinedMetricSpecification (PredefinedMetricSpecification'),
+    PredefinedMetricSpecification,
     newPredefinedMetricSpecification,
 
     -- ** ScalableTarget
-    ScalableTarget (ScalableTarget'),
+    ScalableTarget,
     newScalableTarget,
 
     -- ** ScalableTargetAction
-    ScalableTargetAction (ScalableTargetAction'),
+    ScalableTargetAction,
     newScalableTargetAction,
 
     -- ** ScalingActivity
-    ScalingActivity (ScalingActivity'),
+    ScalingActivity,
     newScalingActivity,
 
     -- ** ScalingPolicy
-    ScalingPolicy (ScalingPolicy'),
+    ScalingPolicy,
     newScalingPolicy,
 
     -- ** ScheduledAction
-    ScheduledAction (ScheduledAction'),
+    ScheduledAction,
     newScheduledAction,
 
     -- ** StepAdjustment
-    StepAdjustment (StepAdjustment'),
+    StepAdjustment,
     newStepAdjustment,
 
     -- ** StepScalingPolicyConfiguration
-    StepScalingPolicyConfiguration (StepScalingPolicyConfiguration'),
+    StepScalingPolicyConfiguration,
     newStepScalingPolicyConfiguration,
 
     -- ** SuspendedState
-    SuspendedState (SuspendedState'),
+    SuspendedState,
     newSuspendedState,
 
     -- ** TargetTrackingScalingPolicyConfiguration
-    TargetTrackingScalingPolicyConfiguration (TargetTrackingScalingPolicyConfiguration'),
+    TargetTrackingScalingPolicyConfiguration,
     newTargetTrackingScalingPolicyConfiguration,
   )
 where

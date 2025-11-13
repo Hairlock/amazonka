@@ -59,135 +59,135 @@ module Amazonka.AmplifyUiBuilder
     -- $operations
 
     -- ** CreateComponent
-    CreateComponent (CreateComponent'),
+    CreateComponent,
     newCreateComponent,
-    CreateComponentResponse (CreateComponentResponse'),
+    CreateComponentResponse,
     newCreateComponentResponse,
 
     -- ** CreateForm
-    CreateForm (CreateForm'),
+    CreateForm,
     newCreateForm,
-    CreateFormResponse (CreateFormResponse'),
+    CreateFormResponse,
     newCreateFormResponse,
 
     -- ** CreateTheme
-    CreateTheme (CreateTheme'),
+    CreateTheme,
     newCreateTheme,
-    CreateThemeResponse (CreateThemeResponse'),
+    CreateThemeResponse,
     newCreateThemeResponse,
 
     -- ** DeleteComponent
-    DeleteComponent (DeleteComponent'),
+    DeleteComponent,
     newDeleteComponent,
-    DeleteComponentResponse (DeleteComponentResponse'),
+    DeleteComponentResponse,
     newDeleteComponentResponse,
 
     -- ** DeleteForm
-    DeleteForm (DeleteForm'),
+    DeleteForm,
     newDeleteForm,
-    DeleteFormResponse (DeleteFormResponse'),
+    DeleteFormResponse,
     newDeleteFormResponse,
 
     -- ** DeleteTheme
-    DeleteTheme (DeleteTheme'),
+    DeleteTheme,
     newDeleteTheme,
-    DeleteThemeResponse (DeleteThemeResponse'),
+    DeleteThemeResponse,
     newDeleteThemeResponse,
 
     -- ** ExchangeCodeForToken
-    ExchangeCodeForToken (ExchangeCodeForToken'),
+    ExchangeCodeForToken,
     newExchangeCodeForToken,
-    ExchangeCodeForTokenResponse (ExchangeCodeForTokenResponse'),
+    ExchangeCodeForTokenResponse,
     newExchangeCodeForTokenResponse,
 
     -- ** ExportComponents (Paginated)
-    ExportComponents (ExportComponents'),
+    ExportComponents,
     newExportComponents,
-    ExportComponentsResponse (ExportComponentsResponse'),
+    ExportComponentsResponse,
     newExportComponentsResponse,
 
     -- ** ExportForms (Paginated)
-    ExportForms (ExportForms'),
+    ExportForms,
     newExportForms,
-    ExportFormsResponse (ExportFormsResponse'),
+    ExportFormsResponse,
     newExportFormsResponse,
 
     -- ** ExportThemes (Paginated)
-    ExportThemes (ExportThemes'),
+    ExportThemes,
     newExportThemes,
-    ExportThemesResponse (ExportThemesResponse'),
+    ExportThemesResponse,
     newExportThemesResponse,
 
     -- ** GetComponent
-    GetComponent (GetComponent'),
+    GetComponent,
     newGetComponent,
-    GetComponentResponse (GetComponentResponse'),
+    GetComponentResponse,
     newGetComponentResponse,
 
     -- ** GetForm
-    GetForm (GetForm'),
+    GetForm,
     newGetForm,
-    GetFormResponse (GetFormResponse'),
+    GetFormResponse,
     newGetFormResponse,
 
     -- ** GetMetadata
-    GetMetadata (GetMetadata'),
+    GetMetadata,
     newGetMetadata,
-    GetMetadataResponse (GetMetadataResponse'),
+    GetMetadataResponse,
     newGetMetadataResponse,
 
     -- ** GetTheme
-    GetTheme (GetTheme'),
+    GetTheme,
     newGetTheme,
-    GetThemeResponse (GetThemeResponse'),
+    GetThemeResponse,
     newGetThemeResponse,
 
     -- ** ListComponents (Paginated)
-    ListComponents (ListComponents'),
+    ListComponents,
     newListComponents,
-    ListComponentsResponse (ListComponentsResponse'),
+    ListComponentsResponse,
     newListComponentsResponse,
 
     -- ** ListForms (Paginated)
-    ListForms (ListForms'),
+    ListForms,
     newListForms,
-    ListFormsResponse (ListFormsResponse'),
+    ListFormsResponse,
     newListFormsResponse,
 
     -- ** ListThemes (Paginated)
-    ListThemes (ListThemes'),
+    ListThemes,
     newListThemes,
-    ListThemesResponse (ListThemesResponse'),
+    ListThemesResponse,
     newListThemesResponse,
 
     -- ** PutMetadataFlag
-    PutMetadataFlag (PutMetadataFlag'),
+    PutMetadataFlag,
     newPutMetadataFlag,
-    PutMetadataFlagResponse (PutMetadataFlagResponse'),
+    PutMetadataFlagResponse,
     newPutMetadataFlagResponse,
 
     -- ** RefreshToken
-    RefreshToken (RefreshToken'),
+    RefreshToken,
     newRefreshToken,
-    RefreshTokenResponse (RefreshTokenResponse'),
+    RefreshTokenResponse,
     newRefreshTokenResponse,
 
     -- ** UpdateComponent
-    UpdateComponent (UpdateComponent'),
+    UpdateComponent,
     newUpdateComponent,
-    UpdateComponentResponse (UpdateComponentResponse'),
+    UpdateComponentResponse,
     newUpdateComponentResponse,
 
     -- ** UpdateForm
-    UpdateForm (UpdateForm'),
+    UpdateForm,
     newUpdateForm,
-    UpdateFormResponse (UpdateFormResponse'),
+    UpdateFormResponse,
     newUpdateFormResponse,
 
     -- ** UpdateTheme
-    UpdateTheme (UpdateTheme'),
+    UpdateTheme,
     newUpdateTheme,
-    UpdateThemeResponse (UpdateThemeResponse'),
+    UpdateThemeResponse,
     newUpdateThemeResponse,
 
     -- * Types
@@ -211,179 +211,179 @@ module Amazonka.AmplifyUiBuilder
     TokenProviders (..),
 
     -- ** ActionParameters
-    ActionParameters (ActionParameters'),
+    ActionParameters,
     newActionParameters,
 
     -- ** Component
-    Component (Component'),
+    Component,
     newComponent,
 
     -- ** ComponentBindingPropertiesValue
-    ComponentBindingPropertiesValue (ComponentBindingPropertiesValue'),
+    ComponentBindingPropertiesValue,
     newComponentBindingPropertiesValue,
 
     -- ** ComponentBindingPropertiesValueProperties
-    ComponentBindingPropertiesValueProperties (ComponentBindingPropertiesValueProperties'),
+    ComponentBindingPropertiesValueProperties,
     newComponentBindingPropertiesValueProperties,
 
     -- ** ComponentChild
-    ComponentChild (ComponentChild'),
+    ComponentChild,
     newComponentChild,
 
     -- ** ComponentConditionProperty
-    ComponentConditionProperty (ComponentConditionProperty'),
+    ComponentConditionProperty,
     newComponentConditionProperty,
 
     -- ** ComponentDataConfiguration
-    ComponentDataConfiguration (ComponentDataConfiguration'),
+    ComponentDataConfiguration,
     newComponentDataConfiguration,
 
     -- ** ComponentEvent
-    ComponentEvent (ComponentEvent'),
+    ComponentEvent,
     newComponentEvent,
 
     -- ** ComponentProperty
-    ComponentProperty (ComponentProperty'),
+    ComponentProperty,
     newComponentProperty,
 
     -- ** ComponentPropertyBindingProperties
-    ComponentPropertyBindingProperties (ComponentPropertyBindingProperties'),
+    ComponentPropertyBindingProperties,
     newComponentPropertyBindingProperties,
 
     -- ** ComponentSummary
-    ComponentSummary (ComponentSummary'),
+    ComponentSummary,
     newComponentSummary,
 
     -- ** ComponentVariant
-    ComponentVariant (ComponentVariant'),
+    ComponentVariant,
     newComponentVariant,
 
     -- ** CreateComponentData
-    CreateComponentData (CreateComponentData'),
+    CreateComponentData,
     newCreateComponentData,
 
     -- ** CreateFormData
-    CreateFormData (CreateFormData'),
+    CreateFormData,
     newCreateFormData,
 
     -- ** CreateThemeData
-    CreateThemeData (CreateThemeData'),
+    CreateThemeData,
     newCreateThemeData,
 
     -- ** ExchangeCodeForTokenRequestBody
-    ExchangeCodeForTokenRequestBody (ExchangeCodeForTokenRequestBody'),
+    ExchangeCodeForTokenRequestBody,
     newExchangeCodeForTokenRequestBody,
 
     -- ** FieldConfig
-    FieldConfig (FieldConfig'),
+    FieldConfig,
     newFieldConfig,
 
     -- ** FieldInputConfig
-    FieldInputConfig (FieldInputConfig'),
+    FieldInputConfig,
     newFieldInputConfig,
 
     -- ** FieldPosition
-    FieldPosition (FieldPosition'),
+    FieldPosition,
     newFieldPosition,
 
     -- ** FieldValidationConfiguration
-    FieldValidationConfiguration (FieldValidationConfiguration'),
+    FieldValidationConfiguration,
     newFieldValidationConfiguration,
 
     -- ** Form
-    Form (Form'),
+    Form,
     newForm,
 
     -- ** FormBindingElement
-    FormBindingElement (FormBindingElement'),
+    FormBindingElement,
     newFormBindingElement,
 
     -- ** FormButton
-    FormButton (FormButton'),
+    FormButton,
     newFormButton,
 
     -- ** FormCTA
-    FormCTA (FormCTA'),
+    FormCTA,
     newFormCTA,
 
     -- ** FormDataTypeConfig
-    FormDataTypeConfig (FormDataTypeConfig'),
+    FormDataTypeConfig,
     newFormDataTypeConfig,
 
     -- ** FormInputValueProperty
-    FormInputValueProperty (FormInputValueProperty'),
+    FormInputValueProperty,
     newFormInputValueProperty,
 
     -- ** FormStyle
-    FormStyle (FormStyle'),
+    FormStyle,
     newFormStyle,
 
     -- ** FormStyleConfig
-    FormStyleConfig (FormStyleConfig'),
+    FormStyleConfig,
     newFormStyleConfig,
 
     -- ** FormSummary
-    FormSummary (FormSummary'),
+    FormSummary,
     newFormSummary,
 
     -- ** MutationActionSetStateParameter
-    MutationActionSetStateParameter (MutationActionSetStateParameter'),
+    MutationActionSetStateParameter,
     newMutationActionSetStateParameter,
 
     -- ** Predicate
-    Predicate (Predicate'),
+    Predicate,
     newPredicate,
 
     -- ** PutMetadataFlagBody
-    PutMetadataFlagBody (PutMetadataFlagBody'),
+    PutMetadataFlagBody,
     newPutMetadataFlagBody,
 
     -- ** RefreshTokenRequestBody
-    RefreshTokenRequestBody (RefreshTokenRequestBody'),
+    RefreshTokenRequestBody,
     newRefreshTokenRequestBody,
 
     -- ** SectionalElement
-    SectionalElement (SectionalElement'),
+    SectionalElement,
     newSectionalElement,
 
     -- ** SortProperty
-    SortProperty (SortProperty'),
+    SortProperty,
     newSortProperty,
 
     -- ** Theme
-    Theme (Theme'),
+    Theme,
     newTheme,
 
     -- ** ThemeSummary
-    ThemeSummary (ThemeSummary'),
+    ThemeSummary,
     newThemeSummary,
 
     -- ** ThemeValue
-    ThemeValue (ThemeValue'),
+    ThemeValue,
     newThemeValue,
 
     -- ** ThemeValues
-    ThemeValues (ThemeValues'),
+    ThemeValues,
     newThemeValues,
 
     -- ** UpdateComponentData
-    UpdateComponentData (UpdateComponentData'),
+    UpdateComponentData,
     newUpdateComponentData,
 
     -- ** UpdateFormData
-    UpdateFormData (UpdateFormData'),
+    UpdateFormData,
     newUpdateFormData,
 
     -- ** UpdateThemeData
-    UpdateThemeData (UpdateThemeData'),
+    UpdateThemeData,
     newUpdateThemeData,
 
     -- ** ValueMapping
-    ValueMapping (ValueMapping'),
+    ValueMapping,
     newValueMapping,
 
     -- ** ValueMappings
-    ValueMappings (ValueMappings'),
+    ValueMappings,
     newValueMappings,
   )
 where

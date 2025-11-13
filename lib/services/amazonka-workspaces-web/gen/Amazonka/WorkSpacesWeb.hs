@@ -57,309 +57,309 @@ module Amazonka.WorkSpacesWeb
     -- $operations
 
     -- ** AssociateBrowserSettings
-    AssociateBrowserSettings (AssociateBrowserSettings'),
+    AssociateBrowserSettings,
     newAssociateBrowserSettings,
-    AssociateBrowserSettingsResponse (AssociateBrowserSettingsResponse'),
+    AssociateBrowserSettingsResponse,
     newAssociateBrowserSettingsResponse,
 
     -- ** AssociateNetworkSettings
-    AssociateNetworkSettings (AssociateNetworkSettings'),
+    AssociateNetworkSettings,
     newAssociateNetworkSettings,
-    AssociateNetworkSettingsResponse (AssociateNetworkSettingsResponse'),
+    AssociateNetworkSettingsResponse,
     newAssociateNetworkSettingsResponse,
 
     -- ** AssociateTrustStore
-    AssociateTrustStore (AssociateTrustStore'),
+    AssociateTrustStore,
     newAssociateTrustStore,
-    AssociateTrustStoreResponse (AssociateTrustStoreResponse'),
+    AssociateTrustStoreResponse,
     newAssociateTrustStoreResponse,
 
     -- ** AssociateUserAccessLoggingSettings
-    AssociateUserAccessLoggingSettings (AssociateUserAccessLoggingSettings'),
+    AssociateUserAccessLoggingSettings,
     newAssociateUserAccessLoggingSettings,
-    AssociateUserAccessLoggingSettingsResponse (AssociateUserAccessLoggingSettingsResponse'),
+    AssociateUserAccessLoggingSettingsResponse,
     newAssociateUserAccessLoggingSettingsResponse,
 
     -- ** AssociateUserSettings
-    AssociateUserSettings (AssociateUserSettings'),
+    AssociateUserSettings,
     newAssociateUserSettings,
-    AssociateUserSettingsResponse (AssociateUserSettingsResponse'),
+    AssociateUserSettingsResponse,
     newAssociateUserSettingsResponse,
 
     -- ** CreateBrowserSettings
-    CreateBrowserSettings (CreateBrowserSettings'),
+    CreateBrowserSettings,
     newCreateBrowserSettings,
-    CreateBrowserSettingsResponse (CreateBrowserSettingsResponse'),
+    CreateBrowserSettingsResponse,
     newCreateBrowserSettingsResponse,
 
     -- ** CreateIdentityProvider
-    CreateIdentityProvider (CreateIdentityProvider'),
+    CreateIdentityProvider,
     newCreateIdentityProvider,
-    CreateIdentityProviderResponse (CreateIdentityProviderResponse'),
+    CreateIdentityProviderResponse,
     newCreateIdentityProviderResponse,
 
     -- ** CreateNetworkSettings
-    CreateNetworkSettings (CreateNetworkSettings'),
+    CreateNetworkSettings,
     newCreateNetworkSettings,
-    CreateNetworkSettingsResponse (CreateNetworkSettingsResponse'),
+    CreateNetworkSettingsResponse,
     newCreateNetworkSettingsResponse,
 
     -- ** CreatePortal
-    CreatePortal (CreatePortal'),
+    CreatePortal,
     newCreatePortal,
-    CreatePortalResponse (CreatePortalResponse'),
+    CreatePortalResponse,
     newCreatePortalResponse,
 
     -- ** CreateTrustStore
-    CreateTrustStore (CreateTrustStore'),
+    CreateTrustStore,
     newCreateTrustStore,
-    CreateTrustStoreResponse (CreateTrustStoreResponse'),
+    CreateTrustStoreResponse,
     newCreateTrustStoreResponse,
 
     -- ** CreateUserAccessLoggingSettings
-    CreateUserAccessLoggingSettings (CreateUserAccessLoggingSettings'),
+    CreateUserAccessLoggingSettings,
     newCreateUserAccessLoggingSettings,
-    CreateUserAccessLoggingSettingsResponse (CreateUserAccessLoggingSettingsResponse'),
+    CreateUserAccessLoggingSettingsResponse,
     newCreateUserAccessLoggingSettingsResponse,
 
     -- ** CreateUserSettings
-    CreateUserSettings (CreateUserSettings'),
+    CreateUserSettings,
     newCreateUserSettings,
-    CreateUserSettingsResponse (CreateUserSettingsResponse'),
+    CreateUserSettingsResponse,
     newCreateUserSettingsResponse,
 
     -- ** DeleteBrowserSettings
-    DeleteBrowserSettings (DeleteBrowserSettings'),
+    DeleteBrowserSettings,
     newDeleteBrowserSettings,
-    DeleteBrowserSettingsResponse (DeleteBrowserSettingsResponse'),
+    DeleteBrowserSettingsResponse,
     newDeleteBrowserSettingsResponse,
 
     -- ** DeleteIdentityProvider
-    DeleteIdentityProvider (DeleteIdentityProvider'),
+    DeleteIdentityProvider,
     newDeleteIdentityProvider,
-    DeleteIdentityProviderResponse (DeleteIdentityProviderResponse'),
+    DeleteIdentityProviderResponse,
     newDeleteIdentityProviderResponse,
 
     -- ** DeleteNetworkSettings
-    DeleteNetworkSettings (DeleteNetworkSettings'),
+    DeleteNetworkSettings,
     newDeleteNetworkSettings,
-    DeleteNetworkSettingsResponse (DeleteNetworkSettingsResponse'),
+    DeleteNetworkSettingsResponse,
     newDeleteNetworkSettingsResponse,
 
     -- ** DeletePortal
-    DeletePortal (DeletePortal'),
+    DeletePortal,
     newDeletePortal,
-    DeletePortalResponse (DeletePortalResponse'),
+    DeletePortalResponse,
     newDeletePortalResponse,
 
     -- ** DeleteTrustStore
-    DeleteTrustStore (DeleteTrustStore'),
+    DeleteTrustStore,
     newDeleteTrustStore,
-    DeleteTrustStoreResponse (DeleteTrustStoreResponse'),
+    DeleteTrustStoreResponse,
     newDeleteTrustStoreResponse,
 
     -- ** DeleteUserAccessLoggingSettings
-    DeleteUserAccessLoggingSettings (DeleteUserAccessLoggingSettings'),
+    DeleteUserAccessLoggingSettings,
     newDeleteUserAccessLoggingSettings,
-    DeleteUserAccessLoggingSettingsResponse (DeleteUserAccessLoggingSettingsResponse'),
+    DeleteUserAccessLoggingSettingsResponse,
     newDeleteUserAccessLoggingSettingsResponse,
 
     -- ** DeleteUserSettings
-    DeleteUserSettings (DeleteUserSettings'),
+    DeleteUserSettings,
     newDeleteUserSettings,
-    DeleteUserSettingsResponse (DeleteUserSettingsResponse'),
+    DeleteUserSettingsResponse,
     newDeleteUserSettingsResponse,
 
     -- ** DisassociateBrowserSettings
-    DisassociateBrowserSettings (DisassociateBrowserSettings'),
+    DisassociateBrowserSettings,
     newDisassociateBrowserSettings,
-    DisassociateBrowserSettingsResponse (DisassociateBrowserSettingsResponse'),
+    DisassociateBrowserSettingsResponse,
     newDisassociateBrowserSettingsResponse,
 
     -- ** DisassociateNetworkSettings
-    DisassociateNetworkSettings (DisassociateNetworkSettings'),
+    DisassociateNetworkSettings,
     newDisassociateNetworkSettings,
-    DisassociateNetworkSettingsResponse (DisassociateNetworkSettingsResponse'),
+    DisassociateNetworkSettingsResponse,
     newDisassociateNetworkSettingsResponse,
 
     -- ** DisassociateTrustStore
-    DisassociateTrustStore (DisassociateTrustStore'),
+    DisassociateTrustStore,
     newDisassociateTrustStore,
-    DisassociateTrustStoreResponse (DisassociateTrustStoreResponse'),
+    DisassociateTrustStoreResponse,
     newDisassociateTrustStoreResponse,
 
     -- ** DisassociateUserAccessLoggingSettings
-    DisassociateUserAccessLoggingSettings (DisassociateUserAccessLoggingSettings'),
+    DisassociateUserAccessLoggingSettings,
     newDisassociateUserAccessLoggingSettings,
-    DisassociateUserAccessLoggingSettingsResponse (DisassociateUserAccessLoggingSettingsResponse'),
+    DisassociateUserAccessLoggingSettingsResponse,
     newDisassociateUserAccessLoggingSettingsResponse,
 
     -- ** DisassociateUserSettings
-    DisassociateUserSettings (DisassociateUserSettings'),
+    DisassociateUserSettings,
     newDisassociateUserSettings,
-    DisassociateUserSettingsResponse (DisassociateUserSettingsResponse'),
+    DisassociateUserSettingsResponse,
     newDisassociateUserSettingsResponse,
 
     -- ** GetBrowserSettings
-    GetBrowserSettings (GetBrowserSettings'),
+    GetBrowserSettings,
     newGetBrowserSettings,
-    GetBrowserSettingsResponse (GetBrowserSettingsResponse'),
+    GetBrowserSettingsResponse,
     newGetBrowserSettingsResponse,
 
     -- ** GetIdentityProvider
-    GetIdentityProvider (GetIdentityProvider'),
+    GetIdentityProvider,
     newGetIdentityProvider,
-    GetIdentityProviderResponse (GetIdentityProviderResponse'),
+    GetIdentityProviderResponse,
     newGetIdentityProviderResponse,
 
     -- ** GetNetworkSettings
-    GetNetworkSettings (GetNetworkSettings'),
+    GetNetworkSettings,
     newGetNetworkSettings,
-    GetNetworkSettingsResponse (GetNetworkSettingsResponse'),
+    GetNetworkSettingsResponse,
     newGetNetworkSettingsResponse,
 
     -- ** GetPortal
-    GetPortal (GetPortal'),
+    GetPortal,
     newGetPortal,
-    GetPortalResponse (GetPortalResponse'),
+    GetPortalResponse,
     newGetPortalResponse,
 
     -- ** GetPortalServiceProviderMetadata
-    GetPortalServiceProviderMetadata (GetPortalServiceProviderMetadata'),
+    GetPortalServiceProviderMetadata,
     newGetPortalServiceProviderMetadata,
-    GetPortalServiceProviderMetadataResponse (GetPortalServiceProviderMetadataResponse'),
+    GetPortalServiceProviderMetadataResponse,
     newGetPortalServiceProviderMetadataResponse,
 
     -- ** GetTrustStore
-    GetTrustStore (GetTrustStore'),
+    GetTrustStore,
     newGetTrustStore,
-    GetTrustStoreResponse (GetTrustStoreResponse'),
+    GetTrustStoreResponse,
     newGetTrustStoreResponse,
 
     -- ** GetTrustStoreCertificate
-    GetTrustStoreCertificate (GetTrustStoreCertificate'),
+    GetTrustStoreCertificate,
     newGetTrustStoreCertificate,
-    GetTrustStoreCertificateResponse (GetTrustStoreCertificateResponse'),
+    GetTrustStoreCertificateResponse,
     newGetTrustStoreCertificateResponse,
 
     -- ** GetUserAccessLoggingSettings
-    GetUserAccessLoggingSettings (GetUserAccessLoggingSettings'),
+    GetUserAccessLoggingSettings,
     newGetUserAccessLoggingSettings,
-    GetUserAccessLoggingSettingsResponse (GetUserAccessLoggingSettingsResponse'),
+    GetUserAccessLoggingSettingsResponse,
     newGetUserAccessLoggingSettingsResponse,
 
     -- ** GetUserSettings
-    GetUserSettings (GetUserSettings'),
+    GetUserSettings,
     newGetUserSettings,
-    GetUserSettingsResponse (GetUserSettingsResponse'),
+    GetUserSettingsResponse,
     newGetUserSettingsResponse,
 
     -- ** ListBrowserSettings
-    ListBrowserSettings (ListBrowserSettings'),
+    ListBrowserSettings,
     newListBrowserSettings,
-    ListBrowserSettingsResponse (ListBrowserSettingsResponse'),
+    ListBrowserSettingsResponse,
     newListBrowserSettingsResponse,
 
     -- ** ListIdentityProviders
-    ListIdentityProviders (ListIdentityProviders'),
+    ListIdentityProviders,
     newListIdentityProviders,
-    ListIdentityProvidersResponse (ListIdentityProvidersResponse'),
+    ListIdentityProvidersResponse,
     newListIdentityProvidersResponse,
 
     -- ** ListNetworkSettings
-    ListNetworkSettings (ListNetworkSettings'),
+    ListNetworkSettings,
     newListNetworkSettings,
-    ListNetworkSettingsResponse (ListNetworkSettingsResponse'),
+    ListNetworkSettingsResponse,
     newListNetworkSettingsResponse,
 
     -- ** ListPortals
-    ListPortals (ListPortals'),
+    ListPortals,
     newListPortals,
-    ListPortalsResponse (ListPortalsResponse'),
+    ListPortalsResponse,
     newListPortalsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** ListTrustStoreCertificates
-    ListTrustStoreCertificates (ListTrustStoreCertificates'),
+    ListTrustStoreCertificates,
     newListTrustStoreCertificates,
-    ListTrustStoreCertificatesResponse (ListTrustStoreCertificatesResponse'),
+    ListTrustStoreCertificatesResponse,
     newListTrustStoreCertificatesResponse,
 
     -- ** ListTrustStores
-    ListTrustStores (ListTrustStores'),
+    ListTrustStores,
     newListTrustStores,
-    ListTrustStoresResponse (ListTrustStoresResponse'),
+    ListTrustStoresResponse,
     newListTrustStoresResponse,
 
     -- ** ListUserAccessLoggingSettings
-    ListUserAccessLoggingSettings (ListUserAccessLoggingSettings'),
+    ListUserAccessLoggingSettings,
     newListUserAccessLoggingSettings,
-    ListUserAccessLoggingSettingsResponse (ListUserAccessLoggingSettingsResponse'),
+    ListUserAccessLoggingSettingsResponse,
     newListUserAccessLoggingSettingsResponse,
 
     -- ** ListUserSettings
-    ListUserSettings (ListUserSettings'),
+    ListUserSettings,
     newListUserSettings,
-    ListUserSettingsResponse (ListUserSettingsResponse'),
+    ListUserSettingsResponse,
     newListUserSettingsResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateBrowserSettings
-    UpdateBrowserSettings (UpdateBrowserSettings'),
+    UpdateBrowserSettings,
     newUpdateBrowserSettings,
-    UpdateBrowserSettingsResponse (UpdateBrowserSettingsResponse'),
+    UpdateBrowserSettingsResponse,
     newUpdateBrowserSettingsResponse,
 
     -- ** UpdateIdentityProvider
-    UpdateIdentityProvider (UpdateIdentityProvider'),
+    UpdateIdentityProvider,
     newUpdateIdentityProvider,
-    UpdateIdentityProviderResponse (UpdateIdentityProviderResponse'),
+    UpdateIdentityProviderResponse,
     newUpdateIdentityProviderResponse,
 
     -- ** UpdateNetworkSettings
-    UpdateNetworkSettings (UpdateNetworkSettings'),
+    UpdateNetworkSettings,
     newUpdateNetworkSettings,
-    UpdateNetworkSettingsResponse (UpdateNetworkSettingsResponse'),
+    UpdateNetworkSettingsResponse,
     newUpdateNetworkSettingsResponse,
 
     -- ** UpdatePortal
-    UpdatePortal (UpdatePortal'),
+    UpdatePortal,
     newUpdatePortal,
-    UpdatePortalResponse (UpdatePortalResponse'),
+    UpdatePortalResponse,
     newUpdatePortalResponse,
 
     -- ** UpdateTrustStore
-    UpdateTrustStore (UpdateTrustStore'),
+    UpdateTrustStore,
     newUpdateTrustStore,
-    UpdateTrustStoreResponse (UpdateTrustStoreResponse'),
+    UpdateTrustStoreResponse,
     newUpdateTrustStoreResponse,
 
     -- ** UpdateUserAccessLoggingSettings
-    UpdateUserAccessLoggingSettings (UpdateUserAccessLoggingSettings'),
+    UpdateUserAccessLoggingSettings,
     newUpdateUserAccessLoggingSettings,
-    UpdateUserAccessLoggingSettingsResponse (UpdateUserAccessLoggingSettingsResponse'),
+    UpdateUserAccessLoggingSettingsResponse,
     newUpdateUserAccessLoggingSettingsResponse,
 
     -- ** UpdateUserSettings
-    UpdateUserSettings (UpdateUserSettings'),
+    UpdateUserSettings,
     newUpdateUserSettings,
-    UpdateUserSettingsResponse (UpdateUserSettingsResponse'),
+    UpdateUserSettingsResponse,
     newUpdateUserSettingsResponse,
 
     -- * Types
@@ -380,71 +380,71 @@ module Amazonka.WorkSpacesWeb
     RendererType (..),
 
     -- ** BrowserSettings
-    BrowserSettings (BrowserSettings'),
+    BrowserSettings,
     newBrowserSettings,
 
     -- ** BrowserSettingsSummary
-    BrowserSettingsSummary (BrowserSettingsSummary'),
+    BrowserSettingsSummary,
     newBrowserSettingsSummary,
 
     -- ** Certificate
-    Certificate (Certificate'),
+    Certificate,
     newCertificate,
 
     -- ** CertificateSummary
-    CertificateSummary (CertificateSummary'),
+    CertificateSummary,
     newCertificateSummary,
 
     -- ** IdentityProvider
-    IdentityProvider (IdentityProvider'),
+    IdentityProvider,
     newIdentityProvider,
 
     -- ** IdentityProviderSummary
-    IdentityProviderSummary (IdentityProviderSummary'),
+    IdentityProviderSummary,
     newIdentityProviderSummary,
 
     -- ** NetworkSettings
-    NetworkSettings (NetworkSettings'),
+    NetworkSettings,
     newNetworkSettings,
 
     -- ** NetworkSettingsSummary
-    NetworkSettingsSummary (NetworkSettingsSummary'),
+    NetworkSettingsSummary,
     newNetworkSettingsSummary,
 
     -- ** Portal
-    Portal (Portal'),
+    Portal,
     newPortal,
 
     -- ** PortalSummary
-    PortalSummary (PortalSummary'),
+    PortalSummary,
     newPortalSummary,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
 
     -- ** TrustStore
-    TrustStore (TrustStore'),
+    TrustStore,
     newTrustStore,
 
     -- ** TrustStoreSummary
-    TrustStoreSummary (TrustStoreSummary'),
+    TrustStoreSummary,
     newTrustStoreSummary,
 
     -- ** UserAccessLoggingSettings
-    UserAccessLoggingSettings (UserAccessLoggingSettings'),
+    UserAccessLoggingSettings,
     newUserAccessLoggingSettings,
 
     -- ** UserAccessLoggingSettingsSummary
-    UserAccessLoggingSettingsSummary (UserAccessLoggingSettingsSummary'),
+    UserAccessLoggingSettingsSummary,
     newUserAccessLoggingSettingsSummary,
 
     -- ** UserSettings
-    UserSettings (UserSettings'),
+    UserSettings,
     newUserSettings,
 
     -- ** UserSettingsSummary
-    UserSettingsSummary (UserSettingsSummary'),
+    UserSettingsSummary,
     newUserSettingsSummary,
   )
 where

@@ -77,441 +77,441 @@ module Amazonka.Comprehend
     -- $operations
 
     -- ** BatchDetectDominantLanguage
-    BatchDetectDominantLanguage (BatchDetectDominantLanguage'),
+    BatchDetectDominantLanguage,
     newBatchDetectDominantLanguage,
-    BatchDetectDominantLanguageResponse (BatchDetectDominantLanguageResponse'),
+    BatchDetectDominantLanguageResponse,
     newBatchDetectDominantLanguageResponse,
 
     -- ** BatchDetectEntities
-    BatchDetectEntities (BatchDetectEntities'),
+    BatchDetectEntities,
     newBatchDetectEntities,
-    BatchDetectEntitiesResponse (BatchDetectEntitiesResponse'),
+    BatchDetectEntitiesResponse,
     newBatchDetectEntitiesResponse,
 
     -- ** BatchDetectKeyPhrases
-    BatchDetectKeyPhrases (BatchDetectKeyPhrases'),
+    BatchDetectKeyPhrases,
     newBatchDetectKeyPhrases,
-    BatchDetectKeyPhrasesResponse (BatchDetectKeyPhrasesResponse'),
+    BatchDetectKeyPhrasesResponse,
     newBatchDetectKeyPhrasesResponse,
 
     -- ** BatchDetectSentiment
-    BatchDetectSentiment (BatchDetectSentiment'),
+    BatchDetectSentiment,
     newBatchDetectSentiment,
-    BatchDetectSentimentResponse (BatchDetectSentimentResponse'),
+    BatchDetectSentimentResponse,
     newBatchDetectSentimentResponse,
 
     -- ** BatchDetectSyntax
-    BatchDetectSyntax (BatchDetectSyntax'),
+    BatchDetectSyntax,
     newBatchDetectSyntax,
-    BatchDetectSyntaxResponse (BatchDetectSyntaxResponse'),
+    BatchDetectSyntaxResponse,
     newBatchDetectSyntaxResponse,
 
     -- ** BatchDetectTargetedSentiment
-    BatchDetectTargetedSentiment (BatchDetectTargetedSentiment'),
+    BatchDetectTargetedSentiment,
     newBatchDetectTargetedSentiment,
-    BatchDetectTargetedSentimentResponse (BatchDetectTargetedSentimentResponse'),
+    BatchDetectTargetedSentimentResponse,
     newBatchDetectTargetedSentimentResponse,
 
     -- ** ClassifyDocument
-    ClassifyDocument (ClassifyDocument'),
+    ClassifyDocument,
     newClassifyDocument,
-    ClassifyDocumentResponse (ClassifyDocumentResponse'),
+    ClassifyDocumentResponse,
     newClassifyDocumentResponse,
 
     -- ** ContainsPiiEntities
-    ContainsPiiEntities (ContainsPiiEntities'),
+    ContainsPiiEntities,
     newContainsPiiEntities,
-    ContainsPiiEntitiesResponse (ContainsPiiEntitiesResponse'),
+    ContainsPiiEntitiesResponse,
     newContainsPiiEntitiesResponse,
 
     -- ** CreateDocumentClassifier
-    CreateDocumentClassifier (CreateDocumentClassifier'),
+    CreateDocumentClassifier,
     newCreateDocumentClassifier,
-    CreateDocumentClassifierResponse (CreateDocumentClassifierResponse'),
+    CreateDocumentClassifierResponse,
     newCreateDocumentClassifierResponse,
 
     -- ** CreateEndpoint
-    CreateEndpoint (CreateEndpoint'),
+    CreateEndpoint,
     newCreateEndpoint,
-    CreateEndpointResponse (CreateEndpointResponse'),
+    CreateEndpointResponse,
     newCreateEndpointResponse,
 
     -- ** CreateEntityRecognizer
-    CreateEntityRecognizer (CreateEntityRecognizer'),
+    CreateEntityRecognizer,
     newCreateEntityRecognizer,
-    CreateEntityRecognizerResponse (CreateEntityRecognizerResponse'),
+    CreateEntityRecognizerResponse,
     newCreateEntityRecognizerResponse,
 
     -- ** DeleteDocumentClassifier
-    DeleteDocumentClassifier (DeleteDocumentClassifier'),
+    DeleteDocumentClassifier,
     newDeleteDocumentClassifier,
-    DeleteDocumentClassifierResponse (DeleteDocumentClassifierResponse'),
+    DeleteDocumentClassifierResponse,
     newDeleteDocumentClassifierResponse,
 
     -- ** DeleteEndpoint
-    DeleteEndpoint (DeleteEndpoint'),
+    DeleteEndpoint,
     newDeleteEndpoint,
-    DeleteEndpointResponse (DeleteEndpointResponse'),
+    DeleteEndpointResponse,
     newDeleteEndpointResponse,
 
     -- ** DeleteEntityRecognizer
-    DeleteEntityRecognizer (DeleteEntityRecognizer'),
+    DeleteEntityRecognizer,
     newDeleteEntityRecognizer,
-    DeleteEntityRecognizerResponse (DeleteEntityRecognizerResponse'),
+    DeleteEntityRecognizerResponse,
     newDeleteEntityRecognizerResponse,
 
     -- ** DeleteResourcePolicy
-    DeleteResourcePolicy (DeleteResourcePolicy'),
+    DeleteResourcePolicy,
     newDeleteResourcePolicy,
-    DeleteResourcePolicyResponse (DeleteResourcePolicyResponse'),
+    DeleteResourcePolicyResponse,
     newDeleteResourcePolicyResponse,
 
     -- ** DescribeDocumentClassificationJob
-    DescribeDocumentClassificationJob (DescribeDocumentClassificationJob'),
+    DescribeDocumentClassificationJob,
     newDescribeDocumentClassificationJob,
-    DescribeDocumentClassificationJobResponse (DescribeDocumentClassificationJobResponse'),
+    DescribeDocumentClassificationJobResponse,
     newDescribeDocumentClassificationJobResponse,
 
     -- ** DescribeDocumentClassifier
-    DescribeDocumentClassifier (DescribeDocumentClassifier'),
+    DescribeDocumentClassifier,
     newDescribeDocumentClassifier,
-    DescribeDocumentClassifierResponse (DescribeDocumentClassifierResponse'),
+    DescribeDocumentClassifierResponse,
     newDescribeDocumentClassifierResponse,
 
     -- ** DescribeDominantLanguageDetectionJob
-    DescribeDominantLanguageDetectionJob (DescribeDominantLanguageDetectionJob'),
+    DescribeDominantLanguageDetectionJob,
     newDescribeDominantLanguageDetectionJob,
-    DescribeDominantLanguageDetectionJobResponse (DescribeDominantLanguageDetectionJobResponse'),
+    DescribeDominantLanguageDetectionJobResponse,
     newDescribeDominantLanguageDetectionJobResponse,
 
     -- ** DescribeEndpoint
-    DescribeEndpoint (DescribeEndpoint'),
+    DescribeEndpoint,
     newDescribeEndpoint,
-    DescribeEndpointResponse (DescribeEndpointResponse'),
+    DescribeEndpointResponse,
     newDescribeEndpointResponse,
 
     -- ** DescribeEntitiesDetectionJob
-    DescribeEntitiesDetectionJob (DescribeEntitiesDetectionJob'),
+    DescribeEntitiesDetectionJob,
     newDescribeEntitiesDetectionJob,
-    DescribeEntitiesDetectionJobResponse (DescribeEntitiesDetectionJobResponse'),
+    DescribeEntitiesDetectionJobResponse,
     newDescribeEntitiesDetectionJobResponse,
 
     -- ** DescribeEntityRecognizer
-    DescribeEntityRecognizer (DescribeEntityRecognizer'),
+    DescribeEntityRecognizer,
     newDescribeEntityRecognizer,
-    DescribeEntityRecognizerResponse (DescribeEntityRecognizerResponse'),
+    DescribeEntityRecognizerResponse,
     newDescribeEntityRecognizerResponse,
 
     -- ** DescribeEventsDetectionJob
-    DescribeEventsDetectionJob (DescribeEventsDetectionJob'),
+    DescribeEventsDetectionJob,
     newDescribeEventsDetectionJob,
-    DescribeEventsDetectionJobResponse (DescribeEventsDetectionJobResponse'),
+    DescribeEventsDetectionJobResponse,
     newDescribeEventsDetectionJobResponse,
 
     -- ** DescribeKeyPhrasesDetectionJob
-    DescribeKeyPhrasesDetectionJob (DescribeKeyPhrasesDetectionJob'),
+    DescribeKeyPhrasesDetectionJob,
     newDescribeKeyPhrasesDetectionJob,
-    DescribeKeyPhrasesDetectionJobResponse (DescribeKeyPhrasesDetectionJobResponse'),
+    DescribeKeyPhrasesDetectionJobResponse,
     newDescribeKeyPhrasesDetectionJobResponse,
 
     -- ** DescribePiiEntitiesDetectionJob
-    DescribePiiEntitiesDetectionJob (DescribePiiEntitiesDetectionJob'),
+    DescribePiiEntitiesDetectionJob,
     newDescribePiiEntitiesDetectionJob,
-    DescribePiiEntitiesDetectionJobResponse (DescribePiiEntitiesDetectionJobResponse'),
+    DescribePiiEntitiesDetectionJobResponse,
     newDescribePiiEntitiesDetectionJobResponse,
 
     -- ** DescribeResourcePolicy
-    DescribeResourcePolicy (DescribeResourcePolicy'),
+    DescribeResourcePolicy,
     newDescribeResourcePolicy,
-    DescribeResourcePolicyResponse (DescribeResourcePolicyResponse'),
+    DescribeResourcePolicyResponse,
     newDescribeResourcePolicyResponse,
 
     -- ** DescribeSentimentDetectionJob
-    DescribeSentimentDetectionJob (DescribeSentimentDetectionJob'),
+    DescribeSentimentDetectionJob,
     newDescribeSentimentDetectionJob,
-    DescribeSentimentDetectionJobResponse (DescribeSentimentDetectionJobResponse'),
+    DescribeSentimentDetectionJobResponse,
     newDescribeSentimentDetectionJobResponse,
 
     -- ** DescribeTargetedSentimentDetectionJob
-    DescribeTargetedSentimentDetectionJob (DescribeTargetedSentimentDetectionJob'),
+    DescribeTargetedSentimentDetectionJob,
     newDescribeTargetedSentimentDetectionJob,
-    DescribeTargetedSentimentDetectionJobResponse (DescribeTargetedSentimentDetectionJobResponse'),
+    DescribeTargetedSentimentDetectionJobResponse,
     newDescribeTargetedSentimentDetectionJobResponse,
 
     -- ** DescribeTopicsDetectionJob
-    DescribeTopicsDetectionJob (DescribeTopicsDetectionJob'),
+    DescribeTopicsDetectionJob,
     newDescribeTopicsDetectionJob,
-    DescribeTopicsDetectionJobResponse (DescribeTopicsDetectionJobResponse'),
+    DescribeTopicsDetectionJobResponse,
     newDescribeTopicsDetectionJobResponse,
 
     -- ** DetectDominantLanguage
-    DetectDominantLanguage (DetectDominantLanguage'),
+    DetectDominantLanguage,
     newDetectDominantLanguage,
-    DetectDominantLanguageResponse (DetectDominantLanguageResponse'),
+    DetectDominantLanguageResponse,
     newDetectDominantLanguageResponse,
 
     -- ** DetectEntities
-    DetectEntities (DetectEntities'),
+    DetectEntities,
     newDetectEntities,
-    DetectEntitiesResponse (DetectEntitiesResponse'),
+    DetectEntitiesResponse,
     newDetectEntitiesResponse,
 
     -- ** DetectKeyPhrases
-    DetectKeyPhrases (DetectKeyPhrases'),
+    DetectKeyPhrases,
     newDetectKeyPhrases,
-    DetectKeyPhrasesResponse (DetectKeyPhrasesResponse'),
+    DetectKeyPhrasesResponse,
     newDetectKeyPhrasesResponse,
 
     -- ** DetectPiiEntities
-    DetectPiiEntities (DetectPiiEntities'),
+    DetectPiiEntities,
     newDetectPiiEntities,
-    DetectPiiEntitiesResponse (DetectPiiEntitiesResponse'),
+    DetectPiiEntitiesResponse,
     newDetectPiiEntitiesResponse,
 
     -- ** DetectSentiment
-    DetectSentiment (DetectSentiment'),
+    DetectSentiment,
     newDetectSentiment,
-    DetectSentimentResponse (DetectSentimentResponse'),
+    DetectSentimentResponse,
     newDetectSentimentResponse,
 
     -- ** DetectSyntax
-    DetectSyntax (DetectSyntax'),
+    DetectSyntax,
     newDetectSyntax,
-    DetectSyntaxResponse (DetectSyntaxResponse'),
+    DetectSyntaxResponse,
     newDetectSyntaxResponse,
 
     -- ** DetectTargetedSentiment
-    DetectTargetedSentiment (DetectTargetedSentiment'),
+    DetectTargetedSentiment,
     newDetectTargetedSentiment,
-    DetectTargetedSentimentResponse (DetectTargetedSentimentResponse'),
+    DetectTargetedSentimentResponse,
     newDetectTargetedSentimentResponse,
 
     -- ** ImportModel
-    ImportModel (ImportModel'),
+    ImportModel,
     newImportModel,
-    ImportModelResponse (ImportModelResponse'),
+    ImportModelResponse,
     newImportModelResponse,
 
     -- ** ListDocumentClassificationJobs (Paginated)
-    ListDocumentClassificationJobs (ListDocumentClassificationJobs'),
+    ListDocumentClassificationJobs,
     newListDocumentClassificationJobs,
-    ListDocumentClassificationJobsResponse (ListDocumentClassificationJobsResponse'),
+    ListDocumentClassificationJobsResponse,
     newListDocumentClassificationJobsResponse,
 
     -- ** ListDocumentClassifierSummaries
-    ListDocumentClassifierSummaries (ListDocumentClassifierSummaries'),
+    ListDocumentClassifierSummaries,
     newListDocumentClassifierSummaries,
-    ListDocumentClassifierSummariesResponse (ListDocumentClassifierSummariesResponse'),
+    ListDocumentClassifierSummariesResponse,
     newListDocumentClassifierSummariesResponse,
 
     -- ** ListDocumentClassifiers (Paginated)
-    ListDocumentClassifiers (ListDocumentClassifiers'),
+    ListDocumentClassifiers,
     newListDocumentClassifiers,
-    ListDocumentClassifiersResponse (ListDocumentClassifiersResponse'),
+    ListDocumentClassifiersResponse,
     newListDocumentClassifiersResponse,
 
     -- ** ListDominantLanguageDetectionJobs (Paginated)
-    ListDominantLanguageDetectionJobs (ListDominantLanguageDetectionJobs'),
+    ListDominantLanguageDetectionJobs,
     newListDominantLanguageDetectionJobs,
-    ListDominantLanguageDetectionJobsResponse (ListDominantLanguageDetectionJobsResponse'),
+    ListDominantLanguageDetectionJobsResponse,
     newListDominantLanguageDetectionJobsResponse,
 
     -- ** ListEndpoints (Paginated)
-    ListEndpoints (ListEndpoints'),
+    ListEndpoints,
     newListEndpoints,
-    ListEndpointsResponse (ListEndpointsResponse'),
+    ListEndpointsResponse,
     newListEndpointsResponse,
 
     -- ** ListEntitiesDetectionJobs (Paginated)
-    ListEntitiesDetectionJobs (ListEntitiesDetectionJobs'),
+    ListEntitiesDetectionJobs,
     newListEntitiesDetectionJobs,
-    ListEntitiesDetectionJobsResponse (ListEntitiesDetectionJobsResponse'),
+    ListEntitiesDetectionJobsResponse,
     newListEntitiesDetectionJobsResponse,
 
     -- ** ListEntityRecognizerSummaries
-    ListEntityRecognizerSummaries (ListEntityRecognizerSummaries'),
+    ListEntityRecognizerSummaries,
     newListEntityRecognizerSummaries,
-    ListEntityRecognizerSummariesResponse (ListEntityRecognizerSummariesResponse'),
+    ListEntityRecognizerSummariesResponse,
     newListEntityRecognizerSummariesResponse,
 
     -- ** ListEntityRecognizers (Paginated)
-    ListEntityRecognizers (ListEntityRecognizers'),
+    ListEntityRecognizers,
     newListEntityRecognizers,
-    ListEntityRecognizersResponse (ListEntityRecognizersResponse'),
+    ListEntityRecognizersResponse,
     newListEntityRecognizersResponse,
 
     -- ** ListEventsDetectionJobs
-    ListEventsDetectionJobs (ListEventsDetectionJobs'),
+    ListEventsDetectionJobs,
     newListEventsDetectionJobs,
-    ListEventsDetectionJobsResponse (ListEventsDetectionJobsResponse'),
+    ListEventsDetectionJobsResponse,
     newListEventsDetectionJobsResponse,
 
     -- ** ListKeyPhrasesDetectionJobs (Paginated)
-    ListKeyPhrasesDetectionJobs (ListKeyPhrasesDetectionJobs'),
+    ListKeyPhrasesDetectionJobs,
     newListKeyPhrasesDetectionJobs,
-    ListKeyPhrasesDetectionJobsResponse (ListKeyPhrasesDetectionJobsResponse'),
+    ListKeyPhrasesDetectionJobsResponse,
     newListKeyPhrasesDetectionJobsResponse,
 
     -- ** ListPiiEntitiesDetectionJobs (Paginated)
-    ListPiiEntitiesDetectionJobs (ListPiiEntitiesDetectionJobs'),
+    ListPiiEntitiesDetectionJobs,
     newListPiiEntitiesDetectionJobs,
-    ListPiiEntitiesDetectionJobsResponse (ListPiiEntitiesDetectionJobsResponse'),
+    ListPiiEntitiesDetectionJobsResponse,
     newListPiiEntitiesDetectionJobsResponse,
 
     -- ** ListSentimentDetectionJobs (Paginated)
-    ListSentimentDetectionJobs (ListSentimentDetectionJobs'),
+    ListSentimentDetectionJobs,
     newListSentimentDetectionJobs,
-    ListSentimentDetectionJobsResponse (ListSentimentDetectionJobsResponse'),
+    ListSentimentDetectionJobsResponse,
     newListSentimentDetectionJobsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** ListTargetedSentimentDetectionJobs
-    ListTargetedSentimentDetectionJobs (ListTargetedSentimentDetectionJobs'),
+    ListTargetedSentimentDetectionJobs,
     newListTargetedSentimentDetectionJobs,
-    ListTargetedSentimentDetectionJobsResponse (ListTargetedSentimentDetectionJobsResponse'),
+    ListTargetedSentimentDetectionJobsResponse,
     newListTargetedSentimentDetectionJobsResponse,
 
     -- ** ListTopicsDetectionJobs (Paginated)
-    ListTopicsDetectionJobs (ListTopicsDetectionJobs'),
+    ListTopicsDetectionJobs,
     newListTopicsDetectionJobs,
-    ListTopicsDetectionJobsResponse (ListTopicsDetectionJobsResponse'),
+    ListTopicsDetectionJobsResponse,
     newListTopicsDetectionJobsResponse,
 
     -- ** PutResourcePolicy
-    PutResourcePolicy (PutResourcePolicy'),
+    PutResourcePolicy,
     newPutResourcePolicy,
-    PutResourcePolicyResponse (PutResourcePolicyResponse'),
+    PutResourcePolicyResponse,
     newPutResourcePolicyResponse,
 
     -- ** StartDocumentClassificationJob
-    StartDocumentClassificationJob (StartDocumentClassificationJob'),
+    StartDocumentClassificationJob,
     newStartDocumentClassificationJob,
-    StartDocumentClassificationJobResponse (StartDocumentClassificationJobResponse'),
+    StartDocumentClassificationJobResponse,
     newStartDocumentClassificationJobResponse,
 
     -- ** StartDominantLanguageDetectionJob
-    StartDominantLanguageDetectionJob (StartDominantLanguageDetectionJob'),
+    StartDominantLanguageDetectionJob,
     newStartDominantLanguageDetectionJob,
-    StartDominantLanguageDetectionJobResponse (StartDominantLanguageDetectionJobResponse'),
+    StartDominantLanguageDetectionJobResponse,
     newStartDominantLanguageDetectionJobResponse,
 
     -- ** StartEntitiesDetectionJob
-    StartEntitiesDetectionJob (StartEntitiesDetectionJob'),
+    StartEntitiesDetectionJob,
     newStartEntitiesDetectionJob,
-    StartEntitiesDetectionJobResponse (StartEntitiesDetectionJobResponse'),
+    StartEntitiesDetectionJobResponse,
     newStartEntitiesDetectionJobResponse,
 
     -- ** StartEventsDetectionJob
-    StartEventsDetectionJob (StartEventsDetectionJob'),
+    StartEventsDetectionJob,
     newStartEventsDetectionJob,
-    StartEventsDetectionJobResponse (StartEventsDetectionJobResponse'),
+    StartEventsDetectionJobResponse,
     newStartEventsDetectionJobResponse,
 
     -- ** StartKeyPhrasesDetectionJob
-    StartKeyPhrasesDetectionJob (StartKeyPhrasesDetectionJob'),
+    StartKeyPhrasesDetectionJob,
     newStartKeyPhrasesDetectionJob,
-    StartKeyPhrasesDetectionJobResponse (StartKeyPhrasesDetectionJobResponse'),
+    StartKeyPhrasesDetectionJobResponse,
     newStartKeyPhrasesDetectionJobResponse,
 
     -- ** StartPiiEntitiesDetectionJob
-    StartPiiEntitiesDetectionJob (StartPiiEntitiesDetectionJob'),
+    StartPiiEntitiesDetectionJob,
     newStartPiiEntitiesDetectionJob,
-    StartPiiEntitiesDetectionJobResponse (StartPiiEntitiesDetectionJobResponse'),
+    StartPiiEntitiesDetectionJobResponse,
     newStartPiiEntitiesDetectionJobResponse,
 
     -- ** StartSentimentDetectionJob
-    StartSentimentDetectionJob (StartSentimentDetectionJob'),
+    StartSentimentDetectionJob,
     newStartSentimentDetectionJob,
-    StartSentimentDetectionJobResponse (StartSentimentDetectionJobResponse'),
+    StartSentimentDetectionJobResponse,
     newStartSentimentDetectionJobResponse,
 
     -- ** StartTargetedSentimentDetectionJob
-    StartTargetedSentimentDetectionJob (StartTargetedSentimentDetectionJob'),
+    StartTargetedSentimentDetectionJob,
     newStartTargetedSentimentDetectionJob,
-    StartTargetedSentimentDetectionJobResponse (StartTargetedSentimentDetectionJobResponse'),
+    StartTargetedSentimentDetectionJobResponse,
     newStartTargetedSentimentDetectionJobResponse,
 
     -- ** StartTopicsDetectionJob
-    StartTopicsDetectionJob (StartTopicsDetectionJob'),
+    StartTopicsDetectionJob,
     newStartTopicsDetectionJob,
-    StartTopicsDetectionJobResponse (StartTopicsDetectionJobResponse'),
+    StartTopicsDetectionJobResponse,
     newStartTopicsDetectionJobResponse,
 
     -- ** StopDominantLanguageDetectionJob
-    StopDominantLanguageDetectionJob (StopDominantLanguageDetectionJob'),
+    StopDominantLanguageDetectionJob,
     newStopDominantLanguageDetectionJob,
-    StopDominantLanguageDetectionJobResponse (StopDominantLanguageDetectionJobResponse'),
+    StopDominantLanguageDetectionJobResponse,
     newStopDominantLanguageDetectionJobResponse,
 
     -- ** StopEntitiesDetectionJob
-    StopEntitiesDetectionJob (StopEntitiesDetectionJob'),
+    StopEntitiesDetectionJob,
     newStopEntitiesDetectionJob,
-    StopEntitiesDetectionJobResponse (StopEntitiesDetectionJobResponse'),
+    StopEntitiesDetectionJobResponse,
     newStopEntitiesDetectionJobResponse,
 
     -- ** StopEventsDetectionJob
-    StopEventsDetectionJob (StopEventsDetectionJob'),
+    StopEventsDetectionJob,
     newStopEventsDetectionJob,
-    StopEventsDetectionJobResponse (StopEventsDetectionJobResponse'),
+    StopEventsDetectionJobResponse,
     newStopEventsDetectionJobResponse,
 
     -- ** StopKeyPhrasesDetectionJob
-    StopKeyPhrasesDetectionJob (StopKeyPhrasesDetectionJob'),
+    StopKeyPhrasesDetectionJob,
     newStopKeyPhrasesDetectionJob,
-    StopKeyPhrasesDetectionJobResponse (StopKeyPhrasesDetectionJobResponse'),
+    StopKeyPhrasesDetectionJobResponse,
     newStopKeyPhrasesDetectionJobResponse,
 
     -- ** StopPiiEntitiesDetectionJob
-    StopPiiEntitiesDetectionJob (StopPiiEntitiesDetectionJob'),
+    StopPiiEntitiesDetectionJob,
     newStopPiiEntitiesDetectionJob,
-    StopPiiEntitiesDetectionJobResponse (StopPiiEntitiesDetectionJobResponse'),
+    StopPiiEntitiesDetectionJobResponse,
     newStopPiiEntitiesDetectionJobResponse,
 
     -- ** StopSentimentDetectionJob
-    StopSentimentDetectionJob (StopSentimentDetectionJob'),
+    StopSentimentDetectionJob,
     newStopSentimentDetectionJob,
-    StopSentimentDetectionJobResponse (StopSentimentDetectionJobResponse'),
+    StopSentimentDetectionJobResponse,
     newStopSentimentDetectionJobResponse,
 
     -- ** StopTargetedSentimentDetectionJob
-    StopTargetedSentimentDetectionJob (StopTargetedSentimentDetectionJob'),
+    StopTargetedSentimentDetectionJob,
     newStopTargetedSentimentDetectionJob,
-    StopTargetedSentimentDetectionJobResponse (StopTargetedSentimentDetectionJobResponse'),
+    StopTargetedSentimentDetectionJobResponse,
     newStopTargetedSentimentDetectionJobResponse,
 
     -- ** StopTrainingDocumentClassifier
-    StopTrainingDocumentClassifier (StopTrainingDocumentClassifier'),
+    StopTrainingDocumentClassifier,
     newStopTrainingDocumentClassifier,
-    StopTrainingDocumentClassifierResponse (StopTrainingDocumentClassifierResponse'),
+    StopTrainingDocumentClassifierResponse,
     newStopTrainingDocumentClassifierResponse,
 
     -- ** StopTrainingEntityRecognizer
-    StopTrainingEntityRecognizer (StopTrainingEntityRecognizer'),
+    StopTrainingEntityRecognizer,
     newStopTrainingEntityRecognizer,
-    StopTrainingEntityRecognizerResponse (StopTrainingEntityRecognizerResponse'),
+    StopTrainingEntityRecognizerResponse,
     newStopTrainingEntityRecognizerResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateEndpoint
-    UpdateEndpoint (UpdateEndpoint'),
+    UpdateEndpoint,
     newUpdateEndpoint,
-    UpdateEndpointResponse (UpdateEndpointResponse'),
+    UpdateEndpointResponse,
     newUpdateEndpointResponse,
 
     -- * Types
@@ -592,315 +592,315 @@ module Amazonka.Comprehend
     TargetedSentimentEntityType (..),
 
     -- ** AugmentedManifestsListItem
-    AugmentedManifestsListItem (AugmentedManifestsListItem'),
+    AugmentedManifestsListItem,
     newAugmentedManifestsListItem,
 
     -- ** BatchDetectDominantLanguageItemResult
-    BatchDetectDominantLanguageItemResult (BatchDetectDominantLanguageItemResult'),
+    BatchDetectDominantLanguageItemResult,
     newBatchDetectDominantLanguageItemResult,
 
     -- ** BatchDetectEntitiesItemResult
-    BatchDetectEntitiesItemResult (BatchDetectEntitiesItemResult'),
+    BatchDetectEntitiesItemResult,
     newBatchDetectEntitiesItemResult,
 
     -- ** BatchDetectKeyPhrasesItemResult
-    BatchDetectKeyPhrasesItemResult (BatchDetectKeyPhrasesItemResult'),
+    BatchDetectKeyPhrasesItemResult,
     newBatchDetectKeyPhrasesItemResult,
 
     -- ** BatchDetectSentimentItemResult
-    BatchDetectSentimentItemResult (BatchDetectSentimentItemResult'),
+    BatchDetectSentimentItemResult,
     newBatchDetectSentimentItemResult,
 
     -- ** BatchDetectSyntaxItemResult
-    BatchDetectSyntaxItemResult (BatchDetectSyntaxItemResult'),
+    BatchDetectSyntaxItemResult,
     newBatchDetectSyntaxItemResult,
 
     -- ** BatchDetectTargetedSentimentItemResult
-    BatchDetectTargetedSentimentItemResult (BatchDetectTargetedSentimentItemResult'),
+    BatchDetectTargetedSentimentItemResult,
     newBatchDetectTargetedSentimentItemResult,
 
     -- ** BatchItemError
-    BatchItemError (BatchItemError'),
+    BatchItemError,
     newBatchItemError,
 
     -- ** Block
-    Block (Block'),
+    Block,
     newBlock,
 
     -- ** BlockReference
-    BlockReference (BlockReference'),
+    BlockReference,
     newBlockReference,
 
     -- ** BoundingBox
-    BoundingBox (BoundingBox'),
+    BoundingBox,
     newBoundingBox,
 
     -- ** ChildBlock
-    ChildBlock (ChildBlock'),
+    ChildBlock,
     newChildBlock,
 
     -- ** ClassifierEvaluationMetrics
-    ClassifierEvaluationMetrics (ClassifierEvaluationMetrics'),
+    ClassifierEvaluationMetrics,
     newClassifierEvaluationMetrics,
 
     -- ** ClassifierMetadata
-    ClassifierMetadata (ClassifierMetadata'),
+    ClassifierMetadata,
     newClassifierMetadata,
 
     -- ** DocumentClass
-    DocumentClass (DocumentClass'),
+    DocumentClass,
     newDocumentClass,
 
     -- ** DocumentClassificationJobFilter
-    DocumentClassificationJobFilter (DocumentClassificationJobFilter'),
+    DocumentClassificationJobFilter,
     newDocumentClassificationJobFilter,
 
     -- ** DocumentClassificationJobProperties
-    DocumentClassificationJobProperties (DocumentClassificationJobProperties'),
+    DocumentClassificationJobProperties,
     newDocumentClassificationJobProperties,
 
     -- ** DocumentClassifierFilter
-    DocumentClassifierFilter (DocumentClassifierFilter'),
+    DocumentClassifierFilter,
     newDocumentClassifierFilter,
 
     -- ** DocumentClassifierInputDataConfig
-    DocumentClassifierInputDataConfig (DocumentClassifierInputDataConfig'),
+    DocumentClassifierInputDataConfig,
     newDocumentClassifierInputDataConfig,
 
     -- ** DocumentClassifierOutputDataConfig
-    DocumentClassifierOutputDataConfig (DocumentClassifierOutputDataConfig'),
+    DocumentClassifierOutputDataConfig,
     newDocumentClassifierOutputDataConfig,
 
     -- ** DocumentClassifierProperties
-    DocumentClassifierProperties (DocumentClassifierProperties'),
+    DocumentClassifierProperties,
     newDocumentClassifierProperties,
 
     -- ** DocumentClassifierSummary
-    DocumentClassifierSummary (DocumentClassifierSummary'),
+    DocumentClassifierSummary,
     newDocumentClassifierSummary,
 
     -- ** DocumentLabel
-    DocumentLabel (DocumentLabel'),
+    DocumentLabel,
     newDocumentLabel,
 
     -- ** DocumentMetadata
-    DocumentMetadata (DocumentMetadata'),
+    DocumentMetadata,
     newDocumentMetadata,
 
     -- ** DocumentReaderConfig
-    DocumentReaderConfig (DocumentReaderConfig'),
+    DocumentReaderConfig,
     newDocumentReaderConfig,
 
     -- ** DocumentTypeListItem
-    DocumentTypeListItem (DocumentTypeListItem'),
+    DocumentTypeListItem,
     newDocumentTypeListItem,
 
     -- ** DominantLanguage
-    DominantLanguage (DominantLanguage'),
+    DominantLanguage,
     newDominantLanguage,
 
     -- ** DominantLanguageDetectionJobFilter
-    DominantLanguageDetectionJobFilter (DominantLanguageDetectionJobFilter'),
+    DominantLanguageDetectionJobFilter,
     newDominantLanguageDetectionJobFilter,
 
     -- ** DominantLanguageDetectionJobProperties
-    DominantLanguageDetectionJobProperties (DominantLanguageDetectionJobProperties'),
+    DominantLanguageDetectionJobProperties,
     newDominantLanguageDetectionJobProperties,
 
     -- ** EndpointFilter
-    EndpointFilter (EndpointFilter'),
+    EndpointFilter,
     newEndpointFilter,
 
     -- ** EndpointProperties
-    EndpointProperties (EndpointProperties'),
+    EndpointProperties,
     newEndpointProperties,
 
     -- ** EntitiesDetectionJobFilter
-    EntitiesDetectionJobFilter (EntitiesDetectionJobFilter'),
+    EntitiesDetectionJobFilter,
     newEntitiesDetectionJobFilter,
 
     -- ** EntitiesDetectionJobProperties
-    EntitiesDetectionJobProperties (EntitiesDetectionJobProperties'),
+    EntitiesDetectionJobProperties,
     newEntitiesDetectionJobProperties,
 
     -- ** Entity
-    Entity (Entity'),
+    Entity,
     newEntity,
 
     -- ** EntityLabel
-    EntityLabel (EntityLabel'),
+    EntityLabel,
     newEntityLabel,
 
     -- ** EntityRecognizerAnnotations
-    EntityRecognizerAnnotations (EntityRecognizerAnnotations'),
+    EntityRecognizerAnnotations,
     newEntityRecognizerAnnotations,
 
     -- ** EntityRecognizerDocuments
-    EntityRecognizerDocuments (EntityRecognizerDocuments'),
+    EntityRecognizerDocuments,
     newEntityRecognizerDocuments,
 
     -- ** EntityRecognizerEntityList
-    EntityRecognizerEntityList (EntityRecognizerEntityList'),
+    EntityRecognizerEntityList,
     newEntityRecognizerEntityList,
 
     -- ** EntityRecognizerEvaluationMetrics
-    EntityRecognizerEvaluationMetrics (EntityRecognizerEvaluationMetrics'),
+    EntityRecognizerEvaluationMetrics,
     newEntityRecognizerEvaluationMetrics,
 
     -- ** EntityRecognizerFilter
-    EntityRecognizerFilter (EntityRecognizerFilter'),
+    EntityRecognizerFilter,
     newEntityRecognizerFilter,
 
     -- ** EntityRecognizerInputDataConfig
-    EntityRecognizerInputDataConfig (EntityRecognizerInputDataConfig'),
+    EntityRecognizerInputDataConfig,
     newEntityRecognizerInputDataConfig,
 
     -- ** EntityRecognizerMetadata
-    EntityRecognizerMetadata (EntityRecognizerMetadata'),
+    EntityRecognizerMetadata,
     newEntityRecognizerMetadata,
 
     -- ** EntityRecognizerMetadataEntityTypesListItem
-    EntityRecognizerMetadataEntityTypesListItem (EntityRecognizerMetadataEntityTypesListItem'),
+    EntityRecognizerMetadataEntityTypesListItem,
     newEntityRecognizerMetadataEntityTypesListItem,
 
     -- ** EntityRecognizerProperties
-    EntityRecognizerProperties (EntityRecognizerProperties'),
+    EntityRecognizerProperties,
     newEntityRecognizerProperties,
 
     -- ** EntityRecognizerSummary
-    EntityRecognizerSummary (EntityRecognizerSummary'),
+    EntityRecognizerSummary,
     newEntityRecognizerSummary,
 
     -- ** EntityTypesEvaluationMetrics
-    EntityTypesEvaluationMetrics (EntityTypesEvaluationMetrics'),
+    EntityTypesEvaluationMetrics,
     newEntityTypesEvaluationMetrics,
 
     -- ** EntityTypesListItem
-    EntityTypesListItem (EntityTypesListItem'),
+    EntityTypesListItem,
     newEntityTypesListItem,
 
     -- ** ErrorsListItem
-    ErrorsListItem (ErrorsListItem'),
+    ErrorsListItem,
     newErrorsListItem,
 
     -- ** EventsDetectionJobFilter
-    EventsDetectionJobFilter (EventsDetectionJobFilter'),
+    EventsDetectionJobFilter,
     newEventsDetectionJobFilter,
 
     -- ** EventsDetectionJobProperties
-    EventsDetectionJobProperties (EventsDetectionJobProperties'),
+    EventsDetectionJobProperties,
     newEventsDetectionJobProperties,
 
     -- ** ExtractedCharactersListItem
-    ExtractedCharactersListItem (ExtractedCharactersListItem'),
+    ExtractedCharactersListItem,
     newExtractedCharactersListItem,
 
     -- ** Geometry
-    Geometry (Geometry'),
+    Geometry,
     newGeometry,
 
     -- ** InputDataConfig
-    InputDataConfig (InputDataConfig'),
+    InputDataConfig,
     newInputDataConfig,
 
     -- ** KeyPhrase
-    KeyPhrase (KeyPhrase'),
+    KeyPhrase,
     newKeyPhrase,
 
     -- ** KeyPhrasesDetectionJobFilter
-    KeyPhrasesDetectionJobFilter (KeyPhrasesDetectionJobFilter'),
+    KeyPhrasesDetectionJobFilter,
     newKeyPhrasesDetectionJobFilter,
 
     -- ** KeyPhrasesDetectionJobProperties
-    KeyPhrasesDetectionJobProperties (KeyPhrasesDetectionJobProperties'),
+    KeyPhrasesDetectionJobProperties,
     newKeyPhrasesDetectionJobProperties,
 
     -- ** MentionSentiment
-    MentionSentiment (MentionSentiment'),
+    MentionSentiment,
     newMentionSentiment,
 
     -- ** OutputDataConfig
-    OutputDataConfig (OutputDataConfig'),
+    OutputDataConfig,
     newOutputDataConfig,
 
     -- ** PartOfSpeechTag
-    PartOfSpeechTag (PartOfSpeechTag'),
+    PartOfSpeechTag,
     newPartOfSpeechTag,
 
     -- ** PiiEntitiesDetectionJobFilter
-    PiiEntitiesDetectionJobFilter (PiiEntitiesDetectionJobFilter'),
+    PiiEntitiesDetectionJobFilter,
     newPiiEntitiesDetectionJobFilter,
 
     -- ** PiiEntitiesDetectionJobProperties
-    PiiEntitiesDetectionJobProperties (PiiEntitiesDetectionJobProperties'),
+    PiiEntitiesDetectionJobProperties,
     newPiiEntitiesDetectionJobProperties,
 
     -- ** PiiEntity
-    PiiEntity (PiiEntity'),
+    PiiEntity,
     newPiiEntity,
 
     -- ** PiiOutputDataConfig
-    PiiOutputDataConfig (PiiOutputDataConfig'),
+    PiiOutputDataConfig,
     newPiiOutputDataConfig,
 
     -- ** Point
-    Point (Point'),
+    Point,
     newPoint,
 
     -- ** RedactionConfig
-    RedactionConfig (RedactionConfig'),
+    RedactionConfig,
     newRedactionConfig,
 
     -- ** RelationshipsListItem
-    RelationshipsListItem (RelationshipsListItem'),
+    RelationshipsListItem,
     newRelationshipsListItem,
 
     -- ** SentimentDetectionJobFilter
-    SentimentDetectionJobFilter (SentimentDetectionJobFilter'),
+    SentimentDetectionJobFilter,
     newSentimentDetectionJobFilter,
 
     -- ** SentimentDetectionJobProperties
-    SentimentDetectionJobProperties (SentimentDetectionJobProperties'),
+    SentimentDetectionJobProperties,
     newSentimentDetectionJobProperties,
 
     -- ** SentimentScore
-    SentimentScore (SentimentScore'),
+    SentimentScore,
     newSentimentScore,
 
     -- ** SyntaxToken
-    SyntaxToken (SyntaxToken'),
+    SyntaxToken,
     newSyntaxToken,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
 
     -- ** TargetedSentimentDetectionJobFilter
-    TargetedSentimentDetectionJobFilter (TargetedSentimentDetectionJobFilter'),
+    TargetedSentimentDetectionJobFilter,
     newTargetedSentimentDetectionJobFilter,
 
     -- ** TargetedSentimentDetectionJobProperties
-    TargetedSentimentDetectionJobProperties (TargetedSentimentDetectionJobProperties'),
+    TargetedSentimentDetectionJobProperties,
     newTargetedSentimentDetectionJobProperties,
 
     -- ** TargetedSentimentEntity
-    TargetedSentimentEntity (TargetedSentimentEntity'),
+    TargetedSentimentEntity,
     newTargetedSentimentEntity,
 
     -- ** TargetedSentimentMention
-    TargetedSentimentMention (TargetedSentimentMention'),
+    TargetedSentimentMention,
     newTargetedSentimentMention,
 
     -- ** TopicsDetectionJobFilter
-    TopicsDetectionJobFilter (TopicsDetectionJobFilter'),
+    TopicsDetectionJobFilter,
     newTopicsDetectionJobFilter,
 
     -- ** TopicsDetectionJobProperties
-    TopicsDetectionJobProperties (TopicsDetectionJobProperties'),
+    TopicsDetectionJobProperties,
     newTopicsDetectionJobProperties,
 
     -- ** VpcConfig
-    VpcConfig (VpcConfig'),
+    VpcConfig,
     newVpcConfig,
   )
 where

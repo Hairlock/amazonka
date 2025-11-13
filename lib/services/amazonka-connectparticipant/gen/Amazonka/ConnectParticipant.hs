@@ -48,51 +48,51 @@ module Amazonka.ConnectParticipant
     -- $operations
 
     -- ** CompleteAttachmentUpload
-    CompleteAttachmentUpload (CompleteAttachmentUpload'),
+    CompleteAttachmentUpload,
     newCompleteAttachmentUpload,
-    CompleteAttachmentUploadResponse (CompleteAttachmentUploadResponse'),
+    CompleteAttachmentUploadResponse,
     newCompleteAttachmentUploadResponse,
 
     -- ** CreateParticipantConnection
-    CreateParticipantConnection (CreateParticipantConnection'),
+    CreateParticipantConnection,
     newCreateParticipantConnection,
-    CreateParticipantConnectionResponse (CreateParticipantConnectionResponse'),
+    CreateParticipantConnectionResponse,
     newCreateParticipantConnectionResponse,
 
     -- ** DisconnectParticipant
-    DisconnectParticipant (DisconnectParticipant'),
+    DisconnectParticipant,
     newDisconnectParticipant,
-    DisconnectParticipantResponse (DisconnectParticipantResponse'),
+    DisconnectParticipantResponse,
     newDisconnectParticipantResponse,
 
     -- ** GetAttachment
-    GetAttachment (GetAttachment'),
+    GetAttachment,
     newGetAttachment,
-    GetAttachmentResponse (GetAttachmentResponse'),
+    GetAttachmentResponse,
     newGetAttachmentResponse,
 
     -- ** GetTranscript
-    GetTranscript (GetTranscript'),
+    GetTranscript,
     newGetTranscript,
-    GetTranscriptResponse (GetTranscriptResponse'),
+    GetTranscriptResponse,
     newGetTranscriptResponse,
 
     -- ** SendEvent
-    SendEvent (SendEvent'),
+    SendEvent,
     newSendEvent,
-    SendEventResponse (SendEventResponse'),
+    SendEventResponse,
     newSendEventResponse,
 
     -- ** SendMessage
-    SendMessage (SendMessage'),
+    SendMessage,
     newSendMessage,
-    SendMessageResponse (SendMessageResponse'),
+    SendMessageResponse,
     newSendMessageResponse,
 
     -- ** StartAttachmentUpload
-    StartAttachmentUpload (StartAttachmentUpload'),
+    StartAttachmentUpload,
     newStartAttachmentUpload,
-    StartAttachmentUploadResponse (StartAttachmentUploadResponse'),
+    StartAttachmentUploadResponse,
     newStartAttachmentUploadResponse,
 
     -- * Types
@@ -116,35 +116,35 @@ module Amazonka.ConnectParticipant
     SortKey (..),
 
     -- ** AttachmentItem
-    AttachmentItem (AttachmentItem'),
+    AttachmentItem,
     newAttachmentItem,
 
     -- ** ConnectionCredentials
-    ConnectionCredentials (ConnectionCredentials'),
+    ConnectionCredentials,
     newConnectionCredentials,
 
     -- ** Item
-    Item (Item'),
+    Item,
     newItem,
 
     -- ** MessageMetadata
-    MessageMetadata (MessageMetadata'),
+    MessageMetadata,
     newMessageMetadata,
 
     -- ** Receipt
-    Receipt (Receipt'),
+    Receipt,
     newReceipt,
 
     -- ** StartPosition
-    StartPosition (StartPosition'),
+    StartPosition,
     newStartPosition,
 
     -- ** UploadMetadata
-    UploadMetadata (UploadMetadata'),
+    UploadMetadata,
     newUploadMetadata,
 
     -- ** Websocket
-    Websocket (Websocket'),
+    Websocket,
     newWebsocket,
   )
 where

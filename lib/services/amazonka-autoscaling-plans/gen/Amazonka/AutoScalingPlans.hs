@@ -72,39 +72,39 @@ module Amazonka.AutoScalingPlans
     -- $operations
 
     -- ** CreateScalingPlan
-    CreateScalingPlan (CreateScalingPlan'),
+    CreateScalingPlan,
     newCreateScalingPlan,
-    CreateScalingPlanResponse (CreateScalingPlanResponse'),
+    CreateScalingPlanResponse,
     newCreateScalingPlanResponse,
 
     -- ** DeleteScalingPlan
-    DeleteScalingPlan (DeleteScalingPlan'),
+    DeleteScalingPlan,
     newDeleteScalingPlan,
-    DeleteScalingPlanResponse (DeleteScalingPlanResponse'),
+    DeleteScalingPlanResponse,
     newDeleteScalingPlanResponse,
 
     -- ** DescribeScalingPlanResources (Paginated)
-    DescribeScalingPlanResources (DescribeScalingPlanResources'),
+    DescribeScalingPlanResources,
     newDescribeScalingPlanResources,
-    DescribeScalingPlanResourcesResponse (DescribeScalingPlanResourcesResponse'),
+    DescribeScalingPlanResourcesResponse,
     newDescribeScalingPlanResourcesResponse,
 
     -- ** DescribeScalingPlans (Paginated)
-    DescribeScalingPlans (DescribeScalingPlans'),
+    DescribeScalingPlans,
     newDescribeScalingPlans,
-    DescribeScalingPlansResponse (DescribeScalingPlansResponse'),
+    DescribeScalingPlansResponse,
     newDescribeScalingPlansResponse,
 
     -- ** GetScalingPlanResourceForecastData
-    GetScalingPlanResourceForecastData (GetScalingPlanResourceForecastData'),
+    GetScalingPlanResourceForecastData,
     newGetScalingPlanResourceForecastData,
-    GetScalingPlanResourceForecastDataResponse (GetScalingPlanResourceForecastDataResponse'),
+    GetScalingPlanResourceForecastDataResponse,
     newGetScalingPlanResourceForecastDataResponse,
 
     -- ** UpdateScalingPlan
-    UpdateScalingPlan (UpdateScalingPlan'),
+    UpdateScalingPlan,
     newUpdateScalingPlan,
-    UpdateScalingPlanResponse (UpdateScalingPlanResponse'),
+    UpdateScalingPlanResponse,
     newUpdateScalingPlanResponse,
 
     -- * Types
@@ -146,55 +146,55 @@ module Amazonka.AutoScalingPlans
     ServiceNamespace (..),
 
     -- ** ApplicationSource
-    ApplicationSource (ApplicationSource'),
+    ApplicationSource,
     newApplicationSource,
 
     -- ** CustomizedLoadMetricSpecification
-    CustomizedLoadMetricSpecification (CustomizedLoadMetricSpecification'),
+    CustomizedLoadMetricSpecification,
     newCustomizedLoadMetricSpecification,
 
     -- ** CustomizedScalingMetricSpecification
-    CustomizedScalingMetricSpecification (CustomizedScalingMetricSpecification'),
+    CustomizedScalingMetricSpecification,
     newCustomizedScalingMetricSpecification,
 
     -- ** Datapoint
-    Datapoint (Datapoint'),
+    Datapoint,
     newDatapoint,
 
     -- ** MetricDimension
-    MetricDimension (MetricDimension'),
+    MetricDimension,
     newMetricDimension,
 
     -- ** PredefinedLoadMetricSpecification
-    PredefinedLoadMetricSpecification (PredefinedLoadMetricSpecification'),
+    PredefinedLoadMetricSpecification,
     newPredefinedLoadMetricSpecification,
 
     -- ** PredefinedScalingMetricSpecification
-    PredefinedScalingMetricSpecification (PredefinedScalingMetricSpecification'),
+    PredefinedScalingMetricSpecification,
     newPredefinedScalingMetricSpecification,
 
     -- ** ScalingInstruction
-    ScalingInstruction (ScalingInstruction'),
+    ScalingInstruction,
     newScalingInstruction,
 
     -- ** ScalingPlan
-    ScalingPlan (ScalingPlan'),
+    ScalingPlan,
     newScalingPlan,
 
     -- ** ScalingPlanResource
-    ScalingPlanResource (ScalingPlanResource'),
+    ScalingPlanResource,
     newScalingPlanResource,
 
     -- ** ScalingPolicy
-    ScalingPolicy (ScalingPolicy'),
+    ScalingPolicy,
     newScalingPolicy,
 
     -- ** TagFilter
-    TagFilter (TagFilter'),
+    TagFilter,
     newTagFilter,
 
     -- ** TargetTrackingConfiguration
-    TargetTrackingConfiguration (TargetTrackingConfiguration'),
+    TargetTrackingConfiguration,
     newTargetTrackingConfiguration,
   )
 where

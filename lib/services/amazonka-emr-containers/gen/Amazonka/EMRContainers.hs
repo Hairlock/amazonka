@@ -57,117 +57,117 @@ module Amazonka.EMRContainers
     -- $operations
 
     -- ** CancelJobRun
-    CancelJobRun (CancelJobRun'),
+    CancelJobRun,
     newCancelJobRun,
-    CancelJobRunResponse (CancelJobRunResponse'),
+    CancelJobRunResponse,
     newCancelJobRunResponse,
 
     -- ** CreateJobTemplate
-    CreateJobTemplate (CreateJobTemplate'),
+    CreateJobTemplate,
     newCreateJobTemplate,
-    CreateJobTemplateResponse (CreateJobTemplateResponse'),
+    CreateJobTemplateResponse,
     newCreateJobTemplateResponse,
 
     -- ** CreateManagedEndpoint
-    CreateManagedEndpoint (CreateManagedEndpoint'),
+    CreateManagedEndpoint,
     newCreateManagedEndpoint,
-    CreateManagedEndpointResponse (CreateManagedEndpointResponse'),
+    CreateManagedEndpointResponse,
     newCreateManagedEndpointResponse,
 
     -- ** CreateVirtualCluster
-    CreateVirtualCluster (CreateVirtualCluster'),
+    CreateVirtualCluster,
     newCreateVirtualCluster,
-    CreateVirtualClusterResponse (CreateVirtualClusterResponse'),
+    CreateVirtualClusterResponse,
     newCreateVirtualClusterResponse,
 
     -- ** DeleteJobTemplate
-    DeleteJobTemplate (DeleteJobTemplate'),
+    DeleteJobTemplate,
     newDeleteJobTemplate,
-    DeleteJobTemplateResponse (DeleteJobTemplateResponse'),
+    DeleteJobTemplateResponse,
     newDeleteJobTemplateResponse,
 
     -- ** DeleteManagedEndpoint
-    DeleteManagedEndpoint (DeleteManagedEndpoint'),
+    DeleteManagedEndpoint,
     newDeleteManagedEndpoint,
-    DeleteManagedEndpointResponse (DeleteManagedEndpointResponse'),
+    DeleteManagedEndpointResponse,
     newDeleteManagedEndpointResponse,
 
     -- ** DeleteVirtualCluster
-    DeleteVirtualCluster (DeleteVirtualCluster'),
+    DeleteVirtualCluster,
     newDeleteVirtualCluster,
-    DeleteVirtualClusterResponse (DeleteVirtualClusterResponse'),
+    DeleteVirtualClusterResponse,
     newDeleteVirtualClusterResponse,
 
     -- ** DescribeJobRun
-    DescribeJobRun (DescribeJobRun'),
+    DescribeJobRun,
     newDescribeJobRun,
-    DescribeJobRunResponse (DescribeJobRunResponse'),
+    DescribeJobRunResponse,
     newDescribeJobRunResponse,
 
     -- ** DescribeJobTemplate
-    DescribeJobTemplate (DescribeJobTemplate'),
+    DescribeJobTemplate,
     newDescribeJobTemplate,
-    DescribeJobTemplateResponse (DescribeJobTemplateResponse'),
+    DescribeJobTemplateResponse,
     newDescribeJobTemplateResponse,
 
     -- ** DescribeManagedEndpoint
-    DescribeManagedEndpoint (DescribeManagedEndpoint'),
+    DescribeManagedEndpoint,
     newDescribeManagedEndpoint,
-    DescribeManagedEndpointResponse (DescribeManagedEndpointResponse'),
+    DescribeManagedEndpointResponse,
     newDescribeManagedEndpointResponse,
 
     -- ** DescribeVirtualCluster
-    DescribeVirtualCluster (DescribeVirtualCluster'),
+    DescribeVirtualCluster,
     newDescribeVirtualCluster,
-    DescribeVirtualClusterResponse (DescribeVirtualClusterResponse'),
+    DescribeVirtualClusterResponse,
     newDescribeVirtualClusterResponse,
 
     -- ** ListJobRuns (Paginated)
-    ListJobRuns (ListJobRuns'),
+    ListJobRuns,
     newListJobRuns,
-    ListJobRunsResponse (ListJobRunsResponse'),
+    ListJobRunsResponse,
     newListJobRunsResponse,
 
     -- ** ListJobTemplates (Paginated)
-    ListJobTemplates (ListJobTemplates'),
+    ListJobTemplates,
     newListJobTemplates,
-    ListJobTemplatesResponse (ListJobTemplatesResponse'),
+    ListJobTemplatesResponse,
     newListJobTemplatesResponse,
 
     -- ** ListManagedEndpoints (Paginated)
-    ListManagedEndpoints (ListManagedEndpoints'),
+    ListManagedEndpoints,
     newListManagedEndpoints,
-    ListManagedEndpointsResponse (ListManagedEndpointsResponse'),
+    ListManagedEndpointsResponse,
     newListManagedEndpointsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** ListVirtualClusters (Paginated)
-    ListVirtualClusters (ListVirtualClusters'),
+    ListVirtualClusters,
     newListVirtualClusters,
-    ListVirtualClustersResponse (ListVirtualClustersResponse'),
+    ListVirtualClustersResponse,
     newListVirtualClustersResponse,
 
     -- ** StartJobRun
-    StartJobRun (StartJobRun'),
+    StartJobRun,
     newStartJobRun,
-    StartJobRunResponse (StartJobRunResponse'),
+    StartJobRunResponse,
     newStartJobRunResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- * Types
@@ -194,91 +194,91 @@ module Amazonka.EMRContainers
     VirtualClusterState (..),
 
     -- ** Certificate
-    Certificate (Certificate'),
+    Certificate,
     newCertificate,
 
     -- ** CloudWatchMonitoringConfiguration
-    CloudWatchMonitoringConfiguration (CloudWatchMonitoringConfiguration'),
+    CloudWatchMonitoringConfiguration,
     newCloudWatchMonitoringConfiguration,
 
     -- ** Configuration
-    Configuration (Configuration'),
+    Configuration,
     newConfiguration,
 
     -- ** ConfigurationOverrides
-    ConfigurationOverrides (ConfigurationOverrides'),
+    ConfigurationOverrides,
     newConfigurationOverrides,
 
     -- ** ContainerInfo
-    ContainerInfo (ContainerInfo'),
+    ContainerInfo,
     newContainerInfo,
 
     -- ** ContainerProvider
-    ContainerProvider (ContainerProvider'),
+    ContainerProvider,
     newContainerProvider,
 
     -- ** EksInfo
-    EksInfo (EksInfo'),
+    EksInfo,
     newEksInfo,
 
     -- ** Endpoint
-    Endpoint (Endpoint'),
+    Endpoint,
     newEndpoint,
 
     -- ** JobDriver
-    JobDriver (JobDriver'),
+    JobDriver,
     newJobDriver,
 
     -- ** JobRun
-    JobRun (JobRun'),
+    JobRun,
     newJobRun,
 
     -- ** JobTemplate
-    JobTemplate (JobTemplate'),
+    JobTemplate,
     newJobTemplate,
 
     -- ** JobTemplateData
-    JobTemplateData (JobTemplateData'),
+    JobTemplateData,
     newJobTemplateData,
 
     -- ** MonitoringConfiguration
-    MonitoringConfiguration (MonitoringConfiguration'),
+    MonitoringConfiguration,
     newMonitoringConfiguration,
 
     -- ** ParametricCloudWatchMonitoringConfiguration
-    ParametricCloudWatchMonitoringConfiguration (ParametricCloudWatchMonitoringConfiguration'),
+    ParametricCloudWatchMonitoringConfiguration,
     newParametricCloudWatchMonitoringConfiguration,
 
     -- ** ParametricConfigurationOverrides
-    ParametricConfigurationOverrides (ParametricConfigurationOverrides'),
+    ParametricConfigurationOverrides,
     newParametricConfigurationOverrides,
 
     -- ** ParametricMonitoringConfiguration
-    ParametricMonitoringConfiguration (ParametricMonitoringConfiguration'),
+    ParametricMonitoringConfiguration,
     newParametricMonitoringConfiguration,
 
     -- ** ParametricS3MonitoringConfiguration
-    ParametricS3MonitoringConfiguration (ParametricS3MonitoringConfiguration'),
+    ParametricS3MonitoringConfiguration,
     newParametricS3MonitoringConfiguration,
 
     -- ** S3MonitoringConfiguration
-    S3MonitoringConfiguration (S3MonitoringConfiguration'),
+    S3MonitoringConfiguration,
     newS3MonitoringConfiguration,
 
     -- ** SparkSqlJobDriver
-    SparkSqlJobDriver (SparkSqlJobDriver'),
+    SparkSqlJobDriver,
     newSparkSqlJobDriver,
 
     -- ** SparkSubmitJobDriver
-    SparkSubmitJobDriver (SparkSubmitJobDriver'),
+    SparkSubmitJobDriver,
     newSparkSubmitJobDriver,
 
     -- ** TemplateParameterConfiguration
-    TemplateParameterConfiguration (TemplateParameterConfiguration'),
+    TemplateParameterConfiguration,
     newTemplateParameterConfiguration,
 
     -- ** VirtualCluster
-    VirtualCluster (VirtualCluster'),
+    VirtualCluster,
     newVirtualCluster,
   )
 where

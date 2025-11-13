@@ -59,83 +59,83 @@ module Amazonka.QLDBSession
     -- $operations
 
     -- ** SendCommand
-    SendCommand (SendCommand'),
+    SendCommand,
     newSendCommand,
-    SendCommandResponse (SendCommandResponse'),
+    SendCommandResponse,
     newSendCommandResponse,
 
     -- * Types
 
     -- ** AbortTransactionRequest
-    AbortTransactionRequest (AbortTransactionRequest'),
+    AbortTransactionRequest,
     newAbortTransactionRequest,
 
     -- ** AbortTransactionResult
-    AbortTransactionResult (AbortTransactionResult'),
+    AbortTransactionResult,
     newAbortTransactionResult,
 
     -- ** CommitTransactionRequest
-    CommitTransactionRequest (CommitTransactionRequest'),
+    CommitTransactionRequest,
     newCommitTransactionRequest,
 
     -- ** CommitTransactionResult
-    CommitTransactionResult (CommitTransactionResult'),
+    CommitTransactionResult,
     newCommitTransactionResult,
 
     -- ** EndSessionRequest
-    EndSessionRequest (EndSessionRequest'),
+    EndSessionRequest,
     newEndSessionRequest,
 
     -- ** EndSessionResult
-    EndSessionResult (EndSessionResult'),
+    EndSessionResult,
     newEndSessionResult,
 
     -- ** ExecuteStatementRequest
-    ExecuteStatementRequest (ExecuteStatementRequest'),
+    ExecuteStatementRequest,
     newExecuteStatementRequest,
 
     -- ** ExecuteStatementResult
-    ExecuteStatementResult (ExecuteStatementResult'),
+    ExecuteStatementResult,
     newExecuteStatementResult,
 
     -- ** FetchPageRequest
-    FetchPageRequest (FetchPageRequest'),
+    FetchPageRequest,
     newFetchPageRequest,
 
     -- ** FetchPageResult
-    FetchPageResult (FetchPageResult'),
+    FetchPageResult,
     newFetchPageResult,
 
     -- ** IOUsage
-    IOUsage (IOUsage'),
+    IOUsage,
     newIOUsage,
 
     -- ** Page
-    Page (Page'),
+    Page,
     newPage,
 
     -- ** StartSessionRequest
-    StartSessionRequest (StartSessionRequest'),
+    StartSessionRequest,
     newStartSessionRequest,
 
     -- ** StartSessionResult
-    StartSessionResult (StartSessionResult'),
+    StartSessionResult,
     newStartSessionResult,
 
     -- ** StartTransactionRequest
-    StartTransactionRequest (StartTransactionRequest'),
+    StartTransactionRequest,
     newStartTransactionRequest,
 
     -- ** StartTransactionResult
-    StartTransactionResult (StartTransactionResult'),
+    StartTransactionResult,
     newStartTransactionResult,
 
     -- ** TimingInformation
-    TimingInformation (TimingInformation'),
+    TimingInformation,
     newTimingInformation,
 
     -- ** ValueHolder
-    ValueHolder (ValueHolder'),
+    ValueHolder,
     newValueHolder,
   )
 where

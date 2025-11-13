@@ -47,27 +47,27 @@ module Amazonka.DynamoDBStreams
     -- $operations
 
     -- ** DescribeStream
-    DescribeStream (DescribeStream'),
+    DescribeStream,
     newDescribeStream,
-    DescribeStreamResponse (DescribeStreamResponse'),
+    DescribeStreamResponse,
     newDescribeStreamResponse,
 
     -- ** GetRecords
-    GetRecords (GetRecords'),
+    GetRecords,
     newGetRecords,
-    GetRecordsResponse (GetRecordsResponse'),
+    GetRecordsResponse,
     newGetRecordsResponse,
 
     -- ** GetShardIterator
-    GetShardIterator (GetShardIterator'),
+    GetShardIterator,
     newGetShardIterator,
-    GetShardIteratorResponse (GetShardIteratorResponse'),
+    GetShardIteratorResponse,
     newGetShardIteratorResponse,
 
     -- ** ListStreams
-    ListStreams (ListStreams'),
+    ListStreams,
     newListStreams,
-    ListStreamsResponse (ListStreamsResponse'),
+    ListStreamsResponse,
     newListStreamsResponse,
 
     -- * Types
@@ -91,35 +91,35 @@ module Amazonka.DynamoDBStreams
     StreamViewType (..),
 
     -- ** Identity
-    Identity (Identity'),
+    Identity,
     newIdentity,
 
     -- ** KeySchemaElement
-    KeySchemaElement (KeySchemaElement'),
+    KeySchemaElement,
     newKeySchemaElement,
 
     -- ** Record
-    Record (Record'),
+    Record,
     newRecord,
 
     -- ** SequenceNumberRange
-    SequenceNumberRange (SequenceNumberRange'),
+    SequenceNumberRange,
     newSequenceNumberRange,
 
     -- ** Shard
-    Shard (Shard'),
+    Shard,
     newShard,
 
     -- ** Stream
-    Stream (Stream'),
+    Stream,
     newStream,
 
     -- ** StreamDescription
-    StreamDescription (StreamDescription'),
+    StreamDescription,
     newStreamDescription,
 
     -- ** StreamRecord
-    StreamRecord (StreamRecord'),
+    StreamRecord,
     newStreamRecord,
   )
 where

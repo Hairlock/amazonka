@@ -76,159 +76,159 @@ module Amazonka.Route53AutoNaming
     -- $operations
 
     -- ** CreateHttpNamespace
-    CreateHttpNamespace (CreateHttpNamespace'),
+    CreateHttpNamespace,
     newCreateHttpNamespace,
-    CreateHttpNamespaceResponse (CreateHttpNamespaceResponse'),
+    CreateHttpNamespaceResponse,
     newCreateHttpNamespaceResponse,
 
     -- ** CreatePrivateDnsNamespace
-    CreatePrivateDnsNamespace (CreatePrivateDnsNamespace'),
+    CreatePrivateDnsNamespace,
     newCreatePrivateDnsNamespace,
-    CreatePrivateDnsNamespaceResponse (CreatePrivateDnsNamespaceResponse'),
+    CreatePrivateDnsNamespaceResponse,
     newCreatePrivateDnsNamespaceResponse,
 
     -- ** CreatePublicDnsNamespace
-    CreatePublicDnsNamespace (CreatePublicDnsNamespace'),
+    CreatePublicDnsNamespace,
     newCreatePublicDnsNamespace,
-    CreatePublicDnsNamespaceResponse (CreatePublicDnsNamespaceResponse'),
+    CreatePublicDnsNamespaceResponse,
     newCreatePublicDnsNamespaceResponse,
 
     -- ** CreateService
-    CreateService (CreateService'),
+    CreateService,
     newCreateService,
-    CreateServiceResponse (CreateServiceResponse'),
+    CreateServiceResponse,
     newCreateServiceResponse,
 
     -- ** DeleteNamespace
-    DeleteNamespace (DeleteNamespace'),
+    DeleteNamespace,
     newDeleteNamespace,
-    DeleteNamespaceResponse (DeleteNamespaceResponse'),
+    DeleteNamespaceResponse,
     newDeleteNamespaceResponse,
 
     -- ** DeleteService
-    DeleteService (DeleteService'),
+    DeleteService,
     newDeleteService,
-    DeleteServiceResponse (DeleteServiceResponse'),
+    DeleteServiceResponse,
     newDeleteServiceResponse,
 
     -- ** DeregisterInstance
-    DeregisterInstance (DeregisterInstance'),
+    DeregisterInstance,
     newDeregisterInstance,
-    DeregisterInstanceResponse (DeregisterInstanceResponse'),
+    DeregisterInstanceResponse,
     newDeregisterInstanceResponse,
 
     -- ** DiscoverInstances
-    DiscoverInstances (DiscoverInstances'),
+    DiscoverInstances,
     newDiscoverInstances,
-    DiscoverInstancesResponse (DiscoverInstancesResponse'),
+    DiscoverInstancesResponse,
     newDiscoverInstancesResponse,
 
     -- ** GetInstance
-    GetInstance (GetInstance'),
+    GetInstance,
     newGetInstance,
-    GetInstanceResponse (GetInstanceResponse'),
+    GetInstanceResponse,
     newGetInstanceResponse,
 
     -- ** GetInstancesHealthStatus
-    GetInstancesHealthStatus (GetInstancesHealthStatus'),
+    GetInstancesHealthStatus,
     newGetInstancesHealthStatus,
-    GetInstancesHealthStatusResponse (GetInstancesHealthStatusResponse'),
+    GetInstancesHealthStatusResponse,
     newGetInstancesHealthStatusResponse,
 
     -- ** GetNamespace
-    GetNamespace (GetNamespace'),
+    GetNamespace,
     newGetNamespace,
-    GetNamespaceResponse (GetNamespaceResponse'),
+    GetNamespaceResponse,
     newGetNamespaceResponse,
 
     -- ** GetOperation
-    GetOperation (GetOperation'),
+    GetOperation,
     newGetOperation,
-    GetOperationResponse (GetOperationResponse'),
+    GetOperationResponse,
     newGetOperationResponse,
 
     -- ** GetService
-    GetService (GetService'),
+    GetService,
     newGetService,
-    GetServiceResponse (GetServiceResponse'),
+    GetServiceResponse,
     newGetServiceResponse,
 
     -- ** ListInstances (Paginated)
-    ListInstances (ListInstances'),
+    ListInstances,
     newListInstances,
-    ListInstancesResponse (ListInstancesResponse'),
+    ListInstancesResponse,
     newListInstancesResponse,
 
     -- ** ListNamespaces (Paginated)
-    ListNamespaces (ListNamespaces'),
+    ListNamespaces,
     newListNamespaces,
-    ListNamespacesResponse (ListNamespacesResponse'),
+    ListNamespacesResponse,
     newListNamespacesResponse,
 
     -- ** ListOperations (Paginated)
-    ListOperations (ListOperations'),
+    ListOperations,
     newListOperations,
-    ListOperationsResponse (ListOperationsResponse'),
+    ListOperationsResponse,
     newListOperationsResponse,
 
     -- ** ListServices (Paginated)
-    ListServices (ListServices'),
+    ListServices,
     newListServices,
-    ListServicesResponse (ListServicesResponse'),
+    ListServicesResponse,
     newListServicesResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** RegisterInstance
-    RegisterInstance (RegisterInstance'),
+    RegisterInstance,
     newRegisterInstance,
-    RegisterInstanceResponse (RegisterInstanceResponse'),
+    RegisterInstanceResponse,
     newRegisterInstanceResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateHttpNamespace
-    UpdateHttpNamespace (UpdateHttpNamespace'),
+    UpdateHttpNamespace,
     newUpdateHttpNamespace,
-    UpdateHttpNamespaceResponse (UpdateHttpNamespaceResponse'),
+    UpdateHttpNamespaceResponse,
     newUpdateHttpNamespaceResponse,
 
     -- ** UpdateInstanceCustomHealthStatus
-    UpdateInstanceCustomHealthStatus (UpdateInstanceCustomHealthStatus'),
+    UpdateInstanceCustomHealthStatus,
     newUpdateInstanceCustomHealthStatus,
-    UpdateInstanceCustomHealthStatusResponse (UpdateInstanceCustomHealthStatusResponse'),
+    UpdateInstanceCustomHealthStatusResponse,
     newUpdateInstanceCustomHealthStatusResponse,
 
     -- ** UpdatePrivateDnsNamespace
-    UpdatePrivateDnsNamespace (UpdatePrivateDnsNamespace'),
+    UpdatePrivateDnsNamespace,
     newUpdatePrivateDnsNamespace,
-    UpdatePrivateDnsNamespaceResponse (UpdatePrivateDnsNamespaceResponse'),
+    UpdatePrivateDnsNamespaceResponse,
     newUpdatePrivateDnsNamespaceResponse,
 
     -- ** UpdatePublicDnsNamespace
-    UpdatePublicDnsNamespace (UpdatePublicDnsNamespace'),
+    UpdatePublicDnsNamespace,
     newUpdatePublicDnsNamespace,
-    UpdatePublicDnsNamespaceResponse (UpdatePublicDnsNamespaceResponse'),
+    UpdatePublicDnsNamespaceResponse,
     newUpdatePublicDnsNamespaceResponse,
 
     -- ** UpdateService
-    UpdateService (UpdateService'),
+    UpdateService,
     newUpdateService,
-    UpdateServiceResponse (UpdateServiceResponse'),
+    UpdateServiceResponse,
     newUpdateServiceResponse,
 
     -- * Types
@@ -282,143 +282,143 @@ module Amazonka.Route53AutoNaming
     ServiceTypeOption (..),
 
     -- ** DnsConfig
-    DnsConfig (DnsConfig'),
+    DnsConfig,
     newDnsConfig,
 
     -- ** DnsConfigChange
-    DnsConfigChange (DnsConfigChange'),
+    DnsConfigChange,
     newDnsConfigChange,
 
     -- ** DnsProperties
-    DnsProperties (DnsProperties'),
+    DnsProperties,
     newDnsProperties,
 
     -- ** DnsRecord
-    DnsRecord (DnsRecord'),
+    DnsRecord,
     newDnsRecord,
 
     -- ** HealthCheckConfig
-    HealthCheckConfig (HealthCheckConfig'),
+    HealthCheckConfig,
     newHealthCheckConfig,
 
     -- ** HealthCheckCustomConfig
-    HealthCheckCustomConfig (HealthCheckCustomConfig'),
+    HealthCheckCustomConfig,
     newHealthCheckCustomConfig,
 
     -- ** HttpInstanceSummary
-    HttpInstanceSummary (HttpInstanceSummary'),
+    HttpInstanceSummary,
     newHttpInstanceSummary,
 
     -- ** HttpNamespaceChange
-    HttpNamespaceChange (HttpNamespaceChange'),
+    HttpNamespaceChange,
     newHttpNamespaceChange,
 
     -- ** HttpProperties
-    HttpProperties (HttpProperties'),
+    HttpProperties,
     newHttpProperties,
 
     -- ** Instance
-    Instance (Instance'),
+    Instance,
     newInstance,
 
     -- ** InstanceSummary
-    InstanceSummary (InstanceSummary'),
+    InstanceSummary,
     newInstanceSummary,
 
     -- ** Namespace
-    Namespace (Namespace'),
+    Namespace,
     newNamespace,
 
     -- ** NamespaceFilter
-    NamespaceFilter (NamespaceFilter'),
+    NamespaceFilter,
     newNamespaceFilter,
 
     -- ** NamespaceProperties
-    NamespaceProperties (NamespaceProperties'),
+    NamespaceProperties,
     newNamespaceProperties,
 
     -- ** NamespaceSummary
-    NamespaceSummary (NamespaceSummary'),
+    NamespaceSummary,
     newNamespaceSummary,
 
     -- ** Operation
-    Operation (Operation'),
+    Operation,
     newOperation,
 
     -- ** OperationFilter
-    OperationFilter (OperationFilter'),
+    OperationFilter,
     newOperationFilter,
 
     -- ** OperationSummary
-    OperationSummary (OperationSummary'),
+    OperationSummary,
     newOperationSummary,
 
     -- ** PrivateDnsNamespaceChange
-    PrivateDnsNamespaceChange (PrivateDnsNamespaceChange'),
+    PrivateDnsNamespaceChange,
     newPrivateDnsNamespaceChange,
 
     -- ** PrivateDnsNamespaceProperties
-    PrivateDnsNamespaceProperties (PrivateDnsNamespaceProperties'),
+    PrivateDnsNamespaceProperties,
     newPrivateDnsNamespaceProperties,
 
     -- ** PrivateDnsNamespacePropertiesChange
-    PrivateDnsNamespacePropertiesChange (PrivateDnsNamespacePropertiesChange'),
+    PrivateDnsNamespacePropertiesChange,
     newPrivateDnsNamespacePropertiesChange,
 
     -- ** PrivateDnsPropertiesMutable
-    PrivateDnsPropertiesMutable (PrivateDnsPropertiesMutable'),
+    PrivateDnsPropertiesMutable,
     newPrivateDnsPropertiesMutable,
 
     -- ** PrivateDnsPropertiesMutableChange
-    PrivateDnsPropertiesMutableChange (PrivateDnsPropertiesMutableChange'),
+    PrivateDnsPropertiesMutableChange,
     newPrivateDnsPropertiesMutableChange,
 
     -- ** PublicDnsNamespaceChange
-    PublicDnsNamespaceChange (PublicDnsNamespaceChange'),
+    PublicDnsNamespaceChange,
     newPublicDnsNamespaceChange,
 
     -- ** PublicDnsNamespaceProperties
-    PublicDnsNamespaceProperties (PublicDnsNamespaceProperties'),
+    PublicDnsNamespaceProperties,
     newPublicDnsNamespaceProperties,
 
     -- ** PublicDnsNamespacePropertiesChange
-    PublicDnsNamespacePropertiesChange (PublicDnsNamespacePropertiesChange'),
+    PublicDnsNamespacePropertiesChange,
     newPublicDnsNamespacePropertiesChange,
 
     -- ** PublicDnsPropertiesMutable
-    PublicDnsPropertiesMutable (PublicDnsPropertiesMutable'),
+    PublicDnsPropertiesMutable,
     newPublicDnsPropertiesMutable,
 
     -- ** PublicDnsPropertiesMutableChange
-    PublicDnsPropertiesMutableChange (PublicDnsPropertiesMutableChange'),
+    PublicDnsPropertiesMutableChange,
     newPublicDnsPropertiesMutableChange,
 
     -- ** SOA
-    SOA (SOA'),
+    SOA,
     newSOA,
 
     -- ** SOAChange
-    SOAChange (SOAChange'),
+    SOAChange,
     newSOAChange,
 
     -- ** ServiceChange
-    ServiceChange (ServiceChange'),
+    ServiceChange,
     newServiceChange,
 
     -- ** ServiceFilter
-    ServiceFilter (ServiceFilter'),
+    ServiceFilter,
     newServiceFilter,
 
     -- ** ServiceInfo
-    ServiceInfo (ServiceInfo'),
+    ServiceInfo,
     newServiceInfo,
 
     -- ** ServiceSummary
-    ServiceSummary (ServiceSummary'),
+    ServiceSummary,
     newServiceSummary,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
   )
 where

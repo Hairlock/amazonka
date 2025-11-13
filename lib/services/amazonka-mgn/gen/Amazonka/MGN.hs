@@ -50,333 +50,333 @@ module Amazonka.MGN
     -- $operations
 
     -- ** ArchiveApplication
-    ArchiveApplication (ArchiveApplication'),
+    ArchiveApplication,
     newArchiveApplication,
-    Application (Application'),
+    Application,
     newApplication,
 
     -- ** ArchiveWave
-    ArchiveWave (ArchiveWave'),
+    ArchiveWave,
     newArchiveWave,
-    Wave (Wave'),
+    Wave,
     newWave,
 
     -- ** AssociateApplications
-    AssociateApplications (AssociateApplications'),
+    AssociateApplications,
     newAssociateApplications,
-    AssociateApplicationsResponse (AssociateApplicationsResponse'),
+    AssociateApplicationsResponse,
     newAssociateApplicationsResponse,
 
     -- ** AssociateSourceServers
-    AssociateSourceServers (AssociateSourceServers'),
+    AssociateSourceServers,
     newAssociateSourceServers,
-    AssociateSourceServersResponse (AssociateSourceServersResponse'),
+    AssociateSourceServersResponse,
     newAssociateSourceServersResponse,
 
     -- ** ChangeServerLifeCycleState
-    ChangeServerLifeCycleState (ChangeServerLifeCycleState'),
+    ChangeServerLifeCycleState,
     newChangeServerLifeCycleState,
-    SourceServer (SourceServer'),
+    SourceServer,
     newSourceServer,
 
     -- ** CreateApplication
-    CreateApplication (CreateApplication'),
+    CreateApplication,
     newCreateApplication,
-    Application (Application'),
+    Application,
     newApplication,
 
     -- ** CreateLaunchConfigurationTemplate
-    CreateLaunchConfigurationTemplate (CreateLaunchConfigurationTemplate'),
+    CreateLaunchConfigurationTemplate,
     newCreateLaunchConfigurationTemplate,
-    LaunchConfigurationTemplate (LaunchConfigurationTemplate'),
+    LaunchConfigurationTemplate,
     newLaunchConfigurationTemplate,
 
     -- ** CreateReplicationConfigurationTemplate
-    CreateReplicationConfigurationTemplate (CreateReplicationConfigurationTemplate'),
+    CreateReplicationConfigurationTemplate,
     newCreateReplicationConfigurationTemplate,
-    ReplicationConfigurationTemplate (ReplicationConfigurationTemplate'),
+    ReplicationConfigurationTemplate,
     newReplicationConfigurationTemplate,
 
     -- ** CreateWave
-    CreateWave (CreateWave'),
+    CreateWave,
     newCreateWave,
-    Wave (Wave'),
+    Wave,
     newWave,
 
     -- ** DeleteApplication
-    DeleteApplication (DeleteApplication'),
+    DeleteApplication,
     newDeleteApplication,
-    DeleteApplicationResponse (DeleteApplicationResponse'),
+    DeleteApplicationResponse,
     newDeleteApplicationResponse,
 
     -- ** DeleteJob
-    DeleteJob (DeleteJob'),
+    DeleteJob,
     newDeleteJob,
-    DeleteJobResponse (DeleteJobResponse'),
+    DeleteJobResponse,
     newDeleteJobResponse,
 
     -- ** DeleteLaunchConfigurationTemplate
-    DeleteLaunchConfigurationTemplate (DeleteLaunchConfigurationTemplate'),
+    DeleteLaunchConfigurationTemplate,
     newDeleteLaunchConfigurationTemplate,
-    DeleteLaunchConfigurationTemplateResponse (DeleteLaunchConfigurationTemplateResponse'),
+    DeleteLaunchConfigurationTemplateResponse,
     newDeleteLaunchConfigurationTemplateResponse,
 
     -- ** DeleteReplicationConfigurationTemplate
-    DeleteReplicationConfigurationTemplate (DeleteReplicationConfigurationTemplate'),
+    DeleteReplicationConfigurationTemplate,
     newDeleteReplicationConfigurationTemplate,
-    DeleteReplicationConfigurationTemplateResponse (DeleteReplicationConfigurationTemplateResponse'),
+    DeleteReplicationConfigurationTemplateResponse,
     newDeleteReplicationConfigurationTemplateResponse,
 
     -- ** DeleteSourceServer
-    DeleteSourceServer (DeleteSourceServer'),
+    DeleteSourceServer,
     newDeleteSourceServer,
-    DeleteSourceServerResponse (DeleteSourceServerResponse'),
+    DeleteSourceServerResponse,
     newDeleteSourceServerResponse,
 
     -- ** DeleteVcenterClient
-    DeleteVcenterClient (DeleteVcenterClient'),
+    DeleteVcenterClient,
     newDeleteVcenterClient,
-    DeleteVcenterClientResponse (DeleteVcenterClientResponse'),
+    DeleteVcenterClientResponse,
     newDeleteVcenterClientResponse,
 
     -- ** DeleteWave
-    DeleteWave (DeleteWave'),
+    DeleteWave,
     newDeleteWave,
-    DeleteWaveResponse (DeleteWaveResponse'),
+    DeleteWaveResponse,
     newDeleteWaveResponse,
 
     -- ** DescribeJobLogItems (Paginated)
-    DescribeJobLogItems (DescribeJobLogItems'),
+    DescribeJobLogItems,
     newDescribeJobLogItems,
-    DescribeJobLogItemsResponse (DescribeJobLogItemsResponse'),
+    DescribeJobLogItemsResponse,
     newDescribeJobLogItemsResponse,
 
     -- ** DescribeJobs (Paginated)
-    DescribeJobs (DescribeJobs'),
+    DescribeJobs,
     newDescribeJobs,
-    DescribeJobsResponse (DescribeJobsResponse'),
+    DescribeJobsResponse,
     newDescribeJobsResponse,
 
     -- ** DescribeLaunchConfigurationTemplates (Paginated)
-    DescribeLaunchConfigurationTemplates (DescribeLaunchConfigurationTemplates'),
+    DescribeLaunchConfigurationTemplates,
     newDescribeLaunchConfigurationTemplates,
-    DescribeLaunchConfigurationTemplatesResponse (DescribeLaunchConfigurationTemplatesResponse'),
+    DescribeLaunchConfigurationTemplatesResponse,
     newDescribeLaunchConfigurationTemplatesResponse,
 
     -- ** DescribeReplicationConfigurationTemplates (Paginated)
-    DescribeReplicationConfigurationTemplates (DescribeReplicationConfigurationTemplates'),
+    DescribeReplicationConfigurationTemplates,
     newDescribeReplicationConfigurationTemplates,
-    DescribeReplicationConfigurationTemplatesResponse (DescribeReplicationConfigurationTemplatesResponse'),
+    DescribeReplicationConfigurationTemplatesResponse,
     newDescribeReplicationConfigurationTemplatesResponse,
 
     -- ** DescribeSourceServers (Paginated)
-    DescribeSourceServers (DescribeSourceServers'),
+    DescribeSourceServers,
     newDescribeSourceServers,
-    DescribeSourceServersResponse (DescribeSourceServersResponse'),
+    DescribeSourceServersResponse,
     newDescribeSourceServersResponse,
 
     -- ** DescribeVcenterClients (Paginated)
-    DescribeVcenterClients (DescribeVcenterClients'),
+    DescribeVcenterClients,
     newDescribeVcenterClients,
-    DescribeVcenterClientsResponse (DescribeVcenterClientsResponse'),
+    DescribeVcenterClientsResponse,
     newDescribeVcenterClientsResponse,
 
     -- ** DisassociateApplications
-    DisassociateApplications (DisassociateApplications'),
+    DisassociateApplications,
     newDisassociateApplications,
-    DisassociateApplicationsResponse (DisassociateApplicationsResponse'),
+    DisassociateApplicationsResponse,
     newDisassociateApplicationsResponse,
 
     -- ** DisassociateSourceServers
-    DisassociateSourceServers (DisassociateSourceServers'),
+    DisassociateSourceServers,
     newDisassociateSourceServers,
-    DisassociateSourceServersResponse (DisassociateSourceServersResponse'),
+    DisassociateSourceServersResponse,
     newDisassociateSourceServersResponse,
 
     -- ** DisconnectFromService
-    DisconnectFromService (DisconnectFromService'),
+    DisconnectFromService,
     newDisconnectFromService,
-    SourceServer (SourceServer'),
+    SourceServer,
     newSourceServer,
 
     -- ** FinalizeCutover
-    FinalizeCutover (FinalizeCutover'),
+    FinalizeCutover,
     newFinalizeCutover,
-    SourceServer (SourceServer'),
+    SourceServer,
     newSourceServer,
 
     -- ** GetLaunchConfiguration
-    GetLaunchConfiguration (GetLaunchConfiguration'),
+    GetLaunchConfiguration,
     newGetLaunchConfiguration,
-    LaunchConfiguration (LaunchConfiguration'),
+    LaunchConfiguration,
     newLaunchConfiguration,
 
     -- ** GetReplicationConfiguration
-    GetReplicationConfiguration (GetReplicationConfiguration'),
+    GetReplicationConfiguration,
     newGetReplicationConfiguration,
-    ReplicationConfiguration (ReplicationConfiguration'),
+    ReplicationConfiguration,
     newReplicationConfiguration,
 
     -- ** InitializeService
-    InitializeService (InitializeService'),
+    InitializeService,
     newInitializeService,
-    InitializeServiceResponse (InitializeServiceResponse'),
+    InitializeServiceResponse,
     newInitializeServiceResponse,
 
     -- ** ListApplications (Paginated)
-    ListApplications (ListApplications'),
+    ListApplications,
     newListApplications,
-    ListApplicationsResponse (ListApplicationsResponse'),
+    ListApplicationsResponse,
     newListApplicationsResponse,
 
     -- ** ListSourceServerActions (Paginated)
-    ListSourceServerActions (ListSourceServerActions'),
+    ListSourceServerActions,
     newListSourceServerActions,
-    ListSourceServerActionsResponse (ListSourceServerActionsResponse'),
+    ListSourceServerActionsResponse,
     newListSourceServerActionsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** ListTemplateActions (Paginated)
-    ListTemplateActions (ListTemplateActions'),
+    ListTemplateActions,
     newListTemplateActions,
-    ListTemplateActionsResponse (ListTemplateActionsResponse'),
+    ListTemplateActionsResponse,
     newListTemplateActionsResponse,
 
     -- ** ListWaves (Paginated)
-    ListWaves (ListWaves'),
+    ListWaves,
     newListWaves,
-    ListWavesResponse (ListWavesResponse'),
+    ListWavesResponse,
     newListWavesResponse,
 
     -- ** MarkAsArchived
-    MarkAsArchived (MarkAsArchived'),
+    MarkAsArchived,
     newMarkAsArchived,
-    SourceServer (SourceServer'),
+    SourceServer,
     newSourceServer,
 
     -- ** PutSourceServerAction
-    PutSourceServerAction (PutSourceServerAction'),
+    PutSourceServerAction,
     newPutSourceServerAction,
-    SourceServerActionDocument (SourceServerActionDocument'),
+    SourceServerActionDocument,
     newSourceServerActionDocument,
 
     -- ** PutTemplateAction
-    PutTemplateAction (PutTemplateAction'),
+    PutTemplateAction,
     newPutTemplateAction,
-    TemplateActionDocument (TemplateActionDocument'),
+    TemplateActionDocument,
     newTemplateActionDocument,
 
     -- ** RemoveSourceServerAction
-    RemoveSourceServerAction (RemoveSourceServerAction'),
+    RemoveSourceServerAction,
     newRemoveSourceServerAction,
-    RemoveSourceServerActionResponse (RemoveSourceServerActionResponse'),
+    RemoveSourceServerActionResponse,
     newRemoveSourceServerActionResponse,
 
     -- ** RemoveTemplateAction
-    RemoveTemplateAction (RemoveTemplateAction'),
+    RemoveTemplateAction,
     newRemoveTemplateAction,
-    RemoveTemplateActionResponse (RemoveTemplateActionResponse'),
+    RemoveTemplateActionResponse,
     newRemoveTemplateActionResponse,
 
     -- ** RetryDataReplication
-    RetryDataReplication (RetryDataReplication'),
+    RetryDataReplication,
     newRetryDataReplication,
-    SourceServer (SourceServer'),
+    SourceServer,
     newSourceServer,
 
     -- ** StartCutover
-    StartCutover (StartCutover'),
+    StartCutover,
     newStartCutover,
-    StartCutoverResponse (StartCutoverResponse'),
+    StartCutoverResponse,
     newStartCutoverResponse,
 
     -- ** StartReplication
-    StartReplication (StartReplication'),
+    StartReplication,
     newStartReplication,
-    SourceServer (SourceServer'),
+    SourceServer,
     newSourceServer,
 
     -- ** StartTest
-    StartTest (StartTest'),
+    StartTest,
     newStartTest,
-    StartTestResponse (StartTestResponse'),
+    StartTestResponse,
     newStartTestResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** TerminateTargetInstances
-    TerminateTargetInstances (TerminateTargetInstances'),
+    TerminateTargetInstances,
     newTerminateTargetInstances,
-    TerminateTargetInstancesResponse (TerminateTargetInstancesResponse'),
+    TerminateTargetInstancesResponse,
     newTerminateTargetInstancesResponse,
 
     -- ** UnarchiveApplication
-    UnarchiveApplication (UnarchiveApplication'),
+    UnarchiveApplication,
     newUnarchiveApplication,
-    Application (Application'),
+    Application,
     newApplication,
 
     -- ** UnarchiveWave
-    UnarchiveWave (UnarchiveWave'),
+    UnarchiveWave,
     newUnarchiveWave,
-    Wave (Wave'),
+    Wave,
     newWave,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateApplication
-    UpdateApplication (UpdateApplication'),
+    UpdateApplication,
     newUpdateApplication,
-    Application (Application'),
+    Application,
     newApplication,
 
     -- ** UpdateLaunchConfiguration
-    UpdateLaunchConfiguration (UpdateLaunchConfiguration'),
+    UpdateLaunchConfiguration,
     newUpdateLaunchConfiguration,
-    LaunchConfiguration (LaunchConfiguration'),
+    LaunchConfiguration,
     newLaunchConfiguration,
 
     -- ** UpdateLaunchConfigurationTemplate
-    UpdateLaunchConfigurationTemplate (UpdateLaunchConfigurationTemplate'),
+    UpdateLaunchConfigurationTemplate,
     newUpdateLaunchConfigurationTemplate,
-    LaunchConfigurationTemplate (LaunchConfigurationTemplate'),
+    LaunchConfigurationTemplate,
     newLaunchConfigurationTemplate,
 
     -- ** UpdateReplicationConfiguration
-    UpdateReplicationConfiguration (UpdateReplicationConfiguration'),
+    UpdateReplicationConfiguration,
     newUpdateReplicationConfiguration,
-    ReplicationConfiguration (ReplicationConfiguration'),
+    ReplicationConfiguration,
     newReplicationConfiguration,
 
     -- ** UpdateReplicationConfigurationTemplate
-    UpdateReplicationConfigurationTemplate (UpdateReplicationConfigurationTemplate'),
+    UpdateReplicationConfigurationTemplate,
     newUpdateReplicationConfigurationTemplate,
-    ReplicationConfigurationTemplate (ReplicationConfigurationTemplate'),
+    ReplicationConfigurationTemplate,
     newReplicationConfigurationTemplate,
 
     -- ** UpdateSourceServerReplicationType
-    UpdateSourceServerReplicationType (UpdateSourceServerReplicationType'),
+    UpdateSourceServerReplicationType,
     newUpdateSourceServerReplicationType,
-    SourceServer (SourceServer'),
+    SourceServer,
     newSourceServer,
 
     -- ** UpdateWave
-    UpdateWave (UpdateWave'),
+    UpdateWave,
     newUpdateWave,
-    Wave (Wave'),
+    Wave,
     newWave,
 
     -- * Types
@@ -469,211 +469,211 @@ module Amazonka.MGN
     WaveProgressStatus (..),
 
     -- ** Application
-    Application (Application'),
+    Application,
     newApplication,
 
     -- ** ApplicationAggregatedStatus
-    ApplicationAggregatedStatus (ApplicationAggregatedStatus'),
+    ApplicationAggregatedStatus,
     newApplicationAggregatedStatus,
 
     -- ** CPU
-    CPU (CPU'),
+    CPU,
     newCPU,
 
     -- ** ChangeServerLifeCycleStateSourceServerLifecycle
-    ChangeServerLifeCycleStateSourceServerLifecycle (ChangeServerLifeCycleStateSourceServerLifecycle'),
+    ChangeServerLifeCycleStateSourceServerLifecycle,
     newChangeServerLifeCycleStateSourceServerLifecycle,
 
     -- ** DataReplicationError
-    DataReplicationError (DataReplicationError'),
+    DataReplicationError,
     newDataReplicationError,
 
     -- ** DataReplicationInfo
-    DataReplicationInfo (DataReplicationInfo'),
+    DataReplicationInfo,
     newDataReplicationInfo,
 
     -- ** DataReplicationInfoReplicatedDisk
-    DataReplicationInfoReplicatedDisk (DataReplicationInfoReplicatedDisk'),
+    DataReplicationInfoReplicatedDisk,
     newDataReplicationInfoReplicatedDisk,
 
     -- ** DataReplicationInitiation
-    DataReplicationInitiation (DataReplicationInitiation'),
+    DataReplicationInitiation,
     newDataReplicationInitiation,
 
     -- ** DataReplicationInitiationStep
-    DataReplicationInitiationStep (DataReplicationInitiationStep'),
+    DataReplicationInitiationStep,
     newDataReplicationInitiationStep,
 
     -- ** DescribeJobsRequestFilters
-    DescribeJobsRequestFilters (DescribeJobsRequestFilters'),
+    DescribeJobsRequestFilters,
     newDescribeJobsRequestFilters,
 
     -- ** DescribeSourceServersRequestFilters
-    DescribeSourceServersRequestFilters (DescribeSourceServersRequestFilters'),
+    DescribeSourceServersRequestFilters,
     newDescribeSourceServersRequestFilters,
 
     -- ** Disk
-    Disk (Disk'),
+    Disk,
     newDisk,
 
     -- ** IdentificationHints
-    IdentificationHints (IdentificationHints'),
+    IdentificationHints,
     newIdentificationHints,
 
     -- ** Job
-    Job (Job'),
+    Job,
     newJob,
 
     -- ** JobLog
-    JobLog (JobLog'),
+    JobLog,
     newJobLog,
 
     -- ** JobLogEventData
-    JobLogEventData (JobLogEventData'),
+    JobLogEventData,
     newJobLogEventData,
 
     -- ** JobPostLaunchActionsLaunchStatus
-    JobPostLaunchActionsLaunchStatus (JobPostLaunchActionsLaunchStatus'),
+    JobPostLaunchActionsLaunchStatus,
     newJobPostLaunchActionsLaunchStatus,
 
     -- ** LaunchConfiguration
-    LaunchConfiguration (LaunchConfiguration'),
+    LaunchConfiguration,
     newLaunchConfiguration,
 
     -- ** LaunchConfigurationTemplate
-    LaunchConfigurationTemplate (LaunchConfigurationTemplate'),
+    LaunchConfigurationTemplate,
     newLaunchConfigurationTemplate,
 
     -- ** LaunchTemplateDiskConf
-    LaunchTemplateDiskConf (LaunchTemplateDiskConf'),
+    LaunchTemplateDiskConf,
     newLaunchTemplateDiskConf,
 
     -- ** LaunchedInstance
-    LaunchedInstance (LaunchedInstance'),
+    LaunchedInstance,
     newLaunchedInstance,
 
     -- ** Licensing
-    Licensing (Licensing'),
+    Licensing,
     newLicensing,
 
     -- ** LifeCycle
-    LifeCycle (LifeCycle'),
+    LifeCycle,
     newLifeCycle,
 
     -- ** LifeCycleLastCutover
-    LifeCycleLastCutover (LifeCycleLastCutover'),
+    LifeCycleLastCutover,
     newLifeCycleLastCutover,
 
     -- ** LifeCycleLastCutoverFinalized
-    LifeCycleLastCutoverFinalized (LifeCycleLastCutoverFinalized'),
+    LifeCycleLastCutoverFinalized,
     newLifeCycleLastCutoverFinalized,
 
     -- ** LifeCycleLastCutoverInitiated
-    LifeCycleLastCutoverInitiated (LifeCycleLastCutoverInitiated'),
+    LifeCycleLastCutoverInitiated,
     newLifeCycleLastCutoverInitiated,
 
     -- ** LifeCycleLastCutoverReverted
-    LifeCycleLastCutoverReverted (LifeCycleLastCutoverReverted'),
+    LifeCycleLastCutoverReverted,
     newLifeCycleLastCutoverReverted,
 
     -- ** LifeCycleLastTest
-    LifeCycleLastTest (LifeCycleLastTest'),
+    LifeCycleLastTest,
     newLifeCycleLastTest,
 
     -- ** LifeCycleLastTestFinalized
-    LifeCycleLastTestFinalized (LifeCycleLastTestFinalized'),
+    LifeCycleLastTestFinalized,
     newLifeCycleLastTestFinalized,
 
     -- ** LifeCycleLastTestInitiated
-    LifeCycleLastTestInitiated (LifeCycleLastTestInitiated'),
+    LifeCycleLastTestInitiated,
     newLifeCycleLastTestInitiated,
 
     -- ** LifeCycleLastTestReverted
-    LifeCycleLastTestReverted (LifeCycleLastTestReverted'),
+    LifeCycleLastTestReverted,
     newLifeCycleLastTestReverted,
 
     -- ** ListApplicationsRequestFilters
-    ListApplicationsRequestFilters (ListApplicationsRequestFilters'),
+    ListApplicationsRequestFilters,
     newListApplicationsRequestFilters,
 
     -- ** ListWavesRequestFilters
-    ListWavesRequestFilters (ListWavesRequestFilters'),
+    ListWavesRequestFilters,
     newListWavesRequestFilters,
 
     -- ** NetworkInterface
-    NetworkInterface (NetworkInterface'),
+    NetworkInterface,
     newNetworkInterface,
 
     -- ** OS
-    OS (OS'),
+    OS,
     newOS,
 
     -- ** ParticipatingServer
-    ParticipatingServer (ParticipatingServer'),
+    ParticipatingServer,
     newParticipatingServer,
 
     -- ** PostLaunchActions
-    PostLaunchActions (PostLaunchActions'),
+    PostLaunchActions,
     newPostLaunchActions,
 
     -- ** PostLaunchActionsStatus
-    PostLaunchActionsStatus (PostLaunchActionsStatus'),
+    PostLaunchActionsStatus,
     newPostLaunchActionsStatus,
 
     -- ** ReplicationConfiguration
-    ReplicationConfiguration (ReplicationConfiguration'),
+    ReplicationConfiguration,
     newReplicationConfiguration,
 
     -- ** ReplicationConfigurationReplicatedDisk
-    ReplicationConfigurationReplicatedDisk (ReplicationConfigurationReplicatedDisk'),
+    ReplicationConfigurationReplicatedDisk,
     newReplicationConfigurationReplicatedDisk,
 
     -- ** ReplicationConfigurationTemplate
-    ReplicationConfigurationTemplate (ReplicationConfigurationTemplate'),
+    ReplicationConfigurationTemplate,
     newReplicationConfigurationTemplate,
 
     -- ** SourceProperties
-    SourceProperties (SourceProperties'),
+    SourceProperties,
     newSourceProperties,
 
     -- ** SourceServer
-    SourceServer (SourceServer'),
+    SourceServer,
     newSourceServer,
 
     -- ** SourceServerActionDocument
-    SourceServerActionDocument (SourceServerActionDocument'),
+    SourceServerActionDocument,
     newSourceServerActionDocument,
 
     -- ** SourceServerActionsRequestFilters
-    SourceServerActionsRequestFilters (SourceServerActionsRequestFilters'),
+    SourceServerActionsRequestFilters,
     newSourceServerActionsRequestFilters,
 
     -- ** SsmDocument
-    SsmDocument (SsmDocument'),
+    SsmDocument,
     newSsmDocument,
 
     -- ** SsmParameterStoreParameter
-    SsmParameterStoreParameter (SsmParameterStoreParameter'),
+    SsmParameterStoreParameter,
     newSsmParameterStoreParameter,
 
     -- ** TemplateActionDocument
-    TemplateActionDocument (TemplateActionDocument'),
+    TemplateActionDocument,
     newTemplateActionDocument,
 
     -- ** TemplateActionsRequestFilters
-    TemplateActionsRequestFilters (TemplateActionsRequestFilters'),
+    TemplateActionsRequestFilters,
     newTemplateActionsRequestFilters,
 
     -- ** VcenterClient
-    VcenterClient (VcenterClient'),
+    VcenterClient,
     newVcenterClient,
 
     -- ** Wave
-    Wave (Wave'),
+    Wave,
     newWave,
 
     -- ** WaveAggregatedStatus
-    WaveAggregatedStatus (WaveAggregatedStatus'),
+    WaveAggregatedStatus,
     newWaveAggregatedStatus,
   )
 where

@@ -52,177 +52,177 @@ module Amazonka.ConnectCases
     -- $operations
 
     -- ** BatchGetField
-    BatchGetField (BatchGetField'),
+    BatchGetField,
     newBatchGetField,
-    BatchGetFieldResponse (BatchGetFieldResponse'),
+    BatchGetFieldResponse,
     newBatchGetFieldResponse,
 
     -- ** BatchPutFieldOptions
-    BatchPutFieldOptions (BatchPutFieldOptions'),
+    BatchPutFieldOptions,
     newBatchPutFieldOptions,
-    BatchPutFieldOptionsResponse (BatchPutFieldOptionsResponse'),
+    BatchPutFieldOptionsResponse,
     newBatchPutFieldOptionsResponse,
 
     -- ** CreateCase
-    CreateCase (CreateCase'),
+    CreateCase,
     newCreateCase,
-    CreateCaseResponse (CreateCaseResponse'),
+    CreateCaseResponse,
     newCreateCaseResponse,
 
     -- ** CreateDomain
-    CreateDomain (CreateDomain'),
+    CreateDomain,
     newCreateDomain,
-    CreateDomainResponse (CreateDomainResponse'),
+    CreateDomainResponse,
     newCreateDomainResponse,
 
     -- ** CreateField
-    CreateField (CreateField'),
+    CreateField,
     newCreateField,
-    CreateFieldResponse (CreateFieldResponse'),
+    CreateFieldResponse,
     newCreateFieldResponse,
 
     -- ** CreateLayout
-    CreateLayout (CreateLayout'),
+    CreateLayout,
     newCreateLayout,
-    CreateLayoutResponse (CreateLayoutResponse'),
+    CreateLayoutResponse,
     newCreateLayoutResponse,
 
     -- ** CreateRelatedItem
-    CreateRelatedItem (CreateRelatedItem'),
+    CreateRelatedItem,
     newCreateRelatedItem,
-    CreateRelatedItemResponse (CreateRelatedItemResponse'),
+    CreateRelatedItemResponse,
     newCreateRelatedItemResponse,
 
     -- ** CreateTemplate
-    CreateTemplate (CreateTemplate'),
+    CreateTemplate,
     newCreateTemplate,
-    CreateTemplateResponse (CreateTemplateResponse'),
+    CreateTemplateResponse,
     newCreateTemplateResponse,
 
     -- ** GetCase
-    GetCase (GetCase'),
+    GetCase,
     newGetCase,
-    GetCaseResponse (GetCaseResponse'),
+    GetCaseResponse,
     newGetCaseResponse,
 
     -- ** GetCaseEventConfiguration
-    GetCaseEventConfiguration (GetCaseEventConfiguration'),
+    GetCaseEventConfiguration,
     newGetCaseEventConfiguration,
-    GetCaseEventConfigurationResponse (GetCaseEventConfigurationResponse'),
+    GetCaseEventConfigurationResponse,
     newGetCaseEventConfigurationResponse,
 
     -- ** GetDomain
-    GetDomain (GetDomain'),
+    GetDomain,
     newGetDomain,
-    GetDomainResponse (GetDomainResponse'),
+    GetDomainResponse,
     newGetDomainResponse,
 
     -- ** GetLayout
-    GetLayout (GetLayout'),
+    GetLayout,
     newGetLayout,
-    GetLayoutResponse (GetLayoutResponse'),
+    GetLayoutResponse,
     newGetLayoutResponse,
 
     -- ** GetTemplate
-    GetTemplate (GetTemplate'),
+    GetTemplate,
     newGetTemplate,
-    GetTemplateResponse (GetTemplateResponse'),
+    GetTemplateResponse,
     newGetTemplateResponse,
 
     -- ** ListCasesForContact
-    ListCasesForContact (ListCasesForContact'),
+    ListCasesForContact,
     newListCasesForContact,
-    ListCasesForContactResponse (ListCasesForContactResponse'),
+    ListCasesForContactResponse,
     newListCasesForContactResponse,
 
     -- ** ListDomains
-    ListDomains (ListDomains'),
+    ListDomains,
     newListDomains,
-    ListDomainsResponse (ListDomainsResponse'),
+    ListDomainsResponse,
     newListDomainsResponse,
 
     -- ** ListFieldOptions
-    ListFieldOptions (ListFieldOptions'),
+    ListFieldOptions,
     newListFieldOptions,
-    ListFieldOptionsResponse (ListFieldOptionsResponse'),
+    ListFieldOptionsResponse,
     newListFieldOptionsResponse,
 
     -- ** ListFields
-    ListFields (ListFields'),
+    ListFields,
     newListFields,
-    ListFieldsResponse (ListFieldsResponse'),
+    ListFieldsResponse,
     newListFieldsResponse,
 
     -- ** ListLayouts
-    ListLayouts (ListLayouts'),
+    ListLayouts,
     newListLayouts,
-    ListLayoutsResponse (ListLayoutsResponse'),
+    ListLayoutsResponse,
     newListLayoutsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** ListTemplates
-    ListTemplates (ListTemplates'),
+    ListTemplates,
     newListTemplates,
-    ListTemplatesResponse (ListTemplatesResponse'),
+    ListTemplatesResponse,
     newListTemplatesResponse,
 
     -- ** PutCaseEventConfiguration
-    PutCaseEventConfiguration (PutCaseEventConfiguration'),
+    PutCaseEventConfiguration,
     newPutCaseEventConfiguration,
-    PutCaseEventConfigurationResponse (PutCaseEventConfigurationResponse'),
+    PutCaseEventConfigurationResponse,
     newPutCaseEventConfigurationResponse,
 
     -- ** SearchCases (Paginated)
-    SearchCases (SearchCases'),
+    SearchCases,
     newSearchCases,
-    SearchCasesResponse (SearchCasesResponse'),
+    SearchCasesResponse,
     newSearchCasesResponse,
 
     -- ** SearchRelatedItems (Paginated)
-    SearchRelatedItems (SearchRelatedItems'),
+    SearchRelatedItems,
     newSearchRelatedItems,
-    SearchRelatedItemsResponse (SearchRelatedItemsResponse'),
+    SearchRelatedItemsResponse,
     newSearchRelatedItemsResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateCase
-    UpdateCase (UpdateCase'),
+    UpdateCase,
     newUpdateCase,
-    UpdateCaseResponse (UpdateCaseResponse'),
+    UpdateCaseResponse,
     newUpdateCaseResponse,
 
     -- ** UpdateField
-    UpdateField (UpdateField'),
+    UpdateField,
     newUpdateField,
-    UpdateFieldResponse (UpdateFieldResponse'),
+    UpdateFieldResponse,
     newUpdateFieldResponse,
 
     -- ** UpdateLayout
-    UpdateLayout (UpdateLayout'),
+    UpdateLayout,
     newUpdateLayout,
-    UpdateLayoutResponse (UpdateLayoutResponse'),
+    UpdateLayoutResponse,
     newUpdateLayoutResponse,
 
     -- ** UpdateTemplate
-    UpdateTemplate (UpdateTemplate'),
+    UpdateTemplate,
     newUpdateTemplate,
-    UpdateTemplateResponse (UpdateTemplateResponse'),
+    UpdateTemplateResponse,
     newUpdateTemplateResponse,
 
     -- * Types
@@ -249,151 +249,151 @@ module Amazonka.ConnectCases
     TemplateStatus (..),
 
     -- ** BasicLayout
-    BasicLayout (BasicLayout'),
+    BasicLayout,
     newBasicLayout,
 
     -- ** CaseEventIncludedData
-    CaseEventIncludedData (CaseEventIncludedData'),
+    CaseEventIncludedData,
     newCaseEventIncludedData,
 
     -- ** CaseFilter
-    CaseFilter (CaseFilter'),
+    CaseFilter,
     newCaseFilter,
 
     -- ** CaseSummary
-    CaseSummary (CaseSummary'),
+    CaseSummary,
     newCaseSummary,
 
     -- ** CommentContent
-    CommentContent (CommentContent'),
+    CommentContent,
     newCommentContent,
 
     -- ** CommentFilter
-    CommentFilter (CommentFilter'),
+    CommentFilter,
     newCommentFilter,
 
     -- ** Contact
-    Contact (Contact'),
+    Contact,
     newContact,
 
     -- ** ContactContent
-    ContactContent (ContactContent'),
+    ContactContent,
     newContactContent,
 
     -- ** ContactFilter
-    ContactFilter (ContactFilter'),
+    ContactFilter,
     newContactFilter,
 
     -- ** DomainSummary
-    DomainSummary (DomainSummary'),
+    DomainSummary,
     newDomainSummary,
 
     -- ** EventBridgeConfiguration
-    EventBridgeConfiguration (EventBridgeConfiguration'),
+    EventBridgeConfiguration,
     newEventBridgeConfiguration,
 
     -- ** EventIncludedData
-    EventIncludedData (EventIncludedData'),
+    EventIncludedData,
     newEventIncludedData,
 
     -- ** FieldError
-    FieldError (FieldError'),
+    FieldError,
     newFieldError,
 
     -- ** FieldFilter
-    FieldFilter (FieldFilter'),
+    FieldFilter,
     newFieldFilter,
 
     -- ** FieldGroup
-    FieldGroup (FieldGroup'),
+    FieldGroup,
     newFieldGroup,
 
     -- ** FieldIdentifier
-    FieldIdentifier (FieldIdentifier'),
+    FieldIdentifier,
     newFieldIdentifier,
 
     -- ** FieldItem
-    FieldItem (FieldItem'),
+    FieldItem,
     newFieldItem,
 
     -- ** FieldOption
-    FieldOption (FieldOption'),
+    FieldOption,
     newFieldOption,
 
     -- ** FieldOptionError
-    FieldOptionError (FieldOptionError'),
+    FieldOptionError,
     newFieldOptionError,
 
     -- ** FieldSummary
-    FieldSummary (FieldSummary'),
+    FieldSummary,
     newFieldSummary,
 
     -- ** FieldValue
-    FieldValue (FieldValue'),
+    FieldValue,
     newFieldValue,
 
     -- ** FieldValueUnion
-    FieldValueUnion (FieldValueUnion'),
+    FieldValueUnion,
     newFieldValueUnion,
 
     -- ** GetFieldResponse
-    GetFieldResponse (GetFieldResponse'),
+    GetFieldResponse,
     newGetFieldResponse,
 
     -- ** LayoutConfiguration
-    LayoutConfiguration (LayoutConfiguration'),
+    LayoutConfiguration,
     newLayoutConfiguration,
 
     -- ** LayoutContent
-    LayoutContent (LayoutContent'),
+    LayoutContent,
     newLayoutContent,
 
     -- ** LayoutSections
-    LayoutSections (LayoutSections'),
+    LayoutSections,
     newLayoutSections,
 
     -- ** LayoutSummary
-    LayoutSummary (LayoutSummary'),
+    LayoutSummary,
     newLayoutSummary,
 
     -- ** RelatedItemContent
-    RelatedItemContent (RelatedItemContent'),
+    RelatedItemContent,
     newRelatedItemContent,
 
     -- ** RelatedItemEventIncludedData
-    RelatedItemEventIncludedData (RelatedItemEventIncludedData'),
+    RelatedItemEventIncludedData,
     newRelatedItemEventIncludedData,
 
     -- ** RelatedItemInputContent
-    RelatedItemInputContent (RelatedItemInputContent'),
+    RelatedItemInputContent,
     newRelatedItemInputContent,
 
     -- ** RelatedItemTypeFilter
-    RelatedItemTypeFilter (RelatedItemTypeFilter'),
+    RelatedItemTypeFilter,
     newRelatedItemTypeFilter,
 
     -- ** RequiredField
-    RequiredField (RequiredField'),
+    RequiredField,
     newRequiredField,
 
     -- ** SearchCasesResponseItem
-    SearchCasesResponseItem (SearchCasesResponseItem'),
+    SearchCasesResponseItem,
     newSearchCasesResponseItem,
 
     -- ** SearchRelatedItemsResponseItem
-    SearchRelatedItemsResponseItem (SearchRelatedItemsResponseItem'),
+    SearchRelatedItemsResponseItem,
     newSearchRelatedItemsResponseItem,
 
     -- ** Section
-    Section (Section'),
+    Section,
     newSection,
 
     -- ** Sort
-    Sort (Sort'),
+    Sort,
     newSort,
 
     -- ** TemplateSummary
-    TemplateSummary (TemplateSummary'),
+    TemplateSummary,
     newTemplateSummary,
   )
 where

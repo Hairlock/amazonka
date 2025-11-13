@@ -100,27 +100,27 @@ module Amazonka.Route53RecoveryCluster
     -- $operations
 
     -- ** GetRoutingControlState
-    GetRoutingControlState (GetRoutingControlState'),
+    GetRoutingControlState,
     newGetRoutingControlState,
-    GetRoutingControlStateResponse (GetRoutingControlStateResponse'),
+    GetRoutingControlStateResponse,
     newGetRoutingControlStateResponse,
 
     -- ** ListRoutingControls (Paginated)
-    ListRoutingControls (ListRoutingControls'),
+    ListRoutingControls,
     newListRoutingControls,
-    ListRoutingControlsResponse (ListRoutingControlsResponse'),
+    ListRoutingControlsResponse,
     newListRoutingControlsResponse,
 
     -- ** UpdateRoutingControlState
-    UpdateRoutingControlState (UpdateRoutingControlState'),
+    UpdateRoutingControlState,
     newUpdateRoutingControlState,
-    UpdateRoutingControlStateResponse (UpdateRoutingControlStateResponse'),
+    UpdateRoutingControlStateResponse,
     newUpdateRoutingControlStateResponse,
 
     -- ** UpdateRoutingControlStates
-    UpdateRoutingControlStates (UpdateRoutingControlStates'),
+    UpdateRoutingControlStates,
     newUpdateRoutingControlStates,
-    UpdateRoutingControlStatesResponse (UpdateRoutingControlStatesResponse'),
+    UpdateRoutingControlStatesResponse,
     newUpdateRoutingControlStatesResponse,
 
     -- * Types
@@ -129,11 +129,11 @@ module Amazonka.Route53RecoveryCluster
     RoutingControlState (..),
 
     -- ** RoutingControl
-    RoutingControl (RoutingControl'),
+    RoutingControl,
     newRoutingControl,
 
     -- ** UpdateRoutingControlStateEntry
-    UpdateRoutingControlStateEntry (UpdateRoutingControlStateEntry'),
+    UpdateRoutingControlStateEntry,
     newUpdateRoutingControlStateEntry,
   )
 where

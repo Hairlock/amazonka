@@ -48,51 +48,51 @@ module Amazonka.DLM
     -- $operations
 
     -- ** CreateLifecyclePolicy
-    CreateLifecyclePolicy (CreateLifecyclePolicy'),
+    CreateLifecyclePolicy,
     newCreateLifecyclePolicy,
-    CreateLifecyclePolicyResponse (CreateLifecyclePolicyResponse'),
+    CreateLifecyclePolicyResponse,
     newCreateLifecyclePolicyResponse,
 
     -- ** DeleteLifecyclePolicy
-    DeleteLifecyclePolicy (DeleteLifecyclePolicy'),
+    DeleteLifecyclePolicy,
     newDeleteLifecyclePolicy,
-    DeleteLifecyclePolicyResponse (DeleteLifecyclePolicyResponse'),
+    DeleteLifecyclePolicyResponse,
     newDeleteLifecyclePolicyResponse,
 
     -- ** GetLifecyclePolicies
-    GetLifecyclePolicies (GetLifecyclePolicies'),
+    GetLifecyclePolicies,
     newGetLifecyclePolicies,
-    GetLifecyclePoliciesResponse (GetLifecyclePoliciesResponse'),
+    GetLifecyclePoliciesResponse,
     newGetLifecyclePoliciesResponse,
 
     -- ** GetLifecyclePolicy
-    GetLifecyclePolicy (GetLifecyclePolicy'),
+    GetLifecyclePolicy,
     newGetLifecyclePolicy,
-    GetLifecyclePolicyResponse (GetLifecyclePolicyResponse'),
+    GetLifecyclePolicyResponse,
     newGetLifecyclePolicyResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateLifecyclePolicy
-    UpdateLifecyclePolicy (UpdateLifecyclePolicy'),
+    UpdateLifecyclePolicy,
     newUpdateLifecyclePolicy,
-    UpdateLifecyclePolicyResponse (UpdateLifecyclePolicyResponse'),
+    UpdateLifecyclePolicyResponse,
     newUpdateLifecyclePolicyResponse,
 
     -- * Types
@@ -128,91 +128,91 @@ module Amazonka.DLM
     SettablePolicyStateValues (..),
 
     -- ** Action
-    Action (Action'),
+    Action,
     newAction,
 
     -- ** ArchiveRetainRule
-    ArchiveRetainRule (ArchiveRetainRule'),
+    ArchiveRetainRule,
     newArchiveRetainRule,
 
     -- ** ArchiveRule
-    ArchiveRule (ArchiveRule'),
+    ArchiveRule,
     newArchiveRule,
 
     -- ** CreateRule
-    CreateRule (CreateRule'),
+    CreateRule,
     newCreateRule,
 
     -- ** CrossRegionCopyAction
-    CrossRegionCopyAction (CrossRegionCopyAction'),
+    CrossRegionCopyAction,
     newCrossRegionCopyAction,
 
     -- ** CrossRegionCopyDeprecateRule
-    CrossRegionCopyDeprecateRule (CrossRegionCopyDeprecateRule'),
+    CrossRegionCopyDeprecateRule,
     newCrossRegionCopyDeprecateRule,
 
     -- ** CrossRegionCopyRetainRule
-    CrossRegionCopyRetainRule (CrossRegionCopyRetainRule'),
+    CrossRegionCopyRetainRule,
     newCrossRegionCopyRetainRule,
 
     -- ** CrossRegionCopyRule
-    CrossRegionCopyRule (CrossRegionCopyRule'),
+    CrossRegionCopyRule,
     newCrossRegionCopyRule,
 
     -- ** DeprecateRule
-    DeprecateRule (DeprecateRule'),
+    DeprecateRule,
     newDeprecateRule,
 
     -- ** EncryptionConfiguration
-    EncryptionConfiguration (EncryptionConfiguration'),
+    EncryptionConfiguration,
     newEncryptionConfiguration,
 
     -- ** EventParameters
-    EventParameters (EventParameters'),
+    EventParameters,
     newEventParameters,
 
     -- ** EventSource
-    EventSource (EventSource'),
+    EventSource,
     newEventSource,
 
     -- ** FastRestoreRule
-    FastRestoreRule (FastRestoreRule'),
+    FastRestoreRule,
     newFastRestoreRule,
 
     -- ** LifecyclePolicy
-    LifecyclePolicy (LifecyclePolicy'),
+    LifecyclePolicy,
     newLifecyclePolicy,
 
     -- ** LifecyclePolicySummary
-    LifecyclePolicySummary (LifecyclePolicySummary'),
+    LifecyclePolicySummary,
     newLifecyclePolicySummary,
 
     -- ** Parameters
-    Parameters (Parameters'),
+    Parameters,
     newParameters,
 
     -- ** PolicyDetails
-    PolicyDetails (PolicyDetails'),
+    PolicyDetails,
     newPolicyDetails,
 
     -- ** RetainRule
-    RetainRule (RetainRule'),
+    RetainRule,
     newRetainRule,
 
     -- ** RetentionArchiveTier
-    RetentionArchiveTier (RetentionArchiveTier'),
+    RetentionArchiveTier,
     newRetentionArchiveTier,
 
     -- ** Schedule
-    Schedule (Schedule'),
+    Schedule,
     newSchedule,
 
     -- ** ShareRule
-    ShareRule (ShareRule'),
+    ShareRule,
     newShareRule,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
   )
 where

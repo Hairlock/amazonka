@@ -115,183 +115,183 @@ module Amazonka.SecurityLake
     -- $operations
 
     -- ** CreateAwsLogSource
-    CreateAwsLogSource (CreateAwsLogSource'),
+    CreateAwsLogSource,
     newCreateAwsLogSource,
-    CreateAwsLogSourceResponse (CreateAwsLogSourceResponse'),
+    CreateAwsLogSourceResponse,
     newCreateAwsLogSourceResponse,
 
     -- ** CreateCustomLogSource
-    CreateCustomLogSource (CreateCustomLogSource'),
+    CreateCustomLogSource,
     newCreateCustomLogSource,
-    CreateCustomLogSourceResponse (CreateCustomLogSourceResponse'),
+    CreateCustomLogSourceResponse,
     newCreateCustomLogSourceResponse,
 
     -- ** CreateDatalake
-    CreateDatalake (CreateDatalake'),
+    CreateDatalake,
     newCreateDatalake,
-    CreateDatalakeResponse (CreateDatalakeResponse'),
+    CreateDatalakeResponse,
     newCreateDatalakeResponse,
 
     -- ** CreateDatalakeAutoEnable
-    CreateDatalakeAutoEnable (CreateDatalakeAutoEnable'),
+    CreateDatalakeAutoEnable,
     newCreateDatalakeAutoEnable,
-    CreateDatalakeAutoEnableResponse (CreateDatalakeAutoEnableResponse'),
+    CreateDatalakeAutoEnableResponse,
     newCreateDatalakeAutoEnableResponse,
 
     -- ** CreateDatalakeDelegatedAdmin
-    CreateDatalakeDelegatedAdmin (CreateDatalakeDelegatedAdmin'),
+    CreateDatalakeDelegatedAdmin,
     newCreateDatalakeDelegatedAdmin,
-    CreateDatalakeDelegatedAdminResponse (CreateDatalakeDelegatedAdminResponse'),
+    CreateDatalakeDelegatedAdminResponse,
     newCreateDatalakeDelegatedAdminResponse,
 
     -- ** CreateDatalakeExceptionsSubscription
-    CreateDatalakeExceptionsSubscription (CreateDatalakeExceptionsSubscription'),
+    CreateDatalakeExceptionsSubscription,
     newCreateDatalakeExceptionsSubscription,
-    CreateDatalakeExceptionsSubscriptionResponse (CreateDatalakeExceptionsSubscriptionResponse'),
+    CreateDatalakeExceptionsSubscriptionResponse,
     newCreateDatalakeExceptionsSubscriptionResponse,
 
     -- ** CreateSubscriber
-    CreateSubscriber (CreateSubscriber'),
+    CreateSubscriber,
     newCreateSubscriber,
-    CreateSubscriberResponse (CreateSubscriberResponse'),
+    CreateSubscriberResponse,
     newCreateSubscriberResponse,
 
     -- ** CreateSubscriptionNotificationConfiguration
-    CreateSubscriptionNotificationConfiguration (CreateSubscriptionNotificationConfiguration'),
+    CreateSubscriptionNotificationConfiguration,
     newCreateSubscriptionNotificationConfiguration,
-    CreateSubscriptionNotificationConfigurationResponse (CreateSubscriptionNotificationConfigurationResponse'),
+    CreateSubscriptionNotificationConfigurationResponse,
     newCreateSubscriptionNotificationConfigurationResponse,
 
     -- ** DeleteAwsLogSource
-    DeleteAwsLogSource (DeleteAwsLogSource'),
+    DeleteAwsLogSource,
     newDeleteAwsLogSource,
-    DeleteAwsLogSourceResponse (DeleteAwsLogSourceResponse'),
+    DeleteAwsLogSourceResponse,
     newDeleteAwsLogSourceResponse,
 
     -- ** DeleteCustomLogSource
-    DeleteCustomLogSource (DeleteCustomLogSource'),
+    DeleteCustomLogSource,
     newDeleteCustomLogSource,
-    DeleteCustomLogSourceResponse (DeleteCustomLogSourceResponse'),
+    DeleteCustomLogSourceResponse,
     newDeleteCustomLogSourceResponse,
 
     -- ** DeleteDatalake
-    DeleteDatalake (DeleteDatalake'),
+    DeleteDatalake,
     newDeleteDatalake,
-    DeleteDatalakeResponse (DeleteDatalakeResponse'),
+    DeleteDatalakeResponse,
     newDeleteDatalakeResponse,
 
     -- ** DeleteDatalakeAutoEnable
-    DeleteDatalakeAutoEnable (DeleteDatalakeAutoEnable'),
+    DeleteDatalakeAutoEnable,
     newDeleteDatalakeAutoEnable,
-    DeleteDatalakeAutoEnableResponse (DeleteDatalakeAutoEnableResponse'),
+    DeleteDatalakeAutoEnableResponse,
     newDeleteDatalakeAutoEnableResponse,
 
     -- ** DeleteDatalakeDelegatedAdmin
-    DeleteDatalakeDelegatedAdmin (DeleteDatalakeDelegatedAdmin'),
+    DeleteDatalakeDelegatedAdmin,
     newDeleteDatalakeDelegatedAdmin,
-    DeleteDatalakeDelegatedAdminResponse (DeleteDatalakeDelegatedAdminResponse'),
+    DeleteDatalakeDelegatedAdminResponse,
     newDeleteDatalakeDelegatedAdminResponse,
 
     -- ** DeleteDatalakeExceptionsSubscription
-    DeleteDatalakeExceptionsSubscription (DeleteDatalakeExceptionsSubscription'),
+    DeleteDatalakeExceptionsSubscription,
     newDeleteDatalakeExceptionsSubscription,
-    DeleteDatalakeExceptionsSubscriptionResponse (DeleteDatalakeExceptionsSubscriptionResponse'),
+    DeleteDatalakeExceptionsSubscriptionResponse,
     newDeleteDatalakeExceptionsSubscriptionResponse,
 
     -- ** DeleteSubscriber
-    DeleteSubscriber (DeleteSubscriber'),
+    DeleteSubscriber,
     newDeleteSubscriber,
-    DeleteSubscriberResponse (DeleteSubscriberResponse'),
+    DeleteSubscriberResponse,
     newDeleteSubscriberResponse,
 
     -- ** DeleteSubscriptionNotificationConfiguration
-    DeleteSubscriptionNotificationConfiguration (DeleteSubscriptionNotificationConfiguration'),
+    DeleteSubscriptionNotificationConfiguration,
     newDeleteSubscriptionNotificationConfiguration,
-    DeleteSubscriptionNotificationConfigurationResponse (DeleteSubscriptionNotificationConfigurationResponse'),
+    DeleteSubscriptionNotificationConfigurationResponse,
     newDeleteSubscriptionNotificationConfigurationResponse,
 
     -- ** GetDatalake
-    GetDatalake (GetDatalake'),
+    GetDatalake,
     newGetDatalake,
-    GetDatalakeResponse (GetDatalakeResponse'),
+    GetDatalakeResponse,
     newGetDatalakeResponse,
 
     -- ** GetDatalakeAutoEnable
-    GetDatalakeAutoEnable (GetDatalakeAutoEnable'),
+    GetDatalakeAutoEnable,
     newGetDatalakeAutoEnable,
-    GetDatalakeAutoEnableResponse (GetDatalakeAutoEnableResponse'),
+    GetDatalakeAutoEnableResponse,
     newGetDatalakeAutoEnableResponse,
 
     -- ** GetDatalakeExceptionsExpiry
-    GetDatalakeExceptionsExpiry (GetDatalakeExceptionsExpiry'),
+    GetDatalakeExceptionsExpiry,
     newGetDatalakeExceptionsExpiry,
-    GetDatalakeExceptionsExpiryResponse (GetDatalakeExceptionsExpiryResponse'),
+    GetDatalakeExceptionsExpiryResponse,
     newGetDatalakeExceptionsExpiryResponse,
 
     -- ** GetDatalakeExceptionsSubscription
-    GetDatalakeExceptionsSubscription (GetDatalakeExceptionsSubscription'),
+    GetDatalakeExceptionsSubscription,
     newGetDatalakeExceptionsSubscription,
-    GetDatalakeExceptionsSubscriptionResponse (GetDatalakeExceptionsSubscriptionResponse'),
+    GetDatalakeExceptionsSubscriptionResponse,
     newGetDatalakeExceptionsSubscriptionResponse,
 
     -- ** GetDatalakeStatus (Paginated)
-    GetDatalakeStatus (GetDatalakeStatus'),
+    GetDatalakeStatus,
     newGetDatalakeStatus,
-    GetDatalakeStatusResponse (GetDatalakeStatusResponse'),
+    GetDatalakeStatusResponse,
     newGetDatalakeStatusResponse,
 
     -- ** GetSubscriber
-    GetSubscriber (GetSubscriber'),
+    GetSubscriber,
     newGetSubscriber,
-    GetSubscriberResponse (GetSubscriberResponse'),
+    GetSubscriberResponse,
     newGetSubscriberResponse,
 
     -- ** ListDatalakeExceptions (Paginated)
-    ListDatalakeExceptions (ListDatalakeExceptions'),
+    ListDatalakeExceptions,
     newListDatalakeExceptions,
-    ListDatalakeExceptionsResponse (ListDatalakeExceptionsResponse'),
+    ListDatalakeExceptionsResponse,
     newListDatalakeExceptionsResponse,
 
     -- ** ListLogSources (Paginated)
-    ListLogSources (ListLogSources'),
+    ListLogSources,
     newListLogSources,
-    ListLogSourcesResponse (ListLogSourcesResponse'),
+    ListLogSourcesResponse,
     newListLogSourcesResponse,
 
     -- ** ListSubscribers (Paginated)
-    ListSubscribers (ListSubscribers'),
+    ListSubscribers,
     newListSubscribers,
-    ListSubscribersResponse (ListSubscribersResponse'),
+    ListSubscribersResponse,
     newListSubscribersResponse,
 
     -- ** UpdateDatalake
-    UpdateDatalake (UpdateDatalake'),
+    UpdateDatalake,
     newUpdateDatalake,
-    UpdateDatalakeResponse (UpdateDatalakeResponse'),
+    UpdateDatalakeResponse,
     newUpdateDatalakeResponse,
 
     -- ** UpdateDatalakeExceptionsExpiry
-    UpdateDatalakeExceptionsExpiry (UpdateDatalakeExceptionsExpiry'),
+    UpdateDatalakeExceptionsExpiry,
     newUpdateDatalakeExceptionsExpiry,
-    UpdateDatalakeExceptionsExpiryResponse (UpdateDatalakeExceptionsExpiryResponse'),
+    UpdateDatalakeExceptionsExpiryResponse,
     newUpdateDatalakeExceptionsExpiryResponse,
 
     -- ** UpdateDatalakeExceptionsSubscription
-    UpdateDatalakeExceptionsSubscription (UpdateDatalakeExceptionsSubscription'),
+    UpdateDatalakeExceptionsSubscription,
     newUpdateDatalakeExceptionsSubscription,
-    UpdateDatalakeExceptionsSubscriptionResponse (UpdateDatalakeExceptionsSubscriptionResponse'),
+    UpdateDatalakeExceptionsSubscriptionResponse,
     newUpdateDatalakeExceptionsSubscriptionResponse,
 
     -- ** UpdateSubscriber
-    UpdateSubscriber (UpdateSubscriber'),
+    UpdateSubscriber,
     newUpdateSubscriber,
-    UpdateSubscriberResponse (UpdateSubscriberResponse'),
+    UpdateSubscriberResponse,
     newUpdateSubscriberResponse,
 
     -- ** UpdateSubscriptionNotificationConfiguration
-    UpdateSubscriptionNotificationConfiguration (UpdateSubscriptionNotificationConfiguration'),
+    UpdateSubscriptionNotificationConfiguration,
     newUpdateSubscriptionNotificationConfiguration,
-    UpdateSubscriptionNotificationConfigurationResponse (UpdateSubscriptionNotificationConfigurationResponse'),
+    UpdateSubscriptionNotificationConfigurationResponse,
     newUpdateSubscriptionNotificationConfigurationResponse,
 
     -- * Types
@@ -333,47 +333,47 @@ module Amazonka.SecurityLake
     SubscriptionStatus (..),
 
     -- ** AccountSources
-    AccountSources (AccountSources'),
+    AccountSources,
     newAccountSources,
 
     -- ** AutoEnableNewRegionConfiguration
-    AutoEnableNewRegionConfiguration (AutoEnableNewRegionConfiguration'),
+    AutoEnableNewRegionConfiguration,
     newAutoEnableNewRegionConfiguration,
 
     -- ** Failures
-    Failures (Failures'),
+    Failures,
     newFailures,
 
     -- ** FailuresResponse
-    FailuresResponse (FailuresResponse'),
+    FailuresResponse,
     newFailuresResponse,
 
     -- ** LakeConfigurationRequest
-    LakeConfigurationRequest (LakeConfigurationRequest'),
+    LakeConfigurationRequest,
     newLakeConfigurationRequest,
 
     -- ** LakeConfigurationResponse
-    LakeConfigurationResponse (LakeConfigurationResponse'),
+    LakeConfigurationResponse,
     newLakeConfigurationResponse,
 
     -- ** LogsStatus
-    LogsStatus (LogsStatus'),
+    LogsStatus,
     newLogsStatus,
 
     -- ** ProtocolAndNotificationEndpoint
-    ProtocolAndNotificationEndpoint (ProtocolAndNotificationEndpoint'),
+    ProtocolAndNotificationEndpoint,
     newProtocolAndNotificationEndpoint,
 
     -- ** RetentionSetting
-    RetentionSetting (RetentionSetting'),
+    RetentionSetting,
     newRetentionSetting,
 
     -- ** SourceType
-    SourceType (SourceType'),
+    SourceType,
     newSourceType,
 
     -- ** SubscriberResource
-    SubscriberResource (SubscriberResource'),
+    SubscriberResource,
     newSubscriberResource,
   )
 where

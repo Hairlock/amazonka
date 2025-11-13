@@ -124,27 +124,27 @@ module Amazonka.MarketplaceMetering
     -- $operations
 
     -- ** BatchMeterUsage
-    BatchMeterUsage (BatchMeterUsage'),
+    BatchMeterUsage,
     newBatchMeterUsage,
-    BatchMeterUsageResponse (BatchMeterUsageResponse'),
+    BatchMeterUsageResponse,
     newBatchMeterUsageResponse,
 
     -- ** MeterUsage
-    MeterUsage (MeterUsage'),
+    MeterUsage,
     newMeterUsage,
-    MeterUsageResponse (MeterUsageResponse'),
+    MeterUsageResponse,
     newMeterUsageResponse,
 
     -- ** RegisterUsage
-    RegisterUsage (RegisterUsage'),
+    RegisterUsage,
     newRegisterUsage,
-    RegisterUsageResponse (RegisterUsageResponse'),
+    RegisterUsageResponse,
     newRegisterUsageResponse,
 
     -- ** ResolveCustomer
-    ResolveCustomer (ResolveCustomer'),
+    ResolveCustomer,
     newResolveCustomer,
-    ResolveCustomerResponse (ResolveCustomerResponse'),
+    ResolveCustomerResponse,
     newResolveCustomerResponse,
 
     -- * Types
@@ -153,19 +153,19 @@ module Amazonka.MarketplaceMetering
     UsageRecordResultStatus (..),
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
 
     -- ** UsageAllocation
-    UsageAllocation (UsageAllocation'),
+    UsageAllocation,
     newUsageAllocation,
 
     -- ** UsageRecord
-    UsageRecord (UsageRecord'),
+    UsageRecord,
     newUsageRecord,
 
     -- ** UsageRecordResult
-    UsageRecordResult (UsageRecordResult'),
+    UsageRecordResult,
     newUsageRecordResult,
   )
 where

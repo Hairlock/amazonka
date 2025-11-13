@@ -140,399 +140,399 @@ module Amazonka.CloudDirectory
     -- $operations
 
     -- ** AddFacetToObject
-    AddFacetToObject (AddFacetToObject'),
+    AddFacetToObject,
     newAddFacetToObject,
-    AddFacetToObjectResponse (AddFacetToObjectResponse'),
+    AddFacetToObjectResponse,
     newAddFacetToObjectResponse,
 
     -- ** ApplySchema
-    ApplySchema (ApplySchema'),
+    ApplySchema,
     newApplySchema,
-    ApplySchemaResponse (ApplySchemaResponse'),
+    ApplySchemaResponse,
     newApplySchemaResponse,
 
     -- ** AttachObject
-    AttachObject (AttachObject'),
+    AttachObject,
     newAttachObject,
-    AttachObjectResponse (AttachObjectResponse'),
+    AttachObjectResponse,
     newAttachObjectResponse,
 
     -- ** AttachPolicy
-    AttachPolicy (AttachPolicy'),
+    AttachPolicy,
     newAttachPolicy,
-    AttachPolicyResponse (AttachPolicyResponse'),
+    AttachPolicyResponse,
     newAttachPolicyResponse,
 
     -- ** AttachToIndex
-    AttachToIndex (AttachToIndex'),
+    AttachToIndex,
     newAttachToIndex,
-    AttachToIndexResponse (AttachToIndexResponse'),
+    AttachToIndexResponse,
     newAttachToIndexResponse,
 
     -- ** AttachTypedLink
-    AttachTypedLink (AttachTypedLink'),
+    AttachTypedLink,
     newAttachTypedLink,
-    AttachTypedLinkResponse (AttachTypedLinkResponse'),
+    AttachTypedLinkResponse,
     newAttachTypedLinkResponse,
 
     -- ** BatchRead
-    BatchRead (BatchRead'),
+    BatchRead,
     newBatchRead,
-    BatchReadResponse (BatchReadResponse'),
+    BatchReadResponse,
     newBatchReadResponse,
 
     -- ** BatchWrite
-    BatchWrite (BatchWrite'),
+    BatchWrite,
     newBatchWrite,
-    BatchWriteResponse (BatchWriteResponse'),
+    BatchWriteResponse,
     newBatchWriteResponse,
 
     -- ** CreateDirectory
-    CreateDirectory (CreateDirectory'),
+    CreateDirectory,
     newCreateDirectory,
-    CreateDirectoryResponse (CreateDirectoryResponse'),
+    CreateDirectoryResponse,
     newCreateDirectoryResponse,
 
     -- ** CreateFacet
-    CreateFacet (CreateFacet'),
+    CreateFacet,
     newCreateFacet,
-    CreateFacetResponse (CreateFacetResponse'),
+    CreateFacetResponse,
     newCreateFacetResponse,
 
     -- ** CreateIndex
-    CreateIndex (CreateIndex'),
+    CreateIndex,
     newCreateIndex,
-    CreateIndexResponse (CreateIndexResponse'),
+    CreateIndexResponse,
     newCreateIndexResponse,
 
     -- ** CreateObject
-    CreateObject (CreateObject'),
+    CreateObject,
     newCreateObject,
-    CreateObjectResponse (CreateObjectResponse'),
+    CreateObjectResponse,
     newCreateObjectResponse,
 
     -- ** CreateSchema
-    CreateSchema (CreateSchema'),
+    CreateSchema,
     newCreateSchema,
-    CreateSchemaResponse (CreateSchemaResponse'),
+    CreateSchemaResponse,
     newCreateSchemaResponse,
 
     -- ** CreateTypedLinkFacet
-    CreateTypedLinkFacet (CreateTypedLinkFacet'),
+    CreateTypedLinkFacet,
     newCreateTypedLinkFacet,
-    CreateTypedLinkFacetResponse (CreateTypedLinkFacetResponse'),
+    CreateTypedLinkFacetResponse,
     newCreateTypedLinkFacetResponse,
 
     -- ** DeleteDirectory
-    DeleteDirectory (DeleteDirectory'),
+    DeleteDirectory,
     newDeleteDirectory,
-    DeleteDirectoryResponse (DeleteDirectoryResponse'),
+    DeleteDirectoryResponse,
     newDeleteDirectoryResponse,
 
     -- ** DeleteFacet
-    DeleteFacet (DeleteFacet'),
+    DeleteFacet,
     newDeleteFacet,
-    DeleteFacetResponse (DeleteFacetResponse'),
+    DeleteFacetResponse,
     newDeleteFacetResponse,
 
     -- ** DeleteObject
-    DeleteObject (DeleteObject'),
+    DeleteObject,
     newDeleteObject,
-    DeleteObjectResponse (DeleteObjectResponse'),
+    DeleteObjectResponse,
     newDeleteObjectResponse,
 
     -- ** DeleteSchema
-    DeleteSchema (DeleteSchema'),
+    DeleteSchema,
     newDeleteSchema,
-    DeleteSchemaResponse (DeleteSchemaResponse'),
+    DeleteSchemaResponse,
     newDeleteSchemaResponse,
 
     -- ** DeleteTypedLinkFacet
-    DeleteTypedLinkFacet (DeleteTypedLinkFacet'),
+    DeleteTypedLinkFacet,
     newDeleteTypedLinkFacet,
-    DeleteTypedLinkFacetResponse (DeleteTypedLinkFacetResponse'),
+    DeleteTypedLinkFacetResponse,
     newDeleteTypedLinkFacetResponse,
 
     -- ** DetachFromIndex
-    DetachFromIndex (DetachFromIndex'),
+    DetachFromIndex,
     newDetachFromIndex,
-    DetachFromIndexResponse (DetachFromIndexResponse'),
+    DetachFromIndexResponse,
     newDetachFromIndexResponse,
 
     -- ** DetachObject
-    DetachObject (DetachObject'),
+    DetachObject,
     newDetachObject,
-    DetachObjectResponse (DetachObjectResponse'),
+    DetachObjectResponse,
     newDetachObjectResponse,
 
     -- ** DetachPolicy
-    DetachPolicy (DetachPolicy'),
+    DetachPolicy,
     newDetachPolicy,
-    DetachPolicyResponse (DetachPolicyResponse'),
+    DetachPolicyResponse,
     newDetachPolicyResponse,
 
     -- ** DetachTypedLink
-    DetachTypedLink (DetachTypedLink'),
+    DetachTypedLink,
     newDetachTypedLink,
-    DetachTypedLinkResponse (DetachTypedLinkResponse'),
+    DetachTypedLinkResponse,
     newDetachTypedLinkResponse,
 
     -- ** DisableDirectory
-    DisableDirectory (DisableDirectory'),
+    DisableDirectory,
     newDisableDirectory,
-    DisableDirectoryResponse (DisableDirectoryResponse'),
+    DisableDirectoryResponse,
     newDisableDirectoryResponse,
 
     -- ** EnableDirectory
-    EnableDirectory (EnableDirectory'),
+    EnableDirectory,
     newEnableDirectory,
-    EnableDirectoryResponse (EnableDirectoryResponse'),
+    EnableDirectoryResponse,
     newEnableDirectoryResponse,
 
     -- ** GetAppliedSchemaVersion
-    GetAppliedSchemaVersion (GetAppliedSchemaVersion'),
+    GetAppliedSchemaVersion,
     newGetAppliedSchemaVersion,
-    GetAppliedSchemaVersionResponse (GetAppliedSchemaVersionResponse'),
+    GetAppliedSchemaVersionResponse,
     newGetAppliedSchemaVersionResponse,
 
     -- ** GetDirectory
-    GetDirectory (GetDirectory'),
+    GetDirectory,
     newGetDirectory,
-    GetDirectoryResponse (GetDirectoryResponse'),
+    GetDirectoryResponse,
     newGetDirectoryResponse,
 
     -- ** GetFacet
-    GetFacet (GetFacet'),
+    GetFacet,
     newGetFacet,
-    GetFacetResponse (GetFacetResponse'),
+    GetFacetResponse,
     newGetFacetResponse,
 
     -- ** GetLinkAttributes
-    GetLinkAttributes (GetLinkAttributes'),
+    GetLinkAttributes,
     newGetLinkAttributes,
-    GetLinkAttributesResponse (GetLinkAttributesResponse'),
+    GetLinkAttributesResponse,
     newGetLinkAttributesResponse,
 
     -- ** GetObjectAttributes
-    GetObjectAttributes (GetObjectAttributes'),
+    GetObjectAttributes,
     newGetObjectAttributes,
-    GetObjectAttributesResponse (GetObjectAttributesResponse'),
+    GetObjectAttributesResponse,
     newGetObjectAttributesResponse,
 
     -- ** GetObjectInformation
-    GetObjectInformation (GetObjectInformation'),
+    GetObjectInformation,
     newGetObjectInformation,
-    GetObjectInformationResponse (GetObjectInformationResponse'),
+    GetObjectInformationResponse,
     newGetObjectInformationResponse,
 
     -- ** GetSchemaAsJson
-    GetSchemaAsJson (GetSchemaAsJson'),
+    GetSchemaAsJson,
     newGetSchemaAsJson,
-    GetSchemaAsJsonResponse (GetSchemaAsJsonResponse'),
+    GetSchemaAsJsonResponse,
     newGetSchemaAsJsonResponse,
 
     -- ** GetTypedLinkFacetInformation
-    GetTypedLinkFacetInformation (GetTypedLinkFacetInformation'),
+    GetTypedLinkFacetInformation,
     newGetTypedLinkFacetInformation,
-    GetTypedLinkFacetInformationResponse (GetTypedLinkFacetInformationResponse'),
+    GetTypedLinkFacetInformationResponse,
     newGetTypedLinkFacetInformationResponse,
 
     -- ** ListAppliedSchemaArns (Paginated)
-    ListAppliedSchemaArns (ListAppliedSchemaArns'),
+    ListAppliedSchemaArns,
     newListAppliedSchemaArns,
-    ListAppliedSchemaArnsResponse (ListAppliedSchemaArnsResponse'),
+    ListAppliedSchemaArnsResponse,
     newListAppliedSchemaArnsResponse,
 
     -- ** ListAttachedIndices (Paginated)
-    ListAttachedIndices (ListAttachedIndices'),
+    ListAttachedIndices,
     newListAttachedIndices,
-    ListAttachedIndicesResponse (ListAttachedIndicesResponse'),
+    ListAttachedIndicesResponse,
     newListAttachedIndicesResponse,
 
     -- ** ListDevelopmentSchemaArns (Paginated)
-    ListDevelopmentSchemaArns (ListDevelopmentSchemaArns'),
+    ListDevelopmentSchemaArns,
     newListDevelopmentSchemaArns,
-    ListDevelopmentSchemaArnsResponse (ListDevelopmentSchemaArnsResponse'),
+    ListDevelopmentSchemaArnsResponse,
     newListDevelopmentSchemaArnsResponse,
 
     -- ** ListDirectories (Paginated)
-    ListDirectories (ListDirectories'),
+    ListDirectories,
     newListDirectories,
-    ListDirectoriesResponse (ListDirectoriesResponse'),
+    ListDirectoriesResponse,
     newListDirectoriesResponse,
 
     -- ** ListFacetAttributes (Paginated)
-    ListFacetAttributes (ListFacetAttributes'),
+    ListFacetAttributes,
     newListFacetAttributes,
-    ListFacetAttributesResponse (ListFacetAttributesResponse'),
+    ListFacetAttributesResponse,
     newListFacetAttributesResponse,
 
     -- ** ListFacetNames (Paginated)
-    ListFacetNames (ListFacetNames'),
+    ListFacetNames,
     newListFacetNames,
-    ListFacetNamesResponse (ListFacetNamesResponse'),
+    ListFacetNamesResponse,
     newListFacetNamesResponse,
 
     -- ** ListIncomingTypedLinks (Paginated)
-    ListIncomingTypedLinks (ListIncomingTypedLinks'),
+    ListIncomingTypedLinks,
     newListIncomingTypedLinks,
-    ListIncomingTypedLinksResponse (ListIncomingTypedLinksResponse'),
+    ListIncomingTypedLinksResponse,
     newListIncomingTypedLinksResponse,
 
     -- ** ListIndex (Paginated)
-    ListIndex (ListIndex'),
+    ListIndex,
     newListIndex,
-    ListIndexResponse (ListIndexResponse'),
+    ListIndexResponse,
     newListIndexResponse,
 
     -- ** ListManagedSchemaArns (Paginated)
-    ListManagedSchemaArns (ListManagedSchemaArns'),
+    ListManagedSchemaArns,
     newListManagedSchemaArns,
-    ListManagedSchemaArnsResponse (ListManagedSchemaArnsResponse'),
+    ListManagedSchemaArnsResponse,
     newListManagedSchemaArnsResponse,
 
     -- ** ListObjectAttributes (Paginated)
-    ListObjectAttributes (ListObjectAttributes'),
+    ListObjectAttributes,
     newListObjectAttributes,
-    ListObjectAttributesResponse (ListObjectAttributesResponse'),
+    ListObjectAttributesResponse,
     newListObjectAttributesResponse,
 
     -- ** ListObjectChildren
-    ListObjectChildren (ListObjectChildren'),
+    ListObjectChildren,
     newListObjectChildren,
-    ListObjectChildrenResponse (ListObjectChildrenResponse'),
+    ListObjectChildrenResponse,
     newListObjectChildrenResponse,
 
     -- ** ListObjectParentPaths (Paginated)
-    ListObjectParentPaths (ListObjectParentPaths'),
+    ListObjectParentPaths,
     newListObjectParentPaths,
-    ListObjectParentPathsResponse (ListObjectParentPathsResponse'),
+    ListObjectParentPathsResponse,
     newListObjectParentPathsResponse,
 
     -- ** ListObjectParents
-    ListObjectParents (ListObjectParents'),
+    ListObjectParents,
     newListObjectParents,
-    ListObjectParentsResponse (ListObjectParentsResponse'),
+    ListObjectParentsResponse,
     newListObjectParentsResponse,
 
     -- ** ListObjectPolicies (Paginated)
-    ListObjectPolicies (ListObjectPolicies'),
+    ListObjectPolicies,
     newListObjectPolicies,
-    ListObjectPoliciesResponse (ListObjectPoliciesResponse'),
+    ListObjectPoliciesResponse,
     newListObjectPoliciesResponse,
 
     -- ** ListOutgoingTypedLinks (Paginated)
-    ListOutgoingTypedLinks (ListOutgoingTypedLinks'),
+    ListOutgoingTypedLinks,
     newListOutgoingTypedLinks,
-    ListOutgoingTypedLinksResponse (ListOutgoingTypedLinksResponse'),
+    ListOutgoingTypedLinksResponse,
     newListOutgoingTypedLinksResponse,
 
     -- ** ListPolicyAttachments (Paginated)
-    ListPolicyAttachments (ListPolicyAttachments'),
+    ListPolicyAttachments,
     newListPolicyAttachments,
-    ListPolicyAttachmentsResponse (ListPolicyAttachmentsResponse'),
+    ListPolicyAttachmentsResponse,
     newListPolicyAttachmentsResponse,
 
     -- ** ListPublishedSchemaArns (Paginated)
-    ListPublishedSchemaArns (ListPublishedSchemaArns'),
+    ListPublishedSchemaArns,
     newListPublishedSchemaArns,
-    ListPublishedSchemaArnsResponse (ListPublishedSchemaArnsResponse'),
+    ListPublishedSchemaArnsResponse,
     newListPublishedSchemaArnsResponse,
 
     -- ** ListTagsForResource (Paginated)
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** ListTypedLinkFacetAttributes (Paginated)
-    ListTypedLinkFacetAttributes (ListTypedLinkFacetAttributes'),
+    ListTypedLinkFacetAttributes,
     newListTypedLinkFacetAttributes,
-    ListTypedLinkFacetAttributesResponse (ListTypedLinkFacetAttributesResponse'),
+    ListTypedLinkFacetAttributesResponse,
     newListTypedLinkFacetAttributesResponse,
 
     -- ** ListTypedLinkFacetNames (Paginated)
-    ListTypedLinkFacetNames (ListTypedLinkFacetNames'),
+    ListTypedLinkFacetNames,
     newListTypedLinkFacetNames,
-    ListTypedLinkFacetNamesResponse (ListTypedLinkFacetNamesResponse'),
+    ListTypedLinkFacetNamesResponse,
     newListTypedLinkFacetNamesResponse,
 
     -- ** LookupPolicy (Paginated)
-    LookupPolicy (LookupPolicy'),
+    LookupPolicy,
     newLookupPolicy,
-    LookupPolicyResponse (LookupPolicyResponse'),
+    LookupPolicyResponse,
     newLookupPolicyResponse,
 
     -- ** PublishSchema
-    PublishSchema (PublishSchema'),
+    PublishSchema,
     newPublishSchema,
-    PublishSchemaResponse (PublishSchemaResponse'),
+    PublishSchemaResponse,
     newPublishSchemaResponse,
 
     -- ** PutSchemaFromJson
-    PutSchemaFromJson (PutSchemaFromJson'),
+    PutSchemaFromJson,
     newPutSchemaFromJson,
-    PutSchemaFromJsonResponse (PutSchemaFromJsonResponse'),
+    PutSchemaFromJsonResponse,
     newPutSchemaFromJsonResponse,
 
     -- ** RemoveFacetFromObject
-    RemoveFacetFromObject (RemoveFacetFromObject'),
+    RemoveFacetFromObject,
     newRemoveFacetFromObject,
-    RemoveFacetFromObjectResponse (RemoveFacetFromObjectResponse'),
+    RemoveFacetFromObjectResponse,
     newRemoveFacetFromObjectResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateFacet
-    UpdateFacet (UpdateFacet'),
+    UpdateFacet,
     newUpdateFacet,
-    UpdateFacetResponse (UpdateFacetResponse'),
+    UpdateFacetResponse,
     newUpdateFacetResponse,
 
     -- ** UpdateLinkAttributes
-    UpdateLinkAttributes (UpdateLinkAttributes'),
+    UpdateLinkAttributes,
     newUpdateLinkAttributes,
-    UpdateLinkAttributesResponse (UpdateLinkAttributesResponse'),
+    UpdateLinkAttributesResponse,
     newUpdateLinkAttributesResponse,
 
     -- ** UpdateObjectAttributes
-    UpdateObjectAttributes (UpdateObjectAttributes'),
+    UpdateObjectAttributes,
     newUpdateObjectAttributes,
-    UpdateObjectAttributesResponse (UpdateObjectAttributesResponse'),
+    UpdateObjectAttributesResponse,
     newUpdateObjectAttributesResponse,
 
     -- ** UpdateSchema
-    UpdateSchema (UpdateSchema'),
+    UpdateSchema,
     newUpdateSchema,
-    UpdateSchemaResponse (UpdateSchemaResponse'),
+    UpdateSchemaResponse,
     newUpdateSchemaResponse,
 
     -- ** UpdateTypedLinkFacet
-    UpdateTypedLinkFacet (UpdateTypedLinkFacet'),
+    UpdateTypedLinkFacet,
     newUpdateTypedLinkFacet,
-    UpdateTypedLinkFacetResponse (UpdateTypedLinkFacetResponse'),
+    UpdateTypedLinkFacetResponse,
     newUpdateTypedLinkFacetResponse,
 
     -- ** UpgradeAppliedSchema
-    UpgradeAppliedSchema (UpgradeAppliedSchema'),
+    UpgradeAppliedSchema,
     newUpgradeAppliedSchema,
-    UpgradeAppliedSchemaResponse (UpgradeAppliedSchemaResponse'),
+    UpgradeAppliedSchemaResponse,
     newUpgradeAppliedSchemaResponse,
 
     -- ** UpgradePublishedSchema
-    UpgradePublishedSchema (UpgradePublishedSchema'),
+    UpgradePublishedSchema,
     newUpgradePublishedSchema,
-    UpgradePublishedSchemaResponse (UpgradePublishedSchemaResponse'),
+    UpgradePublishedSchemaResponse,
     newUpgradePublishedSchemaResponse,
 
     -- * Types
@@ -568,383 +568,383 @@ module Amazonka.CloudDirectory
     UpdateActionType (..),
 
     -- ** AttributeKey
-    AttributeKey (AttributeKey'),
+    AttributeKey,
     newAttributeKey,
 
     -- ** AttributeKeyAndValue
-    AttributeKeyAndValue (AttributeKeyAndValue'),
+    AttributeKeyAndValue,
     newAttributeKeyAndValue,
 
     -- ** AttributeNameAndValue
-    AttributeNameAndValue (AttributeNameAndValue'),
+    AttributeNameAndValue,
     newAttributeNameAndValue,
 
     -- ** BatchAddFacetToObject
-    BatchAddFacetToObject (BatchAddFacetToObject'),
+    BatchAddFacetToObject,
     newBatchAddFacetToObject,
 
     -- ** BatchAddFacetToObjectResponse
-    BatchAddFacetToObjectResponse (BatchAddFacetToObjectResponse'),
+    BatchAddFacetToObjectResponse,
     newBatchAddFacetToObjectResponse,
 
     -- ** BatchAttachObject
-    BatchAttachObject (BatchAttachObject'),
+    BatchAttachObject,
     newBatchAttachObject,
 
     -- ** BatchAttachObjectResponse
-    BatchAttachObjectResponse (BatchAttachObjectResponse'),
+    BatchAttachObjectResponse,
     newBatchAttachObjectResponse,
 
     -- ** BatchAttachPolicy
-    BatchAttachPolicy (BatchAttachPolicy'),
+    BatchAttachPolicy,
     newBatchAttachPolicy,
 
     -- ** BatchAttachPolicyResponse
-    BatchAttachPolicyResponse (BatchAttachPolicyResponse'),
+    BatchAttachPolicyResponse,
     newBatchAttachPolicyResponse,
 
     -- ** BatchAttachToIndex
-    BatchAttachToIndex (BatchAttachToIndex'),
+    BatchAttachToIndex,
     newBatchAttachToIndex,
 
     -- ** BatchAttachToIndexResponse
-    BatchAttachToIndexResponse (BatchAttachToIndexResponse'),
+    BatchAttachToIndexResponse,
     newBatchAttachToIndexResponse,
 
     -- ** BatchAttachTypedLink
-    BatchAttachTypedLink (BatchAttachTypedLink'),
+    BatchAttachTypedLink,
     newBatchAttachTypedLink,
 
     -- ** BatchAttachTypedLinkResponse
-    BatchAttachTypedLinkResponse (BatchAttachTypedLinkResponse'),
+    BatchAttachTypedLinkResponse,
     newBatchAttachTypedLinkResponse,
 
     -- ** BatchCreateIndex
-    BatchCreateIndex (BatchCreateIndex'),
+    BatchCreateIndex,
     newBatchCreateIndex,
 
     -- ** BatchCreateIndexResponse
-    BatchCreateIndexResponse (BatchCreateIndexResponse'),
+    BatchCreateIndexResponse,
     newBatchCreateIndexResponse,
 
     -- ** BatchCreateObject
-    BatchCreateObject (BatchCreateObject'),
+    BatchCreateObject,
     newBatchCreateObject,
 
     -- ** BatchCreateObjectResponse
-    BatchCreateObjectResponse (BatchCreateObjectResponse'),
+    BatchCreateObjectResponse,
     newBatchCreateObjectResponse,
 
     -- ** BatchDeleteObject
-    BatchDeleteObject (BatchDeleteObject'),
+    BatchDeleteObject,
     newBatchDeleteObject,
 
     -- ** BatchDeleteObjectResponse
-    BatchDeleteObjectResponse (BatchDeleteObjectResponse'),
+    BatchDeleteObjectResponse,
     newBatchDeleteObjectResponse,
 
     -- ** BatchDetachFromIndex
-    BatchDetachFromIndex (BatchDetachFromIndex'),
+    BatchDetachFromIndex,
     newBatchDetachFromIndex,
 
     -- ** BatchDetachFromIndexResponse
-    BatchDetachFromIndexResponse (BatchDetachFromIndexResponse'),
+    BatchDetachFromIndexResponse,
     newBatchDetachFromIndexResponse,
 
     -- ** BatchDetachObject
-    BatchDetachObject (BatchDetachObject'),
+    BatchDetachObject,
     newBatchDetachObject,
 
     -- ** BatchDetachObjectResponse
-    BatchDetachObjectResponse (BatchDetachObjectResponse'),
+    BatchDetachObjectResponse,
     newBatchDetachObjectResponse,
 
     -- ** BatchDetachPolicy
-    BatchDetachPolicy (BatchDetachPolicy'),
+    BatchDetachPolicy,
     newBatchDetachPolicy,
 
     -- ** BatchDetachPolicyResponse
-    BatchDetachPolicyResponse (BatchDetachPolicyResponse'),
+    BatchDetachPolicyResponse,
     newBatchDetachPolicyResponse,
 
     -- ** BatchDetachTypedLink
-    BatchDetachTypedLink (BatchDetachTypedLink'),
+    BatchDetachTypedLink,
     newBatchDetachTypedLink,
 
     -- ** BatchDetachTypedLinkResponse
-    BatchDetachTypedLinkResponse (BatchDetachTypedLinkResponse'),
+    BatchDetachTypedLinkResponse,
     newBatchDetachTypedLinkResponse,
 
     -- ** BatchGetLinkAttributes
-    BatchGetLinkAttributes (BatchGetLinkAttributes'),
+    BatchGetLinkAttributes,
     newBatchGetLinkAttributes,
 
     -- ** BatchGetLinkAttributesResponse
-    BatchGetLinkAttributesResponse (BatchGetLinkAttributesResponse'),
+    BatchGetLinkAttributesResponse,
     newBatchGetLinkAttributesResponse,
 
     -- ** BatchGetObjectAttributes
-    BatchGetObjectAttributes (BatchGetObjectAttributes'),
+    BatchGetObjectAttributes,
     newBatchGetObjectAttributes,
 
     -- ** BatchGetObjectAttributesResponse
-    BatchGetObjectAttributesResponse (BatchGetObjectAttributesResponse'),
+    BatchGetObjectAttributesResponse,
     newBatchGetObjectAttributesResponse,
 
     -- ** BatchGetObjectInformation
-    BatchGetObjectInformation (BatchGetObjectInformation'),
+    BatchGetObjectInformation,
     newBatchGetObjectInformation,
 
     -- ** BatchGetObjectInformationResponse
-    BatchGetObjectInformationResponse (BatchGetObjectInformationResponse'),
+    BatchGetObjectInformationResponse,
     newBatchGetObjectInformationResponse,
 
     -- ** BatchListAttachedIndices
-    BatchListAttachedIndices (BatchListAttachedIndices'),
+    BatchListAttachedIndices,
     newBatchListAttachedIndices,
 
     -- ** BatchListAttachedIndicesResponse
-    BatchListAttachedIndicesResponse (BatchListAttachedIndicesResponse'),
+    BatchListAttachedIndicesResponse,
     newBatchListAttachedIndicesResponse,
 
     -- ** BatchListIncomingTypedLinks
-    BatchListIncomingTypedLinks (BatchListIncomingTypedLinks'),
+    BatchListIncomingTypedLinks,
     newBatchListIncomingTypedLinks,
 
     -- ** BatchListIncomingTypedLinksResponse
-    BatchListIncomingTypedLinksResponse (BatchListIncomingTypedLinksResponse'),
+    BatchListIncomingTypedLinksResponse,
     newBatchListIncomingTypedLinksResponse,
 
     -- ** BatchListIndex
-    BatchListIndex (BatchListIndex'),
+    BatchListIndex,
     newBatchListIndex,
 
     -- ** BatchListIndexResponse
-    BatchListIndexResponse (BatchListIndexResponse'),
+    BatchListIndexResponse,
     newBatchListIndexResponse,
 
     -- ** BatchListObjectAttributes
-    BatchListObjectAttributes (BatchListObjectAttributes'),
+    BatchListObjectAttributes,
     newBatchListObjectAttributes,
 
     -- ** BatchListObjectAttributesResponse
-    BatchListObjectAttributesResponse (BatchListObjectAttributesResponse'),
+    BatchListObjectAttributesResponse,
     newBatchListObjectAttributesResponse,
 
     -- ** BatchListObjectChildren
-    BatchListObjectChildren (BatchListObjectChildren'),
+    BatchListObjectChildren,
     newBatchListObjectChildren,
 
     -- ** BatchListObjectChildrenResponse
-    BatchListObjectChildrenResponse (BatchListObjectChildrenResponse'),
+    BatchListObjectChildrenResponse,
     newBatchListObjectChildrenResponse,
 
     -- ** BatchListObjectParentPaths
-    BatchListObjectParentPaths (BatchListObjectParentPaths'),
+    BatchListObjectParentPaths,
     newBatchListObjectParentPaths,
 
     -- ** BatchListObjectParentPathsResponse
-    BatchListObjectParentPathsResponse (BatchListObjectParentPathsResponse'),
+    BatchListObjectParentPathsResponse,
     newBatchListObjectParentPathsResponse,
 
     -- ** BatchListObjectParents
-    BatchListObjectParents (BatchListObjectParents'),
+    BatchListObjectParents,
     newBatchListObjectParents,
 
     -- ** BatchListObjectParentsResponse
-    BatchListObjectParentsResponse (BatchListObjectParentsResponse'),
+    BatchListObjectParentsResponse,
     newBatchListObjectParentsResponse,
 
     -- ** BatchListObjectPolicies
-    BatchListObjectPolicies (BatchListObjectPolicies'),
+    BatchListObjectPolicies,
     newBatchListObjectPolicies,
 
     -- ** BatchListObjectPoliciesResponse
-    BatchListObjectPoliciesResponse (BatchListObjectPoliciesResponse'),
+    BatchListObjectPoliciesResponse,
     newBatchListObjectPoliciesResponse,
 
     -- ** BatchListOutgoingTypedLinks
-    BatchListOutgoingTypedLinks (BatchListOutgoingTypedLinks'),
+    BatchListOutgoingTypedLinks,
     newBatchListOutgoingTypedLinks,
 
     -- ** BatchListOutgoingTypedLinksResponse
-    BatchListOutgoingTypedLinksResponse (BatchListOutgoingTypedLinksResponse'),
+    BatchListOutgoingTypedLinksResponse,
     newBatchListOutgoingTypedLinksResponse,
 
     -- ** BatchListPolicyAttachments
-    BatchListPolicyAttachments (BatchListPolicyAttachments'),
+    BatchListPolicyAttachments,
     newBatchListPolicyAttachments,
 
     -- ** BatchListPolicyAttachmentsResponse
-    BatchListPolicyAttachmentsResponse (BatchListPolicyAttachmentsResponse'),
+    BatchListPolicyAttachmentsResponse,
     newBatchListPolicyAttachmentsResponse,
 
     -- ** BatchLookupPolicy
-    BatchLookupPolicy (BatchLookupPolicy'),
+    BatchLookupPolicy,
     newBatchLookupPolicy,
 
     -- ** BatchLookupPolicyResponse
-    BatchLookupPolicyResponse (BatchLookupPolicyResponse'),
+    BatchLookupPolicyResponse,
     newBatchLookupPolicyResponse,
 
     -- ** BatchReadException
-    BatchReadException (BatchReadException'),
+    BatchReadException,
     newBatchReadException,
 
     -- ** BatchReadOperation
-    BatchReadOperation (BatchReadOperation'),
+    BatchReadOperation,
     newBatchReadOperation,
 
     -- ** BatchReadOperationResponse
-    BatchReadOperationResponse (BatchReadOperationResponse'),
+    BatchReadOperationResponse,
     newBatchReadOperationResponse,
 
     -- ** BatchReadSuccessfulResponse
-    BatchReadSuccessfulResponse (BatchReadSuccessfulResponse'),
+    BatchReadSuccessfulResponse,
     newBatchReadSuccessfulResponse,
 
     -- ** BatchRemoveFacetFromObject
-    BatchRemoveFacetFromObject (BatchRemoveFacetFromObject'),
+    BatchRemoveFacetFromObject,
     newBatchRemoveFacetFromObject,
 
     -- ** BatchRemoveFacetFromObjectResponse
-    BatchRemoveFacetFromObjectResponse (BatchRemoveFacetFromObjectResponse'),
+    BatchRemoveFacetFromObjectResponse,
     newBatchRemoveFacetFromObjectResponse,
 
     -- ** BatchUpdateLinkAttributes
-    BatchUpdateLinkAttributes (BatchUpdateLinkAttributes'),
+    BatchUpdateLinkAttributes,
     newBatchUpdateLinkAttributes,
 
     -- ** BatchUpdateLinkAttributesResponse
-    BatchUpdateLinkAttributesResponse (BatchUpdateLinkAttributesResponse'),
+    BatchUpdateLinkAttributesResponse,
     newBatchUpdateLinkAttributesResponse,
 
     -- ** BatchUpdateObjectAttributes
-    BatchUpdateObjectAttributes (BatchUpdateObjectAttributes'),
+    BatchUpdateObjectAttributes,
     newBatchUpdateObjectAttributes,
 
     -- ** BatchUpdateObjectAttributesResponse
-    BatchUpdateObjectAttributesResponse (BatchUpdateObjectAttributesResponse'),
+    BatchUpdateObjectAttributesResponse,
     newBatchUpdateObjectAttributesResponse,
 
     -- ** BatchWriteOperation
-    BatchWriteOperation (BatchWriteOperation'),
+    BatchWriteOperation,
     newBatchWriteOperation,
 
     -- ** BatchWriteOperationResponse
-    BatchWriteOperationResponse (BatchWriteOperationResponse'),
+    BatchWriteOperationResponse,
     newBatchWriteOperationResponse,
 
     -- ** Directory
-    Directory (Directory'),
+    Directory,
     newDirectory,
 
     -- ** Facet
-    Facet (Facet'),
+    Facet,
     newFacet,
 
     -- ** FacetAttribute
-    FacetAttribute (FacetAttribute'),
+    FacetAttribute,
     newFacetAttribute,
 
     -- ** FacetAttributeDefinition
-    FacetAttributeDefinition (FacetAttributeDefinition'),
+    FacetAttributeDefinition,
     newFacetAttributeDefinition,
 
     -- ** FacetAttributeReference
-    FacetAttributeReference (FacetAttributeReference'),
+    FacetAttributeReference,
     newFacetAttributeReference,
 
     -- ** FacetAttributeUpdate
-    FacetAttributeUpdate (FacetAttributeUpdate'),
+    FacetAttributeUpdate,
     newFacetAttributeUpdate,
 
     -- ** IndexAttachment
-    IndexAttachment (IndexAttachment'),
+    IndexAttachment,
     newIndexAttachment,
 
     -- ** LinkAttributeAction
-    LinkAttributeAction (LinkAttributeAction'),
+    LinkAttributeAction,
     newLinkAttributeAction,
 
     -- ** LinkAttributeUpdate
-    LinkAttributeUpdate (LinkAttributeUpdate'),
+    LinkAttributeUpdate,
     newLinkAttributeUpdate,
 
     -- ** ObjectAttributeAction
-    ObjectAttributeAction (ObjectAttributeAction'),
+    ObjectAttributeAction,
     newObjectAttributeAction,
 
     -- ** ObjectAttributeRange
-    ObjectAttributeRange (ObjectAttributeRange'),
+    ObjectAttributeRange,
     newObjectAttributeRange,
 
     -- ** ObjectAttributeUpdate
-    ObjectAttributeUpdate (ObjectAttributeUpdate'),
+    ObjectAttributeUpdate,
     newObjectAttributeUpdate,
 
     -- ** ObjectIdentifierAndLinkNameTuple
-    ObjectIdentifierAndLinkNameTuple (ObjectIdentifierAndLinkNameTuple'),
+    ObjectIdentifierAndLinkNameTuple,
     newObjectIdentifierAndLinkNameTuple,
 
     -- ** ObjectReference
-    ObjectReference (ObjectReference'),
+    ObjectReference,
     newObjectReference,
 
     -- ** PathToObjectIdentifiers
-    PathToObjectIdentifiers (PathToObjectIdentifiers'),
+    PathToObjectIdentifiers,
     newPathToObjectIdentifiers,
 
     -- ** PolicyAttachment
-    PolicyAttachment (PolicyAttachment'),
+    PolicyAttachment,
     newPolicyAttachment,
 
     -- ** PolicyToPath
-    PolicyToPath (PolicyToPath'),
+    PolicyToPath,
     newPolicyToPath,
 
     -- ** Rule
-    Rule (Rule'),
+    Rule,
     newRule,
 
     -- ** SchemaFacet
-    SchemaFacet (SchemaFacet'),
+    SchemaFacet,
     newSchemaFacet,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
 
     -- ** TypedAttributeValue
-    TypedAttributeValue (TypedAttributeValue'),
+    TypedAttributeValue,
     newTypedAttributeValue,
 
     -- ** TypedAttributeValueRange
-    TypedAttributeValueRange (TypedAttributeValueRange'),
+    TypedAttributeValueRange,
     newTypedAttributeValueRange,
 
     -- ** TypedLinkAttributeDefinition
-    TypedLinkAttributeDefinition (TypedLinkAttributeDefinition'),
+    TypedLinkAttributeDefinition,
     newTypedLinkAttributeDefinition,
 
     -- ** TypedLinkAttributeRange
-    TypedLinkAttributeRange (TypedLinkAttributeRange'),
+    TypedLinkAttributeRange,
     newTypedLinkAttributeRange,
 
     -- ** TypedLinkFacet
-    TypedLinkFacet (TypedLinkFacet'),
+    TypedLinkFacet,
     newTypedLinkFacet,
 
     -- ** TypedLinkFacetAttributeUpdate
-    TypedLinkFacetAttributeUpdate (TypedLinkFacetAttributeUpdate'),
+    TypedLinkFacetAttributeUpdate,
     newTypedLinkFacetAttributeUpdate,
 
     -- ** TypedLinkSchemaAndFacetName
-    TypedLinkSchemaAndFacetName (TypedLinkSchemaAndFacetName'),
+    TypedLinkSchemaAndFacetName,
     newTypedLinkSchemaAndFacetName,
 
     -- ** TypedLinkSpecifier
-    TypedLinkSpecifier (TypedLinkSpecifier'),
+    TypedLinkSpecifier,
     newTypedLinkSpecifier,
   )
 where

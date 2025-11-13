@@ -92,543 +92,543 @@ module Amazonka.StorageGateway
     -- $operations
 
     -- ** ActivateGateway
-    ActivateGateway (ActivateGateway'),
+    ActivateGateway,
     newActivateGateway,
-    ActivateGatewayResponse (ActivateGatewayResponse'),
+    ActivateGatewayResponse,
     newActivateGatewayResponse,
 
     -- ** AddCache
-    AddCache (AddCache'),
+    AddCache,
     newAddCache,
-    AddCacheResponse (AddCacheResponse'),
+    AddCacheResponse,
     newAddCacheResponse,
 
     -- ** AddTagsToResource
-    AddTagsToResource (AddTagsToResource'),
+    AddTagsToResource,
     newAddTagsToResource,
-    AddTagsToResourceResponse (AddTagsToResourceResponse'),
+    AddTagsToResourceResponse,
     newAddTagsToResourceResponse,
 
     -- ** AddUploadBuffer
-    AddUploadBuffer (AddUploadBuffer'),
+    AddUploadBuffer,
     newAddUploadBuffer,
-    AddUploadBufferResponse (AddUploadBufferResponse'),
+    AddUploadBufferResponse,
     newAddUploadBufferResponse,
 
     -- ** AddWorkingStorage
-    AddWorkingStorage (AddWorkingStorage'),
+    AddWorkingStorage,
     newAddWorkingStorage,
-    AddWorkingStorageResponse (AddWorkingStorageResponse'),
+    AddWorkingStorageResponse,
     newAddWorkingStorageResponse,
 
     -- ** AssignTapePool
-    AssignTapePool (AssignTapePool'),
+    AssignTapePool,
     newAssignTapePool,
-    AssignTapePoolResponse (AssignTapePoolResponse'),
+    AssignTapePoolResponse,
     newAssignTapePoolResponse,
 
     -- ** AssociateFileSystem
-    AssociateFileSystem (AssociateFileSystem'),
+    AssociateFileSystem,
     newAssociateFileSystem,
-    AssociateFileSystemResponse (AssociateFileSystemResponse'),
+    AssociateFileSystemResponse,
     newAssociateFileSystemResponse,
 
     -- ** AttachVolume
-    AttachVolume (AttachVolume'),
+    AttachVolume,
     newAttachVolume,
-    AttachVolumeResponse (AttachVolumeResponse'),
+    AttachVolumeResponse,
     newAttachVolumeResponse,
 
     -- ** CancelArchival
-    CancelArchival (CancelArchival'),
+    CancelArchival,
     newCancelArchival,
-    CancelArchivalResponse (CancelArchivalResponse'),
+    CancelArchivalResponse,
     newCancelArchivalResponse,
 
     -- ** CancelRetrieval
-    CancelRetrieval (CancelRetrieval'),
+    CancelRetrieval,
     newCancelRetrieval,
-    CancelRetrievalResponse (CancelRetrievalResponse'),
+    CancelRetrievalResponse,
     newCancelRetrievalResponse,
 
     -- ** CreateCachediSCSIVolume
-    CreateCachediSCSIVolume (CreateCachediSCSIVolume'),
+    CreateCachediSCSIVolume,
     newCreateCachediSCSIVolume,
-    CreateCachediSCSIVolumeResponse (CreateCachediSCSIVolumeResponse'),
+    CreateCachediSCSIVolumeResponse,
     newCreateCachediSCSIVolumeResponse,
 
     -- ** CreateNFSFileShare
-    CreateNFSFileShare (CreateNFSFileShare'),
+    CreateNFSFileShare,
     newCreateNFSFileShare,
-    CreateNFSFileShareResponse (CreateNFSFileShareResponse'),
+    CreateNFSFileShareResponse,
     newCreateNFSFileShareResponse,
 
     -- ** CreateSMBFileShare
-    CreateSMBFileShare (CreateSMBFileShare'),
+    CreateSMBFileShare,
     newCreateSMBFileShare,
-    CreateSMBFileShareResponse (CreateSMBFileShareResponse'),
+    CreateSMBFileShareResponse,
     newCreateSMBFileShareResponse,
 
     -- ** CreateSnapshot
-    CreateSnapshot (CreateSnapshot'),
+    CreateSnapshot,
     newCreateSnapshot,
-    CreateSnapshotResponse (CreateSnapshotResponse'),
+    CreateSnapshotResponse,
     newCreateSnapshotResponse,
 
     -- ** CreateSnapshotFromVolumeRecoveryPoint
-    CreateSnapshotFromVolumeRecoveryPoint (CreateSnapshotFromVolumeRecoveryPoint'),
+    CreateSnapshotFromVolumeRecoveryPoint,
     newCreateSnapshotFromVolumeRecoveryPoint,
-    CreateSnapshotFromVolumeRecoveryPointResponse (CreateSnapshotFromVolumeRecoveryPointResponse'),
+    CreateSnapshotFromVolumeRecoveryPointResponse,
     newCreateSnapshotFromVolumeRecoveryPointResponse,
 
     -- ** CreateStorediSCSIVolume
-    CreateStorediSCSIVolume (CreateStorediSCSIVolume'),
+    CreateStorediSCSIVolume,
     newCreateStorediSCSIVolume,
-    CreateStorediSCSIVolumeResponse (CreateStorediSCSIVolumeResponse'),
+    CreateStorediSCSIVolumeResponse,
     newCreateStorediSCSIVolumeResponse,
 
     -- ** CreateTapePool
-    CreateTapePool (CreateTapePool'),
+    CreateTapePool,
     newCreateTapePool,
-    CreateTapePoolResponse (CreateTapePoolResponse'),
+    CreateTapePoolResponse,
     newCreateTapePoolResponse,
 
     -- ** CreateTapeWithBarcode
-    CreateTapeWithBarcode (CreateTapeWithBarcode'),
+    CreateTapeWithBarcode,
     newCreateTapeWithBarcode,
-    CreateTapeWithBarcodeResponse (CreateTapeWithBarcodeResponse'),
+    CreateTapeWithBarcodeResponse,
     newCreateTapeWithBarcodeResponse,
 
     -- ** CreateTapes
-    CreateTapes (CreateTapes'),
+    CreateTapes,
     newCreateTapes,
-    CreateTapesResponse (CreateTapesResponse'),
+    CreateTapesResponse,
     newCreateTapesResponse,
 
     -- ** DeleteAutomaticTapeCreationPolicy
-    DeleteAutomaticTapeCreationPolicy (DeleteAutomaticTapeCreationPolicy'),
+    DeleteAutomaticTapeCreationPolicy,
     newDeleteAutomaticTapeCreationPolicy,
-    DeleteAutomaticTapeCreationPolicyResponse (DeleteAutomaticTapeCreationPolicyResponse'),
+    DeleteAutomaticTapeCreationPolicyResponse,
     newDeleteAutomaticTapeCreationPolicyResponse,
 
     -- ** DeleteBandwidthRateLimit
-    DeleteBandwidthRateLimit (DeleteBandwidthRateLimit'),
+    DeleteBandwidthRateLimit,
     newDeleteBandwidthRateLimit,
-    DeleteBandwidthRateLimitResponse (DeleteBandwidthRateLimitResponse'),
+    DeleteBandwidthRateLimitResponse,
     newDeleteBandwidthRateLimitResponse,
 
     -- ** DeleteChapCredentials
-    DeleteChapCredentials (DeleteChapCredentials'),
+    DeleteChapCredentials,
     newDeleteChapCredentials,
-    DeleteChapCredentialsResponse (DeleteChapCredentialsResponse'),
+    DeleteChapCredentialsResponse,
     newDeleteChapCredentialsResponse,
 
     -- ** DeleteFileShare
-    DeleteFileShare (DeleteFileShare'),
+    DeleteFileShare,
     newDeleteFileShare,
-    DeleteFileShareResponse (DeleteFileShareResponse'),
+    DeleteFileShareResponse,
     newDeleteFileShareResponse,
 
     -- ** DeleteGateway
-    DeleteGateway (DeleteGateway'),
+    DeleteGateway,
     newDeleteGateway,
-    DeleteGatewayResponse (DeleteGatewayResponse'),
+    DeleteGatewayResponse,
     newDeleteGatewayResponse,
 
     -- ** DeleteSnapshotSchedule
-    DeleteSnapshotSchedule (DeleteSnapshotSchedule'),
+    DeleteSnapshotSchedule,
     newDeleteSnapshotSchedule,
-    DeleteSnapshotScheduleResponse (DeleteSnapshotScheduleResponse'),
+    DeleteSnapshotScheduleResponse,
     newDeleteSnapshotScheduleResponse,
 
     -- ** DeleteTape
-    DeleteTape (DeleteTape'),
+    DeleteTape,
     newDeleteTape,
-    DeleteTapeResponse (DeleteTapeResponse'),
+    DeleteTapeResponse,
     newDeleteTapeResponse,
 
     -- ** DeleteTapeArchive
-    DeleteTapeArchive (DeleteTapeArchive'),
+    DeleteTapeArchive,
     newDeleteTapeArchive,
-    DeleteTapeArchiveResponse (DeleteTapeArchiveResponse'),
+    DeleteTapeArchiveResponse,
     newDeleteTapeArchiveResponse,
 
     -- ** DeleteTapePool
-    DeleteTapePool (DeleteTapePool'),
+    DeleteTapePool,
     newDeleteTapePool,
-    DeleteTapePoolResponse (DeleteTapePoolResponse'),
+    DeleteTapePoolResponse,
     newDeleteTapePoolResponse,
 
     -- ** DeleteVolume
-    DeleteVolume (DeleteVolume'),
+    DeleteVolume,
     newDeleteVolume,
-    DeleteVolumeResponse (DeleteVolumeResponse'),
+    DeleteVolumeResponse,
     newDeleteVolumeResponse,
 
     -- ** DescribeAvailabilityMonitorTest
-    DescribeAvailabilityMonitorTest (DescribeAvailabilityMonitorTest'),
+    DescribeAvailabilityMonitorTest,
     newDescribeAvailabilityMonitorTest,
-    DescribeAvailabilityMonitorTestResponse (DescribeAvailabilityMonitorTestResponse'),
+    DescribeAvailabilityMonitorTestResponse,
     newDescribeAvailabilityMonitorTestResponse,
 
     -- ** DescribeBandwidthRateLimit
-    DescribeBandwidthRateLimit (DescribeBandwidthRateLimit'),
+    DescribeBandwidthRateLimit,
     newDescribeBandwidthRateLimit,
-    DescribeBandwidthRateLimitResponse (DescribeBandwidthRateLimitResponse'),
+    DescribeBandwidthRateLimitResponse,
     newDescribeBandwidthRateLimitResponse,
 
     -- ** DescribeBandwidthRateLimitSchedule
-    DescribeBandwidthRateLimitSchedule (DescribeBandwidthRateLimitSchedule'),
+    DescribeBandwidthRateLimitSchedule,
     newDescribeBandwidthRateLimitSchedule,
-    DescribeBandwidthRateLimitScheduleResponse (DescribeBandwidthRateLimitScheduleResponse'),
+    DescribeBandwidthRateLimitScheduleResponse,
     newDescribeBandwidthRateLimitScheduleResponse,
 
     -- ** DescribeCache
-    DescribeCache (DescribeCache'),
+    DescribeCache,
     newDescribeCache,
-    DescribeCacheResponse (DescribeCacheResponse'),
+    DescribeCacheResponse,
     newDescribeCacheResponse,
 
     -- ** DescribeCachediSCSIVolumes
-    DescribeCachediSCSIVolumes (DescribeCachediSCSIVolumes'),
+    DescribeCachediSCSIVolumes,
     newDescribeCachediSCSIVolumes,
-    DescribeCachediSCSIVolumesResponse (DescribeCachediSCSIVolumesResponse'),
+    DescribeCachediSCSIVolumesResponse,
     newDescribeCachediSCSIVolumesResponse,
 
     -- ** DescribeChapCredentials
-    DescribeChapCredentials (DescribeChapCredentials'),
+    DescribeChapCredentials,
     newDescribeChapCredentials,
-    DescribeChapCredentialsResponse (DescribeChapCredentialsResponse'),
+    DescribeChapCredentialsResponse,
     newDescribeChapCredentialsResponse,
 
     -- ** DescribeFileSystemAssociations
-    DescribeFileSystemAssociations (DescribeFileSystemAssociations'),
+    DescribeFileSystemAssociations,
     newDescribeFileSystemAssociations,
-    DescribeFileSystemAssociationsResponse (DescribeFileSystemAssociationsResponse'),
+    DescribeFileSystemAssociationsResponse,
     newDescribeFileSystemAssociationsResponse,
 
     -- ** DescribeGatewayInformation
-    DescribeGatewayInformation (DescribeGatewayInformation'),
+    DescribeGatewayInformation,
     newDescribeGatewayInformation,
-    DescribeGatewayInformationResponse (DescribeGatewayInformationResponse'),
+    DescribeGatewayInformationResponse,
     newDescribeGatewayInformationResponse,
 
     -- ** DescribeMaintenanceStartTime
-    DescribeMaintenanceStartTime (DescribeMaintenanceStartTime'),
+    DescribeMaintenanceStartTime,
     newDescribeMaintenanceStartTime,
-    DescribeMaintenanceStartTimeResponse (DescribeMaintenanceStartTimeResponse'),
+    DescribeMaintenanceStartTimeResponse,
     newDescribeMaintenanceStartTimeResponse,
 
     -- ** DescribeNFSFileShares
-    DescribeNFSFileShares (DescribeNFSFileShares'),
+    DescribeNFSFileShares,
     newDescribeNFSFileShares,
-    DescribeNFSFileSharesResponse (DescribeNFSFileSharesResponse'),
+    DescribeNFSFileSharesResponse,
     newDescribeNFSFileSharesResponse,
 
     -- ** DescribeSMBFileShares
-    DescribeSMBFileShares (DescribeSMBFileShares'),
+    DescribeSMBFileShares,
     newDescribeSMBFileShares,
-    DescribeSMBFileSharesResponse (DescribeSMBFileSharesResponse'),
+    DescribeSMBFileSharesResponse,
     newDescribeSMBFileSharesResponse,
 
     -- ** DescribeSMBSettings
-    DescribeSMBSettings (DescribeSMBSettings'),
+    DescribeSMBSettings,
     newDescribeSMBSettings,
-    DescribeSMBSettingsResponse (DescribeSMBSettingsResponse'),
+    DescribeSMBSettingsResponse,
     newDescribeSMBSettingsResponse,
 
     -- ** DescribeSnapshotSchedule
-    DescribeSnapshotSchedule (DescribeSnapshotSchedule'),
+    DescribeSnapshotSchedule,
     newDescribeSnapshotSchedule,
-    DescribeSnapshotScheduleResponse (DescribeSnapshotScheduleResponse'),
+    DescribeSnapshotScheduleResponse,
     newDescribeSnapshotScheduleResponse,
 
     -- ** DescribeStorediSCSIVolumes
-    DescribeStorediSCSIVolumes (DescribeStorediSCSIVolumes'),
+    DescribeStorediSCSIVolumes,
     newDescribeStorediSCSIVolumes,
-    DescribeStorediSCSIVolumesResponse (DescribeStorediSCSIVolumesResponse'),
+    DescribeStorediSCSIVolumesResponse,
     newDescribeStorediSCSIVolumesResponse,
 
     -- ** DescribeTapeArchives (Paginated)
-    DescribeTapeArchives (DescribeTapeArchives'),
+    DescribeTapeArchives,
     newDescribeTapeArchives,
-    DescribeTapeArchivesResponse (DescribeTapeArchivesResponse'),
+    DescribeTapeArchivesResponse,
     newDescribeTapeArchivesResponse,
 
     -- ** DescribeTapeRecoveryPoints (Paginated)
-    DescribeTapeRecoveryPoints (DescribeTapeRecoveryPoints'),
+    DescribeTapeRecoveryPoints,
     newDescribeTapeRecoveryPoints,
-    DescribeTapeRecoveryPointsResponse (DescribeTapeRecoveryPointsResponse'),
+    DescribeTapeRecoveryPointsResponse,
     newDescribeTapeRecoveryPointsResponse,
 
     -- ** DescribeTapes (Paginated)
-    DescribeTapes (DescribeTapes'),
+    DescribeTapes,
     newDescribeTapes,
-    DescribeTapesResponse (DescribeTapesResponse'),
+    DescribeTapesResponse,
     newDescribeTapesResponse,
 
     -- ** DescribeUploadBuffer
-    DescribeUploadBuffer (DescribeUploadBuffer'),
+    DescribeUploadBuffer,
     newDescribeUploadBuffer,
-    DescribeUploadBufferResponse (DescribeUploadBufferResponse'),
+    DescribeUploadBufferResponse,
     newDescribeUploadBufferResponse,
 
     -- ** DescribeVTLDevices (Paginated)
-    DescribeVTLDevices (DescribeVTLDevices'),
+    DescribeVTLDevices,
     newDescribeVTLDevices,
-    DescribeVTLDevicesResponse (DescribeVTLDevicesResponse'),
+    DescribeVTLDevicesResponse,
     newDescribeVTLDevicesResponse,
 
     -- ** DescribeWorkingStorage
-    DescribeWorkingStorage (DescribeWorkingStorage'),
+    DescribeWorkingStorage,
     newDescribeWorkingStorage,
-    DescribeWorkingStorageResponse (DescribeWorkingStorageResponse'),
+    DescribeWorkingStorageResponse,
     newDescribeWorkingStorageResponse,
 
     -- ** DetachVolume
-    DetachVolume (DetachVolume'),
+    DetachVolume,
     newDetachVolume,
-    DetachVolumeResponse (DetachVolumeResponse'),
+    DetachVolumeResponse,
     newDetachVolumeResponse,
 
     -- ** DisableGateway
-    DisableGateway (DisableGateway'),
+    DisableGateway,
     newDisableGateway,
-    DisableGatewayResponse (DisableGatewayResponse'),
+    DisableGatewayResponse,
     newDisableGatewayResponse,
 
     -- ** DisassociateFileSystem
-    DisassociateFileSystem (DisassociateFileSystem'),
+    DisassociateFileSystem,
     newDisassociateFileSystem,
-    DisassociateFileSystemResponse (DisassociateFileSystemResponse'),
+    DisassociateFileSystemResponse,
     newDisassociateFileSystemResponse,
 
     -- ** JoinDomain
-    JoinDomain (JoinDomain'),
+    JoinDomain,
     newJoinDomain,
-    JoinDomainResponse (JoinDomainResponse'),
+    JoinDomainResponse,
     newJoinDomainResponse,
 
     -- ** ListAutomaticTapeCreationPolicies
-    ListAutomaticTapeCreationPolicies (ListAutomaticTapeCreationPolicies'),
+    ListAutomaticTapeCreationPolicies,
     newListAutomaticTapeCreationPolicies,
-    ListAutomaticTapeCreationPoliciesResponse (ListAutomaticTapeCreationPoliciesResponse'),
+    ListAutomaticTapeCreationPoliciesResponse,
     newListAutomaticTapeCreationPoliciesResponse,
 
     -- ** ListFileShares (Paginated)
-    ListFileShares (ListFileShares'),
+    ListFileShares,
     newListFileShares,
-    ListFileSharesResponse (ListFileSharesResponse'),
+    ListFileSharesResponse,
     newListFileSharesResponse,
 
     -- ** ListFileSystemAssociations (Paginated)
-    ListFileSystemAssociations (ListFileSystemAssociations'),
+    ListFileSystemAssociations,
     newListFileSystemAssociations,
-    ListFileSystemAssociationsResponse (ListFileSystemAssociationsResponse'),
+    ListFileSystemAssociationsResponse,
     newListFileSystemAssociationsResponse,
 
     -- ** ListGateways (Paginated)
-    ListGateways (ListGateways'),
+    ListGateways,
     newListGateways,
-    ListGatewaysResponse (ListGatewaysResponse'),
+    ListGatewaysResponse,
     newListGatewaysResponse,
 
     -- ** ListLocalDisks
-    ListLocalDisks (ListLocalDisks'),
+    ListLocalDisks,
     newListLocalDisks,
-    ListLocalDisksResponse (ListLocalDisksResponse'),
+    ListLocalDisksResponse,
     newListLocalDisksResponse,
 
     -- ** ListTagsForResource (Paginated)
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** ListTapePools (Paginated)
-    ListTapePools (ListTapePools'),
+    ListTapePools,
     newListTapePools,
-    ListTapePoolsResponse (ListTapePoolsResponse'),
+    ListTapePoolsResponse,
     newListTapePoolsResponse,
 
     -- ** ListTapes (Paginated)
-    ListTapes (ListTapes'),
+    ListTapes,
     newListTapes,
-    ListTapesResponse (ListTapesResponse'),
+    ListTapesResponse,
     newListTapesResponse,
 
     -- ** ListVolumeInitiators
-    ListVolumeInitiators (ListVolumeInitiators'),
+    ListVolumeInitiators,
     newListVolumeInitiators,
-    ListVolumeInitiatorsResponse (ListVolumeInitiatorsResponse'),
+    ListVolumeInitiatorsResponse,
     newListVolumeInitiatorsResponse,
 
     -- ** ListVolumeRecoveryPoints
-    ListVolumeRecoveryPoints (ListVolumeRecoveryPoints'),
+    ListVolumeRecoveryPoints,
     newListVolumeRecoveryPoints,
-    ListVolumeRecoveryPointsResponse (ListVolumeRecoveryPointsResponse'),
+    ListVolumeRecoveryPointsResponse,
     newListVolumeRecoveryPointsResponse,
 
     -- ** ListVolumes (Paginated)
-    ListVolumes (ListVolumes'),
+    ListVolumes,
     newListVolumes,
-    ListVolumesResponse (ListVolumesResponse'),
+    ListVolumesResponse,
     newListVolumesResponse,
 
     -- ** NotifyWhenUploaded
-    NotifyWhenUploaded (NotifyWhenUploaded'),
+    NotifyWhenUploaded,
     newNotifyWhenUploaded,
-    NotifyWhenUploadedResponse (NotifyWhenUploadedResponse'),
+    NotifyWhenUploadedResponse,
     newNotifyWhenUploadedResponse,
 
     -- ** RefreshCache
-    RefreshCache (RefreshCache'),
+    RefreshCache,
     newRefreshCache,
-    RefreshCacheResponse (RefreshCacheResponse'),
+    RefreshCacheResponse,
     newRefreshCacheResponse,
 
     -- ** RemoveTagsFromResource
-    RemoveTagsFromResource (RemoveTagsFromResource'),
+    RemoveTagsFromResource,
     newRemoveTagsFromResource,
-    RemoveTagsFromResourceResponse (RemoveTagsFromResourceResponse'),
+    RemoveTagsFromResourceResponse,
     newRemoveTagsFromResourceResponse,
 
     -- ** ResetCache
-    ResetCache (ResetCache'),
+    ResetCache,
     newResetCache,
-    ResetCacheResponse (ResetCacheResponse'),
+    ResetCacheResponse,
     newResetCacheResponse,
 
     -- ** RetrieveTapeArchive
-    RetrieveTapeArchive (RetrieveTapeArchive'),
+    RetrieveTapeArchive,
     newRetrieveTapeArchive,
-    RetrieveTapeArchiveResponse (RetrieveTapeArchiveResponse'),
+    RetrieveTapeArchiveResponse,
     newRetrieveTapeArchiveResponse,
 
     -- ** RetrieveTapeRecoveryPoint
-    RetrieveTapeRecoveryPoint (RetrieveTapeRecoveryPoint'),
+    RetrieveTapeRecoveryPoint,
     newRetrieveTapeRecoveryPoint,
-    RetrieveTapeRecoveryPointResponse (RetrieveTapeRecoveryPointResponse'),
+    RetrieveTapeRecoveryPointResponse,
     newRetrieveTapeRecoveryPointResponse,
 
     -- ** SetLocalConsolePassword
-    SetLocalConsolePassword (SetLocalConsolePassword'),
+    SetLocalConsolePassword,
     newSetLocalConsolePassword,
-    SetLocalConsolePasswordResponse (SetLocalConsolePasswordResponse'),
+    SetLocalConsolePasswordResponse,
     newSetLocalConsolePasswordResponse,
 
     -- ** SetSMBGuestPassword
-    SetSMBGuestPassword (SetSMBGuestPassword'),
+    SetSMBGuestPassword,
     newSetSMBGuestPassword,
-    SetSMBGuestPasswordResponse (SetSMBGuestPasswordResponse'),
+    SetSMBGuestPasswordResponse,
     newSetSMBGuestPasswordResponse,
 
     -- ** ShutdownGateway
-    ShutdownGateway (ShutdownGateway'),
+    ShutdownGateway,
     newShutdownGateway,
-    ShutdownGatewayResponse (ShutdownGatewayResponse'),
+    ShutdownGatewayResponse,
     newShutdownGatewayResponse,
 
     -- ** StartAvailabilityMonitorTest
-    StartAvailabilityMonitorTest (StartAvailabilityMonitorTest'),
+    StartAvailabilityMonitorTest,
     newStartAvailabilityMonitorTest,
-    StartAvailabilityMonitorTestResponse (StartAvailabilityMonitorTestResponse'),
+    StartAvailabilityMonitorTestResponse,
     newStartAvailabilityMonitorTestResponse,
 
     -- ** StartGateway
-    StartGateway (StartGateway'),
+    StartGateway,
     newStartGateway,
-    StartGatewayResponse (StartGatewayResponse'),
+    StartGatewayResponse,
     newStartGatewayResponse,
 
     -- ** UpdateAutomaticTapeCreationPolicy
-    UpdateAutomaticTapeCreationPolicy (UpdateAutomaticTapeCreationPolicy'),
+    UpdateAutomaticTapeCreationPolicy,
     newUpdateAutomaticTapeCreationPolicy,
-    UpdateAutomaticTapeCreationPolicyResponse (UpdateAutomaticTapeCreationPolicyResponse'),
+    UpdateAutomaticTapeCreationPolicyResponse,
     newUpdateAutomaticTapeCreationPolicyResponse,
 
     -- ** UpdateBandwidthRateLimit
-    UpdateBandwidthRateLimit (UpdateBandwidthRateLimit'),
+    UpdateBandwidthRateLimit,
     newUpdateBandwidthRateLimit,
-    UpdateBandwidthRateLimitResponse (UpdateBandwidthRateLimitResponse'),
+    UpdateBandwidthRateLimitResponse,
     newUpdateBandwidthRateLimitResponse,
 
     -- ** UpdateBandwidthRateLimitSchedule
-    UpdateBandwidthRateLimitSchedule (UpdateBandwidthRateLimitSchedule'),
+    UpdateBandwidthRateLimitSchedule,
     newUpdateBandwidthRateLimitSchedule,
-    UpdateBandwidthRateLimitScheduleResponse (UpdateBandwidthRateLimitScheduleResponse'),
+    UpdateBandwidthRateLimitScheduleResponse,
     newUpdateBandwidthRateLimitScheduleResponse,
 
     -- ** UpdateChapCredentials
-    UpdateChapCredentials (UpdateChapCredentials'),
+    UpdateChapCredentials,
     newUpdateChapCredentials,
-    UpdateChapCredentialsResponse (UpdateChapCredentialsResponse'),
+    UpdateChapCredentialsResponse,
     newUpdateChapCredentialsResponse,
 
     -- ** UpdateFileSystemAssociation
-    UpdateFileSystemAssociation (UpdateFileSystemAssociation'),
+    UpdateFileSystemAssociation,
     newUpdateFileSystemAssociation,
-    UpdateFileSystemAssociationResponse (UpdateFileSystemAssociationResponse'),
+    UpdateFileSystemAssociationResponse,
     newUpdateFileSystemAssociationResponse,
 
     -- ** UpdateGatewayInformation
-    UpdateGatewayInformation (UpdateGatewayInformation'),
+    UpdateGatewayInformation,
     newUpdateGatewayInformation,
-    UpdateGatewayInformationResponse (UpdateGatewayInformationResponse'),
+    UpdateGatewayInformationResponse,
     newUpdateGatewayInformationResponse,
 
     -- ** UpdateGatewaySoftwareNow
-    UpdateGatewaySoftwareNow (UpdateGatewaySoftwareNow'),
+    UpdateGatewaySoftwareNow,
     newUpdateGatewaySoftwareNow,
-    UpdateGatewaySoftwareNowResponse (UpdateGatewaySoftwareNowResponse'),
+    UpdateGatewaySoftwareNowResponse,
     newUpdateGatewaySoftwareNowResponse,
 
     -- ** UpdateMaintenanceStartTime
-    UpdateMaintenanceStartTime (UpdateMaintenanceStartTime'),
+    UpdateMaintenanceStartTime,
     newUpdateMaintenanceStartTime,
-    UpdateMaintenanceStartTimeResponse (UpdateMaintenanceStartTimeResponse'),
+    UpdateMaintenanceStartTimeResponse,
     newUpdateMaintenanceStartTimeResponse,
 
     -- ** UpdateNFSFileShare
-    UpdateNFSFileShare (UpdateNFSFileShare'),
+    UpdateNFSFileShare,
     newUpdateNFSFileShare,
-    UpdateNFSFileShareResponse (UpdateNFSFileShareResponse'),
+    UpdateNFSFileShareResponse,
     newUpdateNFSFileShareResponse,
 
     -- ** UpdateSMBFileShare
-    UpdateSMBFileShare (UpdateSMBFileShare'),
+    UpdateSMBFileShare,
     newUpdateSMBFileShare,
-    UpdateSMBFileShareResponse (UpdateSMBFileShareResponse'),
+    UpdateSMBFileShareResponse,
     newUpdateSMBFileShareResponse,
 
     -- ** UpdateSMBFileShareVisibility
-    UpdateSMBFileShareVisibility (UpdateSMBFileShareVisibility'),
+    UpdateSMBFileShareVisibility,
     newUpdateSMBFileShareVisibility,
-    UpdateSMBFileShareVisibilityResponse (UpdateSMBFileShareVisibilityResponse'),
+    UpdateSMBFileShareVisibilityResponse,
     newUpdateSMBFileShareVisibilityResponse,
 
     -- ** UpdateSMBLocalGroups
-    UpdateSMBLocalGroups (UpdateSMBLocalGroups'),
+    UpdateSMBLocalGroups,
     newUpdateSMBLocalGroups,
-    UpdateSMBLocalGroupsResponse (UpdateSMBLocalGroupsResponse'),
+    UpdateSMBLocalGroupsResponse,
     newUpdateSMBLocalGroupsResponse,
 
     -- ** UpdateSMBSecurityStrategy
-    UpdateSMBSecurityStrategy (UpdateSMBSecurityStrategy'),
+    UpdateSMBSecurityStrategy,
     newUpdateSMBSecurityStrategy,
-    UpdateSMBSecurityStrategyResponse (UpdateSMBSecurityStrategyResponse'),
+    UpdateSMBSecurityStrategyResponse,
     newUpdateSMBSecurityStrategyResponse,
 
     -- ** UpdateSnapshotSchedule
-    UpdateSnapshotSchedule (UpdateSnapshotSchedule'),
+    UpdateSnapshotSchedule,
     newUpdateSnapshotSchedule,
-    UpdateSnapshotScheduleResponse (UpdateSnapshotScheduleResponse'),
+    UpdateSnapshotScheduleResponse,
     newUpdateSnapshotScheduleResponse,
 
     -- ** UpdateVTLDeviceType
-    UpdateVTLDeviceType (UpdateVTLDeviceType'),
+    UpdateVTLDeviceType,
     newUpdateVTLDeviceType,
-    UpdateVTLDeviceTypeResponse (UpdateVTLDeviceTypeResponse'),
+    UpdateVTLDeviceTypeResponse,
     newUpdateVTLDeviceTypeResponse,
 
     -- * Types
@@ -667,123 +667,123 @@ module Amazonka.StorageGateway
     TapeStorageClass (..),
 
     -- ** AutomaticTapeCreationPolicyInfo
-    AutomaticTapeCreationPolicyInfo (AutomaticTapeCreationPolicyInfo'),
+    AutomaticTapeCreationPolicyInfo,
     newAutomaticTapeCreationPolicyInfo,
 
     -- ** AutomaticTapeCreationRule
-    AutomaticTapeCreationRule (AutomaticTapeCreationRule'),
+    AutomaticTapeCreationRule,
     newAutomaticTapeCreationRule,
 
     -- ** BandwidthRateLimitInterval
-    BandwidthRateLimitInterval (BandwidthRateLimitInterval'),
+    BandwidthRateLimitInterval,
     newBandwidthRateLimitInterval,
 
     -- ** CacheAttributes
-    CacheAttributes (CacheAttributes'),
+    CacheAttributes,
     newCacheAttributes,
 
     -- ** CachediSCSIVolume
-    CachediSCSIVolume (CachediSCSIVolume'),
+    CachediSCSIVolume,
     newCachediSCSIVolume,
 
     -- ** ChapInfo
-    ChapInfo (ChapInfo'),
+    ChapInfo,
     newChapInfo,
 
     -- ** DeviceiSCSIAttributes
-    DeviceiSCSIAttributes (DeviceiSCSIAttributes'),
+    DeviceiSCSIAttributes,
     newDeviceiSCSIAttributes,
 
     -- ** Disk
-    Disk (Disk'),
+    Disk,
     newDisk,
 
     -- ** EndpointNetworkConfiguration
-    EndpointNetworkConfiguration (EndpointNetworkConfiguration'),
+    EndpointNetworkConfiguration,
     newEndpointNetworkConfiguration,
 
     -- ** FileShareInfo
-    FileShareInfo (FileShareInfo'),
+    FileShareInfo,
     newFileShareInfo,
 
     -- ** FileSystemAssociationInfo
-    FileSystemAssociationInfo (FileSystemAssociationInfo'),
+    FileSystemAssociationInfo,
     newFileSystemAssociationInfo,
 
     -- ** FileSystemAssociationStatusDetail
-    FileSystemAssociationStatusDetail (FileSystemAssociationStatusDetail'),
+    FileSystemAssociationStatusDetail,
     newFileSystemAssociationStatusDetail,
 
     -- ** FileSystemAssociationSummary
-    FileSystemAssociationSummary (FileSystemAssociationSummary'),
+    FileSystemAssociationSummary,
     newFileSystemAssociationSummary,
 
     -- ** GatewayInfo
-    GatewayInfo (GatewayInfo'),
+    GatewayInfo,
     newGatewayInfo,
 
     -- ** NFSFileShareDefaults
-    NFSFileShareDefaults (NFSFileShareDefaults'),
+    NFSFileShareDefaults,
     newNFSFileShareDefaults,
 
     -- ** NFSFileShareInfo
-    NFSFileShareInfo (NFSFileShareInfo'),
+    NFSFileShareInfo,
     newNFSFileShareInfo,
 
     -- ** NetworkInterface
-    NetworkInterface (NetworkInterface'),
+    NetworkInterface,
     newNetworkInterface,
 
     -- ** PoolInfo
-    PoolInfo (PoolInfo'),
+    PoolInfo,
     newPoolInfo,
 
     -- ** SMBFileShareInfo
-    SMBFileShareInfo (SMBFileShareInfo'),
+    SMBFileShareInfo,
     newSMBFileShareInfo,
 
     -- ** SMBLocalGroups
-    SMBLocalGroups (SMBLocalGroups'),
+    SMBLocalGroups,
     newSMBLocalGroups,
 
     -- ** StorediSCSIVolume
-    StorediSCSIVolume (StorediSCSIVolume'),
+    StorediSCSIVolume,
     newStorediSCSIVolume,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
 
     -- ** Tape
-    Tape (Tape'),
+    Tape,
     newTape,
 
     -- ** TapeArchive
-    TapeArchive (TapeArchive'),
+    TapeArchive,
     newTapeArchive,
 
     -- ** TapeInfo
-    TapeInfo (TapeInfo'),
+    TapeInfo,
     newTapeInfo,
 
     -- ** TapeRecoveryPointInfo
-    TapeRecoveryPointInfo (TapeRecoveryPointInfo'),
+    TapeRecoveryPointInfo,
     newTapeRecoveryPointInfo,
 
     -- ** VTLDevice
-    VTLDevice (VTLDevice'),
+    VTLDevice,
     newVTLDevice,
 
     -- ** VolumeInfo
-    VolumeInfo (VolumeInfo'),
+    VolumeInfo,
     newVolumeInfo,
 
     -- ** VolumeRecoveryPointInfo
-    VolumeRecoveryPointInfo (VolumeRecoveryPointInfo'),
+    VolumeRecoveryPointInfo,
     newVolumeRecoveryPointInfo,
 
     -- ** VolumeiSCSIAttributes
-    VolumeiSCSIAttributes (VolumeiSCSIAttributes'),
+    VolumeiSCSIAttributes,
     newVolumeiSCSIAttributes,
   )
 where

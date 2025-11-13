@@ -63,177 +63,177 @@ module Amazonka.SSMIncidents
     -- $operations
 
     -- ** CreateReplicationSet
-    CreateReplicationSet (CreateReplicationSet'),
+    CreateReplicationSet,
     newCreateReplicationSet,
-    CreateReplicationSetResponse (CreateReplicationSetResponse'),
+    CreateReplicationSetResponse,
     newCreateReplicationSetResponse,
 
     -- ** CreateResponsePlan
-    CreateResponsePlan (CreateResponsePlan'),
+    CreateResponsePlan,
     newCreateResponsePlan,
-    CreateResponsePlanResponse (CreateResponsePlanResponse'),
+    CreateResponsePlanResponse,
     newCreateResponsePlanResponse,
 
     -- ** CreateTimelineEvent
-    CreateTimelineEvent (CreateTimelineEvent'),
+    CreateTimelineEvent,
     newCreateTimelineEvent,
-    CreateTimelineEventResponse (CreateTimelineEventResponse'),
+    CreateTimelineEventResponse,
     newCreateTimelineEventResponse,
 
     -- ** DeleteIncidentRecord
-    DeleteIncidentRecord (DeleteIncidentRecord'),
+    DeleteIncidentRecord,
     newDeleteIncidentRecord,
-    DeleteIncidentRecordResponse (DeleteIncidentRecordResponse'),
+    DeleteIncidentRecordResponse,
     newDeleteIncidentRecordResponse,
 
     -- ** DeleteReplicationSet
-    DeleteReplicationSet (DeleteReplicationSet'),
+    DeleteReplicationSet,
     newDeleteReplicationSet,
-    DeleteReplicationSetResponse (DeleteReplicationSetResponse'),
+    DeleteReplicationSetResponse,
     newDeleteReplicationSetResponse,
 
     -- ** DeleteResourcePolicy
-    DeleteResourcePolicy (DeleteResourcePolicy'),
+    DeleteResourcePolicy,
     newDeleteResourcePolicy,
-    DeleteResourcePolicyResponse (DeleteResourcePolicyResponse'),
+    DeleteResourcePolicyResponse,
     newDeleteResourcePolicyResponse,
 
     -- ** DeleteResponsePlan
-    DeleteResponsePlan (DeleteResponsePlan'),
+    DeleteResponsePlan,
     newDeleteResponsePlan,
-    DeleteResponsePlanResponse (DeleteResponsePlanResponse'),
+    DeleteResponsePlanResponse,
     newDeleteResponsePlanResponse,
 
     -- ** DeleteTimelineEvent
-    DeleteTimelineEvent (DeleteTimelineEvent'),
+    DeleteTimelineEvent,
     newDeleteTimelineEvent,
-    DeleteTimelineEventResponse (DeleteTimelineEventResponse'),
+    DeleteTimelineEventResponse,
     newDeleteTimelineEventResponse,
 
     -- ** GetIncidentRecord
-    GetIncidentRecord (GetIncidentRecord'),
+    GetIncidentRecord,
     newGetIncidentRecord,
-    GetIncidentRecordResponse (GetIncidentRecordResponse'),
+    GetIncidentRecordResponse,
     newGetIncidentRecordResponse,
 
     -- ** GetReplicationSet
-    GetReplicationSet (GetReplicationSet'),
+    GetReplicationSet,
     newGetReplicationSet,
-    GetReplicationSetResponse (GetReplicationSetResponse'),
+    GetReplicationSetResponse,
     newGetReplicationSetResponse,
 
     -- ** GetResourcePolicies (Paginated)
-    GetResourcePolicies (GetResourcePolicies'),
+    GetResourcePolicies,
     newGetResourcePolicies,
-    GetResourcePoliciesResponse (GetResourcePoliciesResponse'),
+    GetResourcePoliciesResponse,
     newGetResourcePoliciesResponse,
 
     -- ** GetResponsePlan
-    GetResponsePlan (GetResponsePlan'),
+    GetResponsePlan,
     newGetResponsePlan,
-    GetResponsePlanResponse (GetResponsePlanResponse'),
+    GetResponsePlanResponse,
     newGetResponsePlanResponse,
 
     -- ** GetTimelineEvent
-    GetTimelineEvent (GetTimelineEvent'),
+    GetTimelineEvent,
     newGetTimelineEvent,
-    GetTimelineEventResponse (GetTimelineEventResponse'),
+    GetTimelineEventResponse,
     newGetTimelineEventResponse,
 
     -- ** ListIncidentRecords (Paginated)
-    ListIncidentRecords (ListIncidentRecords'),
+    ListIncidentRecords,
     newListIncidentRecords,
-    ListIncidentRecordsResponse (ListIncidentRecordsResponse'),
+    ListIncidentRecordsResponse,
     newListIncidentRecordsResponse,
 
     -- ** ListRelatedItems (Paginated)
-    ListRelatedItems (ListRelatedItems'),
+    ListRelatedItems,
     newListRelatedItems,
-    ListRelatedItemsResponse (ListRelatedItemsResponse'),
+    ListRelatedItemsResponse,
     newListRelatedItemsResponse,
 
     -- ** ListReplicationSets (Paginated)
-    ListReplicationSets (ListReplicationSets'),
+    ListReplicationSets,
     newListReplicationSets,
-    ListReplicationSetsResponse (ListReplicationSetsResponse'),
+    ListReplicationSetsResponse,
     newListReplicationSetsResponse,
 
     -- ** ListResponsePlans (Paginated)
-    ListResponsePlans (ListResponsePlans'),
+    ListResponsePlans,
     newListResponsePlans,
-    ListResponsePlansResponse (ListResponsePlansResponse'),
+    ListResponsePlansResponse,
     newListResponsePlansResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** ListTimelineEvents (Paginated)
-    ListTimelineEvents (ListTimelineEvents'),
+    ListTimelineEvents,
     newListTimelineEvents,
-    ListTimelineEventsResponse (ListTimelineEventsResponse'),
+    ListTimelineEventsResponse,
     newListTimelineEventsResponse,
 
     -- ** PutResourcePolicy
-    PutResourcePolicy (PutResourcePolicy'),
+    PutResourcePolicy,
     newPutResourcePolicy,
-    PutResourcePolicyResponse (PutResourcePolicyResponse'),
+    PutResourcePolicyResponse,
     newPutResourcePolicyResponse,
 
     -- ** StartIncident
-    StartIncident (StartIncident'),
+    StartIncident,
     newStartIncident,
-    StartIncidentResponse (StartIncidentResponse'),
+    StartIncidentResponse,
     newStartIncidentResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateDeletionProtection
-    UpdateDeletionProtection (UpdateDeletionProtection'),
+    UpdateDeletionProtection,
     newUpdateDeletionProtection,
-    UpdateDeletionProtectionResponse (UpdateDeletionProtectionResponse'),
+    UpdateDeletionProtectionResponse,
     newUpdateDeletionProtectionResponse,
 
     -- ** UpdateIncidentRecord
-    UpdateIncidentRecord (UpdateIncidentRecord'),
+    UpdateIncidentRecord,
     newUpdateIncidentRecord,
-    UpdateIncidentRecordResponse (UpdateIncidentRecordResponse'),
+    UpdateIncidentRecordResponse,
     newUpdateIncidentRecordResponse,
 
     -- ** UpdateRelatedItems
-    UpdateRelatedItems (UpdateRelatedItems'),
+    UpdateRelatedItems,
     newUpdateRelatedItems,
-    UpdateRelatedItemsResponse (UpdateRelatedItemsResponse'),
+    UpdateRelatedItemsResponse,
     newUpdateRelatedItemsResponse,
 
     -- ** UpdateReplicationSet
-    UpdateReplicationSet (UpdateReplicationSet'),
+    UpdateReplicationSet,
     newUpdateReplicationSet,
-    UpdateReplicationSetResponse (UpdateReplicationSetResponse'),
+    UpdateReplicationSetResponse,
     newUpdateReplicationSetResponse,
 
     -- ** UpdateResponsePlan
-    UpdateResponsePlan (UpdateResponsePlan'),
+    UpdateResponsePlan,
     newUpdateResponsePlan,
-    UpdateResponsePlanResponse (UpdateResponsePlanResponse'),
+    UpdateResponsePlanResponse,
     newUpdateResponsePlanResponse,
 
     -- ** UpdateTimelineEvent
-    UpdateTimelineEvent (UpdateTimelineEvent'),
+    UpdateTimelineEvent,
     newUpdateTimelineEvent,
-    UpdateTimelineEventResponse (UpdateTimelineEventResponse'),
+    UpdateTimelineEventResponse,
     newUpdateTimelineEventResponse,
 
     -- * Types
@@ -263,139 +263,139 @@ module Amazonka.SSMIncidents
     VariableType (..),
 
     -- ** Action
-    Action (Action'),
+    Action,
     newAction,
 
     -- ** AddRegionAction
-    AddRegionAction (AddRegionAction'),
+    AddRegionAction,
     newAddRegionAction,
 
     -- ** AttributeValueList
-    AttributeValueList (AttributeValueList'),
+    AttributeValueList,
     newAttributeValueList,
 
     -- ** AutomationExecution
-    AutomationExecution (AutomationExecution'),
+    AutomationExecution,
     newAutomationExecution,
 
     -- ** ChatChannel
-    ChatChannel (ChatChannel'),
+    ChatChannel,
     newChatChannel,
 
     -- ** Condition
-    Condition (Condition'),
+    Condition,
     newCondition,
 
     -- ** DeleteRegionAction
-    DeleteRegionAction (DeleteRegionAction'),
+    DeleteRegionAction,
     newDeleteRegionAction,
 
     -- ** DynamicSsmParameterValue
-    DynamicSsmParameterValue (DynamicSsmParameterValue'),
+    DynamicSsmParameterValue,
     newDynamicSsmParameterValue,
 
     -- ** EmptyChatChannel
-    EmptyChatChannel (EmptyChatChannel'),
+    EmptyChatChannel,
     newEmptyChatChannel,
 
     -- ** EventReference
-    EventReference (EventReference'),
+    EventReference,
     newEventReference,
 
     -- ** EventSummary
-    EventSummary (EventSummary'),
+    EventSummary,
     newEventSummary,
 
     -- ** Filter
-    Filter (Filter'),
+    Filter,
     newFilter,
 
     -- ** IncidentRecord
-    IncidentRecord (IncidentRecord'),
+    IncidentRecord,
     newIncidentRecord,
 
     -- ** IncidentRecordSource
-    IncidentRecordSource (IncidentRecordSource'),
+    IncidentRecordSource,
     newIncidentRecordSource,
 
     -- ** IncidentRecordSummary
-    IncidentRecordSummary (IncidentRecordSummary'),
+    IncidentRecordSummary,
     newIncidentRecordSummary,
 
     -- ** IncidentTemplate
-    IncidentTemplate (IncidentTemplate'),
+    IncidentTemplate,
     newIncidentTemplate,
 
     -- ** Integration
-    Integration (Integration'),
+    Integration,
     newIntegration,
 
     -- ** ItemIdentifier
-    ItemIdentifier (ItemIdentifier'),
+    ItemIdentifier,
     newItemIdentifier,
 
     -- ** ItemValue
-    ItemValue (ItemValue'),
+    ItemValue,
     newItemValue,
 
     -- ** NotificationTargetItem
-    NotificationTargetItem (NotificationTargetItem'),
+    NotificationTargetItem,
     newNotificationTargetItem,
 
     -- ** PagerDutyConfiguration
-    PagerDutyConfiguration (PagerDutyConfiguration'),
+    PagerDutyConfiguration,
     newPagerDutyConfiguration,
 
     -- ** PagerDutyIncidentConfiguration
-    PagerDutyIncidentConfiguration (PagerDutyIncidentConfiguration'),
+    PagerDutyIncidentConfiguration,
     newPagerDutyIncidentConfiguration,
 
     -- ** PagerDutyIncidentDetail
-    PagerDutyIncidentDetail (PagerDutyIncidentDetail'),
+    PagerDutyIncidentDetail,
     newPagerDutyIncidentDetail,
 
     -- ** RegionInfo
-    RegionInfo (RegionInfo'),
+    RegionInfo,
     newRegionInfo,
 
     -- ** RegionMapInputValue
-    RegionMapInputValue (RegionMapInputValue'),
+    RegionMapInputValue,
     newRegionMapInputValue,
 
     -- ** RelatedItem
-    RelatedItem (RelatedItem'),
+    RelatedItem,
     newRelatedItem,
 
     -- ** RelatedItemsUpdate
-    RelatedItemsUpdate (RelatedItemsUpdate'),
+    RelatedItemsUpdate,
     newRelatedItemsUpdate,
 
     -- ** ReplicationSet
-    ReplicationSet (ReplicationSet'),
+    ReplicationSet,
     newReplicationSet,
 
     -- ** ResourcePolicy
-    ResourcePolicy (ResourcePolicy'),
+    ResourcePolicy,
     newResourcePolicy,
 
     -- ** ResponsePlanSummary
-    ResponsePlanSummary (ResponsePlanSummary'),
+    ResponsePlanSummary,
     newResponsePlanSummary,
 
     -- ** SsmAutomation
-    SsmAutomation (SsmAutomation'),
+    SsmAutomation,
     newSsmAutomation,
 
     -- ** TimelineEvent
-    TimelineEvent (TimelineEvent'),
+    TimelineEvent,
     newTimelineEvent,
 
     -- ** TriggerDetails
-    TriggerDetails (TriggerDetails'),
+    TriggerDetails,
     newTriggerDetails,
 
     -- ** UpdateReplicationSetAction
-    UpdateReplicationSetAction (UpdateReplicationSetAction'),
+    UpdateReplicationSetAction,
     newUpdateReplicationSetAction,
   )
 where

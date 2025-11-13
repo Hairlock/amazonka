@@ -148,291 +148,291 @@ module Amazonka.WAFV2
     -- $operations
 
     -- ** AssociateWebACL
-    AssociateWebACL (AssociateWebACL'),
+    AssociateWebACL,
     newAssociateWebACL,
-    AssociateWebACLResponse (AssociateWebACLResponse'),
+    AssociateWebACLResponse,
     newAssociateWebACLResponse,
 
     -- ** CheckCapacity
-    CheckCapacity (CheckCapacity'),
+    CheckCapacity,
     newCheckCapacity,
-    CheckCapacityResponse (CheckCapacityResponse'),
+    CheckCapacityResponse,
     newCheckCapacityResponse,
 
     -- ** CreateIPSet
-    CreateIPSet (CreateIPSet'),
+    CreateIPSet,
     newCreateIPSet,
-    CreateIPSetResponse (CreateIPSetResponse'),
+    CreateIPSetResponse,
     newCreateIPSetResponse,
 
     -- ** CreateRegexPatternSet
-    CreateRegexPatternSet (CreateRegexPatternSet'),
+    CreateRegexPatternSet,
     newCreateRegexPatternSet,
-    CreateRegexPatternSetResponse (CreateRegexPatternSetResponse'),
+    CreateRegexPatternSetResponse,
     newCreateRegexPatternSetResponse,
 
     -- ** CreateRuleGroup
-    CreateRuleGroup (CreateRuleGroup'),
+    CreateRuleGroup,
     newCreateRuleGroup,
-    CreateRuleGroupResponse (CreateRuleGroupResponse'),
+    CreateRuleGroupResponse,
     newCreateRuleGroupResponse,
 
     -- ** CreateWebACL
-    CreateWebACL (CreateWebACL'),
+    CreateWebACL,
     newCreateWebACL,
-    CreateWebACLResponse (CreateWebACLResponse'),
+    CreateWebACLResponse,
     newCreateWebACLResponse,
 
     -- ** DeleteFirewallManagerRuleGroups
-    DeleteFirewallManagerRuleGroups (DeleteFirewallManagerRuleGroups'),
+    DeleteFirewallManagerRuleGroups,
     newDeleteFirewallManagerRuleGroups,
-    DeleteFirewallManagerRuleGroupsResponse (DeleteFirewallManagerRuleGroupsResponse'),
+    DeleteFirewallManagerRuleGroupsResponse,
     newDeleteFirewallManagerRuleGroupsResponse,
 
     -- ** DeleteIPSet
-    DeleteIPSet (DeleteIPSet'),
+    DeleteIPSet,
     newDeleteIPSet,
-    DeleteIPSetResponse (DeleteIPSetResponse'),
+    DeleteIPSetResponse,
     newDeleteIPSetResponse,
 
     -- ** DeleteLoggingConfiguration
-    DeleteLoggingConfiguration (DeleteLoggingConfiguration'),
+    DeleteLoggingConfiguration,
     newDeleteLoggingConfiguration,
-    DeleteLoggingConfigurationResponse (DeleteLoggingConfigurationResponse'),
+    DeleteLoggingConfigurationResponse,
     newDeleteLoggingConfigurationResponse,
 
     -- ** DeletePermissionPolicy
-    DeletePermissionPolicy (DeletePermissionPolicy'),
+    DeletePermissionPolicy,
     newDeletePermissionPolicy,
-    DeletePermissionPolicyResponse (DeletePermissionPolicyResponse'),
+    DeletePermissionPolicyResponse,
     newDeletePermissionPolicyResponse,
 
     -- ** DeleteRegexPatternSet
-    DeleteRegexPatternSet (DeleteRegexPatternSet'),
+    DeleteRegexPatternSet,
     newDeleteRegexPatternSet,
-    DeleteRegexPatternSetResponse (DeleteRegexPatternSetResponse'),
+    DeleteRegexPatternSetResponse,
     newDeleteRegexPatternSetResponse,
 
     -- ** DeleteRuleGroup
-    DeleteRuleGroup (DeleteRuleGroup'),
+    DeleteRuleGroup,
     newDeleteRuleGroup,
-    DeleteRuleGroupResponse (DeleteRuleGroupResponse'),
+    DeleteRuleGroupResponse,
     newDeleteRuleGroupResponse,
 
     -- ** DeleteWebACL
-    DeleteWebACL (DeleteWebACL'),
+    DeleteWebACL,
     newDeleteWebACL,
-    DeleteWebACLResponse (DeleteWebACLResponse'),
+    DeleteWebACLResponse,
     newDeleteWebACLResponse,
 
     -- ** DescribeManagedRuleGroup
-    DescribeManagedRuleGroup (DescribeManagedRuleGroup'),
+    DescribeManagedRuleGroup,
     newDescribeManagedRuleGroup,
-    DescribeManagedRuleGroupResponse (DescribeManagedRuleGroupResponse'),
+    DescribeManagedRuleGroupResponse,
     newDescribeManagedRuleGroupResponse,
 
     -- ** DisassociateWebACL
-    DisassociateWebACL (DisassociateWebACL'),
+    DisassociateWebACL,
     newDisassociateWebACL,
-    DisassociateWebACLResponse (DisassociateWebACLResponse'),
+    DisassociateWebACLResponse,
     newDisassociateWebACLResponse,
 
     -- ** GenerateMobileSdkReleaseUrl
-    GenerateMobileSdkReleaseUrl (GenerateMobileSdkReleaseUrl'),
+    GenerateMobileSdkReleaseUrl,
     newGenerateMobileSdkReleaseUrl,
-    GenerateMobileSdkReleaseUrlResponse (GenerateMobileSdkReleaseUrlResponse'),
+    GenerateMobileSdkReleaseUrlResponse,
     newGenerateMobileSdkReleaseUrlResponse,
 
     -- ** GetIPSet
-    GetIPSet (GetIPSet'),
+    GetIPSet,
     newGetIPSet,
-    GetIPSetResponse (GetIPSetResponse'),
+    GetIPSetResponse,
     newGetIPSetResponse,
 
     -- ** GetLoggingConfiguration
-    GetLoggingConfiguration (GetLoggingConfiguration'),
+    GetLoggingConfiguration,
     newGetLoggingConfiguration,
-    GetLoggingConfigurationResponse (GetLoggingConfigurationResponse'),
+    GetLoggingConfigurationResponse,
     newGetLoggingConfigurationResponse,
 
     -- ** GetManagedRuleSet
-    GetManagedRuleSet (GetManagedRuleSet'),
+    GetManagedRuleSet,
     newGetManagedRuleSet,
-    GetManagedRuleSetResponse (GetManagedRuleSetResponse'),
+    GetManagedRuleSetResponse,
     newGetManagedRuleSetResponse,
 
     -- ** GetMobileSdkRelease
-    GetMobileSdkRelease (GetMobileSdkRelease'),
+    GetMobileSdkRelease,
     newGetMobileSdkRelease,
-    GetMobileSdkReleaseResponse (GetMobileSdkReleaseResponse'),
+    GetMobileSdkReleaseResponse,
     newGetMobileSdkReleaseResponse,
 
     -- ** GetPermissionPolicy
-    GetPermissionPolicy (GetPermissionPolicy'),
+    GetPermissionPolicy,
     newGetPermissionPolicy,
-    GetPermissionPolicyResponse (GetPermissionPolicyResponse'),
+    GetPermissionPolicyResponse,
     newGetPermissionPolicyResponse,
 
     -- ** GetRateBasedStatementManagedKeys
-    GetRateBasedStatementManagedKeys (GetRateBasedStatementManagedKeys'),
+    GetRateBasedStatementManagedKeys,
     newGetRateBasedStatementManagedKeys,
-    GetRateBasedStatementManagedKeysResponse (GetRateBasedStatementManagedKeysResponse'),
+    GetRateBasedStatementManagedKeysResponse,
     newGetRateBasedStatementManagedKeysResponse,
 
     -- ** GetRegexPatternSet
-    GetRegexPatternSet (GetRegexPatternSet'),
+    GetRegexPatternSet,
     newGetRegexPatternSet,
-    GetRegexPatternSetResponse (GetRegexPatternSetResponse'),
+    GetRegexPatternSetResponse,
     newGetRegexPatternSetResponse,
 
     -- ** GetRuleGroup
-    GetRuleGroup (GetRuleGroup'),
+    GetRuleGroup,
     newGetRuleGroup,
-    GetRuleGroupResponse (GetRuleGroupResponse'),
+    GetRuleGroupResponse,
     newGetRuleGroupResponse,
 
     -- ** GetSampledRequests
-    GetSampledRequests (GetSampledRequests'),
+    GetSampledRequests,
     newGetSampledRequests,
-    GetSampledRequestsResponse (GetSampledRequestsResponse'),
+    GetSampledRequestsResponse,
     newGetSampledRequestsResponse,
 
     -- ** GetWebACL
-    GetWebACL (GetWebACL'),
+    GetWebACL,
     newGetWebACL,
-    GetWebACLResponse (GetWebACLResponse'),
+    GetWebACLResponse,
     newGetWebACLResponse,
 
     -- ** GetWebACLForResource
-    GetWebACLForResource (GetWebACLForResource'),
+    GetWebACLForResource,
     newGetWebACLForResource,
-    GetWebACLForResourceResponse (GetWebACLForResourceResponse'),
+    GetWebACLForResourceResponse,
     newGetWebACLForResourceResponse,
 
     -- ** ListAvailableManagedRuleGroupVersions
-    ListAvailableManagedRuleGroupVersions (ListAvailableManagedRuleGroupVersions'),
+    ListAvailableManagedRuleGroupVersions,
     newListAvailableManagedRuleGroupVersions,
-    ListAvailableManagedRuleGroupVersionsResponse (ListAvailableManagedRuleGroupVersionsResponse'),
+    ListAvailableManagedRuleGroupVersionsResponse,
     newListAvailableManagedRuleGroupVersionsResponse,
 
     -- ** ListAvailableManagedRuleGroups
-    ListAvailableManagedRuleGroups (ListAvailableManagedRuleGroups'),
+    ListAvailableManagedRuleGroups,
     newListAvailableManagedRuleGroups,
-    ListAvailableManagedRuleGroupsResponse (ListAvailableManagedRuleGroupsResponse'),
+    ListAvailableManagedRuleGroupsResponse,
     newListAvailableManagedRuleGroupsResponse,
 
     -- ** ListIPSets
-    ListIPSets (ListIPSets'),
+    ListIPSets,
     newListIPSets,
-    ListIPSetsResponse (ListIPSetsResponse'),
+    ListIPSetsResponse,
     newListIPSetsResponse,
 
     -- ** ListLoggingConfigurations
-    ListLoggingConfigurations (ListLoggingConfigurations'),
+    ListLoggingConfigurations,
     newListLoggingConfigurations,
-    ListLoggingConfigurationsResponse (ListLoggingConfigurationsResponse'),
+    ListLoggingConfigurationsResponse,
     newListLoggingConfigurationsResponse,
 
     -- ** ListManagedRuleSets
-    ListManagedRuleSets (ListManagedRuleSets'),
+    ListManagedRuleSets,
     newListManagedRuleSets,
-    ListManagedRuleSetsResponse (ListManagedRuleSetsResponse'),
+    ListManagedRuleSetsResponse,
     newListManagedRuleSetsResponse,
 
     -- ** ListMobileSdkReleases
-    ListMobileSdkReleases (ListMobileSdkReleases'),
+    ListMobileSdkReleases,
     newListMobileSdkReleases,
-    ListMobileSdkReleasesResponse (ListMobileSdkReleasesResponse'),
+    ListMobileSdkReleasesResponse,
     newListMobileSdkReleasesResponse,
 
     -- ** ListRegexPatternSets
-    ListRegexPatternSets (ListRegexPatternSets'),
+    ListRegexPatternSets,
     newListRegexPatternSets,
-    ListRegexPatternSetsResponse (ListRegexPatternSetsResponse'),
+    ListRegexPatternSetsResponse,
     newListRegexPatternSetsResponse,
 
     -- ** ListResourcesForWebACL
-    ListResourcesForWebACL (ListResourcesForWebACL'),
+    ListResourcesForWebACL,
     newListResourcesForWebACL,
-    ListResourcesForWebACLResponse (ListResourcesForWebACLResponse'),
+    ListResourcesForWebACLResponse,
     newListResourcesForWebACLResponse,
 
     -- ** ListRuleGroups
-    ListRuleGroups (ListRuleGroups'),
+    ListRuleGroups,
     newListRuleGroups,
-    ListRuleGroupsResponse (ListRuleGroupsResponse'),
+    ListRuleGroupsResponse,
     newListRuleGroupsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** ListWebACLs
-    ListWebACLs (ListWebACLs'),
+    ListWebACLs,
     newListWebACLs,
-    ListWebACLsResponse (ListWebACLsResponse'),
+    ListWebACLsResponse,
     newListWebACLsResponse,
 
     -- ** PutLoggingConfiguration
-    PutLoggingConfiguration (PutLoggingConfiguration'),
+    PutLoggingConfiguration,
     newPutLoggingConfiguration,
-    PutLoggingConfigurationResponse (PutLoggingConfigurationResponse'),
+    PutLoggingConfigurationResponse,
     newPutLoggingConfigurationResponse,
 
     -- ** PutManagedRuleSetVersions
-    PutManagedRuleSetVersions (PutManagedRuleSetVersions'),
+    PutManagedRuleSetVersions,
     newPutManagedRuleSetVersions,
-    PutManagedRuleSetVersionsResponse (PutManagedRuleSetVersionsResponse'),
+    PutManagedRuleSetVersionsResponse,
     newPutManagedRuleSetVersionsResponse,
 
     -- ** PutPermissionPolicy
-    PutPermissionPolicy (PutPermissionPolicy'),
+    PutPermissionPolicy,
     newPutPermissionPolicy,
-    PutPermissionPolicyResponse (PutPermissionPolicyResponse'),
+    PutPermissionPolicyResponse,
     newPutPermissionPolicyResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateIPSet
-    UpdateIPSet (UpdateIPSet'),
+    UpdateIPSet,
     newUpdateIPSet,
-    UpdateIPSetResponse (UpdateIPSetResponse'),
+    UpdateIPSetResponse,
     newUpdateIPSetResponse,
 
     -- ** UpdateManagedRuleSetVersionExpiryDate
-    UpdateManagedRuleSetVersionExpiryDate (UpdateManagedRuleSetVersionExpiryDate'),
+    UpdateManagedRuleSetVersionExpiryDate,
     newUpdateManagedRuleSetVersionExpiryDate,
-    UpdateManagedRuleSetVersionExpiryDateResponse (UpdateManagedRuleSetVersionExpiryDateResponse'),
+    UpdateManagedRuleSetVersionExpiryDateResponse,
     newUpdateManagedRuleSetVersionExpiryDateResponse,
 
     -- ** UpdateRegexPatternSet
-    UpdateRegexPatternSet (UpdateRegexPatternSet'),
+    UpdateRegexPatternSet,
     newUpdateRegexPatternSet,
-    UpdateRegexPatternSetResponse (UpdateRegexPatternSetResponse'),
+    UpdateRegexPatternSetResponse,
     newUpdateRegexPatternSetResponse,
 
     -- ** UpdateRuleGroup
-    UpdateRuleGroup (UpdateRuleGroup'),
+    UpdateRuleGroup,
     newUpdateRuleGroup,
-    UpdateRuleGroupResponse (UpdateRuleGroupResponse'),
+    UpdateRuleGroupResponse,
     newUpdateRuleGroupResponse,
 
     -- ** UpdateWebACL
-    UpdateWebACL (UpdateWebACL'),
+    UpdateWebACL,
     newUpdateWebACL,
-    UpdateWebACLResponse (UpdateWebACLResponse'),
+    UpdateWebACLResponse,
     newUpdateWebACLResponse,
 
     -- * Types
@@ -510,383 +510,383 @@ module Amazonka.WAFV2
     TextTransformationType (..),
 
     -- ** AWSManagedRulesBotControlRuleSet
-    AWSManagedRulesBotControlRuleSet (AWSManagedRulesBotControlRuleSet'),
+    AWSManagedRulesBotControlRuleSet,
     newAWSManagedRulesBotControlRuleSet,
 
     -- ** ActionCondition
-    ActionCondition (ActionCondition'),
+    ActionCondition,
     newActionCondition,
 
     -- ** All
-    All (All'),
+    All,
     newAll,
 
     -- ** AllQueryArguments
-    AllQueryArguments (AllQueryArguments'),
+    AllQueryArguments,
     newAllQueryArguments,
 
     -- ** AllowAction
-    AllowAction (AllowAction'),
+    AllowAction,
     newAllowAction,
 
     -- ** AndStatement
-    AndStatement (AndStatement'),
+    AndStatement,
     newAndStatement,
 
     -- ** BlockAction
-    BlockAction (BlockAction'),
+    BlockAction,
     newBlockAction,
 
     -- ** Body
-    Body (Body'),
+    Body,
     newBody,
 
     -- ** ByteMatchStatement
-    ByteMatchStatement (ByteMatchStatement'),
+    ByteMatchStatement,
     newByteMatchStatement,
 
     -- ** CaptchaAction
-    CaptchaAction (CaptchaAction'),
+    CaptchaAction,
     newCaptchaAction,
 
     -- ** CaptchaConfig
-    CaptchaConfig (CaptchaConfig'),
+    CaptchaConfig,
     newCaptchaConfig,
 
     -- ** CaptchaResponse
-    CaptchaResponse (CaptchaResponse'),
+    CaptchaResponse,
     newCaptchaResponse,
 
     -- ** ChallengeAction
-    ChallengeAction (ChallengeAction'),
+    ChallengeAction,
     newChallengeAction,
 
     -- ** ChallengeConfig
-    ChallengeConfig (ChallengeConfig'),
+    ChallengeConfig,
     newChallengeConfig,
 
     -- ** ChallengeResponse
-    ChallengeResponse (ChallengeResponse'),
+    ChallengeResponse,
     newChallengeResponse,
 
     -- ** Condition
-    Condition (Condition'),
+    Condition,
     newCondition,
 
     -- ** CookieMatchPattern
-    CookieMatchPattern (CookieMatchPattern'),
+    CookieMatchPattern,
     newCookieMatchPattern,
 
     -- ** Cookies
-    Cookies (Cookies'),
+    Cookies,
     newCookies,
 
     -- ** CountAction
-    CountAction (CountAction'),
+    CountAction,
     newCountAction,
 
     -- ** CustomHTTPHeader
-    CustomHTTPHeader (CustomHTTPHeader'),
+    CustomHTTPHeader,
     newCustomHTTPHeader,
 
     -- ** CustomRequestHandling
-    CustomRequestHandling (CustomRequestHandling'),
+    CustomRequestHandling,
     newCustomRequestHandling,
 
     -- ** CustomResponse
-    CustomResponse (CustomResponse'),
+    CustomResponse,
     newCustomResponse,
 
     -- ** CustomResponseBody
-    CustomResponseBody (CustomResponseBody'),
+    CustomResponseBody,
     newCustomResponseBody,
 
     -- ** DefaultAction
-    DefaultAction (DefaultAction'),
+    DefaultAction,
     newDefaultAction,
 
     -- ** ExcludedRule
-    ExcludedRule (ExcludedRule'),
+    ExcludedRule,
     newExcludedRule,
 
     -- ** FieldToMatch
-    FieldToMatch (FieldToMatch'),
+    FieldToMatch,
     newFieldToMatch,
 
     -- ** Filter
-    Filter (Filter'),
+    Filter,
     newFilter,
 
     -- ** FirewallManagerRuleGroup
-    FirewallManagerRuleGroup (FirewallManagerRuleGroup'),
+    FirewallManagerRuleGroup,
     newFirewallManagerRuleGroup,
 
     -- ** FirewallManagerStatement
-    FirewallManagerStatement (FirewallManagerStatement'),
+    FirewallManagerStatement,
     newFirewallManagerStatement,
 
     -- ** ForwardedIPConfig
-    ForwardedIPConfig (ForwardedIPConfig'),
+    ForwardedIPConfig,
     newForwardedIPConfig,
 
     -- ** GeoMatchStatement
-    GeoMatchStatement (GeoMatchStatement'),
+    GeoMatchStatement,
     newGeoMatchStatement,
 
     -- ** HTTPHeader
-    HTTPHeader (HTTPHeader'),
+    HTTPHeader,
     newHTTPHeader,
 
     -- ** HTTPRequest
-    HTTPRequest (HTTPRequest'),
+    HTTPRequest,
     newHTTPRequest,
 
     -- ** HeaderMatchPattern
-    HeaderMatchPattern (HeaderMatchPattern'),
+    HeaderMatchPattern,
     newHeaderMatchPattern,
 
     -- ** Headers
-    Headers (Headers'),
+    Headers,
     newHeaders,
 
     -- ** IPSet
-    IPSet (IPSet'),
+    IPSet,
     newIPSet,
 
     -- ** IPSetForwardedIPConfig
-    IPSetForwardedIPConfig (IPSetForwardedIPConfig'),
+    IPSetForwardedIPConfig,
     newIPSetForwardedIPConfig,
 
     -- ** IPSetReferenceStatement
-    IPSetReferenceStatement (IPSetReferenceStatement'),
+    IPSetReferenceStatement,
     newIPSetReferenceStatement,
 
     -- ** IPSetSummary
-    IPSetSummary (IPSetSummary'),
+    IPSetSummary,
     newIPSetSummary,
 
     -- ** ImmunityTimeProperty
-    ImmunityTimeProperty (ImmunityTimeProperty'),
+    ImmunityTimeProperty,
     newImmunityTimeProperty,
 
     -- ** JsonBody
-    JsonBody (JsonBody'),
+    JsonBody,
     newJsonBody,
 
     -- ** JsonMatchPattern
-    JsonMatchPattern (JsonMatchPattern'),
+    JsonMatchPattern,
     newJsonMatchPattern,
 
     -- ** Label
-    Label (Label'),
+    Label,
     newLabel,
 
     -- ** LabelMatchStatement
-    LabelMatchStatement (LabelMatchStatement'),
+    LabelMatchStatement,
     newLabelMatchStatement,
 
     -- ** LabelNameCondition
-    LabelNameCondition (LabelNameCondition'),
+    LabelNameCondition,
     newLabelNameCondition,
 
     -- ** LabelSummary
-    LabelSummary (LabelSummary'),
+    LabelSummary,
     newLabelSummary,
 
     -- ** LoggingConfiguration
-    LoggingConfiguration (LoggingConfiguration'),
+    LoggingConfiguration,
     newLoggingConfiguration,
 
     -- ** LoggingFilter
-    LoggingFilter (LoggingFilter'),
+    LoggingFilter,
     newLoggingFilter,
 
     -- ** ManagedRuleGroupConfig
-    ManagedRuleGroupConfig (ManagedRuleGroupConfig'),
+    ManagedRuleGroupConfig,
     newManagedRuleGroupConfig,
 
     -- ** ManagedRuleGroupStatement
-    ManagedRuleGroupStatement (ManagedRuleGroupStatement'),
+    ManagedRuleGroupStatement,
     newManagedRuleGroupStatement,
 
     -- ** ManagedRuleGroupSummary
-    ManagedRuleGroupSummary (ManagedRuleGroupSummary'),
+    ManagedRuleGroupSummary,
     newManagedRuleGroupSummary,
 
     -- ** ManagedRuleGroupVersion
-    ManagedRuleGroupVersion (ManagedRuleGroupVersion'),
+    ManagedRuleGroupVersion,
     newManagedRuleGroupVersion,
 
     -- ** ManagedRuleSet
-    ManagedRuleSet (ManagedRuleSet'),
+    ManagedRuleSet,
     newManagedRuleSet,
 
     -- ** ManagedRuleSetSummary
-    ManagedRuleSetSummary (ManagedRuleSetSummary'),
+    ManagedRuleSetSummary,
     newManagedRuleSetSummary,
 
     -- ** ManagedRuleSetVersion
-    ManagedRuleSetVersion (ManagedRuleSetVersion'),
+    ManagedRuleSetVersion,
     newManagedRuleSetVersion,
 
     -- ** Method
-    Method (Method'),
+    Method,
     newMethod,
 
     -- ** MobileSdkRelease
-    MobileSdkRelease (MobileSdkRelease'),
+    MobileSdkRelease,
     newMobileSdkRelease,
 
     -- ** NoneAction
-    NoneAction (NoneAction'),
+    NoneAction,
     newNoneAction,
 
     -- ** NotStatement
-    NotStatement (NotStatement'),
+    NotStatement,
     newNotStatement,
 
     -- ** OrStatement
-    OrStatement (OrStatement'),
+    OrStatement,
     newOrStatement,
 
     -- ** OverrideAction
-    OverrideAction (OverrideAction'),
+    OverrideAction,
     newOverrideAction,
 
     -- ** PasswordField
-    PasswordField (PasswordField'),
+    PasswordField,
     newPasswordField,
 
     -- ** QueryString
-    QueryString (QueryString'),
+    QueryString,
     newQueryString,
 
     -- ** RateBasedStatement
-    RateBasedStatement (RateBasedStatement'),
+    RateBasedStatement,
     newRateBasedStatement,
 
     -- ** RateBasedStatementManagedKeysIPSet
-    RateBasedStatementManagedKeysIPSet (RateBasedStatementManagedKeysIPSet'),
+    RateBasedStatementManagedKeysIPSet,
     newRateBasedStatementManagedKeysIPSet,
 
     -- ** Regex
-    Regex (Regex'),
+    Regex,
     newRegex,
 
     -- ** RegexMatchStatement
-    RegexMatchStatement (RegexMatchStatement'),
+    RegexMatchStatement,
     newRegexMatchStatement,
 
     -- ** RegexPatternSet
-    RegexPatternSet (RegexPatternSet'),
+    RegexPatternSet,
     newRegexPatternSet,
 
     -- ** RegexPatternSetReferenceStatement
-    RegexPatternSetReferenceStatement (RegexPatternSetReferenceStatement'),
+    RegexPatternSetReferenceStatement,
     newRegexPatternSetReferenceStatement,
 
     -- ** RegexPatternSetSummary
-    RegexPatternSetSummary (RegexPatternSetSummary'),
+    RegexPatternSetSummary,
     newRegexPatternSetSummary,
 
     -- ** ReleaseSummary
-    ReleaseSummary (ReleaseSummary'),
+    ReleaseSummary,
     newReleaseSummary,
 
     -- ** Rule
-    Rule (Rule'),
+    Rule,
     newRule,
 
     -- ** RuleAction
-    RuleAction (RuleAction'),
+    RuleAction,
     newRuleAction,
 
     -- ** RuleActionOverride
-    RuleActionOverride (RuleActionOverride'),
+    RuleActionOverride,
     newRuleActionOverride,
 
     -- ** RuleGroup
-    RuleGroup (RuleGroup'),
+    RuleGroup,
     newRuleGroup,
 
     -- ** RuleGroupReferenceStatement
-    RuleGroupReferenceStatement (RuleGroupReferenceStatement'),
+    RuleGroupReferenceStatement,
     newRuleGroupReferenceStatement,
 
     -- ** RuleGroupSummary
-    RuleGroupSummary (RuleGroupSummary'),
+    RuleGroupSummary,
     newRuleGroupSummary,
 
     -- ** RuleSummary
-    RuleSummary (RuleSummary'),
+    RuleSummary,
     newRuleSummary,
 
     -- ** SampledHTTPRequest
-    SampledHTTPRequest (SampledHTTPRequest'),
+    SampledHTTPRequest,
     newSampledHTTPRequest,
 
     -- ** SingleHeader
-    SingleHeader (SingleHeader'),
+    SingleHeader,
     newSingleHeader,
 
     -- ** SingleQueryArgument
-    SingleQueryArgument (SingleQueryArgument'),
+    SingleQueryArgument,
     newSingleQueryArgument,
 
     -- ** SizeConstraintStatement
-    SizeConstraintStatement (SizeConstraintStatement'),
+    SizeConstraintStatement,
     newSizeConstraintStatement,
 
     -- ** SqliMatchStatement
-    SqliMatchStatement (SqliMatchStatement'),
+    SqliMatchStatement,
     newSqliMatchStatement,
 
     -- ** Statement
-    Statement (Statement'),
+    Statement,
     newStatement,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
 
     -- ** TagInfoForResource
-    TagInfoForResource (TagInfoForResource'),
+    TagInfoForResource,
     newTagInfoForResource,
 
     -- ** TextTransformation
-    TextTransformation (TextTransformation'),
+    TextTransformation,
     newTextTransformation,
 
     -- ** TimeWindow
-    TimeWindow (TimeWindow'),
+    TimeWindow,
     newTimeWindow,
 
     -- ** UriPath
-    UriPath (UriPath'),
+    UriPath,
     newUriPath,
 
     -- ** UsernameField
-    UsernameField (UsernameField'),
+    UsernameField,
     newUsernameField,
 
     -- ** VersionToPublish
-    VersionToPublish (VersionToPublish'),
+    VersionToPublish,
     newVersionToPublish,
 
     -- ** VisibilityConfig
-    VisibilityConfig (VisibilityConfig'),
+    VisibilityConfig,
     newVisibilityConfig,
 
     -- ** WebACL
-    WebACL (WebACL'),
+    WebACL,
     newWebACL,
 
     -- ** WebACLSummary
-    WebACLSummary (WebACLSummary'),
+    WebACLSummary,
     newWebACLSummary,
 
     -- ** XssMatchStatement
-    XssMatchStatement (XssMatchStatement'),
+    XssMatchStatement,
     newXssMatchStatement,
   )
 where

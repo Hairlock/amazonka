@@ -49,189 +49,189 @@ module Amazonka.OpenSearchServerless
     -- $operations
 
     -- ** BatchGetCollection
-    BatchGetCollection (BatchGetCollection'),
+    BatchGetCollection,
     newBatchGetCollection,
-    BatchGetCollectionResponse (BatchGetCollectionResponse'),
+    BatchGetCollectionResponse,
     newBatchGetCollectionResponse,
 
     -- ** BatchGetVpcEndpoint
-    BatchGetVpcEndpoint (BatchGetVpcEndpoint'),
+    BatchGetVpcEndpoint,
     newBatchGetVpcEndpoint,
-    BatchGetVpcEndpointResponse (BatchGetVpcEndpointResponse'),
+    BatchGetVpcEndpointResponse,
     newBatchGetVpcEndpointResponse,
 
     -- ** CreateAccessPolicy
-    CreateAccessPolicy (CreateAccessPolicy'),
+    CreateAccessPolicy,
     newCreateAccessPolicy,
-    CreateAccessPolicyResponse (CreateAccessPolicyResponse'),
+    CreateAccessPolicyResponse,
     newCreateAccessPolicyResponse,
 
     -- ** CreateCollection
-    CreateCollection (CreateCollection'),
+    CreateCollection,
     newCreateCollection,
-    CreateCollectionResponse (CreateCollectionResponse'),
+    CreateCollectionResponse,
     newCreateCollectionResponse,
 
     -- ** CreateSecurityConfig
-    CreateSecurityConfig (CreateSecurityConfig'),
+    CreateSecurityConfig,
     newCreateSecurityConfig,
-    CreateSecurityConfigResponse (CreateSecurityConfigResponse'),
+    CreateSecurityConfigResponse,
     newCreateSecurityConfigResponse,
 
     -- ** CreateSecurityPolicy
-    CreateSecurityPolicy (CreateSecurityPolicy'),
+    CreateSecurityPolicy,
     newCreateSecurityPolicy,
-    CreateSecurityPolicyResponse (CreateSecurityPolicyResponse'),
+    CreateSecurityPolicyResponse,
     newCreateSecurityPolicyResponse,
 
     -- ** CreateVpcEndpoint
-    CreateVpcEndpoint (CreateVpcEndpoint'),
+    CreateVpcEndpoint,
     newCreateVpcEndpoint,
-    CreateVpcEndpointResponse (CreateVpcEndpointResponse'),
+    CreateVpcEndpointResponse,
     newCreateVpcEndpointResponse,
 
     -- ** DeleteAccessPolicy
-    DeleteAccessPolicy (DeleteAccessPolicy'),
+    DeleteAccessPolicy,
     newDeleteAccessPolicy,
-    DeleteAccessPolicyResponse (DeleteAccessPolicyResponse'),
+    DeleteAccessPolicyResponse,
     newDeleteAccessPolicyResponse,
 
     -- ** DeleteCollection
-    DeleteCollection (DeleteCollection'),
+    DeleteCollection,
     newDeleteCollection,
-    DeleteCollectionResponse (DeleteCollectionResponse'),
+    DeleteCollectionResponse,
     newDeleteCollectionResponse,
 
     -- ** DeleteSecurityConfig
-    DeleteSecurityConfig (DeleteSecurityConfig'),
+    DeleteSecurityConfig,
     newDeleteSecurityConfig,
-    DeleteSecurityConfigResponse (DeleteSecurityConfigResponse'),
+    DeleteSecurityConfigResponse,
     newDeleteSecurityConfigResponse,
 
     -- ** DeleteSecurityPolicy
-    DeleteSecurityPolicy (DeleteSecurityPolicy'),
+    DeleteSecurityPolicy,
     newDeleteSecurityPolicy,
-    DeleteSecurityPolicyResponse (DeleteSecurityPolicyResponse'),
+    DeleteSecurityPolicyResponse,
     newDeleteSecurityPolicyResponse,
 
     -- ** DeleteVpcEndpoint
-    DeleteVpcEndpoint (DeleteVpcEndpoint'),
+    DeleteVpcEndpoint,
     newDeleteVpcEndpoint,
-    DeleteVpcEndpointResponse (DeleteVpcEndpointResponse'),
+    DeleteVpcEndpointResponse,
     newDeleteVpcEndpointResponse,
 
     -- ** GetAccessPolicy
-    GetAccessPolicy (GetAccessPolicy'),
+    GetAccessPolicy,
     newGetAccessPolicy,
-    GetAccessPolicyResponse (GetAccessPolicyResponse'),
+    GetAccessPolicyResponse,
     newGetAccessPolicyResponse,
 
     -- ** GetAccountSettings
-    GetAccountSettings (GetAccountSettings'),
+    GetAccountSettings,
     newGetAccountSettings,
-    GetAccountSettingsResponse (GetAccountSettingsResponse'),
+    GetAccountSettingsResponse,
     newGetAccountSettingsResponse,
 
     -- ** GetPoliciesStats
-    GetPoliciesStats (GetPoliciesStats'),
+    GetPoliciesStats,
     newGetPoliciesStats,
-    GetPoliciesStatsResponse (GetPoliciesStatsResponse'),
+    GetPoliciesStatsResponse,
     newGetPoliciesStatsResponse,
 
     -- ** GetSecurityConfig
-    GetSecurityConfig (GetSecurityConfig'),
+    GetSecurityConfig,
     newGetSecurityConfig,
-    GetSecurityConfigResponse (GetSecurityConfigResponse'),
+    GetSecurityConfigResponse,
     newGetSecurityConfigResponse,
 
     -- ** GetSecurityPolicy
-    GetSecurityPolicy (GetSecurityPolicy'),
+    GetSecurityPolicy,
     newGetSecurityPolicy,
-    GetSecurityPolicyResponse (GetSecurityPolicyResponse'),
+    GetSecurityPolicyResponse,
     newGetSecurityPolicyResponse,
 
     -- ** ListAccessPolicies
-    ListAccessPolicies (ListAccessPolicies'),
+    ListAccessPolicies,
     newListAccessPolicies,
-    ListAccessPoliciesResponse (ListAccessPoliciesResponse'),
+    ListAccessPoliciesResponse,
     newListAccessPoliciesResponse,
 
     -- ** ListCollections
-    ListCollections (ListCollections'),
+    ListCollections,
     newListCollections,
-    ListCollectionsResponse (ListCollectionsResponse'),
+    ListCollectionsResponse,
     newListCollectionsResponse,
 
     -- ** ListSecurityConfigs
-    ListSecurityConfigs (ListSecurityConfigs'),
+    ListSecurityConfigs,
     newListSecurityConfigs,
-    ListSecurityConfigsResponse (ListSecurityConfigsResponse'),
+    ListSecurityConfigsResponse,
     newListSecurityConfigsResponse,
 
     -- ** ListSecurityPolicies
-    ListSecurityPolicies (ListSecurityPolicies'),
+    ListSecurityPolicies,
     newListSecurityPolicies,
-    ListSecurityPoliciesResponse (ListSecurityPoliciesResponse'),
+    ListSecurityPoliciesResponse,
     newListSecurityPoliciesResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** ListVpcEndpoints
-    ListVpcEndpoints (ListVpcEndpoints'),
+    ListVpcEndpoints,
     newListVpcEndpoints,
-    ListVpcEndpointsResponse (ListVpcEndpointsResponse'),
+    ListVpcEndpointsResponse,
     newListVpcEndpointsResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateAccessPolicy
-    UpdateAccessPolicy (UpdateAccessPolicy'),
+    UpdateAccessPolicy,
     newUpdateAccessPolicy,
-    UpdateAccessPolicyResponse (UpdateAccessPolicyResponse'),
+    UpdateAccessPolicyResponse,
     newUpdateAccessPolicyResponse,
 
     -- ** UpdateAccountSettings
-    UpdateAccountSettings (UpdateAccountSettings'),
+    UpdateAccountSettings,
     newUpdateAccountSettings,
-    UpdateAccountSettingsResponse (UpdateAccountSettingsResponse'),
+    UpdateAccountSettingsResponse,
     newUpdateAccountSettingsResponse,
 
     -- ** UpdateCollection
-    UpdateCollection (UpdateCollection'),
+    UpdateCollection,
     newUpdateCollection,
-    UpdateCollectionResponse (UpdateCollectionResponse'),
+    UpdateCollectionResponse,
     newUpdateCollectionResponse,
 
     -- ** UpdateSecurityConfig
-    UpdateSecurityConfig (UpdateSecurityConfig'),
+    UpdateSecurityConfig,
     newUpdateSecurityConfig,
-    UpdateSecurityConfigResponse (UpdateSecurityConfigResponse'),
+    UpdateSecurityConfigResponse,
     newUpdateSecurityConfigResponse,
 
     -- ** UpdateSecurityPolicy
-    UpdateSecurityPolicy (UpdateSecurityPolicy'),
+    UpdateSecurityPolicy,
     newUpdateSecurityPolicy,
-    UpdateSecurityPolicyResponse (UpdateSecurityPolicyResponse'),
+    UpdateSecurityPolicyResponse,
     newUpdateSecurityPolicyResponse,
 
     -- ** UpdateVpcEndpoint
-    UpdateVpcEndpoint (UpdateVpcEndpoint'),
+    UpdateVpcEndpoint,
     newUpdateVpcEndpoint,
-    UpdateVpcEndpointResponse (UpdateVpcEndpointResponse'),
+    UpdateVpcEndpointResponse,
     newUpdateVpcEndpointResponse,
 
     -- * Types
@@ -255,115 +255,115 @@ module Amazonka.OpenSearchServerless
     VpcEndpointStatus (..),
 
     -- ** AccessPolicyDetail
-    AccessPolicyDetail (AccessPolicyDetail'),
+    AccessPolicyDetail,
     newAccessPolicyDetail,
 
     -- ** AccessPolicyStats
-    AccessPolicyStats (AccessPolicyStats'),
+    AccessPolicyStats,
     newAccessPolicyStats,
 
     -- ** AccessPolicySummary
-    AccessPolicySummary (AccessPolicySummary'),
+    AccessPolicySummary,
     newAccessPolicySummary,
 
     -- ** AccountSettingsDetail
-    AccountSettingsDetail (AccountSettingsDetail'),
+    AccountSettingsDetail,
     newAccountSettingsDetail,
 
     -- ** CapacityLimits
-    CapacityLimits (CapacityLimits'),
+    CapacityLimits,
     newCapacityLimits,
 
     -- ** CollectionDetail
-    CollectionDetail (CollectionDetail'),
+    CollectionDetail,
     newCollectionDetail,
 
     -- ** CollectionErrorDetail
-    CollectionErrorDetail (CollectionErrorDetail'),
+    CollectionErrorDetail,
     newCollectionErrorDetail,
 
     -- ** CollectionFilters
-    CollectionFilters (CollectionFilters'),
+    CollectionFilters,
     newCollectionFilters,
 
     -- ** CollectionSummary
-    CollectionSummary (CollectionSummary'),
+    CollectionSummary,
     newCollectionSummary,
 
     -- ** CreateCollectionDetail
-    CreateCollectionDetail (CreateCollectionDetail'),
+    CreateCollectionDetail,
     newCreateCollectionDetail,
 
     -- ** CreateVpcEndpointDetail
-    CreateVpcEndpointDetail (CreateVpcEndpointDetail'),
+    CreateVpcEndpointDetail,
     newCreateVpcEndpointDetail,
 
     -- ** DeleteCollectionDetail
-    DeleteCollectionDetail (DeleteCollectionDetail'),
+    DeleteCollectionDetail,
     newDeleteCollectionDetail,
 
     -- ** DeleteVpcEndpointDetail
-    DeleteVpcEndpointDetail (DeleteVpcEndpointDetail'),
+    DeleteVpcEndpointDetail,
     newDeleteVpcEndpointDetail,
 
     -- ** Document
-    Document (Document'),
+    Document,
     newDocument,
 
     -- ** SamlConfigOptions
-    SamlConfigOptions (SamlConfigOptions'),
+    SamlConfigOptions,
     newSamlConfigOptions,
 
     -- ** SecurityConfigDetail
-    SecurityConfigDetail (SecurityConfigDetail'),
+    SecurityConfigDetail,
     newSecurityConfigDetail,
 
     -- ** SecurityConfigStats
-    SecurityConfigStats (SecurityConfigStats'),
+    SecurityConfigStats,
     newSecurityConfigStats,
 
     -- ** SecurityConfigSummary
-    SecurityConfigSummary (SecurityConfigSummary'),
+    SecurityConfigSummary,
     newSecurityConfigSummary,
 
     -- ** SecurityPolicyDetail
-    SecurityPolicyDetail (SecurityPolicyDetail'),
+    SecurityPolicyDetail,
     newSecurityPolicyDetail,
 
     -- ** SecurityPolicyStats
-    SecurityPolicyStats (SecurityPolicyStats'),
+    SecurityPolicyStats,
     newSecurityPolicyStats,
 
     -- ** SecurityPolicySummary
-    SecurityPolicySummary (SecurityPolicySummary'),
+    SecurityPolicySummary,
     newSecurityPolicySummary,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
 
     -- ** UpdateCollectionDetail
-    UpdateCollectionDetail (UpdateCollectionDetail'),
+    UpdateCollectionDetail,
     newUpdateCollectionDetail,
 
     -- ** UpdateVpcEndpointDetail
-    UpdateVpcEndpointDetail (UpdateVpcEndpointDetail'),
+    UpdateVpcEndpointDetail,
     newUpdateVpcEndpointDetail,
 
     -- ** VpcEndpointDetail
-    VpcEndpointDetail (VpcEndpointDetail'),
+    VpcEndpointDetail,
     newVpcEndpointDetail,
 
     -- ** VpcEndpointErrorDetail
-    VpcEndpointErrorDetail (VpcEndpointErrorDetail'),
+    VpcEndpointErrorDetail,
     newVpcEndpointErrorDetail,
 
     -- ** VpcEndpointFilters
-    VpcEndpointFilters (VpcEndpointFilters'),
+    VpcEndpointFilters,
     newVpcEndpointFilters,
 
     -- ** VpcEndpointSummary
-    VpcEndpointSummary (VpcEndpointSummary'),
+    VpcEndpointSummary,
     newVpcEndpointSummary,
   )
 where

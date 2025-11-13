@@ -56,57 +56,57 @@ module Amazonka.BackupStorage
     -- $operations
 
     -- ** DeleteObject
-    DeleteObject (DeleteObject'),
+    DeleteObject,
     newDeleteObject,
-    DeleteObjectResponse (DeleteObjectResponse'),
+    DeleteObjectResponse,
     newDeleteObjectResponse,
 
     -- ** GetChunk
-    GetChunk (GetChunk'),
+    GetChunk,
     newGetChunk,
-    GetChunkResponse (GetChunkResponse'),
+    GetChunkResponse,
     newGetChunkResponse,
 
     -- ** GetObjectMetadata
-    GetObjectMetadata (GetObjectMetadata'),
+    GetObjectMetadata,
     newGetObjectMetadata,
-    GetObjectMetadataResponse (GetObjectMetadataResponse'),
+    GetObjectMetadataResponse,
     newGetObjectMetadataResponse,
 
     -- ** ListChunks
-    ListChunks (ListChunks'),
+    ListChunks,
     newListChunks,
-    ListChunksResponse (ListChunksResponse'),
+    ListChunksResponse,
     newListChunksResponse,
 
     -- ** ListObjects
-    ListObjects (ListObjects'),
+    ListObjects,
     newListObjects,
-    ListObjectsResponse (ListObjectsResponse'),
+    ListObjectsResponse,
     newListObjectsResponse,
 
     -- ** NotifyObjectComplete
-    NotifyObjectComplete (NotifyObjectComplete'),
+    NotifyObjectComplete,
     newNotifyObjectComplete,
-    NotifyObjectCompleteResponse (NotifyObjectCompleteResponse'),
+    NotifyObjectCompleteResponse,
     newNotifyObjectCompleteResponse,
 
     -- ** PutChunk
-    PutChunk (PutChunk'),
+    PutChunk,
     newPutChunk,
-    PutChunkResponse (PutChunkResponse'),
+    PutChunkResponse,
     newPutChunkResponse,
 
     -- ** PutObject
-    PutObject (PutObject'),
+    PutObject,
     newPutObject,
-    PutObjectResponse (PutObjectResponse'),
+    PutObjectResponse,
     newPutObjectResponse,
 
     -- ** StartObject
-    StartObject (StartObject'),
+    StartObject,
     newStartObject,
-    StartObjectResponse (StartObjectResponse'),
+    StartObjectResponse,
     newStartObjectResponse,
 
     -- * Types
@@ -118,11 +118,11 @@ module Amazonka.BackupStorage
     SummaryChecksumAlgorithm (..),
 
     -- ** BackupObject
-    BackupObject (BackupObject'),
+    BackupObject,
     newBackupObject,
 
     -- ** Chunk
-    Chunk (Chunk'),
+    Chunk,
     newChunk,
   )
 where

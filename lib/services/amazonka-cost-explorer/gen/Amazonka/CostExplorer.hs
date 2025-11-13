@@ -76,225 +76,225 @@ module Amazonka.CostExplorer
     -- $operations
 
     -- ** CreateAnomalyMonitor
-    CreateAnomalyMonitor (CreateAnomalyMonitor'),
+    CreateAnomalyMonitor,
     newCreateAnomalyMonitor,
-    CreateAnomalyMonitorResponse (CreateAnomalyMonitorResponse'),
+    CreateAnomalyMonitorResponse,
     newCreateAnomalyMonitorResponse,
 
     -- ** CreateAnomalySubscription
-    CreateAnomalySubscription (CreateAnomalySubscription'),
+    CreateAnomalySubscription,
     newCreateAnomalySubscription,
-    CreateAnomalySubscriptionResponse (CreateAnomalySubscriptionResponse'),
+    CreateAnomalySubscriptionResponse,
     newCreateAnomalySubscriptionResponse,
 
     -- ** CreateCostCategoryDefinition
-    CreateCostCategoryDefinition (CreateCostCategoryDefinition'),
+    CreateCostCategoryDefinition,
     newCreateCostCategoryDefinition,
-    CreateCostCategoryDefinitionResponse (CreateCostCategoryDefinitionResponse'),
+    CreateCostCategoryDefinitionResponse,
     newCreateCostCategoryDefinitionResponse,
 
     -- ** DeleteAnomalyMonitor
-    DeleteAnomalyMonitor (DeleteAnomalyMonitor'),
+    DeleteAnomalyMonitor,
     newDeleteAnomalyMonitor,
-    DeleteAnomalyMonitorResponse (DeleteAnomalyMonitorResponse'),
+    DeleteAnomalyMonitorResponse,
     newDeleteAnomalyMonitorResponse,
 
     -- ** DeleteAnomalySubscription
-    DeleteAnomalySubscription (DeleteAnomalySubscription'),
+    DeleteAnomalySubscription,
     newDeleteAnomalySubscription,
-    DeleteAnomalySubscriptionResponse (DeleteAnomalySubscriptionResponse'),
+    DeleteAnomalySubscriptionResponse,
     newDeleteAnomalySubscriptionResponse,
 
     -- ** DeleteCostCategoryDefinition
-    DeleteCostCategoryDefinition (DeleteCostCategoryDefinition'),
+    DeleteCostCategoryDefinition,
     newDeleteCostCategoryDefinition,
-    DeleteCostCategoryDefinitionResponse (DeleteCostCategoryDefinitionResponse'),
+    DeleteCostCategoryDefinitionResponse,
     newDeleteCostCategoryDefinitionResponse,
 
     -- ** DescribeCostCategoryDefinition
-    DescribeCostCategoryDefinition (DescribeCostCategoryDefinition'),
+    DescribeCostCategoryDefinition,
     newDescribeCostCategoryDefinition,
-    DescribeCostCategoryDefinitionResponse (DescribeCostCategoryDefinitionResponse'),
+    DescribeCostCategoryDefinitionResponse,
     newDescribeCostCategoryDefinitionResponse,
 
     -- ** GetAnomalies
-    GetAnomalies (GetAnomalies'),
+    GetAnomalies,
     newGetAnomalies,
-    GetAnomaliesResponse (GetAnomaliesResponse'),
+    GetAnomaliesResponse,
     newGetAnomaliesResponse,
 
     -- ** GetAnomalyMonitors
-    GetAnomalyMonitors (GetAnomalyMonitors'),
+    GetAnomalyMonitors,
     newGetAnomalyMonitors,
-    GetAnomalyMonitorsResponse (GetAnomalyMonitorsResponse'),
+    GetAnomalyMonitorsResponse,
     newGetAnomalyMonitorsResponse,
 
     -- ** GetAnomalySubscriptions
-    GetAnomalySubscriptions (GetAnomalySubscriptions'),
+    GetAnomalySubscriptions,
     newGetAnomalySubscriptions,
-    GetAnomalySubscriptionsResponse (GetAnomalySubscriptionsResponse'),
+    GetAnomalySubscriptionsResponse,
     newGetAnomalySubscriptionsResponse,
 
     -- ** GetCostAndUsage
-    GetCostAndUsage (GetCostAndUsage'),
+    GetCostAndUsage,
     newGetCostAndUsage,
-    GetCostAndUsageResponse (GetCostAndUsageResponse'),
+    GetCostAndUsageResponse,
     newGetCostAndUsageResponse,
 
     -- ** GetCostAndUsageWithResources
-    GetCostAndUsageWithResources (GetCostAndUsageWithResources'),
+    GetCostAndUsageWithResources,
     newGetCostAndUsageWithResources,
-    GetCostAndUsageWithResourcesResponse (GetCostAndUsageWithResourcesResponse'),
+    GetCostAndUsageWithResourcesResponse,
     newGetCostAndUsageWithResourcesResponse,
 
     -- ** GetCostCategories
-    GetCostCategories (GetCostCategories'),
+    GetCostCategories,
     newGetCostCategories,
-    GetCostCategoriesResponse (GetCostCategoriesResponse'),
+    GetCostCategoriesResponse,
     newGetCostCategoriesResponse,
 
     -- ** GetCostForecast
-    GetCostForecast (GetCostForecast'),
+    GetCostForecast,
     newGetCostForecast,
-    GetCostForecastResponse (GetCostForecastResponse'),
+    GetCostForecastResponse,
     newGetCostForecastResponse,
 
     -- ** GetDimensionValues
-    GetDimensionValues (GetDimensionValues'),
+    GetDimensionValues,
     newGetDimensionValues,
-    GetDimensionValuesResponse (GetDimensionValuesResponse'),
+    GetDimensionValuesResponse,
     newGetDimensionValuesResponse,
 
     -- ** GetReservationCoverage
-    GetReservationCoverage (GetReservationCoverage'),
+    GetReservationCoverage,
     newGetReservationCoverage,
-    GetReservationCoverageResponse (GetReservationCoverageResponse'),
+    GetReservationCoverageResponse,
     newGetReservationCoverageResponse,
 
     -- ** GetReservationPurchaseRecommendation
-    GetReservationPurchaseRecommendation (GetReservationPurchaseRecommendation'),
+    GetReservationPurchaseRecommendation,
     newGetReservationPurchaseRecommendation,
-    GetReservationPurchaseRecommendationResponse (GetReservationPurchaseRecommendationResponse'),
+    GetReservationPurchaseRecommendationResponse,
     newGetReservationPurchaseRecommendationResponse,
 
     -- ** GetReservationUtilization
-    GetReservationUtilization (GetReservationUtilization'),
+    GetReservationUtilization,
     newGetReservationUtilization,
-    GetReservationUtilizationResponse (GetReservationUtilizationResponse'),
+    GetReservationUtilizationResponse,
     newGetReservationUtilizationResponse,
 
     -- ** GetRightsizingRecommendation
-    GetRightsizingRecommendation (GetRightsizingRecommendation'),
+    GetRightsizingRecommendation,
     newGetRightsizingRecommendation,
-    GetRightsizingRecommendationResponse (GetRightsizingRecommendationResponse'),
+    GetRightsizingRecommendationResponse,
     newGetRightsizingRecommendationResponse,
 
     -- ** GetSavingsPlansCoverage
-    GetSavingsPlansCoverage (GetSavingsPlansCoverage'),
+    GetSavingsPlansCoverage,
     newGetSavingsPlansCoverage,
-    GetSavingsPlansCoverageResponse (GetSavingsPlansCoverageResponse'),
+    GetSavingsPlansCoverageResponse,
     newGetSavingsPlansCoverageResponse,
 
     -- ** GetSavingsPlansPurchaseRecommendation
-    GetSavingsPlansPurchaseRecommendation (GetSavingsPlansPurchaseRecommendation'),
+    GetSavingsPlansPurchaseRecommendation,
     newGetSavingsPlansPurchaseRecommendation,
-    GetSavingsPlansPurchaseRecommendationResponse (GetSavingsPlansPurchaseRecommendationResponse'),
+    GetSavingsPlansPurchaseRecommendationResponse,
     newGetSavingsPlansPurchaseRecommendationResponse,
 
     -- ** GetSavingsPlansUtilization
-    GetSavingsPlansUtilization (GetSavingsPlansUtilization'),
+    GetSavingsPlansUtilization,
     newGetSavingsPlansUtilization,
-    GetSavingsPlansUtilizationResponse (GetSavingsPlansUtilizationResponse'),
+    GetSavingsPlansUtilizationResponse,
     newGetSavingsPlansUtilizationResponse,
 
     -- ** GetSavingsPlansUtilizationDetails
-    GetSavingsPlansUtilizationDetails (GetSavingsPlansUtilizationDetails'),
+    GetSavingsPlansUtilizationDetails,
     newGetSavingsPlansUtilizationDetails,
-    GetSavingsPlansUtilizationDetailsResponse (GetSavingsPlansUtilizationDetailsResponse'),
+    GetSavingsPlansUtilizationDetailsResponse,
     newGetSavingsPlansUtilizationDetailsResponse,
 
     -- ** GetTags
-    GetTags (GetTags'),
+    GetTags,
     newGetTags,
-    GetTagsResponse (GetTagsResponse'),
+    GetTagsResponse,
     newGetTagsResponse,
 
     -- ** GetUsageForecast
-    GetUsageForecast (GetUsageForecast'),
+    GetUsageForecast,
     newGetUsageForecast,
-    GetUsageForecastResponse (GetUsageForecastResponse'),
+    GetUsageForecastResponse,
     newGetUsageForecastResponse,
 
     -- ** ListCostAllocationTags
-    ListCostAllocationTags (ListCostAllocationTags'),
+    ListCostAllocationTags,
     newListCostAllocationTags,
-    ListCostAllocationTagsResponse (ListCostAllocationTagsResponse'),
+    ListCostAllocationTagsResponse,
     newListCostAllocationTagsResponse,
 
     -- ** ListCostCategoryDefinitions
-    ListCostCategoryDefinitions (ListCostCategoryDefinitions'),
+    ListCostCategoryDefinitions,
     newListCostCategoryDefinitions,
-    ListCostCategoryDefinitionsResponse (ListCostCategoryDefinitionsResponse'),
+    ListCostCategoryDefinitionsResponse,
     newListCostCategoryDefinitionsResponse,
 
     -- ** ListSavingsPlansPurchaseRecommendationGeneration
-    ListSavingsPlansPurchaseRecommendationGeneration (ListSavingsPlansPurchaseRecommendationGeneration'),
+    ListSavingsPlansPurchaseRecommendationGeneration,
     newListSavingsPlansPurchaseRecommendationGeneration,
-    ListSavingsPlansPurchaseRecommendationGenerationResponse (ListSavingsPlansPurchaseRecommendationGenerationResponse'),
+    ListSavingsPlansPurchaseRecommendationGenerationResponse,
     newListSavingsPlansPurchaseRecommendationGenerationResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** ProvideAnomalyFeedback
-    ProvideAnomalyFeedback (ProvideAnomalyFeedback'),
+    ProvideAnomalyFeedback,
     newProvideAnomalyFeedback,
-    ProvideAnomalyFeedbackResponse (ProvideAnomalyFeedbackResponse'),
+    ProvideAnomalyFeedbackResponse,
     newProvideAnomalyFeedbackResponse,
 
     -- ** StartSavingsPlansPurchaseRecommendationGeneration
-    StartSavingsPlansPurchaseRecommendationGeneration (StartSavingsPlansPurchaseRecommendationGeneration'),
+    StartSavingsPlansPurchaseRecommendationGeneration,
     newStartSavingsPlansPurchaseRecommendationGeneration,
-    StartSavingsPlansPurchaseRecommendationGenerationResponse (StartSavingsPlansPurchaseRecommendationGenerationResponse'),
+    StartSavingsPlansPurchaseRecommendationGenerationResponse,
     newStartSavingsPlansPurchaseRecommendationGenerationResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateAnomalyMonitor
-    UpdateAnomalyMonitor (UpdateAnomalyMonitor'),
+    UpdateAnomalyMonitor,
     newUpdateAnomalyMonitor,
-    UpdateAnomalyMonitorResponse (UpdateAnomalyMonitorResponse'),
+    UpdateAnomalyMonitorResponse,
     newUpdateAnomalyMonitorResponse,
 
     -- ** UpdateAnomalySubscription
-    UpdateAnomalySubscription (UpdateAnomalySubscription'),
+    UpdateAnomalySubscription,
     newUpdateAnomalySubscription,
-    UpdateAnomalySubscriptionResponse (UpdateAnomalySubscriptionResponse'),
+    UpdateAnomalySubscriptionResponse,
     newUpdateAnomalySubscriptionResponse,
 
     -- ** UpdateCostAllocationTagsStatus
-    UpdateCostAllocationTagsStatus (UpdateCostAllocationTagsStatus'),
+    UpdateCostAllocationTagsStatus,
     newUpdateCostAllocationTagsStatus,
-    UpdateCostAllocationTagsStatusResponse (UpdateCostAllocationTagsStatusResponse'),
+    UpdateCostAllocationTagsStatusResponse,
     newUpdateCostAllocationTagsStatusResponse,
 
     -- ** UpdateCostCategoryDefinition
-    UpdateCostCategoryDefinition (UpdateCostCategoryDefinition'),
+    UpdateCostCategoryDefinition,
     newUpdateCostCategoryDefinition,
-    UpdateCostCategoryDefinitionResponse (UpdateCostCategoryDefinitionResponse'),
+    UpdateCostCategoryDefinitionResponse,
     newUpdateCostCategoryDefinitionResponse,
 
     -- * Types
@@ -405,331 +405,331 @@ module Amazonka.CostExplorer
     TermInYears (..),
 
     -- ** Anomaly
-    Anomaly (Anomaly'),
+    Anomaly,
     newAnomaly,
 
     -- ** AnomalyDateInterval
-    AnomalyDateInterval (AnomalyDateInterval'),
+    AnomalyDateInterval,
     newAnomalyDateInterval,
 
     -- ** AnomalyMonitor
-    AnomalyMonitor (AnomalyMonitor'),
+    AnomalyMonitor,
     newAnomalyMonitor,
 
     -- ** AnomalyScore
-    AnomalyScore (AnomalyScore'),
+    AnomalyScore,
     newAnomalyScore,
 
     -- ** AnomalySubscription
-    AnomalySubscription (AnomalySubscription'),
+    AnomalySubscription,
     newAnomalySubscription,
 
     -- ** CostAllocationTag
-    CostAllocationTag (CostAllocationTag'),
+    CostAllocationTag,
     newCostAllocationTag,
 
     -- ** CostAllocationTagStatusEntry
-    CostAllocationTagStatusEntry (CostAllocationTagStatusEntry'),
+    CostAllocationTagStatusEntry,
     newCostAllocationTagStatusEntry,
 
     -- ** CostCategory
-    CostCategory (CostCategory'),
+    CostCategory,
     newCostCategory,
 
     -- ** CostCategoryInheritedValueDimension
-    CostCategoryInheritedValueDimension (CostCategoryInheritedValueDimension'),
+    CostCategoryInheritedValueDimension,
     newCostCategoryInheritedValueDimension,
 
     -- ** CostCategoryProcessingStatus
-    CostCategoryProcessingStatus (CostCategoryProcessingStatus'),
+    CostCategoryProcessingStatus,
     newCostCategoryProcessingStatus,
 
     -- ** CostCategoryReference
-    CostCategoryReference (CostCategoryReference'),
+    CostCategoryReference,
     newCostCategoryReference,
 
     -- ** CostCategoryRule
-    CostCategoryRule (CostCategoryRule'),
+    CostCategoryRule,
     newCostCategoryRule,
 
     -- ** CostCategorySplitChargeRule
-    CostCategorySplitChargeRule (CostCategorySplitChargeRule'),
+    CostCategorySplitChargeRule,
     newCostCategorySplitChargeRule,
 
     -- ** CostCategorySplitChargeRuleParameter
-    CostCategorySplitChargeRuleParameter (CostCategorySplitChargeRuleParameter'),
+    CostCategorySplitChargeRuleParameter,
     newCostCategorySplitChargeRuleParameter,
 
     -- ** CostCategoryValues
-    CostCategoryValues (CostCategoryValues'),
+    CostCategoryValues,
     newCostCategoryValues,
 
     -- ** Coverage
-    Coverage (Coverage'),
+    Coverage,
     newCoverage,
 
     -- ** CoverageByTime
-    CoverageByTime (CoverageByTime'),
+    CoverageByTime,
     newCoverageByTime,
 
     -- ** CoverageCost
-    CoverageCost (CoverageCost'),
+    CoverageCost,
     newCoverageCost,
 
     -- ** CoverageHours
-    CoverageHours (CoverageHours'),
+    CoverageHours,
     newCoverageHours,
 
     -- ** CoverageNormalizedUnits
-    CoverageNormalizedUnits (CoverageNormalizedUnits'),
+    CoverageNormalizedUnits,
     newCoverageNormalizedUnits,
 
     -- ** CurrentInstance
-    CurrentInstance (CurrentInstance'),
+    CurrentInstance,
     newCurrentInstance,
 
     -- ** DateInterval
-    DateInterval (DateInterval'),
+    DateInterval,
     newDateInterval,
 
     -- ** DimensionValues
-    DimensionValues (DimensionValues'),
+    DimensionValues,
     newDimensionValues,
 
     -- ** DimensionValuesWithAttributes
-    DimensionValuesWithAttributes (DimensionValuesWithAttributes'),
+    DimensionValuesWithAttributes,
     newDimensionValuesWithAttributes,
 
     -- ** DiskResourceUtilization
-    DiskResourceUtilization (DiskResourceUtilization'),
+    DiskResourceUtilization,
     newDiskResourceUtilization,
 
     -- ** EBSResourceUtilization
-    EBSResourceUtilization (EBSResourceUtilization'),
+    EBSResourceUtilization,
     newEBSResourceUtilization,
 
     -- ** EC2InstanceDetails
-    EC2InstanceDetails (EC2InstanceDetails'),
+    EC2InstanceDetails,
     newEC2InstanceDetails,
 
     -- ** EC2ResourceDetails
-    EC2ResourceDetails (EC2ResourceDetails'),
+    EC2ResourceDetails,
     newEC2ResourceDetails,
 
     -- ** EC2ResourceUtilization
-    EC2ResourceUtilization (EC2ResourceUtilization'),
+    EC2ResourceUtilization,
     newEC2ResourceUtilization,
 
     -- ** EC2Specification
-    EC2Specification (EC2Specification'),
+    EC2Specification,
     newEC2Specification,
 
     -- ** ESInstanceDetails
-    ESInstanceDetails (ESInstanceDetails'),
+    ESInstanceDetails,
     newESInstanceDetails,
 
     -- ** ElastiCacheInstanceDetails
-    ElastiCacheInstanceDetails (ElastiCacheInstanceDetails'),
+    ElastiCacheInstanceDetails,
     newElastiCacheInstanceDetails,
 
     -- ** Expression
-    Expression (Expression'),
+    Expression,
     newExpression,
 
     -- ** ForecastResult
-    ForecastResult (ForecastResult'),
+    ForecastResult,
     newForecastResult,
 
     -- ** GenerationSummary
-    GenerationSummary (GenerationSummary'),
+    GenerationSummary,
     newGenerationSummary,
 
     -- ** Group
-    Group (Group'),
+    Group,
     newGroup,
 
     -- ** GroupDefinition
-    GroupDefinition (GroupDefinition'),
+    GroupDefinition,
     newGroupDefinition,
 
     -- ** Impact
-    Impact (Impact'),
+    Impact,
     newImpact,
 
     -- ** InstanceDetails
-    InstanceDetails (InstanceDetails'),
+    InstanceDetails,
     newInstanceDetails,
 
     -- ** MetricValue
-    MetricValue (MetricValue'),
+    MetricValue,
     newMetricValue,
 
     -- ** ModifyRecommendationDetail
-    ModifyRecommendationDetail (ModifyRecommendationDetail'),
+    ModifyRecommendationDetail,
     newModifyRecommendationDetail,
 
     -- ** NetworkResourceUtilization
-    NetworkResourceUtilization (NetworkResourceUtilization'),
+    NetworkResourceUtilization,
     newNetworkResourceUtilization,
 
     -- ** RDSInstanceDetails
-    RDSInstanceDetails (RDSInstanceDetails'),
+    RDSInstanceDetails,
     newRDSInstanceDetails,
 
     -- ** RedshiftInstanceDetails
-    RedshiftInstanceDetails (RedshiftInstanceDetails'),
+    RedshiftInstanceDetails,
     newRedshiftInstanceDetails,
 
     -- ** ReservationAggregates
-    ReservationAggregates (ReservationAggregates'),
+    ReservationAggregates,
     newReservationAggregates,
 
     -- ** ReservationCoverageGroup
-    ReservationCoverageGroup (ReservationCoverageGroup'),
+    ReservationCoverageGroup,
     newReservationCoverageGroup,
 
     -- ** ReservationPurchaseRecommendation
-    ReservationPurchaseRecommendation (ReservationPurchaseRecommendation'),
+    ReservationPurchaseRecommendation,
     newReservationPurchaseRecommendation,
 
     -- ** ReservationPurchaseRecommendationDetail
-    ReservationPurchaseRecommendationDetail (ReservationPurchaseRecommendationDetail'),
+    ReservationPurchaseRecommendationDetail,
     newReservationPurchaseRecommendationDetail,
 
     -- ** ReservationPurchaseRecommendationMetadata
-    ReservationPurchaseRecommendationMetadata (ReservationPurchaseRecommendationMetadata'),
+    ReservationPurchaseRecommendationMetadata,
     newReservationPurchaseRecommendationMetadata,
 
     -- ** ReservationPurchaseRecommendationSummary
-    ReservationPurchaseRecommendationSummary (ReservationPurchaseRecommendationSummary'),
+    ReservationPurchaseRecommendationSummary,
     newReservationPurchaseRecommendationSummary,
 
     -- ** ReservationUtilizationGroup
-    ReservationUtilizationGroup (ReservationUtilizationGroup'),
+    ReservationUtilizationGroup,
     newReservationUtilizationGroup,
 
     -- ** ResourceDetails
-    ResourceDetails (ResourceDetails'),
+    ResourceDetails,
     newResourceDetails,
 
     -- ** ResourceTag
-    ResourceTag (ResourceTag'),
+    ResourceTag,
     newResourceTag,
 
     -- ** ResourceUtilization
-    ResourceUtilization (ResourceUtilization'),
+    ResourceUtilization,
     newResourceUtilization,
 
     -- ** ResultByTime
-    ResultByTime (ResultByTime'),
+    ResultByTime,
     newResultByTime,
 
     -- ** RightsizingRecommendation
-    RightsizingRecommendation (RightsizingRecommendation'),
+    RightsizingRecommendation,
     newRightsizingRecommendation,
 
     -- ** RightsizingRecommendationConfiguration
-    RightsizingRecommendationConfiguration (RightsizingRecommendationConfiguration'),
+    RightsizingRecommendationConfiguration,
     newRightsizingRecommendationConfiguration,
 
     -- ** RightsizingRecommendationMetadata
-    RightsizingRecommendationMetadata (RightsizingRecommendationMetadata'),
+    RightsizingRecommendationMetadata,
     newRightsizingRecommendationMetadata,
 
     -- ** RightsizingRecommendationSummary
-    RightsizingRecommendationSummary (RightsizingRecommendationSummary'),
+    RightsizingRecommendationSummary,
     newRightsizingRecommendationSummary,
 
     -- ** RootCause
-    RootCause (RootCause'),
+    RootCause,
     newRootCause,
 
     -- ** SavingsPlansAmortizedCommitment
-    SavingsPlansAmortizedCommitment (SavingsPlansAmortizedCommitment'),
+    SavingsPlansAmortizedCommitment,
     newSavingsPlansAmortizedCommitment,
 
     -- ** SavingsPlansCoverage
-    SavingsPlansCoverage (SavingsPlansCoverage'),
+    SavingsPlansCoverage,
     newSavingsPlansCoverage,
 
     -- ** SavingsPlansCoverageData
-    SavingsPlansCoverageData (SavingsPlansCoverageData'),
+    SavingsPlansCoverageData,
     newSavingsPlansCoverageData,
 
     -- ** SavingsPlansDetails
-    SavingsPlansDetails (SavingsPlansDetails'),
+    SavingsPlansDetails,
     newSavingsPlansDetails,
 
     -- ** SavingsPlansPurchaseRecommendation
-    SavingsPlansPurchaseRecommendation (SavingsPlansPurchaseRecommendation'),
+    SavingsPlansPurchaseRecommendation,
     newSavingsPlansPurchaseRecommendation,
 
     -- ** SavingsPlansPurchaseRecommendationDetail
-    SavingsPlansPurchaseRecommendationDetail (SavingsPlansPurchaseRecommendationDetail'),
+    SavingsPlansPurchaseRecommendationDetail,
     newSavingsPlansPurchaseRecommendationDetail,
 
     -- ** SavingsPlansPurchaseRecommendationMetadata
-    SavingsPlansPurchaseRecommendationMetadata (SavingsPlansPurchaseRecommendationMetadata'),
+    SavingsPlansPurchaseRecommendationMetadata,
     newSavingsPlansPurchaseRecommendationMetadata,
 
     -- ** SavingsPlansPurchaseRecommendationSummary
-    SavingsPlansPurchaseRecommendationSummary (SavingsPlansPurchaseRecommendationSummary'),
+    SavingsPlansPurchaseRecommendationSummary,
     newSavingsPlansPurchaseRecommendationSummary,
 
     -- ** SavingsPlansSavings
-    SavingsPlansSavings (SavingsPlansSavings'),
+    SavingsPlansSavings,
     newSavingsPlansSavings,
 
     -- ** SavingsPlansUtilization
-    SavingsPlansUtilization (SavingsPlansUtilization'),
+    SavingsPlansUtilization,
     newSavingsPlansUtilization,
 
     -- ** SavingsPlansUtilizationAggregates
-    SavingsPlansUtilizationAggregates (SavingsPlansUtilizationAggregates'),
+    SavingsPlansUtilizationAggregates,
     newSavingsPlansUtilizationAggregates,
 
     -- ** SavingsPlansUtilizationByTime
-    SavingsPlansUtilizationByTime (SavingsPlansUtilizationByTime'),
+    SavingsPlansUtilizationByTime,
     newSavingsPlansUtilizationByTime,
 
     -- ** SavingsPlansUtilizationDetail
-    SavingsPlansUtilizationDetail (SavingsPlansUtilizationDetail'),
+    SavingsPlansUtilizationDetail,
     newSavingsPlansUtilizationDetail,
 
     -- ** ServiceSpecification
-    ServiceSpecification (ServiceSpecification'),
+    ServiceSpecification,
     newServiceSpecification,
 
     -- ** SortDefinition
-    SortDefinition (SortDefinition'),
+    SortDefinition,
     newSortDefinition,
 
     -- ** Subscriber
-    Subscriber (Subscriber'),
+    Subscriber,
     newSubscriber,
 
     -- ** TagValues
-    TagValues (TagValues'),
+    TagValues,
     newTagValues,
 
     -- ** TargetInstance
-    TargetInstance (TargetInstance'),
+    TargetInstance,
     newTargetInstance,
 
     -- ** TerminateRecommendationDetail
-    TerminateRecommendationDetail (TerminateRecommendationDetail'),
+    TerminateRecommendationDetail,
     newTerminateRecommendationDetail,
 
     -- ** TotalImpactFilter
-    TotalImpactFilter (TotalImpactFilter'),
+    TotalImpactFilter,
     newTotalImpactFilter,
 
     -- ** UpdateCostAllocationTagsStatusError
-    UpdateCostAllocationTagsStatusError (UpdateCostAllocationTagsStatusError'),
+    UpdateCostAllocationTagsStatusError,
     newUpdateCostAllocationTagsStatusError,
 
     -- ** UtilizationByTime
-    UtilizationByTime (UtilizationByTime'),
+    UtilizationByTime,
     newUtilizationByTime,
   )
 where

@@ -67,141 +67,141 @@ module Amazonka.CodeGuruProfiler
     -- $operations
 
     -- ** AddNotificationChannels
-    AddNotificationChannels (AddNotificationChannels'),
+    AddNotificationChannels,
     newAddNotificationChannels,
-    AddNotificationChannelsResponse (AddNotificationChannelsResponse'),
+    AddNotificationChannelsResponse,
     newAddNotificationChannelsResponse,
 
     -- ** BatchGetFrameMetricData
-    BatchGetFrameMetricData (BatchGetFrameMetricData'),
+    BatchGetFrameMetricData,
     newBatchGetFrameMetricData,
-    BatchGetFrameMetricDataResponse (BatchGetFrameMetricDataResponse'),
+    BatchGetFrameMetricDataResponse,
     newBatchGetFrameMetricDataResponse,
 
     -- ** ConfigureAgent
-    ConfigureAgent (ConfigureAgent'),
+    ConfigureAgent,
     newConfigureAgent,
-    ConfigureAgentResponse (ConfigureAgentResponse'),
+    ConfigureAgentResponse,
     newConfigureAgentResponse,
 
     -- ** CreateProfilingGroup
-    CreateProfilingGroup (CreateProfilingGroup'),
+    CreateProfilingGroup,
     newCreateProfilingGroup,
-    CreateProfilingGroupResponse (CreateProfilingGroupResponse'),
+    CreateProfilingGroupResponse,
     newCreateProfilingGroupResponse,
 
     -- ** DeleteProfilingGroup
-    DeleteProfilingGroup (DeleteProfilingGroup'),
+    DeleteProfilingGroup,
     newDeleteProfilingGroup,
-    DeleteProfilingGroupResponse (DeleteProfilingGroupResponse'),
+    DeleteProfilingGroupResponse,
     newDeleteProfilingGroupResponse,
 
     -- ** DescribeProfilingGroup
-    DescribeProfilingGroup (DescribeProfilingGroup'),
+    DescribeProfilingGroup,
     newDescribeProfilingGroup,
-    DescribeProfilingGroupResponse (DescribeProfilingGroupResponse'),
+    DescribeProfilingGroupResponse,
     newDescribeProfilingGroupResponse,
 
     -- ** GetFindingsReportAccountSummary
-    GetFindingsReportAccountSummary (GetFindingsReportAccountSummary'),
+    GetFindingsReportAccountSummary,
     newGetFindingsReportAccountSummary,
-    GetFindingsReportAccountSummaryResponse (GetFindingsReportAccountSummaryResponse'),
+    GetFindingsReportAccountSummaryResponse,
     newGetFindingsReportAccountSummaryResponse,
 
     -- ** GetNotificationConfiguration
-    GetNotificationConfiguration (GetNotificationConfiguration'),
+    GetNotificationConfiguration,
     newGetNotificationConfiguration,
-    GetNotificationConfigurationResponse (GetNotificationConfigurationResponse'),
+    GetNotificationConfigurationResponse,
     newGetNotificationConfigurationResponse,
 
     -- ** GetPolicy
-    GetPolicy (GetPolicy'),
+    GetPolicy,
     newGetPolicy,
-    GetPolicyResponse (GetPolicyResponse'),
+    GetPolicyResponse,
     newGetPolicyResponse,
 
     -- ** GetProfile
-    GetProfile (GetProfile'),
+    GetProfile,
     newGetProfile,
-    GetProfileResponse (GetProfileResponse'),
+    GetProfileResponse,
     newGetProfileResponse,
 
     -- ** GetRecommendations
-    GetRecommendations (GetRecommendations'),
+    GetRecommendations,
     newGetRecommendations,
-    GetRecommendationsResponse (GetRecommendationsResponse'),
+    GetRecommendationsResponse,
     newGetRecommendationsResponse,
 
     -- ** ListFindingsReports
-    ListFindingsReports (ListFindingsReports'),
+    ListFindingsReports,
     newListFindingsReports,
-    ListFindingsReportsResponse (ListFindingsReportsResponse'),
+    ListFindingsReportsResponse,
     newListFindingsReportsResponse,
 
     -- ** ListProfileTimes (Paginated)
-    ListProfileTimes (ListProfileTimes'),
+    ListProfileTimes,
     newListProfileTimes,
-    ListProfileTimesResponse (ListProfileTimesResponse'),
+    ListProfileTimesResponse,
     newListProfileTimesResponse,
 
     -- ** ListProfilingGroups
-    ListProfilingGroups (ListProfilingGroups'),
+    ListProfilingGroups,
     newListProfilingGroups,
-    ListProfilingGroupsResponse (ListProfilingGroupsResponse'),
+    ListProfilingGroupsResponse,
     newListProfilingGroupsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** PostAgentProfile
-    PostAgentProfile (PostAgentProfile'),
+    PostAgentProfile,
     newPostAgentProfile,
-    PostAgentProfileResponse (PostAgentProfileResponse'),
+    PostAgentProfileResponse,
     newPostAgentProfileResponse,
 
     -- ** PutPermission
-    PutPermission (PutPermission'),
+    PutPermission,
     newPutPermission,
-    PutPermissionResponse (PutPermissionResponse'),
+    PutPermissionResponse,
     newPutPermissionResponse,
 
     -- ** RemoveNotificationChannel
-    RemoveNotificationChannel (RemoveNotificationChannel'),
+    RemoveNotificationChannel,
     newRemoveNotificationChannel,
-    RemoveNotificationChannelResponse (RemoveNotificationChannelResponse'),
+    RemoveNotificationChannelResponse,
     newRemoveNotificationChannelResponse,
 
     -- ** RemovePermission
-    RemovePermission (RemovePermission'),
+    RemovePermission,
     newRemovePermission,
-    RemovePermissionResponse (RemovePermissionResponse'),
+    RemovePermissionResponse,
     newRemovePermissionResponse,
 
     -- ** SubmitFeedback
-    SubmitFeedback (SubmitFeedback'),
+    SubmitFeedback,
     newSubmitFeedback,
-    SubmitFeedbackResponse (SubmitFeedbackResponse'),
+    SubmitFeedbackResponse,
     newSubmitFeedbackResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateProfilingGroup
-    UpdateProfilingGroup (UpdateProfilingGroup'),
+    UpdateProfilingGroup,
     newUpdateProfilingGroup,
-    UpdateProfilingGroupResponse (UpdateProfilingGroupResponse'),
+    UpdateProfilingGroupResponse,
     newUpdateProfilingGroupResponse,
 
     -- * Types
@@ -234,79 +234,79 @@ module Amazonka.CodeGuruProfiler
     OrderBy (..),
 
     -- ** AgentConfiguration
-    AgentConfiguration (AgentConfiguration'),
+    AgentConfiguration,
     newAgentConfiguration,
 
     -- ** AgentOrchestrationConfig
-    AgentOrchestrationConfig (AgentOrchestrationConfig'),
+    AgentOrchestrationConfig,
     newAgentOrchestrationConfig,
 
     -- ** AggregatedProfileTime
-    AggregatedProfileTime (AggregatedProfileTime'),
+    AggregatedProfileTime,
     newAggregatedProfileTime,
 
     -- ** Anomaly
-    Anomaly (Anomaly'),
+    Anomaly,
     newAnomaly,
 
     -- ** AnomalyInstance
-    AnomalyInstance (AnomalyInstance'),
+    AnomalyInstance,
     newAnomalyInstance,
 
     -- ** Channel
-    Channel (Channel'),
+    Channel,
     newChannel,
 
     -- ** FindingsReportSummary
-    FindingsReportSummary (FindingsReportSummary'),
+    FindingsReportSummary,
     newFindingsReportSummary,
 
     -- ** FrameMetric
-    FrameMetric (FrameMetric'),
+    FrameMetric,
     newFrameMetric,
 
     -- ** FrameMetricDatum
-    FrameMetricDatum (FrameMetricDatum'),
+    FrameMetricDatum,
     newFrameMetricDatum,
 
     -- ** Match
-    Match (Match'),
+    Match,
     newMatch,
 
     -- ** Metric
-    Metric (Metric'),
+    Metric,
     newMetric,
 
     -- ** NotificationConfiguration
-    NotificationConfiguration (NotificationConfiguration'),
+    NotificationConfiguration,
     newNotificationConfiguration,
 
     -- ** Pattern
-    Pattern (Pattern'),
+    Pattern,
     newPattern,
 
     -- ** ProfileTime
-    ProfileTime (ProfileTime'),
+    ProfileTime,
     newProfileTime,
 
     -- ** ProfilingGroupDescription
-    ProfilingGroupDescription (ProfilingGroupDescription'),
+    ProfilingGroupDescription,
     newProfilingGroupDescription,
 
     -- ** ProfilingStatus
-    ProfilingStatus (ProfilingStatus'),
+    ProfilingStatus,
     newProfilingStatus,
 
     -- ** Recommendation
-    Recommendation (Recommendation'),
+    Recommendation,
     newRecommendation,
 
     -- ** TimestampStructure
-    TimestampStructure (TimestampStructure'),
+    TimestampStructure,
     newTimestampStructure,
 
     -- ** UserFeedback
-    UserFeedback (UserFeedback'),
+    UserFeedback,
     newUserFeedback,
   )
 where

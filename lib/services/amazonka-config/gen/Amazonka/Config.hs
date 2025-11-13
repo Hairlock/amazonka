@@ -214,555 +214,555 @@ module Amazonka.Config
     -- $operations
 
     -- ** BatchGetAggregateResourceConfig
-    BatchGetAggregateResourceConfig (BatchGetAggregateResourceConfig'),
+    BatchGetAggregateResourceConfig,
     newBatchGetAggregateResourceConfig,
-    BatchGetAggregateResourceConfigResponse (BatchGetAggregateResourceConfigResponse'),
+    BatchGetAggregateResourceConfigResponse,
     newBatchGetAggregateResourceConfigResponse,
 
     -- ** BatchGetResourceConfig
-    BatchGetResourceConfig (BatchGetResourceConfig'),
+    BatchGetResourceConfig,
     newBatchGetResourceConfig,
-    BatchGetResourceConfigResponse (BatchGetResourceConfigResponse'),
+    BatchGetResourceConfigResponse,
     newBatchGetResourceConfigResponse,
 
     -- ** DeleteAggregationAuthorization
-    DeleteAggregationAuthorization (DeleteAggregationAuthorization'),
+    DeleteAggregationAuthorization,
     newDeleteAggregationAuthorization,
-    DeleteAggregationAuthorizationResponse (DeleteAggregationAuthorizationResponse'),
+    DeleteAggregationAuthorizationResponse,
     newDeleteAggregationAuthorizationResponse,
 
     -- ** DeleteConfigRule
-    DeleteConfigRule (DeleteConfigRule'),
+    DeleteConfigRule,
     newDeleteConfigRule,
-    DeleteConfigRuleResponse (DeleteConfigRuleResponse'),
+    DeleteConfigRuleResponse,
     newDeleteConfigRuleResponse,
 
     -- ** DeleteConfigurationAggregator
-    DeleteConfigurationAggregator (DeleteConfigurationAggregator'),
+    DeleteConfigurationAggregator,
     newDeleteConfigurationAggregator,
-    DeleteConfigurationAggregatorResponse (DeleteConfigurationAggregatorResponse'),
+    DeleteConfigurationAggregatorResponse,
     newDeleteConfigurationAggregatorResponse,
 
     -- ** DeleteConfigurationRecorder
-    DeleteConfigurationRecorder (DeleteConfigurationRecorder'),
+    DeleteConfigurationRecorder,
     newDeleteConfigurationRecorder,
-    DeleteConfigurationRecorderResponse (DeleteConfigurationRecorderResponse'),
+    DeleteConfigurationRecorderResponse,
     newDeleteConfigurationRecorderResponse,
 
     -- ** DeleteConformancePack
-    DeleteConformancePack (DeleteConformancePack'),
+    DeleteConformancePack,
     newDeleteConformancePack,
-    DeleteConformancePackResponse (DeleteConformancePackResponse'),
+    DeleteConformancePackResponse,
     newDeleteConformancePackResponse,
 
     -- ** DeleteDeliveryChannel
-    DeleteDeliveryChannel (DeleteDeliveryChannel'),
+    DeleteDeliveryChannel,
     newDeleteDeliveryChannel,
-    DeleteDeliveryChannelResponse (DeleteDeliveryChannelResponse'),
+    DeleteDeliveryChannelResponse,
     newDeleteDeliveryChannelResponse,
 
     -- ** DeleteEvaluationResults
-    DeleteEvaluationResults (DeleteEvaluationResults'),
+    DeleteEvaluationResults,
     newDeleteEvaluationResults,
-    DeleteEvaluationResultsResponse (DeleteEvaluationResultsResponse'),
+    DeleteEvaluationResultsResponse,
     newDeleteEvaluationResultsResponse,
 
     -- ** DeleteOrganizationConfigRule
-    DeleteOrganizationConfigRule (DeleteOrganizationConfigRule'),
+    DeleteOrganizationConfigRule,
     newDeleteOrganizationConfigRule,
-    DeleteOrganizationConfigRuleResponse (DeleteOrganizationConfigRuleResponse'),
+    DeleteOrganizationConfigRuleResponse,
     newDeleteOrganizationConfigRuleResponse,
 
     -- ** DeleteOrganizationConformancePack
-    DeleteOrganizationConformancePack (DeleteOrganizationConformancePack'),
+    DeleteOrganizationConformancePack,
     newDeleteOrganizationConformancePack,
-    DeleteOrganizationConformancePackResponse (DeleteOrganizationConformancePackResponse'),
+    DeleteOrganizationConformancePackResponse,
     newDeleteOrganizationConformancePackResponse,
 
     -- ** DeletePendingAggregationRequest
-    DeletePendingAggregationRequest (DeletePendingAggregationRequest'),
+    DeletePendingAggregationRequest,
     newDeletePendingAggregationRequest,
-    DeletePendingAggregationRequestResponse (DeletePendingAggregationRequestResponse'),
+    DeletePendingAggregationRequestResponse,
     newDeletePendingAggregationRequestResponse,
 
     -- ** DeleteRemediationConfiguration
-    DeleteRemediationConfiguration (DeleteRemediationConfiguration'),
+    DeleteRemediationConfiguration,
     newDeleteRemediationConfiguration,
-    DeleteRemediationConfigurationResponse (DeleteRemediationConfigurationResponse'),
+    DeleteRemediationConfigurationResponse,
     newDeleteRemediationConfigurationResponse,
 
     -- ** DeleteRemediationExceptions
-    DeleteRemediationExceptions (DeleteRemediationExceptions'),
+    DeleteRemediationExceptions,
     newDeleteRemediationExceptions,
-    DeleteRemediationExceptionsResponse (DeleteRemediationExceptionsResponse'),
+    DeleteRemediationExceptionsResponse,
     newDeleteRemediationExceptionsResponse,
 
     -- ** DeleteResourceConfig
-    DeleteResourceConfig (DeleteResourceConfig'),
+    DeleteResourceConfig,
     newDeleteResourceConfig,
-    DeleteResourceConfigResponse (DeleteResourceConfigResponse'),
+    DeleteResourceConfigResponse,
     newDeleteResourceConfigResponse,
 
     -- ** DeleteRetentionConfiguration
-    DeleteRetentionConfiguration (DeleteRetentionConfiguration'),
+    DeleteRetentionConfiguration,
     newDeleteRetentionConfiguration,
-    DeleteRetentionConfigurationResponse (DeleteRetentionConfigurationResponse'),
+    DeleteRetentionConfigurationResponse,
     newDeleteRetentionConfigurationResponse,
 
     -- ** DeleteStoredQuery
-    DeleteStoredQuery (DeleteStoredQuery'),
+    DeleteStoredQuery,
     newDeleteStoredQuery,
-    DeleteStoredQueryResponse (DeleteStoredQueryResponse'),
+    DeleteStoredQueryResponse,
     newDeleteStoredQueryResponse,
 
     -- ** DeliverConfigSnapshot
-    DeliverConfigSnapshot (DeliverConfigSnapshot'),
+    DeliverConfigSnapshot,
     newDeliverConfigSnapshot,
-    DeliverConfigSnapshotResponse (DeliverConfigSnapshotResponse'),
+    DeliverConfigSnapshotResponse,
     newDeliverConfigSnapshotResponse,
 
     -- ** DescribeAggregateComplianceByConfigRules (Paginated)
-    DescribeAggregateComplianceByConfigRules (DescribeAggregateComplianceByConfigRules'),
+    DescribeAggregateComplianceByConfigRules,
     newDescribeAggregateComplianceByConfigRules,
-    DescribeAggregateComplianceByConfigRulesResponse (DescribeAggregateComplianceByConfigRulesResponse'),
+    DescribeAggregateComplianceByConfigRulesResponse,
     newDescribeAggregateComplianceByConfigRulesResponse,
 
     -- ** DescribeAggregateComplianceByConformancePacks (Paginated)
-    DescribeAggregateComplianceByConformancePacks (DescribeAggregateComplianceByConformancePacks'),
+    DescribeAggregateComplianceByConformancePacks,
     newDescribeAggregateComplianceByConformancePacks,
-    DescribeAggregateComplianceByConformancePacksResponse (DescribeAggregateComplianceByConformancePacksResponse'),
+    DescribeAggregateComplianceByConformancePacksResponse,
     newDescribeAggregateComplianceByConformancePacksResponse,
 
     -- ** DescribeAggregationAuthorizations (Paginated)
-    DescribeAggregationAuthorizations (DescribeAggregationAuthorizations'),
+    DescribeAggregationAuthorizations,
     newDescribeAggregationAuthorizations,
-    DescribeAggregationAuthorizationsResponse (DescribeAggregationAuthorizationsResponse'),
+    DescribeAggregationAuthorizationsResponse,
     newDescribeAggregationAuthorizationsResponse,
 
     -- ** DescribeComplianceByConfigRule (Paginated)
-    DescribeComplianceByConfigRule (DescribeComplianceByConfigRule'),
+    DescribeComplianceByConfigRule,
     newDescribeComplianceByConfigRule,
-    DescribeComplianceByConfigRuleResponse (DescribeComplianceByConfigRuleResponse'),
+    DescribeComplianceByConfigRuleResponse,
     newDescribeComplianceByConfigRuleResponse,
 
     -- ** DescribeComplianceByResource (Paginated)
-    DescribeComplianceByResource (DescribeComplianceByResource'),
+    DescribeComplianceByResource,
     newDescribeComplianceByResource,
-    DescribeComplianceByResourceResponse (DescribeComplianceByResourceResponse'),
+    DescribeComplianceByResourceResponse,
     newDescribeComplianceByResourceResponse,
 
     -- ** DescribeConfigRuleEvaluationStatus (Paginated)
-    DescribeConfigRuleEvaluationStatus (DescribeConfigRuleEvaluationStatus'),
+    DescribeConfigRuleEvaluationStatus,
     newDescribeConfigRuleEvaluationStatus,
-    DescribeConfigRuleEvaluationStatusResponse (DescribeConfigRuleEvaluationStatusResponse'),
+    DescribeConfigRuleEvaluationStatusResponse,
     newDescribeConfigRuleEvaluationStatusResponse,
 
     -- ** DescribeConfigRules (Paginated)
-    DescribeConfigRules (DescribeConfigRules'),
+    DescribeConfigRules,
     newDescribeConfigRules,
-    DescribeConfigRulesResponse (DescribeConfigRulesResponse'),
+    DescribeConfigRulesResponse,
     newDescribeConfigRulesResponse,
 
     -- ** DescribeConfigurationAggregatorSourcesStatus (Paginated)
-    DescribeConfigurationAggregatorSourcesStatus (DescribeConfigurationAggregatorSourcesStatus'),
+    DescribeConfigurationAggregatorSourcesStatus,
     newDescribeConfigurationAggregatorSourcesStatus,
-    DescribeConfigurationAggregatorSourcesStatusResponse (DescribeConfigurationAggregatorSourcesStatusResponse'),
+    DescribeConfigurationAggregatorSourcesStatusResponse,
     newDescribeConfigurationAggregatorSourcesStatusResponse,
 
     -- ** DescribeConfigurationAggregators (Paginated)
-    DescribeConfigurationAggregators (DescribeConfigurationAggregators'),
+    DescribeConfigurationAggregators,
     newDescribeConfigurationAggregators,
-    DescribeConfigurationAggregatorsResponse (DescribeConfigurationAggregatorsResponse'),
+    DescribeConfigurationAggregatorsResponse,
     newDescribeConfigurationAggregatorsResponse,
 
     -- ** DescribeConfigurationRecorderStatus
-    DescribeConfigurationRecorderStatus (DescribeConfigurationRecorderStatus'),
+    DescribeConfigurationRecorderStatus,
     newDescribeConfigurationRecorderStatus,
-    DescribeConfigurationRecorderStatusResponse (DescribeConfigurationRecorderStatusResponse'),
+    DescribeConfigurationRecorderStatusResponse,
     newDescribeConfigurationRecorderStatusResponse,
 
     -- ** DescribeConfigurationRecorders
-    DescribeConfigurationRecorders (DescribeConfigurationRecorders'),
+    DescribeConfigurationRecorders,
     newDescribeConfigurationRecorders,
-    DescribeConfigurationRecordersResponse (DescribeConfigurationRecordersResponse'),
+    DescribeConfigurationRecordersResponse,
     newDescribeConfigurationRecordersResponse,
 
     -- ** DescribeConformancePackCompliance
-    DescribeConformancePackCompliance (DescribeConformancePackCompliance'),
+    DescribeConformancePackCompliance,
     newDescribeConformancePackCompliance,
-    DescribeConformancePackComplianceResponse (DescribeConformancePackComplianceResponse'),
+    DescribeConformancePackComplianceResponse,
     newDescribeConformancePackComplianceResponse,
 
     -- ** DescribeConformancePackStatus (Paginated)
-    DescribeConformancePackStatus (DescribeConformancePackStatus'),
+    DescribeConformancePackStatus,
     newDescribeConformancePackStatus,
-    DescribeConformancePackStatusResponse (DescribeConformancePackStatusResponse'),
+    DescribeConformancePackStatusResponse,
     newDescribeConformancePackStatusResponse,
 
     -- ** DescribeConformancePacks (Paginated)
-    DescribeConformancePacks (DescribeConformancePacks'),
+    DescribeConformancePacks,
     newDescribeConformancePacks,
-    DescribeConformancePacksResponse (DescribeConformancePacksResponse'),
+    DescribeConformancePacksResponse,
     newDescribeConformancePacksResponse,
 
     -- ** DescribeDeliveryChannelStatus
-    DescribeDeliveryChannelStatus (DescribeDeliveryChannelStatus'),
+    DescribeDeliveryChannelStatus,
     newDescribeDeliveryChannelStatus,
-    DescribeDeliveryChannelStatusResponse (DescribeDeliveryChannelStatusResponse'),
+    DescribeDeliveryChannelStatusResponse,
     newDescribeDeliveryChannelStatusResponse,
 
     -- ** DescribeDeliveryChannels
-    DescribeDeliveryChannels (DescribeDeliveryChannels'),
+    DescribeDeliveryChannels,
     newDescribeDeliveryChannels,
-    DescribeDeliveryChannelsResponse (DescribeDeliveryChannelsResponse'),
+    DescribeDeliveryChannelsResponse,
     newDescribeDeliveryChannelsResponse,
 
     -- ** DescribeOrganizationConfigRuleStatuses (Paginated)
-    DescribeOrganizationConfigRuleStatuses (DescribeOrganizationConfigRuleStatuses'),
+    DescribeOrganizationConfigRuleStatuses,
     newDescribeOrganizationConfigRuleStatuses,
-    DescribeOrganizationConfigRuleStatusesResponse (DescribeOrganizationConfigRuleStatusesResponse'),
+    DescribeOrganizationConfigRuleStatusesResponse,
     newDescribeOrganizationConfigRuleStatusesResponse,
 
     -- ** DescribeOrganizationConfigRules (Paginated)
-    DescribeOrganizationConfigRules (DescribeOrganizationConfigRules'),
+    DescribeOrganizationConfigRules,
     newDescribeOrganizationConfigRules,
-    DescribeOrganizationConfigRulesResponse (DescribeOrganizationConfigRulesResponse'),
+    DescribeOrganizationConfigRulesResponse,
     newDescribeOrganizationConfigRulesResponse,
 
     -- ** DescribeOrganizationConformancePackStatuses (Paginated)
-    DescribeOrganizationConformancePackStatuses (DescribeOrganizationConformancePackStatuses'),
+    DescribeOrganizationConformancePackStatuses,
     newDescribeOrganizationConformancePackStatuses,
-    DescribeOrganizationConformancePackStatusesResponse (DescribeOrganizationConformancePackStatusesResponse'),
+    DescribeOrganizationConformancePackStatusesResponse,
     newDescribeOrganizationConformancePackStatusesResponse,
 
     -- ** DescribeOrganizationConformancePacks (Paginated)
-    DescribeOrganizationConformancePacks (DescribeOrganizationConformancePacks'),
+    DescribeOrganizationConformancePacks,
     newDescribeOrganizationConformancePacks,
-    DescribeOrganizationConformancePacksResponse (DescribeOrganizationConformancePacksResponse'),
+    DescribeOrganizationConformancePacksResponse,
     newDescribeOrganizationConformancePacksResponse,
 
     -- ** DescribePendingAggregationRequests (Paginated)
-    DescribePendingAggregationRequests (DescribePendingAggregationRequests'),
+    DescribePendingAggregationRequests,
     newDescribePendingAggregationRequests,
-    DescribePendingAggregationRequestsResponse (DescribePendingAggregationRequestsResponse'),
+    DescribePendingAggregationRequestsResponse,
     newDescribePendingAggregationRequestsResponse,
 
     -- ** DescribeRemediationConfigurations
-    DescribeRemediationConfigurations (DescribeRemediationConfigurations'),
+    DescribeRemediationConfigurations,
     newDescribeRemediationConfigurations,
-    DescribeRemediationConfigurationsResponse (DescribeRemediationConfigurationsResponse'),
+    DescribeRemediationConfigurationsResponse,
     newDescribeRemediationConfigurationsResponse,
 
     -- ** DescribeRemediationExceptions
-    DescribeRemediationExceptions (DescribeRemediationExceptions'),
+    DescribeRemediationExceptions,
     newDescribeRemediationExceptions,
-    DescribeRemediationExceptionsResponse (DescribeRemediationExceptionsResponse'),
+    DescribeRemediationExceptionsResponse,
     newDescribeRemediationExceptionsResponse,
 
     -- ** DescribeRemediationExecutionStatus (Paginated)
-    DescribeRemediationExecutionStatus (DescribeRemediationExecutionStatus'),
+    DescribeRemediationExecutionStatus,
     newDescribeRemediationExecutionStatus,
-    DescribeRemediationExecutionStatusResponse (DescribeRemediationExecutionStatusResponse'),
+    DescribeRemediationExecutionStatusResponse,
     newDescribeRemediationExecutionStatusResponse,
 
     -- ** DescribeRetentionConfigurations (Paginated)
-    DescribeRetentionConfigurations (DescribeRetentionConfigurations'),
+    DescribeRetentionConfigurations,
     newDescribeRetentionConfigurations,
-    DescribeRetentionConfigurationsResponse (DescribeRetentionConfigurationsResponse'),
+    DescribeRetentionConfigurationsResponse,
     newDescribeRetentionConfigurationsResponse,
 
     -- ** GetAggregateComplianceDetailsByConfigRule (Paginated)
-    GetAggregateComplianceDetailsByConfigRule (GetAggregateComplianceDetailsByConfigRule'),
+    GetAggregateComplianceDetailsByConfigRule,
     newGetAggregateComplianceDetailsByConfigRule,
-    GetAggregateComplianceDetailsByConfigRuleResponse (GetAggregateComplianceDetailsByConfigRuleResponse'),
+    GetAggregateComplianceDetailsByConfigRuleResponse,
     newGetAggregateComplianceDetailsByConfigRuleResponse,
 
     -- ** GetAggregateConfigRuleComplianceSummary
-    GetAggregateConfigRuleComplianceSummary (GetAggregateConfigRuleComplianceSummary'),
+    GetAggregateConfigRuleComplianceSummary,
     newGetAggregateConfigRuleComplianceSummary,
-    GetAggregateConfigRuleComplianceSummaryResponse (GetAggregateConfigRuleComplianceSummaryResponse'),
+    GetAggregateConfigRuleComplianceSummaryResponse,
     newGetAggregateConfigRuleComplianceSummaryResponse,
 
     -- ** GetAggregateConformancePackComplianceSummary
-    GetAggregateConformancePackComplianceSummary (GetAggregateConformancePackComplianceSummary'),
+    GetAggregateConformancePackComplianceSummary,
     newGetAggregateConformancePackComplianceSummary,
-    GetAggregateConformancePackComplianceSummaryResponse (GetAggregateConformancePackComplianceSummaryResponse'),
+    GetAggregateConformancePackComplianceSummaryResponse,
     newGetAggregateConformancePackComplianceSummaryResponse,
 
     -- ** GetAggregateDiscoveredResourceCounts
-    GetAggregateDiscoveredResourceCounts (GetAggregateDiscoveredResourceCounts'),
+    GetAggregateDiscoveredResourceCounts,
     newGetAggregateDiscoveredResourceCounts,
-    GetAggregateDiscoveredResourceCountsResponse (GetAggregateDiscoveredResourceCountsResponse'),
+    GetAggregateDiscoveredResourceCountsResponse,
     newGetAggregateDiscoveredResourceCountsResponse,
 
     -- ** GetAggregateResourceConfig
-    GetAggregateResourceConfig (GetAggregateResourceConfig'),
+    GetAggregateResourceConfig,
     newGetAggregateResourceConfig,
-    GetAggregateResourceConfigResponse (GetAggregateResourceConfigResponse'),
+    GetAggregateResourceConfigResponse,
     newGetAggregateResourceConfigResponse,
 
     -- ** GetComplianceDetailsByConfigRule (Paginated)
-    GetComplianceDetailsByConfigRule (GetComplianceDetailsByConfigRule'),
+    GetComplianceDetailsByConfigRule,
     newGetComplianceDetailsByConfigRule,
-    GetComplianceDetailsByConfigRuleResponse (GetComplianceDetailsByConfigRuleResponse'),
+    GetComplianceDetailsByConfigRuleResponse,
     newGetComplianceDetailsByConfigRuleResponse,
 
     -- ** GetComplianceDetailsByResource (Paginated)
-    GetComplianceDetailsByResource (GetComplianceDetailsByResource'),
+    GetComplianceDetailsByResource,
     newGetComplianceDetailsByResource,
-    GetComplianceDetailsByResourceResponse (GetComplianceDetailsByResourceResponse'),
+    GetComplianceDetailsByResourceResponse,
     newGetComplianceDetailsByResourceResponse,
 
     -- ** GetComplianceSummaryByConfigRule
-    GetComplianceSummaryByConfigRule (GetComplianceSummaryByConfigRule'),
+    GetComplianceSummaryByConfigRule,
     newGetComplianceSummaryByConfigRule,
-    GetComplianceSummaryByConfigRuleResponse (GetComplianceSummaryByConfigRuleResponse'),
+    GetComplianceSummaryByConfigRuleResponse,
     newGetComplianceSummaryByConfigRuleResponse,
 
     -- ** GetComplianceSummaryByResourceType
-    GetComplianceSummaryByResourceType (GetComplianceSummaryByResourceType'),
+    GetComplianceSummaryByResourceType,
     newGetComplianceSummaryByResourceType,
-    GetComplianceSummaryByResourceTypeResponse (GetComplianceSummaryByResourceTypeResponse'),
+    GetComplianceSummaryByResourceTypeResponse,
     newGetComplianceSummaryByResourceTypeResponse,
 
     -- ** GetConformancePackComplianceDetails
-    GetConformancePackComplianceDetails (GetConformancePackComplianceDetails'),
+    GetConformancePackComplianceDetails,
     newGetConformancePackComplianceDetails,
-    GetConformancePackComplianceDetailsResponse (GetConformancePackComplianceDetailsResponse'),
+    GetConformancePackComplianceDetailsResponse,
     newGetConformancePackComplianceDetailsResponse,
 
     -- ** GetConformancePackComplianceSummary (Paginated)
-    GetConformancePackComplianceSummary (GetConformancePackComplianceSummary'),
+    GetConformancePackComplianceSummary,
     newGetConformancePackComplianceSummary,
-    GetConformancePackComplianceSummaryResponse (GetConformancePackComplianceSummaryResponse'),
+    GetConformancePackComplianceSummaryResponse,
     newGetConformancePackComplianceSummaryResponse,
 
     -- ** GetCustomRulePolicy
-    GetCustomRulePolicy (GetCustomRulePolicy'),
+    GetCustomRulePolicy,
     newGetCustomRulePolicy,
-    GetCustomRulePolicyResponse (GetCustomRulePolicyResponse'),
+    GetCustomRulePolicyResponse,
     newGetCustomRulePolicyResponse,
 
     -- ** GetDiscoveredResourceCounts
-    GetDiscoveredResourceCounts (GetDiscoveredResourceCounts'),
+    GetDiscoveredResourceCounts,
     newGetDiscoveredResourceCounts,
-    GetDiscoveredResourceCountsResponse (GetDiscoveredResourceCountsResponse'),
+    GetDiscoveredResourceCountsResponse,
     newGetDiscoveredResourceCountsResponse,
 
     -- ** GetOrganizationConfigRuleDetailedStatus (Paginated)
-    GetOrganizationConfigRuleDetailedStatus (GetOrganizationConfigRuleDetailedStatus'),
+    GetOrganizationConfigRuleDetailedStatus,
     newGetOrganizationConfigRuleDetailedStatus,
-    GetOrganizationConfigRuleDetailedStatusResponse (GetOrganizationConfigRuleDetailedStatusResponse'),
+    GetOrganizationConfigRuleDetailedStatusResponse,
     newGetOrganizationConfigRuleDetailedStatusResponse,
 
     -- ** GetOrganizationConformancePackDetailedStatus (Paginated)
-    GetOrganizationConformancePackDetailedStatus (GetOrganizationConformancePackDetailedStatus'),
+    GetOrganizationConformancePackDetailedStatus,
     newGetOrganizationConformancePackDetailedStatus,
-    GetOrganizationConformancePackDetailedStatusResponse (GetOrganizationConformancePackDetailedStatusResponse'),
+    GetOrganizationConformancePackDetailedStatusResponse,
     newGetOrganizationConformancePackDetailedStatusResponse,
 
     -- ** GetOrganizationCustomRulePolicy
-    GetOrganizationCustomRulePolicy (GetOrganizationCustomRulePolicy'),
+    GetOrganizationCustomRulePolicy,
     newGetOrganizationCustomRulePolicy,
-    GetOrganizationCustomRulePolicyResponse (GetOrganizationCustomRulePolicyResponse'),
+    GetOrganizationCustomRulePolicyResponse,
     newGetOrganizationCustomRulePolicyResponse,
 
     -- ** GetResourceConfigHistory (Paginated)
-    GetResourceConfigHistory (GetResourceConfigHistory'),
+    GetResourceConfigHistory,
     newGetResourceConfigHistory,
-    GetResourceConfigHistoryResponse (GetResourceConfigHistoryResponse'),
+    GetResourceConfigHistoryResponse,
     newGetResourceConfigHistoryResponse,
 
     -- ** GetResourceEvaluationSummary
-    GetResourceEvaluationSummary (GetResourceEvaluationSummary'),
+    GetResourceEvaluationSummary,
     newGetResourceEvaluationSummary,
-    GetResourceEvaluationSummaryResponse (GetResourceEvaluationSummaryResponse'),
+    GetResourceEvaluationSummaryResponse,
     newGetResourceEvaluationSummaryResponse,
 
     -- ** GetStoredQuery
-    GetStoredQuery (GetStoredQuery'),
+    GetStoredQuery,
     newGetStoredQuery,
-    GetStoredQueryResponse (GetStoredQueryResponse'),
+    GetStoredQueryResponse,
     newGetStoredQueryResponse,
 
     -- ** ListAggregateDiscoveredResources (Paginated)
-    ListAggregateDiscoveredResources (ListAggregateDiscoveredResources'),
+    ListAggregateDiscoveredResources,
     newListAggregateDiscoveredResources,
-    ListAggregateDiscoveredResourcesResponse (ListAggregateDiscoveredResourcesResponse'),
+    ListAggregateDiscoveredResourcesResponse,
     newListAggregateDiscoveredResourcesResponse,
 
     -- ** ListConformancePackComplianceScores
-    ListConformancePackComplianceScores (ListConformancePackComplianceScores'),
+    ListConformancePackComplianceScores,
     newListConformancePackComplianceScores,
-    ListConformancePackComplianceScoresResponse (ListConformancePackComplianceScoresResponse'),
+    ListConformancePackComplianceScoresResponse,
     newListConformancePackComplianceScoresResponse,
 
     -- ** ListDiscoveredResources (Paginated)
-    ListDiscoveredResources (ListDiscoveredResources'),
+    ListDiscoveredResources,
     newListDiscoveredResources,
-    ListDiscoveredResourcesResponse (ListDiscoveredResourcesResponse'),
+    ListDiscoveredResourcesResponse,
     newListDiscoveredResourcesResponse,
 
     -- ** ListResourceEvaluations (Paginated)
-    ListResourceEvaluations (ListResourceEvaluations'),
+    ListResourceEvaluations,
     newListResourceEvaluations,
-    ListResourceEvaluationsResponse (ListResourceEvaluationsResponse'),
+    ListResourceEvaluationsResponse,
     newListResourceEvaluationsResponse,
 
     -- ** ListStoredQueries
-    ListStoredQueries (ListStoredQueries'),
+    ListStoredQueries,
     newListStoredQueries,
-    ListStoredQueriesResponse (ListStoredQueriesResponse'),
+    ListStoredQueriesResponse,
     newListStoredQueriesResponse,
 
     -- ** ListTagsForResource (Paginated)
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** PutAggregationAuthorization
-    PutAggregationAuthorization (PutAggregationAuthorization'),
+    PutAggregationAuthorization,
     newPutAggregationAuthorization,
-    PutAggregationAuthorizationResponse (PutAggregationAuthorizationResponse'),
+    PutAggregationAuthorizationResponse,
     newPutAggregationAuthorizationResponse,
 
     -- ** PutConfigRule
-    PutConfigRule (PutConfigRule'),
+    PutConfigRule,
     newPutConfigRule,
-    PutConfigRuleResponse (PutConfigRuleResponse'),
+    PutConfigRuleResponse,
     newPutConfigRuleResponse,
 
     -- ** PutConfigurationAggregator
-    PutConfigurationAggregator (PutConfigurationAggregator'),
+    PutConfigurationAggregator,
     newPutConfigurationAggregator,
-    PutConfigurationAggregatorResponse (PutConfigurationAggregatorResponse'),
+    PutConfigurationAggregatorResponse,
     newPutConfigurationAggregatorResponse,
 
     -- ** PutConfigurationRecorder
-    PutConfigurationRecorder (PutConfigurationRecorder'),
+    PutConfigurationRecorder,
     newPutConfigurationRecorder,
-    PutConfigurationRecorderResponse (PutConfigurationRecorderResponse'),
+    PutConfigurationRecorderResponse,
     newPutConfigurationRecorderResponse,
 
     -- ** PutConformancePack
-    PutConformancePack (PutConformancePack'),
+    PutConformancePack,
     newPutConformancePack,
-    PutConformancePackResponse (PutConformancePackResponse'),
+    PutConformancePackResponse,
     newPutConformancePackResponse,
 
     -- ** PutDeliveryChannel
-    PutDeliveryChannel (PutDeliveryChannel'),
+    PutDeliveryChannel,
     newPutDeliveryChannel,
-    PutDeliveryChannelResponse (PutDeliveryChannelResponse'),
+    PutDeliveryChannelResponse,
     newPutDeliveryChannelResponse,
 
     -- ** PutEvaluations
-    PutEvaluations (PutEvaluations'),
+    PutEvaluations,
     newPutEvaluations,
-    PutEvaluationsResponse (PutEvaluationsResponse'),
+    PutEvaluationsResponse,
     newPutEvaluationsResponse,
 
     -- ** PutExternalEvaluation
-    PutExternalEvaluation (PutExternalEvaluation'),
+    PutExternalEvaluation,
     newPutExternalEvaluation,
-    PutExternalEvaluationResponse (PutExternalEvaluationResponse'),
+    PutExternalEvaluationResponse,
     newPutExternalEvaluationResponse,
 
     -- ** PutOrganizationConfigRule
-    PutOrganizationConfigRule (PutOrganizationConfigRule'),
+    PutOrganizationConfigRule,
     newPutOrganizationConfigRule,
-    PutOrganizationConfigRuleResponse (PutOrganizationConfigRuleResponse'),
+    PutOrganizationConfigRuleResponse,
     newPutOrganizationConfigRuleResponse,
 
     -- ** PutOrganizationConformancePack
-    PutOrganizationConformancePack (PutOrganizationConformancePack'),
+    PutOrganizationConformancePack,
     newPutOrganizationConformancePack,
-    PutOrganizationConformancePackResponse (PutOrganizationConformancePackResponse'),
+    PutOrganizationConformancePackResponse,
     newPutOrganizationConformancePackResponse,
 
     -- ** PutRemediationConfigurations
-    PutRemediationConfigurations (PutRemediationConfigurations'),
+    PutRemediationConfigurations,
     newPutRemediationConfigurations,
-    PutRemediationConfigurationsResponse (PutRemediationConfigurationsResponse'),
+    PutRemediationConfigurationsResponse,
     newPutRemediationConfigurationsResponse,
 
     -- ** PutRemediationExceptions
-    PutRemediationExceptions (PutRemediationExceptions'),
+    PutRemediationExceptions,
     newPutRemediationExceptions,
-    PutRemediationExceptionsResponse (PutRemediationExceptionsResponse'),
+    PutRemediationExceptionsResponse,
     newPutRemediationExceptionsResponse,
 
     -- ** PutResourceConfig
-    PutResourceConfig (PutResourceConfig'),
+    PutResourceConfig,
     newPutResourceConfig,
-    PutResourceConfigResponse (PutResourceConfigResponse'),
+    PutResourceConfigResponse,
     newPutResourceConfigResponse,
 
     -- ** PutRetentionConfiguration
-    PutRetentionConfiguration (PutRetentionConfiguration'),
+    PutRetentionConfiguration,
     newPutRetentionConfiguration,
-    PutRetentionConfigurationResponse (PutRetentionConfigurationResponse'),
+    PutRetentionConfigurationResponse,
     newPutRetentionConfigurationResponse,
 
     -- ** PutStoredQuery
-    PutStoredQuery (PutStoredQuery'),
+    PutStoredQuery,
     newPutStoredQuery,
-    PutStoredQueryResponse (PutStoredQueryResponse'),
+    PutStoredQueryResponse,
     newPutStoredQueryResponse,
 
     -- ** SelectAggregateResourceConfig (Paginated)
-    SelectAggregateResourceConfig (SelectAggregateResourceConfig'),
+    SelectAggregateResourceConfig,
     newSelectAggregateResourceConfig,
-    SelectAggregateResourceConfigResponse (SelectAggregateResourceConfigResponse'),
+    SelectAggregateResourceConfigResponse,
     newSelectAggregateResourceConfigResponse,
 
     -- ** SelectResourceConfig (Paginated)
-    SelectResourceConfig (SelectResourceConfig'),
+    SelectResourceConfig,
     newSelectResourceConfig,
-    SelectResourceConfigResponse (SelectResourceConfigResponse'),
+    SelectResourceConfigResponse,
     newSelectResourceConfigResponse,
 
     -- ** StartConfigRulesEvaluation
-    StartConfigRulesEvaluation (StartConfigRulesEvaluation'),
+    StartConfigRulesEvaluation,
     newStartConfigRulesEvaluation,
-    StartConfigRulesEvaluationResponse (StartConfigRulesEvaluationResponse'),
+    StartConfigRulesEvaluationResponse,
     newStartConfigRulesEvaluationResponse,
 
     -- ** StartConfigurationRecorder
-    StartConfigurationRecorder (StartConfigurationRecorder'),
+    StartConfigurationRecorder,
     newStartConfigurationRecorder,
-    StartConfigurationRecorderResponse (StartConfigurationRecorderResponse'),
+    StartConfigurationRecorderResponse,
     newStartConfigurationRecorderResponse,
 
     -- ** StartRemediationExecution
-    StartRemediationExecution (StartRemediationExecution'),
+    StartRemediationExecution,
     newStartRemediationExecution,
-    StartRemediationExecutionResponse (StartRemediationExecutionResponse'),
+    StartRemediationExecutionResponse,
     newStartRemediationExecutionResponse,
 
     -- ** StartResourceEvaluation
-    StartResourceEvaluation (StartResourceEvaluation'),
+    StartResourceEvaluation,
     newStartResourceEvaluation,
-    StartResourceEvaluationResponse (StartResourceEvaluationResponse'),
+    StartResourceEvaluationResponse,
     newStartResourceEvaluationResponse,
 
     -- ** StopConfigurationRecorder
-    StopConfigurationRecorder (StopConfigurationRecorder'),
+    StopConfigurationRecorder,
     newStopConfigurationRecorder,
-    StopConfigurationRecorderResponse (StopConfigurationRecorderResponse'),
+    StopConfigurationRecorderResponse,
     newStopConfigurationRecorderResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- * Types
@@ -867,411 +867,411 @@ module Amazonka.Config
     SortOrder (..),
 
     -- ** AccountAggregationSource
-    AccountAggregationSource (AccountAggregationSource'),
+    AccountAggregationSource,
     newAccountAggregationSource,
 
     -- ** AggregateComplianceByConfigRule
-    AggregateComplianceByConfigRule (AggregateComplianceByConfigRule'),
+    AggregateComplianceByConfigRule,
     newAggregateComplianceByConfigRule,
 
     -- ** AggregateComplianceByConformancePack
-    AggregateComplianceByConformancePack (AggregateComplianceByConformancePack'),
+    AggregateComplianceByConformancePack,
     newAggregateComplianceByConformancePack,
 
     -- ** AggregateComplianceCount
-    AggregateComplianceCount (AggregateComplianceCount'),
+    AggregateComplianceCount,
     newAggregateComplianceCount,
 
     -- ** AggregateConformancePackCompliance
-    AggregateConformancePackCompliance (AggregateConformancePackCompliance'),
+    AggregateConformancePackCompliance,
     newAggregateConformancePackCompliance,
 
     -- ** AggregateConformancePackComplianceCount
-    AggregateConformancePackComplianceCount (AggregateConformancePackComplianceCount'),
+    AggregateConformancePackComplianceCount,
     newAggregateConformancePackComplianceCount,
 
     -- ** AggregateConformancePackComplianceFilters
-    AggregateConformancePackComplianceFilters (AggregateConformancePackComplianceFilters'),
+    AggregateConformancePackComplianceFilters,
     newAggregateConformancePackComplianceFilters,
 
     -- ** AggregateConformancePackComplianceSummary
-    AggregateConformancePackComplianceSummary (AggregateConformancePackComplianceSummary'),
+    AggregateConformancePackComplianceSummary,
     newAggregateConformancePackComplianceSummary,
 
     -- ** AggregateConformancePackComplianceSummaryFilters
-    AggregateConformancePackComplianceSummaryFilters (AggregateConformancePackComplianceSummaryFilters'),
+    AggregateConformancePackComplianceSummaryFilters,
     newAggregateConformancePackComplianceSummaryFilters,
 
     -- ** AggregateEvaluationResult
-    AggregateEvaluationResult (AggregateEvaluationResult'),
+    AggregateEvaluationResult,
     newAggregateEvaluationResult,
 
     -- ** AggregateResourceIdentifier
-    AggregateResourceIdentifier (AggregateResourceIdentifier'),
+    AggregateResourceIdentifier,
     newAggregateResourceIdentifier,
 
     -- ** AggregatedSourceStatus
-    AggregatedSourceStatus (AggregatedSourceStatus'),
+    AggregatedSourceStatus,
     newAggregatedSourceStatus,
 
     -- ** AggregationAuthorization
-    AggregationAuthorization (AggregationAuthorization'),
+    AggregationAuthorization,
     newAggregationAuthorization,
 
     -- ** BaseConfigurationItem
-    BaseConfigurationItem (BaseConfigurationItem'),
+    BaseConfigurationItem,
     newBaseConfigurationItem,
 
     -- ** Compliance
-    Compliance (Compliance'),
+    Compliance,
     newCompliance,
 
     -- ** ComplianceByConfigRule
-    ComplianceByConfigRule (ComplianceByConfigRule'),
+    ComplianceByConfigRule,
     newComplianceByConfigRule,
 
     -- ** ComplianceByResource
-    ComplianceByResource (ComplianceByResource'),
+    ComplianceByResource,
     newComplianceByResource,
 
     -- ** ComplianceContributorCount
-    ComplianceContributorCount (ComplianceContributorCount'),
+    ComplianceContributorCount,
     newComplianceContributorCount,
 
     -- ** ComplianceSummary
-    ComplianceSummary (ComplianceSummary'),
+    ComplianceSummary,
     newComplianceSummary,
 
     -- ** ComplianceSummaryByResourceType
-    ComplianceSummaryByResourceType (ComplianceSummaryByResourceType'),
+    ComplianceSummaryByResourceType,
     newComplianceSummaryByResourceType,
 
     -- ** ConfigExportDeliveryInfo
-    ConfigExportDeliveryInfo (ConfigExportDeliveryInfo'),
+    ConfigExportDeliveryInfo,
     newConfigExportDeliveryInfo,
 
     -- ** ConfigRule
-    ConfigRule (ConfigRule'),
+    ConfigRule,
     newConfigRule,
 
     -- ** ConfigRuleComplianceFilters
-    ConfigRuleComplianceFilters (ConfigRuleComplianceFilters'),
+    ConfigRuleComplianceFilters,
     newConfigRuleComplianceFilters,
 
     -- ** ConfigRuleComplianceSummaryFilters
-    ConfigRuleComplianceSummaryFilters (ConfigRuleComplianceSummaryFilters'),
+    ConfigRuleComplianceSummaryFilters,
     newConfigRuleComplianceSummaryFilters,
 
     -- ** ConfigRuleEvaluationStatus
-    ConfigRuleEvaluationStatus (ConfigRuleEvaluationStatus'),
+    ConfigRuleEvaluationStatus,
     newConfigRuleEvaluationStatus,
 
     -- ** ConfigSnapshotDeliveryProperties
-    ConfigSnapshotDeliveryProperties (ConfigSnapshotDeliveryProperties'),
+    ConfigSnapshotDeliveryProperties,
     newConfigSnapshotDeliveryProperties,
 
     -- ** ConfigStreamDeliveryInfo
-    ConfigStreamDeliveryInfo (ConfigStreamDeliveryInfo'),
+    ConfigStreamDeliveryInfo,
     newConfigStreamDeliveryInfo,
 
     -- ** ConfigurationAggregator
-    ConfigurationAggregator (ConfigurationAggregator'),
+    ConfigurationAggregator,
     newConfigurationAggregator,
 
     -- ** ConfigurationItem
-    ConfigurationItem (ConfigurationItem'),
+    ConfigurationItem,
     newConfigurationItem,
 
     -- ** ConfigurationRecorder
-    ConfigurationRecorder (ConfigurationRecorder'),
+    ConfigurationRecorder,
     newConfigurationRecorder,
 
     -- ** ConfigurationRecorderStatus
-    ConfigurationRecorderStatus (ConfigurationRecorderStatus'),
+    ConfigurationRecorderStatus,
     newConfigurationRecorderStatus,
 
     -- ** ConformancePackComplianceFilters
-    ConformancePackComplianceFilters (ConformancePackComplianceFilters'),
+    ConformancePackComplianceFilters,
     newConformancePackComplianceFilters,
 
     -- ** ConformancePackComplianceScore
-    ConformancePackComplianceScore (ConformancePackComplianceScore'),
+    ConformancePackComplianceScore,
     newConformancePackComplianceScore,
 
     -- ** ConformancePackComplianceScoresFilters
-    ConformancePackComplianceScoresFilters (ConformancePackComplianceScoresFilters'),
+    ConformancePackComplianceScoresFilters,
     newConformancePackComplianceScoresFilters,
 
     -- ** ConformancePackComplianceSummary
-    ConformancePackComplianceSummary (ConformancePackComplianceSummary'),
+    ConformancePackComplianceSummary,
     newConformancePackComplianceSummary,
 
     -- ** ConformancePackDetail
-    ConformancePackDetail (ConformancePackDetail'),
+    ConformancePackDetail,
     newConformancePackDetail,
 
     -- ** ConformancePackEvaluationFilters
-    ConformancePackEvaluationFilters (ConformancePackEvaluationFilters'),
+    ConformancePackEvaluationFilters,
     newConformancePackEvaluationFilters,
 
     -- ** ConformancePackEvaluationResult
-    ConformancePackEvaluationResult (ConformancePackEvaluationResult'),
+    ConformancePackEvaluationResult,
     newConformancePackEvaluationResult,
 
     -- ** ConformancePackInputParameter
-    ConformancePackInputParameter (ConformancePackInputParameter'),
+    ConformancePackInputParameter,
     newConformancePackInputParameter,
 
     -- ** ConformancePackRuleCompliance
-    ConformancePackRuleCompliance (ConformancePackRuleCompliance'),
+    ConformancePackRuleCompliance,
     newConformancePackRuleCompliance,
 
     -- ** ConformancePackStatusDetail
-    ConformancePackStatusDetail (ConformancePackStatusDetail'),
+    ConformancePackStatusDetail,
     newConformancePackStatusDetail,
 
     -- ** CustomPolicyDetails
-    CustomPolicyDetails (CustomPolicyDetails'),
+    CustomPolicyDetails,
     newCustomPolicyDetails,
 
     -- ** DeliveryChannel
-    DeliveryChannel (DeliveryChannel'),
+    DeliveryChannel,
     newDeliveryChannel,
 
     -- ** DeliveryChannelStatus
-    DeliveryChannelStatus (DeliveryChannelStatus'),
+    DeliveryChannelStatus,
     newDeliveryChannelStatus,
 
     -- ** DescribeConfigRulesFilters
-    DescribeConfigRulesFilters (DescribeConfigRulesFilters'),
+    DescribeConfigRulesFilters,
     newDescribeConfigRulesFilters,
 
     -- ** Evaluation
-    Evaluation (Evaluation'),
+    Evaluation,
     newEvaluation,
 
     -- ** EvaluationContext
-    EvaluationContext (EvaluationContext'),
+    EvaluationContext,
     newEvaluationContext,
 
     -- ** EvaluationModeConfiguration
-    EvaluationModeConfiguration (EvaluationModeConfiguration'),
+    EvaluationModeConfiguration,
     newEvaluationModeConfiguration,
 
     -- ** EvaluationResult
-    EvaluationResult (EvaluationResult'),
+    EvaluationResult,
     newEvaluationResult,
 
     -- ** EvaluationResultIdentifier
-    EvaluationResultIdentifier (EvaluationResultIdentifier'),
+    EvaluationResultIdentifier,
     newEvaluationResultIdentifier,
 
     -- ** EvaluationResultQualifier
-    EvaluationResultQualifier (EvaluationResultQualifier'),
+    EvaluationResultQualifier,
     newEvaluationResultQualifier,
 
     -- ** EvaluationStatus
-    EvaluationStatus (EvaluationStatus'),
+    EvaluationStatus,
     newEvaluationStatus,
 
     -- ** ExecutionControls
-    ExecutionControls (ExecutionControls'),
+    ExecutionControls,
     newExecutionControls,
 
     -- ** ExternalEvaluation
-    ExternalEvaluation (ExternalEvaluation'),
+    ExternalEvaluation,
     newExternalEvaluation,
 
     -- ** FailedDeleteRemediationExceptionsBatch
-    FailedDeleteRemediationExceptionsBatch (FailedDeleteRemediationExceptionsBatch'),
+    FailedDeleteRemediationExceptionsBatch,
     newFailedDeleteRemediationExceptionsBatch,
 
     -- ** FailedRemediationBatch
-    FailedRemediationBatch (FailedRemediationBatch'),
+    FailedRemediationBatch,
     newFailedRemediationBatch,
 
     -- ** FailedRemediationExceptionBatch
-    FailedRemediationExceptionBatch (FailedRemediationExceptionBatch'),
+    FailedRemediationExceptionBatch,
     newFailedRemediationExceptionBatch,
 
     -- ** FieldInfo
-    FieldInfo (FieldInfo'),
+    FieldInfo,
     newFieldInfo,
 
     -- ** GroupedResourceCount
-    GroupedResourceCount (GroupedResourceCount'),
+    GroupedResourceCount,
     newGroupedResourceCount,
 
     -- ** MemberAccountStatus
-    MemberAccountStatus (MemberAccountStatus'),
+    MemberAccountStatus,
     newMemberAccountStatus,
 
     -- ** OrganizationAggregationSource
-    OrganizationAggregationSource (OrganizationAggregationSource'),
+    OrganizationAggregationSource,
     newOrganizationAggregationSource,
 
     -- ** OrganizationConfigRule
-    OrganizationConfigRule (OrganizationConfigRule'),
+    OrganizationConfigRule,
     newOrganizationConfigRule,
 
     -- ** OrganizationConfigRuleStatus
-    OrganizationConfigRuleStatus (OrganizationConfigRuleStatus'),
+    OrganizationConfigRuleStatus,
     newOrganizationConfigRuleStatus,
 
     -- ** OrganizationConformancePack
-    OrganizationConformancePack (OrganizationConformancePack'),
+    OrganizationConformancePack,
     newOrganizationConformancePack,
 
     -- ** OrganizationConformancePackDetailedStatus
-    OrganizationConformancePackDetailedStatus (OrganizationConformancePackDetailedStatus'),
+    OrganizationConformancePackDetailedStatus,
     newOrganizationConformancePackDetailedStatus,
 
     -- ** OrganizationConformancePackStatus
-    OrganizationConformancePackStatus (OrganizationConformancePackStatus'),
+    OrganizationConformancePackStatus,
     newOrganizationConformancePackStatus,
 
     -- ** OrganizationCustomPolicyRuleMetadata
-    OrganizationCustomPolicyRuleMetadata (OrganizationCustomPolicyRuleMetadata'),
+    OrganizationCustomPolicyRuleMetadata,
     newOrganizationCustomPolicyRuleMetadata,
 
     -- ** OrganizationCustomPolicyRuleMetadataNoPolicy
-    OrganizationCustomPolicyRuleMetadataNoPolicy (OrganizationCustomPolicyRuleMetadataNoPolicy'),
+    OrganizationCustomPolicyRuleMetadataNoPolicy,
     newOrganizationCustomPolicyRuleMetadataNoPolicy,
 
     -- ** OrganizationCustomRuleMetadata
-    OrganizationCustomRuleMetadata (OrganizationCustomRuleMetadata'),
+    OrganizationCustomRuleMetadata,
     newOrganizationCustomRuleMetadata,
 
     -- ** OrganizationManagedRuleMetadata
-    OrganizationManagedRuleMetadata (OrganizationManagedRuleMetadata'),
+    OrganizationManagedRuleMetadata,
     newOrganizationManagedRuleMetadata,
 
     -- ** OrganizationResourceDetailedStatusFilters
-    OrganizationResourceDetailedStatusFilters (OrganizationResourceDetailedStatusFilters'),
+    OrganizationResourceDetailedStatusFilters,
     newOrganizationResourceDetailedStatusFilters,
 
     -- ** PendingAggregationRequest
-    PendingAggregationRequest (PendingAggregationRequest'),
+    PendingAggregationRequest,
     newPendingAggregationRequest,
 
     -- ** QueryInfo
-    QueryInfo (QueryInfo'),
+    QueryInfo,
     newQueryInfo,
 
     -- ** RecordingGroup
-    RecordingGroup (RecordingGroup'),
+    RecordingGroup,
     newRecordingGroup,
 
     -- ** Relationship
-    Relationship (Relationship'),
+    Relationship,
     newRelationship,
 
     -- ** RemediationConfiguration
-    RemediationConfiguration (RemediationConfiguration'),
+    RemediationConfiguration,
     newRemediationConfiguration,
 
     -- ** RemediationException
-    RemediationException (RemediationException'),
+    RemediationException,
     newRemediationException,
 
     -- ** RemediationExceptionResourceKey
-    RemediationExceptionResourceKey (RemediationExceptionResourceKey'),
+    RemediationExceptionResourceKey,
     newRemediationExceptionResourceKey,
 
     -- ** RemediationExecutionStatus
-    RemediationExecutionStatus (RemediationExecutionStatus'),
+    RemediationExecutionStatus,
     newRemediationExecutionStatus,
 
     -- ** RemediationExecutionStep
-    RemediationExecutionStep (RemediationExecutionStep'),
+    RemediationExecutionStep,
     newRemediationExecutionStep,
 
     -- ** RemediationParameterValue
-    RemediationParameterValue (RemediationParameterValue'),
+    RemediationParameterValue,
     newRemediationParameterValue,
 
     -- ** ResourceCount
-    ResourceCount (ResourceCount'),
+    ResourceCount,
     newResourceCount,
 
     -- ** ResourceCountFilters
-    ResourceCountFilters (ResourceCountFilters'),
+    ResourceCountFilters,
     newResourceCountFilters,
 
     -- ** ResourceDetails
-    ResourceDetails (ResourceDetails'),
+    ResourceDetails,
     newResourceDetails,
 
     -- ** ResourceEvaluation
-    ResourceEvaluation (ResourceEvaluation'),
+    ResourceEvaluation,
     newResourceEvaluation,
 
     -- ** ResourceEvaluationFilters
-    ResourceEvaluationFilters (ResourceEvaluationFilters'),
+    ResourceEvaluationFilters,
     newResourceEvaluationFilters,
 
     -- ** ResourceFilters
-    ResourceFilters (ResourceFilters'),
+    ResourceFilters,
     newResourceFilters,
 
     -- ** ResourceIdentifier
-    ResourceIdentifier (ResourceIdentifier'),
+    ResourceIdentifier,
     newResourceIdentifier,
 
     -- ** ResourceKey
-    ResourceKey (ResourceKey'),
+    ResourceKey,
     newResourceKey,
 
     -- ** ResourceValue
-    ResourceValue (ResourceValue'),
+    ResourceValue,
     newResourceValue,
 
     -- ** RetentionConfiguration
-    RetentionConfiguration (RetentionConfiguration'),
+    RetentionConfiguration,
     newRetentionConfiguration,
 
     -- ** Scope
-    Scope (Scope'),
+    Scope,
     newScope,
 
     -- ** Source
-    Source (Source'),
+    Source,
     newSource,
 
     -- ** SourceDetail
-    SourceDetail (SourceDetail'),
+    SourceDetail,
     newSourceDetail,
 
     -- ** SsmControls
-    SsmControls (SsmControls'),
+    SsmControls,
     newSsmControls,
 
     -- ** StaticValue
-    StaticValue (StaticValue'),
+    StaticValue,
     newStaticValue,
 
     -- ** StatusDetailFilters
-    StatusDetailFilters (StatusDetailFilters'),
+    StatusDetailFilters,
     newStatusDetailFilters,
 
     -- ** StoredQuery
-    StoredQuery (StoredQuery'),
+    StoredQuery,
     newStoredQuery,
 
     -- ** StoredQueryMetadata
-    StoredQueryMetadata (StoredQueryMetadata'),
+    StoredQueryMetadata,
     newStoredQueryMetadata,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
 
     -- ** TemplateSSMDocumentDetails
-    TemplateSSMDocumentDetails (TemplateSSMDocumentDetails'),
+    TemplateSSMDocumentDetails,
     newTemplateSSMDocumentDetails,
 
     -- ** TimeWindow
-    TimeWindow (TimeWindow'),
+    TimeWindow,
     newTimeWindow,
   )
 where

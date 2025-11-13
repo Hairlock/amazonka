@@ -89,759 +89,759 @@ module Amazonka.QuickSight
     -- $operations
 
     -- ** CancelIngestion
-    CancelIngestion (CancelIngestion'),
+    CancelIngestion,
     newCancelIngestion,
-    CancelIngestionResponse (CancelIngestionResponse'),
+    CancelIngestionResponse,
     newCancelIngestionResponse,
 
     -- ** CreateAccountCustomization
-    CreateAccountCustomization (CreateAccountCustomization'),
+    CreateAccountCustomization,
     newCreateAccountCustomization,
-    CreateAccountCustomizationResponse (CreateAccountCustomizationResponse'),
+    CreateAccountCustomizationResponse,
     newCreateAccountCustomizationResponse,
 
     -- ** CreateAccountSubscription
-    CreateAccountSubscription (CreateAccountSubscription'),
+    CreateAccountSubscription,
     newCreateAccountSubscription,
-    CreateAccountSubscriptionResponse (CreateAccountSubscriptionResponse'),
+    CreateAccountSubscriptionResponse,
     newCreateAccountSubscriptionResponse,
 
     -- ** CreateAnalysis
-    CreateAnalysis (CreateAnalysis'),
+    CreateAnalysis,
     newCreateAnalysis,
-    CreateAnalysisResponse (CreateAnalysisResponse'),
+    CreateAnalysisResponse,
     newCreateAnalysisResponse,
 
     -- ** CreateDashboard
-    CreateDashboard (CreateDashboard'),
+    CreateDashboard,
     newCreateDashboard,
-    CreateDashboardResponse (CreateDashboardResponse'),
+    CreateDashboardResponse,
     newCreateDashboardResponse,
 
     -- ** CreateDataSet
-    CreateDataSet (CreateDataSet'),
+    CreateDataSet,
     newCreateDataSet,
-    CreateDataSetResponse (CreateDataSetResponse'),
+    CreateDataSetResponse,
     newCreateDataSetResponse,
 
     -- ** CreateDataSource
-    CreateDataSource (CreateDataSource'),
+    CreateDataSource,
     newCreateDataSource,
-    CreateDataSourceResponse (CreateDataSourceResponse'),
+    CreateDataSourceResponse,
     newCreateDataSourceResponse,
 
     -- ** CreateFolder
-    CreateFolder (CreateFolder'),
+    CreateFolder,
     newCreateFolder,
-    CreateFolderResponse (CreateFolderResponse'),
+    CreateFolderResponse,
     newCreateFolderResponse,
 
     -- ** CreateFolderMembership
-    CreateFolderMembership (CreateFolderMembership'),
+    CreateFolderMembership,
     newCreateFolderMembership,
-    CreateFolderMembershipResponse (CreateFolderMembershipResponse'),
+    CreateFolderMembershipResponse,
     newCreateFolderMembershipResponse,
 
     -- ** CreateGroup
-    CreateGroup (CreateGroup'),
+    CreateGroup,
     newCreateGroup,
-    CreateGroupResponse (CreateGroupResponse'),
+    CreateGroupResponse,
     newCreateGroupResponse,
 
     -- ** CreateGroupMembership
-    CreateGroupMembership (CreateGroupMembership'),
+    CreateGroupMembership,
     newCreateGroupMembership,
-    CreateGroupMembershipResponse (CreateGroupMembershipResponse'),
+    CreateGroupMembershipResponse,
     newCreateGroupMembershipResponse,
 
     -- ** CreateIAMPolicyAssignment
-    CreateIAMPolicyAssignment (CreateIAMPolicyAssignment'),
+    CreateIAMPolicyAssignment,
     newCreateIAMPolicyAssignment,
-    CreateIAMPolicyAssignmentResponse (CreateIAMPolicyAssignmentResponse'),
+    CreateIAMPolicyAssignmentResponse,
     newCreateIAMPolicyAssignmentResponse,
 
     -- ** CreateIngestion
-    CreateIngestion (CreateIngestion'),
+    CreateIngestion,
     newCreateIngestion,
-    CreateIngestionResponse (CreateIngestionResponse'),
+    CreateIngestionResponse,
     newCreateIngestionResponse,
 
     -- ** CreateNamespace
-    CreateNamespace (CreateNamespace'),
+    CreateNamespace,
     newCreateNamespace,
-    CreateNamespaceResponse (CreateNamespaceResponse'),
+    CreateNamespaceResponse,
     newCreateNamespaceResponse,
 
     -- ** CreateTemplate
-    CreateTemplate (CreateTemplate'),
+    CreateTemplate,
     newCreateTemplate,
-    CreateTemplateResponse (CreateTemplateResponse'),
+    CreateTemplateResponse,
     newCreateTemplateResponse,
 
     -- ** CreateTemplateAlias
-    CreateTemplateAlias (CreateTemplateAlias'),
+    CreateTemplateAlias,
     newCreateTemplateAlias,
-    CreateTemplateAliasResponse (CreateTemplateAliasResponse'),
+    CreateTemplateAliasResponse,
     newCreateTemplateAliasResponse,
 
     -- ** CreateTheme
-    CreateTheme (CreateTheme'),
+    CreateTheme,
     newCreateTheme,
-    CreateThemeResponse (CreateThemeResponse'),
+    CreateThemeResponse,
     newCreateThemeResponse,
 
     -- ** CreateThemeAlias
-    CreateThemeAlias (CreateThemeAlias'),
+    CreateThemeAlias,
     newCreateThemeAlias,
-    CreateThemeAliasResponse (CreateThemeAliasResponse'),
+    CreateThemeAliasResponse,
     newCreateThemeAliasResponse,
 
     -- ** DeleteAccountCustomization
-    DeleteAccountCustomization (DeleteAccountCustomization'),
+    DeleteAccountCustomization,
     newDeleteAccountCustomization,
-    DeleteAccountCustomizationResponse (DeleteAccountCustomizationResponse'),
+    DeleteAccountCustomizationResponse,
     newDeleteAccountCustomizationResponse,
 
     -- ** DeleteAccountSubscription
-    DeleteAccountSubscription (DeleteAccountSubscription'),
+    DeleteAccountSubscription,
     newDeleteAccountSubscription,
-    DeleteAccountSubscriptionResponse (DeleteAccountSubscriptionResponse'),
+    DeleteAccountSubscriptionResponse,
     newDeleteAccountSubscriptionResponse,
 
     -- ** DeleteAnalysis
-    DeleteAnalysis (DeleteAnalysis'),
+    DeleteAnalysis,
     newDeleteAnalysis,
-    DeleteAnalysisResponse (DeleteAnalysisResponse'),
+    DeleteAnalysisResponse,
     newDeleteAnalysisResponse,
 
     -- ** DeleteDashboard
-    DeleteDashboard (DeleteDashboard'),
+    DeleteDashboard,
     newDeleteDashboard,
-    DeleteDashboardResponse (DeleteDashboardResponse'),
+    DeleteDashboardResponse,
     newDeleteDashboardResponse,
 
     -- ** DeleteDataSet
-    DeleteDataSet (DeleteDataSet'),
+    DeleteDataSet,
     newDeleteDataSet,
-    DeleteDataSetResponse (DeleteDataSetResponse'),
+    DeleteDataSetResponse,
     newDeleteDataSetResponse,
 
     -- ** DeleteDataSource
-    DeleteDataSource (DeleteDataSource'),
+    DeleteDataSource,
     newDeleteDataSource,
-    DeleteDataSourceResponse (DeleteDataSourceResponse'),
+    DeleteDataSourceResponse,
     newDeleteDataSourceResponse,
 
     -- ** DeleteFolder
-    DeleteFolder (DeleteFolder'),
+    DeleteFolder,
     newDeleteFolder,
-    DeleteFolderResponse (DeleteFolderResponse'),
+    DeleteFolderResponse,
     newDeleteFolderResponse,
 
     -- ** DeleteFolderMembership
-    DeleteFolderMembership (DeleteFolderMembership'),
+    DeleteFolderMembership,
     newDeleteFolderMembership,
-    DeleteFolderMembershipResponse (DeleteFolderMembershipResponse'),
+    DeleteFolderMembershipResponse,
     newDeleteFolderMembershipResponse,
 
     -- ** DeleteGroup
-    DeleteGroup (DeleteGroup'),
+    DeleteGroup,
     newDeleteGroup,
-    DeleteGroupResponse (DeleteGroupResponse'),
+    DeleteGroupResponse,
     newDeleteGroupResponse,
 
     -- ** DeleteGroupMembership
-    DeleteGroupMembership (DeleteGroupMembership'),
+    DeleteGroupMembership,
     newDeleteGroupMembership,
-    DeleteGroupMembershipResponse (DeleteGroupMembershipResponse'),
+    DeleteGroupMembershipResponse,
     newDeleteGroupMembershipResponse,
 
     -- ** DeleteIAMPolicyAssignment
-    DeleteIAMPolicyAssignment (DeleteIAMPolicyAssignment'),
+    DeleteIAMPolicyAssignment,
     newDeleteIAMPolicyAssignment,
-    DeleteIAMPolicyAssignmentResponse (DeleteIAMPolicyAssignmentResponse'),
+    DeleteIAMPolicyAssignmentResponse,
     newDeleteIAMPolicyAssignmentResponse,
 
     -- ** DeleteNamespace
-    DeleteNamespace (DeleteNamespace'),
+    DeleteNamespace,
     newDeleteNamespace,
-    DeleteNamespaceResponse (DeleteNamespaceResponse'),
+    DeleteNamespaceResponse,
     newDeleteNamespaceResponse,
 
     -- ** DeleteTemplate
-    DeleteTemplate (DeleteTemplate'),
+    DeleteTemplate,
     newDeleteTemplate,
-    DeleteTemplateResponse (DeleteTemplateResponse'),
+    DeleteTemplateResponse,
     newDeleteTemplateResponse,
 
     -- ** DeleteTemplateAlias
-    DeleteTemplateAlias (DeleteTemplateAlias'),
+    DeleteTemplateAlias,
     newDeleteTemplateAlias,
-    DeleteTemplateAliasResponse (DeleteTemplateAliasResponse'),
+    DeleteTemplateAliasResponse,
     newDeleteTemplateAliasResponse,
 
     -- ** DeleteTheme
-    DeleteTheme (DeleteTheme'),
+    DeleteTheme,
     newDeleteTheme,
-    DeleteThemeResponse (DeleteThemeResponse'),
+    DeleteThemeResponse,
     newDeleteThemeResponse,
 
     -- ** DeleteThemeAlias
-    DeleteThemeAlias (DeleteThemeAlias'),
+    DeleteThemeAlias,
     newDeleteThemeAlias,
-    DeleteThemeAliasResponse (DeleteThemeAliasResponse'),
+    DeleteThemeAliasResponse,
     newDeleteThemeAliasResponse,
 
     -- ** DeleteUser
-    DeleteUser (DeleteUser'),
+    DeleteUser,
     newDeleteUser,
-    DeleteUserResponse (DeleteUserResponse'),
+    DeleteUserResponse,
     newDeleteUserResponse,
 
     -- ** DeleteUserByPrincipalId
-    DeleteUserByPrincipalId (DeleteUserByPrincipalId'),
+    DeleteUserByPrincipalId,
     newDeleteUserByPrincipalId,
-    DeleteUserByPrincipalIdResponse (DeleteUserByPrincipalIdResponse'),
+    DeleteUserByPrincipalIdResponse,
     newDeleteUserByPrincipalIdResponse,
 
     -- ** DescribeAccountCustomization
-    DescribeAccountCustomization (DescribeAccountCustomization'),
+    DescribeAccountCustomization,
     newDescribeAccountCustomization,
-    DescribeAccountCustomizationResponse (DescribeAccountCustomizationResponse'),
+    DescribeAccountCustomizationResponse,
     newDescribeAccountCustomizationResponse,
 
     -- ** DescribeAccountSettings
-    DescribeAccountSettings (DescribeAccountSettings'),
+    DescribeAccountSettings,
     newDescribeAccountSettings,
-    DescribeAccountSettingsResponse (DescribeAccountSettingsResponse'),
+    DescribeAccountSettingsResponse,
     newDescribeAccountSettingsResponse,
 
     -- ** DescribeAccountSubscription
-    DescribeAccountSubscription (DescribeAccountSubscription'),
+    DescribeAccountSubscription,
     newDescribeAccountSubscription,
-    DescribeAccountSubscriptionResponse (DescribeAccountSubscriptionResponse'),
+    DescribeAccountSubscriptionResponse,
     newDescribeAccountSubscriptionResponse,
 
     -- ** DescribeAnalysis
-    DescribeAnalysis (DescribeAnalysis'),
+    DescribeAnalysis,
     newDescribeAnalysis,
-    DescribeAnalysisResponse (DescribeAnalysisResponse'),
+    DescribeAnalysisResponse,
     newDescribeAnalysisResponse,
 
     -- ** DescribeAnalysisDefinition
-    DescribeAnalysisDefinition (DescribeAnalysisDefinition'),
+    DescribeAnalysisDefinition,
     newDescribeAnalysisDefinition,
-    DescribeAnalysisDefinitionResponse (DescribeAnalysisDefinitionResponse'),
+    DescribeAnalysisDefinitionResponse,
     newDescribeAnalysisDefinitionResponse,
 
     -- ** DescribeAnalysisPermissions
-    DescribeAnalysisPermissions (DescribeAnalysisPermissions'),
+    DescribeAnalysisPermissions,
     newDescribeAnalysisPermissions,
-    DescribeAnalysisPermissionsResponse (DescribeAnalysisPermissionsResponse'),
+    DescribeAnalysisPermissionsResponse,
     newDescribeAnalysisPermissionsResponse,
 
     -- ** DescribeDashboard
-    DescribeDashboard (DescribeDashboard'),
+    DescribeDashboard,
     newDescribeDashboard,
-    DescribeDashboardResponse (DescribeDashboardResponse'),
+    DescribeDashboardResponse,
     newDescribeDashboardResponse,
 
     -- ** DescribeDashboardDefinition
-    DescribeDashboardDefinition (DescribeDashboardDefinition'),
+    DescribeDashboardDefinition,
     newDescribeDashboardDefinition,
-    DescribeDashboardDefinitionResponse (DescribeDashboardDefinitionResponse'),
+    DescribeDashboardDefinitionResponse,
     newDescribeDashboardDefinitionResponse,
 
     -- ** DescribeDashboardPermissions
-    DescribeDashboardPermissions (DescribeDashboardPermissions'),
+    DescribeDashboardPermissions,
     newDescribeDashboardPermissions,
-    DescribeDashboardPermissionsResponse (DescribeDashboardPermissionsResponse'),
+    DescribeDashboardPermissionsResponse,
     newDescribeDashboardPermissionsResponse,
 
     -- ** DescribeDataSet
-    DescribeDataSet (DescribeDataSet'),
+    DescribeDataSet,
     newDescribeDataSet,
-    DescribeDataSetResponse (DescribeDataSetResponse'),
+    DescribeDataSetResponse,
     newDescribeDataSetResponse,
 
     -- ** DescribeDataSetPermissions
-    DescribeDataSetPermissions (DescribeDataSetPermissions'),
+    DescribeDataSetPermissions,
     newDescribeDataSetPermissions,
-    DescribeDataSetPermissionsResponse (DescribeDataSetPermissionsResponse'),
+    DescribeDataSetPermissionsResponse,
     newDescribeDataSetPermissionsResponse,
 
     -- ** DescribeDataSource
-    DescribeDataSource (DescribeDataSource'),
+    DescribeDataSource,
     newDescribeDataSource,
-    DescribeDataSourceResponse (DescribeDataSourceResponse'),
+    DescribeDataSourceResponse,
     newDescribeDataSourceResponse,
 
     -- ** DescribeDataSourcePermissions
-    DescribeDataSourcePermissions (DescribeDataSourcePermissions'),
+    DescribeDataSourcePermissions,
     newDescribeDataSourcePermissions,
-    DescribeDataSourcePermissionsResponse (DescribeDataSourcePermissionsResponse'),
+    DescribeDataSourcePermissionsResponse,
     newDescribeDataSourcePermissionsResponse,
 
     -- ** DescribeFolder
-    DescribeFolder (DescribeFolder'),
+    DescribeFolder,
     newDescribeFolder,
-    DescribeFolderResponse (DescribeFolderResponse'),
+    DescribeFolderResponse,
     newDescribeFolderResponse,
 
     -- ** DescribeFolderPermissions
-    DescribeFolderPermissions (DescribeFolderPermissions'),
+    DescribeFolderPermissions,
     newDescribeFolderPermissions,
-    DescribeFolderPermissionsResponse (DescribeFolderPermissionsResponse'),
+    DescribeFolderPermissionsResponse,
     newDescribeFolderPermissionsResponse,
 
     -- ** DescribeFolderResolvedPermissions
-    DescribeFolderResolvedPermissions (DescribeFolderResolvedPermissions'),
+    DescribeFolderResolvedPermissions,
     newDescribeFolderResolvedPermissions,
-    DescribeFolderResolvedPermissionsResponse (DescribeFolderResolvedPermissionsResponse'),
+    DescribeFolderResolvedPermissionsResponse,
     newDescribeFolderResolvedPermissionsResponse,
 
     -- ** DescribeGroup
-    DescribeGroup (DescribeGroup'),
+    DescribeGroup,
     newDescribeGroup,
-    DescribeGroupResponse (DescribeGroupResponse'),
+    DescribeGroupResponse,
     newDescribeGroupResponse,
 
     -- ** DescribeGroupMembership
-    DescribeGroupMembership (DescribeGroupMembership'),
+    DescribeGroupMembership,
     newDescribeGroupMembership,
-    DescribeGroupMembershipResponse (DescribeGroupMembershipResponse'),
+    DescribeGroupMembershipResponse,
     newDescribeGroupMembershipResponse,
 
     -- ** DescribeIAMPolicyAssignment
-    DescribeIAMPolicyAssignment (DescribeIAMPolicyAssignment'),
+    DescribeIAMPolicyAssignment,
     newDescribeIAMPolicyAssignment,
-    DescribeIAMPolicyAssignmentResponse (DescribeIAMPolicyAssignmentResponse'),
+    DescribeIAMPolicyAssignmentResponse,
     newDescribeIAMPolicyAssignmentResponse,
 
     -- ** DescribeIngestion
-    DescribeIngestion (DescribeIngestion'),
+    DescribeIngestion,
     newDescribeIngestion,
-    DescribeIngestionResponse (DescribeIngestionResponse'),
+    DescribeIngestionResponse,
     newDescribeIngestionResponse,
 
     -- ** DescribeIpRestriction
-    DescribeIpRestriction (DescribeIpRestriction'),
+    DescribeIpRestriction,
     newDescribeIpRestriction,
-    DescribeIpRestrictionResponse (DescribeIpRestrictionResponse'),
+    DescribeIpRestrictionResponse,
     newDescribeIpRestrictionResponse,
 
     -- ** DescribeNamespace
-    DescribeNamespace (DescribeNamespace'),
+    DescribeNamespace,
     newDescribeNamespace,
-    DescribeNamespaceResponse (DescribeNamespaceResponse'),
+    DescribeNamespaceResponse,
     newDescribeNamespaceResponse,
 
     -- ** DescribeTemplate
-    DescribeTemplate (DescribeTemplate'),
+    DescribeTemplate,
     newDescribeTemplate,
-    DescribeTemplateResponse (DescribeTemplateResponse'),
+    DescribeTemplateResponse,
     newDescribeTemplateResponse,
 
     -- ** DescribeTemplateAlias
-    DescribeTemplateAlias (DescribeTemplateAlias'),
+    DescribeTemplateAlias,
     newDescribeTemplateAlias,
-    DescribeTemplateAliasResponse (DescribeTemplateAliasResponse'),
+    DescribeTemplateAliasResponse,
     newDescribeTemplateAliasResponse,
 
     -- ** DescribeTemplateDefinition
-    DescribeTemplateDefinition (DescribeTemplateDefinition'),
+    DescribeTemplateDefinition,
     newDescribeTemplateDefinition,
-    DescribeTemplateDefinitionResponse (DescribeTemplateDefinitionResponse'),
+    DescribeTemplateDefinitionResponse,
     newDescribeTemplateDefinitionResponse,
 
     -- ** DescribeTemplatePermissions
-    DescribeTemplatePermissions (DescribeTemplatePermissions'),
+    DescribeTemplatePermissions,
     newDescribeTemplatePermissions,
-    DescribeTemplatePermissionsResponse (DescribeTemplatePermissionsResponse'),
+    DescribeTemplatePermissionsResponse,
     newDescribeTemplatePermissionsResponse,
 
     -- ** DescribeTheme
-    DescribeTheme (DescribeTheme'),
+    DescribeTheme,
     newDescribeTheme,
-    DescribeThemeResponse (DescribeThemeResponse'),
+    DescribeThemeResponse,
     newDescribeThemeResponse,
 
     -- ** DescribeThemeAlias
-    DescribeThemeAlias (DescribeThemeAlias'),
+    DescribeThemeAlias,
     newDescribeThemeAlias,
-    DescribeThemeAliasResponse (DescribeThemeAliasResponse'),
+    DescribeThemeAliasResponse,
     newDescribeThemeAliasResponse,
 
     -- ** DescribeThemePermissions
-    DescribeThemePermissions (DescribeThemePermissions'),
+    DescribeThemePermissions,
     newDescribeThemePermissions,
-    DescribeThemePermissionsResponse (DescribeThemePermissionsResponse'),
+    DescribeThemePermissionsResponse,
     newDescribeThemePermissionsResponse,
 
     -- ** DescribeUser
-    DescribeUser (DescribeUser'),
+    DescribeUser,
     newDescribeUser,
-    DescribeUserResponse (DescribeUserResponse'),
+    DescribeUserResponse,
     newDescribeUserResponse,
 
     -- ** GenerateEmbedUrlForAnonymousUser
-    GenerateEmbedUrlForAnonymousUser (GenerateEmbedUrlForAnonymousUser'),
+    GenerateEmbedUrlForAnonymousUser,
     newGenerateEmbedUrlForAnonymousUser,
-    GenerateEmbedUrlForAnonymousUserResponse (GenerateEmbedUrlForAnonymousUserResponse'),
+    GenerateEmbedUrlForAnonymousUserResponse,
     newGenerateEmbedUrlForAnonymousUserResponse,
 
     -- ** GenerateEmbedUrlForRegisteredUser
-    GenerateEmbedUrlForRegisteredUser (GenerateEmbedUrlForRegisteredUser'),
+    GenerateEmbedUrlForRegisteredUser,
     newGenerateEmbedUrlForRegisteredUser,
-    GenerateEmbedUrlForRegisteredUserResponse (GenerateEmbedUrlForRegisteredUserResponse'),
+    GenerateEmbedUrlForRegisteredUserResponse,
     newGenerateEmbedUrlForRegisteredUserResponse,
 
     -- ** GetDashboardEmbedUrl
-    GetDashboardEmbedUrl (GetDashboardEmbedUrl'),
+    GetDashboardEmbedUrl,
     newGetDashboardEmbedUrl,
-    GetDashboardEmbedUrlResponse (GetDashboardEmbedUrlResponse'),
+    GetDashboardEmbedUrlResponse,
     newGetDashboardEmbedUrlResponse,
 
     -- ** GetSessionEmbedUrl
-    GetSessionEmbedUrl (GetSessionEmbedUrl'),
+    GetSessionEmbedUrl,
     newGetSessionEmbedUrl,
-    GetSessionEmbedUrlResponse (GetSessionEmbedUrlResponse'),
+    GetSessionEmbedUrlResponse,
     newGetSessionEmbedUrlResponse,
 
     -- ** ListAnalyses (Paginated)
-    ListAnalyses (ListAnalyses'),
+    ListAnalyses,
     newListAnalyses,
-    ListAnalysesResponse (ListAnalysesResponse'),
+    ListAnalysesResponse,
     newListAnalysesResponse,
 
     -- ** ListDashboardVersions (Paginated)
-    ListDashboardVersions (ListDashboardVersions'),
+    ListDashboardVersions,
     newListDashboardVersions,
-    ListDashboardVersionsResponse (ListDashboardVersionsResponse'),
+    ListDashboardVersionsResponse,
     newListDashboardVersionsResponse,
 
     -- ** ListDashboards (Paginated)
-    ListDashboards (ListDashboards'),
+    ListDashboards,
     newListDashboards,
-    ListDashboardsResponse (ListDashboardsResponse'),
+    ListDashboardsResponse,
     newListDashboardsResponse,
 
     -- ** ListDataSets (Paginated)
-    ListDataSets (ListDataSets'),
+    ListDataSets,
     newListDataSets,
-    ListDataSetsResponse (ListDataSetsResponse'),
+    ListDataSetsResponse,
     newListDataSetsResponse,
 
     -- ** ListDataSources (Paginated)
-    ListDataSources (ListDataSources'),
+    ListDataSources,
     newListDataSources,
-    ListDataSourcesResponse (ListDataSourcesResponse'),
+    ListDataSourcesResponse,
     newListDataSourcesResponse,
 
     -- ** ListFolderMembers
-    ListFolderMembers (ListFolderMembers'),
+    ListFolderMembers,
     newListFolderMembers,
-    ListFolderMembersResponse (ListFolderMembersResponse'),
+    ListFolderMembersResponse,
     newListFolderMembersResponse,
 
     -- ** ListFolders
-    ListFolders (ListFolders'),
+    ListFolders,
     newListFolders,
-    ListFoldersResponse (ListFoldersResponse'),
+    ListFoldersResponse,
     newListFoldersResponse,
 
     -- ** ListGroupMemberships
-    ListGroupMemberships (ListGroupMemberships'),
+    ListGroupMemberships,
     newListGroupMemberships,
-    ListGroupMembershipsResponse (ListGroupMembershipsResponse'),
+    ListGroupMembershipsResponse,
     newListGroupMembershipsResponse,
 
     -- ** ListGroups
-    ListGroups (ListGroups'),
+    ListGroups,
     newListGroups,
-    ListGroupsResponse (ListGroupsResponse'),
+    ListGroupsResponse,
     newListGroupsResponse,
 
     -- ** ListIAMPolicyAssignments
-    ListIAMPolicyAssignments (ListIAMPolicyAssignments'),
+    ListIAMPolicyAssignments,
     newListIAMPolicyAssignments,
-    ListIAMPolicyAssignmentsResponse (ListIAMPolicyAssignmentsResponse'),
+    ListIAMPolicyAssignmentsResponse,
     newListIAMPolicyAssignmentsResponse,
 
     -- ** ListIAMPolicyAssignmentsForUser
-    ListIAMPolicyAssignmentsForUser (ListIAMPolicyAssignmentsForUser'),
+    ListIAMPolicyAssignmentsForUser,
     newListIAMPolicyAssignmentsForUser,
-    ListIAMPolicyAssignmentsForUserResponse (ListIAMPolicyAssignmentsForUserResponse'),
+    ListIAMPolicyAssignmentsForUserResponse,
     newListIAMPolicyAssignmentsForUserResponse,
 
     -- ** ListIngestions (Paginated)
-    ListIngestions (ListIngestions'),
+    ListIngestions,
     newListIngestions,
-    ListIngestionsResponse (ListIngestionsResponse'),
+    ListIngestionsResponse,
     newListIngestionsResponse,
 
     -- ** ListNamespaces (Paginated)
-    ListNamespaces (ListNamespaces'),
+    ListNamespaces,
     newListNamespaces,
-    ListNamespacesResponse (ListNamespacesResponse'),
+    ListNamespacesResponse,
     newListNamespacesResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** ListTemplateAliases (Paginated)
-    ListTemplateAliases (ListTemplateAliases'),
+    ListTemplateAliases,
     newListTemplateAliases,
-    ListTemplateAliasesResponse (ListTemplateAliasesResponse'),
+    ListTemplateAliasesResponse,
     newListTemplateAliasesResponse,
 
     -- ** ListTemplateVersions (Paginated)
-    ListTemplateVersions (ListTemplateVersions'),
+    ListTemplateVersions,
     newListTemplateVersions,
-    ListTemplateVersionsResponse (ListTemplateVersionsResponse'),
+    ListTemplateVersionsResponse,
     newListTemplateVersionsResponse,
 
     -- ** ListTemplates (Paginated)
-    ListTemplates (ListTemplates'),
+    ListTemplates,
     newListTemplates,
-    ListTemplatesResponse (ListTemplatesResponse'),
+    ListTemplatesResponse,
     newListTemplatesResponse,
 
     -- ** ListThemeAliases
-    ListThemeAliases (ListThemeAliases'),
+    ListThemeAliases,
     newListThemeAliases,
-    ListThemeAliasesResponse (ListThemeAliasesResponse'),
+    ListThemeAliasesResponse,
     newListThemeAliasesResponse,
 
     -- ** ListThemeVersions (Paginated)
-    ListThemeVersions (ListThemeVersions'),
+    ListThemeVersions,
     newListThemeVersions,
-    ListThemeVersionsResponse (ListThemeVersionsResponse'),
+    ListThemeVersionsResponse,
     newListThemeVersionsResponse,
 
     -- ** ListThemes (Paginated)
-    ListThemes (ListThemes'),
+    ListThemes,
     newListThemes,
-    ListThemesResponse (ListThemesResponse'),
+    ListThemesResponse,
     newListThemesResponse,
 
     -- ** ListUserGroups
-    ListUserGroups (ListUserGroups'),
+    ListUserGroups,
     newListUserGroups,
-    ListUserGroupsResponse (ListUserGroupsResponse'),
+    ListUserGroupsResponse,
     newListUserGroupsResponse,
 
     -- ** ListUsers
-    ListUsers (ListUsers'),
+    ListUsers,
     newListUsers,
-    ListUsersResponse (ListUsersResponse'),
+    ListUsersResponse,
     newListUsersResponse,
 
     -- ** RegisterUser
-    RegisterUser (RegisterUser'),
+    RegisterUser,
     newRegisterUser,
-    RegisterUserResponse (RegisterUserResponse'),
+    RegisterUserResponse,
     newRegisterUserResponse,
 
     -- ** RestoreAnalysis
-    RestoreAnalysis (RestoreAnalysis'),
+    RestoreAnalysis,
     newRestoreAnalysis,
-    RestoreAnalysisResponse (RestoreAnalysisResponse'),
+    RestoreAnalysisResponse,
     newRestoreAnalysisResponse,
 
     -- ** SearchAnalyses (Paginated)
-    SearchAnalyses (SearchAnalyses'),
+    SearchAnalyses,
     newSearchAnalyses,
-    SearchAnalysesResponse (SearchAnalysesResponse'),
+    SearchAnalysesResponse,
     newSearchAnalysesResponse,
 
     -- ** SearchDashboards (Paginated)
-    SearchDashboards (SearchDashboards'),
+    SearchDashboards,
     newSearchDashboards,
-    SearchDashboardsResponse (SearchDashboardsResponse'),
+    SearchDashboardsResponse,
     newSearchDashboardsResponse,
 
     -- ** SearchDataSets (Paginated)
-    SearchDataSets (SearchDataSets'),
+    SearchDataSets,
     newSearchDataSets,
-    SearchDataSetsResponse (SearchDataSetsResponse'),
+    SearchDataSetsResponse,
     newSearchDataSetsResponse,
 
     -- ** SearchDataSources (Paginated)
-    SearchDataSources (SearchDataSources'),
+    SearchDataSources,
     newSearchDataSources,
-    SearchDataSourcesResponse (SearchDataSourcesResponse'),
+    SearchDataSourcesResponse,
     newSearchDataSourcesResponse,
 
     -- ** SearchFolders
-    SearchFolders (SearchFolders'),
+    SearchFolders,
     newSearchFolders,
-    SearchFoldersResponse (SearchFoldersResponse'),
+    SearchFoldersResponse,
     newSearchFoldersResponse,
 
     -- ** SearchGroups
-    SearchGroups (SearchGroups'),
+    SearchGroups,
     newSearchGroups,
-    SearchGroupsResponse (SearchGroupsResponse'),
+    SearchGroupsResponse,
     newSearchGroupsResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateAccountCustomization
-    UpdateAccountCustomization (UpdateAccountCustomization'),
+    UpdateAccountCustomization,
     newUpdateAccountCustomization,
-    UpdateAccountCustomizationResponse (UpdateAccountCustomizationResponse'),
+    UpdateAccountCustomizationResponse,
     newUpdateAccountCustomizationResponse,
 
     -- ** UpdateAccountSettings
-    UpdateAccountSettings (UpdateAccountSettings'),
+    UpdateAccountSettings,
     newUpdateAccountSettings,
-    UpdateAccountSettingsResponse (UpdateAccountSettingsResponse'),
+    UpdateAccountSettingsResponse,
     newUpdateAccountSettingsResponse,
 
     -- ** UpdateAnalysis
-    UpdateAnalysis (UpdateAnalysis'),
+    UpdateAnalysis,
     newUpdateAnalysis,
-    UpdateAnalysisResponse (UpdateAnalysisResponse'),
+    UpdateAnalysisResponse,
     newUpdateAnalysisResponse,
 
     -- ** UpdateAnalysisPermissions
-    UpdateAnalysisPermissions (UpdateAnalysisPermissions'),
+    UpdateAnalysisPermissions,
     newUpdateAnalysisPermissions,
-    UpdateAnalysisPermissionsResponse (UpdateAnalysisPermissionsResponse'),
+    UpdateAnalysisPermissionsResponse,
     newUpdateAnalysisPermissionsResponse,
 
     -- ** UpdateDashboard
-    UpdateDashboard (UpdateDashboard'),
+    UpdateDashboard,
     newUpdateDashboard,
-    UpdateDashboardResponse (UpdateDashboardResponse'),
+    UpdateDashboardResponse,
     newUpdateDashboardResponse,
 
     -- ** UpdateDashboardPermissions
-    UpdateDashboardPermissions (UpdateDashboardPermissions'),
+    UpdateDashboardPermissions,
     newUpdateDashboardPermissions,
-    UpdateDashboardPermissionsResponse (UpdateDashboardPermissionsResponse'),
+    UpdateDashboardPermissionsResponse,
     newUpdateDashboardPermissionsResponse,
 
     -- ** UpdateDashboardPublishedVersion
-    UpdateDashboardPublishedVersion (UpdateDashboardPublishedVersion'),
+    UpdateDashboardPublishedVersion,
     newUpdateDashboardPublishedVersion,
-    UpdateDashboardPublishedVersionResponse (UpdateDashboardPublishedVersionResponse'),
+    UpdateDashboardPublishedVersionResponse,
     newUpdateDashboardPublishedVersionResponse,
 
     -- ** UpdateDataSet
-    UpdateDataSet (UpdateDataSet'),
+    UpdateDataSet,
     newUpdateDataSet,
-    UpdateDataSetResponse (UpdateDataSetResponse'),
+    UpdateDataSetResponse,
     newUpdateDataSetResponse,
 
     -- ** UpdateDataSetPermissions
-    UpdateDataSetPermissions (UpdateDataSetPermissions'),
+    UpdateDataSetPermissions,
     newUpdateDataSetPermissions,
-    UpdateDataSetPermissionsResponse (UpdateDataSetPermissionsResponse'),
+    UpdateDataSetPermissionsResponse,
     newUpdateDataSetPermissionsResponse,
 
     -- ** UpdateDataSource
-    UpdateDataSource (UpdateDataSource'),
+    UpdateDataSource,
     newUpdateDataSource,
-    UpdateDataSourceResponse (UpdateDataSourceResponse'),
+    UpdateDataSourceResponse,
     newUpdateDataSourceResponse,
 
     -- ** UpdateDataSourcePermissions
-    UpdateDataSourcePermissions (UpdateDataSourcePermissions'),
+    UpdateDataSourcePermissions,
     newUpdateDataSourcePermissions,
-    UpdateDataSourcePermissionsResponse (UpdateDataSourcePermissionsResponse'),
+    UpdateDataSourcePermissionsResponse,
     newUpdateDataSourcePermissionsResponse,
 
     -- ** UpdateFolder
-    UpdateFolder (UpdateFolder'),
+    UpdateFolder,
     newUpdateFolder,
-    UpdateFolderResponse (UpdateFolderResponse'),
+    UpdateFolderResponse,
     newUpdateFolderResponse,
 
     -- ** UpdateFolderPermissions
-    UpdateFolderPermissions (UpdateFolderPermissions'),
+    UpdateFolderPermissions,
     newUpdateFolderPermissions,
-    UpdateFolderPermissionsResponse (UpdateFolderPermissionsResponse'),
+    UpdateFolderPermissionsResponse,
     newUpdateFolderPermissionsResponse,
 
     -- ** UpdateGroup
-    UpdateGroup (UpdateGroup'),
+    UpdateGroup,
     newUpdateGroup,
-    UpdateGroupResponse (UpdateGroupResponse'),
+    UpdateGroupResponse,
     newUpdateGroupResponse,
 
     -- ** UpdateIAMPolicyAssignment
-    UpdateIAMPolicyAssignment (UpdateIAMPolicyAssignment'),
+    UpdateIAMPolicyAssignment,
     newUpdateIAMPolicyAssignment,
-    UpdateIAMPolicyAssignmentResponse (UpdateIAMPolicyAssignmentResponse'),
+    UpdateIAMPolicyAssignmentResponse,
     newUpdateIAMPolicyAssignmentResponse,
 
     -- ** UpdateIpRestriction
-    UpdateIpRestriction (UpdateIpRestriction'),
+    UpdateIpRestriction,
     newUpdateIpRestriction,
-    UpdateIpRestrictionResponse (UpdateIpRestrictionResponse'),
+    UpdateIpRestrictionResponse,
     newUpdateIpRestrictionResponse,
 
     -- ** UpdatePublicSharingSettings
-    UpdatePublicSharingSettings (UpdatePublicSharingSettings'),
+    UpdatePublicSharingSettings,
     newUpdatePublicSharingSettings,
-    UpdatePublicSharingSettingsResponse (UpdatePublicSharingSettingsResponse'),
+    UpdatePublicSharingSettingsResponse,
     newUpdatePublicSharingSettingsResponse,
 
     -- ** UpdateTemplate
-    UpdateTemplate (UpdateTemplate'),
+    UpdateTemplate,
     newUpdateTemplate,
-    UpdateTemplateResponse (UpdateTemplateResponse'),
+    UpdateTemplateResponse,
     newUpdateTemplateResponse,
 
     -- ** UpdateTemplateAlias
-    UpdateTemplateAlias (UpdateTemplateAlias'),
+    UpdateTemplateAlias,
     newUpdateTemplateAlias,
-    UpdateTemplateAliasResponse (UpdateTemplateAliasResponse'),
+    UpdateTemplateAliasResponse,
     newUpdateTemplateAliasResponse,
 
     -- ** UpdateTemplatePermissions
-    UpdateTemplatePermissions (UpdateTemplatePermissions'),
+    UpdateTemplatePermissions,
     newUpdateTemplatePermissions,
-    UpdateTemplatePermissionsResponse (UpdateTemplatePermissionsResponse'),
+    UpdateTemplatePermissionsResponse,
     newUpdateTemplatePermissionsResponse,
 
     -- ** UpdateTheme
-    UpdateTheme (UpdateTheme'),
+    UpdateTheme,
     newUpdateTheme,
-    UpdateThemeResponse (UpdateThemeResponse'),
+    UpdateThemeResponse,
     newUpdateThemeResponse,
 
     -- ** UpdateThemeAlias
-    UpdateThemeAlias (UpdateThemeAlias'),
+    UpdateThemeAlias,
     newUpdateThemeAlias,
-    UpdateThemeAliasResponse (UpdateThemeAliasResponse'),
+    UpdateThemeAliasResponse,
     newUpdateThemeAliasResponse,
 
     -- ** UpdateThemePermissions
-    UpdateThemePermissions (UpdateThemePermissions'),
+    UpdateThemePermissions,
     newUpdateThemePermissions,
-    UpdateThemePermissionsResponse (UpdateThemePermissionsResponse'),
+    UpdateThemePermissionsResponse,
     newUpdateThemePermissionsResponse,
 
     -- ** UpdateUser
-    UpdateUser (UpdateUser'),
+    UpdateUser,
     newUpdateUser,
-    UpdateUserResponse (UpdateUserResponse'),
+    UpdateUserResponse,
     newUpdateUserResponse,
 
     -- * Types
@@ -1276,2363 +1276,2363 @@ module Amazonka.QuickSight
     WordCloudWordScaling (..),
 
     -- ** AccountCustomization
-    AccountCustomization (AccountCustomization'),
+    AccountCustomization,
     newAccountCustomization,
 
     -- ** AccountInfo
-    AccountInfo (AccountInfo'),
+    AccountInfo,
     newAccountInfo,
 
     -- ** AccountSettings
-    AccountSettings (AccountSettings'),
+    AccountSettings,
     newAccountSettings,
 
     -- ** ActiveIAMPolicyAssignment
-    ActiveIAMPolicyAssignment (ActiveIAMPolicyAssignment'),
+    ActiveIAMPolicyAssignment,
     newActiveIAMPolicyAssignment,
 
     -- ** AdHocFilteringOption
-    AdHocFilteringOption (AdHocFilteringOption'),
+    AdHocFilteringOption,
     newAdHocFilteringOption,
 
     -- ** AggregationFunction
-    AggregationFunction (AggregationFunction'),
+    AggregationFunction,
     newAggregationFunction,
 
     -- ** AggregationSortConfiguration
-    AggregationSortConfiguration (AggregationSortConfiguration'),
+    AggregationSortConfiguration,
     newAggregationSortConfiguration,
 
     -- ** AmazonElasticsearchParameters
-    AmazonElasticsearchParameters (AmazonElasticsearchParameters'),
+    AmazonElasticsearchParameters,
     newAmazonElasticsearchParameters,
 
     -- ** AmazonOpenSearchParameters
-    AmazonOpenSearchParameters (AmazonOpenSearchParameters'),
+    AmazonOpenSearchParameters,
     newAmazonOpenSearchParameters,
 
     -- ** Analysis
-    Analysis (Analysis'),
+    Analysis,
     newAnalysis,
 
     -- ** AnalysisDefaults
-    AnalysisDefaults (AnalysisDefaults'),
+    AnalysisDefaults,
     newAnalysisDefaults,
 
     -- ** AnalysisDefinition
-    AnalysisDefinition (AnalysisDefinition'),
+    AnalysisDefinition,
     newAnalysisDefinition,
 
     -- ** AnalysisError
-    AnalysisError (AnalysisError'),
+    AnalysisError,
     newAnalysisError,
 
     -- ** AnalysisSearchFilter
-    AnalysisSearchFilter (AnalysisSearchFilter'),
+    AnalysisSearchFilter,
     newAnalysisSearchFilter,
 
     -- ** AnalysisSourceEntity
-    AnalysisSourceEntity (AnalysisSourceEntity'),
+    AnalysisSourceEntity,
     newAnalysisSourceEntity,
 
     -- ** AnalysisSourceTemplate
-    AnalysisSourceTemplate (AnalysisSourceTemplate'),
+    AnalysisSourceTemplate,
     newAnalysisSourceTemplate,
 
     -- ** AnalysisSummary
-    AnalysisSummary (AnalysisSummary'),
+    AnalysisSummary,
     newAnalysisSummary,
 
     -- ** AnchorDateConfiguration
-    AnchorDateConfiguration (AnchorDateConfiguration'),
+    AnchorDateConfiguration,
     newAnchorDateConfiguration,
 
     -- ** AnonymousUserDashboardEmbeddingConfiguration
-    AnonymousUserDashboardEmbeddingConfiguration (AnonymousUserDashboardEmbeddingConfiguration'),
+    AnonymousUserDashboardEmbeddingConfiguration,
     newAnonymousUserDashboardEmbeddingConfiguration,
 
     -- ** AnonymousUserDashboardVisualEmbeddingConfiguration
-    AnonymousUserDashboardVisualEmbeddingConfiguration (AnonymousUserDashboardVisualEmbeddingConfiguration'),
+    AnonymousUserDashboardVisualEmbeddingConfiguration,
     newAnonymousUserDashboardVisualEmbeddingConfiguration,
 
     -- ** AnonymousUserEmbeddingExperienceConfiguration
-    AnonymousUserEmbeddingExperienceConfiguration (AnonymousUserEmbeddingExperienceConfiguration'),
+    AnonymousUserEmbeddingExperienceConfiguration,
     newAnonymousUserEmbeddingExperienceConfiguration,
 
     -- ** AnonymousUserQSearchBarEmbeddingConfiguration
-    AnonymousUserQSearchBarEmbeddingConfiguration (AnonymousUserQSearchBarEmbeddingConfiguration'),
+    AnonymousUserQSearchBarEmbeddingConfiguration,
     newAnonymousUserQSearchBarEmbeddingConfiguration,
 
     -- ** ArcAxisConfiguration
-    ArcAxisConfiguration (ArcAxisConfiguration'),
+    ArcAxisConfiguration,
     newArcAxisConfiguration,
 
     -- ** ArcAxisDisplayRange
-    ArcAxisDisplayRange (ArcAxisDisplayRange'),
+    ArcAxisDisplayRange,
     newArcAxisDisplayRange,
 
     -- ** ArcConfiguration
-    ArcConfiguration (ArcConfiguration'),
+    ArcConfiguration,
     newArcConfiguration,
 
     -- ** ArcOptions
-    ArcOptions (ArcOptions'),
+    ArcOptions,
     newArcOptions,
 
     -- ** AthenaParameters
-    AthenaParameters (AthenaParameters'),
+    AthenaParameters,
     newAthenaParameters,
 
     -- ** AuroraParameters
-    AuroraParameters (AuroraParameters'),
+    AuroraParameters,
     newAuroraParameters,
 
     -- ** AuroraPostgreSqlParameters
-    AuroraPostgreSqlParameters (AuroraPostgreSqlParameters'),
+    AuroraPostgreSqlParameters,
     newAuroraPostgreSqlParameters,
 
     -- ** AwsIotAnalyticsParameters
-    AwsIotAnalyticsParameters (AwsIotAnalyticsParameters'),
+    AwsIotAnalyticsParameters,
     newAwsIotAnalyticsParameters,
 
     -- ** AxisDataOptions
-    AxisDataOptions (AxisDataOptions'),
+    AxisDataOptions,
     newAxisDataOptions,
 
     -- ** AxisDisplayDataDrivenRange
-    AxisDisplayDataDrivenRange (AxisDisplayDataDrivenRange'),
+    AxisDisplayDataDrivenRange,
     newAxisDisplayDataDrivenRange,
 
     -- ** AxisDisplayMinMaxRange
-    AxisDisplayMinMaxRange (AxisDisplayMinMaxRange'),
+    AxisDisplayMinMaxRange,
     newAxisDisplayMinMaxRange,
 
     -- ** AxisDisplayOptions
-    AxisDisplayOptions (AxisDisplayOptions'),
+    AxisDisplayOptions,
     newAxisDisplayOptions,
 
     -- ** AxisDisplayRange
-    AxisDisplayRange (AxisDisplayRange'),
+    AxisDisplayRange,
     newAxisDisplayRange,
 
     -- ** AxisLabelOptions
-    AxisLabelOptions (AxisLabelOptions'),
+    AxisLabelOptions,
     newAxisLabelOptions,
 
     -- ** AxisLabelReferenceOptions
-    AxisLabelReferenceOptions (AxisLabelReferenceOptions'),
+    AxisLabelReferenceOptions,
     newAxisLabelReferenceOptions,
 
     -- ** AxisLinearScale
-    AxisLinearScale (AxisLinearScale'),
+    AxisLinearScale,
     newAxisLinearScale,
 
     -- ** AxisLogarithmicScale
-    AxisLogarithmicScale (AxisLogarithmicScale'),
+    AxisLogarithmicScale,
     newAxisLogarithmicScale,
 
     -- ** AxisScale
-    AxisScale (AxisScale'),
+    AxisScale,
     newAxisScale,
 
     -- ** AxisTickLabelOptions
-    AxisTickLabelOptions (AxisTickLabelOptions'),
+    AxisTickLabelOptions,
     newAxisTickLabelOptions,
 
     -- ** BarChartAggregatedFieldWells
-    BarChartAggregatedFieldWells (BarChartAggregatedFieldWells'),
+    BarChartAggregatedFieldWells,
     newBarChartAggregatedFieldWells,
 
     -- ** BarChartConfiguration
-    BarChartConfiguration (BarChartConfiguration'),
+    BarChartConfiguration,
     newBarChartConfiguration,
 
     -- ** BarChartFieldWells
-    BarChartFieldWells (BarChartFieldWells'),
+    BarChartFieldWells,
     newBarChartFieldWells,
 
     -- ** BarChartSortConfiguration
-    BarChartSortConfiguration (BarChartSortConfiguration'),
+    BarChartSortConfiguration,
     newBarChartSortConfiguration,
 
     -- ** BarChartVisual
-    BarChartVisual (BarChartVisual'),
+    BarChartVisual,
     newBarChartVisual,
 
     -- ** BinCountOptions
-    BinCountOptions (BinCountOptions'),
+    BinCountOptions,
     newBinCountOptions,
 
     -- ** BinWidthOptions
-    BinWidthOptions (BinWidthOptions'),
+    BinWidthOptions,
     newBinWidthOptions,
 
     -- ** BodySectionConfiguration
-    BodySectionConfiguration (BodySectionConfiguration'),
+    BodySectionConfiguration,
     newBodySectionConfiguration,
 
     -- ** BodySectionContent
-    BodySectionContent (BodySectionContent'),
+    BodySectionContent,
     newBodySectionContent,
 
     -- ** BorderStyle
-    BorderStyle (BorderStyle'),
+    BorderStyle,
     newBorderStyle,
 
     -- ** BoxPlotAggregatedFieldWells
-    BoxPlotAggregatedFieldWells (BoxPlotAggregatedFieldWells'),
+    BoxPlotAggregatedFieldWells,
     newBoxPlotAggregatedFieldWells,
 
     -- ** BoxPlotChartConfiguration
-    BoxPlotChartConfiguration (BoxPlotChartConfiguration'),
+    BoxPlotChartConfiguration,
     newBoxPlotChartConfiguration,
 
     -- ** BoxPlotFieldWells
-    BoxPlotFieldWells (BoxPlotFieldWells'),
+    BoxPlotFieldWells,
     newBoxPlotFieldWells,
 
     -- ** BoxPlotOptions
-    BoxPlotOptions (BoxPlotOptions'),
+    BoxPlotOptions,
     newBoxPlotOptions,
 
     -- ** BoxPlotSortConfiguration
-    BoxPlotSortConfiguration (BoxPlotSortConfiguration'),
+    BoxPlotSortConfiguration,
     newBoxPlotSortConfiguration,
 
     -- ** BoxPlotStyleOptions
-    BoxPlotStyleOptions (BoxPlotStyleOptions'),
+    BoxPlotStyleOptions,
     newBoxPlotStyleOptions,
 
     -- ** BoxPlotVisual
-    BoxPlotVisual (BoxPlotVisual'),
+    BoxPlotVisual,
     newBoxPlotVisual,
 
     -- ** CalculatedColumn
-    CalculatedColumn (CalculatedColumn'),
+    CalculatedColumn,
     newCalculatedColumn,
 
     -- ** CalculatedField
-    CalculatedField (CalculatedField'),
+    CalculatedField,
     newCalculatedField,
 
     -- ** CalculatedMeasureField
-    CalculatedMeasureField (CalculatedMeasureField'),
+    CalculatedMeasureField,
     newCalculatedMeasureField,
 
     -- ** CascadingControlConfiguration
-    CascadingControlConfiguration (CascadingControlConfiguration'),
+    CascadingControlConfiguration,
     newCascadingControlConfiguration,
 
     -- ** CascadingControlSource
-    CascadingControlSource (CascadingControlSource'),
+    CascadingControlSource,
     newCascadingControlSource,
 
     -- ** CastColumnTypeOperation
-    CastColumnTypeOperation (CastColumnTypeOperation'),
+    CastColumnTypeOperation,
     newCastColumnTypeOperation,
 
     -- ** CategoricalDimensionField
-    CategoricalDimensionField (CategoricalDimensionField'),
+    CategoricalDimensionField,
     newCategoricalDimensionField,
 
     -- ** CategoricalMeasureField
-    CategoricalMeasureField (CategoricalMeasureField'),
+    CategoricalMeasureField,
     newCategoricalMeasureField,
 
     -- ** CategoryDrillDownFilter
-    CategoryDrillDownFilter (CategoryDrillDownFilter'),
+    CategoryDrillDownFilter,
     newCategoryDrillDownFilter,
 
     -- ** CategoryFilter
-    CategoryFilter (CategoryFilter'),
+    CategoryFilter,
     newCategoryFilter,
 
     -- ** CategoryFilterConfiguration
-    CategoryFilterConfiguration (CategoryFilterConfiguration'),
+    CategoryFilterConfiguration,
     newCategoryFilterConfiguration,
 
     -- ** ChartAxisLabelOptions
-    ChartAxisLabelOptions (ChartAxisLabelOptions'),
+    ChartAxisLabelOptions,
     newChartAxisLabelOptions,
 
     -- ** ClusterMarker
-    ClusterMarker (ClusterMarker'),
+    ClusterMarker,
     newClusterMarker,
 
     -- ** ClusterMarkerConfiguration
-    ClusterMarkerConfiguration (ClusterMarkerConfiguration'),
+    ClusterMarkerConfiguration,
     newClusterMarkerConfiguration,
 
     -- ** ColorScale
-    ColorScale (ColorScale'),
+    ColorScale,
     newColorScale,
 
     -- ** ColumnConfiguration
-    ColumnConfiguration (ColumnConfiguration'),
+    ColumnConfiguration,
     newColumnConfiguration,
 
     -- ** ColumnDescription
-    ColumnDescription (ColumnDescription'),
+    ColumnDescription,
     newColumnDescription,
 
     -- ** ColumnGroup
-    ColumnGroup (ColumnGroup'),
+    ColumnGroup,
     newColumnGroup,
 
     -- ** ColumnGroupColumnSchema
-    ColumnGroupColumnSchema (ColumnGroupColumnSchema'),
+    ColumnGroupColumnSchema,
     newColumnGroupColumnSchema,
 
     -- ** ColumnGroupSchema
-    ColumnGroupSchema (ColumnGroupSchema'),
+    ColumnGroupSchema,
     newColumnGroupSchema,
 
     -- ** ColumnHierarchy
-    ColumnHierarchy (ColumnHierarchy'),
+    ColumnHierarchy,
     newColumnHierarchy,
 
     -- ** ColumnIdentifier
-    ColumnIdentifier (ColumnIdentifier'),
+    ColumnIdentifier,
     newColumnIdentifier,
 
     -- ** ColumnLevelPermissionRule
-    ColumnLevelPermissionRule (ColumnLevelPermissionRule'),
+    ColumnLevelPermissionRule,
     newColumnLevelPermissionRule,
 
     -- ** ColumnSchema
-    ColumnSchema (ColumnSchema'),
+    ColumnSchema,
     newColumnSchema,
 
     -- ** ColumnSort
-    ColumnSort (ColumnSort'),
+    ColumnSort,
     newColumnSort,
 
     -- ** ColumnTag
-    ColumnTag (ColumnTag'),
+    ColumnTag,
     newColumnTag,
 
     -- ** ColumnTooltipItem
-    ColumnTooltipItem (ColumnTooltipItem'),
+    ColumnTooltipItem,
     newColumnTooltipItem,
 
     -- ** ComboChartAggregatedFieldWells
-    ComboChartAggregatedFieldWells (ComboChartAggregatedFieldWells'),
+    ComboChartAggregatedFieldWells,
     newComboChartAggregatedFieldWells,
 
     -- ** ComboChartConfiguration
-    ComboChartConfiguration (ComboChartConfiguration'),
+    ComboChartConfiguration,
     newComboChartConfiguration,
 
     -- ** ComboChartFieldWells
-    ComboChartFieldWells (ComboChartFieldWells'),
+    ComboChartFieldWells,
     newComboChartFieldWells,
 
     -- ** ComboChartSortConfiguration
-    ComboChartSortConfiguration (ComboChartSortConfiguration'),
+    ComboChartSortConfiguration,
     newComboChartSortConfiguration,
 
     -- ** ComboChartVisual
-    ComboChartVisual (ComboChartVisual'),
+    ComboChartVisual,
     newComboChartVisual,
 
     -- ** ComparisonConfiguration
-    ComparisonConfiguration (ComparisonConfiguration'),
+    ComparisonConfiguration,
     newComparisonConfiguration,
 
     -- ** ComparisonFormatConfiguration
-    ComparisonFormatConfiguration (ComparisonFormatConfiguration'),
+    ComparisonFormatConfiguration,
     newComparisonFormatConfiguration,
 
     -- ** Computation
-    Computation (Computation'),
+    Computation,
     newComputation,
 
     -- ** ConditionalFormattingColor
-    ConditionalFormattingColor (ConditionalFormattingColor'),
+    ConditionalFormattingColor,
     newConditionalFormattingColor,
 
     -- ** ConditionalFormattingCustomIconCondition
-    ConditionalFormattingCustomIconCondition (ConditionalFormattingCustomIconCondition'),
+    ConditionalFormattingCustomIconCondition,
     newConditionalFormattingCustomIconCondition,
 
     -- ** ConditionalFormattingCustomIconOptions
-    ConditionalFormattingCustomIconOptions (ConditionalFormattingCustomIconOptions'),
+    ConditionalFormattingCustomIconOptions,
     newConditionalFormattingCustomIconOptions,
 
     -- ** ConditionalFormattingGradientColor
-    ConditionalFormattingGradientColor (ConditionalFormattingGradientColor'),
+    ConditionalFormattingGradientColor,
     newConditionalFormattingGradientColor,
 
     -- ** ConditionalFormattingIcon
-    ConditionalFormattingIcon (ConditionalFormattingIcon'),
+    ConditionalFormattingIcon,
     newConditionalFormattingIcon,
 
     -- ** ConditionalFormattingIconDisplayConfiguration
-    ConditionalFormattingIconDisplayConfiguration (ConditionalFormattingIconDisplayConfiguration'),
+    ConditionalFormattingIconDisplayConfiguration,
     newConditionalFormattingIconDisplayConfiguration,
 
     -- ** ConditionalFormattingIconSet
-    ConditionalFormattingIconSet (ConditionalFormattingIconSet'),
+    ConditionalFormattingIconSet,
     newConditionalFormattingIconSet,
 
     -- ** ConditionalFormattingSolidColor
-    ConditionalFormattingSolidColor (ConditionalFormattingSolidColor'),
+    ConditionalFormattingSolidColor,
     newConditionalFormattingSolidColor,
 
     -- ** ContributionAnalysisDefault
-    ContributionAnalysisDefault (ContributionAnalysisDefault'),
+    ContributionAnalysisDefault,
     newContributionAnalysisDefault,
 
     -- ** CreateColumnsOperation
-    CreateColumnsOperation (CreateColumnsOperation'),
+    CreateColumnsOperation,
     newCreateColumnsOperation,
 
     -- ** CredentialPair
-    CredentialPair (CredentialPair'),
+    CredentialPair,
     newCredentialPair,
 
     -- ** CurrencyDisplayFormatConfiguration
-    CurrencyDisplayFormatConfiguration (CurrencyDisplayFormatConfiguration'),
+    CurrencyDisplayFormatConfiguration,
     newCurrencyDisplayFormatConfiguration,
 
     -- ** CustomActionFilterOperation
-    CustomActionFilterOperation (CustomActionFilterOperation'),
+    CustomActionFilterOperation,
     newCustomActionFilterOperation,
 
     -- ** CustomActionNavigationOperation
-    CustomActionNavigationOperation (CustomActionNavigationOperation'),
+    CustomActionNavigationOperation,
     newCustomActionNavigationOperation,
 
     -- ** CustomActionSetParametersOperation
-    CustomActionSetParametersOperation (CustomActionSetParametersOperation'),
+    CustomActionSetParametersOperation,
     newCustomActionSetParametersOperation,
 
     -- ** CustomActionURLOperation
-    CustomActionURLOperation (CustomActionURLOperation'),
+    CustomActionURLOperation,
     newCustomActionURLOperation,
 
     -- ** CustomContentConfiguration
-    CustomContentConfiguration (CustomContentConfiguration'),
+    CustomContentConfiguration,
     newCustomContentConfiguration,
 
     -- ** CustomContentVisual
-    CustomContentVisual (CustomContentVisual'),
+    CustomContentVisual,
     newCustomContentVisual,
 
     -- ** CustomFilterConfiguration
-    CustomFilterConfiguration (CustomFilterConfiguration'),
+    CustomFilterConfiguration,
     newCustomFilterConfiguration,
 
     -- ** CustomFilterListConfiguration
-    CustomFilterListConfiguration (CustomFilterListConfiguration'),
+    CustomFilterListConfiguration,
     newCustomFilterListConfiguration,
 
     -- ** CustomNarrativeOptions
-    CustomNarrativeOptions (CustomNarrativeOptions'),
+    CustomNarrativeOptions,
     newCustomNarrativeOptions,
 
     -- ** CustomParameterValues
-    CustomParameterValues (CustomParameterValues'),
+    CustomParameterValues,
     newCustomParameterValues,
 
     -- ** CustomSql
-    CustomSql (CustomSql'),
+    CustomSql,
     newCustomSql,
 
     -- ** CustomValuesConfiguration
-    CustomValuesConfiguration (CustomValuesConfiguration'),
+    CustomValuesConfiguration,
     newCustomValuesConfiguration,
 
     -- ** Dashboard
-    Dashboard (Dashboard'),
+    Dashboard,
     newDashboard,
 
     -- ** DashboardError
-    DashboardError (DashboardError'),
+    DashboardError,
     newDashboardError,
 
     -- ** DashboardPublishOptions
-    DashboardPublishOptions (DashboardPublishOptions'),
+    DashboardPublishOptions,
     newDashboardPublishOptions,
 
     -- ** DashboardSearchFilter
-    DashboardSearchFilter (DashboardSearchFilter'),
+    DashboardSearchFilter,
     newDashboardSearchFilter,
 
     -- ** DashboardSourceEntity
-    DashboardSourceEntity (DashboardSourceEntity'),
+    DashboardSourceEntity,
     newDashboardSourceEntity,
 
     -- ** DashboardSourceTemplate
-    DashboardSourceTemplate (DashboardSourceTemplate'),
+    DashboardSourceTemplate,
     newDashboardSourceTemplate,
 
     -- ** DashboardSummary
-    DashboardSummary (DashboardSummary'),
+    DashboardSummary,
     newDashboardSummary,
 
     -- ** DashboardVersion
-    DashboardVersion (DashboardVersion'),
+    DashboardVersion,
     newDashboardVersion,
 
     -- ** DashboardVersionDefinition
-    DashboardVersionDefinition (DashboardVersionDefinition'),
+    DashboardVersionDefinition,
     newDashboardVersionDefinition,
 
     -- ** DashboardVersionSummary
-    DashboardVersionSummary (DashboardVersionSummary'),
+    DashboardVersionSummary,
     newDashboardVersionSummary,
 
     -- ** DashboardVisualId
-    DashboardVisualId (DashboardVisualId'),
+    DashboardVisualId,
     newDashboardVisualId,
 
     -- ** DashboardVisualPublishOptions
-    DashboardVisualPublishOptions (DashboardVisualPublishOptions'),
+    DashboardVisualPublishOptions,
     newDashboardVisualPublishOptions,
 
     -- ** DataColor
-    DataColor (DataColor'),
+    DataColor,
     newDataColor,
 
     -- ** DataColorPalette
-    DataColorPalette (DataColorPalette'),
+    DataColorPalette,
     newDataColorPalette,
 
     -- ** DataFieldSeriesItem
-    DataFieldSeriesItem (DataFieldSeriesItem'),
+    DataFieldSeriesItem,
     newDataFieldSeriesItem,
 
     -- ** DataLabelOptions
-    DataLabelOptions (DataLabelOptions'),
+    DataLabelOptions,
     newDataLabelOptions,
 
     -- ** DataLabelType
-    DataLabelType (DataLabelType'),
+    DataLabelType,
     newDataLabelType,
 
     -- ** DataPathColor
-    DataPathColor (DataPathColor'),
+    DataPathColor,
     newDataPathColor,
 
     -- ** DataPathLabelType
-    DataPathLabelType (DataPathLabelType'),
+    DataPathLabelType,
     newDataPathLabelType,
 
     -- ** DataPathSort
-    DataPathSort (DataPathSort'),
+    DataPathSort,
     newDataPathSort,
 
     -- ** DataPathValue
-    DataPathValue (DataPathValue'),
+    DataPathValue,
     newDataPathValue,
 
     -- ** DataSet
-    DataSet (DataSet'),
+    DataSet,
     newDataSet,
 
     -- ** DataSetConfiguration
-    DataSetConfiguration (DataSetConfiguration'),
+    DataSetConfiguration,
     newDataSetConfiguration,
 
     -- ** DataSetIdentifierDeclaration
-    DataSetIdentifierDeclaration (DataSetIdentifierDeclaration'),
+    DataSetIdentifierDeclaration,
     newDataSetIdentifierDeclaration,
 
     -- ** DataSetReference
-    DataSetReference (DataSetReference'),
+    DataSetReference,
     newDataSetReference,
 
     -- ** DataSetSchema
-    DataSetSchema (DataSetSchema'),
+    DataSetSchema,
     newDataSetSchema,
 
     -- ** DataSetSearchFilter
-    DataSetSearchFilter (DataSetSearchFilter'),
+    DataSetSearchFilter,
     newDataSetSearchFilter,
 
     -- ** DataSetSummary
-    DataSetSummary (DataSetSummary'),
+    DataSetSummary,
     newDataSetSummary,
 
     -- ** DataSetUsageConfiguration
-    DataSetUsageConfiguration (DataSetUsageConfiguration'),
+    DataSetUsageConfiguration,
     newDataSetUsageConfiguration,
 
     -- ** DataSource
-    DataSource (DataSource'),
+    DataSource,
     newDataSource,
 
     -- ** DataSourceCredentials
-    DataSourceCredentials (DataSourceCredentials'),
+    DataSourceCredentials,
     newDataSourceCredentials,
 
     -- ** DataSourceErrorInfo
-    DataSourceErrorInfo (DataSourceErrorInfo'),
+    DataSourceErrorInfo,
     newDataSourceErrorInfo,
 
     -- ** DataSourceParameters
-    DataSourceParameters (DataSourceParameters'),
+    DataSourceParameters,
     newDataSourceParameters,
 
     -- ** DataSourceSearchFilter
-    DataSourceSearchFilter (DataSourceSearchFilter'),
+    DataSourceSearchFilter,
     newDataSourceSearchFilter,
 
     -- ** DataSourceSummary
-    DataSourceSummary (DataSourceSummary'),
+    DataSourceSummary,
     newDataSourceSummary,
 
     -- ** DatabricksParameters
-    DatabricksParameters (DatabricksParameters'),
+    DatabricksParameters,
     newDatabricksParameters,
 
     -- ** DateAxisOptions
-    DateAxisOptions (DateAxisOptions'),
+    DateAxisOptions,
     newDateAxisOptions,
 
     -- ** DateDimensionField
-    DateDimensionField (DateDimensionField'),
+    DateDimensionField,
     newDateDimensionField,
 
     -- ** DateMeasureField
-    DateMeasureField (DateMeasureField'),
+    DateMeasureField,
     newDateMeasureField,
 
     -- ** DateTimeDefaultValues
-    DateTimeDefaultValues (DateTimeDefaultValues'),
+    DateTimeDefaultValues,
     newDateTimeDefaultValues,
 
     -- ** DateTimeFormatConfiguration
-    DateTimeFormatConfiguration (DateTimeFormatConfiguration'),
+    DateTimeFormatConfiguration,
     newDateTimeFormatConfiguration,
 
     -- ** DateTimeHierarchy
-    DateTimeHierarchy (DateTimeHierarchy'),
+    DateTimeHierarchy,
     newDateTimeHierarchy,
 
     -- ** DateTimeParameter
-    DateTimeParameter (DateTimeParameter'),
+    DateTimeParameter,
     newDateTimeParameter,
 
     -- ** DateTimeParameterDeclaration
-    DateTimeParameterDeclaration (DateTimeParameterDeclaration'),
+    DateTimeParameterDeclaration,
     newDateTimeParameterDeclaration,
 
     -- ** DateTimePickerControlDisplayOptions
-    DateTimePickerControlDisplayOptions (DateTimePickerControlDisplayOptions'),
+    DateTimePickerControlDisplayOptions,
     newDateTimePickerControlDisplayOptions,
 
     -- ** DateTimeValueWhenUnsetConfiguration
-    DateTimeValueWhenUnsetConfiguration (DateTimeValueWhenUnsetConfiguration'),
+    DateTimeValueWhenUnsetConfiguration,
     newDateTimeValueWhenUnsetConfiguration,
 
     -- ** DecimalDefaultValues
-    DecimalDefaultValues (DecimalDefaultValues'),
+    DecimalDefaultValues,
     newDecimalDefaultValues,
 
     -- ** DecimalParameter
-    DecimalParameter (DecimalParameter'),
+    DecimalParameter,
     newDecimalParameter,
 
     -- ** DecimalParameterDeclaration
-    DecimalParameterDeclaration (DecimalParameterDeclaration'),
+    DecimalParameterDeclaration,
     newDecimalParameterDeclaration,
 
     -- ** DecimalPlacesConfiguration
-    DecimalPlacesConfiguration (DecimalPlacesConfiguration'),
+    DecimalPlacesConfiguration,
     newDecimalPlacesConfiguration,
 
     -- ** DecimalValueWhenUnsetConfiguration
-    DecimalValueWhenUnsetConfiguration (DecimalValueWhenUnsetConfiguration'),
+    DecimalValueWhenUnsetConfiguration,
     newDecimalValueWhenUnsetConfiguration,
 
     -- ** DefaultFreeFormLayoutConfiguration
-    DefaultFreeFormLayoutConfiguration (DefaultFreeFormLayoutConfiguration'),
+    DefaultFreeFormLayoutConfiguration,
     newDefaultFreeFormLayoutConfiguration,
 
     -- ** DefaultGridLayoutConfiguration
-    DefaultGridLayoutConfiguration (DefaultGridLayoutConfiguration'),
+    DefaultGridLayoutConfiguration,
     newDefaultGridLayoutConfiguration,
 
     -- ** DefaultInteractiveLayoutConfiguration
-    DefaultInteractiveLayoutConfiguration (DefaultInteractiveLayoutConfiguration'),
+    DefaultInteractiveLayoutConfiguration,
     newDefaultInteractiveLayoutConfiguration,
 
     -- ** DefaultNewSheetConfiguration
-    DefaultNewSheetConfiguration (DefaultNewSheetConfiguration'),
+    DefaultNewSheetConfiguration,
     newDefaultNewSheetConfiguration,
 
     -- ** DefaultPaginatedLayoutConfiguration
-    DefaultPaginatedLayoutConfiguration (DefaultPaginatedLayoutConfiguration'),
+    DefaultPaginatedLayoutConfiguration,
     newDefaultPaginatedLayoutConfiguration,
 
     -- ** DefaultSectionBasedLayoutConfiguration
-    DefaultSectionBasedLayoutConfiguration (DefaultSectionBasedLayoutConfiguration'),
+    DefaultSectionBasedLayoutConfiguration,
     newDefaultSectionBasedLayoutConfiguration,
 
     -- ** DestinationParameterValueConfiguration
-    DestinationParameterValueConfiguration (DestinationParameterValueConfiguration'),
+    DestinationParameterValueConfiguration,
     newDestinationParameterValueConfiguration,
 
     -- ** DimensionField
-    DimensionField (DimensionField'),
+    DimensionField,
     newDimensionField,
 
     -- ** DonutCenterOptions
-    DonutCenterOptions (DonutCenterOptions'),
+    DonutCenterOptions,
     newDonutCenterOptions,
 
     -- ** DonutOptions
-    DonutOptions (DonutOptions'),
+    DonutOptions,
     newDonutOptions,
 
     -- ** DrillDownFilter
-    DrillDownFilter (DrillDownFilter'),
+    DrillDownFilter,
     newDrillDownFilter,
 
     -- ** DropDownControlDisplayOptions
-    DropDownControlDisplayOptions (DropDownControlDisplayOptions'),
+    DropDownControlDisplayOptions,
     newDropDownControlDisplayOptions,
 
     -- ** DynamicDefaultValue
-    DynamicDefaultValue (DynamicDefaultValue'),
+    DynamicDefaultValue,
     newDynamicDefaultValue,
 
     -- ** EmptyVisual
-    EmptyVisual (EmptyVisual'),
+    EmptyVisual,
     newEmptyVisual,
 
     -- ** Entity
-    Entity (Entity'),
+    Entity,
     newEntity,
 
     -- ** ErrorInfo
-    ErrorInfo (ErrorInfo'),
+    ErrorInfo,
     newErrorInfo,
 
     -- ** ExasolParameters
-    ExasolParameters (ExasolParameters'),
+    ExasolParameters,
     newExasolParameters,
 
     -- ** ExcludePeriodConfiguration
-    ExcludePeriodConfiguration (ExcludePeriodConfiguration'),
+    ExcludePeriodConfiguration,
     newExcludePeriodConfiguration,
 
     -- ** ExplicitHierarchy
-    ExplicitHierarchy (ExplicitHierarchy'),
+    ExplicitHierarchy,
     newExplicitHierarchy,
 
     -- ** ExportHiddenFieldsOption
-    ExportHiddenFieldsOption (ExportHiddenFieldsOption'),
+    ExportHiddenFieldsOption,
     newExportHiddenFieldsOption,
 
     -- ** ExportToCSVOption
-    ExportToCSVOption (ExportToCSVOption'),
+    ExportToCSVOption,
     newExportToCSVOption,
 
     -- ** FieldBasedTooltip
-    FieldBasedTooltip (FieldBasedTooltip'),
+    FieldBasedTooltip,
     newFieldBasedTooltip,
 
     -- ** FieldFolder
-    FieldFolder (FieldFolder'),
+    FieldFolder,
     newFieldFolder,
 
     -- ** FieldLabelType
-    FieldLabelType (FieldLabelType'),
+    FieldLabelType,
     newFieldLabelType,
 
     -- ** FieldSeriesItem
-    FieldSeriesItem (FieldSeriesItem'),
+    FieldSeriesItem,
     newFieldSeriesItem,
 
     -- ** FieldSort
-    FieldSort (FieldSort'),
+    FieldSort,
     newFieldSort,
 
     -- ** FieldSortOptions
-    FieldSortOptions (FieldSortOptions'),
+    FieldSortOptions,
     newFieldSortOptions,
 
     -- ** FieldTooltipItem
-    FieldTooltipItem (FieldTooltipItem'),
+    FieldTooltipItem,
     newFieldTooltipItem,
 
     -- ** FilledMapAggregatedFieldWells
-    FilledMapAggregatedFieldWells (FilledMapAggregatedFieldWells'),
+    FilledMapAggregatedFieldWells,
     newFilledMapAggregatedFieldWells,
 
     -- ** FilledMapConditionalFormatting
-    FilledMapConditionalFormatting (FilledMapConditionalFormatting'),
+    FilledMapConditionalFormatting,
     newFilledMapConditionalFormatting,
 
     -- ** FilledMapConditionalFormattingOption
-    FilledMapConditionalFormattingOption (FilledMapConditionalFormattingOption'),
+    FilledMapConditionalFormattingOption,
     newFilledMapConditionalFormattingOption,
 
     -- ** FilledMapConfiguration
-    FilledMapConfiguration (FilledMapConfiguration'),
+    FilledMapConfiguration,
     newFilledMapConfiguration,
 
     -- ** FilledMapFieldWells
-    FilledMapFieldWells (FilledMapFieldWells'),
+    FilledMapFieldWells,
     newFilledMapFieldWells,
 
     -- ** FilledMapShapeConditionalFormatting
-    FilledMapShapeConditionalFormatting (FilledMapShapeConditionalFormatting'),
+    FilledMapShapeConditionalFormatting,
     newFilledMapShapeConditionalFormatting,
 
     -- ** FilledMapSortConfiguration
-    FilledMapSortConfiguration (FilledMapSortConfiguration'),
+    FilledMapSortConfiguration,
     newFilledMapSortConfiguration,
 
     -- ** FilledMapVisual
-    FilledMapVisual (FilledMapVisual'),
+    FilledMapVisual,
     newFilledMapVisual,
 
     -- ** Filter
-    Filter (Filter'),
+    Filter,
     newFilter,
 
     -- ** FilterControl
-    FilterControl (FilterControl'),
+    FilterControl,
     newFilterControl,
 
     -- ** FilterDateTimePickerControl
-    FilterDateTimePickerControl (FilterDateTimePickerControl'),
+    FilterDateTimePickerControl,
     newFilterDateTimePickerControl,
 
     -- ** FilterDropDownControl
-    FilterDropDownControl (FilterDropDownControl'),
+    FilterDropDownControl,
     newFilterDropDownControl,
 
     -- ** FilterGroup
-    FilterGroup (FilterGroup'),
+    FilterGroup,
     newFilterGroup,
 
     -- ** FilterListConfiguration
-    FilterListConfiguration (FilterListConfiguration'),
+    FilterListConfiguration,
     newFilterListConfiguration,
 
     -- ** FilterListControl
-    FilterListControl (FilterListControl'),
+    FilterListControl,
     newFilterListControl,
 
     -- ** FilterOperation
-    FilterOperation (FilterOperation'),
+    FilterOperation,
     newFilterOperation,
 
     -- ** FilterOperationSelectedFieldsConfiguration
-    FilterOperationSelectedFieldsConfiguration (FilterOperationSelectedFieldsConfiguration'),
+    FilterOperationSelectedFieldsConfiguration,
     newFilterOperationSelectedFieldsConfiguration,
 
     -- ** FilterOperationTargetVisualsConfiguration
-    FilterOperationTargetVisualsConfiguration (FilterOperationTargetVisualsConfiguration'),
+    FilterOperationTargetVisualsConfiguration,
     newFilterOperationTargetVisualsConfiguration,
 
     -- ** FilterRelativeDateTimeControl
-    FilterRelativeDateTimeControl (FilterRelativeDateTimeControl'),
+    FilterRelativeDateTimeControl,
     newFilterRelativeDateTimeControl,
 
     -- ** FilterScopeConfiguration
-    FilterScopeConfiguration (FilterScopeConfiguration'),
+    FilterScopeConfiguration,
     newFilterScopeConfiguration,
 
     -- ** FilterSelectableValues
-    FilterSelectableValues (FilterSelectableValues'),
+    FilterSelectableValues,
     newFilterSelectableValues,
 
     -- ** FilterSliderControl
-    FilterSliderControl (FilterSliderControl'),
+    FilterSliderControl,
     newFilterSliderControl,
 
     -- ** FilterTextAreaControl
-    FilterTextAreaControl (FilterTextAreaControl'),
+    FilterTextAreaControl,
     newFilterTextAreaControl,
 
     -- ** FilterTextFieldControl
-    FilterTextFieldControl (FilterTextFieldControl'),
+    FilterTextFieldControl,
     newFilterTextFieldControl,
 
     -- ** Folder
-    Folder (Folder'),
+    Folder,
     newFolder,
 
     -- ** FolderMember
-    FolderMember (FolderMember'),
+    FolderMember,
     newFolderMember,
 
     -- ** FolderSearchFilter
-    FolderSearchFilter (FolderSearchFilter'),
+    FolderSearchFilter,
     newFolderSearchFilter,
 
     -- ** FolderSummary
-    FolderSummary (FolderSummary'),
+    FolderSummary,
     newFolderSummary,
 
     -- ** Font
-    Font (Font'),
+    Font,
     newFont,
 
     -- ** FontConfiguration
-    FontConfiguration (FontConfiguration'),
+    FontConfiguration,
     newFontConfiguration,
 
     -- ** FontSize
-    FontSize (FontSize'),
+    FontSize,
     newFontSize,
 
     -- ** FontWeight
-    FontWeight (FontWeight'),
+    FontWeight,
     newFontWeight,
 
     -- ** ForecastComputation
-    ForecastComputation (ForecastComputation'),
+    ForecastComputation,
     newForecastComputation,
 
     -- ** ForecastConfiguration
-    ForecastConfiguration (ForecastConfiguration'),
+    ForecastConfiguration,
     newForecastConfiguration,
 
     -- ** ForecastScenario
-    ForecastScenario (ForecastScenario'),
+    ForecastScenario,
     newForecastScenario,
 
     -- ** FormatConfiguration
-    FormatConfiguration (FormatConfiguration'),
+    FormatConfiguration,
     newFormatConfiguration,
 
     -- ** FreeFormLayoutCanvasSizeOptions
-    FreeFormLayoutCanvasSizeOptions (FreeFormLayoutCanvasSizeOptions'),
+    FreeFormLayoutCanvasSizeOptions,
     newFreeFormLayoutCanvasSizeOptions,
 
     -- ** FreeFormLayoutConfiguration
-    FreeFormLayoutConfiguration (FreeFormLayoutConfiguration'),
+    FreeFormLayoutConfiguration,
     newFreeFormLayoutConfiguration,
 
     -- ** FreeFormLayoutElement
-    FreeFormLayoutElement (FreeFormLayoutElement'),
+    FreeFormLayoutElement,
     newFreeFormLayoutElement,
 
     -- ** FreeFormLayoutElementBackgroundStyle
-    FreeFormLayoutElementBackgroundStyle (FreeFormLayoutElementBackgroundStyle'),
+    FreeFormLayoutElementBackgroundStyle,
     newFreeFormLayoutElementBackgroundStyle,
 
     -- ** FreeFormLayoutElementBorderStyle
-    FreeFormLayoutElementBorderStyle (FreeFormLayoutElementBorderStyle'),
+    FreeFormLayoutElementBorderStyle,
     newFreeFormLayoutElementBorderStyle,
 
     -- ** FreeFormLayoutScreenCanvasSizeOptions
-    FreeFormLayoutScreenCanvasSizeOptions (FreeFormLayoutScreenCanvasSizeOptions'),
+    FreeFormLayoutScreenCanvasSizeOptions,
     newFreeFormLayoutScreenCanvasSizeOptions,
 
     -- ** FreeFormSectionLayoutConfiguration
-    FreeFormSectionLayoutConfiguration (FreeFormSectionLayoutConfiguration'),
+    FreeFormSectionLayoutConfiguration,
     newFreeFormSectionLayoutConfiguration,
 
     -- ** FunnelChartAggregatedFieldWells
-    FunnelChartAggregatedFieldWells (FunnelChartAggregatedFieldWells'),
+    FunnelChartAggregatedFieldWells,
     newFunnelChartAggregatedFieldWells,
 
     -- ** FunnelChartConfiguration
-    FunnelChartConfiguration (FunnelChartConfiguration'),
+    FunnelChartConfiguration,
     newFunnelChartConfiguration,
 
     -- ** FunnelChartDataLabelOptions
-    FunnelChartDataLabelOptions (FunnelChartDataLabelOptions'),
+    FunnelChartDataLabelOptions,
     newFunnelChartDataLabelOptions,
 
     -- ** FunnelChartFieldWells
-    FunnelChartFieldWells (FunnelChartFieldWells'),
+    FunnelChartFieldWells,
     newFunnelChartFieldWells,
 
     -- ** FunnelChartSortConfiguration
-    FunnelChartSortConfiguration (FunnelChartSortConfiguration'),
+    FunnelChartSortConfiguration,
     newFunnelChartSortConfiguration,
 
     -- ** FunnelChartVisual
-    FunnelChartVisual (FunnelChartVisual'),
+    FunnelChartVisual,
     newFunnelChartVisual,
 
     -- ** GaugeChartArcConditionalFormatting
-    GaugeChartArcConditionalFormatting (GaugeChartArcConditionalFormatting'),
+    GaugeChartArcConditionalFormatting,
     newGaugeChartArcConditionalFormatting,
 
     -- ** GaugeChartConditionalFormatting
-    GaugeChartConditionalFormatting (GaugeChartConditionalFormatting'),
+    GaugeChartConditionalFormatting,
     newGaugeChartConditionalFormatting,
 
     -- ** GaugeChartConditionalFormattingOption
-    GaugeChartConditionalFormattingOption (GaugeChartConditionalFormattingOption'),
+    GaugeChartConditionalFormattingOption,
     newGaugeChartConditionalFormattingOption,
 
     -- ** GaugeChartConfiguration
-    GaugeChartConfiguration (GaugeChartConfiguration'),
+    GaugeChartConfiguration,
     newGaugeChartConfiguration,
 
     -- ** GaugeChartFieldWells
-    GaugeChartFieldWells (GaugeChartFieldWells'),
+    GaugeChartFieldWells,
     newGaugeChartFieldWells,
 
     -- ** GaugeChartOptions
-    GaugeChartOptions (GaugeChartOptions'),
+    GaugeChartOptions,
     newGaugeChartOptions,
 
     -- ** GaugeChartPrimaryValueConditionalFormatting
-    GaugeChartPrimaryValueConditionalFormatting (GaugeChartPrimaryValueConditionalFormatting'),
+    GaugeChartPrimaryValueConditionalFormatting,
     newGaugeChartPrimaryValueConditionalFormatting,
 
     -- ** GaugeChartVisual
-    GaugeChartVisual (GaugeChartVisual'),
+    GaugeChartVisual,
     newGaugeChartVisual,
 
     -- ** GeoSpatialColumnGroup
-    GeoSpatialColumnGroup (GeoSpatialColumnGroup'),
+    GeoSpatialColumnGroup,
     newGeoSpatialColumnGroup,
 
     -- ** GeospatialCoordinateBounds
-    GeospatialCoordinateBounds (GeospatialCoordinateBounds'),
+    GeospatialCoordinateBounds,
     newGeospatialCoordinateBounds,
 
     -- ** GeospatialMapAggregatedFieldWells
-    GeospatialMapAggregatedFieldWells (GeospatialMapAggregatedFieldWells'),
+    GeospatialMapAggregatedFieldWells,
     newGeospatialMapAggregatedFieldWells,
 
     -- ** GeospatialMapConfiguration
-    GeospatialMapConfiguration (GeospatialMapConfiguration'),
+    GeospatialMapConfiguration,
     newGeospatialMapConfiguration,
 
     -- ** GeospatialMapFieldWells
-    GeospatialMapFieldWells (GeospatialMapFieldWells'),
+    GeospatialMapFieldWells,
     newGeospatialMapFieldWells,
 
     -- ** GeospatialMapStyleOptions
-    GeospatialMapStyleOptions (GeospatialMapStyleOptions'),
+    GeospatialMapStyleOptions,
     newGeospatialMapStyleOptions,
 
     -- ** GeospatialMapVisual
-    GeospatialMapVisual (GeospatialMapVisual'),
+    GeospatialMapVisual,
     newGeospatialMapVisual,
 
     -- ** GeospatialPointStyleOptions
-    GeospatialPointStyleOptions (GeospatialPointStyleOptions'),
+    GeospatialPointStyleOptions,
     newGeospatialPointStyleOptions,
 
     -- ** GeospatialWindowOptions
-    GeospatialWindowOptions (GeospatialWindowOptions'),
+    GeospatialWindowOptions,
     newGeospatialWindowOptions,
 
     -- ** GlobalTableBorderOptions
-    GlobalTableBorderOptions (GlobalTableBorderOptions'),
+    GlobalTableBorderOptions,
     newGlobalTableBorderOptions,
 
     -- ** GradientColor
-    GradientColor (GradientColor'),
+    GradientColor,
     newGradientColor,
 
     -- ** GradientStop
-    GradientStop (GradientStop'),
+    GradientStop,
     newGradientStop,
 
     -- ** GridLayoutCanvasSizeOptions
-    GridLayoutCanvasSizeOptions (GridLayoutCanvasSizeOptions'),
+    GridLayoutCanvasSizeOptions,
     newGridLayoutCanvasSizeOptions,
 
     -- ** GridLayoutConfiguration
-    GridLayoutConfiguration (GridLayoutConfiguration'),
+    GridLayoutConfiguration,
     newGridLayoutConfiguration,
 
     -- ** GridLayoutElement
-    GridLayoutElement (GridLayoutElement'),
+    GridLayoutElement,
     newGridLayoutElement,
 
     -- ** GridLayoutScreenCanvasSizeOptions
-    GridLayoutScreenCanvasSizeOptions (GridLayoutScreenCanvasSizeOptions'),
+    GridLayoutScreenCanvasSizeOptions,
     newGridLayoutScreenCanvasSizeOptions,
 
     -- ** Group
-    Group (Group'),
+    Group,
     newGroup,
 
     -- ** GroupMember
-    GroupMember (GroupMember'),
+    GroupMember,
     newGroupMember,
 
     -- ** GroupSearchFilter
-    GroupSearchFilter (GroupSearchFilter'),
+    GroupSearchFilter,
     newGroupSearchFilter,
 
     -- ** GrowthRateComputation
-    GrowthRateComputation (GrowthRateComputation'),
+    GrowthRateComputation,
     newGrowthRateComputation,
 
     -- ** GutterStyle
-    GutterStyle (GutterStyle'),
+    GutterStyle,
     newGutterStyle,
 
     -- ** HeaderFooterSectionConfiguration
-    HeaderFooterSectionConfiguration (HeaderFooterSectionConfiguration'),
+    HeaderFooterSectionConfiguration,
     newHeaderFooterSectionConfiguration,
 
     -- ** HeatMapAggregatedFieldWells
-    HeatMapAggregatedFieldWells (HeatMapAggregatedFieldWells'),
+    HeatMapAggregatedFieldWells,
     newHeatMapAggregatedFieldWells,
 
     -- ** HeatMapConfiguration
-    HeatMapConfiguration (HeatMapConfiguration'),
+    HeatMapConfiguration,
     newHeatMapConfiguration,
 
     -- ** HeatMapFieldWells
-    HeatMapFieldWells (HeatMapFieldWells'),
+    HeatMapFieldWells,
     newHeatMapFieldWells,
 
     -- ** HeatMapSortConfiguration
-    HeatMapSortConfiguration (HeatMapSortConfiguration'),
+    HeatMapSortConfiguration,
     newHeatMapSortConfiguration,
 
     -- ** HeatMapVisual
-    HeatMapVisual (HeatMapVisual'),
+    HeatMapVisual,
     newHeatMapVisual,
 
     -- ** HistogramAggregatedFieldWells
-    HistogramAggregatedFieldWells (HistogramAggregatedFieldWells'),
+    HistogramAggregatedFieldWells,
     newHistogramAggregatedFieldWells,
 
     -- ** HistogramBinOptions
-    HistogramBinOptions (HistogramBinOptions'),
+    HistogramBinOptions,
     newHistogramBinOptions,
 
     -- ** HistogramConfiguration
-    HistogramConfiguration (HistogramConfiguration'),
+    HistogramConfiguration,
     newHistogramConfiguration,
 
     -- ** HistogramFieldWells
-    HistogramFieldWells (HistogramFieldWells'),
+    HistogramFieldWells,
     newHistogramFieldWells,
 
     -- ** HistogramVisual
-    HistogramVisual (HistogramVisual'),
+    HistogramVisual,
     newHistogramVisual,
 
     -- ** IAMPolicyAssignment
-    IAMPolicyAssignment (IAMPolicyAssignment'),
+    IAMPolicyAssignment,
     newIAMPolicyAssignment,
 
     -- ** IAMPolicyAssignmentSummary
-    IAMPolicyAssignmentSummary (IAMPolicyAssignmentSummary'),
+    IAMPolicyAssignmentSummary,
     newIAMPolicyAssignmentSummary,
 
     -- ** Ingestion
-    Ingestion (Ingestion'),
+    Ingestion,
     newIngestion,
 
     -- ** InputColumn
-    InputColumn (InputColumn'),
+    InputColumn,
     newInputColumn,
 
     -- ** InsightConfiguration
-    InsightConfiguration (InsightConfiguration'),
+    InsightConfiguration,
     newInsightConfiguration,
 
     -- ** InsightVisual
-    InsightVisual (InsightVisual'),
+    InsightVisual,
     newInsightVisual,
 
     -- ** IntegerDefaultValues
-    IntegerDefaultValues (IntegerDefaultValues'),
+    IntegerDefaultValues,
     newIntegerDefaultValues,
 
     -- ** IntegerParameter
-    IntegerParameter (IntegerParameter'),
+    IntegerParameter,
     newIntegerParameter,
 
     -- ** IntegerParameterDeclaration
-    IntegerParameterDeclaration (IntegerParameterDeclaration'),
+    IntegerParameterDeclaration,
     newIntegerParameterDeclaration,
 
     -- ** IntegerValueWhenUnsetConfiguration
-    IntegerValueWhenUnsetConfiguration (IntegerValueWhenUnsetConfiguration'),
+    IntegerValueWhenUnsetConfiguration,
     newIntegerValueWhenUnsetConfiguration,
 
     -- ** ItemsLimitConfiguration
-    ItemsLimitConfiguration (ItemsLimitConfiguration'),
+    ItemsLimitConfiguration,
     newItemsLimitConfiguration,
 
     -- ** JiraParameters
-    JiraParameters (JiraParameters'),
+    JiraParameters,
     newJiraParameters,
 
     -- ** JoinInstruction
-    JoinInstruction (JoinInstruction'),
+    JoinInstruction,
     newJoinInstruction,
 
     -- ** JoinKeyProperties
-    JoinKeyProperties (JoinKeyProperties'),
+    JoinKeyProperties,
     newJoinKeyProperties,
 
     -- ** KPIConditionalFormatting
-    KPIConditionalFormatting (KPIConditionalFormatting'),
+    KPIConditionalFormatting,
     newKPIConditionalFormatting,
 
     -- ** KPIConditionalFormattingOption
-    KPIConditionalFormattingOption (KPIConditionalFormattingOption'),
+    KPIConditionalFormattingOption,
     newKPIConditionalFormattingOption,
 
     -- ** KPIConfiguration
-    KPIConfiguration (KPIConfiguration'),
+    KPIConfiguration,
     newKPIConfiguration,
 
     -- ** KPIFieldWells
-    KPIFieldWells (KPIFieldWells'),
+    KPIFieldWells,
     newKPIFieldWells,
 
     -- ** KPIOptions
-    KPIOptions (KPIOptions'),
+    KPIOptions,
     newKPIOptions,
 
     -- ** KPIPrimaryValueConditionalFormatting
-    KPIPrimaryValueConditionalFormatting (KPIPrimaryValueConditionalFormatting'),
+    KPIPrimaryValueConditionalFormatting,
     newKPIPrimaryValueConditionalFormatting,
 
     -- ** KPIProgressBarConditionalFormatting
-    KPIProgressBarConditionalFormatting (KPIProgressBarConditionalFormatting'),
+    KPIProgressBarConditionalFormatting,
     newKPIProgressBarConditionalFormatting,
 
     -- ** KPISortConfiguration
-    KPISortConfiguration (KPISortConfiguration'),
+    KPISortConfiguration,
     newKPISortConfiguration,
 
     -- ** KPIVisual
-    KPIVisual (KPIVisual'),
+    KPIVisual,
     newKPIVisual,
 
     -- ** LabelOptions
-    LabelOptions (LabelOptions'),
+    LabelOptions,
     newLabelOptions,
 
     -- ** Layout
-    Layout (Layout'),
+    Layout,
     newLayout,
 
     -- ** LayoutConfiguration
-    LayoutConfiguration (LayoutConfiguration'),
+    LayoutConfiguration,
     newLayoutConfiguration,
 
     -- ** LegendOptions
-    LegendOptions (LegendOptions'),
+    LegendOptions,
     newLegendOptions,
 
     -- ** LineChartAggregatedFieldWells
-    LineChartAggregatedFieldWells (LineChartAggregatedFieldWells'),
+    LineChartAggregatedFieldWells,
     newLineChartAggregatedFieldWells,
 
     -- ** LineChartConfiguration
-    LineChartConfiguration (LineChartConfiguration'),
+    LineChartConfiguration,
     newLineChartConfiguration,
 
     -- ** LineChartDefaultSeriesSettings
-    LineChartDefaultSeriesSettings (LineChartDefaultSeriesSettings'),
+    LineChartDefaultSeriesSettings,
     newLineChartDefaultSeriesSettings,
 
     -- ** LineChartFieldWells
-    LineChartFieldWells (LineChartFieldWells'),
+    LineChartFieldWells,
     newLineChartFieldWells,
 
     -- ** LineChartLineStyleSettings
-    LineChartLineStyleSettings (LineChartLineStyleSettings'),
+    LineChartLineStyleSettings,
     newLineChartLineStyleSettings,
 
     -- ** LineChartMarkerStyleSettings
-    LineChartMarkerStyleSettings (LineChartMarkerStyleSettings'),
+    LineChartMarkerStyleSettings,
     newLineChartMarkerStyleSettings,
 
     -- ** LineChartSeriesSettings
-    LineChartSeriesSettings (LineChartSeriesSettings'),
+    LineChartSeriesSettings,
     newLineChartSeriesSettings,
 
     -- ** LineChartSortConfiguration
-    LineChartSortConfiguration (LineChartSortConfiguration'),
+    LineChartSortConfiguration,
     newLineChartSortConfiguration,
 
     -- ** LineChartVisual
-    LineChartVisual (LineChartVisual'),
+    LineChartVisual,
     newLineChartVisual,
 
     -- ** LineSeriesAxisDisplayOptions
-    LineSeriesAxisDisplayOptions (LineSeriesAxisDisplayOptions'),
+    LineSeriesAxisDisplayOptions,
     newLineSeriesAxisDisplayOptions,
 
     -- ** LinkSharingConfiguration
-    LinkSharingConfiguration (LinkSharingConfiguration'),
+    LinkSharingConfiguration,
     newLinkSharingConfiguration,
 
     -- ** ListControlDisplayOptions
-    ListControlDisplayOptions (ListControlDisplayOptions'),
+    ListControlDisplayOptions,
     newListControlDisplayOptions,
 
     -- ** ListControlSearchOptions
-    ListControlSearchOptions (ListControlSearchOptions'),
+    ListControlSearchOptions,
     newListControlSearchOptions,
 
     -- ** ListControlSelectAllOptions
-    ListControlSelectAllOptions (ListControlSelectAllOptions'),
+    ListControlSelectAllOptions,
     newListControlSelectAllOptions,
 
     -- ** LoadingAnimation
-    LoadingAnimation (LoadingAnimation'),
+    LoadingAnimation,
     newLoadingAnimation,
 
     -- ** LocalNavigationConfiguration
-    LocalNavigationConfiguration (LocalNavigationConfiguration'),
+    LocalNavigationConfiguration,
     newLocalNavigationConfiguration,
 
     -- ** LogicalTable
-    LogicalTable (LogicalTable'),
+    LogicalTable,
     newLogicalTable,
 
     -- ** LogicalTableSource
-    LogicalTableSource (LogicalTableSource'),
+    LogicalTableSource,
     newLogicalTableSource,
 
     -- ** LongFormatText
-    LongFormatText (LongFormatText'),
+    LongFormatText,
     newLongFormatText,
 
     -- ** ManifestFileLocation
-    ManifestFileLocation (ManifestFileLocation'),
+    ManifestFileLocation,
     newManifestFileLocation,
 
     -- ** MarginStyle
-    MarginStyle (MarginStyle'),
+    MarginStyle,
     newMarginStyle,
 
     -- ** MariaDbParameters
-    MariaDbParameters (MariaDbParameters'),
+    MariaDbParameters,
     newMariaDbParameters,
 
     -- ** MaximumLabelType
-    MaximumLabelType (MaximumLabelType'),
+    MaximumLabelType,
     newMaximumLabelType,
 
     -- ** MaximumMinimumComputation
-    MaximumMinimumComputation (MaximumMinimumComputation'),
+    MaximumMinimumComputation,
     newMaximumMinimumComputation,
 
     -- ** MeasureField
-    MeasureField (MeasureField'),
+    MeasureField,
     newMeasureField,
 
     -- ** MemberIdArnPair
-    MemberIdArnPair (MemberIdArnPair'),
+    MemberIdArnPair,
     newMemberIdArnPair,
 
     -- ** MetricComparisonComputation
-    MetricComparisonComputation (MetricComparisonComputation'),
+    MetricComparisonComputation,
     newMetricComparisonComputation,
 
     -- ** MinimumLabelType
-    MinimumLabelType (MinimumLabelType'),
+    MinimumLabelType,
     newMinimumLabelType,
 
     -- ** MissingDataConfiguration
-    MissingDataConfiguration (MissingDataConfiguration'),
+    MissingDataConfiguration,
     newMissingDataConfiguration,
 
     -- ** MySqlParameters
-    MySqlParameters (MySqlParameters'),
+    MySqlParameters,
     newMySqlParameters,
 
     -- ** NamespaceError
-    NamespaceError (NamespaceError'),
+    NamespaceError,
     newNamespaceError,
 
     -- ** NamespaceInfoV2
-    NamespaceInfoV2 (NamespaceInfoV2'),
+    NamespaceInfoV2,
     newNamespaceInfoV2,
 
     -- ** NegativeValueConfiguration
-    NegativeValueConfiguration (NegativeValueConfiguration'),
+    NegativeValueConfiguration,
     newNegativeValueConfiguration,
 
     -- ** NullValueFormatConfiguration
-    NullValueFormatConfiguration (NullValueFormatConfiguration'),
+    NullValueFormatConfiguration,
     newNullValueFormatConfiguration,
 
     -- ** NumberDisplayFormatConfiguration
-    NumberDisplayFormatConfiguration (NumberDisplayFormatConfiguration'),
+    NumberDisplayFormatConfiguration,
     newNumberDisplayFormatConfiguration,
 
     -- ** NumberFormatConfiguration
-    NumberFormatConfiguration (NumberFormatConfiguration'),
+    NumberFormatConfiguration,
     newNumberFormatConfiguration,
 
     -- ** NumericAxisOptions
-    NumericAxisOptions (NumericAxisOptions'),
+    NumericAxisOptions,
     newNumericAxisOptions,
 
     -- ** NumericEqualityDrillDownFilter
-    NumericEqualityDrillDownFilter (NumericEqualityDrillDownFilter'),
+    NumericEqualityDrillDownFilter,
     newNumericEqualityDrillDownFilter,
 
     -- ** NumericEqualityFilter
-    NumericEqualityFilter (NumericEqualityFilter'),
+    NumericEqualityFilter,
     newNumericEqualityFilter,
 
     -- ** NumericFormatConfiguration
-    NumericFormatConfiguration (NumericFormatConfiguration'),
+    NumericFormatConfiguration,
     newNumericFormatConfiguration,
 
     -- ** NumericRangeFilter
-    NumericRangeFilter (NumericRangeFilter'),
+    NumericRangeFilter,
     newNumericRangeFilter,
 
     -- ** NumericRangeFilterValue
-    NumericRangeFilterValue (NumericRangeFilterValue'),
+    NumericRangeFilterValue,
     newNumericRangeFilterValue,
 
     -- ** NumericSeparatorConfiguration
-    NumericSeparatorConfiguration (NumericSeparatorConfiguration'),
+    NumericSeparatorConfiguration,
     newNumericSeparatorConfiguration,
 
     -- ** NumericalAggregationFunction
-    NumericalAggregationFunction (NumericalAggregationFunction'),
+    NumericalAggregationFunction,
     newNumericalAggregationFunction,
 
     -- ** NumericalDimensionField
-    NumericalDimensionField (NumericalDimensionField'),
+    NumericalDimensionField,
     newNumericalDimensionField,
 
     -- ** NumericalMeasureField
-    NumericalMeasureField (NumericalMeasureField'),
+    NumericalMeasureField,
     newNumericalMeasureField,
 
     -- ** OracleParameters
-    OracleParameters (OracleParameters'),
+    OracleParameters,
     newOracleParameters,
 
     -- ** OutputColumn
-    OutputColumn (OutputColumn'),
+    OutputColumn,
     newOutputColumn,
 
     -- ** PaginationConfiguration
-    PaginationConfiguration (PaginationConfiguration'),
+    PaginationConfiguration,
     newPaginationConfiguration,
 
     -- ** PanelConfiguration
-    PanelConfiguration (PanelConfiguration'),
+    PanelConfiguration,
     newPanelConfiguration,
 
     -- ** PanelTitleOptions
-    PanelTitleOptions (PanelTitleOptions'),
+    PanelTitleOptions,
     newPanelTitleOptions,
 
     -- ** ParameterControl
-    ParameterControl (ParameterControl'),
+    ParameterControl,
     newParameterControl,
 
     -- ** ParameterDateTimePickerControl
-    ParameterDateTimePickerControl (ParameterDateTimePickerControl'),
+    ParameterDateTimePickerControl,
     newParameterDateTimePickerControl,
 
     -- ** ParameterDeclaration
-    ParameterDeclaration (ParameterDeclaration'),
+    ParameterDeclaration,
     newParameterDeclaration,
 
     -- ** ParameterDropDownControl
-    ParameterDropDownControl (ParameterDropDownControl'),
+    ParameterDropDownControl,
     newParameterDropDownControl,
 
     -- ** ParameterListControl
-    ParameterListControl (ParameterListControl'),
+    ParameterListControl,
     newParameterListControl,
 
     -- ** ParameterSelectableValues
-    ParameterSelectableValues (ParameterSelectableValues'),
+    ParameterSelectableValues,
     newParameterSelectableValues,
 
     -- ** ParameterSliderControl
-    ParameterSliderControl (ParameterSliderControl'),
+    ParameterSliderControl,
     newParameterSliderControl,
 
     -- ** ParameterTextAreaControl
-    ParameterTextAreaControl (ParameterTextAreaControl'),
+    ParameterTextAreaControl,
     newParameterTextAreaControl,
 
     -- ** ParameterTextFieldControl
-    ParameterTextFieldControl (ParameterTextFieldControl'),
+    ParameterTextFieldControl,
     newParameterTextFieldControl,
 
     -- ** Parameters
-    Parameters (Parameters'),
+    Parameters,
     newParameters,
 
     -- ** PercentVisibleRange
-    PercentVisibleRange (PercentVisibleRange'),
+    PercentVisibleRange,
     newPercentVisibleRange,
 
     -- ** PercentageDisplayFormatConfiguration
-    PercentageDisplayFormatConfiguration (PercentageDisplayFormatConfiguration'),
+    PercentageDisplayFormatConfiguration,
     newPercentageDisplayFormatConfiguration,
 
     -- ** PercentileAggregation
-    PercentileAggregation (PercentileAggregation'),
+    PercentileAggregation,
     newPercentileAggregation,
 
     -- ** PeriodOverPeriodComputation
-    PeriodOverPeriodComputation (PeriodOverPeriodComputation'),
+    PeriodOverPeriodComputation,
     newPeriodOverPeriodComputation,
 
     -- ** PeriodToDateComputation
-    PeriodToDateComputation (PeriodToDateComputation'),
+    PeriodToDateComputation,
     newPeriodToDateComputation,
 
     -- ** PhysicalTable
-    PhysicalTable (PhysicalTable'),
+    PhysicalTable,
     newPhysicalTable,
 
     -- ** PieChartAggregatedFieldWells
-    PieChartAggregatedFieldWells (PieChartAggregatedFieldWells'),
+    PieChartAggregatedFieldWells,
     newPieChartAggregatedFieldWells,
 
     -- ** PieChartConfiguration
-    PieChartConfiguration (PieChartConfiguration'),
+    PieChartConfiguration,
     newPieChartConfiguration,
 
     -- ** PieChartFieldWells
-    PieChartFieldWells (PieChartFieldWells'),
+    PieChartFieldWells,
     newPieChartFieldWells,
 
     -- ** PieChartSortConfiguration
-    PieChartSortConfiguration (PieChartSortConfiguration'),
+    PieChartSortConfiguration,
     newPieChartSortConfiguration,
 
     -- ** PieChartVisual
-    PieChartVisual (PieChartVisual'),
+    PieChartVisual,
     newPieChartVisual,
 
     -- ** PivotFieldSortOptions
-    PivotFieldSortOptions (PivotFieldSortOptions'),
+    PivotFieldSortOptions,
     newPivotFieldSortOptions,
 
     -- ** PivotTableAggregatedFieldWells
-    PivotTableAggregatedFieldWells (PivotTableAggregatedFieldWells'),
+    PivotTableAggregatedFieldWells,
     newPivotTableAggregatedFieldWells,
 
     -- ** PivotTableCellConditionalFormatting
-    PivotTableCellConditionalFormatting (PivotTableCellConditionalFormatting'),
+    PivotTableCellConditionalFormatting,
     newPivotTableCellConditionalFormatting,
 
     -- ** PivotTableConditionalFormatting
-    PivotTableConditionalFormatting (PivotTableConditionalFormatting'),
+    PivotTableConditionalFormatting,
     newPivotTableConditionalFormatting,
 
     -- ** PivotTableConditionalFormattingOption
-    PivotTableConditionalFormattingOption (PivotTableConditionalFormattingOption'),
+    PivotTableConditionalFormattingOption,
     newPivotTableConditionalFormattingOption,
 
     -- ** PivotTableConditionalFormattingScope
-    PivotTableConditionalFormattingScope (PivotTableConditionalFormattingScope'),
+    PivotTableConditionalFormattingScope,
     newPivotTableConditionalFormattingScope,
 
     -- ** PivotTableConfiguration
-    PivotTableConfiguration (PivotTableConfiguration'),
+    PivotTableConfiguration,
     newPivotTableConfiguration,
 
     -- ** PivotTableDataPathOption
-    PivotTableDataPathOption (PivotTableDataPathOption'),
+    PivotTableDataPathOption,
     newPivotTableDataPathOption,
 
     -- ** PivotTableFieldOption
-    PivotTableFieldOption (PivotTableFieldOption'),
+    PivotTableFieldOption,
     newPivotTableFieldOption,
 
     -- ** PivotTableFieldOptions
-    PivotTableFieldOptions (PivotTableFieldOptions'),
+    PivotTableFieldOptions,
     newPivotTableFieldOptions,
 
     -- ** PivotTableFieldSubtotalOptions
-    PivotTableFieldSubtotalOptions (PivotTableFieldSubtotalOptions'),
+    PivotTableFieldSubtotalOptions,
     newPivotTableFieldSubtotalOptions,
 
     -- ** PivotTableFieldWells
-    PivotTableFieldWells (PivotTableFieldWells'),
+    PivotTableFieldWells,
     newPivotTableFieldWells,
 
     -- ** PivotTableOptions
-    PivotTableOptions (PivotTableOptions'),
+    PivotTableOptions,
     newPivotTableOptions,
 
     -- ** PivotTablePaginatedReportOptions
-    PivotTablePaginatedReportOptions (PivotTablePaginatedReportOptions'),
+    PivotTablePaginatedReportOptions,
     newPivotTablePaginatedReportOptions,
 
     -- ** PivotTableSortBy
-    PivotTableSortBy (PivotTableSortBy'),
+    PivotTableSortBy,
     newPivotTableSortBy,
 
     -- ** PivotTableSortConfiguration
-    PivotTableSortConfiguration (PivotTableSortConfiguration'),
+    PivotTableSortConfiguration,
     newPivotTableSortConfiguration,
 
     -- ** PivotTableTotalOptions
-    PivotTableTotalOptions (PivotTableTotalOptions'),
+    PivotTableTotalOptions,
     newPivotTableTotalOptions,
 
     -- ** PivotTableVisual
-    PivotTableVisual (PivotTableVisual'),
+    PivotTableVisual,
     newPivotTableVisual,
 
     -- ** PivotTotalOptions
-    PivotTotalOptions (PivotTotalOptions'),
+    PivotTotalOptions,
     newPivotTotalOptions,
 
     -- ** PostgreSqlParameters
-    PostgreSqlParameters (PostgreSqlParameters'),
+    PostgreSqlParameters,
     newPostgreSqlParameters,
 
     -- ** PredefinedHierarchy
-    PredefinedHierarchy (PredefinedHierarchy'),
+    PredefinedHierarchy,
     newPredefinedHierarchy,
 
     -- ** PrestoParameters
-    PrestoParameters (PrestoParameters'),
+    PrestoParameters,
     newPrestoParameters,
 
     -- ** ProgressBarOptions
-    ProgressBarOptions (ProgressBarOptions'),
+    ProgressBarOptions,
     newProgressBarOptions,
 
     -- ** ProjectOperation
-    ProjectOperation (ProjectOperation'),
+    ProjectOperation,
     newProjectOperation,
 
     -- ** QueueInfo
-    QueueInfo (QueueInfo'),
+    QueueInfo,
     newQueueInfo,
 
     -- ** RangeEndsLabelType
-    RangeEndsLabelType (RangeEndsLabelType'),
+    RangeEndsLabelType,
     newRangeEndsLabelType,
 
     -- ** RdsParameters
-    RdsParameters (RdsParameters'),
+    RdsParameters,
     newRdsParameters,
 
     -- ** RedshiftParameters
-    RedshiftParameters (RedshiftParameters'),
+    RedshiftParameters,
     newRedshiftParameters,
 
     -- ** ReferenceLine
-    ReferenceLine (ReferenceLine'),
+    ReferenceLine,
     newReferenceLine,
 
     -- ** ReferenceLineCustomLabelConfiguration
-    ReferenceLineCustomLabelConfiguration (ReferenceLineCustomLabelConfiguration'),
+    ReferenceLineCustomLabelConfiguration,
     newReferenceLineCustomLabelConfiguration,
 
     -- ** ReferenceLineDataConfiguration
-    ReferenceLineDataConfiguration (ReferenceLineDataConfiguration'),
+    ReferenceLineDataConfiguration,
     newReferenceLineDataConfiguration,
 
     -- ** ReferenceLineDynamicDataConfiguration
-    ReferenceLineDynamicDataConfiguration (ReferenceLineDynamicDataConfiguration'),
+    ReferenceLineDynamicDataConfiguration,
     newReferenceLineDynamicDataConfiguration,
 
     -- ** ReferenceLineLabelConfiguration
-    ReferenceLineLabelConfiguration (ReferenceLineLabelConfiguration'),
+    ReferenceLineLabelConfiguration,
     newReferenceLineLabelConfiguration,
 
     -- ** ReferenceLineStaticDataConfiguration
-    ReferenceLineStaticDataConfiguration (ReferenceLineStaticDataConfiguration'),
+    ReferenceLineStaticDataConfiguration,
     newReferenceLineStaticDataConfiguration,
 
     -- ** ReferenceLineStyleConfiguration
-    ReferenceLineStyleConfiguration (ReferenceLineStyleConfiguration'),
+    ReferenceLineStyleConfiguration,
     newReferenceLineStyleConfiguration,
 
     -- ** ReferenceLineValueLabelConfiguration
-    ReferenceLineValueLabelConfiguration (ReferenceLineValueLabelConfiguration'),
+    ReferenceLineValueLabelConfiguration,
     newReferenceLineValueLabelConfiguration,
 
     -- ** RegisteredUserDashboardEmbeddingConfiguration
-    RegisteredUserDashboardEmbeddingConfiguration (RegisteredUserDashboardEmbeddingConfiguration'),
+    RegisteredUserDashboardEmbeddingConfiguration,
     newRegisteredUserDashboardEmbeddingConfiguration,
 
     -- ** RegisteredUserDashboardVisualEmbeddingConfiguration
-    RegisteredUserDashboardVisualEmbeddingConfiguration (RegisteredUserDashboardVisualEmbeddingConfiguration'),
+    RegisteredUserDashboardVisualEmbeddingConfiguration,
     newRegisteredUserDashboardVisualEmbeddingConfiguration,
 
     -- ** RegisteredUserEmbeddingExperienceConfiguration
-    RegisteredUserEmbeddingExperienceConfiguration (RegisteredUserEmbeddingExperienceConfiguration'),
+    RegisteredUserEmbeddingExperienceConfiguration,
     newRegisteredUserEmbeddingExperienceConfiguration,
 
     -- ** RegisteredUserQSearchBarEmbeddingConfiguration
-    RegisteredUserQSearchBarEmbeddingConfiguration (RegisteredUserQSearchBarEmbeddingConfiguration'),
+    RegisteredUserQSearchBarEmbeddingConfiguration,
     newRegisteredUserQSearchBarEmbeddingConfiguration,
 
     -- ** RegisteredUserQuickSightConsoleEmbeddingConfiguration
-    RegisteredUserQuickSightConsoleEmbeddingConfiguration (RegisteredUserQuickSightConsoleEmbeddingConfiguration'),
+    RegisteredUserQuickSightConsoleEmbeddingConfiguration,
     newRegisteredUserQuickSightConsoleEmbeddingConfiguration,
 
     -- ** RelationalTable
-    RelationalTable (RelationalTable'),
+    RelationalTable,
     newRelationalTable,
 
     -- ** RelativeDateTimeControlDisplayOptions
-    RelativeDateTimeControlDisplayOptions (RelativeDateTimeControlDisplayOptions'),
+    RelativeDateTimeControlDisplayOptions,
     newRelativeDateTimeControlDisplayOptions,
 
     -- ** RelativeDatesFilter
-    RelativeDatesFilter (RelativeDatesFilter'),
+    RelativeDatesFilter,
     newRelativeDatesFilter,
 
     -- ** RenameColumnOperation
-    RenameColumnOperation (RenameColumnOperation'),
+    RenameColumnOperation,
     newRenameColumnOperation,
 
     -- ** ResourcePermission
-    ResourcePermission (ResourcePermission'),
+    ResourcePermission,
     newResourcePermission,
 
     -- ** RollingDateConfiguration
-    RollingDateConfiguration (RollingDateConfiguration'),
+    RollingDateConfiguration,
     newRollingDateConfiguration,
 
     -- ** RowAlternateColorOptions
-    RowAlternateColorOptions (RowAlternateColorOptions'),
+    RowAlternateColorOptions,
     newRowAlternateColorOptions,
 
     -- ** RowInfo
-    RowInfo (RowInfo'),
+    RowInfo,
     newRowInfo,
 
     -- ** RowLevelPermissionDataSet
-    RowLevelPermissionDataSet (RowLevelPermissionDataSet'),
+    RowLevelPermissionDataSet,
     newRowLevelPermissionDataSet,
 
     -- ** RowLevelPermissionTagConfiguration
-    RowLevelPermissionTagConfiguration (RowLevelPermissionTagConfiguration'),
+    RowLevelPermissionTagConfiguration,
     newRowLevelPermissionTagConfiguration,
 
     -- ** RowLevelPermissionTagRule
-    RowLevelPermissionTagRule (RowLevelPermissionTagRule'),
+    RowLevelPermissionTagRule,
     newRowLevelPermissionTagRule,
 
     -- ** S3Parameters
-    S3Parameters (S3Parameters'),
+    S3Parameters,
     newS3Parameters,
 
     -- ** S3Source
-    S3Source (S3Source'),
+    S3Source,
     newS3Source,
 
     -- ** SameSheetTargetVisualConfiguration
-    SameSheetTargetVisualConfiguration (SameSheetTargetVisualConfiguration'),
+    SameSheetTargetVisualConfiguration,
     newSameSheetTargetVisualConfiguration,
 
     -- ** SankeyDiagramAggregatedFieldWells
-    SankeyDiagramAggregatedFieldWells (SankeyDiagramAggregatedFieldWells'),
+    SankeyDiagramAggregatedFieldWells,
     newSankeyDiagramAggregatedFieldWells,
 
     -- ** SankeyDiagramChartConfiguration
-    SankeyDiagramChartConfiguration (SankeyDiagramChartConfiguration'),
+    SankeyDiagramChartConfiguration,
     newSankeyDiagramChartConfiguration,
 
     -- ** SankeyDiagramFieldWells
-    SankeyDiagramFieldWells (SankeyDiagramFieldWells'),
+    SankeyDiagramFieldWells,
     newSankeyDiagramFieldWells,
 
     -- ** SankeyDiagramSortConfiguration
-    SankeyDiagramSortConfiguration (SankeyDiagramSortConfiguration'),
+    SankeyDiagramSortConfiguration,
     newSankeyDiagramSortConfiguration,
 
     -- ** SankeyDiagramVisual
-    SankeyDiagramVisual (SankeyDiagramVisual'),
+    SankeyDiagramVisual,
     newSankeyDiagramVisual,
 
     -- ** ScatterPlotCategoricallyAggregatedFieldWells
-    ScatterPlotCategoricallyAggregatedFieldWells (ScatterPlotCategoricallyAggregatedFieldWells'),
+    ScatterPlotCategoricallyAggregatedFieldWells,
     newScatterPlotCategoricallyAggregatedFieldWells,
 
     -- ** ScatterPlotConfiguration
-    ScatterPlotConfiguration (ScatterPlotConfiguration'),
+    ScatterPlotConfiguration,
     newScatterPlotConfiguration,
 
     -- ** ScatterPlotFieldWells
-    ScatterPlotFieldWells (ScatterPlotFieldWells'),
+    ScatterPlotFieldWells,
     newScatterPlotFieldWells,
 
     -- ** ScatterPlotUnaggregatedFieldWells
-    ScatterPlotUnaggregatedFieldWells (ScatterPlotUnaggregatedFieldWells'),
+    ScatterPlotUnaggregatedFieldWells,
     newScatterPlotUnaggregatedFieldWells,
 
     -- ** ScatterPlotVisual
-    ScatterPlotVisual (ScatterPlotVisual'),
+    ScatterPlotVisual,
     newScatterPlotVisual,
 
     -- ** ScrollBarOptions
-    ScrollBarOptions (ScrollBarOptions'),
+    ScrollBarOptions,
     newScrollBarOptions,
 
     -- ** SecondaryValueOptions
-    SecondaryValueOptions (SecondaryValueOptions'),
+    SecondaryValueOptions,
     newSecondaryValueOptions,
 
     -- ** SectionAfterPageBreak
-    SectionAfterPageBreak (SectionAfterPageBreak'),
+    SectionAfterPageBreak,
     newSectionAfterPageBreak,
 
     -- ** SectionBasedLayoutCanvasSizeOptions
-    SectionBasedLayoutCanvasSizeOptions (SectionBasedLayoutCanvasSizeOptions'),
+    SectionBasedLayoutCanvasSizeOptions,
     newSectionBasedLayoutCanvasSizeOptions,
 
     -- ** SectionBasedLayoutConfiguration
-    SectionBasedLayoutConfiguration (SectionBasedLayoutConfiguration'),
+    SectionBasedLayoutConfiguration,
     newSectionBasedLayoutConfiguration,
 
     -- ** SectionBasedLayoutPaperCanvasSizeOptions
-    SectionBasedLayoutPaperCanvasSizeOptions (SectionBasedLayoutPaperCanvasSizeOptions'),
+    SectionBasedLayoutPaperCanvasSizeOptions,
     newSectionBasedLayoutPaperCanvasSizeOptions,
 
     -- ** SectionLayoutConfiguration
-    SectionLayoutConfiguration (SectionLayoutConfiguration'),
+    SectionLayoutConfiguration,
     newSectionLayoutConfiguration,
 
     -- ** SectionPageBreakConfiguration
-    SectionPageBreakConfiguration (SectionPageBreakConfiguration'),
+    SectionPageBreakConfiguration,
     newSectionPageBreakConfiguration,
 
     -- ** SectionStyle
-    SectionStyle (SectionStyle'),
+    SectionStyle,
     newSectionStyle,
 
     -- ** SelectedSheetsFilterScopeConfiguration
-    SelectedSheetsFilterScopeConfiguration (SelectedSheetsFilterScopeConfiguration'),
+    SelectedSheetsFilterScopeConfiguration,
     newSelectedSheetsFilterScopeConfiguration,
 
     -- ** SeriesItem
-    SeriesItem (SeriesItem'),
+    SeriesItem,
     newSeriesItem,
 
     -- ** ServiceNowParameters
-    ServiceNowParameters (ServiceNowParameters'),
+    ServiceNowParameters,
     newServiceNowParameters,
 
     -- ** SessionTag
-    SessionTag (SessionTag'),
+    SessionTag,
     newSessionTag,
 
     -- ** SetParameterValueConfiguration
-    SetParameterValueConfiguration (SetParameterValueConfiguration'),
+    SetParameterValueConfiguration,
     newSetParameterValueConfiguration,
 
     -- ** ShapeConditionalFormat
-    ShapeConditionalFormat (ShapeConditionalFormat'),
+    ShapeConditionalFormat,
     newShapeConditionalFormat,
 
     -- ** Sheet
-    Sheet (Sheet'),
+    Sheet,
     newSheet,
 
     -- ** SheetControlLayout
-    SheetControlLayout (SheetControlLayout'),
+    SheetControlLayout,
     newSheetControlLayout,
 
     -- ** SheetControlLayoutConfiguration
-    SheetControlLayoutConfiguration (SheetControlLayoutConfiguration'),
+    SheetControlLayoutConfiguration,
     newSheetControlLayoutConfiguration,
 
     -- ** SheetControlsOption
-    SheetControlsOption (SheetControlsOption'),
+    SheetControlsOption,
     newSheetControlsOption,
 
     -- ** SheetDefinition
-    SheetDefinition (SheetDefinition'),
+    SheetDefinition,
     newSheetDefinition,
 
     -- ** SheetElementConfigurationOverrides
-    SheetElementConfigurationOverrides (SheetElementConfigurationOverrides'),
+    SheetElementConfigurationOverrides,
     newSheetElementConfigurationOverrides,
 
     -- ** SheetElementRenderingRule
-    SheetElementRenderingRule (SheetElementRenderingRule'),
+    SheetElementRenderingRule,
     newSheetElementRenderingRule,
 
     -- ** SheetStyle
-    SheetStyle (SheetStyle'),
+    SheetStyle,
     newSheetStyle,
 
     -- ** SheetTextBox
-    SheetTextBox (SheetTextBox'),
+    SheetTextBox,
     newSheetTextBox,
 
     -- ** SheetVisualScopingConfiguration
-    SheetVisualScopingConfiguration (SheetVisualScopingConfiguration'),
+    SheetVisualScopingConfiguration,
     newSheetVisualScopingConfiguration,
 
     -- ** ShortFormatText
-    ShortFormatText (ShortFormatText'),
+    ShortFormatText,
     newShortFormatText,
 
     -- ** SignupResponse
-    SignupResponse (SignupResponse'),
+    SignupResponse,
     newSignupResponse,
 
     -- ** SimpleClusterMarker
-    SimpleClusterMarker (SimpleClusterMarker'),
+    SimpleClusterMarker,
     newSimpleClusterMarker,
 
     -- ** SliderControlDisplayOptions
-    SliderControlDisplayOptions (SliderControlDisplayOptions'),
+    SliderControlDisplayOptions,
     newSliderControlDisplayOptions,
 
     -- ** SmallMultiplesOptions
-    SmallMultiplesOptions (SmallMultiplesOptions'),
+    SmallMultiplesOptions,
     newSmallMultiplesOptions,
 
     -- ** SnowflakeParameters
-    SnowflakeParameters (SnowflakeParameters'),
+    SnowflakeParameters,
     newSnowflakeParameters,
 
     -- ** Spacing
-    Spacing (Spacing'),
+    Spacing,
     newSpacing,
 
     -- ** SparkParameters
-    SparkParameters (SparkParameters'),
+    SparkParameters,
     newSparkParameters,
 
     -- ** SqlServerParameters
-    SqlServerParameters (SqlServerParameters'),
+    SqlServerParameters,
     newSqlServerParameters,
 
     -- ** SslProperties
-    SslProperties (SslProperties'),
+    SslProperties,
     newSslProperties,
 
     -- ** StringDefaultValues
-    StringDefaultValues (StringDefaultValues'),
+    StringDefaultValues,
     newStringDefaultValues,
 
     -- ** StringFormatConfiguration
-    StringFormatConfiguration (StringFormatConfiguration'),
+    StringFormatConfiguration,
     newStringFormatConfiguration,
 
     -- ** StringParameter
-    StringParameter (StringParameter'),
+    StringParameter,
     newStringParameter,
 
     -- ** StringParameterDeclaration
-    StringParameterDeclaration (StringParameterDeclaration'),
+    StringParameterDeclaration,
     newStringParameterDeclaration,
 
     -- ** StringValueWhenUnsetConfiguration
-    StringValueWhenUnsetConfiguration (StringValueWhenUnsetConfiguration'),
+    StringValueWhenUnsetConfiguration,
     newStringValueWhenUnsetConfiguration,
 
     -- ** SubtotalOptions
-    SubtotalOptions (SubtotalOptions'),
+    SubtotalOptions,
     newSubtotalOptions,
 
     -- ** TableAggregatedFieldWells
-    TableAggregatedFieldWells (TableAggregatedFieldWells'),
+    TableAggregatedFieldWells,
     newTableAggregatedFieldWells,
 
     -- ** TableBorderOptions
-    TableBorderOptions (TableBorderOptions'),
+    TableBorderOptions,
     newTableBorderOptions,
 
     -- ** TableCellConditionalFormatting
-    TableCellConditionalFormatting (TableCellConditionalFormatting'),
+    TableCellConditionalFormatting,
     newTableCellConditionalFormatting,
 
     -- ** TableCellImageSizingConfiguration
-    TableCellImageSizingConfiguration (TableCellImageSizingConfiguration'),
+    TableCellImageSizingConfiguration,
     newTableCellImageSizingConfiguration,
 
     -- ** TableCellStyle
-    TableCellStyle (TableCellStyle'),
+    TableCellStyle,
     newTableCellStyle,
 
     -- ** TableConditionalFormatting
-    TableConditionalFormatting (TableConditionalFormatting'),
+    TableConditionalFormatting,
     newTableConditionalFormatting,
 
     -- ** TableConditionalFormattingOption
-    TableConditionalFormattingOption (TableConditionalFormattingOption'),
+    TableConditionalFormattingOption,
     newTableConditionalFormattingOption,
 
     -- ** TableConfiguration
-    TableConfiguration (TableConfiguration'),
+    TableConfiguration,
     newTableConfiguration,
 
     -- ** TableFieldCustomIconContent
-    TableFieldCustomIconContent (TableFieldCustomIconContent'),
+    TableFieldCustomIconContent,
     newTableFieldCustomIconContent,
 
     -- ** TableFieldCustomTextContent
-    TableFieldCustomTextContent (TableFieldCustomTextContent'),
+    TableFieldCustomTextContent,
     newTableFieldCustomTextContent,
 
     -- ** TableFieldImageConfiguration
-    TableFieldImageConfiguration (TableFieldImageConfiguration'),
+    TableFieldImageConfiguration,
     newTableFieldImageConfiguration,
 
     -- ** TableFieldLinkConfiguration
-    TableFieldLinkConfiguration (TableFieldLinkConfiguration'),
+    TableFieldLinkConfiguration,
     newTableFieldLinkConfiguration,
 
     -- ** TableFieldLinkContentConfiguration
-    TableFieldLinkContentConfiguration (TableFieldLinkContentConfiguration'),
+    TableFieldLinkContentConfiguration,
     newTableFieldLinkContentConfiguration,
 
     -- ** TableFieldOption
-    TableFieldOption (TableFieldOption'),
+    TableFieldOption,
     newTableFieldOption,
 
     -- ** TableFieldOptions
-    TableFieldOptions (TableFieldOptions'),
+    TableFieldOptions,
     newTableFieldOptions,
 
     -- ** TableFieldURLConfiguration
-    TableFieldURLConfiguration (TableFieldURLConfiguration'),
+    TableFieldURLConfiguration,
     newTableFieldURLConfiguration,
 
     -- ** TableFieldWells
-    TableFieldWells (TableFieldWells'),
+    TableFieldWells,
     newTableFieldWells,
 
     -- ** TableOptions
-    TableOptions (TableOptions'),
+    TableOptions,
     newTableOptions,
 
     -- ** TablePaginatedReportOptions
-    TablePaginatedReportOptions (TablePaginatedReportOptions'),
+    TablePaginatedReportOptions,
     newTablePaginatedReportOptions,
 
     -- ** TableRowConditionalFormatting
-    TableRowConditionalFormatting (TableRowConditionalFormatting'),
+    TableRowConditionalFormatting,
     newTableRowConditionalFormatting,
 
     -- ** TableSideBorderOptions
-    TableSideBorderOptions (TableSideBorderOptions'),
+    TableSideBorderOptions,
     newTableSideBorderOptions,
 
     -- ** TableSortConfiguration
-    TableSortConfiguration (TableSortConfiguration'),
+    TableSortConfiguration,
     newTableSortConfiguration,
 
     -- ** TableUnaggregatedFieldWells
-    TableUnaggregatedFieldWells (TableUnaggregatedFieldWells'),
+    TableUnaggregatedFieldWells,
     newTableUnaggregatedFieldWells,
 
     -- ** TableVisual
-    TableVisual (TableVisual'),
+    TableVisual,
     newTableVisual,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
 
     -- ** TagColumnOperation
-    TagColumnOperation (TagColumnOperation'),
+    TagColumnOperation,
     newTagColumnOperation,
 
     -- ** Template
-    Template (Template'),
+    Template,
     newTemplate,
 
     -- ** TemplateAlias
-    TemplateAlias (TemplateAlias'),
+    TemplateAlias,
     newTemplateAlias,
 
     -- ** TemplateError
-    TemplateError (TemplateError'),
+    TemplateError,
     newTemplateError,
 
     -- ** TemplateSourceAnalysis
-    TemplateSourceAnalysis (TemplateSourceAnalysis'),
+    TemplateSourceAnalysis,
     newTemplateSourceAnalysis,
 
     -- ** TemplateSourceEntity
-    TemplateSourceEntity (TemplateSourceEntity'),
+    TemplateSourceEntity,
     newTemplateSourceEntity,
 
     -- ** TemplateSourceTemplate
-    TemplateSourceTemplate (TemplateSourceTemplate'),
+    TemplateSourceTemplate,
     newTemplateSourceTemplate,
 
     -- ** TemplateSummary
-    TemplateSummary (TemplateSummary'),
+    TemplateSummary,
     newTemplateSummary,
 
     -- ** TemplateVersion
-    TemplateVersion (TemplateVersion'),
+    TemplateVersion,
     newTemplateVersion,
 
     -- ** TemplateVersionDefinition
-    TemplateVersionDefinition (TemplateVersionDefinition'),
+    TemplateVersionDefinition,
     newTemplateVersionDefinition,
 
     -- ** TemplateVersionSummary
-    TemplateVersionSummary (TemplateVersionSummary'),
+    TemplateVersionSummary,
     newTemplateVersionSummary,
 
     -- ** TeradataParameters
-    TeradataParameters (TeradataParameters'),
+    TeradataParameters,
     newTeradataParameters,
 
     -- ** TextAreaControlDisplayOptions
-    TextAreaControlDisplayOptions (TextAreaControlDisplayOptions'),
+    TextAreaControlDisplayOptions,
     newTextAreaControlDisplayOptions,
 
     -- ** TextConditionalFormat
-    TextConditionalFormat (TextConditionalFormat'),
+    TextConditionalFormat,
     newTextConditionalFormat,
 
     -- ** TextControlPlaceholderOptions
-    TextControlPlaceholderOptions (TextControlPlaceholderOptions'),
+    TextControlPlaceholderOptions,
     newTextControlPlaceholderOptions,
 
     -- ** TextFieldControlDisplayOptions
-    TextFieldControlDisplayOptions (TextFieldControlDisplayOptions'),
+    TextFieldControlDisplayOptions,
     newTextFieldControlDisplayOptions,
 
     -- ** Theme
-    Theme (Theme'),
+    Theme,
     newTheme,
 
     -- ** ThemeAlias
-    ThemeAlias (ThemeAlias'),
+    ThemeAlias,
     newThemeAlias,
 
     -- ** ThemeConfiguration
-    ThemeConfiguration (ThemeConfiguration'),
+    ThemeConfiguration,
     newThemeConfiguration,
 
     -- ** ThemeError
-    ThemeError (ThemeError'),
+    ThemeError,
     newThemeError,
 
     -- ** ThemeSummary
-    ThemeSummary (ThemeSummary'),
+    ThemeSummary,
     newThemeSummary,
 
     -- ** ThemeVersion
-    ThemeVersion (ThemeVersion'),
+    ThemeVersion,
     newThemeVersion,
 
     -- ** ThemeVersionSummary
-    ThemeVersionSummary (ThemeVersionSummary'),
+    ThemeVersionSummary,
     newThemeVersionSummary,
 
     -- ** ThousandSeparatorOptions
-    ThousandSeparatorOptions (ThousandSeparatorOptions'),
+    ThousandSeparatorOptions,
     newThousandSeparatorOptions,
 
     -- ** TileLayoutStyle
-    TileLayoutStyle (TileLayoutStyle'),
+    TileLayoutStyle,
     newTileLayoutStyle,
 
     -- ** TileStyle
-    TileStyle (TileStyle'),
+    TileStyle,
     newTileStyle,
 
     -- ** TimeBasedForecastProperties
-    TimeBasedForecastProperties (TimeBasedForecastProperties'),
+    TimeBasedForecastProperties,
     newTimeBasedForecastProperties,
 
     -- ** TimeEqualityFilter
-    TimeEqualityFilter (TimeEqualityFilter'),
+    TimeEqualityFilter,
     newTimeEqualityFilter,
 
     -- ** TimeRangeDrillDownFilter
-    TimeRangeDrillDownFilter (TimeRangeDrillDownFilter'),
+    TimeRangeDrillDownFilter,
     newTimeRangeDrillDownFilter,
 
     -- ** TimeRangeFilter
-    TimeRangeFilter (TimeRangeFilter'),
+    TimeRangeFilter,
     newTimeRangeFilter,
 
     -- ** TimeRangeFilterValue
-    TimeRangeFilterValue (TimeRangeFilterValue'),
+    TimeRangeFilterValue,
     newTimeRangeFilterValue,
 
     -- ** TooltipItem
-    TooltipItem (TooltipItem'),
+    TooltipItem,
     newTooltipItem,
 
     -- ** TooltipOptions
-    TooltipOptions (TooltipOptions'),
+    TooltipOptions,
     newTooltipOptions,
 
     -- ** TopBottomFilter
-    TopBottomFilter (TopBottomFilter'),
+    TopBottomFilter,
     newTopBottomFilter,
 
     -- ** TopBottomMoversComputation
-    TopBottomMoversComputation (TopBottomMoversComputation'),
+    TopBottomMoversComputation,
     newTopBottomMoversComputation,
 
     -- ** TopBottomRankedComputation
-    TopBottomRankedComputation (TopBottomRankedComputation'),
+    TopBottomRankedComputation,
     newTopBottomRankedComputation,
 
     -- ** TotalAggregationComputation
-    TotalAggregationComputation (TotalAggregationComputation'),
+    TotalAggregationComputation,
     newTotalAggregationComputation,
 
     -- ** TotalOptions
-    TotalOptions (TotalOptions'),
+    TotalOptions,
     newTotalOptions,
 
     -- ** TransformOperation
-    TransformOperation (TransformOperation'),
+    TransformOperation,
     newTransformOperation,
 
     -- ** TreeMapAggregatedFieldWells
-    TreeMapAggregatedFieldWells (TreeMapAggregatedFieldWells'),
+    TreeMapAggregatedFieldWells,
     newTreeMapAggregatedFieldWells,
 
     -- ** TreeMapConfiguration
-    TreeMapConfiguration (TreeMapConfiguration'),
+    TreeMapConfiguration,
     newTreeMapConfiguration,
 
     -- ** TreeMapFieldWells
-    TreeMapFieldWells (TreeMapFieldWells'),
+    TreeMapFieldWells,
     newTreeMapFieldWells,
 
     -- ** TreeMapSortConfiguration
-    TreeMapSortConfiguration (TreeMapSortConfiguration'),
+    TreeMapSortConfiguration,
     newTreeMapSortConfiguration,
 
     -- ** TreeMapVisual
-    TreeMapVisual (TreeMapVisual'),
+    TreeMapVisual,
     newTreeMapVisual,
 
     -- ** TrendArrowOptions
-    TrendArrowOptions (TrendArrowOptions'),
+    TrendArrowOptions,
     newTrendArrowOptions,
 
     -- ** TwitterParameters
-    TwitterParameters (TwitterParameters'),
+    TwitterParameters,
     newTwitterParameters,
 
     -- ** Typography
-    Typography (Typography'),
+    Typography,
     newTypography,
 
     -- ** UIColorPalette
-    UIColorPalette (UIColorPalette'),
+    UIColorPalette,
     newUIColorPalette,
 
     -- ** UnaggregatedField
-    UnaggregatedField (UnaggregatedField'),
+    UnaggregatedField,
     newUnaggregatedField,
 
     -- ** UniqueValuesComputation
-    UniqueValuesComputation (UniqueValuesComputation'),
+    UniqueValuesComputation,
     newUniqueValuesComputation,
 
     -- ** UntagColumnOperation
-    UntagColumnOperation (UntagColumnOperation'),
+    UntagColumnOperation,
     newUntagColumnOperation,
 
     -- ** UploadSettings
-    UploadSettings (UploadSettings'),
+    UploadSettings,
     newUploadSettings,
 
     -- ** User
-    User (User'),
+    User,
     newUser,
 
     -- ** VisibleRangeOptions
-    VisibleRangeOptions (VisibleRangeOptions'),
+    VisibleRangeOptions,
     newVisibleRangeOptions,
 
     -- ** Visual
-    Visual (Visual'),
+    Visual,
     newVisual,
 
     -- ** VisualCustomAction
-    VisualCustomAction (VisualCustomAction'),
+    VisualCustomAction,
     newVisualCustomAction,
 
     -- ** VisualCustomActionOperation
-    VisualCustomActionOperation (VisualCustomActionOperation'),
+    VisualCustomActionOperation,
     newVisualCustomActionOperation,
 
     -- ** VisualPalette
-    VisualPalette (VisualPalette'),
+    VisualPalette,
     newVisualPalette,
 
     -- ** VisualSubtitleLabelOptions
-    VisualSubtitleLabelOptions (VisualSubtitleLabelOptions'),
+    VisualSubtitleLabelOptions,
     newVisualSubtitleLabelOptions,
 
     -- ** VisualTitleLabelOptions
-    VisualTitleLabelOptions (VisualTitleLabelOptions'),
+    VisualTitleLabelOptions,
     newVisualTitleLabelOptions,
 
     -- ** VpcConnectionProperties
-    VpcConnectionProperties (VpcConnectionProperties'),
+    VpcConnectionProperties,
     newVpcConnectionProperties,
 
     -- ** WaterfallChartAggregatedFieldWells
-    WaterfallChartAggregatedFieldWells (WaterfallChartAggregatedFieldWells'),
+    WaterfallChartAggregatedFieldWells,
     newWaterfallChartAggregatedFieldWells,
 
     -- ** WaterfallChartConfiguration
-    WaterfallChartConfiguration (WaterfallChartConfiguration'),
+    WaterfallChartConfiguration,
     newWaterfallChartConfiguration,
 
     -- ** WaterfallChartFieldWells
-    WaterfallChartFieldWells (WaterfallChartFieldWells'),
+    WaterfallChartFieldWells,
     newWaterfallChartFieldWells,
 
     -- ** WaterfallChartOptions
-    WaterfallChartOptions (WaterfallChartOptions'),
+    WaterfallChartOptions,
     newWaterfallChartOptions,
 
     -- ** WaterfallChartSortConfiguration
-    WaterfallChartSortConfiguration (WaterfallChartSortConfiguration'),
+    WaterfallChartSortConfiguration,
     newWaterfallChartSortConfiguration,
 
     -- ** WaterfallVisual
-    WaterfallVisual (WaterfallVisual'),
+    WaterfallVisual,
     newWaterfallVisual,
 
     -- ** WhatIfPointScenario
-    WhatIfPointScenario (WhatIfPointScenario'),
+    WhatIfPointScenario,
     newWhatIfPointScenario,
 
     -- ** WhatIfRangeScenario
-    WhatIfRangeScenario (WhatIfRangeScenario'),
+    WhatIfRangeScenario,
     newWhatIfRangeScenario,
 
     -- ** WordCloudAggregatedFieldWells
-    WordCloudAggregatedFieldWells (WordCloudAggregatedFieldWells'),
+    WordCloudAggregatedFieldWells,
     newWordCloudAggregatedFieldWells,
 
     -- ** WordCloudChartConfiguration
-    WordCloudChartConfiguration (WordCloudChartConfiguration'),
+    WordCloudChartConfiguration,
     newWordCloudChartConfiguration,
 
     -- ** WordCloudFieldWells
-    WordCloudFieldWells (WordCloudFieldWells'),
+    WordCloudFieldWells,
     newWordCloudFieldWells,
 
     -- ** WordCloudOptions
-    WordCloudOptions (WordCloudOptions'),
+    WordCloudOptions,
     newWordCloudOptions,
 
     -- ** WordCloudSortConfiguration
-    WordCloudSortConfiguration (WordCloudSortConfiguration'),
+    WordCloudSortConfiguration,
     newWordCloudSortConfiguration,
 
     -- ** WordCloudVisual
-    WordCloudVisual (WordCloudVisual'),
+    WordCloudVisual,
     newWordCloudVisual,
   )
 where

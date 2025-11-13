@@ -73,717 +73,717 @@ module Amazonka.Pinpoint
     -- $operations
 
     -- ** CreateApp
-    CreateApp (CreateApp'),
+    CreateApp,
     newCreateApp,
-    CreateAppResponse (CreateAppResponse'),
+    CreateAppResponse,
     newCreateAppResponse,
 
     -- ** CreateCampaign
-    CreateCampaign (CreateCampaign'),
+    CreateCampaign,
     newCreateCampaign,
-    CreateCampaignResponse (CreateCampaignResponse'),
+    CreateCampaignResponse,
     newCreateCampaignResponse,
 
     -- ** CreateEmailTemplate
-    CreateEmailTemplate (CreateEmailTemplate'),
+    CreateEmailTemplate,
     newCreateEmailTemplate,
-    CreateEmailTemplateResponse (CreateEmailTemplateResponse'),
+    CreateEmailTemplateResponse,
     newCreateEmailTemplateResponse,
 
     -- ** CreateExportJob
-    CreateExportJob (CreateExportJob'),
+    CreateExportJob,
     newCreateExportJob,
-    CreateExportJobResponse (CreateExportJobResponse'),
+    CreateExportJobResponse,
     newCreateExportJobResponse,
 
     -- ** CreateImportJob
-    CreateImportJob (CreateImportJob'),
+    CreateImportJob,
     newCreateImportJob,
-    CreateImportJobResponse (CreateImportJobResponse'),
+    CreateImportJobResponse,
     newCreateImportJobResponse,
 
     -- ** CreateInAppTemplate
-    CreateInAppTemplate (CreateInAppTemplate'),
+    CreateInAppTemplate,
     newCreateInAppTemplate,
-    CreateInAppTemplateResponse (CreateInAppTemplateResponse'),
+    CreateInAppTemplateResponse,
     newCreateInAppTemplateResponse,
 
     -- ** CreateJourney
-    CreateJourney (CreateJourney'),
+    CreateJourney,
     newCreateJourney,
-    CreateJourneyResponse (CreateJourneyResponse'),
+    CreateJourneyResponse,
     newCreateJourneyResponse,
 
     -- ** CreatePushTemplate
-    CreatePushTemplate (CreatePushTemplate'),
+    CreatePushTemplate,
     newCreatePushTemplate,
-    CreatePushTemplateResponse (CreatePushTemplateResponse'),
+    CreatePushTemplateResponse,
     newCreatePushTemplateResponse,
 
     -- ** CreateRecommenderConfiguration
     CreateRecommenderConfiguration' (CreateRecommenderConfiguration''),
     newCreateRecommenderConfiguration',
-    CreateRecommenderConfigurationResponse (CreateRecommenderConfigurationResponse'),
+    CreateRecommenderConfigurationResponse,
     newCreateRecommenderConfigurationResponse,
 
     -- ** CreateSegment
-    CreateSegment (CreateSegment'),
+    CreateSegment,
     newCreateSegment,
-    CreateSegmentResponse (CreateSegmentResponse'),
+    CreateSegmentResponse,
     newCreateSegmentResponse,
 
     -- ** CreateSmsTemplate
-    CreateSmsTemplate (CreateSmsTemplate'),
+    CreateSmsTemplate,
     newCreateSmsTemplate,
-    CreateSmsTemplateResponse (CreateSmsTemplateResponse'),
+    CreateSmsTemplateResponse,
     newCreateSmsTemplateResponse,
 
     -- ** CreateVoiceTemplate
-    CreateVoiceTemplate (CreateVoiceTemplate'),
+    CreateVoiceTemplate,
     newCreateVoiceTemplate,
-    CreateVoiceTemplateResponse (CreateVoiceTemplateResponse'),
+    CreateVoiceTemplateResponse,
     newCreateVoiceTemplateResponse,
 
     -- ** DeleteAdmChannel
-    DeleteAdmChannel (DeleteAdmChannel'),
+    DeleteAdmChannel,
     newDeleteAdmChannel,
-    DeleteAdmChannelResponse (DeleteAdmChannelResponse'),
+    DeleteAdmChannelResponse,
     newDeleteAdmChannelResponse,
 
     -- ** DeleteApnsChannel
-    DeleteApnsChannel (DeleteApnsChannel'),
+    DeleteApnsChannel,
     newDeleteApnsChannel,
-    DeleteApnsChannelResponse (DeleteApnsChannelResponse'),
+    DeleteApnsChannelResponse,
     newDeleteApnsChannelResponse,
 
     -- ** DeleteApnsSandboxChannel
-    DeleteApnsSandboxChannel (DeleteApnsSandboxChannel'),
+    DeleteApnsSandboxChannel,
     newDeleteApnsSandboxChannel,
-    DeleteApnsSandboxChannelResponse (DeleteApnsSandboxChannelResponse'),
+    DeleteApnsSandboxChannelResponse,
     newDeleteApnsSandboxChannelResponse,
 
     -- ** DeleteApnsVoipChannel
-    DeleteApnsVoipChannel (DeleteApnsVoipChannel'),
+    DeleteApnsVoipChannel,
     newDeleteApnsVoipChannel,
-    DeleteApnsVoipChannelResponse (DeleteApnsVoipChannelResponse'),
+    DeleteApnsVoipChannelResponse,
     newDeleteApnsVoipChannelResponse,
 
     -- ** DeleteApnsVoipSandboxChannel
-    DeleteApnsVoipSandboxChannel (DeleteApnsVoipSandboxChannel'),
+    DeleteApnsVoipSandboxChannel,
     newDeleteApnsVoipSandboxChannel,
-    DeleteApnsVoipSandboxChannelResponse (DeleteApnsVoipSandboxChannelResponse'),
+    DeleteApnsVoipSandboxChannelResponse,
     newDeleteApnsVoipSandboxChannelResponse,
 
     -- ** DeleteApp
-    DeleteApp (DeleteApp'),
+    DeleteApp,
     newDeleteApp,
-    DeleteAppResponse (DeleteAppResponse'),
+    DeleteAppResponse,
     newDeleteAppResponse,
 
     -- ** DeleteBaiduChannel
-    DeleteBaiduChannel (DeleteBaiduChannel'),
+    DeleteBaiduChannel,
     newDeleteBaiduChannel,
-    DeleteBaiduChannelResponse (DeleteBaiduChannelResponse'),
+    DeleteBaiduChannelResponse,
     newDeleteBaiduChannelResponse,
 
     -- ** DeleteCampaign
-    DeleteCampaign (DeleteCampaign'),
+    DeleteCampaign,
     newDeleteCampaign,
-    DeleteCampaignResponse (DeleteCampaignResponse'),
+    DeleteCampaignResponse,
     newDeleteCampaignResponse,
 
     -- ** DeleteEmailChannel
-    DeleteEmailChannel (DeleteEmailChannel'),
+    DeleteEmailChannel,
     newDeleteEmailChannel,
-    DeleteEmailChannelResponse (DeleteEmailChannelResponse'),
+    DeleteEmailChannelResponse,
     newDeleteEmailChannelResponse,
 
     -- ** DeleteEmailTemplate
-    DeleteEmailTemplate (DeleteEmailTemplate'),
+    DeleteEmailTemplate,
     newDeleteEmailTemplate,
-    DeleteEmailTemplateResponse (DeleteEmailTemplateResponse'),
+    DeleteEmailTemplateResponse,
     newDeleteEmailTemplateResponse,
 
     -- ** DeleteEndpoint
-    DeleteEndpoint (DeleteEndpoint'),
+    DeleteEndpoint,
     newDeleteEndpoint,
-    DeleteEndpointResponse (DeleteEndpointResponse'),
+    DeleteEndpointResponse,
     newDeleteEndpointResponse,
 
     -- ** DeleteEventStream
-    DeleteEventStream (DeleteEventStream'),
+    DeleteEventStream,
     newDeleteEventStream,
-    DeleteEventStreamResponse (DeleteEventStreamResponse'),
+    DeleteEventStreamResponse,
     newDeleteEventStreamResponse,
 
     -- ** DeleteGcmChannel
-    DeleteGcmChannel (DeleteGcmChannel'),
+    DeleteGcmChannel,
     newDeleteGcmChannel,
-    DeleteGcmChannelResponse (DeleteGcmChannelResponse'),
+    DeleteGcmChannelResponse,
     newDeleteGcmChannelResponse,
 
     -- ** DeleteInAppTemplate
-    DeleteInAppTemplate (DeleteInAppTemplate'),
+    DeleteInAppTemplate,
     newDeleteInAppTemplate,
-    DeleteInAppTemplateResponse (DeleteInAppTemplateResponse'),
+    DeleteInAppTemplateResponse,
     newDeleteInAppTemplateResponse,
 
     -- ** DeleteJourney
-    DeleteJourney (DeleteJourney'),
+    DeleteJourney,
     newDeleteJourney,
-    DeleteJourneyResponse (DeleteJourneyResponse'),
+    DeleteJourneyResponse,
     newDeleteJourneyResponse,
 
     -- ** DeletePushTemplate
-    DeletePushTemplate (DeletePushTemplate'),
+    DeletePushTemplate,
     newDeletePushTemplate,
-    DeletePushTemplateResponse (DeletePushTemplateResponse'),
+    DeletePushTemplateResponse,
     newDeletePushTemplateResponse,
 
     -- ** DeleteRecommenderConfiguration
-    DeleteRecommenderConfiguration (DeleteRecommenderConfiguration'),
+    DeleteRecommenderConfiguration,
     newDeleteRecommenderConfiguration,
-    DeleteRecommenderConfigurationResponse (DeleteRecommenderConfigurationResponse'),
+    DeleteRecommenderConfigurationResponse,
     newDeleteRecommenderConfigurationResponse,
 
     -- ** DeleteSegment
-    DeleteSegment (DeleteSegment'),
+    DeleteSegment,
     newDeleteSegment,
-    DeleteSegmentResponse (DeleteSegmentResponse'),
+    DeleteSegmentResponse,
     newDeleteSegmentResponse,
 
     -- ** DeleteSmsChannel
-    DeleteSmsChannel (DeleteSmsChannel'),
+    DeleteSmsChannel,
     newDeleteSmsChannel,
-    DeleteSmsChannelResponse (DeleteSmsChannelResponse'),
+    DeleteSmsChannelResponse,
     newDeleteSmsChannelResponse,
 
     -- ** DeleteSmsTemplate
-    DeleteSmsTemplate (DeleteSmsTemplate'),
+    DeleteSmsTemplate,
     newDeleteSmsTemplate,
-    DeleteSmsTemplateResponse (DeleteSmsTemplateResponse'),
+    DeleteSmsTemplateResponse,
     newDeleteSmsTemplateResponse,
 
     -- ** DeleteUserEndpoints
-    DeleteUserEndpoints (DeleteUserEndpoints'),
+    DeleteUserEndpoints,
     newDeleteUserEndpoints,
-    DeleteUserEndpointsResponse (DeleteUserEndpointsResponse'),
+    DeleteUserEndpointsResponse,
     newDeleteUserEndpointsResponse,
 
     -- ** DeleteVoiceChannel
-    DeleteVoiceChannel (DeleteVoiceChannel'),
+    DeleteVoiceChannel,
     newDeleteVoiceChannel,
-    DeleteVoiceChannelResponse (DeleteVoiceChannelResponse'),
+    DeleteVoiceChannelResponse,
     newDeleteVoiceChannelResponse,
 
     -- ** DeleteVoiceTemplate
-    DeleteVoiceTemplate (DeleteVoiceTemplate'),
+    DeleteVoiceTemplate,
     newDeleteVoiceTemplate,
-    DeleteVoiceTemplateResponse (DeleteVoiceTemplateResponse'),
+    DeleteVoiceTemplateResponse,
     newDeleteVoiceTemplateResponse,
 
     -- ** GetAdmChannel
-    GetAdmChannel (GetAdmChannel'),
+    GetAdmChannel,
     newGetAdmChannel,
-    GetAdmChannelResponse (GetAdmChannelResponse'),
+    GetAdmChannelResponse,
     newGetAdmChannelResponse,
 
     -- ** GetApnsChannel
-    GetApnsChannel (GetApnsChannel'),
+    GetApnsChannel,
     newGetApnsChannel,
-    GetApnsChannelResponse (GetApnsChannelResponse'),
+    GetApnsChannelResponse,
     newGetApnsChannelResponse,
 
     -- ** GetApnsSandboxChannel
-    GetApnsSandboxChannel (GetApnsSandboxChannel'),
+    GetApnsSandboxChannel,
     newGetApnsSandboxChannel,
-    GetApnsSandboxChannelResponse (GetApnsSandboxChannelResponse'),
+    GetApnsSandboxChannelResponse,
     newGetApnsSandboxChannelResponse,
 
     -- ** GetApnsVoipChannel
-    GetApnsVoipChannel (GetApnsVoipChannel'),
+    GetApnsVoipChannel,
     newGetApnsVoipChannel,
-    GetApnsVoipChannelResponse (GetApnsVoipChannelResponse'),
+    GetApnsVoipChannelResponse,
     newGetApnsVoipChannelResponse,
 
     -- ** GetApnsVoipSandboxChannel
-    GetApnsVoipSandboxChannel (GetApnsVoipSandboxChannel'),
+    GetApnsVoipSandboxChannel,
     newGetApnsVoipSandboxChannel,
-    GetApnsVoipSandboxChannelResponse (GetApnsVoipSandboxChannelResponse'),
+    GetApnsVoipSandboxChannelResponse,
     newGetApnsVoipSandboxChannelResponse,
 
     -- ** GetApp
-    GetApp (GetApp'),
+    GetApp,
     newGetApp,
-    GetAppResponse (GetAppResponse'),
+    GetAppResponse,
     newGetAppResponse,
 
     -- ** GetApplicationDateRangeKpi
-    GetApplicationDateRangeKpi (GetApplicationDateRangeKpi'),
+    GetApplicationDateRangeKpi,
     newGetApplicationDateRangeKpi,
-    GetApplicationDateRangeKpiResponse (GetApplicationDateRangeKpiResponse'),
+    GetApplicationDateRangeKpiResponse,
     newGetApplicationDateRangeKpiResponse,
 
     -- ** GetApplicationSettings
-    GetApplicationSettings (GetApplicationSettings'),
+    GetApplicationSettings,
     newGetApplicationSettings,
-    GetApplicationSettingsResponse (GetApplicationSettingsResponse'),
+    GetApplicationSettingsResponse,
     newGetApplicationSettingsResponse,
 
     -- ** GetApps
-    GetApps (GetApps'),
+    GetApps,
     newGetApps,
-    GetAppsResponse (GetAppsResponse'),
+    GetAppsResponse,
     newGetAppsResponse,
 
     -- ** GetBaiduChannel
-    GetBaiduChannel (GetBaiduChannel'),
+    GetBaiduChannel,
     newGetBaiduChannel,
-    GetBaiduChannelResponse (GetBaiduChannelResponse'),
+    GetBaiduChannelResponse,
     newGetBaiduChannelResponse,
 
     -- ** GetCampaign
-    GetCampaign (GetCampaign'),
+    GetCampaign,
     newGetCampaign,
-    GetCampaignResponse (GetCampaignResponse'),
+    GetCampaignResponse,
     newGetCampaignResponse,
 
     -- ** GetCampaignActivities
-    GetCampaignActivities (GetCampaignActivities'),
+    GetCampaignActivities,
     newGetCampaignActivities,
-    GetCampaignActivitiesResponse (GetCampaignActivitiesResponse'),
+    GetCampaignActivitiesResponse,
     newGetCampaignActivitiesResponse,
 
     -- ** GetCampaignDateRangeKpi
-    GetCampaignDateRangeKpi (GetCampaignDateRangeKpi'),
+    GetCampaignDateRangeKpi,
     newGetCampaignDateRangeKpi,
-    GetCampaignDateRangeKpiResponse (GetCampaignDateRangeKpiResponse'),
+    GetCampaignDateRangeKpiResponse,
     newGetCampaignDateRangeKpiResponse,
 
     -- ** GetCampaignVersion
-    GetCampaignVersion (GetCampaignVersion'),
+    GetCampaignVersion,
     newGetCampaignVersion,
-    GetCampaignVersionResponse (GetCampaignVersionResponse'),
+    GetCampaignVersionResponse,
     newGetCampaignVersionResponse,
 
     -- ** GetCampaignVersions
-    GetCampaignVersions (GetCampaignVersions'),
+    GetCampaignVersions,
     newGetCampaignVersions,
-    GetCampaignVersionsResponse (GetCampaignVersionsResponse'),
+    GetCampaignVersionsResponse,
     newGetCampaignVersionsResponse,
 
     -- ** GetCampaigns
-    GetCampaigns (GetCampaigns'),
+    GetCampaigns,
     newGetCampaigns,
-    GetCampaignsResponse (GetCampaignsResponse'),
+    GetCampaignsResponse,
     newGetCampaignsResponse,
 
     -- ** GetChannels
-    GetChannels (GetChannels'),
+    GetChannels,
     newGetChannels,
-    GetChannelsResponse (GetChannelsResponse'),
+    GetChannelsResponse,
     newGetChannelsResponse,
 
     -- ** GetEmailChannel
-    GetEmailChannel (GetEmailChannel'),
+    GetEmailChannel,
     newGetEmailChannel,
-    GetEmailChannelResponse (GetEmailChannelResponse'),
+    GetEmailChannelResponse,
     newGetEmailChannelResponse,
 
     -- ** GetEmailTemplate
-    GetEmailTemplate (GetEmailTemplate'),
+    GetEmailTemplate,
     newGetEmailTemplate,
-    GetEmailTemplateResponse (GetEmailTemplateResponse'),
+    GetEmailTemplateResponse,
     newGetEmailTemplateResponse,
 
     -- ** GetEndpoint
-    GetEndpoint (GetEndpoint'),
+    GetEndpoint,
     newGetEndpoint,
-    GetEndpointResponse (GetEndpointResponse'),
+    GetEndpointResponse,
     newGetEndpointResponse,
 
     -- ** GetEventStream
-    GetEventStream (GetEventStream'),
+    GetEventStream,
     newGetEventStream,
-    GetEventStreamResponse (GetEventStreamResponse'),
+    GetEventStreamResponse,
     newGetEventStreamResponse,
 
     -- ** GetExportJob
-    GetExportJob (GetExportJob'),
+    GetExportJob,
     newGetExportJob,
-    GetExportJobResponse (GetExportJobResponse'),
+    GetExportJobResponse,
     newGetExportJobResponse,
 
     -- ** GetExportJobs
-    GetExportJobs (GetExportJobs'),
+    GetExportJobs,
     newGetExportJobs,
-    GetExportJobsResponse (GetExportJobsResponse'),
+    GetExportJobsResponse,
     newGetExportJobsResponse,
 
     -- ** GetGcmChannel
-    GetGcmChannel (GetGcmChannel'),
+    GetGcmChannel,
     newGetGcmChannel,
-    GetGcmChannelResponse (GetGcmChannelResponse'),
+    GetGcmChannelResponse,
     newGetGcmChannelResponse,
 
     -- ** GetImportJob
-    GetImportJob (GetImportJob'),
+    GetImportJob,
     newGetImportJob,
-    GetImportJobResponse (GetImportJobResponse'),
+    GetImportJobResponse,
     newGetImportJobResponse,
 
     -- ** GetImportJobs
-    GetImportJobs (GetImportJobs'),
+    GetImportJobs,
     newGetImportJobs,
-    GetImportJobsResponse (GetImportJobsResponse'),
+    GetImportJobsResponse,
     newGetImportJobsResponse,
 
     -- ** GetInAppMessages
-    GetInAppMessages (GetInAppMessages'),
+    GetInAppMessages,
     newGetInAppMessages,
-    GetInAppMessagesResponse (GetInAppMessagesResponse'),
+    GetInAppMessagesResponse,
     newGetInAppMessagesResponse,
 
     -- ** GetInAppTemplate
-    GetInAppTemplate (GetInAppTemplate'),
+    GetInAppTemplate,
     newGetInAppTemplate,
-    GetInAppTemplateResponse (GetInAppTemplateResponse'),
+    GetInAppTemplateResponse,
     newGetInAppTemplateResponse,
 
     -- ** GetJourney
-    GetJourney (GetJourney'),
+    GetJourney,
     newGetJourney,
-    GetJourneyResponse (GetJourneyResponse'),
+    GetJourneyResponse,
     newGetJourneyResponse,
 
     -- ** GetJourneyDateRangeKpi
-    GetJourneyDateRangeKpi (GetJourneyDateRangeKpi'),
+    GetJourneyDateRangeKpi,
     newGetJourneyDateRangeKpi,
-    GetJourneyDateRangeKpiResponse (GetJourneyDateRangeKpiResponse'),
+    GetJourneyDateRangeKpiResponse,
     newGetJourneyDateRangeKpiResponse,
 
     -- ** GetJourneyExecutionActivityMetrics
-    GetJourneyExecutionActivityMetrics (GetJourneyExecutionActivityMetrics'),
+    GetJourneyExecutionActivityMetrics,
     newGetJourneyExecutionActivityMetrics,
-    GetJourneyExecutionActivityMetricsResponse (GetJourneyExecutionActivityMetricsResponse'),
+    GetJourneyExecutionActivityMetricsResponse,
     newGetJourneyExecutionActivityMetricsResponse,
 
     -- ** GetJourneyExecutionMetrics
-    GetJourneyExecutionMetrics (GetJourneyExecutionMetrics'),
+    GetJourneyExecutionMetrics,
     newGetJourneyExecutionMetrics,
-    GetJourneyExecutionMetricsResponse (GetJourneyExecutionMetricsResponse'),
+    GetJourneyExecutionMetricsResponse,
     newGetJourneyExecutionMetricsResponse,
 
     -- ** GetPushTemplate
-    GetPushTemplate (GetPushTemplate'),
+    GetPushTemplate,
     newGetPushTemplate,
-    GetPushTemplateResponse (GetPushTemplateResponse'),
+    GetPushTemplateResponse,
     newGetPushTemplateResponse,
 
     -- ** GetRecommenderConfiguration
-    GetRecommenderConfiguration (GetRecommenderConfiguration'),
+    GetRecommenderConfiguration,
     newGetRecommenderConfiguration,
-    GetRecommenderConfigurationResponse (GetRecommenderConfigurationResponse'),
+    GetRecommenderConfigurationResponse,
     newGetRecommenderConfigurationResponse,
 
     -- ** GetRecommenderConfigurations
-    GetRecommenderConfigurations (GetRecommenderConfigurations'),
+    GetRecommenderConfigurations,
     newGetRecommenderConfigurations,
-    GetRecommenderConfigurationsResponse (GetRecommenderConfigurationsResponse'),
+    GetRecommenderConfigurationsResponse,
     newGetRecommenderConfigurationsResponse,
 
     -- ** GetSegment
-    GetSegment (GetSegment'),
+    GetSegment,
     newGetSegment,
-    GetSegmentResponse (GetSegmentResponse'),
+    GetSegmentResponse,
     newGetSegmentResponse,
 
     -- ** GetSegmentExportJobs
-    GetSegmentExportJobs (GetSegmentExportJobs'),
+    GetSegmentExportJobs,
     newGetSegmentExportJobs,
-    GetSegmentExportJobsResponse (GetSegmentExportJobsResponse'),
+    GetSegmentExportJobsResponse,
     newGetSegmentExportJobsResponse,
 
     -- ** GetSegmentImportJobs
-    GetSegmentImportJobs (GetSegmentImportJobs'),
+    GetSegmentImportJobs,
     newGetSegmentImportJobs,
-    GetSegmentImportJobsResponse (GetSegmentImportJobsResponse'),
+    GetSegmentImportJobsResponse,
     newGetSegmentImportJobsResponse,
 
     -- ** GetSegmentVersion
-    GetSegmentVersion (GetSegmentVersion'),
+    GetSegmentVersion,
     newGetSegmentVersion,
-    GetSegmentVersionResponse (GetSegmentVersionResponse'),
+    GetSegmentVersionResponse,
     newGetSegmentVersionResponse,
 
     -- ** GetSegmentVersions
-    GetSegmentVersions (GetSegmentVersions'),
+    GetSegmentVersions,
     newGetSegmentVersions,
-    GetSegmentVersionsResponse (GetSegmentVersionsResponse'),
+    GetSegmentVersionsResponse,
     newGetSegmentVersionsResponse,
 
     -- ** GetSegments
-    GetSegments (GetSegments'),
+    GetSegments,
     newGetSegments,
-    GetSegmentsResponse (GetSegmentsResponse'),
+    GetSegmentsResponse,
     newGetSegmentsResponse,
 
     -- ** GetSmsChannel
-    GetSmsChannel (GetSmsChannel'),
+    GetSmsChannel,
     newGetSmsChannel,
-    GetSmsChannelResponse (GetSmsChannelResponse'),
+    GetSmsChannelResponse,
     newGetSmsChannelResponse,
 
     -- ** GetSmsTemplate
-    GetSmsTemplate (GetSmsTemplate'),
+    GetSmsTemplate,
     newGetSmsTemplate,
-    GetSmsTemplateResponse (GetSmsTemplateResponse'),
+    GetSmsTemplateResponse,
     newGetSmsTemplateResponse,
 
     -- ** GetUserEndpoints
-    GetUserEndpoints (GetUserEndpoints'),
+    GetUserEndpoints,
     newGetUserEndpoints,
-    GetUserEndpointsResponse (GetUserEndpointsResponse'),
+    GetUserEndpointsResponse,
     newGetUserEndpointsResponse,
 
     -- ** GetVoiceChannel
-    GetVoiceChannel (GetVoiceChannel'),
+    GetVoiceChannel,
     newGetVoiceChannel,
-    GetVoiceChannelResponse (GetVoiceChannelResponse'),
+    GetVoiceChannelResponse,
     newGetVoiceChannelResponse,
 
     -- ** GetVoiceTemplate
-    GetVoiceTemplate (GetVoiceTemplate'),
+    GetVoiceTemplate,
     newGetVoiceTemplate,
-    GetVoiceTemplateResponse (GetVoiceTemplateResponse'),
+    GetVoiceTemplateResponse,
     newGetVoiceTemplateResponse,
 
     -- ** ListJourneys
-    ListJourneys (ListJourneys'),
+    ListJourneys,
     newListJourneys,
-    ListJourneysResponse (ListJourneysResponse'),
+    ListJourneysResponse,
     newListJourneysResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** ListTemplateVersions
-    ListTemplateVersions (ListTemplateVersions'),
+    ListTemplateVersions,
     newListTemplateVersions,
-    ListTemplateVersionsResponse (ListTemplateVersionsResponse'),
+    ListTemplateVersionsResponse,
     newListTemplateVersionsResponse,
 
     -- ** ListTemplates
-    ListTemplates (ListTemplates'),
+    ListTemplates,
     newListTemplates,
-    ListTemplatesResponse (ListTemplatesResponse'),
+    ListTemplatesResponse,
     newListTemplatesResponse,
 
     -- ** PhoneNumberValidate
-    PhoneNumberValidate (PhoneNumberValidate'),
+    PhoneNumberValidate,
     newPhoneNumberValidate,
-    PhoneNumberValidateResponse (PhoneNumberValidateResponse'),
+    PhoneNumberValidateResponse,
     newPhoneNumberValidateResponse,
 
     -- ** PutEventStream
-    PutEventStream (PutEventStream'),
+    PutEventStream,
     newPutEventStream,
-    PutEventStreamResponse (PutEventStreamResponse'),
+    PutEventStreamResponse,
     newPutEventStreamResponse,
 
     -- ** PutEvents
-    PutEvents (PutEvents'),
+    PutEvents,
     newPutEvents,
-    PutEventsResponse (PutEventsResponse'),
+    PutEventsResponse,
     newPutEventsResponse,
 
     -- ** RemoveAttributes
-    RemoveAttributes (RemoveAttributes'),
+    RemoveAttributes,
     newRemoveAttributes,
-    RemoveAttributesResponse (RemoveAttributesResponse'),
+    RemoveAttributesResponse,
     newRemoveAttributesResponse,
 
     -- ** SendMessages
-    SendMessages (SendMessages'),
+    SendMessages,
     newSendMessages,
-    SendMessagesResponse (SendMessagesResponse'),
+    SendMessagesResponse,
     newSendMessagesResponse,
 
     -- ** SendOTPMessage
-    SendOTPMessage (SendOTPMessage'),
+    SendOTPMessage,
     newSendOTPMessage,
-    SendOTPMessageResponse (SendOTPMessageResponse'),
+    SendOTPMessageResponse,
     newSendOTPMessageResponse,
 
     -- ** SendUsersMessages
-    SendUsersMessages (SendUsersMessages'),
+    SendUsersMessages,
     newSendUsersMessages,
-    SendUsersMessagesResponse (SendUsersMessagesResponse'),
+    SendUsersMessagesResponse,
     newSendUsersMessagesResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateAdmChannel
-    UpdateAdmChannel (UpdateAdmChannel'),
+    UpdateAdmChannel,
     newUpdateAdmChannel,
-    UpdateAdmChannelResponse (UpdateAdmChannelResponse'),
+    UpdateAdmChannelResponse,
     newUpdateAdmChannelResponse,
 
     -- ** UpdateApnsChannel
-    UpdateApnsChannel (UpdateApnsChannel'),
+    UpdateApnsChannel,
     newUpdateApnsChannel,
-    UpdateApnsChannelResponse (UpdateApnsChannelResponse'),
+    UpdateApnsChannelResponse,
     newUpdateApnsChannelResponse,
 
     -- ** UpdateApnsSandboxChannel
-    UpdateApnsSandboxChannel (UpdateApnsSandboxChannel'),
+    UpdateApnsSandboxChannel,
     newUpdateApnsSandboxChannel,
-    UpdateApnsSandboxChannelResponse (UpdateApnsSandboxChannelResponse'),
+    UpdateApnsSandboxChannelResponse,
     newUpdateApnsSandboxChannelResponse,
 
     -- ** UpdateApnsVoipChannel
-    UpdateApnsVoipChannel (UpdateApnsVoipChannel'),
+    UpdateApnsVoipChannel,
     newUpdateApnsVoipChannel,
-    UpdateApnsVoipChannelResponse (UpdateApnsVoipChannelResponse'),
+    UpdateApnsVoipChannelResponse,
     newUpdateApnsVoipChannelResponse,
 
     -- ** UpdateApnsVoipSandboxChannel
-    UpdateApnsVoipSandboxChannel (UpdateApnsVoipSandboxChannel'),
+    UpdateApnsVoipSandboxChannel,
     newUpdateApnsVoipSandboxChannel,
-    UpdateApnsVoipSandboxChannelResponse (UpdateApnsVoipSandboxChannelResponse'),
+    UpdateApnsVoipSandboxChannelResponse,
     newUpdateApnsVoipSandboxChannelResponse,
 
     -- ** UpdateApplicationSettings
-    UpdateApplicationSettings (UpdateApplicationSettings'),
+    UpdateApplicationSettings,
     newUpdateApplicationSettings,
-    UpdateApplicationSettingsResponse (UpdateApplicationSettingsResponse'),
+    UpdateApplicationSettingsResponse,
     newUpdateApplicationSettingsResponse,
 
     -- ** UpdateBaiduChannel
-    UpdateBaiduChannel (UpdateBaiduChannel'),
+    UpdateBaiduChannel,
     newUpdateBaiduChannel,
-    UpdateBaiduChannelResponse (UpdateBaiduChannelResponse'),
+    UpdateBaiduChannelResponse,
     newUpdateBaiduChannelResponse,
 
     -- ** UpdateCampaign
-    UpdateCampaign (UpdateCampaign'),
+    UpdateCampaign,
     newUpdateCampaign,
-    UpdateCampaignResponse (UpdateCampaignResponse'),
+    UpdateCampaignResponse,
     newUpdateCampaignResponse,
 
     -- ** UpdateEmailChannel
-    UpdateEmailChannel (UpdateEmailChannel'),
+    UpdateEmailChannel,
     newUpdateEmailChannel,
-    UpdateEmailChannelResponse (UpdateEmailChannelResponse'),
+    UpdateEmailChannelResponse,
     newUpdateEmailChannelResponse,
 
     -- ** UpdateEmailTemplate
-    UpdateEmailTemplate (UpdateEmailTemplate'),
+    UpdateEmailTemplate,
     newUpdateEmailTemplate,
-    UpdateEmailTemplateResponse (UpdateEmailTemplateResponse'),
+    UpdateEmailTemplateResponse,
     newUpdateEmailTemplateResponse,
 
     -- ** UpdateEndpoint
-    UpdateEndpoint (UpdateEndpoint'),
+    UpdateEndpoint,
     newUpdateEndpoint,
-    UpdateEndpointResponse (UpdateEndpointResponse'),
+    UpdateEndpointResponse,
     newUpdateEndpointResponse,
 
     -- ** UpdateEndpointsBatch
-    UpdateEndpointsBatch (UpdateEndpointsBatch'),
+    UpdateEndpointsBatch,
     newUpdateEndpointsBatch,
-    UpdateEndpointsBatchResponse (UpdateEndpointsBatchResponse'),
+    UpdateEndpointsBatchResponse,
     newUpdateEndpointsBatchResponse,
 
     -- ** UpdateGcmChannel
-    UpdateGcmChannel (UpdateGcmChannel'),
+    UpdateGcmChannel,
     newUpdateGcmChannel,
-    UpdateGcmChannelResponse (UpdateGcmChannelResponse'),
+    UpdateGcmChannelResponse,
     newUpdateGcmChannelResponse,
 
     -- ** UpdateInAppTemplate
-    UpdateInAppTemplate (UpdateInAppTemplate'),
+    UpdateInAppTemplate,
     newUpdateInAppTemplate,
-    UpdateInAppTemplateResponse (UpdateInAppTemplateResponse'),
+    UpdateInAppTemplateResponse,
     newUpdateInAppTemplateResponse,
 
     -- ** UpdateJourney
-    UpdateJourney (UpdateJourney'),
+    UpdateJourney,
     newUpdateJourney,
-    UpdateJourneyResponse (UpdateJourneyResponse'),
+    UpdateJourneyResponse,
     newUpdateJourneyResponse,
 
     -- ** UpdateJourneyState
-    UpdateJourneyState (UpdateJourneyState'),
+    UpdateJourneyState,
     newUpdateJourneyState,
-    UpdateJourneyStateResponse (UpdateJourneyStateResponse'),
+    UpdateJourneyStateResponse,
     newUpdateJourneyStateResponse,
 
     -- ** UpdatePushTemplate
-    UpdatePushTemplate (UpdatePushTemplate'),
+    UpdatePushTemplate,
     newUpdatePushTemplate,
-    UpdatePushTemplateResponse (UpdatePushTemplateResponse'),
+    UpdatePushTemplateResponse,
     newUpdatePushTemplateResponse,
 
     -- ** UpdateRecommenderConfiguration
     UpdateRecommenderConfiguration' (UpdateRecommenderConfiguration''),
     newUpdateRecommenderConfiguration',
-    UpdateRecommenderConfigurationResponse (UpdateRecommenderConfigurationResponse'),
+    UpdateRecommenderConfigurationResponse,
     newUpdateRecommenderConfigurationResponse,
 
     -- ** UpdateSegment
-    UpdateSegment (UpdateSegment'),
+    UpdateSegment,
     newUpdateSegment,
-    UpdateSegmentResponse (UpdateSegmentResponse'),
+    UpdateSegmentResponse,
     newUpdateSegmentResponse,
 
     -- ** UpdateSmsChannel
-    UpdateSmsChannel (UpdateSmsChannel'),
+    UpdateSmsChannel,
     newUpdateSmsChannel,
-    UpdateSmsChannelResponse (UpdateSmsChannelResponse'),
+    UpdateSmsChannelResponse,
     newUpdateSmsChannelResponse,
 
     -- ** UpdateSmsTemplate
-    UpdateSmsTemplate (UpdateSmsTemplate'),
+    UpdateSmsTemplate,
     newUpdateSmsTemplate,
-    UpdateSmsTemplateResponse (UpdateSmsTemplateResponse'),
+    UpdateSmsTemplateResponse,
     newUpdateSmsTemplateResponse,
 
     -- ** UpdateTemplateActiveVersion
-    UpdateTemplateActiveVersion (UpdateTemplateActiveVersion'),
+    UpdateTemplateActiveVersion,
     newUpdateTemplateActiveVersion,
-    UpdateTemplateActiveVersionResponse (UpdateTemplateActiveVersionResponse'),
+    UpdateTemplateActiveVersionResponse,
     newUpdateTemplateActiveVersionResponse,
 
     -- ** UpdateVoiceChannel
-    UpdateVoiceChannel (UpdateVoiceChannel'),
+    UpdateVoiceChannel,
     newUpdateVoiceChannel,
-    UpdateVoiceChannelResponse (UpdateVoiceChannelResponse'),
+    UpdateVoiceChannelResponse,
     newUpdateVoiceChannelResponse,
 
     -- ** UpdateVoiceTemplate
-    UpdateVoiceTemplate (UpdateVoiceTemplate'),
+    UpdateVoiceTemplate,
     newUpdateVoiceTemplate,
-    UpdateVoiceTemplateResponse (UpdateVoiceTemplateResponse'),
+    UpdateVoiceTemplateResponse,
     newUpdateVoiceTemplateResponse,
 
     -- ** VerifyOTPMessage
-    VerifyOTPMessage (VerifyOTPMessage'),
+    VerifyOTPMessage,
     newVerifyOTPMessage,
-    VerifyOTPMessageResponse (VerifyOTPMessageResponse'),
+    VerifyOTPMessageResponse,
     newVerifyOTPMessageResponse,
 
     -- * Types
@@ -867,811 +867,811 @@ module Amazonka.Pinpoint
     Type (..),
 
     -- ** ADMChannelRequest
-    ADMChannelRequest (ADMChannelRequest'),
+    ADMChannelRequest,
     newADMChannelRequest,
 
     -- ** ADMChannelResponse
-    ADMChannelResponse (ADMChannelResponse'),
+    ADMChannelResponse,
     newADMChannelResponse,
 
     -- ** ADMMessage
-    ADMMessage (ADMMessage'),
+    ADMMessage,
     newADMMessage,
 
     -- ** APNSChannelRequest
-    APNSChannelRequest (APNSChannelRequest'),
+    APNSChannelRequest,
     newAPNSChannelRequest,
 
     -- ** APNSChannelResponse
-    APNSChannelResponse (APNSChannelResponse'),
+    APNSChannelResponse,
     newAPNSChannelResponse,
 
     -- ** APNSMessage
-    APNSMessage (APNSMessage'),
+    APNSMessage,
     newAPNSMessage,
 
     -- ** APNSPushNotificationTemplate
-    APNSPushNotificationTemplate (APNSPushNotificationTemplate'),
+    APNSPushNotificationTemplate,
     newAPNSPushNotificationTemplate,
 
     -- ** APNSSandboxChannelRequest
-    APNSSandboxChannelRequest (APNSSandboxChannelRequest'),
+    APNSSandboxChannelRequest,
     newAPNSSandboxChannelRequest,
 
     -- ** APNSSandboxChannelResponse
-    APNSSandboxChannelResponse (APNSSandboxChannelResponse'),
+    APNSSandboxChannelResponse,
     newAPNSSandboxChannelResponse,
 
     -- ** APNSVoipChannelRequest
-    APNSVoipChannelRequest (APNSVoipChannelRequest'),
+    APNSVoipChannelRequest,
     newAPNSVoipChannelRequest,
 
     -- ** APNSVoipChannelResponse
-    APNSVoipChannelResponse (APNSVoipChannelResponse'),
+    APNSVoipChannelResponse,
     newAPNSVoipChannelResponse,
 
     -- ** APNSVoipSandboxChannelRequest
-    APNSVoipSandboxChannelRequest (APNSVoipSandboxChannelRequest'),
+    APNSVoipSandboxChannelRequest,
     newAPNSVoipSandboxChannelRequest,
 
     -- ** APNSVoipSandboxChannelResponse
-    APNSVoipSandboxChannelResponse (APNSVoipSandboxChannelResponse'),
+    APNSVoipSandboxChannelResponse,
     newAPNSVoipSandboxChannelResponse,
 
     -- ** ActivitiesResponse
-    ActivitiesResponse (ActivitiesResponse'),
+    ActivitiesResponse,
     newActivitiesResponse,
 
     -- ** Activity
-    Activity (Activity'),
+    Activity,
     newActivity,
 
     -- ** ActivityResponse
-    ActivityResponse (ActivityResponse'),
+    ActivityResponse,
     newActivityResponse,
 
     -- ** AddressConfiguration
-    AddressConfiguration (AddressConfiguration'),
+    AddressConfiguration,
     newAddressConfiguration,
 
     -- ** AndroidPushNotificationTemplate
-    AndroidPushNotificationTemplate (AndroidPushNotificationTemplate'),
+    AndroidPushNotificationTemplate,
     newAndroidPushNotificationTemplate,
 
     -- ** ApplicationDateRangeKpiResponse
-    ApplicationDateRangeKpiResponse (ApplicationDateRangeKpiResponse'),
+    ApplicationDateRangeKpiResponse,
     newApplicationDateRangeKpiResponse,
 
     -- ** ApplicationResponse
-    ApplicationResponse (ApplicationResponse'),
+    ApplicationResponse,
     newApplicationResponse,
 
     -- ** ApplicationSettingsResource
-    ApplicationSettingsResource (ApplicationSettingsResource'),
+    ApplicationSettingsResource,
     newApplicationSettingsResource,
 
     -- ** ApplicationsResponse
-    ApplicationsResponse (ApplicationsResponse'),
+    ApplicationsResponse,
     newApplicationsResponse,
 
     -- ** AttributeDimension
-    AttributeDimension (AttributeDimension'),
+    AttributeDimension,
     newAttributeDimension,
 
     -- ** AttributesResource
-    AttributesResource (AttributesResource'),
+    AttributesResource,
     newAttributesResource,
 
     -- ** BaiduChannelRequest
-    BaiduChannelRequest (BaiduChannelRequest'),
+    BaiduChannelRequest,
     newBaiduChannelRequest,
 
     -- ** BaiduChannelResponse
-    BaiduChannelResponse (BaiduChannelResponse'),
+    BaiduChannelResponse,
     newBaiduChannelResponse,
 
     -- ** BaiduMessage
-    BaiduMessage (BaiduMessage'),
+    BaiduMessage,
     newBaiduMessage,
 
     -- ** BaseKpiResult
-    BaseKpiResult (BaseKpiResult'),
+    BaseKpiResult,
     newBaseKpiResult,
 
     -- ** CampaignCustomMessage
-    CampaignCustomMessage (CampaignCustomMessage'),
+    CampaignCustomMessage,
     newCampaignCustomMessage,
 
     -- ** CampaignDateRangeKpiResponse
-    CampaignDateRangeKpiResponse (CampaignDateRangeKpiResponse'),
+    CampaignDateRangeKpiResponse,
     newCampaignDateRangeKpiResponse,
 
     -- ** CampaignEmailMessage
-    CampaignEmailMessage (CampaignEmailMessage'),
+    CampaignEmailMessage,
     newCampaignEmailMessage,
 
     -- ** CampaignEventFilter
-    CampaignEventFilter (CampaignEventFilter'),
+    CampaignEventFilter,
     newCampaignEventFilter,
 
     -- ** CampaignHook
-    CampaignHook (CampaignHook'),
+    CampaignHook,
     newCampaignHook,
 
     -- ** CampaignInAppMessage
-    CampaignInAppMessage (CampaignInAppMessage'),
+    CampaignInAppMessage,
     newCampaignInAppMessage,
 
     -- ** CampaignLimits
-    CampaignLimits (CampaignLimits'),
+    CampaignLimits,
     newCampaignLimits,
 
     -- ** CampaignResponse
-    CampaignResponse (CampaignResponse'),
+    CampaignResponse,
     newCampaignResponse,
 
     -- ** CampaignSmsMessage
-    CampaignSmsMessage (CampaignSmsMessage'),
+    CampaignSmsMessage,
     newCampaignSmsMessage,
 
     -- ** CampaignState
-    CampaignState (CampaignState'),
+    CampaignState,
     newCampaignState,
 
     -- ** CampaignsResponse
-    CampaignsResponse (CampaignsResponse'),
+    CampaignsResponse,
     newCampaignsResponse,
 
     -- ** ChannelResponse
-    ChannelResponse (ChannelResponse'),
+    ChannelResponse,
     newChannelResponse,
 
     -- ** ChannelsResponse
-    ChannelsResponse (ChannelsResponse'),
+    ChannelsResponse,
     newChannelsResponse,
 
     -- ** ClosedDays
-    ClosedDays (ClosedDays'),
+    ClosedDays,
     newClosedDays,
 
     -- ** ClosedDaysRule
-    ClosedDaysRule (ClosedDaysRule'),
+    ClosedDaysRule,
     newClosedDaysRule,
 
     -- ** Condition
-    Condition (Condition'),
+    Condition,
     newCondition,
 
     -- ** ConditionalSplitActivity
-    ConditionalSplitActivity (ConditionalSplitActivity'),
+    ConditionalSplitActivity,
     newConditionalSplitActivity,
 
     -- ** ContactCenterActivity
-    ContactCenterActivity (ContactCenterActivity'),
+    ContactCenterActivity,
     newContactCenterActivity,
 
     -- ** CreateApplicationRequest
-    CreateApplicationRequest (CreateApplicationRequest'),
+    CreateApplicationRequest,
     newCreateApplicationRequest,
 
     -- ** CreateRecommenderConfiguration
-    CreateRecommenderConfiguration (CreateRecommenderConfiguration'),
+    CreateRecommenderConfiguration,
     newCreateRecommenderConfiguration,
 
     -- ** CreateTemplateMessageBody
-    CreateTemplateMessageBody (CreateTemplateMessageBody'),
+    CreateTemplateMessageBody,
     newCreateTemplateMessageBody,
 
     -- ** CustomDeliveryConfiguration
-    CustomDeliveryConfiguration (CustomDeliveryConfiguration'),
+    CustomDeliveryConfiguration,
     newCustomDeliveryConfiguration,
 
     -- ** CustomMessageActivity
-    CustomMessageActivity (CustomMessageActivity'),
+    CustomMessageActivity,
     newCustomMessageActivity,
 
     -- ** DefaultButtonConfiguration
-    DefaultButtonConfiguration (DefaultButtonConfiguration'),
+    DefaultButtonConfiguration,
     newDefaultButtonConfiguration,
 
     -- ** DefaultMessage
-    DefaultMessage (DefaultMessage'),
+    DefaultMessage,
     newDefaultMessage,
 
     -- ** DefaultPushNotificationMessage
-    DefaultPushNotificationMessage (DefaultPushNotificationMessage'),
+    DefaultPushNotificationMessage,
     newDefaultPushNotificationMessage,
 
     -- ** DefaultPushNotificationTemplate
-    DefaultPushNotificationTemplate (DefaultPushNotificationTemplate'),
+    DefaultPushNotificationTemplate,
     newDefaultPushNotificationTemplate,
 
     -- ** DirectMessageConfiguration
-    DirectMessageConfiguration (DirectMessageConfiguration'),
+    DirectMessageConfiguration,
     newDirectMessageConfiguration,
 
     -- ** EmailChannelRequest
-    EmailChannelRequest (EmailChannelRequest'),
+    EmailChannelRequest,
     newEmailChannelRequest,
 
     -- ** EmailChannelResponse
-    EmailChannelResponse (EmailChannelResponse'),
+    EmailChannelResponse,
     newEmailChannelResponse,
 
     -- ** EmailMessage
-    EmailMessage (EmailMessage'),
+    EmailMessage,
     newEmailMessage,
 
     -- ** EmailMessageActivity
-    EmailMessageActivity (EmailMessageActivity'),
+    EmailMessageActivity,
     newEmailMessageActivity,
 
     -- ** EmailTemplateRequest
-    EmailTemplateRequest (EmailTemplateRequest'),
+    EmailTemplateRequest,
     newEmailTemplateRequest,
 
     -- ** EmailTemplateResponse
-    EmailTemplateResponse (EmailTemplateResponse'),
+    EmailTemplateResponse,
     newEmailTemplateResponse,
 
     -- ** EndpointBatchItem
-    EndpointBatchItem (EndpointBatchItem'),
+    EndpointBatchItem,
     newEndpointBatchItem,
 
     -- ** EndpointBatchRequest
-    EndpointBatchRequest (EndpointBatchRequest'),
+    EndpointBatchRequest,
     newEndpointBatchRequest,
 
     -- ** EndpointDemographic
-    EndpointDemographic (EndpointDemographic'),
+    EndpointDemographic,
     newEndpointDemographic,
 
     -- ** EndpointItemResponse
-    EndpointItemResponse (EndpointItemResponse'),
+    EndpointItemResponse,
     newEndpointItemResponse,
 
     -- ** EndpointLocation
-    EndpointLocation (EndpointLocation'),
+    EndpointLocation,
     newEndpointLocation,
 
     -- ** EndpointMessageResult
-    EndpointMessageResult (EndpointMessageResult'),
+    EndpointMessageResult,
     newEndpointMessageResult,
 
     -- ** EndpointRequest
-    EndpointRequest (EndpointRequest'),
+    EndpointRequest,
     newEndpointRequest,
 
     -- ** EndpointResponse
-    EndpointResponse (EndpointResponse'),
+    EndpointResponse,
     newEndpointResponse,
 
     -- ** EndpointSendConfiguration
-    EndpointSendConfiguration (EndpointSendConfiguration'),
+    EndpointSendConfiguration,
     newEndpointSendConfiguration,
 
     -- ** EndpointUser
-    EndpointUser (EndpointUser'),
+    EndpointUser,
     newEndpointUser,
 
     -- ** EndpointsResponse
-    EndpointsResponse (EndpointsResponse'),
+    EndpointsResponse,
     newEndpointsResponse,
 
     -- ** Event
-    Event (Event'),
+    Event,
     newEvent,
 
     -- ** EventCondition
-    EventCondition (EventCondition'),
+    EventCondition,
     newEventCondition,
 
     -- ** EventDimensions
-    EventDimensions (EventDimensions'),
+    EventDimensions,
     newEventDimensions,
 
     -- ** EventFilter
-    EventFilter (EventFilter'),
+    EventFilter,
     newEventFilter,
 
     -- ** EventItemResponse
-    EventItemResponse (EventItemResponse'),
+    EventItemResponse,
     newEventItemResponse,
 
     -- ** EventStartCondition
-    EventStartCondition (EventStartCondition'),
+    EventStartCondition,
     newEventStartCondition,
 
     -- ** EventStream
-    EventStream (EventStream'),
+    EventStream,
     newEventStream,
 
     -- ** EventsBatch
-    EventsBatch (EventsBatch'),
+    EventsBatch,
     newEventsBatch,
 
     -- ** EventsRequest
-    EventsRequest (EventsRequest'),
+    EventsRequest,
     newEventsRequest,
 
     -- ** EventsResponse
-    EventsResponse (EventsResponse'),
+    EventsResponse,
     newEventsResponse,
 
     -- ** ExportJobRequest
-    ExportJobRequest (ExportJobRequest'),
+    ExportJobRequest,
     newExportJobRequest,
 
     -- ** ExportJobResource
-    ExportJobResource (ExportJobResource'),
+    ExportJobResource,
     newExportJobResource,
 
     -- ** ExportJobResponse
-    ExportJobResponse (ExportJobResponse'),
+    ExportJobResponse,
     newExportJobResponse,
 
     -- ** ExportJobsResponse
-    ExportJobsResponse (ExportJobsResponse'),
+    ExportJobsResponse,
     newExportJobsResponse,
 
     -- ** GCMChannelRequest
-    GCMChannelRequest (GCMChannelRequest'),
+    GCMChannelRequest,
     newGCMChannelRequest,
 
     -- ** GCMChannelResponse
-    GCMChannelResponse (GCMChannelResponse'),
+    GCMChannelResponse,
     newGCMChannelResponse,
 
     -- ** GCMMessage
-    GCMMessage (GCMMessage'),
+    GCMMessage,
     newGCMMessage,
 
     -- ** GPSCoordinates
-    GPSCoordinates (GPSCoordinates'),
+    GPSCoordinates,
     newGPSCoordinates,
 
     -- ** GPSPointDimension
-    GPSPointDimension (GPSPointDimension'),
+    GPSPointDimension,
     newGPSPointDimension,
 
     -- ** HoldoutActivity
-    HoldoutActivity (HoldoutActivity'),
+    HoldoutActivity,
     newHoldoutActivity,
 
     -- ** ImportJobRequest
-    ImportJobRequest (ImportJobRequest'),
+    ImportJobRequest,
     newImportJobRequest,
 
     -- ** ImportJobResource
-    ImportJobResource (ImportJobResource'),
+    ImportJobResource,
     newImportJobResource,
 
     -- ** ImportJobResponse
-    ImportJobResponse (ImportJobResponse'),
+    ImportJobResponse,
     newImportJobResponse,
 
     -- ** ImportJobsResponse
-    ImportJobsResponse (ImportJobsResponse'),
+    ImportJobsResponse,
     newImportJobsResponse,
 
     -- ** InAppCampaignSchedule
-    InAppCampaignSchedule (InAppCampaignSchedule'),
+    InAppCampaignSchedule,
     newInAppCampaignSchedule,
 
     -- ** InAppMessage
-    InAppMessage (InAppMessage'),
+    InAppMessage,
     newInAppMessage,
 
     -- ** InAppMessageBodyConfig
-    InAppMessageBodyConfig (InAppMessageBodyConfig'),
+    InAppMessageBodyConfig,
     newInAppMessageBodyConfig,
 
     -- ** InAppMessageButton
-    InAppMessageButton (InAppMessageButton'),
+    InAppMessageButton,
     newInAppMessageButton,
 
     -- ** InAppMessageCampaign
-    InAppMessageCampaign (InAppMessageCampaign'),
+    InAppMessageCampaign,
     newInAppMessageCampaign,
 
     -- ** InAppMessageContent
-    InAppMessageContent (InAppMessageContent'),
+    InAppMessageContent,
     newInAppMessageContent,
 
     -- ** InAppMessageHeaderConfig
-    InAppMessageHeaderConfig (InAppMessageHeaderConfig'),
+    InAppMessageHeaderConfig,
     newInAppMessageHeaderConfig,
 
     -- ** InAppMessagesResponse
-    InAppMessagesResponse (InAppMessagesResponse'),
+    InAppMessagesResponse,
     newInAppMessagesResponse,
 
     -- ** InAppTemplateRequest
-    InAppTemplateRequest (InAppTemplateRequest'),
+    InAppTemplateRequest,
     newInAppTemplateRequest,
 
     -- ** InAppTemplateResponse
-    InAppTemplateResponse (InAppTemplateResponse'),
+    InAppTemplateResponse,
     newInAppTemplateResponse,
 
     -- ** ItemResponse
-    ItemResponse (ItemResponse'),
+    ItemResponse,
     newItemResponse,
 
     -- ** JourneyChannelSettings
-    JourneyChannelSettings (JourneyChannelSettings'),
+    JourneyChannelSettings,
     newJourneyChannelSettings,
 
     -- ** JourneyCustomMessage
-    JourneyCustomMessage (JourneyCustomMessage'),
+    JourneyCustomMessage,
     newJourneyCustomMessage,
 
     -- ** JourneyDateRangeKpiResponse
-    JourneyDateRangeKpiResponse (JourneyDateRangeKpiResponse'),
+    JourneyDateRangeKpiResponse,
     newJourneyDateRangeKpiResponse,
 
     -- ** JourneyEmailMessage
-    JourneyEmailMessage (JourneyEmailMessage'),
+    JourneyEmailMessage,
     newJourneyEmailMessage,
 
     -- ** JourneyExecutionActivityMetricsResponse
-    JourneyExecutionActivityMetricsResponse (JourneyExecutionActivityMetricsResponse'),
+    JourneyExecutionActivityMetricsResponse,
     newJourneyExecutionActivityMetricsResponse,
 
     -- ** JourneyExecutionMetricsResponse
-    JourneyExecutionMetricsResponse (JourneyExecutionMetricsResponse'),
+    JourneyExecutionMetricsResponse,
     newJourneyExecutionMetricsResponse,
 
     -- ** JourneyLimits
-    JourneyLimits (JourneyLimits'),
+    JourneyLimits,
     newJourneyLimits,
 
     -- ** JourneyPushMessage
-    JourneyPushMessage (JourneyPushMessage'),
+    JourneyPushMessage,
     newJourneyPushMessage,
 
     -- ** JourneyResponse
-    JourneyResponse (JourneyResponse'),
+    JourneyResponse,
     newJourneyResponse,
 
     -- ** JourneySMSMessage
-    JourneySMSMessage (JourneySMSMessage'),
+    JourneySMSMessage,
     newJourneySMSMessage,
 
     -- ** JourneySchedule
-    JourneySchedule (JourneySchedule'),
+    JourneySchedule,
     newJourneySchedule,
 
     -- ** JourneyStateRequest
-    JourneyStateRequest (JourneyStateRequest'),
+    JourneyStateRequest,
     newJourneyStateRequest,
 
     -- ** JourneysResponse
-    JourneysResponse (JourneysResponse'),
+    JourneysResponse,
     newJourneysResponse,
 
     -- ** ListRecommenderConfigurationsResponse
-    ListRecommenderConfigurationsResponse (ListRecommenderConfigurationsResponse'),
+    ListRecommenderConfigurationsResponse,
     newListRecommenderConfigurationsResponse,
 
     -- ** Message
-    Message (Message'),
+    Message,
     newMessage,
 
     -- ** MessageBody
-    MessageBody (MessageBody'),
+    MessageBody,
     newMessageBody,
 
     -- ** MessageConfiguration
-    MessageConfiguration (MessageConfiguration'),
+    MessageConfiguration,
     newMessageConfiguration,
 
     -- ** MessageRequest
-    MessageRequest (MessageRequest'),
+    MessageRequest,
     newMessageRequest,
 
     -- ** MessageResponse
-    MessageResponse (MessageResponse'),
+    MessageResponse,
     newMessageResponse,
 
     -- ** MessageResult
-    MessageResult (MessageResult'),
+    MessageResult,
     newMessageResult,
 
     -- ** MetricDimension
-    MetricDimension (MetricDimension'),
+    MetricDimension,
     newMetricDimension,
 
     -- ** MultiConditionalBranch
-    MultiConditionalBranch (MultiConditionalBranch'),
+    MultiConditionalBranch,
     newMultiConditionalBranch,
 
     -- ** MultiConditionalSplitActivity
-    MultiConditionalSplitActivity (MultiConditionalSplitActivity'),
+    MultiConditionalSplitActivity,
     newMultiConditionalSplitActivity,
 
     -- ** NumberValidateRequest
-    NumberValidateRequest (NumberValidateRequest'),
+    NumberValidateRequest,
     newNumberValidateRequest,
 
     -- ** NumberValidateResponse
-    NumberValidateResponse (NumberValidateResponse'),
+    NumberValidateResponse,
     newNumberValidateResponse,
 
     -- ** OpenHours
-    OpenHours (OpenHours'),
+    OpenHours,
     newOpenHours,
 
     -- ** OpenHoursRule
-    OpenHoursRule (OpenHoursRule'),
+    OpenHoursRule,
     newOpenHoursRule,
 
     -- ** OverrideButtonConfiguration
-    OverrideButtonConfiguration (OverrideButtonConfiguration'),
+    OverrideButtonConfiguration,
     newOverrideButtonConfiguration,
 
     -- ** PublicEndpoint
-    PublicEndpoint (PublicEndpoint'),
+    PublicEndpoint,
     newPublicEndpoint,
 
     -- ** PushMessageActivity
-    PushMessageActivity (PushMessageActivity'),
+    PushMessageActivity,
     newPushMessageActivity,
 
     -- ** PushNotificationTemplateRequest
-    PushNotificationTemplateRequest (PushNotificationTemplateRequest'),
+    PushNotificationTemplateRequest,
     newPushNotificationTemplateRequest,
 
     -- ** PushNotificationTemplateResponse
-    PushNotificationTemplateResponse (PushNotificationTemplateResponse'),
+    PushNotificationTemplateResponse,
     newPushNotificationTemplateResponse,
 
     -- ** QuietTime
-    QuietTime (QuietTime'),
+    QuietTime,
     newQuietTime,
 
     -- ** RandomSplitActivity
-    RandomSplitActivity (RandomSplitActivity'),
+    RandomSplitActivity,
     newRandomSplitActivity,
 
     -- ** RandomSplitEntry
-    RandomSplitEntry (RandomSplitEntry'),
+    RandomSplitEntry,
     newRandomSplitEntry,
 
     -- ** RawEmail
-    RawEmail (RawEmail'),
+    RawEmail,
     newRawEmail,
 
     -- ** RecencyDimension
-    RecencyDimension (RecencyDimension'),
+    RecencyDimension,
     newRecencyDimension,
 
     -- ** RecommenderConfigurationResponse
-    RecommenderConfigurationResponse (RecommenderConfigurationResponse'),
+    RecommenderConfigurationResponse,
     newRecommenderConfigurationResponse,
 
     -- ** ResultRow
-    ResultRow (ResultRow'),
+    ResultRow,
     newResultRow,
 
     -- ** ResultRowValue
-    ResultRowValue (ResultRowValue'),
+    ResultRowValue,
     newResultRowValue,
 
     -- ** SMSChannelRequest
-    SMSChannelRequest (SMSChannelRequest'),
+    SMSChannelRequest,
     newSMSChannelRequest,
 
     -- ** SMSChannelResponse
-    SMSChannelResponse (SMSChannelResponse'),
+    SMSChannelResponse,
     newSMSChannelResponse,
 
     -- ** SMSMessage
-    SMSMessage (SMSMessage'),
+    SMSMessage,
     newSMSMessage,
 
     -- ** SMSMessageActivity
-    SMSMessageActivity (SMSMessageActivity'),
+    SMSMessageActivity,
     newSMSMessageActivity,
 
     -- ** SMSTemplateRequest
-    SMSTemplateRequest (SMSTemplateRequest'),
+    SMSTemplateRequest,
     newSMSTemplateRequest,
 
     -- ** SMSTemplateResponse
-    SMSTemplateResponse (SMSTemplateResponse'),
+    SMSTemplateResponse,
     newSMSTemplateResponse,
 
     -- ** Schedule
-    Schedule (Schedule'),
+    Schedule,
     newSchedule,
 
     -- ** SegmentBehaviors
-    SegmentBehaviors (SegmentBehaviors'),
+    SegmentBehaviors,
     newSegmentBehaviors,
 
     -- ** SegmentCondition
-    SegmentCondition (SegmentCondition'),
+    SegmentCondition,
     newSegmentCondition,
 
     -- ** SegmentDemographics
-    SegmentDemographics (SegmentDemographics'),
+    SegmentDemographics,
     newSegmentDemographics,
 
     -- ** SegmentDimensions
-    SegmentDimensions (SegmentDimensions'),
+    SegmentDimensions,
     newSegmentDimensions,
 
     -- ** SegmentGroup
-    SegmentGroup (SegmentGroup'),
+    SegmentGroup,
     newSegmentGroup,
 
     -- ** SegmentGroupList
-    SegmentGroupList (SegmentGroupList'),
+    SegmentGroupList,
     newSegmentGroupList,
 
     -- ** SegmentImportResource
-    SegmentImportResource (SegmentImportResource'),
+    SegmentImportResource,
     newSegmentImportResource,
 
     -- ** SegmentLocation
-    SegmentLocation (SegmentLocation'),
+    SegmentLocation,
     newSegmentLocation,
 
     -- ** SegmentReference
-    SegmentReference (SegmentReference'),
+    SegmentReference,
     newSegmentReference,
 
     -- ** SegmentResponse
-    SegmentResponse (SegmentResponse'),
+    SegmentResponse,
     newSegmentResponse,
 
     -- ** SegmentsResponse
-    SegmentsResponse (SegmentsResponse'),
+    SegmentsResponse,
     newSegmentsResponse,
 
     -- ** SendOTPMessageRequestParameters
-    SendOTPMessageRequestParameters (SendOTPMessageRequestParameters'),
+    SendOTPMessageRequestParameters,
     newSendOTPMessageRequestParameters,
 
     -- ** SendUsersMessageRequest
-    SendUsersMessageRequest (SendUsersMessageRequest'),
+    SendUsersMessageRequest,
     newSendUsersMessageRequest,
 
     -- ** SendUsersMessageResponse
-    SendUsersMessageResponse (SendUsersMessageResponse'),
+    SendUsersMessageResponse,
     newSendUsersMessageResponse,
 
     -- ** Session
-    Session (Session'),
+    Session,
     newSession,
 
     -- ** SetDimension
-    SetDimension (SetDimension'),
+    SetDimension,
     newSetDimension,
 
     -- ** SimpleCondition
-    SimpleCondition (SimpleCondition'),
+    SimpleCondition,
     newSimpleCondition,
 
     -- ** SimpleEmail
-    SimpleEmail (SimpleEmail'),
+    SimpleEmail,
     newSimpleEmail,
 
     -- ** SimpleEmailPart
-    SimpleEmailPart (SimpleEmailPart'),
+    SimpleEmailPart,
     newSimpleEmailPart,
 
     -- ** StartCondition
-    StartCondition (StartCondition'),
+    StartCondition,
     newStartCondition,
 
     -- ** TagsModel
-    TagsModel (TagsModel'),
+    TagsModel,
     newTagsModel,
 
     -- ** Template
-    Template (Template'),
+    Template,
     newTemplate,
 
     -- ** TemplateActiveVersionRequest
-    TemplateActiveVersionRequest (TemplateActiveVersionRequest'),
+    TemplateActiveVersionRequest,
     newTemplateActiveVersionRequest,
 
     -- ** TemplateConfiguration
-    TemplateConfiguration (TemplateConfiguration'),
+    TemplateConfiguration,
     newTemplateConfiguration,
 
     -- ** TemplateCreateMessageBody
-    TemplateCreateMessageBody (TemplateCreateMessageBody'),
+    TemplateCreateMessageBody,
     newTemplateCreateMessageBody,
 
     -- ** TemplateResponse
-    TemplateResponse (TemplateResponse'),
+    TemplateResponse,
     newTemplateResponse,
 
     -- ** TemplateVersionResponse
-    TemplateVersionResponse (TemplateVersionResponse'),
+    TemplateVersionResponse,
     newTemplateVersionResponse,
 
     -- ** TemplateVersionsResponse
-    TemplateVersionsResponse (TemplateVersionsResponse'),
+    TemplateVersionsResponse,
     newTemplateVersionsResponse,
 
     -- ** TemplatesResponse
-    TemplatesResponse (TemplatesResponse'),
+    TemplatesResponse,
     newTemplatesResponse,
 
     -- ** TreatmentResource
-    TreatmentResource (TreatmentResource'),
+    TreatmentResource,
     newTreatmentResource,
 
     -- ** UpdateAttributesRequest
-    UpdateAttributesRequest (UpdateAttributesRequest'),
+    UpdateAttributesRequest,
     newUpdateAttributesRequest,
 
     -- ** UpdateRecommenderConfiguration
-    UpdateRecommenderConfiguration (UpdateRecommenderConfiguration'),
+    UpdateRecommenderConfiguration,
     newUpdateRecommenderConfiguration,
 
     -- ** VerificationResponse
-    VerificationResponse (VerificationResponse'),
+    VerificationResponse,
     newVerificationResponse,
 
     -- ** VerifyOTPMessageRequestParameters
-    VerifyOTPMessageRequestParameters (VerifyOTPMessageRequestParameters'),
+    VerifyOTPMessageRequestParameters,
     newVerifyOTPMessageRequestParameters,
 
     -- ** VoiceChannelRequest
-    VoiceChannelRequest (VoiceChannelRequest'),
+    VoiceChannelRequest,
     newVoiceChannelRequest,
 
     -- ** VoiceChannelResponse
-    VoiceChannelResponse (VoiceChannelResponse'),
+    VoiceChannelResponse,
     newVoiceChannelResponse,
 
     -- ** VoiceMessage
-    VoiceMessage (VoiceMessage'),
+    VoiceMessage,
     newVoiceMessage,
 
     -- ** VoiceTemplateRequest
-    VoiceTemplateRequest (VoiceTemplateRequest'),
+    VoiceTemplateRequest,
     newVoiceTemplateRequest,
 
     -- ** VoiceTemplateResponse
-    VoiceTemplateResponse (VoiceTemplateResponse'),
+    VoiceTemplateResponse,
     newVoiceTemplateResponse,
 
     -- ** WaitActivity
-    WaitActivity (WaitActivity'),
+    WaitActivity,
     newWaitActivity,
 
     -- ** WaitTime
-    WaitTime (WaitTime'),
+    WaitTime,
     newWaitTime,
 
     -- ** WriteApplicationSettingsRequest
-    WriteApplicationSettingsRequest (WriteApplicationSettingsRequest'),
+    WriteApplicationSettingsRequest,
     newWriteApplicationSettingsRequest,
 
     -- ** WriteCampaignRequest
-    WriteCampaignRequest (WriteCampaignRequest'),
+    WriteCampaignRequest,
     newWriteCampaignRequest,
 
     -- ** WriteEventStream
-    WriteEventStream (WriteEventStream'),
+    WriteEventStream,
     newWriteEventStream,
 
     -- ** WriteJourneyRequest
-    WriteJourneyRequest (WriteJourneyRequest'),
+    WriteJourneyRequest,
     newWriteJourneyRequest,
 
     -- ** WriteSegmentRequest
-    WriteSegmentRequest (WriteSegmentRequest'),
+    WriteSegmentRequest,
     newWriteSegmentRequest,
 
     -- ** WriteTreatmentResource
-    WriteTreatmentResource (WriteTreatmentResource'),
+    WriteTreatmentResource,
     newWriteTreatmentResource,
   )
 where

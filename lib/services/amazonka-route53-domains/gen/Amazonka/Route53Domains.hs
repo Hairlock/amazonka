@@ -47,207 +47,207 @@ module Amazonka.Route53Domains
     -- $operations
 
     -- ** AcceptDomainTransferFromAnotherAwsAccount
-    AcceptDomainTransferFromAnotherAwsAccount (AcceptDomainTransferFromAnotherAwsAccount'),
+    AcceptDomainTransferFromAnotherAwsAccount,
     newAcceptDomainTransferFromAnotherAwsAccount,
-    AcceptDomainTransferFromAnotherAwsAccountResponse (AcceptDomainTransferFromAnotherAwsAccountResponse'),
+    AcceptDomainTransferFromAnotherAwsAccountResponse,
     newAcceptDomainTransferFromAnotherAwsAccountResponse,
 
     -- ** AssociateDelegationSignerToDomain
-    AssociateDelegationSignerToDomain (AssociateDelegationSignerToDomain'),
+    AssociateDelegationSignerToDomain,
     newAssociateDelegationSignerToDomain,
-    AssociateDelegationSignerToDomainResponse (AssociateDelegationSignerToDomainResponse'),
+    AssociateDelegationSignerToDomainResponse,
     newAssociateDelegationSignerToDomainResponse,
 
     -- ** CancelDomainTransferToAnotherAwsAccount
-    CancelDomainTransferToAnotherAwsAccount (CancelDomainTransferToAnotherAwsAccount'),
+    CancelDomainTransferToAnotherAwsAccount,
     newCancelDomainTransferToAnotherAwsAccount,
-    CancelDomainTransferToAnotherAwsAccountResponse (CancelDomainTransferToAnotherAwsAccountResponse'),
+    CancelDomainTransferToAnotherAwsAccountResponse,
     newCancelDomainTransferToAnotherAwsAccountResponse,
 
     -- ** CheckDomainAvailability
-    CheckDomainAvailability (CheckDomainAvailability'),
+    CheckDomainAvailability,
     newCheckDomainAvailability,
-    CheckDomainAvailabilityResponse (CheckDomainAvailabilityResponse'),
+    CheckDomainAvailabilityResponse,
     newCheckDomainAvailabilityResponse,
 
     -- ** CheckDomainTransferability
-    CheckDomainTransferability (CheckDomainTransferability'),
+    CheckDomainTransferability,
     newCheckDomainTransferability,
-    CheckDomainTransferabilityResponse (CheckDomainTransferabilityResponse'),
+    CheckDomainTransferabilityResponse,
     newCheckDomainTransferabilityResponse,
 
     -- ** DeleteDomain
-    DeleteDomain (DeleteDomain'),
+    DeleteDomain,
     newDeleteDomain,
-    DeleteDomainResponse (DeleteDomainResponse'),
+    DeleteDomainResponse,
     newDeleteDomainResponse,
 
     -- ** DeleteTagsForDomain
-    DeleteTagsForDomain (DeleteTagsForDomain'),
+    DeleteTagsForDomain,
     newDeleteTagsForDomain,
-    DeleteTagsForDomainResponse (DeleteTagsForDomainResponse'),
+    DeleteTagsForDomainResponse,
     newDeleteTagsForDomainResponse,
 
     -- ** DisableDomainAutoRenew
-    DisableDomainAutoRenew (DisableDomainAutoRenew'),
+    DisableDomainAutoRenew,
     newDisableDomainAutoRenew,
-    DisableDomainAutoRenewResponse (DisableDomainAutoRenewResponse'),
+    DisableDomainAutoRenewResponse,
     newDisableDomainAutoRenewResponse,
 
     -- ** DisableDomainTransferLock
-    DisableDomainTransferLock (DisableDomainTransferLock'),
+    DisableDomainTransferLock,
     newDisableDomainTransferLock,
-    DisableDomainTransferLockResponse (DisableDomainTransferLockResponse'),
+    DisableDomainTransferLockResponse,
     newDisableDomainTransferLockResponse,
 
     -- ** DisassociateDelegationSignerFromDomain
-    DisassociateDelegationSignerFromDomain (DisassociateDelegationSignerFromDomain'),
+    DisassociateDelegationSignerFromDomain,
     newDisassociateDelegationSignerFromDomain,
-    DisassociateDelegationSignerFromDomainResponse (DisassociateDelegationSignerFromDomainResponse'),
+    DisassociateDelegationSignerFromDomainResponse,
     newDisassociateDelegationSignerFromDomainResponse,
 
     -- ** EnableDomainAutoRenew
-    EnableDomainAutoRenew (EnableDomainAutoRenew'),
+    EnableDomainAutoRenew,
     newEnableDomainAutoRenew,
-    EnableDomainAutoRenewResponse (EnableDomainAutoRenewResponse'),
+    EnableDomainAutoRenewResponse,
     newEnableDomainAutoRenewResponse,
 
     -- ** EnableDomainTransferLock
-    EnableDomainTransferLock (EnableDomainTransferLock'),
+    EnableDomainTransferLock,
     newEnableDomainTransferLock,
-    EnableDomainTransferLockResponse (EnableDomainTransferLockResponse'),
+    EnableDomainTransferLockResponse,
     newEnableDomainTransferLockResponse,
 
     -- ** GetContactReachabilityStatus
-    GetContactReachabilityStatus (GetContactReachabilityStatus'),
+    GetContactReachabilityStatus,
     newGetContactReachabilityStatus,
-    GetContactReachabilityStatusResponse (GetContactReachabilityStatusResponse'),
+    GetContactReachabilityStatusResponse,
     newGetContactReachabilityStatusResponse,
 
     -- ** GetDomainDetail
-    GetDomainDetail (GetDomainDetail'),
+    GetDomainDetail,
     newGetDomainDetail,
-    GetDomainDetailResponse (GetDomainDetailResponse'),
+    GetDomainDetailResponse,
     newGetDomainDetailResponse,
 
     -- ** GetDomainSuggestions
-    GetDomainSuggestions (GetDomainSuggestions'),
+    GetDomainSuggestions,
     newGetDomainSuggestions,
-    GetDomainSuggestionsResponse (GetDomainSuggestionsResponse'),
+    GetDomainSuggestionsResponse,
     newGetDomainSuggestionsResponse,
 
     -- ** GetOperationDetail
-    GetOperationDetail (GetOperationDetail'),
+    GetOperationDetail,
     newGetOperationDetail,
-    GetOperationDetailResponse (GetOperationDetailResponse'),
+    GetOperationDetailResponse,
     newGetOperationDetailResponse,
 
     -- ** ListDomains (Paginated)
-    ListDomains (ListDomains'),
+    ListDomains,
     newListDomains,
-    ListDomainsResponse (ListDomainsResponse'),
+    ListDomainsResponse,
     newListDomainsResponse,
 
     -- ** ListOperations (Paginated)
-    ListOperations (ListOperations'),
+    ListOperations,
     newListOperations,
-    ListOperationsResponse (ListOperationsResponse'),
+    ListOperationsResponse,
     newListOperationsResponse,
 
     -- ** ListPrices (Paginated)
-    ListPrices (ListPrices'),
+    ListPrices,
     newListPrices,
-    ListPricesResponse (ListPricesResponse'),
+    ListPricesResponse,
     newListPricesResponse,
 
     -- ** ListTagsForDomain
-    ListTagsForDomain (ListTagsForDomain'),
+    ListTagsForDomain,
     newListTagsForDomain,
-    ListTagsForDomainResponse (ListTagsForDomainResponse'),
+    ListTagsForDomainResponse,
     newListTagsForDomainResponse,
 
     -- ** PushDomain
-    PushDomain (PushDomain'),
+    PushDomain,
     newPushDomain,
-    PushDomainResponse (PushDomainResponse'),
+    PushDomainResponse,
     newPushDomainResponse,
 
     -- ** RegisterDomain
-    RegisterDomain (RegisterDomain'),
+    RegisterDomain,
     newRegisterDomain,
-    RegisterDomainResponse (RegisterDomainResponse'),
+    RegisterDomainResponse,
     newRegisterDomainResponse,
 
     -- ** RejectDomainTransferFromAnotherAwsAccount
-    RejectDomainTransferFromAnotherAwsAccount (RejectDomainTransferFromAnotherAwsAccount'),
+    RejectDomainTransferFromAnotherAwsAccount,
     newRejectDomainTransferFromAnotherAwsAccount,
-    RejectDomainTransferFromAnotherAwsAccountResponse (RejectDomainTransferFromAnotherAwsAccountResponse'),
+    RejectDomainTransferFromAnotherAwsAccountResponse,
     newRejectDomainTransferFromAnotherAwsAccountResponse,
 
     -- ** RenewDomain
-    RenewDomain (RenewDomain'),
+    RenewDomain,
     newRenewDomain,
-    RenewDomainResponse (RenewDomainResponse'),
+    RenewDomainResponse,
     newRenewDomainResponse,
 
     -- ** ResendContactReachabilityEmail
-    ResendContactReachabilityEmail (ResendContactReachabilityEmail'),
+    ResendContactReachabilityEmail,
     newResendContactReachabilityEmail,
-    ResendContactReachabilityEmailResponse (ResendContactReachabilityEmailResponse'),
+    ResendContactReachabilityEmailResponse,
     newResendContactReachabilityEmailResponse,
 
     -- ** ResendOperationAuthorization
-    ResendOperationAuthorization (ResendOperationAuthorization'),
+    ResendOperationAuthorization,
     newResendOperationAuthorization,
-    ResendOperationAuthorizationResponse (ResendOperationAuthorizationResponse'),
+    ResendOperationAuthorizationResponse,
     newResendOperationAuthorizationResponse,
 
     -- ** RetrieveDomainAuthCode
-    RetrieveDomainAuthCode (RetrieveDomainAuthCode'),
+    RetrieveDomainAuthCode,
     newRetrieveDomainAuthCode,
-    RetrieveDomainAuthCodeResponse (RetrieveDomainAuthCodeResponse'),
+    RetrieveDomainAuthCodeResponse,
     newRetrieveDomainAuthCodeResponse,
 
     -- ** TransferDomain
-    TransferDomain (TransferDomain'),
+    TransferDomain,
     newTransferDomain,
-    TransferDomainResponse (TransferDomainResponse'),
+    TransferDomainResponse,
     newTransferDomainResponse,
 
     -- ** TransferDomainToAnotherAwsAccount
-    TransferDomainToAnotherAwsAccount (TransferDomainToAnotherAwsAccount'),
+    TransferDomainToAnotherAwsAccount,
     newTransferDomainToAnotherAwsAccount,
-    TransferDomainToAnotherAwsAccountResponse (TransferDomainToAnotherAwsAccountResponse'),
+    TransferDomainToAnotherAwsAccountResponse,
     newTransferDomainToAnotherAwsAccountResponse,
 
     -- ** UpdateDomainContact
-    UpdateDomainContact (UpdateDomainContact'),
+    UpdateDomainContact,
     newUpdateDomainContact,
-    UpdateDomainContactResponse (UpdateDomainContactResponse'),
+    UpdateDomainContactResponse,
     newUpdateDomainContactResponse,
 
     -- ** UpdateDomainContactPrivacy
-    UpdateDomainContactPrivacy (UpdateDomainContactPrivacy'),
+    UpdateDomainContactPrivacy,
     newUpdateDomainContactPrivacy,
-    UpdateDomainContactPrivacyResponse (UpdateDomainContactPrivacyResponse'),
+    UpdateDomainContactPrivacyResponse,
     newUpdateDomainContactPrivacyResponse,
 
     -- ** UpdateDomainNameservers
-    UpdateDomainNameservers (UpdateDomainNameservers'),
+    UpdateDomainNameservers,
     newUpdateDomainNameservers,
-    UpdateDomainNameserversResponse (UpdateDomainNameserversResponse'),
+    UpdateDomainNameserversResponse,
     newUpdateDomainNameserversResponse,
 
     -- ** UpdateTagsForDomain
-    UpdateTagsForDomain (UpdateTagsForDomain'),
+    UpdateTagsForDomain,
     newUpdateTagsForDomain,
-    UpdateTagsForDomainResponse (UpdateTagsForDomainResponse'),
+    UpdateTagsForDomainResponse,
     newUpdateTagsForDomainResponse,
 
     -- ** ViewBilling (Paginated)
-    ViewBilling (ViewBilling'),
+    ViewBilling,
     newViewBilling,
-    ViewBillingResponse (ViewBillingResponse'),
+    ViewBillingResponse,
     newViewBillingResponse,
 
     -- * Types
@@ -292,67 +292,67 @@ module Amazonka.Route53Domains
     Transferable (..),
 
     -- ** BillingRecord
-    BillingRecord (BillingRecord'),
+    BillingRecord,
     newBillingRecord,
 
     -- ** Consent
-    Consent (Consent'),
+    Consent,
     newConsent,
 
     -- ** ContactDetail
-    ContactDetail (ContactDetail'),
+    ContactDetail,
     newContactDetail,
 
     -- ** DnssecKey
-    DnssecKey (DnssecKey'),
+    DnssecKey,
     newDnssecKey,
 
     -- ** DnssecSigningAttributes
-    DnssecSigningAttributes (DnssecSigningAttributes'),
+    DnssecSigningAttributes,
     newDnssecSigningAttributes,
 
     -- ** DomainPrice
-    DomainPrice (DomainPrice'),
+    DomainPrice,
     newDomainPrice,
 
     -- ** DomainSuggestion
-    DomainSuggestion (DomainSuggestion'),
+    DomainSuggestion,
     newDomainSuggestion,
 
     -- ** DomainSummary
-    DomainSummary (DomainSummary'),
+    DomainSummary,
     newDomainSummary,
 
     -- ** DomainTransferability
-    DomainTransferability (DomainTransferability'),
+    DomainTransferability,
     newDomainTransferability,
 
     -- ** ExtraParam
-    ExtraParam (ExtraParam'),
+    ExtraParam,
     newExtraParam,
 
     -- ** FilterCondition
-    FilterCondition (FilterCondition'),
+    FilterCondition,
     newFilterCondition,
 
     -- ** Nameserver
-    Nameserver (Nameserver'),
+    Nameserver,
     newNameserver,
 
     -- ** OperationSummary
-    OperationSummary (OperationSummary'),
+    OperationSummary,
     newOperationSummary,
 
     -- ** PriceWithCurrency
-    PriceWithCurrency (PriceWithCurrency'),
+    PriceWithCurrency,
     newPriceWithCurrency,
 
     -- ** SortCondition
-    SortCondition (SortCondition'),
+    SortCondition,
     newSortCondition,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
   )
 where

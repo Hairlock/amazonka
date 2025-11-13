@@ -49,103 +49,103 @@ module Amazonka.IoT1ClickDevices
     -- $operations
 
     -- ** ClaimDevicesByClaimCode
-    ClaimDevicesByClaimCode (ClaimDevicesByClaimCode'),
+    ClaimDevicesByClaimCode,
     newClaimDevicesByClaimCode,
-    ClaimDevicesByClaimCodeResponse (ClaimDevicesByClaimCodeResponse'),
+    ClaimDevicesByClaimCodeResponse,
     newClaimDevicesByClaimCodeResponse,
 
     -- ** DescribeDevice
-    DescribeDevice (DescribeDevice'),
+    DescribeDevice,
     newDescribeDevice,
-    DescribeDeviceResponse (DescribeDeviceResponse'),
+    DescribeDeviceResponse,
     newDescribeDeviceResponse,
 
     -- ** FinalizeDeviceClaim
-    FinalizeDeviceClaim (FinalizeDeviceClaim'),
+    FinalizeDeviceClaim,
     newFinalizeDeviceClaim,
-    FinalizeDeviceClaimResponse (FinalizeDeviceClaimResponse'),
+    FinalizeDeviceClaimResponse,
     newFinalizeDeviceClaimResponse,
 
     -- ** GetDeviceMethods
-    GetDeviceMethods (GetDeviceMethods'),
+    GetDeviceMethods,
     newGetDeviceMethods,
-    GetDeviceMethodsResponse (GetDeviceMethodsResponse'),
+    GetDeviceMethodsResponse,
     newGetDeviceMethodsResponse,
 
     -- ** InitiateDeviceClaim
-    InitiateDeviceClaim (InitiateDeviceClaim'),
+    InitiateDeviceClaim,
     newInitiateDeviceClaim,
-    InitiateDeviceClaimResponse (InitiateDeviceClaimResponse'),
+    InitiateDeviceClaimResponse,
     newInitiateDeviceClaimResponse,
 
     -- ** InvokeDeviceMethod
-    InvokeDeviceMethod (InvokeDeviceMethod'),
+    InvokeDeviceMethod,
     newInvokeDeviceMethod,
-    InvokeDeviceMethodResponse (InvokeDeviceMethodResponse'),
+    InvokeDeviceMethodResponse,
     newInvokeDeviceMethodResponse,
 
     -- ** ListDeviceEvents (Paginated)
-    ListDeviceEvents (ListDeviceEvents'),
+    ListDeviceEvents,
     newListDeviceEvents,
-    ListDeviceEventsResponse (ListDeviceEventsResponse'),
+    ListDeviceEventsResponse,
     newListDeviceEventsResponse,
 
     -- ** ListDevices (Paginated)
-    ListDevices (ListDevices'),
+    ListDevices,
     newListDevices,
-    ListDevicesResponse (ListDevicesResponse'),
+    ListDevicesResponse,
     newListDevicesResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UnclaimDevice
-    UnclaimDevice (UnclaimDevice'),
+    UnclaimDevice,
     newUnclaimDevice,
-    UnclaimDeviceResponse (UnclaimDeviceResponse'),
+    UnclaimDeviceResponse,
     newUnclaimDeviceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateDeviceState
-    UpdateDeviceState (UpdateDeviceState'),
+    UpdateDeviceState,
     newUpdateDeviceState,
-    UpdateDeviceStateResponse (UpdateDeviceStateResponse'),
+    UpdateDeviceStateResponse,
     newUpdateDeviceStateResponse,
 
     -- * Types
 
     -- ** Attributes
-    Attributes (Attributes'),
+    Attributes,
     newAttributes,
 
     -- ** Device
-    Device (Device'),
+    Device,
     newDevice,
 
     -- ** DeviceDescription
-    DeviceDescription (DeviceDescription'),
+    DeviceDescription,
     newDeviceDescription,
 
     -- ** DeviceEvent
-    DeviceEvent (DeviceEvent'),
+    DeviceEvent,
     newDeviceEvent,
 
     -- ** DeviceMethod
-    DeviceMethod (DeviceMethod'),
+    DeviceMethod,
     newDeviceMethod,
   )
 where

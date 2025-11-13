@@ -30,21 +30,21 @@ module Amazonka.SageMakerEdge
     -- $operations
 
     -- ** GetDeployments
-    GetDeployments (GetDeployments'),
+    GetDeployments,
     newGetDeployments,
-    GetDeploymentsResponse (GetDeploymentsResponse'),
+    GetDeploymentsResponse,
     newGetDeploymentsResponse,
 
     -- ** GetDeviceRegistration
-    GetDeviceRegistration (GetDeviceRegistration'),
+    GetDeviceRegistration,
     newGetDeviceRegistration,
-    GetDeviceRegistrationResponse (GetDeviceRegistrationResponse'),
+    GetDeviceRegistrationResponse,
     newGetDeviceRegistrationResponse,
 
     -- ** SendHeartbeat
-    SendHeartbeat (SendHeartbeat'),
+    SendHeartbeat,
     newSendHeartbeat,
-    SendHeartbeatResponse (SendHeartbeatResponse'),
+    SendHeartbeatResponse,
     newSendHeartbeatResponse,
 
     -- * Types
@@ -65,31 +65,31 @@ module Amazonka.SageMakerEdge
     ModelState (..),
 
     -- ** Checksum
-    Checksum (Checksum'),
+    Checksum,
     newChecksum,
 
     -- ** Definition
-    Definition (Definition'),
+    Definition,
     newDefinition,
 
     -- ** DeploymentModel
-    DeploymentModel (DeploymentModel'),
+    DeploymentModel,
     newDeploymentModel,
 
     -- ** DeploymentResult
-    DeploymentResult (DeploymentResult'),
+    DeploymentResult,
     newDeploymentResult,
 
     -- ** EdgeDeployment
-    EdgeDeployment (EdgeDeployment'),
+    EdgeDeployment,
     newEdgeDeployment,
 
     -- ** EdgeMetric
-    EdgeMetric (EdgeMetric'),
+    EdgeMetric,
     newEdgeMetric,
 
     -- ** Model
-    Model (Model'),
+    Model,
     newModel,
   )
 where

@@ -224,105 +224,105 @@ module Amazonka.IVSChat
     -- $operations
 
     -- ** CreateChatToken
-    CreateChatToken (CreateChatToken'),
+    CreateChatToken,
     newCreateChatToken,
-    CreateChatTokenResponse (CreateChatTokenResponse'),
+    CreateChatTokenResponse,
     newCreateChatTokenResponse,
 
     -- ** CreateLoggingConfiguration
-    CreateLoggingConfiguration (CreateLoggingConfiguration'),
+    CreateLoggingConfiguration,
     newCreateLoggingConfiguration,
-    CreateLoggingConfigurationResponse (CreateLoggingConfigurationResponse'),
+    CreateLoggingConfigurationResponse,
     newCreateLoggingConfigurationResponse,
 
     -- ** CreateRoom
-    CreateRoom (CreateRoom'),
+    CreateRoom,
     newCreateRoom,
-    CreateRoomResponse (CreateRoomResponse'),
+    CreateRoomResponse,
     newCreateRoomResponse,
 
     -- ** DeleteLoggingConfiguration
-    DeleteLoggingConfiguration (DeleteLoggingConfiguration'),
+    DeleteLoggingConfiguration,
     newDeleteLoggingConfiguration,
-    DeleteLoggingConfigurationResponse (DeleteLoggingConfigurationResponse'),
+    DeleteLoggingConfigurationResponse,
     newDeleteLoggingConfigurationResponse,
 
     -- ** DeleteMessage
-    DeleteMessage (DeleteMessage'),
+    DeleteMessage,
     newDeleteMessage,
-    DeleteMessageResponse (DeleteMessageResponse'),
+    DeleteMessageResponse,
     newDeleteMessageResponse,
 
     -- ** DeleteRoom
-    DeleteRoom (DeleteRoom'),
+    DeleteRoom,
     newDeleteRoom,
-    DeleteRoomResponse (DeleteRoomResponse'),
+    DeleteRoomResponse,
     newDeleteRoomResponse,
 
     -- ** DisconnectUser
-    DisconnectUser (DisconnectUser'),
+    DisconnectUser,
     newDisconnectUser,
-    DisconnectUserResponse (DisconnectUserResponse'),
+    DisconnectUserResponse,
     newDisconnectUserResponse,
 
     -- ** GetLoggingConfiguration
-    GetLoggingConfiguration (GetLoggingConfiguration'),
+    GetLoggingConfiguration,
     newGetLoggingConfiguration,
-    GetLoggingConfigurationResponse (GetLoggingConfigurationResponse'),
+    GetLoggingConfigurationResponse,
     newGetLoggingConfigurationResponse,
 
     -- ** GetRoom
-    GetRoom (GetRoom'),
+    GetRoom,
     newGetRoom,
-    GetRoomResponse (GetRoomResponse'),
+    GetRoomResponse,
     newGetRoomResponse,
 
     -- ** ListLoggingConfigurations
-    ListLoggingConfigurations (ListLoggingConfigurations'),
+    ListLoggingConfigurations,
     newListLoggingConfigurations,
-    ListLoggingConfigurationsResponse (ListLoggingConfigurationsResponse'),
+    ListLoggingConfigurationsResponse,
     newListLoggingConfigurationsResponse,
 
     -- ** ListRooms
-    ListRooms (ListRooms'),
+    ListRooms,
     newListRooms,
-    ListRoomsResponse (ListRoomsResponse'),
+    ListRoomsResponse,
     newListRoomsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** SendEvent
-    SendEvent (SendEvent'),
+    SendEvent,
     newSendEvent,
-    SendEventResponse (SendEventResponse'),
+    SendEventResponse,
     newSendEventResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateLoggingConfiguration
-    UpdateLoggingConfiguration (UpdateLoggingConfiguration'),
+    UpdateLoggingConfiguration,
     newUpdateLoggingConfiguration,
-    UpdateLoggingConfigurationResponse (UpdateLoggingConfigurationResponse'),
+    UpdateLoggingConfigurationResponse,
     newUpdateLoggingConfigurationResponse,
 
     -- ** UpdateRoom
-    UpdateRoom (UpdateRoom'),
+    UpdateRoom,
     newUpdateRoom,
-    UpdateRoomResponse (UpdateRoomResponse'),
+    UpdateRoomResponse,
     newUpdateRoomResponse,
 
     -- * Types
@@ -343,31 +343,31 @@ module Amazonka.IVSChat
     UpdateLoggingConfigurationState (..),
 
     -- ** CloudWatchLogsDestinationConfiguration
-    CloudWatchLogsDestinationConfiguration (CloudWatchLogsDestinationConfiguration'),
+    CloudWatchLogsDestinationConfiguration,
     newCloudWatchLogsDestinationConfiguration,
 
     -- ** DestinationConfiguration
-    DestinationConfiguration (DestinationConfiguration'),
+    DestinationConfiguration,
     newDestinationConfiguration,
 
     -- ** FirehoseDestinationConfiguration
-    FirehoseDestinationConfiguration (FirehoseDestinationConfiguration'),
+    FirehoseDestinationConfiguration,
     newFirehoseDestinationConfiguration,
 
     -- ** LoggingConfigurationSummary
-    LoggingConfigurationSummary (LoggingConfigurationSummary'),
+    LoggingConfigurationSummary,
     newLoggingConfigurationSummary,
 
     -- ** MessageReviewHandler
-    MessageReviewHandler (MessageReviewHandler'),
+    MessageReviewHandler,
     newMessageReviewHandler,
 
     -- ** RoomSummary
-    RoomSummary (RoomSummary'),
+    RoomSummary,
     newRoomSummary,
 
     -- ** S3DestinationConfiguration
-    S3DestinationConfiguration (S3DestinationConfiguration'),
+    S3DestinationConfiguration,
     newS3DestinationConfiguration,
   )
 where

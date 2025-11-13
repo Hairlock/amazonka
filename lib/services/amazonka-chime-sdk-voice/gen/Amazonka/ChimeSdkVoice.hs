@@ -60,447 +60,447 @@ module Amazonka.ChimeSdkVoice
     -- $operations
 
     -- ** AssociatePhoneNumbersWithVoiceConnector
-    AssociatePhoneNumbersWithVoiceConnector (AssociatePhoneNumbersWithVoiceConnector'),
+    AssociatePhoneNumbersWithVoiceConnector,
     newAssociatePhoneNumbersWithVoiceConnector,
-    AssociatePhoneNumbersWithVoiceConnectorResponse (AssociatePhoneNumbersWithVoiceConnectorResponse'),
+    AssociatePhoneNumbersWithVoiceConnectorResponse,
     newAssociatePhoneNumbersWithVoiceConnectorResponse,
 
     -- ** AssociatePhoneNumbersWithVoiceConnectorGroup
-    AssociatePhoneNumbersWithVoiceConnectorGroup (AssociatePhoneNumbersWithVoiceConnectorGroup'),
+    AssociatePhoneNumbersWithVoiceConnectorGroup,
     newAssociatePhoneNumbersWithVoiceConnectorGroup,
-    AssociatePhoneNumbersWithVoiceConnectorGroupResponse (AssociatePhoneNumbersWithVoiceConnectorGroupResponse'),
+    AssociatePhoneNumbersWithVoiceConnectorGroupResponse,
     newAssociatePhoneNumbersWithVoiceConnectorGroupResponse,
 
     -- ** BatchDeletePhoneNumber
-    BatchDeletePhoneNumber (BatchDeletePhoneNumber'),
+    BatchDeletePhoneNumber,
     newBatchDeletePhoneNumber,
-    BatchDeletePhoneNumberResponse (BatchDeletePhoneNumberResponse'),
+    BatchDeletePhoneNumberResponse,
     newBatchDeletePhoneNumberResponse,
 
     -- ** BatchUpdatePhoneNumber
-    BatchUpdatePhoneNumber (BatchUpdatePhoneNumber'),
+    BatchUpdatePhoneNumber,
     newBatchUpdatePhoneNumber,
-    BatchUpdatePhoneNumberResponse (BatchUpdatePhoneNumberResponse'),
+    BatchUpdatePhoneNumberResponse,
     newBatchUpdatePhoneNumberResponse,
 
     -- ** CreatePhoneNumberOrder
-    CreatePhoneNumberOrder (CreatePhoneNumberOrder'),
+    CreatePhoneNumberOrder,
     newCreatePhoneNumberOrder,
-    CreatePhoneNumberOrderResponse (CreatePhoneNumberOrderResponse'),
+    CreatePhoneNumberOrderResponse,
     newCreatePhoneNumberOrderResponse,
 
     -- ** CreateProxySession
-    CreateProxySession (CreateProxySession'),
+    CreateProxySession,
     newCreateProxySession,
-    CreateProxySessionResponse (CreateProxySessionResponse'),
+    CreateProxySessionResponse,
     newCreateProxySessionResponse,
 
     -- ** CreateSipMediaApplication
-    CreateSipMediaApplication (CreateSipMediaApplication'),
+    CreateSipMediaApplication,
     newCreateSipMediaApplication,
-    CreateSipMediaApplicationResponse (CreateSipMediaApplicationResponse'),
+    CreateSipMediaApplicationResponse,
     newCreateSipMediaApplicationResponse,
 
     -- ** CreateSipMediaApplicationCall
-    CreateSipMediaApplicationCall (CreateSipMediaApplicationCall'),
+    CreateSipMediaApplicationCall,
     newCreateSipMediaApplicationCall,
-    CreateSipMediaApplicationCallResponse (CreateSipMediaApplicationCallResponse'),
+    CreateSipMediaApplicationCallResponse,
     newCreateSipMediaApplicationCallResponse,
 
     -- ** CreateSipRule
-    CreateSipRule (CreateSipRule'),
+    CreateSipRule,
     newCreateSipRule,
-    CreateSipRuleResponse (CreateSipRuleResponse'),
+    CreateSipRuleResponse,
     newCreateSipRuleResponse,
 
     -- ** CreateVoiceConnector
-    CreateVoiceConnector (CreateVoiceConnector'),
+    CreateVoiceConnector,
     newCreateVoiceConnector,
-    CreateVoiceConnectorResponse (CreateVoiceConnectorResponse'),
+    CreateVoiceConnectorResponse,
     newCreateVoiceConnectorResponse,
 
     -- ** CreateVoiceConnectorGroup
-    CreateVoiceConnectorGroup (CreateVoiceConnectorGroup'),
+    CreateVoiceConnectorGroup,
     newCreateVoiceConnectorGroup,
-    CreateVoiceConnectorGroupResponse (CreateVoiceConnectorGroupResponse'),
+    CreateVoiceConnectorGroupResponse,
     newCreateVoiceConnectorGroupResponse,
 
     -- ** DeletePhoneNumber
-    DeletePhoneNumber (DeletePhoneNumber'),
+    DeletePhoneNumber,
     newDeletePhoneNumber,
-    DeletePhoneNumberResponse (DeletePhoneNumberResponse'),
+    DeletePhoneNumberResponse,
     newDeletePhoneNumberResponse,
 
     -- ** DeleteProxySession
-    DeleteProxySession (DeleteProxySession'),
+    DeleteProxySession,
     newDeleteProxySession,
-    DeleteProxySessionResponse (DeleteProxySessionResponse'),
+    DeleteProxySessionResponse,
     newDeleteProxySessionResponse,
 
     -- ** DeleteSipMediaApplication
-    DeleteSipMediaApplication (DeleteSipMediaApplication'),
+    DeleteSipMediaApplication,
     newDeleteSipMediaApplication,
-    DeleteSipMediaApplicationResponse (DeleteSipMediaApplicationResponse'),
+    DeleteSipMediaApplicationResponse,
     newDeleteSipMediaApplicationResponse,
 
     -- ** DeleteSipRule
-    DeleteSipRule (DeleteSipRule'),
+    DeleteSipRule,
     newDeleteSipRule,
-    DeleteSipRuleResponse (DeleteSipRuleResponse'),
+    DeleteSipRuleResponse,
     newDeleteSipRuleResponse,
 
     -- ** DeleteVoiceConnector
-    DeleteVoiceConnector (DeleteVoiceConnector'),
+    DeleteVoiceConnector,
     newDeleteVoiceConnector,
-    DeleteVoiceConnectorResponse (DeleteVoiceConnectorResponse'),
+    DeleteVoiceConnectorResponse,
     newDeleteVoiceConnectorResponse,
 
     -- ** DeleteVoiceConnectorEmergencyCallingConfiguration
-    DeleteVoiceConnectorEmergencyCallingConfiguration (DeleteVoiceConnectorEmergencyCallingConfiguration'),
+    DeleteVoiceConnectorEmergencyCallingConfiguration,
     newDeleteVoiceConnectorEmergencyCallingConfiguration,
-    DeleteVoiceConnectorEmergencyCallingConfigurationResponse (DeleteVoiceConnectorEmergencyCallingConfigurationResponse'),
+    DeleteVoiceConnectorEmergencyCallingConfigurationResponse,
     newDeleteVoiceConnectorEmergencyCallingConfigurationResponse,
 
     -- ** DeleteVoiceConnectorGroup
-    DeleteVoiceConnectorGroup (DeleteVoiceConnectorGroup'),
+    DeleteVoiceConnectorGroup,
     newDeleteVoiceConnectorGroup,
-    DeleteVoiceConnectorGroupResponse (DeleteVoiceConnectorGroupResponse'),
+    DeleteVoiceConnectorGroupResponse,
     newDeleteVoiceConnectorGroupResponse,
 
     -- ** DeleteVoiceConnectorOrigination
-    DeleteVoiceConnectorOrigination (DeleteVoiceConnectorOrigination'),
+    DeleteVoiceConnectorOrigination,
     newDeleteVoiceConnectorOrigination,
-    DeleteVoiceConnectorOriginationResponse (DeleteVoiceConnectorOriginationResponse'),
+    DeleteVoiceConnectorOriginationResponse,
     newDeleteVoiceConnectorOriginationResponse,
 
     -- ** DeleteVoiceConnectorProxy
-    DeleteVoiceConnectorProxy (DeleteVoiceConnectorProxy'),
+    DeleteVoiceConnectorProxy,
     newDeleteVoiceConnectorProxy,
-    DeleteVoiceConnectorProxyResponse (DeleteVoiceConnectorProxyResponse'),
+    DeleteVoiceConnectorProxyResponse,
     newDeleteVoiceConnectorProxyResponse,
 
     -- ** DeleteVoiceConnectorStreamingConfiguration
-    DeleteVoiceConnectorStreamingConfiguration (DeleteVoiceConnectorStreamingConfiguration'),
+    DeleteVoiceConnectorStreamingConfiguration,
     newDeleteVoiceConnectorStreamingConfiguration,
-    DeleteVoiceConnectorStreamingConfigurationResponse (DeleteVoiceConnectorStreamingConfigurationResponse'),
+    DeleteVoiceConnectorStreamingConfigurationResponse,
     newDeleteVoiceConnectorStreamingConfigurationResponse,
 
     -- ** DeleteVoiceConnectorTermination
-    DeleteVoiceConnectorTermination (DeleteVoiceConnectorTermination'),
+    DeleteVoiceConnectorTermination,
     newDeleteVoiceConnectorTermination,
-    DeleteVoiceConnectorTerminationResponse (DeleteVoiceConnectorTerminationResponse'),
+    DeleteVoiceConnectorTerminationResponse,
     newDeleteVoiceConnectorTerminationResponse,
 
     -- ** DeleteVoiceConnectorTerminationCredentials
-    DeleteVoiceConnectorTerminationCredentials (DeleteVoiceConnectorTerminationCredentials'),
+    DeleteVoiceConnectorTerminationCredentials,
     newDeleteVoiceConnectorTerminationCredentials,
-    DeleteVoiceConnectorTerminationCredentialsResponse (DeleteVoiceConnectorTerminationCredentialsResponse'),
+    DeleteVoiceConnectorTerminationCredentialsResponse,
     newDeleteVoiceConnectorTerminationCredentialsResponse,
 
     -- ** DisassociatePhoneNumbersFromVoiceConnector
-    DisassociatePhoneNumbersFromVoiceConnector (DisassociatePhoneNumbersFromVoiceConnector'),
+    DisassociatePhoneNumbersFromVoiceConnector,
     newDisassociatePhoneNumbersFromVoiceConnector,
-    DisassociatePhoneNumbersFromVoiceConnectorResponse (DisassociatePhoneNumbersFromVoiceConnectorResponse'),
+    DisassociatePhoneNumbersFromVoiceConnectorResponse,
     newDisassociatePhoneNumbersFromVoiceConnectorResponse,
 
     -- ** DisassociatePhoneNumbersFromVoiceConnectorGroup
-    DisassociatePhoneNumbersFromVoiceConnectorGroup (DisassociatePhoneNumbersFromVoiceConnectorGroup'),
+    DisassociatePhoneNumbersFromVoiceConnectorGroup,
     newDisassociatePhoneNumbersFromVoiceConnectorGroup,
-    DisassociatePhoneNumbersFromVoiceConnectorGroupResponse (DisassociatePhoneNumbersFromVoiceConnectorGroupResponse'),
+    DisassociatePhoneNumbersFromVoiceConnectorGroupResponse,
     newDisassociatePhoneNumbersFromVoiceConnectorGroupResponse,
 
     -- ** GetGlobalSettings
-    GetGlobalSettings (GetGlobalSettings'),
+    GetGlobalSettings,
     newGetGlobalSettings,
-    GetGlobalSettingsResponse (GetGlobalSettingsResponse'),
+    GetGlobalSettingsResponse,
     newGetGlobalSettingsResponse,
 
     -- ** GetPhoneNumber
-    GetPhoneNumber (GetPhoneNumber'),
+    GetPhoneNumber,
     newGetPhoneNumber,
-    GetPhoneNumberResponse (GetPhoneNumberResponse'),
+    GetPhoneNumberResponse,
     newGetPhoneNumberResponse,
 
     -- ** GetPhoneNumberOrder
-    GetPhoneNumberOrder (GetPhoneNumberOrder'),
+    GetPhoneNumberOrder,
     newGetPhoneNumberOrder,
-    GetPhoneNumberOrderResponse (GetPhoneNumberOrderResponse'),
+    GetPhoneNumberOrderResponse,
     newGetPhoneNumberOrderResponse,
 
     -- ** GetPhoneNumberSettings
-    GetPhoneNumberSettings (GetPhoneNumberSettings'),
+    GetPhoneNumberSettings,
     newGetPhoneNumberSettings,
-    GetPhoneNumberSettingsResponse (GetPhoneNumberSettingsResponse'),
+    GetPhoneNumberSettingsResponse,
     newGetPhoneNumberSettingsResponse,
 
     -- ** GetProxySession
-    GetProxySession (GetProxySession'),
+    GetProxySession,
     newGetProxySession,
-    GetProxySessionResponse (GetProxySessionResponse'),
+    GetProxySessionResponse,
     newGetProxySessionResponse,
 
     -- ** GetSipMediaApplication
-    GetSipMediaApplication (GetSipMediaApplication'),
+    GetSipMediaApplication,
     newGetSipMediaApplication,
-    GetSipMediaApplicationResponse (GetSipMediaApplicationResponse'),
+    GetSipMediaApplicationResponse,
     newGetSipMediaApplicationResponse,
 
     -- ** GetSipMediaApplicationAlexaSkillConfiguration
-    GetSipMediaApplicationAlexaSkillConfiguration (GetSipMediaApplicationAlexaSkillConfiguration'),
+    GetSipMediaApplicationAlexaSkillConfiguration,
     newGetSipMediaApplicationAlexaSkillConfiguration,
-    GetSipMediaApplicationAlexaSkillConfigurationResponse (GetSipMediaApplicationAlexaSkillConfigurationResponse'),
+    GetSipMediaApplicationAlexaSkillConfigurationResponse,
     newGetSipMediaApplicationAlexaSkillConfigurationResponse,
 
     -- ** GetSipMediaApplicationLoggingConfiguration
-    GetSipMediaApplicationLoggingConfiguration (GetSipMediaApplicationLoggingConfiguration'),
+    GetSipMediaApplicationLoggingConfiguration,
     newGetSipMediaApplicationLoggingConfiguration,
-    GetSipMediaApplicationLoggingConfigurationResponse (GetSipMediaApplicationLoggingConfigurationResponse'),
+    GetSipMediaApplicationLoggingConfigurationResponse,
     newGetSipMediaApplicationLoggingConfigurationResponse,
 
     -- ** GetSipRule
-    GetSipRule (GetSipRule'),
+    GetSipRule,
     newGetSipRule,
-    GetSipRuleResponse (GetSipRuleResponse'),
+    GetSipRuleResponse,
     newGetSipRuleResponse,
 
     -- ** GetVoiceConnector
-    GetVoiceConnector (GetVoiceConnector'),
+    GetVoiceConnector,
     newGetVoiceConnector,
-    GetVoiceConnectorResponse (GetVoiceConnectorResponse'),
+    GetVoiceConnectorResponse,
     newGetVoiceConnectorResponse,
 
     -- ** GetVoiceConnectorEmergencyCallingConfiguration
-    GetVoiceConnectorEmergencyCallingConfiguration (GetVoiceConnectorEmergencyCallingConfiguration'),
+    GetVoiceConnectorEmergencyCallingConfiguration,
     newGetVoiceConnectorEmergencyCallingConfiguration,
-    GetVoiceConnectorEmergencyCallingConfigurationResponse (GetVoiceConnectorEmergencyCallingConfigurationResponse'),
+    GetVoiceConnectorEmergencyCallingConfigurationResponse,
     newGetVoiceConnectorEmergencyCallingConfigurationResponse,
 
     -- ** GetVoiceConnectorGroup
-    GetVoiceConnectorGroup (GetVoiceConnectorGroup'),
+    GetVoiceConnectorGroup,
     newGetVoiceConnectorGroup,
-    GetVoiceConnectorGroupResponse (GetVoiceConnectorGroupResponse'),
+    GetVoiceConnectorGroupResponse,
     newGetVoiceConnectorGroupResponse,
 
     -- ** GetVoiceConnectorLoggingConfiguration
-    GetVoiceConnectorLoggingConfiguration (GetVoiceConnectorLoggingConfiguration'),
+    GetVoiceConnectorLoggingConfiguration,
     newGetVoiceConnectorLoggingConfiguration,
-    GetVoiceConnectorLoggingConfigurationResponse (GetVoiceConnectorLoggingConfigurationResponse'),
+    GetVoiceConnectorLoggingConfigurationResponse,
     newGetVoiceConnectorLoggingConfigurationResponse,
 
     -- ** GetVoiceConnectorOrigination
-    GetVoiceConnectorOrigination (GetVoiceConnectorOrigination'),
+    GetVoiceConnectorOrigination,
     newGetVoiceConnectorOrigination,
-    GetVoiceConnectorOriginationResponse (GetVoiceConnectorOriginationResponse'),
+    GetVoiceConnectorOriginationResponse,
     newGetVoiceConnectorOriginationResponse,
 
     -- ** GetVoiceConnectorProxy
-    GetVoiceConnectorProxy (GetVoiceConnectorProxy'),
+    GetVoiceConnectorProxy,
     newGetVoiceConnectorProxy,
-    GetVoiceConnectorProxyResponse (GetVoiceConnectorProxyResponse'),
+    GetVoiceConnectorProxyResponse,
     newGetVoiceConnectorProxyResponse,
 
     -- ** GetVoiceConnectorStreamingConfiguration
-    GetVoiceConnectorStreamingConfiguration (GetVoiceConnectorStreamingConfiguration'),
+    GetVoiceConnectorStreamingConfiguration,
     newGetVoiceConnectorStreamingConfiguration,
-    GetVoiceConnectorStreamingConfigurationResponse (GetVoiceConnectorStreamingConfigurationResponse'),
+    GetVoiceConnectorStreamingConfigurationResponse,
     newGetVoiceConnectorStreamingConfigurationResponse,
 
     -- ** GetVoiceConnectorTermination
-    GetVoiceConnectorTermination (GetVoiceConnectorTermination'),
+    GetVoiceConnectorTermination,
     newGetVoiceConnectorTermination,
-    GetVoiceConnectorTerminationResponse (GetVoiceConnectorTerminationResponse'),
+    GetVoiceConnectorTerminationResponse,
     newGetVoiceConnectorTerminationResponse,
 
     -- ** GetVoiceConnectorTerminationHealth
-    GetVoiceConnectorTerminationHealth (GetVoiceConnectorTerminationHealth'),
+    GetVoiceConnectorTerminationHealth,
     newGetVoiceConnectorTerminationHealth,
-    GetVoiceConnectorTerminationHealthResponse (GetVoiceConnectorTerminationHealthResponse'),
+    GetVoiceConnectorTerminationHealthResponse,
     newGetVoiceConnectorTerminationHealthResponse,
 
     -- ** ListAvailableVoiceConnectorRegions
-    ListAvailableVoiceConnectorRegions (ListAvailableVoiceConnectorRegions'),
+    ListAvailableVoiceConnectorRegions,
     newListAvailableVoiceConnectorRegions,
-    ListAvailableVoiceConnectorRegionsResponse (ListAvailableVoiceConnectorRegionsResponse'),
+    ListAvailableVoiceConnectorRegionsResponse,
     newListAvailableVoiceConnectorRegionsResponse,
 
     -- ** ListPhoneNumberOrders
-    ListPhoneNumberOrders (ListPhoneNumberOrders'),
+    ListPhoneNumberOrders,
     newListPhoneNumberOrders,
-    ListPhoneNumberOrdersResponse (ListPhoneNumberOrdersResponse'),
+    ListPhoneNumberOrdersResponse,
     newListPhoneNumberOrdersResponse,
 
     -- ** ListPhoneNumbers
-    ListPhoneNumbers (ListPhoneNumbers'),
+    ListPhoneNumbers,
     newListPhoneNumbers,
-    ListPhoneNumbersResponse (ListPhoneNumbersResponse'),
+    ListPhoneNumbersResponse,
     newListPhoneNumbersResponse,
 
     -- ** ListProxySessions
-    ListProxySessions (ListProxySessions'),
+    ListProxySessions,
     newListProxySessions,
-    ListProxySessionsResponse (ListProxySessionsResponse'),
+    ListProxySessionsResponse,
     newListProxySessionsResponse,
 
     -- ** ListSipMediaApplications (Paginated)
-    ListSipMediaApplications (ListSipMediaApplications'),
+    ListSipMediaApplications,
     newListSipMediaApplications,
-    ListSipMediaApplicationsResponse (ListSipMediaApplicationsResponse'),
+    ListSipMediaApplicationsResponse,
     newListSipMediaApplicationsResponse,
 
     -- ** ListSipRules (Paginated)
-    ListSipRules (ListSipRules'),
+    ListSipRules,
     newListSipRules,
-    ListSipRulesResponse (ListSipRulesResponse'),
+    ListSipRulesResponse,
     newListSipRulesResponse,
 
     -- ** ListSupportedPhoneNumberCountries
-    ListSupportedPhoneNumberCountries (ListSupportedPhoneNumberCountries'),
+    ListSupportedPhoneNumberCountries,
     newListSupportedPhoneNumberCountries,
-    ListSupportedPhoneNumberCountriesResponse (ListSupportedPhoneNumberCountriesResponse'),
+    ListSupportedPhoneNumberCountriesResponse,
     newListSupportedPhoneNumberCountriesResponse,
 
     -- ** ListVoiceConnectorGroups
-    ListVoiceConnectorGroups (ListVoiceConnectorGroups'),
+    ListVoiceConnectorGroups,
     newListVoiceConnectorGroups,
-    ListVoiceConnectorGroupsResponse (ListVoiceConnectorGroupsResponse'),
+    ListVoiceConnectorGroupsResponse,
     newListVoiceConnectorGroupsResponse,
 
     -- ** ListVoiceConnectorTerminationCredentials
-    ListVoiceConnectorTerminationCredentials (ListVoiceConnectorTerminationCredentials'),
+    ListVoiceConnectorTerminationCredentials,
     newListVoiceConnectorTerminationCredentials,
-    ListVoiceConnectorTerminationCredentialsResponse (ListVoiceConnectorTerminationCredentialsResponse'),
+    ListVoiceConnectorTerminationCredentialsResponse,
     newListVoiceConnectorTerminationCredentialsResponse,
 
     -- ** ListVoiceConnectors
-    ListVoiceConnectors (ListVoiceConnectors'),
+    ListVoiceConnectors,
     newListVoiceConnectors,
-    ListVoiceConnectorsResponse (ListVoiceConnectorsResponse'),
+    ListVoiceConnectorsResponse,
     newListVoiceConnectorsResponse,
 
     -- ** PutSipMediaApplicationAlexaSkillConfiguration
-    PutSipMediaApplicationAlexaSkillConfiguration (PutSipMediaApplicationAlexaSkillConfiguration'),
+    PutSipMediaApplicationAlexaSkillConfiguration,
     newPutSipMediaApplicationAlexaSkillConfiguration,
-    PutSipMediaApplicationAlexaSkillConfigurationResponse (PutSipMediaApplicationAlexaSkillConfigurationResponse'),
+    PutSipMediaApplicationAlexaSkillConfigurationResponse,
     newPutSipMediaApplicationAlexaSkillConfigurationResponse,
 
     -- ** PutSipMediaApplicationLoggingConfiguration
-    PutSipMediaApplicationLoggingConfiguration (PutSipMediaApplicationLoggingConfiguration'),
+    PutSipMediaApplicationLoggingConfiguration,
     newPutSipMediaApplicationLoggingConfiguration,
-    PutSipMediaApplicationLoggingConfigurationResponse (PutSipMediaApplicationLoggingConfigurationResponse'),
+    PutSipMediaApplicationLoggingConfigurationResponse,
     newPutSipMediaApplicationLoggingConfigurationResponse,
 
     -- ** PutVoiceConnectorEmergencyCallingConfiguration
-    PutVoiceConnectorEmergencyCallingConfiguration (PutVoiceConnectorEmergencyCallingConfiguration'),
+    PutVoiceConnectorEmergencyCallingConfiguration,
     newPutVoiceConnectorEmergencyCallingConfiguration,
-    PutVoiceConnectorEmergencyCallingConfigurationResponse (PutVoiceConnectorEmergencyCallingConfigurationResponse'),
+    PutVoiceConnectorEmergencyCallingConfigurationResponse,
     newPutVoiceConnectorEmergencyCallingConfigurationResponse,
 
     -- ** PutVoiceConnectorLoggingConfiguration
-    PutVoiceConnectorLoggingConfiguration (PutVoiceConnectorLoggingConfiguration'),
+    PutVoiceConnectorLoggingConfiguration,
     newPutVoiceConnectorLoggingConfiguration,
-    PutVoiceConnectorLoggingConfigurationResponse (PutVoiceConnectorLoggingConfigurationResponse'),
+    PutVoiceConnectorLoggingConfigurationResponse,
     newPutVoiceConnectorLoggingConfigurationResponse,
 
     -- ** PutVoiceConnectorOrigination
-    PutVoiceConnectorOrigination (PutVoiceConnectorOrigination'),
+    PutVoiceConnectorOrigination,
     newPutVoiceConnectorOrigination,
-    PutVoiceConnectorOriginationResponse (PutVoiceConnectorOriginationResponse'),
+    PutVoiceConnectorOriginationResponse,
     newPutVoiceConnectorOriginationResponse,
 
     -- ** PutVoiceConnectorProxy
-    PutVoiceConnectorProxy (PutVoiceConnectorProxy'),
+    PutVoiceConnectorProxy,
     newPutVoiceConnectorProxy,
-    PutVoiceConnectorProxyResponse (PutVoiceConnectorProxyResponse'),
+    PutVoiceConnectorProxyResponse,
     newPutVoiceConnectorProxyResponse,
 
     -- ** PutVoiceConnectorStreamingConfiguration
-    PutVoiceConnectorStreamingConfiguration (PutVoiceConnectorStreamingConfiguration'),
+    PutVoiceConnectorStreamingConfiguration,
     newPutVoiceConnectorStreamingConfiguration,
-    PutVoiceConnectorStreamingConfigurationResponse (PutVoiceConnectorStreamingConfigurationResponse'),
+    PutVoiceConnectorStreamingConfigurationResponse,
     newPutVoiceConnectorStreamingConfigurationResponse,
 
     -- ** PutVoiceConnectorTermination
-    PutVoiceConnectorTermination (PutVoiceConnectorTermination'),
+    PutVoiceConnectorTermination,
     newPutVoiceConnectorTermination,
-    PutVoiceConnectorTerminationResponse (PutVoiceConnectorTerminationResponse'),
+    PutVoiceConnectorTerminationResponse,
     newPutVoiceConnectorTerminationResponse,
 
     -- ** PutVoiceConnectorTerminationCredentials
-    PutVoiceConnectorTerminationCredentials (PutVoiceConnectorTerminationCredentials'),
+    PutVoiceConnectorTerminationCredentials,
     newPutVoiceConnectorTerminationCredentials,
-    PutVoiceConnectorTerminationCredentialsResponse (PutVoiceConnectorTerminationCredentialsResponse'),
+    PutVoiceConnectorTerminationCredentialsResponse,
     newPutVoiceConnectorTerminationCredentialsResponse,
 
     -- ** RestorePhoneNumber
-    RestorePhoneNumber (RestorePhoneNumber'),
+    RestorePhoneNumber,
     newRestorePhoneNumber,
-    RestorePhoneNumberResponse (RestorePhoneNumberResponse'),
+    RestorePhoneNumberResponse,
     newRestorePhoneNumberResponse,
 
     -- ** SearchAvailablePhoneNumbers
-    SearchAvailablePhoneNumbers (SearchAvailablePhoneNumbers'),
+    SearchAvailablePhoneNumbers,
     newSearchAvailablePhoneNumbers,
-    SearchAvailablePhoneNumbersResponse (SearchAvailablePhoneNumbersResponse'),
+    SearchAvailablePhoneNumbersResponse,
     newSearchAvailablePhoneNumbersResponse,
 
     -- ** UpdateGlobalSettings
-    UpdateGlobalSettings (UpdateGlobalSettings'),
+    UpdateGlobalSettings,
     newUpdateGlobalSettings,
-    UpdateGlobalSettingsResponse (UpdateGlobalSettingsResponse'),
+    UpdateGlobalSettingsResponse,
     newUpdateGlobalSettingsResponse,
 
     -- ** UpdatePhoneNumber
-    UpdatePhoneNumber (UpdatePhoneNumber'),
+    UpdatePhoneNumber,
     newUpdatePhoneNumber,
-    UpdatePhoneNumberResponse (UpdatePhoneNumberResponse'),
+    UpdatePhoneNumberResponse,
     newUpdatePhoneNumberResponse,
 
     -- ** UpdatePhoneNumberSettings
-    UpdatePhoneNumberSettings (UpdatePhoneNumberSettings'),
+    UpdatePhoneNumberSettings,
     newUpdatePhoneNumberSettings,
-    UpdatePhoneNumberSettingsResponse (UpdatePhoneNumberSettingsResponse'),
+    UpdatePhoneNumberSettingsResponse,
     newUpdatePhoneNumberSettingsResponse,
 
     -- ** UpdateProxySession
-    UpdateProxySession (UpdateProxySession'),
+    UpdateProxySession,
     newUpdateProxySession,
-    UpdateProxySessionResponse (UpdateProxySessionResponse'),
+    UpdateProxySessionResponse,
     newUpdateProxySessionResponse,
 
     -- ** UpdateSipMediaApplication
-    UpdateSipMediaApplication (UpdateSipMediaApplication'),
+    UpdateSipMediaApplication,
     newUpdateSipMediaApplication,
-    UpdateSipMediaApplicationResponse (UpdateSipMediaApplicationResponse'),
+    UpdateSipMediaApplicationResponse,
     newUpdateSipMediaApplicationResponse,
 
     -- ** UpdateSipMediaApplicationCall
-    UpdateSipMediaApplicationCall (UpdateSipMediaApplicationCall'),
+    UpdateSipMediaApplicationCall,
     newUpdateSipMediaApplicationCall,
-    UpdateSipMediaApplicationCallResponse (UpdateSipMediaApplicationCallResponse'),
+    UpdateSipMediaApplicationCallResponse,
     newUpdateSipMediaApplicationCallResponse,
 
     -- ** UpdateSipRule
-    UpdateSipRule (UpdateSipRule'),
+    UpdateSipRule,
     newUpdateSipRule,
-    UpdateSipRuleResponse (UpdateSipRuleResponse'),
+    UpdateSipRuleResponse,
     newUpdateSipRuleResponse,
 
     -- ** UpdateVoiceConnector
-    UpdateVoiceConnector (UpdateVoiceConnector'),
+    UpdateVoiceConnector,
     newUpdateVoiceConnector,
-    UpdateVoiceConnectorResponse (UpdateVoiceConnectorResponse'),
+    UpdateVoiceConnectorResponse,
     newUpdateVoiceConnectorResponse,
 
     -- ** UpdateVoiceConnectorGroup
-    UpdateVoiceConnectorGroup (UpdateVoiceConnectorGroup'),
+    UpdateVoiceConnectorGroup,
     newUpdateVoiceConnectorGroup,
-    UpdateVoiceConnectorGroupResponse (UpdateVoiceConnectorGroupResponse'),
+    UpdateVoiceConnectorGroupResponse,
     newUpdateVoiceConnectorGroupResponse,
 
     -- ** ValidateE911Address
-    ValidateE911Address (ValidateE911Address'),
+    ValidateE911Address,
     newValidateE911Address,
-    ValidateE911AddressResponse (ValidateE911AddressResponse'),
+    ValidateE911AddressResponse,
     newValidateE911AddressResponse,
 
     -- * Types
@@ -560,143 +560,143 @@ module Amazonka.ChimeSdkVoice
     VoiceConnectorAwsRegion (..),
 
     -- ** Address
-    Address (Address'),
+    Address,
     newAddress,
 
     -- ** CandidateAddress
-    CandidateAddress (CandidateAddress'),
+    CandidateAddress,
     newCandidateAddress,
 
     -- ** Credential
-    Credential (Credential'),
+    Credential,
     newCredential,
 
     -- ** DNISEmergencyCallingConfiguration
-    DNISEmergencyCallingConfiguration (DNISEmergencyCallingConfiguration'),
+    DNISEmergencyCallingConfiguration,
     newDNISEmergencyCallingConfiguration,
 
     -- ** EmergencyCallingConfiguration
-    EmergencyCallingConfiguration (EmergencyCallingConfiguration'),
+    EmergencyCallingConfiguration,
     newEmergencyCallingConfiguration,
 
     -- ** GeoMatchParams
-    GeoMatchParams (GeoMatchParams'),
+    GeoMatchParams,
     newGeoMatchParams,
 
     -- ** LoggingConfiguration
-    LoggingConfiguration (LoggingConfiguration'),
+    LoggingConfiguration,
     newLoggingConfiguration,
 
     -- ** OrderedPhoneNumber
-    OrderedPhoneNumber (OrderedPhoneNumber'),
+    OrderedPhoneNumber,
     newOrderedPhoneNumber,
 
     -- ** Origination
-    Origination (Origination'),
+    Origination,
     newOrigination,
 
     -- ** OriginationRoute
-    OriginationRoute (OriginationRoute'),
+    OriginationRoute,
     newOriginationRoute,
 
     -- ** Participant
-    Participant (Participant'),
+    Participant,
     newParticipant,
 
     -- ** PhoneNumber
-    PhoneNumber (PhoneNumber'),
+    PhoneNumber,
     newPhoneNumber,
 
     -- ** PhoneNumberAssociation
-    PhoneNumberAssociation (PhoneNumberAssociation'),
+    PhoneNumberAssociation,
     newPhoneNumberAssociation,
 
     -- ** PhoneNumberCapabilities
-    PhoneNumberCapabilities (PhoneNumberCapabilities'),
+    PhoneNumberCapabilities,
     newPhoneNumberCapabilities,
 
     -- ** PhoneNumberCountry
-    PhoneNumberCountry (PhoneNumberCountry'),
+    PhoneNumberCountry,
     newPhoneNumberCountry,
 
     -- ** PhoneNumberError
-    PhoneNumberError (PhoneNumberError'),
+    PhoneNumberError,
     newPhoneNumberError,
 
     -- ** PhoneNumberOrder
-    PhoneNumberOrder (PhoneNumberOrder'),
+    PhoneNumberOrder,
     newPhoneNumberOrder,
 
     -- ** Proxy
-    Proxy (Proxy'),
+    Proxy,
     newProxy,
 
     -- ** ProxySession
-    ProxySession (ProxySession'),
+    ProxySession,
     newProxySession,
 
     -- ** SipMediaApplication
-    SipMediaApplication (SipMediaApplication'),
+    SipMediaApplication,
     newSipMediaApplication,
 
     -- ** SipMediaApplicationAlexaSkillConfiguration
-    SipMediaApplicationAlexaSkillConfiguration (SipMediaApplicationAlexaSkillConfiguration'),
+    SipMediaApplicationAlexaSkillConfiguration,
     newSipMediaApplicationAlexaSkillConfiguration,
 
     -- ** SipMediaApplicationCall
-    SipMediaApplicationCall (SipMediaApplicationCall'),
+    SipMediaApplicationCall,
     newSipMediaApplicationCall,
 
     -- ** SipMediaApplicationEndpoint
-    SipMediaApplicationEndpoint (SipMediaApplicationEndpoint'),
+    SipMediaApplicationEndpoint,
     newSipMediaApplicationEndpoint,
 
     -- ** SipMediaApplicationLoggingConfiguration
-    SipMediaApplicationLoggingConfiguration (SipMediaApplicationLoggingConfiguration'),
+    SipMediaApplicationLoggingConfiguration,
     newSipMediaApplicationLoggingConfiguration,
 
     -- ** SipRule
-    SipRule (SipRule'),
+    SipRule,
     newSipRule,
 
     -- ** SipRuleTargetApplication
-    SipRuleTargetApplication (SipRuleTargetApplication'),
+    SipRuleTargetApplication,
     newSipRuleTargetApplication,
 
     -- ** StreamingConfiguration
-    StreamingConfiguration (StreamingConfiguration'),
+    StreamingConfiguration,
     newStreamingConfiguration,
 
     -- ** StreamingNotificationTarget
-    StreamingNotificationTarget (StreamingNotificationTarget'),
+    StreamingNotificationTarget,
     newStreamingNotificationTarget,
 
     -- ** Termination
-    Termination (Termination'),
+    Termination,
     newTermination,
 
     -- ** TerminationHealth
-    TerminationHealth (TerminationHealth'),
+    TerminationHealth,
     newTerminationHealth,
 
     -- ** UpdatePhoneNumberRequestItem
-    UpdatePhoneNumberRequestItem (UpdatePhoneNumberRequestItem'),
+    UpdatePhoneNumberRequestItem,
     newUpdatePhoneNumberRequestItem,
 
     -- ** VoiceConnector
-    VoiceConnector (VoiceConnector'),
+    VoiceConnector,
     newVoiceConnector,
 
     -- ** VoiceConnectorGroup
-    VoiceConnectorGroup (VoiceConnectorGroup'),
+    VoiceConnectorGroup,
     newVoiceConnectorGroup,
 
     -- ** VoiceConnectorItem
-    VoiceConnectorItem (VoiceConnectorItem'),
+    VoiceConnectorItem,
     newVoiceConnectorItem,
 
     -- ** VoiceConnectorSettings
-    VoiceConnectorSettings (VoiceConnectorSettings'),
+    VoiceConnectorSettings,
     newVoiceConnectorSettings,
   )
 where

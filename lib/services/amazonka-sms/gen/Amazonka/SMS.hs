@@ -78,213 +78,213 @@ module Amazonka.SMS
     -- $operations
 
     -- ** CreateApp
-    CreateApp (CreateApp'),
+    CreateApp,
     newCreateApp,
-    CreateAppResponse (CreateAppResponse'),
+    CreateAppResponse,
     newCreateAppResponse,
 
     -- ** CreateReplicationJob
-    CreateReplicationJob (CreateReplicationJob'),
+    CreateReplicationJob,
     newCreateReplicationJob,
-    CreateReplicationJobResponse (CreateReplicationJobResponse'),
+    CreateReplicationJobResponse,
     newCreateReplicationJobResponse,
 
     -- ** DeleteApp
-    DeleteApp (DeleteApp'),
+    DeleteApp,
     newDeleteApp,
-    DeleteAppResponse (DeleteAppResponse'),
+    DeleteAppResponse,
     newDeleteAppResponse,
 
     -- ** DeleteAppLaunchConfiguration
-    DeleteAppLaunchConfiguration (DeleteAppLaunchConfiguration'),
+    DeleteAppLaunchConfiguration,
     newDeleteAppLaunchConfiguration,
-    DeleteAppLaunchConfigurationResponse (DeleteAppLaunchConfigurationResponse'),
+    DeleteAppLaunchConfigurationResponse,
     newDeleteAppLaunchConfigurationResponse,
 
     -- ** DeleteAppReplicationConfiguration
-    DeleteAppReplicationConfiguration (DeleteAppReplicationConfiguration'),
+    DeleteAppReplicationConfiguration,
     newDeleteAppReplicationConfiguration,
-    DeleteAppReplicationConfigurationResponse (DeleteAppReplicationConfigurationResponse'),
+    DeleteAppReplicationConfigurationResponse,
     newDeleteAppReplicationConfigurationResponse,
 
     -- ** DeleteAppValidationConfiguration
-    DeleteAppValidationConfiguration (DeleteAppValidationConfiguration'),
+    DeleteAppValidationConfiguration,
     newDeleteAppValidationConfiguration,
-    DeleteAppValidationConfigurationResponse (DeleteAppValidationConfigurationResponse'),
+    DeleteAppValidationConfigurationResponse,
     newDeleteAppValidationConfigurationResponse,
 
     -- ** DeleteReplicationJob
-    DeleteReplicationJob (DeleteReplicationJob'),
+    DeleteReplicationJob,
     newDeleteReplicationJob,
-    DeleteReplicationJobResponse (DeleteReplicationJobResponse'),
+    DeleteReplicationJobResponse,
     newDeleteReplicationJobResponse,
 
     -- ** DeleteServerCatalog
-    DeleteServerCatalog (DeleteServerCatalog'),
+    DeleteServerCatalog,
     newDeleteServerCatalog,
-    DeleteServerCatalogResponse (DeleteServerCatalogResponse'),
+    DeleteServerCatalogResponse,
     newDeleteServerCatalogResponse,
 
     -- ** DisassociateConnector
-    DisassociateConnector (DisassociateConnector'),
+    DisassociateConnector,
     newDisassociateConnector,
-    DisassociateConnectorResponse (DisassociateConnectorResponse'),
+    DisassociateConnectorResponse,
     newDisassociateConnectorResponse,
 
     -- ** GenerateChangeSet
-    GenerateChangeSet (GenerateChangeSet'),
+    GenerateChangeSet,
     newGenerateChangeSet,
-    GenerateChangeSetResponse (GenerateChangeSetResponse'),
+    GenerateChangeSetResponse,
     newGenerateChangeSetResponse,
 
     -- ** GenerateTemplate
-    GenerateTemplate (GenerateTemplate'),
+    GenerateTemplate,
     newGenerateTemplate,
-    GenerateTemplateResponse (GenerateTemplateResponse'),
+    GenerateTemplateResponse,
     newGenerateTemplateResponse,
 
     -- ** GetApp
-    GetApp (GetApp'),
+    GetApp,
     newGetApp,
-    GetAppResponse (GetAppResponse'),
+    GetAppResponse,
     newGetAppResponse,
 
     -- ** GetAppLaunchConfiguration
-    GetAppLaunchConfiguration (GetAppLaunchConfiguration'),
+    GetAppLaunchConfiguration,
     newGetAppLaunchConfiguration,
-    GetAppLaunchConfigurationResponse (GetAppLaunchConfigurationResponse'),
+    GetAppLaunchConfigurationResponse,
     newGetAppLaunchConfigurationResponse,
 
     -- ** GetAppReplicationConfiguration
-    GetAppReplicationConfiguration (GetAppReplicationConfiguration'),
+    GetAppReplicationConfiguration,
     newGetAppReplicationConfiguration,
-    GetAppReplicationConfigurationResponse (GetAppReplicationConfigurationResponse'),
+    GetAppReplicationConfigurationResponse,
     newGetAppReplicationConfigurationResponse,
 
     -- ** GetAppValidationConfiguration
-    GetAppValidationConfiguration (GetAppValidationConfiguration'),
+    GetAppValidationConfiguration,
     newGetAppValidationConfiguration,
-    GetAppValidationConfigurationResponse (GetAppValidationConfigurationResponse'),
+    GetAppValidationConfigurationResponse,
     newGetAppValidationConfigurationResponse,
 
     -- ** GetAppValidationOutput
-    GetAppValidationOutput (GetAppValidationOutput'),
+    GetAppValidationOutput,
     newGetAppValidationOutput,
-    GetAppValidationOutputResponse (GetAppValidationOutputResponse'),
+    GetAppValidationOutputResponse,
     newGetAppValidationOutputResponse,
 
     -- ** GetConnectors (Paginated)
-    GetConnectors (GetConnectors'),
+    GetConnectors,
     newGetConnectors,
-    GetConnectorsResponse (GetConnectorsResponse'),
+    GetConnectorsResponse,
     newGetConnectorsResponse,
 
     -- ** GetReplicationJobs (Paginated)
-    GetReplicationJobs (GetReplicationJobs'),
+    GetReplicationJobs,
     newGetReplicationJobs,
-    GetReplicationJobsResponse (GetReplicationJobsResponse'),
+    GetReplicationJobsResponse,
     newGetReplicationJobsResponse,
 
     -- ** GetReplicationRuns (Paginated)
-    GetReplicationRuns (GetReplicationRuns'),
+    GetReplicationRuns,
     newGetReplicationRuns,
-    GetReplicationRunsResponse (GetReplicationRunsResponse'),
+    GetReplicationRunsResponse,
     newGetReplicationRunsResponse,
 
     -- ** GetServers (Paginated)
-    GetServers (GetServers'),
+    GetServers,
     newGetServers,
-    GetServersResponse (GetServersResponse'),
+    GetServersResponse,
     newGetServersResponse,
 
     -- ** ImportAppCatalog
-    ImportAppCatalog (ImportAppCatalog'),
+    ImportAppCatalog,
     newImportAppCatalog,
-    ImportAppCatalogResponse (ImportAppCatalogResponse'),
+    ImportAppCatalogResponse,
     newImportAppCatalogResponse,
 
     -- ** ImportServerCatalog
-    ImportServerCatalog (ImportServerCatalog'),
+    ImportServerCatalog,
     newImportServerCatalog,
-    ImportServerCatalogResponse (ImportServerCatalogResponse'),
+    ImportServerCatalogResponse,
     newImportServerCatalogResponse,
 
     -- ** LaunchApp
-    LaunchApp (LaunchApp'),
+    LaunchApp,
     newLaunchApp,
-    LaunchAppResponse (LaunchAppResponse'),
+    LaunchAppResponse,
     newLaunchAppResponse,
 
     -- ** ListApps (Paginated)
-    ListApps (ListApps'),
+    ListApps,
     newListApps,
-    ListAppsResponse (ListAppsResponse'),
+    ListAppsResponse,
     newListAppsResponse,
 
     -- ** NotifyAppValidationOutput
-    NotifyAppValidationOutput (NotifyAppValidationOutput'),
+    NotifyAppValidationOutput,
     newNotifyAppValidationOutput,
-    NotifyAppValidationOutputResponse (NotifyAppValidationOutputResponse'),
+    NotifyAppValidationOutputResponse,
     newNotifyAppValidationOutputResponse,
 
     -- ** PutAppLaunchConfiguration
-    PutAppLaunchConfiguration (PutAppLaunchConfiguration'),
+    PutAppLaunchConfiguration,
     newPutAppLaunchConfiguration,
-    PutAppLaunchConfigurationResponse (PutAppLaunchConfigurationResponse'),
+    PutAppLaunchConfigurationResponse,
     newPutAppLaunchConfigurationResponse,
 
     -- ** PutAppReplicationConfiguration
-    PutAppReplicationConfiguration (PutAppReplicationConfiguration'),
+    PutAppReplicationConfiguration,
     newPutAppReplicationConfiguration,
-    PutAppReplicationConfigurationResponse (PutAppReplicationConfigurationResponse'),
+    PutAppReplicationConfigurationResponse,
     newPutAppReplicationConfigurationResponse,
 
     -- ** PutAppValidationConfiguration
-    PutAppValidationConfiguration (PutAppValidationConfiguration'),
+    PutAppValidationConfiguration,
     newPutAppValidationConfiguration,
-    PutAppValidationConfigurationResponse (PutAppValidationConfigurationResponse'),
+    PutAppValidationConfigurationResponse,
     newPutAppValidationConfigurationResponse,
 
     -- ** StartAppReplication
-    StartAppReplication (StartAppReplication'),
+    StartAppReplication,
     newStartAppReplication,
-    StartAppReplicationResponse (StartAppReplicationResponse'),
+    StartAppReplicationResponse,
     newStartAppReplicationResponse,
 
     -- ** StartOnDemandAppReplication
-    StartOnDemandAppReplication (StartOnDemandAppReplication'),
+    StartOnDemandAppReplication,
     newStartOnDemandAppReplication,
-    StartOnDemandAppReplicationResponse (StartOnDemandAppReplicationResponse'),
+    StartOnDemandAppReplicationResponse,
     newStartOnDemandAppReplicationResponse,
 
     -- ** StartOnDemandReplicationRun
-    StartOnDemandReplicationRun (StartOnDemandReplicationRun'),
+    StartOnDemandReplicationRun,
     newStartOnDemandReplicationRun,
-    StartOnDemandReplicationRunResponse (StartOnDemandReplicationRunResponse'),
+    StartOnDemandReplicationRunResponse,
     newStartOnDemandReplicationRunResponse,
 
     -- ** StopAppReplication
-    StopAppReplication (StopAppReplication'),
+    StopAppReplication,
     newStopAppReplication,
-    StopAppReplicationResponse (StopAppReplicationResponse'),
+    StopAppReplicationResponse,
     newStopAppReplicationResponse,
 
     -- ** TerminateApp
-    TerminateApp (TerminateApp'),
+    TerminateApp,
     newTerminateApp,
-    TerminateAppResponse (TerminateAppResponse'),
+    TerminateAppResponse,
     newTerminateAppResponse,
 
     -- ** UpdateApp
-    UpdateApp (UpdateApp'),
+    UpdateApp,
     newUpdateApp,
-    UpdateAppResponse (UpdateAppResponse'),
+    UpdateAppResponse,
     newUpdateAppResponse,
 
     -- ** UpdateReplicationJob
-    UpdateReplicationJob (UpdateReplicationJob'),
+    UpdateReplicationJob,
     newUpdateReplicationJob,
-    UpdateReplicationJobResponse (UpdateReplicationJobResponse'),
+    UpdateReplicationJobResponse,
     newUpdateReplicationJobResponse,
 
     -- * Types
@@ -347,119 +347,119 @@ module Amazonka.SMS
     VmManagerType (..),
 
     -- ** AppSummary
-    AppSummary (AppSummary'),
+    AppSummary,
     newAppSummary,
 
     -- ** AppValidationConfiguration
-    AppValidationConfiguration (AppValidationConfiguration'),
+    AppValidationConfiguration,
     newAppValidationConfiguration,
 
     -- ** AppValidationOutput
-    AppValidationOutput (AppValidationOutput'),
+    AppValidationOutput,
     newAppValidationOutput,
 
     -- ** Connector
-    Connector (Connector'),
+    Connector,
     newConnector,
 
     -- ** LaunchDetails
-    LaunchDetails (LaunchDetails'),
+    LaunchDetails,
     newLaunchDetails,
 
     -- ** NotificationContext
-    NotificationContext (NotificationContext'),
+    NotificationContext,
     newNotificationContext,
 
     -- ** ReplicationJob
-    ReplicationJob (ReplicationJob'),
+    ReplicationJob,
     newReplicationJob,
 
     -- ** ReplicationRun
-    ReplicationRun (ReplicationRun'),
+    ReplicationRun,
     newReplicationRun,
 
     -- ** ReplicationRunStageDetails
-    ReplicationRunStageDetails (ReplicationRunStageDetails'),
+    ReplicationRunStageDetails,
     newReplicationRunStageDetails,
 
     -- ** S3Location
-    S3Location (S3Location'),
+    S3Location,
     newS3Location,
 
     -- ** SSMOutput
-    SSMOutput (SSMOutput'),
+    SSMOutput,
     newSSMOutput,
 
     -- ** SSMValidationParameters
-    SSMValidationParameters (SSMValidationParameters'),
+    SSMValidationParameters,
     newSSMValidationParameters,
 
     -- ** Server
-    Server (Server'),
+    Server,
     newServer,
 
     -- ** ServerGroup
-    ServerGroup (ServerGroup'),
+    ServerGroup,
     newServerGroup,
 
     -- ** ServerGroupLaunchConfiguration
-    ServerGroupLaunchConfiguration (ServerGroupLaunchConfiguration'),
+    ServerGroupLaunchConfiguration,
     newServerGroupLaunchConfiguration,
 
     -- ** ServerGroupReplicationConfiguration
-    ServerGroupReplicationConfiguration (ServerGroupReplicationConfiguration'),
+    ServerGroupReplicationConfiguration,
     newServerGroupReplicationConfiguration,
 
     -- ** ServerGroupValidationConfiguration
-    ServerGroupValidationConfiguration (ServerGroupValidationConfiguration'),
+    ServerGroupValidationConfiguration,
     newServerGroupValidationConfiguration,
 
     -- ** ServerLaunchConfiguration
-    ServerLaunchConfiguration (ServerLaunchConfiguration'),
+    ServerLaunchConfiguration,
     newServerLaunchConfiguration,
 
     -- ** ServerReplicationConfiguration
-    ServerReplicationConfiguration (ServerReplicationConfiguration'),
+    ServerReplicationConfiguration,
     newServerReplicationConfiguration,
 
     -- ** ServerReplicationParameters
-    ServerReplicationParameters (ServerReplicationParameters'),
+    ServerReplicationParameters,
     newServerReplicationParameters,
 
     -- ** ServerValidationConfiguration
-    ServerValidationConfiguration (ServerValidationConfiguration'),
+    ServerValidationConfiguration,
     newServerValidationConfiguration,
 
     -- ** ServerValidationOutput
-    ServerValidationOutput (ServerValidationOutput'),
+    ServerValidationOutput,
     newServerValidationOutput,
 
     -- ** Source
-    Source (Source'),
+    Source,
     newSource,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
 
     -- ** UserData
-    UserData (UserData'),
+    UserData,
     newUserData,
 
     -- ** UserDataValidationParameters
-    UserDataValidationParameters (UserDataValidationParameters'),
+    UserDataValidationParameters,
     newUserDataValidationParameters,
 
     -- ** ValidationOutput
-    ValidationOutput (ValidationOutput'),
+    ValidationOutput,
     newValidationOutput,
 
     -- ** VmServer
-    VmServer (VmServer'),
+    VmServer,
     newVmServer,
 
     -- ** VmServerAddress
-    VmServerAddress (VmServerAddress'),
+    VmServerAddress,
     newVmServerAddress,
   )
 where

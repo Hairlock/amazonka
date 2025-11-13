@@ -78,33 +78,33 @@ module Amazonka.SageMakerA2IRuntime
     -- $operations
 
     -- ** DeleteHumanLoop
-    DeleteHumanLoop (DeleteHumanLoop'),
+    DeleteHumanLoop,
     newDeleteHumanLoop,
-    DeleteHumanLoopResponse (DeleteHumanLoopResponse'),
+    DeleteHumanLoopResponse,
     newDeleteHumanLoopResponse,
 
     -- ** DescribeHumanLoop
-    DescribeHumanLoop (DescribeHumanLoop'),
+    DescribeHumanLoop,
     newDescribeHumanLoop,
-    DescribeHumanLoopResponse (DescribeHumanLoopResponse'),
+    DescribeHumanLoopResponse,
     newDescribeHumanLoopResponse,
 
     -- ** ListHumanLoops (Paginated)
-    ListHumanLoops (ListHumanLoops'),
+    ListHumanLoops,
     newListHumanLoops,
-    ListHumanLoopsResponse (ListHumanLoopsResponse'),
+    ListHumanLoopsResponse,
     newListHumanLoopsResponse,
 
     -- ** StartHumanLoop
-    StartHumanLoop (StartHumanLoop'),
+    StartHumanLoop,
     newStartHumanLoop,
-    StartHumanLoopResponse (StartHumanLoopResponse'),
+    StartHumanLoopResponse,
     newStartHumanLoopResponse,
 
     -- ** StopHumanLoop
-    StopHumanLoop (StopHumanLoop'),
+    StopHumanLoop,
     newStopHumanLoop,
-    StopHumanLoopResponse (StopHumanLoopResponse'),
+    StopHumanLoopResponse,
     newStopHumanLoopResponse,
 
     -- * Types
@@ -119,19 +119,19 @@ module Amazonka.SageMakerA2IRuntime
     SortOrder (..),
 
     -- ** HumanLoopDataAttributes
-    HumanLoopDataAttributes (HumanLoopDataAttributes'),
+    HumanLoopDataAttributes,
     newHumanLoopDataAttributes,
 
     -- ** HumanLoopInput
-    HumanLoopInput (HumanLoopInput'),
+    HumanLoopInput,
     newHumanLoopInput,
 
     -- ** HumanLoopOutput
-    HumanLoopOutput (HumanLoopOutput'),
+    HumanLoopOutput,
     newHumanLoopOutput,
 
     -- ** HumanLoopSummary
-    HumanLoopSummary (HumanLoopSummary'),
+    HumanLoopSummary,
     newHumanLoopSummary,
   )
 where

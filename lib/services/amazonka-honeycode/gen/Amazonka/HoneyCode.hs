@@ -59,93 +59,93 @@ module Amazonka.HoneyCode
     -- $operations
 
     -- ** BatchCreateTableRows
-    BatchCreateTableRows (BatchCreateTableRows'),
+    BatchCreateTableRows,
     newBatchCreateTableRows,
-    BatchCreateTableRowsResponse (BatchCreateTableRowsResponse'),
+    BatchCreateTableRowsResponse,
     newBatchCreateTableRowsResponse,
 
     -- ** BatchDeleteTableRows
-    BatchDeleteTableRows (BatchDeleteTableRows'),
+    BatchDeleteTableRows,
     newBatchDeleteTableRows,
-    BatchDeleteTableRowsResponse (BatchDeleteTableRowsResponse'),
+    BatchDeleteTableRowsResponse,
     newBatchDeleteTableRowsResponse,
 
     -- ** BatchUpdateTableRows
-    BatchUpdateTableRows (BatchUpdateTableRows'),
+    BatchUpdateTableRows,
     newBatchUpdateTableRows,
-    BatchUpdateTableRowsResponse (BatchUpdateTableRowsResponse'),
+    BatchUpdateTableRowsResponse,
     newBatchUpdateTableRowsResponse,
 
     -- ** BatchUpsertTableRows
-    BatchUpsertTableRows (BatchUpsertTableRows'),
+    BatchUpsertTableRows,
     newBatchUpsertTableRows,
-    BatchUpsertTableRowsResponse (BatchUpsertTableRowsResponse'),
+    BatchUpsertTableRowsResponse,
     newBatchUpsertTableRowsResponse,
 
     -- ** DescribeTableDataImportJob
-    DescribeTableDataImportJob (DescribeTableDataImportJob'),
+    DescribeTableDataImportJob,
     newDescribeTableDataImportJob,
-    DescribeTableDataImportJobResponse (DescribeTableDataImportJobResponse'),
+    DescribeTableDataImportJobResponse,
     newDescribeTableDataImportJobResponse,
 
     -- ** GetScreenData
-    GetScreenData (GetScreenData'),
+    GetScreenData,
     newGetScreenData,
-    GetScreenDataResponse (GetScreenDataResponse'),
+    GetScreenDataResponse,
     newGetScreenDataResponse,
 
     -- ** InvokeScreenAutomation
-    InvokeScreenAutomation (InvokeScreenAutomation'),
+    InvokeScreenAutomation,
     newInvokeScreenAutomation,
-    InvokeScreenAutomationResponse (InvokeScreenAutomationResponse'),
+    InvokeScreenAutomationResponse,
     newInvokeScreenAutomationResponse,
 
     -- ** ListTableColumns (Paginated)
-    ListTableColumns (ListTableColumns'),
+    ListTableColumns,
     newListTableColumns,
-    ListTableColumnsResponse (ListTableColumnsResponse'),
+    ListTableColumnsResponse,
     newListTableColumnsResponse,
 
     -- ** ListTableRows (Paginated)
-    ListTableRows (ListTableRows'),
+    ListTableRows,
     newListTableRows,
-    ListTableRowsResponse (ListTableRowsResponse'),
+    ListTableRowsResponse,
     newListTableRowsResponse,
 
     -- ** ListTables (Paginated)
-    ListTables (ListTables'),
+    ListTables,
     newListTables,
-    ListTablesResponse (ListTablesResponse'),
+    ListTablesResponse,
     newListTablesResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** QueryTableRows (Paginated)
-    QueryTableRows (QueryTableRows'),
+    QueryTableRows,
     newQueryTableRows,
-    QueryTableRowsResponse (QueryTableRowsResponse'),
+    QueryTableRowsResponse,
     newQueryTableRowsResponse,
 
     -- ** StartTableDataImportJob
-    StartTableDataImportJob (StartTableDataImportJob'),
+    StartTableDataImportJob,
     newStartTableDataImportJob,
-    StartTableDataImportJobResponse (StartTableDataImportJobResponse'),
+    StartTableDataImportJobResponse,
     newStartTableDataImportJobResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- * Types
@@ -169,99 +169,99 @@ module Amazonka.HoneyCode
     UpsertAction (..),
 
     -- ** Cell
-    Cell (Cell'),
+    Cell,
     newCell,
 
     -- ** CellInput
-    CellInput (CellInput'),
+    CellInput,
     newCellInput,
 
     -- ** ColumnMetadata
-    ColumnMetadata (ColumnMetadata'),
+    ColumnMetadata,
     newColumnMetadata,
 
     -- ** CreateRowData
-    CreateRowData (CreateRowData'),
+    CreateRowData,
     newCreateRowData,
 
     -- ** DataItem
-    DataItem (DataItem'),
+    DataItem,
     newDataItem,
 
     -- ** DelimitedTextImportOptions
-    DelimitedTextImportOptions (DelimitedTextImportOptions'),
+    DelimitedTextImportOptions,
     newDelimitedTextImportOptions,
 
     -- ** DestinationOptions
-    DestinationOptions (DestinationOptions'),
+    DestinationOptions,
     newDestinationOptions,
 
     -- ** FailedBatchItem
-    FailedBatchItem (FailedBatchItem'),
+    FailedBatchItem,
     newFailedBatchItem,
 
     -- ** Filter
-    Filter (Filter'),
+    Filter,
     newFilter,
 
     -- ** ImportDataSource
-    ImportDataSource (ImportDataSource'),
+    ImportDataSource,
     newImportDataSource,
 
     -- ** ImportDataSourceConfig
-    ImportDataSourceConfig (ImportDataSourceConfig'),
+    ImportDataSourceConfig,
     newImportDataSourceConfig,
 
     -- ** ImportJobSubmitter
-    ImportJobSubmitter (ImportJobSubmitter'),
+    ImportJobSubmitter,
     newImportJobSubmitter,
 
     -- ** ImportOptions
-    ImportOptions (ImportOptions'),
+    ImportOptions,
     newImportOptions,
 
     -- ** ResultRow
-    ResultRow (ResultRow'),
+    ResultRow,
     newResultRow,
 
     -- ** ResultSet
-    ResultSet (ResultSet'),
+    ResultSet,
     newResultSet,
 
     -- ** SourceDataColumnProperties
-    SourceDataColumnProperties (SourceDataColumnProperties'),
+    SourceDataColumnProperties,
     newSourceDataColumnProperties,
 
     -- ** Table
-    Table (Table'),
+    Table,
     newTable,
 
     -- ** TableColumn
-    TableColumn (TableColumn'),
+    TableColumn,
     newTableColumn,
 
     -- ** TableDataImportJobMetadata
-    TableDataImportJobMetadata (TableDataImportJobMetadata'),
+    TableDataImportJobMetadata,
     newTableDataImportJobMetadata,
 
     -- ** TableRow
-    TableRow (TableRow'),
+    TableRow,
     newTableRow,
 
     -- ** UpdateRowData
-    UpdateRowData (UpdateRowData'),
+    UpdateRowData,
     newUpdateRowData,
 
     -- ** UpsertRowData
-    UpsertRowData (UpsertRowData'),
+    UpsertRowData,
     newUpsertRowData,
 
     -- ** UpsertRowsResult
-    UpsertRowsResult (UpsertRowsResult'),
+    UpsertRowsResult,
     newUpsertRowsResult,
 
     -- ** VariableValue
-    VariableValue (VariableValue'),
+    VariableValue,
     newVariableValue,
   )
 where

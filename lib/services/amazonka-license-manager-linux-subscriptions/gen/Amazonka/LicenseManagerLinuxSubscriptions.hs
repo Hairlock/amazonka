@@ -36,27 +36,27 @@ module Amazonka.LicenseManagerLinuxSubscriptions
     -- $operations
 
     -- ** GetServiceSettings
-    GetServiceSettings (GetServiceSettings'),
+    GetServiceSettings,
     newGetServiceSettings,
-    GetServiceSettingsResponse (GetServiceSettingsResponse'),
+    GetServiceSettingsResponse,
     newGetServiceSettingsResponse,
 
     -- ** ListLinuxSubscriptionInstances (Paginated)
-    ListLinuxSubscriptionInstances (ListLinuxSubscriptionInstances'),
+    ListLinuxSubscriptionInstances,
     newListLinuxSubscriptionInstances,
-    ListLinuxSubscriptionInstancesResponse (ListLinuxSubscriptionInstancesResponse'),
+    ListLinuxSubscriptionInstancesResponse,
     newListLinuxSubscriptionInstancesResponse,
 
     -- ** ListLinuxSubscriptions (Paginated)
-    ListLinuxSubscriptions (ListLinuxSubscriptions'),
+    ListLinuxSubscriptions,
     newListLinuxSubscriptions,
-    ListLinuxSubscriptionsResponse (ListLinuxSubscriptionsResponse'),
+    ListLinuxSubscriptionsResponse,
     newListLinuxSubscriptionsResponse,
 
     -- ** UpdateServiceSettings
-    UpdateServiceSettings (UpdateServiceSettings'),
+    UpdateServiceSettings,
     newUpdateServiceSettings,
-    UpdateServiceSettingsResponse (UpdateServiceSettingsResponse'),
+    UpdateServiceSettingsResponse,
     newUpdateServiceSettingsResponse,
 
     -- * Types
@@ -74,19 +74,19 @@ module Amazonka.LicenseManagerLinuxSubscriptions
     Status (..),
 
     -- ** Filter
-    Filter (Filter'),
+    Filter,
     newFilter,
 
     -- ** Instance
-    Instance (Instance'),
+    Instance,
     newInstance,
 
     -- ** LinuxSubscriptionsDiscoverySettings
-    LinuxSubscriptionsDiscoverySettings (LinuxSubscriptionsDiscoverySettings'),
+    LinuxSubscriptionsDiscoverySettings,
     newLinuxSubscriptionsDiscoverySettings,
 
     -- ** Subscription
-    Subscription (Subscription'),
+    Subscription,
     newSubscription,
   )
 where

@@ -103,75 +103,75 @@ module Amazonka.CodeStarConnections
     -- $operations
 
     -- ** CreateConnection
-    CreateConnection (CreateConnection'),
+    CreateConnection,
     newCreateConnection,
-    CreateConnectionResponse (CreateConnectionResponse'),
+    CreateConnectionResponse,
     newCreateConnectionResponse,
 
     -- ** CreateHost
-    CreateHost (CreateHost'),
+    CreateHost,
     newCreateHost,
-    CreateHostResponse (CreateHostResponse'),
+    CreateHostResponse,
     newCreateHostResponse,
 
     -- ** DeleteConnection
-    DeleteConnection (DeleteConnection'),
+    DeleteConnection,
     newDeleteConnection,
-    DeleteConnectionResponse (DeleteConnectionResponse'),
+    DeleteConnectionResponse,
     newDeleteConnectionResponse,
 
     -- ** DeleteHost
-    DeleteHost (DeleteHost'),
+    DeleteHost,
     newDeleteHost,
-    DeleteHostResponse (DeleteHostResponse'),
+    DeleteHostResponse,
     newDeleteHostResponse,
 
     -- ** GetConnection
-    GetConnection (GetConnection'),
+    GetConnection,
     newGetConnection,
-    GetConnectionResponse (GetConnectionResponse'),
+    GetConnectionResponse,
     newGetConnectionResponse,
 
     -- ** GetHost
-    GetHost (GetHost'),
+    GetHost,
     newGetHost,
-    GetHostResponse (GetHostResponse'),
+    GetHostResponse,
     newGetHostResponse,
 
     -- ** ListConnections
-    ListConnections (ListConnections'),
+    ListConnections,
     newListConnections,
-    ListConnectionsResponse (ListConnectionsResponse'),
+    ListConnectionsResponse,
     newListConnectionsResponse,
 
     -- ** ListHosts
-    ListHosts (ListHosts'),
+    ListHosts,
     newListHosts,
-    ListHostsResponse (ListHostsResponse'),
+    ListHostsResponse,
     newListHostsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateHost
-    UpdateHost (UpdateHost'),
+    UpdateHost,
     newUpdateHost,
-    UpdateHostResponse (UpdateHostResponse'),
+    UpdateHostResponse,
     newUpdateHostResponse,
 
     -- * Types
@@ -183,19 +183,19 @@ module Amazonka.CodeStarConnections
     ProviderType (..),
 
     -- ** Connection
-    Connection (Connection'),
+    Connection,
     newConnection,
 
     -- ** Host
-    Host (Host'),
+    Host,
     newHost,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
 
     -- ** VpcConfiguration
-    VpcConfiguration (VpcConfiguration'),
+    VpcConfiguration,
     newVpcConfiguration,
   )
 where

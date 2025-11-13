@@ -73,231 +73,231 @@ module Amazonka.AppMesh
     -- $operations
 
     -- ** CreateGatewayRoute
-    CreateGatewayRoute (CreateGatewayRoute'),
+    CreateGatewayRoute,
     newCreateGatewayRoute,
-    CreateGatewayRouteResponse (CreateGatewayRouteResponse'),
+    CreateGatewayRouteResponse,
     newCreateGatewayRouteResponse,
 
     -- ** CreateMesh
-    CreateMesh (CreateMesh'),
+    CreateMesh,
     newCreateMesh,
-    CreateMeshResponse (CreateMeshResponse'),
+    CreateMeshResponse,
     newCreateMeshResponse,
 
     -- ** CreateRoute
-    CreateRoute (CreateRoute'),
+    CreateRoute,
     newCreateRoute,
-    CreateRouteResponse (CreateRouteResponse'),
+    CreateRouteResponse,
     newCreateRouteResponse,
 
     -- ** CreateVirtualGateway
-    CreateVirtualGateway (CreateVirtualGateway'),
+    CreateVirtualGateway,
     newCreateVirtualGateway,
-    CreateVirtualGatewayResponse (CreateVirtualGatewayResponse'),
+    CreateVirtualGatewayResponse,
     newCreateVirtualGatewayResponse,
 
     -- ** CreateVirtualNode
-    CreateVirtualNode (CreateVirtualNode'),
+    CreateVirtualNode,
     newCreateVirtualNode,
-    CreateVirtualNodeResponse (CreateVirtualNodeResponse'),
+    CreateVirtualNodeResponse,
     newCreateVirtualNodeResponse,
 
     -- ** CreateVirtualRouter
-    CreateVirtualRouter (CreateVirtualRouter'),
+    CreateVirtualRouter,
     newCreateVirtualRouter,
-    CreateVirtualRouterResponse (CreateVirtualRouterResponse'),
+    CreateVirtualRouterResponse,
     newCreateVirtualRouterResponse,
 
     -- ** CreateVirtualService
-    CreateVirtualService (CreateVirtualService'),
+    CreateVirtualService,
     newCreateVirtualService,
-    CreateVirtualServiceResponse (CreateVirtualServiceResponse'),
+    CreateVirtualServiceResponse,
     newCreateVirtualServiceResponse,
 
     -- ** DeleteGatewayRoute
-    DeleteGatewayRoute (DeleteGatewayRoute'),
+    DeleteGatewayRoute,
     newDeleteGatewayRoute,
-    DeleteGatewayRouteResponse (DeleteGatewayRouteResponse'),
+    DeleteGatewayRouteResponse,
     newDeleteGatewayRouteResponse,
 
     -- ** DeleteMesh
-    DeleteMesh (DeleteMesh'),
+    DeleteMesh,
     newDeleteMesh,
-    DeleteMeshResponse (DeleteMeshResponse'),
+    DeleteMeshResponse,
     newDeleteMeshResponse,
 
     -- ** DeleteRoute
-    DeleteRoute (DeleteRoute'),
+    DeleteRoute,
     newDeleteRoute,
-    DeleteRouteResponse (DeleteRouteResponse'),
+    DeleteRouteResponse,
     newDeleteRouteResponse,
 
     -- ** DeleteVirtualGateway
-    DeleteVirtualGateway (DeleteVirtualGateway'),
+    DeleteVirtualGateway,
     newDeleteVirtualGateway,
-    DeleteVirtualGatewayResponse (DeleteVirtualGatewayResponse'),
+    DeleteVirtualGatewayResponse,
     newDeleteVirtualGatewayResponse,
 
     -- ** DeleteVirtualNode
-    DeleteVirtualNode (DeleteVirtualNode'),
+    DeleteVirtualNode,
     newDeleteVirtualNode,
-    DeleteVirtualNodeResponse (DeleteVirtualNodeResponse'),
+    DeleteVirtualNodeResponse,
     newDeleteVirtualNodeResponse,
 
     -- ** DeleteVirtualRouter
-    DeleteVirtualRouter (DeleteVirtualRouter'),
+    DeleteVirtualRouter,
     newDeleteVirtualRouter,
-    DeleteVirtualRouterResponse (DeleteVirtualRouterResponse'),
+    DeleteVirtualRouterResponse,
     newDeleteVirtualRouterResponse,
 
     -- ** DeleteVirtualService
-    DeleteVirtualService (DeleteVirtualService'),
+    DeleteVirtualService,
     newDeleteVirtualService,
-    DeleteVirtualServiceResponse (DeleteVirtualServiceResponse'),
+    DeleteVirtualServiceResponse,
     newDeleteVirtualServiceResponse,
 
     -- ** DescribeGatewayRoute
-    DescribeGatewayRoute (DescribeGatewayRoute'),
+    DescribeGatewayRoute,
     newDescribeGatewayRoute,
-    DescribeGatewayRouteResponse (DescribeGatewayRouteResponse'),
+    DescribeGatewayRouteResponse,
     newDescribeGatewayRouteResponse,
 
     -- ** DescribeMesh
-    DescribeMesh (DescribeMesh'),
+    DescribeMesh,
     newDescribeMesh,
-    DescribeMeshResponse (DescribeMeshResponse'),
+    DescribeMeshResponse,
     newDescribeMeshResponse,
 
     -- ** DescribeRoute
-    DescribeRoute (DescribeRoute'),
+    DescribeRoute,
     newDescribeRoute,
-    DescribeRouteResponse (DescribeRouteResponse'),
+    DescribeRouteResponse,
     newDescribeRouteResponse,
 
     -- ** DescribeVirtualGateway
-    DescribeVirtualGateway (DescribeVirtualGateway'),
+    DescribeVirtualGateway,
     newDescribeVirtualGateway,
-    DescribeVirtualGatewayResponse (DescribeVirtualGatewayResponse'),
+    DescribeVirtualGatewayResponse,
     newDescribeVirtualGatewayResponse,
 
     -- ** DescribeVirtualNode
-    DescribeVirtualNode (DescribeVirtualNode'),
+    DescribeVirtualNode,
     newDescribeVirtualNode,
-    DescribeVirtualNodeResponse (DescribeVirtualNodeResponse'),
+    DescribeVirtualNodeResponse,
     newDescribeVirtualNodeResponse,
 
     -- ** DescribeVirtualRouter
-    DescribeVirtualRouter (DescribeVirtualRouter'),
+    DescribeVirtualRouter,
     newDescribeVirtualRouter,
-    DescribeVirtualRouterResponse (DescribeVirtualRouterResponse'),
+    DescribeVirtualRouterResponse,
     newDescribeVirtualRouterResponse,
 
     -- ** DescribeVirtualService
-    DescribeVirtualService (DescribeVirtualService'),
+    DescribeVirtualService,
     newDescribeVirtualService,
-    DescribeVirtualServiceResponse (DescribeVirtualServiceResponse'),
+    DescribeVirtualServiceResponse,
     newDescribeVirtualServiceResponse,
 
     -- ** ListGatewayRoutes (Paginated)
-    ListGatewayRoutes (ListGatewayRoutes'),
+    ListGatewayRoutes,
     newListGatewayRoutes,
-    ListGatewayRoutesResponse (ListGatewayRoutesResponse'),
+    ListGatewayRoutesResponse,
     newListGatewayRoutesResponse,
 
     -- ** ListMeshes (Paginated)
-    ListMeshes (ListMeshes'),
+    ListMeshes,
     newListMeshes,
-    ListMeshesResponse (ListMeshesResponse'),
+    ListMeshesResponse,
     newListMeshesResponse,
 
     -- ** ListRoutes (Paginated)
-    ListRoutes (ListRoutes'),
+    ListRoutes,
     newListRoutes,
-    ListRoutesResponse (ListRoutesResponse'),
+    ListRoutesResponse,
     newListRoutesResponse,
 
     -- ** ListTagsForResource (Paginated)
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** ListVirtualGateways (Paginated)
-    ListVirtualGateways (ListVirtualGateways'),
+    ListVirtualGateways,
     newListVirtualGateways,
-    ListVirtualGatewaysResponse (ListVirtualGatewaysResponse'),
+    ListVirtualGatewaysResponse,
     newListVirtualGatewaysResponse,
 
     -- ** ListVirtualNodes (Paginated)
-    ListVirtualNodes (ListVirtualNodes'),
+    ListVirtualNodes,
     newListVirtualNodes,
-    ListVirtualNodesResponse (ListVirtualNodesResponse'),
+    ListVirtualNodesResponse,
     newListVirtualNodesResponse,
 
     -- ** ListVirtualRouters (Paginated)
-    ListVirtualRouters (ListVirtualRouters'),
+    ListVirtualRouters,
     newListVirtualRouters,
-    ListVirtualRoutersResponse (ListVirtualRoutersResponse'),
+    ListVirtualRoutersResponse,
     newListVirtualRoutersResponse,
 
     -- ** ListVirtualServices (Paginated)
-    ListVirtualServices (ListVirtualServices'),
+    ListVirtualServices,
     newListVirtualServices,
-    ListVirtualServicesResponse (ListVirtualServicesResponse'),
+    ListVirtualServicesResponse,
     newListVirtualServicesResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateGatewayRoute
-    UpdateGatewayRoute (UpdateGatewayRoute'),
+    UpdateGatewayRoute,
     newUpdateGatewayRoute,
-    UpdateGatewayRouteResponse (UpdateGatewayRouteResponse'),
+    UpdateGatewayRouteResponse,
     newUpdateGatewayRouteResponse,
 
     -- ** UpdateMesh
-    UpdateMesh (UpdateMesh'),
+    UpdateMesh,
     newUpdateMesh,
-    UpdateMeshResponse (UpdateMeshResponse'),
+    UpdateMeshResponse,
     newUpdateMeshResponse,
 
     -- ** UpdateRoute
-    UpdateRoute (UpdateRoute'),
+    UpdateRoute,
     newUpdateRoute,
-    UpdateRouteResponse (UpdateRouteResponse'),
+    UpdateRouteResponse,
     newUpdateRouteResponse,
 
     -- ** UpdateVirtualGateway
-    UpdateVirtualGateway (UpdateVirtualGateway'),
+    UpdateVirtualGateway,
     newUpdateVirtualGateway,
-    UpdateVirtualGatewayResponse (UpdateVirtualGatewayResponse'),
+    UpdateVirtualGatewayResponse,
     newUpdateVirtualGatewayResponse,
 
     -- ** UpdateVirtualNode
-    UpdateVirtualNode (UpdateVirtualNode'),
+    UpdateVirtualNode,
     newUpdateVirtualNode,
-    UpdateVirtualNodeResponse (UpdateVirtualNodeResponse'),
+    UpdateVirtualNodeResponse,
     newUpdateVirtualNodeResponse,
 
     -- ** UpdateVirtualRouter
-    UpdateVirtualRouter (UpdateVirtualRouter'),
+    UpdateVirtualRouter,
     newUpdateVirtualRouter,
-    UpdateVirtualRouterResponse (UpdateVirtualRouterResponse'),
+    UpdateVirtualRouterResponse,
     newUpdateVirtualRouterResponse,
 
     -- ** UpdateVirtualService
-    UpdateVirtualService (UpdateVirtualService'),
+    UpdateVirtualService,
     newUpdateVirtualService,
-    UpdateVirtualServiceResponse (UpdateVirtualServiceResponse'),
+    UpdateVirtualServiceResponse,
     newUpdateVirtualServiceResponse,
 
     -- * Types
@@ -363,571 +363,571 @@ module Amazonka.AppMesh
     VirtualServiceStatusCode (..),
 
     -- ** AccessLog
-    AccessLog (AccessLog'),
+    AccessLog,
     newAccessLog,
 
     -- ** AwsCloudMapInstanceAttribute
-    AwsCloudMapInstanceAttribute (AwsCloudMapInstanceAttribute'),
+    AwsCloudMapInstanceAttribute,
     newAwsCloudMapInstanceAttribute,
 
     -- ** AwsCloudMapServiceDiscovery
-    AwsCloudMapServiceDiscovery (AwsCloudMapServiceDiscovery'),
+    AwsCloudMapServiceDiscovery,
     newAwsCloudMapServiceDiscovery,
 
     -- ** Backend
-    Backend (Backend'),
+    Backend,
     newBackend,
 
     -- ** BackendDefaults
-    BackendDefaults (BackendDefaults'),
+    BackendDefaults,
     newBackendDefaults,
 
     -- ** ClientPolicy
-    ClientPolicy (ClientPolicy'),
+    ClientPolicy,
     newClientPolicy,
 
     -- ** ClientPolicyTls
-    ClientPolicyTls (ClientPolicyTls'),
+    ClientPolicyTls,
     newClientPolicyTls,
 
     -- ** ClientTlsCertificate
-    ClientTlsCertificate (ClientTlsCertificate'),
+    ClientTlsCertificate,
     newClientTlsCertificate,
 
     -- ** DnsServiceDiscovery
-    DnsServiceDiscovery (DnsServiceDiscovery'),
+    DnsServiceDiscovery,
     newDnsServiceDiscovery,
 
     -- ** Duration
-    Duration (Duration'),
+    Duration,
     newDuration,
 
     -- ** EgressFilter
-    EgressFilter (EgressFilter'),
+    EgressFilter,
     newEgressFilter,
 
     -- ** FileAccessLog
-    FileAccessLog (FileAccessLog'),
+    FileAccessLog,
     newFileAccessLog,
 
     -- ** GatewayRouteData
-    GatewayRouteData (GatewayRouteData'),
+    GatewayRouteData,
     newGatewayRouteData,
 
     -- ** GatewayRouteHostnameMatch
-    GatewayRouteHostnameMatch (GatewayRouteHostnameMatch'),
+    GatewayRouteHostnameMatch,
     newGatewayRouteHostnameMatch,
 
     -- ** GatewayRouteHostnameRewrite
-    GatewayRouteHostnameRewrite (GatewayRouteHostnameRewrite'),
+    GatewayRouteHostnameRewrite,
     newGatewayRouteHostnameRewrite,
 
     -- ** GatewayRouteRef
-    GatewayRouteRef (GatewayRouteRef'),
+    GatewayRouteRef,
     newGatewayRouteRef,
 
     -- ** GatewayRouteSpec
-    GatewayRouteSpec (GatewayRouteSpec'),
+    GatewayRouteSpec,
     newGatewayRouteSpec,
 
     -- ** GatewayRouteStatus
-    GatewayRouteStatus (GatewayRouteStatus'),
+    GatewayRouteStatus,
     newGatewayRouteStatus,
 
     -- ** GatewayRouteTarget
-    GatewayRouteTarget (GatewayRouteTarget'),
+    GatewayRouteTarget,
     newGatewayRouteTarget,
 
     -- ** GatewayRouteVirtualService
-    GatewayRouteVirtualService (GatewayRouteVirtualService'),
+    GatewayRouteVirtualService,
     newGatewayRouteVirtualService,
 
     -- ** GrpcGatewayRoute
-    GrpcGatewayRoute (GrpcGatewayRoute'),
+    GrpcGatewayRoute,
     newGrpcGatewayRoute,
 
     -- ** GrpcGatewayRouteAction
-    GrpcGatewayRouteAction (GrpcGatewayRouteAction'),
+    GrpcGatewayRouteAction,
     newGrpcGatewayRouteAction,
 
     -- ** GrpcGatewayRouteMatch
-    GrpcGatewayRouteMatch (GrpcGatewayRouteMatch'),
+    GrpcGatewayRouteMatch,
     newGrpcGatewayRouteMatch,
 
     -- ** GrpcGatewayRouteMetadata
-    GrpcGatewayRouteMetadata (GrpcGatewayRouteMetadata'),
+    GrpcGatewayRouteMetadata,
     newGrpcGatewayRouteMetadata,
 
     -- ** GrpcGatewayRouteRewrite
-    GrpcGatewayRouteRewrite (GrpcGatewayRouteRewrite'),
+    GrpcGatewayRouteRewrite,
     newGrpcGatewayRouteRewrite,
 
     -- ** GrpcMetadataMatchMethod
-    GrpcMetadataMatchMethod (GrpcMetadataMatchMethod'),
+    GrpcMetadataMatchMethod,
     newGrpcMetadataMatchMethod,
 
     -- ** GrpcRetryPolicy
-    GrpcRetryPolicy (GrpcRetryPolicy'),
+    GrpcRetryPolicy,
     newGrpcRetryPolicy,
 
     -- ** GrpcRoute
-    GrpcRoute (GrpcRoute'),
+    GrpcRoute,
     newGrpcRoute,
 
     -- ** GrpcRouteAction
-    GrpcRouteAction (GrpcRouteAction'),
+    GrpcRouteAction,
     newGrpcRouteAction,
 
     -- ** GrpcRouteMatch
-    GrpcRouteMatch (GrpcRouteMatch'),
+    GrpcRouteMatch,
     newGrpcRouteMatch,
 
     -- ** GrpcRouteMetadata
-    GrpcRouteMetadata (GrpcRouteMetadata'),
+    GrpcRouteMetadata,
     newGrpcRouteMetadata,
 
     -- ** GrpcRouteMetadataMatchMethod
-    GrpcRouteMetadataMatchMethod (GrpcRouteMetadataMatchMethod'),
+    GrpcRouteMetadataMatchMethod,
     newGrpcRouteMetadataMatchMethod,
 
     -- ** GrpcTimeout
-    GrpcTimeout (GrpcTimeout'),
+    GrpcTimeout,
     newGrpcTimeout,
 
     -- ** HeaderMatchMethod
-    HeaderMatchMethod (HeaderMatchMethod'),
+    HeaderMatchMethod,
     newHeaderMatchMethod,
 
     -- ** HealthCheckPolicy
-    HealthCheckPolicy (HealthCheckPolicy'),
+    HealthCheckPolicy,
     newHealthCheckPolicy,
 
     -- ** HttpGatewayRoute
-    HttpGatewayRoute (HttpGatewayRoute'),
+    HttpGatewayRoute,
     newHttpGatewayRoute,
 
     -- ** HttpGatewayRouteAction
-    HttpGatewayRouteAction (HttpGatewayRouteAction'),
+    HttpGatewayRouteAction,
     newHttpGatewayRouteAction,
 
     -- ** HttpGatewayRouteHeader
-    HttpGatewayRouteHeader (HttpGatewayRouteHeader'),
+    HttpGatewayRouteHeader,
     newHttpGatewayRouteHeader,
 
     -- ** HttpGatewayRouteMatch
-    HttpGatewayRouteMatch (HttpGatewayRouteMatch'),
+    HttpGatewayRouteMatch,
     newHttpGatewayRouteMatch,
 
     -- ** HttpGatewayRoutePathRewrite
-    HttpGatewayRoutePathRewrite (HttpGatewayRoutePathRewrite'),
+    HttpGatewayRoutePathRewrite,
     newHttpGatewayRoutePathRewrite,
 
     -- ** HttpGatewayRoutePrefixRewrite
-    HttpGatewayRoutePrefixRewrite (HttpGatewayRoutePrefixRewrite'),
+    HttpGatewayRoutePrefixRewrite,
     newHttpGatewayRoutePrefixRewrite,
 
     -- ** HttpGatewayRouteRewrite
-    HttpGatewayRouteRewrite (HttpGatewayRouteRewrite'),
+    HttpGatewayRouteRewrite,
     newHttpGatewayRouteRewrite,
 
     -- ** HttpPathMatch
-    HttpPathMatch (HttpPathMatch'),
+    HttpPathMatch,
     newHttpPathMatch,
 
     -- ** HttpQueryParameter
-    HttpQueryParameter (HttpQueryParameter'),
+    HttpQueryParameter,
     newHttpQueryParameter,
 
     -- ** HttpRetryPolicy
-    HttpRetryPolicy (HttpRetryPolicy'),
+    HttpRetryPolicy,
     newHttpRetryPolicy,
 
     -- ** HttpRoute
-    HttpRoute (HttpRoute'),
+    HttpRoute,
     newHttpRoute,
 
     -- ** HttpRouteAction
-    HttpRouteAction (HttpRouteAction'),
+    HttpRouteAction,
     newHttpRouteAction,
 
     -- ** HttpRouteHeader
-    HttpRouteHeader (HttpRouteHeader'),
+    HttpRouteHeader,
     newHttpRouteHeader,
 
     -- ** HttpRouteMatch
-    HttpRouteMatch (HttpRouteMatch'),
+    HttpRouteMatch,
     newHttpRouteMatch,
 
     -- ** HttpTimeout
-    HttpTimeout (HttpTimeout'),
+    HttpTimeout,
     newHttpTimeout,
 
     -- ** JsonFormatRef
-    JsonFormatRef (JsonFormatRef'),
+    JsonFormatRef,
     newJsonFormatRef,
 
     -- ** Listener
-    Listener (Listener'),
+    Listener,
     newListener,
 
     -- ** ListenerTimeout
-    ListenerTimeout (ListenerTimeout'),
+    ListenerTimeout,
     newListenerTimeout,
 
     -- ** ListenerTls
-    ListenerTls (ListenerTls'),
+    ListenerTls,
     newListenerTls,
 
     -- ** ListenerTlsAcmCertificate
-    ListenerTlsAcmCertificate (ListenerTlsAcmCertificate'),
+    ListenerTlsAcmCertificate,
     newListenerTlsAcmCertificate,
 
     -- ** ListenerTlsCertificate
-    ListenerTlsCertificate (ListenerTlsCertificate'),
+    ListenerTlsCertificate,
     newListenerTlsCertificate,
 
     -- ** ListenerTlsFileCertificate
-    ListenerTlsFileCertificate (ListenerTlsFileCertificate'),
+    ListenerTlsFileCertificate,
     newListenerTlsFileCertificate,
 
     -- ** ListenerTlsSdsCertificate
-    ListenerTlsSdsCertificate (ListenerTlsSdsCertificate'),
+    ListenerTlsSdsCertificate,
     newListenerTlsSdsCertificate,
 
     -- ** ListenerTlsValidationContext
-    ListenerTlsValidationContext (ListenerTlsValidationContext'),
+    ListenerTlsValidationContext,
     newListenerTlsValidationContext,
 
     -- ** ListenerTlsValidationContextTrust
-    ListenerTlsValidationContextTrust (ListenerTlsValidationContextTrust'),
+    ListenerTlsValidationContextTrust,
     newListenerTlsValidationContextTrust,
 
     -- ** Logging
-    Logging (Logging'),
+    Logging,
     newLogging,
 
     -- ** LoggingFormat
-    LoggingFormat (LoggingFormat'),
+    LoggingFormat,
     newLoggingFormat,
 
     -- ** MatchRange
-    MatchRange (MatchRange'),
+    MatchRange,
     newMatchRange,
 
     -- ** MeshData
-    MeshData (MeshData'),
+    MeshData,
     newMeshData,
 
     -- ** MeshRef
-    MeshRef (MeshRef'),
+    MeshRef,
     newMeshRef,
 
     -- ** MeshServiceDiscovery
-    MeshServiceDiscovery (MeshServiceDiscovery'),
+    MeshServiceDiscovery,
     newMeshServiceDiscovery,
 
     -- ** MeshSpec
-    MeshSpec (MeshSpec'),
+    MeshSpec,
     newMeshSpec,
 
     -- ** MeshStatus
-    MeshStatus (MeshStatus'),
+    MeshStatus,
     newMeshStatus,
 
     -- ** OutlierDetection
-    OutlierDetection (OutlierDetection'),
+    OutlierDetection,
     newOutlierDetection,
 
     -- ** PortMapping
-    PortMapping (PortMapping'),
+    PortMapping,
     newPortMapping,
 
     -- ** QueryParameterMatch
-    QueryParameterMatch (QueryParameterMatch'),
+    QueryParameterMatch,
     newQueryParameterMatch,
 
     -- ** ResourceMetadata
-    ResourceMetadata (ResourceMetadata'),
+    ResourceMetadata,
     newResourceMetadata,
 
     -- ** RouteData
-    RouteData (RouteData'),
+    RouteData,
     newRouteData,
 
     -- ** RouteRef
-    RouteRef (RouteRef'),
+    RouteRef,
     newRouteRef,
 
     -- ** RouteSpec
-    RouteSpec (RouteSpec'),
+    RouteSpec,
     newRouteSpec,
 
     -- ** RouteStatus
-    RouteStatus (RouteStatus'),
+    RouteStatus,
     newRouteStatus,
 
     -- ** ServiceDiscovery
-    ServiceDiscovery (ServiceDiscovery'),
+    ServiceDiscovery,
     newServiceDiscovery,
 
     -- ** SubjectAlternativeNameMatchers
-    SubjectAlternativeNameMatchers (SubjectAlternativeNameMatchers'),
+    SubjectAlternativeNameMatchers,
     newSubjectAlternativeNameMatchers,
 
     -- ** SubjectAlternativeNames
-    SubjectAlternativeNames (SubjectAlternativeNames'),
+    SubjectAlternativeNames,
     newSubjectAlternativeNames,
 
     -- ** TagRef
-    TagRef (TagRef'),
+    TagRef,
     newTagRef,
 
     -- ** TcpRoute
-    TcpRoute (TcpRoute'),
+    TcpRoute,
     newTcpRoute,
 
     -- ** TcpRouteAction
-    TcpRouteAction (TcpRouteAction'),
+    TcpRouteAction,
     newTcpRouteAction,
 
     -- ** TcpRouteMatch
-    TcpRouteMatch (TcpRouteMatch'),
+    TcpRouteMatch,
     newTcpRouteMatch,
 
     -- ** TcpTimeout
-    TcpTimeout (TcpTimeout'),
+    TcpTimeout,
     newTcpTimeout,
 
     -- ** TlsValidationContext
-    TlsValidationContext (TlsValidationContext'),
+    TlsValidationContext,
     newTlsValidationContext,
 
     -- ** TlsValidationContextAcmTrust
-    TlsValidationContextAcmTrust (TlsValidationContextAcmTrust'),
+    TlsValidationContextAcmTrust,
     newTlsValidationContextAcmTrust,
 
     -- ** TlsValidationContextFileTrust
-    TlsValidationContextFileTrust (TlsValidationContextFileTrust'),
+    TlsValidationContextFileTrust,
     newTlsValidationContextFileTrust,
 
     -- ** TlsValidationContextSdsTrust
-    TlsValidationContextSdsTrust (TlsValidationContextSdsTrust'),
+    TlsValidationContextSdsTrust,
     newTlsValidationContextSdsTrust,
 
     -- ** TlsValidationContextTrust
-    TlsValidationContextTrust (TlsValidationContextTrust'),
+    TlsValidationContextTrust,
     newTlsValidationContextTrust,
 
     -- ** VirtualGatewayAccessLog
-    VirtualGatewayAccessLog (VirtualGatewayAccessLog'),
+    VirtualGatewayAccessLog,
     newVirtualGatewayAccessLog,
 
     -- ** VirtualGatewayBackendDefaults
-    VirtualGatewayBackendDefaults (VirtualGatewayBackendDefaults'),
+    VirtualGatewayBackendDefaults,
     newVirtualGatewayBackendDefaults,
 
     -- ** VirtualGatewayClientPolicy
-    VirtualGatewayClientPolicy (VirtualGatewayClientPolicy'),
+    VirtualGatewayClientPolicy,
     newVirtualGatewayClientPolicy,
 
     -- ** VirtualGatewayClientPolicyTls
-    VirtualGatewayClientPolicyTls (VirtualGatewayClientPolicyTls'),
+    VirtualGatewayClientPolicyTls,
     newVirtualGatewayClientPolicyTls,
 
     -- ** VirtualGatewayClientTlsCertificate
-    VirtualGatewayClientTlsCertificate (VirtualGatewayClientTlsCertificate'),
+    VirtualGatewayClientTlsCertificate,
     newVirtualGatewayClientTlsCertificate,
 
     -- ** VirtualGatewayConnectionPool
-    VirtualGatewayConnectionPool (VirtualGatewayConnectionPool'),
+    VirtualGatewayConnectionPool,
     newVirtualGatewayConnectionPool,
 
     -- ** VirtualGatewayData
-    VirtualGatewayData (VirtualGatewayData'),
+    VirtualGatewayData,
     newVirtualGatewayData,
 
     -- ** VirtualGatewayFileAccessLog
-    VirtualGatewayFileAccessLog (VirtualGatewayFileAccessLog'),
+    VirtualGatewayFileAccessLog,
     newVirtualGatewayFileAccessLog,
 
     -- ** VirtualGatewayGrpcConnectionPool
-    VirtualGatewayGrpcConnectionPool (VirtualGatewayGrpcConnectionPool'),
+    VirtualGatewayGrpcConnectionPool,
     newVirtualGatewayGrpcConnectionPool,
 
     -- ** VirtualGatewayHealthCheckPolicy
-    VirtualGatewayHealthCheckPolicy (VirtualGatewayHealthCheckPolicy'),
+    VirtualGatewayHealthCheckPolicy,
     newVirtualGatewayHealthCheckPolicy,
 
     -- ** VirtualGatewayHttp2ConnectionPool
-    VirtualGatewayHttp2ConnectionPool (VirtualGatewayHttp2ConnectionPool'),
+    VirtualGatewayHttp2ConnectionPool,
     newVirtualGatewayHttp2ConnectionPool,
 
     -- ** VirtualGatewayHttpConnectionPool
-    VirtualGatewayHttpConnectionPool (VirtualGatewayHttpConnectionPool'),
+    VirtualGatewayHttpConnectionPool,
     newVirtualGatewayHttpConnectionPool,
 
     -- ** VirtualGatewayListener
-    VirtualGatewayListener (VirtualGatewayListener'),
+    VirtualGatewayListener,
     newVirtualGatewayListener,
 
     -- ** VirtualGatewayListenerTls
-    VirtualGatewayListenerTls (VirtualGatewayListenerTls'),
+    VirtualGatewayListenerTls,
     newVirtualGatewayListenerTls,
 
     -- ** VirtualGatewayListenerTlsAcmCertificate
-    VirtualGatewayListenerTlsAcmCertificate (VirtualGatewayListenerTlsAcmCertificate'),
+    VirtualGatewayListenerTlsAcmCertificate,
     newVirtualGatewayListenerTlsAcmCertificate,
 
     -- ** VirtualGatewayListenerTlsCertificate
-    VirtualGatewayListenerTlsCertificate (VirtualGatewayListenerTlsCertificate'),
+    VirtualGatewayListenerTlsCertificate,
     newVirtualGatewayListenerTlsCertificate,
 
     -- ** VirtualGatewayListenerTlsFileCertificate
-    VirtualGatewayListenerTlsFileCertificate (VirtualGatewayListenerTlsFileCertificate'),
+    VirtualGatewayListenerTlsFileCertificate,
     newVirtualGatewayListenerTlsFileCertificate,
 
     -- ** VirtualGatewayListenerTlsSdsCertificate
-    VirtualGatewayListenerTlsSdsCertificate (VirtualGatewayListenerTlsSdsCertificate'),
+    VirtualGatewayListenerTlsSdsCertificate,
     newVirtualGatewayListenerTlsSdsCertificate,
 
     -- ** VirtualGatewayListenerTlsValidationContext
-    VirtualGatewayListenerTlsValidationContext (VirtualGatewayListenerTlsValidationContext'),
+    VirtualGatewayListenerTlsValidationContext,
     newVirtualGatewayListenerTlsValidationContext,
 
     -- ** VirtualGatewayListenerTlsValidationContextTrust
-    VirtualGatewayListenerTlsValidationContextTrust (VirtualGatewayListenerTlsValidationContextTrust'),
+    VirtualGatewayListenerTlsValidationContextTrust,
     newVirtualGatewayListenerTlsValidationContextTrust,
 
     -- ** VirtualGatewayLogging
-    VirtualGatewayLogging (VirtualGatewayLogging'),
+    VirtualGatewayLogging,
     newVirtualGatewayLogging,
 
     -- ** VirtualGatewayPortMapping
-    VirtualGatewayPortMapping (VirtualGatewayPortMapping'),
+    VirtualGatewayPortMapping,
     newVirtualGatewayPortMapping,
 
     -- ** VirtualGatewayRef
-    VirtualGatewayRef (VirtualGatewayRef'),
+    VirtualGatewayRef,
     newVirtualGatewayRef,
 
     -- ** VirtualGatewaySpec
-    VirtualGatewaySpec (VirtualGatewaySpec'),
+    VirtualGatewaySpec,
     newVirtualGatewaySpec,
 
     -- ** VirtualGatewayStatus
-    VirtualGatewayStatus (VirtualGatewayStatus'),
+    VirtualGatewayStatus,
     newVirtualGatewayStatus,
 
     -- ** VirtualGatewayTlsValidationContext
-    VirtualGatewayTlsValidationContext (VirtualGatewayTlsValidationContext'),
+    VirtualGatewayTlsValidationContext,
     newVirtualGatewayTlsValidationContext,
 
     -- ** VirtualGatewayTlsValidationContextAcmTrust
-    VirtualGatewayTlsValidationContextAcmTrust (VirtualGatewayTlsValidationContextAcmTrust'),
+    VirtualGatewayTlsValidationContextAcmTrust,
     newVirtualGatewayTlsValidationContextAcmTrust,
 
     -- ** VirtualGatewayTlsValidationContextFileTrust
-    VirtualGatewayTlsValidationContextFileTrust (VirtualGatewayTlsValidationContextFileTrust'),
+    VirtualGatewayTlsValidationContextFileTrust,
     newVirtualGatewayTlsValidationContextFileTrust,
 
     -- ** VirtualGatewayTlsValidationContextSdsTrust
-    VirtualGatewayTlsValidationContextSdsTrust (VirtualGatewayTlsValidationContextSdsTrust'),
+    VirtualGatewayTlsValidationContextSdsTrust,
     newVirtualGatewayTlsValidationContextSdsTrust,
 
     -- ** VirtualGatewayTlsValidationContextTrust
-    VirtualGatewayTlsValidationContextTrust (VirtualGatewayTlsValidationContextTrust'),
+    VirtualGatewayTlsValidationContextTrust,
     newVirtualGatewayTlsValidationContextTrust,
 
     -- ** VirtualNodeConnectionPool
-    VirtualNodeConnectionPool (VirtualNodeConnectionPool'),
+    VirtualNodeConnectionPool,
     newVirtualNodeConnectionPool,
 
     -- ** VirtualNodeData
-    VirtualNodeData (VirtualNodeData'),
+    VirtualNodeData,
     newVirtualNodeData,
 
     -- ** VirtualNodeGrpcConnectionPool
-    VirtualNodeGrpcConnectionPool (VirtualNodeGrpcConnectionPool'),
+    VirtualNodeGrpcConnectionPool,
     newVirtualNodeGrpcConnectionPool,
 
     -- ** VirtualNodeHttp2ConnectionPool
-    VirtualNodeHttp2ConnectionPool (VirtualNodeHttp2ConnectionPool'),
+    VirtualNodeHttp2ConnectionPool,
     newVirtualNodeHttp2ConnectionPool,
 
     -- ** VirtualNodeHttpConnectionPool
-    VirtualNodeHttpConnectionPool (VirtualNodeHttpConnectionPool'),
+    VirtualNodeHttpConnectionPool,
     newVirtualNodeHttpConnectionPool,
 
     -- ** VirtualNodeRef
-    VirtualNodeRef (VirtualNodeRef'),
+    VirtualNodeRef,
     newVirtualNodeRef,
 
     -- ** VirtualNodeServiceProvider
-    VirtualNodeServiceProvider (VirtualNodeServiceProvider'),
+    VirtualNodeServiceProvider,
     newVirtualNodeServiceProvider,
 
     -- ** VirtualNodeSpec
-    VirtualNodeSpec (VirtualNodeSpec'),
+    VirtualNodeSpec,
     newVirtualNodeSpec,
 
     -- ** VirtualNodeStatus
-    VirtualNodeStatus (VirtualNodeStatus'),
+    VirtualNodeStatus,
     newVirtualNodeStatus,
 
     -- ** VirtualNodeTcpConnectionPool
-    VirtualNodeTcpConnectionPool (VirtualNodeTcpConnectionPool'),
+    VirtualNodeTcpConnectionPool,
     newVirtualNodeTcpConnectionPool,
 
     -- ** VirtualRouterData
-    VirtualRouterData (VirtualRouterData'),
+    VirtualRouterData,
     newVirtualRouterData,
 
     -- ** VirtualRouterListener
-    VirtualRouterListener (VirtualRouterListener'),
+    VirtualRouterListener,
     newVirtualRouterListener,
 
     -- ** VirtualRouterRef
-    VirtualRouterRef (VirtualRouterRef'),
+    VirtualRouterRef,
     newVirtualRouterRef,
 
     -- ** VirtualRouterServiceProvider
-    VirtualRouterServiceProvider (VirtualRouterServiceProvider'),
+    VirtualRouterServiceProvider,
     newVirtualRouterServiceProvider,
 
     -- ** VirtualRouterSpec
-    VirtualRouterSpec (VirtualRouterSpec'),
+    VirtualRouterSpec,
     newVirtualRouterSpec,
 
     -- ** VirtualRouterStatus
-    VirtualRouterStatus (VirtualRouterStatus'),
+    VirtualRouterStatus,
     newVirtualRouterStatus,
 
     -- ** VirtualServiceBackend
-    VirtualServiceBackend (VirtualServiceBackend'),
+    VirtualServiceBackend,
     newVirtualServiceBackend,
 
     -- ** VirtualServiceData
-    VirtualServiceData (VirtualServiceData'),
+    VirtualServiceData,
     newVirtualServiceData,
 
     -- ** VirtualServiceProvider
-    VirtualServiceProvider (VirtualServiceProvider'),
+    VirtualServiceProvider,
     newVirtualServiceProvider,
 
     -- ** VirtualServiceRef
-    VirtualServiceRef (VirtualServiceRef'),
+    VirtualServiceRef,
     newVirtualServiceRef,
 
     -- ** VirtualServiceSpec
-    VirtualServiceSpec (VirtualServiceSpec'),
+    VirtualServiceSpec,
     newVirtualServiceSpec,
 
     -- ** VirtualServiceStatus
-    VirtualServiceStatus (VirtualServiceStatus'),
+    VirtualServiceStatus,
     newVirtualServiceStatus,
 
     -- ** WeightedTarget
-    WeightedTarget (WeightedTarget'),
+    WeightedTarget,
     newWeightedTarget,
   )
 where

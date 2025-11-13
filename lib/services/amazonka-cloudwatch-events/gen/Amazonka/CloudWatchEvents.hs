@@ -78,339 +78,339 @@ module Amazonka.CloudWatchEvents
     -- $operations
 
     -- ** ActivateEventSource
-    ActivateEventSource (ActivateEventSource'),
+    ActivateEventSource,
     newActivateEventSource,
-    ActivateEventSourceResponse (ActivateEventSourceResponse'),
+    ActivateEventSourceResponse,
     newActivateEventSourceResponse,
 
     -- ** CancelReplay
-    CancelReplay (CancelReplay'),
+    CancelReplay,
     newCancelReplay,
-    CancelReplayResponse (CancelReplayResponse'),
+    CancelReplayResponse,
     newCancelReplayResponse,
 
     -- ** CreateApiDestination
-    CreateApiDestination (CreateApiDestination'),
+    CreateApiDestination,
     newCreateApiDestination,
-    CreateApiDestinationResponse (CreateApiDestinationResponse'),
+    CreateApiDestinationResponse,
     newCreateApiDestinationResponse,
 
     -- ** CreateArchive
-    CreateArchive (CreateArchive'),
+    CreateArchive,
     newCreateArchive,
-    CreateArchiveResponse (CreateArchiveResponse'),
+    CreateArchiveResponse,
     newCreateArchiveResponse,
 
     -- ** CreateConnection
-    CreateConnection (CreateConnection'),
+    CreateConnection,
     newCreateConnection,
-    CreateConnectionResponse (CreateConnectionResponse'),
+    CreateConnectionResponse,
     newCreateConnectionResponse,
 
     -- ** CreateEndpoint
-    CreateEndpoint (CreateEndpoint'),
+    CreateEndpoint,
     newCreateEndpoint,
-    CreateEndpointResponse (CreateEndpointResponse'),
+    CreateEndpointResponse,
     newCreateEndpointResponse,
 
     -- ** CreateEventBus
-    CreateEventBus (CreateEventBus'),
+    CreateEventBus,
     newCreateEventBus,
-    CreateEventBusResponse (CreateEventBusResponse'),
+    CreateEventBusResponse,
     newCreateEventBusResponse,
 
     -- ** CreatePartnerEventSource
-    CreatePartnerEventSource (CreatePartnerEventSource'),
+    CreatePartnerEventSource,
     newCreatePartnerEventSource,
-    CreatePartnerEventSourceResponse (CreatePartnerEventSourceResponse'),
+    CreatePartnerEventSourceResponse,
     newCreatePartnerEventSourceResponse,
 
     -- ** DeactivateEventSource
-    DeactivateEventSource (DeactivateEventSource'),
+    DeactivateEventSource,
     newDeactivateEventSource,
-    DeactivateEventSourceResponse (DeactivateEventSourceResponse'),
+    DeactivateEventSourceResponse,
     newDeactivateEventSourceResponse,
 
     -- ** DeauthorizeConnection
-    DeauthorizeConnection (DeauthorizeConnection'),
+    DeauthorizeConnection,
     newDeauthorizeConnection,
-    DeauthorizeConnectionResponse (DeauthorizeConnectionResponse'),
+    DeauthorizeConnectionResponse,
     newDeauthorizeConnectionResponse,
 
     -- ** DeleteApiDestination
-    DeleteApiDestination (DeleteApiDestination'),
+    DeleteApiDestination,
     newDeleteApiDestination,
-    DeleteApiDestinationResponse (DeleteApiDestinationResponse'),
+    DeleteApiDestinationResponse,
     newDeleteApiDestinationResponse,
 
     -- ** DeleteArchive
-    DeleteArchive (DeleteArchive'),
+    DeleteArchive,
     newDeleteArchive,
-    DeleteArchiveResponse (DeleteArchiveResponse'),
+    DeleteArchiveResponse,
     newDeleteArchiveResponse,
 
     -- ** DeleteConnection
-    DeleteConnection (DeleteConnection'),
+    DeleteConnection,
     newDeleteConnection,
-    DeleteConnectionResponse (DeleteConnectionResponse'),
+    DeleteConnectionResponse,
     newDeleteConnectionResponse,
 
     -- ** DeleteEndpoint
-    DeleteEndpoint (DeleteEndpoint'),
+    DeleteEndpoint,
     newDeleteEndpoint,
-    DeleteEndpointResponse (DeleteEndpointResponse'),
+    DeleteEndpointResponse,
     newDeleteEndpointResponse,
 
     -- ** DeleteEventBus
-    DeleteEventBus (DeleteEventBus'),
+    DeleteEventBus,
     newDeleteEventBus,
-    DeleteEventBusResponse (DeleteEventBusResponse'),
+    DeleteEventBusResponse,
     newDeleteEventBusResponse,
 
     -- ** DeletePartnerEventSource
-    DeletePartnerEventSource (DeletePartnerEventSource'),
+    DeletePartnerEventSource,
     newDeletePartnerEventSource,
-    DeletePartnerEventSourceResponse (DeletePartnerEventSourceResponse'),
+    DeletePartnerEventSourceResponse,
     newDeletePartnerEventSourceResponse,
 
     -- ** DeleteRule
-    DeleteRule (DeleteRule'),
+    DeleteRule,
     newDeleteRule,
-    DeleteRuleResponse (DeleteRuleResponse'),
+    DeleteRuleResponse,
     newDeleteRuleResponse,
 
     -- ** DescribeApiDestination
-    DescribeApiDestination (DescribeApiDestination'),
+    DescribeApiDestination,
     newDescribeApiDestination,
-    DescribeApiDestinationResponse (DescribeApiDestinationResponse'),
+    DescribeApiDestinationResponse,
     newDescribeApiDestinationResponse,
 
     -- ** DescribeArchive
-    DescribeArchive (DescribeArchive'),
+    DescribeArchive,
     newDescribeArchive,
-    DescribeArchiveResponse (DescribeArchiveResponse'),
+    DescribeArchiveResponse,
     newDescribeArchiveResponse,
 
     -- ** DescribeConnection
-    DescribeConnection (DescribeConnection'),
+    DescribeConnection,
     newDescribeConnection,
-    DescribeConnectionResponse (DescribeConnectionResponse'),
+    DescribeConnectionResponse,
     newDescribeConnectionResponse,
 
     -- ** DescribeEndpoint
-    DescribeEndpoint (DescribeEndpoint'),
+    DescribeEndpoint,
     newDescribeEndpoint,
-    DescribeEndpointResponse (DescribeEndpointResponse'),
+    DescribeEndpointResponse,
     newDescribeEndpointResponse,
 
     -- ** DescribeEventBus
-    DescribeEventBus (DescribeEventBus'),
+    DescribeEventBus,
     newDescribeEventBus,
-    DescribeEventBusResponse (DescribeEventBusResponse'),
+    DescribeEventBusResponse,
     newDescribeEventBusResponse,
 
     -- ** DescribeEventSource
-    DescribeEventSource (DescribeEventSource'),
+    DescribeEventSource,
     newDescribeEventSource,
-    DescribeEventSourceResponse (DescribeEventSourceResponse'),
+    DescribeEventSourceResponse,
     newDescribeEventSourceResponse,
 
     -- ** DescribePartnerEventSource
-    DescribePartnerEventSource (DescribePartnerEventSource'),
+    DescribePartnerEventSource,
     newDescribePartnerEventSource,
-    DescribePartnerEventSourceResponse (DescribePartnerEventSourceResponse'),
+    DescribePartnerEventSourceResponse,
     newDescribePartnerEventSourceResponse,
 
     -- ** DescribeReplay
-    DescribeReplay (DescribeReplay'),
+    DescribeReplay,
     newDescribeReplay,
-    DescribeReplayResponse (DescribeReplayResponse'),
+    DescribeReplayResponse,
     newDescribeReplayResponse,
 
     -- ** DescribeRule
-    DescribeRule (DescribeRule'),
+    DescribeRule,
     newDescribeRule,
-    DescribeRuleResponse (DescribeRuleResponse'),
+    DescribeRuleResponse,
     newDescribeRuleResponse,
 
     -- ** DisableRule
-    DisableRule (DisableRule'),
+    DisableRule,
     newDisableRule,
-    DisableRuleResponse (DisableRuleResponse'),
+    DisableRuleResponse,
     newDisableRuleResponse,
 
     -- ** EnableRule
-    EnableRule (EnableRule'),
+    EnableRule,
     newEnableRule,
-    EnableRuleResponse (EnableRuleResponse'),
+    EnableRuleResponse,
     newEnableRuleResponse,
 
     -- ** ListApiDestinations
-    ListApiDestinations (ListApiDestinations'),
+    ListApiDestinations,
     newListApiDestinations,
-    ListApiDestinationsResponse (ListApiDestinationsResponse'),
+    ListApiDestinationsResponse,
     newListApiDestinationsResponse,
 
     -- ** ListArchives
-    ListArchives (ListArchives'),
+    ListArchives,
     newListArchives,
-    ListArchivesResponse (ListArchivesResponse'),
+    ListArchivesResponse,
     newListArchivesResponse,
 
     -- ** ListConnections
-    ListConnections (ListConnections'),
+    ListConnections,
     newListConnections,
-    ListConnectionsResponse (ListConnectionsResponse'),
+    ListConnectionsResponse,
     newListConnectionsResponse,
 
     -- ** ListEndpoints
-    ListEndpoints (ListEndpoints'),
+    ListEndpoints,
     newListEndpoints,
-    ListEndpointsResponse (ListEndpointsResponse'),
+    ListEndpointsResponse,
     newListEndpointsResponse,
 
     -- ** ListEventBuses
-    ListEventBuses (ListEventBuses'),
+    ListEventBuses,
     newListEventBuses,
-    ListEventBusesResponse (ListEventBusesResponse'),
+    ListEventBusesResponse,
     newListEventBusesResponse,
 
     -- ** ListEventSources
-    ListEventSources (ListEventSources'),
+    ListEventSources,
     newListEventSources,
-    ListEventSourcesResponse (ListEventSourcesResponse'),
+    ListEventSourcesResponse,
     newListEventSourcesResponse,
 
     -- ** ListPartnerEventSourceAccounts
-    ListPartnerEventSourceAccounts (ListPartnerEventSourceAccounts'),
+    ListPartnerEventSourceAccounts,
     newListPartnerEventSourceAccounts,
-    ListPartnerEventSourceAccountsResponse (ListPartnerEventSourceAccountsResponse'),
+    ListPartnerEventSourceAccountsResponse,
     newListPartnerEventSourceAccountsResponse,
 
     -- ** ListPartnerEventSources
-    ListPartnerEventSources (ListPartnerEventSources'),
+    ListPartnerEventSources,
     newListPartnerEventSources,
-    ListPartnerEventSourcesResponse (ListPartnerEventSourcesResponse'),
+    ListPartnerEventSourcesResponse,
     newListPartnerEventSourcesResponse,
 
     -- ** ListReplays
-    ListReplays (ListReplays'),
+    ListReplays,
     newListReplays,
-    ListReplaysResponse (ListReplaysResponse'),
+    ListReplaysResponse,
     newListReplaysResponse,
 
     -- ** ListRuleNamesByTarget (Paginated)
-    ListRuleNamesByTarget (ListRuleNamesByTarget'),
+    ListRuleNamesByTarget,
     newListRuleNamesByTarget,
-    ListRuleNamesByTargetResponse (ListRuleNamesByTargetResponse'),
+    ListRuleNamesByTargetResponse,
     newListRuleNamesByTargetResponse,
 
     -- ** ListRules (Paginated)
-    ListRules (ListRules'),
+    ListRules,
     newListRules,
-    ListRulesResponse (ListRulesResponse'),
+    ListRulesResponse,
     newListRulesResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** ListTargetsByRule (Paginated)
-    ListTargetsByRule (ListTargetsByRule'),
+    ListTargetsByRule,
     newListTargetsByRule,
-    ListTargetsByRuleResponse (ListTargetsByRuleResponse'),
+    ListTargetsByRuleResponse,
     newListTargetsByRuleResponse,
 
     -- ** PutEvents
-    PutEvents (PutEvents'),
+    PutEvents,
     newPutEvents,
-    PutEventsResponse (PutEventsResponse'),
+    PutEventsResponse,
     newPutEventsResponse,
 
     -- ** PutPartnerEvents
-    PutPartnerEvents (PutPartnerEvents'),
+    PutPartnerEvents,
     newPutPartnerEvents,
-    PutPartnerEventsResponse (PutPartnerEventsResponse'),
+    PutPartnerEventsResponse,
     newPutPartnerEventsResponse,
 
     -- ** PutPermission
-    PutPermission (PutPermission'),
+    PutPermission,
     newPutPermission,
-    PutPermissionResponse (PutPermissionResponse'),
+    PutPermissionResponse,
     newPutPermissionResponse,
 
     -- ** PutRule
-    PutRule (PutRule'),
+    PutRule,
     newPutRule,
-    PutRuleResponse (PutRuleResponse'),
+    PutRuleResponse,
     newPutRuleResponse,
 
     -- ** PutTargets
-    PutTargets (PutTargets'),
+    PutTargets,
     newPutTargets,
-    PutTargetsResponse (PutTargetsResponse'),
+    PutTargetsResponse,
     newPutTargetsResponse,
 
     -- ** RemovePermission
-    RemovePermission (RemovePermission'),
+    RemovePermission,
     newRemovePermission,
-    RemovePermissionResponse (RemovePermissionResponse'),
+    RemovePermissionResponse,
     newRemovePermissionResponse,
 
     -- ** RemoveTargets
-    RemoveTargets (RemoveTargets'),
+    RemoveTargets,
     newRemoveTargets,
-    RemoveTargetsResponse (RemoveTargetsResponse'),
+    RemoveTargetsResponse,
     newRemoveTargetsResponse,
 
     -- ** StartReplay
-    StartReplay (StartReplay'),
+    StartReplay,
     newStartReplay,
-    StartReplayResponse (StartReplayResponse'),
+    StartReplayResponse,
     newStartReplayResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** TestEventPattern
-    TestEventPattern (TestEventPattern'),
+    TestEventPattern,
     newTestEventPattern,
-    TestEventPatternResponse (TestEventPatternResponse'),
+    TestEventPatternResponse,
     newTestEventPatternResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateApiDestination
-    UpdateApiDestination (UpdateApiDestination'),
+    UpdateApiDestination,
     newUpdateApiDestination,
-    UpdateApiDestinationResponse (UpdateApiDestinationResponse'),
+    UpdateApiDestinationResponse,
     newUpdateApiDestinationResponse,
 
     -- ** UpdateArchive
-    UpdateArchive (UpdateArchive'),
+    UpdateArchive,
     newUpdateArchive,
-    UpdateArchiveResponse (UpdateArchiveResponse'),
+    UpdateArchiveResponse,
     newUpdateArchiveResponse,
 
     -- ** UpdateConnection
-    UpdateConnection (UpdateConnection'),
+    UpdateConnection,
     newUpdateConnection,
-    UpdateConnectionResponse (UpdateConnectionResponse'),
+    UpdateConnectionResponse,
     newUpdateConnectionResponse,
 
     -- ** UpdateEndpoint
-    UpdateEndpoint (UpdateEndpoint'),
+    UpdateEndpoint,
     newUpdateEndpoint,
-    UpdateEndpointResponse (UpdateEndpointResponse'),
+    UpdateEndpointResponse,
     newUpdateEndpointResponse,
 
     -- * Types
@@ -464,263 +464,263 @@ module Amazonka.CloudWatchEvents
     RuleState (..),
 
     -- ** ApiDestination
-    ApiDestination (ApiDestination'),
+    ApiDestination,
     newApiDestination,
 
     -- ** Archive
-    Archive (Archive'),
+    Archive,
     newArchive,
 
     -- ** AwsVpcConfiguration
-    AwsVpcConfiguration (AwsVpcConfiguration'),
+    AwsVpcConfiguration,
     newAwsVpcConfiguration,
 
     -- ** BatchArrayProperties
-    BatchArrayProperties (BatchArrayProperties'),
+    BatchArrayProperties,
     newBatchArrayProperties,
 
     -- ** BatchParameters
-    BatchParameters (BatchParameters'),
+    BatchParameters,
     newBatchParameters,
 
     -- ** BatchRetryStrategy
-    BatchRetryStrategy (BatchRetryStrategy'),
+    BatchRetryStrategy,
     newBatchRetryStrategy,
 
     -- ** CapacityProviderStrategyItem
-    CapacityProviderStrategyItem (CapacityProviderStrategyItem'),
+    CapacityProviderStrategyItem,
     newCapacityProviderStrategyItem,
 
     -- ** Condition
-    Condition (Condition'),
+    Condition,
     newCondition,
 
     -- ** Connection
-    Connection (Connection'),
+    Connection,
     newConnection,
 
     -- ** ConnectionApiKeyAuthResponseParameters
-    ConnectionApiKeyAuthResponseParameters (ConnectionApiKeyAuthResponseParameters'),
+    ConnectionApiKeyAuthResponseParameters,
     newConnectionApiKeyAuthResponseParameters,
 
     -- ** ConnectionAuthResponseParameters
-    ConnectionAuthResponseParameters (ConnectionAuthResponseParameters'),
+    ConnectionAuthResponseParameters,
     newConnectionAuthResponseParameters,
 
     -- ** ConnectionBasicAuthResponseParameters
-    ConnectionBasicAuthResponseParameters (ConnectionBasicAuthResponseParameters'),
+    ConnectionBasicAuthResponseParameters,
     newConnectionBasicAuthResponseParameters,
 
     -- ** ConnectionBodyParameter
-    ConnectionBodyParameter (ConnectionBodyParameter'),
+    ConnectionBodyParameter,
     newConnectionBodyParameter,
 
     -- ** ConnectionHeaderParameter
-    ConnectionHeaderParameter (ConnectionHeaderParameter'),
+    ConnectionHeaderParameter,
     newConnectionHeaderParameter,
 
     -- ** ConnectionHttpParameters
-    ConnectionHttpParameters (ConnectionHttpParameters'),
+    ConnectionHttpParameters,
     newConnectionHttpParameters,
 
     -- ** ConnectionOAuthClientResponseParameters
-    ConnectionOAuthClientResponseParameters (ConnectionOAuthClientResponseParameters'),
+    ConnectionOAuthClientResponseParameters,
     newConnectionOAuthClientResponseParameters,
 
     -- ** ConnectionOAuthResponseParameters
-    ConnectionOAuthResponseParameters (ConnectionOAuthResponseParameters'),
+    ConnectionOAuthResponseParameters,
     newConnectionOAuthResponseParameters,
 
     -- ** ConnectionQueryStringParameter
-    ConnectionQueryStringParameter (ConnectionQueryStringParameter'),
+    ConnectionQueryStringParameter,
     newConnectionQueryStringParameter,
 
     -- ** CreateConnectionApiKeyAuthRequestParameters
-    CreateConnectionApiKeyAuthRequestParameters (CreateConnectionApiKeyAuthRequestParameters'),
+    CreateConnectionApiKeyAuthRequestParameters,
     newCreateConnectionApiKeyAuthRequestParameters,
 
     -- ** CreateConnectionAuthRequestParameters
-    CreateConnectionAuthRequestParameters (CreateConnectionAuthRequestParameters'),
+    CreateConnectionAuthRequestParameters,
     newCreateConnectionAuthRequestParameters,
 
     -- ** CreateConnectionBasicAuthRequestParameters
-    CreateConnectionBasicAuthRequestParameters (CreateConnectionBasicAuthRequestParameters'),
+    CreateConnectionBasicAuthRequestParameters,
     newCreateConnectionBasicAuthRequestParameters,
 
     -- ** CreateConnectionOAuthClientRequestParameters
-    CreateConnectionOAuthClientRequestParameters (CreateConnectionOAuthClientRequestParameters'),
+    CreateConnectionOAuthClientRequestParameters,
     newCreateConnectionOAuthClientRequestParameters,
 
     -- ** CreateConnectionOAuthRequestParameters
-    CreateConnectionOAuthRequestParameters (CreateConnectionOAuthRequestParameters'),
+    CreateConnectionOAuthRequestParameters,
     newCreateConnectionOAuthRequestParameters,
 
     -- ** DeadLetterConfig
-    DeadLetterConfig (DeadLetterConfig'),
+    DeadLetterConfig,
     newDeadLetterConfig,
 
     -- ** EcsParameters
-    EcsParameters (EcsParameters'),
+    EcsParameters,
     newEcsParameters,
 
     -- ** Endpoint
-    Endpoint (Endpoint'),
+    Endpoint,
     newEndpoint,
 
     -- ** EndpointEventBus
-    EndpointEventBus (EndpointEventBus'),
+    EndpointEventBus,
     newEndpointEventBus,
 
     -- ** EventBus
-    EventBus (EventBus'),
+    EventBus,
     newEventBus,
 
     -- ** EventSource
-    EventSource (EventSource'),
+    EventSource,
     newEventSource,
 
     -- ** FailoverConfig
-    FailoverConfig (FailoverConfig'),
+    FailoverConfig,
     newFailoverConfig,
 
     -- ** HttpParameters
-    HttpParameters (HttpParameters'),
+    HttpParameters,
     newHttpParameters,
 
     -- ** InputTransformer
-    InputTransformer (InputTransformer'),
+    InputTransformer,
     newInputTransformer,
 
     -- ** KinesisParameters
-    KinesisParameters (KinesisParameters'),
+    KinesisParameters,
     newKinesisParameters,
 
     -- ** NetworkConfiguration
-    NetworkConfiguration (NetworkConfiguration'),
+    NetworkConfiguration,
     newNetworkConfiguration,
 
     -- ** PartnerEventSource
-    PartnerEventSource (PartnerEventSource'),
+    PartnerEventSource,
     newPartnerEventSource,
 
     -- ** PartnerEventSourceAccount
-    PartnerEventSourceAccount (PartnerEventSourceAccount'),
+    PartnerEventSourceAccount,
     newPartnerEventSourceAccount,
 
     -- ** PlacementConstraint
-    PlacementConstraint (PlacementConstraint'),
+    PlacementConstraint,
     newPlacementConstraint,
 
     -- ** PlacementStrategy
-    PlacementStrategy (PlacementStrategy'),
+    PlacementStrategy,
     newPlacementStrategy,
 
     -- ** Primary
-    Primary (Primary'),
+    Primary,
     newPrimary,
 
     -- ** PutEventsRequestEntry
-    PutEventsRequestEntry (PutEventsRequestEntry'),
+    PutEventsRequestEntry,
     newPutEventsRequestEntry,
 
     -- ** PutEventsResultEntry
-    PutEventsResultEntry (PutEventsResultEntry'),
+    PutEventsResultEntry,
     newPutEventsResultEntry,
 
     -- ** PutPartnerEventsRequestEntry
-    PutPartnerEventsRequestEntry (PutPartnerEventsRequestEntry'),
+    PutPartnerEventsRequestEntry,
     newPutPartnerEventsRequestEntry,
 
     -- ** PutPartnerEventsResultEntry
-    PutPartnerEventsResultEntry (PutPartnerEventsResultEntry'),
+    PutPartnerEventsResultEntry,
     newPutPartnerEventsResultEntry,
 
     -- ** PutTargetsResultEntry
-    PutTargetsResultEntry (PutTargetsResultEntry'),
+    PutTargetsResultEntry,
     newPutTargetsResultEntry,
 
     -- ** RedshiftDataParameters
-    RedshiftDataParameters (RedshiftDataParameters'),
+    RedshiftDataParameters,
     newRedshiftDataParameters,
 
     -- ** RemoveTargetsResultEntry
-    RemoveTargetsResultEntry (RemoveTargetsResultEntry'),
+    RemoveTargetsResultEntry,
     newRemoveTargetsResultEntry,
 
     -- ** Replay
-    Replay (Replay'),
+    Replay,
     newReplay,
 
     -- ** ReplayDestination
-    ReplayDestination (ReplayDestination'),
+    ReplayDestination,
     newReplayDestination,
 
     -- ** ReplicationConfig
-    ReplicationConfig (ReplicationConfig'),
+    ReplicationConfig,
     newReplicationConfig,
 
     -- ** RetryPolicy
-    RetryPolicy (RetryPolicy'),
+    RetryPolicy,
     newRetryPolicy,
 
     -- ** RoutingConfig
-    RoutingConfig (RoutingConfig'),
+    RoutingConfig,
     newRoutingConfig,
 
     -- ** Rule
-    Rule (Rule'),
+    Rule,
     newRule,
 
     -- ** RunCommandParameters
-    RunCommandParameters (RunCommandParameters'),
+    RunCommandParameters,
     newRunCommandParameters,
 
     -- ** RunCommandTarget
-    RunCommandTarget (RunCommandTarget'),
+    RunCommandTarget,
     newRunCommandTarget,
 
     -- ** SageMakerPipelineParameter
-    SageMakerPipelineParameter (SageMakerPipelineParameter'),
+    SageMakerPipelineParameter,
     newSageMakerPipelineParameter,
 
     -- ** SageMakerPipelineParameters
-    SageMakerPipelineParameters (SageMakerPipelineParameters'),
+    SageMakerPipelineParameters,
     newSageMakerPipelineParameters,
 
     -- ** Secondary
-    Secondary (Secondary'),
+    Secondary,
     newSecondary,
 
     -- ** SqsParameters
-    SqsParameters (SqsParameters'),
+    SqsParameters,
     newSqsParameters,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
 
     -- ** Target
-    Target (Target'),
+    Target,
     newTarget,
 
     -- ** UpdateConnectionApiKeyAuthRequestParameters
-    UpdateConnectionApiKeyAuthRequestParameters (UpdateConnectionApiKeyAuthRequestParameters'),
+    UpdateConnectionApiKeyAuthRequestParameters,
     newUpdateConnectionApiKeyAuthRequestParameters,
 
     -- ** UpdateConnectionAuthRequestParameters
-    UpdateConnectionAuthRequestParameters (UpdateConnectionAuthRequestParameters'),
+    UpdateConnectionAuthRequestParameters,
     newUpdateConnectionAuthRequestParameters,
 
     -- ** UpdateConnectionBasicAuthRequestParameters
-    UpdateConnectionBasicAuthRequestParameters (UpdateConnectionBasicAuthRequestParameters'),
+    UpdateConnectionBasicAuthRequestParameters,
     newUpdateConnectionBasicAuthRequestParameters,
 
     -- ** UpdateConnectionOAuthClientRequestParameters
-    UpdateConnectionOAuthClientRequestParameters (UpdateConnectionOAuthClientRequestParameters'),
+    UpdateConnectionOAuthClientRequestParameters,
     newUpdateConnectionOAuthClientRequestParameters,
 
     -- ** UpdateConnectionOAuthRequestParameters
-    UpdateConnectionOAuthRequestParameters (UpdateConnectionOAuthRequestParameters'),
+    UpdateConnectionOAuthRequestParameters,
     newUpdateConnectionOAuthRequestParameters,
   )
 where

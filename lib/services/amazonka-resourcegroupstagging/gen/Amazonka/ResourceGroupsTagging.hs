@@ -44,51 +44,51 @@ module Amazonka.ResourceGroupsTagging
     -- $operations
 
     -- ** DescribeReportCreation
-    DescribeReportCreation (DescribeReportCreation'),
+    DescribeReportCreation,
     newDescribeReportCreation,
-    DescribeReportCreationResponse (DescribeReportCreationResponse'),
+    DescribeReportCreationResponse,
     newDescribeReportCreationResponse,
 
     -- ** GetComplianceSummary (Paginated)
-    GetComplianceSummary (GetComplianceSummary'),
+    GetComplianceSummary,
     newGetComplianceSummary,
-    GetComplianceSummaryResponse (GetComplianceSummaryResponse'),
+    GetComplianceSummaryResponse,
     newGetComplianceSummaryResponse,
 
     -- ** GetResources (Paginated)
-    GetResources (GetResources'),
+    GetResources,
     newGetResources,
-    GetResourcesResponse (GetResourcesResponse'),
+    GetResourcesResponse,
     newGetResourcesResponse,
 
     -- ** GetTagKeys (Paginated)
-    GetTagKeys (GetTagKeys'),
+    GetTagKeys,
     newGetTagKeys,
-    GetTagKeysResponse (GetTagKeysResponse'),
+    GetTagKeysResponse,
     newGetTagKeysResponse,
 
     -- ** GetTagValues (Paginated)
-    GetTagValues (GetTagValues'),
+    GetTagValues,
     newGetTagValues,
-    GetTagValuesResponse (GetTagValuesResponse'),
+    GetTagValuesResponse,
     newGetTagValuesResponse,
 
     -- ** StartReportCreation
-    StartReportCreation (StartReportCreation'),
+    StartReportCreation,
     newStartReportCreation,
-    StartReportCreationResponse (StartReportCreationResponse'),
+    StartReportCreationResponse,
     newStartReportCreationResponse,
 
     -- ** TagResources
-    TagResources (TagResources'),
+    TagResources,
     newTagResources,
-    TagResourcesResponse (TagResourcesResponse'),
+    TagResourcesResponse,
     newTagResourcesResponse,
 
     -- ** UntagResources
-    UntagResources (UntagResources'),
+    UntagResources,
     newUntagResources,
-    UntagResourcesResponse (UntagResourcesResponse'),
+    UntagResourcesResponse,
     newUntagResourcesResponse,
 
     -- * Types
@@ -103,27 +103,27 @@ module Amazonka.ResourceGroupsTagging
     TargetIdType (..),
 
     -- ** ComplianceDetails
-    ComplianceDetails (ComplianceDetails'),
+    ComplianceDetails,
     newComplianceDetails,
 
     -- ** FailureInfo
-    FailureInfo (FailureInfo'),
+    FailureInfo,
     newFailureInfo,
 
     -- ** ResourceTagMapping
-    ResourceTagMapping (ResourceTagMapping'),
+    ResourceTagMapping,
     newResourceTagMapping,
 
     -- ** Summary
-    Summary (Summary'),
+    Summary,
     newSummary,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
 
     -- ** TagFilter
-    TagFilter (TagFilter'),
+    TagFilter,
     newTagFilter,
   )
 where

@@ -58,285 +58,285 @@ module Amazonka.ChimeSDKMessaging
     -- $operations
 
     -- ** AssociateChannelFlow
-    AssociateChannelFlow (AssociateChannelFlow'),
+    AssociateChannelFlow,
     newAssociateChannelFlow,
-    AssociateChannelFlowResponse (AssociateChannelFlowResponse'),
+    AssociateChannelFlowResponse,
     newAssociateChannelFlowResponse,
 
     -- ** BatchCreateChannelMembership
-    BatchCreateChannelMembership (BatchCreateChannelMembership'),
+    BatchCreateChannelMembership,
     newBatchCreateChannelMembership,
-    BatchCreateChannelMembershipResponse (BatchCreateChannelMembershipResponse'),
+    BatchCreateChannelMembershipResponse,
     newBatchCreateChannelMembershipResponse,
 
     -- ** ChannelFlowCallback
-    ChannelFlowCallback (ChannelFlowCallback'),
+    ChannelFlowCallback,
     newChannelFlowCallback,
-    ChannelFlowCallbackResponse (ChannelFlowCallbackResponse'),
+    ChannelFlowCallbackResponse,
     newChannelFlowCallbackResponse,
 
     -- ** CreateChannel
-    CreateChannel (CreateChannel'),
+    CreateChannel,
     newCreateChannel,
-    CreateChannelResponse (CreateChannelResponse'),
+    CreateChannelResponse,
     newCreateChannelResponse,
 
     -- ** CreateChannelBan
-    CreateChannelBan (CreateChannelBan'),
+    CreateChannelBan,
     newCreateChannelBan,
-    CreateChannelBanResponse (CreateChannelBanResponse'),
+    CreateChannelBanResponse,
     newCreateChannelBanResponse,
 
     -- ** CreateChannelFlow
-    CreateChannelFlow (CreateChannelFlow'),
+    CreateChannelFlow,
     newCreateChannelFlow,
-    CreateChannelFlowResponse (CreateChannelFlowResponse'),
+    CreateChannelFlowResponse,
     newCreateChannelFlowResponse,
 
     -- ** CreateChannelMembership
-    CreateChannelMembership (CreateChannelMembership'),
+    CreateChannelMembership,
     newCreateChannelMembership,
-    CreateChannelMembershipResponse (CreateChannelMembershipResponse'),
+    CreateChannelMembershipResponse,
     newCreateChannelMembershipResponse,
 
     -- ** CreateChannelModerator
-    CreateChannelModerator (CreateChannelModerator'),
+    CreateChannelModerator,
     newCreateChannelModerator,
-    CreateChannelModeratorResponse (CreateChannelModeratorResponse'),
+    CreateChannelModeratorResponse,
     newCreateChannelModeratorResponse,
 
     -- ** DeleteChannel
-    DeleteChannel (DeleteChannel'),
+    DeleteChannel,
     newDeleteChannel,
-    DeleteChannelResponse (DeleteChannelResponse'),
+    DeleteChannelResponse,
     newDeleteChannelResponse,
 
     -- ** DeleteChannelBan
-    DeleteChannelBan (DeleteChannelBan'),
+    DeleteChannelBan,
     newDeleteChannelBan,
-    DeleteChannelBanResponse (DeleteChannelBanResponse'),
+    DeleteChannelBanResponse,
     newDeleteChannelBanResponse,
 
     -- ** DeleteChannelFlow
-    DeleteChannelFlow (DeleteChannelFlow'),
+    DeleteChannelFlow,
     newDeleteChannelFlow,
-    DeleteChannelFlowResponse (DeleteChannelFlowResponse'),
+    DeleteChannelFlowResponse,
     newDeleteChannelFlowResponse,
 
     -- ** DeleteChannelMembership
-    DeleteChannelMembership (DeleteChannelMembership'),
+    DeleteChannelMembership,
     newDeleteChannelMembership,
-    DeleteChannelMembershipResponse (DeleteChannelMembershipResponse'),
+    DeleteChannelMembershipResponse,
     newDeleteChannelMembershipResponse,
 
     -- ** DeleteChannelMessage
-    DeleteChannelMessage (DeleteChannelMessage'),
+    DeleteChannelMessage,
     newDeleteChannelMessage,
-    DeleteChannelMessageResponse (DeleteChannelMessageResponse'),
+    DeleteChannelMessageResponse,
     newDeleteChannelMessageResponse,
 
     -- ** DeleteChannelModerator
-    DeleteChannelModerator (DeleteChannelModerator'),
+    DeleteChannelModerator,
     newDeleteChannelModerator,
-    DeleteChannelModeratorResponse (DeleteChannelModeratorResponse'),
+    DeleteChannelModeratorResponse,
     newDeleteChannelModeratorResponse,
 
     -- ** DescribeChannel
-    DescribeChannel (DescribeChannel'),
+    DescribeChannel,
     newDescribeChannel,
-    DescribeChannelResponse (DescribeChannelResponse'),
+    DescribeChannelResponse,
     newDescribeChannelResponse,
 
     -- ** DescribeChannelBan
-    DescribeChannelBan (DescribeChannelBan'),
+    DescribeChannelBan,
     newDescribeChannelBan,
-    DescribeChannelBanResponse (DescribeChannelBanResponse'),
+    DescribeChannelBanResponse,
     newDescribeChannelBanResponse,
 
     -- ** DescribeChannelFlow
-    DescribeChannelFlow (DescribeChannelFlow'),
+    DescribeChannelFlow,
     newDescribeChannelFlow,
-    DescribeChannelFlowResponse (DescribeChannelFlowResponse'),
+    DescribeChannelFlowResponse,
     newDescribeChannelFlowResponse,
 
     -- ** DescribeChannelMembership
-    DescribeChannelMembership (DescribeChannelMembership'),
+    DescribeChannelMembership,
     newDescribeChannelMembership,
-    DescribeChannelMembershipResponse (DescribeChannelMembershipResponse'),
+    DescribeChannelMembershipResponse,
     newDescribeChannelMembershipResponse,
 
     -- ** DescribeChannelMembershipForAppInstanceUser
-    DescribeChannelMembershipForAppInstanceUser (DescribeChannelMembershipForAppInstanceUser'),
+    DescribeChannelMembershipForAppInstanceUser,
     newDescribeChannelMembershipForAppInstanceUser,
-    DescribeChannelMembershipForAppInstanceUserResponse (DescribeChannelMembershipForAppInstanceUserResponse'),
+    DescribeChannelMembershipForAppInstanceUserResponse,
     newDescribeChannelMembershipForAppInstanceUserResponse,
 
     -- ** DescribeChannelModeratedByAppInstanceUser
-    DescribeChannelModeratedByAppInstanceUser (DescribeChannelModeratedByAppInstanceUser'),
+    DescribeChannelModeratedByAppInstanceUser,
     newDescribeChannelModeratedByAppInstanceUser,
-    DescribeChannelModeratedByAppInstanceUserResponse (DescribeChannelModeratedByAppInstanceUserResponse'),
+    DescribeChannelModeratedByAppInstanceUserResponse,
     newDescribeChannelModeratedByAppInstanceUserResponse,
 
     -- ** DescribeChannelModerator
-    DescribeChannelModerator (DescribeChannelModerator'),
+    DescribeChannelModerator,
     newDescribeChannelModerator,
-    DescribeChannelModeratorResponse (DescribeChannelModeratorResponse'),
+    DescribeChannelModeratorResponse,
     newDescribeChannelModeratorResponse,
 
     -- ** DisassociateChannelFlow
-    DisassociateChannelFlow (DisassociateChannelFlow'),
+    DisassociateChannelFlow,
     newDisassociateChannelFlow,
-    DisassociateChannelFlowResponse (DisassociateChannelFlowResponse'),
+    DisassociateChannelFlowResponse,
     newDisassociateChannelFlowResponse,
 
     -- ** GetChannelMembershipPreferences
-    GetChannelMembershipPreferences (GetChannelMembershipPreferences'),
+    GetChannelMembershipPreferences,
     newGetChannelMembershipPreferences,
-    GetChannelMembershipPreferencesResponse (GetChannelMembershipPreferencesResponse'),
+    GetChannelMembershipPreferencesResponse,
     newGetChannelMembershipPreferencesResponse,
 
     -- ** GetChannelMessage
-    GetChannelMessage (GetChannelMessage'),
+    GetChannelMessage,
     newGetChannelMessage,
-    GetChannelMessageResponse (GetChannelMessageResponse'),
+    GetChannelMessageResponse,
     newGetChannelMessageResponse,
 
     -- ** GetChannelMessageStatus
-    GetChannelMessageStatus (GetChannelMessageStatus'),
+    GetChannelMessageStatus,
     newGetChannelMessageStatus,
-    GetChannelMessageStatusResponse (GetChannelMessageStatusResponse'),
+    GetChannelMessageStatusResponse,
     newGetChannelMessageStatusResponse,
 
     -- ** GetMessagingSessionEndpoint
-    GetMessagingSessionEndpoint (GetMessagingSessionEndpoint'),
+    GetMessagingSessionEndpoint,
     newGetMessagingSessionEndpoint,
-    GetMessagingSessionEndpointResponse (GetMessagingSessionEndpointResponse'),
+    GetMessagingSessionEndpointResponse,
     newGetMessagingSessionEndpointResponse,
 
     -- ** ListChannelBans
-    ListChannelBans (ListChannelBans'),
+    ListChannelBans,
     newListChannelBans,
-    ListChannelBansResponse (ListChannelBansResponse'),
+    ListChannelBansResponse,
     newListChannelBansResponse,
 
     -- ** ListChannelFlows
-    ListChannelFlows (ListChannelFlows'),
+    ListChannelFlows,
     newListChannelFlows,
-    ListChannelFlowsResponse (ListChannelFlowsResponse'),
+    ListChannelFlowsResponse,
     newListChannelFlowsResponse,
 
     -- ** ListChannelMemberships
-    ListChannelMemberships (ListChannelMemberships'),
+    ListChannelMemberships,
     newListChannelMemberships,
-    ListChannelMembershipsResponse (ListChannelMembershipsResponse'),
+    ListChannelMembershipsResponse,
     newListChannelMembershipsResponse,
 
     -- ** ListChannelMembershipsForAppInstanceUser
-    ListChannelMembershipsForAppInstanceUser (ListChannelMembershipsForAppInstanceUser'),
+    ListChannelMembershipsForAppInstanceUser,
     newListChannelMembershipsForAppInstanceUser,
-    ListChannelMembershipsForAppInstanceUserResponse (ListChannelMembershipsForAppInstanceUserResponse'),
+    ListChannelMembershipsForAppInstanceUserResponse,
     newListChannelMembershipsForAppInstanceUserResponse,
 
     -- ** ListChannelMessages
-    ListChannelMessages (ListChannelMessages'),
+    ListChannelMessages,
     newListChannelMessages,
-    ListChannelMessagesResponse (ListChannelMessagesResponse'),
+    ListChannelMessagesResponse,
     newListChannelMessagesResponse,
 
     -- ** ListChannelModerators
-    ListChannelModerators (ListChannelModerators'),
+    ListChannelModerators,
     newListChannelModerators,
-    ListChannelModeratorsResponse (ListChannelModeratorsResponse'),
+    ListChannelModeratorsResponse,
     newListChannelModeratorsResponse,
 
     -- ** ListChannels
-    ListChannels (ListChannels'),
+    ListChannels,
     newListChannels,
-    ListChannelsResponse (ListChannelsResponse'),
+    ListChannelsResponse,
     newListChannelsResponse,
 
     -- ** ListChannelsAssociatedWithChannelFlow
-    ListChannelsAssociatedWithChannelFlow (ListChannelsAssociatedWithChannelFlow'),
+    ListChannelsAssociatedWithChannelFlow,
     newListChannelsAssociatedWithChannelFlow,
-    ListChannelsAssociatedWithChannelFlowResponse (ListChannelsAssociatedWithChannelFlowResponse'),
+    ListChannelsAssociatedWithChannelFlowResponse,
     newListChannelsAssociatedWithChannelFlowResponse,
 
     -- ** ListChannelsModeratedByAppInstanceUser
-    ListChannelsModeratedByAppInstanceUser (ListChannelsModeratedByAppInstanceUser'),
+    ListChannelsModeratedByAppInstanceUser,
     newListChannelsModeratedByAppInstanceUser,
-    ListChannelsModeratedByAppInstanceUserResponse (ListChannelsModeratedByAppInstanceUserResponse'),
+    ListChannelsModeratedByAppInstanceUserResponse,
     newListChannelsModeratedByAppInstanceUserResponse,
 
     -- ** ListSubChannels
-    ListSubChannels (ListSubChannels'),
+    ListSubChannels,
     newListSubChannels,
-    ListSubChannelsResponse (ListSubChannelsResponse'),
+    ListSubChannelsResponse,
     newListSubChannelsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** PutChannelMembershipPreferences
-    PutChannelMembershipPreferences (PutChannelMembershipPreferences'),
+    PutChannelMembershipPreferences,
     newPutChannelMembershipPreferences,
-    PutChannelMembershipPreferencesResponse (PutChannelMembershipPreferencesResponse'),
+    PutChannelMembershipPreferencesResponse,
     newPutChannelMembershipPreferencesResponse,
 
     -- ** RedactChannelMessage
-    RedactChannelMessage (RedactChannelMessage'),
+    RedactChannelMessage,
     newRedactChannelMessage,
-    RedactChannelMessageResponse (RedactChannelMessageResponse'),
+    RedactChannelMessageResponse,
     newRedactChannelMessageResponse,
 
     -- ** SearchChannels
-    SearchChannels (SearchChannels'),
+    SearchChannels,
     newSearchChannels,
-    SearchChannelsResponse (SearchChannelsResponse'),
+    SearchChannelsResponse,
     newSearchChannelsResponse,
 
     -- ** SendChannelMessage
-    SendChannelMessage (SendChannelMessage'),
+    SendChannelMessage,
     newSendChannelMessage,
-    SendChannelMessageResponse (SendChannelMessageResponse'),
+    SendChannelMessageResponse,
     newSendChannelMessageResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateChannel
-    UpdateChannel (UpdateChannel'),
+    UpdateChannel,
     newUpdateChannel,
-    UpdateChannelResponse (UpdateChannelResponse'),
+    UpdateChannelResponse,
     newUpdateChannelResponse,
 
     -- ** UpdateChannelFlow
-    UpdateChannelFlow (UpdateChannelFlow'),
+    UpdateChannelFlow,
     newUpdateChannelFlow,
-    UpdateChannelFlowResponse (UpdateChannelFlowResponse'),
+    UpdateChannelFlowResponse,
     newUpdateChannelFlowResponse,
 
     -- ** UpdateChannelMessage
-    UpdateChannelMessage (UpdateChannelMessage'),
+    UpdateChannelMessage,
     newUpdateChannelMessage,
-    UpdateChannelMessageResponse (UpdateChannelMessageResponse'),
+    UpdateChannelMessageResponse,
     newUpdateChannelMessageResponse,
 
     -- ** UpdateChannelReadMarker
-    UpdateChannelReadMarker (UpdateChannelReadMarker'),
+    UpdateChannelReadMarker,
     newUpdateChannelReadMarker,
-    UpdateChannelReadMarkerResponse (UpdateChannelReadMarkerResponse'),
+    UpdateChannelReadMarkerResponse,
     newUpdateChannelReadMarkerResponse,
 
     -- * Types
@@ -384,135 +384,135 @@ module Amazonka.ChimeSDKMessaging
     SortOrder (..),
 
     -- ** AppInstanceUserMembershipSummary
-    AppInstanceUserMembershipSummary (AppInstanceUserMembershipSummary'),
+    AppInstanceUserMembershipSummary,
     newAppInstanceUserMembershipSummary,
 
     -- ** BatchChannelMemberships
-    BatchChannelMemberships (BatchChannelMemberships'),
+    BatchChannelMemberships,
     newBatchChannelMemberships,
 
     -- ** BatchCreateChannelMembershipError
-    BatchCreateChannelMembershipError (BatchCreateChannelMembershipError'),
+    BatchCreateChannelMembershipError,
     newBatchCreateChannelMembershipError,
 
     -- ** Channel
-    Channel (Channel'),
+    Channel,
     newChannel,
 
     -- ** ChannelAssociatedWithFlowSummary
-    ChannelAssociatedWithFlowSummary (ChannelAssociatedWithFlowSummary'),
+    ChannelAssociatedWithFlowSummary,
     newChannelAssociatedWithFlowSummary,
 
     -- ** ChannelBan
-    ChannelBan (ChannelBan'),
+    ChannelBan,
     newChannelBan,
 
     -- ** ChannelBanSummary
-    ChannelBanSummary (ChannelBanSummary'),
+    ChannelBanSummary,
     newChannelBanSummary,
 
     -- ** ChannelFlow
-    ChannelFlow (ChannelFlow'),
+    ChannelFlow,
     newChannelFlow,
 
     -- ** ChannelFlowSummary
-    ChannelFlowSummary (ChannelFlowSummary'),
+    ChannelFlowSummary,
     newChannelFlowSummary,
 
     -- ** ChannelMembership
-    ChannelMembership (ChannelMembership'),
+    ChannelMembership,
     newChannelMembership,
 
     -- ** ChannelMembershipForAppInstanceUserSummary
-    ChannelMembershipForAppInstanceUserSummary (ChannelMembershipForAppInstanceUserSummary'),
+    ChannelMembershipForAppInstanceUserSummary,
     newChannelMembershipForAppInstanceUserSummary,
 
     -- ** ChannelMembershipPreferences
-    ChannelMembershipPreferences (ChannelMembershipPreferences'),
+    ChannelMembershipPreferences,
     newChannelMembershipPreferences,
 
     -- ** ChannelMembershipSummary
-    ChannelMembershipSummary (ChannelMembershipSummary'),
+    ChannelMembershipSummary,
     newChannelMembershipSummary,
 
     -- ** ChannelMessage
-    ChannelMessage (ChannelMessage'),
+    ChannelMessage,
     newChannelMessage,
 
     -- ** ChannelMessageCallback
-    ChannelMessageCallback (ChannelMessageCallback'),
+    ChannelMessageCallback,
     newChannelMessageCallback,
 
     -- ** ChannelMessageStatusStructure
-    ChannelMessageStatusStructure (ChannelMessageStatusStructure'),
+    ChannelMessageStatusStructure,
     newChannelMessageStatusStructure,
 
     -- ** ChannelMessageSummary
-    ChannelMessageSummary (ChannelMessageSummary'),
+    ChannelMessageSummary,
     newChannelMessageSummary,
 
     -- ** ChannelModeratedByAppInstanceUserSummary
-    ChannelModeratedByAppInstanceUserSummary (ChannelModeratedByAppInstanceUserSummary'),
+    ChannelModeratedByAppInstanceUserSummary,
     newChannelModeratedByAppInstanceUserSummary,
 
     -- ** ChannelModerator
-    ChannelModerator (ChannelModerator'),
+    ChannelModerator,
     newChannelModerator,
 
     -- ** ChannelModeratorSummary
-    ChannelModeratorSummary (ChannelModeratorSummary'),
+    ChannelModeratorSummary,
     newChannelModeratorSummary,
 
     -- ** ChannelSummary
-    ChannelSummary (ChannelSummary'),
+    ChannelSummary,
     newChannelSummary,
 
     -- ** ElasticChannelConfiguration
-    ElasticChannelConfiguration (ElasticChannelConfiguration'),
+    ElasticChannelConfiguration,
     newElasticChannelConfiguration,
 
     -- ** Identity
-    Identity (Identity'),
+    Identity,
     newIdentity,
 
     -- ** LambdaConfiguration
-    LambdaConfiguration (LambdaConfiguration'),
+    LambdaConfiguration,
     newLambdaConfiguration,
 
     -- ** MessageAttributeValue
-    MessageAttributeValue (MessageAttributeValue'),
+    MessageAttributeValue,
     newMessageAttributeValue,
 
     -- ** MessagingSessionEndpoint
-    MessagingSessionEndpoint (MessagingSessionEndpoint'),
+    MessagingSessionEndpoint,
     newMessagingSessionEndpoint,
 
     -- ** Processor
-    Processor (Processor'),
+    Processor,
     newProcessor,
 
     -- ** ProcessorConfiguration
-    ProcessorConfiguration (ProcessorConfiguration'),
+    ProcessorConfiguration,
     newProcessorConfiguration,
 
     -- ** PushNotificationConfiguration
-    PushNotificationConfiguration (PushNotificationConfiguration'),
+    PushNotificationConfiguration,
     newPushNotificationConfiguration,
 
     -- ** PushNotificationPreferences
-    PushNotificationPreferences (PushNotificationPreferences'),
+    PushNotificationPreferences,
     newPushNotificationPreferences,
 
     -- ** SearchField
-    SearchField (SearchField'),
+    SearchField,
     newSearchField,
 
     -- ** SubChannelSummary
-    SubChannelSummary (SubChannelSummary'),
+    SubChannelSummary,
     newSubChannelSummary,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
   )
 where

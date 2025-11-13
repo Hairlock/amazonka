@@ -58,93 +58,93 @@ module Amazonka.OAM
     -- $operations
 
     -- ** CreateLink
-    CreateLink (CreateLink'),
+    CreateLink,
     newCreateLink,
-    CreateLinkResponse (CreateLinkResponse'),
+    CreateLinkResponse,
     newCreateLinkResponse,
 
     -- ** CreateSink
-    CreateSink (CreateSink'),
+    CreateSink,
     newCreateSink,
-    CreateSinkResponse (CreateSinkResponse'),
+    CreateSinkResponse,
     newCreateSinkResponse,
 
     -- ** DeleteLink
-    DeleteLink (DeleteLink'),
+    DeleteLink,
     newDeleteLink,
-    DeleteLinkResponse (DeleteLinkResponse'),
+    DeleteLinkResponse,
     newDeleteLinkResponse,
 
     -- ** DeleteSink
-    DeleteSink (DeleteSink'),
+    DeleteSink,
     newDeleteSink,
-    DeleteSinkResponse (DeleteSinkResponse'),
+    DeleteSinkResponse,
     newDeleteSinkResponse,
 
     -- ** GetLink
-    GetLink (GetLink'),
+    GetLink,
     newGetLink,
-    GetLinkResponse (GetLinkResponse'),
+    GetLinkResponse,
     newGetLinkResponse,
 
     -- ** GetSink
-    GetSink (GetSink'),
+    GetSink,
     newGetSink,
-    GetSinkResponse (GetSinkResponse'),
+    GetSinkResponse,
     newGetSinkResponse,
 
     -- ** GetSinkPolicy
-    GetSinkPolicy (GetSinkPolicy'),
+    GetSinkPolicy,
     newGetSinkPolicy,
-    GetSinkPolicyResponse (GetSinkPolicyResponse'),
+    GetSinkPolicyResponse,
     newGetSinkPolicyResponse,
 
     -- ** ListAttachedLinks (Paginated)
-    ListAttachedLinks (ListAttachedLinks'),
+    ListAttachedLinks,
     newListAttachedLinks,
-    ListAttachedLinksResponse (ListAttachedLinksResponse'),
+    ListAttachedLinksResponse,
     newListAttachedLinksResponse,
 
     -- ** ListLinks (Paginated)
-    ListLinks (ListLinks'),
+    ListLinks,
     newListLinks,
-    ListLinksResponse (ListLinksResponse'),
+    ListLinksResponse,
     newListLinksResponse,
 
     -- ** ListSinks (Paginated)
-    ListSinks (ListSinks'),
+    ListSinks,
     newListSinks,
-    ListSinksResponse (ListSinksResponse'),
+    ListSinksResponse,
     newListSinksResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** PutSinkPolicy
-    PutSinkPolicy (PutSinkPolicy'),
+    PutSinkPolicy,
     newPutSinkPolicy,
-    PutSinkPolicyResponse (PutSinkPolicyResponse'),
+    PutSinkPolicyResponse,
     newPutSinkPolicyResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateLink
-    UpdateLink (UpdateLink'),
+    UpdateLink,
     newUpdateLink,
-    UpdateLinkResponse (UpdateLinkResponse'),
+    UpdateLinkResponse,
     newUpdateLinkResponse,
 
     -- * Types
@@ -153,15 +153,15 @@ module Amazonka.OAM
     ResourceType (..),
 
     -- ** ListAttachedLinksItem
-    ListAttachedLinksItem (ListAttachedLinksItem'),
+    ListAttachedLinksItem,
     newListAttachedLinksItem,
 
     -- ** ListLinksItem
-    ListLinksItem (ListLinksItem'),
+    ListLinksItem,
     newListLinksItem,
 
     -- ** ListSinksItem
-    ListSinksItem (ListSinksItem'),
+    ListSinksItem,
     newListSinksItem,
   )
 where

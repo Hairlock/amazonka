@@ -67,177 +67,177 @@ module Amazonka.GreengrassV2
     -- $operations
 
     -- ** AssociateServiceRoleToAccount
-    AssociateServiceRoleToAccount (AssociateServiceRoleToAccount'),
+    AssociateServiceRoleToAccount,
     newAssociateServiceRoleToAccount,
-    AssociateServiceRoleToAccountResponse (AssociateServiceRoleToAccountResponse'),
+    AssociateServiceRoleToAccountResponse,
     newAssociateServiceRoleToAccountResponse,
 
     -- ** BatchAssociateClientDeviceWithCoreDevice
-    BatchAssociateClientDeviceWithCoreDevice (BatchAssociateClientDeviceWithCoreDevice'),
+    BatchAssociateClientDeviceWithCoreDevice,
     newBatchAssociateClientDeviceWithCoreDevice,
-    BatchAssociateClientDeviceWithCoreDeviceResponse (BatchAssociateClientDeviceWithCoreDeviceResponse'),
+    BatchAssociateClientDeviceWithCoreDeviceResponse,
     newBatchAssociateClientDeviceWithCoreDeviceResponse,
 
     -- ** BatchDisassociateClientDeviceFromCoreDevice
-    BatchDisassociateClientDeviceFromCoreDevice (BatchDisassociateClientDeviceFromCoreDevice'),
+    BatchDisassociateClientDeviceFromCoreDevice,
     newBatchDisassociateClientDeviceFromCoreDevice,
-    BatchDisassociateClientDeviceFromCoreDeviceResponse (BatchDisassociateClientDeviceFromCoreDeviceResponse'),
+    BatchDisassociateClientDeviceFromCoreDeviceResponse,
     newBatchDisassociateClientDeviceFromCoreDeviceResponse,
 
     -- ** CancelDeployment
-    CancelDeployment (CancelDeployment'),
+    CancelDeployment,
     newCancelDeployment,
-    CancelDeploymentResponse (CancelDeploymentResponse'),
+    CancelDeploymentResponse,
     newCancelDeploymentResponse,
 
     -- ** CreateComponentVersion
-    CreateComponentVersion (CreateComponentVersion'),
+    CreateComponentVersion,
     newCreateComponentVersion,
-    CreateComponentVersionResponse (CreateComponentVersionResponse'),
+    CreateComponentVersionResponse,
     newCreateComponentVersionResponse,
 
     -- ** CreateDeployment
-    CreateDeployment (CreateDeployment'),
+    CreateDeployment,
     newCreateDeployment,
-    CreateDeploymentResponse (CreateDeploymentResponse'),
+    CreateDeploymentResponse,
     newCreateDeploymentResponse,
 
     -- ** DeleteComponent
-    DeleteComponent (DeleteComponent'),
+    DeleteComponent,
     newDeleteComponent,
-    DeleteComponentResponse (DeleteComponentResponse'),
+    DeleteComponentResponse,
     newDeleteComponentResponse,
 
     -- ** DeleteCoreDevice
-    DeleteCoreDevice (DeleteCoreDevice'),
+    DeleteCoreDevice,
     newDeleteCoreDevice,
-    DeleteCoreDeviceResponse (DeleteCoreDeviceResponse'),
+    DeleteCoreDeviceResponse,
     newDeleteCoreDeviceResponse,
 
     -- ** DeleteDeployment
-    DeleteDeployment (DeleteDeployment'),
+    DeleteDeployment,
     newDeleteDeployment,
-    DeleteDeploymentResponse (DeleteDeploymentResponse'),
+    DeleteDeploymentResponse,
     newDeleteDeploymentResponse,
 
     -- ** DescribeComponent
-    DescribeComponent (DescribeComponent'),
+    DescribeComponent,
     newDescribeComponent,
-    DescribeComponentResponse (DescribeComponentResponse'),
+    DescribeComponentResponse,
     newDescribeComponentResponse,
 
     -- ** DisassociateServiceRoleFromAccount
-    DisassociateServiceRoleFromAccount (DisassociateServiceRoleFromAccount'),
+    DisassociateServiceRoleFromAccount,
     newDisassociateServiceRoleFromAccount,
-    DisassociateServiceRoleFromAccountResponse (DisassociateServiceRoleFromAccountResponse'),
+    DisassociateServiceRoleFromAccountResponse,
     newDisassociateServiceRoleFromAccountResponse,
 
     -- ** GetComponent
-    GetComponent (GetComponent'),
+    GetComponent,
     newGetComponent,
-    GetComponentResponse (GetComponentResponse'),
+    GetComponentResponse,
     newGetComponentResponse,
 
     -- ** GetComponentVersionArtifact
-    GetComponentVersionArtifact (GetComponentVersionArtifact'),
+    GetComponentVersionArtifact,
     newGetComponentVersionArtifact,
-    GetComponentVersionArtifactResponse (GetComponentVersionArtifactResponse'),
+    GetComponentVersionArtifactResponse,
     newGetComponentVersionArtifactResponse,
 
     -- ** GetConnectivityInfo
-    GetConnectivityInfo (GetConnectivityInfo'),
+    GetConnectivityInfo,
     newGetConnectivityInfo,
-    GetConnectivityInfoResponse (GetConnectivityInfoResponse'),
+    GetConnectivityInfoResponse,
     newGetConnectivityInfoResponse,
 
     -- ** GetCoreDevice
-    GetCoreDevice (GetCoreDevice'),
+    GetCoreDevice,
     newGetCoreDevice,
-    GetCoreDeviceResponse (GetCoreDeviceResponse'),
+    GetCoreDeviceResponse,
     newGetCoreDeviceResponse,
 
     -- ** GetDeployment
-    GetDeployment (GetDeployment'),
+    GetDeployment,
     newGetDeployment,
-    GetDeploymentResponse (GetDeploymentResponse'),
+    GetDeploymentResponse,
     newGetDeploymentResponse,
 
     -- ** GetServiceRoleForAccount
-    GetServiceRoleForAccount (GetServiceRoleForAccount'),
+    GetServiceRoleForAccount,
     newGetServiceRoleForAccount,
-    GetServiceRoleForAccountResponse (GetServiceRoleForAccountResponse'),
+    GetServiceRoleForAccountResponse,
     newGetServiceRoleForAccountResponse,
 
     -- ** ListClientDevicesAssociatedWithCoreDevice (Paginated)
-    ListClientDevicesAssociatedWithCoreDevice (ListClientDevicesAssociatedWithCoreDevice'),
+    ListClientDevicesAssociatedWithCoreDevice,
     newListClientDevicesAssociatedWithCoreDevice,
-    ListClientDevicesAssociatedWithCoreDeviceResponse (ListClientDevicesAssociatedWithCoreDeviceResponse'),
+    ListClientDevicesAssociatedWithCoreDeviceResponse,
     newListClientDevicesAssociatedWithCoreDeviceResponse,
 
     -- ** ListComponentVersions (Paginated)
-    ListComponentVersions (ListComponentVersions'),
+    ListComponentVersions,
     newListComponentVersions,
-    ListComponentVersionsResponse (ListComponentVersionsResponse'),
+    ListComponentVersionsResponse,
     newListComponentVersionsResponse,
 
     -- ** ListComponents (Paginated)
-    ListComponents (ListComponents'),
+    ListComponents,
     newListComponents,
-    ListComponentsResponse (ListComponentsResponse'),
+    ListComponentsResponse,
     newListComponentsResponse,
 
     -- ** ListCoreDevices (Paginated)
-    ListCoreDevices (ListCoreDevices'),
+    ListCoreDevices,
     newListCoreDevices,
-    ListCoreDevicesResponse (ListCoreDevicesResponse'),
+    ListCoreDevicesResponse,
     newListCoreDevicesResponse,
 
     -- ** ListDeployments (Paginated)
-    ListDeployments (ListDeployments'),
+    ListDeployments,
     newListDeployments,
-    ListDeploymentsResponse (ListDeploymentsResponse'),
+    ListDeploymentsResponse,
     newListDeploymentsResponse,
 
     -- ** ListEffectiveDeployments (Paginated)
-    ListEffectiveDeployments (ListEffectiveDeployments'),
+    ListEffectiveDeployments,
     newListEffectiveDeployments,
-    ListEffectiveDeploymentsResponse (ListEffectiveDeploymentsResponse'),
+    ListEffectiveDeploymentsResponse,
     newListEffectiveDeploymentsResponse,
 
     -- ** ListInstalledComponents (Paginated)
-    ListInstalledComponents (ListInstalledComponents'),
+    ListInstalledComponents,
     newListInstalledComponents,
-    ListInstalledComponentsResponse (ListInstalledComponentsResponse'),
+    ListInstalledComponentsResponse,
     newListInstalledComponentsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** ResolveComponentCandidates
-    ResolveComponentCandidates (ResolveComponentCandidates'),
+    ResolveComponentCandidates,
     newResolveComponentCandidates,
-    ResolveComponentCandidatesResponse (ResolveComponentCandidatesResponse'),
+    ResolveComponentCandidatesResponse,
     newResolveComponentCandidatesResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateConnectivityInfo
-    UpdateConnectivityInfo (UpdateConnectivityInfo'),
+    UpdateConnectivityInfo,
     newUpdateConnectivityInfo,
-    UpdateConnectivityInfoResponse (UpdateConnectivityInfoResponse'),
+    UpdateConnectivityInfoResponse,
     newUpdateConnectivityInfoResponse,
 
     -- * Types
@@ -300,163 +300,163 @@ module Amazonka.GreengrassV2
     VendorGuidance (..),
 
     -- ** AssociateClientDeviceWithCoreDeviceEntry
-    AssociateClientDeviceWithCoreDeviceEntry (AssociateClientDeviceWithCoreDeviceEntry'),
+    AssociateClientDeviceWithCoreDeviceEntry,
     newAssociateClientDeviceWithCoreDeviceEntry,
 
     -- ** AssociateClientDeviceWithCoreDeviceErrorEntry
-    AssociateClientDeviceWithCoreDeviceErrorEntry (AssociateClientDeviceWithCoreDeviceErrorEntry'),
+    AssociateClientDeviceWithCoreDeviceErrorEntry,
     newAssociateClientDeviceWithCoreDeviceErrorEntry,
 
     -- ** AssociatedClientDevice
-    AssociatedClientDevice (AssociatedClientDevice'),
+    AssociatedClientDevice,
     newAssociatedClientDevice,
 
     -- ** CloudComponentStatus
-    CloudComponentStatus (CloudComponentStatus'),
+    CloudComponentStatus,
     newCloudComponentStatus,
 
     -- ** Component
-    Component (Component'),
+    Component,
     newComponent,
 
     -- ** ComponentCandidate
-    ComponentCandidate (ComponentCandidate'),
+    ComponentCandidate,
     newComponentCandidate,
 
     -- ** ComponentConfigurationUpdate
-    ComponentConfigurationUpdate (ComponentConfigurationUpdate'),
+    ComponentConfigurationUpdate,
     newComponentConfigurationUpdate,
 
     -- ** ComponentDependencyRequirement
-    ComponentDependencyRequirement (ComponentDependencyRequirement'),
+    ComponentDependencyRequirement,
     newComponentDependencyRequirement,
 
     -- ** ComponentDeploymentSpecification
-    ComponentDeploymentSpecification (ComponentDeploymentSpecification'),
+    ComponentDeploymentSpecification,
     newComponentDeploymentSpecification,
 
     -- ** ComponentLatestVersion
-    ComponentLatestVersion (ComponentLatestVersion'),
+    ComponentLatestVersion,
     newComponentLatestVersion,
 
     -- ** ComponentPlatform
-    ComponentPlatform (ComponentPlatform'),
+    ComponentPlatform,
     newComponentPlatform,
 
     -- ** ComponentRunWith
-    ComponentRunWith (ComponentRunWith'),
+    ComponentRunWith,
     newComponentRunWith,
 
     -- ** ComponentVersionListItem
-    ComponentVersionListItem (ComponentVersionListItem'),
+    ComponentVersionListItem,
     newComponentVersionListItem,
 
     -- ** ConnectivityInfo
-    ConnectivityInfo (ConnectivityInfo'),
+    ConnectivityInfo,
     newConnectivityInfo,
 
     -- ** CoreDevice
-    CoreDevice (CoreDevice'),
+    CoreDevice,
     newCoreDevice,
 
     -- ** Deployment
-    Deployment (Deployment'),
+    Deployment,
     newDeployment,
 
     -- ** DeploymentComponentUpdatePolicy
-    DeploymentComponentUpdatePolicy (DeploymentComponentUpdatePolicy'),
+    DeploymentComponentUpdatePolicy,
     newDeploymentComponentUpdatePolicy,
 
     -- ** DeploymentConfigurationValidationPolicy
-    DeploymentConfigurationValidationPolicy (DeploymentConfigurationValidationPolicy'),
+    DeploymentConfigurationValidationPolicy,
     newDeploymentConfigurationValidationPolicy,
 
     -- ** DeploymentIoTJobConfiguration
-    DeploymentIoTJobConfiguration (DeploymentIoTJobConfiguration'),
+    DeploymentIoTJobConfiguration,
     newDeploymentIoTJobConfiguration,
 
     -- ** DeploymentPolicies
-    DeploymentPolicies (DeploymentPolicies'),
+    DeploymentPolicies,
     newDeploymentPolicies,
 
     -- ** DisassociateClientDeviceFromCoreDeviceEntry
-    DisassociateClientDeviceFromCoreDeviceEntry (DisassociateClientDeviceFromCoreDeviceEntry'),
+    DisassociateClientDeviceFromCoreDeviceEntry,
     newDisassociateClientDeviceFromCoreDeviceEntry,
 
     -- ** DisassociateClientDeviceFromCoreDeviceErrorEntry
-    DisassociateClientDeviceFromCoreDeviceErrorEntry (DisassociateClientDeviceFromCoreDeviceErrorEntry'),
+    DisassociateClientDeviceFromCoreDeviceErrorEntry,
     newDisassociateClientDeviceFromCoreDeviceErrorEntry,
 
     -- ** EffectiveDeployment
-    EffectiveDeployment (EffectiveDeployment'),
+    EffectiveDeployment,
     newEffectiveDeployment,
 
     -- ** EffectiveDeploymentStatusDetails
-    EffectiveDeploymentStatusDetails (EffectiveDeploymentStatusDetails'),
+    EffectiveDeploymentStatusDetails,
     newEffectiveDeploymentStatusDetails,
 
     -- ** InstalledComponent
-    InstalledComponent (InstalledComponent'),
+    InstalledComponent,
     newInstalledComponent,
 
     -- ** IoTJobAbortConfig
-    IoTJobAbortConfig (IoTJobAbortConfig'),
+    IoTJobAbortConfig,
     newIoTJobAbortConfig,
 
     -- ** IoTJobAbortCriteria
-    IoTJobAbortCriteria (IoTJobAbortCriteria'),
+    IoTJobAbortCriteria,
     newIoTJobAbortCriteria,
 
     -- ** IoTJobExecutionsRolloutConfig
-    IoTJobExecutionsRolloutConfig (IoTJobExecutionsRolloutConfig'),
+    IoTJobExecutionsRolloutConfig,
     newIoTJobExecutionsRolloutConfig,
 
     -- ** IoTJobExponentialRolloutRate
-    IoTJobExponentialRolloutRate (IoTJobExponentialRolloutRate'),
+    IoTJobExponentialRolloutRate,
     newIoTJobExponentialRolloutRate,
 
     -- ** IoTJobRateIncreaseCriteria
-    IoTJobRateIncreaseCriteria (IoTJobRateIncreaseCriteria'),
+    IoTJobRateIncreaseCriteria,
     newIoTJobRateIncreaseCriteria,
 
     -- ** IoTJobTimeoutConfig
-    IoTJobTimeoutConfig (IoTJobTimeoutConfig'),
+    IoTJobTimeoutConfig,
     newIoTJobTimeoutConfig,
 
     -- ** LambdaContainerParams
-    LambdaContainerParams (LambdaContainerParams'),
+    LambdaContainerParams,
     newLambdaContainerParams,
 
     -- ** LambdaDeviceMount
-    LambdaDeviceMount (LambdaDeviceMount'),
+    LambdaDeviceMount,
     newLambdaDeviceMount,
 
     -- ** LambdaEventSource
-    LambdaEventSource (LambdaEventSource'),
+    LambdaEventSource,
     newLambdaEventSource,
 
     -- ** LambdaExecutionParameters
-    LambdaExecutionParameters (LambdaExecutionParameters'),
+    LambdaExecutionParameters,
     newLambdaExecutionParameters,
 
     -- ** LambdaFunctionRecipeSource
-    LambdaFunctionRecipeSource (LambdaFunctionRecipeSource'),
+    LambdaFunctionRecipeSource,
     newLambdaFunctionRecipeSource,
 
     -- ** LambdaLinuxProcessParams
-    LambdaLinuxProcessParams (LambdaLinuxProcessParams'),
+    LambdaLinuxProcessParams,
     newLambdaLinuxProcessParams,
 
     -- ** LambdaVolumeMount
-    LambdaVolumeMount (LambdaVolumeMount'),
+    LambdaVolumeMount,
     newLambdaVolumeMount,
 
     -- ** ResolvedComponentVersion
-    ResolvedComponentVersion (ResolvedComponentVersion'),
+    ResolvedComponentVersion,
     newResolvedComponentVersion,
 
     -- ** SystemResourceLimits
-    SystemResourceLimits (SystemResourceLimits'),
+    SystemResourceLimits,
     newSystemResourceLimits,
   )
 where

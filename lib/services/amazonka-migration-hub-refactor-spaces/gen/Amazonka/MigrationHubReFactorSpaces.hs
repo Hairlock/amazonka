@@ -65,147 +65,147 @@ module Amazonka.MigrationHubReFactorSpaces
     -- $operations
 
     -- ** CreateApplication
-    CreateApplication (CreateApplication'),
+    CreateApplication,
     newCreateApplication,
-    CreateApplicationResponse (CreateApplicationResponse'),
+    CreateApplicationResponse,
     newCreateApplicationResponse,
 
     -- ** CreateEnvironment
-    CreateEnvironment (CreateEnvironment'),
+    CreateEnvironment,
     newCreateEnvironment,
-    CreateEnvironmentResponse (CreateEnvironmentResponse'),
+    CreateEnvironmentResponse,
     newCreateEnvironmentResponse,
 
     -- ** CreateRoute
-    CreateRoute (CreateRoute'),
+    CreateRoute,
     newCreateRoute,
-    CreateRouteResponse (CreateRouteResponse'),
+    CreateRouteResponse,
     newCreateRouteResponse,
 
     -- ** CreateService
-    CreateService (CreateService'),
+    CreateService,
     newCreateService,
-    CreateServiceResponse (CreateServiceResponse'),
+    CreateServiceResponse,
     newCreateServiceResponse,
 
     -- ** DeleteApplication
-    DeleteApplication (DeleteApplication'),
+    DeleteApplication,
     newDeleteApplication,
-    DeleteApplicationResponse (DeleteApplicationResponse'),
+    DeleteApplicationResponse,
     newDeleteApplicationResponse,
 
     -- ** DeleteEnvironment
-    DeleteEnvironment (DeleteEnvironment'),
+    DeleteEnvironment,
     newDeleteEnvironment,
-    DeleteEnvironmentResponse (DeleteEnvironmentResponse'),
+    DeleteEnvironmentResponse,
     newDeleteEnvironmentResponse,
 
     -- ** DeleteResourcePolicy
-    DeleteResourcePolicy (DeleteResourcePolicy'),
+    DeleteResourcePolicy,
     newDeleteResourcePolicy,
-    DeleteResourcePolicyResponse (DeleteResourcePolicyResponse'),
+    DeleteResourcePolicyResponse,
     newDeleteResourcePolicyResponse,
 
     -- ** DeleteRoute
-    DeleteRoute (DeleteRoute'),
+    DeleteRoute,
     newDeleteRoute,
-    DeleteRouteResponse (DeleteRouteResponse'),
+    DeleteRouteResponse,
     newDeleteRouteResponse,
 
     -- ** DeleteService
-    DeleteService (DeleteService'),
+    DeleteService,
     newDeleteService,
-    DeleteServiceResponse (DeleteServiceResponse'),
+    DeleteServiceResponse,
     newDeleteServiceResponse,
 
     -- ** GetApplication
-    GetApplication (GetApplication'),
+    GetApplication,
     newGetApplication,
-    GetApplicationResponse (GetApplicationResponse'),
+    GetApplicationResponse,
     newGetApplicationResponse,
 
     -- ** GetEnvironment
-    GetEnvironment (GetEnvironment'),
+    GetEnvironment,
     newGetEnvironment,
-    GetEnvironmentResponse (GetEnvironmentResponse'),
+    GetEnvironmentResponse,
     newGetEnvironmentResponse,
 
     -- ** GetResourcePolicy
-    GetResourcePolicy (GetResourcePolicy'),
+    GetResourcePolicy,
     newGetResourcePolicy,
-    GetResourcePolicyResponse (GetResourcePolicyResponse'),
+    GetResourcePolicyResponse,
     newGetResourcePolicyResponse,
 
     -- ** GetRoute
-    GetRoute (GetRoute'),
+    GetRoute,
     newGetRoute,
-    GetRouteResponse (GetRouteResponse'),
+    GetRouteResponse,
     newGetRouteResponse,
 
     -- ** GetService
-    GetService (GetService'),
+    GetService,
     newGetService,
-    GetServiceResponse (GetServiceResponse'),
+    GetServiceResponse,
     newGetServiceResponse,
 
     -- ** ListApplications (Paginated)
-    ListApplications (ListApplications'),
+    ListApplications,
     newListApplications,
-    ListApplicationsResponse (ListApplicationsResponse'),
+    ListApplicationsResponse,
     newListApplicationsResponse,
 
     -- ** ListEnvironmentVpcs (Paginated)
-    ListEnvironmentVpcs (ListEnvironmentVpcs'),
+    ListEnvironmentVpcs,
     newListEnvironmentVpcs,
-    ListEnvironmentVpcsResponse (ListEnvironmentVpcsResponse'),
+    ListEnvironmentVpcsResponse,
     newListEnvironmentVpcsResponse,
 
     -- ** ListEnvironments (Paginated)
-    ListEnvironments (ListEnvironments'),
+    ListEnvironments,
     newListEnvironments,
-    ListEnvironmentsResponse (ListEnvironmentsResponse'),
+    ListEnvironmentsResponse,
     newListEnvironmentsResponse,
 
     -- ** ListRoutes (Paginated)
-    ListRoutes (ListRoutes'),
+    ListRoutes,
     newListRoutes,
-    ListRoutesResponse (ListRoutesResponse'),
+    ListRoutesResponse,
     newListRoutesResponse,
 
     -- ** ListServices (Paginated)
-    ListServices (ListServices'),
+    ListServices,
     newListServices,
-    ListServicesResponse (ListServicesResponse'),
+    ListServicesResponse,
     newListServicesResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** PutResourcePolicy
-    PutResourcePolicy (PutResourcePolicy'),
+    PutResourcePolicy,
     newPutResourcePolicy,
-    PutResourcePolicyResponse (PutResourcePolicyResponse'),
+    PutResourcePolicyResponse,
     newPutResourcePolicyResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateRoute
-    UpdateRoute (UpdateRoute'),
+    UpdateRoute,
     newUpdateRoute,
-    UpdateRouteResponse (UpdateRouteResponse'),
+    UpdateRouteResponse,
     newUpdateRouteResponse,
 
     -- * Types
@@ -250,71 +250,71 @@ module Amazonka.MigrationHubReFactorSpaces
     ServiceState (..),
 
     -- ** ApiGatewayProxyConfig
-    ApiGatewayProxyConfig (ApiGatewayProxyConfig'),
+    ApiGatewayProxyConfig,
     newApiGatewayProxyConfig,
 
     -- ** ApiGatewayProxyInput
-    ApiGatewayProxyInput (ApiGatewayProxyInput'),
+    ApiGatewayProxyInput,
     newApiGatewayProxyInput,
 
     -- ** ApiGatewayProxySummary
-    ApiGatewayProxySummary (ApiGatewayProxySummary'),
+    ApiGatewayProxySummary,
     newApiGatewayProxySummary,
 
     -- ** ApplicationSummary
-    ApplicationSummary (ApplicationSummary'),
+    ApplicationSummary,
     newApplicationSummary,
 
     -- ** DefaultRouteInput
-    DefaultRouteInput (DefaultRouteInput'),
+    DefaultRouteInput,
     newDefaultRouteInput,
 
     -- ** EnvironmentSummary
-    EnvironmentSummary (EnvironmentSummary'),
+    EnvironmentSummary,
     newEnvironmentSummary,
 
     -- ** EnvironmentVpc
-    EnvironmentVpc (EnvironmentVpc'),
+    EnvironmentVpc,
     newEnvironmentVpc,
 
     -- ** ErrorResponse
-    ErrorResponse (ErrorResponse'),
+    ErrorResponse,
     newErrorResponse,
 
     -- ** LambdaEndpointConfig
-    LambdaEndpointConfig (LambdaEndpointConfig'),
+    LambdaEndpointConfig,
     newLambdaEndpointConfig,
 
     -- ** LambdaEndpointInput
-    LambdaEndpointInput (LambdaEndpointInput'),
+    LambdaEndpointInput,
     newLambdaEndpointInput,
 
     -- ** LambdaEndpointSummary
-    LambdaEndpointSummary (LambdaEndpointSummary'),
+    LambdaEndpointSummary,
     newLambdaEndpointSummary,
 
     -- ** RouteSummary
-    RouteSummary (RouteSummary'),
+    RouteSummary,
     newRouteSummary,
 
     -- ** ServiceSummary
-    ServiceSummary (ServiceSummary'),
+    ServiceSummary,
     newServiceSummary,
 
     -- ** UriPathRouteInput
-    UriPathRouteInput (UriPathRouteInput'),
+    UriPathRouteInput,
     newUriPathRouteInput,
 
     -- ** UrlEndpointConfig
-    UrlEndpointConfig (UrlEndpointConfig'),
+    UrlEndpointConfig,
     newUrlEndpointConfig,
 
     -- ** UrlEndpointInput
-    UrlEndpointInput (UrlEndpointInput'),
+    UrlEndpointInput,
     newUrlEndpointInput,
 
     -- ** UrlEndpointSummary
-    UrlEndpointSummary (UrlEndpointSummary'),
+    UrlEndpointSummary,
     newUrlEndpointSummary,
   )
 where

@@ -139,399 +139,399 @@ module Amazonka.CloudFormation
     -- $operations
 
     -- ** ActivateType
-    ActivateType (ActivateType'),
+    ActivateType,
     newActivateType,
-    ActivateTypeResponse (ActivateTypeResponse'),
+    ActivateTypeResponse,
     newActivateTypeResponse,
 
     -- ** BatchDescribeTypeConfigurations
-    BatchDescribeTypeConfigurations (BatchDescribeTypeConfigurations'),
+    BatchDescribeTypeConfigurations,
     newBatchDescribeTypeConfigurations,
-    BatchDescribeTypeConfigurationsResponse (BatchDescribeTypeConfigurationsResponse'),
+    BatchDescribeTypeConfigurationsResponse,
     newBatchDescribeTypeConfigurationsResponse,
 
     -- ** CancelUpdateStack
-    CancelUpdateStack (CancelUpdateStack'),
+    CancelUpdateStack,
     newCancelUpdateStack,
-    CancelUpdateStackResponse (CancelUpdateStackResponse'),
+    CancelUpdateStackResponse,
     newCancelUpdateStackResponse,
 
     -- ** ContinueUpdateRollback
-    ContinueUpdateRollback (ContinueUpdateRollback'),
+    ContinueUpdateRollback,
     newContinueUpdateRollback,
-    ContinueUpdateRollbackResponse (ContinueUpdateRollbackResponse'),
+    ContinueUpdateRollbackResponse,
     newContinueUpdateRollbackResponse,
 
     -- ** CreateChangeSet
-    CreateChangeSet (CreateChangeSet'),
+    CreateChangeSet,
     newCreateChangeSet,
-    CreateChangeSetResponse (CreateChangeSetResponse'),
+    CreateChangeSetResponse,
     newCreateChangeSetResponse,
 
     -- ** CreateStack
-    CreateStack (CreateStack'),
+    CreateStack,
     newCreateStack,
-    CreateStackResponse (CreateStackResponse'),
+    CreateStackResponse,
     newCreateStackResponse,
 
     -- ** CreateStackInstances
-    CreateStackInstances (CreateStackInstances'),
+    CreateStackInstances,
     newCreateStackInstances,
-    CreateStackInstancesResponse (CreateStackInstancesResponse'),
+    CreateStackInstancesResponse,
     newCreateStackInstancesResponse,
 
     -- ** CreateStackSet
-    CreateStackSet (CreateStackSet'),
+    CreateStackSet,
     newCreateStackSet,
-    CreateStackSetResponse (CreateStackSetResponse'),
+    CreateStackSetResponse,
     newCreateStackSetResponse,
 
     -- ** DeactivateType
-    DeactivateType (DeactivateType'),
+    DeactivateType,
     newDeactivateType,
-    DeactivateTypeResponse (DeactivateTypeResponse'),
+    DeactivateTypeResponse,
     newDeactivateTypeResponse,
 
     -- ** DeleteChangeSet
-    DeleteChangeSet (DeleteChangeSet'),
+    DeleteChangeSet,
     newDeleteChangeSet,
-    DeleteChangeSetResponse (DeleteChangeSetResponse'),
+    DeleteChangeSetResponse,
     newDeleteChangeSetResponse,
 
     -- ** DeleteStack
-    DeleteStack (DeleteStack'),
+    DeleteStack,
     newDeleteStack,
-    DeleteStackResponse (DeleteStackResponse'),
+    DeleteStackResponse,
     newDeleteStackResponse,
 
     -- ** DeleteStackInstances
-    DeleteStackInstances (DeleteStackInstances'),
+    DeleteStackInstances,
     newDeleteStackInstances,
-    DeleteStackInstancesResponse (DeleteStackInstancesResponse'),
+    DeleteStackInstancesResponse,
     newDeleteStackInstancesResponse,
 
     -- ** DeleteStackSet
-    DeleteStackSet (DeleteStackSet'),
+    DeleteStackSet,
     newDeleteStackSet,
-    DeleteStackSetResponse (DeleteStackSetResponse'),
+    DeleteStackSetResponse,
     newDeleteStackSetResponse,
 
     -- ** DeregisterType
-    DeregisterType (DeregisterType'),
+    DeregisterType,
     newDeregisterType,
-    DeregisterTypeResponse (DeregisterTypeResponse'),
+    DeregisterTypeResponse,
     newDeregisterTypeResponse,
 
     -- ** DescribeAccountLimits (Paginated)
-    DescribeAccountLimits (DescribeAccountLimits'),
+    DescribeAccountLimits,
     newDescribeAccountLimits,
-    DescribeAccountLimitsResponse (DescribeAccountLimitsResponse'),
+    DescribeAccountLimitsResponse,
     newDescribeAccountLimitsResponse,
 
     -- ** DescribeChangeSet (Paginated)
-    DescribeChangeSet (DescribeChangeSet'),
+    DescribeChangeSet,
     newDescribeChangeSet,
-    DescribeChangeSetResponse (DescribeChangeSetResponse'),
+    DescribeChangeSetResponse,
     newDescribeChangeSetResponse,
 
     -- ** DescribeChangeSetHooks
-    DescribeChangeSetHooks (DescribeChangeSetHooks'),
+    DescribeChangeSetHooks,
     newDescribeChangeSetHooks,
-    DescribeChangeSetHooksResponse (DescribeChangeSetHooksResponse'),
+    DescribeChangeSetHooksResponse,
     newDescribeChangeSetHooksResponse,
 
     -- ** DescribePublisher
-    DescribePublisher (DescribePublisher'),
+    DescribePublisher,
     newDescribePublisher,
-    DescribePublisherResponse (DescribePublisherResponse'),
+    DescribePublisherResponse,
     newDescribePublisherResponse,
 
     -- ** DescribeStackDriftDetectionStatus
-    DescribeStackDriftDetectionStatus (DescribeStackDriftDetectionStatus'),
+    DescribeStackDriftDetectionStatus,
     newDescribeStackDriftDetectionStatus,
-    DescribeStackDriftDetectionStatusResponse (DescribeStackDriftDetectionStatusResponse'),
+    DescribeStackDriftDetectionStatusResponse,
     newDescribeStackDriftDetectionStatusResponse,
 
     -- ** DescribeStackEvents (Paginated)
-    DescribeStackEvents (DescribeStackEvents'),
+    DescribeStackEvents,
     newDescribeStackEvents,
-    DescribeStackEventsResponse (DescribeStackEventsResponse'),
+    DescribeStackEventsResponse,
     newDescribeStackEventsResponse,
 
     -- ** DescribeStackInstance
-    DescribeStackInstance (DescribeStackInstance'),
+    DescribeStackInstance,
     newDescribeStackInstance,
-    DescribeStackInstanceResponse (DescribeStackInstanceResponse'),
+    DescribeStackInstanceResponse,
     newDescribeStackInstanceResponse,
 
     -- ** DescribeStackResource
-    DescribeStackResource (DescribeStackResource'),
+    DescribeStackResource,
     newDescribeStackResource,
-    DescribeStackResourceResponse (DescribeStackResourceResponse'),
+    DescribeStackResourceResponse,
     newDescribeStackResourceResponse,
 
     -- ** DescribeStackResourceDrifts
-    DescribeStackResourceDrifts (DescribeStackResourceDrifts'),
+    DescribeStackResourceDrifts,
     newDescribeStackResourceDrifts,
-    DescribeStackResourceDriftsResponse (DescribeStackResourceDriftsResponse'),
+    DescribeStackResourceDriftsResponse,
     newDescribeStackResourceDriftsResponse,
 
     -- ** DescribeStackResources
-    DescribeStackResources (DescribeStackResources'),
+    DescribeStackResources,
     newDescribeStackResources,
-    DescribeStackResourcesResponse (DescribeStackResourcesResponse'),
+    DescribeStackResourcesResponse,
     newDescribeStackResourcesResponse,
 
     -- ** DescribeStackSet
-    DescribeStackSet (DescribeStackSet'),
+    DescribeStackSet,
     newDescribeStackSet,
-    DescribeStackSetResponse (DescribeStackSetResponse'),
+    DescribeStackSetResponse,
     newDescribeStackSetResponse,
 
     -- ** DescribeStackSetOperation
-    DescribeStackSetOperation (DescribeStackSetOperation'),
+    DescribeStackSetOperation,
     newDescribeStackSetOperation,
-    DescribeStackSetOperationResponse (DescribeStackSetOperationResponse'),
+    DescribeStackSetOperationResponse,
     newDescribeStackSetOperationResponse,
 
     -- ** DescribeStacks (Paginated)
-    DescribeStacks (DescribeStacks'),
+    DescribeStacks,
     newDescribeStacks,
-    DescribeStacksResponse (DescribeStacksResponse'),
+    DescribeStacksResponse,
     newDescribeStacksResponse,
 
     -- ** DescribeType
-    DescribeType (DescribeType'),
+    DescribeType,
     newDescribeType,
-    DescribeTypeResponse (DescribeTypeResponse'),
+    DescribeTypeResponse,
     newDescribeTypeResponse,
 
     -- ** DescribeTypeRegistration
-    DescribeTypeRegistration (DescribeTypeRegistration'),
+    DescribeTypeRegistration,
     newDescribeTypeRegistration,
-    DescribeTypeRegistrationResponse (DescribeTypeRegistrationResponse'),
+    DescribeTypeRegistrationResponse,
     newDescribeTypeRegistrationResponse,
 
     -- ** DetectStackDrift
-    DetectStackDrift (DetectStackDrift'),
+    DetectStackDrift,
     newDetectStackDrift,
-    DetectStackDriftResponse (DetectStackDriftResponse'),
+    DetectStackDriftResponse,
     newDetectStackDriftResponse,
 
     -- ** DetectStackResourceDrift
-    DetectStackResourceDrift (DetectStackResourceDrift'),
+    DetectStackResourceDrift,
     newDetectStackResourceDrift,
-    DetectStackResourceDriftResponse (DetectStackResourceDriftResponse'),
+    DetectStackResourceDriftResponse,
     newDetectStackResourceDriftResponse,
 
     -- ** DetectStackSetDrift
-    DetectStackSetDrift (DetectStackSetDrift'),
+    DetectStackSetDrift,
     newDetectStackSetDrift,
-    DetectStackSetDriftResponse (DetectStackSetDriftResponse'),
+    DetectStackSetDriftResponse,
     newDetectStackSetDriftResponse,
 
     -- ** EstimateTemplateCost
-    EstimateTemplateCost (EstimateTemplateCost'),
+    EstimateTemplateCost,
     newEstimateTemplateCost,
-    EstimateTemplateCostResponse (EstimateTemplateCostResponse'),
+    EstimateTemplateCostResponse,
     newEstimateTemplateCostResponse,
 
     -- ** ExecuteChangeSet
-    ExecuteChangeSet (ExecuteChangeSet'),
+    ExecuteChangeSet,
     newExecuteChangeSet,
-    ExecuteChangeSetResponse (ExecuteChangeSetResponse'),
+    ExecuteChangeSetResponse,
     newExecuteChangeSetResponse,
 
     -- ** GetStackPolicy
-    GetStackPolicy (GetStackPolicy'),
+    GetStackPolicy,
     newGetStackPolicy,
-    GetStackPolicyResponse (GetStackPolicyResponse'),
+    GetStackPolicyResponse,
     newGetStackPolicyResponse,
 
     -- ** GetTemplate
-    GetTemplate (GetTemplate'),
+    GetTemplate,
     newGetTemplate,
-    GetTemplateResponse (GetTemplateResponse'),
+    GetTemplateResponse,
     newGetTemplateResponse,
 
     -- ** GetTemplateSummary
-    GetTemplateSummary (GetTemplateSummary'),
+    GetTemplateSummary,
     newGetTemplateSummary,
-    GetTemplateSummaryResponse (GetTemplateSummaryResponse'),
+    GetTemplateSummaryResponse,
     newGetTemplateSummaryResponse,
 
     -- ** ImportStacksToStackSet
-    ImportStacksToStackSet (ImportStacksToStackSet'),
+    ImportStacksToStackSet,
     newImportStacksToStackSet,
-    ImportStacksToStackSetResponse (ImportStacksToStackSetResponse'),
+    ImportStacksToStackSetResponse,
     newImportStacksToStackSetResponse,
 
     -- ** ListChangeSets (Paginated)
-    ListChangeSets (ListChangeSets'),
+    ListChangeSets,
     newListChangeSets,
-    ListChangeSetsResponse (ListChangeSetsResponse'),
+    ListChangeSetsResponse,
     newListChangeSetsResponse,
 
     -- ** ListExports (Paginated)
-    ListExports (ListExports'),
+    ListExports,
     newListExports,
-    ListExportsResponse (ListExportsResponse'),
+    ListExportsResponse,
     newListExportsResponse,
 
     -- ** ListImports (Paginated)
-    ListImports (ListImports'),
+    ListImports,
     newListImports,
-    ListImportsResponse (ListImportsResponse'),
+    ListImportsResponse,
     newListImportsResponse,
 
     -- ** ListStackInstances (Paginated)
-    ListStackInstances (ListStackInstances'),
+    ListStackInstances,
     newListStackInstances,
-    ListStackInstancesResponse (ListStackInstancesResponse'),
+    ListStackInstancesResponse,
     newListStackInstancesResponse,
 
     -- ** ListStackResources (Paginated)
-    ListStackResources (ListStackResources'),
+    ListStackResources,
     newListStackResources,
-    ListStackResourcesResponse (ListStackResourcesResponse'),
+    ListStackResourcesResponse,
     newListStackResourcesResponse,
 
     -- ** ListStackSetOperationResults (Paginated)
-    ListStackSetOperationResults (ListStackSetOperationResults'),
+    ListStackSetOperationResults,
     newListStackSetOperationResults,
-    ListStackSetOperationResultsResponse (ListStackSetOperationResultsResponse'),
+    ListStackSetOperationResultsResponse,
     newListStackSetOperationResultsResponse,
 
     -- ** ListStackSetOperations (Paginated)
-    ListStackSetOperations (ListStackSetOperations'),
+    ListStackSetOperations,
     newListStackSetOperations,
-    ListStackSetOperationsResponse (ListStackSetOperationsResponse'),
+    ListStackSetOperationsResponse,
     newListStackSetOperationsResponse,
 
     -- ** ListStackSets (Paginated)
-    ListStackSets (ListStackSets'),
+    ListStackSets,
     newListStackSets,
-    ListStackSetsResponse (ListStackSetsResponse'),
+    ListStackSetsResponse,
     newListStackSetsResponse,
 
     -- ** ListStacks (Paginated)
-    ListStacks (ListStacks'),
+    ListStacks,
     newListStacks,
-    ListStacksResponse (ListStacksResponse'),
+    ListStacksResponse,
     newListStacksResponse,
 
     -- ** ListTypeRegistrations
-    ListTypeRegistrations (ListTypeRegistrations'),
+    ListTypeRegistrations,
     newListTypeRegistrations,
-    ListTypeRegistrationsResponse (ListTypeRegistrationsResponse'),
+    ListTypeRegistrationsResponse,
     newListTypeRegistrationsResponse,
 
     -- ** ListTypeVersions
-    ListTypeVersions (ListTypeVersions'),
+    ListTypeVersions,
     newListTypeVersions,
-    ListTypeVersionsResponse (ListTypeVersionsResponse'),
+    ListTypeVersionsResponse,
     newListTypeVersionsResponse,
 
     -- ** ListTypes (Paginated)
-    ListTypes (ListTypes'),
+    ListTypes,
     newListTypes,
-    ListTypesResponse (ListTypesResponse'),
+    ListTypesResponse,
     newListTypesResponse,
 
     -- ** PublishType
-    PublishType (PublishType'),
+    PublishType,
     newPublishType,
-    PublishTypeResponse (PublishTypeResponse'),
+    PublishTypeResponse,
     newPublishTypeResponse,
 
     -- ** RecordHandlerProgress
-    RecordHandlerProgress (RecordHandlerProgress'),
+    RecordHandlerProgress,
     newRecordHandlerProgress,
-    RecordHandlerProgressResponse (RecordHandlerProgressResponse'),
+    RecordHandlerProgressResponse,
     newRecordHandlerProgressResponse,
 
     -- ** RegisterPublisher
-    RegisterPublisher (RegisterPublisher'),
+    RegisterPublisher,
     newRegisterPublisher,
-    RegisterPublisherResponse (RegisterPublisherResponse'),
+    RegisterPublisherResponse,
     newRegisterPublisherResponse,
 
     -- ** RegisterType
-    RegisterType (RegisterType'),
+    RegisterType,
     newRegisterType,
-    RegisterTypeResponse (RegisterTypeResponse'),
+    RegisterTypeResponse,
     newRegisterTypeResponse,
 
     -- ** RollbackStack
-    RollbackStack (RollbackStack'),
+    RollbackStack,
     newRollbackStack,
-    RollbackStackResponse (RollbackStackResponse'),
+    RollbackStackResponse,
     newRollbackStackResponse,
 
     -- ** SetStackPolicy
-    SetStackPolicy (SetStackPolicy'),
+    SetStackPolicy,
     newSetStackPolicy,
-    SetStackPolicyResponse (SetStackPolicyResponse'),
+    SetStackPolicyResponse,
     newSetStackPolicyResponse,
 
     -- ** SetTypeConfiguration
-    SetTypeConfiguration (SetTypeConfiguration'),
+    SetTypeConfiguration,
     newSetTypeConfiguration,
-    SetTypeConfigurationResponse (SetTypeConfigurationResponse'),
+    SetTypeConfigurationResponse,
     newSetTypeConfigurationResponse,
 
     -- ** SetTypeDefaultVersion
-    SetTypeDefaultVersion (SetTypeDefaultVersion'),
+    SetTypeDefaultVersion,
     newSetTypeDefaultVersion,
-    SetTypeDefaultVersionResponse (SetTypeDefaultVersionResponse'),
+    SetTypeDefaultVersionResponse,
     newSetTypeDefaultVersionResponse,
 
     -- ** SignalResource
-    SignalResource (SignalResource'),
+    SignalResource,
     newSignalResource,
-    SignalResourceResponse (SignalResourceResponse'),
+    SignalResourceResponse,
     newSignalResourceResponse,
 
     -- ** StopStackSetOperation
-    StopStackSetOperation (StopStackSetOperation'),
+    StopStackSetOperation,
     newStopStackSetOperation,
-    StopStackSetOperationResponse (StopStackSetOperationResponse'),
+    StopStackSetOperationResponse,
     newStopStackSetOperationResponse,
 
     -- ** TestType
-    TestType (TestType'),
+    TestType,
     newTestType,
-    TestTypeResponse (TestTypeResponse'),
+    TestTypeResponse,
     newTestTypeResponse,
 
     -- ** UpdateStack
-    UpdateStack (UpdateStack'),
+    UpdateStack,
     newUpdateStack,
-    UpdateStackResponse (UpdateStackResponse'),
+    UpdateStackResponse,
     newUpdateStackResponse,
 
     -- ** UpdateStackInstances
-    UpdateStackInstances (UpdateStackInstances'),
+    UpdateStackInstances,
     newUpdateStackInstances,
-    UpdateStackInstancesResponse (UpdateStackInstancesResponse'),
+    UpdateStackInstancesResponse,
     newUpdateStackInstancesResponse,
 
     -- ** UpdateStackSet
-    UpdateStackSet (UpdateStackSet'),
+    UpdateStackSet,
     newUpdateStackSet,
-    UpdateStackSetResponse (UpdateStackSetResponse'),
+    UpdateStackSetResponse,
     newUpdateStackSetResponse,
 
     -- ** UpdateTerminationProtection
-    UpdateTerminationProtection (UpdateTerminationProtection'),
+    UpdateTerminationProtection,
     newUpdateTerminationProtection,
-    UpdateTerminationProtectionResponse (UpdateTerminationProtectionResponse'),
+    UpdateTerminationProtectionResponse,
     newUpdateTerminationProtectionResponse,
 
     -- ** ValidateTemplate
-    ValidateTemplate (ValidateTemplate'),
+    ValidateTemplate,
     newValidateTemplate,
-    ValidateTemplateResponse (ValidateTemplateResponse'),
+    ValidateTemplateResponse,
     newValidateTemplateResponse,
 
     -- * Types
@@ -696,239 +696,239 @@ module Amazonka.CloudFormation
     Visibility (..),
 
     -- ** AccountGateResult
-    AccountGateResult (AccountGateResult'),
+    AccountGateResult,
     newAccountGateResult,
 
     -- ** AccountLimit
-    AccountLimit (AccountLimit'),
+    AccountLimit,
     newAccountLimit,
 
     -- ** AutoDeployment
-    AutoDeployment (AutoDeployment'),
+    AutoDeployment,
     newAutoDeployment,
 
     -- ** BatchDescribeTypeConfigurationsError
-    BatchDescribeTypeConfigurationsError (BatchDescribeTypeConfigurationsError'),
+    BatchDescribeTypeConfigurationsError,
     newBatchDescribeTypeConfigurationsError,
 
     -- ** Change
-    Change (Change'),
+    Change,
     newChange,
 
     -- ** ChangeSetHook
-    ChangeSetHook (ChangeSetHook'),
+    ChangeSetHook,
     newChangeSetHook,
 
     -- ** ChangeSetHookResourceTargetDetails
-    ChangeSetHookResourceTargetDetails (ChangeSetHookResourceTargetDetails'),
+    ChangeSetHookResourceTargetDetails,
     newChangeSetHookResourceTargetDetails,
 
     -- ** ChangeSetHookTargetDetails
-    ChangeSetHookTargetDetails (ChangeSetHookTargetDetails'),
+    ChangeSetHookTargetDetails,
     newChangeSetHookTargetDetails,
 
     -- ** ChangeSetSummary
-    ChangeSetSummary (ChangeSetSummary'),
+    ChangeSetSummary,
     newChangeSetSummary,
 
     -- ** DeploymentTargets
-    DeploymentTargets (DeploymentTargets'),
+    DeploymentTargets,
     newDeploymentTargets,
 
     -- ** Export
-    Export (Export'),
+    Export,
     newExport,
 
     -- ** LoggingConfig
-    LoggingConfig (LoggingConfig'),
+    LoggingConfig,
     newLoggingConfig,
 
     -- ** ManagedExecution
-    ManagedExecution (ManagedExecution'),
+    ManagedExecution,
     newManagedExecution,
 
     -- ** ModuleInfo
-    ModuleInfo (ModuleInfo'),
+    ModuleInfo,
     newModuleInfo,
 
     -- ** OperationResultFilter
-    OperationResultFilter (OperationResultFilter'),
+    OperationResultFilter,
     newOperationResultFilter,
 
     -- ** Output
-    Output (Output'),
+    Output,
     newOutput,
 
     -- ** Parameter
-    Parameter (Parameter'),
+    Parameter,
     newParameter,
 
     -- ** ParameterConstraints
-    ParameterConstraints (ParameterConstraints'),
+    ParameterConstraints,
     newParameterConstraints,
 
     -- ** ParameterDeclaration
-    ParameterDeclaration (ParameterDeclaration'),
+    ParameterDeclaration,
     newParameterDeclaration,
 
     -- ** PhysicalResourceIdContextKeyValuePair
-    PhysicalResourceIdContextKeyValuePair (PhysicalResourceIdContextKeyValuePair'),
+    PhysicalResourceIdContextKeyValuePair,
     newPhysicalResourceIdContextKeyValuePair,
 
     -- ** PropertyDifference
-    PropertyDifference (PropertyDifference'),
+    PropertyDifference,
     newPropertyDifference,
 
     -- ** RequiredActivatedType
-    RequiredActivatedType (RequiredActivatedType'),
+    RequiredActivatedType,
     newRequiredActivatedType,
 
     -- ** ResourceChange
-    ResourceChange (ResourceChange'),
+    ResourceChange,
     newResourceChange,
 
     -- ** ResourceChangeDetail
-    ResourceChangeDetail (ResourceChangeDetail'),
+    ResourceChangeDetail,
     newResourceChangeDetail,
 
     -- ** ResourceIdentifierSummary
-    ResourceIdentifierSummary (ResourceIdentifierSummary'),
+    ResourceIdentifierSummary,
     newResourceIdentifierSummary,
 
     -- ** ResourceTargetDefinition
-    ResourceTargetDefinition (ResourceTargetDefinition'),
+    ResourceTargetDefinition,
     newResourceTargetDefinition,
 
     -- ** ResourceToImport
-    ResourceToImport (ResourceToImport'),
+    ResourceToImport,
     newResourceToImport,
 
     -- ** RollbackConfiguration
-    RollbackConfiguration (RollbackConfiguration'),
+    RollbackConfiguration,
     newRollbackConfiguration,
 
     -- ** RollbackTrigger
-    RollbackTrigger (RollbackTrigger'),
+    RollbackTrigger,
     newRollbackTrigger,
 
     -- ** Stack
-    Stack (Stack'),
+    Stack,
     newStack,
 
     -- ** StackDriftInformation
-    StackDriftInformation (StackDriftInformation'),
+    StackDriftInformation,
     newStackDriftInformation,
 
     -- ** StackDriftInformationSummary
-    StackDriftInformationSummary (StackDriftInformationSummary'),
+    StackDriftInformationSummary,
     newStackDriftInformationSummary,
 
     -- ** StackEvent
-    StackEvent (StackEvent'),
+    StackEvent,
     newStackEvent,
 
     -- ** StackInstance
-    StackInstance (StackInstance'),
+    StackInstance,
     newStackInstance,
 
     -- ** StackInstanceComprehensiveStatus
-    StackInstanceComprehensiveStatus (StackInstanceComprehensiveStatus'),
+    StackInstanceComprehensiveStatus,
     newStackInstanceComprehensiveStatus,
 
     -- ** StackInstanceFilter
-    StackInstanceFilter (StackInstanceFilter'),
+    StackInstanceFilter,
     newStackInstanceFilter,
 
     -- ** StackInstanceSummary
-    StackInstanceSummary (StackInstanceSummary'),
+    StackInstanceSummary,
     newStackInstanceSummary,
 
     -- ** StackResource
-    StackResource (StackResource'),
+    StackResource,
     newStackResource,
 
     -- ** StackResourceDetail
-    StackResourceDetail (StackResourceDetail'),
+    StackResourceDetail,
     newStackResourceDetail,
 
     -- ** StackResourceDrift
-    StackResourceDrift (StackResourceDrift'),
+    StackResourceDrift,
     newStackResourceDrift,
 
     -- ** StackResourceDriftInformation
-    StackResourceDriftInformation (StackResourceDriftInformation'),
+    StackResourceDriftInformation,
     newStackResourceDriftInformation,
 
     -- ** StackResourceDriftInformationSummary
-    StackResourceDriftInformationSummary (StackResourceDriftInformationSummary'),
+    StackResourceDriftInformationSummary,
     newStackResourceDriftInformationSummary,
 
     -- ** StackResourceSummary
-    StackResourceSummary (StackResourceSummary'),
+    StackResourceSummary,
     newStackResourceSummary,
 
     -- ** StackSet
-    StackSet (StackSet'),
+    StackSet,
     newStackSet,
 
     -- ** StackSetDriftDetectionDetails
-    StackSetDriftDetectionDetails (StackSetDriftDetectionDetails'),
+    StackSetDriftDetectionDetails,
     newStackSetDriftDetectionDetails,
 
     -- ** StackSetOperation
-    StackSetOperation (StackSetOperation'),
+    StackSetOperation,
     newStackSetOperation,
 
     -- ** StackSetOperationPreferences
-    StackSetOperationPreferences (StackSetOperationPreferences'),
+    StackSetOperationPreferences,
     newStackSetOperationPreferences,
 
     -- ** StackSetOperationResultSummary
-    StackSetOperationResultSummary (StackSetOperationResultSummary'),
+    StackSetOperationResultSummary,
     newStackSetOperationResultSummary,
 
     -- ** StackSetOperationStatusDetails
-    StackSetOperationStatusDetails (StackSetOperationStatusDetails'),
+    StackSetOperationStatusDetails,
     newStackSetOperationStatusDetails,
 
     -- ** StackSetOperationSummary
-    StackSetOperationSummary (StackSetOperationSummary'),
+    StackSetOperationSummary,
     newStackSetOperationSummary,
 
     -- ** StackSetSummary
-    StackSetSummary (StackSetSummary'),
+    StackSetSummary,
     newStackSetSummary,
 
     -- ** StackSummary
-    StackSummary (StackSummary'),
+    StackSummary,
     newStackSummary,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
 
     -- ** TemplateParameter
-    TemplateParameter (TemplateParameter'),
+    TemplateParameter,
     newTemplateParameter,
 
     -- ** TypeConfigurationDetails
-    TypeConfigurationDetails (TypeConfigurationDetails'),
+    TypeConfigurationDetails,
     newTypeConfigurationDetails,
 
     -- ** TypeConfigurationIdentifier
-    TypeConfigurationIdentifier (TypeConfigurationIdentifier'),
+    TypeConfigurationIdentifier,
     newTypeConfigurationIdentifier,
 
     -- ** TypeFilters
-    TypeFilters (TypeFilters'),
+    TypeFilters,
     newTypeFilters,
 
     -- ** TypeSummary
-    TypeSummary (TypeSummary'),
+    TypeSummary,
     newTypeSummary,
 
     -- ** TypeVersionSummary
-    TypeVersionSummary (TypeVersionSummary'),
+    TypeVersionSummary,
     newTypeVersionSummary,
   )
 where

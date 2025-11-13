@@ -64,207 +64,207 @@ module Amazonka.IotTwinMaker
     -- $operations
 
     -- ** BatchPutPropertyValues
-    BatchPutPropertyValues (BatchPutPropertyValues'),
+    BatchPutPropertyValues,
     newBatchPutPropertyValues,
-    BatchPutPropertyValuesResponse (BatchPutPropertyValuesResponse'),
+    BatchPutPropertyValuesResponse,
     newBatchPutPropertyValuesResponse,
 
     -- ** CreateComponentType
-    CreateComponentType (CreateComponentType'),
+    CreateComponentType,
     newCreateComponentType,
-    CreateComponentTypeResponse (CreateComponentTypeResponse'),
+    CreateComponentTypeResponse,
     newCreateComponentTypeResponse,
 
     -- ** CreateEntity
-    CreateEntity (CreateEntity'),
+    CreateEntity,
     newCreateEntity,
-    CreateEntityResponse (CreateEntityResponse'),
+    CreateEntityResponse,
     newCreateEntityResponse,
 
     -- ** CreateScene
-    CreateScene (CreateScene'),
+    CreateScene,
     newCreateScene,
-    CreateSceneResponse (CreateSceneResponse'),
+    CreateSceneResponse,
     newCreateSceneResponse,
 
     -- ** CreateSyncJob
-    CreateSyncJob (CreateSyncJob'),
+    CreateSyncJob,
     newCreateSyncJob,
-    CreateSyncJobResponse (CreateSyncJobResponse'),
+    CreateSyncJobResponse,
     newCreateSyncJobResponse,
 
     -- ** CreateWorkspace
-    CreateWorkspace (CreateWorkspace'),
+    CreateWorkspace,
     newCreateWorkspace,
-    CreateWorkspaceResponse (CreateWorkspaceResponse'),
+    CreateWorkspaceResponse,
     newCreateWorkspaceResponse,
 
     -- ** DeleteComponentType
-    DeleteComponentType (DeleteComponentType'),
+    DeleteComponentType,
     newDeleteComponentType,
-    DeleteComponentTypeResponse (DeleteComponentTypeResponse'),
+    DeleteComponentTypeResponse,
     newDeleteComponentTypeResponse,
 
     -- ** DeleteEntity
-    DeleteEntity (DeleteEntity'),
+    DeleteEntity,
     newDeleteEntity,
-    DeleteEntityResponse (DeleteEntityResponse'),
+    DeleteEntityResponse,
     newDeleteEntityResponse,
 
     -- ** DeleteScene
-    DeleteScene (DeleteScene'),
+    DeleteScene,
     newDeleteScene,
-    DeleteSceneResponse (DeleteSceneResponse'),
+    DeleteSceneResponse,
     newDeleteSceneResponse,
 
     -- ** DeleteSyncJob
-    DeleteSyncJob (DeleteSyncJob'),
+    DeleteSyncJob,
     newDeleteSyncJob,
-    DeleteSyncJobResponse (DeleteSyncJobResponse'),
+    DeleteSyncJobResponse,
     newDeleteSyncJobResponse,
 
     -- ** DeleteWorkspace
-    DeleteWorkspace (DeleteWorkspace'),
+    DeleteWorkspace,
     newDeleteWorkspace,
-    DeleteWorkspaceResponse (DeleteWorkspaceResponse'),
+    DeleteWorkspaceResponse,
     newDeleteWorkspaceResponse,
 
     -- ** ExecuteQuery
-    ExecuteQuery (ExecuteQuery'),
+    ExecuteQuery,
     newExecuteQuery,
-    ExecuteQueryResponse (ExecuteQueryResponse'),
+    ExecuteQueryResponse,
     newExecuteQueryResponse,
 
     -- ** GetComponentType
-    GetComponentType (GetComponentType'),
+    GetComponentType,
     newGetComponentType,
-    GetComponentTypeResponse (GetComponentTypeResponse'),
+    GetComponentTypeResponse,
     newGetComponentTypeResponse,
 
     -- ** GetEntity
-    GetEntity (GetEntity'),
+    GetEntity,
     newGetEntity,
-    GetEntityResponse (GetEntityResponse'),
+    GetEntityResponse,
     newGetEntityResponse,
 
     -- ** GetPricingPlan
-    GetPricingPlan (GetPricingPlan'),
+    GetPricingPlan,
     newGetPricingPlan,
-    GetPricingPlanResponse (GetPricingPlanResponse'),
+    GetPricingPlanResponse,
     newGetPricingPlanResponse,
 
     -- ** GetPropertyValue
-    GetPropertyValue (GetPropertyValue'),
+    GetPropertyValue,
     newGetPropertyValue,
-    GetPropertyValueResponse (GetPropertyValueResponse'),
+    GetPropertyValueResponse,
     newGetPropertyValueResponse,
 
     -- ** GetPropertyValueHistory
-    GetPropertyValueHistory (GetPropertyValueHistory'),
+    GetPropertyValueHistory,
     newGetPropertyValueHistory,
-    GetPropertyValueHistoryResponse (GetPropertyValueHistoryResponse'),
+    GetPropertyValueHistoryResponse,
     newGetPropertyValueHistoryResponse,
 
     -- ** GetScene
-    GetScene (GetScene'),
+    GetScene,
     newGetScene,
-    GetSceneResponse (GetSceneResponse'),
+    GetSceneResponse,
     newGetSceneResponse,
 
     -- ** GetSyncJob
-    GetSyncJob (GetSyncJob'),
+    GetSyncJob,
     newGetSyncJob,
-    GetSyncJobResponse (GetSyncJobResponse'),
+    GetSyncJobResponse,
     newGetSyncJobResponse,
 
     -- ** GetWorkspace
-    GetWorkspace (GetWorkspace'),
+    GetWorkspace,
     newGetWorkspace,
-    GetWorkspaceResponse (GetWorkspaceResponse'),
+    GetWorkspaceResponse,
     newGetWorkspaceResponse,
 
     -- ** ListComponentTypes
-    ListComponentTypes (ListComponentTypes'),
+    ListComponentTypes,
     newListComponentTypes,
-    ListComponentTypesResponse (ListComponentTypesResponse'),
+    ListComponentTypesResponse,
     newListComponentTypesResponse,
 
     -- ** ListEntities
-    ListEntities (ListEntities'),
+    ListEntities,
     newListEntities,
-    ListEntitiesResponse (ListEntitiesResponse'),
+    ListEntitiesResponse,
     newListEntitiesResponse,
 
     -- ** ListScenes
-    ListScenes (ListScenes'),
+    ListScenes,
     newListScenes,
-    ListScenesResponse (ListScenesResponse'),
+    ListScenesResponse,
     newListScenesResponse,
 
     -- ** ListSyncJobs
-    ListSyncJobs (ListSyncJobs'),
+    ListSyncJobs,
     newListSyncJobs,
-    ListSyncJobsResponse (ListSyncJobsResponse'),
+    ListSyncJobsResponse,
     newListSyncJobsResponse,
 
     -- ** ListSyncResources
-    ListSyncResources (ListSyncResources'),
+    ListSyncResources,
     newListSyncResources,
-    ListSyncResourcesResponse (ListSyncResourcesResponse'),
+    ListSyncResourcesResponse,
     newListSyncResourcesResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** ListWorkspaces
-    ListWorkspaces (ListWorkspaces'),
+    ListWorkspaces,
     newListWorkspaces,
-    ListWorkspacesResponse (ListWorkspacesResponse'),
+    ListWorkspacesResponse,
     newListWorkspacesResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateComponentType
-    UpdateComponentType (UpdateComponentType'),
+    UpdateComponentType,
     newUpdateComponentType,
-    UpdateComponentTypeResponse (UpdateComponentTypeResponse'),
+    UpdateComponentTypeResponse,
     newUpdateComponentTypeResponse,
 
     -- ** UpdateEntity
-    UpdateEntity (UpdateEntity'),
+    UpdateEntity,
     newUpdateEntity,
-    UpdateEntityResponse (UpdateEntityResponse'),
+    UpdateEntityResponse,
     newUpdateEntityResponse,
 
     -- ** UpdatePricingPlan
-    UpdatePricingPlan (UpdatePricingPlan'),
+    UpdatePricingPlan,
     newUpdatePricingPlan,
-    UpdatePricingPlanResponse (UpdatePricingPlanResponse'),
+    UpdatePricingPlanResponse,
     newUpdatePricingPlanResponse,
 
     -- ** UpdateScene
-    UpdateScene (UpdateScene'),
+    UpdateScene,
     newUpdateScene,
-    UpdateSceneResponse (UpdateSceneResponse'),
+    UpdateSceneResponse,
     newUpdateSceneResponse,
 
     -- ** UpdateWorkspace
-    UpdateWorkspace (UpdateWorkspace'),
+    UpdateWorkspace,
     newUpdateWorkspace,
-    UpdateWorkspaceResponse (UpdateWorkspaceResponse'),
+    UpdateWorkspaceResponse,
     newUpdateWorkspaceResponse,
 
     -- * Types
@@ -327,199 +327,199 @@ module Amazonka.IotTwinMaker
     UpdateReason (..),
 
     -- ** BatchPutPropertyError
-    BatchPutPropertyError (BatchPutPropertyError'),
+    BatchPutPropertyError,
     newBatchPutPropertyError,
 
     -- ** BatchPutPropertyErrorEntry
-    BatchPutPropertyErrorEntry (BatchPutPropertyErrorEntry'),
+    BatchPutPropertyErrorEntry,
     newBatchPutPropertyErrorEntry,
 
     -- ** BundleInformation
-    BundleInformation (BundleInformation'),
+    BundleInformation,
     newBundleInformation,
 
     -- ** ColumnDescription
-    ColumnDescription (ColumnDescription'),
+    ColumnDescription,
     newColumnDescription,
 
     -- ** ComponentPropertyGroupRequest
-    ComponentPropertyGroupRequest (ComponentPropertyGroupRequest'),
+    ComponentPropertyGroupRequest,
     newComponentPropertyGroupRequest,
 
     -- ** ComponentPropertyGroupResponse
-    ComponentPropertyGroupResponse (ComponentPropertyGroupResponse'),
+    ComponentPropertyGroupResponse,
     newComponentPropertyGroupResponse,
 
     -- ** ComponentRequest
-    ComponentRequest (ComponentRequest'),
+    ComponentRequest,
     newComponentRequest,
 
     -- ** ComponentResponse
-    ComponentResponse (ComponentResponse'),
+    ComponentResponse,
     newComponentResponse,
 
     -- ** ComponentTypeSummary
-    ComponentTypeSummary (ComponentTypeSummary'),
+    ComponentTypeSummary,
     newComponentTypeSummary,
 
     -- ** ComponentUpdateRequest
-    ComponentUpdateRequest (ComponentUpdateRequest'),
+    ComponentUpdateRequest,
     newComponentUpdateRequest,
 
     -- ** DataConnector
-    DataConnector (DataConnector'),
+    DataConnector,
     newDataConnector,
 
     -- ** DataType
-    DataType (DataType'),
+    DataType,
     newDataType,
 
     -- ** DataValue
-    DataValue (DataValue'),
+    DataValue,
     newDataValue,
 
     -- ** EntityPropertyReference
-    EntityPropertyReference (EntityPropertyReference'),
+    EntityPropertyReference,
     newEntityPropertyReference,
 
     -- ** EntitySummary
-    EntitySummary (EntitySummary'),
+    EntitySummary,
     newEntitySummary,
 
     -- ** ErrorDetails
-    ErrorDetails (ErrorDetails'),
+    ErrorDetails,
     newErrorDetails,
 
     -- ** FunctionRequest
-    FunctionRequest (FunctionRequest'),
+    FunctionRequest,
     newFunctionRequest,
 
     -- ** FunctionResponse
-    FunctionResponse (FunctionResponse'),
+    FunctionResponse,
     newFunctionResponse,
 
     -- ** InterpolationParameters
-    InterpolationParameters (InterpolationParameters'),
+    InterpolationParameters,
     newInterpolationParameters,
 
     -- ** LambdaFunction
-    LambdaFunction (LambdaFunction'),
+    LambdaFunction,
     newLambdaFunction,
 
     -- ** ListComponentTypesFilter
-    ListComponentTypesFilter (ListComponentTypesFilter'),
+    ListComponentTypesFilter,
     newListComponentTypesFilter,
 
     -- ** ListEntitiesFilter
-    ListEntitiesFilter (ListEntitiesFilter'),
+    ListEntitiesFilter,
     newListEntitiesFilter,
 
     -- ** OrderBy
-    OrderBy (OrderBy'),
+    OrderBy,
     newOrderBy,
 
     -- ** ParentEntityUpdateRequest
-    ParentEntityUpdateRequest (ParentEntityUpdateRequest'),
+    ParentEntityUpdateRequest,
     newParentEntityUpdateRequest,
 
     -- ** PricingPlan
-    PricingPlan (PricingPlan'),
+    PricingPlan,
     newPricingPlan,
 
     -- ** PropertyDefinitionRequest
-    PropertyDefinitionRequest (PropertyDefinitionRequest'),
+    PropertyDefinitionRequest,
     newPropertyDefinitionRequest,
 
     -- ** PropertyDefinitionResponse
-    PropertyDefinitionResponse (PropertyDefinitionResponse'),
+    PropertyDefinitionResponse,
     newPropertyDefinitionResponse,
 
     -- ** PropertyFilter
-    PropertyFilter (PropertyFilter'),
+    PropertyFilter,
     newPropertyFilter,
 
     -- ** PropertyGroupRequest
-    PropertyGroupRequest (PropertyGroupRequest'),
+    PropertyGroupRequest,
     newPropertyGroupRequest,
 
     -- ** PropertyGroupResponse
-    PropertyGroupResponse (PropertyGroupResponse'),
+    PropertyGroupResponse,
     newPropertyGroupResponse,
 
     -- ** PropertyLatestValue
-    PropertyLatestValue (PropertyLatestValue'),
+    PropertyLatestValue,
     newPropertyLatestValue,
 
     -- ** PropertyRequest
-    PropertyRequest (PropertyRequest'),
+    PropertyRequest,
     newPropertyRequest,
 
     -- ** PropertyResponse
-    PropertyResponse (PropertyResponse'),
+    PropertyResponse,
     newPropertyResponse,
 
     -- ** PropertyValue
-    PropertyValue (PropertyValue'),
+    PropertyValue,
     newPropertyValue,
 
     -- ** PropertyValueEntry
-    PropertyValueEntry (PropertyValueEntry'),
+    PropertyValueEntry,
     newPropertyValueEntry,
 
     -- ** PropertyValueHistory
-    PropertyValueHistory (PropertyValueHistory'),
+    PropertyValueHistory,
     newPropertyValueHistory,
 
     -- ** QueryResultValue
-    QueryResultValue (QueryResultValue'),
+    QueryResultValue,
     newQueryResultValue,
 
     -- ** Relationship
-    Relationship (Relationship'),
+    Relationship,
     newRelationship,
 
     -- ** RelationshipValue
-    RelationshipValue (RelationshipValue'),
+    RelationshipValue,
     newRelationshipValue,
 
     -- ** Row
-    Row (Row'),
+    Row,
     newRow,
 
     -- ** SceneSummary
-    SceneSummary (SceneSummary'),
+    SceneSummary,
     newSceneSummary,
 
     -- ** Status
-    Status (Status'),
+    Status,
     newStatus,
 
     -- ** SyncJobStatus
-    SyncJobStatus (SyncJobStatus'),
+    SyncJobStatus,
     newSyncJobStatus,
 
     -- ** SyncJobSummary
-    SyncJobSummary (SyncJobSummary'),
+    SyncJobSummary,
     newSyncJobSummary,
 
     -- ** SyncResourceFilter
-    SyncResourceFilter (SyncResourceFilter'),
+    SyncResourceFilter,
     newSyncResourceFilter,
 
     -- ** SyncResourceStatus
-    SyncResourceStatus (SyncResourceStatus'),
+    SyncResourceStatus,
     newSyncResourceStatus,
 
     -- ** SyncResourceSummary
-    SyncResourceSummary (SyncResourceSummary'),
+    SyncResourceSummary,
     newSyncResourceSummary,
 
     -- ** TabularConditions
-    TabularConditions (TabularConditions'),
+    TabularConditions,
     newTabularConditions,
 
     -- ** WorkspaceSummary
-    WorkspaceSummary (WorkspaceSummary'),
+    WorkspaceSummary,
     newWorkspaceSummary,
   )
 where

@@ -76,87 +76,87 @@ module Amazonka.ServerlessApplicationRepository
     -- $operations
 
     -- ** CreateApplication
-    CreateApplication (CreateApplication'),
+    CreateApplication,
     newCreateApplication,
-    CreateApplicationResponse (CreateApplicationResponse'),
+    CreateApplicationResponse,
     newCreateApplicationResponse,
 
     -- ** CreateApplicationVersion
-    CreateApplicationVersion (CreateApplicationVersion'),
+    CreateApplicationVersion,
     newCreateApplicationVersion,
-    CreateApplicationVersionResponse (CreateApplicationVersionResponse'),
+    CreateApplicationVersionResponse,
     newCreateApplicationVersionResponse,
 
     -- ** CreateCloudFormationChangeSet
-    CreateCloudFormationChangeSet (CreateCloudFormationChangeSet'),
+    CreateCloudFormationChangeSet,
     newCreateCloudFormationChangeSet,
-    CreateCloudFormationChangeSetResponse (CreateCloudFormationChangeSetResponse'),
+    CreateCloudFormationChangeSetResponse,
     newCreateCloudFormationChangeSetResponse,
 
     -- ** CreateCloudFormationTemplate
-    CreateCloudFormationTemplate (CreateCloudFormationTemplate'),
+    CreateCloudFormationTemplate,
     newCreateCloudFormationTemplate,
-    CreateCloudFormationTemplateResponse (CreateCloudFormationTemplateResponse'),
+    CreateCloudFormationTemplateResponse,
     newCreateCloudFormationTemplateResponse,
 
     -- ** DeleteApplication
-    DeleteApplication (DeleteApplication'),
+    DeleteApplication,
     newDeleteApplication,
-    DeleteApplicationResponse (DeleteApplicationResponse'),
+    DeleteApplicationResponse,
     newDeleteApplicationResponse,
 
     -- ** GetApplication
-    GetApplication (GetApplication'),
+    GetApplication,
     newGetApplication,
-    GetApplicationResponse (GetApplicationResponse'),
+    GetApplicationResponse,
     newGetApplicationResponse,
 
     -- ** GetApplicationPolicy
-    GetApplicationPolicy (GetApplicationPolicy'),
+    GetApplicationPolicy,
     newGetApplicationPolicy,
-    GetApplicationPolicyResponse (GetApplicationPolicyResponse'),
+    GetApplicationPolicyResponse,
     newGetApplicationPolicyResponse,
 
     -- ** GetCloudFormationTemplate
-    GetCloudFormationTemplate (GetCloudFormationTemplate'),
+    GetCloudFormationTemplate,
     newGetCloudFormationTemplate,
-    GetCloudFormationTemplateResponse (GetCloudFormationTemplateResponse'),
+    GetCloudFormationTemplateResponse,
     newGetCloudFormationTemplateResponse,
 
     -- ** ListApplicationDependencies (Paginated)
-    ListApplicationDependencies (ListApplicationDependencies'),
+    ListApplicationDependencies,
     newListApplicationDependencies,
-    ListApplicationDependenciesResponse (ListApplicationDependenciesResponse'),
+    ListApplicationDependenciesResponse,
     newListApplicationDependenciesResponse,
 
     -- ** ListApplicationVersions (Paginated)
-    ListApplicationVersions (ListApplicationVersions'),
+    ListApplicationVersions,
     newListApplicationVersions,
-    ListApplicationVersionsResponse (ListApplicationVersionsResponse'),
+    ListApplicationVersionsResponse,
     newListApplicationVersionsResponse,
 
     -- ** ListApplications (Paginated)
-    ListApplications (ListApplications'),
+    ListApplications,
     newListApplications,
-    ListApplicationsResponse (ListApplicationsResponse'),
+    ListApplicationsResponse,
     newListApplicationsResponse,
 
     -- ** PutApplicationPolicy
-    PutApplicationPolicy (PutApplicationPolicy'),
+    PutApplicationPolicy,
     newPutApplicationPolicy,
-    PutApplicationPolicyResponse (PutApplicationPolicyResponse'),
+    PutApplicationPolicyResponse,
     newPutApplicationPolicyResponse,
 
     -- ** UnshareApplication
-    UnshareApplication (UnshareApplication'),
+    UnshareApplication,
     newUnshareApplication,
-    UnshareApplicationResponse (UnshareApplicationResponse'),
+    UnshareApplicationResponse,
     newUnshareApplicationResponse,
 
     -- ** UpdateApplication
-    UpdateApplication (UpdateApplication'),
+    UpdateApplication,
     newUpdateApplication,
-    UpdateApplicationResponse (UpdateApplicationResponse'),
+    UpdateApplicationResponse,
     newUpdateApplicationResponse,
 
     -- * Types
@@ -168,43 +168,43 @@ module Amazonka.ServerlessApplicationRepository
     Status (..),
 
     -- ** ApplicationDependencySummary
-    ApplicationDependencySummary (ApplicationDependencySummary'),
+    ApplicationDependencySummary,
     newApplicationDependencySummary,
 
     -- ** ApplicationPolicyStatement
-    ApplicationPolicyStatement (ApplicationPolicyStatement'),
+    ApplicationPolicyStatement,
     newApplicationPolicyStatement,
 
     -- ** ApplicationSummary
-    ApplicationSummary (ApplicationSummary'),
+    ApplicationSummary,
     newApplicationSummary,
 
     -- ** ParameterDefinition
-    ParameterDefinition (ParameterDefinition'),
+    ParameterDefinition,
     newParameterDefinition,
 
     -- ** ParameterValue
-    ParameterValue (ParameterValue'),
+    ParameterValue,
     newParameterValue,
 
     -- ** RollbackConfiguration
-    RollbackConfiguration (RollbackConfiguration'),
+    RollbackConfiguration,
     newRollbackConfiguration,
 
     -- ** RollbackTrigger
-    RollbackTrigger (RollbackTrigger'),
+    RollbackTrigger,
     newRollbackTrigger,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
 
     -- ** Version
-    Version (Version'),
+    Version,
     newVersion,
 
     -- ** VersionSummary
-    VersionSummary (VersionSummary'),
+    VersionSummary,
     newVersionSummary,
   )
 where

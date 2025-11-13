@@ -54,63 +54,63 @@ module Amazonka.RedshiftData
     -- $operations
 
     -- ** BatchExecuteStatement
-    BatchExecuteStatement (BatchExecuteStatement'),
+    BatchExecuteStatement,
     newBatchExecuteStatement,
-    BatchExecuteStatementResponse (BatchExecuteStatementResponse'),
+    BatchExecuteStatementResponse,
     newBatchExecuteStatementResponse,
 
     -- ** CancelStatement
-    CancelStatement (CancelStatement'),
+    CancelStatement,
     newCancelStatement,
-    CancelStatementResponse (CancelStatementResponse'),
+    CancelStatementResponse,
     newCancelStatementResponse,
 
     -- ** DescribeStatement
-    DescribeStatement (DescribeStatement'),
+    DescribeStatement,
     newDescribeStatement,
-    DescribeStatementResponse (DescribeStatementResponse'),
+    DescribeStatementResponse,
     newDescribeStatementResponse,
 
     -- ** DescribeTable (Paginated)
-    DescribeTable (DescribeTable'),
+    DescribeTable,
     newDescribeTable,
-    DescribeTableResponse (DescribeTableResponse'),
+    DescribeTableResponse,
     newDescribeTableResponse,
 
     -- ** ExecuteStatement
-    ExecuteStatement (ExecuteStatement'),
+    ExecuteStatement,
     newExecuteStatement,
-    ExecuteStatementResponse (ExecuteStatementResponse'),
+    ExecuteStatementResponse,
     newExecuteStatementResponse,
 
     -- ** GetStatementResult (Paginated)
-    GetStatementResult (GetStatementResult'),
+    GetStatementResult,
     newGetStatementResult,
-    GetStatementResultResponse (GetStatementResultResponse'),
+    GetStatementResultResponse,
     newGetStatementResultResponse,
 
     -- ** ListDatabases (Paginated)
-    ListDatabases (ListDatabases'),
+    ListDatabases,
     newListDatabases,
-    ListDatabasesResponse (ListDatabasesResponse'),
+    ListDatabasesResponse,
     newListDatabasesResponse,
 
     -- ** ListSchemas (Paginated)
-    ListSchemas (ListSchemas'),
+    ListSchemas,
     newListSchemas,
-    ListSchemasResponse (ListSchemasResponse'),
+    ListSchemasResponse,
     newListSchemasResponse,
 
     -- ** ListStatements (Paginated)
-    ListStatements (ListStatements'),
+    ListStatements,
     newListStatements,
-    ListStatementsResponse (ListStatementsResponse'),
+    ListStatementsResponse,
     newListStatementsResponse,
 
     -- ** ListTables (Paginated)
-    ListTables (ListTables'),
+    ListTables,
     newListTables,
-    ListTablesResponse (ListTablesResponse'),
+    ListTablesResponse,
     newListTablesResponse,
 
     -- * Types
@@ -122,27 +122,27 @@ module Amazonka.RedshiftData
     StatusString (..),
 
     -- ** ColumnMetadata
-    ColumnMetadata (ColumnMetadata'),
+    ColumnMetadata,
     newColumnMetadata,
 
     -- ** Field
-    Field (Field'),
+    Field,
     newField,
 
     -- ** SqlParameter
-    SqlParameter (SqlParameter'),
+    SqlParameter,
     newSqlParameter,
 
     -- ** StatementData
-    StatementData (StatementData'),
+    StatementData,
     newStatementData,
 
     -- ** SubStatementData
-    SubStatementData (SubStatementData'),
+    SubStatementData,
     newSubStatementData,
 
     -- ** TableMember
-    TableMember (TableMember'),
+    TableMember,
     newTableMember,
   )
 where

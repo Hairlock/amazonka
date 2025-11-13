@@ -86,357 +86,357 @@ module Amazonka.MediaLive
     -- $operations
 
     -- ** AcceptInputDeviceTransfer
-    AcceptInputDeviceTransfer (AcceptInputDeviceTransfer'),
+    AcceptInputDeviceTransfer,
     newAcceptInputDeviceTransfer,
-    AcceptInputDeviceTransferResponse (AcceptInputDeviceTransferResponse'),
+    AcceptInputDeviceTransferResponse,
     newAcceptInputDeviceTransferResponse,
 
     -- ** BatchDelete
     BatchDelete' (BatchDelete''),
     newBatchDelete',
-    BatchDeleteResponse (BatchDeleteResponse'),
+    BatchDeleteResponse,
     newBatchDeleteResponse,
 
     -- ** BatchStart
     BatchStart' (BatchStart''),
     newBatchStart',
-    BatchStartResponse (BatchStartResponse'),
+    BatchStartResponse,
     newBatchStartResponse,
 
     -- ** BatchStop
     BatchStop' (BatchStop''),
     newBatchStop',
-    BatchStopResponse (BatchStopResponse'),
+    BatchStopResponse,
     newBatchStopResponse,
 
     -- ** BatchUpdateSchedule
-    BatchUpdateSchedule (BatchUpdateSchedule'),
+    BatchUpdateSchedule,
     newBatchUpdateSchedule,
-    BatchUpdateScheduleResponse (BatchUpdateScheduleResponse'),
+    BatchUpdateScheduleResponse,
     newBatchUpdateScheduleResponse,
 
     -- ** CancelInputDeviceTransfer
-    CancelInputDeviceTransfer (CancelInputDeviceTransfer'),
+    CancelInputDeviceTransfer,
     newCancelInputDeviceTransfer,
-    CancelInputDeviceTransferResponse (CancelInputDeviceTransferResponse'),
+    CancelInputDeviceTransferResponse,
     newCancelInputDeviceTransferResponse,
 
     -- ** ClaimDevice
-    ClaimDevice (ClaimDevice'),
+    ClaimDevice,
     newClaimDevice,
-    ClaimDeviceResponse (ClaimDeviceResponse'),
+    ClaimDeviceResponse,
     newClaimDeviceResponse,
 
     -- ** CreateChannel
     CreateChannel' (CreateChannel''),
     newCreateChannel',
-    CreateChannelResponse (CreateChannelResponse'),
+    CreateChannelResponse,
     newCreateChannelResponse,
 
     -- ** CreateInput
     CreateInput' (CreateInput''),
     newCreateInput',
-    CreateInputResponse (CreateInputResponse'),
+    CreateInputResponse,
     newCreateInputResponse,
 
     -- ** CreateInputSecurityGroup
-    CreateInputSecurityGroup (CreateInputSecurityGroup'),
+    CreateInputSecurityGroup,
     newCreateInputSecurityGroup,
-    CreateInputSecurityGroupResponse (CreateInputSecurityGroupResponse'),
+    CreateInputSecurityGroupResponse,
     newCreateInputSecurityGroupResponse,
 
     -- ** CreateMultiplex
     CreateMultiplex' (CreateMultiplex''),
     newCreateMultiplex',
-    CreateMultiplexResponse (CreateMultiplexResponse'),
+    CreateMultiplexResponse,
     newCreateMultiplexResponse,
 
     -- ** CreateMultiplexProgram
     CreateMultiplexProgram' (CreateMultiplexProgram''),
     newCreateMultiplexProgram',
-    CreateMultiplexProgramResponse (CreateMultiplexProgramResponse'),
+    CreateMultiplexProgramResponse,
     newCreateMultiplexProgramResponse,
 
     -- ** CreatePartnerInput
     CreatePartnerInput' (CreatePartnerInput''),
     newCreatePartnerInput',
-    CreatePartnerInputResponse (CreatePartnerInputResponse'),
+    CreatePartnerInputResponse,
     newCreatePartnerInputResponse,
 
     -- ** CreateTags
-    CreateTags (CreateTags'),
+    CreateTags,
     newCreateTags,
-    CreateTagsResponse (CreateTagsResponse'),
+    CreateTagsResponse,
     newCreateTagsResponse,
 
     -- ** DeleteChannel
-    DeleteChannel (DeleteChannel'),
+    DeleteChannel,
     newDeleteChannel,
-    DeleteChannelResponse (DeleteChannelResponse'),
+    DeleteChannelResponse,
     newDeleteChannelResponse,
 
     -- ** DeleteInput
-    DeleteInput (DeleteInput'),
+    DeleteInput,
     newDeleteInput,
-    DeleteInputResponse (DeleteInputResponse'),
+    DeleteInputResponse,
     newDeleteInputResponse,
 
     -- ** DeleteInputSecurityGroup
-    DeleteInputSecurityGroup (DeleteInputSecurityGroup'),
+    DeleteInputSecurityGroup,
     newDeleteInputSecurityGroup,
-    DeleteInputSecurityGroupResponse (DeleteInputSecurityGroupResponse'),
+    DeleteInputSecurityGroupResponse,
     newDeleteInputSecurityGroupResponse,
 
     -- ** DeleteMultiplex
-    DeleteMultiplex (DeleteMultiplex'),
+    DeleteMultiplex,
     newDeleteMultiplex,
-    DeleteMultiplexResponse (DeleteMultiplexResponse'),
+    DeleteMultiplexResponse,
     newDeleteMultiplexResponse,
 
     -- ** DeleteMultiplexProgram
-    DeleteMultiplexProgram (DeleteMultiplexProgram'),
+    DeleteMultiplexProgram,
     newDeleteMultiplexProgram,
-    DeleteMultiplexProgramResponse (DeleteMultiplexProgramResponse'),
+    DeleteMultiplexProgramResponse,
     newDeleteMultiplexProgramResponse,
 
     -- ** DeleteReservation
-    DeleteReservation (DeleteReservation'),
+    DeleteReservation,
     newDeleteReservation,
-    DeleteReservationResponse (DeleteReservationResponse'),
+    DeleteReservationResponse,
     newDeleteReservationResponse,
 
     -- ** DeleteSchedule
-    DeleteSchedule (DeleteSchedule'),
+    DeleteSchedule,
     newDeleteSchedule,
-    DeleteScheduleResponse (DeleteScheduleResponse'),
+    DeleteScheduleResponse,
     newDeleteScheduleResponse,
 
     -- ** DeleteTags
-    DeleteTags (DeleteTags'),
+    DeleteTags,
     newDeleteTags,
-    DeleteTagsResponse (DeleteTagsResponse'),
+    DeleteTagsResponse,
     newDeleteTagsResponse,
 
     -- ** DescribeChannel
-    DescribeChannel (DescribeChannel'),
+    DescribeChannel,
     newDescribeChannel,
-    DescribeChannelResponse (DescribeChannelResponse'),
+    DescribeChannelResponse,
     newDescribeChannelResponse,
 
     -- ** DescribeInput
-    DescribeInput (DescribeInput'),
+    DescribeInput,
     newDescribeInput,
-    DescribeInputResponse (DescribeInputResponse'),
+    DescribeInputResponse,
     newDescribeInputResponse,
 
     -- ** DescribeInputDevice
-    DescribeInputDevice (DescribeInputDevice'),
+    DescribeInputDevice,
     newDescribeInputDevice,
-    DescribeInputDeviceResponse (DescribeInputDeviceResponse'),
+    DescribeInputDeviceResponse,
     newDescribeInputDeviceResponse,
 
     -- ** DescribeInputDeviceThumbnail
-    DescribeInputDeviceThumbnail (DescribeInputDeviceThumbnail'),
+    DescribeInputDeviceThumbnail,
     newDescribeInputDeviceThumbnail,
-    DescribeInputDeviceThumbnailResponse (DescribeInputDeviceThumbnailResponse'),
+    DescribeInputDeviceThumbnailResponse,
     newDescribeInputDeviceThumbnailResponse,
 
     -- ** DescribeInputSecurityGroup
-    DescribeInputSecurityGroup (DescribeInputSecurityGroup'),
+    DescribeInputSecurityGroup,
     newDescribeInputSecurityGroup,
-    DescribeInputSecurityGroupResponse (DescribeInputSecurityGroupResponse'),
+    DescribeInputSecurityGroupResponse,
     newDescribeInputSecurityGroupResponse,
 
     -- ** DescribeMultiplex
-    DescribeMultiplex (DescribeMultiplex'),
+    DescribeMultiplex,
     newDescribeMultiplex,
-    DescribeMultiplexResponse (DescribeMultiplexResponse'),
+    DescribeMultiplexResponse,
     newDescribeMultiplexResponse,
 
     -- ** DescribeMultiplexProgram
-    DescribeMultiplexProgram (DescribeMultiplexProgram'),
+    DescribeMultiplexProgram,
     newDescribeMultiplexProgram,
-    DescribeMultiplexProgramResponse (DescribeMultiplexProgramResponse'),
+    DescribeMultiplexProgramResponse,
     newDescribeMultiplexProgramResponse,
 
     -- ** DescribeOffering
-    DescribeOffering (DescribeOffering'),
+    DescribeOffering,
     newDescribeOffering,
-    DescribeOfferingResponse (DescribeOfferingResponse'),
+    DescribeOfferingResponse,
     newDescribeOfferingResponse,
 
     -- ** DescribeReservation
-    DescribeReservation (DescribeReservation'),
+    DescribeReservation,
     newDescribeReservation,
-    DescribeReservationResponse (DescribeReservationResponse'),
+    DescribeReservationResponse,
     newDescribeReservationResponse,
 
     -- ** DescribeSchedule (Paginated)
-    DescribeSchedule (DescribeSchedule'),
+    DescribeSchedule,
     newDescribeSchedule,
-    DescribeScheduleResponse (DescribeScheduleResponse'),
+    DescribeScheduleResponse,
     newDescribeScheduleResponse,
 
     -- ** ListChannels (Paginated)
-    ListChannels (ListChannels'),
+    ListChannels,
     newListChannels,
-    ListChannelsResponse (ListChannelsResponse'),
+    ListChannelsResponse,
     newListChannelsResponse,
 
     -- ** ListInputDeviceTransfers (Paginated)
-    ListInputDeviceTransfers (ListInputDeviceTransfers'),
+    ListInputDeviceTransfers,
     newListInputDeviceTransfers,
-    ListInputDeviceTransfersResponse (ListInputDeviceTransfersResponse'),
+    ListInputDeviceTransfersResponse,
     newListInputDeviceTransfersResponse,
 
     -- ** ListInputDevices (Paginated)
-    ListInputDevices (ListInputDevices'),
+    ListInputDevices,
     newListInputDevices,
-    ListInputDevicesResponse (ListInputDevicesResponse'),
+    ListInputDevicesResponse,
     newListInputDevicesResponse,
 
     -- ** ListInputSecurityGroups (Paginated)
-    ListInputSecurityGroups (ListInputSecurityGroups'),
+    ListInputSecurityGroups,
     newListInputSecurityGroups,
-    ListInputSecurityGroupsResponse (ListInputSecurityGroupsResponse'),
+    ListInputSecurityGroupsResponse,
     newListInputSecurityGroupsResponse,
 
     -- ** ListInputs (Paginated)
-    ListInputs (ListInputs'),
+    ListInputs,
     newListInputs,
-    ListInputsResponse (ListInputsResponse'),
+    ListInputsResponse,
     newListInputsResponse,
 
     -- ** ListMultiplexPrograms (Paginated)
-    ListMultiplexPrograms (ListMultiplexPrograms'),
+    ListMultiplexPrograms,
     newListMultiplexPrograms,
-    ListMultiplexProgramsResponse (ListMultiplexProgramsResponse'),
+    ListMultiplexProgramsResponse,
     newListMultiplexProgramsResponse,
 
     -- ** ListMultiplexes (Paginated)
-    ListMultiplexes (ListMultiplexes'),
+    ListMultiplexes,
     newListMultiplexes,
-    ListMultiplexesResponse (ListMultiplexesResponse'),
+    ListMultiplexesResponse,
     newListMultiplexesResponse,
 
     -- ** ListOfferings (Paginated)
-    ListOfferings (ListOfferings'),
+    ListOfferings,
     newListOfferings,
-    ListOfferingsResponse (ListOfferingsResponse'),
+    ListOfferingsResponse,
     newListOfferingsResponse,
 
     -- ** ListReservations (Paginated)
-    ListReservations (ListReservations'),
+    ListReservations,
     newListReservations,
-    ListReservationsResponse (ListReservationsResponse'),
+    ListReservationsResponse,
     newListReservationsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** PurchaseOffering
     PurchaseOffering' (PurchaseOffering''),
     newPurchaseOffering',
-    PurchaseOfferingResponse (PurchaseOfferingResponse'),
+    PurchaseOfferingResponse,
     newPurchaseOfferingResponse,
 
     -- ** RebootInputDevice
     RebootInputDevice' (RebootInputDevice''),
     newRebootInputDevice',
-    RebootInputDeviceResponse (RebootInputDeviceResponse'),
+    RebootInputDeviceResponse,
     newRebootInputDeviceResponse,
 
     -- ** RejectInputDeviceTransfer
-    RejectInputDeviceTransfer (RejectInputDeviceTransfer'),
+    RejectInputDeviceTransfer,
     newRejectInputDeviceTransfer,
-    RejectInputDeviceTransferResponse (RejectInputDeviceTransferResponse'),
+    RejectInputDeviceTransferResponse,
     newRejectInputDeviceTransferResponse,
 
     -- ** StartChannel
-    StartChannel (StartChannel'),
+    StartChannel,
     newStartChannel,
-    StartChannelResponse (StartChannelResponse'),
+    StartChannelResponse,
     newStartChannelResponse,
 
     -- ** StartInputDeviceMaintenanceWindow
-    StartInputDeviceMaintenanceWindow (StartInputDeviceMaintenanceWindow'),
+    StartInputDeviceMaintenanceWindow,
     newStartInputDeviceMaintenanceWindow,
-    StartInputDeviceMaintenanceWindowResponse (StartInputDeviceMaintenanceWindowResponse'),
+    StartInputDeviceMaintenanceWindowResponse,
     newStartInputDeviceMaintenanceWindowResponse,
 
     -- ** StartMultiplex
-    StartMultiplex (StartMultiplex'),
+    StartMultiplex,
     newStartMultiplex,
-    StartMultiplexResponse (StartMultiplexResponse'),
+    StartMultiplexResponse,
     newStartMultiplexResponse,
 
     -- ** StopChannel
-    StopChannel (StopChannel'),
+    StopChannel,
     newStopChannel,
-    StopChannelResponse (StopChannelResponse'),
+    StopChannelResponse,
     newStopChannelResponse,
 
     -- ** StopMultiplex
-    StopMultiplex (StopMultiplex'),
+    StopMultiplex,
     newStopMultiplex,
-    StopMultiplexResponse (StopMultiplexResponse'),
+    StopMultiplexResponse,
     newStopMultiplexResponse,
 
     -- ** TransferInputDevice
     TransferInputDevice' (TransferInputDevice''),
     newTransferInputDevice',
-    TransferInputDeviceResponse (TransferInputDeviceResponse'),
+    TransferInputDeviceResponse,
     newTransferInputDeviceResponse,
 
     -- ** UpdateChannel
     UpdateChannel' (UpdateChannel''),
     newUpdateChannel',
-    UpdateChannelResponse (UpdateChannelResponse'),
+    UpdateChannelResponse,
     newUpdateChannelResponse,
 
     -- ** UpdateChannelClass
     UpdateChannelClass' (UpdateChannelClass''),
     newUpdateChannelClass',
-    UpdateChannelClassResponse (UpdateChannelClassResponse'),
+    UpdateChannelClassResponse,
     newUpdateChannelClassResponse,
 
     -- ** UpdateInput
     UpdateInput' (UpdateInput''),
     newUpdateInput',
-    UpdateInputResponse (UpdateInputResponse'),
+    UpdateInputResponse,
     newUpdateInputResponse,
 
     -- ** UpdateInputDevice
     UpdateInputDevice' (UpdateInputDevice''),
     newUpdateInputDevice',
-    UpdateInputDeviceResponse (UpdateInputDeviceResponse'),
+    UpdateInputDeviceResponse,
     newUpdateInputDeviceResponse,
 
     -- ** UpdateInputSecurityGroup
-    UpdateInputSecurityGroup (UpdateInputSecurityGroup'),
+    UpdateInputSecurityGroup,
     newUpdateInputSecurityGroup,
-    UpdateInputSecurityGroupResponse (UpdateInputSecurityGroupResponse'),
+    UpdateInputSecurityGroupResponse,
     newUpdateInputSecurityGroupResponse,
 
     -- ** UpdateMultiplex
     UpdateMultiplex' (UpdateMultiplex''),
     newUpdateMultiplex',
-    UpdateMultiplexResponse (UpdateMultiplexResponse'),
+    UpdateMultiplexResponse,
     newUpdateMultiplexResponse,
 
     -- ** UpdateMultiplexProgram
     UpdateMultiplexProgram' (UpdateMultiplexProgram''),
     newUpdateMultiplexProgram',
-    UpdateMultiplexProgramResponse (UpdateMultiplexProgramResponse'),
+    UpdateMultiplexProgramResponse,
     newUpdateMultiplexProgramResponse,
 
     -- ** UpdateReservation
     UpdateReservation' (UpdateReservation''),
     newUpdateReservation',
-    UpdateReservationResponse (UpdateReservationResponse'),
+    UpdateReservationResponse,
     newUpdateReservationResponse,
 
     -- * Types
@@ -1234,939 +1234,939 @@ module Amazonka.MediaLive
     WebvttDestinationStyleControl (..),
 
     -- ** AacSettings
-    AacSettings (AacSettings'),
+    AacSettings,
     newAacSettings,
 
     -- ** Ac3Settings
-    Ac3Settings (Ac3Settings'),
+    Ac3Settings,
     newAc3Settings,
 
     -- ** AncillarySourceSettings
-    AncillarySourceSettings (AncillarySourceSettings'),
+    AncillarySourceSettings,
     newAncillarySourceSettings,
 
     -- ** ArchiveCdnSettings
-    ArchiveCdnSettings (ArchiveCdnSettings'),
+    ArchiveCdnSettings,
     newArchiveCdnSettings,
 
     -- ** ArchiveContainerSettings
-    ArchiveContainerSettings (ArchiveContainerSettings'),
+    ArchiveContainerSettings,
     newArchiveContainerSettings,
 
     -- ** ArchiveGroupSettings
-    ArchiveGroupSettings (ArchiveGroupSettings'),
+    ArchiveGroupSettings,
     newArchiveGroupSettings,
 
     -- ** ArchiveOutputSettings
-    ArchiveOutputSettings (ArchiveOutputSettings'),
+    ArchiveOutputSettings,
     newArchiveOutputSettings,
 
     -- ** ArchiveS3Settings
-    ArchiveS3Settings (ArchiveS3Settings'),
+    ArchiveS3Settings,
     newArchiveS3Settings,
 
     -- ** AribDestinationSettings
-    AribDestinationSettings (AribDestinationSettings'),
+    AribDestinationSettings,
     newAribDestinationSettings,
 
     -- ** AribSourceSettings
-    AribSourceSettings (AribSourceSettings'),
+    AribSourceSettings,
     newAribSourceSettings,
 
     -- ** AudioChannelMapping
-    AudioChannelMapping (AudioChannelMapping'),
+    AudioChannelMapping,
     newAudioChannelMapping,
 
     -- ** AudioCodecSettings
-    AudioCodecSettings (AudioCodecSettings'),
+    AudioCodecSettings,
     newAudioCodecSettings,
 
     -- ** AudioDescription
-    AudioDescription (AudioDescription'),
+    AudioDescription,
     newAudioDescription,
 
     -- ** AudioDolbyEDecode
-    AudioDolbyEDecode (AudioDolbyEDecode'),
+    AudioDolbyEDecode,
     newAudioDolbyEDecode,
 
     -- ** AudioHlsRenditionSelection
-    AudioHlsRenditionSelection (AudioHlsRenditionSelection'),
+    AudioHlsRenditionSelection,
     newAudioHlsRenditionSelection,
 
     -- ** AudioLanguageSelection
-    AudioLanguageSelection (AudioLanguageSelection'),
+    AudioLanguageSelection,
     newAudioLanguageSelection,
 
     -- ** AudioNormalizationSettings
-    AudioNormalizationSettings (AudioNormalizationSettings'),
+    AudioNormalizationSettings,
     newAudioNormalizationSettings,
 
     -- ** AudioOnlyHlsSettings
-    AudioOnlyHlsSettings (AudioOnlyHlsSettings'),
+    AudioOnlyHlsSettings,
     newAudioOnlyHlsSettings,
 
     -- ** AudioPidSelection
-    AudioPidSelection (AudioPidSelection'),
+    AudioPidSelection,
     newAudioPidSelection,
 
     -- ** AudioSelector
-    AudioSelector (AudioSelector'),
+    AudioSelector,
     newAudioSelector,
 
     -- ** AudioSelectorSettings
-    AudioSelectorSettings (AudioSelectorSettings'),
+    AudioSelectorSettings,
     newAudioSelectorSettings,
 
     -- ** AudioSilenceFailoverSettings
-    AudioSilenceFailoverSettings (AudioSilenceFailoverSettings'),
+    AudioSilenceFailoverSettings,
     newAudioSilenceFailoverSettings,
 
     -- ** AudioTrack
-    AudioTrack (AudioTrack'),
+    AudioTrack,
     newAudioTrack,
 
     -- ** AudioTrackSelection
-    AudioTrackSelection (AudioTrackSelection'),
+    AudioTrackSelection,
     newAudioTrackSelection,
 
     -- ** AudioWatermarkSettings
-    AudioWatermarkSettings (AudioWatermarkSettings'),
+    AudioWatermarkSettings,
     newAudioWatermarkSettings,
 
     -- ** AutomaticInputFailoverSettings
-    AutomaticInputFailoverSettings (AutomaticInputFailoverSettings'),
+    AutomaticInputFailoverSettings,
     newAutomaticInputFailoverSettings,
 
     -- ** AvailBlanking
-    AvailBlanking (AvailBlanking'),
+    AvailBlanking,
     newAvailBlanking,
 
     -- ** AvailConfiguration
-    AvailConfiguration (AvailConfiguration'),
+    AvailConfiguration,
     newAvailConfiguration,
 
     -- ** AvailSettings
-    AvailSettings (AvailSettings'),
+    AvailSettings,
     newAvailSettings,
 
     -- ** BatchFailedResultModel
-    BatchFailedResultModel (BatchFailedResultModel'),
+    BatchFailedResultModel,
     newBatchFailedResultModel,
 
     -- ** BatchScheduleActionCreateRequest
-    BatchScheduleActionCreateRequest (BatchScheduleActionCreateRequest'),
+    BatchScheduleActionCreateRequest,
     newBatchScheduleActionCreateRequest,
 
     -- ** BatchScheduleActionCreateResult
-    BatchScheduleActionCreateResult (BatchScheduleActionCreateResult'),
+    BatchScheduleActionCreateResult,
     newBatchScheduleActionCreateResult,
 
     -- ** BatchScheduleActionDeleteRequest
-    BatchScheduleActionDeleteRequest (BatchScheduleActionDeleteRequest'),
+    BatchScheduleActionDeleteRequest,
     newBatchScheduleActionDeleteRequest,
 
     -- ** BatchScheduleActionDeleteResult
-    BatchScheduleActionDeleteResult (BatchScheduleActionDeleteResult'),
+    BatchScheduleActionDeleteResult,
     newBatchScheduleActionDeleteResult,
 
     -- ** BatchSuccessfulResultModel
-    BatchSuccessfulResultModel (BatchSuccessfulResultModel'),
+    BatchSuccessfulResultModel,
     newBatchSuccessfulResultModel,
 
     -- ** BlackoutSlate
-    BlackoutSlate (BlackoutSlate'),
+    BlackoutSlate,
     newBlackoutSlate,
 
     -- ** BurnInDestinationSettings
-    BurnInDestinationSettings (BurnInDestinationSettings'),
+    BurnInDestinationSettings,
     newBurnInDestinationSettings,
 
     -- ** CaptionDescription
-    CaptionDescription (CaptionDescription'),
+    CaptionDescription,
     newCaptionDescription,
 
     -- ** CaptionDestinationSettings
-    CaptionDestinationSettings (CaptionDestinationSettings'),
+    CaptionDestinationSettings,
     newCaptionDestinationSettings,
 
     -- ** CaptionLanguageMapping
-    CaptionLanguageMapping (CaptionLanguageMapping'),
+    CaptionLanguageMapping,
     newCaptionLanguageMapping,
 
     -- ** CaptionRectangle
-    CaptionRectangle (CaptionRectangle'),
+    CaptionRectangle,
     newCaptionRectangle,
 
     -- ** CaptionSelector
-    CaptionSelector (CaptionSelector'),
+    CaptionSelector,
     newCaptionSelector,
 
     -- ** CaptionSelectorSettings
-    CaptionSelectorSettings (CaptionSelectorSettings'),
+    CaptionSelectorSettings,
     newCaptionSelectorSettings,
 
     -- ** CdiInputSpecification
-    CdiInputSpecification (CdiInputSpecification'),
+    CdiInputSpecification,
     newCdiInputSpecification,
 
     -- ** Channel
-    Channel (Channel'),
+    Channel,
     newChannel,
 
     -- ** ChannelEgressEndpoint
-    ChannelEgressEndpoint (ChannelEgressEndpoint'),
+    ChannelEgressEndpoint,
     newChannelEgressEndpoint,
 
     -- ** ChannelSummary
-    ChannelSummary (ChannelSummary'),
+    ChannelSummary,
     newChannelSummary,
 
     -- ** ColorSpacePassthroughSettings
-    ColorSpacePassthroughSettings (ColorSpacePassthroughSettings'),
+    ColorSpacePassthroughSettings,
     newColorSpacePassthroughSettings,
 
     -- ** DolbyVision81Settings
-    DolbyVision81Settings (DolbyVision81Settings'),
+    DolbyVision81Settings,
     newDolbyVision81Settings,
 
     -- ** DvbNitSettings
-    DvbNitSettings (DvbNitSettings'),
+    DvbNitSettings,
     newDvbNitSettings,
 
     -- ** DvbSdtSettings
-    DvbSdtSettings (DvbSdtSettings'),
+    DvbSdtSettings,
     newDvbSdtSettings,
 
     -- ** DvbSubDestinationSettings
-    DvbSubDestinationSettings (DvbSubDestinationSettings'),
+    DvbSubDestinationSettings,
     newDvbSubDestinationSettings,
 
     -- ** DvbSubSourceSettings
-    DvbSubSourceSettings (DvbSubSourceSettings'),
+    DvbSubSourceSettings,
     newDvbSubSourceSettings,
 
     -- ** DvbTdtSettings
-    DvbTdtSettings (DvbTdtSettings'),
+    DvbTdtSettings,
     newDvbTdtSettings,
 
     -- ** Eac3AtmosSettings
-    Eac3AtmosSettings (Eac3AtmosSettings'),
+    Eac3AtmosSettings,
     newEac3AtmosSettings,
 
     -- ** Eac3Settings
-    Eac3Settings (Eac3Settings'),
+    Eac3Settings,
     newEac3Settings,
 
     -- ** EbuTtDDestinationSettings
-    EbuTtDDestinationSettings (EbuTtDDestinationSettings'),
+    EbuTtDDestinationSettings,
     newEbuTtDDestinationSettings,
 
     -- ** EmbeddedDestinationSettings
-    EmbeddedDestinationSettings (EmbeddedDestinationSettings'),
+    EmbeddedDestinationSettings,
     newEmbeddedDestinationSettings,
 
     -- ** EmbeddedPlusScte20DestinationSettings
-    EmbeddedPlusScte20DestinationSettings (EmbeddedPlusScte20DestinationSettings'),
+    EmbeddedPlusScte20DestinationSettings,
     newEmbeddedPlusScte20DestinationSettings,
 
     -- ** EmbeddedSourceSettings
-    EmbeddedSourceSettings (EmbeddedSourceSettings'),
+    EmbeddedSourceSettings,
     newEmbeddedSourceSettings,
 
     -- ** EncoderSettings
-    EncoderSettings (EncoderSettings'),
+    EncoderSettings,
     newEncoderSettings,
 
     -- ** Esam
-    Esam (Esam'),
+    Esam,
     newEsam,
 
     -- ** FailoverCondition
-    FailoverCondition (FailoverCondition'),
+    FailoverCondition,
     newFailoverCondition,
 
     -- ** FailoverConditionSettings
-    FailoverConditionSettings (FailoverConditionSettings'),
+    FailoverConditionSettings,
     newFailoverConditionSettings,
 
     -- ** FeatureActivations
-    FeatureActivations (FeatureActivations'),
+    FeatureActivations,
     newFeatureActivations,
 
     -- ** FecOutputSettings
-    FecOutputSettings (FecOutputSettings'),
+    FecOutputSettings,
     newFecOutputSettings,
 
     -- ** FixedModeScheduleActionStartSettings
-    FixedModeScheduleActionStartSettings (FixedModeScheduleActionStartSettings'),
+    FixedModeScheduleActionStartSettings,
     newFixedModeScheduleActionStartSettings,
 
     -- ** Fmp4HlsSettings
-    Fmp4HlsSettings (Fmp4HlsSettings'),
+    Fmp4HlsSettings,
     newFmp4HlsSettings,
 
     -- ** FollowModeScheduleActionStartSettings
-    FollowModeScheduleActionStartSettings (FollowModeScheduleActionStartSettings'),
+    FollowModeScheduleActionStartSettings,
     newFollowModeScheduleActionStartSettings,
 
     -- ** FrameCaptureCdnSettings
-    FrameCaptureCdnSettings (FrameCaptureCdnSettings'),
+    FrameCaptureCdnSettings,
     newFrameCaptureCdnSettings,
 
     -- ** FrameCaptureGroupSettings
-    FrameCaptureGroupSettings (FrameCaptureGroupSettings'),
+    FrameCaptureGroupSettings,
     newFrameCaptureGroupSettings,
 
     -- ** FrameCaptureHlsSettings
-    FrameCaptureHlsSettings (FrameCaptureHlsSettings'),
+    FrameCaptureHlsSettings,
     newFrameCaptureHlsSettings,
 
     -- ** FrameCaptureOutputSettings
-    FrameCaptureOutputSettings (FrameCaptureOutputSettings'),
+    FrameCaptureOutputSettings,
     newFrameCaptureOutputSettings,
 
     -- ** FrameCaptureS3Settings
-    FrameCaptureS3Settings (FrameCaptureS3Settings'),
+    FrameCaptureS3Settings,
     newFrameCaptureS3Settings,
 
     -- ** FrameCaptureSettings
-    FrameCaptureSettings (FrameCaptureSettings'),
+    FrameCaptureSettings,
     newFrameCaptureSettings,
 
     -- ** GlobalConfiguration
-    GlobalConfiguration (GlobalConfiguration'),
+    GlobalConfiguration,
     newGlobalConfiguration,
 
     -- ** H264ColorSpaceSettings
-    H264ColorSpaceSettings (H264ColorSpaceSettings'),
+    H264ColorSpaceSettings,
     newH264ColorSpaceSettings,
 
     -- ** H264FilterSettings
-    H264FilterSettings (H264FilterSettings'),
+    H264FilterSettings,
     newH264FilterSettings,
 
     -- ** H264Settings
-    H264Settings (H264Settings'),
+    H264Settings,
     newH264Settings,
 
     -- ** H265ColorSpaceSettings
-    H265ColorSpaceSettings (H265ColorSpaceSettings'),
+    H265ColorSpaceSettings,
     newH265ColorSpaceSettings,
 
     -- ** H265FilterSettings
-    H265FilterSettings (H265FilterSettings'),
+    H265FilterSettings,
     newH265FilterSettings,
 
     -- ** H265Settings
-    H265Settings (H265Settings'),
+    H265Settings,
     newH265Settings,
 
     -- ** Hdr10Settings
-    Hdr10Settings (Hdr10Settings'),
+    Hdr10Settings,
     newHdr10Settings,
 
     -- ** HlsAkamaiSettings
-    HlsAkamaiSettings (HlsAkamaiSettings'),
+    HlsAkamaiSettings,
     newHlsAkamaiSettings,
 
     -- ** HlsBasicPutSettings
-    HlsBasicPutSettings (HlsBasicPutSettings'),
+    HlsBasicPutSettings,
     newHlsBasicPutSettings,
 
     -- ** HlsCdnSettings
-    HlsCdnSettings (HlsCdnSettings'),
+    HlsCdnSettings,
     newHlsCdnSettings,
 
     -- ** HlsGroupSettings
-    HlsGroupSettings (HlsGroupSettings'),
+    HlsGroupSettings,
     newHlsGroupSettings,
 
     -- ** HlsId3SegmentTaggingScheduleActionSettings
-    HlsId3SegmentTaggingScheduleActionSettings (HlsId3SegmentTaggingScheduleActionSettings'),
+    HlsId3SegmentTaggingScheduleActionSettings,
     newHlsId3SegmentTaggingScheduleActionSettings,
 
     -- ** HlsInputSettings
-    HlsInputSettings (HlsInputSettings'),
+    HlsInputSettings,
     newHlsInputSettings,
 
     -- ** HlsMediaStoreSettings
-    HlsMediaStoreSettings (HlsMediaStoreSettings'),
+    HlsMediaStoreSettings,
     newHlsMediaStoreSettings,
 
     -- ** HlsOutputSettings
-    HlsOutputSettings (HlsOutputSettings'),
+    HlsOutputSettings,
     newHlsOutputSettings,
 
     -- ** HlsS3Settings
-    HlsS3Settings (HlsS3Settings'),
+    HlsS3Settings,
     newHlsS3Settings,
 
     -- ** HlsSettings
-    HlsSettings (HlsSettings'),
+    HlsSettings,
     newHlsSettings,
 
     -- ** HlsTimedMetadataScheduleActionSettings
-    HlsTimedMetadataScheduleActionSettings (HlsTimedMetadataScheduleActionSettings'),
+    HlsTimedMetadataScheduleActionSettings,
     newHlsTimedMetadataScheduleActionSettings,
 
     -- ** HlsWebdavSettings
-    HlsWebdavSettings (HlsWebdavSettings'),
+    HlsWebdavSettings,
     newHlsWebdavSettings,
 
     -- ** HtmlMotionGraphicsSettings
-    HtmlMotionGraphicsSettings (HtmlMotionGraphicsSettings'),
+    HtmlMotionGraphicsSettings,
     newHtmlMotionGraphicsSettings,
 
     -- ** ImmediateModeScheduleActionStartSettings
-    ImmediateModeScheduleActionStartSettings (ImmediateModeScheduleActionStartSettings'),
+    ImmediateModeScheduleActionStartSettings,
     newImmediateModeScheduleActionStartSettings,
 
     -- ** Input
-    Input (Input'),
+    Input,
     newInput,
 
     -- ** InputAttachment
-    InputAttachment (InputAttachment'),
+    InputAttachment,
     newInputAttachment,
 
     -- ** InputChannelLevel
-    InputChannelLevel (InputChannelLevel'),
+    InputChannelLevel,
     newInputChannelLevel,
 
     -- ** InputClippingSettings
-    InputClippingSettings (InputClippingSettings'),
+    InputClippingSettings,
     newInputClippingSettings,
 
     -- ** InputDestination
-    InputDestination (InputDestination'),
+    InputDestination,
     newInputDestination,
 
     -- ** InputDestinationRequest
-    InputDestinationRequest (InputDestinationRequest'),
+    InputDestinationRequest,
     newInputDestinationRequest,
 
     -- ** InputDestinationVpc
-    InputDestinationVpc (InputDestinationVpc'),
+    InputDestinationVpc,
     newInputDestinationVpc,
 
     -- ** InputDeviceConfigurableSettings
-    InputDeviceConfigurableSettings (InputDeviceConfigurableSettings'),
+    InputDeviceConfigurableSettings,
     newInputDeviceConfigurableSettings,
 
     -- ** InputDeviceHdSettings
-    InputDeviceHdSettings (InputDeviceHdSettings'),
+    InputDeviceHdSettings,
     newInputDeviceHdSettings,
 
     -- ** InputDeviceNetworkSettings
-    InputDeviceNetworkSettings (InputDeviceNetworkSettings'),
+    InputDeviceNetworkSettings,
     newInputDeviceNetworkSettings,
 
     -- ** InputDeviceRequest
-    InputDeviceRequest (InputDeviceRequest'),
+    InputDeviceRequest,
     newInputDeviceRequest,
 
     -- ** InputDeviceSettings
-    InputDeviceSettings (InputDeviceSettings'),
+    InputDeviceSettings,
     newInputDeviceSettings,
 
     -- ** InputDeviceSummary
-    InputDeviceSummary (InputDeviceSummary'),
+    InputDeviceSummary,
     newInputDeviceSummary,
 
     -- ** InputDeviceUhdSettings
-    InputDeviceUhdSettings (InputDeviceUhdSettings'),
+    InputDeviceUhdSettings,
     newInputDeviceUhdSettings,
 
     -- ** InputLocation
-    InputLocation (InputLocation'),
+    InputLocation,
     newInputLocation,
 
     -- ** InputLossBehavior
-    InputLossBehavior (InputLossBehavior'),
+    InputLossBehavior,
     newInputLossBehavior,
 
     -- ** InputLossFailoverSettings
-    InputLossFailoverSettings (InputLossFailoverSettings'),
+    InputLossFailoverSettings,
     newInputLossFailoverSettings,
 
     -- ** InputPrepareScheduleActionSettings
-    InputPrepareScheduleActionSettings (InputPrepareScheduleActionSettings'),
+    InputPrepareScheduleActionSettings,
     newInputPrepareScheduleActionSettings,
 
     -- ** InputSecurityGroup
-    InputSecurityGroup (InputSecurityGroup'),
+    InputSecurityGroup,
     newInputSecurityGroup,
 
     -- ** InputSettings
-    InputSettings (InputSettings'),
+    InputSettings,
     newInputSettings,
 
     -- ** InputSource
-    InputSource (InputSource'),
+    InputSource,
     newInputSource,
 
     -- ** InputSourceRequest
-    InputSourceRequest (InputSourceRequest'),
+    InputSourceRequest,
     newInputSourceRequest,
 
     -- ** InputSpecification
-    InputSpecification (InputSpecification'),
+    InputSpecification,
     newInputSpecification,
 
     -- ** InputSwitchScheduleActionSettings
-    InputSwitchScheduleActionSettings (InputSwitchScheduleActionSettings'),
+    InputSwitchScheduleActionSettings,
     newInputSwitchScheduleActionSettings,
 
     -- ** InputVpcRequest
-    InputVpcRequest (InputVpcRequest'),
+    InputVpcRequest,
     newInputVpcRequest,
 
     -- ** InputWhitelistRule
-    InputWhitelistRule (InputWhitelistRule'),
+    InputWhitelistRule,
     newInputWhitelistRule,
 
     -- ** InputWhitelistRuleCidr
-    InputWhitelistRuleCidr (InputWhitelistRuleCidr'),
+    InputWhitelistRuleCidr,
     newInputWhitelistRuleCidr,
 
     -- ** KeyProviderSettings
-    KeyProviderSettings (KeyProviderSettings'),
+    KeyProviderSettings,
     newKeyProviderSettings,
 
     -- ** M2tsSettings
-    M2tsSettings (M2tsSettings'),
+    M2tsSettings,
     newM2tsSettings,
 
     -- ** M3u8Settings
-    M3u8Settings (M3u8Settings'),
+    M3u8Settings,
     newM3u8Settings,
 
     -- ** MaintenanceCreateSettings
-    MaintenanceCreateSettings (MaintenanceCreateSettings'),
+    MaintenanceCreateSettings,
     newMaintenanceCreateSettings,
 
     -- ** MaintenanceStatus
-    MaintenanceStatus (MaintenanceStatus'),
+    MaintenanceStatus,
     newMaintenanceStatus,
 
     -- ** MaintenanceUpdateSettings
-    MaintenanceUpdateSettings (MaintenanceUpdateSettings'),
+    MaintenanceUpdateSettings,
     newMaintenanceUpdateSettings,
 
     -- ** MediaConnectFlow
-    MediaConnectFlow (MediaConnectFlow'),
+    MediaConnectFlow,
     newMediaConnectFlow,
 
     -- ** MediaConnectFlowRequest
-    MediaConnectFlowRequest (MediaConnectFlowRequest'),
+    MediaConnectFlowRequest,
     newMediaConnectFlowRequest,
 
     -- ** MediaPackageGroupSettings
-    MediaPackageGroupSettings (MediaPackageGroupSettings'),
+    MediaPackageGroupSettings,
     newMediaPackageGroupSettings,
 
     -- ** MediaPackageOutputDestinationSettings
-    MediaPackageOutputDestinationSettings (MediaPackageOutputDestinationSettings'),
+    MediaPackageOutputDestinationSettings,
     newMediaPackageOutputDestinationSettings,
 
     -- ** MediaPackageOutputSettings
-    MediaPackageOutputSettings (MediaPackageOutputSettings'),
+    MediaPackageOutputSettings,
     newMediaPackageOutputSettings,
 
     -- ** MotionGraphicsActivateScheduleActionSettings
-    MotionGraphicsActivateScheduleActionSettings (MotionGraphicsActivateScheduleActionSettings'),
+    MotionGraphicsActivateScheduleActionSettings,
     newMotionGraphicsActivateScheduleActionSettings,
 
     -- ** MotionGraphicsConfiguration
-    MotionGraphicsConfiguration (MotionGraphicsConfiguration'),
+    MotionGraphicsConfiguration,
     newMotionGraphicsConfiguration,
 
     -- ** MotionGraphicsDeactivateScheduleActionSettings
-    MotionGraphicsDeactivateScheduleActionSettings (MotionGraphicsDeactivateScheduleActionSettings'),
+    MotionGraphicsDeactivateScheduleActionSettings,
     newMotionGraphicsDeactivateScheduleActionSettings,
 
     -- ** MotionGraphicsSettings
-    MotionGraphicsSettings (MotionGraphicsSettings'),
+    MotionGraphicsSettings,
     newMotionGraphicsSettings,
 
     -- ** Mp2Settings
-    Mp2Settings (Mp2Settings'),
+    Mp2Settings,
     newMp2Settings,
 
     -- ** Mpeg2FilterSettings
-    Mpeg2FilterSettings (Mpeg2FilterSettings'),
+    Mpeg2FilterSettings,
     newMpeg2FilterSettings,
 
     -- ** Mpeg2Settings
-    Mpeg2Settings (Mpeg2Settings'),
+    Mpeg2Settings,
     newMpeg2Settings,
 
     -- ** MsSmoothGroupSettings
-    MsSmoothGroupSettings (MsSmoothGroupSettings'),
+    MsSmoothGroupSettings,
     newMsSmoothGroupSettings,
 
     -- ** MsSmoothOutputSettings
-    MsSmoothOutputSettings (MsSmoothOutputSettings'),
+    MsSmoothOutputSettings,
     newMsSmoothOutputSettings,
 
     -- ** Multiplex
-    Multiplex (Multiplex'),
+    Multiplex,
     newMultiplex,
 
     -- ** MultiplexGroupSettings
-    MultiplexGroupSettings (MultiplexGroupSettings'),
+    MultiplexGroupSettings,
     newMultiplexGroupSettings,
 
     -- ** MultiplexMediaConnectOutputDestinationSettings
-    MultiplexMediaConnectOutputDestinationSettings (MultiplexMediaConnectOutputDestinationSettings'),
+    MultiplexMediaConnectOutputDestinationSettings,
     newMultiplexMediaConnectOutputDestinationSettings,
 
     -- ** MultiplexOutputDestination
-    MultiplexOutputDestination (MultiplexOutputDestination'),
+    MultiplexOutputDestination,
     newMultiplexOutputDestination,
 
     -- ** MultiplexOutputSettings
-    MultiplexOutputSettings (MultiplexOutputSettings'),
+    MultiplexOutputSettings,
     newMultiplexOutputSettings,
 
     -- ** MultiplexProgram
-    MultiplexProgram (MultiplexProgram'),
+    MultiplexProgram,
     newMultiplexProgram,
 
     -- ** MultiplexProgramChannelDestinationSettings
-    MultiplexProgramChannelDestinationSettings (MultiplexProgramChannelDestinationSettings'),
+    MultiplexProgramChannelDestinationSettings,
     newMultiplexProgramChannelDestinationSettings,
 
     -- ** MultiplexProgramPacketIdentifiersMap
-    MultiplexProgramPacketIdentifiersMap (MultiplexProgramPacketIdentifiersMap'),
+    MultiplexProgramPacketIdentifiersMap,
     newMultiplexProgramPacketIdentifiersMap,
 
     -- ** MultiplexProgramPipelineDetail
-    MultiplexProgramPipelineDetail (MultiplexProgramPipelineDetail'),
+    MultiplexProgramPipelineDetail,
     newMultiplexProgramPipelineDetail,
 
     -- ** MultiplexProgramServiceDescriptor
-    MultiplexProgramServiceDescriptor (MultiplexProgramServiceDescriptor'),
+    MultiplexProgramServiceDescriptor,
     newMultiplexProgramServiceDescriptor,
 
     -- ** MultiplexProgramSettings
-    MultiplexProgramSettings (MultiplexProgramSettings'),
+    MultiplexProgramSettings,
     newMultiplexProgramSettings,
 
     -- ** MultiplexProgramSummary
-    MultiplexProgramSummary (MultiplexProgramSummary'),
+    MultiplexProgramSummary,
     newMultiplexProgramSummary,
 
     -- ** MultiplexSettings
-    MultiplexSettings (MultiplexSettings'),
+    MultiplexSettings,
     newMultiplexSettings,
 
     -- ** MultiplexSettingsSummary
-    MultiplexSettingsSummary (MultiplexSettingsSummary'),
+    MultiplexSettingsSummary,
     newMultiplexSettingsSummary,
 
     -- ** MultiplexStatmuxVideoSettings
-    MultiplexStatmuxVideoSettings (MultiplexStatmuxVideoSettings'),
+    MultiplexStatmuxVideoSettings,
     newMultiplexStatmuxVideoSettings,
 
     -- ** MultiplexSummary
-    MultiplexSummary (MultiplexSummary'),
+    MultiplexSummary,
     newMultiplexSummary,
 
     -- ** MultiplexVideoSettings
-    MultiplexVideoSettings (MultiplexVideoSettings'),
+    MultiplexVideoSettings,
     newMultiplexVideoSettings,
 
     -- ** NetworkInputSettings
-    NetworkInputSettings (NetworkInputSettings'),
+    NetworkInputSettings,
     newNetworkInputSettings,
 
     -- ** NielsenCBET
-    NielsenCBET (NielsenCBET'),
+    NielsenCBET,
     newNielsenCBET,
 
     -- ** NielsenConfiguration
-    NielsenConfiguration (NielsenConfiguration'),
+    NielsenConfiguration,
     newNielsenConfiguration,
 
     -- ** NielsenNaesIiNw
-    NielsenNaesIiNw (NielsenNaesIiNw'),
+    NielsenNaesIiNw,
     newNielsenNaesIiNw,
 
     -- ** NielsenWatermarksSettings
-    NielsenWatermarksSettings (NielsenWatermarksSettings'),
+    NielsenWatermarksSettings,
     newNielsenWatermarksSettings,
 
     -- ** Offering
-    Offering (Offering'),
+    Offering,
     newOffering,
 
     -- ** Output
-    Output (Output'),
+    Output,
     newOutput,
 
     -- ** OutputDestination
-    OutputDestination (OutputDestination'),
+    OutputDestination,
     newOutputDestination,
 
     -- ** OutputDestinationSettings
-    OutputDestinationSettings (OutputDestinationSettings'),
+    OutputDestinationSettings,
     newOutputDestinationSettings,
 
     -- ** OutputGroup
-    OutputGroup (OutputGroup'),
+    OutputGroup,
     newOutputGroup,
 
     -- ** OutputGroupSettings
-    OutputGroupSettings (OutputGroupSettings'),
+    OutputGroupSettings,
     newOutputGroupSettings,
 
     -- ** OutputLocationRef
-    OutputLocationRef (OutputLocationRef'),
+    OutputLocationRef,
     newOutputLocationRef,
 
     -- ** OutputSettings
-    OutputSettings (OutputSettings'),
+    OutputSettings,
     newOutputSettings,
 
     -- ** PassThroughSettings
-    PassThroughSettings (PassThroughSettings'),
+    PassThroughSettings,
     newPassThroughSettings,
 
     -- ** PauseStateScheduleActionSettings
-    PauseStateScheduleActionSettings (PauseStateScheduleActionSettings'),
+    PauseStateScheduleActionSettings,
     newPauseStateScheduleActionSettings,
 
     -- ** PipelineDetail
-    PipelineDetail (PipelineDetail'),
+    PipelineDetail,
     newPipelineDetail,
 
     -- ** PipelinePauseStateSettings
-    PipelinePauseStateSettings (PipelinePauseStateSettings'),
+    PipelinePauseStateSettings,
     newPipelinePauseStateSettings,
 
     -- ** RawSettings
-    RawSettings (RawSettings'),
+    RawSettings,
     newRawSettings,
 
     -- ** Rec601Settings
-    Rec601Settings (Rec601Settings'),
+    Rec601Settings,
     newRec601Settings,
 
     -- ** Rec709Settings
-    Rec709Settings (Rec709Settings'),
+    Rec709Settings,
     newRec709Settings,
 
     -- ** RemixSettings
-    RemixSettings (RemixSettings'),
+    RemixSettings,
     newRemixSettings,
 
     -- ** RenewalSettings
-    RenewalSettings (RenewalSettings'),
+    RenewalSettings,
     newRenewalSettings,
 
     -- ** Reservation
-    Reservation (Reservation'),
+    Reservation,
     newReservation,
 
     -- ** ReservationResourceSpecification
-    ReservationResourceSpecification (ReservationResourceSpecification'),
+    ReservationResourceSpecification,
     newReservationResourceSpecification,
 
     -- ** RtmpCaptionInfoDestinationSettings
-    RtmpCaptionInfoDestinationSettings (RtmpCaptionInfoDestinationSettings'),
+    RtmpCaptionInfoDestinationSettings,
     newRtmpCaptionInfoDestinationSettings,
 
     -- ** RtmpGroupSettings
-    RtmpGroupSettings (RtmpGroupSettings'),
+    RtmpGroupSettings,
     newRtmpGroupSettings,
 
     -- ** RtmpOutputSettings
-    RtmpOutputSettings (RtmpOutputSettings'),
+    RtmpOutputSettings,
     newRtmpOutputSettings,
 
     -- ** ScheduleAction
-    ScheduleAction (ScheduleAction'),
+    ScheduleAction,
     newScheduleAction,
 
     -- ** ScheduleActionSettings
-    ScheduleActionSettings (ScheduleActionSettings'),
+    ScheduleActionSettings,
     newScheduleActionSettings,
 
     -- ** ScheduleActionStartSettings
-    ScheduleActionStartSettings (ScheduleActionStartSettings'),
+    ScheduleActionStartSettings,
     newScheduleActionStartSettings,
 
     -- ** Scte20PlusEmbeddedDestinationSettings
-    Scte20PlusEmbeddedDestinationSettings (Scte20PlusEmbeddedDestinationSettings'),
+    Scte20PlusEmbeddedDestinationSettings,
     newScte20PlusEmbeddedDestinationSettings,
 
     -- ** Scte20SourceSettings
-    Scte20SourceSettings (Scte20SourceSettings'),
+    Scte20SourceSettings,
     newScte20SourceSettings,
 
     -- ** Scte27DestinationSettings
-    Scte27DestinationSettings (Scte27DestinationSettings'),
+    Scte27DestinationSettings,
     newScte27DestinationSettings,
 
     -- ** Scte27SourceSettings
-    Scte27SourceSettings (Scte27SourceSettings'),
+    Scte27SourceSettings,
     newScte27SourceSettings,
 
     -- ** Scte35DeliveryRestrictions
-    Scte35DeliveryRestrictions (Scte35DeliveryRestrictions'),
+    Scte35DeliveryRestrictions,
     newScte35DeliveryRestrictions,
 
     -- ** Scte35Descriptor
-    Scte35Descriptor (Scte35Descriptor'),
+    Scte35Descriptor,
     newScte35Descriptor,
 
     -- ** Scte35DescriptorSettings
-    Scte35DescriptorSettings (Scte35DescriptorSettings'),
+    Scte35DescriptorSettings,
     newScte35DescriptorSettings,
 
     -- ** Scte35InputScheduleActionSettings
-    Scte35InputScheduleActionSettings (Scte35InputScheduleActionSettings'),
+    Scte35InputScheduleActionSettings,
     newScte35InputScheduleActionSettings,
 
     -- ** Scte35ReturnToNetworkScheduleActionSettings
-    Scte35ReturnToNetworkScheduleActionSettings (Scte35ReturnToNetworkScheduleActionSettings'),
+    Scte35ReturnToNetworkScheduleActionSettings,
     newScte35ReturnToNetworkScheduleActionSettings,
 
     -- ** Scte35SegmentationDescriptor
-    Scte35SegmentationDescriptor (Scte35SegmentationDescriptor'),
+    Scte35SegmentationDescriptor,
     newScte35SegmentationDescriptor,
 
     -- ** Scte35SpliceInsert
-    Scte35SpliceInsert (Scte35SpliceInsert'),
+    Scte35SpliceInsert,
     newScte35SpliceInsert,
 
     -- ** Scte35SpliceInsertScheduleActionSettings
-    Scte35SpliceInsertScheduleActionSettings (Scte35SpliceInsertScheduleActionSettings'),
+    Scte35SpliceInsertScheduleActionSettings,
     newScte35SpliceInsertScheduleActionSettings,
 
     -- ** Scte35TimeSignalApos
-    Scte35TimeSignalApos (Scte35TimeSignalApos'),
+    Scte35TimeSignalApos,
     newScte35TimeSignalApos,
 
     -- ** Scte35TimeSignalScheduleActionSettings
-    Scte35TimeSignalScheduleActionSettings (Scte35TimeSignalScheduleActionSettings'),
+    Scte35TimeSignalScheduleActionSettings,
     newScte35TimeSignalScheduleActionSettings,
 
     -- ** SmpteTtDestinationSettings
-    SmpteTtDestinationSettings (SmpteTtDestinationSettings'),
+    SmpteTtDestinationSettings,
     newSmpteTtDestinationSettings,
 
     -- ** StandardHlsSettings
-    StandardHlsSettings (StandardHlsSettings'),
+    StandardHlsSettings,
     newStandardHlsSettings,
 
     -- ** StartTimecode
-    StartTimecode (StartTimecode'),
+    StartTimecode,
     newStartTimecode,
 
     -- ** StaticImageActivateScheduleActionSettings
-    StaticImageActivateScheduleActionSettings (StaticImageActivateScheduleActionSettings'),
+    StaticImageActivateScheduleActionSettings,
     newStaticImageActivateScheduleActionSettings,
 
     -- ** StaticImageDeactivateScheduleActionSettings
-    StaticImageDeactivateScheduleActionSettings (StaticImageDeactivateScheduleActionSettings'),
+    StaticImageDeactivateScheduleActionSettings,
     newStaticImageDeactivateScheduleActionSettings,
 
     -- ** StaticKeySettings
-    StaticKeySettings (StaticKeySettings'),
+    StaticKeySettings,
     newStaticKeySettings,
 
     -- ** StopTimecode
-    StopTimecode (StopTimecode'),
+    StopTimecode,
     newStopTimecode,
 
     -- ** TeletextDestinationSettings
-    TeletextDestinationSettings (TeletextDestinationSettings'),
+    TeletextDestinationSettings,
     newTeletextDestinationSettings,
 
     -- ** TeletextSourceSettings
-    TeletextSourceSettings (TeletextSourceSettings'),
+    TeletextSourceSettings,
     newTeletextSourceSettings,
 
     -- ** TemporalFilterSettings
-    TemporalFilterSettings (TemporalFilterSettings'),
+    TemporalFilterSettings,
     newTemporalFilterSettings,
 
     -- ** TimecodeBurninSettings
-    TimecodeBurninSettings (TimecodeBurninSettings'),
+    TimecodeBurninSettings,
     newTimecodeBurninSettings,
 
     -- ** TimecodeConfig
-    TimecodeConfig (TimecodeConfig'),
+    TimecodeConfig,
     newTimecodeConfig,
 
     -- ** TransferringInputDeviceSummary
-    TransferringInputDeviceSummary (TransferringInputDeviceSummary'),
+    TransferringInputDeviceSummary,
     newTransferringInputDeviceSummary,
 
     -- ** TtmlDestinationSettings
-    TtmlDestinationSettings (TtmlDestinationSettings'),
+    TtmlDestinationSettings,
     newTtmlDestinationSettings,
 
     -- ** UdpContainerSettings
-    UdpContainerSettings (UdpContainerSettings'),
+    UdpContainerSettings,
     newUdpContainerSettings,
 
     -- ** UdpGroupSettings
-    UdpGroupSettings (UdpGroupSettings'),
+    UdpGroupSettings,
     newUdpGroupSettings,
 
     -- ** UdpOutputSettings
-    UdpOutputSettings (UdpOutputSettings'),
+    UdpOutputSettings,
     newUdpOutputSettings,
 
     -- ** VideoBlackFailoverSettings
-    VideoBlackFailoverSettings (VideoBlackFailoverSettings'),
+    VideoBlackFailoverSettings,
     newVideoBlackFailoverSettings,
 
     -- ** VideoCodecSettings
-    VideoCodecSettings (VideoCodecSettings'),
+    VideoCodecSettings,
     newVideoCodecSettings,
 
     -- ** VideoDescription
-    VideoDescription (VideoDescription'),
+    VideoDescription,
     newVideoDescription,
 
     -- ** VideoSelector
-    VideoSelector (VideoSelector'),
+    VideoSelector,
     newVideoSelector,
 
     -- ** VideoSelectorColorSpaceSettings
-    VideoSelectorColorSpaceSettings (VideoSelectorColorSpaceSettings'),
+    VideoSelectorColorSpaceSettings,
     newVideoSelectorColorSpaceSettings,
 
     -- ** VideoSelectorPid
-    VideoSelectorPid (VideoSelectorPid'),
+    VideoSelectorPid,
     newVideoSelectorPid,
 
     -- ** VideoSelectorProgramId
-    VideoSelectorProgramId (VideoSelectorProgramId'),
+    VideoSelectorProgramId,
     newVideoSelectorProgramId,
 
     -- ** VideoSelectorSettings
-    VideoSelectorSettings (VideoSelectorSettings'),
+    VideoSelectorSettings,
     newVideoSelectorSettings,
 
     -- ** VpcOutputSettings
-    VpcOutputSettings (VpcOutputSettings'),
+    VpcOutputSettings,
     newVpcOutputSettings,
 
     -- ** VpcOutputSettingsDescription
-    VpcOutputSettingsDescription (VpcOutputSettingsDescription'),
+    VpcOutputSettingsDescription,
     newVpcOutputSettingsDescription,
 
     -- ** WavSettings
-    WavSettings (WavSettings'),
+    WavSettings,
     newWavSettings,
 
     -- ** WebvttDestinationSettings
-    WebvttDestinationSettings (WebvttDestinationSettings'),
+    WebvttDestinationSettings,
     newWebvttDestinationSettings,
   )
 where

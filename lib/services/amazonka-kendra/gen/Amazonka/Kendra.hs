@@ -59,363 +59,363 @@ module Amazonka.Kendra
     -- $operations
 
     -- ** AssociateEntitiesToExperience
-    AssociateEntitiesToExperience (AssociateEntitiesToExperience'),
+    AssociateEntitiesToExperience,
     newAssociateEntitiesToExperience,
-    AssociateEntitiesToExperienceResponse (AssociateEntitiesToExperienceResponse'),
+    AssociateEntitiesToExperienceResponse,
     newAssociateEntitiesToExperienceResponse,
 
     -- ** AssociatePersonasToEntities
-    AssociatePersonasToEntities (AssociatePersonasToEntities'),
+    AssociatePersonasToEntities,
     newAssociatePersonasToEntities,
-    AssociatePersonasToEntitiesResponse (AssociatePersonasToEntitiesResponse'),
+    AssociatePersonasToEntitiesResponse,
     newAssociatePersonasToEntitiesResponse,
 
     -- ** BatchDeleteDocument
-    BatchDeleteDocument (BatchDeleteDocument'),
+    BatchDeleteDocument,
     newBatchDeleteDocument,
-    BatchDeleteDocumentResponse (BatchDeleteDocumentResponse'),
+    BatchDeleteDocumentResponse,
     newBatchDeleteDocumentResponse,
 
     -- ** BatchGetDocumentStatus
-    BatchGetDocumentStatus (BatchGetDocumentStatus'),
+    BatchGetDocumentStatus,
     newBatchGetDocumentStatus,
-    BatchGetDocumentStatusResponse (BatchGetDocumentStatusResponse'),
+    BatchGetDocumentStatusResponse,
     newBatchGetDocumentStatusResponse,
 
     -- ** BatchPutDocument
-    BatchPutDocument (BatchPutDocument'),
+    BatchPutDocument,
     newBatchPutDocument,
-    BatchPutDocumentResponse (BatchPutDocumentResponse'),
+    BatchPutDocumentResponse,
     newBatchPutDocumentResponse,
 
     -- ** ClearQuerySuggestions
-    ClearQuerySuggestions (ClearQuerySuggestions'),
+    ClearQuerySuggestions,
     newClearQuerySuggestions,
-    ClearQuerySuggestionsResponse (ClearQuerySuggestionsResponse'),
+    ClearQuerySuggestionsResponse,
     newClearQuerySuggestionsResponse,
 
     -- ** CreateAccessControlConfiguration
-    CreateAccessControlConfiguration (CreateAccessControlConfiguration'),
+    CreateAccessControlConfiguration,
     newCreateAccessControlConfiguration,
-    CreateAccessControlConfigurationResponse (CreateAccessControlConfigurationResponse'),
+    CreateAccessControlConfigurationResponse,
     newCreateAccessControlConfigurationResponse,
 
     -- ** CreateDataSource
-    CreateDataSource (CreateDataSource'),
+    CreateDataSource,
     newCreateDataSource,
-    CreateDataSourceResponse (CreateDataSourceResponse'),
+    CreateDataSourceResponse,
     newCreateDataSourceResponse,
 
     -- ** CreateExperience
-    CreateExperience (CreateExperience'),
+    CreateExperience,
     newCreateExperience,
-    CreateExperienceResponse (CreateExperienceResponse'),
+    CreateExperienceResponse,
     newCreateExperienceResponse,
 
     -- ** CreateFaq
-    CreateFaq (CreateFaq'),
+    CreateFaq,
     newCreateFaq,
-    CreateFaqResponse (CreateFaqResponse'),
+    CreateFaqResponse,
     newCreateFaqResponse,
 
     -- ** CreateIndex
-    CreateIndex (CreateIndex'),
+    CreateIndex,
     newCreateIndex,
-    CreateIndexResponse (CreateIndexResponse'),
+    CreateIndexResponse,
     newCreateIndexResponse,
 
     -- ** CreateQuerySuggestionsBlockList
-    CreateQuerySuggestionsBlockList (CreateQuerySuggestionsBlockList'),
+    CreateQuerySuggestionsBlockList,
     newCreateQuerySuggestionsBlockList,
-    CreateQuerySuggestionsBlockListResponse (CreateQuerySuggestionsBlockListResponse'),
+    CreateQuerySuggestionsBlockListResponse,
     newCreateQuerySuggestionsBlockListResponse,
 
     -- ** CreateThesaurus
-    CreateThesaurus (CreateThesaurus'),
+    CreateThesaurus,
     newCreateThesaurus,
-    CreateThesaurusResponse (CreateThesaurusResponse'),
+    CreateThesaurusResponse,
     newCreateThesaurusResponse,
 
     -- ** DeleteAccessControlConfiguration
-    DeleteAccessControlConfiguration (DeleteAccessControlConfiguration'),
+    DeleteAccessControlConfiguration,
     newDeleteAccessControlConfiguration,
-    DeleteAccessControlConfigurationResponse (DeleteAccessControlConfigurationResponse'),
+    DeleteAccessControlConfigurationResponse,
     newDeleteAccessControlConfigurationResponse,
 
     -- ** DeleteDataSource
-    DeleteDataSource (DeleteDataSource'),
+    DeleteDataSource,
     newDeleteDataSource,
-    DeleteDataSourceResponse (DeleteDataSourceResponse'),
+    DeleteDataSourceResponse,
     newDeleteDataSourceResponse,
 
     -- ** DeleteExperience
-    DeleteExperience (DeleteExperience'),
+    DeleteExperience,
     newDeleteExperience,
-    DeleteExperienceResponse (DeleteExperienceResponse'),
+    DeleteExperienceResponse,
     newDeleteExperienceResponse,
 
     -- ** DeleteFaq
-    DeleteFaq (DeleteFaq'),
+    DeleteFaq,
     newDeleteFaq,
-    DeleteFaqResponse (DeleteFaqResponse'),
+    DeleteFaqResponse,
     newDeleteFaqResponse,
 
     -- ** DeleteIndex
-    DeleteIndex (DeleteIndex'),
+    DeleteIndex,
     newDeleteIndex,
-    DeleteIndexResponse (DeleteIndexResponse'),
+    DeleteIndexResponse,
     newDeleteIndexResponse,
 
     -- ** DeletePrincipalMapping
-    DeletePrincipalMapping (DeletePrincipalMapping'),
+    DeletePrincipalMapping,
     newDeletePrincipalMapping,
-    DeletePrincipalMappingResponse (DeletePrincipalMappingResponse'),
+    DeletePrincipalMappingResponse,
     newDeletePrincipalMappingResponse,
 
     -- ** DeleteQuerySuggestionsBlockList
-    DeleteQuerySuggestionsBlockList (DeleteQuerySuggestionsBlockList'),
+    DeleteQuerySuggestionsBlockList,
     newDeleteQuerySuggestionsBlockList,
-    DeleteQuerySuggestionsBlockListResponse (DeleteQuerySuggestionsBlockListResponse'),
+    DeleteQuerySuggestionsBlockListResponse,
     newDeleteQuerySuggestionsBlockListResponse,
 
     -- ** DeleteThesaurus
-    DeleteThesaurus (DeleteThesaurus'),
+    DeleteThesaurus,
     newDeleteThesaurus,
-    DeleteThesaurusResponse (DeleteThesaurusResponse'),
+    DeleteThesaurusResponse,
     newDeleteThesaurusResponse,
 
     -- ** DescribeAccessControlConfiguration
-    DescribeAccessControlConfiguration (DescribeAccessControlConfiguration'),
+    DescribeAccessControlConfiguration,
     newDescribeAccessControlConfiguration,
-    DescribeAccessControlConfigurationResponse (DescribeAccessControlConfigurationResponse'),
+    DescribeAccessControlConfigurationResponse,
     newDescribeAccessControlConfigurationResponse,
 
     -- ** DescribeDataSource
-    DescribeDataSource (DescribeDataSource'),
+    DescribeDataSource,
     newDescribeDataSource,
-    DescribeDataSourceResponse (DescribeDataSourceResponse'),
+    DescribeDataSourceResponse,
     newDescribeDataSourceResponse,
 
     -- ** DescribeExperience
-    DescribeExperience (DescribeExperience'),
+    DescribeExperience,
     newDescribeExperience,
-    DescribeExperienceResponse (DescribeExperienceResponse'),
+    DescribeExperienceResponse,
     newDescribeExperienceResponse,
 
     -- ** DescribeFaq
-    DescribeFaq (DescribeFaq'),
+    DescribeFaq,
     newDescribeFaq,
-    DescribeFaqResponse (DescribeFaqResponse'),
+    DescribeFaqResponse,
     newDescribeFaqResponse,
 
     -- ** DescribeIndex
-    DescribeIndex (DescribeIndex'),
+    DescribeIndex,
     newDescribeIndex,
-    DescribeIndexResponse (DescribeIndexResponse'),
+    DescribeIndexResponse,
     newDescribeIndexResponse,
 
     -- ** DescribePrincipalMapping
-    DescribePrincipalMapping (DescribePrincipalMapping'),
+    DescribePrincipalMapping,
     newDescribePrincipalMapping,
-    DescribePrincipalMappingResponse (DescribePrincipalMappingResponse'),
+    DescribePrincipalMappingResponse,
     newDescribePrincipalMappingResponse,
 
     -- ** DescribeQuerySuggestionsBlockList
-    DescribeQuerySuggestionsBlockList (DescribeQuerySuggestionsBlockList'),
+    DescribeQuerySuggestionsBlockList,
     newDescribeQuerySuggestionsBlockList,
-    DescribeQuerySuggestionsBlockListResponse (DescribeQuerySuggestionsBlockListResponse'),
+    DescribeQuerySuggestionsBlockListResponse,
     newDescribeQuerySuggestionsBlockListResponse,
 
     -- ** DescribeQuerySuggestionsConfig
-    DescribeQuerySuggestionsConfig (DescribeQuerySuggestionsConfig'),
+    DescribeQuerySuggestionsConfig,
     newDescribeQuerySuggestionsConfig,
-    DescribeQuerySuggestionsConfigResponse (DescribeQuerySuggestionsConfigResponse'),
+    DescribeQuerySuggestionsConfigResponse,
     newDescribeQuerySuggestionsConfigResponse,
 
     -- ** DescribeThesaurus
-    DescribeThesaurus (DescribeThesaurus'),
+    DescribeThesaurus,
     newDescribeThesaurus,
-    DescribeThesaurusResponse (DescribeThesaurusResponse'),
+    DescribeThesaurusResponse,
     newDescribeThesaurusResponse,
 
     -- ** DisassociateEntitiesFromExperience
-    DisassociateEntitiesFromExperience (DisassociateEntitiesFromExperience'),
+    DisassociateEntitiesFromExperience,
     newDisassociateEntitiesFromExperience,
-    DisassociateEntitiesFromExperienceResponse (DisassociateEntitiesFromExperienceResponse'),
+    DisassociateEntitiesFromExperienceResponse,
     newDisassociateEntitiesFromExperienceResponse,
 
     -- ** DisassociatePersonasFromEntities
-    DisassociatePersonasFromEntities (DisassociatePersonasFromEntities'),
+    DisassociatePersonasFromEntities,
     newDisassociatePersonasFromEntities,
-    DisassociatePersonasFromEntitiesResponse (DisassociatePersonasFromEntitiesResponse'),
+    DisassociatePersonasFromEntitiesResponse,
     newDisassociatePersonasFromEntitiesResponse,
 
     -- ** GetQuerySuggestions
-    GetQuerySuggestions (GetQuerySuggestions'),
+    GetQuerySuggestions,
     newGetQuerySuggestions,
-    GetQuerySuggestionsResponse (GetQuerySuggestionsResponse'),
+    GetQuerySuggestionsResponse,
     newGetQuerySuggestionsResponse,
 
     -- ** GetSnapshots
-    GetSnapshots (GetSnapshots'),
+    GetSnapshots,
     newGetSnapshots,
-    GetSnapshotsResponse (GetSnapshotsResponse'),
+    GetSnapshotsResponse,
     newGetSnapshotsResponse,
 
     -- ** ListAccessControlConfigurations
-    ListAccessControlConfigurations (ListAccessControlConfigurations'),
+    ListAccessControlConfigurations,
     newListAccessControlConfigurations,
-    ListAccessControlConfigurationsResponse (ListAccessControlConfigurationsResponse'),
+    ListAccessControlConfigurationsResponse,
     newListAccessControlConfigurationsResponse,
 
     -- ** ListDataSourceSyncJobs
-    ListDataSourceSyncJobs (ListDataSourceSyncJobs'),
+    ListDataSourceSyncJobs,
     newListDataSourceSyncJobs,
-    ListDataSourceSyncJobsResponse (ListDataSourceSyncJobsResponse'),
+    ListDataSourceSyncJobsResponse,
     newListDataSourceSyncJobsResponse,
 
     -- ** ListDataSources
-    ListDataSources (ListDataSources'),
+    ListDataSources,
     newListDataSources,
-    ListDataSourcesResponse (ListDataSourcesResponse'),
+    ListDataSourcesResponse,
     newListDataSourcesResponse,
 
     -- ** ListEntityPersonas
-    ListEntityPersonas (ListEntityPersonas'),
+    ListEntityPersonas,
     newListEntityPersonas,
-    ListEntityPersonasResponse (ListEntityPersonasResponse'),
+    ListEntityPersonasResponse,
     newListEntityPersonasResponse,
 
     -- ** ListExperienceEntities
-    ListExperienceEntities (ListExperienceEntities'),
+    ListExperienceEntities,
     newListExperienceEntities,
-    ListExperienceEntitiesResponse (ListExperienceEntitiesResponse'),
+    ListExperienceEntitiesResponse,
     newListExperienceEntitiesResponse,
 
     -- ** ListExperiences
-    ListExperiences (ListExperiences'),
+    ListExperiences,
     newListExperiences,
-    ListExperiencesResponse (ListExperiencesResponse'),
+    ListExperiencesResponse,
     newListExperiencesResponse,
 
     -- ** ListFaqs
-    ListFaqs (ListFaqs'),
+    ListFaqs,
     newListFaqs,
-    ListFaqsResponse (ListFaqsResponse'),
+    ListFaqsResponse,
     newListFaqsResponse,
 
     -- ** ListGroupsOlderThanOrderingId
-    ListGroupsOlderThanOrderingId (ListGroupsOlderThanOrderingId'),
+    ListGroupsOlderThanOrderingId,
     newListGroupsOlderThanOrderingId,
-    ListGroupsOlderThanOrderingIdResponse (ListGroupsOlderThanOrderingIdResponse'),
+    ListGroupsOlderThanOrderingIdResponse,
     newListGroupsOlderThanOrderingIdResponse,
 
     -- ** ListIndices
-    ListIndices (ListIndices'),
+    ListIndices,
     newListIndices,
-    ListIndicesResponse (ListIndicesResponse'),
+    ListIndicesResponse,
     newListIndicesResponse,
 
     -- ** ListQuerySuggestionsBlockLists
-    ListQuerySuggestionsBlockLists (ListQuerySuggestionsBlockLists'),
+    ListQuerySuggestionsBlockLists,
     newListQuerySuggestionsBlockLists,
-    ListQuerySuggestionsBlockListsResponse (ListQuerySuggestionsBlockListsResponse'),
+    ListQuerySuggestionsBlockListsResponse,
     newListQuerySuggestionsBlockListsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** ListThesauri
-    ListThesauri (ListThesauri'),
+    ListThesauri,
     newListThesauri,
-    ListThesauriResponse (ListThesauriResponse'),
+    ListThesauriResponse,
     newListThesauriResponse,
 
     -- ** PutPrincipalMapping
-    PutPrincipalMapping (PutPrincipalMapping'),
+    PutPrincipalMapping,
     newPutPrincipalMapping,
-    PutPrincipalMappingResponse (PutPrincipalMappingResponse'),
+    PutPrincipalMappingResponse,
     newPutPrincipalMappingResponse,
 
     -- ** Query
-    Query (Query'),
+    Query,
     newQuery,
-    QueryResponse (QueryResponse'),
+    QueryResponse,
     newQueryResponse,
 
     -- ** StartDataSourceSyncJob
-    StartDataSourceSyncJob (StartDataSourceSyncJob'),
+    StartDataSourceSyncJob,
     newStartDataSourceSyncJob,
-    StartDataSourceSyncJobResponse (StartDataSourceSyncJobResponse'),
+    StartDataSourceSyncJobResponse,
     newStartDataSourceSyncJobResponse,
 
     -- ** StopDataSourceSyncJob
-    StopDataSourceSyncJob (StopDataSourceSyncJob'),
+    StopDataSourceSyncJob,
     newStopDataSourceSyncJob,
-    StopDataSourceSyncJobResponse (StopDataSourceSyncJobResponse'),
+    StopDataSourceSyncJobResponse,
     newStopDataSourceSyncJobResponse,
 
     -- ** SubmitFeedback
-    SubmitFeedback (SubmitFeedback'),
+    SubmitFeedback,
     newSubmitFeedback,
-    SubmitFeedbackResponse (SubmitFeedbackResponse'),
+    SubmitFeedbackResponse,
     newSubmitFeedbackResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateAccessControlConfiguration
-    UpdateAccessControlConfiguration (UpdateAccessControlConfiguration'),
+    UpdateAccessControlConfiguration,
     newUpdateAccessControlConfiguration,
-    UpdateAccessControlConfigurationResponse (UpdateAccessControlConfigurationResponse'),
+    UpdateAccessControlConfigurationResponse,
     newUpdateAccessControlConfigurationResponse,
 
     -- ** UpdateDataSource
-    UpdateDataSource (UpdateDataSource'),
+    UpdateDataSource,
     newUpdateDataSource,
-    UpdateDataSourceResponse (UpdateDataSourceResponse'),
+    UpdateDataSourceResponse,
     newUpdateDataSourceResponse,
 
     -- ** UpdateExperience
-    UpdateExperience (UpdateExperience'),
+    UpdateExperience,
     newUpdateExperience,
-    UpdateExperienceResponse (UpdateExperienceResponse'),
+    UpdateExperienceResponse,
     newUpdateExperienceResponse,
 
     -- ** UpdateIndex
-    UpdateIndex (UpdateIndex'),
+    UpdateIndex,
     newUpdateIndex,
-    UpdateIndexResponse (UpdateIndexResponse'),
+    UpdateIndexResponse,
     newUpdateIndexResponse,
 
     -- ** UpdateQuerySuggestionsBlockList
-    UpdateQuerySuggestionsBlockList (UpdateQuerySuggestionsBlockList'),
+    UpdateQuerySuggestionsBlockList,
     newUpdateQuerySuggestionsBlockList,
-    UpdateQuerySuggestionsBlockListResponse (UpdateQuerySuggestionsBlockListResponse'),
+    UpdateQuerySuggestionsBlockListResponse,
     newUpdateQuerySuggestionsBlockListResponse,
 
     -- ** UpdateQuerySuggestionsConfig
-    UpdateQuerySuggestionsConfig (UpdateQuerySuggestionsConfig'),
+    UpdateQuerySuggestionsConfig,
     newUpdateQuerySuggestionsConfig,
-    UpdateQuerySuggestionsConfigResponse (UpdateQuerySuggestionsConfigResponse'),
+    UpdateQuerySuggestionsConfigResponse,
     newUpdateQuerySuggestionsConfigResponse,
 
     -- ** UpdateThesaurus
-    UpdateThesaurus (UpdateThesaurus'),
+    UpdateThesaurus,
     newUpdateThesaurus,
-    UpdateThesaurusResponse (UpdateThesaurusResponse'),
+    UpdateThesaurusResponse,
     newUpdateThesaurusResponse,
 
     -- * Types
@@ -595,547 +595,547 @@ module Amazonka.Kendra
     WebCrawlerMode (..),
 
     -- ** AccessControlConfigurationSummary
-    AccessControlConfigurationSummary (AccessControlConfigurationSummary'),
+    AccessControlConfigurationSummary,
     newAccessControlConfigurationSummary,
 
     -- ** AccessControlListConfiguration
-    AccessControlListConfiguration (AccessControlListConfiguration'),
+    AccessControlListConfiguration,
     newAccessControlListConfiguration,
 
     -- ** AclConfiguration
-    AclConfiguration (AclConfiguration'),
+    AclConfiguration,
     newAclConfiguration,
 
     -- ** AdditionalResultAttribute
-    AdditionalResultAttribute (AdditionalResultAttribute'),
+    AdditionalResultAttribute,
     newAdditionalResultAttribute,
 
     -- ** AdditionalResultAttributeValue
-    AdditionalResultAttributeValue (AdditionalResultAttributeValue'),
+    AdditionalResultAttributeValue,
     newAdditionalResultAttributeValue,
 
     -- ** AlfrescoConfiguration
-    AlfrescoConfiguration (AlfrescoConfiguration'),
+    AlfrescoConfiguration,
     newAlfrescoConfiguration,
 
     -- ** AttributeFilter
-    AttributeFilter (AttributeFilter'),
+    AttributeFilter,
     newAttributeFilter,
 
     -- ** AuthenticationConfiguration
-    AuthenticationConfiguration (AuthenticationConfiguration'),
+    AuthenticationConfiguration,
     newAuthenticationConfiguration,
 
     -- ** BasicAuthenticationConfiguration
-    BasicAuthenticationConfiguration (BasicAuthenticationConfiguration'),
+    BasicAuthenticationConfiguration,
     newBasicAuthenticationConfiguration,
 
     -- ** BatchDeleteDocumentResponseFailedDocument
-    BatchDeleteDocumentResponseFailedDocument (BatchDeleteDocumentResponseFailedDocument'),
+    BatchDeleteDocumentResponseFailedDocument,
     newBatchDeleteDocumentResponseFailedDocument,
 
     -- ** BatchGetDocumentStatusResponseError
-    BatchGetDocumentStatusResponseError (BatchGetDocumentStatusResponseError'),
+    BatchGetDocumentStatusResponseError,
     newBatchGetDocumentStatusResponseError,
 
     -- ** BatchPutDocumentResponseFailedDocument
-    BatchPutDocumentResponseFailedDocument (BatchPutDocumentResponseFailedDocument'),
+    BatchPutDocumentResponseFailedDocument,
     newBatchPutDocumentResponseFailedDocument,
 
     -- ** BoxConfiguration
-    BoxConfiguration (BoxConfiguration'),
+    BoxConfiguration,
     newBoxConfiguration,
 
     -- ** CapacityUnitsConfiguration
-    CapacityUnitsConfiguration (CapacityUnitsConfiguration'),
+    CapacityUnitsConfiguration,
     newCapacityUnitsConfiguration,
 
     -- ** ClickFeedback
-    ClickFeedback (ClickFeedback'),
+    ClickFeedback,
     newClickFeedback,
 
     -- ** ColumnConfiguration
-    ColumnConfiguration (ColumnConfiguration'),
+    ColumnConfiguration,
     newColumnConfiguration,
 
     -- ** ConfluenceAttachmentConfiguration
-    ConfluenceAttachmentConfiguration (ConfluenceAttachmentConfiguration'),
+    ConfluenceAttachmentConfiguration,
     newConfluenceAttachmentConfiguration,
 
     -- ** ConfluenceAttachmentToIndexFieldMapping
-    ConfluenceAttachmentToIndexFieldMapping (ConfluenceAttachmentToIndexFieldMapping'),
+    ConfluenceAttachmentToIndexFieldMapping,
     newConfluenceAttachmentToIndexFieldMapping,
 
     -- ** ConfluenceBlogConfiguration
-    ConfluenceBlogConfiguration (ConfluenceBlogConfiguration'),
+    ConfluenceBlogConfiguration,
     newConfluenceBlogConfiguration,
 
     -- ** ConfluenceBlogToIndexFieldMapping
-    ConfluenceBlogToIndexFieldMapping (ConfluenceBlogToIndexFieldMapping'),
+    ConfluenceBlogToIndexFieldMapping,
     newConfluenceBlogToIndexFieldMapping,
 
     -- ** ConfluenceConfiguration
-    ConfluenceConfiguration (ConfluenceConfiguration'),
+    ConfluenceConfiguration,
     newConfluenceConfiguration,
 
     -- ** ConfluencePageConfiguration
-    ConfluencePageConfiguration (ConfluencePageConfiguration'),
+    ConfluencePageConfiguration,
     newConfluencePageConfiguration,
 
     -- ** ConfluencePageToIndexFieldMapping
-    ConfluencePageToIndexFieldMapping (ConfluencePageToIndexFieldMapping'),
+    ConfluencePageToIndexFieldMapping,
     newConfluencePageToIndexFieldMapping,
 
     -- ** ConfluenceSpaceConfiguration
-    ConfluenceSpaceConfiguration (ConfluenceSpaceConfiguration'),
+    ConfluenceSpaceConfiguration,
     newConfluenceSpaceConfiguration,
 
     -- ** ConfluenceSpaceToIndexFieldMapping
-    ConfluenceSpaceToIndexFieldMapping (ConfluenceSpaceToIndexFieldMapping'),
+    ConfluenceSpaceToIndexFieldMapping,
     newConfluenceSpaceToIndexFieldMapping,
 
     -- ** ConnectionConfiguration
-    ConnectionConfiguration (ConnectionConfiguration'),
+    ConnectionConfiguration,
     newConnectionConfiguration,
 
     -- ** ContentSourceConfiguration
-    ContentSourceConfiguration (ContentSourceConfiguration'),
+    ContentSourceConfiguration,
     newContentSourceConfiguration,
 
     -- ** Correction
-    Correction (Correction'),
+    Correction,
     newCorrection,
 
     -- ** CustomDocumentEnrichmentConfiguration
-    CustomDocumentEnrichmentConfiguration (CustomDocumentEnrichmentConfiguration'),
+    CustomDocumentEnrichmentConfiguration,
     newCustomDocumentEnrichmentConfiguration,
 
     -- ** DataSourceConfiguration
-    DataSourceConfiguration (DataSourceConfiguration'),
+    DataSourceConfiguration,
     newDataSourceConfiguration,
 
     -- ** DataSourceGroup
-    DataSourceGroup (DataSourceGroup'),
+    DataSourceGroup,
     newDataSourceGroup,
 
     -- ** DataSourceSummary
-    DataSourceSummary (DataSourceSummary'),
+    DataSourceSummary,
     newDataSourceSummary,
 
     -- ** DataSourceSyncJob
-    DataSourceSyncJob (DataSourceSyncJob'),
+    DataSourceSyncJob,
     newDataSourceSyncJob,
 
     -- ** DataSourceSyncJobMetricTarget
-    DataSourceSyncJobMetricTarget (DataSourceSyncJobMetricTarget'),
+    DataSourceSyncJobMetricTarget,
     newDataSourceSyncJobMetricTarget,
 
     -- ** DataSourceSyncJobMetrics
-    DataSourceSyncJobMetrics (DataSourceSyncJobMetrics'),
+    DataSourceSyncJobMetrics,
     newDataSourceSyncJobMetrics,
 
     -- ** DataSourceToIndexFieldMapping
-    DataSourceToIndexFieldMapping (DataSourceToIndexFieldMapping'),
+    DataSourceToIndexFieldMapping,
     newDataSourceToIndexFieldMapping,
 
     -- ** DataSourceVpcConfiguration
-    DataSourceVpcConfiguration (DataSourceVpcConfiguration'),
+    DataSourceVpcConfiguration,
     newDataSourceVpcConfiguration,
 
     -- ** DatabaseConfiguration
-    DatabaseConfiguration (DatabaseConfiguration'),
+    DatabaseConfiguration,
     newDatabaseConfiguration,
 
     -- ** Document
-    Document (Document'),
+    Document,
     newDocument,
 
     -- ** DocumentAttribute
-    DocumentAttribute (DocumentAttribute'),
+    DocumentAttribute,
     newDocumentAttribute,
 
     -- ** DocumentAttributeCondition
-    DocumentAttributeCondition (DocumentAttributeCondition'),
+    DocumentAttributeCondition,
     newDocumentAttributeCondition,
 
     -- ** DocumentAttributeTarget
-    DocumentAttributeTarget (DocumentAttributeTarget'),
+    DocumentAttributeTarget,
     newDocumentAttributeTarget,
 
     -- ** DocumentAttributeValue
-    DocumentAttributeValue (DocumentAttributeValue'),
+    DocumentAttributeValue,
     newDocumentAttributeValue,
 
     -- ** DocumentAttributeValueCountPair
-    DocumentAttributeValueCountPair (DocumentAttributeValueCountPair'),
+    DocumentAttributeValueCountPair,
     newDocumentAttributeValueCountPair,
 
     -- ** DocumentInfo
-    DocumentInfo (DocumentInfo'),
+    DocumentInfo,
     newDocumentInfo,
 
     -- ** DocumentMetadataConfiguration
-    DocumentMetadataConfiguration (DocumentMetadataConfiguration'),
+    DocumentMetadataConfiguration,
     newDocumentMetadataConfiguration,
 
     -- ** DocumentRelevanceConfiguration
-    DocumentRelevanceConfiguration (DocumentRelevanceConfiguration'),
+    DocumentRelevanceConfiguration,
     newDocumentRelevanceConfiguration,
 
     -- ** DocumentsMetadataConfiguration
-    DocumentsMetadataConfiguration (DocumentsMetadataConfiguration'),
+    DocumentsMetadataConfiguration,
     newDocumentsMetadataConfiguration,
 
     -- ** EntityConfiguration
-    EntityConfiguration (EntityConfiguration'),
+    EntityConfiguration,
     newEntityConfiguration,
 
     -- ** EntityDisplayData
-    EntityDisplayData (EntityDisplayData'),
+    EntityDisplayData,
     newEntityDisplayData,
 
     -- ** EntityPersonaConfiguration
-    EntityPersonaConfiguration (EntityPersonaConfiguration'),
+    EntityPersonaConfiguration,
     newEntityPersonaConfiguration,
 
     -- ** ExperienceConfiguration
-    ExperienceConfiguration (ExperienceConfiguration'),
+    ExperienceConfiguration,
     newExperienceConfiguration,
 
     -- ** ExperienceEndpoint
-    ExperienceEndpoint (ExperienceEndpoint'),
+    ExperienceEndpoint,
     newExperienceEndpoint,
 
     -- ** ExperienceEntitiesSummary
-    ExperienceEntitiesSummary (ExperienceEntitiesSummary'),
+    ExperienceEntitiesSummary,
     newExperienceEntitiesSummary,
 
     -- ** ExperiencesSummary
-    ExperiencesSummary (ExperiencesSummary'),
+    ExperiencesSummary,
     newExperiencesSummary,
 
     -- ** Facet
-    Facet (Facet'),
+    Facet,
     newFacet,
 
     -- ** FacetResult
-    FacetResult (FacetResult'),
+    FacetResult,
     newFacetResult,
 
     -- ** FailedEntity
-    FailedEntity (FailedEntity'),
+    FailedEntity,
     newFailedEntity,
 
     -- ** FaqStatistics
-    FaqStatistics (FaqStatistics'),
+    FaqStatistics,
     newFaqStatistics,
 
     -- ** FaqSummary
-    FaqSummary (FaqSummary'),
+    FaqSummary,
     newFaqSummary,
 
     -- ** FsxConfiguration
-    FsxConfiguration (FsxConfiguration'),
+    FsxConfiguration,
     newFsxConfiguration,
 
     -- ** GitHubConfiguration
-    GitHubConfiguration (GitHubConfiguration'),
+    GitHubConfiguration,
     newGitHubConfiguration,
 
     -- ** GitHubDocumentCrawlProperties
-    GitHubDocumentCrawlProperties (GitHubDocumentCrawlProperties'),
+    GitHubDocumentCrawlProperties,
     newGitHubDocumentCrawlProperties,
 
     -- ** GoogleDriveConfiguration
-    GoogleDriveConfiguration (GoogleDriveConfiguration'),
+    GoogleDriveConfiguration,
     newGoogleDriveConfiguration,
 
     -- ** GroupMembers
-    GroupMembers (GroupMembers'),
+    GroupMembers,
     newGroupMembers,
 
     -- ** GroupOrderingIdSummary
-    GroupOrderingIdSummary (GroupOrderingIdSummary'),
+    GroupOrderingIdSummary,
     newGroupOrderingIdSummary,
 
     -- ** GroupSummary
-    GroupSummary (GroupSummary'),
+    GroupSummary,
     newGroupSummary,
 
     -- ** HierarchicalPrincipal
-    HierarchicalPrincipal (HierarchicalPrincipal'),
+    HierarchicalPrincipal,
     newHierarchicalPrincipal,
 
     -- ** Highlight
-    Highlight (Highlight'),
+    Highlight,
     newHighlight,
 
     -- ** HookConfiguration
-    HookConfiguration (HookConfiguration'),
+    HookConfiguration,
     newHookConfiguration,
 
     -- ** IndexConfigurationSummary
-    IndexConfigurationSummary (IndexConfigurationSummary'),
+    IndexConfigurationSummary,
     newIndexConfigurationSummary,
 
     -- ** IndexStatistics
-    IndexStatistics (IndexStatistics'),
+    IndexStatistics,
     newIndexStatistics,
 
     -- ** InlineCustomDocumentEnrichmentConfiguration
-    InlineCustomDocumentEnrichmentConfiguration (InlineCustomDocumentEnrichmentConfiguration'),
+    InlineCustomDocumentEnrichmentConfiguration,
     newInlineCustomDocumentEnrichmentConfiguration,
 
     -- ** JiraConfiguration
-    JiraConfiguration (JiraConfiguration'),
+    JiraConfiguration,
     newJiraConfiguration,
 
     -- ** JsonTokenTypeConfiguration
-    JsonTokenTypeConfiguration (JsonTokenTypeConfiguration'),
+    JsonTokenTypeConfiguration,
     newJsonTokenTypeConfiguration,
 
     -- ** JwtTokenTypeConfiguration
-    JwtTokenTypeConfiguration (JwtTokenTypeConfiguration'),
+    JwtTokenTypeConfiguration,
     newJwtTokenTypeConfiguration,
 
     -- ** MemberGroup
-    MemberGroup (MemberGroup'),
+    MemberGroup,
     newMemberGroup,
 
     -- ** MemberUser
-    MemberUser (MemberUser'),
+    MemberUser,
     newMemberUser,
 
     -- ** OnPremiseConfiguration
-    OnPremiseConfiguration (OnPremiseConfiguration'),
+    OnPremiseConfiguration,
     newOnPremiseConfiguration,
 
     -- ** OneDriveConfiguration
-    OneDriveConfiguration (OneDriveConfiguration'),
+    OneDriveConfiguration,
     newOneDriveConfiguration,
 
     -- ** OneDriveUsers
-    OneDriveUsers (OneDriveUsers'),
+    OneDriveUsers,
     newOneDriveUsers,
 
     -- ** PersonasSummary
-    PersonasSummary (PersonasSummary'),
+    PersonasSummary,
     newPersonasSummary,
 
     -- ** Principal
-    Principal (Principal'),
+    Principal,
     newPrincipal,
 
     -- ** ProxyConfiguration
-    ProxyConfiguration (ProxyConfiguration'),
+    ProxyConfiguration,
     newProxyConfiguration,
 
     -- ** QueryResultItem
-    QueryResultItem (QueryResultItem'),
+    QueryResultItem,
     newQueryResultItem,
 
     -- ** QuerySuggestionsBlockListSummary
-    QuerySuggestionsBlockListSummary (QuerySuggestionsBlockListSummary'),
+    QuerySuggestionsBlockListSummary,
     newQuerySuggestionsBlockListSummary,
 
     -- ** QuipConfiguration
-    QuipConfiguration (QuipConfiguration'),
+    QuipConfiguration,
     newQuipConfiguration,
 
     -- ** Relevance
-    Relevance (Relevance'),
+    Relevance,
     newRelevance,
 
     -- ** RelevanceFeedback
-    RelevanceFeedback (RelevanceFeedback'),
+    RelevanceFeedback,
     newRelevanceFeedback,
 
     -- ** S3DataSourceConfiguration
-    S3DataSourceConfiguration (S3DataSourceConfiguration'),
+    S3DataSourceConfiguration,
     newS3DataSourceConfiguration,
 
     -- ** S3Path
-    S3Path (S3Path'),
+    S3Path,
     newS3Path,
 
     -- ** SaaSConfiguration
-    SaaSConfiguration (SaaSConfiguration'),
+    SaaSConfiguration,
     newSaaSConfiguration,
 
     -- ** SalesforceChatterFeedConfiguration
-    SalesforceChatterFeedConfiguration (SalesforceChatterFeedConfiguration'),
+    SalesforceChatterFeedConfiguration,
     newSalesforceChatterFeedConfiguration,
 
     -- ** SalesforceConfiguration
-    SalesforceConfiguration (SalesforceConfiguration'),
+    SalesforceConfiguration,
     newSalesforceConfiguration,
 
     -- ** SalesforceCustomKnowledgeArticleTypeConfiguration
-    SalesforceCustomKnowledgeArticleTypeConfiguration (SalesforceCustomKnowledgeArticleTypeConfiguration'),
+    SalesforceCustomKnowledgeArticleTypeConfiguration,
     newSalesforceCustomKnowledgeArticleTypeConfiguration,
 
     -- ** SalesforceKnowledgeArticleConfiguration
-    SalesforceKnowledgeArticleConfiguration (SalesforceKnowledgeArticleConfiguration'),
+    SalesforceKnowledgeArticleConfiguration,
     newSalesforceKnowledgeArticleConfiguration,
 
     -- ** SalesforceStandardKnowledgeArticleTypeConfiguration
-    SalesforceStandardKnowledgeArticleTypeConfiguration (SalesforceStandardKnowledgeArticleTypeConfiguration'),
+    SalesforceStandardKnowledgeArticleTypeConfiguration,
     newSalesforceStandardKnowledgeArticleTypeConfiguration,
 
     -- ** SalesforceStandardObjectAttachmentConfiguration
-    SalesforceStandardObjectAttachmentConfiguration (SalesforceStandardObjectAttachmentConfiguration'),
+    SalesforceStandardObjectAttachmentConfiguration,
     newSalesforceStandardObjectAttachmentConfiguration,
 
     -- ** SalesforceStandardObjectConfiguration
-    SalesforceStandardObjectConfiguration (SalesforceStandardObjectConfiguration'),
+    SalesforceStandardObjectConfiguration,
     newSalesforceStandardObjectConfiguration,
 
     -- ** ScoreAttributes
-    ScoreAttributes (ScoreAttributes'),
+    ScoreAttributes,
     newScoreAttributes,
 
     -- ** Search
-    Search (Search'),
+    Search,
     newSearch,
 
     -- ** SeedUrlConfiguration
-    SeedUrlConfiguration (SeedUrlConfiguration'),
+    SeedUrlConfiguration,
     newSeedUrlConfiguration,
 
     -- ** ServerSideEncryptionConfiguration
-    ServerSideEncryptionConfiguration (ServerSideEncryptionConfiguration'),
+    ServerSideEncryptionConfiguration,
     newServerSideEncryptionConfiguration,
 
     -- ** ServiceNowConfiguration
-    ServiceNowConfiguration (ServiceNowConfiguration'),
+    ServiceNowConfiguration,
     newServiceNowConfiguration,
 
     -- ** ServiceNowKnowledgeArticleConfiguration
-    ServiceNowKnowledgeArticleConfiguration (ServiceNowKnowledgeArticleConfiguration'),
+    ServiceNowKnowledgeArticleConfiguration,
     newServiceNowKnowledgeArticleConfiguration,
 
     -- ** ServiceNowServiceCatalogConfiguration
-    ServiceNowServiceCatalogConfiguration (ServiceNowServiceCatalogConfiguration'),
+    ServiceNowServiceCatalogConfiguration,
     newServiceNowServiceCatalogConfiguration,
 
     -- ** SharePointConfiguration
-    SharePointConfiguration (SharePointConfiguration'),
+    SharePointConfiguration,
     newSharePointConfiguration,
 
     -- ** SiteMapsConfiguration
-    SiteMapsConfiguration (SiteMapsConfiguration'),
+    SiteMapsConfiguration,
     newSiteMapsConfiguration,
 
     -- ** SlackConfiguration
-    SlackConfiguration (SlackConfiguration'),
+    SlackConfiguration,
     newSlackConfiguration,
 
     -- ** SortingConfiguration
-    SortingConfiguration (SortingConfiguration'),
+    SortingConfiguration,
     newSortingConfiguration,
 
     -- ** SpellCorrectedQuery
-    SpellCorrectedQuery (SpellCorrectedQuery'),
+    SpellCorrectedQuery,
     newSpellCorrectedQuery,
 
     -- ** SpellCorrectionConfiguration
-    SpellCorrectionConfiguration (SpellCorrectionConfiguration'),
+    SpellCorrectionConfiguration,
     newSpellCorrectionConfiguration,
 
     -- ** SqlConfiguration
-    SqlConfiguration (SqlConfiguration'),
+    SqlConfiguration,
     newSqlConfiguration,
 
     -- ** Status
-    Status (Status'),
+    Status,
     newStatus,
 
     -- ** Suggestion
-    Suggestion (Suggestion'),
+    Suggestion,
     newSuggestion,
 
     -- ** SuggestionHighlight
-    SuggestionHighlight (SuggestionHighlight'),
+    SuggestionHighlight,
     newSuggestionHighlight,
 
     -- ** SuggestionTextWithHighlights
-    SuggestionTextWithHighlights (SuggestionTextWithHighlights'),
+    SuggestionTextWithHighlights,
     newSuggestionTextWithHighlights,
 
     -- ** SuggestionValue
-    SuggestionValue (SuggestionValue'),
+    SuggestionValue,
     newSuggestionValue,
 
     -- ** TableCell
-    TableCell (TableCell'),
+    TableCell,
     newTableCell,
 
     -- ** TableExcerpt
-    TableExcerpt (TableExcerpt'),
+    TableExcerpt,
     newTableExcerpt,
 
     -- ** TableRow
-    TableRow (TableRow'),
+    TableRow,
     newTableRow,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
 
     -- ** Template
-    Template (Template'),
+    Template,
     newTemplate,
 
     -- ** TemplateConfiguration
-    TemplateConfiguration (TemplateConfiguration'),
+    TemplateConfiguration,
     newTemplateConfiguration,
 
     -- ** TextDocumentStatistics
-    TextDocumentStatistics (TextDocumentStatistics'),
+    TextDocumentStatistics,
     newTextDocumentStatistics,
 
     -- ** TextWithHighlights
-    TextWithHighlights (TextWithHighlights'),
+    TextWithHighlights,
     newTextWithHighlights,
 
     -- ** ThesaurusSummary
-    ThesaurusSummary (ThesaurusSummary'),
+    ThesaurusSummary,
     newThesaurusSummary,
 
     -- ** TimeRange
-    TimeRange (TimeRange'),
+    TimeRange,
     newTimeRange,
 
     -- ** Urls
-    Urls (Urls'),
+    Urls,
     newUrls,
 
     -- ** UserContext
-    UserContext (UserContext'),
+    UserContext,
     newUserContext,
 
     -- ** UserGroupResolutionConfiguration
-    UserGroupResolutionConfiguration (UserGroupResolutionConfiguration'),
+    UserGroupResolutionConfiguration,
     newUserGroupResolutionConfiguration,
 
     -- ** UserIdentityConfiguration
-    UserIdentityConfiguration (UserIdentityConfiguration'),
+    UserIdentityConfiguration,
     newUserIdentityConfiguration,
 
     -- ** UserTokenConfiguration
-    UserTokenConfiguration (UserTokenConfiguration'),
+    UserTokenConfiguration,
     newUserTokenConfiguration,
 
     -- ** Warning
-    Warning (Warning'),
+    Warning,
     newWarning,
 
     -- ** WebCrawlerConfiguration
-    WebCrawlerConfiguration (WebCrawlerConfiguration'),
+    WebCrawlerConfiguration,
     newWebCrawlerConfiguration,
 
     -- ** WorkDocsConfiguration
-    WorkDocsConfiguration (WorkDocsConfiguration'),
+    WorkDocsConfiguration,
     newWorkDocsConfiguration,
   )
 where

@@ -54,75 +54,75 @@ module Amazonka.ChimeSdkMediaPipelines
     -- $operations
 
     -- ** CreateMediaCapturePipeline
-    CreateMediaCapturePipeline (CreateMediaCapturePipeline'),
+    CreateMediaCapturePipeline,
     newCreateMediaCapturePipeline,
-    CreateMediaCapturePipelineResponse (CreateMediaCapturePipelineResponse'),
+    CreateMediaCapturePipelineResponse,
     newCreateMediaCapturePipelineResponse,
 
     -- ** CreateMediaConcatenationPipeline
-    CreateMediaConcatenationPipeline (CreateMediaConcatenationPipeline'),
+    CreateMediaConcatenationPipeline,
     newCreateMediaConcatenationPipeline,
-    CreateMediaConcatenationPipelineResponse (CreateMediaConcatenationPipelineResponse'),
+    CreateMediaConcatenationPipelineResponse,
     newCreateMediaConcatenationPipelineResponse,
 
     -- ** CreateMediaLiveConnectorPipeline
-    CreateMediaLiveConnectorPipeline (CreateMediaLiveConnectorPipeline'),
+    CreateMediaLiveConnectorPipeline,
     newCreateMediaLiveConnectorPipeline,
-    CreateMediaLiveConnectorPipelineResponse (CreateMediaLiveConnectorPipelineResponse'),
+    CreateMediaLiveConnectorPipelineResponse,
     newCreateMediaLiveConnectorPipelineResponse,
 
     -- ** DeleteMediaCapturePipeline
-    DeleteMediaCapturePipeline (DeleteMediaCapturePipeline'),
+    DeleteMediaCapturePipeline,
     newDeleteMediaCapturePipeline,
-    DeleteMediaCapturePipelineResponse (DeleteMediaCapturePipelineResponse'),
+    DeleteMediaCapturePipelineResponse,
     newDeleteMediaCapturePipelineResponse,
 
     -- ** DeleteMediaPipeline
-    DeleteMediaPipeline (DeleteMediaPipeline'),
+    DeleteMediaPipeline,
     newDeleteMediaPipeline,
-    DeleteMediaPipelineResponse (DeleteMediaPipelineResponse'),
+    DeleteMediaPipelineResponse,
     newDeleteMediaPipelineResponse,
 
     -- ** GetMediaCapturePipeline
-    GetMediaCapturePipeline (GetMediaCapturePipeline'),
+    GetMediaCapturePipeline,
     newGetMediaCapturePipeline,
-    GetMediaCapturePipelineResponse (GetMediaCapturePipelineResponse'),
+    GetMediaCapturePipelineResponse,
     newGetMediaCapturePipelineResponse,
 
     -- ** GetMediaPipeline
-    GetMediaPipeline (GetMediaPipeline'),
+    GetMediaPipeline,
     newGetMediaPipeline,
-    GetMediaPipelineResponse (GetMediaPipelineResponse'),
+    GetMediaPipelineResponse,
     newGetMediaPipelineResponse,
 
     -- ** ListMediaCapturePipelines
-    ListMediaCapturePipelines (ListMediaCapturePipelines'),
+    ListMediaCapturePipelines,
     newListMediaCapturePipelines,
-    ListMediaCapturePipelinesResponse (ListMediaCapturePipelinesResponse'),
+    ListMediaCapturePipelinesResponse,
     newListMediaCapturePipelinesResponse,
 
     -- ** ListMediaPipelines
-    ListMediaPipelines (ListMediaPipelines'),
+    ListMediaPipelines,
     newListMediaPipelines,
-    ListMediaPipelinesResponse (ListMediaPipelinesResponse'),
+    ListMediaPipelinesResponse,
     newListMediaPipelinesResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- * Types
@@ -185,139 +185,139 @@ module Amazonka.ChimeSdkMediaPipelines
     VideoMuxType (..),
 
     -- ** ArtifactsConcatenationConfiguration
-    ArtifactsConcatenationConfiguration (ArtifactsConcatenationConfiguration'),
+    ArtifactsConcatenationConfiguration,
     newArtifactsConcatenationConfiguration,
 
     -- ** ArtifactsConfiguration
-    ArtifactsConfiguration (ArtifactsConfiguration'),
+    ArtifactsConfiguration,
     newArtifactsConfiguration,
 
     -- ** AudioArtifactsConfiguration
-    AudioArtifactsConfiguration (AudioArtifactsConfiguration'),
+    AudioArtifactsConfiguration,
     newAudioArtifactsConfiguration,
 
     -- ** AudioConcatenationConfiguration
-    AudioConcatenationConfiguration (AudioConcatenationConfiguration'),
+    AudioConcatenationConfiguration,
     newAudioConcatenationConfiguration,
 
     -- ** ChimeSdkMeetingConcatenationConfiguration
-    ChimeSdkMeetingConcatenationConfiguration (ChimeSdkMeetingConcatenationConfiguration'),
+    ChimeSdkMeetingConcatenationConfiguration,
     newChimeSdkMeetingConcatenationConfiguration,
 
     -- ** ChimeSdkMeetingConfiguration
-    ChimeSdkMeetingConfiguration (ChimeSdkMeetingConfiguration'),
+    ChimeSdkMeetingConfiguration,
     newChimeSdkMeetingConfiguration,
 
     -- ** ChimeSdkMeetingLiveConnectorConfiguration
-    ChimeSdkMeetingLiveConnectorConfiguration (ChimeSdkMeetingLiveConnectorConfiguration'),
+    ChimeSdkMeetingLiveConnectorConfiguration,
     newChimeSdkMeetingLiveConnectorConfiguration,
 
     -- ** CompositedVideoArtifactsConfiguration
-    CompositedVideoArtifactsConfiguration (CompositedVideoArtifactsConfiguration'),
+    CompositedVideoArtifactsConfiguration,
     newCompositedVideoArtifactsConfiguration,
 
     -- ** CompositedVideoConcatenationConfiguration
-    CompositedVideoConcatenationConfiguration (CompositedVideoConcatenationConfiguration'),
+    CompositedVideoConcatenationConfiguration,
     newCompositedVideoConcatenationConfiguration,
 
     -- ** ConcatenationSink
-    ConcatenationSink (ConcatenationSink'),
+    ConcatenationSink,
     newConcatenationSink,
 
     -- ** ConcatenationSource
-    ConcatenationSource (ConcatenationSource'),
+    ConcatenationSource,
     newConcatenationSource,
 
     -- ** ContentArtifactsConfiguration
-    ContentArtifactsConfiguration (ContentArtifactsConfiguration'),
+    ContentArtifactsConfiguration,
     newContentArtifactsConfiguration,
 
     -- ** ContentConcatenationConfiguration
-    ContentConcatenationConfiguration (ContentConcatenationConfiguration'),
+    ContentConcatenationConfiguration,
     newContentConcatenationConfiguration,
 
     -- ** DataChannelConcatenationConfiguration
-    DataChannelConcatenationConfiguration (DataChannelConcatenationConfiguration'),
+    DataChannelConcatenationConfiguration,
     newDataChannelConcatenationConfiguration,
 
     -- ** GridViewConfiguration
-    GridViewConfiguration (GridViewConfiguration'),
+    GridViewConfiguration,
     newGridViewConfiguration,
 
     -- ** LiveConnectorRTMPConfiguration
-    LiveConnectorRTMPConfiguration (LiveConnectorRTMPConfiguration'),
+    LiveConnectorRTMPConfiguration,
     newLiveConnectorRTMPConfiguration,
 
     -- ** LiveConnectorSinkConfiguration
-    LiveConnectorSinkConfiguration (LiveConnectorSinkConfiguration'),
+    LiveConnectorSinkConfiguration,
     newLiveConnectorSinkConfiguration,
 
     -- ** LiveConnectorSourceConfiguration
-    LiveConnectorSourceConfiguration (LiveConnectorSourceConfiguration'),
+    LiveConnectorSourceConfiguration,
     newLiveConnectorSourceConfiguration,
 
     -- ** MediaCapturePipeline
-    MediaCapturePipeline (MediaCapturePipeline'),
+    MediaCapturePipeline,
     newMediaCapturePipeline,
 
     -- ** MediaCapturePipelineSourceConfiguration
-    MediaCapturePipelineSourceConfiguration (MediaCapturePipelineSourceConfiguration'),
+    MediaCapturePipelineSourceConfiguration,
     newMediaCapturePipelineSourceConfiguration,
 
     -- ** MediaCapturePipelineSummary
-    MediaCapturePipelineSummary (MediaCapturePipelineSummary'),
+    MediaCapturePipelineSummary,
     newMediaCapturePipelineSummary,
 
     -- ** MediaConcatenationPipeline
-    MediaConcatenationPipeline (MediaConcatenationPipeline'),
+    MediaConcatenationPipeline,
     newMediaConcatenationPipeline,
 
     -- ** MediaLiveConnectorPipeline
-    MediaLiveConnectorPipeline (MediaLiveConnectorPipeline'),
+    MediaLiveConnectorPipeline,
     newMediaLiveConnectorPipeline,
 
     -- ** MediaPipeline
-    MediaPipeline (MediaPipeline'),
+    MediaPipeline,
     newMediaPipeline,
 
     -- ** MediaPipelineSummary
-    MediaPipelineSummary (MediaPipelineSummary'),
+    MediaPipelineSummary,
     newMediaPipelineSummary,
 
     -- ** MeetingEventsConcatenationConfiguration
-    MeetingEventsConcatenationConfiguration (MeetingEventsConcatenationConfiguration'),
+    MeetingEventsConcatenationConfiguration,
     newMeetingEventsConcatenationConfiguration,
 
     -- ** PresenterOnlyConfiguration
-    PresenterOnlyConfiguration (PresenterOnlyConfiguration'),
+    PresenterOnlyConfiguration,
     newPresenterOnlyConfiguration,
 
     -- ** S3BucketSinkConfiguration
-    S3BucketSinkConfiguration (S3BucketSinkConfiguration'),
+    S3BucketSinkConfiguration,
     newS3BucketSinkConfiguration,
 
     -- ** SelectedVideoStreams
-    SelectedVideoStreams (SelectedVideoStreams'),
+    SelectedVideoStreams,
     newSelectedVideoStreams,
 
     -- ** SourceConfiguration
-    SourceConfiguration (SourceConfiguration'),
+    SourceConfiguration,
     newSourceConfiguration,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
 
     -- ** TranscriptionMessagesConcatenationConfiguration
-    TranscriptionMessagesConcatenationConfiguration (TranscriptionMessagesConcatenationConfiguration'),
+    TranscriptionMessagesConcatenationConfiguration,
     newTranscriptionMessagesConcatenationConfiguration,
 
     -- ** VideoArtifactsConfiguration
-    VideoArtifactsConfiguration (VideoArtifactsConfiguration'),
+    VideoArtifactsConfiguration,
     newVideoArtifactsConfiguration,
 
     -- ** VideoConcatenationConfiguration
-    VideoConcatenationConfiguration (VideoConcatenationConfiguration'),
+    VideoConcatenationConfiguration,
     newVideoConcatenationConfiguration,
   )
 where

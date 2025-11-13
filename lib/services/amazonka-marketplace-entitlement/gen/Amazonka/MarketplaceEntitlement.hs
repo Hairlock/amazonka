@@ -48,9 +48,9 @@ module Amazonka.MarketplaceEntitlement
     -- $operations
 
     -- ** GetEntitlements (Paginated)
-    GetEntitlements (GetEntitlements'),
+    GetEntitlements,
     newGetEntitlements,
-    GetEntitlementsResponse (GetEntitlementsResponse'),
+    GetEntitlementsResponse,
     newGetEntitlementsResponse,
 
     -- * Types
@@ -59,11 +59,11 @@ module Amazonka.MarketplaceEntitlement
     GetEntitlementFilterName (..),
 
     -- ** Entitlement
-    Entitlement (Entitlement'),
+    Entitlement,
     newEntitlement,
 
     -- ** EntitlementValue
-    EntitlementValue (EntitlementValue'),
+    EntitlementValue,
     newEntitlementValue,
   )
 where

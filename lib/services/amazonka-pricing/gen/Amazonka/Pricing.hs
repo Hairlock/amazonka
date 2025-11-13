@@ -67,21 +67,21 @@ module Amazonka.Pricing
     -- $operations
 
     -- ** DescribeServices (Paginated)
-    DescribeServices (DescribeServices'),
+    DescribeServices,
     newDescribeServices,
-    DescribeServicesResponse (DescribeServicesResponse'),
+    DescribeServicesResponse,
     newDescribeServicesResponse,
 
     -- ** GetAttributeValues (Paginated)
-    GetAttributeValues (GetAttributeValues'),
+    GetAttributeValues,
     newGetAttributeValues,
-    GetAttributeValuesResponse (GetAttributeValuesResponse'),
+    GetAttributeValuesResponse,
     newGetAttributeValuesResponse,
 
     -- ** GetProducts (Paginated)
-    GetProducts (GetProducts'),
+    GetProducts,
     newGetProducts,
-    GetProductsResponse (GetProductsResponse'),
+    GetProductsResponse,
     newGetProductsResponse,
 
     -- * Types
@@ -90,15 +90,15 @@ module Amazonka.Pricing
     FilterType (..),
 
     -- ** AttributeValue
-    AttributeValue (AttributeValue'),
+    AttributeValue,
     newAttributeValue,
 
     -- ** Filter
-    Filter (Filter'),
+    Filter,
     newFilter,
 
     -- ** PricingService
-    PricingService (PricingService'),
+    PricingService,
     newPricingService,
   )
 where

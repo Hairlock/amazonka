@@ -72,303 +72,303 @@ module Amazonka.ElasticSearch
     -- $operations
 
     -- ** AcceptInboundCrossClusterSearchConnection
-    AcceptInboundCrossClusterSearchConnection (AcceptInboundCrossClusterSearchConnection'),
+    AcceptInboundCrossClusterSearchConnection,
     newAcceptInboundCrossClusterSearchConnection,
-    AcceptInboundCrossClusterSearchConnectionResponse (AcceptInboundCrossClusterSearchConnectionResponse'),
+    AcceptInboundCrossClusterSearchConnectionResponse,
     newAcceptInboundCrossClusterSearchConnectionResponse,
 
     -- ** AddTags
-    AddTags (AddTags'),
+    AddTags,
     newAddTags,
-    AddTagsResponse (AddTagsResponse'),
+    AddTagsResponse,
     newAddTagsResponse,
 
     -- ** AssociatePackage
-    AssociatePackage (AssociatePackage'),
+    AssociatePackage,
     newAssociatePackage,
-    AssociatePackageResponse (AssociatePackageResponse'),
+    AssociatePackageResponse,
     newAssociatePackageResponse,
 
     -- ** AuthorizeVpcEndpointAccess
-    AuthorizeVpcEndpointAccess (AuthorizeVpcEndpointAccess'),
+    AuthorizeVpcEndpointAccess,
     newAuthorizeVpcEndpointAccess,
-    AuthorizeVpcEndpointAccessResponse (AuthorizeVpcEndpointAccessResponse'),
+    AuthorizeVpcEndpointAccessResponse,
     newAuthorizeVpcEndpointAccessResponse,
 
     -- ** CancelElasticsearchServiceSoftwareUpdate
-    CancelElasticsearchServiceSoftwareUpdate (CancelElasticsearchServiceSoftwareUpdate'),
+    CancelElasticsearchServiceSoftwareUpdate,
     newCancelElasticsearchServiceSoftwareUpdate,
-    CancelElasticsearchServiceSoftwareUpdateResponse (CancelElasticsearchServiceSoftwareUpdateResponse'),
+    CancelElasticsearchServiceSoftwareUpdateResponse,
     newCancelElasticsearchServiceSoftwareUpdateResponse,
 
     -- ** CreateElasticsearchDomain
-    CreateElasticsearchDomain (CreateElasticsearchDomain'),
+    CreateElasticsearchDomain,
     newCreateElasticsearchDomain,
-    CreateElasticsearchDomainResponse (CreateElasticsearchDomainResponse'),
+    CreateElasticsearchDomainResponse,
     newCreateElasticsearchDomainResponse,
 
     -- ** CreateOutboundCrossClusterSearchConnection
-    CreateOutboundCrossClusterSearchConnection (CreateOutboundCrossClusterSearchConnection'),
+    CreateOutboundCrossClusterSearchConnection,
     newCreateOutboundCrossClusterSearchConnection,
-    CreateOutboundCrossClusterSearchConnectionResponse (CreateOutboundCrossClusterSearchConnectionResponse'),
+    CreateOutboundCrossClusterSearchConnectionResponse,
     newCreateOutboundCrossClusterSearchConnectionResponse,
 
     -- ** CreatePackage
-    CreatePackage (CreatePackage'),
+    CreatePackage,
     newCreatePackage,
-    CreatePackageResponse (CreatePackageResponse'),
+    CreatePackageResponse,
     newCreatePackageResponse,
 
     -- ** CreateVpcEndpoint
-    CreateVpcEndpoint (CreateVpcEndpoint'),
+    CreateVpcEndpoint,
     newCreateVpcEndpoint,
-    CreateVpcEndpointResponse (CreateVpcEndpointResponse'),
+    CreateVpcEndpointResponse,
     newCreateVpcEndpointResponse,
 
     -- ** DeleteElasticsearchDomain
-    DeleteElasticsearchDomain (DeleteElasticsearchDomain'),
+    DeleteElasticsearchDomain,
     newDeleteElasticsearchDomain,
-    DeleteElasticsearchDomainResponse (DeleteElasticsearchDomainResponse'),
+    DeleteElasticsearchDomainResponse,
     newDeleteElasticsearchDomainResponse,
 
     -- ** DeleteElasticsearchServiceRole
-    DeleteElasticsearchServiceRole (DeleteElasticsearchServiceRole'),
+    DeleteElasticsearchServiceRole,
     newDeleteElasticsearchServiceRole,
-    DeleteElasticsearchServiceRoleResponse (DeleteElasticsearchServiceRoleResponse'),
+    DeleteElasticsearchServiceRoleResponse,
     newDeleteElasticsearchServiceRoleResponse,
 
     -- ** DeleteInboundCrossClusterSearchConnection
-    DeleteInboundCrossClusterSearchConnection (DeleteInboundCrossClusterSearchConnection'),
+    DeleteInboundCrossClusterSearchConnection,
     newDeleteInboundCrossClusterSearchConnection,
-    DeleteInboundCrossClusterSearchConnectionResponse (DeleteInboundCrossClusterSearchConnectionResponse'),
+    DeleteInboundCrossClusterSearchConnectionResponse,
     newDeleteInboundCrossClusterSearchConnectionResponse,
 
     -- ** DeleteOutboundCrossClusterSearchConnection
-    DeleteOutboundCrossClusterSearchConnection (DeleteOutboundCrossClusterSearchConnection'),
+    DeleteOutboundCrossClusterSearchConnection,
     newDeleteOutboundCrossClusterSearchConnection,
-    DeleteOutboundCrossClusterSearchConnectionResponse (DeleteOutboundCrossClusterSearchConnectionResponse'),
+    DeleteOutboundCrossClusterSearchConnectionResponse,
     newDeleteOutboundCrossClusterSearchConnectionResponse,
 
     -- ** DeletePackage
-    DeletePackage (DeletePackage'),
+    DeletePackage,
     newDeletePackage,
-    DeletePackageResponse (DeletePackageResponse'),
+    DeletePackageResponse,
     newDeletePackageResponse,
 
     -- ** DeleteVpcEndpoint
-    DeleteVpcEndpoint (DeleteVpcEndpoint'),
+    DeleteVpcEndpoint,
     newDeleteVpcEndpoint,
-    DeleteVpcEndpointResponse (DeleteVpcEndpointResponse'),
+    DeleteVpcEndpointResponse,
     newDeleteVpcEndpointResponse,
 
     -- ** DescribeDomainAutoTunes
-    DescribeDomainAutoTunes (DescribeDomainAutoTunes'),
+    DescribeDomainAutoTunes,
     newDescribeDomainAutoTunes,
-    DescribeDomainAutoTunesResponse (DescribeDomainAutoTunesResponse'),
+    DescribeDomainAutoTunesResponse,
     newDescribeDomainAutoTunesResponse,
 
     -- ** DescribeDomainChangeProgress
-    DescribeDomainChangeProgress (DescribeDomainChangeProgress'),
+    DescribeDomainChangeProgress,
     newDescribeDomainChangeProgress,
-    DescribeDomainChangeProgressResponse (DescribeDomainChangeProgressResponse'),
+    DescribeDomainChangeProgressResponse,
     newDescribeDomainChangeProgressResponse,
 
     -- ** DescribeElasticsearchDomain
-    DescribeElasticsearchDomain (DescribeElasticsearchDomain'),
+    DescribeElasticsearchDomain,
     newDescribeElasticsearchDomain,
-    DescribeElasticsearchDomainResponse (DescribeElasticsearchDomainResponse'),
+    DescribeElasticsearchDomainResponse,
     newDescribeElasticsearchDomainResponse,
 
     -- ** DescribeElasticsearchDomainConfig
-    DescribeElasticsearchDomainConfig (DescribeElasticsearchDomainConfig'),
+    DescribeElasticsearchDomainConfig,
     newDescribeElasticsearchDomainConfig,
-    DescribeElasticsearchDomainConfigResponse (DescribeElasticsearchDomainConfigResponse'),
+    DescribeElasticsearchDomainConfigResponse,
     newDescribeElasticsearchDomainConfigResponse,
 
     -- ** DescribeElasticsearchDomains
-    DescribeElasticsearchDomains (DescribeElasticsearchDomains'),
+    DescribeElasticsearchDomains,
     newDescribeElasticsearchDomains,
-    DescribeElasticsearchDomainsResponse (DescribeElasticsearchDomainsResponse'),
+    DescribeElasticsearchDomainsResponse,
     newDescribeElasticsearchDomainsResponse,
 
     -- ** DescribeElasticsearchInstanceTypeLimits
-    DescribeElasticsearchInstanceTypeLimits (DescribeElasticsearchInstanceTypeLimits'),
+    DescribeElasticsearchInstanceTypeLimits,
     newDescribeElasticsearchInstanceTypeLimits,
-    DescribeElasticsearchInstanceTypeLimitsResponse (DescribeElasticsearchInstanceTypeLimitsResponse'),
+    DescribeElasticsearchInstanceTypeLimitsResponse,
     newDescribeElasticsearchInstanceTypeLimitsResponse,
 
     -- ** DescribeInboundCrossClusterSearchConnections
-    DescribeInboundCrossClusterSearchConnections (DescribeInboundCrossClusterSearchConnections'),
+    DescribeInboundCrossClusterSearchConnections,
     newDescribeInboundCrossClusterSearchConnections,
-    DescribeInboundCrossClusterSearchConnectionsResponse (DescribeInboundCrossClusterSearchConnectionsResponse'),
+    DescribeInboundCrossClusterSearchConnectionsResponse,
     newDescribeInboundCrossClusterSearchConnectionsResponse,
 
     -- ** DescribeOutboundCrossClusterSearchConnections
-    DescribeOutboundCrossClusterSearchConnections (DescribeOutboundCrossClusterSearchConnections'),
+    DescribeOutboundCrossClusterSearchConnections,
     newDescribeOutboundCrossClusterSearchConnections,
-    DescribeOutboundCrossClusterSearchConnectionsResponse (DescribeOutboundCrossClusterSearchConnectionsResponse'),
+    DescribeOutboundCrossClusterSearchConnectionsResponse,
     newDescribeOutboundCrossClusterSearchConnectionsResponse,
 
     -- ** DescribePackages
-    DescribePackages (DescribePackages'),
+    DescribePackages,
     newDescribePackages,
-    DescribePackagesResponse (DescribePackagesResponse'),
+    DescribePackagesResponse,
     newDescribePackagesResponse,
 
     -- ** DescribeReservedElasticsearchInstanceOfferings (Paginated)
-    DescribeReservedElasticsearchInstanceOfferings (DescribeReservedElasticsearchInstanceOfferings'),
+    DescribeReservedElasticsearchInstanceOfferings,
     newDescribeReservedElasticsearchInstanceOfferings,
-    DescribeReservedElasticsearchInstanceOfferingsResponse (DescribeReservedElasticsearchInstanceOfferingsResponse'),
+    DescribeReservedElasticsearchInstanceOfferingsResponse,
     newDescribeReservedElasticsearchInstanceOfferingsResponse,
 
     -- ** DescribeReservedElasticsearchInstances (Paginated)
-    DescribeReservedElasticsearchInstances (DescribeReservedElasticsearchInstances'),
+    DescribeReservedElasticsearchInstances,
     newDescribeReservedElasticsearchInstances,
-    DescribeReservedElasticsearchInstancesResponse (DescribeReservedElasticsearchInstancesResponse'),
+    DescribeReservedElasticsearchInstancesResponse,
     newDescribeReservedElasticsearchInstancesResponse,
 
     -- ** DescribeVpcEndpoints
-    DescribeVpcEndpoints (DescribeVpcEndpoints'),
+    DescribeVpcEndpoints,
     newDescribeVpcEndpoints,
-    DescribeVpcEndpointsResponse (DescribeVpcEndpointsResponse'),
+    DescribeVpcEndpointsResponse,
     newDescribeVpcEndpointsResponse,
 
     -- ** DissociatePackage
-    DissociatePackage (DissociatePackage'),
+    DissociatePackage,
     newDissociatePackage,
-    DissociatePackageResponse (DissociatePackageResponse'),
+    DissociatePackageResponse,
     newDissociatePackageResponse,
 
     -- ** GetCompatibleElasticsearchVersions
-    GetCompatibleElasticsearchVersions (GetCompatibleElasticsearchVersions'),
+    GetCompatibleElasticsearchVersions,
     newGetCompatibleElasticsearchVersions,
-    GetCompatibleElasticsearchVersionsResponse (GetCompatibleElasticsearchVersionsResponse'),
+    GetCompatibleElasticsearchVersionsResponse,
     newGetCompatibleElasticsearchVersionsResponse,
 
     -- ** GetPackageVersionHistory
-    GetPackageVersionHistory (GetPackageVersionHistory'),
+    GetPackageVersionHistory,
     newGetPackageVersionHistory,
-    GetPackageVersionHistoryResponse (GetPackageVersionHistoryResponse'),
+    GetPackageVersionHistoryResponse,
     newGetPackageVersionHistoryResponse,
 
     -- ** GetUpgradeHistory (Paginated)
-    GetUpgradeHistory (GetUpgradeHistory'),
+    GetUpgradeHistory,
     newGetUpgradeHistory,
-    GetUpgradeHistoryResponse (GetUpgradeHistoryResponse'),
+    GetUpgradeHistoryResponse,
     newGetUpgradeHistoryResponse,
 
     -- ** GetUpgradeStatus
-    GetUpgradeStatus (GetUpgradeStatus'),
+    GetUpgradeStatus,
     newGetUpgradeStatus,
-    GetUpgradeStatusResponse (GetUpgradeStatusResponse'),
+    GetUpgradeStatusResponse,
     newGetUpgradeStatusResponse,
 
     -- ** ListDomainNames
-    ListDomainNames (ListDomainNames'),
+    ListDomainNames,
     newListDomainNames,
-    ListDomainNamesResponse (ListDomainNamesResponse'),
+    ListDomainNamesResponse,
     newListDomainNamesResponse,
 
     -- ** ListDomainsForPackage
-    ListDomainsForPackage (ListDomainsForPackage'),
+    ListDomainsForPackage,
     newListDomainsForPackage,
-    ListDomainsForPackageResponse (ListDomainsForPackageResponse'),
+    ListDomainsForPackageResponse,
     newListDomainsForPackageResponse,
 
     -- ** ListElasticsearchInstanceTypes (Paginated)
-    ListElasticsearchInstanceTypes (ListElasticsearchInstanceTypes'),
+    ListElasticsearchInstanceTypes,
     newListElasticsearchInstanceTypes,
-    ListElasticsearchInstanceTypesResponse (ListElasticsearchInstanceTypesResponse'),
+    ListElasticsearchInstanceTypesResponse,
     newListElasticsearchInstanceTypesResponse,
 
     -- ** ListElasticsearchVersions (Paginated)
-    ListElasticsearchVersions (ListElasticsearchVersions'),
+    ListElasticsearchVersions,
     newListElasticsearchVersions,
-    ListElasticsearchVersionsResponse (ListElasticsearchVersionsResponse'),
+    ListElasticsearchVersionsResponse,
     newListElasticsearchVersionsResponse,
 
     -- ** ListPackagesForDomain
-    ListPackagesForDomain (ListPackagesForDomain'),
+    ListPackagesForDomain,
     newListPackagesForDomain,
-    ListPackagesForDomainResponse (ListPackagesForDomainResponse'),
+    ListPackagesForDomainResponse,
     newListPackagesForDomainResponse,
 
     -- ** ListTags
-    ListTags (ListTags'),
+    ListTags,
     newListTags,
-    ListTagsResponse (ListTagsResponse'),
+    ListTagsResponse,
     newListTagsResponse,
 
     -- ** ListVpcEndpointAccess
-    ListVpcEndpointAccess (ListVpcEndpointAccess'),
+    ListVpcEndpointAccess,
     newListVpcEndpointAccess,
-    ListVpcEndpointAccessResponse (ListVpcEndpointAccessResponse'),
+    ListVpcEndpointAccessResponse,
     newListVpcEndpointAccessResponse,
 
     -- ** ListVpcEndpoints
-    ListVpcEndpoints (ListVpcEndpoints'),
+    ListVpcEndpoints,
     newListVpcEndpoints,
-    ListVpcEndpointsResponse (ListVpcEndpointsResponse'),
+    ListVpcEndpointsResponse,
     newListVpcEndpointsResponse,
 
     -- ** ListVpcEndpointsForDomain
-    ListVpcEndpointsForDomain (ListVpcEndpointsForDomain'),
+    ListVpcEndpointsForDomain,
     newListVpcEndpointsForDomain,
-    ListVpcEndpointsForDomainResponse (ListVpcEndpointsForDomainResponse'),
+    ListVpcEndpointsForDomainResponse,
     newListVpcEndpointsForDomainResponse,
 
     -- ** PurchaseReservedElasticsearchInstanceOffering
-    PurchaseReservedElasticsearchInstanceOffering (PurchaseReservedElasticsearchInstanceOffering'),
+    PurchaseReservedElasticsearchInstanceOffering,
     newPurchaseReservedElasticsearchInstanceOffering,
-    PurchaseReservedElasticsearchInstanceOfferingResponse (PurchaseReservedElasticsearchInstanceOfferingResponse'),
+    PurchaseReservedElasticsearchInstanceOfferingResponse,
     newPurchaseReservedElasticsearchInstanceOfferingResponse,
 
     -- ** RejectInboundCrossClusterSearchConnection
-    RejectInboundCrossClusterSearchConnection (RejectInboundCrossClusterSearchConnection'),
+    RejectInboundCrossClusterSearchConnection,
     newRejectInboundCrossClusterSearchConnection,
-    RejectInboundCrossClusterSearchConnectionResponse (RejectInboundCrossClusterSearchConnectionResponse'),
+    RejectInboundCrossClusterSearchConnectionResponse,
     newRejectInboundCrossClusterSearchConnectionResponse,
 
     -- ** RemoveTags
-    RemoveTags (RemoveTags'),
+    RemoveTags,
     newRemoveTags,
-    RemoveTagsResponse (RemoveTagsResponse'),
+    RemoveTagsResponse,
     newRemoveTagsResponse,
 
     -- ** RevokeVpcEndpointAccess
-    RevokeVpcEndpointAccess (RevokeVpcEndpointAccess'),
+    RevokeVpcEndpointAccess,
     newRevokeVpcEndpointAccess,
-    RevokeVpcEndpointAccessResponse (RevokeVpcEndpointAccessResponse'),
+    RevokeVpcEndpointAccessResponse,
     newRevokeVpcEndpointAccessResponse,
 
     -- ** StartElasticsearchServiceSoftwareUpdate
-    StartElasticsearchServiceSoftwareUpdate (StartElasticsearchServiceSoftwareUpdate'),
+    StartElasticsearchServiceSoftwareUpdate,
     newStartElasticsearchServiceSoftwareUpdate,
-    StartElasticsearchServiceSoftwareUpdateResponse (StartElasticsearchServiceSoftwareUpdateResponse'),
+    StartElasticsearchServiceSoftwareUpdateResponse,
     newStartElasticsearchServiceSoftwareUpdateResponse,
 
     -- ** UpdateElasticsearchDomainConfig
-    UpdateElasticsearchDomainConfig (UpdateElasticsearchDomainConfig'),
+    UpdateElasticsearchDomainConfig,
     newUpdateElasticsearchDomainConfig,
-    UpdateElasticsearchDomainConfigResponse (UpdateElasticsearchDomainConfigResponse'),
+    UpdateElasticsearchDomainConfigResponse,
     newUpdateElasticsearchDomainConfigResponse,
 
     -- ** UpdatePackage
-    UpdatePackage (UpdatePackage'),
+    UpdatePackage,
     newUpdatePackage,
-    UpdatePackageResponse (UpdatePackageResponse'),
+    UpdatePackageResponse,
     newUpdatePackageResponse,
 
     -- ** UpdateVpcEndpoint
-    UpdateVpcEndpoint (UpdateVpcEndpoint'),
+    UpdateVpcEndpoint,
     newUpdateVpcEndpoint,
-    UpdateVpcEndpointResponse (UpdateVpcEndpointResponse'),
+    UpdateVpcEndpointResponse,
     newUpdateVpcEndpointResponse,
 
     -- ** UpgradeElasticsearchDomain
-    UpgradeElasticsearchDomain (UpgradeElasticsearchDomain'),
+    UpgradeElasticsearchDomain,
     newUpgradeElasticsearchDomain,
-    UpgradeElasticsearchDomainResponse (UpgradeElasticsearchDomainResponse'),
+    UpgradeElasticsearchDomainResponse,
     newUpgradeElasticsearchDomainResponse,
 
     -- * Types
@@ -458,319 +458,319 @@ module Amazonka.ElasticSearch
     VpcEndpointStatus (..),
 
     -- ** AccessPoliciesStatus
-    AccessPoliciesStatus (AccessPoliciesStatus'),
+    AccessPoliciesStatus,
     newAccessPoliciesStatus,
 
     -- ** AdditionalLimit
-    AdditionalLimit (AdditionalLimit'),
+    AdditionalLimit,
     newAdditionalLimit,
 
     -- ** AdvancedOptionsStatus
-    AdvancedOptionsStatus (AdvancedOptionsStatus'),
+    AdvancedOptionsStatus,
     newAdvancedOptionsStatus,
 
     -- ** AdvancedSecurityOptions
-    AdvancedSecurityOptions (AdvancedSecurityOptions'),
+    AdvancedSecurityOptions,
     newAdvancedSecurityOptions,
 
     -- ** AdvancedSecurityOptionsInput
-    AdvancedSecurityOptionsInput (AdvancedSecurityOptionsInput'),
+    AdvancedSecurityOptionsInput,
     newAdvancedSecurityOptionsInput,
 
     -- ** AdvancedSecurityOptionsStatus
-    AdvancedSecurityOptionsStatus (AdvancedSecurityOptionsStatus'),
+    AdvancedSecurityOptionsStatus,
     newAdvancedSecurityOptionsStatus,
 
     -- ** AuthorizedPrincipal
-    AuthorizedPrincipal (AuthorizedPrincipal'),
+    AuthorizedPrincipal,
     newAuthorizedPrincipal,
 
     -- ** AutoTune
-    AutoTune (AutoTune'),
+    AutoTune,
     newAutoTune,
 
     -- ** AutoTuneDetails
-    AutoTuneDetails (AutoTuneDetails'),
+    AutoTuneDetails,
     newAutoTuneDetails,
 
     -- ** AutoTuneMaintenanceSchedule
-    AutoTuneMaintenanceSchedule (AutoTuneMaintenanceSchedule'),
+    AutoTuneMaintenanceSchedule,
     newAutoTuneMaintenanceSchedule,
 
     -- ** AutoTuneOptions
-    AutoTuneOptions (AutoTuneOptions'),
+    AutoTuneOptions,
     newAutoTuneOptions,
 
     -- ** AutoTuneOptionsInput
-    AutoTuneOptionsInput (AutoTuneOptionsInput'),
+    AutoTuneOptionsInput,
     newAutoTuneOptionsInput,
 
     -- ** AutoTuneOptionsOutput
-    AutoTuneOptionsOutput (AutoTuneOptionsOutput'),
+    AutoTuneOptionsOutput,
     newAutoTuneOptionsOutput,
 
     -- ** AutoTuneOptionsStatus
-    AutoTuneOptionsStatus (AutoTuneOptionsStatus'),
+    AutoTuneOptionsStatus,
     newAutoTuneOptionsStatus,
 
     -- ** AutoTuneStatus
-    AutoTuneStatus (AutoTuneStatus'),
+    AutoTuneStatus,
     newAutoTuneStatus,
 
     -- ** ChangeProgressDetails
-    ChangeProgressDetails (ChangeProgressDetails'),
+    ChangeProgressDetails,
     newChangeProgressDetails,
 
     -- ** ChangeProgressStage
-    ChangeProgressStage (ChangeProgressStage'),
+    ChangeProgressStage,
     newChangeProgressStage,
 
     -- ** ChangeProgressStatusDetails
-    ChangeProgressStatusDetails (ChangeProgressStatusDetails'),
+    ChangeProgressStatusDetails,
     newChangeProgressStatusDetails,
 
     -- ** CognitoOptions
-    CognitoOptions (CognitoOptions'),
+    CognitoOptions,
     newCognitoOptions,
 
     -- ** CognitoOptionsStatus
-    CognitoOptionsStatus (CognitoOptionsStatus'),
+    CognitoOptionsStatus,
     newCognitoOptionsStatus,
 
     -- ** ColdStorageOptions
-    ColdStorageOptions (ColdStorageOptions'),
+    ColdStorageOptions,
     newColdStorageOptions,
 
     -- ** CompatibleVersionsMap
-    CompatibleVersionsMap (CompatibleVersionsMap'),
+    CompatibleVersionsMap,
     newCompatibleVersionsMap,
 
     -- ** DescribePackagesFilter
-    DescribePackagesFilter (DescribePackagesFilter'),
+    DescribePackagesFilter,
     newDescribePackagesFilter,
 
     -- ** DomainEndpointOptions
-    DomainEndpointOptions (DomainEndpointOptions'),
+    DomainEndpointOptions,
     newDomainEndpointOptions,
 
     -- ** DomainEndpointOptionsStatus
-    DomainEndpointOptionsStatus (DomainEndpointOptionsStatus'),
+    DomainEndpointOptionsStatus,
     newDomainEndpointOptionsStatus,
 
     -- ** DomainInfo
-    DomainInfo (DomainInfo'),
+    DomainInfo,
     newDomainInfo,
 
     -- ** DomainInformation
-    DomainInformation (DomainInformation'),
+    DomainInformation,
     newDomainInformation,
 
     -- ** DomainPackageDetails
-    DomainPackageDetails (DomainPackageDetails'),
+    DomainPackageDetails,
     newDomainPackageDetails,
 
     -- ** DryRunResults
-    DryRunResults (DryRunResults'),
+    DryRunResults,
     newDryRunResults,
 
     -- ** Duration
-    Duration (Duration'),
+    Duration,
     newDuration,
 
     -- ** EBSOptions
-    EBSOptions (EBSOptions'),
+    EBSOptions,
     newEBSOptions,
 
     -- ** EBSOptionsStatus
-    EBSOptionsStatus (EBSOptionsStatus'),
+    EBSOptionsStatus,
     newEBSOptionsStatus,
 
     -- ** ElasticsearchClusterConfig
-    ElasticsearchClusterConfig (ElasticsearchClusterConfig'),
+    ElasticsearchClusterConfig,
     newElasticsearchClusterConfig,
 
     -- ** ElasticsearchClusterConfigStatus
-    ElasticsearchClusterConfigStatus (ElasticsearchClusterConfigStatus'),
+    ElasticsearchClusterConfigStatus,
     newElasticsearchClusterConfigStatus,
 
     -- ** ElasticsearchDomainConfig
-    ElasticsearchDomainConfig (ElasticsearchDomainConfig'),
+    ElasticsearchDomainConfig,
     newElasticsearchDomainConfig,
 
     -- ** ElasticsearchDomainStatus
-    ElasticsearchDomainStatus (ElasticsearchDomainStatus'),
+    ElasticsearchDomainStatus,
     newElasticsearchDomainStatus,
 
     -- ** ElasticsearchVersionStatus
-    ElasticsearchVersionStatus (ElasticsearchVersionStatus'),
+    ElasticsearchVersionStatus,
     newElasticsearchVersionStatus,
 
     -- ** EncryptionAtRestOptions
-    EncryptionAtRestOptions (EncryptionAtRestOptions'),
+    EncryptionAtRestOptions,
     newEncryptionAtRestOptions,
 
     -- ** EncryptionAtRestOptionsStatus
-    EncryptionAtRestOptionsStatus (EncryptionAtRestOptionsStatus'),
+    EncryptionAtRestOptionsStatus,
     newEncryptionAtRestOptionsStatus,
 
     -- ** ErrorDetails
-    ErrorDetails (ErrorDetails'),
+    ErrorDetails,
     newErrorDetails,
 
     -- ** Filter
-    Filter (Filter'),
+    Filter,
     newFilter,
 
     -- ** InboundCrossClusterSearchConnection
-    InboundCrossClusterSearchConnection (InboundCrossClusterSearchConnection'),
+    InboundCrossClusterSearchConnection,
     newInboundCrossClusterSearchConnection,
 
     -- ** InboundCrossClusterSearchConnectionStatus
-    InboundCrossClusterSearchConnectionStatus (InboundCrossClusterSearchConnectionStatus'),
+    InboundCrossClusterSearchConnectionStatus,
     newInboundCrossClusterSearchConnectionStatus,
 
     -- ** InstanceCountLimits
-    InstanceCountLimits (InstanceCountLimits'),
+    InstanceCountLimits,
     newInstanceCountLimits,
 
     -- ** InstanceLimits
-    InstanceLimits (InstanceLimits'),
+    InstanceLimits,
     newInstanceLimits,
 
     -- ** Limits
-    Limits (Limits'),
+    Limits,
     newLimits,
 
     -- ** LogPublishingOption
-    LogPublishingOption (LogPublishingOption'),
+    LogPublishingOption,
     newLogPublishingOption,
 
     -- ** LogPublishingOptionsStatus
-    LogPublishingOptionsStatus (LogPublishingOptionsStatus'),
+    LogPublishingOptionsStatus,
     newLogPublishingOptionsStatus,
 
     -- ** MasterUserOptions
-    MasterUserOptions (MasterUserOptions'),
+    MasterUserOptions,
     newMasterUserOptions,
 
     -- ** NodeToNodeEncryptionOptions
-    NodeToNodeEncryptionOptions (NodeToNodeEncryptionOptions'),
+    NodeToNodeEncryptionOptions,
     newNodeToNodeEncryptionOptions,
 
     -- ** NodeToNodeEncryptionOptionsStatus
-    NodeToNodeEncryptionOptionsStatus (NodeToNodeEncryptionOptionsStatus'),
+    NodeToNodeEncryptionOptionsStatus,
     newNodeToNodeEncryptionOptionsStatus,
 
     -- ** OptionStatus
-    OptionStatus (OptionStatus'),
+    OptionStatus,
     newOptionStatus,
 
     -- ** OutboundCrossClusterSearchConnection
-    OutboundCrossClusterSearchConnection (OutboundCrossClusterSearchConnection'),
+    OutboundCrossClusterSearchConnection,
     newOutboundCrossClusterSearchConnection,
 
     -- ** OutboundCrossClusterSearchConnectionStatus
-    OutboundCrossClusterSearchConnectionStatus (OutboundCrossClusterSearchConnectionStatus'),
+    OutboundCrossClusterSearchConnectionStatus,
     newOutboundCrossClusterSearchConnectionStatus,
 
     -- ** PackageDetails
-    PackageDetails (PackageDetails'),
+    PackageDetails,
     newPackageDetails,
 
     -- ** PackageSource
-    PackageSource (PackageSource'),
+    PackageSource,
     newPackageSource,
 
     -- ** PackageVersionHistory
-    PackageVersionHistory (PackageVersionHistory'),
+    PackageVersionHistory,
     newPackageVersionHistory,
 
     -- ** RecurringCharge
-    RecurringCharge (RecurringCharge'),
+    RecurringCharge,
     newRecurringCharge,
 
     -- ** ReservedElasticsearchInstance
-    ReservedElasticsearchInstance (ReservedElasticsearchInstance'),
+    ReservedElasticsearchInstance,
     newReservedElasticsearchInstance,
 
     -- ** ReservedElasticsearchInstanceOffering
-    ReservedElasticsearchInstanceOffering (ReservedElasticsearchInstanceOffering'),
+    ReservedElasticsearchInstanceOffering,
     newReservedElasticsearchInstanceOffering,
 
     -- ** SAMLIdp
-    SAMLIdp (SAMLIdp'),
+    SAMLIdp,
     newSAMLIdp,
 
     -- ** SAMLOptionsInput
-    SAMLOptionsInput (SAMLOptionsInput'),
+    SAMLOptionsInput,
     newSAMLOptionsInput,
 
     -- ** SAMLOptionsOutput
-    SAMLOptionsOutput (SAMLOptionsOutput'),
+    SAMLOptionsOutput,
     newSAMLOptionsOutput,
 
     -- ** ScheduledAutoTuneDetails
-    ScheduledAutoTuneDetails (ScheduledAutoTuneDetails'),
+    ScheduledAutoTuneDetails,
     newScheduledAutoTuneDetails,
 
     -- ** ServiceSoftwareOptions
-    ServiceSoftwareOptions (ServiceSoftwareOptions'),
+    ServiceSoftwareOptions,
     newServiceSoftwareOptions,
 
     -- ** SnapshotOptions
-    SnapshotOptions (SnapshotOptions'),
+    SnapshotOptions,
     newSnapshotOptions,
 
     -- ** SnapshotOptionsStatus
-    SnapshotOptionsStatus (SnapshotOptionsStatus'),
+    SnapshotOptionsStatus,
     newSnapshotOptionsStatus,
 
     -- ** StorageType
-    StorageType (StorageType'),
+    StorageType,
     newStorageType,
 
     -- ** StorageTypeLimit
-    StorageTypeLimit (StorageTypeLimit'),
+    StorageTypeLimit,
     newStorageTypeLimit,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
 
     -- ** UpgradeHistory
-    UpgradeHistory (UpgradeHistory'),
+    UpgradeHistory,
     newUpgradeHistory,
 
     -- ** UpgradeStepItem
-    UpgradeStepItem (UpgradeStepItem'),
+    UpgradeStepItem,
     newUpgradeStepItem,
 
     -- ** VPCDerivedInfo
-    VPCDerivedInfo (VPCDerivedInfo'),
+    VPCDerivedInfo,
     newVPCDerivedInfo,
 
     -- ** VPCDerivedInfoStatus
-    VPCDerivedInfoStatus (VPCDerivedInfoStatus'),
+    VPCDerivedInfoStatus,
     newVPCDerivedInfoStatus,
 
     -- ** VPCOptions
-    VPCOptions (VPCOptions'),
+    VPCOptions,
     newVPCOptions,
 
     -- ** VpcEndpoint
-    VpcEndpoint (VpcEndpoint'),
+    VpcEndpoint,
     newVpcEndpoint,
 
     -- ** VpcEndpointError
-    VpcEndpointError (VpcEndpointError'),
+    VpcEndpointError,
     newVpcEndpointError,
 
     -- ** VpcEndpointSummary
-    VpcEndpointSummary (VpcEndpointSummary'),
+    VpcEndpointSummary,
     newVpcEndpointSummary,
 
     -- ** ZoneAwarenessConfig
-    ZoneAwarenessConfig (ZoneAwarenessConfig'),
+    ZoneAwarenessConfig,
     newZoneAwarenessConfig,
   )
 where

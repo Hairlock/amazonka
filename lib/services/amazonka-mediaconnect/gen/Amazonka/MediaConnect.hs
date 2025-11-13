@@ -62,183 +62,183 @@ module Amazonka.MediaConnect
     -- $operations
 
     -- ** AddFlowMediaStreams
-    AddFlowMediaStreams (AddFlowMediaStreams'),
+    AddFlowMediaStreams,
     newAddFlowMediaStreams,
-    AddFlowMediaStreamsResponse (AddFlowMediaStreamsResponse'),
+    AddFlowMediaStreamsResponse,
     newAddFlowMediaStreamsResponse,
 
     -- ** AddFlowOutputs
-    AddFlowOutputs (AddFlowOutputs'),
+    AddFlowOutputs,
     newAddFlowOutputs,
-    AddFlowOutputsResponse (AddFlowOutputsResponse'),
+    AddFlowOutputsResponse,
     newAddFlowOutputsResponse,
 
     -- ** AddFlowSources
-    AddFlowSources (AddFlowSources'),
+    AddFlowSources,
     newAddFlowSources,
-    AddFlowSourcesResponse (AddFlowSourcesResponse'),
+    AddFlowSourcesResponse,
     newAddFlowSourcesResponse,
 
     -- ** AddFlowVpcInterfaces
-    AddFlowVpcInterfaces (AddFlowVpcInterfaces'),
+    AddFlowVpcInterfaces,
     newAddFlowVpcInterfaces,
-    AddFlowVpcInterfacesResponse (AddFlowVpcInterfacesResponse'),
+    AddFlowVpcInterfacesResponse,
     newAddFlowVpcInterfacesResponse,
 
     -- ** CreateFlow
-    CreateFlow (CreateFlow'),
+    CreateFlow,
     newCreateFlow,
-    CreateFlowResponse (CreateFlowResponse'),
+    CreateFlowResponse,
     newCreateFlowResponse,
 
     -- ** DeleteFlow
-    DeleteFlow (DeleteFlow'),
+    DeleteFlow,
     newDeleteFlow,
-    DeleteFlowResponse (DeleteFlowResponse'),
+    DeleteFlowResponse,
     newDeleteFlowResponse,
 
     -- ** DescribeFlow
-    DescribeFlow (DescribeFlow'),
+    DescribeFlow,
     newDescribeFlow,
-    DescribeFlowResponse (DescribeFlowResponse'),
+    DescribeFlowResponse,
     newDescribeFlowResponse,
 
     -- ** DescribeOffering
-    DescribeOffering (DescribeOffering'),
+    DescribeOffering,
     newDescribeOffering,
-    DescribeOfferingResponse (DescribeOfferingResponse'),
+    DescribeOfferingResponse,
     newDescribeOfferingResponse,
 
     -- ** DescribeReservation
-    DescribeReservation (DescribeReservation'),
+    DescribeReservation,
     newDescribeReservation,
-    DescribeReservationResponse (DescribeReservationResponse'),
+    DescribeReservationResponse,
     newDescribeReservationResponse,
 
     -- ** GrantFlowEntitlements
-    GrantFlowEntitlements (GrantFlowEntitlements'),
+    GrantFlowEntitlements,
     newGrantFlowEntitlements,
-    GrantFlowEntitlementsResponse (GrantFlowEntitlementsResponse'),
+    GrantFlowEntitlementsResponse,
     newGrantFlowEntitlementsResponse,
 
     -- ** ListEntitlements (Paginated)
-    ListEntitlements (ListEntitlements'),
+    ListEntitlements,
     newListEntitlements,
-    ListEntitlementsResponse (ListEntitlementsResponse'),
+    ListEntitlementsResponse,
     newListEntitlementsResponse,
 
     -- ** ListFlows (Paginated)
-    ListFlows (ListFlows'),
+    ListFlows,
     newListFlows,
-    ListFlowsResponse (ListFlowsResponse'),
+    ListFlowsResponse,
     newListFlowsResponse,
 
     -- ** ListOfferings (Paginated)
-    ListOfferings (ListOfferings'),
+    ListOfferings,
     newListOfferings,
-    ListOfferingsResponse (ListOfferingsResponse'),
+    ListOfferingsResponse,
     newListOfferingsResponse,
 
     -- ** ListReservations (Paginated)
-    ListReservations (ListReservations'),
+    ListReservations,
     newListReservations,
-    ListReservationsResponse (ListReservationsResponse'),
+    ListReservationsResponse,
     newListReservationsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** PurchaseOffering
-    PurchaseOffering (PurchaseOffering'),
+    PurchaseOffering,
     newPurchaseOffering,
-    PurchaseOfferingResponse (PurchaseOfferingResponse'),
+    PurchaseOfferingResponse,
     newPurchaseOfferingResponse,
 
     -- ** RemoveFlowMediaStream
-    RemoveFlowMediaStream (RemoveFlowMediaStream'),
+    RemoveFlowMediaStream,
     newRemoveFlowMediaStream,
-    RemoveFlowMediaStreamResponse (RemoveFlowMediaStreamResponse'),
+    RemoveFlowMediaStreamResponse,
     newRemoveFlowMediaStreamResponse,
 
     -- ** RemoveFlowOutput
-    RemoveFlowOutput (RemoveFlowOutput'),
+    RemoveFlowOutput,
     newRemoveFlowOutput,
-    RemoveFlowOutputResponse (RemoveFlowOutputResponse'),
+    RemoveFlowOutputResponse,
     newRemoveFlowOutputResponse,
 
     -- ** RemoveFlowSource
-    RemoveFlowSource (RemoveFlowSource'),
+    RemoveFlowSource,
     newRemoveFlowSource,
-    RemoveFlowSourceResponse (RemoveFlowSourceResponse'),
+    RemoveFlowSourceResponse,
     newRemoveFlowSourceResponse,
 
     -- ** RemoveFlowVpcInterface
-    RemoveFlowVpcInterface (RemoveFlowVpcInterface'),
+    RemoveFlowVpcInterface,
     newRemoveFlowVpcInterface,
-    RemoveFlowVpcInterfaceResponse (RemoveFlowVpcInterfaceResponse'),
+    RemoveFlowVpcInterfaceResponse,
     newRemoveFlowVpcInterfaceResponse,
 
     -- ** RevokeFlowEntitlement
-    RevokeFlowEntitlement (RevokeFlowEntitlement'),
+    RevokeFlowEntitlement,
     newRevokeFlowEntitlement,
-    RevokeFlowEntitlementResponse (RevokeFlowEntitlementResponse'),
+    RevokeFlowEntitlementResponse,
     newRevokeFlowEntitlementResponse,
 
     -- ** StartFlow
-    StartFlow (StartFlow'),
+    StartFlow,
     newStartFlow,
-    StartFlowResponse (StartFlowResponse'),
+    StartFlowResponse,
     newStartFlowResponse,
 
     -- ** StopFlow
-    StopFlow (StopFlow'),
+    StopFlow,
     newStopFlow,
-    StopFlowResponse (StopFlowResponse'),
+    StopFlowResponse,
     newStopFlowResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateFlow
-    UpdateFlow (UpdateFlow'),
+    UpdateFlow,
     newUpdateFlow,
-    UpdateFlowResponse (UpdateFlowResponse'),
+    UpdateFlowResponse,
     newUpdateFlowResponse,
 
     -- ** UpdateFlowEntitlement
-    UpdateFlowEntitlement (UpdateFlowEntitlement'),
+    UpdateFlowEntitlement,
     newUpdateFlowEntitlement,
-    UpdateFlowEntitlementResponse (UpdateFlowEntitlementResponse'),
+    UpdateFlowEntitlementResponse,
     newUpdateFlowEntitlementResponse,
 
     -- ** UpdateFlowMediaStream
-    UpdateFlowMediaStream (UpdateFlowMediaStream'),
+    UpdateFlowMediaStream,
     newUpdateFlowMediaStream,
-    UpdateFlowMediaStreamResponse (UpdateFlowMediaStreamResponse'),
+    UpdateFlowMediaStreamResponse,
     newUpdateFlowMediaStreamResponse,
 
     -- ** UpdateFlowOutput
-    UpdateFlowOutput (UpdateFlowOutput'),
+    UpdateFlowOutput,
     newUpdateFlowOutput,
-    UpdateFlowOutputResponse (UpdateFlowOutputResponse'),
+    UpdateFlowOutputResponse,
     newUpdateFlowOutputResponse,
 
     -- ** UpdateFlowSource
-    UpdateFlowSource (UpdateFlowSource'),
+    UpdateFlowSource,
     newUpdateFlowSource,
-    UpdateFlowSourceResponse (UpdateFlowSourceResponse'),
+    UpdateFlowSourceResponse,
     newUpdateFlowSourceResponse,
 
     -- * Types
@@ -307,175 +307,175 @@ module Amazonka.MediaConnect
     Tcs (..),
 
     -- ** AddMaintenance
-    AddMaintenance (AddMaintenance'),
+    AddMaintenance,
     newAddMaintenance,
 
     -- ** AddMediaStreamRequest
-    AddMediaStreamRequest (AddMediaStreamRequest'),
+    AddMediaStreamRequest,
     newAddMediaStreamRequest,
 
     -- ** AddOutputRequest
-    AddOutputRequest (AddOutputRequest'),
+    AddOutputRequest,
     newAddOutputRequest,
 
     -- ** DestinationConfiguration
-    DestinationConfiguration (DestinationConfiguration'),
+    DestinationConfiguration,
     newDestinationConfiguration,
 
     -- ** DestinationConfigurationRequest
-    DestinationConfigurationRequest (DestinationConfigurationRequest'),
+    DestinationConfigurationRequest,
     newDestinationConfigurationRequest,
 
     -- ** EncodingParameters
-    EncodingParameters (EncodingParameters'),
+    EncodingParameters,
     newEncodingParameters,
 
     -- ** EncodingParametersRequest
-    EncodingParametersRequest (EncodingParametersRequest'),
+    EncodingParametersRequest,
     newEncodingParametersRequest,
 
     -- ** Encryption
-    Encryption (Encryption'),
+    Encryption,
     newEncryption,
 
     -- ** Entitlement
-    Entitlement (Entitlement'),
+    Entitlement,
     newEntitlement,
 
     -- ** FailoverConfig
-    FailoverConfig (FailoverConfig'),
+    FailoverConfig,
     newFailoverConfig,
 
     -- ** Flow
-    Flow (Flow'),
+    Flow,
     newFlow,
 
     -- ** Fmtp
-    Fmtp (Fmtp'),
+    Fmtp,
     newFmtp,
 
     -- ** FmtpRequest
-    FmtpRequest (FmtpRequest'),
+    FmtpRequest,
     newFmtpRequest,
 
     -- ** GrantEntitlementRequest
-    GrantEntitlementRequest (GrantEntitlementRequest'),
+    GrantEntitlementRequest,
     newGrantEntitlementRequest,
 
     -- ** InputConfiguration
-    InputConfiguration (InputConfiguration'),
+    InputConfiguration,
     newInputConfiguration,
 
     -- ** InputConfigurationRequest
-    InputConfigurationRequest (InputConfigurationRequest'),
+    InputConfigurationRequest,
     newInputConfigurationRequest,
 
     -- ** Interface
-    Interface (Interface'),
+    Interface,
     newInterface,
 
     -- ** InterfaceRequest
-    InterfaceRequest (InterfaceRequest'),
+    InterfaceRequest,
     newInterfaceRequest,
 
     -- ** ListedEntitlement
-    ListedEntitlement (ListedEntitlement'),
+    ListedEntitlement,
     newListedEntitlement,
 
     -- ** ListedFlow
-    ListedFlow (ListedFlow'),
+    ListedFlow,
     newListedFlow,
 
     -- ** Maintenance
-    Maintenance (Maintenance'),
+    Maintenance,
     newMaintenance,
 
     -- ** MediaStream
-    MediaStream (MediaStream'),
+    MediaStream,
     newMediaStream,
 
     -- ** MediaStreamAttributes
-    MediaStreamAttributes (MediaStreamAttributes'),
+    MediaStreamAttributes,
     newMediaStreamAttributes,
 
     -- ** MediaStreamAttributesRequest
-    MediaStreamAttributesRequest (MediaStreamAttributesRequest'),
+    MediaStreamAttributesRequest,
     newMediaStreamAttributesRequest,
 
     -- ** MediaStreamOutputConfiguration
-    MediaStreamOutputConfiguration (MediaStreamOutputConfiguration'),
+    MediaStreamOutputConfiguration,
     newMediaStreamOutputConfiguration,
 
     -- ** MediaStreamOutputConfigurationRequest
-    MediaStreamOutputConfigurationRequest (MediaStreamOutputConfigurationRequest'),
+    MediaStreamOutputConfigurationRequest,
     newMediaStreamOutputConfigurationRequest,
 
     -- ** MediaStreamSourceConfiguration
-    MediaStreamSourceConfiguration (MediaStreamSourceConfiguration'),
+    MediaStreamSourceConfiguration,
     newMediaStreamSourceConfiguration,
 
     -- ** MediaStreamSourceConfigurationRequest
-    MediaStreamSourceConfigurationRequest (MediaStreamSourceConfigurationRequest'),
+    MediaStreamSourceConfigurationRequest,
     newMediaStreamSourceConfigurationRequest,
 
     -- ** Messages
-    Messages (Messages'),
+    Messages,
     newMessages,
 
     -- ** Offering
-    Offering (Offering'),
+    Offering,
     newOffering,
 
     -- ** Output
-    Output (Output'),
+    Output,
     newOutput,
 
     -- ** Reservation
-    Reservation (Reservation'),
+    Reservation,
     newReservation,
 
     -- ** ResourceSpecification
-    ResourceSpecification (ResourceSpecification'),
+    ResourceSpecification,
     newResourceSpecification,
 
     -- ** SetSourceRequest
-    SetSourceRequest (SetSourceRequest'),
+    SetSourceRequest,
     newSetSourceRequest,
 
     -- ** Source
-    Source (Source'),
+    Source,
     newSource,
 
     -- ** SourcePriority
-    SourcePriority (SourcePriority'),
+    SourcePriority,
     newSourcePriority,
 
     -- ** Transport
-    Transport (Transport'),
+    Transport,
     newTransport,
 
     -- ** UpdateEncryption
-    UpdateEncryption (UpdateEncryption'),
+    UpdateEncryption,
     newUpdateEncryption,
 
     -- ** UpdateFailoverConfig
-    UpdateFailoverConfig (UpdateFailoverConfig'),
+    UpdateFailoverConfig,
     newUpdateFailoverConfig,
 
     -- ** UpdateMaintenance
-    UpdateMaintenance (UpdateMaintenance'),
+    UpdateMaintenance,
     newUpdateMaintenance,
 
     -- ** VpcInterface
-    VpcInterface (VpcInterface'),
+    VpcInterface,
     newVpcInterface,
 
     -- ** VpcInterfaceAttachment
-    VpcInterfaceAttachment (VpcInterfaceAttachment'),
+    VpcInterfaceAttachment,
     newVpcInterfaceAttachment,
 
     -- ** VpcInterfaceRequest
-    VpcInterfaceRequest (VpcInterfaceRequest'),
+    VpcInterfaceRequest,
     newVpcInterfaceRequest,
   )
 where

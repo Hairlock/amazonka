@@ -68,213 +68,213 @@ module Amazonka.AppRunner
     -- $operations
 
     -- ** AssociateCustomDomain
-    AssociateCustomDomain (AssociateCustomDomain'),
+    AssociateCustomDomain,
     newAssociateCustomDomain,
-    AssociateCustomDomainResponse (AssociateCustomDomainResponse'),
+    AssociateCustomDomainResponse,
     newAssociateCustomDomainResponse,
 
     -- ** CreateAutoScalingConfiguration
-    CreateAutoScalingConfiguration (CreateAutoScalingConfiguration'),
+    CreateAutoScalingConfiguration,
     newCreateAutoScalingConfiguration,
-    CreateAutoScalingConfigurationResponse (CreateAutoScalingConfigurationResponse'),
+    CreateAutoScalingConfigurationResponse,
     newCreateAutoScalingConfigurationResponse,
 
     -- ** CreateConnection
-    CreateConnection (CreateConnection'),
+    CreateConnection,
     newCreateConnection,
-    CreateConnectionResponse (CreateConnectionResponse'),
+    CreateConnectionResponse,
     newCreateConnectionResponse,
 
     -- ** CreateObservabilityConfiguration
-    CreateObservabilityConfiguration (CreateObservabilityConfiguration'),
+    CreateObservabilityConfiguration,
     newCreateObservabilityConfiguration,
-    CreateObservabilityConfigurationResponse (CreateObservabilityConfigurationResponse'),
+    CreateObservabilityConfigurationResponse,
     newCreateObservabilityConfigurationResponse,
 
     -- ** CreateService
-    CreateService (CreateService'),
+    CreateService,
     newCreateService,
-    CreateServiceResponse (CreateServiceResponse'),
+    CreateServiceResponse,
     newCreateServiceResponse,
 
     -- ** CreateVpcConnector
-    CreateVpcConnector (CreateVpcConnector'),
+    CreateVpcConnector,
     newCreateVpcConnector,
-    CreateVpcConnectorResponse (CreateVpcConnectorResponse'),
+    CreateVpcConnectorResponse,
     newCreateVpcConnectorResponse,
 
     -- ** CreateVpcIngressConnection
-    CreateVpcIngressConnection (CreateVpcIngressConnection'),
+    CreateVpcIngressConnection,
     newCreateVpcIngressConnection,
-    CreateVpcIngressConnectionResponse (CreateVpcIngressConnectionResponse'),
+    CreateVpcIngressConnectionResponse,
     newCreateVpcIngressConnectionResponse,
 
     -- ** DeleteAutoScalingConfiguration
-    DeleteAutoScalingConfiguration (DeleteAutoScalingConfiguration'),
+    DeleteAutoScalingConfiguration,
     newDeleteAutoScalingConfiguration,
-    DeleteAutoScalingConfigurationResponse (DeleteAutoScalingConfigurationResponse'),
+    DeleteAutoScalingConfigurationResponse,
     newDeleteAutoScalingConfigurationResponse,
 
     -- ** DeleteConnection
-    DeleteConnection (DeleteConnection'),
+    DeleteConnection,
     newDeleteConnection,
-    DeleteConnectionResponse (DeleteConnectionResponse'),
+    DeleteConnectionResponse,
     newDeleteConnectionResponse,
 
     -- ** DeleteObservabilityConfiguration
-    DeleteObservabilityConfiguration (DeleteObservabilityConfiguration'),
+    DeleteObservabilityConfiguration,
     newDeleteObservabilityConfiguration,
-    DeleteObservabilityConfigurationResponse (DeleteObservabilityConfigurationResponse'),
+    DeleteObservabilityConfigurationResponse,
     newDeleteObservabilityConfigurationResponse,
 
     -- ** DeleteService
-    DeleteService (DeleteService'),
+    DeleteService,
     newDeleteService,
-    DeleteServiceResponse (DeleteServiceResponse'),
+    DeleteServiceResponse,
     newDeleteServiceResponse,
 
     -- ** DeleteVpcConnector
-    DeleteVpcConnector (DeleteVpcConnector'),
+    DeleteVpcConnector,
     newDeleteVpcConnector,
-    DeleteVpcConnectorResponse (DeleteVpcConnectorResponse'),
+    DeleteVpcConnectorResponse,
     newDeleteVpcConnectorResponse,
 
     -- ** DeleteVpcIngressConnection
-    DeleteVpcIngressConnection (DeleteVpcIngressConnection'),
+    DeleteVpcIngressConnection,
     newDeleteVpcIngressConnection,
-    DeleteVpcIngressConnectionResponse (DeleteVpcIngressConnectionResponse'),
+    DeleteVpcIngressConnectionResponse,
     newDeleteVpcIngressConnectionResponse,
 
     -- ** DescribeAutoScalingConfiguration
-    DescribeAutoScalingConfiguration (DescribeAutoScalingConfiguration'),
+    DescribeAutoScalingConfiguration,
     newDescribeAutoScalingConfiguration,
-    DescribeAutoScalingConfigurationResponse (DescribeAutoScalingConfigurationResponse'),
+    DescribeAutoScalingConfigurationResponse,
     newDescribeAutoScalingConfigurationResponse,
 
     -- ** DescribeCustomDomains
-    DescribeCustomDomains (DescribeCustomDomains'),
+    DescribeCustomDomains,
     newDescribeCustomDomains,
-    DescribeCustomDomainsResponse (DescribeCustomDomainsResponse'),
+    DescribeCustomDomainsResponse,
     newDescribeCustomDomainsResponse,
 
     -- ** DescribeObservabilityConfiguration
-    DescribeObservabilityConfiguration (DescribeObservabilityConfiguration'),
+    DescribeObservabilityConfiguration,
     newDescribeObservabilityConfiguration,
-    DescribeObservabilityConfigurationResponse (DescribeObservabilityConfigurationResponse'),
+    DescribeObservabilityConfigurationResponse,
     newDescribeObservabilityConfigurationResponse,
 
     -- ** DescribeService
-    DescribeService (DescribeService'),
+    DescribeService,
     newDescribeService,
-    DescribeServiceResponse (DescribeServiceResponse'),
+    DescribeServiceResponse,
     newDescribeServiceResponse,
 
     -- ** DescribeVpcConnector
-    DescribeVpcConnector (DescribeVpcConnector'),
+    DescribeVpcConnector,
     newDescribeVpcConnector,
-    DescribeVpcConnectorResponse (DescribeVpcConnectorResponse'),
+    DescribeVpcConnectorResponse,
     newDescribeVpcConnectorResponse,
 
     -- ** DescribeVpcIngressConnection
-    DescribeVpcIngressConnection (DescribeVpcIngressConnection'),
+    DescribeVpcIngressConnection,
     newDescribeVpcIngressConnection,
-    DescribeVpcIngressConnectionResponse (DescribeVpcIngressConnectionResponse'),
+    DescribeVpcIngressConnectionResponse,
     newDescribeVpcIngressConnectionResponse,
 
     -- ** DisassociateCustomDomain
-    DisassociateCustomDomain (DisassociateCustomDomain'),
+    DisassociateCustomDomain,
     newDisassociateCustomDomain,
-    DisassociateCustomDomainResponse (DisassociateCustomDomainResponse'),
+    DisassociateCustomDomainResponse,
     newDisassociateCustomDomainResponse,
 
     -- ** ListAutoScalingConfigurations
-    ListAutoScalingConfigurations (ListAutoScalingConfigurations'),
+    ListAutoScalingConfigurations,
     newListAutoScalingConfigurations,
-    ListAutoScalingConfigurationsResponse (ListAutoScalingConfigurationsResponse'),
+    ListAutoScalingConfigurationsResponse,
     newListAutoScalingConfigurationsResponse,
 
     -- ** ListConnections
-    ListConnections (ListConnections'),
+    ListConnections,
     newListConnections,
-    ListConnectionsResponse (ListConnectionsResponse'),
+    ListConnectionsResponse,
     newListConnectionsResponse,
 
     -- ** ListObservabilityConfigurations
-    ListObservabilityConfigurations (ListObservabilityConfigurations'),
+    ListObservabilityConfigurations,
     newListObservabilityConfigurations,
-    ListObservabilityConfigurationsResponse (ListObservabilityConfigurationsResponse'),
+    ListObservabilityConfigurationsResponse,
     newListObservabilityConfigurationsResponse,
 
     -- ** ListOperations
-    ListOperations (ListOperations'),
+    ListOperations,
     newListOperations,
-    ListOperationsResponse (ListOperationsResponse'),
+    ListOperationsResponse,
     newListOperationsResponse,
 
     -- ** ListServices
-    ListServices (ListServices'),
+    ListServices,
     newListServices,
-    ListServicesResponse (ListServicesResponse'),
+    ListServicesResponse,
     newListServicesResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** ListVpcConnectors
-    ListVpcConnectors (ListVpcConnectors'),
+    ListVpcConnectors,
     newListVpcConnectors,
-    ListVpcConnectorsResponse (ListVpcConnectorsResponse'),
+    ListVpcConnectorsResponse,
     newListVpcConnectorsResponse,
 
     -- ** ListVpcIngressConnections
-    ListVpcIngressConnections (ListVpcIngressConnections'),
+    ListVpcIngressConnections,
     newListVpcIngressConnections,
-    ListVpcIngressConnectionsResponse (ListVpcIngressConnectionsResponse'),
+    ListVpcIngressConnectionsResponse,
     newListVpcIngressConnectionsResponse,
 
     -- ** PauseService
-    PauseService (PauseService'),
+    PauseService,
     newPauseService,
-    PauseServiceResponse (PauseServiceResponse'),
+    PauseServiceResponse,
     newPauseServiceResponse,
 
     -- ** ResumeService
-    ResumeService (ResumeService'),
+    ResumeService,
     newResumeService,
-    ResumeServiceResponse (ResumeServiceResponse'),
+    ResumeServiceResponse,
     newResumeServiceResponse,
 
     -- ** StartDeployment
-    StartDeployment (StartDeployment'),
+    StartDeployment,
     newStartDeployment,
-    StartDeploymentResponse (StartDeploymentResponse'),
+    StartDeploymentResponse,
     newStartDeploymentResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateService
-    UpdateService (UpdateService'),
+    UpdateService,
     newUpdateService,
-    UpdateServiceResponse (UpdateServiceResponse'),
+    UpdateServiceResponse,
     newUpdateServiceResponse,
 
     -- ** UpdateVpcIngressConnection
-    UpdateVpcIngressConnection (UpdateVpcIngressConnection'),
+    UpdateVpcIngressConnection,
     newUpdateVpcIngressConnection,
-    UpdateVpcIngressConnectionResponse (UpdateVpcIngressConnectionResponse'),
+    UpdateVpcIngressConnectionResponse,
     newUpdateVpcIngressConnectionResponse,
 
     -- * Types
@@ -334,139 +334,139 @@ module Amazonka.AppRunner
     VpcIngressConnectionStatus (..),
 
     -- ** AuthenticationConfiguration
-    AuthenticationConfiguration (AuthenticationConfiguration'),
+    AuthenticationConfiguration,
     newAuthenticationConfiguration,
 
     -- ** AutoScalingConfiguration
-    AutoScalingConfiguration (AutoScalingConfiguration'),
+    AutoScalingConfiguration,
     newAutoScalingConfiguration,
 
     -- ** AutoScalingConfigurationSummary
-    AutoScalingConfigurationSummary (AutoScalingConfigurationSummary'),
+    AutoScalingConfigurationSummary,
     newAutoScalingConfigurationSummary,
 
     -- ** CertificateValidationRecord
-    CertificateValidationRecord (CertificateValidationRecord'),
+    CertificateValidationRecord,
     newCertificateValidationRecord,
 
     -- ** CodeConfiguration
-    CodeConfiguration (CodeConfiguration'),
+    CodeConfiguration,
     newCodeConfiguration,
 
     -- ** CodeConfigurationValues
-    CodeConfigurationValues (CodeConfigurationValues'),
+    CodeConfigurationValues,
     newCodeConfigurationValues,
 
     -- ** CodeRepository
-    CodeRepository (CodeRepository'),
+    CodeRepository,
     newCodeRepository,
 
     -- ** Connection
-    Connection (Connection'),
+    Connection,
     newConnection,
 
     -- ** ConnectionSummary
-    ConnectionSummary (ConnectionSummary'),
+    ConnectionSummary,
     newConnectionSummary,
 
     -- ** CustomDomain
-    CustomDomain (CustomDomain'),
+    CustomDomain,
     newCustomDomain,
 
     -- ** EgressConfiguration
-    EgressConfiguration (EgressConfiguration'),
+    EgressConfiguration,
     newEgressConfiguration,
 
     -- ** EncryptionConfiguration
-    EncryptionConfiguration (EncryptionConfiguration'),
+    EncryptionConfiguration,
     newEncryptionConfiguration,
 
     -- ** HealthCheckConfiguration
-    HealthCheckConfiguration (HealthCheckConfiguration'),
+    HealthCheckConfiguration,
     newHealthCheckConfiguration,
 
     -- ** ImageConfiguration
-    ImageConfiguration (ImageConfiguration'),
+    ImageConfiguration,
     newImageConfiguration,
 
     -- ** ImageRepository
-    ImageRepository (ImageRepository'),
+    ImageRepository,
     newImageRepository,
 
     -- ** IngressConfiguration
-    IngressConfiguration (IngressConfiguration'),
+    IngressConfiguration,
     newIngressConfiguration,
 
     -- ** IngressVpcConfiguration
-    IngressVpcConfiguration (IngressVpcConfiguration'),
+    IngressVpcConfiguration,
     newIngressVpcConfiguration,
 
     -- ** InstanceConfiguration
-    InstanceConfiguration (InstanceConfiguration'),
+    InstanceConfiguration,
     newInstanceConfiguration,
 
     -- ** ListVpcIngressConnectionsFilter
-    ListVpcIngressConnectionsFilter (ListVpcIngressConnectionsFilter'),
+    ListVpcIngressConnectionsFilter,
     newListVpcIngressConnectionsFilter,
 
     -- ** NetworkConfiguration
-    NetworkConfiguration (NetworkConfiguration'),
+    NetworkConfiguration,
     newNetworkConfiguration,
 
     -- ** ObservabilityConfiguration
-    ObservabilityConfiguration (ObservabilityConfiguration'),
+    ObservabilityConfiguration,
     newObservabilityConfiguration,
 
     -- ** ObservabilityConfigurationSummary
-    ObservabilityConfigurationSummary (ObservabilityConfigurationSummary'),
+    ObservabilityConfigurationSummary,
     newObservabilityConfigurationSummary,
 
     -- ** OperationSummary
-    OperationSummary (OperationSummary'),
+    OperationSummary,
     newOperationSummary,
 
     -- ** Service
-    Service (Service'),
+    Service,
     newService,
 
     -- ** ServiceObservabilityConfiguration
-    ServiceObservabilityConfiguration (ServiceObservabilityConfiguration'),
+    ServiceObservabilityConfiguration,
     newServiceObservabilityConfiguration,
 
     -- ** ServiceSummary
-    ServiceSummary (ServiceSummary'),
+    ServiceSummary,
     newServiceSummary,
 
     -- ** SourceCodeVersion
-    SourceCodeVersion (SourceCodeVersion'),
+    SourceCodeVersion,
     newSourceCodeVersion,
 
     -- ** SourceConfiguration
-    SourceConfiguration (SourceConfiguration'),
+    SourceConfiguration,
     newSourceConfiguration,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
 
     -- ** TraceConfiguration
-    TraceConfiguration (TraceConfiguration'),
+    TraceConfiguration,
     newTraceConfiguration,
 
     -- ** VpcConnector
-    VpcConnector (VpcConnector'),
+    VpcConnector,
     newVpcConnector,
 
     -- ** VpcDNSTarget
-    VpcDNSTarget (VpcDNSTarget'),
+    VpcDNSTarget,
     newVpcDNSTarget,
 
     -- ** VpcIngressConnection
-    VpcIngressConnection (VpcIngressConnection'),
+    VpcIngressConnection,
     newVpcIngressConnection,
 
     -- ** VpcIngressConnectionSummary
-    VpcIngressConnectionSummary (VpcIngressConnectionSummary'),
+    VpcIngressConnectionSummary,
     newVpcIngressConnectionSummary,
   )
 where

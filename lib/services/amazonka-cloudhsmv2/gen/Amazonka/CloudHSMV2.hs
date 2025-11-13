@@ -46,93 +46,93 @@ module Amazonka.CloudHSMV2
     -- $operations
 
     -- ** CopyBackupToRegion
-    CopyBackupToRegion (CopyBackupToRegion'),
+    CopyBackupToRegion,
     newCopyBackupToRegion,
-    CopyBackupToRegionResponse (CopyBackupToRegionResponse'),
+    CopyBackupToRegionResponse,
     newCopyBackupToRegionResponse,
 
     -- ** CreateCluster
-    CreateCluster (CreateCluster'),
+    CreateCluster,
     newCreateCluster,
-    CreateClusterResponse (CreateClusterResponse'),
+    CreateClusterResponse,
     newCreateClusterResponse,
 
     -- ** CreateHsm
-    CreateHsm (CreateHsm'),
+    CreateHsm,
     newCreateHsm,
-    CreateHsmResponse (CreateHsmResponse'),
+    CreateHsmResponse,
     newCreateHsmResponse,
 
     -- ** DeleteBackup
-    DeleteBackup (DeleteBackup'),
+    DeleteBackup,
     newDeleteBackup,
-    DeleteBackupResponse (DeleteBackupResponse'),
+    DeleteBackupResponse,
     newDeleteBackupResponse,
 
     -- ** DeleteCluster
-    DeleteCluster (DeleteCluster'),
+    DeleteCluster,
     newDeleteCluster,
-    DeleteClusterResponse (DeleteClusterResponse'),
+    DeleteClusterResponse,
     newDeleteClusterResponse,
 
     -- ** DeleteHsm
-    DeleteHsm (DeleteHsm'),
+    DeleteHsm,
     newDeleteHsm,
-    DeleteHsmResponse (DeleteHsmResponse'),
+    DeleteHsmResponse,
     newDeleteHsmResponse,
 
     -- ** DescribeBackups (Paginated)
-    DescribeBackups (DescribeBackups'),
+    DescribeBackups,
     newDescribeBackups,
-    DescribeBackupsResponse (DescribeBackupsResponse'),
+    DescribeBackupsResponse,
     newDescribeBackupsResponse,
 
     -- ** DescribeClusters (Paginated)
-    DescribeClusters (DescribeClusters'),
+    DescribeClusters,
     newDescribeClusters,
-    DescribeClustersResponse (DescribeClustersResponse'),
+    DescribeClustersResponse,
     newDescribeClustersResponse,
 
     -- ** InitializeCluster
-    InitializeCluster (InitializeCluster'),
+    InitializeCluster,
     newInitializeCluster,
-    InitializeClusterResponse (InitializeClusterResponse'),
+    InitializeClusterResponse,
     newInitializeClusterResponse,
 
     -- ** ListTags (Paginated)
-    ListTags (ListTags'),
+    ListTags,
     newListTags,
-    ListTagsResponse (ListTagsResponse'),
+    ListTagsResponse,
     newListTagsResponse,
 
     -- ** ModifyBackupAttributes
-    ModifyBackupAttributes (ModifyBackupAttributes'),
+    ModifyBackupAttributes,
     newModifyBackupAttributes,
-    ModifyBackupAttributesResponse (ModifyBackupAttributesResponse'),
+    ModifyBackupAttributesResponse,
     newModifyBackupAttributesResponse,
 
     -- ** ModifyCluster
-    ModifyCluster (ModifyCluster'),
+    ModifyCluster,
     newModifyCluster,
-    ModifyClusterResponse (ModifyClusterResponse'),
+    ModifyClusterResponse,
     newModifyClusterResponse,
 
     -- ** RestoreBackup
-    RestoreBackup (RestoreBackup'),
+    RestoreBackup,
     newRestoreBackup,
-    RestoreBackupResponse (RestoreBackupResponse'),
+    RestoreBackupResponse,
     newRestoreBackupResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- * Types
@@ -153,31 +153,31 @@ module Amazonka.CloudHSMV2
     HsmState (..),
 
     -- ** Backup
-    Backup (Backup'),
+    Backup,
     newBackup,
 
     -- ** BackupRetentionPolicy
-    BackupRetentionPolicy (BackupRetentionPolicy'),
+    BackupRetentionPolicy,
     newBackupRetentionPolicy,
 
     -- ** Certificates
-    Certificates (Certificates'),
+    Certificates,
     newCertificates,
 
     -- ** Cluster
-    Cluster (Cluster'),
+    Cluster,
     newCluster,
 
     -- ** DestinationBackup
-    DestinationBackup (DestinationBackup'),
+    DestinationBackup,
     newDestinationBackup,
 
     -- ** Hsm
-    Hsm (Hsm'),
+    Hsm,
     newHsm,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
   )
 where

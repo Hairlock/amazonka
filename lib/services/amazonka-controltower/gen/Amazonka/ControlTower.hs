@@ -108,27 +108,27 @@ module Amazonka.ControlTower
     -- $operations
 
     -- ** DisableControl
-    DisableControl (DisableControl'),
+    DisableControl,
     newDisableControl,
-    DisableControlResponse (DisableControlResponse'),
+    DisableControlResponse,
     newDisableControlResponse,
 
     -- ** EnableControl
-    EnableControl (EnableControl'),
+    EnableControl,
     newEnableControl,
-    EnableControlResponse (EnableControlResponse'),
+    EnableControlResponse,
     newEnableControlResponse,
 
     -- ** GetControlOperation
-    GetControlOperation (GetControlOperation'),
+    GetControlOperation,
     newGetControlOperation,
-    GetControlOperationResponse (GetControlOperationResponse'),
+    GetControlOperationResponse,
     newGetControlOperationResponse,
 
     -- ** ListEnabledControls (Paginated)
-    ListEnabledControls (ListEnabledControls'),
+    ListEnabledControls,
     newListEnabledControls,
-    ListEnabledControlsResponse (ListEnabledControlsResponse'),
+    ListEnabledControlsResponse,
     newListEnabledControlsResponse,
 
     -- * Types
@@ -140,11 +140,11 @@ module Amazonka.ControlTower
     ControlOperationType (..),
 
     -- ** ControlOperation
-    ControlOperation (ControlOperation'),
+    ControlOperation,
     newControlOperation,
 
     -- ** EnabledControlSummary
-    EnabledControlSummary (EnabledControlSummary'),
+    EnabledControlSummary,
     newEnabledControlSummary,
   )
 where

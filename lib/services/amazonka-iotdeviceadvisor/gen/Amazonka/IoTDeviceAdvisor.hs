@@ -49,87 +49,87 @@ module Amazonka.IoTDeviceAdvisor
     -- $operations
 
     -- ** CreateSuiteDefinition
-    CreateSuiteDefinition (CreateSuiteDefinition'),
+    CreateSuiteDefinition,
     newCreateSuiteDefinition,
-    CreateSuiteDefinitionResponse (CreateSuiteDefinitionResponse'),
+    CreateSuiteDefinitionResponse,
     newCreateSuiteDefinitionResponse,
 
     -- ** DeleteSuiteDefinition
-    DeleteSuiteDefinition (DeleteSuiteDefinition'),
+    DeleteSuiteDefinition,
     newDeleteSuiteDefinition,
-    DeleteSuiteDefinitionResponse (DeleteSuiteDefinitionResponse'),
+    DeleteSuiteDefinitionResponse,
     newDeleteSuiteDefinitionResponse,
 
     -- ** GetEndpoint
-    GetEndpoint (GetEndpoint'),
+    GetEndpoint,
     newGetEndpoint,
-    GetEndpointResponse (GetEndpointResponse'),
+    GetEndpointResponse,
     newGetEndpointResponse,
 
     -- ** GetSuiteDefinition
-    GetSuiteDefinition (GetSuiteDefinition'),
+    GetSuiteDefinition,
     newGetSuiteDefinition,
-    GetSuiteDefinitionResponse (GetSuiteDefinitionResponse'),
+    GetSuiteDefinitionResponse,
     newGetSuiteDefinitionResponse,
 
     -- ** GetSuiteRun
-    GetSuiteRun (GetSuiteRun'),
+    GetSuiteRun,
     newGetSuiteRun,
-    GetSuiteRunResponse (GetSuiteRunResponse'),
+    GetSuiteRunResponse,
     newGetSuiteRunResponse,
 
     -- ** GetSuiteRunReport
-    GetSuiteRunReport (GetSuiteRunReport'),
+    GetSuiteRunReport,
     newGetSuiteRunReport,
-    GetSuiteRunReportResponse (GetSuiteRunReportResponse'),
+    GetSuiteRunReportResponse,
     newGetSuiteRunReportResponse,
 
     -- ** ListSuiteDefinitions
-    ListSuiteDefinitions (ListSuiteDefinitions'),
+    ListSuiteDefinitions,
     newListSuiteDefinitions,
-    ListSuiteDefinitionsResponse (ListSuiteDefinitionsResponse'),
+    ListSuiteDefinitionsResponse,
     newListSuiteDefinitionsResponse,
 
     -- ** ListSuiteRuns
-    ListSuiteRuns (ListSuiteRuns'),
+    ListSuiteRuns,
     newListSuiteRuns,
-    ListSuiteRunsResponse (ListSuiteRunsResponse'),
+    ListSuiteRunsResponse,
     newListSuiteRunsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** StartSuiteRun
-    StartSuiteRun (StartSuiteRun'),
+    StartSuiteRun,
     newStartSuiteRun,
-    StartSuiteRunResponse (StartSuiteRunResponse'),
+    StartSuiteRunResponse,
     newStartSuiteRunResponse,
 
     -- ** StopSuiteRun
-    StopSuiteRun (StopSuiteRun'),
+    StopSuiteRun,
     newStopSuiteRun,
-    StopSuiteRunResponse (StopSuiteRunResponse'),
+    StopSuiteRunResponse,
     newStopSuiteRunResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateSuiteDefinition
-    UpdateSuiteDefinition (UpdateSuiteDefinition'),
+    UpdateSuiteDefinition,
     newUpdateSuiteDefinition,
-    UpdateSuiteDefinitionResponse (UpdateSuiteDefinitionResponse'),
+    UpdateSuiteDefinitionResponse,
     newUpdateSuiteDefinitionResponse,
 
     -- * Types
@@ -150,39 +150,39 @@ module Amazonka.IoTDeviceAdvisor
     TestCaseScenarioType (..),
 
     -- ** DeviceUnderTest
-    DeviceUnderTest (DeviceUnderTest'),
+    DeviceUnderTest,
     newDeviceUnderTest,
 
     -- ** GroupResult
-    GroupResult (GroupResult'),
+    GroupResult,
     newGroupResult,
 
     -- ** SuiteDefinitionConfiguration
-    SuiteDefinitionConfiguration (SuiteDefinitionConfiguration'),
+    SuiteDefinitionConfiguration,
     newSuiteDefinitionConfiguration,
 
     -- ** SuiteDefinitionInformation
-    SuiteDefinitionInformation (SuiteDefinitionInformation'),
+    SuiteDefinitionInformation,
     newSuiteDefinitionInformation,
 
     -- ** SuiteRunConfiguration
-    SuiteRunConfiguration (SuiteRunConfiguration'),
+    SuiteRunConfiguration,
     newSuiteRunConfiguration,
 
     -- ** SuiteRunInformation
-    SuiteRunInformation (SuiteRunInformation'),
+    SuiteRunInformation,
     newSuiteRunInformation,
 
     -- ** TestCaseRun
-    TestCaseRun (TestCaseRun'),
+    TestCaseRun,
     newTestCaseRun,
 
     -- ** TestCaseScenario
-    TestCaseScenario (TestCaseScenario'),
+    TestCaseScenario,
     newTestCaseScenario,
 
     -- ** TestResult
-    TestResult (TestResult'),
+    TestResult,
     newTestResult,
   )
 where

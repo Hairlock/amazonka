@@ -440,261 +440,261 @@ module Amazonka.CodeDeploy
     -- $operations
 
     -- ** AddTagsToOnPremisesInstances
-    AddTagsToOnPremisesInstances (AddTagsToOnPremisesInstances'),
+    AddTagsToOnPremisesInstances,
     newAddTagsToOnPremisesInstances,
-    AddTagsToOnPremisesInstancesResponse (AddTagsToOnPremisesInstancesResponse'),
+    AddTagsToOnPremisesInstancesResponse,
     newAddTagsToOnPremisesInstancesResponse,
 
     -- ** BatchGetApplicationRevisions
-    BatchGetApplicationRevisions (BatchGetApplicationRevisions'),
+    BatchGetApplicationRevisions,
     newBatchGetApplicationRevisions,
-    BatchGetApplicationRevisionsResponse (BatchGetApplicationRevisionsResponse'),
+    BatchGetApplicationRevisionsResponse,
     newBatchGetApplicationRevisionsResponse,
 
     -- ** BatchGetApplications
-    BatchGetApplications (BatchGetApplications'),
+    BatchGetApplications,
     newBatchGetApplications,
-    BatchGetApplicationsResponse (BatchGetApplicationsResponse'),
+    BatchGetApplicationsResponse,
     newBatchGetApplicationsResponse,
 
     -- ** BatchGetDeploymentGroups
-    BatchGetDeploymentGroups (BatchGetDeploymentGroups'),
+    BatchGetDeploymentGroups,
     newBatchGetDeploymentGroups,
-    BatchGetDeploymentGroupsResponse (BatchGetDeploymentGroupsResponse'),
+    BatchGetDeploymentGroupsResponse,
     newBatchGetDeploymentGroupsResponse,
 
     -- ** BatchGetDeploymentTargets
-    BatchGetDeploymentTargets (BatchGetDeploymentTargets'),
+    BatchGetDeploymentTargets,
     newBatchGetDeploymentTargets,
-    BatchGetDeploymentTargetsResponse (BatchGetDeploymentTargetsResponse'),
+    BatchGetDeploymentTargetsResponse,
     newBatchGetDeploymentTargetsResponse,
 
     -- ** BatchGetDeployments
-    BatchGetDeployments (BatchGetDeployments'),
+    BatchGetDeployments,
     newBatchGetDeployments,
-    BatchGetDeploymentsResponse (BatchGetDeploymentsResponse'),
+    BatchGetDeploymentsResponse,
     newBatchGetDeploymentsResponse,
 
     -- ** BatchGetOnPremisesInstances
-    BatchGetOnPremisesInstances (BatchGetOnPremisesInstances'),
+    BatchGetOnPremisesInstances,
     newBatchGetOnPremisesInstances,
-    BatchGetOnPremisesInstancesResponse (BatchGetOnPremisesInstancesResponse'),
+    BatchGetOnPremisesInstancesResponse,
     newBatchGetOnPremisesInstancesResponse,
 
     -- ** ContinueDeployment
-    ContinueDeployment (ContinueDeployment'),
+    ContinueDeployment,
     newContinueDeployment,
-    ContinueDeploymentResponse (ContinueDeploymentResponse'),
+    ContinueDeploymentResponse,
     newContinueDeploymentResponse,
 
     -- ** CreateApplication
-    CreateApplication (CreateApplication'),
+    CreateApplication,
     newCreateApplication,
-    CreateApplicationResponse (CreateApplicationResponse'),
+    CreateApplicationResponse,
     newCreateApplicationResponse,
 
     -- ** CreateDeployment
-    CreateDeployment (CreateDeployment'),
+    CreateDeployment,
     newCreateDeployment,
-    CreateDeploymentResponse (CreateDeploymentResponse'),
+    CreateDeploymentResponse,
     newCreateDeploymentResponse,
 
     -- ** CreateDeploymentConfig
-    CreateDeploymentConfig (CreateDeploymentConfig'),
+    CreateDeploymentConfig,
     newCreateDeploymentConfig,
-    CreateDeploymentConfigResponse (CreateDeploymentConfigResponse'),
+    CreateDeploymentConfigResponse,
     newCreateDeploymentConfigResponse,
 
     -- ** CreateDeploymentGroup
-    CreateDeploymentGroup (CreateDeploymentGroup'),
+    CreateDeploymentGroup,
     newCreateDeploymentGroup,
-    CreateDeploymentGroupResponse (CreateDeploymentGroupResponse'),
+    CreateDeploymentGroupResponse,
     newCreateDeploymentGroupResponse,
 
     -- ** DeleteApplication
-    DeleteApplication (DeleteApplication'),
+    DeleteApplication,
     newDeleteApplication,
-    DeleteApplicationResponse (DeleteApplicationResponse'),
+    DeleteApplicationResponse,
     newDeleteApplicationResponse,
 
     -- ** DeleteDeploymentConfig
-    DeleteDeploymentConfig (DeleteDeploymentConfig'),
+    DeleteDeploymentConfig,
     newDeleteDeploymentConfig,
-    DeleteDeploymentConfigResponse (DeleteDeploymentConfigResponse'),
+    DeleteDeploymentConfigResponse,
     newDeleteDeploymentConfigResponse,
 
     -- ** DeleteDeploymentGroup
-    DeleteDeploymentGroup (DeleteDeploymentGroup'),
+    DeleteDeploymentGroup,
     newDeleteDeploymentGroup,
-    DeleteDeploymentGroupResponse (DeleteDeploymentGroupResponse'),
+    DeleteDeploymentGroupResponse,
     newDeleteDeploymentGroupResponse,
 
     -- ** DeleteGitHubAccountToken
-    DeleteGitHubAccountToken (DeleteGitHubAccountToken'),
+    DeleteGitHubAccountToken,
     newDeleteGitHubAccountToken,
-    DeleteGitHubAccountTokenResponse (DeleteGitHubAccountTokenResponse'),
+    DeleteGitHubAccountTokenResponse,
     newDeleteGitHubAccountTokenResponse,
 
     -- ** DeleteResourcesByExternalId
-    DeleteResourcesByExternalId (DeleteResourcesByExternalId'),
+    DeleteResourcesByExternalId,
     newDeleteResourcesByExternalId,
-    DeleteResourcesByExternalIdResponse (DeleteResourcesByExternalIdResponse'),
+    DeleteResourcesByExternalIdResponse,
     newDeleteResourcesByExternalIdResponse,
 
     -- ** DeregisterOnPremisesInstance
-    DeregisterOnPremisesInstance (DeregisterOnPremisesInstance'),
+    DeregisterOnPremisesInstance,
     newDeregisterOnPremisesInstance,
-    DeregisterOnPremisesInstanceResponse (DeregisterOnPremisesInstanceResponse'),
+    DeregisterOnPremisesInstanceResponse,
     newDeregisterOnPremisesInstanceResponse,
 
     -- ** GetApplication
-    GetApplication (GetApplication'),
+    GetApplication,
     newGetApplication,
-    GetApplicationResponse (GetApplicationResponse'),
+    GetApplicationResponse,
     newGetApplicationResponse,
 
     -- ** GetApplicationRevision
-    GetApplicationRevision (GetApplicationRevision'),
+    GetApplicationRevision,
     newGetApplicationRevision,
-    GetApplicationRevisionResponse (GetApplicationRevisionResponse'),
+    GetApplicationRevisionResponse,
     newGetApplicationRevisionResponse,
 
     -- ** GetDeployment
-    GetDeployment (GetDeployment'),
+    GetDeployment,
     newGetDeployment,
-    GetDeploymentResponse (GetDeploymentResponse'),
+    GetDeploymentResponse,
     newGetDeploymentResponse,
 
     -- ** GetDeploymentConfig
-    GetDeploymentConfig (GetDeploymentConfig'),
+    GetDeploymentConfig,
     newGetDeploymentConfig,
-    GetDeploymentConfigResponse (GetDeploymentConfigResponse'),
+    GetDeploymentConfigResponse,
     newGetDeploymentConfigResponse,
 
     -- ** GetDeploymentGroup
-    GetDeploymentGroup (GetDeploymentGroup'),
+    GetDeploymentGroup,
     newGetDeploymentGroup,
-    GetDeploymentGroupResponse (GetDeploymentGroupResponse'),
+    GetDeploymentGroupResponse,
     newGetDeploymentGroupResponse,
 
     -- ** GetDeploymentTarget
-    GetDeploymentTarget (GetDeploymentTarget'),
+    GetDeploymentTarget,
     newGetDeploymentTarget,
-    GetDeploymentTargetResponse (GetDeploymentTargetResponse'),
+    GetDeploymentTargetResponse,
     newGetDeploymentTargetResponse,
 
     -- ** GetOnPremisesInstance
-    GetOnPremisesInstance (GetOnPremisesInstance'),
+    GetOnPremisesInstance,
     newGetOnPremisesInstance,
-    GetOnPremisesInstanceResponse (GetOnPremisesInstanceResponse'),
+    GetOnPremisesInstanceResponse,
     newGetOnPremisesInstanceResponse,
 
     -- ** ListApplicationRevisions (Paginated)
-    ListApplicationRevisions (ListApplicationRevisions'),
+    ListApplicationRevisions,
     newListApplicationRevisions,
-    ListApplicationRevisionsResponse (ListApplicationRevisionsResponse'),
+    ListApplicationRevisionsResponse,
     newListApplicationRevisionsResponse,
 
     -- ** ListApplications (Paginated)
-    ListApplications (ListApplications'),
+    ListApplications,
     newListApplications,
-    ListApplicationsResponse (ListApplicationsResponse'),
+    ListApplicationsResponse,
     newListApplicationsResponse,
 
     -- ** ListDeploymentConfigs (Paginated)
-    ListDeploymentConfigs (ListDeploymentConfigs'),
+    ListDeploymentConfigs,
     newListDeploymentConfigs,
-    ListDeploymentConfigsResponse (ListDeploymentConfigsResponse'),
+    ListDeploymentConfigsResponse,
     newListDeploymentConfigsResponse,
 
     -- ** ListDeploymentGroups (Paginated)
-    ListDeploymentGroups (ListDeploymentGroups'),
+    ListDeploymentGroups,
     newListDeploymentGroups,
-    ListDeploymentGroupsResponse (ListDeploymentGroupsResponse'),
+    ListDeploymentGroupsResponse,
     newListDeploymentGroupsResponse,
 
     -- ** ListDeploymentTargets (Paginated)
-    ListDeploymentTargets (ListDeploymentTargets'),
+    ListDeploymentTargets,
     newListDeploymentTargets,
-    ListDeploymentTargetsResponse (ListDeploymentTargetsResponse'),
+    ListDeploymentTargetsResponse,
     newListDeploymentTargetsResponse,
 
     -- ** ListDeployments (Paginated)
-    ListDeployments (ListDeployments'),
+    ListDeployments,
     newListDeployments,
-    ListDeploymentsResponse (ListDeploymentsResponse'),
+    ListDeploymentsResponse,
     newListDeploymentsResponse,
 
     -- ** ListGitHubAccountTokenNames (Paginated)
-    ListGitHubAccountTokenNames (ListGitHubAccountTokenNames'),
+    ListGitHubAccountTokenNames,
     newListGitHubAccountTokenNames,
-    ListGitHubAccountTokenNamesResponse (ListGitHubAccountTokenNamesResponse'),
+    ListGitHubAccountTokenNamesResponse,
     newListGitHubAccountTokenNamesResponse,
 
     -- ** ListOnPremisesInstances (Paginated)
-    ListOnPremisesInstances (ListOnPremisesInstances'),
+    ListOnPremisesInstances,
     newListOnPremisesInstances,
-    ListOnPremisesInstancesResponse (ListOnPremisesInstancesResponse'),
+    ListOnPremisesInstancesResponse,
     newListOnPremisesInstancesResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** PutLifecycleEventHookExecutionStatus
-    PutLifecycleEventHookExecutionStatus (PutLifecycleEventHookExecutionStatus'),
+    PutLifecycleEventHookExecutionStatus,
     newPutLifecycleEventHookExecutionStatus,
-    PutLifecycleEventHookExecutionStatusResponse (PutLifecycleEventHookExecutionStatusResponse'),
+    PutLifecycleEventHookExecutionStatusResponse,
     newPutLifecycleEventHookExecutionStatusResponse,
 
     -- ** RegisterApplicationRevision
-    RegisterApplicationRevision (RegisterApplicationRevision'),
+    RegisterApplicationRevision,
     newRegisterApplicationRevision,
-    RegisterApplicationRevisionResponse (RegisterApplicationRevisionResponse'),
+    RegisterApplicationRevisionResponse,
     newRegisterApplicationRevisionResponse,
 
     -- ** RegisterOnPremisesInstance
-    RegisterOnPremisesInstance (RegisterOnPremisesInstance'),
+    RegisterOnPremisesInstance,
     newRegisterOnPremisesInstance,
-    RegisterOnPremisesInstanceResponse (RegisterOnPremisesInstanceResponse'),
+    RegisterOnPremisesInstanceResponse,
     newRegisterOnPremisesInstanceResponse,
 
     -- ** RemoveTagsFromOnPremisesInstances
-    RemoveTagsFromOnPremisesInstances (RemoveTagsFromOnPremisesInstances'),
+    RemoveTagsFromOnPremisesInstances,
     newRemoveTagsFromOnPremisesInstances,
-    RemoveTagsFromOnPremisesInstancesResponse (RemoveTagsFromOnPremisesInstancesResponse'),
+    RemoveTagsFromOnPremisesInstancesResponse,
     newRemoveTagsFromOnPremisesInstancesResponse,
 
     -- ** StopDeployment
-    StopDeployment (StopDeployment'),
+    StopDeployment,
     newStopDeployment,
-    StopDeploymentResponse (StopDeploymentResponse'),
+    StopDeploymentResponse,
     newStopDeploymentResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateApplication
-    UpdateApplication (UpdateApplication'),
+    UpdateApplication,
     newUpdateApplication,
-    UpdateApplicationResponse (UpdateApplicationResponse'),
+    UpdateApplicationResponse,
     newUpdateApplicationResponse,
 
     -- ** UpdateDeploymentGroup
-    UpdateDeploymentGroup (UpdateDeploymentGroup'),
+    UpdateDeploymentGroup,
     newUpdateDeploymentGroup,
-    UpdateDeploymentGroupResponse (UpdateDeploymentGroupResponse'),
+    UpdateDeploymentGroupResponse,
     newUpdateDeploymentGroupResponse,
 
     -- * Types
@@ -793,215 +793,215 @@ module Amazonka.CodeDeploy
     TriggerEventType (..),
 
     -- ** Alarm
-    Alarm (Alarm'),
+    Alarm,
     newAlarm,
 
     -- ** AlarmConfiguration
-    AlarmConfiguration (AlarmConfiguration'),
+    AlarmConfiguration,
     newAlarmConfiguration,
 
     -- ** AppSpecContent
-    AppSpecContent (AppSpecContent'),
+    AppSpecContent,
     newAppSpecContent,
 
     -- ** ApplicationInfo
-    ApplicationInfo (ApplicationInfo'),
+    ApplicationInfo,
     newApplicationInfo,
 
     -- ** AutoRollbackConfiguration
-    AutoRollbackConfiguration (AutoRollbackConfiguration'),
+    AutoRollbackConfiguration,
     newAutoRollbackConfiguration,
 
     -- ** AutoScalingGroup
-    AutoScalingGroup (AutoScalingGroup'),
+    AutoScalingGroup,
     newAutoScalingGroup,
 
     -- ** BlueGreenDeploymentConfiguration
-    BlueGreenDeploymentConfiguration (BlueGreenDeploymentConfiguration'),
+    BlueGreenDeploymentConfiguration,
     newBlueGreenDeploymentConfiguration,
 
     -- ** BlueInstanceTerminationOption
-    BlueInstanceTerminationOption (BlueInstanceTerminationOption'),
+    BlueInstanceTerminationOption,
     newBlueInstanceTerminationOption,
 
     -- ** CloudFormationTarget
-    CloudFormationTarget (CloudFormationTarget'),
+    CloudFormationTarget,
     newCloudFormationTarget,
 
     -- ** DeploymentConfigInfo
-    DeploymentConfigInfo (DeploymentConfigInfo'),
+    DeploymentConfigInfo,
     newDeploymentConfigInfo,
 
     -- ** DeploymentGroupInfo
-    DeploymentGroupInfo (DeploymentGroupInfo'),
+    DeploymentGroupInfo,
     newDeploymentGroupInfo,
 
     -- ** DeploymentInfo
-    DeploymentInfo (DeploymentInfo'),
+    DeploymentInfo,
     newDeploymentInfo,
 
     -- ** DeploymentOverview
-    DeploymentOverview (DeploymentOverview'),
+    DeploymentOverview,
     newDeploymentOverview,
 
     -- ** DeploymentReadyOption
-    DeploymentReadyOption (DeploymentReadyOption'),
+    DeploymentReadyOption,
     newDeploymentReadyOption,
 
     -- ** DeploymentStyle
-    DeploymentStyle (DeploymentStyle'),
+    DeploymentStyle,
     newDeploymentStyle,
 
     -- ** DeploymentTarget
-    DeploymentTarget (DeploymentTarget'),
+    DeploymentTarget,
     newDeploymentTarget,
 
     -- ** Diagnostics
-    Diagnostics (Diagnostics'),
+    Diagnostics,
     newDiagnostics,
 
     -- ** EC2TagFilter
-    EC2TagFilter (EC2TagFilter'),
+    EC2TagFilter,
     newEC2TagFilter,
 
     -- ** EC2TagSet
-    EC2TagSet (EC2TagSet'),
+    EC2TagSet,
     newEC2TagSet,
 
     -- ** ECSService
-    ECSService (ECSService'),
+    ECSService,
     newECSService,
 
     -- ** ECSTarget
-    ECSTarget (ECSTarget'),
+    ECSTarget,
     newECSTarget,
 
     -- ** ECSTaskSet
-    ECSTaskSet (ECSTaskSet'),
+    ECSTaskSet,
     newECSTaskSet,
 
     -- ** ELBInfo
-    ELBInfo (ELBInfo'),
+    ELBInfo,
     newELBInfo,
 
     -- ** ErrorInformation
-    ErrorInformation (ErrorInformation'),
+    ErrorInformation,
     newErrorInformation,
 
     -- ** GenericRevisionInfo
-    GenericRevisionInfo (GenericRevisionInfo'),
+    GenericRevisionInfo,
     newGenericRevisionInfo,
 
     -- ** GitHubLocation
-    GitHubLocation (GitHubLocation'),
+    GitHubLocation,
     newGitHubLocation,
 
     -- ** GreenFleetProvisioningOption
-    GreenFleetProvisioningOption (GreenFleetProvisioningOption'),
+    GreenFleetProvisioningOption,
     newGreenFleetProvisioningOption,
 
     -- ** InstanceInfo
-    InstanceInfo (InstanceInfo'),
+    InstanceInfo,
     newInstanceInfo,
 
     -- ** InstanceTarget
-    InstanceTarget (InstanceTarget'),
+    InstanceTarget,
     newInstanceTarget,
 
     -- ** LambdaFunctionInfo
-    LambdaFunctionInfo (LambdaFunctionInfo'),
+    LambdaFunctionInfo,
     newLambdaFunctionInfo,
 
     -- ** LambdaTarget
-    LambdaTarget (LambdaTarget'),
+    LambdaTarget,
     newLambdaTarget,
 
     -- ** LastDeploymentInfo
-    LastDeploymentInfo (LastDeploymentInfo'),
+    LastDeploymentInfo,
     newLastDeploymentInfo,
 
     -- ** LifecycleEvent
-    LifecycleEvent (LifecycleEvent'),
+    LifecycleEvent,
     newLifecycleEvent,
 
     -- ** LoadBalancerInfo
-    LoadBalancerInfo (LoadBalancerInfo'),
+    LoadBalancerInfo,
     newLoadBalancerInfo,
 
     -- ** MinimumHealthyHosts
-    MinimumHealthyHosts (MinimumHealthyHosts'),
+    MinimumHealthyHosts,
     newMinimumHealthyHosts,
 
     -- ** OnPremisesTagSet
-    OnPremisesTagSet (OnPremisesTagSet'),
+    OnPremisesTagSet,
     newOnPremisesTagSet,
 
     -- ** RawString
-    RawString (RawString'),
+    RawString,
     newRawString,
 
     -- ** RelatedDeployments
-    RelatedDeployments (RelatedDeployments'),
+    RelatedDeployments,
     newRelatedDeployments,
 
     -- ** RevisionInfo
-    RevisionInfo (RevisionInfo'),
+    RevisionInfo,
     newRevisionInfo,
 
     -- ** RevisionLocation
-    RevisionLocation (RevisionLocation'),
+    RevisionLocation,
     newRevisionLocation,
 
     -- ** RollbackInfo
-    RollbackInfo (RollbackInfo'),
+    RollbackInfo,
     newRollbackInfo,
 
     -- ** S3Location
-    S3Location (S3Location'),
+    S3Location,
     newS3Location,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
 
     -- ** TagFilter
-    TagFilter (TagFilter'),
+    TagFilter,
     newTagFilter,
 
     -- ** TargetGroupInfo
-    TargetGroupInfo (TargetGroupInfo'),
+    TargetGroupInfo,
     newTargetGroupInfo,
 
     -- ** TargetGroupPairInfo
-    TargetGroupPairInfo (TargetGroupPairInfo'),
+    TargetGroupPairInfo,
     newTargetGroupPairInfo,
 
     -- ** TargetInstances
-    TargetInstances (TargetInstances'),
+    TargetInstances,
     newTargetInstances,
 
     -- ** TimeBasedCanary
-    TimeBasedCanary (TimeBasedCanary'),
+    TimeBasedCanary,
     newTimeBasedCanary,
 
     -- ** TimeBasedLinear
-    TimeBasedLinear (TimeBasedLinear'),
+    TimeBasedLinear,
     newTimeBasedLinear,
 
     -- ** TimeRange
-    TimeRange (TimeRange'),
+    TimeRange,
     newTimeRange,
 
     -- ** TrafficRoute
-    TrafficRoute (TrafficRoute'),
+    TrafficRoute,
     newTrafficRoute,
 
     -- ** TrafficRoutingConfig
-    TrafficRoutingConfig (TrafficRoutingConfig'),
+    TrafficRoutingConfig,
     newTrafficRoutingConfig,
 
     -- ** TriggerConfig
-    TriggerConfig (TriggerConfig'),
+    TriggerConfig,
     newTriggerConfig,
   )
 where

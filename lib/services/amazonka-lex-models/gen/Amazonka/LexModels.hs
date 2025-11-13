@@ -54,255 +54,255 @@ module Amazonka.LexModels
     -- $operations
 
     -- ** CreateBotVersion
-    CreateBotVersion (CreateBotVersion'),
+    CreateBotVersion,
     newCreateBotVersion,
-    CreateBotVersionResponse (CreateBotVersionResponse'),
+    CreateBotVersionResponse,
     newCreateBotVersionResponse,
 
     -- ** CreateIntentVersion
-    CreateIntentVersion (CreateIntentVersion'),
+    CreateIntentVersion,
     newCreateIntentVersion,
-    CreateIntentVersionResponse (CreateIntentVersionResponse'),
+    CreateIntentVersionResponse,
     newCreateIntentVersionResponse,
 
     -- ** CreateSlotTypeVersion
-    CreateSlotTypeVersion (CreateSlotTypeVersion'),
+    CreateSlotTypeVersion,
     newCreateSlotTypeVersion,
-    CreateSlotTypeVersionResponse (CreateSlotTypeVersionResponse'),
+    CreateSlotTypeVersionResponse,
     newCreateSlotTypeVersionResponse,
 
     -- ** DeleteBot
-    DeleteBot (DeleteBot'),
+    DeleteBot,
     newDeleteBot,
-    DeleteBotResponse (DeleteBotResponse'),
+    DeleteBotResponse,
     newDeleteBotResponse,
 
     -- ** DeleteBotAlias
-    DeleteBotAlias (DeleteBotAlias'),
+    DeleteBotAlias,
     newDeleteBotAlias,
-    DeleteBotAliasResponse (DeleteBotAliasResponse'),
+    DeleteBotAliasResponse,
     newDeleteBotAliasResponse,
 
     -- ** DeleteBotChannelAssociation
-    DeleteBotChannelAssociation (DeleteBotChannelAssociation'),
+    DeleteBotChannelAssociation,
     newDeleteBotChannelAssociation,
-    DeleteBotChannelAssociationResponse (DeleteBotChannelAssociationResponse'),
+    DeleteBotChannelAssociationResponse,
     newDeleteBotChannelAssociationResponse,
 
     -- ** DeleteBotVersion
-    DeleteBotVersion (DeleteBotVersion'),
+    DeleteBotVersion,
     newDeleteBotVersion,
-    DeleteBotVersionResponse (DeleteBotVersionResponse'),
+    DeleteBotVersionResponse,
     newDeleteBotVersionResponse,
 
     -- ** DeleteIntent
-    DeleteIntent (DeleteIntent'),
+    DeleteIntent,
     newDeleteIntent,
-    DeleteIntentResponse (DeleteIntentResponse'),
+    DeleteIntentResponse,
     newDeleteIntentResponse,
 
     -- ** DeleteIntentVersion
-    DeleteIntentVersion (DeleteIntentVersion'),
+    DeleteIntentVersion,
     newDeleteIntentVersion,
-    DeleteIntentVersionResponse (DeleteIntentVersionResponse'),
+    DeleteIntentVersionResponse,
     newDeleteIntentVersionResponse,
 
     -- ** DeleteSlotType
-    DeleteSlotType (DeleteSlotType'),
+    DeleteSlotType,
     newDeleteSlotType,
-    DeleteSlotTypeResponse (DeleteSlotTypeResponse'),
+    DeleteSlotTypeResponse,
     newDeleteSlotTypeResponse,
 
     -- ** DeleteSlotTypeVersion
-    DeleteSlotTypeVersion (DeleteSlotTypeVersion'),
+    DeleteSlotTypeVersion,
     newDeleteSlotTypeVersion,
-    DeleteSlotTypeVersionResponse (DeleteSlotTypeVersionResponse'),
+    DeleteSlotTypeVersionResponse,
     newDeleteSlotTypeVersionResponse,
 
     -- ** DeleteUtterances
-    DeleteUtterances (DeleteUtterances'),
+    DeleteUtterances,
     newDeleteUtterances,
-    DeleteUtterancesResponse (DeleteUtterancesResponse'),
+    DeleteUtterancesResponse,
     newDeleteUtterancesResponse,
 
     -- ** GetBot
-    GetBot (GetBot'),
+    GetBot,
     newGetBot,
-    GetBotResponse (GetBotResponse'),
+    GetBotResponse,
     newGetBotResponse,
 
     -- ** GetBotAlias
-    GetBotAlias (GetBotAlias'),
+    GetBotAlias,
     newGetBotAlias,
-    GetBotAliasResponse (GetBotAliasResponse'),
+    GetBotAliasResponse,
     newGetBotAliasResponse,
 
     -- ** GetBotAliases (Paginated)
-    GetBotAliases (GetBotAliases'),
+    GetBotAliases,
     newGetBotAliases,
-    GetBotAliasesResponse (GetBotAliasesResponse'),
+    GetBotAliasesResponse,
     newGetBotAliasesResponse,
 
     -- ** GetBotChannelAssociation
-    GetBotChannelAssociation (GetBotChannelAssociation'),
+    GetBotChannelAssociation,
     newGetBotChannelAssociation,
-    GetBotChannelAssociationResponse (GetBotChannelAssociationResponse'),
+    GetBotChannelAssociationResponse,
     newGetBotChannelAssociationResponse,
 
     -- ** GetBotChannelAssociations (Paginated)
-    GetBotChannelAssociations (GetBotChannelAssociations'),
+    GetBotChannelAssociations,
     newGetBotChannelAssociations,
-    GetBotChannelAssociationsResponse (GetBotChannelAssociationsResponse'),
+    GetBotChannelAssociationsResponse,
     newGetBotChannelAssociationsResponse,
 
     -- ** GetBotVersions (Paginated)
-    GetBotVersions (GetBotVersions'),
+    GetBotVersions,
     newGetBotVersions,
-    GetBotVersionsResponse (GetBotVersionsResponse'),
+    GetBotVersionsResponse,
     newGetBotVersionsResponse,
 
     -- ** GetBots (Paginated)
-    GetBots (GetBots'),
+    GetBots,
     newGetBots,
-    GetBotsResponse (GetBotsResponse'),
+    GetBotsResponse,
     newGetBotsResponse,
 
     -- ** GetBuiltinIntent
-    GetBuiltinIntent (GetBuiltinIntent'),
+    GetBuiltinIntent,
     newGetBuiltinIntent,
-    GetBuiltinIntentResponse (GetBuiltinIntentResponse'),
+    GetBuiltinIntentResponse,
     newGetBuiltinIntentResponse,
 
     -- ** GetBuiltinIntents (Paginated)
-    GetBuiltinIntents (GetBuiltinIntents'),
+    GetBuiltinIntents,
     newGetBuiltinIntents,
-    GetBuiltinIntentsResponse (GetBuiltinIntentsResponse'),
+    GetBuiltinIntentsResponse,
     newGetBuiltinIntentsResponse,
 
     -- ** GetBuiltinSlotTypes (Paginated)
-    GetBuiltinSlotTypes (GetBuiltinSlotTypes'),
+    GetBuiltinSlotTypes,
     newGetBuiltinSlotTypes,
-    GetBuiltinSlotTypesResponse (GetBuiltinSlotTypesResponse'),
+    GetBuiltinSlotTypesResponse,
     newGetBuiltinSlotTypesResponse,
 
     -- ** GetExport
-    GetExport (GetExport'),
+    GetExport,
     newGetExport,
-    GetExportResponse (GetExportResponse'),
+    GetExportResponse,
     newGetExportResponse,
 
     -- ** GetImport
-    GetImport (GetImport'),
+    GetImport,
     newGetImport,
-    GetImportResponse (GetImportResponse'),
+    GetImportResponse,
     newGetImportResponse,
 
     -- ** GetIntent
-    GetIntent (GetIntent'),
+    GetIntent,
     newGetIntent,
-    GetIntentResponse (GetIntentResponse'),
+    GetIntentResponse,
     newGetIntentResponse,
 
     -- ** GetIntentVersions (Paginated)
-    GetIntentVersions (GetIntentVersions'),
+    GetIntentVersions,
     newGetIntentVersions,
-    GetIntentVersionsResponse (GetIntentVersionsResponse'),
+    GetIntentVersionsResponse,
     newGetIntentVersionsResponse,
 
     -- ** GetIntents (Paginated)
-    GetIntents (GetIntents'),
+    GetIntents,
     newGetIntents,
-    GetIntentsResponse (GetIntentsResponse'),
+    GetIntentsResponse,
     newGetIntentsResponse,
 
     -- ** GetMigration
-    GetMigration (GetMigration'),
+    GetMigration,
     newGetMigration,
-    GetMigrationResponse (GetMigrationResponse'),
+    GetMigrationResponse,
     newGetMigrationResponse,
 
     -- ** GetMigrations
-    GetMigrations (GetMigrations'),
+    GetMigrations,
     newGetMigrations,
-    GetMigrationsResponse (GetMigrationsResponse'),
+    GetMigrationsResponse,
     newGetMigrationsResponse,
 
     -- ** GetSlotType
-    GetSlotType (GetSlotType'),
+    GetSlotType,
     newGetSlotType,
-    GetSlotTypeResponse (GetSlotTypeResponse'),
+    GetSlotTypeResponse,
     newGetSlotTypeResponse,
 
     -- ** GetSlotTypeVersions (Paginated)
-    GetSlotTypeVersions (GetSlotTypeVersions'),
+    GetSlotTypeVersions,
     newGetSlotTypeVersions,
-    GetSlotTypeVersionsResponse (GetSlotTypeVersionsResponse'),
+    GetSlotTypeVersionsResponse,
     newGetSlotTypeVersionsResponse,
 
     -- ** GetSlotTypes (Paginated)
-    GetSlotTypes (GetSlotTypes'),
+    GetSlotTypes,
     newGetSlotTypes,
-    GetSlotTypesResponse (GetSlotTypesResponse'),
+    GetSlotTypesResponse,
     newGetSlotTypesResponse,
 
     -- ** GetUtterancesView
-    GetUtterancesView (GetUtterancesView'),
+    GetUtterancesView,
     newGetUtterancesView,
-    GetUtterancesViewResponse (GetUtterancesViewResponse'),
+    GetUtterancesViewResponse,
     newGetUtterancesViewResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** PutBot
-    PutBot (PutBot'),
+    PutBot,
     newPutBot,
-    PutBotResponse (PutBotResponse'),
+    PutBotResponse,
     newPutBotResponse,
 
     -- ** PutBotAlias
-    PutBotAlias (PutBotAlias'),
+    PutBotAlias,
     newPutBotAlias,
-    PutBotAliasResponse (PutBotAliasResponse'),
+    PutBotAliasResponse,
     newPutBotAliasResponse,
 
     -- ** PutIntent
-    PutIntent (PutIntent'),
+    PutIntent,
     newPutIntent,
-    PutIntentResponse (PutIntentResponse'),
+    PutIntentResponse,
     newPutIntentResponse,
 
     -- ** PutSlotType
-    PutSlotType (PutSlotType'),
+    PutSlotType,
     newPutSlotType,
-    PutSlotTypeResponse (PutSlotTypeResponse'),
+    PutSlotTypeResponse,
     newPutSlotTypeResponse,
 
     -- ** StartImport
-    StartImport (StartImport'),
+    StartImport,
     newStartImport,
-    StartImportResponse (StartImportResponse'),
+    StartImportResponse,
     newStartImportResponse,
 
     -- ** StartMigration
-    StartMigration (StartMigration'),
+    StartMigration,
     newStartMigration,
-    StartMigrationResponse (StartMigrationResponse'),
+    StartMigrationResponse,
     newStartMigrationResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- * Types
@@ -377,135 +377,135 @@ module Amazonka.LexModels
     StatusType (..),
 
     -- ** BotAliasMetadata
-    BotAliasMetadata (BotAliasMetadata'),
+    BotAliasMetadata,
     newBotAliasMetadata,
 
     -- ** BotChannelAssociation
-    BotChannelAssociation (BotChannelAssociation'),
+    BotChannelAssociation,
     newBotChannelAssociation,
 
     -- ** BotMetadata
-    BotMetadata (BotMetadata'),
+    BotMetadata,
     newBotMetadata,
 
     -- ** BuiltinIntentMetadata
-    BuiltinIntentMetadata (BuiltinIntentMetadata'),
+    BuiltinIntentMetadata,
     newBuiltinIntentMetadata,
 
     -- ** BuiltinIntentSlot
-    BuiltinIntentSlot (BuiltinIntentSlot'),
+    BuiltinIntentSlot,
     newBuiltinIntentSlot,
 
     -- ** BuiltinSlotTypeMetadata
-    BuiltinSlotTypeMetadata (BuiltinSlotTypeMetadata'),
+    BuiltinSlotTypeMetadata,
     newBuiltinSlotTypeMetadata,
 
     -- ** CodeHook
-    CodeHook (CodeHook'),
+    CodeHook,
     newCodeHook,
 
     -- ** ConversationLogsRequest
-    ConversationLogsRequest (ConversationLogsRequest'),
+    ConversationLogsRequest,
     newConversationLogsRequest,
 
     -- ** ConversationLogsResponse
-    ConversationLogsResponse (ConversationLogsResponse'),
+    ConversationLogsResponse,
     newConversationLogsResponse,
 
     -- ** EnumerationValue
-    EnumerationValue (EnumerationValue'),
+    EnumerationValue,
     newEnumerationValue,
 
     -- ** FollowUpPrompt
-    FollowUpPrompt (FollowUpPrompt'),
+    FollowUpPrompt,
     newFollowUpPrompt,
 
     -- ** FulfillmentActivity
-    FulfillmentActivity (FulfillmentActivity'),
+    FulfillmentActivity,
     newFulfillmentActivity,
 
     -- ** InputContext
-    InputContext (InputContext'),
+    InputContext,
     newInputContext,
 
     -- ** Intent
-    Intent (Intent'),
+    Intent,
     newIntent,
 
     -- ** IntentMetadata
-    IntentMetadata (IntentMetadata'),
+    IntentMetadata,
     newIntentMetadata,
 
     -- ** KendraConfiguration
-    KendraConfiguration (KendraConfiguration'),
+    KendraConfiguration,
     newKendraConfiguration,
 
     -- ** LogSettingsRequest
-    LogSettingsRequest (LogSettingsRequest'),
+    LogSettingsRequest,
     newLogSettingsRequest,
 
     -- ** LogSettingsResponse
-    LogSettingsResponse (LogSettingsResponse'),
+    LogSettingsResponse,
     newLogSettingsResponse,
 
     -- ** Message
-    Message (Message'),
+    Message,
     newMessage,
 
     -- ** MigrationAlert
-    MigrationAlert (MigrationAlert'),
+    MigrationAlert,
     newMigrationAlert,
 
     -- ** MigrationSummary
-    MigrationSummary (MigrationSummary'),
+    MigrationSummary,
     newMigrationSummary,
 
     -- ** OutputContext
-    OutputContext (OutputContext'),
+    OutputContext,
     newOutputContext,
 
     -- ** Prompt
-    Prompt (Prompt'),
+    Prompt,
     newPrompt,
 
     -- ** Slot
-    Slot (Slot'),
+    Slot,
     newSlot,
 
     -- ** SlotDefaultValue
-    SlotDefaultValue (SlotDefaultValue'),
+    SlotDefaultValue,
     newSlotDefaultValue,
 
     -- ** SlotDefaultValueSpec
-    SlotDefaultValueSpec (SlotDefaultValueSpec'),
+    SlotDefaultValueSpec,
     newSlotDefaultValueSpec,
 
     -- ** SlotTypeConfiguration
-    SlotTypeConfiguration (SlotTypeConfiguration'),
+    SlotTypeConfiguration,
     newSlotTypeConfiguration,
 
     -- ** SlotTypeMetadata
-    SlotTypeMetadata (SlotTypeMetadata'),
+    SlotTypeMetadata,
     newSlotTypeMetadata,
 
     -- ** SlotTypeRegexConfiguration
-    SlotTypeRegexConfiguration (SlotTypeRegexConfiguration'),
+    SlotTypeRegexConfiguration,
     newSlotTypeRegexConfiguration,
 
     -- ** Statement
-    Statement (Statement'),
+    Statement,
     newStatement,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
 
     -- ** UtteranceData
-    UtteranceData (UtteranceData'),
+    UtteranceData,
     newUtteranceData,
 
     -- ** UtteranceList
-    UtteranceList (UtteranceList'),
+    UtteranceList,
     newUtteranceList,
   )
 where

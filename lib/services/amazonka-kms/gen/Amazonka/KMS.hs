@@ -258,303 +258,303 @@ module Amazonka.KMS
     -- $operations
 
     -- ** CancelKeyDeletion
-    CancelKeyDeletion (CancelKeyDeletion'),
+    CancelKeyDeletion,
     newCancelKeyDeletion,
-    CancelKeyDeletionResponse (CancelKeyDeletionResponse'),
+    CancelKeyDeletionResponse,
     newCancelKeyDeletionResponse,
 
     -- ** ConnectCustomKeyStore
-    ConnectCustomKeyStore (ConnectCustomKeyStore'),
+    ConnectCustomKeyStore,
     newConnectCustomKeyStore,
-    ConnectCustomKeyStoreResponse (ConnectCustomKeyStoreResponse'),
+    ConnectCustomKeyStoreResponse,
     newConnectCustomKeyStoreResponse,
 
     -- ** CreateAlias
-    CreateAlias (CreateAlias'),
+    CreateAlias,
     newCreateAlias,
-    CreateAliasResponse (CreateAliasResponse'),
+    CreateAliasResponse,
     newCreateAliasResponse,
 
     -- ** CreateCustomKeyStore
-    CreateCustomKeyStore (CreateCustomKeyStore'),
+    CreateCustomKeyStore,
     newCreateCustomKeyStore,
-    CreateCustomKeyStoreResponse (CreateCustomKeyStoreResponse'),
+    CreateCustomKeyStoreResponse,
     newCreateCustomKeyStoreResponse,
 
     -- ** CreateGrant
-    CreateGrant (CreateGrant'),
+    CreateGrant,
     newCreateGrant,
-    CreateGrantResponse (CreateGrantResponse'),
+    CreateGrantResponse,
     newCreateGrantResponse,
 
     -- ** CreateKey
-    CreateKey (CreateKey'),
+    CreateKey,
     newCreateKey,
-    CreateKeyResponse (CreateKeyResponse'),
+    CreateKeyResponse,
     newCreateKeyResponse,
 
     -- ** Decrypt
-    Decrypt (Decrypt'),
+    Decrypt,
     newDecrypt,
-    DecryptResponse (DecryptResponse'),
+    DecryptResponse,
     newDecryptResponse,
 
     -- ** DeleteAlias
-    DeleteAlias (DeleteAlias'),
+    DeleteAlias,
     newDeleteAlias,
-    DeleteAliasResponse (DeleteAliasResponse'),
+    DeleteAliasResponse,
     newDeleteAliasResponse,
 
     -- ** DeleteCustomKeyStore
-    DeleteCustomKeyStore (DeleteCustomKeyStore'),
+    DeleteCustomKeyStore,
     newDeleteCustomKeyStore,
-    DeleteCustomKeyStoreResponse (DeleteCustomKeyStoreResponse'),
+    DeleteCustomKeyStoreResponse,
     newDeleteCustomKeyStoreResponse,
 
     -- ** DeleteImportedKeyMaterial
-    DeleteImportedKeyMaterial (DeleteImportedKeyMaterial'),
+    DeleteImportedKeyMaterial,
     newDeleteImportedKeyMaterial,
-    DeleteImportedKeyMaterialResponse (DeleteImportedKeyMaterialResponse'),
+    DeleteImportedKeyMaterialResponse,
     newDeleteImportedKeyMaterialResponse,
 
     -- ** DescribeCustomKeyStores (Paginated)
-    DescribeCustomKeyStores (DescribeCustomKeyStores'),
+    DescribeCustomKeyStores,
     newDescribeCustomKeyStores,
-    DescribeCustomKeyStoresResponse (DescribeCustomKeyStoresResponse'),
+    DescribeCustomKeyStoresResponse,
     newDescribeCustomKeyStoresResponse,
 
     -- ** DescribeKey
-    DescribeKey (DescribeKey'),
+    DescribeKey,
     newDescribeKey,
-    DescribeKeyResponse (DescribeKeyResponse'),
+    DescribeKeyResponse,
     newDescribeKeyResponse,
 
     -- ** DisableKey
-    DisableKey (DisableKey'),
+    DisableKey,
     newDisableKey,
-    DisableKeyResponse (DisableKeyResponse'),
+    DisableKeyResponse,
     newDisableKeyResponse,
 
     -- ** DisableKeyRotation
-    DisableKeyRotation (DisableKeyRotation'),
+    DisableKeyRotation,
     newDisableKeyRotation,
-    DisableKeyRotationResponse (DisableKeyRotationResponse'),
+    DisableKeyRotationResponse,
     newDisableKeyRotationResponse,
 
     -- ** DisconnectCustomKeyStore
-    DisconnectCustomKeyStore (DisconnectCustomKeyStore'),
+    DisconnectCustomKeyStore,
     newDisconnectCustomKeyStore,
-    DisconnectCustomKeyStoreResponse (DisconnectCustomKeyStoreResponse'),
+    DisconnectCustomKeyStoreResponse,
     newDisconnectCustomKeyStoreResponse,
 
     -- ** EnableKey
-    EnableKey (EnableKey'),
+    EnableKey,
     newEnableKey,
-    EnableKeyResponse (EnableKeyResponse'),
+    EnableKeyResponse,
     newEnableKeyResponse,
 
     -- ** EnableKeyRotation
-    EnableKeyRotation (EnableKeyRotation'),
+    EnableKeyRotation,
     newEnableKeyRotation,
-    EnableKeyRotationResponse (EnableKeyRotationResponse'),
+    EnableKeyRotationResponse,
     newEnableKeyRotationResponse,
 
     -- ** Encrypt
-    Encrypt (Encrypt'),
+    Encrypt,
     newEncrypt,
-    EncryptResponse (EncryptResponse'),
+    EncryptResponse,
     newEncryptResponse,
 
     -- ** GenerateDataKey
-    GenerateDataKey (GenerateDataKey'),
+    GenerateDataKey,
     newGenerateDataKey,
-    GenerateDataKeyResponse (GenerateDataKeyResponse'),
+    GenerateDataKeyResponse,
     newGenerateDataKeyResponse,
 
     -- ** GenerateDataKeyPair
-    GenerateDataKeyPair (GenerateDataKeyPair'),
+    GenerateDataKeyPair,
     newGenerateDataKeyPair,
-    GenerateDataKeyPairResponse (GenerateDataKeyPairResponse'),
+    GenerateDataKeyPairResponse,
     newGenerateDataKeyPairResponse,
 
     -- ** GenerateDataKeyPairWithoutPlaintext
-    GenerateDataKeyPairWithoutPlaintext (GenerateDataKeyPairWithoutPlaintext'),
+    GenerateDataKeyPairWithoutPlaintext,
     newGenerateDataKeyPairWithoutPlaintext,
-    GenerateDataKeyPairWithoutPlaintextResponse (GenerateDataKeyPairWithoutPlaintextResponse'),
+    GenerateDataKeyPairWithoutPlaintextResponse,
     newGenerateDataKeyPairWithoutPlaintextResponse,
 
     -- ** GenerateDataKeyWithoutPlaintext
-    GenerateDataKeyWithoutPlaintext (GenerateDataKeyWithoutPlaintext'),
+    GenerateDataKeyWithoutPlaintext,
     newGenerateDataKeyWithoutPlaintext,
-    GenerateDataKeyWithoutPlaintextResponse (GenerateDataKeyWithoutPlaintextResponse'),
+    GenerateDataKeyWithoutPlaintextResponse,
     newGenerateDataKeyWithoutPlaintextResponse,
 
     -- ** GenerateMac
-    GenerateMac (GenerateMac'),
+    GenerateMac,
     newGenerateMac,
-    GenerateMacResponse (GenerateMacResponse'),
+    GenerateMacResponse,
     newGenerateMacResponse,
 
     -- ** GenerateRandom
-    GenerateRandom (GenerateRandom'),
+    GenerateRandom,
     newGenerateRandom,
-    GenerateRandomResponse (GenerateRandomResponse'),
+    GenerateRandomResponse,
     newGenerateRandomResponse,
 
     -- ** GetKeyPolicy
-    GetKeyPolicy (GetKeyPolicy'),
+    GetKeyPolicy,
     newGetKeyPolicy,
-    GetKeyPolicyResponse (GetKeyPolicyResponse'),
+    GetKeyPolicyResponse,
     newGetKeyPolicyResponse,
 
     -- ** GetKeyRotationStatus
-    GetKeyRotationStatus (GetKeyRotationStatus'),
+    GetKeyRotationStatus,
     newGetKeyRotationStatus,
-    GetKeyRotationStatusResponse (GetKeyRotationStatusResponse'),
+    GetKeyRotationStatusResponse,
     newGetKeyRotationStatusResponse,
 
     -- ** GetParametersForImport
-    GetParametersForImport (GetParametersForImport'),
+    GetParametersForImport,
     newGetParametersForImport,
-    GetParametersForImportResponse (GetParametersForImportResponse'),
+    GetParametersForImportResponse,
     newGetParametersForImportResponse,
 
     -- ** GetPublicKey
-    GetPublicKey (GetPublicKey'),
+    GetPublicKey,
     newGetPublicKey,
-    GetPublicKeyResponse (GetPublicKeyResponse'),
+    GetPublicKeyResponse,
     newGetPublicKeyResponse,
 
     -- ** ImportKeyMaterial
-    ImportKeyMaterial (ImportKeyMaterial'),
+    ImportKeyMaterial,
     newImportKeyMaterial,
-    ImportKeyMaterialResponse (ImportKeyMaterialResponse'),
+    ImportKeyMaterialResponse,
     newImportKeyMaterialResponse,
 
     -- ** ListAliases (Paginated)
-    ListAliases (ListAliases'),
+    ListAliases,
     newListAliases,
-    ListAliasesResponse (ListAliasesResponse'),
+    ListAliasesResponse,
     newListAliasesResponse,
 
     -- ** ListGrants (Paginated)
-    ListGrants (ListGrants'),
+    ListGrants,
     newListGrants,
-    ListGrantsResponse (ListGrantsResponse'),
+    ListGrantsResponse,
     newListGrantsResponse,
 
     -- ** ListKeyPolicies (Paginated)
-    ListKeyPolicies (ListKeyPolicies'),
+    ListKeyPolicies,
     newListKeyPolicies,
-    ListKeyPoliciesResponse (ListKeyPoliciesResponse'),
+    ListKeyPoliciesResponse,
     newListKeyPoliciesResponse,
 
     -- ** ListKeys (Paginated)
-    ListKeys (ListKeys'),
+    ListKeys,
     newListKeys,
-    ListKeysResponse (ListKeysResponse'),
+    ListKeysResponse,
     newListKeysResponse,
 
     -- ** ListResourceTags (Paginated)
-    ListResourceTags (ListResourceTags'),
+    ListResourceTags,
     newListResourceTags,
-    ListResourceTagsResponse (ListResourceTagsResponse'),
+    ListResourceTagsResponse,
     newListResourceTagsResponse,
 
     -- ** ListRetirableGrants (Paginated)
-    ListRetirableGrants (ListRetirableGrants'),
+    ListRetirableGrants,
     newListRetirableGrants,
-    ListGrantsResponse (ListGrantsResponse'),
+    ListGrantsResponse,
     newListGrantsResponse,
 
     -- ** PutKeyPolicy
-    PutKeyPolicy (PutKeyPolicy'),
+    PutKeyPolicy,
     newPutKeyPolicy,
-    PutKeyPolicyResponse (PutKeyPolicyResponse'),
+    PutKeyPolicyResponse,
     newPutKeyPolicyResponse,
 
     -- ** ReEncrypt
-    ReEncrypt (ReEncrypt'),
+    ReEncrypt,
     newReEncrypt,
-    ReEncryptResponse (ReEncryptResponse'),
+    ReEncryptResponse,
     newReEncryptResponse,
 
     -- ** ReplicateKey
-    ReplicateKey (ReplicateKey'),
+    ReplicateKey,
     newReplicateKey,
-    ReplicateKeyResponse (ReplicateKeyResponse'),
+    ReplicateKeyResponse,
     newReplicateKeyResponse,
 
     -- ** RetireGrant
-    RetireGrant (RetireGrant'),
+    RetireGrant,
     newRetireGrant,
-    RetireGrantResponse (RetireGrantResponse'),
+    RetireGrantResponse,
     newRetireGrantResponse,
 
     -- ** RevokeGrant
-    RevokeGrant (RevokeGrant'),
+    RevokeGrant,
     newRevokeGrant,
-    RevokeGrantResponse (RevokeGrantResponse'),
+    RevokeGrantResponse,
     newRevokeGrantResponse,
 
     -- ** ScheduleKeyDeletion
-    ScheduleKeyDeletion (ScheduleKeyDeletion'),
+    ScheduleKeyDeletion,
     newScheduleKeyDeletion,
-    ScheduleKeyDeletionResponse (ScheduleKeyDeletionResponse'),
+    ScheduleKeyDeletionResponse,
     newScheduleKeyDeletionResponse,
 
     -- ** Sign
-    Sign (Sign'),
+    Sign,
     newSign,
-    SignResponse (SignResponse'),
+    SignResponse,
     newSignResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateAlias
-    UpdateAlias (UpdateAlias'),
+    UpdateAlias,
     newUpdateAlias,
-    UpdateAliasResponse (UpdateAliasResponse'),
+    UpdateAliasResponse,
     newUpdateAliasResponse,
 
     -- ** UpdateCustomKeyStore
-    UpdateCustomKeyStore (UpdateCustomKeyStore'),
+    UpdateCustomKeyStore,
     newUpdateCustomKeyStore,
-    UpdateCustomKeyStoreResponse (UpdateCustomKeyStoreResponse'),
+    UpdateCustomKeyStoreResponse,
     newUpdateCustomKeyStoreResponse,
 
     -- ** UpdateKeyDescription
-    UpdateKeyDescription (UpdateKeyDescription'),
+    UpdateKeyDescription,
     newUpdateKeyDescription,
-    UpdateKeyDescriptionResponse (UpdateKeyDescriptionResponse'),
+    UpdateKeyDescriptionResponse,
     newUpdateKeyDescriptionResponse,
 
     -- ** UpdatePrimaryRegion
-    UpdatePrimaryRegion (UpdatePrimaryRegion'),
+    UpdatePrimaryRegion,
     newUpdatePrimaryRegion,
-    UpdatePrimaryRegionResponse (UpdatePrimaryRegionResponse'),
+    UpdatePrimaryRegionResponse,
     newUpdatePrimaryRegionResponse,
 
     -- ** Verify
-    Verify (Verify'),
+    Verify,
     newVerify,
-    VerifyResponse (VerifyResponse'),
+    VerifyResponse,
     newVerifyResponse,
 
     -- ** VerifyMac
-    VerifyMac (VerifyMac'),
+    VerifyMac,
     newVerifyMac,
-    VerifyMacResponse (VerifyMacResponse'),
+    VerifyMacResponse,
     newVerifyMacResponse,
 
     -- * Types
@@ -623,55 +623,55 @@ module Amazonka.KMS
     XksProxyConnectivityType (..),
 
     -- ** AliasListEntry
-    AliasListEntry (AliasListEntry'),
+    AliasListEntry,
     newAliasListEntry,
 
     -- ** CustomKeyStoresListEntry
-    CustomKeyStoresListEntry (CustomKeyStoresListEntry'),
+    CustomKeyStoresListEntry,
     newCustomKeyStoresListEntry,
 
     -- ** GrantConstraints
-    GrantConstraints (GrantConstraints'),
+    GrantConstraints,
     newGrantConstraints,
 
     -- ** GrantListEntry
-    GrantListEntry (GrantListEntry'),
+    GrantListEntry,
     newGrantListEntry,
 
     -- ** KeyListEntry
-    KeyListEntry (KeyListEntry'),
+    KeyListEntry,
     newKeyListEntry,
 
     -- ** KeyMetadata
-    KeyMetadata (KeyMetadata'),
+    KeyMetadata,
     newKeyMetadata,
 
     -- ** ListGrantsResponse
-    ListGrantsResponse (ListGrantsResponse'),
+    ListGrantsResponse,
     newListGrantsResponse,
 
     -- ** MultiRegionConfiguration
-    MultiRegionConfiguration (MultiRegionConfiguration'),
+    MultiRegionConfiguration,
     newMultiRegionConfiguration,
 
     -- ** MultiRegionKey
-    MultiRegionKey (MultiRegionKey'),
+    MultiRegionKey,
     newMultiRegionKey,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
 
     -- ** XksKeyConfigurationType
-    XksKeyConfigurationType (XksKeyConfigurationType'),
+    XksKeyConfigurationType,
     newXksKeyConfigurationType,
 
     -- ** XksProxyAuthenticationCredentialType
-    XksProxyAuthenticationCredentialType (XksProxyAuthenticationCredentialType'),
+    XksProxyAuthenticationCredentialType,
     newXksProxyAuthenticationCredentialType,
 
     -- ** XksProxyConfigurationType
-    XksProxyConfigurationType (XksProxyConfigurationType'),
+    XksProxyConfigurationType,
     newXksProxyConfigurationType,
   )
 where

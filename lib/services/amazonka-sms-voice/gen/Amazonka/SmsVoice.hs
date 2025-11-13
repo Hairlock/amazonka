@@ -44,51 +44,51 @@ module Amazonka.SmsVoice
     -- $operations
 
     -- ** CreateConfigurationSet
-    CreateConfigurationSet (CreateConfigurationSet'),
+    CreateConfigurationSet,
     newCreateConfigurationSet,
-    CreateConfigurationSetResponse (CreateConfigurationSetResponse'),
+    CreateConfigurationSetResponse,
     newCreateConfigurationSetResponse,
 
     -- ** CreateConfigurationSetEventDestination
-    CreateConfigurationSetEventDestination (CreateConfigurationSetEventDestination'),
+    CreateConfigurationSetEventDestination,
     newCreateConfigurationSetEventDestination,
-    CreateConfigurationSetEventDestinationResponse (CreateConfigurationSetEventDestinationResponse'),
+    CreateConfigurationSetEventDestinationResponse,
     newCreateConfigurationSetEventDestinationResponse,
 
     -- ** DeleteConfigurationSet
-    DeleteConfigurationSet (DeleteConfigurationSet'),
+    DeleteConfigurationSet,
     newDeleteConfigurationSet,
-    DeleteConfigurationSetResponse (DeleteConfigurationSetResponse'),
+    DeleteConfigurationSetResponse,
     newDeleteConfigurationSetResponse,
 
     -- ** DeleteConfigurationSetEventDestination
-    DeleteConfigurationSetEventDestination (DeleteConfigurationSetEventDestination'),
+    DeleteConfigurationSetEventDestination,
     newDeleteConfigurationSetEventDestination,
-    DeleteConfigurationSetEventDestinationResponse (DeleteConfigurationSetEventDestinationResponse'),
+    DeleteConfigurationSetEventDestinationResponse,
     newDeleteConfigurationSetEventDestinationResponse,
 
     -- ** GetConfigurationSetEventDestinations
-    GetConfigurationSetEventDestinations (GetConfigurationSetEventDestinations'),
+    GetConfigurationSetEventDestinations,
     newGetConfigurationSetEventDestinations,
-    GetConfigurationSetEventDestinationsResponse (GetConfigurationSetEventDestinationsResponse'),
+    GetConfigurationSetEventDestinationsResponse,
     newGetConfigurationSetEventDestinationsResponse,
 
     -- ** ListConfigurationSets
-    ListConfigurationSets (ListConfigurationSets'),
+    ListConfigurationSets,
     newListConfigurationSets,
-    ListConfigurationSetsResponse (ListConfigurationSetsResponse'),
+    ListConfigurationSetsResponse,
     newListConfigurationSetsResponse,
 
     -- ** SendVoiceMessage
-    SendVoiceMessage (SendVoiceMessage'),
+    SendVoiceMessage,
     newSendVoiceMessage,
-    SendVoiceMessageResponse (SendVoiceMessageResponse'),
+    SendVoiceMessageResponse,
     newSendVoiceMessageResponse,
 
     -- ** UpdateConfigurationSetEventDestination
-    UpdateConfigurationSetEventDestination (UpdateConfigurationSetEventDestination'),
+    UpdateConfigurationSetEventDestination,
     newUpdateConfigurationSetEventDestination,
-    UpdateConfigurationSetEventDestinationResponse (UpdateConfigurationSetEventDestinationResponse'),
+    UpdateConfigurationSetEventDestinationResponse,
     newUpdateConfigurationSetEventDestinationResponse,
 
     -- * Types
@@ -97,39 +97,39 @@ module Amazonka.SmsVoice
     EventType (..),
 
     -- ** CallInstructionsMessageType
-    CallInstructionsMessageType (CallInstructionsMessageType'),
+    CallInstructionsMessageType,
     newCallInstructionsMessageType,
 
     -- ** CloudWatchLogsDestination
-    CloudWatchLogsDestination (CloudWatchLogsDestination'),
+    CloudWatchLogsDestination,
     newCloudWatchLogsDestination,
 
     -- ** EventDestination
-    EventDestination (EventDestination'),
+    EventDestination,
     newEventDestination,
 
     -- ** EventDestinationDefinition
-    EventDestinationDefinition (EventDestinationDefinition'),
+    EventDestinationDefinition,
     newEventDestinationDefinition,
 
     -- ** KinesisFirehoseDestination
-    KinesisFirehoseDestination (KinesisFirehoseDestination'),
+    KinesisFirehoseDestination,
     newKinesisFirehoseDestination,
 
     -- ** PlainTextMessageType
-    PlainTextMessageType (PlainTextMessageType'),
+    PlainTextMessageType,
     newPlainTextMessageType,
 
     -- ** SSMLMessageType
-    SSMLMessageType (SSMLMessageType'),
+    SSMLMessageType,
     newSSMLMessageType,
 
     -- ** SnsDestination
-    SnsDestination (SnsDestination'),
+    SnsDestination,
     newSnsDestination,
 
     -- ** VoiceMessageContent
-    VoiceMessageContent (VoiceMessageContent'),
+    VoiceMessageContent,
     newVoiceMessageContent,
   )
 where

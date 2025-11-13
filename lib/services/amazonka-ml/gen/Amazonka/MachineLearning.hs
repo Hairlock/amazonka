@@ -62,171 +62,171 @@ module Amazonka.MachineLearning
     -- $operations
 
     -- ** AddTags
-    AddTags (AddTags'),
+    AddTags,
     newAddTags,
-    AddTagsResponse (AddTagsResponse'),
+    AddTagsResponse,
     newAddTagsResponse,
 
     -- ** CreateBatchPrediction
-    CreateBatchPrediction (CreateBatchPrediction'),
+    CreateBatchPrediction,
     newCreateBatchPrediction,
-    CreateBatchPredictionResponse (CreateBatchPredictionResponse'),
+    CreateBatchPredictionResponse,
     newCreateBatchPredictionResponse,
 
     -- ** CreateDataSourceFromRDS
-    CreateDataSourceFromRDS (CreateDataSourceFromRDS'),
+    CreateDataSourceFromRDS,
     newCreateDataSourceFromRDS,
-    CreateDataSourceFromRDSResponse (CreateDataSourceFromRDSResponse'),
+    CreateDataSourceFromRDSResponse,
     newCreateDataSourceFromRDSResponse,
 
     -- ** CreateDataSourceFromRedshift
-    CreateDataSourceFromRedshift (CreateDataSourceFromRedshift'),
+    CreateDataSourceFromRedshift,
     newCreateDataSourceFromRedshift,
-    CreateDataSourceFromRedshiftResponse (CreateDataSourceFromRedshiftResponse'),
+    CreateDataSourceFromRedshiftResponse,
     newCreateDataSourceFromRedshiftResponse,
 
     -- ** CreateDataSourceFromS3
-    CreateDataSourceFromS3 (CreateDataSourceFromS3'),
+    CreateDataSourceFromS3,
     newCreateDataSourceFromS3,
-    CreateDataSourceFromS3Response (CreateDataSourceFromS3Response'),
+    CreateDataSourceFromS3Response,
     newCreateDataSourceFromS3Response,
 
     -- ** CreateEvaluation
-    CreateEvaluation (CreateEvaluation'),
+    CreateEvaluation,
     newCreateEvaluation,
-    CreateEvaluationResponse (CreateEvaluationResponse'),
+    CreateEvaluationResponse,
     newCreateEvaluationResponse,
 
     -- ** CreateMLModel
-    CreateMLModel (CreateMLModel'),
+    CreateMLModel,
     newCreateMLModel,
-    CreateMLModelResponse (CreateMLModelResponse'),
+    CreateMLModelResponse,
     newCreateMLModelResponse,
 
     -- ** CreateRealtimeEndpoint
-    CreateRealtimeEndpoint (CreateRealtimeEndpoint'),
+    CreateRealtimeEndpoint,
     newCreateRealtimeEndpoint,
-    CreateRealtimeEndpointResponse (CreateRealtimeEndpointResponse'),
+    CreateRealtimeEndpointResponse,
     newCreateRealtimeEndpointResponse,
 
     -- ** DeleteBatchPrediction
-    DeleteBatchPrediction (DeleteBatchPrediction'),
+    DeleteBatchPrediction,
     newDeleteBatchPrediction,
-    DeleteBatchPredictionResponse (DeleteBatchPredictionResponse'),
+    DeleteBatchPredictionResponse,
     newDeleteBatchPredictionResponse,
 
     -- ** DeleteDataSource
-    DeleteDataSource (DeleteDataSource'),
+    DeleteDataSource,
     newDeleteDataSource,
-    DeleteDataSourceResponse (DeleteDataSourceResponse'),
+    DeleteDataSourceResponse,
     newDeleteDataSourceResponse,
 
     -- ** DeleteEvaluation
-    DeleteEvaluation (DeleteEvaluation'),
+    DeleteEvaluation,
     newDeleteEvaluation,
-    DeleteEvaluationResponse (DeleteEvaluationResponse'),
+    DeleteEvaluationResponse,
     newDeleteEvaluationResponse,
 
     -- ** DeleteMLModel
-    DeleteMLModel (DeleteMLModel'),
+    DeleteMLModel,
     newDeleteMLModel,
-    DeleteMLModelResponse (DeleteMLModelResponse'),
+    DeleteMLModelResponse,
     newDeleteMLModelResponse,
 
     -- ** DeleteRealtimeEndpoint
-    DeleteRealtimeEndpoint (DeleteRealtimeEndpoint'),
+    DeleteRealtimeEndpoint,
     newDeleteRealtimeEndpoint,
-    DeleteRealtimeEndpointResponse (DeleteRealtimeEndpointResponse'),
+    DeleteRealtimeEndpointResponse,
     newDeleteRealtimeEndpointResponse,
 
     -- ** DeleteTags
-    DeleteTags (DeleteTags'),
+    DeleteTags,
     newDeleteTags,
-    DeleteTagsResponse (DeleteTagsResponse'),
+    DeleteTagsResponse,
     newDeleteTagsResponse,
 
     -- ** DescribeBatchPredictions (Paginated)
-    DescribeBatchPredictions (DescribeBatchPredictions'),
+    DescribeBatchPredictions,
     newDescribeBatchPredictions,
-    DescribeBatchPredictionsResponse (DescribeBatchPredictionsResponse'),
+    DescribeBatchPredictionsResponse,
     newDescribeBatchPredictionsResponse,
 
     -- ** DescribeDataSources (Paginated)
-    DescribeDataSources (DescribeDataSources'),
+    DescribeDataSources,
     newDescribeDataSources,
-    DescribeDataSourcesResponse (DescribeDataSourcesResponse'),
+    DescribeDataSourcesResponse,
     newDescribeDataSourcesResponse,
 
     -- ** DescribeEvaluations (Paginated)
-    DescribeEvaluations (DescribeEvaluations'),
+    DescribeEvaluations,
     newDescribeEvaluations,
-    DescribeEvaluationsResponse (DescribeEvaluationsResponse'),
+    DescribeEvaluationsResponse,
     newDescribeEvaluationsResponse,
 
     -- ** DescribeMLModels (Paginated)
-    DescribeMLModels (DescribeMLModels'),
+    DescribeMLModels,
     newDescribeMLModels,
-    DescribeMLModelsResponse (DescribeMLModelsResponse'),
+    DescribeMLModelsResponse,
     newDescribeMLModelsResponse,
 
     -- ** DescribeTags
-    DescribeTags (DescribeTags'),
+    DescribeTags,
     newDescribeTags,
-    DescribeTagsResponse (DescribeTagsResponse'),
+    DescribeTagsResponse,
     newDescribeTagsResponse,
 
     -- ** GetBatchPrediction
-    GetBatchPrediction (GetBatchPrediction'),
+    GetBatchPrediction,
     newGetBatchPrediction,
-    GetBatchPredictionResponse (GetBatchPredictionResponse'),
+    GetBatchPredictionResponse,
     newGetBatchPredictionResponse,
 
     -- ** GetDataSource
-    GetDataSource (GetDataSource'),
+    GetDataSource,
     newGetDataSource,
-    GetDataSourceResponse (GetDataSourceResponse'),
+    GetDataSourceResponse,
     newGetDataSourceResponse,
 
     -- ** GetEvaluation
-    GetEvaluation (GetEvaluation'),
+    GetEvaluation,
     newGetEvaluation,
-    GetEvaluationResponse (GetEvaluationResponse'),
+    GetEvaluationResponse,
     newGetEvaluationResponse,
 
     -- ** GetMLModel
-    GetMLModel (GetMLModel'),
+    GetMLModel,
     newGetMLModel,
-    GetMLModelResponse (GetMLModelResponse'),
+    GetMLModelResponse,
     newGetMLModelResponse,
 
     -- ** Predict
-    Predict (Predict'),
+    Predict,
     newPredict,
-    PredictResponse (PredictResponse'),
+    PredictResponse,
     newPredictResponse,
 
     -- ** UpdateBatchPrediction
-    UpdateBatchPrediction (UpdateBatchPrediction'),
+    UpdateBatchPrediction,
     newUpdateBatchPrediction,
-    UpdateBatchPredictionResponse (UpdateBatchPredictionResponse'),
+    UpdateBatchPredictionResponse,
     newUpdateBatchPredictionResponse,
 
     -- ** UpdateDataSource
-    UpdateDataSource (UpdateDataSource'),
+    UpdateDataSource,
     newUpdateDataSource,
-    UpdateDataSourceResponse (UpdateDataSourceResponse'),
+    UpdateDataSourceResponse,
     newUpdateDataSourceResponse,
 
     -- ** UpdateEvaluation
-    UpdateEvaluation (UpdateEvaluation'),
+    UpdateEvaluation,
     newUpdateEvaluation,
-    UpdateEvaluationResponse (UpdateEvaluationResponse'),
+    UpdateEvaluationResponse,
     newUpdateEvaluationResponse,
 
     -- ** UpdateMLModel
-    UpdateMLModel (UpdateMLModel'),
+    UpdateMLModel,
     newUpdateMLModel,
-    UpdateMLModelResponse (UpdateMLModelResponse'),
+    UpdateMLModelResponse,
     newUpdateMLModelResponse,
 
     -- * Types
@@ -265,71 +265,71 @@ module Amazonka.MachineLearning
     TaggableResourceType (..),
 
     -- ** BatchPrediction
-    BatchPrediction (BatchPrediction'),
+    BatchPrediction,
     newBatchPrediction,
 
     -- ** DataSource
-    DataSource (DataSource'),
+    DataSource,
     newDataSource,
 
     -- ** Evaluation
-    Evaluation (Evaluation'),
+    Evaluation,
     newEvaluation,
 
     -- ** MLModel
-    MLModel (MLModel'),
+    MLModel,
     newMLModel,
 
     -- ** PerformanceMetrics
-    PerformanceMetrics (PerformanceMetrics'),
+    PerformanceMetrics,
     newPerformanceMetrics,
 
     -- ** Prediction
-    Prediction (Prediction'),
+    Prediction,
     newPrediction,
 
     -- ** RDSDataSpec
-    RDSDataSpec (RDSDataSpec'),
+    RDSDataSpec,
     newRDSDataSpec,
 
     -- ** RDSDatabase
-    RDSDatabase (RDSDatabase'),
+    RDSDatabase,
     newRDSDatabase,
 
     -- ** RDSDatabaseCredentials
-    RDSDatabaseCredentials (RDSDatabaseCredentials'),
+    RDSDatabaseCredentials,
     newRDSDatabaseCredentials,
 
     -- ** RDSMetadata
-    RDSMetadata (RDSMetadata'),
+    RDSMetadata,
     newRDSMetadata,
 
     -- ** RealtimeEndpointInfo
-    RealtimeEndpointInfo (RealtimeEndpointInfo'),
+    RealtimeEndpointInfo,
     newRealtimeEndpointInfo,
 
     -- ** RedshiftDataSpec
-    RedshiftDataSpec (RedshiftDataSpec'),
+    RedshiftDataSpec,
     newRedshiftDataSpec,
 
     -- ** RedshiftDatabase
-    RedshiftDatabase (RedshiftDatabase'),
+    RedshiftDatabase,
     newRedshiftDatabase,
 
     -- ** RedshiftDatabaseCredentials
-    RedshiftDatabaseCredentials (RedshiftDatabaseCredentials'),
+    RedshiftDatabaseCredentials,
     newRedshiftDatabaseCredentials,
 
     -- ** RedshiftMetadata
-    RedshiftMetadata (RedshiftMetadata'),
+    RedshiftMetadata,
     newRedshiftMetadata,
 
     -- ** S3DataSpec
-    S3DataSpec (S3DataSpec'),
+    S3DataSpec,
     newS3DataSpec,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
   )
 where

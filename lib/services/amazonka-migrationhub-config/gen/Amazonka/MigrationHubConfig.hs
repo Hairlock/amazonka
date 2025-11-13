@@ -63,21 +63,21 @@ module Amazonka.MigrationHubConfig
     -- $operations
 
     -- ** CreateHomeRegionControl
-    CreateHomeRegionControl (CreateHomeRegionControl'),
+    CreateHomeRegionControl,
     newCreateHomeRegionControl,
-    CreateHomeRegionControlResponse (CreateHomeRegionControlResponse'),
+    CreateHomeRegionControlResponse,
     newCreateHomeRegionControlResponse,
 
     -- ** DescribeHomeRegionControls
-    DescribeHomeRegionControls (DescribeHomeRegionControls'),
+    DescribeHomeRegionControls,
     newDescribeHomeRegionControls,
-    DescribeHomeRegionControlsResponse (DescribeHomeRegionControlsResponse'),
+    DescribeHomeRegionControlsResponse,
     newDescribeHomeRegionControlsResponse,
 
     -- ** GetHomeRegion
-    GetHomeRegion (GetHomeRegion'),
+    GetHomeRegion,
     newGetHomeRegion,
-    GetHomeRegionResponse (GetHomeRegionResponse'),
+    GetHomeRegionResponse,
     newGetHomeRegionResponse,
 
     -- * Types
@@ -86,11 +86,11 @@ module Amazonka.MigrationHubConfig
     TargetType (..),
 
     -- ** HomeRegionControl
-    HomeRegionControl (HomeRegionControl'),
+    HomeRegionControl,
     newHomeRegionControl,
 
     -- ** Target
-    Target (Target'),
+    Target,
     newTarget,
   )
 where

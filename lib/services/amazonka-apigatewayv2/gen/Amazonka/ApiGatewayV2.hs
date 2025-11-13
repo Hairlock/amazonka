@@ -41,435 +41,435 @@ module Amazonka.ApiGatewayV2
     -- $operations
 
     -- ** CreateApi
-    CreateApi (CreateApi'),
+    CreateApi,
     newCreateApi,
-    CreateApiResponse (CreateApiResponse'),
+    CreateApiResponse,
     newCreateApiResponse,
 
     -- ** CreateApiMapping
-    CreateApiMapping (CreateApiMapping'),
+    CreateApiMapping,
     newCreateApiMapping,
-    CreateApiMappingResponse (CreateApiMappingResponse'),
+    CreateApiMappingResponse,
     newCreateApiMappingResponse,
 
     -- ** CreateAuthorizer
-    CreateAuthorizer (CreateAuthorizer'),
+    CreateAuthorizer,
     newCreateAuthorizer,
-    CreateAuthorizerResponse (CreateAuthorizerResponse'),
+    CreateAuthorizerResponse,
     newCreateAuthorizerResponse,
 
     -- ** CreateDeployment
-    CreateDeployment (CreateDeployment'),
+    CreateDeployment,
     newCreateDeployment,
-    CreateDeploymentResponse (CreateDeploymentResponse'),
+    CreateDeploymentResponse,
     newCreateDeploymentResponse,
 
     -- ** CreateDomainName
-    CreateDomainName (CreateDomainName'),
+    CreateDomainName,
     newCreateDomainName,
-    CreateDomainNameResponse (CreateDomainNameResponse'),
+    CreateDomainNameResponse,
     newCreateDomainNameResponse,
 
     -- ** CreateIntegration
-    CreateIntegration (CreateIntegration'),
+    CreateIntegration,
     newCreateIntegration,
     CreateIntegrationResponse' (CreateIntegrationResponse''),
     newCreateIntegrationResponse',
 
     -- ** CreateIntegrationResponse
-    CreateIntegrationResponse (CreateIntegrationResponse'),
+    CreateIntegrationResponse,
     newCreateIntegrationResponse,
-    CreateIntegrationResponseResponse (CreateIntegrationResponseResponse'),
+    CreateIntegrationResponseResponse,
     newCreateIntegrationResponseResponse,
 
     -- ** CreateModel
-    CreateModel (CreateModel'),
+    CreateModel,
     newCreateModel,
-    CreateModelResponse (CreateModelResponse'),
+    CreateModelResponse,
     newCreateModelResponse,
 
     -- ** CreateRoute
-    CreateRoute (CreateRoute'),
+    CreateRoute,
     newCreateRoute,
     CreateRouteResponse' (CreateRouteResponse''),
     newCreateRouteResponse',
 
     -- ** CreateRouteResponse
-    CreateRouteResponse (CreateRouteResponse'),
+    CreateRouteResponse,
     newCreateRouteResponse,
-    CreateRouteResponseResponse (CreateRouteResponseResponse'),
+    CreateRouteResponseResponse,
     newCreateRouteResponseResponse,
 
     -- ** CreateStage
-    CreateStage (CreateStage'),
+    CreateStage,
     newCreateStage,
-    CreateStageResponse (CreateStageResponse'),
+    CreateStageResponse,
     newCreateStageResponse,
 
     -- ** CreateVpcLink
-    CreateVpcLink (CreateVpcLink'),
+    CreateVpcLink,
     newCreateVpcLink,
-    CreateVpcLinkResponse (CreateVpcLinkResponse'),
+    CreateVpcLinkResponse,
     newCreateVpcLinkResponse,
 
     -- ** DeleteAccessLogSettings
-    DeleteAccessLogSettings (DeleteAccessLogSettings'),
+    DeleteAccessLogSettings,
     newDeleteAccessLogSettings,
-    DeleteAccessLogSettingsResponse (DeleteAccessLogSettingsResponse'),
+    DeleteAccessLogSettingsResponse,
     newDeleteAccessLogSettingsResponse,
 
     -- ** DeleteApi
-    DeleteApi (DeleteApi'),
+    DeleteApi,
     newDeleteApi,
-    DeleteApiResponse (DeleteApiResponse'),
+    DeleteApiResponse,
     newDeleteApiResponse,
 
     -- ** DeleteApiMapping
-    DeleteApiMapping (DeleteApiMapping'),
+    DeleteApiMapping,
     newDeleteApiMapping,
-    DeleteApiMappingResponse (DeleteApiMappingResponse'),
+    DeleteApiMappingResponse,
     newDeleteApiMappingResponse,
 
     -- ** DeleteAuthorizer
-    DeleteAuthorizer (DeleteAuthorizer'),
+    DeleteAuthorizer,
     newDeleteAuthorizer,
-    DeleteAuthorizerResponse (DeleteAuthorizerResponse'),
+    DeleteAuthorizerResponse,
     newDeleteAuthorizerResponse,
 
     -- ** DeleteCorsConfiguration
-    DeleteCorsConfiguration (DeleteCorsConfiguration'),
+    DeleteCorsConfiguration,
     newDeleteCorsConfiguration,
-    DeleteCorsConfigurationResponse (DeleteCorsConfigurationResponse'),
+    DeleteCorsConfigurationResponse,
     newDeleteCorsConfigurationResponse,
 
     -- ** DeleteDeployment
-    DeleteDeployment (DeleteDeployment'),
+    DeleteDeployment,
     newDeleteDeployment,
-    DeleteDeploymentResponse (DeleteDeploymentResponse'),
+    DeleteDeploymentResponse,
     newDeleteDeploymentResponse,
 
     -- ** DeleteDomainName
-    DeleteDomainName (DeleteDomainName'),
+    DeleteDomainName,
     newDeleteDomainName,
-    DeleteDomainNameResponse (DeleteDomainNameResponse'),
+    DeleteDomainNameResponse,
     newDeleteDomainNameResponse,
 
     -- ** DeleteIntegration
-    DeleteIntegration (DeleteIntegration'),
+    DeleteIntegration,
     newDeleteIntegration,
     DeleteIntegrationResponse' (DeleteIntegrationResponse''),
     newDeleteIntegrationResponse',
 
     -- ** DeleteIntegrationResponse
-    DeleteIntegrationResponse (DeleteIntegrationResponse'),
+    DeleteIntegrationResponse,
     newDeleteIntegrationResponse,
-    DeleteIntegrationResponseResponse (DeleteIntegrationResponseResponse'),
+    DeleteIntegrationResponseResponse,
     newDeleteIntegrationResponseResponse,
 
     -- ** DeleteModel
-    DeleteModel (DeleteModel'),
+    DeleteModel,
     newDeleteModel,
-    DeleteModelResponse (DeleteModelResponse'),
+    DeleteModelResponse,
     newDeleteModelResponse,
 
     -- ** DeleteRoute
-    DeleteRoute (DeleteRoute'),
+    DeleteRoute,
     newDeleteRoute,
     DeleteRouteResponse' (DeleteRouteResponse''),
     newDeleteRouteResponse',
 
     -- ** DeleteRouteRequestParameter
-    DeleteRouteRequestParameter (DeleteRouteRequestParameter'),
+    DeleteRouteRequestParameter,
     newDeleteRouteRequestParameter,
-    DeleteRouteRequestParameterResponse (DeleteRouteRequestParameterResponse'),
+    DeleteRouteRequestParameterResponse,
     newDeleteRouteRequestParameterResponse,
 
     -- ** DeleteRouteResponse
-    DeleteRouteResponse (DeleteRouteResponse'),
+    DeleteRouteResponse,
     newDeleteRouteResponse,
-    DeleteRouteResponseResponse (DeleteRouteResponseResponse'),
+    DeleteRouteResponseResponse,
     newDeleteRouteResponseResponse,
 
     -- ** DeleteRouteSettings
-    DeleteRouteSettings (DeleteRouteSettings'),
+    DeleteRouteSettings,
     newDeleteRouteSettings,
-    DeleteRouteSettingsResponse (DeleteRouteSettingsResponse'),
+    DeleteRouteSettingsResponse,
     newDeleteRouteSettingsResponse,
 
     -- ** DeleteStage
-    DeleteStage (DeleteStage'),
+    DeleteStage,
     newDeleteStage,
-    DeleteStageResponse (DeleteStageResponse'),
+    DeleteStageResponse,
     newDeleteStageResponse,
 
     -- ** DeleteVpcLink
-    DeleteVpcLink (DeleteVpcLink'),
+    DeleteVpcLink,
     newDeleteVpcLink,
-    DeleteVpcLinkResponse (DeleteVpcLinkResponse'),
+    DeleteVpcLinkResponse,
     newDeleteVpcLinkResponse,
 
     -- ** ExportApi
-    ExportApi (ExportApi'),
+    ExportApi,
     newExportApi,
-    ExportApiResponse (ExportApiResponse'),
+    ExportApiResponse,
     newExportApiResponse,
 
     -- ** GetApi
-    GetApi (GetApi'),
+    GetApi,
     newGetApi,
-    GetApiResponse (GetApiResponse'),
+    GetApiResponse,
     newGetApiResponse,
 
     -- ** GetApiMapping
-    GetApiMapping (GetApiMapping'),
+    GetApiMapping,
     newGetApiMapping,
-    GetApiMappingResponse (GetApiMappingResponse'),
+    GetApiMappingResponse,
     newGetApiMappingResponse,
 
     -- ** GetApiMappings
-    GetApiMappings (GetApiMappings'),
+    GetApiMappings,
     newGetApiMappings,
-    GetApiMappingsResponse (GetApiMappingsResponse'),
+    GetApiMappingsResponse,
     newGetApiMappingsResponse,
 
     -- ** GetApis (Paginated)
-    GetApis (GetApis'),
+    GetApis,
     newGetApis,
-    GetApisResponse (GetApisResponse'),
+    GetApisResponse,
     newGetApisResponse,
 
     -- ** GetAuthorizer
-    GetAuthorizer (GetAuthorizer'),
+    GetAuthorizer,
     newGetAuthorizer,
-    GetAuthorizerResponse (GetAuthorizerResponse'),
+    GetAuthorizerResponse,
     newGetAuthorizerResponse,
 
     -- ** GetAuthorizers (Paginated)
-    GetAuthorizers (GetAuthorizers'),
+    GetAuthorizers,
     newGetAuthorizers,
-    GetAuthorizersResponse (GetAuthorizersResponse'),
+    GetAuthorizersResponse,
     newGetAuthorizersResponse,
 
     -- ** GetDeployment
-    GetDeployment (GetDeployment'),
+    GetDeployment,
     newGetDeployment,
-    GetDeploymentResponse (GetDeploymentResponse'),
+    GetDeploymentResponse,
     newGetDeploymentResponse,
 
     -- ** GetDeployments (Paginated)
-    GetDeployments (GetDeployments'),
+    GetDeployments,
     newGetDeployments,
-    GetDeploymentsResponse (GetDeploymentsResponse'),
+    GetDeploymentsResponse,
     newGetDeploymentsResponse,
 
     -- ** GetDomainName
-    GetDomainName (GetDomainName'),
+    GetDomainName,
     newGetDomainName,
-    GetDomainNameResponse (GetDomainNameResponse'),
+    GetDomainNameResponse,
     newGetDomainNameResponse,
 
     -- ** GetDomainNames (Paginated)
-    GetDomainNames (GetDomainNames'),
+    GetDomainNames,
     newGetDomainNames,
-    GetDomainNamesResponse (GetDomainNamesResponse'),
+    GetDomainNamesResponse,
     newGetDomainNamesResponse,
 
     -- ** GetIntegration
-    GetIntegration (GetIntegration'),
+    GetIntegration,
     newGetIntegration,
     GetIntegrationResponse' (GetIntegrationResponse''),
     newGetIntegrationResponse',
 
     -- ** GetIntegrationResponse
-    GetIntegrationResponse (GetIntegrationResponse'),
+    GetIntegrationResponse,
     newGetIntegrationResponse,
-    GetIntegrationResponseResponse (GetIntegrationResponseResponse'),
+    GetIntegrationResponseResponse,
     newGetIntegrationResponseResponse,
 
     -- ** GetIntegrationResponses (Paginated)
-    GetIntegrationResponses (GetIntegrationResponses'),
+    GetIntegrationResponses,
     newGetIntegrationResponses,
-    GetIntegrationResponsesResponse (GetIntegrationResponsesResponse'),
+    GetIntegrationResponsesResponse,
     newGetIntegrationResponsesResponse,
 
     -- ** GetIntegrations (Paginated)
-    GetIntegrations (GetIntegrations'),
+    GetIntegrations,
     newGetIntegrations,
-    GetIntegrationsResponse (GetIntegrationsResponse'),
+    GetIntegrationsResponse,
     newGetIntegrationsResponse,
 
     -- ** GetModel
-    GetModel (GetModel'),
+    GetModel,
     newGetModel,
-    GetModelResponse (GetModelResponse'),
+    GetModelResponse,
     newGetModelResponse,
 
     -- ** GetModelTemplate
-    GetModelTemplate (GetModelTemplate'),
+    GetModelTemplate,
     newGetModelTemplate,
-    GetModelTemplateResponse (GetModelTemplateResponse'),
+    GetModelTemplateResponse,
     newGetModelTemplateResponse,
 
     -- ** GetModels (Paginated)
-    GetModels (GetModels'),
+    GetModels,
     newGetModels,
-    GetModelsResponse (GetModelsResponse'),
+    GetModelsResponse,
     newGetModelsResponse,
 
     -- ** GetRoute
-    GetRoute (GetRoute'),
+    GetRoute,
     newGetRoute,
     GetRouteResponse' (GetRouteResponse''),
     newGetRouteResponse',
 
     -- ** GetRouteResponse
-    GetRouteResponse (GetRouteResponse'),
+    GetRouteResponse,
     newGetRouteResponse,
-    GetRouteResponseResponse (GetRouteResponseResponse'),
+    GetRouteResponseResponse,
     newGetRouteResponseResponse,
 
     -- ** GetRouteResponses (Paginated)
-    GetRouteResponses (GetRouteResponses'),
+    GetRouteResponses,
     newGetRouteResponses,
-    GetRouteResponsesResponse (GetRouteResponsesResponse'),
+    GetRouteResponsesResponse,
     newGetRouteResponsesResponse,
 
     -- ** GetRoutes (Paginated)
-    GetRoutes (GetRoutes'),
+    GetRoutes,
     newGetRoutes,
-    GetRoutesResponse (GetRoutesResponse'),
+    GetRoutesResponse,
     newGetRoutesResponse,
 
     -- ** GetStage
-    GetStage (GetStage'),
+    GetStage,
     newGetStage,
-    GetStageResponse (GetStageResponse'),
+    GetStageResponse,
     newGetStageResponse,
 
     -- ** GetStages (Paginated)
-    GetStages (GetStages'),
+    GetStages,
     newGetStages,
-    GetStagesResponse (GetStagesResponse'),
+    GetStagesResponse,
     newGetStagesResponse,
 
     -- ** GetTags
-    GetTags (GetTags'),
+    GetTags,
     newGetTags,
-    GetTagsResponse (GetTagsResponse'),
+    GetTagsResponse,
     newGetTagsResponse,
 
     -- ** GetVpcLink
-    GetVpcLink (GetVpcLink'),
+    GetVpcLink,
     newGetVpcLink,
-    GetVpcLinkResponse (GetVpcLinkResponse'),
+    GetVpcLinkResponse,
     newGetVpcLinkResponse,
 
     -- ** GetVpcLinks
-    GetVpcLinks (GetVpcLinks'),
+    GetVpcLinks,
     newGetVpcLinks,
-    GetVpcLinksResponse (GetVpcLinksResponse'),
+    GetVpcLinksResponse,
     newGetVpcLinksResponse,
 
     -- ** ImportApi
-    ImportApi (ImportApi'),
+    ImportApi,
     newImportApi,
-    ImportApiResponse (ImportApiResponse'),
+    ImportApiResponse,
     newImportApiResponse,
 
     -- ** ReimportApi
-    ReimportApi (ReimportApi'),
+    ReimportApi,
     newReimportApi,
-    ReimportApiResponse (ReimportApiResponse'),
+    ReimportApiResponse,
     newReimportApiResponse,
 
     -- ** ResetAuthorizersCache
-    ResetAuthorizersCache (ResetAuthorizersCache'),
+    ResetAuthorizersCache,
     newResetAuthorizersCache,
-    ResetAuthorizersCacheResponse (ResetAuthorizersCacheResponse'),
+    ResetAuthorizersCacheResponse,
     newResetAuthorizersCacheResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateApi
-    UpdateApi (UpdateApi'),
+    UpdateApi,
     newUpdateApi,
-    UpdateApiResponse (UpdateApiResponse'),
+    UpdateApiResponse,
     newUpdateApiResponse,
 
     -- ** UpdateApiMapping
-    UpdateApiMapping (UpdateApiMapping'),
+    UpdateApiMapping,
     newUpdateApiMapping,
-    UpdateApiMappingResponse (UpdateApiMappingResponse'),
+    UpdateApiMappingResponse,
     newUpdateApiMappingResponse,
 
     -- ** UpdateAuthorizer
-    UpdateAuthorizer (UpdateAuthorizer'),
+    UpdateAuthorizer,
     newUpdateAuthorizer,
-    UpdateAuthorizerResponse (UpdateAuthorizerResponse'),
+    UpdateAuthorizerResponse,
     newUpdateAuthorizerResponse,
 
     -- ** UpdateDeployment
-    UpdateDeployment (UpdateDeployment'),
+    UpdateDeployment,
     newUpdateDeployment,
-    UpdateDeploymentResponse (UpdateDeploymentResponse'),
+    UpdateDeploymentResponse,
     newUpdateDeploymentResponse,
 
     -- ** UpdateDomainName
-    UpdateDomainName (UpdateDomainName'),
+    UpdateDomainName,
     newUpdateDomainName,
-    UpdateDomainNameResponse (UpdateDomainNameResponse'),
+    UpdateDomainNameResponse,
     newUpdateDomainNameResponse,
 
     -- ** UpdateIntegration
-    UpdateIntegration (UpdateIntegration'),
+    UpdateIntegration,
     newUpdateIntegration,
     UpdateIntegrationResponse' (UpdateIntegrationResponse''),
     newUpdateIntegrationResponse',
 
     -- ** UpdateIntegrationResponse
-    UpdateIntegrationResponse (UpdateIntegrationResponse'),
+    UpdateIntegrationResponse,
     newUpdateIntegrationResponse,
-    UpdateIntegrationResponseResponse (UpdateIntegrationResponseResponse'),
+    UpdateIntegrationResponseResponse,
     newUpdateIntegrationResponseResponse,
 
     -- ** UpdateModel
-    UpdateModel (UpdateModel'),
+    UpdateModel,
     newUpdateModel,
-    UpdateModelResponse (UpdateModelResponse'),
+    UpdateModelResponse,
     newUpdateModelResponse,
 
     -- ** UpdateRoute
-    UpdateRoute (UpdateRoute'),
+    UpdateRoute,
     newUpdateRoute,
     UpdateRouteResponse' (UpdateRouteResponse''),
     newUpdateRouteResponse',
 
     -- ** UpdateRouteResponse
-    UpdateRouteResponse (UpdateRouteResponse'),
+    UpdateRouteResponse,
     newUpdateRouteResponse,
-    UpdateRouteResponseResponse (UpdateRouteResponseResponse'),
+    UpdateRouteResponseResponse,
     newUpdateRouteResponseResponse,
 
     -- ** UpdateStage
-    UpdateStage (UpdateStage'),
+    UpdateStage,
     newUpdateStage,
-    UpdateStageResponse (UpdateStageResponse'),
+    UpdateStageResponse,
     newUpdateStageResponse,
 
     -- ** UpdateVpcLink
-    UpdateVpcLink (UpdateVpcLink'),
+    UpdateVpcLink,
     newUpdateVpcLink,
-    UpdateVpcLinkResponse (UpdateVpcLinkResponse'),
+    UpdateVpcLinkResponse,
     newUpdateVpcLinkResponse,
 
     -- * Types
@@ -517,91 +517,91 @@ module Amazonka.ApiGatewayV2
     VpcLinkVersion (..),
 
     -- ** AccessLogSettings
-    AccessLogSettings (AccessLogSettings'),
+    AccessLogSettings,
     newAccessLogSettings,
 
     -- ** Api
-    Api (Api'),
+    Api,
     newApi,
 
     -- ** ApiMapping
-    ApiMapping (ApiMapping'),
+    ApiMapping,
     newApiMapping,
 
     -- ** Authorizer
-    Authorizer (Authorizer'),
+    Authorizer,
     newAuthorizer,
 
     -- ** Cors
-    Cors (Cors'),
+    Cors,
     newCors,
 
     -- ** Deployment
-    Deployment (Deployment'),
+    Deployment,
     newDeployment,
 
     -- ** DomainName
-    DomainName (DomainName'),
+    DomainName,
     newDomainName,
 
     -- ** DomainNameConfiguration
-    DomainNameConfiguration (DomainNameConfiguration'),
+    DomainNameConfiguration,
     newDomainNameConfiguration,
 
     -- ** Integration
-    Integration (Integration'),
+    Integration,
     newIntegration,
 
     -- ** IntegrationResponse
-    IntegrationResponse (IntegrationResponse'),
+    IntegrationResponse,
     newIntegrationResponse,
 
     -- ** JWTConfiguration
-    JWTConfiguration (JWTConfiguration'),
+    JWTConfiguration,
     newJWTConfiguration,
 
     -- ** Model
-    Model (Model'),
+    Model,
     newModel,
 
     -- ** MutualTlsAuthentication
-    MutualTlsAuthentication (MutualTlsAuthentication'),
+    MutualTlsAuthentication,
     newMutualTlsAuthentication,
 
     -- ** MutualTlsAuthenticationInput
-    MutualTlsAuthenticationInput (MutualTlsAuthenticationInput'),
+    MutualTlsAuthenticationInput,
     newMutualTlsAuthenticationInput,
 
     -- ** ParameterConstraints
-    ParameterConstraints (ParameterConstraints'),
+    ParameterConstraints,
     newParameterConstraints,
 
     -- ** Route
-    Route (Route'),
+    Route,
     newRoute,
 
     -- ** RouteResponse
-    RouteResponse (RouteResponse'),
+    RouteResponse,
     newRouteResponse,
 
     -- ** RouteSettings
-    RouteSettings (RouteSettings'),
+    RouteSettings,
     newRouteSettings,
 
     -- ** Stage
-    Stage (Stage'),
+    Stage,
     newStage,
 
     -- ** TlsConfig
-    TlsConfig (TlsConfig'),
+    TlsConfig,
     newTlsConfig,
 
     -- ** TlsConfigInput
-    TlsConfigInput (TlsConfigInput'),
+    TlsConfigInput,
     newTlsConfigInput,
 
     -- ** VpcLink
-    VpcLink (VpcLink'),
+    VpcLink,
     newVpcLink,
   )
 where

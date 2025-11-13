@@ -83,99 +83,99 @@ module Amazonka.ResourceGroups
     -- $operations
 
     -- ** CreateGroup
-    CreateGroup (CreateGroup'),
+    CreateGroup,
     newCreateGroup,
-    CreateGroupResponse (CreateGroupResponse'),
+    CreateGroupResponse,
     newCreateGroupResponse,
 
     -- ** DeleteGroup
-    DeleteGroup (DeleteGroup'),
+    DeleteGroup,
     newDeleteGroup,
-    DeleteGroupResponse (DeleteGroupResponse'),
+    DeleteGroupResponse,
     newDeleteGroupResponse,
 
     -- ** GetGroup
-    GetGroup (GetGroup'),
+    GetGroup,
     newGetGroup,
-    GetGroupResponse (GetGroupResponse'),
+    GetGroupResponse,
     newGetGroupResponse,
 
     -- ** GetGroupConfiguration
-    GetGroupConfiguration (GetGroupConfiguration'),
+    GetGroupConfiguration,
     newGetGroupConfiguration,
-    GetGroupConfigurationResponse (GetGroupConfigurationResponse'),
+    GetGroupConfigurationResponse,
     newGetGroupConfigurationResponse,
 
     -- ** GetGroupQuery
-    GetGroupQuery (GetGroupQuery'),
+    GetGroupQuery,
     newGetGroupQuery,
-    GetGroupQueryResponse (GetGroupQueryResponse'),
+    GetGroupQueryResponse,
     newGetGroupQueryResponse,
 
     -- ** GetTags
-    GetTags (GetTags'),
+    GetTags,
     newGetTags,
-    GetTagsResponse (GetTagsResponse'),
+    GetTagsResponse,
     newGetTagsResponse,
 
     -- ** GroupResources
-    GroupResources (GroupResources'),
+    GroupResources,
     newGroupResources,
-    GroupResourcesResponse (GroupResourcesResponse'),
+    GroupResourcesResponse,
     newGroupResourcesResponse,
 
     -- ** ListGroupResources (Paginated)
-    ListGroupResources (ListGroupResources'),
+    ListGroupResources,
     newListGroupResources,
-    ListGroupResourcesResponse (ListGroupResourcesResponse'),
+    ListGroupResourcesResponse,
     newListGroupResourcesResponse,
 
     -- ** ListGroups (Paginated)
-    ListGroups (ListGroups'),
+    ListGroups,
     newListGroups,
-    ListGroupsResponse (ListGroupsResponse'),
+    ListGroupsResponse,
     newListGroupsResponse,
 
     -- ** PutGroupConfiguration
-    PutGroupConfiguration (PutGroupConfiguration'),
+    PutGroupConfiguration,
     newPutGroupConfiguration,
-    PutGroupConfigurationResponse (PutGroupConfigurationResponse'),
+    PutGroupConfigurationResponse,
     newPutGroupConfigurationResponse,
 
     -- ** SearchResources (Paginated)
-    SearchResources (SearchResources'),
+    SearchResources,
     newSearchResources,
-    SearchResourcesResponse (SearchResourcesResponse'),
+    SearchResourcesResponse,
     newSearchResourcesResponse,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
-    TagResponse (TagResponse'),
+    TagResponse,
     newTagResponse,
 
     -- ** UngroupResources
-    UngroupResources (UngroupResources'),
+    UngroupResources,
     newUngroupResources,
-    UngroupResourcesResponse (UngroupResourcesResponse'),
+    UngroupResourcesResponse,
     newUngroupResourcesResponse,
 
     -- ** Untag
-    Untag (Untag'),
+    Untag,
     newUntag,
-    UntagResponse (UntagResponse'),
+    UntagResponse,
     newUntagResponse,
 
     -- ** UpdateGroup
-    UpdateGroup (UpdateGroup'),
+    UpdateGroup,
     newUpdateGroup,
-    UpdateGroupResponse (UpdateGroupResponse'),
+    UpdateGroupResponse,
     newUpdateGroupResponse,
 
     -- ** UpdateGroupQuery
-    UpdateGroupQuery (UpdateGroupQuery'),
+    UpdateGroupQuery,
     newUpdateGroupQuery,
-    UpdateGroupQueryResponse (UpdateGroupQueryResponse'),
+    UpdateGroupQueryResponse,
     newUpdateGroupQueryResponse,
 
     -- * Types
@@ -199,63 +199,63 @@ module Amazonka.ResourceGroups
     ResourceStatusValue (..),
 
     -- ** FailedResource
-    FailedResource (FailedResource'),
+    FailedResource,
     newFailedResource,
 
     -- ** Group
-    Group (Group'),
+    Group,
     newGroup,
 
     -- ** GroupConfiguration
-    GroupConfiguration (GroupConfiguration'),
+    GroupConfiguration,
     newGroupConfiguration,
 
     -- ** GroupConfigurationItem
-    GroupConfigurationItem (GroupConfigurationItem'),
+    GroupConfigurationItem,
     newGroupConfigurationItem,
 
     -- ** GroupConfigurationParameter
-    GroupConfigurationParameter (GroupConfigurationParameter'),
+    GroupConfigurationParameter,
     newGroupConfigurationParameter,
 
     -- ** GroupFilter
-    GroupFilter (GroupFilter'),
+    GroupFilter,
     newGroupFilter,
 
     -- ** GroupIdentifier
-    GroupIdentifier (GroupIdentifier'),
+    GroupIdentifier,
     newGroupIdentifier,
 
     -- ** GroupQuery
-    GroupQuery (GroupQuery'),
+    GroupQuery,
     newGroupQuery,
 
     -- ** ListGroupResourcesItem
-    ListGroupResourcesItem (ListGroupResourcesItem'),
+    ListGroupResourcesItem,
     newListGroupResourcesItem,
 
     -- ** PendingResource
-    PendingResource (PendingResource'),
+    PendingResource,
     newPendingResource,
 
     -- ** QueryError
-    QueryError (QueryError'),
+    QueryError,
     newQueryError,
 
     -- ** ResourceFilter
-    ResourceFilter (ResourceFilter'),
+    ResourceFilter,
     newResourceFilter,
 
     -- ** ResourceIdentifier
-    ResourceIdentifier (ResourceIdentifier'),
+    ResourceIdentifier,
     newResourceIdentifier,
 
     -- ** ResourceQuery
-    ResourceQuery (ResourceQuery'),
+    ResourceQuery,
     newResourceQuery,
 
     -- ** ResourceStatus
-    ResourceStatus (ResourceStatus'),
+    ResourceStatus,
     newResourceStatus,
   )
 where

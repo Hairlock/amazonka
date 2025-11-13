@@ -69,153 +69,153 @@ module Amazonka.Snowball
     -- $operations
 
     -- ** CancelCluster
-    CancelCluster (CancelCluster'),
+    CancelCluster,
     newCancelCluster,
-    CancelClusterResponse (CancelClusterResponse'),
+    CancelClusterResponse,
     newCancelClusterResponse,
 
     -- ** CancelJob
-    CancelJob (CancelJob'),
+    CancelJob,
     newCancelJob,
-    CancelJobResponse (CancelJobResponse'),
+    CancelJobResponse,
     newCancelJobResponse,
 
     -- ** CreateAddress
-    CreateAddress (CreateAddress'),
+    CreateAddress,
     newCreateAddress,
-    CreateAddressResponse (CreateAddressResponse'),
+    CreateAddressResponse,
     newCreateAddressResponse,
 
     -- ** CreateCluster
-    CreateCluster (CreateCluster'),
+    CreateCluster,
     newCreateCluster,
-    CreateClusterResponse (CreateClusterResponse'),
+    CreateClusterResponse,
     newCreateClusterResponse,
 
     -- ** CreateJob
-    CreateJob (CreateJob'),
+    CreateJob,
     newCreateJob,
-    CreateJobResponse (CreateJobResponse'),
+    CreateJobResponse,
     newCreateJobResponse,
 
     -- ** CreateLongTermPricing
-    CreateLongTermPricing (CreateLongTermPricing'),
+    CreateLongTermPricing,
     newCreateLongTermPricing,
-    CreateLongTermPricingResponse (CreateLongTermPricingResponse'),
+    CreateLongTermPricingResponse,
     newCreateLongTermPricingResponse,
 
     -- ** CreateReturnShippingLabel
-    CreateReturnShippingLabel (CreateReturnShippingLabel'),
+    CreateReturnShippingLabel,
     newCreateReturnShippingLabel,
-    CreateReturnShippingLabelResponse (CreateReturnShippingLabelResponse'),
+    CreateReturnShippingLabelResponse,
     newCreateReturnShippingLabelResponse,
 
     -- ** DescribeAddress
-    DescribeAddress (DescribeAddress'),
+    DescribeAddress,
     newDescribeAddress,
-    DescribeAddressResponse (DescribeAddressResponse'),
+    DescribeAddressResponse,
     newDescribeAddressResponse,
 
     -- ** DescribeAddresses (Paginated)
-    DescribeAddresses (DescribeAddresses'),
+    DescribeAddresses,
     newDescribeAddresses,
-    DescribeAddressesResponse (DescribeAddressesResponse'),
+    DescribeAddressesResponse,
     newDescribeAddressesResponse,
 
     -- ** DescribeCluster
-    DescribeCluster (DescribeCluster'),
+    DescribeCluster,
     newDescribeCluster,
-    DescribeClusterResponse (DescribeClusterResponse'),
+    DescribeClusterResponse,
     newDescribeClusterResponse,
 
     -- ** DescribeJob
-    DescribeJob (DescribeJob'),
+    DescribeJob,
     newDescribeJob,
-    DescribeJobResponse (DescribeJobResponse'),
+    DescribeJobResponse,
     newDescribeJobResponse,
 
     -- ** DescribeReturnShippingLabel
-    DescribeReturnShippingLabel (DescribeReturnShippingLabel'),
+    DescribeReturnShippingLabel,
     newDescribeReturnShippingLabel,
-    DescribeReturnShippingLabelResponse (DescribeReturnShippingLabelResponse'),
+    DescribeReturnShippingLabelResponse,
     newDescribeReturnShippingLabelResponse,
 
     -- ** GetJobManifest
-    GetJobManifest (GetJobManifest'),
+    GetJobManifest,
     newGetJobManifest,
-    GetJobManifestResponse (GetJobManifestResponse'),
+    GetJobManifestResponse,
     newGetJobManifestResponse,
 
     -- ** GetJobUnlockCode
-    GetJobUnlockCode (GetJobUnlockCode'),
+    GetJobUnlockCode,
     newGetJobUnlockCode,
-    GetJobUnlockCodeResponse (GetJobUnlockCodeResponse'),
+    GetJobUnlockCodeResponse,
     newGetJobUnlockCodeResponse,
 
     -- ** GetSnowballUsage
-    GetSnowballUsage (GetSnowballUsage'),
+    GetSnowballUsage,
     newGetSnowballUsage,
-    GetSnowballUsageResponse (GetSnowballUsageResponse'),
+    GetSnowballUsageResponse,
     newGetSnowballUsageResponse,
 
     -- ** GetSoftwareUpdates
-    GetSoftwareUpdates (GetSoftwareUpdates'),
+    GetSoftwareUpdates,
     newGetSoftwareUpdates,
-    GetSoftwareUpdatesResponse (GetSoftwareUpdatesResponse'),
+    GetSoftwareUpdatesResponse,
     newGetSoftwareUpdatesResponse,
 
     -- ** ListClusterJobs (Paginated)
-    ListClusterJobs (ListClusterJobs'),
+    ListClusterJobs,
     newListClusterJobs,
-    ListClusterJobsResponse (ListClusterJobsResponse'),
+    ListClusterJobsResponse,
     newListClusterJobsResponse,
 
     -- ** ListClusters (Paginated)
-    ListClusters (ListClusters'),
+    ListClusters,
     newListClusters,
-    ListClustersResponse (ListClustersResponse'),
+    ListClustersResponse,
     newListClustersResponse,
 
     -- ** ListCompatibleImages (Paginated)
-    ListCompatibleImages (ListCompatibleImages'),
+    ListCompatibleImages,
     newListCompatibleImages,
-    ListCompatibleImagesResponse (ListCompatibleImagesResponse'),
+    ListCompatibleImagesResponse,
     newListCompatibleImagesResponse,
 
     -- ** ListJobs (Paginated)
-    ListJobs (ListJobs'),
+    ListJobs,
     newListJobs,
-    ListJobsResponse (ListJobsResponse'),
+    ListJobsResponse,
     newListJobsResponse,
 
     -- ** ListLongTermPricing (Paginated)
-    ListLongTermPricing (ListLongTermPricing'),
+    ListLongTermPricing,
     newListLongTermPricing,
-    ListLongTermPricingResponse (ListLongTermPricingResponse'),
+    ListLongTermPricingResponse,
     newListLongTermPricingResponse,
 
     -- ** UpdateCluster
-    UpdateCluster (UpdateCluster'),
+    UpdateCluster,
     newUpdateCluster,
-    UpdateClusterResponse (UpdateClusterResponse'),
+    UpdateClusterResponse,
     newUpdateClusterResponse,
 
     -- ** UpdateJob
-    UpdateJob (UpdateJob'),
+    UpdateJob,
     newUpdateJob,
-    UpdateJobResponse (UpdateJobResponse'),
+    UpdateJobResponse,
     newUpdateJobResponse,
 
     -- ** UpdateJobShipmentState
-    UpdateJobShipmentState (UpdateJobShipmentState'),
+    UpdateJobShipmentState,
     newUpdateJobShipmentState,
-    UpdateJobShipmentStateResponse (UpdateJobShipmentStateResponse'),
+    UpdateJobShipmentStateResponse,
     newUpdateJobShipmentStateResponse,
 
     -- ** UpdateLongTermPricing
-    UpdateLongTermPricing (UpdateLongTermPricing'),
+    UpdateLongTermPricing,
     newUpdateLongTermPricing,
-    UpdateLongTermPricingResponse (UpdateLongTermPricingResponse'),
+    UpdateLongTermPricingResponse,
     newUpdateLongTermPricingResponse,
 
     -- * Types
@@ -260,111 +260,111 @@ module Amazonka.Snowball
     TransferOption (..),
 
     -- ** Address
-    Address (Address'),
+    Address,
     newAddress,
 
     -- ** ClusterListEntry
-    ClusterListEntry (ClusterListEntry'),
+    ClusterListEntry,
     newClusterListEntry,
 
     -- ** ClusterMetadata
-    ClusterMetadata (ClusterMetadata'),
+    ClusterMetadata,
     newClusterMetadata,
 
     -- ** CompatibleImage
-    CompatibleImage (CompatibleImage'),
+    CompatibleImage,
     newCompatibleImage,
 
     -- ** DataTransfer
-    DataTransfer (DataTransfer'),
+    DataTransfer,
     newDataTransfer,
 
     -- ** DeviceConfiguration
-    DeviceConfiguration (DeviceConfiguration'),
+    DeviceConfiguration,
     newDeviceConfiguration,
 
     -- ** Ec2AmiResource
-    Ec2AmiResource (Ec2AmiResource'),
+    Ec2AmiResource,
     newEc2AmiResource,
 
     -- ** EventTriggerDefinition
-    EventTriggerDefinition (EventTriggerDefinition'),
+    EventTriggerDefinition,
     newEventTriggerDefinition,
 
     -- ** INDTaxDocuments
-    INDTaxDocuments (INDTaxDocuments'),
+    INDTaxDocuments,
     newINDTaxDocuments,
 
     -- ** JobListEntry
-    JobListEntry (JobListEntry'),
+    JobListEntry,
     newJobListEntry,
 
     -- ** JobLogs
-    JobLogs (JobLogs'),
+    JobLogs,
     newJobLogs,
 
     -- ** JobMetadata
-    JobMetadata (JobMetadata'),
+    JobMetadata,
     newJobMetadata,
 
     -- ** JobResource
-    JobResource (JobResource'),
+    JobResource,
     newJobResource,
 
     -- ** KeyRange
-    KeyRange (KeyRange'),
+    KeyRange,
     newKeyRange,
 
     -- ** LambdaResource
-    LambdaResource (LambdaResource'),
+    LambdaResource,
     newLambdaResource,
 
     -- ** LongTermPricingListEntry
-    LongTermPricingListEntry (LongTermPricingListEntry'),
+    LongTermPricingListEntry,
     newLongTermPricingListEntry,
 
     -- ** NFSOnDeviceServiceConfiguration
-    NFSOnDeviceServiceConfiguration (NFSOnDeviceServiceConfiguration'),
+    NFSOnDeviceServiceConfiguration,
     newNFSOnDeviceServiceConfiguration,
 
     -- ** Notification
-    Notification (Notification'),
+    Notification,
     newNotification,
 
     -- ** OnDeviceServiceConfiguration
-    OnDeviceServiceConfiguration (OnDeviceServiceConfiguration'),
+    OnDeviceServiceConfiguration,
     newOnDeviceServiceConfiguration,
 
     -- ** S3Resource
-    S3Resource (S3Resource'),
+    S3Resource,
     newS3Resource,
 
     -- ** Shipment
-    Shipment (Shipment'),
+    Shipment,
     newShipment,
 
     -- ** ShippingDetails
-    ShippingDetails (ShippingDetails'),
+    ShippingDetails,
     newShippingDetails,
 
     -- ** SnowconeDeviceConfiguration
-    SnowconeDeviceConfiguration (SnowconeDeviceConfiguration'),
+    SnowconeDeviceConfiguration,
     newSnowconeDeviceConfiguration,
 
     -- ** TGWOnDeviceServiceConfiguration
-    TGWOnDeviceServiceConfiguration (TGWOnDeviceServiceConfiguration'),
+    TGWOnDeviceServiceConfiguration,
     newTGWOnDeviceServiceConfiguration,
 
     -- ** TargetOnDeviceService
-    TargetOnDeviceService (TargetOnDeviceService'),
+    TargetOnDeviceService,
     newTargetOnDeviceService,
 
     -- ** TaxDocuments
-    TaxDocuments (TaxDocuments'),
+    TaxDocuments,
     newTaxDocuments,
 
     -- ** WirelessConnection
-    WirelessConnection (WirelessConnection'),
+    WirelessConnection,
     newWirelessConnection,
   )
 where

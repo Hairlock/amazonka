@@ -70,177 +70,177 @@ module Amazonka.DataExchange
     -- $operations
 
     -- ** CancelJob
-    CancelJob (CancelJob'),
+    CancelJob,
     newCancelJob,
-    CancelJobResponse (CancelJobResponse'),
+    CancelJobResponse,
     newCancelJobResponse,
 
     -- ** CreateDataSet
-    CreateDataSet (CreateDataSet'),
+    CreateDataSet,
     newCreateDataSet,
-    CreateDataSetResponse (CreateDataSetResponse'),
+    CreateDataSetResponse,
     newCreateDataSetResponse,
 
     -- ** CreateEventAction
-    CreateEventAction (CreateEventAction'),
+    CreateEventAction,
     newCreateEventAction,
-    CreateEventActionResponse (CreateEventActionResponse'),
+    CreateEventActionResponse,
     newCreateEventActionResponse,
 
     -- ** CreateJob
-    CreateJob (CreateJob'),
+    CreateJob,
     newCreateJob,
-    CreateJobResponse (CreateJobResponse'),
+    CreateJobResponse,
     newCreateJobResponse,
 
     -- ** CreateRevision
-    CreateRevision (CreateRevision'),
+    CreateRevision,
     newCreateRevision,
-    CreateRevisionResponse (CreateRevisionResponse'),
+    CreateRevisionResponse,
     newCreateRevisionResponse,
 
     -- ** DeleteAsset
-    DeleteAsset (DeleteAsset'),
+    DeleteAsset,
     newDeleteAsset,
-    DeleteAssetResponse (DeleteAssetResponse'),
+    DeleteAssetResponse,
     newDeleteAssetResponse,
 
     -- ** DeleteDataSet
-    DeleteDataSet (DeleteDataSet'),
+    DeleteDataSet,
     newDeleteDataSet,
-    DeleteDataSetResponse (DeleteDataSetResponse'),
+    DeleteDataSetResponse,
     newDeleteDataSetResponse,
 
     -- ** DeleteEventAction
-    DeleteEventAction (DeleteEventAction'),
+    DeleteEventAction,
     newDeleteEventAction,
-    DeleteEventActionResponse (DeleteEventActionResponse'),
+    DeleteEventActionResponse,
     newDeleteEventActionResponse,
 
     -- ** DeleteRevision
-    DeleteRevision (DeleteRevision'),
+    DeleteRevision,
     newDeleteRevision,
-    DeleteRevisionResponse (DeleteRevisionResponse'),
+    DeleteRevisionResponse,
     newDeleteRevisionResponse,
 
     -- ** GetAsset
-    GetAsset (GetAsset'),
+    GetAsset,
     newGetAsset,
-    GetAssetResponse (GetAssetResponse'),
+    GetAssetResponse,
     newGetAssetResponse,
 
     -- ** GetDataSet
-    GetDataSet (GetDataSet'),
+    GetDataSet,
     newGetDataSet,
-    GetDataSetResponse (GetDataSetResponse'),
+    GetDataSetResponse,
     newGetDataSetResponse,
 
     -- ** GetEventAction
-    GetEventAction (GetEventAction'),
+    GetEventAction,
     newGetEventAction,
-    GetEventActionResponse (GetEventActionResponse'),
+    GetEventActionResponse,
     newGetEventActionResponse,
 
     -- ** GetJob
-    GetJob (GetJob'),
+    GetJob,
     newGetJob,
-    GetJobResponse (GetJobResponse'),
+    GetJobResponse,
     newGetJobResponse,
 
     -- ** GetRevision
-    GetRevision (GetRevision'),
+    GetRevision,
     newGetRevision,
-    GetRevisionResponse (GetRevisionResponse'),
+    GetRevisionResponse,
     newGetRevisionResponse,
 
     -- ** ListDataSetRevisions (Paginated)
-    ListDataSetRevisions (ListDataSetRevisions'),
+    ListDataSetRevisions,
     newListDataSetRevisions,
-    ListDataSetRevisionsResponse (ListDataSetRevisionsResponse'),
+    ListDataSetRevisionsResponse,
     newListDataSetRevisionsResponse,
 
     -- ** ListDataSets (Paginated)
-    ListDataSets (ListDataSets'),
+    ListDataSets,
     newListDataSets,
-    ListDataSetsResponse (ListDataSetsResponse'),
+    ListDataSetsResponse,
     newListDataSetsResponse,
 
     -- ** ListEventActions (Paginated)
-    ListEventActions (ListEventActions'),
+    ListEventActions,
     newListEventActions,
-    ListEventActionsResponse (ListEventActionsResponse'),
+    ListEventActionsResponse,
     newListEventActionsResponse,
 
     -- ** ListJobs (Paginated)
-    ListJobs (ListJobs'),
+    ListJobs,
     newListJobs,
-    ListJobsResponse (ListJobsResponse'),
+    ListJobsResponse,
     newListJobsResponse,
 
     -- ** ListRevisionAssets (Paginated)
-    ListRevisionAssets (ListRevisionAssets'),
+    ListRevisionAssets,
     newListRevisionAssets,
-    ListRevisionAssetsResponse (ListRevisionAssetsResponse'),
+    ListRevisionAssetsResponse,
     newListRevisionAssetsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** RevokeRevision
-    RevokeRevision (RevokeRevision'),
+    RevokeRevision,
     newRevokeRevision,
-    RevokeRevisionResponse (RevokeRevisionResponse'),
+    RevokeRevisionResponse,
     newRevokeRevisionResponse,
 
     -- ** SendApiAsset
-    SendApiAsset (SendApiAsset'),
+    SendApiAsset,
     newSendApiAsset,
-    SendApiAssetResponse (SendApiAssetResponse'),
+    SendApiAssetResponse,
     newSendApiAssetResponse,
 
     -- ** StartJob
-    StartJob (StartJob'),
+    StartJob,
     newStartJob,
-    StartJobResponse (StartJobResponse'),
+    StartJobResponse,
     newStartJobResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateAsset
-    UpdateAsset (UpdateAsset'),
+    UpdateAsset,
     newUpdateAsset,
-    UpdateAssetResponse (UpdateAssetResponse'),
+    UpdateAssetResponse,
     newUpdateAssetResponse,
 
     -- ** UpdateDataSet
-    UpdateDataSet (UpdateDataSet'),
+    UpdateDataSet,
     newUpdateDataSet,
-    UpdateDataSetResponse (UpdateDataSetResponse'),
+    UpdateDataSetResponse,
     newUpdateDataSetResponse,
 
     -- ** UpdateEventAction
-    UpdateEventAction (UpdateEventAction'),
+    UpdateEventAction,
     newUpdateEventAction,
-    UpdateEventActionResponse (UpdateEventActionResponse'),
+    UpdateEventActionResponse,
     newUpdateEventActionResponse,
 
     -- ** UpdateRevision
-    UpdateRevision (UpdateRevision'),
+    UpdateRevision,
     newUpdateRevision,
-    UpdateRevisionResponse (UpdateRevisionResponse'),
+    UpdateRevisionResponse,
     newUpdateRevisionResponse,
 
     -- * Types
@@ -288,219 +288,219 @@ module Amazonka.DataExchange
     Type (..),
 
     -- ** Action
-    Action (Action'),
+    Action,
     newAction,
 
     -- ** ApiGatewayApiAsset
-    ApiGatewayApiAsset (ApiGatewayApiAsset'),
+    ApiGatewayApiAsset,
     newApiGatewayApiAsset,
 
     -- ** AssetDestinationEntry
-    AssetDestinationEntry (AssetDestinationEntry'),
+    AssetDestinationEntry,
     newAssetDestinationEntry,
 
     -- ** AssetDetails
-    AssetDetails (AssetDetails'),
+    AssetDetails,
     newAssetDetails,
 
     -- ** AssetEntry
-    AssetEntry (AssetEntry'),
+    AssetEntry,
     newAssetEntry,
 
     -- ** AssetSourceEntry
-    AssetSourceEntry (AssetSourceEntry'),
+    AssetSourceEntry,
     newAssetSourceEntry,
 
     -- ** AutoExportRevisionDestinationEntry
-    AutoExportRevisionDestinationEntry (AutoExportRevisionDestinationEntry'),
+    AutoExportRevisionDestinationEntry,
     newAutoExportRevisionDestinationEntry,
 
     -- ** AutoExportRevisionToS3RequestDetails
-    AutoExportRevisionToS3RequestDetails (AutoExportRevisionToS3RequestDetails'),
+    AutoExportRevisionToS3RequestDetails,
     newAutoExportRevisionToS3RequestDetails,
 
     -- ** CreateS3DataAccessFromS3BucketRequestDetails
-    CreateS3DataAccessFromS3BucketRequestDetails (CreateS3DataAccessFromS3BucketRequestDetails'),
+    CreateS3DataAccessFromS3BucketRequestDetails,
     newCreateS3DataAccessFromS3BucketRequestDetails,
 
     -- ** CreateS3DataAccessFromS3BucketResponseDetails
-    CreateS3DataAccessFromS3BucketResponseDetails (CreateS3DataAccessFromS3BucketResponseDetails'),
+    CreateS3DataAccessFromS3BucketResponseDetails,
     newCreateS3DataAccessFromS3BucketResponseDetails,
 
     -- ** DataSetEntry
-    DataSetEntry (DataSetEntry'),
+    DataSetEntry,
     newDataSetEntry,
 
     -- ** DatabaseLFTagPolicy
-    DatabaseLFTagPolicy (DatabaseLFTagPolicy'),
+    DatabaseLFTagPolicy,
     newDatabaseLFTagPolicy,
 
     -- ** DatabaseLFTagPolicyAndPermissions
-    DatabaseLFTagPolicyAndPermissions (DatabaseLFTagPolicyAndPermissions'),
+    DatabaseLFTagPolicyAndPermissions,
     newDatabaseLFTagPolicyAndPermissions,
 
     -- ** Details
-    Details (Details'),
+    Details,
     newDetails,
 
     -- ** Event
-    Event (Event'),
+    Event,
     newEvent,
 
     -- ** EventActionEntry
-    EventActionEntry (EventActionEntry'),
+    EventActionEntry,
     newEventActionEntry,
 
     -- ** ExportAssetToSignedUrlRequestDetails
-    ExportAssetToSignedUrlRequestDetails (ExportAssetToSignedUrlRequestDetails'),
+    ExportAssetToSignedUrlRequestDetails,
     newExportAssetToSignedUrlRequestDetails,
 
     -- ** ExportAssetToSignedUrlResponseDetails
-    ExportAssetToSignedUrlResponseDetails (ExportAssetToSignedUrlResponseDetails'),
+    ExportAssetToSignedUrlResponseDetails,
     newExportAssetToSignedUrlResponseDetails,
 
     -- ** ExportAssetsToS3RequestDetails
-    ExportAssetsToS3RequestDetails (ExportAssetsToS3RequestDetails'),
+    ExportAssetsToS3RequestDetails,
     newExportAssetsToS3RequestDetails,
 
     -- ** ExportAssetsToS3ResponseDetails
-    ExportAssetsToS3ResponseDetails (ExportAssetsToS3ResponseDetails'),
+    ExportAssetsToS3ResponseDetails,
     newExportAssetsToS3ResponseDetails,
 
     -- ** ExportRevisionsToS3RequestDetails
-    ExportRevisionsToS3RequestDetails (ExportRevisionsToS3RequestDetails'),
+    ExportRevisionsToS3RequestDetails,
     newExportRevisionsToS3RequestDetails,
 
     -- ** ExportRevisionsToS3ResponseDetails
-    ExportRevisionsToS3ResponseDetails (ExportRevisionsToS3ResponseDetails'),
+    ExportRevisionsToS3ResponseDetails,
     newExportRevisionsToS3ResponseDetails,
 
     -- ** ExportServerSideEncryption
-    ExportServerSideEncryption (ExportServerSideEncryption'),
+    ExportServerSideEncryption,
     newExportServerSideEncryption,
 
     -- ** ImportAssetFromApiGatewayApiRequestDetails
-    ImportAssetFromApiGatewayApiRequestDetails (ImportAssetFromApiGatewayApiRequestDetails'),
+    ImportAssetFromApiGatewayApiRequestDetails,
     newImportAssetFromApiGatewayApiRequestDetails,
 
     -- ** ImportAssetFromApiGatewayApiResponseDetails
-    ImportAssetFromApiGatewayApiResponseDetails (ImportAssetFromApiGatewayApiResponseDetails'),
+    ImportAssetFromApiGatewayApiResponseDetails,
     newImportAssetFromApiGatewayApiResponseDetails,
 
     -- ** ImportAssetFromSignedUrlJobErrorDetails
-    ImportAssetFromSignedUrlJobErrorDetails (ImportAssetFromSignedUrlJobErrorDetails'),
+    ImportAssetFromSignedUrlJobErrorDetails,
     newImportAssetFromSignedUrlJobErrorDetails,
 
     -- ** ImportAssetFromSignedUrlRequestDetails
-    ImportAssetFromSignedUrlRequestDetails (ImportAssetFromSignedUrlRequestDetails'),
+    ImportAssetFromSignedUrlRequestDetails,
     newImportAssetFromSignedUrlRequestDetails,
 
     -- ** ImportAssetFromSignedUrlResponseDetails
-    ImportAssetFromSignedUrlResponseDetails (ImportAssetFromSignedUrlResponseDetails'),
+    ImportAssetFromSignedUrlResponseDetails,
     newImportAssetFromSignedUrlResponseDetails,
 
     -- ** ImportAssetsFromLakeFormationTagPolicyRequestDetails
-    ImportAssetsFromLakeFormationTagPolicyRequestDetails (ImportAssetsFromLakeFormationTagPolicyRequestDetails'),
+    ImportAssetsFromLakeFormationTagPolicyRequestDetails,
     newImportAssetsFromLakeFormationTagPolicyRequestDetails,
 
     -- ** ImportAssetsFromLakeFormationTagPolicyResponseDetails
-    ImportAssetsFromLakeFormationTagPolicyResponseDetails (ImportAssetsFromLakeFormationTagPolicyResponseDetails'),
+    ImportAssetsFromLakeFormationTagPolicyResponseDetails,
     newImportAssetsFromLakeFormationTagPolicyResponseDetails,
 
     -- ** ImportAssetsFromRedshiftDataSharesRequestDetails
-    ImportAssetsFromRedshiftDataSharesRequestDetails (ImportAssetsFromRedshiftDataSharesRequestDetails'),
+    ImportAssetsFromRedshiftDataSharesRequestDetails,
     newImportAssetsFromRedshiftDataSharesRequestDetails,
 
     -- ** ImportAssetsFromRedshiftDataSharesResponseDetails
-    ImportAssetsFromRedshiftDataSharesResponseDetails (ImportAssetsFromRedshiftDataSharesResponseDetails'),
+    ImportAssetsFromRedshiftDataSharesResponseDetails,
     newImportAssetsFromRedshiftDataSharesResponseDetails,
 
     -- ** ImportAssetsFromS3RequestDetails
-    ImportAssetsFromS3RequestDetails (ImportAssetsFromS3RequestDetails'),
+    ImportAssetsFromS3RequestDetails,
     newImportAssetsFromS3RequestDetails,
 
     -- ** ImportAssetsFromS3ResponseDetails
-    ImportAssetsFromS3ResponseDetails (ImportAssetsFromS3ResponseDetails'),
+    ImportAssetsFromS3ResponseDetails,
     newImportAssetsFromS3ResponseDetails,
 
     -- ** JobEntry
-    JobEntry (JobEntry'),
+    JobEntry,
     newJobEntry,
 
     -- ** JobError
-    JobError (JobError'),
+    JobError,
     newJobError,
 
     -- ** LFResourceDetails
-    LFResourceDetails (LFResourceDetails'),
+    LFResourceDetails,
     newLFResourceDetails,
 
     -- ** LFTag
-    LFTag (LFTag'),
+    LFTag,
     newLFTag,
 
     -- ** LFTagPolicyDetails
-    LFTagPolicyDetails (LFTagPolicyDetails'),
+    LFTagPolicyDetails,
     newLFTagPolicyDetails,
 
     -- ** LakeFormationDataPermissionAsset
-    LakeFormationDataPermissionAsset (LakeFormationDataPermissionAsset'),
+    LakeFormationDataPermissionAsset,
     newLakeFormationDataPermissionAsset,
 
     -- ** LakeFormationDataPermissionDetails
-    LakeFormationDataPermissionDetails (LakeFormationDataPermissionDetails'),
+    LakeFormationDataPermissionDetails,
     newLakeFormationDataPermissionDetails,
 
     -- ** OriginDetails
-    OriginDetails (OriginDetails'),
+    OriginDetails,
     newOriginDetails,
 
     -- ** RedshiftDataShareAsset
-    RedshiftDataShareAsset (RedshiftDataShareAsset'),
+    RedshiftDataShareAsset,
     newRedshiftDataShareAsset,
 
     -- ** RedshiftDataShareAssetSourceEntry
-    RedshiftDataShareAssetSourceEntry (RedshiftDataShareAssetSourceEntry'),
+    RedshiftDataShareAssetSourceEntry,
     newRedshiftDataShareAssetSourceEntry,
 
     -- ** RequestDetails
-    RequestDetails (RequestDetails'),
+    RequestDetails,
     newRequestDetails,
 
     -- ** ResponseDetails
-    ResponseDetails (ResponseDetails'),
+    ResponseDetails,
     newResponseDetails,
 
     -- ** RevisionDestinationEntry
-    RevisionDestinationEntry (RevisionDestinationEntry'),
+    RevisionDestinationEntry,
     newRevisionDestinationEntry,
 
     -- ** RevisionEntry
-    RevisionEntry (RevisionEntry'),
+    RevisionEntry,
     newRevisionEntry,
 
     -- ** RevisionPublished
-    RevisionPublished (RevisionPublished'),
+    RevisionPublished,
     newRevisionPublished,
 
     -- ** S3DataAccessAsset
-    S3DataAccessAsset (S3DataAccessAsset'),
+    S3DataAccessAsset,
     newS3DataAccessAsset,
 
     -- ** S3DataAccessAssetSourceEntry
-    S3DataAccessAssetSourceEntry (S3DataAccessAssetSourceEntry'),
+    S3DataAccessAssetSourceEntry,
     newS3DataAccessAssetSourceEntry,
 
     -- ** S3SnapshotAsset
-    S3SnapshotAsset (S3SnapshotAsset'),
+    S3SnapshotAsset,
     newS3SnapshotAsset,
 
     -- ** TableLFTagPolicy
-    TableLFTagPolicy (TableLFTagPolicy'),
+    TableLFTagPolicy,
     newTableLFTagPolicy,
 
     -- ** TableLFTagPolicyAndPermissions
-    TableLFTagPolicyAndPermissions (TableLFTagPolicyAndPermissions'),
+    TableLFTagPolicyAndPermissions,
     newTableLFTagPolicyAndPermissions,
   )
 where

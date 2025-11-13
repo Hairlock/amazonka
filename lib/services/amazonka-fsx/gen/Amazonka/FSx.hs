@@ -132,249 +132,249 @@ module Amazonka.FSx
     -- $operations
 
     -- ** AssociateFileSystemAliases
-    AssociateFileSystemAliases (AssociateFileSystemAliases'),
+    AssociateFileSystemAliases,
     newAssociateFileSystemAliases,
-    AssociateFileSystemAliasesResponse (AssociateFileSystemAliasesResponse'),
+    AssociateFileSystemAliasesResponse,
     newAssociateFileSystemAliasesResponse,
 
     -- ** CancelDataRepositoryTask
-    CancelDataRepositoryTask (CancelDataRepositoryTask'),
+    CancelDataRepositoryTask,
     newCancelDataRepositoryTask,
-    CancelDataRepositoryTaskResponse (CancelDataRepositoryTaskResponse'),
+    CancelDataRepositoryTaskResponse,
     newCancelDataRepositoryTaskResponse,
 
     -- ** CopyBackup
-    CopyBackup (CopyBackup'),
+    CopyBackup,
     newCopyBackup,
-    CopyBackupResponse (CopyBackupResponse'),
+    CopyBackupResponse,
     newCopyBackupResponse,
 
     -- ** CreateBackup
-    CreateBackup (CreateBackup'),
+    CreateBackup,
     newCreateBackup,
-    CreateBackupResponse (CreateBackupResponse'),
+    CreateBackupResponse,
     newCreateBackupResponse,
 
     -- ** CreateDataRepositoryAssociation
-    CreateDataRepositoryAssociation (CreateDataRepositoryAssociation'),
+    CreateDataRepositoryAssociation,
     newCreateDataRepositoryAssociation,
-    CreateDataRepositoryAssociationResponse (CreateDataRepositoryAssociationResponse'),
+    CreateDataRepositoryAssociationResponse,
     newCreateDataRepositoryAssociationResponse,
 
     -- ** CreateDataRepositoryTask
-    CreateDataRepositoryTask (CreateDataRepositoryTask'),
+    CreateDataRepositoryTask,
     newCreateDataRepositoryTask,
-    CreateDataRepositoryTaskResponse (CreateDataRepositoryTaskResponse'),
+    CreateDataRepositoryTaskResponse,
     newCreateDataRepositoryTaskResponse,
 
     -- ** CreateFileCache
-    CreateFileCache (CreateFileCache'),
+    CreateFileCache,
     newCreateFileCache,
-    CreateFileCacheResponse (CreateFileCacheResponse'),
+    CreateFileCacheResponse,
     newCreateFileCacheResponse,
 
     -- ** CreateFileSystem
-    CreateFileSystem (CreateFileSystem'),
+    CreateFileSystem,
     newCreateFileSystem,
-    CreateFileSystemResponse (CreateFileSystemResponse'),
+    CreateFileSystemResponse,
     newCreateFileSystemResponse,
 
     -- ** CreateFileSystemFromBackup
-    CreateFileSystemFromBackup (CreateFileSystemFromBackup'),
+    CreateFileSystemFromBackup,
     newCreateFileSystemFromBackup,
-    CreateFileSystemFromBackupResponse (CreateFileSystemFromBackupResponse'),
+    CreateFileSystemFromBackupResponse,
     newCreateFileSystemFromBackupResponse,
 
     -- ** CreateSnapshot
-    CreateSnapshot (CreateSnapshot'),
+    CreateSnapshot,
     newCreateSnapshot,
-    CreateSnapshotResponse (CreateSnapshotResponse'),
+    CreateSnapshotResponse,
     newCreateSnapshotResponse,
 
     -- ** CreateStorageVirtualMachine
-    CreateStorageVirtualMachine (CreateStorageVirtualMachine'),
+    CreateStorageVirtualMachine,
     newCreateStorageVirtualMachine,
-    CreateStorageVirtualMachineResponse (CreateStorageVirtualMachineResponse'),
+    CreateStorageVirtualMachineResponse,
     newCreateStorageVirtualMachineResponse,
 
     -- ** CreateVolume
-    CreateVolume (CreateVolume'),
+    CreateVolume,
     newCreateVolume,
-    CreateVolumeResponse (CreateVolumeResponse'),
+    CreateVolumeResponse,
     newCreateVolumeResponse,
 
     -- ** CreateVolumeFromBackup
-    CreateVolumeFromBackup (CreateVolumeFromBackup'),
+    CreateVolumeFromBackup,
     newCreateVolumeFromBackup,
-    CreateVolumeFromBackupResponse (CreateVolumeFromBackupResponse'),
+    CreateVolumeFromBackupResponse,
     newCreateVolumeFromBackupResponse,
 
     -- ** DeleteBackup
-    DeleteBackup (DeleteBackup'),
+    DeleteBackup,
     newDeleteBackup,
-    DeleteBackupResponse (DeleteBackupResponse'),
+    DeleteBackupResponse,
     newDeleteBackupResponse,
 
     -- ** DeleteDataRepositoryAssociation
-    DeleteDataRepositoryAssociation (DeleteDataRepositoryAssociation'),
+    DeleteDataRepositoryAssociation,
     newDeleteDataRepositoryAssociation,
-    DeleteDataRepositoryAssociationResponse (DeleteDataRepositoryAssociationResponse'),
+    DeleteDataRepositoryAssociationResponse,
     newDeleteDataRepositoryAssociationResponse,
 
     -- ** DeleteFileCache
-    DeleteFileCache (DeleteFileCache'),
+    DeleteFileCache,
     newDeleteFileCache,
-    DeleteFileCacheResponse (DeleteFileCacheResponse'),
+    DeleteFileCacheResponse,
     newDeleteFileCacheResponse,
 
     -- ** DeleteFileSystem
-    DeleteFileSystem (DeleteFileSystem'),
+    DeleteFileSystem,
     newDeleteFileSystem,
-    DeleteFileSystemResponse (DeleteFileSystemResponse'),
+    DeleteFileSystemResponse,
     newDeleteFileSystemResponse,
 
     -- ** DeleteSnapshot
-    DeleteSnapshot (DeleteSnapshot'),
+    DeleteSnapshot,
     newDeleteSnapshot,
-    DeleteSnapshotResponse (DeleteSnapshotResponse'),
+    DeleteSnapshotResponse,
     newDeleteSnapshotResponse,
 
     -- ** DeleteStorageVirtualMachine
-    DeleteStorageVirtualMachine (DeleteStorageVirtualMachine'),
+    DeleteStorageVirtualMachine,
     newDeleteStorageVirtualMachine,
-    DeleteStorageVirtualMachineResponse (DeleteStorageVirtualMachineResponse'),
+    DeleteStorageVirtualMachineResponse,
     newDeleteStorageVirtualMachineResponse,
 
     -- ** DeleteVolume
-    DeleteVolume (DeleteVolume'),
+    DeleteVolume,
     newDeleteVolume,
-    DeleteVolumeResponse (DeleteVolumeResponse'),
+    DeleteVolumeResponse,
     newDeleteVolumeResponse,
 
     -- ** DescribeBackups (Paginated)
-    DescribeBackups (DescribeBackups'),
+    DescribeBackups,
     newDescribeBackups,
-    DescribeBackupsResponse (DescribeBackupsResponse'),
+    DescribeBackupsResponse,
     newDescribeBackupsResponse,
 
     -- ** DescribeDataRepositoryAssociations
-    DescribeDataRepositoryAssociations (DescribeDataRepositoryAssociations'),
+    DescribeDataRepositoryAssociations,
     newDescribeDataRepositoryAssociations,
-    DescribeDataRepositoryAssociationsResponse (DescribeDataRepositoryAssociationsResponse'),
+    DescribeDataRepositoryAssociationsResponse,
     newDescribeDataRepositoryAssociationsResponse,
 
     -- ** DescribeDataRepositoryTasks
-    DescribeDataRepositoryTasks (DescribeDataRepositoryTasks'),
+    DescribeDataRepositoryTasks,
     newDescribeDataRepositoryTasks,
-    DescribeDataRepositoryTasksResponse (DescribeDataRepositoryTasksResponse'),
+    DescribeDataRepositoryTasksResponse,
     newDescribeDataRepositoryTasksResponse,
 
     -- ** DescribeFileCaches
-    DescribeFileCaches (DescribeFileCaches'),
+    DescribeFileCaches,
     newDescribeFileCaches,
-    DescribeFileCachesResponse (DescribeFileCachesResponse'),
+    DescribeFileCachesResponse,
     newDescribeFileCachesResponse,
 
     -- ** DescribeFileSystemAliases
-    DescribeFileSystemAliases (DescribeFileSystemAliases'),
+    DescribeFileSystemAliases,
     newDescribeFileSystemAliases,
-    DescribeFileSystemAliasesResponse (DescribeFileSystemAliasesResponse'),
+    DescribeFileSystemAliasesResponse,
     newDescribeFileSystemAliasesResponse,
 
     -- ** DescribeFileSystems (Paginated)
-    DescribeFileSystems (DescribeFileSystems'),
+    DescribeFileSystems,
     newDescribeFileSystems,
-    DescribeFileSystemsResponse (DescribeFileSystemsResponse'),
+    DescribeFileSystemsResponse,
     newDescribeFileSystemsResponse,
 
     -- ** DescribeSnapshots
-    DescribeSnapshots (DescribeSnapshots'),
+    DescribeSnapshots,
     newDescribeSnapshots,
-    DescribeSnapshotsResponse (DescribeSnapshotsResponse'),
+    DescribeSnapshotsResponse,
     newDescribeSnapshotsResponse,
 
     -- ** DescribeStorageVirtualMachines (Paginated)
-    DescribeStorageVirtualMachines (DescribeStorageVirtualMachines'),
+    DescribeStorageVirtualMachines,
     newDescribeStorageVirtualMachines,
-    DescribeStorageVirtualMachinesResponse (DescribeStorageVirtualMachinesResponse'),
+    DescribeStorageVirtualMachinesResponse,
     newDescribeStorageVirtualMachinesResponse,
 
     -- ** DescribeVolumes (Paginated)
-    DescribeVolumes (DescribeVolumes'),
+    DescribeVolumes,
     newDescribeVolumes,
-    DescribeVolumesResponse (DescribeVolumesResponse'),
+    DescribeVolumesResponse,
     newDescribeVolumesResponse,
 
     -- ** DisassociateFileSystemAliases
-    DisassociateFileSystemAliases (DisassociateFileSystemAliases'),
+    DisassociateFileSystemAliases,
     newDisassociateFileSystemAliases,
-    DisassociateFileSystemAliasesResponse (DisassociateFileSystemAliasesResponse'),
+    DisassociateFileSystemAliasesResponse,
     newDisassociateFileSystemAliasesResponse,
 
     -- ** ListTagsForResource (Paginated)
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** ReleaseFileSystemNfsV3Locks
-    ReleaseFileSystemNfsV3Locks (ReleaseFileSystemNfsV3Locks'),
+    ReleaseFileSystemNfsV3Locks,
     newReleaseFileSystemNfsV3Locks,
-    ReleaseFileSystemNfsV3LocksResponse (ReleaseFileSystemNfsV3LocksResponse'),
+    ReleaseFileSystemNfsV3LocksResponse,
     newReleaseFileSystemNfsV3LocksResponse,
 
     -- ** RestoreVolumeFromSnapshot
-    RestoreVolumeFromSnapshot (RestoreVolumeFromSnapshot'),
+    RestoreVolumeFromSnapshot,
     newRestoreVolumeFromSnapshot,
-    RestoreVolumeFromSnapshotResponse (RestoreVolumeFromSnapshotResponse'),
+    RestoreVolumeFromSnapshotResponse,
     newRestoreVolumeFromSnapshotResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateDataRepositoryAssociation
-    UpdateDataRepositoryAssociation (UpdateDataRepositoryAssociation'),
+    UpdateDataRepositoryAssociation,
     newUpdateDataRepositoryAssociation,
-    UpdateDataRepositoryAssociationResponse (UpdateDataRepositoryAssociationResponse'),
+    UpdateDataRepositoryAssociationResponse,
     newUpdateDataRepositoryAssociationResponse,
 
     -- ** UpdateFileCache
-    UpdateFileCache (UpdateFileCache'),
+    UpdateFileCache,
     newUpdateFileCache,
-    UpdateFileCacheResponse (UpdateFileCacheResponse'),
+    UpdateFileCacheResponse,
     newUpdateFileCacheResponse,
 
     -- ** UpdateFileSystem
-    UpdateFileSystem (UpdateFileSystem'),
+    UpdateFileSystem,
     newUpdateFileSystem,
-    UpdateFileSystemResponse (UpdateFileSystemResponse'),
+    UpdateFileSystemResponse,
     newUpdateFileSystemResponse,
 
     -- ** UpdateSnapshot
-    UpdateSnapshot (UpdateSnapshot'),
+    UpdateSnapshot,
     newUpdateSnapshot,
-    UpdateSnapshotResponse (UpdateSnapshotResponse'),
+    UpdateSnapshotResponse,
     newUpdateSnapshotResponse,
 
     -- ** UpdateStorageVirtualMachine
-    UpdateStorageVirtualMachine (UpdateStorageVirtualMachine'),
+    UpdateStorageVirtualMachine,
     newUpdateStorageVirtualMachine,
-    UpdateStorageVirtualMachineResponse (UpdateStorageVirtualMachineResponse'),
+    UpdateStorageVirtualMachineResponse,
     newUpdateStorageVirtualMachineResponse,
 
     -- ** UpdateVolume
-    UpdateVolume (UpdateVolume'),
+    UpdateVolume,
     newUpdateVolume,
-    UpdateVolumeResponse (UpdateVolumeResponse'),
+    UpdateVolumeResponse,
     newUpdateVolumeResponse,
 
     -- * Types
@@ -536,355 +536,355 @@ module Amazonka.FSx
     WindowsDeploymentType (..),
 
     -- ** ActiveDirectoryBackupAttributes
-    ActiveDirectoryBackupAttributes (ActiveDirectoryBackupAttributes'),
+    ActiveDirectoryBackupAttributes,
     newActiveDirectoryBackupAttributes,
 
     -- ** AdministrativeAction
-    AdministrativeAction (AdministrativeAction'),
+    AdministrativeAction,
     newAdministrativeAction,
 
     -- ** AdministrativeActionFailureDetails
-    AdministrativeActionFailureDetails (AdministrativeActionFailureDetails'),
+    AdministrativeActionFailureDetails,
     newAdministrativeActionFailureDetails,
 
     -- ** Alias
-    Alias (Alias'),
+    Alias,
     newAlias,
 
     -- ** AutoExportPolicy
-    AutoExportPolicy (AutoExportPolicy'),
+    AutoExportPolicy,
     newAutoExportPolicy,
 
     -- ** AutoImportPolicy
-    AutoImportPolicy (AutoImportPolicy'),
+    AutoImportPolicy,
     newAutoImportPolicy,
 
     -- ** Backup
-    Backup (Backup'),
+    Backup,
     newBackup,
 
     -- ** BackupFailureDetails
-    BackupFailureDetails (BackupFailureDetails'),
+    BackupFailureDetails,
     newBackupFailureDetails,
 
     -- ** CompletionReport
-    CompletionReport (CompletionReport'),
+    CompletionReport,
     newCompletionReport,
 
     -- ** CreateFileCacheLustreConfiguration
-    CreateFileCacheLustreConfiguration (CreateFileCacheLustreConfiguration'),
+    CreateFileCacheLustreConfiguration,
     newCreateFileCacheLustreConfiguration,
 
     -- ** CreateFileSystemLustreConfiguration
-    CreateFileSystemLustreConfiguration (CreateFileSystemLustreConfiguration'),
+    CreateFileSystemLustreConfiguration,
     newCreateFileSystemLustreConfiguration,
 
     -- ** CreateFileSystemOntapConfiguration
-    CreateFileSystemOntapConfiguration (CreateFileSystemOntapConfiguration'),
+    CreateFileSystemOntapConfiguration,
     newCreateFileSystemOntapConfiguration,
 
     -- ** CreateFileSystemOpenZFSConfiguration
-    CreateFileSystemOpenZFSConfiguration (CreateFileSystemOpenZFSConfiguration'),
+    CreateFileSystemOpenZFSConfiguration,
     newCreateFileSystemOpenZFSConfiguration,
 
     -- ** CreateFileSystemWindowsConfiguration
-    CreateFileSystemWindowsConfiguration (CreateFileSystemWindowsConfiguration'),
+    CreateFileSystemWindowsConfiguration,
     newCreateFileSystemWindowsConfiguration,
 
     -- ** CreateOntapVolumeConfiguration
-    CreateOntapVolumeConfiguration (CreateOntapVolumeConfiguration'),
+    CreateOntapVolumeConfiguration,
     newCreateOntapVolumeConfiguration,
 
     -- ** CreateOpenZFSOriginSnapshotConfiguration
-    CreateOpenZFSOriginSnapshotConfiguration (CreateOpenZFSOriginSnapshotConfiguration'),
+    CreateOpenZFSOriginSnapshotConfiguration,
     newCreateOpenZFSOriginSnapshotConfiguration,
 
     -- ** CreateOpenZFSVolumeConfiguration
-    CreateOpenZFSVolumeConfiguration (CreateOpenZFSVolumeConfiguration'),
+    CreateOpenZFSVolumeConfiguration,
     newCreateOpenZFSVolumeConfiguration,
 
     -- ** CreateSvmActiveDirectoryConfiguration
-    CreateSvmActiveDirectoryConfiguration (CreateSvmActiveDirectoryConfiguration'),
+    CreateSvmActiveDirectoryConfiguration,
     newCreateSvmActiveDirectoryConfiguration,
 
     -- ** DataRepositoryAssociation
-    DataRepositoryAssociation (DataRepositoryAssociation'),
+    DataRepositoryAssociation,
     newDataRepositoryAssociation,
 
     -- ** DataRepositoryConfiguration
-    DataRepositoryConfiguration (DataRepositoryConfiguration'),
+    DataRepositoryConfiguration,
     newDataRepositoryConfiguration,
 
     -- ** DataRepositoryFailureDetails
-    DataRepositoryFailureDetails (DataRepositoryFailureDetails'),
+    DataRepositoryFailureDetails,
     newDataRepositoryFailureDetails,
 
     -- ** DataRepositoryTask
-    DataRepositoryTask (DataRepositoryTask'),
+    DataRepositoryTask,
     newDataRepositoryTask,
 
     -- ** DataRepositoryTaskFailureDetails
-    DataRepositoryTaskFailureDetails (DataRepositoryTaskFailureDetails'),
+    DataRepositoryTaskFailureDetails,
     newDataRepositoryTaskFailureDetails,
 
     -- ** DataRepositoryTaskFilter
-    DataRepositoryTaskFilter (DataRepositoryTaskFilter'),
+    DataRepositoryTaskFilter,
     newDataRepositoryTaskFilter,
 
     -- ** DataRepositoryTaskStatus
-    DataRepositoryTaskStatus (DataRepositoryTaskStatus'),
+    DataRepositoryTaskStatus,
     newDataRepositoryTaskStatus,
 
     -- ** DeleteFileSystemLustreConfiguration
-    DeleteFileSystemLustreConfiguration (DeleteFileSystemLustreConfiguration'),
+    DeleteFileSystemLustreConfiguration,
     newDeleteFileSystemLustreConfiguration,
 
     -- ** DeleteFileSystemLustreResponse
-    DeleteFileSystemLustreResponse (DeleteFileSystemLustreResponse'),
+    DeleteFileSystemLustreResponse,
     newDeleteFileSystemLustreResponse,
 
     -- ** DeleteFileSystemOpenZFSConfiguration
-    DeleteFileSystemOpenZFSConfiguration (DeleteFileSystemOpenZFSConfiguration'),
+    DeleteFileSystemOpenZFSConfiguration,
     newDeleteFileSystemOpenZFSConfiguration,
 
     -- ** DeleteFileSystemOpenZFSResponse
-    DeleteFileSystemOpenZFSResponse (DeleteFileSystemOpenZFSResponse'),
+    DeleteFileSystemOpenZFSResponse,
     newDeleteFileSystemOpenZFSResponse,
 
     -- ** DeleteFileSystemWindowsConfiguration
-    DeleteFileSystemWindowsConfiguration (DeleteFileSystemWindowsConfiguration'),
+    DeleteFileSystemWindowsConfiguration,
     newDeleteFileSystemWindowsConfiguration,
 
     -- ** DeleteFileSystemWindowsResponse
-    DeleteFileSystemWindowsResponse (DeleteFileSystemWindowsResponse'),
+    DeleteFileSystemWindowsResponse,
     newDeleteFileSystemWindowsResponse,
 
     -- ** DeleteVolumeOntapConfiguration
-    DeleteVolumeOntapConfiguration (DeleteVolumeOntapConfiguration'),
+    DeleteVolumeOntapConfiguration,
     newDeleteVolumeOntapConfiguration,
 
     -- ** DeleteVolumeOntapResponse
-    DeleteVolumeOntapResponse (DeleteVolumeOntapResponse'),
+    DeleteVolumeOntapResponse,
     newDeleteVolumeOntapResponse,
 
     -- ** DeleteVolumeOpenZFSConfiguration
-    DeleteVolumeOpenZFSConfiguration (DeleteVolumeOpenZFSConfiguration'),
+    DeleteVolumeOpenZFSConfiguration,
     newDeleteVolumeOpenZFSConfiguration,
 
     -- ** DiskIopsConfiguration
-    DiskIopsConfiguration (DiskIopsConfiguration'),
+    DiskIopsConfiguration,
     newDiskIopsConfiguration,
 
     -- ** FileCache
-    FileCache (FileCache'),
+    FileCache,
     newFileCache,
 
     -- ** FileCacheCreating
-    FileCacheCreating (FileCacheCreating'),
+    FileCacheCreating,
     newFileCacheCreating,
 
     -- ** FileCacheDataRepositoryAssociation
-    FileCacheDataRepositoryAssociation (FileCacheDataRepositoryAssociation'),
+    FileCacheDataRepositoryAssociation,
     newFileCacheDataRepositoryAssociation,
 
     -- ** FileCacheFailureDetails
-    FileCacheFailureDetails (FileCacheFailureDetails'),
+    FileCacheFailureDetails,
     newFileCacheFailureDetails,
 
     -- ** FileCacheLustreConfiguration
-    FileCacheLustreConfiguration (FileCacheLustreConfiguration'),
+    FileCacheLustreConfiguration,
     newFileCacheLustreConfiguration,
 
     -- ** FileCacheLustreMetadataConfiguration
-    FileCacheLustreMetadataConfiguration (FileCacheLustreMetadataConfiguration'),
+    FileCacheLustreMetadataConfiguration,
     newFileCacheLustreMetadataConfiguration,
 
     -- ** FileCacheNFSConfiguration
-    FileCacheNFSConfiguration (FileCacheNFSConfiguration'),
+    FileCacheNFSConfiguration,
     newFileCacheNFSConfiguration,
 
     -- ** FileSystem
-    FileSystem (FileSystem'),
+    FileSystem,
     newFileSystem,
 
     -- ** FileSystemEndpoint
-    FileSystemEndpoint (FileSystemEndpoint'),
+    FileSystemEndpoint,
     newFileSystemEndpoint,
 
     -- ** FileSystemEndpoints
-    FileSystemEndpoints (FileSystemEndpoints'),
+    FileSystemEndpoints,
     newFileSystemEndpoints,
 
     -- ** FileSystemFailureDetails
-    FileSystemFailureDetails (FileSystemFailureDetails'),
+    FileSystemFailureDetails,
     newFileSystemFailureDetails,
 
     -- ** Filter
-    Filter (Filter'),
+    Filter,
     newFilter,
 
     -- ** LifecycleTransitionReason
-    LifecycleTransitionReason (LifecycleTransitionReason'),
+    LifecycleTransitionReason,
     newLifecycleTransitionReason,
 
     -- ** LustreFileSystemConfiguration
-    LustreFileSystemConfiguration (LustreFileSystemConfiguration'),
+    LustreFileSystemConfiguration,
     newLustreFileSystemConfiguration,
 
     -- ** LustreLogConfiguration
-    LustreLogConfiguration (LustreLogConfiguration'),
+    LustreLogConfiguration,
     newLustreLogConfiguration,
 
     -- ** LustreLogCreateConfiguration
-    LustreLogCreateConfiguration (LustreLogCreateConfiguration'),
+    LustreLogCreateConfiguration,
     newLustreLogCreateConfiguration,
 
     -- ** LustreRootSquashConfiguration
-    LustreRootSquashConfiguration (LustreRootSquashConfiguration'),
+    LustreRootSquashConfiguration,
     newLustreRootSquashConfiguration,
 
     -- ** NFSDataRepositoryConfiguration
-    NFSDataRepositoryConfiguration (NFSDataRepositoryConfiguration'),
+    NFSDataRepositoryConfiguration,
     newNFSDataRepositoryConfiguration,
 
     -- ** OntapFileSystemConfiguration
-    OntapFileSystemConfiguration (OntapFileSystemConfiguration'),
+    OntapFileSystemConfiguration,
     newOntapFileSystemConfiguration,
 
     -- ** OntapVolumeConfiguration
-    OntapVolumeConfiguration (OntapVolumeConfiguration'),
+    OntapVolumeConfiguration,
     newOntapVolumeConfiguration,
 
     -- ** OpenZFSClientConfiguration
-    OpenZFSClientConfiguration (OpenZFSClientConfiguration'),
+    OpenZFSClientConfiguration,
     newOpenZFSClientConfiguration,
 
     -- ** OpenZFSCreateRootVolumeConfiguration
-    OpenZFSCreateRootVolumeConfiguration (OpenZFSCreateRootVolumeConfiguration'),
+    OpenZFSCreateRootVolumeConfiguration,
     newOpenZFSCreateRootVolumeConfiguration,
 
     -- ** OpenZFSFileSystemConfiguration
-    OpenZFSFileSystemConfiguration (OpenZFSFileSystemConfiguration'),
+    OpenZFSFileSystemConfiguration,
     newOpenZFSFileSystemConfiguration,
 
     -- ** OpenZFSNfsExport
-    OpenZFSNfsExport (OpenZFSNfsExport'),
+    OpenZFSNfsExport,
     newOpenZFSNfsExport,
 
     -- ** OpenZFSOriginSnapshotConfiguration
-    OpenZFSOriginSnapshotConfiguration (OpenZFSOriginSnapshotConfiguration'),
+    OpenZFSOriginSnapshotConfiguration,
     newOpenZFSOriginSnapshotConfiguration,
 
     -- ** OpenZFSUserOrGroupQuota
-    OpenZFSUserOrGroupQuota (OpenZFSUserOrGroupQuota'),
+    OpenZFSUserOrGroupQuota,
     newOpenZFSUserOrGroupQuota,
 
     -- ** OpenZFSVolumeConfiguration
-    OpenZFSVolumeConfiguration (OpenZFSVolumeConfiguration'),
+    OpenZFSVolumeConfiguration,
     newOpenZFSVolumeConfiguration,
 
     -- ** S3DataRepositoryConfiguration
-    S3DataRepositoryConfiguration (S3DataRepositoryConfiguration'),
+    S3DataRepositoryConfiguration,
     newS3DataRepositoryConfiguration,
 
     -- ** SelfManagedActiveDirectoryAttributes
-    SelfManagedActiveDirectoryAttributes (SelfManagedActiveDirectoryAttributes'),
+    SelfManagedActiveDirectoryAttributes,
     newSelfManagedActiveDirectoryAttributes,
 
     -- ** SelfManagedActiveDirectoryConfiguration
-    SelfManagedActiveDirectoryConfiguration (SelfManagedActiveDirectoryConfiguration'),
+    SelfManagedActiveDirectoryConfiguration,
     newSelfManagedActiveDirectoryConfiguration,
 
     -- ** SelfManagedActiveDirectoryConfigurationUpdates
-    SelfManagedActiveDirectoryConfigurationUpdates (SelfManagedActiveDirectoryConfigurationUpdates'),
+    SelfManagedActiveDirectoryConfigurationUpdates,
     newSelfManagedActiveDirectoryConfigurationUpdates,
 
     -- ** Snapshot
-    Snapshot (Snapshot'),
+    Snapshot,
     newSnapshot,
 
     -- ** SnapshotFilter
-    SnapshotFilter (SnapshotFilter'),
+    SnapshotFilter,
     newSnapshotFilter,
 
     -- ** StorageVirtualMachine
-    StorageVirtualMachine (StorageVirtualMachine'),
+    StorageVirtualMachine,
     newStorageVirtualMachine,
 
     -- ** StorageVirtualMachineFilter
-    StorageVirtualMachineFilter (StorageVirtualMachineFilter'),
+    StorageVirtualMachineFilter,
     newStorageVirtualMachineFilter,
 
     -- ** SvmActiveDirectoryConfiguration
-    SvmActiveDirectoryConfiguration (SvmActiveDirectoryConfiguration'),
+    SvmActiveDirectoryConfiguration,
     newSvmActiveDirectoryConfiguration,
 
     -- ** SvmEndpoint
-    SvmEndpoint (SvmEndpoint'),
+    SvmEndpoint,
     newSvmEndpoint,
 
     -- ** SvmEndpoints
-    SvmEndpoints (SvmEndpoints'),
+    SvmEndpoints,
     newSvmEndpoints,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
 
     -- ** TieringPolicy
-    TieringPolicy (TieringPolicy'),
+    TieringPolicy,
     newTieringPolicy,
 
     -- ** UpdateFileCacheLustreConfiguration
-    UpdateFileCacheLustreConfiguration (UpdateFileCacheLustreConfiguration'),
+    UpdateFileCacheLustreConfiguration,
     newUpdateFileCacheLustreConfiguration,
 
     -- ** UpdateFileSystemLustreConfiguration
-    UpdateFileSystemLustreConfiguration (UpdateFileSystemLustreConfiguration'),
+    UpdateFileSystemLustreConfiguration,
     newUpdateFileSystemLustreConfiguration,
 
     -- ** UpdateFileSystemOntapConfiguration
-    UpdateFileSystemOntapConfiguration (UpdateFileSystemOntapConfiguration'),
+    UpdateFileSystemOntapConfiguration,
     newUpdateFileSystemOntapConfiguration,
 
     -- ** UpdateFileSystemOpenZFSConfiguration
-    UpdateFileSystemOpenZFSConfiguration (UpdateFileSystemOpenZFSConfiguration'),
+    UpdateFileSystemOpenZFSConfiguration,
     newUpdateFileSystemOpenZFSConfiguration,
 
     -- ** UpdateFileSystemWindowsConfiguration
-    UpdateFileSystemWindowsConfiguration (UpdateFileSystemWindowsConfiguration'),
+    UpdateFileSystemWindowsConfiguration,
     newUpdateFileSystemWindowsConfiguration,
 
     -- ** UpdateOntapVolumeConfiguration
-    UpdateOntapVolumeConfiguration (UpdateOntapVolumeConfiguration'),
+    UpdateOntapVolumeConfiguration,
     newUpdateOntapVolumeConfiguration,
 
     -- ** UpdateOpenZFSVolumeConfiguration
-    UpdateOpenZFSVolumeConfiguration (UpdateOpenZFSVolumeConfiguration'),
+    UpdateOpenZFSVolumeConfiguration,
     newUpdateOpenZFSVolumeConfiguration,
 
     -- ** UpdateSvmActiveDirectoryConfiguration
-    UpdateSvmActiveDirectoryConfiguration (UpdateSvmActiveDirectoryConfiguration'),
+    UpdateSvmActiveDirectoryConfiguration,
     newUpdateSvmActiveDirectoryConfiguration,
 
     -- ** Volume
-    Volume (Volume'),
+    Volume,
     newVolume,
 
     -- ** VolumeFilter
-    VolumeFilter (VolumeFilter'),
+    VolumeFilter,
     newVolumeFilter,
 
     -- ** WindowsAuditLogConfiguration
-    WindowsAuditLogConfiguration (WindowsAuditLogConfiguration'),
+    WindowsAuditLogConfiguration,
     newWindowsAuditLogConfiguration,
 
     -- ** WindowsAuditLogCreateConfiguration
-    WindowsAuditLogCreateConfiguration (WindowsAuditLogCreateConfiguration'),
+    WindowsAuditLogCreateConfiguration,
     newWindowsAuditLogCreateConfiguration,
 
     -- ** WindowsFileSystemConfiguration
-    WindowsFileSystemConfiguration (WindowsFileSystemConfiguration'),
+    WindowsFileSystemConfiguration,
     newWindowsFileSystemConfiguration,
   )
 where

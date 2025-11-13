@@ -50,231 +50,231 @@ module Amazonka.CustomerProfiles
     -- $operations
 
     -- ** AddProfileKey
-    AddProfileKey (AddProfileKey'),
+    AddProfileKey,
     newAddProfileKey,
-    AddProfileKeyResponse (AddProfileKeyResponse'),
+    AddProfileKeyResponse,
     newAddProfileKeyResponse,
 
     -- ** CreateDomain
-    CreateDomain (CreateDomain'),
+    CreateDomain,
     newCreateDomain,
-    CreateDomainResponse (CreateDomainResponse'),
+    CreateDomainResponse,
     newCreateDomainResponse,
 
     -- ** CreateIntegrationWorkflow
-    CreateIntegrationWorkflow (CreateIntegrationWorkflow'),
+    CreateIntegrationWorkflow,
     newCreateIntegrationWorkflow,
-    CreateIntegrationWorkflowResponse (CreateIntegrationWorkflowResponse'),
+    CreateIntegrationWorkflowResponse,
     newCreateIntegrationWorkflowResponse,
 
     -- ** CreateProfile
-    CreateProfile (CreateProfile'),
+    CreateProfile,
     newCreateProfile,
-    CreateProfileResponse (CreateProfileResponse'),
+    CreateProfileResponse,
     newCreateProfileResponse,
 
     -- ** DeleteDomain
-    DeleteDomain (DeleteDomain'),
+    DeleteDomain,
     newDeleteDomain,
-    DeleteDomainResponse (DeleteDomainResponse'),
+    DeleteDomainResponse,
     newDeleteDomainResponse,
 
     -- ** DeleteIntegration
-    DeleteIntegration (DeleteIntegration'),
+    DeleteIntegration,
     newDeleteIntegration,
-    DeleteIntegrationResponse (DeleteIntegrationResponse'),
+    DeleteIntegrationResponse,
     newDeleteIntegrationResponse,
 
     -- ** DeleteProfile
-    DeleteProfile (DeleteProfile'),
+    DeleteProfile,
     newDeleteProfile,
-    DeleteProfileResponse (DeleteProfileResponse'),
+    DeleteProfileResponse,
     newDeleteProfileResponse,
 
     -- ** DeleteProfileKey
-    DeleteProfileKey (DeleteProfileKey'),
+    DeleteProfileKey,
     newDeleteProfileKey,
-    DeleteProfileKeyResponse (DeleteProfileKeyResponse'),
+    DeleteProfileKeyResponse,
     newDeleteProfileKeyResponse,
 
     -- ** DeleteProfileObject
-    DeleteProfileObject (DeleteProfileObject'),
+    DeleteProfileObject,
     newDeleteProfileObject,
-    DeleteProfileObjectResponse (DeleteProfileObjectResponse'),
+    DeleteProfileObjectResponse,
     newDeleteProfileObjectResponse,
 
     -- ** DeleteProfileObjectType
-    DeleteProfileObjectType (DeleteProfileObjectType'),
+    DeleteProfileObjectType,
     newDeleteProfileObjectType,
-    DeleteProfileObjectTypeResponse (DeleteProfileObjectTypeResponse'),
+    DeleteProfileObjectTypeResponse,
     newDeleteProfileObjectTypeResponse,
 
     -- ** DeleteWorkflow
-    DeleteWorkflow (DeleteWorkflow'),
+    DeleteWorkflow,
     newDeleteWorkflow,
-    DeleteWorkflowResponse (DeleteWorkflowResponse'),
+    DeleteWorkflowResponse,
     newDeleteWorkflowResponse,
 
     -- ** GetAutoMergingPreview
-    GetAutoMergingPreview (GetAutoMergingPreview'),
+    GetAutoMergingPreview,
     newGetAutoMergingPreview,
-    GetAutoMergingPreviewResponse (GetAutoMergingPreviewResponse'),
+    GetAutoMergingPreviewResponse,
     newGetAutoMergingPreviewResponse,
 
     -- ** GetDomain
-    GetDomain (GetDomain'),
+    GetDomain,
     newGetDomain,
-    GetDomainResponse (GetDomainResponse'),
+    GetDomainResponse,
     newGetDomainResponse,
 
     -- ** GetIdentityResolutionJob
-    GetIdentityResolutionJob (GetIdentityResolutionJob'),
+    GetIdentityResolutionJob,
     newGetIdentityResolutionJob,
-    GetIdentityResolutionJobResponse (GetIdentityResolutionJobResponse'),
+    GetIdentityResolutionJobResponse,
     newGetIdentityResolutionJobResponse,
 
     -- ** GetIntegration
-    GetIntegration (GetIntegration'),
+    GetIntegration,
     newGetIntegration,
-    GetIntegrationResponse (GetIntegrationResponse'),
+    GetIntegrationResponse,
     newGetIntegrationResponse,
 
     -- ** GetMatches
-    GetMatches (GetMatches'),
+    GetMatches,
     newGetMatches,
-    GetMatchesResponse (GetMatchesResponse'),
+    GetMatchesResponse,
     newGetMatchesResponse,
 
     -- ** GetProfileObjectType
-    GetProfileObjectType (GetProfileObjectType'),
+    GetProfileObjectType,
     newGetProfileObjectType,
-    GetProfileObjectTypeResponse (GetProfileObjectTypeResponse'),
+    GetProfileObjectTypeResponse,
     newGetProfileObjectTypeResponse,
 
     -- ** GetProfileObjectTypeTemplate
-    GetProfileObjectTypeTemplate (GetProfileObjectTypeTemplate'),
+    GetProfileObjectTypeTemplate,
     newGetProfileObjectTypeTemplate,
-    GetProfileObjectTypeTemplateResponse (GetProfileObjectTypeTemplateResponse'),
+    GetProfileObjectTypeTemplateResponse,
     newGetProfileObjectTypeTemplateResponse,
 
     -- ** GetWorkflow
-    GetWorkflow (GetWorkflow'),
+    GetWorkflow,
     newGetWorkflow,
-    GetWorkflowResponse (GetWorkflowResponse'),
+    GetWorkflowResponse,
     newGetWorkflowResponse,
 
     -- ** GetWorkflowSteps
-    GetWorkflowSteps (GetWorkflowSteps'),
+    GetWorkflowSteps,
     newGetWorkflowSteps,
-    GetWorkflowStepsResponse (GetWorkflowStepsResponse'),
+    GetWorkflowStepsResponse,
     newGetWorkflowStepsResponse,
 
     -- ** ListAccountIntegrations
-    ListAccountIntegrations (ListAccountIntegrations'),
+    ListAccountIntegrations,
     newListAccountIntegrations,
-    ListAccountIntegrationsResponse (ListAccountIntegrationsResponse'),
+    ListAccountIntegrationsResponse,
     newListAccountIntegrationsResponse,
 
     -- ** ListDomains
-    ListDomains (ListDomains'),
+    ListDomains,
     newListDomains,
-    ListDomainsResponse (ListDomainsResponse'),
+    ListDomainsResponse,
     newListDomainsResponse,
 
     -- ** ListIdentityResolutionJobs
-    ListIdentityResolutionJobs (ListIdentityResolutionJobs'),
+    ListIdentityResolutionJobs,
     newListIdentityResolutionJobs,
-    ListIdentityResolutionJobsResponse (ListIdentityResolutionJobsResponse'),
+    ListIdentityResolutionJobsResponse,
     newListIdentityResolutionJobsResponse,
 
     -- ** ListIntegrations
-    ListIntegrations (ListIntegrations'),
+    ListIntegrations,
     newListIntegrations,
-    ListIntegrationsResponse (ListIntegrationsResponse'),
+    ListIntegrationsResponse,
     newListIntegrationsResponse,
 
     -- ** ListProfileObjectTypeTemplates
-    ListProfileObjectTypeTemplates (ListProfileObjectTypeTemplates'),
+    ListProfileObjectTypeTemplates,
     newListProfileObjectTypeTemplates,
-    ListProfileObjectTypeTemplatesResponse (ListProfileObjectTypeTemplatesResponse'),
+    ListProfileObjectTypeTemplatesResponse,
     newListProfileObjectTypeTemplatesResponse,
 
     -- ** ListProfileObjectTypes
-    ListProfileObjectTypes (ListProfileObjectTypes'),
+    ListProfileObjectTypes,
     newListProfileObjectTypes,
-    ListProfileObjectTypesResponse (ListProfileObjectTypesResponse'),
+    ListProfileObjectTypesResponse,
     newListProfileObjectTypesResponse,
 
     -- ** ListProfileObjects
-    ListProfileObjects (ListProfileObjects'),
+    ListProfileObjects,
     newListProfileObjects,
-    ListProfileObjectsResponse (ListProfileObjectsResponse'),
+    ListProfileObjectsResponse,
     newListProfileObjectsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** ListWorkflows
-    ListWorkflows (ListWorkflows'),
+    ListWorkflows,
     newListWorkflows,
-    ListWorkflowsResponse (ListWorkflowsResponse'),
+    ListWorkflowsResponse,
     newListWorkflowsResponse,
 
     -- ** MergeProfiles
-    MergeProfiles (MergeProfiles'),
+    MergeProfiles,
     newMergeProfiles,
-    MergeProfilesResponse (MergeProfilesResponse'),
+    MergeProfilesResponse,
     newMergeProfilesResponse,
 
     -- ** PutIntegration
-    PutIntegration (PutIntegration'),
+    PutIntegration,
     newPutIntegration,
-    PutIntegrationResponse (PutIntegrationResponse'),
+    PutIntegrationResponse,
     newPutIntegrationResponse,
 
     -- ** PutProfileObject
-    PutProfileObject (PutProfileObject'),
+    PutProfileObject,
     newPutProfileObject,
-    PutProfileObjectResponse (PutProfileObjectResponse'),
+    PutProfileObjectResponse,
     newPutProfileObjectResponse,
 
     -- ** PutProfileObjectType
-    PutProfileObjectType (PutProfileObjectType'),
+    PutProfileObjectType,
     newPutProfileObjectType,
-    PutProfileObjectTypeResponse (PutProfileObjectTypeResponse'),
+    PutProfileObjectTypeResponse,
     newPutProfileObjectTypeResponse,
 
     -- ** SearchProfiles
-    SearchProfiles (SearchProfiles'),
+    SearchProfiles,
     newSearchProfiles,
-    SearchProfilesResponse (SearchProfilesResponse'),
+    SearchProfilesResponse,
     newSearchProfilesResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateDomain
-    UpdateDomain (UpdateDomain'),
+    UpdateDomain,
     newUpdateDomain,
-    UpdateDomainResponse (UpdateDomainResponse'),
+    UpdateDomainResponse,
     newUpdateDomainResponse,
 
     -- ** UpdateProfile
-    UpdateProfile (UpdateProfile'),
+    UpdateProfile,
     newUpdateProfile,
-    UpdateProfileResponse (UpdateProfileResponse'),
+    UpdateProfileResponse,
     newUpdateProfileResponse,
 
     -- * Types
@@ -340,211 +340,211 @@ module Amazonka.CustomerProfiles
     ZendeskConnectorOperator (..),
 
     -- ** AdditionalSearchKey
-    AdditionalSearchKey (AdditionalSearchKey'),
+    AdditionalSearchKey,
     newAdditionalSearchKey,
 
     -- ** Address
-    Address (Address'),
+    Address,
     newAddress,
 
     -- ** AppflowIntegration
-    AppflowIntegration (AppflowIntegration'),
+    AppflowIntegration,
     newAppflowIntegration,
 
     -- ** AppflowIntegrationWorkflowAttributes
-    AppflowIntegrationWorkflowAttributes (AppflowIntegrationWorkflowAttributes'),
+    AppflowIntegrationWorkflowAttributes,
     newAppflowIntegrationWorkflowAttributes,
 
     -- ** AppflowIntegrationWorkflowMetrics
-    AppflowIntegrationWorkflowMetrics (AppflowIntegrationWorkflowMetrics'),
+    AppflowIntegrationWorkflowMetrics,
     newAppflowIntegrationWorkflowMetrics,
 
     -- ** AppflowIntegrationWorkflowStep
-    AppflowIntegrationWorkflowStep (AppflowIntegrationWorkflowStep'),
+    AppflowIntegrationWorkflowStep,
     newAppflowIntegrationWorkflowStep,
 
     -- ** AutoMerging
-    AutoMerging (AutoMerging'),
+    AutoMerging,
     newAutoMerging,
 
     -- ** Batch
-    Batch (Batch'),
+    Batch,
     newBatch,
 
     -- ** ConflictResolution
-    ConflictResolution (ConflictResolution'),
+    ConflictResolution,
     newConflictResolution,
 
     -- ** ConnectorOperator
-    ConnectorOperator (ConnectorOperator'),
+    ConnectorOperator,
     newConnectorOperator,
 
     -- ** Consolidation
-    Consolidation (Consolidation'),
+    Consolidation,
     newConsolidation,
 
     -- ** DomainStats
-    DomainStats (DomainStats'),
+    DomainStats,
     newDomainStats,
 
     -- ** ExportingConfig
-    ExportingConfig (ExportingConfig'),
+    ExportingConfig,
     newExportingConfig,
 
     -- ** ExportingLocation
-    ExportingLocation (ExportingLocation'),
+    ExportingLocation,
     newExportingLocation,
 
     -- ** FieldSourceProfileIds
-    FieldSourceProfileIds (FieldSourceProfileIds'),
+    FieldSourceProfileIds,
     newFieldSourceProfileIds,
 
     -- ** FlowDefinition
-    FlowDefinition (FlowDefinition'),
+    FlowDefinition,
     newFlowDefinition,
 
     -- ** FoundByKeyValue
-    FoundByKeyValue (FoundByKeyValue'),
+    FoundByKeyValue,
     newFoundByKeyValue,
 
     -- ** IdentityResolutionJob
-    IdentityResolutionJob (IdentityResolutionJob'),
+    IdentityResolutionJob,
     newIdentityResolutionJob,
 
     -- ** IncrementalPullConfig
-    IncrementalPullConfig (IncrementalPullConfig'),
+    IncrementalPullConfig,
     newIncrementalPullConfig,
 
     -- ** IntegrationConfig
-    IntegrationConfig (IntegrationConfig'),
+    IntegrationConfig,
     newIntegrationConfig,
 
     -- ** JobSchedule
-    JobSchedule (JobSchedule'),
+    JobSchedule,
     newJobSchedule,
 
     -- ** JobStats
-    JobStats (JobStats'),
+    JobStats,
     newJobStats,
 
     -- ** ListDomainItem
-    ListDomainItem (ListDomainItem'),
+    ListDomainItem,
     newListDomainItem,
 
     -- ** ListIntegrationItem
-    ListIntegrationItem (ListIntegrationItem'),
+    ListIntegrationItem,
     newListIntegrationItem,
 
     -- ** ListProfileObjectTypeItem
-    ListProfileObjectTypeItem (ListProfileObjectTypeItem'),
+    ListProfileObjectTypeItem,
     newListProfileObjectTypeItem,
 
     -- ** ListProfileObjectTypeTemplateItem
-    ListProfileObjectTypeTemplateItem (ListProfileObjectTypeTemplateItem'),
+    ListProfileObjectTypeTemplateItem,
     newListProfileObjectTypeTemplateItem,
 
     -- ** ListProfileObjectsItem
-    ListProfileObjectsItem (ListProfileObjectsItem'),
+    ListProfileObjectsItem,
     newListProfileObjectsItem,
 
     -- ** ListWorkflowsItem
-    ListWorkflowsItem (ListWorkflowsItem'),
+    ListWorkflowsItem,
     newListWorkflowsItem,
 
     -- ** MarketoSourceProperties
-    MarketoSourceProperties (MarketoSourceProperties'),
+    MarketoSourceProperties,
     newMarketoSourceProperties,
 
     -- ** MatchItem
-    MatchItem (MatchItem'),
+    MatchItem,
     newMatchItem,
 
     -- ** MatchingRequest
-    MatchingRequest (MatchingRequest'),
+    MatchingRequest,
     newMatchingRequest,
 
     -- ** MatchingResponse
-    MatchingResponse (MatchingResponse'),
+    MatchingResponse,
     newMatchingResponse,
 
     -- ** ObjectFilter
-    ObjectFilter (ObjectFilter'),
+    ObjectFilter,
     newObjectFilter,
 
     -- ** ObjectTypeField
-    ObjectTypeField (ObjectTypeField'),
+    ObjectTypeField,
     newObjectTypeField,
 
     -- ** ObjectTypeKey
-    ObjectTypeKey (ObjectTypeKey'),
+    ObjectTypeKey,
     newObjectTypeKey,
 
     -- ** Profile
-    Profile (Profile'),
+    Profile,
     newProfile,
 
     -- ** S3ExportingConfig
-    S3ExportingConfig (S3ExportingConfig'),
+    S3ExportingConfig,
     newS3ExportingConfig,
 
     -- ** S3ExportingLocation
-    S3ExportingLocation (S3ExportingLocation'),
+    S3ExportingLocation,
     newS3ExportingLocation,
 
     -- ** S3SourceProperties
-    S3SourceProperties (S3SourceProperties'),
+    S3SourceProperties,
     newS3SourceProperties,
 
     -- ** SalesforceSourceProperties
-    SalesforceSourceProperties (SalesforceSourceProperties'),
+    SalesforceSourceProperties,
     newSalesforceSourceProperties,
 
     -- ** ScheduledTriggerProperties
-    ScheduledTriggerProperties (ScheduledTriggerProperties'),
+    ScheduledTriggerProperties,
     newScheduledTriggerProperties,
 
     -- ** ServiceNowSourceProperties
-    ServiceNowSourceProperties (ServiceNowSourceProperties'),
+    ServiceNowSourceProperties,
     newServiceNowSourceProperties,
 
     -- ** SourceConnectorProperties
-    SourceConnectorProperties (SourceConnectorProperties'),
+    SourceConnectorProperties,
     newSourceConnectorProperties,
 
     -- ** SourceFlowConfig
-    SourceFlowConfig (SourceFlowConfig'),
+    SourceFlowConfig,
     newSourceFlowConfig,
 
     -- ** Task
-    Task (Task'),
+    Task,
     newTask,
 
     -- ** TriggerConfig
-    TriggerConfig (TriggerConfig'),
+    TriggerConfig,
     newTriggerConfig,
 
     -- ** TriggerProperties
-    TriggerProperties (TriggerProperties'),
+    TriggerProperties,
     newTriggerProperties,
 
     -- ** UpdateAddress
-    UpdateAddress (UpdateAddress'),
+    UpdateAddress,
     newUpdateAddress,
 
     -- ** WorkflowAttributes
-    WorkflowAttributes (WorkflowAttributes'),
+    WorkflowAttributes,
     newWorkflowAttributes,
 
     -- ** WorkflowMetrics
-    WorkflowMetrics (WorkflowMetrics'),
+    WorkflowMetrics,
     newWorkflowMetrics,
 
     -- ** WorkflowStepItem
-    WorkflowStepItem (WorkflowStepItem'),
+    WorkflowStepItem,
     newWorkflowStepItem,
 
     -- ** ZendeskSourceProperties
-    ZendeskSourceProperties (ZendeskSourceProperties'),
+    ZendeskSourceProperties,
     newZendeskSourceProperties,
   )
 where

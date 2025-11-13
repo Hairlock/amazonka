@@ -71,165 +71,165 @@ module Amazonka.ManagedBlockChain
     -- $operations
 
     -- ** CreateAccessor
-    CreateAccessor (CreateAccessor'),
+    CreateAccessor,
     newCreateAccessor,
-    CreateAccessorResponse (CreateAccessorResponse'),
+    CreateAccessorResponse,
     newCreateAccessorResponse,
 
     -- ** CreateMember
-    CreateMember (CreateMember'),
+    CreateMember,
     newCreateMember,
-    CreateMemberResponse (CreateMemberResponse'),
+    CreateMemberResponse,
     newCreateMemberResponse,
 
     -- ** CreateNetwork
-    CreateNetwork (CreateNetwork'),
+    CreateNetwork,
     newCreateNetwork,
-    CreateNetworkResponse (CreateNetworkResponse'),
+    CreateNetworkResponse,
     newCreateNetworkResponse,
 
     -- ** CreateNode
-    CreateNode (CreateNode'),
+    CreateNode,
     newCreateNode,
-    CreateNodeResponse (CreateNodeResponse'),
+    CreateNodeResponse,
     newCreateNodeResponse,
 
     -- ** CreateProposal
-    CreateProposal (CreateProposal'),
+    CreateProposal,
     newCreateProposal,
-    CreateProposalResponse (CreateProposalResponse'),
+    CreateProposalResponse,
     newCreateProposalResponse,
 
     -- ** DeleteAccessor
-    DeleteAccessor (DeleteAccessor'),
+    DeleteAccessor,
     newDeleteAccessor,
-    DeleteAccessorResponse (DeleteAccessorResponse'),
+    DeleteAccessorResponse,
     newDeleteAccessorResponse,
 
     -- ** DeleteMember
-    DeleteMember (DeleteMember'),
+    DeleteMember,
     newDeleteMember,
-    DeleteMemberResponse (DeleteMemberResponse'),
+    DeleteMemberResponse,
     newDeleteMemberResponse,
 
     -- ** DeleteNode
-    DeleteNode (DeleteNode'),
+    DeleteNode,
     newDeleteNode,
-    DeleteNodeResponse (DeleteNodeResponse'),
+    DeleteNodeResponse,
     newDeleteNodeResponse,
 
     -- ** GetAccessor
-    GetAccessor (GetAccessor'),
+    GetAccessor,
     newGetAccessor,
-    GetAccessorResponse (GetAccessorResponse'),
+    GetAccessorResponse,
     newGetAccessorResponse,
 
     -- ** GetMember
-    GetMember (GetMember'),
+    GetMember,
     newGetMember,
-    GetMemberResponse (GetMemberResponse'),
+    GetMemberResponse,
     newGetMemberResponse,
 
     -- ** GetNetwork
-    GetNetwork (GetNetwork'),
+    GetNetwork,
     newGetNetwork,
-    GetNetworkResponse (GetNetworkResponse'),
+    GetNetworkResponse,
     newGetNetworkResponse,
 
     -- ** GetNode
-    GetNode (GetNode'),
+    GetNode,
     newGetNode,
-    GetNodeResponse (GetNodeResponse'),
+    GetNodeResponse,
     newGetNodeResponse,
 
     -- ** GetProposal
-    GetProposal (GetProposal'),
+    GetProposal,
     newGetProposal,
-    GetProposalResponse (GetProposalResponse'),
+    GetProposalResponse,
     newGetProposalResponse,
 
     -- ** ListAccessors (Paginated)
-    ListAccessors (ListAccessors'),
+    ListAccessors,
     newListAccessors,
-    ListAccessorsResponse (ListAccessorsResponse'),
+    ListAccessorsResponse,
     newListAccessorsResponse,
 
     -- ** ListInvitations
-    ListInvitations (ListInvitations'),
+    ListInvitations,
     newListInvitations,
-    ListInvitationsResponse (ListInvitationsResponse'),
+    ListInvitationsResponse,
     newListInvitationsResponse,
 
     -- ** ListMembers
-    ListMembers (ListMembers'),
+    ListMembers,
     newListMembers,
-    ListMembersResponse (ListMembersResponse'),
+    ListMembersResponse,
     newListMembersResponse,
 
     -- ** ListNetworks
-    ListNetworks (ListNetworks'),
+    ListNetworks,
     newListNetworks,
-    ListNetworksResponse (ListNetworksResponse'),
+    ListNetworksResponse,
     newListNetworksResponse,
 
     -- ** ListNodes
-    ListNodes (ListNodes'),
+    ListNodes,
     newListNodes,
-    ListNodesResponse (ListNodesResponse'),
+    ListNodesResponse,
     newListNodesResponse,
 
     -- ** ListProposalVotes
-    ListProposalVotes (ListProposalVotes'),
+    ListProposalVotes,
     newListProposalVotes,
-    ListProposalVotesResponse (ListProposalVotesResponse'),
+    ListProposalVotesResponse,
     newListProposalVotesResponse,
 
     -- ** ListProposals
-    ListProposals (ListProposals'),
+    ListProposals,
     newListProposals,
-    ListProposalsResponse (ListProposalsResponse'),
+    ListProposalsResponse,
     newListProposalsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** RejectInvitation
-    RejectInvitation (RejectInvitation'),
+    RejectInvitation,
     newRejectInvitation,
-    RejectInvitationResponse (RejectInvitationResponse'),
+    RejectInvitationResponse,
     newRejectInvitationResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateMember
-    UpdateMember (UpdateMember'),
+    UpdateMember,
     newUpdateMember,
-    UpdateMemberResponse (UpdateMemberResponse'),
+    UpdateMemberResponse,
     newUpdateMemberResponse,
 
     -- ** UpdateNode
-    UpdateNode (UpdateNode'),
+    UpdateNode,
     newUpdateNode,
-    UpdateNodeResponse (UpdateNodeResponse'),
+    UpdateNodeResponse,
     newUpdateNodeResponse,
 
     -- ** VoteOnProposal
-    VoteOnProposal (VoteOnProposal'),
+    VoteOnProposal,
     newVoteOnProposal,
-    VoteOnProposalResponse (VoteOnProposalResponse'),
+    VoteOnProposalResponse,
     newVoteOnProposalResponse,
 
     -- * Types
@@ -271,151 +271,151 @@ module Amazonka.ManagedBlockChain
     VoteValue (..),
 
     -- ** Accessor
-    Accessor (Accessor'),
+    Accessor,
     newAccessor,
 
     -- ** AccessorSummary
-    AccessorSummary (AccessorSummary'),
+    AccessorSummary,
     newAccessorSummary,
 
     -- ** ApprovalThresholdPolicy
-    ApprovalThresholdPolicy (ApprovalThresholdPolicy'),
+    ApprovalThresholdPolicy,
     newApprovalThresholdPolicy,
 
     -- ** Invitation
-    Invitation (Invitation'),
+    Invitation,
     newInvitation,
 
     -- ** InviteAction
-    InviteAction (InviteAction'),
+    InviteAction,
     newInviteAction,
 
     -- ** LogConfiguration
-    LogConfiguration (LogConfiguration'),
+    LogConfiguration,
     newLogConfiguration,
 
     -- ** LogConfigurations
-    LogConfigurations (LogConfigurations'),
+    LogConfigurations,
     newLogConfigurations,
 
     -- ** Member
-    Member (Member'),
+    Member,
     newMember,
 
     -- ** MemberConfiguration
-    MemberConfiguration (MemberConfiguration'),
+    MemberConfiguration,
     newMemberConfiguration,
 
     -- ** MemberFabricAttributes
-    MemberFabricAttributes (MemberFabricAttributes'),
+    MemberFabricAttributes,
     newMemberFabricAttributes,
 
     -- ** MemberFabricConfiguration
-    MemberFabricConfiguration (MemberFabricConfiguration'),
+    MemberFabricConfiguration,
     newMemberFabricConfiguration,
 
     -- ** MemberFabricLogPublishingConfiguration
-    MemberFabricLogPublishingConfiguration (MemberFabricLogPublishingConfiguration'),
+    MemberFabricLogPublishingConfiguration,
     newMemberFabricLogPublishingConfiguration,
 
     -- ** MemberFrameworkAttributes
-    MemberFrameworkAttributes (MemberFrameworkAttributes'),
+    MemberFrameworkAttributes,
     newMemberFrameworkAttributes,
 
     -- ** MemberFrameworkConfiguration
-    MemberFrameworkConfiguration (MemberFrameworkConfiguration'),
+    MemberFrameworkConfiguration,
     newMemberFrameworkConfiguration,
 
     -- ** MemberLogPublishingConfiguration
-    MemberLogPublishingConfiguration (MemberLogPublishingConfiguration'),
+    MemberLogPublishingConfiguration,
     newMemberLogPublishingConfiguration,
 
     -- ** MemberSummary
-    MemberSummary (MemberSummary'),
+    MemberSummary,
     newMemberSummary,
 
     -- ** Network
-    Network (Network'),
+    Network,
     newNetwork,
 
     -- ** NetworkEthereumAttributes
-    NetworkEthereumAttributes (NetworkEthereumAttributes'),
+    NetworkEthereumAttributes,
     newNetworkEthereumAttributes,
 
     -- ** NetworkFabricAttributes
-    NetworkFabricAttributes (NetworkFabricAttributes'),
+    NetworkFabricAttributes,
     newNetworkFabricAttributes,
 
     -- ** NetworkFabricConfiguration
-    NetworkFabricConfiguration (NetworkFabricConfiguration'),
+    NetworkFabricConfiguration,
     newNetworkFabricConfiguration,
 
     -- ** NetworkFrameworkAttributes
-    NetworkFrameworkAttributes (NetworkFrameworkAttributes'),
+    NetworkFrameworkAttributes,
     newNetworkFrameworkAttributes,
 
     -- ** NetworkFrameworkConfiguration
-    NetworkFrameworkConfiguration (NetworkFrameworkConfiguration'),
+    NetworkFrameworkConfiguration,
     newNetworkFrameworkConfiguration,
 
     -- ** NetworkSummary
-    NetworkSummary (NetworkSummary'),
+    NetworkSummary,
     newNetworkSummary,
 
     -- ** Node
-    Node (Node'),
+    Node,
     newNode,
 
     -- ** NodeConfiguration
-    NodeConfiguration (NodeConfiguration'),
+    NodeConfiguration,
     newNodeConfiguration,
 
     -- ** NodeEthereumAttributes
-    NodeEthereumAttributes (NodeEthereumAttributes'),
+    NodeEthereumAttributes,
     newNodeEthereumAttributes,
 
     -- ** NodeFabricAttributes
-    NodeFabricAttributes (NodeFabricAttributes'),
+    NodeFabricAttributes,
     newNodeFabricAttributes,
 
     -- ** NodeFabricLogPublishingConfiguration
-    NodeFabricLogPublishingConfiguration (NodeFabricLogPublishingConfiguration'),
+    NodeFabricLogPublishingConfiguration,
     newNodeFabricLogPublishingConfiguration,
 
     -- ** NodeFrameworkAttributes
-    NodeFrameworkAttributes (NodeFrameworkAttributes'),
+    NodeFrameworkAttributes,
     newNodeFrameworkAttributes,
 
     -- ** NodeLogPublishingConfiguration
-    NodeLogPublishingConfiguration (NodeLogPublishingConfiguration'),
+    NodeLogPublishingConfiguration,
     newNodeLogPublishingConfiguration,
 
     -- ** NodeSummary
-    NodeSummary (NodeSummary'),
+    NodeSummary,
     newNodeSummary,
 
     -- ** Proposal
-    Proposal (Proposal'),
+    Proposal,
     newProposal,
 
     -- ** ProposalActions
-    ProposalActions (ProposalActions'),
+    ProposalActions,
     newProposalActions,
 
     -- ** ProposalSummary
-    ProposalSummary (ProposalSummary'),
+    ProposalSummary,
     newProposalSummary,
 
     -- ** RemoveAction
-    RemoveAction (RemoveAction'),
+    RemoveAction,
     newRemoveAction,
 
     -- ** VoteSummary
-    VoteSummary (VoteSummary'),
+    VoteSummary,
     newVoteSummary,
 
     -- ** VotingPolicy
-    VotingPolicy (VotingPolicy'),
+    VotingPolicy,
     newVotingPolicy,
   )
 where

@@ -48,267 +48,267 @@ module Amazonka.DataBrew
     -- $operations
 
     -- ** BatchDeleteRecipeVersion
-    BatchDeleteRecipeVersion (BatchDeleteRecipeVersion'),
+    BatchDeleteRecipeVersion,
     newBatchDeleteRecipeVersion,
-    BatchDeleteRecipeVersionResponse (BatchDeleteRecipeVersionResponse'),
+    BatchDeleteRecipeVersionResponse,
     newBatchDeleteRecipeVersionResponse,
 
     -- ** CreateDataset
-    CreateDataset (CreateDataset'),
+    CreateDataset,
     newCreateDataset,
-    CreateDatasetResponse (CreateDatasetResponse'),
+    CreateDatasetResponse,
     newCreateDatasetResponse,
 
     -- ** CreateProfileJob
-    CreateProfileJob (CreateProfileJob'),
+    CreateProfileJob,
     newCreateProfileJob,
-    CreateProfileJobResponse (CreateProfileJobResponse'),
+    CreateProfileJobResponse,
     newCreateProfileJobResponse,
 
     -- ** CreateProject
-    CreateProject (CreateProject'),
+    CreateProject,
     newCreateProject,
-    CreateProjectResponse (CreateProjectResponse'),
+    CreateProjectResponse,
     newCreateProjectResponse,
 
     -- ** CreateRecipe
-    CreateRecipe (CreateRecipe'),
+    CreateRecipe,
     newCreateRecipe,
-    CreateRecipeResponse (CreateRecipeResponse'),
+    CreateRecipeResponse,
     newCreateRecipeResponse,
 
     -- ** CreateRecipeJob
-    CreateRecipeJob (CreateRecipeJob'),
+    CreateRecipeJob,
     newCreateRecipeJob,
-    CreateRecipeJobResponse (CreateRecipeJobResponse'),
+    CreateRecipeJobResponse,
     newCreateRecipeJobResponse,
 
     -- ** CreateRuleset
-    CreateRuleset (CreateRuleset'),
+    CreateRuleset,
     newCreateRuleset,
-    CreateRulesetResponse (CreateRulesetResponse'),
+    CreateRulesetResponse,
     newCreateRulesetResponse,
 
     -- ** CreateSchedule
-    CreateSchedule (CreateSchedule'),
+    CreateSchedule,
     newCreateSchedule,
-    CreateScheduleResponse (CreateScheduleResponse'),
+    CreateScheduleResponse,
     newCreateScheduleResponse,
 
     -- ** DeleteDataset
-    DeleteDataset (DeleteDataset'),
+    DeleteDataset,
     newDeleteDataset,
-    DeleteDatasetResponse (DeleteDatasetResponse'),
+    DeleteDatasetResponse,
     newDeleteDatasetResponse,
 
     -- ** DeleteJob
-    DeleteJob (DeleteJob'),
+    DeleteJob,
     newDeleteJob,
-    DeleteJobResponse (DeleteJobResponse'),
+    DeleteJobResponse,
     newDeleteJobResponse,
 
     -- ** DeleteProject
-    DeleteProject (DeleteProject'),
+    DeleteProject,
     newDeleteProject,
-    DeleteProjectResponse (DeleteProjectResponse'),
+    DeleteProjectResponse,
     newDeleteProjectResponse,
 
     -- ** DeleteRecipeVersion
-    DeleteRecipeVersion (DeleteRecipeVersion'),
+    DeleteRecipeVersion,
     newDeleteRecipeVersion,
-    DeleteRecipeVersionResponse (DeleteRecipeVersionResponse'),
+    DeleteRecipeVersionResponse,
     newDeleteRecipeVersionResponse,
 
     -- ** DeleteRuleset
-    DeleteRuleset (DeleteRuleset'),
+    DeleteRuleset,
     newDeleteRuleset,
-    DeleteRulesetResponse (DeleteRulesetResponse'),
+    DeleteRulesetResponse,
     newDeleteRulesetResponse,
 
     -- ** DeleteSchedule
-    DeleteSchedule (DeleteSchedule'),
+    DeleteSchedule,
     newDeleteSchedule,
-    DeleteScheduleResponse (DeleteScheduleResponse'),
+    DeleteScheduleResponse,
     newDeleteScheduleResponse,
 
     -- ** DescribeDataset
-    DescribeDataset (DescribeDataset'),
+    DescribeDataset,
     newDescribeDataset,
-    DescribeDatasetResponse (DescribeDatasetResponse'),
+    DescribeDatasetResponse,
     newDescribeDatasetResponse,
 
     -- ** DescribeJob
-    DescribeJob (DescribeJob'),
+    DescribeJob,
     newDescribeJob,
-    DescribeJobResponse (DescribeJobResponse'),
+    DescribeJobResponse,
     newDescribeJobResponse,
 
     -- ** DescribeJobRun
-    DescribeJobRun (DescribeJobRun'),
+    DescribeJobRun,
     newDescribeJobRun,
-    DescribeJobRunResponse (DescribeJobRunResponse'),
+    DescribeJobRunResponse,
     newDescribeJobRunResponse,
 
     -- ** DescribeProject
-    DescribeProject (DescribeProject'),
+    DescribeProject,
     newDescribeProject,
-    DescribeProjectResponse (DescribeProjectResponse'),
+    DescribeProjectResponse,
     newDescribeProjectResponse,
 
     -- ** DescribeRecipe
-    DescribeRecipe (DescribeRecipe'),
+    DescribeRecipe,
     newDescribeRecipe,
-    DescribeRecipeResponse (DescribeRecipeResponse'),
+    DescribeRecipeResponse,
     newDescribeRecipeResponse,
 
     -- ** DescribeRuleset
-    DescribeRuleset (DescribeRuleset'),
+    DescribeRuleset,
     newDescribeRuleset,
-    DescribeRulesetResponse (DescribeRulesetResponse'),
+    DescribeRulesetResponse,
     newDescribeRulesetResponse,
 
     -- ** DescribeSchedule
-    DescribeSchedule (DescribeSchedule'),
+    DescribeSchedule,
     newDescribeSchedule,
-    DescribeScheduleResponse (DescribeScheduleResponse'),
+    DescribeScheduleResponse,
     newDescribeScheduleResponse,
 
     -- ** ListDatasets (Paginated)
-    ListDatasets (ListDatasets'),
+    ListDatasets,
     newListDatasets,
-    ListDatasetsResponse (ListDatasetsResponse'),
+    ListDatasetsResponse,
     newListDatasetsResponse,
 
     -- ** ListJobRuns (Paginated)
-    ListJobRuns (ListJobRuns'),
+    ListJobRuns,
     newListJobRuns,
-    ListJobRunsResponse (ListJobRunsResponse'),
+    ListJobRunsResponse,
     newListJobRunsResponse,
 
     -- ** ListJobs (Paginated)
-    ListJobs (ListJobs'),
+    ListJobs,
     newListJobs,
-    ListJobsResponse (ListJobsResponse'),
+    ListJobsResponse,
     newListJobsResponse,
 
     -- ** ListProjects (Paginated)
-    ListProjects (ListProjects'),
+    ListProjects,
     newListProjects,
-    ListProjectsResponse (ListProjectsResponse'),
+    ListProjectsResponse,
     newListProjectsResponse,
 
     -- ** ListRecipeVersions (Paginated)
-    ListRecipeVersions (ListRecipeVersions'),
+    ListRecipeVersions,
     newListRecipeVersions,
-    ListRecipeVersionsResponse (ListRecipeVersionsResponse'),
+    ListRecipeVersionsResponse,
     newListRecipeVersionsResponse,
 
     -- ** ListRecipes (Paginated)
-    ListRecipes (ListRecipes'),
+    ListRecipes,
     newListRecipes,
-    ListRecipesResponse (ListRecipesResponse'),
+    ListRecipesResponse,
     newListRecipesResponse,
 
     -- ** ListRulesets (Paginated)
-    ListRulesets (ListRulesets'),
+    ListRulesets,
     newListRulesets,
-    ListRulesetsResponse (ListRulesetsResponse'),
+    ListRulesetsResponse,
     newListRulesetsResponse,
 
     -- ** ListSchedules (Paginated)
-    ListSchedules (ListSchedules'),
+    ListSchedules,
     newListSchedules,
-    ListSchedulesResponse (ListSchedulesResponse'),
+    ListSchedulesResponse,
     newListSchedulesResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** PublishRecipe
-    PublishRecipe (PublishRecipe'),
+    PublishRecipe,
     newPublishRecipe,
-    PublishRecipeResponse (PublishRecipeResponse'),
+    PublishRecipeResponse,
     newPublishRecipeResponse,
 
     -- ** SendProjectSessionAction
-    SendProjectSessionAction (SendProjectSessionAction'),
+    SendProjectSessionAction,
     newSendProjectSessionAction,
-    SendProjectSessionActionResponse (SendProjectSessionActionResponse'),
+    SendProjectSessionActionResponse,
     newSendProjectSessionActionResponse,
 
     -- ** StartJobRun
-    StartJobRun (StartJobRun'),
+    StartJobRun,
     newStartJobRun,
-    StartJobRunResponse (StartJobRunResponse'),
+    StartJobRunResponse,
     newStartJobRunResponse,
 
     -- ** StartProjectSession
-    StartProjectSession (StartProjectSession'),
+    StartProjectSession,
     newStartProjectSession,
-    StartProjectSessionResponse (StartProjectSessionResponse'),
+    StartProjectSessionResponse,
     newStartProjectSessionResponse,
 
     -- ** StopJobRun
-    StopJobRun (StopJobRun'),
+    StopJobRun,
     newStopJobRun,
-    StopJobRunResponse (StopJobRunResponse'),
+    StopJobRunResponse,
     newStopJobRunResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateDataset
-    UpdateDataset (UpdateDataset'),
+    UpdateDataset,
     newUpdateDataset,
-    UpdateDatasetResponse (UpdateDatasetResponse'),
+    UpdateDatasetResponse,
     newUpdateDatasetResponse,
 
     -- ** UpdateProfileJob
-    UpdateProfileJob (UpdateProfileJob'),
+    UpdateProfileJob,
     newUpdateProfileJob,
-    UpdateProfileJobResponse (UpdateProfileJobResponse'),
+    UpdateProfileJobResponse,
     newUpdateProfileJobResponse,
 
     -- ** UpdateProject
-    UpdateProject (UpdateProject'),
+    UpdateProject,
     newUpdateProject,
-    UpdateProjectResponse (UpdateProjectResponse'),
+    UpdateProjectResponse,
     newUpdateProjectResponse,
 
     -- ** UpdateRecipe
-    UpdateRecipe (UpdateRecipe'),
+    UpdateRecipe,
     newUpdateRecipe,
-    UpdateRecipeResponse (UpdateRecipeResponse'),
+    UpdateRecipeResponse,
     newUpdateRecipeResponse,
 
     -- ** UpdateRecipeJob
-    UpdateRecipeJob (UpdateRecipeJob'),
+    UpdateRecipeJob,
     newUpdateRecipeJob,
-    UpdateRecipeJobResponse (UpdateRecipeJobResponse'),
+    UpdateRecipeJobResponse,
     newUpdateRecipeJobResponse,
 
     -- ** UpdateRuleset
-    UpdateRuleset (UpdateRuleset'),
+    UpdateRuleset,
     newUpdateRuleset,
-    UpdateRulesetResponse (UpdateRulesetResponse'),
+    UpdateRulesetResponse,
     newUpdateRulesetResponse,
 
     -- ** UpdateSchedule
-    UpdateSchedule (UpdateSchedule'),
+    UpdateSchedule,
     newUpdateSchedule,
-    UpdateScheduleResponse (UpdateScheduleResponse'),
+    UpdateScheduleResponse,
     newUpdateScheduleResponse,
 
     -- * Types
@@ -371,187 +371,187 @@ module Amazonka.DataBrew
     ValidationMode (..),
 
     -- ** AllowedStatistics
-    AllowedStatistics (AllowedStatistics'),
+    AllowedStatistics,
     newAllowedStatistics,
 
     -- ** ColumnSelector
-    ColumnSelector (ColumnSelector'),
+    ColumnSelector,
     newColumnSelector,
 
     -- ** ColumnStatisticsConfiguration
-    ColumnStatisticsConfiguration (ColumnStatisticsConfiguration'),
+    ColumnStatisticsConfiguration,
     newColumnStatisticsConfiguration,
 
     -- ** ConditionExpression
-    ConditionExpression (ConditionExpression'),
+    ConditionExpression,
     newConditionExpression,
 
     -- ** CsvOptions
-    CsvOptions (CsvOptions'),
+    CsvOptions,
     newCsvOptions,
 
     -- ** CsvOutputOptions
-    CsvOutputOptions (CsvOutputOptions'),
+    CsvOutputOptions,
     newCsvOutputOptions,
 
     -- ** DataCatalogInputDefinition
-    DataCatalogInputDefinition (DataCatalogInputDefinition'),
+    DataCatalogInputDefinition,
     newDataCatalogInputDefinition,
 
     -- ** DataCatalogOutput
-    DataCatalogOutput (DataCatalogOutput'),
+    DataCatalogOutput,
     newDataCatalogOutput,
 
     -- ** DatabaseInputDefinition
-    DatabaseInputDefinition (DatabaseInputDefinition'),
+    DatabaseInputDefinition,
     newDatabaseInputDefinition,
 
     -- ** DatabaseOutput
-    DatabaseOutput (DatabaseOutput'),
+    DatabaseOutput,
     newDatabaseOutput,
 
     -- ** DatabaseTableOutputOptions
-    DatabaseTableOutputOptions (DatabaseTableOutputOptions'),
+    DatabaseTableOutputOptions,
     newDatabaseTableOutputOptions,
 
     -- ** Dataset
-    Dataset (Dataset'),
+    Dataset,
     newDataset,
 
     -- ** DatasetParameter
-    DatasetParameter (DatasetParameter'),
+    DatasetParameter,
     newDatasetParameter,
 
     -- ** DatetimeOptions
-    DatetimeOptions (DatetimeOptions'),
+    DatetimeOptions,
     newDatetimeOptions,
 
     -- ** EntityDetectorConfiguration
-    EntityDetectorConfiguration (EntityDetectorConfiguration'),
+    EntityDetectorConfiguration,
     newEntityDetectorConfiguration,
 
     -- ** ExcelOptions
-    ExcelOptions (ExcelOptions'),
+    ExcelOptions,
     newExcelOptions,
 
     -- ** FilesLimit
-    FilesLimit (FilesLimit'),
+    FilesLimit,
     newFilesLimit,
 
     -- ** FilterExpression
-    FilterExpression (FilterExpression'),
+    FilterExpression,
     newFilterExpression,
 
     -- ** FormatOptions
-    FormatOptions (FormatOptions'),
+    FormatOptions,
     newFormatOptions,
 
     -- ** Input
-    Input (Input'),
+    Input,
     newInput,
 
     -- ** Job
-    Job (Job'),
+    Job,
     newJob,
 
     -- ** JobRun
-    JobRun (JobRun'),
+    JobRun,
     newJobRun,
 
     -- ** JobSample
-    JobSample (JobSample'),
+    JobSample,
     newJobSample,
 
     -- ** JsonOptions
-    JsonOptions (JsonOptions'),
+    JsonOptions,
     newJsonOptions,
 
     -- ** Metadata
-    Metadata (Metadata'),
+    Metadata,
     newMetadata,
 
     -- ** Output
-    Output (Output'),
+    Output,
     newOutput,
 
     -- ** OutputFormatOptions
-    OutputFormatOptions (OutputFormatOptions'),
+    OutputFormatOptions,
     newOutputFormatOptions,
 
     -- ** PathOptions
-    PathOptions (PathOptions'),
+    PathOptions,
     newPathOptions,
 
     -- ** ProfileConfiguration
-    ProfileConfiguration (ProfileConfiguration'),
+    ProfileConfiguration,
     newProfileConfiguration,
 
     -- ** Project
-    Project (Project'),
+    Project,
     newProject,
 
     -- ** Recipe
-    Recipe (Recipe'),
+    Recipe,
     newRecipe,
 
     -- ** RecipeAction
-    RecipeAction (RecipeAction'),
+    RecipeAction,
     newRecipeAction,
 
     -- ** RecipeReference
-    RecipeReference (RecipeReference'),
+    RecipeReference,
     newRecipeReference,
 
     -- ** RecipeStep
-    RecipeStep (RecipeStep'),
+    RecipeStep,
     newRecipeStep,
 
     -- ** RecipeVersionErrorDetail
-    RecipeVersionErrorDetail (RecipeVersionErrorDetail'),
+    RecipeVersionErrorDetail,
     newRecipeVersionErrorDetail,
 
     -- ** Rule
-    Rule (Rule'),
+    Rule,
     newRule,
 
     -- ** RulesetItem
-    RulesetItem (RulesetItem'),
+    RulesetItem,
     newRulesetItem,
 
     -- ** S3Location
-    S3Location (S3Location'),
+    S3Location,
     newS3Location,
 
     -- ** S3TableOutputOptions
-    S3TableOutputOptions (S3TableOutputOptions'),
+    S3TableOutputOptions,
     newS3TableOutputOptions,
 
     -- ** Sample
-    Sample (Sample'),
+    Sample,
     newSample,
 
     -- ** Schedule
-    Schedule (Schedule'),
+    Schedule,
     newSchedule,
 
     -- ** StatisticOverride
-    StatisticOverride (StatisticOverride'),
+    StatisticOverride,
     newStatisticOverride,
 
     -- ** StatisticsConfiguration
-    StatisticsConfiguration (StatisticsConfiguration'),
+    StatisticsConfiguration,
     newStatisticsConfiguration,
 
     -- ** Threshold
-    Threshold (Threshold'),
+    Threshold,
     newThreshold,
 
     -- ** ValidationConfiguration
-    ValidationConfiguration (ValidationConfiguration'),
+    ValidationConfiguration,
     newValidationConfiguration,
 
     -- ** ViewFrame
-    ViewFrame (ViewFrame'),
+    ViewFrame,
     newViewFrame,
   )
 where

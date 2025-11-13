@@ -40,33 +40,33 @@ module Amazonka.MediaStoreData
     -- $operations
 
     -- ** DeleteObject
-    DeleteObject (DeleteObject'),
+    DeleteObject,
     newDeleteObject,
-    DeleteObjectResponse (DeleteObjectResponse'),
+    DeleteObjectResponse,
     newDeleteObjectResponse,
 
     -- ** DescribeObject
-    DescribeObject (DescribeObject'),
+    DescribeObject,
     newDescribeObject,
-    DescribeObjectResponse (DescribeObjectResponse'),
+    DescribeObjectResponse,
     newDescribeObjectResponse,
 
     -- ** GetObject
-    GetObject (GetObject'),
+    GetObject,
     newGetObject,
-    GetObjectResponse (GetObjectResponse'),
+    GetObjectResponse,
     newGetObjectResponse,
 
     -- ** ListItems (Paginated)
-    ListItems (ListItems'),
+    ListItems,
     newListItems,
-    ListItemsResponse (ListItemsResponse'),
+    ListItemsResponse,
     newListItemsResponse,
 
     -- ** PutObject
-    PutObject (PutObject'),
+    PutObject,
     newPutObject,
-    PutObjectResponse (PutObjectResponse'),
+    PutObjectResponse,
     newPutObjectResponse,
 
     -- * Types
@@ -81,7 +81,7 @@ module Amazonka.MediaStoreData
     UploadAvailability (..),
 
     -- ** Item
-    Item (Item'),
+    Item,
     newItem,
   )
 where

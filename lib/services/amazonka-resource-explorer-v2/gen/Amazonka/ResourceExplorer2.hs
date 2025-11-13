@@ -80,117 +80,117 @@ module Amazonka.ResourceExplorer2
     -- $operations
 
     -- ** AssociateDefaultView
-    AssociateDefaultView (AssociateDefaultView'),
+    AssociateDefaultView,
     newAssociateDefaultView,
-    AssociateDefaultViewResponse (AssociateDefaultViewResponse'),
+    AssociateDefaultViewResponse,
     newAssociateDefaultViewResponse,
 
     -- ** BatchGetView
-    BatchGetView (BatchGetView'),
+    BatchGetView,
     newBatchGetView,
-    BatchGetViewResponse (BatchGetViewResponse'),
+    BatchGetViewResponse,
     newBatchGetViewResponse,
 
     -- ** CreateIndex
-    CreateIndex (CreateIndex'),
+    CreateIndex,
     newCreateIndex,
-    CreateIndexResponse (CreateIndexResponse'),
+    CreateIndexResponse,
     newCreateIndexResponse,
 
     -- ** CreateView
-    CreateView (CreateView'),
+    CreateView,
     newCreateView,
-    CreateViewResponse (CreateViewResponse'),
+    CreateViewResponse,
     newCreateViewResponse,
 
     -- ** DeleteIndex
-    DeleteIndex (DeleteIndex'),
+    DeleteIndex,
     newDeleteIndex,
-    DeleteIndexResponse (DeleteIndexResponse'),
+    DeleteIndexResponse,
     newDeleteIndexResponse,
 
     -- ** DeleteView
-    DeleteView (DeleteView'),
+    DeleteView,
     newDeleteView,
-    DeleteViewResponse (DeleteViewResponse'),
+    DeleteViewResponse,
     newDeleteViewResponse,
 
     -- ** DisassociateDefaultView
-    DisassociateDefaultView (DisassociateDefaultView'),
+    DisassociateDefaultView,
     newDisassociateDefaultView,
-    DisassociateDefaultViewResponse (DisassociateDefaultViewResponse'),
+    DisassociateDefaultViewResponse,
     newDisassociateDefaultViewResponse,
 
     -- ** GetDefaultView
-    GetDefaultView (GetDefaultView'),
+    GetDefaultView,
     newGetDefaultView,
-    GetDefaultViewResponse (GetDefaultViewResponse'),
+    GetDefaultViewResponse,
     newGetDefaultViewResponse,
 
     -- ** GetIndex
-    GetIndex (GetIndex'),
+    GetIndex,
     newGetIndex,
-    GetIndexResponse (GetIndexResponse'),
+    GetIndexResponse,
     newGetIndexResponse,
 
     -- ** GetView
-    GetView (GetView'),
+    GetView,
     newGetView,
-    GetViewResponse (GetViewResponse'),
+    GetViewResponse,
     newGetViewResponse,
 
     -- ** ListIndexes (Paginated)
-    ListIndexes (ListIndexes'),
+    ListIndexes,
     newListIndexes,
-    ListIndexesResponse (ListIndexesResponse'),
+    ListIndexesResponse,
     newListIndexesResponse,
 
     -- ** ListSupportedResourceTypes (Paginated)
-    ListSupportedResourceTypes (ListSupportedResourceTypes'),
+    ListSupportedResourceTypes,
     newListSupportedResourceTypes,
-    ListSupportedResourceTypesResponse (ListSupportedResourceTypesResponse'),
+    ListSupportedResourceTypesResponse,
     newListSupportedResourceTypesResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** ListViews (Paginated)
-    ListViews (ListViews'),
+    ListViews,
     newListViews,
-    ListViewsResponse (ListViewsResponse'),
+    ListViewsResponse,
     newListViewsResponse,
 
     -- ** Search (Paginated)
-    Search (Search'),
+    Search,
     newSearch,
-    SearchResponse (SearchResponse'),
+    SearchResponse,
     newSearchResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateIndexType
-    UpdateIndexType (UpdateIndexType'),
+    UpdateIndexType,
     newUpdateIndexType,
-    UpdateIndexTypeResponse (UpdateIndexTypeResponse'),
+    UpdateIndexTypeResponse,
     newUpdateIndexTypeResponse,
 
     -- ** UpdateView
-    UpdateView (UpdateView'),
+    UpdateView,
     newUpdateView,
-    UpdateViewResponse (UpdateViewResponse'),
+    UpdateViewResponse,
     newUpdateViewResponse,
 
     -- * Types
@@ -202,43 +202,43 @@ module Amazonka.ResourceExplorer2
     IndexType (..),
 
     -- ** BatchGetViewError
-    BatchGetViewError (BatchGetViewError'),
+    BatchGetViewError,
     newBatchGetViewError,
 
     -- ** Document
-    Document (Document'),
+    Document,
     newDocument,
 
     -- ** IncludedProperty
-    IncludedProperty (IncludedProperty'),
+    IncludedProperty,
     newIncludedProperty,
 
     -- ** Index
-    Index (Index'),
+    Index,
     newIndex,
 
     -- ** Resource
-    Resource (Resource'),
+    Resource,
     newResource,
 
     -- ** ResourceCount
-    ResourceCount (ResourceCount'),
+    ResourceCount,
     newResourceCount,
 
     -- ** ResourceProperty
-    ResourceProperty (ResourceProperty'),
+    ResourceProperty,
     newResourceProperty,
 
     -- ** SearchFilter
-    SearchFilter (SearchFilter'),
+    SearchFilter,
     newSearchFilter,
 
     -- ** SupportedResourceType
-    SupportedResourceType (SupportedResourceType'),
+    SupportedResourceType,
     newSupportedResourceType,
 
     -- ** View
-    View (View'),
+    View,
     newView,
   )
 where

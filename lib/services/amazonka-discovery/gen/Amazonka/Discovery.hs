@@ -143,141 +143,141 @@ module Amazonka.Discovery
     -- $operations
 
     -- ** AssociateConfigurationItemsToApplication
-    AssociateConfigurationItemsToApplication (AssociateConfigurationItemsToApplication'),
+    AssociateConfigurationItemsToApplication,
     newAssociateConfigurationItemsToApplication,
-    AssociateConfigurationItemsToApplicationResponse (AssociateConfigurationItemsToApplicationResponse'),
+    AssociateConfigurationItemsToApplicationResponse,
     newAssociateConfigurationItemsToApplicationResponse,
 
     -- ** BatchDeleteImportData
-    BatchDeleteImportData (BatchDeleteImportData'),
+    BatchDeleteImportData,
     newBatchDeleteImportData,
-    BatchDeleteImportDataResponse (BatchDeleteImportDataResponse'),
+    BatchDeleteImportDataResponse,
     newBatchDeleteImportDataResponse,
 
     -- ** CreateApplication
-    CreateApplication (CreateApplication'),
+    CreateApplication,
     newCreateApplication,
-    CreateApplicationResponse (CreateApplicationResponse'),
+    CreateApplicationResponse,
     newCreateApplicationResponse,
 
     -- ** CreateTags
-    CreateTags (CreateTags'),
+    CreateTags,
     newCreateTags,
-    CreateTagsResponse (CreateTagsResponse'),
+    CreateTagsResponse,
     newCreateTagsResponse,
 
     -- ** DeleteApplications
-    DeleteApplications (DeleteApplications'),
+    DeleteApplications,
     newDeleteApplications,
-    DeleteApplicationsResponse (DeleteApplicationsResponse'),
+    DeleteApplicationsResponse,
     newDeleteApplicationsResponse,
 
     -- ** DeleteTags
-    DeleteTags (DeleteTags'),
+    DeleteTags,
     newDeleteTags,
-    DeleteTagsResponse (DeleteTagsResponse'),
+    DeleteTagsResponse,
     newDeleteTagsResponse,
 
     -- ** DescribeAgents (Paginated)
-    DescribeAgents (DescribeAgents'),
+    DescribeAgents,
     newDescribeAgents,
-    DescribeAgentsResponse (DescribeAgentsResponse'),
+    DescribeAgentsResponse,
     newDescribeAgentsResponse,
 
     -- ** DescribeConfigurations
-    DescribeConfigurations (DescribeConfigurations'),
+    DescribeConfigurations,
     newDescribeConfigurations,
-    DescribeConfigurationsResponse (DescribeConfigurationsResponse'),
+    DescribeConfigurationsResponse,
     newDescribeConfigurationsResponse,
 
     -- ** DescribeContinuousExports (Paginated)
-    DescribeContinuousExports (DescribeContinuousExports'),
+    DescribeContinuousExports,
     newDescribeContinuousExports,
-    DescribeContinuousExportsResponse (DescribeContinuousExportsResponse'),
+    DescribeContinuousExportsResponse,
     newDescribeContinuousExportsResponse,
 
     -- ** DescribeExportTasks (Paginated)
-    DescribeExportTasks (DescribeExportTasks'),
+    DescribeExportTasks,
     newDescribeExportTasks,
-    DescribeExportTasksResponse (DescribeExportTasksResponse'),
+    DescribeExportTasksResponse,
     newDescribeExportTasksResponse,
 
     -- ** DescribeImportTasks
-    DescribeImportTasks (DescribeImportTasks'),
+    DescribeImportTasks,
     newDescribeImportTasks,
-    DescribeImportTasksResponse (DescribeImportTasksResponse'),
+    DescribeImportTasksResponse,
     newDescribeImportTasksResponse,
 
     -- ** DescribeTags (Paginated)
-    DescribeTags (DescribeTags'),
+    DescribeTags,
     newDescribeTags,
-    DescribeTagsResponse (DescribeTagsResponse'),
+    DescribeTagsResponse,
     newDescribeTagsResponse,
 
     -- ** DisassociateConfigurationItemsFromApplication
-    DisassociateConfigurationItemsFromApplication (DisassociateConfigurationItemsFromApplication'),
+    DisassociateConfigurationItemsFromApplication,
     newDisassociateConfigurationItemsFromApplication,
-    DisassociateConfigurationItemsFromApplicationResponse (DisassociateConfigurationItemsFromApplicationResponse'),
+    DisassociateConfigurationItemsFromApplicationResponse,
     newDisassociateConfigurationItemsFromApplicationResponse,
 
     -- ** GetDiscoverySummary
-    GetDiscoverySummary (GetDiscoverySummary'),
+    GetDiscoverySummary,
     newGetDiscoverySummary,
-    GetDiscoverySummaryResponse (GetDiscoverySummaryResponse'),
+    GetDiscoverySummaryResponse,
     newGetDiscoverySummaryResponse,
 
     -- ** ListConfigurations (Paginated)
-    ListConfigurations (ListConfigurations'),
+    ListConfigurations,
     newListConfigurations,
-    ListConfigurationsResponse (ListConfigurationsResponse'),
+    ListConfigurationsResponse,
     newListConfigurationsResponse,
 
     -- ** ListServerNeighbors
-    ListServerNeighbors (ListServerNeighbors'),
+    ListServerNeighbors,
     newListServerNeighbors,
-    ListServerNeighborsResponse (ListServerNeighborsResponse'),
+    ListServerNeighborsResponse,
     newListServerNeighborsResponse,
 
     -- ** StartContinuousExport
-    StartContinuousExport (StartContinuousExport'),
+    StartContinuousExport,
     newStartContinuousExport,
-    StartContinuousExportResponse (StartContinuousExportResponse'),
+    StartContinuousExportResponse,
     newStartContinuousExportResponse,
 
     -- ** StartDataCollectionByAgentIds
-    StartDataCollectionByAgentIds (StartDataCollectionByAgentIds'),
+    StartDataCollectionByAgentIds,
     newStartDataCollectionByAgentIds,
-    StartDataCollectionByAgentIdsResponse (StartDataCollectionByAgentIdsResponse'),
+    StartDataCollectionByAgentIdsResponse,
     newStartDataCollectionByAgentIdsResponse,
 
     -- ** StartExportTask
-    StartExportTask (StartExportTask'),
+    StartExportTask,
     newStartExportTask,
-    StartExportTaskResponse (StartExportTaskResponse'),
+    StartExportTaskResponse,
     newStartExportTaskResponse,
 
     -- ** StartImportTask
-    StartImportTask (StartImportTask'),
+    StartImportTask,
     newStartImportTask,
-    StartImportTaskResponse (StartImportTaskResponse'),
+    StartImportTaskResponse,
     newStartImportTaskResponse,
 
     -- ** StopContinuousExport
-    StopContinuousExport (StopContinuousExport'),
+    StopContinuousExport,
     newStopContinuousExport,
-    StopContinuousExportResponse (StopContinuousExportResponse'),
+    StopContinuousExportResponse,
     newStopContinuousExportResponse,
 
     -- ** StopDataCollectionByAgentIds
-    StopDataCollectionByAgentIds (StopDataCollectionByAgentIds'),
+    StopDataCollectionByAgentIds,
     newStopDataCollectionByAgentIds,
-    StopDataCollectionByAgentIdsResponse (StopDataCollectionByAgentIdsResponse'),
+    StopDataCollectionByAgentIdsResponse,
     newStopDataCollectionByAgentIdsResponse,
 
     -- ** UpdateApplication
-    UpdateApplication (UpdateApplication'),
+    UpdateApplication,
     newUpdateApplication,
-    UpdateApplicationResponse (UpdateApplicationResponse'),
+    UpdateApplicationResponse,
     newUpdateApplicationResponse,
 
     -- * Types
@@ -313,79 +313,79 @@ module Amazonka.Discovery
     OrderString (..),
 
     -- ** AgentConfigurationStatus
-    AgentConfigurationStatus (AgentConfigurationStatus'),
+    AgentConfigurationStatus,
     newAgentConfigurationStatus,
 
     -- ** AgentInfo
-    AgentInfo (AgentInfo'),
+    AgentInfo,
     newAgentInfo,
 
     -- ** AgentNetworkInfo
-    AgentNetworkInfo (AgentNetworkInfo'),
+    AgentNetworkInfo,
     newAgentNetworkInfo,
 
     -- ** BatchDeleteImportDataError
-    BatchDeleteImportDataError (BatchDeleteImportDataError'),
+    BatchDeleteImportDataError,
     newBatchDeleteImportDataError,
 
     -- ** ConfigurationTag
-    ConfigurationTag (ConfigurationTag'),
+    ConfigurationTag,
     newConfigurationTag,
 
     -- ** ContinuousExportDescription
-    ContinuousExportDescription (ContinuousExportDescription'),
+    ContinuousExportDescription,
     newContinuousExportDescription,
 
     -- ** CustomerAgentInfo
-    CustomerAgentInfo (CustomerAgentInfo'),
+    CustomerAgentInfo,
     newCustomerAgentInfo,
 
     -- ** CustomerAgentlessCollectorInfo
-    CustomerAgentlessCollectorInfo (CustomerAgentlessCollectorInfo'),
+    CustomerAgentlessCollectorInfo,
     newCustomerAgentlessCollectorInfo,
 
     -- ** CustomerConnectorInfo
-    CustomerConnectorInfo (CustomerConnectorInfo'),
+    CustomerConnectorInfo,
     newCustomerConnectorInfo,
 
     -- ** CustomerMeCollectorInfo
-    CustomerMeCollectorInfo (CustomerMeCollectorInfo'),
+    CustomerMeCollectorInfo,
     newCustomerMeCollectorInfo,
 
     -- ** ExportFilter
-    ExportFilter (ExportFilter'),
+    ExportFilter,
     newExportFilter,
 
     -- ** ExportInfo
-    ExportInfo (ExportInfo'),
+    ExportInfo,
     newExportInfo,
 
     -- ** Filter
-    Filter (Filter'),
+    Filter,
     newFilter,
 
     -- ** ImportTask
-    ImportTask (ImportTask'),
+    ImportTask,
     newImportTask,
 
     -- ** ImportTaskFilter
-    ImportTaskFilter (ImportTaskFilter'),
+    ImportTaskFilter,
     newImportTaskFilter,
 
     -- ** NeighborConnectionDetail
-    NeighborConnectionDetail (NeighborConnectionDetail'),
+    NeighborConnectionDetail,
     newNeighborConnectionDetail,
 
     -- ** OrderByElement
-    OrderByElement (OrderByElement'),
+    OrderByElement,
     newOrderByElement,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
 
     -- ** TagFilter
-    TagFilter (TagFilter'),
+    TagFilter,
     newTagFilter,
   )
 where

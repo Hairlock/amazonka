@@ -129,177 +129,177 @@ module Amazonka.ELB
     -- $operations
 
     -- ** AddTags
-    AddTags (AddTags'),
+    AddTags,
     newAddTags,
-    AddTagsResponse (AddTagsResponse'),
+    AddTagsResponse,
     newAddTagsResponse,
 
     -- ** ApplySecurityGroupsToLoadBalancer
-    ApplySecurityGroupsToLoadBalancer (ApplySecurityGroupsToLoadBalancer'),
+    ApplySecurityGroupsToLoadBalancer,
     newApplySecurityGroupsToLoadBalancer,
-    ApplySecurityGroupsToLoadBalancerResponse (ApplySecurityGroupsToLoadBalancerResponse'),
+    ApplySecurityGroupsToLoadBalancerResponse,
     newApplySecurityGroupsToLoadBalancerResponse,
 
     -- ** AttachLoadBalancerToSubnets
-    AttachLoadBalancerToSubnets (AttachLoadBalancerToSubnets'),
+    AttachLoadBalancerToSubnets,
     newAttachLoadBalancerToSubnets,
-    AttachLoadBalancerToSubnetsResponse (AttachLoadBalancerToSubnetsResponse'),
+    AttachLoadBalancerToSubnetsResponse,
     newAttachLoadBalancerToSubnetsResponse,
 
     -- ** ConfigureHealthCheck
-    ConfigureHealthCheck (ConfigureHealthCheck'),
+    ConfigureHealthCheck,
     newConfigureHealthCheck,
-    ConfigureHealthCheckResponse (ConfigureHealthCheckResponse'),
+    ConfigureHealthCheckResponse,
     newConfigureHealthCheckResponse,
 
     -- ** CreateAppCookieStickinessPolicy
-    CreateAppCookieStickinessPolicy (CreateAppCookieStickinessPolicy'),
+    CreateAppCookieStickinessPolicy,
     newCreateAppCookieStickinessPolicy,
-    CreateAppCookieStickinessPolicyResponse (CreateAppCookieStickinessPolicyResponse'),
+    CreateAppCookieStickinessPolicyResponse,
     newCreateAppCookieStickinessPolicyResponse,
 
     -- ** CreateLBCookieStickinessPolicy
-    CreateLBCookieStickinessPolicy (CreateLBCookieStickinessPolicy'),
+    CreateLBCookieStickinessPolicy,
     newCreateLBCookieStickinessPolicy,
-    CreateLBCookieStickinessPolicyResponse (CreateLBCookieStickinessPolicyResponse'),
+    CreateLBCookieStickinessPolicyResponse,
     newCreateLBCookieStickinessPolicyResponse,
 
     -- ** CreateLoadBalancer
-    CreateLoadBalancer (CreateLoadBalancer'),
+    CreateLoadBalancer,
     newCreateLoadBalancer,
-    CreateLoadBalancerResponse (CreateLoadBalancerResponse'),
+    CreateLoadBalancerResponse,
     newCreateLoadBalancerResponse,
 
     -- ** CreateLoadBalancerListeners
-    CreateLoadBalancerListeners (CreateLoadBalancerListeners'),
+    CreateLoadBalancerListeners,
     newCreateLoadBalancerListeners,
-    CreateLoadBalancerListenersResponse (CreateLoadBalancerListenersResponse'),
+    CreateLoadBalancerListenersResponse,
     newCreateLoadBalancerListenersResponse,
 
     -- ** CreateLoadBalancerPolicy
-    CreateLoadBalancerPolicy (CreateLoadBalancerPolicy'),
+    CreateLoadBalancerPolicy,
     newCreateLoadBalancerPolicy,
-    CreateLoadBalancerPolicyResponse (CreateLoadBalancerPolicyResponse'),
+    CreateLoadBalancerPolicyResponse,
     newCreateLoadBalancerPolicyResponse,
 
     -- ** DeleteLoadBalancer
-    DeleteLoadBalancer (DeleteLoadBalancer'),
+    DeleteLoadBalancer,
     newDeleteLoadBalancer,
-    DeleteLoadBalancerResponse (DeleteLoadBalancerResponse'),
+    DeleteLoadBalancerResponse,
     newDeleteLoadBalancerResponse,
 
     -- ** DeleteLoadBalancerListeners
-    DeleteLoadBalancerListeners (DeleteLoadBalancerListeners'),
+    DeleteLoadBalancerListeners,
     newDeleteLoadBalancerListeners,
-    DeleteLoadBalancerListenersResponse (DeleteLoadBalancerListenersResponse'),
+    DeleteLoadBalancerListenersResponse,
     newDeleteLoadBalancerListenersResponse,
 
     -- ** DeleteLoadBalancerPolicy
-    DeleteLoadBalancerPolicy (DeleteLoadBalancerPolicy'),
+    DeleteLoadBalancerPolicy,
     newDeleteLoadBalancerPolicy,
-    DeleteLoadBalancerPolicyResponse (DeleteLoadBalancerPolicyResponse'),
+    DeleteLoadBalancerPolicyResponse,
     newDeleteLoadBalancerPolicyResponse,
 
     -- ** DeregisterInstancesFromLoadBalancer
-    DeregisterInstancesFromLoadBalancer (DeregisterInstancesFromLoadBalancer'),
+    DeregisterInstancesFromLoadBalancer,
     newDeregisterInstancesFromLoadBalancer,
-    DeregisterInstancesFromLoadBalancerResponse (DeregisterInstancesFromLoadBalancerResponse'),
+    DeregisterInstancesFromLoadBalancerResponse,
     newDeregisterInstancesFromLoadBalancerResponse,
 
     -- ** DescribeAccountLimits (Paginated)
-    DescribeAccountLimits (DescribeAccountLimits'),
+    DescribeAccountLimits,
     newDescribeAccountLimits,
-    DescribeAccountLimitsResponse (DescribeAccountLimitsResponse'),
+    DescribeAccountLimitsResponse,
     newDescribeAccountLimitsResponse,
 
     -- ** DescribeInstanceHealth
-    DescribeInstanceHealth (DescribeInstanceHealth'),
+    DescribeInstanceHealth,
     newDescribeInstanceHealth,
-    DescribeInstanceHealthResponse (DescribeInstanceHealthResponse'),
+    DescribeInstanceHealthResponse,
     newDescribeInstanceHealthResponse,
 
     -- ** DescribeLoadBalancerAttributes
-    DescribeLoadBalancerAttributes (DescribeLoadBalancerAttributes'),
+    DescribeLoadBalancerAttributes,
     newDescribeLoadBalancerAttributes,
-    DescribeLoadBalancerAttributesResponse (DescribeLoadBalancerAttributesResponse'),
+    DescribeLoadBalancerAttributesResponse,
     newDescribeLoadBalancerAttributesResponse,
 
     -- ** DescribeLoadBalancerPolicies
-    DescribeLoadBalancerPolicies (DescribeLoadBalancerPolicies'),
+    DescribeLoadBalancerPolicies,
     newDescribeLoadBalancerPolicies,
-    DescribeLoadBalancerPoliciesResponse (DescribeLoadBalancerPoliciesResponse'),
+    DescribeLoadBalancerPoliciesResponse,
     newDescribeLoadBalancerPoliciesResponse,
 
     -- ** DescribeLoadBalancerPolicyTypes
-    DescribeLoadBalancerPolicyTypes (DescribeLoadBalancerPolicyTypes'),
+    DescribeLoadBalancerPolicyTypes,
     newDescribeLoadBalancerPolicyTypes,
-    DescribeLoadBalancerPolicyTypesResponse (DescribeLoadBalancerPolicyTypesResponse'),
+    DescribeLoadBalancerPolicyTypesResponse,
     newDescribeLoadBalancerPolicyTypesResponse,
 
     -- ** DescribeLoadBalancers (Paginated)
-    DescribeLoadBalancers (DescribeLoadBalancers'),
+    DescribeLoadBalancers,
     newDescribeLoadBalancers,
-    DescribeLoadBalancersResponse (DescribeLoadBalancersResponse'),
+    DescribeLoadBalancersResponse,
     newDescribeLoadBalancersResponse,
 
     -- ** DescribeTags
-    DescribeTags (DescribeTags'),
+    DescribeTags,
     newDescribeTags,
-    DescribeTagsResponse (DescribeTagsResponse'),
+    DescribeTagsResponse,
     newDescribeTagsResponse,
 
     -- ** DetachLoadBalancerFromSubnets
-    DetachLoadBalancerFromSubnets (DetachLoadBalancerFromSubnets'),
+    DetachLoadBalancerFromSubnets,
     newDetachLoadBalancerFromSubnets,
-    DetachLoadBalancerFromSubnetsResponse (DetachLoadBalancerFromSubnetsResponse'),
+    DetachLoadBalancerFromSubnetsResponse,
     newDetachLoadBalancerFromSubnetsResponse,
 
     -- ** DisableAvailabilityZonesForLoadBalancer
-    DisableAvailabilityZonesForLoadBalancer (DisableAvailabilityZonesForLoadBalancer'),
+    DisableAvailabilityZonesForLoadBalancer,
     newDisableAvailabilityZonesForLoadBalancer,
-    DisableAvailabilityZonesForLoadBalancerResponse (DisableAvailabilityZonesForLoadBalancerResponse'),
+    DisableAvailabilityZonesForLoadBalancerResponse,
     newDisableAvailabilityZonesForLoadBalancerResponse,
 
     -- ** EnableAvailabilityZonesForLoadBalancer
-    EnableAvailabilityZonesForLoadBalancer (EnableAvailabilityZonesForLoadBalancer'),
+    EnableAvailabilityZonesForLoadBalancer,
     newEnableAvailabilityZonesForLoadBalancer,
-    EnableAvailabilityZonesForLoadBalancerResponse (EnableAvailabilityZonesForLoadBalancerResponse'),
+    EnableAvailabilityZonesForLoadBalancerResponse,
     newEnableAvailabilityZonesForLoadBalancerResponse,
 
     -- ** ModifyLoadBalancerAttributes
-    ModifyLoadBalancerAttributes (ModifyLoadBalancerAttributes'),
+    ModifyLoadBalancerAttributes,
     newModifyLoadBalancerAttributes,
-    ModifyLoadBalancerAttributesResponse (ModifyLoadBalancerAttributesResponse'),
+    ModifyLoadBalancerAttributesResponse,
     newModifyLoadBalancerAttributesResponse,
 
     -- ** RegisterInstancesWithLoadBalancer
-    RegisterInstancesWithLoadBalancer (RegisterInstancesWithLoadBalancer'),
+    RegisterInstancesWithLoadBalancer,
     newRegisterInstancesWithLoadBalancer,
-    RegisterInstancesWithLoadBalancerResponse (RegisterInstancesWithLoadBalancerResponse'),
+    RegisterInstancesWithLoadBalancerResponse,
     newRegisterInstancesWithLoadBalancerResponse,
 
     -- ** RemoveTags
-    RemoveTags (RemoveTags'),
+    RemoveTags,
     newRemoveTags,
-    RemoveTagsResponse (RemoveTagsResponse'),
+    RemoveTagsResponse,
     newRemoveTagsResponse,
 
     -- ** SetLoadBalancerListenerSSLCertificate
-    SetLoadBalancerListenerSSLCertificate (SetLoadBalancerListenerSSLCertificate'),
+    SetLoadBalancerListenerSSLCertificate,
     newSetLoadBalancerListenerSSLCertificate,
-    SetLoadBalancerListenerSSLCertificateResponse (SetLoadBalancerListenerSSLCertificateResponse'),
+    SetLoadBalancerListenerSSLCertificateResponse,
     newSetLoadBalancerListenerSSLCertificateResponse,
 
     -- ** SetLoadBalancerPoliciesForBackendServer
-    SetLoadBalancerPoliciesForBackendServer (SetLoadBalancerPoliciesForBackendServer'),
+    SetLoadBalancerPoliciesForBackendServer,
     newSetLoadBalancerPoliciesForBackendServer,
-    SetLoadBalancerPoliciesForBackendServerResponse (SetLoadBalancerPoliciesForBackendServerResponse'),
+    SetLoadBalancerPoliciesForBackendServerResponse,
     newSetLoadBalancerPoliciesForBackendServerResponse,
 
     -- ** SetLoadBalancerPoliciesOfListener
-    SetLoadBalancerPoliciesOfListener (SetLoadBalancerPoliciesOfListener'),
+    SetLoadBalancerPoliciesOfListener,
     newSetLoadBalancerPoliciesOfListener,
-    SetLoadBalancerPoliciesOfListenerResponse (SetLoadBalancerPoliciesOfListenerResponse'),
+    SetLoadBalancerPoliciesOfListenerResponse,
     newSetLoadBalancerPoliciesOfListenerResponse,
 
     -- * Types
@@ -308,107 +308,107 @@ module Amazonka.ELB
     module Amazonka.ELB.Internal,
 
     -- ** AccessLog
-    AccessLog (AccessLog'),
+    AccessLog,
     newAccessLog,
 
     -- ** AdditionalAttribute
-    AdditionalAttribute (AdditionalAttribute'),
+    AdditionalAttribute,
     newAdditionalAttribute,
 
     -- ** AppCookieStickinessPolicy
-    AppCookieStickinessPolicy (AppCookieStickinessPolicy'),
+    AppCookieStickinessPolicy,
     newAppCookieStickinessPolicy,
 
     -- ** BackendServerDescription
-    BackendServerDescription (BackendServerDescription'),
+    BackendServerDescription,
     newBackendServerDescription,
 
     -- ** ConnectionDraining
-    ConnectionDraining (ConnectionDraining'),
+    ConnectionDraining,
     newConnectionDraining,
 
     -- ** ConnectionSettings
-    ConnectionSettings (ConnectionSettings'),
+    ConnectionSettings,
     newConnectionSettings,
 
     -- ** CrossZoneLoadBalancing
-    CrossZoneLoadBalancing (CrossZoneLoadBalancing'),
+    CrossZoneLoadBalancing,
     newCrossZoneLoadBalancing,
 
     -- ** HealthCheck
-    HealthCheck (HealthCheck'),
+    HealthCheck,
     newHealthCheck,
 
     -- ** Instance
-    Instance (Instance'),
+    Instance,
     newInstance,
 
     -- ** InstanceState
-    InstanceState (InstanceState'),
+    InstanceState,
     newInstanceState,
 
     -- ** LBCookieStickinessPolicy
-    LBCookieStickinessPolicy (LBCookieStickinessPolicy'),
+    LBCookieStickinessPolicy,
     newLBCookieStickinessPolicy,
 
     -- ** Limit
-    Limit (Limit'),
+    Limit,
     newLimit,
 
     -- ** Listener
-    Listener (Listener'),
+    Listener,
     newListener,
 
     -- ** ListenerDescription
-    ListenerDescription (ListenerDescription'),
+    ListenerDescription,
     newListenerDescription,
 
     -- ** LoadBalancerAttributes
-    LoadBalancerAttributes (LoadBalancerAttributes'),
+    LoadBalancerAttributes,
     newLoadBalancerAttributes,
 
     -- ** LoadBalancerDescription
-    LoadBalancerDescription (LoadBalancerDescription'),
+    LoadBalancerDescription,
     newLoadBalancerDescription,
 
     -- ** Policies
-    Policies (Policies'),
+    Policies,
     newPolicies,
 
     -- ** PolicyAttribute
-    PolicyAttribute (PolicyAttribute'),
+    PolicyAttribute,
     newPolicyAttribute,
 
     -- ** PolicyAttributeDescription
-    PolicyAttributeDescription (PolicyAttributeDescription'),
+    PolicyAttributeDescription,
     newPolicyAttributeDescription,
 
     -- ** PolicyAttributeTypeDescription
-    PolicyAttributeTypeDescription (PolicyAttributeTypeDescription'),
+    PolicyAttributeTypeDescription,
     newPolicyAttributeTypeDescription,
 
     -- ** PolicyDescription
-    PolicyDescription (PolicyDescription'),
+    PolicyDescription,
     newPolicyDescription,
 
     -- ** PolicyTypeDescription
-    PolicyTypeDescription (PolicyTypeDescription'),
+    PolicyTypeDescription,
     newPolicyTypeDescription,
 
     -- ** SourceSecurityGroup
-    SourceSecurityGroup (SourceSecurityGroup'),
+    SourceSecurityGroup,
     newSourceSecurityGroup,
 
     -- ** Tag
-    Tag (Tag'),
+    Tag,
     newTag,
 
     -- ** TagDescription
-    TagDescription (TagDescription'),
+    TagDescription,
     newTagDescription,
 
     -- ** TagKeyOnly
-    TagKeyOnly (TagKeyOnly'),
+    TagKeyOnly,
     newTagKeyOnly,
   )
 where

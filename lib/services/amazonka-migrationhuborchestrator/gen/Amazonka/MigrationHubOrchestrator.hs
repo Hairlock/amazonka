@@ -46,171 +46,171 @@ module Amazonka.MigrationHubOrchestrator
     -- $operations
 
     -- ** CreateWorkflow
-    CreateWorkflow (CreateWorkflow'),
+    CreateWorkflow,
     newCreateWorkflow,
-    CreateWorkflowResponse (CreateWorkflowResponse'),
+    CreateWorkflowResponse,
     newCreateWorkflowResponse,
 
     -- ** CreateWorkflowStep
-    CreateWorkflowStep (CreateWorkflowStep'),
+    CreateWorkflowStep,
     newCreateWorkflowStep,
-    CreateWorkflowStepResponse (CreateWorkflowStepResponse'),
+    CreateWorkflowStepResponse,
     newCreateWorkflowStepResponse,
 
     -- ** CreateWorkflowStepGroup
-    CreateWorkflowStepGroup (CreateWorkflowStepGroup'),
+    CreateWorkflowStepGroup,
     newCreateWorkflowStepGroup,
-    CreateWorkflowStepGroupResponse (CreateWorkflowStepGroupResponse'),
+    CreateWorkflowStepGroupResponse,
     newCreateWorkflowStepGroupResponse,
 
     -- ** DeleteWorkflow
-    DeleteWorkflow (DeleteWorkflow'),
+    DeleteWorkflow,
     newDeleteWorkflow,
-    DeleteWorkflowResponse (DeleteWorkflowResponse'),
+    DeleteWorkflowResponse,
     newDeleteWorkflowResponse,
 
     -- ** DeleteWorkflowStep
-    DeleteWorkflowStep (DeleteWorkflowStep'),
+    DeleteWorkflowStep,
     newDeleteWorkflowStep,
-    DeleteWorkflowStepResponse (DeleteWorkflowStepResponse'),
+    DeleteWorkflowStepResponse,
     newDeleteWorkflowStepResponse,
 
     -- ** DeleteWorkflowStepGroup
-    DeleteWorkflowStepGroup (DeleteWorkflowStepGroup'),
+    DeleteWorkflowStepGroup,
     newDeleteWorkflowStepGroup,
-    DeleteWorkflowStepGroupResponse (DeleteWorkflowStepGroupResponse'),
+    DeleteWorkflowStepGroupResponse,
     newDeleteWorkflowStepGroupResponse,
 
     -- ** GetTemplate
-    GetTemplate (GetTemplate'),
+    GetTemplate,
     newGetTemplate,
-    GetTemplateResponse (GetTemplateResponse'),
+    GetTemplateResponse,
     newGetTemplateResponse,
 
     -- ** GetTemplateStep
-    GetTemplateStep (GetTemplateStep'),
+    GetTemplateStep,
     newGetTemplateStep,
-    GetTemplateStepResponse (GetTemplateStepResponse'),
+    GetTemplateStepResponse,
     newGetTemplateStepResponse,
 
     -- ** GetTemplateStepGroup
-    GetTemplateStepGroup (GetTemplateStepGroup'),
+    GetTemplateStepGroup,
     newGetTemplateStepGroup,
-    GetTemplateStepGroupResponse (GetTemplateStepGroupResponse'),
+    GetTemplateStepGroupResponse,
     newGetTemplateStepGroupResponse,
 
     -- ** GetWorkflow
-    GetWorkflow (GetWorkflow'),
+    GetWorkflow,
     newGetWorkflow,
-    GetWorkflowResponse (GetWorkflowResponse'),
+    GetWorkflowResponse,
     newGetWorkflowResponse,
 
     -- ** GetWorkflowStep
-    GetWorkflowStep (GetWorkflowStep'),
+    GetWorkflowStep,
     newGetWorkflowStep,
-    GetWorkflowStepResponse (GetWorkflowStepResponse'),
+    GetWorkflowStepResponse,
     newGetWorkflowStepResponse,
 
     -- ** GetWorkflowStepGroup
-    GetWorkflowStepGroup (GetWorkflowStepGroup'),
+    GetWorkflowStepGroup,
     newGetWorkflowStepGroup,
-    GetWorkflowStepGroupResponse (GetWorkflowStepGroupResponse'),
+    GetWorkflowStepGroupResponse,
     newGetWorkflowStepGroupResponse,
 
     -- ** ListPlugins (Paginated)
-    ListPlugins (ListPlugins'),
+    ListPlugins,
     newListPlugins,
-    ListPluginsResponse (ListPluginsResponse'),
+    ListPluginsResponse,
     newListPluginsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** ListTemplateStepGroups (Paginated)
-    ListTemplateStepGroups (ListTemplateStepGroups'),
+    ListTemplateStepGroups,
     newListTemplateStepGroups,
-    ListTemplateStepGroupsResponse (ListTemplateStepGroupsResponse'),
+    ListTemplateStepGroupsResponse,
     newListTemplateStepGroupsResponse,
 
     -- ** ListTemplateSteps (Paginated)
-    ListTemplateSteps (ListTemplateSteps'),
+    ListTemplateSteps,
     newListTemplateSteps,
-    ListTemplateStepsResponse (ListTemplateStepsResponse'),
+    ListTemplateStepsResponse,
     newListTemplateStepsResponse,
 
     -- ** ListTemplates (Paginated)
-    ListTemplates (ListTemplates'),
+    ListTemplates,
     newListTemplates,
-    ListTemplatesResponse (ListTemplatesResponse'),
+    ListTemplatesResponse,
     newListTemplatesResponse,
 
     -- ** ListWorkflowStepGroups (Paginated)
-    ListWorkflowStepGroups (ListWorkflowStepGroups'),
+    ListWorkflowStepGroups,
     newListWorkflowStepGroups,
-    ListWorkflowStepGroupsResponse (ListWorkflowStepGroupsResponse'),
+    ListWorkflowStepGroupsResponse,
     newListWorkflowStepGroupsResponse,
 
     -- ** ListWorkflowSteps (Paginated)
-    ListWorkflowSteps (ListWorkflowSteps'),
+    ListWorkflowSteps,
     newListWorkflowSteps,
-    ListWorkflowStepsResponse (ListWorkflowStepsResponse'),
+    ListWorkflowStepsResponse,
     newListWorkflowStepsResponse,
 
     -- ** ListWorkflows (Paginated)
-    ListWorkflows (ListWorkflows'),
+    ListWorkflows,
     newListWorkflows,
-    ListWorkflowsResponse (ListWorkflowsResponse'),
+    ListWorkflowsResponse,
     newListWorkflowsResponse,
 
     -- ** RetryWorkflowStep
-    RetryWorkflowStep (RetryWorkflowStep'),
+    RetryWorkflowStep,
     newRetryWorkflowStep,
-    RetryWorkflowStepResponse (RetryWorkflowStepResponse'),
+    RetryWorkflowStepResponse,
     newRetryWorkflowStepResponse,
 
     -- ** StartWorkflow
-    StartWorkflow (StartWorkflow'),
+    StartWorkflow,
     newStartWorkflow,
-    StartWorkflowResponse (StartWorkflowResponse'),
+    StartWorkflowResponse,
     newStartWorkflowResponse,
 
     -- ** StopWorkflow
-    StopWorkflow (StopWorkflow'),
+    StopWorkflow,
     newStopWorkflow,
-    StopWorkflowResponse (StopWorkflowResponse'),
+    StopWorkflowResponse,
     newStopWorkflowResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateWorkflow
-    UpdateWorkflow (UpdateWorkflow'),
+    UpdateWorkflow,
     newUpdateWorkflow,
-    UpdateWorkflowResponse (UpdateWorkflowResponse'),
+    UpdateWorkflowResponse,
     newUpdateWorkflowResponse,
 
     -- ** UpdateWorkflowStep
-    UpdateWorkflowStep (UpdateWorkflowStep'),
+    UpdateWorkflowStep,
     newUpdateWorkflowStep,
-    UpdateWorkflowStepResponse (UpdateWorkflowStepResponse'),
+    UpdateWorkflowStepResponse,
     newUpdateWorkflowStepResponse,
 
     -- ** UpdateWorkflowStepGroup
-    UpdateWorkflowStepGroup (UpdateWorkflowStepGroup'),
+    UpdateWorkflowStepGroup,
     newUpdateWorkflowStepGroup,
-    UpdateWorkflowStepGroupResponse (UpdateWorkflowStepGroupResponse'),
+    UpdateWorkflowStepGroupResponse,
     newUpdateWorkflowStepGroupResponse,
 
     -- * Types
@@ -246,71 +246,71 @@ module Amazonka.MigrationHubOrchestrator
     TemplateStatus (..),
 
     -- ** MigrationWorkflowSummary
-    MigrationWorkflowSummary (MigrationWorkflowSummary'),
+    MigrationWorkflowSummary,
     newMigrationWorkflowSummary,
 
     -- ** PlatformCommand
-    PlatformCommand (PlatformCommand'),
+    PlatformCommand,
     newPlatformCommand,
 
     -- ** PlatformScriptKey
-    PlatformScriptKey (PlatformScriptKey'),
+    PlatformScriptKey,
     newPlatformScriptKey,
 
     -- ** PluginSummary
-    PluginSummary (PluginSummary'),
+    PluginSummary,
     newPluginSummary,
 
     -- ** StepAutomationConfiguration
-    StepAutomationConfiguration (StepAutomationConfiguration'),
+    StepAutomationConfiguration,
     newStepAutomationConfiguration,
 
     -- ** StepInput
-    StepInput (StepInput'),
+    StepInput,
     newStepInput,
 
     -- ** StepOutput
-    StepOutput (StepOutput'),
+    StepOutput,
     newStepOutput,
 
     -- ** TemplateInput
-    TemplateInput (TemplateInput'),
+    TemplateInput,
     newTemplateInput,
 
     -- ** TemplateStepGroupSummary
-    TemplateStepGroupSummary (TemplateStepGroupSummary'),
+    TemplateStepGroupSummary,
     newTemplateStepGroupSummary,
 
     -- ** TemplateStepSummary
-    TemplateStepSummary (TemplateStepSummary'),
+    TemplateStepSummary,
     newTemplateStepSummary,
 
     -- ** TemplateSummary
-    TemplateSummary (TemplateSummary'),
+    TemplateSummary,
     newTemplateSummary,
 
     -- ** Tool
-    Tool (Tool'),
+    Tool,
     newTool,
 
     -- ** WorkflowStepAutomationConfiguration
-    WorkflowStepAutomationConfiguration (WorkflowStepAutomationConfiguration'),
+    WorkflowStepAutomationConfiguration,
     newWorkflowStepAutomationConfiguration,
 
     -- ** WorkflowStepGroupSummary
-    WorkflowStepGroupSummary (WorkflowStepGroupSummary'),
+    WorkflowStepGroupSummary,
     newWorkflowStepGroupSummary,
 
     -- ** WorkflowStepOutput
-    WorkflowStepOutput (WorkflowStepOutput'),
+    WorkflowStepOutput,
     newWorkflowStepOutput,
 
     -- ** WorkflowStepOutputUnion
-    WorkflowStepOutputUnion (WorkflowStepOutputUnion'),
+    WorkflowStepOutputUnion,
     newWorkflowStepOutputUnion,
 
     -- ** WorkflowStepSummary
-    WorkflowStepSummary (WorkflowStepSummary'),
+    WorkflowStepSummary,
     newWorkflowStepSummary,
   )
 where

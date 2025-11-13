@@ -29,15 +29,15 @@ module Amazonka.MarketplaceAnalytics
     -- $operations
 
     -- ** GenerateDataSet
-    GenerateDataSet (GenerateDataSet'),
+    GenerateDataSet,
     newGenerateDataSet,
-    GenerateDataSetResponse (GenerateDataSetResponse'),
+    GenerateDataSetResponse,
     newGenerateDataSetResponse,
 
     -- ** StartSupportDataExport
-    StartSupportDataExport (StartSupportDataExport'),
+    StartSupportDataExport,
     newStartSupportDataExport,
-    StartSupportDataExportResponse (StartSupportDataExportResponse'),
+    StartSupportDataExportResponse,
     newStartSupportDataExportResponse,
 
     -- * Types

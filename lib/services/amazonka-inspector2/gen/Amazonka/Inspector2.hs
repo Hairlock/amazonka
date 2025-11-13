@@ -52,195 +52,195 @@ module Amazonka.Inspector2
     -- $operations
 
     -- ** AssociateMember
-    AssociateMember (AssociateMember'),
+    AssociateMember,
     newAssociateMember,
-    AssociateMemberResponse (AssociateMemberResponse'),
+    AssociateMemberResponse,
     newAssociateMemberResponse,
 
     -- ** BatchGetAccountStatus
-    BatchGetAccountStatus (BatchGetAccountStatus'),
+    BatchGetAccountStatus,
     newBatchGetAccountStatus,
-    BatchGetAccountStatusResponse (BatchGetAccountStatusResponse'),
+    BatchGetAccountStatusResponse,
     newBatchGetAccountStatusResponse,
 
     -- ** BatchGetFreeTrialInfo
-    BatchGetFreeTrialInfo (BatchGetFreeTrialInfo'),
+    BatchGetFreeTrialInfo,
     newBatchGetFreeTrialInfo,
-    BatchGetFreeTrialInfoResponse (BatchGetFreeTrialInfoResponse'),
+    BatchGetFreeTrialInfoResponse,
     newBatchGetFreeTrialInfoResponse,
 
     -- ** CancelFindingsReport
-    CancelFindingsReport (CancelFindingsReport'),
+    CancelFindingsReport,
     newCancelFindingsReport,
-    CancelFindingsReportResponse (CancelFindingsReportResponse'),
+    CancelFindingsReportResponse,
     newCancelFindingsReportResponse,
 
     -- ** CreateFilter
-    CreateFilter (CreateFilter'),
+    CreateFilter,
     newCreateFilter,
-    CreateFilterResponse (CreateFilterResponse'),
+    CreateFilterResponse,
     newCreateFilterResponse,
 
     -- ** CreateFindingsReport
-    CreateFindingsReport (CreateFindingsReport'),
+    CreateFindingsReport,
     newCreateFindingsReport,
-    CreateFindingsReportResponse (CreateFindingsReportResponse'),
+    CreateFindingsReportResponse,
     newCreateFindingsReportResponse,
 
     -- ** DeleteFilter
-    DeleteFilter (DeleteFilter'),
+    DeleteFilter,
     newDeleteFilter,
-    DeleteFilterResponse (DeleteFilterResponse'),
+    DeleteFilterResponse,
     newDeleteFilterResponse,
 
     -- ** DescribeOrganizationConfiguration
-    DescribeOrganizationConfiguration (DescribeOrganizationConfiguration'),
+    DescribeOrganizationConfiguration,
     newDescribeOrganizationConfiguration,
-    DescribeOrganizationConfigurationResponse (DescribeOrganizationConfigurationResponse'),
+    DescribeOrganizationConfigurationResponse,
     newDescribeOrganizationConfigurationResponse,
 
     -- ** Disable
-    Disable (Disable'),
+    Disable,
     newDisable,
-    DisableResponse (DisableResponse'),
+    DisableResponse,
     newDisableResponse,
 
     -- ** DisableDelegatedAdminAccount
-    DisableDelegatedAdminAccount (DisableDelegatedAdminAccount'),
+    DisableDelegatedAdminAccount,
     newDisableDelegatedAdminAccount,
-    DisableDelegatedAdminAccountResponse (DisableDelegatedAdminAccountResponse'),
+    DisableDelegatedAdminAccountResponse,
     newDisableDelegatedAdminAccountResponse,
 
     -- ** DisassociateMember
-    DisassociateMember (DisassociateMember'),
+    DisassociateMember,
     newDisassociateMember,
-    DisassociateMemberResponse (DisassociateMemberResponse'),
+    DisassociateMemberResponse,
     newDisassociateMemberResponse,
 
     -- ** Enable
-    Enable (Enable'),
+    Enable,
     newEnable,
-    EnableResponse (EnableResponse'),
+    EnableResponse,
     newEnableResponse,
 
     -- ** EnableDelegatedAdminAccount
-    EnableDelegatedAdminAccount (EnableDelegatedAdminAccount'),
+    EnableDelegatedAdminAccount,
     newEnableDelegatedAdminAccount,
-    EnableDelegatedAdminAccountResponse (EnableDelegatedAdminAccountResponse'),
+    EnableDelegatedAdminAccountResponse,
     newEnableDelegatedAdminAccountResponse,
 
     -- ** GetConfiguration
-    GetConfiguration (GetConfiguration'),
+    GetConfiguration,
     newGetConfiguration,
-    GetConfigurationResponse (GetConfigurationResponse'),
+    GetConfigurationResponse,
     newGetConfigurationResponse,
 
     -- ** GetDelegatedAdminAccount
-    GetDelegatedAdminAccount (GetDelegatedAdminAccount'),
+    GetDelegatedAdminAccount,
     newGetDelegatedAdminAccount,
-    GetDelegatedAdminAccountResponse (GetDelegatedAdminAccountResponse'),
+    GetDelegatedAdminAccountResponse,
     newGetDelegatedAdminAccountResponse,
 
     -- ** GetFindingsReportStatus
-    GetFindingsReportStatus (GetFindingsReportStatus'),
+    GetFindingsReportStatus,
     newGetFindingsReportStatus,
-    GetFindingsReportStatusResponse (GetFindingsReportStatusResponse'),
+    GetFindingsReportStatusResponse,
     newGetFindingsReportStatusResponse,
 
     -- ** GetMember
-    GetMember (GetMember'),
+    GetMember,
     newGetMember,
-    GetMemberResponse (GetMemberResponse'),
+    GetMemberResponse,
     newGetMemberResponse,
 
     -- ** ListAccountPermissions (Paginated)
-    ListAccountPermissions (ListAccountPermissions'),
+    ListAccountPermissions,
     newListAccountPermissions,
-    ListAccountPermissionsResponse (ListAccountPermissionsResponse'),
+    ListAccountPermissionsResponse,
     newListAccountPermissionsResponse,
 
     -- ** ListCoverage (Paginated)
-    ListCoverage (ListCoverage'),
+    ListCoverage,
     newListCoverage,
-    ListCoverageResponse (ListCoverageResponse'),
+    ListCoverageResponse,
     newListCoverageResponse,
 
     -- ** ListCoverageStatistics (Paginated)
-    ListCoverageStatistics (ListCoverageStatistics'),
+    ListCoverageStatistics,
     newListCoverageStatistics,
-    ListCoverageStatisticsResponse (ListCoverageStatisticsResponse'),
+    ListCoverageStatisticsResponse,
     newListCoverageStatisticsResponse,
 
     -- ** ListDelegatedAdminAccounts (Paginated)
-    ListDelegatedAdminAccounts (ListDelegatedAdminAccounts'),
+    ListDelegatedAdminAccounts,
     newListDelegatedAdminAccounts,
-    ListDelegatedAdminAccountsResponse (ListDelegatedAdminAccountsResponse'),
+    ListDelegatedAdminAccountsResponse,
     newListDelegatedAdminAccountsResponse,
 
     -- ** ListFilters (Paginated)
-    ListFilters (ListFilters'),
+    ListFilters,
     newListFilters,
-    ListFiltersResponse (ListFiltersResponse'),
+    ListFiltersResponse,
     newListFiltersResponse,
 
     -- ** ListFindingAggregations (Paginated)
-    ListFindingAggregations (ListFindingAggregations'),
+    ListFindingAggregations,
     newListFindingAggregations,
-    ListFindingAggregationsResponse (ListFindingAggregationsResponse'),
+    ListFindingAggregationsResponse,
     newListFindingAggregationsResponse,
 
     -- ** ListFindings (Paginated)
-    ListFindings (ListFindings'),
+    ListFindings,
     newListFindings,
-    ListFindingsResponse (ListFindingsResponse'),
+    ListFindingsResponse,
     newListFindingsResponse,
 
     -- ** ListMembers (Paginated)
-    ListMembers (ListMembers'),
+    ListMembers,
     newListMembers,
-    ListMembersResponse (ListMembersResponse'),
+    ListMembersResponse,
     newListMembersResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource (ListTagsForResource'),
+    ListTagsForResource,
     newListTagsForResource,
-    ListTagsForResourceResponse (ListTagsForResourceResponse'),
+    ListTagsForResourceResponse,
     newListTagsForResourceResponse,
 
     -- ** ListUsageTotals (Paginated)
-    ListUsageTotals (ListUsageTotals'),
+    ListUsageTotals,
     newListUsageTotals,
-    ListUsageTotalsResponse (ListUsageTotalsResponse'),
+    ListUsageTotalsResponse,
     newListUsageTotalsResponse,
 
     -- ** TagResource
-    TagResource (TagResource'),
+    TagResource,
     newTagResource,
-    TagResourceResponse (TagResourceResponse'),
+    TagResourceResponse,
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource (UntagResource'),
+    UntagResource,
     newUntagResource,
-    UntagResourceResponse (UntagResourceResponse'),
+    UntagResourceResponse,
     newUntagResourceResponse,
 
     -- ** UpdateConfiguration
-    UpdateConfiguration (UpdateConfiguration'),
+    UpdateConfiguration,
     newUpdateConfiguration,
-    UpdateConfigurationResponse (UpdateConfigurationResponse'),
+    UpdateConfigurationResponse,
     newUpdateConfigurationResponse,
 
     -- ** UpdateFilter
-    UpdateFilter (UpdateFilter'),
+    UpdateFilter,
     newUpdateFilter,
-    UpdateFilterResponse (UpdateFilterResponse'),
+    UpdateFilterResponse,
     newUpdateFilterResponse,
 
     -- ** UpdateOrganizationConfiguration
-    UpdateOrganizationConfiguration (UpdateOrganizationConfiguration'),
+    UpdateOrganizationConfiguration,
     newUpdateOrganizationConfiguration,
-    UpdateOrganizationConfigurationResponse (UpdateOrganizationConfigurationResponse'),
+    UpdateOrganizationConfigurationResponse,
     newUpdateOrganizationConfigurationResponse,
 
     -- * Types
@@ -414,343 +414,343 @@ module Amazonka.Inspector2
     UsageType (..),
 
     -- ** Account
-    Account (Account'),
+    Account,
     newAccount,
 
     -- ** AccountAggregation
-    AccountAggregation (AccountAggregation'),
+    AccountAggregation,
     newAccountAggregation,
 
     -- ** AccountAggregationResponse
-    AccountAggregationResponse (AccountAggregationResponse'),
+    AccountAggregationResponse,
     newAccountAggregationResponse,
 
     -- ** AccountState
-    AccountState (AccountState'),
+    AccountState,
     newAccountState,
 
     -- ** AggregationRequest
-    AggregationRequest (AggregationRequest'),
+    AggregationRequest,
     newAggregationRequest,
 
     -- ** AggregationResponse
-    AggregationResponse (AggregationResponse'),
+    AggregationResponse,
     newAggregationResponse,
 
     -- ** AmiAggregation
-    AmiAggregation (AmiAggregation'),
+    AmiAggregation,
     newAmiAggregation,
 
     -- ** AmiAggregationResponse
-    AmiAggregationResponse (AmiAggregationResponse'),
+    AmiAggregationResponse,
     newAmiAggregationResponse,
 
     -- ** AutoEnable
-    AutoEnable (AutoEnable'),
+    AutoEnable,
     newAutoEnable,
 
     -- ** AwsEc2InstanceDetails
-    AwsEc2InstanceDetails (AwsEc2InstanceDetails'),
+    AwsEc2InstanceDetails,
     newAwsEc2InstanceDetails,
 
     -- ** AwsEcrContainerAggregation
-    AwsEcrContainerAggregation (AwsEcrContainerAggregation'),
+    AwsEcrContainerAggregation,
     newAwsEcrContainerAggregation,
 
     -- ** AwsEcrContainerAggregationResponse
-    AwsEcrContainerAggregationResponse (AwsEcrContainerAggregationResponse'),
+    AwsEcrContainerAggregationResponse,
     newAwsEcrContainerAggregationResponse,
 
     -- ** AwsEcrContainerImageDetails
-    AwsEcrContainerImageDetails (AwsEcrContainerImageDetails'),
+    AwsEcrContainerImageDetails,
     newAwsEcrContainerImageDetails,
 
     -- ** AwsLambdaFunctionDetails
-    AwsLambdaFunctionDetails (AwsLambdaFunctionDetails'),
+    AwsLambdaFunctionDetails,
     newAwsLambdaFunctionDetails,
 
     -- ** Counts
-    Counts (Counts'),
+    Counts,
     newCounts,
 
     -- ** CoverageFilterCriteria
-    CoverageFilterCriteria (CoverageFilterCriteria'),
+    CoverageFilterCriteria,
     newCoverageFilterCriteria,
 
     -- ** CoverageMapFilter
-    CoverageMapFilter (CoverageMapFilter'),
+    CoverageMapFilter,
     newCoverageMapFilter,
 
     -- ** CoverageStringFilter
-    CoverageStringFilter (CoverageStringFilter'),
+    CoverageStringFilter,
     newCoverageStringFilter,
 
     -- ** CoveredResource
-    CoveredResource (CoveredResource'),
+    CoveredResource,
     newCoveredResource,
 
     -- ** CvssScore
-    CvssScore (CvssScore'),
+    CvssScore,
     newCvssScore,
 
     -- ** CvssScoreAdjustment
-    CvssScoreAdjustment (CvssScoreAdjustment'),
+    CvssScoreAdjustment,
     newCvssScoreAdjustment,
 
     -- ** CvssScoreDetails
-    CvssScoreDetails (CvssScoreDetails'),
+    CvssScoreDetails,
     newCvssScoreDetails,
 
     -- ** DateFilter
-    DateFilter (DateFilter'),
+    DateFilter,
     newDateFilter,
 
     -- ** DelegatedAdmin
-    DelegatedAdmin (DelegatedAdmin'),
+    DelegatedAdmin,
     newDelegatedAdmin,
 
     -- ** DelegatedAdminAccount
-    DelegatedAdminAccount (DelegatedAdminAccount'),
+    DelegatedAdminAccount,
     newDelegatedAdminAccount,
 
     -- ** Destination
-    Destination (Destination'),
+    Destination,
     newDestination,
 
     -- ** Ec2InstanceAggregation
-    Ec2InstanceAggregation (Ec2InstanceAggregation'),
+    Ec2InstanceAggregation,
     newEc2InstanceAggregation,
 
     -- ** Ec2InstanceAggregationResponse
-    Ec2InstanceAggregationResponse (Ec2InstanceAggregationResponse'),
+    Ec2InstanceAggregationResponse,
     newEc2InstanceAggregationResponse,
 
     -- ** Ec2Metadata
-    Ec2Metadata (Ec2Metadata'),
+    Ec2Metadata,
     newEc2Metadata,
 
     -- ** EcrConfiguration
-    EcrConfiguration (EcrConfiguration'),
+    EcrConfiguration,
     newEcrConfiguration,
 
     -- ** EcrConfigurationState
-    EcrConfigurationState (EcrConfigurationState'),
+    EcrConfigurationState,
     newEcrConfigurationState,
 
     -- ** EcrContainerImageMetadata
-    EcrContainerImageMetadata (EcrContainerImageMetadata'),
+    EcrContainerImageMetadata,
     newEcrContainerImageMetadata,
 
     -- ** EcrRepositoryMetadata
-    EcrRepositoryMetadata (EcrRepositoryMetadata'),
+    EcrRepositoryMetadata,
     newEcrRepositoryMetadata,
 
     -- ** EcrRescanDurationState
-    EcrRescanDurationState (EcrRescanDurationState'),
+    EcrRescanDurationState,
     newEcrRescanDurationState,
 
     -- ** ExploitabilityDetails
-    ExploitabilityDetails (ExploitabilityDetails'),
+    ExploitabilityDetails,
     newExploitabilityDetails,
 
     -- ** FailedAccount
-    FailedAccount (FailedAccount'),
+    FailedAccount,
     newFailedAccount,
 
     -- ** Filter
-    Filter (Filter'),
+    Filter,
     newFilter,
 
     -- ** FilterCriteria
-    FilterCriteria (FilterCriteria'),
+    FilterCriteria,
     newFilterCriteria,
 
     -- ** Finding
-    Finding (Finding'),
+    Finding,
     newFinding,
 
     -- ** FindingTypeAggregation
-    FindingTypeAggregation (FindingTypeAggregation'),
+    FindingTypeAggregation,
     newFindingTypeAggregation,
 
     -- ** FindingTypeAggregationResponse
-    FindingTypeAggregationResponse (FindingTypeAggregationResponse'),
+    FindingTypeAggregationResponse,
     newFindingTypeAggregationResponse,
 
     -- ** FreeTrialAccountInfo
-    FreeTrialAccountInfo (FreeTrialAccountInfo'),
+    FreeTrialAccountInfo,
     newFreeTrialAccountInfo,
 
     -- ** FreeTrialInfo
-    FreeTrialInfo (FreeTrialInfo'),
+    FreeTrialInfo,
     newFreeTrialInfo,
 
     -- ** FreeTrialInfoError
-    FreeTrialInfoError (FreeTrialInfoError'),
+    FreeTrialInfoError,
     newFreeTrialInfoError,
 
     -- ** ImageLayerAggregation
-    ImageLayerAggregation (ImageLayerAggregation'),
+    ImageLayerAggregation,
     newImageLayerAggregation,
 
     -- ** ImageLayerAggregationResponse
-    ImageLayerAggregationResponse (ImageLayerAggregationResponse'),
+    ImageLayerAggregationResponse,
     newImageLayerAggregationResponse,
 
     -- ** InspectorScoreDetails
-    InspectorScoreDetails (InspectorScoreDetails'),
+    InspectorScoreDetails,
     newInspectorScoreDetails,
 
     -- ** LambdaFunctionAggregation
-    LambdaFunctionAggregation (LambdaFunctionAggregation'),
+    LambdaFunctionAggregation,
     newLambdaFunctionAggregation,
 
     -- ** LambdaFunctionAggregationResponse
-    LambdaFunctionAggregationResponse (LambdaFunctionAggregationResponse'),
+    LambdaFunctionAggregationResponse,
     newLambdaFunctionAggregationResponse,
 
     -- ** LambdaFunctionMetadata
-    LambdaFunctionMetadata (LambdaFunctionMetadata'),
+    LambdaFunctionMetadata,
     newLambdaFunctionMetadata,
 
     -- ** LambdaLayerAggregation
-    LambdaLayerAggregation (LambdaLayerAggregation'),
+    LambdaLayerAggregation,
     newLambdaLayerAggregation,
 
     -- ** LambdaLayerAggregationResponse
-    LambdaLayerAggregationResponse (LambdaLayerAggregationResponse'),
+    LambdaLayerAggregationResponse,
     newLambdaLayerAggregationResponse,
 
     -- ** LambdaVpcConfig
-    LambdaVpcConfig (LambdaVpcConfig'),
+    LambdaVpcConfig,
     newLambdaVpcConfig,
 
     -- ** MapFilter
-    MapFilter (MapFilter'),
+    MapFilter,
     newMapFilter,
 
     -- ** Member
-    Member (Member'),
+    Member,
     newMember,
 
     -- ** NetworkPath
-    NetworkPath (NetworkPath'),
+    NetworkPath,
     newNetworkPath,
 
     -- ** NetworkReachabilityDetails
-    NetworkReachabilityDetails (NetworkReachabilityDetails'),
+    NetworkReachabilityDetails,
     newNetworkReachabilityDetails,
 
     -- ** NumberFilter
-    NumberFilter (NumberFilter'),
+    NumberFilter,
     newNumberFilter,
 
     -- ** PackageAggregation
-    PackageAggregation (PackageAggregation'),
+    PackageAggregation,
     newPackageAggregation,
 
     -- ** PackageAggregationResponse
-    PackageAggregationResponse (PackageAggregationResponse'),
+    PackageAggregationResponse,
     newPackageAggregationResponse,
 
     -- ** PackageFilter
-    PackageFilter (PackageFilter'),
+    PackageFilter,
     newPackageFilter,
 
     -- ** PackageVulnerabilityDetails
-    PackageVulnerabilityDetails (PackageVulnerabilityDetails'),
+    PackageVulnerabilityDetails,
     newPackageVulnerabilityDetails,
 
     -- ** Permission
-    Permission (Permission'),
+    Permission,
     newPermission,
 
     -- ** PortRange
-    PortRange (PortRange'),
+    PortRange,
     newPortRange,
 
     -- ** PortRangeFilter
-    PortRangeFilter (PortRangeFilter'),
+    PortRangeFilter,
     newPortRangeFilter,
 
     -- ** Recommendation
-    Recommendation (Recommendation'),
+    Recommendation,
     newRecommendation,
 
     -- ** Remediation
-    Remediation (Remediation'),
+    Remediation,
     newRemediation,
 
     -- ** RepositoryAggregation
-    RepositoryAggregation (RepositoryAggregation'),
+    RepositoryAggregation,
     newRepositoryAggregation,
 
     -- ** RepositoryAggregationResponse
-    RepositoryAggregationResponse (RepositoryAggregationResponse'),
+    RepositoryAggregationResponse,
     newRepositoryAggregationResponse,
 
     -- ** Resource
-    Resource (Resource'),
+    Resource,
     newResource,
 
     -- ** ResourceDetails
-    ResourceDetails (ResourceDetails'),
+    ResourceDetails,
     newResourceDetails,
 
     -- ** ResourceScanMetadata
-    ResourceScanMetadata (ResourceScanMetadata'),
+    ResourceScanMetadata,
     newResourceScanMetadata,
 
     -- ** ResourceState
-    ResourceState (ResourceState'),
+    ResourceState,
     newResourceState,
 
     -- ** ResourceStatus
-    ResourceStatus (ResourceStatus'),
+    ResourceStatus,
     newResourceStatus,
 
     -- ** ScanStatus
-    ScanStatus (ScanStatus'),
+    ScanStatus,
     newScanStatus,
 
     -- ** SeverityCounts
-    SeverityCounts (SeverityCounts'),
+    SeverityCounts,
     newSeverityCounts,
 
     -- ** SortCriteria
-    SortCriteria (SortCriteria'),
+    SortCriteria,
     newSortCriteria,
 
     -- ** State
-    State (State'),
+    State,
     newState,
 
     -- ** Step
-    Step (Step'),
+    Step,
     newStep,
 
     -- ** StringFilter
-    StringFilter (StringFilter'),
+    StringFilter,
     newStringFilter,
 
     -- ** TitleAggregation
-    TitleAggregation (TitleAggregation'),
+    TitleAggregation,
     newTitleAggregation,
 
     -- ** TitleAggregationResponse
-    TitleAggregationResponse (TitleAggregationResponse'),
+    TitleAggregationResponse,
     newTitleAggregationResponse,
 
     -- ** Usage
-    Usage (Usage'),
+    Usage,
     newUsage,
 
     -- ** UsageTotal
-    UsageTotal (UsageTotal'),
+    UsageTotal,
     newUsageTotal,
 
     -- ** VulnerablePackage
-    VulnerablePackage (VulnerablePackage'),
+    VulnerablePackage,
     newVulnerablePackage,
   )
 where
