@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -25,10 +26,10 @@ module Amazonka.Account.Types
     _ValidationException,
 
     -- * AlternateContactType
-    AlternateContactType (..),
+    AlternateContactType,
 
     -- * AlternateContact
-    AlternateContact (..),
+    AlternateContact,
     newAlternateContact,
     alternateContact_alternateContactType,
     alternateContact_emailAddress,
@@ -37,7 +38,7 @@ module Amazonka.Account.Types
     alternateContact_title,
 
     -- * ContactInformation
-    ContactInformation (..),
+    ContactInformation,
     newContactInformation,
     contactInformation_addressLine2,
     contactInformation_addressLine3,

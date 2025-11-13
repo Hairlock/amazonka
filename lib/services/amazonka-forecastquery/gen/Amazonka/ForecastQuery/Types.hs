@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -25,13 +26,13 @@ module Amazonka.ForecastQuery.Types
     _ResourceNotFoundException,
 
     -- * DataPoint
-    DataPoint (..),
+    DataPoint,
     newDataPoint,
     dataPoint_timestamp,
     dataPoint_value,
 
     -- * Forecast
-    Forecast (..),
+    Forecast,
     newForecast,
     forecast_predictions,
   )

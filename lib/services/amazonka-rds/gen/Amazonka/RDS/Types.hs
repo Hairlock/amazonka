@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -144,95 +145,95 @@ module Amazonka.RDS.Types
     _SubscriptionNotFoundFault,
 
     -- * ActivityStreamMode
-    ActivityStreamMode (..),
+    ActivityStreamMode,
 
     -- * ActivityStreamPolicyStatus
-    ActivityStreamPolicyStatus (..),
+    ActivityStreamPolicyStatus,
 
     -- * ActivityStreamStatus
-    ActivityStreamStatus (..),
+    ActivityStreamStatus,
 
     -- * ApplyMethod
-    ApplyMethod (..),
+    ApplyMethod,
 
     -- * AuditPolicyState
-    AuditPolicyState (..),
+    AuditPolicyState,
 
     -- * AuthScheme
-    AuthScheme (..),
+    AuthScheme,
 
     -- * AutomationMode
-    AutomationMode (..),
+    AutomationMode,
 
     -- * ClientPasswordAuthType
-    ClientPasswordAuthType (..),
+    ClientPasswordAuthType,
 
     -- * CustomEngineVersionStatus
-    CustomEngineVersionStatus (..),
+    CustomEngineVersionStatus,
 
     -- * DBProxyEndpointStatus
-    DBProxyEndpointStatus (..),
+    DBProxyEndpointStatus,
 
     -- * DBProxyEndpointTargetRole
-    DBProxyEndpointTargetRole (..),
+    DBProxyEndpointTargetRole,
 
     -- * DBProxyStatus
-    DBProxyStatus (..),
+    DBProxyStatus,
 
     -- * EngineFamily
-    EngineFamily (..),
+    EngineFamily,
 
     -- * ExportSourceType
-    ExportSourceType (..),
+    ExportSourceType,
 
     -- * FailoverStatus
-    FailoverStatus (..),
+    FailoverStatus,
 
     -- * IAMAuthMode
-    IAMAuthMode (..),
+    IAMAuthMode,
 
     -- * ReplicaMode
-    ReplicaMode (..),
+    ReplicaMode,
 
     -- * SourceType
-    SourceType (..),
+    SourceType,
 
     -- * TargetHealthReason
-    TargetHealthReason (..),
+    TargetHealthReason,
 
     -- * TargetRole
-    TargetRole (..),
+    TargetRole,
 
     -- * TargetState
-    TargetState (..),
+    TargetState,
 
     -- * TargetType
-    TargetType (..),
+    TargetType,
 
     -- * WriteForwardingStatus
-    WriteForwardingStatus (..),
+    WriteForwardingStatus,
 
     -- * AccountQuota
-    AccountQuota (..),
+    AccountQuota,
     newAccountQuota,
     accountQuota_accountQuotaName,
     accountQuota_max,
     accountQuota_used,
 
     -- * AvailabilityZone
-    AvailabilityZone (..),
+    AvailabilityZone,
     newAvailabilityZone,
     availabilityZone_name,
 
     -- * AvailableProcessorFeature
-    AvailableProcessorFeature (..),
+    AvailableProcessorFeature,
     newAvailableProcessorFeature,
     availableProcessorFeature_allowedValues,
     availableProcessorFeature_defaultValue,
     availableProcessorFeature_name,
 
     -- * BlueGreenDeployment
-    BlueGreenDeployment (..),
+    BlueGreenDeployment,
     newBlueGreenDeployment,
     blueGreenDeployment_blueGreenDeploymentIdentifier,
     blueGreenDeployment_blueGreenDeploymentName,
@@ -247,13 +248,13 @@ module Amazonka.RDS.Types
     blueGreenDeployment_tasks,
 
     -- * BlueGreenDeploymentTask
-    BlueGreenDeploymentTask (..),
+    BlueGreenDeploymentTask,
     newBlueGreenDeploymentTask,
     blueGreenDeploymentTask_name,
     blueGreenDeploymentTask_status,
 
     -- * Certificate
-    Certificate (..),
+    Certificate,
     newCertificate,
     certificate_certificateArn,
     certificate_certificateIdentifier,
@@ -265,25 +266,25 @@ module Amazonka.RDS.Types
     certificate_validTill,
 
     -- * CertificateDetails
-    CertificateDetails (..),
+    CertificateDetails,
     newCertificateDetails,
     certificateDetails_cAIdentifier,
     certificateDetails_validTill,
 
     -- * CharacterSet
-    CharacterSet (..),
+    CharacterSet,
     newCharacterSet,
     characterSet_characterSetDescription,
     characterSet_characterSetName,
 
     -- * CloudwatchLogsExportConfiguration
-    CloudwatchLogsExportConfiguration (..),
+    CloudwatchLogsExportConfiguration,
     newCloudwatchLogsExportConfiguration,
     cloudwatchLogsExportConfiguration_disableLogTypes,
     cloudwatchLogsExportConfiguration_enableLogTypes,
 
     -- * ClusterPendingModifiedValues
-    ClusterPendingModifiedValues (..),
+    ClusterPendingModifiedValues,
     newClusterPendingModifiedValues,
     clusterPendingModifiedValues_allocatedStorage,
     clusterPendingModifiedValues_backupRetentionPeriod,
@@ -295,7 +296,7 @@ module Amazonka.RDS.Types
     clusterPendingModifiedValues_pendingCloudwatchLogsExports,
 
     -- * ConnectionPoolConfiguration
-    ConnectionPoolConfiguration (..),
+    ConnectionPoolConfiguration,
     newConnectionPoolConfiguration,
     connectionPoolConfiguration_connectionBorrowTimeout,
     connectionPoolConfiguration_initQuery,
@@ -304,7 +305,7 @@ module Amazonka.RDS.Types
     connectionPoolConfiguration_sessionPinningFilters,
 
     -- * ConnectionPoolConfigurationInfo
-    ConnectionPoolConfigurationInfo (..),
+    ConnectionPoolConfigurationInfo,
     newConnectionPoolConfigurationInfo,
     connectionPoolConfigurationInfo_connectionBorrowTimeout,
     connectionPoolConfigurationInfo_initQuery,
@@ -313,13 +314,13 @@ module Amazonka.RDS.Types
     connectionPoolConfigurationInfo_sessionPinningFilters,
 
     -- * CustomDBEngineVersionAMI
-    CustomDBEngineVersionAMI (..),
+    CustomDBEngineVersionAMI,
     newCustomDBEngineVersionAMI,
     customDBEngineVersionAMI_imageId,
     customDBEngineVersionAMI_status,
 
     -- * DBCluster
-    DBCluster (..),
+    DBCluster,
     newDBCluster,
     dbCluster_activityStreamKinesisStreamName,
     dbCluster_activityStreamKmsKeyId,
@@ -394,7 +395,7 @@ module Amazonka.RDS.Types
     dbCluster_vpcSecurityGroups,
 
     -- * DBClusterBacktrack
-    DBClusterBacktrack (..),
+    DBClusterBacktrack,
     newDBClusterBacktrack,
     dbClusterBacktrack_backtrackIdentifier,
     dbClusterBacktrack_backtrackRequestCreationTime,
@@ -404,7 +405,7 @@ module Amazonka.RDS.Types
     dbClusterBacktrack_status,
 
     -- * DBClusterEndpoint
-    DBClusterEndpoint (..),
+    DBClusterEndpoint,
     newDBClusterEndpoint,
     dbClusterEndpoint_customEndpointType,
     dbClusterEndpoint_dbClusterEndpointArn,
@@ -418,7 +419,7 @@ module Amazonka.RDS.Types
     dbClusterEndpoint_status,
 
     -- * DBClusterMember
-    DBClusterMember (..),
+    DBClusterMember,
     newDBClusterMember,
     dbClusterMember_dbClusterParameterGroupStatus,
     dbClusterMember_dbInstanceIdentifier,
@@ -426,13 +427,13 @@ module Amazonka.RDS.Types
     dbClusterMember_promotionTier,
 
     -- * DBClusterOptionGroupStatus
-    DBClusterOptionGroupStatus (..),
+    DBClusterOptionGroupStatus,
     newDBClusterOptionGroupStatus,
     dbClusterOptionGroupStatus_dbClusterOptionGroupName,
     dbClusterOptionGroupStatus_status,
 
     -- * DBClusterParameterGroup
-    DBClusterParameterGroup (..),
+    DBClusterParameterGroup,
     newDBClusterParameterGroup,
     dbClusterParameterGroup_dbClusterParameterGroupArn,
     dbClusterParameterGroup_dbClusterParameterGroupName,
@@ -440,19 +441,19 @@ module Amazonka.RDS.Types
     dbClusterParameterGroup_description,
 
     -- * DBClusterParameterGroupNameMessage
-    DBClusterParameterGroupNameMessage (..),
+    DBClusterParameterGroupNameMessage,
     newDBClusterParameterGroupNameMessage,
     dbClusterParameterGroupNameMessage_dbClusterParameterGroupName,
 
     -- * DBClusterRole
-    DBClusterRole (..),
+    DBClusterRole,
     newDBClusterRole,
     dbClusterRole_featureName,
     dbClusterRole_roleArn,
     dbClusterRole_status,
 
     -- * DBClusterSnapshot
-    DBClusterSnapshot (..),
+    DBClusterSnapshot,
     newDBClusterSnapshot,
     dbClusterSnapshot_allocatedStorage,
     dbClusterSnapshot_availabilityZones,
@@ -479,19 +480,19 @@ module Amazonka.RDS.Types
     dbClusterSnapshot_vpcId,
 
     -- * DBClusterSnapshotAttribute
-    DBClusterSnapshotAttribute (..),
+    DBClusterSnapshotAttribute,
     newDBClusterSnapshotAttribute,
     dbClusterSnapshotAttribute_attributeName,
     dbClusterSnapshotAttribute_attributeValues,
 
     -- * DBClusterSnapshotAttributesResult
-    DBClusterSnapshotAttributesResult (..),
+    DBClusterSnapshotAttributesResult,
     newDBClusterSnapshotAttributesResult,
     dbClusterSnapshotAttributesResult_dbClusterSnapshotAttributes,
     dbClusterSnapshotAttributesResult_dbClusterSnapshotIdentifier,
 
     -- * DBEngineVersion
-    DBEngineVersion (..),
+    DBEngineVersion,
     newDBEngineVersion,
     dbEngineVersion_createTime,
     dbEngineVersion_customDBEngineVersionManifest,
@@ -526,7 +527,7 @@ module Amazonka.RDS.Types
     dbEngineVersion_validUpgradeTarget,
 
     -- * DBInstance
-    DBInstance (..),
+    DBInstance,
     newDBInstance,
     dbInstance_activityStreamEngineNativeAuditFieldsIncluded,
     dbInstance_activityStreamKinesisStreamName,
@@ -610,7 +611,7 @@ module Amazonka.RDS.Types
     dbInstance_vpcSecurityGroups,
 
     -- * DBInstanceAutomatedBackup
-    DBInstanceAutomatedBackup (..),
+    DBInstanceAutomatedBackup,
     newDBInstanceAutomatedBackup,
     dbInstanceAutomatedBackup_allocatedStorage,
     dbInstanceAutomatedBackup_availabilityZone,
@@ -642,19 +643,19 @@ module Amazonka.RDS.Types
     dbInstanceAutomatedBackup_vpcId,
 
     -- * DBInstanceAutomatedBackupsReplication
-    DBInstanceAutomatedBackupsReplication (..),
+    DBInstanceAutomatedBackupsReplication,
     newDBInstanceAutomatedBackupsReplication,
     dbInstanceAutomatedBackupsReplication_dbInstanceAutomatedBackupsArn,
 
     -- * DBInstanceRole
-    DBInstanceRole (..),
+    DBInstanceRole,
     newDBInstanceRole,
     dbInstanceRole_featureName,
     dbInstanceRole_roleArn,
     dbInstanceRole_status,
 
     -- * DBInstanceStatusInfo
-    DBInstanceStatusInfo (..),
+    DBInstanceStatusInfo,
     newDBInstanceStatusInfo,
     dbInstanceStatusInfo_message,
     dbInstanceStatusInfo_normal,
@@ -662,7 +663,7 @@ module Amazonka.RDS.Types
     dbInstanceStatusInfo_statusType,
 
     -- * DBParameterGroup
-    DBParameterGroup (..),
+    DBParameterGroup,
     newDBParameterGroup,
     dbParameterGroup_dbParameterGroupArn,
     dbParameterGroup_dbParameterGroupFamily,
@@ -670,18 +671,18 @@ module Amazonka.RDS.Types
     dbParameterGroup_description,
 
     -- * DBParameterGroupNameMessage
-    DBParameterGroupNameMessage (..),
+    DBParameterGroupNameMessage,
     newDBParameterGroupNameMessage,
     dbParameterGroupNameMessage_dbParameterGroupName,
 
     -- * DBParameterGroupStatus
-    DBParameterGroupStatus (..),
+    DBParameterGroupStatus,
     newDBParameterGroupStatus,
     dbParameterGroupStatus_dbParameterGroupName,
     dbParameterGroupStatus_parameterApplyStatus,
 
     -- * DBProxy
-    DBProxy (..),
+    DBProxy,
     newDBProxy,
     dbProxy_auth,
     dbProxy_createdDate,
@@ -700,7 +701,7 @@ module Amazonka.RDS.Types
     dbProxy_vpcSubnetIds,
 
     -- * DBProxyEndpoint
-    DBProxyEndpoint (..),
+    DBProxyEndpoint,
     newDBProxyEndpoint,
     dbProxyEndpoint_createdDate,
     dbProxyEndpoint_dbProxyEndpointArn,
@@ -715,7 +716,7 @@ module Amazonka.RDS.Types
     dbProxyEndpoint_vpcSubnetIds,
 
     -- * DBProxyTarget
-    DBProxyTarget (..),
+    DBProxyTarget,
     newDBProxyTarget,
     dbProxyTarget_endpoint,
     dbProxyTarget_port,
@@ -727,7 +728,7 @@ module Amazonka.RDS.Types
     dbProxyTarget_type,
 
     -- * DBProxyTargetGroup
-    DBProxyTargetGroup (..),
+    DBProxyTargetGroup,
     newDBProxyTargetGroup,
     dbProxyTargetGroup_connectionPoolConfig,
     dbProxyTargetGroup_createdDate,
@@ -739,7 +740,7 @@ module Amazonka.RDS.Types
     dbProxyTargetGroup_updatedDate,
 
     -- * DBSecurityGroup
-    DBSecurityGroup (..),
+    DBSecurityGroup,
     newDBSecurityGroup,
     dbSecurityGroup_dbSecurityGroupArn,
     dbSecurityGroup_dbSecurityGroupDescription,
@@ -750,13 +751,13 @@ module Amazonka.RDS.Types
     dbSecurityGroup_vpcId,
 
     -- * DBSecurityGroupMembership
-    DBSecurityGroupMembership (..),
+    DBSecurityGroupMembership,
     newDBSecurityGroupMembership,
     dbSecurityGroupMembership_dbSecurityGroupName,
     dbSecurityGroupMembership_status,
 
     -- * DBSnapshot
-    DBSnapshot (..),
+    DBSnapshot,
     newDBSnapshot,
     dbSnapshot_allocatedStorage,
     dbSnapshot_availabilityZone,
@@ -793,19 +794,19 @@ module Amazonka.RDS.Types
     dbSnapshot_vpcId,
 
     -- * DBSnapshotAttribute
-    DBSnapshotAttribute (..),
+    DBSnapshotAttribute,
     newDBSnapshotAttribute,
     dbSnapshotAttribute_attributeName,
     dbSnapshotAttribute_attributeValues,
 
     -- * DBSnapshotAttributesResult
-    DBSnapshotAttributesResult (..),
+    DBSnapshotAttributesResult,
     newDBSnapshotAttributesResult,
     dbSnapshotAttributesResult_dbSnapshotAttributes,
     dbSnapshotAttributesResult_dbSnapshotIdentifier,
 
     -- * DBSubnetGroup
-    DBSubnetGroup (..),
+    DBSubnetGroup,
     newDBSubnetGroup,
     dbSubnetGroup_dbSubnetGroupArn,
     dbSubnetGroup_dbSubnetGroupDescription,
@@ -816,14 +817,14 @@ module Amazonka.RDS.Types
     dbSubnetGroup_vpcId,
 
     -- * DescribeDBLogFilesDetails
-    DescribeDBLogFilesDetails (..),
+    DescribeDBLogFilesDetails,
     newDescribeDBLogFilesDetails,
     describeDBLogFilesDetails_lastWritten,
     describeDBLogFilesDetails_logFileName,
     describeDBLogFilesDetails_size,
 
     -- * DomainMembership
-    DomainMembership (..),
+    DomainMembership,
     newDomainMembership,
     domainMembership_domain,
     domainMembership_fqdn,
@@ -831,13 +832,13 @@ module Amazonka.RDS.Types
     domainMembership_status,
 
     -- * DoubleRange
-    DoubleRange (..),
+    DoubleRange,
     newDoubleRange,
     doubleRange_from,
     doubleRange_to,
 
     -- * EC2SecurityGroup
-    EC2SecurityGroup (..),
+    EC2SecurityGroup,
     newEC2SecurityGroup,
     eC2SecurityGroup_eC2SecurityGroupId,
     eC2SecurityGroup_eC2SecurityGroupName,
@@ -845,21 +846,21 @@ module Amazonka.RDS.Types
     eC2SecurityGroup_status,
 
     -- * Endpoint
-    Endpoint (..),
+    Endpoint,
     newEndpoint,
     endpoint_address,
     endpoint_hostedZoneId,
     endpoint_port,
 
     -- * EngineDefaults
-    EngineDefaults (..),
+    EngineDefaults,
     newEngineDefaults,
     engineDefaults_dbParameterGroupFamily,
     engineDefaults_marker,
     engineDefaults_parameters,
 
     -- * Event
-    Event (..),
+    Event,
     newEvent,
     event_date,
     event_eventCategories,
@@ -869,13 +870,13 @@ module Amazonka.RDS.Types
     event_sourceType,
 
     -- * EventCategoriesMap
-    EventCategoriesMap (..),
+    EventCategoriesMap,
     newEventCategoriesMap,
     eventCategoriesMap_eventCategories,
     eventCategoriesMap_sourceType,
 
     -- * EventSubscription
-    EventSubscription (..),
+    EventSubscription,
     newEventSubscription,
     eventSubscription_custSubscriptionId,
     eventSubscription_customerAwsId,
@@ -889,7 +890,7 @@ module Amazonka.RDS.Types
     eventSubscription_subscriptionCreationTime,
 
     -- * ExportTask
-    ExportTask (..),
+    ExportTask,
     newExportTask,
     exportTask_exportOnly,
     exportTask_exportTaskIdentifier,
@@ -909,20 +910,20 @@ module Amazonka.RDS.Types
     exportTask_warningMessage,
 
     -- * FailoverState
-    FailoverState (..),
+    FailoverState,
     newFailoverState,
     failoverState_fromDbClusterArn,
     failoverState_status,
     failoverState_toDbClusterArn,
 
     -- * Filter
-    Filter (..),
+    Filter,
     newFilter,
     filter_name,
     filter_values,
 
     -- * GlobalCluster
-    GlobalCluster (..),
+    GlobalCluster,
     newGlobalCluster,
     globalCluster_databaseName,
     globalCluster_deletionProtection,
@@ -937,7 +938,7 @@ module Amazonka.RDS.Types
     globalCluster_storageEncrypted,
 
     -- * GlobalClusterMember
-    GlobalClusterMember (..),
+    GlobalClusterMember,
     newGlobalClusterMember,
     globalClusterMember_dbClusterArn,
     globalClusterMember_globalWriteForwardingStatus,
@@ -945,26 +946,26 @@ module Amazonka.RDS.Types
     globalClusterMember_readers,
 
     -- * IPRange
-    IPRange (..),
+    IPRange,
     newIPRange,
     iPRange_cidrip,
     iPRange_status,
 
     -- * MasterUserSecret
-    MasterUserSecret (..),
+    MasterUserSecret,
     newMasterUserSecret,
     masterUserSecret_kmsKeyId,
     masterUserSecret_secretArn,
     masterUserSecret_secretStatus,
 
     -- * MinimumEngineVersionPerAllowedValue
-    MinimumEngineVersionPerAllowedValue (..),
+    MinimumEngineVersionPerAllowedValue,
     newMinimumEngineVersionPerAllowedValue,
     minimumEngineVersionPerAllowedValue_allowedValue,
     minimumEngineVersionPerAllowedValue_minimumEngineVersion,
 
     -- * Option
-    Option (..),
+    Option,
     newOption,
     option_dbSecurityGroupMemberships,
     option_optionDescription,
@@ -977,7 +978,7 @@ module Amazonka.RDS.Types
     option_vpcSecurityGroupMemberships,
 
     -- * OptionConfiguration
-    OptionConfiguration (..),
+    OptionConfiguration,
     newOptionConfiguration,
     optionConfiguration_dbSecurityGroupMemberships,
     optionConfiguration_optionSettings,
@@ -987,7 +988,7 @@ module Amazonka.RDS.Types
     optionConfiguration_optionName,
 
     -- * OptionGroup
-    OptionGroup (..),
+    OptionGroup,
     newOptionGroup,
     optionGroup_allowsVpcAndNonVpcInstanceMemberships,
     optionGroup_copyTimestamp,
@@ -1002,13 +1003,13 @@ module Amazonka.RDS.Types
     optionGroup_vpcId,
 
     -- * OptionGroupMembership
-    OptionGroupMembership (..),
+    OptionGroupMembership,
     newOptionGroupMembership,
     optionGroupMembership_optionGroupName,
     optionGroupMembership_status,
 
     -- * OptionGroupOption
-    OptionGroupOption (..),
+    OptionGroupOption,
     newOptionGroupOption,
     optionGroupOption_copyableCrossAccount,
     optionGroupOption_defaultPort,
@@ -1029,7 +1030,7 @@ module Amazonka.RDS.Types
     optionGroupOption_vpcOnly,
 
     -- * OptionGroupOptionSetting
-    OptionGroupOptionSetting (..),
+    OptionGroupOptionSetting,
     newOptionGroupOptionSetting,
     optionGroupOptionSetting_allowedValues,
     optionGroupOptionSetting_applyType,
@@ -1041,7 +1042,7 @@ module Amazonka.RDS.Types
     optionGroupOptionSetting_settingName,
 
     -- * OptionSetting
-    OptionSetting (..),
+    OptionSetting,
     newOptionSetting,
     optionSetting_allowedValues,
     optionSetting_applyType,
@@ -1054,13 +1055,13 @@ module Amazonka.RDS.Types
     optionSetting_value,
 
     -- * OptionVersion
-    OptionVersion (..),
+    OptionVersion,
     newOptionVersion,
     optionVersion_isDefault,
     optionVersion_version,
 
     -- * OrderableDBInstanceOption
-    OrderableDBInstanceOption (..),
+    OrderableDBInstanceOption,
     newOrderableDBInstanceOption,
     orderableDBInstanceOption_availabilityZoneGroup,
     orderableDBInstanceOption_availabilityZones,
@@ -1099,12 +1100,12 @@ module Amazonka.RDS.Types
     orderableDBInstanceOption_vpc,
 
     -- * Outpost
-    Outpost (..),
+    Outpost,
     newOutpost,
     outpost_arn,
 
     -- * Parameter
-    Parameter (..),
+    Parameter,
     newParameter,
     parameter_allowedValues,
     parameter_applyMethod,
@@ -1119,13 +1120,13 @@ module Amazonka.RDS.Types
     parameter_supportedEngineModes,
 
     -- * PendingCloudwatchLogsExports
-    PendingCloudwatchLogsExports (..),
+    PendingCloudwatchLogsExports,
     newPendingCloudwatchLogsExports,
     pendingCloudwatchLogsExports_logTypesToDisable,
     pendingCloudwatchLogsExports_logTypesToEnable,
 
     -- * PendingMaintenanceAction
-    PendingMaintenanceAction (..),
+    PendingMaintenanceAction,
     newPendingMaintenanceAction,
     pendingMaintenanceAction_action,
     pendingMaintenanceAction_autoAppliedAfterDate,
@@ -1135,7 +1136,7 @@ module Amazonka.RDS.Types
     pendingMaintenanceAction_optInStatus,
 
     -- * PendingModifiedValues
-    PendingModifiedValues (..),
+    PendingModifiedValues,
     newPendingModifiedValues,
     pendingModifiedValues_allocatedStorage,
     pendingModifiedValues_automationMode,
@@ -1158,26 +1159,26 @@ module Amazonka.RDS.Types
     pendingModifiedValues_storageType,
 
     -- * ProcessorFeature
-    ProcessorFeature (..),
+    ProcessorFeature,
     newProcessorFeature,
     processorFeature_name,
     processorFeature_value,
 
     -- * Range
-    Range (..),
+    Range,
     newRange,
     range_from,
     range_step,
     range_to,
 
     -- * RecurringCharge
-    RecurringCharge (..),
+    RecurringCharge,
     newRecurringCharge,
     recurringCharge_recurringChargeAmount,
     recurringCharge_recurringChargeFrequency,
 
     -- * ReservedDBInstance
-    ReservedDBInstance (..),
+    ReservedDBInstance,
     newReservedDBInstance,
     reservedDBInstance_currencyCode,
     reservedDBInstance_dbInstanceClass,
@@ -1197,7 +1198,7 @@ module Amazonka.RDS.Types
     reservedDBInstance_usagePrice,
 
     -- * ReservedDBInstancesOffering
-    ReservedDBInstancesOffering (..),
+    ReservedDBInstancesOffering,
     newReservedDBInstancesOffering,
     reservedDBInstancesOffering_currencyCode,
     reservedDBInstancesOffering_dbInstanceClass,
@@ -1211,19 +1212,19 @@ module Amazonka.RDS.Types
     reservedDBInstancesOffering_usagePrice,
 
     -- * ResourcePendingMaintenanceActions
-    ResourcePendingMaintenanceActions (..),
+    ResourcePendingMaintenanceActions,
     newResourcePendingMaintenanceActions,
     resourcePendingMaintenanceActions_pendingMaintenanceActionDetails,
     resourcePendingMaintenanceActions_resourceIdentifier,
 
     -- * RestoreWindow
-    RestoreWindow (..),
+    RestoreWindow,
     newRestoreWindow,
     restoreWindow_earliestTime,
     restoreWindow_latestTime,
 
     -- * ScalingConfiguration
-    ScalingConfiguration (..),
+    ScalingConfiguration,
     newScalingConfiguration,
     scalingConfiguration_autoPause,
     scalingConfiguration_maxCapacity,
@@ -1233,7 +1234,7 @@ module Amazonka.RDS.Types
     scalingConfiguration_timeoutAction,
 
     -- * ScalingConfigurationInfo
-    ScalingConfigurationInfo (..),
+    ScalingConfigurationInfo,
     newScalingConfigurationInfo,
     scalingConfigurationInfo_autoPause,
     scalingConfigurationInfo_maxCapacity,
@@ -1243,19 +1244,19 @@ module Amazonka.RDS.Types
     scalingConfigurationInfo_timeoutAction,
 
     -- * ServerlessV2ScalingConfiguration
-    ServerlessV2ScalingConfiguration (..),
+    ServerlessV2ScalingConfiguration,
     newServerlessV2ScalingConfiguration,
     serverlessV2ScalingConfiguration_maxCapacity,
     serverlessV2ScalingConfiguration_minCapacity,
 
     -- * ServerlessV2ScalingConfigurationInfo
-    ServerlessV2ScalingConfigurationInfo (..),
+    ServerlessV2ScalingConfigurationInfo,
     newServerlessV2ScalingConfigurationInfo,
     serverlessV2ScalingConfigurationInfo_maxCapacity,
     serverlessV2ScalingConfigurationInfo_minCapacity,
 
     -- * SourceRegion
-    SourceRegion (..),
+    SourceRegion,
     newSourceRegion,
     sourceRegion_endpoint,
     sourceRegion_regionName,
@@ -1263,7 +1264,7 @@ module Amazonka.RDS.Types
     sourceRegion_supportsDBInstanceAutomatedBackupsReplication,
 
     -- * Subnet
-    Subnet (..),
+    Subnet,
     newSubnet,
     subnet_subnetAvailabilityZone,
     subnet_subnetIdentifier,
@@ -1271,32 +1272,32 @@ module Amazonka.RDS.Types
     subnet_subnetStatus,
 
     -- * SwitchoverDetail
-    SwitchoverDetail (..),
+    SwitchoverDetail,
     newSwitchoverDetail,
     switchoverDetail_sourceMember,
     switchoverDetail_status,
     switchoverDetail_targetMember,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,
 
     -- * TargetHealth
-    TargetHealth (..),
+    TargetHealth,
     newTargetHealth,
     targetHealth_description,
     targetHealth_reason,
     targetHealth_state,
 
     -- * Timezone
-    Timezone (..),
+    Timezone,
     newTimezone,
     timezone_timezoneName,
 
     -- * UpgradeTarget
-    UpgradeTarget (..),
+    UpgradeTarget,
     newUpgradeTarget,
     upgradeTarget_autoUpgrade,
     upgradeTarget_description,
@@ -1309,7 +1310,7 @@ module Amazonka.RDS.Types
     upgradeTarget_supportsParallelQuery,
 
     -- * UserAuthConfig
-    UserAuthConfig (..),
+    UserAuthConfig,
     newUserAuthConfig,
     userAuthConfig_authScheme,
     userAuthConfig_clientPasswordAuthType,
@@ -1319,7 +1320,7 @@ module Amazonka.RDS.Types
     userAuthConfig_userName,
 
     -- * UserAuthConfigInfo
-    UserAuthConfigInfo (..),
+    UserAuthConfigInfo,
     newUserAuthConfigInfo,
     userAuthConfigInfo_authScheme,
     userAuthConfigInfo_clientPasswordAuthType,
@@ -1329,13 +1330,13 @@ module Amazonka.RDS.Types
     userAuthConfigInfo_userName,
 
     -- * ValidDBInstanceModificationsMessage
-    ValidDBInstanceModificationsMessage (..),
+    ValidDBInstanceModificationsMessage,
     newValidDBInstanceModificationsMessage,
     validDBInstanceModificationsMessage_storage,
     validDBInstanceModificationsMessage_validProcessorFeatures,
 
     -- * ValidStorageOptions
-    ValidStorageOptions (..),
+    ValidStorageOptions,
     newValidStorageOptions,
     validStorageOptions_iopsToStorageRatio,
     validStorageOptions_provisionedIops,
@@ -1346,7 +1347,7 @@ module Amazonka.RDS.Types
     validStorageOptions_supportsStorageAutoscaling,
 
     -- * VpcSecurityGroupMembership
-    VpcSecurityGroupMembership (..),
+    VpcSecurityGroupMembership,
     newVpcSecurityGroupMembership,
     vpcSecurityGroupMembership_status,
     vpcSecurityGroupMembership_vpcSecurityGroupId,

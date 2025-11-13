@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -30,127 +31,127 @@ module Amazonka.IoTSiteWise.Types
     _UnauthorizedException,
 
     -- * AggregateType
-    AggregateType (..),
+    AggregateType,
 
     -- * AssetErrorCode
-    AssetErrorCode (..),
+    AssetErrorCode,
 
     -- * AssetModelState
-    AssetModelState (..),
+    AssetModelState,
 
     -- * AssetRelationshipType
-    AssetRelationshipType (..),
+    AssetRelationshipType,
 
     -- * AssetState
-    AssetState (..),
+    AssetState,
 
     -- * AuthMode
-    AuthMode (..),
+    AuthMode,
 
     -- * BatchEntryCompletionStatus
-    BatchEntryCompletionStatus (..),
+    BatchEntryCompletionStatus,
 
     -- * BatchGetAssetPropertyAggregatesErrorCode
-    BatchGetAssetPropertyAggregatesErrorCode (..),
+    BatchGetAssetPropertyAggregatesErrorCode,
 
     -- * BatchGetAssetPropertyValueErrorCode
-    BatchGetAssetPropertyValueErrorCode (..),
+    BatchGetAssetPropertyValueErrorCode,
 
     -- * BatchGetAssetPropertyValueHistoryErrorCode
-    BatchGetAssetPropertyValueHistoryErrorCode (..),
+    BatchGetAssetPropertyValueHistoryErrorCode,
 
     -- * BatchPutAssetPropertyValueErrorCode
-    BatchPutAssetPropertyValueErrorCode (..),
+    BatchPutAssetPropertyValueErrorCode,
 
     -- * CapabilitySyncStatus
-    CapabilitySyncStatus (..),
+    CapabilitySyncStatus,
 
     -- * ColumnName
-    ColumnName (..),
+    ColumnName,
 
     -- * ComputeLocation
-    ComputeLocation (..),
+    ComputeLocation,
 
     -- * ConfigurationState
-    ConfigurationState (..),
+    ConfigurationState,
 
     -- * DetailedErrorCode
-    DetailedErrorCode (..),
+    DetailedErrorCode,
 
     -- * DisassociatedDataStorageState
-    DisassociatedDataStorageState (..),
+    DisassociatedDataStorageState,
 
     -- * EncryptionType
-    EncryptionType (..),
+    EncryptionType,
 
     -- * ErrorCode
-    ErrorCode (..),
+    ErrorCode,
 
     -- * ForwardingConfigState
-    ForwardingConfigState (..),
+    ForwardingConfigState,
 
     -- * IdentityType
-    IdentityType (..),
+    IdentityType,
 
     -- * ImageFileType
-    ImageFileType (..),
+    ImageFileType,
 
     -- * JobStatus
-    JobStatus (..),
+    JobStatus,
 
     -- * ListAssetModelPropertiesFilter
-    ListAssetModelPropertiesFilter (..),
+    ListAssetModelPropertiesFilter,
 
     -- * ListAssetPropertiesFilter
-    ListAssetPropertiesFilter (..),
+    ListAssetPropertiesFilter,
 
     -- * ListAssetsFilter
-    ListAssetsFilter (..),
+    ListAssetsFilter,
 
     -- * ListBulkImportJobsFilter
-    ListBulkImportJobsFilter (..),
+    ListBulkImportJobsFilter,
 
     -- * ListTimeSeriesType
-    ListTimeSeriesType (..),
+    ListTimeSeriesType,
 
     -- * LoggingLevel
-    LoggingLevel (..),
+    LoggingLevel,
 
     -- * MonitorErrorCode
-    MonitorErrorCode (..),
+    MonitorErrorCode,
 
     -- * Permission
-    Permission (..),
+    Permission,
 
     -- * PortalState
-    PortalState (..),
+    PortalState,
 
     -- * PropertyDataType
-    PropertyDataType (..),
+    PropertyDataType,
 
     -- * PropertyNotificationState
-    PropertyNotificationState (..),
+    PropertyNotificationState,
 
     -- * Quality
-    Quality (..),
+    Quality,
 
     -- * ResourceType
-    ResourceType (..),
+    ResourceType,
 
     -- * StorageType
-    StorageType (..),
+    StorageType,
 
     -- * TimeOrdering
-    TimeOrdering (..),
+    TimeOrdering,
 
     -- * TraversalDirection
-    TraversalDirection (..),
+    TraversalDirection,
 
     -- * TraversalType
-    TraversalType (..),
+    TraversalType,
 
     -- * AccessPolicySummary
-    AccessPolicySummary (..),
+    AccessPolicySummary,
     newAccessPolicySummary,
     accessPolicySummary_creationDate,
     accessPolicySummary_lastUpdateDate,
@@ -160,14 +161,14 @@ module Amazonka.IoTSiteWise.Types
     accessPolicySummary_permission,
 
     -- * AggregatedValue
-    AggregatedValue (..),
+    AggregatedValue,
     newAggregatedValue,
     aggregatedValue_quality,
     aggregatedValue_timestamp,
     aggregatedValue_value,
 
     -- * Aggregates
-    Aggregates (..),
+    Aggregates,
     newAggregates,
     aggregates_average,
     aggregates_count,
@@ -177,13 +178,13 @@ module Amazonka.IoTSiteWise.Types
     aggregates_sum,
 
     -- * Alarms
-    Alarms (..),
+    Alarms,
     newAlarms,
     alarms_notificationLambdaArn,
     alarms_alarmRoleArn,
 
     -- * AssetCompositeModel
-    AssetCompositeModel (..),
+    AssetCompositeModel,
     newAssetCompositeModel,
     assetCompositeModel_description,
     assetCompositeModel_id,
@@ -192,26 +193,26 @@ module Amazonka.IoTSiteWise.Types
     assetCompositeModel_properties,
 
     -- * AssetErrorDetails
-    AssetErrorDetails (..),
+    AssetErrorDetails,
     newAssetErrorDetails,
     assetErrorDetails_assetId,
     assetErrorDetails_code,
     assetErrorDetails_message,
 
     -- * AssetHierarchy
-    AssetHierarchy (..),
+    AssetHierarchy,
     newAssetHierarchy,
     assetHierarchy_id,
     assetHierarchy_name,
 
     -- * AssetHierarchyInfo
-    AssetHierarchyInfo (..),
+    AssetHierarchyInfo,
     newAssetHierarchyInfo,
     assetHierarchyInfo_childAssetId,
     assetHierarchyInfo_parentAssetId,
 
     -- * AssetModelCompositeModel
-    AssetModelCompositeModel (..),
+    AssetModelCompositeModel,
     newAssetModelCompositeModel,
     assetModelCompositeModel_description,
     assetModelCompositeModel_id,
@@ -220,7 +221,7 @@ module Amazonka.IoTSiteWise.Types
     assetModelCompositeModel_type,
 
     -- * AssetModelCompositeModelDefinition
-    AssetModelCompositeModelDefinition (..),
+    AssetModelCompositeModelDefinition,
     newAssetModelCompositeModelDefinition,
     assetModelCompositeModelDefinition_description,
     assetModelCompositeModelDefinition_properties,
@@ -228,20 +229,20 @@ module Amazonka.IoTSiteWise.Types
     assetModelCompositeModelDefinition_type,
 
     -- * AssetModelHierarchy
-    AssetModelHierarchy (..),
+    AssetModelHierarchy,
     newAssetModelHierarchy,
     assetModelHierarchy_id,
     assetModelHierarchy_name,
     assetModelHierarchy_childAssetModelId,
 
     -- * AssetModelHierarchyDefinition
-    AssetModelHierarchyDefinition (..),
+    AssetModelHierarchyDefinition,
     newAssetModelHierarchyDefinition,
     assetModelHierarchyDefinition_name,
     assetModelHierarchyDefinition_childAssetModelId,
 
     -- * AssetModelProperty
-    AssetModelProperty (..),
+    AssetModelProperty,
     newAssetModelProperty,
     assetModelProperty_dataTypeSpec,
     assetModelProperty_id,
@@ -251,7 +252,7 @@ module Amazonka.IoTSiteWise.Types
     assetModelProperty_type,
 
     -- * AssetModelPropertyDefinition
-    AssetModelPropertyDefinition (..),
+    AssetModelPropertyDefinition,
     newAssetModelPropertyDefinition,
     assetModelPropertyDefinition_dataTypeSpec,
     assetModelPropertyDefinition_unit,
@@ -260,7 +261,7 @@ module Amazonka.IoTSiteWise.Types
     assetModelPropertyDefinition_type,
 
     -- * AssetModelPropertySummary
-    AssetModelPropertySummary (..),
+    AssetModelPropertySummary,
     newAssetModelPropertySummary,
     assetModelPropertySummary_assetModelCompositeModelId,
     assetModelPropertySummary_dataTypeSpec,
@@ -271,13 +272,13 @@ module Amazonka.IoTSiteWise.Types
     assetModelPropertySummary_type,
 
     -- * AssetModelStatus
-    AssetModelStatus (..),
+    AssetModelStatus,
     newAssetModelStatus,
     assetModelStatus_error,
     assetModelStatus_state,
 
     -- * AssetModelSummary
-    AssetModelSummary (..),
+    AssetModelSummary,
     newAssetModelSummary,
     assetModelSummary_id,
     assetModelSummary_arn,
@@ -288,7 +289,7 @@ module Amazonka.IoTSiteWise.Types
     assetModelSummary_status,
 
     -- * AssetProperty
-    AssetProperty (..),
+    AssetProperty,
     newAssetProperty,
     assetProperty_alias,
     assetProperty_dataTypeSpec,
@@ -299,7 +300,7 @@ module Amazonka.IoTSiteWise.Types
     assetProperty_dataType,
 
     -- * AssetPropertySummary
-    AssetPropertySummary (..),
+    AssetPropertySummary,
     newAssetPropertySummary,
     assetPropertySummary_alias,
     assetPropertySummary_assetCompositeModelId,
@@ -308,26 +309,26 @@ module Amazonka.IoTSiteWise.Types
     assetPropertySummary_unit,
 
     -- * AssetPropertyValue
-    AssetPropertyValue (..),
+    AssetPropertyValue,
     newAssetPropertyValue,
     assetPropertyValue_quality,
     assetPropertyValue_value,
     assetPropertyValue_timestamp,
 
     -- * AssetRelationshipSummary
-    AssetRelationshipSummary (..),
+    AssetRelationshipSummary,
     newAssetRelationshipSummary,
     assetRelationshipSummary_hierarchyInfo,
     assetRelationshipSummary_relationshipType,
 
     -- * AssetStatus
-    AssetStatus (..),
+    AssetStatus,
     newAssetStatus,
     assetStatus_error,
     assetStatus_state,
 
     -- * AssetSummary
-    AssetSummary (..),
+    AssetSummary,
     newAssetSummary,
     assetSummary_description,
     assetSummary_id,
@@ -340,7 +341,7 @@ module Amazonka.IoTSiteWise.Types
     assetSummary_hierarchies,
 
     -- * AssociatedAssetsSummary
-    AssociatedAssetsSummary (..),
+    AssociatedAssetsSummary,
     newAssociatedAssetsSummary,
     associatedAssetsSummary_description,
     associatedAssetsSummary_id,
@@ -353,12 +354,12 @@ module Amazonka.IoTSiteWise.Types
     associatedAssetsSummary_hierarchies,
 
     -- * Attribute
-    Attribute (..),
+    Attribute,
     newAttribute,
     attribute_defaultValue,
 
     -- * BatchGetAssetPropertyAggregatesEntry
-    BatchGetAssetPropertyAggregatesEntry (..),
+    BatchGetAssetPropertyAggregatesEntry,
     newBatchGetAssetPropertyAggregatesEntry,
     batchGetAssetPropertyAggregatesEntry_assetId,
     batchGetAssetPropertyAggregatesEntry_propertyAlias,
@@ -372,33 +373,33 @@ module Amazonka.IoTSiteWise.Types
     batchGetAssetPropertyAggregatesEntry_endDate,
 
     -- * BatchGetAssetPropertyAggregatesErrorEntry
-    BatchGetAssetPropertyAggregatesErrorEntry (..),
+    BatchGetAssetPropertyAggregatesErrorEntry,
     newBatchGetAssetPropertyAggregatesErrorEntry,
     batchGetAssetPropertyAggregatesErrorEntry_errorCode,
     batchGetAssetPropertyAggregatesErrorEntry_errorMessage,
     batchGetAssetPropertyAggregatesErrorEntry_entryId,
 
     -- * BatchGetAssetPropertyAggregatesErrorInfo
-    BatchGetAssetPropertyAggregatesErrorInfo (..),
+    BatchGetAssetPropertyAggregatesErrorInfo,
     newBatchGetAssetPropertyAggregatesErrorInfo,
     batchGetAssetPropertyAggregatesErrorInfo_errorCode,
     batchGetAssetPropertyAggregatesErrorInfo_errorTimestamp,
 
     -- * BatchGetAssetPropertyAggregatesSkippedEntry
-    BatchGetAssetPropertyAggregatesSkippedEntry (..),
+    BatchGetAssetPropertyAggregatesSkippedEntry,
     newBatchGetAssetPropertyAggregatesSkippedEntry,
     batchGetAssetPropertyAggregatesSkippedEntry_errorInfo,
     batchGetAssetPropertyAggregatesSkippedEntry_entryId,
     batchGetAssetPropertyAggregatesSkippedEntry_completionStatus,
 
     -- * BatchGetAssetPropertyAggregatesSuccessEntry
-    BatchGetAssetPropertyAggregatesSuccessEntry (..),
+    BatchGetAssetPropertyAggregatesSuccessEntry,
     newBatchGetAssetPropertyAggregatesSuccessEntry,
     batchGetAssetPropertyAggregatesSuccessEntry_entryId,
     batchGetAssetPropertyAggregatesSuccessEntry_aggregatedValues,
 
     -- * BatchGetAssetPropertyValueEntry
-    BatchGetAssetPropertyValueEntry (..),
+    BatchGetAssetPropertyValueEntry,
     newBatchGetAssetPropertyValueEntry,
     batchGetAssetPropertyValueEntry_assetId,
     batchGetAssetPropertyValueEntry_propertyAlias,
@@ -406,20 +407,20 @@ module Amazonka.IoTSiteWise.Types
     batchGetAssetPropertyValueEntry_entryId,
 
     -- * BatchGetAssetPropertyValueErrorEntry
-    BatchGetAssetPropertyValueErrorEntry (..),
+    BatchGetAssetPropertyValueErrorEntry,
     newBatchGetAssetPropertyValueErrorEntry,
     batchGetAssetPropertyValueErrorEntry_errorCode,
     batchGetAssetPropertyValueErrorEntry_errorMessage,
     batchGetAssetPropertyValueErrorEntry_entryId,
 
     -- * BatchGetAssetPropertyValueErrorInfo
-    BatchGetAssetPropertyValueErrorInfo (..),
+    BatchGetAssetPropertyValueErrorInfo,
     newBatchGetAssetPropertyValueErrorInfo,
     batchGetAssetPropertyValueErrorInfo_errorCode,
     batchGetAssetPropertyValueErrorInfo_errorTimestamp,
 
     -- * BatchGetAssetPropertyValueHistoryEntry
-    BatchGetAssetPropertyValueHistoryEntry (..),
+    BatchGetAssetPropertyValueHistoryEntry,
     newBatchGetAssetPropertyValueHistoryEntry,
     batchGetAssetPropertyValueHistoryEntry_assetId,
     batchGetAssetPropertyValueHistoryEntry_endDate,
@@ -431,59 +432,59 @@ module Amazonka.IoTSiteWise.Types
     batchGetAssetPropertyValueHistoryEntry_entryId,
 
     -- * BatchGetAssetPropertyValueHistoryErrorEntry
-    BatchGetAssetPropertyValueHistoryErrorEntry (..),
+    BatchGetAssetPropertyValueHistoryErrorEntry,
     newBatchGetAssetPropertyValueHistoryErrorEntry,
     batchGetAssetPropertyValueHistoryErrorEntry_errorCode,
     batchGetAssetPropertyValueHistoryErrorEntry_errorMessage,
     batchGetAssetPropertyValueHistoryErrorEntry_entryId,
 
     -- * BatchGetAssetPropertyValueHistoryErrorInfo
-    BatchGetAssetPropertyValueHistoryErrorInfo (..),
+    BatchGetAssetPropertyValueHistoryErrorInfo,
     newBatchGetAssetPropertyValueHistoryErrorInfo,
     batchGetAssetPropertyValueHistoryErrorInfo_errorCode,
     batchGetAssetPropertyValueHistoryErrorInfo_errorTimestamp,
 
     -- * BatchGetAssetPropertyValueHistorySkippedEntry
-    BatchGetAssetPropertyValueHistorySkippedEntry (..),
+    BatchGetAssetPropertyValueHistorySkippedEntry,
     newBatchGetAssetPropertyValueHistorySkippedEntry,
     batchGetAssetPropertyValueHistorySkippedEntry_errorInfo,
     batchGetAssetPropertyValueHistorySkippedEntry_entryId,
     batchGetAssetPropertyValueHistorySkippedEntry_completionStatus,
 
     -- * BatchGetAssetPropertyValueHistorySuccessEntry
-    BatchGetAssetPropertyValueHistorySuccessEntry (..),
+    BatchGetAssetPropertyValueHistorySuccessEntry,
     newBatchGetAssetPropertyValueHistorySuccessEntry,
     batchGetAssetPropertyValueHistorySuccessEntry_entryId,
     batchGetAssetPropertyValueHistorySuccessEntry_assetPropertyValueHistory,
 
     -- * BatchGetAssetPropertyValueSkippedEntry
-    BatchGetAssetPropertyValueSkippedEntry (..),
+    BatchGetAssetPropertyValueSkippedEntry,
     newBatchGetAssetPropertyValueSkippedEntry,
     batchGetAssetPropertyValueSkippedEntry_errorInfo,
     batchGetAssetPropertyValueSkippedEntry_entryId,
     batchGetAssetPropertyValueSkippedEntry_completionStatus,
 
     -- * BatchGetAssetPropertyValueSuccessEntry
-    BatchGetAssetPropertyValueSuccessEntry (..),
+    BatchGetAssetPropertyValueSuccessEntry,
     newBatchGetAssetPropertyValueSuccessEntry,
     batchGetAssetPropertyValueSuccessEntry_assetPropertyValue,
     batchGetAssetPropertyValueSuccessEntry_entryId,
 
     -- * BatchPutAssetPropertyError
-    BatchPutAssetPropertyError (..),
+    BatchPutAssetPropertyError,
     newBatchPutAssetPropertyError,
     batchPutAssetPropertyError_errorCode,
     batchPutAssetPropertyError_errorMessage,
     batchPutAssetPropertyError_timestamps,
 
     -- * BatchPutAssetPropertyErrorEntry
-    BatchPutAssetPropertyErrorEntry (..),
+    BatchPutAssetPropertyErrorEntry,
     newBatchPutAssetPropertyErrorEntry,
     batchPutAssetPropertyErrorEntry_entryId,
     batchPutAssetPropertyErrorEntry_errors,
 
     -- * CompositeModelProperty
-    CompositeModelProperty (..),
+    CompositeModelProperty,
     newCompositeModelProperty,
     compositeModelProperty_id,
     compositeModelProperty_name,
@@ -491,30 +492,30 @@ module Amazonka.IoTSiteWise.Types
     compositeModelProperty_assetProperty,
 
     -- * ConfigurationErrorDetails
-    ConfigurationErrorDetails (..),
+    ConfigurationErrorDetails,
     newConfigurationErrorDetails,
     configurationErrorDetails_code,
     configurationErrorDetails_message,
 
     -- * ConfigurationStatus
-    ConfigurationStatus (..),
+    ConfigurationStatus,
     newConfigurationStatus,
     configurationStatus_error,
     configurationStatus_state,
 
     -- * Csv
-    Csv (..),
+    Csv,
     newCsv,
     csv_columnNames,
 
     -- * CustomerManagedS3Storage
-    CustomerManagedS3Storage (..),
+    CustomerManagedS3Storage,
     newCustomerManagedS3Storage,
     customerManagedS3Storage_s3ResourceArn,
     customerManagedS3Storage_roleArn,
 
     -- * DashboardSummary
-    DashboardSummary (..),
+    DashboardSummary,
     newDashboardSummary,
     dashboardSummary_creationDate,
     dashboardSummary_description,
@@ -523,61 +524,61 @@ module Amazonka.IoTSiteWise.Types
     dashboardSummary_name,
 
     -- * DetailedError
-    DetailedError (..),
+    DetailedError,
     newDetailedError,
     detailedError_code,
     detailedError_message,
 
     -- * ErrorDetails
-    ErrorDetails (..),
+    ErrorDetails,
     newErrorDetails,
     errorDetails_details,
     errorDetails_code,
     errorDetails_message,
 
     -- * ErrorReportLocation
-    ErrorReportLocation (..),
+    ErrorReportLocation,
     newErrorReportLocation,
     errorReportLocation_bucket,
     errorReportLocation_prefix,
 
     -- * ExpressionVariable
-    ExpressionVariable (..),
+    ExpressionVariable,
     newExpressionVariable,
     expressionVariable_name,
     expressionVariable_value,
 
     -- * File
-    File (..),
+    File,
     newFile,
     file_versionId,
     file_bucket,
     file_key,
 
     -- * FileFormat
-    FileFormat (..),
+    FileFormat,
     newFileFormat,
     fileFormat_csv,
 
     -- * ForwardingConfig
-    ForwardingConfig (..),
+    ForwardingConfig,
     newForwardingConfig,
     forwardingConfig_state,
 
     -- * GatewayCapabilitySummary
-    GatewayCapabilitySummary (..),
+    GatewayCapabilitySummary,
     newGatewayCapabilitySummary,
     gatewayCapabilitySummary_capabilityNamespace,
     gatewayCapabilitySummary_capabilitySyncStatus,
 
     -- * GatewayPlatform
-    GatewayPlatform (..),
+    GatewayPlatform,
     newGatewayPlatform,
     gatewayPlatform_greengrass,
     gatewayPlatform_greengrassV2,
 
     -- * GatewaySummary
-    GatewaySummary (..),
+    GatewaySummary,
     newGatewaySummary,
     gatewaySummary_gatewayCapabilitySummaries,
     gatewaySummary_gatewayPlatform,
@@ -587,32 +588,32 @@ module Amazonka.IoTSiteWise.Types
     gatewaySummary_lastUpdateDate,
 
     -- * Greengrass
-    Greengrass (..),
+    Greengrass,
     newGreengrass,
     greengrass_groupArn,
 
     -- * GreengrassV2
-    GreengrassV2 (..),
+    GreengrassV2,
     newGreengrassV2,
     greengrassV2_coreDeviceThingName,
 
     -- * GroupIdentity
-    GroupIdentity (..),
+    GroupIdentity,
     newGroupIdentity,
     groupIdentity_id,
 
     -- * IAMRoleIdentity
-    IAMRoleIdentity (..),
+    IAMRoleIdentity,
     newIAMRoleIdentity,
     iAMRoleIdentity_arn,
 
     -- * IAMUserIdentity
-    IAMUserIdentity (..),
+    IAMUserIdentity,
     newIAMUserIdentity,
     iAMUserIdentity_arn,
 
     -- * Identity
-    Identity (..),
+    Identity,
     newIdentity,
     identity_group,
     identity_iamRole,
@@ -620,58 +621,58 @@ module Amazonka.IoTSiteWise.Types
     identity_user,
 
     -- * Image
-    Image (..),
+    Image,
     newImage,
     image_file,
     image_id,
 
     -- * ImageFile
-    ImageFile (..),
+    ImageFile,
     newImageFile,
     imageFile_data,
     imageFile_type,
 
     -- * ImageLocation
-    ImageLocation (..),
+    ImageLocation,
     newImageLocation,
     imageLocation_id,
     imageLocation_url,
 
     -- * InterpolatedAssetPropertyValue
-    InterpolatedAssetPropertyValue (..),
+    InterpolatedAssetPropertyValue,
     newInterpolatedAssetPropertyValue,
     interpolatedAssetPropertyValue_timestamp,
     interpolatedAssetPropertyValue_value,
 
     -- * JobConfiguration
-    JobConfiguration (..),
+    JobConfiguration,
     newJobConfiguration,
     jobConfiguration_fileFormat,
 
     -- * JobSummary
-    JobSummary (..),
+    JobSummary,
     newJobSummary,
     jobSummary_id,
     jobSummary_name,
     jobSummary_status,
 
     -- * LoggingOptions
-    LoggingOptions (..),
+    LoggingOptions,
     newLoggingOptions,
     loggingOptions_level,
 
     -- * Measurement
-    Measurement (..),
+    Measurement,
     newMeasurement,
     measurement_processingConfig,
 
     -- * MeasurementProcessingConfig
-    MeasurementProcessingConfig (..),
+    MeasurementProcessingConfig,
     newMeasurementProcessingConfig,
     measurementProcessingConfig_forwardingConfig,
 
     -- * Metric
-    Metric (..),
+    Metric,
     newMetric,
     metric_processingConfig,
     metric_expression,
@@ -679,39 +680,39 @@ module Amazonka.IoTSiteWise.Types
     metric_window,
 
     -- * MetricProcessingConfig
-    MetricProcessingConfig (..),
+    MetricProcessingConfig,
     newMetricProcessingConfig,
     metricProcessingConfig_computeLocation,
 
     -- * MetricWindow
-    MetricWindow (..),
+    MetricWindow,
     newMetricWindow,
     metricWindow_tumbling,
 
     -- * MonitorErrorDetails
-    MonitorErrorDetails (..),
+    MonitorErrorDetails,
     newMonitorErrorDetails,
     monitorErrorDetails_code,
     monitorErrorDetails_message,
 
     -- * MultiLayerStorage
-    MultiLayerStorage (..),
+    MultiLayerStorage,
     newMultiLayerStorage,
     multiLayerStorage_customerManagedS3Storage,
 
     -- * PortalResource
-    PortalResource (..),
+    PortalResource,
     newPortalResource,
     portalResource_id,
 
     -- * PortalStatus
-    PortalStatus (..),
+    PortalStatus,
     newPortalStatus,
     portalStatus_error,
     portalStatus_state,
 
     -- * PortalSummary
-    PortalSummary (..),
+    PortalSummary,
     newPortalSummary,
     portalSummary_creationDate,
     portalSummary_description,
@@ -723,12 +724,12 @@ module Amazonka.IoTSiteWise.Types
     portalSummary_status,
 
     -- * ProjectResource
-    ProjectResource (..),
+    ProjectResource,
     newProjectResource,
     projectResource_id,
 
     -- * ProjectSummary
-    ProjectSummary (..),
+    ProjectSummary,
     newProjectSummary,
     projectSummary_creationDate,
     projectSummary_description,
@@ -737,7 +738,7 @@ module Amazonka.IoTSiteWise.Types
     projectSummary_name,
 
     -- * Property
-    Property (..),
+    Property,
     newProperty,
     property_alias,
     property_notification,
@@ -748,13 +749,13 @@ module Amazonka.IoTSiteWise.Types
     property_dataType,
 
     -- * PropertyNotification
-    PropertyNotification (..),
+    PropertyNotification,
     newPropertyNotification,
     propertyNotification_topic,
     propertyNotification_state,
 
     -- * PropertyType
-    PropertyType (..),
+    PropertyType,
     newPropertyType,
     propertyType_attribute,
     propertyType_measurement,
@@ -762,7 +763,7 @@ module Amazonka.IoTSiteWise.Types
     propertyType_transform,
 
     -- * PutAssetPropertyValueEntry
-    PutAssetPropertyValueEntry (..),
+    PutAssetPropertyValueEntry,
     newPutAssetPropertyValueEntry,
     putAssetPropertyValueEntry_assetId,
     putAssetPropertyValueEntry_propertyAlias,
@@ -771,25 +772,25 @@ module Amazonka.IoTSiteWise.Types
     putAssetPropertyValueEntry_propertyValues,
 
     -- * Resource
-    Resource (..),
+    Resource,
     newResource,
     resource_portal,
     resource_project,
 
     -- * RetentionPeriod
-    RetentionPeriod (..),
+    RetentionPeriod,
     newRetentionPeriod,
     retentionPeriod_numberOfDays,
     retentionPeriod_unlimited,
 
     -- * TimeInNanos
-    TimeInNanos (..),
+    TimeInNanos,
     newTimeInNanos,
     timeInNanos_offsetInNanos,
     timeInNanos_timeInSeconds,
 
     -- * TimeSeriesSummary
-    TimeSeriesSummary (..),
+    TimeSeriesSummary,
     newTimeSeriesSummary,
     timeSeriesSummary_alias,
     timeSeriesSummary_assetId,
@@ -801,37 +802,37 @@ module Amazonka.IoTSiteWise.Types
     timeSeriesSummary_timeSeriesLastUpdateDate,
 
     -- * Transform
-    Transform (..),
+    Transform,
     newTransform,
     transform_processingConfig,
     transform_expression,
     transform_variables,
 
     -- * TransformProcessingConfig
-    TransformProcessingConfig (..),
+    TransformProcessingConfig,
     newTransformProcessingConfig,
     transformProcessingConfig_forwardingConfig,
     transformProcessingConfig_computeLocation,
 
     -- * TumblingWindow
-    TumblingWindow (..),
+    TumblingWindow,
     newTumblingWindow,
     tumblingWindow_offset,
     tumblingWindow_interval,
 
     -- * UserIdentity
-    UserIdentity (..),
+    UserIdentity,
     newUserIdentity,
     userIdentity_id,
 
     -- * VariableValue
-    VariableValue (..),
+    VariableValue,
     newVariableValue,
     variableValue_hierarchyId,
     variableValue_propertyId,
 
     -- * Variant
-    Variant (..),
+    Variant,
     newVariant,
     variant_booleanValue,
     variant_doubleValue,

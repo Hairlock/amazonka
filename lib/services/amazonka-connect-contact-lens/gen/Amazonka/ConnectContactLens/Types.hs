@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -25,44 +26,44 @@ module Amazonka.ConnectContactLens.Types
     _ThrottlingException,
 
     -- * SentimentValue
-    SentimentValue (..),
+    SentimentValue,
 
     -- * Categories
-    Categories (..),
+    Categories,
     newCategories,
     categories_matchedCategories,
     categories_matchedDetails,
 
     -- * CategoryDetails
-    CategoryDetails (..),
+    CategoryDetails,
     newCategoryDetails,
     categoryDetails_pointsOfInterest,
 
     -- * CharacterOffsets
-    CharacterOffsets (..),
+    CharacterOffsets,
     newCharacterOffsets,
     characterOffsets_beginOffsetChar,
     characterOffsets_endOffsetChar,
 
     -- * IssueDetected
-    IssueDetected (..),
+    IssueDetected,
     newIssueDetected,
     issueDetected_characterOffsets,
 
     -- * PointOfInterest
-    PointOfInterest (..),
+    PointOfInterest,
     newPointOfInterest,
     pointOfInterest_beginOffsetMillis,
     pointOfInterest_endOffsetMillis,
 
     -- * RealtimeContactAnalysisSegment
-    RealtimeContactAnalysisSegment (..),
+    RealtimeContactAnalysisSegment,
     newRealtimeContactAnalysisSegment,
     realtimeContactAnalysisSegment_categories,
     realtimeContactAnalysisSegment_transcript,
 
     -- * Transcript
-    Transcript (..),
+    Transcript,
     newTranscript,
     transcript_issuesDetected,
     transcript_id,

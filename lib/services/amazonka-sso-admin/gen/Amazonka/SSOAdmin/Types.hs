@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -27,36 +28,36 @@ module Amazonka.SSOAdmin.Types
     _ValidationException,
 
     -- * InstanceAccessControlAttributeConfigurationStatus
-    InstanceAccessControlAttributeConfigurationStatus (..),
+    InstanceAccessControlAttributeConfigurationStatus,
 
     -- * PrincipalType
-    PrincipalType (..),
+    PrincipalType,
 
     -- * ProvisionTargetType
-    ProvisionTargetType (..),
+    ProvisionTargetType,
 
     -- * ProvisioningStatus
-    ProvisioningStatus (..),
+    ProvisioningStatus,
 
     -- * StatusValues
-    StatusValues (..),
+    StatusValues,
 
     -- * TargetType
-    TargetType (..),
+    TargetType,
 
     -- * AccessControlAttribute
-    AccessControlAttribute (..),
+    AccessControlAttribute,
     newAccessControlAttribute,
     accessControlAttribute_key,
     accessControlAttribute_value,
 
     -- * AccessControlAttributeValue
-    AccessControlAttributeValue (..),
+    AccessControlAttributeValue,
     newAccessControlAttributeValue,
     accessControlAttributeValue_source,
 
     -- * AccountAssignment
-    AccountAssignment (..),
+    AccountAssignment,
     newAccountAssignment,
     accountAssignment_accountId,
     accountAssignment_permissionSetArn,
@@ -64,7 +65,7 @@ module Amazonka.SSOAdmin.Types
     accountAssignment_principalType,
 
     -- * AccountAssignmentOperationStatus
-    AccountAssignmentOperationStatus (..),
+    AccountAssignmentOperationStatus,
     newAccountAssignmentOperationStatus,
     accountAssignmentOperationStatus_createdDate,
     accountAssignmentOperationStatus_failureReason,
@@ -77,42 +78,42 @@ module Amazonka.SSOAdmin.Types
     accountAssignmentOperationStatus_targetType,
 
     -- * AccountAssignmentOperationStatusMetadata
-    AccountAssignmentOperationStatusMetadata (..),
+    AccountAssignmentOperationStatusMetadata,
     newAccountAssignmentOperationStatusMetadata,
     accountAssignmentOperationStatusMetadata_createdDate,
     accountAssignmentOperationStatusMetadata_requestId,
     accountAssignmentOperationStatusMetadata_status,
 
     -- * AttachedManagedPolicy
-    AttachedManagedPolicy (..),
+    AttachedManagedPolicy,
     newAttachedManagedPolicy,
     attachedManagedPolicy_arn,
     attachedManagedPolicy_name,
 
     -- * CustomerManagedPolicyReference
-    CustomerManagedPolicyReference (..),
+    CustomerManagedPolicyReference,
     newCustomerManagedPolicyReference,
     customerManagedPolicyReference_path,
     customerManagedPolicyReference_name,
 
     -- * InstanceAccessControlAttributeConfiguration
-    InstanceAccessControlAttributeConfiguration (..),
+    InstanceAccessControlAttributeConfiguration,
     newInstanceAccessControlAttributeConfiguration,
     instanceAccessControlAttributeConfiguration_accessControlAttributes,
 
     -- * InstanceMetadata
-    InstanceMetadata (..),
+    InstanceMetadata,
     newInstanceMetadata,
     instanceMetadata_identityStoreId,
     instanceMetadata_instanceArn,
 
     -- * OperationStatusFilter
-    OperationStatusFilter (..),
+    OperationStatusFilter,
     newOperationStatusFilter,
     operationStatusFilter_status,
 
     -- * PermissionSet
-    PermissionSet (..),
+    PermissionSet,
     newPermissionSet,
     permissionSet_createdDate,
     permissionSet_description,
@@ -122,7 +123,7 @@ module Amazonka.SSOAdmin.Types
     permissionSet_sessionDuration,
 
     -- * PermissionSetProvisioningStatus
-    PermissionSetProvisioningStatus (..),
+    PermissionSetProvisioningStatus,
     newPermissionSetProvisioningStatus,
     permissionSetProvisioningStatus_accountId,
     permissionSetProvisioningStatus_createdDate,
@@ -132,20 +133,20 @@ module Amazonka.SSOAdmin.Types
     permissionSetProvisioningStatus_status,
 
     -- * PermissionSetProvisioningStatusMetadata
-    PermissionSetProvisioningStatusMetadata (..),
+    PermissionSetProvisioningStatusMetadata,
     newPermissionSetProvisioningStatusMetadata,
     permissionSetProvisioningStatusMetadata_createdDate,
     permissionSetProvisioningStatusMetadata_requestId,
     permissionSetProvisioningStatusMetadata_status,
 
     -- * PermissionsBoundary
-    PermissionsBoundary (..),
+    PermissionsBoundary,
     newPermissionsBoundary,
     permissionsBoundary_customerManagedPolicyReference,
     permissionsBoundary_managedPolicyArn,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,

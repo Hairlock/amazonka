@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -20,16 +21,16 @@ module Amazonka.SageMakerMetrics.Types
     -- * Errors
 
     -- * PutMetricsErrorCode
-    PutMetricsErrorCode (..),
+    PutMetricsErrorCode,
 
     -- * BatchPutMetricsError
-    BatchPutMetricsError (..),
+    BatchPutMetricsError,
     newBatchPutMetricsError,
     batchPutMetricsError_code,
     batchPutMetricsError_metricIndex,
 
     -- * RawMetricData
-    RawMetricData (..),
+    RawMetricData,
     newRawMetricData,
     rawMetricData_step,
     rawMetricData_metricName,

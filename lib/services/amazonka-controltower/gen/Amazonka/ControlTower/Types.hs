@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -27,13 +28,13 @@ module Amazonka.ControlTower.Types
     _ValidationException,
 
     -- * ControlOperationStatus
-    ControlOperationStatus (..),
+    ControlOperationStatus,
 
     -- * ControlOperationType
-    ControlOperationType (..),
+    ControlOperationType,
 
     -- * ControlOperation
-    ControlOperation (..),
+    ControlOperation,
     newControlOperation,
     controlOperation_endTime,
     controlOperation_operationType,
@@ -42,7 +43,7 @@ module Amazonka.ControlTower.Types
     controlOperation_statusMessage,
 
     -- * EnabledControlSummary
-    EnabledControlSummary (..),
+    EnabledControlSummary,
     newEnabledControlSummary,
     enabledControlSummary_controlIdentifier,
   )

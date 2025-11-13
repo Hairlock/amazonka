@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -27,25 +28,25 @@ module Amazonka.Amplify.Types
     _UnauthorizedException,
 
     -- * DomainStatus
-    DomainStatus (..),
+    DomainStatus,
 
     -- * JobStatus
-    JobStatus (..),
+    JobStatus,
 
     -- * JobType
-    JobType (..),
+    JobType,
 
     -- * Platform
-    Platform (..),
+    Platform,
 
     -- * RepositoryCloneMethod
-    RepositoryCloneMethod (..),
+    RepositoryCloneMethod,
 
     -- * Stage
-    Stage (..),
+    Stage,
 
     -- * App
-    App (..),
+    App,
     newApp,
     app_autoBranchCreationConfig,
     app_autoBranchCreationPatterns,
@@ -73,13 +74,13 @@ module Amazonka.Amplify.Types
     app_enableBasicAuth,
 
     -- * Artifact
-    Artifact (..),
+    Artifact,
     newArtifact,
     artifact_artifactFileName,
     artifact_artifactId,
 
     -- * AutoBranchCreationConfig
-    AutoBranchCreationConfig (..),
+    AutoBranchCreationConfig,
     newAutoBranchCreationConfig,
     autoBranchCreationConfig_basicAuthCredentials,
     autoBranchCreationConfig_buildSpec,
@@ -93,7 +94,7 @@ module Amazonka.Amplify.Types
     autoBranchCreationConfig_stage,
 
     -- * BackendEnvironment
-    BackendEnvironment (..),
+    BackendEnvironment,
     newBackendEnvironment,
     backendEnvironment_deploymentArtifacts,
     backendEnvironment_stackName,
@@ -103,7 +104,7 @@ module Amazonka.Amplify.Types
     backendEnvironment_updateTime,
 
     -- * Branch
-    Branch (..),
+    Branch,
     newBranch,
     branch_associatedResources,
     branch_backendEnvironmentArn,
@@ -134,7 +135,7 @@ module Amazonka.Amplify.Types
     branch_enablePullRequestPreview,
 
     -- * CustomRule
-    CustomRule (..),
+    CustomRule,
     newCustomRule,
     customRule_condition,
     customRule_status,
@@ -142,7 +143,7 @@ module Amazonka.Amplify.Types
     customRule_target,
 
     -- * DomainAssociation
-    DomainAssociation (..),
+    DomainAssociation,
     newDomainAssociation,
     domainAssociation_autoSubDomainCreationPatterns,
     domainAssociation_autoSubDomainIAMRole,
@@ -155,13 +156,13 @@ module Amazonka.Amplify.Types
     domainAssociation_subDomains,
 
     -- * Job
-    Job (..),
+    Job,
     newJob,
     job_summary,
     job_steps,
 
     -- * JobSummary
-    JobSummary (..),
+    JobSummary,
     newJobSummary,
     jobSummary_endTime,
     jobSummary_jobArn,
@@ -174,7 +175,7 @@ module Amazonka.Amplify.Types
     jobSummary_jobType,
 
     -- * ProductionBranch
-    ProductionBranch (..),
+    ProductionBranch,
     newProductionBranch,
     productionBranch_branchName,
     productionBranch_lastDeployTime,
@@ -182,7 +183,7 @@ module Amazonka.Amplify.Types
     productionBranch_thumbnailUrl,
 
     -- * Step
-    Step (..),
+    Step,
     newStep,
     step_artifactsUrl,
     step_context,
@@ -197,20 +198,20 @@ module Amazonka.Amplify.Types
     step_endTime,
 
     -- * SubDomain
-    SubDomain (..),
+    SubDomain,
     newSubDomain,
     subDomain_subDomainSetting,
     subDomain_verified,
     subDomain_dnsRecord,
 
     -- * SubDomainSetting
-    SubDomainSetting (..),
+    SubDomainSetting,
     newSubDomainSetting,
     subDomainSetting_prefix,
     subDomainSetting_branchName,
 
     -- * Webhook
-    Webhook (..),
+    Webhook,
     newWebhook,
     webhook_webhookArn,
     webhook_webhookId,

@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -26,31 +27,31 @@ module Amazonka.QLDB.Types
     _ResourcePreconditionNotMetException,
 
     -- * EncryptionStatus
-    EncryptionStatus (..),
+    EncryptionStatus,
 
     -- * ErrorCause
-    ErrorCause (..),
+    ErrorCause,
 
     -- * ExportStatus
-    ExportStatus (..),
+    ExportStatus,
 
     -- * LedgerState
-    LedgerState (..),
+    LedgerState,
 
     -- * OutputFormat
-    OutputFormat (..),
+    OutputFormat,
 
     -- * PermissionsMode
-    PermissionsMode (..),
+    PermissionsMode,
 
     -- * S3ObjectEncryptionType
-    S3ObjectEncryptionType (..),
+    S3ObjectEncryptionType,
 
     -- * StreamStatus
-    StreamStatus (..),
+    StreamStatus,
 
     -- * JournalKinesisStreamDescription
-    JournalKinesisStreamDescription (..),
+    JournalKinesisStreamDescription,
     newJournalKinesisStreamDescription,
     journalKinesisStreamDescription_arn,
     journalKinesisStreamDescription_creationTime,
@@ -65,7 +66,7 @@ module Amazonka.QLDB.Types
     journalKinesisStreamDescription_streamName,
 
     -- * JournalS3ExportDescription
-    JournalS3ExportDescription (..),
+    JournalS3ExportDescription,
     newJournalS3ExportDescription,
     journalS3ExportDescription_outputFormat,
     journalS3ExportDescription_ledgerName,
@@ -78,40 +79,40 @@ module Amazonka.QLDB.Types
     journalS3ExportDescription_roleArn,
 
     -- * KinesisConfiguration
-    KinesisConfiguration (..),
+    KinesisConfiguration,
     newKinesisConfiguration,
     kinesisConfiguration_aggregationEnabled,
     kinesisConfiguration_streamArn,
 
     -- * LedgerEncryptionDescription
-    LedgerEncryptionDescription (..),
+    LedgerEncryptionDescription,
     newLedgerEncryptionDescription,
     ledgerEncryptionDescription_inaccessibleKmsKeyDateTime,
     ledgerEncryptionDescription_kmsKeyArn,
     ledgerEncryptionDescription_encryptionStatus,
 
     -- * LedgerSummary
-    LedgerSummary (..),
+    LedgerSummary,
     newLedgerSummary,
     ledgerSummary_creationDateTime,
     ledgerSummary_name,
     ledgerSummary_state,
 
     -- * S3EncryptionConfiguration
-    S3EncryptionConfiguration (..),
+    S3EncryptionConfiguration,
     newS3EncryptionConfiguration,
     s3EncryptionConfiguration_kmsKeyArn,
     s3EncryptionConfiguration_objectEncryptionType,
 
     -- * S3ExportConfiguration
-    S3ExportConfiguration (..),
+    S3ExportConfiguration,
     newS3ExportConfiguration,
     s3ExportConfiguration_bucket,
     s3ExportConfiguration_prefix,
     s3ExportConfiguration_encryptionConfiguration,
 
     -- * ValueHolder
-    ValueHolder (..),
+    ValueHolder,
     newValueHolder,
     valueHolder_ionText,
   )

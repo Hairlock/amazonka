@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -25,30 +26,30 @@ module Amazonka.IoTEventsData.Types
     _ThrottlingException,
 
     -- * AlarmStateName
-    AlarmStateName (..),
+    AlarmStateName,
 
     -- * ComparisonOperator
-    ComparisonOperator (..),
+    ComparisonOperator,
 
     -- * CustomerActionName
-    CustomerActionName (..),
+    CustomerActionName,
 
     -- * ErrorCode
-    ErrorCode (..),
+    ErrorCode,
 
     -- * EventType
-    EventType (..),
+    EventType,
 
     -- * TriggerType
-    TriggerType (..),
+    TriggerType,
 
     -- * AcknowledgeActionConfiguration
-    AcknowledgeActionConfiguration (..),
+    AcknowledgeActionConfiguration,
     newAcknowledgeActionConfiguration,
     acknowledgeActionConfiguration_note,
 
     -- * AcknowledgeAlarmActionRequest
-    AcknowledgeAlarmActionRequest (..),
+    AcknowledgeAlarmActionRequest,
     newAcknowledgeAlarmActionRequest,
     acknowledgeAlarmActionRequest_keyValue,
     acknowledgeAlarmActionRequest_note,
@@ -56,7 +57,7 @@ module Amazonka.IoTEventsData.Types
     acknowledgeAlarmActionRequest_alarmModelName,
 
     -- * Alarm
-    Alarm (..),
+    Alarm,
     newAlarm,
     alarm_alarmModelName,
     alarm_alarmModelVersion,
@@ -67,7 +68,7 @@ module Amazonka.IoTEventsData.Types
     alarm_severity,
 
     -- * AlarmState
-    AlarmState (..),
+    AlarmState,
     newAlarmState,
     alarmState_customerAction,
     alarmState_ruleEvaluation,
@@ -75,7 +76,7 @@ module Amazonka.IoTEventsData.Types
     alarmState_systemEvent,
 
     -- * AlarmSummary
-    AlarmSummary (..),
+    AlarmSummary,
     newAlarmSummary,
     alarmSummary_alarmModelName,
     alarmSummary_alarmModelVersion,
@@ -85,35 +86,35 @@ module Amazonka.IoTEventsData.Types
     alarmSummary_stateName,
 
     -- * BatchAlarmActionErrorEntry
-    BatchAlarmActionErrorEntry (..),
+    BatchAlarmActionErrorEntry,
     newBatchAlarmActionErrorEntry,
     batchAlarmActionErrorEntry_errorCode,
     batchAlarmActionErrorEntry_errorMessage,
     batchAlarmActionErrorEntry_requestId,
 
     -- * BatchDeleteDetectorErrorEntry
-    BatchDeleteDetectorErrorEntry (..),
+    BatchDeleteDetectorErrorEntry,
     newBatchDeleteDetectorErrorEntry,
     batchDeleteDetectorErrorEntry_errorCode,
     batchDeleteDetectorErrorEntry_errorMessage,
     batchDeleteDetectorErrorEntry_messageId,
 
     -- * BatchPutMessageErrorEntry
-    BatchPutMessageErrorEntry (..),
+    BatchPutMessageErrorEntry,
     newBatchPutMessageErrorEntry,
     batchPutMessageErrorEntry_errorCode,
     batchPutMessageErrorEntry_errorMessage,
     batchPutMessageErrorEntry_messageId,
 
     -- * BatchUpdateDetectorErrorEntry
-    BatchUpdateDetectorErrorEntry (..),
+    BatchUpdateDetectorErrorEntry,
     newBatchUpdateDetectorErrorEntry,
     batchUpdateDetectorErrorEntry_errorCode,
     batchUpdateDetectorErrorEntry_errorMessage,
     batchUpdateDetectorErrorEntry_messageId,
 
     -- * CustomerAction
-    CustomerAction (..),
+    CustomerAction,
     newCustomerAction,
     customerAction_acknowledgeActionConfiguration,
     customerAction_actionName,
@@ -123,14 +124,14 @@ module Amazonka.IoTEventsData.Types
     customerAction_snoozeActionConfiguration,
 
     -- * DeleteDetectorRequest
-    DeleteDetectorRequest (..),
+    DeleteDetectorRequest,
     newDeleteDetectorRequest,
     deleteDetectorRequest_keyValue,
     deleteDetectorRequest_messageId,
     deleteDetectorRequest_detectorModelName,
 
     -- * Detector
-    Detector (..),
+    Detector,
     newDetector,
     detector_creationTime,
     detector_detectorModelName,
@@ -140,26 +141,26 @@ module Amazonka.IoTEventsData.Types
     detector_state,
 
     -- * DetectorState
-    DetectorState (..),
+    DetectorState,
     newDetectorState,
     detectorState_stateName,
     detectorState_variables,
     detectorState_timers,
 
     -- * DetectorStateDefinition
-    DetectorStateDefinition (..),
+    DetectorStateDefinition,
     newDetectorStateDefinition,
     detectorStateDefinition_stateName,
     detectorStateDefinition_variables,
     detectorStateDefinition_timers,
 
     -- * DetectorStateSummary
-    DetectorStateSummary (..),
+    DetectorStateSummary,
     newDetectorStateSummary,
     detectorStateSummary_stateName,
 
     -- * DetectorSummary
-    DetectorSummary (..),
+    DetectorSummary,
     newDetectorSummary,
     detectorSummary_creationTime,
     detectorSummary_detectorModelName,
@@ -169,12 +170,12 @@ module Amazonka.IoTEventsData.Types
     detectorSummary_state,
 
     -- * DisableActionConfiguration
-    DisableActionConfiguration (..),
+    DisableActionConfiguration,
     newDisableActionConfiguration,
     disableActionConfiguration_note,
 
     -- * DisableAlarmActionRequest
-    DisableAlarmActionRequest (..),
+    DisableAlarmActionRequest,
     newDisableAlarmActionRequest,
     disableAlarmActionRequest_keyValue,
     disableAlarmActionRequest_note,
@@ -182,12 +183,12 @@ module Amazonka.IoTEventsData.Types
     disableAlarmActionRequest_alarmModelName,
 
     -- * EnableActionConfiguration
-    EnableActionConfiguration (..),
+    EnableActionConfiguration,
     newEnableActionConfiguration,
     enableActionConfiguration_note,
 
     -- * EnableAlarmActionRequest
-    EnableAlarmActionRequest (..),
+    EnableAlarmActionRequest,
     newEnableAlarmActionRequest,
     enableAlarmActionRequest_keyValue,
     enableAlarmActionRequest_note,
@@ -195,7 +196,7 @@ module Amazonka.IoTEventsData.Types
     enableAlarmActionRequest_alarmModelName,
 
     -- * Message
-    Message (..),
+    Message,
     newMessage,
     message_timestamp,
     message_messageId,
@@ -203,12 +204,12 @@ module Amazonka.IoTEventsData.Types
     message_payload,
 
     -- * ResetActionConfiguration
-    ResetActionConfiguration (..),
+    ResetActionConfiguration,
     newResetActionConfiguration,
     resetActionConfiguration_note,
 
     -- * ResetAlarmActionRequest
-    ResetAlarmActionRequest (..),
+    ResetAlarmActionRequest,
     newResetAlarmActionRequest,
     resetAlarmActionRequest_keyValue,
     resetAlarmActionRequest_note,
@@ -216,25 +217,25 @@ module Amazonka.IoTEventsData.Types
     resetAlarmActionRequest_alarmModelName,
 
     -- * RuleEvaluation
-    RuleEvaluation (..),
+    RuleEvaluation,
     newRuleEvaluation,
     ruleEvaluation_simpleRuleEvaluation,
 
     -- * SimpleRuleEvaluation
-    SimpleRuleEvaluation (..),
+    SimpleRuleEvaluation,
     newSimpleRuleEvaluation,
     simpleRuleEvaluation_inputPropertyValue,
     simpleRuleEvaluation_operator,
     simpleRuleEvaluation_thresholdValue,
 
     -- * SnoozeActionConfiguration
-    SnoozeActionConfiguration (..),
+    SnoozeActionConfiguration,
     newSnoozeActionConfiguration,
     snoozeActionConfiguration_note,
     snoozeActionConfiguration_snoozeDuration,
 
     -- * SnoozeAlarmActionRequest
-    SnoozeAlarmActionRequest (..),
+    SnoozeAlarmActionRequest,
     newSnoozeAlarmActionRequest,
     snoozeAlarmActionRequest_keyValue,
     snoozeAlarmActionRequest_note,
@@ -243,35 +244,35 @@ module Amazonka.IoTEventsData.Types
     snoozeAlarmActionRequest_snoozeDuration,
 
     -- * StateChangeConfiguration
-    StateChangeConfiguration (..),
+    StateChangeConfiguration,
     newStateChangeConfiguration,
     stateChangeConfiguration_triggerType,
 
     -- * SystemEvent
-    SystemEvent (..),
+    SystemEvent,
     newSystemEvent,
     systemEvent_eventType,
     systemEvent_stateChangeConfiguration,
 
     -- * Timer
-    Timer (..),
+    Timer,
     newTimer,
     timer_name,
     timer_timestamp,
 
     -- * TimerDefinition
-    TimerDefinition (..),
+    TimerDefinition,
     newTimerDefinition,
     timerDefinition_name,
     timerDefinition_seconds,
 
     -- * TimestampValue
-    TimestampValue (..),
+    TimestampValue,
     newTimestampValue,
     timestampValue_timeInMillis,
 
     -- * UpdateDetectorRequest
-    UpdateDetectorRequest (..),
+    UpdateDetectorRequest,
     newUpdateDetectorRequest,
     updateDetectorRequest_keyValue,
     updateDetectorRequest_messageId,
@@ -279,13 +280,13 @@ module Amazonka.IoTEventsData.Types
     updateDetectorRequest_state,
 
     -- * Variable
-    Variable (..),
+    Variable,
     newVariable,
     variable_name,
     variable_value,
 
     -- * VariableDefinition
-    VariableDefinition (..),
+    VariableDefinition,
     newVariableDefinition,
     variableDefinition_name,
     variableDefinition_value,

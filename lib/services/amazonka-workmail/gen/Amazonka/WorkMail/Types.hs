@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -42,49 +43,49 @@ module Amazonka.WorkMail.Types
     _UnsupportedOperationException,
 
     -- * AccessControlRuleEffect
-    AccessControlRuleEffect (..),
+    AccessControlRuleEffect,
 
     -- * AccessEffect
-    AccessEffect (..),
+    AccessEffect,
 
     -- * AvailabilityProviderType
-    AvailabilityProviderType (..),
+    AvailabilityProviderType,
 
     -- * DnsRecordVerificationStatus
-    DnsRecordVerificationStatus (..),
+    DnsRecordVerificationStatus,
 
     -- * EntityState
-    EntityState (..),
+    EntityState,
 
     -- * FolderName
-    FolderName (..),
+    FolderName,
 
     -- * ImpersonationRoleType
-    ImpersonationRoleType (..),
+    ImpersonationRoleType,
 
     -- * MailboxExportJobState
-    MailboxExportJobState (..),
+    MailboxExportJobState,
 
     -- * MemberType
-    MemberType (..),
+    MemberType,
 
     -- * MobileDeviceAccessRuleEffect
-    MobileDeviceAccessRuleEffect (..),
+    MobileDeviceAccessRuleEffect,
 
     -- * PermissionType
-    PermissionType (..),
+    PermissionType,
 
     -- * ResourceType
-    ResourceType (..),
+    ResourceType,
 
     -- * RetentionAction
-    RetentionAction (..),
+    RetentionAction,
 
     -- * UserRole
-    UserRole (..),
+    UserRole,
 
     -- * AccessControlRule
-    AccessControlRule (..),
+    AccessControlRule,
     newAccessControlRule,
     accessControlRule_actions,
     accessControlRule_dateCreated,
@@ -101,7 +102,7 @@ module Amazonka.WorkMail.Types
     accessControlRule_userIds,
 
     -- * AvailabilityConfiguration
-    AvailabilityConfiguration (..),
+    AvailabilityConfiguration,
     newAvailabilityConfiguration,
     availabilityConfiguration_dateCreated,
     availabilityConfiguration_dateModified,
@@ -111,47 +112,47 @@ module Amazonka.WorkMail.Types
     availabilityConfiguration_providerType,
 
     -- * BookingOptions
-    BookingOptions (..),
+    BookingOptions,
     newBookingOptions,
     bookingOptions_autoAcceptRequests,
     bookingOptions_autoDeclineConflictingRequests,
     bookingOptions_autoDeclineRecurringRequests,
 
     -- * Delegate
-    Delegate (..),
+    Delegate,
     newDelegate,
     delegate_id,
     delegate_type,
 
     -- * DnsRecord
-    DnsRecord (..),
+    DnsRecord,
     newDnsRecord,
     dnsRecord_hostname,
     dnsRecord_type,
     dnsRecord_value,
 
     -- * Domain
-    Domain (..),
+    Domain,
     newDomain,
     domain_domainName,
     domain_hostedZoneId,
 
     -- * EwsAvailabilityProvider
-    EwsAvailabilityProvider (..),
+    EwsAvailabilityProvider,
     newEwsAvailabilityProvider,
     ewsAvailabilityProvider_ewsEndpoint,
     ewsAvailabilityProvider_ewsUsername,
     ewsAvailabilityProvider_ewsPassword,
 
     -- * FolderConfiguration
-    FolderConfiguration (..),
+    FolderConfiguration,
     newFolderConfiguration,
     folderConfiguration_period,
     folderConfiguration_name,
     folderConfiguration_action,
 
     -- * Group
-    Group (..),
+    Group,
     newGroup,
     group_disabledDate,
     group_email,
@@ -161,13 +162,13 @@ module Amazonka.WorkMail.Types
     group_state,
 
     -- * ImpersonationMatchedRule
-    ImpersonationMatchedRule (..),
+    ImpersonationMatchedRule,
     newImpersonationMatchedRule,
     impersonationMatchedRule_impersonationRuleId,
     impersonationMatchedRule_name,
 
     -- * ImpersonationRole
-    ImpersonationRole (..),
+    ImpersonationRole,
     newImpersonationRole,
     impersonationRole_dateCreated,
     impersonationRole_dateModified,
@@ -176,7 +177,7 @@ module Amazonka.WorkMail.Types
     impersonationRole_type,
 
     -- * ImpersonationRule
-    ImpersonationRule (..),
+    ImpersonationRule,
     newImpersonationRule,
     impersonationRule_description,
     impersonationRule_name,
@@ -186,18 +187,18 @@ module Amazonka.WorkMail.Types
     impersonationRule_effect,
 
     -- * LambdaAvailabilityProvider
-    LambdaAvailabilityProvider (..),
+    LambdaAvailabilityProvider,
     newLambdaAvailabilityProvider,
     lambdaAvailabilityProvider_lambdaArn,
 
     -- * MailDomainSummary
-    MailDomainSummary (..),
+    MailDomainSummary,
     newMailDomainSummary,
     mailDomainSummary_defaultDomain,
     mailDomainSummary_domainName,
 
     -- * MailboxExportJob
-    MailboxExportJob (..),
+    MailboxExportJob,
     newMailboxExportJob,
     mailboxExportJob_description,
     mailboxExportJob_endTime,
@@ -210,7 +211,7 @@ module Amazonka.WorkMail.Types
     mailboxExportJob_state,
 
     -- * Member
-    Member (..),
+    Member,
     newMember,
     member_disabledDate,
     member_enabledDate,
@@ -220,13 +221,13 @@ module Amazonka.WorkMail.Types
     member_type,
 
     -- * MobileDeviceAccessMatchedRule
-    MobileDeviceAccessMatchedRule (..),
+    MobileDeviceAccessMatchedRule,
     newMobileDeviceAccessMatchedRule,
     mobileDeviceAccessMatchedRule_mobileDeviceAccessRuleId,
     mobileDeviceAccessMatchedRule_name,
 
     -- * MobileDeviceAccessOverride
-    MobileDeviceAccessOverride (..),
+    MobileDeviceAccessOverride,
     newMobileDeviceAccessOverride,
     mobileDeviceAccessOverride_dateCreated,
     mobileDeviceAccessOverride_dateModified,
@@ -236,7 +237,7 @@ module Amazonka.WorkMail.Types
     mobileDeviceAccessOverride_userId,
 
     -- * MobileDeviceAccessRule
-    MobileDeviceAccessRule (..),
+    MobileDeviceAccessRule,
     newMobileDeviceAccessRule,
     mobileDeviceAccessRule_dateCreated,
     mobileDeviceAccessRule_dateModified,
@@ -254,7 +255,7 @@ module Amazonka.WorkMail.Types
     mobileDeviceAccessRule_notDeviceUserAgents,
 
     -- * OrganizationSummary
-    OrganizationSummary (..),
+    OrganizationSummary,
     newOrganizationSummary,
     organizationSummary_alias,
     organizationSummary_defaultMailDomain,
@@ -263,20 +264,20 @@ module Amazonka.WorkMail.Types
     organizationSummary_state,
 
     -- * Permission
-    Permission (..),
+    Permission,
     newPermission,
     permission_granteeId,
     permission_granteeType,
     permission_permissionValues,
 
     -- * RedactedEwsAvailabilityProvider
-    RedactedEwsAvailabilityProvider (..),
+    RedactedEwsAvailabilityProvider,
     newRedactedEwsAvailabilityProvider,
     redactedEwsAvailabilityProvider_ewsEndpoint,
     redactedEwsAvailabilityProvider_ewsUsername,
 
     -- * Resource
-    Resource (..),
+    Resource,
     newResource,
     resource_disabledDate,
     resource_email,
@@ -287,13 +288,13 @@ module Amazonka.WorkMail.Types
     resource_type,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,
 
     -- * User
-    User (..),
+    User,
     newUser,
     user_disabledDate,
     user_displayName,

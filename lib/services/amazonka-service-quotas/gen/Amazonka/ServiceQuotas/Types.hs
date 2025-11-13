@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -37,25 +38,25 @@ module Amazonka.ServiceQuotas.Types
     _TooManyTagsException,
 
     -- * ErrorCode
-    ErrorCode (..),
+    ErrorCode,
 
     -- * PeriodUnit
-    PeriodUnit (..),
+    PeriodUnit,
 
     -- * RequestStatus
-    RequestStatus (..),
+    RequestStatus,
 
     -- * ServiceQuotaTemplateAssociationStatus
-    ServiceQuotaTemplateAssociationStatus (..),
+    ServiceQuotaTemplateAssociationStatus,
 
     -- * ErrorReason
-    ErrorReason (..),
+    ErrorReason,
     newErrorReason,
     errorReason_errorCode,
     errorReason_errorMessage,
 
     -- * MetricInfo
-    MetricInfo (..),
+    MetricInfo,
     newMetricInfo,
     metricInfo_metricDimensions,
     metricInfo_metricName,
@@ -63,13 +64,13 @@ module Amazonka.ServiceQuotas.Types
     metricInfo_metricStatisticRecommendation,
 
     -- * QuotaPeriod
-    QuotaPeriod (..),
+    QuotaPeriod,
     newQuotaPeriod,
     quotaPeriod_periodUnit,
     quotaPeriod_periodValue,
 
     -- * RequestedServiceQuotaChange
-    RequestedServiceQuotaChange (..),
+    RequestedServiceQuotaChange,
     newRequestedServiceQuotaChange,
     requestedServiceQuotaChange_caseId,
     requestedServiceQuotaChange_created,
@@ -87,13 +88,13 @@ module Amazonka.ServiceQuotas.Types
     requestedServiceQuotaChange_unit,
 
     -- * ServiceInfo
-    ServiceInfo (..),
+    ServiceInfo,
     newServiceInfo,
     serviceInfo_serviceCode,
     serviceInfo_serviceName,
 
     -- * ServiceQuota
-    ServiceQuota (..),
+    ServiceQuota,
     newServiceQuota,
     serviceQuota_adjustable,
     serviceQuota_errorReason,
@@ -109,7 +110,7 @@ module Amazonka.ServiceQuotas.Types
     serviceQuota_value,
 
     -- * ServiceQuotaIncreaseRequestInTemplate
-    ServiceQuotaIncreaseRequestInTemplate (..),
+    ServiceQuotaIncreaseRequestInTemplate,
     newServiceQuotaIncreaseRequestInTemplate,
     serviceQuotaIncreaseRequestInTemplate_awsRegion,
     serviceQuotaIncreaseRequestInTemplate_desiredValue,
@@ -121,7 +122,7 @@ module Amazonka.ServiceQuotas.Types
     serviceQuotaIncreaseRequestInTemplate_unit,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,

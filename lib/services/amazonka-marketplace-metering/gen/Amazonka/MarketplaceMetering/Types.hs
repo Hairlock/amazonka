@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -37,22 +38,22 @@ module Amazonka.MarketplaceMetering.Types
     _TimestampOutOfBoundsException,
 
     -- * UsageRecordResultStatus
-    UsageRecordResultStatus (..),
+    UsageRecordResultStatus,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,
 
     -- * UsageAllocation
-    UsageAllocation (..),
+    UsageAllocation,
     newUsageAllocation,
     usageAllocation_tags,
     usageAllocation_allocatedUsageQuantity,
 
     -- * UsageRecord
-    UsageRecord (..),
+    UsageRecord,
     newUsageRecord,
     usageRecord_quantity,
     usageRecord_usageAllocations,
@@ -61,7 +62,7 @@ module Amazonka.MarketplaceMetering.Types
     usageRecord_dimension,
 
     -- * UsageRecordResult
-    UsageRecordResult (..),
+    UsageRecordResult,
     newUsageRecordResult,
     usageRecordResult_meteringRecordId,
     usageRecordResult_status,

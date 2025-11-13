@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -30,25 +31,25 @@ module Amazonka.HoneyCode.Types
     _ValidationException,
 
     -- * ErrorCode
-    ErrorCode (..),
+    ErrorCode,
 
     -- * Format
-    Format (..),
+    Format,
 
     -- * ImportDataCharacterEncoding
-    ImportDataCharacterEncoding (..),
+    ImportDataCharacterEncoding,
 
     -- * ImportSourceDataFormat
-    ImportSourceDataFormat (..),
+    ImportSourceDataFormat,
 
     -- * TableDataImportJobStatus
-    TableDataImportJobStatus (..),
+    TableDataImportJobStatus,
 
     -- * UpsertAction
-    UpsertAction (..),
+    UpsertAction,
 
     -- * Cell
-    Cell (..),
+    Cell,
     newCell,
     cell_format,
     cell_formattedValue,
@@ -57,32 +58,32 @@ module Amazonka.HoneyCode.Types
     cell_rawValue,
 
     -- * CellInput
-    CellInput (..),
+    CellInput,
     newCellInput,
     cellInput_fact,
     cellInput_facts,
 
     -- * ColumnMetadata
-    ColumnMetadata (..),
+    ColumnMetadata,
     newColumnMetadata,
     columnMetadata_name,
     columnMetadata_format,
 
     -- * CreateRowData
-    CreateRowData (..),
+    CreateRowData,
     newCreateRowData,
     createRowData_batchItemId,
     createRowData_cellsToCreate,
 
     -- * DataItem
-    DataItem (..),
+    DataItem,
     newDataItem,
     dataItem_formattedValue,
     dataItem_overrideFormat,
     dataItem_rawValue,
 
     -- * DelimitedTextImportOptions
-    DelimitedTextImportOptions (..),
+    DelimitedTextImportOptions,
     newDelimitedTextImportOptions,
     delimitedTextImportOptions_dataCharacterEncoding,
     delimitedTextImportOptions_hasHeaderRow,
@@ -90,76 +91,76 @@ module Amazonka.HoneyCode.Types
     delimitedTextImportOptions_delimiter,
 
     -- * DestinationOptions
-    DestinationOptions (..),
+    DestinationOptions,
     newDestinationOptions,
     destinationOptions_columnMap,
 
     -- * FailedBatchItem
-    FailedBatchItem (..),
+    FailedBatchItem,
     newFailedBatchItem,
     failedBatchItem_id,
     failedBatchItem_errorMessage,
 
     -- * Filter
-    Filter (..),
+    Filter,
     newFilter,
     filter_contextRowId,
     filter_formula,
 
     -- * ImportDataSource
-    ImportDataSource (..),
+    ImportDataSource,
     newImportDataSource,
     importDataSource_dataSourceConfig,
 
     -- * ImportDataSourceConfig
-    ImportDataSourceConfig (..),
+    ImportDataSourceConfig,
     newImportDataSourceConfig,
     importDataSourceConfig_dataSourceUrl,
 
     -- * ImportJobSubmitter
-    ImportJobSubmitter (..),
+    ImportJobSubmitter,
     newImportJobSubmitter,
     importJobSubmitter_email,
     importJobSubmitter_userArn,
 
     -- * ImportOptions
-    ImportOptions (..),
+    ImportOptions,
     newImportOptions,
     importOptions_delimitedTextOptions,
     importOptions_destinationOptions,
 
     -- * ResultRow
-    ResultRow (..),
+    ResultRow,
     newResultRow,
     resultRow_rowId,
     resultRow_dataItems,
 
     -- * ResultSet
-    ResultSet (..),
+    ResultSet,
     newResultSet,
     resultSet_headers,
     resultSet_rows,
 
     -- * SourceDataColumnProperties
-    SourceDataColumnProperties (..),
+    SourceDataColumnProperties,
     newSourceDataColumnProperties,
     sourceDataColumnProperties_columnIndex,
 
     -- * Table
-    Table (..),
+    Table,
     newTable,
     table_tableId,
     table_tableName,
 
     -- * TableColumn
-    TableColumn (..),
+    TableColumn,
     newTableColumn,
     tableColumn_format,
     tableColumn_tableColumnId,
     tableColumn_tableColumnName,
 
     -- * TableDataImportJobMetadata
-    TableDataImportJobMetadata (..),
+    TableDataImportJobMetadata,
     newTableDataImportJobMetadata,
     tableDataImportJobMetadata_submitter,
     tableDataImportJobMetadata_submitTime,
@@ -167,32 +168,32 @@ module Amazonka.HoneyCode.Types
     tableDataImportJobMetadata_dataSource,
 
     -- * TableRow
-    TableRow (..),
+    TableRow,
     newTableRow,
     tableRow_rowId,
     tableRow_cells,
 
     -- * UpdateRowData
-    UpdateRowData (..),
+    UpdateRowData,
     newUpdateRowData,
     updateRowData_rowId,
     updateRowData_cellsToUpdate,
 
     -- * UpsertRowData
-    UpsertRowData (..),
+    UpsertRowData,
     newUpsertRowData,
     upsertRowData_batchItemId,
     upsertRowData_filter,
     upsertRowData_cellsToUpdate,
 
     -- * UpsertRowsResult
-    UpsertRowsResult (..),
+    UpsertRowsResult,
     newUpsertRowsResult,
     upsertRowsResult_rowIds,
     upsertRowsResult_upsertAction,
 
     -- * VariableValue
-    VariableValue (..),
+    VariableValue,
     newVariableValue,
     variableValue_rawValue,
   )

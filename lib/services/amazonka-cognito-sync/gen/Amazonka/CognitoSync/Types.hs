@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -33,26 +34,26 @@ module Amazonka.CognitoSync.Types
     _TooManyRequestsException,
 
     -- * BulkPublishStatus
-    BulkPublishStatus (..),
+    BulkPublishStatus,
 
     -- * Operation
-    Operation (..),
+    Operation,
 
     -- * Platform
-    Platform (..),
+    Platform,
 
     -- * StreamingStatus
-    StreamingStatus (..),
+    StreamingStatus,
 
     -- * CognitoStreams
-    CognitoStreams (..),
+    CognitoStreams,
     newCognitoStreams,
     cognitoStreams_roleArn,
     cognitoStreams_streamName,
     cognitoStreams_streamingStatus,
 
     -- * Dataset
-    Dataset (..),
+    Dataset,
     newDataset,
     dataset_creationDate,
     dataset_dataStorage,
@@ -63,7 +64,7 @@ module Amazonka.CognitoSync.Types
     dataset_numRecords,
 
     -- * IdentityPoolUsage
-    IdentityPoolUsage (..),
+    IdentityPoolUsage,
     newIdentityPoolUsage,
     identityPoolUsage_dataStorage,
     identityPoolUsage_identityPoolId,
@@ -71,7 +72,7 @@ module Amazonka.CognitoSync.Types
     identityPoolUsage_syncSessionsCount,
 
     -- * IdentityUsage
-    IdentityUsage (..),
+    IdentityUsage,
     newIdentityUsage,
     identityUsage_dataStorage,
     identityUsage_datasetCount,
@@ -80,13 +81,13 @@ module Amazonka.CognitoSync.Types
     identityUsage_lastModifiedDate,
 
     -- * PushSync
-    PushSync (..),
+    PushSync,
     newPushSync,
     pushSync_applicationArns,
     pushSync_roleArn,
 
     -- * Record
-    Record (..),
+    Record,
     newRecord,
     record_deviceLastModifiedDate,
     record_key,
@@ -96,7 +97,7 @@ module Amazonka.CognitoSync.Types
     record_value,
 
     -- * RecordPatch
-    RecordPatch (..),
+    RecordPatch,
     newRecordPatch,
     recordPatch_deviceLastModifiedDate,
     recordPatch_value,

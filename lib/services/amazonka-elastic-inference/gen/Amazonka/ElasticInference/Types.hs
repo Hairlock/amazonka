@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -23,24 +24,24 @@ module Amazonka.ElasticInference.Types
     _ResourceNotFoundException,
 
     -- * LocationType
-    LocationType (..),
+    LocationType,
 
     -- * AcceleratorType
-    AcceleratorType (..),
+    AcceleratorType,
     newAcceleratorType,
     acceleratorType_acceleratorTypeName,
     acceleratorType_memoryInfo,
     acceleratorType_throughputInfo,
 
     -- * AcceleratorTypeOffering
-    AcceleratorTypeOffering (..),
+    AcceleratorTypeOffering,
     newAcceleratorTypeOffering,
     acceleratorTypeOffering_acceleratorType,
     acceleratorTypeOffering_location,
     acceleratorTypeOffering_locationType,
 
     -- * ElasticInferenceAccelerator
-    ElasticInferenceAccelerator (..),
+    ElasticInferenceAccelerator,
     newElasticInferenceAccelerator,
     elasticInferenceAccelerator_acceleratorHealth,
     elasticInferenceAccelerator_acceleratorId,
@@ -49,24 +50,24 @@ module Amazonka.ElasticInference.Types
     elasticInferenceAccelerator_availabilityZone,
 
     -- * ElasticInferenceAcceleratorHealth
-    ElasticInferenceAcceleratorHealth (..),
+    ElasticInferenceAcceleratorHealth,
     newElasticInferenceAcceleratorHealth,
     elasticInferenceAcceleratorHealth_status,
 
     -- * Filter
-    Filter (..),
+    Filter,
     newFilter,
     filter_name,
     filter_values,
 
     -- * KeyValuePair
-    KeyValuePair (..),
+    KeyValuePair,
     newKeyValuePair,
     keyValuePair_key,
     keyValuePair_value,
 
     -- * MemoryInfo
-    MemoryInfo (..),
+    MemoryInfo,
     newMemoryInfo,
     memoryInfo_sizeInMiB,
   )

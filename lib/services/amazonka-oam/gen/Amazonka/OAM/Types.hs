@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -28,17 +29,17 @@ module Amazonka.OAM.Types
     _ValidationException,
 
     -- * ResourceType
-    ResourceType (..),
+    ResourceType,
 
     -- * ListAttachedLinksItem
-    ListAttachedLinksItem (..),
+    ListAttachedLinksItem,
     newListAttachedLinksItem,
     listAttachedLinksItem_label,
     listAttachedLinksItem_linkArn,
     listAttachedLinksItem_resourceTypes,
 
     -- * ListLinksItem
-    ListLinksItem (..),
+    ListLinksItem,
     newListLinksItem,
     listLinksItem_arn,
     listLinksItem_id,
@@ -47,7 +48,7 @@ module Amazonka.OAM.Types
     listLinksItem_sinkArn,
 
     -- * ListSinksItem
-    ListSinksItem (..),
+    ListSinksItem,
     newListSinksItem,
     listSinksItem_arn,
     listSinksItem_id,

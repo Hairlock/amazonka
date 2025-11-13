@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -27,34 +28,34 @@ module Amazonka.M2.Types
     _ValidationException,
 
     -- * ApplicationDeploymentLifecycle
-    ApplicationDeploymentLifecycle (..),
+    ApplicationDeploymentLifecycle,
 
     -- * ApplicationLifecycle
-    ApplicationLifecycle (..),
+    ApplicationLifecycle,
 
     -- * ApplicationVersionLifecycle
-    ApplicationVersionLifecycle (..),
+    ApplicationVersionLifecycle,
 
     -- * BatchJobExecutionStatus
-    BatchJobExecutionStatus (..),
+    BatchJobExecutionStatus,
 
     -- * BatchJobType
-    BatchJobType (..),
+    BatchJobType,
 
     -- * DataSetTaskLifecycle
-    DataSetTaskLifecycle (..),
+    DataSetTaskLifecycle,
 
     -- * DeploymentLifecycle
-    DeploymentLifecycle (..),
+    DeploymentLifecycle,
 
     -- * EngineType
-    EngineType (..),
+    EngineType,
 
     -- * EnvironmentLifecycle
-    EnvironmentLifecycle (..),
+    EnvironmentLifecycle,
 
     -- * AlternateKey
-    AlternateKey (..),
+    AlternateKey,
     newAlternateKey,
     alternateKey_allowDuplicates,
     alternateKey_name,
@@ -62,7 +63,7 @@ module Amazonka.M2.Types
     alternateKey_offset,
 
     -- * ApplicationSummary
-    ApplicationSummary (..),
+    ApplicationSummary,
     newApplicationSummary,
     applicationSummary_deploymentStatus,
     applicationSummary_description,
@@ -78,7 +79,7 @@ module Amazonka.M2.Types
     applicationSummary_status,
 
     -- * ApplicationVersionSummary
-    ApplicationVersionSummary (..),
+    ApplicationVersionSummary,
     newApplicationVersionSummary,
     applicationVersionSummary_statusReason,
     applicationVersionSummary_applicationVersion,
@@ -86,13 +87,13 @@ module Amazonka.M2.Types
     applicationVersionSummary_status,
 
     -- * BatchJobDefinition
-    BatchJobDefinition (..),
+    BatchJobDefinition,
     newBatchJobDefinition,
     batchJobDefinition_fileBatchJobDefinition,
     batchJobDefinition_scriptBatchJobDefinition,
 
     -- * BatchJobExecutionSummary
-    BatchJobExecutionSummary (..),
+    BatchJobExecutionSummary,
     newBatchJobExecutionSummary,
     batchJobExecutionSummary_endTime,
     batchJobExecutionSummary_jobId,
@@ -104,13 +105,13 @@ module Amazonka.M2.Types
     batchJobExecutionSummary_status,
 
     -- * BatchJobIdentifier
-    BatchJobIdentifier (..),
+    BatchJobIdentifier,
     newBatchJobIdentifier,
     batchJobIdentifier_fileBatchJobIdentifier,
     batchJobIdentifier_scriptBatchJobIdentifier,
 
     -- * DataSet
-    DataSet (..),
+    DataSet,
     newDataSet,
     dataSet_relativePath,
     dataSet_storageType,
@@ -119,19 +120,19 @@ module Amazonka.M2.Types
     dataSet_recordLength,
 
     -- * DataSetImportConfig
-    DataSetImportConfig (..),
+    DataSetImportConfig,
     newDataSetImportConfig,
     dataSetImportConfig_dataSets,
     dataSetImportConfig_s3Location,
 
     -- * DataSetImportItem
-    DataSetImportItem (..),
+    DataSetImportItem,
     newDataSetImportItem,
     dataSetImportItem_dataSet,
     dataSetImportItem_externalLocation,
 
     -- * DataSetImportSummary
-    DataSetImportSummary (..),
+    DataSetImportSummary,
     newDataSetImportSummary,
     dataSetImportSummary_failed,
     dataSetImportSummary_inProgress,
@@ -140,14 +141,14 @@ module Amazonka.M2.Types
     dataSetImportSummary_total,
 
     -- * DataSetImportTask
-    DataSetImportTask (..),
+    DataSetImportTask,
     newDataSetImportTask,
     dataSetImportTask_status,
     dataSetImportTask_summary,
     dataSetImportTask_taskId,
 
     -- * DataSetSummary
-    DataSetSummary (..),
+    DataSetSummary,
     newDataSetSummary,
     dataSetSummary_creationTime,
     dataSetSummary_dataSetOrg,
@@ -157,32 +158,32 @@ module Amazonka.M2.Types
     dataSetSummary_dataSetName,
 
     -- * DatasetDetailOrgAttributes
-    DatasetDetailOrgAttributes (..),
+    DatasetDetailOrgAttributes,
     newDatasetDetailOrgAttributes,
     datasetDetailOrgAttributes_gdg,
     datasetDetailOrgAttributes_vsam,
 
     -- * DatasetOrgAttributes
-    DatasetOrgAttributes (..),
+    DatasetOrgAttributes,
     newDatasetOrgAttributes,
     datasetOrgAttributes_gdg,
     datasetOrgAttributes_vsam,
 
     -- * Definition
-    Definition (..),
+    Definition,
     newDefinition,
     definition_content,
     definition_s3Location,
 
     -- * DeployedVersionSummary
-    DeployedVersionSummary (..),
+    DeployedVersionSummary,
     newDeployedVersionSummary,
     deployedVersionSummary_statusReason,
     deployedVersionSummary_applicationVersion,
     deployedVersionSummary_status,
 
     -- * DeploymentSummary
-    DeploymentSummary (..),
+    DeploymentSummary,
     newDeploymentSummary,
     deploymentSummary_statusReason,
     deploymentSummary_applicationId,
@@ -193,19 +194,19 @@ module Amazonka.M2.Types
     deploymentSummary_status,
 
     -- * EfsStorageConfiguration
-    EfsStorageConfiguration (..),
+    EfsStorageConfiguration,
     newEfsStorageConfiguration,
     efsStorageConfiguration_fileSystemId,
     efsStorageConfiguration_mountPoint,
 
     -- * EngineVersionsSummary
-    EngineVersionsSummary (..),
+    EngineVersionsSummary,
     newEngineVersionsSummary,
     engineVersionsSummary_engineType,
     engineVersionsSummary_engineVersion,
 
     -- * EnvironmentSummary
-    EnvironmentSummary (..),
+    EnvironmentSummary,
     newEnvironmentSummary,
     environmentSummary_creationTime,
     environmentSummary_engineType,
@@ -217,94 +218,94 @@ module Amazonka.M2.Types
     environmentSummary_status,
 
     -- * ExternalLocation
-    ExternalLocation (..),
+    ExternalLocation,
     newExternalLocation,
     externalLocation_s3Location,
 
     -- * FileBatchJobDefinition
-    FileBatchJobDefinition (..),
+    FileBatchJobDefinition,
     newFileBatchJobDefinition,
     fileBatchJobDefinition_folderPath,
     fileBatchJobDefinition_fileName,
 
     -- * FileBatchJobIdentifier
-    FileBatchJobIdentifier (..),
+    FileBatchJobIdentifier,
     newFileBatchJobIdentifier,
     fileBatchJobIdentifier_folderPath,
     fileBatchJobIdentifier_fileName,
 
     -- * FsxStorageConfiguration
-    FsxStorageConfiguration (..),
+    FsxStorageConfiguration,
     newFsxStorageConfiguration,
     fsxStorageConfiguration_fileSystemId,
     fsxStorageConfiguration_mountPoint,
 
     -- * GdgAttributes
-    GdgAttributes (..),
+    GdgAttributes,
     newGdgAttributes,
     gdgAttributes_limit,
     gdgAttributes_rollDisposition,
 
     -- * GdgDetailAttributes
-    GdgDetailAttributes (..),
+    GdgDetailAttributes,
     newGdgDetailAttributes,
     gdgDetailAttributes_limit,
     gdgDetailAttributes_rollDisposition,
 
     -- * HighAvailabilityConfig
-    HighAvailabilityConfig (..),
+    HighAvailabilityConfig,
     newHighAvailabilityConfig,
     highAvailabilityConfig_desiredCapacity,
 
     -- * LogGroupSummary
-    LogGroupSummary (..),
+    LogGroupSummary,
     newLogGroupSummary,
     logGroupSummary_logGroupName,
     logGroupSummary_logType,
 
     -- * MaintenanceSchedule
-    MaintenanceSchedule (..),
+    MaintenanceSchedule,
     newMaintenanceSchedule,
     maintenanceSchedule_endTime,
     maintenanceSchedule_startTime,
 
     -- * PendingMaintenance
-    PendingMaintenance (..),
+    PendingMaintenance,
     newPendingMaintenance,
     pendingMaintenance_engineVersion,
     pendingMaintenance_schedule,
 
     -- * PrimaryKey
-    PrimaryKey (..),
+    PrimaryKey,
     newPrimaryKey,
     primaryKey_name,
     primaryKey_length,
     primaryKey_offset,
 
     -- * RecordLength
-    RecordLength (..),
+    RecordLength,
     newRecordLength,
     recordLength_max,
     recordLength_min,
 
     -- * ScriptBatchJobDefinition
-    ScriptBatchJobDefinition (..),
+    ScriptBatchJobDefinition,
     newScriptBatchJobDefinition,
     scriptBatchJobDefinition_scriptName,
 
     -- * ScriptBatchJobIdentifier
-    ScriptBatchJobIdentifier (..),
+    ScriptBatchJobIdentifier,
     newScriptBatchJobIdentifier,
     scriptBatchJobIdentifier_scriptName,
 
     -- * StorageConfiguration
-    StorageConfiguration (..),
+    StorageConfiguration,
     newStorageConfiguration,
     storageConfiguration_efs,
     storageConfiguration_fsx,
 
     -- * VsamAttributes
-    VsamAttributes (..),
+    VsamAttributes,
     newVsamAttributes,
     vsamAttributes_alternateKeys,
     vsamAttributes_compressed,
@@ -313,7 +314,7 @@ module Amazonka.M2.Types
     vsamAttributes_format,
 
     -- * VsamDetailAttributes
-    VsamDetailAttributes (..),
+    VsamDetailAttributes,
     newVsamDetailAttributes,
     vsamDetailAttributes_alternateKeys,
     vsamDetailAttributes_cacheAtStartup,

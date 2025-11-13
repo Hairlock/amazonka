@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -30,16 +31,16 @@ module Amazonka.Schemas.Types
     _UnauthorizedException,
 
     -- * CodeGenerationStatus
-    CodeGenerationStatus (..),
+    CodeGenerationStatus,
 
     -- * DiscovererState
-    DiscovererState (..),
+    DiscovererState,
 
     -- * Type
-    Type (..),
+    Type,
 
     -- * DiscovererSummary
-    DiscovererSummary (..),
+    DiscovererSummary,
     newDiscovererSummary,
     discovererSummary_crossAccount,
     discovererSummary_discovererArn,
@@ -49,14 +50,14 @@ module Amazonka.Schemas.Types
     discovererSummary_tags,
 
     -- * RegistrySummary
-    RegistrySummary (..),
+    RegistrySummary,
     newRegistrySummary,
     registrySummary_registryArn,
     registrySummary_registryName,
     registrySummary_tags,
 
     -- * SchemaSummary
-    SchemaSummary (..),
+    SchemaSummary,
     newSchemaSummary,
     schemaSummary_lastModified,
     schemaSummary_schemaArn,
@@ -65,7 +66,7 @@ module Amazonka.Schemas.Types
     schemaSummary_versionCount,
 
     -- * SchemaVersionSummary
-    SchemaVersionSummary (..),
+    SchemaVersionSummary,
     newSchemaVersionSummary,
     schemaVersionSummary_schemaArn,
     schemaVersionSummary_schemaName,
@@ -73,7 +74,7 @@ module Amazonka.Schemas.Types
     schemaVersionSummary_type,
 
     -- * SearchSchemaSummary
-    SearchSchemaSummary (..),
+    SearchSchemaSummary,
     newSearchSchemaSummary,
     searchSchemaSummary_registryName,
     searchSchemaSummary_schemaArn,
@@ -81,7 +82,7 @@ module Amazonka.Schemas.Types
     searchSchemaSummary_schemaVersions,
 
     -- * SearchSchemaVersionSummary
-    SearchSchemaVersionSummary (..),
+    SearchSchemaVersionSummary,
     newSearchSchemaVersionSummary,
     searchSchemaVersionSummary_createdDate,
     searchSchemaVersionSummary_schemaVersion,

@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -30,35 +31,35 @@ module Amazonka.MigrationHub.Types
     _UnauthorizedOperation,
 
     -- * ApplicationStatus
-    ApplicationStatus (..),
+    ApplicationStatus,
 
     -- * MigrationStatus
-    MigrationStatus (..),
+    MigrationStatus,
 
     -- * ResourceAttributeType
-    ResourceAttributeType (..),
+    ResourceAttributeType,
 
     -- * ApplicationState
-    ApplicationState (..),
+    ApplicationState,
     newApplicationState,
     applicationState_applicationId,
     applicationState_applicationStatus,
     applicationState_lastUpdatedTime,
 
     -- * CreatedArtifact
-    CreatedArtifact (..),
+    CreatedArtifact,
     newCreatedArtifact,
     createdArtifact_description,
     createdArtifact_name,
 
     -- * DiscoveredResource
-    DiscoveredResource (..),
+    DiscoveredResource,
     newDiscoveredResource,
     discoveredResource_description,
     discoveredResource_configurationId,
 
     -- * MigrationTask
-    MigrationTask (..),
+    MigrationTask,
     newMigrationTask,
     migrationTask_migrationTaskName,
     migrationTask_progressUpdateStream,
@@ -67,7 +68,7 @@ module Amazonka.MigrationHub.Types
     migrationTask_updateDateTime,
 
     -- * MigrationTaskSummary
-    MigrationTaskSummary (..),
+    MigrationTaskSummary,
     newMigrationTaskSummary,
     migrationTaskSummary_migrationTaskName,
     migrationTaskSummary_progressPercent,
@@ -77,18 +78,18 @@ module Amazonka.MigrationHub.Types
     migrationTaskSummary_updateDateTime,
 
     -- * ProgressUpdateStreamSummary
-    ProgressUpdateStreamSummary (..),
+    ProgressUpdateStreamSummary,
     newProgressUpdateStreamSummary,
     progressUpdateStreamSummary_progressUpdateStreamName,
 
     -- * ResourceAttribute
-    ResourceAttribute (..),
+    ResourceAttribute,
     newResourceAttribute,
     resourceAttribute_type,
     resourceAttribute_value,
 
     -- * Task
-    Task (..),
+    Task,
     newTask,
     task_progressPercent,
     task_statusDetail,

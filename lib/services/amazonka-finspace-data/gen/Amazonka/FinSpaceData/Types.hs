@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -27,49 +28,49 @@ module Amazonka.FinSpaceData.Types
     _ValidationException,
 
     -- * ApiAccess
-    ApiAccess (..),
+    ApiAccess,
 
     -- * ApplicationPermission
-    ApplicationPermission (..),
+    ApplicationPermission,
 
     -- * ChangeType
-    ChangeType (..),
+    ChangeType,
 
     -- * ColumnDataType
-    ColumnDataType (..),
+    ColumnDataType,
 
     -- * DataViewStatus
-    DataViewStatus (..),
+    DataViewStatus,
 
     -- * DatasetKind
-    DatasetKind (..),
+    DatasetKind,
 
     -- * DatasetStatus
-    DatasetStatus (..),
+    DatasetStatus,
 
     -- * ErrorCategory
-    ErrorCategory (..),
+    ErrorCategory,
 
     -- * ExportFileFormat
-    ExportFileFormat (..),
+    ExportFileFormat,
 
     -- * IngestionStatus
-    IngestionStatus (..),
+    IngestionStatus,
 
     -- * LocationType
-    LocationType (..),
+    LocationType,
 
     -- * PermissionGroupMembershipStatus
-    PermissionGroupMembershipStatus (..),
+    PermissionGroupMembershipStatus,
 
     -- * UserStatus
-    UserStatus (..),
+    UserStatus,
 
     -- * UserType
-    UserType (..),
+    UserType,
 
     -- * AwsCredentials
-    AwsCredentials (..),
+    AwsCredentials,
     newAwsCredentials,
     awsCredentials_accessKeyId,
     awsCredentials_expiration,
@@ -77,13 +78,13 @@ module Amazonka.FinSpaceData.Types
     awsCredentials_sessionToken,
 
     -- * ChangesetErrorInfo
-    ChangesetErrorInfo (..),
+    ChangesetErrorInfo,
     newChangesetErrorInfo,
     changesetErrorInfo_errorCategory,
     changesetErrorInfo_errorMessage,
 
     -- * ChangesetSummary
-    ChangesetSummary (..),
+    ChangesetSummary,
     newChangesetSummary,
     changesetSummary_activeFromTimestamp,
     changesetSummary_activeUntilTimestamp,
@@ -100,34 +101,34 @@ module Amazonka.FinSpaceData.Types
     changesetSummary_updatesChangesetId,
 
     -- * ColumnDefinition
-    ColumnDefinition (..),
+    ColumnDefinition,
     newColumnDefinition,
     columnDefinition_columnDescription,
     columnDefinition_columnName,
     columnDefinition_dataType,
 
     -- * Credentials
-    Credentials (..),
+    Credentials,
     newCredentials,
     credentials_accessKeyId,
     credentials_secretAccessKey,
     credentials_sessionToken,
 
     -- * DataViewDestinationTypeParams
-    DataViewDestinationTypeParams (..),
+    DataViewDestinationTypeParams,
     newDataViewDestinationTypeParams,
     dataViewDestinationTypeParams_s3DestinationExportFileFormat,
     dataViewDestinationTypeParams_s3DestinationExportFileFormatOptions,
     dataViewDestinationTypeParams_destinationType,
 
     -- * DataViewErrorInfo
-    DataViewErrorInfo (..),
+    DataViewErrorInfo,
     newDataViewErrorInfo,
     dataViewErrorInfo_errorCategory,
     dataViewErrorInfo_errorMessage,
 
     -- * DataViewSummary
-    DataViewSummary (..),
+    DataViewSummary,
     newDataViewSummary,
     dataViewSummary_asOfTimestamp,
     dataViewSummary_autoUpdate,
@@ -143,7 +144,7 @@ module Amazonka.FinSpaceData.Types
     dataViewSummary_status,
 
     -- * Dataset
-    Dataset (..),
+    Dataset,
     newDataset,
     dataset_alias,
     dataset_createTime,
@@ -157,14 +158,14 @@ module Amazonka.FinSpaceData.Types
     dataset_schemaDefinition,
 
     -- * DatasetOwnerInfo
-    DatasetOwnerInfo (..),
+    DatasetOwnerInfo,
     newDatasetOwnerInfo,
     datasetOwnerInfo_email,
     datasetOwnerInfo_name,
     datasetOwnerInfo_phoneNumber,
 
     -- * PermissionGroup
-    PermissionGroup (..),
+    PermissionGroup,
     newPermissionGroup,
     permissionGroup_applicationPermissions,
     permissionGroup_createTime,
@@ -175,42 +176,42 @@ module Amazonka.FinSpaceData.Types
     permissionGroup_permissionGroupId,
 
     -- * PermissionGroupByUser
-    PermissionGroupByUser (..),
+    PermissionGroupByUser,
     newPermissionGroupByUser,
     permissionGroupByUser_membershipStatus,
     permissionGroupByUser_name,
     permissionGroupByUser_permissionGroupId,
 
     -- * PermissionGroupParams
-    PermissionGroupParams (..),
+    PermissionGroupParams,
     newPermissionGroupParams,
     permissionGroupParams_datasetPermissions,
     permissionGroupParams_permissionGroupId,
 
     -- * ResourcePermission
-    ResourcePermission (..),
+    ResourcePermission,
     newResourcePermission,
     resourcePermission_permission,
 
     -- * S3Location
-    S3Location (..),
+    S3Location,
     newS3Location,
     s3Location_bucket,
     s3Location_key,
 
     -- * SchemaDefinition
-    SchemaDefinition (..),
+    SchemaDefinition,
     newSchemaDefinition,
     schemaDefinition_columns,
     schemaDefinition_primaryKeyColumns,
 
     -- * SchemaUnion
-    SchemaUnion (..),
+    SchemaUnion,
     newSchemaUnion,
     schemaUnion_tabularSchemaConfig,
 
     -- * User
-    User (..),
+    User,
     newUser,
     user_apiAccess,
     user_apiAccessPrincipalArn,
@@ -227,7 +228,7 @@ module Amazonka.FinSpaceData.Types
     user_userId,
 
     -- * UserByPermissionGroup
-    UserByPermissionGroup (..),
+    UserByPermissionGroup,
     newUserByPermissionGroup,
     userByPermissionGroup_apiAccess,
     userByPermissionGroup_apiAccessPrincipalArn,

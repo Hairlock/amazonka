@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -27,18 +28,18 @@ module Amazonka.IoT1ClickDevices.Types
     _ResourceNotFoundException,
 
     -- * Attributes
-    Attributes (..),
+    Attributes,
     newAttributes,
 
     -- * Device
-    Device (..),
+    Device,
     newDevice,
     device_attributes,
     device_deviceId,
     device_type,
 
     -- * DeviceDescription
-    DeviceDescription (..),
+    DeviceDescription,
     newDeviceDescription,
     deviceDescription_arn,
     deviceDescription_attributes,
@@ -49,13 +50,13 @@ module Amazonka.IoT1ClickDevices.Types
     deviceDescription_type,
 
     -- * DeviceEvent
-    DeviceEvent (..),
+    DeviceEvent,
     newDeviceEvent,
     deviceEvent_device,
     deviceEvent_stdEvent,
 
     -- * DeviceMethod
-    DeviceMethod (..),
+    DeviceMethod,
     newDeviceMethod,
     deviceMethod_deviceType,
     deviceMethod_methodName,

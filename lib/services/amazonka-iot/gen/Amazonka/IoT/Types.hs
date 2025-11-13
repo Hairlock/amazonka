@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -51,216 +52,216 @@ module Amazonka.IoT.Types
     _VersionsLimitExceededException,
 
     -- * AbortAction
-    AbortAction (..),
+    AbortAction,
 
     -- * ActionType
-    ActionType (..),
+    ActionType,
 
     -- * AggregationTypeName
-    AggregationTypeName (..),
+    AggregationTypeName,
 
     -- * AlertTargetType
-    AlertTargetType (..),
+    AlertTargetType,
 
     -- * AuditCheckRunStatus
-    AuditCheckRunStatus (..),
+    AuditCheckRunStatus,
 
     -- * AuditFindingSeverity
-    AuditFindingSeverity (..),
+    AuditFindingSeverity,
 
     -- * AuditFrequency
-    AuditFrequency (..),
+    AuditFrequency,
 
     -- * AuditMitigationActionsExecutionStatus
-    AuditMitigationActionsExecutionStatus (..),
+    AuditMitigationActionsExecutionStatus,
 
     -- * AuditMitigationActionsTaskStatus
-    AuditMitigationActionsTaskStatus (..),
+    AuditMitigationActionsTaskStatus,
 
     -- * AuditNotificationType
-    AuditNotificationType (..),
+    AuditNotificationType,
 
     -- * AuditTaskStatus
-    AuditTaskStatus (..),
+    AuditTaskStatus,
 
     -- * AuditTaskType
-    AuditTaskType (..),
+    AuditTaskType,
 
     -- * AuthDecision
-    AuthDecision (..),
+    AuthDecision,
 
     -- * AuthorizerStatus
-    AuthorizerStatus (..),
+    AuthorizerStatus,
 
     -- * AutoRegistrationStatus
-    AutoRegistrationStatus (..),
+    AutoRegistrationStatus,
 
     -- * AwsJobAbortCriteriaAbortAction
-    AwsJobAbortCriteriaAbortAction (..),
+    AwsJobAbortCriteriaAbortAction,
 
     -- * AwsJobAbortCriteriaFailureType
-    AwsJobAbortCriteriaFailureType (..),
+    AwsJobAbortCriteriaFailureType,
 
     -- * BehaviorCriteriaType
-    BehaviorCriteriaType (..),
+    BehaviorCriteriaType,
 
     -- * CACertificateStatus
-    CACertificateStatus (..),
+    CACertificateStatus,
 
     -- * CACertificateUpdateAction
-    CACertificateUpdateAction (..),
+    CACertificateUpdateAction,
 
     -- * CannedAccessControlList
-    CannedAccessControlList (..),
+    CannedAccessControlList,
 
     -- * CertificateMode
-    CertificateMode (..),
+    CertificateMode,
 
     -- * CertificateStatus
-    CertificateStatus (..),
+    CertificateStatus,
 
     -- * ComparisonOperator
-    ComparisonOperator (..),
+    ComparisonOperator,
 
     -- * ConfidenceLevel
-    ConfidenceLevel (..),
+    ConfidenceLevel,
 
     -- * CustomMetricType
-    CustomMetricType (..),
+    CustomMetricType,
 
     -- * DayOfWeek
-    DayOfWeek (..),
+    DayOfWeek,
 
     -- * DetectMitigationActionExecutionStatus
-    DetectMitigationActionExecutionStatus (..),
+    DetectMitigationActionExecutionStatus,
 
     -- * DetectMitigationActionsTaskStatus
-    DetectMitigationActionsTaskStatus (..),
+    DetectMitigationActionsTaskStatus,
 
     -- * DeviceCertificateUpdateAction
-    DeviceCertificateUpdateAction (..),
+    DeviceCertificateUpdateAction,
 
     -- * DeviceDefenderIndexingMode
-    DeviceDefenderIndexingMode (..),
+    DeviceDefenderIndexingMode,
 
     -- * DimensionType
-    DimensionType (..),
+    DimensionType,
 
     -- * DimensionValueOperator
-    DimensionValueOperator (..),
+    DimensionValueOperator,
 
     -- * DomainConfigurationStatus
-    DomainConfigurationStatus (..),
+    DomainConfigurationStatus,
 
     -- * DomainType
-    DomainType (..),
+    DomainType,
 
     -- * DynamicGroupStatus
-    DynamicGroupStatus (..),
+    DynamicGroupStatus,
 
     -- * DynamoKeyType
-    DynamoKeyType (..),
+    DynamoKeyType,
 
     -- * EventType
-    EventType (..),
+    EventType,
 
     -- * FieldType
-    FieldType (..),
+    FieldType,
 
     -- * FleetMetricUnit
-    FleetMetricUnit (..),
+    FleetMetricUnit,
 
     -- * IndexStatus
-    IndexStatus (..),
+    IndexStatus,
 
     -- * JobEndBehavior
-    JobEndBehavior (..),
+    JobEndBehavior,
 
     -- * JobExecutionFailureType
-    JobExecutionFailureType (..),
+    JobExecutionFailureType,
 
     -- * JobExecutionStatus
-    JobExecutionStatus (..),
+    JobExecutionStatus,
 
     -- * JobStatus
-    JobStatus (..),
+    JobStatus,
 
     -- * LogLevel
-    LogLevel (..),
+    LogLevel,
 
     -- * LogTargetType
-    LogTargetType (..),
+    LogTargetType,
 
     -- * MessageFormat
-    MessageFormat (..),
+    MessageFormat,
 
     -- * MitigationActionType
-    MitigationActionType (..),
+    MitigationActionType,
 
     -- * ModelStatus
-    ModelStatus (..),
+    ModelStatus,
 
     -- * NamedShadowIndexingMode
-    NamedShadowIndexingMode (..),
+    NamedShadowIndexingMode,
 
     -- * OTAUpdateStatus
-    OTAUpdateStatus (..),
+    OTAUpdateStatus,
 
     -- * PolicyTemplateName
-    PolicyTemplateName (..),
+    PolicyTemplateName,
 
     -- * Protocol
-    Protocol (..),
+    Protocol,
 
     -- * ReportType
-    ReportType (..),
+    ReportType,
 
     -- * ResourceType
-    ResourceType (..),
+    ResourceType,
 
     -- * RetryableFailureType
-    RetryableFailureType (..),
+    RetryableFailureType,
 
     -- * ServerCertificateStatus
-    ServerCertificateStatus (..),
+    ServerCertificateStatus,
 
     -- * ServiceType
-    ServiceType (..),
+    ServiceType,
 
     -- * TargetSelection
-    TargetSelection (..),
+    TargetSelection,
 
     -- * TaskStatus
-    TaskStatus (..),
+    TaskStatus,
 
     -- * TemplateType
-    TemplateType (..),
+    TemplateType,
 
     -- * ThingConnectivityIndexingMode
-    ThingConnectivityIndexingMode (..),
+    ThingConnectivityIndexingMode,
 
     -- * ThingGroupIndexingMode
-    ThingGroupIndexingMode (..),
+    ThingGroupIndexingMode,
 
     -- * ThingIndexingMode
-    ThingIndexingMode (..),
+    ThingIndexingMode,
 
     -- * TopicRuleDestinationStatus
-    TopicRuleDestinationStatus (..),
+    TopicRuleDestinationStatus,
 
     -- * VerificationState
-    VerificationState (..),
+    VerificationState,
 
     -- * ViolationEventType
-    ViolationEventType (..),
+    ViolationEventType,
 
     -- * AbortConfig
-    AbortConfig (..),
+    AbortConfig,
     newAbortConfig,
     abortConfig_criteriaList,
 
     -- * AbortCriteria
-    AbortCriteria (..),
+    AbortCriteria,
     newAbortCriteria,
     abortCriteria_failureType,
     abortCriteria_action,
@@ -268,7 +269,7 @@ module Amazonka.IoT.Types
     abortCriteria_minNumberOfExecutedThings,
 
     -- * Action
-    Action (..),
+    Action,
     newAction,
     action_cloudwatchAlarm,
     action_cloudwatchLogs,
@@ -295,7 +296,7 @@ module Amazonka.IoT.Types
     action_timestream,
 
     -- * ActiveViolation
-    ActiveViolation (..),
+    ActiveViolation,
     newActiveViolation,
     activeViolation_behavior,
     activeViolation_lastViolationTime,
@@ -309,43 +310,43 @@ module Amazonka.IoT.Types
     activeViolation_violationStartTime,
 
     -- * AddThingsToThingGroupParams
-    AddThingsToThingGroupParams (..),
+    AddThingsToThingGroupParams,
     newAddThingsToThingGroupParams,
     addThingsToThingGroupParams_overrideDynamicGroups,
     addThingsToThingGroupParams_thingGroupNames,
 
     -- * AggregationType
-    AggregationType (..),
+    AggregationType,
     newAggregationType,
     aggregationType_values,
     aggregationType_name,
 
     -- * AlertTarget
-    AlertTarget (..),
+    AlertTarget,
     newAlertTarget,
     alertTarget_alertTargetArn,
     alertTarget_roleArn,
 
     -- * Allowed
-    Allowed (..),
+    Allowed,
     newAllowed,
     allowed_policies,
 
     -- * AssetPropertyTimestamp
-    AssetPropertyTimestamp (..),
+    AssetPropertyTimestamp,
     newAssetPropertyTimestamp,
     assetPropertyTimestamp_offsetInNanos,
     assetPropertyTimestamp_timeInSeconds,
 
     -- * AssetPropertyValue
-    AssetPropertyValue (..),
+    AssetPropertyValue,
     newAssetPropertyValue,
     assetPropertyValue_quality,
     assetPropertyValue_value,
     assetPropertyValue_timestamp,
 
     -- * AssetPropertyVariant
-    AssetPropertyVariant (..),
+    AssetPropertyVariant,
     newAssetPropertyVariant,
     assetPropertyVariant_booleanValue,
     assetPropertyVariant_doubleValue,
@@ -353,18 +354,18 @@ module Amazonka.IoT.Types
     assetPropertyVariant_stringValue,
 
     -- * AttributePayload
-    AttributePayload (..),
+    AttributePayload,
     newAttributePayload,
     attributePayload_attributes,
     attributePayload_merge,
 
     -- * AuditCheckConfiguration
-    AuditCheckConfiguration (..),
+    AuditCheckConfiguration,
     newAuditCheckConfiguration,
     auditCheckConfiguration_enabled,
 
     -- * AuditCheckDetails
-    AuditCheckDetails (..),
+    AuditCheckDetails,
     newAuditCheckDetails,
     auditCheckDetails_checkCompliant,
     auditCheckDetails_checkRunStatus,
@@ -375,7 +376,7 @@ module Amazonka.IoT.Types
     auditCheckDetails_totalResourcesCount,
 
     -- * AuditFinding
-    AuditFinding (..),
+    AuditFinding,
     newAuditFinding,
     auditFinding_checkName,
     auditFinding_findingId,
@@ -390,7 +391,7 @@ module Amazonka.IoT.Types
     auditFinding_taskStartTime,
 
     -- * AuditMitigationActionExecutionMetadata
-    AuditMitigationActionExecutionMetadata (..),
+    AuditMitigationActionExecutionMetadata,
     newAuditMitigationActionExecutionMetadata,
     auditMitigationActionExecutionMetadata_actionId,
     auditMitigationActionExecutionMetadata_actionName,
@@ -403,28 +404,28 @@ module Amazonka.IoT.Types
     auditMitigationActionExecutionMetadata_taskId,
 
     -- * AuditMitigationActionsTaskMetadata
-    AuditMitigationActionsTaskMetadata (..),
+    AuditMitigationActionsTaskMetadata,
     newAuditMitigationActionsTaskMetadata,
     auditMitigationActionsTaskMetadata_startTime,
     auditMitigationActionsTaskMetadata_taskId,
     auditMitigationActionsTaskMetadata_taskStatus,
 
     -- * AuditMitigationActionsTaskTarget
-    AuditMitigationActionsTaskTarget (..),
+    AuditMitigationActionsTaskTarget,
     newAuditMitigationActionsTaskTarget,
     auditMitigationActionsTaskTarget_auditCheckToReasonCodeFilter,
     auditMitigationActionsTaskTarget_auditTaskId,
     auditMitigationActionsTaskTarget_findingIds,
 
     -- * AuditNotificationTarget
-    AuditNotificationTarget (..),
+    AuditNotificationTarget,
     newAuditNotificationTarget,
     auditNotificationTarget_enabled,
     auditNotificationTarget_roleArn,
     auditNotificationTarget_targetArn,
 
     -- * AuditSuppression
-    AuditSuppression (..),
+    AuditSuppression,
     newAuditSuppression,
     auditSuppression_description,
     auditSuppression_expirationDate,
@@ -433,20 +434,20 @@ module Amazonka.IoT.Types
     auditSuppression_resourceIdentifier,
 
     -- * AuditTaskMetadata
-    AuditTaskMetadata (..),
+    AuditTaskMetadata,
     newAuditTaskMetadata,
     auditTaskMetadata_taskId,
     auditTaskMetadata_taskStatus,
     auditTaskMetadata_taskType,
 
     -- * AuthInfo
-    AuthInfo (..),
+    AuthInfo,
     newAuthInfo,
     authInfo_actionType,
     authInfo_resources,
 
     -- * AuthResult
-    AuthResult (..),
+    AuthResult,
     newAuthResult,
     authResult_allowed,
     authResult_authDecision,
@@ -455,13 +456,13 @@ module Amazonka.IoT.Types
     authResult_missingContextValues,
 
     -- * AuthorizerConfig
-    AuthorizerConfig (..),
+    AuthorizerConfig,
     newAuthorizerConfig,
     authorizerConfig_allowAuthorizerOverride,
     authorizerConfig_defaultAuthorizerName,
 
     -- * AuthorizerDescription
-    AuthorizerDescription (..),
+    AuthorizerDescription,
     newAuthorizerDescription,
     authorizerDescription_authorizerArn,
     authorizerDescription_authorizerFunctionArn,
@@ -475,18 +476,18 @@ module Amazonka.IoT.Types
     authorizerDescription_tokenSigningPublicKeys,
 
     -- * AuthorizerSummary
-    AuthorizerSummary (..),
+    AuthorizerSummary,
     newAuthorizerSummary,
     authorizerSummary_authorizerArn,
     authorizerSummary_authorizerName,
 
     -- * AwsJobAbortConfig
-    AwsJobAbortConfig (..),
+    AwsJobAbortConfig,
     newAwsJobAbortConfig,
     awsJobAbortConfig_abortCriteriaList,
 
     -- * AwsJobAbortCriteria
-    AwsJobAbortCriteria (..),
+    AwsJobAbortCriteria,
     newAwsJobAbortCriteria,
     awsJobAbortCriteria_failureType,
     awsJobAbortCriteria_action,
@@ -494,36 +495,36 @@ module Amazonka.IoT.Types
     awsJobAbortCriteria_minNumberOfExecutedThings,
 
     -- * AwsJobExecutionsRolloutConfig
-    AwsJobExecutionsRolloutConfig (..),
+    AwsJobExecutionsRolloutConfig,
     newAwsJobExecutionsRolloutConfig,
     awsJobExecutionsRolloutConfig_exponentialRate,
     awsJobExecutionsRolloutConfig_maximumPerMinute,
 
     -- * AwsJobExponentialRolloutRate
-    AwsJobExponentialRolloutRate (..),
+    AwsJobExponentialRolloutRate,
     newAwsJobExponentialRolloutRate,
     awsJobExponentialRolloutRate_baseRatePerMinute,
     awsJobExponentialRolloutRate_incrementFactor,
     awsJobExponentialRolloutRate_rateIncreaseCriteria,
 
     -- * AwsJobPresignedUrlConfig
-    AwsJobPresignedUrlConfig (..),
+    AwsJobPresignedUrlConfig,
     newAwsJobPresignedUrlConfig,
     awsJobPresignedUrlConfig_expiresInSec,
 
     -- * AwsJobRateIncreaseCriteria
-    AwsJobRateIncreaseCriteria (..),
+    AwsJobRateIncreaseCriteria,
     newAwsJobRateIncreaseCriteria,
     awsJobRateIncreaseCriteria_numberOfNotifiedThings,
     awsJobRateIncreaseCriteria_numberOfSucceededThings,
 
     -- * AwsJobTimeoutConfig
-    AwsJobTimeoutConfig (..),
+    AwsJobTimeoutConfig,
     newAwsJobTimeoutConfig,
     awsJobTimeoutConfig_inProgressTimeoutInMinutes,
 
     -- * Behavior
-    Behavior (..),
+    Behavior,
     newBehavior,
     behavior_criteria,
     behavior_metric,
@@ -532,7 +533,7 @@ module Amazonka.IoT.Types
     behavior_name,
 
     -- * BehaviorCriteria
-    BehaviorCriteria (..),
+    BehaviorCriteria,
     newBehaviorCriteria,
     behaviorCriteria_comparisonOperator,
     behaviorCriteria_consecutiveDatapointsToAlarm,
@@ -543,7 +544,7 @@ module Amazonka.IoT.Types
     behaviorCriteria_value,
 
     -- * BehaviorModelTrainingSummary
-    BehaviorModelTrainingSummary (..),
+    BehaviorModelTrainingSummary,
     newBehaviorModelTrainingSummary,
     behaviorModelTrainingSummary_behaviorName,
     behaviorModelTrainingSummary_datapointsCollectionPercentage,
@@ -553,28 +554,28 @@ module Amazonka.IoT.Types
     behaviorModelTrainingSummary_trainingDataCollectionStartDate,
 
     -- * BillingGroupMetadata
-    BillingGroupMetadata (..),
+    BillingGroupMetadata,
     newBillingGroupMetadata,
     billingGroupMetadata_creationDate,
 
     -- * BillingGroupProperties
-    BillingGroupProperties (..),
+    BillingGroupProperties,
     newBillingGroupProperties,
     billingGroupProperties_billingGroupDescription,
 
     -- * Bucket
-    Bucket (..),
+    Bucket,
     newBucket,
     bucket_count,
     bucket_keyValue,
 
     -- * BucketsAggregationType
-    BucketsAggregationType (..),
+    BucketsAggregationType,
     newBucketsAggregationType,
     bucketsAggregationType_termsAggregation,
 
     -- * CACertificate
-    CACertificate (..),
+    CACertificate,
     newCACertificate,
     cACertificate_certificateArn,
     cACertificate_certificateId,
@@ -582,7 +583,7 @@ module Amazonka.IoT.Types
     cACertificate_status,
 
     -- * CACertificateDescription
-    CACertificateDescription (..),
+    CACertificateDescription,
     newCACertificateDescription,
     cACertificateDescription_autoRegistrationStatus,
     cACertificateDescription_certificateArn,
@@ -598,7 +599,7 @@ module Amazonka.IoT.Types
     cACertificateDescription_validity,
 
     -- * Certificate
-    Certificate (..),
+    Certificate,
     newCertificate,
     certificate_certificateArn,
     certificate_certificateId,
@@ -607,7 +608,7 @@ module Amazonka.IoT.Types
     certificate_status,
 
     -- * CertificateDescription
-    CertificateDescription (..),
+    CertificateDescription,
     newCertificateDescription,
     certificateDescription_caCertificateId,
     certificateDescription_certificateArn,
@@ -625,13 +626,13 @@ module Amazonka.IoT.Types
     certificateDescription_validity,
 
     -- * CertificateValidity
-    CertificateValidity (..),
+    CertificateValidity,
     newCertificateValidity,
     certificateValidity_notAfter,
     certificateValidity_notBefore,
 
     -- * CloudwatchAlarmAction
-    CloudwatchAlarmAction (..),
+    CloudwatchAlarmAction,
     newCloudwatchAlarmAction,
     cloudwatchAlarmAction_roleArn,
     cloudwatchAlarmAction_alarmName,
@@ -639,13 +640,13 @@ module Amazonka.IoT.Types
     cloudwatchAlarmAction_stateValue,
 
     -- * CloudwatchLogsAction
-    CloudwatchLogsAction (..),
+    CloudwatchLogsAction,
     newCloudwatchLogsAction,
     cloudwatchLogsAction_roleArn,
     cloudwatchLogsAction_logGroupName,
 
     -- * CloudwatchMetricAction
-    CloudwatchMetricAction (..),
+    CloudwatchMetricAction,
     newCloudwatchMetricAction,
     cloudwatchMetricAction_metricTimestamp,
     cloudwatchMetricAction_roleArn,
@@ -655,30 +656,30 @@ module Amazonka.IoT.Types
     cloudwatchMetricAction_metricUnit,
 
     -- * CodeSigning
-    CodeSigning (..),
+    CodeSigning,
     newCodeSigning,
     codeSigning_awsSignerJobId,
     codeSigning_customCodeSigning,
     codeSigning_startSigningJobParameter,
 
     -- * CodeSigningCertificateChain
-    CodeSigningCertificateChain (..),
+    CodeSigningCertificateChain,
     newCodeSigningCertificateChain,
     codeSigningCertificateChain_certificateName,
     codeSigningCertificateChain_inlineDocument,
 
     -- * CodeSigningSignature
-    CodeSigningSignature (..),
+    CodeSigningSignature,
     newCodeSigningSignature,
     codeSigningSignature_inlineDocument,
 
     -- * Configuration
-    Configuration (..),
+    Configuration,
     newConfiguration,
     configuration_enabled,
 
     -- * CustomCodeSigning
-    CustomCodeSigning (..),
+    CustomCodeSigning,
     newCustomCodeSigning,
     customCodeSigning_certificateChain,
     customCodeSigning_hashAlgorithm,
@@ -686,18 +687,18 @@ module Amazonka.IoT.Types
     customCodeSigning_signatureAlgorithm,
 
     -- * Denied
-    Denied (..),
+    Denied,
     newDenied,
     denied_explicitDeny,
     denied_implicitDeny,
 
     -- * Destination
-    Destination (..),
+    Destination,
     newDestination,
     destination_s3Destination,
 
     -- * DetectMitigationActionExecution
-    DetectMitigationActionExecution (..),
+    DetectMitigationActionExecution,
     newDetectMitigationActionExecution,
     detectMitigationActionExecution_actionName,
     detectMitigationActionExecution_errorCode,
@@ -710,14 +711,14 @@ module Amazonka.IoT.Types
     detectMitigationActionExecution_violationId,
 
     -- * DetectMitigationActionsTaskStatistics
-    DetectMitigationActionsTaskStatistics (..),
+    DetectMitigationActionsTaskStatistics,
     newDetectMitigationActionsTaskStatistics,
     detectMitigationActionsTaskStatistics_actionsExecuted,
     detectMitigationActionsTaskStatistics_actionsFailed,
     detectMitigationActionsTaskStatistics_actionsSkipped,
 
     -- * DetectMitigationActionsTaskSummary
-    DetectMitigationActionsTaskSummary (..),
+    DetectMitigationActionsTaskSummary,
     newDetectMitigationActionsTaskSummary,
     detectMitigationActionsTaskSummary_actionsDefinition,
     detectMitigationActionsTaskSummary_onlyActiveViolationsIncluded,
@@ -731,14 +732,14 @@ module Amazonka.IoT.Types
     detectMitigationActionsTaskSummary_violationEventOccurrenceRange,
 
     -- * DetectMitigationActionsTaskTarget
-    DetectMitigationActionsTaskTarget (..),
+    DetectMitigationActionsTaskTarget,
     newDetectMitigationActionsTaskTarget,
     detectMitigationActionsTaskTarget_behaviorName,
     detectMitigationActionsTaskTarget_securityProfileName,
     detectMitigationActionsTaskTarget_violationIds,
 
     -- * DocumentParameter
-    DocumentParameter (..),
+    DocumentParameter,
     newDocumentParameter,
     documentParameter_description,
     documentParameter_example,
@@ -747,14 +748,14 @@ module Amazonka.IoT.Types
     documentParameter_regex,
 
     -- * DomainConfigurationSummary
-    DomainConfigurationSummary (..),
+    DomainConfigurationSummary,
     newDomainConfigurationSummary,
     domainConfigurationSummary_domainConfigurationArn,
     domainConfigurationSummary_domainConfigurationName,
     domainConfigurationSummary_serviceType,
 
     -- * DynamoDBAction
-    DynamoDBAction (..),
+    DynamoDBAction,
     newDynamoDBAction,
     dynamoDBAction_hashKeyType,
     dynamoDBAction_operation,
@@ -768,20 +769,20 @@ module Amazonka.IoT.Types
     dynamoDBAction_hashKeyValue,
 
     -- * DynamoDBv2Action
-    DynamoDBv2Action (..),
+    DynamoDBv2Action,
     newDynamoDBv2Action,
     dynamoDBv2Action_roleArn,
     dynamoDBv2Action_putItem,
 
     -- * EffectivePolicy
-    EffectivePolicy (..),
+    EffectivePolicy,
     newEffectivePolicy,
     effectivePolicy_policyArn,
     effectivePolicy_policyDocument,
     effectivePolicy_policyName,
 
     -- * ElasticsearchAction
-    ElasticsearchAction (..),
+    ElasticsearchAction,
     newElasticsearchAction,
     elasticsearchAction_roleArn,
     elasticsearchAction_endpoint,
@@ -790,43 +791,43 @@ module Amazonka.IoT.Types
     elasticsearchAction_id,
 
     -- * EnableIoTLoggingParams
-    EnableIoTLoggingParams (..),
+    EnableIoTLoggingParams,
     newEnableIoTLoggingParams,
     enableIoTLoggingParams_roleArnForLogging,
     enableIoTLoggingParams_logLevel,
 
     -- * ErrorInfo
-    ErrorInfo (..),
+    ErrorInfo,
     newErrorInfo,
     errorInfo_code,
     errorInfo_message,
 
     -- * ExplicitDeny
-    ExplicitDeny (..),
+    ExplicitDeny,
     newExplicitDeny,
     explicitDeny_policies,
 
     -- * ExponentialRolloutRate
-    ExponentialRolloutRate (..),
+    ExponentialRolloutRate,
     newExponentialRolloutRate,
     exponentialRolloutRate_baseRatePerMinute,
     exponentialRolloutRate_incrementFactor,
     exponentialRolloutRate_rateIncreaseCriteria,
 
     -- * Field
-    Field (..),
+    Field,
     newField,
     field_name,
     field_type,
 
     -- * FileLocation
-    FileLocation (..),
+    FileLocation,
     newFileLocation,
     fileLocation_s3Location,
     fileLocation_stream,
 
     -- * FirehoseAction
-    FirehoseAction (..),
+    FirehoseAction,
     newFirehoseAction,
     firehoseAction_batchMode,
     firehoseAction_separator,
@@ -834,19 +835,19 @@ module Amazonka.IoT.Types
     firehoseAction_deliveryStreamName,
 
     -- * FleetMetricNameAndArn
-    FleetMetricNameAndArn (..),
+    FleetMetricNameAndArn,
     newFleetMetricNameAndArn,
     fleetMetricNameAndArn_metricArn,
     fleetMetricNameAndArn_metricName,
 
     -- * GroupNameAndArn
-    GroupNameAndArn (..),
+    GroupNameAndArn,
     newGroupNameAndArn,
     groupNameAndArn_groupArn,
     groupNameAndArn_groupName,
 
     -- * HttpAction
-    HttpAction (..),
+    HttpAction,
     newHttpAction,
     httpAction_auth,
     httpAction_confirmationUrl,
@@ -854,49 +855,49 @@ module Amazonka.IoT.Types
     httpAction_url,
 
     -- * HttpActionHeader
-    HttpActionHeader (..),
+    HttpActionHeader,
     newHttpActionHeader,
     httpActionHeader_key,
     httpActionHeader_value,
 
     -- * HttpAuthorization
-    HttpAuthorization (..),
+    HttpAuthorization,
     newHttpAuthorization,
     httpAuthorization_sigv4,
 
     -- * HttpContext
-    HttpContext (..),
+    HttpContext,
     newHttpContext,
     httpContext_headers,
     httpContext_queryString,
 
     -- * HttpUrlDestinationConfiguration
-    HttpUrlDestinationConfiguration (..),
+    HttpUrlDestinationConfiguration,
     newHttpUrlDestinationConfiguration,
     httpUrlDestinationConfiguration_confirmationUrl,
 
     -- * HttpUrlDestinationProperties
-    HttpUrlDestinationProperties (..),
+    HttpUrlDestinationProperties,
     newHttpUrlDestinationProperties,
     httpUrlDestinationProperties_confirmationUrl,
 
     -- * HttpUrlDestinationSummary
-    HttpUrlDestinationSummary (..),
+    HttpUrlDestinationSummary,
     newHttpUrlDestinationSummary,
     httpUrlDestinationSummary_confirmationUrl,
 
     -- * ImplicitDeny
-    ImplicitDeny (..),
+    ImplicitDeny,
     newImplicitDeny,
     implicitDeny_policies,
 
     -- * IndexingFilter
-    IndexingFilter (..),
+    IndexingFilter,
     newIndexingFilter,
     indexingFilter_namedShadowNames,
 
     -- * IotAnalyticsAction
-    IotAnalyticsAction (..),
+    IotAnalyticsAction,
     newIotAnalyticsAction,
     iotAnalyticsAction_batchMode,
     iotAnalyticsAction_channelArn,
@@ -904,7 +905,7 @@ module Amazonka.IoT.Types
     iotAnalyticsAction_roleArn,
 
     -- * IotEventsAction
-    IotEventsAction (..),
+    IotEventsAction,
     newIotEventsAction,
     iotEventsAction_batchMode,
     iotEventsAction_messageId,
@@ -912,20 +913,20 @@ module Amazonka.IoT.Types
     iotEventsAction_roleArn,
 
     -- * IotSiteWiseAction
-    IotSiteWiseAction (..),
+    IotSiteWiseAction,
     newIotSiteWiseAction,
     iotSiteWiseAction_putAssetPropertyValueEntries,
     iotSiteWiseAction_roleArn,
 
     -- * IssuerCertificateIdentifier
-    IssuerCertificateIdentifier (..),
+    IssuerCertificateIdentifier,
     newIssuerCertificateIdentifier,
     issuerCertificateIdentifier_issuerCertificateSerialNumber,
     issuerCertificateIdentifier_issuerCertificateSubject,
     issuerCertificateIdentifier_issuerId,
 
     -- * Job
-    Job (..),
+    Job,
     newJob,
     job_abortConfig,
     job_comment,
@@ -952,7 +953,7 @@ module Amazonka.IoT.Types
     job_timeoutConfig,
 
     -- * JobExecution
-    JobExecution (..),
+    JobExecution,
     newJobExecution,
     jobExecution_approximateSecondsBeforeTimedOut,
     jobExecution_executionNumber,
@@ -967,12 +968,12 @@ module Amazonka.IoT.Types
     jobExecution_versionNumber,
 
     -- * JobExecutionStatusDetails
-    JobExecutionStatusDetails (..),
+    JobExecutionStatusDetails,
     newJobExecutionStatusDetails,
     jobExecutionStatusDetails_detailsMap,
 
     -- * JobExecutionSummary
-    JobExecutionSummary (..),
+    JobExecutionSummary,
     newJobExecutionSummary,
     jobExecutionSummary_executionNumber,
     jobExecutionSummary_lastUpdatedAt,
@@ -982,30 +983,30 @@ module Amazonka.IoT.Types
     jobExecutionSummary_status,
 
     -- * JobExecutionSummaryForJob
-    JobExecutionSummaryForJob (..),
+    JobExecutionSummaryForJob,
     newJobExecutionSummaryForJob,
     jobExecutionSummaryForJob_jobExecutionSummary,
     jobExecutionSummaryForJob_thingArn,
 
     -- * JobExecutionSummaryForThing
-    JobExecutionSummaryForThing (..),
+    JobExecutionSummaryForThing,
     newJobExecutionSummaryForThing,
     jobExecutionSummaryForThing_jobExecutionSummary,
     jobExecutionSummaryForThing_jobId,
 
     -- * JobExecutionsRetryConfig
-    JobExecutionsRetryConfig (..),
+    JobExecutionsRetryConfig,
     newJobExecutionsRetryConfig,
     jobExecutionsRetryConfig_criteriaList,
 
     -- * JobExecutionsRolloutConfig
-    JobExecutionsRolloutConfig (..),
+    JobExecutionsRolloutConfig,
     newJobExecutionsRolloutConfig,
     jobExecutionsRolloutConfig_exponentialRate,
     jobExecutionsRolloutConfig_maximumPerMinute,
 
     -- * JobProcessDetails
-    JobProcessDetails (..),
+    JobProcessDetails,
     newJobProcessDetails,
     jobProcessDetails_numberOfCanceledThings,
     jobProcessDetails_numberOfFailedThings,
@@ -1018,7 +1019,7 @@ module Amazonka.IoT.Types
     jobProcessDetails_processingTargets,
 
     -- * JobSummary
-    JobSummary (..),
+    JobSummary,
     newJobSummary,
     jobSummary_completedAt,
     jobSummary_createdAt,
@@ -1031,7 +1032,7 @@ module Amazonka.IoT.Types
     jobSummary_thingGroupId,
 
     -- * JobTemplateSummary
-    JobTemplateSummary (..),
+    JobTemplateSummary,
     newJobTemplateSummary,
     jobTemplateSummary_createdAt,
     jobTemplateSummary_description,
@@ -1039,7 +1040,7 @@ module Amazonka.IoT.Types
     jobTemplateSummary_jobTemplateId,
 
     -- * KafkaAction
-    KafkaAction (..),
+    KafkaAction,
     newKafkaAction,
     kafkaAction_key,
     kafkaAction_partition,
@@ -1048,25 +1049,25 @@ module Amazonka.IoT.Types
     kafkaAction_clientProperties,
 
     -- * KeyPair
-    KeyPair (..),
+    KeyPair,
     newKeyPair,
     keyPair_privateKey,
     keyPair_publicKey,
 
     -- * KinesisAction
-    KinesisAction (..),
+    KinesisAction,
     newKinesisAction,
     kinesisAction_partitionKey,
     kinesisAction_roleArn,
     kinesisAction_streamName,
 
     -- * LambdaAction
-    LambdaAction (..),
+    LambdaAction,
     newLambdaAction,
     lambdaAction_functionArn,
 
     -- * LocationAction
-    LocationAction (..),
+    LocationAction,
     newLocationAction,
     locationAction_timestamp,
     locationAction_roleArn,
@@ -1076,36 +1077,36 @@ module Amazonka.IoT.Types
     locationAction_longitude,
 
     -- * LocationTimestamp
-    LocationTimestamp (..),
+    LocationTimestamp,
     newLocationTimestamp,
     locationTimestamp_unit,
     locationTimestamp_value,
 
     -- * LogTarget
-    LogTarget (..),
+    LogTarget,
     newLogTarget,
     logTarget_targetName,
     logTarget_targetType,
 
     -- * LogTargetConfiguration
-    LogTargetConfiguration (..),
+    LogTargetConfiguration,
     newLogTargetConfiguration,
     logTargetConfiguration_logLevel,
     logTargetConfiguration_logTarget,
 
     -- * LoggingOptionsPayload
-    LoggingOptionsPayload (..),
+    LoggingOptionsPayload,
     newLoggingOptionsPayload,
     loggingOptionsPayload_logLevel,
     loggingOptionsPayload_roleArn,
 
     -- * MachineLearningDetectionConfig
-    MachineLearningDetectionConfig (..),
+    MachineLearningDetectionConfig,
     newMachineLearningDetectionConfig,
     machineLearningDetectionConfig_confidenceLevel,
 
     -- * ManagedJobTemplateSummary
-    ManagedJobTemplateSummary (..),
+    ManagedJobTemplateSummary,
     newManagedJobTemplateSummary,
     managedJobTemplateSummary_description,
     managedJobTemplateSummary_environments,
@@ -1114,25 +1115,25 @@ module Amazonka.IoT.Types
     managedJobTemplateSummary_templateVersion,
 
     -- * MetricDatum
-    MetricDatum (..),
+    MetricDatum,
     newMetricDatum,
     metricDatum_timestamp,
     metricDatum_value,
 
     -- * MetricDimension
-    MetricDimension (..),
+    MetricDimension,
     newMetricDimension,
     metricDimension_operator,
     metricDimension_dimensionName,
 
     -- * MetricToRetain
-    MetricToRetain (..),
+    MetricToRetain,
     newMetricToRetain,
     metricToRetain_metricDimension,
     metricToRetain_metric,
 
     -- * MetricValue
-    MetricValue (..),
+    MetricValue,
     newMetricValue,
     metricValue_cidrs,
     metricValue_count,
@@ -1142,7 +1143,7 @@ module Amazonka.IoT.Types
     metricValue_strings,
 
     -- * MitigationAction
-    MitigationAction (..),
+    MitigationAction,
     newMitigationAction,
     mitigationAction_actionParams,
     mitigationAction_id,
@@ -1150,14 +1151,14 @@ module Amazonka.IoT.Types
     mitigationAction_roleArn,
 
     -- * MitigationActionIdentifier
-    MitigationActionIdentifier (..),
+    MitigationActionIdentifier,
     newMitigationActionIdentifier,
     mitigationActionIdentifier_actionArn,
     mitigationActionIdentifier_actionName,
     mitigationActionIdentifier_creationDate,
 
     -- * MitigationActionParams
-    MitigationActionParams (..),
+    MitigationActionParams,
     newMitigationActionParams,
     mitigationActionParams_addThingsToThingGroupParams,
     mitigationActionParams_enableIoTLoggingParams,
@@ -1167,14 +1168,14 @@ module Amazonka.IoT.Types
     mitigationActionParams_updateDeviceCertificateParams,
 
     -- * MqttContext
-    MqttContext (..),
+    MqttContext,
     newMqttContext,
     mqttContext_clientId,
     mqttContext_password,
     mqttContext_username,
 
     -- * MqttHeaders
-    MqttHeaders (..),
+    MqttHeaders,
     newMqttHeaders,
     mqttHeaders_contentType,
     mqttHeaders_correlationData,
@@ -1184,14 +1185,14 @@ module Amazonka.IoT.Types
     mqttHeaders_userProperties,
 
     -- * NonCompliantResource
-    NonCompliantResource (..),
+    NonCompliantResource,
     newNonCompliantResource,
     nonCompliantResource_additionalInfo,
     nonCompliantResource_resourceIdentifier,
     nonCompliantResource_resourceType,
 
     -- * OTAUpdateFile
-    OTAUpdateFile (..),
+    OTAUpdateFile,
     newOTAUpdateFile,
     oTAUpdateFile_attributes,
     oTAUpdateFile_codeSigning,
@@ -1201,7 +1202,7 @@ module Amazonka.IoT.Types
     oTAUpdateFile_fileVersion,
 
     -- * OTAUpdateInfo
-    OTAUpdateInfo (..),
+    OTAUpdateInfo,
     newOTAUpdateInfo,
     oTAUpdateInfo_additionalParameters,
     oTAUpdateInfo_awsIotJobArn,
@@ -1221,14 +1222,14 @@ module Amazonka.IoT.Types
     oTAUpdateInfo_targets,
 
     -- * OTAUpdateSummary
-    OTAUpdateSummary (..),
+    OTAUpdateSummary,
     newOTAUpdateSummary,
     oTAUpdateSummary_creationDate,
     oTAUpdateSummary_otaUpdateArn,
     oTAUpdateSummary_otaUpdateId,
 
     -- * OpenSearchAction
-    OpenSearchAction (..),
+    OpenSearchAction,
     newOpenSearchAction,
     openSearchAction_roleArn,
     openSearchAction_endpoint,
@@ -1237,7 +1238,7 @@ module Amazonka.IoT.Types
     openSearchAction_id,
 
     -- * OutgoingCertificate
-    OutgoingCertificate (..),
+    OutgoingCertificate,
     newOutgoingCertificate,
     outgoingCertificate_certificateArn,
     outgoingCertificate_certificateId,
@@ -1247,44 +1248,44 @@ module Amazonka.IoT.Types
     outgoingCertificate_transferredTo,
 
     -- * PercentPair
-    PercentPair (..),
+    PercentPair,
     newPercentPair,
     percentPair_percent,
     percentPair_value,
 
     -- * Policy
-    Policy (..),
+    Policy,
     newPolicy,
     policy_policyArn,
     policy_policyName,
 
     -- * PolicyVersion
-    PolicyVersion (..),
+    PolicyVersion,
     newPolicyVersion,
     policyVersion_createDate,
     policyVersion_isDefaultVersion,
     policyVersion_versionId,
 
     -- * PolicyVersionIdentifier
-    PolicyVersionIdentifier (..),
+    PolicyVersionIdentifier,
     newPolicyVersionIdentifier,
     policyVersionIdentifier_policyName,
     policyVersionIdentifier_policyVersionId,
 
     -- * PresignedUrlConfig
-    PresignedUrlConfig (..),
+    PresignedUrlConfig,
     newPresignedUrlConfig,
     presignedUrlConfig_expiresInSec,
     presignedUrlConfig_roleArn,
 
     -- * ProvisioningHook
-    ProvisioningHook (..),
+    ProvisioningHook,
     newProvisioningHook,
     provisioningHook_payloadVersion,
     provisioningHook_targetArn,
 
     -- * ProvisioningTemplateSummary
-    ProvisioningTemplateSummary (..),
+    ProvisioningTemplateSummary,
     newProvisioningTemplateSummary,
     provisioningTemplateSummary_creationDate,
     provisioningTemplateSummary_description,
@@ -1295,19 +1296,19 @@ module Amazonka.IoT.Types
     provisioningTemplateSummary_type,
 
     -- * ProvisioningTemplateVersionSummary
-    ProvisioningTemplateVersionSummary (..),
+    ProvisioningTemplateVersionSummary,
     newProvisioningTemplateVersionSummary,
     provisioningTemplateVersionSummary_creationDate,
     provisioningTemplateVersionSummary_isDefaultVersion,
     provisioningTemplateVersionSummary_versionId,
 
     -- * PublishFindingToSnsParams
-    PublishFindingToSnsParams (..),
+    PublishFindingToSnsParams,
     newPublishFindingToSnsParams,
     publishFindingToSnsParams_topicArn,
 
     -- * PutAssetPropertyValueEntry
-    PutAssetPropertyValueEntry (..),
+    PutAssetPropertyValueEntry,
     newPutAssetPropertyValueEntry,
     putAssetPropertyValueEntry_assetId,
     putAssetPropertyValueEntry_entryId,
@@ -1316,37 +1317,37 @@ module Amazonka.IoT.Types
     putAssetPropertyValueEntry_propertyValues,
 
     -- * PutItemInput
-    PutItemInput (..),
+    PutItemInput,
     newPutItemInput,
     putItemInput_tableName,
 
     -- * RateIncreaseCriteria
-    RateIncreaseCriteria (..),
+    RateIncreaseCriteria,
     newRateIncreaseCriteria,
     rateIncreaseCriteria_numberOfNotifiedThings,
     rateIncreaseCriteria_numberOfSucceededThings,
 
     -- * RegistrationConfig
-    RegistrationConfig (..),
+    RegistrationConfig,
     newRegistrationConfig,
     registrationConfig_roleArn,
     registrationConfig_templateBody,
     registrationConfig_templateName,
 
     -- * RelatedResource
-    RelatedResource (..),
+    RelatedResource,
     newRelatedResource,
     relatedResource_additionalInfo,
     relatedResource_resourceIdentifier,
     relatedResource_resourceType,
 
     -- * ReplaceDefaultPolicyVersionParams
-    ReplaceDefaultPolicyVersionParams (..),
+    ReplaceDefaultPolicyVersionParams,
     newReplaceDefaultPolicyVersionParams,
     replaceDefaultPolicyVersionParams_templateName,
 
     -- * RepublishAction
-    RepublishAction (..),
+    RepublishAction,
     newRepublishAction,
     republishAction_headers,
     republishAction_qos,
@@ -1354,7 +1355,7 @@ module Amazonka.IoT.Types
     republishAction_topic,
 
     -- * ResourceIdentifier
-    ResourceIdentifier (..),
+    ResourceIdentifier,
     newResourceIdentifier,
     resourceIdentifier_account,
     resourceIdentifier_caCertificateId,
@@ -1368,13 +1369,13 @@ module Amazonka.IoT.Types
     resourceIdentifier_roleAliasArn,
 
     -- * RetryCriteria
-    RetryCriteria (..),
+    RetryCriteria,
     newRetryCriteria,
     retryCriteria_failureType,
     retryCriteria_numberOfRetries,
 
     -- * RoleAliasDescription
-    RoleAliasDescription (..),
+    RoleAliasDescription,
     newRoleAliasDescription,
     roleAliasDescription_creationDate,
     roleAliasDescription_credentialDurationSeconds,
@@ -1385,7 +1386,7 @@ module Amazonka.IoT.Types
     roleAliasDescription_roleArn,
 
     -- * S3Action
-    S3Action (..),
+    S3Action,
     newS3Action,
     s3Action_cannedAcl,
     s3Action_roleArn,
@@ -1393,26 +1394,26 @@ module Amazonka.IoT.Types
     s3Action_key,
 
     -- * S3Destination
-    S3Destination (..),
+    S3Destination,
     newS3Destination,
     s3Destination_bucket,
     s3Destination_prefix,
 
     -- * S3Location
-    S3Location (..),
+    S3Location,
     newS3Location,
     s3Location_bucket,
     s3Location_key,
     s3Location_version,
 
     -- * SalesforceAction
-    SalesforceAction (..),
+    SalesforceAction,
     newSalesforceAction,
     salesforceAction_token,
     salesforceAction_url,
 
     -- * ScheduledAuditMetadata
-    ScheduledAuditMetadata (..),
+    ScheduledAuditMetadata,
     newScheduledAuditMetadata,
     scheduledAuditMetadata_dayOfMonth,
     scheduledAuditMetadata_dayOfWeek,
@@ -1421,78 +1422,78 @@ module Amazonka.IoT.Types
     scheduledAuditMetadata_scheduledAuditName,
 
     -- * SchedulingConfig
-    SchedulingConfig (..),
+    SchedulingConfig,
     newSchedulingConfig,
     schedulingConfig_endBehavior,
     schedulingConfig_endTime,
     schedulingConfig_startTime,
 
     -- * SecurityProfileIdentifier
-    SecurityProfileIdentifier (..),
+    SecurityProfileIdentifier,
     newSecurityProfileIdentifier,
     securityProfileIdentifier_name,
     securityProfileIdentifier_arn,
 
     -- * SecurityProfileTarget
-    SecurityProfileTarget (..),
+    SecurityProfileTarget,
     newSecurityProfileTarget,
     securityProfileTarget_arn,
 
     -- * SecurityProfileTargetMapping
-    SecurityProfileTargetMapping (..),
+    SecurityProfileTargetMapping,
     newSecurityProfileTargetMapping,
     securityProfileTargetMapping_securityProfileIdentifier,
     securityProfileTargetMapping_target,
 
     -- * ServerCertificateSummary
-    ServerCertificateSummary (..),
+    ServerCertificateSummary,
     newServerCertificateSummary,
     serverCertificateSummary_serverCertificateArn,
     serverCertificateSummary_serverCertificateStatus,
     serverCertificateSummary_serverCertificateStatusDetail,
 
     -- * SigV4Authorization
-    SigV4Authorization (..),
+    SigV4Authorization,
     newSigV4Authorization,
     sigV4Authorization_signingRegion,
     sigV4Authorization_serviceName,
     sigV4Authorization_roleArn,
 
     -- * SigningProfileParameter
-    SigningProfileParameter (..),
+    SigningProfileParameter,
     newSigningProfileParameter,
     signingProfileParameter_certificateArn,
     signingProfileParameter_certificatePathOnDevice,
     signingProfileParameter_platform,
 
     -- * SnsAction
-    SnsAction (..),
+    SnsAction,
     newSnsAction,
     snsAction_messageFormat,
     snsAction_targetArn,
     snsAction_roleArn,
 
     -- * SqsAction
-    SqsAction (..),
+    SqsAction,
     newSqsAction,
     sqsAction_useBase64,
     sqsAction_roleArn,
     sqsAction_queueUrl,
 
     -- * StartSigningJobParameter
-    StartSigningJobParameter (..),
+    StartSigningJobParameter,
     newStartSigningJobParameter,
     startSigningJobParameter_destination,
     startSigningJobParameter_signingProfileName,
     startSigningJobParameter_signingProfileParameter,
 
     -- * StatisticalThreshold
-    StatisticalThreshold (..),
+    StatisticalThreshold,
     newStatisticalThreshold,
     statisticalThreshold_statistic,
 
     -- * Statistics
-    Statistics (..),
+    Statistics,
     newStatistics,
     statistics_average,
     statistics_count,
@@ -1504,26 +1505,26 @@ module Amazonka.IoT.Types
     statistics_variance,
 
     -- * StepFunctionsAction
-    StepFunctionsAction (..),
+    StepFunctionsAction,
     newStepFunctionsAction,
     stepFunctionsAction_executionNamePrefix,
     stepFunctionsAction_stateMachineName,
     stepFunctionsAction_roleArn,
 
     -- * Stream
-    Stream (..),
+    Stream,
     newStream,
     stream_fileId,
     stream_streamId,
 
     -- * StreamFile
-    StreamFile (..),
+    StreamFile,
     newStreamFile,
     streamFile_fileId,
     streamFile_s3Location,
 
     -- * StreamInfo
-    StreamInfo (..),
+    StreamInfo,
     newStreamInfo,
     streamInfo_createdAt,
     streamInfo_description,
@@ -1535,7 +1536,7 @@ module Amazonka.IoT.Types
     streamInfo_streamVersion,
 
     -- * StreamSummary
-    StreamSummary (..),
+    StreamSummary,
     newStreamSummary,
     streamSummary_description,
     streamSummary_streamArn,
@@ -1543,13 +1544,13 @@ module Amazonka.IoT.Types
     streamSummary_streamVersion,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_value,
     tag_key,
 
     -- * TaskStatistics
-    TaskStatistics (..),
+    TaskStatistics,
     newTaskStatistics,
     taskStatistics_canceledChecks,
     taskStatistics_compliantChecks,
@@ -1560,7 +1561,7 @@ module Amazonka.IoT.Types
     taskStatistics_waitingForDataCollectionChecks,
 
     -- * TaskStatisticsForAuditCheck
-    TaskStatisticsForAuditCheck (..),
+    TaskStatisticsForAuditCheck,
     newTaskStatisticsForAuditCheck,
     taskStatisticsForAuditCheck_canceledFindingsCount,
     taskStatisticsForAuditCheck_failedFindingsCount,
@@ -1569,12 +1570,12 @@ module Amazonka.IoT.Types
     taskStatisticsForAuditCheck_totalFindingsCount,
 
     -- * TermsAggregation
-    TermsAggregation (..),
+    TermsAggregation,
     newTermsAggregation,
     termsAggregation_maxBuckets,
 
     -- * ThingAttribute
-    ThingAttribute (..),
+    ThingAttribute,
     newThingAttribute,
     thingAttribute_attributes,
     thingAttribute_thingArn,
@@ -1583,14 +1584,14 @@ module Amazonka.IoT.Types
     thingAttribute_version,
 
     -- * ThingConnectivity
-    ThingConnectivity (..),
+    ThingConnectivity,
     newThingConnectivity,
     thingConnectivity_connected,
     thingConnectivity_disconnectReason,
     thingConnectivity_timestamp,
 
     -- * ThingDocument
-    ThingDocument (..),
+    ThingDocument,
     newThingDocument,
     thingDocument_attributes,
     thingDocument_connectivity,
@@ -1602,7 +1603,7 @@ module Amazonka.IoT.Types
     thingDocument_thingTypeName,
 
     -- * ThingGroupDocument
-    ThingGroupDocument (..),
+    ThingGroupDocument,
     newThingGroupDocument,
     thingGroupDocument_attributes,
     thingGroupDocument_parentGroupNames,
@@ -1611,27 +1612,27 @@ module Amazonka.IoT.Types
     thingGroupDocument_thingGroupName,
 
     -- * ThingGroupIndexingConfiguration
-    ThingGroupIndexingConfiguration (..),
+    ThingGroupIndexingConfiguration,
     newThingGroupIndexingConfiguration,
     thingGroupIndexingConfiguration_customFields,
     thingGroupIndexingConfiguration_managedFields,
     thingGroupIndexingConfiguration_thingGroupIndexingMode,
 
     -- * ThingGroupMetadata
-    ThingGroupMetadata (..),
+    ThingGroupMetadata,
     newThingGroupMetadata,
     thingGroupMetadata_creationDate,
     thingGroupMetadata_parentGroupName,
     thingGroupMetadata_rootToParentThingGroups,
 
     -- * ThingGroupProperties
-    ThingGroupProperties (..),
+    ThingGroupProperties,
     newThingGroupProperties,
     thingGroupProperties_attributePayload,
     thingGroupProperties_thingGroupDescription,
 
     -- * ThingIndexingConfiguration
-    ThingIndexingConfiguration (..),
+    ThingIndexingConfiguration,
     newThingIndexingConfiguration,
     thingIndexingConfiguration_customFields,
     thingIndexingConfiguration_deviceDefenderIndexingMode,
@@ -1642,7 +1643,7 @@ module Amazonka.IoT.Types
     thingIndexingConfiguration_thingIndexingMode,
 
     -- * ThingTypeDefinition
-    ThingTypeDefinition (..),
+    ThingTypeDefinition,
     newThingTypeDefinition,
     thingTypeDefinition_thingTypeArn,
     thingTypeDefinition_thingTypeMetadata,
@@ -1650,25 +1651,25 @@ module Amazonka.IoT.Types
     thingTypeDefinition_thingTypeProperties,
 
     -- * ThingTypeMetadata
-    ThingTypeMetadata (..),
+    ThingTypeMetadata,
     newThingTypeMetadata,
     thingTypeMetadata_creationDate,
     thingTypeMetadata_deprecated,
     thingTypeMetadata_deprecationDate,
 
     -- * ThingTypeProperties
-    ThingTypeProperties (..),
+    ThingTypeProperties,
     newThingTypeProperties,
     thingTypeProperties_searchableAttributes,
     thingTypeProperties_thingTypeDescription,
 
     -- * TimeoutConfig
-    TimeoutConfig (..),
+    TimeoutConfig,
     newTimeoutConfig,
     timeoutConfig_inProgressTimeoutInMinutes,
 
     -- * TimestreamAction
-    TimestreamAction (..),
+    TimestreamAction,
     newTimestreamAction,
     timestreamAction_timestamp,
     timestreamAction_roleArn,
@@ -1677,24 +1678,24 @@ module Amazonka.IoT.Types
     timestreamAction_dimensions,
 
     -- * TimestreamDimension
-    TimestreamDimension (..),
+    TimestreamDimension,
     newTimestreamDimension,
     timestreamDimension_name,
     timestreamDimension_value,
 
     -- * TimestreamTimestamp
-    TimestreamTimestamp (..),
+    TimestreamTimestamp,
     newTimestreamTimestamp,
     timestreamTimestamp_value,
     timestreamTimestamp_unit,
 
     -- * TlsContext
-    TlsContext (..),
+    TlsContext,
     newTlsContext,
     tlsContext_serverName,
 
     -- * TopicRule
-    TopicRule (..),
+    TopicRule,
     newTopicRule,
     topicRule_actions,
     topicRule_awsIotSqlVersion,
@@ -1706,7 +1707,7 @@ module Amazonka.IoT.Types
     topicRule_sql,
 
     -- * TopicRuleDestination
-    TopicRuleDestination (..),
+    TopicRuleDestination,
     newTopicRuleDestination,
     topicRuleDestination_arn,
     topicRuleDestination_createdAt,
@@ -1717,13 +1718,13 @@ module Amazonka.IoT.Types
     topicRuleDestination_vpcProperties,
 
     -- * TopicRuleDestinationConfiguration
-    TopicRuleDestinationConfiguration (..),
+    TopicRuleDestinationConfiguration,
     newTopicRuleDestinationConfiguration,
     topicRuleDestinationConfiguration_httpUrlConfiguration,
     topicRuleDestinationConfiguration_vpcConfiguration,
 
     -- * TopicRuleDestinationSummary
-    TopicRuleDestinationSummary (..),
+    TopicRuleDestinationSummary,
     newTopicRuleDestinationSummary,
     topicRuleDestinationSummary_arn,
     topicRuleDestinationSummary_createdAt,
@@ -1734,7 +1735,7 @@ module Amazonka.IoT.Types
     topicRuleDestinationSummary_vpcDestinationSummary,
 
     -- * TopicRuleListItem
-    TopicRuleListItem (..),
+    TopicRuleListItem,
     newTopicRuleListItem,
     topicRuleListItem_createdAt,
     topicRuleListItem_ruleArn,
@@ -1743,7 +1744,7 @@ module Amazonka.IoT.Types
     topicRuleListItem_topicPattern,
 
     -- * TopicRulePayload
-    TopicRulePayload (..),
+    TopicRulePayload,
     newTopicRulePayload,
     topicRulePayload_awsIotSqlVersion,
     topicRulePayload_description,
@@ -1753,7 +1754,7 @@ module Amazonka.IoT.Types
     topicRulePayload_actions,
 
     -- * TransferData
-    TransferData (..),
+    TransferData,
     newTransferData,
     transferData_acceptDate,
     transferData_rejectDate,
@@ -1762,28 +1763,28 @@ module Amazonka.IoT.Types
     transferData_transferMessage,
 
     -- * UpdateCACertificateParams
-    UpdateCACertificateParams (..),
+    UpdateCACertificateParams,
     newUpdateCACertificateParams,
     updateCACertificateParams_action,
 
     -- * UpdateDeviceCertificateParams
-    UpdateDeviceCertificateParams (..),
+    UpdateDeviceCertificateParams,
     newUpdateDeviceCertificateParams,
     updateDeviceCertificateParams_action,
 
     -- * UserProperty
-    UserProperty (..),
+    UserProperty,
     newUserProperty,
     userProperty_key,
     userProperty_value,
 
     -- * ValidationError
-    ValidationError (..),
+    ValidationError,
     newValidationError,
     validationError_errorMessage,
 
     -- * ViolationEvent
-    ViolationEvent (..),
+    ViolationEvent,
     newViolationEvent,
     violationEvent_behavior,
     violationEvent_metricValue,
@@ -1797,18 +1798,18 @@ module Amazonka.IoT.Types
     violationEvent_violationId,
 
     -- * ViolationEventAdditionalInfo
-    ViolationEventAdditionalInfo (..),
+    ViolationEventAdditionalInfo,
     newViolationEventAdditionalInfo,
     violationEventAdditionalInfo_confidenceLevel,
 
     -- * ViolationEventOccurrenceRange
-    ViolationEventOccurrenceRange (..),
+    ViolationEventOccurrenceRange,
     newViolationEventOccurrenceRange,
     violationEventOccurrenceRange_startTime,
     violationEventOccurrenceRange_endTime,
 
     -- * VpcDestinationConfiguration
-    VpcDestinationConfiguration (..),
+    VpcDestinationConfiguration,
     newVpcDestinationConfiguration,
     vpcDestinationConfiguration_securityGroups,
     vpcDestinationConfiguration_subnetIds,
@@ -1816,7 +1817,7 @@ module Amazonka.IoT.Types
     vpcDestinationConfiguration_roleArn,
 
     -- * VpcDestinationProperties
-    VpcDestinationProperties (..),
+    VpcDestinationProperties,
     newVpcDestinationProperties,
     vpcDestinationProperties_roleArn,
     vpcDestinationProperties_securityGroups,
@@ -1824,7 +1825,7 @@ module Amazonka.IoT.Types
     vpcDestinationProperties_vpcId,
 
     -- * VpcDestinationSummary
-    VpcDestinationSummary (..),
+    VpcDestinationSummary,
     newVpcDestinationSummary,
     vpcDestinationSummary_roleArn,
     vpcDestinationSummary_securityGroups,

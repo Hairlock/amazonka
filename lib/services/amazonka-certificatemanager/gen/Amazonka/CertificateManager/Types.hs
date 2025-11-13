@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -36,52 +37,52 @@ module Amazonka.CertificateManager.Types
     _ValidationException,
 
     -- * CertificateStatus
-    CertificateStatus (..),
+    CertificateStatus,
 
     -- * CertificateTransparencyLoggingPreference
-    CertificateTransparencyLoggingPreference (..),
+    CertificateTransparencyLoggingPreference,
 
     -- * CertificateType
-    CertificateType (..),
+    CertificateType,
 
     -- * DomainStatus
-    DomainStatus (..),
+    DomainStatus,
 
     -- * ExtendedKeyUsageName
-    ExtendedKeyUsageName (..),
+    ExtendedKeyUsageName,
 
     -- * FailureReason
-    FailureReason (..),
+    FailureReason,
 
     -- * KeyAlgorithm
-    KeyAlgorithm (..),
+    KeyAlgorithm,
 
     -- * KeyUsageName
-    KeyUsageName (..),
+    KeyUsageName,
 
     -- * RecordType
-    RecordType (..),
+    RecordType,
 
     -- * RenewalEligibility
-    RenewalEligibility (..),
+    RenewalEligibility,
 
     -- * RenewalStatus
-    RenewalStatus (..),
+    RenewalStatus,
 
     -- * RevocationReason
-    RevocationReason (..),
+    RevocationReason,
 
     -- * SortBy
-    SortBy (..),
+    SortBy,
 
     -- * SortOrder
-    SortOrder (..),
+    SortOrder,
 
     -- * ValidationMethod
-    ValidationMethod (..),
+    ValidationMethod,
 
     -- * CertificateDetail
-    CertificateDetail (..),
+    CertificateDetail,
     newCertificateDetail,
     certificateDetail_certificateArn,
     certificateDetail_certificateAuthorityArn,
@@ -111,12 +112,12 @@ module Amazonka.CertificateManager.Types
     certificateDetail_type,
 
     -- * CertificateOptions
-    CertificateOptions (..),
+    CertificateOptions,
     newCertificateOptions,
     certificateOptions_certificateTransparencyLoggingPreference,
 
     -- * CertificateSummary
-    CertificateSummary (..),
+    CertificateSummary,
     newCertificateSummary,
     certificateSummary_certificateArn,
     certificateSummary_createdAt,
@@ -138,7 +139,7 @@ module Amazonka.CertificateManager.Types
     certificateSummary_type,
 
     -- * DomainValidation
-    DomainValidation (..),
+    DomainValidation,
     newDomainValidation,
     domainValidation_resourceRecord,
     domainValidation_validationDomain,
@@ -148,36 +149,36 @@ module Amazonka.CertificateManager.Types
     domainValidation_domainName,
 
     -- * DomainValidationOption
-    DomainValidationOption (..),
+    DomainValidationOption,
     newDomainValidationOption,
     domainValidationOption_domainName,
     domainValidationOption_validationDomain,
 
     -- * ExpiryEventsConfiguration
-    ExpiryEventsConfiguration (..),
+    ExpiryEventsConfiguration,
     newExpiryEventsConfiguration,
     expiryEventsConfiguration_daysBeforeExpiry,
 
     -- * ExtendedKeyUsage
-    ExtendedKeyUsage (..),
+    ExtendedKeyUsage,
     newExtendedKeyUsage,
     extendedKeyUsage_name,
     extendedKeyUsage_oid,
 
     -- * Filters
-    Filters (..),
+    Filters,
     newFilters,
     filters_extendedKeyUsage,
     filters_keyTypes,
     filters_keyUsage,
 
     -- * KeyUsage
-    KeyUsage (..),
+    KeyUsage,
     newKeyUsage,
     keyUsage_name,
 
     -- * RenewalSummary
-    RenewalSummary (..),
+    RenewalSummary,
     newRenewalSummary,
     renewalSummary_renewalStatusReason,
     renewalSummary_renewalStatus,
@@ -185,14 +186,14 @@ module Amazonka.CertificateManager.Types
     renewalSummary_updatedAt,
 
     -- * ResourceRecord
-    ResourceRecord (..),
+    ResourceRecord,
     newResourceRecord,
     resourceRecord_name,
     resourceRecord_type,
     resourceRecord_value,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_value,
     tag_key,

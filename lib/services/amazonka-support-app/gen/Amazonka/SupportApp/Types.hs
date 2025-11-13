@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -26,13 +27,13 @@ module Amazonka.SupportApp.Types
     _ValidationException,
 
     -- * AccountType
-    AccountType (..),
+    AccountType,
 
     -- * NotificationSeverityLevel
-    NotificationSeverityLevel (..),
+    NotificationSeverityLevel,
 
     -- * SlackChannelConfiguration
-    SlackChannelConfiguration (..),
+    SlackChannelConfiguration,
     newSlackChannelConfiguration,
     slackChannelConfiguration_channelName,
     slackChannelConfiguration_channelRoleArn,
@@ -44,7 +45,7 @@ module Amazonka.SupportApp.Types
     slackChannelConfiguration_teamId,
 
     -- * SlackWorkspaceConfiguration
-    SlackWorkspaceConfiguration (..),
+    SlackWorkspaceConfiguration,
     newSlackWorkspaceConfiguration,
     slackWorkspaceConfiguration_allowOrganizationMemberAccount,
     slackWorkspaceConfiguration_teamName,

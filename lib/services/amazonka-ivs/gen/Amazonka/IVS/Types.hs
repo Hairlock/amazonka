@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -30,25 +31,25 @@ module Amazonka.IVS.Types
     _ValidationException,
 
     -- * ChannelLatencyMode
-    ChannelLatencyMode (..),
+    ChannelLatencyMode,
 
     -- * ChannelType
-    ChannelType (..),
+    ChannelType,
 
     -- * RecordingConfigurationState
-    RecordingConfigurationState (..),
+    RecordingConfigurationState,
 
     -- * RecordingMode
-    RecordingMode (..),
+    RecordingMode,
 
     -- * StreamHealth
-    StreamHealth (..),
+    StreamHealth,
 
     -- * StreamState
-    StreamState (..),
+    StreamState,
 
     -- * AudioConfiguration
-    AudioConfiguration (..),
+    AudioConfiguration,
     newAudioConfiguration,
     audioConfiguration_channels,
     audioConfiguration_codec,
@@ -56,14 +57,14 @@ module Amazonka.IVS.Types
     audioConfiguration_targetBitrate,
 
     -- * BatchError
-    BatchError (..),
+    BatchError,
     newBatchError,
     batchError_arn,
     batchError_code,
     batchError_message,
 
     -- * Channel
-    Channel (..),
+    Channel,
     newChannel,
     channel_arn,
     channel_authorized,
@@ -76,7 +77,7 @@ module Amazonka.IVS.Types
     channel_type,
 
     -- * ChannelSummary
-    ChannelSummary (..),
+    ChannelSummary,
     newChannelSummary,
     channelSummary_arn,
     channelSummary_authorized,
@@ -86,18 +87,18 @@ module Amazonka.IVS.Types
     channelSummary_tags,
 
     -- * DestinationConfiguration
-    DestinationConfiguration (..),
+    DestinationConfiguration,
     newDestinationConfiguration,
     destinationConfiguration_s3,
 
     -- * IngestConfiguration
-    IngestConfiguration (..),
+    IngestConfiguration,
     newIngestConfiguration,
     ingestConfiguration_audio,
     ingestConfiguration_video,
 
     -- * PlaybackKeyPair
-    PlaybackKeyPair (..),
+    PlaybackKeyPair,
     newPlaybackKeyPair,
     playbackKeyPair_arn,
     playbackKeyPair_fingerprint,
@@ -105,14 +106,14 @@ module Amazonka.IVS.Types
     playbackKeyPair_tags,
 
     -- * PlaybackKeyPairSummary
-    PlaybackKeyPairSummary (..),
+    PlaybackKeyPairSummary,
     newPlaybackKeyPairSummary,
     playbackKeyPairSummary_arn,
     playbackKeyPairSummary_name,
     playbackKeyPairSummary_tags,
 
     -- * RecordingConfiguration
-    RecordingConfiguration (..),
+    RecordingConfiguration,
     newRecordingConfiguration,
     recordingConfiguration_name,
     recordingConfiguration_recordingReconnectWindowSeconds,
@@ -123,7 +124,7 @@ module Amazonka.IVS.Types
     recordingConfiguration_state,
 
     -- * RecordingConfigurationSummary
-    RecordingConfigurationSummary (..),
+    RecordingConfigurationSummary,
     newRecordingConfigurationSummary,
     recordingConfigurationSummary_name,
     recordingConfigurationSummary_tags,
@@ -132,12 +133,12 @@ module Amazonka.IVS.Types
     recordingConfigurationSummary_state,
 
     -- * S3DestinationConfiguration
-    S3DestinationConfiguration (..),
+    S3DestinationConfiguration,
     newS3DestinationConfiguration,
     s3DestinationConfiguration_bucketName,
 
     -- * Stream
-    Stream (..),
+    Stream,
     newStream,
     stream_channelArn,
     stream_health,
@@ -148,19 +149,19 @@ module Amazonka.IVS.Types
     stream_viewerCount,
 
     -- * StreamEvent
-    StreamEvent (..),
+    StreamEvent,
     newStreamEvent,
     streamEvent_eventTime,
     streamEvent_name,
     streamEvent_type,
 
     -- * StreamFilters
-    StreamFilters (..),
+    StreamFilters,
     newStreamFilters,
     streamFilters_health,
 
     -- * StreamKey
-    StreamKey (..),
+    StreamKey,
     newStreamKey,
     streamKey_arn,
     streamKey_channelArn,
@@ -168,14 +169,14 @@ module Amazonka.IVS.Types
     streamKey_value,
 
     -- * StreamKeySummary
-    StreamKeySummary (..),
+    StreamKeySummary,
     newStreamKeySummary,
     streamKeySummary_arn,
     streamKeySummary_channelArn,
     streamKeySummary_tags,
 
     -- * StreamSession
-    StreamSession (..),
+    StreamSession,
     newStreamSession,
     streamSession_channel,
     streamSession_endTime,
@@ -186,7 +187,7 @@ module Amazonka.IVS.Types
     streamSession_truncatedEvents,
 
     -- * StreamSessionSummary
-    StreamSessionSummary (..),
+    StreamSessionSummary,
     newStreamSessionSummary,
     streamSessionSummary_endTime,
     streamSessionSummary_hasErrorEvent,
@@ -194,7 +195,7 @@ module Amazonka.IVS.Types
     streamSessionSummary_streamId,
 
     -- * StreamSummary
-    StreamSummary (..),
+    StreamSummary,
     newStreamSummary,
     streamSummary_channelArn,
     streamSummary_health,
@@ -204,13 +205,13 @@ module Amazonka.IVS.Types
     streamSummary_viewerCount,
 
     -- * ThumbnailConfiguration
-    ThumbnailConfiguration (..),
+    ThumbnailConfiguration,
     newThumbnailConfiguration,
     thumbnailConfiguration_recordingMode,
     thumbnailConfiguration_targetIntervalSeconds,
 
     -- * VideoConfiguration
-    VideoConfiguration (..),
+    VideoConfiguration,
     newVideoConfiguration,
     videoConfiguration_avcLevel,
     videoConfiguration_avcProfile,

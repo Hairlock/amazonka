@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -28,35 +29,35 @@ module Amazonka.ResourceExplorer2.Types
     _ValidationException,
 
     -- * IndexState
-    IndexState (..),
+    IndexState,
 
     -- * IndexType
-    IndexType (..),
+    IndexType,
 
     -- * BatchGetViewError
-    BatchGetViewError (..),
+    BatchGetViewError,
     newBatchGetViewError,
     batchGetViewError_errorMessage,
     batchGetViewError_viewArn,
 
     -- * Document
-    Document (..),
+    Document,
     newDocument,
 
     -- * IncludedProperty
-    IncludedProperty (..),
+    IncludedProperty,
     newIncludedProperty,
     includedProperty_name,
 
     -- * Index
-    Index (..),
+    Index,
     newIndex,
     index_arn,
     index_region,
     index_type,
 
     -- * Resource
-    Resource (..),
+    Resource,
     newResource,
     resource_arn,
     resource_lastReportedAt,
@@ -67,31 +68,31 @@ module Amazonka.ResourceExplorer2.Types
     resource_service,
 
     -- * ResourceCount
-    ResourceCount (..),
+    ResourceCount,
     newResourceCount,
     resourceCount_complete,
     resourceCount_totalResources,
 
     -- * ResourceProperty
-    ResourceProperty (..),
+    ResourceProperty,
     newResourceProperty,
     resourceProperty_data,
     resourceProperty_lastReportedAt,
     resourceProperty_name,
 
     -- * SearchFilter
-    SearchFilter (..),
+    SearchFilter,
     newSearchFilter,
     searchFilter_filterString,
 
     -- * SupportedResourceType
-    SupportedResourceType (..),
+    SupportedResourceType,
     newSupportedResourceType,
     supportedResourceType_resourceType,
     supportedResourceType_service,
 
     -- * View
-    View (..),
+    View,
     newView,
     view_filters,
     view_includedProperties,

@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -25,50 +26,50 @@ module Amazonka.DataPipeline.Types
     _TaskNotFoundException,
 
     -- * OperatorType
-    OperatorType (..),
+    OperatorType,
 
     -- * TaskStatus
-    TaskStatus (..),
+    TaskStatus,
 
     -- * Field
-    Field (..),
+    Field,
     newField,
     field_refValue,
     field_stringValue,
     field_key,
 
     -- * InstanceIdentity
-    InstanceIdentity (..),
+    InstanceIdentity,
     newInstanceIdentity,
     instanceIdentity_document,
     instanceIdentity_signature,
 
     -- * Operator
-    Operator (..),
+    Operator,
     newOperator,
     operator_type,
     operator_values,
 
     -- * ParameterAttribute
-    ParameterAttribute (..),
+    ParameterAttribute,
     newParameterAttribute,
     parameterAttribute_key,
     parameterAttribute_stringValue,
 
     -- * ParameterObject
-    ParameterObject (..),
+    ParameterObject,
     newParameterObject,
     parameterObject_id,
     parameterObject_attributes,
 
     -- * ParameterValue
-    ParameterValue (..),
+    ParameterValue,
     newParameterValue,
     parameterValue_id,
     parameterValue_stringValue,
 
     -- * PipelineDescription
-    PipelineDescription (..),
+    PipelineDescription,
     newPipelineDescription,
     pipelineDescription_description,
     pipelineDescription_tags,
@@ -77,37 +78,37 @@ module Amazonka.DataPipeline.Types
     pipelineDescription_fields,
 
     -- * PipelineIdName
-    PipelineIdName (..),
+    PipelineIdName,
     newPipelineIdName,
     pipelineIdName_id,
     pipelineIdName_name,
 
     -- * PipelineObject
-    PipelineObject (..),
+    PipelineObject,
     newPipelineObject,
     pipelineObject_id,
     pipelineObject_name,
     pipelineObject_fields,
 
     -- * Query
-    Query (..),
+    Query,
     newQuery,
     query_selectors,
 
     -- * Selector
-    Selector (..),
+    Selector,
     newSelector,
     selector_fieldName,
     selector_operator,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,
 
     -- * TaskObject
-    TaskObject (..),
+    TaskObject,
     newTaskObject,
     taskObject_attemptId,
     taskObject_objects,
@@ -115,13 +116,13 @@ module Amazonka.DataPipeline.Types
     taskObject_taskId,
 
     -- * ValidationError
-    ValidationError (..),
+    ValidationError,
     newValidationError,
     validationError_errors,
     validationError_id,
 
     -- * ValidationWarning
-    ValidationWarning (..),
+    ValidationWarning,
     newValidationWarning,
     validationWarning_id,
     validationWarning_warnings,

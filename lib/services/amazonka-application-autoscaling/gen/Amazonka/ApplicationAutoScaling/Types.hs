@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -27,37 +28,37 @@ module Amazonka.ApplicationAutoScaling.Types
     _ValidationException,
 
     -- * AdjustmentType
-    AdjustmentType (..),
+    AdjustmentType,
 
     -- * MetricAggregationType
-    MetricAggregationType (..),
+    MetricAggregationType,
 
     -- * MetricStatistic
-    MetricStatistic (..),
+    MetricStatistic,
 
     -- * MetricType
-    MetricType (..),
+    MetricType,
 
     -- * PolicyType
-    PolicyType (..),
+    PolicyType,
 
     -- * ScalableDimension
-    ScalableDimension (..),
+    ScalableDimension,
 
     -- * ScalingActivityStatusCode
-    ScalingActivityStatusCode (..),
+    ScalingActivityStatusCode,
 
     -- * ServiceNamespace
-    ServiceNamespace (..),
+    ServiceNamespace,
 
     -- * Alarm
-    Alarm (..),
+    Alarm,
     newAlarm,
     alarm_alarmName,
     alarm_alarmARN,
 
     -- * CustomizedMetricSpecification
-    CustomizedMetricSpecification (..),
+    CustomizedMetricSpecification,
     newCustomizedMetricSpecification,
     customizedMetricSpecification_dimensions,
     customizedMetricSpecification_unit,
@@ -66,13 +67,13 @@ module Amazonka.ApplicationAutoScaling.Types
     customizedMetricSpecification_statistic,
 
     -- * MetricDimension
-    MetricDimension (..),
+    MetricDimension,
     newMetricDimension,
     metricDimension_name,
     metricDimension_value,
 
     -- * NotScaledReason
-    NotScaledReason (..),
+    NotScaledReason,
     newNotScaledReason,
     notScaledReason_currentCapacity,
     notScaledReason_maxCapacity,
@@ -80,13 +81,13 @@ module Amazonka.ApplicationAutoScaling.Types
     notScaledReason_code,
 
     -- * PredefinedMetricSpecification
-    PredefinedMetricSpecification (..),
+    PredefinedMetricSpecification,
     newPredefinedMetricSpecification,
     predefinedMetricSpecification_resourceLabel,
     predefinedMetricSpecification_predefinedMetricType,
 
     -- * ScalableTarget
-    ScalableTarget (..),
+    ScalableTarget,
     newScalableTarget,
     scalableTarget_suspendedState,
     scalableTarget_serviceNamespace,
@@ -98,13 +99,13 @@ module Amazonka.ApplicationAutoScaling.Types
     scalableTarget_creationTime,
 
     -- * ScalableTargetAction
-    ScalableTargetAction (..),
+    ScalableTargetAction,
     newScalableTargetAction,
     scalableTargetAction_maxCapacity,
     scalableTargetAction_minCapacity,
 
     -- * ScalingActivity
-    ScalingActivity (..),
+    ScalingActivity,
     newScalingActivity,
     scalingActivity_details,
     scalingActivity_endTime,
@@ -120,7 +121,7 @@ module Amazonka.ApplicationAutoScaling.Types
     scalingActivity_statusCode,
 
     -- * ScalingPolicy
-    ScalingPolicy (..),
+    ScalingPolicy,
     newScalingPolicy,
     scalingPolicy_alarms,
     scalingPolicy_stepScalingPolicyConfiguration,
@@ -134,7 +135,7 @@ module Amazonka.ApplicationAutoScaling.Types
     scalingPolicy_creationTime,
 
     -- * ScheduledAction
-    ScheduledAction (..),
+    ScheduledAction,
     newScheduledAction,
     scheduledAction_endTime,
     scheduledAction_scalableDimension,
@@ -149,14 +150,14 @@ module Amazonka.ApplicationAutoScaling.Types
     scheduledAction_creationTime,
 
     -- * StepAdjustment
-    StepAdjustment (..),
+    StepAdjustment,
     newStepAdjustment,
     stepAdjustment_metricIntervalLowerBound,
     stepAdjustment_metricIntervalUpperBound,
     stepAdjustment_scalingAdjustment,
 
     -- * StepScalingPolicyConfiguration
-    StepScalingPolicyConfiguration (..),
+    StepScalingPolicyConfiguration,
     newStepScalingPolicyConfiguration,
     stepScalingPolicyConfiguration_adjustmentType,
     stepScalingPolicyConfiguration_cooldown,
@@ -165,14 +166,14 @@ module Amazonka.ApplicationAutoScaling.Types
     stepScalingPolicyConfiguration_stepAdjustments,
 
     -- * SuspendedState
-    SuspendedState (..),
+    SuspendedState,
     newSuspendedState,
     suspendedState_dynamicScalingInSuspended,
     suspendedState_dynamicScalingOutSuspended,
     suspendedState_scheduledScalingSuspended,
 
     -- * TargetTrackingScalingPolicyConfiguration
-    TargetTrackingScalingPolicyConfiguration (..),
+    TargetTrackingScalingPolicyConfiguration,
     newTargetTrackingScalingPolicyConfiguration,
     targetTrackingScalingPolicyConfiguration_customizedMetricSpecification,
     targetTrackingScalingPolicyConfiguration_disableScaleIn,

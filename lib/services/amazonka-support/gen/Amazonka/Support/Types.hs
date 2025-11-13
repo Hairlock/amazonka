@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -29,19 +30,19 @@ module Amazonka.Support.Types
     _InternalServerError,
 
     -- * Attachment
-    Attachment (..),
+    Attachment,
     newAttachment,
     attachment_data,
     attachment_fileName,
 
     -- * AttachmentDetails
-    AttachmentDetails (..),
+    AttachmentDetails,
     newAttachmentDetails,
     attachmentDetails_attachmentId,
     attachmentDetails_fileName,
 
     -- * CaseDetails
-    CaseDetails (..),
+    CaseDetails,
     newCaseDetails,
     caseDetails_caseId,
     caseDetails_categoryCode,
@@ -57,13 +58,13 @@ module Amazonka.Support.Types
     caseDetails_timeCreated,
 
     -- * Category
-    Category (..),
+    Category,
     newCategory,
     category_code,
     category_name,
 
     -- * Communication
-    Communication (..),
+    Communication,
     newCommunication,
     communication_attachmentSet,
     communication_body,
@@ -72,31 +73,31 @@ module Amazonka.Support.Types
     communication_timeCreated,
 
     -- * RecentCaseCommunications
-    RecentCaseCommunications (..),
+    RecentCaseCommunications,
     newRecentCaseCommunications,
     recentCaseCommunications_communications,
     recentCaseCommunications_nextToken,
 
     -- * SeverityLevel
-    SeverityLevel (..),
+    SeverityLevel,
     newSeverityLevel,
     severityLevel_code,
     severityLevel_name,
 
     -- * SupportService
-    SupportService (..),
+    SupportService,
     newSupportService,
     supportService_categories,
     supportService_code,
     supportService_name,
 
     -- * TrustedAdvisorCategorySpecificSummary
-    TrustedAdvisorCategorySpecificSummary (..),
+    TrustedAdvisorCategorySpecificSummary,
     newTrustedAdvisorCategorySpecificSummary,
     trustedAdvisorCategorySpecificSummary_costOptimizing,
 
     -- * TrustedAdvisorCheckDescription
-    TrustedAdvisorCheckDescription (..),
+    TrustedAdvisorCheckDescription,
     newTrustedAdvisorCheckDescription,
     trustedAdvisorCheckDescription_id,
     trustedAdvisorCheckDescription_name,
@@ -105,14 +106,14 @@ module Amazonka.Support.Types
     trustedAdvisorCheckDescription_metadata,
 
     -- * TrustedAdvisorCheckRefreshStatus
-    TrustedAdvisorCheckRefreshStatus (..),
+    TrustedAdvisorCheckRefreshStatus,
     newTrustedAdvisorCheckRefreshStatus,
     trustedAdvisorCheckRefreshStatus_checkId,
     trustedAdvisorCheckRefreshStatus_status,
     trustedAdvisorCheckRefreshStatus_millisUntilNextRefreshable,
 
     -- * TrustedAdvisorCheckResult
-    TrustedAdvisorCheckResult (..),
+    TrustedAdvisorCheckResult,
     newTrustedAdvisorCheckResult,
     trustedAdvisorCheckResult_checkId,
     trustedAdvisorCheckResult_timestamp,
@@ -122,7 +123,7 @@ module Amazonka.Support.Types
     trustedAdvisorCheckResult_flaggedResources,
 
     -- * TrustedAdvisorCheckSummary
-    TrustedAdvisorCheckSummary (..),
+    TrustedAdvisorCheckSummary,
     newTrustedAdvisorCheckSummary,
     trustedAdvisorCheckSummary_hasFlaggedResources,
     trustedAdvisorCheckSummary_checkId,
@@ -132,13 +133,13 @@ module Amazonka.Support.Types
     trustedAdvisorCheckSummary_categorySpecificSummary,
 
     -- * TrustedAdvisorCostOptimizingSummary
-    TrustedAdvisorCostOptimizingSummary (..),
+    TrustedAdvisorCostOptimizingSummary,
     newTrustedAdvisorCostOptimizingSummary,
     trustedAdvisorCostOptimizingSummary_estimatedMonthlySavings,
     trustedAdvisorCostOptimizingSummary_estimatedPercentMonthlySavings,
 
     -- * TrustedAdvisorResourceDetail
-    TrustedAdvisorResourceDetail (..),
+    TrustedAdvisorResourceDetail,
     newTrustedAdvisorResourceDetail,
     trustedAdvisorResourceDetail_isSuppressed,
     trustedAdvisorResourceDetail_region,
@@ -147,7 +148,7 @@ module Amazonka.Support.Types
     trustedAdvisorResourceDetail_metadata,
 
     -- * TrustedAdvisorResourcesSummary
-    TrustedAdvisorResourcesSummary (..),
+    TrustedAdvisorResourcesSummary,
     newTrustedAdvisorResourcesSummary,
     trustedAdvisorResourcesSummary_resourcesProcessed,
     trustedAdvisorResourcesSummary_resourcesFlagged,

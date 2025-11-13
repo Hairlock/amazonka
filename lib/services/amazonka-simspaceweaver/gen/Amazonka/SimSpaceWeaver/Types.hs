@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -27,72 +28,72 @@ module Amazonka.SimSpaceWeaver.Types
     _ValidationException,
 
     -- * ClockStatus
-    ClockStatus (..),
+    ClockStatus,
 
     -- * ClockTargetStatus
-    ClockTargetStatus (..),
+    ClockTargetStatus,
 
     -- * LifecycleManagementStrategy
-    LifecycleManagementStrategy (..),
+    LifecycleManagementStrategy,
 
     -- * SimulationAppStatus
-    SimulationAppStatus (..),
+    SimulationAppStatus,
 
     -- * SimulationAppTargetStatus
-    SimulationAppTargetStatus (..),
+    SimulationAppTargetStatus,
 
     -- * SimulationStatus
-    SimulationStatus (..),
+    SimulationStatus,
 
     -- * SimulationTargetStatus
-    SimulationTargetStatus (..),
+    SimulationTargetStatus,
 
     -- * CloudWatchLogsLogGroup
-    CloudWatchLogsLogGroup (..),
+    CloudWatchLogsLogGroup,
     newCloudWatchLogsLogGroup,
     cloudWatchLogsLogGroup_logGroupArn,
 
     -- * Domain
-    Domain (..),
+    Domain,
     newDomain,
     domain_lifecycle,
     domain_name,
 
     -- * LaunchOverrides
-    LaunchOverrides (..),
+    LaunchOverrides,
     newLaunchOverrides,
     launchOverrides_launchCommands,
 
     -- * LiveSimulationState
-    LiveSimulationState (..),
+    LiveSimulationState,
     newLiveSimulationState,
     liveSimulationState_clocks,
     liveSimulationState_domains,
 
     -- * LogDestination
-    LogDestination (..),
+    LogDestination,
     newLogDestination,
     logDestination_cloudWatchLogsLogGroup,
 
     -- * LoggingConfiguration
-    LoggingConfiguration (..),
+    LoggingConfiguration,
     newLoggingConfiguration,
     loggingConfiguration_destinations,
 
     -- * S3Location
-    S3Location (..),
+    S3Location,
     newS3Location,
     s3Location_bucketName,
     s3Location_objectKey,
 
     -- * SimulationAppEndpointInfo
-    SimulationAppEndpointInfo (..),
+    SimulationAppEndpointInfo,
     newSimulationAppEndpointInfo,
     simulationAppEndpointInfo_address,
     simulationAppEndpointInfo_ingressPortMappings,
 
     -- * SimulationAppMetadata
-    SimulationAppMetadata (..),
+    SimulationAppMetadata,
     newSimulationAppMetadata,
     simulationAppMetadata_domain,
     simulationAppMetadata_name,
@@ -101,19 +102,19 @@ module Amazonka.SimSpaceWeaver.Types
     simulationAppMetadata_targetStatus,
 
     -- * SimulationAppPortMapping
-    SimulationAppPortMapping (..),
+    SimulationAppPortMapping,
     newSimulationAppPortMapping,
     simulationAppPortMapping_actual,
     simulationAppPortMapping_declared,
 
     -- * SimulationClock
-    SimulationClock (..),
+    SimulationClock,
     newSimulationClock,
     simulationClock_status,
     simulationClock_targetStatus,
 
     -- * SimulationMetadata
-    SimulationMetadata (..),
+    SimulationMetadata,
     newSimulationMetadata,
     simulationMetadata_arn,
     simulationMetadata_creationTime,

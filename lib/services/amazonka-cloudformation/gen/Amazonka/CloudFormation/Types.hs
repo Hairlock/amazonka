@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -42,198 +43,198 @@ module Amazonka.CloudFormation.Types
     _TypeNotFoundException,
 
     -- * AccountFilterType
-    AccountFilterType (..),
+    AccountFilterType,
 
     -- * AccountGateStatus
-    AccountGateStatus (..),
+    AccountGateStatus,
 
     -- * CallAs
-    CallAs (..),
+    CallAs,
 
     -- * Capability
-    Capability (..),
+    Capability,
 
     -- * Category
-    Category (..),
+    Category,
 
     -- * ChangeAction
-    ChangeAction (..),
+    ChangeAction,
 
     -- * ChangeSetHooksStatus
-    ChangeSetHooksStatus (..),
+    ChangeSetHooksStatus,
 
     -- * ChangeSetStatus
-    ChangeSetStatus (..),
+    ChangeSetStatus,
 
     -- * ChangeSetType
-    ChangeSetType (..),
+    ChangeSetType,
 
     -- * ChangeSource
-    ChangeSource (..),
+    ChangeSource,
 
     -- * ChangeType
-    ChangeType (..),
+    ChangeType,
 
     -- * DeprecatedStatus
-    DeprecatedStatus (..),
+    DeprecatedStatus,
 
     -- * DifferenceType
-    DifferenceType (..),
+    DifferenceType,
 
     -- * EvaluationType
-    EvaluationType (..),
+    EvaluationType,
 
     -- * ExecutionStatus
-    ExecutionStatus (..),
+    ExecutionStatus,
 
     -- * HandlerErrorCode
-    HandlerErrorCode (..),
+    HandlerErrorCode,
 
     -- * HookFailureMode
-    HookFailureMode (..),
+    HookFailureMode,
 
     -- * HookInvocationPoint
-    HookInvocationPoint (..),
+    HookInvocationPoint,
 
     -- * HookStatus
-    HookStatus (..),
+    HookStatus,
 
     -- * HookTargetType
-    HookTargetType (..),
+    HookTargetType,
 
     -- * IdentityProvider
-    IdentityProvider (..),
+    IdentityProvider,
 
     -- * OnFailure
-    OnFailure (..),
+    OnFailure,
 
     -- * OperationResultFilterName
-    OperationResultFilterName (..),
+    OperationResultFilterName,
 
     -- * OperationStatus
-    OperationStatus (..),
+    OperationStatus,
 
     -- * PermissionModels
-    PermissionModels (..),
+    PermissionModels,
 
     -- * ProvisioningType
-    ProvisioningType (..),
+    ProvisioningType,
 
     -- * PublisherStatus
-    PublisherStatus (..),
+    PublisherStatus,
 
     -- * RegionConcurrencyType
-    RegionConcurrencyType (..),
+    RegionConcurrencyType,
 
     -- * RegistrationStatus
-    RegistrationStatus (..),
+    RegistrationStatus,
 
     -- * RegistryType
-    RegistryType (..),
+    RegistryType,
 
     -- * Replacement
-    Replacement (..),
+    Replacement,
 
     -- * RequiresRecreation
-    RequiresRecreation (..),
+    RequiresRecreation,
 
     -- * ResourceAttribute
-    ResourceAttribute (..),
+    ResourceAttribute,
 
     -- * ResourceSignalStatus
-    ResourceSignalStatus (..),
+    ResourceSignalStatus,
 
     -- * ResourceStatus
-    ResourceStatus (..),
+    ResourceStatus,
 
     -- * StackDriftDetectionStatus
-    StackDriftDetectionStatus (..),
+    StackDriftDetectionStatus,
 
     -- * StackDriftStatus
-    StackDriftStatus (..),
+    StackDriftStatus,
 
     -- * StackInstanceDetailedStatus
-    StackInstanceDetailedStatus (..),
+    StackInstanceDetailedStatus,
 
     -- * StackInstanceFilterName
-    StackInstanceFilterName (..),
+    StackInstanceFilterName,
 
     -- * StackInstanceStatus
-    StackInstanceStatus (..),
+    StackInstanceStatus,
 
     -- * StackResourceDriftStatus
-    StackResourceDriftStatus (..),
+    StackResourceDriftStatus,
 
     -- * StackSetDriftDetectionStatus
-    StackSetDriftDetectionStatus (..),
+    StackSetDriftDetectionStatus,
 
     -- * StackSetDriftStatus
-    StackSetDriftStatus (..),
+    StackSetDriftStatus,
 
     -- * StackSetOperationAction
-    StackSetOperationAction (..),
+    StackSetOperationAction,
 
     -- * StackSetOperationResultStatus
-    StackSetOperationResultStatus (..),
+    StackSetOperationResultStatus,
 
     -- * StackSetOperationStatus
-    StackSetOperationStatus (..),
+    StackSetOperationStatus,
 
     -- * StackSetStatus
-    StackSetStatus (..),
+    StackSetStatus,
 
     -- * StackStatus
-    StackStatus (..),
+    StackStatus,
 
     -- * TemplateStage
-    TemplateStage (..),
+    TemplateStage,
 
     -- * ThirdPartyType
-    ThirdPartyType (..),
+    ThirdPartyType,
 
     -- * TypeTestsStatus
-    TypeTestsStatus (..),
+    TypeTestsStatus,
 
     -- * VersionBump
-    VersionBump (..),
+    VersionBump,
 
     -- * Visibility
-    Visibility (..),
+    Visibility,
 
     -- * AccountGateResult
-    AccountGateResult (..),
+    AccountGateResult,
     newAccountGateResult,
     accountGateResult_status,
     accountGateResult_statusReason,
 
     -- * AccountLimit
-    AccountLimit (..),
+    AccountLimit,
     newAccountLimit,
     accountLimit_name,
     accountLimit_value,
 
     -- * AutoDeployment
-    AutoDeployment (..),
+    AutoDeployment,
     newAutoDeployment,
     autoDeployment_enabled,
     autoDeployment_retainStacksOnAccountRemoval,
 
     -- * BatchDescribeTypeConfigurationsError
-    BatchDescribeTypeConfigurationsError (..),
+    BatchDescribeTypeConfigurationsError,
     newBatchDescribeTypeConfigurationsError,
     batchDescribeTypeConfigurationsError_errorCode,
     batchDescribeTypeConfigurationsError_errorMessage,
     batchDescribeTypeConfigurationsError_typeConfigurationIdentifier,
 
     -- * Change
-    Change (..),
+    Change,
     newChange,
     change_hookInvocationCount,
     change_resourceChange,
     change_type,
 
     -- * ChangeSetHook
-    ChangeSetHook (..),
+    ChangeSetHook,
     newChangeSetHook,
     changeSetHook_failureMode,
     changeSetHook_invocationPoint,
@@ -243,20 +244,20 @@ module Amazonka.CloudFormation.Types
     changeSetHook_typeVersionId,
 
     -- * ChangeSetHookResourceTargetDetails
-    ChangeSetHookResourceTargetDetails (..),
+    ChangeSetHookResourceTargetDetails,
     newChangeSetHookResourceTargetDetails,
     changeSetHookResourceTargetDetails_logicalResourceId,
     changeSetHookResourceTargetDetails_resourceAction,
     changeSetHookResourceTargetDetails_resourceType,
 
     -- * ChangeSetHookTargetDetails
-    ChangeSetHookTargetDetails (..),
+    ChangeSetHookTargetDetails,
     newChangeSetHookTargetDetails,
     changeSetHookTargetDetails_resourceTargetDetails,
     changeSetHookTargetDetails_targetType,
 
     -- * ChangeSetSummary
-    ChangeSetSummary (..),
+    ChangeSetSummary,
     newChangeSetSummary,
     changeSetSummary_changeSetId,
     changeSetSummary_changeSetName,
@@ -272,7 +273,7 @@ module Amazonka.CloudFormation.Types
     changeSetSummary_statusReason,
 
     -- * DeploymentTargets
-    DeploymentTargets (..),
+    DeploymentTargets,
     newDeploymentTargets,
     deploymentTargets_accountFilterType,
     deploymentTargets_accounts,
@@ -280,37 +281,37 @@ module Amazonka.CloudFormation.Types
     deploymentTargets_organizationalUnitIds,
 
     -- * Export
-    Export (..),
+    Export,
     newExport,
     export_exportingStackId,
     export_name,
     export_value,
 
     -- * LoggingConfig
-    LoggingConfig (..),
+    LoggingConfig,
     newLoggingConfig,
     loggingConfig_logRoleArn,
     loggingConfig_logGroupName,
 
     -- * ManagedExecution
-    ManagedExecution (..),
+    ManagedExecution,
     newManagedExecution,
     managedExecution_active,
 
     -- * ModuleInfo
-    ModuleInfo (..),
+    ModuleInfo,
     newModuleInfo,
     moduleInfo_logicalIdHierarchy,
     moduleInfo_typeHierarchy,
 
     -- * OperationResultFilter
-    OperationResultFilter (..),
+    OperationResultFilter,
     newOperationResultFilter,
     operationResultFilter_name,
     operationResultFilter_values,
 
     -- * Output
-    Output (..),
+    Output,
     newOutput,
     output_description,
     output_exportName,
@@ -318,7 +319,7 @@ module Amazonka.CloudFormation.Types
     output_outputValue,
 
     -- * Parameter
-    Parameter (..),
+    Parameter,
     newParameter,
     parameter_parameterKey,
     parameter_parameterValue,
@@ -326,12 +327,12 @@ module Amazonka.CloudFormation.Types
     parameter_usePreviousValue,
 
     -- * ParameterConstraints
-    ParameterConstraints (..),
+    ParameterConstraints,
     newParameterConstraints,
     parameterConstraints_allowedValues,
 
     -- * ParameterDeclaration
-    ParameterDeclaration (..),
+    ParameterDeclaration,
     newParameterDeclaration,
     parameterDeclaration_defaultValue,
     parameterDeclaration_description,
@@ -341,13 +342,13 @@ module Amazonka.CloudFormation.Types
     parameterDeclaration_parameterType,
 
     -- * PhysicalResourceIdContextKeyValuePair
-    PhysicalResourceIdContextKeyValuePair (..),
+    PhysicalResourceIdContextKeyValuePair,
     newPhysicalResourceIdContextKeyValuePair,
     physicalResourceIdContextKeyValuePair_key,
     physicalResourceIdContextKeyValuePair_value,
 
     -- * PropertyDifference
-    PropertyDifference (..),
+    PropertyDifference,
     newPropertyDifference,
     propertyDifference_propertyPath,
     propertyDifference_expectedValue,
@@ -355,7 +356,7 @@ module Amazonka.CloudFormation.Types
     propertyDifference_differenceType,
 
     -- * RequiredActivatedType
-    RequiredActivatedType (..),
+    RequiredActivatedType,
     newRequiredActivatedType,
     requiredActivatedType_originalTypeName,
     requiredActivatedType_publisherId,
@@ -363,7 +364,7 @@ module Amazonka.CloudFormation.Types
     requiredActivatedType_typeNameAlias,
 
     -- * ResourceChange
-    ResourceChange (..),
+    ResourceChange,
     newResourceChange,
     resourceChange_action,
     resourceChange_changeSetId,
@@ -376,7 +377,7 @@ module Amazonka.CloudFormation.Types
     resourceChange_scope,
 
     -- * ResourceChangeDetail
-    ResourceChangeDetail (..),
+    ResourceChangeDetail,
     newResourceChangeDetail,
     resourceChangeDetail_causingEntity,
     resourceChangeDetail_changeSource,
@@ -384,40 +385,40 @@ module Amazonka.CloudFormation.Types
     resourceChangeDetail_target,
 
     -- * ResourceIdentifierSummary
-    ResourceIdentifierSummary (..),
+    ResourceIdentifierSummary,
     newResourceIdentifierSummary,
     resourceIdentifierSummary_logicalResourceIds,
     resourceIdentifierSummary_resourceIdentifiers,
     resourceIdentifierSummary_resourceType,
 
     -- * ResourceTargetDefinition
-    ResourceTargetDefinition (..),
+    ResourceTargetDefinition,
     newResourceTargetDefinition,
     resourceTargetDefinition_attribute,
     resourceTargetDefinition_name,
     resourceTargetDefinition_requiresRecreation,
 
     -- * ResourceToImport
-    ResourceToImport (..),
+    ResourceToImport,
     newResourceToImport,
     resourceToImport_resourceType,
     resourceToImport_logicalResourceId,
     resourceToImport_resourceIdentifier,
 
     -- * RollbackConfiguration
-    RollbackConfiguration (..),
+    RollbackConfiguration,
     newRollbackConfiguration,
     rollbackConfiguration_monitoringTimeInMinutes,
     rollbackConfiguration_rollbackTriggers,
 
     -- * RollbackTrigger
-    RollbackTrigger (..),
+    RollbackTrigger,
     newRollbackTrigger,
     rollbackTrigger_arn,
     rollbackTrigger_type,
 
     -- * Stack
-    Stack (..),
+    Stack,
     newStack,
     stack_capabilities,
     stack_changeSetId,
@@ -443,19 +444,19 @@ module Amazonka.CloudFormation.Types
     stack_stackStatus,
 
     -- * StackDriftInformation
-    StackDriftInformation (..),
+    StackDriftInformation,
     newStackDriftInformation,
     stackDriftInformation_lastCheckTimestamp,
     stackDriftInformation_stackDriftStatus,
 
     -- * StackDriftInformationSummary
-    StackDriftInformationSummary (..),
+    StackDriftInformationSummary,
     newStackDriftInformationSummary,
     stackDriftInformationSummary_lastCheckTimestamp,
     stackDriftInformationSummary_stackDriftStatus,
 
     -- * StackEvent
-    StackEvent (..),
+    StackEvent,
     newStackEvent,
     stackEvent_clientRequestToken,
     stackEvent_hookFailureMode,
@@ -475,7 +476,7 @@ module Amazonka.CloudFormation.Types
     stackEvent_timestamp,
 
     -- * StackInstance
-    StackInstance (..),
+    StackInstance,
     newStackInstance,
     stackInstance_account,
     stackInstance_driftStatus,
@@ -491,18 +492,18 @@ module Amazonka.CloudFormation.Types
     stackInstance_statusReason,
 
     -- * StackInstanceComprehensiveStatus
-    StackInstanceComprehensiveStatus (..),
+    StackInstanceComprehensiveStatus,
     newStackInstanceComprehensiveStatus,
     stackInstanceComprehensiveStatus_detailedStatus,
 
     -- * StackInstanceFilter
-    StackInstanceFilter (..),
+    StackInstanceFilter,
     newStackInstanceFilter,
     stackInstanceFilter_name,
     stackInstanceFilter_values,
 
     -- * StackInstanceSummary
-    StackInstanceSummary (..),
+    StackInstanceSummary,
     newStackInstanceSummary,
     stackInstanceSummary_account,
     stackInstanceSummary_driftStatus,
@@ -517,7 +518,7 @@ module Amazonka.CloudFormation.Types
     stackInstanceSummary_statusReason,
 
     -- * StackResource
-    StackResource (..),
+    StackResource,
     newStackResource,
     stackResource_description,
     stackResource_driftInformation,
@@ -532,7 +533,7 @@ module Amazonka.CloudFormation.Types
     stackResource_resourceStatus,
 
     -- * StackResourceDetail
-    StackResourceDetail (..),
+    StackResourceDetail,
     newStackResourceDetail,
     stackResourceDetail_description,
     stackResourceDetail_driftInformation,
@@ -548,7 +549,7 @@ module Amazonka.CloudFormation.Types
     stackResourceDetail_resourceStatus,
 
     -- * StackResourceDrift
-    StackResourceDrift (..),
+    StackResourceDrift,
     newStackResourceDrift,
     stackResourceDrift_actualProperties,
     stackResourceDrift_expectedProperties,
@@ -563,19 +564,19 @@ module Amazonka.CloudFormation.Types
     stackResourceDrift_timestamp,
 
     -- * StackResourceDriftInformation
-    StackResourceDriftInformation (..),
+    StackResourceDriftInformation,
     newStackResourceDriftInformation,
     stackResourceDriftInformation_lastCheckTimestamp,
     stackResourceDriftInformation_stackResourceDriftStatus,
 
     -- * StackResourceDriftInformationSummary
-    StackResourceDriftInformationSummary (..),
+    StackResourceDriftInformationSummary,
     newStackResourceDriftInformationSummary,
     stackResourceDriftInformationSummary_lastCheckTimestamp,
     stackResourceDriftInformationSummary_stackResourceDriftStatus,
 
     -- * StackResourceSummary
-    StackResourceSummary (..),
+    StackResourceSummary,
     newStackResourceSummary,
     stackResourceSummary_driftInformation,
     stackResourceSummary_moduleInfo,
@@ -587,7 +588,7 @@ module Amazonka.CloudFormation.Types
     stackResourceSummary_resourceStatus,
 
     -- * StackSet
-    StackSet (..),
+    StackSet,
     newStackSet,
     stackSet_administrationRoleARN,
     stackSet_autoDeployment,
@@ -607,7 +608,7 @@ module Amazonka.CloudFormation.Types
     stackSet_templateBody,
 
     -- * StackSetDriftDetectionDetails
-    StackSetDriftDetectionDetails (..),
+    StackSetDriftDetectionDetails,
     newStackSetDriftDetectionDetails,
     stackSetDriftDetectionDetails_driftDetectionStatus,
     stackSetDriftDetectionDetails_driftStatus,
@@ -619,7 +620,7 @@ module Amazonka.CloudFormation.Types
     stackSetDriftDetectionDetails_totalStackInstancesCount,
 
     -- * StackSetOperation
-    StackSetOperation (..),
+    StackSetOperation,
     newStackSetOperation,
     stackSetOperation_action,
     stackSetOperation_administrationRoleARN,
@@ -637,7 +638,7 @@ module Amazonka.CloudFormation.Types
     stackSetOperation_statusReason,
 
     -- * StackSetOperationPreferences
-    StackSetOperationPreferences (..),
+    StackSetOperationPreferences,
     newStackSetOperationPreferences,
     stackSetOperationPreferences_failureToleranceCount,
     stackSetOperationPreferences_failureTolerancePercentage,
@@ -647,7 +648,7 @@ module Amazonka.CloudFormation.Types
     stackSetOperationPreferences_regionOrder,
 
     -- * StackSetOperationResultSummary
-    StackSetOperationResultSummary (..),
+    StackSetOperationResultSummary,
     newStackSetOperationResultSummary,
     stackSetOperationResultSummary_account,
     stackSetOperationResultSummary_accountGateResult,
@@ -657,12 +658,12 @@ module Amazonka.CloudFormation.Types
     stackSetOperationResultSummary_statusReason,
 
     -- * StackSetOperationStatusDetails
-    StackSetOperationStatusDetails (..),
+    StackSetOperationStatusDetails,
     newStackSetOperationStatusDetails,
     stackSetOperationStatusDetails_failedStackInstancesCount,
 
     -- * StackSetOperationSummary
-    StackSetOperationSummary (..),
+    StackSetOperationSummary,
     newStackSetOperationSummary,
     stackSetOperationSummary_action,
     stackSetOperationSummary_creationTimestamp,
@@ -674,7 +675,7 @@ module Amazonka.CloudFormation.Types
     stackSetOperationSummary_statusReason,
 
     -- * StackSetSummary
-    StackSetSummary (..),
+    StackSetSummary,
     newStackSetSummary,
     stackSetSummary_autoDeployment,
     stackSetSummary_description,
@@ -687,7 +688,7 @@ module Amazonka.CloudFormation.Types
     stackSetSummary_status,
 
     -- * StackSummary
-    StackSummary (..),
+    StackSummary,
     newStackSummary,
     stackSummary_deletionTime,
     stackSummary_driftInformation,
@@ -702,13 +703,13 @@ module Amazonka.CloudFormation.Types
     stackSummary_stackStatus,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,
 
     -- * TemplateParameter
-    TemplateParameter (..),
+    TemplateParameter,
     newTemplateParameter,
     templateParameter_defaultValue,
     templateParameter_description,
@@ -716,7 +717,7 @@ module Amazonka.CloudFormation.Types
     templateParameter_parameterKey,
 
     -- * TypeConfigurationDetails
-    TypeConfigurationDetails (..),
+    TypeConfigurationDetails,
     newTypeConfigurationDetails,
     typeConfigurationDetails_alias,
     typeConfigurationDetails_arn,
@@ -727,7 +728,7 @@ module Amazonka.CloudFormation.Types
     typeConfigurationDetails_typeName,
 
     -- * TypeConfigurationIdentifier
-    TypeConfigurationIdentifier (..),
+    TypeConfigurationIdentifier,
     newTypeConfigurationIdentifier,
     typeConfigurationIdentifier_type,
     typeConfigurationIdentifier_typeArn,
@@ -736,14 +737,14 @@ module Amazonka.CloudFormation.Types
     typeConfigurationIdentifier_typeName,
 
     -- * TypeFilters
-    TypeFilters (..),
+    TypeFilters,
     newTypeFilters,
     typeFilters_category,
     typeFilters_publisherId,
     typeFilters_typeNamePrefix,
 
     -- * TypeSummary
-    TypeSummary (..),
+    TypeSummary,
     newTypeSummary,
     typeSummary_defaultVersionId,
     typeSummary_description,
@@ -760,7 +761,7 @@ module Amazonka.CloudFormation.Types
     typeSummary_typeName,
 
     -- * TypeVersionSummary
-    TypeVersionSummary (..),
+    TypeVersionSummary,
     newTypeVersionSummary,
     typeVersionSummary_arn,
     typeVersionSummary_description,

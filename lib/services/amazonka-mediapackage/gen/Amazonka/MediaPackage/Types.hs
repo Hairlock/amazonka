@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -26,61 +27,61 @@ module Amazonka.MediaPackage.Types
     _UnprocessableEntityException,
 
     -- * AdMarkers
-    AdMarkers (..),
+    AdMarkers,
 
     -- * AdTriggersElement
-    AdTriggersElement (..),
+    AdTriggersElement,
 
     -- * AdsOnDeliveryRestrictions
-    AdsOnDeliveryRestrictions (..),
+    AdsOnDeliveryRestrictions,
 
     -- * CmafEncryptionMethod
-    CmafEncryptionMethod (..),
+    CmafEncryptionMethod,
 
     -- * EncryptionMethod
-    EncryptionMethod (..),
+    EncryptionMethod,
 
     -- * ManifestLayout
-    ManifestLayout (..),
+    ManifestLayout,
 
     -- * Origination
-    Origination (..),
+    Origination,
 
     -- * PeriodTriggersElement
-    PeriodTriggersElement (..),
+    PeriodTriggersElement,
 
     -- * PlaylistType
-    PlaylistType (..),
+    PlaylistType,
 
     -- * PresetSpeke20Audio
-    PresetSpeke20Audio (..),
+    PresetSpeke20Audio,
 
     -- * PresetSpeke20Video
-    PresetSpeke20Video (..),
+    PresetSpeke20Video,
 
     -- * Profile
-    Profile (..),
+    Profile,
 
     -- * SegmentTemplateFormat
-    SegmentTemplateFormat (..),
+    SegmentTemplateFormat,
 
     -- * Status
-    Status (..),
+    Status,
 
     -- * StreamOrder
-    StreamOrder (..),
+    StreamOrder,
 
     -- * UtcTiming
-    UtcTiming (..),
+    UtcTiming,
 
     -- * Authorization
-    Authorization (..),
+    Authorization,
     newAuthorization,
     authorization_secretsRoleArn,
     authorization_cdnIdentifierSecret,
 
     -- * Channel
-    Channel (..),
+    Channel,
     newChannel,
     channel_arn,
     channel_description,
@@ -91,7 +92,7 @@ module Amazonka.MediaPackage.Types
     channel_tags,
 
     -- * CmafEncryption
-    CmafEncryption (..),
+    CmafEncryption,
     newCmafEncryption,
     cmafEncryption_constantInitializationVector,
     cmafEncryption_encryptionMethod,
@@ -99,7 +100,7 @@ module Amazonka.MediaPackage.Types
     cmafEncryption_spekeKeyProvider,
 
     -- * CmafPackage
-    CmafPackage (..),
+    CmafPackage,
     newCmafPackage,
     cmafPackage_encryption,
     cmafPackage_hlsManifests,
@@ -108,7 +109,7 @@ module Amazonka.MediaPackage.Types
     cmafPackage_streamSelection,
 
     -- * CmafPackageCreateOrUpdateParameters
-    CmafPackageCreateOrUpdateParameters (..),
+    CmafPackageCreateOrUpdateParameters,
     newCmafPackageCreateOrUpdateParameters,
     cmafPackageCreateOrUpdateParameters_encryption,
     cmafPackageCreateOrUpdateParameters_hlsManifests,
@@ -117,13 +118,13 @@ module Amazonka.MediaPackage.Types
     cmafPackageCreateOrUpdateParameters_streamSelection,
 
     -- * DashEncryption
-    DashEncryption (..),
+    DashEncryption,
     newDashEncryption,
     dashEncryption_keyRotationIntervalSeconds,
     dashEncryption_spekeKeyProvider,
 
     -- * DashPackage
-    DashPackage (..),
+    DashPackage,
     newDashPackage,
     dashPackage_adTriggers,
     dashPackage_adsOnDeliveryRestrictions,
@@ -143,18 +144,18 @@ module Amazonka.MediaPackage.Types
     dashPackage_utcTimingUri,
 
     -- * EgressAccessLogs
-    EgressAccessLogs (..),
+    EgressAccessLogs,
     newEgressAccessLogs,
     egressAccessLogs_logGroupName,
 
     -- * EncryptionContractConfiguration
-    EncryptionContractConfiguration (..),
+    EncryptionContractConfiguration,
     newEncryptionContractConfiguration,
     encryptionContractConfiguration_presetSpeke20Audio,
     encryptionContractConfiguration_presetSpeke20Video,
 
     -- * HarvestJob
-    HarvestJob (..),
+    HarvestJob,
     newHarvestJob,
     harvestJob_arn,
     harvestJob_channelId,
@@ -167,7 +168,7 @@ module Amazonka.MediaPackage.Types
     harvestJob_status,
 
     -- * HlsEncryption
-    HlsEncryption (..),
+    HlsEncryption,
     newHlsEncryption,
     hlsEncryption_constantInitializationVector,
     hlsEncryption_encryptionMethod,
@@ -176,12 +177,12 @@ module Amazonka.MediaPackage.Types
     hlsEncryption_spekeKeyProvider,
 
     -- * HlsIngest
-    HlsIngest (..),
+    HlsIngest,
     newHlsIngest,
     hlsIngest_ingestEndpoints,
 
     -- * HlsManifest
-    HlsManifest (..),
+    HlsManifest,
     newHlsManifest,
     hlsManifest_adMarkers,
     hlsManifest_adTriggers,
@@ -195,7 +196,7 @@ module Amazonka.MediaPackage.Types
     hlsManifest_id,
 
     -- * HlsManifestCreateOrUpdateParameters
-    HlsManifestCreateOrUpdateParameters (..),
+    HlsManifestCreateOrUpdateParameters,
     newHlsManifestCreateOrUpdateParameters,
     hlsManifestCreateOrUpdateParameters_adMarkers,
     hlsManifestCreateOrUpdateParameters_adTriggers,
@@ -208,7 +209,7 @@ module Amazonka.MediaPackage.Types
     hlsManifestCreateOrUpdateParameters_id,
 
     -- * HlsPackage
-    HlsPackage (..),
+    HlsPackage,
     newHlsPackage,
     hlsPackage_adMarkers,
     hlsPackage_adTriggers,
@@ -224,7 +225,7 @@ module Amazonka.MediaPackage.Types
     hlsPackage_useAudioRenditionGroup,
 
     -- * IngestEndpoint
-    IngestEndpoint (..),
+    IngestEndpoint,
     newIngestEndpoint,
     ingestEndpoint_id,
     ingestEndpoint_password,
@@ -232,17 +233,17 @@ module Amazonka.MediaPackage.Types
     ingestEndpoint_username,
 
     -- * IngressAccessLogs
-    IngressAccessLogs (..),
+    IngressAccessLogs,
     newIngressAccessLogs,
     ingressAccessLogs_logGroupName,
 
     -- * MssEncryption
-    MssEncryption (..),
+    MssEncryption,
     newMssEncryption,
     mssEncryption_spekeKeyProvider,
 
     -- * MssPackage
-    MssPackage (..),
+    MssPackage,
     newMssPackage,
     mssPackage_encryption,
     mssPackage_manifestWindowSeconds,
@@ -250,7 +251,7 @@ module Amazonka.MediaPackage.Types
     mssPackage_streamSelection,
 
     -- * OriginEndpoint
-    OriginEndpoint (..),
+    OriginEndpoint,
     newOriginEndpoint,
     originEndpoint_arn,
     originEndpoint_authorization,
@@ -270,14 +271,14 @@ module Amazonka.MediaPackage.Types
     originEndpoint_whitelist,
 
     -- * S3Destination
-    S3Destination (..),
+    S3Destination,
     newS3Destination,
     s3Destination_manifestKey,
     s3Destination_bucketName,
     s3Destination_roleArn,
 
     -- * SpekeKeyProvider
-    SpekeKeyProvider (..),
+    SpekeKeyProvider,
     newSpekeKeyProvider,
     spekeKeyProvider_certificateArn,
     spekeKeyProvider_encryptionContractConfiguration,
@@ -287,7 +288,7 @@ module Amazonka.MediaPackage.Types
     spekeKeyProvider_roleArn,
 
     -- * StreamSelection
-    StreamSelection (..),
+    StreamSelection,
     newStreamSelection,
     streamSelection_maxVideoBitsPerSecond,
     streamSelection_minVideoBitsPerSecond,

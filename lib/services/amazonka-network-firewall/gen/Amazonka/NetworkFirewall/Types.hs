@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -32,77 +33,77 @@ module Amazonka.NetworkFirewall.Types
     _UnsupportedOperationException,
 
     -- * AttachmentStatus
-    AttachmentStatus (..),
+    AttachmentStatus,
 
     -- * ConfigurationSyncState
-    ConfigurationSyncState (..),
+    ConfigurationSyncState,
 
     -- * EncryptionType
-    EncryptionType (..),
+    EncryptionType,
 
     -- * FirewallStatusValue
-    FirewallStatusValue (..),
+    FirewallStatusValue,
 
     -- * GeneratedRulesType
-    GeneratedRulesType (..),
+    GeneratedRulesType,
 
     -- * LogDestinationType
-    LogDestinationType (..),
+    LogDestinationType,
 
     -- * LogType
-    LogType (..),
+    LogType,
 
     -- * OverrideAction
-    OverrideAction (..),
+    OverrideAction,
 
     -- * PerObjectSyncStatus
-    PerObjectSyncStatus (..),
+    PerObjectSyncStatus,
 
     -- * ResourceManagedStatus
-    ResourceManagedStatus (..),
+    ResourceManagedStatus,
 
     -- * ResourceManagedType
-    ResourceManagedType (..),
+    ResourceManagedType,
 
     -- * ResourceStatus
-    ResourceStatus (..),
+    ResourceStatus,
 
     -- * RuleGroupType
-    RuleGroupType (..),
+    RuleGroupType,
 
     -- * RuleOrder
-    RuleOrder (..),
+    RuleOrder,
 
     -- * StatefulAction
-    StatefulAction (..),
+    StatefulAction,
 
     -- * StatefulRuleDirection
-    StatefulRuleDirection (..),
+    StatefulRuleDirection,
 
     -- * StatefulRuleProtocol
-    StatefulRuleProtocol (..),
+    StatefulRuleProtocol,
 
     -- * StreamExceptionPolicy
-    StreamExceptionPolicy (..),
+    StreamExceptionPolicy,
 
     -- * TCPFlag
-    TCPFlag (..),
+    TCPFlag,
 
     -- * TargetType
-    TargetType (..),
+    TargetType,
 
     -- * ActionDefinition
-    ActionDefinition (..),
+    ActionDefinition,
     newActionDefinition,
     actionDefinition_publishMetricAction,
 
     -- * Address
-    Address (..),
+    Address,
     newAddress,
     address_addressDefinition,
 
     -- * Attachment
-    Attachment (..),
+    Attachment,
     newAttachment,
     attachment_endpointId,
     attachment_status,
@@ -110,36 +111,36 @@ module Amazonka.NetworkFirewall.Types
     attachment_subnetId,
 
     -- * CIDRSummary
-    CIDRSummary (..),
+    CIDRSummary,
     newCIDRSummary,
     cIDRSummary_availableCIDRCount,
     cIDRSummary_iPSetReferences,
     cIDRSummary_utilizedCIDRCount,
 
     -- * CapacityUsageSummary
-    CapacityUsageSummary (..),
+    CapacityUsageSummary,
     newCapacityUsageSummary,
     capacityUsageSummary_cIDRs,
 
     -- * CustomAction
-    CustomAction (..),
+    CustomAction,
     newCustomAction,
     customAction_actionName,
     customAction_actionDefinition,
 
     -- * Dimension
-    Dimension (..),
+    Dimension,
     newDimension,
     dimension_value,
 
     -- * EncryptionConfiguration
-    EncryptionConfiguration (..),
+    EncryptionConfiguration,
     newEncryptionConfiguration,
     encryptionConfiguration_keyId,
     encryptionConfiguration_type,
 
     -- * Firewall
-    Firewall (..),
+    Firewall,
     newFirewall,
     firewall_deleteProtection,
     firewall_description,
@@ -155,13 +156,13 @@ module Amazonka.NetworkFirewall.Types
     firewall_firewallId,
 
     -- * FirewallMetadata
-    FirewallMetadata (..),
+    FirewallMetadata,
     newFirewallMetadata,
     firewallMetadata_firewallArn,
     firewallMetadata_firewallName,
 
     -- * FirewallPolicy
-    FirewallPolicy (..),
+    FirewallPolicy,
     newFirewallPolicy,
     firewallPolicy_statefulDefaultActions,
     firewallPolicy_statefulEngineOptions,
@@ -172,13 +173,13 @@ module Amazonka.NetworkFirewall.Types
     firewallPolicy_statelessFragmentDefaultActions,
 
     -- * FirewallPolicyMetadata
-    FirewallPolicyMetadata (..),
+    FirewallPolicyMetadata,
     newFirewallPolicyMetadata,
     firewallPolicyMetadata_arn,
     firewallPolicyMetadata_name,
 
     -- * FirewallPolicyResponse
-    FirewallPolicyResponse (..),
+    FirewallPolicyResponse,
     newFirewallPolicyResponse,
     firewallPolicyResponse_consumedStatefulRuleCapacity,
     firewallPolicyResponse_consumedStatelessRuleCapacity,
@@ -193,7 +194,7 @@ module Amazonka.NetworkFirewall.Types
     firewallPolicyResponse_firewallPolicyId,
 
     -- * FirewallStatus
-    FirewallStatus (..),
+    FirewallStatus,
     newFirewallStatus,
     firewallStatus_capacityUsageSummary,
     firewallStatus_syncStates,
@@ -201,7 +202,7 @@ module Amazonka.NetworkFirewall.Types
     firewallStatus_configurationSyncStateSummary,
 
     -- * Header
-    Header (..),
+    Header,
     newHeader,
     header_protocol,
     header_source,
@@ -211,34 +212,34 @@ module Amazonka.NetworkFirewall.Types
     header_destinationPort,
 
     -- * IPSet
-    IPSet (..),
+    IPSet,
     newIPSet,
     iPSet_definition,
 
     -- * IPSetMetadata
-    IPSetMetadata (..),
+    IPSetMetadata,
     newIPSetMetadata,
     iPSetMetadata_resolvedCIDRCount,
 
     -- * IPSetReference
-    IPSetReference (..),
+    IPSetReference,
     newIPSetReference,
     iPSetReference_referenceArn,
 
     -- * LogDestinationConfig
-    LogDestinationConfig (..),
+    LogDestinationConfig,
     newLogDestinationConfig,
     logDestinationConfig_logType,
     logDestinationConfig_logDestinationType,
     logDestinationConfig_logDestination,
 
     -- * LoggingConfiguration
-    LoggingConfiguration (..),
+    LoggingConfiguration,
     newLoggingConfiguration,
     loggingConfiguration_logDestinationConfigs,
 
     -- * MatchAttributes
-    MatchAttributes (..),
+    MatchAttributes,
     newMatchAttributes,
     matchAttributes_destinationPorts,
     matchAttributes_destinations,
@@ -248,40 +249,40 @@ module Amazonka.NetworkFirewall.Types
     matchAttributes_tCPFlags,
 
     -- * PerObjectStatus
-    PerObjectStatus (..),
+    PerObjectStatus,
     newPerObjectStatus,
     perObjectStatus_syncStatus,
     perObjectStatus_updateToken,
 
     -- * PortRange
-    PortRange (..),
+    PortRange,
     newPortRange,
     portRange_fromPort,
     portRange_toPort,
 
     -- * PortSet
-    PortSet (..),
+    PortSet,
     newPortSet,
     portSet_definition,
 
     -- * PublishMetricAction
-    PublishMetricAction (..),
+    PublishMetricAction,
     newPublishMetricAction,
     publishMetricAction_dimensions,
 
     -- * ReferenceSets
-    ReferenceSets (..),
+    ReferenceSets,
     newReferenceSets,
     referenceSets_iPSetReferences,
 
     -- * RuleDefinition
-    RuleDefinition (..),
+    RuleDefinition,
     newRuleDefinition,
     ruleDefinition_matchAttributes,
     ruleDefinition_actions,
 
     -- * RuleGroup
-    RuleGroup (..),
+    RuleGroup,
     newRuleGroup,
     ruleGroup_referenceSets,
     ruleGroup_ruleVariables,
@@ -289,13 +290,13 @@ module Amazonka.NetworkFirewall.Types
     ruleGroup_rulesSource,
 
     -- * RuleGroupMetadata
-    RuleGroupMetadata (..),
+    RuleGroupMetadata,
     newRuleGroupMetadata,
     ruleGroupMetadata_arn,
     ruleGroupMetadata_name,
 
     -- * RuleGroupResponse
-    RuleGroupResponse (..),
+    RuleGroupResponse,
     newRuleGroupResponse,
     ruleGroupResponse_capacity,
     ruleGroupResponse_consumedCapacity,
@@ -313,19 +314,19 @@ module Amazonka.NetworkFirewall.Types
     ruleGroupResponse_ruleGroupId,
 
     -- * RuleOption
-    RuleOption (..),
+    RuleOption,
     newRuleOption,
     ruleOption_settings,
     ruleOption_keyword,
 
     -- * RuleVariables
-    RuleVariables (..),
+    RuleVariables,
     newRuleVariables,
     ruleVariables_iPSets,
     ruleVariables_portSets,
 
     -- * RulesSource
-    RulesSource (..),
+    RulesSource,
     newRulesSource,
     rulesSource_rulesSourceList,
     rulesSource_rulesString,
@@ -333,85 +334,85 @@ module Amazonka.NetworkFirewall.Types
     rulesSource_statelessRulesAndCustomActions,
 
     -- * RulesSourceList
-    RulesSourceList (..),
+    RulesSourceList,
     newRulesSourceList,
     rulesSourceList_targets,
     rulesSourceList_targetTypes,
     rulesSourceList_generatedRulesType,
 
     -- * SourceMetadata
-    SourceMetadata (..),
+    SourceMetadata,
     newSourceMetadata,
     sourceMetadata_sourceArn,
     sourceMetadata_sourceUpdateToken,
 
     -- * StatefulEngineOptions
-    StatefulEngineOptions (..),
+    StatefulEngineOptions,
     newStatefulEngineOptions,
     statefulEngineOptions_ruleOrder,
     statefulEngineOptions_streamExceptionPolicy,
 
     -- * StatefulRule
-    StatefulRule (..),
+    StatefulRule,
     newStatefulRule,
     statefulRule_action,
     statefulRule_header,
     statefulRule_ruleOptions,
 
     -- * StatefulRuleGroupOverride
-    StatefulRuleGroupOverride (..),
+    StatefulRuleGroupOverride,
     newStatefulRuleGroupOverride,
     statefulRuleGroupOverride_action,
 
     -- * StatefulRuleGroupReference
-    StatefulRuleGroupReference (..),
+    StatefulRuleGroupReference,
     newStatefulRuleGroupReference,
     statefulRuleGroupReference_override,
     statefulRuleGroupReference_priority,
     statefulRuleGroupReference_resourceArn,
 
     -- * StatefulRuleOptions
-    StatefulRuleOptions (..),
+    StatefulRuleOptions,
     newStatefulRuleOptions,
     statefulRuleOptions_ruleOrder,
 
     -- * StatelessRule
-    StatelessRule (..),
+    StatelessRule,
     newStatelessRule,
     statelessRule_ruleDefinition,
     statelessRule_priority,
 
     -- * StatelessRuleGroupReference
-    StatelessRuleGroupReference (..),
+    StatelessRuleGroupReference,
     newStatelessRuleGroupReference,
     statelessRuleGroupReference_resourceArn,
     statelessRuleGroupReference_priority,
 
     -- * StatelessRulesAndCustomActions
-    StatelessRulesAndCustomActions (..),
+    StatelessRulesAndCustomActions,
     newStatelessRulesAndCustomActions,
     statelessRulesAndCustomActions_customActions,
     statelessRulesAndCustomActions_statelessRules,
 
     -- * SubnetMapping
-    SubnetMapping (..),
+    SubnetMapping,
     newSubnetMapping,
     subnetMapping_subnetId,
 
     -- * SyncState
-    SyncState (..),
+    SyncState,
     newSyncState,
     syncState_attachment,
     syncState_config,
 
     -- * TCPFlagField
-    TCPFlagField (..),
+    TCPFlagField,
     newTCPFlagField,
     tCPFlagField_masks,
     tCPFlagField_flags,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,

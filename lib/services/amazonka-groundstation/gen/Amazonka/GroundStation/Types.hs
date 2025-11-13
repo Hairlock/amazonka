@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -24,81 +25,81 @@ module Amazonka.GroundStation.Types
     _ResourceNotFoundException,
 
     -- * AngleUnits
-    AngleUnits (..),
+    AngleUnits,
 
     -- * BandwidthUnits
-    BandwidthUnits (..),
+    BandwidthUnits,
 
     -- * ConfigCapabilityType
-    ConfigCapabilityType (..),
+    ConfigCapabilityType,
 
     -- * ContactStatus
-    ContactStatus (..),
+    ContactStatus,
 
     -- * Criticality
-    Criticality (..),
+    Criticality,
 
     -- * EirpUnits
-    EirpUnits (..),
+    EirpUnits,
 
     -- * EndpointStatus
-    EndpointStatus (..),
+    EndpointStatus,
 
     -- * EphemerisInvalidReason
-    EphemerisInvalidReason (..),
+    EphemerisInvalidReason,
 
     -- * EphemerisSource
-    EphemerisSource (..),
+    EphemerisSource,
 
     -- * EphemerisStatus
-    EphemerisStatus (..),
+    EphemerisStatus,
 
     -- * FrequencyUnits
-    FrequencyUnits (..),
+    FrequencyUnits,
 
     -- * Polarization
-    Polarization (..),
+    Polarization,
 
     -- * AntennaDemodDecodeDetails
-    AntennaDemodDecodeDetails (..),
+    AntennaDemodDecodeDetails,
     newAntennaDemodDecodeDetails,
     antennaDemodDecodeDetails_outputNode,
 
     -- * AntennaDownlinkConfig
-    AntennaDownlinkConfig (..),
+    AntennaDownlinkConfig,
     newAntennaDownlinkConfig,
     antennaDownlinkConfig_spectrumConfig,
 
     -- * AntennaDownlinkDemodDecodeConfig
-    AntennaDownlinkDemodDecodeConfig (..),
+    AntennaDownlinkDemodDecodeConfig,
     newAntennaDownlinkDemodDecodeConfig,
     antennaDownlinkDemodDecodeConfig_decodeConfig,
     antennaDownlinkDemodDecodeConfig_demodulationConfig,
     antennaDownlinkDemodDecodeConfig_spectrumConfig,
 
     -- * AntennaUplinkConfig
-    AntennaUplinkConfig (..),
+    AntennaUplinkConfig,
     newAntennaUplinkConfig,
     antennaUplinkConfig_transmitDisabled,
     antennaUplinkConfig_spectrumConfig,
     antennaUplinkConfig_targetEirp,
 
     -- * ConfigDetails
-    ConfigDetails (..),
+    ConfigDetails,
     newConfigDetails,
     configDetails_antennaDemodDecodeDetails,
     configDetails_endpointDetails,
     configDetails_s3RecordingDetails,
 
     -- * ConfigIdResponse
-    ConfigIdResponse (..),
+    ConfigIdResponse,
     newConfigIdResponse,
     configIdResponse_configArn,
     configIdResponse_configId,
     configIdResponse_configType,
 
     -- * ConfigListItem
-    ConfigListItem (..),
+    ConfigListItem,
     newConfigListItem,
     configListItem_configArn,
     configListItem_configId,
@@ -106,7 +107,7 @@ module Amazonka.GroundStation.Types
     configListItem_name,
 
     -- * ConfigTypeData
-    ConfigTypeData (..),
+    ConfigTypeData,
     newConfigTypeData,
     configTypeData_antennaDownlinkConfig,
     configTypeData_antennaDownlinkDemodDecodeConfig,
@@ -117,7 +118,7 @@ module Amazonka.GroundStation.Types
     configTypeData_uplinkEchoConfig,
 
     -- * ContactData
-    ContactData (..),
+    ContactData,
     newContactData,
     contactData_contactId,
     contactData_contactStatus,
@@ -134,19 +135,19 @@ module Amazonka.GroundStation.Types
     contactData_tags,
 
     -- * ContactIdResponse
-    ContactIdResponse (..),
+    ContactIdResponse,
     newContactIdResponse,
     contactIdResponse_contactId,
 
     -- * DataflowDetail
-    DataflowDetail (..),
+    DataflowDetail,
     newDataflowDetail,
     dataflowDetail_destination,
     dataflowDetail_errorMessage,
     dataflowDetail_source,
 
     -- * DataflowEndpoint
-    DataflowEndpoint (..),
+    DataflowEndpoint,
     newDataflowEndpoint,
     dataflowEndpoint_address,
     dataflowEndpoint_mtu,
@@ -154,34 +155,34 @@ module Amazonka.GroundStation.Types
     dataflowEndpoint_status,
 
     -- * DataflowEndpointConfig
-    DataflowEndpointConfig (..),
+    DataflowEndpointConfig,
     newDataflowEndpointConfig,
     dataflowEndpointConfig_dataflowEndpointRegion,
     dataflowEndpointConfig_dataflowEndpointName,
 
     -- * DataflowEndpointGroupIdResponse
-    DataflowEndpointGroupIdResponse (..),
+    DataflowEndpointGroupIdResponse,
     newDataflowEndpointGroupIdResponse,
     dataflowEndpointGroupIdResponse_dataflowEndpointGroupId,
 
     -- * DataflowEndpointListItem
-    DataflowEndpointListItem (..),
+    DataflowEndpointListItem,
     newDataflowEndpointListItem,
     dataflowEndpointListItem_dataflowEndpointGroupArn,
     dataflowEndpointListItem_dataflowEndpointGroupId,
 
     -- * DecodeConfig
-    DecodeConfig (..),
+    DecodeConfig,
     newDecodeConfig,
     decodeConfig_unvalidatedJSON,
 
     -- * DemodulationConfig
-    DemodulationConfig (..),
+    DemodulationConfig,
     newDemodulationConfig,
     demodulationConfig_unvalidatedJSON,
 
     -- * Destination
-    Destination (..),
+    Destination,
     newDestination,
     destination_configDetails,
     destination_configId,
@@ -189,42 +190,42 @@ module Amazonka.GroundStation.Types
     destination_dataflowDestinationRegion,
 
     -- * Eirp
-    Eirp (..),
+    Eirp,
     newEirp,
     eirp_units,
     eirp_value,
 
     -- * Elevation
-    Elevation (..),
+    Elevation,
     newElevation,
     elevation_unit,
     elevation_value,
 
     -- * EndpointDetails
-    EndpointDetails (..),
+    EndpointDetails,
     newEndpointDetails,
     endpointDetails_endpoint,
     endpointDetails_securityDetails,
 
     -- * EphemerisData
-    EphemerisData (..),
+    EphemerisData,
     newEphemerisData,
     ephemerisData_oem,
     ephemerisData_tle,
 
     -- * EphemerisDescription
-    EphemerisDescription (..),
+    EphemerisDescription,
     newEphemerisDescription,
     ephemerisDescription_ephemerisData,
     ephemerisDescription_sourceS3Object,
 
     -- * EphemerisIdResponse
-    EphemerisIdResponse (..),
+    EphemerisIdResponse,
     newEphemerisIdResponse,
     ephemerisIdResponse_ephemerisId,
 
     -- * EphemerisItem
-    EphemerisItem (..),
+    EphemerisItem,
     newEphemerisItem,
     ephemerisItem_creationTime,
     ephemerisItem_enabled,
@@ -235,7 +236,7 @@ module Amazonka.GroundStation.Types
     ephemerisItem_status,
 
     -- * EphemerisMetaData
-    EphemerisMetaData (..),
+    EphemerisMetaData,
     newEphemerisMetaData,
     ephemerisMetaData_ephemerisId,
     ephemerisMetaData_epoch,
@@ -243,37 +244,37 @@ module Amazonka.GroundStation.Types
     ephemerisMetaData_source,
 
     -- * EphemerisTypeDescription
-    EphemerisTypeDescription (..),
+    EphemerisTypeDescription,
     newEphemerisTypeDescription,
     ephemerisTypeDescription_oem,
     ephemerisTypeDescription_tle,
 
     -- * Frequency
-    Frequency (..),
+    Frequency,
     newFrequency,
     frequency_units,
     frequency_value,
 
     -- * FrequencyBandwidth
-    FrequencyBandwidth (..),
+    FrequencyBandwidth,
     newFrequencyBandwidth,
     frequencyBandwidth_units,
     frequencyBandwidth_value,
 
     -- * GroundStationData
-    GroundStationData (..),
+    GroundStationData,
     newGroundStationData,
     groundStationData_groundStationId,
     groundStationData_groundStationName,
     groundStationData_region,
 
     -- * MissionProfileIdResponse
-    MissionProfileIdResponse (..),
+    MissionProfileIdResponse,
     newMissionProfileIdResponse,
     missionProfileIdResponse_missionProfileId,
 
     -- * MissionProfileListItem
-    MissionProfileListItem (..),
+    MissionProfileListItem,
     newMissionProfileListItem,
     missionProfileListItem_missionProfileArn,
     missionProfileListItem_missionProfileId,
@@ -281,33 +282,33 @@ module Amazonka.GroundStation.Types
     missionProfileListItem_region,
 
     -- * OEMEphemeris
-    OEMEphemeris (..),
+    OEMEphemeris,
     newOEMEphemeris,
     oEMEphemeris_oemData,
     oEMEphemeris_s3Object,
 
     -- * S3Object
-    S3Object (..),
+    S3Object,
     newS3Object,
     s3Object_bucket,
     s3Object_key,
     s3Object_version,
 
     -- * S3RecordingConfig
-    S3RecordingConfig (..),
+    S3RecordingConfig,
     newS3RecordingConfig,
     s3RecordingConfig_prefix,
     s3RecordingConfig_bucketArn,
     s3RecordingConfig_roleArn,
 
     -- * S3RecordingDetails
-    S3RecordingDetails (..),
+    S3RecordingDetails,
     newS3RecordingDetails,
     s3RecordingDetails_bucketArn,
     s3RecordingDetails_keyTemplate,
 
     -- * SatelliteListItem
-    SatelliteListItem (..),
+    SatelliteListItem,
     newSatelliteListItem,
     satelliteListItem_currentEphemeris,
     satelliteListItem_groundStations,
@@ -316,20 +317,20 @@ module Amazonka.GroundStation.Types
     satelliteListItem_satelliteId,
 
     -- * SecurityDetails
-    SecurityDetails (..),
+    SecurityDetails,
     newSecurityDetails,
     securityDetails_roleArn,
     securityDetails_securityGroupIds,
     securityDetails_subnetIds,
 
     -- * SocketAddress
-    SocketAddress (..),
+    SocketAddress,
     newSocketAddress,
     socketAddress_name,
     socketAddress_port,
 
     -- * Source
-    Source (..),
+    Source,
     newSource,
     source_configDetails,
     source_configId,
@@ -337,44 +338,44 @@ module Amazonka.GroundStation.Types
     source_dataflowSourceRegion,
 
     -- * SpectrumConfig
-    SpectrumConfig (..),
+    SpectrumConfig,
     newSpectrumConfig,
     spectrumConfig_polarization,
     spectrumConfig_bandwidth,
     spectrumConfig_centerFrequency,
 
     -- * TLEData
-    TLEData (..),
+    TLEData,
     newTLEData,
     tLEData_tleLine1,
     tLEData_tleLine2,
     tLEData_validTimeRange,
 
     -- * TLEEphemeris
-    TLEEphemeris (..),
+    TLEEphemeris,
     newTLEEphemeris,
     tLEEphemeris_s3Object,
     tLEEphemeris_tleData,
 
     -- * TimeRange
-    TimeRange (..),
+    TimeRange,
     newTimeRange,
     timeRange_endTime,
     timeRange_startTime,
 
     -- * TrackingConfig
-    TrackingConfig (..),
+    TrackingConfig,
     newTrackingConfig,
     trackingConfig_autotrack,
 
     -- * UplinkEchoConfig
-    UplinkEchoConfig (..),
+    UplinkEchoConfig,
     newUplinkEchoConfig,
     uplinkEchoConfig_antennaUplinkConfigArn,
     uplinkEchoConfig_enabled,
 
     -- * UplinkSpectrumConfig
-    UplinkSpectrumConfig (..),
+    UplinkSpectrumConfig,
     newUplinkSpectrumConfig,
     uplinkSpectrumConfig_polarization,
     uplinkSpectrumConfig_centerFrequency,

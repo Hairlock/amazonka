@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -24,46 +25,46 @@ module Amazonka.SavingsPlans.Types
     _ValidationException,
 
     -- * CurrencyCode
-    CurrencyCode (..),
+    CurrencyCode,
 
     -- * SavingsPlanOfferingFilterAttribute
-    SavingsPlanOfferingFilterAttribute (..),
+    SavingsPlanOfferingFilterAttribute,
 
     -- * SavingsPlanOfferingPropertyKey
-    SavingsPlanOfferingPropertyKey (..),
+    SavingsPlanOfferingPropertyKey,
 
     -- * SavingsPlanPaymentOption
-    SavingsPlanPaymentOption (..),
+    SavingsPlanPaymentOption,
 
     -- * SavingsPlanProductType
-    SavingsPlanProductType (..),
+    SavingsPlanProductType,
 
     -- * SavingsPlanRateFilterAttribute
-    SavingsPlanRateFilterAttribute (..),
+    SavingsPlanRateFilterAttribute,
 
     -- * SavingsPlanRateFilterName
-    SavingsPlanRateFilterName (..),
+    SavingsPlanRateFilterName,
 
     -- * SavingsPlanRatePropertyKey
-    SavingsPlanRatePropertyKey (..),
+    SavingsPlanRatePropertyKey,
 
     -- * SavingsPlanRateServiceCode
-    SavingsPlanRateServiceCode (..),
+    SavingsPlanRateServiceCode,
 
     -- * SavingsPlanRateUnit
-    SavingsPlanRateUnit (..),
+    SavingsPlanRateUnit,
 
     -- * SavingsPlanState
-    SavingsPlanState (..),
+    SavingsPlanState,
 
     -- * SavingsPlanType
-    SavingsPlanType (..),
+    SavingsPlanType,
 
     -- * SavingsPlansFilterName
-    SavingsPlansFilterName (..),
+    SavingsPlansFilterName,
 
     -- * ParentSavingsPlanOffering
-    ParentSavingsPlanOffering (..),
+    ParentSavingsPlanOffering,
     newParentSavingsPlanOffering,
     parentSavingsPlanOffering_currency,
     parentSavingsPlanOffering_durationSeconds,
@@ -73,7 +74,7 @@ module Amazonka.SavingsPlans.Types
     parentSavingsPlanOffering_planType,
 
     -- * SavingsPlan
-    SavingsPlan (..),
+    SavingsPlan,
     newSavingsPlan,
     savingsPlan_commitment,
     savingsPlan_currency,
@@ -95,13 +96,13 @@ module Amazonka.SavingsPlans.Types
     savingsPlan_upfrontPaymentAmount,
 
     -- * SavingsPlanFilter
-    SavingsPlanFilter (..),
+    SavingsPlanFilter,
     newSavingsPlanFilter,
     savingsPlanFilter_name,
     savingsPlanFilter_values,
 
     -- * SavingsPlanOffering
-    SavingsPlanOffering (..),
+    SavingsPlanOffering,
     newSavingsPlanOffering,
     savingsPlanOffering_currency,
     savingsPlanOffering_description,
@@ -116,19 +117,19 @@ module Amazonka.SavingsPlans.Types
     savingsPlanOffering_usageType,
 
     -- * SavingsPlanOfferingFilterElement
-    SavingsPlanOfferingFilterElement (..),
+    SavingsPlanOfferingFilterElement,
     newSavingsPlanOfferingFilterElement,
     savingsPlanOfferingFilterElement_name,
     savingsPlanOfferingFilterElement_values,
 
     -- * SavingsPlanOfferingProperty
-    SavingsPlanOfferingProperty (..),
+    SavingsPlanOfferingProperty,
     newSavingsPlanOfferingProperty,
     savingsPlanOfferingProperty_name,
     savingsPlanOfferingProperty_value,
 
     -- * SavingsPlanOfferingRate
-    SavingsPlanOfferingRate (..),
+    SavingsPlanOfferingRate,
     newSavingsPlanOfferingRate,
     savingsPlanOfferingRate_operation,
     savingsPlanOfferingRate_productType,
@@ -140,19 +141,19 @@ module Amazonka.SavingsPlans.Types
     savingsPlanOfferingRate_usageType,
 
     -- * SavingsPlanOfferingRateFilterElement
-    SavingsPlanOfferingRateFilterElement (..),
+    SavingsPlanOfferingRateFilterElement,
     newSavingsPlanOfferingRateFilterElement,
     savingsPlanOfferingRateFilterElement_name,
     savingsPlanOfferingRateFilterElement_values,
 
     -- * SavingsPlanOfferingRateProperty
-    SavingsPlanOfferingRateProperty (..),
+    SavingsPlanOfferingRateProperty,
     newSavingsPlanOfferingRateProperty,
     savingsPlanOfferingRateProperty_name,
     savingsPlanOfferingRateProperty_value,
 
     -- * SavingsPlanRate
-    SavingsPlanRate (..),
+    SavingsPlanRate,
     newSavingsPlanRate,
     savingsPlanRate_currency,
     savingsPlanRate_operation,
@@ -164,13 +165,13 @@ module Amazonka.SavingsPlans.Types
     savingsPlanRate_usageType,
 
     -- * SavingsPlanRateFilter
-    SavingsPlanRateFilter (..),
+    SavingsPlanRateFilter,
     newSavingsPlanRateFilter,
     savingsPlanRateFilter_name,
     savingsPlanRateFilter_values,
 
     -- * SavingsPlanRateProperty
-    SavingsPlanRateProperty (..),
+    SavingsPlanRateProperty,
     newSavingsPlanRateProperty,
     savingsPlanRateProperty_name,
     savingsPlanRateProperty_value,

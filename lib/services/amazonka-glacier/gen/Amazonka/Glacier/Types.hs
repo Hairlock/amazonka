@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -28,44 +29,44 @@ module Amazonka.Glacier.Types
     _ServiceUnavailableException,
 
     -- * ActionCode
-    ActionCode (..),
+    ActionCode,
 
     -- * CannedACL
-    CannedACL (..),
+    CannedACL,
 
     -- * EncryptionType
-    EncryptionType (..),
+    EncryptionType,
 
     -- * ExpressionType
-    ExpressionType (..),
+    ExpressionType,
 
     -- * FileHeaderInfo
-    FileHeaderInfo (..),
+    FileHeaderInfo,
 
     -- * Permission
-    Permission (..),
+    Permission,
 
     -- * QuoteFields
-    QuoteFields (..),
+    QuoteFields,
 
     -- * StatusCode
-    StatusCode (..),
+    StatusCode,
 
     -- * StorageClass
-    StorageClass (..),
+    StorageClass,
 
     -- * Type
-    Type (..),
+    Type,
 
     -- * ArchiveCreationOutput
-    ArchiveCreationOutput (..),
+    ArchiveCreationOutput,
     newArchiveCreationOutput,
     archiveCreationOutput_archiveId,
     archiveCreationOutput_checksum,
     archiveCreationOutput_location,
 
     -- * CSVInput
-    CSVInput (..),
+    CSVInput,
     newCSVInput,
     cSVInput_comments,
     cSVInput_fieldDelimiter,
@@ -75,7 +76,7 @@ module Amazonka.Glacier.Types
     cSVInput_recordDelimiter,
 
     -- * CSVOutput
-    CSVOutput (..),
+    CSVOutput,
     newCSVOutput,
     cSVOutput_fieldDelimiter,
     cSVOutput_quoteCharacter,
@@ -84,18 +85,18 @@ module Amazonka.Glacier.Types
     cSVOutput_recordDelimiter,
 
     -- * DataRetrievalPolicy
-    DataRetrievalPolicy (..),
+    DataRetrievalPolicy,
     newDataRetrievalPolicy,
     dataRetrievalPolicy_rules,
 
     -- * DataRetrievalRule
-    DataRetrievalRule (..),
+    DataRetrievalRule,
     newDataRetrievalRule,
     dataRetrievalRule_bytesPerHour,
     dataRetrievalRule_strategy,
 
     -- * DescribeVaultOutput
-    DescribeVaultOutput (..),
+    DescribeVaultOutput,
     newDescribeVaultOutput,
     describeVaultOutput_creationDate,
     describeVaultOutput_lastInventoryDate,
@@ -105,14 +106,14 @@ module Amazonka.Glacier.Types
     describeVaultOutput_vaultName,
 
     -- * Encryption
-    Encryption (..),
+    Encryption,
     newEncryption,
     encryption_encryptionType,
     encryption_kmsContext,
     encryption_kmsKeyId,
 
     -- * GlacierJobDescription
-    GlacierJobDescription (..),
+    GlacierJobDescription,
     newGlacierJobDescription,
     glacierJobDescription_action,
     glacierJobDescription_archiveId,
@@ -137,13 +138,13 @@ module Amazonka.Glacier.Types
     glacierJobDescription_vaultARN,
 
     -- * Grant
-    Grant (..),
+    Grant,
     newGrant,
     grant_grantee,
     grant_permission,
 
     -- * Grantee
-    Grantee (..),
+    Grantee,
     newGrantee,
     grantee_displayName,
     grantee_emailAddress,
@@ -152,12 +153,12 @@ module Amazonka.Glacier.Types
     grantee_type,
 
     -- * InputSerialization
-    InputSerialization (..),
+    InputSerialization,
     newInputSerialization,
     inputSerialization_csv,
 
     -- * InventoryRetrievalJobDescription
-    InventoryRetrievalJobDescription (..),
+    InventoryRetrievalJobDescription,
     newInventoryRetrievalJobDescription,
     inventoryRetrievalJobDescription_endDate,
     inventoryRetrievalJobDescription_format,
@@ -166,7 +167,7 @@ module Amazonka.Glacier.Types
     inventoryRetrievalJobDescription_startDate,
 
     -- * InventoryRetrievalJobInput
-    InventoryRetrievalJobInput (..),
+    InventoryRetrievalJobInput,
     newInventoryRetrievalJobInput,
     inventoryRetrievalJobInput_endDate,
     inventoryRetrievalJobInput_limit,
@@ -174,7 +175,7 @@ module Amazonka.Glacier.Types
     inventoryRetrievalJobInput_startDate,
 
     -- * JobParameters
-    JobParameters (..),
+    JobParameters,
     newJobParameters,
     jobParameters_archiveId,
     jobParameters_description,
@@ -188,30 +189,30 @@ module Amazonka.Glacier.Types
     jobParameters_type,
 
     -- * OutputLocation
-    OutputLocation (..),
+    OutputLocation,
     newOutputLocation,
     outputLocation_s3,
 
     -- * OutputSerialization
-    OutputSerialization (..),
+    OutputSerialization,
     newOutputSerialization,
     outputSerialization_csv,
 
     -- * PartListElement
-    PartListElement (..),
+    PartListElement,
     newPartListElement,
     partListElement_rangeInBytes,
     partListElement_sHA256TreeHash,
 
     -- * ProvisionedCapacityDescription
-    ProvisionedCapacityDescription (..),
+    ProvisionedCapacityDescription,
     newProvisionedCapacityDescription,
     provisionedCapacityDescription_capacityId,
     provisionedCapacityDescription_expirationDate,
     provisionedCapacityDescription_startDate,
 
     -- * S3Location
-    S3Location (..),
+    S3Location,
     newS3Location,
     s3Location_accessControlList,
     s3Location_bucketName,
@@ -223,7 +224,7 @@ module Amazonka.Glacier.Types
     s3Location_userMetadata,
 
     -- * SelectParameters
-    SelectParameters (..),
+    SelectParameters,
     newSelectParameters,
     selectParameters_expression,
     selectParameters_expressionType,
@@ -231,7 +232,7 @@ module Amazonka.Glacier.Types
     selectParameters_outputSerialization,
 
     -- * UploadListElement
-    UploadListElement (..),
+    UploadListElement,
     newUploadListElement,
     uploadListElement_archiveDescription,
     uploadListElement_creationDate,
@@ -240,17 +241,17 @@ module Amazonka.Glacier.Types
     uploadListElement_vaultARN,
 
     -- * VaultAccessPolicy
-    VaultAccessPolicy (..),
+    VaultAccessPolicy,
     newVaultAccessPolicy,
     vaultAccessPolicy_policy,
 
     -- * VaultLockPolicy
-    VaultLockPolicy (..),
+    VaultLockPolicy,
     newVaultLockPolicy,
     vaultLockPolicy_policy,
 
     -- * VaultNotificationConfig
-    VaultNotificationConfig (..),
+    VaultNotificationConfig,
     newVaultNotificationConfig,
     vaultNotificationConfig_events,
     vaultNotificationConfig_sNSTopic,

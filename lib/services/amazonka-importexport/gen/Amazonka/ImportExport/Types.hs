@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -40,16 +41,16 @@ module Amazonka.ImportExport.Types
     _UnableToUpdateJobIdException,
 
     -- * JobType
-    JobType (..),
+    JobType,
 
     -- * Artifact
-    Artifact (..),
+    Artifact,
     newArtifact,
     artifact_description,
     artifact_url,
 
     -- * Job
-    Job (..),
+    Job,
     newJob,
     job_jobType,
     job_jobId,

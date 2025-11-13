@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -30,49 +31,49 @@ module Amazonka.Budgets.Types
     _ThrottlingException,
 
     -- * ActionStatus
-    ActionStatus (..),
+    ActionStatus,
 
     -- * ActionSubType
-    ActionSubType (..),
+    ActionSubType,
 
     -- * ActionType
-    ActionType (..),
+    ActionType,
 
     -- * ApprovalModel
-    ApprovalModel (..),
+    ApprovalModel,
 
     -- * AutoAdjustType
-    AutoAdjustType (..),
+    AutoAdjustType,
 
     -- * BudgetType
-    BudgetType (..),
+    BudgetType,
 
     -- * ComparisonOperator
-    ComparisonOperator (..),
+    ComparisonOperator,
 
     -- * EventType
-    EventType (..),
+    EventType,
 
     -- * ExecutionType
-    ExecutionType (..),
+    ExecutionType,
 
     -- * NotificationState
-    NotificationState (..),
+    NotificationState,
 
     -- * NotificationType
-    NotificationType (..),
+    NotificationType,
 
     -- * SubscriptionType
-    SubscriptionType (..),
+    SubscriptionType,
 
     -- * ThresholdType
-    ThresholdType (..),
+    ThresholdType,
 
     -- * TimeUnit
-    TimeUnit (..),
+    TimeUnit,
 
     -- * Action
-    Action (..),
+    Action,
     newAction,
     action_actionId,
     action_budgetName,
@@ -86,7 +87,7 @@ module Amazonka.Budgets.Types
     action_subscribers,
 
     -- * ActionHistory
-    ActionHistory (..),
+    ActionHistory,
     newActionHistory,
     actionHistory_timestamp,
     actionHistory_status,
@@ -94,26 +95,26 @@ module Amazonka.Budgets.Types
     actionHistory_actionHistoryDetails,
 
     -- * ActionHistoryDetails
-    ActionHistoryDetails (..),
+    ActionHistoryDetails,
     newActionHistoryDetails,
     actionHistoryDetails_message,
     actionHistoryDetails_action,
 
     -- * ActionThreshold
-    ActionThreshold (..),
+    ActionThreshold,
     newActionThreshold,
     actionThreshold_actionThresholdValue,
     actionThreshold_actionThresholdType,
 
     -- * AutoAdjustData
-    AutoAdjustData (..),
+    AutoAdjustData,
     newAutoAdjustData,
     autoAdjustData_historicalOptions,
     autoAdjustData_lastAutoAdjustTime,
     autoAdjustData_autoAdjustType,
 
     -- * Budget
-    Budget (..),
+    Budget,
     newBudget,
     budget_autoAdjustData,
     budget_budgetLimit,
@@ -128,13 +129,13 @@ module Amazonka.Budgets.Types
     budget_budgetType,
 
     -- * BudgetNotificationsForAccount
-    BudgetNotificationsForAccount (..),
+    BudgetNotificationsForAccount,
     newBudgetNotificationsForAccount,
     budgetNotificationsForAccount_budgetName,
     budgetNotificationsForAccount_notifications,
 
     -- * BudgetPerformanceHistory
-    BudgetPerformanceHistory (..),
+    BudgetPerformanceHistory,
     newBudgetPerformanceHistory,
     budgetPerformanceHistory_budgetName,
     budgetPerformanceHistory_budgetType,
@@ -144,20 +145,20 @@ module Amazonka.Budgets.Types
     budgetPerformanceHistory_timeUnit,
 
     -- * BudgetedAndActualAmounts
-    BudgetedAndActualAmounts (..),
+    BudgetedAndActualAmounts,
     newBudgetedAndActualAmounts,
     budgetedAndActualAmounts_actualAmount,
     budgetedAndActualAmounts_budgetedAmount,
     budgetedAndActualAmounts_timePeriod,
 
     -- * CalculatedSpend
-    CalculatedSpend (..),
+    CalculatedSpend,
     newCalculatedSpend,
     calculatedSpend_forecastedSpend,
     calculatedSpend_actualSpend,
 
     -- * CostTypes
-    CostTypes (..),
+    CostTypes,
     newCostTypes,
     costTypes_includeCredit,
     costTypes_includeDiscount,
@@ -172,20 +173,20 @@ module Amazonka.Budgets.Types
     costTypes_useBlended,
 
     -- * Definition
-    Definition (..),
+    Definition,
     newDefinition,
     definition_iamActionDefinition,
     definition_scpActionDefinition,
     definition_ssmActionDefinition,
 
     -- * HistoricalOptions
-    HistoricalOptions (..),
+    HistoricalOptions,
     newHistoricalOptions,
     historicalOptions_lookBackAvailablePeriods,
     historicalOptions_budgetAdjustmentPeriod,
 
     -- * IamActionDefinition
-    IamActionDefinition (..),
+    IamActionDefinition,
     newIamActionDefinition,
     iamActionDefinition_groups,
     iamActionDefinition_roles,
@@ -193,7 +194,7 @@ module Amazonka.Budgets.Types
     iamActionDefinition_policyArn,
 
     -- * Notification
-    Notification (..),
+    Notification,
     newNotification,
     notification_notificationState,
     notification_thresholdType,
@@ -202,38 +203,38 @@ module Amazonka.Budgets.Types
     notification_threshold,
 
     -- * NotificationWithSubscribers
-    NotificationWithSubscribers (..),
+    NotificationWithSubscribers,
     newNotificationWithSubscribers,
     notificationWithSubscribers_notification,
     notificationWithSubscribers_subscribers,
 
     -- * ScpActionDefinition
-    ScpActionDefinition (..),
+    ScpActionDefinition,
     newScpActionDefinition,
     scpActionDefinition_policyId,
     scpActionDefinition_targetIds,
 
     -- * Spend
-    Spend (..),
+    Spend,
     newSpend,
     spend_amount,
     spend_unit,
 
     -- * SsmActionDefinition
-    SsmActionDefinition (..),
+    SsmActionDefinition,
     newSsmActionDefinition,
     ssmActionDefinition_actionSubType,
     ssmActionDefinition_region,
     ssmActionDefinition_instanceIds,
 
     -- * Subscriber
-    Subscriber (..),
+    Subscriber,
     newSubscriber,
     subscriber_subscriptionType,
     subscriber_address,
 
     -- * TimePeriod
-    TimePeriod (..),
+    TimePeriod,
     newTimePeriod,
     timePeriod_end,
     timePeriod_start,

@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -22,39 +23,39 @@ module Amazonka.IoTSecureTunneling.Types
     _ResourceNotFoundException,
 
     -- * ClientMode
-    ClientMode (..),
+    ClientMode,
 
     -- * ConnectionStatus
-    ConnectionStatus (..),
+    ConnectionStatus,
 
     -- * TunnelStatus
-    TunnelStatus (..),
+    TunnelStatus,
 
     -- * ConnectionState
-    ConnectionState (..),
+    ConnectionState,
     newConnectionState,
     connectionState_lastUpdatedAt,
     connectionState_status,
 
     -- * DestinationConfig
-    DestinationConfig (..),
+    DestinationConfig,
     newDestinationConfig,
     destinationConfig_thingName,
     destinationConfig_services,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,
 
     -- * TimeoutConfig
-    TimeoutConfig (..),
+    TimeoutConfig,
     newTimeoutConfig,
     timeoutConfig_maxLifetimeTimeoutMinutes,
 
     -- * Tunnel
-    Tunnel (..),
+    Tunnel,
     newTunnel,
     tunnel_createdAt,
     tunnel_description,
@@ -69,7 +70,7 @@ module Amazonka.IoTSecureTunneling.Types
     tunnel_tunnelId,
 
     -- * TunnelSummary
-    TunnelSummary (..),
+    TunnelSummary,
     newTunnelSummary,
     tunnelSummary_createdAt,
     tunnelSummary_description,

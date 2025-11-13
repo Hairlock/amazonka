@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -23,26 +24,26 @@ module Amazonka.LicenseManagerLinuxSubscriptions.Types
     _ValidationException,
 
     -- * LinuxSubscriptionsDiscovery
-    LinuxSubscriptionsDiscovery (..),
+    LinuxSubscriptionsDiscovery,
 
     -- * Operator
-    Operator (..),
+    Operator,
 
     -- * OrganizationIntegration
-    OrganizationIntegration (..),
+    OrganizationIntegration,
 
     -- * Status
-    Status (..),
+    Status,
 
     -- * Filter
-    Filter (..),
+    Filter,
     newFilter,
     filter_name,
     filter_operator,
     filter_values,
 
     -- * Instance
-    Instance (..),
+    Instance,
     newInstance,
     instance_accountID,
     instance_amiId,
@@ -56,13 +57,13 @@ module Amazonka.LicenseManagerLinuxSubscriptions.Types
     instance_usageOperation,
 
     -- * LinuxSubscriptionsDiscoverySettings
-    LinuxSubscriptionsDiscoverySettings (..),
+    LinuxSubscriptionsDiscoverySettings,
     newLinuxSubscriptionsDiscoverySettings,
     linuxSubscriptionsDiscoverySettings_organizationIntegration,
     linuxSubscriptionsDiscoverySettings_sourceRegions,
 
     -- * Subscription
-    Subscription (..),
+    Subscription,
     newSubscription,
     subscription_instanceCount,
     subscription_name,

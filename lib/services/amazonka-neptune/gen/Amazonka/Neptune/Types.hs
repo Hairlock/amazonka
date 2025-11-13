@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -87,30 +88,30 @@ module Amazonka.Neptune.Types
     _SubscriptionNotFoundFault,
 
     -- * ApplyMethod
-    ApplyMethod (..),
+    ApplyMethod,
 
     -- * SourceType
-    SourceType (..),
+    SourceType,
 
     -- * AvailabilityZone
-    AvailabilityZone (..),
+    AvailabilityZone,
     newAvailabilityZone,
     availabilityZone_name,
 
     -- * CharacterSet
-    CharacterSet (..),
+    CharacterSet,
     newCharacterSet,
     characterSet_characterSetDescription,
     characterSet_characterSetName,
 
     -- * CloudwatchLogsExportConfiguration
-    CloudwatchLogsExportConfiguration (..),
+    CloudwatchLogsExportConfiguration,
     newCloudwatchLogsExportConfiguration,
     cloudwatchLogsExportConfiguration_disableLogTypes,
     cloudwatchLogsExportConfiguration_enableLogTypes,
 
     -- * DBCluster
-    DBCluster (..),
+    DBCluster,
     newDBCluster,
     dbCluster_allocatedStorage,
     dbCluster_associatedRoles,
@@ -155,7 +156,7 @@ module Amazonka.Neptune.Types
     dbCluster_vpcSecurityGroups,
 
     -- * DBClusterEndpoint
-    DBClusterEndpoint (..),
+    DBClusterEndpoint,
     newDBClusterEndpoint,
     dbClusterEndpoint_customEndpointType,
     dbClusterEndpoint_dbClusterEndpointArn,
@@ -169,7 +170,7 @@ module Amazonka.Neptune.Types
     dbClusterEndpoint_status,
 
     -- * DBClusterMember
-    DBClusterMember (..),
+    DBClusterMember,
     newDBClusterMember,
     dbClusterMember_dbClusterParameterGroupStatus,
     dbClusterMember_dbInstanceIdentifier,
@@ -177,13 +178,13 @@ module Amazonka.Neptune.Types
     dbClusterMember_promotionTier,
 
     -- * DBClusterOptionGroupStatus
-    DBClusterOptionGroupStatus (..),
+    DBClusterOptionGroupStatus,
     newDBClusterOptionGroupStatus,
     dbClusterOptionGroupStatus_dbClusterOptionGroupName,
     dbClusterOptionGroupStatus_status,
 
     -- * DBClusterParameterGroup
-    DBClusterParameterGroup (..),
+    DBClusterParameterGroup,
     newDBClusterParameterGroup,
     dbClusterParameterGroup_dbClusterParameterGroupArn,
     dbClusterParameterGroup_dbClusterParameterGroupName,
@@ -191,19 +192,19 @@ module Amazonka.Neptune.Types
     dbClusterParameterGroup_description,
 
     -- * DBClusterParameterGroupNameMessage
-    DBClusterParameterGroupNameMessage (..),
+    DBClusterParameterGroupNameMessage,
     newDBClusterParameterGroupNameMessage,
     dbClusterParameterGroupNameMessage_dbClusterParameterGroupName,
 
     -- * DBClusterRole
-    DBClusterRole (..),
+    DBClusterRole,
     newDBClusterRole,
     dbClusterRole_featureName,
     dbClusterRole_roleArn,
     dbClusterRole_status,
 
     -- * DBClusterSnapshot
-    DBClusterSnapshot (..),
+    DBClusterSnapshot,
     newDBClusterSnapshot,
     dbClusterSnapshot_allocatedStorage,
     dbClusterSnapshot_availabilityZones,
@@ -227,19 +228,19 @@ module Amazonka.Neptune.Types
     dbClusterSnapshot_vpcId,
 
     -- * DBClusterSnapshotAttribute
-    DBClusterSnapshotAttribute (..),
+    DBClusterSnapshotAttribute,
     newDBClusterSnapshotAttribute,
     dbClusterSnapshotAttribute_attributeName,
     dbClusterSnapshotAttribute_attributeValues,
 
     -- * DBClusterSnapshotAttributesResult
-    DBClusterSnapshotAttributesResult (..),
+    DBClusterSnapshotAttributesResult,
     newDBClusterSnapshotAttributesResult,
     dbClusterSnapshotAttributesResult_dbClusterSnapshotAttributes,
     dbClusterSnapshotAttributesResult_dbClusterSnapshotIdentifier,
 
     -- * DBEngineVersion
-    DBEngineVersion (..),
+    DBEngineVersion,
     newDBEngineVersion,
     dbEngineVersion_dbEngineDescription,
     dbEngineVersion_dbEngineVersionDescription,
@@ -256,7 +257,7 @@ module Amazonka.Neptune.Types
     dbEngineVersion_validUpgradeTarget,
 
     -- * DBInstance
-    DBInstance (..),
+    DBInstance,
     newDBInstance,
     dbInstance_allocatedStorage,
     dbInstance_autoMinorVersionUpgrade,
@@ -313,7 +314,7 @@ module Amazonka.Neptune.Types
     dbInstance_vpcSecurityGroups,
 
     -- * DBInstanceStatusInfo
-    DBInstanceStatusInfo (..),
+    DBInstanceStatusInfo,
     newDBInstanceStatusInfo,
     dbInstanceStatusInfo_message,
     dbInstanceStatusInfo_normal,
@@ -321,7 +322,7 @@ module Amazonka.Neptune.Types
     dbInstanceStatusInfo_statusType,
 
     -- * DBParameterGroup
-    DBParameterGroup (..),
+    DBParameterGroup,
     newDBParameterGroup,
     dbParameterGroup_dbParameterGroupArn,
     dbParameterGroup_dbParameterGroupFamily,
@@ -329,24 +330,24 @@ module Amazonka.Neptune.Types
     dbParameterGroup_description,
 
     -- * DBParameterGroupNameMessage
-    DBParameterGroupNameMessage (..),
+    DBParameterGroupNameMessage,
     newDBParameterGroupNameMessage,
     dbParameterGroupNameMessage_dbParameterGroupName,
 
     -- * DBParameterGroupStatus
-    DBParameterGroupStatus (..),
+    DBParameterGroupStatus,
     newDBParameterGroupStatus,
     dbParameterGroupStatus_dbParameterGroupName,
     dbParameterGroupStatus_parameterApplyStatus,
 
     -- * DBSecurityGroupMembership
-    DBSecurityGroupMembership (..),
+    DBSecurityGroupMembership,
     newDBSecurityGroupMembership,
     dbSecurityGroupMembership_dbSecurityGroupName,
     dbSecurityGroupMembership_status,
 
     -- * DBSubnetGroup
-    DBSubnetGroup (..),
+    DBSubnetGroup,
     newDBSubnetGroup,
     dbSubnetGroup_dbSubnetGroupArn,
     dbSubnetGroup_dbSubnetGroupDescription,
@@ -356,7 +357,7 @@ module Amazonka.Neptune.Types
     dbSubnetGroup_vpcId,
 
     -- * DomainMembership
-    DomainMembership (..),
+    DomainMembership,
     newDomainMembership,
     domainMembership_domain,
     domainMembership_fqdn,
@@ -364,27 +365,27 @@ module Amazonka.Neptune.Types
     domainMembership_status,
 
     -- * DoubleRange
-    DoubleRange (..),
+    DoubleRange,
     newDoubleRange,
     doubleRange_from,
     doubleRange_to,
 
     -- * Endpoint
-    Endpoint (..),
+    Endpoint,
     newEndpoint,
     endpoint_address,
     endpoint_hostedZoneId,
     endpoint_port,
 
     -- * EngineDefaults
-    EngineDefaults (..),
+    EngineDefaults,
     newEngineDefaults,
     engineDefaults_dbParameterGroupFamily,
     engineDefaults_marker,
     engineDefaults_parameters,
 
     -- * Event
-    Event (..),
+    Event,
     newEvent,
     event_date,
     event_eventCategories,
@@ -394,13 +395,13 @@ module Amazonka.Neptune.Types
     event_sourceType,
 
     -- * EventCategoriesMap
-    EventCategoriesMap (..),
+    EventCategoriesMap,
     newEventCategoriesMap,
     eventCategoriesMap_eventCategories,
     eventCategoriesMap_sourceType,
 
     -- * EventSubscription
-    EventSubscription (..),
+    EventSubscription,
     newEventSubscription,
     eventSubscription_custSubscriptionId,
     eventSubscription_customerAwsId,
@@ -414,13 +415,13 @@ module Amazonka.Neptune.Types
     eventSubscription_subscriptionCreationTime,
 
     -- * Filter
-    Filter (..),
+    Filter,
     newFilter,
     filter_name,
     filter_values,
 
     -- * GlobalCluster
-    GlobalCluster (..),
+    GlobalCluster,
     newGlobalCluster,
     globalCluster_deletionProtection,
     globalCluster_engine,
@@ -433,20 +434,20 @@ module Amazonka.Neptune.Types
     globalCluster_storageEncrypted,
 
     -- * GlobalClusterMember
-    GlobalClusterMember (..),
+    GlobalClusterMember,
     newGlobalClusterMember,
     globalClusterMember_dbClusterArn,
     globalClusterMember_isWriter,
     globalClusterMember_readers,
 
     -- * OptionGroupMembership
-    OptionGroupMembership (..),
+    OptionGroupMembership,
     newOptionGroupMembership,
     optionGroupMembership_optionGroupName,
     optionGroupMembership_status,
 
     -- * OrderableDBInstanceOption
-    OrderableDBInstanceOption (..),
+    OrderableDBInstanceOption,
     newOrderableDBInstanceOption,
     orderableDBInstanceOption_availabilityZones,
     orderableDBInstanceOption_dbInstanceClass,
@@ -471,7 +472,7 @@ module Amazonka.Neptune.Types
     orderableDBInstanceOption_vpc,
 
     -- * Parameter
-    Parameter (..),
+    Parameter,
     newParameter,
     parameter_allowedValues,
     parameter_applyMethod,
@@ -485,13 +486,13 @@ module Amazonka.Neptune.Types
     parameter_source,
 
     -- * PendingCloudwatchLogsExports
-    PendingCloudwatchLogsExports (..),
+    PendingCloudwatchLogsExports,
     newPendingCloudwatchLogsExports,
     pendingCloudwatchLogsExports_logTypesToDisable,
     pendingCloudwatchLogsExports_logTypesToEnable,
 
     -- * PendingMaintenanceAction
-    PendingMaintenanceAction (..),
+    PendingMaintenanceAction,
     newPendingMaintenanceAction,
     pendingMaintenanceAction_action,
     pendingMaintenanceAction_autoAppliedAfterDate,
@@ -501,7 +502,7 @@ module Amazonka.Neptune.Types
     pendingMaintenanceAction_optInStatus,
 
     -- * PendingModifiedValues
-    PendingModifiedValues (..),
+    PendingModifiedValues,
     newPendingModifiedValues,
     pendingModifiedValues_allocatedStorage,
     pendingModifiedValues_backupRetentionPeriod,
@@ -519,50 +520,50 @@ module Amazonka.Neptune.Types
     pendingModifiedValues_storageType,
 
     -- * Range
-    Range (..),
+    Range,
     newRange,
     range_from,
     range_step,
     range_to,
 
     -- * ResourcePendingMaintenanceActions
-    ResourcePendingMaintenanceActions (..),
+    ResourcePendingMaintenanceActions,
     newResourcePendingMaintenanceActions,
     resourcePendingMaintenanceActions_pendingMaintenanceActionDetails,
     resourcePendingMaintenanceActions_resourceIdentifier,
 
     -- * ServerlessV2ScalingConfiguration
-    ServerlessV2ScalingConfiguration (..),
+    ServerlessV2ScalingConfiguration,
     newServerlessV2ScalingConfiguration,
     serverlessV2ScalingConfiguration_maxCapacity,
     serverlessV2ScalingConfiguration_minCapacity,
 
     -- * ServerlessV2ScalingConfigurationInfo
-    ServerlessV2ScalingConfigurationInfo (..),
+    ServerlessV2ScalingConfigurationInfo,
     newServerlessV2ScalingConfigurationInfo,
     serverlessV2ScalingConfigurationInfo_maxCapacity,
     serverlessV2ScalingConfigurationInfo_minCapacity,
 
     -- * Subnet
-    Subnet (..),
+    Subnet,
     newSubnet,
     subnet_subnetAvailabilityZone,
     subnet_subnetIdentifier,
     subnet_subnetStatus,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,
 
     -- * Timezone
-    Timezone (..),
+    Timezone,
     newTimezone,
     timezone_timezoneName,
 
     -- * UpgradeTarget
-    UpgradeTarget (..),
+    UpgradeTarget,
     newUpgradeTarget,
     upgradeTarget_autoUpgrade,
     upgradeTarget_description,
@@ -572,12 +573,12 @@ module Amazonka.Neptune.Types
     upgradeTarget_supportsGlobalDatabases,
 
     -- * ValidDBInstanceModificationsMessage
-    ValidDBInstanceModificationsMessage (..),
+    ValidDBInstanceModificationsMessage,
     newValidDBInstanceModificationsMessage,
     validDBInstanceModificationsMessage_storage,
 
     -- * ValidStorageOptions
-    ValidStorageOptions (..),
+    ValidStorageOptions,
     newValidStorageOptions,
     validStorageOptions_iopsToStorageRatio,
     validStorageOptions_provisionedIops,
@@ -585,7 +586,7 @@ module Amazonka.Neptune.Types
     validStorageOptions_storageType,
 
     -- * VpcSecurityGroupMembership
-    VpcSecurityGroupMembership (..),
+    VpcSecurityGroupMembership,
     newVpcSecurityGroupMembership,
     vpcSecurityGroupMembership_status,
     vpcSecurityGroupMembership_vpcSecurityGroupId,

@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -27,44 +28,44 @@ module Amazonka.CodeArtifact.Types
     _ValidationException,
 
     -- * AllowPublish
-    AllowPublish (..),
+    AllowPublish,
 
     -- * AllowUpstream
-    AllowUpstream (..),
+    AllowUpstream,
 
     -- * DomainStatus
-    DomainStatus (..),
+    DomainStatus,
 
     -- * ExternalConnectionStatus
-    ExternalConnectionStatus (..),
+    ExternalConnectionStatus,
 
     -- * HashAlgorithm
-    HashAlgorithm (..),
+    HashAlgorithm,
 
     -- * PackageFormat
-    PackageFormat (..),
+    PackageFormat,
 
     -- * PackageVersionErrorCode
-    PackageVersionErrorCode (..),
+    PackageVersionErrorCode,
 
     -- * PackageVersionOriginType
-    PackageVersionOriginType (..),
+    PackageVersionOriginType,
 
     -- * PackageVersionSortType
-    PackageVersionSortType (..),
+    PackageVersionSortType,
 
     -- * PackageVersionStatus
-    PackageVersionStatus (..),
+    PackageVersionStatus,
 
     -- * AssetSummary
-    AssetSummary (..),
+    AssetSummary,
     newAssetSummary,
     assetSummary_hashes,
     assetSummary_size,
     assetSummary_name,
 
     -- * DomainDescription
-    DomainDescription (..),
+    DomainDescription,
     newDomainDescription,
     domainDescription_arn,
     domainDescription_assetSizeBytes,
@@ -77,13 +78,13 @@ module Amazonka.CodeArtifact.Types
     domainDescription_status,
 
     -- * DomainEntryPoint
-    DomainEntryPoint (..),
+    DomainEntryPoint,
     newDomainEntryPoint,
     domainEntryPoint_externalConnectionName,
     domainEntryPoint_repositoryName,
 
     -- * DomainSummary
-    DomainSummary (..),
+    DomainSummary,
     newDomainSummary,
     domainSummary_arn,
     domainSummary_createdTime,
@@ -93,13 +94,13 @@ module Amazonka.CodeArtifact.Types
     domainSummary_status,
 
     -- * LicenseInfo
-    LicenseInfo (..),
+    LicenseInfo,
     newLicenseInfo,
     licenseInfo_name,
     licenseInfo_url,
 
     -- * PackageDependency
-    PackageDependency (..),
+    PackageDependency,
     newPackageDependency,
     packageDependency_dependencyType,
     packageDependency_namespace,
@@ -107,7 +108,7 @@ module Amazonka.CodeArtifact.Types
     packageDependency_versionRequirement,
 
     -- * PackageDescription
-    PackageDescription (..),
+    PackageDescription,
     newPackageDescription,
     packageDescription_format,
     packageDescription_name,
@@ -115,18 +116,18 @@ module Amazonka.CodeArtifact.Types
     packageDescription_originConfiguration,
 
     -- * PackageOriginConfiguration
-    PackageOriginConfiguration (..),
+    PackageOriginConfiguration,
     newPackageOriginConfiguration,
     packageOriginConfiguration_restrictions,
 
     -- * PackageOriginRestrictions
-    PackageOriginRestrictions (..),
+    PackageOriginRestrictions,
     newPackageOriginRestrictions,
     packageOriginRestrictions_publish,
     packageOriginRestrictions_upstream,
 
     -- * PackageSummary
-    PackageSummary (..),
+    PackageSummary,
     newPackageSummary,
     packageSummary_format,
     packageSummary_namespace,
@@ -134,7 +135,7 @@ module Amazonka.CodeArtifact.Types
     packageSummary_package,
 
     -- * PackageVersionDescription
-    PackageVersionDescription (..),
+    PackageVersionDescription,
     newPackageVersionDescription,
     packageVersionDescription_displayName,
     packageVersionDescription_format,
@@ -151,19 +152,19 @@ module Amazonka.CodeArtifact.Types
     packageVersionDescription_version,
 
     -- * PackageVersionError
-    PackageVersionError (..),
+    PackageVersionError,
     newPackageVersionError,
     packageVersionError_errorCode,
     packageVersionError_errorMessage,
 
     -- * PackageVersionOrigin
-    PackageVersionOrigin (..),
+    PackageVersionOrigin,
     newPackageVersionOrigin,
     packageVersionOrigin_domainEntryPoint,
     packageVersionOrigin_originType,
 
     -- * PackageVersionSummary
-    PackageVersionSummary (..),
+    PackageVersionSummary,
     newPackageVersionSummary,
     packageVersionSummary_origin,
     packageVersionSummary_revision,
@@ -171,7 +172,7 @@ module Amazonka.CodeArtifact.Types
     packageVersionSummary_status,
 
     -- * RepositoryDescription
-    RepositoryDescription (..),
+    RepositoryDescription,
     newRepositoryDescription,
     repositoryDescription_administratorAccount,
     repositoryDescription_arn,
@@ -183,14 +184,14 @@ module Amazonka.CodeArtifact.Types
     repositoryDescription_upstreams,
 
     -- * RepositoryExternalConnectionInfo
-    RepositoryExternalConnectionInfo (..),
+    RepositoryExternalConnectionInfo,
     newRepositoryExternalConnectionInfo,
     repositoryExternalConnectionInfo_externalConnectionName,
     repositoryExternalConnectionInfo_packageFormat,
     repositoryExternalConnectionInfo_status,
 
     -- * RepositorySummary
-    RepositorySummary (..),
+    RepositorySummary,
     newRepositorySummary,
     repositorySummary_administratorAccount,
     repositorySummary_arn,
@@ -200,31 +201,31 @@ module Amazonka.CodeArtifact.Types
     repositorySummary_name,
 
     -- * ResourcePolicy
-    ResourcePolicy (..),
+    ResourcePolicy,
     newResourcePolicy,
     resourcePolicy_document,
     resourcePolicy_resourceArn,
     resourcePolicy_revision,
 
     -- * SuccessfulPackageVersionInfo
-    SuccessfulPackageVersionInfo (..),
+    SuccessfulPackageVersionInfo,
     newSuccessfulPackageVersionInfo,
     successfulPackageVersionInfo_revision,
     successfulPackageVersionInfo_status,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,
 
     -- * UpstreamRepository
-    UpstreamRepository (..),
+    UpstreamRepository,
     newUpstreamRepository,
     upstreamRepository_repositoryName,
 
     -- * UpstreamRepositoryInfo
-    UpstreamRepositoryInfo (..),
+    UpstreamRepositoryInfo,
     newUpstreamRepositoryInfo,
     upstreamRepositoryInfo_repositoryName,
   )

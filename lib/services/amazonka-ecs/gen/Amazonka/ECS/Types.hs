@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -45,181 +46,181 @@ module Amazonka.ECS.Types
     _UpdateInProgressException,
 
     -- * AgentUpdateStatus
-    AgentUpdateStatus (..),
+    AgentUpdateStatus,
 
     -- * ApplicationProtocol
-    ApplicationProtocol (..),
+    ApplicationProtocol,
 
     -- * AssignPublicIp
-    AssignPublicIp (..),
+    AssignPublicIp,
 
     -- * CPUArchitecture
-    CPUArchitecture (..),
+    CPUArchitecture,
 
     -- * CapacityProviderField
-    CapacityProviderField (..),
+    CapacityProviderField,
 
     -- * CapacityProviderStatus
-    CapacityProviderStatus (..),
+    CapacityProviderStatus,
 
     -- * CapacityProviderUpdateStatus
-    CapacityProviderUpdateStatus (..),
+    CapacityProviderUpdateStatus,
 
     -- * ClusterField
-    ClusterField (..),
+    ClusterField,
 
     -- * ClusterSettingName
-    ClusterSettingName (..),
+    ClusterSettingName,
 
     -- * Compatibility
-    Compatibility (..),
+    Compatibility,
 
     -- * Connectivity
-    Connectivity (..),
+    Connectivity,
 
     -- * ContainerCondition
-    ContainerCondition (..),
+    ContainerCondition,
 
     -- * ContainerInstanceField
-    ContainerInstanceField (..),
+    ContainerInstanceField,
 
     -- * ContainerInstanceStatus
-    ContainerInstanceStatus (..),
+    ContainerInstanceStatus,
 
     -- * DeploymentControllerType
-    DeploymentControllerType (..),
+    DeploymentControllerType,
 
     -- * DeploymentRolloutState
-    DeploymentRolloutState (..),
+    DeploymentRolloutState,
 
     -- * DesiredStatus
-    DesiredStatus (..),
+    DesiredStatus,
 
     -- * DeviceCgroupPermission
-    DeviceCgroupPermission (..),
+    DeviceCgroupPermission,
 
     -- * EFSAuthorizationConfigIAM
-    EFSAuthorizationConfigIAM (..),
+    EFSAuthorizationConfigIAM,
 
     -- * EFSTransitEncryption
-    EFSTransitEncryption (..),
+    EFSTransitEncryption,
 
     -- * EnvironmentFileType
-    EnvironmentFileType (..),
+    EnvironmentFileType,
 
     -- * ExecuteCommandLogging
-    ExecuteCommandLogging (..),
+    ExecuteCommandLogging,
 
     -- * FirelensConfigurationType
-    FirelensConfigurationType (..),
+    FirelensConfigurationType,
 
     -- * HealthStatus
-    HealthStatus (..),
+    HealthStatus,
 
     -- * InstanceHealthCheckState
-    InstanceHealthCheckState (..),
+    InstanceHealthCheckState,
 
     -- * InstanceHealthCheckType
-    InstanceHealthCheckType (..),
+    InstanceHealthCheckType,
 
     -- * IpcMode
-    IpcMode (..),
+    IpcMode,
 
     -- * LaunchType
-    LaunchType (..),
+    LaunchType,
 
     -- * LogDriver
-    LogDriver (..),
+    LogDriver,
 
     -- * ManagedAgentName
-    ManagedAgentName (..),
+    ManagedAgentName,
 
     -- * ManagedScalingStatus
-    ManagedScalingStatus (..),
+    ManagedScalingStatus,
 
     -- * ManagedTerminationProtection
-    ManagedTerminationProtection (..),
+    ManagedTerminationProtection,
 
     -- * NetworkMode
-    NetworkMode (..),
+    NetworkMode,
 
     -- * OSFamily
-    OSFamily (..),
+    OSFamily,
 
     -- * PidMode
-    PidMode (..),
+    PidMode,
 
     -- * PlacementConstraintType
-    PlacementConstraintType (..),
+    PlacementConstraintType,
 
     -- * PlacementStrategyType
-    PlacementStrategyType (..),
+    PlacementStrategyType,
 
     -- * PlatformDeviceType
-    PlatformDeviceType (..),
+    PlatformDeviceType,
 
     -- * PropagateTags
-    PropagateTags (..),
+    PropagateTags,
 
     -- * ProxyConfigurationType
-    ProxyConfigurationType (..),
+    ProxyConfigurationType,
 
     -- * ResourceType
-    ResourceType (..),
+    ResourceType,
 
     -- * ScaleUnit
-    ScaleUnit (..),
+    ScaleUnit,
 
     -- * SchedulingStrategy
-    SchedulingStrategy (..),
+    SchedulingStrategy,
 
     -- * Scope
-    Scope (..),
+    Scope,
 
     -- * ServiceField
-    ServiceField (..),
+    ServiceField,
 
     -- * SettingName
-    SettingName (..),
+    SettingName,
 
     -- * SortOrder
-    SortOrder (..),
+    SortOrder,
 
     -- * StabilityStatus
-    StabilityStatus (..),
+    StabilityStatus,
 
     -- * TargetType
-    TargetType (..),
+    TargetType,
 
     -- * TaskDefinitionFamilyStatus
-    TaskDefinitionFamilyStatus (..),
+    TaskDefinitionFamilyStatus,
 
     -- * TaskDefinitionField
-    TaskDefinitionField (..),
+    TaskDefinitionField,
 
     -- * TaskDefinitionPlacementConstraintType
-    TaskDefinitionPlacementConstraintType (..),
+    TaskDefinitionPlacementConstraintType,
 
     -- * TaskDefinitionStatus
-    TaskDefinitionStatus (..),
+    TaskDefinitionStatus,
 
     -- * TaskField
-    TaskField (..),
+    TaskField,
 
     -- * TaskSetField
-    TaskSetField (..),
+    TaskSetField,
 
     -- * TaskStopCode
-    TaskStopCode (..),
+    TaskStopCode,
 
     -- * TransportProtocol
-    TransportProtocol (..),
+    TransportProtocol,
 
     -- * UlimitName
-    UlimitName (..),
+    UlimitName,
 
     -- * Attachment
-    Attachment (..),
+    Attachment,
     newAttachment,
     attachment_details,
     attachment_id,
@@ -227,13 +228,13 @@ module Amazonka.ECS.Types
     attachment_type,
 
     -- * AttachmentStateChange
-    AttachmentStateChange (..),
+    AttachmentStateChange,
     newAttachmentStateChange,
     attachmentStateChange_attachmentArn,
     attachmentStateChange_status,
 
     -- * Attribute
-    Attribute (..),
+    Attribute,
     newAttribute,
     attribute_targetId,
     attribute_targetType,
@@ -241,27 +242,27 @@ module Amazonka.ECS.Types
     attribute_name,
 
     -- * AutoScalingGroupProvider
-    AutoScalingGroupProvider (..),
+    AutoScalingGroupProvider,
     newAutoScalingGroupProvider,
     autoScalingGroupProvider_managedScaling,
     autoScalingGroupProvider_managedTerminationProtection,
     autoScalingGroupProvider_autoScalingGroupArn,
 
     -- * AutoScalingGroupProviderUpdate
-    AutoScalingGroupProviderUpdate (..),
+    AutoScalingGroupProviderUpdate,
     newAutoScalingGroupProviderUpdate,
     autoScalingGroupProviderUpdate_managedScaling,
     autoScalingGroupProviderUpdate_managedTerminationProtection,
 
     -- * AwsVpcConfiguration
-    AwsVpcConfiguration (..),
+    AwsVpcConfiguration,
     newAwsVpcConfiguration,
     awsVpcConfiguration_assignPublicIp,
     awsVpcConfiguration_securityGroups,
     awsVpcConfiguration_subnets,
 
     -- * CapacityProvider
-    CapacityProvider (..),
+    CapacityProvider,
     newCapacityProvider,
     capacityProvider_autoScalingGroupProvider,
     capacityProvider_capacityProviderArn,
@@ -272,14 +273,14 @@ module Amazonka.ECS.Types
     capacityProvider_updateStatusReason,
 
     -- * CapacityProviderStrategyItem
-    CapacityProviderStrategyItem (..),
+    CapacityProviderStrategyItem,
     newCapacityProviderStrategyItem,
     capacityProviderStrategyItem_base,
     capacityProviderStrategyItem_weight,
     capacityProviderStrategyItem_capacityProvider,
 
     -- * Cluster
-    Cluster (..),
+    Cluster,
     newCluster,
     cluster_activeServicesCount,
     cluster_attachments,
@@ -299,28 +300,28 @@ module Amazonka.ECS.Types
     cluster_tags,
 
     -- * ClusterConfiguration
-    ClusterConfiguration (..),
+    ClusterConfiguration,
     newClusterConfiguration,
     clusterConfiguration_executeCommandConfiguration,
 
     -- * ClusterServiceConnectDefaults
-    ClusterServiceConnectDefaults (..),
+    ClusterServiceConnectDefaults,
     newClusterServiceConnectDefaults,
     clusterServiceConnectDefaults_namespace,
 
     -- * ClusterServiceConnectDefaultsRequest
-    ClusterServiceConnectDefaultsRequest (..),
+    ClusterServiceConnectDefaultsRequest,
     newClusterServiceConnectDefaultsRequest,
     clusterServiceConnectDefaultsRequest_namespace,
 
     -- * ClusterSetting
-    ClusterSetting (..),
+    ClusterSetting,
     newClusterSetting,
     clusterSetting_name,
     clusterSetting_value,
 
     -- * Container
-    Container (..),
+    Container,
     newContainer,
     container_containerArn,
     container_cpu,
@@ -341,7 +342,7 @@ module Amazonka.ECS.Types
     container_taskArn,
 
     -- * ContainerDefinition
-    ContainerDefinition (..),
+    ContainerDefinition,
     newContainerDefinition,
     containerDefinition_command,
     containerDefinition_cpu,
@@ -384,13 +385,13 @@ module Amazonka.ECS.Types
     containerDefinition_workingDirectory,
 
     -- * ContainerDependency
-    ContainerDependency (..),
+    ContainerDependency,
     newContainerDependency,
     containerDependency_containerName,
     containerDependency_condition,
 
     -- * ContainerInstance
-    ContainerInstance (..),
+    ContainerInstance,
     newContainerInstance,
     containerInstance_agentConnected,
     containerInstance_agentUpdateStatus,
@@ -412,13 +413,13 @@ module Amazonka.ECS.Types
     containerInstance_versionInfo,
 
     -- * ContainerInstanceHealthStatus
-    ContainerInstanceHealthStatus (..),
+    ContainerInstanceHealthStatus,
     newContainerInstanceHealthStatus,
     containerInstanceHealthStatus_details,
     containerInstanceHealthStatus_overallStatus,
 
     -- * ContainerOverride
-    ContainerOverride (..),
+    ContainerOverride,
     newContainerOverride,
     containerOverride_command,
     containerOverride_cpu,
@@ -430,7 +431,7 @@ module Amazonka.ECS.Types
     containerOverride_resourceRequirements,
 
     -- * ContainerService
-    ContainerService (..),
+    ContainerService,
     newContainerService,
     containerService_capacityProviderStrategy,
     containerService_clusterArn,
@@ -465,7 +466,7 @@ module Amazonka.ECS.Types
     containerService_taskSets,
 
     -- * ContainerStateChange
-    ContainerStateChange (..),
+    ContainerStateChange,
     newContainerStateChange,
     containerStateChange_containerName,
     containerStateChange_exitCode,
@@ -476,7 +477,7 @@ module Amazonka.ECS.Types
     containerStateChange_status,
 
     -- * Deployment
-    Deployment (..),
+    Deployment,
     newDeployment,
     deployment_capacityProviderStrategy,
     deployment_createdAt,
@@ -498,20 +499,20 @@ module Amazonka.ECS.Types
     deployment_updatedAt,
 
     -- * DeploymentAlarms
-    DeploymentAlarms (..),
+    DeploymentAlarms,
     newDeploymentAlarms,
     deploymentAlarms_alarmNames,
     deploymentAlarms_enable,
     deploymentAlarms_rollback,
 
     -- * DeploymentCircuitBreaker
-    DeploymentCircuitBreaker (..),
+    DeploymentCircuitBreaker,
     newDeploymentCircuitBreaker,
     deploymentCircuitBreaker_enable,
     deploymentCircuitBreaker_rollback,
 
     -- * DeploymentConfiguration
-    DeploymentConfiguration (..),
+    DeploymentConfiguration,
     newDeploymentConfiguration,
     deploymentConfiguration_alarms,
     deploymentConfiguration_deploymentCircuitBreaker,
@@ -519,19 +520,19 @@ module Amazonka.ECS.Types
     deploymentConfiguration_minimumHealthyPercent,
 
     -- * DeploymentController
-    DeploymentController (..),
+    DeploymentController,
     newDeploymentController,
     deploymentController_type,
 
     -- * Device
-    Device (..),
+    Device,
     newDevice,
     device_containerPath,
     device_permissions,
     device_hostPath,
 
     -- * DockerVolumeConfiguration
-    DockerVolumeConfiguration (..),
+    DockerVolumeConfiguration,
     newDockerVolumeConfiguration,
     dockerVolumeConfiguration_autoprovision,
     dockerVolumeConfiguration_driver,
@@ -540,13 +541,13 @@ module Amazonka.ECS.Types
     dockerVolumeConfiguration_scope,
 
     -- * EFSAuthorizationConfig
-    EFSAuthorizationConfig (..),
+    EFSAuthorizationConfig,
     newEFSAuthorizationConfig,
     eFSAuthorizationConfig_accessPointId,
     eFSAuthorizationConfig_iam,
 
     -- * EFSVolumeConfiguration
-    EFSVolumeConfiguration (..),
+    EFSVolumeConfiguration,
     newEFSVolumeConfiguration,
     eFSVolumeConfiguration_authorizationConfig,
     eFSVolumeConfiguration_rootDirectory,
@@ -555,25 +556,25 @@ module Amazonka.ECS.Types
     eFSVolumeConfiguration_fileSystemId,
 
     -- * EnvironmentFile
-    EnvironmentFile (..),
+    EnvironmentFile,
     newEnvironmentFile,
     environmentFile_value,
     environmentFile_type,
 
     -- * EphemeralStorage
-    EphemeralStorage (..),
+    EphemeralStorage,
     newEphemeralStorage,
     ephemeralStorage_sizeInGiB,
 
     -- * ExecuteCommandConfiguration
-    ExecuteCommandConfiguration (..),
+    ExecuteCommandConfiguration,
     newExecuteCommandConfiguration,
     executeCommandConfiguration_kmsKeyId,
     executeCommandConfiguration_logConfiguration,
     executeCommandConfiguration_logging,
 
     -- * ExecuteCommandLogConfiguration
-    ExecuteCommandLogConfiguration (..),
+    ExecuteCommandLogConfiguration,
     newExecuteCommandLogConfiguration,
     executeCommandLogConfiguration_cloudWatchEncryptionEnabled,
     executeCommandLogConfiguration_cloudWatchLogGroupName,
@@ -582,33 +583,33 @@ module Amazonka.ECS.Types
     executeCommandLogConfiguration_s3KeyPrefix,
 
     -- * FSxWindowsFileServerAuthorizationConfig
-    FSxWindowsFileServerAuthorizationConfig (..),
+    FSxWindowsFileServerAuthorizationConfig,
     newFSxWindowsFileServerAuthorizationConfig,
     fSxWindowsFileServerAuthorizationConfig_credentialsParameter,
     fSxWindowsFileServerAuthorizationConfig_domain,
 
     -- * FSxWindowsFileServerVolumeConfiguration
-    FSxWindowsFileServerVolumeConfiguration (..),
+    FSxWindowsFileServerVolumeConfiguration,
     newFSxWindowsFileServerVolumeConfiguration,
     fSxWindowsFileServerVolumeConfiguration_fileSystemId,
     fSxWindowsFileServerVolumeConfiguration_rootDirectory,
     fSxWindowsFileServerVolumeConfiguration_authorizationConfig,
 
     -- * Failure
-    Failure (..),
+    Failure,
     newFailure,
     failure_arn,
     failure_detail,
     failure_reason,
 
     -- * FirelensConfiguration
-    FirelensConfiguration (..),
+    FirelensConfiguration,
     newFirelensConfiguration,
     firelensConfiguration_options,
     firelensConfiguration_type,
 
     -- * HealthCheck
-    HealthCheck (..),
+    HealthCheck,
     newHealthCheck,
     healthCheck_interval,
     healthCheck_retries,
@@ -617,30 +618,30 @@ module Amazonka.ECS.Types
     healthCheck_command,
 
     -- * HostEntry
-    HostEntry (..),
+    HostEntry,
     newHostEntry,
     hostEntry_hostname,
     hostEntry_ipAddress,
 
     -- * HostVolumeProperties
-    HostVolumeProperties (..),
+    HostVolumeProperties,
     newHostVolumeProperties,
     hostVolumeProperties_sourcePath,
 
     -- * InferenceAccelerator
-    InferenceAccelerator (..),
+    InferenceAccelerator,
     newInferenceAccelerator,
     inferenceAccelerator_deviceName,
     inferenceAccelerator_deviceType,
 
     -- * InferenceAcceleratorOverride
-    InferenceAcceleratorOverride (..),
+    InferenceAcceleratorOverride,
     newInferenceAcceleratorOverride,
     inferenceAcceleratorOverride_deviceName,
     inferenceAcceleratorOverride_deviceType,
 
     -- * InstanceHealthCheckResult
-    InstanceHealthCheckResult (..),
+    InstanceHealthCheckResult,
     newInstanceHealthCheckResult,
     instanceHealthCheckResult_lastStatusChange,
     instanceHealthCheckResult_lastUpdated,
@@ -648,19 +649,19 @@ module Amazonka.ECS.Types
     instanceHealthCheckResult_type,
 
     -- * KernelCapabilities
-    KernelCapabilities (..),
+    KernelCapabilities,
     newKernelCapabilities,
     kernelCapabilities_add,
     kernelCapabilities_drop,
 
     -- * KeyValuePair
-    KeyValuePair (..),
+    KeyValuePair,
     newKeyValuePair,
     keyValuePair_name,
     keyValuePair_value,
 
     -- * LinuxParameters
-    LinuxParameters (..),
+    LinuxParameters,
     newLinuxParameters,
     linuxParameters_capabilities,
     linuxParameters_devices,
@@ -671,7 +672,7 @@ module Amazonka.ECS.Types
     linuxParameters_tmpfs,
 
     -- * LoadBalancer
-    LoadBalancer (..),
+    LoadBalancer,
     newLoadBalancer,
     loadBalancer_containerName,
     loadBalancer_containerPort,
@@ -679,14 +680,14 @@ module Amazonka.ECS.Types
     loadBalancer_targetGroupArn,
 
     -- * LogConfiguration
-    LogConfiguration (..),
+    LogConfiguration,
     newLogConfiguration,
     logConfiguration_options,
     logConfiguration_secretOptions,
     logConfiguration_logDriver,
 
     -- * ManagedAgent
-    ManagedAgent (..),
+    ManagedAgent,
     newManagedAgent,
     managedAgent_lastStartedAt,
     managedAgent_lastStatus,
@@ -694,7 +695,7 @@ module Amazonka.ECS.Types
     managedAgent_reason,
 
     -- * ManagedAgentStateChange
-    ManagedAgentStateChange (..),
+    ManagedAgentStateChange,
     newManagedAgentStateChange,
     managedAgentStateChange_reason,
     managedAgentStateChange_containerName,
@@ -702,7 +703,7 @@ module Amazonka.ECS.Types
     managedAgentStateChange_status,
 
     -- * ManagedScaling
-    ManagedScaling (..),
+    ManagedScaling,
     newManagedScaling,
     managedScaling_instanceWarmupPeriod,
     managedScaling_maximumScalingStepSize,
@@ -711,14 +712,14 @@ module Amazonka.ECS.Types
     managedScaling_targetCapacity,
 
     -- * MountPoint
-    MountPoint (..),
+    MountPoint,
     newMountPoint,
     mountPoint_containerPath,
     mountPoint_readOnly,
     mountPoint_sourceVolume,
 
     -- * NetworkBinding
-    NetworkBinding (..),
+    NetworkBinding,
     newNetworkBinding,
     networkBinding_bindIP,
     networkBinding_containerPort,
@@ -728,37 +729,37 @@ module Amazonka.ECS.Types
     networkBinding_protocol,
 
     -- * NetworkConfiguration
-    NetworkConfiguration (..),
+    NetworkConfiguration,
     newNetworkConfiguration,
     networkConfiguration_awsvpcConfiguration,
 
     -- * NetworkInterface
-    NetworkInterface (..),
+    NetworkInterface,
     newNetworkInterface,
     networkInterface_attachmentId,
     networkInterface_ipv6Address,
     networkInterface_privateIpv4Address,
 
     -- * PlacementConstraint
-    PlacementConstraint (..),
+    PlacementConstraint,
     newPlacementConstraint,
     placementConstraint_expression,
     placementConstraint_type,
 
     -- * PlacementStrategy
-    PlacementStrategy (..),
+    PlacementStrategy,
     newPlacementStrategy,
     placementStrategy_field,
     placementStrategy_type,
 
     -- * PlatformDevice
-    PlatformDevice (..),
+    PlatformDevice,
     newPlatformDevice,
     platformDevice_id,
     platformDevice_type,
 
     -- * PortMapping
-    PortMapping (..),
+    PortMapping,
     newPortMapping,
     portMapping_appProtocol,
     portMapping_containerPort,
@@ -768,26 +769,26 @@ module Amazonka.ECS.Types
     portMapping_protocol,
 
     -- * ProtectedTask
-    ProtectedTask (..),
+    ProtectedTask,
     newProtectedTask,
     protectedTask_expirationDate,
     protectedTask_protectionEnabled,
     protectedTask_taskArn,
 
     -- * ProxyConfiguration
-    ProxyConfiguration (..),
+    ProxyConfiguration,
     newProxyConfiguration,
     proxyConfiguration_properties,
     proxyConfiguration_type,
     proxyConfiguration_containerName,
 
     -- * RepositoryCredentials
-    RepositoryCredentials (..),
+    RepositoryCredentials,
     newRepositoryCredentials,
     repositoryCredentials_credentialsParameter,
 
     -- * Resource
-    Resource (..),
+    Resource,
     newResource,
     resource_doubleValue,
     resource_integerValue,
@@ -797,37 +798,37 @@ module Amazonka.ECS.Types
     resource_type,
 
     -- * ResourceRequirement
-    ResourceRequirement (..),
+    ResourceRequirement,
     newResourceRequirement,
     resourceRequirement_value,
     resourceRequirement_type,
 
     -- * RuntimePlatform
-    RuntimePlatform (..),
+    RuntimePlatform,
     newRuntimePlatform,
     runtimePlatform_cpuArchitecture,
     runtimePlatform_operatingSystemFamily,
 
     -- * Scale
-    Scale (..),
+    Scale,
     newScale,
     scale_unit,
     scale_value,
 
     -- * Secret
-    Secret (..),
+    Secret,
     newSecret,
     secret_name,
     secret_valueFrom,
 
     -- * ServiceConnectClientAlias
-    ServiceConnectClientAlias (..),
+    ServiceConnectClientAlias,
     newServiceConnectClientAlias,
     serviceConnectClientAlias_dnsName,
     serviceConnectClientAlias_port,
 
     -- * ServiceConnectConfiguration
-    ServiceConnectConfiguration (..),
+    ServiceConnectConfiguration,
     newServiceConnectConfiguration,
     serviceConnectConfiguration_logConfiguration,
     serviceConnectConfiguration_namespace,
@@ -835,7 +836,7 @@ module Amazonka.ECS.Types
     serviceConnectConfiguration_enabled,
 
     -- * ServiceConnectService
-    ServiceConnectService (..),
+    ServiceConnectService,
     newServiceConnectService,
     serviceConnectService_clientAliases,
     serviceConnectService_discoveryName,
@@ -843,20 +844,20 @@ module Amazonka.ECS.Types
     serviceConnectService_portName,
 
     -- * ServiceConnectServiceResource
-    ServiceConnectServiceResource (..),
+    ServiceConnectServiceResource,
     newServiceConnectServiceResource,
     serviceConnectServiceResource_discoveryArn,
     serviceConnectServiceResource_discoveryName,
 
     -- * ServiceEvent
-    ServiceEvent (..),
+    ServiceEvent,
     newServiceEvent,
     serviceEvent_createdAt,
     serviceEvent_id,
     serviceEvent_message,
 
     -- * ServiceRegistry
-    ServiceRegistry (..),
+    ServiceRegistry,
     newServiceRegistry,
     serviceRegistry_containerName,
     serviceRegistry_containerPort,
@@ -864,33 +865,33 @@ module Amazonka.ECS.Types
     serviceRegistry_registryArn,
 
     -- * Session
-    Session (..),
+    Session,
     newSession,
     session_sessionId,
     session_streamUrl,
     session_tokenValue,
 
     -- * Setting
-    Setting (..),
+    Setting,
     newSetting,
     setting_name,
     setting_principalArn,
     setting_value,
 
     -- * SystemControl
-    SystemControl (..),
+    SystemControl,
     newSystemControl,
     systemControl_namespace,
     systemControl_value,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,
 
     -- * Task
-    Task (..),
+    Task,
     newTask,
     task_attachments,
     task_attributes,
@@ -930,7 +931,7 @@ module Amazonka.ECS.Types
     task_version,
 
     -- * TaskDefinition
-    TaskDefinition (..),
+    TaskDefinition,
     newTaskDefinition,
     taskDefinition_compatibilities,
     taskDefinition_containerDefinitions,
@@ -958,13 +959,13 @@ module Amazonka.ECS.Types
     taskDefinition_volumes,
 
     -- * TaskDefinitionPlacementConstraint
-    TaskDefinitionPlacementConstraint (..),
+    TaskDefinitionPlacementConstraint,
     newTaskDefinitionPlacementConstraint,
     taskDefinitionPlacementConstraint_expression,
     taskDefinitionPlacementConstraint_type,
 
     -- * TaskOverride
-    TaskOverride (..),
+    TaskOverride,
     newTaskOverride,
     taskOverride_containerOverrides,
     taskOverride_cpu,
@@ -975,7 +976,7 @@ module Amazonka.ECS.Types
     taskOverride_taskRoleArn,
 
     -- * TaskSet
-    TaskSet (..),
+    TaskSet,
     newTaskSet,
     taskSet_capacityProviderStrategy,
     taskSet_clusterArn,
@@ -1003,28 +1004,28 @@ module Amazonka.ECS.Types
     taskSet_updatedAt,
 
     -- * Tmpfs
-    Tmpfs (..),
+    Tmpfs,
     newTmpfs,
     tmpfs_mountOptions,
     tmpfs_containerPath,
     tmpfs_size,
 
     -- * Ulimit
-    Ulimit (..),
+    Ulimit,
     newUlimit,
     ulimit_name,
     ulimit_softLimit,
     ulimit_hardLimit,
 
     -- * VersionInfo
-    VersionInfo (..),
+    VersionInfo,
     newVersionInfo,
     versionInfo_agentHash,
     versionInfo_agentVersion,
     versionInfo_dockerVersion,
 
     -- * Volume
-    Volume (..),
+    Volume,
     newVolume,
     volume_dockerVolumeConfiguration,
     volume_efsVolumeConfiguration,
@@ -1033,7 +1034,7 @@ module Amazonka.ECS.Types
     volume_name,
 
     -- * VolumeFrom
-    VolumeFrom (..),
+    VolumeFrom,
     newVolumeFrom,
     volumeFrom_readOnly,
     volumeFrom_sourceContainer,

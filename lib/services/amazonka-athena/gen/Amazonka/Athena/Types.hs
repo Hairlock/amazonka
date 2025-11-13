@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -26,54 +27,54 @@ module Amazonka.Athena.Types
     _TooManyRequestsException,
 
     -- * CalculationExecutionState
-    CalculationExecutionState (..),
+    CalculationExecutionState,
 
     -- * ColumnNullable
-    ColumnNullable (..),
+    ColumnNullable,
 
     -- * DataCatalogType
-    DataCatalogType (..),
+    DataCatalogType,
 
     -- * EncryptionOption
-    EncryptionOption (..),
+    EncryptionOption,
 
     -- * ExecutorState
-    ExecutorState (..),
+    ExecutorState,
 
     -- * ExecutorType
-    ExecutorType (..),
+    ExecutorType,
 
     -- * NotebookType
-    NotebookType (..),
+    NotebookType,
 
     -- * QueryExecutionState
-    QueryExecutionState (..),
+    QueryExecutionState,
 
     -- * S3AclOption
-    S3AclOption (..),
+    S3AclOption,
 
     -- * SessionState
-    SessionState (..),
+    SessionState,
 
     -- * StatementType
-    StatementType (..),
+    StatementType,
 
     -- * WorkGroupState
-    WorkGroupState (..),
+    WorkGroupState,
 
     -- * AclConfiguration
-    AclConfiguration (..),
+    AclConfiguration,
     newAclConfiguration,
     aclConfiguration_s3AclOption,
 
     -- * ApplicationDPUSizes
-    ApplicationDPUSizes (..),
+    ApplicationDPUSizes,
     newApplicationDPUSizes,
     applicationDPUSizes_applicationRuntimeId,
     applicationDPUSizes_supportedDPUSizes,
 
     -- * AthenaError
-    AthenaError (..),
+    AthenaError,
     newAthenaError,
     athenaError_errorCategory,
     athenaError_errorMessage,
@@ -81,12 +82,12 @@ module Amazonka.Athena.Types
     athenaError_retryable,
 
     -- * CalculationConfiguration
-    CalculationConfiguration (..),
+    CalculationConfiguration,
     newCalculationConfiguration,
     calculationConfiguration_codeBlock,
 
     -- * CalculationResult
-    CalculationResult (..),
+    CalculationResult,
     newCalculationResult,
     calculationResult_resultS3Uri,
     calculationResult_resultType,
@@ -94,13 +95,13 @@ module Amazonka.Athena.Types
     calculationResult_stdOutS3Uri,
 
     -- * CalculationStatistics
-    CalculationStatistics (..),
+    CalculationStatistics,
     newCalculationStatistics,
     calculationStatistics_dpuExecutionInMillis,
     calculationStatistics_progress,
 
     -- * CalculationStatus
-    CalculationStatus (..),
+    CalculationStatus,
     newCalculationStatus,
     calculationStatus_completionDateTime,
     calculationStatus_state,
@@ -108,21 +109,21 @@ module Amazonka.Athena.Types
     calculationStatus_submissionDateTime,
 
     -- * CalculationSummary
-    CalculationSummary (..),
+    CalculationSummary,
     newCalculationSummary,
     calculationSummary_calculationExecutionId,
     calculationSummary_description,
     calculationSummary_status,
 
     -- * Column
-    Column (..),
+    Column,
     newColumn,
     column_comment,
     column_type,
     column_name,
 
     -- * ColumnInfo
-    ColumnInfo (..),
+    ColumnInfo,
     newColumnInfo,
     columnInfo_caseSensitive,
     columnInfo_catalogName,
@@ -136,12 +137,12 @@ module Amazonka.Athena.Types
     columnInfo_type,
 
     -- * CustomerContentEncryptionConfiguration
-    CustomerContentEncryptionConfiguration (..),
+    CustomerContentEncryptionConfiguration,
     newCustomerContentEncryptionConfiguration,
     customerContentEncryptionConfiguration_kmsKey,
 
     -- * DataCatalog
-    DataCatalog (..),
+    DataCatalog,
     newDataCatalog,
     dataCatalog_description,
     dataCatalog_parameters,
@@ -149,31 +150,31 @@ module Amazonka.Athena.Types
     dataCatalog_type,
 
     -- * DataCatalogSummary
-    DataCatalogSummary (..),
+    DataCatalogSummary,
     newDataCatalogSummary,
     dataCatalogSummary_catalogName,
     dataCatalogSummary_type,
 
     -- * Database
-    Database (..),
+    Database,
     newDatabase,
     database_description,
     database_parameters,
     database_name,
 
     -- * Datum
-    Datum (..),
+    Datum,
     newDatum,
     datum_varCharValue,
 
     -- * EncryptionConfiguration
-    EncryptionConfiguration (..),
+    EncryptionConfiguration,
     newEncryptionConfiguration,
     encryptionConfiguration_kmsKey,
     encryptionConfiguration_encryptionOption,
 
     -- * EngineConfiguration
-    EngineConfiguration (..),
+    EngineConfiguration,
     newEngineConfiguration,
     engineConfiguration_additionalConfigs,
     engineConfiguration_coordinatorDpuSize,
@@ -181,13 +182,13 @@ module Amazonka.Athena.Types
     engineConfiguration_maxConcurrentDpus,
 
     -- * EngineVersion
-    EngineVersion (..),
+    EngineVersion,
     newEngineVersion,
     engineVersion_effectiveEngineVersion,
     engineVersion_selectedEngineVersion,
 
     -- * ExecutorsSummary
-    ExecutorsSummary (..),
+    ExecutorsSummary,
     newExecutorsSummary,
     executorsSummary_executorSize,
     executorsSummary_executorState,
@@ -197,12 +198,12 @@ module Amazonka.Athena.Types
     executorsSummary_executorId,
 
     -- * FilterDefinition
-    FilterDefinition (..),
+    FilterDefinition,
     newFilterDefinition,
     filterDefinition_name,
 
     -- * NamedQuery
-    NamedQuery (..),
+    NamedQuery,
     newNamedQuery,
     namedQuery_description,
     namedQuery_namedQueryId,
@@ -212,7 +213,7 @@ module Amazonka.Athena.Types
     namedQuery_queryString,
 
     -- * NotebookMetadata
-    NotebookMetadata (..),
+    NotebookMetadata,
     newNotebookMetadata,
     notebookMetadata_creationTime,
     notebookMetadata_lastModifiedTime,
@@ -222,13 +223,13 @@ module Amazonka.Athena.Types
     notebookMetadata_workGroup,
 
     -- * NotebookSessionSummary
-    NotebookSessionSummary (..),
+    NotebookSessionSummary,
     newNotebookSessionSummary,
     notebookSessionSummary_creationTime,
     notebookSessionSummary_sessionId,
 
     -- * PreparedStatement
-    PreparedStatement (..),
+    PreparedStatement,
     newPreparedStatement,
     preparedStatement_description,
     preparedStatement_lastModifiedTime,
@@ -237,13 +238,13 @@ module Amazonka.Athena.Types
     preparedStatement_workGroupName,
 
     -- * PreparedStatementSummary
-    PreparedStatementSummary (..),
+    PreparedStatementSummary,
     newPreparedStatementSummary,
     preparedStatementSummary_lastModifiedTime,
     preparedStatementSummary_statementName,
 
     -- * QueryExecution
-    QueryExecution (..),
+    QueryExecution,
     newQueryExecution,
     queryExecution_engineVersion,
     queryExecution_executionParameters,
@@ -258,13 +259,13 @@ module Amazonka.Athena.Types
     queryExecution_workGroup,
 
     -- * QueryExecutionContext
-    QueryExecutionContext (..),
+    QueryExecutionContext,
     newQueryExecutionContext,
     queryExecutionContext_catalog,
     queryExecutionContext_database,
 
     -- * QueryExecutionStatistics
-    QueryExecutionStatistics (..),
+    QueryExecutionStatistics,
     newQueryExecutionStatistics,
     queryExecutionStatistics_dataManifestLocation,
     queryExecutionStatistics_dataScannedInBytes,
@@ -276,7 +277,7 @@ module Amazonka.Athena.Types
     queryExecutionStatistics_totalExecutionTimeInMillis,
 
     -- * QueryExecutionStatus
-    QueryExecutionStatus (..),
+    QueryExecutionStatus,
     newQueryExecutionStatus,
     queryExecutionStatus_athenaError,
     queryExecutionStatus_completionDateTime,
@@ -285,14 +286,14 @@ module Amazonka.Athena.Types
     queryExecutionStatus_submissionDateTime,
 
     -- * QueryRuntimeStatistics
-    QueryRuntimeStatistics (..),
+    QueryRuntimeStatistics,
     newQueryRuntimeStatistics,
     queryRuntimeStatistics_outputStage,
     queryRuntimeStatistics_rows,
     queryRuntimeStatistics_timeline,
 
     -- * QueryRuntimeStatisticsRows
-    QueryRuntimeStatisticsRows (..),
+    QueryRuntimeStatisticsRows,
     newQueryRuntimeStatisticsRows,
     queryRuntimeStatisticsRows_inputBytes,
     queryRuntimeStatisticsRows_inputRows,
@@ -300,7 +301,7 @@ module Amazonka.Athena.Types
     queryRuntimeStatisticsRows_outputRows,
 
     -- * QueryRuntimeStatisticsTimeline
-    QueryRuntimeStatisticsTimeline (..),
+    QueryRuntimeStatisticsTimeline,
     newQueryRuntimeStatisticsTimeline,
     queryRuntimeStatisticsTimeline_engineExecutionTimeInMillis,
     queryRuntimeStatisticsTimeline_queryPlanningTimeInMillis,
@@ -309,7 +310,7 @@ module Amazonka.Athena.Types
     queryRuntimeStatisticsTimeline_totalExecutionTimeInMillis,
 
     -- * QueryStage
-    QueryStage (..),
+    QueryStage,
     newQueryStage,
     queryStage_executionTime,
     queryStage_inputBytes,
@@ -322,7 +323,7 @@ module Amazonka.Athena.Types
     queryStage_subStages,
 
     -- * QueryStagePlanNode
-    QueryStagePlanNode (..),
+    QueryStagePlanNode,
     newQueryStagePlanNode,
     queryStagePlanNode_children,
     queryStagePlanNode_identifier,
@@ -330,7 +331,7 @@ module Amazonka.Athena.Types
     queryStagePlanNode_remoteSources,
 
     -- * ResultConfiguration
-    ResultConfiguration (..),
+    ResultConfiguration,
     newResultConfiguration,
     resultConfiguration_aclConfiguration,
     resultConfiguration_encryptionConfiguration,
@@ -338,7 +339,7 @@ module Amazonka.Athena.Types
     resultConfiguration_outputLocation,
 
     -- * ResultConfigurationUpdates
-    ResultConfigurationUpdates (..),
+    ResultConfigurationUpdates,
     newResultConfigurationUpdates,
     resultConfigurationUpdates_aclConfiguration,
     resultConfigurationUpdates_encryptionConfiguration,
@@ -350,39 +351,39 @@ module Amazonka.Athena.Types
     resultConfigurationUpdates_removeOutputLocation,
 
     -- * ResultReuseByAgeConfiguration
-    ResultReuseByAgeConfiguration (..),
+    ResultReuseByAgeConfiguration,
     newResultReuseByAgeConfiguration,
     resultReuseByAgeConfiguration_maxAgeInMinutes,
     resultReuseByAgeConfiguration_enabled,
 
     -- * ResultReuseConfiguration
-    ResultReuseConfiguration (..),
+    ResultReuseConfiguration,
     newResultReuseConfiguration,
     resultReuseConfiguration_resultReuseByAgeConfiguration,
 
     -- * ResultReuseInformation
-    ResultReuseInformation (..),
+    ResultReuseInformation,
     newResultReuseInformation,
     resultReuseInformation_reusedPreviousResult,
 
     -- * ResultSet
-    ResultSet (..),
+    ResultSet,
     newResultSet,
     resultSet_resultSetMetadata,
     resultSet_rows,
 
     -- * ResultSetMetadata
-    ResultSetMetadata (..),
+    ResultSetMetadata,
     newResultSetMetadata,
     resultSetMetadata_columnInfo,
 
     -- * Row
-    Row (..),
+    Row,
     newRow,
     row_data,
 
     -- * SessionConfiguration
-    SessionConfiguration (..),
+    SessionConfiguration,
     newSessionConfiguration,
     sessionConfiguration_encryptionConfiguration,
     sessionConfiguration_executionRole,
@@ -390,12 +391,12 @@ module Amazonka.Athena.Types
     sessionConfiguration_workingDirectory,
 
     -- * SessionStatistics
-    SessionStatistics (..),
+    SessionStatistics,
     newSessionStatistics,
     sessionStatistics_dpuExecutionInMillis,
 
     -- * SessionStatus
-    SessionStatus (..),
+    SessionStatus,
     newSessionStatus,
     sessionStatus_endDateTime,
     sessionStatus_idleSinceDateTime,
@@ -405,7 +406,7 @@ module Amazonka.Athena.Types
     sessionStatus_stateChangeReason,
 
     -- * SessionSummary
-    SessionSummary (..),
+    SessionSummary,
     newSessionSummary,
     sessionSummary_description,
     sessionSummary_engineVersion,
@@ -414,7 +415,7 @@ module Amazonka.Athena.Types
     sessionSummary_status,
 
     -- * TableMetadata
-    TableMetadata (..),
+    TableMetadata,
     newTableMetadata,
     tableMetadata_columns,
     tableMetadata_createTime,
@@ -425,34 +426,34 @@ module Amazonka.Athena.Types
     tableMetadata_name,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,
 
     -- * UnprocessedNamedQueryId
-    UnprocessedNamedQueryId (..),
+    UnprocessedNamedQueryId,
     newUnprocessedNamedQueryId,
     unprocessedNamedQueryId_errorCode,
     unprocessedNamedQueryId_errorMessage,
     unprocessedNamedQueryId_namedQueryId,
 
     -- * UnprocessedPreparedStatementName
-    UnprocessedPreparedStatementName (..),
+    UnprocessedPreparedStatementName,
     newUnprocessedPreparedStatementName,
     unprocessedPreparedStatementName_errorCode,
     unprocessedPreparedStatementName_errorMessage,
     unprocessedPreparedStatementName_statementName,
 
     -- * UnprocessedQueryExecutionId
-    UnprocessedQueryExecutionId (..),
+    UnprocessedQueryExecutionId,
     newUnprocessedQueryExecutionId,
     unprocessedQueryExecutionId_errorCode,
     unprocessedQueryExecutionId_errorMessage,
     unprocessedQueryExecutionId_queryExecutionId,
 
     -- * WorkGroup
-    WorkGroup (..),
+    WorkGroup,
     newWorkGroup,
     workGroup_configuration,
     workGroup_creationTime,
@@ -461,7 +462,7 @@ module Amazonka.Athena.Types
     workGroup_name,
 
     -- * WorkGroupConfiguration
-    WorkGroupConfiguration (..),
+    WorkGroupConfiguration,
     newWorkGroupConfiguration,
     workGroupConfiguration_additionalConfiguration,
     workGroupConfiguration_bytesScannedCutoffPerQuery,
@@ -474,7 +475,7 @@ module Amazonka.Athena.Types
     workGroupConfiguration_resultConfiguration,
 
     -- * WorkGroupConfigurationUpdates
-    WorkGroupConfigurationUpdates (..),
+    WorkGroupConfigurationUpdates,
     newWorkGroupConfigurationUpdates,
     workGroupConfigurationUpdates_additionalConfiguration,
     workGroupConfigurationUpdates_bytesScannedCutoffPerQuery,
@@ -489,7 +490,7 @@ module Amazonka.Athena.Types
     workGroupConfigurationUpdates_resultConfigurationUpdates,
 
     -- * WorkGroupSummary
-    WorkGroupSummary (..),
+    WorkGroupSummary,
     newWorkGroupSummary,
     workGroupSummary_creationTime,
     workGroupSummary_description,

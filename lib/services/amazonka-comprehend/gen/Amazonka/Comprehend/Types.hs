@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -36,82 +37,82 @@ module Amazonka.Comprehend.Types
     _UnsupportedLanguageException,
 
     -- * AugmentedManifestsDocumentTypeFormat
-    AugmentedManifestsDocumentTypeFormat (..),
+    AugmentedManifestsDocumentTypeFormat,
 
     -- * BlockType
-    BlockType (..),
+    BlockType,
 
     -- * DocumentClassifierDataFormat
-    DocumentClassifierDataFormat (..),
+    DocumentClassifierDataFormat,
 
     -- * DocumentClassifierMode
-    DocumentClassifierMode (..),
+    DocumentClassifierMode,
 
     -- * DocumentReadAction
-    DocumentReadAction (..),
+    DocumentReadAction,
 
     -- * DocumentReadFeatureTypes
-    DocumentReadFeatureTypes (..),
+    DocumentReadFeatureTypes,
 
     -- * DocumentReadMode
-    DocumentReadMode (..),
+    DocumentReadMode,
 
     -- * DocumentType
-    DocumentType (..),
+    DocumentType,
 
     -- * EndpointStatus
-    EndpointStatus (..),
+    EndpointStatus,
 
     -- * EntityRecognizerDataFormat
-    EntityRecognizerDataFormat (..),
+    EntityRecognizerDataFormat,
 
     -- * EntityType
-    EntityType (..),
+    EntityType,
 
     -- * InputFormat
-    InputFormat (..),
+    InputFormat,
 
     -- * JobStatus
-    JobStatus (..),
+    JobStatus,
 
     -- * LanguageCode
-    LanguageCode (..),
+    LanguageCode,
 
     -- * ModelStatus
-    ModelStatus (..),
+    ModelStatus,
 
     -- * PageBasedErrorCode
-    PageBasedErrorCode (..),
+    PageBasedErrorCode,
 
     -- * PartOfSpeechTagType
-    PartOfSpeechTagType (..),
+    PartOfSpeechTagType,
 
     -- * PiiEntitiesDetectionMaskMode
-    PiiEntitiesDetectionMaskMode (..),
+    PiiEntitiesDetectionMaskMode,
 
     -- * PiiEntitiesDetectionMode
-    PiiEntitiesDetectionMode (..),
+    PiiEntitiesDetectionMode,
 
     -- * PiiEntityType
-    PiiEntityType (..),
+    PiiEntityType,
 
     -- * RelationshipType
-    RelationshipType (..),
+    RelationshipType,
 
     -- * SentimentType
-    SentimentType (..),
+    SentimentType,
 
     -- * Split
-    Split (..),
+    Split,
 
     -- * SyntaxLanguageCode
-    SyntaxLanguageCode (..),
+    SyntaxLanguageCode,
 
     -- * TargetedSentimentEntityType
-    TargetedSentimentEntityType (..),
+    TargetedSentimentEntityType,
 
     -- * AugmentedManifestsListItem
-    AugmentedManifestsListItem (..),
+    AugmentedManifestsListItem,
     newAugmentedManifestsListItem,
     augmentedManifestsListItem_annotationDataS3Uri,
     augmentedManifestsListItem_documentType,
@@ -121,51 +122,51 @@ module Amazonka.Comprehend.Types
     augmentedManifestsListItem_attributeNames,
 
     -- * BatchDetectDominantLanguageItemResult
-    BatchDetectDominantLanguageItemResult (..),
+    BatchDetectDominantLanguageItemResult,
     newBatchDetectDominantLanguageItemResult,
     batchDetectDominantLanguageItemResult_index,
     batchDetectDominantLanguageItemResult_languages,
 
     -- * BatchDetectEntitiesItemResult
-    BatchDetectEntitiesItemResult (..),
+    BatchDetectEntitiesItemResult,
     newBatchDetectEntitiesItemResult,
     batchDetectEntitiesItemResult_entities,
     batchDetectEntitiesItemResult_index,
 
     -- * BatchDetectKeyPhrasesItemResult
-    BatchDetectKeyPhrasesItemResult (..),
+    BatchDetectKeyPhrasesItemResult,
     newBatchDetectKeyPhrasesItemResult,
     batchDetectKeyPhrasesItemResult_index,
     batchDetectKeyPhrasesItemResult_keyPhrases,
 
     -- * BatchDetectSentimentItemResult
-    BatchDetectSentimentItemResult (..),
+    BatchDetectSentimentItemResult,
     newBatchDetectSentimentItemResult,
     batchDetectSentimentItemResult_index,
     batchDetectSentimentItemResult_sentiment,
     batchDetectSentimentItemResult_sentimentScore,
 
     -- * BatchDetectSyntaxItemResult
-    BatchDetectSyntaxItemResult (..),
+    BatchDetectSyntaxItemResult,
     newBatchDetectSyntaxItemResult,
     batchDetectSyntaxItemResult_index,
     batchDetectSyntaxItemResult_syntaxTokens,
 
     -- * BatchDetectTargetedSentimentItemResult
-    BatchDetectTargetedSentimentItemResult (..),
+    BatchDetectTargetedSentimentItemResult,
     newBatchDetectTargetedSentimentItemResult,
     batchDetectTargetedSentimentItemResult_entities,
     batchDetectTargetedSentimentItemResult_index,
 
     -- * BatchItemError
-    BatchItemError (..),
+    BatchItemError,
     newBatchItemError,
     batchItemError_errorCode,
     batchItemError_errorMessage,
     batchItemError_index,
 
     -- * Block
-    Block (..),
+    Block,
     newBlock,
     block_blockType,
     block_geometry,
@@ -175,7 +176,7 @@ module Amazonka.Comprehend.Types
     block_text,
 
     -- * BlockReference
-    BlockReference (..),
+    BlockReference,
     newBlockReference,
     blockReference_beginOffset,
     blockReference_blockId,
@@ -183,7 +184,7 @@ module Amazonka.Comprehend.Types
     blockReference_endOffset,
 
     -- * BoundingBox
-    BoundingBox (..),
+    BoundingBox,
     newBoundingBox,
     boundingBox_height,
     boundingBox_left,
@@ -191,14 +192,14 @@ module Amazonka.Comprehend.Types
     boundingBox_width,
 
     -- * ChildBlock
-    ChildBlock (..),
+    ChildBlock,
     newChildBlock,
     childBlock_beginOffset,
     childBlock_childBlockId,
     childBlock_endOffset,
 
     -- * ClassifierEvaluationMetrics
-    ClassifierEvaluationMetrics (..),
+    ClassifierEvaluationMetrics,
     newClassifierEvaluationMetrics,
     classifierEvaluationMetrics_accuracy,
     classifierEvaluationMetrics_f1Score,
@@ -210,7 +211,7 @@ module Amazonka.Comprehend.Types
     classifierEvaluationMetrics_recall,
 
     -- * ClassifierMetadata
-    ClassifierMetadata (..),
+    ClassifierMetadata,
     newClassifierMetadata,
     classifierMetadata_evaluationMetrics,
     classifierMetadata_numberOfLabels,
@@ -218,14 +219,14 @@ module Amazonka.Comprehend.Types
     classifierMetadata_numberOfTrainedDocuments,
 
     -- * DocumentClass
-    DocumentClass (..),
+    DocumentClass,
     newDocumentClass,
     documentClass_name,
     documentClass_page,
     documentClass_score,
 
     -- * DocumentClassificationJobFilter
-    DocumentClassificationJobFilter (..),
+    DocumentClassificationJobFilter,
     newDocumentClassificationJobFilter,
     documentClassificationJobFilter_jobName,
     documentClassificationJobFilter_jobStatus,
@@ -233,7 +234,7 @@ module Amazonka.Comprehend.Types
     documentClassificationJobFilter_submitTimeBefore,
 
     -- * DocumentClassificationJobProperties
-    DocumentClassificationJobProperties (..),
+    DocumentClassificationJobProperties,
     newDocumentClassificationJobProperties,
     documentClassificationJobProperties_dataAccessRoleArn,
     documentClassificationJobProperties_documentClassifierArn,
@@ -250,7 +251,7 @@ module Amazonka.Comprehend.Types
     documentClassificationJobProperties_vpcConfig,
 
     -- * DocumentClassifierFilter
-    DocumentClassifierFilter (..),
+    DocumentClassifierFilter,
     newDocumentClassifierFilter,
     documentClassifierFilter_documentClassifierName,
     documentClassifierFilter_status,
@@ -258,7 +259,7 @@ module Amazonka.Comprehend.Types
     documentClassifierFilter_submitTimeBefore,
 
     -- * DocumentClassifierInputDataConfig
-    DocumentClassifierInputDataConfig (..),
+    DocumentClassifierInputDataConfig,
     newDocumentClassifierInputDataConfig,
     documentClassifierInputDataConfig_augmentedManifests,
     documentClassifierInputDataConfig_dataFormat,
@@ -267,13 +268,13 @@ module Amazonka.Comprehend.Types
     documentClassifierInputDataConfig_testS3Uri,
 
     -- * DocumentClassifierOutputDataConfig
-    DocumentClassifierOutputDataConfig (..),
+    DocumentClassifierOutputDataConfig,
     newDocumentClassifierOutputDataConfig,
     documentClassifierOutputDataConfig_kmsKeyId,
     documentClassifierOutputDataConfig_s3Uri,
 
     -- * DocumentClassifierProperties
-    DocumentClassifierProperties (..),
+    DocumentClassifierProperties,
     newDocumentClassifierProperties,
     documentClassifierProperties_classifierMetadata,
     documentClassifierProperties_dataAccessRoleArn,
@@ -295,7 +296,7 @@ module Amazonka.Comprehend.Types
     documentClassifierProperties_vpcConfig,
 
     -- * DocumentClassifierSummary
-    DocumentClassifierSummary (..),
+    DocumentClassifierSummary,
     newDocumentClassifierSummary,
     documentClassifierSummary_documentClassifierName,
     documentClassifierSummary_latestVersionCreatedAt,
@@ -304,39 +305,39 @@ module Amazonka.Comprehend.Types
     documentClassifierSummary_numberOfVersions,
 
     -- * DocumentLabel
-    DocumentLabel (..),
+    DocumentLabel,
     newDocumentLabel,
     documentLabel_name,
     documentLabel_page,
     documentLabel_score,
 
     -- * DocumentMetadata
-    DocumentMetadata (..),
+    DocumentMetadata,
     newDocumentMetadata,
     documentMetadata_extractedCharacters,
     documentMetadata_pages,
 
     -- * DocumentReaderConfig
-    DocumentReaderConfig (..),
+    DocumentReaderConfig,
     newDocumentReaderConfig,
     documentReaderConfig_documentReadMode,
     documentReaderConfig_featureTypes,
     documentReaderConfig_documentReadAction,
 
     -- * DocumentTypeListItem
-    DocumentTypeListItem (..),
+    DocumentTypeListItem,
     newDocumentTypeListItem,
     documentTypeListItem_page,
     documentTypeListItem_type,
 
     -- * DominantLanguage
-    DominantLanguage (..),
+    DominantLanguage,
     newDominantLanguage,
     dominantLanguage_languageCode,
     dominantLanguage_score,
 
     -- * DominantLanguageDetectionJobFilter
-    DominantLanguageDetectionJobFilter (..),
+    DominantLanguageDetectionJobFilter,
     newDominantLanguageDetectionJobFilter,
     dominantLanguageDetectionJobFilter_jobName,
     dominantLanguageDetectionJobFilter_jobStatus,
@@ -344,7 +345,7 @@ module Amazonka.Comprehend.Types
     dominantLanguageDetectionJobFilter_submitTimeBefore,
 
     -- * DominantLanguageDetectionJobProperties
-    DominantLanguageDetectionJobProperties (..),
+    DominantLanguageDetectionJobProperties,
     newDominantLanguageDetectionJobProperties,
     dominantLanguageDetectionJobProperties_dataAccessRoleArn,
     dominantLanguageDetectionJobProperties_endTime,
@@ -360,7 +361,7 @@ module Amazonka.Comprehend.Types
     dominantLanguageDetectionJobProperties_vpcConfig,
 
     -- * EndpointFilter
-    EndpointFilter (..),
+    EndpointFilter,
     newEndpointFilter,
     endpointFilter_creationTimeAfter,
     endpointFilter_creationTimeBefore,
@@ -368,7 +369,7 @@ module Amazonka.Comprehend.Types
     endpointFilter_status,
 
     -- * EndpointProperties
-    EndpointProperties (..),
+    EndpointProperties,
     newEndpointProperties,
     endpointProperties_creationTime,
     endpointProperties_currentInferenceUnits,
@@ -383,7 +384,7 @@ module Amazonka.Comprehend.Types
     endpointProperties_status,
 
     -- * EntitiesDetectionJobFilter
-    EntitiesDetectionJobFilter (..),
+    EntitiesDetectionJobFilter,
     newEntitiesDetectionJobFilter,
     entitiesDetectionJobFilter_jobName,
     entitiesDetectionJobFilter_jobStatus,
@@ -391,7 +392,7 @@ module Amazonka.Comprehend.Types
     entitiesDetectionJobFilter_submitTimeBefore,
 
     -- * EntitiesDetectionJobProperties
-    EntitiesDetectionJobProperties (..),
+    EntitiesDetectionJobProperties,
     newEntitiesDetectionJobProperties,
     entitiesDetectionJobProperties_dataAccessRoleArn,
     entitiesDetectionJobProperties_endTime,
@@ -409,7 +410,7 @@ module Amazonka.Comprehend.Types
     entitiesDetectionJobProperties_vpcConfig,
 
     -- * Entity
-    Entity (..),
+    Entity,
     newEntity,
     entity_beginOffset,
     entity_blockReferences,
@@ -419,38 +420,38 @@ module Amazonka.Comprehend.Types
     entity_type,
 
     -- * EntityLabel
-    EntityLabel (..),
+    EntityLabel,
     newEntityLabel,
     entityLabel_name,
     entityLabel_score,
 
     -- * EntityRecognizerAnnotations
-    EntityRecognizerAnnotations (..),
+    EntityRecognizerAnnotations,
     newEntityRecognizerAnnotations,
     entityRecognizerAnnotations_testS3Uri,
     entityRecognizerAnnotations_s3Uri,
 
     -- * EntityRecognizerDocuments
-    EntityRecognizerDocuments (..),
+    EntityRecognizerDocuments,
     newEntityRecognizerDocuments,
     entityRecognizerDocuments_inputFormat,
     entityRecognizerDocuments_testS3Uri,
     entityRecognizerDocuments_s3Uri,
 
     -- * EntityRecognizerEntityList
-    EntityRecognizerEntityList (..),
+    EntityRecognizerEntityList,
     newEntityRecognizerEntityList,
     entityRecognizerEntityList_s3Uri,
 
     -- * EntityRecognizerEvaluationMetrics
-    EntityRecognizerEvaluationMetrics (..),
+    EntityRecognizerEvaluationMetrics,
     newEntityRecognizerEvaluationMetrics,
     entityRecognizerEvaluationMetrics_f1Score,
     entityRecognizerEvaluationMetrics_precision,
     entityRecognizerEvaluationMetrics_recall,
 
     -- * EntityRecognizerFilter
-    EntityRecognizerFilter (..),
+    EntityRecognizerFilter,
     newEntityRecognizerFilter,
     entityRecognizerFilter_recognizerName,
     entityRecognizerFilter_status,
@@ -458,7 +459,7 @@ module Amazonka.Comprehend.Types
     entityRecognizerFilter_submitTimeBefore,
 
     -- * EntityRecognizerInputDataConfig
-    EntityRecognizerInputDataConfig (..),
+    EntityRecognizerInputDataConfig,
     newEntityRecognizerInputDataConfig,
     entityRecognizerInputDataConfig_annotations,
     entityRecognizerInputDataConfig_augmentedManifests,
@@ -468,7 +469,7 @@ module Amazonka.Comprehend.Types
     entityRecognizerInputDataConfig_entityTypes,
 
     -- * EntityRecognizerMetadata
-    EntityRecognizerMetadata (..),
+    EntityRecognizerMetadata,
     newEntityRecognizerMetadata,
     entityRecognizerMetadata_entityTypes,
     entityRecognizerMetadata_evaluationMetrics,
@@ -476,14 +477,14 @@ module Amazonka.Comprehend.Types
     entityRecognizerMetadata_numberOfTrainedDocuments,
 
     -- * EntityRecognizerMetadataEntityTypesListItem
-    EntityRecognizerMetadataEntityTypesListItem (..),
+    EntityRecognizerMetadataEntityTypesListItem,
     newEntityRecognizerMetadataEntityTypesListItem,
     entityRecognizerMetadataEntityTypesListItem_evaluationMetrics,
     entityRecognizerMetadataEntityTypesListItem_numberOfTrainMentions,
     entityRecognizerMetadataEntityTypesListItem_type,
 
     -- * EntityRecognizerProperties
-    EntityRecognizerProperties (..),
+    EntityRecognizerProperties,
     newEntityRecognizerProperties,
     entityRecognizerProperties_dataAccessRoleArn,
     entityRecognizerProperties_endTime,
@@ -503,7 +504,7 @@ module Amazonka.Comprehend.Types
     entityRecognizerProperties_vpcConfig,
 
     -- * EntityRecognizerSummary
-    EntityRecognizerSummary (..),
+    EntityRecognizerSummary,
     newEntityRecognizerSummary,
     entityRecognizerSummary_latestVersionCreatedAt,
     entityRecognizerSummary_latestVersionName,
@@ -512,26 +513,26 @@ module Amazonka.Comprehend.Types
     entityRecognizerSummary_recognizerName,
 
     -- * EntityTypesEvaluationMetrics
-    EntityTypesEvaluationMetrics (..),
+    EntityTypesEvaluationMetrics,
     newEntityTypesEvaluationMetrics,
     entityTypesEvaluationMetrics_f1Score,
     entityTypesEvaluationMetrics_precision,
     entityTypesEvaluationMetrics_recall,
 
     -- * EntityTypesListItem
-    EntityTypesListItem (..),
+    EntityTypesListItem,
     newEntityTypesListItem,
     entityTypesListItem_type,
 
     -- * ErrorsListItem
-    ErrorsListItem (..),
+    ErrorsListItem,
     newErrorsListItem,
     errorsListItem_errorCode,
     errorsListItem_errorMessage,
     errorsListItem_page,
 
     -- * EventsDetectionJobFilter
-    EventsDetectionJobFilter (..),
+    EventsDetectionJobFilter,
     newEventsDetectionJobFilter,
     eventsDetectionJobFilter_jobName,
     eventsDetectionJobFilter_jobStatus,
@@ -539,7 +540,7 @@ module Amazonka.Comprehend.Types
     eventsDetectionJobFilter_submitTimeBefore,
 
     -- * EventsDetectionJobProperties
-    EventsDetectionJobProperties (..),
+    EventsDetectionJobProperties,
     newEventsDetectionJobProperties,
     eventsDetectionJobProperties_dataAccessRoleArn,
     eventsDetectionJobProperties_endTime,
@@ -555,26 +556,26 @@ module Amazonka.Comprehend.Types
     eventsDetectionJobProperties_targetEventTypes,
 
     -- * ExtractedCharactersListItem
-    ExtractedCharactersListItem (..),
+    ExtractedCharactersListItem,
     newExtractedCharactersListItem,
     extractedCharactersListItem_count,
     extractedCharactersListItem_page,
 
     -- * Geometry
-    Geometry (..),
+    Geometry,
     newGeometry,
     geometry_boundingBox,
     geometry_polygon,
 
     -- * InputDataConfig
-    InputDataConfig (..),
+    InputDataConfig,
     newInputDataConfig,
     inputDataConfig_documentReaderConfig,
     inputDataConfig_inputFormat,
     inputDataConfig_s3Uri,
 
     -- * KeyPhrase
-    KeyPhrase (..),
+    KeyPhrase,
     newKeyPhrase,
     keyPhrase_beginOffset,
     keyPhrase_endOffset,
@@ -582,7 +583,7 @@ module Amazonka.Comprehend.Types
     keyPhrase_text,
 
     -- * KeyPhrasesDetectionJobFilter
-    KeyPhrasesDetectionJobFilter (..),
+    KeyPhrasesDetectionJobFilter,
     newKeyPhrasesDetectionJobFilter,
     keyPhrasesDetectionJobFilter_jobName,
     keyPhrasesDetectionJobFilter_jobStatus,
@@ -590,7 +591,7 @@ module Amazonka.Comprehend.Types
     keyPhrasesDetectionJobFilter_submitTimeBefore,
 
     -- * KeyPhrasesDetectionJobProperties
-    KeyPhrasesDetectionJobProperties (..),
+    KeyPhrasesDetectionJobProperties,
     newKeyPhrasesDetectionJobProperties,
     keyPhrasesDetectionJobProperties_dataAccessRoleArn,
     keyPhrasesDetectionJobProperties_endTime,
@@ -607,25 +608,25 @@ module Amazonka.Comprehend.Types
     keyPhrasesDetectionJobProperties_vpcConfig,
 
     -- * MentionSentiment
-    MentionSentiment (..),
+    MentionSentiment,
     newMentionSentiment,
     mentionSentiment_sentiment,
     mentionSentiment_sentimentScore,
 
     -- * OutputDataConfig
-    OutputDataConfig (..),
+    OutputDataConfig,
     newOutputDataConfig,
     outputDataConfig_kmsKeyId,
     outputDataConfig_s3Uri,
 
     -- * PartOfSpeechTag
-    PartOfSpeechTag (..),
+    PartOfSpeechTag,
     newPartOfSpeechTag,
     partOfSpeechTag_score,
     partOfSpeechTag_tag,
 
     -- * PiiEntitiesDetectionJobFilter
-    PiiEntitiesDetectionJobFilter (..),
+    PiiEntitiesDetectionJobFilter,
     newPiiEntitiesDetectionJobFilter,
     piiEntitiesDetectionJobFilter_jobName,
     piiEntitiesDetectionJobFilter_jobStatus,
@@ -633,7 +634,7 @@ module Amazonka.Comprehend.Types
     piiEntitiesDetectionJobFilter_submitTimeBefore,
 
     -- * PiiEntitiesDetectionJobProperties
-    PiiEntitiesDetectionJobProperties (..),
+    PiiEntitiesDetectionJobProperties,
     newPiiEntitiesDetectionJobProperties,
     piiEntitiesDetectionJobProperties_dataAccessRoleArn,
     piiEntitiesDetectionJobProperties_endTime,
@@ -650,7 +651,7 @@ module Amazonka.Comprehend.Types
     piiEntitiesDetectionJobProperties_submitTime,
 
     -- * PiiEntity
-    PiiEntity (..),
+    PiiEntity,
     newPiiEntity,
     piiEntity_beginOffset,
     piiEntity_endOffset,
@@ -658,32 +659,32 @@ module Amazonka.Comprehend.Types
     piiEntity_type,
 
     -- * PiiOutputDataConfig
-    PiiOutputDataConfig (..),
+    PiiOutputDataConfig,
     newPiiOutputDataConfig,
     piiOutputDataConfig_kmsKeyId,
     piiOutputDataConfig_s3Uri,
 
     -- * Point
-    Point (..),
+    Point,
     newPoint,
     point_x,
     point_y,
 
     -- * RedactionConfig
-    RedactionConfig (..),
+    RedactionConfig,
     newRedactionConfig,
     redactionConfig_maskCharacter,
     redactionConfig_maskMode,
     redactionConfig_piiEntityTypes,
 
     -- * RelationshipsListItem
-    RelationshipsListItem (..),
+    RelationshipsListItem,
     newRelationshipsListItem,
     relationshipsListItem_ids,
     relationshipsListItem_type,
 
     -- * SentimentDetectionJobFilter
-    SentimentDetectionJobFilter (..),
+    SentimentDetectionJobFilter,
     newSentimentDetectionJobFilter,
     sentimentDetectionJobFilter_jobName,
     sentimentDetectionJobFilter_jobStatus,
@@ -691,7 +692,7 @@ module Amazonka.Comprehend.Types
     sentimentDetectionJobFilter_submitTimeBefore,
 
     -- * SentimentDetectionJobProperties
-    SentimentDetectionJobProperties (..),
+    SentimentDetectionJobProperties,
     newSentimentDetectionJobProperties,
     sentimentDetectionJobProperties_dataAccessRoleArn,
     sentimentDetectionJobProperties_endTime,
@@ -708,7 +709,7 @@ module Amazonka.Comprehend.Types
     sentimentDetectionJobProperties_vpcConfig,
 
     -- * SentimentScore
-    SentimentScore (..),
+    SentimentScore,
     newSentimentScore,
     sentimentScore_mixed,
     sentimentScore_negative,
@@ -716,7 +717,7 @@ module Amazonka.Comprehend.Types
     sentimentScore_positive,
 
     -- * SyntaxToken
-    SyntaxToken (..),
+    SyntaxToken,
     newSyntaxToken,
     syntaxToken_beginOffset,
     syntaxToken_endOffset,
@@ -725,13 +726,13 @@ module Amazonka.Comprehend.Types
     syntaxToken_tokenId,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_value,
     tag_key,
 
     -- * TargetedSentimentDetectionJobFilter
-    TargetedSentimentDetectionJobFilter (..),
+    TargetedSentimentDetectionJobFilter,
     newTargetedSentimentDetectionJobFilter,
     targetedSentimentDetectionJobFilter_jobName,
     targetedSentimentDetectionJobFilter_jobStatus,
@@ -739,7 +740,7 @@ module Amazonka.Comprehend.Types
     targetedSentimentDetectionJobFilter_submitTimeBefore,
 
     -- * TargetedSentimentDetectionJobProperties
-    TargetedSentimentDetectionJobProperties (..),
+    TargetedSentimentDetectionJobProperties,
     newTargetedSentimentDetectionJobProperties,
     targetedSentimentDetectionJobProperties_dataAccessRoleArn,
     targetedSentimentDetectionJobProperties_endTime,
@@ -756,13 +757,13 @@ module Amazonka.Comprehend.Types
     targetedSentimentDetectionJobProperties_vpcConfig,
 
     -- * TargetedSentimentEntity
-    TargetedSentimentEntity (..),
+    TargetedSentimentEntity,
     newTargetedSentimentEntity,
     targetedSentimentEntity_descriptiveMentionIndex,
     targetedSentimentEntity_mentions,
 
     -- * TargetedSentimentMention
-    TargetedSentimentMention (..),
+    TargetedSentimentMention,
     newTargetedSentimentMention,
     targetedSentimentMention_beginOffset,
     targetedSentimentMention_endOffset,
@@ -773,7 +774,7 @@ module Amazonka.Comprehend.Types
     targetedSentimentMention_type,
 
     -- * TopicsDetectionJobFilter
-    TopicsDetectionJobFilter (..),
+    TopicsDetectionJobFilter,
     newTopicsDetectionJobFilter,
     topicsDetectionJobFilter_jobName,
     topicsDetectionJobFilter_jobStatus,
@@ -781,7 +782,7 @@ module Amazonka.Comprehend.Types
     topicsDetectionJobFilter_submitTimeBefore,
 
     -- * TopicsDetectionJobProperties
-    TopicsDetectionJobProperties (..),
+    TopicsDetectionJobProperties,
     newTopicsDetectionJobProperties,
     topicsDetectionJobProperties_dataAccessRoleArn,
     topicsDetectionJobProperties_endTime,
@@ -798,7 +799,7 @@ module Amazonka.Comprehend.Types
     topicsDetectionJobProperties_vpcConfig,
 
     -- * VpcConfig
-    VpcConfig (..),
+    VpcConfig,
     newVpcConfig,
     vpcConfig_securityGroupIds,
     vpcConfig_subnets,

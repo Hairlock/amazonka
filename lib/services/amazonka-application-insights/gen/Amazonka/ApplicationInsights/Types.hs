@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -28,43 +29,43 @@ module Amazonka.ApplicationInsights.Types
     _ValidationException,
 
     -- * CloudWatchEventSource
-    CloudWatchEventSource (..),
+    CloudWatchEventSource,
 
     -- * ConfigurationEventResourceType
-    ConfigurationEventResourceType (..),
+    ConfigurationEventResourceType,
 
     -- * ConfigurationEventStatus
-    ConfigurationEventStatus (..),
+    ConfigurationEventStatus,
 
     -- * DiscoveryType
-    DiscoveryType (..),
+    DiscoveryType,
 
     -- * FeedbackKey
-    FeedbackKey (..),
+    FeedbackKey,
 
     -- * FeedbackValue
-    FeedbackValue (..),
+    FeedbackValue,
 
     -- * GroupingType
-    GroupingType (..),
+    GroupingType,
 
     -- * LogFilter
-    LogFilter (..),
+    LogFilter,
 
     -- * OsType
-    OsType (..),
+    OsType,
 
     -- * SeverityLevel
-    SeverityLevel (..),
+    SeverityLevel,
 
     -- * Status
-    Status (..),
+    Status,
 
     -- * Tier
-    Tier (..),
+    Tier,
 
     -- * ApplicationComponent
-    ApplicationComponent (..),
+    ApplicationComponent,
     newApplicationComponent,
     applicationComponent_componentName,
     applicationComponent_componentRemarks,
@@ -75,7 +76,7 @@ module Amazonka.ApplicationInsights.Types
     applicationComponent_tier,
 
     -- * ApplicationInfo
-    ApplicationInfo (..),
+    ApplicationInfo,
     newApplicationInfo,
     applicationInfo_autoConfigEnabled,
     applicationInfo_cWEMonitorEnabled,
@@ -87,7 +88,7 @@ module Amazonka.ApplicationInsights.Types
     applicationInfo_resourceGroupName,
 
     -- * ConfigurationEvent
-    ConfigurationEvent (..),
+    ConfigurationEvent,
     newConfigurationEvent,
     configurationEvent_eventDetail,
     configurationEvent_eventResourceName,
@@ -97,7 +98,7 @@ module Amazonka.ApplicationInsights.Types
     configurationEvent_monitoredResourceARN,
 
     -- * LogPattern
-    LogPattern (..),
+    LogPattern,
     newLogPattern,
     logPattern_pattern,
     logPattern_patternName,
@@ -105,7 +106,7 @@ module Amazonka.ApplicationInsights.Types
     logPattern_rank,
 
     -- * Observation
-    Observation (..),
+    Observation,
     newObservation,
     observation_cloudWatchEventDetailType,
     observation_cloudWatchEventId,
@@ -154,7 +155,7 @@ module Amazonka.ApplicationInsights.Types
     observation_xRayThrottlePercent,
 
     -- * Problem
-    Problem (..),
+    Problem,
     newProblem,
     problem_affectedResource,
     problem_endTime,
@@ -170,12 +171,12 @@ module Amazonka.ApplicationInsights.Types
     problem_title,
 
     -- * RelatedObservations
-    RelatedObservations (..),
+    RelatedObservations,
     newRelatedObservations,
     relatedObservations_observationList,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,

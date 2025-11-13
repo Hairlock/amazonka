@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -25,22 +26,22 @@ module Amazonka.Pricing.Types
     _NotFoundException,
 
     -- * FilterType
-    FilterType (..),
+    FilterType,
 
     -- * AttributeValue
-    AttributeValue (..),
+    AttributeValue,
     newAttributeValue,
     attributeValue_value,
 
     -- * Filter
-    Filter (..),
+    Filter,
     newFilter,
     filter_type,
     filter_field,
     filter_value,
 
     -- * PricingService
-    PricingService (..),
+    PricingService,
     newPricingService,
     pricingService_attributeNames,
     pricingService_serviceCode,

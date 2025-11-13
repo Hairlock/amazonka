@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -56,146 +57,146 @@ module Amazonka.DynamoDB.Types
     module Amazonka.DynamoDB.Types.WriteRequest,
 
     -- * AttributeAction
-    AttributeAction (..),
+    AttributeAction,
 
     -- * BackupStatus
-    BackupStatus (..),
+    BackupStatus,
 
     -- * BackupType
-    BackupType (..),
+    BackupType,
 
     -- * BackupTypeFilter
-    BackupTypeFilter (..),
+    BackupTypeFilter,
 
     -- * BatchStatementErrorCodeEnum
-    BatchStatementErrorCodeEnum (..),
+    BatchStatementErrorCodeEnum,
 
     -- * BillingMode
-    BillingMode (..),
+    BillingMode,
 
     -- * ComparisonOperator
-    ComparisonOperator (..),
+    ComparisonOperator,
 
     -- * ConditionalOperator
-    ConditionalOperator (..),
+    ConditionalOperator,
 
     -- * ContinuousBackupsStatus
-    ContinuousBackupsStatus (..),
+    ContinuousBackupsStatus,
 
     -- * ContributorInsightsAction
-    ContributorInsightsAction (..),
+    ContributorInsightsAction,
 
     -- * ContributorInsightsStatus
-    ContributorInsightsStatus (..),
+    ContributorInsightsStatus,
 
     -- * DestinationStatus
-    DestinationStatus (..),
+    DestinationStatus,
 
     -- * ExportFormat
-    ExportFormat (..),
+    ExportFormat,
 
     -- * ExportStatus
-    ExportStatus (..),
+    ExportStatus,
 
     -- * GlobalTableStatus
-    GlobalTableStatus (..),
+    GlobalTableStatus,
 
     -- * ImportStatus
-    ImportStatus (..),
+    ImportStatus,
 
     -- * IndexStatus
-    IndexStatus (..),
+    IndexStatus,
 
     -- * InputCompressionType
-    InputCompressionType (..),
+    InputCompressionType,
 
     -- * InputFormat
-    InputFormat (..),
+    InputFormat,
 
     -- * KeyType
-    KeyType (..),
+    KeyType,
 
     -- * PointInTimeRecoveryStatus
-    PointInTimeRecoveryStatus (..),
+    PointInTimeRecoveryStatus,
 
     -- * ProjectionType
-    ProjectionType (..),
+    ProjectionType,
 
     -- * ReplicaStatus
-    ReplicaStatus (..),
+    ReplicaStatus,
 
     -- * ReturnConsumedCapacity
-    ReturnConsumedCapacity (..),
+    ReturnConsumedCapacity,
 
     -- * ReturnItemCollectionMetrics
-    ReturnItemCollectionMetrics (..),
+    ReturnItemCollectionMetrics,
 
     -- * ReturnValue
-    ReturnValue (..),
+    ReturnValue,
 
     -- * ReturnValuesOnConditionCheckFailure
-    ReturnValuesOnConditionCheckFailure (..),
+    ReturnValuesOnConditionCheckFailure,
 
     -- * S3SseAlgorithm
-    S3SseAlgorithm (..),
+    S3SseAlgorithm,
 
     -- * SSEStatus
-    SSEStatus (..),
+    SSEStatus,
 
     -- * SSEType
-    SSEType (..),
+    SSEType,
 
     -- * ScalarAttributeType
-    ScalarAttributeType (..),
+    ScalarAttributeType,
 
     -- * Select
-    Select (..),
+    Select,
 
     -- * StreamViewType
-    StreamViewType (..),
+    StreamViewType,
 
     -- * TableClass
-    TableClass (..),
+    TableClass,
 
     -- * TableStatus
-    TableStatus (..),
+    TableStatus,
 
     -- * TimeToLiveStatus
-    TimeToLiveStatus (..),
+    TimeToLiveStatus,
 
     -- * ArchivalSummary
-    ArchivalSummary (..),
+    ArchivalSummary,
     newArchivalSummary,
     archivalSummary_archivalBackupArn,
     archivalSummary_archivalDateTime,
     archivalSummary_archivalReason,
 
     -- * AttributeDefinition
-    AttributeDefinition (..),
+    AttributeDefinition,
     newAttributeDefinition,
     attributeDefinition_attributeName,
     attributeDefinition_attributeType,
 
     -- * AttributeValueUpdate
-    AttributeValueUpdate (..),
+    AttributeValueUpdate,
     newAttributeValueUpdate,
     attributeValueUpdate_action,
     attributeValueUpdate_value,
 
     -- * AutoScalingPolicyDescription
-    AutoScalingPolicyDescription (..),
+    AutoScalingPolicyDescription,
     newAutoScalingPolicyDescription,
     autoScalingPolicyDescription_policyName,
     autoScalingPolicyDescription_targetTrackingScalingPolicyConfiguration,
 
     -- * AutoScalingPolicyUpdate
-    AutoScalingPolicyUpdate (..),
+    AutoScalingPolicyUpdate,
     newAutoScalingPolicyUpdate,
     autoScalingPolicyUpdate_policyName,
     autoScalingPolicyUpdate_targetTrackingScalingPolicyConfiguration,
 
     -- * AutoScalingSettingsDescription
-    AutoScalingSettingsDescription (..),
+    AutoScalingSettingsDescription,
     newAutoScalingSettingsDescription,
     autoScalingSettingsDescription_autoScalingDisabled,
     autoScalingSettingsDescription_autoScalingRoleArn,
@@ -204,7 +205,7 @@ module Amazonka.DynamoDB.Types
     autoScalingSettingsDescription_scalingPolicies,
 
     -- * AutoScalingSettingsUpdate
-    AutoScalingSettingsUpdate (..),
+    AutoScalingSettingsUpdate,
     newAutoScalingSettingsUpdate,
     autoScalingSettingsUpdate_autoScalingDisabled,
     autoScalingSettingsUpdate_autoScalingRoleArn,
@@ -213,7 +214,7 @@ module Amazonka.DynamoDB.Types
     autoScalingSettingsUpdate_scalingPolicyUpdate,
 
     -- * AutoScalingTargetTrackingScalingPolicyConfigurationDescription
-    AutoScalingTargetTrackingScalingPolicyConfigurationDescription (..),
+    AutoScalingTargetTrackingScalingPolicyConfigurationDescription,
     newAutoScalingTargetTrackingScalingPolicyConfigurationDescription,
     autoScalingTargetTrackingScalingPolicyConfigurationDescription_disableScaleIn,
     autoScalingTargetTrackingScalingPolicyConfigurationDescription_scaleInCooldown,
@@ -221,7 +222,7 @@ module Amazonka.DynamoDB.Types
     autoScalingTargetTrackingScalingPolicyConfigurationDescription_targetValue,
 
     -- * AutoScalingTargetTrackingScalingPolicyConfigurationUpdate
-    AutoScalingTargetTrackingScalingPolicyConfigurationUpdate (..),
+    AutoScalingTargetTrackingScalingPolicyConfigurationUpdate,
     newAutoScalingTargetTrackingScalingPolicyConfigurationUpdate,
     autoScalingTargetTrackingScalingPolicyConfigurationUpdate_disableScaleIn,
     autoScalingTargetTrackingScalingPolicyConfigurationUpdate_scaleInCooldown,
@@ -229,14 +230,14 @@ module Amazonka.DynamoDB.Types
     autoScalingTargetTrackingScalingPolicyConfigurationUpdate_targetValue,
 
     -- * BackupDescription
-    BackupDescription (..),
+    BackupDescription,
     newBackupDescription,
     backupDescription_backupDetails,
     backupDescription_sourceTableDetails,
     backupDescription_sourceTableFeatureDetails,
 
     -- * BackupDetails
-    BackupDetails (..),
+    BackupDetails,
     newBackupDetails,
     backupDetails_backupExpiryDateTime,
     backupDetails_backupSizeBytes,
@@ -247,7 +248,7 @@ module Amazonka.DynamoDB.Types
     backupDetails_backupCreationDateTime,
 
     -- * BackupSummary
-    BackupSummary (..),
+    BackupSummary,
     newBackupSummary,
     backupSummary_backupArn,
     backupSummary_backupCreationDateTime,
@@ -261,46 +262,46 @@ module Amazonka.DynamoDB.Types
     backupSummary_tableName,
 
     -- * BatchStatementError
-    BatchStatementError (..),
+    BatchStatementError,
     newBatchStatementError,
     batchStatementError_code,
     batchStatementError_message,
 
     -- * BatchStatementRequest
-    BatchStatementRequest (..),
+    BatchStatementRequest,
     newBatchStatementRequest,
     batchStatementRequest_consistentRead,
     batchStatementRequest_parameters,
     batchStatementRequest_statement,
 
     -- * BatchStatementResponse
-    BatchStatementResponse (..),
+    BatchStatementResponse,
     newBatchStatementResponse,
     batchStatementResponse_error,
     batchStatementResponse_item,
     batchStatementResponse_tableName,
 
     -- * BillingModeSummary
-    BillingModeSummary (..),
+    BillingModeSummary,
     newBillingModeSummary,
     billingModeSummary_billingMode,
     billingModeSummary_lastUpdateToPayPerRequestDateTime,
 
     -- * Capacity
-    Capacity (..),
+    Capacity,
     newCapacity,
     capacity_capacityUnits,
     capacity_readCapacityUnits,
     capacity_writeCapacityUnits,
 
     -- * Condition
-    Condition (..),
+    Condition,
     newCondition,
     condition_attributeValueList,
     condition_comparisonOperator,
 
     -- * ConditionCheck
-    ConditionCheck (..),
+    ConditionCheck,
     newConditionCheck,
     conditionCheck_expressionAttributeNames,
     conditionCheck_expressionAttributeValues,
@@ -310,7 +311,7 @@ module Amazonka.DynamoDB.Types
     conditionCheck_conditionExpression,
 
     -- * ConsumedCapacity
-    ConsumedCapacity (..),
+    ConsumedCapacity,
     newConsumedCapacity,
     consumedCapacity_capacityUnits,
     consumedCapacity_globalSecondaryIndexes,
@@ -321,20 +322,20 @@ module Amazonka.DynamoDB.Types
     consumedCapacity_writeCapacityUnits,
 
     -- * ContinuousBackupsDescription
-    ContinuousBackupsDescription (..),
+    ContinuousBackupsDescription,
     newContinuousBackupsDescription,
     continuousBackupsDescription_pointInTimeRecoveryDescription,
     continuousBackupsDescription_continuousBackupsStatus,
 
     -- * ContributorInsightsSummary
-    ContributorInsightsSummary (..),
+    ContributorInsightsSummary,
     newContributorInsightsSummary,
     contributorInsightsSummary_contributorInsightsStatus,
     contributorInsightsSummary_indexName,
     contributorInsightsSummary_tableName,
 
     -- * CreateGlobalSecondaryIndexAction
-    CreateGlobalSecondaryIndexAction (..),
+    CreateGlobalSecondaryIndexAction,
     newCreateGlobalSecondaryIndexAction,
     createGlobalSecondaryIndexAction_provisionedThroughput,
     createGlobalSecondaryIndexAction_indexName,
@@ -342,12 +343,12 @@ module Amazonka.DynamoDB.Types
     createGlobalSecondaryIndexAction_projection,
 
     -- * CreateReplicaAction
-    CreateReplicaAction (..),
+    CreateReplicaAction,
     newCreateReplicaAction,
     createReplicaAction_regionName,
 
     -- * CreateReplicationGroupMemberAction
-    CreateReplicationGroupMemberAction (..),
+    CreateReplicationGroupMemberAction,
     newCreateReplicationGroupMemberAction,
     createReplicationGroupMemberAction_globalSecondaryIndexes,
     createReplicationGroupMemberAction_kmsMasterKeyId,
@@ -356,13 +357,13 @@ module Amazonka.DynamoDB.Types
     createReplicationGroupMemberAction_regionName,
 
     -- * CsvOptions
-    CsvOptions (..),
+    CsvOptions,
     newCsvOptions,
     csvOptions_delimiter,
     csvOptions_headerList,
 
     -- * Delete
-    Delete (..),
+    Delete,
     newDelete,
     delete_conditionExpression,
     delete_expressionAttributeNames,
@@ -372,28 +373,28 @@ module Amazonka.DynamoDB.Types
     delete_tableName,
 
     -- * DeleteGlobalSecondaryIndexAction
-    DeleteGlobalSecondaryIndexAction (..),
+    DeleteGlobalSecondaryIndexAction,
     newDeleteGlobalSecondaryIndexAction,
     deleteGlobalSecondaryIndexAction_indexName,
 
     -- * DeleteReplicaAction
-    DeleteReplicaAction (..),
+    DeleteReplicaAction,
     newDeleteReplicaAction,
     deleteReplicaAction_regionName,
 
     -- * DeleteReplicationGroupMemberAction
-    DeleteReplicationGroupMemberAction (..),
+    DeleteReplicationGroupMemberAction,
     newDeleteReplicationGroupMemberAction,
     deleteReplicationGroupMemberAction_regionName,
 
     -- * Endpoint
-    Endpoint (..),
+    Endpoint,
     newEndpoint,
     endpoint_address,
     endpoint_cachePeriodInMinutes,
 
     -- * ExpectedAttributeValue
-    ExpectedAttributeValue (..),
+    ExpectedAttributeValue,
     newExpectedAttributeValue,
     expectedAttributeValue_attributeValueList,
     expectedAttributeValue_comparisonOperator,
@@ -401,7 +402,7 @@ module Amazonka.DynamoDB.Types
     expectedAttributeValue_value,
 
     -- * ExportDescription
-    ExportDescription (..),
+    ExportDescription,
     newExportDescription,
     exportDescription_billedSizeBytes,
     exportDescription_clientToken,
@@ -424,19 +425,19 @@ module Amazonka.DynamoDB.Types
     exportDescription_tableId,
 
     -- * ExportSummary
-    ExportSummary (..),
+    ExportSummary,
     newExportSummary,
     exportSummary_exportArn,
     exportSummary_exportStatus,
 
     -- * FailureException
-    FailureException (..),
+    FailureException,
     newFailureException,
     failureException_exceptionDescription,
     failureException_exceptionName,
 
     -- * Get
-    Get (..),
+    Get,
     newGet,
     get_expressionAttributeNames,
     get_projectionExpression,
@@ -444,7 +445,7 @@ module Amazonka.DynamoDB.Types
     get_tableName,
 
     -- * GlobalSecondaryIndex
-    GlobalSecondaryIndex (..),
+    GlobalSecondaryIndex,
     newGlobalSecondaryIndex,
     globalSecondaryIndex_provisionedThroughput,
     globalSecondaryIndex_indexName,
@@ -452,13 +453,13 @@ module Amazonka.DynamoDB.Types
     globalSecondaryIndex_projection,
 
     -- * GlobalSecondaryIndexAutoScalingUpdate
-    GlobalSecondaryIndexAutoScalingUpdate (..),
+    GlobalSecondaryIndexAutoScalingUpdate,
     newGlobalSecondaryIndexAutoScalingUpdate,
     globalSecondaryIndexAutoScalingUpdate_indexName,
     globalSecondaryIndexAutoScalingUpdate_provisionedWriteCapacityAutoScalingUpdate,
 
     -- * GlobalSecondaryIndexDescription
-    GlobalSecondaryIndexDescription (..),
+    GlobalSecondaryIndexDescription,
     newGlobalSecondaryIndexDescription,
     globalSecondaryIndexDescription_backfilling,
     globalSecondaryIndexDescription_indexArn,
@@ -471,7 +472,7 @@ module Amazonka.DynamoDB.Types
     globalSecondaryIndexDescription_provisionedThroughput,
 
     -- * GlobalSecondaryIndexInfo
-    GlobalSecondaryIndexInfo (..),
+    GlobalSecondaryIndexInfo,
     newGlobalSecondaryIndexInfo,
     globalSecondaryIndexInfo_indexName,
     globalSecondaryIndexInfo_keySchema,
@@ -479,20 +480,20 @@ module Amazonka.DynamoDB.Types
     globalSecondaryIndexInfo_provisionedThroughput,
 
     -- * GlobalSecondaryIndexUpdate
-    GlobalSecondaryIndexUpdate (..),
+    GlobalSecondaryIndexUpdate,
     newGlobalSecondaryIndexUpdate,
     globalSecondaryIndexUpdate_create,
     globalSecondaryIndexUpdate_delete,
     globalSecondaryIndexUpdate_update,
 
     -- * GlobalTable
-    GlobalTable (..),
+    GlobalTable,
     newGlobalTable,
     globalTable_globalTableName,
     globalTable_replicationGroup,
 
     -- * GlobalTableDescription
-    GlobalTableDescription (..),
+    GlobalTableDescription,
     newGlobalTableDescription,
     globalTableDescription_creationDateTime,
     globalTableDescription_globalTableArn,
@@ -501,14 +502,14 @@ module Amazonka.DynamoDB.Types
     globalTableDescription_replicationGroup,
 
     -- * GlobalTableGlobalSecondaryIndexSettingsUpdate
-    GlobalTableGlobalSecondaryIndexSettingsUpdate (..),
+    GlobalTableGlobalSecondaryIndexSettingsUpdate,
     newGlobalTableGlobalSecondaryIndexSettingsUpdate,
     globalTableGlobalSecondaryIndexSettingsUpdate_provisionedWriteCapacityAutoScalingSettingsUpdate,
     globalTableGlobalSecondaryIndexSettingsUpdate_provisionedWriteCapacityUnits,
     globalTableGlobalSecondaryIndexSettingsUpdate_indexName,
 
     -- * ImportSummary
-    ImportSummary (..),
+    ImportSummary,
     newImportSummary,
     importSummary_cloudWatchLogGroupArn,
     importSummary_endTime,
@@ -520,7 +521,7 @@ module Amazonka.DynamoDB.Types
     importSummary_tableArn,
 
     -- * ImportTableDescription
-    ImportTableDescription (..),
+    ImportTableDescription,
     newImportTableDescription,
     importTableDescription_clientToken,
     importTableDescription_cloudWatchLogGroupArn,
@@ -543,29 +544,29 @@ module Amazonka.DynamoDB.Types
     importTableDescription_tableId,
 
     -- * InputFormatOptions
-    InputFormatOptions (..),
+    InputFormatOptions,
     newInputFormatOptions,
     inputFormatOptions_csv,
 
     -- * ItemCollectionMetrics
-    ItemCollectionMetrics (..),
+    ItemCollectionMetrics,
     newItemCollectionMetrics,
     itemCollectionMetrics_itemCollectionKey,
     itemCollectionMetrics_sizeEstimateRangeGB,
 
     -- * ItemResponse
-    ItemResponse (..),
+    ItemResponse,
     newItemResponse,
     itemResponse_item,
 
     -- * KeySchemaElement
-    KeySchemaElement (..),
+    KeySchemaElement,
     newKeySchemaElement,
     keySchemaElement_attributeName,
     keySchemaElement_keyType,
 
     -- * KeysAndAttributes
-    KeysAndAttributes (..),
+    KeysAndAttributes,
     newKeysAndAttributes,
     keysAndAttributes_attributesToGet,
     keysAndAttributes_consistentRead,
@@ -574,34 +575,34 @@ module Amazonka.DynamoDB.Types
     keysAndAttributes_keys,
 
     -- * KinesisDataStreamDestination
-    KinesisDataStreamDestination (..),
+    KinesisDataStreamDestination,
     newKinesisDataStreamDestination,
     kinesisDataStreamDestination_destinationStatus,
     kinesisDataStreamDestination_destinationStatusDescription,
     kinesisDataStreamDestination_streamArn,
 
     -- * KinesisStreamingDestinationInput
-    KinesisStreamingDestinationInput (..),
+    KinesisStreamingDestinationInput,
     newKinesisStreamingDestinationInput,
     kinesisStreamingDestinationInput_tableName,
     kinesisStreamingDestinationInput_streamArn,
 
     -- * KinesisStreamingDestinationOutput
-    KinesisStreamingDestinationOutput (..),
+    KinesisStreamingDestinationOutput,
     newKinesisStreamingDestinationOutput,
     kinesisStreamingDestinationOutput_destinationStatus,
     kinesisStreamingDestinationOutput_streamArn,
     kinesisStreamingDestinationOutput_tableName,
 
     -- * LocalSecondaryIndex
-    LocalSecondaryIndex (..),
+    LocalSecondaryIndex,
     newLocalSecondaryIndex,
     localSecondaryIndex_indexName,
     localSecondaryIndex_keySchema,
     localSecondaryIndex_projection,
 
     -- * LocalSecondaryIndexDescription
-    LocalSecondaryIndexDescription (..),
+    LocalSecondaryIndexDescription,
     newLocalSecondaryIndexDescription,
     localSecondaryIndexDescription_indexArn,
     localSecondaryIndexDescription_indexName,
@@ -611,44 +612,44 @@ module Amazonka.DynamoDB.Types
     localSecondaryIndexDescription_projection,
 
     -- * LocalSecondaryIndexInfo
-    LocalSecondaryIndexInfo (..),
+    LocalSecondaryIndexInfo,
     newLocalSecondaryIndexInfo,
     localSecondaryIndexInfo_indexName,
     localSecondaryIndexInfo_keySchema,
     localSecondaryIndexInfo_projection,
 
     -- * ParameterizedStatement
-    ParameterizedStatement (..),
+    ParameterizedStatement,
     newParameterizedStatement,
     parameterizedStatement_parameters,
     parameterizedStatement_statement,
 
     -- * PointInTimeRecoveryDescription
-    PointInTimeRecoveryDescription (..),
+    PointInTimeRecoveryDescription,
     newPointInTimeRecoveryDescription,
     pointInTimeRecoveryDescription_earliestRestorableDateTime,
     pointInTimeRecoveryDescription_latestRestorableDateTime,
     pointInTimeRecoveryDescription_pointInTimeRecoveryStatus,
 
     -- * PointInTimeRecoverySpecification
-    PointInTimeRecoverySpecification (..),
+    PointInTimeRecoverySpecification,
     newPointInTimeRecoverySpecification,
     pointInTimeRecoverySpecification_pointInTimeRecoveryEnabled,
 
     -- * Projection
-    Projection (..),
+    Projection,
     newProjection,
     projection_nonKeyAttributes,
     projection_projectionType,
 
     -- * ProvisionedThroughput
-    ProvisionedThroughput (..),
+    ProvisionedThroughput,
     newProvisionedThroughput,
     provisionedThroughput_readCapacityUnits,
     provisionedThroughput_writeCapacityUnits,
 
     -- * ProvisionedThroughputDescription
-    ProvisionedThroughputDescription (..),
+    ProvisionedThroughputDescription,
     newProvisionedThroughputDescription,
     provisionedThroughputDescription_lastDecreaseDateTime,
     provisionedThroughputDescription_lastIncreaseDateTime,
@@ -657,12 +658,12 @@ module Amazonka.DynamoDB.Types
     provisionedThroughputDescription_writeCapacityUnits,
 
     -- * ProvisionedThroughputOverride
-    ProvisionedThroughputOverride (..),
+    ProvisionedThroughputOverride,
     newProvisionedThroughputOverride,
     provisionedThroughputOverride_readCapacityUnits,
 
     -- * Put
-    Put (..),
+    Put,
     newPut,
     put_conditionExpression,
     put_expressionAttributeNames,
@@ -672,12 +673,12 @@ module Amazonka.DynamoDB.Types
     put_tableName,
 
     -- * Replica
-    Replica (..),
+    Replica,
     newReplica,
     replica_regionName,
 
     -- * ReplicaAutoScalingDescription
-    ReplicaAutoScalingDescription (..),
+    ReplicaAutoScalingDescription,
     newReplicaAutoScalingDescription,
     replicaAutoScalingDescription_globalSecondaryIndexes,
     replicaAutoScalingDescription_regionName,
@@ -686,14 +687,14 @@ module Amazonka.DynamoDB.Types
     replicaAutoScalingDescription_replicaStatus,
 
     -- * ReplicaAutoScalingUpdate
-    ReplicaAutoScalingUpdate (..),
+    ReplicaAutoScalingUpdate,
     newReplicaAutoScalingUpdate,
     replicaAutoScalingUpdate_replicaGlobalSecondaryIndexUpdates,
     replicaAutoScalingUpdate_replicaProvisionedReadCapacityAutoScalingUpdate,
     replicaAutoScalingUpdate_regionName,
 
     -- * ReplicaDescription
-    ReplicaDescription (..),
+    ReplicaDescription,
     newReplicaDescription,
     replicaDescription_globalSecondaryIndexes,
     replicaDescription_kmsMasterKeyId,
@@ -706,13 +707,13 @@ module Amazonka.DynamoDB.Types
     replicaDescription_replicaTableClassSummary,
 
     -- * ReplicaGlobalSecondaryIndex
-    ReplicaGlobalSecondaryIndex (..),
+    ReplicaGlobalSecondaryIndex,
     newReplicaGlobalSecondaryIndex,
     replicaGlobalSecondaryIndex_provisionedThroughputOverride,
     replicaGlobalSecondaryIndex_indexName,
 
     -- * ReplicaGlobalSecondaryIndexAutoScalingDescription
-    ReplicaGlobalSecondaryIndexAutoScalingDescription (..),
+    ReplicaGlobalSecondaryIndexAutoScalingDescription,
     newReplicaGlobalSecondaryIndexAutoScalingDescription,
     replicaGlobalSecondaryIndexAutoScalingDescription_indexName,
     replicaGlobalSecondaryIndexAutoScalingDescription_indexStatus,
@@ -720,19 +721,19 @@ module Amazonka.DynamoDB.Types
     replicaGlobalSecondaryIndexAutoScalingDescription_provisionedWriteCapacityAutoScalingSettings,
 
     -- * ReplicaGlobalSecondaryIndexAutoScalingUpdate
-    ReplicaGlobalSecondaryIndexAutoScalingUpdate (..),
+    ReplicaGlobalSecondaryIndexAutoScalingUpdate,
     newReplicaGlobalSecondaryIndexAutoScalingUpdate,
     replicaGlobalSecondaryIndexAutoScalingUpdate_indexName,
     replicaGlobalSecondaryIndexAutoScalingUpdate_provisionedReadCapacityAutoScalingUpdate,
 
     -- * ReplicaGlobalSecondaryIndexDescription
-    ReplicaGlobalSecondaryIndexDescription (..),
+    ReplicaGlobalSecondaryIndexDescription,
     newReplicaGlobalSecondaryIndexDescription,
     replicaGlobalSecondaryIndexDescription_indexName,
     replicaGlobalSecondaryIndexDescription_provisionedThroughputOverride,
 
     -- * ReplicaGlobalSecondaryIndexSettingsDescription
-    ReplicaGlobalSecondaryIndexSettingsDescription (..),
+    ReplicaGlobalSecondaryIndexSettingsDescription,
     newReplicaGlobalSecondaryIndexSettingsDescription,
     replicaGlobalSecondaryIndexSettingsDescription_indexStatus,
     replicaGlobalSecondaryIndexSettingsDescription_provisionedReadCapacityAutoScalingSettings,
@@ -742,14 +743,14 @@ module Amazonka.DynamoDB.Types
     replicaGlobalSecondaryIndexSettingsDescription_indexName,
 
     -- * ReplicaGlobalSecondaryIndexSettingsUpdate
-    ReplicaGlobalSecondaryIndexSettingsUpdate (..),
+    ReplicaGlobalSecondaryIndexSettingsUpdate,
     newReplicaGlobalSecondaryIndexSettingsUpdate,
     replicaGlobalSecondaryIndexSettingsUpdate_provisionedReadCapacityAutoScalingSettingsUpdate,
     replicaGlobalSecondaryIndexSettingsUpdate_provisionedReadCapacityUnits,
     replicaGlobalSecondaryIndexSettingsUpdate_indexName,
 
     -- * ReplicaSettingsDescription
-    ReplicaSettingsDescription (..),
+    ReplicaSettingsDescription,
     newReplicaSettingsDescription,
     replicaSettingsDescription_replicaBillingModeSummary,
     replicaSettingsDescription_replicaGlobalSecondaryIndexSettings,
@@ -762,7 +763,7 @@ module Amazonka.DynamoDB.Types
     replicaSettingsDescription_regionName,
 
     -- * ReplicaSettingsUpdate
-    ReplicaSettingsUpdate (..),
+    ReplicaSettingsUpdate,
     newReplicaSettingsUpdate,
     replicaSettingsUpdate_replicaGlobalSecondaryIndexSettingsUpdate,
     replicaSettingsUpdate_replicaProvisionedReadCapacityAutoScalingSettingsUpdate,
@@ -771,20 +772,20 @@ module Amazonka.DynamoDB.Types
     replicaSettingsUpdate_regionName,
 
     -- * ReplicaUpdate
-    ReplicaUpdate (..),
+    ReplicaUpdate,
     newReplicaUpdate,
     replicaUpdate_create,
     replicaUpdate_delete,
 
     -- * ReplicationGroupUpdate
-    ReplicationGroupUpdate (..),
+    ReplicationGroupUpdate,
     newReplicationGroupUpdate,
     replicationGroupUpdate_create,
     replicationGroupUpdate_delete,
     replicationGroupUpdate_update,
 
     -- * RestoreSummary
-    RestoreSummary (..),
+    RestoreSummary,
     newRestoreSummary,
     restoreSummary_sourceBackupArn,
     restoreSummary_sourceTableArn,
@@ -792,14 +793,14 @@ module Amazonka.DynamoDB.Types
     restoreSummary_restoreInProgress,
 
     -- * S3BucketSource
-    S3BucketSource (..),
+    S3BucketSource,
     newS3BucketSource,
     s3BucketSource_s3BucketOwner,
     s3BucketSource_s3KeyPrefix,
     s3BucketSource_s3Bucket,
 
     -- * SSEDescription
-    SSEDescription (..),
+    SSEDescription,
     newSSEDescription,
     sSEDescription_inaccessibleEncryptionDateTime,
     sSEDescription_kmsMasterKeyArn,
@@ -807,14 +808,14 @@ module Amazonka.DynamoDB.Types
     sSEDescription_status,
 
     -- * SSESpecification
-    SSESpecification (..),
+    SSESpecification,
     newSSESpecification,
     sSESpecification_enabled,
     sSESpecification_kmsMasterKeyId,
     sSESpecification_sSEType,
 
     -- * SourceTableDetails
-    SourceTableDetails (..),
+    SourceTableDetails,
     newSourceTableDetails,
     sourceTableDetails_billingMode,
     sourceTableDetails_itemCount,
@@ -827,7 +828,7 @@ module Amazonka.DynamoDB.Types
     sourceTableDetails_provisionedThroughput,
 
     -- * SourceTableFeatureDetails
-    SourceTableFeatureDetails (..),
+    SourceTableFeatureDetails,
     newSourceTableFeatureDetails,
     sourceTableFeatureDetails_globalSecondaryIndexes,
     sourceTableFeatureDetails_localSecondaryIndexes,
@@ -836,26 +837,26 @@ module Amazonka.DynamoDB.Types
     sourceTableFeatureDetails_timeToLiveDescription,
 
     -- * StreamSpecification
-    StreamSpecification (..),
+    StreamSpecification,
     newStreamSpecification,
     streamSpecification_streamViewType,
     streamSpecification_streamEnabled,
 
     -- * TableAutoScalingDescription
-    TableAutoScalingDescription (..),
+    TableAutoScalingDescription,
     newTableAutoScalingDescription,
     tableAutoScalingDescription_replicas,
     tableAutoScalingDescription_tableName,
     tableAutoScalingDescription_tableStatus,
 
     -- * TableClassSummary
-    TableClassSummary (..),
+    TableClassSummary,
     newTableClassSummary,
     tableClassSummary_lastUpdateDateTime,
     tableClassSummary_tableClass,
 
     -- * TableCreationParameters
-    TableCreationParameters (..),
+    TableCreationParameters,
     newTableCreationParameters,
     tableCreationParameters_billingMode,
     tableCreationParameters_globalSecondaryIndexes,
@@ -866,7 +867,7 @@ module Amazonka.DynamoDB.Types
     tableCreationParameters_keySchema,
 
     -- * TableDescription
-    TableDescription (..),
+    TableDescription,
     newTableDescription,
     tableDescription_archivalSummary,
     tableDescription_attributeDefinitions,
@@ -892,30 +893,30 @@ module Amazonka.DynamoDB.Types
     tableDescription_tableStatus,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,
 
     -- * TimeToLiveDescription
-    TimeToLiveDescription (..),
+    TimeToLiveDescription,
     newTimeToLiveDescription,
     timeToLiveDescription_attributeName,
     timeToLiveDescription_timeToLiveStatus,
 
     -- * TimeToLiveSpecification
-    TimeToLiveSpecification (..),
+    TimeToLiveSpecification,
     newTimeToLiveSpecification,
     timeToLiveSpecification_enabled,
     timeToLiveSpecification_attributeName,
 
     -- * TransactGetItem
-    TransactGetItem (..),
+    TransactGetItem,
     newTransactGetItem,
     transactGetItem_get,
 
     -- * Update
-    Update (..),
+    Update,
     newUpdate,
     update_conditionExpression,
     update_expressionAttributeNames,
@@ -926,13 +927,13 @@ module Amazonka.DynamoDB.Types
     update_tableName,
 
     -- * UpdateGlobalSecondaryIndexAction
-    UpdateGlobalSecondaryIndexAction (..),
+    UpdateGlobalSecondaryIndexAction,
     newUpdateGlobalSecondaryIndexAction,
     updateGlobalSecondaryIndexAction_indexName,
     updateGlobalSecondaryIndexAction_provisionedThroughput,
 
     -- * UpdateReplicationGroupMemberAction
-    UpdateReplicationGroupMemberAction (..),
+    UpdateReplicationGroupMemberAction,
     newUpdateReplicationGroupMemberAction,
     updateReplicationGroupMemberAction_globalSecondaryIndexes,
     updateReplicationGroupMemberAction_kmsMasterKeyId,

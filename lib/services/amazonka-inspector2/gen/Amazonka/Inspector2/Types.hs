@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -28,182 +29,182 @@ module Amazonka.Inspector2.Types
     _ValidationException,
 
     -- * AccountSortBy
-    AccountSortBy (..),
+    AccountSortBy,
 
     -- * AggregationFindingType
-    AggregationFindingType (..),
+    AggregationFindingType,
 
     -- * AggregationResourceType
-    AggregationResourceType (..),
+    AggregationResourceType,
 
     -- * AggregationType
-    AggregationType (..),
+    AggregationType,
 
     -- * AmiSortBy
-    AmiSortBy (..),
+    AmiSortBy,
 
     -- * Architecture
-    Architecture (..),
+    Architecture,
 
     -- * AwsEcrContainerSortBy
-    AwsEcrContainerSortBy (..),
+    AwsEcrContainerSortBy,
 
     -- * CoverageMapComparison
-    CoverageMapComparison (..),
+    CoverageMapComparison,
 
     -- * CoverageResourceType
-    CoverageResourceType (..),
+    CoverageResourceType,
 
     -- * CoverageStringComparison
-    CoverageStringComparison (..),
+    CoverageStringComparison,
 
     -- * Currency
-    Currency (..),
+    Currency,
 
     -- * DelegatedAdminStatus
-    DelegatedAdminStatus (..),
+    DelegatedAdminStatus,
 
     -- * Ec2InstanceSortBy
-    Ec2InstanceSortBy (..),
+    Ec2InstanceSortBy,
 
     -- * Ec2Platform
-    Ec2Platform (..),
+    Ec2Platform,
 
     -- * EcrRescanDuration
-    EcrRescanDuration (..),
+    EcrRescanDuration,
 
     -- * EcrRescanDurationStatus
-    EcrRescanDurationStatus (..),
+    EcrRescanDurationStatus,
 
     -- * EcrScanFrequency
-    EcrScanFrequency (..),
+    EcrScanFrequency,
 
     -- * ErrorCode
-    ErrorCode (..),
+    ErrorCode,
 
     -- * ExploitAvailable
-    ExploitAvailable (..),
+    ExploitAvailable,
 
     -- * ExternalReportStatus
-    ExternalReportStatus (..),
+    ExternalReportStatus,
 
     -- * FilterAction
-    FilterAction (..),
+    FilterAction,
 
     -- * FindingStatus
-    FindingStatus (..),
+    FindingStatus,
 
     -- * FindingType
-    FindingType (..),
+    FindingType,
 
     -- * FindingTypeSortBy
-    FindingTypeSortBy (..),
+    FindingTypeSortBy,
 
     -- * FixAvailable
-    FixAvailable (..),
+    FixAvailable,
 
     -- * FreeTrialInfoErrorCode
-    FreeTrialInfoErrorCode (..),
+    FreeTrialInfoErrorCode,
 
     -- * FreeTrialStatus
-    FreeTrialStatus (..),
+    FreeTrialStatus,
 
     -- * FreeTrialType
-    FreeTrialType (..),
+    FreeTrialType,
 
     -- * GroupKey
-    GroupKey (..),
+    GroupKey,
 
     -- * ImageLayerSortBy
-    ImageLayerSortBy (..),
+    ImageLayerSortBy,
 
     -- * LambdaFunctionSortBy
-    LambdaFunctionSortBy (..),
+    LambdaFunctionSortBy,
 
     -- * LambdaLayerSortBy
-    LambdaLayerSortBy (..),
+    LambdaLayerSortBy,
 
     -- * MapComparison
-    MapComparison (..),
+    MapComparison,
 
     -- * NetworkProtocol
-    NetworkProtocol (..),
+    NetworkProtocol,
 
     -- * Operation
-    Operation (..),
+    Operation,
 
     -- * PackageManager
-    PackageManager (..),
+    PackageManager,
 
     -- * PackageSortBy
-    PackageSortBy (..),
+    PackageSortBy,
 
     -- * PackageType
-    PackageType (..),
+    PackageType,
 
     -- * RelationshipStatus
-    RelationshipStatus (..),
+    RelationshipStatus,
 
     -- * ReportFormat
-    ReportFormat (..),
+    ReportFormat,
 
     -- * ReportingErrorCode
-    ReportingErrorCode (..),
+    ReportingErrorCode,
 
     -- * RepositorySortBy
-    RepositorySortBy (..),
+    RepositorySortBy,
 
     -- * ResourceScanType
-    ResourceScanType (..),
+    ResourceScanType,
 
     -- * ResourceType
-    ResourceType (..),
+    ResourceType,
 
     -- * Runtime
-    Runtime (..),
+    Runtime,
 
     -- * ScanStatusCode
-    ScanStatusCode (..),
+    ScanStatusCode,
 
     -- * ScanStatusReason
-    ScanStatusReason (..),
+    ScanStatusReason,
 
     -- * ScanType
-    ScanType (..),
+    ScanType,
 
     -- * Service
-    Service (..),
+    Service,
 
     -- * Severity
-    Severity (..),
+    Severity,
 
     -- * SortField
-    SortField (..),
+    SortField,
 
     -- * SortOrder
-    SortOrder (..),
+    SortOrder,
 
     -- * Status
-    Status (..),
+    Status,
 
     -- * StringComparison
-    StringComparison (..),
+    StringComparison,
 
     -- * TitleSortBy
-    TitleSortBy (..),
+    TitleSortBy,
 
     -- * UsageType
-    UsageType (..),
+    UsageType,
 
     -- * Account
-    Account (..),
+    Account,
     newAccount,
     account_accountId,
     account_resourceStatus,
     account_status,
 
     -- * AccountAggregation
-    AccountAggregation (..),
+    AccountAggregation,
     newAccountAggregation,
     accountAggregation_findingType,
     accountAggregation_resourceType,
@@ -211,20 +212,20 @@ module Amazonka.Inspector2.Types
     accountAggregation_sortOrder,
 
     -- * AccountAggregationResponse
-    AccountAggregationResponse (..),
+    AccountAggregationResponse,
     newAccountAggregationResponse,
     accountAggregationResponse_accountId,
     accountAggregationResponse_severityCounts,
 
     -- * AccountState
-    AccountState (..),
+    AccountState,
     newAccountState,
     accountState_accountId,
     accountState_resourceState,
     accountState_state,
 
     -- * AggregationRequest
-    AggregationRequest (..),
+    AggregationRequest,
     newAggregationRequest,
     aggregationRequest_accountAggregation,
     aggregationRequest_amiAggregation,
@@ -239,7 +240,7 @@ module Amazonka.Inspector2.Types
     aggregationRequest_titleAggregation,
 
     -- * AggregationResponse
-    AggregationResponse (..),
+    AggregationResponse,
     newAggregationResponse,
     aggregationResponse_accountAggregation,
     aggregationResponse_amiAggregation,
@@ -254,14 +255,14 @@ module Amazonka.Inspector2.Types
     aggregationResponse_titleAggregation,
 
     -- * AmiAggregation
-    AmiAggregation (..),
+    AmiAggregation,
     newAmiAggregation,
     amiAggregation_amis,
     amiAggregation_sortBy,
     amiAggregation_sortOrder,
 
     -- * AmiAggregationResponse
-    AmiAggregationResponse (..),
+    AmiAggregationResponse,
     newAmiAggregationResponse,
     amiAggregationResponse_accountId,
     amiAggregationResponse_affectedInstances,
@@ -269,14 +270,14 @@ module Amazonka.Inspector2.Types
     amiAggregationResponse_ami,
 
     -- * AutoEnable
-    AutoEnable (..),
+    AutoEnable,
     newAutoEnable,
     autoEnable_lambda,
     autoEnable_ec2,
     autoEnable_ecr,
 
     -- * AwsEc2InstanceDetails
-    AwsEc2InstanceDetails (..),
+    AwsEc2InstanceDetails,
     newAwsEc2InstanceDetails,
     awsEc2InstanceDetails_iamInstanceProfileArn,
     awsEc2InstanceDetails_imageId,
@@ -290,7 +291,7 @@ module Amazonka.Inspector2.Types
     awsEc2InstanceDetails_vpcId,
 
     -- * AwsEcrContainerAggregation
-    AwsEcrContainerAggregation (..),
+    AwsEcrContainerAggregation,
     newAwsEcrContainerAggregation,
     awsEcrContainerAggregation_architectures,
     awsEcrContainerAggregation_imageShas,
@@ -301,7 +302,7 @@ module Amazonka.Inspector2.Types
     awsEcrContainerAggregation_sortOrder,
 
     -- * AwsEcrContainerAggregationResponse
-    AwsEcrContainerAggregationResponse (..),
+    AwsEcrContainerAggregationResponse,
     newAwsEcrContainerAggregationResponse,
     awsEcrContainerAggregationResponse_accountId,
     awsEcrContainerAggregationResponse_architecture,
@@ -312,7 +313,7 @@ module Amazonka.Inspector2.Types
     awsEcrContainerAggregationResponse_resourceId,
 
     -- * AwsEcrContainerImageDetails
-    AwsEcrContainerImageDetails (..),
+    AwsEcrContainerImageDetails,
     newAwsEcrContainerImageDetails,
     awsEcrContainerImageDetails_architecture,
     awsEcrContainerImageDetails_author,
@@ -324,7 +325,7 @@ module Amazonka.Inspector2.Types
     awsEcrContainerImageDetails_repositoryName,
 
     -- * AwsLambdaFunctionDetails
-    AwsLambdaFunctionDetails (..),
+    AwsLambdaFunctionDetails,
     newAwsLambdaFunctionDetails,
     awsLambdaFunctionDetails_architectures,
     awsLambdaFunctionDetails_lastModifiedAt,
@@ -338,13 +339,13 @@ module Amazonka.Inspector2.Types
     awsLambdaFunctionDetails_version,
 
     -- * Counts
-    Counts (..),
+    Counts,
     newCounts,
     counts_count,
     counts_groupKey,
 
     -- * CoverageFilterCriteria
-    CoverageFilterCriteria (..),
+    CoverageFilterCriteria,
     newCoverageFilterCriteria,
     coverageFilterCriteria_accountId,
     coverageFilterCriteria_ec2InstanceTags,
@@ -360,20 +361,20 @@ module Amazonka.Inspector2.Types
     coverageFilterCriteria_scanType,
 
     -- * CoverageMapFilter
-    CoverageMapFilter (..),
+    CoverageMapFilter,
     newCoverageMapFilter,
     coverageMapFilter_value,
     coverageMapFilter_comparison,
     coverageMapFilter_key,
 
     -- * CoverageStringFilter
-    CoverageStringFilter (..),
+    CoverageStringFilter,
     newCoverageStringFilter,
     coverageStringFilter_comparison,
     coverageStringFilter_value,
 
     -- * CoveredResource
-    CoveredResource (..),
+    CoveredResource,
     newCoveredResource,
     coveredResource_resourceMetadata,
     coveredResource_scanStatus,
@@ -383,7 +384,7 @@ module Amazonka.Inspector2.Types
     coveredResource_scanType,
 
     -- * CvssScore
-    CvssScore (..),
+    CvssScore,
     newCvssScore,
     cvssScore_baseScore,
     cvssScore_scoringVector,
@@ -391,13 +392,13 @@ module Amazonka.Inspector2.Types
     cvssScore_version,
 
     -- * CvssScoreAdjustment
-    CvssScoreAdjustment (..),
+    CvssScoreAdjustment,
     newCvssScoreAdjustment,
     cvssScoreAdjustment_metric,
     cvssScoreAdjustment_reason,
 
     -- * CvssScoreDetails
-    CvssScoreDetails (..),
+    CvssScoreDetails,
     newCvssScoreDetails,
     cvssScoreDetails_adjustments,
     cvssScoreDetails_cvssSource,
@@ -407,32 +408,32 @@ module Amazonka.Inspector2.Types
     cvssScoreDetails_version,
 
     -- * DateFilter
-    DateFilter (..),
+    DateFilter,
     newDateFilter,
     dateFilter_endInclusive,
     dateFilter_startInclusive,
 
     -- * DelegatedAdmin
-    DelegatedAdmin (..),
+    DelegatedAdmin,
     newDelegatedAdmin,
     delegatedAdmin_accountId,
     delegatedAdmin_relationshipStatus,
 
     -- * DelegatedAdminAccount
-    DelegatedAdminAccount (..),
+    DelegatedAdminAccount,
     newDelegatedAdminAccount,
     delegatedAdminAccount_accountId,
     delegatedAdminAccount_status,
 
     -- * Destination
-    Destination (..),
+    Destination,
     newDestination,
     destination_keyPrefix,
     destination_bucketName,
     destination_kmsKeyArn,
 
     -- * Ec2InstanceAggregation
-    Ec2InstanceAggregation (..),
+    Ec2InstanceAggregation,
     newEc2InstanceAggregation,
     ec2InstanceAggregation_amis,
     ec2InstanceAggregation_instanceIds,
@@ -442,7 +443,7 @@ module Amazonka.Inspector2.Types
     ec2InstanceAggregation_sortOrder,
 
     -- * Ec2InstanceAggregationResponse
-    Ec2InstanceAggregationResponse (..),
+    Ec2InstanceAggregationResponse,
     newEc2InstanceAggregationResponse,
     ec2InstanceAggregationResponse_accountId,
     ec2InstanceAggregationResponse_ami,
@@ -453,47 +454,47 @@ module Amazonka.Inspector2.Types
     ec2InstanceAggregationResponse_instanceId,
 
     -- * Ec2Metadata
-    Ec2Metadata (..),
+    Ec2Metadata,
     newEc2Metadata,
     ec2Metadata_amiId,
     ec2Metadata_platform,
     ec2Metadata_tags,
 
     -- * EcrConfiguration
-    EcrConfiguration (..),
+    EcrConfiguration,
     newEcrConfiguration,
     ecrConfiguration_rescanDuration,
 
     -- * EcrConfigurationState
-    EcrConfigurationState (..),
+    EcrConfigurationState,
     newEcrConfigurationState,
     ecrConfigurationState_rescanDurationState,
 
     -- * EcrContainerImageMetadata
-    EcrContainerImageMetadata (..),
+    EcrContainerImageMetadata,
     newEcrContainerImageMetadata,
     ecrContainerImageMetadata_tags,
 
     -- * EcrRepositoryMetadata
-    EcrRepositoryMetadata (..),
+    EcrRepositoryMetadata,
     newEcrRepositoryMetadata,
     ecrRepositoryMetadata_name,
     ecrRepositoryMetadata_scanFrequency,
 
     -- * EcrRescanDurationState
-    EcrRescanDurationState (..),
+    EcrRescanDurationState,
     newEcrRescanDurationState,
     ecrRescanDurationState_rescanDuration,
     ecrRescanDurationState_status,
     ecrRescanDurationState_updatedAt,
 
     -- * ExploitabilityDetails
-    ExploitabilityDetails (..),
+    ExploitabilityDetails,
     newExploitabilityDetails,
     exploitabilityDetails_lastKnownExploitAt,
 
     -- * FailedAccount
-    FailedAccount (..),
+    FailedAccount,
     newFailedAccount,
     failedAccount_resourceStatus,
     failedAccount_status,
@@ -502,7 +503,7 @@ module Amazonka.Inspector2.Types
     failedAccount_errorMessage,
 
     -- * Filter
-    Filter (..),
+    Filter,
     newFilter,
     filter_description,
     filter_reason,
@@ -516,7 +517,7 @@ module Amazonka.Inspector2.Types
     filter_updatedAt,
 
     -- * FilterCriteria
-    FilterCriteria (..),
+    FilterCriteria,
     newFilterCriteria,
     filterCriteria_awsAccountId,
     filterCriteria_componentId,
@@ -558,7 +559,7 @@ module Amazonka.Inspector2.Types
     filterCriteria_vulnerablePackages,
 
     -- * Finding
-    Finding (..),
+    Finding,
     newFinding,
     finding_exploitAvailable,
     finding_exploitabilityDetails,
@@ -581,7 +582,7 @@ module Amazonka.Inspector2.Types
     finding_type,
 
     -- * FindingTypeAggregation
-    FindingTypeAggregation (..),
+    FindingTypeAggregation,
     newFindingTypeAggregation,
     findingTypeAggregation_findingType,
     findingTypeAggregation_resourceType,
@@ -589,19 +590,19 @@ module Amazonka.Inspector2.Types
     findingTypeAggregation_sortOrder,
 
     -- * FindingTypeAggregationResponse
-    FindingTypeAggregationResponse (..),
+    FindingTypeAggregationResponse,
     newFindingTypeAggregationResponse,
     findingTypeAggregationResponse_accountId,
     findingTypeAggregationResponse_severityCounts,
 
     -- * FreeTrialAccountInfo
-    FreeTrialAccountInfo (..),
+    FreeTrialAccountInfo,
     newFreeTrialAccountInfo,
     freeTrialAccountInfo_accountId,
     freeTrialAccountInfo_freeTrialInfo,
 
     -- * FreeTrialInfo
-    FreeTrialInfo (..),
+    FreeTrialInfo,
     newFreeTrialInfo,
     freeTrialInfo_end,
     freeTrialInfo_start,
@@ -609,14 +610,14 @@ module Amazonka.Inspector2.Types
     freeTrialInfo_type,
 
     -- * FreeTrialInfoError
-    FreeTrialInfoError (..),
+    FreeTrialInfoError,
     newFreeTrialInfoError,
     freeTrialInfoError_accountId,
     freeTrialInfoError_code,
     freeTrialInfoError_message,
 
     -- * ImageLayerAggregation
-    ImageLayerAggregation (..),
+    ImageLayerAggregation,
     newImageLayerAggregation,
     imageLayerAggregation_layerHashes,
     imageLayerAggregation_repositories,
@@ -625,7 +626,7 @@ module Amazonka.Inspector2.Types
     imageLayerAggregation_sortOrder,
 
     -- * ImageLayerAggregationResponse
-    ImageLayerAggregationResponse (..),
+    ImageLayerAggregationResponse,
     newImageLayerAggregationResponse,
     imageLayerAggregationResponse_severityCounts,
     imageLayerAggregationResponse_accountId,
@@ -634,12 +635,12 @@ module Amazonka.Inspector2.Types
     imageLayerAggregationResponse_resourceId,
 
     -- * InspectorScoreDetails
-    InspectorScoreDetails (..),
+    InspectorScoreDetails,
     newInspectorScoreDetails,
     inspectorScoreDetails_adjustedCvss,
 
     -- * LambdaFunctionAggregation
-    LambdaFunctionAggregation (..),
+    LambdaFunctionAggregation,
     newLambdaFunctionAggregation,
     lambdaFunctionAggregation_functionNames,
     lambdaFunctionAggregation_functionTags,
@@ -649,7 +650,7 @@ module Amazonka.Inspector2.Types
     lambdaFunctionAggregation_sortOrder,
 
     -- * LambdaFunctionAggregationResponse
-    LambdaFunctionAggregationResponse (..),
+    LambdaFunctionAggregationResponse,
     newLambdaFunctionAggregationResponse,
     lambdaFunctionAggregationResponse_accountId,
     lambdaFunctionAggregationResponse_functionName,
@@ -660,7 +661,7 @@ module Amazonka.Inspector2.Types
     lambdaFunctionAggregationResponse_resourceId,
 
     -- * LambdaFunctionMetadata
-    LambdaFunctionMetadata (..),
+    LambdaFunctionMetadata,
     newLambdaFunctionMetadata,
     lambdaFunctionMetadata_functionName,
     lambdaFunctionMetadata_functionTags,
@@ -668,7 +669,7 @@ module Amazonka.Inspector2.Types
     lambdaFunctionMetadata_runtime,
 
     -- * LambdaLayerAggregation
-    LambdaLayerAggregation (..),
+    LambdaLayerAggregation,
     newLambdaLayerAggregation,
     lambdaLayerAggregation_functionNames,
     lambdaLayerAggregation_layerArns,
@@ -677,7 +678,7 @@ module Amazonka.Inspector2.Types
     lambdaLayerAggregation_sortOrder,
 
     -- * LambdaLayerAggregationResponse
-    LambdaLayerAggregationResponse (..),
+    LambdaLayerAggregationResponse,
     newLambdaLayerAggregationResponse,
     lambdaLayerAggregationResponse_severityCounts,
     lambdaLayerAggregationResponse_accountId,
@@ -686,21 +687,21 @@ module Amazonka.Inspector2.Types
     lambdaLayerAggregationResponse_resourceId,
 
     -- * LambdaVpcConfig
-    LambdaVpcConfig (..),
+    LambdaVpcConfig,
     newLambdaVpcConfig,
     lambdaVpcConfig_securityGroupIds,
     lambdaVpcConfig_subnetIds,
     lambdaVpcConfig_vpcId,
 
     -- * MapFilter
-    MapFilter (..),
+    MapFilter,
     newMapFilter,
     mapFilter_value,
     mapFilter_comparison,
     mapFilter_key,
 
     -- * Member
-    Member (..),
+    Member,
     newMember,
     member_accountId,
     member_delegatedAdminAccountId,
@@ -708,39 +709,39 @@ module Amazonka.Inspector2.Types
     member_updatedAt,
 
     -- * NetworkPath
-    NetworkPath (..),
+    NetworkPath,
     newNetworkPath,
     networkPath_steps,
 
     -- * NetworkReachabilityDetails
-    NetworkReachabilityDetails (..),
+    NetworkReachabilityDetails,
     newNetworkReachabilityDetails,
     networkReachabilityDetails_networkPath,
     networkReachabilityDetails_openPortRange,
     networkReachabilityDetails_protocol,
 
     -- * NumberFilter
-    NumberFilter (..),
+    NumberFilter,
     newNumberFilter,
     numberFilter_lowerInclusive,
     numberFilter_upperInclusive,
 
     -- * PackageAggregation
-    PackageAggregation (..),
+    PackageAggregation,
     newPackageAggregation,
     packageAggregation_packageNames,
     packageAggregation_sortBy,
     packageAggregation_sortOrder,
 
     -- * PackageAggregationResponse
-    PackageAggregationResponse (..),
+    PackageAggregationResponse,
     newPackageAggregationResponse,
     packageAggregationResponse_accountId,
     packageAggregationResponse_severityCounts,
     packageAggregationResponse_packageName,
 
     -- * PackageFilter
-    PackageFilter (..),
+    PackageFilter,
     newPackageFilter,
     packageFilter_architecture,
     packageFilter_epoch,
@@ -751,7 +752,7 @@ module Amazonka.Inspector2.Types
     packageFilter_version,
 
     -- * PackageVulnerabilityDetails
-    PackageVulnerabilityDetails (..),
+    PackageVulnerabilityDetails,
     newPackageVulnerabilityDetails,
     packageVulnerabilityDetails_cvss,
     packageVulnerabilityDetails_referenceUrls,
@@ -765,43 +766,43 @@ module Amazonka.Inspector2.Types
     packageVulnerabilityDetails_vulnerabilityId,
 
     -- * Permission
-    Permission (..),
+    Permission,
     newPermission,
     permission_operation,
     permission_service,
 
     -- * PortRange
-    PortRange (..),
+    PortRange,
     newPortRange,
     portRange_begin,
     portRange_end,
 
     -- * PortRangeFilter
-    PortRangeFilter (..),
+    PortRangeFilter,
     newPortRangeFilter,
     portRangeFilter_beginInclusive,
     portRangeFilter_endInclusive,
 
     -- * Recommendation
-    Recommendation (..),
+    Recommendation,
     newRecommendation,
     recommendation_url,
     recommendation_text,
 
     -- * Remediation
-    Remediation (..),
+    Remediation,
     newRemediation,
     remediation_recommendation,
 
     -- * RepositoryAggregation
-    RepositoryAggregation (..),
+    RepositoryAggregation,
     newRepositoryAggregation,
     repositoryAggregation_repositories,
     repositoryAggregation_sortBy,
     repositoryAggregation_sortOrder,
 
     -- * RepositoryAggregationResponse
-    RepositoryAggregationResponse (..),
+    RepositoryAggregationResponse,
     newRepositoryAggregationResponse,
     repositoryAggregationResponse_accountId,
     repositoryAggregationResponse_affectedImages,
@@ -809,7 +810,7 @@ module Amazonka.Inspector2.Types
     repositoryAggregationResponse_repository,
 
     -- * Resource
-    Resource (..),
+    Resource,
     newResource,
     resource_details,
     resource_partition,
@@ -819,14 +820,14 @@ module Amazonka.Inspector2.Types
     resource_type,
 
     -- * ResourceDetails
-    ResourceDetails (..),
+    ResourceDetails,
     newResourceDetails,
     resourceDetails_awsEc2Instance,
     resourceDetails_awsEcrContainerImage,
     resourceDetails_awsLambdaFunction,
 
     -- * ResourceScanMetadata
-    ResourceScanMetadata (..),
+    ResourceScanMetadata,
     newResourceScanMetadata,
     resourceScanMetadata_ec2,
     resourceScanMetadata_ecrImage,
@@ -834,27 +835,27 @@ module Amazonka.Inspector2.Types
     resourceScanMetadata_lambdaFunction,
 
     -- * ResourceState
-    ResourceState (..),
+    ResourceState,
     newResourceState,
     resourceState_lambda,
     resourceState_ec2,
     resourceState_ecr,
 
     -- * ResourceStatus
-    ResourceStatus (..),
+    ResourceStatus,
     newResourceStatus,
     resourceStatus_lambda,
     resourceStatus_ec2,
     resourceStatus_ecr,
 
     -- * ScanStatus
-    ScanStatus (..),
+    ScanStatus,
     newScanStatus,
     scanStatus_reason,
     scanStatus_statusCode,
 
     -- * SeverityCounts
-    SeverityCounts (..),
+    SeverityCounts,
     newSeverityCounts,
     severityCounts_all,
     severityCounts_critical,
@@ -862,32 +863,32 @@ module Amazonka.Inspector2.Types
     severityCounts_medium,
 
     -- * SortCriteria
-    SortCriteria (..),
+    SortCriteria,
     newSortCriteria,
     sortCriteria_field,
     sortCriteria_sortOrder,
 
     -- * State
-    State (..),
+    State,
     newState,
     state_errorCode,
     state_errorMessage,
     state_status,
 
     -- * Step
-    Step (..),
+    Step,
     newStep,
     step_componentId,
     step_componentType,
 
     -- * StringFilter
-    StringFilter (..),
+    StringFilter,
     newStringFilter,
     stringFilter_comparison,
     stringFilter_value,
 
     -- * TitleAggregation
-    TitleAggregation (..),
+    TitleAggregation,
     newTitleAggregation,
     titleAggregation_resourceType,
     titleAggregation_sortBy,
@@ -896,7 +897,7 @@ module Amazonka.Inspector2.Types
     titleAggregation_vulnerabilityIds,
 
     -- * TitleAggregationResponse
-    TitleAggregationResponse (..),
+    TitleAggregationResponse,
     newTitleAggregationResponse,
     titleAggregationResponse_accountId,
     titleAggregationResponse_severityCounts,
@@ -904,7 +905,7 @@ module Amazonka.Inspector2.Types
     titleAggregationResponse_title,
 
     -- * Usage
-    Usage (..),
+    Usage,
     newUsage,
     usage_currency,
     usage_estimatedMonthlyCost,
@@ -912,13 +913,13 @@ module Amazonka.Inspector2.Types
     usage_type,
 
     -- * UsageTotal
-    UsageTotal (..),
+    UsageTotal,
     newUsageTotal,
     usageTotal_accountId,
     usageTotal_usage,
 
     -- * VulnerablePackage
-    VulnerablePackage (..),
+    VulnerablePackage,
     newVulnerablePackage,
     vulnerablePackage_arch,
     vulnerablePackage_epoch,

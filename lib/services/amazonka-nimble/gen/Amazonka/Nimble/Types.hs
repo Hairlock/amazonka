@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -27,116 +28,116 @@ module Amazonka.Nimble.Types
     _ValidationException,
 
     -- * AutomaticTerminationMode
-    AutomaticTerminationMode (..),
+    AutomaticTerminationMode,
 
     -- * LaunchProfilePersona
-    LaunchProfilePersona (..),
+    LaunchProfilePersona,
 
     -- * LaunchProfilePlatform
-    LaunchProfilePlatform (..),
+    LaunchProfilePlatform,
 
     -- * LaunchProfileState
-    LaunchProfileState (..),
+    LaunchProfileState,
 
     -- * LaunchProfileStatusCode
-    LaunchProfileStatusCode (..),
+    LaunchProfileStatusCode,
 
     -- * LaunchProfileValidationState
-    LaunchProfileValidationState (..),
+    LaunchProfileValidationState,
 
     -- * LaunchProfileValidationStatusCode
-    LaunchProfileValidationStatusCode (..),
+    LaunchProfileValidationStatusCode,
 
     -- * LaunchProfileValidationType
-    LaunchProfileValidationType (..),
+    LaunchProfileValidationType,
 
     -- * SessionBackupMode
-    SessionBackupMode (..),
+    SessionBackupMode,
 
     -- * SessionPersistenceMode
-    SessionPersistenceMode (..),
+    SessionPersistenceMode,
 
     -- * StreamingClipboardMode
-    StreamingClipboardMode (..),
+    StreamingClipboardMode,
 
     -- * StreamingImageEncryptionConfigurationKeyType
-    StreamingImageEncryptionConfigurationKeyType (..),
+    StreamingImageEncryptionConfigurationKeyType,
 
     -- * StreamingImageState
-    StreamingImageState (..),
+    StreamingImageState,
 
     -- * StreamingImageStatusCode
-    StreamingImageStatusCode (..),
+    StreamingImageStatusCode,
 
     -- * StreamingInstanceType
-    StreamingInstanceType (..),
+    StreamingInstanceType,
 
     -- * StreamingSessionState
-    StreamingSessionState (..),
+    StreamingSessionState,
 
     -- * StreamingSessionStatusCode
-    StreamingSessionStatusCode (..),
+    StreamingSessionStatusCode,
 
     -- * StreamingSessionStorageMode
-    StreamingSessionStorageMode (..),
+    StreamingSessionStorageMode,
 
     -- * StreamingSessionStreamState
-    StreamingSessionStreamState (..),
+    StreamingSessionStreamState,
 
     -- * StreamingSessionStreamStatusCode
-    StreamingSessionStreamStatusCode (..),
+    StreamingSessionStreamStatusCode,
 
     -- * StudioComponentInitializationScriptRunContext
-    StudioComponentInitializationScriptRunContext (..),
+    StudioComponentInitializationScriptRunContext,
 
     -- * StudioComponentState
-    StudioComponentState (..),
+    StudioComponentState,
 
     -- * StudioComponentStatusCode
-    StudioComponentStatusCode (..),
+    StudioComponentStatusCode,
 
     -- * StudioComponentSubtype
-    StudioComponentSubtype (..),
+    StudioComponentSubtype,
 
     -- * StudioComponentType
-    StudioComponentType (..),
+    StudioComponentType,
 
     -- * StudioEncryptionConfigurationKeyType
-    StudioEncryptionConfigurationKeyType (..),
+    StudioEncryptionConfigurationKeyType,
 
     -- * StudioPersona
-    StudioPersona (..),
+    StudioPersona,
 
     -- * StudioState
-    StudioState (..),
+    StudioState,
 
     -- * StudioStatusCode
-    StudioStatusCode (..),
+    StudioStatusCode,
 
     -- * VolumeRetentionMode
-    VolumeRetentionMode (..),
+    VolumeRetentionMode,
 
     -- * ActiveDirectoryComputerAttribute
-    ActiveDirectoryComputerAttribute (..),
+    ActiveDirectoryComputerAttribute,
     newActiveDirectoryComputerAttribute,
     activeDirectoryComputerAttribute_name,
     activeDirectoryComputerAttribute_value,
 
     -- * ActiveDirectoryConfiguration
-    ActiveDirectoryConfiguration (..),
+    ActiveDirectoryConfiguration,
     newActiveDirectoryConfiguration,
     activeDirectoryConfiguration_computerAttributes,
     activeDirectoryConfiguration_directoryId,
     activeDirectoryConfiguration_organizationalUnitDistinguishedName,
 
     -- * ComputeFarmConfiguration
-    ComputeFarmConfiguration (..),
+    ComputeFarmConfiguration,
     newComputeFarmConfiguration,
     computeFarmConfiguration_activeDirectoryUser,
     computeFarmConfiguration_endpoint,
 
     -- * Eula
-    Eula (..),
+    Eula,
     newEula,
     eula_content,
     eula_createdAt,
@@ -145,7 +146,7 @@ module Amazonka.Nimble.Types
     eula_updatedAt,
 
     -- * EulaAcceptance
-    EulaAcceptance (..),
+    EulaAcceptance,
     newEulaAcceptance,
     eulaAcceptance_acceptedAt,
     eulaAcceptance_acceptedBy,
@@ -154,7 +155,7 @@ module Amazonka.Nimble.Types
     eulaAcceptance_eulaId,
 
     -- * LaunchProfile
-    LaunchProfile (..),
+    LaunchProfile,
     newLaunchProfile,
     launchProfile_arn,
     launchProfile_createdAt,
@@ -175,7 +176,7 @@ module Amazonka.Nimble.Types
     launchProfile_validationResults,
 
     -- * LaunchProfileInitialization
-    LaunchProfileInitialization (..),
+    LaunchProfileInitialization,
     newLaunchProfileInitialization,
     launchProfileInitialization_activeDirectory,
     launchProfileInitialization_ec2SecurityGroupIds,
@@ -188,7 +189,7 @@ module Amazonka.Nimble.Types
     launchProfileInitialization_userInitializationScripts,
 
     -- * LaunchProfileInitializationActiveDirectory
-    LaunchProfileInitializationActiveDirectory (..),
+    LaunchProfileInitializationActiveDirectory,
     newLaunchProfileInitializationActiveDirectory,
     launchProfileInitializationActiveDirectory_computerAttributes,
     launchProfileInitializationActiveDirectory_directoryId,
@@ -199,7 +200,7 @@ module Amazonka.Nimble.Types
     launchProfileInitializationActiveDirectory_studioComponentName,
 
     -- * LaunchProfileInitializationScript
-    LaunchProfileInitializationScript (..),
+    LaunchProfileInitializationScript,
     newLaunchProfileInitializationScript,
     launchProfileInitializationScript_runtimeRoleArn,
     launchProfileInitializationScript_script,
@@ -208,7 +209,7 @@ module Amazonka.Nimble.Types
     launchProfileInitializationScript_studioComponentName,
 
     -- * LaunchProfileMembership
-    LaunchProfileMembership (..),
+    LaunchProfileMembership,
     newLaunchProfileMembership,
     launchProfileMembership_identityStoreId,
     launchProfileMembership_persona,
@@ -216,30 +217,30 @@ module Amazonka.Nimble.Types
     launchProfileMembership_sid,
 
     -- * LicenseServiceConfiguration
-    LicenseServiceConfiguration (..),
+    LicenseServiceConfiguration,
     newLicenseServiceConfiguration,
     licenseServiceConfiguration_endpoint,
 
     -- * NewLaunchProfileMember
-    NewLaunchProfileMember (..),
+    NewLaunchProfileMember,
     newNewLaunchProfileMember,
     newLaunchProfileMember_persona,
     newLaunchProfileMember_principalId,
 
     -- * NewStudioMember
-    NewStudioMember (..),
+    NewStudioMember,
     newNewStudioMember,
     newStudioMember_persona,
     newStudioMember_principalId,
 
     -- * ScriptParameterKeyValue
-    ScriptParameterKeyValue (..),
+    ScriptParameterKeyValue,
     newScriptParameterKeyValue,
     scriptParameterKeyValue_key,
     scriptParameterKeyValue_value,
 
     -- * SharedFileSystemConfiguration
-    SharedFileSystemConfiguration (..),
+    SharedFileSystemConfiguration,
     newSharedFileSystemConfiguration,
     sharedFileSystemConfiguration_endpoint,
     sharedFileSystemConfiguration_fileSystemId,
@@ -248,7 +249,7 @@ module Amazonka.Nimble.Types
     sharedFileSystemConfiguration_windowsMountDrive,
 
     -- * StreamConfiguration
-    StreamConfiguration (..),
+    StreamConfiguration,
     newStreamConfiguration,
     streamConfiguration_automaticTerminationMode,
     streamConfiguration_maxSessionLengthInMinutes,
@@ -262,7 +263,7 @@ module Amazonka.Nimble.Types
     streamConfiguration_streamingImageIds,
 
     -- * StreamConfigurationCreate
-    StreamConfigurationCreate (..),
+    StreamConfigurationCreate,
     newStreamConfigurationCreate,
     streamConfigurationCreate_automaticTerminationMode,
     streamConfigurationCreate_maxSessionLengthInMinutes,
@@ -276,19 +277,19 @@ module Amazonka.Nimble.Types
     streamConfigurationCreate_streamingImageIds,
 
     -- * StreamConfigurationSessionBackup
-    StreamConfigurationSessionBackup (..),
+    StreamConfigurationSessionBackup,
     newStreamConfigurationSessionBackup,
     streamConfigurationSessionBackup_maxBackupsToRetain,
     streamConfigurationSessionBackup_mode,
 
     -- * StreamConfigurationSessionStorage
-    StreamConfigurationSessionStorage (..),
+    StreamConfigurationSessionStorage,
     newStreamConfigurationSessionStorage,
     streamConfigurationSessionStorage_root,
     streamConfigurationSessionStorage_mode,
 
     -- * StreamingImage
-    StreamingImage (..),
+    StreamingImage,
     newStreamingImage,
     streamingImage_arn,
     streamingImage_description,
@@ -305,13 +306,13 @@ module Amazonka.Nimble.Types
     streamingImage_tags,
 
     -- * StreamingImageEncryptionConfiguration
-    StreamingImageEncryptionConfiguration (..),
+    StreamingImageEncryptionConfiguration,
     newStreamingImageEncryptionConfiguration,
     streamingImageEncryptionConfiguration_keyArn,
     streamingImageEncryptionConfiguration_keyType,
 
     -- * StreamingSession
-    StreamingSession (..),
+    StreamingSession,
     newStreamingSession,
     streamingSession_arn,
     streamingSession_automaticTerminationMode,
@@ -342,7 +343,7 @@ module Amazonka.Nimble.Types
     streamingSession_volumeRetentionMode,
 
     -- * StreamingSessionBackup
-    StreamingSessionBackup (..),
+    StreamingSessionBackup,
     newStreamingSessionBackup,
     streamingSessionBackup_arn,
     streamingSessionBackup_backupId,
@@ -356,13 +357,13 @@ module Amazonka.Nimble.Types
     streamingSessionBackup_tags,
 
     -- * StreamingSessionStorageRoot
-    StreamingSessionStorageRoot (..),
+    StreamingSessionStorageRoot,
     newStreamingSessionStorageRoot,
     streamingSessionStorageRoot_linux,
     streamingSessionStorageRoot_windows,
 
     -- * StreamingSessionStream
-    StreamingSessionStream (..),
+    StreamingSessionStream,
     newStreamingSessionStream,
     streamingSessionStream_createdAt,
     streamingSessionStream_createdBy,
@@ -374,7 +375,7 @@ module Amazonka.Nimble.Types
     streamingSessionStream_url,
 
     -- * Studio
-    Studio (..),
+    Studio,
     newStudio,
     studio_adminRoleArn,
     studio_arn,
@@ -394,7 +395,7 @@ module Amazonka.Nimble.Types
     studio_userRoleArn,
 
     -- * StudioComponent
-    StudioComponent (..),
+    StudioComponent,
     newStudioComponent,
     studioComponent_arn,
     studioComponent_configuration,
@@ -418,7 +419,7 @@ module Amazonka.Nimble.Types
     studioComponent_updatedBy,
 
     -- * StudioComponentConfiguration
-    StudioComponentConfiguration (..),
+    StudioComponentConfiguration,
     newStudioComponentConfiguration,
     studioComponentConfiguration_activeDirectoryConfiguration,
     studioComponentConfiguration_computeFarmConfiguration,
@@ -426,7 +427,7 @@ module Amazonka.Nimble.Types
     studioComponentConfiguration_sharedFileSystemConfiguration,
 
     -- * StudioComponentInitializationScript
-    StudioComponentInitializationScript (..),
+    StudioComponentInitializationScript,
     newStudioComponentInitializationScript,
     studioComponentInitializationScript_launchProfileProtocolVersion,
     studioComponentInitializationScript_platform,
@@ -434,7 +435,7 @@ module Amazonka.Nimble.Types
     studioComponentInitializationScript_script,
 
     -- * StudioComponentSummary
-    StudioComponentSummary (..),
+    StudioComponentSummary,
     newStudioComponentSummary,
     studioComponentSummary_createdAt,
     studioComponentSummary_createdBy,
@@ -447,13 +448,13 @@ module Amazonka.Nimble.Types
     studioComponentSummary_updatedBy,
 
     -- * StudioEncryptionConfiguration
-    StudioEncryptionConfiguration (..),
+    StudioEncryptionConfiguration,
     newStudioEncryptionConfiguration,
     studioEncryptionConfiguration_keyArn,
     studioEncryptionConfiguration_keyType,
 
     -- * StudioMembership
-    StudioMembership (..),
+    StudioMembership,
     newStudioMembership,
     studioMembership_identityStoreId,
     studioMembership_persona,
@@ -461,7 +462,7 @@ module Amazonka.Nimble.Types
     studioMembership_sid,
 
     -- * ValidationResult
-    ValidationResult (..),
+    ValidationResult,
     newValidationResult,
     validationResult_state,
     validationResult_statusCode,
@@ -469,7 +470,7 @@ module Amazonka.Nimble.Types
     validationResult_type,
 
     -- * VolumeConfiguration
-    VolumeConfiguration (..),
+    VolumeConfiguration,
     newVolumeConfiguration,
     volumeConfiguration_iops,
     volumeConfiguration_size,

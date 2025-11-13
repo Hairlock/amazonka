@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -22,58 +23,58 @@ module Amazonka.OpsWorks.Types
     _ValidationException,
 
     -- * AppAttributesKeys
-    AppAttributesKeys (..),
+    AppAttributesKeys,
 
     -- * AppType
-    AppType (..),
+    AppType,
 
     -- * Architecture
-    Architecture (..),
+    Architecture,
 
     -- * AutoScalingType
-    AutoScalingType (..),
+    AutoScalingType,
 
     -- * CloudWatchLogsEncoding
-    CloudWatchLogsEncoding (..),
+    CloudWatchLogsEncoding,
 
     -- * CloudWatchLogsInitialPosition
-    CloudWatchLogsInitialPosition (..),
+    CloudWatchLogsInitialPosition,
 
     -- * CloudWatchLogsTimeZone
-    CloudWatchLogsTimeZone (..),
+    CloudWatchLogsTimeZone,
 
     -- * DeploymentCommandName
-    DeploymentCommandName (..),
+    DeploymentCommandName,
 
     -- * LayerAttributesKeys
-    LayerAttributesKeys (..),
+    LayerAttributesKeys,
 
     -- * LayerType
-    LayerType (..),
+    LayerType,
 
     -- * RootDeviceType
-    RootDeviceType (..),
+    RootDeviceType,
 
     -- * SourceType
-    SourceType (..),
+    SourceType,
 
     -- * StackAttributesKeys
-    StackAttributesKeys (..),
+    StackAttributesKeys,
 
     -- * VirtualizationType
-    VirtualizationType (..),
+    VirtualizationType,
 
     -- * VolumeType
-    VolumeType (..),
+    VolumeType,
 
     -- * AgentVersion
-    AgentVersion (..),
+    AgentVersion,
     newAgentVersion,
     agentVersion_configurationManager,
     agentVersion_version,
 
     -- * App
-    App (..),
+    App,
     newApp,
     app_appId,
     app_appSource,
@@ -91,7 +92,7 @@ module Amazonka.OpsWorks.Types
     app_type,
 
     -- * AutoScalingThresholds
-    AutoScalingThresholds (..),
+    AutoScalingThresholds,
     newAutoScalingThresholds,
     autoScalingThresholds_alarms,
     autoScalingThresholds_cpuThreshold,
@@ -102,7 +103,7 @@ module Amazonka.OpsWorks.Types
     autoScalingThresholds_thresholdsWaitTime,
 
     -- * BlockDeviceMapping
-    BlockDeviceMapping (..),
+    BlockDeviceMapping,
     newBlockDeviceMapping,
     blockDeviceMapping_deviceName,
     blockDeviceMapping_ebs,
@@ -110,19 +111,19 @@ module Amazonka.OpsWorks.Types
     blockDeviceMapping_virtualName,
 
     -- * ChefConfiguration
-    ChefConfiguration (..),
+    ChefConfiguration,
     newChefConfiguration,
     chefConfiguration_berkshelfVersion,
     chefConfiguration_manageBerkshelf,
 
     -- * CloudWatchLogsConfiguration
-    CloudWatchLogsConfiguration (..),
+    CloudWatchLogsConfiguration,
     newCloudWatchLogsConfiguration,
     cloudWatchLogsConfiguration_enabled,
     cloudWatchLogsConfiguration_logStreams,
 
     -- * CloudWatchLogsLogStream
-    CloudWatchLogsLogStream (..),
+    CloudWatchLogsLogStream,
     newCloudWatchLogsLogStream,
     cloudWatchLogsLogStream_batchCount,
     cloudWatchLogsLogStream_batchSize,
@@ -137,7 +138,7 @@ module Amazonka.OpsWorks.Types
     cloudWatchLogsLogStream_timeZone,
 
     -- * Command
-    Command (..),
+    Command,
     newCommand,
     command_acknowledgedAt,
     command_commandId,
@@ -151,14 +152,14 @@ module Amazonka.OpsWorks.Types
     command_type,
 
     -- * DataSource
-    DataSource (..),
+    DataSource,
     newDataSource,
     dataSource_arn,
     dataSource_databaseName,
     dataSource_type,
 
     -- * Deployment
-    Deployment (..),
+    Deployment,
     newDeployment,
     deployment_appId,
     deployment_command,
@@ -174,13 +175,13 @@ module Amazonka.OpsWorks.Types
     deployment_status,
 
     -- * DeploymentCommand
-    DeploymentCommand (..),
+    DeploymentCommand,
     newDeploymentCommand,
     deploymentCommand_args,
     deploymentCommand_name,
 
     -- * EbsBlockDevice
-    EbsBlockDevice (..),
+    EbsBlockDevice,
     newEbsBlockDevice,
     ebsBlockDevice_deleteOnTermination,
     ebsBlockDevice_iops,
@@ -189,7 +190,7 @@ module Amazonka.OpsWorks.Types
     ebsBlockDevice_volumeType,
 
     -- * EcsCluster
-    EcsCluster (..),
+    EcsCluster,
     newEcsCluster,
     ecsCluster_ecsClusterArn,
     ecsCluster_ecsClusterName,
@@ -197,7 +198,7 @@ module Amazonka.OpsWorks.Types
     ecsCluster_stackId,
 
     -- * ElasticIp
-    ElasticIp (..),
+    ElasticIp,
     newElasticIp,
     elasticIp_domain,
     elasticIp_instanceId,
@@ -206,7 +207,7 @@ module Amazonka.OpsWorks.Types
     elasticIp_region,
 
     -- * ElasticLoadBalancer
-    ElasticLoadBalancer (..),
+    ElasticLoadBalancer,
     newElasticLoadBalancer,
     elasticLoadBalancer_availabilityZones,
     elasticLoadBalancer_dnsName,
@@ -219,14 +220,14 @@ module Amazonka.OpsWorks.Types
     elasticLoadBalancer_vpcId,
 
     -- * EnvironmentVariable
-    EnvironmentVariable (..),
+    EnvironmentVariable,
     newEnvironmentVariable,
     environmentVariable_secure,
     environmentVariable_key,
     environmentVariable_value,
 
     -- * Instance
-    Instance (..),
+    Instance,
     newInstance,
     instance_agentVersion,
     instance_amiId,
@@ -271,13 +272,13 @@ module Amazonka.OpsWorks.Types
     instance_virtualizationType,
 
     -- * InstanceIdentity
-    InstanceIdentity (..),
+    InstanceIdentity,
     newInstanceIdentity,
     instanceIdentity_document,
     instanceIdentity_signature,
 
     -- * InstancesCount
-    InstancesCount (..),
+    InstancesCount,
     newInstancesCount,
     instancesCount_assigning,
     instancesCount_booting,
@@ -301,7 +302,7 @@ module Amazonka.OpsWorks.Types
     instancesCount_unassigning,
 
     -- * Layer
-    Layer (..),
+    Layer,
     newLayer,
     layer_arn,
     layer_attributes,
@@ -328,12 +329,12 @@ module Amazonka.OpsWorks.Types
     layer_volumeConfigurations,
 
     -- * LifecycleEventConfiguration
-    LifecycleEventConfiguration (..),
+    LifecycleEventConfiguration,
     newLifecycleEventConfiguration,
     lifecycleEventConfiguration_shutdown,
 
     -- * LoadBasedAutoScalingConfiguration
-    LoadBasedAutoScalingConfiguration (..),
+    LoadBasedAutoScalingConfiguration,
     newLoadBasedAutoScalingConfiguration,
     loadBasedAutoScalingConfiguration_downScaling,
     loadBasedAutoScalingConfiguration_enable,
@@ -341,7 +342,7 @@ module Amazonka.OpsWorks.Types
     loadBasedAutoScalingConfiguration_upScaling,
 
     -- * OperatingSystem
-    OperatingSystem (..),
+    OperatingSystem,
     newOperatingSystem,
     operatingSystem_configurationManagers,
     operatingSystem_id,
@@ -352,13 +353,13 @@ module Amazonka.OpsWorks.Types
     operatingSystem_type,
 
     -- * OperatingSystemConfigurationManager
-    OperatingSystemConfigurationManager (..),
+    OperatingSystemConfigurationManager,
     newOperatingSystemConfigurationManager,
     operatingSystemConfigurationManager_name,
     operatingSystemConfigurationManager_version,
 
     -- * Permission
-    Permission (..),
+    Permission,
     newPermission,
     permission_allowSsh,
     permission_allowSudo,
@@ -367,7 +368,7 @@ module Amazonka.OpsWorks.Types
     permission_stackId,
 
     -- * RaidArray
-    RaidArray (..),
+    RaidArray,
     newRaidArray,
     raidArray_availabilityZone,
     raidArray_createdAt,
@@ -384,7 +385,7 @@ module Amazonka.OpsWorks.Types
     raidArray_volumeType,
 
     -- * RdsDbInstance
-    RdsDbInstance (..),
+    RdsDbInstance,
     newRdsDbInstance,
     rdsDbInstance_address,
     rdsDbInstance_dbInstanceIdentifier,
@@ -397,7 +398,7 @@ module Amazonka.OpsWorks.Types
     rdsDbInstance_stackId,
 
     -- * Recipes
-    Recipes (..),
+    Recipes,
     newRecipes,
     recipes_configure,
     recipes_deploy,
@@ -406,14 +407,14 @@ module Amazonka.OpsWorks.Types
     recipes_undeploy,
 
     -- * ReportedOs
-    ReportedOs (..),
+    ReportedOs,
     newReportedOs,
     reportedOs_family,
     reportedOs_name,
     reportedOs_version,
 
     -- * SelfUserProfile
-    SelfUserProfile (..),
+    SelfUserProfile,
     newSelfUserProfile,
     selfUserProfile_iamUserArn,
     selfUserProfile_name,
@@ -421,7 +422,7 @@ module Amazonka.OpsWorks.Types
     selfUserProfile_sshUsername,
 
     -- * ServiceError
-    ServiceError (..),
+    ServiceError,
     newServiceError,
     serviceError_createdAt,
     serviceError_instanceId,
@@ -431,13 +432,13 @@ module Amazonka.OpsWorks.Types
     serviceError_type,
 
     -- * ShutdownEventConfiguration
-    ShutdownEventConfiguration (..),
+    ShutdownEventConfiguration,
     newShutdownEventConfiguration,
     shutdownEventConfiguration_delayUntilElbConnectionsDrained,
     shutdownEventConfiguration_executionTimeout,
 
     -- * Source
-    Source (..),
+    Source,
     newSource,
     source_password,
     source_revision,
@@ -447,14 +448,14 @@ module Amazonka.OpsWorks.Types
     source_username,
 
     -- * SslConfiguration
-    SslConfiguration (..),
+    SslConfiguration,
     newSslConfiguration,
     sslConfiguration_certificate,
     sslConfiguration_chain,
     sslConfiguration_privateKey,
 
     -- * Stack
-    Stack (..),
+    Stack,
     newStack,
     stack_agentVersion,
     stack_arn,
@@ -480,13 +481,13 @@ module Amazonka.OpsWorks.Types
     stack_vpcId,
 
     -- * StackConfigurationManager
-    StackConfigurationManager (..),
+    StackConfigurationManager,
     newStackConfigurationManager,
     stackConfigurationManager_name,
     stackConfigurationManager_version,
 
     -- * StackSummary
-    StackSummary (..),
+    StackSummary,
     newStackSummary,
     stackSummary_appsCount,
     stackSummary_arn,
@@ -496,7 +497,7 @@ module Amazonka.OpsWorks.Types
     stackSummary_stackId,
 
     -- * TemporaryCredential
-    TemporaryCredential (..),
+    TemporaryCredential,
     newTemporaryCredential,
     temporaryCredential_instanceId,
     temporaryCredential_password,
@@ -504,13 +505,13 @@ module Amazonka.OpsWorks.Types
     temporaryCredential_validForInMinutes,
 
     -- * TimeBasedAutoScalingConfiguration
-    TimeBasedAutoScalingConfiguration (..),
+    TimeBasedAutoScalingConfiguration,
     newTimeBasedAutoScalingConfiguration,
     timeBasedAutoScalingConfiguration_autoScalingSchedule,
     timeBasedAutoScalingConfiguration_instanceId,
 
     -- * UserProfile
-    UserProfile (..),
+    UserProfile,
     newUserProfile,
     userProfile_allowSelfManagement,
     userProfile_iamUserArn,
@@ -519,7 +520,7 @@ module Amazonka.OpsWorks.Types
     userProfile_sshUsername,
 
     -- * Volume
-    Volume (..),
+    Volume,
     newVolume,
     volume_availabilityZone,
     volume_device,
@@ -537,7 +538,7 @@ module Amazonka.OpsWorks.Types
     volume_volumeType,
 
     -- * VolumeConfiguration
-    VolumeConfiguration (..),
+    VolumeConfiguration,
     newVolumeConfiguration,
     volumeConfiguration_encrypted,
     volumeConfiguration_iops,
@@ -548,7 +549,7 @@ module Amazonka.OpsWorks.Types
     volumeConfiguration_size,
 
     -- * WeeklyAutoScalingSchedule
-    WeeklyAutoScalingSchedule (..),
+    WeeklyAutoScalingSchedule,
     newWeeklyAutoScalingSchedule,
     weeklyAutoScalingSchedule_friday,
     weeklyAutoScalingSchedule_monday,

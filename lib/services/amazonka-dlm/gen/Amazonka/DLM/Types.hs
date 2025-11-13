@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -24,53 +25,53 @@ module Amazonka.DLM.Types
     _ResourceNotFoundException,
 
     -- * EventSourceValues
-    EventSourceValues (..),
+    EventSourceValues,
 
     -- * EventTypeValues
-    EventTypeValues (..),
+    EventTypeValues,
 
     -- * GettablePolicyStateValues
-    GettablePolicyStateValues (..),
+    GettablePolicyStateValues,
 
     -- * IntervalUnitValues
-    IntervalUnitValues (..),
+    IntervalUnitValues,
 
     -- * LocationValues
-    LocationValues (..),
+    LocationValues,
 
     -- * PolicyTypeValues
-    PolicyTypeValues (..),
+    PolicyTypeValues,
 
     -- * ResourceLocationValues
-    ResourceLocationValues (..),
+    ResourceLocationValues,
 
     -- * ResourceTypeValues
-    ResourceTypeValues (..),
+    ResourceTypeValues,
 
     -- * RetentionIntervalUnitValues
-    RetentionIntervalUnitValues (..),
+    RetentionIntervalUnitValues,
 
     -- * SettablePolicyStateValues
-    SettablePolicyStateValues (..),
+    SettablePolicyStateValues,
 
     -- * Action
-    Action (..),
+    Action,
     newAction,
     action_name,
     action_crossRegionCopy,
 
     -- * ArchiveRetainRule
-    ArchiveRetainRule (..),
+    ArchiveRetainRule,
     newArchiveRetainRule,
     archiveRetainRule_retentionArchiveTier,
 
     -- * ArchiveRule
-    ArchiveRule (..),
+    ArchiveRule,
     newArchiveRule,
     archiveRule_retainRule,
 
     -- * CreateRule
-    CreateRule (..),
+    CreateRule,
     newCreateRule,
     createRule_cronExpression,
     createRule_interval,
@@ -79,26 +80,26 @@ module Amazonka.DLM.Types
     createRule_times,
 
     -- * CrossRegionCopyAction
-    CrossRegionCopyAction (..),
+    CrossRegionCopyAction,
     newCrossRegionCopyAction,
     crossRegionCopyAction_retainRule,
     crossRegionCopyAction_target,
     crossRegionCopyAction_encryptionConfiguration,
 
     -- * CrossRegionCopyDeprecateRule
-    CrossRegionCopyDeprecateRule (..),
+    CrossRegionCopyDeprecateRule,
     newCrossRegionCopyDeprecateRule,
     crossRegionCopyDeprecateRule_interval,
     crossRegionCopyDeprecateRule_intervalUnit,
 
     -- * CrossRegionCopyRetainRule
-    CrossRegionCopyRetainRule (..),
+    CrossRegionCopyRetainRule,
     newCrossRegionCopyRetainRule,
     crossRegionCopyRetainRule_interval,
     crossRegionCopyRetainRule_intervalUnit,
 
     -- * CrossRegionCopyRule
-    CrossRegionCopyRule (..),
+    CrossRegionCopyRule,
     newCrossRegionCopyRule,
     crossRegionCopyRule_cmkArn,
     crossRegionCopyRule_copyTags,
@@ -109,33 +110,33 @@ module Amazonka.DLM.Types
     crossRegionCopyRule_encrypted,
 
     -- * DeprecateRule
-    DeprecateRule (..),
+    DeprecateRule,
     newDeprecateRule,
     deprecateRule_count,
     deprecateRule_interval,
     deprecateRule_intervalUnit,
 
     -- * EncryptionConfiguration
-    EncryptionConfiguration (..),
+    EncryptionConfiguration,
     newEncryptionConfiguration,
     encryptionConfiguration_cmkArn,
     encryptionConfiguration_encrypted,
 
     -- * EventParameters
-    EventParameters (..),
+    EventParameters,
     newEventParameters,
     eventParameters_eventType,
     eventParameters_snapshotOwner,
     eventParameters_descriptionRegex,
 
     -- * EventSource
-    EventSource (..),
+    EventSource,
     newEventSource,
     eventSource_parameters,
     eventSource_type,
 
     -- * FastRestoreRule
-    FastRestoreRule (..),
+    FastRestoreRule,
     newFastRestoreRule,
     fastRestoreRule_count,
     fastRestoreRule_interval,
@@ -143,7 +144,7 @@ module Amazonka.DLM.Types
     fastRestoreRule_availabilityZones,
 
     -- * LifecyclePolicy
-    LifecyclePolicy (..),
+    LifecyclePolicy,
     newLifecyclePolicy,
     lifecyclePolicy_dateCreated,
     lifecyclePolicy_dateModified,
@@ -157,7 +158,7 @@ module Amazonka.DLM.Types
     lifecyclePolicy_tags,
 
     -- * LifecyclePolicySummary
-    LifecyclePolicySummary (..),
+    LifecyclePolicySummary,
     newLifecyclePolicySummary,
     lifecyclePolicySummary_description,
     lifecyclePolicySummary_policyId,
@@ -166,14 +167,14 @@ module Amazonka.DLM.Types
     lifecyclePolicySummary_tags,
 
     -- * Parameters
-    Parameters (..),
+    Parameters,
     newParameters,
     parameters_excludeBootVolume,
     parameters_excludeDataVolumeTags,
     parameters_noReboot,
 
     -- * PolicyDetails
-    PolicyDetails (..),
+    PolicyDetails,
     newPolicyDetails,
     policyDetails_actions,
     policyDetails_eventSource,
@@ -185,21 +186,21 @@ module Amazonka.DLM.Types
     policyDetails_targetTags,
 
     -- * RetainRule
-    RetainRule (..),
+    RetainRule,
     newRetainRule,
     retainRule_count,
     retainRule_interval,
     retainRule_intervalUnit,
 
     -- * RetentionArchiveTier
-    RetentionArchiveTier (..),
+    RetentionArchiveTier,
     newRetentionArchiveTier,
     retentionArchiveTier_count,
     retentionArchiveTier_interval,
     retentionArchiveTier_intervalUnit,
 
     -- * Schedule
-    Schedule (..),
+    Schedule,
     newSchedule,
     schedule_archiveRule,
     schedule_copyTags,
@@ -214,14 +215,14 @@ module Amazonka.DLM.Types
     schedule_variableTags,
 
     -- * ShareRule
-    ShareRule (..),
+    ShareRule,
     newShareRule,
     shareRule_unshareInterval,
     shareRule_unshareIntervalUnit,
     shareRule_targetAccounts,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,

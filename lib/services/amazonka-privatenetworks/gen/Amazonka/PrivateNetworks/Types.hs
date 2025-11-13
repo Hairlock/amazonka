@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -26,52 +27,52 @@ module Amazonka.PrivateNetworks.Types
     _ValidationException,
 
     -- * AcknowledgmentStatus
-    AcknowledgmentStatus (..),
+    AcknowledgmentStatus,
 
     -- * DeviceIdentifierFilterKeys
-    DeviceIdentifierFilterKeys (..),
+    DeviceIdentifierFilterKeys,
 
     -- * DeviceIdentifierStatus
-    DeviceIdentifierStatus (..),
+    DeviceIdentifierStatus,
 
     -- * ElevationReference
-    ElevationReference (..),
+    ElevationReference,
 
     -- * ElevationUnit
-    ElevationUnit (..),
+    ElevationUnit,
 
     -- * HealthStatus
-    HealthStatus (..),
+    HealthStatus,
 
     -- * NetworkFilterKeys
-    NetworkFilterKeys (..),
+    NetworkFilterKeys,
 
     -- * NetworkResourceDefinitionType
-    NetworkResourceDefinitionType (..),
+    NetworkResourceDefinitionType,
 
     -- * NetworkResourceFilterKeys
-    NetworkResourceFilterKeys (..),
+    NetworkResourceFilterKeys,
 
     -- * NetworkResourceStatus
-    NetworkResourceStatus (..),
+    NetworkResourceStatus,
 
     -- * NetworkResourceType
-    NetworkResourceType (..),
+    NetworkResourceType,
 
     -- * NetworkSiteFilterKeys
-    NetworkSiteFilterKeys (..),
+    NetworkSiteFilterKeys,
 
     -- * NetworkSiteStatus
-    NetworkSiteStatus (..),
+    NetworkSiteStatus,
 
     -- * NetworkStatus
-    NetworkStatus (..),
+    NetworkStatus,
 
     -- * OrderFilterKeys
-    OrderFilterKeys (..),
+    OrderFilterKeys,
 
     -- * Address
-    Address (..),
+    Address,
     newAddress,
     address_company,
     address_phoneNumber,
@@ -85,7 +86,7 @@ module Amazonka.PrivateNetworks.Types
     address_street1,
 
     -- * DeviceIdentifier
-    DeviceIdentifier (..),
+    DeviceIdentifier,
     newDeviceIdentifier,
     deviceIdentifier_createdAt,
     deviceIdentifier_deviceIdentifierArn,
@@ -98,13 +99,13 @@ module Amazonka.PrivateNetworks.Types
     deviceIdentifier_vendor,
 
     -- * NameValuePair
-    NameValuePair (..),
+    NameValuePair,
     newNameValuePair,
     nameValuePair_value,
     nameValuePair_name,
 
     -- * Network
-    Network (..),
+    Network,
     newNetwork,
     network_createdAt,
     network_description,
@@ -114,7 +115,7 @@ module Amazonka.PrivateNetworks.Types
     network_status,
 
     -- * NetworkResource
-    NetworkResource (..),
+    NetworkResource,
     newNetworkResource,
     networkResource_attributes,
     networkResource_createdAt,
@@ -133,14 +134,14 @@ module Amazonka.PrivateNetworks.Types
     networkResource_vendor,
 
     -- * NetworkResourceDefinition
-    NetworkResourceDefinition (..),
+    NetworkResourceDefinition,
     newNetworkResourceDefinition,
     networkResourceDefinition_options,
     networkResourceDefinition_count,
     networkResourceDefinition_type,
 
     -- * NetworkSite
-    NetworkSite (..),
+    NetworkSite,
     newNetworkSite,
     networkSite_availabilityZone,
     networkSite_availabilityZoneId,
@@ -155,7 +156,7 @@ module Amazonka.PrivateNetworks.Types
     networkSite_status,
 
     -- * Order
-    Order (..),
+    Order,
     newOrder,
     order_acknowledgmentStatus,
     order_createdAt,
@@ -166,7 +167,7 @@ module Amazonka.PrivateNetworks.Types
     order_trackingInformation,
 
     -- * Position
-    Position (..),
+    Position,
     newPosition,
     position_elevation,
     position_elevationReference,
@@ -175,18 +176,18 @@ module Amazonka.PrivateNetworks.Types
     position_longitude,
 
     -- * SitePlan
-    SitePlan (..),
+    SitePlan,
     newSitePlan,
     sitePlan_options,
     sitePlan_resourceDefinitions,
 
     -- * TrackingInformation
-    TrackingInformation (..),
+    TrackingInformation,
     newTrackingInformation,
     trackingInformation_trackingNumber,
 
     -- * UpdateNetworkSiteResponse
-    UpdateNetworkSiteResponse (..),
+    UpdateNetworkSiteResponse,
     newUpdateNetworkSiteResponse,
     updateNetworkSiteResponse_networkSite,
     updateNetworkSiteResponse_tags,

@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -27,64 +28,64 @@ module Amazonka.AccessAnalyzer.Types
     _ValidationException,
 
     -- * AccessPreviewStatus
-    AccessPreviewStatus (..),
+    AccessPreviewStatus,
 
     -- * AccessPreviewStatusReasonCode
-    AccessPreviewStatusReasonCode (..),
+    AccessPreviewStatusReasonCode,
 
     -- * AclPermission
-    AclPermission (..),
+    AclPermission,
 
     -- * AnalyzerStatus
-    AnalyzerStatus (..),
+    AnalyzerStatus,
 
     -- * FindingChangeType
-    FindingChangeType (..),
+    FindingChangeType,
 
     -- * FindingSourceType
-    FindingSourceType (..),
+    FindingSourceType,
 
     -- * FindingStatus
-    FindingStatus (..),
+    FindingStatus,
 
     -- * FindingStatusUpdate
-    FindingStatusUpdate (..),
+    FindingStatusUpdate,
 
     -- * JobErrorCode
-    JobErrorCode (..),
+    JobErrorCode,
 
     -- * JobStatus
-    JobStatus (..),
+    JobStatus,
 
     -- * KmsGrantOperation
-    KmsGrantOperation (..),
+    KmsGrantOperation,
 
     -- * Locale
-    Locale (..),
+    Locale,
 
     -- * OrderBy
-    OrderBy (..),
+    OrderBy,
 
     -- * PolicyType
-    PolicyType (..),
+    PolicyType,
 
     -- * ReasonCode
-    ReasonCode (..),
+    ReasonCode,
 
     -- * ResourceType
-    ResourceType (..),
+    ResourceType,
 
     -- * Type
-    Type (..),
+    Type,
 
     -- * ValidatePolicyFindingType
-    ValidatePolicyFindingType (..),
+    ValidatePolicyFindingType,
 
     -- * ValidatePolicyResourceType
-    ValidatePolicyResourceType (..),
+    ValidatePolicyResourceType,
 
     -- * AccessPreview
-    AccessPreview (..),
+    AccessPreview,
     newAccessPreview,
     accessPreview_statusReason,
     accessPreview_id,
@@ -94,7 +95,7 @@ module Amazonka.AccessAnalyzer.Types
     accessPreview_status,
 
     -- * AccessPreviewFinding
-    AccessPreviewFinding (..),
+    AccessPreviewFinding,
     newAccessPreviewFinding,
     accessPreviewFinding_action,
     accessPreviewFinding_condition,
@@ -113,12 +114,12 @@ module Amazonka.AccessAnalyzer.Types
     accessPreviewFinding_resourceOwnerAccount,
 
     -- * AccessPreviewStatusReason
-    AccessPreviewStatusReason (..),
+    AccessPreviewStatusReason,
     newAccessPreviewStatusReason,
     accessPreviewStatusReason_code,
 
     -- * AccessPreviewSummary
-    AccessPreviewSummary (..),
+    AccessPreviewSummary,
     newAccessPreviewSummary,
     accessPreviewSummary_statusReason,
     accessPreviewSummary_id,
@@ -127,13 +128,13 @@ module Amazonka.AccessAnalyzer.Types
     accessPreviewSummary_status,
 
     -- * AclGrantee
-    AclGrantee (..),
+    AclGrantee,
     newAclGrantee,
     aclGrantee_id,
     aclGrantee_uri,
 
     -- * AnalyzedResource
-    AnalyzedResource (..),
+    AnalyzedResource,
     newAnalyzedResource,
     analyzedResource_actions,
     analyzedResource_error,
@@ -148,14 +149,14 @@ module Amazonka.AccessAnalyzer.Types
     analyzedResource_resourceOwnerAccount,
 
     -- * AnalyzedResourceSummary
-    AnalyzedResourceSummary (..),
+    AnalyzedResourceSummary,
     newAnalyzedResourceSummary,
     analyzedResourceSummary_resourceArn,
     analyzedResourceSummary_resourceOwnerAccount,
     analyzedResourceSummary_resourceType,
 
     -- * AnalyzerSummary
-    AnalyzerSummary (..),
+    AnalyzerSummary,
     newAnalyzerSummary,
     analyzerSummary_lastResourceAnalyzed,
     analyzerSummary_lastResourceAnalyzedAt,
@@ -168,7 +169,7 @@ module Amazonka.AccessAnalyzer.Types
     analyzerSummary_status,
 
     -- * ArchiveRuleSummary
-    ArchiveRuleSummary (..),
+    ArchiveRuleSummary,
     newArchiveRuleSummary,
     archiveRuleSummary_ruleName,
     archiveRuleSummary_filter,
@@ -176,7 +177,7 @@ module Amazonka.AccessAnalyzer.Types
     archiveRuleSummary_updatedAt,
 
     -- * CloudTrailDetails
-    CloudTrailDetails (..),
+    CloudTrailDetails,
     newCloudTrailDetails,
     cloudTrailDetails_endTime,
     cloudTrailDetails_trails,
@@ -184,14 +185,14 @@ module Amazonka.AccessAnalyzer.Types
     cloudTrailDetails_startTime,
 
     -- * CloudTrailProperties
-    CloudTrailProperties (..),
+    CloudTrailProperties,
     newCloudTrailProperties,
     cloudTrailProperties_trailProperties,
     cloudTrailProperties_startTime,
     cloudTrailProperties_endTime,
 
     -- * Configuration
-    Configuration (..),
+    Configuration,
     newConfiguration,
     configuration_ebsSnapshot,
     configuration_ecrRepository,
@@ -206,7 +207,7 @@ module Amazonka.AccessAnalyzer.Types
     configuration_sqsQueue,
 
     -- * Criterion
-    Criterion (..),
+    Criterion,
     newCriterion,
     criterion_contains,
     criterion_eq,
@@ -214,24 +215,24 @@ module Amazonka.AccessAnalyzer.Types
     criterion_neq,
 
     -- * EbsSnapshotConfiguration
-    EbsSnapshotConfiguration (..),
+    EbsSnapshotConfiguration,
     newEbsSnapshotConfiguration,
     ebsSnapshotConfiguration_groups,
     ebsSnapshotConfiguration_kmsKeyId,
     ebsSnapshotConfiguration_userIds,
 
     -- * EcrRepositoryConfiguration
-    EcrRepositoryConfiguration (..),
+    EcrRepositoryConfiguration,
     newEcrRepositoryConfiguration,
     ecrRepositoryConfiguration_repositoryPolicy,
 
     -- * EfsFileSystemConfiguration
-    EfsFileSystemConfiguration (..),
+    EfsFileSystemConfiguration,
     newEfsFileSystemConfiguration,
     efsFileSystemConfiguration_fileSystemPolicy,
 
     -- * Finding
-    Finding (..),
+    Finding,
     newFinding,
     finding_action,
     finding_error,
@@ -249,19 +250,19 @@ module Amazonka.AccessAnalyzer.Types
     finding_resourceOwnerAccount,
 
     -- * FindingSource
-    FindingSource (..),
+    FindingSource,
     newFindingSource,
     findingSource_detail,
     findingSource_type,
 
     -- * FindingSourceDetail
-    FindingSourceDetail (..),
+    FindingSourceDetail,
     newFindingSourceDetail,
     findingSourceDetail_accessPointAccount,
     findingSourceDetail_accessPointArn,
 
     -- * FindingSummary
-    FindingSummary (..),
+    FindingSummary,
     newFindingSummary,
     findingSummary_action,
     findingSummary_error,
@@ -279,40 +280,40 @@ module Amazonka.AccessAnalyzer.Types
     findingSummary_resourceOwnerAccount,
 
     -- * GeneratedPolicy
-    GeneratedPolicy (..),
+    GeneratedPolicy,
     newGeneratedPolicy,
     generatedPolicy_policy,
 
     -- * GeneratedPolicyProperties
-    GeneratedPolicyProperties (..),
+    GeneratedPolicyProperties,
     newGeneratedPolicyProperties,
     generatedPolicyProperties_cloudTrailProperties,
     generatedPolicyProperties_isComplete,
     generatedPolicyProperties_principalArn,
 
     -- * GeneratedPolicyResult
-    GeneratedPolicyResult (..),
+    GeneratedPolicyResult,
     newGeneratedPolicyResult,
     generatedPolicyResult_generatedPolicies,
     generatedPolicyResult_properties,
 
     -- * IamRoleConfiguration
-    IamRoleConfiguration (..),
+    IamRoleConfiguration,
     newIamRoleConfiguration,
     iamRoleConfiguration_trustPolicy,
 
     -- * InlineArchiveRule
-    InlineArchiveRule (..),
+    InlineArchiveRule,
     newInlineArchiveRule,
     inlineArchiveRule_ruleName,
     inlineArchiveRule_filter,
 
     -- * InternetConfiguration
-    InternetConfiguration (..),
+    InternetConfiguration,
     newInternetConfiguration,
 
     -- * JobDetails
-    JobDetails (..),
+    JobDetails,
     newJobDetails,
     jobDetails_completedOn,
     jobDetails_jobError,
@@ -321,13 +322,13 @@ module Amazonka.AccessAnalyzer.Types
     jobDetails_startedOn,
 
     -- * JobError
-    JobError (..),
+    JobError,
     newJobError,
     jobError_code,
     jobError_message,
 
     -- * KmsGrantConfiguration
-    KmsGrantConfiguration (..),
+    KmsGrantConfiguration,
     newKmsGrantConfiguration,
     kmsGrantConfiguration_constraints,
     kmsGrantConfiguration_retiringPrincipal,
@@ -336,31 +337,31 @@ module Amazonka.AccessAnalyzer.Types
     kmsGrantConfiguration_issuingAccount,
 
     -- * KmsGrantConstraints
-    KmsGrantConstraints (..),
+    KmsGrantConstraints,
     newKmsGrantConstraints,
     kmsGrantConstraints_encryptionContextEquals,
     kmsGrantConstraints_encryptionContextSubset,
 
     -- * KmsKeyConfiguration
-    KmsKeyConfiguration (..),
+    KmsKeyConfiguration,
     newKmsKeyConfiguration,
     kmsKeyConfiguration_grants,
     kmsKeyConfiguration_keyPolicies,
 
     -- * Location
-    Location (..),
+    Location,
     newLocation,
     location_path,
     location_span,
 
     -- * NetworkOriginConfiguration
-    NetworkOriginConfiguration (..),
+    NetworkOriginConfiguration,
     newNetworkOriginConfiguration,
     networkOriginConfiguration_internetConfiguration,
     networkOriginConfiguration_vpcConfiguration,
 
     -- * PathElement
-    PathElement (..),
+    PathElement,
     newPathElement,
     pathElement_index,
     pathElement_key,
@@ -368,7 +369,7 @@ module Amazonka.AccessAnalyzer.Types
     pathElement_value,
 
     -- * PolicyGeneration
-    PolicyGeneration (..),
+    PolicyGeneration,
     newPolicyGeneration,
     policyGeneration_completedOn,
     policyGeneration_jobId,
@@ -377,54 +378,54 @@ module Amazonka.AccessAnalyzer.Types
     policyGeneration_startedOn,
 
     -- * PolicyGenerationDetails
-    PolicyGenerationDetails (..),
+    PolicyGenerationDetails,
     newPolicyGenerationDetails,
     policyGenerationDetails_principalArn,
 
     -- * Position
-    Position (..),
+    Position,
     newPosition,
     position_line,
     position_column,
     position_offset,
 
     -- * RdsDbClusterSnapshotAttributeValue
-    RdsDbClusterSnapshotAttributeValue (..),
+    RdsDbClusterSnapshotAttributeValue,
     newRdsDbClusterSnapshotAttributeValue,
     rdsDbClusterSnapshotAttributeValue_accountIds,
 
     -- * RdsDbClusterSnapshotConfiguration
-    RdsDbClusterSnapshotConfiguration (..),
+    RdsDbClusterSnapshotConfiguration,
     newRdsDbClusterSnapshotConfiguration,
     rdsDbClusterSnapshotConfiguration_attributes,
     rdsDbClusterSnapshotConfiguration_kmsKeyId,
 
     -- * RdsDbSnapshotAttributeValue
-    RdsDbSnapshotAttributeValue (..),
+    RdsDbSnapshotAttributeValue,
     newRdsDbSnapshotAttributeValue,
     rdsDbSnapshotAttributeValue_accountIds,
 
     -- * RdsDbSnapshotConfiguration
-    RdsDbSnapshotConfiguration (..),
+    RdsDbSnapshotConfiguration,
     newRdsDbSnapshotConfiguration,
     rdsDbSnapshotConfiguration_attributes,
     rdsDbSnapshotConfiguration_kmsKeyId,
 
     -- * S3AccessPointConfiguration
-    S3AccessPointConfiguration (..),
+    S3AccessPointConfiguration,
     newS3AccessPointConfiguration,
     s3AccessPointConfiguration_accessPointPolicy,
     s3AccessPointConfiguration_networkOrigin,
     s3AccessPointConfiguration_publicAccessBlock,
 
     -- * S3BucketAclGrantConfiguration
-    S3BucketAclGrantConfiguration (..),
+    S3BucketAclGrantConfiguration,
     newS3BucketAclGrantConfiguration,
     s3BucketAclGrantConfiguration_permission,
     s3BucketAclGrantConfiguration_grantee,
 
     -- * S3BucketConfiguration
-    S3BucketConfiguration (..),
+    S3BucketConfiguration,
     newS3BucketConfiguration,
     s3BucketConfiguration_accessPoints,
     s3BucketConfiguration_bucketAclGrants,
@@ -432,66 +433,66 @@ module Amazonka.AccessAnalyzer.Types
     s3BucketConfiguration_bucketPublicAccessBlock,
 
     -- * S3PublicAccessBlockConfiguration
-    S3PublicAccessBlockConfiguration (..),
+    S3PublicAccessBlockConfiguration,
     newS3PublicAccessBlockConfiguration,
     s3PublicAccessBlockConfiguration_ignorePublicAcls,
     s3PublicAccessBlockConfiguration_restrictPublicBuckets,
 
     -- * SecretsManagerSecretConfiguration
-    SecretsManagerSecretConfiguration (..),
+    SecretsManagerSecretConfiguration,
     newSecretsManagerSecretConfiguration,
     secretsManagerSecretConfiguration_kmsKeyId,
     secretsManagerSecretConfiguration_secretPolicy,
 
     -- * SnsTopicConfiguration
-    SnsTopicConfiguration (..),
+    SnsTopicConfiguration,
     newSnsTopicConfiguration,
     snsTopicConfiguration_topicPolicy,
 
     -- * SortCriteria
-    SortCriteria (..),
+    SortCriteria,
     newSortCriteria,
     sortCriteria_attributeName,
     sortCriteria_orderBy,
 
     -- * Span
-    Span (..),
+    Span,
     newSpan,
     span_start,
     span_end,
 
     -- * SqsQueueConfiguration
-    SqsQueueConfiguration (..),
+    SqsQueueConfiguration,
     newSqsQueueConfiguration,
     sqsQueueConfiguration_queuePolicy,
 
     -- * StatusReason
-    StatusReason (..),
+    StatusReason,
     newStatusReason,
     statusReason_code,
 
     -- * Substring
-    Substring (..),
+    Substring,
     newSubstring,
     substring_start,
     substring_length,
 
     -- * Trail
-    Trail (..),
+    Trail,
     newTrail,
     trail_allRegions,
     trail_regions,
     trail_cloudTrailArn,
 
     -- * TrailProperties
-    TrailProperties (..),
+    TrailProperties,
     newTrailProperties,
     trailProperties_allRegions,
     trailProperties_regions,
     trailProperties_cloudTrailArn,
 
     -- * ValidatePolicyFinding
-    ValidatePolicyFinding (..),
+    ValidatePolicyFinding,
     newValidatePolicyFinding,
     validatePolicyFinding_findingDetails,
     validatePolicyFinding_findingType,
@@ -500,7 +501,7 @@ module Amazonka.AccessAnalyzer.Types
     validatePolicyFinding_locations,
 
     -- * VpcConfiguration
-    VpcConfiguration (..),
+    VpcConfiguration,
     newVpcConfiguration,
     vpcConfiguration_vpcId,
   )

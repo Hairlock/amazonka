@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -57,67 +58,67 @@ module Amazonka.Lambda.Types
     _UnsupportedMediaTypeException,
 
     -- * Architecture
-    Architecture (..),
+    Architecture,
 
     -- * CodeSigningPolicy
-    CodeSigningPolicy (..),
+    CodeSigningPolicy,
 
     -- * EndPointType
-    EndPointType (..),
+    EndPointType,
 
     -- * EventSourcePosition
-    EventSourcePosition (..),
+    EventSourcePosition,
 
     -- * FunctionResponseType
-    FunctionResponseType (..),
+    FunctionResponseType,
 
     -- * FunctionUrlAuthType
-    FunctionUrlAuthType (..),
+    FunctionUrlAuthType,
 
     -- * FunctionVersion
-    FunctionVersion (..),
+    FunctionVersion,
 
     -- * InvocationType
-    InvocationType (..),
+    InvocationType,
 
     -- * LastUpdateStatus
-    LastUpdateStatus (..),
+    LastUpdateStatus,
 
     -- * LastUpdateStatusReasonCode
-    LastUpdateStatusReasonCode (..),
+    LastUpdateStatusReasonCode,
 
     -- * LogType
-    LogType (..),
+    LogType,
 
     -- * PackageType
-    PackageType (..),
+    PackageType,
 
     -- * ProvisionedConcurrencyStatusEnum
-    ProvisionedConcurrencyStatusEnum (..),
+    ProvisionedConcurrencyStatusEnum,
 
     -- * Runtime
-    Runtime (..),
+    Runtime,
 
     -- * SnapStartApplyOn
-    SnapStartApplyOn (..),
+    SnapStartApplyOn,
 
     -- * SnapStartOptimizationStatus
-    SnapStartOptimizationStatus (..),
+    SnapStartOptimizationStatus,
 
     -- * SourceAccessType
-    SourceAccessType (..),
+    SourceAccessType,
 
     -- * State
-    State (..),
+    State,
 
     -- * StateReasonCode
-    StateReasonCode (..),
+    StateReasonCode,
 
     -- * TracingMode
-    TracingMode (..),
+    TracingMode,
 
     -- * AccountLimit
-    AccountLimit (..),
+    AccountLimit,
     newAccountLimit,
     accountLimit_codeSizeUnzipped,
     accountLimit_codeSizeZipped,
@@ -126,13 +127,13 @@ module Amazonka.Lambda.Types
     accountLimit_unreservedConcurrentExecutions,
 
     -- * AccountUsage
-    AccountUsage (..),
+    AccountUsage,
     newAccountUsage,
     accountUsage_functionCount,
     accountUsage_totalCodeSize,
 
     -- * AliasConfiguration
-    AliasConfiguration (..),
+    AliasConfiguration,
     newAliasConfiguration,
     aliasConfiguration_aliasArn,
     aliasConfiguration_description,
@@ -142,22 +143,22 @@ module Amazonka.Lambda.Types
     aliasConfiguration_routingConfig,
 
     -- * AliasRoutingConfiguration
-    AliasRoutingConfiguration (..),
+    AliasRoutingConfiguration,
     newAliasRoutingConfiguration,
     aliasRoutingConfiguration_additionalVersionWeights,
 
     -- * AllowedPublishers
-    AllowedPublishers (..),
+    AllowedPublishers,
     newAllowedPublishers,
     allowedPublishers_signingProfileVersionArns,
 
     -- * AmazonManagedKafkaEventSourceConfig
-    AmazonManagedKafkaEventSourceConfig (..),
+    AmazonManagedKafkaEventSourceConfig,
     newAmazonManagedKafkaEventSourceConfig,
     amazonManagedKafkaEventSourceConfig_consumerGroupId,
 
     -- * CodeSigningConfig
-    CodeSigningConfig (..),
+    CodeSigningConfig,
     newCodeSigningConfig,
     codeSigningConfig_description,
     codeSigningConfig_codeSigningConfigId,
@@ -167,17 +168,17 @@ module Amazonka.Lambda.Types
     codeSigningConfig_lastModified,
 
     -- * CodeSigningPolicies
-    CodeSigningPolicies (..),
+    CodeSigningPolicies,
     newCodeSigningPolicies,
     codeSigningPolicies_untrustedArtifactOnDeployment,
 
     -- * Concurrency
-    Concurrency (..),
+    Concurrency,
     newConcurrency,
     concurrency_reservedConcurrentExecutions,
 
     -- * Cors
-    Cors (..),
+    Cors,
     newCors,
     cors_allowCredentials,
     cors_allowHeaders,
@@ -187,40 +188,40 @@ module Amazonka.Lambda.Types
     cors_maxAge,
 
     -- * DeadLetterConfig
-    DeadLetterConfig (..),
+    DeadLetterConfig,
     newDeadLetterConfig,
     deadLetterConfig_targetArn,
 
     -- * DestinationConfig
-    DestinationConfig (..),
+    DestinationConfig,
     newDestinationConfig,
     destinationConfig_onFailure,
     destinationConfig_onSuccess,
 
     -- * Environment
-    Environment (..),
+    Environment,
     newEnvironment,
     environment_variables,
 
     -- * EnvironmentError
-    EnvironmentError (..),
+    EnvironmentError,
     newEnvironmentError,
     environmentError_errorCode,
     environmentError_message,
 
     -- * EnvironmentResponse
-    EnvironmentResponse (..),
+    EnvironmentResponse,
     newEnvironmentResponse,
     environmentResponse_error,
     environmentResponse_variables,
 
     -- * EphemeralStorage
-    EphemeralStorage (..),
+    EphemeralStorage,
     newEphemeralStorage,
     ephemeralStorage_size,
 
     -- * EventSourceMappingConfiguration
-    EventSourceMappingConfiguration (..),
+    EventSourceMappingConfiguration,
     newEventSourceMappingConfiguration,
     eventSourceMappingConfiguration_amazonManagedKafkaEventSourceConfig,
     eventSourceMappingConfiguration_batchSize,
@@ -249,23 +250,23 @@ module Amazonka.Lambda.Types
     eventSourceMappingConfiguration_uuid,
 
     -- * FileSystemConfig
-    FileSystemConfig (..),
+    FileSystemConfig,
     newFileSystemConfig,
     fileSystemConfig_arn,
     fileSystemConfig_localMountPath,
 
     -- * Filter
-    Filter (..),
+    Filter,
     newFilter,
     filter_pattern,
 
     -- * FilterCriteria
-    FilterCriteria (..),
+    FilterCriteria,
     newFilterCriteria,
     filterCriteria_filters,
 
     -- * FunctionCode
-    FunctionCode (..),
+    FunctionCode,
     newFunctionCode,
     functionCode_imageUri,
     functionCode_s3Bucket,
@@ -274,7 +275,7 @@ module Amazonka.Lambda.Types
     functionCode_zipFile,
 
     -- * FunctionCodeLocation
-    FunctionCodeLocation (..),
+    FunctionCodeLocation,
     newFunctionCodeLocation,
     functionCodeLocation_imageUri,
     functionCodeLocation_location,
@@ -282,7 +283,7 @@ module Amazonka.Lambda.Types
     functionCodeLocation_resolvedImageUri,
 
     -- * FunctionConfiguration
-    FunctionConfiguration (..),
+    FunctionConfiguration,
     newFunctionConfiguration,
     functionConfiguration_architectures,
     functionConfiguration_codeSha256,
@@ -320,7 +321,7 @@ module Amazonka.Lambda.Types
     functionConfiguration_vpcConfig,
 
     -- * FunctionEventInvokeConfig
-    FunctionEventInvokeConfig (..),
+    FunctionEventInvokeConfig,
     newFunctionEventInvokeConfig,
     functionEventInvokeConfig_destinationConfig,
     functionEventInvokeConfig_functionArn,
@@ -329,7 +330,7 @@ module Amazonka.Lambda.Types
     functionEventInvokeConfig_maximumRetryAttempts,
 
     -- * FunctionUrlConfig
-    FunctionUrlConfig (..),
+    FunctionUrlConfig,
     newFunctionUrlConfig,
     functionUrlConfig_cors,
     functionUrlConfig_functionUrl,
@@ -339,7 +340,7 @@ module Amazonka.Lambda.Types
     functionUrlConfig_authType,
 
     -- * GetLayerVersionResponse
-    GetLayerVersionResponse (..),
+    GetLayerVersionResponse,
     newGetLayerVersionResponse,
     getLayerVersionResponse_compatibleArchitectures,
     getLayerVersionResponse_compatibleRuntimes,
@@ -352,26 +353,26 @@ module Amazonka.Lambda.Types
     getLayerVersionResponse_version,
 
     -- * ImageConfig
-    ImageConfig (..),
+    ImageConfig,
     newImageConfig,
     imageConfig_command,
     imageConfig_entryPoint,
     imageConfig_workingDirectory,
 
     -- * ImageConfigError
-    ImageConfigError (..),
+    ImageConfigError,
     newImageConfigError,
     imageConfigError_errorCode,
     imageConfigError_message,
 
     -- * ImageConfigResponse
-    ImageConfigResponse (..),
+    ImageConfigResponse,
     newImageConfigResponse,
     imageConfigResponse_error,
     imageConfigResponse_imageConfig,
 
     -- * Layer
-    Layer (..),
+    Layer,
     newLayer,
     layer_arn,
     layer_codeSize,
@@ -379,7 +380,7 @@ module Amazonka.Lambda.Types
     layer_signingProfileVersionArn,
 
     -- * LayerVersionContentInput
-    LayerVersionContentInput (..),
+    LayerVersionContentInput,
     newLayerVersionContentInput,
     layerVersionContentInput_s3Bucket,
     layerVersionContentInput_s3Key,
@@ -387,7 +388,7 @@ module Amazonka.Lambda.Types
     layerVersionContentInput_zipFile,
 
     -- * LayerVersionContentOutput
-    LayerVersionContentOutput (..),
+    LayerVersionContentOutput,
     newLayerVersionContentOutput,
     layerVersionContentOutput_codeSha256,
     layerVersionContentOutput_codeSize,
@@ -396,7 +397,7 @@ module Amazonka.Lambda.Types
     layerVersionContentOutput_signingProfileVersionArn,
 
     -- * LayerVersionsListItem
-    LayerVersionsListItem (..),
+    LayerVersionsListItem,
     newLayerVersionsListItem,
     layerVersionsListItem_compatibleArchitectures,
     layerVersionsListItem_compatibleRuntimes,
@@ -407,24 +408,24 @@ module Amazonka.Lambda.Types
     layerVersionsListItem_version,
 
     -- * LayersListItem
-    LayersListItem (..),
+    LayersListItem,
     newLayersListItem,
     layersListItem_latestMatchingVersion,
     layersListItem_layerArn,
     layersListItem_layerName,
 
     -- * OnFailure
-    OnFailure (..),
+    OnFailure,
     newOnFailure,
     onFailure_destination,
 
     -- * OnSuccess
-    OnSuccess (..),
+    OnSuccess,
     newOnSuccess,
     onSuccess_destination,
 
     -- * ProvisionedConcurrencyConfigListItem
-    ProvisionedConcurrencyConfigListItem (..),
+    ProvisionedConcurrencyConfigListItem,
     newProvisionedConcurrencyConfigListItem,
     provisionedConcurrencyConfigListItem_allocatedProvisionedConcurrentExecutions,
     provisionedConcurrencyConfigListItem_availableProvisionedConcurrentExecutions,
@@ -435,50 +436,50 @@ module Amazonka.Lambda.Types
     provisionedConcurrencyConfigListItem_statusReason,
 
     -- * SelfManagedEventSource
-    SelfManagedEventSource (..),
+    SelfManagedEventSource,
     newSelfManagedEventSource,
     selfManagedEventSource_endpoints,
 
     -- * SelfManagedKafkaEventSourceConfig
-    SelfManagedKafkaEventSourceConfig (..),
+    SelfManagedKafkaEventSourceConfig,
     newSelfManagedKafkaEventSourceConfig,
     selfManagedKafkaEventSourceConfig_consumerGroupId,
 
     -- * SnapStart
-    SnapStart (..),
+    SnapStart,
     newSnapStart,
     snapStart_applyOn,
 
     -- * SnapStartResponse
-    SnapStartResponse (..),
+    SnapStartResponse,
     newSnapStartResponse,
     snapStartResponse_applyOn,
     snapStartResponse_optimizationStatus,
 
     -- * SourceAccessConfiguration
-    SourceAccessConfiguration (..),
+    SourceAccessConfiguration,
     newSourceAccessConfiguration,
     sourceAccessConfiguration_type,
     sourceAccessConfiguration_uri,
 
     -- * TracingConfig
-    TracingConfig (..),
+    TracingConfig,
     newTracingConfig,
     tracingConfig_mode,
 
     -- * TracingConfigResponse
-    TracingConfigResponse (..),
+    TracingConfigResponse,
     newTracingConfigResponse,
     tracingConfigResponse_mode,
 
     -- * VpcConfig
-    VpcConfig (..),
+    VpcConfig,
     newVpcConfig,
     vpcConfig_securityGroupIds,
     vpcConfig_subnetIds,
 
     -- * VpcConfigResponse
-    VpcConfigResponse (..),
+    VpcConfigResponse,
     newVpcConfigResponse,
     vpcConfigResponse_securityGroupIds,
     vpcConfigResponse_subnetIds,

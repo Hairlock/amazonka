@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -28,31 +29,31 @@ module Amazonka.Cloud9.Types
     _TooManyRequestsException,
 
     -- * ConnectionType
-    ConnectionType (..),
+    ConnectionType,
 
     -- * EnvironmentLifecycleStatus
-    EnvironmentLifecycleStatus (..),
+    EnvironmentLifecycleStatus,
 
     -- * EnvironmentStatus
-    EnvironmentStatus (..),
+    EnvironmentStatus,
 
     -- * EnvironmentType
-    EnvironmentType (..),
+    EnvironmentType,
 
     -- * ManagedCredentialsAction
-    ManagedCredentialsAction (..),
+    ManagedCredentialsAction,
 
     -- * ManagedCredentialsStatus
-    ManagedCredentialsStatus (..),
+    ManagedCredentialsStatus,
 
     -- * MemberPermissions
-    MemberPermissions (..),
+    MemberPermissions,
 
     -- * Permissions
-    Permissions (..),
+    Permissions,
 
     -- * Environment
-    Environment (..),
+    Environment,
     newEnvironment,
     environment_connectionType,
     environment_description,
@@ -65,14 +66,14 @@ module Amazonka.Cloud9.Types
     environment_ownerArn,
 
     -- * EnvironmentLifecycle
-    EnvironmentLifecycle (..),
+    EnvironmentLifecycle,
     newEnvironmentLifecycle,
     environmentLifecycle_failureResource,
     environmentLifecycle_reason,
     environmentLifecycle_status,
 
     -- * EnvironmentMember
-    EnvironmentMember (..),
+    EnvironmentMember,
     newEnvironmentMember,
     environmentMember_lastAccess,
     environmentMember_permissions,
@@ -81,7 +82,7 @@ module Amazonka.Cloud9.Types
     environmentMember_environmentId,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,

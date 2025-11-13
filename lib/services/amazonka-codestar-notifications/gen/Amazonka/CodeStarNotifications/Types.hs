@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -28,25 +29,25 @@ module Amazonka.CodeStarNotifications.Types
     _ValidationException,
 
     -- * DetailType
-    DetailType (..),
+    DetailType,
 
     -- * ListEventTypesFilterName
-    ListEventTypesFilterName (..),
+    ListEventTypesFilterName,
 
     -- * ListNotificationRulesFilterName
-    ListNotificationRulesFilterName (..),
+    ListNotificationRulesFilterName,
 
     -- * ListTargetsFilterName
-    ListTargetsFilterName (..),
+    ListTargetsFilterName,
 
     -- * NotificationRuleStatus
-    NotificationRuleStatus (..),
+    NotificationRuleStatus,
 
     -- * TargetStatus
-    TargetStatus (..),
+    TargetStatus,
 
     -- * EventTypeSummary
-    EventTypeSummary (..),
+    EventTypeSummary,
     newEventTypeSummary,
     eventTypeSummary_eventTypeId,
     eventTypeSummary_eventTypeName,
@@ -54,37 +55,37 @@ module Amazonka.CodeStarNotifications.Types
     eventTypeSummary_serviceName,
 
     -- * ListEventTypesFilter
-    ListEventTypesFilter (..),
+    ListEventTypesFilter,
     newListEventTypesFilter,
     listEventTypesFilter_name,
     listEventTypesFilter_value,
 
     -- * ListNotificationRulesFilter
-    ListNotificationRulesFilter (..),
+    ListNotificationRulesFilter,
     newListNotificationRulesFilter,
     listNotificationRulesFilter_name,
     listNotificationRulesFilter_value,
 
     -- * ListTargetsFilter
-    ListTargetsFilter (..),
+    ListTargetsFilter,
     newListTargetsFilter,
     listTargetsFilter_name,
     listTargetsFilter_value,
 
     -- * NotificationRuleSummary
-    NotificationRuleSummary (..),
+    NotificationRuleSummary,
     newNotificationRuleSummary,
     notificationRuleSummary_arn,
     notificationRuleSummary_id,
 
     -- * Target
-    Target (..),
+    Target,
     newTarget,
     target_targetAddress,
     target_targetType,
 
     -- * TargetSummary
-    TargetSummary (..),
+    TargetSummary,
     newTargetSummary,
     targetSummary_targetAddress,
     targetSummary_targetStatus,

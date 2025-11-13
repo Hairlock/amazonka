@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -23,70 +24,70 @@ module Amazonka.EMRContainers.Types
     _ValidationException,
 
     -- * ContainerProviderType
-    ContainerProviderType (..),
+    ContainerProviderType,
 
     -- * EndpointState
-    EndpointState (..),
+    EndpointState,
 
     -- * FailureReason
-    FailureReason (..),
+    FailureReason,
 
     -- * JobRunState
-    JobRunState (..),
+    JobRunState,
 
     -- * PersistentAppUI
-    PersistentAppUI (..),
+    PersistentAppUI,
 
     -- * TemplateParameterDataType
-    TemplateParameterDataType (..),
+    TemplateParameterDataType,
 
     -- * VirtualClusterState
-    VirtualClusterState (..),
+    VirtualClusterState,
 
     -- * Certificate
-    Certificate (..),
+    Certificate,
     newCertificate,
     certificate_certificateArn,
     certificate_certificateData,
 
     -- * CloudWatchMonitoringConfiguration
-    CloudWatchMonitoringConfiguration (..),
+    CloudWatchMonitoringConfiguration,
     newCloudWatchMonitoringConfiguration,
     cloudWatchMonitoringConfiguration_logStreamNamePrefix,
     cloudWatchMonitoringConfiguration_logGroupName,
 
     -- * Configuration
-    Configuration (..),
+    Configuration,
     newConfiguration,
     configuration_configurations,
     configuration_properties,
     configuration_classification,
 
     -- * ConfigurationOverrides
-    ConfigurationOverrides (..),
+    ConfigurationOverrides,
     newConfigurationOverrides,
     configurationOverrides_applicationConfiguration,
     configurationOverrides_monitoringConfiguration,
 
     -- * ContainerInfo
-    ContainerInfo (..),
+    ContainerInfo,
     newContainerInfo,
     containerInfo_eksInfo,
 
     -- * ContainerProvider
-    ContainerProvider (..),
+    ContainerProvider,
     newContainerProvider,
     containerProvider_info,
     containerProvider_type,
     containerProvider_id,
 
     -- * EksInfo
-    EksInfo (..),
+    EksInfo,
     newEksInfo,
     eksInfo_namespace,
 
     -- * Endpoint
-    Endpoint (..),
+    Endpoint,
     newEndpoint,
     endpoint_arn,
     endpoint_certificateArn,
@@ -108,13 +109,13 @@ module Amazonka.EMRContainers.Types
     endpoint_virtualClusterId,
 
     -- * JobDriver
-    JobDriver (..),
+    JobDriver,
     newJobDriver,
     jobDriver_sparkSqlJobDriver,
     jobDriver_sparkSubmitJobDriver,
 
     -- * JobRun
-    JobRun (..),
+    JobRun,
     newJobRun,
     jobRun_arn,
     jobRun_clientToken,
@@ -134,7 +135,7 @@ module Amazonka.EMRContainers.Types
     jobRun_virtualClusterId,
 
     -- * JobTemplate
-    JobTemplate (..),
+    JobTemplate,
     newJobTemplate,
     jobTemplate_arn,
     jobTemplate_createdAt,
@@ -147,7 +148,7 @@ module Amazonka.EMRContainers.Types
     jobTemplate_jobTemplateData,
 
     -- * JobTemplateData
-    JobTemplateData (..),
+    JobTemplateData,
     newJobTemplateData,
     jobTemplateData_configurationOverrides,
     jobTemplateData_jobTags,
@@ -157,62 +158,62 @@ module Amazonka.EMRContainers.Types
     jobTemplateData_jobDriver,
 
     -- * MonitoringConfiguration
-    MonitoringConfiguration (..),
+    MonitoringConfiguration,
     newMonitoringConfiguration,
     monitoringConfiguration_cloudWatchMonitoringConfiguration,
     monitoringConfiguration_persistentAppUI,
     monitoringConfiguration_s3MonitoringConfiguration,
 
     -- * ParametricCloudWatchMonitoringConfiguration
-    ParametricCloudWatchMonitoringConfiguration (..),
+    ParametricCloudWatchMonitoringConfiguration,
     newParametricCloudWatchMonitoringConfiguration,
     parametricCloudWatchMonitoringConfiguration_logGroupName,
     parametricCloudWatchMonitoringConfiguration_logStreamNamePrefix,
 
     -- * ParametricConfigurationOverrides
-    ParametricConfigurationOverrides (..),
+    ParametricConfigurationOverrides,
     newParametricConfigurationOverrides,
     parametricConfigurationOverrides_applicationConfiguration,
     parametricConfigurationOverrides_monitoringConfiguration,
 
     -- * ParametricMonitoringConfiguration
-    ParametricMonitoringConfiguration (..),
+    ParametricMonitoringConfiguration,
     newParametricMonitoringConfiguration,
     parametricMonitoringConfiguration_cloudWatchMonitoringConfiguration,
     parametricMonitoringConfiguration_persistentAppUI,
     parametricMonitoringConfiguration_s3MonitoringConfiguration,
 
     -- * ParametricS3MonitoringConfiguration
-    ParametricS3MonitoringConfiguration (..),
+    ParametricS3MonitoringConfiguration,
     newParametricS3MonitoringConfiguration,
     parametricS3MonitoringConfiguration_logUri,
 
     -- * S3MonitoringConfiguration
-    S3MonitoringConfiguration (..),
+    S3MonitoringConfiguration,
     newS3MonitoringConfiguration,
     s3MonitoringConfiguration_logUri,
 
     -- * SparkSqlJobDriver
-    SparkSqlJobDriver (..),
+    SparkSqlJobDriver,
     newSparkSqlJobDriver,
     sparkSqlJobDriver_entryPoint,
     sparkSqlJobDriver_sparkSqlParameters,
 
     -- * SparkSubmitJobDriver
-    SparkSubmitJobDriver (..),
+    SparkSubmitJobDriver,
     newSparkSubmitJobDriver,
     sparkSubmitJobDriver_entryPointArguments,
     sparkSubmitJobDriver_sparkSubmitParameters,
     sparkSubmitJobDriver_entryPoint,
 
     -- * TemplateParameterConfiguration
-    TemplateParameterConfiguration (..),
+    TemplateParameterConfiguration,
     newTemplateParameterConfiguration,
     templateParameterConfiguration_defaultValue,
     templateParameterConfiguration_type,
 
     -- * VirtualCluster
-    VirtualCluster (..),
+    VirtualCluster,
     newVirtualCluster,
     virtualCluster_arn,
     virtualCluster_containerProvider,

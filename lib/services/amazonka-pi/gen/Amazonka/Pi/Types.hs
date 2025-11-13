@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -23,40 +24,40 @@ module Amazonka.Pi.Types
     _NotAuthorizedException,
 
     -- * DetailStatus
-    DetailStatus (..),
+    DetailStatus,
 
     -- * FeatureStatus
-    FeatureStatus (..),
+    FeatureStatus,
 
     -- * ServiceType
-    ServiceType (..),
+    ServiceType,
 
     -- * DataPoint
-    DataPoint (..),
+    DataPoint,
     newDataPoint,
     dataPoint_timestamp,
     dataPoint_value,
 
     -- * DimensionDetail
-    DimensionDetail (..),
+    DimensionDetail,
     newDimensionDetail,
     dimensionDetail_identifier,
 
     -- * DimensionGroup
-    DimensionGroup (..),
+    DimensionGroup,
     newDimensionGroup,
     dimensionGroup_dimensions,
     dimensionGroup_limit,
     dimensionGroup_group,
 
     -- * DimensionGroupDetail
-    DimensionGroupDetail (..),
+    DimensionGroupDetail,
     newDimensionGroupDetail,
     dimensionGroupDetail_dimensions,
     dimensionGroupDetail_group,
 
     -- * DimensionKeyDescription
-    DimensionKeyDescription (..),
+    DimensionKeyDescription,
     newDimensionKeyDescription,
     dimensionKeyDescription_additionalMetrics,
     dimensionKeyDescription_dimensions,
@@ -64,50 +65,50 @@ module Amazonka.Pi.Types
     dimensionKeyDescription_total,
 
     -- * DimensionKeyDetail
-    DimensionKeyDetail (..),
+    DimensionKeyDetail,
     newDimensionKeyDetail,
     dimensionKeyDetail_dimension,
     dimensionKeyDetail_status,
     dimensionKeyDetail_value,
 
     -- * FeatureMetadata
-    FeatureMetadata (..),
+    FeatureMetadata,
     newFeatureMetadata,
     featureMetadata_status,
 
     -- * MetricDimensionGroups
-    MetricDimensionGroups (..),
+    MetricDimensionGroups,
     newMetricDimensionGroups,
     metricDimensionGroups_groups,
     metricDimensionGroups_metric,
 
     -- * MetricKeyDataPoints
-    MetricKeyDataPoints (..),
+    MetricKeyDataPoints,
     newMetricKeyDataPoints,
     metricKeyDataPoints_dataPoints,
     metricKeyDataPoints_key,
 
     -- * MetricQuery
-    MetricQuery (..),
+    MetricQuery,
     newMetricQuery,
     metricQuery_filter,
     metricQuery_groupBy,
     metricQuery_metric,
 
     -- * ResponsePartitionKey
-    ResponsePartitionKey (..),
+    ResponsePartitionKey,
     newResponsePartitionKey,
     responsePartitionKey_dimensions,
 
     -- * ResponseResourceMetric
-    ResponseResourceMetric (..),
+    ResponseResourceMetric,
     newResponseResourceMetric,
     responseResourceMetric_description,
     responseResourceMetric_metric,
     responseResourceMetric_unit,
 
     -- * ResponseResourceMetricKey
-    ResponseResourceMetricKey (..),
+    ResponseResourceMetricKey,
     newResponseResourceMetricKey,
     responseResourceMetricKey_dimensions,
     responseResourceMetricKey_metric,

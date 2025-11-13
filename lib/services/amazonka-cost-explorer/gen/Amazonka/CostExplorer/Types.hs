@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -32,112 +33,112 @@ module Amazonka.CostExplorer.Types
     _UnresolvableUsageUnitException,
 
     -- * AccountScope
-    AccountScope (..),
+    AccountScope,
 
     -- * AnomalyFeedbackType
-    AnomalyFeedbackType (..),
+    AnomalyFeedbackType,
 
     -- * AnomalySubscriptionFrequency
-    AnomalySubscriptionFrequency (..),
+    AnomalySubscriptionFrequency,
 
     -- * Context
-    Context (..),
+    Context,
 
     -- * CostAllocationTagStatus
-    CostAllocationTagStatus (..),
+    CostAllocationTagStatus,
 
     -- * CostAllocationTagType
-    CostAllocationTagType (..),
+    CostAllocationTagType,
 
     -- * CostCategoryInheritedValueDimensionName
-    CostCategoryInheritedValueDimensionName (..),
+    CostCategoryInheritedValueDimensionName,
 
     -- * CostCategoryRuleType
-    CostCategoryRuleType (..),
+    CostCategoryRuleType,
 
     -- * CostCategoryRuleVersion
-    CostCategoryRuleVersion (..),
+    CostCategoryRuleVersion,
 
     -- * CostCategorySplitChargeMethod
-    CostCategorySplitChargeMethod (..),
+    CostCategorySplitChargeMethod,
 
     -- * CostCategorySplitChargeRuleParameterType
-    CostCategorySplitChargeRuleParameterType (..),
+    CostCategorySplitChargeRuleParameterType,
 
     -- * CostCategoryStatus
-    CostCategoryStatus (..),
+    CostCategoryStatus,
 
     -- * CostCategoryStatusComponent
-    CostCategoryStatusComponent (..),
+    CostCategoryStatusComponent,
 
     -- * Dimension
-    Dimension (..),
+    Dimension,
 
     -- * FindingReasonCode
-    FindingReasonCode (..),
+    FindingReasonCode,
 
     -- * GenerationStatus
-    GenerationStatus (..),
+    GenerationStatus,
 
     -- * Granularity
-    Granularity (..),
+    Granularity,
 
     -- * GroupDefinitionType
-    GroupDefinitionType (..),
+    GroupDefinitionType,
 
     -- * LookbackPeriodInDays
-    LookbackPeriodInDays (..),
+    LookbackPeriodInDays,
 
     -- * MatchOption
-    MatchOption (..),
+    MatchOption,
 
     -- * Metric
-    Metric (..),
+    Metric,
 
     -- * MonitorDimension
-    MonitorDimension (..),
+    MonitorDimension,
 
     -- * MonitorType
-    MonitorType (..),
+    MonitorType,
 
     -- * NumericOperator
-    NumericOperator (..),
+    NumericOperator,
 
     -- * OfferingClass
-    OfferingClass (..),
+    OfferingClass,
 
     -- * PaymentOption
-    PaymentOption (..),
+    PaymentOption,
 
     -- * PlatformDifference
-    PlatformDifference (..),
+    PlatformDifference,
 
     -- * RecommendationTarget
-    RecommendationTarget (..),
+    RecommendationTarget,
 
     -- * RightsizingType
-    RightsizingType (..),
+    RightsizingType,
 
     -- * SavingsPlansDataType
-    SavingsPlansDataType (..),
+    SavingsPlansDataType,
 
     -- * SortOrder
-    SortOrder (..),
+    SortOrder,
 
     -- * SubscriberStatus
-    SubscriberStatus (..),
+    SubscriberStatus,
 
     -- * SubscriberType
-    SubscriberType (..),
+    SubscriberType,
 
     -- * SupportedSavingsPlansType
-    SupportedSavingsPlansType (..),
+    SupportedSavingsPlansType,
 
     -- * TermInYears
-    TermInYears (..),
+    TermInYears,
 
     -- * Anomaly
-    Anomaly (..),
+    Anomaly,
     newAnomaly,
     anomaly_anomalyEndDate,
     anomaly_anomalyStartDate,
@@ -150,13 +151,13 @@ module Amazonka.CostExplorer.Types
     anomaly_monitorArn,
 
     -- * AnomalyDateInterval
-    AnomalyDateInterval (..),
+    AnomalyDateInterval,
     newAnomalyDateInterval,
     anomalyDateInterval_endDate,
     anomalyDateInterval_startDate,
 
     -- * AnomalyMonitor
-    AnomalyMonitor (..),
+    AnomalyMonitor,
     newAnomalyMonitor,
     anomalyMonitor_creationDate,
     anomalyMonitor_dimensionalValueCount,
@@ -169,13 +170,13 @@ module Amazonka.CostExplorer.Types
     anomalyMonitor_monitorType,
 
     -- * AnomalyScore
-    AnomalyScore (..),
+    AnomalyScore,
     newAnomalyScore,
     anomalyScore_maxScore,
     anomalyScore_currentScore,
 
     -- * AnomalySubscription
-    AnomalySubscription (..),
+    AnomalySubscription,
     newAnomalySubscription,
     anomalySubscription_accountId,
     anomalySubscription_subscriptionArn,
@@ -187,20 +188,20 @@ module Amazonka.CostExplorer.Types
     anomalySubscription_subscriptionName,
 
     -- * CostAllocationTag
-    CostAllocationTag (..),
+    CostAllocationTag,
     newCostAllocationTag,
     costAllocationTag_tagKey,
     costAllocationTag_type,
     costAllocationTag_status,
 
     -- * CostAllocationTagStatusEntry
-    CostAllocationTagStatusEntry (..),
+    CostAllocationTagStatusEntry,
     newCostAllocationTagStatusEntry,
     costAllocationTagStatusEntry_tagKey,
     costAllocationTagStatusEntry_status,
 
     -- * CostCategory
-    CostCategory (..),
+    CostCategory,
     newCostCategory,
     costCategory_defaultValue,
     costCategory_effectiveEnd,
@@ -213,19 +214,19 @@ module Amazonka.CostExplorer.Types
     costCategory_rules,
 
     -- * CostCategoryInheritedValueDimension
-    CostCategoryInheritedValueDimension (..),
+    CostCategoryInheritedValueDimension,
     newCostCategoryInheritedValueDimension,
     costCategoryInheritedValueDimension_dimensionKey,
     costCategoryInheritedValueDimension_dimensionName,
 
     -- * CostCategoryProcessingStatus
-    CostCategoryProcessingStatus (..),
+    CostCategoryProcessingStatus,
     newCostCategoryProcessingStatus,
     costCategoryProcessingStatus_component,
     costCategoryProcessingStatus_status,
 
     -- * CostCategoryReference
-    CostCategoryReference (..),
+    CostCategoryReference,
     newCostCategoryReference,
     costCategoryReference_costCategoryArn,
     costCategoryReference_defaultValue,
@@ -237,7 +238,7 @@ module Amazonka.CostExplorer.Types
     costCategoryReference_values,
 
     -- * CostCategoryRule
-    CostCategoryRule (..),
+    CostCategoryRule,
     newCostCategoryRule,
     costCategoryRule_inheritedValue,
     costCategoryRule_rule,
@@ -245,7 +246,7 @@ module Amazonka.CostExplorer.Types
     costCategoryRule_value,
 
     -- * CostCategorySplitChargeRule
-    CostCategorySplitChargeRule (..),
+    CostCategorySplitChargeRule,
     newCostCategorySplitChargeRule,
     costCategorySplitChargeRule_parameters,
     costCategorySplitChargeRule_source,
@@ -253,39 +254,39 @@ module Amazonka.CostExplorer.Types
     costCategorySplitChargeRule_method,
 
     -- * CostCategorySplitChargeRuleParameter
-    CostCategorySplitChargeRuleParameter (..),
+    CostCategorySplitChargeRuleParameter,
     newCostCategorySplitChargeRuleParameter,
     costCategorySplitChargeRuleParameter_type,
     costCategorySplitChargeRuleParameter_values,
 
     -- * CostCategoryValues
-    CostCategoryValues (..),
+    CostCategoryValues,
     newCostCategoryValues,
     costCategoryValues_key,
     costCategoryValues_matchOptions,
     costCategoryValues_values,
 
     -- * Coverage
-    Coverage (..),
+    Coverage,
     newCoverage,
     coverage_coverageCost,
     coverage_coverageHours,
     coverage_coverageNormalizedUnits,
 
     -- * CoverageByTime
-    CoverageByTime (..),
+    CoverageByTime,
     newCoverageByTime,
     coverageByTime_groups,
     coverageByTime_timePeriod,
     coverageByTime_total,
 
     -- * CoverageCost
-    CoverageCost (..),
+    CoverageCost,
     newCoverageCost,
     coverageCost_onDemandCost,
 
     -- * CoverageHours
-    CoverageHours (..),
+    CoverageHours,
     newCoverageHours,
     coverageHours_coverageHoursPercentage,
     coverageHours_onDemandHours,
@@ -293,7 +294,7 @@ module Amazonka.CostExplorer.Types
     coverageHours_totalRunningHours,
 
     -- * CoverageNormalizedUnits
-    CoverageNormalizedUnits (..),
+    CoverageNormalizedUnits,
     newCoverageNormalizedUnits,
     coverageNormalizedUnits_coverageNormalizedUnitsPercentage,
     coverageNormalizedUnits_onDemandNormalizedUnits,
@@ -301,7 +302,7 @@ module Amazonka.CostExplorer.Types
     coverageNormalizedUnits_totalRunningNormalizedUnits,
 
     -- * CurrentInstance
-    CurrentInstance (..),
+    CurrentInstance,
     newCurrentInstance,
     currentInstance_currencyCode,
     currentInstance_instanceName,
@@ -316,26 +317,26 @@ module Amazonka.CostExplorer.Types
     currentInstance_totalRunningHoursInLookbackPeriod,
 
     -- * DateInterval
-    DateInterval (..),
+    DateInterval,
     newDateInterval,
     dateInterval_start,
     dateInterval_end,
 
     -- * DimensionValues
-    DimensionValues (..),
+    DimensionValues,
     newDimensionValues,
     dimensionValues_key,
     dimensionValues_matchOptions,
     dimensionValues_values,
 
     -- * DimensionValuesWithAttributes
-    DimensionValuesWithAttributes (..),
+    DimensionValuesWithAttributes,
     newDimensionValuesWithAttributes,
     dimensionValuesWithAttributes_attributes,
     dimensionValuesWithAttributes_value,
 
     -- * DiskResourceUtilization
-    DiskResourceUtilization (..),
+    DiskResourceUtilization,
     newDiskResourceUtilization,
     diskResourceUtilization_diskReadBytesPerSecond,
     diskResourceUtilization_diskReadOpsPerSecond,
@@ -343,7 +344,7 @@ module Amazonka.CostExplorer.Types
     diskResourceUtilization_diskWriteOpsPerSecond,
 
     -- * EBSResourceUtilization
-    EBSResourceUtilization (..),
+    EBSResourceUtilization,
     newEBSResourceUtilization,
     eBSResourceUtilization_ebsReadBytesPerSecond,
     eBSResourceUtilization_ebsReadOpsPerSecond,
@@ -351,7 +352,7 @@ module Amazonka.CostExplorer.Types
     eBSResourceUtilization_ebsWriteOpsPerSecond,
 
     -- * EC2InstanceDetails
-    EC2InstanceDetails (..),
+    EC2InstanceDetails,
     newEC2InstanceDetails,
     eC2InstanceDetails_availabilityZone,
     eC2InstanceDetails_currentGeneration,
@@ -363,7 +364,7 @@ module Amazonka.CostExplorer.Types
     eC2InstanceDetails_tenancy,
 
     -- * EC2ResourceDetails
-    EC2ResourceDetails (..),
+    EC2ResourceDetails,
     newEC2ResourceDetails,
     eC2ResourceDetails_hourlyOnDemandRate,
     eC2ResourceDetails_instanceType,
@@ -376,7 +377,7 @@ module Amazonka.CostExplorer.Types
     eC2ResourceDetails_vcpu,
 
     -- * EC2ResourceUtilization
-    EC2ResourceUtilization (..),
+    EC2ResourceUtilization,
     newEC2ResourceUtilization,
     eC2ResourceUtilization_diskResourceUtilization,
     eC2ResourceUtilization_eBSResourceUtilization,
@@ -386,12 +387,12 @@ module Amazonka.CostExplorer.Types
     eC2ResourceUtilization_networkResourceUtilization,
 
     -- * EC2Specification
-    EC2Specification (..),
+    EC2Specification,
     newEC2Specification,
     eC2Specification_offeringClass,
 
     -- * ESInstanceDetails
-    ESInstanceDetails (..),
+    ESInstanceDetails,
     newESInstanceDetails,
     eSInstanceDetails_currentGeneration,
     eSInstanceDetails_instanceClass,
@@ -400,7 +401,7 @@ module Amazonka.CostExplorer.Types
     eSInstanceDetails_sizeFlexEligible,
 
     -- * ElastiCacheInstanceDetails
-    ElastiCacheInstanceDetails (..),
+    ElastiCacheInstanceDetails,
     newElastiCacheInstanceDetails,
     elastiCacheInstanceDetails_currentGeneration,
     elastiCacheInstanceDetails_family,
@@ -410,7 +411,7 @@ module Amazonka.CostExplorer.Types
     elastiCacheInstanceDetails_sizeFlexEligible,
 
     -- * Expression
-    Expression (..),
+    Expression,
     newExpression,
     expression_and,
     expression_costCategories,
@@ -420,7 +421,7 @@ module Amazonka.CostExplorer.Types
     expression_tags,
 
     -- * ForecastResult
-    ForecastResult (..),
+    ForecastResult,
     newForecastResult,
     forecastResult_meanValue,
     forecastResult_predictionIntervalLowerBound,
@@ -428,7 +429,7 @@ module Amazonka.CostExplorer.Types
     forecastResult_timePeriod,
 
     -- * GenerationSummary
-    GenerationSummary (..),
+    GenerationSummary,
     newGenerationSummary,
     generationSummary_estimatedCompletionTime,
     generationSummary_generationCompletionTime,
@@ -437,19 +438,19 @@ module Amazonka.CostExplorer.Types
     generationSummary_recommendationId,
 
     -- * Group
-    Group (..),
+    Group,
     newGroup,
     group_keys,
     group_metrics,
 
     -- * GroupDefinition
-    GroupDefinition (..),
+    GroupDefinition,
     newGroupDefinition,
     groupDefinition_key,
     groupDefinition_type,
 
     -- * Impact
-    Impact (..),
+    Impact,
     newImpact,
     impact_totalActualSpend,
     impact_totalExpectedSpend,
@@ -458,7 +459,7 @@ module Amazonka.CostExplorer.Types
     impact_maxImpact,
 
     -- * InstanceDetails
-    InstanceDetails (..),
+    InstanceDetails,
     newInstanceDetails,
     instanceDetails_eC2InstanceDetails,
     instanceDetails_eSInstanceDetails,
@@ -467,18 +468,18 @@ module Amazonka.CostExplorer.Types
     instanceDetails_redshiftInstanceDetails,
 
     -- * MetricValue
-    MetricValue (..),
+    MetricValue,
     newMetricValue,
     metricValue_amount,
     metricValue_unit,
 
     -- * ModifyRecommendationDetail
-    ModifyRecommendationDetail (..),
+    ModifyRecommendationDetail,
     newModifyRecommendationDetail,
     modifyRecommendationDetail_targetInstances,
 
     -- * NetworkResourceUtilization
-    NetworkResourceUtilization (..),
+    NetworkResourceUtilization,
     newNetworkResourceUtilization,
     networkResourceUtilization_networkInBytesPerSecond,
     networkResourceUtilization_networkOutBytesPerSecond,
@@ -486,7 +487,7 @@ module Amazonka.CostExplorer.Types
     networkResourceUtilization_networkPacketsOutPerSecond,
 
     -- * RDSInstanceDetails
-    RDSInstanceDetails (..),
+    RDSInstanceDetails,
     newRDSInstanceDetails,
     rDSInstanceDetails_currentGeneration,
     rDSInstanceDetails_databaseEdition,
@@ -499,7 +500,7 @@ module Amazonka.CostExplorer.Types
     rDSInstanceDetails_sizeFlexEligible,
 
     -- * RedshiftInstanceDetails
-    RedshiftInstanceDetails (..),
+    RedshiftInstanceDetails,
     newRedshiftInstanceDetails,
     redshiftInstanceDetails_currentGeneration,
     redshiftInstanceDetails_family,
@@ -508,7 +509,7 @@ module Amazonka.CostExplorer.Types
     redshiftInstanceDetails_sizeFlexEligible,
 
     -- * ReservationAggregates
-    ReservationAggregates (..),
+    ReservationAggregates,
     newReservationAggregates,
     reservationAggregates_amortizedRecurringFee,
     reservationAggregates_amortizedUpfrontFee,
@@ -529,13 +530,13 @@ module Amazonka.CostExplorer.Types
     reservationAggregates_utilizationPercentageInUnits,
 
     -- * ReservationCoverageGroup
-    ReservationCoverageGroup (..),
+    ReservationCoverageGroup,
     newReservationCoverageGroup,
     reservationCoverageGroup_attributes,
     reservationCoverageGroup_coverage,
 
     -- * ReservationPurchaseRecommendation
-    ReservationPurchaseRecommendation (..),
+    ReservationPurchaseRecommendation,
     newReservationPurchaseRecommendation,
     reservationPurchaseRecommendation_accountScope,
     reservationPurchaseRecommendation_lookbackPeriodInDays,
@@ -546,7 +547,7 @@ module Amazonka.CostExplorer.Types
     reservationPurchaseRecommendation_termInYears,
 
     -- * ReservationPurchaseRecommendationDetail
-    ReservationPurchaseRecommendationDetail (..),
+    ReservationPurchaseRecommendationDetail,
     newReservationPurchaseRecommendationDetail,
     reservationPurchaseRecommendationDetail_accountId,
     reservationPurchaseRecommendationDetail_averageNormalizedUnitsUsedPerHour,
@@ -569,20 +570,20 @@ module Amazonka.CostExplorer.Types
     reservationPurchaseRecommendationDetail_upfrontCost,
 
     -- * ReservationPurchaseRecommendationMetadata
-    ReservationPurchaseRecommendationMetadata (..),
+    ReservationPurchaseRecommendationMetadata,
     newReservationPurchaseRecommendationMetadata,
     reservationPurchaseRecommendationMetadata_generationTimestamp,
     reservationPurchaseRecommendationMetadata_recommendationId,
 
     -- * ReservationPurchaseRecommendationSummary
-    ReservationPurchaseRecommendationSummary (..),
+    ReservationPurchaseRecommendationSummary,
     newReservationPurchaseRecommendationSummary,
     reservationPurchaseRecommendationSummary_currencyCode,
     reservationPurchaseRecommendationSummary_totalEstimatedMonthlySavingsAmount,
     reservationPurchaseRecommendationSummary_totalEstimatedMonthlySavingsPercentage,
 
     -- * ReservationUtilizationGroup
-    ReservationUtilizationGroup (..),
+    ReservationUtilizationGroup,
     newReservationUtilizationGroup,
     reservationUtilizationGroup_attributes,
     reservationUtilizationGroup_key,
@@ -590,23 +591,23 @@ module Amazonka.CostExplorer.Types
     reservationUtilizationGroup_value,
 
     -- * ResourceDetails
-    ResourceDetails (..),
+    ResourceDetails,
     newResourceDetails,
     resourceDetails_eC2ResourceDetails,
 
     -- * ResourceTag
-    ResourceTag (..),
+    ResourceTag,
     newResourceTag,
     resourceTag_key,
     resourceTag_value,
 
     -- * ResourceUtilization
-    ResourceUtilization (..),
+    ResourceUtilization,
     newResourceUtilization,
     resourceUtilization_eC2ResourceUtilization,
 
     -- * ResultByTime
-    ResultByTime (..),
+    ResultByTime,
     newResultByTime,
     resultByTime_estimated,
     resultByTime_groups,
@@ -614,7 +615,7 @@ module Amazonka.CostExplorer.Types
     resultByTime_total,
 
     -- * RightsizingRecommendation
-    RightsizingRecommendation (..),
+    RightsizingRecommendation,
     newRightsizingRecommendation,
     rightsizingRecommendation_accountId,
     rightsizingRecommendation_currentInstance,
@@ -624,13 +625,13 @@ module Amazonka.CostExplorer.Types
     rightsizingRecommendation_terminateRecommendationDetail,
 
     -- * RightsizingRecommendationConfiguration
-    RightsizingRecommendationConfiguration (..),
+    RightsizingRecommendationConfiguration,
     newRightsizingRecommendationConfiguration,
     rightsizingRecommendationConfiguration_recommendationTarget,
     rightsizingRecommendationConfiguration_benefitsConsidered,
 
     -- * RightsizingRecommendationMetadata
-    RightsizingRecommendationMetadata (..),
+    RightsizingRecommendationMetadata,
     newRightsizingRecommendationMetadata,
     rightsizingRecommendationMetadata_additionalMetadata,
     rightsizingRecommendationMetadata_generationTimestamp,
@@ -638,7 +639,7 @@ module Amazonka.CostExplorer.Types
     rightsizingRecommendationMetadata_recommendationId,
 
     -- * RightsizingRecommendationSummary
-    RightsizingRecommendationSummary (..),
+    RightsizingRecommendationSummary,
     newRightsizingRecommendationSummary,
     rightsizingRecommendationSummary_estimatedTotalMonthlySavingsAmount,
     rightsizingRecommendationSummary_savingsCurrencyCode,
@@ -646,7 +647,7 @@ module Amazonka.CostExplorer.Types
     rightsizingRecommendationSummary_totalRecommendationCount,
 
     -- * RootCause
-    RootCause (..),
+    RootCause,
     newRootCause,
     rootCause_linkedAccount,
     rootCause_linkedAccountName,
@@ -655,21 +656,21 @@ module Amazonka.CostExplorer.Types
     rootCause_usageType,
 
     -- * SavingsPlansAmortizedCommitment
-    SavingsPlansAmortizedCommitment (..),
+    SavingsPlansAmortizedCommitment,
     newSavingsPlansAmortizedCommitment,
     savingsPlansAmortizedCommitment_amortizedRecurringCommitment,
     savingsPlansAmortizedCommitment_amortizedUpfrontCommitment,
     savingsPlansAmortizedCommitment_totalAmortizedCommitment,
 
     -- * SavingsPlansCoverage
-    SavingsPlansCoverage (..),
+    SavingsPlansCoverage,
     newSavingsPlansCoverage,
     savingsPlansCoverage_attributes,
     savingsPlansCoverage_coverage,
     savingsPlansCoverage_timePeriod,
 
     -- * SavingsPlansCoverageData
-    SavingsPlansCoverageData (..),
+    SavingsPlansCoverageData,
     newSavingsPlansCoverageData,
     savingsPlansCoverageData_coveragePercentage,
     savingsPlansCoverageData_onDemandCost,
@@ -677,14 +678,14 @@ module Amazonka.CostExplorer.Types
     savingsPlansCoverageData_totalCost,
 
     -- * SavingsPlansDetails
-    SavingsPlansDetails (..),
+    SavingsPlansDetails,
     newSavingsPlansDetails,
     savingsPlansDetails_instanceFamily,
     savingsPlansDetails_offeringId,
     savingsPlansDetails_region,
 
     -- * SavingsPlansPurchaseRecommendation
-    SavingsPlansPurchaseRecommendation (..),
+    SavingsPlansPurchaseRecommendation,
     newSavingsPlansPurchaseRecommendation,
     savingsPlansPurchaseRecommendation_accountScope,
     savingsPlansPurchaseRecommendation_lookbackPeriodInDays,
@@ -695,7 +696,7 @@ module Amazonka.CostExplorer.Types
     savingsPlansPurchaseRecommendation_termInYears,
 
     -- * SavingsPlansPurchaseRecommendationDetail
-    SavingsPlansPurchaseRecommendationDetail (..),
+    SavingsPlansPurchaseRecommendationDetail,
     newSavingsPlansPurchaseRecommendationDetail,
     savingsPlansPurchaseRecommendationDetail_accountId,
     savingsPlansPurchaseRecommendationDetail_currencyCode,
@@ -715,14 +716,14 @@ module Amazonka.CostExplorer.Types
     savingsPlansPurchaseRecommendationDetail_upfrontCost,
 
     -- * SavingsPlansPurchaseRecommendationMetadata
-    SavingsPlansPurchaseRecommendationMetadata (..),
+    SavingsPlansPurchaseRecommendationMetadata,
     newSavingsPlansPurchaseRecommendationMetadata,
     savingsPlansPurchaseRecommendationMetadata_additionalMetadata,
     savingsPlansPurchaseRecommendationMetadata_generationTimestamp,
     savingsPlansPurchaseRecommendationMetadata_recommendationId,
 
     -- * SavingsPlansPurchaseRecommendationSummary
-    SavingsPlansPurchaseRecommendationSummary (..),
+    SavingsPlansPurchaseRecommendationSummary,
     newSavingsPlansPurchaseRecommendationSummary,
     savingsPlansPurchaseRecommendationSummary_currencyCode,
     savingsPlansPurchaseRecommendationSummary_currentOnDemandSpend,
@@ -737,13 +738,13 @@ module Amazonka.CostExplorer.Types
     savingsPlansPurchaseRecommendationSummary_totalRecommendationCount,
 
     -- * SavingsPlansSavings
-    SavingsPlansSavings (..),
+    SavingsPlansSavings,
     newSavingsPlansSavings,
     savingsPlansSavings_netSavings,
     savingsPlansSavings_onDemandCostEquivalent,
 
     -- * SavingsPlansUtilization
-    SavingsPlansUtilization (..),
+    SavingsPlansUtilization,
     newSavingsPlansUtilization,
     savingsPlansUtilization_totalCommitment,
     savingsPlansUtilization_unusedCommitment,
@@ -751,14 +752,14 @@ module Amazonka.CostExplorer.Types
     savingsPlansUtilization_utilizationPercentage,
 
     -- * SavingsPlansUtilizationAggregates
-    SavingsPlansUtilizationAggregates (..),
+    SavingsPlansUtilizationAggregates,
     newSavingsPlansUtilizationAggregates,
     savingsPlansUtilizationAggregates_amortizedCommitment,
     savingsPlansUtilizationAggregates_savings,
     savingsPlansUtilizationAggregates_utilization,
 
     -- * SavingsPlansUtilizationByTime
-    SavingsPlansUtilizationByTime (..),
+    SavingsPlansUtilizationByTime,
     newSavingsPlansUtilizationByTime,
     savingsPlansUtilizationByTime_amortizedCommitment,
     savingsPlansUtilizationByTime_savings,
@@ -766,7 +767,7 @@ module Amazonka.CostExplorer.Types
     savingsPlansUtilizationByTime_utilization,
 
     -- * SavingsPlansUtilizationDetail
-    SavingsPlansUtilizationDetail (..),
+    SavingsPlansUtilizationDetail,
     newSavingsPlansUtilizationDetail,
     savingsPlansUtilizationDetail_amortizedCommitment,
     savingsPlansUtilizationDetail_attributes,
@@ -775,32 +776,32 @@ module Amazonka.CostExplorer.Types
     savingsPlansUtilizationDetail_utilization,
 
     -- * ServiceSpecification
-    ServiceSpecification (..),
+    ServiceSpecification,
     newServiceSpecification,
     serviceSpecification_eC2Specification,
 
     -- * SortDefinition
-    SortDefinition (..),
+    SortDefinition,
     newSortDefinition,
     sortDefinition_sortOrder,
     sortDefinition_key,
 
     -- * Subscriber
-    Subscriber (..),
+    Subscriber,
     newSubscriber,
     subscriber_address,
     subscriber_status,
     subscriber_type,
 
     -- * TagValues
-    TagValues (..),
+    TagValues,
     newTagValues,
     tagValues_key,
     tagValues_matchOptions,
     tagValues_values,
 
     -- * TargetInstance
-    TargetInstance (..),
+    TargetInstance,
     newTargetInstance,
     targetInstance_currencyCode,
     targetInstance_defaultTargetInstance,
@@ -811,27 +812,27 @@ module Amazonka.CostExplorer.Types
     targetInstance_resourceDetails,
 
     -- * TerminateRecommendationDetail
-    TerminateRecommendationDetail (..),
+    TerminateRecommendationDetail,
     newTerminateRecommendationDetail,
     terminateRecommendationDetail_currencyCode,
     terminateRecommendationDetail_estimatedMonthlySavings,
 
     -- * TotalImpactFilter
-    TotalImpactFilter (..),
+    TotalImpactFilter,
     newTotalImpactFilter,
     totalImpactFilter_endValue,
     totalImpactFilter_numericOperator,
     totalImpactFilter_startValue,
 
     -- * UpdateCostAllocationTagsStatusError
-    UpdateCostAllocationTagsStatusError (..),
+    UpdateCostAllocationTagsStatusError,
     newUpdateCostAllocationTagsStatusError,
     updateCostAllocationTagsStatusError_code,
     updateCostAllocationTagsStatusError_message,
     updateCostAllocationTagsStatusError_tagKey,
 
     -- * UtilizationByTime
-    UtilizationByTime (..),
+    UtilizationByTime,
     newUtilizationByTime,
     utilizationByTime_groups,
     utilizationByTime_timePeriod,

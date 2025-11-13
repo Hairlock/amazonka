@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -33,49 +34,49 @@ module Amazonka.CloudWatch.Types
     _ResourceNotFoundException,
 
     -- * ActionsSuppressedBy
-    ActionsSuppressedBy (..),
+    ActionsSuppressedBy,
 
     -- * AlarmType
-    AlarmType (..),
+    AlarmType,
 
     -- * AnomalyDetectorStateValue
-    AnomalyDetectorStateValue (..),
+    AnomalyDetectorStateValue,
 
     -- * AnomalyDetectorType
-    AnomalyDetectorType (..),
+    AnomalyDetectorType,
 
     -- * ComparisonOperator
-    ComparisonOperator (..),
+    ComparisonOperator,
 
     -- * EvaluationState
-    EvaluationState (..),
+    EvaluationState,
 
     -- * HistoryItemType
-    HistoryItemType (..),
+    HistoryItemType,
 
     -- * MetricStreamOutputFormat
-    MetricStreamOutputFormat (..),
+    MetricStreamOutputFormat,
 
     -- * RecentlyActive
-    RecentlyActive (..),
+    RecentlyActive,
 
     -- * ScanBy
-    ScanBy (..),
+    ScanBy,
 
     -- * StandardUnit
-    StandardUnit (..),
+    StandardUnit,
 
     -- * StateValue
-    StateValue (..),
+    StateValue,
 
     -- * Statistic
-    Statistic (..),
+    Statistic,
 
     -- * StatusCode
-    StatusCode (..),
+    StatusCode,
 
     -- * AlarmHistoryItem
-    AlarmHistoryItem (..),
+    AlarmHistoryItem,
     newAlarmHistoryItem,
     alarmHistoryItem_alarmName,
     alarmHistoryItem_alarmType,
@@ -85,7 +86,7 @@ module Amazonka.CloudWatch.Types
     alarmHistoryItem_timestamp,
 
     -- * AnomalyDetector
-    AnomalyDetector (..),
+    AnomalyDetector,
     newAnomalyDetector,
     anomalyDetector_configuration,
     anomalyDetector_dimensions,
@@ -97,13 +98,13 @@ module Amazonka.CloudWatch.Types
     anomalyDetector_stateValue,
 
     -- * AnomalyDetectorConfiguration
-    AnomalyDetectorConfiguration (..),
+    AnomalyDetectorConfiguration,
     newAnomalyDetectorConfiguration,
     anomalyDetectorConfiguration_excludedTimeRanges,
     anomalyDetectorConfiguration_metricTimezone,
 
     -- * CompositeAlarm
-    CompositeAlarm (..),
+    CompositeAlarm,
     newCompositeAlarm,
     compositeAlarm_actionsEnabled,
     compositeAlarm_actionsSuppressedBy,
@@ -126,7 +127,7 @@ module Amazonka.CloudWatch.Types
     compositeAlarm_stateValue,
 
     -- * DashboardEntry
-    DashboardEntry (..),
+    DashboardEntry,
     newDashboardEntry,
     dashboardEntry_dashboardArn,
     dashboardEntry_dashboardName,
@@ -134,13 +135,13 @@ module Amazonka.CloudWatch.Types
     dashboardEntry_size,
 
     -- * DashboardValidationMessage
-    DashboardValidationMessage (..),
+    DashboardValidationMessage,
     newDashboardValidationMessage,
     dashboardValidationMessage_dataPath,
     dashboardValidationMessage_message,
 
     -- * Datapoint
-    Datapoint (..),
+    Datapoint,
     newDatapoint,
     datapoint_average,
     datapoint_extendedStatistics,
@@ -152,19 +153,19 @@ module Amazonka.CloudWatch.Types
     datapoint_unit,
 
     -- * Dimension
-    Dimension (..),
+    Dimension,
     newDimension,
     dimension_name,
     dimension_value,
 
     -- * DimensionFilter
-    DimensionFilter (..),
+    DimensionFilter,
     newDimensionFilter,
     dimensionFilter_value,
     dimensionFilter_name,
 
     -- * InsightRule
-    InsightRule (..),
+    InsightRule,
     newInsightRule,
     insightRule_managedRule,
     insightRule_name,
@@ -173,20 +174,20 @@ module Amazonka.CloudWatch.Types
     insightRule_definition,
 
     -- * InsightRuleContributor
-    InsightRuleContributor (..),
+    InsightRuleContributor,
     newInsightRuleContributor,
     insightRuleContributor_keys,
     insightRuleContributor_approximateAggregateValue,
     insightRuleContributor_datapoints,
 
     -- * InsightRuleContributorDatapoint
-    InsightRuleContributorDatapoint (..),
+    InsightRuleContributorDatapoint,
     newInsightRuleContributorDatapoint,
     insightRuleContributorDatapoint_timestamp,
     insightRuleContributorDatapoint_approximateValue,
 
     -- * InsightRuleMetricDatapoint
-    InsightRuleMetricDatapoint (..),
+    InsightRuleMetricDatapoint,
     newInsightRuleMetricDatapoint,
     insightRuleMetricDatapoint_average,
     insightRuleMetricDatapoint_maxContributorValue,
@@ -198,45 +199,45 @@ module Amazonka.CloudWatch.Types
     insightRuleMetricDatapoint_timestamp,
 
     -- * LabelOptions
-    LabelOptions (..),
+    LabelOptions,
     newLabelOptions,
     labelOptions_timezone,
 
     -- * ManagedRule
-    ManagedRule (..),
+    ManagedRule,
     newManagedRule,
     managedRule_tags,
     managedRule_templateName,
     managedRule_resourceARN,
 
     -- * ManagedRuleDescription
-    ManagedRuleDescription (..),
+    ManagedRuleDescription,
     newManagedRuleDescription,
     managedRuleDescription_resourceARN,
     managedRuleDescription_ruleState,
     managedRuleDescription_templateName,
 
     -- * ManagedRuleState
-    ManagedRuleState (..),
+    ManagedRuleState,
     newManagedRuleState,
     managedRuleState_ruleName,
     managedRuleState_state,
 
     -- * MessageData
-    MessageData (..),
+    MessageData,
     newMessageData,
     messageData_code,
     messageData_value,
 
     -- * Metric
-    Metric (..),
+    Metric,
     newMetric,
     metric_dimensions,
     metric_metricName,
     metric_namespace,
 
     -- * MetricAlarm
-    MetricAlarm (..),
+    MetricAlarm,
     newMetricAlarm,
     metricAlarm_actionsEnabled,
     metricAlarm_alarmActions,
@@ -269,7 +270,7 @@ module Amazonka.CloudWatch.Types
     metricAlarm_unit,
 
     -- * MetricDataQuery
-    MetricDataQuery (..),
+    MetricDataQuery,
     newMetricDataQuery,
     metricDataQuery_accountId,
     metricDataQuery_expression,
@@ -280,7 +281,7 @@ module Amazonka.CloudWatch.Types
     metricDataQuery_id,
 
     -- * MetricDataResult
-    MetricDataResult (..),
+    MetricDataResult,
     newMetricDataResult,
     metricDataResult_id,
     metricDataResult_label,
@@ -290,7 +291,7 @@ module Amazonka.CloudWatch.Types
     metricDataResult_values,
 
     -- * MetricDatum
-    MetricDatum (..),
+    MetricDatum,
     newMetricDatum,
     metricDatum_counts,
     metricDatum_dimensions,
@@ -303,12 +304,12 @@ module Amazonka.CloudWatch.Types
     metricDatum_metricName,
 
     -- * MetricMathAnomalyDetector
-    MetricMathAnomalyDetector (..),
+    MetricMathAnomalyDetector,
     newMetricMathAnomalyDetector,
     metricMathAnomalyDetector_metricDataQueries,
 
     -- * MetricStat
-    MetricStat (..),
+    MetricStat,
     newMetricStat,
     metricStat_unit,
     metricStat_metric,
@@ -316,7 +317,7 @@ module Amazonka.CloudWatch.Types
     metricStat_stat,
 
     -- * MetricStreamEntry
-    MetricStreamEntry (..),
+    MetricStreamEntry,
     newMetricStreamEntry,
     metricStreamEntry_arn,
     metricStreamEntry_creationDate,
@@ -327,24 +328,24 @@ module Amazonka.CloudWatch.Types
     metricStreamEntry_state,
 
     -- * MetricStreamFilter
-    MetricStreamFilter (..),
+    MetricStreamFilter,
     newMetricStreamFilter,
     metricStreamFilter_namespace,
 
     -- * MetricStreamStatisticsConfiguration
-    MetricStreamStatisticsConfiguration (..),
+    MetricStreamStatisticsConfiguration,
     newMetricStreamStatisticsConfiguration,
     metricStreamStatisticsConfiguration_includeMetrics,
     metricStreamStatisticsConfiguration_additionalStatistics,
 
     -- * MetricStreamStatisticsMetric
-    MetricStreamStatisticsMetric (..),
+    MetricStreamStatisticsMetric,
     newMetricStreamStatisticsMetric,
     metricStreamStatisticsMetric_namespace,
     metricStreamStatisticsMetric_metricName,
 
     -- * PartialFailure
-    PartialFailure (..),
+    PartialFailure,
     newPartialFailure,
     partialFailure_exceptionType,
     partialFailure_failureCode,
@@ -352,13 +353,13 @@ module Amazonka.CloudWatch.Types
     partialFailure_failureResource,
 
     -- * Range
-    Range (..),
+    Range,
     newRange,
     range_startTime,
     range_endTime,
 
     -- * SingleMetricAnomalyDetector
-    SingleMetricAnomalyDetector (..),
+    SingleMetricAnomalyDetector,
     newSingleMetricAnomalyDetector,
     singleMetricAnomalyDetector_dimensions,
     singleMetricAnomalyDetector_metricName,
@@ -366,7 +367,7 @@ module Amazonka.CloudWatch.Types
     singleMetricAnomalyDetector_stat,
 
     -- * StatisticSet
-    StatisticSet (..),
+    StatisticSet,
     newStatisticSet,
     statisticSet_sampleCount,
     statisticSet_sum,
@@ -374,7 +375,7 @@ module Amazonka.CloudWatch.Types
     statisticSet_maximum,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,

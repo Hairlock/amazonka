@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -26,21 +27,21 @@ module Amazonka.PinpointSMSVoice.Types
     _TooManyRequestsException,
 
     -- * EventType
-    EventType (..),
+    EventType,
 
     -- * CallInstructionsMessageType
-    CallInstructionsMessageType (..),
+    CallInstructionsMessageType,
     newCallInstructionsMessageType,
     callInstructionsMessageType_text,
 
     -- * CloudWatchLogsDestination
-    CloudWatchLogsDestination (..),
+    CloudWatchLogsDestination,
     newCloudWatchLogsDestination,
     cloudWatchLogsDestination_iamRoleArn,
     cloudWatchLogsDestination_logGroupArn,
 
     -- * EventDestination
-    EventDestination (..),
+    EventDestination,
     newEventDestination,
     eventDestination_cloudWatchLogsDestination,
     eventDestination_enabled,
@@ -50,7 +51,7 @@ module Amazonka.PinpointSMSVoice.Types
     eventDestination_snsDestination,
 
     -- * EventDestinationDefinition
-    EventDestinationDefinition (..),
+    EventDestinationDefinition,
     newEventDestinationDefinition,
     eventDestinationDefinition_cloudWatchLogsDestination,
     eventDestinationDefinition_enabled,
@@ -59,32 +60,32 @@ module Amazonka.PinpointSMSVoice.Types
     eventDestinationDefinition_snsDestination,
 
     -- * KinesisFirehoseDestination
-    KinesisFirehoseDestination (..),
+    KinesisFirehoseDestination,
     newKinesisFirehoseDestination,
     kinesisFirehoseDestination_deliveryStreamArn,
     kinesisFirehoseDestination_iamRoleArn,
 
     -- * PlainTextMessageType
-    PlainTextMessageType (..),
+    PlainTextMessageType,
     newPlainTextMessageType,
     plainTextMessageType_languageCode,
     plainTextMessageType_text,
     plainTextMessageType_voiceId,
 
     -- * SSMLMessageType
-    SSMLMessageType (..),
+    SSMLMessageType,
     newSSMLMessageType,
     sSMLMessageType_languageCode,
     sSMLMessageType_text,
     sSMLMessageType_voiceId,
 
     -- * SnsDestination
-    SnsDestination (..),
+    SnsDestination,
     newSnsDestination,
     snsDestination_topicArn,
 
     -- * VoiceMessageContent
-    VoiceMessageContent (..),
+    VoiceMessageContent,
     newVoiceMessageContent,
     voiceMessageContent_callInstructionsMessage,
     voiceMessageContent_plainTextMessage,

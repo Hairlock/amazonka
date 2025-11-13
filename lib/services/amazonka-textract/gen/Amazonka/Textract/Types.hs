@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -34,41 +35,41 @@ module Amazonka.Textract.Types
     _UnsupportedDocumentException,
 
     -- * BlockType
-    BlockType (..),
+    BlockType,
 
     -- * ContentClassifier
-    ContentClassifier (..),
+    ContentClassifier,
 
     -- * EntityType
-    EntityType (..),
+    EntityType,
 
     -- * FeatureType
-    FeatureType (..),
+    FeatureType,
 
     -- * JobStatus
-    JobStatus (..),
+    JobStatus,
 
     -- * RelationshipType
-    RelationshipType (..),
+    RelationshipType,
 
     -- * SelectionStatus
-    SelectionStatus (..),
+    SelectionStatus,
 
     -- * TextType
-    TextType (..),
+    TextType,
 
     -- * ValueType
-    ValueType (..),
+    ValueType,
 
     -- * AnalyzeIDDetections
-    AnalyzeIDDetections (..),
+    AnalyzeIDDetections,
     newAnalyzeIDDetections,
     analyzeIDDetections_confidence,
     analyzeIDDetections_normalizedValue,
     analyzeIDDetections_text,
 
     -- * Block
-    Block (..),
+    Block,
     newBlock,
     block_blockType,
     block_columnIndex,
@@ -87,7 +88,7 @@ module Amazonka.Textract.Types
     block_textType,
 
     -- * BoundingBox
-    BoundingBox (..),
+    BoundingBox,
     newBoundingBox,
     boundingBox_height,
     boundingBox_left,
@@ -95,18 +96,18 @@ module Amazonka.Textract.Types
     boundingBox_width,
 
     -- * DetectedSignature
-    DetectedSignature (..),
+    DetectedSignature,
     newDetectedSignature,
     detectedSignature_page,
 
     -- * Document
-    Document (..),
+    Document,
     newDocument,
     document_bytes,
     document_s3Object,
 
     -- * DocumentGroup
-    DocumentGroup (..),
+    DocumentGroup,
     newDocumentGroup,
     documentGroup_detectedSignatures,
     documentGroup_splitDocuments,
@@ -114,30 +115,30 @@ module Amazonka.Textract.Types
     documentGroup_undetectedSignatures,
 
     -- * DocumentLocation
-    DocumentLocation (..),
+    DocumentLocation,
     newDocumentLocation,
     documentLocation_s3Object,
 
     -- * DocumentMetadata
-    DocumentMetadata (..),
+    DocumentMetadata,
     newDocumentMetadata,
     documentMetadata_pages,
 
     -- * ExpenseCurrency
-    ExpenseCurrency (..),
+    ExpenseCurrency,
     newExpenseCurrency,
     expenseCurrency_code,
     expenseCurrency_confidence,
 
     -- * ExpenseDetection
-    ExpenseDetection (..),
+    ExpenseDetection,
     newExpenseDetection,
     expenseDetection_confidence,
     expenseDetection_geometry,
     expenseDetection_text,
 
     -- * ExpenseDocument
-    ExpenseDocument (..),
+    ExpenseDocument,
     newExpenseDocument,
     expenseDocument_blocks,
     expenseDocument_expenseIndex,
@@ -145,7 +146,7 @@ module Amazonka.Textract.Types
     expenseDocument_summaryFields,
 
     -- * ExpenseField
-    ExpenseField (..),
+    ExpenseField,
     newExpenseField,
     expenseField_currency,
     expenseField_groupProperties,
@@ -155,64 +156,64 @@ module Amazonka.Textract.Types
     expenseField_valueDetection,
 
     -- * ExpenseGroupProperty
-    ExpenseGroupProperty (..),
+    ExpenseGroupProperty,
     newExpenseGroupProperty,
     expenseGroupProperty_id,
     expenseGroupProperty_types,
 
     -- * ExpenseType
-    ExpenseType (..),
+    ExpenseType,
     newExpenseType,
     expenseType_confidence,
     expenseType_text,
 
     -- * Extraction
-    Extraction (..),
+    Extraction,
     newExtraction,
     extraction_expenseDocument,
     extraction_identityDocument,
     extraction_lendingDocument,
 
     -- * Geometry
-    Geometry (..),
+    Geometry,
     newGeometry,
     geometry_boundingBox,
     geometry_polygon,
 
     -- * HumanLoopActivationOutput
-    HumanLoopActivationOutput (..),
+    HumanLoopActivationOutput,
     newHumanLoopActivationOutput,
     humanLoopActivationOutput_humanLoopActivationConditionsEvaluationResults,
     humanLoopActivationOutput_humanLoopActivationReasons,
     humanLoopActivationOutput_humanLoopArn,
 
     -- * HumanLoopConfig
-    HumanLoopConfig (..),
+    HumanLoopConfig,
     newHumanLoopConfig,
     humanLoopConfig_dataAttributes,
     humanLoopConfig_humanLoopName,
     humanLoopConfig_flowDefinitionArn,
 
     -- * HumanLoopDataAttributes
-    HumanLoopDataAttributes (..),
+    HumanLoopDataAttributes,
     newHumanLoopDataAttributes,
     humanLoopDataAttributes_contentClassifiers,
 
     -- * IdentityDocument
-    IdentityDocument (..),
+    IdentityDocument,
     newIdentityDocument,
     identityDocument_blocks,
     identityDocument_documentIndex,
     identityDocument_identityDocumentFields,
 
     -- * IdentityDocumentField
-    IdentityDocumentField (..),
+    IdentityDocumentField,
     newIdentityDocumentField,
     identityDocumentField_type,
     identityDocumentField_valueDetection,
 
     -- * LendingDetection
-    LendingDetection (..),
+    LendingDetection,
     newLendingDetection,
     lendingDetection_confidence,
     lendingDetection_geometry,
@@ -220,122 +221,122 @@ module Amazonka.Textract.Types
     lendingDetection_text,
 
     -- * LendingDocument
-    LendingDocument (..),
+    LendingDocument,
     newLendingDocument,
     lendingDocument_lendingFields,
     lendingDocument_signatureDetections,
 
     -- * LendingField
-    LendingField (..),
+    LendingField,
     newLendingField,
     lendingField_keyDetection,
     lendingField_type,
     lendingField_valueDetections,
 
     -- * LendingResult
-    LendingResult (..),
+    LendingResult,
     newLendingResult,
     lendingResult_extractions,
     lendingResult_page,
     lendingResult_pageClassification,
 
     -- * LendingSummary
-    LendingSummary (..),
+    LendingSummary,
     newLendingSummary,
     lendingSummary_documentGroups,
     lendingSummary_undetectedDocumentTypes,
 
     -- * LineItemFields
-    LineItemFields (..),
+    LineItemFields,
     newLineItemFields,
     lineItemFields_lineItemExpenseFields,
 
     -- * LineItemGroup
-    LineItemGroup (..),
+    LineItemGroup,
     newLineItemGroup,
     lineItemGroup_lineItemGroupIndex,
     lineItemGroup_lineItems,
 
     -- * NormalizedValue
-    NormalizedValue (..),
+    NormalizedValue,
     newNormalizedValue,
     normalizedValue_value,
     normalizedValue_valueType,
 
     -- * NotificationChannel
-    NotificationChannel (..),
+    NotificationChannel,
     newNotificationChannel,
     notificationChannel_sNSTopicArn,
     notificationChannel_roleArn,
 
     -- * OutputConfig
-    OutputConfig (..),
+    OutputConfig,
     newOutputConfig,
     outputConfig_s3Prefix,
     outputConfig_s3Bucket,
 
     -- * PageClassification
-    PageClassification (..),
+    PageClassification,
     newPageClassification,
     pageClassification_pageType,
     pageClassification_pageNumber,
 
     -- * Point
-    Point (..),
+    Point,
     newPoint,
     point_x,
     point_y,
 
     -- * Prediction
-    Prediction (..),
+    Prediction,
     newPrediction,
     prediction_confidence,
     prediction_value,
 
     -- * QueriesConfig
-    QueriesConfig (..),
+    QueriesConfig,
     newQueriesConfig,
     queriesConfig_queries,
 
     -- * Query
-    Query (..),
+    Query,
     newQuery,
     query_alias,
     query_pages,
     query_text,
 
     -- * Relationship
-    Relationship (..),
+    Relationship,
     newRelationship,
     relationship_ids,
     relationship_type,
 
     -- * S3Object
-    S3Object (..),
+    S3Object,
     newS3Object,
     s3Object_bucket,
     s3Object_name,
     s3Object_version,
 
     -- * SignatureDetection
-    SignatureDetection (..),
+    SignatureDetection,
     newSignatureDetection,
     signatureDetection_confidence,
     signatureDetection_geometry,
 
     -- * SplitDocument
-    SplitDocument (..),
+    SplitDocument,
     newSplitDocument,
     splitDocument_index,
     splitDocument_pages,
 
     -- * UndetectedSignature
-    UndetectedSignature (..),
+    UndetectedSignature,
     newUndetectedSignature,
     undetectedSignature_page,
 
     -- * Warning
-    Warning (..),
+    Warning,
     newWarning,
     warning_errorCode,
     warning_pages,

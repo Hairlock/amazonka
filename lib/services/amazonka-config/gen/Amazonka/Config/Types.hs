@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -74,113 +75,113 @@ module Amazonka.Config.Types
     _ValidationException,
 
     -- * AggregateConformancePackComplianceSummaryGroupKey
-    AggregateConformancePackComplianceSummaryGroupKey (..),
+    AggregateConformancePackComplianceSummaryGroupKey,
 
     -- * AggregatedSourceStatusType
-    AggregatedSourceStatusType (..),
+    AggregatedSourceStatusType,
 
     -- * AggregatedSourceType
-    AggregatedSourceType (..),
+    AggregatedSourceType,
 
     -- * ChronologicalOrder
-    ChronologicalOrder (..),
+    ChronologicalOrder,
 
     -- * ComplianceType
-    ComplianceType (..),
+    ComplianceType,
 
     -- * ConfigRuleComplianceSummaryGroupKey
-    ConfigRuleComplianceSummaryGroupKey (..),
+    ConfigRuleComplianceSummaryGroupKey,
 
     -- * ConfigRuleState
-    ConfigRuleState (..),
+    ConfigRuleState,
 
     -- * ConfigurationItemStatus
-    ConfigurationItemStatus (..),
+    ConfigurationItemStatus,
 
     -- * ConformancePackComplianceType
-    ConformancePackComplianceType (..),
+    ConformancePackComplianceType,
 
     -- * ConformancePackState
-    ConformancePackState (..),
+    ConformancePackState,
 
     -- * DeliveryStatus
-    DeliveryStatus (..),
+    DeliveryStatus,
 
     -- * EvaluationMode
-    EvaluationMode (..),
+    EvaluationMode,
 
     -- * EventSource
-    EventSource (..),
+    EventSource,
 
     -- * MaximumExecutionFrequency
-    MaximumExecutionFrequency (..),
+    MaximumExecutionFrequency,
 
     -- * MemberAccountRuleStatus
-    MemberAccountRuleStatus (..),
+    MemberAccountRuleStatus,
 
     -- * MessageType
-    MessageType (..),
+    MessageType,
 
     -- * OrganizationConfigRuleTriggerType
-    OrganizationConfigRuleTriggerType (..),
+    OrganizationConfigRuleTriggerType,
 
     -- * OrganizationConfigRuleTriggerTypeNoSN
-    OrganizationConfigRuleTriggerTypeNoSN (..),
+    OrganizationConfigRuleTriggerTypeNoSN,
 
     -- * OrganizationResourceDetailedStatus
-    OrganizationResourceDetailedStatus (..),
+    OrganizationResourceDetailedStatus,
 
     -- * OrganizationResourceStatus
-    OrganizationResourceStatus (..),
+    OrganizationResourceStatus,
 
     -- * OrganizationRuleStatus
-    OrganizationRuleStatus (..),
+    OrganizationRuleStatus,
 
     -- * Owner
-    Owner (..),
+    Owner,
 
     -- * RecorderStatus
-    RecorderStatus (..),
+    RecorderStatus,
 
     -- * RemediationExecutionState
-    RemediationExecutionState (..),
+    RemediationExecutionState,
 
     -- * RemediationExecutionStepState
-    RemediationExecutionStepState (..),
+    RemediationExecutionStepState,
 
     -- * RemediationTargetType
-    RemediationTargetType (..),
+    RemediationTargetType,
 
     -- * ResourceConfigurationSchemaType
-    ResourceConfigurationSchemaType (..),
+    ResourceConfigurationSchemaType,
 
     -- * ResourceCountGroupKey
-    ResourceCountGroupKey (..),
+    ResourceCountGroupKey,
 
     -- * ResourceEvaluationStatus
-    ResourceEvaluationStatus (..),
+    ResourceEvaluationStatus,
 
     -- * ResourceType
-    ResourceType (..),
+    ResourceType,
 
     -- * ResourceValueType
-    ResourceValueType (..),
+    ResourceValueType,
 
     -- * SortBy
-    SortBy (..),
+    SortBy,
 
     -- * SortOrder
-    SortOrder (..),
+    SortOrder,
 
     -- * AccountAggregationSource
-    AccountAggregationSource (..),
+    AccountAggregationSource,
     newAccountAggregationSource,
     accountAggregationSource_allAwsRegions,
     accountAggregationSource_awsRegions,
     accountAggregationSource_accountIds,
 
     -- * AggregateComplianceByConfigRule
-    AggregateComplianceByConfigRule (..),
+    AggregateComplianceByConfigRule,
     newAggregateComplianceByConfigRule,
     aggregateComplianceByConfigRule_accountId,
     aggregateComplianceByConfigRule_awsRegion,
@@ -188,7 +189,7 @@ module Amazonka.Config.Types
     aggregateComplianceByConfigRule_configRuleName,
 
     -- * AggregateComplianceByConformancePack
-    AggregateComplianceByConformancePack (..),
+    AggregateComplianceByConformancePack,
     newAggregateComplianceByConformancePack,
     aggregateComplianceByConformancePack_accountId,
     aggregateComplianceByConformancePack_awsRegion,
@@ -196,13 +197,13 @@ module Amazonka.Config.Types
     aggregateComplianceByConformancePack_conformancePackName,
 
     -- * AggregateComplianceCount
-    AggregateComplianceCount (..),
+    AggregateComplianceCount,
     newAggregateComplianceCount,
     aggregateComplianceCount_complianceSummary,
     aggregateComplianceCount_groupName,
 
     -- * AggregateConformancePackCompliance
-    AggregateConformancePackCompliance (..),
+    AggregateConformancePackCompliance,
     newAggregateConformancePackCompliance,
     aggregateConformancePackCompliance_complianceType,
     aggregateConformancePackCompliance_compliantRuleCount,
@@ -210,13 +211,13 @@ module Amazonka.Config.Types
     aggregateConformancePackCompliance_totalRuleCount,
 
     -- * AggregateConformancePackComplianceCount
-    AggregateConformancePackComplianceCount (..),
+    AggregateConformancePackComplianceCount,
     newAggregateConformancePackComplianceCount,
     aggregateConformancePackComplianceCount_compliantConformancePackCount,
     aggregateConformancePackComplianceCount_nonCompliantConformancePackCount,
 
     -- * AggregateConformancePackComplianceFilters
-    AggregateConformancePackComplianceFilters (..),
+    AggregateConformancePackComplianceFilters,
     newAggregateConformancePackComplianceFilters,
     aggregateConformancePackComplianceFilters_accountId,
     aggregateConformancePackComplianceFilters_awsRegion,
@@ -224,19 +225,19 @@ module Amazonka.Config.Types
     aggregateConformancePackComplianceFilters_conformancePackName,
 
     -- * AggregateConformancePackComplianceSummary
-    AggregateConformancePackComplianceSummary (..),
+    AggregateConformancePackComplianceSummary,
     newAggregateConformancePackComplianceSummary,
     aggregateConformancePackComplianceSummary_complianceSummary,
     aggregateConformancePackComplianceSummary_groupName,
 
     -- * AggregateConformancePackComplianceSummaryFilters
-    AggregateConformancePackComplianceSummaryFilters (..),
+    AggregateConformancePackComplianceSummaryFilters,
     newAggregateConformancePackComplianceSummaryFilters,
     aggregateConformancePackComplianceSummaryFilters_accountId,
     aggregateConformancePackComplianceSummaryFilters_awsRegion,
 
     -- * AggregateEvaluationResult
-    AggregateEvaluationResult (..),
+    AggregateEvaluationResult,
     newAggregateEvaluationResult,
     aggregateEvaluationResult_accountId,
     aggregateEvaluationResult_annotation,
@@ -247,7 +248,7 @@ module Amazonka.Config.Types
     aggregateEvaluationResult_resultRecordedTime,
 
     -- * AggregateResourceIdentifier
-    AggregateResourceIdentifier (..),
+    AggregateResourceIdentifier,
     newAggregateResourceIdentifier,
     aggregateResourceIdentifier_resourceName,
     aggregateResourceIdentifier_sourceAccountId,
@@ -256,7 +257,7 @@ module Amazonka.Config.Types
     aggregateResourceIdentifier_resourceType,
 
     -- * AggregatedSourceStatus
-    AggregatedSourceStatus (..),
+    AggregatedSourceStatus,
     newAggregatedSourceStatus,
     aggregatedSourceStatus_awsRegion,
     aggregatedSourceStatus_lastErrorCode,
@@ -267,7 +268,7 @@ module Amazonka.Config.Types
     aggregatedSourceStatus_sourceType,
 
     -- * AggregationAuthorization
-    AggregationAuthorization (..),
+    AggregationAuthorization,
     newAggregationAuthorization,
     aggregationAuthorization_aggregationAuthorizationArn,
     aggregationAuthorization_authorizedAccountId,
@@ -275,7 +276,7 @@ module Amazonka.Config.Types
     aggregationAuthorization_creationTime,
 
     -- * BaseConfigurationItem
-    BaseConfigurationItem (..),
+    BaseConfigurationItem,
     newBaseConfigurationItem,
     baseConfigurationItem_accountId,
     baseConfigurationItem_arn,
@@ -293,45 +294,45 @@ module Amazonka.Config.Types
     baseConfigurationItem_version,
 
     -- * Compliance
-    Compliance (..),
+    Compliance,
     newCompliance,
     compliance_complianceContributorCount,
     compliance_complianceType,
 
     -- * ComplianceByConfigRule
-    ComplianceByConfigRule (..),
+    ComplianceByConfigRule,
     newComplianceByConfigRule,
     complianceByConfigRule_compliance,
     complianceByConfigRule_configRuleName,
 
     -- * ComplianceByResource
-    ComplianceByResource (..),
+    ComplianceByResource,
     newComplianceByResource,
     complianceByResource_compliance,
     complianceByResource_resourceId,
     complianceByResource_resourceType,
 
     -- * ComplianceContributorCount
-    ComplianceContributorCount (..),
+    ComplianceContributorCount,
     newComplianceContributorCount,
     complianceContributorCount_capExceeded,
     complianceContributorCount_cappedCount,
 
     -- * ComplianceSummary
-    ComplianceSummary (..),
+    ComplianceSummary,
     newComplianceSummary,
     complianceSummary_complianceSummaryTimestamp,
     complianceSummary_compliantResourceCount,
     complianceSummary_nonCompliantResourceCount,
 
     -- * ComplianceSummaryByResourceType
-    ComplianceSummaryByResourceType (..),
+    ComplianceSummaryByResourceType,
     newComplianceSummaryByResourceType,
     complianceSummaryByResourceType_complianceSummary,
     complianceSummaryByResourceType_resourceType,
 
     -- * ConfigExportDeliveryInfo
-    ConfigExportDeliveryInfo (..),
+    ConfigExportDeliveryInfo,
     newConfigExportDeliveryInfo,
     configExportDeliveryInfo_lastAttemptTime,
     configExportDeliveryInfo_lastErrorCode,
@@ -341,7 +342,7 @@ module Amazonka.Config.Types
     configExportDeliveryInfo_nextDeliveryTime,
 
     -- * ConfigRule
-    ConfigRule (..),
+    ConfigRule,
     newConfigRule,
     configRule_configRuleArn,
     configRule_configRuleId,
@@ -356,7 +357,7 @@ module Amazonka.Config.Types
     configRule_source,
 
     -- * ConfigRuleComplianceFilters
-    ConfigRuleComplianceFilters (..),
+    ConfigRuleComplianceFilters,
     newConfigRuleComplianceFilters,
     configRuleComplianceFilters_accountId,
     configRuleComplianceFilters_awsRegion,
@@ -364,13 +365,13 @@ module Amazonka.Config.Types
     configRuleComplianceFilters_configRuleName,
 
     -- * ConfigRuleComplianceSummaryFilters
-    ConfigRuleComplianceSummaryFilters (..),
+    ConfigRuleComplianceSummaryFilters,
     newConfigRuleComplianceSummaryFilters,
     configRuleComplianceSummaryFilters_accountId,
     configRuleComplianceSummaryFilters_awsRegion,
 
     -- * ConfigRuleEvaluationStatus
-    ConfigRuleEvaluationStatus (..),
+    ConfigRuleEvaluationStatus,
     newConfigRuleEvaluationStatus,
     configRuleEvaluationStatus_configRuleArn,
     configRuleEvaluationStatus_configRuleId,
@@ -389,12 +390,12 @@ module Amazonka.Config.Types
     configRuleEvaluationStatus_lastSuccessfulInvocationTime,
 
     -- * ConfigSnapshotDeliveryProperties
-    ConfigSnapshotDeliveryProperties (..),
+    ConfigSnapshotDeliveryProperties,
     newConfigSnapshotDeliveryProperties,
     configSnapshotDeliveryProperties_deliveryFrequency,
 
     -- * ConfigStreamDeliveryInfo
-    ConfigStreamDeliveryInfo (..),
+    ConfigStreamDeliveryInfo,
     newConfigStreamDeliveryInfo,
     configStreamDeliveryInfo_lastErrorCode,
     configStreamDeliveryInfo_lastErrorMessage,
@@ -402,7 +403,7 @@ module Amazonka.Config.Types
     configStreamDeliveryInfo_lastStatusChangeTime,
 
     -- * ConfigurationAggregator
-    ConfigurationAggregator (..),
+    ConfigurationAggregator,
     newConfigurationAggregator,
     configurationAggregator_accountAggregationSources,
     configurationAggregator_configurationAggregatorArn,
@@ -413,7 +414,7 @@ module Amazonka.Config.Types
     configurationAggregator_organizationAggregationSource,
 
     -- * ConfigurationItem
-    ConfigurationItem (..),
+    ConfigurationItem,
     newConfigurationItem,
     configurationItem_accountId,
     configurationItem_arn,
@@ -435,14 +436,14 @@ module Amazonka.Config.Types
     configurationItem_version,
 
     -- * ConfigurationRecorder
-    ConfigurationRecorder (..),
+    ConfigurationRecorder,
     newConfigurationRecorder,
     configurationRecorder_name,
     configurationRecorder_recordingGroup,
     configurationRecorder_roleARN,
 
     -- * ConfigurationRecorderStatus
-    ConfigurationRecorderStatus (..),
+    ConfigurationRecorderStatus,
     newConfigurationRecorderStatus,
     configurationRecorderStatus_lastErrorCode,
     configurationRecorderStatus_lastErrorMessage,
@@ -454,31 +455,31 @@ module Amazonka.Config.Types
     configurationRecorderStatus_recording,
 
     -- * ConformancePackComplianceFilters
-    ConformancePackComplianceFilters (..),
+    ConformancePackComplianceFilters,
     newConformancePackComplianceFilters,
     conformancePackComplianceFilters_complianceType,
     conformancePackComplianceFilters_configRuleNames,
 
     -- * ConformancePackComplianceScore
-    ConformancePackComplianceScore (..),
+    ConformancePackComplianceScore,
     newConformancePackComplianceScore,
     conformancePackComplianceScore_conformancePackName,
     conformancePackComplianceScore_lastUpdatedTime,
     conformancePackComplianceScore_score,
 
     -- * ConformancePackComplianceScoresFilters
-    ConformancePackComplianceScoresFilters (..),
+    ConformancePackComplianceScoresFilters,
     newConformancePackComplianceScoresFilters,
     conformancePackComplianceScoresFilters_conformancePackNames,
 
     -- * ConformancePackComplianceSummary
-    ConformancePackComplianceSummary (..),
+    ConformancePackComplianceSummary,
     newConformancePackComplianceSummary,
     conformancePackComplianceSummary_conformancePackName,
     conformancePackComplianceSummary_conformancePackComplianceStatus,
 
     -- * ConformancePackDetail
-    ConformancePackDetail (..),
+    ConformancePackDetail,
     newConformancePackDetail,
     conformancePackDetail_conformancePackInputParameters,
     conformancePackDetail_createdBy,
@@ -491,7 +492,7 @@ module Amazonka.Config.Types
     conformancePackDetail_conformancePackId,
 
     -- * ConformancePackEvaluationFilters
-    ConformancePackEvaluationFilters (..),
+    ConformancePackEvaluationFilters,
     newConformancePackEvaluationFilters,
     conformancePackEvaluationFilters_complianceType,
     conformancePackEvaluationFilters_configRuleNames,
@@ -499,7 +500,7 @@ module Amazonka.Config.Types
     conformancePackEvaluationFilters_resourceType,
 
     -- * ConformancePackEvaluationResult
-    ConformancePackEvaluationResult (..),
+    ConformancePackEvaluationResult,
     newConformancePackEvaluationResult,
     conformancePackEvaluationResult_annotation,
     conformancePackEvaluationResult_complianceType,
@@ -508,20 +509,20 @@ module Amazonka.Config.Types
     conformancePackEvaluationResult_resultRecordedTime,
 
     -- * ConformancePackInputParameter
-    ConformancePackInputParameter (..),
+    ConformancePackInputParameter,
     newConformancePackInputParameter,
     conformancePackInputParameter_parameterName,
     conformancePackInputParameter_parameterValue,
 
     -- * ConformancePackRuleCompliance
-    ConformancePackRuleCompliance (..),
+    ConformancePackRuleCompliance,
     newConformancePackRuleCompliance,
     conformancePackRuleCompliance_complianceType,
     conformancePackRuleCompliance_configRuleName,
     conformancePackRuleCompliance_controls,
 
     -- * ConformancePackStatusDetail
-    ConformancePackStatusDetail (..),
+    ConformancePackStatusDetail,
     newConformancePackStatusDetail,
     conformancePackStatusDetail_conformancePackStatusReason,
     conformancePackStatusDetail_lastUpdateCompletedTime,
@@ -533,14 +534,14 @@ module Amazonka.Config.Types
     conformancePackStatusDetail_lastUpdateRequestedTime,
 
     -- * CustomPolicyDetails
-    CustomPolicyDetails (..),
+    CustomPolicyDetails,
     newCustomPolicyDetails,
     customPolicyDetails_enableDebugLogDelivery,
     customPolicyDetails_policyRuntime,
     customPolicyDetails_policyText,
 
     -- * DeliveryChannel
-    DeliveryChannel (..),
+    DeliveryChannel,
     newDeliveryChannel,
     deliveryChannel_configSnapshotDeliveryProperties,
     deliveryChannel_name,
@@ -550,7 +551,7 @@ module Amazonka.Config.Types
     deliveryChannel_snsTopicARN,
 
     -- * DeliveryChannelStatus
-    DeliveryChannelStatus (..),
+    DeliveryChannelStatus,
     newDeliveryChannelStatus,
     deliveryChannelStatus_configHistoryDeliveryInfo,
     deliveryChannelStatus_configSnapshotDeliveryInfo,
@@ -558,12 +559,12 @@ module Amazonka.Config.Types
     deliveryChannelStatus_name,
 
     -- * DescribeConfigRulesFilters
-    DescribeConfigRulesFilters (..),
+    DescribeConfigRulesFilters,
     newDescribeConfigRulesFilters,
     describeConfigRulesFilters_evaluationMode,
 
     -- * Evaluation
-    Evaluation (..),
+    Evaluation,
     newEvaluation,
     evaluation_annotation,
     evaluation_complianceResourceType,
@@ -572,17 +573,17 @@ module Amazonka.Config.Types
     evaluation_orderingTimestamp,
 
     -- * EvaluationContext
-    EvaluationContext (..),
+    EvaluationContext,
     newEvaluationContext,
     evaluationContext_evaluationContextIdentifier,
 
     -- * EvaluationModeConfiguration
-    EvaluationModeConfiguration (..),
+    EvaluationModeConfiguration,
     newEvaluationModeConfiguration,
     evaluationModeConfiguration_mode,
 
     -- * EvaluationResult
-    EvaluationResult (..),
+    EvaluationResult,
     newEvaluationResult,
     evaluationResult_annotation,
     evaluationResult_complianceType,
@@ -592,14 +593,14 @@ module Amazonka.Config.Types
     evaluationResult_resultToken,
 
     -- * EvaluationResultIdentifier
-    EvaluationResultIdentifier (..),
+    EvaluationResultIdentifier,
     newEvaluationResultIdentifier,
     evaluationResultIdentifier_evaluationResultQualifier,
     evaluationResultIdentifier_orderingTimestamp,
     evaluationResultIdentifier_resourceEvaluationId,
 
     -- * EvaluationResultQualifier
-    EvaluationResultQualifier (..),
+    EvaluationResultQualifier,
     newEvaluationResultQualifier,
     evaluationResultQualifier_configRuleName,
     evaluationResultQualifier_evaluationMode,
@@ -607,18 +608,18 @@ module Amazonka.Config.Types
     evaluationResultQualifier_resourceType,
 
     -- * EvaluationStatus
-    EvaluationStatus (..),
+    EvaluationStatus,
     newEvaluationStatus,
     evaluationStatus_failureReason,
     evaluationStatus_status,
 
     -- * ExecutionControls
-    ExecutionControls (..),
+    ExecutionControls,
     newExecutionControls,
     executionControls_ssmControls,
 
     -- * ExternalEvaluation
-    ExternalEvaluation (..),
+    ExternalEvaluation,
     newExternalEvaluation,
     externalEvaluation_annotation,
     externalEvaluation_complianceResourceType,
@@ -627,36 +628,36 @@ module Amazonka.Config.Types
     externalEvaluation_orderingTimestamp,
 
     -- * FailedDeleteRemediationExceptionsBatch
-    FailedDeleteRemediationExceptionsBatch (..),
+    FailedDeleteRemediationExceptionsBatch,
     newFailedDeleteRemediationExceptionsBatch,
     failedDeleteRemediationExceptionsBatch_failedItems,
     failedDeleteRemediationExceptionsBatch_failureMessage,
 
     -- * FailedRemediationBatch
-    FailedRemediationBatch (..),
+    FailedRemediationBatch,
     newFailedRemediationBatch,
     failedRemediationBatch_failedItems,
     failedRemediationBatch_failureMessage,
 
     -- * FailedRemediationExceptionBatch
-    FailedRemediationExceptionBatch (..),
+    FailedRemediationExceptionBatch,
     newFailedRemediationExceptionBatch,
     failedRemediationExceptionBatch_failedItems,
     failedRemediationExceptionBatch_failureMessage,
 
     -- * FieldInfo
-    FieldInfo (..),
+    FieldInfo,
     newFieldInfo,
     fieldInfo_name,
 
     -- * GroupedResourceCount
-    GroupedResourceCount (..),
+    GroupedResourceCount,
     newGroupedResourceCount,
     groupedResourceCount_groupName,
     groupedResourceCount_resourceCount,
 
     -- * MemberAccountStatus
-    MemberAccountStatus (..),
+    MemberAccountStatus,
     newMemberAccountStatus,
     memberAccountStatus_errorCode,
     memberAccountStatus_errorMessage,
@@ -666,14 +667,14 @@ module Amazonka.Config.Types
     memberAccountStatus_memberAccountRuleStatus,
 
     -- * OrganizationAggregationSource
-    OrganizationAggregationSource (..),
+    OrganizationAggregationSource,
     newOrganizationAggregationSource,
     organizationAggregationSource_allAwsRegions,
     organizationAggregationSource_awsRegions,
     organizationAggregationSource_roleArn,
 
     -- * OrganizationConfigRule
-    OrganizationConfigRule (..),
+    OrganizationConfigRule,
     newOrganizationConfigRule,
     organizationConfigRule_excludedAccounts,
     organizationConfigRule_lastUpdateTime,
@@ -684,7 +685,7 @@ module Amazonka.Config.Types
     organizationConfigRule_organizationConfigRuleArn,
 
     -- * OrganizationConfigRuleStatus
-    OrganizationConfigRuleStatus (..),
+    OrganizationConfigRuleStatus,
     newOrganizationConfigRuleStatus,
     organizationConfigRuleStatus_errorCode,
     organizationConfigRuleStatus_errorMessage,
@@ -693,7 +694,7 @@ module Amazonka.Config.Types
     organizationConfigRuleStatus_organizationRuleStatus,
 
     -- * OrganizationConformancePack
-    OrganizationConformancePack (..),
+    OrganizationConformancePack,
     newOrganizationConformancePack,
     organizationConformancePack_conformancePackInputParameters,
     organizationConformancePack_deliveryS3Bucket,
@@ -704,7 +705,7 @@ module Amazonka.Config.Types
     organizationConformancePack_lastUpdateTime,
 
     -- * OrganizationConformancePackDetailedStatus
-    OrganizationConformancePackDetailedStatus (..),
+    OrganizationConformancePackDetailedStatus,
     newOrganizationConformancePackDetailedStatus,
     organizationConformancePackDetailedStatus_errorCode,
     organizationConformancePackDetailedStatus_errorMessage,
@@ -714,7 +715,7 @@ module Amazonka.Config.Types
     organizationConformancePackDetailedStatus_status,
 
     -- * OrganizationConformancePackStatus
-    OrganizationConformancePackStatus (..),
+    OrganizationConformancePackStatus,
     newOrganizationConformancePackStatus,
     organizationConformancePackStatus_errorCode,
     organizationConformancePackStatus_errorMessage,
@@ -723,7 +724,7 @@ module Amazonka.Config.Types
     organizationConformancePackStatus_status,
 
     -- * OrganizationCustomPolicyRuleMetadata
-    OrganizationCustomPolicyRuleMetadata (..),
+    OrganizationCustomPolicyRuleMetadata,
     newOrganizationCustomPolicyRuleMetadata,
     organizationCustomPolicyRuleMetadata_debugLogDeliveryAccounts,
     organizationCustomPolicyRuleMetadata_description,
@@ -738,7 +739,7 @@ module Amazonka.Config.Types
     organizationCustomPolicyRuleMetadata_policyText,
 
     -- * OrganizationCustomPolicyRuleMetadataNoPolicy
-    OrganizationCustomPolicyRuleMetadataNoPolicy (..),
+    OrganizationCustomPolicyRuleMetadataNoPolicy,
     newOrganizationCustomPolicyRuleMetadataNoPolicy,
     organizationCustomPolicyRuleMetadataNoPolicy_debugLogDeliveryAccounts,
     organizationCustomPolicyRuleMetadataNoPolicy_description,
@@ -752,7 +753,7 @@ module Amazonka.Config.Types
     organizationCustomPolicyRuleMetadataNoPolicy_tagValueScope,
 
     -- * OrganizationCustomRuleMetadata
-    OrganizationCustomRuleMetadata (..),
+    OrganizationCustomRuleMetadata,
     newOrganizationCustomRuleMetadata,
     organizationCustomRuleMetadata_description,
     organizationCustomRuleMetadata_inputParameters,
@@ -765,7 +766,7 @@ module Amazonka.Config.Types
     organizationCustomRuleMetadata_organizationConfigRuleTriggerTypes,
 
     -- * OrganizationManagedRuleMetadata
-    OrganizationManagedRuleMetadata (..),
+    OrganizationManagedRuleMetadata,
     newOrganizationManagedRuleMetadata,
     organizationManagedRuleMetadata_description,
     organizationManagedRuleMetadata_inputParameters,
@@ -777,31 +778,31 @@ module Amazonka.Config.Types
     organizationManagedRuleMetadata_ruleIdentifier,
 
     -- * OrganizationResourceDetailedStatusFilters
-    OrganizationResourceDetailedStatusFilters (..),
+    OrganizationResourceDetailedStatusFilters,
     newOrganizationResourceDetailedStatusFilters,
     organizationResourceDetailedStatusFilters_accountId,
     organizationResourceDetailedStatusFilters_status,
 
     -- * PendingAggregationRequest
-    PendingAggregationRequest (..),
+    PendingAggregationRequest,
     newPendingAggregationRequest,
     pendingAggregationRequest_requesterAccountId,
     pendingAggregationRequest_requesterAwsRegion,
 
     -- * QueryInfo
-    QueryInfo (..),
+    QueryInfo,
     newQueryInfo,
     queryInfo_selectFields,
 
     -- * RecordingGroup
-    RecordingGroup (..),
+    RecordingGroup,
     newRecordingGroup,
     recordingGroup_allSupported,
     recordingGroup_includeGlobalResourceTypes,
     recordingGroup_resourceTypes,
 
     -- * Relationship
-    Relationship (..),
+    Relationship,
     newRelationship,
     relationship_relationshipName,
     relationship_resourceId,
@@ -809,7 +810,7 @@ module Amazonka.Config.Types
     relationship_resourceType,
 
     -- * RemediationConfiguration
-    RemediationConfiguration (..),
+    RemediationConfiguration,
     newRemediationConfiguration,
     remediationConfiguration_arn,
     remediationConfiguration_automatic,
@@ -825,7 +826,7 @@ module Amazonka.Config.Types
     remediationConfiguration_targetId,
 
     -- * RemediationException
-    RemediationException (..),
+    RemediationException,
     newRemediationException,
     remediationException_expirationTime,
     remediationException_message,
@@ -834,13 +835,13 @@ module Amazonka.Config.Types
     remediationException_resourceId,
 
     -- * RemediationExceptionResourceKey
-    RemediationExceptionResourceKey (..),
+    RemediationExceptionResourceKey,
     newRemediationExceptionResourceKey,
     remediationExceptionResourceKey_resourceId,
     remediationExceptionResourceKey_resourceType,
 
     -- * RemediationExecutionStatus
-    RemediationExecutionStatus (..),
+    RemediationExecutionStatus,
     newRemediationExecutionStatus,
     remediationExecutionStatus_invocationTime,
     remediationExecutionStatus_lastUpdatedTime,
@@ -849,7 +850,7 @@ module Amazonka.Config.Types
     remediationExecutionStatus_stepDetails,
 
     -- * RemediationExecutionStep
-    RemediationExecutionStep (..),
+    RemediationExecutionStep,
     newRemediationExecutionStep,
     remediationExecutionStep_errorMessage,
     remediationExecutionStep_name,
@@ -858,26 +859,26 @@ module Amazonka.Config.Types
     remediationExecutionStep_stopTime,
 
     -- * RemediationParameterValue
-    RemediationParameterValue (..),
+    RemediationParameterValue,
     newRemediationParameterValue,
     remediationParameterValue_resourceValue,
     remediationParameterValue_staticValue,
 
     -- * ResourceCount
-    ResourceCount (..),
+    ResourceCount,
     newResourceCount,
     resourceCount_count,
     resourceCount_resourceType,
 
     -- * ResourceCountFilters
-    ResourceCountFilters (..),
+    ResourceCountFilters,
     newResourceCountFilters,
     resourceCountFilters_accountId,
     resourceCountFilters_region,
     resourceCountFilters_resourceType,
 
     -- * ResourceDetails
-    ResourceDetails (..),
+    ResourceDetails,
     newResourceDetails,
     resourceDetails_resourceConfigurationSchemaType,
     resourceDetails_resourceId,
@@ -885,21 +886,21 @@ module Amazonka.Config.Types
     resourceDetails_resourceConfiguration,
 
     -- * ResourceEvaluation
-    ResourceEvaluation (..),
+    ResourceEvaluation,
     newResourceEvaluation,
     resourceEvaluation_evaluationMode,
     resourceEvaluation_evaluationStartTimestamp,
     resourceEvaluation_resourceEvaluationId,
 
     -- * ResourceEvaluationFilters
-    ResourceEvaluationFilters (..),
+    ResourceEvaluationFilters,
     newResourceEvaluationFilters,
     resourceEvaluationFilters_evaluationContextIdentifier,
     resourceEvaluationFilters_evaluationMode,
     resourceEvaluationFilters_timeWindow,
 
     -- * ResourceFilters
-    ResourceFilters (..),
+    ResourceFilters,
     newResourceFilters,
     resourceFilters_accountId,
     resourceFilters_region,
@@ -907,7 +908,7 @@ module Amazonka.Config.Types
     resourceFilters_resourceName,
 
     -- * ResourceIdentifier
-    ResourceIdentifier (..),
+    ResourceIdentifier,
     newResourceIdentifier,
     resourceIdentifier_resourceDeletionTime,
     resourceIdentifier_resourceId,
@@ -915,24 +916,24 @@ module Amazonka.Config.Types
     resourceIdentifier_resourceType,
 
     -- * ResourceKey
-    ResourceKey (..),
+    ResourceKey,
     newResourceKey,
     resourceKey_resourceType,
     resourceKey_resourceId,
 
     -- * ResourceValue
-    ResourceValue (..),
+    ResourceValue,
     newResourceValue,
     resourceValue_value,
 
     -- * RetentionConfiguration
-    RetentionConfiguration (..),
+    RetentionConfiguration,
     newRetentionConfiguration,
     retentionConfiguration_name,
     retentionConfiguration_retentionPeriodInDays,
 
     -- * Scope
-    Scope (..),
+    Scope,
     newScope,
     scope_complianceResourceId,
     scope_complianceResourceTypes,
@@ -940,7 +941,7 @@ module Amazonka.Config.Types
     scope_tagValue,
 
     -- * Source
-    Source (..),
+    Source,
     newSource,
     source_customPolicyDetails,
     source_sourceDetails,
@@ -948,31 +949,31 @@ module Amazonka.Config.Types
     source_owner,
 
     -- * SourceDetail
-    SourceDetail (..),
+    SourceDetail,
     newSourceDetail,
     sourceDetail_eventSource,
     sourceDetail_maximumExecutionFrequency,
     sourceDetail_messageType,
 
     -- * SsmControls
-    SsmControls (..),
+    SsmControls,
     newSsmControls,
     ssmControls_concurrentExecutionRatePercentage,
     ssmControls_errorPercentage,
 
     -- * StaticValue
-    StaticValue (..),
+    StaticValue,
     newStaticValue,
     staticValue_values,
 
     -- * StatusDetailFilters
-    StatusDetailFilters (..),
+    StatusDetailFilters,
     newStatusDetailFilters,
     statusDetailFilters_accountId,
     statusDetailFilters_memberAccountRuleStatus,
 
     -- * StoredQuery
-    StoredQuery (..),
+    StoredQuery,
     newStoredQuery,
     storedQuery_description,
     storedQuery_expression,
@@ -981,7 +982,7 @@ module Amazonka.Config.Types
     storedQuery_queryName,
 
     -- * StoredQueryMetadata
-    StoredQueryMetadata (..),
+    StoredQueryMetadata,
     newStoredQueryMetadata,
     storedQueryMetadata_description,
     storedQueryMetadata_queryId,
@@ -989,19 +990,19 @@ module Amazonka.Config.Types
     storedQueryMetadata_queryName,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,
 
     -- * TemplateSSMDocumentDetails
-    TemplateSSMDocumentDetails (..),
+    TemplateSSMDocumentDetails,
     newTemplateSSMDocumentDetails,
     templateSSMDocumentDetails_documentVersion,
     templateSSMDocumentDetails_documentName,
 
     -- * TimeWindow
-    TimeWindow (..),
+    TimeWindow,
     newTimeWindow,
     timeWindow_endTime,
     timeWindow_startTime,

@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -27,48 +28,48 @@ module Amazonka.VoiceId.Types
     _ValidationException,
 
     -- * AuthenticationDecision
-    AuthenticationDecision (..),
+    AuthenticationDecision,
 
     -- * DomainStatus
-    DomainStatus (..),
+    DomainStatus,
 
     -- * DuplicateRegistrationAction
-    DuplicateRegistrationAction (..),
+    DuplicateRegistrationAction,
 
     -- * ExistingEnrollmentAction
-    ExistingEnrollmentAction (..),
+    ExistingEnrollmentAction,
 
     -- * FraudDetectionAction
-    FraudDetectionAction (..),
+    FraudDetectionAction,
 
     -- * FraudDetectionDecision
-    FraudDetectionDecision (..),
+    FraudDetectionDecision,
 
     -- * FraudDetectionReason
-    FraudDetectionReason (..),
+    FraudDetectionReason,
 
     -- * FraudsterRegistrationJobStatus
-    FraudsterRegistrationJobStatus (..),
+    FraudsterRegistrationJobStatus,
 
     -- * ServerSideEncryptionUpdateStatus
-    ServerSideEncryptionUpdateStatus (..),
+    ServerSideEncryptionUpdateStatus,
 
     -- * SpeakerEnrollmentJobStatus
-    SpeakerEnrollmentJobStatus (..),
+    SpeakerEnrollmentJobStatus,
 
     -- * SpeakerStatus
-    SpeakerStatus (..),
+    SpeakerStatus,
 
     -- * StreamingStatus
-    StreamingStatus (..),
+    StreamingStatus,
 
     -- * AuthenticationConfiguration
-    AuthenticationConfiguration (..),
+    AuthenticationConfiguration,
     newAuthenticationConfiguration,
     authenticationConfiguration_acceptanceThreshold,
 
     -- * AuthenticationResult
-    AuthenticationResult (..),
+    AuthenticationResult,
     newAuthenticationResult,
     authenticationResult_audioAggregationEndedAt,
     authenticationResult_audioAggregationStartedAt,
@@ -80,7 +81,7 @@ module Amazonka.VoiceId.Types
     authenticationResult_score,
 
     -- * Domain
-    Domain (..),
+    Domain,
     newDomain,
     domain_arn,
     domain_createdAt,
@@ -93,7 +94,7 @@ module Amazonka.VoiceId.Types
     domain_updatedAt,
 
     -- * DomainSummary
-    DomainSummary (..),
+    DomainSummary,
     newDomainSummary,
     domainSummary_arn,
     domainSummary_createdAt,
@@ -106,30 +107,30 @@ module Amazonka.VoiceId.Types
     domainSummary_updatedAt,
 
     -- * EnrollmentConfig
-    EnrollmentConfig (..),
+    EnrollmentConfig,
     newEnrollmentConfig,
     enrollmentConfig_existingEnrollmentAction,
     enrollmentConfig_fraudDetectionConfig,
 
     -- * EnrollmentJobFraudDetectionConfig
-    EnrollmentJobFraudDetectionConfig (..),
+    EnrollmentJobFraudDetectionConfig,
     newEnrollmentJobFraudDetectionConfig,
     enrollmentJobFraudDetectionConfig_fraudDetectionAction,
     enrollmentJobFraudDetectionConfig_riskThreshold,
 
     -- * FailureDetails
-    FailureDetails (..),
+    FailureDetails,
     newFailureDetails,
     failureDetails_message,
     failureDetails_statusCode,
 
     -- * FraudDetectionConfiguration
-    FraudDetectionConfiguration (..),
+    FraudDetectionConfiguration,
     newFraudDetectionConfiguration,
     fraudDetectionConfiguration_riskThreshold,
 
     -- * FraudDetectionResult
-    FraudDetectionResult (..),
+    FraudDetectionResult,
     newFraudDetectionResult,
     fraudDetectionResult_audioAggregationEndedAt,
     fraudDetectionResult_audioAggregationStartedAt,
@@ -140,20 +141,20 @@ module Amazonka.VoiceId.Types
     fraudDetectionResult_riskDetails,
 
     -- * FraudRiskDetails
-    FraudRiskDetails (..),
+    FraudRiskDetails,
     newFraudRiskDetails,
     fraudRiskDetails_knownFraudsterRisk,
     fraudRiskDetails_voiceSpoofingRisk,
 
     -- * Fraudster
-    Fraudster (..),
+    Fraudster,
     newFraudster,
     fraudster_createdAt,
     fraudster_domainId,
     fraudster_generatedFraudsterId,
 
     -- * FraudsterRegistrationJob
-    FraudsterRegistrationJob (..),
+    FraudsterRegistrationJob,
     newFraudsterRegistrationJob,
     fraudsterRegistrationJob_createdAt,
     fraudsterRegistrationJob_dataAccessRoleArn,
@@ -169,7 +170,7 @@ module Amazonka.VoiceId.Types
     fraudsterRegistrationJob_registrationConfig,
 
     -- * FraudsterRegistrationJobSummary
-    FraudsterRegistrationJobSummary (..),
+    FraudsterRegistrationJobSummary,
     newFraudsterRegistrationJobSummary,
     fraudsterRegistrationJobSummary_createdAt,
     fraudsterRegistrationJobSummary_domainId,
@@ -181,47 +182,47 @@ module Amazonka.VoiceId.Types
     fraudsterRegistrationJobSummary_jobStatus,
 
     -- * InputDataConfig
-    InputDataConfig (..),
+    InputDataConfig,
     newInputDataConfig,
     inputDataConfig_s3Uri,
 
     -- * JobProgress
-    JobProgress (..),
+    JobProgress,
     newJobProgress,
     jobProgress_percentComplete,
 
     -- * KnownFraudsterRisk
-    KnownFraudsterRisk (..),
+    KnownFraudsterRisk,
     newKnownFraudsterRisk,
     knownFraudsterRisk_generatedFraudsterId,
     knownFraudsterRisk_riskScore,
 
     -- * OutputDataConfig
-    OutputDataConfig (..),
+    OutputDataConfig,
     newOutputDataConfig,
     outputDataConfig_kmsKeyId,
     outputDataConfig_s3Uri,
 
     -- * RegistrationConfig
-    RegistrationConfig (..),
+    RegistrationConfig,
     newRegistrationConfig,
     registrationConfig_duplicateRegistrationAction,
     registrationConfig_fraudsterSimilarityThreshold,
 
     -- * ServerSideEncryptionConfiguration
-    ServerSideEncryptionConfiguration (..),
+    ServerSideEncryptionConfiguration,
     newServerSideEncryptionConfiguration,
     serverSideEncryptionConfiguration_kmsKeyId,
 
     -- * ServerSideEncryptionUpdateDetails
-    ServerSideEncryptionUpdateDetails (..),
+    ServerSideEncryptionUpdateDetails,
     newServerSideEncryptionUpdateDetails,
     serverSideEncryptionUpdateDetails_message,
     serverSideEncryptionUpdateDetails_oldKmsKeyId,
     serverSideEncryptionUpdateDetails_updateStatus,
 
     -- * Speaker
-    Speaker (..),
+    Speaker,
     newSpeaker,
     speaker_createdAt,
     speaker_customerSpeakerId,
@@ -232,7 +233,7 @@ module Amazonka.VoiceId.Types
     speaker_updatedAt,
 
     -- * SpeakerEnrollmentJob
-    SpeakerEnrollmentJob (..),
+    SpeakerEnrollmentJob,
     newSpeakerEnrollmentJob,
     speakerEnrollmentJob_createdAt,
     speakerEnrollmentJob_dataAccessRoleArn,
@@ -248,7 +249,7 @@ module Amazonka.VoiceId.Types
     speakerEnrollmentJob_outputDataConfig,
 
     -- * SpeakerEnrollmentJobSummary
-    SpeakerEnrollmentJobSummary (..),
+    SpeakerEnrollmentJobSummary,
     newSpeakerEnrollmentJobSummary,
     speakerEnrollmentJobSummary_createdAt,
     speakerEnrollmentJobSummary_domainId,
@@ -260,7 +261,7 @@ module Amazonka.VoiceId.Types
     speakerEnrollmentJobSummary_jobStatus,
 
     -- * SpeakerSummary
-    SpeakerSummary (..),
+    SpeakerSummary,
     newSpeakerSummary,
     speakerSummary_createdAt,
     speakerSummary_customerSpeakerId,
@@ -271,13 +272,13 @@ module Amazonka.VoiceId.Types
     speakerSummary_updatedAt,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,
 
     -- * VoiceSpoofingRisk
-    VoiceSpoofingRisk (..),
+    VoiceSpoofingRisk,
     newVoiceSpoofingRisk,
     voiceSpoofingRisk_riskScore,
   )

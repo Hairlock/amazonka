@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -22,130 +23,130 @@ module Amazonka.DataSync.Types
     _InvalidRequestException,
 
     -- * AgentStatus
-    AgentStatus (..),
+    AgentStatus,
 
     -- * Atime
-    Atime (..),
+    Atime,
 
     -- * EfsInTransitEncryption
-    EfsInTransitEncryption (..),
+    EfsInTransitEncryption,
 
     -- * EndpointType
-    EndpointType (..),
+    EndpointType,
 
     -- * FilterType
-    FilterType (..),
+    FilterType,
 
     -- * Gid
-    Gid (..),
+    Gid,
 
     -- * HdfsAuthenticationType
-    HdfsAuthenticationType (..),
+    HdfsAuthenticationType,
 
     -- * HdfsDataTransferProtection
-    HdfsDataTransferProtection (..),
+    HdfsDataTransferProtection,
 
     -- * HdfsRpcProtection
-    HdfsRpcProtection (..),
+    HdfsRpcProtection,
 
     -- * LocationFilterName
-    LocationFilterName (..),
+    LocationFilterName,
 
     -- * LogLevel
-    LogLevel (..),
+    LogLevel,
 
     -- * Mtime
-    Mtime (..),
+    Mtime,
 
     -- * NfsVersion
-    NfsVersion (..),
+    NfsVersion,
 
     -- * ObjectStorageServerProtocol
-    ObjectStorageServerProtocol (..),
+    ObjectStorageServerProtocol,
 
     -- * ObjectTags
-    ObjectTags (..),
+    ObjectTags,
 
     -- * Operator
-    Operator (..),
+    Operator,
 
     -- * OverwriteMode
-    OverwriteMode (..),
+    OverwriteMode,
 
     -- * PhaseStatus
-    PhaseStatus (..),
+    PhaseStatus,
 
     -- * PosixPermissions
-    PosixPermissions (..),
+    PosixPermissions,
 
     -- * PreserveDeletedFiles
-    PreserveDeletedFiles (..),
+    PreserveDeletedFiles,
 
     -- * PreserveDevices
-    PreserveDevices (..),
+    PreserveDevices,
 
     -- * S3StorageClass
-    S3StorageClass (..),
+    S3StorageClass,
 
     -- * SmbSecurityDescriptorCopyFlags
-    SmbSecurityDescriptorCopyFlags (..),
+    SmbSecurityDescriptorCopyFlags,
 
     -- * SmbVersion
-    SmbVersion (..),
+    SmbVersion,
 
     -- * TaskExecutionStatus
-    TaskExecutionStatus (..),
+    TaskExecutionStatus,
 
     -- * TaskFilterName
-    TaskFilterName (..),
+    TaskFilterName,
 
     -- * TaskQueueing
-    TaskQueueing (..),
+    TaskQueueing,
 
     -- * TaskStatus
-    TaskStatus (..),
+    TaskStatus,
 
     -- * TransferMode
-    TransferMode (..),
+    TransferMode,
 
     -- * Uid
-    Uid (..),
+    Uid,
 
     -- * VerifyMode
-    VerifyMode (..),
+    VerifyMode,
 
     -- * AgentListEntry
-    AgentListEntry (..),
+    AgentListEntry,
     newAgentListEntry,
     agentListEntry_agentArn,
     agentListEntry_name,
     agentListEntry_status,
 
     -- * Ec2Config
-    Ec2Config (..),
+    Ec2Config,
     newEc2Config,
     ec2Config_subnetArn,
     ec2Config_securityGroupArns,
 
     -- * FilterRule
-    FilterRule (..),
+    FilterRule,
     newFilterRule,
     filterRule_filterType,
     filterRule_value,
 
     -- * FsxProtocol
-    FsxProtocol (..),
+    FsxProtocol,
     newFsxProtocol,
     fsxProtocol_nfs,
     fsxProtocol_smb,
 
     -- * FsxProtocolNfs
-    FsxProtocolNfs (..),
+    FsxProtocolNfs,
     newFsxProtocolNfs,
     fsxProtocolNfs_mountOptions,
 
     -- * FsxProtocolSmb
-    FsxProtocolSmb (..),
+    FsxProtocolSmb,
     newFsxProtocolSmb,
     fsxProtocolSmb_domain,
     fsxProtocolSmb_mountOptions,
@@ -153,36 +154,36 @@ module Amazonka.DataSync.Types
     fsxProtocolSmb_user,
 
     -- * HdfsNameNode
-    HdfsNameNode (..),
+    HdfsNameNode,
     newHdfsNameNode,
     hdfsNameNode_hostname,
     hdfsNameNode_port,
 
     -- * LocationFilter
-    LocationFilter (..),
+    LocationFilter,
     newLocationFilter,
     locationFilter_name,
     locationFilter_values,
     locationFilter_operator,
 
     -- * LocationListEntry
-    LocationListEntry (..),
+    LocationListEntry,
     newLocationListEntry,
     locationListEntry_locationArn,
     locationListEntry_locationUri,
 
     -- * NfsMountOptions
-    NfsMountOptions (..),
+    NfsMountOptions,
     newNfsMountOptions,
     nfsMountOptions_version,
 
     -- * OnPremConfig
-    OnPremConfig (..),
+    OnPremConfig,
     newOnPremConfig,
     onPremConfig_agentArns,
 
     -- * Options
-    Options (..),
+    Options,
     newOptions,
     options_atime,
     options_bytesPerSecond,
@@ -201,7 +202,7 @@ module Amazonka.DataSync.Types
     options_verifyMode,
 
     -- * PrivateLinkConfig
-    PrivateLinkConfig (..),
+    PrivateLinkConfig,
     newPrivateLinkConfig,
     privateLinkConfig_privateLinkEndpoint,
     privateLinkConfig_securityGroupArns,
@@ -209,35 +210,35 @@ module Amazonka.DataSync.Types
     privateLinkConfig_vpcEndpointId,
 
     -- * QopConfiguration
-    QopConfiguration (..),
+    QopConfiguration,
     newQopConfiguration,
     qopConfiguration_dataTransferProtection,
     qopConfiguration_rpcProtection,
 
     -- * S3Config
-    S3Config (..),
+    S3Config,
     newS3Config,
     s3Config_bucketAccessRoleArn,
 
     -- * SmbMountOptions
-    SmbMountOptions (..),
+    SmbMountOptions,
     newSmbMountOptions,
     smbMountOptions_version,
 
     -- * TagListEntry
-    TagListEntry (..),
+    TagListEntry,
     newTagListEntry,
     tagListEntry_value,
     tagListEntry_key,
 
     -- * TaskExecutionListEntry
-    TaskExecutionListEntry (..),
+    TaskExecutionListEntry,
     newTaskExecutionListEntry,
     taskExecutionListEntry_status,
     taskExecutionListEntry_taskExecutionArn,
 
     -- * TaskExecutionResultDetail
-    TaskExecutionResultDetail (..),
+    TaskExecutionResultDetail,
     newTaskExecutionResultDetail,
     taskExecutionResultDetail_errorCode,
     taskExecutionResultDetail_errorDetail,
@@ -250,21 +251,21 @@ module Amazonka.DataSync.Types
     taskExecutionResultDetail_verifyStatus,
 
     -- * TaskFilter
-    TaskFilter (..),
+    TaskFilter,
     newTaskFilter,
     taskFilter_name,
     taskFilter_values,
     taskFilter_operator,
 
     -- * TaskListEntry
-    TaskListEntry (..),
+    TaskListEntry,
     newTaskListEntry,
     taskListEntry_name,
     taskListEntry_status,
     taskListEntry_taskArn,
 
     -- * TaskSchedule
-    TaskSchedule (..),
+    TaskSchedule,
     newTaskSchedule,
     taskSchedule_scheduleExpression,
   )

@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -33,64 +34,64 @@ module Amazonka.EKS.Types
     _UnsupportedAvailabilityZoneException,
 
     -- * AMITypes
-    AMITypes (..),
+    AMITypes,
 
     -- * AddonIssueCode
-    AddonIssueCode (..),
+    AddonIssueCode,
 
     -- * AddonStatus
-    AddonStatus (..),
+    AddonStatus,
 
     -- * CapacityTypes
-    CapacityTypes (..),
+    CapacityTypes,
 
     -- * ClusterIssueCode
-    ClusterIssueCode (..),
+    ClusterIssueCode,
 
     -- * ClusterStatus
-    ClusterStatus (..),
+    ClusterStatus,
 
     -- * ConfigStatus
-    ConfigStatus (..),
+    ConfigStatus,
 
     -- * ConnectorConfigProvider
-    ConnectorConfigProvider (..),
+    ConnectorConfigProvider,
 
     -- * EKSErrorCode
-    EKSErrorCode (..),
+    EKSErrorCode,
 
     -- * FargateProfileStatus
-    FargateProfileStatus (..),
+    FargateProfileStatus,
 
     -- * IpFamily
-    IpFamily (..),
+    IpFamily,
 
     -- * LogType
-    LogType (..),
+    LogType,
 
     -- * NodegroupIssueCode
-    NodegroupIssueCode (..),
+    NodegroupIssueCode,
 
     -- * NodegroupStatus
-    NodegroupStatus (..),
+    NodegroupStatus,
 
     -- * ResolveConflicts
-    ResolveConflicts (..),
+    ResolveConflicts,
 
     -- * TaintEffect
-    TaintEffect (..),
+    TaintEffect,
 
     -- * UpdateParamType
-    UpdateParamType (..),
+    UpdateParamType,
 
     -- * UpdateStatus
-    UpdateStatus (..),
+    UpdateStatus,
 
     -- * UpdateType
-    UpdateType (..),
+    UpdateType,
 
     -- * Addon
-    Addon (..),
+    Addon,
     newAddon,
     addon_addonArn,
     addon_addonName,
@@ -108,12 +109,12 @@ module Amazonka.EKS.Types
     addon_tags,
 
     -- * AddonHealth
-    AddonHealth (..),
+    AddonHealth,
     newAddonHealth,
     addonHealth_issues,
 
     -- * AddonInfo
-    AddonInfo (..),
+    AddonInfo,
     newAddonInfo,
     addonInfo_addonName,
     addonInfo_addonVersions,
@@ -123,14 +124,14 @@ module Amazonka.EKS.Types
     addonInfo_type,
 
     -- * AddonIssue
-    AddonIssue (..),
+    AddonIssue,
     newAddonIssue,
     addonIssue_code,
     addonIssue_message,
     addonIssue_resourceIds,
 
     -- * AddonVersionInfo
-    AddonVersionInfo (..),
+    AddonVersionInfo,
     newAddonVersionInfo,
     addonVersionInfo_addonVersion,
     addonVersionInfo_architecture,
@@ -138,17 +139,17 @@ module Amazonka.EKS.Types
     addonVersionInfo_requiresConfiguration,
 
     -- * AutoScalingGroup
-    AutoScalingGroup (..),
+    AutoScalingGroup,
     newAutoScalingGroup,
     autoScalingGroup_name,
 
     -- * Certificate
-    Certificate (..),
+    Certificate,
     newCertificate,
     certificate_data,
 
     -- * Cluster
-    Cluster (..),
+    Cluster,
     newCluster,
     cluster_arn,
     cluster_certificateAuthority,
@@ -172,32 +173,32 @@ module Amazonka.EKS.Types
     cluster_version,
 
     -- * ClusterHealth
-    ClusterHealth (..),
+    ClusterHealth,
     newClusterHealth,
     clusterHealth_issues,
 
     -- * ClusterIssue
-    ClusterIssue (..),
+    ClusterIssue,
     newClusterIssue,
     clusterIssue_code,
     clusterIssue_message,
     clusterIssue_resourceIds,
 
     -- * Compatibility
-    Compatibility (..),
+    Compatibility,
     newCompatibility,
     compatibility_clusterVersion,
     compatibility_defaultVersion,
     compatibility_platformVersions,
 
     -- * ConnectorConfigRequest
-    ConnectorConfigRequest (..),
+    ConnectorConfigRequest,
     newConnectorConfigRequest,
     connectorConfigRequest_roleArn,
     connectorConfigRequest_provider,
 
     -- * ConnectorConfigResponse
-    ConnectorConfigResponse (..),
+    ConnectorConfigResponse,
     newConnectorConfigResponse,
     connectorConfigResponse_activationCode,
     connectorConfigResponse_activationExpiry,
@@ -206,30 +207,30 @@ module Amazonka.EKS.Types
     connectorConfigResponse_roleArn,
 
     -- * ControlPlanePlacementRequest
-    ControlPlanePlacementRequest (..),
+    ControlPlanePlacementRequest,
     newControlPlanePlacementRequest,
     controlPlanePlacementRequest_groupName,
 
     -- * ControlPlanePlacementResponse
-    ControlPlanePlacementResponse (..),
+    ControlPlanePlacementResponse,
     newControlPlanePlacementResponse,
     controlPlanePlacementResponse_groupName,
 
     -- * EncryptionConfig
-    EncryptionConfig (..),
+    EncryptionConfig,
     newEncryptionConfig,
     encryptionConfig_provider,
     encryptionConfig_resources,
 
     -- * ErrorDetail
-    ErrorDetail (..),
+    ErrorDetail,
     newErrorDetail,
     errorDetail_errorCode,
     errorDetail_errorMessage,
     errorDetail_resourceIds,
 
     -- * FargateProfile
-    FargateProfile (..),
+    FargateProfile,
     newFargateProfile,
     fargateProfile_clusterName,
     fargateProfile_createdAt,
@@ -242,73 +243,73 @@ module Amazonka.EKS.Types
     fargateProfile_tags,
 
     -- * FargateProfileSelector
-    FargateProfileSelector (..),
+    FargateProfileSelector,
     newFargateProfileSelector,
     fargateProfileSelector_labels,
     fargateProfileSelector_namespace,
 
     -- * Identity
-    Identity (..),
+    Identity,
     newIdentity,
     identity_oidc,
 
     -- * IdentityProviderConfig
-    IdentityProviderConfig (..),
+    IdentityProviderConfig,
     newIdentityProviderConfig,
     identityProviderConfig_type,
     identityProviderConfig_name,
 
     -- * IdentityProviderConfigResponse
-    IdentityProviderConfigResponse (..),
+    IdentityProviderConfigResponse,
     newIdentityProviderConfigResponse,
     identityProviderConfigResponse_oidc,
 
     -- * Issue
-    Issue (..),
+    Issue,
     newIssue,
     issue_code,
     issue_message,
     issue_resourceIds,
 
     -- * KubernetesNetworkConfigRequest
-    KubernetesNetworkConfigRequest (..),
+    KubernetesNetworkConfigRequest,
     newKubernetesNetworkConfigRequest,
     kubernetesNetworkConfigRequest_ipFamily,
     kubernetesNetworkConfigRequest_serviceIpv4Cidr,
 
     -- * KubernetesNetworkConfigResponse
-    KubernetesNetworkConfigResponse (..),
+    KubernetesNetworkConfigResponse,
     newKubernetesNetworkConfigResponse,
     kubernetesNetworkConfigResponse_ipFamily,
     kubernetesNetworkConfigResponse_serviceIpv4Cidr,
     kubernetesNetworkConfigResponse_serviceIpv6Cidr,
 
     -- * LaunchTemplateSpecification
-    LaunchTemplateSpecification (..),
+    LaunchTemplateSpecification,
     newLaunchTemplateSpecification,
     launchTemplateSpecification_id,
     launchTemplateSpecification_name,
     launchTemplateSpecification_version,
 
     -- * LogSetup
-    LogSetup (..),
+    LogSetup,
     newLogSetup,
     logSetup_enabled,
     logSetup_types,
 
     -- * Logging
-    Logging (..),
+    Logging,
     newLogging,
     logging_clusterLogging,
 
     -- * MarketplaceInformation
-    MarketplaceInformation (..),
+    MarketplaceInformation,
     newMarketplaceInformation,
     marketplaceInformation_productId,
     marketplaceInformation_productUrl,
 
     -- * Nodegroup
-    Nodegroup (..),
+    Nodegroup,
     newNodegroup,
     nodegroup_amiType,
     nodegroup_capacityType,
@@ -335,36 +336,36 @@ module Amazonka.EKS.Types
     nodegroup_version,
 
     -- * NodegroupHealth
-    NodegroupHealth (..),
+    NodegroupHealth,
     newNodegroupHealth,
     nodegroupHealth_issues,
 
     -- * NodegroupResources
-    NodegroupResources (..),
+    NodegroupResources,
     newNodegroupResources,
     nodegroupResources_autoScalingGroups,
     nodegroupResources_remoteAccessSecurityGroup,
 
     -- * NodegroupScalingConfig
-    NodegroupScalingConfig (..),
+    NodegroupScalingConfig,
     newNodegroupScalingConfig,
     nodegroupScalingConfig_desiredSize,
     nodegroupScalingConfig_maxSize,
     nodegroupScalingConfig_minSize,
 
     -- * NodegroupUpdateConfig
-    NodegroupUpdateConfig (..),
+    NodegroupUpdateConfig,
     newNodegroupUpdateConfig,
     nodegroupUpdateConfig_maxUnavailable,
     nodegroupUpdateConfig_maxUnavailablePercentage,
 
     -- * OIDC
-    OIDC (..),
+    OIDC,
     newOIDC,
     oidc_issuer,
 
     -- * OidcIdentityProviderConfig
-    OidcIdentityProviderConfig (..),
+    OidcIdentityProviderConfig,
     newOidcIdentityProviderConfig,
     oidcIdentityProviderConfig_clientId,
     oidcIdentityProviderConfig_clusterName,
@@ -380,7 +381,7 @@ module Amazonka.EKS.Types
     oidcIdentityProviderConfig_usernamePrefix,
 
     -- * OidcIdentityProviderConfigRequest
-    OidcIdentityProviderConfigRequest (..),
+    OidcIdentityProviderConfigRequest,
     newOidcIdentityProviderConfigRequest,
     oidcIdentityProviderConfigRequest_groupsClaim,
     oidcIdentityProviderConfigRequest_groupsPrefix,
@@ -392,39 +393,39 @@ module Amazonka.EKS.Types
     oidcIdentityProviderConfigRequest_clientId,
 
     -- * OutpostConfigRequest
-    OutpostConfigRequest (..),
+    OutpostConfigRequest,
     newOutpostConfigRequest,
     outpostConfigRequest_controlPlanePlacement,
     outpostConfigRequest_outpostArns,
     outpostConfigRequest_controlPlaneInstanceType,
 
     -- * OutpostConfigResponse
-    OutpostConfigResponse (..),
+    OutpostConfigResponse,
     newOutpostConfigResponse,
     outpostConfigResponse_controlPlanePlacement,
     outpostConfigResponse_outpostArns,
     outpostConfigResponse_controlPlaneInstanceType,
 
     -- * Provider
-    Provider (..),
+    Provider,
     newProvider,
     provider_keyArn,
 
     -- * RemoteAccessConfig
-    RemoteAccessConfig (..),
+    RemoteAccessConfig,
     newRemoteAccessConfig,
     remoteAccessConfig_ec2SshKey,
     remoteAccessConfig_sourceSecurityGroups,
 
     -- * Taint
-    Taint (..),
+    Taint,
     newTaint,
     taint_effect,
     taint_key,
     taint_value,
 
     -- * Update
-    Update (..),
+    Update,
     newUpdate,
     update_createdAt,
     update_errors,
@@ -434,25 +435,25 @@ module Amazonka.EKS.Types
     update_type,
 
     -- * UpdateLabelsPayload
-    UpdateLabelsPayload (..),
+    UpdateLabelsPayload,
     newUpdateLabelsPayload,
     updateLabelsPayload_addOrUpdateLabels,
     updateLabelsPayload_removeLabels,
 
     -- * UpdateParam
-    UpdateParam (..),
+    UpdateParam,
     newUpdateParam,
     updateParam_type,
     updateParam_value,
 
     -- * UpdateTaintsPayload
-    UpdateTaintsPayload (..),
+    UpdateTaintsPayload,
     newUpdateTaintsPayload,
     updateTaintsPayload_addOrUpdateTaints,
     updateTaintsPayload_removeTaints,
 
     -- * VpcConfigRequest
-    VpcConfigRequest (..),
+    VpcConfigRequest,
     newVpcConfigRequest,
     vpcConfigRequest_endpointPrivateAccess,
     vpcConfigRequest_endpointPublicAccess,
@@ -461,7 +462,7 @@ module Amazonka.EKS.Types
     vpcConfigRequest_subnetIds,
 
     -- * VpcConfigResponse
-    VpcConfigResponse (..),
+    VpcConfigResponse,
     newVpcConfigResponse,
     vpcConfigResponse_clusterSecurityGroupId,
     vpcConfigResponse_endpointPrivateAccess,

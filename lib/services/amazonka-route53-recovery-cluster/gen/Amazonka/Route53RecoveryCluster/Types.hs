@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -28,10 +29,10 @@ module Amazonka.Route53RecoveryCluster.Types
     _ValidationException,
 
     -- * RoutingControlState
-    RoutingControlState (..),
+    RoutingControlState,
 
     -- * RoutingControl
-    RoutingControl (..),
+    RoutingControl,
     newRoutingControl,
     routingControl_controlPanelArn,
     routingControl_controlPanelName,
@@ -40,7 +41,7 @@ module Amazonka.Route53RecoveryCluster.Types
     routingControl_routingControlState,
 
     -- * UpdateRoutingControlStateEntry
-    UpdateRoutingControlStateEntry (..),
+    UpdateRoutingControlStateEntry,
     newUpdateRoutingControlStateEntry,
     updateRoutingControlStateEntry_routingControlArn,
     updateRoutingControlStateEntry_routingControlState,

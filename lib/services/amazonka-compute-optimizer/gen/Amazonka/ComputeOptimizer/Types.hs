@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -29,145 +30,145 @@ module Amazonka.ComputeOptimizer.Types
     _ThrottlingException,
 
     -- * AutoScalingConfiguration
-    AutoScalingConfiguration (..),
+    AutoScalingConfiguration,
 
     -- * CpuVendorArchitecture
-    CpuVendorArchitecture (..),
+    CpuVendorArchitecture,
 
     -- * Currency
-    Currency (..),
+    Currency,
 
     -- * CurrentPerformanceRisk
-    CurrentPerformanceRisk (..),
+    CurrentPerformanceRisk,
 
     -- * EBSFilterName
-    EBSFilterName (..),
+    EBSFilterName,
 
     -- * EBSFinding
-    EBSFinding (..),
+    EBSFinding,
 
     -- * EBSMetricName
-    EBSMetricName (..),
+    EBSMetricName,
 
     -- * ECSServiceLaunchType
-    ECSServiceLaunchType (..),
+    ECSServiceLaunchType,
 
     -- * ECSServiceMetricName
-    ECSServiceMetricName (..),
+    ECSServiceMetricName,
 
     -- * ECSServiceMetricStatistic
-    ECSServiceMetricStatistic (..),
+    ECSServiceMetricStatistic,
 
     -- * ECSServiceRecommendationFilterName
-    ECSServiceRecommendationFilterName (..),
+    ECSServiceRecommendationFilterName,
 
     -- * ECSServiceRecommendationFinding
-    ECSServiceRecommendationFinding (..),
+    ECSServiceRecommendationFinding,
 
     -- * ECSServiceRecommendationFindingReasonCode
-    ECSServiceRecommendationFindingReasonCode (..),
+    ECSServiceRecommendationFindingReasonCode,
 
     -- * EnhancedInfrastructureMetrics
-    EnhancedInfrastructureMetrics (..),
+    EnhancedInfrastructureMetrics,
 
     -- * EnrollmentFilterName
-    EnrollmentFilterName (..),
+    EnrollmentFilterName,
 
     -- * ExportableAutoScalingGroupField
-    ExportableAutoScalingGroupField (..),
+    ExportableAutoScalingGroupField,
 
     -- * ExportableECSServiceField
-    ExportableECSServiceField (..),
+    ExportableECSServiceField,
 
     -- * ExportableInstanceField
-    ExportableInstanceField (..),
+    ExportableInstanceField,
 
     -- * ExportableLambdaFunctionField
-    ExportableLambdaFunctionField (..),
+    ExportableLambdaFunctionField,
 
     -- * ExportableVolumeField
-    ExportableVolumeField (..),
+    ExportableVolumeField,
 
     -- * ExternalMetricsSource
-    ExternalMetricsSource (..),
+    ExternalMetricsSource,
 
     -- * FileFormat
-    FileFormat (..),
+    FileFormat,
 
     -- * FilterName
-    FilterName (..),
+    FilterName,
 
     -- * Finding
-    Finding (..),
+    Finding,
 
     -- * FindingReasonCode
-    FindingReasonCode (..),
+    FindingReasonCode,
 
     -- * InferredWorkloadType
-    InferredWorkloadType (..),
+    InferredWorkloadType,
 
     -- * InferredWorkloadTypesPreference
-    InferredWorkloadTypesPreference (..),
+    InferredWorkloadTypesPreference,
 
     -- * InstanceRecommendationFindingReasonCode
-    InstanceRecommendationFindingReasonCode (..),
+    InstanceRecommendationFindingReasonCode,
 
     -- * JobFilterName
-    JobFilterName (..),
+    JobFilterName,
 
     -- * JobStatus
-    JobStatus (..),
+    JobStatus,
 
     -- * LambdaFunctionMemoryMetricName
-    LambdaFunctionMemoryMetricName (..),
+    LambdaFunctionMemoryMetricName,
 
     -- * LambdaFunctionMemoryMetricStatistic
-    LambdaFunctionMemoryMetricStatistic (..),
+    LambdaFunctionMemoryMetricStatistic,
 
     -- * LambdaFunctionMetricName
-    LambdaFunctionMetricName (..),
+    LambdaFunctionMetricName,
 
     -- * LambdaFunctionMetricStatistic
-    LambdaFunctionMetricStatistic (..),
+    LambdaFunctionMetricStatistic,
 
     -- * LambdaFunctionRecommendationFilterName
-    LambdaFunctionRecommendationFilterName (..),
+    LambdaFunctionRecommendationFilterName,
 
     -- * LambdaFunctionRecommendationFinding
-    LambdaFunctionRecommendationFinding (..),
+    LambdaFunctionRecommendationFinding,
 
     -- * LambdaFunctionRecommendationFindingReasonCode
-    LambdaFunctionRecommendationFindingReasonCode (..),
+    LambdaFunctionRecommendationFindingReasonCode,
 
     -- * MetricName
-    MetricName (..),
+    MetricName,
 
     -- * MetricStatistic
-    MetricStatistic (..),
+    MetricStatistic,
 
     -- * MigrationEffort
-    MigrationEffort (..),
+    MigrationEffort,
 
     -- * PlatformDifference
-    PlatformDifference (..),
+    PlatformDifference,
 
     -- * RecommendationPreferenceName
-    RecommendationPreferenceName (..),
+    RecommendationPreferenceName,
 
     -- * RecommendationSourceType
-    RecommendationSourceType (..),
+    RecommendationSourceType,
 
     -- * ResourceType
-    ResourceType (..),
+    ResourceType,
 
     -- * ScopeName
-    ScopeName (..),
+    ScopeName,
 
     -- * Status
-    Status (..),
+    Status,
 
     -- * AccountEnrollmentStatus
-    AccountEnrollmentStatus (..),
+    AccountEnrollmentStatus,
     newAccountEnrollmentStatus,
     accountEnrollmentStatus_accountId,
     accountEnrollmentStatus_lastUpdatedTimestamp,
@@ -175,7 +176,7 @@ module Amazonka.ComputeOptimizer.Types
     accountEnrollmentStatus_statusReason,
 
     -- * AutoScalingGroupConfiguration
-    AutoScalingGroupConfiguration (..),
+    AutoScalingGroupConfiguration,
     newAutoScalingGroupConfiguration,
     autoScalingGroupConfiguration_desiredCapacity,
     autoScalingGroupConfiguration_instanceType,
@@ -183,7 +184,7 @@ module Amazonka.ComputeOptimizer.Types
     autoScalingGroupConfiguration_minSize,
 
     -- * AutoScalingGroupRecommendation
-    AutoScalingGroupRecommendation (..),
+    AutoScalingGroupRecommendation,
     newAutoScalingGroupRecommendation,
     autoScalingGroupRecommendation_accountId,
     autoScalingGroupRecommendation_autoScalingGroupArn,
@@ -199,7 +200,7 @@ module Amazonka.ComputeOptimizer.Types
     autoScalingGroupRecommendation_utilizationMetrics,
 
     -- * AutoScalingGroupRecommendationOption
-    AutoScalingGroupRecommendationOption (..),
+    AutoScalingGroupRecommendationOption,
     newAutoScalingGroupRecommendationOption,
     autoScalingGroupRecommendationOption_configuration,
     autoScalingGroupRecommendationOption_migrationEffort,
@@ -209,21 +210,21 @@ module Amazonka.ComputeOptimizer.Types
     autoScalingGroupRecommendationOption_savingsOpportunity,
 
     -- * ContainerConfiguration
-    ContainerConfiguration (..),
+    ContainerConfiguration,
     newContainerConfiguration,
     containerConfiguration_containerName,
     containerConfiguration_cpu,
     containerConfiguration_memorySizeConfiguration,
 
     -- * ContainerRecommendation
-    ContainerRecommendation (..),
+    ContainerRecommendation,
     newContainerRecommendation,
     containerRecommendation_containerName,
     containerRecommendation_cpu,
     containerRecommendation_memorySizeConfiguration,
 
     -- * CurrentPerformanceRiskRatings
-    CurrentPerformanceRiskRatings (..),
+    CurrentPerformanceRiskRatings,
     newCurrentPerformanceRiskRatings,
     currentPerformanceRiskRatings_high,
     currentPerformanceRiskRatings_low,
@@ -231,20 +232,20 @@ module Amazonka.ComputeOptimizer.Types
     currentPerformanceRiskRatings_veryLow,
 
     -- * EBSFilter
-    EBSFilter (..),
+    EBSFilter,
     newEBSFilter,
     eBSFilter_name,
     eBSFilter_values,
 
     -- * EBSUtilizationMetric
-    EBSUtilizationMetric (..),
+    EBSUtilizationMetric,
     newEBSUtilizationMetric,
     eBSUtilizationMetric_name,
     eBSUtilizationMetric_statistic,
     eBSUtilizationMetric_value,
 
     -- * ECSServiceProjectedMetric
-    ECSServiceProjectedMetric (..),
+    ECSServiceProjectedMetric,
     newECSServiceProjectedMetric,
     eCSServiceProjectedMetric_lowerBoundValues,
     eCSServiceProjectedMetric_name,
@@ -252,7 +253,7 @@ module Amazonka.ComputeOptimizer.Types
     eCSServiceProjectedMetric_upperBoundValues,
 
     -- * ECSServiceProjectedUtilizationMetric
-    ECSServiceProjectedUtilizationMetric (..),
+    ECSServiceProjectedUtilizationMetric,
     newECSServiceProjectedUtilizationMetric,
     eCSServiceProjectedUtilizationMetric_lowerBoundValue,
     eCSServiceProjectedUtilizationMetric_name,
@@ -260,7 +261,7 @@ module Amazonka.ComputeOptimizer.Types
     eCSServiceProjectedUtilizationMetric_upperBoundValue,
 
     -- * ECSServiceRecommendation
-    ECSServiceRecommendation (..),
+    ECSServiceRecommendation,
     newECSServiceRecommendation,
     eCSServiceRecommendation_accountId,
     eCSServiceRecommendation_currentPerformanceRisk,
@@ -275,13 +276,13 @@ module Amazonka.ComputeOptimizer.Types
     eCSServiceRecommendation_utilizationMetrics,
 
     -- * ECSServiceRecommendationFilter
-    ECSServiceRecommendationFilter (..),
+    ECSServiceRecommendationFilter,
     newECSServiceRecommendationFilter,
     eCSServiceRecommendationFilter_name,
     eCSServiceRecommendationFilter_values,
 
     -- * ECSServiceRecommendationOption
-    ECSServiceRecommendationOption (..),
+    ECSServiceRecommendationOption,
     newECSServiceRecommendationOption,
     eCSServiceRecommendationOption_containerRecommendations,
     eCSServiceRecommendationOption_cpu,
@@ -290,21 +291,21 @@ module Amazonka.ComputeOptimizer.Types
     eCSServiceRecommendationOption_savingsOpportunity,
 
     -- * ECSServiceRecommendedOptionProjectedMetric
-    ECSServiceRecommendedOptionProjectedMetric (..),
+    ECSServiceRecommendedOptionProjectedMetric,
     newECSServiceRecommendedOptionProjectedMetric,
     eCSServiceRecommendedOptionProjectedMetric_projectedMetrics,
     eCSServiceRecommendedOptionProjectedMetric_recommendedCpuUnits,
     eCSServiceRecommendedOptionProjectedMetric_recommendedMemorySize,
 
     -- * ECSServiceUtilizationMetric
-    ECSServiceUtilizationMetric (..),
+    ECSServiceUtilizationMetric,
     newECSServiceUtilizationMetric,
     eCSServiceUtilizationMetric_name,
     eCSServiceUtilizationMetric_statistic,
     eCSServiceUtilizationMetric_value,
 
     -- * EffectiveRecommendationPreferences
-    EffectiveRecommendationPreferences (..),
+    EffectiveRecommendationPreferences,
     newEffectiveRecommendationPreferences,
     effectiveRecommendationPreferences_cpuVendorArchitectures,
     effectiveRecommendationPreferences_enhancedInfrastructureMetrics,
@@ -312,42 +313,42 @@ module Amazonka.ComputeOptimizer.Types
     effectiveRecommendationPreferences_inferredWorkloadTypes,
 
     -- * EnrollmentFilter
-    EnrollmentFilter (..),
+    EnrollmentFilter,
     newEnrollmentFilter,
     enrollmentFilter_name,
     enrollmentFilter_values,
 
     -- * EstimatedMonthlySavings
-    EstimatedMonthlySavings (..),
+    EstimatedMonthlySavings,
     newEstimatedMonthlySavings,
     estimatedMonthlySavings_currency,
     estimatedMonthlySavings_value,
 
     -- * ExportDestination
-    ExportDestination (..),
+    ExportDestination,
     newExportDestination,
     exportDestination_s3,
 
     -- * ExternalMetricsPreference
-    ExternalMetricsPreference (..),
+    ExternalMetricsPreference,
     newExternalMetricsPreference,
     externalMetricsPreference_source,
 
     -- * Filter
-    Filter (..),
+    Filter,
     newFilter,
     filter_name,
     filter_values,
 
     -- * GetRecommendationError
-    GetRecommendationError (..),
+    GetRecommendationError,
     newGetRecommendationError,
     getRecommendationError_code,
     getRecommendationError_identifier,
     getRecommendationError_message,
 
     -- * InstanceRecommendation
-    InstanceRecommendation (..),
+    InstanceRecommendation,
     newInstanceRecommendation,
     instanceRecommendation_accountId,
     instanceRecommendation_currentInstanceType,
@@ -365,7 +366,7 @@ module Amazonka.ComputeOptimizer.Types
     instanceRecommendation_utilizationMetrics,
 
     -- * InstanceRecommendationOption
-    InstanceRecommendationOption (..),
+    InstanceRecommendationOption,
     newInstanceRecommendationOption,
     instanceRecommendationOption_instanceType,
     instanceRecommendationOption_migrationEffort,
@@ -376,20 +377,20 @@ module Amazonka.ComputeOptimizer.Types
     instanceRecommendationOption_savingsOpportunity,
 
     -- * JobFilter
-    JobFilter (..),
+    JobFilter,
     newJobFilter,
     jobFilter_name,
     jobFilter_values,
 
     -- * LambdaFunctionMemoryProjectedMetric
-    LambdaFunctionMemoryProjectedMetric (..),
+    LambdaFunctionMemoryProjectedMetric,
     newLambdaFunctionMemoryProjectedMetric,
     lambdaFunctionMemoryProjectedMetric_name,
     lambdaFunctionMemoryProjectedMetric_statistic,
     lambdaFunctionMemoryProjectedMetric_value,
 
     -- * LambdaFunctionMemoryRecommendationOption
-    LambdaFunctionMemoryRecommendationOption (..),
+    LambdaFunctionMemoryRecommendationOption,
     newLambdaFunctionMemoryRecommendationOption,
     lambdaFunctionMemoryRecommendationOption_memorySize,
     lambdaFunctionMemoryRecommendationOption_projectedUtilizationMetrics,
@@ -397,7 +398,7 @@ module Amazonka.ComputeOptimizer.Types
     lambdaFunctionMemoryRecommendationOption_savingsOpportunity,
 
     -- * LambdaFunctionRecommendation
-    LambdaFunctionRecommendation (..),
+    LambdaFunctionRecommendation,
     newLambdaFunctionRecommendation,
     lambdaFunctionRecommendation_accountId,
     lambdaFunctionRecommendation_currentMemorySize,
@@ -413,39 +414,39 @@ module Amazonka.ComputeOptimizer.Types
     lambdaFunctionRecommendation_utilizationMetrics,
 
     -- * LambdaFunctionRecommendationFilter
-    LambdaFunctionRecommendationFilter (..),
+    LambdaFunctionRecommendationFilter,
     newLambdaFunctionRecommendationFilter,
     lambdaFunctionRecommendationFilter_name,
     lambdaFunctionRecommendationFilter_values,
 
     -- * LambdaFunctionUtilizationMetric
-    LambdaFunctionUtilizationMetric (..),
+    LambdaFunctionUtilizationMetric,
     newLambdaFunctionUtilizationMetric,
     lambdaFunctionUtilizationMetric_name,
     lambdaFunctionUtilizationMetric_statistic,
     lambdaFunctionUtilizationMetric_value,
 
     -- * MemorySizeConfiguration
-    MemorySizeConfiguration (..),
+    MemorySizeConfiguration,
     newMemorySizeConfiguration,
     memorySizeConfiguration_memory,
     memorySizeConfiguration_memoryReservation,
 
     -- * ProjectedMetric
-    ProjectedMetric (..),
+    ProjectedMetric,
     newProjectedMetric,
     projectedMetric_name,
     projectedMetric_timestamps,
     projectedMetric_values,
 
     -- * ReasonCodeSummary
-    ReasonCodeSummary (..),
+    ReasonCodeSummary,
     newReasonCodeSummary,
     reasonCodeSummary_name,
     reasonCodeSummary_value,
 
     -- * RecommendationExportJob
-    RecommendationExportJob (..),
+    RecommendationExportJob,
     newRecommendationExportJob,
     recommendationExportJob_creationTimestamp,
     recommendationExportJob_destination,
@@ -456,12 +457,12 @@ module Amazonka.ComputeOptimizer.Types
     recommendationExportJob_status,
 
     -- * RecommendationPreferences
-    RecommendationPreferences (..),
+    RecommendationPreferences,
     newRecommendationPreferences,
     recommendationPreferences_cpuVendorArchitectures,
 
     -- * RecommendationPreferencesDetail
-    RecommendationPreferencesDetail (..),
+    RecommendationPreferencesDetail,
     newRecommendationPreferencesDetail,
     recommendationPreferencesDetail_enhancedInfrastructureMetrics,
     recommendationPreferencesDetail_externalMetricsPreference,
@@ -470,13 +471,13 @@ module Amazonka.ComputeOptimizer.Types
     recommendationPreferencesDetail_scope,
 
     -- * RecommendationSource
-    RecommendationSource (..),
+    RecommendationSource,
     newRecommendationSource,
     recommendationSource_recommendationSourceArn,
     recommendationSource_recommendationSourceType,
 
     -- * RecommendationSummary
-    RecommendationSummary (..),
+    RecommendationSummary,
     newRecommendationSummary,
     recommendationSummary_accountId,
     recommendationSummary_currentPerformanceRiskRatings,
@@ -485,39 +486,39 @@ module Amazonka.ComputeOptimizer.Types
     recommendationSummary_summaries,
 
     -- * RecommendedOptionProjectedMetric
-    RecommendedOptionProjectedMetric (..),
+    RecommendedOptionProjectedMetric,
     newRecommendedOptionProjectedMetric,
     recommendedOptionProjectedMetric_projectedMetrics,
     recommendedOptionProjectedMetric_rank,
     recommendedOptionProjectedMetric_recommendedInstanceType,
 
     -- * S3Destination
-    S3Destination (..),
+    S3Destination,
     newS3Destination,
     s3Destination_bucket,
     s3Destination_key,
     s3Destination_metadataKey,
 
     -- * S3DestinationConfig
-    S3DestinationConfig (..),
+    S3DestinationConfig,
     newS3DestinationConfig,
     s3DestinationConfig_bucket,
     s3DestinationConfig_keyPrefix,
 
     -- * SavingsOpportunity
-    SavingsOpportunity (..),
+    SavingsOpportunity,
     newSavingsOpportunity,
     savingsOpportunity_estimatedMonthlySavings,
     savingsOpportunity_savingsOpportunityPercentage,
 
     -- * Scope
-    Scope (..),
+    Scope,
     newScope,
     scope_name,
     scope_value,
 
     -- * ServiceConfiguration
-    ServiceConfiguration (..),
+    ServiceConfiguration,
     newServiceConfiguration,
     serviceConfiguration_autoScalingConfiguration,
     serviceConfiguration_containerConfigurations,
@@ -526,21 +527,21 @@ module Amazonka.ComputeOptimizer.Types
     serviceConfiguration_taskDefinitionArn,
 
     -- * Summary
-    Summary (..),
+    Summary,
     newSummary,
     summary_name,
     summary_reasonCodeSummaries,
     summary_value,
 
     -- * UtilizationMetric
-    UtilizationMetric (..),
+    UtilizationMetric,
     newUtilizationMetric,
     utilizationMetric_name,
     utilizationMetric_statistic,
     utilizationMetric_value,
 
     -- * VolumeConfiguration
-    VolumeConfiguration (..),
+    VolumeConfiguration,
     newVolumeConfiguration,
     volumeConfiguration_volumeBaselineIOPS,
     volumeConfiguration_volumeBaselineThroughput,
@@ -550,7 +551,7 @@ module Amazonka.ComputeOptimizer.Types
     volumeConfiguration_volumeType,
 
     -- * VolumeRecommendation
-    VolumeRecommendation (..),
+    VolumeRecommendation,
     newVolumeRecommendation,
     volumeRecommendation_accountId,
     volumeRecommendation_currentConfiguration,
@@ -563,7 +564,7 @@ module Amazonka.ComputeOptimizer.Types
     volumeRecommendation_volumeRecommendationOptions,
 
     -- * VolumeRecommendationOption
-    VolumeRecommendationOption (..),
+    VolumeRecommendationOption,
     newVolumeRecommendationOption,
     volumeRecommendationOption_configuration,
     volumeRecommendationOption_performanceRisk,

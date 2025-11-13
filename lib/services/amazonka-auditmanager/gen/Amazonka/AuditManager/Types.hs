@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -26,91 +27,91 @@ module Amazonka.AuditManager.Types
     _ValidationException,
 
     -- * AccountStatus
-    AccountStatus (..),
+    AccountStatus,
 
     -- * ActionEnum
-    ActionEnum (..),
+    ActionEnum,
 
     -- * AssessmentReportDestinationType
-    AssessmentReportDestinationType (..),
+    AssessmentReportDestinationType,
 
     -- * AssessmentReportStatus
-    AssessmentReportStatus (..),
+    AssessmentReportStatus,
 
     -- * AssessmentStatus
-    AssessmentStatus (..),
+    AssessmentStatus,
 
     -- * ControlResponse
-    ControlResponse (..),
+    ControlResponse,
 
     -- * ControlSetStatus
-    ControlSetStatus (..),
+    ControlSetStatus,
 
     -- * ControlStatus
-    ControlStatus (..),
+    ControlStatus,
 
     -- * ControlType
-    ControlType (..),
+    ControlType,
 
     -- * DelegationStatus
-    DelegationStatus (..),
+    DelegationStatus,
 
     -- * DeleteResources
-    DeleteResources (..),
+    DeleteResources,
 
     -- * EvidenceFinderBackfillStatus
-    EvidenceFinderBackfillStatus (..),
+    EvidenceFinderBackfillStatus,
 
     -- * EvidenceFinderEnablementStatus
-    EvidenceFinderEnablementStatus (..),
+    EvidenceFinderEnablementStatus,
 
     -- * FrameworkType
-    FrameworkType (..),
+    FrameworkType,
 
     -- * KeywordInputType
-    KeywordInputType (..),
+    KeywordInputType,
 
     -- * ObjectTypeEnum
-    ObjectTypeEnum (..),
+    ObjectTypeEnum,
 
     -- * RoleType
-    RoleType (..),
+    RoleType,
 
     -- * SettingAttribute
-    SettingAttribute (..),
+    SettingAttribute,
 
     -- * ShareRequestAction
-    ShareRequestAction (..),
+    ShareRequestAction,
 
     -- * ShareRequestStatus
-    ShareRequestStatus (..),
+    ShareRequestStatus,
 
     -- * ShareRequestType
-    ShareRequestType (..),
+    ShareRequestType,
 
     -- * SourceFrequency
-    SourceFrequency (..),
+    SourceFrequency,
 
     -- * SourceSetUpOption
-    SourceSetUpOption (..),
+    SourceSetUpOption,
 
     -- * SourceType
-    SourceType (..),
+    SourceType,
 
     -- * AWSAccount
-    AWSAccount (..),
+    AWSAccount,
     newAWSAccount,
     aWSAccount_emailAddress,
     aWSAccount_id,
     aWSAccount_name,
 
     -- * AWSService
-    AWSService (..),
+    AWSService,
     newAWSService,
     aWSService_serviceName,
 
     -- * Assessment
-    Assessment (..),
+    Assessment,
     newAssessment,
     assessment_arn,
     assessment_awsAccount,
@@ -119,7 +120,7 @@ module Amazonka.AuditManager.Types
     assessment_tags,
 
     -- * AssessmentControl
-    AssessmentControl (..),
+    AssessmentControl,
     newAssessmentControl,
     assessmentControl_assessmentReportEvidenceCount,
     assessmentControl_comments,
@@ -132,7 +133,7 @@ module Amazonka.AuditManager.Types
     assessmentControl_status,
 
     -- * AssessmentControlSet
-    AssessmentControlSet (..),
+    AssessmentControlSet,
     newAssessmentControlSet,
     assessmentControlSet_controls,
     assessmentControlSet_delegations,
@@ -144,7 +145,7 @@ module Amazonka.AuditManager.Types
     assessmentControlSet_systemEvidenceCount,
 
     -- * AssessmentEvidenceFolder
-    AssessmentEvidenceFolder (..),
+    AssessmentEvidenceFolder,
     newAssessmentEvidenceFolder,
     assessmentEvidenceFolder_assessmentId,
     assessmentEvidenceFolder_assessmentReportSelectionCount,
@@ -166,7 +167,7 @@ module Amazonka.AuditManager.Types
     assessmentEvidenceFolder_totalEvidence,
 
     -- * AssessmentFramework
-    AssessmentFramework (..),
+    AssessmentFramework,
     newAssessmentFramework,
     assessmentFramework_arn,
     assessmentFramework_controlSets,
@@ -174,7 +175,7 @@ module Amazonka.AuditManager.Types
     assessmentFramework_metadata,
 
     -- * AssessmentFrameworkMetadata
-    AssessmentFrameworkMetadata (..),
+    AssessmentFrameworkMetadata,
     newAssessmentFrameworkMetadata,
     assessmentFrameworkMetadata_arn,
     assessmentFrameworkMetadata_complianceType,
@@ -189,7 +190,7 @@ module Amazonka.AuditManager.Types
     assessmentFrameworkMetadata_type,
 
     -- * AssessmentFrameworkShareRequest
-    AssessmentFrameworkShareRequest (..),
+    AssessmentFrameworkShareRequest,
     newAssessmentFrameworkShareRequest,
     assessmentFrameworkShareRequest_comment,
     assessmentFrameworkShareRequest_complianceType,
@@ -208,7 +209,7 @@ module Amazonka.AuditManager.Types
     assessmentFrameworkShareRequest_status,
 
     -- * AssessmentMetadata
-    AssessmentMetadata (..),
+    AssessmentMetadata,
     newAssessmentMetadata,
     assessmentMetadata_assessmentReportsDestination,
     assessmentMetadata_complianceType,
@@ -223,7 +224,7 @@ module Amazonka.AuditManager.Types
     assessmentMetadata_status,
 
     -- * AssessmentMetadataItem
-    AssessmentMetadataItem (..),
+    AssessmentMetadataItem,
     newAssessmentMetadataItem,
     assessmentMetadataItem_complianceType,
     assessmentMetadataItem_creationTime,
@@ -235,7 +236,7 @@ module Amazonka.AuditManager.Types
     assessmentMetadataItem_status,
 
     -- * AssessmentReport
-    AssessmentReport (..),
+    AssessmentReport,
     newAssessmentReport,
     assessmentReport_assessmentId,
     assessmentReport_assessmentName,
@@ -248,14 +249,14 @@ module Amazonka.AuditManager.Types
     assessmentReport_status,
 
     -- * AssessmentReportEvidenceError
-    AssessmentReportEvidenceError (..),
+    AssessmentReportEvidenceError,
     newAssessmentReportEvidenceError,
     assessmentReportEvidenceError_errorCode,
     assessmentReportEvidenceError_errorMessage,
     assessmentReportEvidenceError_evidenceId,
 
     -- * AssessmentReportMetadata
-    AssessmentReportMetadata (..),
+    AssessmentReportMetadata,
     newAssessmentReportMetadata,
     assessmentReportMetadata_assessmentId,
     assessmentReportMetadata_assessmentName,
@@ -267,34 +268,34 @@ module Amazonka.AuditManager.Types
     assessmentReportMetadata_status,
 
     -- * AssessmentReportsDestination
-    AssessmentReportsDestination (..),
+    AssessmentReportsDestination,
     newAssessmentReportsDestination,
     assessmentReportsDestination_destination,
     assessmentReportsDestination_destinationType,
 
     -- * BatchCreateDelegationByAssessmentError
-    BatchCreateDelegationByAssessmentError (..),
+    BatchCreateDelegationByAssessmentError,
     newBatchCreateDelegationByAssessmentError,
     batchCreateDelegationByAssessmentError_createDelegationRequest,
     batchCreateDelegationByAssessmentError_errorCode,
     batchCreateDelegationByAssessmentError_errorMessage,
 
     -- * BatchDeleteDelegationByAssessmentError
-    BatchDeleteDelegationByAssessmentError (..),
+    BatchDeleteDelegationByAssessmentError,
     newBatchDeleteDelegationByAssessmentError,
     batchDeleteDelegationByAssessmentError_delegationId,
     batchDeleteDelegationByAssessmentError_errorCode,
     batchDeleteDelegationByAssessmentError_errorMessage,
 
     -- * BatchImportEvidenceToAssessmentControlError
-    BatchImportEvidenceToAssessmentControlError (..),
+    BatchImportEvidenceToAssessmentControlError,
     newBatchImportEvidenceToAssessmentControlError,
     batchImportEvidenceToAssessmentControlError_errorCode,
     batchImportEvidenceToAssessmentControlError_errorMessage,
     batchImportEvidenceToAssessmentControlError_manualEvidence,
 
     -- * ChangeLog
-    ChangeLog (..),
+    ChangeLog,
     newChangeLog,
     changeLog_action,
     changeLog_createdAt,
@@ -303,7 +304,7 @@ module Amazonka.AuditManager.Types
     changeLog_objectType,
 
     -- * Control
-    Control (..),
+    Control,
     newControl,
     control_actionPlanInstructions,
     control_actionPlanTitle,
@@ -322,14 +323,14 @@ module Amazonka.AuditManager.Types
     control_type,
 
     -- * ControlComment
-    ControlComment (..),
+    ControlComment,
     newControlComment,
     controlComment_authorName,
     controlComment_commentBody,
     controlComment_postedDate,
 
     -- * ControlDomainInsights
-    ControlDomainInsights (..),
+    ControlDomainInsights,
     newControlDomainInsights,
     controlDomainInsights_controlsCountByNoncompliantEvidence,
     controlDomainInsights_evidenceInsights,
@@ -339,7 +340,7 @@ module Amazonka.AuditManager.Types
     controlDomainInsights_totalControlsCount,
 
     -- * ControlInsightsMetadataByAssessmentItem
-    ControlInsightsMetadataByAssessmentItem (..),
+    ControlInsightsMetadataByAssessmentItem,
     newControlInsightsMetadataByAssessmentItem,
     controlInsightsMetadataByAssessmentItem_controlSetName,
     controlInsightsMetadataByAssessmentItem_evidenceInsights,
@@ -348,7 +349,7 @@ module Amazonka.AuditManager.Types
     controlInsightsMetadataByAssessmentItem_name,
 
     -- * ControlInsightsMetadataItem
-    ControlInsightsMetadataItem (..),
+    ControlInsightsMetadataItem,
     newControlInsightsMetadataItem,
     controlInsightsMetadataItem_evidenceInsights,
     controlInsightsMetadataItem_id,
@@ -356,7 +357,7 @@ module Amazonka.AuditManager.Types
     controlInsightsMetadataItem_name,
 
     -- * ControlMappingSource
-    ControlMappingSource (..),
+    ControlMappingSource,
     newControlMappingSource,
     controlMappingSource_sourceDescription,
     controlMappingSource_sourceFrequency,
@@ -368,7 +369,7 @@ module Amazonka.AuditManager.Types
     controlMappingSource_troubleshootingText,
 
     -- * ControlMetadata
-    ControlMetadata (..),
+    ControlMetadata,
     newControlMetadata,
     controlMetadata_arn,
     controlMetadata_controlSources,
@@ -378,25 +379,25 @@ module Amazonka.AuditManager.Types
     controlMetadata_name,
 
     -- * ControlSet
-    ControlSet (..),
+    ControlSet,
     newControlSet,
     controlSet_controls,
     controlSet_id,
     controlSet_name,
 
     -- * CreateAssessmentFrameworkControl
-    CreateAssessmentFrameworkControl (..),
+    CreateAssessmentFrameworkControl,
     newCreateAssessmentFrameworkControl,
     createAssessmentFrameworkControl_id,
 
     -- * CreateAssessmentFrameworkControlSet
-    CreateAssessmentFrameworkControlSet (..),
+    CreateAssessmentFrameworkControlSet,
     newCreateAssessmentFrameworkControlSet,
     createAssessmentFrameworkControlSet_controls,
     createAssessmentFrameworkControlSet_name,
 
     -- * CreateControlMappingSource
-    CreateControlMappingSource (..),
+    CreateControlMappingSource,
     newCreateControlMappingSource,
     createControlMappingSource_sourceDescription,
     createControlMappingSource_sourceFrequency,
@@ -407,7 +408,7 @@ module Amazonka.AuditManager.Types
     createControlMappingSource_troubleshootingText,
 
     -- * CreateDelegationRequest
-    CreateDelegationRequest (..),
+    CreateDelegationRequest,
     newCreateDelegationRequest,
     createDelegationRequest_comment,
     createDelegationRequest_controlSetId,
@@ -415,7 +416,7 @@ module Amazonka.AuditManager.Types
     createDelegationRequest_roleType,
 
     -- * Delegation
-    Delegation (..),
+    Delegation,
     newDelegation,
     delegation_assessmentId,
     delegation_assessmentName,
@@ -430,7 +431,7 @@ module Amazonka.AuditManager.Types
     delegation_status,
 
     -- * DelegationMetadata
-    DelegationMetadata (..),
+    DelegationMetadata,
     newDelegationMetadata,
     delegationMetadata_assessmentId,
     delegationMetadata_assessmentName,
@@ -441,12 +442,12 @@ module Amazonka.AuditManager.Types
     delegationMetadata_status,
 
     -- * DeregistrationPolicy
-    DeregistrationPolicy (..),
+    DeregistrationPolicy,
     newDeregistrationPolicy,
     deregistrationPolicy_deleteResources,
 
     -- * Evidence
-    Evidence (..),
+    Evidence,
     newEvidence,
     evidence_assessmentReportSelection,
     evidence_attributes,
@@ -465,7 +466,7 @@ module Amazonka.AuditManager.Types
     evidence_time,
 
     -- * EvidenceFinderEnablement
-    EvidenceFinderEnablement (..),
+    EvidenceFinderEnablement,
     newEvidenceFinderEnablement,
     evidenceFinderEnablement_backfillStatus,
     evidenceFinderEnablement_enablementStatus,
@@ -473,14 +474,14 @@ module Amazonka.AuditManager.Types
     evidenceFinderEnablement_eventDataStoreArn,
 
     -- * EvidenceInsights
-    EvidenceInsights (..),
+    EvidenceInsights,
     newEvidenceInsights,
     evidenceInsights_compliantEvidenceCount,
     evidenceInsights_inconclusiveEvidenceCount,
     evidenceInsights_noncompliantEvidenceCount,
 
     -- * Framework
-    Framework (..),
+    Framework,
     newFramework,
     framework_arn,
     framework_complianceType,
@@ -498,7 +499,7 @@ module Amazonka.AuditManager.Types
     framework_type,
 
     -- * FrameworkMetadata
-    FrameworkMetadata (..),
+    FrameworkMetadata,
     newFrameworkMetadata,
     frameworkMetadata_complianceType,
     frameworkMetadata_description,
@@ -506,7 +507,7 @@ module Amazonka.AuditManager.Types
     frameworkMetadata_name,
 
     -- * Insights
-    Insights (..),
+    Insights,
     newInsights,
     insights_activeAssessmentsCount,
     insights_assessmentControlsCountByNoncompliantEvidence,
@@ -517,7 +518,7 @@ module Amazonka.AuditManager.Types
     insights_totalAssessmentControlsCount,
 
     -- * InsightsByAssessment
-    InsightsByAssessment (..),
+    InsightsByAssessment,
     newInsightsByAssessment,
     insightsByAssessment_assessmentControlsCountByNoncompliantEvidence,
     insightsByAssessment_compliantEvidenceCount,
@@ -527,12 +528,12 @@ module Amazonka.AuditManager.Types
     insightsByAssessment_totalAssessmentControlsCount,
 
     -- * ManualEvidence
-    ManualEvidence (..),
+    ManualEvidence,
     newManualEvidence,
     manualEvidence_s3ResourcePath,
 
     -- * Notification
-    Notification (..),
+    Notification,
     newNotification,
     notification_assessmentId,
     notification_assessmentName,
@@ -544,26 +545,26 @@ module Amazonka.AuditManager.Types
     notification_source,
 
     -- * Resource
-    Resource (..),
+    Resource,
     newResource,
     resource_arn,
     resource_complianceCheck,
     resource_value,
 
     -- * Role
-    Role (..),
+    Role,
     newRole,
     role_roleType,
     role_roleArn,
 
     -- * Scope
-    Scope (..),
+    Scope,
     newScope,
     scope_awsAccounts,
     scope_awsServices,
 
     -- * ServiceMetadata
-    ServiceMetadata (..),
+    ServiceMetadata,
     newServiceMetadata,
     serviceMetadata_category,
     serviceMetadata_description,
@@ -571,7 +572,7 @@ module Amazonka.AuditManager.Types
     serviceMetadata_name,
 
     -- * Settings
-    Settings (..),
+    Settings,
     newSettings,
     settings_defaultAssessmentReportsDestination,
     settings_defaultProcessOwners,
@@ -582,19 +583,19 @@ module Amazonka.AuditManager.Types
     settings_snsTopic,
 
     -- * SourceKeyword
-    SourceKeyword (..),
+    SourceKeyword,
     newSourceKeyword,
     sourceKeyword_keywordInputType,
     sourceKeyword_keywordValue,
 
     -- * URL
-    URL (..),
+    URL,
     newURL,
     url_hyperlinkName,
     url_link,
 
     -- * UpdateAssessmentFrameworkControlSet
-    UpdateAssessmentFrameworkControlSet (..),
+    UpdateAssessmentFrameworkControlSet,
     newUpdateAssessmentFrameworkControlSet,
     updateAssessmentFrameworkControlSet_id,
     updateAssessmentFrameworkControlSet_name,

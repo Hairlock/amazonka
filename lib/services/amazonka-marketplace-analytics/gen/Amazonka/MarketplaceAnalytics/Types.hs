@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -21,10 +22,10 @@ module Amazonka.MarketplaceAnalytics.Types
     _MarketplaceCommerceAnalyticsException,
 
     -- * DataSetType
-    DataSetType (..),
+    DataSetType,
 
     -- * SupportDataSetType
-    SupportDataSetType (..),
+    SupportDataSetType,
   )
 where
 

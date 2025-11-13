@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -27,82 +28,82 @@ module Amazonka.ResilienceHub.Types
     _ValidationException,
 
     -- * AlarmType
-    AlarmType (..),
+    AlarmType,
 
     -- * AppAssessmentScheduleType
-    AppAssessmentScheduleType (..),
+    AppAssessmentScheduleType,
 
     -- * AppComplianceStatusType
-    AppComplianceStatusType (..),
+    AppComplianceStatusType,
 
     -- * AppStatusType
-    AppStatusType (..),
+    AppStatusType,
 
     -- * AssessmentInvoker
-    AssessmentInvoker (..),
+    AssessmentInvoker,
 
     -- * AssessmentStatus
-    AssessmentStatus (..),
+    AssessmentStatus,
 
     -- * ComplianceStatus
-    ComplianceStatus (..),
+    ComplianceStatus,
 
     -- * ConfigRecommendationOptimizationType
-    ConfigRecommendationOptimizationType (..),
+    ConfigRecommendationOptimizationType,
 
     -- * CostFrequency
-    CostFrequency (..),
+    CostFrequency,
 
     -- * DataLocationConstraint
-    DataLocationConstraint (..),
+    DataLocationConstraint,
 
     -- * DisruptionType
-    DisruptionType (..),
+    DisruptionType,
 
     -- * EstimatedCostTier
-    EstimatedCostTier (..),
+    EstimatedCostTier,
 
     -- * HaArchitecture
-    HaArchitecture (..),
+    HaArchitecture,
 
     -- * PhysicalIdentifierType
-    PhysicalIdentifierType (..),
+    PhysicalIdentifierType,
 
     -- * RecommendationComplianceStatus
-    RecommendationComplianceStatus (..),
+    RecommendationComplianceStatus,
 
     -- * RecommendationTemplateStatus
-    RecommendationTemplateStatus (..),
+    RecommendationTemplateStatus,
 
     -- * RenderRecommendationType
-    RenderRecommendationType (..),
+    RenderRecommendationType,
 
     -- * ResiliencyPolicyTier
-    ResiliencyPolicyTier (..),
+    ResiliencyPolicyTier,
 
     -- * ResourceImportStatusType
-    ResourceImportStatusType (..),
+    ResourceImportStatusType,
 
     -- * ResourceMappingType
-    ResourceMappingType (..),
+    ResourceMappingType,
 
     -- * ResourceResolutionStatusType
-    ResourceResolutionStatusType (..),
+    ResourceResolutionStatusType,
 
     -- * SopServiceType
-    SopServiceType (..),
+    SopServiceType,
 
     -- * TemplateFormat
-    TemplateFormat (..),
+    TemplateFormat,
 
     -- * TestRisk
-    TestRisk (..),
+    TestRisk,
 
     -- * TestType
-    TestType (..),
+    TestType,
 
     -- * AlarmRecommendation
-    AlarmRecommendation (..),
+    AlarmRecommendation,
     newAlarmRecommendation,
     alarmRecommendation_appComponentName,
     alarmRecommendation_description,
@@ -114,7 +115,7 @@ module Amazonka.ResilienceHub.Types
     alarmRecommendation_type,
 
     -- * App
-    App (..),
+    App,
     newApp,
     app_assessmentSchedule,
     app_complianceStatus,
@@ -130,7 +131,7 @@ module Amazonka.ResilienceHub.Types
     app_name,
 
     -- * AppAssessment
-    AppAssessment (..),
+    AppAssessment,
     newAppAssessment,
     appAssessment_appArn,
     appAssessment_appVersion,
@@ -150,7 +151,7 @@ module Amazonka.ResilienceHub.Types
     appAssessment_invoker,
 
     -- * AppAssessmentSummary
-    AppAssessmentSummary (..),
+    AppAssessmentSummary,
     newAppAssessmentSummary,
     appAssessmentSummary_appArn,
     appAssessmentSummary_appVersion,
@@ -166,13 +167,13 @@ module Amazonka.ResilienceHub.Types
     appAssessmentSummary_assessmentStatus,
 
     -- * AppComponent
-    AppComponent (..),
+    AppComponent,
     newAppComponent,
     appComponent_name,
     appComponent_type,
 
     -- * AppComponentCompliance
-    AppComponentCompliance (..),
+    AppComponentCompliance,
     newAppComponentCompliance,
     appComponentCompliance_appComponentName,
     appComponentCompliance_compliance,
@@ -182,7 +183,7 @@ module Amazonka.ResilienceHub.Types
     appComponentCompliance_status,
 
     -- * AppSummary
-    AppSummary (..),
+    AppSummary,
     newAppSummary,
     appSummary_assessmentSchedule,
     appSummary_complianceStatus,
@@ -194,19 +195,19 @@ module Amazonka.ResilienceHub.Types
     appSummary_name,
 
     -- * AppVersionSummary
-    AppVersionSummary (..),
+    AppVersionSummary,
     newAppVersionSummary,
     appVersionSummary_appVersion,
 
     -- * ComponentRecommendation
-    ComponentRecommendation (..),
+    ComponentRecommendation,
     newComponentRecommendation,
     componentRecommendation_appComponentName,
     componentRecommendation_configRecommendations,
     componentRecommendation_recommendationStatus,
 
     -- * ConfigRecommendation
-    ConfigRecommendation (..),
+    ConfigRecommendation,
     newConfigRecommendation,
     configRecommendation_appComponentName,
     configRecommendation_compliance,
@@ -220,14 +221,14 @@ module Amazonka.ResilienceHub.Types
     configRecommendation_referenceId,
 
     -- * Cost
-    Cost (..),
+    Cost,
     newCost,
     cost_amount,
     cost_currency,
     cost_frequency,
 
     -- * DisruptionCompliance
-    DisruptionCompliance (..),
+    DisruptionCompliance,
     newDisruptionCompliance,
     disruptionCompliance_achievableRpoInSecs,
     disruptionCompliance_achievableRtoInSecs,
@@ -241,13 +242,13 @@ module Amazonka.ResilienceHub.Types
     disruptionCompliance_complianceStatus,
 
     -- * FailurePolicy
-    FailurePolicy (..),
+    FailurePolicy,
     newFailurePolicy,
     failurePolicy_rpoInSecs,
     failurePolicy_rtoInSecs,
 
     -- * LogicalResourceId
-    LogicalResourceId (..),
+    LogicalResourceId,
     newLogicalResourceId,
     logicalResourceId_logicalStackName,
     logicalResourceId_resourceGroupName,
@@ -255,7 +256,7 @@ module Amazonka.ResilienceHub.Types
     logicalResourceId_identifier,
 
     -- * PhysicalResource
-    PhysicalResource (..),
+    PhysicalResource,
     newPhysicalResource,
     physicalResource_appComponents,
     physicalResource_resourceName,
@@ -264,7 +265,7 @@ module Amazonka.ResilienceHub.Types
     physicalResource_resourceType,
 
     -- * PhysicalResourceId
-    PhysicalResourceId (..),
+    PhysicalResourceId,
     newPhysicalResourceId,
     physicalResourceId_awsAccountId,
     physicalResourceId_awsRegion,
@@ -272,7 +273,7 @@ module Amazonka.ResilienceHub.Types
     physicalResourceId_type,
 
     -- * RecommendationDisruptionCompliance
-    RecommendationDisruptionCompliance (..),
+    RecommendationDisruptionCompliance,
     newRecommendationDisruptionCompliance,
     recommendationDisruptionCompliance_expectedRpoDescription,
     recommendationDisruptionCompliance_expectedRpoInSecs,
@@ -281,7 +282,7 @@ module Amazonka.ResilienceHub.Types
     recommendationDisruptionCompliance_expectedComplianceStatus,
 
     -- * RecommendationItem
-    RecommendationItem (..),
+    RecommendationItem,
     newRecommendationItem,
     recommendationItem_alreadyImplemented,
     recommendationItem_resourceId,
@@ -289,7 +290,7 @@ module Amazonka.ResilienceHub.Types
     recommendationItem_targetRegion,
 
     -- * RecommendationTemplate
-    RecommendationTemplate (..),
+    RecommendationTemplate,
     newRecommendationTemplate,
     recommendationTemplate_appArn,
     recommendationTemplate_endTime,
@@ -307,7 +308,7 @@ module Amazonka.ResilienceHub.Types
     recommendationTemplate_status,
 
     -- * ResiliencyPolicy
-    ResiliencyPolicy (..),
+    ResiliencyPolicy,
     newResiliencyPolicy,
     resiliencyPolicy_creationTime,
     resiliencyPolicy_dataLocationConstraint,
@@ -320,26 +321,26 @@ module Amazonka.ResilienceHub.Types
     resiliencyPolicy_tier,
 
     -- * ResiliencyScore
-    ResiliencyScore (..),
+    ResiliencyScore,
     newResiliencyScore,
     resiliencyScore_disruptionScore,
     resiliencyScore_score,
 
     -- * ResourceError
-    ResourceError (..),
+    ResourceError,
     newResourceError,
     resourceError_logicalResourceId,
     resourceError_physicalResourceId,
     resourceError_reason,
 
     -- * ResourceErrorsDetails
-    ResourceErrorsDetails (..),
+    ResourceErrorsDetails,
     newResourceErrorsDetails,
     resourceErrorsDetails_hasMoreErrors,
     resourceErrorsDetails_resourceErrors,
 
     -- * ResourceMapping
-    ResourceMapping (..),
+    ResourceMapping,
     newResourceMapping,
     resourceMapping_appRegistryAppName,
     resourceMapping_logicalStackName,
@@ -350,13 +351,13 @@ module Amazonka.ResilienceHub.Types
     resourceMapping_physicalResourceId,
 
     -- * S3Location
-    S3Location (..),
+    S3Location,
     newS3Location,
     s3Location_bucket,
     s3Location_prefix,
 
     -- * SopRecommendation
-    SopRecommendation (..),
+    SopRecommendation,
     newSopRecommendation,
     sopRecommendation_appComponentName,
     sopRecommendation_description,
@@ -368,12 +369,12 @@ module Amazonka.ResilienceHub.Types
     sopRecommendation_serviceType,
 
     -- * TerraformSource
-    TerraformSource (..),
+    TerraformSource,
     newTerraformSource,
     terraformSource_s3StateFileUrl,
 
     -- * TestRecommendation
-    TestRecommendation (..),
+    TestRecommendation,
     newTestRecommendation,
     testRecommendation_appComponentName,
     testRecommendation_dependsOnAlarms,
@@ -388,7 +389,7 @@ module Amazonka.ResilienceHub.Types
     testRecommendation_referenceId,
 
     -- * UnsupportedResource
-    UnsupportedResource (..),
+    UnsupportedResource,
     newUnsupportedResource,
     unsupportedResource_logicalResourceId,
     unsupportedResource_physicalResourceId,

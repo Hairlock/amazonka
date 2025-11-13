@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -24,28 +25,28 @@ module Amazonka.CostAndUsageReport.Types
     _ValidationException,
 
     -- * AWSRegion
-    AWSRegion (..),
+    AWSRegion,
 
     -- * AdditionalArtifact
-    AdditionalArtifact (..),
+    AdditionalArtifact,
 
     -- * CompressionFormat
-    CompressionFormat (..),
+    CompressionFormat,
 
     -- * ReportFormat
-    ReportFormat (..),
+    ReportFormat,
 
     -- * ReportVersioning
-    ReportVersioning (..),
+    ReportVersioning,
 
     -- * SchemaElement
-    SchemaElement (..),
+    SchemaElement,
 
     -- * TimeUnit
-    TimeUnit (..),
+    TimeUnit,
 
     -- * ReportDefinition
-    ReportDefinition (..),
+    ReportDefinition,
     newReportDefinition,
     reportDefinition_additionalArtifacts,
     reportDefinition_billingViewArn,

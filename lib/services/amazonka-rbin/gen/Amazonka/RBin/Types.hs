@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -25,39 +26,39 @@ module Amazonka.RBin.Types
     _ValidationException,
 
     -- * LockState
-    LockState (..),
+    LockState,
 
     -- * ResourceType
-    ResourceType (..),
+    ResourceType,
 
     -- * RetentionPeriodUnit
-    RetentionPeriodUnit (..),
+    RetentionPeriodUnit,
 
     -- * RuleStatus
-    RuleStatus (..),
+    RuleStatus,
 
     -- * UnlockDelayUnit
-    UnlockDelayUnit (..),
+    UnlockDelayUnit,
 
     -- * LockConfiguration
-    LockConfiguration (..),
+    LockConfiguration,
     newLockConfiguration,
     lockConfiguration_unlockDelay,
 
     -- * ResourceTag
-    ResourceTag (..),
+    ResourceTag,
     newResourceTag,
     resourceTag_resourceTagValue,
     resourceTag_resourceTagKey,
 
     -- * RetentionPeriod
-    RetentionPeriod (..),
+    RetentionPeriod,
     newRetentionPeriod,
     retentionPeriod_retentionPeriodValue,
     retentionPeriod_retentionPeriodUnit,
 
     -- * RuleSummary
-    RuleSummary (..),
+    RuleSummary,
     newRuleSummary,
     ruleSummary_description,
     ruleSummary_identifier,
@@ -65,13 +66,13 @@ module Amazonka.RBin.Types
     ruleSummary_retentionPeriod,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,
 
     -- * UnlockDelay
-    UnlockDelay (..),
+    UnlockDelay,
     newUnlockDelay,
     unlockDelay_unlockDelayValue,
     unlockDelay_unlockDelayUnit,

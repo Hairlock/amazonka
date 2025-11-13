@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -31,55 +32,55 @@ module Amazonka.CloudWatchEvents.Types
     _ResourceNotFoundException,
 
     -- * ApiDestinationHttpMethod
-    ApiDestinationHttpMethod (..),
+    ApiDestinationHttpMethod,
 
     -- * ApiDestinationState
-    ApiDestinationState (..),
+    ApiDestinationState,
 
     -- * ArchiveState
-    ArchiveState (..),
+    ArchiveState,
 
     -- * AssignPublicIp
-    AssignPublicIp (..),
+    AssignPublicIp,
 
     -- * ConnectionAuthorizationType
-    ConnectionAuthorizationType (..),
+    ConnectionAuthorizationType,
 
     -- * ConnectionOAuthHttpMethod
-    ConnectionOAuthHttpMethod (..),
+    ConnectionOAuthHttpMethod,
 
     -- * ConnectionState
-    ConnectionState (..),
+    ConnectionState,
 
     -- * EndpointState
-    EndpointState (..),
+    EndpointState,
 
     -- * EventSourceState
-    EventSourceState (..),
+    EventSourceState,
 
     -- * LaunchType
-    LaunchType (..),
+    LaunchType,
 
     -- * PlacementConstraintType
-    PlacementConstraintType (..),
+    PlacementConstraintType,
 
     -- * PlacementStrategyType
-    PlacementStrategyType (..),
+    PlacementStrategyType,
 
     -- * PropagateTags
-    PropagateTags (..),
+    PropagateTags,
 
     -- * ReplayState
-    ReplayState (..),
+    ReplayState,
 
     -- * ReplicationState
-    ReplicationState (..),
+    ReplicationState,
 
     -- * RuleState
-    RuleState (..),
+    RuleState,
 
     -- * ApiDestination
-    ApiDestination (..),
+    ApiDestination,
     newApiDestination,
     apiDestination_apiDestinationArn,
     apiDestination_apiDestinationState,
@@ -92,7 +93,7 @@ module Amazonka.CloudWatchEvents.Types
     apiDestination_name,
 
     -- * Archive
-    Archive (..),
+    Archive,
     newArchive,
     archive_archiveName,
     archive_creationTime,
@@ -104,19 +105,19 @@ module Amazonka.CloudWatchEvents.Types
     archive_stateReason,
 
     -- * AwsVpcConfiguration
-    AwsVpcConfiguration (..),
+    AwsVpcConfiguration,
     newAwsVpcConfiguration,
     awsVpcConfiguration_assignPublicIp,
     awsVpcConfiguration_securityGroups,
     awsVpcConfiguration_subnets,
 
     -- * BatchArrayProperties
-    BatchArrayProperties (..),
+    BatchArrayProperties,
     newBatchArrayProperties,
     batchArrayProperties_size,
 
     -- * BatchParameters
-    BatchParameters (..),
+    BatchParameters,
     newBatchParameters,
     batchParameters_arrayProperties,
     batchParameters_retryStrategy,
@@ -124,26 +125,26 @@ module Amazonka.CloudWatchEvents.Types
     batchParameters_jobName,
 
     -- * BatchRetryStrategy
-    BatchRetryStrategy (..),
+    BatchRetryStrategy,
     newBatchRetryStrategy,
     batchRetryStrategy_attempts,
 
     -- * CapacityProviderStrategyItem
-    CapacityProviderStrategyItem (..),
+    CapacityProviderStrategyItem,
     newCapacityProviderStrategyItem,
     capacityProviderStrategyItem_base,
     capacityProviderStrategyItem_weight,
     capacityProviderStrategyItem_capacityProvider,
 
     -- * Condition
-    Condition (..),
+    Condition,
     newCondition,
     condition_type,
     condition_key,
     condition_value,
 
     -- * Connection
-    Connection (..),
+    Connection,
     newConnection,
     connection_authorizationType,
     connection_connectionArn,
@@ -155,12 +156,12 @@ module Amazonka.CloudWatchEvents.Types
     connection_stateReason,
 
     -- * ConnectionApiKeyAuthResponseParameters
-    ConnectionApiKeyAuthResponseParameters (..),
+    ConnectionApiKeyAuthResponseParameters,
     newConnectionApiKeyAuthResponseParameters,
     connectionApiKeyAuthResponseParameters_apiKeyName,
 
     -- * ConnectionAuthResponseParameters
-    ConnectionAuthResponseParameters (..),
+    ConnectionAuthResponseParameters,
     newConnectionAuthResponseParameters,
     connectionAuthResponseParameters_apiKeyAuthParameters,
     connectionAuthResponseParameters_basicAuthParameters,
@@ -168,38 +169,38 @@ module Amazonka.CloudWatchEvents.Types
     connectionAuthResponseParameters_oAuthParameters,
 
     -- * ConnectionBasicAuthResponseParameters
-    ConnectionBasicAuthResponseParameters (..),
+    ConnectionBasicAuthResponseParameters,
     newConnectionBasicAuthResponseParameters,
     connectionBasicAuthResponseParameters_username,
 
     -- * ConnectionBodyParameter
-    ConnectionBodyParameter (..),
+    ConnectionBodyParameter,
     newConnectionBodyParameter,
     connectionBodyParameter_isValueSecret,
     connectionBodyParameter_key,
     connectionBodyParameter_value,
 
     -- * ConnectionHeaderParameter
-    ConnectionHeaderParameter (..),
+    ConnectionHeaderParameter,
     newConnectionHeaderParameter,
     connectionHeaderParameter_isValueSecret,
     connectionHeaderParameter_key,
     connectionHeaderParameter_value,
 
     -- * ConnectionHttpParameters
-    ConnectionHttpParameters (..),
+    ConnectionHttpParameters,
     newConnectionHttpParameters,
     connectionHttpParameters_bodyParameters,
     connectionHttpParameters_headerParameters,
     connectionHttpParameters_queryStringParameters,
 
     -- * ConnectionOAuthClientResponseParameters
-    ConnectionOAuthClientResponseParameters (..),
+    ConnectionOAuthClientResponseParameters,
     newConnectionOAuthClientResponseParameters,
     connectionOAuthClientResponseParameters_clientID,
 
     -- * ConnectionOAuthResponseParameters
-    ConnectionOAuthResponseParameters (..),
+    ConnectionOAuthResponseParameters,
     newConnectionOAuthResponseParameters,
     connectionOAuthResponseParameters_authorizationEndpoint,
     connectionOAuthResponseParameters_clientParameters,
@@ -207,20 +208,20 @@ module Amazonka.CloudWatchEvents.Types
     connectionOAuthResponseParameters_oAuthHttpParameters,
 
     -- * ConnectionQueryStringParameter
-    ConnectionQueryStringParameter (..),
+    ConnectionQueryStringParameter,
     newConnectionQueryStringParameter,
     connectionQueryStringParameter_isValueSecret,
     connectionQueryStringParameter_key,
     connectionQueryStringParameter_value,
 
     -- * CreateConnectionApiKeyAuthRequestParameters
-    CreateConnectionApiKeyAuthRequestParameters (..),
+    CreateConnectionApiKeyAuthRequestParameters,
     newCreateConnectionApiKeyAuthRequestParameters,
     createConnectionApiKeyAuthRequestParameters_apiKeyName,
     createConnectionApiKeyAuthRequestParameters_apiKeyValue,
 
     -- * CreateConnectionAuthRequestParameters
-    CreateConnectionAuthRequestParameters (..),
+    CreateConnectionAuthRequestParameters,
     newCreateConnectionAuthRequestParameters,
     createConnectionAuthRequestParameters_apiKeyAuthParameters,
     createConnectionAuthRequestParameters_basicAuthParameters,
@@ -228,19 +229,19 @@ module Amazonka.CloudWatchEvents.Types
     createConnectionAuthRequestParameters_oAuthParameters,
 
     -- * CreateConnectionBasicAuthRequestParameters
-    CreateConnectionBasicAuthRequestParameters (..),
+    CreateConnectionBasicAuthRequestParameters,
     newCreateConnectionBasicAuthRequestParameters,
     createConnectionBasicAuthRequestParameters_username,
     createConnectionBasicAuthRequestParameters_password,
 
     -- * CreateConnectionOAuthClientRequestParameters
-    CreateConnectionOAuthClientRequestParameters (..),
+    CreateConnectionOAuthClientRequestParameters,
     newCreateConnectionOAuthClientRequestParameters,
     createConnectionOAuthClientRequestParameters_clientID,
     createConnectionOAuthClientRequestParameters_clientSecret,
 
     -- * CreateConnectionOAuthRequestParameters
-    CreateConnectionOAuthRequestParameters (..),
+    CreateConnectionOAuthRequestParameters,
     newCreateConnectionOAuthRequestParameters,
     createConnectionOAuthRequestParameters_oAuthHttpParameters,
     createConnectionOAuthRequestParameters_clientParameters,
@@ -248,12 +249,12 @@ module Amazonka.CloudWatchEvents.Types
     createConnectionOAuthRequestParameters_httpMethod,
 
     -- * DeadLetterConfig
-    DeadLetterConfig (..),
+    DeadLetterConfig,
     newDeadLetterConfig,
     deadLetterConfig_arn,
 
     -- * EcsParameters
-    EcsParameters (..),
+    EcsParameters,
     newEcsParameters,
     ecsParameters_capacityProviderStrategy,
     ecsParameters_enableECSManagedTags,
@@ -271,7 +272,7 @@ module Amazonka.CloudWatchEvents.Types
     ecsParameters_taskDefinitionArn,
 
     -- * Endpoint
-    Endpoint (..),
+    Endpoint,
     newEndpoint,
     endpoint_arn,
     endpoint_creationTime,
@@ -288,19 +289,19 @@ module Amazonka.CloudWatchEvents.Types
     endpoint_stateReason,
 
     -- * EndpointEventBus
-    EndpointEventBus (..),
+    EndpointEventBus,
     newEndpointEventBus,
     endpointEventBus_eventBusArn,
 
     -- * EventBus
-    EventBus (..),
+    EventBus,
     newEventBus,
     eventBus_arn,
     eventBus_name,
     eventBus_policy,
 
     -- * EventSource
-    EventSource (..),
+    EventSource,
     newEventSource,
     eventSource_arn,
     eventSource_createdBy,
@@ -310,42 +311,42 @@ module Amazonka.CloudWatchEvents.Types
     eventSource_state,
 
     -- * FailoverConfig
-    FailoverConfig (..),
+    FailoverConfig,
     newFailoverConfig,
     failoverConfig_primary,
     failoverConfig_secondary,
 
     -- * HttpParameters
-    HttpParameters (..),
+    HttpParameters,
     newHttpParameters,
     httpParameters_headerParameters,
     httpParameters_pathParameterValues,
     httpParameters_queryStringParameters,
 
     -- * InputTransformer
-    InputTransformer (..),
+    InputTransformer,
     newInputTransformer,
     inputTransformer_inputPathsMap,
     inputTransformer_inputTemplate,
 
     -- * KinesisParameters
-    KinesisParameters (..),
+    KinesisParameters,
     newKinesisParameters,
     kinesisParameters_partitionKeyPath,
 
     -- * NetworkConfiguration
-    NetworkConfiguration (..),
+    NetworkConfiguration,
     newNetworkConfiguration,
     networkConfiguration_awsvpcConfiguration,
 
     -- * PartnerEventSource
-    PartnerEventSource (..),
+    PartnerEventSource,
     newPartnerEventSource,
     partnerEventSource_arn,
     partnerEventSource_name,
 
     -- * PartnerEventSourceAccount
-    PartnerEventSourceAccount (..),
+    PartnerEventSourceAccount,
     newPartnerEventSourceAccount,
     partnerEventSourceAccount_account,
     partnerEventSourceAccount_creationTime,
@@ -353,24 +354,24 @@ module Amazonka.CloudWatchEvents.Types
     partnerEventSourceAccount_state,
 
     -- * PlacementConstraint
-    PlacementConstraint (..),
+    PlacementConstraint,
     newPlacementConstraint,
     placementConstraint_expression,
     placementConstraint_type,
 
     -- * PlacementStrategy
-    PlacementStrategy (..),
+    PlacementStrategy,
     newPlacementStrategy,
     placementStrategy_field,
     placementStrategy_type,
 
     -- * Primary
-    Primary (..),
+    Primary,
     newPrimary,
     primary_healthCheck,
 
     -- * PutEventsRequestEntry
-    PutEventsRequestEntry (..),
+    PutEventsRequestEntry,
     newPutEventsRequestEntry,
     putEventsRequestEntry_detail,
     putEventsRequestEntry_detailType,
@@ -381,14 +382,14 @@ module Amazonka.CloudWatchEvents.Types
     putEventsRequestEntry_traceHeader,
 
     -- * PutEventsResultEntry
-    PutEventsResultEntry (..),
+    PutEventsResultEntry,
     newPutEventsResultEntry,
     putEventsResultEntry_errorCode,
     putEventsResultEntry_errorMessage,
     putEventsResultEntry_eventId,
 
     -- * PutPartnerEventsRequestEntry
-    PutPartnerEventsRequestEntry (..),
+    PutPartnerEventsRequestEntry,
     newPutPartnerEventsRequestEntry,
     putPartnerEventsRequestEntry_detail,
     putPartnerEventsRequestEntry_detailType,
@@ -397,21 +398,21 @@ module Amazonka.CloudWatchEvents.Types
     putPartnerEventsRequestEntry_time,
 
     -- * PutPartnerEventsResultEntry
-    PutPartnerEventsResultEntry (..),
+    PutPartnerEventsResultEntry,
     newPutPartnerEventsResultEntry,
     putPartnerEventsResultEntry_errorCode,
     putPartnerEventsResultEntry_errorMessage,
     putPartnerEventsResultEntry_eventId,
 
     -- * PutTargetsResultEntry
-    PutTargetsResultEntry (..),
+    PutTargetsResultEntry,
     newPutTargetsResultEntry,
     putTargetsResultEntry_errorCode,
     putTargetsResultEntry_errorMessage,
     putTargetsResultEntry_targetId,
 
     -- * RedshiftDataParameters
-    RedshiftDataParameters (..),
+    RedshiftDataParameters,
     newRedshiftDataParameters,
     redshiftDataParameters_dbUser,
     redshiftDataParameters_secretManagerArn,
@@ -421,14 +422,14 @@ module Amazonka.CloudWatchEvents.Types
     redshiftDataParameters_sql,
 
     -- * RemoveTargetsResultEntry
-    RemoveTargetsResultEntry (..),
+    RemoveTargetsResultEntry,
     newRemoveTargetsResultEntry,
     removeTargetsResultEntry_errorCode,
     removeTargetsResultEntry_errorMessage,
     removeTargetsResultEntry_targetId,
 
     -- * Replay
-    Replay (..),
+    Replay,
     newReplay,
     replay_eventEndTime,
     replay_eventLastReplayedTime,
@@ -441,29 +442,29 @@ module Amazonka.CloudWatchEvents.Types
     replay_stateReason,
 
     -- * ReplayDestination
-    ReplayDestination (..),
+    ReplayDestination,
     newReplayDestination,
     replayDestination_filterArns,
     replayDestination_arn,
 
     -- * ReplicationConfig
-    ReplicationConfig (..),
+    ReplicationConfig,
     newReplicationConfig,
     replicationConfig_state,
 
     -- * RetryPolicy
-    RetryPolicy (..),
+    RetryPolicy,
     newRetryPolicy,
     retryPolicy_maximumEventAgeInSeconds,
     retryPolicy_maximumRetryAttempts,
 
     -- * RoutingConfig
-    RoutingConfig (..),
+    RoutingConfig,
     newRoutingConfig,
     routingConfig_failoverConfig,
 
     -- * Rule
-    Rule (..),
+    Rule,
     newRule,
     rule_arn,
     rule_description,
@@ -476,45 +477,45 @@ module Amazonka.CloudWatchEvents.Types
     rule_state,
 
     -- * RunCommandParameters
-    RunCommandParameters (..),
+    RunCommandParameters,
     newRunCommandParameters,
     runCommandParameters_runCommandTargets,
 
     -- * RunCommandTarget
-    RunCommandTarget (..),
+    RunCommandTarget,
     newRunCommandTarget,
     runCommandTarget_key,
     runCommandTarget_values,
 
     -- * SageMakerPipelineParameter
-    SageMakerPipelineParameter (..),
+    SageMakerPipelineParameter,
     newSageMakerPipelineParameter,
     sageMakerPipelineParameter_name,
     sageMakerPipelineParameter_value,
 
     -- * SageMakerPipelineParameters
-    SageMakerPipelineParameters (..),
+    SageMakerPipelineParameters,
     newSageMakerPipelineParameters,
     sageMakerPipelineParameters_pipelineParameterList,
 
     -- * Secondary
-    Secondary (..),
+    Secondary,
     newSecondary,
     secondary_route,
 
     -- * SqsParameters
-    SqsParameters (..),
+    SqsParameters,
     newSqsParameters,
     sqsParameters_messageGroupId,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,
 
     -- * Target
-    Target (..),
+    Target,
     newTarget,
     target_batchParameters,
     target_deadLetterConfig,
@@ -534,13 +535,13 @@ module Amazonka.CloudWatchEvents.Types
     target_arn,
 
     -- * UpdateConnectionApiKeyAuthRequestParameters
-    UpdateConnectionApiKeyAuthRequestParameters (..),
+    UpdateConnectionApiKeyAuthRequestParameters,
     newUpdateConnectionApiKeyAuthRequestParameters,
     updateConnectionApiKeyAuthRequestParameters_apiKeyName,
     updateConnectionApiKeyAuthRequestParameters_apiKeyValue,
 
     -- * UpdateConnectionAuthRequestParameters
-    UpdateConnectionAuthRequestParameters (..),
+    UpdateConnectionAuthRequestParameters,
     newUpdateConnectionAuthRequestParameters,
     updateConnectionAuthRequestParameters_apiKeyAuthParameters,
     updateConnectionAuthRequestParameters_basicAuthParameters,
@@ -548,19 +549,19 @@ module Amazonka.CloudWatchEvents.Types
     updateConnectionAuthRequestParameters_oAuthParameters,
 
     -- * UpdateConnectionBasicAuthRequestParameters
-    UpdateConnectionBasicAuthRequestParameters (..),
+    UpdateConnectionBasicAuthRequestParameters,
     newUpdateConnectionBasicAuthRequestParameters,
     updateConnectionBasicAuthRequestParameters_password,
     updateConnectionBasicAuthRequestParameters_username,
 
     -- * UpdateConnectionOAuthClientRequestParameters
-    UpdateConnectionOAuthClientRequestParameters (..),
+    UpdateConnectionOAuthClientRequestParameters,
     newUpdateConnectionOAuthClientRequestParameters,
     updateConnectionOAuthClientRequestParameters_clientID,
     updateConnectionOAuthClientRequestParameters_clientSecret,
 
     -- * UpdateConnectionOAuthRequestParameters
-    UpdateConnectionOAuthRequestParameters (..),
+    UpdateConnectionOAuthRequestParameters,
     newUpdateConnectionOAuthRequestParameters,
     updateConnectionOAuthRequestParameters_authorizationEndpoint,
     updateConnectionOAuthRequestParameters_clientParameters,

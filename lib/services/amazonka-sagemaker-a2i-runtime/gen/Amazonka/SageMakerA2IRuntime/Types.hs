@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -26,31 +27,31 @@ module Amazonka.SageMakerA2IRuntime.Types
     _ValidationException,
 
     -- * ContentClassifier
-    ContentClassifier (..),
+    ContentClassifier,
 
     -- * HumanLoopStatus
-    HumanLoopStatus (..),
+    HumanLoopStatus,
 
     -- * SortOrder
-    SortOrder (..),
+    SortOrder,
 
     -- * HumanLoopDataAttributes
-    HumanLoopDataAttributes (..),
+    HumanLoopDataAttributes,
     newHumanLoopDataAttributes,
     humanLoopDataAttributes_contentClassifiers,
 
     -- * HumanLoopInput
-    HumanLoopInput (..),
+    HumanLoopInput,
     newHumanLoopInput,
     humanLoopInput_inputContent,
 
     -- * HumanLoopOutput
-    HumanLoopOutput (..),
+    HumanLoopOutput,
     newHumanLoopOutput,
     humanLoopOutput_outputS3Uri,
 
     -- * HumanLoopSummary
-    HumanLoopSummary (..),
+    HumanLoopSummary,
     newHumanLoopSummary,
     humanLoopSummary_creationTime,
     humanLoopSummary_failureReason,

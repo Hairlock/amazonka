@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -41,16 +42,16 @@ module Amazonka.CloudControl.Types
     _UnsupportedActionException,
 
     -- * HandlerErrorCode
-    HandlerErrorCode (..),
+    HandlerErrorCode,
 
     -- * Operation
-    Operation (..),
+    Operation,
 
     -- * OperationStatus
-    OperationStatus (..),
+    OperationStatus,
 
     -- * ProgressEvent
-    ProgressEvent (..),
+    ProgressEvent,
     newProgressEvent,
     progressEvent_errorCode,
     progressEvent_eventTime,
@@ -64,13 +65,13 @@ module Amazonka.CloudControl.Types
     progressEvent_typeName,
 
     -- * ResourceDescription
-    ResourceDescription (..),
+    ResourceDescription,
     newResourceDescription,
     resourceDescription_identifier,
     resourceDescription_properties,
 
     -- * ResourceRequestStatusFilter
-    ResourceRequestStatusFilter (..),
+    ResourceRequestStatusFilter,
     newResourceRequestStatusFilter,
     resourceRequestStatusFilter_operationStatuses,
     resourceRequestStatusFilter_operations,

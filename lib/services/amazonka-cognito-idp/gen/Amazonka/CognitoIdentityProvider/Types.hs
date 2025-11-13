@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -61,149 +62,149 @@ module Amazonka.CognitoIdentityProvider.Types
     _UsernameExistsException,
 
     -- * AccountTakeoverEventActionType
-    AccountTakeoverEventActionType (..),
+    AccountTakeoverEventActionType,
 
     -- * AdvancedSecurityModeType
-    AdvancedSecurityModeType (..),
+    AdvancedSecurityModeType,
 
     -- * AliasAttributeType
-    AliasAttributeType (..),
+    AliasAttributeType,
 
     -- * AttributeDataType
-    AttributeDataType (..),
+    AttributeDataType,
 
     -- * AuthFlowType
-    AuthFlowType (..),
+    AuthFlowType,
 
     -- * ChallengeName
-    ChallengeName (..),
+    ChallengeName,
 
     -- * ChallengeNameType
-    ChallengeNameType (..),
+    ChallengeNameType,
 
     -- * ChallengeResponse
-    ChallengeResponse (..),
+    ChallengeResponse,
 
     -- * CompromisedCredentialsEventActionType
-    CompromisedCredentialsEventActionType (..),
+    CompromisedCredentialsEventActionType,
 
     -- * CustomEmailSenderLambdaVersionType
-    CustomEmailSenderLambdaVersionType (..),
+    CustomEmailSenderLambdaVersionType,
 
     -- * CustomSMSSenderLambdaVersionType
-    CustomSMSSenderLambdaVersionType (..),
+    CustomSMSSenderLambdaVersionType,
 
     -- * DefaultEmailOptionType
-    DefaultEmailOptionType (..),
+    DefaultEmailOptionType,
 
     -- * DeletionProtectionType
-    DeletionProtectionType (..),
+    DeletionProtectionType,
 
     -- * DeliveryMediumType
-    DeliveryMediumType (..),
+    DeliveryMediumType,
 
     -- * DeviceRememberedStatusType
-    DeviceRememberedStatusType (..),
+    DeviceRememberedStatusType,
 
     -- * DomainStatusType
-    DomainStatusType (..),
+    DomainStatusType,
 
     -- * EmailSendingAccountType
-    EmailSendingAccountType (..),
+    EmailSendingAccountType,
 
     -- * EventFilterType
-    EventFilterType (..),
+    EventFilterType,
 
     -- * EventResponseType
-    EventResponseType (..),
+    EventResponseType,
 
     -- * EventType
-    EventType (..),
+    EventType,
 
     -- * ExplicitAuthFlowsType
-    ExplicitAuthFlowsType (..),
+    ExplicitAuthFlowsType,
 
     -- * FeedbackValueType
-    FeedbackValueType (..),
+    FeedbackValueType,
 
     -- * IdentityProviderTypeType
-    IdentityProviderTypeType (..),
+    IdentityProviderTypeType,
 
     -- * MessageActionType
-    MessageActionType (..),
+    MessageActionType,
 
     -- * OAuthFlowType
-    OAuthFlowType (..),
+    OAuthFlowType,
 
     -- * PreventUserExistenceErrorTypes
-    PreventUserExistenceErrorTypes (..),
+    PreventUserExistenceErrorTypes,
 
     -- * RecoveryOptionNameType
-    RecoveryOptionNameType (..),
+    RecoveryOptionNameType,
 
     -- * RiskDecisionType
-    RiskDecisionType (..),
+    RiskDecisionType,
 
     -- * RiskLevelType
-    RiskLevelType (..),
+    RiskLevelType,
 
     -- * StatusType
-    StatusType (..),
+    StatusType,
 
     -- * TimeUnitsType
-    TimeUnitsType (..),
+    TimeUnitsType,
 
     -- * UserImportJobStatusType
-    UserImportJobStatusType (..),
+    UserImportJobStatusType,
 
     -- * UserPoolMfaType
-    UserPoolMfaType (..),
+    UserPoolMfaType,
 
     -- * UserStatusType
-    UserStatusType (..),
+    UserStatusType,
 
     -- * UsernameAttributeType
-    UsernameAttributeType (..),
+    UsernameAttributeType,
 
     -- * VerifiedAttributeType
-    VerifiedAttributeType (..),
+    VerifiedAttributeType,
 
     -- * VerifySoftwareTokenResponseType
-    VerifySoftwareTokenResponseType (..),
+    VerifySoftwareTokenResponseType,
 
     -- * AccountRecoverySettingType
-    AccountRecoverySettingType (..),
+    AccountRecoverySettingType,
     newAccountRecoverySettingType,
     accountRecoverySettingType_recoveryMechanisms,
 
     -- * AccountTakeoverActionType
-    AccountTakeoverActionType (..),
+    AccountTakeoverActionType,
     newAccountTakeoverActionType,
     accountTakeoverActionType_notify,
     accountTakeoverActionType_eventAction,
 
     -- * AccountTakeoverActionsType
-    AccountTakeoverActionsType (..),
+    AccountTakeoverActionsType,
     newAccountTakeoverActionsType,
     accountTakeoverActionsType_highAction,
     accountTakeoverActionsType_lowAction,
     accountTakeoverActionsType_mediumAction,
 
     -- * AccountTakeoverRiskConfigurationType
-    AccountTakeoverRiskConfigurationType (..),
+    AccountTakeoverRiskConfigurationType,
     newAccountTakeoverRiskConfigurationType,
     accountTakeoverRiskConfigurationType_notifyConfiguration,
     accountTakeoverRiskConfigurationType_actions,
 
     -- * AdminCreateUserConfigType
-    AdminCreateUserConfigType (..),
+    AdminCreateUserConfigType,
     newAdminCreateUserConfigType,
     adminCreateUserConfigType_allowAdminCreateUserOnly,
     adminCreateUserConfigType_inviteMessageTemplate,
     adminCreateUserConfigType_unusedAccountValidityDays,
 
     -- * AnalyticsConfigurationType
-    AnalyticsConfigurationType (..),
+    AnalyticsConfigurationType,
     newAnalyticsConfigurationType,
     analyticsConfigurationType_applicationArn,
     analyticsConfigurationType_applicationId,
@@ -212,18 +213,18 @@ module Amazonka.CognitoIdentityProvider.Types
     analyticsConfigurationType_userDataShared,
 
     -- * AnalyticsMetadataType
-    AnalyticsMetadataType (..),
+    AnalyticsMetadataType,
     newAnalyticsMetadataType,
     analyticsMetadataType_analyticsEndpointId,
 
     -- * AttributeType
-    AttributeType (..),
+    AttributeType,
     newAttributeType,
     attributeType_value,
     attributeType_name,
 
     -- * AuthEventType
-    AuthEventType (..),
+    AuthEventType,
     newAuthEventType,
     authEventType_challengeResponses,
     authEventType_creationDate,
@@ -235,7 +236,7 @@ module Amazonka.CognitoIdentityProvider.Types
     authEventType_eventType,
 
     -- * AuthenticationResultType
-    AuthenticationResultType (..),
+    AuthenticationResultType,
     newAuthenticationResultType,
     authenticationResultType_accessToken,
     authenticationResultType_expiresIn,
@@ -245,31 +246,31 @@ module Amazonka.CognitoIdentityProvider.Types
     authenticationResultType_tokenType,
 
     -- * ChallengeResponseType
-    ChallengeResponseType (..),
+    ChallengeResponseType,
     newChallengeResponseType,
     challengeResponseType_challengeName,
     challengeResponseType_challengeResponse,
 
     -- * CodeDeliveryDetailsType
-    CodeDeliveryDetailsType (..),
+    CodeDeliveryDetailsType,
     newCodeDeliveryDetailsType,
     codeDeliveryDetailsType_attributeName,
     codeDeliveryDetailsType_deliveryMedium,
     codeDeliveryDetailsType_destination,
 
     -- * CompromisedCredentialsActionsType
-    CompromisedCredentialsActionsType (..),
+    CompromisedCredentialsActionsType,
     newCompromisedCredentialsActionsType,
     compromisedCredentialsActionsType_eventAction,
 
     -- * CompromisedCredentialsRiskConfigurationType
-    CompromisedCredentialsRiskConfigurationType (..),
+    CompromisedCredentialsRiskConfigurationType,
     newCompromisedCredentialsRiskConfigurationType,
     compromisedCredentialsRiskConfigurationType_eventFilter,
     compromisedCredentialsRiskConfigurationType_actions,
 
     -- * ContextDataType
-    ContextDataType (..),
+    ContextDataType,
     newContextDataType,
     contextDataType_encodedData,
     contextDataType_ipAddress,
@@ -278,36 +279,36 @@ module Amazonka.CognitoIdentityProvider.Types
     contextDataType_httpHeaders,
 
     -- * CustomDomainConfigType
-    CustomDomainConfigType (..),
+    CustomDomainConfigType,
     newCustomDomainConfigType,
     customDomainConfigType_certificateArn,
 
     -- * CustomEmailLambdaVersionConfigType
-    CustomEmailLambdaVersionConfigType (..),
+    CustomEmailLambdaVersionConfigType,
     newCustomEmailLambdaVersionConfigType,
     customEmailLambdaVersionConfigType_lambdaVersion,
     customEmailLambdaVersionConfigType_lambdaArn,
 
     -- * CustomSMSLambdaVersionConfigType
-    CustomSMSLambdaVersionConfigType (..),
+    CustomSMSLambdaVersionConfigType,
     newCustomSMSLambdaVersionConfigType,
     customSMSLambdaVersionConfigType_lambdaVersion,
     customSMSLambdaVersionConfigType_lambdaArn,
 
     -- * DeviceConfigurationType
-    DeviceConfigurationType (..),
+    DeviceConfigurationType,
     newDeviceConfigurationType,
     deviceConfigurationType_challengeRequiredOnNewDevice,
     deviceConfigurationType_deviceOnlyRememberedOnUserPrompt,
 
     -- * DeviceSecretVerifierConfigType
-    DeviceSecretVerifierConfigType (..),
+    DeviceSecretVerifierConfigType,
     newDeviceSecretVerifierConfigType,
     deviceSecretVerifierConfigType_passwordVerifier,
     deviceSecretVerifierConfigType_salt,
 
     -- * DeviceType
-    DeviceType (..),
+    DeviceType,
     newDeviceType,
     deviceType_deviceAttributes,
     deviceType_deviceCreateDate,
@@ -316,7 +317,7 @@ module Amazonka.CognitoIdentityProvider.Types
     deviceType_deviceLastModifiedDate,
 
     -- * DomainDescriptionType
-    DomainDescriptionType (..),
+    DomainDescriptionType,
     newDomainDescriptionType,
     domainDescriptionType_aWSAccountId,
     domainDescriptionType_cloudFrontDistribution,
@@ -328,7 +329,7 @@ module Amazonka.CognitoIdentityProvider.Types
     domainDescriptionType_version,
 
     -- * EmailConfigurationType
-    EmailConfigurationType (..),
+    EmailConfigurationType,
     newEmailConfigurationType,
     emailConfigurationType_configurationSet,
     emailConfigurationType_emailSendingAccount,
@@ -337,7 +338,7 @@ module Amazonka.CognitoIdentityProvider.Types
     emailConfigurationType_sourceArn,
 
     -- * EventContextDataType
-    EventContextDataType (..),
+    EventContextDataType,
     newEventContextDataType,
     eventContextDataType_city,
     eventContextDataType_country,
@@ -346,21 +347,21 @@ module Amazonka.CognitoIdentityProvider.Types
     eventContextDataType_timezone,
 
     -- * EventFeedbackType
-    EventFeedbackType (..),
+    EventFeedbackType,
     newEventFeedbackType,
     eventFeedbackType_feedbackDate,
     eventFeedbackType_feedbackValue,
     eventFeedbackType_provider,
 
     -- * EventRiskType
-    EventRiskType (..),
+    EventRiskType,
     newEventRiskType,
     eventRiskType_compromisedCredentialsDetected,
     eventRiskType_riskDecision,
     eventRiskType_riskLevel,
 
     -- * GroupType
-    GroupType (..),
+    GroupType,
     newGroupType,
     groupType_creationDate,
     groupType_description,
@@ -371,13 +372,13 @@ module Amazonka.CognitoIdentityProvider.Types
     groupType_userPoolId,
 
     -- * HttpHeader
-    HttpHeader (..),
+    HttpHeader,
     newHttpHeader,
     httpHeader_headerName,
     httpHeader_headerValue,
 
     -- * IdentityProviderType
-    IdentityProviderType (..),
+    IdentityProviderType,
     newIdentityProviderType,
     identityProviderType_attributeMapping,
     identityProviderType_creationDate,
@@ -389,7 +390,7 @@ module Amazonka.CognitoIdentityProvider.Types
     identityProviderType_userPoolId,
 
     -- * LambdaConfigType
-    LambdaConfigType (..),
+    LambdaConfigType,
     newLambdaConfigType,
     lambdaConfigType_createAuthChallenge,
     lambdaConfigType_customEmailSender,
@@ -406,26 +407,26 @@ module Amazonka.CognitoIdentityProvider.Types
     lambdaConfigType_verifyAuthChallengeResponse,
 
     -- * MFAOptionType
-    MFAOptionType (..),
+    MFAOptionType,
     newMFAOptionType,
     mfaOptionType_attributeName,
     mfaOptionType_deliveryMedium,
 
     -- * MessageTemplateType
-    MessageTemplateType (..),
+    MessageTemplateType,
     newMessageTemplateType,
     messageTemplateType_emailMessage,
     messageTemplateType_emailSubject,
     messageTemplateType_sMSMessage,
 
     -- * NewDeviceMetadataType
-    NewDeviceMetadataType (..),
+    NewDeviceMetadataType,
     newNewDeviceMetadataType,
     newDeviceMetadataType_deviceGroupKey,
     newDeviceMetadataType_deviceKey,
 
     -- * NotifyConfigurationType
-    NotifyConfigurationType (..),
+    NotifyConfigurationType,
     newNotifyConfigurationType,
     notifyConfigurationType_blockEmail,
     notifyConfigurationType_from,
@@ -435,20 +436,20 @@ module Amazonka.CognitoIdentityProvider.Types
     notifyConfigurationType_sourceArn,
 
     -- * NotifyEmailType
-    NotifyEmailType (..),
+    NotifyEmailType,
     newNotifyEmailType,
     notifyEmailType_htmlBody,
     notifyEmailType_textBody,
     notifyEmailType_subject,
 
     -- * NumberAttributeConstraintsType
-    NumberAttributeConstraintsType (..),
+    NumberAttributeConstraintsType,
     newNumberAttributeConstraintsType,
     numberAttributeConstraintsType_maxValue,
     numberAttributeConstraintsType_minValue,
 
     -- * PasswordPolicyType
-    PasswordPolicyType (..),
+    PasswordPolicyType,
     newPasswordPolicyType,
     passwordPolicyType_minimumLength,
     passwordPolicyType_requireLowercase,
@@ -458,7 +459,7 @@ module Amazonka.CognitoIdentityProvider.Types
     passwordPolicyType_temporaryPasswordValidityDays,
 
     -- * ProviderDescription
-    ProviderDescription (..),
+    ProviderDescription,
     newProviderDescription,
     providerDescription_creationDate,
     providerDescription_lastModifiedDate,
@@ -466,26 +467,26 @@ module Amazonka.CognitoIdentityProvider.Types
     providerDescription_providerType,
 
     -- * ProviderUserIdentifierType
-    ProviderUserIdentifierType (..),
+    ProviderUserIdentifierType,
     newProviderUserIdentifierType,
     providerUserIdentifierType_providerAttributeName,
     providerUserIdentifierType_providerAttributeValue,
     providerUserIdentifierType_providerName,
 
     -- * RecoveryOptionType
-    RecoveryOptionType (..),
+    RecoveryOptionType,
     newRecoveryOptionType,
     recoveryOptionType_priority,
     recoveryOptionType_name,
 
     -- * ResourceServerScopeType
-    ResourceServerScopeType (..),
+    ResourceServerScopeType,
     newResourceServerScopeType,
     resourceServerScopeType_scopeName,
     resourceServerScopeType_scopeDescription,
 
     -- * ResourceServerType
-    ResourceServerType (..),
+    ResourceServerType,
     newResourceServerType,
     resourceServerType_identifier,
     resourceServerType_name,
@@ -493,7 +494,7 @@ module Amazonka.CognitoIdentityProvider.Types
     resourceServerType_userPoolId,
 
     -- * RiskConfigurationType
-    RiskConfigurationType (..),
+    RiskConfigurationType,
     newRiskConfigurationType,
     riskConfigurationType_accountTakeoverRiskConfiguration,
     riskConfigurationType_clientId,
@@ -503,19 +504,19 @@ module Amazonka.CognitoIdentityProvider.Types
     riskConfigurationType_userPoolId,
 
     -- * RiskExceptionConfigurationType
-    RiskExceptionConfigurationType (..),
+    RiskExceptionConfigurationType,
     newRiskExceptionConfigurationType,
     riskExceptionConfigurationType_blockedIPRangeList,
     riskExceptionConfigurationType_skippedIPRangeList,
 
     -- * SMSMfaSettingsType
-    SMSMfaSettingsType (..),
+    SMSMfaSettingsType,
     newSMSMfaSettingsType,
     sMSMfaSettingsType_enabled,
     sMSMfaSettingsType_preferredMfa,
 
     -- * SchemaAttributeType
-    SchemaAttributeType (..),
+    SchemaAttributeType,
     newSchemaAttributeType,
     schemaAttributeType_attributeDataType,
     schemaAttributeType_developerOnlyAttribute,
@@ -526,44 +527,44 @@ module Amazonka.CognitoIdentityProvider.Types
     schemaAttributeType_stringAttributeConstraints,
 
     -- * SmsConfigurationType
-    SmsConfigurationType (..),
+    SmsConfigurationType,
     newSmsConfigurationType,
     smsConfigurationType_externalId,
     smsConfigurationType_snsRegion,
     smsConfigurationType_snsCallerArn,
 
     -- * SmsMfaConfigType
-    SmsMfaConfigType (..),
+    SmsMfaConfigType,
     newSmsMfaConfigType,
     smsMfaConfigType_smsAuthenticationMessage,
     smsMfaConfigType_smsConfiguration,
 
     -- * SoftwareTokenMfaConfigType
-    SoftwareTokenMfaConfigType (..),
+    SoftwareTokenMfaConfigType,
     newSoftwareTokenMfaConfigType,
     softwareTokenMfaConfigType_enabled,
 
     -- * SoftwareTokenMfaSettingsType
-    SoftwareTokenMfaSettingsType (..),
+    SoftwareTokenMfaSettingsType,
     newSoftwareTokenMfaSettingsType,
     softwareTokenMfaSettingsType_enabled,
     softwareTokenMfaSettingsType_preferredMfa,
 
     -- * StringAttributeConstraintsType
-    StringAttributeConstraintsType (..),
+    StringAttributeConstraintsType,
     newStringAttributeConstraintsType,
     stringAttributeConstraintsType_maxLength,
     stringAttributeConstraintsType_minLength,
 
     -- * TokenValidityUnitsType
-    TokenValidityUnitsType (..),
+    TokenValidityUnitsType,
     newTokenValidityUnitsType,
     tokenValidityUnitsType_accessToken,
     tokenValidityUnitsType_idToken,
     tokenValidityUnitsType_refreshToken,
 
     -- * UICustomizationType
-    UICustomizationType (..),
+    UICustomizationType,
     newUICustomizationType,
     uICustomizationType_css,
     uICustomizationType_cSSVersion,
@@ -574,18 +575,18 @@ module Amazonka.CognitoIdentityProvider.Types
     uICustomizationType_userPoolId,
 
     -- * UserAttributeUpdateSettingsType
-    UserAttributeUpdateSettingsType (..),
+    UserAttributeUpdateSettingsType,
     newUserAttributeUpdateSettingsType,
     userAttributeUpdateSettingsType_attributesRequireVerificationBeforeUpdate,
 
     -- * UserContextDataType
-    UserContextDataType (..),
+    UserContextDataType,
     newUserContextDataType,
     userContextDataType_encodedData,
     userContextDataType_ipAddress,
 
     -- * UserImportJobType
-    UserImportJobType (..),
+    UserImportJobType,
     newUserImportJobType,
     userImportJobType_cloudWatchLogsRoleArn,
     userImportJobType_completionDate,
@@ -602,19 +603,19 @@ module Amazonka.CognitoIdentityProvider.Types
     userImportJobType_userPoolId,
 
     -- * UserPoolAddOnsType
-    UserPoolAddOnsType (..),
+    UserPoolAddOnsType,
     newUserPoolAddOnsType,
     userPoolAddOnsType_advancedSecurityMode,
 
     -- * UserPoolClientDescription
-    UserPoolClientDescription (..),
+    UserPoolClientDescription,
     newUserPoolClientDescription,
     userPoolClientDescription_clientId,
     userPoolClientDescription_clientName,
     userPoolClientDescription_userPoolId,
 
     -- * UserPoolClientType
-    UserPoolClientType (..),
+    UserPoolClientType,
     newUserPoolClientType,
     userPoolClientType_accessTokenValidity,
     userPoolClientType_allowedOAuthFlows,
@@ -643,7 +644,7 @@ module Amazonka.CognitoIdentityProvider.Types
     userPoolClientType_writeAttributes,
 
     -- * UserPoolDescriptionType
-    UserPoolDescriptionType (..),
+    UserPoolDescriptionType,
     newUserPoolDescriptionType,
     userPoolDescriptionType_creationDate,
     userPoolDescriptionType_id,
@@ -653,12 +654,12 @@ module Amazonka.CognitoIdentityProvider.Types
     userPoolDescriptionType_status,
 
     -- * UserPoolPolicyType
-    UserPoolPolicyType (..),
+    UserPoolPolicyType,
     newUserPoolPolicyType,
     userPoolPolicyType_passwordPolicy,
 
     -- * UserPoolType
-    UserPoolType (..),
+    UserPoolType,
     newUserPoolType,
     userPoolType_accountRecoverySetting,
     userPoolType_adminCreateUserConfig,
@@ -695,7 +696,7 @@ module Amazonka.CognitoIdentityProvider.Types
     userPoolType_verificationMessageTemplate,
 
     -- * UserType
-    UserType (..),
+    UserType,
     newUserType,
     userType_attributes,
     userType_enabled,
@@ -706,12 +707,12 @@ module Amazonka.CognitoIdentityProvider.Types
     userType_username,
 
     -- * UsernameConfigurationType
-    UsernameConfigurationType (..),
+    UsernameConfigurationType,
     newUsernameConfigurationType,
     usernameConfigurationType_caseSensitive,
 
     -- * VerificationMessageTemplateType
-    VerificationMessageTemplateType (..),
+    VerificationMessageTemplateType,
     newVerificationMessageTemplateType,
     verificationMessageTemplateType_defaultEmailOption,
     verificationMessageTemplateType_emailMessage,

@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -25,127 +26,127 @@ module Amazonka.CodeBuild.Types
     _ResourceNotFoundException,
 
     -- * ArtifactNamespace
-    ArtifactNamespace (..),
+    ArtifactNamespace,
 
     -- * ArtifactPackaging
-    ArtifactPackaging (..),
+    ArtifactPackaging,
 
     -- * ArtifactsType
-    ArtifactsType (..),
+    ArtifactsType,
 
     -- * AuthType
-    AuthType (..),
+    AuthType,
 
     -- * BatchReportModeType
-    BatchReportModeType (..),
+    BatchReportModeType,
 
     -- * BucketOwnerAccess
-    BucketOwnerAccess (..),
+    BucketOwnerAccess,
 
     -- * BuildBatchPhaseType
-    BuildBatchPhaseType (..),
+    BuildBatchPhaseType,
 
     -- * BuildPhaseType
-    BuildPhaseType (..),
+    BuildPhaseType,
 
     -- * CacheMode
-    CacheMode (..),
+    CacheMode,
 
     -- * CacheType
-    CacheType (..),
+    CacheType,
 
     -- * ComputeType
-    ComputeType (..),
+    ComputeType,
 
     -- * CredentialProviderType
-    CredentialProviderType (..),
+    CredentialProviderType,
 
     -- * EnvironmentType
-    EnvironmentType (..),
+    EnvironmentType,
 
     -- * EnvironmentVariableType
-    EnvironmentVariableType (..),
+    EnvironmentVariableType,
 
     -- * FileSystemType
-    FileSystemType (..),
+    FileSystemType,
 
     -- * ImagePullCredentialsType
-    ImagePullCredentialsType (..),
+    ImagePullCredentialsType,
 
     -- * LanguageType
-    LanguageType (..),
+    LanguageType,
 
     -- * LogsConfigStatusType
-    LogsConfigStatusType (..),
+    LogsConfigStatusType,
 
     -- * PlatformType
-    PlatformType (..),
+    PlatformType,
 
     -- * ProjectSortByType
-    ProjectSortByType (..),
+    ProjectSortByType,
 
     -- * ProjectVisibilityType
-    ProjectVisibilityType (..),
+    ProjectVisibilityType,
 
     -- * ReportCodeCoverageSortByType
-    ReportCodeCoverageSortByType (..),
+    ReportCodeCoverageSortByType,
 
     -- * ReportExportConfigType
-    ReportExportConfigType (..),
+    ReportExportConfigType,
 
     -- * ReportGroupSortByType
-    ReportGroupSortByType (..),
+    ReportGroupSortByType,
 
     -- * ReportGroupStatusType
-    ReportGroupStatusType (..),
+    ReportGroupStatusType,
 
     -- * ReportGroupTrendFieldType
-    ReportGroupTrendFieldType (..),
+    ReportGroupTrendFieldType,
 
     -- * ReportPackagingType
-    ReportPackagingType (..),
+    ReportPackagingType,
 
     -- * ReportStatusType
-    ReportStatusType (..),
+    ReportStatusType,
 
     -- * ReportType
-    ReportType (..),
+    ReportType,
 
     -- * RetryBuildBatchType
-    RetryBuildBatchType (..),
+    RetryBuildBatchType,
 
     -- * ServerType
-    ServerType (..),
+    ServerType,
 
     -- * SharedResourceSortByType
-    SharedResourceSortByType (..),
+    SharedResourceSortByType,
 
     -- * SortOrderType
-    SortOrderType (..),
+    SortOrderType,
 
     -- * SourceAuthType
-    SourceAuthType (..),
+    SourceAuthType,
 
     -- * SourceType
-    SourceType (..),
+    SourceType,
 
     -- * StatusType
-    StatusType (..),
+    StatusType,
 
     -- * WebhookBuildType
-    WebhookBuildType (..),
+    WebhookBuildType,
 
     -- * WebhookFilterType
-    WebhookFilterType (..),
+    WebhookFilterType,
 
     -- * BatchRestrictions
-    BatchRestrictions (..),
+    BatchRestrictions,
     newBatchRestrictions,
     batchRestrictions_computeTypesAllowed,
     batchRestrictions_maximumBuildsAllowed,
 
     -- * Build
-    Build (..),
+    Build,
     newBuild,
     build_arn,
     build_artifacts,
@@ -181,7 +182,7 @@ module Amazonka.CodeBuild.Types
     build_vpcConfig,
 
     -- * BuildArtifacts
-    BuildArtifacts (..),
+    BuildArtifacts,
     newBuildArtifacts,
     buildArtifacts_artifactIdentifier,
     buildArtifacts_bucketOwnerAccess,
@@ -192,7 +193,7 @@ module Amazonka.CodeBuild.Types
     buildArtifacts_sha256sum,
 
     -- * BuildBatch
-    BuildBatch (..),
+    BuildBatch,
     newBuildBatch,
     buildBatch_arn,
     buildBatch_artifacts,
@@ -226,12 +227,12 @@ module Amazonka.CodeBuild.Types
     buildBatch_vpcConfig,
 
     -- * BuildBatchFilter
-    BuildBatchFilter (..),
+    BuildBatchFilter,
     newBuildBatchFilter,
     buildBatchFilter_status,
 
     -- * BuildBatchPhase
-    BuildBatchPhase (..),
+    BuildBatchPhase,
     newBuildBatchPhase,
     buildBatchPhase_contexts,
     buildBatchPhase_durationInSeconds,
@@ -241,7 +242,7 @@ module Amazonka.CodeBuild.Types
     buildBatchPhase_startTime,
 
     -- * BuildGroup
-    BuildGroup (..),
+    BuildGroup,
     newBuildGroup,
     buildGroup_currentBuildSummary,
     buildGroup_dependsOn,
@@ -250,13 +251,13 @@ module Amazonka.CodeBuild.Types
     buildGroup_priorBuildSummaryList,
 
     -- * BuildNotDeleted
-    BuildNotDeleted (..),
+    BuildNotDeleted,
     newBuildNotDeleted,
     buildNotDeleted_id,
     buildNotDeleted_statusCode,
 
     -- * BuildPhase
-    BuildPhase (..),
+    BuildPhase,
     newBuildPhase,
     buildPhase_contexts,
     buildPhase_durationInSeconds,
@@ -266,13 +267,13 @@ module Amazonka.CodeBuild.Types
     buildPhase_startTime,
 
     -- * BuildStatusConfig
-    BuildStatusConfig (..),
+    BuildStatusConfig,
     newBuildStatusConfig,
     buildStatusConfig_context,
     buildStatusConfig_targetUrl,
 
     -- * BuildSummary
-    BuildSummary (..),
+    BuildSummary,
     newBuildSummary,
     buildSummary_arn,
     buildSummary_buildStatus,
@@ -281,14 +282,14 @@ module Amazonka.CodeBuild.Types
     buildSummary_secondaryArtifacts,
 
     -- * CloudWatchLogsConfig
-    CloudWatchLogsConfig (..),
+    CloudWatchLogsConfig,
     newCloudWatchLogsConfig,
     cloudWatchLogsConfig_groupName,
     cloudWatchLogsConfig_streamName,
     cloudWatchLogsConfig_status,
 
     -- * CodeCoverage
-    CodeCoverage (..),
+    CodeCoverage,
     newCodeCoverage,
     codeCoverage_branchCoveragePercentage,
     codeCoverage_branchesCovered,
@@ -302,7 +303,7 @@ module Amazonka.CodeBuild.Types
     codeCoverage_reportARN,
 
     -- * CodeCoverageReportSummary
-    CodeCoverageReportSummary (..),
+    CodeCoverageReportSummary,
     newCodeCoverageReportSummary,
     codeCoverageReportSummary_branchCoveragePercentage,
     codeCoverageReportSummary_branchesCovered,
@@ -312,56 +313,56 @@ module Amazonka.CodeBuild.Types
     codeCoverageReportSummary_linesMissed,
 
     -- * DebugSession
-    DebugSession (..),
+    DebugSession,
     newDebugSession,
     debugSession_sessionEnabled,
     debugSession_sessionTarget,
 
     -- * EnvironmentImage
-    EnvironmentImage (..),
+    EnvironmentImage,
     newEnvironmentImage,
     environmentImage_description,
     environmentImage_name,
     environmentImage_versions,
 
     -- * EnvironmentLanguage
-    EnvironmentLanguage (..),
+    EnvironmentLanguage,
     newEnvironmentLanguage,
     environmentLanguage_images,
     environmentLanguage_language,
 
     -- * EnvironmentPlatform
-    EnvironmentPlatform (..),
+    EnvironmentPlatform,
     newEnvironmentPlatform,
     environmentPlatform_languages,
     environmentPlatform_platform,
 
     -- * EnvironmentVariable
-    EnvironmentVariable (..),
+    EnvironmentVariable,
     newEnvironmentVariable,
     environmentVariable_type,
     environmentVariable_name,
     environmentVariable_value,
 
     -- * ExportedEnvironmentVariable
-    ExportedEnvironmentVariable (..),
+    ExportedEnvironmentVariable,
     newExportedEnvironmentVariable,
     exportedEnvironmentVariable_name,
     exportedEnvironmentVariable_value,
 
     -- * GitSubmodulesConfig
-    GitSubmodulesConfig (..),
+    GitSubmodulesConfig,
     newGitSubmodulesConfig,
     gitSubmodulesConfig_fetchSubmodules,
 
     -- * LogsConfig
-    LogsConfig (..),
+    LogsConfig,
     newLogsConfig,
     logsConfig_cloudWatchLogs,
     logsConfig_s3Logs,
 
     -- * LogsLocation
-    LogsLocation (..),
+    LogsLocation,
     newLogsLocation,
     logsLocation_cloudWatchLogs,
     logsLocation_cloudWatchLogsArn,
@@ -373,19 +374,19 @@ module Amazonka.CodeBuild.Types
     logsLocation_streamName,
 
     -- * NetworkInterface
-    NetworkInterface (..),
+    NetworkInterface,
     newNetworkInterface,
     networkInterface_networkInterfaceId,
     networkInterface_subnetId,
 
     -- * PhaseContext
-    PhaseContext (..),
+    PhaseContext,
     newPhaseContext,
     phaseContext_message,
     phaseContext_statusCode,
 
     -- * Project
-    Project (..),
+    Project,
     newProject,
     project_arn,
     project_artifacts,
@@ -417,7 +418,7 @@ module Amazonka.CodeBuild.Types
     project_webhook,
 
     -- * ProjectArtifacts
-    ProjectArtifacts (..),
+    ProjectArtifacts,
     newProjectArtifacts,
     projectArtifacts_artifactIdentifier,
     projectArtifacts_bucketOwnerAccess,
@@ -431,13 +432,13 @@ module Amazonka.CodeBuild.Types
     projectArtifacts_type,
 
     -- * ProjectBadge
-    ProjectBadge (..),
+    ProjectBadge,
     newProjectBadge,
     projectBadge_badgeEnabled,
     projectBadge_badgeRequestUrl,
 
     -- * ProjectBuildBatchConfig
-    ProjectBuildBatchConfig (..),
+    ProjectBuildBatchConfig,
     newProjectBuildBatchConfig,
     projectBuildBatchConfig_batchReportMode,
     projectBuildBatchConfig_combineArtifacts,
@@ -446,14 +447,14 @@ module Amazonka.CodeBuild.Types
     projectBuildBatchConfig_timeoutInMins,
 
     -- * ProjectCache
-    ProjectCache (..),
+    ProjectCache,
     newProjectCache,
     projectCache_location,
     projectCache_modes,
     projectCache_type,
 
     -- * ProjectEnvironment
-    ProjectEnvironment (..),
+    ProjectEnvironment,
     newProjectEnvironment,
     projectEnvironment_certificate,
     projectEnvironment_environmentVariables,
@@ -465,7 +466,7 @@ module Amazonka.CodeBuild.Types
     projectEnvironment_computeType,
 
     -- * ProjectFileSystemLocation
-    ProjectFileSystemLocation (..),
+    ProjectFileSystemLocation,
     newProjectFileSystemLocation,
     projectFileSystemLocation_identifier,
     projectFileSystemLocation_location,
@@ -474,7 +475,7 @@ module Amazonka.CodeBuild.Types
     projectFileSystemLocation_type,
 
     -- * ProjectSource
-    ProjectSource (..),
+    ProjectSource,
     newProjectSource,
     projectSource_auth,
     projectSource_buildStatusConfig,
@@ -488,19 +489,19 @@ module Amazonka.CodeBuild.Types
     projectSource_type,
 
     -- * ProjectSourceVersion
-    ProjectSourceVersion (..),
+    ProjectSourceVersion,
     newProjectSourceVersion,
     projectSourceVersion_sourceIdentifier,
     projectSourceVersion_sourceVersion,
 
     -- * RegistryCredential
-    RegistryCredential (..),
+    RegistryCredential,
     newRegistryCredential,
     registryCredential_credential,
     registryCredential_credentialProvider,
 
     -- * Report
-    Report (..),
+    Report,
     newReport,
     report_arn,
     report_codeCoverageSummary,
@@ -516,18 +517,18 @@ module Amazonka.CodeBuild.Types
     report_type,
 
     -- * ReportExportConfig
-    ReportExportConfig (..),
+    ReportExportConfig,
     newReportExportConfig,
     reportExportConfig_exportConfigType,
     reportExportConfig_s3Destination,
 
     -- * ReportFilter
-    ReportFilter (..),
+    ReportFilter,
     newReportFilter,
     reportFilter_status,
 
     -- * ReportGroup
-    ReportGroup (..),
+    ReportGroup,
     newReportGroup,
     reportGroup_arn,
     reportGroup_created,
@@ -539,27 +540,27 @@ module Amazonka.CodeBuild.Types
     reportGroup_type,
 
     -- * ReportGroupTrendStats
-    ReportGroupTrendStats (..),
+    ReportGroupTrendStats,
     newReportGroupTrendStats,
     reportGroupTrendStats_average,
     reportGroupTrendStats_max,
     reportGroupTrendStats_min,
 
     -- * ReportWithRawData
-    ReportWithRawData (..),
+    ReportWithRawData,
     newReportWithRawData,
     reportWithRawData_data,
     reportWithRawData_reportArn,
 
     -- * ResolvedArtifact
-    ResolvedArtifact (..),
+    ResolvedArtifact,
     newResolvedArtifact,
     resolvedArtifact_identifier,
     resolvedArtifact_location,
     resolvedArtifact_type,
 
     -- * S3LogsConfig
-    S3LogsConfig (..),
+    S3LogsConfig,
     newS3LogsConfig,
     s3LogsConfig_bucketOwnerAccess,
     s3LogsConfig_encryptionDisabled,
@@ -567,7 +568,7 @@ module Amazonka.CodeBuild.Types
     s3LogsConfig_status,
 
     -- * S3ReportExportConfig
-    S3ReportExportConfig (..),
+    S3ReportExportConfig,
     newS3ReportExportConfig,
     s3ReportExportConfig_bucket,
     s3ReportExportConfig_bucketOwner,
@@ -577,26 +578,26 @@ module Amazonka.CodeBuild.Types
     s3ReportExportConfig_path,
 
     -- * SourceAuth
-    SourceAuth (..),
+    SourceAuth,
     newSourceAuth,
     sourceAuth_resource,
     sourceAuth_type,
 
     -- * SourceCredentialsInfo
-    SourceCredentialsInfo (..),
+    SourceCredentialsInfo,
     newSourceCredentialsInfo,
     sourceCredentialsInfo_arn,
     sourceCredentialsInfo_authType,
     sourceCredentialsInfo_serverType,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,
 
     -- * TestCase
-    TestCase (..),
+    TestCase,
     newTestCase,
     testCase_durationInNanoSeconds,
     testCase_expired,
@@ -608,27 +609,27 @@ module Amazonka.CodeBuild.Types
     testCase_testRawDataPath,
 
     -- * TestCaseFilter
-    TestCaseFilter (..),
+    TestCaseFilter,
     newTestCaseFilter,
     testCaseFilter_keyword,
     testCaseFilter_status,
 
     -- * TestReportSummary
-    TestReportSummary (..),
+    TestReportSummary,
     newTestReportSummary,
     testReportSummary_total,
     testReportSummary_statusCounts,
     testReportSummary_durationInNanoSeconds,
 
     -- * VpcConfig
-    VpcConfig (..),
+    VpcConfig,
     newVpcConfig,
     vpcConfig_securityGroupIds,
     vpcConfig_subnets,
     vpcConfig_vpcId,
 
     -- * Webhook
-    Webhook (..),
+    Webhook,
     newWebhook,
     webhook_branchFilter,
     webhook_buildType,
@@ -639,7 +640,7 @@ module Amazonka.CodeBuild.Types
     webhook_url,
 
     -- * WebhookFilter
-    WebhookFilter (..),
+    WebhookFilter,
     newWebhookFilter,
     webhookFilter_excludeMatchedPattern,
     webhookFilter_type,

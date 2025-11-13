@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -27,19 +28,19 @@ module Amazonka.RDSData.Types
     _StatementTimeoutException,
 
     -- * DecimalReturnType
-    DecimalReturnType (..),
+    DecimalReturnType,
 
     -- * LongReturnType
-    LongReturnType (..),
+    LongReturnType,
 
     -- * RecordsFormatType
-    RecordsFormatType (..),
+    RecordsFormatType,
 
     -- * TypeHint
-    TypeHint (..),
+    TypeHint,
 
     -- * ArrayValue
-    ArrayValue (..),
+    ArrayValue,
     newArrayValue,
     arrayValue_arrayValues,
     arrayValue_booleanValues,
@@ -48,7 +49,7 @@ module Amazonka.RDSData.Types
     arrayValue_stringValues,
 
     -- * ColumnMetadata
-    ColumnMetadata (..),
+    ColumnMetadata,
     newColumnMetadata,
     columnMetadata_arrayBaseColumnType,
     columnMetadata_isAutoIncrement,
@@ -66,7 +67,7 @@ module Amazonka.RDSData.Types
     columnMetadata_typeName,
 
     -- * Field
-    Field (..),
+    Field,
     newField,
     field_arrayValue,
     field_blobValue,
@@ -77,20 +78,20 @@ module Amazonka.RDSData.Types
     field_stringValue,
 
     -- * ResultSetOptions
-    ResultSetOptions (..),
+    ResultSetOptions,
     newResultSetOptions,
     resultSetOptions_decimalReturnType,
     resultSetOptions_longReturnType,
 
     -- * SqlParameter
-    SqlParameter (..),
+    SqlParameter,
     newSqlParameter,
     sqlParameter_name,
     sqlParameter_typeHint,
     sqlParameter_value,
 
     -- * UpdateResult
-    UpdateResult (..),
+    UpdateResult,
     newUpdateResult,
     updateResult_generatedFields,
   )

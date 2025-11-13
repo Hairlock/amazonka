@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -35,111 +36,111 @@ module Amazonka.AlexaBusiness.Types
     _UnauthorizedException,
 
     -- * BusinessReportFailureCode
-    BusinessReportFailureCode (..),
+    BusinessReportFailureCode,
 
     -- * BusinessReportFormat
-    BusinessReportFormat (..),
+    BusinessReportFormat,
 
     -- * BusinessReportInterval
-    BusinessReportInterval (..),
+    BusinessReportInterval,
 
     -- * BusinessReportStatus
-    BusinessReportStatus (..),
+    BusinessReportStatus,
 
     -- * CommsProtocol
-    CommsProtocol (..),
+    CommsProtocol,
 
     -- * ConferenceProviderType
-    ConferenceProviderType (..),
+    ConferenceProviderType,
 
     -- * ConnectionStatus
-    ConnectionStatus (..),
+    ConnectionStatus,
 
     -- * DeviceEventType
-    DeviceEventType (..),
+    DeviceEventType,
 
     -- * DeviceStatus
-    DeviceStatus (..),
+    DeviceStatus,
 
     -- * DeviceStatusDetailCode
-    DeviceStatusDetailCode (..),
+    DeviceStatusDetailCode,
 
     -- * DeviceUsageType
-    DeviceUsageType (..),
+    DeviceUsageType,
 
     -- * DistanceUnit
-    DistanceUnit (..),
+    DistanceUnit,
 
     -- * EnablementType
-    EnablementType (..),
+    EnablementType,
 
     -- * EnablementTypeFilter
-    EnablementTypeFilter (..),
+    EnablementTypeFilter,
 
     -- * EndOfMeetingReminderType
-    EndOfMeetingReminderType (..),
+    EndOfMeetingReminderType,
 
     -- * EnrollmentStatus
-    EnrollmentStatus (..),
+    EnrollmentStatus,
 
     -- * Feature
-    Feature (..),
+    Feature,
 
     -- * Locale
-    Locale (..),
+    Locale,
 
     -- * NetworkEapMethod
-    NetworkEapMethod (..),
+    NetworkEapMethod,
 
     -- * NetworkSecurityType
-    NetworkSecurityType (..),
+    NetworkSecurityType,
 
     -- * PhoneNumberType
-    PhoneNumberType (..),
+    PhoneNumberType,
 
     -- * RequirePin
-    RequirePin (..),
+    RequirePin,
 
     -- * SipType
-    SipType (..),
+    SipType,
 
     -- * SkillType
-    SkillType (..),
+    SkillType,
 
     -- * SkillTypeFilter
-    SkillTypeFilter (..),
+    SkillTypeFilter,
 
     -- * SortValue
-    SortValue (..),
+    SortValue,
 
     -- * TemperatureUnit
-    TemperatureUnit (..),
+    TemperatureUnit,
 
     -- * WakeWord
-    WakeWord (..),
+    WakeWord,
 
     -- * AddressBook
-    AddressBook (..),
+    AddressBook,
     newAddressBook,
     addressBook_addressBookArn,
     addressBook_description,
     addressBook_name,
 
     -- * AddressBookData
-    AddressBookData (..),
+    AddressBookData,
     newAddressBookData,
     addressBookData_addressBookArn,
     addressBookData_description,
     addressBookData_name,
 
     -- * Audio
-    Audio (..),
+    Audio,
     newAudio,
     audio_locale,
     audio_location,
 
     -- * BusinessReport
-    BusinessReport (..),
+    BusinessReport,
     newBusinessReport,
     businessReport_deliveryTime,
     businessReport_downloadUrl,
@@ -148,23 +149,23 @@ module Amazonka.AlexaBusiness.Types
     businessReport_status,
 
     -- * BusinessReportContentRange
-    BusinessReportContentRange (..),
+    BusinessReportContentRange,
     newBusinessReportContentRange,
     businessReportContentRange_interval,
 
     -- * BusinessReportRecurrence
-    BusinessReportRecurrence (..),
+    BusinessReportRecurrence,
     newBusinessReportRecurrence,
     businessReportRecurrence_startDate,
 
     -- * BusinessReportS3Location
-    BusinessReportS3Location (..),
+    BusinessReportS3Location,
     newBusinessReportS3Location,
     businessReportS3Location_bucketName,
     businessReportS3Location_path,
 
     -- * BusinessReportSchedule
-    BusinessReportSchedule (..),
+    BusinessReportSchedule,
     newBusinessReportSchedule,
     businessReportSchedule_contentRange,
     businessReportSchedule_format,
@@ -176,18 +177,18 @@ module Amazonka.AlexaBusiness.Types
     businessReportSchedule_scheduleName,
 
     -- * Category
-    Category (..),
+    Category,
     newCategory,
     category_categoryId,
     category_categoryName,
 
     -- * ConferencePreference
-    ConferencePreference (..),
+    ConferencePreference,
     newConferencePreference,
     conferencePreference_defaultConferenceProviderArn,
 
     -- * ConferenceProvider
-    ConferenceProvider (..),
+    ConferenceProvider,
     newConferenceProvider,
     conferenceProvider_arn,
     conferenceProvider_iPDialIn,
@@ -197,7 +198,7 @@ module Amazonka.AlexaBusiness.Types
     conferenceProvider_type,
 
     -- * Contact
-    Contact (..),
+    Contact,
     newContact,
     contact_contactArn,
     contact_displayName,
@@ -208,7 +209,7 @@ module Amazonka.AlexaBusiness.Types
     contact_sipAddresses,
 
     -- * ContactData
-    ContactData (..),
+    ContactData,
     newContactData,
     contactData_contactArn,
     contactData_displayName,
@@ -219,27 +220,27 @@ module Amazonka.AlexaBusiness.Types
     contactData_sipAddresses,
 
     -- * Content
-    Content (..),
+    Content,
     newContent,
     content_audioList,
     content_ssmlList,
     content_textList,
 
     -- * CreateEndOfMeetingReminder
-    CreateEndOfMeetingReminder (..),
+    CreateEndOfMeetingReminder,
     newCreateEndOfMeetingReminder,
     createEndOfMeetingReminder_reminderAtMinutes,
     createEndOfMeetingReminder_reminderType,
     createEndOfMeetingReminder_enabled,
 
     -- * CreateInstantBooking
-    CreateInstantBooking (..),
+    CreateInstantBooking,
     newCreateInstantBooking,
     createInstantBooking_durationInMinutes,
     createInstantBooking_enabled,
 
     -- * CreateMeetingRoomConfiguration
-    CreateMeetingRoomConfiguration (..),
+    CreateMeetingRoomConfiguration,
     newCreateMeetingRoomConfiguration,
     createMeetingRoomConfiguration_endOfMeetingReminder,
     createMeetingRoomConfiguration_instantBooking,
@@ -247,13 +248,13 @@ module Amazonka.AlexaBusiness.Types
     createMeetingRoomConfiguration_roomUtilizationMetricsEnabled,
 
     -- * CreateRequireCheckIn
-    CreateRequireCheckIn (..),
+    CreateRequireCheckIn,
     newCreateRequireCheckIn,
     createRequireCheckIn_releaseAfterMinutes,
     createRequireCheckIn_enabled,
 
     -- * DeveloperInfo
-    DeveloperInfo (..),
+    DeveloperInfo,
     newDeveloperInfo,
     developerInfo_developerName,
     developerInfo_email,
@@ -261,7 +262,7 @@ module Amazonka.AlexaBusiness.Types
     developerInfo_url,
 
     -- * Device
-    Device (..),
+    Device,
     newDevice,
     device_deviceArn,
     device_deviceName,
@@ -275,7 +276,7 @@ module Amazonka.AlexaBusiness.Types
     device_softwareVersion,
 
     -- * DeviceData
-    DeviceData (..),
+    DeviceData,
     newDeviceData,
     deviceData_createdTime,
     deviceData_deviceArn,
@@ -292,47 +293,47 @@ module Amazonka.AlexaBusiness.Types
     deviceData_softwareVersion,
 
     -- * DeviceEvent
-    DeviceEvent (..),
+    DeviceEvent,
     newDeviceEvent,
     deviceEvent_timestamp,
     deviceEvent_type,
     deviceEvent_value,
 
     -- * DeviceNetworkProfileInfo
-    DeviceNetworkProfileInfo (..),
+    DeviceNetworkProfileInfo,
     newDeviceNetworkProfileInfo,
     deviceNetworkProfileInfo_certificateArn,
     deviceNetworkProfileInfo_certificateExpirationTime,
     deviceNetworkProfileInfo_networkProfileArn,
 
     -- * DeviceStatusDetail
-    DeviceStatusDetail (..),
+    DeviceStatusDetail,
     newDeviceStatusDetail,
     deviceStatusDetail_code,
     deviceStatusDetail_feature,
 
     -- * DeviceStatusInfo
-    DeviceStatusInfo (..),
+    DeviceStatusInfo,
     newDeviceStatusInfo,
     deviceStatusInfo_connectionStatus,
     deviceStatusInfo_connectionStatusUpdatedTime,
     deviceStatusInfo_deviceStatusDetails,
 
     -- * EndOfMeetingReminder
-    EndOfMeetingReminder (..),
+    EndOfMeetingReminder,
     newEndOfMeetingReminder,
     endOfMeetingReminder_enabled,
     endOfMeetingReminder_reminderAtMinutes,
     endOfMeetingReminder_reminderType,
 
     -- * Filter
-    Filter (..),
+    Filter,
     newFilter,
     filter_key,
     filter_values,
 
     -- * Gateway
-    Gateway (..),
+    Gateway,
     newGateway,
     gateway_arn,
     gateway_description,
@@ -341,21 +342,21 @@ module Amazonka.AlexaBusiness.Types
     gateway_softwareVersion,
 
     -- * GatewayGroup
-    GatewayGroup (..),
+    GatewayGroup,
     newGatewayGroup,
     gatewayGroup_arn,
     gatewayGroup_description,
     gatewayGroup_name,
 
     -- * GatewayGroupSummary
-    GatewayGroupSummary (..),
+    GatewayGroupSummary,
     newGatewayGroupSummary,
     gatewayGroupSummary_arn,
     gatewayGroupSummary_description,
     gatewayGroupSummary_name,
 
     -- * GatewaySummary
-    GatewaySummary (..),
+    GatewaySummary,
     newGatewaySummary,
     gatewaySummary_arn,
     gatewaySummary_description,
@@ -364,19 +365,19 @@ module Amazonka.AlexaBusiness.Types
     gatewaySummary_softwareVersion,
 
     -- * IPDialIn
-    IPDialIn (..),
+    IPDialIn,
     newIPDialIn,
     iPDialIn_endpoint,
     iPDialIn_commsProtocol,
 
     -- * InstantBooking
-    InstantBooking (..),
+    InstantBooking,
     newInstantBooking,
     instantBooking_durationInMinutes,
     instantBooking_enabled,
 
     -- * MeetingRoomConfiguration
-    MeetingRoomConfiguration (..),
+    MeetingRoomConfiguration,
     newMeetingRoomConfiguration,
     meetingRoomConfiguration_endOfMeetingReminder,
     meetingRoomConfiguration_instantBooking,
@@ -384,12 +385,12 @@ module Amazonka.AlexaBusiness.Types
     meetingRoomConfiguration_roomUtilizationMetricsEnabled,
 
     -- * MeetingSetting
-    MeetingSetting (..),
+    MeetingSetting,
     newMeetingSetting,
     meetingSetting_requirePin,
 
     -- * NetworkProfile
-    NetworkProfile (..),
+    NetworkProfile,
     newNetworkProfile,
     networkProfile_certificateAuthorityArn,
     networkProfile_currentPassword,
@@ -403,7 +404,7 @@ module Amazonka.AlexaBusiness.Types
     networkProfile_trustAnchors,
 
     -- * NetworkProfileData
-    NetworkProfileData (..),
+    NetworkProfileData,
     newNetworkProfileData,
     networkProfileData_certificateAuthorityArn,
     networkProfileData_description,
@@ -414,7 +415,7 @@ module Amazonka.AlexaBusiness.Types
     networkProfileData_ssid,
 
     -- * PSTNDialIn
-    PSTNDialIn (..),
+    PSTNDialIn,
     newPSTNDialIn,
     pSTNDialIn_countryCode,
     pSTNDialIn_phoneNumber,
@@ -422,13 +423,13 @@ module Amazonka.AlexaBusiness.Types
     pSTNDialIn_oneClickPinDelay,
 
     -- * PhoneNumber
-    PhoneNumber (..),
+    PhoneNumber,
     newPhoneNumber,
     phoneNumber_number,
     phoneNumber_type,
 
     -- * Profile
-    Profile (..),
+    Profile,
     newProfile,
     profile_address,
     profile_addressBookArn,
@@ -447,7 +448,7 @@ module Amazonka.AlexaBusiness.Types
     profile_wakeWord,
 
     -- * ProfileData
-    ProfileData (..),
+    ProfileData,
     newProfileData,
     profileData_address,
     profileData_distanceUnit,
@@ -460,13 +461,13 @@ module Amazonka.AlexaBusiness.Types
     profileData_wakeWord,
 
     -- * RequireCheckIn
-    RequireCheckIn (..),
+    RequireCheckIn,
     newRequireCheckIn,
     requireCheckIn_enabled,
     requireCheckIn_releaseAfterMinutes,
 
     -- * Room
-    Room (..),
+    Room,
     newRoom,
     room_description,
     room_profileArn,
@@ -475,7 +476,7 @@ module Amazonka.AlexaBusiness.Types
     room_roomName,
 
     -- * RoomData
-    RoomData (..),
+    RoomData,
     newRoomData,
     roomData_description,
     roomData_profileArn,
@@ -485,19 +486,19 @@ module Amazonka.AlexaBusiness.Types
     roomData_roomName,
 
     -- * RoomSkillParameter
-    RoomSkillParameter (..),
+    RoomSkillParameter,
     newRoomSkillParameter,
     roomSkillParameter_parameterKey,
     roomSkillParameter_parameterValue,
 
     -- * SipAddress
-    SipAddress (..),
+    SipAddress,
     newSipAddress,
     sipAddress_uri,
     sipAddress_type,
 
     -- * SkillDetails
-    SkillDetails (..),
+    SkillDetails,
     newSkillDetails,
     skillDetails_bulletPoints,
     skillDetails_developerInfo,
@@ -511,21 +512,21 @@ module Amazonka.AlexaBusiness.Types
     skillDetails_skillTypes,
 
     -- * SkillGroup
-    SkillGroup (..),
+    SkillGroup,
     newSkillGroup,
     skillGroup_description,
     skillGroup_skillGroupArn,
     skillGroup_skillGroupName,
 
     -- * SkillGroupData
-    SkillGroupData (..),
+    SkillGroupData,
     newSkillGroupData,
     skillGroupData_description,
     skillGroupData_skillGroupArn,
     skillGroupData_skillGroupName,
 
     -- * SkillSummary
-    SkillSummary (..),
+    SkillSummary,
     newSkillSummary,
     skillSummary_enablementType,
     skillSummary_skillId,
@@ -534,7 +535,7 @@ module Amazonka.AlexaBusiness.Types
     skillSummary_supportsLinking,
 
     -- * SkillsStoreSkill
-    SkillsStoreSkill (..),
+    SkillsStoreSkill,
     newSkillsStoreSkill,
     skillsStoreSkill_iconUrl,
     skillsStoreSkill_sampleUtterances,
@@ -545,51 +546,51 @@ module Amazonka.AlexaBusiness.Types
     skillsStoreSkill_supportsLinking,
 
     -- * SmartHomeAppliance
-    SmartHomeAppliance (..),
+    SmartHomeAppliance,
     newSmartHomeAppliance,
     smartHomeAppliance_description,
     smartHomeAppliance_friendlyName,
     smartHomeAppliance_manufacturerName,
 
     -- * Sort
-    Sort (..),
+    Sort,
     newSort,
     sort_key,
     sort_value,
 
     -- * Ssml
-    Ssml (..),
+    Ssml,
     newSsml,
     ssml_locale,
     ssml_value,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,
 
     -- * TextMessage
-    TextMessage (..),
+    TextMessage,
     newTextMessage,
     textMessage_locale,
     textMessage_value,
 
     -- * UpdateEndOfMeetingReminder
-    UpdateEndOfMeetingReminder (..),
+    UpdateEndOfMeetingReminder,
     newUpdateEndOfMeetingReminder,
     updateEndOfMeetingReminder_enabled,
     updateEndOfMeetingReminder_reminderAtMinutes,
     updateEndOfMeetingReminder_reminderType,
 
     -- * UpdateInstantBooking
-    UpdateInstantBooking (..),
+    UpdateInstantBooking,
     newUpdateInstantBooking,
     updateInstantBooking_durationInMinutes,
     updateInstantBooking_enabled,
 
     -- * UpdateMeetingRoomConfiguration
-    UpdateMeetingRoomConfiguration (..),
+    UpdateMeetingRoomConfiguration,
     newUpdateMeetingRoomConfiguration,
     updateMeetingRoomConfiguration_endOfMeetingReminder,
     updateMeetingRoomConfiguration_instantBooking,
@@ -597,13 +598,13 @@ module Amazonka.AlexaBusiness.Types
     updateMeetingRoomConfiguration_roomUtilizationMetricsEnabled,
 
     -- * UpdateRequireCheckIn
-    UpdateRequireCheckIn (..),
+    UpdateRequireCheckIn,
     newUpdateRequireCheckIn,
     updateRequireCheckIn_enabled,
     updateRequireCheckIn_releaseAfterMinutes,
 
     -- * UserData
-    UserData (..),
+    UserData,
     newUserData,
     userData_email,
     userData_enrollmentId,

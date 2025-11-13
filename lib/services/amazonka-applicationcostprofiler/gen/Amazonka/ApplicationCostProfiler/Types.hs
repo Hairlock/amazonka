@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -25,16 +26,16 @@ module Amazonka.ApplicationCostProfiler.Types
     _ValidationException,
 
     -- * Format
-    Format (..),
+    Format,
 
     -- * ReportFrequency
-    ReportFrequency (..),
+    ReportFrequency,
 
     -- * S3BucketRegion
-    S3BucketRegion (..),
+    S3BucketRegion,
 
     -- * ReportDefinition
-    ReportDefinition (..),
+    ReportDefinition,
     newReportDefinition,
     reportDefinition_createdAt,
     reportDefinition_destinationS3Location,
@@ -45,13 +46,13 @@ module Amazonka.ApplicationCostProfiler.Types
     reportDefinition_reportId,
 
     -- * S3Location
-    S3Location (..),
+    S3Location,
     newS3Location,
     s3Location_bucket,
     s3Location_prefix,
 
     -- * SourceS3Location
-    SourceS3Location (..),
+    SourceS3Location,
     newSourceS3Location,
     sourceS3Location_region,
     sourceS3Location_bucket,

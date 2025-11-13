@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -55,170 +56,170 @@ module Amazonka.FSx.Types
     _VolumeNotFound,
 
     -- * AdministrativeActionType
-    AdministrativeActionType (..),
+    AdministrativeActionType,
 
     -- * AliasLifecycle
-    AliasLifecycle (..),
+    AliasLifecycle,
 
     -- * AutoImportPolicyType
-    AutoImportPolicyType (..),
+    AutoImportPolicyType,
 
     -- * BackupLifecycle
-    BackupLifecycle (..),
+    BackupLifecycle,
 
     -- * BackupType
-    BackupType (..),
+    BackupType,
 
     -- * DataCompressionType
-    DataCompressionType (..),
+    DataCompressionType,
 
     -- * DataRepositoryLifecycle
-    DataRepositoryLifecycle (..),
+    DataRepositoryLifecycle,
 
     -- * DataRepositoryTaskFilterName
-    DataRepositoryTaskFilterName (..),
+    DataRepositoryTaskFilterName,
 
     -- * DataRepositoryTaskLifecycle
-    DataRepositoryTaskLifecycle (..),
+    DataRepositoryTaskLifecycle,
 
     -- * DataRepositoryTaskType
-    DataRepositoryTaskType (..),
+    DataRepositoryTaskType,
 
     -- * DeleteFileSystemOpenZFSOption
-    DeleteFileSystemOpenZFSOption (..),
+    DeleteFileSystemOpenZFSOption,
 
     -- * DeleteOpenZFSVolumeOption
-    DeleteOpenZFSVolumeOption (..),
+    DeleteOpenZFSVolumeOption,
 
     -- * DiskIopsConfigurationMode
-    DiskIopsConfigurationMode (..),
+    DiskIopsConfigurationMode,
 
     -- * DriveCacheType
-    DriveCacheType (..),
+    DriveCacheType,
 
     -- * EventType
-    EventType (..),
+    EventType,
 
     -- * FileCacheLifecycle
-    FileCacheLifecycle (..),
+    FileCacheLifecycle,
 
     -- * FileCacheLustreDeploymentType
-    FileCacheLustreDeploymentType (..),
+    FileCacheLustreDeploymentType,
 
     -- * FileCacheType
-    FileCacheType (..),
+    FileCacheType,
 
     -- * FileSystemLifecycle
-    FileSystemLifecycle (..),
+    FileSystemLifecycle,
 
     -- * FileSystemMaintenanceOperation
-    FileSystemMaintenanceOperation (..),
+    FileSystemMaintenanceOperation,
 
     -- * FileSystemType
-    FileSystemType (..),
+    FileSystemType,
 
     -- * FilterName
-    FilterName (..),
+    FilterName,
 
     -- * FlexCacheEndpointType
-    FlexCacheEndpointType (..),
+    FlexCacheEndpointType,
 
     -- * InputOntapVolumeType
-    InputOntapVolumeType (..),
+    InputOntapVolumeType,
 
     -- * LustreAccessAuditLogLevel
-    LustreAccessAuditLogLevel (..),
+    LustreAccessAuditLogLevel,
 
     -- * LustreDeploymentType
-    LustreDeploymentType (..),
+    LustreDeploymentType,
 
     -- * NfsVersion
-    NfsVersion (..),
+    NfsVersion,
 
     -- * OntapDeploymentType
-    OntapDeploymentType (..),
+    OntapDeploymentType,
 
     -- * OntapVolumeType
-    OntapVolumeType (..),
+    OntapVolumeType,
 
     -- * OpenZFSCopyStrategy
-    OpenZFSCopyStrategy (..),
+    OpenZFSCopyStrategy,
 
     -- * OpenZFSDataCompressionType
-    OpenZFSDataCompressionType (..),
+    OpenZFSDataCompressionType,
 
     -- * OpenZFSDeploymentType
-    OpenZFSDeploymentType (..),
+    OpenZFSDeploymentType,
 
     -- * OpenZFSQuotaType
-    OpenZFSQuotaType (..),
+    OpenZFSQuotaType,
 
     -- * ReportFormat
-    ReportFormat (..),
+    ReportFormat,
 
     -- * ReportScope
-    ReportScope (..),
+    ReportScope,
 
     -- * ResourceType
-    ResourceType (..),
+    ResourceType,
 
     -- * RestoreOpenZFSVolumeOption
-    RestoreOpenZFSVolumeOption (..),
+    RestoreOpenZFSVolumeOption,
 
     -- * SecurityStyle
-    SecurityStyle (..),
+    SecurityStyle,
 
     -- * SnapshotFilterName
-    SnapshotFilterName (..),
+    SnapshotFilterName,
 
     -- * SnapshotLifecycle
-    SnapshotLifecycle (..),
+    SnapshotLifecycle,
 
     -- * Status
-    Status (..),
+    Status,
 
     -- * StorageType
-    StorageType (..),
+    StorageType,
 
     -- * StorageVirtualMachineFilterName
-    StorageVirtualMachineFilterName (..),
+    StorageVirtualMachineFilterName,
 
     -- * StorageVirtualMachineLifecycle
-    StorageVirtualMachineLifecycle (..),
+    StorageVirtualMachineLifecycle,
 
     -- * StorageVirtualMachineRootVolumeSecurityStyle
-    StorageVirtualMachineRootVolumeSecurityStyle (..),
+    StorageVirtualMachineRootVolumeSecurityStyle,
 
     -- * StorageVirtualMachineSubtype
-    StorageVirtualMachineSubtype (..),
+    StorageVirtualMachineSubtype,
 
     -- * TieringPolicyName
-    TieringPolicyName (..),
+    TieringPolicyName,
 
     -- * VolumeFilterName
-    VolumeFilterName (..),
+    VolumeFilterName,
 
     -- * VolumeLifecycle
-    VolumeLifecycle (..),
+    VolumeLifecycle,
 
     -- * VolumeType
-    VolumeType (..),
+    VolumeType,
 
     -- * WindowsAccessAuditLogLevel
-    WindowsAccessAuditLogLevel (..),
+    WindowsAccessAuditLogLevel,
 
     -- * WindowsDeploymentType
-    WindowsDeploymentType (..),
+    WindowsDeploymentType,
 
     -- * ActiveDirectoryBackupAttributes
-    ActiveDirectoryBackupAttributes (..),
+    ActiveDirectoryBackupAttributes,
     newActiveDirectoryBackupAttributes,
     activeDirectoryBackupAttributes_activeDirectoryId,
     activeDirectoryBackupAttributes_domainName,
     activeDirectoryBackupAttributes_resourceARN,
 
     -- * AdministrativeAction
-    AdministrativeAction (..),
+    AdministrativeAction,
     newAdministrativeAction,
     administrativeAction_administrativeActionType,
     administrativeAction_failureDetails,
@@ -230,28 +231,28 @@ module Amazonka.FSx.Types
     administrativeAction_targetVolumeValues,
 
     -- * AdministrativeActionFailureDetails
-    AdministrativeActionFailureDetails (..),
+    AdministrativeActionFailureDetails,
     newAdministrativeActionFailureDetails,
     administrativeActionFailureDetails_message,
 
     -- * Alias
-    Alias (..),
+    Alias,
     newAlias,
     alias_lifecycle,
     alias_name,
 
     -- * AutoExportPolicy
-    AutoExportPolicy (..),
+    AutoExportPolicy,
     newAutoExportPolicy,
     autoExportPolicy_events,
 
     -- * AutoImportPolicy
-    AutoImportPolicy (..),
+    AutoImportPolicy,
     newAutoImportPolicy,
     autoImportPolicy_events,
 
     -- * Backup
-    Backup (..),
+    Backup,
     newBackup,
     backup_directoryInformation,
     backup_failureDetails,
@@ -271,12 +272,12 @@ module Amazonka.FSx.Types
     backup_fileSystem,
 
     -- * BackupFailureDetails
-    BackupFailureDetails (..),
+    BackupFailureDetails,
     newBackupFailureDetails,
     backupFailureDetails_message,
 
     -- * CompletionReport
-    CompletionReport (..),
+    CompletionReport,
     newCompletionReport,
     completionReport_format,
     completionReport_path,
@@ -284,7 +285,7 @@ module Amazonka.FSx.Types
     completionReport_enabled,
 
     -- * CreateFileCacheLustreConfiguration
-    CreateFileCacheLustreConfiguration (..),
+    CreateFileCacheLustreConfiguration,
     newCreateFileCacheLustreConfiguration,
     createFileCacheLustreConfiguration_weeklyMaintenanceStartTime,
     createFileCacheLustreConfiguration_perUnitStorageThroughput,
@@ -292,7 +293,7 @@ module Amazonka.FSx.Types
     createFileCacheLustreConfiguration_metadataConfiguration,
 
     -- * CreateFileSystemLustreConfiguration
-    CreateFileSystemLustreConfiguration (..),
+    CreateFileSystemLustreConfiguration,
     newCreateFileSystemLustreConfiguration,
     createFileSystemLustreConfiguration_autoImportPolicy,
     createFileSystemLustreConfiguration_automaticBackupRetentionDays,
@@ -310,7 +311,7 @@ module Amazonka.FSx.Types
     createFileSystemLustreConfiguration_weeklyMaintenanceStartTime,
 
     -- * CreateFileSystemOntapConfiguration
-    CreateFileSystemOntapConfiguration (..),
+    CreateFileSystemOntapConfiguration,
     newCreateFileSystemOntapConfiguration,
     createFileSystemOntapConfiguration_automaticBackupRetentionDays,
     createFileSystemOntapConfiguration_dailyAutomaticBackupStartTime,
@@ -324,7 +325,7 @@ module Amazonka.FSx.Types
     createFileSystemOntapConfiguration_throughputCapacity,
 
     -- * CreateFileSystemOpenZFSConfiguration
-    CreateFileSystemOpenZFSConfiguration (..),
+    CreateFileSystemOpenZFSConfiguration,
     newCreateFileSystemOpenZFSConfiguration,
     createFileSystemOpenZFSConfiguration_automaticBackupRetentionDays,
     createFileSystemOpenZFSConfiguration_copyTagsToBackups,
@@ -337,7 +338,7 @@ module Amazonka.FSx.Types
     createFileSystemOpenZFSConfiguration_throughputCapacity,
 
     -- * CreateFileSystemWindowsConfiguration
-    CreateFileSystemWindowsConfiguration (..),
+    CreateFileSystemWindowsConfiguration,
     newCreateFileSystemWindowsConfiguration,
     createFileSystemWindowsConfiguration_activeDirectoryId,
     createFileSystemWindowsConfiguration_aliases,
@@ -352,7 +353,7 @@ module Amazonka.FSx.Types
     createFileSystemWindowsConfiguration_throughputCapacity,
 
     -- * CreateOntapVolumeConfiguration
-    CreateOntapVolumeConfiguration (..),
+    CreateOntapVolumeConfiguration,
     newCreateOntapVolumeConfiguration,
     createOntapVolumeConfiguration_copyTagsToBackups,
     createOntapVolumeConfiguration_junctionPath,
@@ -365,13 +366,13 @@ module Amazonka.FSx.Types
     createOntapVolumeConfiguration_storageVirtualMachineId,
 
     -- * CreateOpenZFSOriginSnapshotConfiguration
-    CreateOpenZFSOriginSnapshotConfiguration (..),
+    CreateOpenZFSOriginSnapshotConfiguration,
     newCreateOpenZFSOriginSnapshotConfiguration,
     createOpenZFSOriginSnapshotConfiguration_snapshotARN,
     createOpenZFSOriginSnapshotConfiguration_copyStrategy,
 
     -- * CreateOpenZFSVolumeConfiguration
-    CreateOpenZFSVolumeConfiguration (..),
+    CreateOpenZFSVolumeConfiguration,
     newCreateOpenZFSVolumeConfiguration,
     createOpenZFSVolumeConfiguration_copyTagsToSnapshots,
     createOpenZFSVolumeConfiguration_dataCompressionType,
@@ -385,13 +386,13 @@ module Amazonka.FSx.Types
     createOpenZFSVolumeConfiguration_parentVolumeId,
 
     -- * CreateSvmActiveDirectoryConfiguration
-    CreateSvmActiveDirectoryConfiguration (..),
+    CreateSvmActiveDirectoryConfiguration,
     newCreateSvmActiveDirectoryConfiguration,
     createSvmActiveDirectoryConfiguration_selfManagedActiveDirectoryConfiguration,
     createSvmActiveDirectoryConfiguration_netBiosName,
 
     -- * DataRepositoryAssociation
-    DataRepositoryAssociation (..),
+    DataRepositoryAssociation,
     newDataRepositoryAssociation,
     dataRepositoryAssociation_associationId,
     dataRepositoryAssociation_batchImportMetaDataOnCreate,
@@ -411,7 +412,7 @@ module Amazonka.FSx.Types
     dataRepositoryAssociation_tags,
 
     -- * DataRepositoryConfiguration
-    DataRepositoryConfiguration (..),
+    DataRepositoryConfiguration,
     newDataRepositoryConfiguration,
     dataRepositoryConfiguration_autoImportPolicy,
     dataRepositoryConfiguration_exportPath,
@@ -421,12 +422,12 @@ module Amazonka.FSx.Types
     dataRepositoryConfiguration_lifecycle,
 
     -- * DataRepositoryFailureDetails
-    DataRepositoryFailureDetails (..),
+    DataRepositoryFailureDetails,
     newDataRepositoryFailureDetails,
     dataRepositoryFailureDetails_message,
 
     -- * DataRepositoryTask
-    DataRepositoryTask (..),
+    DataRepositoryTask,
     newDataRepositoryTask,
     dataRepositoryTask_capacityToRelease,
     dataRepositoryTask_endTime,
@@ -445,18 +446,18 @@ module Amazonka.FSx.Types
     dataRepositoryTask_creationTime,
 
     -- * DataRepositoryTaskFailureDetails
-    DataRepositoryTaskFailureDetails (..),
+    DataRepositoryTaskFailureDetails,
     newDataRepositoryTaskFailureDetails,
     dataRepositoryTaskFailureDetails_message,
 
     -- * DataRepositoryTaskFilter
-    DataRepositoryTaskFilter (..),
+    DataRepositoryTaskFilter,
     newDataRepositoryTaskFilter,
     dataRepositoryTaskFilter_name,
     dataRepositoryTaskFilter_values,
 
     -- * DataRepositoryTaskStatus
-    DataRepositoryTaskStatus (..),
+    DataRepositoryTaskStatus,
     newDataRepositoryTaskStatus,
     dataRepositoryTaskStatus_failedCount,
     dataRepositoryTaskStatus_lastUpdatedTime,
@@ -465,67 +466,67 @@ module Amazonka.FSx.Types
     dataRepositoryTaskStatus_totalCount,
 
     -- * DeleteFileSystemLustreConfiguration
-    DeleteFileSystemLustreConfiguration (..),
+    DeleteFileSystemLustreConfiguration,
     newDeleteFileSystemLustreConfiguration,
     deleteFileSystemLustreConfiguration_finalBackupTags,
     deleteFileSystemLustreConfiguration_skipFinalBackup,
 
     -- * DeleteFileSystemLustreResponse
-    DeleteFileSystemLustreResponse (..),
+    DeleteFileSystemLustreResponse,
     newDeleteFileSystemLustreResponse,
     deleteFileSystemLustreResponse_finalBackupId,
     deleteFileSystemLustreResponse_finalBackupTags,
 
     -- * DeleteFileSystemOpenZFSConfiguration
-    DeleteFileSystemOpenZFSConfiguration (..),
+    DeleteFileSystemOpenZFSConfiguration,
     newDeleteFileSystemOpenZFSConfiguration,
     deleteFileSystemOpenZFSConfiguration_finalBackupTags,
     deleteFileSystemOpenZFSConfiguration_options,
     deleteFileSystemOpenZFSConfiguration_skipFinalBackup,
 
     -- * DeleteFileSystemOpenZFSResponse
-    DeleteFileSystemOpenZFSResponse (..),
+    DeleteFileSystemOpenZFSResponse,
     newDeleteFileSystemOpenZFSResponse,
     deleteFileSystemOpenZFSResponse_finalBackupId,
     deleteFileSystemOpenZFSResponse_finalBackupTags,
 
     -- * DeleteFileSystemWindowsConfiguration
-    DeleteFileSystemWindowsConfiguration (..),
+    DeleteFileSystemWindowsConfiguration,
     newDeleteFileSystemWindowsConfiguration,
     deleteFileSystemWindowsConfiguration_finalBackupTags,
     deleteFileSystemWindowsConfiguration_skipFinalBackup,
 
     -- * DeleteFileSystemWindowsResponse
-    DeleteFileSystemWindowsResponse (..),
+    DeleteFileSystemWindowsResponse,
     newDeleteFileSystemWindowsResponse,
     deleteFileSystemWindowsResponse_finalBackupId,
     deleteFileSystemWindowsResponse_finalBackupTags,
 
     -- * DeleteVolumeOntapConfiguration
-    DeleteVolumeOntapConfiguration (..),
+    DeleteVolumeOntapConfiguration,
     newDeleteVolumeOntapConfiguration,
     deleteVolumeOntapConfiguration_finalBackupTags,
     deleteVolumeOntapConfiguration_skipFinalBackup,
 
     -- * DeleteVolumeOntapResponse
-    DeleteVolumeOntapResponse (..),
+    DeleteVolumeOntapResponse,
     newDeleteVolumeOntapResponse,
     deleteVolumeOntapResponse_finalBackupId,
     deleteVolumeOntapResponse_finalBackupTags,
 
     -- * DeleteVolumeOpenZFSConfiguration
-    DeleteVolumeOpenZFSConfiguration (..),
+    DeleteVolumeOpenZFSConfiguration,
     newDeleteVolumeOpenZFSConfiguration,
     deleteVolumeOpenZFSConfiguration_options,
 
     -- * DiskIopsConfiguration
-    DiskIopsConfiguration (..),
+    DiskIopsConfiguration,
     newDiskIopsConfiguration,
     diskIopsConfiguration_iops,
     diskIopsConfiguration_mode,
 
     -- * FileCache
-    FileCache (..),
+    FileCache,
     newFileCache,
     fileCache_creationTime,
     fileCache_dNSName,
@@ -545,7 +546,7 @@ module Amazonka.FSx.Types
     fileCache_vpcId,
 
     -- * FileCacheCreating
-    FileCacheCreating (..),
+    FileCacheCreating,
     newFileCacheCreating,
     fileCacheCreating_copyTagsToDataRepositoryAssociations,
     fileCacheCreating_creationTime,
@@ -567,7 +568,7 @@ module Amazonka.FSx.Types
     fileCacheCreating_vpcId,
 
     -- * FileCacheDataRepositoryAssociation
-    FileCacheDataRepositoryAssociation (..),
+    FileCacheDataRepositoryAssociation,
     newFileCacheDataRepositoryAssociation,
     fileCacheDataRepositoryAssociation_dataRepositorySubdirectories,
     fileCacheDataRepositoryAssociation_nfs,
@@ -575,12 +576,12 @@ module Amazonka.FSx.Types
     fileCacheDataRepositoryAssociation_dataRepositoryPath,
 
     -- * FileCacheFailureDetails
-    FileCacheFailureDetails (..),
+    FileCacheFailureDetails,
     newFileCacheFailureDetails,
     fileCacheFailureDetails_message,
 
     -- * FileCacheLustreConfiguration
-    FileCacheLustreConfiguration (..),
+    FileCacheLustreConfiguration,
     newFileCacheLustreConfiguration,
     fileCacheLustreConfiguration_deploymentType,
     fileCacheLustreConfiguration_logConfiguration,
@@ -590,18 +591,18 @@ module Amazonka.FSx.Types
     fileCacheLustreConfiguration_weeklyMaintenanceStartTime,
 
     -- * FileCacheLustreMetadataConfiguration
-    FileCacheLustreMetadataConfiguration (..),
+    FileCacheLustreMetadataConfiguration,
     newFileCacheLustreMetadataConfiguration,
     fileCacheLustreMetadataConfiguration_storageCapacity,
 
     -- * FileCacheNFSConfiguration
-    FileCacheNFSConfiguration (..),
+    FileCacheNFSConfiguration,
     newFileCacheNFSConfiguration,
     fileCacheNFSConfiguration_dnsIps,
     fileCacheNFSConfiguration_version,
 
     -- * FileSystem
-    FileSystem (..),
+    FileSystem,
     newFileSystem,
     fileSystem_administrativeActions,
     fileSystem_creationTime,
@@ -626,35 +627,35 @@ module Amazonka.FSx.Types
     fileSystem_windowsConfiguration,
 
     -- * FileSystemEndpoint
-    FileSystemEndpoint (..),
+    FileSystemEndpoint,
     newFileSystemEndpoint,
     fileSystemEndpoint_dNSName,
     fileSystemEndpoint_ipAddresses,
 
     -- * FileSystemEndpoints
-    FileSystemEndpoints (..),
+    FileSystemEndpoints,
     newFileSystemEndpoints,
     fileSystemEndpoints_intercluster,
     fileSystemEndpoints_management,
 
     -- * FileSystemFailureDetails
-    FileSystemFailureDetails (..),
+    FileSystemFailureDetails,
     newFileSystemFailureDetails,
     fileSystemFailureDetails_message,
 
     -- * Filter
-    Filter (..),
+    Filter,
     newFilter,
     filter_name,
     filter_values,
 
     -- * LifecycleTransitionReason
-    LifecycleTransitionReason (..),
+    LifecycleTransitionReason,
     newLifecycleTransitionReason,
     lifecycleTransitionReason_message,
 
     -- * LustreFileSystemConfiguration
-    LustreFileSystemConfiguration (..),
+    LustreFileSystemConfiguration,
     newLustreFileSystemConfiguration,
     lustreFileSystemConfiguration_automaticBackupRetentionDays,
     lustreFileSystemConfiguration_copyTagsToBackups,
@@ -670,32 +671,32 @@ module Amazonka.FSx.Types
     lustreFileSystemConfiguration_weeklyMaintenanceStartTime,
 
     -- * LustreLogConfiguration
-    LustreLogConfiguration (..),
+    LustreLogConfiguration,
     newLustreLogConfiguration,
     lustreLogConfiguration_destination,
     lustreLogConfiguration_level,
 
     -- * LustreLogCreateConfiguration
-    LustreLogCreateConfiguration (..),
+    LustreLogCreateConfiguration,
     newLustreLogCreateConfiguration,
     lustreLogCreateConfiguration_destination,
     lustreLogCreateConfiguration_level,
 
     -- * LustreRootSquashConfiguration
-    LustreRootSquashConfiguration (..),
+    LustreRootSquashConfiguration,
     newLustreRootSquashConfiguration,
     lustreRootSquashConfiguration_noSquashNids,
     lustreRootSquashConfiguration_rootSquash,
 
     -- * NFSDataRepositoryConfiguration
-    NFSDataRepositoryConfiguration (..),
+    NFSDataRepositoryConfiguration,
     newNFSDataRepositoryConfiguration,
     nFSDataRepositoryConfiguration_autoExportPolicy,
     nFSDataRepositoryConfiguration_dnsIps,
     nFSDataRepositoryConfiguration_version,
 
     -- * OntapFileSystemConfiguration
-    OntapFileSystemConfiguration (..),
+    OntapFileSystemConfiguration,
     newOntapFileSystemConfiguration,
     ontapFileSystemConfiguration_automaticBackupRetentionDays,
     ontapFileSystemConfiguration_dailyAutomaticBackupStartTime,
@@ -709,7 +710,7 @@ module Amazonka.FSx.Types
     ontapFileSystemConfiguration_weeklyMaintenanceStartTime,
 
     -- * OntapVolumeConfiguration
-    OntapVolumeConfiguration (..),
+    OntapVolumeConfiguration,
     newOntapVolumeConfiguration,
     ontapVolumeConfiguration_copyTagsToBackups,
     ontapVolumeConfiguration_flexCacheEndpointType,
@@ -725,13 +726,13 @@ module Amazonka.FSx.Types
     ontapVolumeConfiguration_uuid,
 
     -- * OpenZFSClientConfiguration
-    OpenZFSClientConfiguration (..),
+    OpenZFSClientConfiguration,
     newOpenZFSClientConfiguration,
     openZFSClientConfiguration_clients,
     openZFSClientConfiguration_options,
 
     -- * OpenZFSCreateRootVolumeConfiguration
-    OpenZFSCreateRootVolumeConfiguration (..),
+    OpenZFSCreateRootVolumeConfiguration,
     newOpenZFSCreateRootVolumeConfiguration,
     openZFSCreateRootVolumeConfiguration_copyTagsToSnapshots,
     openZFSCreateRootVolumeConfiguration_dataCompressionType,
@@ -741,7 +742,7 @@ module Amazonka.FSx.Types
     openZFSCreateRootVolumeConfiguration_userAndGroupQuotas,
 
     -- * OpenZFSFileSystemConfiguration
-    OpenZFSFileSystemConfiguration (..),
+    OpenZFSFileSystemConfiguration,
     newOpenZFSFileSystemConfiguration,
     openZFSFileSystemConfiguration_automaticBackupRetentionDays,
     openZFSFileSystemConfiguration_copyTagsToBackups,
@@ -754,25 +755,25 @@ module Amazonka.FSx.Types
     openZFSFileSystemConfiguration_weeklyMaintenanceStartTime,
 
     -- * OpenZFSNfsExport
-    OpenZFSNfsExport (..),
+    OpenZFSNfsExport,
     newOpenZFSNfsExport,
     openZFSNfsExport_clientConfigurations,
 
     -- * OpenZFSOriginSnapshotConfiguration
-    OpenZFSOriginSnapshotConfiguration (..),
+    OpenZFSOriginSnapshotConfiguration,
     newOpenZFSOriginSnapshotConfiguration,
     openZFSOriginSnapshotConfiguration_copyStrategy,
     openZFSOriginSnapshotConfiguration_snapshotARN,
 
     -- * OpenZFSUserOrGroupQuota
-    OpenZFSUserOrGroupQuota (..),
+    OpenZFSUserOrGroupQuota,
     newOpenZFSUserOrGroupQuota,
     openZFSUserOrGroupQuota_type,
     openZFSUserOrGroupQuota_id,
     openZFSUserOrGroupQuota_storageCapacityQuotaGiB,
 
     -- * OpenZFSVolumeConfiguration
-    OpenZFSVolumeConfiguration (..),
+    OpenZFSVolumeConfiguration,
     newOpenZFSVolumeConfiguration,
     openZFSVolumeConfiguration_copyTagsToSnapshots,
     openZFSVolumeConfiguration_dataCompressionType,
@@ -790,13 +791,13 @@ module Amazonka.FSx.Types
     openZFSVolumeConfiguration_volumePath,
 
     -- * S3DataRepositoryConfiguration
-    S3DataRepositoryConfiguration (..),
+    S3DataRepositoryConfiguration,
     newS3DataRepositoryConfiguration,
     s3DataRepositoryConfiguration_autoExportPolicy,
     s3DataRepositoryConfiguration_autoImportPolicy,
 
     -- * SelfManagedActiveDirectoryAttributes
-    SelfManagedActiveDirectoryAttributes (..),
+    SelfManagedActiveDirectoryAttributes,
     newSelfManagedActiveDirectoryAttributes,
     selfManagedActiveDirectoryAttributes_dnsIps,
     selfManagedActiveDirectoryAttributes_domainName,
@@ -805,7 +806,7 @@ module Amazonka.FSx.Types
     selfManagedActiveDirectoryAttributes_userName,
 
     -- * SelfManagedActiveDirectoryConfiguration
-    SelfManagedActiveDirectoryConfiguration (..),
+    SelfManagedActiveDirectoryConfiguration,
     newSelfManagedActiveDirectoryConfiguration,
     selfManagedActiveDirectoryConfiguration_fileSystemAdministratorsGroup,
     selfManagedActiveDirectoryConfiguration_organizationalUnitDistinguishedName,
@@ -815,14 +816,14 @@ module Amazonka.FSx.Types
     selfManagedActiveDirectoryConfiguration_dnsIps,
 
     -- * SelfManagedActiveDirectoryConfigurationUpdates
-    SelfManagedActiveDirectoryConfigurationUpdates (..),
+    SelfManagedActiveDirectoryConfigurationUpdates,
     newSelfManagedActiveDirectoryConfigurationUpdates,
     selfManagedActiveDirectoryConfigurationUpdates_dnsIps,
     selfManagedActiveDirectoryConfigurationUpdates_password,
     selfManagedActiveDirectoryConfigurationUpdates_userName,
 
     -- * Snapshot
-    Snapshot (..),
+    Snapshot,
     newSnapshot,
     snapshot_administrativeActions,
     snapshot_creationTime,
@@ -835,13 +836,13 @@ module Amazonka.FSx.Types
     snapshot_volumeId,
 
     -- * SnapshotFilter
-    SnapshotFilter (..),
+    SnapshotFilter,
     newSnapshotFilter,
     snapshotFilter_name,
     snapshotFilter_values,
 
     -- * StorageVirtualMachine
-    StorageVirtualMachine (..),
+    StorageVirtualMachine,
     newStorageVirtualMachine,
     storageVirtualMachine_activeDirectoryConfiguration,
     storageVirtualMachine_creationTime,
@@ -858,25 +859,25 @@ module Amazonka.FSx.Types
     storageVirtualMachine_uuid,
 
     -- * StorageVirtualMachineFilter
-    StorageVirtualMachineFilter (..),
+    StorageVirtualMachineFilter,
     newStorageVirtualMachineFilter,
     storageVirtualMachineFilter_name,
     storageVirtualMachineFilter_values,
 
     -- * SvmActiveDirectoryConfiguration
-    SvmActiveDirectoryConfiguration (..),
+    SvmActiveDirectoryConfiguration,
     newSvmActiveDirectoryConfiguration,
     svmActiveDirectoryConfiguration_netBiosName,
     svmActiveDirectoryConfiguration_selfManagedActiveDirectoryConfiguration,
 
     -- * SvmEndpoint
-    SvmEndpoint (..),
+    SvmEndpoint,
     newSvmEndpoint,
     svmEndpoint_dNSName,
     svmEndpoint_ipAddresses,
 
     -- * SvmEndpoints
-    SvmEndpoints (..),
+    SvmEndpoints,
     newSvmEndpoints,
     svmEndpoints_iscsi,
     svmEndpoints_management,
@@ -884,24 +885,24 @@ module Amazonka.FSx.Types
     svmEndpoints_smb,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,
 
     -- * TieringPolicy
-    TieringPolicy (..),
+    TieringPolicy,
     newTieringPolicy,
     tieringPolicy_coolingPeriod,
     tieringPolicy_name,
 
     -- * UpdateFileCacheLustreConfiguration
-    UpdateFileCacheLustreConfiguration (..),
+    UpdateFileCacheLustreConfiguration,
     newUpdateFileCacheLustreConfiguration,
     updateFileCacheLustreConfiguration_weeklyMaintenanceStartTime,
 
     -- * UpdateFileSystemLustreConfiguration
-    UpdateFileSystemLustreConfiguration (..),
+    UpdateFileSystemLustreConfiguration,
     newUpdateFileSystemLustreConfiguration,
     updateFileSystemLustreConfiguration_autoImportPolicy,
     updateFileSystemLustreConfiguration_automaticBackupRetentionDays,
@@ -912,7 +913,7 @@ module Amazonka.FSx.Types
     updateFileSystemLustreConfiguration_weeklyMaintenanceStartTime,
 
     -- * UpdateFileSystemOntapConfiguration
-    UpdateFileSystemOntapConfiguration (..),
+    UpdateFileSystemOntapConfiguration,
     newUpdateFileSystemOntapConfiguration,
     updateFileSystemOntapConfiguration_addRouteTableIds,
     updateFileSystemOntapConfiguration_automaticBackupRetentionDays,
@@ -924,7 +925,7 @@ module Amazonka.FSx.Types
     updateFileSystemOntapConfiguration_weeklyMaintenanceStartTime,
 
     -- * UpdateFileSystemOpenZFSConfiguration
-    UpdateFileSystemOpenZFSConfiguration (..),
+    UpdateFileSystemOpenZFSConfiguration,
     newUpdateFileSystemOpenZFSConfiguration,
     updateFileSystemOpenZFSConfiguration_automaticBackupRetentionDays,
     updateFileSystemOpenZFSConfiguration_copyTagsToBackups,
@@ -935,7 +936,7 @@ module Amazonka.FSx.Types
     updateFileSystemOpenZFSConfiguration_weeklyMaintenanceStartTime,
 
     -- * UpdateFileSystemWindowsConfiguration
-    UpdateFileSystemWindowsConfiguration (..),
+    UpdateFileSystemWindowsConfiguration,
     newUpdateFileSystemWindowsConfiguration,
     updateFileSystemWindowsConfiguration_auditLogConfiguration,
     updateFileSystemWindowsConfiguration_automaticBackupRetentionDays,
@@ -945,7 +946,7 @@ module Amazonka.FSx.Types
     updateFileSystemWindowsConfiguration_weeklyMaintenanceStartTime,
 
     -- * UpdateOntapVolumeConfiguration
-    UpdateOntapVolumeConfiguration (..),
+    UpdateOntapVolumeConfiguration,
     newUpdateOntapVolumeConfiguration,
     updateOntapVolumeConfiguration_copyTagsToBackups,
     updateOntapVolumeConfiguration_junctionPath,
@@ -956,7 +957,7 @@ module Amazonka.FSx.Types
     updateOntapVolumeConfiguration_tieringPolicy,
 
     -- * UpdateOpenZFSVolumeConfiguration
-    UpdateOpenZFSVolumeConfiguration (..),
+    UpdateOpenZFSVolumeConfiguration,
     newUpdateOpenZFSVolumeConfiguration,
     updateOpenZFSVolumeConfiguration_dataCompressionType,
     updateOpenZFSVolumeConfiguration_nfsExports,
@@ -967,12 +968,12 @@ module Amazonka.FSx.Types
     updateOpenZFSVolumeConfiguration_userAndGroupQuotas,
 
     -- * UpdateSvmActiveDirectoryConfiguration
-    UpdateSvmActiveDirectoryConfiguration (..),
+    UpdateSvmActiveDirectoryConfiguration,
     newUpdateSvmActiveDirectoryConfiguration,
     updateSvmActiveDirectoryConfiguration_selfManagedActiveDirectoryConfiguration,
 
     -- * Volume
-    Volume (..),
+    Volume,
     newVolume,
     volume_administrativeActions,
     volume_creationTime,
@@ -988,27 +989,27 @@ module Amazonka.FSx.Types
     volume_volumeType,
 
     -- * VolumeFilter
-    VolumeFilter (..),
+    VolumeFilter,
     newVolumeFilter,
     volumeFilter_name,
     volumeFilter_values,
 
     -- * WindowsAuditLogConfiguration
-    WindowsAuditLogConfiguration (..),
+    WindowsAuditLogConfiguration,
     newWindowsAuditLogConfiguration,
     windowsAuditLogConfiguration_auditLogDestination,
     windowsAuditLogConfiguration_fileAccessAuditLogLevel,
     windowsAuditLogConfiguration_fileShareAccessAuditLogLevel,
 
     -- * WindowsAuditLogCreateConfiguration
-    WindowsAuditLogCreateConfiguration (..),
+    WindowsAuditLogCreateConfiguration,
     newWindowsAuditLogCreateConfiguration,
     windowsAuditLogCreateConfiguration_auditLogDestination,
     windowsAuditLogCreateConfiguration_fileAccessAuditLogLevel,
     windowsAuditLogCreateConfiguration_fileShareAccessAuditLogLevel,
 
     -- * WindowsFileSystemConfiguration
-    WindowsFileSystemConfiguration (..),
+    WindowsFileSystemConfiguration,
     newWindowsFileSystemConfiguration,
     windowsFileSystemConfiguration_activeDirectoryId,
     windowsFileSystemConfiguration_aliases,

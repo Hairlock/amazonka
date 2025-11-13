@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -30,13 +31,13 @@ module Amazonka.BackupStorage.Types
     _ThrottlingException,
 
     -- * DataChecksumAlgorithm
-    DataChecksumAlgorithm (..),
+    DataChecksumAlgorithm,
 
     -- * SummaryChecksumAlgorithm
-    SummaryChecksumAlgorithm (..),
+    SummaryChecksumAlgorithm,
 
     -- * BackupObject
-    BackupObject (..),
+    BackupObject,
     newBackupObject,
     backupObject_chunksCount,
     backupObject_metadataString,
@@ -46,7 +47,7 @@ module Amazonka.BackupStorage.Types
     backupObject_objectToken,
 
     -- * Chunk
-    Chunk (..),
+    Chunk,
     newChunk,
     chunk_index,
     chunk_length,

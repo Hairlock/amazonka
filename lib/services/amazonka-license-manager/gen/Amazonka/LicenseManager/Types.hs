@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -37,91 +38,91 @@ module Amazonka.LicenseManager.Types
     _ValidationException,
 
     -- * AllowedOperation
-    AllowedOperation (..),
+    AllowedOperation,
 
     -- * CheckoutType
-    CheckoutType (..),
+    CheckoutType,
 
     -- * DigitalSignatureMethod
-    DigitalSignatureMethod (..),
+    DigitalSignatureMethod,
 
     -- * EntitlementDataUnit
-    EntitlementDataUnit (..),
+    EntitlementDataUnit,
 
     -- * EntitlementUnit
-    EntitlementUnit (..),
+    EntitlementUnit,
 
     -- * GrantStatus
-    GrantStatus (..),
+    GrantStatus,
 
     -- * InventoryFilterCondition
-    InventoryFilterCondition (..),
+    InventoryFilterCondition,
 
     -- * LicenseConfigurationStatus
-    LicenseConfigurationStatus (..),
+    LicenseConfigurationStatus,
 
     -- * LicenseConversionTaskStatus
-    LicenseConversionTaskStatus (..),
+    LicenseConversionTaskStatus,
 
     -- * LicenseCountingType
-    LicenseCountingType (..),
+    LicenseCountingType,
 
     -- * LicenseDeletionStatus
-    LicenseDeletionStatus (..),
+    LicenseDeletionStatus,
 
     -- * LicenseStatus
-    LicenseStatus (..),
+    LicenseStatus,
 
     -- * ReceivedStatus
-    ReceivedStatus (..),
+    ReceivedStatus,
 
     -- * RenewType
-    RenewType (..),
+    RenewType,
 
     -- * ReportFrequencyType
-    ReportFrequencyType (..),
+    ReportFrequencyType,
 
     -- * ReportType
-    ReportType (..),
+    ReportType,
 
     -- * ResourceType
-    ResourceType (..),
+    ResourceType,
 
     -- * TokenType
-    TokenType (..),
+    TokenType,
 
     -- * AutomatedDiscoveryInformation
-    AutomatedDiscoveryInformation (..),
+    AutomatedDiscoveryInformation,
     newAutomatedDiscoveryInformation,
     automatedDiscoveryInformation_lastRunTime,
 
     -- * BorrowConfiguration
-    BorrowConfiguration (..),
+    BorrowConfiguration,
     newBorrowConfiguration,
     borrowConfiguration_allowEarlyCheckIn,
     borrowConfiguration_maxTimeToLiveInMinutes,
 
     -- * ConsumedLicenseSummary
-    ConsumedLicenseSummary (..),
+    ConsumedLicenseSummary,
     newConsumedLicenseSummary,
     consumedLicenseSummary_consumedLicenses,
     consumedLicenseSummary_resourceType,
 
     -- * ConsumptionConfiguration
-    ConsumptionConfiguration (..),
+    ConsumptionConfiguration,
     newConsumptionConfiguration,
     consumptionConfiguration_borrowConfiguration,
     consumptionConfiguration_provisionalConfiguration,
     consumptionConfiguration_renewType,
 
     -- * DatetimeRange
-    DatetimeRange (..),
+    DatetimeRange,
     newDatetimeRange,
     datetimeRange_end,
     datetimeRange_begin,
 
     -- * Entitlement
-    Entitlement (..),
+    Entitlement,
     newEntitlement,
     entitlement_allowCheckIn,
     entitlement_maxCount,
@@ -131,14 +132,14 @@ module Amazonka.LicenseManager.Types
     entitlement_unit,
 
     -- * EntitlementData
-    EntitlementData (..),
+    EntitlementData,
     newEntitlementData,
     entitlementData_value,
     entitlementData_name,
     entitlementData_unit,
 
     -- * EntitlementUsage
-    EntitlementUsage (..),
+    EntitlementUsage,
     newEntitlementUsage,
     entitlementUsage_maxCount,
     entitlementUsage_name,
@@ -146,13 +147,13 @@ module Amazonka.LicenseManager.Types
     entitlementUsage_unit,
 
     -- * Filter
-    Filter (..),
+    Filter,
     newFilter,
     filter_name,
     filter_values,
 
     -- * Grant
-    Grant (..),
+    Grant,
     newGrant,
     grant_statusReason,
     grant_grantArn,
@@ -166,7 +167,7 @@ module Amazonka.LicenseManager.Types
     grant_grantedOperations,
 
     -- * GrantedLicense
-    GrantedLicense (..),
+    GrantedLicense,
     newGrantedLicense,
     grantedLicense_beneficiary,
     grantedLicense_consumptionConfiguration,
@@ -185,27 +186,27 @@ module Amazonka.LicenseManager.Types
     grantedLicense_version,
 
     -- * InventoryFilter
-    InventoryFilter (..),
+    InventoryFilter,
     newInventoryFilter,
     inventoryFilter_value,
     inventoryFilter_name,
     inventoryFilter_condition,
 
     -- * Issuer
-    Issuer (..),
+    Issuer,
     newIssuer,
     issuer_signKey,
     issuer_name,
 
     -- * IssuerDetails
-    IssuerDetails (..),
+    IssuerDetails,
     newIssuerDetails,
     issuerDetails_keyFingerprint,
     issuerDetails_name,
     issuerDetails_signKey,
 
     -- * License
-    License (..),
+    License,
     newLicense,
     license_beneficiary,
     license_consumptionConfiguration,
@@ -223,7 +224,7 @@ module Amazonka.LicenseManager.Types
     license_version,
 
     -- * LicenseConfiguration
-    LicenseConfiguration (..),
+    LicenseConfiguration,
     newLicenseConfiguration,
     licenseConfiguration_automatedDiscoveryInformation,
     licenseConfiguration_consumedLicenseSummaryList,
@@ -243,7 +244,7 @@ module Amazonka.LicenseManager.Types
     licenseConfiguration_status,
 
     -- * LicenseConfigurationAssociation
-    LicenseConfigurationAssociation (..),
+    LicenseConfigurationAssociation,
     newLicenseConfigurationAssociation,
     licenseConfigurationAssociation_amiAssociationScope,
     licenseConfigurationAssociation_associationTime,
@@ -252,7 +253,7 @@ module Amazonka.LicenseManager.Types
     licenseConfigurationAssociation_resourceType,
 
     -- * LicenseConfigurationUsage
-    LicenseConfigurationUsage (..),
+    LicenseConfigurationUsage,
     newLicenseConfigurationUsage,
     licenseConfigurationUsage_associationTime,
     licenseConfigurationUsage_consumedLicenses,
@@ -262,12 +263,12 @@ module Amazonka.LicenseManager.Types
     licenseConfigurationUsage_resourceType,
 
     -- * LicenseConversionContext
-    LicenseConversionContext (..),
+    LicenseConversionContext,
     newLicenseConversionContext,
     licenseConversionContext_usageOperation,
 
     -- * LicenseConversionTask
-    LicenseConversionTask (..),
+    LicenseConversionTask,
     newLicenseConversionTask,
     licenseConversionTask_destinationLicenseContext,
     licenseConversionTask_endTime,
@@ -280,7 +281,7 @@ module Amazonka.LicenseManager.Types
     licenseConversionTask_statusMessage,
 
     -- * LicenseOperationFailure
-    LicenseOperationFailure (..),
+    LicenseOperationFailure,
     newLicenseOperationFailure,
     licenseOperationFailure_errorMessage,
     licenseOperationFailure_failureTime,
@@ -292,71 +293,71 @@ module Amazonka.LicenseManager.Types
     licenseOperationFailure_resourceType,
 
     -- * LicenseSpecification
-    LicenseSpecification (..),
+    LicenseSpecification,
     newLicenseSpecification,
     licenseSpecification_amiAssociationScope,
     licenseSpecification_licenseConfigurationArn,
 
     -- * LicenseUsage
-    LicenseUsage (..),
+    LicenseUsage,
     newLicenseUsage,
     licenseUsage_entitlementUsages,
 
     -- * ManagedResourceSummary
-    ManagedResourceSummary (..),
+    ManagedResourceSummary,
     newManagedResourceSummary,
     managedResourceSummary_associationCount,
     managedResourceSummary_resourceType,
 
     -- * Metadata
-    Metadata (..),
+    Metadata,
     newMetadata,
     metadata_name,
     metadata_value,
 
     -- * OrganizationConfiguration
-    OrganizationConfiguration (..),
+    OrganizationConfiguration,
     newOrganizationConfiguration,
     organizationConfiguration_enableIntegration,
 
     -- * ProductInformation
-    ProductInformation (..),
+    ProductInformation,
     newProductInformation,
     productInformation_resourceType,
     productInformation_productInformationFilterList,
 
     -- * ProductInformationFilter
-    ProductInformationFilter (..),
+    ProductInformationFilter,
     newProductInformationFilter,
     productInformationFilter_productInformationFilterValue,
     productInformationFilter_productInformationFilterName,
     productInformationFilter_productInformationFilterComparator,
 
     -- * ProvisionalConfiguration
-    ProvisionalConfiguration (..),
+    ProvisionalConfiguration,
     newProvisionalConfiguration,
     provisionalConfiguration_maxTimeToLiveInMinutes,
 
     -- * ReceivedMetadata
-    ReceivedMetadata (..),
+    ReceivedMetadata,
     newReceivedMetadata,
     receivedMetadata_allowedOperations,
     receivedMetadata_receivedStatus,
     receivedMetadata_receivedStatusReason,
 
     -- * ReportContext
-    ReportContext (..),
+    ReportContext,
     newReportContext,
     reportContext_licenseConfigurationArns,
 
     -- * ReportFrequency
-    ReportFrequency (..),
+    ReportFrequency,
     newReportFrequency,
     reportFrequency_period,
     reportFrequency_value,
 
     -- * ReportGenerator
-    ReportGenerator (..),
+    ReportGenerator,
     newReportGenerator,
     reportGenerator_createTime,
     reportGenerator_description,
@@ -373,7 +374,7 @@ module Amazonka.LicenseManager.Types
     reportGenerator_tags,
 
     -- * ResourceInventory
-    ResourceInventory (..),
+    ResourceInventory,
     newResourceInventory,
     resourceInventory_platform,
     resourceInventory_platformVersion,
@@ -383,19 +384,19 @@ module Amazonka.LicenseManager.Types
     resourceInventory_resourceType,
 
     -- * S3Location
-    S3Location (..),
+    S3Location,
     newS3Location,
     s3Location_bucket,
     s3Location_keyPrefix,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,
 
     -- * TokenData
-    TokenData (..),
+    TokenData,
     newTokenData,
     tokenData_expirationTime,
     tokenData_licenseArn,

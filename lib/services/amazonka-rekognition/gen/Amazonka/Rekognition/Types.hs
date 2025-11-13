@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -40,114 +41,114 @@ module Amazonka.Rekognition.Types
     _VideoTooLargeException,
 
     -- * Attribute
-    Attribute (..),
+    Attribute,
 
     -- * BodyPart
-    BodyPart (..),
+    BodyPart,
 
     -- * CelebrityRecognitionSortBy
-    CelebrityRecognitionSortBy (..),
+    CelebrityRecognitionSortBy,
 
     -- * ContentClassifier
-    ContentClassifier (..),
+    ContentClassifier,
 
     -- * ContentModerationSortBy
-    ContentModerationSortBy (..),
+    ContentModerationSortBy,
 
     -- * DatasetStatus
-    DatasetStatus (..),
+    DatasetStatus,
 
     -- * DatasetStatusMessageCode
-    DatasetStatusMessageCode (..),
+    DatasetStatusMessageCode,
 
     -- * DatasetType
-    DatasetType (..),
+    DatasetType,
 
     -- * DetectLabelsFeatureName
-    DetectLabelsFeatureName (..),
+    DetectLabelsFeatureName,
 
     -- * EmotionName
-    EmotionName (..),
+    EmotionName,
 
     -- * FaceAttributes
-    FaceAttributes (..),
+    FaceAttributes,
 
     -- * FaceSearchSortBy
-    FaceSearchSortBy (..),
+    FaceSearchSortBy,
 
     -- * GenderType
-    GenderType (..),
+    GenderType,
 
     -- * KnownGenderType
-    KnownGenderType (..),
+    KnownGenderType,
 
     -- * LabelDetectionAggregateBy
-    LabelDetectionAggregateBy (..),
+    LabelDetectionAggregateBy,
 
     -- * LabelDetectionFeatureName
-    LabelDetectionFeatureName (..),
+    LabelDetectionFeatureName,
 
     -- * LabelDetectionSortBy
-    LabelDetectionSortBy (..),
+    LabelDetectionSortBy,
 
     -- * LandmarkType
-    LandmarkType (..),
+    LandmarkType,
 
     -- * OrientationCorrection
-    OrientationCorrection (..),
+    OrientationCorrection,
 
     -- * PersonTrackingSortBy
-    PersonTrackingSortBy (..),
+    PersonTrackingSortBy,
 
     -- * ProjectStatus
-    ProjectStatus (..),
+    ProjectStatus,
 
     -- * ProjectVersionStatus
-    ProjectVersionStatus (..),
+    ProjectVersionStatus,
 
     -- * ProtectiveEquipmentType
-    ProtectiveEquipmentType (..),
+    ProtectiveEquipmentType,
 
     -- * QualityFilter
-    QualityFilter (..),
+    QualityFilter,
 
     -- * Reason
-    Reason (..),
+    Reason,
 
     -- * SegmentType
-    SegmentType (..),
+    SegmentType,
 
     -- * StreamProcessorParameterToDelete
-    StreamProcessorParameterToDelete (..),
+    StreamProcessorParameterToDelete,
 
     -- * StreamProcessorStatus
-    StreamProcessorStatus (..),
+    StreamProcessorStatus,
 
     -- * TechnicalCueType
-    TechnicalCueType (..),
+    TechnicalCueType,
 
     -- * TextTypes
-    TextTypes (..),
+    TextTypes,
 
     -- * VideoColorRange
-    VideoColorRange (..),
+    VideoColorRange,
 
     -- * VideoJobStatus
-    VideoJobStatus (..),
+    VideoJobStatus,
 
     -- * AgeRange
-    AgeRange (..),
+    AgeRange,
     newAgeRange,
     ageRange_high,
     ageRange_low,
 
     -- * Asset
-    Asset (..),
+    Asset,
     newAsset,
     asset_groundTruthManifest,
 
     -- * AudioMetadata
-    AudioMetadata (..),
+    AudioMetadata,
     newAudioMetadata,
     audioMetadata_codec,
     audioMetadata_durationMillis,
@@ -155,19 +156,19 @@ module Amazonka.Rekognition.Types
     audioMetadata_sampleRate,
 
     -- * Beard
-    Beard (..),
+    Beard,
     newBeard,
     beard_confidence,
     beard_value,
 
     -- * BlackFrame
-    BlackFrame (..),
+    BlackFrame,
     newBlackFrame,
     blackFrame_maxPixelThreshold,
     blackFrame_minCoveragePercentage,
 
     -- * BoundingBox
-    BoundingBox (..),
+    BoundingBox,
     newBoundingBox,
     boundingBox_height,
     boundingBox_left,
@@ -175,7 +176,7 @@ module Amazonka.Rekognition.Types
     boundingBox_width,
 
     -- * Celebrity
-    Celebrity (..),
+    Celebrity,
     newCelebrity,
     celebrity_face,
     celebrity_id,
@@ -185,7 +186,7 @@ module Amazonka.Rekognition.Types
     celebrity_urls,
 
     -- * CelebrityDetail
-    CelebrityDetail (..),
+    CelebrityDetail,
     newCelebrityDetail,
     celebrityDetail_boundingBox,
     celebrityDetail_confidence,
@@ -196,19 +197,19 @@ module Amazonka.Rekognition.Types
     celebrityDetail_urls,
 
     -- * CelebrityRecognition
-    CelebrityRecognition (..),
+    CelebrityRecognition,
     newCelebrityRecognition,
     celebrityRecognition_celebrity,
     celebrityRecognition_timestamp,
 
     -- * CompareFacesMatch
-    CompareFacesMatch (..),
+    CompareFacesMatch,
     newCompareFacesMatch,
     compareFacesMatch_face,
     compareFacesMatch_similarity,
 
     -- * ComparedFace
-    ComparedFace (..),
+    ComparedFace,
     newComparedFace,
     comparedFace_boundingBox,
     comparedFace_confidence,
@@ -219,49 +220,49 @@ module Amazonka.Rekognition.Types
     comparedFace_smile,
 
     -- * ComparedSourceImageFace
-    ComparedSourceImageFace (..),
+    ComparedSourceImageFace,
     newComparedSourceImageFace,
     comparedSourceImageFace_boundingBox,
     comparedSourceImageFace_confidence,
 
     -- * ConnectedHomeSettings
-    ConnectedHomeSettings (..),
+    ConnectedHomeSettings,
     newConnectedHomeSettings,
     connectedHomeSettings_minConfidence,
     connectedHomeSettings_labels,
 
     -- * ConnectedHomeSettingsForUpdate
-    ConnectedHomeSettingsForUpdate (..),
+    ConnectedHomeSettingsForUpdate,
     newConnectedHomeSettingsForUpdate,
     connectedHomeSettingsForUpdate_labels,
     connectedHomeSettingsForUpdate_minConfidence,
 
     -- * ContentModerationDetection
-    ContentModerationDetection (..),
+    ContentModerationDetection,
     newContentModerationDetection,
     contentModerationDetection_moderationLabel,
     contentModerationDetection_timestamp,
 
     -- * CoversBodyPart
-    CoversBodyPart (..),
+    CoversBodyPart,
     newCoversBodyPart,
     coversBodyPart_confidence,
     coversBodyPart_value,
 
     -- * CustomLabel
-    CustomLabel (..),
+    CustomLabel,
     newCustomLabel,
     customLabel_confidence,
     customLabel_geometry,
     customLabel_name,
 
     -- * DatasetChanges
-    DatasetChanges (..),
+    DatasetChanges,
     newDatasetChanges,
     datasetChanges_groundTruth,
 
     -- * DatasetDescription
-    DatasetDescription (..),
+    DatasetDescription,
     newDatasetDescription,
     datasetDescription_creationTimestamp,
     datasetDescription_datasetStats,
@@ -271,19 +272,19 @@ module Amazonka.Rekognition.Types
     datasetDescription_statusMessageCode,
 
     -- * DatasetLabelDescription
-    DatasetLabelDescription (..),
+    DatasetLabelDescription,
     newDatasetLabelDescription,
     datasetLabelDescription_labelName,
     datasetLabelDescription_labelStats,
 
     -- * DatasetLabelStats
-    DatasetLabelStats (..),
+    DatasetLabelStats,
     newDatasetLabelStats,
     datasetLabelStats_boundingBoxCount,
     datasetLabelStats_entryCount,
 
     -- * DatasetMetadata
-    DatasetMetadata (..),
+    DatasetMetadata,
     newDatasetMetadata,
     datasetMetadata_creationTimestamp,
     datasetMetadata_datasetArn,
@@ -293,13 +294,13 @@ module Amazonka.Rekognition.Types
     datasetMetadata_statusMessageCode,
 
     -- * DatasetSource
-    DatasetSource (..),
+    DatasetSource,
     newDatasetSource,
     datasetSource_datasetArn,
     datasetSource_groundTruthManifest,
 
     -- * DatasetStats
-    DatasetStats (..),
+    DatasetStats,
     newDatasetStats,
     datasetStats_errorEntries,
     datasetStats_labeledEntries,
@@ -307,19 +308,19 @@ module Amazonka.Rekognition.Types
     datasetStats_totalLabels,
 
     -- * DetectLabelsImageBackground
-    DetectLabelsImageBackground (..),
+    DetectLabelsImageBackground,
     newDetectLabelsImageBackground,
     detectLabelsImageBackground_dominantColors,
     detectLabelsImageBackground_quality,
 
     -- * DetectLabelsImageForeground
-    DetectLabelsImageForeground (..),
+    DetectLabelsImageForeground,
     newDetectLabelsImageForeground,
     detectLabelsImageForeground_dominantColors,
     detectLabelsImageForeground_quality,
 
     -- * DetectLabelsImageProperties
-    DetectLabelsImageProperties (..),
+    DetectLabelsImageProperties,
     newDetectLabelsImageProperties,
     detectLabelsImageProperties_background,
     detectLabelsImageProperties_dominantColors,
@@ -327,43 +328,43 @@ module Amazonka.Rekognition.Types
     detectLabelsImageProperties_quality,
 
     -- * DetectLabelsImagePropertiesSettings
-    DetectLabelsImagePropertiesSettings (..),
+    DetectLabelsImagePropertiesSettings,
     newDetectLabelsImagePropertiesSettings,
     detectLabelsImagePropertiesSettings_maxDominantColors,
 
     -- * DetectLabelsImageQuality
-    DetectLabelsImageQuality (..),
+    DetectLabelsImageQuality,
     newDetectLabelsImageQuality,
     detectLabelsImageQuality_brightness,
     detectLabelsImageQuality_contrast,
     detectLabelsImageQuality_sharpness,
 
     -- * DetectLabelsSettings
-    DetectLabelsSettings (..),
+    DetectLabelsSettings,
     newDetectLabelsSettings,
     detectLabelsSettings_generalLabels,
     detectLabelsSettings_imageProperties,
 
     -- * DetectTextFilters
-    DetectTextFilters (..),
+    DetectTextFilters,
     newDetectTextFilters,
     detectTextFilters_regionsOfInterest,
     detectTextFilters_wordFilter,
 
     -- * DetectionFilter
-    DetectionFilter (..),
+    DetectionFilter,
     newDetectionFilter,
     detectionFilter_minBoundingBoxHeight,
     detectionFilter_minBoundingBoxWidth,
     detectionFilter_minConfidence,
 
     -- * DistributeDataset
-    DistributeDataset (..),
+    DistributeDataset,
     newDistributeDataset,
     distributeDataset_arn,
 
     -- * DominantColor
-    DominantColor (..),
+    DominantColor,
     newDominantColor,
     dominantColor_blue,
     dominantColor_cSSColor,
@@ -374,13 +375,13 @@ module Amazonka.Rekognition.Types
     dominantColor_simplifiedColor,
 
     -- * Emotion
-    Emotion (..),
+    Emotion,
     newEmotion,
     emotion_confidence,
     emotion_type,
 
     -- * EquipmentDetection
-    EquipmentDetection (..),
+    EquipmentDetection,
     newEquipmentDetection,
     equipmentDetection_boundingBox,
     equipmentDetection_confidence,
@@ -388,25 +389,25 @@ module Amazonka.Rekognition.Types
     equipmentDetection_type,
 
     -- * EvaluationResult
-    EvaluationResult (..),
+    EvaluationResult,
     newEvaluationResult,
     evaluationResult_f1Score,
     evaluationResult_summary,
 
     -- * EyeOpen
-    EyeOpen (..),
+    EyeOpen,
     newEyeOpen,
     eyeOpen_confidence,
     eyeOpen_value,
 
     -- * Eyeglasses
-    Eyeglasses (..),
+    Eyeglasses,
     newEyeglasses,
     eyeglasses_confidence,
     eyeglasses_value,
 
     -- * Face
-    Face (..),
+    Face,
     newFace,
     face_boundingBox,
     face_confidence,
@@ -416,7 +417,7 @@ module Amazonka.Rekognition.Types
     face_indexFacesModelVersion,
 
     -- * FaceDetail
-    FaceDetail (..),
+    FaceDetail,
     newFaceDetail,
     faceDetail_ageRange,
     faceDetail_beard,
@@ -435,37 +436,37 @@ module Amazonka.Rekognition.Types
     faceDetail_sunglasses,
 
     -- * FaceDetection
-    FaceDetection (..),
+    FaceDetection,
     newFaceDetection,
     faceDetection_face,
     faceDetection_timestamp,
 
     -- * FaceMatch
-    FaceMatch (..),
+    FaceMatch,
     newFaceMatch,
     faceMatch_face,
     faceMatch_similarity,
 
     -- * FaceRecord
-    FaceRecord (..),
+    FaceRecord,
     newFaceRecord,
     faceRecord_face,
     faceRecord_faceDetail,
 
     -- * FaceSearchSettings
-    FaceSearchSettings (..),
+    FaceSearchSettings,
     newFaceSearchSettings,
     faceSearchSettings_collectionId,
     faceSearchSettings_faceMatchThreshold,
 
     -- * Gender
-    Gender (..),
+    Gender,
     newGender,
     gender_confidence,
     gender_value,
 
     -- * GeneralLabelsSettings
-    GeneralLabelsSettings (..),
+    GeneralLabelsSettings,
     newGeneralLabelsSettings,
     generalLabelsSettings_labelCategoryExclusionFilters,
     generalLabelsSettings_labelCategoryInclusionFilters,
@@ -473,77 +474,77 @@ module Amazonka.Rekognition.Types
     generalLabelsSettings_labelInclusionFilters,
 
     -- * Geometry
-    Geometry (..),
+    Geometry,
     newGeometry,
     geometry_boundingBox,
     geometry_polygon,
 
     -- * GroundTruthManifest
-    GroundTruthManifest (..),
+    GroundTruthManifest,
     newGroundTruthManifest,
     groundTruthManifest_s3Object,
 
     -- * HumanLoopActivationOutput
-    HumanLoopActivationOutput (..),
+    HumanLoopActivationOutput,
     newHumanLoopActivationOutput,
     humanLoopActivationOutput_humanLoopActivationConditionsEvaluationResults,
     humanLoopActivationOutput_humanLoopActivationReasons,
     humanLoopActivationOutput_humanLoopArn,
 
     -- * HumanLoopConfig
-    HumanLoopConfig (..),
+    HumanLoopConfig,
     newHumanLoopConfig,
     humanLoopConfig_dataAttributes,
     humanLoopConfig_humanLoopName,
     humanLoopConfig_flowDefinitionArn,
 
     -- * HumanLoopDataAttributes
-    HumanLoopDataAttributes (..),
+    HumanLoopDataAttributes,
     newHumanLoopDataAttributes,
     humanLoopDataAttributes_contentClassifiers,
 
     -- * Image
-    Image (..),
+    Image,
     newImage,
     image_bytes,
     image_s3Object,
 
     -- * ImageQuality
-    ImageQuality (..),
+    ImageQuality,
     newImageQuality,
     imageQuality_brightness,
     imageQuality_sharpness,
 
     -- * Instance
-    Instance (..),
+    Instance,
     newInstance,
     instance_boundingBox,
     instance_confidence,
     instance_dominantColors,
 
     -- * KinesisDataStream
-    KinesisDataStream (..),
+    KinesisDataStream,
     newKinesisDataStream,
     kinesisDataStream_arn,
 
     -- * KinesisVideoStream
-    KinesisVideoStream (..),
+    KinesisVideoStream,
     newKinesisVideoStream,
     kinesisVideoStream_arn,
 
     -- * KinesisVideoStreamStartSelector
-    KinesisVideoStreamStartSelector (..),
+    KinesisVideoStreamStartSelector,
     newKinesisVideoStreamStartSelector,
     kinesisVideoStreamStartSelector_fragmentNumber,
     kinesisVideoStreamStartSelector_producerTimestamp,
 
     -- * KnownGender
-    KnownGender (..),
+    KnownGender,
     newKnownGender,
     knownGender_type,
 
     -- * Label
-    Label (..),
+    Label,
     newLabel,
     label_aliases,
     label_categories,
@@ -553,17 +554,17 @@ module Amazonka.Rekognition.Types
     label_parents,
 
     -- * LabelAlias
-    LabelAlias (..),
+    LabelAlias,
     newLabelAlias,
     labelAlias_name,
 
     -- * LabelCategory
-    LabelCategory (..),
+    LabelCategory,
     newLabelCategory,
     labelCategory_name,
 
     -- * LabelDetection
-    LabelDetection (..),
+    LabelDetection,
     newLabelDetection,
     labelDetection_durationMillis,
     labelDetection_endTimestampMillis,
@@ -572,88 +573,88 @@ module Amazonka.Rekognition.Types
     labelDetection_timestamp,
 
     -- * LabelDetectionSettings
-    LabelDetectionSettings (..),
+    LabelDetectionSettings,
     newLabelDetectionSettings,
     labelDetectionSettings_generalLabels,
 
     -- * Landmark
-    Landmark (..),
+    Landmark,
     newLandmark,
     landmark_type,
     landmark_x,
     landmark_y,
 
     -- * ModerationLabel
-    ModerationLabel (..),
+    ModerationLabel,
     newModerationLabel,
     moderationLabel_confidence,
     moderationLabel_name,
     moderationLabel_parentName,
 
     -- * MouthOpen
-    MouthOpen (..),
+    MouthOpen,
     newMouthOpen,
     mouthOpen_confidence,
     mouthOpen_value,
 
     -- * Mustache
-    Mustache (..),
+    Mustache,
     newMustache,
     mustache_confidence,
     mustache_value,
 
     -- * NotificationChannel
-    NotificationChannel (..),
+    NotificationChannel,
     newNotificationChannel,
     notificationChannel_sNSTopicArn,
     notificationChannel_roleArn,
 
     -- * OutputConfig
-    OutputConfig (..),
+    OutputConfig,
     newOutputConfig,
     outputConfig_s3Bucket,
     outputConfig_s3KeyPrefix,
 
     -- * Parent
-    Parent (..),
+    Parent,
     newParent,
     parent_name,
 
     -- * PersonDetail
-    PersonDetail (..),
+    PersonDetail,
     newPersonDetail,
     personDetail_boundingBox,
     personDetail_face,
     personDetail_index,
 
     -- * PersonDetection
-    PersonDetection (..),
+    PersonDetection,
     newPersonDetection,
     personDetection_person,
     personDetection_timestamp,
 
     -- * PersonMatch
-    PersonMatch (..),
+    PersonMatch,
     newPersonMatch,
     personMatch_faceMatches,
     personMatch_person,
     personMatch_timestamp,
 
     -- * Point
-    Point (..),
+    Point,
     newPoint,
     point_x,
     point_y,
 
     -- * Pose
-    Pose (..),
+    Pose,
     newPose,
     pose_pitch,
     pose_roll,
     pose_yaw,
 
     -- * ProjectDescription
-    ProjectDescription (..),
+    ProjectDescription,
     newProjectDescription,
     projectDescription_creationTimestamp,
     projectDescription_datasets,
@@ -661,7 +662,7 @@ module Amazonka.Rekognition.Types
     projectDescription_status,
 
     -- * ProjectPolicy
-    ProjectPolicy (..),
+    ProjectPolicy,
     newProjectPolicy,
     projectPolicy_creationTimestamp,
     projectPolicy_lastUpdatedTimestamp,
@@ -671,7 +672,7 @@ module Amazonka.Rekognition.Types
     projectPolicy_projectArn,
 
     -- * ProjectVersionDescription
-    ProjectVersionDescription (..),
+    ProjectVersionDescription,
     newProjectVersionDescription,
     projectVersionDescription_billableTrainingTimeInSeconds,
     projectVersionDescription_creationTimestamp,
@@ -690,14 +691,14 @@ module Amazonka.Rekognition.Types
     projectVersionDescription_trainingEndTimestamp,
 
     -- * ProtectiveEquipmentBodyPart
-    ProtectiveEquipmentBodyPart (..),
+    ProtectiveEquipmentBodyPart,
     newProtectiveEquipmentBodyPart,
     protectiveEquipmentBodyPart_confidence,
     protectiveEquipmentBodyPart_equipmentDetections,
     protectiveEquipmentBodyPart_name,
 
     -- * ProtectiveEquipmentPerson
-    ProtectiveEquipmentPerson (..),
+    ProtectiveEquipmentPerson,
     newProtectiveEquipmentPerson,
     protectiveEquipmentPerson_bodyParts,
     protectiveEquipmentPerson_boundingBox,
@@ -705,39 +706,39 @@ module Amazonka.Rekognition.Types
     protectiveEquipmentPerson_id,
 
     -- * ProtectiveEquipmentSummarizationAttributes
-    ProtectiveEquipmentSummarizationAttributes (..),
+    ProtectiveEquipmentSummarizationAttributes,
     newProtectiveEquipmentSummarizationAttributes,
     protectiveEquipmentSummarizationAttributes_minConfidence,
     protectiveEquipmentSummarizationAttributes_requiredEquipmentTypes,
 
     -- * ProtectiveEquipmentSummary
-    ProtectiveEquipmentSummary (..),
+    ProtectiveEquipmentSummary,
     newProtectiveEquipmentSummary,
     protectiveEquipmentSummary_personsIndeterminate,
     protectiveEquipmentSummary_personsWithRequiredEquipment,
     protectiveEquipmentSummary_personsWithoutRequiredEquipment,
 
     -- * RegionOfInterest
-    RegionOfInterest (..),
+    RegionOfInterest,
     newRegionOfInterest,
     regionOfInterest_boundingBox,
     regionOfInterest_polygon,
 
     -- * S3Destination
-    S3Destination (..),
+    S3Destination,
     newS3Destination,
     s3Destination_bucket,
     s3Destination_keyPrefix,
 
     -- * S3Object
-    S3Object (..),
+    S3Object,
     newS3Object,
     s3Object_bucket,
     s3Object_name,
     s3Object_version,
 
     -- * SegmentDetection
-    SegmentDetection (..),
+    SegmentDetection,
     newSegmentDetection,
     segmentDetection_durationFrames,
     segmentDetection_durationMillis,
@@ -753,126 +754,126 @@ module Amazonka.Rekognition.Types
     segmentDetection_type,
 
     -- * SegmentTypeInfo
-    SegmentTypeInfo (..),
+    SegmentTypeInfo,
     newSegmentTypeInfo,
     segmentTypeInfo_modelVersion,
     segmentTypeInfo_type,
 
     -- * ShotSegment
-    ShotSegment (..),
+    ShotSegment,
     newShotSegment,
     shotSegment_confidence,
     shotSegment_index,
 
     -- * Smile
-    Smile (..),
+    Smile,
     newSmile,
     smile_confidence,
     smile_value,
 
     -- * StartSegmentDetectionFilters
-    StartSegmentDetectionFilters (..),
+    StartSegmentDetectionFilters,
     newStartSegmentDetectionFilters,
     startSegmentDetectionFilters_shotFilter,
     startSegmentDetectionFilters_technicalCueFilter,
 
     -- * StartShotDetectionFilter
-    StartShotDetectionFilter (..),
+    StartShotDetectionFilter,
     newStartShotDetectionFilter,
     startShotDetectionFilter_minSegmentConfidence,
 
     -- * StartTechnicalCueDetectionFilter
-    StartTechnicalCueDetectionFilter (..),
+    StartTechnicalCueDetectionFilter,
     newStartTechnicalCueDetectionFilter,
     startTechnicalCueDetectionFilter_blackFrame,
     startTechnicalCueDetectionFilter_minSegmentConfidence,
 
     -- * StartTextDetectionFilters
-    StartTextDetectionFilters (..),
+    StartTextDetectionFilters,
     newStartTextDetectionFilters,
     startTextDetectionFilters_regionsOfInterest,
     startTextDetectionFilters_wordFilter,
 
     -- * StreamProcessingStartSelector
-    StreamProcessingStartSelector (..),
+    StreamProcessingStartSelector,
     newStreamProcessingStartSelector,
     streamProcessingStartSelector_kVSStreamStartSelector,
 
     -- * StreamProcessingStopSelector
-    StreamProcessingStopSelector (..),
+    StreamProcessingStopSelector,
     newStreamProcessingStopSelector,
     streamProcessingStopSelector_maxDurationInSeconds,
 
     -- * StreamProcessor
-    StreamProcessor (..),
+    StreamProcessor,
     newStreamProcessor,
     streamProcessor_name,
     streamProcessor_status,
 
     -- * StreamProcessorDataSharingPreference
-    StreamProcessorDataSharingPreference (..),
+    StreamProcessorDataSharingPreference,
     newStreamProcessorDataSharingPreference,
     streamProcessorDataSharingPreference_optIn,
 
     -- * StreamProcessorInput
-    StreamProcessorInput (..),
+    StreamProcessorInput,
     newStreamProcessorInput,
     streamProcessorInput_kinesisVideoStream,
 
     -- * StreamProcessorNotificationChannel
-    StreamProcessorNotificationChannel (..),
+    StreamProcessorNotificationChannel,
     newStreamProcessorNotificationChannel,
     streamProcessorNotificationChannel_sNSTopicArn,
 
     -- * StreamProcessorOutput
-    StreamProcessorOutput (..),
+    StreamProcessorOutput,
     newStreamProcessorOutput,
     streamProcessorOutput_kinesisDataStream,
     streamProcessorOutput_s3Destination,
 
     -- * StreamProcessorSettings
-    StreamProcessorSettings (..),
+    StreamProcessorSettings,
     newStreamProcessorSettings,
     streamProcessorSettings_connectedHome,
     streamProcessorSettings_faceSearch,
 
     -- * StreamProcessorSettingsForUpdate
-    StreamProcessorSettingsForUpdate (..),
+    StreamProcessorSettingsForUpdate,
     newStreamProcessorSettingsForUpdate,
     streamProcessorSettingsForUpdate_connectedHomeForUpdate,
 
     -- * Summary
-    Summary (..),
+    Summary,
     newSummary,
     summary_s3Object,
 
     -- * Sunglasses
-    Sunglasses (..),
+    Sunglasses,
     newSunglasses,
     sunglasses_confidence,
     sunglasses_value,
 
     -- * TechnicalCueSegment
-    TechnicalCueSegment (..),
+    TechnicalCueSegment,
     newTechnicalCueSegment,
     technicalCueSegment_confidence,
     technicalCueSegment_type,
 
     -- * TestingData
-    TestingData (..),
+    TestingData,
     newTestingData,
     testingData_assets,
     testingData_autoCreate,
 
     -- * TestingDataResult
-    TestingDataResult (..),
+    TestingDataResult,
     newTestingDataResult,
     testingDataResult_input,
     testingDataResult_output,
     testingDataResult_validation,
 
     -- * TextDetection
-    TextDetection (..),
+    TextDetection,
     newTextDetection,
     textDetection_confidence,
     textDetection_detectedText,
@@ -882,41 +883,41 @@ module Amazonka.Rekognition.Types
     textDetection_type,
 
     -- * TextDetectionResult
-    TextDetectionResult (..),
+    TextDetectionResult,
     newTextDetectionResult,
     textDetectionResult_textDetection,
     textDetectionResult_timestamp,
 
     -- * TrainingData
-    TrainingData (..),
+    TrainingData,
     newTrainingData,
     trainingData_assets,
 
     -- * TrainingDataResult
-    TrainingDataResult (..),
+    TrainingDataResult,
     newTrainingDataResult,
     trainingDataResult_input,
     trainingDataResult_output,
     trainingDataResult_validation,
 
     -- * UnindexedFace
-    UnindexedFace (..),
+    UnindexedFace,
     newUnindexedFace,
     unindexedFace_faceDetail,
     unindexedFace_reasons,
 
     -- * ValidationData
-    ValidationData (..),
+    ValidationData,
     newValidationData,
     validationData_assets,
 
     -- * Video
-    Video (..),
+    Video,
     newVideo,
     video_s3Object,
 
     -- * VideoMetadata
-    VideoMetadata (..),
+    VideoMetadata,
     newVideoMetadata,
     videoMetadata_codec,
     videoMetadata_colorRange,

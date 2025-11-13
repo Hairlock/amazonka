@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -37,7 +38,7 @@ module Amazonka.SDB.Types
     _TooManyRequestedAttributes,
 
     -- * Attribute
-    Attribute (..),
+    Attribute,
     newAttribute,
     attribute_alternateNameEncoding,
     attribute_alternateValueEncoding,
@@ -45,33 +46,33 @@ module Amazonka.SDB.Types
     attribute_value,
 
     -- * DeletableItem
-    DeletableItem (..),
+    DeletableItem,
     newDeletableItem,
     deletableItem_attributes,
     deletableItem_name,
 
     -- * Item
-    Item (..),
+    Item,
     newItem,
     item_alternateNameEncoding,
     item_name,
     item_attributes,
 
     -- * ReplaceableAttribute
-    ReplaceableAttribute (..),
+    ReplaceableAttribute,
     newReplaceableAttribute,
     replaceableAttribute_replace,
     replaceableAttribute_name,
     replaceableAttribute_value,
 
     -- * ReplaceableItem
-    ReplaceableItem (..),
+    ReplaceableItem,
     newReplaceableItem,
     replaceableItem_name,
     replaceableItem_attributes,
 
     -- * UpdateCondition
-    UpdateCondition (..),
+    UpdateCondition,
     newUpdateCondition,
     updateCondition_exists,
     updateCondition_name,

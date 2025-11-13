@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -29,98 +30,98 @@ module Amazonka.Omics.Types
     _ValidationException,
 
     -- * AnnotationType
-    AnnotationType (..),
+    AnnotationType,
 
     -- * EncryptionType
-    EncryptionType (..),
+    EncryptionType,
 
     -- * FileType
-    FileType (..),
+    FileType,
 
     -- * FormatToHeaderKey
-    FormatToHeaderKey (..),
+    FormatToHeaderKey,
 
     -- * JobStatus
-    JobStatus (..),
+    JobStatus,
 
     -- * ReadSetActivationJobItemStatus
-    ReadSetActivationJobItemStatus (..),
+    ReadSetActivationJobItemStatus,
 
     -- * ReadSetActivationJobStatus
-    ReadSetActivationJobStatus (..),
+    ReadSetActivationJobStatus,
 
     -- * ReadSetExportJobItemStatus
-    ReadSetExportJobItemStatus (..),
+    ReadSetExportJobItemStatus,
 
     -- * ReadSetExportJobStatus
-    ReadSetExportJobStatus (..),
+    ReadSetExportJobStatus,
 
     -- * ReadSetFile
-    ReadSetFile (..),
+    ReadSetFile,
 
     -- * ReadSetImportJobItemStatus
-    ReadSetImportJobItemStatus (..),
+    ReadSetImportJobItemStatus,
 
     -- * ReadSetImportJobStatus
-    ReadSetImportJobStatus (..),
+    ReadSetImportJobStatus,
 
     -- * ReadSetStatus
-    ReadSetStatus (..),
+    ReadSetStatus,
 
     -- * ReferenceFile
-    ReferenceFile (..),
+    ReferenceFile,
 
     -- * ReferenceImportJobItemStatus
-    ReferenceImportJobItemStatus (..),
+    ReferenceImportJobItemStatus,
 
     -- * ReferenceImportJobStatus
-    ReferenceImportJobStatus (..),
+    ReferenceImportJobStatus,
 
     -- * ReferenceStatus
-    ReferenceStatus (..),
+    ReferenceStatus,
 
     -- * RunExport
-    RunExport (..),
+    RunExport,
 
     -- * RunLogLevel
-    RunLogLevel (..),
+    RunLogLevel,
 
     -- * RunStatus
-    RunStatus (..),
+    RunStatus,
 
     -- * SchemaValueType
-    SchemaValueType (..),
+    SchemaValueType,
 
     -- * StoreFormat
-    StoreFormat (..),
+    StoreFormat,
 
     -- * StoreStatus
-    StoreStatus (..),
+    StoreStatus,
 
     -- * TaskStatus
-    TaskStatus (..),
+    TaskStatus,
 
     -- * WorkflowEngine
-    WorkflowEngine (..),
+    WorkflowEngine,
 
     -- * WorkflowExport
-    WorkflowExport (..),
+    WorkflowExport,
 
     -- * WorkflowStatus
-    WorkflowStatus (..),
+    WorkflowStatus,
 
     -- * WorkflowType
-    WorkflowType (..),
+    WorkflowType,
 
     -- * ActivateReadSetFilter
-    ActivateReadSetFilter (..),
+    ActivateReadSetFilter,
     newActivateReadSetFilter,
     activateReadSetFilter_createdAfter,
     activateReadSetFilter_createdBefore,
     activateReadSetFilter_status,
 
     -- * ActivateReadSetJobItem
-    ActivateReadSetJobItem (..),
+    ActivateReadSetJobItem,
     newActivateReadSetJobItem,
     activateReadSetJobItem_completionTime,
     activateReadSetJobItem_creationTime,
@@ -129,25 +130,25 @@ module Amazonka.Omics.Types
     activateReadSetJobItem_status,
 
     -- * ActivateReadSetSourceItem
-    ActivateReadSetSourceItem (..),
+    ActivateReadSetSourceItem,
     newActivateReadSetSourceItem,
     activateReadSetSourceItem_statusMessage,
     activateReadSetSourceItem_readSetId,
     activateReadSetSourceItem_status,
 
     -- * AnnotationImportItemDetail
-    AnnotationImportItemDetail (..),
+    AnnotationImportItemDetail,
     newAnnotationImportItemDetail,
     annotationImportItemDetail_jobStatus,
     annotationImportItemDetail_source,
 
     -- * AnnotationImportItemSource
-    AnnotationImportItemSource (..),
+    AnnotationImportItemSource,
     newAnnotationImportItemSource,
     annotationImportItemSource_source,
 
     -- * AnnotationImportJobItem
-    AnnotationImportJobItem (..),
+    AnnotationImportJobItem,
     newAnnotationImportJobItem,
     annotationImportJobItem_completionTime,
     annotationImportJobItem_runLeftNormalization,
@@ -159,7 +160,7 @@ module Amazonka.Omics.Types
     annotationImportJobItem_updateTime,
 
     -- * AnnotationStoreItem
-    AnnotationStoreItem (..),
+    AnnotationStoreItem,
     newAnnotationStoreItem,
     annotationStoreItem_creationTime,
     annotationStoreItem_description,
@@ -175,26 +176,26 @@ module Amazonka.Omics.Types
     annotationStoreItem_updateTime,
 
     -- * ExportReadSet
-    ExportReadSet (..),
+    ExportReadSet,
     newExportReadSet,
     exportReadSet_readSetId,
 
     -- * ExportReadSetDetail
-    ExportReadSetDetail (..),
+    ExportReadSetDetail,
     newExportReadSetDetail,
     exportReadSetDetail_statusMessage,
     exportReadSetDetail_id,
     exportReadSetDetail_status,
 
     -- * ExportReadSetFilter
-    ExportReadSetFilter (..),
+    ExportReadSetFilter,
     newExportReadSetFilter,
     exportReadSetFilter_createdAfter,
     exportReadSetFilter_createdBefore,
     exportReadSetFilter_status,
 
     -- * ExportReadSetJobDetail
-    ExportReadSetJobDetail (..),
+    ExportReadSetJobDetail,
     newExportReadSetJobDetail,
     exportReadSetJobDetail_completionTime,
     exportReadSetJobDetail_creationTime,
@@ -204,27 +205,27 @@ module Amazonka.Omics.Types
     exportReadSetJobDetail_status,
 
     -- * FileInformation
-    FileInformation (..),
+    FileInformation,
     newFileInformation,
     fileInformation_contentLength,
     fileInformation_partSize,
     fileInformation_totalParts,
 
     -- * FormatOptions
-    FormatOptions (..),
+    FormatOptions,
     newFormatOptions,
     formatOptions_tsvOptions,
     formatOptions_vcfOptions,
 
     -- * ImportReadSetFilter
-    ImportReadSetFilter (..),
+    ImportReadSetFilter,
     newImportReadSetFilter,
     importReadSetFilter_createdAfter,
     importReadSetFilter_createdBefore,
     importReadSetFilter_status,
 
     -- * ImportReadSetJobItem
-    ImportReadSetJobItem (..),
+    ImportReadSetJobItem,
     newImportReadSetJobItem,
     importReadSetJobItem_completionTime,
     importReadSetJobItem_creationTime,
@@ -234,7 +235,7 @@ module Amazonka.Omics.Types
     importReadSetJobItem_status,
 
     -- * ImportReadSetSourceItem
-    ImportReadSetSourceItem (..),
+    ImportReadSetSourceItem,
     newImportReadSetSourceItem,
     importReadSetSourceItem_description,
     importReadSetSourceItem_generatedFrom,
@@ -249,14 +250,14 @@ module Amazonka.Omics.Types
     importReadSetSourceItem_subjectId,
 
     -- * ImportReferenceFilter
-    ImportReferenceFilter (..),
+    ImportReferenceFilter,
     newImportReferenceFilter,
     importReferenceFilter_createdAfter,
     importReferenceFilter_createdBefore,
     importReferenceFilter_status,
 
     -- * ImportReferenceJobItem
-    ImportReferenceJobItem (..),
+    ImportReferenceJobItem,
     newImportReferenceJobItem,
     importReferenceJobItem_completionTime,
     importReferenceJobItem_creationTime,
@@ -266,7 +267,7 @@ module Amazonka.Omics.Types
     importReferenceJobItem_status,
 
     -- * ImportReferenceSourceItem
-    ImportReferenceSourceItem (..),
+    ImportReferenceSourceItem,
     newImportReferenceSourceItem,
     importReferenceSourceItem_description,
     importReferenceSourceItem_name,
@@ -276,29 +277,29 @@ module Amazonka.Omics.Types
     importReferenceSourceItem_status,
 
     -- * ListAnnotationImportJobsFilter
-    ListAnnotationImportJobsFilter (..),
+    ListAnnotationImportJobsFilter,
     newListAnnotationImportJobsFilter,
     listAnnotationImportJobsFilter_status,
     listAnnotationImportJobsFilter_storeName,
 
     -- * ListAnnotationStoresFilter
-    ListAnnotationStoresFilter (..),
+    ListAnnotationStoresFilter,
     newListAnnotationStoresFilter,
     listAnnotationStoresFilter_status,
 
     -- * ListVariantImportJobsFilter
-    ListVariantImportJobsFilter (..),
+    ListVariantImportJobsFilter,
     newListVariantImportJobsFilter,
     listVariantImportJobsFilter_status,
     listVariantImportJobsFilter_storeName,
 
     -- * ListVariantStoresFilter
-    ListVariantStoresFilter (..),
+    ListVariantStoresFilter,
     newListVariantStoresFilter,
     listVariantStoresFilter_status,
 
     -- * ReadOptions
-    ReadOptions (..),
+    ReadOptions,
     newReadOptions,
     readOptions_comment,
     readOptions_encoding,
@@ -311,21 +312,21 @@ module Amazonka.Omics.Types
     readOptions_sep,
 
     -- * ReadSetBatchError
-    ReadSetBatchError (..),
+    ReadSetBatchError,
     newReadSetBatchError,
     readSetBatchError_code,
     readSetBatchError_id,
     readSetBatchError_message,
 
     -- * ReadSetFiles
-    ReadSetFiles (..),
+    ReadSetFiles,
     newReadSetFiles,
     readSetFiles_index,
     readSetFiles_source1,
     readSetFiles_source2,
 
     -- * ReadSetFilter
-    ReadSetFilter (..),
+    ReadSetFilter,
     newReadSetFilter,
     readSetFilter_createdAfter,
     readSetFilter_createdBefore,
@@ -334,7 +335,7 @@ module Amazonka.Omics.Types
     readSetFilter_status,
 
     -- * ReadSetListItem
-    ReadSetListItem (..),
+    ReadSetListItem,
     newReadSetListItem,
     readSetListItem_description,
     readSetListItem_name,
@@ -350,13 +351,13 @@ module Amazonka.Omics.Types
     readSetListItem_status,
 
     -- * ReferenceFiles
-    ReferenceFiles (..),
+    ReferenceFiles,
     newReferenceFiles,
     referenceFiles_index,
     referenceFiles_source,
 
     -- * ReferenceFilter
-    ReferenceFilter (..),
+    ReferenceFilter,
     newReferenceFilter,
     referenceFilter_createdAfter,
     referenceFilter_createdBefore,
@@ -364,12 +365,12 @@ module Amazonka.Omics.Types
     referenceFilter_name,
 
     -- * ReferenceItem
-    ReferenceItem (..),
+    ReferenceItem,
     newReferenceItem,
     referenceItem_referenceArn,
 
     -- * ReferenceListItem
-    ReferenceListItem (..),
+    ReferenceListItem,
     newReferenceListItem,
     referenceListItem_description,
     referenceListItem_name,
@@ -382,7 +383,7 @@ module Amazonka.Omics.Types
     referenceListItem_updateTime,
 
     -- * ReferenceStoreDetail
-    ReferenceStoreDetail (..),
+    ReferenceStoreDetail,
     newReferenceStoreDetail,
     referenceStoreDetail_description,
     referenceStoreDetail_name,
@@ -392,14 +393,14 @@ module Amazonka.Omics.Types
     referenceStoreDetail_id,
 
     -- * ReferenceStoreFilter
-    ReferenceStoreFilter (..),
+    ReferenceStoreFilter,
     newReferenceStoreFilter,
     referenceStoreFilter_createdAfter,
     referenceStoreFilter_createdBefore,
     referenceStoreFilter_name,
 
     -- * RunGroupListItem
-    RunGroupListItem (..),
+    RunGroupListItem,
     newRunGroupListItem,
     runGroupListItem_arn,
     runGroupListItem_creationTime,
@@ -410,7 +411,7 @@ module Amazonka.Omics.Types
     runGroupListItem_name,
 
     -- * RunListItem
-    RunListItem (..),
+    RunListItem,
     newRunListItem,
     runListItem_arn,
     runListItem_creationTime,
@@ -424,11 +425,11 @@ module Amazonka.Omics.Types
     runListItem_workflowId,
 
     -- * RunParameters
-    RunParameters (..),
+    RunParameters,
     newRunParameters,
 
     -- * SequenceInformation
-    SequenceInformation (..),
+    SequenceInformation,
     newSequenceInformation,
     sequenceInformation_alignment,
     sequenceInformation_generatedFrom,
@@ -436,7 +437,7 @@ module Amazonka.Omics.Types
     sequenceInformation_totalReadCount,
 
     -- * SequenceStoreDetail
-    SequenceStoreDetail (..),
+    SequenceStoreDetail,
     newSequenceStoreDetail,
     sequenceStoreDetail_description,
     sequenceStoreDetail_name,
@@ -446,31 +447,31 @@ module Amazonka.Omics.Types
     sequenceStoreDetail_id,
 
     -- * SequenceStoreFilter
-    SequenceStoreFilter (..),
+    SequenceStoreFilter,
     newSequenceStoreFilter,
     sequenceStoreFilter_createdAfter,
     sequenceStoreFilter_createdBefore,
     sequenceStoreFilter_name,
 
     -- * SourceFiles
-    SourceFiles (..),
+    SourceFiles,
     newSourceFiles,
     sourceFiles_source2,
     sourceFiles_source1,
 
     -- * SseConfig
-    SseConfig (..),
+    SseConfig,
     newSseConfig,
     sseConfig_keyArn,
     sseConfig_type,
 
     -- * StartReadSetActivationJobSourceItem
-    StartReadSetActivationJobSourceItem (..),
+    StartReadSetActivationJobSourceItem,
     newStartReadSetActivationJobSourceItem,
     startReadSetActivationJobSourceItem_readSetId,
 
     -- * StartReadSetImportJobSourceItem
-    StartReadSetImportJobSourceItem (..),
+    StartReadSetImportJobSourceItem,
     newStartReadSetImportJobSourceItem,
     startReadSetImportJobSourceItem_description,
     startReadSetImportJobSourceItem_generatedFrom,
@@ -483,7 +484,7 @@ module Amazonka.Omics.Types
     startReadSetImportJobSourceItem_subjectId,
 
     -- * StartReferenceImportJobSourceItem
-    StartReferenceImportJobSourceItem (..),
+    StartReferenceImportJobSourceItem,
     newStartReferenceImportJobSourceItem,
     startReferenceImportJobSourceItem_description,
     startReferenceImportJobSourceItem_tags,
@@ -491,12 +492,12 @@ module Amazonka.Omics.Types
     startReferenceImportJobSourceItem_sourceFile,
 
     -- * StoreOptions
-    StoreOptions (..),
+    StoreOptions,
     newStoreOptions,
     storeOptions_tsvStoreOptions,
 
     -- * TaskListItem
-    TaskListItem (..),
+    TaskListItem,
     newTaskListItem,
     taskListItem_cpus,
     taskListItem_creationTime,
@@ -508,30 +509,30 @@ module Amazonka.Omics.Types
     taskListItem_taskId,
 
     -- * TsvOptions
-    TsvOptions (..),
+    TsvOptions,
     newTsvOptions,
     tsvOptions_readOptions,
 
     -- * TsvStoreOptions
-    TsvStoreOptions (..),
+    TsvStoreOptions,
     newTsvStoreOptions,
     tsvStoreOptions_annotationType,
     tsvStoreOptions_formatToHeader,
     tsvStoreOptions_schema,
 
     -- * VariantImportItemDetail
-    VariantImportItemDetail (..),
+    VariantImportItemDetail,
     newVariantImportItemDetail,
     variantImportItemDetail_jobStatus,
     variantImportItemDetail_source,
 
     -- * VariantImportItemSource
-    VariantImportItemSource (..),
+    VariantImportItemSource,
     newVariantImportItemSource,
     variantImportItemSource_source,
 
     -- * VariantImportJobItem
-    VariantImportJobItem (..),
+    VariantImportJobItem,
     newVariantImportJobItem,
     variantImportJobItem_completionTime,
     variantImportJobItem_runLeftNormalization,
@@ -543,7 +544,7 @@ module Amazonka.Omics.Types
     variantImportJobItem_updateTime,
 
     -- * VariantStoreItem
-    VariantStoreItem (..),
+    VariantStoreItem,
     newVariantStoreItem,
     variantStoreItem_creationTime,
     variantStoreItem_description,
@@ -558,13 +559,13 @@ module Amazonka.Omics.Types
     variantStoreItem_updateTime,
 
     -- * VcfOptions
-    VcfOptions (..),
+    VcfOptions,
     newVcfOptions,
     vcfOptions_ignoreFilterField,
     vcfOptions_ignoreQualField,
 
     -- * WorkflowListItem
-    WorkflowListItem (..),
+    WorkflowListItem,
     newWorkflowListItem,
     workflowListItem_arn,
     workflowListItem_creationTime,
@@ -575,7 +576,7 @@ module Amazonka.Omics.Types
     workflowListItem_type,
 
     -- * WorkflowParameter
-    WorkflowParameter (..),
+    WorkflowParameter,
     newWorkflowParameter,
     workflowParameter_description,
     workflowParameter_optional,

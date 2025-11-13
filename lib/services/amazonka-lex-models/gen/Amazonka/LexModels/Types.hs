@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -28,76 +29,76 @@ module Amazonka.LexModels.Types
     _ResourceInUseException,
 
     -- * ChannelStatus
-    ChannelStatus (..),
+    ChannelStatus,
 
     -- * ChannelType
-    ChannelType (..),
+    ChannelType,
 
     -- * ContentType
-    ContentType (..),
+    ContentType,
 
     -- * Destination
-    Destination (..),
+    Destination,
 
     -- * ExportStatus
-    ExportStatus (..),
+    ExportStatus,
 
     -- * ExportType
-    ExportType (..),
+    ExportType,
 
     -- * FulfillmentActivityType
-    FulfillmentActivityType (..),
+    FulfillmentActivityType,
 
     -- * ImportStatus
-    ImportStatus (..),
+    ImportStatus,
 
     -- * LexStatus
-    LexStatus (..),
+    LexStatus,
 
     -- * Locale
-    Locale (..),
+    Locale,
 
     -- * LogType
-    LogType (..),
+    LogType,
 
     -- * MergeStrategy
-    MergeStrategy (..),
+    MergeStrategy,
 
     -- * MigrationAlertType
-    MigrationAlertType (..),
+    MigrationAlertType,
 
     -- * MigrationSortAttribute
-    MigrationSortAttribute (..),
+    MigrationSortAttribute,
 
     -- * MigrationStatus
-    MigrationStatus (..),
+    MigrationStatus,
 
     -- * MigrationStrategy
-    MigrationStrategy (..),
+    MigrationStrategy,
 
     -- * ObfuscationSetting
-    ObfuscationSetting (..),
+    ObfuscationSetting,
 
     -- * ProcessBehavior
-    ProcessBehavior (..),
+    ProcessBehavior,
 
     -- * ResourceType
-    ResourceType (..),
+    ResourceType,
 
     -- * SlotConstraint
-    SlotConstraint (..),
+    SlotConstraint,
 
     -- * SlotValueSelectionStrategy
-    SlotValueSelectionStrategy (..),
+    SlotValueSelectionStrategy,
 
     -- * SortOrder
-    SortOrder (..),
+    SortOrder,
 
     -- * StatusType
-    StatusType (..),
+    StatusType,
 
     -- * BotAliasMetadata
-    BotAliasMetadata (..),
+    BotAliasMetadata,
     newBotAliasMetadata,
     botAliasMetadata_botName,
     botAliasMetadata_botVersion,
@@ -109,7 +110,7 @@ module Amazonka.LexModels.Types
     botAliasMetadata_name,
 
     -- * BotChannelAssociation
-    BotChannelAssociation (..),
+    BotChannelAssociation,
     newBotChannelAssociation,
     botChannelAssociation_botAlias,
     botChannelAssociation_botConfiguration,
@@ -122,7 +123,7 @@ module Amazonka.LexModels.Types
     botChannelAssociation_type,
 
     -- * BotMetadata
-    BotMetadata (..),
+    BotMetadata,
     newBotMetadata,
     botMetadata_createdDate,
     botMetadata_description,
@@ -132,71 +133,71 @@ module Amazonka.LexModels.Types
     botMetadata_version,
 
     -- * BuiltinIntentMetadata
-    BuiltinIntentMetadata (..),
+    BuiltinIntentMetadata,
     newBuiltinIntentMetadata,
     builtinIntentMetadata_signature,
     builtinIntentMetadata_supportedLocales,
 
     -- * BuiltinIntentSlot
-    BuiltinIntentSlot (..),
+    BuiltinIntentSlot,
     newBuiltinIntentSlot,
     builtinIntentSlot_name,
 
     -- * BuiltinSlotTypeMetadata
-    BuiltinSlotTypeMetadata (..),
+    BuiltinSlotTypeMetadata,
     newBuiltinSlotTypeMetadata,
     builtinSlotTypeMetadata_signature,
     builtinSlotTypeMetadata_supportedLocales,
 
     -- * CodeHook
-    CodeHook (..),
+    CodeHook,
     newCodeHook,
     codeHook_uri,
     codeHook_messageVersion,
 
     -- * ConversationLogsRequest
-    ConversationLogsRequest (..),
+    ConversationLogsRequest,
     newConversationLogsRequest,
     conversationLogsRequest_logSettings,
     conversationLogsRequest_iamRoleArn,
 
     -- * ConversationLogsResponse
-    ConversationLogsResponse (..),
+    ConversationLogsResponse,
     newConversationLogsResponse,
     conversationLogsResponse_iamRoleArn,
     conversationLogsResponse_logSettings,
 
     -- * EnumerationValue
-    EnumerationValue (..),
+    EnumerationValue,
     newEnumerationValue,
     enumerationValue_synonyms,
     enumerationValue_value,
 
     -- * FollowUpPrompt
-    FollowUpPrompt (..),
+    FollowUpPrompt,
     newFollowUpPrompt,
     followUpPrompt_prompt,
     followUpPrompt_rejectionStatement,
 
     -- * FulfillmentActivity
-    FulfillmentActivity (..),
+    FulfillmentActivity,
     newFulfillmentActivity,
     fulfillmentActivity_codeHook,
     fulfillmentActivity_type,
 
     -- * InputContext
-    InputContext (..),
+    InputContext,
     newInputContext,
     inputContext_name,
 
     -- * Intent
-    Intent (..),
+    Intent,
     newIntent,
     intent_intentName,
     intent_intentVersion,
 
     -- * IntentMetadata
-    IntentMetadata (..),
+    IntentMetadata,
     newIntentMetadata,
     intentMetadata_createdDate,
     intentMetadata_description,
@@ -205,14 +206,14 @@ module Amazonka.LexModels.Types
     intentMetadata_version,
 
     -- * KendraConfiguration
-    KendraConfiguration (..),
+    KendraConfiguration,
     newKendraConfiguration,
     kendraConfiguration_queryFilterString,
     kendraConfiguration_kendraIndex,
     kendraConfiguration_role,
 
     -- * LogSettingsRequest
-    LogSettingsRequest (..),
+    LogSettingsRequest,
     newLogSettingsRequest,
     logSettingsRequest_kmsKeyArn,
     logSettingsRequest_logType,
@@ -220,7 +221,7 @@ module Amazonka.LexModels.Types
     logSettingsRequest_resourceArn,
 
     -- * LogSettingsResponse
-    LogSettingsResponse (..),
+    LogSettingsResponse,
     newLogSettingsResponse,
     logSettingsResponse_destination,
     logSettingsResponse_kmsKeyArn,
@@ -229,14 +230,14 @@ module Amazonka.LexModels.Types
     logSettingsResponse_resourcePrefix,
 
     -- * Message
-    Message (..),
+    Message,
     newMessage,
     message_groupNumber,
     message_contentType,
     message_content,
 
     -- * MigrationAlert
-    MigrationAlert (..),
+    MigrationAlert,
     newMigrationAlert,
     migrationAlert_details,
     migrationAlert_message,
@@ -244,7 +245,7 @@ module Amazonka.LexModels.Types
     migrationAlert_type,
 
     -- * MigrationSummary
-    MigrationSummary (..),
+    MigrationSummary,
     newMigrationSummary,
     migrationSummary_migrationId,
     migrationSummary_migrationStatus,
@@ -257,21 +258,21 @@ module Amazonka.LexModels.Types
     migrationSummary_v2BotRole,
 
     -- * OutputContext
-    OutputContext (..),
+    OutputContext,
     newOutputContext,
     outputContext_name,
     outputContext_timeToLiveInSeconds,
     outputContext_turnsToLive,
 
     -- * Prompt
-    Prompt (..),
+    Prompt,
     newPrompt,
     prompt_responseCard,
     prompt_messages,
     prompt_maxAttempts,
 
     -- * Slot
-    Slot (..),
+    Slot,
     newSlot,
     slot_defaultValueSpec,
     slot_description,
@@ -286,22 +287,22 @@ module Amazonka.LexModels.Types
     slot_slotConstraint,
 
     -- * SlotDefaultValue
-    SlotDefaultValue (..),
+    SlotDefaultValue,
     newSlotDefaultValue,
     slotDefaultValue_defaultValue,
 
     -- * SlotDefaultValueSpec
-    SlotDefaultValueSpec (..),
+    SlotDefaultValueSpec,
     newSlotDefaultValueSpec,
     slotDefaultValueSpec_defaultValueList,
 
     -- * SlotTypeConfiguration
-    SlotTypeConfiguration (..),
+    SlotTypeConfiguration,
     newSlotTypeConfiguration,
     slotTypeConfiguration_regexConfiguration,
 
     -- * SlotTypeMetadata
-    SlotTypeMetadata (..),
+    SlotTypeMetadata,
     newSlotTypeMetadata,
     slotTypeMetadata_createdDate,
     slotTypeMetadata_description,
@@ -310,24 +311,24 @@ module Amazonka.LexModels.Types
     slotTypeMetadata_version,
 
     -- * SlotTypeRegexConfiguration
-    SlotTypeRegexConfiguration (..),
+    SlotTypeRegexConfiguration,
     newSlotTypeRegexConfiguration,
     slotTypeRegexConfiguration_pattern,
 
     -- * Statement
-    Statement (..),
+    Statement,
     newStatement,
     statement_responseCard,
     statement_messages,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,
 
     -- * UtteranceData
-    UtteranceData (..),
+    UtteranceData,
     newUtteranceData,
     utteranceData_count,
     utteranceData_distinctUsers,
@@ -336,7 +337,7 @@ module Amazonka.LexModels.Types
     utteranceData_utteranceString,
 
     -- * UtteranceList
-    UtteranceList (..),
+    UtteranceList,
     newUtteranceList,
     utteranceList_botVersion,
     utteranceList_utterances,

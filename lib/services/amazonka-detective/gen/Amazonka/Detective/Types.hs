@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -27,53 +28,53 @@ module Amazonka.Detective.Types
     _ValidationException,
 
     -- * DatasourcePackage
-    DatasourcePackage (..),
+    DatasourcePackage,
 
     -- * DatasourcePackageIngestState
-    DatasourcePackageIngestState (..),
+    DatasourcePackageIngestState,
 
     -- * InvitationType
-    InvitationType (..),
+    InvitationType,
 
     -- * MemberDisabledReason
-    MemberDisabledReason (..),
+    MemberDisabledReason,
 
     -- * MemberStatus
-    MemberStatus (..),
+    MemberStatus,
 
     -- * Account
-    Account (..),
+    Account,
     newAccount,
     account_accountId,
     account_emailAddress,
 
     -- * Administrator
-    Administrator (..),
+    Administrator,
     newAdministrator,
     administrator_accountId,
     administrator_delegationTime,
     administrator_graphArn,
 
     -- * DatasourcePackageIngestDetail
-    DatasourcePackageIngestDetail (..),
+    DatasourcePackageIngestDetail,
     newDatasourcePackageIngestDetail,
     datasourcePackageIngestDetail_datasourcePackageIngestState,
     datasourcePackageIngestDetail_lastIngestStateChange,
 
     -- * DatasourcePackageUsageInfo
-    DatasourcePackageUsageInfo (..),
+    DatasourcePackageUsageInfo,
     newDatasourcePackageUsageInfo,
     datasourcePackageUsageInfo_volumeUsageInBytes,
     datasourcePackageUsageInfo_volumeUsageUpdateTime,
 
     -- * Graph
-    Graph (..),
+    Graph,
     newGraph,
     graph_arn,
     graph_createdTime,
 
     -- * MemberDetail
-    MemberDetail (..),
+    MemberDetail,
     newMemberDetail,
     memberDetail_accountId,
     memberDetail_administratorId,
@@ -93,25 +94,25 @@ module Amazonka.Detective.Types
     memberDetail_volumeUsageUpdatedTime,
 
     -- * MembershipDatasources
-    MembershipDatasources (..),
+    MembershipDatasources,
     newMembershipDatasources,
     membershipDatasources_accountId,
     membershipDatasources_datasourcePackageIngestHistory,
     membershipDatasources_graphArn,
 
     -- * TimestampForCollection
-    TimestampForCollection (..),
+    TimestampForCollection,
     newTimestampForCollection,
     timestampForCollection_timestamp,
 
     -- * UnprocessedAccount
-    UnprocessedAccount (..),
+    UnprocessedAccount,
     newUnprocessedAccount,
     unprocessedAccount_accountId,
     unprocessedAccount_reason,
 
     -- * UnprocessedGraph
-    UnprocessedGraph (..),
+    UnprocessedGraph,
     newUnprocessedGraph,
     unprocessedGraph_graphArn,
     unprocessedGraph_reason,

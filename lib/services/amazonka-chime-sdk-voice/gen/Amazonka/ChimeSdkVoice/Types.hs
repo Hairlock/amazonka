@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -30,61 +31,61 @@ module Amazonka.ChimeSdkVoice.Types
     _UnauthorizedClientException,
 
     -- * AlexaSkillStatus
-    AlexaSkillStatus (..),
+    AlexaSkillStatus,
 
     -- * CallingNameStatus
-    CallingNameStatus (..),
+    CallingNameStatus,
 
     -- * Capability
-    Capability (..),
+    Capability,
 
     -- * ErrorCode
-    ErrorCode (..),
+    ErrorCode,
 
     -- * GeoMatchLevel
-    GeoMatchLevel (..),
+    GeoMatchLevel,
 
     -- * NotificationTarget
-    NotificationTarget (..),
+    NotificationTarget,
 
     -- * NumberSelectionBehavior
-    NumberSelectionBehavior (..),
+    NumberSelectionBehavior,
 
     -- * OrderedPhoneNumberStatus
-    OrderedPhoneNumberStatus (..),
+    OrderedPhoneNumberStatus,
 
     -- * OriginationRouteProtocol
-    OriginationRouteProtocol (..),
+    OriginationRouteProtocol,
 
     -- * PhoneNumberAssociationName
-    PhoneNumberAssociationName (..),
+    PhoneNumberAssociationName,
 
     -- * PhoneNumberOrderStatus
-    PhoneNumberOrderStatus (..),
+    PhoneNumberOrderStatus,
 
     -- * PhoneNumberOrderType
-    PhoneNumberOrderType (..),
+    PhoneNumberOrderType,
 
     -- * PhoneNumberProductType
-    PhoneNumberProductType (..),
+    PhoneNumberProductType,
 
     -- * PhoneNumberStatus
-    PhoneNumberStatus (..),
+    PhoneNumberStatus,
 
     -- * PhoneNumberType
-    PhoneNumberType (..),
+    PhoneNumberType,
 
     -- * ProxySessionStatus
-    ProxySessionStatus (..),
+    ProxySessionStatus,
 
     -- * SipRuleTriggerType
-    SipRuleTriggerType (..),
+    SipRuleTriggerType,
 
     -- * VoiceConnectorAwsRegion
-    VoiceConnectorAwsRegion (..),
+    VoiceConnectorAwsRegion,
 
     -- * Address
-    Address (..),
+    Address,
     newAddress,
     address_city,
     address_country,
@@ -98,7 +99,7 @@ module Amazonka.ChimeSdkVoice.Types
     address_streetSuffix,
 
     -- * CandidateAddress
-    CandidateAddress (..),
+    CandidateAddress,
     newCandidateAddress,
     candidateAddress_city,
     candidateAddress_country,
@@ -109,48 +110,48 @@ module Amazonka.ChimeSdkVoice.Types
     candidateAddress_streetNumber,
 
     -- * Credential
-    Credential (..),
+    Credential,
     newCredential,
     credential_password,
     credential_username,
 
     -- * DNISEmergencyCallingConfiguration
-    DNISEmergencyCallingConfiguration (..),
+    DNISEmergencyCallingConfiguration,
     newDNISEmergencyCallingConfiguration,
     dNISEmergencyCallingConfiguration_testPhoneNumber,
     dNISEmergencyCallingConfiguration_emergencyPhoneNumber,
     dNISEmergencyCallingConfiguration_callingCountry,
 
     -- * EmergencyCallingConfiguration
-    EmergencyCallingConfiguration (..),
+    EmergencyCallingConfiguration,
     newEmergencyCallingConfiguration,
     emergencyCallingConfiguration_dnis,
 
     -- * GeoMatchParams
-    GeoMatchParams (..),
+    GeoMatchParams,
     newGeoMatchParams,
     geoMatchParams_country,
     geoMatchParams_areaCode,
 
     -- * LoggingConfiguration
-    LoggingConfiguration (..),
+    LoggingConfiguration,
     newLoggingConfiguration,
     loggingConfiguration_enableSIPLogs,
 
     -- * OrderedPhoneNumber
-    OrderedPhoneNumber (..),
+    OrderedPhoneNumber,
     newOrderedPhoneNumber,
     orderedPhoneNumber_e164PhoneNumber,
     orderedPhoneNumber_status,
 
     -- * Origination
-    Origination (..),
+    Origination,
     newOrigination,
     origination_disabled,
     origination_routes,
 
     -- * OriginationRoute
-    OriginationRoute (..),
+    OriginationRoute,
     newOriginationRoute,
     originationRoute_host,
     originationRoute_port,
@@ -159,13 +160,13 @@ module Amazonka.ChimeSdkVoice.Types
     originationRoute_weight,
 
     -- * Participant
-    Participant (..),
+    Participant,
     newParticipant,
     participant_phoneNumber,
     participant_proxyPhoneNumber,
 
     -- * PhoneNumber
-    PhoneNumber (..),
+    PhoneNumber,
     newPhoneNumber,
     phoneNumber_associations,
     phoneNumber_callingName,
@@ -183,14 +184,14 @@ module Amazonka.ChimeSdkVoice.Types
     phoneNumber_updatedTimestamp,
 
     -- * PhoneNumberAssociation
-    PhoneNumberAssociation (..),
+    PhoneNumberAssociation,
     newPhoneNumberAssociation,
     phoneNumberAssociation_associatedTimestamp,
     phoneNumberAssociation_name,
     phoneNumberAssociation_value,
 
     -- * PhoneNumberCapabilities
-    PhoneNumberCapabilities (..),
+    PhoneNumberCapabilities,
     newPhoneNumberCapabilities,
     phoneNumberCapabilities_inboundCall,
     phoneNumberCapabilities_inboundMMS,
@@ -200,20 +201,20 @@ module Amazonka.ChimeSdkVoice.Types
     phoneNumberCapabilities_outboundSMS,
 
     -- * PhoneNumberCountry
-    PhoneNumberCountry (..),
+    PhoneNumberCountry,
     newPhoneNumberCountry,
     phoneNumberCountry_countryCode,
     phoneNumberCountry_supportedPhoneNumberTypes,
 
     -- * PhoneNumberError
-    PhoneNumberError (..),
+    PhoneNumberError,
     newPhoneNumberError,
     phoneNumberError_errorCode,
     phoneNumberError_errorMessage,
     phoneNumberError_phoneNumberId,
 
     -- * PhoneNumberOrder
-    PhoneNumberOrder (..),
+    PhoneNumberOrder,
     newPhoneNumberOrder,
     phoneNumberOrder_createdTimestamp,
     phoneNumberOrder_orderType,
@@ -224,7 +225,7 @@ module Amazonka.ChimeSdkVoice.Types
     phoneNumberOrder_updatedTimestamp,
 
     -- * Proxy
-    Proxy (..),
+    Proxy,
     newProxy,
     proxy_defaultSessionExpiryMinutes,
     proxy_disabled,
@@ -232,7 +233,7 @@ module Amazonka.ChimeSdkVoice.Types
     proxy_phoneNumberCountries,
 
     -- * ProxySession
-    ProxySession (..),
+    ProxySession,
     newProxySession,
     proxySession_capabilities,
     proxySession_createdTimestamp,
@@ -249,7 +250,7 @@ module Amazonka.ChimeSdkVoice.Types
     proxySession_voiceConnectorId,
 
     -- * SipMediaApplication
-    SipMediaApplication (..),
+    SipMediaApplication,
     newSipMediaApplication,
     sipMediaApplication_awsRegion,
     sipMediaApplication_createdTimestamp,
@@ -259,28 +260,28 @@ module Amazonka.ChimeSdkVoice.Types
     sipMediaApplication_updatedTimestamp,
 
     -- * SipMediaApplicationAlexaSkillConfiguration
-    SipMediaApplicationAlexaSkillConfiguration (..),
+    SipMediaApplicationAlexaSkillConfiguration,
     newSipMediaApplicationAlexaSkillConfiguration,
     sipMediaApplicationAlexaSkillConfiguration_alexaSkillStatus,
     sipMediaApplicationAlexaSkillConfiguration_alexaSkillIds,
 
     -- * SipMediaApplicationCall
-    SipMediaApplicationCall (..),
+    SipMediaApplicationCall,
     newSipMediaApplicationCall,
     sipMediaApplicationCall_transactionId,
 
     -- * SipMediaApplicationEndpoint
-    SipMediaApplicationEndpoint (..),
+    SipMediaApplicationEndpoint,
     newSipMediaApplicationEndpoint,
     sipMediaApplicationEndpoint_lambdaArn,
 
     -- * SipMediaApplicationLoggingConfiguration
-    SipMediaApplicationLoggingConfiguration (..),
+    SipMediaApplicationLoggingConfiguration,
     newSipMediaApplicationLoggingConfiguration,
     sipMediaApplicationLoggingConfiguration_enableSipMediaApplicationMessageLogs,
 
     -- * SipRule
-    SipRule (..),
+    SipRule,
     newSipRule,
     sipRule_createdTimestamp,
     sipRule_disabled,
@@ -292,26 +293,26 @@ module Amazonka.ChimeSdkVoice.Types
     sipRule_updatedTimestamp,
 
     -- * SipRuleTargetApplication
-    SipRuleTargetApplication (..),
+    SipRuleTargetApplication,
     newSipRuleTargetApplication,
     sipRuleTargetApplication_awsRegion,
     sipRuleTargetApplication_priority,
     sipRuleTargetApplication_sipMediaApplicationId,
 
     -- * StreamingConfiguration
-    StreamingConfiguration (..),
+    StreamingConfiguration,
     newStreamingConfiguration,
     streamingConfiguration_streamingNotificationTargets,
     streamingConfiguration_dataRetentionInHours,
     streamingConfiguration_disabled,
 
     -- * StreamingNotificationTarget
-    StreamingNotificationTarget (..),
+    StreamingNotificationTarget,
     newStreamingNotificationTarget,
     streamingNotificationTarget_notificationTarget,
 
     -- * Termination
-    Termination (..),
+    Termination,
     newTermination,
     termination_callingRegions,
     termination_cidrAllowedList,
@@ -320,20 +321,20 @@ module Amazonka.ChimeSdkVoice.Types
     termination_disabled,
 
     -- * TerminationHealth
-    TerminationHealth (..),
+    TerminationHealth,
     newTerminationHealth,
     terminationHealth_source,
     terminationHealth_timestamp,
 
     -- * UpdatePhoneNumberRequestItem
-    UpdatePhoneNumberRequestItem (..),
+    UpdatePhoneNumberRequestItem,
     newUpdatePhoneNumberRequestItem,
     updatePhoneNumberRequestItem_callingName,
     updatePhoneNumberRequestItem_productType,
     updatePhoneNumberRequestItem_phoneNumberId,
 
     -- * VoiceConnector
-    VoiceConnector (..),
+    VoiceConnector,
     newVoiceConnector,
     voiceConnector_awsRegion,
     voiceConnector_createdTimestamp,
@@ -345,7 +346,7 @@ module Amazonka.ChimeSdkVoice.Types
     voiceConnector_voiceConnectorId,
 
     -- * VoiceConnectorGroup
-    VoiceConnectorGroup (..),
+    VoiceConnectorGroup,
     newVoiceConnectorGroup,
     voiceConnectorGroup_createdTimestamp,
     voiceConnectorGroup_name,
@@ -355,13 +356,13 @@ module Amazonka.ChimeSdkVoice.Types
     voiceConnectorGroup_voiceConnectorItems,
 
     -- * VoiceConnectorItem
-    VoiceConnectorItem (..),
+    VoiceConnectorItem,
     newVoiceConnectorItem,
     voiceConnectorItem_voiceConnectorId,
     voiceConnectorItem_priority,
 
     -- * VoiceConnectorSettings
-    VoiceConnectorSettings (..),
+    VoiceConnectorSettings,
     newVoiceConnectorSettings,
     voiceConnectorSettings_cdrBucket,
   )

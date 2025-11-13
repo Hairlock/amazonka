@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -26,22 +27,22 @@ module Amazonka.QLDBSession.Types
     _RateExceededException,
 
     -- * AbortTransactionRequest
-    AbortTransactionRequest (..),
+    AbortTransactionRequest,
     newAbortTransactionRequest,
 
     -- * AbortTransactionResult
-    AbortTransactionResult (..),
+    AbortTransactionResult,
     newAbortTransactionResult,
     abortTransactionResult_timingInformation,
 
     -- * CommitTransactionRequest
-    CommitTransactionRequest (..),
+    CommitTransactionRequest,
     newCommitTransactionRequest,
     commitTransactionRequest_transactionId,
     commitTransactionRequest_commitDigest,
 
     -- * CommitTransactionResult
-    CommitTransactionResult (..),
+    CommitTransactionResult,
     newCommitTransactionResult,
     commitTransactionResult_commitDigest,
     commitTransactionResult_consumedIOs,
@@ -49,81 +50,81 @@ module Amazonka.QLDBSession.Types
     commitTransactionResult_transactionId,
 
     -- * EndSessionRequest
-    EndSessionRequest (..),
+    EndSessionRequest,
     newEndSessionRequest,
 
     -- * EndSessionResult
-    EndSessionResult (..),
+    EndSessionResult,
     newEndSessionResult,
     endSessionResult_timingInformation,
 
     -- * ExecuteStatementRequest
-    ExecuteStatementRequest (..),
+    ExecuteStatementRequest,
     newExecuteStatementRequest,
     executeStatementRequest_parameters,
     executeStatementRequest_transactionId,
     executeStatementRequest_statement,
 
     -- * ExecuteStatementResult
-    ExecuteStatementResult (..),
+    ExecuteStatementResult,
     newExecuteStatementResult,
     executeStatementResult_consumedIOs,
     executeStatementResult_firstPage,
     executeStatementResult_timingInformation,
 
     -- * FetchPageRequest
-    FetchPageRequest (..),
+    FetchPageRequest,
     newFetchPageRequest,
     fetchPageRequest_transactionId,
     fetchPageRequest_nextPageToken,
 
     -- * FetchPageResult
-    FetchPageResult (..),
+    FetchPageResult,
     newFetchPageResult,
     fetchPageResult_consumedIOs,
     fetchPageResult_page,
     fetchPageResult_timingInformation,
 
     -- * IOUsage
-    IOUsage (..),
+    IOUsage,
     newIOUsage,
     iOUsage_readIOs,
     iOUsage_writeIOs,
 
     -- * Page
-    Page (..),
+    Page,
     newPage,
     page_nextPageToken,
     page_values,
 
     -- * StartSessionRequest
-    StartSessionRequest (..),
+    StartSessionRequest,
     newStartSessionRequest,
     startSessionRequest_ledgerName,
 
     -- * StartSessionResult
-    StartSessionResult (..),
+    StartSessionResult,
     newStartSessionResult,
     startSessionResult_sessionToken,
     startSessionResult_timingInformation,
 
     -- * StartTransactionRequest
-    StartTransactionRequest (..),
+    StartTransactionRequest,
     newStartTransactionRequest,
 
     -- * StartTransactionResult
-    StartTransactionResult (..),
+    StartTransactionResult,
     newStartTransactionResult,
     startTransactionResult_timingInformation,
     startTransactionResult_transactionId,
 
     -- * TimingInformation
-    TimingInformation (..),
+    TimingInformation,
     newTimingInformation,
     timingInformation_processingTimeMilliseconds,
 
     -- * ValueHolder
-    ValueHolder (..),
+    ValueHolder,
     newValueHolder,
     valueHolder_ionBinary,
     valueHolder_ionText,

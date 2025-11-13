@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -23,10 +24,10 @@ module Amazonka.MarketplaceEntitlement.Types
     _ThrottlingException,
 
     -- * GetEntitlementFilterName
-    GetEntitlementFilterName (..),
+    GetEntitlementFilterName,
 
     -- * Entitlement
-    Entitlement (..),
+    Entitlement,
     newEntitlement,
     entitlement_customerIdentifier,
     entitlement_dimension,
@@ -35,7 +36,7 @@ module Amazonka.MarketplaceEntitlement.Types
     entitlement_value,
 
     -- * EntitlementValue
-    EntitlementValue (..),
+    EntitlementValue,
     newEntitlementValue,
     entitlementValue_booleanValue,
     entitlementValue_doubleValue,

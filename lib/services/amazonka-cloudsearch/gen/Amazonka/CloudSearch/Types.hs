@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -28,34 +29,34 @@ module Amazonka.CloudSearch.Types
     _ValidationException,
 
     -- * AlgorithmicStemming
-    AlgorithmicStemming (..),
+    AlgorithmicStemming,
 
     -- * AnalysisSchemeLanguage
-    AnalysisSchemeLanguage (..),
+    AnalysisSchemeLanguage,
 
     -- * IndexFieldType
-    IndexFieldType (..),
+    IndexFieldType,
 
     -- * OptionState
-    OptionState (..),
+    OptionState,
 
     -- * PartitionInstanceType
-    PartitionInstanceType (..),
+    PartitionInstanceType,
 
     -- * SuggesterFuzzyMatching
-    SuggesterFuzzyMatching (..),
+    SuggesterFuzzyMatching,
 
     -- * TLSSecurityPolicy
-    TLSSecurityPolicy (..),
+    TLSSecurityPolicy,
 
     -- * AccessPoliciesStatus
-    AccessPoliciesStatus (..),
+    AccessPoliciesStatus,
     newAccessPoliciesStatus,
     accessPoliciesStatus_options,
     accessPoliciesStatus_status,
 
     -- * AnalysisOptions
-    AnalysisOptions (..),
+    AnalysisOptions,
     newAnalysisOptions,
     analysisOptions_algorithmicStemming,
     analysisOptions_japaneseTokenizationDictionary,
@@ -64,26 +65,26 @@ module Amazonka.CloudSearch.Types
     analysisOptions_synonyms,
 
     -- * AnalysisScheme
-    AnalysisScheme (..),
+    AnalysisScheme,
     newAnalysisScheme,
     analysisScheme_analysisOptions,
     analysisScheme_analysisSchemeName,
     analysisScheme_analysisSchemeLanguage,
 
     -- * AnalysisSchemeStatus
-    AnalysisSchemeStatus (..),
+    AnalysisSchemeStatus,
     newAnalysisSchemeStatus,
     analysisSchemeStatus_options,
     analysisSchemeStatus_status,
 
     -- * AvailabilityOptionsStatus
-    AvailabilityOptionsStatus (..),
+    AvailabilityOptionsStatus,
     newAvailabilityOptionsStatus,
     availabilityOptionsStatus_options,
     availabilityOptionsStatus_status,
 
     -- * DateArrayOptions
-    DateArrayOptions (..),
+    DateArrayOptions,
     newDateArrayOptions,
     dateArrayOptions_defaultValue,
     dateArrayOptions_facetEnabled,
@@ -92,7 +93,7 @@ module Amazonka.CloudSearch.Types
     dateArrayOptions_sourceFields,
 
     -- * DateOptions
-    DateOptions (..),
+    DateOptions,
     newDateOptions,
     dateOptions_defaultValue,
     dateOptions_facetEnabled,
@@ -102,26 +103,26 @@ module Amazonka.CloudSearch.Types
     dateOptions_sourceField,
 
     -- * DocumentSuggesterOptions
-    DocumentSuggesterOptions (..),
+    DocumentSuggesterOptions,
     newDocumentSuggesterOptions,
     documentSuggesterOptions_fuzzyMatching,
     documentSuggesterOptions_sortExpression,
     documentSuggesterOptions_sourceField,
 
     -- * DomainEndpointOptions
-    DomainEndpointOptions (..),
+    DomainEndpointOptions,
     newDomainEndpointOptions,
     domainEndpointOptions_enforceHTTPS,
     domainEndpointOptions_tLSSecurityPolicy,
 
     -- * DomainEndpointOptionsStatus
-    DomainEndpointOptionsStatus (..),
+    DomainEndpointOptionsStatus,
     newDomainEndpointOptionsStatus,
     domainEndpointOptionsStatus_options,
     domainEndpointOptionsStatus_status,
 
     -- * DomainStatus
-    DomainStatus (..),
+    DomainStatus,
     newDomainStatus,
     domainStatus_arn,
     domainStatus_created,
@@ -138,7 +139,7 @@ module Amazonka.CloudSearch.Types
     domainStatus_requiresIndexDocuments,
 
     -- * DoubleArrayOptions
-    DoubleArrayOptions (..),
+    DoubleArrayOptions,
     newDoubleArrayOptions,
     doubleArrayOptions_defaultValue,
     doubleArrayOptions_facetEnabled,
@@ -147,7 +148,7 @@ module Amazonka.CloudSearch.Types
     doubleArrayOptions_sourceFields,
 
     -- * DoubleOptions
-    DoubleOptions (..),
+    DoubleOptions,
     newDoubleOptions,
     doubleOptions_defaultValue,
     doubleOptions_facetEnabled,
@@ -157,19 +158,19 @@ module Amazonka.CloudSearch.Types
     doubleOptions_sourceField,
 
     -- * Expression
-    Expression (..),
+    Expression,
     newExpression,
     expression_expressionName,
     expression_expressionValue,
 
     -- * ExpressionStatus
-    ExpressionStatus (..),
+    ExpressionStatus,
     newExpressionStatus,
     expressionStatus_options,
     expressionStatus_status,
 
     -- * IndexField
-    IndexField (..),
+    IndexField,
     newIndexField,
     indexField_dateArrayOptions,
     indexField_dateOptions,
@@ -186,13 +187,13 @@ module Amazonka.CloudSearch.Types
     indexField_indexFieldType,
 
     -- * IndexFieldStatus
-    IndexFieldStatus (..),
+    IndexFieldStatus,
     newIndexFieldStatus,
     indexFieldStatus_options,
     indexFieldStatus_status,
 
     -- * IntArrayOptions
-    IntArrayOptions (..),
+    IntArrayOptions,
     newIntArrayOptions,
     intArrayOptions_defaultValue,
     intArrayOptions_facetEnabled,
@@ -201,7 +202,7 @@ module Amazonka.CloudSearch.Types
     intArrayOptions_sourceFields,
 
     -- * IntOptions
-    IntOptions (..),
+    IntOptions,
     newIntOptions,
     intOptions_defaultValue,
     intOptions_facetEnabled,
@@ -211,7 +212,7 @@ module Amazonka.CloudSearch.Types
     intOptions_sourceField,
 
     -- * LatLonOptions
-    LatLonOptions (..),
+    LatLonOptions,
     newLatLonOptions,
     latLonOptions_defaultValue,
     latLonOptions_facetEnabled,
@@ -221,13 +222,13 @@ module Amazonka.CloudSearch.Types
     latLonOptions_sourceField,
 
     -- * Limits
-    Limits (..),
+    Limits,
     newLimits,
     limits_maximumReplicationCount,
     limits_maximumPartitionCount,
 
     -- * LiteralArrayOptions
-    LiteralArrayOptions (..),
+    LiteralArrayOptions,
     newLiteralArrayOptions,
     literalArrayOptions_defaultValue,
     literalArrayOptions_facetEnabled,
@@ -236,7 +237,7 @@ module Amazonka.CloudSearch.Types
     literalArrayOptions_sourceFields,
 
     -- * LiteralOptions
-    LiteralOptions (..),
+    LiteralOptions,
     newLiteralOptions,
     literalOptions_defaultValue,
     literalOptions_facetEnabled,
@@ -246,7 +247,7 @@ module Amazonka.CloudSearch.Types
     literalOptions_sourceField,
 
     -- * OptionStatus
-    OptionStatus (..),
+    OptionStatus,
     newOptionStatus,
     optionStatus_pendingDeletion,
     optionStatus_updateVersion,
@@ -255,37 +256,37 @@ module Amazonka.CloudSearch.Types
     optionStatus_state,
 
     -- * ScalingParameters
-    ScalingParameters (..),
+    ScalingParameters,
     newScalingParameters,
     scalingParameters_desiredInstanceType,
     scalingParameters_desiredPartitionCount,
     scalingParameters_desiredReplicationCount,
 
     -- * ScalingParametersStatus
-    ScalingParametersStatus (..),
+    ScalingParametersStatus,
     newScalingParametersStatus,
     scalingParametersStatus_options,
     scalingParametersStatus_status,
 
     -- * ServiceEndpoint
-    ServiceEndpoint (..),
+    ServiceEndpoint,
     newServiceEndpoint,
     serviceEndpoint_endpoint,
 
     -- * Suggester
-    Suggester (..),
+    Suggester,
     newSuggester,
     suggester_suggesterName,
     suggester_documentSuggesterOptions,
 
     -- * SuggesterStatus
-    SuggesterStatus (..),
+    SuggesterStatus,
     newSuggesterStatus,
     suggesterStatus_options,
     suggesterStatus_status,
 
     -- * TextArrayOptions
-    TextArrayOptions (..),
+    TextArrayOptions,
     newTextArrayOptions,
     textArrayOptions_analysisScheme,
     textArrayOptions_defaultValue,
@@ -294,7 +295,7 @@ module Amazonka.CloudSearch.Types
     textArrayOptions_sourceFields,
 
     -- * TextOptions
-    TextOptions (..),
+    TextOptions,
     newTextOptions,
     textOptions_analysisScheme,
     textOptions_defaultValue,

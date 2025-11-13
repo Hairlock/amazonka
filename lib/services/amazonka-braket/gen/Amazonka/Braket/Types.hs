@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -29,58 +30,58 @@ module Amazonka.Braket.Types
     _ValidationException,
 
     -- * CancellationStatus
-    CancellationStatus (..),
+    CancellationStatus,
 
     -- * CompressionType
-    CompressionType (..),
+    CompressionType,
 
     -- * DeviceStatus
-    DeviceStatus (..),
+    DeviceStatus,
 
     -- * DeviceType
-    DeviceType (..),
+    DeviceType,
 
     -- * InstanceType
-    InstanceType (..),
+    InstanceType,
 
     -- * JobEventType
-    JobEventType (..),
+    JobEventType,
 
     -- * JobPrimaryStatus
-    JobPrimaryStatus (..),
+    JobPrimaryStatus,
 
     -- * QuantumTaskStatus
-    QuantumTaskStatus (..),
+    QuantumTaskStatus,
 
     -- * SearchJobsFilterOperator
-    SearchJobsFilterOperator (..),
+    SearchJobsFilterOperator,
 
     -- * SearchQuantumTasksFilterOperator
-    SearchQuantumTasksFilterOperator (..),
+    SearchQuantumTasksFilterOperator,
 
     -- * AlgorithmSpecification
-    AlgorithmSpecification (..),
+    AlgorithmSpecification,
     newAlgorithmSpecification,
     algorithmSpecification_containerImage,
     algorithmSpecification_scriptModeConfig,
 
     -- * ContainerImage
-    ContainerImage (..),
+    ContainerImage,
     newContainerImage,
     containerImage_uri,
 
     -- * DataSource
-    DataSource (..),
+    DataSource,
     newDataSource,
     dataSource_s3DataSource,
 
     -- * DeviceConfig
-    DeviceConfig (..),
+    DeviceConfig,
     newDeviceConfig,
     deviceConfig_device,
 
     -- * DeviceSummary
-    DeviceSummary (..),
+    DeviceSummary,
     newDeviceSummary,
     deviceSummary_deviceArn,
     deviceSummary_deviceName,
@@ -89,45 +90,45 @@ module Amazonka.Braket.Types
     deviceSummary_providerName,
 
     -- * InputFileConfig
-    InputFileConfig (..),
+    InputFileConfig,
     newInputFileConfig,
     inputFileConfig_contentType,
     inputFileConfig_channelName,
     inputFileConfig_dataSource,
 
     -- * InstanceConfig
-    InstanceConfig (..),
+    InstanceConfig,
     newInstanceConfig,
     instanceConfig_instanceCount,
     instanceConfig_instanceType,
     instanceConfig_volumeSizeInGb,
 
     -- * JobCheckpointConfig
-    JobCheckpointConfig (..),
+    JobCheckpointConfig,
     newJobCheckpointConfig,
     jobCheckpointConfig_localPath,
     jobCheckpointConfig_s3Uri,
 
     -- * JobEventDetails
-    JobEventDetails (..),
+    JobEventDetails,
     newJobEventDetails,
     jobEventDetails_eventType,
     jobEventDetails_message,
     jobEventDetails_timeOfEvent,
 
     -- * JobOutputDataConfig
-    JobOutputDataConfig (..),
+    JobOutputDataConfig,
     newJobOutputDataConfig,
     jobOutputDataConfig_kmsKeyId,
     jobOutputDataConfig_s3Path,
 
     -- * JobStoppingCondition
-    JobStoppingCondition (..),
+    JobStoppingCondition,
     newJobStoppingCondition,
     jobStoppingCondition_maxRuntimeInSeconds,
 
     -- * JobSummary
-    JobSummary (..),
+    JobSummary,
     newJobSummary,
     jobSummary_endedAt,
     jobSummary_startedAt,
@@ -139,7 +140,7 @@ module Amazonka.Braket.Types
     jobSummary_status,
 
     -- * QuantumTaskSummary
-    QuantumTaskSummary (..),
+    QuantumTaskSummary,
     newQuantumTaskSummary,
     quantumTaskSummary_endedAt,
     quantumTaskSummary_tags,
@@ -152,32 +153,32 @@ module Amazonka.Braket.Types
     quantumTaskSummary_status,
 
     -- * S3DataSource
-    S3DataSource (..),
+    S3DataSource,
     newS3DataSource,
     s3DataSource_s3Uri,
 
     -- * ScriptModeConfig
-    ScriptModeConfig (..),
+    ScriptModeConfig,
     newScriptModeConfig,
     scriptModeConfig_compressionType,
     scriptModeConfig_entryPoint,
     scriptModeConfig_s3Uri,
 
     -- * SearchDevicesFilter
-    SearchDevicesFilter (..),
+    SearchDevicesFilter,
     newSearchDevicesFilter,
     searchDevicesFilter_name,
     searchDevicesFilter_values,
 
     -- * SearchJobsFilter
-    SearchJobsFilter (..),
+    SearchJobsFilter,
     newSearchJobsFilter,
     searchJobsFilter_name,
     searchJobsFilter_operator,
     searchJobsFilter_values,
 
     -- * SearchQuantumTasksFilter
-    SearchQuantumTasksFilter (..),
+    SearchQuantumTasksFilter,
     newSearchQuantumTasksFilter,
     searchQuantumTasksFilter_name,
     searchQuantumTasksFilter_operator,

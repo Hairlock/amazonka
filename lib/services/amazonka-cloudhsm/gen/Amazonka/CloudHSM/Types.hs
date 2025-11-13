@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -23,19 +24,19 @@ module Amazonka.CloudHSM.Types
     _InvalidRequestException,
 
     -- * ClientVersion
-    ClientVersion (..),
+    ClientVersion,
 
     -- * CloudHsmObjectState
-    CloudHsmObjectState (..),
+    CloudHsmObjectState,
 
     -- * HsmStatus
-    HsmStatus (..),
+    HsmStatus,
 
     -- * SubscriptionType
-    SubscriptionType (..),
+    SubscriptionType,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,

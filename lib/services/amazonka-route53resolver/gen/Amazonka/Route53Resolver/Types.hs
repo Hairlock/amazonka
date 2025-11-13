@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -36,88 +37,88 @@ module Amazonka.Route53Resolver.Types
     _ValidationException,
 
     -- * Action
-    Action (..),
+    Action,
 
     -- * AutodefinedReverseFlag
-    AutodefinedReverseFlag (..),
+    AutodefinedReverseFlag,
 
     -- * BlockOverrideDnsType
-    BlockOverrideDnsType (..),
+    BlockOverrideDnsType,
 
     -- * BlockResponse
-    BlockResponse (..),
+    BlockResponse,
 
     -- * FirewallDomainImportOperation
-    FirewallDomainImportOperation (..),
+    FirewallDomainImportOperation,
 
     -- * FirewallDomainListStatus
-    FirewallDomainListStatus (..),
+    FirewallDomainListStatus,
 
     -- * FirewallDomainUpdateOperation
-    FirewallDomainUpdateOperation (..),
+    FirewallDomainUpdateOperation,
 
     -- * FirewallFailOpenStatus
-    FirewallFailOpenStatus (..),
+    FirewallFailOpenStatus,
 
     -- * FirewallRuleGroupAssociationStatus
-    FirewallRuleGroupAssociationStatus (..),
+    FirewallRuleGroupAssociationStatus,
 
     -- * FirewallRuleGroupStatus
-    FirewallRuleGroupStatus (..),
+    FirewallRuleGroupStatus,
 
     -- * IpAddressStatus
-    IpAddressStatus (..),
+    IpAddressStatus,
 
     -- * MutationProtectionStatus
-    MutationProtectionStatus (..),
+    MutationProtectionStatus,
 
     -- * ResolverAutodefinedReverseStatus
-    ResolverAutodefinedReverseStatus (..),
+    ResolverAutodefinedReverseStatus,
 
     -- * ResolverDNSSECValidationStatus
-    ResolverDNSSECValidationStatus (..),
+    ResolverDNSSECValidationStatus,
 
     -- * ResolverEndpointDirection
-    ResolverEndpointDirection (..),
+    ResolverEndpointDirection,
 
     -- * ResolverEndpointStatus
-    ResolverEndpointStatus (..),
+    ResolverEndpointStatus,
 
     -- * ResolverQueryLogConfigAssociationError
-    ResolverQueryLogConfigAssociationError (..),
+    ResolverQueryLogConfigAssociationError,
 
     -- * ResolverQueryLogConfigAssociationStatus
-    ResolverQueryLogConfigAssociationStatus (..),
+    ResolverQueryLogConfigAssociationStatus,
 
     -- * ResolverQueryLogConfigStatus
-    ResolverQueryLogConfigStatus (..),
+    ResolverQueryLogConfigStatus,
 
     -- * ResolverRuleAssociationStatus
-    ResolverRuleAssociationStatus (..),
+    ResolverRuleAssociationStatus,
 
     -- * ResolverRuleStatus
-    ResolverRuleStatus (..),
+    ResolverRuleStatus,
 
     -- * RuleTypeOption
-    RuleTypeOption (..),
+    RuleTypeOption,
 
     -- * ShareStatus
-    ShareStatus (..),
+    ShareStatus,
 
     -- * SortOrder
-    SortOrder (..),
+    SortOrder,
 
     -- * Validation
-    Validation (..),
+    Validation,
 
     -- * Filter
-    Filter (..),
+    Filter,
     newFilter,
     filter_name,
     filter_values,
 
     -- * FirewallConfig
-    FirewallConfig (..),
+    FirewallConfig,
     newFirewallConfig,
     firewallConfig_firewallFailOpen,
     firewallConfig_id,
@@ -125,7 +126,7 @@ module Amazonka.Route53Resolver.Types
     firewallConfig_resourceId,
 
     -- * FirewallDomainList
-    FirewallDomainList (..),
+    FirewallDomainList,
     newFirewallDomainList,
     firewallDomainList_arn,
     firewallDomainList_creationTime,
@@ -139,7 +140,7 @@ module Amazonka.Route53Resolver.Types
     firewallDomainList_statusMessage,
 
     -- * FirewallDomainListMetadata
-    FirewallDomainListMetadata (..),
+    FirewallDomainListMetadata,
     newFirewallDomainListMetadata,
     firewallDomainListMetadata_arn,
     firewallDomainListMetadata_creatorRequestId,
@@ -148,7 +149,7 @@ module Amazonka.Route53Resolver.Types
     firewallDomainListMetadata_name,
 
     -- * FirewallRule
-    FirewallRule (..),
+    FirewallRule,
     newFirewallRule,
     firewallRule_action,
     firewallRule_blockOverrideDnsType,
@@ -164,7 +165,7 @@ module Amazonka.Route53Resolver.Types
     firewallRule_priority,
 
     -- * FirewallRuleGroup
-    FirewallRuleGroup (..),
+    FirewallRuleGroup,
     newFirewallRuleGroup,
     firewallRuleGroup_arn,
     firewallRuleGroup_creationTime,
@@ -179,7 +180,7 @@ module Amazonka.Route53Resolver.Types
     firewallRuleGroup_statusMessage,
 
     -- * FirewallRuleGroupAssociation
-    FirewallRuleGroupAssociation (..),
+    FirewallRuleGroupAssociation,
     newFirewallRuleGroupAssociation,
     firewallRuleGroupAssociation_arn,
     firewallRuleGroupAssociation_creationTime,
@@ -196,7 +197,7 @@ module Amazonka.Route53Resolver.Types
     firewallRuleGroupAssociation_vpcId,
 
     -- * FirewallRuleGroupMetadata
-    FirewallRuleGroupMetadata (..),
+    FirewallRuleGroupMetadata,
     newFirewallRuleGroupMetadata,
     firewallRuleGroupMetadata_arn,
     firewallRuleGroupMetadata_creatorRequestId,
@@ -206,13 +207,13 @@ module Amazonka.Route53Resolver.Types
     firewallRuleGroupMetadata_shareStatus,
 
     -- * IpAddressRequest
-    IpAddressRequest (..),
+    IpAddressRequest,
     newIpAddressRequest,
     ipAddressRequest_ip,
     ipAddressRequest_subnetId,
 
     -- * IpAddressResponse
-    IpAddressResponse (..),
+    IpAddressResponse,
     newIpAddressResponse,
     ipAddressResponse_creationTime,
     ipAddressResponse_ip,
@@ -223,14 +224,14 @@ module Amazonka.Route53Resolver.Types
     ipAddressResponse_subnetId,
 
     -- * IpAddressUpdate
-    IpAddressUpdate (..),
+    IpAddressUpdate,
     newIpAddressUpdate,
     ipAddressUpdate_ip,
     ipAddressUpdate_ipId,
     ipAddressUpdate_subnetId,
 
     -- * ResolverConfig
-    ResolverConfig (..),
+    ResolverConfig,
     newResolverConfig,
     resolverConfig_autodefinedReverse,
     resolverConfig_id,
@@ -238,7 +239,7 @@ module Amazonka.Route53Resolver.Types
     resolverConfig_resourceId,
 
     -- * ResolverDnssecConfig
-    ResolverDnssecConfig (..),
+    ResolverDnssecConfig,
     newResolverDnssecConfig,
     resolverDnssecConfig_id,
     resolverDnssecConfig_ownerId,
@@ -246,7 +247,7 @@ module Amazonka.Route53Resolver.Types
     resolverDnssecConfig_validationStatus,
 
     -- * ResolverEndpoint
-    ResolverEndpoint (..),
+    ResolverEndpoint,
     newResolverEndpoint,
     resolverEndpoint_arn,
     resolverEndpoint_creationTime,
@@ -262,7 +263,7 @@ module Amazonka.Route53Resolver.Types
     resolverEndpoint_statusMessage,
 
     -- * ResolverQueryLogConfig
-    ResolverQueryLogConfig (..),
+    ResolverQueryLogConfig,
     newResolverQueryLogConfig,
     resolverQueryLogConfig_arn,
     resolverQueryLogConfig_associationCount,
@@ -276,7 +277,7 @@ module Amazonka.Route53Resolver.Types
     resolverQueryLogConfig_status,
 
     -- * ResolverQueryLogConfigAssociation
-    ResolverQueryLogConfigAssociation (..),
+    ResolverQueryLogConfigAssociation,
     newResolverQueryLogConfigAssociation,
     resolverQueryLogConfigAssociation_creationTime,
     resolverQueryLogConfigAssociation_error,
@@ -287,7 +288,7 @@ module Amazonka.Route53Resolver.Types
     resolverQueryLogConfigAssociation_status,
 
     -- * ResolverRule
-    ResolverRule (..),
+    ResolverRule,
     newResolverRule,
     resolverRule_arn,
     resolverRule_creationTime,
@@ -305,7 +306,7 @@ module Amazonka.Route53Resolver.Types
     resolverRule_targetIps,
 
     -- * ResolverRuleAssociation
-    ResolverRuleAssociation (..),
+    ResolverRuleAssociation,
     newResolverRuleAssociation,
     resolverRuleAssociation_id,
     resolverRuleAssociation_name,
@@ -315,20 +316,20 @@ module Amazonka.Route53Resolver.Types
     resolverRuleAssociation_vPCId,
 
     -- * ResolverRuleConfig
-    ResolverRuleConfig (..),
+    ResolverRuleConfig,
     newResolverRuleConfig,
     resolverRuleConfig_name,
     resolverRuleConfig_resolverEndpointId,
     resolverRuleConfig_targetIps,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,
 
     -- * TargetAddress
-    TargetAddress (..),
+    TargetAddress,
     newTargetAddress,
     targetAddress_port,
     targetAddress_ip,

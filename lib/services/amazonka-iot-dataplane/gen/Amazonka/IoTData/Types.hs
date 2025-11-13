@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -30,10 +31,10 @@ module Amazonka.IoTData.Types
     _UnsupportedDocumentEncodingException,
 
     -- * PayloadFormatIndicator
-    PayloadFormatIndicator (..),
+    PayloadFormatIndicator,
 
     -- * RetainedMessageSummary
-    RetainedMessageSummary (..),
+    RetainedMessageSummary,
     newRetainedMessageSummary,
     retainedMessageSummary_lastModifiedTime,
     retainedMessageSummary_payloadSize,

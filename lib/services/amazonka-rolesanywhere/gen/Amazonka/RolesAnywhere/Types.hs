@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -24,10 +25,10 @@ module Amazonka.RolesAnywhere.Types
     _ValidationException,
 
     -- * TrustAnchorType
-    TrustAnchorType (..),
+    TrustAnchorType,
 
     -- * CredentialSummary
-    CredentialSummary (..),
+    CredentialSummary,
     newCredentialSummary,
     credentialSummary_enabled,
     credentialSummary_failed,
@@ -37,7 +38,7 @@ module Amazonka.RolesAnywhere.Types
     credentialSummary_x509CertificateData,
 
     -- * CrlDetail
-    CrlDetail (..),
+    CrlDetail,
     newCrlDetail,
     crlDetail_createdAt,
     crlDetail_crlArn,
@@ -49,25 +50,25 @@ module Amazonka.RolesAnywhere.Types
     crlDetail_updatedAt,
 
     -- * CrlDetailResponse
-    CrlDetailResponse (..),
+    CrlDetailResponse,
     newCrlDetailResponse,
     crlDetailResponse_crl,
 
     -- * InstanceProperty
-    InstanceProperty (..),
+    InstanceProperty,
     newInstanceProperty,
     instanceProperty_failed,
     instanceProperty_properties,
     instanceProperty_seenAt,
 
     -- * ListRequest
-    ListRequest (..),
+    ListRequest,
     newListRequest,
     listRequest_nextToken,
     listRequest_pageSize,
 
     -- * ProfileDetail
-    ProfileDetail (..),
+    ProfileDetail,
     newProfileDetail,
     profileDetail_createdAt,
     profileDetail_createdBy,
@@ -83,39 +84,39 @@ module Amazonka.RolesAnywhere.Types
     profileDetail_updatedAt,
 
     -- * ProfileDetailResponse
-    ProfileDetailResponse (..),
+    ProfileDetailResponse,
     newProfileDetailResponse,
     profileDetailResponse_profile,
 
     -- * ScalarCrlRequest
-    ScalarCrlRequest (..),
+    ScalarCrlRequest,
     newScalarCrlRequest,
     scalarCrlRequest_crlId,
 
     -- * ScalarProfileRequest
-    ScalarProfileRequest (..),
+    ScalarProfileRequest,
     newScalarProfileRequest,
     scalarProfileRequest_profileId,
 
     -- * ScalarTrustAnchorRequest
-    ScalarTrustAnchorRequest (..),
+    ScalarTrustAnchorRequest,
     newScalarTrustAnchorRequest,
     scalarTrustAnchorRequest_trustAnchorId,
 
     -- * Source
-    Source (..),
+    Source,
     newSource,
     source_sourceData,
     source_sourceType,
 
     -- * SourceData
-    SourceData (..),
+    SourceData,
     newSourceData,
     sourceData_acmPcaArn,
     sourceData_x509CertificateData,
 
     -- * SubjectDetail
-    SubjectDetail (..),
+    SubjectDetail,
     newSubjectDetail,
     subjectDetail_createdAt,
     subjectDetail_credentials,
@@ -128,7 +129,7 @@ module Amazonka.RolesAnywhere.Types
     subjectDetail_x509Subject,
 
     -- * SubjectSummary
-    SubjectSummary (..),
+    SubjectSummary,
     newSubjectSummary,
     subjectSummary_createdAt,
     subjectSummary_enabled,
@@ -139,13 +140,13 @@ module Amazonka.RolesAnywhere.Types
     subjectSummary_x509Subject,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,
 
     -- * TrustAnchorDetail
-    TrustAnchorDetail (..),
+    TrustAnchorDetail,
     newTrustAnchorDetail,
     trustAnchorDetail_createdAt,
     trustAnchorDetail_enabled,
@@ -156,7 +157,7 @@ module Amazonka.RolesAnywhere.Types
     trustAnchorDetail_updatedAt,
 
     -- * TrustAnchorDetailResponse
-    TrustAnchorDetailResponse (..),
+    TrustAnchorDetailResponse,
     newTrustAnchorDetailResponse,
     trustAnchorDetailResponse_trustAnchor,
   )

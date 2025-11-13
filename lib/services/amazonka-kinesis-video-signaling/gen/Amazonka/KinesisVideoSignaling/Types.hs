@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -26,10 +27,10 @@ module Amazonka.KinesisVideoSignaling.Types
     _SessionExpiredException,
 
     -- * Service
-    Service (..),
+    Service,
 
     -- * IceServer
-    IceServer (..),
+    IceServer,
     newIceServer,
     iceServer_password,
     iceServer_ttl,

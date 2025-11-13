@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -24,25 +25,25 @@ module Amazonka.OpenSearchServerless.Types
     _ValidationException,
 
     -- * AccessPolicyType
-    AccessPolicyType (..),
+    AccessPolicyType,
 
     -- * CollectionStatus
-    CollectionStatus (..),
+    CollectionStatus,
 
     -- * CollectionType
-    CollectionType (..),
+    CollectionType,
 
     -- * SecurityConfigType
-    SecurityConfigType (..),
+    SecurityConfigType,
 
     -- * SecurityPolicyType
-    SecurityPolicyType (..),
+    SecurityPolicyType,
 
     -- * VpcEndpointStatus
-    VpcEndpointStatus (..),
+    VpcEndpointStatus,
 
     -- * AccessPolicyDetail
-    AccessPolicyDetail (..),
+    AccessPolicyDetail,
     newAccessPolicyDetail,
     accessPolicyDetail_createdDate,
     accessPolicyDetail_description,
@@ -53,12 +54,12 @@ module Amazonka.OpenSearchServerless.Types
     accessPolicyDetail_type,
 
     -- * AccessPolicyStats
-    AccessPolicyStats (..),
+    AccessPolicyStats,
     newAccessPolicyStats,
     accessPolicyStats_dataPolicyCount,
 
     -- * AccessPolicySummary
-    AccessPolicySummary (..),
+    AccessPolicySummary,
     newAccessPolicySummary,
     accessPolicySummary_createdDate,
     accessPolicySummary_description,
@@ -68,18 +69,18 @@ module Amazonka.OpenSearchServerless.Types
     accessPolicySummary_type,
 
     -- * AccountSettingsDetail
-    AccountSettingsDetail (..),
+    AccountSettingsDetail,
     newAccountSettingsDetail,
     accountSettingsDetail_capacityLimits,
 
     -- * CapacityLimits
-    CapacityLimits (..),
+    CapacityLimits,
     newCapacityLimits,
     capacityLimits_maxIndexingCapacityInOCU,
     capacityLimits_maxSearchCapacityInOCU,
 
     -- * CollectionDetail
-    CollectionDetail (..),
+    CollectionDetail,
     newCollectionDetail,
     collectionDetail_arn,
     collectionDetail_collectionEndpoint,
@@ -94,7 +95,7 @@ module Amazonka.OpenSearchServerless.Types
     collectionDetail_type,
 
     -- * CollectionErrorDetail
-    CollectionErrorDetail (..),
+    CollectionErrorDetail,
     newCollectionErrorDetail,
     collectionErrorDetail_errorCode,
     collectionErrorDetail_errorMessage,
@@ -102,13 +103,13 @@ module Amazonka.OpenSearchServerless.Types
     collectionErrorDetail_name,
 
     -- * CollectionFilters
-    CollectionFilters (..),
+    CollectionFilters,
     newCollectionFilters,
     collectionFilters_name,
     collectionFilters_status,
 
     -- * CollectionSummary
-    CollectionSummary (..),
+    CollectionSummary,
     newCollectionSummary,
     collectionSummary_arn,
     collectionSummary_id,
@@ -116,7 +117,7 @@ module Amazonka.OpenSearchServerless.Types
     collectionSummary_status,
 
     -- * CreateCollectionDetail
-    CreateCollectionDetail (..),
+    CreateCollectionDetail,
     newCreateCollectionDetail,
     createCollectionDetail_arn,
     createCollectionDetail_createdDate,
@@ -129,32 +130,32 @@ module Amazonka.OpenSearchServerless.Types
     createCollectionDetail_type,
 
     -- * CreateVpcEndpointDetail
-    CreateVpcEndpointDetail (..),
+    CreateVpcEndpointDetail,
     newCreateVpcEndpointDetail,
     createVpcEndpointDetail_id,
     createVpcEndpointDetail_name,
     createVpcEndpointDetail_status,
 
     -- * DeleteCollectionDetail
-    DeleteCollectionDetail (..),
+    DeleteCollectionDetail,
     newDeleteCollectionDetail,
     deleteCollectionDetail_id,
     deleteCollectionDetail_name,
     deleteCollectionDetail_status,
 
     -- * DeleteVpcEndpointDetail
-    DeleteVpcEndpointDetail (..),
+    DeleteVpcEndpointDetail,
     newDeleteVpcEndpointDetail,
     deleteVpcEndpointDetail_id,
     deleteVpcEndpointDetail_name,
     deleteVpcEndpointDetail_status,
 
     -- * Document
-    Document (..),
+    Document,
     newDocument,
 
     -- * SamlConfigOptions
-    SamlConfigOptions (..),
+    SamlConfigOptions,
     newSamlConfigOptions,
     samlConfigOptions_groupAttribute,
     samlConfigOptions_sessionTimeout,
@@ -162,7 +163,7 @@ module Amazonka.OpenSearchServerless.Types
     samlConfigOptions_metadata,
 
     -- * SecurityConfigDetail
-    SecurityConfigDetail (..),
+    SecurityConfigDetail,
     newSecurityConfigDetail,
     securityConfigDetail_configVersion,
     securityConfigDetail_createdDate,
@@ -173,12 +174,12 @@ module Amazonka.OpenSearchServerless.Types
     securityConfigDetail_type,
 
     -- * SecurityConfigStats
-    SecurityConfigStats (..),
+    SecurityConfigStats,
     newSecurityConfigStats,
     securityConfigStats_samlConfigCount,
 
     -- * SecurityConfigSummary
-    SecurityConfigSummary (..),
+    SecurityConfigSummary,
     newSecurityConfigSummary,
     securityConfigSummary_configVersion,
     securityConfigSummary_createdDate,
@@ -188,7 +189,7 @@ module Amazonka.OpenSearchServerless.Types
     securityConfigSummary_type,
 
     -- * SecurityPolicyDetail
-    SecurityPolicyDetail (..),
+    SecurityPolicyDetail,
     newSecurityPolicyDetail,
     securityPolicyDetail_createdDate,
     securityPolicyDetail_description,
@@ -199,13 +200,13 @@ module Amazonka.OpenSearchServerless.Types
     securityPolicyDetail_type,
 
     -- * SecurityPolicyStats
-    SecurityPolicyStats (..),
+    SecurityPolicyStats,
     newSecurityPolicyStats,
     securityPolicyStats_encryptionPolicyCount,
     securityPolicyStats_networkPolicyCount,
 
     -- * SecurityPolicySummary
-    SecurityPolicySummary (..),
+    SecurityPolicySummary,
     newSecurityPolicySummary,
     securityPolicySummary_createdDate,
     securityPolicySummary_description,
@@ -215,13 +216,13 @@ module Amazonka.OpenSearchServerless.Types
     securityPolicySummary_type,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,
 
     -- * UpdateCollectionDetail
-    UpdateCollectionDetail (..),
+    UpdateCollectionDetail,
     newUpdateCollectionDetail,
     updateCollectionDetail_arn,
     updateCollectionDetail_createdDate,
@@ -233,7 +234,7 @@ module Amazonka.OpenSearchServerless.Types
     updateCollectionDetail_type,
 
     -- * UpdateVpcEndpointDetail
-    UpdateVpcEndpointDetail (..),
+    UpdateVpcEndpointDetail,
     newUpdateVpcEndpointDetail,
     updateVpcEndpointDetail_id,
     updateVpcEndpointDetail_lastModifiedDate,
@@ -243,7 +244,7 @@ module Amazonka.OpenSearchServerless.Types
     updateVpcEndpointDetail_subnetIds,
 
     -- * VpcEndpointDetail
-    VpcEndpointDetail (..),
+    VpcEndpointDetail,
     newVpcEndpointDetail,
     vpcEndpointDetail_createdDate,
     vpcEndpointDetail_id,
@@ -254,19 +255,19 @@ module Amazonka.OpenSearchServerless.Types
     vpcEndpointDetail_vpcId,
 
     -- * VpcEndpointErrorDetail
-    VpcEndpointErrorDetail (..),
+    VpcEndpointErrorDetail,
     newVpcEndpointErrorDetail,
     vpcEndpointErrorDetail_errorCode,
     vpcEndpointErrorDetail_errorMessage,
     vpcEndpointErrorDetail_id,
 
     -- * VpcEndpointFilters
-    VpcEndpointFilters (..),
+    VpcEndpointFilters,
     newVpcEndpointFilters,
     vpcEndpointFilters_status,
 
     -- * VpcEndpointSummary
-    VpcEndpointSummary (..),
+    VpcEndpointSummary,
     newVpcEndpointSummary,
     vpcEndpointSummary_id,
     vpcEndpointSummary_name,

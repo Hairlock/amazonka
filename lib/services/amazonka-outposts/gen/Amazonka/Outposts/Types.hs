@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -26,76 +27,76 @@ module Amazonka.Outposts.Types
     _ValidationException,
 
     -- * AddressType
-    AddressType (..),
+    AddressType,
 
     -- * AssetState
-    AssetState (..),
+    AssetState,
 
     -- * AssetType
-    AssetType (..),
+    AssetType,
 
     -- * CatalogItemClass
-    CatalogItemClass (..),
+    CatalogItemClass,
 
     -- * CatalogItemStatus
-    CatalogItemStatus (..),
+    CatalogItemStatus,
 
     -- * ComputeAssetState
-    ComputeAssetState (..),
+    ComputeAssetState,
 
     -- * FiberOpticCableType
-    FiberOpticCableType (..),
+    FiberOpticCableType,
 
     -- * LineItemStatus
-    LineItemStatus (..),
+    LineItemStatus,
 
     -- * MaximumSupportedWeightLbs
-    MaximumSupportedWeightLbs (..),
+    MaximumSupportedWeightLbs,
 
     -- * OpticalStandard
-    OpticalStandard (..),
+    OpticalStandard,
 
     -- * OrderStatus
-    OrderStatus (..),
+    OrderStatus,
 
     -- * OrderType
-    OrderType (..),
+    OrderType,
 
     -- * PaymentOption
-    PaymentOption (..),
+    PaymentOption,
 
     -- * PaymentTerm
-    PaymentTerm (..),
+    PaymentTerm,
 
     -- * PowerConnector
-    PowerConnector (..),
+    PowerConnector,
 
     -- * PowerDrawKva
-    PowerDrawKva (..),
+    PowerDrawKva,
 
     -- * PowerFeedDrop
-    PowerFeedDrop (..),
+    PowerFeedDrop,
 
     -- * PowerPhase
-    PowerPhase (..),
+    PowerPhase,
 
     -- * ShipmentCarrier
-    ShipmentCarrier (..),
+    ShipmentCarrier,
 
     -- * SupportedHardwareType
-    SupportedHardwareType (..),
+    SupportedHardwareType,
 
     -- * SupportedStorageEnum
-    SupportedStorageEnum (..),
+    SupportedStorageEnum,
 
     -- * UplinkCount
-    UplinkCount (..),
+    UplinkCount,
 
     -- * UplinkGbps
-    UplinkGbps (..),
+    UplinkGbps,
 
     -- * Address
-    Address (..),
+    Address,
     newAddress,
     address_addressLine2,
     address_addressLine3,
@@ -110,7 +111,7 @@ module Amazonka.Outposts.Types
     address_countryCode,
 
     -- * AssetInfo
-    AssetInfo (..),
+    AssetInfo,
     newAssetInfo,
     assetInfo_assetId,
     assetInfo_assetLocation,
@@ -119,12 +120,12 @@ module Amazonka.Outposts.Types
     assetInfo_rackId,
 
     -- * AssetLocation
-    AssetLocation (..),
+    AssetLocation,
     newAssetLocation,
     assetLocation_rackElevation,
 
     -- * CatalogItem
-    CatalogItem (..),
+    CatalogItem,
     newCatalogItem,
     catalogItem_catalogItemId,
     catalogItem_eC2Capacities,
@@ -135,13 +136,13 @@ module Amazonka.Outposts.Types
     catalogItem_weightLbs,
 
     -- * ComputeAttributes
-    ComputeAttributes (..),
+    ComputeAttributes,
     newComputeAttributes,
     computeAttributes_hostId,
     computeAttributes_state,
 
     -- * ConnectionDetails
-    ConnectionDetails (..),
+    ConnectionDetails,
     newConnectionDetails,
     connectionDetails_allowedIps,
     connectionDetails_clientPublicKey,
@@ -151,19 +152,19 @@ module Amazonka.Outposts.Types
     connectionDetails_serverTunnelAddress,
 
     -- * EC2Capacity
-    EC2Capacity (..),
+    EC2Capacity,
     newEC2Capacity,
     eC2Capacity_family,
     eC2Capacity_maxSize,
     eC2Capacity_quantity,
 
     -- * InstanceTypeItem
-    InstanceTypeItem (..),
+    InstanceTypeItem,
     newInstanceTypeItem,
     instanceTypeItem_instanceType,
 
     -- * LineItem
-    LineItem (..),
+    LineItem,
     newLineItem,
     lineItem_assetInformationList,
     lineItem_catalogItemId,
@@ -173,19 +174,19 @@ module Amazonka.Outposts.Types
     lineItem_status,
 
     -- * LineItemAssetInformation
-    LineItemAssetInformation (..),
+    LineItemAssetInformation,
     newLineItemAssetInformation,
     lineItemAssetInformation_assetId,
     lineItemAssetInformation_macAddressList,
 
     -- * LineItemRequest
-    LineItemRequest (..),
+    LineItemRequest,
     newLineItemRequest,
     lineItemRequest_catalogItemId,
     lineItemRequest_quantity,
 
     -- * Order
-    Order (..),
+    Order,
     newOrder,
     order_lineItems,
     order_orderFulfilledDate,
@@ -196,7 +197,7 @@ module Amazonka.Outposts.Types
     order_status,
 
     -- * OrderSummary
-    OrderSummary (..),
+    OrderSummary,
     newOrderSummary,
     orderSummary_lineItemCountsByStatus,
     orderSummary_orderFulfilledDate,
@@ -207,7 +208,7 @@ module Amazonka.Outposts.Types
     orderSummary_status,
 
     -- * Outpost
-    Outpost (..),
+    Outpost,
     newOutpost,
     outpost_availabilityZone,
     outpost_availabilityZoneId,
@@ -223,7 +224,7 @@ module Amazonka.Outposts.Types
     outpost_tags,
 
     -- * RackPhysicalProperties
-    RackPhysicalProperties (..),
+    RackPhysicalProperties,
     newRackPhysicalProperties,
     rackPhysicalProperties_fiberOpticCableType,
     rackPhysicalProperties_maximumSupportedWeightLbs,
@@ -236,13 +237,13 @@ module Amazonka.Outposts.Types
     rackPhysicalProperties_uplinkGbps,
 
     -- * ShipmentInformation
-    ShipmentInformation (..),
+    ShipmentInformation,
     newShipmentInformation,
     shipmentInformation_shipmentCarrier,
     shipmentInformation_shipmentTrackingNumber,
 
     -- * Site
-    Site (..),
+    Site,
     newSite,
     site_accountId,
     site_description,

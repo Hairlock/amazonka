@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -30,38 +31,38 @@ module Amazonka.Synthetics.Types
     _ValidationException,
 
     -- * CanaryRunState
-    CanaryRunState (..),
+    CanaryRunState,
 
     -- * CanaryRunStateReasonCode
-    CanaryRunStateReasonCode (..),
+    CanaryRunStateReasonCode,
 
     -- * CanaryState
-    CanaryState (..),
+    CanaryState,
 
     -- * CanaryStateReasonCode
-    CanaryStateReasonCode (..),
+    CanaryStateReasonCode,
 
     -- * EncryptionMode
-    EncryptionMode (..),
+    EncryptionMode,
 
     -- * ArtifactConfigInput
-    ArtifactConfigInput (..),
+    ArtifactConfigInput,
     newArtifactConfigInput,
     artifactConfigInput_s3Encryption,
 
     -- * ArtifactConfigOutput
-    ArtifactConfigOutput (..),
+    ArtifactConfigOutput,
     newArtifactConfigOutput,
     artifactConfigOutput_s3Encryption,
 
     -- * BaseScreenshot
-    BaseScreenshot (..),
+    BaseScreenshot,
     newBaseScreenshot,
     baseScreenshot_ignoreCoordinates,
     baseScreenshot_screenshotName,
 
     -- * Canary
-    Canary (..),
+    Canary,
     newCanary,
     canary_artifactConfig,
     canary_artifactS3Location,
@@ -82,7 +83,7 @@ module Amazonka.Synthetics.Types
     canary_vpcConfig,
 
     -- * CanaryCodeInput
-    CanaryCodeInput (..),
+    CanaryCodeInput,
     newCanaryCodeInput,
     canaryCodeInput_s3Bucket,
     canaryCodeInput_s3Key,
@@ -91,19 +92,19 @@ module Amazonka.Synthetics.Types
     canaryCodeInput_handler,
 
     -- * CanaryCodeOutput
-    CanaryCodeOutput (..),
+    CanaryCodeOutput,
     newCanaryCodeOutput,
     canaryCodeOutput_handler,
     canaryCodeOutput_sourceLocationArn,
 
     -- * CanaryLastRun
-    CanaryLastRun (..),
+    CanaryLastRun,
     newCanaryLastRun,
     canaryLastRun_canaryName,
     canaryLastRun_lastRun,
 
     -- * CanaryRun
-    CanaryRun (..),
+    CanaryRun,
     newCanaryRun,
     canaryRun_artifactS3Location,
     canaryRun_id,
@@ -112,7 +113,7 @@ module Amazonka.Synthetics.Types
     canaryRun_timeline,
 
     -- * CanaryRunConfigInput
-    CanaryRunConfigInput (..),
+    CanaryRunConfigInput,
     newCanaryRunConfigInput,
     canaryRunConfigInput_activeTracing,
     canaryRunConfigInput_environmentVariables,
@@ -120,46 +121,46 @@ module Amazonka.Synthetics.Types
     canaryRunConfigInput_timeoutInSeconds,
 
     -- * CanaryRunConfigOutput
-    CanaryRunConfigOutput (..),
+    CanaryRunConfigOutput,
     newCanaryRunConfigOutput,
     canaryRunConfigOutput_activeTracing,
     canaryRunConfigOutput_memoryInMB,
     canaryRunConfigOutput_timeoutInSeconds,
 
     -- * CanaryRunStatus
-    CanaryRunStatus (..),
+    CanaryRunStatus,
     newCanaryRunStatus,
     canaryRunStatus_state,
     canaryRunStatus_stateReason,
     canaryRunStatus_stateReasonCode,
 
     -- * CanaryRunTimeline
-    CanaryRunTimeline (..),
+    CanaryRunTimeline,
     newCanaryRunTimeline,
     canaryRunTimeline_completed,
     canaryRunTimeline_started,
 
     -- * CanaryScheduleInput
-    CanaryScheduleInput (..),
+    CanaryScheduleInput,
     newCanaryScheduleInput,
     canaryScheduleInput_durationInSeconds,
     canaryScheduleInput_expression,
 
     -- * CanaryScheduleOutput
-    CanaryScheduleOutput (..),
+    CanaryScheduleOutput,
     newCanaryScheduleOutput,
     canaryScheduleOutput_durationInSeconds,
     canaryScheduleOutput_expression,
 
     -- * CanaryStatus
-    CanaryStatus (..),
+    CanaryStatus,
     newCanaryStatus,
     canaryStatus_state,
     canaryStatus_stateReason,
     canaryStatus_stateReasonCode,
 
     -- * CanaryTimeline
-    CanaryTimeline (..),
+    CanaryTimeline,
     newCanaryTimeline,
     canaryTimeline_created,
     canaryTimeline_lastModified,
@@ -167,7 +168,7 @@ module Amazonka.Synthetics.Types
     canaryTimeline_lastStopped,
 
     -- * Group
-    Group (..),
+    Group,
     newGroup,
     group_arn,
     group_createdTime,
@@ -177,14 +178,14 @@ module Amazonka.Synthetics.Types
     group_tags,
 
     -- * GroupSummary
-    GroupSummary (..),
+    GroupSummary,
     newGroupSummary,
     groupSummary_arn,
     groupSummary_id,
     groupSummary_name,
 
     -- * RuntimeVersion
-    RuntimeVersion (..),
+    RuntimeVersion,
     newRuntimeVersion,
     runtimeVersion_deprecationDate,
     runtimeVersion_description,
@@ -192,31 +193,31 @@ module Amazonka.Synthetics.Types
     runtimeVersion_versionName,
 
     -- * S3EncryptionConfig
-    S3EncryptionConfig (..),
+    S3EncryptionConfig,
     newS3EncryptionConfig,
     s3EncryptionConfig_encryptionMode,
     s3EncryptionConfig_kmsKeyArn,
 
     -- * VisualReferenceInput
-    VisualReferenceInput (..),
+    VisualReferenceInput,
     newVisualReferenceInput,
     visualReferenceInput_baseScreenshots,
     visualReferenceInput_baseCanaryRunId,
 
     -- * VisualReferenceOutput
-    VisualReferenceOutput (..),
+    VisualReferenceOutput,
     newVisualReferenceOutput,
     visualReferenceOutput_baseCanaryRunId,
     visualReferenceOutput_baseScreenshots,
 
     -- * VpcConfigInput
-    VpcConfigInput (..),
+    VpcConfigInput,
     newVpcConfigInput,
     vpcConfigInput_securityGroupIds,
     vpcConfigInput_subnetIds,
 
     -- * VpcConfigOutput
-    VpcConfigOutput (..),
+    VpcConfigOutput,
     newVpcConfigOutput,
     vpcConfigOutput_securityGroupIds,
     vpcConfigOutput_subnetIds,

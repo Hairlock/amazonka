@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -29,82 +30,82 @@ module Amazonka.Transfer.Types
     _ThrottlingException,
 
     -- * AgreementStatusType
-    AgreementStatusType (..),
+    AgreementStatusType,
 
     -- * As2Transport
-    As2Transport (..),
+    As2Transport,
 
     -- * CertificateStatusType
-    CertificateStatusType (..),
+    CertificateStatusType,
 
     -- * CertificateType
-    CertificateType (..),
+    CertificateType,
 
     -- * CertificateUsageType
-    CertificateUsageType (..),
+    CertificateUsageType,
 
     -- * CompressionEnum
-    CompressionEnum (..),
+    CompressionEnum,
 
     -- * CustomStepStatus
-    CustomStepStatus (..),
+    CustomStepStatus,
 
     -- * Domain
-    Domain (..),
+    Domain,
 
     -- * EncryptionAlg
-    EncryptionAlg (..),
+    EncryptionAlg,
 
     -- * EncryptionType
-    EncryptionType (..),
+    EncryptionType,
 
     -- * EndpointType
-    EndpointType (..),
+    EndpointType,
 
     -- * ExecutionErrorType
-    ExecutionErrorType (..),
+    ExecutionErrorType,
 
     -- * ExecutionStatus
-    ExecutionStatus (..),
+    ExecutionStatus,
 
     -- * HomeDirectoryType
-    HomeDirectoryType (..),
+    HomeDirectoryType,
 
     -- * IdentityProviderType
-    IdentityProviderType (..),
+    IdentityProviderType,
 
     -- * MdnResponse
-    MdnResponse (..),
+    MdnResponse,
 
     -- * MdnSigningAlg
-    MdnSigningAlg (..),
+    MdnSigningAlg,
 
     -- * OverwriteExisting
-    OverwriteExisting (..),
+    OverwriteExisting,
 
     -- * ProfileType
-    ProfileType (..),
+    ProfileType,
 
     -- * Protocol
-    Protocol (..),
+    Protocol,
 
     -- * SetStatOption
-    SetStatOption (..),
+    SetStatOption,
 
     -- * SigningAlg
-    SigningAlg (..),
+    SigningAlg,
 
     -- * State
-    State (..),
+    State,
 
     -- * TlsSessionResumptionMode
-    TlsSessionResumptionMode (..),
+    TlsSessionResumptionMode,
 
     -- * WorkflowStepType
-    WorkflowStepType (..),
+    WorkflowStepType,
 
     -- * As2ConnectorConfig
-    As2ConnectorConfig (..),
+    As2ConnectorConfig,
     newAs2ConnectorConfig,
     as2ConnectorConfig_compression,
     as2ConnectorConfig_encryptionAlgorithm,
@@ -116,7 +117,7 @@ module Amazonka.Transfer.Types
     as2ConnectorConfig_signingAlgorithm,
 
     -- * CopyStepDetails
-    CopyStepDetails (..),
+    CopyStepDetails,
     newCopyStepDetails,
     copyStepDetails_destinationFileLocation,
     copyStepDetails_name,
@@ -124,7 +125,7 @@ module Amazonka.Transfer.Types
     copyStepDetails_sourceFileLocation,
 
     -- * CustomStepDetails
-    CustomStepDetails (..),
+    CustomStepDetails,
     newCustomStepDetails,
     customStepDetails_name,
     customStepDetails_sourceFileLocation,
@@ -132,7 +133,7 @@ module Amazonka.Transfer.Types
     customStepDetails_timeoutSeconds,
 
     -- * DecryptStepDetails
-    DecryptStepDetails (..),
+    DecryptStepDetails,
     newDecryptStepDetails,
     decryptStepDetails_name,
     decryptStepDetails_overwriteExisting,
@@ -141,13 +142,13 @@ module Amazonka.Transfer.Types
     decryptStepDetails_destinationFileLocation,
 
     -- * DeleteStepDetails
-    DeleteStepDetails (..),
+    DeleteStepDetails,
     newDeleteStepDetails,
     deleteStepDetails_name,
     deleteStepDetails_sourceFileLocation,
 
     -- * DescribedAccess
-    DescribedAccess (..),
+    DescribedAccess,
     newDescribedAccess,
     describedAccess_externalId,
     describedAccess_homeDirectory,
@@ -158,7 +159,7 @@ module Amazonka.Transfer.Types
     describedAccess_role,
 
     -- * DescribedAgreement
-    DescribedAgreement (..),
+    DescribedAgreement,
     newDescribedAgreement,
     describedAgreement_accessRole,
     describedAgreement_agreementId,
@@ -172,7 +173,7 @@ module Amazonka.Transfer.Types
     describedAgreement_arn,
 
     -- * DescribedCertificate
-    DescribedCertificate (..),
+    DescribedCertificate,
     newDescribedCertificate,
     describedCertificate_activeDate,
     describedCertificate_certificate,
@@ -190,7 +191,7 @@ module Amazonka.Transfer.Types
     describedCertificate_arn,
 
     -- * DescribedConnector
-    DescribedConnector (..),
+    DescribedConnector,
     newDescribedConnector,
     describedConnector_accessRole,
     describedConnector_as2Config,
@@ -201,7 +202,7 @@ module Amazonka.Transfer.Types
     describedConnector_arn,
 
     -- * DescribedExecution
-    DescribedExecution (..),
+    DescribedExecution,
     newDescribedExecution,
     describedExecution_executionId,
     describedExecution_executionRole,
@@ -213,7 +214,7 @@ module Amazonka.Transfer.Types
     describedExecution_status,
 
     -- * DescribedHostKey
-    DescribedHostKey (..),
+    DescribedHostKey,
     newDescribedHostKey,
     describedHostKey_dateImported,
     describedHostKey_description,
@@ -224,7 +225,7 @@ module Amazonka.Transfer.Types
     describedHostKey_arn,
 
     -- * DescribedProfile
-    DescribedProfile (..),
+    DescribedProfile,
     newDescribedProfile,
     describedProfile_as2Id,
     describedProfile_certificateIds,
@@ -234,7 +235,7 @@ module Amazonka.Transfer.Types
     describedProfile_arn,
 
     -- * DescribedSecurityPolicy
-    DescribedSecurityPolicy (..),
+    DescribedSecurityPolicy,
     newDescribedSecurityPolicy,
     describedSecurityPolicy_fips,
     describedSecurityPolicy_sshCiphers,
@@ -244,7 +245,7 @@ module Amazonka.Transfer.Types
     describedSecurityPolicy_securityPolicyName,
 
     -- * DescribedServer
-    DescribedServer (..),
+    DescribedServer,
     newDescribedServer,
     describedServer_certificate,
     describedServer_domain,
@@ -267,7 +268,7 @@ module Amazonka.Transfer.Types
     describedServer_arn,
 
     -- * DescribedUser
-    DescribedUser (..),
+    DescribedUser,
     newDescribedUser,
     describedUser_homeDirectory,
     describedUser_homeDirectoryMappings,
@@ -281,7 +282,7 @@ module Amazonka.Transfer.Types
     describedUser_arn,
 
     -- * DescribedWorkflow
-    DescribedWorkflow (..),
+    DescribedWorkflow,
     newDescribedWorkflow,
     describedWorkflow_description,
     describedWorkflow_onExceptionSteps,
@@ -291,13 +292,13 @@ module Amazonka.Transfer.Types
     describedWorkflow_arn,
 
     -- * EfsFileLocation
-    EfsFileLocation (..),
+    EfsFileLocation,
     newEfsFileLocation,
     efsFileLocation_fileSystemId,
     efsFileLocation_path,
 
     -- * EndpointDetails
-    EndpointDetails (..),
+    EndpointDetails,
     newEndpointDetails,
     endpointDetails_addressAllocationIds,
     endpointDetails_securityGroupIds,
@@ -306,38 +307,38 @@ module Amazonka.Transfer.Types
     endpointDetails_vpcId,
 
     -- * ExecutionError
-    ExecutionError (..),
+    ExecutionError,
     newExecutionError,
     executionError_type,
     executionError_message,
 
     -- * ExecutionResults
-    ExecutionResults (..),
+    ExecutionResults,
     newExecutionResults,
     executionResults_onExceptionSteps,
     executionResults_steps,
 
     -- * ExecutionStepResult
-    ExecutionStepResult (..),
+    ExecutionStepResult,
     newExecutionStepResult,
     executionStepResult_error,
     executionStepResult_outputs,
     executionStepResult_stepType,
 
     -- * FileLocation
-    FileLocation (..),
+    FileLocation,
     newFileLocation,
     fileLocation_efsFileLocation,
     fileLocation_s3FileLocation,
 
     -- * HomeDirectoryMapEntry
-    HomeDirectoryMapEntry (..),
+    HomeDirectoryMapEntry,
     newHomeDirectoryMapEntry,
     homeDirectoryMapEntry_entry,
     homeDirectoryMapEntry_target,
 
     -- * IdentityProviderDetails
-    IdentityProviderDetails (..),
+    IdentityProviderDetails,
     newIdentityProviderDetails,
     identityProviderDetails_directoryId,
     identityProviderDetails_function,
@@ -345,13 +346,13 @@ module Amazonka.Transfer.Types
     identityProviderDetails_url,
 
     -- * InputFileLocation
-    InputFileLocation (..),
+    InputFileLocation,
     newInputFileLocation,
     inputFileLocation_efsFileLocation,
     inputFileLocation_s3FileLocation,
 
     -- * ListedAccess
-    ListedAccess (..),
+    ListedAccess,
     newListedAccess,
     listedAccess_externalId,
     listedAccess_homeDirectory,
@@ -359,7 +360,7 @@ module Amazonka.Transfer.Types
     listedAccess_role,
 
     -- * ListedAgreement
-    ListedAgreement (..),
+    ListedAgreement,
     newListedAgreement,
     listedAgreement_agreementId,
     listedAgreement_arn,
@@ -370,7 +371,7 @@ module Amazonka.Transfer.Types
     listedAgreement_status,
 
     -- * ListedCertificate
-    ListedCertificate (..),
+    ListedCertificate,
     newListedCertificate,
     listedCertificate_activeDate,
     listedCertificate_arn,
@@ -382,14 +383,14 @@ module Amazonka.Transfer.Types
     listedCertificate_usage,
 
     -- * ListedConnector
-    ListedConnector (..),
+    ListedConnector,
     newListedConnector,
     listedConnector_arn,
     listedConnector_connectorId,
     listedConnector_url,
 
     -- * ListedExecution
-    ListedExecution (..),
+    ListedExecution,
     newListedExecution,
     listedExecution_executionId,
     listedExecution_initialFileLocation,
@@ -397,7 +398,7 @@ module Amazonka.Transfer.Types
     listedExecution_status,
 
     -- * ListedHostKey
-    ListedHostKey (..),
+    ListedHostKey,
     newListedHostKey,
     listedHostKey_dateImported,
     listedHostKey_description,
@@ -407,7 +408,7 @@ module Amazonka.Transfer.Types
     listedHostKey_arn,
 
     -- * ListedProfile
-    ListedProfile (..),
+    ListedProfile,
     newListedProfile,
     listedProfile_arn,
     listedProfile_as2Id,
@@ -415,7 +416,7 @@ module Amazonka.Transfer.Types
     listedProfile_profileType,
 
     -- * ListedServer
-    ListedServer (..),
+    ListedServer,
     newListedServer,
     listedServer_domain,
     listedServer_endpointType,
@@ -427,7 +428,7 @@ module Amazonka.Transfer.Types
     listedServer_arn,
 
     -- * ListedUser
-    ListedUser (..),
+    ListedUser,
     newListedUser,
     listedUser_homeDirectory,
     listedUser_homeDirectoryType,
@@ -437,27 +438,27 @@ module Amazonka.Transfer.Types
     listedUser_arn,
 
     -- * ListedWorkflow
-    ListedWorkflow (..),
+    ListedWorkflow,
     newListedWorkflow,
     listedWorkflow_arn,
     listedWorkflow_description,
     listedWorkflow_workflowId,
 
     -- * LoggingConfiguration
-    LoggingConfiguration (..),
+    LoggingConfiguration,
     newLoggingConfiguration,
     loggingConfiguration_logGroupName,
     loggingConfiguration_loggingRole,
 
     -- * PosixProfile
-    PosixProfile (..),
+    PosixProfile,
     newPosixProfile,
     posixProfile_secondaryGids,
     posixProfile_uid,
     posixProfile_gid,
 
     -- * ProtocolDetails
-    ProtocolDetails (..),
+    ProtocolDetails,
     newProtocolDetails,
     protocolDetails_as2Transports,
     protocolDetails_passiveIp,
@@ -465,7 +466,7 @@ module Amazonka.Transfer.Types
     protocolDetails_tlsSessionResumptionMode,
 
     -- * S3FileLocation
-    S3FileLocation (..),
+    S3FileLocation,
     newS3FileLocation,
     s3FileLocation_bucket,
     s3FileLocation_etag,
@@ -473,63 +474,63 @@ module Amazonka.Transfer.Types
     s3FileLocation_versionId,
 
     -- * S3InputFileLocation
-    S3InputFileLocation (..),
+    S3InputFileLocation,
     newS3InputFileLocation,
     s3InputFileLocation_bucket,
     s3InputFileLocation_key,
 
     -- * S3Tag
-    S3Tag (..),
+    S3Tag,
     newS3Tag,
     s3Tag_key,
     s3Tag_value,
 
     -- * ServiceMetadata
-    ServiceMetadata (..),
+    ServiceMetadata,
     newServiceMetadata,
     serviceMetadata_userDetails,
 
     -- * SshPublicKey
-    SshPublicKey (..),
+    SshPublicKey,
     newSshPublicKey,
     sshPublicKey_dateImported,
     sshPublicKey_sshPublicKeyBody,
     sshPublicKey_sshPublicKeyId,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,
 
     -- * TagStepDetails
-    TagStepDetails (..),
+    TagStepDetails,
     newTagStepDetails,
     tagStepDetails_name,
     tagStepDetails_sourceFileLocation,
     tagStepDetails_tags,
 
     -- * UserDetails
-    UserDetails (..),
+    UserDetails,
     newUserDetails,
     userDetails_sessionId,
     userDetails_userName,
     userDetails_serverId,
 
     -- * WorkflowDetail
-    WorkflowDetail (..),
+    WorkflowDetail,
     newWorkflowDetail,
     workflowDetail_workflowId,
     workflowDetail_executionRole,
 
     -- * WorkflowDetails
-    WorkflowDetails (..),
+    WorkflowDetails,
     newWorkflowDetails,
     workflowDetails_onPartialUpload,
     workflowDetails_onUpload,
 
     -- * WorkflowStep
-    WorkflowStep (..),
+    WorkflowStep,
     newWorkflowStep,
     workflowStep_copyStepDetails,
     workflowStep_customStepDetails,

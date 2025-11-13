@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -36,38 +37,38 @@ module Amazonka.Kinesis.Types
     _ValidationException,
 
     -- * ConsumerStatus
-    ConsumerStatus (..),
+    ConsumerStatus,
 
     -- * EncryptionType
-    EncryptionType (..),
+    EncryptionType,
 
     -- * MetricsName
-    MetricsName (..),
+    MetricsName,
 
     -- * ScalingType
-    ScalingType (..),
+    ScalingType,
 
     -- * ShardFilterType
-    ShardFilterType (..),
+    ShardFilterType,
 
     -- * ShardIteratorType
-    ShardIteratorType (..),
+    ShardIteratorType,
 
     -- * StreamMode
-    StreamMode (..),
+    StreamMode,
 
     -- * StreamStatus
-    StreamStatus (..),
+    StreamStatus,
 
     -- * ChildShard
-    ChildShard (..),
+    ChildShard,
     newChildShard,
     childShard_shardId,
     childShard_parentShards,
     childShard_hashKeyRange,
 
     -- * Consumer
-    Consumer (..),
+    Consumer,
     newConsumer,
     consumer_consumerName,
     consumer_consumerARN,
@@ -75,7 +76,7 @@ module Amazonka.Kinesis.Types
     consumer_consumerCreationTimestamp,
 
     -- * ConsumerDescription
-    ConsumerDescription (..),
+    ConsumerDescription,
     newConsumerDescription,
     consumerDescription_consumerName,
     consumerDescription_consumerARN,
@@ -84,12 +85,12 @@ module Amazonka.Kinesis.Types
     consumerDescription_streamARN,
 
     -- * EnhancedMetrics
-    EnhancedMetrics (..),
+    EnhancedMetrics,
     newEnhancedMetrics,
     enhancedMetrics_shardLevelMetrics,
 
     -- * EnhancedMonitoringOutput
-    EnhancedMonitoringOutput (..),
+    EnhancedMonitoringOutput,
     newEnhancedMonitoringOutput,
     enhancedMonitoringOutput_currentShardLevelMetrics,
     enhancedMonitoringOutput_desiredShardLevelMetrics,
@@ -97,20 +98,20 @@ module Amazonka.Kinesis.Types
     enhancedMonitoringOutput_streamName,
 
     -- * HashKeyRange
-    HashKeyRange (..),
+    HashKeyRange,
     newHashKeyRange,
     hashKeyRange_startingHashKey,
     hashKeyRange_endingHashKey,
 
     -- * PutRecordsRequestEntry
-    PutRecordsRequestEntry (..),
+    PutRecordsRequestEntry,
     newPutRecordsRequestEntry,
     putRecordsRequestEntry_explicitHashKey,
     putRecordsRequestEntry_data,
     putRecordsRequestEntry_partitionKey,
 
     -- * PutRecordsResultEntry
-    PutRecordsResultEntry (..),
+    PutRecordsResultEntry,
     newPutRecordsResultEntry,
     putRecordsResultEntry_errorCode,
     putRecordsResultEntry_errorMessage,
@@ -118,7 +119,7 @@ module Amazonka.Kinesis.Types
     putRecordsResultEntry_shardId,
 
     -- * Record
-    Record (..),
+    Record,
     newRecord,
     record_approximateArrivalTimestamp,
     record_encryptionType,
@@ -127,13 +128,13 @@ module Amazonka.Kinesis.Types
     record_partitionKey,
 
     -- * SequenceNumberRange
-    SequenceNumberRange (..),
+    SequenceNumberRange,
     newSequenceNumberRange,
     sequenceNumberRange_endingSequenceNumber,
     sequenceNumberRange_startingSequenceNumber,
 
     -- * Shard
-    Shard (..),
+    Shard,
     newShard,
     shard_adjacentParentShardId,
     shard_parentShardId,
@@ -142,21 +143,21 @@ module Amazonka.Kinesis.Types
     shard_sequenceNumberRange,
 
     -- * ShardFilter
-    ShardFilter (..),
+    ShardFilter,
     newShardFilter,
     shardFilter_shardId,
     shardFilter_timestamp,
     shardFilter_type,
 
     -- * StartingPosition
-    StartingPosition (..),
+    StartingPosition,
     newStartingPosition,
     startingPosition_sequenceNumber,
     startingPosition_timestamp,
     startingPosition_type,
 
     -- * StreamDescription
-    StreamDescription (..),
+    StreamDescription,
     newStreamDescription,
     streamDescription_encryptionType,
     streamDescription_keyId,
@@ -171,7 +172,7 @@ module Amazonka.Kinesis.Types
     streamDescription_enhancedMonitoring,
 
     -- * StreamDescriptionSummary
-    StreamDescriptionSummary (..),
+    StreamDescriptionSummary,
     newStreamDescriptionSummary,
     streamDescriptionSummary_consumerCount,
     streamDescriptionSummary_encryptionType,
@@ -186,12 +187,12 @@ module Amazonka.Kinesis.Types
     streamDescriptionSummary_openShardCount,
 
     -- * StreamModeDetails
-    StreamModeDetails (..),
+    StreamModeDetails,
     newStreamModeDetails,
     streamModeDetails_streamMode,
 
     -- * StreamSummary
-    StreamSummary (..),
+    StreamSummary,
     newStreamSummary,
     streamSummary_streamCreationTimestamp,
     streamSummary_streamModeDetails,
@@ -200,7 +201,7 @@ module Amazonka.Kinesis.Types
     streamSummary_streamStatus,
 
     -- * SubscribeToShardEvent
-    SubscribeToShardEvent (..),
+    SubscribeToShardEvent,
     newSubscribeToShardEvent,
     subscribeToShardEvent_childShards,
     subscribeToShardEvent_records,
@@ -208,7 +209,7 @@ module Amazonka.Kinesis.Types
     subscribeToShardEvent_millisBehindLatest,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_value,
     tag_key,

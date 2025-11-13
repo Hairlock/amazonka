@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -27,52 +28,52 @@ module Amazonka.LookoutEquipment.Types
     _ValidationException,
 
     -- * DataUploadFrequency
-    DataUploadFrequency (..),
+    DataUploadFrequency,
 
     -- * DatasetStatus
-    DatasetStatus (..),
+    DatasetStatus,
 
     -- * InferenceExecutionStatus
-    InferenceExecutionStatus (..),
+    InferenceExecutionStatus,
 
     -- * InferenceSchedulerStatus
-    InferenceSchedulerStatus (..),
+    InferenceSchedulerStatus,
 
     -- * IngestionJobStatus
-    IngestionJobStatus (..),
+    IngestionJobStatus,
 
     -- * LabelRating
-    LabelRating (..),
+    LabelRating,
 
     -- * LatestInferenceResult
-    LatestInferenceResult (..),
+    LatestInferenceResult,
 
     -- * ModelStatus
-    ModelStatus (..),
+    ModelStatus,
 
     -- * Monotonicity
-    Monotonicity (..),
+    Monotonicity,
 
     -- * StatisticalIssueStatus
-    StatisticalIssueStatus (..),
+    StatisticalIssueStatus,
 
     -- * TargetSamplingRate
-    TargetSamplingRate (..),
+    TargetSamplingRate,
 
     -- * CategoricalValues
-    CategoricalValues (..),
+    CategoricalValues,
     newCategoricalValues,
     categoricalValues_numberOfCategory,
     categoricalValues_status,
 
     -- * CountPercent
-    CountPercent (..),
+    CountPercent,
     newCountPercent,
     countPercent_count,
     countPercent_percentage,
 
     -- * DataIngestionJobSummary
-    DataIngestionJobSummary (..),
+    DataIngestionJobSummary,
     newDataIngestionJobSummary,
     dataIngestionJobSummary_datasetArn,
     dataIngestionJobSummary_datasetName,
@@ -81,12 +82,12 @@ module Amazonka.LookoutEquipment.Types
     dataIngestionJobSummary_status,
 
     -- * DataPreProcessingConfiguration
-    DataPreProcessingConfiguration (..),
+    DataPreProcessingConfiguration,
     newDataPreProcessingConfiguration,
     dataPreProcessingConfiguration_targetSamplingRate,
 
     -- * DataQualitySummary
-    DataQualitySummary (..),
+    DataQualitySummary,
     newDataQualitySummary,
     dataQualitySummary_insufficientSensorData,
     dataQualitySummary_missingSensorData,
@@ -95,12 +96,12 @@ module Amazonka.LookoutEquipment.Types
     dataQualitySummary_duplicateTimestamps,
 
     -- * DatasetSchema
-    DatasetSchema (..),
+    DatasetSchema,
     newDatasetSchema,
     datasetSchema_inlineDataSchema,
 
     -- * DatasetSummary
-    DatasetSummary (..),
+    DatasetSummary,
     newDatasetSummary,
     datasetSummary_createdAt,
     datasetSummary_datasetArn,
@@ -108,12 +109,12 @@ module Amazonka.LookoutEquipment.Types
     datasetSummary_status,
 
     -- * DuplicateTimestamps
-    DuplicateTimestamps (..),
+    DuplicateTimestamps,
     newDuplicateTimestamps,
     duplicateTimestamps_totalNumberOfDuplicateTimestamps,
 
     -- * InferenceEventSummary
-    InferenceEventSummary (..),
+    InferenceEventSummary,
     newInferenceEventSummary,
     inferenceEventSummary_diagnostics,
     inferenceEventSummary_eventDurationInSeconds,
@@ -123,7 +124,7 @@ module Amazonka.LookoutEquipment.Types
     inferenceEventSummary_inferenceSchedulerName,
 
     -- * InferenceExecutionSummary
-    InferenceExecutionSummary (..),
+    InferenceExecutionSummary,
     newInferenceExecutionSummary,
     inferenceExecutionSummary_customerResultObject,
     inferenceExecutionSummary_dataEndTime,
@@ -139,38 +140,38 @@ module Amazonka.LookoutEquipment.Types
     inferenceExecutionSummary_status,
 
     -- * InferenceInputConfiguration
-    InferenceInputConfiguration (..),
+    InferenceInputConfiguration,
     newInferenceInputConfiguration,
     inferenceInputConfiguration_inferenceInputNameConfiguration,
     inferenceInputConfiguration_inputTimeZoneOffset,
     inferenceInputConfiguration_s3InputConfiguration,
 
     -- * InferenceInputNameConfiguration
-    InferenceInputNameConfiguration (..),
+    InferenceInputNameConfiguration,
     newInferenceInputNameConfiguration,
     inferenceInputNameConfiguration_componentTimestampDelimiter,
     inferenceInputNameConfiguration_timestampFormat,
 
     -- * InferenceOutputConfiguration
-    InferenceOutputConfiguration (..),
+    InferenceOutputConfiguration,
     newInferenceOutputConfiguration,
     inferenceOutputConfiguration_kmsKeyId,
     inferenceOutputConfiguration_s3OutputConfiguration,
 
     -- * InferenceS3InputConfiguration
-    InferenceS3InputConfiguration (..),
+    InferenceS3InputConfiguration,
     newInferenceS3InputConfiguration,
     inferenceS3InputConfiguration_prefix,
     inferenceS3InputConfiguration_bucket,
 
     -- * InferenceS3OutputConfiguration
-    InferenceS3OutputConfiguration (..),
+    InferenceS3OutputConfiguration,
     newInferenceS3OutputConfiguration,
     inferenceS3OutputConfiguration_prefix,
     inferenceS3OutputConfiguration_bucket,
 
     -- * InferenceSchedulerSummary
-    InferenceSchedulerSummary (..),
+    InferenceSchedulerSummary,
     newInferenceSchedulerSummary,
     inferenceSchedulerSummary_dataDelayOffsetInMinutes,
     inferenceSchedulerSummary_dataUploadFrequency,
@@ -182,38 +183,38 @@ module Amazonka.LookoutEquipment.Types
     inferenceSchedulerSummary_status,
 
     -- * IngestedFilesSummary
-    IngestedFilesSummary (..),
+    IngestedFilesSummary,
     newIngestedFilesSummary,
     ingestedFilesSummary_discardedFiles,
     ingestedFilesSummary_totalNumberOfFiles,
     ingestedFilesSummary_ingestedNumberOfFiles,
 
     -- * IngestionInputConfiguration
-    IngestionInputConfiguration (..),
+    IngestionInputConfiguration,
     newIngestionInputConfiguration,
     ingestionInputConfiguration_s3InputConfiguration,
 
     -- * IngestionS3InputConfiguration
-    IngestionS3InputConfiguration (..),
+    IngestionS3InputConfiguration,
     newIngestionS3InputConfiguration,
     ingestionS3InputConfiguration_keyPattern,
     ingestionS3InputConfiguration_prefix,
     ingestionS3InputConfiguration_bucket,
 
     -- * InsufficientSensorData
-    InsufficientSensorData (..),
+    InsufficientSensorData,
     newInsufficientSensorData,
     insufficientSensorData_missingCompleteSensorData,
     insufficientSensorData_sensorsWithShortDateRange,
 
     -- * InvalidSensorData
-    InvalidSensorData (..),
+    InvalidSensorData,
     newInvalidSensorData,
     invalidSensorData_affectedSensorCount,
     invalidSensorData_totalNumberOfInvalidValues,
 
     -- * LabelGroupSummary
-    LabelGroupSummary (..),
+    LabelGroupSummary,
     newLabelGroupSummary,
     labelGroupSummary_createdAt,
     labelGroupSummary_labelGroupArn,
@@ -221,7 +222,7 @@ module Amazonka.LookoutEquipment.Types
     labelGroupSummary_updatedAt,
 
     -- * LabelSummary
-    LabelSummary (..),
+    LabelSummary,
     newLabelSummary,
     labelSummary_createdAt,
     labelSummary_endTime,
@@ -234,37 +235,37 @@ module Amazonka.LookoutEquipment.Types
     labelSummary_startTime,
 
     -- * LabelsInputConfiguration
-    LabelsInputConfiguration (..),
+    LabelsInputConfiguration,
     newLabelsInputConfiguration,
     labelsInputConfiguration_labelGroupName,
     labelsInputConfiguration_s3InputConfiguration,
 
     -- * LabelsS3InputConfiguration
-    LabelsS3InputConfiguration (..),
+    LabelsS3InputConfiguration,
     newLabelsS3InputConfiguration,
     labelsS3InputConfiguration_prefix,
     labelsS3InputConfiguration_bucket,
 
     -- * LargeTimestampGaps
-    LargeTimestampGaps (..),
+    LargeTimestampGaps,
     newLargeTimestampGaps,
     largeTimestampGaps_maxTimestampGapInDays,
     largeTimestampGaps_numberOfLargeTimestampGaps,
     largeTimestampGaps_status,
 
     -- * MissingCompleteSensorData
-    MissingCompleteSensorData (..),
+    MissingCompleteSensorData,
     newMissingCompleteSensorData,
     missingCompleteSensorData_affectedSensorCount,
 
     -- * MissingSensorData
-    MissingSensorData (..),
+    MissingSensorData,
     newMissingSensorData,
     missingSensorData_affectedSensorCount,
     missingSensorData_totalNumberOfMissingValues,
 
     -- * ModelSummary
-    ModelSummary (..),
+    ModelSummary,
     newModelSummary,
     modelSummary_createdAt,
     modelSummary_datasetArn,
@@ -274,24 +275,24 @@ module Amazonka.LookoutEquipment.Types
     modelSummary_status,
 
     -- * MonotonicValues
-    MonotonicValues (..),
+    MonotonicValues,
     newMonotonicValues,
     monotonicValues_monotonicity,
     monotonicValues_status,
 
     -- * MultipleOperatingModes
-    MultipleOperatingModes (..),
+    MultipleOperatingModes,
     newMultipleOperatingModes,
     multipleOperatingModes_status,
 
     -- * S3Object
-    S3Object (..),
+    S3Object,
     newS3Object,
     s3Object_bucket,
     s3Object_key,
 
     -- * SensorStatisticsSummary
-    SensorStatisticsSummary (..),
+    SensorStatisticsSummary,
     newSensorStatisticsSummary,
     sensorStatisticsSummary_categoricalValues,
     sensorStatisticsSummary_componentName,
@@ -308,18 +309,18 @@ module Amazonka.LookoutEquipment.Types
     sensorStatisticsSummary_sensorName,
 
     -- * SensorsWithShortDateRange
-    SensorsWithShortDateRange (..),
+    SensorsWithShortDateRange,
     newSensorsWithShortDateRange,
     sensorsWithShortDateRange_affectedSensorCount,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,
 
     -- * UnsupportedTimestamps
-    UnsupportedTimestamps (..),
+    UnsupportedTimestamps,
     newUnsupportedTimestamps,
     unsupportedTimestamps_totalNumberOfUnsupportedTimestamps,
   )

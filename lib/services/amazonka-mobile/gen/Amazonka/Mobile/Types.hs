@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -28,13 +29,13 @@ module Amazonka.Mobile.Types
     _UnauthorizedException,
 
     -- * Platform
-    Platform (..),
+    Platform,
 
     -- * ProjectState
-    ProjectState (..),
+    ProjectState,
 
     -- * BundleDetails
-    BundleDetails (..),
+    BundleDetails,
     newBundleDetails,
     bundleDetails_availablePlatforms,
     bundleDetails_bundleId,
@@ -44,7 +45,7 @@ module Amazonka.Mobile.Types
     bundleDetails_version,
 
     -- * ProjectDetails
-    ProjectDetails (..),
+    ProjectDetails,
     newProjectDetails,
     projectDetails_consoleUrl,
     projectDetails_createdDate,
@@ -56,13 +57,13 @@ module Amazonka.Mobile.Types
     projectDetails_state,
 
     -- * ProjectSummary
-    ProjectSummary (..),
+    ProjectSummary,
     newProjectSummary,
     projectSummary_name,
     projectSummary_projectId,
 
     -- * Resource
-    Resource (..),
+    Resource,
     newResource,
     resource_arn,
     resource_attributes,

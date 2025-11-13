@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -26,55 +27,55 @@ module Amazonka.MQ.Types
     _UnauthorizedException,
 
     -- * AuthenticationStrategy
-    AuthenticationStrategy (..),
+    AuthenticationStrategy,
 
     -- * BrokerState
-    BrokerState (..),
+    BrokerState,
 
     -- * BrokerStorageType
-    BrokerStorageType (..),
+    BrokerStorageType,
 
     -- * ChangeType
-    ChangeType (..),
+    ChangeType,
 
     -- * DayOfWeek
-    DayOfWeek (..),
+    DayOfWeek,
 
     -- * DeploymentMode
-    DeploymentMode (..),
+    DeploymentMode,
 
     -- * EngineType
-    EngineType (..),
+    EngineType,
 
     -- * SanitizationWarningReason
-    SanitizationWarningReason (..),
+    SanitizationWarningReason,
 
     -- * ActionRequired
-    ActionRequired (..),
+    ActionRequired,
     newActionRequired,
     actionRequired_actionRequiredCode,
     actionRequired_actionRequiredInfo,
 
     -- * AvailabilityZone
-    AvailabilityZone (..),
+    AvailabilityZone,
     newAvailabilityZone,
     availabilityZone_name,
 
     -- * BrokerEngineType
-    BrokerEngineType (..),
+    BrokerEngineType,
     newBrokerEngineType,
     brokerEngineType_engineType,
     brokerEngineType_engineVersions,
 
     -- * BrokerInstance
-    BrokerInstance (..),
+    BrokerInstance,
     newBrokerInstance,
     brokerInstance_consoleURL,
     brokerInstance_endpoints,
     brokerInstance_ipAddress,
 
     -- * BrokerInstanceOption
-    BrokerInstanceOption (..),
+    BrokerInstanceOption,
     newBrokerInstanceOption,
     brokerInstanceOption_availabilityZones,
     brokerInstanceOption_engineType,
@@ -84,7 +85,7 @@ module Amazonka.MQ.Types
     brokerInstanceOption_supportedEngineVersions,
 
     -- * BrokerSummary
-    BrokerSummary (..),
+    BrokerSummary,
     newBrokerSummary,
     brokerSummary_brokerArn,
     brokerSummary_brokerId,
@@ -96,7 +97,7 @@ module Amazonka.MQ.Types
     brokerSummary_engineType,
 
     -- * Configuration
-    Configuration (..),
+    Configuration,
     newConfiguration,
     configuration_tags,
     configuration_description,
@@ -110,38 +111,38 @@ module Amazonka.MQ.Types
     configuration_created,
 
     -- * ConfigurationId
-    ConfigurationId (..),
+    ConfigurationId,
     newConfigurationId,
     configurationId_revision,
     configurationId_id,
 
     -- * ConfigurationRevision
-    ConfigurationRevision (..),
+    ConfigurationRevision,
     newConfigurationRevision,
     configurationRevision_description,
     configurationRevision_revision,
     configurationRevision_created,
 
     -- * Configurations
-    Configurations (..),
+    Configurations,
     newConfigurations,
     configurations_current,
     configurations_history,
     configurations_pending,
 
     -- * EncryptionOptions
-    EncryptionOptions (..),
+    EncryptionOptions,
     newEncryptionOptions,
     encryptionOptions_kmsKeyId,
     encryptionOptions_useAwsOwnedKey,
 
     -- * EngineVersion
-    EngineVersion (..),
+    EngineVersion,
     newEngineVersion,
     engineVersion_name,
 
     -- * LdapServerMetadataInput
-    LdapServerMetadataInput (..),
+    LdapServerMetadataInput,
     newLdapServerMetadataInput,
     ldapServerMetadataInput_roleName,
     ldapServerMetadataInput_roleSearchSubtree,
@@ -156,7 +157,7 @@ module Amazonka.MQ.Types
     ldapServerMetadataInput_serviceAccountPassword,
 
     -- * LdapServerMetadataOutput
-    LdapServerMetadataOutput (..),
+    LdapServerMetadataOutput,
     newLdapServerMetadataOutput,
     ldapServerMetadataOutput_roleName,
     ldapServerMetadataOutput_roleSearchSubtree,
@@ -170,13 +171,13 @@ module Amazonka.MQ.Types
     ldapServerMetadataOutput_roleBase,
 
     -- * Logs
-    Logs (..),
+    Logs,
     newLogs,
     logs_audit,
     logs_general,
 
     -- * LogsSummary
-    LogsSummary (..),
+    LogsSummary,
     newLogsSummary,
     logsSummary_audit,
     logsSummary_auditLogGroup,
@@ -185,20 +186,20 @@ module Amazonka.MQ.Types
     logsSummary_general,
 
     -- * PendingLogs
-    PendingLogs (..),
+    PendingLogs,
     newPendingLogs,
     pendingLogs_audit,
     pendingLogs_general,
 
     -- * SanitizationWarning
-    SanitizationWarning (..),
+    SanitizationWarning,
     newSanitizationWarning,
     sanitizationWarning_attributeName,
     sanitizationWarning_elementName,
     sanitizationWarning_reason,
 
     -- * User
-    User (..),
+    User,
     newUser,
     user_consoleAccess,
     user_groups,
@@ -206,20 +207,20 @@ module Amazonka.MQ.Types
     user_password,
 
     -- * UserPendingChanges
-    UserPendingChanges (..),
+    UserPendingChanges,
     newUserPendingChanges,
     userPendingChanges_consoleAccess,
     userPendingChanges_groups,
     userPendingChanges_pendingChange,
 
     -- * UserSummary
-    UserSummary (..),
+    UserSummary,
     newUserSummary,
     userSummary_pendingChange,
     userSummary_username,
 
     -- * WeeklyStartTime
-    WeeklyStartTime (..),
+    WeeklyStartTime,
     newWeeklyStartTime,
     weeklyStartTime_timeZone,
     weeklyStartTime_timeOfDay,

@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -31,102 +32,102 @@ module Amazonka.IotTwinMaker.Types
     _ValidationException,
 
     -- * ColumnType
-    ColumnType (..),
+    ColumnType,
 
     -- * ComponentUpdateType
-    ComponentUpdateType (..),
+    ComponentUpdateType,
 
     -- * ErrorCode
-    ErrorCode (..),
+    ErrorCode,
 
     -- * GroupType
-    GroupType (..),
+    GroupType,
 
     -- * InterpolationType
-    InterpolationType (..),
+    InterpolationType,
 
     -- * Order
-    Order (..),
+    Order,
 
     -- * OrderByTime
-    OrderByTime (..),
+    OrderByTime,
 
     -- * ParentEntityUpdateType
-    ParentEntityUpdateType (..),
+    ParentEntityUpdateType,
 
     -- * PricingMode
-    PricingMode (..),
+    PricingMode,
 
     -- * PricingTier
-    PricingTier (..),
+    PricingTier,
 
     -- * PropertyGroupUpdateType
-    PropertyGroupUpdateType (..),
+    PropertyGroupUpdateType,
 
     -- * PropertyUpdateType
-    PropertyUpdateType (..),
+    PropertyUpdateType,
 
     -- * Scope
-    Scope (..),
+    Scope,
 
     -- * State
-    State (..),
+    State,
 
     -- * SyncJobState
-    SyncJobState (..),
+    SyncJobState,
 
     -- * SyncResourceState
-    SyncResourceState (..),
+    SyncResourceState,
 
     -- * SyncResourceType
-    SyncResourceType (..),
+    SyncResourceType,
 
     -- * Type
-    Type (..),
+    Type,
 
     -- * UpdateReason
-    UpdateReason (..),
+    UpdateReason,
 
     -- * BatchPutPropertyError
-    BatchPutPropertyError (..),
+    BatchPutPropertyError,
     newBatchPutPropertyError,
     batchPutPropertyError_errorCode,
     batchPutPropertyError_errorMessage,
     batchPutPropertyError_entry,
 
     -- * BatchPutPropertyErrorEntry
-    BatchPutPropertyErrorEntry (..),
+    BatchPutPropertyErrorEntry,
     newBatchPutPropertyErrorEntry,
     batchPutPropertyErrorEntry_errors,
 
     -- * BundleInformation
-    BundleInformation (..),
+    BundleInformation,
     newBundleInformation,
     bundleInformation_pricingTier,
     bundleInformation_bundleNames,
 
     -- * ColumnDescription
-    ColumnDescription (..),
+    ColumnDescription,
     newColumnDescription,
     columnDescription_name,
     columnDescription_type,
 
     -- * ComponentPropertyGroupRequest
-    ComponentPropertyGroupRequest (..),
+    ComponentPropertyGroupRequest,
     newComponentPropertyGroupRequest,
     componentPropertyGroupRequest_groupType,
     componentPropertyGroupRequest_propertyNames,
     componentPropertyGroupRequest_updateType,
 
     -- * ComponentPropertyGroupResponse
-    ComponentPropertyGroupResponse (..),
+    ComponentPropertyGroupResponse,
     newComponentPropertyGroupResponse,
     componentPropertyGroupResponse_groupType,
     componentPropertyGroupResponse_propertyNames,
     componentPropertyGroupResponse_isInherited,
 
     -- * ComponentRequest
-    ComponentRequest (..),
+    ComponentRequest,
     newComponentRequest,
     componentRequest_componentTypeId,
     componentRequest_description,
@@ -134,7 +135,7 @@ module Amazonka.IotTwinMaker.Types
     componentRequest_propertyGroups,
 
     -- * ComponentResponse
-    ComponentResponse (..),
+    ComponentResponse,
     newComponentResponse,
     componentResponse_componentName,
     componentResponse_componentTypeId,
@@ -146,7 +147,7 @@ module Amazonka.IotTwinMaker.Types
     componentResponse_syncSource,
 
     -- * ComponentTypeSummary
-    ComponentTypeSummary (..),
+    ComponentTypeSummary,
     newComponentTypeSummary,
     componentTypeSummary_componentTypeName,
     componentTypeSummary_description,
@@ -157,7 +158,7 @@ module Amazonka.IotTwinMaker.Types
     componentTypeSummary_updateDateTime,
 
     -- * ComponentUpdateRequest
-    ComponentUpdateRequest (..),
+    ComponentUpdateRequest,
     newComponentUpdateRequest,
     componentUpdateRequest_componentTypeId,
     componentUpdateRequest_description,
@@ -166,13 +167,13 @@ module Amazonka.IotTwinMaker.Types
     componentUpdateRequest_updateType,
 
     -- * DataConnector
-    DataConnector (..),
+    DataConnector,
     newDataConnector,
     dataConnector_isNative,
     dataConnector_lambda,
 
     -- * DataType
-    DataType (..),
+    DataType,
     newDataType,
     dataType_allowedValues,
     dataType_nestedType,
@@ -181,7 +182,7 @@ module Amazonka.IotTwinMaker.Types
     dataType_type,
 
     -- * DataValue
-    DataValue (..),
+    DataValue,
     newDataValue,
     dataValue_booleanValue,
     dataValue_doubleValue,
@@ -194,7 +195,7 @@ module Amazonka.IotTwinMaker.Types
     dataValue_stringValue,
 
     -- * EntityPropertyReference
-    EntityPropertyReference (..),
+    EntityPropertyReference,
     newEntityPropertyReference,
     entityPropertyReference_componentName,
     entityPropertyReference_entityId,
@@ -202,7 +203,7 @@ module Amazonka.IotTwinMaker.Types
     entityPropertyReference_propertyName,
 
     -- * EntitySummary
-    EntitySummary (..),
+    EntitySummary,
     newEntitySummary,
     entitySummary_description,
     entitySummary_hasChildEntities,
@@ -215,20 +216,20 @@ module Amazonka.IotTwinMaker.Types
     entitySummary_updateDateTime,
 
     -- * ErrorDetails
-    ErrorDetails (..),
+    ErrorDetails,
     newErrorDetails,
     errorDetails_code,
     errorDetails_message,
 
     -- * FunctionRequest
-    FunctionRequest (..),
+    FunctionRequest,
     newFunctionRequest,
     functionRequest_implementedBy,
     functionRequest_requiredProperties,
     functionRequest_scope,
 
     -- * FunctionResponse
-    FunctionResponse (..),
+    FunctionResponse,
     newFunctionResponse,
     functionResponse_implementedBy,
     functionResponse_isInherited,
@@ -236,44 +237,44 @@ module Amazonka.IotTwinMaker.Types
     functionResponse_scope,
 
     -- * InterpolationParameters
-    InterpolationParameters (..),
+    InterpolationParameters,
     newInterpolationParameters,
     interpolationParameters_interpolationType,
     interpolationParameters_intervalInSeconds,
 
     -- * LambdaFunction
-    LambdaFunction (..),
+    LambdaFunction,
     newLambdaFunction,
     lambdaFunction_arn,
 
     -- * ListComponentTypesFilter
-    ListComponentTypesFilter (..),
+    ListComponentTypesFilter,
     newListComponentTypesFilter,
     listComponentTypesFilter_extendsFrom,
     listComponentTypesFilter_isAbstract,
     listComponentTypesFilter_namespace,
 
     -- * ListEntitiesFilter
-    ListEntitiesFilter (..),
+    ListEntitiesFilter,
     newListEntitiesFilter,
     listEntitiesFilter_componentTypeId,
     listEntitiesFilter_externalId,
     listEntitiesFilter_parentEntityId,
 
     -- * OrderBy
-    OrderBy (..),
+    OrderBy,
     newOrderBy,
     orderBy_order,
     orderBy_propertyName,
 
     -- * ParentEntityUpdateRequest
-    ParentEntityUpdateRequest (..),
+    ParentEntityUpdateRequest,
     newParentEntityUpdateRequest,
     parentEntityUpdateRequest_parentEntityId,
     parentEntityUpdateRequest_updateType,
 
     -- * PricingPlan
-    PricingPlan (..),
+    PricingPlan,
     newPricingPlan,
     pricingPlan_billableEntityCount,
     pricingPlan_bundleInformation,
@@ -283,7 +284,7 @@ module Amazonka.IotTwinMaker.Types
     pricingPlan_updateReason,
 
     -- * PropertyDefinitionRequest
-    PropertyDefinitionRequest (..),
+    PropertyDefinitionRequest,
     newPropertyDefinitionRequest,
     propertyDefinitionRequest_configuration,
     propertyDefinitionRequest_dataType,
@@ -295,7 +296,7 @@ module Amazonka.IotTwinMaker.Types
     propertyDefinitionRequest_isTimeSeries,
 
     -- * PropertyDefinitionResponse
-    PropertyDefinitionResponse (..),
+    PropertyDefinitionResponse,
     newPropertyDefinitionResponse,
     propertyDefinitionResponse_configuration,
     propertyDefinitionResponse_defaultValue,
@@ -310,86 +311,86 @@ module Amazonka.IotTwinMaker.Types
     propertyDefinitionResponse_isInherited,
 
     -- * PropertyFilter
-    PropertyFilter (..),
+    PropertyFilter,
     newPropertyFilter,
     propertyFilter_operator,
     propertyFilter_propertyName,
     propertyFilter_value,
 
     -- * PropertyGroupRequest
-    PropertyGroupRequest (..),
+    PropertyGroupRequest,
     newPropertyGroupRequest,
     propertyGroupRequest_groupType,
     propertyGroupRequest_propertyNames,
 
     -- * PropertyGroupResponse
-    PropertyGroupResponse (..),
+    PropertyGroupResponse,
     newPropertyGroupResponse,
     propertyGroupResponse_groupType,
     propertyGroupResponse_propertyNames,
     propertyGroupResponse_isInherited,
 
     -- * PropertyLatestValue
-    PropertyLatestValue (..),
+    PropertyLatestValue,
     newPropertyLatestValue,
     propertyLatestValue_propertyValue,
     propertyLatestValue_propertyReference,
 
     -- * PropertyRequest
-    PropertyRequest (..),
+    PropertyRequest,
     newPropertyRequest,
     propertyRequest_definition,
     propertyRequest_updateType,
     propertyRequest_value,
 
     -- * PropertyResponse
-    PropertyResponse (..),
+    PropertyResponse,
     newPropertyResponse,
     propertyResponse_definition,
     propertyResponse_value,
 
     -- * PropertyValue
-    PropertyValue (..),
+    PropertyValue,
     newPropertyValue,
     propertyValue_time,
     propertyValue_timestamp,
     propertyValue_value,
 
     -- * PropertyValueEntry
-    PropertyValueEntry (..),
+    PropertyValueEntry,
     newPropertyValueEntry,
     propertyValueEntry_propertyValues,
     propertyValueEntry_entityPropertyReference,
 
     -- * PropertyValueHistory
-    PropertyValueHistory (..),
+    PropertyValueHistory,
     newPropertyValueHistory,
     propertyValueHistory_values,
     propertyValueHistory_entityPropertyReference,
 
     -- * QueryResultValue
-    QueryResultValue (..),
+    QueryResultValue,
     newQueryResultValue,
 
     -- * Relationship
-    Relationship (..),
+    Relationship,
     newRelationship,
     relationship_relationshipType,
     relationship_targetComponentTypeId,
 
     -- * RelationshipValue
-    RelationshipValue (..),
+    RelationshipValue,
     newRelationshipValue,
     relationshipValue_targetComponentName,
     relationshipValue_targetEntityId,
 
     -- * Row
-    Row (..),
+    Row,
     newRow,
     row_rowData,
 
     -- * SceneSummary
-    SceneSummary (..),
+    SceneSummary,
     newSceneSummary,
     sceneSummary_description,
     sceneSummary_sceneId,
@@ -399,19 +400,19 @@ module Amazonka.IotTwinMaker.Types
     sceneSummary_updateDateTime,
 
     -- * Status
-    Status (..),
+    Status,
     newStatus,
     status_error,
     status_state,
 
     -- * SyncJobStatus
-    SyncJobStatus (..),
+    SyncJobStatus,
     newSyncJobStatus,
     syncJobStatus_error,
     syncJobStatus_state,
 
     -- * SyncJobSummary
-    SyncJobSummary (..),
+    SyncJobSummary,
     newSyncJobSummary,
     syncJobSummary_arn,
     syncJobSummary_creationDateTime,
@@ -421,7 +422,7 @@ module Amazonka.IotTwinMaker.Types
     syncJobSummary_workspaceId,
 
     -- * SyncResourceFilter
-    SyncResourceFilter (..),
+    SyncResourceFilter,
     newSyncResourceFilter,
     syncResourceFilter_externalId,
     syncResourceFilter_resourceId,
@@ -429,13 +430,13 @@ module Amazonka.IotTwinMaker.Types
     syncResourceFilter_state,
 
     -- * SyncResourceStatus
-    SyncResourceStatus (..),
+    SyncResourceStatus,
     newSyncResourceStatus,
     syncResourceStatus_error,
     syncResourceStatus_state,
 
     -- * SyncResourceSummary
-    SyncResourceSummary (..),
+    SyncResourceSummary,
     newSyncResourceSummary,
     syncResourceSummary_externalId,
     syncResourceSummary_resourceId,
@@ -444,13 +445,13 @@ module Amazonka.IotTwinMaker.Types
     syncResourceSummary_updateDateTime,
 
     -- * TabularConditions
-    TabularConditions (..),
+    TabularConditions,
     newTabularConditions,
     tabularConditions_orderBy,
     tabularConditions_propertyFilters,
 
     -- * WorkspaceSummary
-    WorkspaceSummary (..),
+    WorkspaceSummary,
     newWorkspaceSummary,
     workspaceSummary_description,
     workspaceSummary_workspaceId,

@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -24,55 +25,55 @@ module Amazonka.AmplifyBackend.Types
     _TooManyRequestsException,
 
     -- * AdditionalConstraintsElement
-    AdditionalConstraintsElement (..),
+    AdditionalConstraintsElement,
 
     -- * AuthResources
-    AuthResources (..),
+    AuthResources,
 
     -- * AuthenticatedElement
-    AuthenticatedElement (..),
+    AuthenticatedElement,
 
     -- * DeliveryMethod
-    DeliveryMethod (..),
+    DeliveryMethod,
 
     -- * MFAMode
-    MFAMode (..),
+    MFAMode,
 
     -- * MfaTypesElement
-    MfaTypesElement (..),
+    MfaTypesElement,
 
     -- * Mode
-    Mode (..),
+    Mode,
 
     -- * OAuthGrantType
-    OAuthGrantType (..),
+    OAuthGrantType,
 
     -- * OAuthScopesElement
-    OAuthScopesElement (..),
+    OAuthScopesElement,
 
     -- * RequiredSignUpAttributesElement
-    RequiredSignUpAttributesElement (..),
+    RequiredSignUpAttributesElement,
 
     -- * ResolutionStrategy
-    ResolutionStrategy (..),
+    ResolutionStrategy,
 
     -- * Service
-    Service (..),
+    Service,
 
     -- * ServiceName
-    ServiceName (..),
+    ServiceName,
 
     -- * SignInMethod
-    SignInMethod (..),
+    SignInMethod,
 
     -- * Status
-    Status (..),
+    Status,
 
     -- * UnAuthenticatedElement
-    UnAuthenticatedElement (..),
+    UnAuthenticatedElement,
 
     -- * BackendAPIAppSyncAuthSettings
-    BackendAPIAppSyncAuthSettings (..),
+    BackendAPIAppSyncAuthSettings,
     newBackendAPIAppSyncAuthSettings,
     backendAPIAppSyncAuthSettings_cognitoUserPoolId,
     backendAPIAppSyncAuthSettings_description,
@@ -84,18 +85,18 @@ module Amazonka.AmplifyBackend.Types
     backendAPIAppSyncAuthSettings_openIDProviderName,
 
     -- * BackendAPIAuthType
-    BackendAPIAuthType (..),
+    BackendAPIAuthType,
     newBackendAPIAuthType,
     backendAPIAuthType_mode,
     backendAPIAuthType_settings,
 
     -- * BackendAPIConflictResolution
-    BackendAPIConflictResolution (..),
+    BackendAPIConflictResolution,
     newBackendAPIConflictResolution,
     backendAPIConflictResolution_resolutionStrategy,
 
     -- * BackendAPIResourceConfig
-    BackendAPIResourceConfig (..),
+    BackendAPIResourceConfig,
     newBackendAPIResourceConfig,
     backendAPIResourceConfig_additionalAuthTypes,
     backendAPIResourceConfig_apiName,
@@ -105,7 +106,7 @@ module Amazonka.AmplifyBackend.Types
     backendAPIResourceConfig_transformSchema,
 
     -- * BackendAuthAppleProviderConfig
-    BackendAuthAppleProviderConfig (..),
+    BackendAuthAppleProviderConfig,
     newBackendAuthAppleProviderConfig,
     backendAuthAppleProviderConfig_clientId,
     backendAuthAppleProviderConfig_keyId,
@@ -113,13 +114,13 @@ module Amazonka.AmplifyBackend.Types
     backendAuthAppleProviderConfig_teamId,
 
     -- * BackendAuthSocialProviderConfig
-    BackendAuthSocialProviderConfig (..),
+    BackendAuthSocialProviderConfig,
     newBackendAuthSocialProviderConfig,
     backendAuthSocialProviderConfig_clientId,
     backendAuthSocialProviderConfig_clientSecret,
 
     -- * BackendJobRespObj
-    BackendJobRespObj (..),
+    BackendJobRespObj,
     newBackendJobRespObj,
     backendJobRespObj_createTime,
     backendJobRespObj_error,
@@ -131,32 +132,32 @@ module Amazonka.AmplifyBackend.Types
     backendJobRespObj_backendEnvironmentName,
 
     -- * BackendStoragePermissions
-    BackendStoragePermissions (..),
+    BackendStoragePermissions,
     newBackendStoragePermissions,
     backendStoragePermissions_unAuthenticated,
     backendStoragePermissions_authenticated,
 
     -- * CreateBackendAuthForgotPasswordConfig
-    CreateBackendAuthForgotPasswordConfig (..),
+    CreateBackendAuthForgotPasswordConfig,
     newCreateBackendAuthForgotPasswordConfig,
     createBackendAuthForgotPasswordConfig_emailSettings,
     createBackendAuthForgotPasswordConfig_smsSettings,
     createBackendAuthForgotPasswordConfig_deliveryMethod,
 
     -- * CreateBackendAuthIdentityPoolConfig
-    CreateBackendAuthIdentityPoolConfig (..),
+    CreateBackendAuthIdentityPoolConfig,
     newCreateBackendAuthIdentityPoolConfig,
     createBackendAuthIdentityPoolConfig_unauthenticatedLogin,
     createBackendAuthIdentityPoolConfig_identityPoolName,
 
     -- * CreateBackendAuthMFAConfig
-    CreateBackendAuthMFAConfig (..),
+    CreateBackendAuthMFAConfig,
     newCreateBackendAuthMFAConfig,
     createBackendAuthMFAConfig_settings,
     createBackendAuthMFAConfig_mfaMode,
 
     -- * CreateBackendAuthOAuthConfig
-    CreateBackendAuthOAuthConfig (..),
+    CreateBackendAuthOAuthConfig,
     newCreateBackendAuthOAuthConfig,
     createBackendAuthOAuthConfig_domainPrefix,
     createBackendAuthOAuthConfig_socialProviderSettings,
@@ -166,13 +167,13 @@ module Amazonka.AmplifyBackend.Types
     createBackendAuthOAuthConfig_oAuthScopes,
 
     -- * CreateBackendAuthPasswordPolicyConfig
-    CreateBackendAuthPasswordPolicyConfig (..),
+    CreateBackendAuthPasswordPolicyConfig,
     newCreateBackendAuthPasswordPolicyConfig,
     createBackendAuthPasswordPolicyConfig_additionalConstraints,
     createBackendAuthPasswordPolicyConfig_minimumLength,
 
     -- * CreateBackendAuthResourceConfig
-    CreateBackendAuthResourceConfig (..),
+    CreateBackendAuthResourceConfig,
     newCreateBackendAuthResourceConfig,
     createBackendAuthResourceConfig_identityPoolConfigs,
     createBackendAuthResourceConfig_authResources,
@@ -180,7 +181,7 @@ module Amazonka.AmplifyBackend.Types
     createBackendAuthResourceConfig_service,
 
     -- * CreateBackendAuthUserPoolConfig
-    CreateBackendAuthUserPoolConfig (..),
+    CreateBackendAuthUserPoolConfig,
     newCreateBackendAuthUserPoolConfig,
     createBackendAuthUserPoolConfig_forgotPassword,
     createBackendAuthUserPoolConfig_mfa,
@@ -192,27 +193,27 @@ module Amazonka.AmplifyBackend.Types
     createBackendAuthUserPoolConfig_userPoolName,
 
     -- * CreateBackendAuthVerificationMessageConfig
-    CreateBackendAuthVerificationMessageConfig (..),
+    CreateBackendAuthVerificationMessageConfig,
     newCreateBackendAuthVerificationMessageConfig,
     createBackendAuthVerificationMessageConfig_emailSettings,
     createBackendAuthVerificationMessageConfig_smsSettings,
     createBackendAuthVerificationMessageConfig_deliveryMethod,
 
     -- * CreateBackendStorageResourceConfig
-    CreateBackendStorageResourceConfig (..),
+    CreateBackendStorageResourceConfig,
     newCreateBackendStorageResourceConfig,
     createBackendStorageResourceConfig_bucketName,
     createBackendStorageResourceConfig_serviceName,
     createBackendStorageResourceConfig_permissions,
 
     -- * EmailSettings
-    EmailSettings (..),
+    EmailSettings,
     newEmailSettings,
     emailSettings_emailMessage,
     emailSettings_emailSubject,
 
     -- * GetBackendStorageResourceConfig
-    GetBackendStorageResourceConfig (..),
+    GetBackendStorageResourceConfig,
     newGetBackendStorageResourceConfig,
     getBackendStorageResourceConfig_bucketName,
     getBackendStorageResourceConfig_permissions,
@@ -220,7 +221,7 @@ module Amazonka.AmplifyBackend.Types
     getBackendStorageResourceConfig_imported,
 
     -- * LoginAuthConfigReqObj
-    LoginAuthConfigReqObj (..),
+    LoginAuthConfigReqObj,
     newLoginAuthConfigReqObj,
     loginAuthConfigReqObj_awsCognitoIdentityPoolId,
     loginAuthConfigReqObj_awsCognitoRegion,
@@ -228,28 +229,28 @@ module Amazonka.AmplifyBackend.Types
     loginAuthConfigReqObj_awsUserPoolsWebClientId,
 
     -- * ResourceConfig
-    ResourceConfig (..),
+    ResourceConfig,
     newResourceConfig,
 
     -- * S3BucketInfo
-    S3BucketInfo (..),
+    S3BucketInfo,
     newS3BucketInfo,
     s3BucketInfo_creationDate,
     s3BucketInfo_name,
 
     -- * Settings
-    Settings (..),
+    Settings,
     newSettings,
     settings_mfaTypes,
     settings_smsMessage,
 
     -- * SmsSettings
-    SmsSettings (..),
+    SmsSettings,
     newSmsSettings,
     smsSettings_smsMessage,
 
     -- * SocialProviderSettings
-    SocialProviderSettings (..),
+    SocialProviderSettings,
     newSocialProviderSettings,
     socialProviderSettings_facebook,
     socialProviderSettings_google,
@@ -257,25 +258,25 @@ module Amazonka.AmplifyBackend.Types
     socialProviderSettings_signInWithApple,
 
     -- * UpdateBackendAuthForgotPasswordConfig
-    UpdateBackendAuthForgotPasswordConfig (..),
+    UpdateBackendAuthForgotPasswordConfig,
     newUpdateBackendAuthForgotPasswordConfig,
     updateBackendAuthForgotPasswordConfig_deliveryMethod,
     updateBackendAuthForgotPasswordConfig_emailSettings,
     updateBackendAuthForgotPasswordConfig_smsSettings,
 
     -- * UpdateBackendAuthIdentityPoolConfig
-    UpdateBackendAuthIdentityPoolConfig (..),
+    UpdateBackendAuthIdentityPoolConfig,
     newUpdateBackendAuthIdentityPoolConfig,
     updateBackendAuthIdentityPoolConfig_unauthenticatedLogin,
 
     -- * UpdateBackendAuthMFAConfig
-    UpdateBackendAuthMFAConfig (..),
+    UpdateBackendAuthMFAConfig,
     newUpdateBackendAuthMFAConfig,
     updateBackendAuthMFAConfig_mfaMode,
     updateBackendAuthMFAConfig_settings,
 
     -- * UpdateBackendAuthOAuthConfig
-    UpdateBackendAuthOAuthConfig (..),
+    UpdateBackendAuthOAuthConfig,
     newUpdateBackendAuthOAuthConfig,
     updateBackendAuthOAuthConfig_domainPrefix,
     updateBackendAuthOAuthConfig_oAuthGrantType,
@@ -285,13 +286,13 @@ module Amazonka.AmplifyBackend.Types
     updateBackendAuthOAuthConfig_socialProviderSettings,
 
     -- * UpdateBackendAuthPasswordPolicyConfig
-    UpdateBackendAuthPasswordPolicyConfig (..),
+    UpdateBackendAuthPasswordPolicyConfig,
     newUpdateBackendAuthPasswordPolicyConfig,
     updateBackendAuthPasswordPolicyConfig_additionalConstraints,
     updateBackendAuthPasswordPolicyConfig_minimumLength,
 
     -- * UpdateBackendAuthResourceConfig
-    UpdateBackendAuthResourceConfig (..),
+    UpdateBackendAuthResourceConfig,
     newUpdateBackendAuthResourceConfig,
     updateBackendAuthResourceConfig_identityPoolConfigs,
     updateBackendAuthResourceConfig_authResources,
@@ -299,7 +300,7 @@ module Amazonka.AmplifyBackend.Types
     updateBackendAuthResourceConfig_service,
 
     -- * UpdateBackendAuthUserPoolConfig
-    UpdateBackendAuthUserPoolConfig (..),
+    UpdateBackendAuthUserPoolConfig,
     newUpdateBackendAuthUserPoolConfig,
     updateBackendAuthUserPoolConfig_forgotPassword,
     updateBackendAuthUserPoolConfig_mfa,
@@ -308,14 +309,14 @@ module Amazonka.AmplifyBackend.Types
     updateBackendAuthUserPoolConfig_verificationMessage,
 
     -- * UpdateBackendAuthVerificationMessageConfig
-    UpdateBackendAuthVerificationMessageConfig (..),
+    UpdateBackendAuthVerificationMessageConfig,
     newUpdateBackendAuthVerificationMessageConfig,
     updateBackendAuthVerificationMessageConfig_emailSettings,
     updateBackendAuthVerificationMessageConfig_smsSettings,
     updateBackendAuthVerificationMessageConfig_deliveryMethod,
 
     -- * UpdateBackendStorageResourceConfig
-    UpdateBackendStorageResourceConfig (..),
+    UpdateBackendStorageResourceConfig,
     newUpdateBackendStorageResourceConfig,
     updateBackendStorageResourceConfig_serviceName,
     updateBackendStorageResourceConfig_permissions,

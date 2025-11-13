@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -27,85 +28,85 @@ module Amazonka.Firehose.Types
     _ServiceUnavailableException,
 
     -- * AmazonOpenSearchServerlessS3BackupMode
-    AmazonOpenSearchServerlessS3BackupMode (..),
+    AmazonOpenSearchServerlessS3BackupMode,
 
     -- * AmazonopensearchserviceIndexRotationPeriod
-    AmazonopensearchserviceIndexRotationPeriod (..),
+    AmazonopensearchserviceIndexRotationPeriod,
 
     -- * AmazonopensearchserviceS3BackupMode
-    AmazonopensearchserviceS3BackupMode (..),
+    AmazonopensearchserviceS3BackupMode,
 
     -- * CompressionFormat
-    CompressionFormat (..),
+    CompressionFormat,
 
     -- * ContentEncoding
-    ContentEncoding (..),
+    ContentEncoding,
 
     -- * DeliveryStreamEncryptionStatus
-    DeliveryStreamEncryptionStatus (..),
+    DeliveryStreamEncryptionStatus,
 
     -- * DeliveryStreamFailureType
-    DeliveryStreamFailureType (..),
+    DeliveryStreamFailureType,
 
     -- * DeliveryStreamStatus
-    DeliveryStreamStatus (..),
+    DeliveryStreamStatus,
 
     -- * DeliveryStreamType
-    DeliveryStreamType (..),
+    DeliveryStreamType,
 
     -- * ElasticsearchIndexRotationPeriod
-    ElasticsearchIndexRotationPeriod (..),
+    ElasticsearchIndexRotationPeriod,
 
     -- * ElasticsearchS3BackupMode
-    ElasticsearchS3BackupMode (..),
+    ElasticsearchS3BackupMode,
 
     -- * HECEndpointType
-    HECEndpointType (..),
+    HECEndpointType,
 
     -- * HttpEndpointS3BackupMode
-    HttpEndpointS3BackupMode (..),
+    HttpEndpointS3BackupMode,
 
     -- * KeyType
-    KeyType (..),
+    KeyType,
 
     -- * NoEncryptionConfig
-    NoEncryptionConfig (..),
+    NoEncryptionConfig,
 
     -- * OrcCompression
-    OrcCompression (..),
+    OrcCompression,
 
     -- * OrcFormatVersion
-    OrcFormatVersion (..),
+    OrcFormatVersion,
 
     -- * ParquetCompression
-    ParquetCompression (..),
+    ParquetCompression,
 
     -- * ParquetWriterVersion
-    ParquetWriterVersion (..),
+    ParquetWriterVersion,
 
     -- * ProcessorParameterName
-    ProcessorParameterName (..),
+    ProcessorParameterName,
 
     -- * ProcessorType
-    ProcessorType (..),
+    ProcessorType,
 
     -- * RedshiftS3BackupMode
-    RedshiftS3BackupMode (..),
+    RedshiftS3BackupMode,
 
     -- * S3BackupMode
-    S3BackupMode (..),
+    S3BackupMode,
 
     -- * SplunkS3BackupMode
-    SplunkS3BackupMode (..),
+    SplunkS3BackupMode,
 
     -- * AmazonOpenSearchServerlessBufferingHints
-    AmazonOpenSearchServerlessBufferingHints (..),
+    AmazonOpenSearchServerlessBufferingHints,
     newAmazonOpenSearchServerlessBufferingHints,
     amazonOpenSearchServerlessBufferingHints_intervalInSeconds,
     amazonOpenSearchServerlessBufferingHints_sizeInMBs,
 
     -- * AmazonOpenSearchServerlessDestinationConfiguration
-    AmazonOpenSearchServerlessDestinationConfiguration (..),
+    AmazonOpenSearchServerlessDestinationConfiguration,
     newAmazonOpenSearchServerlessDestinationConfiguration,
     amazonOpenSearchServerlessDestinationConfiguration_bufferingHints,
     amazonOpenSearchServerlessDestinationConfiguration_cloudWatchLoggingOptions,
@@ -119,7 +120,7 @@ module Amazonka.Firehose.Types
     amazonOpenSearchServerlessDestinationConfiguration_s3Configuration,
 
     -- * AmazonOpenSearchServerlessDestinationDescription
-    AmazonOpenSearchServerlessDestinationDescription (..),
+    AmazonOpenSearchServerlessDestinationDescription,
     newAmazonOpenSearchServerlessDestinationDescription,
     amazonOpenSearchServerlessDestinationDescription_bufferingHints,
     amazonOpenSearchServerlessDestinationDescription_cloudWatchLoggingOptions,
@@ -133,7 +134,7 @@ module Amazonka.Firehose.Types
     amazonOpenSearchServerlessDestinationDescription_vpcConfigurationDescription,
 
     -- * AmazonOpenSearchServerlessDestinationUpdate
-    AmazonOpenSearchServerlessDestinationUpdate (..),
+    AmazonOpenSearchServerlessDestinationUpdate,
     newAmazonOpenSearchServerlessDestinationUpdate,
     amazonOpenSearchServerlessDestinationUpdate_bufferingHints,
     amazonOpenSearchServerlessDestinationUpdate_cloudWatchLoggingOptions,
@@ -145,18 +146,18 @@ module Amazonka.Firehose.Types
     amazonOpenSearchServerlessDestinationUpdate_s3Update,
 
     -- * AmazonOpenSearchServerlessRetryOptions
-    AmazonOpenSearchServerlessRetryOptions (..),
+    AmazonOpenSearchServerlessRetryOptions,
     newAmazonOpenSearchServerlessRetryOptions,
     amazonOpenSearchServerlessRetryOptions_durationInSeconds,
 
     -- * AmazonopensearchserviceBufferingHints
-    AmazonopensearchserviceBufferingHints (..),
+    AmazonopensearchserviceBufferingHints,
     newAmazonopensearchserviceBufferingHints,
     amazonopensearchserviceBufferingHints_intervalInSeconds,
     amazonopensearchserviceBufferingHints_sizeInMBs,
 
     -- * AmazonopensearchserviceDestinationConfiguration
-    AmazonopensearchserviceDestinationConfiguration (..),
+    AmazonopensearchserviceDestinationConfiguration,
     newAmazonopensearchserviceDestinationConfiguration,
     amazonopensearchserviceDestinationConfiguration_bufferingHints,
     amazonopensearchserviceDestinationConfiguration_cloudWatchLoggingOptions,
@@ -173,7 +174,7 @@ module Amazonka.Firehose.Types
     amazonopensearchserviceDestinationConfiguration_s3Configuration,
 
     -- * AmazonopensearchserviceDestinationDescription
-    AmazonopensearchserviceDestinationDescription (..),
+    AmazonopensearchserviceDestinationDescription,
     newAmazonopensearchserviceDestinationDescription,
     amazonopensearchserviceDestinationDescription_bufferingHints,
     amazonopensearchserviceDestinationDescription_cloudWatchLoggingOptions,
@@ -190,7 +191,7 @@ module Amazonka.Firehose.Types
     amazonopensearchserviceDestinationDescription_vpcConfigurationDescription,
 
     -- * AmazonopensearchserviceDestinationUpdate
-    AmazonopensearchserviceDestinationUpdate (..),
+    AmazonopensearchserviceDestinationUpdate,
     newAmazonopensearchserviceDestinationUpdate,
     amazonopensearchserviceDestinationUpdate_bufferingHints,
     amazonopensearchserviceDestinationUpdate_cloudWatchLoggingOptions,
@@ -205,32 +206,32 @@ module Amazonka.Firehose.Types
     amazonopensearchserviceDestinationUpdate_typeName,
 
     -- * AmazonopensearchserviceRetryOptions
-    AmazonopensearchserviceRetryOptions (..),
+    AmazonopensearchserviceRetryOptions,
     newAmazonopensearchserviceRetryOptions,
     amazonopensearchserviceRetryOptions_durationInSeconds,
 
     -- * BufferingHints
-    BufferingHints (..),
+    BufferingHints,
     newBufferingHints,
     bufferingHints_intervalInSeconds,
     bufferingHints_sizeInMBs,
 
     -- * CloudWatchLoggingOptions
-    CloudWatchLoggingOptions (..),
+    CloudWatchLoggingOptions,
     newCloudWatchLoggingOptions,
     cloudWatchLoggingOptions_enabled,
     cloudWatchLoggingOptions_logGroupName,
     cloudWatchLoggingOptions_logStreamName,
 
     -- * CopyCommand
-    CopyCommand (..),
+    CopyCommand,
     newCopyCommand,
     copyCommand_copyOptions,
     copyCommand_dataTableColumns,
     copyCommand_dataTableName,
 
     -- * DataFormatConversionConfiguration
-    DataFormatConversionConfiguration (..),
+    DataFormatConversionConfiguration,
     newDataFormatConversionConfiguration,
     dataFormatConversionConfiguration_enabled,
     dataFormatConversionConfiguration_inputFormatConfiguration,
@@ -238,7 +239,7 @@ module Amazonka.Firehose.Types
     dataFormatConversionConfiguration_schemaConfiguration,
 
     -- * DeliveryStreamDescription
-    DeliveryStreamDescription (..),
+    DeliveryStreamDescription,
     newDeliveryStreamDescription,
     deliveryStreamDescription_createTimestamp,
     deliveryStreamDescription_deliveryStreamEncryptionConfiguration,
@@ -254,7 +255,7 @@ module Amazonka.Firehose.Types
     deliveryStreamDescription_hasMoreDestinations,
 
     -- * DeliveryStreamEncryptionConfiguration
-    DeliveryStreamEncryptionConfiguration (..),
+    DeliveryStreamEncryptionConfiguration,
     newDeliveryStreamEncryptionConfiguration,
     deliveryStreamEncryptionConfiguration_failureDescription,
     deliveryStreamEncryptionConfiguration_keyARN,
@@ -262,19 +263,19 @@ module Amazonka.Firehose.Types
     deliveryStreamEncryptionConfiguration_status,
 
     -- * DeliveryStreamEncryptionConfigurationInput
-    DeliveryStreamEncryptionConfigurationInput (..),
+    DeliveryStreamEncryptionConfigurationInput,
     newDeliveryStreamEncryptionConfigurationInput,
     deliveryStreamEncryptionConfigurationInput_keyARN,
     deliveryStreamEncryptionConfigurationInput_keyType,
 
     -- * Deserializer
-    Deserializer (..),
+    Deserializer,
     newDeserializer,
     deserializer_hiveJsonSerDe,
     deserializer_openXJsonSerDe,
 
     -- * DestinationDescription
-    DestinationDescription (..),
+    DestinationDescription,
     newDestinationDescription,
     destinationDescription_amazonOpenSearchServerlessDestinationDescription,
     destinationDescription_amazonopensearchserviceDestinationDescription,
@@ -287,19 +288,19 @@ module Amazonka.Firehose.Types
     destinationDescription_destinationId,
 
     -- * DynamicPartitioningConfiguration
-    DynamicPartitioningConfiguration (..),
+    DynamicPartitioningConfiguration,
     newDynamicPartitioningConfiguration,
     dynamicPartitioningConfiguration_enabled,
     dynamicPartitioningConfiguration_retryOptions,
 
     -- * ElasticsearchBufferingHints
-    ElasticsearchBufferingHints (..),
+    ElasticsearchBufferingHints,
     newElasticsearchBufferingHints,
     elasticsearchBufferingHints_intervalInSeconds,
     elasticsearchBufferingHints_sizeInMBs,
 
     -- * ElasticsearchDestinationConfiguration
-    ElasticsearchDestinationConfiguration (..),
+    ElasticsearchDestinationConfiguration,
     newElasticsearchDestinationConfiguration,
     elasticsearchDestinationConfiguration_bufferingHints,
     elasticsearchDestinationConfiguration_cloudWatchLoggingOptions,
@@ -316,7 +317,7 @@ module Amazonka.Firehose.Types
     elasticsearchDestinationConfiguration_s3Configuration,
 
     -- * ElasticsearchDestinationDescription
-    ElasticsearchDestinationDescription (..),
+    ElasticsearchDestinationDescription,
     newElasticsearchDestinationDescription,
     elasticsearchDestinationDescription_bufferingHints,
     elasticsearchDestinationDescription_cloudWatchLoggingOptions,
@@ -333,7 +334,7 @@ module Amazonka.Firehose.Types
     elasticsearchDestinationDescription_vpcConfigurationDescription,
 
     -- * ElasticsearchDestinationUpdate
-    ElasticsearchDestinationUpdate (..),
+    ElasticsearchDestinationUpdate,
     newElasticsearchDestinationUpdate,
     elasticsearchDestinationUpdate_bufferingHints,
     elasticsearchDestinationUpdate_cloudWatchLoggingOptions,
@@ -348,18 +349,18 @@ module Amazonka.Firehose.Types
     elasticsearchDestinationUpdate_typeName,
 
     -- * ElasticsearchRetryOptions
-    ElasticsearchRetryOptions (..),
+    ElasticsearchRetryOptions,
     newElasticsearchRetryOptions,
     elasticsearchRetryOptions_durationInSeconds,
 
     -- * EncryptionConfiguration
-    EncryptionConfiguration (..),
+    EncryptionConfiguration,
     newEncryptionConfiguration,
     encryptionConfiguration_kmsEncryptionConfig,
     encryptionConfiguration_noEncryptionConfig,
 
     -- * ExtendedS3DestinationConfiguration
-    ExtendedS3DestinationConfiguration (..),
+    ExtendedS3DestinationConfiguration,
     newExtendedS3DestinationConfiguration,
     extendedS3DestinationConfiguration_bufferingHints,
     extendedS3DestinationConfiguration_cloudWatchLoggingOptions,
@@ -376,7 +377,7 @@ module Amazonka.Firehose.Types
     extendedS3DestinationConfiguration_bucketARN,
 
     -- * ExtendedS3DestinationDescription
-    ExtendedS3DestinationDescription (..),
+    ExtendedS3DestinationDescription,
     newExtendedS3DestinationDescription,
     extendedS3DestinationDescription_cloudWatchLoggingOptions,
     extendedS3DestinationDescription_dataFormatConversionConfiguration,
@@ -393,7 +394,7 @@ module Amazonka.Firehose.Types
     extendedS3DestinationDescription_encryptionConfiguration,
 
     -- * ExtendedS3DestinationUpdate
-    ExtendedS3DestinationUpdate (..),
+    ExtendedS3DestinationUpdate,
     newExtendedS3DestinationUpdate,
     extendedS3DestinationUpdate_bucketARN,
     extendedS3DestinationUpdate_bufferingHints,
@@ -410,43 +411,43 @@ module Amazonka.Firehose.Types
     extendedS3DestinationUpdate_s3BackupUpdate,
 
     -- * FailureDescription
-    FailureDescription (..),
+    FailureDescription,
     newFailureDescription,
     failureDescription_type,
     failureDescription_details,
 
     -- * HiveJsonSerDe
-    HiveJsonSerDe (..),
+    HiveJsonSerDe,
     newHiveJsonSerDe,
     hiveJsonSerDe_timestampFormats,
 
     -- * HttpEndpointBufferingHints
-    HttpEndpointBufferingHints (..),
+    HttpEndpointBufferingHints,
     newHttpEndpointBufferingHints,
     httpEndpointBufferingHints_intervalInSeconds,
     httpEndpointBufferingHints_sizeInMBs,
 
     -- * HttpEndpointCommonAttribute
-    HttpEndpointCommonAttribute (..),
+    HttpEndpointCommonAttribute,
     newHttpEndpointCommonAttribute,
     httpEndpointCommonAttribute_attributeName,
     httpEndpointCommonAttribute_attributeValue,
 
     -- * HttpEndpointConfiguration
-    HttpEndpointConfiguration (..),
+    HttpEndpointConfiguration,
     newHttpEndpointConfiguration,
     httpEndpointConfiguration_accessKey,
     httpEndpointConfiguration_name,
     httpEndpointConfiguration_url,
 
     -- * HttpEndpointDescription
-    HttpEndpointDescription (..),
+    HttpEndpointDescription,
     newHttpEndpointDescription,
     httpEndpointDescription_name,
     httpEndpointDescription_url,
 
     -- * HttpEndpointDestinationConfiguration
-    HttpEndpointDestinationConfiguration (..),
+    HttpEndpointDestinationConfiguration,
     newHttpEndpointDestinationConfiguration,
     httpEndpointDestinationConfiguration_bufferingHints,
     httpEndpointDestinationConfiguration_cloudWatchLoggingOptions,
@@ -459,7 +460,7 @@ module Amazonka.Firehose.Types
     httpEndpointDestinationConfiguration_s3Configuration,
 
     -- * HttpEndpointDestinationDescription
-    HttpEndpointDestinationDescription (..),
+    HttpEndpointDestinationDescription,
     newHttpEndpointDestinationDescription,
     httpEndpointDestinationDescription_bufferingHints,
     httpEndpointDestinationDescription_cloudWatchLoggingOptions,
@@ -472,7 +473,7 @@ module Amazonka.Firehose.Types
     httpEndpointDestinationDescription_s3DestinationDescription,
 
     -- * HttpEndpointDestinationUpdate
-    HttpEndpointDestinationUpdate (..),
+    HttpEndpointDestinationUpdate,
     newHttpEndpointDestinationUpdate,
     httpEndpointDestinationUpdate_bufferingHints,
     httpEndpointDestinationUpdate_cloudWatchLoggingOptions,
@@ -485,48 +486,48 @@ module Amazonka.Firehose.Types
     httpEndpointDestinationUpdate_s3Update,
 
     -- * HttpEndpointRequestConfiguration
-    HttpEndpointRequestConfiguration (..),
+    HttpEndpointRequestConfiguration,
     newHttpEndpointRequestConfiguration,
     httpEndpointRequestConfiguration_commonAttributes,
     httpEndpointRequestConfiguration_contentEncoding,
 
     -- * HttpEndpointRetryOptions
-    HttpEndpointRetryOptions (..),
+    HttpEndpointRetryOptions,
     newHttpEndpointRetryOptions,
     httpEndpointRetryOptions_durationInSeconds,
 
     -- * InputFormatConfiguration
-    InputFormatConfiguration (..),
+    InputFormatConfiguration,
     newInputFormatConfiguration,
     inputFormatConfiguration_deserializer,
 
     -- * KMSEncryptionConfig
-    KMSEncryptionConfig (..),
+    KMSEncryptionConfig,
     newKMSEncryptionConfig,
     kmsEncryptionConfig_aWSKMSKeyARN,
 
     -- * KinesisStreamSourceConfiguration
-    KinesisStreamSourceConfiguration (..),
+    KinesisStreamSourceConfiguration,
     newKinesisStreamSourceConfiguration,
     kinesisStreamSourceConfiguration_kinesisStreamARN,
     kinesisStreamSourceConfiguration_roleARN,
 
     -- * KinesisStreamSourceDescription
-    KinesisStreamSourceDescription (..),
+    KinesisStreamSourceDescription,
     newKinesisStreamSourceDescription,
     kinesisStreamSourceDescription_deliveryStartTimestamp,
     kinesisStreamSourceDescription_kinesisStreamARN,
     kinesisStreamSourceDescription_roleARN,
 
     -- * OpenXJsonSerDe
-    OpenXJsonSerDe (..),
+    OpenXJsonSerDe,
     newOpenXJsonSerDe,
     openXJsonSerDe_caseInsensitive,
     openXJsonSerDe_columnToJsonKeyMappings,
     openXJsonSerDe_convertDotsInJsonKeysToUnderscores,
 
     -- * OrcSerDe
-    OrcSerDe (..),
+    OrcSerDe,
     newOrcSerDe,
     orcSerDe_blockSizeBytes,
     orcSerDe_bloomFilterColumns,
@@ -540,12 +541,12 @@ module Amazonka.Firehose.Types
     orcSerDe_stripeSizeBytes,
 
     -- * OutputFormatConfiguration
-    OutputFormatConfiguration (..),
+    OutputFormatConfiguration,
     newOutputFormatConfiguration,
     outputFormatConfiguration_serializer,
 
     -- * ParquetSerDe
-    ParquetSerDe (..),
+    ParquetSerDe,
     newParquetSerDe,
     parquetSerDe_blockSizeBytes,
     parquetSerDe_compression,
@@ -555,37 +556,37 @@ module Amazonka.Firehose.Types
     parquetSerDe_writerVersion,
 
     -- * ProcessingConfiguration
-    ProcessingConfiguration (..),
+    ProcessingConfiguration,
     newProcessingConfiguration,
     processingConfiguration_enabled,
     processingConfiguration_processors,
 
     -- * Processor
-    Processor (..),
+    Processor,
     newProcessor,
     processor_parameters,
     processor_type,
 
     -- * ProcessorParameter
-    ProcessorParameter (..),
+    ProcessorParameter,
     newProcessorParameter,
     processorParameter_parameterName,
     processorParameter_parameterValue,
 
     -- * PutRecordBatchResponseEntry
-    PutRecordBatchResponseEntry (..),
+    PutRecordBatchResponseEntry,
     newPutRecordBatchResponseEntry,
     putRecordBatchResponseEntry_errorCode,
     putRecordBatchResponseEntry_errorMessage,
     putRecordBatchResponseEntry_recordId,
 
     -- * Record
-    Record (..),
+    Record,
     newRecord,
     record_data,
 
     -- * RedshiftDestinationConfiguration
-    RedshiftDestinationConfiguration (..),
+    RedshiftDestinationConfiguration,
     newRedshiftDestinationConfiguration,
     redshiftDestinationConfiguration_cloudWatchLoggingOptions,
     redshiftDestinationConfiguration_processingConfiguration,
@@ -600,7 +601,7 @@ module Amazonka.Firehose.Types
     redshiftDestinationConfiguration_s3Configuration,
 
     -- * RedshiftDestinationDescription
-    RedshiftDestinationDescription (..),
+    RedshiftDestinationDescription,
     newRedshiftDestinationDescription,
     redshiftDestinationDescription_cloudWatchLoggingOptions,
     redshiftDestinationDescription_processingConfiguration,
@@ -614,7 +615,7 @@ module Amazonka.Firehose.Types
     redshiftDestinationDescription_s3DestinationDescription,
 
     -- * RedshiftDestinationUpdate
-    RedshiftDestinationUpdate (..),
+    RedshiftDestinationUpdate,
     newRedshiftDestinationUpdate,
     redshiftDestinationUpdate_cloudWatchLoggingOptions,
     redshiftDestinationUpdate_clusterJDBCURL,
@@ -629,17 +630,17 @@ module Amazonka.Firehose.Types
     redshiftDestinationUpdate_username,
 
     -- * RedshiftRetryOptions
-    RedshiftRetryOptions (..),
+    RedshiftRetryOptions,
     newRedshiftRetryOptions,
     redshiftRetryOptions_durationInSeconds,
 
     -- * RetryOptions
-    RetryOptions (..),
+    RetryOptions,
     newRetryOptions,
     retryOptions_durationInSeconds,
 
     -- * S3DestinationConfiguration
-    S3DestinationConfiguration (..),
+    S3DestinationConfiguration,
     newS3DestinationConfiguration,
     s3DestinationConfiguration_bufferingHints,
     s3DestinationConfiguration_cloudWatchLoggingOptions,
@@ -651,7 +652,7 @@ module Amazonka.Firehose.Types
     s3DestinationConfiguration_bucketARN,
 
     -- * S3DestinationDescription
-    S3DestinationDescription (..),
+    S3DestinationDescription,
     newS3DestinationDescription,
     s3DestinationDescription_cloudWatchLoggingOptions,
     s3DestinationDescription_errorOutputPrefix,
@@ -663,7 +664,7 @@ module Amazonka.Firehose.Types
     s3DestinationDescription_encryptionConfiguration,
 
     -- * S3DestinationUpdate
-    S3DestinationUpdate (..),
+    S3DestinationUpdate,
     newS3DestinationUpdate,
     s3DestinationUpdate_bucketARN,
     s3DestinationUpdate_bufferingHints,
@@ -675,7 +676,7 @@ module Amazonka.Firehose.Types
     s3DestinationUpdate_roleARN,
 
     -- * SchemaConfiguration
-    SchemaConfiguration (..),
+    SchemaConfiguration,
     newSchemaConfiguration,
     schemaConfiguration_catalogId,
     schemaConfiguration_databaseName,
@@ -685,18 +686,18 @@ module Amazonka.Firehose.Types
     schemaConfiguration_versionId,
 
     -- * Serializer
-    Serializer (..),
+    Serializer,
     newSerializer,
     serializer_orcSerDe,
     serializer_parquetSerDe,
 
     -- * SourceDescription
-    SourceDescription (..),
+    SourceDescription,
     newSourceDescription,
     sourceDescription_kinesisStreamSourceDescription,
 
     -- * SplunkDestinationConfiguration
-    SplunkDestinationConfiguration (..),
+    SplunkDestinationConfiguration,
     newSplunkDestinationConfiguration,
     splunkDestinationConfiguration_cloudWatchLoggingOptions,
     splunkDestinationConfiguration_hECAcknowledgmentTimeoutInSeconds,
@@ -709,7 +710,7 @@ module Amazonka.Firehose.Types
     splunkDestinationConfiguration_s3Configuration,
 
     -- * SplunkDestinationDescription
-    SplunkDestinationDescription (..),
+    SplunkDestinationDescription,
     newSplunkDestinationDescription,
     splunkDestinationDescription_cloudWatchLoggingOptions,
     splunkDestinationDescription_hECAcknowledgmentTimeoutInSeconds,
@@ -722,7 +723,7 @@ module Amazonka.Firehose.Types
     splunkDestinationDescription_s3DestinationDescription,
 
     -- * SplunkDestinationUpdate
-    SplunkDestinationUpdate (..),
+    SplunkDestinationUpdate,
     newSplunkDestinationUpdate,
     splunkDestinationUpdate_cloudWatchLoggingOptions,
     splunkDestinationUpdate_hECAcknowledgmentTimeoutInSeconds,
@@ -735,25 +736,25 @@ module Amazonka.Firehose.Types
     splunkDestinationUpdate_s3Update,
 
     -- * SplunkRetryOptions
-    SplunkRetryOptions (..),
+    SplunkRetryOptions,
     newSplunkRetryOptions,
     splunkRetryOptions_durationInSeconds,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_value,
     tag_key,
 
     -- * VpcConfiguration
-    VpcConfiguration (..),
+    VpcConfiguration,
     newVpcConfiguration,
     vpcConfiguration_subnetIds,
     vpcConfiguration_roleARN,
     vpcConfiguration_securityGroupIds,
 
     -- * VpcConfigurationDescription
-    VpcConfigurationDescription (..),
+    VpcConfigurationDescription,
     newVpcConfigurationDescription,
     vpcConfigurationDescription_subnetIds,
     vpcConfigurationDescription_roleARN,

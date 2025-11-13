@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -23,46 +24,46 @@ module Amazonka.StorageGateway.Types
     _ServiceUnavailableError,
 
     -- * ActiveDirectoryStatus
-    ActiveDirectoryStatus (..),
+    ActiveDirectoryStatus,
 
     -- * AvailabilityMonitorTestStatus
-    AvailabilityMonitorTestStatus (..),
+    AvailabilityMonitorTestStatus,
 
     -- * CaseSensitivity
-    CaseSensitivity (..),
+    CaseSensitivity,
 
     -- * FileShareType
-    FileShareType (..),
+    FileShareType,
 
     -- * GatewayCapacity
-    GatewayCapacity (..),
+    GatewayCapacity,
 
     -- * HostEnvironment
-    HostEnvironment (..),
+    HostEnvironment,
 
     -- * ObjectACL
-    ObjectACL (..),
+    ObjectACL,
 
     -- * PoolStatus
-    PoolStatus (..),
+    PoolStatus,
 
     -- * RetentionLockType
-    RetentionLockType (..),
+    RetentionLockType,
 
     -- * SMBSecurityStrategy
-    SMBSecurityStrategy (..),
+    SMBSecurityStrategy,
 
     -- * TapeStorageClass
-    TapeStorageClass (..),
+    TapeStorageClass,
 
     -- * AutomaticTapeCreationPolicyInfo
-    AutomaticTapeCreationPolicyInfo (..),
+    AutomaticTapeCreationPolicyInfo,
     newAutomaticTapeCreationPolicyInfo,
     automaticTapeCreationPolicyInfo_automaticTapeCreationRules,
     automaticTapeCreationPolicyInfo_gatewayARN,
 
     -- * AutomaticTapeCreationRule
-    AutomaticTapeCreationRule (..),
+    AutomaticTapeCreationRule,
     newAutomaticTapeCreationRule,
     automaticTapeCreationRule_worm,
     automaticTapeCreationRule_tapeBarcodePrefix,
@@ -71,7 +72,7 @@ module Amazonka.StorageGateway.Types
     automaticTapeCreationRule_minimumNumTapes,
 
     -- * BandwidthRateLimitInterval
-    BandwidthRateLimitInterval (..),
+    BandwidthRateLimitInterval,
     newBandwidthRateLimitInterval,
     bandwidthRateLimitInterval_averageDownloadRateLimitInBitsPerSec,
     bandwidthRateLimitInterval_averageUploadRateLimitInBitsPerSec,
@@ -82,12 +83,12 @@ module Amazonka.StorageGateway.Types
     bandwidthRateLimitInterval_daysOfWeek,
 
     -- * CacheAttributes
-    CacheAttributes (..),
+    CacheAttributes,
     newCacheAttributes,
     cacheAttributes_cacheStaleTimeoutInSeconds,
 
     -- * CachediSCSIVolume
-    CachediSCSIVolume (..),
+    CachediSCSIVolume,
     newCachediSCSIVolume,
     cachediSCSIVolume_createdDate,
     cachediSCSIVolume_kmsKey,
@@ -104,7 +105,7 @@ module Amazonka.StorageGateway.Types
     cachediSCSIVolume_volumeiSCSIAttributes,
 
     -- * ChapInfo
-    ChapInfo (..),
+    ChapInfo,
     newChapInfo,
     chapInfo_initiatorName,
     chapInfo_secretToAuthenticateInitiator,
@@ -112,7 +113,7 @@ module Amazonka.StorageGateway.Types
     chapInfo_targetARN,
 
     -- * DeviceiSCSIAttributes
-    DeviceiSCSIAttributes (..),
+    DeviceiSCSIAttributes,
     newDeviceiSCSIAttributes,
     deviceiSCSIAttributes_chapEnabled,
     deviceiSCSIAttributes_networkInterfaceId,
@@ -120,7 +121,7 @@ module Amazonka.StorageGateway.Types
     deviceiSCSIAttributes_targetARN,
 
     -- * Disk
-    Disk (..),
+    Disk,
     newDisk,
     disk_diskAllocationResource,
     disk_diskAllocationType,
@@ -132,12 +133,12 @@ module Amazonka.StorageGateway.Types
     disk_diskStatus,
 
     -- * EndpointNetworkConfiguration
-    EndpointNetworkConfiguration (..),
+    EndpointNetworkConfiguration,
     newEndpointNetworkConfiguration,
     endpointNetworkConfiguration_ipAddresses,
 
     -- * FileShareInfo
-    FileShareInfo (..),
+    FileShareInfo,
     newFileShareInfo,
     fileShareInfo_fileShareARN,
     fileShareInfo_fileShareId,
@@ -146,7 +147,7 @@ module Amazonka.StorageGateway.Types
     fileShareInfo_gatewayARN,
 
     -- * FileSystemAssociationInfo
-    FileSystemAssociationInfo (..),
+    FileSystemAssociationInfo,
     newFileSystemAssociationInfo,
     fileSystemAssociationInfo_auditDestinationARN,
     fileSystemAssociationInfo_cacheAttributes,
@@ -159,12 +160,12 @@ module Amazonka.StorageGateway.Types
     fileSystemAssociationInfo_tags,
 
     -- * FileSystemAssociationStatusDetail
-    FileSystemAssociationStatusDetail (..),
+    FileSystemAssociationStatusDetail,
     newFileSystemAssociationStatusDetail,
     fileSystemAssociationStatusDetail_errorCode,
 
     -- * FileSystemAssociationSummary
-    FileSystemAssociationSummary (..),
+    FileSystemAssociationSummary,
     newFileSystemAssociationSummary,
     fileSystemAssociationSummary_fileSystemAssociationARN,
     fileSystemAssociationSummary_fileSystemAssociationId,
@@ -172,7 +173,7 @@ module Amazonka.StorageGateway.Types
     fileSystemAssociationSummary_gatewayARN,
 
     -- * GatewayInfo
-    GatewayInfo (..),
+    GatewayInfo,
     newGatewayInfo,
     gatewayInfo_ec2InstanceId,
     gatewayInfo_ec2InstanceRegion,
@@ -185,7 +186,7 @@ module Amazonka.StorageGateway.Types
     gatewayInfo_hostEnvironmentId,
 
     -- * NFSFileShareDefaults
-    NFSFileShareDefaults (..),
+    NFSFileShareDefaults,
     newNFSFileShareDefaults,
     nFSFileShareDefaults_directoryMode,
     nFSFileShareDefaults_fileMode,
@@ -193,7 +194,7 @@ module Amazonka.StorageGateway.Types
     nFSFileShareDefaults_ownerId,
 
     -- * NFSFileShareInfo
-    NFSFileShareInfo (..),
+    NFSFileShareInfo,
     newNFSFileShareInfo,
     nFSFileShareInfo_auditDestinationARN,
     nFSFileShareInfo_bucketRegion,
@@ -221,14 +222,14 @@ module Amazonka.StorageGateway.Types
     nFSFileShareInfo_vPCEndpointDNSName,
 
     -- * NetworkInterface
-    NetworkInterface (..),
+    NetworkInterface,
     newNetworkInterface,
     networkInterface_ipv4Address,
     networkInterface_ipv6Address,
     networkInterface_macAddress,
 
     -- * PoolInfo
-    PoolInfo (..),
+    PoolInfo,
     newPoolInfo,
     poolInfo_poolARN,
     poolInfo_poolName,
@@ -238,7 +239,7 @@ module Amazonka.StorageGateway.Types
     poolInfo_storageClass,
 
     -- * SMBFileShareInfo
-    SMBFileShareInfo (..),
+    SMBFileShareInfo,
     newSMBFileShareInfo,
     sMBFileShareInfo_accessBasedEnumeration,
     sMBFileShareInfo_adminUserList,
@@ -271,12 +272,12 @@ module Amazonka.StorageGateway.Types
     sMBFileShareInfo_validUserList,
 
     -- * SMBLocalGroups
-    SMBLocalGroups (..),
+    SMBLocalGroups,
     newSMBLocalGroups,
     sMBLocalGroups_gatewayAdmins,
 
     -- * StorediSCSIVolume
-    StorediSCSIVolume (..),
+    StorediSCSIVolume,
     newStorediSCSIVolume,
     storediSCSIVolume_createdDate,
     storediSCSIVolume_kmsKey,
@@ -295,13 +296,13 @@ module Amazonka.StorageGateway.Types
     storediSCSIVolume_volumeiSCSIAttributes,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,
 
     -- * Tape
-    Tape (..),
+    Tape,
     newTape,
     tape_kmsKey,
     tape_poolEntryDate,
@@ -318,7 +319,7 @@ module Amazonka.StorageGateway.Types
     tape_worm,
 
     -- * TapeArchive
-    TapeArchive (..),
+    TapeArchive,
     newTapeArchive,
     tapeArchive_completionTime,
     tapeArchive_kmsKey,
@@ -335,7 +336,7 @@ module Amazonka.StorageGateway.Types
     tapeArchive_worm,
 
     -- * TapeInfo
-    TapeInfo (..),
+    TapeInfo,
     newTapeInfo,
     tapeInfo_gatewayARN,
     tapeInfo_poolEntryDate,
@@ -347,7 +348,7 @@ module Amazonka.StorageGateway.Types
     tapeInfo_tapeStatus,
 
     -- * TapeRecoveryPointInfo
-    TapeRecoveryPointInfo (..),
+    TapeRecoveryPointInfo,
     newTapeRecoveryPointInfo,
     tapeRecoveryPointInfo_tapeARN,
     tapeRecoveryPointInfo_tapeRecoveryPointTime,
@@ -355,7 +356,7 @@ module Amazonka.StorageGateway.Types
     tapeRecoveryPointInfo_tapeStatus,
 
     -- * VTLDevice
-    VTLDevice (..),
+    VTLDevice,
     newVTLDevice,
     vTLDevice_deviceiSCSIAttributes,
     vTLDevice_vTLDeviceARN,
@@ -364,7 +365,7 @@ module Amazonka.StorageGateway.Types
     vTLDevice_vTLDeviceVendor,
 
     -- * VolumeInfo
-    VolumeInfo (..),
+    VolumeInfo,
     newVolumeInfo,
     volumeInfo_gatewayARN,
     volumeInfo_gatewayId,
@@ -375,7 +376,7 @@ module Amazonka.StorageGateway.Types
     volumeInfo_volumeType,
 
     -- * VolumeRecoveryPointInfo
-    VolumeRecoveryPointInfo (..),
+    VolumeRecoveryPointInfo,
     newVolumeRecoveryPointInfo,
     volumeRecoveryPointInfo_volumeARN,
     volumeRecoveryPointInfo_volumeRecoveryPointTime,
@@ -383,7 +384,7 @@ module Amazonka.StorageGateway.Types
     volumeRecoveryPointInfo_volumeUsageInBytes,
 
     -- * VolumeiSCSIAttributes
-    VolumeiSCSIAttributes (..),
+    VolumeiSCSIAttributes,
     newVolumeiSCSIAttributes,
     volumeiSCSIAttributes_chapEnabled,
     volumeiSCSIAttributes_lunNumber,

@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -35,86 +36,86 @@ module Amazonka.Translate.Types
     _UnsupportedLanguagePairException,
 
     -- * Directionality
-    Directionality (..),
+    Directionality,
 
     -- * DisplayLanguageCode
-    DisplayLanguageCode (..),
+    DisplayLanguageCode,
 
     -- * EncryptionKeyType
-    EncryptionKeyType (..),
+    EncryptionKeyType,
 
     -- * Formality
-    Formality (..),
+    Formality,
 
     -- * JobStatus
-    JobStatus (..),
+    JobStatus,
 
     -- * MergeStrategy
-    MergeStrategy (..),
+    MergeStrategy,
 
     -- * ParallelDataFormat
-    ParallelDataFormat (..),
+    ParallelDataFormat,
 
     -- * ParallelDataStatus
-    ParallelDataStatus (..),
+    ParallelDataStatus,
 
     -- * Profanity
-    Profanity (..),
+    Profanity,
 
     -- * TerminologyDataFormat
-    TerminologyDataFormat (..),
+    TerminologyDataFormat,
 
     -- * AppliedTerminology
-    AppliedTerminology (..),
+    AppliedTerminology,
     newAppliedTerminology,
     appliedTerminology_name,
     appliedTerminology_terms,
 
     -- * EncryptionKey
-    EncryptionKey (..),
+    EncryptionKey,
     newEncryptionKey,
     encryptionKey_type,
     encryptionKey_id,
 
     -- * InputDataConfig
-    InputDataConfig (..),
+    InputDataConfig,
     newInputDataConfig,
     inputDataConfig_s3Uri,
     inputDataConfig_contentType,
 
     -- * JobDetails
-    JobDetails (..),
+    JobDetails,
     newJobDetails,
     jobDetails_documentsWithErrorsCount,
     jobDetails_inputDocumentsCount,
     jobDetails_translatedDocumentsCount,
 
     -- * Language
-    Language (..),
+    Language,
     newLanguage,
     language_languageName,
     language_languageCode,
 
     -- * OutputDataConfig
-    OutputDataConfig (..),
+    OutputDataConfig,
     newOutputDataConfig,
     outputDataConfig_encryptionKey,
     outputDataConfig_s3Uri,
 
     -- * ParallelDataConfig
-    ParallelDataConfig (..),
+    ParallelDataConfig,
     newParallelDataConfig,
     parallelDataConfig_s3Uri,
     parallelDataConfig_format,
 
     -- * ParallelDataDataLocation
-    ParallelDataDataLocation (..),
+    ParallelDataDataLocation,
     newParallelDataDataLocation,
     parallelDataDataLocation_repositoryType,
     parallelDataDataLocation_location,
 
     -- * ParallelDataProperties
-    ParallelDataProperties (..),
+    ParallelDataProperties,
     newParallelDataProperties,
     parallelDataProperties_arn,
     parallelDataProperties_createdAt,
@@ -135,32 +136,32 @@ module Amazonka.Translate.Types
     parallelDataProperties_targetLanguageCodes,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,
 
     -- * Term
-    Term (..),
+    Term,
     newTerm,
     term_sourceText,
     term_targetText,
 
     -- * TerminologyData
-    TerminologyData (..),
+    TerminologyData,
     newTerminologyData,
     terminologyData_directionality,
     terminologyData_file,
     terminologyData_format,
 
     -- * TerminologyDataLocation
-    TerminologyDataLocation (..),
+    TerminologyDataLocation,
     newTerminologyDataLocation,
     terminologyDataLocation_repositoryType,
     terminologyDataLocation_location,
 
     -- * TerminologyProperties
-    TerminologyProperties (..),
+    TerminologyProperties,
     newTerminologyProperties,
     terminologyProperties_arn,
     terminologyProperties_createdAt,
@@ -178,7 +179,7 @@ module Amazonka.Translate.Types
     terminologyProperties_termCount,
 
     -- * TextTranslationJobFilter
-    TextTranslationJobFilter (..),
+    TextTranslationJobFilter,
     newTextTranslationJobFilter,
     textTranslationJobFilter_jobName,
     textTranslationJobFilter_jobStatus,
@@ -186,7 +187,7 @@ module Amazonka.Translate.Types
     textTranslationJobFilter_submittedBeforeTime,
 
     -- * TextTranslationJobProperties
-    TextTranslationJobProperties (..),
+    TextTranslationJobProperties,
     newTextTranslationJobProperties,
     textTranslationJobProperties_dataAccessRoleArn,
     textTranslationJobProperties_endTime,
@@ -205,7 +206,7 @@ module Amazonka.Translate.Types
     textTranslationJobProperties_terminologyNames,
 
     -- * TranslationSettings
-    TranslationSettings (..),
+    TranslationSettings,
     newTranslationSettings,
     translationSettings_formality,
     translationSettings_profanity,

@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -36,16 +37,16 @@ module Amazonka.SQS.Types
     _UnsupportedOperation,
 
     -- * MessageAttribute
-    MessageAttribute (..),
+    MessageAttribute,
 
     -- * MessageSystemAttributeNameForSends
-    MessageSystemAttributeNameForSends (..),
+    MessageSystemAttributeNameForSends,
 
     -- * QueueAttributeName
-    QueueAttributeName (..),
+    QueueAttributeName,
 
     -- * BatchResultErrorEntry
-    BatchResultErrorEntry (..),
+    BatchResultErrorEntry,
     newBatchResultErrorEntry,
     batchResultErrorEntry_message,
     batchResultErrorEntry_id,
@@ -53,30 +54,30 @@ module Amazonka.SQS.Types
     batchResultErrorEntry_code,
 
     -- * ChangeMessageVisibilityBatchRequestEntry
-    ChangeMessageVisibilityBatchRequestEntry (..),
+    ChangeMessageVisibilityBatchRequestEntry,
     newChangeMessageVisibilityBatchRequestEntry,
     changeMessageVisibilityBatchRequestEntry_visibilityTimeout,
     changeMessageVisibilityBatchRequestEntry_id,
     changeMessageVisibilityBatchRequestEntry_receiptHandle,
 
     -- * ChangeMessageVisibilityBatchResultEntry
-    ChangeMessageVisibilityBatchResultEntry (..),
+    ChangeMessageVisibilityBatchResultEntry,
     newChangeMessageVisibilityBatchResultEntry,
     changeMessageVisibilityBatchResultEntry_id,
 
     -- * DeleteMessageBatchRequestEntry
-    DeleteMessageBatchRequestEntry (..),
+    DeleteMessageBatchRequestEntry,
     newDeleteMessageBatchRequestEntry,
     deleteMessageBatchRequestEntry_id,
     deleteMessageBatchRequestEntry_receiptHandle,
 
     -- * DeleteMessageBatchResultEntry
-    DeleteMessageBatchResultEntry (..),
+    DeleteMessageBatchResultEntry,
     newDeleteMessageBatchResultEntry,
     deleteMessageBatchResultEntry_id,
 
     -- * Message
-    Message (..),
+    Message,
     newMessage,
     message_attributes,
     message_body,
@@ -87,7 +88,7 @@ module Amazonka.SQS.Types
     message_receiptHandle,
 
     -- * MessageAttributeValue
-    MessageAttributeValue (..),
+    MessageAttributeValue,
     newMessageAttributeValue,
     messageAttributeValue_binaryListValues,
     messageAttributeValue_binaryValue,
@@ -96,7 +97,7 @@ module Amazonka.SQS.Types
     messageAttributeValue_dataType,
 
     -- * MessageSystemAttributeValue
-    MessageSystemAttributeValue (..),
+    MessageSystemAttributeValue,
     newMessageSystemAttributeValue,
     messageSystemAttributeValue_binaryListValues,
     messageSystemAttributeValue_binaryValue,
@@ -105,7 +106,7 @@ module Amazonka.SQS.Types
     messageSystemAttributeValue_dataType,
 
     -- * SendMessageBatchRequestEntry
-    SendMessageBatchRequestEntry (..),
+    SendMessageBatchRequestEntry,
     newSendMessageBatchRequestEntry,
     sendMessageBatchRequestEntry_delaySeconds,
     sendMessageBatchRequestEntry_messageAttributes,
@@ -116,7 +117,7 @@ module Amazonka.SQS.Types
     sendMessageBatchRequestEntry_messageBody,
 
     -- * SendMessageBatchResultEntry
-    SendMessageBatchResultEntry (..),
+    SendMessageBatchResultEntry,
     newSendMessageBatchResultEntry,
     sendMessageBatchResultEntry_mD5OfMessageAttributes,
     sendMessageBatchResultEntry_mD5OfMessageSystemAttributes,

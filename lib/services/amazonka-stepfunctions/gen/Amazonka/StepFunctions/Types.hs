@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -45,47 +46,47 @@ module Amazonka.StepFunctions.Types
     _ValidationException,
 
     -- * ExecutionStatus
-    ExecutionStatus (..),
+    ExecutionStatus,
 
     -- * HistoryEventType
-    HistoryEventType (..),
+    HistoryEventType,
 
     -- * LogLevel
-    LogLevel (..),
+    LogLevel,
 
     -- * MapRunStatus
-    MapRunStatus (..),
+    MapRunStatus,
 
     -- * StateMachineStatus
-    StateMachineStatus (..),
+    StateMachineStatus,
 
     -- * StateMachineType
-    StateMachineType (..),
+    StateMachineType,
 
     -- * SyncExecutionStatus
-    SyncExecutionStatus (..),
+    SyncExecutionStatus,
 
     -- * ActivityFailedEventDetails
-    ActivityFailedEventDetails (..),
+    ActivityFailedEventDetails,
     newActivityFailedEventDetails,
     activityFailedEventDetails_cause,
     activityFailedEventDetails_error,
 
     -- * ActivityListItem
-    ActivityListItem (..),
+    ActivityListItem,
     newActivityListItem,
     activityListItem_activityArn,
     activityListItem_name,
     activityListItem_creationDate,
 
     -- * ActivityScheduleFailedEventDetails
-    ActivityScheduleFailedEventDetails (..),
+    ActivityScheduleFailedEventDetails,
     newActivityScheduleFailedEventDetails,
     activityScheduleFailedEventDetails_cause,
     activityScheduleFailedEventDetails_error,
 
     -- * ActivityScheduledEventDetails
-    ActivityScheduledEventDetails (..),
+    ActivityScheduledEventDetails,
     newActivityScheduledEventDetails,
     activityScheduledEventDetails_heartbeatInSeconds,
     activityScheduledEventDetails_input,
@@ -94,52 +95,52 @@ module Amazonka.StepFunctions.Types
     activityScheduledEventDetails_resource,
 
     -- * ActivityStartedEventDetails
-    ActivityStartedEventDetails (..),
+    ActivityStartedEventDetails,
     newActivityStartedEventDetails,
     activityStartedEventDetails_workerName,
 
     -- * ActivitySucceededEventDetails
-    ActivitySucceededEventDetails (..),
+    ActivitySucceededEventDetails,
     newActivitySucceededEventDetails,
     activitySucceededEventDetails_output,
     activitySucceededEventDetails_outputDetails,
 
     -- * ActivityTimedOutEventDetails
-    ActivityTimedOutEventDetails (..),
+    ActivityTimedOutEventDetails,
     newActivityTimedOutEventDetails,
     activityTimedOutEventDetails_cause,
     activityTimedOutEventDetails_error,
 
     -- * BillingDetails
-    BillingDetails (..),
+    BillingDetails,
     newBillingDetails,
     billingDetails_billedDurationInMilliseconds,
     billingDetails_billedMemoryUsedInMB,
 
     -- * CloudWatchEventsExecutionDataDetails
-    CloudWatchEventsExecutionDataDetails (..),
+    CloudWatchEventsExecutionDataDetails,
     newCloudWatchEventsExecutionDataDetails,
     cloudWatchEventsExecutionDataDetails_included,
 
     -- * CloudWatchLogsLogGroup
-    CloudWatchLogsLogGroup (..),
+    CloudWatchLogsLogGroup,
     newCloudWatchLogsLogGroup,
     cloudWatchLogsLogGroup_logGroupArn,
 
     -- * ExecutionAbortedEventDetails
-    ExecutionAbortedEventDetails (..),
+    ExecutionAbortedEventDetails,
     newExecutionAbortedEventDetails,
     executionAbortedEventDetails_cause,
     executionAbortedEventDetails_error,
 
     -- * ExecutionFailedEventDetails
-    ExecutionFailedEventDetails (..),
+    ExecutionFailedEventDetails,
     newExecutionFailedEventDetails,
     executionFailedEventDetails_cause,
     executionFailedEventDetails_error,
 
     -- * ExecutionListItem
-    ExecutionListItem (..),
+    ExecutionListItem,
     newExecutionListItem,
     executionListItem_itemCount,
     executionListItem_mapRunArn,
@@ -151,26 +152,26 @@ module Amazonka.StepFunctions.Types
     executionListItem_startDate,
 
     -- * ExecutionStartedEventDetails
-    ExecutionStartedEventDetails (..),
+    ExecutionStartedEventDetails,
     newExecutionStartedEventDetails,
     executionStartedEventDetails_input,
     executionStartedEventDetails_inputDetails,
     executionStartedEventDetails_roleArn,
 
     -- * ExecutionSucceededEventDetails
-    ExecutionSucceededEventDetails (..),
+    ExecutionSucceededEventDetails,
     newExecutionSucceededEventDetails,
     executionSucceededEventDetails_output,
     executionSucceededEventDetails_outputDetails,
 
     -- * ExecutionTimedOutEventDetails
-    ExecutionTimedOutEventDetails (..),
+    ExecutionTimedOutEventDetails,
     newExecutionTimedOutEventDetails,
     executionTimedOutEventDetails_cause,
     executionTimedOutEventDetails_error,
 
     -- * HistoryEvent
-    HistoryEvent (..),
+    HistoryEvent,
     newHistoryEvent,
     historyEvent_activityFailedEventDetails,
     historyEvent_activityScheduleFailedEventDetails,
@@ -212,24 +213,24 @@ module Amazonka.StepFunctions.Types
     historyEvent_id,
 
     -- * HistoryEventExecutionDataDetails
-    HistoryEventExecutionDataDetails (..),
+    HistoryEventExecutionDataDetails,
     newHistoryEventExecutionDataDetails,
     historyEventExecutionDataDetails_truncated,
 
     -- * LambdaFunctionFailedEventDetails
-    LambdaFunctionFailedEventDetails (..),
+    LambdaFunctionFailedEventDetails,
     newLambdaFunctionFailedEventDetails,
     lambdaFunctionFailedEventDetails_cause,
     lambdaFunctionFailedEventDetails_error,
 
     -- * LambdaFunctionScheduleFailedEventDetails
-    LambdaFunctionScheduleFailedEventDetails (..),
+    LambdaFunctionScheduleFailedEventDetails,
     newLambdaFunctionScheduleFailedEventDetails,
     lambdaFunctionScheduleFailedEventDetails_cause,
     lambdaFunctionScheduleFailedEventDetails_error,
 
     -- * LambdaFunctionScheduledEventDetails
-    LambdaFunctionScheduledEventDetails (..),
+    LambdaFunctionScheduledEventDetails,
     newLambdaFunctionScheduledEventDetails,
     lambdaFunctionScheduledEventDetails_input,
     lambdaFunctionScheduledEventDetails_inputDetails,
@@ -238,43 +239,43 @@ module Amazonka.StepFunctions.Types
     lambdaFunctionScheduledEventDetails_resource,
 
     -- * LambdaFunctionStartFailedEventDetails
-    LambdaFunctionStartFailedEventDetails (..),
+    LambdaFunctionStartFailedEventDetails,
     newLambdaFunctionStartFailedEventDetails,
     lambdaFunctionStartFailedEventDetails_cause,
     lambdaFunctionStartFailedEventDetails_error,
 
     -- * LambdaFunctionSucceededEventDetails
-    LambdaFunctionSucceededEventDetails (..),
+    LambdaFunctionSucceededEventDetails,
     newLambdaFunctionSucceededEventDetails,
     lambdaFunctionSucceededEventDetails_output,
     lambdaFunctionSucceededEventDetails_outputDetails,
 
     -- * LambdaFunctionTimedOutEventDetails
-    LambdaFunctionTimedOutEventDetails (..),
+    LambdaFunctionTimedOutEventDetails,
     newLambdaFunctionTimedOutEventDetails,
     lambdaFunctionTimedOutEventDetails_cause,
     lambdaFunctionTimedOutEventDetails_error,
 
     -- * LogDestination
-    LogDestination (..),
+    LogDestination,
     newLogDestination,
     logDestination_cloudWatchLogsLogGroup,
 
     -- * LoggingConfiguration
-    LoggingConfiguration (..),
+    LoggingConfiguration,
     newLoggingConfiguration,
     loggingConfiguration_destinations,
     loggingConfiguration_includeExecutionData,
     loggingConfiguration_level,
 
     -- * MapIterationEventDetails
-    MapIterationEventDetails (..),
+    MapIterationEventDetails,
     newMapIterationEventDetails,
     mapIterationEventDetails_index,
     mapIterationEventDetails_name,
 
     -- * MapRunExecutionCounts
-    MapRunExecutionCounts (..),
+    MapRunExecutionCounts,
     newMapRunExecutionCounts,
     mapRunExecutionCounts_pending,
     mapRunExecutionCounts_running,
@@ -286,13 +287,13 @@ module Amazonka.StepFunctions.Types
     mapRunExecutionCounts_resultsWritten,
 
     -- * MapRunFailedEventDetails
-    MapRunFailedEventDetails (..),
+    MapRunFailedEventDetails,
     newMapRunFailedEventDetails,
     mapRunFailedEventDetails_cause,
     mapRunFailedEventDetails_error,
 
     -- * MapRunItemCounts
-    MapRunItemCounts (..),
+    MapRunItemCounts,
     newMapRunItemCounts,
     mapRunItemCounts_pending,
     mapRunItemCounts_running,
@@ -304,7 +305,7 @@ module Amazonka.StepFunctions.Types
     mapRunItemCounts_resultsWritten,
 
     -- * MapRunListItem
-    MapRunListItem (..),
+    MapRunListItem,
     newMapRunListItem,
     mapRunListItem_stopDate,
     mapRunListItem_executionArn,
@@ -313,31 +314,31 @@ module Amazonka.StepFunctions.Types
     mapRunListItem_startDate,
 
     -- * MapRunStartedEventDetails
-    MapRunStartedEventDetails (..),
+    MapRunStartedEventDetails,
     newMapRunStartedEventDetails,
     mapRunStartedEventDetails_mapRunArn,
 
     -- * MapStateStartedEventDetails
-    MapStateStartedEventDetails (..),
+    MapStateStartedEventDetails,
     newMapStateStartedEventDetails,
     mapStateStartedEventDetails_length,
 
     -- * StateEnteredEventDetails
-    StateEnteredEventDetails (..),
+    StateEnteredEventDetails,
     newStateEnteredEventDetails,
     stateEnteredEventDetails_input,
     stateEnteredEventDetails_inputDetails,
     stateEnteredEventDetails_name,
 
     -- * StateExitedEventDetails
-    StateExitedEventDetails (..),
+    StateExitedEventDetails,
     newStateExitedEventDetails,
     stateExitedEventDetails_output,
     stateExitedEventDetails_outputDetails,
     stateExitedEventDetails_name,
 
     -- * StateMachineListItem
-    StateMachineListItem (..),
+    StateMachineListItem,
     newStateMachineListItem,
     stateMachineListItem_stateMachineArn,
     stateMachineListItem_name,
@@ -345,18 +346,18 @@ module Amazonka.StepFunctions.Types
     stateMachineListItem_creationDate,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,
 
     -- * TaskCredentials
-    TaskCredentials (..),
+    TaskCredentials,
     newTaskCredentials,
     taskCredentials_roleArn,
 
     -- * TaskFailedEventDetails
-    TaskFailedEventDetails (..),
+    TaskFailedEventDetails,
     newTaskFailedEventDetails,
     taskFailedEventDetails_cause,
     taskFailedEventDetails_error,
@@ -364,7 +365,7 @@ module Amazonka.StepFunctions.Types
     taskFailedEventDetails_resource,
 
     -- * TaskScheduledEventDetails
-    TaskScheduledEventDetails (..),
+    TaskScheduledEventDetails,
     newTaskScheduledEventDetails,
     taskScheduledEventDetails_heartbeatInSeconds,
     taskScheduledEventDetails_taskCredentials,
@@ -375,7 +376,7 @@ module Amazonka.StepFunctions.Types
     taskScheduledEventDetails_parameters,
 
     -- * TaskStartFailedEventDetails
-    TaskStartFailedEventDetails (..),
+    TaskStartFailedEventDetails,
     newTaskStartFailedEventDetails,
     taskStartFailedEventDetails_cause,
     taskStartFailedEventDetails_error,
@@ -383,13 +384,13 @@ module Amazonka.StepFunctions.Types
     taskStartFailedEventDetails_resource,
 
     -- * TaskStartedEventDetails
-    TaskStartedEventDetails (..),
+    TaskStartedEventDetails,
     newTaskStartedEventDetails,
     taskStartedEventDetails_resourceType,
     taskStartedEventDetails_resource,
 
     -- * TaskSubmitFailedEventDetails
-    TaskSubmitFailedEventDetails (..),
+    TaskSubmitFailedEventDetails,
     newTaskSubmitFailedEventDetails,
     taskSubmitFailedEventDetails_cause,
     taskSubmitFailedEventDetails_error,
@@ -397,7 +398,7 @@ module Amazonka.StepFunctions.Types
     taskSubmitFailedEventDetails_resource,
 
     -- * TaskSubmittedEventDetails
-    TaskSubmittedEventDetails (..),
+    TaskSubmittedEventDetails,
     newTaskSubmittedEventDetails,
     taskSubmittedEventDetails_output,
     taskSubmittedEventDetails_outputDetails,
@@ -405,7 +406,7 @@ module Amazonka.StepFunctions.Types
     taskSubmittedEventDetails_resource,
 
     -- * TaskSucceededEventDetails
-    TaskSucceededEventDetails (..),
+    TaskSucceededEventDetails,
     newTaskSucceededEventDetails,
     taskSucceededEventDetails_output,
     taskSucceededEventDetails_outputDetails,
@@ -413,7 +414,7 @@ module Amazonka.StepFunctions.Types
     taskSucceededEventDetails_resource,
 
     -- * TaskTimedOutEventDetails
-    TaskTimedOutEventDetails (..),
+    TaskTimedOutEventDetails,
     newTaskTimedOutEventDetails,
     taskTimedOutEventDetails_cause,
     taskTimedOutEventDetails_error,
@@ -421,7 +422,7 @@ module Amazonka.StepFunctions.Types
     taskTimedOutEventDetails_resource,
 
     -- * TracingConfiguration
-    TracingConfiguration (..),
+    TracingConfiguration,
     newTracingConfiguration,
     tracingConfiguration_enabled,
   )

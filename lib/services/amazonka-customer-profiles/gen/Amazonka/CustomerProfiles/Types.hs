@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -25,73 +26,73 @@ module Amazonka.CustomerProfiles.Types
     _ThrottlingException,
 
     -- * ConflictResolvingModel
-    ConflictResolvingModel (..),
+    ConflictResolvingModel,
 
     -- * DataPullMode
-    DataPullMode (..),
+    DataPullMode,
 
     -- * FieldContentType
-    FieldContentType (..),
+    FieldContentType,
 
     -- * Gender
-    Gender (..),
+    Gender,
 
     -- * IdentityResolutionJobStatus
-    IdentityResolutionJobStatus (..),
+    IdentityResolutionJobStatus,
 
     -- * JobScheduleDayOfTheWeek
-    JobScheduleDayOfTheWeek (..),
+    JobScheduleDayOfTheWeek,
 
     -- * LogicalOperator
-    LogicalOperator (..),
+    LogicalOperator,
 
     -- * MarketoConnectorOperator
-    MarketoConnectorOperator (..),
+    MarketoConnectorOperator,
 
     -- * OperatorPropertiesKeys
-    OperatorPropertiesKeys (..),
+    OperatorPropertiesKeys,
 
     -- * PartyType
-    PartyType (..),
+    PartyType,
 
     -- * S3ConnectorOperator
-    S3ConnectorOperator (..),
+    S3ConnectorOperator,
 
     -- * SalesforceConnectorOperator
-    SalesforceConnectorOperator (..),
+    SalesforceConnectorOperator,
 
     -- * ServiceNowConnectorOperator
-    ServiceNowConnectorOperator (..),
+    ServiceNowConnectorOperator,
 
     -- * SourceConnectorType
-    SourceConnectorType (..),
+    SourceConnectorType,
 
     -- * StandardIdentifier
-    StandardIdentifier (..),
+    StandardIdentifier,
 
     -- * Status
-    Status (..),
+    Status,
 
     -- * TaskType
-    TaskType (..),
+    TaskType,
 
     -- * TriggerType
-    TriggerType (..),
+    TriggerType,
 
     -- * WorkflowType
-    WorkflowType (..),
+    WorkflowType,
 
     -- * ZendeskConnectorOperator
-    ZendeskConnectorOperator (..),
+    ZendeskConnectorOperator,
 
     -- * AdditionalSearchKey
-    AdditionalSearchKey (..),
+    AdditionalSearchKey,
     newAdditionalSearchKey,
     additionalSearchKey_keyName,
     additionalSearchKey_values,
 
     -- * Address
-    Address (..),
+    Address,
     newAddress,
     address_address1,
     address_address2,
@@ -105,27 +106,27 @@ module Amazonka.CustomerProfiles.Types
     address_state,
 
     -- * AppflowIntegration
-    AppflowIntegration (..),
+    AppflowIntegration,
     newAppflowIntegration,
     appflowIntegration_batches,
     appflowIntegration_flowDefinition,
 
     -- * AppflowIntegrationWorkflowAttributes
-    AppflowIntegrationWorkflowAttributes (..),
+    AppflowIntegrationWorkflowAttributes,
     newAppflowIntegrationWorkflowAttributes,
     appflowIntegrationWorkflowAttributes_roleArn,
     appflowIntegrationWorkflowAttributes_sourceConnectorType,
     appflowIntegrationWorkflowAttributes_connectorProfileName,
 
     -- * AppflowIntegrationWorkflowMetrics
-    AppflowIntegrationWorkflowMetrics (..),
+    AppflowIntegrationWorkflowMetrics,
     newAppflowIntegrationWorkflowMetrics,
     appflowIntegrationWorkflowMetrics_recordsProcessed,
     appflowIntegrationWorkflowMetrics_stepsCompleted,
     appflowIntegrationWorkflowMetrics_totalSteps,
 
     -- * AppflowIntegrationWorkflowStep
-    AppflowIntegrationWorkflowStep (..),
+    AppflowIntegrationWorkflowStep,
     newAppflowIntegrationWorkflowStep,
     appflowIntegrationWorkflowStep_flowName,
     appflowIntegrationWorkflowStep_status,
@@ -137,7 +138,7 @@ module Amazonka.CustomerProfiles.Types
     appflowIntegrationWorkflowStep_lastUpdatedAt,
 
     -- * AutoMerging
-    AutoMerging (..),
+    AutoMerging,
     newAutoMerging,
     autoMerging_conflictResolution,
     autoMerging_consolidation,
@@ -145,19 +146,19 @@ module Amazonka.CustomerProfiles.Types
     autoMerging_enabled,
 
     -- * Batch
-    Batch (..),
+    Batch,
     newBatch,
     batch_startTime,
     batch_endTime,
 
     -- * ConflictResolution
-    ConflictResolution (..),
+    ConflictResolution,
     newConflictResolution,
     conflictResolution_sourceName,
     conflictResolution_conflictResolvingModel,
 
     -- * ConnectorOperator
-    ConnectorOperator (..),
+    ConnectorOperator,
     newConnectorOperator,
     connectorOperator_marketo,
     connectorOperator_s3,
@@ -166,12 +167,12 @@ module Amazonka.CustomerProfiles.Types
     connectorOperator_zendesk,
 
     -- * Consolidation
-    Consolidation (..),
+    Consolidation,
     newConsolidation,
     consolidation_matchingAttributesList,
 
     -- * DomainStats
-    DomainStats (..),
+    DomainStats,
     newDomainStats,
     domainStats_meteringProfileCount,
     domainStats_objectCount,
@@ -179,17 +180,17 @@ module Amazonka.CustomerProfiles.Types
     domainStats_totalSize,
 
     -- * ExportingConfig
-    ExportingConfig (..),
+    ExportingConfig,
     newExportingConfig,
     exportingConfig_s3Exporting,
 
     -- * ExportingLocation
-    ExportingLocation (..),
+    ExportingLocation,
     newExportingLocation,
     exportingLocation_s3Exporting,
 
     -- * FieldSourceProfileIds
-    FieldSourceProfileIds (..),
+    FieldSourceProfileIds,
     newFieldSourceProfileIds,
     fieldSourceProfileIds_accountNumber,
     fieldSourceProfileIds_additionalInformation,
@@ -214,7 +215,7 @@ module Amazonka.CustomerProfiles.Types
     fieldSourceProfileIds_shippingAddress,
 
     -- * FlowDefinition
-    FlowDefinition (..),
+    FlowDefinition,
     newFlowDefinition,
     flowDefinition_description,
     flowDefinition_flowName,
@@ -224,13 +225,13 @@ module Amazonka.CustomerProfiles.Types
     flowDefinition_triggerConfig,
 
     -- * FoundByKeyValue
-    FoundByKeyValue (..),
+    FoundByKeyValue,
     newFoundByKeyValue,
     foundByKeyValue_keyName,
     foundByKeyValue_values,
 
     -- * IdentityResolutionJob
-    IdentityResolutionJob (..),
+    IdentityResolutionJob,
     newIdentityResolutionJob,
     identityResolutionJob_domainName,
     identityResolutionJob_exportingLocation,
@@ -242,30 +243,30 @@ module Amazonka.CustomerProfiles.Types
     identityResolutionJob_status,
 
     -- * IncrementalPullConfig
-    IncrementalPullConfig (..),
+    IncrementalPullConfig,
     newIncrementalPullConfig,
     incrementalPullConfig_datetimeTypeFieldName,
 
     -- * IntegrationConfig
-    IntegrationConfig (..),
+    IntegrationConfig,
     newIntegrationConfig,
     integrationConfig_appflowIntegration,
 
     -- * JobSchedule
-    JobSchedule (..),
+    JobSchedule,
     newJobSchedule,
     jobSchedule_dayOfTheWeek,
     jobSchedule_time,
 
     -- * JobStats
-    JobStats (..),
+    JobStats,
     newJobStats,
     jobStats_numberOfMatchesFound,
     jobStats_numberOfMergesDone,
     jobStats_numberOfProfilesReviewed,
 
     -- * ListDomainItem
-    ListDomainItem (..),
+    ListDomainItem,
     newListDomainItem,
     listDomainItem_tags,
     listDomainItem_domainName,
@@ -273,7 +274,7 @@ module Amazonka.CustomerProfiles.Types
     listDomainItem_lastUpdatedAt,
 
     -- * ListIntegrationItem
-    ListIntegrationItem (..),
+    ListIntegrationItem,
     newListIntegrationItem,
     listIntegrationItem_isUnstructured,
     listIntegrationItem_objectTypeName,
@@ -286,7 +287,7 @@ module Amazonka.CustomerProfiles.Types
     listIntegrationItem_lastUpdatedAt,
 
     -- * ListProfileObjectTypeItem
-    ListProfileObjectTypeItem (..),
+    ListProfileObjectTypeItem,
     newListProfileObjectTypeItem,
     listProfileObjectTypeItem_createdAt,
     listProfileObjectTypeItem_lastUpdatedAt,
@@ -295,21 +296,21 @@ module Amazonka.CustomerProfiles.Types
     listProfileObjectTypeItem_description,
 
     -- * ListProfileObjectTypeTemplateItem
-    ListProfileObjectTypeTemplateItem (..),
+    ListProfileObjectTypeTemplateItem,
     newListProfileObjectTypeTemplateItem,
     listProfileObjectTypeTemplateItem_sourceName,
     listProfileObjectTypeTemplateItem_sourceObject,
     listProfileObjectTypeTemplateItem_templateId,
 
     -- * ListProfileObjectsItem
-    ListProfileObjectsItem (..),
+    ListProfileObjectsItem,
     newListProfileObjectsItem,
     listProfileObjectsItem_object,
     listProfileObjectsItem_objectTypeName,
     listProfileObjectsItem_profileObjectUniqueKey,
 
     -- * ListWorkflowsItem
-    ListWorkflowsItem (..),
+    ListWorkflowsItem,
     newListWorkflowsItem,
     listWorkflowsItem_workflowType,
     listWorkflowsItem_workflowId,
@@ -319,19 +320,19 @@ module Amazonka.CustomerProfiles.Types
     listWorkflowsItem_lastUpdatedAt,
 
     -- * MarketoSourceProperties
-    MarketoSourceProperties (..),
+    MarketoSourceProperties,
     newMarketoSourceProperties,
     marketoSourceProperties_object,
 
     -- * MatchItem
-    MatchItem (..),
+    MatchItem,
     newMatchItem,
     matchItem_confidenceScore,
     matchItem_matchId,
     matchItem_profileIds,
 
     -- * MatchingRequest
-    MatchingRequest (..),
+    MatchingRequest,
     newMatchingRequest,
     matchingRequest_autoMerging,
     matchingRequest_exportingConfig,
@@ -339,7 +340,7 @@ module Amazonka.CustomerProfiles.Types
     matchingRequest_enabled,
 
     -- * MatchingResponse
-    MatchingResponse (..),
+    MatchingResponse,
     newMatchingResponse,
     matchingResponse_autoMerging,
     matchingResponse_enabled,
@@ -347,26 +348,26 @@ module Amazonka.CustomerProfiles.Types
     matchingResponse_jobSchedule,
 
     -- * ObjectFilter
-    ObjectFilter (..),
+    ObjectFilter,
     newObjectFilter,
     objectFilter_keyName,
     objectFilter_values,
 
     -- * ObjectTypeField
-    ObjectTypeField (..),
+    ObjectTypeField,
     newObjectTypeField,
     objectTypeField_contentType,
     objectTypeField_source,
     objectTypeField_target,
 
     -- * ObjectTypeKey
-    ObjectTypeKey (..),
+    ObjectTypeKey,
     newObjectTypeKey,
     objectTypeKey_fieldNames,
     objectTypeKey_standardIdentifiers,
 
     -- * Profile
-    Profile (..),
+    Profile,
     newProfile,
     profile_accountNumber,
     profile_additionalInformation,
@@ -393,32 +394,32 @@ module Amazonka.CustomerProfiles.Types
     profile_shippingAddress,
 
     -- * S3ExportingConfig
-    S3ExportingConfig (..),
+    S3ExportingConfig,
     newS3ExportingConfig,
     s3ExportingConfig_s3KeyName,
     s3ExportingConfig_s3BucketName,
 
     -- * S3ExportingLocation
-    S3ExportingLocation (..),
+    S3ExportingLocation,
     newS3ExportingLocation,
     s3ExportingLocation_s3BucketName,
     s3ExportingLocation_s3KeyName,
 
     -- * S3SourceProperties
-    S3SourceProperties (..),
+    S3SourceProperties,
     newS3SourceProperties,
     s3SourceProperties_bucketPrefix,
     s3SourceProperties_bucketName,
 
     -- * SalesforceSourceProperties
-    SalesforceSourceProperties (..),
+    SalesforceSourceProperties,
     newSalesforceSourceProperties,
     salesforceSourceProperties_enableDynamicFieldUpdate,
     salesforceSourceProperties_includeDeletedRecords,
     salesforceSourceProperties_object,
 
     -- * ScheduledTriggerProperties
-    ScheduledTriggerProperties (..),
+    ScheduledTriggerProperties,
     newScheduledTriggerProperties,
     scheduledTriggerProperties_dataPullMode,
     scheduledTriggerProperties_firstExecutionFrom,
@@ -429,12 +430,12 @@ module Amazonka.CustomerProfiles.Types
     scheduledTriggerProperties_scheduleExpression,
 
     -- * ServiceNowSourceProperties
-    ServiceNowSourceProperties (..),
+    ServiceNowSourceProperties,
     newServiceNowSourceProperties,
     serviceNowSourceProperties_object,
 
     -- * SourceConnectorProperties
-    SourceConnectorProperties (..),
+    SourceConnectorProperties,
     newSourceConnectorProperties,
     sourceConnectorProperties_marketo,
     sourceConnectorProperties_s3,
@@ -443,7 +444,7 @@ module Amazonka.CustomerProfiles.Types
     sourceConnectorProperties_zendesk,
 
     -- * SourceFlowConfig
-    SourceFlowConfig (..),
+    SourceFlowConfig,
     newSourceFlowConfig,
     sourceFlowConfig_connectorProfileName,
     sourceFlowConfig_incrementalPullConfig,
@@ -451,7 +452,7 @@ module Amazonka.CustomerProfiles.Types
     sourceFlowConfig_sourceConnectorProperties,
 
     -- * Task
-    Task (..),
+    Task,
     newTask,
     task_connectorOperator,
     task_destinationField,
@@ -460,18 +461,18 @@ module Amazonka.CustomerProfiles.Types
     task_taskType,
 
     -- * TriggerConfig
-    TriggerConfig (..),
+    TriggerConfig,
     newTriggerConfig,
     triggerConfig_triggerProperties,
     triggerConfig_triggerType,
 
     -- * TriggerProperties
-    TriggerProperties (..),
+    TriggerProperties,
     newTriggerProperties,
     triggerProperties_scheduled,
 
     -- * UpdateAddress
-    UpdateAddress (..),
+    UpdateAddress,
     newUpdateAddress,
     updateAddress_address1,
     updateAddress_address2,
@@ -485,22 +486,22 @@ module Amazonka.CustomerProfiles.Types
     updateAddress_state,
 
     -- * WorkflowAttributes
-    WorkflowAttributes (..),
+    WorkflowAttributes,
     newWorkflowAttributes,
     workflowAttributes_appflowIntegration,
 
     -- * WorkflowMetrics
-    WorkflowMetrics (..),
+    WorkflowMetrics,
     newWorkflowMetrics,
     workflowMetrics_appflowIntegration,
 
     -- * WorkflowStepItem
-    WorkflowStepItem (..),
+    WorkflowStepItem,
     newWorkflowStepItem,
     workflowStepItem_appflowIntegration,
 
     -- * ZendeskSourceProperties
-    ZendeskSourceProperties (..),
+    ZendeskSourceProperties,
     newZendeskSourceProperties,
     zendeskSourceProperties_object,
   )

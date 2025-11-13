@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -26,22 +27,22 @@ module Amazonka.CloudHSMV2.Types
     _CloudHsmTagException,
 
     -- * BackupPolicy
-    BackupPolicy (..),
+    BackupPolicy,
 
     -- * BackupRetentionType
-    BackupRetentionType (..),
+    BackupRetentionType,
 
     -- * BackupState
-    BackupState (..),
+    BackupState,
 
     -- * ClusterState
-    ClusterState (..),
+    ClusterState,
 
     -- * HsmState
-    HsmState (..),
+    HsmState,
 
     -- * Backup
-    Backup (..),
+    Backup,
     newBackup,
     backup_backupState,
     backup_clusterId,
@@ -56,13 +57,13 @@ module Amazonka.CloudHSMV2.Types
     backup_backupId,
 
     -- * BackupRetentionPolicy
-    BackupRetentionPolicy (..),
+    BackupRetentionPolicy,
     newBackupRetentionPolicy,
     backupRetentionPolicy_type,
     backupRetentionPolicy_value,
 
     -- * Certificates
-    Certificates (..),
+    Certificates,
     newCertificates,
     certificates_awsHardwareCertificate,
     certificates_clusterCertificate,
@@ -71,7 +72,7 @@ module Amazonka.CloudHSMV2.Types
     certificates_manufacturerHardwareCertificate,
 
     -- * Cluster
-    Cluster (..),
+    Cluster,
     newCluster,
     cluster_backupPolicy,
     cluster_backupRetentionPolicy,
@@ -90,7 +91,7 @@ module Amazonka.CloudHSMV2.Types
     cluster_vpcId,
 
     -- * DestinationBackup
-    DestinationBackup (..),
+    DestinationBackup,
     newDestinationBackup,
     destinationBackup_createTimestamp,
     destinationBackup_sourceBackup,
@@ -98,7 +99,7 @@ module Amazonka.CloudHSMV2.Types
     destinationBackup_sourceRegion,
 
     -- * Hsm
-    Hsm (..),
+    Hsm,
     newHsm,
     hsm_availabilityZone,
     hsm_clusterId,
@@ -110,7 +111,7 @@ module Amazonka.CloudHSMV2.Types
     hsm_hsmId,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,

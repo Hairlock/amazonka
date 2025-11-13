@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -24,16 +25,16 @@ module Amazonka.MediaStoreData.Types
     _RequestedRangeNotSatisfiableException,
 
     -- * ItemType
-    ItemType (..),
+    ItemType,
 
     -- * StorageClass
-    StorageClass (..),
+    StorageClass,
 
     -- * UploadAvailability
-    UploadAvailability (..),
+    UploadAvailability,
 
     -- * Item
-    Item (..),
+    Item,
     newItem,
     item_contentLength,
     item_contentType,

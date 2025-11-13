@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -27,19 +28,19 @@ module Amazonka.Rum.Types
     _ValidationException,
 
     -- * CustomEventsStatus
-    CustomEventsStatus (..),
+    CustomEventsStatus,
 
     -- * MetricDestination
-    MetricDestination (..),
+    MetricDestination,
 
     -- * StateEnum
-    StateEnum (..),
+    StateEnum,
 
     -- * Telemetry
-    Telemetry (..),
+    Telemetry,
 
     -- * AppMonitor
-    AppMonitor (..),
+    AppMonitor,
     newAppMonitor,
     appMonitor_appMonitorConfiguration,
     appMonitor_created,
@@ -53,7 +54,7 @@ module Amazonka.Rum.Types
     appMonitor_tags,
 
     -- * AppMonitorConfiguration
-    AppMonitorConfiguration (..),
+    AppMonitorConfiguration,
     newAppMonitorConfiguration,
     appMonitorConfiguration_allowCookies,
     appMonitorConfiguration_enableXRay,
@@ -66,14 +67,14 @@ module Amazonka.Rum.Types
     appMonitorConfiguration_telemetries,
 
     -- * AppMonitorDetails
-    AppMonitorDetails (..),
+    AppMonitorDetails,
     newAppMonitorDetails,
     appMonitorDetails_id,
     appMonitorDetails_name,
     appMonitorDetails_version,
 
     -- * AppMonitorSummary
-    AppMonitorSummary (..),
+    AppMonitorSummary,
     newAppMonitorSummary,
     appMonitorSummary_created,
     appMonitorSummary_id,
@@ -82,37 +83,37 @@ module Amazonka.Rum.Types
     appMonitorSummary_state,
 
     -- * BatchCreateRumMetricDefinitionsError
-    BatchCreateRumMetricDefinitionsError (..),
+    BatchCreateRumMetricDefinitionsError,
     newBatchCreateRumMetricDefinitionsError,
     batchCreateRumMetricDefinitionsError_errorCode,
     batchCreateRumMetricDefinitionsError_errorMessage,
     batchCreateRumMetricDefinitionsError_metricDefinition,
 
     -- * BatchDeleteRumMetricDefinitionsError
-    BatchDeleteRumMetricDefinitionsError (..),
+    BatchDeleteRumMetricDefinitionsError,
     newBatchDeleteRumMetricDefinitionsError,
     batchDeleteRumMetricDefinitionsError_errorCode,
     batchDeleteRumMetricDefinitionsError_errorMessage,
     batchDeleteRumMetricDefinitionsError_metricDefinitionId,
 
     -- * CustomEvents
-    CustomEvents (..),
+    CustomEvents,
     newCustomEvents,
     customEvents_status,
 
     -- * CwLog
-    CwLog (..),
+    CwLog,
     newCwLog,
     cwLog_cwLogEnabled,
     cwLog_cwLogGroup,
 
     -- * DataStorage
-    DataStorage (..),
+    DataStorage,
     newDataStorage,
     dataStorage_cwLog,
 
     -- * MetricDefinition
-    MetricDefinition (..),
+    MetricDefinition,
     newMetricDefinition,
     metricDefinition_dimensionKeys,
     metricDefinition_eventPattern,
@@ -122,7 +123,7 @@ module Amazonka.Rum.Types
     metricDefinition_name,
 
     -- * MetricDefinitionRequest
-    MetricDefinitionRequest (..),
+    MetricDefinitionRequest,
     newMetricDefinitionRequest,
     metricDefinitionRequest_dimensionKeys,
     metricDefinitionRequest_eventPattern,
@@ -131,20 +132,20 @@ module Amazonka.Rum.Types
     metricDefinitionRequest_name,
 
     -- * MetricDestinationSummary
-    MetricDestinationSummary (..),
+    MetricDestinationSummary,
     newMetricDestinationSummary,
     metricDestinationSummary_destination,
     metricDestinationSummary_destinationArn,
     metricDestinationSummary_iamRoleArn,
 
     -- * QueryFilter
-    QueryFilter (..),
+    QueryFilter,
     newQueryFilter,
     queryFilter_name,
     queryFilter_values,
 
     -- * RumEvent
-    RumEvent (..),
+    RumEvent,
     newRumEvent,
     rumEvent_metadata,
     rumEvent_details,
@@ -153,13 +154,13 @@ module Amazonka.Rum.Types
     rumEvent_type,
 
     -- * TimeRange
-    TimeRange (..),
+    TimeRange,
     newTimeRange,
     timeRange_before,
     timeRange_after,
 
     -- * UserDetails
-    UserDetails (..),
+    UserDetails,
     newUserDetails,
     userDetails_sessionId,
     userDetails_userId,

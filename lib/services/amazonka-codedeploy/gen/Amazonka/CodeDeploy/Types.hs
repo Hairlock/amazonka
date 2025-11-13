@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -132,118 +133,118 @@ module Amazonka.CodeDeploy.Types
     _UnsupportedActionForDeploymentTypeException,
 
     -- * ApplicationRevisionSortBy
-    ApplicationRevisionSortBy (..),
+    ApplicationRevisionSortBy,
 
     -- * AutoRollbackEvent
-    AutoRollbackEvent (..),
+    AutoRollbackEvent,
 
     -- * BundleType
-    BundleType (..),
+    BundleType,
 
     -- * ComputePlatform
-    ComputePlatform (..),
+    ComputePlatform,
 
     -- * DeployErrorCode
-    DeployErrorCode (..),
+    DeployErrorCode,
 
     -- * DeploymentCreator
-    DeploymentCreator (..),
+    DeploymentCreator,
 
     -- * DeploymentOption
-    DeploymentOption (..),
+    DeploymentOption,
 
     -- * DeploymentReadyAction
-    DeploymentReadyAction (..),
+    DeploymentReadyAction,
 
     -- * DeploymentStatus
-    DeploymentStatus (..),
+    DeploymentStatus,
 
     -- * DeploymentTargetType
-    DeploymentTargetType (..),
+    DeploymentTargetType,
 
     -- * DeploymentType
-    DeploymentType (..),
+    DeploymentType,
 
     -- * DeploymentWaitType
-    DeploymentWaitType (..),
+    DeploymentWaitType,
 
     -- * EC2TagFilterType
-    EC2TagFilterType (..),
+    EC2TagFilterType,
 
     -- * FileExistsBehavior
-    FileExistsBehavior (..),
+    FileExistsBehavior,
 
     -- * GreenFleetProvisioningAction
-    GreenFleetProvisioningAction (..),
+    GreenFleetProvisioningAction,
 
     -- * InstanceAction
-    InstanceAction (..),
+    InstanceAction,
 
     -- * LifecycleErrorCode
-    LifecycleErrorCode (..),
+    LifecycleErrorCode,
 
     -- * LifecycleEventStatus
-    LifecycleEventStatus (..),
+    LifecycleEventStatus,
 
     -- * ListStateFilterAction
-    ListStateFilterAction (..),
+    ListStateFilterAction,
 
     -- * MinimumHealthyHostsType
-    MinimumHealthyHostsType (..),
+    MinimumHealthyHostsType,
 
     -- * OutdatedInstancesStrategy
-    OutdatedInstancesStrategy (..),
+    OutdatedInstancesStrategy,
 
     -- * RegistrationStatus
-    RegistrationStatus (..),
+    RegistrationStatus,
 
     -- * RevisionLocationType
-    RevisionLocationType (..),
+    RevisionLocationType,
 
     -- * SortOrder
-    SortOrder (..),
+    SortOrder,
 
     -- * StopStatus
-    StopStatus (..),
+    StopStatus,
 
     -- * TagFilterType
-    TagFilterType (..),
+    TagFilterType,
 
     -- * TargetFilterName
-    TargetFilterName (..),
+    TargetFilterName,
 
     -- * TargetLabel
-    TargetLabel (..),
+    TargetLabel,
 
     -- * TargetStatus
-    TargetStatus (..),
+    TargetStatus,
 
     -- * TrafficRoutingType
-    TrafficRoutingType (..),
+    TrafficRoutingType,
 
     -- * TriggerEventType
-    TriggerEventType (..),
+    TriggerEventType,
 
     -- * Alarm
-    Alarm (..),
+    Alarm,
     newAlarm,
     alarm_name,
 
     -- * AlarmConfiguration
-    AlarmConfiguration (..),
+    AlarmConfiguration,
     newAlarmConfiguration,
     alarmConfiguration_alarms,
     alarmConfiguration_enabled,
     alarmConfiguration_ignorePollAlarmFailure,
 
     -- * AppSpecContent
-    AppSpecContent (..),
+    AppSpecContent,
     newAppSpecContent,
     appSpecContent_content,
     appSpecContent_sha256,
 
     -- * ApplicationInfo
-    ApplicationInfo (..),
+    ApplicationInfo,
     newApplicationInfo,
     applicationInfo_applicationId,
     applicationInfo_applicationName,
@@ -253,32 +254,32 @@ module Amazonka.CodeDeploy.Types
     applicationInfo_linkedToGitHub,
 
     -- * AutoRollbackConfiguration
-    AutoRollbackConfiguration (..),
+    AutoRollbackConfiguration,
     newAutoRollbackConfiguration,
     autoRollbackConfiguration_enabled,
     autoRollbackConfiguration_events,
 
     -- * AutoScalingGroup
-    AutoScalingGroup (..),
+    AutoScalingGroup,
     newAutoScalingGroup,
     autoScalingGroup_hook,
     autoScalingGroup_name,
 
     -- * BlueGreenDeploymentConfiguration
-    BlueGreenDeploymentConfiguration (..),
+    BlueGreenDeploymentConfiguration,
     newBlueGreenDeploymentConfiguration,
     blueGreenDeploymentConfiguration_deploymentReadyOption,
     blueGreenDeploymentConfiguration_greenFleetProvisioningOption,
     blueGreenDeploymentConfiguration_terminateBlueInstancesOnDeploymentSuccess,
 
     -- * BlueInstanceTerminationOption
-    BlueInstanceTerminationOption (..),
+    BlueInstanceTerminationOption,
     newBlueInstanceTerminationOption,
     blueInstanceTerminationOption_action,
     blueInstanceTerminationOption_terminationWaitTimeInMinutes,
 
     -- * CloudFormationTarget
-    CloudFormationTarget (..),
+    CloudFormationTarget,
     newCloudFormationTarget,
     cloudFormationTarget_deploymentId,
     cloudFormationTarget_lastUpdatedAt,
@@ -289,7 +290,7 @@ module Amazonka.CodeDeploy.Types
     cloudFormationTarget_targetVersionWeight,
 
     -- * DeploymentConfigInfo
-    DeploymentConfigInfo (..),
+    DeploymentConfigInfo,
     newDeploymentConfigInfo,
     deploymentConfigInfo_computePlatform,
     deploymentConfigInfo_createTime,
@@ -299,7 +300,7 @@ module Amazonka.CodeDeploy.Types
     deploymentConfigInfo_trafficRoutingConfig,
 
     -- * DeploymentGroupInfo
-    DeploymentGroupInfo (..),
+    DeploymentGroupInfo,
     newDeploymentGroupInfo,
     deploymentGroupInfo_alarmConfiguration,
     deploymentGroupInfo_applicationName,
@@ -325,7 +326,7 @@ module Amazonka.CodeDeploy.Types
     deploymentGroupInfo_triggerConfigurations,
 
     -- * DeploymentInfo
-    DeploymentInfo (..),
+    DeploymentInfo,
     newDeploymentInfo,
     deploymentInfo_additionalDeploymentStatusInfo,
     deploymentInfo_applicationName,
@@ -359,7 +360,7 @@ module Amazonka.CodeDeploy.Types
     deploymentInfo_updateOutdatedInstancesOnly,
 
     -- * DeploymentOverview
-    DeploymentOverview (..),
+    DeploymentOverview,
     newDeploymentOverview,
     deploymentOverview_failed,
     deploymentOverview_inProgress,
@@ -369,19 +370,19 @@ module Amazonka.CodeDeploy.Types
     deploymentOverview_succeeded,
 
     -- * DeploymentReadyOption
-    DeploymentReadyOption (..),
+    DeploymentReadyOption,
     newDeploymentReadyOption,
     deploymentReadyOption_actionOnTimeout,
     deploymentReadyOption_waitTimeInMinutes,
 
     -- * DeploymentStyle
-    DeploymentStyle (..),
+    DeploymentStyle,
     newDeploymentStyle,
     deploymentStyle_deploymentOption,
     deploymentStyle_deploymentType,
 
     -- * DeploymentTarget
-    DeploymentTarget (..),
+    DeploymentTarget,
     newDeploymentTarget,
     deploymentTarget_cloudFormationTarget,
     deploymentTarget_deploymentTargetType,
@@ -390,7 +391,7 @@ module Amazonka.CodeDeploy.Types
     deploymentTarget_lambdaTarget,
 
     -- * Diagnostics
-    Diagnostics (..),
+    Diagnostics,
     newDiagnostics,
     diagnostics_errorCode,
     diagnostics_logTail,
@@ -398,25 +399,25 @@ module Amazonka.CodeDeploy.Types
     diagnostics_scriptName,
 
     -- * EC2TagFilter
-    EC2TagFilter (..),
+    EC2TagFilter,
     newEC2TagFilter,
     eC2TagFilter_key,
     eC2TagFilter_type,
     eC2TagFilter_value,
 
     -- * EC2TagSet
-    EC2TagSet (..),
+    EC2TagSet,
     newEC2TagSet,
     eC2TagSet_ec2TagSetList,
 
     -- * ECSService
-    ECSService (..),
+    ECSService,
     newECSService,
     eCSService_clusterName,
     eCSService_serviceName,
 
     -- * ECSTarget
-    ECSTarget (..),
+    ECSTarget,
     newECSTarget,
     eCSTarget_deploymentId,
     eCSTarget_lastUpdatedAt,
@@ -427,7 +428,7 @@ module Amazonka.CodeDeploy.Types
     eCSTarget_taskSetsInfo,
 
     -- * ECSTaskSet
-    ECSTaskSet (..),
+    ECSTaskSet,
     newECSTaskSet,
     eCSTaskSet_desiredCount,
     eCSTaskSet_identifer,
@@ -439,18 +440,18 @@ module Amazonka.CodeDeploy.Types
     eCSTaskSet_trafficWeight,
 
     -- * ELBInfo
-    ELBInfo (..),
+    ELBInfo,
     newELBInfo,
     eLBInfo_name,
 
     -- * ErrorInformation
-    ErrorInformation (..),
+    ErrorInformation,
     newErrorInformation,
     errorInformation_code,
     errorInformation_message,
 
     -- * GenericRevisionInfo
-    GenericRevisionInfo (..),
+    GenericRevisionInfo,
     newGenericRevisionInfo,
     genericRevisionInfo_deploymentGroups,
     genericRevisionInfo_description,
@@ -459,18 +460,18 @@ module Amazonka.CodeDeploy.Types
     genericRevisionInfo_registerTime,
 
     -- * GitHubLocation
-    GitHubLocation (..),
+    GitHubLocation,
     newGitHubLocation,
     gitHubLocation_commitId,
     gitHubLocation_repository,
 
     -- * GreenFleetProvisioningOption
-    GreenFleetProvisioningOption (..),
+    GreenFleetProvisioningOption,
     newGreenFleetProvisioningOption,
     greenFleetProvisioningOption_action,
 
     -- * InstanceInfo
-    InstanceInfo (..),
+    InstanceInfo,
     newInstanceInfo,
     instanceInfo_deregisterTime,
     instanceInfo_iamSessionArn,
@@ -481,7 +482,7 @@ module Amazonka.CodeDeploy.Types
     instanceInfo_tags,
 
     -- * InstanceTarget
-    InstanceTarget (..),
+    InstanceTarget,
     newInstanceTarget,
     instanceTarget_deploymentId,
     instanceTarget_instanceLabel,
@@ -492,7 +493,7 @@ module Amazonka.CodeDeploy.Types
     instanceTarget_targetId,
 
     -- * LambdaFunctionInfo
-    LambdaFunctionInfo (..),
+    LambdaFunctionInfo,
     newLambdaFunctionInfo,
     lambdaFunctionInfo_currentVersion,
     lambdaFunctionInfo_functionAlias,
@@ -501,7 +502,7 @@ module Amazonka.CodeDeploy.Types
     lambdaFunctionInfo_targetVersionWeight,
 
     -- * LambdaTarget
-    LambdaTarget (..),
+    LambdaTarget,
     newLambdaTarget,
     lambdaTarget_deploymentId,
     lambdaTarget_lambdaFunctionInfo,
@@ -512,7 +513,7 @@ module Amazonka.CodeDeploy.Types
     lambdaTarget_targetId,
 
     -- * LastDeploymentInfo
-    LastDeploymentInfo (..),
+    LastDeploymentInfo,
     newLastDeploymentInfo,
     lastDeploymentInfo_createTime,
     lastDeploymentInfo_deploymentId,
@@ -520,7 +521,7 @@ module Amazonka.CodeDeploy.Types
     lastDeploymentInfo_status,
 
     -- * LifecycleEvent
-    LifecycleEvent (..),
+    LifecycleEvent,
     newLifecycleEvent,
     lifecycleEvent_diagnostics,
     lifecycleEvent_endTime,
@@ -529,43 +530,43 @@ module Amazonka.CodeDeploy.Types
     lifecycleEvent_status,
 
     -- * LoadBalancerInfo
-    LoadBalancerInfo (..),
+    LoadBalancerInfo,
     newLoadBalancerInfo,
     loadBalancerInfo_elbInfoList,
     loadBalancerInfo_targetGroupInfoList,
     loadBalancerInfo_targetGroupPairInfoList,
 
     -- * MinimumHealthyHosts
-    MinimumHealthyHosts (..),
+    MinimumHealthyHosts,
     newMinimumHealthyHosts,
     minimumHealthyHosts_type,
     minimumHealthyHosts_value,
 
     -- * OnPremisesTagSet
-    OnPremisesTagSet (..),
+    OnPremisesTagSet,
     newOnPremisesTagSet,
     onPremisesTagSet_onPremisesTagSetList,
 
     -- * RawString
-    RawString (..),
+    RawString,
     newRawString,
     rawString_content,
     rawString_sha256,
 
     -- * RelatedDeployments
-    RelatedDeployments (..),
+    RelatedDeployments,
     newRelatedDeployments,
     relatedDeployments_autoUpdateOutdatedInstancesDeploymentIds,
     relatedDeployments_autoUpdateOutdatedInstancesRootDeploymentId,
 
     -- * RevisionInfo
-    RevisionInfo (..),
+    RevisionInfo,
     newRevisionInfo,
     revisionInfo_genericRevisionInfo,
     revisionInfo_revisionLocation,
 
     -- * RevisionLocation
-    RevisionLocation (..),
+    RevisionLocation,
     newRevisionLocation,
     revisionLocation_appSpecContent,
     revisionLocation_gitHubLocation,
@@ -574,14 +575,14 @@ module Amazonka.CodeDeploy.Types
     revisionLocation_string,
 
     -- * RollbackInfo
-    RollbackInfo (..),
+    RollbackInfo,
     newRollbackInfo,
     rollbackInfo_rollbackDeploymentId,
     rollbackInfo_rollbackMessage,
     rollbackInfo_rollbackTriggeringDeploymentId,
 
     -- * S3Location
-    S3Location (..),
+    S3Location,
     newS3Location,
     s3Location_bucket,
     s3Location_bundleType,
@@ -590,69 +591,69 @@ module Amazonka.CodeDeploy.Types
     s3Location_version,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,
 
     -- * TagFilter
-    TagFilter (..),
+    TagFilter,
     newTagFilter,
     tagFilter_key,
     tagFilter_type,
     tagFilter_value,
 
     -- * TargetGroupInfo
-    TargetGroupInfo (..),
+    TargetGroupInfo,
     newTargetGroupInfo,
     targetGroupInfo_name,
 
     -- * TargetGroupPairInfo
-    TargetGroupPairInfo (..),
+    TargetGroupPairInfo,
     newTargetGroupPairInfo,
     targetGroupPairInfo_prodTrafficRoute,
     targetGroupPairInfo_targetGroups,
     targetGroupPairInfo_testTrafficRoute,
 
     -- * TargetInstances
-    TargetInstances (..),
+    TargetInstances,
     newTargetInstances,
     targetInstances_autoScalingGroups,
     targetInstances_ec2TagSet,
     targetInstances_tagFilters,
 
     -- * TimeBasedCanary
-    TimeBasedCanary (..),
+    TimeBasedCanary,
     newTimeBasedCanary,
     timeBasedCanary_canaryInterval,
     timeBasedCanary_canaryPercentage,
 
     -- * TimeBasedLinear
-    TimeBasedLinear (..),
+    TimeBasedLinear,
     newTimeBasedLinear,
     timeBasedLinear_linearInterval,
     timeBasedLinear_linearPercentage,
 
     -- * TimeRange
-    TimeRange (..),
+    TimeRange,
     newTimeRange,
     timeRange_end,
     timeRange_start,
 
     -- * TrafficRoute
-    TrafficRoute (..),
+    TrafficRoute,
     newTrafficRoute,
     trafficRoute_listenerArns,
 
     -- * TrafficRoutingConfig
-    TrafficRoutingConfig (..),
+    TrafficRoutingConfig,
     newTrafficRoutingConfig,
     trafficRoutingConfig_timeBasedCanary,
     trafficRoutingConfig_timeBasedLinear,
     trafficRoutingConfig_type,
 
     -- * TriggerConfig
-    TriggerConfig (..),
+    TriggerConfig,
     newTriggerConfig,
     triggerConfig_triggerEvents,
     triggerConfig_triggerName,

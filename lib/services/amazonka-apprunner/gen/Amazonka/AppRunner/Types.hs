@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -25,67 +26,67 @@ module Amazonka.AppRunner.Types
     _ServiceQuotaExceededException,
 
     -- * AutoScalingConfigurationStatus
-    AutoScalingConfigurationStatus (..),
+    AutoScalingConfigurationStatus,
 
     -- * CertificateValidationRecordStatus
-    CertificateValidationRecordStatus (..),
+    CertificateValidationRecordStatus,
 
     -- * ConfigurationSource
-    ConfigurationSource (..),
+    ConfigurationSource,
 
     -- * ConnectionStatus
-    ConnectionStatus (..),
+    ConnectionStatus,
 
     -- * CustomDomainAssociationStatus
-    CustomDomainAssociationStatus (..),
+    CustomDomainAssociationStatus,
 
     -- * EgressType
-    EgressType (..),
+    EgressType,
 
     -- * HealthCheckProtocol
-    HealthCheckProtocol (..),
+    HealthCheckProtocol,
 
     -- * ImageRepositoryType
-    ImageRepositoryType (..),
+    ImageRepositoryType,
 
     -- * ObservabilityConfigurationStatus
-    ObservabilityConfigurationStatus (..),
+    ObservabilityConfigurationStatus,
 
     -- * OperationStatus
-    OperationStatus (..),
+    OperationStatus,
 
     -- * OperationType
-    OperationType (..),
+    OperationType,
 
     -- * ProviderType
-    ProviderType (..),
+    ProviderType,
 
     -- * Runtime
-    Runtime (..),
+    Runtime,
 
     -- * ServiceStatus
-    ServiceStatus (..),
+    ServiceStatus,
 
     -- * SourceCodeVersionType
-    SourceCodeVersionType (..),
+    SourceCodeVersionType,
 
     -- * TracingVendor
-    TracingVendor (..),
+    TracingVendor,
 
     -- * VpcConnectorStatus
-    VpcConnectorStatus (..),
+    VpcConnectorStatus,
 
     -- * VpcIngressConnectionStatus
-    VpcIngressConnectionStatus (..),
+    VpcIngressConnectionStatus,
 
     -- * AuthenticationConfiguration
-    AuthenticationConfiguration (..),
+    AuthenticationConfiguration,
     newAuthenticationConfiguration,
     authenticationConfiguration_accessRoleArn,
     authenticationConfiguration_connectionArn,
 
     -- * AutoScalingConfiguration
-    AutoScalingConfiguration (..),
+    AutoScalingConfiguration,
     newAutoScalingConfiguration,
     autoScalingConfiguration_autoScalingConfigurationArn,
     autoScalingConfiguration_autoScalingConfigurationName,
@@ -99,14 +100,14 @@ module Amazonka.AppRunner.Types
     autoScalingConfiguration_status,
 
     -- * AutoScalingConfigurationSummary
-    AutoScalingConfigurationSummary (..),
+    AutoScalingConfigurationSummary,
     newAutoScalingConfigurationSummary,
     autoScalingConfigurationSummary_autoScalingConfigurationArn,
     autoScalingConfigurationSummary_autoScalingConfigurationName,
     autoScalingConfigurationSummary_autoScalingConfigurationRevision,
 
     -- * CertificateValidationRecord
-    CertificateValidationRecord (..),
+    CertificateValidationRecord,
     newCertificateValidationRecord,
     certificateValidationRecord_name,
     certificateValidationRecord_status,
@@ -114,13 +115,13 @@ module Amazonka.AppRunner.Types
     certificateValidationRecord_value,
 
     -- * CodeConfiguration
-    CodeConfiguration (..),
+    CodeConfiguration,
     newCodeConfiguration,
     codeConfiguration_codeConfigurationValues,
     codeConfiguration_configurationSource,
 
     -- * CodeConfigurationValues
-    CodeConfigurationValues (..),
+    CodeConfigurationValues,
     newCodeConfigurationValues,
     codeConfigurationValues_buildCommand,
     codeConfigurationValues_port,
@@ -130,14 +131,14 @@ module Amazonka.AppRunner.Types
     codeConfigurationValues_runtime,
 
     -- * CodeRepository
-    CodeRepository (..),
+    CodeRepository,
     newCodeRepository,
     codeRepository_codeConfiguration,
     codeRepository_repositoryUrl,
     codeRepository_sourceCodeVersion,
 
     -- * Connection
-    Connection (..),
+    Connection,
     newConnection,
     connection_connectionArn,
     connection_connectionName,
@@ -146,7 +147,7 @@ module Amazonka.AppRunner.Types
     connection_status,
 
     -- * ConnectionSummary
-    ConnectionSummary (..),
+    ConnectionSummary,
     newConnectionSummary,
     connectionSummary_connectionArn,
     connectionSummary_connectionName,
@@ -155,7 +156,7 @@ module Amazonka.AppRunner.Types
     connectionSummary_status,
 
     -- * CustomDomain
-    CustomDomain (..),
+    CustomDomain,
     newCustomDomain,
     customDomain_certificateValidationRecords,
     customDomain_domainName,
@@ -163,18 +164,18 @@ module Amazonka.AppRunner.Types
     customDomain_status,
 
     -- * EgressConfiguration
-    EgressConfiguration (..),
+    EgressConfiguration,
     newEgressConfiguration,
     egressConfiguration_egressType,
     egressConfiguration_vpcConnectorArn,
 
     -- * EncryptionConfiguration
-    EncryptionConfiguration (..),
+    EncryptionConfiguration,
     newEncryptionConfiguration,
     encryptionConfiguration_kmsKey,
 
     -- * HealthCheckConfiguration
-    HealthCheckConfiguration (..),
+    HealthCheckConfiguration,
     newHealthCheckConfiguration,
     healthCheckConfiguration_healthyThreshold,
     healthCheckConfiguration_interval,
@@ -184,7 +185,7 @@ module Amazonka.AppRunner.Types
     healthCheckConfiguration_unhealthyThreshold,
 
     -- * ImageConfiguration
-    ImageConfiguration (..),
+    ImageConfiguration,
     newImageConfiguration,
     imageConfiguration_port,
     imageConfiguration_runtimeEnvironmentSecrets,
@@ -192,44 +193,44 @@ module Amazonka.AppRunner.Types
     imageConfiguration_startCommand,
 
     -- * ImageRepository
-    ImageRepository (..),
+    ImageRepository,
     newImageRepository,
     imageRepository_imageConfiguration,
     imageRepository_imageIdentifier,
     imageRepository_imageRepositoryType,
 
     -- * IngressConfiguration
-    IngressConfiguration (..),
+    IngressConfiguration,
     newIngressConfiguration,
     ingressConfiguration_isPubliclyAccessible,
 
     -- * IngressVpcConfiguration
-    IngressVpcConfiguration (..),
+    IngressVpcConfiguration,
     newIngressVpcConfiguration,
     ingressVpcConfiguration_vpcEndpointId,
     ingressVpcConfiguration_vpcId,
 
     -- * InstanceConfiguration
-    InstanceConfiguration (..),
+    InstanceConfiguration,
     newInstanceConfiguration,
     instanceConfiguration_cpu,
     instanceConfiguration_instanceRoleArn,
     instanceConfiguration_memory,
 
     -- * ListVpcIngressConnectionsFilter
-    ListVpcIngressConnectionsFilter (..),
+    ListVpcIngressConnectionsFilter,
     newListVpcIngressConnectionsFilter,
     listVpcIngressConnectionsFilter_serviceArn,
     listVpcIngressConnectionsFilter_vpcEndpointId,
 
     -- * NetworkConfiguration
-    NetworkConfiguration (..),
+    NetworkConfiguration,
     newNetworkConfiguration,
     networkConfiguration_egressConfiguration,
     networkConfiguration_ingressConfiguration,
 
     -- * ObservabilityConfiguration
-    ObservabilityConfiguration (..),
+    ObservabilityConfiguration,
     newObservabilityConfiguration,
     observabilityConfiguration_createdAt,
     observabilityConfiguration_deletedAt,
@@ -241,14 +242,14 @@ module Amazonka.AppRunner.Types
     observabilityConfiguration_traceConfiguration,
 
     -- * ObservabilityConfigurationSummary
-    ObservabilityConfigurationSummary (..),
+    ObservabilityConfigurationSummary,
     newObservabilityConfigurationSummary,
     observabilityConfigurationSummary_observabilityConfigurationArn,
     observabilityConfigurationSummary_observabilityConfigurationName,
     observabilityConfigurationSummary_observabilityConfigurationRevision,
 
     -- * OperationSummary
-    OperationSummary (..),
+    OperationSummary,
     newOperationSummary,
     operationSummary_endedAt,
     operationSummary_id,
@@ -259,7 +260,7 @@ module Amazonka.AppRunner.Types
     operationSummary_updatedAt,
 
     -- * Service
-    Service (..),
+    Service,
     newService,
     service_deletedAt,
     service_encryptionConfiguration,
@@ -278,13 +279,13 @@ module Amazonka.AppRunner.Types
     service_networkConfiguration,
 
     -- * ServiceObservabilityConfiguration
-    ServiceObservabilityConfiguration (..),
+    ServiceObservabilityConfiguration,
     newServiceObservabilityConfiguration,
     serviceObservabilityConfiguration_observabilityConfigurationArn,
     serviceObservabilityConfiguration_observabilityEnabled,
 
     -- * ServiceSummary
-    ServiceSummary (..),
+    ServiceSummary,
     newServiceSummary,
     serviceSummary_createdAt,
     serviceSummary_serviceArn,
@@ -295,13 +296,13 @@ module Amazonka.AppRunner.Types
     serviceSummary_updatedAt,
 
     -- * SourceCodeVersion
-    SourceCodeVersion (..),
+    SourceCodeVersion,
     newSourceCodeVersion,
     sourceCodeVersion_type,
     sourceCodeVersion_value,
 
     -- * SourceConfiguration
-    SourceConfiguration (..),
+    SourceConfiguration,
     newSourceConfiguration,
     sourceConfiguration_authenticationConfiguration,
     sourceConfiguration_autoDeploymentsEnabled,
@@ -309,18 +310,18 @@ module Amazonka.AppRunner.Types
     sourceConfiguration_imageRepository,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,
 
     -- * TraceConfiguration
-    TraceConfiguration (..),
+    TraceConfiguration,
     newTraceConfiguration,
     traceConfiguration_vendor,
 
     -- * VpcConnector
-    VpcConnector (..),
+    VpcConnector,
     newVpcConnector,
     vpcConnector_createdAt,
     vpcConnector_deletedAt,
@@ -332,14 +333,14 @@ module Amazonka.AppRunner.Types
     vpcConnector_vpcConnectorRevision,
 
     -- * VpcDNSTarget
-    VpcDNSTarget (..),
+    VpcDNSTarget,
     newVpcDNSTarget,
     vpcDNSTarget_domainName,
     vpcDNSTarget_vpcId,
     vpcDNSTarget_vpcIngressConnectionArn,
 
     -- * VpcIngressConnection
-    VpcIngressConnection (..),
+    VpcIngressConnection,
     newVpcIngressConnection,
     vpcIngressConnection_accountId,
     vpcIngressConnection_createdAt,
@@ -352,7 +353,7 @@ module Amazonka.AppRunner.Types
     vpcIngressConnection_vpcIngressConnectionName,
 
     -- * VpcIngressConnectionSummary
-    VpcIngressConnectionSummary (..),
+    VpcIngressConnectionSummary,
     newVpcIngressConnectionSummary,
     vpcIngressConnectionSummary_serviceArn,
     vpcIngressConnectionSummary_vpcIngressConnectionArn,

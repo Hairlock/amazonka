@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -28,19 +29,19 @@ module Amazonka.ChimeSDKIdentity.Types
     _UnauthorizedClientException,
 
     -- * AllowMessages
-    AllowMessages (..),
+    AllowMessages,
 
     -- * AppInstanceUserEndpointType
-    AppInstanceUserEndpointType (..),
+    AppInstanceUserEndpointType,
 
     -- * EndpointStatus
-    EndpointStatus (..),
+    EndpointStatus,
 
     -- * EndpointStatusReason
-    EndpointStatusReason (..),
+    EndpointStatusReason,
 
     -- * AppInstance
-    AppInstance (..),
+    AppInstance,
     newAppInstance,
     appInstance_appInstanceArn,
     appInstance_createdTimestamp,
@@ -49,31 +50,31 @@ module Amazonka.ChimeSDKIdentity.Types
     appInstance_name,
 
     -- * AppInstanceAdmin
-    AppInstanceAdmin (..),
+    AppInstanceAdmin,
     newAppInstanceAdmin,
     appInstanceAdmin_admin,
     appInstanceAdmin_appInstanceArn,
     appInstanceAdmin_createdTimestamp,
 
     -- * AppInstanceAdminSummary
-    AppInstanceAdminSummary (..),
+    AppInstanceAdminSummary,
     newAppInstanceAdminSummary,
     appInstanceAdminSummary_admin,
 
     -- * AppInstanceRetentionSettings
-    AppInstanceRetentionSettings (..),
+    AppInstanceRetentionSettings,
     newAppInstanceRetentionSettings,
     appInstanceRetentionSettings_channelRetentionSettings,
 
     -- * AppInstanceSummary
-    AppInstanceSummary (..),
+    AppInstanceSummary,
     newAppInstanceSummary,
     appInstanceSummary_appInstanceArn,
     appInstanceSummary_metadata,
     appInstanceSummary_name,
 
     -- * AppInstanceUser
-    AppInstanceUser (..),
+    AppInstanceUser,
     newAppInstanceUser,
     appInstanceUser_appInstanceUserArn,
     appInstanceUser_createdTimestamp,
@@ -82,7 +83,7 @@ module Amazonka.ChimeSDKIdentity.Types
     appInstanceUser_name,
 
     -- * AppInstanceUserEndpoint
-    AppInstanceUserEndpoint (..),
+    AppInstanceUserEndpoint,
     newAppInstanceUserEndpoint,
     appInstanceUserEndpoint_allowMessages,
     appInstanceUserEndpoint_appInstanceUserArn,
@@ -96,7 +97,7 @@ module Amazonka.ChimeSDKIdentity.Types
     appInstanceUserEndpoint_type,
 
     -- * AppInstanceUserEndpointSummary
-    AppInstanceUserEndpointSummary (..),
+    AppInstanceUserEndpointSummary,
     newAppInstanceUserEndpointSummary,
     appInstanceUserEndpointSummary_allowMessages,
     appInstanceUserEndpointSummary_appInstanceUserArn,
@@ -106,37 +107,37 @@ module Amazonka.ChimeSDKIdentity.Types
     appInstanceUserEndpointSummary_type,
 
     -- * AppInstanceUserSummary
-    AppInstanceUserSummary (..),
+    AppInstanceUserSummary,
     newAppInstanceUserSummary,
     appInstanceUserSummary_appInstanceUserArn,
     appInstanceUserSummary_metadata,
     appInstanceUserSummary_name,
 
     -- * ChannelRetentionSettings
-    ChannelRetentionSettings (..),
+    ChannelRetentionSettings,
     newChannelRetentionSettings,
     channelRetentionSettings_retentionDays,
 
     -- * EndpointAttributes
-    EndpointAttributes (..),
+    EndpointAttributes,
     newEndpointAttributes,
     endpointAttributes_voipDeviceToken,
     endpointAttributes_deviceToken,
 
     -- * EndpointState
-    EndpointState (..),
+    EndpointState,
     newEndpointState,
     endpointState_statusReason,
     endpointState_status,
 
     -- * Identity
-    Identity (..),
+    Identity,
     newIdentity,
     identity_arn,
     identity_name,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,

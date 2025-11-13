@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -37,55 +38,55 @@ module Amazonka.ImageBuilder.Types
     _ServiceUnavailableException,
 
     -- * BuildType
-    BuildType (..),
+    BuildType,
 
     -- * ComponentFormat
-    ComponentFormat (..),
+    ComponentFormat,
 
     -- * ComponentStatus
-    ComponentStatus (..),
+    ComponentStatus,
 
     -- * ComponentType
-    ComponentType (..),
+    ComponentType,
 
     -- * ContainerRepositoryService
-    ContainerRepositoryService (..),
+    ContainerRepositoryService,
 
     -- * ContainerType
-    ContainerType (..),
+    ContainerType,
 
     -- * DiskImageFormat
-    DiskImageFormat (..),
+    DiskImageFormat,
 
     -- * EbsVolumeType
-    EbsVolumeType (..),
+    EbsVolumeType,
 
     -- * ImageStatus
-    ImageStatus (..),
+    ImageStatus,
 
     -- * ImageType
-    ImageType (..),
+    ImageType,
 
     -- * Ownership
-    Ownership (..),
+    Ownership,
 
     -- * PipelineExecutionStartCondition
-    PipelineExecutionStartCondition (..),
+    PipelineExecutionStartCondition,
 
     -- * PipelineStatus
-    PipelineStatus (..),
+    PipelineStatus,
 
     -- * Platform
-    Platform (..),
+    Platform,
 
     -- * AdditionalInstanceConfiguration
-    AdditionalInstanceConfiguration (..),
+    AdditionalInstanceConfiguration,
     newAdditionalInstanceConfiguration,
     additionalInstanceConfiguration_systemsManagerAgent,
     additionalInstanceConfiguration_userDataOverride,
 
     -- * Ami
-    Ami (..),
+    Ami,
     newAmi,
     ami_accountId,
     ami_description,
@@ -95,7 +96,7 @@ module Amazonka.ImageBuilder.Types
     ami_state,
 
     -- * AmiDistributionConfiguration
-    AmiDistributionConfiguration (..),
+    AmiDistributionConfiguration,
     newAmiDistributionConfiguration,
     amiDistributionConfiguration_amiTags,
     amiDistributionConfiguration_description,
@@ -105,7 +106,7 @@ module Amazonka.ImageBuilder.Types
     amiDistributionConfiguration_targetAccountIds,
 
     -- * Component
-    Component (..),
+    Component,
     newComponent,
     component_arn,
     component_changeDescription,
@@ -125,19 +126,19 @@ module Amazonka.ImageBuilder.Types
     component_version,
 
     -- * ComponentConfiguration
-    ComponentConfiguration (..),
+    ComponentConfiguration,
     newComponentConfiguration,
     componentConfiguration_parameters,
     componentConfiguration_componentArn,
 
     -- * ComponentParameter
-    ComponentParameter (..),
+    ComponentParameter,
     newComponentParameter,
     componentParameter_name,
     componentParameter_value,
 
     -- * ComponentParameterDetail
-    ComponentParameterDetail (..),
+    ComponentParameterDetail,
     newComponentParameterDetail,
     componentParameterDetail_defaultValue,
     componentParameterDetail_description,
@@ -145,13 +146,13 @@ module Amazonka.ImageBuilder.Types
     componentParameterDetail_type,
 
     -- * ComponentState
-    ComponentState (..),
+    ComponentState,
     newComponentState,
     componentState_reason,
     componentState_status,
 
     -- * ComponentSummary
-    ComponentSummary (..),
+    ComponentSummary,
     newComponentSummary,
     componentSummary_arn,
     componentSummary_changeDescription,
@@ -167,7 +168,7 @@ module Amazonka.ImageBuilder.Types
     componentSummary_version,
 
     -- * ComponentVersion
-    ComponentVersion (..),
+    ComponentVersion,
     newComponentVersion,
     componentVersion_arn,
     componentVersion_dateCreated,
@@ -180,20 +181,20 @@ module Amazonka.ImageBuilder.Types
     componentVersion_version,
 
     -- * Container
-    Container (..),
+    Container,
     newContainer,
     container_imageUris,
     container_region,
 
     -- * ContainerDistributionConfiguration
-    ContainerDistributionConfiguration (..),
+    ContainerDistributionConfiguration,
     newContainerDistributionConfiguration,
     containerDistributionConfiguration_containerTags,
     containerDistributionConfiguration_description,
     containerDistributionConfiguration_targetRepository,
 
     -- * ContainerRecipe
-    ContainerRecipe (..),
+    ContainerRecipe,
     newContainerRecipe,
     containerRecipe_arn,
     containerRecipe_components,
@@ -214,7 +215,7 @@ module Amazonka.ImageBuilder.Types
     containerRecipe_workingDirectory,
 
     -- * ContainerRecipeSummary
-    ContainerRecipeSummary (..),
+    ContainerRecipeSummary,
     newContainerRecipeSummary,
     containerRecipeSummary_arn,
     containerRecipeSummary_containerType,
@@ -226,7 +227,7 @@ module Amazonka.ImageBuilder.Types
     containerRecipeSummary_tags,
 
     -- * Distribution
-    Distribution (..),
+    Distribution,
     newDistribution,
     distribution_amiDistributionConfiguration,
     distribution_containerDistributionConfiguration,
@@ -237,7 +238,7 @@ module Amazonka.ImageBuilder.Types
     distribution_region,
 
     -- * DistributionConfiguration
-    DistributionConfiguration (..),
+    DistributionConfiguration,
     newDistributionConfiguration,
     distributionConfiguration_arn,
     distributionConfiguration_dateCreated,
@@ -249,7 +250,7 @@ module Amazonka.ImageBuilder.Types
     distributionConfiguration_timeoutMinutes,
 
     -- * DistributionConfigurationSummary
-    DistributionConfigurationSummary (..),
+    DistributionConfigurationSummary,
     newDistributionConfigurationSummary,
     distributionConfigurationSummary_arn,
     distributionConfigurationSummary_dateCreated,
@@ -260,7 +261,7 @@ module Amazonka.ImageBuilder.Types
     distributionConfigurationSummary_tags,
 
     -- * EbsInstanceBlockDeviceSpecification
-    EbsInstanceBlockDeviceSpecification (..),
+    EbsInstanceBlockDeviceSpecification,
     newEbsInstanceBlockDeviceSpecification,
     ebsInstanceBlockDeviceSpecification_deleteOnTermination,
     ebsInstanceBlockDeviceSpecification_encrypted,
@@ -272,7 +273,7 @@ module Amazonka.ImageBuilder.Types
     ebsInstanceBlockDeviceSpecification_volumeType,
 
     -- * FastLaunchConfiguration
-    FastLaunchConfiguration (..),
+    FastLaunchConfiguration,
     newFastLaunchConfiguration,
     fastLaunchConfiguration_accountId,
     fastLaunchConfiguration_launchTemplate,
@@ -281,25 +282,25 @@ module Amazonka.ImageBuilder.Types
     fastLaunchConfiguration_enabled,
 
     -- * FastLaunchLaunchTemplateSpecification
-    FastLaunchLaunchTemplateSpecification (..),
+    FastLaunchLaunchTemplateSpecification,
     newFastLaunchLaunchTemplateSpecification,
     fastLaunchLaunchTemplateSpecification_launchTemplateId,
     fastLaunchLaunchTemplateSpecification_launchTemplateName,
     fastLaunchLaunchTemplateSpecification_launchTemplateVersion,
 
     -- * FastLaunchSnapshotConfiguration
-    FastLaunchSnapshotConfiguration (..),
+    FastLaunchSnapshotConfiguration,
     newFastLaunchSnapshotConfiguration,
     fastLaunchSnapshotConfiguration_targetResourceCount,
 
     -- * Filter
-    Filter (..),
+    Filter,
     newFilter,
     filter_name,
     filter_values,
 
     -- * Image
-    Image (..),
+    Image,
     newImage,
     image_arn,
     image_buildType,
@@ -322,13 +323,13 @@ module Amazonka.ImageBuilder.Types
     image_version,
 
     -- * ImagePackage
-    ImagePackage (..),
+    ImagePackage,
     newImagePackage,
     imagePackage_packageName,
     imagePackage_packageVersion,
 
     -- * ImagePipeline
-    ImagePipeline (..),
+    ImagePipeline,
     newImagePipeline,
     imagePipeline_arn,
     imagePipeline_containerRecipeArn,
@@ -349,7 +350,7 @@ module Amazonka.ImageBuilder.Types
     imagePipeline_tags,
 
     -- * ImageRecipe
-    ImageRecipe (..),
+    ImageRecipe,
     newImageRecipe,
     imageRecipe_additionalInstanceConfiguration,
     imageRecipe_arn,
@@ -367,7 +368,7 @@ module Amazonka.ImageBuilder.Types
     imageRecipe_workingDirectory,
 
     -- * ImageRecipeSummary
-    ImageRecipeSummary (..),
+    ImageRecipeSummary,
     newImageRecipeSummary,
     imageRecipeSummary_arn,
     imageRecipeSummary_dateCreated,
@@ -378,13 +379,13 @@ module Amazonka.ImageBuilder.Types
     imageRecipeSummary_tags,
 
     -- * ImageState
-    ImageState (..),
+    ImageState,
     newImageState,
     imageState_reason,
     imageState_status,
 
     -- * ImageSummary
-    ImageSummary (..),
+    ImageSummary,
     newImageSummary,
     imageSummary_arn,
     imageSummary_buildType,
@@ -400,13 +401,13 @@ module Amazonka.ImageBuilder.Types
     imageSummary_version,
 
     -- * ImageTestsConfiguration
-    ImageTestsConfiguration (..),
+    ImageTestsConfiguration,
     newImageTestsConfiguration,
     imageTestsConfiguration_imageTestsEnabled,
     imageTestsConfiguration_timeoutMinutes,
 
     -- * ImageVersion
-    ImageVersion (..),
+    ImageVersion,
     newImageVersion,
     imageVersion_arn,
     imageVersion_buildType,
@@ -419,7 +420,7 @@ module Amazonka.ImageBuilder.Types
     imageVersion_version,
 
     -- * InfrastructureConfiguration
-    InfrastructureConfiguration (..),
+    InfrastructureConfiguration,
     newInfrastructureConfiguration,
     infrastructureConfiguration_arn,
     infrastructureConfiguration_dateCreated,
@@ -439,7 +440,7 @@ module Amazonka.ImageBuilder.Types
     infrastructureConfiguration_terminateInstanceOnFailure,
 
     -- * InfrastructureConfigurationSummary
-    InfrastructureConfigurationSummary (..),
+    InfrastructureConfigurationSummary,
     newInfrastructureConfigurationSummary,
     infrastructureConfigurationSummary_arn,
     infrastructureConfigurationSummary_dateCreated,
@@ -452,7 +453,7 @@ module Amazonka.ImageBuilder.Types
     infrastructureConfigurationSummary_tags,
 
     -- * InstanceBlockDeviceMapping
-    InstanceBlockDeviceMapping (..),
+    InstanceBlockDeviceMapping,
     newInstanceBlockDeviceMapping,
     instanceBlockDeviceMapping_deviceName,
     instanceBlockDeviceMapping_ebs,
@@ -460,19 +461,19 @@ module Amazonka.ImageBuilder.Types
     instanceBlockDeviceMapping_virtualName,
 
     -- * InstanceConfiguration
-    InstanceConfiguration (..),
+    InstanceConfiguration,
     newInstanceConfiguration,
     instanceConfiguration_blockDeviceMappings,
     instanceConfiguration_image,
 
     -- * InstanceMetadataOptions
-    InstanceMetadataOptions (..),
+    InstanceMetadataOptions,
     newInstanceMetadataOptions,
     instanceMetadataOptions_httpPutResponseHopLimit,
     instanceMetadataOptions_httpTokens,
 
     -- * LaunchPermissionConfiguration
-    LaunchPermissionConfiguration (..),
+    LaunchPermissionConfiguration,
     newLaunchPermissionConfiguration,
     launchPermissionConfiguration_organizationArns,
     launchPermissionConfiguration_organizationalUnitArns,
@@ -480,25 +481,25 @@ module Amazonka.ImageBuilder.Types
     launchPermissionConfiguration_userIds,
 
     -- * LaunchTemplateConfiguration
-    LaunchTemplateConfiguration (..),
+    LaunchTemplateConfiguration,
     newLaunchTemplateConfiguration,
     launchTemplateConfiguration_accountId,
     launchTemplateConfiguration_setDefaultVersion,
     launchTemplateConfiguration_launchTemplateId,
 
     -- * Logging
-    Logging (..),
+    Logging,
     newLogging,
     logging_s3Logs,
 
     -- * OutputResources
-    OutputResources (..),
+    OutputResources,
     newOutputResources,
     outputResources_amis,
     outputResources_containers,
 
     -- * S3ExportConfiguration
-    S3ExportConfiguration (..),
+    S3ExportConfiguration,
     newS3ExportConfiguration,
     s3ExportConfiguration_s3Prefix,
     s3ExportConfiguration_roleName,
@@ -506,25 +507,25 @@ module Amazonka.ImageBuilder.Types
     s3ExportConfiguration_s3Bucket,
 
     -- * S3Logs
-    S3Logs (..),
+    S3Logs,
     newS3Logs,
     s3Logs_s3BucketName,
     s3Logs_s3KeyPrefix,
 
     -- * Schedule
-    Schedule (..),
+    Schedule,
     newSchedule,
     schedule_pipelineExecutionStartCondition,
     schedule_scheduleExpression,
     schedule_timezone,
 
     -- * SystemsManagerAgent
-    SystemsManagerAgent (..),
+    SystemsManagerAgent,
     newSystemsManagerAgent,
     systemsManagerAgent_uninstallAfterBuild,
 
     -- * TargetContainerRepository
-    TargetContainerRepository (..),
+    TargetContainerRepository,
     newTargetContainerRepository,
     targetContainerRepository_service,
     targetContainerRepository_repositoryName,

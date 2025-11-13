@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -92,89 +93,89 @@ module Amazonka.Route53.Types
     module Amazonka.Route53.Internal,
 
     -- * AccountLimitType
-    AccountLimitType (..),
+    AccountLimitType,
 
     -- * ChangeAction
-    ChangeAction (..),
+    ChangeAction,
 
     -- * ChangeStatus
-    ChangeStatus (..),
+    ChangeStatus,
 
     -- * CidrCollectionChangeAction
-    CidrCollectionChangeAction (..),
+    CidrCollectionChangeAction,
 
     -- * CloudWatchRegion
-    CloudWatchRegion (..),
+    CloudWatchRegion,
 
     -- * ComparisonOperator
-    ComparisonOperator (..),
+    ComparisonOperator,
 
     -- * HealthCheckRegion
-    HealthCheckRegion (..),
+    HealthCheckRegion,
 
     -- * HealthCheckType
-    HealthCheckType (..),
+    HealthCheckType,
 
     -- * HostedZoneLimitType
-    HostedZoneLimitType (..),
+    HostedZoneLimitType,
 
     -- * InsufficientDataHealthStatus
-    InsufficientDataHealthStatus (..),
+    InsufficientDataHealthStatus,
 
     -- * RRType
-    RRType (..),
+    RRType,
 
     -- * ResettableElementName
-    ResettableElementName (..),
+    ResettableElementName,
 
     -- * ResourceRecordSetFailover
-    ResourceRecordSetFailover (..),
+    ResourceRecordSetFailover,
 
     -- * ReusableDelegationSetLimitType
-    ReusableDelegationSetLimitType (..),
+    ReusableDelegationSetLimitType,
 
     -- * Statistic
-    Statistic (..),
+    Statistic,
 
     -- * TagResourceType
-    TagResourceType (..),
+    TagResourceType,
 
     -- * VPCRegion
-    VPCRegion (..),
+    VPCRegion,
 
     -- * AccountLimit
-    AccountLimit (..),
+    AccountLimit,
     newAccountLimit,
     accountLimit_type,
     accountLimit_value,
 
     -- * AlarmIdentifier
-    AlarmIdentifier (..),
+    AlarmIdentifier,
     newAlarmIdentifier,
     alarmIdentifier_region,
     alarmIdentifier_name,
 
     -- * AliasTarget
-    AliasTarget (..),
+    AliasTarget,
     newAliasTarget,
     aliasTarget_hostedZoneId,
     aliasTarget_dNSName,
     aliasTarget_evaluateTargetHealth,
 
     -- * Change
-    Change (..),
+    Change,
     newChange,
     change_action,
     change_resourceRecordSet,
 
     -- * ChangeBatch
-    ChangeBatch (..),
+    ChangeBatch,
     newChangeBatch,
     changeBatch_comment,
     changeBatch_changes,
 
     -- * ChangeInfo
-    ChangeInfo (..),
+    ChangeInfo,
     newChangeInfo,
     changeInfo_comment,
     changeInfo_id,
@@ -182,13 +183,13 @@ module Amazonka.Route53.Types
     changeInfo_submittedAt,
 
     -- * CidrBlockSummary
-    CidrBlockSummary (..),
+    CidrBlockSummary,
     newCidrBlockSummary,
     cidrBlockSummary_cidrBlock,
     cidrBlockSummary_locationName,
 
     -- * CidrCollection
-    CidrCollection (..),
+    CidrCollection,
     newCidrCollection,
     cidrCollection_arn,
     cidrCollection_id,
@@ -196,20 +197,20 @@ module Amazonka.Route53.Types
     cidrCollection_version,
 
     -- * CidrCollectionChange
-    CidrCollectionChange (..),
+    CidrCollectionChange,
     newCidrCollectionChange,
     cidrCollectionChange_locationName,
     cidrCollectionChange_action,
     cidrCollectionChange_cidrList,
 
     -- * CidrRoutingConfig
-    CidrRoutingConfig (..),
+    CidrRoutingConfig,
     newCidrRoutingConfig,
     cidrRoutingConfig_collectionId,
     cidrRoutingConfig_locationName,
 
     -- * CloudWatchAlarmConfiguration
-    CloudWatchAlarmConfiguration (..),
+    CloudWatchAlarmConfiguration,
     newCloudWatchAlarmConfiguration,
     cloudWatchAlarmConfiguration_dimensions,
     cloudWatchAlarmConfiguration_evaluationPeriods,
@@ -221,7 +222,7 @@ module Amazonka.Route53.Types
     cloudWatchAlarmConfiguration_statistic,
 
     -- * CollectionSummary
-    CollectionSummary (..),
+    CollectionSummary,
     newCollectionSummary,
     collectionSummary_arn,
     collectionSummary_id,
@@ -229,33 +230,33 @@ module Amazonka.Route53.Types
     collectionSummary_version,
 
     -- * DNSSECStatus
-    DNSSECStatus (..),
+    DNSSECStatus,
     newDNSSECStatus,
     dNSSECStatus_serveSignature,
     dNSSECStatus_statusMessage,
 
     -- * DelegationSet
-    DelegationSet (..),
+    DelegationSet,
     newDelegationSet,
     delegationSet_callerReference,
     delegationSet_id,
     delegationSet_nameServers,
 
     -- * Dimension
-    Dimension (..),
+    Dimension,
     newDimension,
     dimension_name,
     dimension_value,
 
     -- * GeoLocation
-    GeoLocation (..),
+    GeoLocation,
     newGeoLocation,
     geoLocation_continentCode,
     geoLocation_countryCode,
     geoLocation_subdivisionCode,
 
     -- * GeoLocationDetails
-    GeoLocationDetails (..),
+    GeoLocationDetails,
     newGeoLocationDetails,
     geoLocationDetails_continentCode,
     geoLocationDetails_continentName,
@@ -265,7 +266,7 @@ module Amazonka.Route53.Types
     geoLocationDetails_subdivisionName,
 
     -- * HealthCheck
-    HealthCheck (..),
+    HealthCheck,
     newHealthCheck,
     healthCheck_cloudWatchAlarmConfiguration,
     healthCheck_linkedService,
@@ -275,7 +276,7 @@ module Amazonka.Route53.Types
     healthCheck_healthCheckVersion,
 
     -- * HealthCheckConfig
-    HealthCheckConfig (..),
+    HealthCheckConfig,
     newHealthCheckConfig,
     healthCheckConfig_alarmIdentifier,
     healthCheckConfig_childHealthChecks,
@@ -297,14 +298,14 @@ module Amazonka.Route53.Types
     healthCheckConfig_type,
 
     -- * HealthCheckObservation
-    HealthCheckObservation (..),
+    HealthCheckObservation,
     newHealthCheckObservation,
     healthCheckObservation_iPAddress,
     healthCheckObservation_region,
     healthCheckObservation_statusReport,
 
     -- * HostedZone
-    HostedZone (..),
+    HostedZone,
     newHostedZone,
     hostedZone_config,
     hostedZone_linkedService,
@@ -314,32 +315,32 @@ module Amazonka.Route53.Types
     hostedZone_callerReference,
 
     -- * HostedZoneConfig
-    HostedZoneConfig (..),
+    HostedZoneConfig,
     newHostedZoneConfig,
     hostedZoneConfig_comment,
     hostedZoneConfig_privateZone,
 
     -- * HostedZoneLimit
-    HostedZoneLimit (..),
+    HostedZoneLimit,
     newHostedZoneLimit,
     hostedZoneLimit_type,
     hostedZoneLimit_value,
 
     -- * HostedZoneOwner
-    HostedZoneOwner (..),
+    HostedZoneOwner,
     newHostedZoneOwner,
     hostedZoneOwner_owningAccount,
     hostedZoneOwner_owningService,
 
     -- * HostedZoneSummary
-    HostedZoneSummary (..),
+    HostedZoneSummary,
     newHostedZoneSummary,
     hostedZoneSummary_hostedZoneId,
     hostedZoneSummary_name,
     hostedZoneSummary_owner,
 
     -- * KeySigningKey
-    KeySigningKey (..),
+    KeySigningKey,
     newKeySigningKey,
     keySigningKey_createdDate,
     keySigningKey_dNSKEYRecord,
@@ -359,30 +360,30 @@ module Amazonka.Route53.Types
     keySigningKey_statusMessage,
 
     -- * LinkedService
-    LinkedService (..),
+    LinkedService,
     newLinkedService,
     linkedService_description,
     linkedService_servicePrincipal,
 
     -- * LocationSummary
-    LocationSummary (..),
+    LocationSummary,
     newLocationSummary,
     locationSummary_locationName,
 
     -- * QueryLoggingConfig
-    QueryLoggingConfig (..),
+    QueryLoggingConfig,
     newQueryLoggingConfig,
     queryLoggingConfig_id,
     queryLoggingConfig_hostedZoneId,
     queryLoggingConfig_cloudWatchLogsLogGroupArn,
 
     -- * ResourceRecord
-    ResourceRecord (..),
+    ResourceRecord,
     newResourceRecord,
     resourceRecord_value,
 
     -- * ResourceRecordSet
-    ResourceRecordSet (..),
+    ResourceRecordSet,
     newResourceRecordSet,
     resourceRecordSet_aliasTarget,
     resourceRecordSet_cidrRoutingConfig,
@@ -400,32 +401,32 @@ module Amazonka.Route53.Types
     resourceRecordSet_type,
 
     -- * ResourceTagSet
-    ResourceTagSet (..),
+    ResourceTagSet,
     newResourceTagSet,
     resourceTagSet_resourceId,
     resourceTagSet_resourceType,
     resourceTagSet_tags,
 
     -- * ReusableDelegationSetLimit
-    ReusableDelegationSetLimit (..),
+    ReusableDelegationSetLimit,
     newReusableDelegationSetLimit,
     reusableDelegationSetLimit_type,
     reusableDelegationSetLimit_value,
 
     -- * StatusReport
-    StatusReport (..),
+    StatusReport,
     newStatusReport,
     statusReport_checkedTime,
     statusReport_status,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,
 
     -- * TrafficPolicy
-    TrafficPolicy (..),
+    TrafficPolicy,
     newTrafficPolicy,
     trafficPolicy_comment,
     trafficPolicy_id,
@@ -435,7 +436,7 @@ module Amazonka.Route53.Types
     trafficPolicy_document,
 
     -- * TrafficPolicyInstance
-    TrafficPolicyInstance (..),
+    TrafficPolicyInstance,
     newTrafficPolicyInstance,
     trafficPolicyInstance_id,
     trafficPolicyInstance_hostedZoneId,
@@ -448,7 +449,7 @@ module Amazonka.Route53.Types
     trafficPolicyInstance_trafficPolicyType,
 
     -- * TrafficPolicySummary
-    TrafficPolicySummary (..),
+    TrafficPolicySummary,
     newTrafficPolicySummary,
     trafficPolicySummary_id,
     trafficPolicySummary_name,
@@ -457,7 +458,7 @@ module Amazonka.Route53.Types
     trafficPolicySummary_trafficPolicyCount,
 
     -- * VPC
-    VPC (..),
+    VPC,
     newVPC,
     vpc_vPCId,
     vpc_vPCRegion,

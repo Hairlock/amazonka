@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -27,83 +28,83 @@ module Amazonka.Proton.Types
     _ValidationException,
 
     -- * ComponentDeploymentUpdateType
-    ComponentDeploymentUpdateType (..),
+    ComponentDeploymentUpdateType,
 
     -- * DeploymentStatus
-    DeploymentStatus (..),
+    DeploymentStatus,
 
     -- * DeploymentUpdateType
-    DeploymentUpdateType (..),
+    DeploymentUpdateType,
 
     -- * EnvironmentAccountConnectionRequesterAccountType
-    EnvironmentAccountConnectionRequesterAccountType (..),
+    EnvironmentAccountConnectionRequesterAccountType,
 
     -- * EnvironmentAccountConnectionStatus
-    EnvironmentAccountConnectionStatus (..),
+    EnvironmentAccountConnectionStatus,
 
     -- * ListServiceInstancesFilterBy
-    ListServiceInstancesFilterBy (..),
+    ListServiceInstancesFilterBy,
 
     -- * ListServiceInstancesSortBy
-    ListServiceInstancesSortBy (..),
+    ListServiceInstancesSortBy,
 
     -- * ProvisionedResourceEngine
-    ProvisionedResourceEngine (..),
+    ProvisionedResourceEngine,
 
     -- * Provisioning
-    Provisioning (..),
+    Provisioning,
 
     -- * RepositoryProvider
-    RepositoryProvider (..),
+    RepositoryProvider,
 
     -- * RepositorySyncStatus
-    RepositorySyncStatus (..),
+    RepositorySyncStatus,
 
     -- * ResourceDeploymentStatus
-    ResourceDeploymentStatus (..),
+    ResourceDeploymentStatus,
 
     -- * ResourceSyncStatus
-    ResourceSyncStatus (..),
+    ResourceSyncStatus,
 
     -- * ServiceStatus
-    ServiceStatus (..),
+    ServiceStatus,
 
     -- * ServiceTemplateSupportedComponentSourceType
-    ServiceTemplateSupportedComponentSourceType (..),
+    ServiceTemplateSupportedComponentSourceType,
 
     -- * SortOrder
-    SortOrder (..),
+    SortOrder,
 
     -- * SyncType
-    SyncType (..),
+    SyncType,
 
     -- * TemplateType
-    TemplateType (..),
+    TemplateType,
 
     -- * TemplateVersionStatus
-    TemplateVersionStatus (..),
+    TemplateVersionStatus,
 
     -- * AccountSettings
-    AccountSettings (..),
+    AccountSettings,
     newAccountSettings,
     accountSettings_pipelineCodebuildRoleArn,
     accountSettings_pipelineProvisioningRepository,
     accountSettings_pipelineServiceRoleArn,
 
     -- * CompatibleEnvironmentTemplate
-    CompatibleEnvironmentTemplate (..),
+    CompatibleEnvironmentTemplate,
     newCompatibleEnvironmentTemplate,
     compatibleEnvironmentTemplate_majorVersion,
     compatibleEnvironmentTemplate_templateName,
 
     -- * CompatibleEnvironmentTemplateInput
-    CompatibleEnvironmentTemplateInput (..),
+    CompatibleEnvironmentTemplateInput,
     newCompatibleEnvironmentTemplateInput,
     compatibleEnvironmentTemplateInput_majorVersion,
     compatibleEnvironmentTemplateInput_templateName,
 
     -- * Component
-    Component (..),
+    Component,
     newComponent,
     component_deploymentStatusMessage,
     component_description,
@@ -120,7 +121,7 @@ module Amazonka.Proton.Types
     component_name,
 
     -- * ComponentSummary
-    ComponentSummary (..),
+    ComponentSummary,
     newComponentSummary,
     componentSummary_deploymentStatusMessage,
     componentSummary_lastDeploymentAttemptedAt,
@@ -135,7 +136,7 @@ module Amazonka.Proton.Types
     componentSummary_name,
 
     -- * Environment
-    Environment (..),
+    Environment,
     newEnvironment,
     environment_codebuildRoleArn,
     environment_componentRoleArn,
@@ -158,7 +159,7 @@ module Amazonka.Proton.Types
     environment_templateName,
 
     -- * EnvironmentAccountConnection
-    EnvironmentAccountConnection (..),
+    EnvironmentAccountConnection,
     newEnvironmentAccountConnection,
     environmentAccountConnection_codebuildRoleArn,
     environmentAccountConnection_componentRoleArn,
@@ -173,7 +174,7 @@ module Amazonka.Proton.Types
     environmentAccountConnection_status,
 
     -- * EnvironmentAccountConnectionSummary
-    EnvironmentAccountConnectionSummary (..),
+    EnvironmentAccountConnectionSummary,
     newEnvironmentAccountConnectionSummary,
     environmentAccountConnectionSummary_componentRoleArn,
     environmentAccountConnectionSummary_arn,
@@ -187,7 +188,7 @@ module Amazonka.Proton.Types
     environmentAccountConnectionSummary_status,
 
     -- * EnvironmentSummary
-    EnvironmentSummary (..),
+    EnvironmentSummary,
     newEnvironmentSummary,
     environmentSummary_componentRoleArn,
     environmentSummary_deploymentStatusMessage,
@@ -207,7 +208,7 @@ module Amazonka.Proton.Types
     environmentSummary_templateName,
 
     -- * EnvironmentTemplate
-    EnvironmentTemplate (..),
+    EnvironmentTemplate,
     newEnvironmentTemplate,
     environmentTemplate_description,
     environmentTemplate_displayName,
@@ -220,13 +221,13 @@ module Amazonka.Proton.Types
     environmentTemplate_name,
 
     -- * EnvironmentTemplateFilter
-    EnvironmentTemplateFilter (..),
+    EnvironmentTemplateFilter,
     newEnvironmentTemplateFilter,
     environmentTemplateFilter_majorVersion,
     environmentTemplateFilter_templateName,
 
     -- * EnvironmentTemplateSummary
-    EnvironmentTemplateSummary (..),
+    EnvironmentTemplateSummary,
     newEnvironmentTemplateSummary,
     environmentTemplateSummary_description,
     environmentTemplateSummary_displayName,
@@ -238,7 +239,7 @@ module Amazonka.Proton.Types
     environmentTemplateSummary_name,
 
     -- * EnvironmentTemplateVersion
-    EnvironmentTemplateVersion (..),
+    EnvironmentTemplateVersion,
     newEnvironmentTemplateVersion,
     environmentTemplateVersion_description,
     environmentTemplateVersion_recommendedMinorVersion,
@@ -253,7 +254,7 @@ module Amazonka.Proton.Types
     environmentTemplateVersion_templateName,
 
     -- * EnvironmentTemplateVersionSummary
-    EnvironmentTemplateVersionSummary (..),
+    EnvironmentTemplateVersionSummary,
     newEnvironmentTemplateVersionSummary,
     environmentTemplateVersionSummary_description,
     environmentTemplateVersionSummary_recommendedMinorVersion,
@@ -267,26 +268,26 @@ module Amazonka.Proton.Types
     environmentTemplateVersionSummary_templateName,
 
     -- * ListServiceInstancesFilter
-    ListServiceInstancesFilter (..),
+    ListServiceInstancesFilter,
     newListServiceInstancesFilter,
     listServiceInstancesFilter_key,
     listServiceInstancesFilter_value,
 
     -- * Output
-    Output (..),
+    Output,
     newOutput,
     output_key,
     output_valueString,
 
     -- * ProvisionedResource
-    ProvisionedResource (..),
+    ProvisionedResource,
     newProvisionedResource,
     provisionedResource_identifier,
     provisionedResource_name,
     provisionedResource_provisioningEngine,
 
     -- * Repository
-    Repository (..),
+    Repository,
     newRepository,
     repository_encryptionKey,
     repository_arn,
@@ -295,7 +296,7 @@ module Amazonka.Proton.Types
     repository_provider,
 
     -- * RepositoryBranch
-    RepositoryBranch (..),
+    RepositoryBranch,
     newRepositoryBranch,
     repositoryBranch_arn,
     repositoryBranch_branch,
@@ -303,28 +304,28 @@ module Amazonka.Proton.Types
     repositoryBranch_provider,
 
     -- * RepositoryBranchInput
-    RepositoryBranchInput (..),
+    RepositoryBranchInput,
     newRepositoryBranchInput,
     repositoryBranchInput_branch,
     repositoryBranchInput_name,
     repositoryBranchInput_provider,
 
     -- * RepositorySummary
-    RepositorySummary (..),
+    RepositorySummary,
     newRepositorySummary,
     repositorySummary_arn,
     repositorySummary_name,
     repositorySummary_provider,
 
     -- * RepositorySyncAttempt
-    RepositorySyncAttempt (..),
+    RepositorySyncAttempt,
     newRepositorySyncAttempt,
     repositorySyncAttempt_events,
     repositorySyncAttempt_startedAt,
     repositorySyncAttempt_status,
 
     -- * RepositorySyncDefinition
-    RepositorySyncDefinition (..),
+    RepositorySyncDefinition,
     newRepositorySyncDefinition,
     repositorySyncDefinition_branch,
     repositorySyncDefinition_directory,
@@ -332,7 +333,7 @@ module Amazonka.Proton.Types
     repositorySyncDefinition_target,
 
     -- * RepositorySyncEvent
-    RepositorySyncEvent (..),
+    RepositorySyncEvent,
     newRepositorySyncEvent,
     repositorySyncEvent_externalId,
     repositorySyncEvent_event,
@@ -340,7 +341,7 @@ module Amazonka.Proton.Types
     repositorySyncEvent_type,
 
     -- * ResourceSyncAttempt
-    ResourceSyncAttempt (..),
+    ResourceSyncAttempt,
     newResourceSyncAttempt,
     resourceSyncAttempt_events,
     resourceSyncAttempt_initialRevision,
@@ -350,7 +351,7 @@ module Amazonka.Proton.Types
     resourceSyncAttempt_targetRevision,
 
     -- * ResourceSyncEvent
-    ResourceSyncEvent (..),
+    ResourceSyncEvent,
     newResourceSyncEvent,
     resourceSyncEvent_externalId,
     resourceSyncEvent_event,
@@ -358,7 +359,7 @@ module Amazonka.Proton.Types
     resourceSyncEvent_type,
 
     -- * Revision
-    Revision (..),
+    Revision,
     newRevision,
     revision_branch,
     revision_directory,
@@ -367,13 +368,13 @@ module Amazonka.Proton.Types
     revision_sha,
 
     -- * S3ObjectSource
-    S3ObjectSource (..),
+    S3ObjectSource,
     newS3ObjectSource,
     s3ObjectSource_bucket,
     s3ObjectSource_key,
 
     -- * Service
-    Service (..),
+    Service,
     newService,
     service_branchName,
     service_description,
@@ -390,7 +391,7 @@ module Amazonka.Proton.Types
     service_templateName,
 
     -- * ServiceInstance
-    ServiceInstance (..),
+    ServiceInstance,
     newServiceInstance,
     serviceInstance_deploymentStatusMessage,
     serviceInstance_spec,
@@ -407,7 +408,7 @@ module Amazonka.Proton.Types
     serviceInstance_templateName,
 
     -- * ServiceInstanceSummary
-    ServiceInstanceSummary (..),
+    ServiceInstanceSummary,
     newServiceInstanceSummary,
     serviceInstanceSummary_deploymentStatusMessage,
     serviceInstanceSummary_arn,
@@ -423,7 +424,7 @@ module Amazonka.Proton.Types
     serviceInstanceSummary_templateName,
 
     -- * ServicePipeline
-    ServicePipeline (..),
+    ServicePipeline,
     newServicePipeline,
     servicePipeline_deploymentStatusMessage,
     servicePipeline_spec,
@@ -437,7 +438,7 @@ module Amazonka.Proton.Types
     servicePipeline_templateName,
 
     -- * ServiceSummary
-    ServiceSummary (..),
+    ServiceSummary,
     newServiceSummary,
     serviceSummary_description,
     serviceSummary_statusMessage,
@@ -449,7 +450,7 @@ module Amazonka.Proton.Types
     serviceSummary_templateName,
 
     -- * ServiceTemplate
-    ServiceTemplate (..),
+    ServiceTemplate,
     newServiceTemplate,
     serviceTemplate_description,
     serviceTemplate_displayName,
@@ -462,7 +463,7 @@ module Amazonka.Proton.Types
     serviceTemplate_name,
 
     -- * ServiceTemplateSummary
-    ServiceTemplateSummary (..),
+    ServiceTemplateSummary,
     newServiceTemplateSummary,
     serviceTemplateSummary_description,
     serviceTemplateSummary_displayName,
@@ -474,7 +475,7 @@ module Amazonka.Proton.Types
     serviceTemplateSummary_name,
 
     -- * ServiceTemplateVersion
-    ServiceTemplateVersion (..),
+    ServiceTemplateVersion,
     newServiceTemplateVersion,
     serviceTemplateVersion_description,
     serviceTemplateVersion_recommendedMinorVersion,
@@ -491,7 +492,7 @@ module Amazonka.Proton.Types
     serviceTemplateVersion_templateName,
 
     -- * ServiceTemplateVersionSummary
-    ServiceTemplateVersionSummary (..),
+    ServiceTemplateVersionSummary,
     newServiceTemplateVersionSummary,
     serviceTemplateVersionSummary_description,
     serviceTemplateVersionSummary_recommendedMinorVersion,
@@ -505,13 +506,13 @@ module Amazonka.Proton.Types
     serviceTemplateVersionSummary_templateName,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,
 
     -- * TemplateSyncConfig
-    TemplateSyncConfig (..),
+    TemplateSyncConfig,
     newTemplateSyncConfig,
     templateSyncConfig_subdirectory,
     templateSyncConfig_branch,
@@ -521,7 +522,7 @@ module Amazonka.Proton.Types
     templateSyncConfig_templateType,
 
     -- * TemplateVersionSourceInput
-    TemplateVersionSourceInput (..),
+    TemplateVersionSourceInput,
     newTemplateVersionSourceInput,
     templateVersionSourceInput_s3,
   )

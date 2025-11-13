@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -67,55 +68,55 @@ module Amazonka.Organizations.Types
     _UnsupportedAPIEndpointException,
 
     -- * AccountJoinedMethod
-    AccountJoinedMethod (..),
+    AccountJoinedMethod,
 
     -- * AccountStatus
-    AccountStatus (..),
+    AccountStatus,
 
     -- * ActionType
-    ActionType (..),
+    ActionType,
 
     -- * ChildType
-    ChildType (..),
+    ChildType,
 
     -- * CreateAccountFailureReason
-    CreateAccountFailureReason (..),
+    CreateAccountFailureReason,
 
     -- * CreateAccountState
-    CreateAccountState (..),
+    CreateAccountState,
 
     -- * EffectivePolicyType
-    EffectivePolicyType (..),
+    EffectivePolicyType,
 
     -- * HandshakePartyType
-    HandshakePartyType (..),
+    HandshakePartyType,
 
     -- * HandshakeResourceType
-    HandshakeResourceType (..),
+    HandshakeResourceType,
 
     -- * HandshakeState
-    HandshakeState (..),
+    HandshakeState,
 
     -- * IAMUserAccessToBilling
-    IAMUserAccessToBilling (..),
+    IAMUserAccessToBilling,
 
     -- * OrganizationFeatureSet
-    OrganizationFeatureSet (..),
+    OrganizationFeatureSet,
 
     -- * ParentType
-    ParentType (..),
+    ParentType,
 
     -- * PolicyType
-    PolicyType (..),
+    PolicyType,
 
     -- * PolicyTypeStatus
-    PolicyTypeStatus (..),
+    PolicyTypeStatus,
 
     -- * TargetType
-    TargetType (..),
+    TargetType,
 
     -- * Account
-    Account (..),
+    Account,
     newAccount,
     account_arn,
     account_email,
@@ -126,13 +127,13 @@ module Amazonka.Organizations.Types
     account_status,
 
     -- * Child
-    Child (..),
+    Child,
     newChild,
     child_id,
     child_type,
 
     -- * CreateAccountStatus
-    CreateAccountStatus (..),
+    CreateAccountStatus,
     newCreateAccountStatus,
     createAccountStatus_accountId,
     createAccountStatus_accountName,
@@ -144,7 +145,7 @@ module Amazonka.Organizations.Types
     createAccountStatus_state,
 
     -- * DelegatedAdministrator
-    DelegatedAdministrator (..),
+    DelegatedAdministrator,
     newDelegatedAdministrator,
     delegatedAdministrator_arn,
     delegatedAdministrator_delegationEnabledDate,
@@ -156,13 +157,13 @@ module Amazonka.Organizations.Types
     delegatedAdministrator_status,
 
     -- * DelegatedService
-    DelegatedService (..),
+    DelegatedService,
     newDelegatedService,
     delegatedService_delegationEnabledDate,
     delegatedService_servicePrincipal,
 
     -- * EffectivePolicy
-    EffectivePolicy (..),
+    EffectivePolicy,
     newEffectivePolicy,
     effectivePolicy_lastUpdatedTimestamp,
     effectivePolicy_policyContent,
@@ -170,13 +171,13 @@ module Amazonka.Organizations.Types
     effectivePolicy_targetId,
 
     -- * EnabledServicePrincipal
-    EnabledServicePrincipal (..),
+    EnabledServicePrincipal,
     newEnabledServicePrincipal,
     enabledServicePrincipal_dateEnabled,
     enabledServicePrincipal_servicePrincipal,
 
     -- * Handshake
-    Handshake (..),
+    Handshake,
     newHandshake,
     handshake_action,
     handshake_arn,
@@ -188,26 +189,26 @@ module Amazonka.Organizations.Types
     handshake_state,
 
     -- * HandshakeFilter
-    HandshakeFilter (..),
+    HandshakeFilter,
     newHandshakeFilter,
     handshakeFilter_actionType,
     handshakeFilter_parentHandshakeId,
 
     -- * HandshakeParty
-    HandshakeParty (..),
+    HandshakeParty,
     newHandshakeParty,
     handshakeParty_id,
     handshakeParty_type,
 
     -- * HandshakeResource
-    HandshakeResource (..),
+    HandshakeResource,
     newHandshakeResource,
     handshakeResource_resources,
     handshakeResource_type,
     handshakeResource_value,
 
     -- * Organization
-    Organization (..),
+    Organization,
     newOrganization,
     organization_arn,
     organization_availablePolicyTypes,
@@ -218,26 +219,26 @@ module Amazonka.Organizations.Types
     organization_masterAccountId,
 
     -- * OrganizationalUnit
-    OrganizationalUnit (..),
+    OrganizationalUnit,
     newOrganizationalUnit,
     organizationalUnit_arn,
     organizationalUnit_id,
     organizationalUnit_name,
 
     -- * Parent
-    Parent (..),
+    Parent,
     newParent,
     parent_id,
     parent_type,
 
     -- * Policy
-    Policy (..),
+    Policy,
     newPolicy,
     policy_content,
     policy_policySummary,
 
     -- * PolicySummary
-    PolicySummary (..),
+    PolicySummary,
     newPolicySummary,
     policySummary_arn,
     policySummary_awsManaged,
@@ -247,7 +248,7 @@ module Amazonka.Organizations.Types
     policySummary_type,
 
     -- * PolicyTargetSummary
-    PolicyTargetSummary (..),
+    PolicyTargetSummary,
     newPolicyTargetSummary,
     policyTargetSummary_arn,
     policyTargetSummary_name,
@@ -255,25 +256,25 @@ module Amazonka.Organizations.Types
     policyTargetSummary_type,
 
     -- * PolicyTypeSummary
-    PolicyTypeSummary (..),
+    PolicyTypeSummary,
     newPolicyTypeSummary,
     policyTypeSummary_status,
     policyTypeSummary_type,
 
     -- * ResourcePolicy
-    ResourcePolicy (..),
+    ResourcePolicy,
     newResourcePolicy,
     resourcePolicy_content,
     resourcePolicy_resourcePolicySummary,
 
     -- * ResourcePolicySummary
-    ResourcePolicySummary (..),
+    ResourcePolicySummary,
     newResourcePolicySummary,
     resourcePolicySummary_arn,
     resourcePolicySummary_id,
 
     -- * Root
-    Root (..),
+    Root,
     newRoot,
     root_arn,
     root_id,
@@ -281,7 +282,7 @@ module Amazonka.Organizations.Types
     root_policyTypes,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,

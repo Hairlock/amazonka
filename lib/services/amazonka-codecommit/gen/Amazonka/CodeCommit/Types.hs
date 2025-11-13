@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -205,58 +206,58 @@ module Amazonka.CodeCommit.Types
     _TooManyTagsException,
 
     -- * ApprovalState
-    ApprovalState (..),
+    ApprovalState,
 
     -- * ChangeTypeEnum
-    ChangeTypeEnum (..),
+    ChangeTypeEnum,
 
     -- * ConflictDetailLevelTypeEnum
-    ConflictDetailLevelTypeEnum (..),
+    ConflictDetailLevelTypeEnum,
 
     -- * ConflictResolutionStrategyTypeEnum
-    ConflictResolutionStrategyTypeEnum (..),
+    ConflictResolutionStrategyTypeEnum,
 
     -- * FileModeTypeEnum
-    FileModeTypeEnum (..),
+    FileModeTypeEnum,
 
     -- * MergeOptionTypeEnum
-    MergeOptionTypeEnum (..),
+    MergeOptionTypeEnum,
 
     -- * ObjectTypeEnum
-    ObjectTypeEnum (..),
+    ObjectTypeEnum,
 
     -- * OrderEnum
-    OrderEnum (..),
+    OrderEnum,
 
     -- * OverrideStatus
-    OverrideStatus (..),
+    OverrideStatus,
 
     -- * PullRequestEventType
-    PullRequestEventType (..),
+    PullRequestEventType,
 
     -- * PullRequestStatusEnum
-    PullRequestStatusEnum (..),
+    PullRequestStatusEnum,
 
     -- * RelativeFileVersionEnum
-    RelativeFileVersionEnum (..),
+    RelativeFileVersionEnum,
 
     -- * ReplacementTypeEnum
-    ReplacementTypeEnum (..),
+    ReplacementTypeEnum,
 
     -- * RepositoryTriggerEventEnum
-    RepositoryTriggerEventEnum (..),
+    RepositoryTriggerEventEnum,
 
     -- * SortByEnum
-    SortByEnum (..),
+    SortByEnum,
 
     -- * Approval
-    Approval (..),
+    Approval,
     newApproval,
     approval_approvalState,
     approval_userArn,
 
     -- * ApprovalRule
-    ApprovalRule (..),
+    ApprovalRule,
     newApprovalRule,
     approvalRule_approvalRuleContent,
     approvalRule_approvalRuleId,
@@ -268,20 +269,20 @@ module Amazonka.CodeCommit.Types
     approvalRule_ruleContentSha256,
 
     -- * ApprovalRuleEventMetadata
-    ApprovalRuleEventMetadata (..),
+    ApprovalRuleEventMetadata,
     newApprovalRuleEventMetadata,
     approvalRuleEventMetadata_approvalRuleContent,
     approvalRuleEventMetadata_approvalRuleId,
     approvalRuleEventMetadata_approvalRuleName,
 
     -- * ApprovalRuleOverriddenEventMetadata
-    ApprovalRuleOverriddenEventMetadata (..),
+    ApprovalRuleOverriddenEventMetadata,
     newApprovalRuleOverriddenEventMetadata,
     approvalRuleOverriddenEventMetadata_overrideStatus,
     approvalRuleOverriddenEventMetadata_revisionId,
 
     -- * ApprovalRuleTemplate
-    ApprovalRuleTemplate (..),
+    ApprovalRuleTemplate,
     newApprovalRuleTemplate,
     approvalRuleTemplate_approvalRuleTemplateContent,
     approvalRuleTemplate_approvalRuleTemplateDescription,
@@ -293,54 +294,54 @@ module Amazonka.CodeCommit.Types
     approvalRuleTemplate_ruleContentSha256,
 
     -- * ApprovalStateChangedEventMetadata
-    ApprovalStateChangedEventMetadata (..),
+    ApprovalStateChangedEventMetadata,
     newApprovalStateChangedEventMetadata,
     approvalStateChangedEventMetadata_approvalStatus,
     approvalStateChangedEventMetadata_revisionId,
 
     -- * BatchAssociateApprovalRuleTemplateWithRepositoriesError
-    BatchAssociateApprovalRuleTemplateWithRepositoriesError (..),
+    BatchAssociateApprovalRuleTemplateWithRepositoriesError,
     newBatchAssociateApprovalRuleTemplateWithRepositoriesError,
     batchAssociateApprovalRuleTemplateWithRepositoriesError_errorCode,
     batchAssociateApprovalRuleTemplateWithRepositoriesError_errorMessage,
     batchAssociateApprovalRuleTemplateWithRepositoriesError_repositoryName,
 
     -- * BatchDescribeMergeConflictsError
-    BatchDescribeMergeConflictsError (..),
+    BatchDescribeMergeConflictsError,
     newBatchDescribeMergeConflictsError,
     batchDescribeMergeConflictsError_filePath,
     batchDescribeMergeConflictsError_exceptionName,
     batchDescribeMergeConflictsError_message,
 
     -- * BatchDisassociateApprovalRuleTemplateFromRepositoriesError
-    BatchDisassociateApprovalRuleTemplateFromRepositoriesError (..),
+    BatchDisassociateApprovalRuleTemplateFromRepositoriesError,
     newBatchDisassociateApprovalRuleTemplateFromRepositoriesError,
     batchDisassociateApprovalRuleTemplateFromRepositoriesError_errorCode,
     batchDisassociateApprovalRuleTemplateFromRepositoriesError_errorMessage,
     batchDisassociateApprovalRuleTemplateFromRepositoriesError_repositoryName,
 
     -- * BatchGetCommitsError
-    BatchGetCommitsError (..),
+    BatchGetCommitsError,
     newBatchGetCommitsError,
     batchGetCommitsError_commitId,
     batchGetCommitsError_errorCode,
     batchGetCommitsError_errorMessage,
 
     -- * BlobMetadata
-    BlobMetadata (..),
+    BlobMetadata,
     newBlobMetadata,
     blobMetadata_blobId,
     blobMetadata_mode,
     blobMetadata_path,
 
     -- * BranchInfo
-    BranchInfo (..),
+    BranchInfo,
     newBranchInfo,
     branchInfo_branchName,
     branchInfo_commitId,
 
     -- * Comment
-    Comment (..),
+    Comment,
     newComment,
     comment_authorArn,
     comment_callerReactions,
@@ -354,7 +355,7 @@ module Amazonka.CodeCommit.Types
     comment_reactionCounts,
 
     -- * CommentsForComparedCommit
-    CommentsForComparedCommit (..),
+    CommentsForComparedCommit,
     newCommentsForComparedCommit,
     commentsForComparedCommit_afterBlobId,
     commentsForComparedCommit_afterCommitId,
@@ -365,7 +366,7 @@ module Amazonka.CodeCommit.Types
     commentsForComparedCommit_repositoryName,
 
     -- * CommentsForPullRequest
-    CommentsForPullRequest (..),
+    CommentsForPullRequest,
     newCommentsForPullRequest,
     commentsForPullRequest_afterBlobId,
     commentsForPullRequest_afterCommitId,
@@ -377,7 +378,7 @@ module Amazonka.CodeCommit.Types
     commentsForPullRequest_repositoryName,
 
     -- * Commit
-    Commit (..),
+    Commit,
     newCommit,
     commit_additionalData,
     commit_author,
@@ -388,13 +389,13 @@ module Amazonka.CodeCommit.Types
     commit_treeId,
 
     -- * Conflict
-    Conflict (..),
+    Conflict,
     newConflict,
     conflict_conflictMetadata,
     conflict_mergeHunks,
 
     -- * ConflictMetadata
-    ConflictMetadata (..),
+    ConflictMetadata,
     newConflictMetadata,
     conflictMetadata_contentConflict,
     conflictMetadata_fileModeConflict,
@@ -408,26 +409,26 @@ module Amazonka.CodeCommit.Types
     conflictMetadata_objectTypes,
 
     -- * ConflictResolution
-    ConflictResolution (..),
+    ConflictResolution,
     newConflictResolution,
     conflictResolution_deleteFiles,
     conflictResolution_replaceContents,
     conflictResolution_setFileModes,
 
     -- * DeleteFileEntry
-    DeleteFileEntry (..),
+    DeleteFileEntry,
     newDeleteFileEntry,
     deleteFileEntry_filePath,
 
     -- * Difference
-    Difference (..),
+    Difference,
     newDifference,
     difference_afterBlob,
     difference_beforeBlob,
     difference_changeType,
 
     -- * Evaluation
-    Evaluation (..),
+    Evaluation,
     newEvaluation,
     evaluation_approvalRulesNotSatisfied,
     evaluation_approvalRulesSatisfied,
@@ -435,7 +436,7 @@ module Amazonka.CodeCommit.Types
     evaluation_overridden,
 
     -- * File
-    File (..),
+    File,
     newFile,
     file_absolutePath,
     file_blobId,
@@ -443,49 +444,49 @@ module Amazonka.CodeCommit.Types
     file_relativePath,
 
     -- * FileMetadata
-    FileMetadata (..),
+    FileMetadata,
     newFileMetadata,
     fileMetadata_absolutePath,
     fileMetadata_blobId,
     fileMetadata_fileMode,
 
     -- * FileModes
-    FileModes (..),
+    FileModes,
     newFileModes,
     fileModes_base,
     fileModes_destination,
     fileModes_source,
 
     -- * FileSizes
-    FileSizes (..),
+    FileSizes,
     newFileSizes,
     fileSizes_base,
     fileSizes_destination,
     fileSizes_source,
 
     -- * Folder
-    Folder (..),
+    Folder,
     newFolder,
     folder_absolutePath,
     folder_relativePath,
     folder_treeId,
 
     -- * IsBinaryFile
-    IsBinaryFile (..),
+    IsBinaryFile,
     newIsBinaryFile,
     isBinaryFile_base,
     isBinaryFile_destination,
     isBinaryFile_source,
 
     -- * Location
-    Location (..),
+    Location,
     newLocation,
     location_filePath,
     location_filePosition,
     location_relativeFileVersion,
 
     -- * MergeHunk
-    MergeHunk (..),
+    MergeHunk,
     newMergeHunk,
     mergeHunk_base,
     mergeHunk_destination,
@@ -493,14 +494,14 @@ module Amazonka.CodeCommit.Types
     mergeHunk_source,
 
     -- * MergeHunkDetail
-    MergeHunkDetail (..),
+    MergeHunkDetail,
     newMergeHunkDetail,
     mergeHunkDetail_endLine,
     mergeHunkDetail_hunkContent,
     mergeHunkDetail_startLine,
 
     -- * MergeMetadata
-    MergeMetadata (..),
+    MergeMetadata,
     newMergeMetadata,
     mergeMetadata_isMerged,
     mergeMetadata_mergeCommitId,
@@ -508,26 +509,26 @@ module Amazonka.CodeCommit.Types
     mergeMetadata_mergedBy,
 
     -- * MergeOperations
-    MergeOperations (..),
+    MergeOperations,
     newMergeOperations,
     mergeOperations_destination,
     mergeOperations_source,
 
     -- * ObjectTypes
-    ObjectTypes (..),
+    ObjectTypes,
     newObjectTypes,
     objectTypes_base,
     objectTypes_destination,
     objectTypes_source,
 
     -- * OriginApprovalRuleTemplate
-    OriginApprovalRuleTemplate (..),
+    OriginApprovalRuleTemplate,
     newOriginApprovalRuleTemplate,
     originApprovalRuleTemplate_approvalRuleTemplateId,
     originApprovalRuleTemplate_approvalRuleTemplateName,
 
     -- * PullRequest
-    PullRequest (..),
+    PullRequest,
     newPullRequest,
     pullRequest_approvalRules,
     pullRequest_authorArn,
@@ -542,7 +543,7 @@ module Amazonka.CodeCommit.Types
     pullRequest_title,
 
     -- * PullRequestCreatedEventMetadata
-    PullRequestCreatedEventMetadata (..),
+    PullRequestCreatedEventMetadata,
     newPullRequestCreatedEventMetadata,
     pullRequestCreatedEventMetadata_destinationCommitId,
     pullRequestCreatedEventMetadata_mergeBase,
@@ -550,7 +551,7 @@ module Amazonka.CodeCommit.Types
     pullRequestCreatedEventMetadata_sourceCommitId,
 
     -- * PullRequestEvent
-    PullRequestEvent (..),
+    PullRequestEvent,
     newPullRequestEvent,
     pullRequestEvent_actorArn,
     pullRequestEvent_approvalRuleEventMetadata,
@@ -565,14 +566,14 @@ module Amazonka.CodeCommit.Types
     pullRequestEvent_pullRequestStatusChangedEventMetadata,
 
     -- * PullRequestMergedStateChangedEventMetadata
-    PullRequestMergedStateChangedEventMetadata (..),
+    PullRequestMergedStateChangedEventMetadata,
     newPullRequestMergedStateChangedEventMetadata,
     pullRequestMergedStateChangedEventMetadata_destinationReference,
     pullRequestMergedStateChangedEventMetadata_mergeMetadata,
     pullRequestMergedStateChangedEventMetadata_repositoryName,
 
     -- * PullRequestSourceReferenceUpdatedEventMetadata
-    PullRequestSourceReferenceUpdatedEventMetadata (..),
+    PullRequestSourceReferenceUpdatedEventMetadata,
     newPullRequestSourceReferenceUpdatedEventMetadata,
     pullRequestSourceReferenceUpdatedEventMetadata_afterCommitId,
     pullRequestSourceReferenceUpdatedEventMetadata_beforeCommitId,
@@ -580,12 +581,12 @@ module Amazonka.CodeCommit.Types
     pullRequestSourceReferenceUpdatedEventMetadata_repositoryName,
 
     -- * PullRequestStatusChangedEventMetadata
-    PullRequestStatusChangedEventMetadata (..),
+    PullRequestStatusChangedEventMetadata,
     newPullRequestStatusChangedEventMetadata,
     pullRequestStatusChangedEventMetadata_pullRequestStatus,
 
     -- * PullRequestTarget
-    PullRequestTarget (..),
+    PullRequestTarget,
     newPullRequestTarget,
     pullRequestTarget_destinationCommit,
     pullRequestTarget_destinationReference,
@@ -596,7 +597,7 @@ module Amazonka.CodeCommit.Types
     pullRequestTarget_sourceReference,
 
     -- * PutFileEntry
-    PutFileEntry (..),
+    PutFileEntry,
     newPutFileEntry,
     putFileEntry_fileContent,
     putFileEntry_fileMode,
@@ -604,21 +605,21 @@ module Amazonka.CodeCommit.Types
     putFileEntry_filePath,
 
     -- * ReactionForComment
-    ReactionForComment (..),
+    ReactionForComment,
     newReactionForComment,
     reactionForComment_reaction,
     reactionForComment_reactionUsers,
     reactionForComment_reactionsFromDeletedUsersCount,
 
     -- * ReactionValueFormats
-    ReactionValueFormats (..),
+    ReactionValueFormats,
     newReactionValueFormats,
     reactionValueFormats_emoji,
     reactionValueFormats_shortCode,
     reactionValueFormats_unicode,
 
     -- * ReplaceContentEntry
-    ReplaceContentEntry (..),
+    ReplaceContentEntry,
     newReplaceContentEntry,
     replaceContentEntry_content,
     replaceContentEntry_fileMode,
@@ -626,7 +627,7 @@ module Amazonka.CodeCommit.Types
     replaceContentEntry_replacementType,
 
     -- * RepositoryMetadata
-    RepositoryMetadata (..),
+    RepositoryMetadata,
     newRepositoryMetadata,
     repositoryMetadata_arn,
     repositoryMetadata_accountId,
@@ -640,13 +641,13 @@ module Amazonka.CodeCommit.Types
     repositoryMetadata_repositoryName,
 
     -- * RepositoryNameIdPair
-    RepositoryNameIdPair (..),
+    RepositoryNameIdPair,
     newRepositoryNameIdPair,
     repositoryNameIdPair_repositoryId,
     repositoryNameIdPair_repositoryName,
 
     -- * RepositoryTrigger
-    RepositoryTrigger (..),
+    RepositoryTrigger,
     newRepositoryTrigger,
     repositoryTrigger_branches,
     repositoryTrigger_customData,
@@ -655,32 +656,32 @@ module Amazonka.CodeCommit.Types
     repositoryTrigger_events,
 
     -- * RepositoryTriggerExecutionFailure
-    RepositoryTriggerExecutionFailure (..),
+    RepositoryTriggerExecutionFailure,
     newRepositoryTriggerExecutionFailure,
     repositoryTriggerExecutionFailure_failureMessage,
     repositoryTriggerExecutionFailure_trigger,
 
     -- * SetFileModeEntry
-    SetFileModeEntry (..),
+    SetFileModeEntry,
     newSetFileModeEntry,
     setFileModeEntry_filePath,
     setFileModeEntry_fileMode,
 
     -- * SourceFileSpecifier
-    SourceFileSpecifier (..),
+    SourceFileSpecifier,
     newSourceFileSpecifier,
     sourceFileSpecifier_isMove,
     sourceFileSpecifier_filePath,
 
     -- * SubModule
-    SubModule (..),
+    SubModule,
     newSubModule,
     subModule_absolutePath,
     subModule_commitId,
     subModule_relativePath,
 
     -- * SymbolicLink
-    SymbolicLink (..),
+    SymbolicLink,
     newSymbolicLink,
     symbolicLink_absolutePath,
     symbolicLink_blobId,
@@ -688,14 +689,14 @@ module Amazonka.CodeCommit.Types
     symbolicLink_relativePath,
 
     -- * Target
-    Target (..),
+    Target,
     newTarget,
     target_destinationReference,
     target_repositoryName,
     target_sourceReference,
 
     -- * UserInfo
-    UserInfo (..),
+    UserInfo,
     newUserInfo,
     userInfo_date,
     userInfo_email,

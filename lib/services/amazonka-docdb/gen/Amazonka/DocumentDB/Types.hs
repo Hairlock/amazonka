@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -77,18 +78,18 @@ module Amazonka.DocumentDB.Types
     _SubscriptionNotFoundFault,
 
     -- * ApplyMethod
-    ApplyMethod (..),
+    ApplyMethod,
 
     -- * SourceType
-    SourceType (..),
+    SourceType,
 
     -- * AvailabilityZone
-    AvailabilityZone (..),
+    AvailabilityZone,
     newAvailabilityZone,
     availabilityZone_name,
 
     -- * Certificate
-    Certificate (..),
+    Certificate,
     newCertificate,
     certificate_certificateArn,
     certificate_certificateIdentifier,
@@ -98,13 +99,13 @@ module Amazonka.DocumentDB.Types
     certificate_validTill,
 
     -- * CloudwatchLogsExportConfiguration
-    CloudwatchLogsExportConfiguration (..),
+    CloudwatchLogsExportConfiguration,
     newCloudwatchLogsExportConfiguration,
     cloudwatchLogsExportConfiguration_disableLogTypes,
     cloudwatchLogsExportConfiguration_enableLogTypes,
 
     -- * DBCluster
-    DBCluster (..),
+    DBCluster,
     newDBCluster,
     dbCluster_associatedRoles,
     dbCluster_availabilityZones,
@@ -140,7 +141,7 @@ module Amazonka.DocumentDB.Types
     dbCluster_vpcSecurityGroups,
 
     -- * DBClusterMember
-    DBClusterMember (..),
+    DBClusterMember,
     newDBClusterMember,
     dbClusterMember_dbClusterParameterGroupStatus,
     dbClusterMember_dbInstanceIdentifier,
@@ -148,7 +149,7 @@ module Amazonka.DocumentDB.Types
     dbClusterMember_promotionTier,
 
     -- * DBClusterParameterGroup
-    DBClusterParameterGroup (..),
+    DBClusterParameterGroup,
     newDBClusterParameterGroup,
     dbClusterParameterGroup_dbClusterParameterGroupArn,
     dbClusterParameterGroup_dbClusterParameterGroupName,
@@ -156,18 +157,18 @@ module Amazonka.DocumentDB.Types
     dbClusterParameterGroup_description,
 
     -- * DBClusterParameterGroupNameMessage
-    DBClusterParameterGroupNameMessage (..),
+    DBClusterParameterGroupNameMessage,
     newDBClusterParameterGroupNameMessage,
     dbClusterParameterGroupNameMessage_dbClusterParameterGroupName,
 
     -- * DBClusterRole
-    DBClusterRole (..),
+    DBClusterRole,
     newDBClusterRole,
     dbClusterRole_roleArn,
     dbClusterRole_status,
 
     -- * DBClusterSnapshot
-    DBClusterSnapshot (..),
+    DBClusterSnapshot,
     newDBClusterSnapshot,
     dbClusterSnapshot_availabilityZones,
     dbClusterSnapshot_clusterCreateTime,
@@ -188,19 +189,19 @@ module Amazonka.DocumentDB.Types
     dbClusterSnapshot_vpcId,
 
     -- * DBClusterSnapshotAttribute
-    DBClusterSnapshotAttribute (..),
+    DBClusterSnapshotAttribute,
     newDBClusterSnapshotAttribute,
     dbClusterSnapshotAttribute_attributeName,
     dbClusterSnapshotAttribute_attributeValues,
 
     -- * DBClusterSnapshotAttributesResult
-    DBClusterSnapshotAttributesResult (..),
+    DBClusterSnapshotAttributesResult,
     newDBClusterSnapshotAttributesResult,
     dbClusterSnapshotAttributesResult_dbClusterSnapshotAttributes,
     dbClusterSnapshotAttributesResult_dbClusterSnapshotIdentifier,
 
     -- * DBEngineVersion
-    DBEngineVersion (..),
+    DBEngineVersion,
     newDBEngineVersion,
     dbEngineVersion_dbEngineDescription,
     dbEngineVersion_dbEngineVersionDescription,
@@ -212,7 +213,7 @@ module Amazonka.DocumentDB.Types
     dbEngineVersion_validUpgradeTarget,
 
     -- * DBInstance
-    DBInstance (..),
+    DBInstance,
     newDBInstance,
     dbInstance_autoMinorVersionUpgrade,
     dbInstance_availabilityZone,
@@ -243,7 +244,7 @@ module Amazonka.DocumentDB.Types
     dbInstance_vpcSecurityGroups,
 
     -- * DBInstanceStatusInfo
-    DBInstanceStatusInfo (..),
+    DBInstanceStatusInfo,
     newDBInstanceStatusInfo,
     dbInstanceStatusInfo_message,
     dbInstanceStatusInfo_normal,
@@ -251,7 +252,7 @@ module Amazonka.DocumentDB.Types
     dbInstanceStatusInfo_statusType,
 
     -- * DBSubnetGroup
-    DBSubnetGroup (..),
+    DBSubnetGroup,
     newDBSubnetGroup,
     dbSubnetGroup_dbSubnetGroupArn,
     dbSubnetGroup_dbSubnetGroupDescription,
@@ -261,21 +262,21 @@ module Amazonka.DocumentDB.Types
     dbSubnetGroup_vpcId,
 
     -- * Endpoint
-    Endpoint (..),
+    Endpoint,
     newEndpoint,
     endpoint_address,
     endpoint_hostedZoneId,
     endpoint_port,
 
     -- * EngineDefaults
-    EngineDefaults (..),
+    EngineDefaults,
     newEngineDefaults,
     engineDefaults_dbParameterGroupFamily,
     engineDefaults_marker,
     engineDefaults_parameters,
 
     -- * Event
-    Event (..),
+    Event,
     newEvent,
     event_date,
     event_eventCategories,
@@ -285,13 +286,13 @@ module Amazonka.DocumentDB.Types
     event_sourceType,
 
     -- * EventCategoriesMap
-    EventCategoriesMap (..),
+    EventCategoriesMap,
     newEventCategoriesMap,
     eventCategoriesMap_eventCategories,
     eventCategoriesMap_sourceType,
 
     -- * EventSubscription
-    EventSubscription (..),
+    EventSubscription,
     newEventSubscription,
     eventSubscription_custSubscriptionId,
     eventSubscription_customerAwsId,
@@ -305,13 +306,13 @@ module Amazonka.DocumentDB.Types
     eventSubscription_subscriptionCreationTime,
 
     -- * Filter
-    Filter (..),
+    Filter,
     newFilter,
     filter_name,
     filter_values,
 
     -- * GlobalCluster
-    GlobalCluster (..),
+    GlobalCluster,
     newGlobalCluster,
     globalCluster_databaseName,
     globalCluster_deletionProtection,
@@ -325,14 +326,14 @@ module Amazonka.DocumentDB.Types
     globalCluster_storageEncrypted,
 
     -- * GlobalClusterMember
-    GlobalClusterMember (..),
+    GlobalClusterMember,
     newGlobalClusterMember,
     globalClusterMember_dbClusterArn,
     globalClusterMember_isWriter,
     globalClusterMember_readers,
 
     -- * OrderableDBInstanceOption
-    OrderableDBInstanceOption (..),
+    OrderableDBInstanceOption,
     newOrderableDBInstanceOption,
     orderableDBInstanceOption_availabilityZones,
     orderableDBInstanceOption_dbInstanceClass,
@@ -342,7 +343,7 @@ module Amazonka.DocumentDB.Types
     orderableDBInstanceOption_vpc,
 
     -- * Parameter
-    Parameter (..),
+    Parameter,
     newParameter,
     parameter_allowedValues,
     parameter_applyMethod,
@@ -356,13 +357,13 @@ module Amazonka.DocumentDB.Types
     parameter_source,
 
     -- * PendingCloudwatchLogsExports
-    PendingCloudwatchLogsExports (..),
+    PendingCloudwatchLogsExports,
     newPendingCloudwatchLogsExports,
     pendingCloudwatchLogsExports_logTypesToDisable,
     pendingCloudwatchLogsExports_logTypesToEnable,
 
     -- * PendingMaintenanceAction
-    PendingMaintenanceAction (..),
+    PendingMaintenanceAction,
     newPendingMaintenanceAction,
     pendingMaintenanceAction_action,
     pendingMaintenanceAction_autoAppliedAfterDate,
@@ -372,7 +373,7 @@ module Amazonka.DocumentDB.Types
     pendingMaintenanceAction_optInStatus,
 
     -- * PendingModifiedValues
-    PendingModifiedValues (..),
+    PendingModifiedValues,
     newPendingModifiedValues,
     pendingModifiedValues_allocatedStorage,
     pendingModifiedValues_backupRetentionPeriod,
@@ -390,26 +391,26 @@ module Amazonka.DocumentDB.Types
     pendingModifiedValues_storageType,
 
     -- * ResourcePendingMaintenanceActions
-    ResourcePendingMaintenanceActions (..),
+    ResourcePendingMaintenanceActions,
     newResourcePendingMaintenanceActions,
     resourcePendingMaintenanceActions_pendingMaintenanceActionDetails,
     resourcePendingMaintenanceActions_resourceIdentifier,
 
     -- * Subnet
-    Subnet (..),
+    Subnet,
     newSubnet,
     subnet_subnetAvailabilityZone,
     subnet_subnetIdentifier,
     subnet_subnetStatus,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,
 
     -- * UpgradeTarget
-    UpgradeTarget (..),
+    UpgradeTarget,
     newUpgradeTarget,
     upgradeTarget_autoUpgrade,
     upgradeTarget_description,
@@ -418,7 +419,7 @@ module Amazonka.DocumentDB.Types
     upgradeTarget_isMajorVersionUpgrade,
 
     -- * VpcSecurityGroupMembership
-    VpcSecurityGroupMembership (..),
+    VpcSecurityGroupMembership,
     newVpcSecurityGroupMembership,
     vpcSecurityGroupMembership_status,
     vpcSecurityGroupMembership_vpcSecurityGroupId,

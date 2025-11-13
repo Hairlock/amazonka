@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -22,63 +23,63 @@ module Amazonka.Greengrass.Types
     _InternalServerErrorException,
 
     -- * BulkDeploymentStatus
-    BulkDeploymentStatus (..),
+    BulkDeploymentStatus,
 
     -- * ConfigurationSyncStatus
-    ConfigurationSyncStatus (..),
+    ConfigurationSyncStatus,
 
     -- * DeploymentType
-    DeploymentType (..),
+    DeploymentType,
 
     -- * EncodingType
-    EncodingType (..),
+    EncodingType,
 
     -- * FunctionIsolationMode
-    FunctionIsolationMode (..),
+    FunctionIsolationMode,
 
     -- * LoggerComponent
-    LoggerComponent (..),
+    LoggerComponent,
 
     -- * LoggerLevel
-    LoggerLevel (..),
+    LoggerLevel,
 
     -- * LoggerType
-    LoggerType (..),
+    LoggerType,
 
     -- * Permission
-    Permission (..),
+    Permission,
 
     -- * SoftwareToUpdate
-    SoftwareToUpdate (..),
+    SoftwareToUpdate,
 
     -- * Telemetry
-    Telemetry (..),
+    Telemetry,
 
     -- * UpdateAgentLogLevel
-    UpdateAgentLogLevel (..),
+    UpdateAgentLogLevel,
 
     -- * UpdateTargetsArchitecture
-    UpdateTargetsArchitecture (..),
+    UpdateTargetsArchitecture,
 
     -- * UpdateTargetsOperatingSystem
-    UpdateTargetsOperatingSystem (..),
+    UpdateTargetsOperatingSystem,
 
     -- * BulkDeployment
-    BulkDeployment (..),
+    BulkDeployment,
     newBulkDeployment,
     bulkDeployment_bulkDeploymentArn,
     bulkDeployment_bulkDeploymentId,
     bulkDeployment_createdAt,
 
     -- * BulkDeploymentMetrics
-    BulkDeploymentMetrics (..),
+    BulkDeploymentMetrics,
     newBulkDeploymentMetrics,
     bulkDeploymentMetrics_invalidInputRecords,
     bulkDeploymentMetrics_recordsProcessed,
     bulkDeploymentMetrics_retryAttempts,
 
     -- * BulkDeploymentResult
-    BulkDeploymentResult (..),
+    BulkDeploymentResult,
     newBulkDeploymentResult,
     bulkDeploymentResult_createdAt,
     bulkDeploymentResult_deploymentArn,
@@ -90,7 +91,7 @@ module Amazonka.Greengrass.Types
     bulkDeploymentResult_groupArn,
 
     -- * ConnectivityInfo
-    ConnectivityInfo (..),
+    ConnectivityInfo,
     newConnectivityInfo,
     connectivityInfo_hostAddress,
     connectivityInfo_id,
@@ -98,19 +99,19 @@ module Amazonka.Greengrass.Types
     connectivityInfo_portNumber,
 
     -- * Connector
-    Connector (..),
+    Connector,
     newConnector,
     connector_parameters,
     connector_connectorArn,
     connector_id,
 
     -- * ConnectorDefinitionVersion
-    ConnectorDefinitionVersion (..),
+    ConnectorDefinitionVersion,
     newConnectorDefinitionVersion,
     connectorDefinitionVersion_connectors,
 
     -- * Core
-    Core (..),
+    Core,
     newCore,
     core_syncShadow,
     core_thingArn,
@@ -118,12 +119,12 @@ module Amazonka.Greengrass.Types
     core_certificateArn,
 
     -- * CoreDefinitionVersion
-    CoreDefinitionVersion (..),
+    CoreDefinitionVersion,
     newCoreDefinitionVersion,
     coreDefinitionVersion_cores,
 
     -- * DefinitionInformation
-    DefinitionInformation (..),
+    DefinitionInformation,
     newDefinitionInformation,
     definitionInformation_arn,
     definitionInformation_creationTimestamp,
@@ -135,7 +136,7 @@ module Amazonka.Greengrass.Types
     definitionInformation_tags,
 
     -- * Deployment
-    Deployment (..),
+    Deployment,
     newDeployment,
     deployment_createdAt,
     deployment_deploymentArn,
@@ -144,7 +145,7 @@ module Amazonka.Greengrass.Types
     deployment_groupArn,
 
     -- * Device
-    Device (..),
+    Device,
     newDevice,
     device_syncShadow,
     device_thingArn,
@@ -152,25 +153,25 @@ module Amazonka.Greengrass.Types
     device_certificateArn,
 
     -- * DeviceDefinitionVersion
-    DeviceDefinitionVersion (..),
+    DeviceDefinitionVersion,
     newDeviceDefinitionVersion,
     deviceDefinitionVersion_devices,
 
     -- * ErrorDetail
-    ErrorDetail (..),
+    ErrorDetail,
     newErrorDetail,
     errorDetail_detailedErrorCode,
     errorDetail_detailedErrorMessage,
 
     -- * Function
-    Function (..),
+    Function,
     newFunction,
     function_functionArn,
     function_functionConfiguration,
     function_id,
 
     -- * FunctionConfiguration
-    FunctionConfiguration (..),
+    FunctionConfiguration,
     newFunctionConfiguration,
     functionConfiguration_encodingType,
     functionConfiguration_environment,
@@ -182,7 +183,7 @@ module Amazonka.Greengrass.Types
     functionConfiguration_timeout,
 
     -- * FunctionConfigurationEnvironment
-    FunctionConfigurationEnvironment (..),
+    FunctionConfigurationEnvironment,
     newFunctionConfigurationEnvironment,
     functionConfigurationEnvironment_accessSysfs,
     functionConfigurationEnvironment_execution,
@@ -190,36 +191,36 @@ module Amazonka.Greengrass.Types
     functionConfigurationEnvironment_variables,
 
     -- * FunctionDefaultConfig
-    FunctionDefaultConfig (..),
+    FunctionDefaultConfig,
     newFunctionDefaultConfig,
     functionDefaultConfig_execution,
 
     -- * FunctionDefaultExecutionConfig
-    FunctionDefaultExecutionConfig (..),
+    FunctionDefaultExecutionConfig,
     newFunctionDefaultExecutionConfig,
     functionDefaultExecutionConfig_isolationMode,
     functionDefaultExecutionConfig_runAs,
 
     -- * FunctionDefinitionVersion
-    FunctionDefinitionVersion (..),
+    FunctionDefinitionVersion,
     newFunctionDefinitionVersion,
     functionDefinitionVersion_defaultConfig,
     functionDefinitionVersion_functions,
 
     -- * FunctionExecutionConfig
-    FunctionExecutionConfig (..),
+    FunctionExecutionConfig,
     newFunctionExecutionConfig,
     functionExecutionConfig_isolationMode,
     functionExecutionConfig_runAs,
 
     -- * FunctionRunAsConfig
-    FunctionRunAsConfig (..),
+    FunctionRunAsConfig,
     newFunctionRunAsConfig,
     functionRunAsConfig_gid,
     functionRunAsConfig_uid,
 
     -- * GreengrassLogger
-    GreengrassLogger (..),
+    GreengrassLogger,
     newGreengrassLogger,
     greengrassLogger_space,
     greengrassLogger_type,
@@ -228,13 +229,13 @@ module Amazonka.Greengrass.Types
     greengrassLogger_component,
 
     -- * GroupCertificateAuthorityProperties
-    GroupCertificateAuthorityProperties (..),
+    GroupCertificateAuthorityProperties,
     newGroupCertificateAuthorityProperties,
     groupCertificateAuthorityProperties_groupCertificateAuthorityArn,
     groupCertificateAuthorityProperties_groupCertificateAuthorityId,
 
     -- * GroupInformation
-    GroupInformation (..),
+    GroupInformation,
     newGroupInformation,
     groupInformation_arn,
     groupInformation_creationTimestamp,
@@ -245,13 +246,13 @@ module Amazonka.Greengrass.Types
     groupInformation_name,
 
     -- * GroupOwnerSetting
-    GroupOwnerSetting (..),
+    GroupOwnerSetting,
     newGroupOwnerSetting,
     groupOwnerSetting_autoAddGroupOwner,
     groupOwnerSetting_groupOwner,
 
     -- * GroupVersion
-    GroupVersion (..),
+    GroupVersion,
     newGroupVersion,
     groupVersion_connectorDefinitionVersionArn,
     groupVersion_coreDefinitionVersionArn,
@@ -262,38 +263,38 @@ module Amazonka.Greengrass.Types
     groupVersion_subscriptionDefinitionVersionArn,
 
     -- * LocalDeviceResourceData
-    LocalDeviceResourceData (..),
+    LocalDeviceResourceData,
     newLocalDeviceResourceData,
     localDeviceResourceData_groupOwnerSetting,
     localDeviceResourceData_sourcePath,
 
     -- * LocalVolumeResourceData
-    LocalVolumeResourceData (..),
+    LocalVolumeResourceData,
     newLocalVolumeResourceData,
     localVolumeResourceData_destinationPath,
     localVolumeResourceData_groupOwnerSetting,
     localVolumeResourceData_sourcePath,
 
     -- * LoggerDefinitionVersion
-    LoggerDefinitionVersion (..),
+    LoggerDefinitionVersion,
     newLoggerDefinitionVersion,
     loggerDefinitionVersion_loggers,
 
     -- * Resource
-    Resource (..),
+    Resource,
     newResource,
     resource_resourceDataContainer,
     resource_id,
     resource_name,
 
     -- * ResourceAccessPolicy
-    ResourceAccessPolicy (..),
+    ResourceAccessPolicy,
     newResourceAccessPolicy,
     resourceAccessPolicy_permission,
     resourceAccessPolicy_resourceId,
 
     -- * ResourceDataContainer
-    ResourceDataContainer (..),
+    ResourceDataContainer,
     newResourceDataContainer,
     resourceDataContainer_localDeviceResourceData,
     resourceDataContainer_localVolumeResourceData,
@@ -302,43 +303,43 @@ module Amazonka.Greengrass.Types
     resourceDataContainer_secretsManagerSecretResourceData,
 
     -- * ResourceDefinitionVersion
-    ResourceDefinitionVersion (..),
+    ResourceDefinitionVersion,
     newResourceDefinitionVersion,
     resourceDefinitionVersion_resources,
 
     -- * ResourceDownloadOwnerSetting
-    ResourceDownloadOwnerSetting (..),
+    ResourceDownloadOwnerSetting,
     newResourceDownloadOwnerSetting,
     resourceDownloadOwnerSetting_groupOwner,
     resourceDownloadOwnerSetting_groupPermission,
 
     -- * RuntimeConfiguration
-    RuntimeConfiguration (..),
+    RuntimeConfiguration,
     newRuntimeConfiguration,
     runtimeConfiguration_telemetryConfiguration,
 
     -- * S3MachineLearningModelResourceData
-    S3MachineLearningModelResourceData (..),
+    S3MachineLearningModelResourceData,
     newS3MachineLearningModelResourceData,
     s3MachineLearningModelResourceData_destinationPath,
     s3MachineLearningModelResourceData_ownerSetting,
     s3MachineLearningModelResourceData_s3Uri,
 
     -- * SageMakerMachineLearningModelResourceData
-    SageMakerMachineLearningModelResourceData (..),
+    SageMakerMachineLearningModelResourceData,
     newSageMakerMachineLearningModelResourceData,
     sageMakerMachineLearningModelResourceData_destinationPath,
     sageMakerMachineLearningModelResourceData_ownerSetting,
     sageMakerMachineLearningModelResourceData_sageMakerJobArn,
 
     -- * SecretsManagerSecretResourceData
-    SecretsManagerSecretResourceData (..),
+    SecretsManagerSecretResourceData,
     newSecretsManagerSecretResourceData,
     secretsManagerSecretResourceData_arn,
     secretsManagerSecretResourceData_additionalStagingLabelsToDownload,
 
     -- * Subscription
-    Subscription (..),
+    Subscription,
     newSubscription,
     subscription_target,
     subscription_id,
@@ -346,23 +347,23 @@ module Amazonka.Greengrass.Types
     subscription_source,
 
     -- * SubscriptionDefinitionVersion
-    SubscriptionDefinitionVersion (..),
+    SubscriptionDefinitionVersion,
     newSubscriptionDefinitionVersion,
     subscriptionDefinitionVersion_subscriptions,
 
     -- * TelemetryConfiguration
-    TelemetryConfiguration (..),
+    TelemetryConfiguration,
     newTelemetryConfiguration,
     telemetryConfiguration_configurationSyncStatus,
     telemetryConfiguration_telemetry,
 
     -- * TelemetryConfigurationUpdate
-    TelemetryConfigurationUpdate (..),
+    TelemetryConfigurationUpdate,
     newTelemetryConfigurationUpdate,
     telemetryConfigurationUpdate_telemetry,
 
     -- * VersionInformation
-    VersionInformation (..),
+    VersionInformation,
     newVersionInformation,
     versionInformation_arn,
     versionInformation_creationTimestamp,

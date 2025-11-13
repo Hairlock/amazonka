@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -50,34 +51,34 @@ module Amazonka.EFS.Types
     _ValidationException,
 
     -- * BackupStatus
-    BackupStatus (..),
+    BackupStatus,
 
     -- * LifeCycleState
-    LifeCycleState (..),
+    LifeCycleState,
 
     -- * PerformanceMode
-    PerformanceMode (..),
+    PerformanceMode,
 
     -- * ReplicationStatus
-    ReplicationStatus (..),
+    ReplicationStatus,
 
     -- * Resource
-    Resource (..),
+    Resource,
 
     -- * ResourceIdType
-    ResourceIdType (..),
+    ResourceIdType,
 
     -- * ThroughputMode
-    ThroughputMode (..),
+    ThroughputMode,
 
     -- * TransitionToIARules
-    TransitionToIARules (..),
+    TransitionToIARules,
 
     -- * TransitionToPrimaryStorageClassRules
-    TransitionToPrimaryStorageClassRules (..),
+    TransitionToPrimaryStorageClassRules,
 
     -- * AccessPointDescription
-    AccessPointDescription (..),
+    AccessPointDescription,
     newAccessPointDescription,
     accessPointDescription_accessPointArn,
     accessPointDescription_accessPointId,
@@ -91,24 +92,24 @@ module Amazonka.EFS.Types
     accessPointDescription_tags,
 
     -- * BackupPolicy
-    BackupPolicy (..),
+    BackupPolicy,
     newBackupPolicy,
     backupPolicy_status,
 
     -- * BackupPolicyDescription
-    BackupPolicyDescription (..),
+    BackupPolicyDescription,
     newBackupPolicyDescription,
     backupPolicyDescription_backupPolicy,
 
     -- * CreationInfo
-    CreationInfo (..),
+    CreationInfo,
     newCreationInfo,
     creationInfo_ownerUid,
     creationInfo_ownerGid,
     creationInfo_permissions,
 
     -- * Destination
-    Destination (..),
+    Destination,
     newDestination,
     destination_lastReplicatedTimestamp,
     destination_status,
@@ -116,14 +117,14 @@ module Amazonka.EFS.Types
     destination_region,
 
     -- * DestinationToCreate
-    DestinationToCreate (..),
+    DestinationToCreate,
     newDestinationToCreate,
     destinationToCreate_availabilityZoneName,
     destinationToCreate_kmsKeyId,
     destinationToCreate_region,
 
     -- * FileSystemDescription
-    FileSystemDescription (..),
+    FileSystemDescription,
     newFileSystemDescription,
     fileSystemDescription_availabilityZoneId,
     fileSystemDescription_availabilityZoneName,
@@ -144,13 +145,13 @@ module Amazonka.EFS.Types
     fileSystemDescription_tags,
 
     -- * FileSystemPolicyDescription
-    FileSystemPolicyDescription (..),
+    FileSystemPolicyDescription,
     newFileSystemPolicyDescription,
     fileSystemPolicyDescription_fileSystemId,
     fileSystemPolicyDescription_policy,
 
     -- * FileSystemSize
-    FileSystemSize (..),
+    FileSystemSize,
     newFileSystemSize,
     fileSystemSize_timestamp,
     fileSystemSize_valueInIA,
@@ -158,18 +159,18 @@ module Amazonka.EFS.Types
     fileSystemSize_value,
 
     -- * LifecycleConfigurationDescription
-    LifecycleConfigurationDescription (..),
+    LifecycleConfigurationDescription,
     newLifecycleConfigurationDescription,
     lifecycleConfigurationDescription_lifecyclePolicies,
 
     -- * LifecyclePolicy
-    LifecyclePolicy (..),
+    LifecyclePolicy,
     newLifecyclePolicy,
     lifecyclePolicy_transitionToIA,
     lifecyclePolicy_transitionToPrimaryStorageClass,
 
     -- * MountTargetDescription
-    MountTargetDescription (..),
+    MountTargetDescription,
     newMountTargetDescription,
     mountTargetDescription_availabilityZoneId,
     mountTargetDescription_availabilityZoneName,
@@ -183,14 +184,14 @@ module Amazonka.EFS.Types
     mountTargetDescription_lifeCycleState,
 
     -- * PosixUser
-    PosixUser (..),
+    PosixUser,
     newPosixUser,
     posixUser_secondaryGids,
     posixUser_uid,
     posixUser_gid,
 
     -- * ReplicationConfigurationDescription
-    ReplicationConfigurationDescription (..),
+    ReplicationConfigurationDescription,
     newReplicationConfigurationDescription,
     replicationConfigurationDescription_sourceFileSystemId,
     replicationConfigurationDescription_sourceFileSystemRegion,
@@ -200,19 +201,19 @@ module Amazonka.EFS.Types
     replicationConfigurationDescription_destinations,
 
     -- * ResourceIdPreference
-    ResourceIdPreference (..),
+    ResourceIdPreference,
     newResourceIdPreference,
     resourceIdPreference_resourceIdType,
     resourceIdPreference_resources,
 
     -- * RootDirectory
-    RootDirectory (..),
+    RootDirectory,
     newRootDirectory,
     rootDirectory_creationInfo,
     rootDirectory_path,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,

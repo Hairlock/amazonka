@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -39,442 +40,442 @@ module Amazonka.QuickSight.Types
     _UnsupportedUserEditionException,
 
     -- * AnalysisErrorType
-    AnalysisErrorType (..),
+    AnalysisErrorType,
 
     -- * AnalysisFilterAttribute
-    AnalysisFilterAttribute (..),
+    AnalysisFilterAttribute,
 
     -- * AnchorOption
-    AnchorOption (..),
+    AnchorOption,
 
     -- * ArcThickness
-    ArcThickness (..),
+    ArcThickness,
 
     -- * ArcThicknessOptions
-    ArcThicknessOptions (..),
+    ArcThicknessOptions,
 
     -- * AssignmentStatus
-    AssignmentStatus (..),
+    AssignmentStatus,
 
     -- * AuthenticationMethodOption
-    AuthenticationMethodOption (..),
+    AuthenticationMethodOption,
 
     -- * AxisBinding
-    AxisBinding (..),
+    AxisBinding,
 
     -- * BarChartOrientation
-    BarChartOrientation (..),
+    BarChartOrientation,
 
     -- * BarsArrangement
-    BarsArrangement (..),
+    BarsArrangement,
 
     -- * BaseMapStyleType
-    BaseMapStyleType (..),
+    BaseMapStyleType,
 
     -- * BoxPlotFillStyle
-    BoxPlotFillStyle (..),
+    BoxPlotFillStyle,
 
     -- * CategoricalAggregationFunction
-    CategoricalAggregationFunction (..),
+    CategoricalAggregationFunction,
 
     -- * CategoryFilterMatchOperator
-    CategoryFilterMatchOperator (..),
+    CategoryFilterMatchOperator,
 
     -- * CategoryFilterSelectAllOptions
-    CategoryFilterSelectAllOptions (..),
+    CategoryFilterSelectAllOptions,
 
     -- * ColorFillType
-    ColorFillType (..),
+    ColorFillType,
 
     -- * ColumnDataType
-    ColumnDataType (..),
+    ColumnDataType,
 
     -- * ColumnRole
-    ColumnRole (..),
+    ColumnRole,
 
     -- * ColumnTagName
-    ColumnTagName (..),
+    ColumnTagName,
 
     -- * ComparisonMethod
-    ComparisonMethod (..),
+    ComparisonMethod,
 
     -- * ConditionalFormattingIconDisplayOption
-    ConditionalFormattingIconDisplayOption (..),
+    ConditionalFormattingIconDisplayOption,
 
     -- * ConditionalFormattingIconSetType
-    ConditionalFormattingIconSetType (..),
+    ConditionalFormattingIconSetType,
 
     -- * CrossDatasetTypes
-    CrossDatasetTypes (..),
+    CrossDatasetTypes,
 
     -- * CustomContentImageScalingConfiguration
-    CustomContentImageScalingConfiguration (..),
+    CustomContentImageScalingConfiguration,
 
     -- * CustomContentType
-    CustomContentType (..),
+    CustomContentType,
 
     -- * DashboardBehavior
-    DashboardBehavior (..),
+    DashboardBehavior,
 
     -- * DashboardErrorType
-    DashboardErrorType (..),
+    DashboardErrorType,
 
     -- * DashboardFilterAttribute
-    DashboardFilterAttribute (..),
+    DashboardFilterAttribute,
 
     -- * DashboardUIState
-    DashboardUIState (..),
+    DashboardUIState,
 
     -- * DataLabelContent
-    DataLabelContent (..),
+    DataLabelContent,
 
     -- * DataLabelOverlap
-    DataLabelOverlap (..),
+    DataLabelOverlap,
 
     -- * DataLabelPosition
-    DataLabelPosition (..),
+    DataLabelPosition,
 
     -- * DataSetFilterAttribute
-    DataSetFilterAttribute (..),
+    DataSetFilterAttribute,
 
     -- * DataSetImportMode
-    DataSetImportMode (..),
+    DataSetImportMode,
 
     -- * DataSourceErrorInfoType
-    DataSourceErrorInfoType (..),
+    DataSourceErrorInfoType,
 
     -- * DataSourceFilterAttribute
-    DataSourceFilterAttribute (..),
+    DataSourceFilterAttribute,
 
     -- * DataSourceType
-    DataSourceType (..),
+    DataSourceType,
 
     -- * DateAggregationFunction
-    DateAggregationFunction (..),
+    DateAggregationFunction,
 
     -- * Edition
-    Edition (..),
+    Edition,
 
     -- * EmbeddingIdentityType
-    EmbeddingIdentityType (..),
+    EmbeddingIdentityType,
 
     -- * FileFormat
-    FileFormat (..),
+    FileFormat,
 
     -- * FilterNullOption
-    FilterNullOption (..),
+    FilterNullOption,
 
     -- * FilterOperator
-    FilterOperator (..),
+    FilterOperator,
 
     -- * FilterVisualScope
-    FilterVisualScope (..),
+    FilterVisualScope,
 
     -- * FolderFilterAttribute
-    FolderFilterAttribute (..),
+    FolderFilterAttribute,
 
     -- * FolderType
-    FolderType (..),
+    FolderType,
 
     -- * FontDecoration
-    FontDecoration (..),
+    FontDecoration,
 
     -- * FontStyle
-    FontStyle (..),
+    FontStyle,
 
     -- * FontWeightName
-    FontWeightName (..),
+    FontWeightName,
 
     -- * ForecastComputationSeasonality
-    ForecastComputationSeasonality (..),
+    ForecastComputationSeasonality,
 
     -- * FunnelChartMeasureDataLabelStyle
-    FunnelChartMeasureDataLabelStyle (..),
+    FunnelChartMeasureDataLabelStyle,
 
     -- * GeoSpatialCountryCode
-    GeoSpatialCountryCode (..),
+    GeoSpatialCountryCode,
 
     -- * GeoSpatialDataRole
-    GeoSpatialDataRole (..),
+    GeoSpatialDataRole,
 
     -- * GeospatialSelectedPointStyle
-    GeospatialSelectedPointStyle (..),
+    GeospatialSelectedPointStyle,
 
     -- * GroupFilterAttribute
-    GroupFilterAttribute (..),
+    GroupFilterAttribute,
 
     -- * GroupFilterOperator
-    GroupFilterOperator (..),
+    GroupFilterOperator,
 
     -- * HistogramBinType
-    HistogramBinType (..),
+    HistogramBinType,
 
     -- * HorizontalTextAlignment
-    HorizontalTextAlignment (..),
+    HorizontalTextAlignment,
 
     -- * Icon
-    Icon (..),
+    Icon,
 
     -- * IdentityStore
-    IdentityStore (..),
+    IdentityStore,
 
     -- * IdentityType
-    IdentityType (..),
+    IdentityType,
 
     -- * IngestionErrorType
-    IngestionErrorType (..),
+    IngestionErrorType,
 
     -- * IngestionRequestSource
-    IngestionRequestSource (..),
+    IngestionRequestSource,
 
     -- * IngestionRequestType
-    IngestionRequestType (..),
+    IngestionRequestType,
 
     -- * IngestionStatus
-    IngestionStatus (..),
+    IngestionStatus,
 
     -- * IngestionType
-    IngestionType (..),
+    IngestionType,
 
     -- * InputColumnDataType
-    InputColumnDataType (..),
+    InputColumnDataType,
 
     -- * JoinType
-    JoinType (..),
+    JoinType,
 
     -- * LayoutElementType
-    LayoutElementType (..),
+    LayoutElementType,
 
     -- * LegendPosition
-    LegendPosition (..),
+    LegendPosition,
 
     -- * LineChartLineStyle
-    LineChartLineStyle (..),
+    LineChartLineStyle,
 
     -- * LineChartMarkerShape
-    LineChartMarkerShape (..),
+    LineChartMarkerShape,
 
     -- * LineChartType
-    LineChartType (..),
+    LineChartType,
 
     -- * LineInterpolation
-    LineInterpolation (..),
+    LineInterpolation,
 
     -- * MapZoomMode
-    MapZoomMode (..),
+    MapZoomMode,
 
     -- * MaximumMinimumComputationType
-    MaximumMinimumComputationType (..),
+    MaximumMinimumComputationType,
 
     -- * MemberType
-    MemberType (..),
+    MemberType,
 
     -- * MissingDataTreatmentOption
-    MissingDataTreatmentOption (..),
+    MissingDataTreatmentOption,
 
     -- * NamespaceErrorType
-    NamespaceErrorType (..),
+    NamespaceErrorType,
 
     -- * NamespaceStatus
-    NamespaceStatus (..),
+    NamespaceStatus,
 
     -- * NegativeValueDisplayMode
-    NegativeValueDisplayMode (..),
+    NegativeValueDisplayMode,
 
     -- * NumberScale
-    NumberScale (..),
+    NumberScale,
 
     -- * NumericEqualityMatchOperator
-    NumericEqualityMatchOperator (..),
+    NumericEqualityMatchOperator,
 
     -- * NumericFilterSelectAllOptions
-    NumericFilterSelectAllOptions (..),
+    NumericFilterSelectAllOptions,
 
     -- * NumericSeparatorSymbol
-    NumericSeparatorSymbol (..),
+    NumericSeparatorSymbol,
 
     -- * OtherCategories
-    OtherCategories (..),
+    OtherCategories,
 
     -- * PanelBorderStyle
-    PanelBorderStyle (..),
+    PanelBorderStyle,
 
     -- * PaperOrientation
-    PaperOrientation (..),
+    PaperOrientation,
 
     -- * PaperSize
-    PaperSize (..),
+    PaperSize,
 
     -- * ParameterValueType
-    ParameterValueType (..),
+    ParameterValueType,
 
     -- * PivotTableConditionalFormattingScopeRole
-    PivotTableConditionalFormattingScopeRole (..),
+    PivotTableConditionalFormattingScopeRole,
 
     -- * PivotTableMetricPlacement
-    PivotTableMetricPlacement (..),
+    PivotTableMetricPlacement,
 
     -- * PivotTableSubtotalLevel
-    PivotTableSubtotalLevel (..),
+    PivotTableSubtotalLevel,
 
     -- * PrimaryValueDisplayType
-    PrimaryValueDisplayType (..),
+    PrimaryValueDisplayType,
 
     -- * ReferenceLineLabelHorizontalPosition
-    ReferenceLineLabelHorizontalPosition (..),
+    ReferenceLineLabelHorizontalPosition,
 
     -- * ReferenceLineLabelVerticalPosition
-    ReferenceLineLabelVerticalPosition (..),
+    ReferenceLineLabelVerticalPosition,
 
     -- * ReferenceLinePatternType
-    ReferenceLinePatternType (..),
+    ReferenceLinePatternType,
 
     -- * ReferenceLineValueLabelRelativePosition
-    ReferenceLineValueLabelRelativePosition (..),
+    ReferenceLineValueLabelRelativePosition,
 
     -- * RelativeDateType
-    RelativeDateType (..),
+    RelativeDateType,
 
     -- * RelativeFontSize
-    RelativeFontSize (..),
+    RelativeFontSize,
 
     -- * ResizeOption
-    ResizeOption (..),
+    ResizeOption,
 
     -- * ResourceStatus
-    ResourceStatus (..),
+    ResourceStatus,
 
     -- * RowLevelPermissionFormatVersion
-    RowLevelPermissionFormatVersion (..),
+    RowLevelPermissionFormatVersion,
 
     -- * RowLevelPermissionPolicy
-    RowLevelPermissionPolicy (..),
+    RowLevelPermissionPolicy,
 
     -- * SectionPageBreakStatus
-    SectionPageBreakStatus (..),
+    SectionPageBreakStatus,
 
     -- * SelectAllValueOptions
-    SelectAllValueOptions (..),
+    SelectAllValueOptions,
 
     -- * SelectedFieldOptions
-    SelectedFieldOptions (..),
+    SelectedFieldOptions,
 
     -- * SelectedTooltipType
-    SelectedTooltipType (..),
+    SelectedTooltipType,
 
     -- * SheetContentType
-    SheetContentType (..),
+    SheetContentType,
 
     -- * SheetControlDateTimePickerType
-    SheetControlDateTimePickerType (..),
+    SheetControlDateTimePickerType,
 
     -- * SheetControlListType
-    SheetControlListType (..),
+    SheetControlListType,
 
     -- * SheetControlSliderType
-    SheetControlSliderType (..),
+    SheetControlSliderType,
 
     -- * SimpleNumericalAggregationFunction
-    SimpleNumericalAggregationFunction (..),
+    SimpleNumericalAggregationFunction,
 
     -- * SortDirection
-    SortDirection (..),
+    SortDirection,
 
     -- * Status
-    Status (..),
+    Status,
 
     -- * TableBorderStyle
-    TableBorderStyle (..),
+    TableBorderStyle,
 
     -- * TableCellImageScalingConfiguration
-    TableCellImageScalingConfiguration (..),
+    TableCellImageScalingConfiguration,
 
     -- * TableFieldIconSetType
-    TableFieldIconSetType (..),
+    TableFieldIconSetType,
 
     -- * TableOrientation
-    TableOrientation (..),
+    TableOrientation,
 
     -- * TableTotalsPlacement
-    TableTotalsPlacement (..),
+    TableTotalsPlacement,
 
     -- * TableTotalsScrollStatus
-    TableTotalsScrollStatus (..),
+    TableTotalsScrollStatus,
 
     -- * TargetVisualOptions
-    TargetVisualOptions (..),
+    TargetVisualOptions,
 
     -- * TemplateErrorType
-    TemplateErrorType (..),
+    TemplateErrorType,
 
     -- * TextQualifier
-    TextQualifier (..),
+    TextQualifier,
 
     -- * TextWrap
-    TextWrap (..),
+    TextWrap,
 
     -- * ThemeErrorType
-    ThemeErrorType (..),
+    ThemeErrorType,
 
     -- * ThemeType
-    ThemeType (..),
+    ThemeType,
 
     -- * TimeGranularity
-    TimeGranularity (..),
+    TimeGranularity,
 
     -- * TooltipTitleType
-    TooltipTitleType (..),
+    TooltipTitleType,
 
     -- * TopBottomComputationType
-    TopBottomComputationType (..),
+    TopBottomComputationType,
 
     -- * TopBottomSortOrder
-    TopBottomSortOrder (..),
+    TopBottomSortOrder,
 
     -- * URLTargetConfiguration
-    URLTargetConfiguration (..),
+    URLTargetConfiguration,
 
     -- * UserRole
-    UserRole (..),
+    UserRole,
 
     -- * ValueWhenUnsetOption
-    ValueWhenUnsetOption (..),
+    ValueWhenUnsetOption,
 
     -- * VerticalTextAlignment
-    VerticalTextAlignment (..),
+    VerticalTextAlignment,
 
     -- * Visibility
-    Visibility (..),
+    Visibility,
 
     -- * VisualCustomActionTrigger
-    VisualCustomActionTrigger (..),
+    VisualCustomActionTrigger,
 
     -- * WidgetStatus
-    WidgetStatus (..),
+    WidgetStatus,
 
     -- * WordCloudCloudLayout
-    WordCloudCloudLayout (..),
+    WordCloudCloudLayout,
 
     -- * WordCloudWordCasing
-    WordCloudWordCasing (..),
+    WordCloudWordCasing,
 
     -- * WordCloudWordOrientation
-    WordCloudWordOrientation (..),
+    WordCloudWordOrientation,
 
     -- * WordCloudWordPadding
-    WordCloudWordPadding (..),
+    WordCloudWordPadding,
 
     -- * WordCloudWordScaling
-    WordCloudWordScaling (..),
+    WordCloudWordScaling,
 
     -- * AccountCustomization
-    AccountCustomization (..),
+    AccountCustomization,
     newAccountCustomization,
     accountCustomization_defaultEmailCustomizationTemplate,
     accountCustomization_defaultTheme,
 
     -- * AccountInfo
-    AccountInfo (..),
+    AccountInfo,
     newAccountInfo,
     accountInfo_accountName,
     accountInfo_accountSubscriptionStatus,
@@ -483,7 +484,7 @@ module Amazonka.QuickSight.Types
     accountInfo_notificationEmail,
 
     -- * AccountSettings
-    AccountSettings (..),
+    AccountSettings,
     newAccountSettings,
     accountSettings_accountName,
     accountSettings_defaultNamespace,
@@ -493,42 +494,42 @@ module Amazonka.QuickSight.Types
     accountSettings_terminationProtectionEnabled,
 
     -- * ActiveIAMPolicyAssignment
-    ActiveIAMPolicyAssignment (..),
+    ActiveIAMPolicyAssignment,
     newActiveIAMPolicyAssignment,
     activeIAMPolicyAssignment_assignmentName,
     activeIAMPolicyAssignment_policyArn,
 
     -- * AdHocFilteringOption
-    AdHocFilteringOption (..),
+    AdHocFilteringOption,
     newAdHocFilteringOption,
     adHocFilteringOption_availabilityStatus,
 
     -- * AggregationFunction
-    AggregationFunction (..),
+    AggregationFunction,
     newAggregationFunction,
     aggregationFunction_categoricalAggregationFunction,
     aggregationFunction_dateAggregationFunction,
     aggregationFunction_numericalAggregationFunction,
 
     -- * AggregationSortConfiguration
-    AggregationSortConfiguration (..),
+    AggregationSortConfiguration,
     newAggregationSortConfiguration,
     aggregationSortConfiguration_column,
     aggregationSortConfiguration_sortDirection,
     aggregationSortConfiguration_aggregationFunction,
 
     -- * AmazonElasticsearchParameters
-    AmazonElasticsearchParameters (..),
+    AmazonElasticsearchParameters,
     newAmazonElasticsearchParameters,
     amazonElasticsearchParameters_domain,
 
     -- * AmazonOpenSearchParameters
-    AmazonOpenSearchParameters (..),
+    AmazonOpenSearchParameters,
     newAmazonOpenSearchParameters,
     amazonOpenSearchParameters_domain,
 
     -- * Analysis
-    Analysis (..),
+    Analysis,
     newAnalysis,
     analysis_analysisId,
     analysis_arn,
@@ -542,12 +543,12 @@ module Amazonka.QuickSight.Types
     analysis_themeArn,
 
     -- * AnalysisDefaults
-    AnalysisDefaults (..),
+    AnalysisDefaults,
     newAnalysisDefaults,
     analysisDefaults_defaultNewSheetConfiguration,
 
     -- * AnalysisDefinition
-    AnalysisDefinition (..),
+    AnalysisDefinition,
     newAnalysisDefinition,
     analysisDefinition_analysisDefaults,
     analysisDefinition_calculatedFields,
@@ -558,32 +559,32 @@ module Amazonka.QuickSight.Types
     analysisDefinition_dataSetIdentifierDeclarations,
 
     -- * AnalysisError
-    AnalysisError (..),
+    AnalysisError,
     newAnalysisError,
     analysisError_message,
     analysisError_type,
     analysisError_violatedEntities,
 
     -- * AnalysisSearchFilter
-    AnalysisSearchFilter (..),
+    AnalysisSearchFilter,
     newAnalysisSearchFilter,
     analysisSearchFilter_name,
     analysisSearchFilter_operator,
     analysisSearchFilter_value,
 
     -- * AnalysisSourceEntity
-    AnalysisSourceEntity (..),
+    AnalysisSourceEntity,
     newAnalysisSourceEntity,
     analysisSourceEntity_sourceTemplate,
 
     -- * AnalysisSourceTemplate
-    AnalysisSourceTemplate (..),
+    AnalysisSourceTemplate,
     newAnalysisSourceTemplate,
     analysisSourceTemplate_dataSetReferences,
     analysisSourceTemplate_arn,
 
     -- * AnalysisSummary
-    AnalysisSummary (..),
+    AnalysisSummary,
     newAnalysisSummary,
     analysisSummary_analysisId,
     analysisSummary_arn,
@@ -593,99 +594,99 @@ module Amazonka.QuickSight.Types
     analysisSummary_status,
 
     -- * AnchorDateConfiguration
-    AnchorDateConfiguration (..),
+    AnchorDateConfiguration,
     newAnchorDateConfiguration,
     anchorDateConfiguration_anchorOption,
     anchorDateConfiguration_parameterName,
 
     -- * AnonymousUserDashboardEmbeddingConfiguration
-    AnonymousUserDashboardEmbeddingConfiguration (..),
+    AnonymousUserDashboardEmbeddingConfiguration,
     newAnonymousUserDashboardEmbeddingConfiguration,
     anonymousUserDashboardEmbeddingConfiguration_initialDashboardId,
 
     -- * AnonymousUserDashboardVisualEmbeddingConfiguration
-    AnonymousUserDashboardVisualEmbeddingConfiguration (..),
+    AnonymousUserDashboardVisualEmbeddingConfiguration,
     newAnonymousUserDashboardVisualEmbeddingConfiguration,
     anonymousUserDashboardVisualEmbeddingConfiguration_initialDashboardVisualId,
 
     -- * AnonymousUserEmbeddingExperienceConfiguration
-    AnonymousUserEmbeddingExperienceConfiguration (..),
+    AnonymousUserEmbeddingExperienceConfiguration,
     newAnonymousUserEmbeddingExperienceConfiguration,
     anonymousUserEmbeddingExperienceConfiguration_dashboard,
     anonymousUserEmbeddingExperienceConfiguration_dashboardVisual,
     anonymousUserEmbeddingExperienceConfiguration_qSearchBar,
 
     -- * AnonymousUserQSearchBarEmbeddingConfiguration
-    AnonymousUserQSearchBarEmbeddingConfiguration (..),
+    AnonymousUserQSearchBarEmbeddingConfiguration,
     newAnonymousUserQSearchBarEmbeddingConfiguration,
     anonymousUserQSearchBarEmbeddingConfiguration_initialTopicId,
 
     -- * ArcAxisConfiguration
-    ArcAxisConfiguration (..),
+    ArcAxisConfiguration,
     newArcAxisConfiguration,
     arcAxisConfiguration_range,
     arcAxisConfiguration_reserveRange,
 
     -- * ArcAxisDisplayRange
-    ArcAxisDisplayRange (..),
+    ArcAxisDisplayRange,
     newArcAxisDisplayRange,
     arcAxisDisplayRange_max,
     arcAxisDisplayRange_min,
 
     -- * ArcConfiguration
-    ArcConfiguration (..),
+    ArcConfiguration,
     newArcConfiguration,
     arcConfiguration_arcAngle,
     arcConfiguration_arcThickness,
 
     -- * ArcOptions
-    ArcOptions (..),
+    ArcOptions,
     newArcOptions,
     arcOptions_arcThickness,
 
     -- * AthenaParameters
-    AthenaParameters (..),
+    AthenaParameters,
     newAthenaParameters,
     athenaParameters_roleArn,
     athenaParameters_workGroup,
 
     -- * AuroraParameters
-    AuroraParameters (..),
+    AuroraParameters,
     newAuroraParameters,
     auroraParameters_host,
     auroraParameters_port,
     auroraParameters_database,
 
     -- * AuroraPostgreSqlParameters
-    AuroraPostgreSqlParameters (..),
+    AuroraPostgreSqlParameters,
     newAuroraPostgreSqlParameters,
     auroraPostgreSqlParameters_host,
     auroraPostgreSqlParameters_port,
     auroraPostgreSqlParameters_database,
 
     -- * AwsIotAnalyticsParameters
-    AwsIotAnalyticsParameters (..),
+    AwsIotAnalyticsParameters,
     newAwsIotAnalyticsParameters,
     awsIotAnalyticsParameters_dataSetName,
 
     -- * AxisDataOptions
-    AxisDataOptions (..),
+    AxisDataOptions,
     newAxisDataOptions,
     axisDataOptions_dateAxisOptions,
     axisDataOptions_numericAxisOptions,
 
     -- * AxisDisplayDataDrivenRange
-    AxisDisplayDataDrivenRange (..),
+    AxisDisplayDataDrivenRange,
     newAxisDisplayDataDrivenRange,
 
     -- * AxisDisplayMinMaxRange
-    AxisDisplayMinMaxRange (..),
+    AxisDisplayMinMaxRange,
     newAxisDisplayMinMaxRange,
     axisDisplayMinMaxRange_maximum,
     axisDisplayMinMaxRange_minimum,
 
     -- * AxisDisplayOptions
-    AxisDisplayOptions (..),
+    AxisDisplayOptions,
     newAxisDisplayOptions,
     axisDisplayOptions_axisLineVisibility,
     axisDisplayOptions_axisOffset,
@@ -695,49 +696,49 @@ module Amazonka.QuickSight.Types
     axisDisplayOptions_tickLabelOptions,
 
     -- * AxisDisplayRange
-    AxisDisplayRange (..),
+    AxisDisplayRange,
     newAxisDisplayRange,
     axisDisplayRange_dataDriven,
     axisDisplayRange_minMax,
 
     -- * AxisLabelOptions
-    AxisLabelOptions (..),
+    AxisLabelOptions,
     newAxisLabelOptions,
     axisLabelOptions_applyTo,
     axisLabelOptions_customLabel,
     axisLabelOptions_fontConfiguration,
 
     -- * AxisLabelReferenceOptions
-    AxisLabelReferenceOptions (..),
+    AxisLabelReferenceOptions,
     newAxisLabelReferenceOptions,
     axisLabelReferenceOptions_fieldId,
     axisLabelReferenceOptions_column,
 
     -- * AxisLinearScale
-    AxisLinearScale (..),
+    AxisLinearScale,
     newAxisLinearScale,
     axisLinearScale_stepCount,
     axisLinearScale_stepSize,
 
     -- * AxisLogarithmicScale
-    AxisLogarithmicScale (..),
+    AxisLogarithmicScale,
     newAxisLogarithmicScale,
     axisLogarithmicScale_base,
 
     -- * AxisScale
-    AxisScale (..),
+    AxisScale,
     newAxisScale,
     axisScale_linear,
     axisScale_logarithmic,
 
     -- * AxisTickLabelOptions
-    AxisTickLabelOptions (..),
+    AxisTickLabelOptions,
     newAxisTickLabelOptions,
     axisTickLabelOptions_labelOptions,
     axisTickLabelOptions_rotationAngle,
 
     -- * BarChartAggregatedFieldWells
-    BarChartAggregatedFieldWells (..),
+    BarChartAggregatedFieldWells,
     newBarChartAggregatedFieldWells,
     barChartAggregatedFieldWells_category,
     barChartAggregatedFieldWells_colors,
@@ -745,7 +746,7 @@ module Amazonka.QuickSight.Types
     barChartAggregatedFieldWells_values,
 
     -- * BarChartConfiguration
-    BarChartConfiguration (..),
+    BarChartConfiguration,
     newBarChartConfiguration,
     barChartConfiguration_barsArrangement,
     barChartConfiguration_categoryAxis,
@@ -765,12 +766,12 @@ module Amazonka.QuickSight.Types
     barChartConfiguration_visualPalette,
 
     -- * BarChartFieldWells
-    BarChartFieldWells (..),
+    BarChartFieldWells,
     newBarChartFieldWells,
     barChartFieldWells_barChartAggregatedFieldWells,
 
     -- * BarChartSortConfiguration
-    BarChartSortConfiguration (..),
+    BarChartSortConfiguration,
     newBarChartSortConfiguration,
     barChartSortConfiguration_categoryItemsLimit,
     barChartSortConfiguration_categorySort,
@@ -780,7 +781,7 @@ module Amazonka.QuickSight.Types
     barChartSortConfiguration_smallMultiplesSort,
 
     -- * BarChartVisual
-    BarChartVisual (..),
+    BarChartVisual,
     newBarChartVisual,
     barChartVisual_actions,
     barChartVisual_chartConfiguration,
@@ -790,18 +791,18 @@ module Amazonka.QuickSight.Types
     barChartVisual_visualId,
 
     -- * BinCountOptions
-    BinCountOptions (..),
+    BinCountOptions,
     newBinCountOptions,
     binCountOptions_value,
 
     -- * BinWidthOptions
-    BinWidthOptions (..),
+    BinWidthOptions,
     newBinWidthOptions,
     binWidthOptions_binCountLimit,
     binWidthOptions_value,
 
     -- * BodySectionConfiguration
-    BodySectionConfiguration (..),
+    BodySectionConfiguration,
     newBodySectionConfiguration,
     bodySectionConfiguration_pageBreakConfiguration,
     bodySectionConfiguration_style,
@@ -809,23 +810,23 @@ module Amazonka.QuickSight.Types
     bodySectionConfiguration_content,
 
     -- * BodySectionContent
-    BodySectionContent (..),
+    BodySectionContent,
     newBodySectionContent,
     bodySectionContent_layout,
 
     -- * BorderStyle
-    BorderStyle (..),
+    BorderStyle,
     newBorderStyle,
     borderStyle_show,
 
     -- * BoxPlotAggregatedFieldWells
-    BoxPlotAggregatedFieldWells (..),
+    BoxPlotAggregatedFieldWells,
     newBoxPlotAggregatedFieldWells,
     boxPlotAggregatedFieldWells_groupBy,
     boxPlotAggregatedFieldWells_values,
 
     -- * BoxPlotChartConfiguration
-    BoxPlotChartConfiguration (..),
+    BoxPlotChartConfiguration,
     newBoxPlotChartConfiguration,
     boxPlotChartConfiguration_boxPlotOptions,
     boxPlotChartConfiguration_categoryAxis,
@@ -840,30 +841,30 @@ module Amazonka.QuickSight.Types
     boxPlotChartConfiguration_visualPalette,
 
     -- * BoxPlotFieldWells
-    BoxPlotFieldWells (..),
+    BoxPlotFieldWells,
     newBoxPlotFieldWells,
     boxPlotFieldWells_boxPlotAggregatedFieldWells,
 
     -- * BoxPlotOptions
-    BoxPlotOptions (..),
+    BoxPlotOptions,
     newBoxPlotOptions,
     boxPlotOptions_allDataPointsVisibility,
     boxPlotOptions_outlierVisibility,
     boxPlotOptions_styleOptions,
 
     -- * BoxPlotSortConfiguration
-    BoxPlotSortConfiguration (..),
+    BoxPlotSortConfiguration,
     newBoxPlotSortConfiguration,
     boxPlotSortConfiguration_categorySort,
     boxPlotSortConfiguration_paginationConfiguration,
 
     -- * BoxPlotStyleOptions
-    BoxPlotStyleOptions (..),
+    BoxPlotStyleOptions,
     newBoxPlotStyleOptions,
     boxPlotStyleOptions_fillStyle,
 
     -- * BoxPlotVisual
-    BoxPlotVisual (..),
+    BoxPlotVisual,
     newBoxPlotVisual,
     boxPlotVisual_actions,
     boxPlotVisual_chartConfiguration,
@@ -873,45 +874,45 @@ module Amazonka.QuickSight.Types
     boxPlotVisual_visualId,
 
     -- * CalculatedColumn
-    CalculatedColumn (..),
+    CalculatedColumn,
     newCalculatedColumn,
     calculatedColumn_columnName,
     calculatedColumn_columnId,
     calculatedColumn_expression,
 
     -- * CalculatedField
-    CalculatedField (..),
+    CalculatedField,
     newCalculatedField,
     calculatedField_dataSetIdentifier,
     calculatedField_name,
     calculatedField_expression,
 
     -- * CalculatedMeasureField
-    CalculatedMeasureField (..),
+    CalculatedMeasureField,
     newCalculatedMeasureField,
     calculatedMeasureField_fieldId,
     calculatedMeasureField_expression,
 
     -- * CascadingControlConfiguration
-    CascadingControlConfiguration (..),
+    CascadingControlConfiguration,
     newCascadingControlConfiguration,
     cascadingControlConfiguration_sourceControls,
 
     -- * CascadingControlSource
-    CascadingControlSource (..),
+    CascadingControlSource,
     newCascadingControlSource,
     cascadingControlSource_columnToMatch,
     cascadingControlSource_sourceSheetControlId,
 
     -- * CastColumnTypeOperation
-    CastColumnTypeOperation (..),
+    CastColumnTypeOperation,
     newCastColumnTypeOperation,
     castColumnTypeOperation_format,
     castColumnTypeOperation_columnName,
     castColumnTypeOperation_newColumnType,
 
     -- * CategoricalDimensionField
-    CategoricalDimensionField (..),
+    CategoricalDimensionField,
     newCategoricalDimensionField,
     categoricalDimensionField_formatConfiguration,
     categoricalDimensionField_hierarchyId,
@@ -919,7 +920,7 @@ module Amazonka.QuickSight.Types
     categoricalDimensionField_column,
 
     -- * CategoricalMeasureField
-    CategoricalMeasureField (..),
+    CategoricalMeasureField,
     newCategoricalMeasureField,
     categoricalMeasureField_aggregationFunction,
     categoricalMeasureField_formatConfiguration,
@@ -927,118 +928,118 @@ module Amazonka.QuickSight.Types
     categoricalMeasureField_column,
 
     -- * CategoryDrillDownFilter
-    CategoryDrillDownFilter (..),
+    CategoryDrillDownFilter,
     newCategoryDrillDownFilter,
     categoryDrillDownFilter_column,
     categoryDrillDownFilter_categoryValues,
 
     -- * CategoryFilter
-    CategoryFilter (..),
+    CategoryFilter,
     newCategoryFilter,
     categoryFilter_configuration,
     categoryFilter_filterId,
     categoryFilter_column,
 
     -- * CategoryFilterConfiguration
-    CategoryFilterConfiguration (..),
+    CategoryFilterConfiguration,
     newCategoryFilterConfiguration,
     categoryFilterConfiguration_customFilterConfiguration,
     categoryFilterConfiguration_customFilterListConfiguration,
     categoryFilterConfiguration_filterListConfiguration,
 
     -- * ChartAxisLabelOptions
-    ChartAxisLabelOptions (..),
+    ChartAxisLabelOptions,
     newChartAxisLabelOptions,
     chartAxisLabelOptions_axisLabelOptions,
     chartAxisLabelOptions_sortIconVisibility,
     chartAxisLabelOptions_visibility,
 
     -- * ClusterMarker
-    ClusterMarker (..),
+    ClusterMarker,
     newClusterMarker,
     clusterMarker_simpleClusterMarker,
 
     -- * ClusterMarkerConfiguration
-    ClusterMarkerConfiguration (..),
+    ClusterMarkerConfiguration,
     newClusterMarkerConfiguration,
     clusterMarkerConfiguration_clusterMarker,
 
     -- * ColorScale
-    ColorScale (..),
+    ColorScale,
     newColorScale,
     colorScale_nullValueColor,
     colorScale_colors,
     colorScale_colorFillType,
 
     -- * ColumnConfiguration
-    ColumnConfiguration (..),
+    ColumnConfiguration,
     newColumnConfiguration,
     columnConfiguration_formatConfiguration,
     columnConfiguration_role,
     columnConfiguration_column,
 
     -- * ColumnDescription
-    ColumnDescription (..),
+    ColumnDescription,
     newColumnDescription,
     columnDescription_text,
 
     -- * ColumnGroup
-    ColumnGroup (..),
+    ColumnGroup,
     newColumnGroup,
     columnGroup_geoSpatialColumnGroup,
 
     -- * ColumnGroupColumnSchema
-    ColumnGroupColumnSchema (..),
+    ColumnGroupColumnSchema,
     newColumnGroupColumnSchema,
     columnGroupColumnSchema_name,
 
     -- * ColumnGroupSchema
-    ColumnGroupSchema (..),
+    ColumnGroupSchema,
     newColumnGroupSchema,
     columnGroupSchema_columnGroupColumnSchemaList,
     columnGroupSchema_name,
 
     -- * ColumnHierarchy
-    ColumnHierarchy (..),
+    ColumnHierarchy,
     newColumnHierarchy,
     columnHierarchy_dateTimeHierarchy,
     columnHierarchy_explicitHierarchy,
     columnHierarchy_predefinedHierarchy,
 
     -- * ColumnIdentifier
-    ColumnIdentifier (..),
+    ColumnIdentifier,
     newColumnIdentifier,
     columnIdentifier_dataSetIdentifier,
     columnIdentifier_columnName,
 
     -- * ColumnLevelPermissionRule
-    ColumnLevelPermissionRule (..),
+    ColumnLevelPermissionRule,
     newColumnLevelPermissionRule,
     columnLevelPermissionRule_columnNames,
     columnLevelPermissionRule_principals,
 
     -- * ColumnSchema
-    ColumnSchema (..),
+    ColumnSchema,
     newColumnSchema,
     columnSchema_dataType,
     columnSchema_geographicRole,
     columnSchema_name,
 
     -- * ColumnSort
-    ColumnSort (..),
+    ColumnSort,
     newColumnSort,
     columnSort_aggregationFunction,
     columnSort_sortBy,
     columnSort_direction,
 
     -- * ColumnTag
-    ColumnTag (..),
+    ColumnTag,
     newColumnTag,
     columnTag_columnDescription,
     columnTag_columnGeographicRole,
 
     -- * ColumnTooltipItem
-    ColumnTooltipItem (..),
+    ColumnTooltipItem,
     newColumnTooltipItem,
     columnTooltipItem_aggregation,
     columnTooltipItem_label,
@@ -1046,7 +1047,7 @@ module Amazonka.QuickSight.Types
     columnTooltipItem_column,
 
     -- * ComboChartAggregatedFieldWells
-    ComboChartAggregatedFieldWells (..),
+    ComboChartAggregatedFieldWells,
     newComboChartAggregatedFieldWells,
     comboChartAggregatedFieldWells_barValues,
     comboChartAggregatedFieldWells_category,
@@ -1054,7 +1055,7 @@ module Amazonka.QuickSight.Types
     comboChartAggregatedFieldWells_lineValues,
 
     -- * ComboChartConfiguration
-    ComboChartConfiguration (..),
+    ComboChartConfiguration,
     newComboChartConfiguration,
     comboChartConfiguration_barDataLabels,
     comboChartConfiguration_barsArrangement,
@@ -1074,12 +1075,12 @@ module Amazonka.QuickSight.Types
     comboChartConfiguration_visualPalette,
 
     -- * ComboChartFieldWells
-    ComboChartFieldWells (..),
+    ComboChartFieldWells,
     newComboChartFieldWells,
     comboChartFieldWells_comboChartAggregatedFieldWells,
 
     -- * ComboChartSortConfiguration
-    ComboChartSortConfiguration (..),
+    ComboChartSortConfiguration,
     newComboChartSortConfiguration,
     comboChartSortConfiguration_categoryItemsLimit,
     comboChartSortConfiguration_categorySort,
@@ -1087,7 +1088,7 @@ module Amazonka.QuickSight.Types
     comboChartSortConfiguration_colorSort,
 
     -- * ComboChartVisual
-    ComboChartVisual (..),
+    ComboChartVisual,
     newComboChartVisual,
     comboChartVisual_actions,
     comboChartVisual_chartConfiguration,
@@ -1097,19 +1098,19 @@ module Amazonka.QuickSight.Types
     comboChartVisual_visualId,
 
     -- * ComparisonConfiguration
-    ComparisonConfiguration (..),
+    ComparisonConfiguration,
     newComparisonConfiguration,
     comparisonConfiguration_comparisonFormat,
     comparisonConfiguration_comparisonMethod,
 
     -- * ComparisonFormatConfiguration
-    ComparisonFormatConfiguration (..),
+    ComparisonFormatConfiguration,
     newComparisonFormatConfiguration,
     comparisonFormatConfiguration_numberDisplayFormatConfiguration,
     comparisonFormatConfiguration_percentageDisplayFormatConfiguration,
 
     -- * Computation
-    Computation (..),
+    Computation,
     newComputation,
     computation_forecast,
     computation_growthRate,
@@ -1123,13 +1124,13 @@ module Amazonka.QuickSight.Types
     computation_uniqueValues,
 
     -- * ConditionalFormattingColor
-    ConditionalFormattingColor (..),
+    ConditionalFormattingColor,
     newConditionalFormattingColor,
     conditionalFormattingColor_gradient,
     conditionalFormattingColor_solid,
 
     -- * ConditionalFormattingCustomIconCondition
-    ConditionalFormattingCustomIconCondition (..),
+    ConditionalFormattingCustomIconCondition,
     newConditionalFormattingCustomIconCondition,
     conditionalFormattingCustomIconCondition_color,
     conditionalFormattingCustomIconCondition_displayConfiguration,
@@ -1137,60 +1138,60 @@ module Amazonka.QuickSight.Types
     conditionalFormattingCustomIconCondition_iconOptions,
 
     -- * ConditionalFormattingCustomIconOptions
-    ConditionalFormattingCustomIconOptions (..),
+    ConditionalFormattingCustomIconOptions,
     newConditionalFormattingCustomIconOptions,
     conditionalFormattingCustomIconOptions_icon,
     conditionalFormattingCustomIconOptions_unicodeIcon,
 
     -- * ConditionalFormattingGradientColor
-    ConditionalFormattingGradientColor (..),
+    ConditionalFormattingGradientColor,
     newConditionalFormattingGradientColor,
     conditionalFormattingGradientColor_expression,
     conditionalFormattingGradientColor_color,
 
     -- * ConditionalFormattingIcon
-    ConditionalFormattingIcon (..),
+    ConditionalFormattingIcon,
     newConditionalFormattingIcon,
     conditionalFormattingIcon_customCondition,
     conditionalFormattingIcon_iconSet,
 
     -- * ConditionalFormattingIconDisplayConfiguration
-    ConditionalFormattingIconDisplayConfiguration (..),
+    ConditionalFormattingIconDisplayConfiguration,
     newConditionalFormattingIconDisplayConfiguration,
     conditionalFormattingIconDisplayConfiguration_iconDisplayOption,
 
     -- * ConditionalFormattingIconSet
-    ConditionalFormattingIconSet (..),
+    ConditionalFormattingIconSet,
     newConditionalFormattingIconSet,
     conditionalFormattingIconSet_iconSetType,
     conditionalFormattingIconSet_expression,
 
     -- * ConditionalFormattingSolidColor
-    ConditionalFormattingSolidColor (..),
+    ConditionalFormattingSolidColor,
     newConditionalFormattingSolidColor,
     conditionalFormattingSolidColor_color,
     conditionalFormattingSolidColor_expression,
 
     -- * ContributionAnalysisDefault
-    ContributionAnalysisDefault (..),
+    ContributionAnalysisDefault,
     newContributionAnalysisDefault,
     contributionAnalysisDefault_measureFieldId,
     contributionAnalysisDefault_contributorDimensions,
 
     -- * CreateColumnsOperation
-    CreateColumnsOperation (..),
+    CreateColumnsOperation,
     newCreateColumnsOperation,
     createColumnsOperation_columns,
 
     -- * CredentialPair
-    CredentialPair (..),
+    CredentialPair,
     newCredentialPair,
     credentialPair_alternateDataSourceParameters,
     credentialPair_username,
     credentialPair_password,
 
     -- * CurrencyDisplayFormatConfiguration
-    CurrencyDisplayFormatConfiguration (..),
+    CurrencyDisplayFormatConfiguration,
     newCurrencyDisplayFormatConfiguration,
     currencyDisplayFormatConfiguration_decimalPlacesConfiguration,
     currencyDisplayFormatConfiguration_negativeValueConfiguration,
@@ -1202,36 +1203,36 @@ module Amazonka.QuickSight.Types
     currencyDisplayFormatConfiguration_symbol,
 
     -- * CustomActionFilterOperation
-    CustomActionFilterOperation (..),
+    CustomActionFilterOperation,
     newCustomActionFilterOperation,
     customActionFilterOperation_selectedFieldsConfiguration,
     customActionFilterOperation_targetVisualsConfiguration,
 
     -- * CustomActionNavigationOperation
-    CustomActionNavigationOperation (..),
+    CustomActionNavigationOperation,
     newCustomActionNavigationOperation,
     customActionNavigationOperation_localNavigationConfiguration,
 
     -- * CustomActionSetParametersOperation
-    CustomActionSetParametersOperation (..),
+    CustomActionSetParametersOperation,
     newCustomActionSetParametersOperation,
     customActionSetParametersOperation_parameterValueConfigurations,
 
     -- * CustomActionURLOperation
-    CustomActionURLOperation (..),
+    CustomActionURLOperation,
     newCustomActionURLOperation,
     customActionURLOperation_uRLTemplate,
     customActionURLOperation_uRLTarget,
 
     -- * CustomContentConfiguration
-    CustomContentConfiguration (..),
+    CustomContentConfiguration,
     newCustomContentConfiguration,
     customContentConfiguration_contentType,
     customContentConfiguration_contentUrl,
     customContentConfiguration_imageScaling,
 
     -- * CustomContentVisual
-    CustomContentVisual (..),
+    CustomContentVisual,
     newCustomContentVisual,
     customContentVisual_actions,
     customContentVisual_chartConfiguration,
@@ -1241,7 +1242,7 @@ module Amazonka.QuickSight.Types
     customContentVisual_dataSetIdentifier,
 
     -- * CustomFilterConfiguration
-    CustomFilterConfiguration (..),
+    CustomFilterConfiguration,
     newCustomFilterConfiguration,
     customFilterConfiguration_categoryValue,
     customFilterConfiguration_parameterName,
@@ -1250,7 +1251,7 @@ module Amazonka.QuickSight.Types
     customFilterConfiguration_nullOption,
 
     -- * CustomFilterListConfiguration
-    CustomFilterListConfiguration (..),
+    CustomFilterListConfiguration,
     newCustomFilterListConfiguration,
     customFilterListConfiguration_categoryValues,
     customFilterListConfiguration_selectAllOptions,
@@ -1258,12 +1259,12 @@ module Amazonka.QuickSight.Types
     customFilterListConfiguration_nullOption,
 
     -- * CustomNarrativeOptions
-    CustomNarrativeOptions (..),
+    CustomNarrativeOptions,
     newCustomNarrativeOptions,
     customNarrativeOptions_narrative,
 
     -- * CustomParameterValues
-    CustomParameterValues (..),
+    CustomParameterValues,
     newCustomParameterValues,
     customParameterValues_dateTimeValues,
     customParameterValues_decimalValues,
@@ -1271,7 +1272,7 @@ module Amazonka.QuickSight.Types
     customParameterValues_stringValues,
 
     -- * CustomSql
-    CustomSql (..),
+    CustomSql,
     newCustomSql,
     customSql_columns,
     customSql_dataSourceArn,
@@ -1279,13 +1280,13 @@ module Amazonka.QuickSight.Types
     customSql_sqlQuery,
 
     -- * CustomValuesConfiguration
-    CustomValuesConfiguration (..),
+    CustomValuesConfiguration,
     newCustomValuesConfiguration,
     customValuesConfiguration_includeNullValue,
     customValuesConfiguration_customValues,
 
     -- * Dashboard
-    Dashboard (..),
+    Dashboard,
     newDashboard,
     dashboard_arn,
     dashboard_createdTime,
@@ -1296,14 +1297,14 @@ module Amazonka.QuickSight.Types
     dashboard_version,
 
     -- * DashboardError
-    DashboardError (..),
+    DashboardError,
     newDashboardError,
     dashboardError_message,
     dashboardError_type,
     dashboardError_violatedEntities,
 
     -- * DashboardPublishOptions
-    DashboardPublishOptions (..),
+    DashboardPublishOptions,
     newDashboardPublishOptions,
     dashboardPublishOptions_adHocFilteringOption,
     dashboardPublishOptions_exportToCSVOption,
@@ -1311,25 +1312,25 @@ module Amazonka.QuickSight.Types
     dashboardPublishOptions_visualPublishOptions,
 
     -- * DashboardSearchFilter
-    DashboardSearchFilter (..),
+    DashboardSearchFilter,
     newDashboardSearchFilter,
     dashboardSearchFilter_name,
     dashboardSearchFilter_value,
     dashboardSearchFilter_operator,
 
     -- * DashboardSourceEntity
-    DashboardSourceEntity (..),
+    DashboardSourceEntity,
     newDashboardSourceEntity,
     dashboardSourceEntity_sourceTemplate,
 
     -- * DashboardSourceTemplate
-    DashboardSourceTemplate (..),
+    DashboardSourceTemplate,
     newDashboardSourceTemplate,
     dashboardSourceTemplate_dataSetReferences,
     dashboardSourceTemplate_arn,
 
     -- * DashboardSummary
-    DashboardSummary (..),
+    DashboardSummary,
     newDashboardSummary,
     dashboardSummary_arn,
     dashboardSummary_createdTime,
@@ -1340,7 +1341,7 @@ module Amazonka.QuickSight.Types
     dashboardSummary_publishedVersionNumber,
 
     -- * DashboardVersion
-    DashboardVersion (..),
+    DashboardVersion,
     newDashboardVersion,
     dashboardVersion_arn,
     dashboardVersion_createdTime,
@@ -1354,7 +1355,7 @@ module Amazonka.QuickSight.Types
     dashboardVersion_versionNumber,
 
     -- * DashboardVersionDefinition
-    DashboardVersionDefinition (..),
+    DashboardVersionDefinition,
     newDashboardVersionDefinition,
     dashboardVersionDefinition_analysisDefaults,
     dashboardVersionDefinition_calculatedFields,
@@ -1365,7 +1366,7 @@ module Amazonka.QuickSight.Types
     dashboardVersionDefinition_dataSetIdentifierDeclarations,
 
     -- * DashboardVersionSummary
-    DashboardVersionSummary (..),
+    DashboardVersionSummary,
     newDashboardVersionSummary,
     dashboardVersionSummary_arn,
     dashboardVersionSummary_createdTime,
@@ -1375,32 +1376,32 @@ module Amazonka.QuickSight.Types
     dashboardVersionSummary_versionNumber,
 
     -- * DashboardVisualId
-    DashboardVisualId (..),
+    DashboardVisualId,
     newDashboardVisualId,
     dashboardVisualId_dashboardId,
     dashboardVisualId_sheetId,
     dashboardVisualId_visualId,
 
     -- * DashboardVisualPublishOptions
-    DashboardVisualPublishOptions (..),
+    DashboardVisualPublishOptions,
     newDashboardVisualPublishOptions,
     dashboardVisualPublishOptions_exportHiddenFieldsOption,
 
     -- * DataColor
-    DataColor (..),
+    DataColor,
     newDataColor,
     dataColor_color,
     dataColor_dataValue,
 
     -- * DataColorPalette
-    DataColorPalette (..),
+    DataColorPalette,
     newDataColorPalette,
     dataColorPalette_colors,
     dataColorPalette_emptyFillColor,
     dataColorPalette_minMaxGradient,
 
     -- * DataFieldSeriesItem
-    DataFieldSeriesItem (..),
+    DataFieldSeriesItem,
     newDataFieldSeriesItem,
     dataFieldSeriesItem_fieldValue,
     dataFieldSeriesItem_settings,
@@ -1408,7 +1409,7 @@ module Amazonka.QuickSight.Types
     dataFieldSeriesItem_axisBinding,
 
     -- * DataLabelOptions
-    DataLabelOptions (..),
+    DataLabelOptions,
     newDataLabelOptions,
     dataLabelOptions_categoryLabelVisibility,
     dataLabelOptions_dataLabelTypes,
@@ -1421,7 +1422,7 @@ module Amazonka.QuickSight.Types
     dataLabelOptions_visibility,
 
     -- * DataLabelType
-    DataLabelType (..),
+    DataLabelType,
     newDataLabelType,
     dataLabelType_dataPathLabelType,
     dataLabelType_fieldLabelType,
@@ -1430,33 +1431,33 @@ module Amazonka.QuickSight.Types
     dataLabelType_rangeEndsLabelType,
 
     -- * DataPathColor
-    DataPathColor (..),
+    DataPathColor,
     newDataPathColor,
     dataPathColor_timeGranularity,
     dataPathColor_element,
     dataPathColor_color,
 
     -- * DataPathLabelType
-    DataPathLabelType (..),
+    DataPathLabelType,
     newDataPathLabelType,
     dataPathLabelType_fieldId,
     dataPathLabelType_fieldValue,
     dataPathLabelType_visibility,
 
     -- * DataPathSort
-    DataPathSort (..),
+    DataPathSort,
     newDataPathSort,
     dataPathSort_direction,
     dataPathSort_sortPaths,
 
     -- * DataPathValue
-    DataPathValue (..),
+    DataPathValue,
     newDataPathValue,
     dataPathValue_fieldId,
     dataPathValue_fieldValue,
 
     -- * DataSet
-    DataSet (..),
+    DataSet,
     newDataSet,
     dataSet_arn,
     dataSet_columnGroups,
@@ -1476,38 +1477,38 @@ module Amazonka.QuickSight.Types
     dataSet_rowLevelPermissionTagConfiguration,
 
     -- * DataSetConfiguration
-    DataSetConfiguration (..),
+    DataSetConfiguration,
     newDataSetConfiguration,
     dataSetConfiguration_columnGroupSchemaList,
     dataSetConfiguration_dataSetSchema,
     dataSetConfiguration_placeholder,
 
     -- * DataSetIdentifierDeclaration
-    DataSetIdentifierDeclaration (..),
+    DataSetIdentifierDeclaration,
     newDataSetIdentifierDeclaration,
     dataSetIdentifierDeclaration_identifier,
     dataSetIdentifierDeclaration_dataSetArn,
 
     -- * DataSetReference
-    DataSetReference (..),
+    DataSetReference,
     newDataSetReference,
     dataSetReference_dataSetPlaceholder,
     dataSetReference_dataSetArn,
 
     -- * DataSetSchema
-    DataSetSchema (..),
+    DataSetSchema,
     newDataSetSchema,
     dataSetSchema_columnSchemaList,
 
     -- * DataSetSearchFilter
-    DataSetSearchFilter (..),
+    DataSetSearchFilter,
     newDataSetSearchFilter,
     dataSetSearchFilter_operator,
     dataSetSearchFilter_name,
     dataSetSearchFilter_value,
 
     -- * DataSetSummary
-    DataSetSummary (..),
+    DataSetSummary,
     newDataSetSummary,
     dataSetSummary_arn,
     dataSetSummary_columnLevelPermissionRulesApplied,
@@ -1520,13 +1521,13 @@ module Amazonka.QuickSight.Types
     dataSetSummary_rowLevelPermissionTagConfigurationApplied,
 
     -- * DataSetUsageConfiguration
-    DataSetUsageConfiguration (..),
+    DataSetUsageConfiguration,
     newDataSetUsageConfiguration,
     dataSetUsageConfiguration_disableUseAsDirectQuerySource,
     dataSetUsageConfiguration_disableUseAsImportedSource,
 
     -- * DataSource
-    DataSource (..),
+    DataSource,
     newDataSource,
     dataSource_alternateDataSourceParameters,
     dataSource_arn,
@@ -1543,20 +1544,20 @@ module Amazonka.QuickSight.Types
     dataSource_vpcConnectionProperties,
 
     -- * DataSourceCredentials
-    DataSourceCredentials (..),
+    DataSourceCredentials,
     newDataSourceCredentials,
     dataSourceCredentials_copySourceArn,
     dataSourceCredentials_credentialPair,
     dataSourceCredentials_secretArn,
 
     -- * DataSourceErrorInfo
-    DataSourceErrorInfo (..),
+    DataSourceErrorInfo,
     newDataSourceErrorInfo,
     dataSourceErrorInfo_message,
     dataSourceErrorInfo_type,
 
     -- * DataSourceParameters
-    DataSourceParameters (..),
+    DataSourceParameters,
     newDataSourceParameters,
     dataSourceParameters_amazonElasticsearchParameters,
     dataSourceParameters_amazonOpenSearchParameters,
@@ -1583,14 +1584,14 @@ module Amazonka.QuickSight.Types
     dataSourceParameters_twitterParameters,
 
     -- * DataSourceSearchFilter
-    DataSourceSearchFilter (..),
+    DataSourceSearchFilter,
     newDataSourceSearchFilter,
     dataSourceSearchFilter_operator,
     dataSourceSearchFilter_name,
     dataSourceSearchFilter_value,
 
     -- * DataSourceSummary
-    DataSourceSummary (..),
+    DataSourceSummary,
     newDataSourceSummary,
     dataSourceSummary_arn,
     dataSourceSummary_createdTime,
@@ -1600,19 +1601,19 @@ module Amazonka.QuickSight.Types
     dataSourceSummary_type,
 
     -- * DatabricksParameters
-    DatabricksParameters (..),
+    DatabricksParameters,
     newDatabricksParameters,
     databricksParameters_host,
     databricksParameters_port,
     databricksParameters_sqlEndpointPath,
 
     -- * DateAxisOptions
-    DateAxisOptions (..),
+    DateAxisOptions,
     newDateAxisOptions,
     dateAxisOptions_missingDateVisibility,
 
     -- * DateDimensionField
-    DateDimensionField (..),
+    DateDimensionField,
     newDateDimensionField,
     dateDimensionField_dateGranularity,
     dateDimensionField_formatConfiguration,
@@ -1621,7 +1622,7 @@ module Amazonka.QuickSight.Types
     dateDimensionField_column,
 
     -- * DateMeasureField
-    DateMeasureField (..),
+    DateMeasureField,
     newDateMeasureField,
     dateMeasureField_aggregationFunction,
     dateMeasureField_formatConfiguration,
@@ -1629,33 +1630,33 @@ module Amazonka.QuickSight.Types
     dateMeasureField_column,
 
     -- * DateTimeDefaultValues
-    DateTimeDefaultValues (..),
+    DateTimeDefaultValues,
     newDateTimeDefaultValues,
     dateTimeDefaultValues_dynamicValue,
     dateTimeDefaultValues_rollingDate,
     dateTimeDefaultValues_staticValues,
 
     -- * DateTimeFormatConfiguration
-    DateTimeFormatConfiguration (..),
+    DateTimeFormatConfiguration,
     newDateTimeFormatConfiguration,
     dateTimeFormatConfiguration_dateTimeFormat,
     dateTimeFormatConfiguration_nullValueFormatConfiguration,
     dateTimeFormatConfiguration_numericFormatConfiguration,
 
     -- * DateTimeHierarchy
-    DateTimeHierarchy (..),
+    DateTimeHierarchy,
     newDateTimeHierarchy,
     dateTimeHierarchy_drillDownFilters,
     dateTimeHierarchy_hierarchyId,
 
     -- * DateTimeParameter
-    DateTimeParameter (..),
+    DateTimeParameter,
     newDateTimeParameter,
     dateTimeParameter_name,
     dateTimeParameter_values,
 
     -- * DateTimeParameterDeclaration
-    DateTimeParameterDeclaration (..),
+    DateTimeParameterDeclaration,
     newDateTimeParameterDeclaration,
     dateTimeParameterDeclaration_defaultValues,
     dateTimeParameterDeclaration_timeGranularity,
@@ -1663,31 +1664,31 @@ module Amazonka.QuickSight.Types
     dateTimeParameterDeclaration_name,
 
     -- * DateTimePickerControlDisplayOptions
-    DateTimePickerControlDisplayOptions (..),
+    DateTimePickerControlDisplayOptions,
     newDateTimePickerControlDisplayOptions,
     dateTimePickerControlDisplayOptions_dateTimeFormat,
     dateTimePickerControlDisplayOptions_titleOptions,
 
     -- * DateTimeValueWhenUnsetConfiguration
-    DateTimeValueWhenUnsetConfiguration (..),
+    DateTimeValueWhenUnsetConfiguration,
     newDateTimeValueWhenUnsetConfiguration,
     dateTimeValueWhenUnsetConfiguration_customValue,
     dateTimeValueWhenUnsetConfiguration_valueWhenUnsetOption,
 
     -- * DecimalDefaultValues
-    DecimalDefaultValues (..),
+    DecimalDefaultValues,
     newDecimalDefaultValues,
     decimalDefaultValues_dynamicValue,
     decimalDefaultValues_staticValues,
 
     -- * DecimalParameter
-    DecimalParameter (..),
+    DecimalParameter,
     newDecimalParameter,
     decimalParameter_name,
     decimalParameter_values,
 
     -- * DecimalParameterDeclaration
-    DecimalParameterDeclaration (..),
+    DecimalParameterDeclaration,
     newDecimalParameterDeclaration,
     decimalParameterDeclaration_defaultValues,
     decimalParameterDeclaration_valueWhenUnset,
@@ -1695,51 +1696,51 @@ module Amazonka.QuickSight.Types
     decimalParameterDeclaration_name,
 
     -- * DecimalPlacesConfiguration
-    DecimalPlacesConfiguration (..),
+    DecimalPlacesConfiguration,
     newDecimalPlacesConfiguration,
     decimalPlacesConfiguration_decimalPlaces,
 
     -- * DecimalValueWhenUnsetConfiguration
-    DecimalValueWhenUnsetConfiguration (..),
+    DecimalValueWhenUnsetConfiguration,
     newDecimalValueWhenUnsetConfiguration,
     decimalValueWhenUnsetConfiguration_customValue,
     decimalValueWhenUnsetConfiguration_valueWhenUnsetOption,
 
     -- * DefaultFreeFormLayoutConfiguration
-    DefaultFreeFormLayoutConfiguration (..),
+    DefaultFreeFormLayoutConfiguration,
     newDefaultFreeFormLayoutConfiguration,
     defaultFreeFormLayoutConfiguration_canvasSizeOptions,
 
     -- * DefaultGridLayoutConfiguration
-    DefaultGridLayoutConfiguration (..),
+    DefaultGridLayoutConfiguration,
     newDefaultGridLayoutConfiguration,
     defaultGridLayoutConfiguration_canvasSizeOptions,
 
     -- * DefaultInteractiveLayoutConfiguration
-    DefaultInteractiveLayoutConfiguration (..),
+    DefaultInteractiveLayoutConfiguration,
     newDefaultInteractiveLayoutConfiguration,
     defaultInteractiveLayoutConfiguration_freeForm,
     defaultInteractiveLayoutConfiguration_grid,
 
     -- * DefaultNewSheetConfiguration
-    DefaultNewSheetConfiguration (..),
+    DefaultNewSheetConfiguration,
     newDefaultNewSheetConfiguration,
     defaultNewSheetConfiguration_interactiveLayoutConfiguration,
     defaultNewSheetConfiguration_paginatedLayoutConfiguration,
     defaultNewSheetConfiguration_sheetContentType,
 
     -- * DefaultPaginatedLayoutConfiguration
-    DefaultPaginatedLayoutConfiguration (..),
+    DefaultPaginatedLayoutConfiguration,
     newDefaultPaginatedLayoutConfiguration,
     defaultPaginatedLayoutConfiguration_sectionBased,
 
     -- * DefaultSectionBasedLayoutConfiguration
-    DefaultSectionBasedLayoutConfiguration (..),
+    DefaultSectionBasedLayoutConfiguration,
     newDefaultSectionBasedLayoutConfiguration,
     defaultSectionBasedLayoutConfiguration_canvasSizeOptions,
 
     -- * DestinationParameterValueConfiguration
-    DestinationParameterValueConfiguration (..),
+    DestinationParameterValueConfiguration,
     newDestinationParameterValueConfiguration,
     destinationParameterValueConfiguration_customValuesConfiguration,
     destinationParameterValueConfiguration_selectAllValueOptions,
@@ -1747,154 +1748,154 @@ module Amazonka.QuickSight.Types
     destinationParameterValueConfiguration_sourceParameterName,
 
     -- * DimensionField
-    DimensionField (..),
+    DimensionField,
     newDimensionField,
     dimensionField_categoricalDimensionField,
     dimensionField_dateDimensionField,
     dimensionField_numericalDimensionField,
 
     -- * DonutCenterOptions
-    DonutCenterOptions (..),
+    DonutCenterOptions,
     newDonutCenterOptions,
     donutCenterOptions_labelVisibility,
 
     -- * DonutOptions
-    DonutOptions (..),
+    DonutOptions,
     newDonutOptions,
     donutOptions_arcOptions,
     donutOptions_donutCenterOptions,
 
     -- * DrillDownFilter
-    DrillDownFilter (..),
+    DrillDownFilter,
     newDrillDownFilter,
     drillDownFilter_categoryFilter,
     drillDownFilter_numericEqualityFilter,
     drillDownFilter_timeRangeFilter,
 
     -- * DropDownControlDisplayOptions
-    DropDownControlDisplayOptions (..),
+    DropDownControlDisplayOptions,
     newDropDownControlDisplayOptions,
     dropDownControlDisplayOptions_selectAllOptions,
     dropDownControlDisplayOptions_titleOptions,
 
     -- * DynamicDefaultValue
-    DynamicDefaultValue (..),
+    DynamicDefaultValue,
     newDynamicDefaultValue,
     dynamicDefaultValue_groupNameColumn,
     dynamicDefaultValue_userNameColumn,
     dynamicDefaultValue_defaultValueColumn,
 
     -- * EmptyVisual
-    EmptyVisual (..),
+    EmptyVisual,
     newEmptyVisual,
     emptyVisual_actions,
     emptyVisual_visualId,
     emptyVisual_dataSetIdentifier,
 
     -- * Entity
-    Entity (..),
+    Entity,
     newEntity,
     entity_path,
 
     -- * ErrorInfo
-    ErrorInfo (..),
+    ErrorInfo,
     newErrorInfo,
     errorInfo_message,
     errorInfo_type,
 
     -- * ExasolParameters
-    ExasolParameters (..),
+    ExasolParameters,
     newExasolParameters,
     exasolParameters_host,
     exasolParameters_port,
 
     -- * ExcludePeriodConfiguration
-    ExcludePeriodConfiguration (..),
+    ExcludePeriodConfiguration,
     newExcludePeriodConfiguration,
     excludePeriodConfiguration_status,
     excludePeriodConfiguration_amount,
     excludePeriodConfiguration_granularity,
 
     -- * ExplicitHierarchy
-    ExplicitHierarchy (..),
+    ExplicitHierarchy,
     newExplicitHierarchy,
     explicitHierarchy_drillDownFilters,
     explicitHierarchy_hierarchyId,
     explicitHierarchy_columns,
 
     -- * ExportHiddenFieldsOption
-    ExportHiddenFieldsOption (..),
+    ExportHiddenFieldsOption,
     newExportHiddenFieldsOption,
     exportHiddenFieldsOption_availabilityStatus,
 
     -- * ExportToCSVOption
-    ExportToCSVOption (..),
+    ExportToCSVOption,
     newExportToCSVOption,
     exportToCSVOption_availabilityStatus,
 
     -- * FieldBasedTooltip
-    FieldBasedTooltip (..),
+    FieldBasedTooltip,
     newFieldBasedTooltip,
     fieldBasedTooltip_aggregationVisibility,
     fieldBasedTooltip_tooltipFields,
     fieldBasedTooltip_tooltipTitleType,
 
     -- * FieldFolder
-    FieldFolder (..),
+    FieldFolder,
     newFieldFolder,
     fieldFolder_columns,
     fieldFolder_description,
 
     -- * FieldLabelType
-    FieldLabelType (..),
+    FieldLabelType,
     newFieldLabelType,
     fieldLabelType_fieldId,
     fieldLabelType_visibility,
 
     -- * FieldSeriesItem
-    FieldSeriesItem (..),
+    FieldSeriesItem,
     newFieldSeriesItem,
     fieldSeriesItem_settings,
     fieldSeriesItem_fieldId,
     fieldSeriesItem_axisBinding,
 
     -- * FieldSort
-    FieldSort (..),
+    FieldSort,
     newFieldSort,
     fieldSort_fieldId,
     fieldSort_direction,
 
     -- * FieldSortOptions
-    FieldSortOptions (..),
+    FieldSortOptions,
     newFieldSortOptions,
     fieldSortOptions_columnSort,
     fieldSortOptions_fieldSort,
 
     -- * FieldTooltipItem
-    FieldTooltipItem (..),
+    FieldTooltipItem,
     newFieldTooltipItem,
     fieldTooltipItem_label,
     fieldTooltipItem_visibility,
     fieldTooltipItem_fieldId,
 
     -- * FilledMapAggregatedFieldWells
-    FilledMapAggregatedFieldWells (..),
+    FilledMapAggregatedFieldWells,
     newFilledMapAggregatedFieldWells,
     filledMapAggregatedFieldWells_geospatial,
     filledMapAggregatedFieldWells_values,
 
     -- * FilledMapConditionalFormatting
-    FilledMapConditionalFormatting (..),
+    FilledMapConditionalFormatting,
     newFilledMapConditionalFormatting,
     filledMapConditionalFormatting_conditionalFormattingOptions,
 
     -- * FilledMapConditionalFormattingOption
-    FilledMapConditionalFormattingOption (..),
+    FilledMapConditionalFormattingOption,
     newFilledMapConditionalFormattingOption,
     filledMapConditionalFormattingOption_shape,
 
     -- * FilledMapConfiguration
-    FilledMapConfiguration (..),
+    FilledMapConfiguration,
     newFilledMapConfiguration,
     filledMapConfiguration_fieldWells,
     filledMapConfiguration_legend,
@@ -1904,23 +1905,23 @@ module Amazonka.QuickSight.Types
     filledMapConfiguration_windowOptions,
 
     -- * FilledMapFieldWells
-    FilledMapFieldWells (..),
+    FilledMapFieldWells,
     newFilledMapFieldWells,
     filledMapFieldWells_filledMapAggregatedFieldWells,
 
     -- * FilledMapShapeConditionalFormatting
-    FilledMapShapeConditionalFormatting (..),
+    FilledMapShapeConditionalFormatting,
     newFilledMapShapeConditionalFormatting,
     filledMapShapeConditionalFormatting_format,
     filledMapShapeConditionalFormatting_fieldId,
 
     -- * FilledMapSortConfiguration
-    FilledMapSortConfiguration (..),
+    FilledMapSortConfiguration,
     newFilledMapSortConfiguration,
     filledMapSortConfiguration_categorySort,
 
     -- * FilledMapVisual
-    FilledMapVisual (..),
+    FilledMapVisual,
     newFilledMapVisual,
     filledMapVisual_actions,
     filledMapVisual_chartConfiguration,
@@ -1931,7 +1932,7 @@ module Amazonka.QuickSight.Types
     filledMapVisual_visualId,
 
     -- * Filter
-    Filter (..),
+    Filter,
     newFilter,
     filter_categoryFilter,
     filter_numericEqualityFilter,
@@ -1942,7 +1943,7 @@ module Amazonka.QuickSight.Types
     filter_topBottomFilter,
 
     -- * FilterControl
-    FilterControl (..),
+    FilterControl,
     newFilterControl,
     filterControl_dateTimePicker,
     filterControl_dropdown,
@@ -1953,7 +1954,7 @@ module Amazonka.QuickSight.Types
     filterControl_textField,
 
     -- * FilterDateTimePickerControl
-    FilterDateTimePickerControl (..),
+    FilterDateTimePickerControl,
     newFilterDateTimePickerControl,
     filterDateTimePickerControl_displayOptions,
     filterDateTimePickerControl_type,
@@ -1962,7 +1963,7 @@ module Amazonka.QuickSight.Types
     filterDateTimePickerControl_sourceFilterId,
 
     -- * FilterDropDownControl
-    FilterDropDownControl (..),
+    FilterDropDownControl,
     newFilterDropDownControl,
     filterDropDownControl_cascadingControlConfiguration,
     filterDropDownControl_displayOptions,
@@ -1973,7 +1974,7 @@ module Amazonka.QuickSight.Types
     filterDropDownControl_sourceFilterId,
 
     -- * FilterGroup
-    FilterGroup (..),
+    FilterGroup,
     newFilterGroup,
     filterGroup_status,
     filterGroup_filterGroupId,
@@ -1982,14 +1983,14 @@ module Amazonka.QuickSight.Types
     filterGroup_crossDataset,
 
     -- * FilterListConfiguration
-    FilterListConfiguration (..),
+    FilterListConfiguration,
     newFilterListConfiguration,
     filterListConfiguration_categoryValues,
     filterListConfiguration_selectAllOptions,
     filterListConfiguration_matchOperator,
 
     -- * FilterListControl
-    FilterListControl (..),
+    FilterListControl,
     newFilterListControl,
     filterListControl_cascadingControlConfiguration,
     filterListControl_displayOptions,
@@ -2000,23 +2001,23 @@ module Amazonka.QuickSight.Types
     filterListControl_sourceFilterId,
 
     -- * FilterOperation
-    FilterOperation (..),
+    FilterOperation,
     newFilterOperation,
     filterOperation_conditionExpression,
 
     -- * FilterOperationSelectedFieldsConfiguration
-    FilterOperationSelectedFieldsConfiguration (..),
+    FilterOperationSelectedFieldsConfiguration,
     newFilterOperationSelectedFieldsConfiguration,
     filterOperationSelectedFieldsConfiguration_selectedFieldOptions,
     filterOperationSelectedFieldsConfiguration_selectedFields,
 
     -- * FilterOperationTargetVisualsConfiguration
-    FilterOperationTargetVisualsConfiguration (..),
+    FilterOperationTargetVisualsConfiguration,
     newFilterOperationTargetVisualsConfiguration,
     filterOperationTargetVisualsConfiguration_sameSheetTargetVisualConfiguration,
 
     -- * FilterRelativeDateTimeControl
-    FilterRelativeDateTimeControl (..),
+    FilterRelativeDateTimeControl,
     newFilterRelativeDateTimeControl,
     filterRelativeDateTimeControl_displayOptions,
     filterRelativeDateTimeControl_filterControlId,
@@ -2024,17 +2025,17 @@ module Amazonka.QuickSight.Types
     filterRelativeDateTimeControl_sourceFilterId,
 
     -- * FilterScopeConfiguration
-    FilterScopeConfiguration (..),
+    FilterScopeConfiguration,
     newFilterScopeConfiguration,
     filterScopeConfiguration_selectedSheets,
 
     -- * FilterSelectableValues
-    FilterSelectableValues (..),
+    FilterSelectableValues,
     newFilterSelectableValues,
     filterSelectableValues_values,
 
     -- * FilterSliderControl
-    FilterSliderControl (..),
+    FilterSliderControl,
     newFilterSliderControl,
     filterSliderControl_displayOptions,
     filterSliderControl_type,
@@ -2046,7 +2047,7 @@ module Amazonka.QuickSight.Types
     filterSliderControl_stepSize,
 
     -- * FilterTextAreaControl
-    FilterTextAreaControl (..),
+    FilterTextAreaControl,
     newFilterTextAreaControl,
     filterTextAreaControl_delimiter,
     filterTextAreaControl_displayOptions,
@@ -2055,7 +2056,7 @@ module Amazonka.QuickSight.Types
     filterTextAreaControl_sourceFilterId,
 
     -- * FilterTextFieldControl
-    FilterTextFieldControl (..),
+    FilterTextFieldControl,
     newFilterTextFieldControl,
     filterTextFieldControl_displayOptions,
     filterTextFieldControl_filterControlId,
@@ -2063,7 +2064,7 @@ module Amazonka.QuickSight.Types
     filterTextFieldControl_sourceFilterId,
 
     -- * Folder
-    Folder (..),
+    Folder,
     newFolder,
     folder_arn,
     folder_createdTime,
@@ -2074,20 +2075,20 @@ module Amazonka.QuickSight.Types
     folder_name,
 
     -- * FolderMember
-    FolderMember (..),
+    FolderMember,
     newFolderMember,
     folderMember_memberId,
     folderMember_memberType,
 
     -- * FolderSearchFilter
-    FolderSearchFilter (..),
+    FolderSearchFilter,
     newFolderSearchFilter,
     folderSearchFilter_name,
     folderSearchFilter_operator,
     folderSearchFilter_value,
 
     -- * FolderSummary
-    FolderSummary (..),
+    FolderSummary,
     newFolderSummary,
     folderSummary_arn,
     folderSummary_createdTime,
@@ -2097,12 +2098,12 @@ module Amazonka.QuickSight.Types
     folderSummary_name,
 
     -- * Font
-    Font (..),
+    Font,
     newFont,
     font_fontFamily,
 
     -- * FontConfiguration
-    FontConfiguration (..),
+    FontConfiguration,
     newFontConfiguration,
     fontConfiguration_fontColor,
     fontConfiguration_fontDecoration,
@@ -2111,17 +2112,17 @@ module Amazonka.QuickSight.Types
     fontConfiguration_fontWeight,
 
     -- * FontSize
-    FontSize (..),
+    FontSize,
     newFontSize,
     fontSize_relative,
 
     -- * FontWeight
-    FontWeight (..),
+    FontWeight,
     newFontWeight,
     fontWeight_name,
 
     -- * ForecastComputation
-    ForecastComputation (..),
+    ForecastComputation,
     newForecastComputation,
     forecastComputation_customSeasonalityValue,
     forecastComputation_lowerBoundary,
@@ -2136,37 +2137,37 @@ module Amazonka.QuickSight.Types
     forecastComputation_time,
 
     -- * ForecastConfiguration
-    ForecastConfiguration (..),
+    ForecastConfiguration,
     newForecastConfiguration,
     forecastConfiguration_forecastProperties,
     forecastConfiguration_scenario,
 
     -- * ForecastScenario
-    ForecastScenario (..),
+    ForecastScenario,
     newForecastScenario,
     forecastScenario_whatIfPointScenario,
     forecastScenario_whatIfRangeScenario,
 
     -- * FormatConfiguration
-    FormatConfiguration (..),
+    FormatConfiguration,
     newFormatConfiguration,
     formatConfiguration_dateTimeFormatConfiguration,
     formatConfiguration_numberFormatConfiguration,
     formatConfiguration_stringFormatConfiguration,
 
     -- * FreeFormLayoutCanvasSizeOptions
-    FreeFormLayoutCanvasSizeOptions (..),
+    FreeFormLayoutCanvasSizeOptions,
     newFreeFormLayoutCanvasSizeOptions,
     freeFormLayoutCanvasSizeOptions_screenCanvasSizeOptions,
 
     -- * FreeFormLayoutConfiguration
-    FreeFormLayoutConfiguration (..),
+    FreeFormLayoutConfiguration,
     newFreeFormLayoutConfiguration,
     freeFormLayoutConfiguration_canvasSizeOptions,
     freeFormLayoutConfiguration_elements,
 
     -- * FreeFormLayoutElement
-    FreeFormLayoutElement (..),
+    FreeFormLayoutElement,
     newFreeFormLayoutElement,
     freeFormLayoutElement_backgroundStyle,
     freeFormLayoutElement_borderStyle,
@@ -2182,35 +2183,35 @@ module Amazonka.QuickSight.Types
     freeFormLayoutElement_height,
 
     -- * FreeFormLayoutElementBackgroundStyle
-    FreeFormLayoutElementBackgroundStyle (..),
+    FreeFormLayoutElementBackgroundStyle,
     newFreeFormLayoutElementBackgroundStyle,
     freeFormLayoutElementBackgroundStyle_color,
     freeFormLayoutElementBackgroundStyle_visibility,
 
     -- * FreeFormLayoutElementBorderStyle
-    FreeFormLayoutElementBorderStyle (..),
+    FreeFormLayoutElementBorderStyle,
     newFreeFormLayoutElementBorderStyle,
     freeFormLayoutElementBorderStyle_color,
     freeFormLayoutElementBorderStyle_visibility,
 
     -- * FreeFormLayoutScreenCanvasSizeOptions
-    FreeFormLayoutScreenCanvasSizeOptions (..),
+    FreeFormLayoutScreenCanvasSizeOptions,
     newFreeFormLayoutScreenCanvasSizeOptions,
     freeFormLayoutScreenCanvasSizeOptions_optimizedViewPortWidth,
 
     -- * FreeFormSectionLayoutConfiguration
-    FreeFormSectionLayoutConfiguration (..),
+    FreeFormSectionLayoutConfiguration,
     newFreeFormSectionLayoutConfiguration,
     freeFormSectionLayoutConfiguration_elements,
 
     -- * FunnelChartAggregatedFieldWells
-    FunnelChartAggregatedFieldWells (..),
+    FunnelChartAggregatedFieldWells,
     newFunnelChartAggregatedFieldWells,
     funnelChartAggregatedFieldWells_category,
     funnelChartAggregatedFieldWells_values,
 
     -- * FunnelChartConfiguration
-    FunnelChartConfiguration (..),
+    FunnelChartConfiguration,
     newFunnelChartConfiguration,
     funnelChartConfiguration_categoryLabelOptions,
     funnelChartConfiguration_dataLabelOptions,
@@ -2221,7 +2222,7 @@ module Amazonka.QuickSight.Types
     funnelChartConfiguration_visualPalette,
 
     -- * FunnelChartDataLabelOptions
-    FunnelChartDataLabelOptions (..),
+    FunnelChartDataLabelOptions,
     newFunnelChartDataLabelOptions,
     funnelChartDataLabelOptions_categoryLabelVisibility,
     funnelChartDataLabelOptions_labelColor,
@@ -2232,18 +2233,18 @@ module Amazonka.QuickSight.Types
     funnelChartDataLabelOptions_visibility,
 
     -- * FunnelChartFieldWells
-    FunnelChartFieldWells (..),
+    FunnelChartFieldWells,
     newFunnelChartFieldWells,
     funnelChartFieldWells_funnelChartAggregatedFieldWells,
 
     -- * FunnelChartSortConfiguration
-    FunnelChartSortConfiguration (..),
+    FunnelChartSortConfiguration,
     newFunnelChartSortConfiguration,
     funnelChartSortConfiguration_categoryItemsLimit,
     funnelChartSortConfiguration_categorySort,
 
     -- * FunnelChartVisual
-    FunnelChartVisual (..),
+    FunnelChartVisual,
     newFunnelChartVisual,
     funnelChartVisual_actions,
     funnelChartVisual_chartConfiguration,
@@ -2253,23 +2254,23 @@ module Amazonka.QuickSight.Types
     funnelChartVisual_visualId,
 
     -- * GaugeChartArcConditionalFormatting
-    GaugeChartArcConditionalFormatting (..),
+    GaugeChartArcConditionalFormatting,
     newGaugeChartArcConditionalFormatting,
     gaugeChartArcConditionalFormatting_foregroundColor,
 
     -- * GaugeChartConditionalFormatting
-    GaugeChartConditionalFormatting (..),
+    GaugeChartConditionalFormatting,
     newGaugeChartConditionalFormatting,
     gaugeChartConditionalFormatting_conditionalFormattingOptions,
 
     -- * GaugeChartConditionalFormattingOption
-    GaugeChartConditionalFormattingOption (..),
+    GaugeChartConditionalFormattingOption,
     newGaugeChartConditionalFormattingOption,
     gaugeChartConditionalFormattingOption_arc,
     gaugeChartConditionalFormattingOption_primaryValue,
 
     -- * GaugeChartConfiguration
-    GaugeChartConfiguration (..),
+    GaugeChartConfiguration,
     newGaugeChartConfiguration,
     gaugeChartConfiguration_dataLabels,
     gaugeChartConfiguration_fieldWells,
@@ -2278,13 +2279,13 @@ module Amazonka.QuickSight.Types
     gaugeChartConfiguration_visualPalette,
 
     -- * GaugeChartFieldWells
-    GaugeChartFieldWells (..),
+    GaugeChartFieldWells,
     newGaugeChartFieldWells,
     gaugeChartFieldWells_targetValues,
     gaugeChartFieldWells_values,
 
     -- * GaugeChartOptions
-    GaugeChartOptions (..),
+    GaugeChartOptions,
     newGaugeChartOptions,
     gaugeChartOptions_arc,
     gaugeChartOptions_arcAxis,
@@ -2293,13 +2294,13 @@ module Amazonka.QuickSight.Types
     gaugeChartOptions_primaryValueFontConfiguration,
 
     -- * GaugeChartPrimaryValueConditionalFormatting
-    GaugeChartPrimaryValueConditionalFormatting (..),
+    GaugeChartPrimaryValueConditionalFormatting,
     newGaugeChartPrimaryValueConditionalFormatting,
     gaugeChartPrimaryValueConditionalFormatting_icon,
     gaugeChartPrimaryValueConditionalFormatting_textColor,
 
     -- * GaugeChartVisual
-    GaugeChartVisual (..),
+    GaugeChartVisual,
     newGaugeChartVisual,
     gaugeChartVisual_actions,
     gaugeChartVisual_chartConfiguration,
@@ -2309,14 +2310,14 @@ module Amazonka.QuickSight.Types
     gaugeChartVisual_visualId,
 
     -- * GeoSpatialColumnGroup
-    GeoSpatialColumnGroup (..),
+    GeoSpatialColumnGroup,
     newGeoSpatialColumnGroup,
     geoSpatialColumnGroup_countryCode,
     geoSpatialColumnGroup_name,
     geoSpatialColumnGroup_columns,
 
     -- * GeospatialCoordinateBounds
-    GeospatialCoordinateBounds (..),
+    GeospatialCoordinateBounds,
     newGeospatialCoordinateBounds,
     geospatialCoordinateBounds_north,
     geospatialCoordinateBounds_south,
@@ -2324,14 +2325,14 @@ module Amazonka.QuickSight.Types
     geospatialCoordinateBounds_east,
 
     -- * GeospatialMapAggregatedFieldWells
-    GeospatialMapAggregatedFieldWells (..),
+    GeospatialMapAggregatedFieldWells,
     newGeospatialMapAggregatedFieldWells,
     geospatialMapAggregatedFieldWells_colors,
     geospatialMapAggregatedFieldWells_geospatial,
     geospatialMapAggregatedFieldWells_values,
 
     -- * GeospatialMapConfiguration
-    GeospatialMapConfiguration (..),
+    GeospatialMapConfiguration,
     newGeospatialMapConfiguration,
     geospatialMapConfiguration_fieldWells,
     geospatialMapConfiguration_legend,
@@ -2342,17 +2343,17 @@ module Amazonka.QuickSight.Types
     geospatialMapConfiguration_windowOptions,
 
     -- * GeospatialMapFieldWells
-    GeospatialMapFieldWells (..),
+    GeospatialMapFieldWells,
     newGeospatialMapFieldWells,
     geospatialMapFieldWells_geospatialMapAggregatedFieldWells,
 
     -- * GeospatialMapStyleOptions
-    GeospatialMapStyleOptions (..),
+    GeospatialMapStyleOptions,
     newGeospatialMapStyleOptions,
     geospatialMapStyleOptions_baseMapStyle,
 
     -- * GeospatialMapVisual
-    GeospatialMapVisual (..),
+    GeospatialMapVisual,
     newGeospatialMapVisual,
     geospatialMapVisual_actions,
     geospatialMapVisual_chartConfiguration,
@@ -2362,48 +2363,48 @@ module Amazonka.QuickSight.Types
     geospatialMapVisual_visualId,
 
     -- * GeospatialPointStyleOptions
-    GeospatialPointStyleOptions (..),
+    GeospatialPointStyleOptions,
     newGeospatialPointStyleOptions,
     geospatialPointStyleOptions_clusterMarkerConfiguration,
     geospatialPointStyleOptions_selectedPointStyle,
 
     -- * GeospatialWindowOptions
-    GeospatialWindowOptions (..),
+    GeospatialWindowOptions,
     newGeospatialWindowOptions,
     geospatialWindowOptions_bounds,
     geospatialWindowOptions_mapZoomMode,
 
     -- * GlobalTableBorderOptions
-    GlobalTableBorderOptions (..),
+    GlobalTableBorderOptions,
     newGlobalTableBorderOptions,
     globalTableBorderOptions_sideSpecificBorder,
     globalTableBorderOptions_uniformBorder,
 
     -- * GradientColor
-    GradientColor (..),
+    GradientColor,
     newGradientColor,
     gradientColor_stops,
 
     -- * GradientStop
-    GradientStop (..),
+    GradientStop,
     newGradientStop,
     gradientStop_color,
     gradientStop_dataValue,
     gradientStop_gradientOffset,
 
     -- * GridLayoutCanvasSizeOptions
-    GridLayoutCanvasSizeOptions (..),
+    GridLayoutCanvasSizeOptions,
     newGridLayoutCanvasSizeOptions,
     gridLayoutCanvasSizeOptions_screenCanvasSizeOptions,
 
     -- * GridLayoutConfiguration
-    GridLayoutConfiguration (..),
+    GridLayoutConfiguration,
     newGridLayoutConfiguration,
     gridLayoutConfiguration_canvasSizeOptions,
     gridLayoutConfiguration_elements,
 
     -- * GridLayoutElement
-    GridLayoutElement (..),
+    GridLayoutElement,
     newGridLayoutElement,
     gridLayoutElement_columnIndex,
     gridLayoutElement_rowIndex,
@@ -2413,13 +2414,13 @@ module Amazonka.QuickSight.Types
     gridLayoutElement_rowSpan,
 
     -- * GridLayoutScreenCanvasSizeOptions
-    GridLayoutScreenCanvasSizeOptions (..),
+    GridLayoutScreenCanvasSizeOptions,
     newGridLayoutScreenCanvasSizeOptions,
     gridLayoutScreenCanvasSizeOptions_optimizedViewPortWidth,
     gridLayoutScreenCanvasSizeOptions_resizeOption,
 
     -- * Group
-    Group (..),
+    Group,
     newGroup,
     group_arn,
     group_description,
@@ -2427,20 +2428,20 @@ module Amazonka.QuickSight.Types
     group_principalId,
 
     -- * GroupMember
-    GroupMember (..),
+    GroupMember,
     newGroupMember,
     groupMember_arn,
     groupMember_memberName,
 
     -- * GroupSearchFilter
-    GroupSearchFilter (..),
+    GroupSearchFilter,
     newGroupSearchFilter,
     groupSearchFilter_operator,
     groupSearchFilter_name,
     groupSearchFilter_value,
 
     -- * GrowthRateComputation
-    GrowthRateComputation (..),
+    GrowthRateComputation,
     newGrowthRateComputation,
     growthRateComputation_name,
     growthRateComputation_periodSize,
@@ -2449,26 +2450,26 @@ module Amazonka.QuickSight.Types
     growthRateComputation_time,
 
     -- * GutterStyle
-    GutterStyle (..),
+    GutterStyle,
     newGutterStyle,
     gutterStyle_show,
 
     -- * HeaderFooterSectionConfiguration
-    HeaderFooterSectionConfiguration (..),
+    HeaderFooterSectionConfiguration,
     newHeaderFooterSectionConfiguration,
     headerFooterSectionConfiguration_style,
     headerFooterSectionConfiguration_sectionId,
     headerFooterSectionConfiguration_layout,
 
     -- * HeatMapAggregatedFieldWells
-    HeatMapAggregatedFieldWells (..),
+    HeatMapAggregatedFieldWells,
     newHeatMapAggregatedFieldWells,
     heatMapAggregatedFieldWells_columns,
     heatMapAggregatedFieldWells_rows,
     heatMapAggregatedFieldWells_values,
 
     -- * HeatMapConfiguration
-    HeatMapConfiguration (..),
+    HeatMapConfiguration,
     newHeatMapConfiguration,
     heatMapConfiguration_colorScale,
     heatMapConfiguration_columnLabelOptions,
@@ -2480,12 +2481,12 @@ module Amazonka.QuickSight.Types
     heatMapConfiguration_tooltip,
 
     -- * HeatMapFieldWells
-    HeatMapFieldWells (..),
+    HeatMapFieldWells,
     newHeatMapFieldWells,
     heatMapFieldWells_heatMapAggregatedFieldWells,
 
     -- * HeatMapSortConfiguration
-    HeatMapSortConfiguration (..),
+    HeatMapSortConfiguration,
     newHeatMapSortConfiguration,
     heatMapSortConfiguration_heatMapColumnItemsLimitConfiguration,
     heatMapSortConfiguration_heatMapColumnSort,
@@ -2493,7 +2494,7 @@ module Amazonka.QuickSight.Types
     heatMapSortConfiguration_heatMapRowSort,
 
     -- * HeatMapVisual
-    HeatMapVisual (..),
+    HeatMapVisual,
     newHeatMapVisual,
     heatMapVisual_actions,
     heatMapVisual_chartConfiguration,
@@ -2503,12 +2504,12 @@ module Amazonka.QuickSight.Types
     heatMapVisual_visualId,
 
     -- * HistogramAggregatedFieldWells
-    HistogramAggregatedFieldWells (..),
+    HistogramAggregatedFieldWells,
     newHistogramAggregatedFieldWells,
     histogramAggregatedFieldWells_values,
 
     -- * HistogramBinOptions
-    HistogramBinOptions (..),
+    HistogramBinOptions,
     newHistogramBinOptions,
     histogramBinOptions_binCount,
     histogramBinOptions_binWidth,
@@ -2516,7 +2517,7 @@ module Amazonka.QuickSight.Types
     histogramBinOptions_startValue,
 
     -- * HistogramConfiguration
-    HistogramConfiguration (..),
+    HistogramConfiguration,
     newHistogramConfiguration,
     histogramConfiguration_binOptions,
     histogramConfiguration_dataLabels,
@@ -2528,12 +2529,12 @@ module Amazonka.QuickSight.Types
     histogramConfiguration_yAxisDisplayOptions,
 
     -- * HistogramFieldWells
-    HistogramFieldWells (..),
+    HistogramFieldWells,
     newHistogramFieldWells,
     histogramFieldWells_histogramAggregatedFieldWells,
 
     -- * HistogramVisual
-    HistogramVisual (..),
+    HistogramVisual,
     newHistogramVisual,
     histogramVisual_actions,
     histogramVisual_chartConfiguration,
@@ -2542,7 +2543,7 @@ module Amazonka.QuickSight.Types
     histogramVisual_visualId,
 
     -- * IAMPolicyAssignment
-    IAMPolicyAssignment (..),
+    IAMPolicyAssignment,
     newIAMPolicyAssignment,
     iAMPolicyAssignment_assignmentId,
     iAMPolicyAssignment_assignmentName,
@@ -2552,13 +2553,13 @@ module Amazonka.QuickSight.Types
     iAMPolicyAssignment_policyArn,
 
     -- * IAMPolicyAssignmentSummary
-    IAMPolicyAssignmentSummary (..),
+    IAMPolicyAssignmentSummary,
     newIAMPolicyAssignmentSummary,
     iAMPolicyAssignmentSummary_assignmentName,
     iAMPolicyAssignmentSummary_assignmentStatus,
 
     -- * Ingestion
-    Ingestion (..),
+    Ingestion,
     newIngestion,
     ingestion_errorInfo,
     ingestion_ingestionId,
@@ -2573,19 +2574,19 @@ module Amazonka.QuickSight.Types
     ingestion_createdTime,
 
     -- * InputColumn
-    InputColumn (..),
+    InputColumn,
     newInputColumn,
     inputColumn_name,
     inputColumn_type,
 
     -- * InsightConfiguration
-    InsightConfiguration (..),
+    InsightConfiguration,
     newInsightConfiguration,
     insightConfiguration_computations,
     insightConfiguration_customNarrative,
 
     -- * InsightVisual
-    InsightVisual (..),
+    InsightVisual,
     newInsightVisual,
     insightVisual_actions,
     insightVisual_insightConfiguration,
@@ -2595,19 +2596,19 @@ module Amazonka.QuickSight.Types
     insightVisual_dataSetIdentifier,
 
     -- * IntegerDefaultValues
-    IntegerDefaultValues (..),
+    IntegerDefaultValues,
     newIntegerDefaultValues,
     integerDefaultValues_dynamicValue,
     integerDefaultValues_staticValues,
 
     -- * IntegerParameter
-    IntegerParameter (..),
+    IntegerParameter,
     newIntegerParameter,
     integerParameter_name,
     integerParameter_values,
 
     -- * IntegerParameterDeclaration
-    IntegerParameterDeclaration (..),
+    IntegerParameterDeclaration,
     newIntegerParameterDeclaration,
     integerParameterDeclaration_defaultValues,
     integerParameterDeclaration_valueWhenUnset,
@@ -2615,24 +2616,24 @@ module Amazonka.QuickSight.Types
     integerParameterDeclaration_name,
 
     -- * IntegerValueWhenUnsetConfiguration
-    IntegerValueWhenUnsetConfiguration (..),
+    IntegerValueWhenUnsetConfiguration,
     newIntegerValueWhenUnsetConfiguration,
     integerValueWhenUnsetConfiguration_customValue,
     integerValueWhenUnsetConfiguration_valueWhenUnsetOption,
 
     -- * ItemsLimitConfiguration
-    ItemsLimitConfiguration (..),
+    ItemsLimitConfiguration,
     newItemsLimitConfiguration,
     itemsLimitConfiguration_itemsLimit,
     itemsLimitConfiguration_otherCategories,
 
     -- * JiraParameters
-    JiraParameters (..),
+    JiraParameters,
     newJiraParameters,
     jiraParameters_siteBaseUrl,
 
     -- * JoinInstruction
-    JoinInstruction (..),
+    JoinInstruction,
     newJoinInstruction,
     joinInstruction_leftJoinKeyProperties,
     joinInstruction_rightJoinKeyProperties,
@@ -2642,37 +2643,37 @@ module Amazonka.QuickSight.Types
     joinInstruction_onClause,
 
     -- * JoinKeyProperties
-    JoinKeyProperties (..),
+    JoinKeyProperties,
     newJoinKeyProperties,
     joinKeyProperties_uniqueKey,
 
     -- * KPIConditionalFormatting
-    KPIConditionalFormatting (..),
+    KPIConditionalFormatting,
     newKPIConditionalFormatting,
     kPIConditionalFormatting_conditionalFormattingOptions,
 
     -- * KPIConditionalFormattingOption
-    KPIConditionalFormattingOption (..),
+    KPIConditionalFormattingOption,
     newKPIConditionalFormattingOption,
     kPIConditionalFormattingOption_primaryValue,
     kPIConditionalFormattingOption_progressBar,
 
     -- * KPIConfiguration
-    KPIConfiguration (..),
+    KPIConfiguration,
     newKPIConfiguration,
     kPIConfiguration_fieldWells,
     kPIConfiguration_kPIOptions,
     kPIConfiguration_sortConfiguration,
 
     -- * KPIFieldWells
-    KPIFieldWells (..),
+    KPIFieldWells,
     newKPIFieldWells,
     kPIFieldWells_targetValues,
     kPIFieldWells_trendGroups,
     kPIFieldWells_values,
 
     -- * KPIOptions
-    KPIOptions (..),
+    KPIOptions,
     newKPIOptions,
     kPIOptions_comparison,
     kPIOptions_primaryValueDisplayType,
@@ -2683,23 +2684,23 @@ module Amazonka.QuickSight.Types
     kPIOptions_trendArrows,
 
     -- * KPIPrimaryValueConditionalFormatting
-    KPIPrimaryValueConditionalFormatting (..),
+    KPIPrimaryValueConditionalFormatting,
     newKPIPrimaryValueConditionalFormatting,
     kPIPrimaryValueConditionalFormatting_icon,
     kPIPrimaryValueConditionalFormatting_textColor,
 
     -- * KPIProgressBarConditionalFormatting
-    KPIProgressBarConditionalFormatting (..),
+    KPIProgressBarConditionalFormatting,
     newKPIProgressBarConditionalFormatting,
     kPIProgressBarConditionalFormatting_foregroundColor,
 
     -- * KPISortConfiguration
-    KPISortConfiguration (..),
+    KPISortConfiguration,
     newKPISortConfiguration,
     kPISortConfiguration_trendGroupSort,
 
     -- * KPIVisual
-    KPIVisual (..),
+    KPIVisual,
     newKPIVisual,
     kPIVisual_actions,
     kPIVisual_chartConfiguration,
@@ -2710,26 +2711,26 @@ module Amazonka.QuickSight.Types
     kPIVisual_visualId,
 
     -- * LabelOptions
-    LabelOptions (..),
+    LabelOptions,
     newLabelOptions,
     labelOptions_customLabel,
     labelOptions_fontConfiguration,
     labelOptions_visibility,
 
     -- * Layout
-    Layout (..),
+    Layout,
     newLayout,
     layout_configuration,
 
     -- * LayoutConfiguration
-    LayoutConfiguration (..),
+    LayoutConfiguration,
     newLayoutConfiguration,
     layoutConfiguration_freeFormLayout,
     layoutConfiguration_gridLayout,
     layoutConfiguration_sectionBasedLayout,
 
     -- * LegendOptions
-    LegendOptions (..),
+    LegendOptions,
     newLegendOptions,
     legendOptions_height,
     legendOptions_position,
@@ -2738,7 +2739,7 @@ module Amazonka.QuickSight.Types
     legendOptions_width,
 
     -- * LineChartAggregatedFieldWells
-    LineChartAggregatedFieldWells (..),
+    LineChartAggregatedFieldWells,
     newLineChartAggregatedFieldWells,
     lineChartAggregatedFieldWells_category,
     lineChartAggregatedFieldWells_colors,
@@ -2746,7 +2747,7 @@ module Amazonka.QuickSight.Types
     lineChartAggregatedFieldWells_values,
 
     -- * LineChartConfiguration
-    LineChartConfiguration (..),
+    LineChartConfiguration,
     newLineChartConfiguration,
     lineChartConfiguration_contributionAnalysisDefaults,
     lineChartConfiguration_dataLabels,
@@ -2769,19 +2770,19 @@ module Amazonka.QuickSight.Types
     lineChartConfiguration_xAxisLabelOptions,
 
     -- * LineChartDefaultSeriesSettings
-    LineChartDefaultSeriesSettings (..),
+    LineChartDefaultSeriesSettings,
     newLineChartDefaultSeriesSettings,
     lineChartDefaultSeriesSettings_axisBinding,
     lineChartDefaultSeriesSettings_lineStyleSettings,
     lineChartDefaultSeriesSettings_markerStyleSettings,
 
     -- * LineChartFieldWells
-    LineChartFieldWells (..),
+    LineChartFieldWells,
     newLineChartFieldWells,
     lineChartFieldWells_lineChartAggregatedFieldWells,
 
     -- * LineChartLineStyleSettings
-    LineChartLineStyleSettings (..),
+    LineChartLineStyleSettings,
     newLineChartLineStyleSettings,
     lineChartLineStyleSettings_lineInterpolation,
     lineChartLineStyleSettings_lineStyle,
@@ -2789,7 +2790,7 @@ module Amazonka.QuickSight.Types
     lineChartLineStyleSettings_lineWidth,
 
     -- * LineChartMarkerStyleSettings
-    LineChartMarkerStyleSettings (..),
+    LineChartMarkerStyleSettings,
     newLineChartMarkerStyleSettings,
     lineChartMarkerStyleSettings_markerColor,
     lineChartMarkerStyleSettings_markerShape,
@@ -2797,13 +2798,13 @@ module Amazonka.QuickSight.Types
     lineChartMarkerStyleSettings_markerVisibility,
 
     -- * LineChartSeriesSettings
-    LineChartSeriesSettings (..),
+    LineChartSeriesSettings,
     newLineChartSeriesSettings,
     lineChartSeriesSettings_lineStyleSettings,
     lineChartSeriesSettings_markerStyleSettings,
 
     -- * LineChartSortConfiguration
-    LineChartSortConfiguration (..),
+    LineChartSortConfiguration,
     newLineChartSortConfiguration,
     lineChartSortConfiguration_categoryItemsLimitConfiguration,
     lineChartSortConfiguration_categorySort,
@@ -2812,7 +2813,7 @@ module Amazonka.QuickSight.Types
     lineChartSortConfiguration_smallMultiplesSort,
 
     -- * LineChartVisual
-    LineChartVisual (..),
+    LineChartVisual,
     newLineChartVisual,
     lineChartVisual_actions,
     lineChartVisual_chartConfiguration,
@@ -2822,88 +2823,88 @@ module Amazonka.QuickSight.Types
     lineChartVisual_visualId,
 
     -- * LineSeriesAxisDisplayOptions
-    LineSeriesAxisDisplayOptions (..),
+    LineSeriesAxisDisplayOptions,
     newLineSeriesAxisDisplayOptions,
     lineSeriesAxisDisplayOptions_axisOptions,
     lineSeriesAxisDisplayOptions_missingDataConfigurations,
 
     -- * LinkSharingConfiguration
-    LinkSharingConfiguration (..),
+    LinkSharingConfiguration,
     newLinkSharingConfiguration,
     linkSharingConfiguration_permissions,
 
     -- * ListControlDisplayOptions
-    ListControlDisplayOptions (..),
+    ListControlDisplayOptions,
     newListControlDisplayOptions,
     listControlDisplayOptions_searchOptions,
     listControlDisplayOptions_selectAllOptions,
     listControlDisplayOptions_titleOptions,
 
     -- * ListControlSearchOptions
-    ListControlSearchOptions (..),
+    ListControlSearchOptions,
     newListControlSearchOptions,
     listControlSearchOptions_visibility,
 
     -- * ListControlSelectAllOptions
-    ListControlSelectAllOptions (..),
+    ListControlSelectAllOptions,
     newListControlSelectAllOptions,
     listControlSelectAllOptions_visibility,
 
     -- * LoadingAnimation
-    LoadingAnimation (..),
+    LoadingAnimation,
     newLoadingAnimation,
     loadingAnimation_visibility,
 
     -- * LocalNavigationConfiguration
-    LocalNavigationConfiguration (..),
+    LocalNavigationConfiguration,
     newLocalNavigationConfiguration,
     localNavigationConfiguration_targetSheetId,
 
     -- * LogicalTable
-    LogicalTable (..),
+    LogicalTable,
     newLogicalTable,
     logicalTable_dataTransforms,
     logicalTable_alias,
     logicalTable_source,
 
     -- * LogicalTableSource
-    LogicalTableSource (..),
+    LogicalTableSource,
     newLogicalTableSource,
     logicalTableSource_dataSetArn,
     logicalTableSource_joinInstruction,
     logicalTableSource_physicalTableId,
 
     -- * LongFormatText
-    LongFormatText (..),
+    LongFormatText,
     newLongFormatText,
     longFormatText_plainText,
     longFormatText_richText,
 
     -- * ManifestFileLocation
-    ManifestFileLocation (..),
+    ManifestFileLocation,
     newManifestFileLocation,
     manifestFileLocation_bucket,
     manifestFileLocation_key,
 
     -- * MarginStyle
-    MarginStyle (..),
+    MarginStyle,
     newMarginStyle,
     marginStyle_show,
 
     -- * MariaDbParameters
-    MariaDbParameters (..),
+    MariaDbParameters,
     newMariaDbParameters,
     mariaDbParameters_host,
     mariaDbParameters_port,
     mariaDbParameters_database,
 
     -- * MaximumLabelType
-    MaximumLabelType (..),
+    MaximumLabelType,
     newMaximumLabelType,
     maximumLabelType_visibility,
 
     -- * MaximumMinimumComputation
-    MaximumMinimumComputation (..),
+    MaximumMinimumComputation,
     newMaximumMinimumComputation,
     maximumMinimumComputation_name,
     maximumMinimumComputation_value,
@@ -2912,7 +2913,7 @@ module Amazonka.QuickSight.Types
     maximumMinimumComputation_type,
 
     -- * MeasureField
-    MeasureField (..),
+    MeasureField,
     newMeasureField,
     measureField_calculatedMeasureField,
     measureField_categoricalMeasureField,
@@ -2920,13 +2921,13 @@ module Amazonka.QuickSight.Types
     measureField_numericalMeasureField,
 
     -- * MemberIdArnPair
-    MemberIdArnPair (..),
+    MemberIdArnPair,
     newMemberIdArnPair,
     memberIdArnPair_memberArn,
     memberIdArnPair_memberId,
 
     -- * MetricComparisonComputation
-    MetricComparisonComputation (..),
+    MetricComparisonComputation,
     newMetricComparisonComputation,
     metricComparisonComputation_name,
     metricComparisonComputation_computationId,
@@ -2935,30 +2936,30 @@ module Amazonka.QuickSight.Types
     metricComparisonComputation_targetValue,
 
     -- * MinimumLabelType
-    MinimumLabelType (..),
+    MinimumLabelType,
     newMinimumLabelType,
     minimumLabelType_visibility,
 
     -- * MissingDataConfiguration
-    MissingDataConfiguration (..),
+    MissingDataConfiguration,
     newMissingDataConfiguration,
     missingDataConfiguration_treatmentOption,
 
     -- * MySqlParameters
-    MySqlParameters (..),
+    MySqlParameters,
     newMySqlParameters,
     mySqlParameters_host,
     mySqlParameters_port,
     mySqlParameters_database,
 
     -- * NamespaceError
-    NamespaceError (..),
+    NamespaceError,
     newNamespaceError,
     namespaceError_message,
     namespaceError_type,
 
     -- * NamespaceInfoV2
-    NamespaceInfoV2 (..),
+    NamespaceInfoV2,
     newNamespaceInfoV2,
     namespaceInfoV2_arn,
     namespaceInfoV2_capacityRegion,
@@ -2968,17 +2969,17 @@ module Amazonka.QuickSight.Types
     namespaceInfoV2_namespaceError,
 
     -- * NegativeValueConfiguration
-    NegativeValueConfiguration (..),
+    NegativeValueConfiguration,
     newNegativeValueConfiguration,
     negativeValueConfiguration_displayMode,
 
     -- * NullValueFormatConfiguration
-    NullValueFormatConfiguration (..),
+    NullValueFormatConfiguration,
     newNullValueFormatConfiguration,
     nullValueFormatConfiguration_nullString,
 
     -- * NumberDisplayFormatConfiguration
-    NumberDisplayFormatConfiguration (..),
+    NumberDisplayFormatConfiguration,
     newNumberDisplayFormatConfiguration,
     numberDisplayFormatConfiguration_decimalPlacesConfiguration,
     numberDisplayFormatConfiguration_negativeValueConfiguration,
@@ -2989,24 +2990,24 @@ module Amazonka.QuickSight.Types
     numberDisplayFormatConfiguration_suffix,
 
     -- * NumberFormatConfiguration
-    NumberFormatConfiguration (..),
+    NumberFormatConfiguration,
     newNumberFormatConfiguration,
     numberFormatConfiguration_formatConfiguration,
 
     -- * NumericAxisOptions
-    NumericAxisOptions (..),
+    NumericAxisOptions,
     newNumericAxisOptions,
     numericAxisOptions_range,
     numericAxisOptions_scale,
 
     -- * NumericEqualityDrillDownFilter
-    NumericEqualityDrillDownFilter (..),
+    NumericEqualityDrillDownFilter,
     newNumericEqualityDrillDownFilter,
     numericEqualityDrillDownFilter_column,
     numericEqualityDrillDownFilter_value,
 
     -- * NumericEqualityFilter
-    NumericEqualityFilter (..),
+    NumericEqualityFilter,
     newNumericEqualityFilter,
     numericEqualityFilter_aggregationFunction,
     numericEqualityFilter_parameterName,
@@ -3018,14 +3019,14 @@ module Amazonka.QuickSight.Types
     numericEqualityFilter_nullOption,
 
     -- * NumericFormatConfiguration
-    NumericFormatConfiguration (..),
+    NumericFormatConfiguration,
     newNumericFormatConfiguration,
     numericFormatConfiguration_currencyDisplayFormatConfiguration,
     numericFormatConfiguration_numberDisplayFormatConfiguration,
     numericFormatConfiguration_percentageDisplayFormatConfiguration,
 
     -- * NumericRangeFilter
-    NumericRangeFilter (..),
+    NumericRangeFilter,
     newNumericRangeFilter,
     numericRangeFilter_aggregationFunction,
     numericRangeFilter_includeMaximum,
@@ -3038,25 +3039,25 @@ module Amazonka.QuickSight.Types
     numericRangeFilter_nullOption,
 
     -- * NumericRangeFilterValue
-    NumericRangeFilterValue (..),
+    NumericRangeFilterValue,
     newNumericRangeFilterValue,
     numericRangeFilterValue_parameter,
     numericRangeFilterValue_staticValue,
 
     -- * NumericSeparatorConfiguration
-    NumericSeparatorConfiguration (..),
+    NumericSeparatorConfiguration,
     newNumericSeparatorConfiguration,
     numericSeparatorConfiguration_decimalSeparator,
     numericSeparatorConfiguration_thousandsSeparator,
 
     -- * NumericalAggregationFunction
-    NumericalAggregationFunction (..),
+    NumericalAggregationFunction,
     newNumericalAggregationFunction,
     numericalAggregationFunction_percentileAggregation,
     numericalAggregationFunction_simpleNumericalAggregation,
 
     -- * NumericalDimensionField
-    NumericalDimensionField (..),
+    NumericalDimensionField,
     newNumericalDimensionField,
     numericalDimensionField_formatConfiguration,
     numericalDimensionField_hierarchyId,
@@ -3064,7 +3065,7 @@ module Amazonka.QuickSight.Types
     numericalDimensionField_column,
 
     -- * NumericalMeasureField
-    NumericalMeasureField (..),
+    NumericalMeasureField,
     newNumericalMeasureField,
     numericalMeasureField_aggregationFunction,
     numericalMeasureField_formatConfiguration,
@@ -3072,27 +3073,27 @@ module Amazonka.QuickSight.Types
     numericalMeasureField_column,
 
     -- * OracleParameters
-    OracleParameters (..),
+    OracleParameters,
     newOracleParameters,
     oracleParameters_host,
     oracleParameters_port,
     oracleParameters_database,
 
     -- * OutputColumn
-    OutputColumn (..),
+    OutputColumn,
     newOutputColumn,
     outputColumn_description,
     outputColumn_name,
     outputColumn_type,
 
     -- * PaginationConfiguration
-    PaginationConfiguration (..),
+    PaginationConfiguration,
     newPaginationConfiguration,
     paginationConfiguration_pageSize,
     paginationConfiguration_pageNumber,
 
     -- * PanelConfiguration
-    PanelConfiguration (..),
+    PanelConfiguration,
     newPanelConfiguration,
     panelConfiguration_backgroundColor,
     panelConfiguration_backgroundVisibility,
@@ -3105,14 +3106,14 @@ module Amazonka.QuickSight.Types
     panelConfiguration_title,
 
     -- * PanelTitleOptions
-    PanelTitleOptions (..),
+    PanelTitleOptions,
     newPanelTitleOptions,
     panelTitleOptions_fontConfiguration,
     panelTitleOptions_horizontalTextAlignment,
     panelTitleOptions_visibility,
 
     -- * ParameterControl
-    ParameterControl (..),
+    ParameterControl,
     newParameterControl,
     parameterControl_dateTimePicker,
     parameterControl_dropdown,
@@ -3122,7 +3123,7 @@ module Amazonka.QuickSight.Types
     parameterControl_textField,
 
     -- * ParameterDateTimePickerControl
-    ParameterDateTimePickerControl (..),
+    ParameterDateTimePickerControl,
     newParameterDateTimePickerControl,
     parameterDateTimePickerControl_displayOptions,
     parameterDateTimePickerControl_parameterControlId,
@@ -3130,7 +3131,7 @@ module Amazonka.QuickSight.Types
     parameterDateTimePickerControl_sourceParameterName,
 
     -- * ParameterDeclaration
-    ParameterDeclaration (..),
+    ParameterDeclaration,
     newParameterDeclaration,
     parameterDeclaration_dateTimeParameterDeclaration,
     parameterDeclaration_decimalParameterDeclaration,
@@ -3138,7 +3139,7 @@ module Amazonka.QuickSight.Types
     parameterDeclaration_stringParameterDeclaration,
 
     -- * ParameterDropDownControl
-    ParameterDropDownControl (..),
+    ParameterDropDownControl,
     newParameterDropDownControl,
     parameterDropDownControl_cascadingControlConfiguration,
     parameterDropDownControl_displayOptions,
@@ -3149,7 +3150,7 @@ module Amazonka.QuickSight.Types
     parameterDropDownControl_sourceParameterName,
 
     -- * ParameterListControl
-    ParameterListControl (..),
+    ParameterListControl,
     newParameterListControl,
     parameterListControl_cascadingControlConfiguration,
     parameterListControl_displayOptions,
@@ -3160,13 +3161,13 @@ module Amazonka.QuickSight.Types
     parameterListControl_sourceParameterName,
 
     -- * ParameterSelectableValues
-    ParameterSelectableValues (..),
+    ParameterSelectableValues,
     newParameterSelectableValues,
     parameterSelectableValues_linkToDataSetColumn,
     parameterSelectableValues_values,
 
     -- * ParameterSliderControl
-    ParameterSliderControl (..),
+    ParameterSliderControl,
     newParameterSliderControl,
     parameterSliderControl_displayOptions,
     parameterSliderControl_parameterControlId,
@@ -3177,7 +3178,7 @@ module Amazonka.QuickSight.Types
     parameterSliderControl_stepSize,
 
     -- * ParameterTextAreaControl
-    ParameterTextAreaControl (..),
+    ParameterTextAreaControl,
     newParameterTextAreaControl,
     parameterTextAreaControl_delimiter,
     parameterTextAreaControl_displayOptions,
@@ -3186,7 +3187,7 @@ module Amazonka.QuickSight.Types
     parameterTextAreaControl_sourceParameterName,
 
     -- * ParameterTextFieldControl
-    ParameterTextFieldControl (..),
+    ParameterTextFieldControl,
     newParameterTextFieldControl,
     parameterTextFieldControl_displayOptions,
     parameterTextFieldControl_parameterControlId,
@@ -3194,7 +3195,7 @@ module Amazonka.QuickSight.Types
     parameterTextFieldControl_sourceParameterName,
 
     -- * Parameters
-    Parameters (..),
+    Parameters,
     newParameters,
     parameters_dateTimeParameters,
     parameters_decimalParameters,
@@ -3202,13 +3203,13 @@ module Amazonka.QuickSight.Types
     parameters_stringParameters,
 
     -- * PercentVisibleRange
-    PercentVisibleRange (..),
+    PercentVisibleRange,
     newPercentVisibleRange,
     percentVisibleRange_from,
     percentVisibleRange_to,
 
     -- * PercentageDisplayFormatConfiguration
-    PercentageDisplayFormatConfiguration (..),
+    PercentageDisplayFormatConfiguration,
     newPercentageDisplayFormatConfiguration,
     percentageDisplayFormatConfiguration_decimalPlacesConfiguration,
     percentageDisplayFormatConfiguration_negativeValueConfiguration,
@@ -3218,12 +3219,12 @@ module Amazonka.QuickSight.Types
     percentageDisplayFormatConfiguration_suffix,
 
     -- * PercentileAggregation
-    PercentileAggregation (..),
+    PercentileAggregation,
     newPercentileAggregation,
     percentileAggregation_percentileValue,
 
     -- * PeriodOverPeriodComputation
-    PeriodOverPeriodComputation (..),
+    PeriodOverPeriodComputation,
     newPeriodOverPeriodComputation,
     periodOverPeriodComputation_name,
     periodOverPeriodComputation_value,
@@ -3231,7 +3232,7 @@ module Amazonka.QuickSight.Types
     periodOverPeriodComputation_time,
 
     -- * PeriodToDateComputation
-    PeriodToDateComputation (..),
+    PeriodToDateComputation,
     newPeriodToDateComputation,
     periodToDateComputation_name,
     periodToDateComputation_periodTimeGranularity,
@@ -3240,21 +3241,21 @@ module Amazonka.QuickSight.Types
     periodToDateComputation_time,
 
     -- * PhysicalTable
-    PhysicalTable (..),
+    PhysicalTable,
     newPhysicalTable,
     physicalTable_customSql,
     physicalTable_relationalTable,
     physicalTable_s3Source,
 
     -- * PieChartAggregatedFieldWells
-    PieChartAggregatedFieldWells (..),
+    PieChartAggregatedFieldWells,
     newPieChartAggregatedFieldWells,
     pieChartAggregatedFieldWells_category,
     pieChartAggregatedFieldWells_smallMultiples,
     pieChartAggregatedFieldWells_values,
 
     -- * PieChartConfiguration
-    PieChartConfiguration (..),
+    PieChartConfiguration,
     newPieChartConfiguration,
     pieChartConfiguration_categoryLabelOptions,
     pieChartConfiguration_contributionAnalysisDefaults,
@@ -3269,12 +3270,12 @@ module Amazonka.QuickSight.Types
     pieChartConfiguration_visualPalette,
 
     -- * PieChartFieldWells
-    PieChartFieldWells (..),
+    PieChartFieldWells,
     newPieChartFieldWells,
     pieChartFieldWells_pieChartAggregatedFieldWells,
 
     -- * PieChartSortConfiguration
-    PieChartSortConfiguration (..),
+    PieChartSortConfiguration,
     newPieChartSortConfiguration,
     pieChartSortConfiguration_categoryItemsLimit,
     pieChartSortConfiguration_categorySort,
@@ -3282,7 +3283,7 @@ module Amazonka.QuickSight.Types
     pieChartSortConfiguration_smallMultiplesSort,
 
     -- * PieChartVisual
-    PieChartVisual (..),
+    PieChartVisual,
     newPieChartVisual,
     pieChartVisual_actions,
     pieChartVisual_chartConfiguration,
@@ -3292,42 +3293,42 @@ module Amazonka.QuickSight.Types
     pieChartVisual_visualId,
 
     -- * PivotFieldSortOptions
-    PivotFieldSortOptions (..),
+    PivotFieldSortOptions,
     newPivotFieldSortOptions,
     pivotFieldSortOptions_fieldId,
     pivotFieldSortOptions_sortBy,
 
     -- * PivotTableAggregatedFieldWells
-    PivotTableAggregatedFieldWells (..),
+    PivotTableAggregatedFieldWells,
     newPivotTableAggregatedFieldWells,
     pivotTableAggregatedFieldWells_columns,
     pivotTableAggregatedFieldWells_rows,
     pivotTableAggregatedFieldWells_values,
 
     -- * PivotTableCellConditionalFormatting
-    PivotTableCellConditionalFormatting (..),
+    PivotTableCellConditionalFormatting,
     newPivotTableCellConditionalFormatting,
     pivotTableCellConditionalFormatting_scope,
     pivotTableCellConditionalFormatting_textFormat,
     pivotTableCellConditionalFormatting_fieldId,
 
     -- * PivotTableConditionalFormatting
-    PivotTableConditionalFormatting (..),
+    PivotTableConditionalFormatting,
     newPivotTableConditionalFormatting,
     pivotTableConditionalFormatting_conditionalFormattingOptions,
 
     -- * PivotTableConditionalFormattingOption
-    PivotTableConditionalFormattingOption (..),
+    PivotTableConditionalFormattingOption,
     newPivotTableConditionalFormattingOption,
     pivotTableConditionalFormattingOption_cell,
 
     -- * PivotTableConditionalFormattingScope
-    PivotTableConditionalFormattingScope (..),
+    PivotTableConditionalFormattingScope,
     newPivotTableConditionalFormattingScope,
     pivotTableConditionalFormattingScope_role,
 
     -- * PivotTableConfiguration
-    PivotTableConfiguration (..),
+    PivotTableConfiguration,
     newPivotTableConfiguration,
     pivotTableConfiguration_fieldOptions,
     pivotTableConfiguration_fieldWells,
@@ -3337,36 +3338,36 @@ module Amazonka.QuickSight.Types
     pivotTableConfiguration_totalOptions,
 
     -- * PivotTableDataPathOption
-    PivotTableDataPathOption (..),
+    PivotTableDataPathOption,
     newPivotTableDataPathOption,
     pivotTableDataPathOption_width,
     pivotTableDataPathOption_dataPathList,
 
     -- * PivotTableFieldOption
-    PivotTableFieldOption (..),
+    PivotTableFieldOption,
     newPivotTableFieldOption,
     pivotTableFieldOption_customLabel,
     pivotTableFieldOption_visibility,
     pivotTableFieldOption_fieldId,
 
     -- * PivotTableFieldOptions
-    PivotTableFieldOptions (..),
+    PivotTableFieldOptions,
     newPivotTableFieldOptions,
     pivotTableFieldOptions_dataPathOptions,
     pivotTableFieldOptions_selectedFieldOptions,
 
     -- * PivotTableFieldSubtotalOptions
-    PivotTableFieldSubtotalOptions (..),
+    PivotTableFieldSubtotalOptions,
     newPivotTableFieldSubtotalOptions,
     pivotTableFieldSubtotalOptions_fieldId,
 
     -- * PivotTableFieldWells
-    PivotTableFieldWells (..),
+    PivotTableFieldWells,
     newPivotTableFieldWells,
     pivotTableFieldWells_pivotTableAggregatedFieldWells,
 
     -- * PivotTableOptions
-    PivotTableOptions (..),
+    PivotTableOptions,
     newPivotTableOptions,
     pivotTableOptions_cellStyle,
     pivotTableOptions_columnHeaderStyle,
@@ -3379,25 +3380,25 @@ module Amazonka.QuickSight.Types
     pivotTableOptions_toggleButtonsVisibility,
 
     -- * PivotTablePaginatedReportOptions
-    PivotTablePaginatedReportOptions (..),
+    PivotTablePaginatedReportOptions,
     newPivotTablePaginatedReportOptions,
     pivotTablePaginatedReportOptions_overflowColumnHeaderVisibility,
     pivotTablePaginatedReportOptions_verticalOverflowVisibility,
 
     -- * PivotTableSortBy
-    PivotTableSortBy (..),
+    PivotTableSortBy,
     newPivotTableSortBy,
     pivotTableSortBy_column,
     pivotTableSortBy_dataPath,
     pivotTableSortBy_field,
 
     -- * PivotTableSortConfiguration
-    PivotTableSortConfiguration (..),
+    PivotTableSortConfiguration,
     newPivotTableSortConfiguration,
     pivotTableSortConfiguration_fieldSortOptions,
 
     -- * PivotTableTotalOptions
-    PivotTableTotalOptions (..),
+    PivotTableTotalOptions,
     newPivotTableTotalOptions,
     pivotTableTotalOptions_columnSubtotalOptions,
     pivotTableTotalOptions_columnTotalOptions,
@@ -3405,7 +3406,7 @@ module Amazonka.QuickSight.Types
     pivotTableTotalOptions_rowTotalOptions,
 
     -- * PivotTableVisual
-    PivotTableVisual (..),
+    PivotTableVisual,
     newPivotTableVisual,
     pivotTableVisual_actions,
     pivotTableVisual_chartConfiguration,
@@ -3415,7 +3416,7 @@ module Amazonka.QuickSight.Types
     pivotTableVisual_visualId,
 
     -- * PivotTotalOptions
-    PivotTotalOptions (..),
+    PivotTotalOptions,
     newPivotTotalOptions,
     pivotTotalOptions_customLabel,
     pivotTotalOptions_metricHeaderCellStyle,
@@ -3426,55 +3427,55 @@ module Amazonka.QuickSight.Types
     pivotTotalOptions_valueCellStyle,
 
     -- * PostgreSqlParameters
-    PostgreSqlParameters (..),
+    PostgreSqlParameters,
     newPostgreSqlParameters,
     postgreSqlParameters_host,
     postgreSqlParameters_port,
     postgreSqlParameters_database,
 
     -- * PredefinedHierarchy
-    PredefinedHierarchy (..),
+    PredefinedHierarchy,
     newPredefinedHierarchy,
     predefinedHierarchy_drillDownFilters,
     predefinedHierarchy_hierarchyId,
     predefinedHierarchy_columns,
 
     -- * PrestoParameters
-    PrestoParameters (..),
+    PrestoParameters,
     newPrestoParameters,
     prestoParameters_host,
     prestoParameters_port,
     prestoParameters_catalog,
 
     -- * ProgressBarOptions
-    ProgressBarOptions (..),
+    ProgressBarOptions,
     newProgressBarOptions,
     progressBarOptions_visibility,
 
     -- * ProjectOperation
-    ProjectOperation (..),
+    ProjectOperation,
     newProjectOperation,
     projectOperation_projectedColumns,
 
     -- * QueueInfo
-    QueueInfo (..),
+    QueueInfo,
     newQueueInfo,
     queueInfo_waitingOnIngestion,
     queueInfo_queuedIngestion,
 
     -- * RangeEndsLabelType
-    RangeEndsLabelType (..),
+    RangeEndsLabelType,
     newRangeEndsLabelType,
     rangeEndsLabelType_visibility,
 
     -- * RdsParameters
-    RdsParameters (..),
+    RdsParameters,
     newRdsParameters,
     rdsParameters_instanceId,
     rdsParameters_database,
 
     -- * RedshiftParameters
-    RedshiftParameters (..),
+    RedshiftParameters,
     newRedshiftParameters,
     redshiftParameters_clusterId,
     redshiftParameters_host,
@@ -3482,7 +3483,7 @@ module Amazonka.QuickSight.Types
     redshiftParameters_database,
 
     -- * ReferenceLine
-    ReferenceLine (..),
+    ReferenceLine,
     newReferenceLine,
     referenceLine_labelConfiguration,
     referenceLine_status,
@@ -3490,26 +3491,26 @@ module Amazonka.QuickSight.Types
     referenceLine_dataConfiguration,
 
     -- * ReferenceLineCustomLabelConfiguration
-    ReferenceLineCustomLabelConfiguration (..),
+    ReferenceLineCustomLabelConfiguration,
     newReferenceLineCustomLabelConfiguration,
     referenceLineCustomLabelConfiguration_customLabel,
 
     -- * ReferenceLineDataConfiguration
-    ReferenceLineDataConfiguration (..),
+    ReferenceLineDataConfiguration,
     newReferenceLineDataConfiguration,
     referenceLineDataConfiguration_axisBinding,
     referenceLineDataConfiguration_dynamicConfiguration,
     referenceLineDataConfiguration_staticConfiguration,
 
     -- * ReferenceLineDynamicDataConfiguration
-    ReferenceLineDynamicDataConfiguration (..),
+    ReferenceLineDynamicDataConfiguration,
     newReferenceLineDynamicDataConfiguration,
     referenceLineDynamicDataConfiguration_column,
     referenceLineDynamicDataConfiguration_measureAggregationFunction,
     referenceLineDynamicDataConfiguration_calculation,
 
     -- * ReferenceLineLabelConfiguration
-    ReferenceLineLabelConfiguration (..),
+    ReferenceLineLabelConfiguration,
     newReferenceLineLabelConfiguration,
     referenceLineLabelConfiguration_customLabelConfiguration,
     referenceLineLabelConfiguration_fontColor,
@@ -3519,34 +3520,34 @@ module Amazonka.QuickSight.Types
     referenceLineLabelConfiguration_verticalPosition,
 
     -- * ReferenceLineStaticDataConfiguration
-    ReferenceLineStaticDataConfiguration (..),
+    ReferenceLineStaticDataConfiguration,
     newReferenceLineStaticDataConfiguration,
     referenceLineStaticDataConfiguration_value,
 
     -- * ReferenceLineStyleConfiguration
-    ReferenceLineStyleConfiguration (..),
+    ReferenceLineStyleConfiguration,
     newReferenceLineStyleConfiguration,
     referenceLineStyleConfiguration_color,
     referenceLineStyleConfiguration_pattern,
 
     -- * ReferenceLineValueLabelConfiguration
-    ReferenceLineValueLabelConfiguration (..),
+    ReferenceLineValueLabelConfiguration,
     newReferenceLineValueLabelConfiguration,
     referenceLineValueLabelConfiguration_formatConfiguration,
     referenceLineValueLabelConfiguration_relativePosition,
 
     -- * RegisteredUserDashboardEmbeddingConfiguration
-    RegisteredUserDashboardEmbeddingConfiguration (..),
+    RegisteredUserDashboardEmbeddingConfiguration,
     newRegisteredUserDashboardEmbeddingConfiguration,
     registeredUserDashboardEmbeddingConfiguration_initialDashboardId,
 
     -- * RegisteredUserDashboardVisualEmbeddingConfiguration
-    RegisteredUserDashboardVisualEmbeddingConfiguration (..),
+    RegisteredUserDashboardVisualEmbeddingConfiguration,
     newRegisteredUserDashboardVisualEmbeddingConfiguration,
     registeredUserDashboardVisualEmbeddingConfiguration_initialDashboardVisualId,
 
     -- * RegisteredUserEmbeddingExperienceConfiguration
-    RegisteredUserEmbeddingExperienceConfiguration (..),
+    RegisteredUserEmbeddingExperienceConfiguration,
     newRegisteredUserEmbeddingExperienceConfiguration,
     registeredUserEmbeddingExperienceConfiguration_dashboard,
     registeredUserEmbeddingExperienceConfiguration_dashboardVisual,
@@ -3554,17 +3555,17 @@ module Amazonka.QuickSight.Types
     registeredUserEmbeddingExperienceConfiguration_quickSightConsole,
 
     -- * RegisteredUserQSearchBarEmbeddingConfiguration
-    RegisteredUserQSearchBarEmbeddingConfiguration (..),
+    RegisteredUserQSearchBarEmbeddingConfiguration,
     newRegisteredUserQSearchBarEmbeddingConfiguration,
     registeredUserQSearchBarEmbeddingConfiguration_initialTopicId,
 
     -- * RegisteredUserQuickSightConsoleEmbeddingConfiguration
-    RegisteredUserQuickSightConsoleEmbeddingConfiguration (..),
+    RegisteredUserQuickSightConsoleEmbeddingConfiguration,
     newRegisteredUserQuickSightConsoleEmbeddingConfiguration,
     registeredUserQuickSightConsoleEmbeddingConfiguration_initialPath,
 
     -- * RelationalTable
-    RelationalTable (..),
+    RelationalTable,
     newRelationalTable,
     relationalTable_catalog,
     relationalTable_schema,
@@ -3573,13 +3574,13 @@ module Amazonka.QuickSight.Types
     relationalTable_inputColumns,
 
     -- * RelativeDateTimeControlDisplayOptions
-    RelativeDateTimeControlDisplayOptions (..),
+    RelativeDateTimeControlDisplayOptions,
     newRelativeDateTimeControlDisplayOptions,
     relativeDateTimeControlDisplayOptions_dateTimeFormat,
     relativeDateTimeControlDisplayOptions_titleOptions,
 
     -- * RelativeDatesFilter
-    RelativeDatesFilter (..),
+    RelativeDatesFilter,
     newRelativeDatesFilter,
     relativeDatesFilter_excludePeriodConfiguration,
     relativeDatesFilter_minimumGranularity,
@@ -3593,38 +3594,38 @@ module Amazonka.QuickSight.Types
     relativeDatesFilter_nullOption,
 
     -- * RenameColumnOperation
-    RenameColumnOperation (..),
+    RenameColumnOperation,
     newRenameColumnOperation,
     renameColumnOperation_columnName,
     renameColumnOperation_newColumnName,
 
     -- * ResourcePermission
-    ResourcePermission (..),
+    ResourcePermission,
     newResourcePermission,
     resourcePermission_principal,
     resourcePermission_actions,
 
     -- * RollingDateConfiguration
-    RollingDateConfiguration (..),
+    RollingDateConfiguration,
     newRollingDateConfiguration,
     rollingDateConfiguration_dataSetIdentifier,
     rollingDateConfiguration_expression,
 
     -- * RowAlternateColorOptions
-    RowAlternateColorOptions (..),
+    RowAlternateColorOptions,
     newRowAlternateColorOptions,
     rowAlternateColorOptions_rowAlternateColors,
     rowAlternateColorOptions_status,
 
     -- * RowInfo
-    RowInfo (..),
+    RowInfo,
     newRowInfo,
     rowInfo_rowsDropped,
     rowInfo_rowsIngested,
     rowInfo_totalRowsInDataset,
 
     -- * RowLevelPermissionDataSet
-    RowLevelPermissionDataSet (..),
+    RowLevelPermissionDataSet,
     newRowLevelPermissionDataSet,
     rowLevelPermissionDataSet_formatVersion,
     rowLevelPermissionDataSet_namespace,
@@ -3633,13 +3634,13 @@ module Amazonka.QuickSight.Types
     rowLevelPermissionDataSet_permissionPolicy,
 
     -- * RowLevelPermissionTagConfiguration
-    RowLevelPermissionTagConfiguration (..),
+    RowLevelPermissionTagConfiguration,
     newRowLevelPermissionTagConfiguration,
     rowLevelPermissionTagConfiguration_status,
     rowLevelPermissionTagConfiguration_tagRules,
 
     -- * RowLevelPermissionTagRule
-    RowLevelPermissionTagRule (..),
+    RowLevelPermissionTagRule,
     newRowLevelPermissionTagRule,
     rowLevelPermissionTagRule_matchAllValue,
     rowLevelPermissionTagRule_tagMultiValueDelimiter,
@@ -3647,51 +3648,51 @@ module Amazonka.QuickSight.Types
     rowLevelPermissionTagRule_columnName,
 
     -- * S3Parameters
-    S3Parameters (..),
+    S3Parameters,
     newS3Parameters,
     s3Parameters_manifestFileLocation,
 
     -- * S3Source
-    S3Source (..),
+    S3Source,
     newS3Source,
     s3Source_uploadSettings,
     s3Source_dataSourceArn,
     s3Source_inputColumns,
 
     -- * SameSheetTargetVisualConfiguration
-    SameSheetTargetVisualConfiguration (..),
+    SameSheetTargetVisualConfiguration,
     newSameSheetTargetVisualConfiguration,
     sameSheetTargetVisualConfiguration_targetVisualOptions,
     sameSheetTargetVisualConfiguration_targetVisuals,
 
     -- * SankeyDiagramAggregatedFieldWells
-    SankeyDiagramAggregatedFieldWells (..),
+    SankeyDiagramAggregatedFieldWells,
     newSankeyDiagramAggregatedFieldWells,
     sankeyDiagramAggregatedFieldWells_destination,
     sankeyDiagramAggregatedFieldWells_source,
     sankeyDiagramAggregatedFieldWells_weight,
 
     -- * SankeyDiagramChartConfiguration
-    SankeyDiagramChartConfiguration (..),
+    SankeyDiagramChartConfiguration,
     newSankeyDiagramChartConfiguration,
     sankeyDiagramChartConfiguration_dataLabels,
     sankeyDiagramChartConfiguration_fieldWells,
     sankeyDiagramChartConfiguration_sortConfiguration,
 
     -- * SankeyDiagramFieldWells
-    SankeyDiagramFieldWells (..),
+    SankeyDiagramFieldWells,
     newSankeyDiagramFieldWells,
     sankeyDiagramFieldWells_sankeyDiagramAggregatedFieldWells,
 
     -- * SankeyDiagramSortConfiguration
-    SankeyDiagramSortConfiguration (..),
+    SankeyDiagramSortConfiguration,
     newSankeyDiagramSortConfiguration,
     sankeyDiagramSortConfiguration_destinationItemsLimit,
     sankeyDiagramSortConfiguration_sourceItemsLimit,
     sankeyDiagramSortConfiguration_weightSort,
 
     -- * SankeyDiagramVisual
-    SankeyDiagramVisual (..),
+    SankeyDiagramVisual,
     newSankeyDiagramVisual,
     sankeyDiagramVisual_actions,
     sankeyDiagramVisual_chartConfiguration,
@@ -3700,7 +3701,7 @@ module Amazonka.QuickSight.Types
     sankeyDiagramVisual_visualId,
 
     -- * ScatterPlotCategoricallyAggregatedFieldWells
-    ScatterPlotCategoricallyAggregatedFieldWells (..),
+    ScatterPlotCategoricallyAggregatedFieldWells,
     newScatterPlotCategoricallyAggregatedFieldWells,
     scatterPlotCategoricallyAggregatedFieldWells_category,
     scatterPlotCategoricallyAggregatedFieldWells_size,
@@ -3708,7 +3709,7 @@ module Amazonka.QuickSight.Types
     scatterPlotCategoricallyAggregatedFieldWells_yAxis,
 
     -- * ScatterPlotConfiguration
-    ScatterPlotConfiguration (..),
+    ScatterPlotConfiguration,
     newScatterPlotConfiguration,
     scatterPlotConfiguration_dataLabels,
     scatterPlotConfiguration_fieldWells,
@@ -3721,20 +3722,20 @@ module Amazonka.QuickSight.Types
     scatterPlotConfiguration_yAxisLabelOptions,
 
     -- * ScatterPlotFieldWells
-    ScatterPlotFieldWells (..),
+    ScatterPlotFieldWells,
     newScatterPlotFieldWells,
     scatterPlotFieldWells_scatterPlotCategoricallyAggregatedFieldWells,
     scatterPlotFieldWells_scatterPlotUnaggregatedFieldWells,
 
     -- * ScatterPlotUnaggregatedFieldWells
-    ScatterPlotUnaggregatedFieldWells (..),
+    ScatterPlotUnaggregatedFieldWells,
     newScatterPlotUnaggregatedFieldWells,
     scatterPlotUnaggregatedFieldWells_size,
     scatterPlotUnaggregatedFieldWells_xAxis,
     scatterPlotUnaggregatedFieldWells_yAxis,
 
     -- * ScatterPlotVisual
-    ScatterPlotVisual (..),
+    ScatterPlotVisual,
     newScatterPlotVisual,
     scatterPlotVisual_actions,
     scatterPlotVisual_chartConfiguration,
@@ -3744,28 +3745,28 @@ module Amazonka.QuickSight.Types
     scatterPlotVisual_visualId,
 
     -- * ScrollBarOptions
-    ScrollBarOptions (..),
+    ScrollBarOptions,
     newScrollBarOptions,
     scrollBarOptions_visibility,
     scrollBarOptions_visibleRange,
 
     -- * SecondaryValueOptions
-    SecondaryValueOptions (..),
+    SecondaryValueOptions,
     newSecondaryValueOptions,
     secondaryValueOptions_visibility,
 
     -- * SectionAfterPageBreak
-    SectionAfterPageBreak (..),
+    SectionAfterPageBreak,
     newSectionAfterPageBreak,
     sectionAfterPageBreak_status,
 
     -- * SectionBasedLayoutCanvasSizeOptions
-    SectionBasedLayoutCanvasSizeOptions (..),
+    SectionBasedLayoutCanvasSizeOptions,
     newSectionBasedLayoutCanvasSizeOptions,
     sectionBasedLayoutCanvasSizeOptions_paperCanvasSizeOptions,
 
     -- * SectionBasedLayoutConfiguration
-    SectionBasedLayoutConfiguration (..),
+    SectionBasedLayoutConfiguration,
     newSectionBasedLayoutConfiguration,
     sectionBasedLayoutConfiguration_headerSections,
     sectionBasedLayoutConfiguration_bodySections,
@@ -3773,84 +3774,84 @@ module Amazonka.QuickSight.Types
     sectionBasedLayoutConfiguration_canvasSizeOptions,
 
     -- * SectionBasedLayoutPaperCanvasSizeOptions
-    SectionBasedLayoutPaperCanvasSizeOptions (..),
+    SectionBasedLayoutPaperCanvasSizeOptions,
     newSectionBasedLayoutPaperCanvasSizeOptions,
     sectionBasedLayoutPaperCanvasSizeOptions_paperMargin,
     sectionBasedLayoutPaperCanvasSizeOptions_paperOrientation,
     sectionBasedLayoutPaperCanvasSizeOptions_paperSize,
 
     -- * SectionLayoutConfiguration
-    SectionLayoutConfiguration (..),
+    SectionLayoutConfiguration,
     newSectionLayoutConfiguration,
     sectionLayoutConfiguration_freeFormLayout,
 
     -- * SectionPageBreakConfiguration
-    SectionPageBreakConfiguration (..),
+    SectionPageBreakConfiguration,
     newSectionPageBreakConfiguration,
     sectionPageBreakConfiguration_after,
 
     -- * SectionStyle
-    SectionStyle (..),
+    SectionStyle,
     newSectionStyle,
     sectionStyle_height,
     sectionStyle_padding,
 
     -- * SelectedSheetsFilterScopeConfiguration
-    SelectedSheetsFilterScopeConfiguration (..),
+    SelectedSheetsFilterScopeConfiguration,
     newSelectedSheetsFilterScopeConfiguration,
     selectedSheetsFilterScopeConfiguration_sheetVisualScopingConfigurations,
 
     -- * SeriesItem
-    SeriesItem (..),
+    SeriesItem,
     newSeriesItem,
     seriesItem_dataFieldSeriesItem,
     seriesItem_fieldSeriesItem,
 
     -- * ServiceNowParameters
-    ServiceNowParameters (..),
+    ServiceNowParameters,
     newServiceNowParameters,
     serviceNowParameters_siteBaseUrl,
 
     -- * SessionTag
-    SessionTag (..),
+    SessionTag,
     newSessionTag,
     sessionTag_key,
     sessionTag_value,
 
     -- * SetParameterValueConfiguration
-    SetParameterValueConfiguration (..),
+    SetParameterValueConfiguration,
     newSetParameterValueConfiguration,
     setParameterValueConfiguration_destinationParameterName,
     setParameterValueConfiguration_value,
 
     -- * ShapeConditionalFormat
-    ShapeConditionalFormat (..),
+    ShapeConditionalFormat,
     newShapeConditionalFormat,
     shapeConditionalFormat_backgroundColor,
 
     -- * Sheet
-    Sheet (..),
+    Sheet,
     newSheet,
     sheet_name,
     sheet_sheetId,
 
     -- * SheetControlLayout
-    SheetControlLayout (..),
+    SheetControlLayout,
     newSheetControlLayout,
     sheetControlLayout_configuration,
 
     -- * SheetControlLayoutConfiguration
-    SheetControlLayoutConfiguration (..),
+    SheetControlLayoutConfiguration,
     newSheetControlLayoutConfiguration,
     sheetControlLayoutConfiguration_gridLayout,
 
     -- * SheetControlsOption
-    SheetControlsOption (..),
+    SheetControlsOption,
     newSheetControlsOption,
     sheetControlsOption_visibilityState,
 
     -- * SheetDefinition
-    SheetDefinition (..),
+    SheetDefinition,
     newSheetDefinition,
     sheetDefinition_contentType,
     sheetDefinition_description,
@@ -3865,43 +3866,43 @@ module Amazonka.QuickSight.Types
     sheetDefinition_sheetId,
 
     -- * SheetElementConfigurationOverrides
-    SheetElementConfigurationOverrides (..),
+    SheetElementConfigurationOverrides,
     newSheetElementConfigurationOverrides,
     sheetElementConfigurationOverrides_visibility,
 
     -- * SheetElementRenderingRule
-    SheetElementRenderingRule (..),
+    SheetElementRenderingRule,
     newSheetElementRenderingRule,
     sheetElementRenderingRule_expression,
     sheetElementRenderingRule_configurationOverrides,
 
     -- * SheetStyle
-    SheetStyle (..),
+    SheetStyle,
     newSheetStyle,
     sheetStyle_tile,
     sheetStyle_tileLayout,
 
     -- * SheetTextBox
-    SheetTextBox (..),
+    SheetTextBox,
     newSheetTextBox,
     sheetTextBox_content,
     sheetTextBox_sheetTextBoxId,
 
     -- * SheetVisualScopingConfiguration
-    SheetVisualScopingConfiguration (..),
+    SheetVisualScopingConfiguration,
     newSheetVisualScopingConfiguration,
     sheetVisualScopingConfiguration_visualIds,
     sheetVisualScopingConfiguration_sheetId,
     sheetVisualScopingConfiguration_scope,
 
     -- * ShortFormatText
-    ShortFormatText (..),
+    ShortFormatText,
     newShortFormatText,
     shortFormatText_plainText,
     shortFormatText_richText,
 
     -- * SignupResponse
-    SignupResponse (..),
+    SignupResponse,
     newSignupResponse,
     signupResponse_iAMUser,
     signupResponse_accountName,
@@ -3909,31 +3910,31 @@ module Amazonka.QuickSight.Types
     signupResponse_userLoginName,
 
     -- * SimpleClusterMarker
-    SimpleClusterMarker (..),
+    SimpleClusterMarker,
     newSimpleClusterMarker,
     simpleClusterMarker_color,
 
     -- * SliderControlDisplayOptions
-    SliderControlDisplayOptions (..),
+    SliderControlDisplayOptions,
     newSliderControlDisplayOptions,
     sliderControlDisplayOptions_titleOptions,
 
     -- * SmallMultiplesOptions
-    SmallMultiplesOptions (..),
+    SmallMultiplesOptions,
     newSmallMultiplesOptions,
     smallMultiplesOptions_maxVisibleColumns,
     smallMultiplesOptions_maxVisibleRows,
     smallMultiplesOptions_panelConfiguration,
 
     -- * SnowflakeParameters
-    SnowflakeParameters (..),
+    SnowflakeParameters,
     newSnowflakeParameters,
     snowflakeParameters_host,
     snowflakeParameters_database,
     snowflakeParameters_warehouse,
 
     -- * Spacing
-    Spacing (..),
+    Spacing,
     newSpacing,
     spacing_bottom,
     spacing_left,
@@ -3941,43 +3942,43 @@ module Amazonka.QuickSight.Types
     spacing_top,
 
     -- * SparkParameters
-    SparkParameters (..),
+    SparkParameters,
     newSparkParameters,
     sparkParameters_host,
     sparkParameters_port,
 
     -- * SqlServerParameters
-    SqlServerParameters (..),
+    SqlServerParameters,
     newSqlServerParameters,
     sqlServerParameters_host,
     sqlServerParameters_port,
     sqlServerParameters_database,
 
     -- * SslProperties
-    SslProperties (..),
+    SslProperties,
     newSslProperties,
     sslProperties_disableSsl,
 
     -- * StringDefaultValues
-    StringDefaultValues (..),
+    StringDefaultValues,
     newStringDefaultValues,
     stringDefaultValues_dynamicValue,
     stringDefaultValues_staticValues,
 
     -- * StringFormatConfiguration
-    StringFormatConfiguration (..),
+    StringFormatConfiguration,
     newStringFormatConfiguration,
     stringFormatConfiguration_nullValueFormatConfiguration,
     stringFormatConfiguration_numericFormatConfiguration,
 
     -- * StringParameter
-    StringParameter (..),
+    StringParameter,
     newStringParameter,
     stringParameter_name,
     stringParameter_values,
 
     -- * StringParameterDeclaration
-    StringParameterDeclaration (..),
+    StringParameterDeclaration,
     newStringParameterDeclaration,
     stringParameterDeclaration_defaultValues,
     stringParameterDeclaration_valueWhenUnset,
@@ -3985,13 +3986,13 @@ module Amazonka.QuickSight.Types
     stringParameterDeclaration_name,
 
     -- * StringValueWhenUnsetConfiguration
-    StringValueWhenUnsetConfiguration (..),
+    StringValueWhenUnsetConfiguration,
     newStringValueWhenUnsetConfiguration,
     stringValueWhenUnsetConfiguration_customValue,
     stringValueWhenUnsetConfiguration_valueWhenUnsetOption,
 
     -- * SubtotalOptions
-    SubtotalOptions (..),
+    SubtotalOptions,
     newSubtotalOptions,
     subtotalOptions_customLabel,
     subtotalOptions_fieldLevel,
@@ -4002,31 +4003,31 @@ module Amazonka.QuickSight.Types
     subtotalOptions_valueCellStyle,
 
     -- * TableAggregatedFieldWells
-    TableAggregatedFieldWells (..),
+    TableAggregatedFieldWells,
     newTableAggregatedFieldWells,
     tableAggregatedFieldWells_groupBy,
     tableAggregatedFieldWells_values,
 
     -- * TableBorderOptions
-    TableBorderOptions (..),
+    TableBorderOptions,
     newTableBorderOptions,
     tableBorderOptions_color,
     tableBorderOptions_style,
     tableBorderOptions_thickness,
 
     -- * TableCellConditionalFormatting
-    TableCellConditionalFormatting (..),
+    TableCellConditionalFormatting,
     newTableCellConditionalFormatting,
     tableCellConditionalFormatting_textFormat,
     tableCellConditionalFormatting_fieldId,
 
     -- * TableCellImageSizingConfiguration
-    TableCellImageSizingConfiguration (..),
+    TableCellImageSizingConfiguration,
     newTableCellImageSizingConfiguration,
     tableCellImageSizingConfiguration_tableCellImageScalingConfiguration,
 
     -- * TableCellStyle
-    TableCellStyle (..),
+    TableCellStyle,
     newTableCellStyle,
     tableCellStyle_backgroundColor,
     tableCellStyle_border,
@@ -4038,18 +4039,18 @@ module Amazonka.QuickSight.Types
     tableCellStyle_visibility,
 
     -- * TableConditionalFormatting
-    TableConditionalFormatting (..),
+    TableConditionalFormatting,
     newTableConditionalFormatting,
     tableConditionalFormatting_conditionalFormattingOptions,
 
     -- * TableConditionalFormattingOption
-    TableConditionalFormattingOption (..),
+    TableConditionalFormattingOption,
     newTableConditionalFormattingOption,
     tableConditionalFormattingOption_cell,
     tableConditionalFormattingOption_row,
 
     -- * TableConfiguration
-    TableConfiguration (..),
+    TableConfiguration,
     newTableConfiguration,
     tableConfiguration_fieldOptions,
     tableConfiguration_fieldWells,
@@ -4059,35 +4060,35 @@ module Amazonka.QuickSight.Types
     tableConfiguration_totalOptions,
 
     -- * TableFieldCustomIconContent
-    TableFieldCustomIconContent (..),
+    TableFieldCustomIconContent,
     newTableFieldCustomIconContent,
     tableFieldCustomIconContent_icon,
 
     -- * TableFieldCustomTextContent
-    TableFieldCustomTextContent (..),
+    TableFieldCustomTextContent,
     newTableFieldCustomTextContent,
     tableFieldCustomTextContent_value,
     tableFieldCustomTextContent_fontConfiguration,
 
     -- * TableFieldImageConfiguration
-    TableFieldImageConfiguration (..),
+    TableFieldImageConfiguration,
     newTableFieldImageConfiguration,
     tableFieldImageConfiguration_sizingOptions,
 
     -- * TableFieldLinkConfiguration
-    TableFieldLinkConfiguration (..),
+    TableFieldLinkConfiguration,
     newTableFieldLinkConfiguration,
     tableFieldLinkConfiguration_target,
     tableFieldLinkConfiguration_content,
 
     -- * TableFieldLinkContentConfiguration
-    TableFieldLinkContentConfiguration (..),
+    TableFieldLinkContentConfiguration,
     newTableFieldLinkContentConfiguration,
     tableFieldLinkContentConfiguration_customIconContent,
     tableFieldLinkContentConfiguration_customTextContent,
 
     -- * TableFieldOption
-    TableFieldOption (..),
+    TableFieldOption,
     newTableFieldOption,
     tableFieldOption_customLabel,
     tableFieldOption_uRLStyling,
@@ -4096,25 +4097,25 @@ module Amazonka.QuickSight.Types
     tableFieldOption_fieldId,
 
     -- * TableFieldOptions
-    TableFieldOptions (..),
+    TableFieldOptions,
     newTableFieldOptions,
     tableFieldOptions_order,
     tableFieldOptions_selectedFieldOptions,
 
     -- * TableFieldURLConfiguration
-    TableFieldURLConfiguration (..),
+    TableFieldURLConfiguration,
     newTableFieldURLConfiguration,
     tableFieldURLConfiguration_imageConfiguration,
     tableFieldURLConfiguration_linkConfiguration,
 
     -- * TableFieldWells
-    TableFieldWells (..),
+    TableFieldWells,
     newTableFieldWells,
     tableFieldWells_tableAggregatedFieldWells,
     tableFieldWells_tableUnaggregatedFieldWells,
 
     -- * TableOptions
-    TableOptions (..),
+    TableOptions,
     newTableOptions,
     tableOptions_cellStyle,
     tableOptions_headerStyle,
@@ -4122,19 +4123,19 @@ module Amazonka.QuickSight.Types
     tableOptions_rowAlternateColorOptions,
 
     -- * TablePaginatedReportOptions
-    TablePaginatedReportOptions (..),
+    TablePaginatedReportOptions,
     newTablePaginatedReportOptions,
     tablePaginatedReportOptions_overflowColumnHeaderVisibility,
     tablePaginatedReportOptions_verticalOverflowVisibility,
 
     -- * TableRowConditionalFormatting
-    TableRowConditionalFormatting (..),
+    TableRowConditionalFormatting,
     newTableRowConditionalFormatting,
     tableRowConditionalFormatting_backgroundColor,
     tableRowConditionalFormatting_textColor,
 
     -- * TableSideBorderOptions
-    TableSideBorderOptions (..),
+    TableSideBorderOptions,
     newTableSideBorderOptions,
     tableSideBorderOptions_bottom,
     tableSideBorderOptions_innerHorizontal,
@@ -4144,18 +4145,18 @@ module Amazonka.QuickSight.Types
     tableSideBorderOptions_top,
 
     -- * TableSortConfiguration
-    TableSortConfiguration (..),
+    TableSortConfiguration,
     newTableSortConfiguration,
     tableSortConfiguration_paginationConfiguration,
     tableSortConfiguration_rowSort,
 
     -- * TableUnaggregatedFieldWells
-    TableUnaggregatedFieldWells (..),
+    TableUnaggregatedFieldWells,
     newTableUnaggregatedFieldWells,
     tableUnaggregatedFieldWells_values,
 
     -- * TableVisual
-    TableVisual (..),
+    TableVisual,
     newTableVisual,
     tableVisual_actions,
     tableVisual_chartConfiguration,
@@ -4165,19 +4166,19 @@ module Amazonka.QuickSight.Types
     tableVisual_visualId,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,
 
     -- * TagColumnOperation
-    TagColumnOperation (..),
+    TagColumnOperation,
     newTagColumnOperation,
     tagColumnOperation_columnName,
     tagColumnOperation_tags,
 
     -- * Template
-    Template (..),
+    Template,
     newTemplate,
     template_arn,
     template_createdTime,
@@ -4187,38 +4188,38 @@ module Amazonka.QuickSight.Types
     template_version,
 
     -- * TemplateAlias
-    TemplateAlias (..),
+    TemplateAlias,
     newTemplateAlias,
     templateAlias_aliasName,
     templateAlias_arn,
     templateAlias_templateVersionNumber,
 
     -- * TemplateError
-    TemplateError (..),
+    TemplateError,
     newTemplateError,
     templateError_message,
     templateError_type,
     templateError_violatedEntities,
 
     -- * TemplateSourceAnalysis
-    TemplateSourceAnalysis (..),
+    TemplateSourceAnalysis,
     newTemplateSourceAnalysis,
     templateSourceAnalysis_arn,
     templateSourceAnalysis_dataSetReferences,
 
     -- * TemplateSourceEntity
-    TemplateSourceEntity (..),
+    TemplateSourceEntity,
     newTemplateSourceEntity,
     templateSourceEntity_sourceAnalysis,
     templateSourceEntity_sourceTemplate,
 
     -- * TemplateSourceTemplate
-    TemplateSourceTemplate (..),
+    TemplateSourceTemplate,
     newTemplateSourceTemplate,
     templateSourceTemplate_arn,
 
     -- * TemplateSummary
-    TemplateSummary (..),
+    TemplateSummary,
     newTemplateSummary,
     templateSummary_arn,
     templateSummary_createdTime,
@@ -4228,7 +4229,7 @@ module Amazonka.QuickSight.Types
     templateSummary_templateId,
 
     -- * TemplateVersion
-    TemplateVersion (..),
+    TemplateVersion,
     newTemplateVersion,
     templateVersion_createdTime,
     templateVersion_dataSetConfigurations,
@@ -4241,7 +4242,7 @@ module Amazonka.QuickSight.Types
     templateVersion_versionNumber,
 
     -- * TemplateVersionDefinition
-    TemplateVersionDefinition (..),
+    TemplateVersionDefinition,
     newTemplateVersionDefinition,
     templateVersionDefinition_analysisDefaults,
     templateVersionDefinition_calculatedFields,
@@ -4252,7 +4253,7 @@ module Amazonka.QuickSight.Types
     templateVersionDefinition_dataSetConfigurations,
 
     -- * TemplateVersionSummary
-    TemplateVersionSummary (..),
+    TemplateVersionSummary,
     newTemplateVersionSummary,
     templateVersionSummary_arn,
     templateVersionSummary_createdTime,
@@ -4261,38 +4262,38 @@ module Amazonka.QuickSight.Types
     templateVersionSummary_versionNumber,
 
     -- * TeradataParameters
-    TeradataParameters (..),
+    TeradataParameters,
     newTeradataParameters,
     teradataParameters_host,
     teradataParameters_port,
     teradataParameters_database,
 
     -- * TextAreaControlDisplayOptions
-    TextAreaControlDisplayOptions (..),
+    TextAreaControlDisplayOptions,
     newTextAreaControlDisplayOptions,
     textAreaControlDisplayOptions_placeholderOptions,
     textAreaControlDisplayOptions_titleOptions,
 
     -- * TextConditionalFormat
-    TextConditionalFormat (..),
+    TextConditionalFormat,
     newTextConditionalFormat,
     textConditionalFormat_backgroundColor,
     textConditionalFormat_icon,
     textConditionalFormat_textColor,
 
     -- * TextControlPlaceholderOptions
-    TextControlPlaceholderOptions (..),
+    TextControlPlaceholderOptions,
     newTextControlPlaceholderOptions,
     textControlPlaceholderOptions_visibility,
 
     -- * TextFieldControlDisplayOptions
-    TextFieldControlDisplayOptions (..),
+    TextFieldControlDisplayOptions,
     newTextFieldControlDisplayOptions,
     textFieldControlDisplayOptions_placeholderOptions,
     textFieldControlDisplayOptions_titleOptions,
 
     -- * Theme
-    Theme (..),
+    Theme,
     newTheme,
     theme_arn,
     theme_createdTime,
@@ -4303,14 +4304,14 @@ module Amazonka.QuickSight.Types
     theme_version,
 
     -- * ThemeAlias
-    ThemeAlias (..),
+    ThemeAlias,
     newThemeAlias,
     themeAlias_aliasName,
     themeAlias_arn,
     themeAlias_themeVersionNumber,
 
     -- * ThemeConfiguration
-    ThemeConfiguration (..),
+    ThemeConfiguration,
     newThemeConfiguration,
     themeConfiguration_dataColorPalette,
     themeConfiguration_sheet,
@@ -4318,13 +4319,13 @@ module Amazonka.QuickSight.Types
     themeConfiguration_uIColorPalette,
 
     -- * ThemeError
-    ThemeError (..),
+    ThemeError,
     newThemeError,
     themeError_message,
     themeError_type,
 
     -- * ThemeSummary
-    ThemeSummary (..),
+    ThemeSummary,
     newThemeSummary,
     themeSummary_arn,
     themeSummary_createdTime,
@@ -4334,7 +4335,7 @@ module Amazonka.QuickSight.Types
     themeSummary_themeId,
 
     -- * ThemeVersion
-    ThemeVersion (..),
+    ThemeVersion,
     newThemeVersion,
     themeVersion_arn,
     themeVersion_baseThemeId,
@@ -4346,7 +4347,7 @@ module Amazonka.QuickSight.Types
     themeVersion_versionNumber,
 
     -- * ThemeVersionSummary
-    ThemeVersionSummary (..),
+    ThemeVersionSummary,
     newThemeVersionSummary,
     themeVersionSummary_arn,
     themeVersionSummary_createdTime,
@@ -4355,24 +4356,24 @@ module Amazonka.QuickSight.Types
     themeVersionSummary_versionNumber,
 
     -- * ThousandSeparatorOptions
-    ThousandSeparatorOptions (..),
+    ThousandSeparatorOptions,
     newThousandSeparatorOptions,
     thousandSeparatorOptions_symbol,
     thousandSeparatorOptions_visibility,
 
     -- * TileLayoutStyle
-    TileLayoutStyle (..),
+    TileLayoutStyle,
     newTileLayoutStyle,
     tileLayoutStyle_gutter,
     tileLayoutStyle_margin,
 
     -- * TileStyle
-    TileStyle (..),
+    TileStyle,
     newTileStyle,
     tileStyle_border,
 
     -- * TimeBasedForecastProperties
-    TimeBasedForecastProperties (..),
+    TimeBasedForecastProperties,
     newTimeBasedForecastProperties,
     timeBasedForecastProperties_lowerBoundary,
     timeBasedForecastProperties_periodsBackward,
@@ -4382,7 +4383,7 @@ module Amazonka.QuickSight.Types
     timeBasedForecastProperties_upperBoundary,
 
     -- * TimeEqualityFilter
-    TimeEqualityFilter (..),
+    TimeEqualityFilter,
     newTimeEqualityFilter,
     timeEqualityFilter_parameterName,
     timeEqualityFilter_timeGranularity,
@@ -4391,7 +4392,7 @@ module Amazonka.QuickSight.Types
     timeEqualityFilter_column,
 
     -- * TimeRangeDrillDownFilter
-    TimeRangeDrillDownFilter (..),
+    TimeRangeDrillDownFilter,
     newTimeRangeDrillDownFilter,
     timeRangeDrillDownFilter_column,
     timeRangeDrillDownFilter_rangeMinimum,
@@ -4399,7 +4400,7 @@ module Amazonka.QuickSight.Types
     timeRangeDrillDownFilter_timeGranularity,
 
     -- * TimeRangeFilter
-    TimeRangeFilter (..),
+    TimeRangeFilter,
     newTimeRangeFilter,
     timeRangeFilter_excludePeriodConfiguration,
     timeRangeFilter_includeMaximum,
@@ -4412,27 +4413,27 @@ module Amazonka.QuickSight.Types
     timeRangeFilter_nullOption,
 
     -- * TimeRangeFilterValue
-    TimeRangeFilterValue (..),
+    TimeRangeFilterValue,
     newTimeRangeFilterValue,
     timeRangeFilterValue_parameter,
     timeRangeFilterValue_rollingDate,
     timeRangeFilterValue_staticValue,
 
     -- * TooltipItem
-    TooltipItem (..),
+    TooltipItem,
     newTooltipItem,
     tooltipItem_columnTooltipItem,
     tooltipItem_fieldTooltipItem,
 
     -- * TooltipOptions
-    TooltipOptions (..),
+    TooltipOptions,
     newTooltipOptions,
     tooltipOptions_fieldBasedTooltip,
     tooltipOptions_selectedTooltipType,
     tooltipOptions_tooltipVisibility,
 
     -- * TopBottomFilter
-    TopBottomFilter (..),
+    TopBottomFilter,
     newTopBottomFilter,
     topBottomFilter_limit,
     topBottomFilter_parameterName,
@@ -4442,7 +4443,7 @@ module Amazonka.QuickSight.Types
     topBottomFilter_aggregationSortConfigurations,
 
     -- * TopBottomMoversComputation
-    TopBottomMoversComputation (..),
+    TopBottomMoversComputation,
     newTopBottomMoversComputation,
     topBottomMoversComputation_moverSize,
     topBottomMoversComputation_name,
@@ -4454,7 +4455,7 @@ module Amazonka.QuickSight.Types
     topBottomMoversComputation_type,
 
     -- * TopBottomRankedComputation
-    TopBottomRankedComputation (..),
+    TopBottomRankedComputation,
     newTopBottomRankedComputation,
     topBottomRankedComputation_name,
     topBottomRankedComputation_resultSize,
@@ -4464,14 +4465,14 @@ module Amazonka.QuickSight.Types
     topBottomRankedComputation_type,
 
     -- * TotalAggregationComputation
-    TotalAggregationComputation (..),
+    TotalAggregationComputation,
     newTotalAggregationComputation,
     totalAggregationComputation_name,
     totalAggregationComputation_computationId,
     totalAggregationComputation_value,
 
     -- * TotalOptions
-    TotalOptions (..),
+    TotalOptions,
     newTotalOptions,
     totalOptions_customLabel,
     totalOptions_placement,
@@ -4480,7 +4481,7 @@ module Amazonka.QuickSight.Types
     totalOptions_totalsVisibility,
 
     -- * TransformOperation
-    TransformOperation (..),
+    TransformOperation,
     newTransformOperation,
     transformOperation_castColumnTypeOperation,
     transformOperation_createColumnsOperation,
@@ -4491,14 +4492,14 @@ module Amazonka.QuickSight.Types
     transformOperation_untagColumnOperation,
 
     -- * TreeMapAggregatedFieldWells
-    TreeMapAggregatedFieldWells (..),
+    TreeMapAggregatedFieldWells,
     newTreeMapAggregatedFieldWells,
     treeMapAggregatedFieldWells_colors,
     treeMapAggregatedFieldWells_groups,
     treeMapAggregatedFieldWells_sizes,
 
     -- * TreeMapConfiguration
-    TreeMapConfiguration (..),
+    TreeMapConfiguration,
     newTreeMapConfiguration,
     treeMapConfiguration_colorLabelOptions,
     treeMapConfiguration_colorScale,
@@ -4511,18 +4512,18 @@ module Amazonka.QuickSight.Types
     treeMapConfiguration_tooltip,
 
     -- * TreeMapFieldWells
-    TreeMapFieldWells (..),
+    TreeMapFieldWells,
     newTreeMapFieldWells,
     treeMapFieldWells_treeMapAggregatedFieldWells,
 
     -- * TreeMapSortConfiguration
-    TreeMapSortConfiguration (..),
+    TreeMapSortConfiguration,
     newTreeMapSortConfiguration,
     treeMapSortConfiguration_treeMapGroupItemsLimitConfiguration,
     treeMapSortConfiguration_treeMapSort,
 
     -- * TreeMapVisual
-    TreeMapVisual (..),
+    TreeMapVisual,
     newTreeMapVisual,
     treeMapVisual_actions,
     treeMapVisual_chartConfiguration,
@@ -4532,23 +4533,23 @@ module Amazonka.QuickSight.Types
     treeMapVisual_visualId,
 
     -- * TrendArrowOptions
-    TrendArrowOptions (..),
+    TrendArrowOptions,
     newTrendArrowOptions,
     trendArrowOptions_visibility,
 
     -- * TwitterParameters
-    TwitterParameters (..),
+    TwitterParameters,
     newTwitterParameters,
     twitterParameters_query,
     twitterParameters_maxRows,
 
     -- * Typography
-    Typography (..),
+    Typography,
     newTypography,
     typography_fontFamilies,
 
     -- * UIColorPalette
-    UIColorPalette (..),
+    UIColorPalette,
     newUIColorPalette,
     uIColorPalette_accent,
     uIColorPalette_accentForeground,
@@ -4568,27 +4569,27 @@ module Amazonka.QuickSight.Types
     uIColorPalette_warningForeground,
 
     -- * UnaggregatedField
-    UnaggregatedField (..),
+    UnaggregatedField,
     newUnaggregatedField,
     unaggregatedField_formatConfiguration,
     unaggregatedField_fieldId,
     unaggregatedField_column,
 
     -- * UniqueValuesComputation
-    UniqueValuesComputation (..),
+    UniqueValuesComputation,
     newUniqueValuesComputation,
     uniqueValuesComputation_name,
     uniqueValuesComputation_computationId,
     uniqueValuesComputation_category,
 
     -- * UntagColumnOperation
-    UntagColumnOperation (..),
+    UntagColumnOperation,
     newUntagColumnOperation,
     untagColumnOperation_columnName,
     untagColumnOperation_tagNames,
 
     -- * UploadSettings
-    UploadSettings (..),
+    UploadSettings,
     newUploadSettings,
     uploadSettings_containsHeader,
     uploadSettings_delimiter,
@@ -4597,7 +4598,7 @@ module Amazonka.QuickSight.Types
     uploadSettings_textQualifier,
 
     -- * User
-    User (..),
+    User,
     newUser,
     user_active,
     user_arn,
@@ -4612,12 +4613,12 @@ module Amazonka.QuickSight.Types
     user_userName,
 
     -- * VisibleRangeOptions
-    VisibleRangeOptions (..),
+    VisibleRangeOptions,
     newVisibleRangeOptions,
     visibleRangeOptions_percentRange,
 
     -- * Visual
-    Visual (..),
+    Visual,
     newVisual,
     visual_barChartVisual,
     visual_boxPlotVisual,
@@ -4643,7 +4644,7 @@ module Amazonka.QuickSight.Types
     visual_wordCloudVisual,
 
     -- * VisualCustomAction
-    VisualCustomAction (..),
+    VisualCustomAction,
     newVisualCustomAction,
     visualCustomAction_status,
     visualCustomAction_customActionId,
@@ -4652,7 +4653,7 @@ module Amazonka.QuickSight.Types
     visualCustomAction_actionOperations,
 
     -- * VisualCustomActionOperation
-    VisualCustomActionOperation (..),
+    VisualCustomActionOperation,
     newVisualCustomActionOperation,
     visualCustomActionOperation_filterOperation,
     visualCustomActionOperation_navigationOperation,
@@ -4660,37 +4661,37 @@ module Amazonka.QuickSight.Types
     visualCustomActionOperation_uRLOperation,
 
     -- * VisualPalette
-    VisualPalette (..),
+    VisualPalette,
     newVisualPalette,
     visualPalette_chartColor,
     visualPalette_colorMap,
 
     -- * VisualSubtitleLabelOptions
-    VisualSubtitleLabelOptions (..),
+    VisualSubtitleLabelOptions,
     newVisualSubtitleLabelOptions,
     visualSubtitleLabelOptions_formatText,
     visualSubtitleLabelOptions_visibility,
 
     -- * VisualTitleLabelOptions
-    VisualTitleLabelOptions (..),
+    VisualTitleLabelOptions,
     newVisualTitleLabelOptions,
     visualTitleLabelOptions_formatText,
     visualTitleLabelOptions_visibility,
 
     -- * VpcConnectionProperties
-    VpcConnectionProperties (..),
+    VpcConnectionProperties,
     newVpcConnectionProperties,
     vpcConnectionProperties_vpcConnectionArn,
 
     -- * WaterfallChartAggregatedFieldWells
-    WaterfallChartAggregatedFieldWells (..),
+    WaterfallChartAggregatedFieldWells,
     newWaterfallChartAggregatedFieldWells,
     waterfallChartAggregatedFieldWells_breakdowns,
     waterfallChartAggregatedFieldWells_categories,
     waterfallChartAggregatedFieldWells_values,
 
     -- * WaterfallChartConfiguration
-    WaterfallChartConfiguration (..),
+    WaterfallChartConfiguration,
     newWaterfallChartConfiguration,
     waterfallChartConfiguration_categoryAxisDisplayOptions,
     waterfallChartConfiguration_categoryAxisLabelOptions,
@@ -4704,23 +4705,23 @@ module Amazonka.QuickSight.Types
     waterfallChartConfiguration_waterfallChartOptions,
 
     -- * WaterfallChartFieldWells
-    WaterfallChartFieldWells (..),
+    WaterfallChartFieldWells,
     newWaterfallChartFieldWells,
     waterfallChartFieldWells_waterfallChartAggregatedFieldWells,
 
     -- * WaterfallChartOptions
-    WaterfallChartOptions (..),
+    WaterfallChartOptions,
     newWaterfallChartOptions,
     waterfallChartOptions_totalBarLabel,
 
     -- * WaterfallChartSortConfiguration
-    WaterfallChartSortConfiguration (..),
+    WaterfallChartSortConfiguration,
     newWaterfallChartSortConfiguration,
     waterfallChartSortConfiguration_breakdownItemsLimit,
     waterfallChartSortConfiguration_categorySort,
 
     -- * WaterfallVisual
-    WaterfallVisual (..),
+    WaterfallVisual,
     newWaterfallVisual,
     waterfallVisual_actions,
     waterfallVisual_chartConfiguration,
@@ -4730,26 +4731,26 @@ module Amazonka.QuickSight.Types
     waterfallVisual_visualId,
 
     -- * WhatIfPointScenario
-    WhatIfPointScenario (..),
+    WhatIfPointScenario,
     newWhatIfPointScenario,
     whatIfPointScenario_date,
     whatIfPointScenario_value,
 
     -- * WhatIfRangeScenario
-    WhatIfRangeScenario (..),
+    WhatIfRangeScenario,
     newWhatIfRangeScenario,
     whatIfRangeScenario_startDate,
     whatIfRangeScenario_endDate,
     whatIfRangeScenario_value,
 
     -- * WordCloudAggregatedFieldWells
-    WordCloudAggregatedFieldWells (..),
+    WordCloudAggregatedFieldWells,
     newWordCloudAggregatedFieldWells,
     wordCloudAggregatedFieldWells_groupBy,
     wordCloudAggregatedFieldWells_size,
 
     -- * WordCloudChartConfiguration
-    WordCloudChartConfiguration (..),
+    WordCloudChartConfiguration,
     newWordCloudChartConfiguration,
     wordCloudChartConfiguration_categoryLabelOptions,
     wordCloudChartConfiguration_fieldWells,
@@ -4757,12 +4758,12 @@ module Amazonka.QuickSight.Types
     wordCloudChartConfiguration_wordCloudOptions,
 
     -- * WordCloudFieldWells
-    WordCloudFieldWells (..),
+    WordCloudFieldWells,
     newWordCloudFieldWells,
     wordCloudFieldWells_wordCloudAggregatedFieldWells,
 
     -- * WordCloudOptions
-    WordCloudOptions (..),
+    WordCloudOptions,
     newWordCloudOptions,
     wordCloudOptions_cloudLayout,
     wordCloudOptions_maximumStringLength,
@@ -4772,13 +4773,13 @@ module Amazonka.QuickSight.Types
     wordCloudOptions_wordScaling,
 
     -- * WordCloudSortConfiguration
-    WordCloudSortConfiguration (..),
+    WordCloudSortConfiguration,
     newWordCloudSortConfiguration,
     wordCloudSortConfiguration_categoryItemsLimit,
     wordCloudSortConfiguration_categorySort,
 
     -- * WordCloudVisual
-    WordCloudVisual (..),
+    WordCloudVisual,
     newWordCloudVisual,
     wordCloudVisual_actions,
     wordCloudVisual_chartConfiguration,

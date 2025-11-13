@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -27,17 +28,17 @@ module Amazonka.IoTRoboRunner.Types
     _ValidationException,
 
     -- * DestinationState
-    DestinationState (..),
+    DestinationState,
 
     -- * CartesianCoordinates
-    CartesianCoordinates (..),
+    CartesianCoordinates,
     newCartesianCoordinates,
     cartesianCoordinates_z,
     cartesianCoordinates_x,
     cartesianCoordinates_y,
 
     -- * Destination
-    Destination (..),
+    Destination,
     newDestination,
     destination_additionalFixedProperties,
     destination_arn,
@@ -49,17 +50,17 @@ module Amazonka.IoTRoboRunner.Types
     destination_state,
 
     -- * Orientation
-    Orientation (..),
+    Orientation,
     newOrientation,
     orientation_degrees,
 
     -- * PositionCoordinates
-    PositionCoordinates (..),
+    PositionCoordinates,
     newPositionCoordinates,
     positionCoordinates_cartesianCoordinates,
 
     -- * Site
-    Site (..),
+    Site,
     newSite,
     site_arn,
     site_name,
@@ -67,7 +68,7 @@ module Amazonka.IoTRoboRunner.Types
     site_createdAt,
 
     -- * VendorProperties
-    VendorProperties (..),
+    VendorProperties,
     newVendorProperties,
     vendorProperties_vendorAdditionalFixedProperties,
     vendorProperties_vendorAdditionalTransientProperties,
@@ -75,7 +76,7 @@ module Amazonka.IoTRoboRunner.Types
     vendorProperties_vendorWorkerId,
 
     -- * Worker
-    Worker (..),
+    Worker,
     newWorker,
     worker_additionalFixedProperties,
     worker_additionalTransientProperties,
@@ -91,7 +92,7 @@ module Amazonka.IoTRoboRunner.Types
     worker_site,
 
     -- * WorkerFleet
-    WorkerFleet (..),
+    WorkerFleet,
     newWorkerFleet,
     workerFleet_additionalFixedProperties,
     workerFleet_arn,

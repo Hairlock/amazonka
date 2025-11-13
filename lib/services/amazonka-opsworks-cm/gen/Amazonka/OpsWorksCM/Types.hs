@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -26,29 +27,29 @@ module Amazonka.OpsWorksCM.Types
     _ValidationException,
 
     -- * BackupStatus
-    BackupStatus (..),
+    BackupStatus,
 
     -- * BackupType
-    BackupType (..),
+    BackupType,
 
     -- * MaintenanceStatus
-    MaintenanceStatus (..),
+    MaintenanceStatus,
 
     -- * NodeAssociationStatus
-    NodeAssociationStatus (..),
+    NodeAssociationStatus,
 
     -- * ServerStatus
-    ServerStatus (..),
+    ServerStatus,
 
     -- * AccountAttribute
-    AccountAttribute (..),
+    AccountAttribute,
     newAccountAttribute,
     accountAttribute_maximum,
     accountAttribute_name,
     accountAttribute_used,
 
     -- * Backup
-    Backup (..),
+    Backup,
     newBackup,
     backup_backupArn,
     backup_backupId,
@@ -76,13 +77,13 @@ module Amazonka.OpsWorksCM.Types
     backup_userArn,
 
     -- * EngineAttribute
-    EngineAttribute (..),
+    EngineAttribute,
     newEngineAttribute,
     engineAttribute_name,
     engineAttribute_value,
 
     -- * Server
-    Server (..),
+    Server,
     newServer,
     server_associatePublicIpAddress,
     server_backupRetentionCount,
@@ -110,7 +111,7 @@ module Amazonka.OpsWorksCM.Types
     server_subnetIds,
 
     -- * ServerEvent
-    ServerEvent (..),
+    ServerEvent,
     newServerEvent,
     serverEvent_createdAt,
     serverEvent_logUrl,
@@ -118,7 +119,7 @@ module Amazonka.OpsWorksCM.Types
     serverEvent_serverName,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,

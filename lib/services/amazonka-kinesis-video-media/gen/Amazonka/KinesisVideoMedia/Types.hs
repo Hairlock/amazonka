@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -26,10 +27,10 @@ module Amazonka.KinesisVideoMedia.Types
     _ResourceNotFoundException,
 
     -- * StartSelectorType
-    StartSelectorType (..),
+    StartSelectorType,
 
     -- * StartSelector
-    StartSelector (..),
+    StartSelector,
     newStartSelector,
     startSelector_afterFragmentNumber,
     startSelector_continuationToken,

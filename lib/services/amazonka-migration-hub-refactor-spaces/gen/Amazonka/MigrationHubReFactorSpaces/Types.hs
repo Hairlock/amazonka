@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -28,46 +29,46 @@ module Amazonka.MigrationHubReFactorSpaces.Types
     _ValidationException,
 
     -- * ApiGatewayEndpointType
-    ApiGatewayEndpointType (..),
+    ApiGatewayEndpointType,
 
     -- * ApplicationState
-    ApplicationState (..),
+    ApplicationState,
 
     -- * EnvironmentState
-    EnvironmentState (..),
+    EnvironmentState,
 
     -- * ErrorCode
-    ErrorCode (..),
+    ErrorCode,
 
     -- * ErrorResourceType
-    ErrorResourceType (..),
+    ErrorResourceType,
 
     -- * HttpMethod
-    HttpMethod (..),
+    HttpMethod,
 
     -- * NetworkFabricType
-    NetworkFabricType (..),
+    NetworkFabricType,
 
     -- * ProxyType
-    ProxyType (..),
+    ProxyType,
 
     -- * RouteActivationState
-    RouteActivationState (..),
+    RouteActivationState,
 
     -- * RouteState
-    RouteState (..),
+    RouteState,
 
     -- * RouteType
-    RouteType (..),
+    RouteType,
 
     -- * ServiceEndpointType
-    ServiceEndpointType (..),
+    ServiceEndpointType,
 
     -- * ServiceState
-    ServiceState (..),
+    ServiceState,
 
     -- * ApiGatewayProxyConfig
-    ApiGatewayProxyConfig (..),
+    ApiGatewayProxyConfig,
     newApiGatewayProxyConfig,
     apiGatewayProxyConfig_apiGatewayId,
     apiGatewayProxyConfig_endpointType,
@@ -78,13 +79,13 @@ module Amazonka.MigrationHubReFactorSpaces.Types
     apiGatewayProxyConfig_vpcLinkId,
 
     -- * ApiGatewayProxyInput
-    ApiGatewayProxyInput (..),
+    ApiGatewayProxyInput,
     newApiGatewayProxyInput,
     apiGatewayProxyInput_endpointType,
     apiGatewayProxyInput_stageName,
 
     -- * ApiGatewayProxySummary
-    ApiGatewayProxySummary (..),
+    ApiGatewayProxySummary,
     newApiGatewayProxySummary,
     apiGatewayProxySummary_apiGatewayId,
     apiGatewayProxySummary_endpointType,
@@ -95,7 +96,7 @@ module Amazonka.MigrationHubReFactorSpaces.Types
     apiGatewayProxySummary_vpcLinkId,
 
     -- * ApplicationSummary
-    ApplicationSummary (..),
+    ApplicationSummary,
     newApplicationSummary,
     applicationSummary_apiGatewayProxy,
     applicationSummary_applicationId,
@@ -113,12 +114,12 @@ module Amazonka.MigrationHubReFactorSpaces.Types
     applicationSummary_vpcId,
 
     -- * DefaultRouteInput
-    DefaultRouteInput (..),
+    DefaultRouteInput,
     newDefaultRouteInput,
     defaultRouteInput_activationState,
 
     -- * EnvironmentSummary
-    EnvironmentSummary (..),
+    EnvironmentSummary,
     newEnvironmentSummary,
     environmentSummary_arn,
     environmentSummary_createdTime,
@@ -134,7 +135,7 @@ module Amazonka.MigrationHubReFactorSpaces.Types
     environmentSummary_transitGatewayId,
 
     -- * EnvironmentVpc
-    EnvironmentVpc (..),
+    EnvironmentVpc,
     newEnvironmentVpc,
     environmentVpc_accountId,
     environmentVpc_cidrBlocks,
@@ -145,7 +146,7 @@ module Amazonka.MigrationHubReFactorSpaces.Types
     environmentVpc_vpcName,
 
     -- * ErrorResponse
-    ErrorResponse (..),
+    ErrorResponse,
     newErrorResponse,
     errorResponse_accountId,
     errorResponse_additionalDetails,
@@ -155,22 +156,22 @@ module Amazonka.MigrationHubReFactorSpaces.Types
     errorResponse_resourceType,
 
     -- * LambdaEndpointConfig
-    LambdaEndpointConfig (..),
+    LambdaEndpointConfig,
     newLambdaEndpointConfig,
     lambdaEndpointConfig_arn,
 
     -- * LambdaEndpointInput
-    LambdaEndpointInput (..),
+    LambdaEndpointInput,
     newLambdaEndpointInput,
     lambdaEndpointInput_arn,
 
     -- * LambdaEndpointSummary
-    LambdaEndpointSummary (..),
+    LambdaEndpointSummary,
     newLambdaEndpointSummary,
     lambdaEndpointSummary_arn,
 
     -- * RouteSummary
-    RouteSummary (..),
+    RouteSummary,
     newRouteSummary,
     routeSummary_applicationId,
     routeSummary_arn,
@@ -191,7 +192,7 @@ module Amazonka.MigrationHubReFactorSpaces.Types
     routeSummary_tags,
 
     -- * ServiceSummary
-    ServiceSummary (..),
+    ServiceSummary,
     newServiceSummary,
     serviceSummary_applicationId,
     serviceSummary_arn,
@@ -212,7 +213,7 @@ module Amazonka.MigrationHubReFactorSpaces.Types
     serviceSummary_vpcId,
 
     -- * UriPathRouteInput
-    UriPathRouteInput (..),
+    UriPathRouteInput,
     newUriPathRouteInput,
     uriPathRouteInput_includeChildPaths,
     uriPathRouteInput_methods,
@@ -220,19 +221,19 @@ module Amazonka.MigrationHubReFactorSpaces.Types
     uriPathRouteInput_sourcePath,
 
     -- * UrlEndpointConfig
-    UrlEndpointConfig (..),
+    UrlEndpointConfig,
     newUrlEndpointConfig,
     urlEndpointConfig_healthUrl,
     urlEndpointConfig_url,
 
     -- * UrlEndpointInput
-    UrlEndpointInput (..),
+    UrlEndpointInput,
     newUrlEndpointInput,
     urlEndpointInput_healthUrl,
     urlEndpointInput_url,
 
     -- * UrlEndpointSummary
-    UrlEndpointSummary (..),
+    UrlEndpointSummary,
     newUrlEndpointSummary,
     urlEndpointSummary_healthUrl,
     urlEndpointSummary_url,

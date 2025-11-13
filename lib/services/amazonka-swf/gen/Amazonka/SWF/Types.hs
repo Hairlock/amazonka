@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -30,91 +31,91 @@ module Amazonka.SWF.Types
     _WorkflowExecutionAlreadyStartedFault,
 
     -- * ActivityTaskTimeoutType
-    ActivityTaskTimeoutType (..),
+    ActivityTaskTimeoutType,
 
     -- * CancelTimerFailedCause
-    CancelTimerFailedCause (..),
+    CancelTimerFailedCause,
 
     -- * CancelWorkflowExecutionFailedCause
-    CancelWorkflowExecutionFailedCause (..),
+    CancelWorkflowExecutionFailedCause,
 
     -- * ChildPolicy
-    ChildPolicy (..),
+    ChildPolicy,
 
     -- * CloseStatus
-    CloseStatus (..),
+    CloseStatus,
 
     -- * CompleteWorkflowExecutionFailedCause
-    CompleteWorkflowExecutionFailedCause (..),
+    CompleteWorkflowExecutionFailedCause,
 
     -- * ContinueAsNewWorkflowExecutionFailedCause
-    ContinueAsNewWorkflowExecutionFailedCause (..),
+    ContinueAsNewWorkflowExecutionFailedCause,
 
     -- * DecisionTaskTimeoutType
-    DecisionTaskTimeoutType (..),
+    DecisionTaskTimeoutType,
 
     -- * DecisionType
-    DecisionType (..),
+    DecisionType,
 
     -- * EventType
-    EventType (..),
+    EventType,
 
     -- * ExecutionStatus
-    ExecutionStatus (..),
+    ExecutionStatus,
 
     -- * FailWorkflowExecutionFailedCause
-    FailWorkflowExecutionFailedCause (..),
+    FailWorkflowExecutionFailedCause,
 
     -- * LambdaFunctionTimeoutType
-    LambdaFunctionTimeoutType (..),
+    LambdaFunctionTimeoutType,
 
     -- * RecordMarkerFailedCause
-    RecordMarkerFailedCause (..),
+    RecordMarkerFailedCause,
 
     -- * RegistrationStatus
-    RegistrationStatus (..),
+    RegistrationStatus,
 
     -- * RequestCancelActivityTaskFailedCause
-    RequestCancelActivityTaskFailedCause (..),
+    RequestCancelActivityTaskFailedCause,
 
     -- * RequestCancelExternalWorkflowExecutionFailedCause
-    RequestCancelExternalWorkflowExecutionFailedCause (..),
+    RequestCancelExternalWorkflowExecutionFailedCause,
 
     -- * ScheduleActivityTaskFailedCause
-    ScheduleActivityTaskFailedCause (..),
+    ScheduleActivityTaskFailedCause,
 
     -- * ScheduleLambdaFunctionFailedCause
-    ScheduleLambdaFunctionFailedCause (..),
+    ScheduleLambdaFunctionFailedCause,
 
     -- * SignalExternalWorkflowExecutionFailedCause
-    SignalExternalWorkflowExecutionFailedCause (..),
+    SignalExternalWorkflowExecutionFailedCause,
 
     -- * StartChildWorkflowExecutionFailedCause
-    StartChildWorkflowExecutionFailedCause (..),
+    StartChildWorkflowExecutionFailedCause,
 
     -- * StartLambdaFunctionFailedCause
-    StartLambdaFunctionFailedCause (..),
+    StartLambdaFunctionFailedCause,
 
     -- * StartTimerFailedCause
-    StartTimerFailedCause (..),
+    StartTimerFailedCause,
 
     -- * WorkflowExecutionCancelRequestedCause
-    WorkflowExecutionCancelRequestedCause (..),
+    WorkflowExecutionCancelRequestedCause,
 
     -- * WorkflowExecutionTerminatedCause
-    WorkflowExecutionTerminatedCause (..),
+    WorkflowExecutionTerminatedCause,
 
     -- * WorkflowExecutionTimeoutType
-    WorkflowExecutionTimeoutType (..),
+    WorkflowExecutionTimeoutType,
 
     -- * ActivityTaskCancelRequestedEventAttributes
-    ActivityTaskCancelRequestedEventAttributes (..),
+    ActivityTaskCancelRequestedEventAttributes,
     newActivityTaskCancelRequestedEventAttributes,
     activityTaskCancelRequestedEventAttributes_decisionTaskCompletedEventId,
     activityTaskCancelRequestedEventAttributes_activityId,
 
     -- * ActivityTaskCanceledEventAttributes
-    ActivityTaskCanceledEventAttributes (..),
+    ActivityTaskCanceledEventAttributes,
     newActivityTaskCanceledEventAttributes,
     activityTaskCanceledEventAttributes_details,
     activityTaskCanceledEventAttributes_latestCancelRequestedEventId,
@@ -122,14 +123,14 @@ module Amazonka.SWF.Types
     activityTaskCanceledEventAttributes_startedEventId,
 
     -- * ActivityTaskCompletedEventAttributes
-    ActivityTaskCompletedEventAttributes (..),
+    ActivityTaskCompletedEventAttributes,
     newActivityTaskCompletedEventAttributes,
     activityTaskCompletedEventAttributes_result,
     activityTaskCompletedEventAttributes_scheduledEventId,
     activityTaskCompletedEventAttributes_startedEventId,
 
     -- * ActivityTaskFailedEventAttributes
-    ActivityTaskFailedEventAttributes (..),
+    ActivityTaskFailedEventAttributes,
     newActivityTaskFailedEventAttributes,
     activityTaskFailedEventAttributes_details,
     activityTaskFailedEventAttributes_reason,
@@ -137,7 +138,7 @@ module Amazonka.SWF.Types
     activityTaskFailedEventAttributes_startedEventId,
 
     -- * ActivityTaskScheduledEventAttributes
-    ActivityTaskScheduledEventAttributes (..),
+    ActivityTaskScheduledEventAttributes,
     newActivityTaskScheduledEventAttributes,
     activityTaskScheduledEventAttributes_control,
     activityTaskScheduledEventAttributes_heartbeatTimeout,
@@ -152,13 +153,13 @@ module Amazonka.SWF.Types
     activityTaskScheduledEventAttributes_decisionTaskCompletedEventId,
 
     -- * ActivityTaskStartedEventAttributes
-    ActivityTaskStartedEventAttributes (..),
+    ActivityTaskStartedEventAttributes,
     newActivityTaskStartedEventAttributes,
     activityTaskStartedEventAttributes_identity,
     activityTaskStartedEventAttributes_scheduledEventId,
 
     -- * ActivityTaskTimedOutEventAttributes
-    ActivityTaskTimedOutEventAttributes (..),
+    ActivityTaskTimedOutEventAttributes,
     newActivityTaskTimedOutEventAttributes,
     activityTaskTimedOutEventAttributes_details,
     activityTaskTimedOutEventAttributes_timeoutType,
@@ -166,13 +167,13 @@ module Amazonka.SWF.Types
     activityTaskTimedOutEventAttributes_startedEventId,
 
     -- * ActivityType
-    ActivityType (..),
+    ActivityType,
     newActivityType,
     activityType_name,
     activityType_version,
 
     -- * ActivityTypeConfiguration
-    ActivityTypeConfiguration (..),
+    ActivityTypeConfiguration,
     newActivityTypeConfiguration,
     activityTypeConfiguration_defaultTaskHeartbeatTimeout,
     activityTypeConfiguration_defaultTaskList,
@@ -182,7 +183,7 @@ module Amazonka.SWF.Types
     activityTypeConfiguration_defaultTaskStartToCloseTimeout,
 
     -- * ActivityTypeInfo
-    ActivityTypeInfo (..),
+    ActivityTypeInfo,
     newActivityTypeInfo,
     activityTypeInfo_deprecationDate,
     activityTypeInfo_description,
@@ -191,30 +192,30 @@ module Amazonka.SWF.Types
     activityTypeInfo_creationDate,
 
     -- * CancelTimerDecisionAttributes
-    CancelTimerDecisionAttributes (..),
+    CancelTimerDecisionAttributes,
     newCancelTimerDecisionAttributes,
     cancelTimerDecisionAttributes_timerId,
 
     -- * CancelTimerFailedEventAttributes
-    CancelTimerFailedEventAttributes (..),
+    CancelTimerFailedEventAttributes,
     newCancelTimerFailedEventAttributes,
     cancelTimerFailedEventAttributes_timerId,
     cancelTimerFailedEventAttributes_cause,
     cancelTimerFailedEventAttributes_decisionTaskCompletedEventId,
 
     -- * CancelWorkflowExecutionDecisionAttributes
-    CancelWorkflowExecutionDecisionAttributes (..),
+    CancelWorkflowExecutionDecisionAttributes,
     newCancelWorkflowExecutionDecisionAttributes,
     cancelWorkflowExecutionDecisionAttributes_details,
 
     -- * CancelWorkflowExecutionFailedEventAttributes
-    CancelWorkflowExecutionFailedEventAttributes (..),
+    CancelWorkflowExecutionFailedEventAttributes,
     newCancelWorkflowExecutionFailedEventAttributes,
     cancelWorkflowExecutionFailedEventAttributes_cause,
     cancelWorkflowExecutionFailedEventAttributes_decisionTaskCompletedEventId,
 
     -- * ChildWorkflowExecutionCanceledEventAttributes
-    ChildWorkflowExecutionCanceledEventAttributes (..),
+    ChildWorkflowExecutionCanceledEventAttributes,
     newChildWorkflowExecutionCanceledEventAttributes,
     childWorkflowExecutionCanceledEventAttributes_details,
     childWorkflowExecutionCanceledEventAttributes_workflowExecution,
@@ -223,7 +224,7 @@ module Amazonka.SWF.Types
     childWorkflowExecutionCanceledEventAttributes_startedEventId,
 
     -- * ChildWorkflowExecutionCompletedEventAttributes
-    ChildWorkflowExecutionCompletedEventAttributes (..),
+    ChildWorkflowExecutionCompletedEventAttributes,
     newChildWorkflowExecutionCompletedEventAttributes,
     childWorkflowExecutionCompletedEventAttributes_result,
     childWorkflowExecutionCompletedEventAttributes_workflowExecution,
@@ -232,7 +233,7 @@ module Amazonka.SWF.Types
     childWorkflowExecutionCompletedEventAttributes_startedEventId,
 
     -- * ChildWorkflowExecutionFailedEventAttributes
-    ChildWorkflowExecutionFailedEventAttributes (..),
+    ChildWorkflowExecutionFailedEventAttributes,
     newChildWorkflowExecutionFailedEventAttributes,
     childWorkflowExecutionFailedEventAttributes_details,
     childWorkflowExecutionFailedEventAttributes_reason,
@@ -242,14 +243,14 @@ module Amazonka.SWF.Types
     childWorkflowExecutionFailedEventAttributes_startedEventId,
 
     -- * ChildWorkflowExecutionStartedEventAttributes
-    ChildWorkflowExecutionStartedEventAttributes (..),
+    ChildWorkflowExecutionStartedEventAttributes,
     newChildWorkflowExecutionStartedEventAttributes,
     childWorkflowExecutionStartedEventAttributes_workflowExecution,
     childWorkflowExecutionStartedEventAttributes_workflowType,
     childWorkflowExecutionStartedEventAttributes_initiatedEventId,
 
     -- * ChildWorkflowExecutionTerminatedEventAttributes
-    ChildWorkflowExecutionTerminatedEventAttributes (..),
+    ChildWorkflowExecutionTerminatedEventAttributes,
     newChildWorkflowExecutionTerminatedEventAttributes,
     childWorkflowExecutionTerminatedEventAttributes_workflowExecution,
     childWorkflowExecutionTerminatedEventAttributes_workflowType,
@@ -257,7 +258,7 @@ module Amazonka.SWF.Types
     childWorkflowExecutionTerminatedEventAttributes_startedEventId,
 
     -- * ChildWorkflowExecutionTimedOutEventAttributes
-    ChildWorkflowExecutionTimedOutEventAttributes (..),
+    ChildWorkflowExecutionTimedOutEventAttributes,
     newChildWorkflowExecutionTimedOutEventAttributes,
     childWorkflowExecutionTimedOutEventAttributes_workflowExecution,
     childWorkflowExecutionTimedOutEventAttributes_workflowType,
@@ -266,23 +267,23 @@ module Amazonka.SWF.Types
     childWorkflowExecutionTimedOutEventAttributes_startedEventId,
 
     -- * CloseStatusFilter
-    CloseStatusFilter (..),
+    CloseStatusFilter,
     newCloseStatusFilter,
     closeStatusFilter_status,
 
     -- * CompleteWorkflowExecutionDecisionAttributes
-    CompleteWorkflowExecutionDecisionAttributes (..),
+    CompleteWorkflowExecutionDecisionAttributes,
     newCompleteWorkflowExecutionDecisionAttributes,
     completeWorkflowExecutionDecisionAttributes_result,
 
     -- * CompleteWorkflowExecutionFailedEventAttributes
-    CompleteWorkflowExecutionFailedEventAttributes (..),
+    CompleteWorkflowExecutionFailedEventAttributes,
     newCompleteWorkflowExecutionFailedEventAttributes,
     completeWorkflowExecutionFailedEventAttributes_cause,
     completeWorkflowExecutionFailedEventAttributes_decisionTaskCompletedEventId,
 
     -- * ContinueAsNewWorkflowExecutionDecisionAttributes
-    ContinueAsNewWorkflowExecutionDecisionAttributes (..),
+    ContinueAsNewWorkflowExecutionDecisionAttributes,
     newContinueAsNewWorkflowExecutionDecisionAttributes,
     continueAsNewWorkflowExecutionDecisionAttributes_childPolicy,
     continueAsNewWorkflowExecutionDecisionAttributes_executionStartToCloseTimeout,
@@ -295,13 +296,13 @@ module Amazonka.SWF.Types
     continueAsNewWorkflowExecutionDecisionAttributes_workflowTypeVersion,
 
     -- * ContinueAsNewWorkflowExecutionFailedEventAttributes
-    ContinueAsNewWorkflowExecutionFailedEventAttributes (..),
+    ContinueAsNewWorkflowExecutionFailedEventAttributes,
     newContinueAsNewWorkflowExecutionFailedEventAttributes,
     continueAsNewWorkflowExecutionFailedEventAttributes_cause,
     continueAsNewWorkflowExecutionFailedEventAttributes_decisionTaskCompletedEventId,
 
     -- * Decision
-    Decision (..),
+    Decision,
     newDecision,
     decision_cancelTimerDecisionAttributes,
     decision_cancelWorkflowExecutionDecisionAttributes,
@@ -319,39 +320,39 @@ module Amazonka.SWF.Types
     decision_decisionType,
 
     -- * DecisionTaskCompletedEventAttributes
-    DecisionTaskCompletedEventAttributes (..),
+    DecisionTaskCompletedEventAttributes,
     newDecisionTaskCompletedEventAttributes,
     decisionTaskCompletedEventAttributes_executionContext,
     decisionTaskCompletedEventAttributes_scheduledEventId,
     decisionTaskCompletedEventAttributes_startedEventId,
 
     -- * DecisionTaskScheduledEventAttributes
-    DecisionTaskScheduledEventAttributes (..),
+    DecisionTaskScheduledEventAttributes,
     newDecisionTaskScheduledEventAttributes,
     decisionTaskScheduledEventAttributes_startToCloseTimeout,
     decisionTaskScheduledEventAttributes_taskPriority,
     decisionTaskScheduledEventAttributes_taskList,
 
     -- * DecisionTaskStartedEventAttributes
-    DecisionTaskStartedEventAttributes (..),
+    DecisionTaskStartedEventAttributes,
     newDecisionTaskStartedEventAttributes,
     decisionTaskStartedEventAttributes_identity,
     decisionTaskStartedEventAttributes_scheduledEventId,
 
     -- * DecisionTaskTimedOutEventAttributes
-    DecisionTaskTimedOutEventAttributes (..),
+    DecisionTaskTimedOutEventAttributes,
     newDecisionTaskTimedOutEventAttributes,
     decisionTaskTimedOutEventAttributes_timeoutType,
     decisionTaskTimedOutEventAttributes_scheduledEventId,
     decisionTaskTimedOutEventAttributes_startedEventId,
 
     -- * DomainConfiguration
-    DomainConfiguration (..),
+    DomainConfiguration,
     newDomainConfiguration,
     domainConfiguration_workflowExecutionRetentionPeriodInDays,
 
     -- * DomainInfo
-    DomainInfo (..),
+    DomainInfo,
     newDomainInfo,
     domainInfo_arn,
     domainInfo_description,
@@ -359,37 +360,37 @@ module Amazonka.SWF.Types
     domainInfo_status,
 
     -- * ExecutionTimeFilter
-    ExecutionTimeFilter (..),
+    ExecutionTimeFilter,
     newExecutionTimeFilter,
     executionTimeFilter_latestDate,
     executionTimeFilter_oldestDate,
 
     -- * ExternalWorkflowExecutionCancelRequestedEventAttributes
-    ExternalWorkflowExecutionCancelRequestedEventAttributes (..),
+    ExternalWorkflowExecutionCancelRequestedEventAttributes,
     newExternalWorkflowExecutionCancelRequestedEventAttributes,
     externalWorkflowExecutionCancelRequestedEventAttributes_workflowExecution,
     externalWorkflowExecutionCancelRequestedEventAttributes_initiatedEventId,
 
     -- * ExternalWorkflowExecutionSignaledEventAttributes
-    ExternalWorkflowExecutionSignaledEventAttributes (..),
+    ExternalWorkflowExecutionSignaledEventAttributes,
     newExternalWorkflowExecutionSignaledEventAttributes,
     externalWorkflowExecutionSignaledEventAttributes_workflowExecution,
     externalWorkflowExecutionSignaledEventAttributes_initiatedEventId,
 
     -- * FailWorkflowExecutionDecisionAttributes
-    FailWorkflowExecutionDecisionAttributes (..),
+    FailWorkflowExecutionDecisionAttributes,
     newFailWorkflowExecutionDecisionAttributes,
     failWorkflowExecutionDecisionAttributes_details,
     failWorkflowExecutionDecisionAttributes_reason,
 
     -- * FailWorkflowExecutionFailedEventAttributes
-    FailWorkflowExecutionFailedEventAttributes (..),
+    FailWorkflowExecutionFailedEventAttributes,
     newFailWorkflowExecutionFailedEventAttributes,
     failWorkflowExecutionFailedEventAttributes_cause,
     failWorkflowExecutionFailedEventAttributes_decisionTaskCompletedEventId,
 
     -- * HistoryEvent
-    HistoryEvent (..),
+    HistoryEvent,
     newHistoryEvent,
     historyEvent_activityTaskCancelRequestedEventAttributes,
     historyEvent_activityTaskCanceledEventAttributes,
@@ -450,14 +451,14 @@ module Amazonka.SWF.Types
     historyEvent_eventId,
 
     -- * LambdaFunctionCompletedEventAttributes
-    LambdaFunctionCompletedEventAttributes (..),
+    LambdaFunctionCompletedEventAttributes,
     newLambdaFunctionCompletedEventAttributes,
     lambdaFunctionCompletedEventAttributes_result,
     lambdaFunctionCompletedEventAttributes_scheduledEventId,
     lambdaFunctionCompletedEventAttributes_startedEventId,
 
     -- * LambdaFunctionFailedEventAttributes
-    LambdaFunctionFailedEventAttributes (..),
+    LambdaFunctionFailedEventAttributes,
     newLambdaFunctionFailedEventAttributes,
     lambdaFunctionFailedEventAttributes_details,
     lambdaFunctionFailedEventAttributes_reason,
@@ -465,7 +466,7 @@ module Amazonka.SWF.Types
     lambdaFunctionFailedEventAttributes_startedEventId,
 
     -- * LambdaFunctionScheduledEventAttributes
-    LambdaFunctionScheduledEventAttributes (..),
+    LambdaFunctionScheduledEventAttributes,
     newLambdaFunctionScheduledEventAttributes,
     lambdaFunctionScheduledEventAttributes_control,
     lambdaFunctionScheduledEventAttributes_input,
@@ -475,64 +476,64 @@ module Amazonka.SWF.Types
     lambdaFunctionScheduledEventAttributes_decisionTaskCompletedEventId,
 
     -- * LambdaFunctionStartedEventAttributes
-    LambdaFunctionStartedEventAttributes (..),
+    LambdaFunctionStartedEventAttributes,
     newLambdaFunctionStartedEventAttributes,
     lambdaFunctionStartedEventAttributes_scheduledEventId,
 
     -- * LambdaFunctionTimedOutEventAttributes
-    LambdaFunctionTimedOutEventAttributes (..),
+    LambdaFunctionTimedOutEventAttributes,
     newLambdaFunctionTimedOutEventAttributes,
     lambdaFunctionTimedOutEventAttributes_timeoutType,
     lambdaFunctionTimedOutEventAttributes_scheduledEventId,
     lambdaFunctionTimedOutEventAttributes_startedEventId,
 
     -- * MarkerRecordedEventAttributes
-    MarkerRecordedEventAttributes (..),
+    MarkerRecordedEventAttributes,
     newMarkerRecordedEventAttributes,
     markerRecordedEventAttributes_details,
     markerRecordedEventAttributes_markerName,
     markerRecordedEventAttributes_decisionTaskCompletedEventId,
 
     -- * PendingTaskCount
-    PendingTaskCount (..),
+    PendingTaskCount,
     newPendingTaskCount,
     pendingTaskCount_truncated,
     pendingTaskCount_count,
 
     -- * RecordMarkerDecisionAttributes
-    RecordMarkerDecisionAttributes (..),
+    RecordMarkerDecisionAttributes,
     newRecordMarkerDecisionAttributes,
     recordMarkerDecisionAttributes_details,
     recordMarkerDecisionAttributes_markerName,
 
     -- * RecordMarkerFailedEventAttributes
-    RecordMarkerFailedEventAttributes (..),
+    RecordMarkerFailedEventAttributes,
     newRecordMarkerFailedEventAttributes,
     recordMarkerFailedEventAttributes_markerName,
     recordMarkerFailedEventAttributes_cause,
     recordMarkerFailedEventAttributes_decisionTaskCompletedEventId,
 
     -- * RequestCancelActivityTaskDecisionAttributes
-    RequestCancelActivityTaskDecisionAttributes (..),
+    RequestCancelActivityTaskDecisionAttributes,
     newRequestCancelActivityTaskDecisionAttributes,
     requestCancelActivityTaskDecisionAttributes_activityId,
 
     -- * RequestCancelActivityTaskFailedEventAttributes
-    RequestCancelActivityTaskFailedEventAttributes (..),
+    RequestCancelActivityTaskFailedEventAttributes,
     newRequestCancelActivityTaskFailedEventAttributes,
     requestCancelActivityTaskFailedEventAttributes_activityId,
     requestCancelActivityTaskFailedEventAttributes_cause,
     requestCancelActivityTaskFailedEventAttributes_decisionTaskCompletedEventId,
 
     -- * RequestCancelExternalWorkflowExecutionDecisionAttributes
-    RequestCancelExternalWorkflowExecutionDecisionAttributes (..),
+    RequestCancelExternalWorkflowExecutionDecisionAttributes,
     newRequestCancelExternalWorkflowExecutionDecisionAttributes,
     requestCancelExternalWorkflowExecutionDecisionAttributes_control,
     requestCancelExternalWorkflowExecutionDecisionAttributes_runId,
     requestCancelExternalWorkflowExecutionDecisionAttributes_workflowId,
 
     -- * RequestCancelExternalWorkflowExecutionFailedEventAttributes
-    RequestCancelExternalWorkflowExecutionFailedEventAttributes (..),
+    RequestCancelExternalWorkflowExecutionFailedEventAttributes,
     newRequestCancelExternalWorkflowExecutionFailedEventAttributes,
     requestCancelExternalWorkflowExecutionFailedEventAttributes_control,
     requestCancelExternalWorkflowExecutionFailedEventAttributes_runId,
@@ -542,7 +543,7 @@ module Amazonka.SWF.Types
     requestCancelExternalWorkflowExecutionFailedEventAttributes_decisionTaskCompletedEventId,
 
     -- * RequestCancelExternalWorkflowExecutionInitiatedEventAttributes
-    RequestCancelExternalWorkflowExecutionInitiatedEventAttributes (..),
+    RequestCancelExternalWorkflowExecutionInitiatedEventAttributes,
     newRequestCancelExternalWorkflowExecutionInitiatedEventAttributes,
     requestCancelExternalWorkflowExecutionInitiatedEventAttributes_control,
     requestCancelExternalWorkflowExecutionInitiatedEventAttributes_runId,
@@ -550,13 +551,13 @@ module Amazonka.SWF.Types
     requestCancelExternalWorkflowExecutionInitiatedEventAttributes_decisionTaskCompletedEventId,
 
     -- * ResourceTag
-    ResourceTag (..),
+    ResourceTag,
     newResourceTag,
     resourceTag_value,
     resourceTag_key,
 
     -- * ScheduleActivityTaskDecisionAttributes
-    ScheduleActivityTaskDecisionAttributes (..),
+    ScheduleActivityTaskDecisionAttributes,
     newScheduleActivityTaskDecisionAttributes,
     scheduleActivityTaskDecisionAttributes_control,
     scheduleActivityTaskDecisionAttributes_heartbeatTimeout,
@@ -570,7 +571,7 @@ module Amazonka.SWF.Types
     scheduleActivityTaskDecisionAttributes_activityId,
 
     -- * ScheduleActivityTaskFailedEventAttributes
-    ScheduleActivityTaskFailedEventAttributes (..),
+    ScheduleActivityTaskFailedEventAttributes,
     newScheduleActivityTaskFailedEventAttributes,
     scheduleActivityTaskFailedEventAttributes_activityType,
     scheduleActivityTaskFailedEventAttributes_activityId,
@@ -578,7 +579,7 @@ module Amazonka.SWF.Types
     scheduleActivityTaskFailedEventAttributes_decisionTaskCompletedEventId,
 
     -- * ScheduleLambdaFunctionDecisionAttributes
-    ScheduleLambdaFunctionDecisionAttributes (..),
+    ScheduleLambdaFunctionDecisionAttributes,
     newScheduleLambdaFunctionDecisionAttributes,
     scheduleLambdaFunctionDecisionAttributes_control,
     scheduleLambdaFunctionDecisionAttributes_input,
@@ -587,7 +588,7 @@ module Amazonka.SWF.Types
     scheduleLambdaFunctionDecisionAttributes_name,
 
     -- * ScheduleLambdaFunctionFailedEventAttributes
-    ScheduleLambdaFunctionFailedEventAttributes (..),
+    ScheduleLambdaFunctionFailedEventAttributes,
     newScheduleLambdaFunctionFailedEventAttributes,
     scheduleLambdaFunctionFailedEventAttributes_id,
     scheduleLambdaFunctionFailedEventAttributes_name,
@@ -595,7 +596,7 @@ module Amazonka.SWF.Types
     scheduleLambdaFunctionFailedEventAttributes_decisionTaskCompletedEventId,
 
     -- * SignalExternalWorkflowExecutionDecisionAttributes
-    SignalExternalWorkflowExecutionDecisionAttributes (..),
+    SignalExternalWorkflowExecutionDecisionAttributes,
     newSignalExternalWorkflowExecutionDecisionAttributes,
     signalExternalWorkflowExecutionDecisionAttributes_control,
     signalExternalWorkflowExecutionDecisionAttributes_input,
@@ -604,7 +605,7 @@ module Amazonka.SWF.Types
     signalExternalWorkflowExecutionDecisionAttributes_signalName,
 
     -- * SignalExternalWorkflowExecutionFailedEventAttributes
-    SignalExternalWorkflowExecutionFailedEventAttributes (..),
+    SignalExternalWorkflowExecutionFailedEventAttributes,
     newSignalExternalWorkflowExecutionFailedEventAttributes,
     signalExternalWorkflowExecutionFailedEventAttributes_control,
     signalExternalWorkflowExecutionFailedEventAttributes_runId,
@@ -614,7 +615,7 @@ module Amazonka.SWF.Types
     signalExternalWorkflowExecutionFailedEventAttributes_decisionTaskCompletedEventId,
 
     -- * SignalExternalWorkflowExecutionInitiatedEventAttributes
-    SignalExternalWorkflowExecutionInitiatedEventAttributes (..),
+    SignalExternalWorkflowExecutionInitiatedEventAttributes,
     newSignalExternalWorkflowExecutionInitiatedEventAttributes,
     signalExternalWorkflowExecutionInitiatedEventAttributes_control,
     signalExternalWorkflowExecutionInitiatedEventAttributes_input,
@@ -624,7 +625,7 @@ module Amazonka.SWF.Types
     signalExternalWorkflowExecutionInitiatedEventAttributes_decisionTaskCompletedEventId,
 
     -- * StartChildWorkflowExecutionDecisionAttributes
-    StartChildWorkflowExecutionDecisionAttributes (..),
+    StartChildWorkflowExecutionDecisionAttributes,
     newStartChildWorkflowExecutionDecisionAttributes,
     startChildWorkflowExecutionDecisionAttributes_childPolicy,
     startChildWorkflowExecutionDecisionAttributes_control,
@@ -639,7 +640,7 @@ module Amazonka.SWF.Types
     startChildWorkflowExecutionDecisionAttributes_workflowId,
 
     -- * StartChildWorkflowExecutionFailedEventAttributes
-    StartChildWorkflowExecutionFailedEventAttributes (..),
+    StartChildWorkflowExecutionFailedEventAttributes,
     newStartChildWorkflowExecutionFailedEventAttributes,
     startChildWorkflowExecutionFailedEventAttributes_control,
     startChildWorkflowExecutionFailedEventAttributes_workflowType,
@@ -649,7 +650,7 @@ module Amazonka.SWF.Types
     startChildWorkflowExecutionFailedEventAttributes_decisionTaskCompletedEventId,
 
     -- * StartChildWorkflowExecutionInitiatedEventAttributes
-    StartChildWorkflowExecutionInitiatedEventAttributes (..),
+    StartChildWorkflowExecutionInitiatedEventAttributes,
     newStartChildWorkflowExecutionInitiatedEventAttributes,
     startChildWorkflowExecutionInitiatedEventAttributes_control,
     startChildWorkflowExecutionInitiatedEventAttributes_executionStartToCloseTimeout,
@@ -665,51 +666,51 @@ module Amazonka.SWF.Types
     startChildWorkflowExecutionInitiatedEventAttributes_childPolicy,
 
     -- * StartLambdaFunctionFailedEventAttributes
-    StartLambdaFunctionFailedEventAttributes (..),
+    StartLambdaFunctionFailedEventAttributes,
     newStartLambdaFunctionFailedEventAttributes,
     startLambdaFunctionFailedEventAttributes_cause,
     startLambdaFunctionFailedEventAttributes_message,
     startLambdaFunctionFailedEventAttributes_scheduledEventId,
 
     -- * StartTimerDecisionAttributes
-    StartTimerDecisionAttributes (..),
+    StartTimerDecisionAttributes,
     newStartTimerDecisionAttributes,
     startTimerDecisionAttributes_control,
     startTimerDecisionAttributes_timerId,
     startTimerDecisionAttributes_startToFireTimeout,
 
     -- * StartTimerFailedEventAttributes
-    StartTimerFailedEventAttributes (..),
+    StartTimerFailedEventAttributes,
     newStartTimerFailedEventAttributes,
     startTimerFailedEventAttributes_timerId,
     startTimerFailedEventAttributes_cause,
     startTimerFailedEventAttributes_decisionTaskCompletedEventId,
 
     -- * TagFilter
-    TagFilter (..),
+    TagFilter,
     newTagFilter,
     tagFilter_tag,
 
     -- * TaskList
-    TaskList (..),
+    TaskList,
     newTaskList,
     taskList_name,
 
     -- * TimerCanceledEventAttributes
-    TimerCanceledEventAttributes (..),
+    TimerCanceledEventAttributes,
     newTimerCanceledEventAttributes,
     timerCanceledEventAttributes_timerId,
     timerCanceledEventAttributes_startedEventId,
     timerCanceledEventAttributes_decisionTaskCompletedEventId,
 
     -- * TimerFiredEventAttributes
-    TimerFiredEventAttributes (..),
+    TimerFiredEventAttributes,
     newTimerFiredEventAttributes,
     timerFiredEventAttributes_timerId,
     timerFiredEventAttributes_startedEventId,
 
     -- * TimerStartedEventAttributes
-    TimerStartedEventAttributes (..),
+    TimerStartedEventAttributes,
     newTimerStartedEventAttributes,
     timerStartedEventAttributes_control,
     timerStartedEventAttributes_timerId,
@@ -717,32 +718,32 @@ module Amazonka.SWF.Types
     timerStartedEventAttributes_decisionTaskCompletedEventId,
 
     -- * WorkflowExecution
-    WorkflowExecution (..),
+    WorkflowExecution,
     newWorkflowExecution,
     workflowExecution_workflowId,
     workflowExecution_runId,
 
     -- * WorkflowExecutionCancelRequestedEventAttributes
-    WorkflowExecutionCancelRequestedEventAttributes (..),
+    WorkflowExecutionCancelRequestedEventAttributes,
     newWorkflowExecutionCancelRequestedEventAttributes,
     workflowExecutionCancelRequestedEventAttributes_cause,
     workflowExecutionCancelRequestedEventAttributes_externalInitiatedEventId,
     workflowExecutionCancelRequestedEventAttributes_externalWorkflowExecution,
 
     -- * WorkflowExecutionCanceledEventAttributes
-    WorkflowExecutionCanceledEventAttributes (..),
+    WorkflowExecutionCanceledEventAttributes,
     newWorkflowExecutionCanceledEventAttributes,
     workflowExecutionCanceledEventAttributes_details,
     workflowExecutionCanceledEventAttributes_decisionTaskCompletedEventId,
 
     -- * WorkflowExecutionCompletedEventAttributes
-    WorkflowExecutionCompletedEventAttributes (..),
+    WorkflowExecutionCompletedEventAttributes,
     newWorkflowExecutionCompletedEventAttributes,
     workflowExecutionCompletedEventAttributes_result,
     workflowExecutionCompletedEventAttributes_decisionTaskCompletedEventId,
 
     -- * WorkflowExecutionConfiguration
-    WorkflowExecutionConfiguration (..),
+    WorkflowExecutionConfiguration,
     newWorkflowExecutionConfiguration,
     workflowExecutionConfiguration_lambdaRole,
     workflowExecutionConfiguration_taskPriority,
@@ -752,7 +753,7 @@ module Amazonka.SWF.Types
     workflowExecutionConfiguration_childPolicy,
 
     -- * WorkflowExecutionContinuedAsNewEventAttributes
-    WorkflowExecutionContinuedAsNewEventAttributes (..),
+    WorkflowExecutionContinuedAsNewEventAttributes,
     newWorkflowExecutionContinuedAsNewEventAttributes,
     workflowExecutionContinuedAsNewEventAttributes_executionStartToCloseTimeout,
     workflowExecutionContinuedAsNewEventAttributes_input,
@@ -767,25 +768,25 @@ module Amazonka.SWF.Types
     workflowExecutionContinuedAsNewEventAttributes_workflowType,
 
     -- * WorkflowExecutionCount
-    WorkflowExecutionCount (..),
+    WorkflowExecutionCount,
     newWorkflowExecutionCount,
     workflowExecutionCount_truncated,
     workflowExecutionCount_count,
 
     -- * WorkflowExecutionFailedEventAttributes
-    WorkflowExecutionFailedEventAttributes (..),
+    WorkflowExecutionFailedEventAttributes,
     newWorkflowExecutionFailedEventAttributes,
     workflowExecutionFailedEventAttributes_details,
     workflowExecutionFailedEventAttributes_reason,
     workflowExecutionFailedEventAttributes_decisionTaskCompletedEventId,
 
     -- * WorkflowExecutionFilter
-    WorkflowExecutionFilter (..),
+    WorkflowExecutionFilter,
     newWorkflowExecutionFilter,
     workflowExecutionFilter_workflowId,
 
     -- * WorkflowExecutionInfo
-    WorkflowExecutionInfo (..),
+    WorkflowExecutionInfo,
     newWorkflowExecutionInfo,
     workflowExecutionInfo_cancelRequested,
     workflowExecutionInfo_closeStatus,
@@ -798,13 +799,13 @@ module Amazonka.SWF.Types
     workflowExecutionInfo_executionStatus,
 
     -- * WorkflowExecutionInfos
-    WorkflowExecutionInfos (..),
+    WorkflowExecutionInfos,
     newWorkflowExecutionInfos,
     workflowExecutionInfos_nextPageToken,
     workflowExecutionInfos_executionInfos,
 
     -- * WorkflowExecutionOpenCounts
-    WorkflowExecutionOpenCounts (..),
+    WorkflowExecutionOpenCounts,
     newWorkflowExecutionOpenCounts,
     workflowExecutionOpenCounts_openLambdaFunctions,
     workflowExecutionOpenCounts_openActivityTasks,
@@ -813,7 +814,7 @@ module Amazonka.SWF.Types
     workflowExecutionOpenCounts_openChildWorkflowExecutions,
 
     -- * WorkflowExecutionSignaledEventAttributes
-    WorkflowExecutionSignaledEventAttributes (..),
+    WorkflowExecutionSignaledEventAttributes,
     newWorkflowExecutionSignaledEventAttributes,
     workflowExecutionSignaledEventAttributes_externalInitiatedEventId,
     workflowExecutionSignaledEventAttributes_externalWorkflowExecution,
@@ -821,7 +822,7 @@ module Amazonka.SWF.Types
     workflowExecutionSignaledEventAttributes_signalName,
 
     -- * WorkflowExecutionStartedEventAttributes
-    WorkflowExecutionStartedEventAttributes (..),
+    WorkflowExecutionStartedEventAttributes,
     newWorkflowExecutionStartedEventAttributes,
     workflowExecutionStartedEventAttributes_continuedExecutionRunId,
     workflowExecutionStartedEventAttributes_executionStartToCloseTimeout,
@@ -837,7 +838,7 @@ module Amazonka.SWF.Types
     workflowExecutionStartedEventAttributes_workflowType,
 
     -- * WorkflowExecutionTerminatedEventAttributes
-    WorkflowExecutionTerminatedEventAttributes (..),
+    WorkflowExecutionTerminatedEventAttributes,
     newWorkflowExecutionTerminatedEventAttributes,
     workflowExecutionTerminatedEventAttributes_cause,
     workflowExecutionTerminatedEventAttributes_details,
@@ -845,19 +846,19 @@ module Amazonka.SWF.Types
     workflowExecutionTerminatedEventAttributes_childPolicy,
 
     -- * WorkflowExecutionTimedOutEventAttributes
-    WorkflowExecutionTimedOutEventAttributes (..),
+    WorkflowExecutionTimedOutEventAttributes,
     newWorkflowExecutionTimedOutEventAttributes,
     workflowExecutionTimedOutEventAttributes_timeoutType,
     workflowExecutionTimedOutEventAttributes_childPolicy,
 
     -- * WorkflowType
-    WorkflowType (..),
+    WorkflowType,
     newWorkflowType,
     workflowType_name,
     workflowType_version,
 
     -- * WorkflowTypeConfiguration
-    WorkflowTypeConfiguration (..),
+    WorkflowTypeConfiguration,
     newWorkflowTypeConfiguration,
     workflowTypeConfiguration_defaultChildPolicy,
     workflowTypeConfiguration_defaultExecutionStartToCloseTimeout,
@@ -867,13 +868,13 @@ module Amazonka.SWF.Types
     workflowTypeConfiguration_defaultTaskStartToCloseTimeout,
 
     -- * WorkflowTypeFilter
-    WorkflowTypeFilter (..),
+    WorkflowTypeFilter,
     newWorkflowTypeFilter,
     workflowTypeFilter_version,
     workflowTypeFilter_name,
 
     -- * WorkflowTypeInfo
-    WorkflowTypeInfo (..),
+    WorkflowTypeInfo,
     newWorkflowTypeInfo,
     workflowTypeInfo_deprecationDate,
     workflowTypeInfo_description,

@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -21,28 +22,28 @@ module Amazonka.SageMakerEdge.Types
     _InternalServiceException,
 
     -- * ChecksumType
-    ChecksumType (..),
+    ChecksumType,
 
     -- * DeploymentStatus
-    DeploymentStatus (..),
+    DeploymentStatus,
 
     -- * DeploymentType
-    DeploymentType (..),
+    DeploymentType,
 
     -- * FailureHandlingPolicy
-    FailureHandlingPolicy (..),
+    FailureHandlingPolicy,
 
     -- * ModelState
-    ModelState (..),
+    ModelState,
 
     -- * Checksum
-    Checksum (..),
+    Checksum,
     newChecksum,
     checksum_sum,
     checksum_type,
 
     -- * Definition
-    Definition (..),
+    Definition,
     newDefinition,
     definition_checksum,
     definition_modelHandle,
@@ -50,7 +51,7 @@ module Amazonka.SageMakerEdge.Types
     definition_state,
 
     -- * DeploymentModel
-    DeploymentModel (..),
+    DeploymentModel,
     newDeploymentModel,
     deploymentModel_desiredState,
     deploymentModel_modelHandle,
@@ -62,7 +63,7 @@ module Amazonka.SageMakerEdge.Types
     deploymentModel_statusReason,
 
     -- * DeploymentResult
-    DeploymentResult (..),
+    DeploymentResult,
     newDeploymentResult,
     deploymentResult_deploymentEndTime,
     deploymentResult_deploymentModels,
@@ -72,7 +73,7 @@ module Amazonka.SageMakerEdge.Types
     deploymentResult_deploymentStatusMessage,
 
     -- * EdgeDeployment
-    EdgeDeployment (..),
+    EdgeDeployment,
     newEdgeDeployment,
     edgeDeployment_definitions,
     edgeDeployment_deploymentName,
@@ -80,7 +81,7 @@ module Amazonka.SageMakerEdge.Types
     edgeDeployment_type,
 
     -- * EdgeMetric
-    EdgeMetric (..),
+    EdgeMetric,
     newEdgeMetric,
     edgeMetric_dimension,
     edgeMetric_metricName,
@@ -88,7 +89,7 @@ module Amazonka.SageMakerEdge.Types
     edgeMetric_value,
 
     -- * Model
-    Model (..),
+    Model,
     newModel,
     model_latestInference,
     model_latestSampleTime,

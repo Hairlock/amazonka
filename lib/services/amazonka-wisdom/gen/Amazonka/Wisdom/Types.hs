@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -27,49 +28,49 @@ module Amazonka.Wisdom.Types
     _ValidationException,
 
     -- * AssistantStatus
-    AssistantStatus (..),
+    AssistantStatus,
 
     -- * AssistantType
-    AssistantType (..),
+    AssistantType,
 
     -- * AssociationType
-    AssociationType (..),
+    AssociationType,
 
     -- * ContentStatus
-    ContentStatus (..),
+    ContentStatus,
 
     -- * FilterField
-    FilterField (..),
+    FilterField,
 
     -- * FilterOperator
-    FilterOperator (..),
+    FilterOperator,
 
     -- * KnowledgeBaseStatus
-    KnowledgeBaseStatus (..),
+    KnowledgeBaseStatus,
 
     -- * KnowledgeBaseType
-    KnowledgeBaseType (..),
+    KnowledgeBaseType,
 
     -- * RecommendationSourceType
-    RecommendationSourceType (..),
+    RecommendationSourceType,
 
     -- * RecommendationTriggerType
-    RecommendationTriggerType (..),
+    RecommendationTriggerType,
 
     -- * RecommendationType
-    RecommendationType (..),
+    RecommendationType,
 
     -- * RelevanceLevel
-    RelevanceLevel (..),
+    RelevanceLevel,
 
     -- * AppIntegrationsConfiguration
-    AppIntegrationsConfiguration (..),
+    AppIntegrationsConfiguration,
     newAppIntegrationsConfiguration,
     appIntegrationsConfiguration_appIntegrationArn,
     appIntegrationsConfiguration_objectFields,
 
     -- * AssistantAssociationData
-    AssistantAssociationData (..),
+    AssistantAssociationData,
     newAssistantAssociationData,
     assistantAssociationData_tags,
     assistantAssociationData_assistantArn,
@@ -80,17 +81,17 @@ module Amazonka.Wisdom.Types
     assistantAssociationData_associationType,
 
     -- * AssistantAssociationInputData
-    AssistantAssociationInputData (..),
+    AssistantAssociationInputData,
     newAssistantAssociationInputData,
     assistantAssociationInputData_knowledgeBaseId,
 
     -- * AssistantAssociationOutputData
-    AssistantAssociationOutputData (..),
+    AssistantAssociationOutputData,
     newAssistantAssociationOutputData,
     assistantAssociationOutputData_knowledgeBaseAssociation,
 
     -- * AssistantAssociationSummary
-    AssistantAssociationSummary (..),
+    AssistantAssociationSummary,
     newAssistantAssociationSummary,
     assistantAssociationSummary_tags,
     assistantAssociationSummary_assistantArn,
@@ -101,7 +102,7 @@ module Amazonka.Wisdom.Types
     assistantAssociationSummary_associationType,
 
     -- * AssistantData
-    AssistantData (..),
+    AssistantData,
     newAssistantData,
     assistantData_description,
     assistantData_serverSideEncryptionConfiguration,
@@ -113,7 +114,7 @@ module Amazonka.Wisdom.Types
     assistantData_type,
 
     -- * AssistantSummary
-    AssistantSummary (..),
+    AssistantSummary,
     newAssistantSummary,
     assistantSummary_description,
     assistantSummary_serverSideEncryptionConfiguration,
@@ -125,7 +126,7 @@ module Amazonka.Wisdom.Types
     assistantSummary_type,
 
     -- * ContentData
-    ContentData (..),
+    ContentData,
     newContentData,
     contentData_linkOutUri,
     contentData_tags,
@@ -143,7 +144,7 @@ module Amazonka.Wisdom.Types
     contentData_urlExpiry,
 
     -- * ContentReference
-    ContentReference (..),
+    ContentReference,
     newContentReference,
     contentReference_contentArn,
     contentReference_contentId,
@@ -151,7 +152,7 @@ module Amazonka.Wisdom.Types
     contentReference_knowledgeBaseId,
 
     -- * ContentSummary
-    ContentSummary (..),
+    ContentSummary,
     newContentSummary,
     contentSummary_tags,
     contentSummary_contentArn,
@@ -166,39 +167,39 @@ module Amazonka.Wisdom.Types
     contentSummary_title,
 
     -- * Document
-    Document (..),
+    Document,
     newDocument,
     document_excerpt,
     document_title,
     document_contentReference,
 
     -- * DocumentText
-    DocumentText (..),
+    DocumentText,
     newDocumentText,
     documentText_highlights,
     documentText_text,
 
     -- * Filter
-    Filter (..),
+    Filter,
     newFilter,
     filter_field,
     filter_operator,
     filter_value,
 
     -- * Highlight
-    Highlight (..),
+    Highlight,
     newHighlight,
     highlight_beginOffsetInclusive,
     highlight_endOffsetExclusive,
 
     -- * KnowledgeBaseAssociationData
-    KnowledgeBaseAssociationData (..),
+    KnowledgeBaseAssociationData,
     newKnowledgeBaseAssociationData,
     knowledgeBaseAssociationData_knowledgeBaseArn,
     knowledgeBaseAssociationData_knowledgeBaseId,
 
     -- * KnowledgeBaseData
-    KnowledgeBaseData (..),
+    KnowledgeBaseData,
     newKnowledgeBaseData,
     knowledgeBaseData_description,
     knowledgeBaseData_lastContentModificationTime,
@@ -213,7 +214,7 @@ module Amazonka.Wisdom.Types
     knowledgeBaseData_status,
 
     -- * KnowledgeBaseSummary
-    KnowledgeBaseSummary (..),
+    KnowledgeBaseSummary,
     newKnowledgeBaseSummary,
     knowledgeBaseSummary_description,
     knowledgeBaseSummary_renderingConfiguration,
@@ -227,18 +228,18 @@ module Amazonka.Wisdom.Types
     knowledgeBaseSummary_status,
 
     -- * NotifyRecommendationsReceivedError
-    NotifyRecommendationsReceivedError (..),
+    NotifyRecommendationsReceivedError,
     newNotifyRecommendationsReceivedError,
     notifyRecommendationsReceivedError_message,
     notifyRecommendationsReceivedError_recommendationId,
 
     -- * QueryRecommendationTriggerData
-    QueryRecommendationTriggerData (..),
+    QueryRecommendationTriggerData,
     newQueryRecommendationTriggerData,
     queryRecommendationTriggerData_text,
 
     -- * RecommendationData
-    RecommendationData (..),
+    RecommendationData,
     newRecommendationData,
     recommendationData_relevanceLevel,
     recommendationData_relevanceScore,
@@ -247,7 +248,7 @@ module Amazonka.Wisdom.Types
     recommendationData_recommendationId,
 
     -- * RecommendationTrigger
-    RecommendationTrigger (..),
+    RecommendationTrigger,
     newRecommendationTrigger,
     recommendationTrigger_data,
     recommendationTrigger_id,
@@ -256,34 +257,34 @@ module Amazonka.Wisdom.Types
     recommendationTrigger_type,
 
     -- * RecommendationTriggerData
-    RecommendationTriggerData (..),
+    RecommendationTriggerData,
     newRecommendationTriggerData,
     recommendationTriggerData_query,
 
     -- * RenderingConfiguration
-    RenderingConfiguration (..),
+    RenderingConfiguration,
     newRenderingConfiguration,
     renderingConfiguration_templateUri,
 
     -- * ResultData
-    ResultData (..),
+    ResultData,
     newResultData,
     resultData_relevanceScore,
     resultData_document,
     resultData_resultId,
 
     -- * SearchExpression
-    SearchExpression (..),
+    SearchExpression,
     newSearchExpression,
     searchExpression_filters,
 
     -- * ServerSideEncryptionConfiguration
-    ServerSideEncryptionConfiguration (..),
+    ServerSideEncryptionConfiguration,
     newServerSideEncryptionConfiguration,
     serverSideEncryptionConfiguration_kmsKeyId,
 
     -- * SessionData
-    SessionData (..),
+    SessionData,
     newSessionData,
     sessionData_description,
     sessionData_tags,
@@ -292,7 +293,7 @@ module Amazonka.Wisdom.Types
     sessionData_sessionId,
 
     -- * SessionSummary
-    SessionSummary (..),
+    SessionSummary,
     newSessionSummary,
     sessionSummary_assistantArn,
     sessionSummary_assistantId,
@@ -300,7 +301,7 @@ module Amazonka.Wisdom.Types
     sessionSummary_sessionId,
 
     -- * SourceConfiguration
-    SourceConfiguration (..),
+    SourceConfiguration,
     newSourceConfiguration,
     sourceConfiguration_appIntegrations,
   )

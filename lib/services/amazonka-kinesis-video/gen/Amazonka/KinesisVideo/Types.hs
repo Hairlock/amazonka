@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -35,52 +36,52 @@ module Amazonka.KinesisVideo.Types
     _VersionMismatchException,
 
     -- * APIName
-    APIName (..),
+    APIName,
 
     -- * ChannelProtocol
-    ChannelProtocol (..),
+    ChannelProtocol,
 
     -- * ChannelRole
-    ChannelRole (..),
+    ChannelRole,
 
     -- * ChannelType
-    ChannelType (..),
+    ChannelType,
 
     -- * ComparisonOperator
-    ComparisonOperator (..),
+    ComparisonOperator,
 
     -- * ConfigurationStatus
-    ConfigurationStatus (..),
+    ConfigurationStatus,
 
     -- * Format
-    Format (..),
+    Format,
 
     -- * FormatConfigKey
-    FormatConfigKey (..),
+    FormatConfigKey,
 
     -- * ImageSelectorType
-    ImageSelectorType (..),
+    ImageSelectorType,
 
     -- * MediaStorageConfigurationStatus
-    MediaStorageConfigurationStatus (..),
+    MediaStorageConfigurationStatus,
 
     -- * MediaUriType
-    MediaUriType (..),
+    MediaUriType,
 
     -- * StrategyOnFullSize
-    StrategyOnFullSize (..),
+    StrategyOnFullSize,
 
     -- * StreamStatus
-    StreamStatus (..),
+    StreamStatus,
 
     -- * SyncStatus
-    SyncStatus (..),
+    SyncStatus,
 
     -- * UpdateDataRetentionOperation
-    UpdateDataRetentionOperation (..),
+    UpdateDataRetentionOperation,
 
     -- * ChannelInfo
-    ChannelInfo (..),
+    ChannelInfo,
     newChannelInfo,
     channelInfo_channelARN,
     channelInfo_channelName,
@@ -91,20 +92,20 @@ module Amazonka.KinesisVideo.Types
     channelInfo_version,
 
     -- * ChannelNameCondition
-    ChannelNameCondition (..),
+    ChannelNameCondition,
     newChannelNameCondition,
     channelNameCondition_comparisonOperator,
     channelNameCondition_comparisonValue,
 
     -- * DeletionConfig
-    DeletionConfig (..),
+    DeletionConfig,
     newDeletionConfig,
     deletionConfig_deleteAfterUpload,
     deletionConfig_edgeRetentionInHours,
     deletionConfig_localSizeConfig,
 
     -- * EdgeConfig
-    EdgeConfig (..),
+    EdgeConfig,
     newEdgeConfig,
     edgeConfig_deletionConfig,
     edgeConfig_uploaderConfig,
@@ -112,7 +113,7 @@ module Amazonka.KinesisVideo.Types
     edgeConfig_recorderConfig,
 
     -- * ImageGenerationConfiguration
-    ImageGenerationConfiguration (..),
+    ImageGenerationConfiguration,
     newImageGenerationConfiguration,
     imageGenerationConfiguration_formatConfig,
     imageGenerationConfiguration_heightPixels,
@@ -124,77 +125,77 @@ module Amazonka.KinesisVideo.Types
     imageGenerationConfiguration_format,
 
     -- * ImageGenerationDestinationConfig
-    ImageGenerationDestinationConfig (..),
+    ImageGenerationDestinationConfig,
     newImageGenerationDestinationConfig,
     imageGenerationDestinationConfig_uri,
     imageGenerationDestinationConfig_destinationRegion,
 
     -- * LocalSizeConfig
-    LocalSizeConfig (..),
+    LocalSizeConfig,
     newLocalSizeConfig,
     localSizeConfig_maxLocalMediaSizeInMB,
     localSizeConfig_strategyOnFullSize,
 
     -- * MappedResourceConfigurationListItem
-    MappedResourceConfigurationListItem (..),
+    MappedResourceConfigurationListItem,
     newMappedResourceConfigurationListItem,
     mappedResourceConfigurationListItem_arn,
     mappedResourceConfigurationListItem_type,
 
     -- * MediaSourceConfig
-    MediaSourceConfig (..),
+    MediaSourceConfig,
     newMediaSourceConfig,
     mediaSourceConfig_mediaUriSecretArn,
     mediaSourceConfig_mediaUriType,
 
     -- * MediaStorageConfiguration
-    MediaStorageConfiguration (..),
+    MediaStorageConfiguration,
     newMediaStorageConfiguration,
     mediaStorageConfiguration_streamARN,
     mediaStorageConfiguration_status,
 
     -- * NotificationConfiguration
-    NotificationConfiguration (..),
+    NotificationConfiguration,
     newNotificationConfiguration,
     notificationConfiguration_status,
     notificationConfiguration_destinationConfig,
 
     -- * NotificationDestinationConfig
-    NotificationDestinationConfig (..),
+    NotificationDestinationConfig,
     newNotificationDestinationConfig,
     notificationDestinationConfig_uri,
 
     -- * RecorderConfig
-    RecorderConfig (..),
+    RecorderConfig,
     newRecorderConfig,
     recorderConfig_scheduleConfig,
     recorderConfig_mediaSourceConfig,
 
     -- * ResourceEndpointListItem
-    ResourceEndpointListItem (..),
+    ResourceEndpointListItem,
     newResourceEndpointListItem,
     resourceEndpointListItem_protocol,
     resourceEndpointListItem_resourceEndpoint,
 
     -- * ScheduleConfig
-    ScheduleConfig (..),
+    ScheduleConfig,
     newScheduleConfig,
     scheduleConfig_scheduleExpression,
     scheduleConfig_durationInSeconds,
 
     -- * SingleMasterChannelEndpointConfiguration
-    SingleMasterChannelEndpointConfiguration (..),
+    SingleMasterChannelEndpointConfiguration,
     newSingleMasterChannelEndpointConfiguration,
     singleMasterChannelEndpointConfiguration_protocols,
     singleMasterChannelEndpointConfiguration_role,
 
     -- * SingleMasterConfiguration
-    SingleMasterConfiguration (..),
+    SingleMasterConfiguration,
     newSingleMasterConfiguration,
     singleMasterConfiguration_messageTtlSeconds,
 
     -- * StreamInfo
-    StreamInfo (..),
+    StreamInfo,
     newStreamInfo,
     streamInfo_creationTime,
     streamInfo_dataRetentionInHours,
@@ -207,19 +208,19 @@ module Amazonka.KinesisVideo.Types
     streamInfo_version,
 
     -- * StreamNameCondition
-    StreamNameCondition (..),
+    StreamNameCondition,
     newStreamNameCondition,
     streamNameCondition_comparisonOperator,
     streamNameCondition_comparisonValue,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,
 
     -- * UploaderConfig
-    UploaderConfig (..),
+    UploaderConfig,
     newUploaderConfig,
     uploaderConfig_scheduleConfig,
   )

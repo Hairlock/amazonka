@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -28,109 +29,109 @@ module Amazonka.NetworkManager.Types
     _ValidationException,
 
     -- * AttachmentState
-    AttachmentState (..),
+    AttachmentState,
 
     -- * AttachmentType
-    AttachmentType (..),
+    AttachmentType,
 
     -- * ChangeAction
-    ChangeAction (..),
+    ChangeAction,
 
     -- * ChangeSetState
-    ChangeSetState (..),
+    ChangeSetState,
 
     -- * ChangeStatus
-    ChangeStatus (..),
+    ChangeStatus,
 
     -- * ChangeType
-    ChangeType (..),
+    ChangeType,
 
     -- * ConnectPeerAssociationState
-    ConnectPeerAssociationState (..),
+    ConnectPeerAssociationState,
 
     -- * ConnectPeerState
-    ConnectPeerState (..),
+    ConnectPeerState,
 
     -- * ConnectionState
-    ConnectionState (..),
+    ConnectionState,
 
     -- * ConnectionStatus
-    ConnectionStatus (..),
+    ConnectionStatus,
 
     -- * ConnectionType
-    ConnectionType (..),
+    ConnectionType,
 
     -- * CoreNetworkPolicyAlias
-    CoreNetworkPolicyAlias (..),
+    CoreNetworkPolicyAlias,
 
     -- * CoreNetworkState
-    CoreNetworkState (..),
+    CoreNetworkState,
 
     -- * CustomerGatewayAssociationState
-    CustomerGatewayAssociationState (..),
+    CustomerGatewayAssociationState,
 
     -- * DeviceState
-    DeviceState (..),
+    DeviceState,
 
     -- * GlobalNetworkState
-    GlobalNetworkState (..),
+    GlobalNetworkState,
 
     -- * LinkAssociationState
-    LinkAssociationState (..),
+    LinkAssociationState,
 
     -- * LinkState
-    LinkState (..),
+    LinkState,
 
     -- * PeeringState
-    PeeringState (..),
+    PeeringState,
 
     -- * PeeringType
-    PeeringType (..),
+    PeeringType,
 
     -- * RouteAnalysisCompletionReasonCode
-    RouteAnalysisCompletionReasonCode (..),
+    RouteAnalysisCompletionReasonCode,
 
     -- * RouteAnalysisCompletionResultCode
-    RouteAnalysisCompletionResultCode (..),
+    RouteAnalysisCompletionResultCode,
 
     -- * RouteAnalysisStatus
-    RouteAnalysisStatus (..),
+    RouteAnalysisStatus,
 
     -- * RouteState
-    RouteState (..),
+    RouteState,
 
     -- * RouteTableType
-    RouteTableType (..),
+    RouteTableType,
 
     -- * RouteType
-    RouteType (..),
+    RouteType,
 
     -- * SiteState
-    SiteState (..),
+    SiteState,
 
     -- * TransitGatewayConnectPeerAssociationState
-    TransitGatewayConnectPeerAssociationState (..),
+    TransitGatewayConnectPeerAssociationState,
 
     -- * TransitGatewayRegistrationState
-    TransitGatewayRegistrationState (..),
+    TransitGatewayRegistrationState,
 
     -- * TunnelProtocol
-    TunnelProtocol (..),
+    TunnelProtocol,
 
     -- * AWSLocation
-    AWSLocation (..),
+    AWSLocation,
     newAWSLocation,
     aWSLocation_subnetArn,
     aWSLocation_zone,
 
     -- * AccountStatus
-    AccountStatus (..),
+    AccountStatus,
     newAccountStatus,
     accountStatus_accountId,
     accountStatus_sLRDeploymentStatus,
 
     -- * Attachment
-    Attachment (..),
+    Attachment,
     newAttachment,
     attachment_attachmentId,
     attachment_attachmentPolicyRuleNumber,
@@ -148,30 +149,30 @@ module Amazonka.NetworkManager.Types
     attachment_updatedAt,
 
     -- * Bandwidth
-    Bandwidth (..),
+    Bandwidth,
     newBandwidth,
     bandwidth_downloadSpeed,
     bandwidth_uploadSpeed,
 
     -- * BgpOptions
-    BgpOptions (..),
+    BgpOptions,
     newBgpOptions,
     bgpOptions_peerAsn,
 
     -- * ConnectAttachment
-    ConnectAttachment (..),
+    ConnectAttachment,
     newConnectAttachment,
     connectAttachment_attachment,
     connectAttachment_options,
     connectAttachment_transportAttachmentId,
 
     -- * ConnectAttachmentOptions
-    ConnectAttachmentOptions (..),
+    ConnectAttachmentOptions,
     newConnectAttachmentOptions,
     connectAttachmentOptions_protocol,
 
     -- * ConnectPeer
-    ConnectPeer (..),
+    ConnectPeer,
     newConnectPeer,
     connectPeer_configuration,
     connectPeer_connectAttachmentId,
@@ -183,7 +184,7 @@ module Amazonka.NetworkManager.Types
     connectPeer_tags,
 
     -- * ConnectPeerAssociation
-    ConnectPeerAssociation (..),
+    ConnectPeerAssociation,
     newConnectPeerAssociation,
     connectPeerAssociation_connectPeerId,
     connectPeerAssociation_deviceId,
@@ -192,7 +193,7 @@ module Amazonka.NetworkManager.Types
     connectPeerAssociation_state,
 
     -- * ConnectPeerBgpConfiguration
-    ConnectPeerBgpConfiguration (..),
+    ConnectPeerBgpConfiguration,
     newConnectPeerBgpConfiguration,
     connectPeerBgpConfiguration_coreNetworkAddress,
     connectPeerBgpConfiguration_coreNetworkAsn,
@@ -200,7 +201,7 @@ module Amazonka.NetworkManager.Types
     connectPeerBgpConfiguration_peerAsn,
 
     -- * ConnectPeerConfiguration
-    ConnectPeerConfiguration (..),
+    ConnectPeerConfiguration,
     newConnectPeerConfiguration,
     connectPeerConfiguration_bgpConfigurations,
     connectPeerConfiguration_coreNetworkAddress,
@@ -209,7 +210,7 @@ module Amazonka.NetworkManager.Types
     connectPeerConfiguration_protocol,
 
     -- * ConnectPeerSummary
-    ConnectPeerSummary (..),
+    ConnectPeerSummary,
     newConnectPeerSummary,
     connectPeerSummary_connectAttachmentId,
     connectPeerSummary_connectPeerId,
@@ -220,7 +221,7 @@ module Amazonka.NetworkManager.Types
     connectPeerSummary_tags,
 
     -- * Connection
-    Connection (..),
+    Connection,
     newConnection,
     connection_connectedDeviceId,
     connection_connectedLinkId,
@@ -235,14 +236,14 @@ module Amazonka.NetworkManager.Types
     connection_tags,
 
     -- * ConnectionHealth
-    ConnectionHealth (..),
+    ConnectionHealth,
     newConnectionHealth,
     connectionHealth_status,
     connectionHealth_timestamp,
     connectionHealth_type,
 
     -- * CoreNetwork
-    CoreNetwork (..),
+    CoreNetwork,
     newCoreNetwork,
     coreNetwork_coreNetworkArn,
     coreNetwork_coreNetworkId,
@@ -255,7 +256,7 @@ module Amazonka.NetworkManager.Types
     coreNetwork_tags,
 
     -- * CoreNetworkChange
-    CoreNetworkChange (..),
+    CoreNetworkChange,
     newCoreNetworkChange,
     coreNetworkChange_action,
     coreNetworkChange_identifier,
@@ -265,7 +266,7 @@ module Amazonka.NetworkManager.Types
     coreNetworkChange_type,
 
     -- * CoreNetworkChangeEvent
-    CoreNetworkChangeEvent (..),
+    CoreNetworkChangeEvent,
     newCoreNetworkChangeEvent,
     coreNetworkChangeEvent_action,
     coreNetworkChangeEvent_eventTime,
@@ -275,7 +276,7 @@ module Amazonka.NetworkManager.Types
     coreNetworkChangeEvent_values,
 
     -- * CoreNetworkChangeEventValues
-    CoreNetworkChangeEventValues (..),
+    CoreNetworkChangeEventValues,
     newCoreNetworkChangeEventValues,
     coreNetworkChangeEventValues_attachmentId,
     coreNetworkChangeEventValues_cidr,
@@ -283,7 +284,7 @@ module Amazonka.NetworkManager.Types
     coreNetworkChangeEventValues_segmentName,
 
     -- * CoreNetworkChangeValues
-    CoreNetworkChangeValues (..),
+    CoreNetworkChangeValues,
     newCoreNetworkChangeValues,
     coreNetworkChangeValues_asn,
     coreNetworkChangeValues_cidr,
@@ -294,14 +295,14 @@ module Amazonka.NetworkManager.Types
     coreNetworkChangeValues_sharedSegments,
 
     -- * CoreNetworkEdge
-    CoreNetworkEdge (..),
+    CoreNetworkEdge,
     newCoreNetworkEdge,
     coreNetworkEdge_asn,
     coreNetworkEdge_edgeLocation,
     coreNetworkEdge_insideCidrBlocks,
 
     -- * CoreNetworkPolicy
-    CoreNetworkPolicy (..),
+    CoreNetworkPolicy,
     newCoreNetworkPolicy,
     coreNetworkPolicy_alias,
     coreNetworkPolicy_changeSetState,
@@ -313,14 +314,14 @@ module Amazonka.NetworkManager.Types
     coreNetworkPolicy_policyVersionId,
 
     -- * CoreNetworkPolicyError
-    CoreNetworkPolicyError (..),
+    CoreNetworkPolicyError,
     newCoreNetworkPolicyError,
     coreNetworkPolicyError_path,
     coreNetworkPolicyError_errorCode,
     coreNetworkPolicyError_message,
 
     -- * CoreNetworkPolicyVersion
-    CoreNetworkPolicyVersion (..),
+    CoreNetworkPolicyVersion,
     newCoreNetworkPolicyVersion,
     coreNetworkPolicyVersion_alias,
     coreNetworkPolicyVersion_changeSetState,
@@ -330,21 +331,21 @@ module Amazonka.NetworkManager.Types
     coreNetworkPolicyVersion_policyVersionId,
 
     -- * CoreNetworkSegment
-    CoreNetworkSegment (..),
+    CoreNetworkSegment,
     newCoreNetworkSegment,
     coreNetworkSegment_edgeLocations,
     coreNetworkSegment_name,
     coreNetworkSegment_sharedSegments,
 
     -- * CoreNetworkSegmentEdgeIdentifier
-    CoreNetworkSegmentEdgeIdentifier (..),
+    CoreNetworkSegmentEdgeIdentifier,
     newCoreNetworkSegmentEdgeIdentifier,
     coreNetworkSegmentEdgeIdentifier_coreNetworkId,
     coreNetworkSegmentEdgeIdentifier_edgeLocation,
     coreNetworkSegmentEdgeIdentifier_segmentName,
 
     -- * CoreNetworkSummary
-    CoreNetworkSummary (..),
+    CoreNetworkSummary,
     newCoreNetworkSummary,
     coreNetworkSummary_coreNetworkArn,
     coreNetworkSummary_coreNetworkId,
@@ -355,7 +356,7 @@ module Amazonka.NetworkManager.Types
     coreNetworkSummary_tags,
 
     -- * CustomerGatewayAssociation
-    CustomerGatewayAssociation (..),
+    CustomerGatewayAssociation,
     newCustomerGatewayAssociation,
     customerGatewayAssociation_customerGatewayArn,
     customerGatewayAssociation_deviceId,
@@ -364,7 +365,7 @@ module Amazonka.NetworkManager.Types
     customerGatewayAssociation_state,
 
     -- * Device
-    Device (..),
+    Device,
     newDevice,
     device_aWSLocation,
     device_createdAt,
@@ -382,7 +383,7 @@ module Amazonka.NetworkManager.Types
     device_vendor,
 
     -- * GlobalNetwork
-    GlobalNetwork (..),
+    GlobalNetwork,
     newGlobalNetwork,
     globalNetwork_createdAt,
     globalNetwork_description,
@@ -392,7 +393,7 @@ module Amazonka.NetworkManager.Types
     globalNetwork_tags,
 
     -- * Link
-    Link (..),
+    Link,
     newLink,
     link_bandwidth,
     link_createdAt,
@@ -407,7 +408,7 @@ module Amazonka.NetworkManager.Types
     link_type,
 
     -- * LinkAssociation
-    LinkAssociation (..),
+    LinkAssociation,
     newLinkAssociation,
     linkAssociation_deviceId,
     linkAssociation_globalNetworkId,
@@ -415,14 +416,14 @@ module Amazonka.NetworkManager.Types
     linkAssociation_linkId,
 
     -- * Location
-    Location (..),
+    Location,
     newLocation,
     location_address,
     location_latitude,
     location_longitude,
 
     -- * NetworkResource
-    NetworkResource (..),
+    NetworkResource,
     newNetworkResource,
     networkResource_accountId,
     networkResource_awsRegion,
@@ -437,13 +438,13 @@ module Amazonka.NetworkManager.Types
     networkResource_tags,
 
     -- * NetworkResourceCount
-    NetworkResourceCount (..),
+    NetworkResourceCount,
     newNetworkResourceCount,
     networkResourceCount_count,
     networkResourceCount_resourceType,
 
     -- * NetworkResourceSummary
-    NetworkResourceSummary (..),
+    NetworkResourceSummary,
     newNetworkResourceSummary,
     networkResourceSummary_definition,
     networkResourceSummary_isMiddlebox,
@@ -453,7 +454,7 @@ module Amazonka.NetworkManager.Types
     networkResourceSummary_resourceType,
 
     -- * NetworkRoute
-    NetworkRoute (..),
+    NetworkRoute,
     newNetworkRoute,
     networkRoute_destinationCidrBlock,
     networkRoute_destinations,
@@ -462,7 +463,7 @@ module Amazonka.NetworkManager.Types
     networkRoute_type,
 
     -- * NetworkRouteDestination
-    NetworkRouteDestination (..),
+    NetworkRouteDestination,
     newNetworkRouteDestination,
     networkRouteDestination_coreNetworkAttachmentId,
     networkRouteDestination_edgeLocation,
@@ -472,7 +473,7 @@ module Amazonka.NetworkManager.Types
     networkRouteDestination_transitGatewayAttachmentId,
 
     -- * NetworkTelemetry
-    NetworkTelemetry (..),
+    NetworkTelemetry,
     newNetworkTelemetry,
     networkTelemetry_accountId,
     networkTelemetry_address,
@@ -485,7 +486,7 @@ module Amazonka.NetworkManager.Types
     networkTelemetry_resourceType,
 
     -- * OrganizationStatus
-    OrganizationStatus (..),
+    OrganizationStatus,
     newOrganizationStatus,
     organizationStatus_accountStatusList,
     organizationStatus_organizationAwsServiceAccessStatus,
@@ -493,14 +494,14 @@ module Amazonka.NetworkManager.Types
     organizationStatus_sLRDeploymentStatus,
 
     -- * PathComponent
-    PathComponent (..),
+    PathComponent,
     newPathComponent,
     pathComponent_destinationCidrBlock,
     pathComponent_resource,
     pathComponent_sequence,
 
     -- * Peering
-    Peering (..),
+    Peering,
     newPeering,
     peering_coreNetworkArn,
     peering_coreNetworkId,
@@ -514,20 +515,20 @@ module Amazonka.NetworkManager.Types
     peering_tags,
 
     -- * ProposedSegmentChange
-    ProposedSegmentChange (..),
+    ProposedSegmentChange,
     newProposedSegmentChange,
     proposedSegmentChange_attachmentPolicyRuleNumber,
     proposedSegmentChange_segmentName,
     proposedSegmentChange_tags,
 
     -- * Relationship
-    Relationship (..),
+    Relationship,
     newRelationship,
     relationship_from,
     relationship_to,
 
     -- * RouteAnalysis
-    RouteAnalysis (..),
+    RouteAnalysis,
     newRouteAnalysis,
     routeAnalysis_destination,
     routeAnalysis_forwardPath,
@@ -542,39 +543,39 @@ module Amazonka.NetworkManager.Types
     routeAnalysis_useMiddleboxes,
 
     -- * RouteAnalysisCompletion
-    RouteAnalysisCompletion (..),
+    RouteAnalysisCompletion,
     newRouteAnalysisCompletion,
     routeAnalysisCompletion_reasonCode,
     routeAnalysisCompletion_reasonContext,
     routeAnalysisCompletion_resultCode,
 
     -- * RouteAnalysisEndpointOptions
-    RouteAnalysisEndpointOptions (..),
+    RouteAnalysisEndpointOptions,
     newRouteAnalysisEndpointOptions,
     routeAnalysisEndpointOptions_ipAddress,
     routeAnalysisEndpointOptions_transitGatewayArn,
     routeAnalysisEndpointOptions_transitGatewayAttachmentArn,
 
     -- * RouteAnalysisEndpointOptionsSpecification
-    RouteAnalysisEndpointOptionsSpecification (..),
+    RouteAnalysisEndpointOptionsSpecification,
     newRouteAnalysisEndpointOptionsSpecification,
     routeAnalysisEndpointOptionsSpecification_ipAddress,
     routeAnalysisEndpointOptionsSpecification_transitGatewayAttachmentArn,
 
     -- * RouteAnalysisPath
-    RouteAnalysisPath (..),
+    RouteAnalysisPath,
     newRouteAnalysisPath,
     routeAnalysisPath_completionStatus,
     routeAnalysisPath_path,
 
     -- * RouteTableIdentifier
-    RouteTableIdentifier (..),
+    RouteTableIdentifier,
     newRouteTableIdentifier,
     routeTableIdentifier_coreNetworkSegmentEdge,
     routeTableIdentifier_transitGatewayRouteTableArn,
 
     -- * Site
-    Site (..),
+    Site,
     newSite,
     site_createdAt,
     site_description,
@@ -586,19 +587,19 @@ module Amazonka.NetworkManager.Types
     site_tags,
 
     -- * SiteToSiteVpnAttachment
-    SiteToSiteVpnAttachment (..),
+    SiteToSiteVpnAttachment,
     newSiteToSiteVpnAttachment,
     siteToSiteVpnAttachment_attachment,
     siteToSiteVpnAttachment_vpnConnectionArn,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,
 
     -- * TransitGatewayConnectPeerAssociation
-    TransitGatewayConnectPeerAssociation (..),
+    TransitGatewayConnectPeerAssociation,
     newTransitGatewayConnectPeerAssociation,
     transitGatewayConnectPeerAssociation_deviceId,
     transitGatewayConnectPeerAssociation_globalNetworkId,
@@ -607,41 +608,41 @@ module Amazonka.NetworkManager.Types
     transitGatewayConnectPeerAssociation_transitGatewayConnectPeerArn,
 
     -- * TransitGatewayPeering
-    TransitGatewayPeering (..),
+    TransitGatewayPeering,
     newTransitGatewayPeering,
     transitGatewayPeering_peering,
     transitGatewayPeering_transitGatewayArn,
     transitGatewayPeering_transitGatewayPeeringAttachmentId,
 
     -- * TransitGatewayRegistration
-    TransitGatewayRegistration (..),
+    TransitGatewayRegistration,
     newTransitGatewayRegistration,
     transitGatewayRegistration_globalNetworkId,
     transitGatewayRegistration_state,
     transitGatewayRegistration_transitGatewayArn,
 
     -- * TransitGatewayRegistrationStateReason
-    TransitGatewayRegistrationStateReason (..),
+    TransitGatewayRegistrationStateReason,
     newTransitGatewayRegistrationStateReason,
     transitGatewayRegistrationStateReason_code,
     transitGatewayRegistrationStateReason_message,
 
     -- * TransitGatewayRouteTableAttachment
-    TransitGatewayRouteTableAttachment (..),
+    TransitGatewayRouteTableAttachment,
     newTransitGatewayRouteTableAttachment,
     transitGatewayRouteTableAttachment_attachment,
     transitGatewayRouteTableAttachment_peeringId,
     transitGatewayRouteTableAttachment_transitGatewayRouteTableArn,
 
     -- * VpcAttachment
-    VpcAttachment (..),
+    VpcAttachment,
     newVpcAttachment,
     vpcAttachment_attachment,
     vpcAttachment_options,
     vpcAttachment_subnetArns,
 
     -- * VpcOptions
-    VpcOptions (..),
+    VpcOptions,
     newVpcOptions,
     vpcOptions_applianceModeSupport,
     vpcOptions_ipv6Support,

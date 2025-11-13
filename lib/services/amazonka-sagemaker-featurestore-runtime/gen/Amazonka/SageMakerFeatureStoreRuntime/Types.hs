@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -25,10 +26,10 @@ module Amazonka.SageMakerFeatureStoreRuntime.Types
     _ValidationError,
 
     -- * TargetStore
-    TargetStore (..),
+    TargetStore,
 
     -- * BatchGetRecordError
-    BatchGetRecordError (..),
+    BatchGetRecordError,
     newBatchGetRecordError,
     batchGetRecordError_featureGroupName,
     batchGetRecordError_recordIdentifierValueAsString,
@@ -36,21 +37,21 @@ module Amazonka.SageMakerFeatureStoreRuntime.Types
     batchGetRecordError_errorMessage,
 
     -- * BatchGetRecordIdentifier
-    BatchGetRecordIdentifier (..),
+    BatchGetRecordIdentifier,
     newBatchGetRecordIdentifier,
     batchGetRecordIdentifier_featureNames,
     batchGetRecordIdentifier_featureGroupName,
     batchGetRecordIdentifier_recordIdentifiersValueAsString,
 
     -- * BatchGetRecordResultDetail
-    BatchGetRecordResultDetail (..),
+    BatchGetRecordResultDetail,
     newBatchGetRecordResultDetail,
     batchGetRecordResultDetail_featureGroupName,
     batchGetRecordResultDetail_recordIdentifierValueAsString,
     batchGetRecordResultDetail_record,
 
     -- * FeatureValue
-    FeatureValue (..),
+    FeatureValue,
     newFeatureValue,
     featureValue_featureName,
     featureValue_valueAsString,

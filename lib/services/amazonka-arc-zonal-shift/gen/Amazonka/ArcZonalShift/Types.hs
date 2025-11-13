@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -26,20 +27,20 @@ module Amazonka.ArcZonalShift.Types
     _ValidationException,
 
     -- * AppliedStatus
-    AppliedStatus (..),
+    AppliedStatus,
 
     -- * ZonalShiftStatus
-    ZonalShiftStatus (..),
+    ZonalShiftStatus,
 
     -- * ManagedResourceSummary
-    ManagedResourceSummary (..),
+    ManagedResourceSummary,
     newManagedResourceSummary,
     managedResourceSummary_arn,
     managedResourceSummary_name,
     managedResourceSummary_availabilityZones,
 
     -- * ZonalShift
-    ZonalShift (..),
+    ZonalShift,
     newZonalShift,
     zonalShift_awayFrom,
     zonalShift_comment,
@@ -50,7 +51,7 @@ module Amazonka.ArcZonalShift.Types
     zonalShift_zonalShiftId,
 
     -- * ZonalShiftInResource
-    ZonalShiftInResource (..),
+    ZonalShiftInResource,
     newZonalShiftInResource,
     zonalShiftInResource_appliedStatus,
     zonalShiftInResource_awayFrom,
@@ -61,7 +62,7 @@ module Amazonka.ArcZonalShift.Types
     zonalShiftInResource_zonalShiftId,
 
     -- * ZonalShiftSummary
-    ZonalShiftSummary (..),
+    ZonalShiftSummary,
     newZonalShiftSummary,
     zonalShiftSummary_awayFrom,
     zonalShiftSummary_comment,

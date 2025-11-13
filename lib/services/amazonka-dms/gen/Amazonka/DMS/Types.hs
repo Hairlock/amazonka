@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -45,109 +46,109 @@ module Amazonka.DMS.Types
     _UpgradeDependencyFailureFault,
 
     -- * AuthMechanismValue
-    AuthMechanismValue (..),
+    AuthMechanismValue,
 
     -- * AuthTypeValue
-    AuthTypeValue (..),
+    AuthTypeValue,
 
     -- * CannedAclForObjectsValue
-    CannedAclForObjectsValue (..),
+    CannedAclForObjectsValue,
 
     -- * CharLengthSemantics
-    CharLengthSemantics (..),
+    CharLengthSemantics,
 
     -- * CollectorStatus
-    CollectorStatus (..),
+    CollectorStatus,
 
     -- * CompressionTypeValue
-    CompressionTypeValue (..),
+    CompressionTypeValue,
 
     -- * DataFormatValue
-    DataFormatValue (..),
+    DataFormatValue,
 
     -- * DatePartitionDelimiterValue
-    DatePartitionDelimiterValue (..),
+    DatePartitionDelimiterValue,
 
     -- * DatePartitionSequenceValue
-    DatePartitionSequenceValue (..),
+    DatePartitionSequenceValue,
 
     -- * DmsSslModeValue
-    DmsSslModeValue (..),
+    DmsSslModeValue,
 
     -- * EncodingTypeValue
-    EncodingTypeValue (..),
+    EncodingTypeValue,
 
     -- * EncryptionModeValue
-    EncryptionModeValue (..),
+    EncryptionModeValue,
 
     -- * EndpointSettingTypeValue
-    EndpointSettingTypeValue (..),
+    EndpointSettingTypeValue,
 
     -- * KafkaSecurityProtocol
-    KafkaSecurityProtocol (..),
+    KafkaSecurityProtocol,
 
     -- * MessageFormatValue
-    MessageFormatValue (..),
+    MessageFormatValue,
 
     -- * MigrationTypeValue
-    MigrationTypeValue (..),
+    MigrationTypeValue,
 
     -- * NestingLevelValue
-    NestingLevelValue (..),
+    NestingLevelValue,
 
     -- * ParquetVersionValue
-    ParquetVersionValue (..),
+    ParquetVersionValue,
 
     -- * PluginNameValue
-    PluginNameValue (..),
+    PluginNameValue,
 
     -- * RedisAuthTypeValue
-    RedisAuthTypeValue (..),
+    RedisAuthTypeValue,
 
     -- * RefreshSchemasStatusTypeValue
-    RefreshSchemasStatusTypeValue (..),
+    RefreshSchemasStatusTypeValue,
 
     -- * ReleaseStatusValues
-    ReleaseStatusValues (..),
+    ReleaseStatusValues,
 
     -- * ReloadOptionValue
-    ReloadOptionValue (..),
+    ReloadOptionValue,
 
     -- * ReplicationEndpointTypeValue
-    ReplicationEndpointTypeValue (..),
+    ReplicationEndpointTypeValue,
 
     -- * SafeguardPolicy
-    SafeguardPolicy (..),
+    SafeguardPolicy,
 
     -- * SourceType
-    SourceType (..),
+    SourceType,
 
     -- * SslSecurityProtocolValue
-    SslSecurityProtocolValue (..),
+    SslSecurityProtocolValue,
 
     -- * StartReplicationTaskTypeValue
-    StartReplicationTaskTypeValue (..),
+    StartReplicationTaskTypeValue,
 
     -- * TargetDbType
-    TargetDbType (..),
+    TargetDbType,
 
     -- * VersionStatus
-    VersionStatus (..),
+    VersionStatus,
 
     -- * AccountQuota
-    AccountQuota (..),
+    AccountQuota,
     newAccountQuota,
     accountQuota_accountQuotaName,
     accountQuota_max,
     accountQuota_used,
 
     -- * AvailabilityZone
-    AvailabilityZone (..),
+    AvailabilityZone,
     newAvailabilityZone,
     availabilityZone_name,
 
     -- * Certificate
-    Certificate (..),
+    Certificate,
     newCertificate,
     certificate_certificateArn,
     certificate_certificateCreationDate,
@@ -161,7 +162,7 @@ module Amazonka.DMS.Types
     certificate_validToDate,
 
     -- * CollectorHealthCheck
-    CollectorHealthCheck (..),
+    CollectorHealthCheck,
     newCollectorHealthCheck,
     collectorHealthCheck_collectorStatus,
     collectorHealthCheck_localCollectorS3Access,
@@ -169,7 +170,7 @@ module Amazonka.DMS.Types
     collectorHealthCheck_webCollectorS3Access,
 
     -- * CollectorResponse
-    CollectorResponse (..),
+    CollectorResponse,
     newCollectorResponse,
     collectorResponse_collectorHealthCheck,
     collectorResponse_collectorName,
@@ -186,13 +187,13 @@ module Amazonka.DMS.Types
     collectorResponse_versionStatus,
 
     -- * CollectorShortInfoResponse
-    CollectorShortInfoResponse (..),
+    CollectorShortInfoResponse,
     newCollectorShortInfoResponse,
     collectorShortInfoResponse_collectorName,
     collectorShortInfoResponse_collectorReferencedId,
 
     -- * Connection
-    Connection (..),
+    Connection,
     newConnection,
     connection_endpointArn,
     connection_endpointIdentifier,
@@ -202,7 +203,7 @@ module Amazonka.DMS.Types
     connection_status,
 
     -- * DatabaseInstanceSoftwareDetailsResponse
-    DatabaseInstanceSoftwareDetailsResponse (..),
+    DatabaseInstanceSoftwareDetailsResponse,
     newDatabaseInstanceSoftwareDetailsResponse,
     databaseInstanceSoftwareDetailsResponse_engine,
     databaseInstanceSoftwareDetailsResponse_engineEdition,
@@ -213,7 +214,7 @@ module Amazonka.DMS.Types
     databaseInstanceSoftwareDetailsResponse_tooltip,
 
     -- * DatabaseResponse
-    DatabaseResponse (..),
+    DatabaseResponse,
     newDatabaseResponse,
     databaseResponse_collectors,
     databaseResponse_databaseId,
@@ -224,7 +225,7 @@ module Amazonka.DMS.Types
     databaseResponse_softwareDetails,
 
     -- * DatabaseShortInfoResponse
-    DatabaseShortInfoResponse (..),
+    DatabaseShortInfoResponse,
     newDatabaseShortInfoResponse,
     databaseShortInfoResponse_databaseEngine,
     databaseShortInfoResponse_databaseId,
@@ -232,13 +233,13 @@ module Amazonka.DMS.Types
     databaseShortInfoResponse_databaseName,
 
     -- * DmsTransferSettings
-    DmsTransferSettings (..),
+    DmsTransferSettings,
     newDmsTransferSettings,
     dmsTransferSettings_bucketName,
     dmsTransferSettings_serviceAccessRoleArn,
 
     -- * DocDbSettings
-    DocDbSettings (..),
+    DocDbSettings,
     newDocDbSettings,
     docDbSettings_databaseName,
     docDbSettings_docsToInvestigate,
@@ -253,12 +254,12 @@ module Amazonka.DMS.Types
     docDbSettings_username,
 
     -- * DynamoDbSettings
-    DynamoDbSettings (..),
+    DynamoDbSettings,
     newDynamoDbSettings,
     dynamoDbSettings_serviceAccessRoleArn,
 
     -- * ElasticsearchSettings
-    ElasticsearchSettings (..),
+    ElasticsearchSettings,
     newElasticsearchSettings,
     elasticsearchSettings_errorRetryDuration,
     elasticsearchSettings_fullLoadErrorPercentage,
@@ -267,7 +268,7 @@ module Amazonka.DMS.Types
     elasticsearchSettings_endpointUri,
 
     -- * Endpoint
-    Endpoint (..),
+    Endpoint,
     newEndpoint,
     endpoint_certificateArn,
     endpoint_databaseName,
@@ -306,7 +307,7 @@ module Amazonka.DMS.Types
     endpoint_username,
 
     -- * EndpointSetting
-    EndpointSetting (..),
+    EndpointSetting,
     newEndpointSetting,
     endpointSetting_applicability,
     endpointSetting_defaultValue,
@@ -319,7 +320,7 @@ module Amazonka.DMS.Types
     endpointSetting_units,
 
     -- * Event
-    Event (..),
+    Event,
     newEvent,
     event_date,
     event_eventCategories,
@@ -328,13 +329,13 @@ module Amazonka.DMS.Types
     event_sourceType,
 
     -- * EventCategoryGroup
-    EventCategoryGroup (..),
+    EventCategoryGroup,
     newEventCategoryGroup,
     eventCategoryGroup_eventCategories,
     eventCategoryGroup_sourceType,
 
     -- * EventSubscription
-    EventSubscription (..),
+    EventSubscription,
     newEventSubscription,
     eventSubscription_custSubscriptionId,
     eventSubscription_customerAwsId,
@@ -347,19 +348,19 @@ module Amazonka.DMS.Types
     eventSubscription_subscriptionCreationTime,
 
     -- * Filter
-    Filter (..),
+    Filter,
     newFilter,
     filter_name,
     filter_values,
 
     -- * FleetAdvisorLsaAnalysisResponse
-    FleetAdvisorLsaAnalysisResponse (..),
+    FleetAdvisorLsaAnalysisResponse,
     newFleetAdvisorLsaAnalysisResponse,
     fleetAdvisorLsaAnalysisResponse_lsaAnalysisId,
     fleetAdvisorLsaAnalysisResponse_status,
 
     -- * FleetAdvisorSchemaObjectResponse
-    FleetAdvisorSchemaObjectResponse (..),
+    FleetAdvisorSchemaObjectResponse,
     newFleetAdvisorSchemaObjectResponse,
     fleetAdvisorSchemaObjectResponse_codeLineCount,
     fleetAdvisorSchemaObjectResponse_codeSize,
@@ -368,7 +369,7 @@ module Amazonka.DMS.Types
     fleetAdvisorSchemaObjectResponse_schemaId,
 
     -- * GcpMySQLSettings
-    GcpMySQLSettings (..),
+    GcpMySQLSettings,
     newGcpMySQLSettings,
     gcpMySQLSettings_afterConnectScript,
     gcpMySQLSettings_cleanSourceMetadataOnMismatch,
@@ -386,7 +387,7 @@ module Amazonka.DMS.Types
     gcpMySQLSettings_username,
 
     -- * IBMDb2Settings
-    IBMDb2Settings (..),
+    IBMDb2Settings,
     newIBMDb2Settings,
     iBMDb2Settings_currentLsn,
     iBMDb2Settings_databaseName,
@@ -400,13 +401,13 @@ module Amazonka.DMS.Types
     iBMDb2Settings_username,
 
     -- * InventoryData
-    InventoryData (..),
+    InventoryData,
     newInventoryData,
     inventoryData_numberOfDatabases,
     inventoryData_numberOfSchemas,
 
     -- * KafkaSettings
-    KafkaSettings (..),
+    KafkaSettings,
     newKafkaSettings,
     kafkaSettings_broker,
     kafkaSettings_includeControlDetails,
@@ -428,7 +429,7 @@ module Amazonka.DMS.Types
     kafkaSettings_topic,
 
     -- * KinesisSettings
-    KinesisSettings (..),
+    KinesisSettings,
     newKinesisSettings,
     kinesisSettings_includeControlDetails,
     kinesisSettings_includeNullAndEmpty,
@@ -442,7 +443,7 @@ module Amazonka.DMS.Types
     kinesisSettings_streamArn,
 
     -- * MicrosoftSQLServerSettings
-    MicrosoftSQLServerSettings (..),
+    MicrosoftSQLServerSettings,
     newMicrosoftSQLServerSettings,
     microsoftSQLServerSettings_bcpPacketSize,
     microsoftSQLServerSettings_controlTablesFileGroup,
@@ -461,7 +462,7 @@ module Amazonka.DMS.Types
     microsoftSQLServerSettings_username,
 
     -- * MongoDbSettings
-    MongoDbSettings (..),
+    MongoDbSettings,
     newMongoDbSettings,
     mongoDbSettings_authMechanism,
     mongoDbSettings_authSource,
@@ -479,7 +480,7 @@ module Amazonka.DMS.Types
     mongoDbSettings_username,
 
     -- * MySQLSettings
-    MySQLSettings (..),
+    MySQLSettings,
     newMySQLSettings,
     mySQLSettings_afterConnectScript,
     mySQLSettings_cleanSourceMetadataOnMismatch,
@@ -497,7 +498,7 @@ module Amazonka.DMS.Types
     mySQLSettings_username,
 
     -- * NeptuneSettings
-    NeptuneSettings (..),
+    NeptuneSettings,
     newNeptuneSettings,
     neptuneSettings_errorRetryDuration,
     neptuneSettings_iamAuthEnabled,
@@ -508,7 +509,7 @@ module Amazonka.DMS.Types
     neptuneSettings_s3BucketFolder,
 
     -- * OracleSettings
-    OracleSettings (..),
+    OracleSettings,
     newOracleSettings,
     oracleSettings_accessAlternateDirectly,
     oracleSettings_addSupplementalLogging,
@@ -553,7 +554,7 @@ module Amazonka.DMS.Types
     oracleSettings_username,
 
     -- * OrderableReplicationInstance
-    OrderableReplicationInstance (..),
+    OrderableReplicationInstance,
     newOrderableReplicationInstance,
     orderableReplicationInstance_availabilityZones,
     orderableReplicationInstance_defaultAllocatedStorage,
@@ -566,7 +567,7 @@ module Amazonka.DMS.Types
     orderableReplicationInstance_storageType,
 
     -- * PendingMaintenanceAction
-    PendingMaintenanceAction (..),
+    PendingMaintenanceAction,
     newPendingMaintenanceAction,
     pendingMaintenanceAction_action,
     pendingMaintenanceAction_autoAppliedAfterDate,
@@ -576,7 +577,7 @@ module Amazonka.DMS.Types
     pendingMaintenanceAction_optInStatus,
 
     -- * PostgreSQLSettings
-    PostgreSQLSettings (..),
+    PostgreSQLSettings,
     newPostgreSQLSettings,
     postgreSQLSettings_afterConnectScript,
     postgreSQLSettings_captureDdls,
@@ -599,7 +600,7 @@ module Amazonka.DMS.Types
     postgreSQLSettings_username,
 
     -- * RedisSettings
-    RedisSettings (..),
+    RedisSettings,
     newRedisSettings,
     redisSettings_authPassword,
     redisSettings_authType,
@@ -610,7 +611,7 @@ module Amazonka.DMS.Types
     redisSettings_port,
 
     -- * RedshiftSettings
-    RedshiftSettings (..),
+    RedshiftSettings,
     newRedshiftSettings,
     redshiftSettings_acceptAnyDate,
     redshiftSettings_afterConnectScript,
@@ -644,7 +645,7 @@ module Amazonka.DMS.Types
     redshiftSettings_writeBufferSize,
 
     -- * RefreshSchemasStatus
-    RefreshSchemasStatus (..),
+    RefreshSchemasStatus,
     newRefreshSchemasStatus,
     refreshSchemasStatus_endpointArn,
     refreshSchemasStatus_lastFailureMessage,
@@ -653,7 +654,7 @@ module Amazonka.DMS.Types
     refreshSchemasStatus_status,
 
     -- * ReplicationInstance
-    ReplicationInstance (..),
+    ReplicationInstance,
     newReplicationInstance,
     replicationInstance_allocatedStorage,
     replicationInstance_autoMinorVersionUpgrade,
@@ -682,14 +683,14 @@ module Amazonka.DMS.Types
     replicationInstance_vpcSecurityGroups,
 
     -- * ReplicationInstanceTaskLog
-    ReplicationInstanceTaskLog (..),
+    ReplicationInstanceTaskLog,
     newReplicationInstanceTaskLog,
     replicationInstanceTaskLog_replicationInstanceTaskLogSize,
     replicationInstanceTaskLog_replicationTaskArn,
     replicationInstanceTaskLog_replicationTaskName,
 
     -- * ReplicationPendingModifiedValues
-    ReplicationPendingModifiedValues (..),
+    ReplicationPendingModifiedValues,
     newReplicationPendingModifiedValues,
     replicationPendingModifiedValues_allocatedStorage,
     replicationPendingModifiedValues_engineVersion,
@@ -698,7 +699,7 @@ module Amazonka.DMS.Types
     replicationPendingModifiedValues_replicationInstanceClass,
 
     -- * ReplicationSubnetGroup
-    ReplicationSubnetGroup (..),
+    ReplicationSubnetGroup,
     newReplicationSubnetGroup,
     replicationSubnetGroup_replicationSubnetGroupDescription,
     replicationSubnetGroup_replicationSubnetGroupIdentifier,
@@ -708,7 +709,7 @@ module Amazonka.DMS.Types
     replicationSubnetGroup_vpcId,
 
     -- * ReplicationTask
-    ReplicationTask (..),
+    ReplicationTask,
     newReplicationTask,
     replicationTask_cdcStartPosition,
     replicationTask_cdcStopPosition,
@@ -731,7 +732,7 @@ module Amazonka.DMS.Types
     replicationTask_taskData,
 
     -- * ReplicationTaskAssessmentResult
-    ReplicationTaskAssessmentResult (..),
+    ReplicationTaskAssessmentResult,
     newReplicationTaskAssessmentResult,
     replicationTaskAssessmentResult_assessmentResults,
     replicationTaskAssessmentResult_assessmentResultsFile,
@@ -742,7 +743,7 @@ module Amazonka.DMS.Types
     replicationTaskAssessmentResult_s3ObjectUrl,
 
     -- * ReplicationTaskAssessmentRun
-    ReplicationTaskAssessmentRun (..),
+    ReplicationTaskAssessmentRun,
     newReplicationTaskAssessmentRun,
     replicationTaskAssessmentRun_assessmentProgress,
     replicationTaskAssessmentRun_assessmentRunName,
@@ -758,13 +759,13 @@ module Amazonka.DMS.Types
     replicationTaskAssessmentRun_status,
 
     -- * ReplicationTaskAssessmentRunProgress
-    ReplicationTaskAssessmentRunProgress (..),
+    ReplicationTaskAssessmentRunProgress,
     newReplicationTaskAssessmentRunProgress,
     replicationTaskAssessmentRunProgress_individualAssessmentCompletedCount,
     replicationTaskAssessmentRunProgress_individualAssessmentCount,
 
     -- * ReplicationTaskIndividualAssessment
-    ReplicationTaskIndividualAssessment (..),
+    ReplicationTaskIndividualAssessment,
     newReplicationTaskIndividualAssessment,
     replicationTaskIndividualAssessment_individualAssessmentName,
     replicationTaskIndividualAssessment_replicationTaskAssessmentRunArn,
@@ -773,7 +774,7 @@ module Amazonka.DMS.Types
     replicationTaskIndividualAssessment_status,
 
     -- * ReplicationTaskStats
-    ReplicationTaskStats (..),
+    ReplicationTaskStats,
     newReplicationTaskStats,
     replicationTaskStats_elapsedTimeMillis,
     replicationTaskStats_freshStartDate,
@@ -788,13 +789,13 @@ module Amazonka.DMS.Types
     replicationTaskStats_tablesQueued,
 
     -- * ResourcePendingMaintenanceActions
-    ResourcePendingMaintenanceActions (..),
+    ResourcePendingMaintenanceActions,
     newResourcePendingMaintenanceActions,
     resourcePendingMaintenanceActions_pendingMaintenanceActionDetails,
     resourcePendingMaintenanceActions_resourceIdentifier,
 
     -- * S3Settings
-    S3Settings (..),
+    S3Settings,
     newS3Settings,
     s3Settings_addColumnName,
     s3Settings_addTrailingPaddingCharacter,
@@ -838,7 +839,7 @@ module Amazonka.DMS.Types
     s3Settings_useTaskStartTimeForFullLoadTimestamp,
 
     -- * SchemaResponse
-    SchemaResponse (..),
+    SchemaResponse,
     newSchemaResponse,
     schemaResponse_codeLineCount,
     schemaResponse_codeSize,
@@ -851,7 +852,7 @@ module Amazonka.DMS.Types
     schemaResponse_similarity,
 
     -- * SchemaShortInfoResponse
-    SchemaShortInfoResponse (..),
+    SchemaShortInfoResponse,
     newSchemaShortInfoResponse,
     schemaShortInfoResponse_databaseId,
     schemaShortInfoResponse_databaseIpAddress,
@@ -860,21 +861,21 @@ module Amazonka.DMS.Types
     schemaShortInfoResponse_schemaName,
 
     -- * ServerShortInfoResponse
-    ServerShortInfoResponse (..),
+    ServerShortInfoResponse,
     newServerShortInfoResponse,
     serverShortInfoResponse_ipAddress,
     serverShortInfoResponse_serverId,
     serverShortInfoResponse_serverName,
 
     -- * Subnet
-    Subnet (..),
+    Subnet,
     newSubnet,
     subnet_subnetAvailabilityZone,
     subnet_subnetIdentifier,
     subnet_subnetStatus,
 
     -- * SupportedEndpointType
-    SupportedEndpointType (..),
+    SupportedEndpointType,
     newSupportedEndpointType,
     supportedEndpointType_endpointType,
     supportedEndpointType_engineDisplayName,
@@ -883,7 +884,7 @@ module Amazonka.DMS.Types
     supportedEndpointType_supportsCDC,
 
     -- * SybaseSettings
-    SybaseSettings (..),
+    SybaseSettings,
     newSybaseSettings,
     sybaseSettings_databaseName,
     sybaseSettings_password,
@@ -894,7 +895,7 @@ module Amazonka.DMS.Types
     sybaseSettings_username,
 
     -- * TableStatistics
-    TableStatistics (..),
+    TableStatistics,
     newTableStatistics,
     tableStatistics_appliedDdls,
     tableStatistics_appliedDeletes,
@@ -921,20 +922,20 @@ module Amazonka.DMS.Types
     tableStatistics_validationSuspendedRecords,
 
     -- * TableToReload
-    TableToReload (..),
+    TableToReload,
     newTableToReload,
     tableToReload_schemaName,
     tableToReload_tableName,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_resourceArn,
     tag_value,
 
     -- * VpcSecurityGroupMembership
-    VpcSecurityGroupMembership (..),
+    VpcSecurityGroupMembership,
     newVpcSecurityGroupMembership,
     vpcSecurityGroupMembership_status,
     vpcSecurityGroupMembership_vpcSecurityGroupId,

@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -39,49 +40,49 @@ module Amazonka.WAF.Types
     _WAFTagOperationInternalErrorException,
 
     -- * ChangeAction
-    ChangeAction (..),
+    ChangeAction,
 
     -- * ChangeTokenStatus
-    ChangeTokenStatus (..),
+    ChangeTokenStatus,
 
     -- * ComparisonOperator
-    ComparisonOperator (..),
+    ComparisonOperator,
 
     -- * GeoMatchConstraintType
-    GeoMatchConstraintType (..),
+    GeoMatchConstraintType,
 
     -- * GeoMatchConstraintValue
-    GeoMatchConstraintValue (..),
+    GeoMatchConstraintValue,
 
     -- * IPSetDescriptorType
-    IPSetDescriptorType (..),
+    IPSetDescriptorType,
 
     -- * MatchFieldType
-    MatchFieldType (..),
+    MatchFieldType,
 
     -- * PositionalConstraint
-    PositionalConstraint (..),
+    PositionalConstraint,
 
     -- * PredicateType
-    PredicateType (..),
+    PredicateType,
 
     -- * RateKey
-    RateKey (..),
+    RateKey,
 
     -- * TextTransformation
-    TextTransformation (..),
+    TextTransformation,
 
     -- * WafActionType
-    WafActionType (..),
+    WafActionType,
 
     -- * WafOverrideActionType
-    WafOverrideActionType (..),
+    WafOverrideActionType,
 
     -- * WafRuleType
-    WafRuleType (..),
+    WafRuleType,
 
     -- * ActivatedRule
-    ActivatedRule (..),
+    ActivatedRule,
     newActivatedRule,
     activatedRule_action,
     activatedRule_excludedRules,
@@ -91,26 +92,26 @@ module Amazonka.WAF.Types
     activatedRule_ruleId,
 
     -- * ByteMatchSet
-    ByteMatchSet (..),
+    ByteMatchSet,
     newByteMatchSet,
     byteMatchSet_name,
     byteMatchSet_byteMatchSetId,
     byteMatchSet_byteMatchTuples,
 
     -- * ByteMatchSetSummary
-    ByteMatchSetSummary (..),
+    ByteMatchSetSummary,
     newByteMatchSetSummary,
     byteMatchSetSummary_byteMatchSetId,
     byteMatchSetSummary_name,
 
     -- * ByteMatchSetUpdate
-    ByteMatchSetUpdate (..),
+    ByteMatchSetUpdate,
     newByteMatchSetUpdate,
     byteMatchSetUpdate_action,
     byteMatchSetUpdate_byteMatchTuple,
 
     -- * ByteMatchTuple
-    ByteMatchTuple (..),
+    ByteMatchTuple,
     newByteMatchTuple,
     byteMatchTuple_fieldToMatch,
     byteMatchTuple_targetString,
@@ -118,49 +119,49 @@ module Amazonka.WAF.Types
     byteMatchTuple_positionalConstraint,
 
     -- * ExcludedRule
-    ExcludedRule (..),
+    ExcludedRule,
     newExcludedRule,
     excludedRule_ruleId,
 
     -- * FieldToMatch
-    FieldToMatch (..),
+    FieldToMatch,
     newFieldToMatch,
     fieldToMatch_data,
     fieldToMatch_type,
 
     -- * GeoMatchConstraint
-    GeoMatchConstraint (..),
+    GeoMatchConstraint,
     newGeoMatchConstraint,
     geoMatchConstraint_type,
     geoMatchConstraint_value,
 
     -- * GeoMatchSet
-    GeoMatchSet (..),
+    GeoMatchSet,
     newGeoMatchSet,
     geoMatchSet_name,
     geoMatchSet_geoMatchSetId,
     geoMatchSet_geoMatchConstraints,
 
     -- * GeoMatchSetSummary
-    GeoMatchSetSummary (..),
+    GeoMatchSetSummary,
     newGeoMatchSetSummary,
     geoMatchSetSummary_geoMatchSetId,
     geoMatchSetSummary_name,
 
     -- * GeoMatchSetUpdate
-    GeoMatchSetUpdate (..),
+    GeoMatchSetUpdate,
     newGeoMatchSetUpdate,
     geoMatchSetUpdate_action,
     geoMatchSetUpdate_geoMatchConstraint,
 
     -- * HTTPHeader
-    HTTPHeader (..),
+    HTTPHeader,
     newHTTPHeader,
     hTTPHeader_name,
     hTTPHeader_value,
 
     -- * HTTPRequest
-    HTTPRequest (..),
+    HTTPRequest,
     newHTTPRequest,
     hTTPRequest_clientIP,
     hTTPRequest_country,
@@ -170,46 +171,46 @@ module Amazonka.WAF.Types
     hTTPRequest_uri,
 
     -- * IPSet
-    IPSet (..),
+    IPSet,
     newIPSet,
     iPSet_name,
     iPSet_iPSetId,
     iPSet_iPSetDescriptors,
 
     -- * IPSetDescriptor
-    IPSetDescriptor (..),
+    IPSetDescriptor,
     newIPSetDescriptor,
     iPSetDescriptor_type,
     iPSetDescriptor_value,
 
     -- * IPSetSummary
-    IPSetSummary (..),
+    IPSetSummary,
     newIPSetSummary,
     iPSetSummary_iPSetId,
     iPSetSummary_name,
 
     -- * IPSetUpdate
-    IPSetUpdate (..),
+    IPSetUpdate,
     newIPSetUpdate,
     iPSetUpdate_action,
     iPSetUpdate_iPSetDescriptor,
 
     -- * LoggingConfiguration
-    LoggingConfiguration (..),
+    LoggingConfiguration,
     newLoggingConfiguration,
     loggingConfiguration_redactedFields,
     loggingConfiguration_resourceArn,
     loggingConfiguration_logDestinationConfigs,
 
     -- * Predicate
-    Predicate (..),
+    Predicate,
     newPredicate,
     predicate_negated,
     predicate_type,
     predicate_dataId,
 
     -- * RateBasedRule
-    RateBasedRule (..),
+    RateBasedRule,
     newRateBasedRule,
     rateBasedRule_metricName,
     rateBasedRule_name,
@@ -219,52 +220,52 @@ module Amazonka.WAF.Types
     rateBasedRule_rateLimit,
 
     -- * RegexMatchSet
-    RegexMatchSet (..),
+    RegexMatchSet,
     newRegexMatchSet,
     regexMatchSet_name,
     regexMatchSet_regexMatchSetId,
     regexMatchSet_regexMatchTuples,
 
     -- * RegexMatchSetSummary
-    RegexMatchSetSummary (..),
+    RegexMatchSetSummary,
     newRegexMatchSetSummary,
     regexMatchSetSummary_regexMatchSetId,
     regexMatchSetSummary_name,
 
     -- * RegexMatchSetUpdate
-    RegexMatchSetUpdate (..),
+    RegexMatchSetUpdate,
     newRegexMatchSetUpdate,
     regexMatchSetUpdate_action,
     regexMatchSetUpdate_regexMatchTuple,
 
     -- * RegexMatchTuple
-    RegexMatchTuple (..),
+    RegexMatchTuple,
     newRegexMatchTuple,
     regexMatchTuple_fieldToMatch,
     regexMatchTuple_textTransformation,
     regexMatchTuple_regexPatternSetId,
 
     -- * RegexPatternSet
-    RegexPatternSet (..),
+    RegexPatternSet,
     newRegexPatternSet,
     regexPatternSet_name,
     regexPatternSet_regexPatternSetId,
     regexPatternSet_regexPatternStrings,
 
     -- * RegexPatternSetSummary
-    RegexPatternSetSummary (..),
+    RegexPatternSetSummary,
     newRegexPatternSetSummary,
     regexPatternSetSummary_regexPatternSetId,
     regexPatternSetSummary_name,
 
     -- * RegexPatternSetUpdate
-    RegexPatternSetUpdate (..),
+    RegexPatternSetUpdate,
     newRegexPatternSetUpdate,
     regexPatternSetUpdate_action,
     regexPatternSetUpdate_regexPatternString,
 
     -- * Rule
-    Rule (..),
+    Rule,
     newRule,
     rule_metricName,
     rule_name,
@@ -272,38 +273,38 @@ module Amazonka.WAF.Types
     rule_predicates,
 
     -- * RuleGroup
-    RuleGroup (..),
+    RuleGroup,
     newRuleGroup,
     ruleGroup_metricName,
     ruleGroup_name,
     ruleGroup_ruleGroupId,
 
     -- * RuleGroupSummary
-    RuleGroupSummary (..),
+    RuleGroupSummary,
     newRuleGroupSummary,
     ruleGroupSummary_ruleGroupId,
     ruleGroupSummary_name,
 
     -- * RuleGroupUpdate
-    RuleGroupUpdate (..),
+    RuleGroupUpdate,
     newRuleGroupUpdate,
     ruleGroupUpdate_action,
     ruleGroupUpdate_activatedRule,
 
     -- * RuleSummary
-    RuleSummary (..),
+    RuleSummary,
     newRuleSummary,
     ruleSummary_ruleId,
     ruleSummary_name,
 
     -- * RuleUpdate
-    RuleUpdate (..),
+    RuleUpdate,
     newRuleUpdate,
     ruleUpdate_action,
     ruleUpdate_predicate,
 
     -- * SampledHTTPRequest
-    SampledHTTPRequest (..),
+    SampledHTTPRequest,
     newSampledHTTPRequest,
     sampledHTTPRequest_action,
     sampledHTTPRequest_ruleWithinRuleGroup,
@@ -312,7 +313,7 @@ module Amazonka.WAF.Types
     sampledHTTPRequest_weight,
 
     -- * SizeConstraint
-    SizeConstraint (..),
+    SizeConstraint,
     newSizeConstraint,
     sizeConstraint_fieldToMatch,
     sizeConstraint_textTransformation,
@@ -320,86 +321,86 @@ module Amazonka.WAF.Types
     sizeConstraint_size,
 
     -- * SizeConstraintSet
-    SizeConstraintSet (..),
+    SizeConstraintSet,
     newSizeConstraintSet,
     sizeConstraintSet_name,
     sizeConstraintSet_sizeConstraintSetId,
     sizeConstraintSet_sizeConstraints,
 
     -- * SizeConstraintSetSummary
-    SizeConstraintSetSummary (..),
+    SizeConstraintSetSummary,
     newSizeConstraintSetSummary,
     sizeConstraintSetSummary_sizeConstraintSetId,
     sizeConstraintSetSummary_name,
 
     -- * SizeConstraintSetUpdate
-    SizeConstraintSetUpdate (..),
+    SizeConstraintSetUpdate,
     newSizeConstraintSetUpdate,
     sizeConstraintSetUpdate_action,
     sizeConstraintSetUpdate_sizeConstraint,
 
     -- * SqlInjectionMatchSet
-    SqlInjectionMatchSet (..),
+    SqlInjectionMatchSet,
     newSqlInjectionMatchSet,
     sqlInjectionMatchSet_name,
     sqlInjectionMatchSet_sqlInjectionMatchSetId,
     sqlInjectionMatchSet_sqlInjectionMatchTuples,
 
     -- * SqlInjectionMatchSetSummary
-    SqlInjectionMatchSetSummary (..),
+    SqlInjectionMatchSetSummary,
     newSqlInjectionMatchSetSummary,
     sqlInjectionMatchSetSummary_sqlInjectionMatchSetId,
     sqlInjectionMatchSetSummary_name,
 
     -- * SqlInjectionMatchSetUpdate
-    SqlInjectionMatchSetUpdate (..),
+    SqlInjectionMatchSetUpdate,
     newSqlInjectionMatchSetUpdate,
     sqlInjectionMatchSetUpdate_action,
     sqlInjectionMatchSetUpdate_sqlInjectionMatchTuple,
 
     -- * SqlInjectionMatchTuple
-    SqlInjectionMatchTuple (..),
+    SqlInjectionMatchTuple,
     newSqlInjectionMatchTuple,
     sqlInjectionMatchTuple_fieldToMatch,
     sqlInjectionMatchTuple_textTransformation,
 
     -- * SubscribedRuleGroupSummary
-    SubscribedRuleGroupSummary (..),
+    SubscribedRuleGroupSummary,
     newSubscribedRuleGroupSummary,
     subscribedRuleGroupSummary_ruleGroupId,
     subscribedRuleGroupSummary_name,
     subscribedRuleGroupSummary_metricName,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,
 
     -- * TagInfoForResource
-    TagInfoForResource (..),
+    TagInfoForResource,
     newTagInfoForResource,
     tagInfoForResource_resourceARN,
     tagInfoForResource_tagList,
 
     -- * TimeWindow
-    TimeWindow (..),
+    TimeWindow,
     newTimeWindow,
     timeWindow_startTime,
     timeWindow_endTime,
 
     -- * WafAction
-    WafAction (..),
+    WafAction,
     newWafAction,
     wafAction_type,
 
     -- * WafOverrideAction
-    WafOverrideAction (..),
+    WafOverrideAction,
     newWafOverrideAction,
     wafOverrideAction_type,
 
     -- * WebACL
-    WebACL (..),
+    WebACL,
     newWebACL,
     webACL_metricName,
     webACL_name,
@@ -409,38 +410,38 @@ module Amazonka.WAF.Types
     webACL_rules,
 
     -- * WebACLSummary
-    WebACLSummary (..),
+    WebACLSummary,
     newWebACLSummary,
     webACLSummary_webACLId,
     webACLSummary_name,
 
     -- * WebACLUpdate
-    WebACLUpdate (..),
+    WebACLUpdate,
     newWebACLUpdate,
     webACLUpdate_action,
     webACLUpdate_activatedRule,
 
     -- * XssMatchSet
-    XssMatchSet (..),
+    XssMatchSet,
     newXssMatchSet,
     xssMatchSet_name,
     xssMatchSet_xssMatchSetId,
     xssMatchSet_xssMatchTuples,
 
     -- * XssMatchSetSummary
-    XssMatchSetSummary (..),
+    XssMatchSetSummary,
     newXssMatchSetSummary,
     xssMatchSetSummary_xssMatchSetId,
     xssMatchSetSummary_name,
 
     -- * XssMatchSetUpdate
-    XssMatchSetUpdate (..),
+    XssMatchSetUpdate,
     newXssMatchSetUpdate,
     xssMatchSetUpdate_action,
     xssMatchSetUpdate_xssMatchTuple,
 
     -- * XssMatchTuple
-    XssMatchTuple (..),
+    XssMatchTuple,
     newXssMatchTuple,
     xssMatchTuple_fieldToMatch,
     xssMatchTuple_textTransformation,

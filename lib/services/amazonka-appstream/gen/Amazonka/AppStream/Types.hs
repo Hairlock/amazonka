@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -34,97 +35,97 @@ module Amazonka.AppStream.Types
     _ResourceNotFoundException,
 
     -- * AccessEndpointType
-    AccessEndpointType (..),
+    AccessEndpointType,
 
     -- * Action
-    Action (..),
+    Action,
 
     -- * AppVisibility
-    AppVisibility (..),
+    AppVisibility,
 
     -- * ApplicationAttribute
-    ApplicationAttribute (..),
+    ApplicationAttribute,
 
     -- * AuthenticationType
-    AuthenticationType (..),
+    AuthenticationType,
 
     -- * CertificateBasedAuthStatus
-    CertificateBasedAuthStatus (..),
+    CertificateBasedAuthStatus,
 
     -- * FleetAttribute
-    FleetAttribute (..),
+    FleetAttribute,
 
     -- * FleetErrorCode
-    FleetErrorCode (..),
+    FleetErrorCode,
 
     -- * FleetState
-    FleetState (..),
+    FleetState,
 
     -- * FleetType
-    FleetType (..),
+    FleetType,
 
     -- * ImageBuilderState
-    ImageBuilderState (..),
+    ImageBuilderState,
 
     -- * ImageBuilderStateChangeReasonCode
-    ImageBuilderStateChangeReasonCode (..),
+    ImageBuilderStateChangeReasonCode,
 
     -- * ImageState
-    ImageState (..),
+    ImageState,
 
     -- * ImageStateChangeReasonCode
-    ImageStateChangeReasonCode (..),
+    ImageStateChangeReasonCode,
 
     -- * MessageAction
-    MessageAction (..),
+    MessageAction,
 
     -- * Permission
-    Permission (..),
+    Permission,
 
     -- * PlatformType
-    PlatformType (..),
+    PlatformType,
 
     -- * PreferredProtocol
-    PreferredProtocol (..),
+    PreferredProtocol,
 
     -- * SessionConnectionState
-    SessionConnectionState (..),
+    SessionConnectionState,
 
     -- * SessionState
-    SessionState (..),
+    SessionState,
 
     -- * StackAttribute
-    StackAttribute (..),
+    StackAttribute,
 
     -- * StackErrorCode
-    StackErrorCode (..),
+    StackErrorCode,
 
     -- * StorageConnectorType
-    StorageConnectorType (..),
+    StorageConnectorType,
 
     -- * StreamView
-    StreamView (..),
+    StreamView,
 
     -- * UsageReportExecutionErrorCode
-    UsageReportExecutionErrorCode (..),
+    UsageReportExecutionErrorCode,
 
     -- * UsageReportSchedule
-    UsageReportSchedule (..),
+    UsageReportSchedule,
 
     -- * UserStackAssociationErrorCode
-    UserStackAssociationErrorCode (..),
+    UserStackAssociationErrorCode,
 
     -- * VisibilityType
-    VisibilityType (..),
+    VisibilityType,
 
     -- * AccessEndpoint
-    AccessEndpoint (..),
+    AccessEndpoint,
     newAccessEndpoint,
     accessEndpoint_vpceId,
     accessEndpoint_endpointType,
 
     -- * AppBlock
-    AppBlock (..),
+    AppBlock,
     newAppBlock,
     appBlock_createdTime,
     appBlock_description,
@@ -135,7 +136,7 @@ module Amazonka.AppStream.Types
     appBlock_setupScriptDetails,
 
     -- * Application
-    Application (..),
+    Application,
     newApplication,
     application_appBlockArn,
     application_arn,
@@ -154,37 +155,37 @@ module Amazonka.AppStream.Types
     application_workingDirectory,
 
     -- * ApplicationFleetAssociation
-    ApplicationFleetAssociation (..),
+    ApplicationFleetAssociation,
     newApplicationFleetAssociation,
     applicationFleetAssociation_fleetName,
     applicationFleetAssociation_applicationArn,
 
     -- * ApplicationSettings
-    ApplicationSettings (..),
+    ApplicationSettings,
     newApplicationSettings,
     applicationSettings_settingsGroup,
     applicationSettings_enabled,
 
     -- * ApplicationSettingsResponse
-    ApplicationSettingsResponse (..),
+    ApplicationSettingsResponse,
     newApplicationSettingsResponse,
     applicationSettingsResponse_enabled,
     applicationSettingsResponse_s3BucketName,
     applicationSettingsResponse_settingsGroup,
 
     -- * CertificateBasedAuthProperties
-    CertificateBasedAuthProperties (..),
+    CertificateBasedAuthProperties,
     newCertificateBasedAuthProperties,
     certificateBasedAuthProperties_certificateAuthorityArn,
     certificateBasedAuthProperties_status,
 
     -- * ComputeCapacity
-    ComputeCapacity (..),
+    ComputeCapacity,
     newComputeCapacity,
     computeCapacity_desiredInstances,
 
     -- * ComputeCapacityStatus
-    ComputeCapacityStatus (..),
+    ComputeCapacityStatus,
     newComputeCapacityStatus,
     computeCapacityStatus_available,
     computeCapacityStatus_inUse,
@@ -192,7 +193,7 @@ module Amazonka.AppStream.Types
     computeCapacityStatus_desired,
 
     -- * DirectoryConfig
-    DirectoryConfig (..),
+    DirectoryConfig,
     newDirectoryConfig,
     directoryConfig_certificateBasedAuthProperties,
     directoryConfig_createdTime,
@@ -201,18 +202,18 @@ module Amazonka.AppStream.Types
     directoryConfig_directoryName,
 
     -- * DomainJoinInfo
-    DomainJoinInfo (..),
+    DomainJoinInfo,
     newDomainJoinInfo,
     domainJoinInfo_directoryName,
     domainJoinInfo_organizationalUnitDistinguishedName,
 
     -- * EntitledApplication
-    EntitledApplication (..),
+    EntitledApplication,
     newEntitledApplication,
     entitledApplication_applicationIdentifier,
 
     -- * Entitlement
-    Entitlement (..),
+    Entitlement,
     newEntitlement,
     entitlement_createdTime,
     entitlement_description,
@@ -223,13 +224,13 @@ module Amazonka.AppStream.Types
     entitlement_attributes,
 
     -- * EntitlementAttribute
-    EntitlementAttribute (..),
+    EntitlementAttribute,
     newEntitlementAttribute,
     entitlementAttribute_name,
     entitlementAttribute_value,
 
     -- * Fleet
-    Fleet (..),
+    Fleet,
     newFleet,
     fleet_createdTime,
     fleet_description,
@@ -257,13 +258,13 @@ module Amazonka.AppStream.Types
     fleet_state,
 
     -- * FleetError
-    FleetError (..),
+    FleetError,
     newFleetError,
     fleetError_errorCode,
     fleetError_errorMessage,
 
     -- * Image
-    Image (..),
+    Image,
     newImage,
     image_applications,
     image_appstreamAgentVersion,
@@ -284,7 +285,7 @@ module Amazonka.AppStream.Types
     image_name,
 
     -- * ImageBuilder
-    ImageBuilder (..),
+    ImageBuilder,
     newImageBuilder,
     imageBuilder_accessEndpoints,
     imageBuilder_appstreamAgentVersion,
@@ -306,50 +307,50 @@ module Amazonka.AppStream.Types
     imageBuilder_name,
 
     -- * ImageBuilderStateChangeReason
-    ImageBuilderStateChangeReason (..),
+    ImageBuilderStateChangeReason,
     newImageBuilderStateChangeReason,
     imageBuilderStateChangeReason_code,
     imageBuilderStateChangeReason_message,
 
     -- * ImagePermissions
-    ImagePermissions (..),
+    ImagePermissions,
     newImagePermissions,
     imagePermissions_allowFleet,
     imagePermissions_allowImageBuilder,
 
     -- * ImageStateChangeReason
-    ImageStateChangeReason (..),
+    ImageStateChangeReason,
     newImageStateChangeReason,
     imageStateChangeReason_code,
     imageStateChangeReason_message,
 
     -- * LastReportGenerationExecutionError
-    LastReportGenerationExecutionError (..),
+    LastReportGenerationExecutionError,
     newLastReportGenerationExecutionError,
     lastReportGenerationExecutionError_errorCode,
     lastReportGenerationExecutionError_errorMessage,
 
     -- * NetworkAccessConfiguration
-    NetworkAccessConfiguration (..),
+    NetworkAccessConfiguration,
     newNetworkAccessConfiguration,
     networkAccessConfiguration_eniId,
     networkAccessConfiguration_eniPrivateIpAddress,
 
     -- * ResourceError
-    ResourceError (..),
+    ResourceError,
     newResourceError,
     resourceError_errorCode,
     resourceError_errorMessage,
     resourceError_errorTimestamp,
 
     -- * S3Location
-    S3Location (..),
+    S3Location,
     newS3Location,
     s3Location_s3Bucket,
     s3Location_s3Key,
 
     -- * ScriptDetails
-    ScriptDetails (..),
+    ScriptDetails,
     newScriptDetails,
     scriptDetails_executableParameters,
     scriptDetails_scriptS3Location,
@@ -357,13 +358,13 @@ module Amazonka.AppStream.Types
     scriptDetails_timeoutInSeconds,
 
     -- * ServiceAccountCredentials
-    ServiceAccountCredentials (..),
+    ServiceAccountCredentials,
     newServiceAccountCredentials,
     serviceAccountCredentials_accountName,
     serviceAccountCredentials_accountPassword,
 
     -- * Session
-    Session (..),
+    Session,
     newSession,
     session_authenticationType,
     session_connectionState,
@@ -377,13 +378,13 @@ module Amazonka.AppStream.Types
     session_state,
 
     -- * SharedImagePermissions
-    SharedImagePermissions (..),
+    SharedImagePermissions,
     newSharedImagePermissions,
     sharedImagePermissions_sharedAccountId,
     sharedImagePermissions_imagePermissions,
 
     -- * Stack
-    Stack (..),
+    Stack,
     newStack,
     stack_accessEndpoints,
     stack_applicationSettings,
@@ -401,25 +402,25 @@ module Amazonka.AppStream.Types
     stack_name,
 
     -- * StackError
-    StackError (..),
+    StackError,
     newStackError,
     stackError_errorCode,
     stackError_errorMessage,
 
     -- * StorageConnector
-    StorageConnector (..),
+    StorageConnector,
     newStorageConnector,
     storageConnector_domains,
     storageConnector_resourceIdentifier,
     storageConnector_connectorType,
 
     -- * StreamingExperienceSettings
-    StreamingExperienceSettings (..),
+    StreamingExperienceSettings,
     newStreamingExperienceSettings,
     streamingExperienceSettings_preferredProtocol,
 
     -- * UsageReportSubscription
-    UsageReportSubscription (..),
+    UsageReportSubscription,
     newUsageReportSubscription,
     usageReportSubscription_lastGeneratedReportDate,
     usageReportSubscription_s3BucketName,
@@ -427,7 +428,7 @@ module Amazonka.AppStream.Types
     usageReportSubscription_subscriptionErrors,
 
     -- * User
-    User (..),
+    User,
     newUser,
     user_arn,
     user_createdTime,
@@ -439,13 +440,13 @@ module Amazonka.AppStream.Types
     user_authenticationType,
 
     -- * UserSetting
-    UserSetting (..),
+    UserSetting,
     newUserSetting,
     userSetting_action,
     userSetting_permission,
 
     -- * UserStackAssociation
-    UserStackAssociation (..),
+    UserStackAssociation,
     newUserStackAssociation,
     userStackAssociation_sendEmailNotification,
     userStackAssociation_stackName,
@@ -453,14 +454,14 @@ module Amazonka.AppStream.Types
     userStackAssociation_authenticationType,
 
     -- * UserStackAssociationError
-    UserStackAssociationError (..),
+    UserStackAssociationError,
     newUserStackAssociationError,
     userStackAssociationError_errorCode,
     userStackAssociationError_errorMessage,
     userStackAssociationError_userStackAssociation,
 
     -- * VpcConfig
-    VpcConfig (..),
+    VpcConfig,
     newVpcConfig,
     vpcConfig_securityGroupIds,
     vpcConfig_subnetIds,

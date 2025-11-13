@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -57,106 +58,106 @@ module Amazonka.DirectoryService.Types
     _UserDoesNotExistException,
 
     -- * CertificateState
-    CertificateState (..),
+    CertificateState,
 
     -- * CertificateType
-    CertificateType (..),
+    CertificateType,
 
     -- * ClientAuthenticationStatus
-    ClientAuthenticationStatus (..),
+    ClientAuthenticationStatus,
 
     -- * ClientAuthenticationType
-    ClientAuthenticationType (..),
+    ClientAuthenticationType,
 
     -- * DirectoryConfigurationStatus
-    DirectoryConfigurationStatus (..),
+    DirectoryConfigurationStatus,
 
     -- * DirectoryEdition
-    DirectoryEdition (..),
+    DirectoryEdition,
 
     -- * DirectorySize
-    DirectorySize (..),
+    DirectorySize,
 
     -- * DirectoryStage
-    DirectoryStage (..),
+    DirectoryStage,
 
     -- * DirectoryType
-    DirectoryType (..),
+    DirectoryType,
 
     -- * DomainControllerStatus
-    DomainControllerStatus (..),
+    DomainControllerStatus,
 
     -- * IpRouteStatusMsg
-    IpRouteStatusMsg (..),
+    IpRouteStatusMsg,
 
     -- * LDAPSStatus
-    LDAPSStatus (..),
+    LDAPSStatus,
 
     -- * LDAPSType
-    LDAPSType (..),
+    LDAPSType,
 
     -- * OSVersion
-    OSVersion (..),
+    OSVersion,
 
     -- * RadiusAuthenticationProtocol
-    RadiusAuthenticationProtocol (..),
+    RadiusAuthenticationProtocol,
 
     -- * RadiusStatus
-    RadiusStatus (..),
+    RadiusStatus,
 
     -- * RegionType
-    RegionType (..),
+    RegionType,
 
     -- * ReplicationScope
-    ReplicationScope (..),
+    ReplicationScope,
 
     -- * SchemaExtensionStatus
-    SchemaExtensionStatus (..),
+    SchemaExtensionStatus,
 
     -- * SelectiveAuth
-    SelectiveAuth (..),
+    SelectiveAuth,
 
     -- * ShareMethod
-    ShareMethod (..),
+    ShareMethod,
 
     -- * ShareStatus
-    ShareStatus (..),
+    ShareStatus,
 
     -- * SnapshotStatus
-    SnapshotStatus (..),
+    SnapshotStatus,
 
     -- * SnapshotType
-    SnapshotType (..),
+    SnapshotType,
 
     -- * TargetType
-    TargetType (..),
+    TargetType,
 
     -- * TopicStatus
-    TopicStatus (..),
+    TopicStatus,
 
     -- * TrustDirection
-    TrustDirection (..),
+    TrustDirection,
 
     -- * TrustState
-    TrustState (..),
+    TrustState,
 
     -- * TrustType
-    TrustType (..),
+    TrustType,
 
     -- * UpdateStatus
-    UpdateStatus (..),
+    UpdateStatus,
 
     -- * UpdateType
-    UpdateType (..),
+    UpdateType,
 
     -- * Attribute
-    Attribute (..),
+    Attribute,
     newAttribute,
     attribute_name,
     attribute_value,
 
     -- * Certificate
-    Certificate (..),
+    Certificate,
     newCertificate,
     certificate_certificateId,
     certificate_clientCertAuthSettings,
@@ -168,7 +169,7 @@ module Amazonka.DirectoryService.Types
     certificate_type,
 
     -- * CertificateInfo
-    CertificateInfo (..),
+    CertificateInfo,
     newCertificateInfo,
     certificateInfo_certificateId,
     certificateInfo_commonName,
@@ -177,33 +178,33 @@ module Amazonka.DirectoryService.Types
     certificateInfo_type,
 
     -- * ClientAuthenticationSettingInfo
-    ClientAuthenticationSettingInfo (..),
+    ClientAuthenticationSettingInfo,
     newClientAuthenticationSettingInfo,
     clientAuthenticationSettingInfo_lastUpdatedDateTime,
     clientAuthenticationSettingInfo_status,
     clientAuthenticationSettingInfo_type,
 
     -- * ClientCertAuthSettings
-    ClientCertAuthSettings (..),
+    ClientCertAuthSettings,
     newClientCertAuthSettings,
     clientCertAuthSettings_oCSPUrl,
 
     -- * Computer
-    Computer (..),
+    Computer,
     newComputer,
     computer_computerAttributes,
     computer_computerId,
     computer_computerName,
 
     -- * ConditionalForwarder
-    ConditionalForwarder (..),
+    ConditionalForwarder,
     newConditionalForwarder,
     conditionalForwarder_dnsIpAddrs,
     conditionalForwarder_remoteDomainName,
     conditionalForwarder_replicationScope,
 
     -- * DirectoryConnectSettings
-    DirectoryConnectSettings (..),
+    DirectoryConnectSettings,
     newDirectoryConnectSettings,
     directoryConnectSettings_vpcId,
     directoryConnectSettings_subnetIds,
@@ -211,7 +212,7 @@ module Amazonka.DirectoryService.Types
     directoryConnectSettings_customerUserName,
 
     -- * DirectoryConnectSettingsDescription
-    DirectoryConnectSettingsDescription (..),
+    DirectoryConnectSettingsDescription,
     newDirectoryConnectSettingsDescription,
     directoryConnectSettingsDescription_availabilityZones,
     directoryConnectSettingsDescription_connectIps,
@@ -221,7 +222,7 @@ module Amazonka.DirectoryService.Types
     directoryConnectSettingsDescription_vpcId,
 
     -- * DirectoryDescription
-    DirectoryDescription (..),
+    DirectoryDescription,
     newDirectoryDescription,
     directoryDescription_accessUrl,
     directoryDescription_alias,
@@ -251,7 +252,7 @@ module Amazonka.DirectoryService.Types
     directoryDescription_vpcSettings,
 
     -- * DirectoryLimits
-    DirectoryLimits (..),
+    DirectoryLimits,
     newDirectoryLimits,
     directoryLimits_cloudOnlyDirectoriesCurrentCount,
     directoryLimits_cloudOnlyDirectoriesLimit,
@@ -264,13 +265,13 @@ module Amazonka.DirectoryService.Types
     directoryLimits_connectedDirectoriesLimitReached,
 
     -- * DirectoryVpcSettings
-    DirectoryVpcSettings (..),
+    DirectoryVpcSettings,
     newDirectoryVpcSettings,
     directoryVpcSettings_vpcId,
     directoryVpcSettings_subnetIds,
 
     -- * DirectoryVpcSettingsDescription
-    DirectoryVpcSettingsDescription (..),
+    DirectoryVpcSettingsDescription,
     newDirectoryVpcSettingsDescription,
     directoryVpcSettingsDescription_availabilityZones,
     directoryVpcSettingsDescription_securityGroupId,
@@ -278,7 +279,7 @@ module Amazonka.DirectoryService.Types
     directoryVpcSettingsDescription_vpcId,
 
     -- * DomainController
-    DomainController (..),
+    DomainController,
     newDomainController,
     domainController_availabilityZone,
     domainController_directoryId,
@@ -292,7 +293,7 @@ module Amazonka.DirectoryService.Types
     domainController_vpcId,
 
     -- * EventTopic
-    EventTopic (..),
+    EventTopic,
     newEventTopic,
     eventTopic_createdDateTime,
     eventTopic_directoryId,
@@ -301,13 +302,13 @@ module Amazonka.DirectoryService.Types
     eventTopic_topicName,
 
     -- * IpRoute
-    IpRoute (..),
+    IpRoute,
     newIpRoute,
     ipRoute_cidrIp,
     ipRoute_description,
 
     -- * IpRouteInfo
-    IpRouteInfo (..),
+    IpRouteInfo,
     newIpRouteInfo,
     ipRouteInfo_addedDateTime,
     ipRouteInfo_cidrIp,
@@ -317,26 +318,26 @@ module Amazonka.DirectoryService.Types
     ipRouteInfo_ipRouteStatusReason,
 
     -- * LDAPSSettingInfo
-    LDAPSSettingInfo (..),
+    LDAPSSettingInfo,
     newLDAPSSettingInfo,
     lDAPSSettingInfo_lDAPSStatus,
     lDAPSSettingInfo_lDAPSStatusReason,
     lDAPSSettingInfo_lastUpdatedDateTime,
 
     -- * LogSubscription
-    LogSubscription (..),
+    LogSubscription,
     newLogSubscription,
     logSubscription_directoryId,
     logSubscription_logGroupName,
     logSubscription_subscriptionCreatedDateTime,
 
     -- * OSUpdateSettings
-    OSUpdateSettings (..),
+    OSUpdateSettings,
     newOSUpdateSettings,
     oSUpdateSettings_oSVersion,
 
     -- * OwnerDirectoryDescription
-    OwnerDirectoryDescription (..),
+    OwnerDirectoryDescription,
     newOwnerDirectoryDescription,
     ownerDirectoryDescription_accountId,
     ownerDirectoryDescription_directoryId,
@@ -346,7 +347,7 @@ module Amazonka.DirectoryService.Types
     ownerDirectoryDescription_vpcSettings,
 
     -- * RadiusSettings
-    RadiusSettings (..),
+    RadiusSettings,
     newRadiusSettings,
     radiusSettings_authenticationProtocol,
     radiusSettings_displayLabel,
@@ -358,7 +359,7 @@ module Amazonka.DirectoryService.Types
     radiusSettings_useSameUsername,
 
     -- * RegionDescription
-    RegionDescription (..),
+    RegionDescription,
     newRegionDescription,
     regionDescription_desiredNumberOfDomainControllers,
     regionDescription_directoryId,
@@ -371,13 +372,13 @@ module Amazonka.DirectoryService.Types
     regionDescription_vpcSettings,
 
     -- * RegionsInfo
-    RegionsInfo (..),
+    RegionsInfo,
     newRegionsInfo,
     regionsInfo_additionalRegions,
     regionsInfo_primaryRegion,
 
     -- * SchemaExtensionInfo
-    SchemaExtensionInfo (..),
+    SchemaExtensionInfo,
     newSchemaExtensionInfo,
     schemaExtensionInfo_description,
     schemaExtensionInfo_directoryId,
@@ -388,13 +389,13 @@ module Amazonka.DirectoryService.Types
     schemaExtensionInfo_startDateTime,
 
     -- * Setting
-    Setting (..),
+    Setting,
     newSetting,
     setting_name,
     setting_value,
 
     -- * SettingEntry
-    SettingEntry (..),
+    SettingEntry,
     newSettingEntry,
     settingEntry_allowedValues,
     settingEntry_appliedValue,
@@ -408,13 +409,13 @@ module Amazonka.DirectoryService.Types
     settingEntry_type,
 
     -- * ShareTarget
-    ShareTarget (..),
+    ShareTarget,
     newShareTarget,
     shareTarget_id,
     shareTarget_type,
 
     -- * SharedDirectory
-    SharedDirectory (..),
+    SharedDirectory,
     newSharedDirectory,
     sharedDirectory_createdDateTime,
     sharedDirectory_lastUpdatedDateTime,
@@ -427,7 +428,7 @@ module Amazonka.DirectoryService.Types
     sharedDirectory_sharedDirectoryId,
 
     -- * Snapshot
-    Snapshot (..),
+    Snapshot,
     newSnapshot,
     snapshot_directoryId,
     snapshot_name,
@@ -437,20 +438,20 @@ module Amazonka.DirectoryService.Types
     snapshot_type,
 
     -- * SnapshotLimits
-    SnapshotLimits (..),
+    SnapshotLimits,
     newSnapshotLimits,
     snapshotLimits_manualSnapshotsCurrentCount,
     snapshotLimits_manualSnapshotsLimit,
     snapshotLimits_manualSnapshotsLimitReached,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,
 
     -- * Trust
-    Trust (..),
+    Trust,
     newTrust,
     trust_createdDateTime,
     trust_directoryId,
@@ -465,13 +466,13 @@ module Amazonka.DirectoryService.Types
     trust_trustType,
 
     -- * UnshareTarget
-    UnshareTarget (..),
+    UnshareTarget,
     newUnshareTarget,
     unshareTarget_id,
     unshareTarget_type,
 
     -- * UpdateInfoEntry
-    UpdateInfoEntry (..),
+    UpdateInfoEntry,
     newUpdateInfoEntry,
     updateInfoEntry_initiatedBy,
     updateInfoEntry_lastUpdatedDateTime,
@@ -483,7 +484,7 @@ module Amazonka.DirectoryService.Types
     updateInfoEntry_statusReason,
 
     -- * UpdateValue
-    UpdateValue (..),
+    UpdateValue,
     newUpdateValue,
     updateValue_oSUpdateSettings,
   )

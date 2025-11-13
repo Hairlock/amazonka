@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -25,55 +26,55 @@ module Amazonka.ApiGatewayV2.Types
     _TooManyRequestsException,
 
     -- * AuthorizationType
-    AuthorizationType (..),
+    AuthorizationType,
 
     -- * AuthorizerType
-    AuthorizerType (..),
+    AuthorizerType,
 
     -- * ConnectionType
-    ConnectionType (..),
+    ConnectionType,
 
     -- * ContentHandlingStrategy
-    ContentHandlingStrategy (..),
+    ContentHandlingStrategy,
 
     -- * DeploymentStatus
-    DeploymentStatus (..),
+    DeploymentStatus,
 
     -- * DomainNameStatus
-    DomainNameStatus (..),
+    DomainNameStatus,
 
     -- * EndpointType
-    EndpointType (..),
+    EndpointType,
 
     -- * IntegrationType
-    IntegrationType (..),
+    IntegrationType,
 
     -- * LoggingLevel
-    LoggingLevel (..),
+    LoggingLevel,
 
     -- * PassthroughBehavior
-    PassthroughBehavior (..),
+    PassthroughBehavior,
 
     -- * ProtocolType
-    ProtocolType (..),
+    ProtocolType,
 
     -- * SecurityPolicy
-    SecurityPolicy (..),
+    SecurityPolicy,
 
     -- * VpcLinkStatus
-    VpcLinkStatus (..),
+    VpcLinkStatus,
 
     -- * VpcLinkVersion
-    VpcLinkVersion (..),
+    VpcLinkVersion,
 
     -- * AccessLogSettings
-    AccessLogSettings (..),
+    AccessLogSettings,
     newAccessLogSettings,
     accessLogSettings_destinationArn,
     accessLogSettings_format,
 
     -- * Api
-    Api (..),
+    Api,
     newApi,
     api_apiEndpoint,
     api_apiGatewayManaged,
@@ -93,7 +94,7 @@ module Amazonka.ApiGatewayV2.Types
     api_protocolType,
 
     -- * ApiMapping
-    ApiMapping (..),
+    ApiMapping,
     newApiMapping,
     apiMapping_apiMappingId,
     apiMapping_apiMappingKey,
@@ -101,7 +102,7 @@ module Amazonka.ApiGatewayV2.Types
     apiMapping_apiId,
 
     -- * Authorizer
-    Authorizer (..),
+    Authorizer,
     newAuthorizer,
     authorizer_authorizerCredentialsArn,
     authorizer_authorizerId,
@@ -116,7 +117,7 @@ module Amazonka.ApiGatewayV2.Types
     authorizer_name,
 
     -- * Cors
-    Cors (..),
+    Cors,
     newCors,
     cors_allowCredentials,
     cors_allowHeaders,
@@ -126,7 +127,7 @@ module Amazonka.ApiGatewayV2.Types
     cors_maxAge,
 
     -- * Deployment
-    Deployment (..),
+    Deployment,
     newDeployment,
     deployment_autoDeployed,
     deployment_createdDate,
@@ -136,7 +137,7 @@ module Amazonka.ApiGatewayV2.Types
     deployment_description,
 
     -- * DomainName
-    DomainName (..),
+    DomainName,
     newDomainName,
     domainName_apiMappingSelectionExpression,
     domainName_domainNameConfigurations,
@@ -145,7 +146,7 @@ module Amazonka.ApiGatewayV2.Types
     domainName_domainName,
 
     -- * DomainNameConfiguration
-    DomainNameConfiguration (..),
+    DomainNameConfiguration,
     newDomainNameConfiguration,
     domainNameConfiguration_apiGatewayDomainName,
     domainNameConfiguration_certificateArn,
@@ -159,7 +160,7 @@ module Amazonka.ApiGatewayV2.Types
     domainNameConfiguration_securityPolicy,
 
     -- * Integration
-    Integration (..),
+    Integration,
     newIntegration,
     integration_apiGatewayManaged,
     integration_connectionId,
@@ -183,7 +184,7 @@ module Amazonka.ApiGatewayV2.Types
     integration_tlsConfig,
 
     -- * IntegrationResponse
-    IntegrationResponse (..),
+    IntegrationResponse,
     newIntegrationResponse,
     integrationResponse_contentHandlingStrategy,
     integrationResponse_integrationResponseId,
@@ -193,13 +194,13 @@ module Amazonka.ApiGatewayV2.Types
     integrationResponse_integrationResponseKey,
 
     -- * JWTConfiguration
-    JWTConfiguration (..),
+    JWTConfiguration,
     newJWTConfiguration,
     jWTConfiguration_audience,
     jWTConfiguration_issuer,
 
     -- * Model
-    Model (..),
+    Model,
     newModel,
     model_contentType,
     model_description,
@@ -208,25 +209,25 @@ module Amazonka.ApiGatewayV2.Types
     model_name,
 
     -- * MutualTlsAuthentication
-    MutualTlsAuthentication (..),
+    MutualTlsAuthentication,
     newMutualTlsAuthentication,
     mutualTlsAuthentication_truststoreUri,
     mutualTlsAuthentication_truststoreVersion,
     mutualTlsAuthentication_truststoreWarnings,
 
     -- * MutualTlsAuthenticationInput
-    MutualTlsAuthenticationInput (..),
+    MutualTlsAuthenticationInput,
     newMutualTlsAuthenticationInput,
     mutualTlsAuthenticationInput_truststoreUri,
     mutualTlsAuthenticationInput_truststoreVersion,
 
     -- * ParameterConstraints
-    ParameterConstraints (..),
+    ParameterConstraints,
     newParameterConstraints,
     parameterConstraints_required,
 
     -- * Route
-    Route (..),
+    Route,
     newRoute,
     route_apiGatewayManaged,
     route_apiKeyRequired,
@@ -243,7 +244,7 @@ module Amazonka.ApiGatewayV2.Types
     route_routeKey,
 
     -- * RouteResponse
-    RouteResponse (..),
+    RouteResponse,
     newRouteResponse,
     routeResponse_modelSelectionExpression,
     routeResponse_responseModels,
@@ -252,7 +253,7 @@ module Amazonka.ApiGatewayV2.Types
     routeResponse_routeResponseKey,
 
     -- * RouteSettings
-    RouteSettings (..),
+    RouteSettings,
     newRouteSettings,
     routeSettings_dataTraceEnabled,
     routeSettings_detailedMetricsEnabled,
@@ -261,7 +262,7 @@ module Amazonka.ApiGatewayV2.Types
     routeSettings_throttlingRateLimit,
 
     -- * Stage
-    Stage (..),
+    Stage,
     newStage,
     stage_accessLogSettings,
     stage_apiGatewayManaged,
@@ -279,17 +280,17 @@ module Amazonka.ApiGatewayV2.Types
     stage_stageName,
 
     -- * TlsConfig
-    TlsConfig (..),
+    TlsConfig,
     newTlsConfig,
     tlsConfig_serverNameToVerify,
 
     -- * TlsConfigInput
-    TlsConfigInput (..),
+    TlsConfigInput,
     newTlsConfigInput,
     tlsConfigInput_serverNameToVerify,
 
     -- * VpcLink
-    VpcLink (..),
+    VpcLink,
     newVpcLink,
     vpcLink_createdDate,
     vpcLink_tags,

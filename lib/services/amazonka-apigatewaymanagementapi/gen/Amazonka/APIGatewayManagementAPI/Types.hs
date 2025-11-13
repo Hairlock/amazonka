@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -24,7 +25,7 @@ module Amazonka.APIGatewayManagementAPI.Types
     _PayloadTooLargeException,
 
     -- * Identity
-    Identity (..),
+    Identity,
     newIdentity,
     identity_sourceIp,
     identity_userAgent,

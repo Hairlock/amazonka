@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -28,31 +29,31 @@ module Amazonka.SSMContacts.Types
     _ValidationException,
 
     -- * AcceptCodeValidation
-    AcceptCodeValidation (..),
+    AcceptCodeValidation,
 
     -- * AcceptType
-    AcceptType (..),
+    AcceptType,
 
     -- * ActivationStatus
-    ActivationStatus (..),
+    ActivationStatus,
 
     -- * ChannelType
-    ChannelType (..),
+    ChannelType,
 
     -- * ContactType
-    ContactType (..),
+    ContactType,
 
     -- * ReceiptType
-    ReceiptType (..),
+    ReceiptType,
 
     -- * ChannelTargetInfo
-    ChannelTargetInfo (..),
+    ChannelTargetInfo,
     newChannelTargetInfo,
     channelTargetInfo_retryIntervalInMinutes,
     channelTargetInfo_contactChannelId,
 
     -- * Contact
-    Contact (..),
+    Contact,
     newContact,
     contact_displayName,
     contact_contactArn,
@@ -60,7 +61,7 @@ module Amazonka.SSMContacts.Types
     contact_type,
 
     -- * ContactChannel
-    ContactChannel (..),
+    ContactChannel,
     newContactChannel,
     contactChannel_type,
     contactChannel_contactChannelArn,
@@ -70,18 +71,18 @@ module Amazonka.SSMContacts.Types
     contactChannel_activationStatus,
 
     -- * ContactChannelAddress
-    ContactChannelAddress (..),
+    ContactChannelAddress,
     newContactChannelAddress,
     contactChannelAddress_simpleAddress,
 
     -- * ContactTargetInfo
-    ContactTargetInfo (..),
+    ContactTargetInfo,
     newContactTargetInfo,
     contactTargetInfo_contactId,
     contactTargetInfo_isEssential,
 
     -- * Engagement
-    Engagement (..),
+    Engagement,
     newEngagement,
     engagement_incidentId,
     engagement_startTime,
@@ -91,7 +92,7 @@ module Amazonka.SSMContacts.Types
     engagement_sender,
 
     -- * Page
-    Page (..),
+    Page,
     newPage,
     page_deliveryTime,
     page_incidentId,
@@ -103,12 +104,12 @@ module Amazonka.SSMContacts.Types
     page_sender,
 
     -- * Plan
-    Plan (..),
+    Plan,
     newPlan,
     plan_stages,
 
     -- * Receipt
-    Receipt (..),
+    Receipt,
     newReceipt,
     receipt_contactChannelArn,
     receipt_receiptInfo,
@@ -116,25 +117,25 @@ module Amazonka.SSMContacts.Types
     receipt_receiptTime,
 
     -- * Stage
-    Stage (..),
+    Stage,
     newStage,
     stage_durationInMinutes,
     stage_targets,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,
 
     -- * Target
-    Target (..),
+    Target,
     newTarget,
     target_channelTargetInfo,
     target_contactTargetInfo,
 
     -- * TimeRange
-    TimeRange (..),
+    TimeRange,
     newTimeRange,
     timeRange_endTime,
     timeRange_startTime,

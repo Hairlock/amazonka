@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -22,14 +23,14 @@ module Amazonka.PersonalizeRuntime.Types
     _ResourceNotFoundException,
 
     -- * PredictedItem
-    PredictedItem (..),
+    PredictedItem,
     newPredictedItem,
     predictedItem_itemId,
     predictedItem_promotionName,
     predictedItem_score,
 
     -- * Promotion
-    Promotion (..),
+    Promotion,
     newPromotion,
     promotion_filterArn,
     promotion_filterValues,

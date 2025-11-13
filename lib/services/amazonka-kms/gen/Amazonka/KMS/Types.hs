@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -66,70 +67,70 @@ module Amazonka.KMS.Types
     _XksProxyVpcEndpointServiceNotFoundException,
 
     -- * AlgorithmSpec
-    AlgorithmSpec (..),
+    AlgorithmSpec,
 
     -- * ConnectionErrorCodeType
-    ConnectionErrorCodeType (..),
+    ConnectionErrorCodeType,
 
     -- * ConnectionStateType
-    ConnectionStateType (..),
+    ConnectionStateType,
 
     -- * CustomKeyStoreType
-    CustomKeyStoreType (..),
+    CustomKeyStoreType,
 
     -- * CustomerMasterKeySpec
-    CustomerMasterKeySpec (..),
+    CustomerMasterKeySpec,
 
     -- * DataKeyPairSpec
-    DataKeyPairSpec (..),
+    DataKeyPairSpec,
 
     -- * DataKeySpec
-    DataKeySpec (..),
+    DataKeySpec,
 
     -- * EncryptionAlgorithmSpec
-    EncryptionAlgorithmSpec (..),
+    EncryptionAlgorithmSpec,
 
     -- * ExpirationModelType
-    ExpirationModelType (..),
+    ExpirationModelType,
 
     -- * GrantOperation
-    GrantOperation (..),
+    GrantOperation,
 
     -- * KeyManagerType
-    KeyManagerType (..),
+    KeyManagerType,
 
     -- * KeySpec
-    KeySpec (..),
+    KeySpec,
 
     -- * KeyState
-    KeyState (..),
+    KeyState,
 
     -- * KeyUsageType
-    KeyUsageType (..),
+    KeyUsageType,
 
     -- * MacAlgorithmSpec
-    MacAlgorithmSpec (..),
+    MacAlgorithmSpec,
 
     -- * MessageType
-    MessageType (..),
+    MessageType,
 
     -- * MultiRegionKeyType
-    MultiRegionKeyType (..),
+    MultiRegionKeyType,
 
     -- * OriginType
-    OriginType (..),
+    OriginType,
 
     -- * SigningAlgorithmSpec
-    SigningAlgorithmSpec (..),
+    SigningAlgorithmSpec,
 
     -- * WrappingKeySpec
-    WrappingKeySpec (..),
+    WrappingKeySpec,
 
     -- * XksProxyConnectivityType
-    XksProxyConnectivityType (..),
+    XksProxyConnectivityType,
 
     -- * AliasListEntry
-    AliasListEntry (..),
+    AliasListEntry,
     newAliasListEntry,
     aliasListEntry_aliasArn,
     aliasListEntry_aliasName,
@@ -138,7 +139,7 @@ module Amazonka.KMS.Types
     aliasListEntry_targetKeyId,
 
     -- * CustomKeyStoresListEntry
-    CustomKeyStoresListEntry (..),
+    CustomKeyStoresListEntry,
     newCustomKeyStoresListEntry,
     customKeyStoresListEntry_cloudHsmClusterId,
     customKeyStoresListEntry_connectionErrorCode,
@@ -151,13 +152,13 @@ module Amazonka.KMS.Types
     customKeyStoresListEntry_xksProxyConfiguration,
 
     -- * GrantConstraints
-    GrantConstraints (..),
+    GrantConstraints,
     newGrantConstraints,
     grantConstraints_encryptionContextEquals,
     grantConstraints_encryptionContextSubset,
 
     -- * GrantListEntry
-    GrantListEntry (..),
+    GrantListEntry,
     newGrantListEntry,
     grantListEntry_constraints,
     grantListEntry_creationDate,
@@ -170,13 +171,13 @@ module Amazonka.KMS.Types
     grantListEntry_retiringPrincipal,
 
     -- * KeyListEntry
-    KeyListEntry (..),
+    KeyListEntry,
     newKeyListEntry,
     keyListEntry_keyArn,
     keyListEntry_keyId,
 
     -- * KeyMetadata
-    KeyMetadata (..),
+    KeyMetadata,
     newKeyMetadata,
     keyMetadata_aWSAccountId,
     keyMetadata_arn,
@@ -204,44 +205,44 @@ module Amazonka.KMS.Types
     keyMetadata_keyId,
 
     -- * ListGrantsResponse
-    ListGrantsResponse (..),
+    ListGrantsResponse,
     newListGrantsResponse,
     listGrantsResponse_grants,
     listGrantsResponse_nextMarker,
     listGrantsResponse_truncated,
 
     -- * MultiRegionConfiguration
-    MultiRegionConfiguration (..),
+    MultiRegionConfiguration,
     newMultiRegionConfiguration,
     multiRegionConfiguration_multiRegionKeyType,
     multiRegionConfiguration_primaryKey,
     multiRegionConfiguration_replicaKeys,
 
     -- * MultiRegionKey
-    MultiRegionKey (..),
+    MultiRegionKey,
     newMultiRegionKey,
     multiRegionKey_arn,
     multiRegionKey_region,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_tagKey,
     tag_tagValue,
 
     -- * XksKeyConfigurationType
-    XksKeyConfigurationType (..),
+    XksKeyConfigurationType,
     newXksKeyConfigurationType,
     xksKeyConfigurationType_id,
 
     -- * XksProxyAuthenticationCredentialType
-    XksProxyAuthenticationCredentialType (..),
+    XksProxyAuthenticationCredentialType,
     newXksProxyAuthenticationCredentialType,
     xksProxyAuthenticationCredentialType_accessKeyId,
     xksProxyAuthenticationCredentialType_rawSecretAccessKey,
 
     -- * XksProxyConfigurationType
-    XksProxyConfigurationType (..),
+    XksProxyConfigurationType,
     newXksProxyConfigurationType,
     xksProxyConfigurationType_accessKeyId,
     xksProxyConfigurationType_connectivity,

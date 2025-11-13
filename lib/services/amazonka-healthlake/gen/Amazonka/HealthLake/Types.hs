@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -26,22 +27,22 @@ module Amazonka.HealthLake.Types
     _ValidationException,
 
     -- * CmkType
-    CmkType (..),
+    CmkType,
 
     -- * DatastoreStatus
-    DatastoreStatus (..),
+    DatastoreStatus,
 
     -- * FHIRVersion
-    FHIRVersion (..),
+    FHIRVersion,
 
     -- * JobStatus
-    JobStatus (..),
+    JobStatus,
 
     -- * PreloadDataType
-    PreloadDataType (..),
+    PreloadDataType,
 
     -- * DatastoreFilter
-    DatastoreFilter (..),
+    DatastoreFilter,
     newDatastoreFilter,
     datastoreFilter_createdAfter,
     datastoreFilter_createdBefore,
@@ -49,7 +50,7 @@ module Amazonka.HealthLake.Types
     datastoreFilter_datastoreStatus,
 
     -- * DatastoreProperties
-    DatastoreProperties (..),
+    DatastoreProperties,
     newDatastoreProperties,
     datastoreProperties_createdAt,
     datastoreProperties_datastoreName,
@@ -62,7 +63,7 @@ module Amazonka.HealthLake.Types
     datastoreProperties_datastoreEndpoint,
 
     -- * ExportJobProperties
-    ExportJobProperties (..),
+    ExportJobProperties,
     newExportJobProperties,
     exportJobProperties_dataAccessRoleArn,
     exportJobProperties_endTime,
@@ -75,7 +76,7 @@ module Amazonka.HealthLake.Types
     exportJobProperties_outputDataConfig,
 
     -- * ImportJobProperties
-    ImportJobProperties (..),
+    ImportJobProperties,
     newImportJobProperties,
     importJobProperties_dataAccessRoleArn,
     importJobProperties_endTime,
@@ -89,39 +90,39 @@ module Amazonka.HealthLake.Types
     importJobProperties_inputDataConfig,
 
     -- * InputDataConfig
-    InputDataConfig (..),
+    InputDataConfig,
     newInputDataConfig,
     inputDataConfig_s3Uri,
 
     -- * KmsEncryptionConfig
-    KmsEncryptionConfig (..),
+    KmsEncryptionConfig,
     newKmsEncryptionConfig,
     kmsEncryptionConfig_kmsKeyId,
     kmsEncryptionConfig_cmkType,
 
     -- * OutputDataConfig
-    OutputDataConfig (..),
+    OutputDataConfig,
     newOutputDataConfig,
     outputDataConfig_s3Configuration,
 
     -- * PreloadDataConfig
-    PreloadDataConfig (..),
+    PreloadDataConfig,
     newPreloadDataConfig,
     preloadDataConfig_preloadDataType,
 
     -- * S3Configuration
-    S3Configuration (..),
+    S3Configuration,
     newS3Configuration,
     s3Configuration_s3Uri,
     s3Configuration_kmsKeyId,
 
     -- * SseConfiguration
-    SseConfiguration (..),
+    SseConfiguration,
     newSseConfiguration,
     sseConfiguration_kmsEncryptionConfig,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,

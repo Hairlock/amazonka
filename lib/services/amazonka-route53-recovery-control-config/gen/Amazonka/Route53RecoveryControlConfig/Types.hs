@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -27,13 +28,13 @@ module Amazonka.Route53RecoveryControlConfig.Types
     _ValidationException,
 
     -- * RuleType
-    RuleType (..),
+    RuleType,
 
     -- * Status
-    Status (..),
+    Status,
 
     -- * AssertionRule
-    AssertionRule (..),
+    AssertionRule,
     newAssertionRule,
     assertionRule_status,
     assertionRule_controlPanelArn,
@@ -44,14 +45,14 @@ module Amazonka.Route53RecoveryControlConfig.Types
     assertionRule_name,
 
     -- * AssertionRuleUpdate
-    AssertionRuleUpdate (..),
+    AssertionRuleUpdate,
     newAssertionRuleUpdate,
     assertionRuleUpdate_safetyRuleArn,
     assertionRuleUpdate_waitPeriodMs,
     assertionRuleUpdate_name,
 
     -- * Cluster
-    Cluster (..),
+    Cluster,
     newCluster,
     cluster_clusterArn,
     cluster_clusterEndpoints,
@@ -59,13 +60,13 @@ module Amazonka.Route53RecoveryControlConfig.Types
     cluster_status,
 
     -- * ClusterEndpoint
-    ClusterEndpoint (..),
+    ClusterEndpoint,
     newClusterEndpoint,
     clusterEndpoint_endpoint,
     clusterEndpoint_region,
 
     -- * ControlPanel
-    ControlPanel (..),
+    ControlPanel,
     newControlPanel,
     controlPanel_clusterArn,
     controlPanel_controlPanelArn,
@@ -75,7 +76,7 @@ module Amazonka.Route53RecoveryControlConfig.Types
     controlPanel_status,
 
     -- * GatingRule
-    GatingRule (..),
+    GatingRule,
     newGatingRule,
     gatingRule_status,
     gatingRule_targetControls,
@@ -87,14 +88,14 @@ module Amazonka.Route53RecoveryControlConfig.Types
     gatingRule_name,
 
     -- * GatingRuleUpdate
-    GatingRuleUpdate (..),
+    GatingRuleUpdate,
     newGatingRuleUpdate,
     gatingRuleUpdate_safetyRuleArn,
     gatingRuleUpdate_waitPeriodMs,
     gatingRuleUpdate_name,
 
     -- * NewAssertionRule
-    NewAssertionRule (..),
+    NewAssertionRule,
     newNewAssertionRule,
     newAssertionRule_controlPanelArn,
     newAssertionRule_assertedControls,
@@ -103,7 +104,7 @@ module Amazonka.Route53RecoveryControlConfig.Types
     newAssertionRule_name,
 
     -- * NewGatingRule
-    NewGatingRule (..),
+    NewGatingRule,
     newNewGatingRule,
     newGatingRule_targetControls,
     newGatingRule_controlPanelArn,
@@ -113,7 +114,7 @@ module Amazonka.Route53RecoveryControlConfig.Types
     newGatingRule_name,
 
     -- * RoutingControl
-    RoutingControl (..),
+    RoutingControl,
     newRoutingControl,
     routingControl_controlPanelArn,
     routingControl_name,
@@ -121,13 +122,13 @@ module Amazonka.Route53RecoveryControlConfig.Types
     routingControl_status,
 
     -- * Rule
-    Rule (..),
+    Rule,
     newRule,
     rule_assertion,
     rule_gating,
 
     -- * RuleConfig
-    RuleConfig (..),
+    RuleConfig,
     newRuleConfig,
     ruleConfig_type,
     ruleConfig_inverted,

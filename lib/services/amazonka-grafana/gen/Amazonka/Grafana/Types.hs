@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -27,40 +28,40 @@ module Amazonka.Grafana.Types
     _ValidationException,
 
     -- * AccountAccessType
-    AccountAccessType (..),
+    AccountAccessType,
 
     -- * AuthenticationProviderTypes
-    AuthenticationProviderTypes (..),
+    AuthenticationProviderTypes,
 
     -- * DataSourceType
-    DataSourceType (..),
+    DataSourceType,
 
     -- * LicenseType
-    LicenseType (..),
+    LicenseType,
 
     -- * NotificationDestinationType
-    NotificationDestinationType (..),
+    NotificationDestinationType,
 
     -- * PermissionType
-    PermissionType (..),
+    PermissionType,
 
     -- * Role
-    Role (..),
+    Role,
 
     -- * SamlConfigurationStatus
-    SamlConfigurationStatus (..),
+    SamlConfigurationStatus,
 
     -- * UpdateAction
-    UpdateAction (..),
+    UpdateAction,
 
     -- * UserType
-    UserType (..),
+    UserType,
 
     -- * WorkspaceStatus
-    WorkspaceStatus (..),
+    WorkspaceStatus,
 
     -- * AssertionAttributes
-    AssertionAttributes (..),
+    AssertionAttributes,
     newAssertionAttributes,
     assertionAttributes_email,
     assertionAttributes_groups,
@@ -70,49 +71,49 @@ module Amazonka.Grafana.Types
     assertionAttributes_role,
 
     -- * AuthenticationDescription
-    AuthenticationDescription (..),
+    AuthenticationDescription,
     newAuthenticationDescription,
     authenticationDescription_awsSso,
     authenticationDescription_saml,
     authenticationDescription_providers,
 
     -- * AuthenticationSummary
-    AuthenticationSummary (..),
+    AuthenticationSummary,
     newAuthenticationSummary,
     authenticationSummary_samlConfigurationStatus,
     authenticationSummary_providers,
 
     -- * AwsSsoAuthentication
-    AwsSsoAuthentication (..),
+    AwsSsoAuthentication,
     newAwsSsoAuthentication,
     awsSsoAuthentication_ssoClientId,
 
     -- * IdpMetadata
-    IdpMetadata (..),
+    IdpMetadata,
     newIdpMetadata,
     idpMetadata_url,
     idpMetadata_xml,
 
     -- * PermissionEntry
-    PermissionEntry (..),
+    PermissionEntry,
     newPermissionEntry,
     permissionEntry_role,
     permissionEntry_user,
 
     -- * RoleValues
-    RoleValues (..),
+    RoleValues,
     newRoleValues,
     roleValues_admin,
     roleValues_editor,
 
     -- * SamlAuthentication
-    SamlAuthentication (..),
+    SamlAuthentication,
     newSamlAuthentication,
     samlAuthentication_configuration,
     samlAuthentication_status,
 
     -- * SamlConfiguration
-    SamlConfiguration (..),
+    SamlConfiguration,
     newSamlConfiguration,
     samlConfiguration_allowedOrganizations,
     samlConfiguration_assertionAttributes,
@@ -121,33 +122,33 @@ module Amazonka.Grafana.Types
     samlConfiguration_idpMetadata,
 
     -- * UpdateError
-    UpdateError (..),
+    UpdateError,
     newUpdateError,
     updateError_causedBy,
     updateError_code,
     updateError_message,
 
     -- * UpdateInstruction
-    UpdateInstruction (..),
+    UpdateInstruction,
     newUpdateInstruction,
     updateInstruction_action,
     updateInstruction_role,
     updateInstruction_users,
 
     -- * User
-    User (..),
+    User,
     newUser,
     user_id,
     user_type,
 
     -- * VpcConfiguration
-    VpcConfiguration (..),
+    VpcConfiguration,
     newVpcConfiguration,
     vpcConfiguration_securityGroupIds,
     vpcConfiguration_subnetIds,
 
     -- * WorkspaceDescription
-    WorkspaceDescription (..),
+    WorkspaceDescription,
     newWorkspaceDescription,
     workspaceDescription_accountAccessType,
     workspaceDescription_description,
@@ -174,7 +175,7 @@ module Amazonka.Grafana.Types
     workspaceDescription_status,
 
     -- * WorkspaceSummary
-    WorkspaceSummary (..),
+    WorkspaceSummary,
     newWorkspaceSummary,
     workspaceSummary_description,
     workspaceSummary_name,

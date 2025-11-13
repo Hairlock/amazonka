@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -28,64 +29,64 @@ module Amazonka.ChimeSdkMediaPipelines.Types
     _UnauthorizedClientException,
 
     -- * ArtifactsConcatenationState
-    ArtifactsConcatenationState (..),
+    ArtifactsConcatenationState,
 
     -- * ArtifactsState
-    ArtifactsState (..),
+    ArtifactsState,
 
     -- * AudioArtifactsConcatenationState
-    AudioArtifactsConcatenationState (..),
+    AudioArtifactsConcatenationState,
 
     -- * AudioChannelsOption
-    AudioChannelsOption (..),
+    AudioChannelsOption,
 
     -- * AudioMuxType
-    AudioMuxType (..),
+    AudioMuxType,
 
     -- * ConcatenationSinkType
-    ConcatenationSinkType (..),
+    ConcatenationSinkType,
 
     -- * ConcatenationSourceType
-    ConcatenationSourceType (..),
+    ConcatenationSourceType,
 
     -- * ContentMuxType
-    ContentMuxType (..),
+    ContentMuxType,
 
     -- * ContentShareLayoutOption
-    ContentShareLayoutOption (..),
+    ContentShareLayoutOption,
 
     -- * LayoutOption
-    LayoutOption (..),
+    LayoutOption,
 
     -- * LiveConnectorMuxType
-    LiveConnectorMuxType (..),
+    LiveConnectorMuxType,
 
     -- * LiveConnectorSinkType
-    LiveConnectorSinkType (..),
+    LiveConnectorSinkType,
 
     -- * LiveConnectorSourceType
-    LiveConnectorSourceType (..),
+    LiveConnectorSourceType,
 
     -- * MediaPipelineSinkType
-    MediaPipelineSinkType (..),
+    MediaPipelineSinkType,
 
     -- * MediaPipelineSourceType
-    MediaPipelineSourceType (..),
+    MediaPipelineSourceType,
 
     -- * MediaPipelineStatus
-    MediaPipelineStatus (..),
+    MediaPipelineStatus,
 
     -- * PresenterPosition
-    PresenterPosition (..),
+    PresenterPosition,
 
     -- * ResolutionOption
-    ResolutionOption (..),
+    ResolutionOption,
 
     -- * VideoMuxType
-    VideoMuxType (..),
+    VideoMuxType,
 
     -- * ArtifactsConcatenationConfiguration
-    ArtifactsConcatenationConfiguration (..),
+    ArtifactsConcatenationConfiguration,
     newArtifactsConcatenationConfiguration,
     artifactsConcatenationConfiguration_audio,
     artifactsConcatenationConfiguration_video,
@@ -96,7 +97,7 @@ module Amazonka.ChimeSdkMediaPipelines.Types
     artifactsConcatenationConfiguration_compositedVideo,
 
     -- * ArtifactsConfiguration
-    ArtifactsConfiguration (..),
+    ArtifactsConfiguration,
     newArtifactsConfiguration,
     artifactsConfiguration_compositedVideo,
     artifactsConfiguration_audio,
@@ -104,28 +105,28 @@ module Amazonka.ChimeSdkMediaPipelines.Types
     artifactsConfiguration_content,
 
     -- * AudioArtifactsConfiguration
-    AudioArtifactsConfiguration (..),
+    AudioArtifactsConfiguration,
     newAudioArtifactsConfiguration,
     audioArtifactsConfiguration_muxType,
 
     -- * AudioConcatenationConfiguration
-    AudioConcatenationConfiguration (..),
+    AudioConcatenationConfiguration,
     newAudioConcatenationConfiguration,
     audioConcatenationConfiguration_state,
 
     -- * ChimeSdkMeetingConcatenationConfiguration
-    ChimeSdkMeetingConcatenationConfiguration (..),
+    ChimeSdkMeetingConcatenationConfiguration,
     newChimeSdkMeetingConcatenationConfiguration,
     chimeSdkMeetingConcatenationConfiguration_artifactsConfiguration,
 
     -- * ChimeSdkMeetingConfiguration
-    ChimeSdkMeetingConfiguration (..),
+    ChimeSdkMeetingConfiguration,
     newChimeSdkMeetingConfiguration,
     chimeSdkMeetingConfiguration_artifactsConfiguration,
     chimeSdkMeetingConfiguration_sourceConfiguration,
 
     -- * ChimeSdkMeetingLiveConnectorConfiguration
-    ChimeSdkMeetingLiveConnectorConfiguration (..),
+    ChimeSdkMeetingLiveConnectorConfiguration,
     newChimeSdkMeetingLiveConnectorConfiguration,
     chimeSdkMeetingLiveConnectorConfiguration_compositedVideo,
     chimeSdkMeetingLiveConnectorConfiguration_sourceConfiguration,
@@ -133,72 +134,72 @@ module Amazonka.ChimeSdkMediaPipelines.Types
     chimeSdkMeetingLiveConnectorConfiguration_muxType,
 
     -- * CompositedVideoArtifactsConfiguration
-    CompositedVideoArtifactsConfiguration (..),
+    CompositedVideoArtifactsConfiguration,
     newCompositedVideoArtifactsConfiguration,
     compositedVideoArtifactsConfiguration_layout,
     compositedVideoArtifactsConfiguration_resolution,
     compositedVideoArtifactsConfiguration_gridViewConfiguration,
 
     -- * CompositedVideoConcatenationConfiguration
-    CompositedVideoConcatenationConfiguration (..),
+    CompositedVideoConcatenationConfiguration,
     newCompositedVideoConcatenationConfiguration,
     compositedVideoConcatenationConfiguration_state,
 
     -- * ConcatenationSink
-    ConcatenationSink (..),
+    ConcatenationSink,
     newConcatenationSink,
     concatenationSink_type,
     concatenationSink_s3BucketSinkConfiguration,
 
     -- * ConcatenationSource
-    ConcatenationSource (..),
+    ConcatenationSource,
     newConcatenationSource,
     concatenationSource_type,
     concatenationSource_mediaCapturePipelineSourceConfiguration,
 
     -- * ContentArtifactsConfiguration
-    ContentArtifactsConfiguration (..),
+    ContentArtifactsConfiguration,
     newContentArtifactsConfiguration,
     contentArtifactsConfiguration_muxType,
     contentArtifactsConfiguration_state,
 
     -- * ContentConcatenationConfiguration
-    ContentConcatenationConfiguration (..),
+    ContentConcatenationConfiguration,
     newContentConcatenationConfiguration,
     contentConcatenationConfiguration_state,
 
     -- * DataChannelConcatenationConfiguration
-    DataChannelConcatenationConfiguration (..),
+    DataChannelConcatenationConfiguration,
     newDataChannelConcatenationConfiguration,
     dataChannelConcatenationConfiguration_state,
 
     -- * GridViewConfiguration
-    GridViewConfiguration (..),
+    GridViewConfiguration,
     newGridViewConfiguration,
     gridViewConfiguration_presenterOnlyConfiguration,
     gridViewConfiguration_contentShareLayout,
 
     -- * LiveConnectorRTMPConfiguration
-    LiveConnectorRTMPConfiguration (..),
+    LiveConnectorRTMPConfiguration,
     newLiveConnectorRTMPConfiguration,
     liveConnectorRTMPConfiguration_audioChannels,
     liveConnectorRTMPConfiguration_audioSampleRate,
     liveConnectorRTMPConfiguration_url,
 
     -- * LiveConnectorSinkConfiguration
-    LiveConnectorSinkConfiguration (..),
+    LiveConnectorSinkConfiguration,
     newLiveConnectorSinkConfiguration,
     liveConnectorSinkConfiguration_sinkType,
     liveConnectorSinkConfiguration_rTMPConfiguration,
 
     -- * LiveConnectorSourceConfiguration
-    LiveConnectorSourceConfiguration (..),
+    LiveConnectorSourceConfiguration,
     newLiveConnectorSourceConfiguration,
     liveConnectorSourceConfiguration_sourceType,
     liveConnectorSourceConfiguration_chimeSdkMeetingLiveConnectorConfiguration,
 
     -- * MediaCapturePipeline
-    MediaCapturePipeline (..),
+    MediaCapturePipeline,
     newMediaCapturePipeline,
     mediaCapturePipeline_chimeSdkMeetingConfiguration,
     mediaCapturePipeline_createdTimestamp,
@@ -212,19 +213,19 @@ module Amazonka.ChimeSdkMediaPipelines.Types
     mediaCapturePipeline_updatedTimestamp,
 
     -- * MediaCapturePipelineSourceConfiguration
-    MediaCapturePipelineSourceConfiguration (..),
+    MediaCapturePipelineSourceConfiguration,
     newMediaCapturePipelineSourceConfiguration,
     mediaCapturePipelineSourceConfiguration_mediaPipelineArn,
     mediaCapturePipelineSourceConfiguration_chimeSdkMeetingConfiguration,
 
     -- * MediaCapturePipelineSummary
-    MediaCapturePipelineSummary (..),
+    MediaCapturePipelineSummary,
     newMediaCapturePipelineSummary,
     mediaCapturePipelineSummary_mediaPipelineArn,
     mediaCapturePipelineSummary_mediaPipelineId,
 
     -- * MediaConcatenationPipeline
-    MediaConcatenationPipeline (..),
+    MediaConcatenationPipeline,
     newMediaConcatenationPipeline,
     mediaConcatenationPipeline_createdTimestamp,
     mediaConcatenationPipeline_mediaPipelineArn,
@@ -235,7 +236,7 @@ module Amazonka.ChimeSdkMediaPipelines.Types
     mediaConcatenationPipeline_updatedTimestamp,
 
     -- * MediaLiveConnectorPipeline
-    MediaLiveConnectorPipeline (..),
+    MediaLiveConnectorPipeline,
     newMediaLiveConnectorPipeline,
     mediaLiveConnectorPipeline_createdTimestamp,
     mediaLiveConnectorPipeline_mediaPipelineArn,
@@ -246,63 +247,63 @@ module Amazonka.ChimeSdkMediaPipelines.Types
     mediaLiveConnectorPipeline_updatedTimestamp,
 
     -- * MediaPipeline
-    MediaPipeline (..),
+    MediaPipeline,
     newMediaPipeline,
     mediaPipeline_mediaCapturePipeline,
     mediaPipeline_mediaConcatenationPipeline,
     mediaPipeline_mediaLiveConnectorPipeline,
 
     -- * MediaPipelineSummary
-    MediaPipelineSummary (..),
+    MediaPipelineSummary,
     newMediaPipelineSummary,
     mediaPipelineSummary_mediaPipelineArn,
     mediaPipelineSummary_mediaPipelineId,
 
     -- * MeetingEventsConcatenationConfiguration
-    MeetingEventsConcatenationConfiguration (..),
+    MeetingEventsConcatenationConfiguration,
     newMeetingEventsConcatenationConfiguration,
     meetingEventsConcatenationConfiguration_state,
 
     -- * PresenterOnlyConfiguration
-    PresenterOnlyConfiguration (..),
+    PresenterOnlyConfiguration,
     newPresenterOnlyConfiguration,
     presenterOnlyConfiguration_presenterPosition,
 
     -- * S3BucketSinkConfiguration
-    S3BucketSinkConfiguration (..),
+    S3BucketSinkConfiguration,
     newS3BucketSinkConfiguration,
     s3BucketSinkConfiguration_destination,
 
     -- * SelectedVideoStreams
-    SelectedVideoStreams (..),
+    SelectedVideoStreams,
     newSelectedVideoStreams,
     selectedVideoStreams_attendeeIds,
     selectedVideoStreams_externalUserIds,
 
     -- * SourceConfiguration
-    SourceConfiguration (..),
+    SourceConfiguration,
     newSourceConfiguration,
     sourceConfiguration_selectedVideoStreams,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,
 
     -- * TranscriptionMessagesConcatenationConfiguration
-    TranscriptionMessagesConcatenationConfiguration (..),
+    TranscriptionMessagesConcatenationConfiguration,
     newTranscriptionMessagesConcatenationConfiguration,
     transcriptionMessagesConcatenationConfiguration_state,
 
     -- * VideoArtifactsConfiguration
-    VideoArtifactsConfiguration (..),
+    VideoArtifactsConfiguration,
     newVideoArtifactsConfiguration,
     videoArtifactsConfiguration_muxType,
     videoArtifactsConfiguration_state,
 
     -- * VideoConcatenationConfiguration
-    VideoConcatenationConfiguration (..),
+    VideoConcatenationConfiguration,
     newVideoConcatenationConfiguration,
     videoConcatenationConfiguration_state,
   )

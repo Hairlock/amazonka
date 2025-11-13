@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -26,37 +27,37 @@ module Amazonka.MediaPackageVOD.Types
     _UnprocessableEntityException,
 
     -- * AdMarkers
-    AdMarkers (..),
+    AdMarkers,
 
     -- * EncryptionMethod
-    EncryptionMethod (..),
+    EncryptionMethod,
 
     -- * ManifestLayout
-    ManifestLayout (..),
+    ManifestLayout,
 
     -- * PeriodTriggersElement
-    PeriodTriggersElement (..),
+    PeriodTriggersElement,
 
     -- * PresetSpeke20Audio
-    PresetSpeke20Audio (..),
+    PresetSpeke20Audio,
 
     -- * PresetSpeke20Video
-    PresetSpeke20Video (..),
+    PresetSpeke20Video,
 
     -- * Profile
-    Profile (..),
+    Profile,
 
     -- * ScteMarkersSource
-    ScteMarkersSource (..),
+    ScteMarkersSource,
 
     -- * SegmentTemplateFormat
-    SegmentTemplateFormat (..),
+    SegmentTemplateFormat,
 
     -- * StreamOrder
-    StreamOrder (..),
+    StreamOrder,
 
     -- * AssetShallow
-    AssetShallow (..),
+    AssetShallow,
     newAssetShallow,
     assetShallow_arn,
     assetShallow_createdAt,
@@ -68,19 +69,19 @@ module Amazonka.MediaPackageVOD.Types
     assetShallow_tags,
 
     -- * Authorization
-    Authorization (..),
+    Authorization,
     newAuthorization,
     authorization_secretsRoleArn,
     authorization_cdnIdentifierSecret,
 
     -- * CmafEncryption
-    CmafEncryption (..),
+    CmafEncryption,
     newCmafEncryption,
     cmafEncryption_constantInitializationVector,
     cmafEncryption_spekeKeyProvider,
 
     -- * CmafPackage
-    CmafPackage (..),
+    CmafPackage,
     newCmafPackage,
     cmafPackage_encryption,
     cmafPackage_includeEncoderConfigurationInSegments,
@@ -88,12 +89,12 @@ module Amazonka.MediaPackageVOD.Types
     cmafPackage_hlsManifests,
 
     -- * DashEncryption
-    DashEncryption (..),
+    DashEncryption,
     newDashEncryption,
     dashEncryption_spekeKeyProvider,
 
     -- * DashManifest
-    DashManifest (..),
+    DashManifest,
     newDashManifest,
     dashManifest_manifestLayout,
     dashManifest_manifestName,
@@ -103,7 +104,7 @@ module Amazonka.MediaPackageVOD.Types
     dashManifest_streamSelection,
 
     -- * DashPackage
-    DashPackage (..),
+    DashPackage,
     newDashPackage,
     dashPackage_encryption,
     dashPackage_includeEncoderConfigurationInSegments,
@@ -114,32 +115,32 @@ module Amazonka.MediaPackageVOD.Types
     dashPackage_dashManifests,
 
     -- * EgressAccessLogs
-    EgressAccessLogs (..),
+    EgressAccessLogs,
     newEgressAccessLogs,
     egressAccessLogs_logGroupName,
 
     -- * EgressEndpoint
-    EgressEndpoint (..),
+    EgressEndpoint,
     newEgressEndpoint,
     egressEndpoint_packagingConfigurationId,
     egressEndpoint_status,
     egressEndpoint_url,
 
     -- * EncryptionContractConfiguration
-    EncryptionContractConfiguration (..),
+    EncryptionContractConfiguration,
     newEncryptionContractConfiguration,
     encryptionContractConfiguration_presetSpeke20Audio,
     encryptionContractConfiguration_presetSpeke20Video,
 
     -- * HlsEncryption
-    HlsEncryption (..),
+    HlsEncryption,
     newHlsEncryption,
     hlsEncryption_constantInitializationVector,
     hlsEncryption_encryptionMethod,
     hlsEncryption_spekeKeyProvider,
 
     -- * HlsManifest
-    HlsManifest (..),
+    HlsManifest,
     newHlsManifest,
     hlsManifest_adMarkers,
     hlsManifest_includeIframeOnlyStream,
@@ -149,7 +150,7 @@ module Amazonka.MediaPackageVOD.Types
     hlsManifest_streamSelection,
 
     -- * HlsPackage
-    HlsPackage (..),
+    HlsPackage,
     newHlsPackage,
     hlsPackage_encryption,
     hlsPackage_includeDvbSubtitles,
@@ -158,25 +159,25 @@ module Amazonka.MediaPackageVOD.Types
     hlsPackage_hlsManifests,
 
     -- * MssEncryption
-    MssEncryption (..),
+    MssEncryption,
     newMssEncryption,
     mssEncryption_spekeKeyProvider,
 
     -- * MssManifest
-    MssManifest (..),
+    MssManifest,
     newMssManifest,
     mssManifest_manifestName,
     mssManifest_streamSelection,
 
     -- * MssPackage
-    MssPackage (..),
+    MssPackage,
     newMssPackage,
     mssPackage_encryption,
     mssPackage_segmentDurationSeconds,
     mssPackage_mssManifests,
 
     -- * PackagingConfiguration
-    PackagingConfiguration (..),
+    PackagingConfiguration,
     newPackagingConfiguration,
     packagingConfiguration_arn,
     packagingConfiguration_cmafPackage,
@@ -188,7 +189,7 @@ module Amazonka.MediaPackageVOD.Types
     packagingConfiguration_tags,
 
     -- * PackagingGroup
-    PackagingGroup (..),
+    PackagingGroup,
     newPackagingGroup,
     packagingGroup_approximateAssetCount,
     packagingGroup_arn,
@@ -199,7 +200,7 @@ module Amazonka.MediaPackageVOD.Types
     packagingGroup_tags,
 
     -- * SpekeKeyProvider
-    SpekeKeyProvider (..),
+    SpekeKeyProvider,
     newSpekeKeyProvider,
     spekeKeyProvider_encryptionContractConfiguration,
     spekeKeyProvider_systemIds,
@@ -207,7 +208,7 @@ module Amazonka.MediaPackageVOD.Types
     spekeKeyProvider_roleArn,
 
     -- * StreamSelection
-    StreamSelection (..),
+    StreamSelection,
     newStreamSelection,
     streamSelection_maxVideoBitsPerSecond,
     streamSelection_minVideoBitsPerSecond,

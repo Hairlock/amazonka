@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -43,25 +44,25 @@ module Amazonka.ECRPublic.Types
     _UploadNotFoundException,
 
     -- * ImageFailureCode
-    ImageFailureCode (..),
+    ImageFailureCode,
 
     -- * LayerAvailability
-    LayerAvailability (..),
+    LayerAvailability,
 
     -- * LayerFailureCode
-    LayerFailureCode (..),
+    LayerFailureCode,
 
     -- * RegistryAliasStatus
-    RegistryAliasStatus (..),
+    RegistryAliasStatus,
 
     -- * AuthorizationData
-    AuthorizationData (..),
+    AuthorizationData,
     newAuthorizationData,
     authorizationData_authorizationToken,
     authorizationData_expiresAt,
 
     -- * Image
-    Image (..),
+    Image,
     newImage,
     image_imageId,
     image_imageManifest,
@@ -70,7 +71,7 @@ module Amazonka.ECRPublic.Types
     image_repositoryName,
 
     -- * ImageDetail
-    ImageDetail (..),
+    ImageDetail,
     newImageDetail,
     imageDetail_artifactMediaType,
     imageDetail_imageDigest,
@@ -82,27 +83,27 @@ module Amazonka.ECRPublic.Types
     imageDetail_repositoryName,
 
     -- * ImageFailure
-    ImageFailure (..),
+    ImageFailure,
     newImageFailure,
     imageFailure_failureCode,
     imageFailure_failureReason,
     imageFailure_imageId,
 
     -- * ImageIdentifier
-    ImageIdentifier (..),
+    ImageIdentifier,
     newImageIdentifier,
     imageIdentifier_imageDigest,
     imageIdentifier_imageTag,
 
     -- * ImageTagDetail
-    ImageTagDetail (..),
+    ImageTagDetail,
     newImageTagDetail,
     imageTagDetail_createdAt,
     imageTagDetail_imageDetail,
     imageTagDetail_imageTag,
 
     -- * Layer
-    Layer (..),
+    Layer,
     newLayer,
     layer_layerAvailability,
     layer_layerDigest,
@@ -110,14 +111,14 @@ module Amazonka.ECRPublic.Types
     layer_mediaType,
 
     -- * LayerFailure
-    LayerFailure (..),
+    LayerFailure,
     newLayerFailure,
     layerFailure_failureCode,
     layerFailure_failureReason,
     layerFailure_layerDigest,
 
     -- * ReferencedImageDetail
-    ReferencedImageDetail (..),
+    ReferencedImageDetail,
     newReferencedImageDetail,
     referencedImageDetail_artifactMediaType,
     referencedImageDetail_imageDigest,
@@ -126,7 +127,7 @@ module Amazonka.ECRPublic.Types
     referencedImageDetail_imageSizeInBytes,
 
     -- * Registry
-    Registry (..),
+    Registry,
     newRegistry,
     registry_registryId,
     registry_registryArn,
@@ -135,7 +136,7 @@ module Amazonka.ECRPublic.Types
     registry_aliases,
 
     -- * RegistryAlias
-    RegistryAlias (..),
+    RegistryAlias,
     newRegistryAlias,
     registryAlias_name,
     registryAlias_status,
@@ -143,12 +144,12 @@ module Amazonka.ECRPublic.Types
     registryAlias_defaultRegistryAlias,
 
     -- * RegistryCatalogData
-    RegistryCatalogData (..),
+    RegistryCatalogData,
     newRegistryCatalogData,
     registryCatalogData_displayName,
 
     -- * Repository
-    Repository (..),
+    Repository,
     newRepository,
     repository_createdAt,
     repository_registryId,
@@ -157,7 +158,7 @@ module Amazonka.ECRPublic.Types
     repository_repositoryUri,
 
     -- * RepositoryCatalogData
-    RepositoryCatalogData (..),
+    RepositoryCatalogData,
     newRepositoryCatalogData,
     repositoryCatalogData_aboutText,
     repositoryCatalogData_architectures,
@@ -168,7 +169,7 @@ module Amazonka.ECRPublic.Types
     repositoryCatalogData_usageText,
 
     -- * RepositoryCatalogDataInput
-    RepositoryCatalogDataInput (..),
+    RepositoryCatalogDataInput,
     newRepositoryCatalogDataInput,
     repositoryCatalogDataInput_aboutText,
     repositoryCatalogDataInput_architectures,
@@ -178,7 +179,7 @@ module Amazonka.ECRPublic.Types
     repositoryCatalogDataInput_usageText,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,

@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -29,135 +30,135 @@ module Amazonka.MigrationHubStrategy.Types
     _ValidationException,
 
     -- * AntipatternReportStatus
-    AntipatternReportStatus (..),
+    AntipatternReportStatus,
 
     -- * AppType
-    AppType (..),
+    AppType,
 
     -- * AppUnitErrorCategory
-    AppUnitErrorCategory (..),
+    AppUnitErrorCategory,
 
     -- * ApplicationComponentCriteria
-    ApplicationComponentCriteria (..),
+    ApplicationComponentCriteria,
 
     -- * ApplicationMode
-    ApplicationMode (..),
+    ApplicationMode,
 
     -- * AssessmentStatus
-    AssessmentStatus (..),
+    AssessmentStatus,
 
     -- * AuthType
-    AuthType (..),
+    AuthType,
 
     -- * AwsManagedTargetDestination
-    AwsManagedTargetDestination (..),
+    AwsManagedTargetDestination,
 
     -- * CollectorHealth
-    CollectorHealth (..),
+    CollectorHealth,
 
     -- * Condition
-    Condition (..),
+    Condition,
 
     -- * DataSourceType
-    DataSourceType (..),
+    DataSourceType,
 
     -- * DatabaseManagementPreference
-    DatabaseManagementPreference (..),
+    DatabaseManagementPreference,
 
     -- * GroupName
-    GroupName (..),
+    GroupName,
 
     -- * HeterogeneousTargetDatabaseEngine
-    HeterogeneousTargetDatabaseEngine (..),
+    HeterogeneousTargetDatabaseEngine,
 
     -- * HomogeneousTargetDatabaseEngine
-    HomogeneousTargetDatabaseEngine (..),
+    HomogeneousTargetDatabaseEngine,
 
     -- * ImportFileTaskStatus
-    ImportFileTaskStatus (..),
+    ImportFileTaskStatus,
 
     -- * InclusionStatus
-    InclusionStatus (..),
+    InclusionStatus,
 
     -- * NoPreferenceTargetDestination
-    NoPreferenceTargetDestination (..),
+    NoPreferenceTargetDestination,
 
     -- * OSType
-    OSType (..),
+    OSType,
 
     -- * OutputFormat
-    OutputFormat (..),
+    OutputFormat,
 
     -- * PipelineType
-    PipelineType (..),
+    PipelineType,
 
     -- * RecommendationReportStatus
-    RecommendationReportStatus (..),
+    RecommendationReportStatus,
 
     -- * ResourceSubType
-    ResourceSubType (..),
+    ResourceSubType,
 
     -- * RunTimeAssessmentStatus
-    RunTimeAssessmentStatus (..),
+    RunTimeAssessmentStatus,
 
     -- * RuntimeAnalysisStatus
-    RuntimeAnalysisStatus (..),
+    RuntimeAnalysisStatus,
 
     -- * SelfManageTargetDestination
-    SelfManageTargetDestination (..),
+    SelfManageTargetDestination,
 
     -- * ServerCriteria
-    ServerCriteria (..),
+    ServerCriteria,
 
     -- * ServerErrorCategory
-    ServerErrorCategory (..),
+    ServerErrorCategory,
 
     -- * ServerOsType
-    ServerOsType (..),
+    ServerOsType,
 
     -- * Severity
-    Severity (..),
+    Severity,
 
     -- * SortOrder
-    SortOrder (..),
+    SortOrder,
 
     -- * SrcCodeOrDbAnalysisStatus
-    SrcCodeOrDbAnalysisStatus (..),
+    SrcCodeOrDbAnalysisStatus,
 
     -- * Strategy
-    Strategy (..),
+    Strategy,
 
     -- * StrategyRecommendation
-    StrategyRecommendation (..),
+    StrategyRecommendation,
 
     -- * TargetDatabaseEngine
-    TargetDatabaseEngine (..),
+    TargetDatabaseEngine,
 
     -- * TargetDestination
-    TargetDestination (..),
+    TargetDestination,
 
     -- * TransformationToolName
-    TransformationToolName (..),
+    TransformationToolName,
 
     -- * VersionControl
-    VersionControl (..),
+    VersionControl,
 
     -- * VersionControlType
-    VersionControlType (..),
+    VersionControlType,
 
     -- * AntipatternSeveritySummary
-    AntipatternSeveritySummary (..),
+    AntipatternSeveritySummary,
     newAntipatternSeveritySummary,
     antipatternSeveritySummary_count,
     antipatternSeveritySummary_severity,
 
     -- * AppUnitError
-    AppUnitError (..),
+    AppUnitError,
     newAppUnitError,
     appUnitError_appUnitErrorCategory,
 
     -- * ApplicationComponentDetail
-    ApplicationComponentDetail (..),
+    ApplicationComponentDetail,
     newApplicationComponentDetail,
     applicationComponentDetail_analysisStatus,
     applicationComponentDetail_antipatternReportS3Object,
@@ -183,31 +184,31 @@ module Amazonka.MigrationHubStrategy.Types
     applicationComponentDetail_statusMessage,
 
     -- * ApplicationComponentStatusSummary
-    ApplicationComponentStatusSummary (..),
+    ApplicationComponentStatusSummary,
     newApplicationComponentStatusSummary,
     applicationComponentStatusSummary_count,
     applicationComponentStatusSummary_srcCodeOrDbAnalysisStatus,
 
     -- * ApplicationComponentStrategy
-    ApplicationComponentStrategy (..),
+    ApplicationComponentStrategy,
     newApplicationComponentStrategy,
     applicationComponentStrategy_isPreferred,
     applicationComponentStrategy_recommendation,
     applicationComponentStrategy_status,
 
     -- * ApplicationComponentSummary
-    ApplicationComponentSummary (..),
+    ApplicationComponentSummary,
     newApplicationComponentSummary,
     applicationComponentSummary_appType,
     applicationComponentSummary_count,
 
     -- * ApplicationPreferences
-    ApplicationPreferences (..),
+    ApplicationPreferences,
     newApplicationPreferences,
     applicationPreferences_managementPreference,
 
     -- * AssessmentSummary
-    AssessmentSummary (..),
+    AssessmentSummary,
     newAssessmentSummary,
     assessmentSummary_antipatternReportS3Object,
     assessmentSummary_antipatternReportStatus,
@@ -222,25 +223,25 @@ module Amazonka.MigrationHubStrategy.Types
     assessmentSummary_listServerSummary,
 
     -- * AssessmentTarget
-    AssessmentTarget (..),
+    AssessmentTarget,
     newAssessmentTarget,
     assessmentTarget_condition,
     assessmentTarget_name,
     assessmentTarget_values,
 
     -- * AssociatedApplication
-    AssociatedApplication (..),
+    AssociatedApplication,
     newAssociatedApplication,
     associatedApplication_id,
     associatedApplication_name,
 
     -- * AwsManagedResources
-    AwsManagedResources (..),
+    AwsManagedResources,
     newAwsManagedResources,
     awsManagedResources_targetDestination,
 
     -- * BusinessGoals
-    BusinessGoals (..),
+    BusinessGoals,
     newBusinessGoals,
     businessGoals_licenseCostReduction,
     businessGoals_modernizeInfrastructureWithCloudNativeTechnologies,
@@ -248,7 +249,7 @@ module Amazonka.MigrationHubStrategy.Types
     businessGoals_speedOfMigration,
 
     -- * Collector
-    Collector (..),
+    Collector,
     newCollector,
     collector_collectorHealth,
     collector_collectorId,
@@ -260,7 +261,7 @@ module Amazonka.MigrationHubStrategy.Types
     collector_registeredTimeStamp,
 
     -- * ConfigurationSummary
-    ConfigurationSummary (..),
+    ConfigurationSummary,
     newConfigurationSummary,
     configurationSummary_ipAddressBasedRemoteInfoList,
     configurationSummary_pipelineInfoList,
@@ -269,7 +270,7 @@ module Amazonka.MigrationHubStrategy.Types
     configurationSummary_versionControlInfoList,
 
     -- * DataCollectionDetails
-    DataCollectionDetails (..),
+    DataCollectionDetails,
     newDataCollectionDetails,
     dataCollectionDetails_completionTime,
     dataCollectionDetails_failed,
@@ -281,48 +282,48 @@ module Amazonka.MigrationHubStrategy.Types
     dataCollectionDetails_success,
 
     -- * DatabaseConfigDetail
-    DatabaseConfigDetail (..),
+    DatabaseConfigDetail,
     newDatabaseConfigDetail,
     databaseConfigDetail_secretName,
 
     -- * DatabaseMigrationPreference
-    DatabaseMigrationPreference (..),
+    DatabaseMigrationPreference,
     newDatabaseMigrationPreference,
     databaseMigrationPreference_heterogeneous,
     databaseMigrationPreference_homogeneous,
     databaseMigrationPreference_noPreference,
 
     -- * DatabasePreferences
-    DatabasePreferences (..),
+    DatabasePreferences,
     newDatabasePreferences,
     databasePreferences_databaseManagementPreference,
     databasePreferences_databaseMigrationPreference,
 
     -- * Group
-    Group (..),
+    Group,
     newGroup,
     group_name,
     group_value,
 
     -- * Heterogeneous
-    Heterogeneous (..),
+    Heterogeneous,
     newHeterogeneous,
     heterogeneous_targetDatabaseEngine,
 
     -- * Homogeneous
-    Homogeneous (..),
+    Homogeneous,
     newHomogeneous,
     homogeneous_targetDatabaseEngine,
 
     -- * IPAddressBasedRemoteInfo
-    IPAddressBasedRemoteInfo (..),
+    IPAddressBasedRemoteInfo,
     newIPAddressBasedRemoteInfo,
     iPAddressBasedRemoteInfo_authType,
     iPAddressBasedRemoteInfo_ipAddressConfigurationTimeStamp,
     iPAddressBasedRemoteInfo_osType,
 
     -- * ImportFileTaskInformation
-    ImportFileTaskInformation (..),
+    ImportFileTaskInformation,
     newImportFileTaskInformation,
     importFileTaskInformation_completionTime,
     importFileTaskInformation_id,
@@ -337,14 +338,14 @@ module Amazonka.MigrationHubStrategy.Types
     importFileTaskInformation_statusReportS3Key,
 
     -- * ManagementPreference
-    ManagementPreference (..),
+    ManagementPreference,
     newManagementPreference,
     managementPreference_awsManagedResources,
     managementPreference_noPreference,
     managementPreference_selfManageResources,
 
     -- * NetworkInfo
-    NetworkInfo (..),
+    NetworkInfo,
     newNetworkInfo,
     networkInfo_interfaceName,
     networkInfo_ipAddress,
@@ -352,34 +353,34 @@ module Amazonka.MigrationHubStrategy.Types
     networkInfo_netMask,
 
     -- * NoDatabaseMigrationPreference
-    NoDatabaseMigrationPreference (..),
+    NoDatabaseMigrationPreference,
     newNoDatabaseMigrationPreference,
     noDatabaseMigrationPreference_targetDatabaseEngine,
 
     -- * NoManagementPreference
-    NoManagementPreference (..),
+    NoManagementPreference,
     newNoManagementPreference,
     noManagementPreference_targetDestination,
 
     -- * OSInfo
-    OSInfo (..),
+    OSInfo,
     newOSInfo,
     oSInfo_type,
     oSInfo_version,
 
     -- * PipelineInfo
-    PipelineInfo (..),
+    PipelineInfo,
     newPipelineInfo,
     pipelineInfo_pipelineConfigurationTimeStamp,
     pipelineInfo_pipelineType,
 
     -- * PrioritizeBusinessGoals
-    PrioritizeBusinessGoals (..),
+    PrioritizeBusinessGoals,
     newPrioritizeBusinessGoals,
     prioritizeBusinessGoals_businessGoals,
 
     -- * RecommendationReportDetails
-    RecommendationReportDetails (..),
+    RecommendationReportDetails,
     newRecommendationReportDetails,
     recommendationReportDetails_completionTime,
     recommendationReportDetails_s3Bucket,
@@ -389,30 +390,30 @@ module Amazonka.MigrationHubStrategy.Types
     recommendationReportDetails_statusMessage,
 
     -- * RecommendationSet
-    RecommendationSet (..),
+    RecommendationSet,
     newRecommendationSet,
     recommendationSet_strategy,
     recommendationSet_targetDestination,
     recommendationSet_transformationTool,
 
     -- * RemoteSourceCodeAnalysisServerInfo
-    RemoteSourceCodeAnalysisServerInfo (..),
+    RemoteSourceCodeAnalysisServerInfo,
     newRemoteSourceCodeAnalysisServerInfo,
     remoteSourceCodeAnalysisServerInfo_remoteSourceCodeAnalysisServerConfigurationTimestamp,
 
     -- * S3Object
-    S3Object (..),
+    S3Object,
     newS3Object,
     s3Object_s3Bucket,
     s3Object_s3key,
 
     -- * SelfManageResources
-    SelfManageResources (..),
+    SelfManageResources,
     newSelfManageResources,
     selfManageResources_targetDestination,
 
     -- * ServerDetail
-    ServerDetail (..),
+    ServerDetail,
     newServerDetail,
     serverDetail_antipatternReportS3Object,
     serverDetail_antipatternReportStatus,
@@ -430,18 +431,18 @@ module Amazonka.MigrationHubStrategy.Types
     serverDetail_systemInfo,
 
     -- * ServerError
-    ServerError (..),
+    ServerError,
     newServerError,
     serverError_serverErrorCategory,
 
     -- * ServerStatusSummary
-    ServerStatusSummary (..),
+    ServerStatusSummary,
     newServerStatusSummary,
     serverStatusSummary_count,
     serverStatusSummary_runTimeAssessmentStatus,
 
     -- * ServerStrategy
-    ServerStrategy (..),
+    ServerStrategy,
     newServerStrategy,
     serverStrategy_isPreferred,
     serverStrategy_numberOfApplicationComponents,
@@ -449,13 +450,13 @@ module Amazonka.MigrationHubStrategy.Types
     serverStrategy_status,
 
     -- * ServerSummary
-    ServerSummary (..),
+    ServerSummary,
     newServerSummary,
     serverSummary_serverOsType,
     serverSummary_count,
 
     -- * SourceCode
-    SourceCode (..),
+    SourceCode,
     newSourceCode,
     sourceCode_location,
     sourceCode_projectName,
@@ -463,7 +464,7 @@ module Amazonka.MigrationHubStrategy.Types
     sourceCode_versionControl,
 
     -- * SourceCodeRepository
-    SourceCodeRepository (..),
+    SourceCodeRepository,
     newSourceCodeRepository,
     sourceCodeRepository_branch,
     sourceCodeRepository_projectName,
@@ -471,7 +472,7 @@ module Amazonka.MigrationHubStrategy.Types
     sourceCodeRepository_versionControlType,
 
     -- * StrategyOption
-    StrategyOption (..),
+    StrategyOption,
     newStrategyOption,
     strategyOption_isPreferred,
     strategyOption_strategy,
@@ -479,13 +480,13 @@ module Amazonka.MigrationHubStrategy.Types
     strategyOption_toolName,
 
     -- * StrategySummary
-    StrategySummary (..),
+    StrategySummary,
     newStrategySummary,
     strategySummary_count,
     strategySummary_strategy,
 
     -- * SystemInfo
-    SystemInfo (..),
+    SystemInfo,
     newSystemInfo,
     systemInfo_cpuArchitecture,
     systemInfo_fileSystemType,
@@ -493,20 +494,20 @@ module Amazonka.MigrationHubStrategy.Types
     systemInfo_osInfo,
 
     -- * TransformationTool
-    TransformationTool (..),
+    TransformationTool,
     newTransformationTool,
     transformationTool_description,
     transformationTool_name,
     transformationTool_tranformationToolInstallationLink,
 
     -- * VcenterBasedRemoteInfo
-    VcenterBasedRemoteInfo (..),
+    VcenterBasedRemoteInfo,
     newVcenterBasedRemoteInfo,
     vcenterBasedRemoteInfo_osType,
     vcenterBasedRemoteInfo_vcenterConfigurationTimeStamp,
 
     -- * VersionControlInfo
-    VersionControlInfo (..),
+    VersionControlInfo,
     newVersionControlInfo,
     versionControlInfo_versionControlConfigurationTimeStamp,
     versionControlInfo_versionControlType,

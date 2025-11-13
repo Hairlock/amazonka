@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -28,40 +29,40 @@ module Amazonka.MachineLearning.Types
     _TagLimitExceededException,
 
     -- * Algorithm
-    Algorithm (..),
+    Algorithm,
 
     -- * BatchPredictionFilterVariable
-    BatchPredictionFilterVariable (..),
+    BatchPredictionFilterVariable,
 
     -- * DataSourceFilterVariable
-    DataSourceFilterVariable (..),
+    DataSourceFilterVariable,
 
     -- * DetailsAttributes
-    DetailsAttributes (..),
+    DetailsAttributes,
 
     -- * EntityStatus
-    EntityStatus (..),
+    EntityStatus,
 
     -- * EvaluationFilterVariable
-    EvaluationFilterVariable (..),
+    EvaluationFilterVariable,
 
     -- * MLModelFilterVariable
-    MLModelFilterVariable (..),
+    MLModelFilterVariable,
 
     -- * MLModelType
-    MLModelType (..),
+    MLModelType,
 
     -- * RealtimeEndpointStatus
-    RealtimeEndpointStatus (..),
+    RealtimeEndpointStatus,
 
     -- * SortOrder
-    SortOrder (..),
+    SortOrder,
 
     -- * TaggableResourceType
-    TaggableResourceType (..),
+    TaggableResourceType,
 
     -- * BatchPrediction
-    BatchPrediction (..),
+    BatchPrediction,
     newBatchPrediction,
     batchPrediction_batchPredictionDataSourceId,
     batchPrediction_batchPredictionId,
@@ -81,7 +82,7 @@ module Amazonka.MachineLearning.Types
     batchPrediction_totalRecordCount,
 
     -- * DataSource
-    DataSource (..),
+    DataSource,
     newDataSource,
     dataSource_computeStatistics,
     dataSource_computeTime,
@@ -103,7 +104,7 @@ module Amazonka.MachineLearning.Types
     dataSource_status,
 
     -- * Evaluation
-    Evaluation (..),
+    Evaluation,
     newEvaluation,
     evaluation_computeTime,
     evaluation_createdAt,
@@ -121,7 +122,7 @@ module Amazonka.MachineLearning.Types
     evaluation_status,
 
     -- * MLModel
-    MLModel (..),
+    MLModel,
     newMLModel,
     mLModel_algorithm,
     mLModel_computeTime,
@@ -144,12 +145,12 @@ module Amazonka.MachineLearning.Types
     mLModel_trainingParameters,
 
     -- * PerformanceMetrics
-    PerformanceMetrics (..),
+    PerformanceMetrics,
     newPerformanceMetrics,
     performanceMetrics_properties,
 
     -- * Prediction
-    Prediction (..),
+    Prediction,
     newPrediction,
     prediction_details,
     prediction_predictedLabel,
@@ -157,7 +158,7 @@ module Amazonka.MachineLearning.Types
     prediction_predictedValue,
 
     -- * RDSDataSpec
-    RDSDataSpec (..),
+    RDSDataSpec,
     newRDSDataSpec,
     rDSDataSpec_dataRearrangement,
     rDSDataSpec_dataSchema,
@@ -172,19 +173,19 @@ module Amazonka.MachineLearning.Types
     rDSDataSpec_securityGroupIds,
 
     -- * RDSDatabase
-    RDSDatabase (..),
+    RDSDatabase,
     newRDSDatabase,
     rDSDatabase_instanceIdentifier,
     rDSDatabase_databaseName,
 
     -- * RDSDatabaseCredentials
-    RDSDatabaseCredentials (..),
+    RDSDatabaseCredentials,
     newRDSDatabaseCredentials,
     rDSDatabaseCredentials_username,
     rDSDatabaseCredentials_password,
 
     -- * RDSMetadata
-    RDSMetadata (..),
+    RDSMetadata,
     newRDSMetadata,
     rDSMetadata_dataPipelineId,
     rDSMetadata_database,
@@ -194,7 +195,7 @@ module Amazonka.MachineLearning.Types
     rDSMetadata_serviceRole,
 
     -- * RealtimeEndpointInfo
-    RealtimeEndpointInfo (..),
+    RealtimeEndpointInfo,
     newRealtimeEndpointInfo,
     realtimeEndpointInfo_createdAt,
     realtimeEndpointInfo_endpointStatus,
@@ -202,7 +203,7 @@ module Amazonka.MachineLearning.Types
     realtimeEndpointInfo_peakRequestsPerSecond,
 
     -- * RedshiftDataSpec
-    RedshiftDataSpec (..),
+    RedshiftDataSpec,
     newRedshiftDataSpec,
     redshiftDataSpec_dataRearrangement,
     redshiftDataSpec_dataSchema,
@@ -213,26 +214,26 @@ module Amazonka.MachineLearning.Types
     redshiftDataSpec_s3StagingLocation,
 
     -- * RedshiftDatabase
-    RedshiftDatabase (..),
+    RedshiftDatabase,
     newRedshiftDatabase,
     redshiftDatabase_databaseName,
     redshiftDatabase_clusterIdentifier,
 
     -- * RedshiftDatabaseCredentials
-    RedshiftDatabaseCredentials (..),
+    RedshiftDatabaseCredentials,
     newRedshiftDatabaseCredentials,
     redshiftDatabaseCredentials_username,
     redshiftDatabaseCredentials_password,
 
     -- * RedshiftMetadata
-    RedshiftMetadata (..),
+    RedshiftMetadata,
     newRedshiftMetadata,
     redshiftMetadata_databaseUserName,
     redshiftMetadata_redshiftDatabase,
     redshiftMetadata_selectSqlQuery,
 
     -- * S3DataSpec
-    S3DataSpec (..),
+    S3DataSpec,
     newS3DataSpec,
     s3DataSpec_dataRearrangement,
     s3DataSpec_dataSchema,
@@ -240,7 +241,7 @@ module Amazonka.MachineLearning.Types
     s3DataSpec_dataLocationS3,
 
     -- * Tag
-    Tag (..),
+    Tag,
     newTag,
     tag_key,
     tag_value,

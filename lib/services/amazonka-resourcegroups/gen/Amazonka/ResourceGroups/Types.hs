@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -27,39 +28,39 @@ module Amazonka.ResourceGroups.Types
     _UnauthorizedException,
 
     -- * GroupConfigurationStatus
-    GroupConfigurationStatus (..),
+    GroupConfigurationStatus,
 
     -- * GroupFilterName
-    GroupFilterName (..),
+    GroupFilterName,
 
     -- * QueryErrorCode
-    QueryErrorCode (..),
+    QueryErrorCode,
 
     -- * QueryType
-    QueryType (..),
+    QueryType,
 
     -- * ResourceFilterName
-    ResourceFilterName (..),
+    ResourceFilterName,
 
     -- * ResourceStatusValue
-    ResourceStatusValue (..),
+    ResourceStatusValue,
 
     -- * FailedResource
-    FailedResource (..),
+    FailedResource,
     newFailedResource,
     failedResource_errorCode,
     failedResource_errorMessage,
     failedResource_resourceArn,
 
     -- * Group
-    Group (..),
+    Group,
     newGroup,
     group_description,
     group_groupArn,
     group_name,
 
     -- * GroupConfiguration
-    GroupConfiguration (..),
+    GroupConfiguration,
     newGroupConfiguration,
     groupConfiguration_configuration,
     groupConfiguration_failureReason,
@@ -67,72 +68,72 @@ module Amazonka.ResourceGroups.Types
     groupConfiguration_status,
 
     -- * GroupConfigurationItem
-    GroupConfigurationItem (..),
+    GroupConfigurationItem,
     newGroupConfigurationItem,
     groupConfigurationItem_parameters,
     groupConfigurationItem_type,
 
     -- * GroupConfigurationParameter
-    GroupConfigurationParameter (..),
+    GroupConfigurationParameter,
     newGroupConfigurationParameter,
     groupConfigurationParameter_values,
     groupConfigurationParameter_name,
 
     -- * GroupFilter
-    GroupFilter (..),
+    GroupFilter,
     newGroupFilter,
     groupFilter_name,
     groupFilter_values,
 
     -- * GroupIdentifier
-    GroupIdentifier (..),
+    GroupIdentifier,
     newGroupIdentifier,
     groupIdentifier_groupArn,
     groupIdentifier_groupName,
 
     -- * GroupQuery
-    GroupQuery (..),
+    GroupQuery,
     newGroupQuery,
     groupQuery_groupName,
     groupQuery_resourceQuery,
 
     -- * ListGroupResourcesItem
-    ListGroupResourcesItem (..),
+    ListGroupResourcesItem,
     newListGroupResourcesItem,
     listGroupResourcesItem_identifier,
     listGroupResourcesItem_status,
 
     -- * PendingResource
-    PendingResource (..),
+    PendingResource,
     newPendingResource,
     pendingResource_resourceArn,
 
     -- * QueryError
-    QueryError (..),
+    QueryError,
     newQueryError,
     queryError_errorCode,
     queryError_message,
 
     -- * ResourceFilter
-    ResourceFilter (..),
+    ResourceFilter,
     newResourceFilter,
     resourceFilter_name,
     resourceFilter_values,
 
     -- * ResourceIdentifier
-    ResourceIdentifier (..),
+    ResourceIdentifier,
     newResourceIdentifier,
     resourceIdentifier_resourceArn,
     resourceIdentifier_resourceType,
 
     -- * ResourceQuery
-    ResourceQuery (..),
+    ResourceQuery,
     newResourceQuery,
     resourceQuery_type,
     resourceQuery_searchQuery,
 
     -- * ResourceStatus
-    ResourceStatus (..),
+    ResourceStatus,
     newResourceStatus,
     resourceStatus_name,
   )

@@ -1,6 +1,7 @@
 {-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE StrictData #-}
+{-# LANGUAGE NoFieldSelectors #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -fno-warn-unused-matches #-}
 
@@ -29,76 +30,76 @@ module Amazonka.MediaConnect.Types
     _TooManyRequestsException,
 
     -- * Algorithm
-    Algorithm (..),
+    Algorithm,
 
     -- * Colorimetry
-    Colorimetry (..),
+    Colorimetry,
 
     -- * DurationUnits
-    DurationUnits (..),
+    DurationUnits,
 
     -- * EncoderProfile
-    EncoderProfile (..),
+    EncoderProfile,
 
     -- * EncodingName
-    EncodingName (..),
+    EncodingName,
 
     -- * EntitlementStatus
-    EntitlementStatus (..),
+    EntitlementStatus,
 
     -- * FailoverMode
-    FailoverMode (..),
+    FailoverMode,
 
     -- * KeyType
-    KeyType (..),
+    KeyType,
 
     -- * MaintenanceDay
-    MaintenanceDay (..),
+    MaintenanceDay,
 
     -- * MediaStreamType
-    MediaStreamType (..),
+    MediaStreamType,
 
     -- * NetworkInterfaceType
-    NetworkInterfaceType (..),
+    NetworkInterfaceType,
 
     -- * PriceUnits
-    PriceUnits (..),
+    PriceUnits,
 
     -- * Protocol
-    Protocol (..),
+    Protocol,
 
     -- * Range
-    Range (..),
+    Range,
 
     -- * ReservationState
-    ReservationState (..),
+    ReservationState,
 
     -- * ResourceType
-    ResourceType (..),
+    ResourceType,
 
     -- * ScanMode
-    ScanMode (..),
+    ScanMode,
 
     -- * SourceType
-    SourceType (..),
+    SourceType,
 
     -- * State
-    State (..),
+    State,
 
     -- * Status
-    Status (..),
+    Status,
 
     -- * Tcs
-    Tcs (..),
+    Tcs,
 
     -- * AddMaintenance
-    AddMaintenance (..),
+    AddMaintenance,
     newAddMaintenance,
     addMaintenance_maintenanceDay,
     addMaintenance_maintenanceStartHour,
 
     -- * AddMediaStreamRequest
-    AddMediaStreamRequest (..),
+    AddMediaStreamRequest,
     newAddMediaStreamRequest,
     addMediaStreamRequest_attributes,
     addMediaStreamRequest_clockRate,
@@ -109,7 +110,7 @@ module Amazonka.MediaConnect.Types
     addMediaStreamRequest_mediaStreamName,
 
     -- * AddOutputRequest
-    AddOutputRequest (..),
+    AddOutputRequest,
     newAddOutputRequest,
     addOutputRequest_cidrAllowList,
     addOutputRequest_description,
@@ -128,7 +129,7 @@ module Amazonka.MediaConnect.Types
     addOutputRequest_protocol,
 
     -- * DestinationConfiguration
-    DestinationConfiguration (..),
+    DestinationConfiguration,
     newDestinationConfiguration,
     destinationConfiguration_destinationIp,
     destinationConfiguration_destinationPort,
@@ -136,26 +137,26 @@ module Amazonka.MediaConnect.Types
     destinationConfiguration_outboundIp,
 
     -- * DestinationConfigurationRequest
-    DestinationConfigurationRequest (..),
+    DestinationConfigurationRequest,
     newDestinationConfigurationRequest,
     destinationConfigurationRequest_destinationIp,
     destinationConfigurationRequest_destinationPort,
     destinationConfigurationRequest_interface,
 
     -- * EncodingParameters
-    EncodingParameters (..),
+    EncodingParameters,
     newEncodingParameters,
     encodingParameters_encoderProfile,
     encodingParameters_compressionFactor,
 
     -- * EncodingParametersRequest
-    EncodingParametersRequest (..),
+    EncodingParametersRequest,
     newEncodingParametersRequest,
     encodingParametersRequest_encoderProfile,
     encodingParametersRequest_compressionFactor,
 
     -- * Encryption
-    Encryption (..),
+    Encryption,
     newEncryption,
     encryption_algorithm,
     encryption_constantInitializationVector,
@@ -168,7 +169,7 @@ module Amazonka.MediaConnect.Types
     encryption_roleArn,
 
     -- * Entitlement
-    Entitlement (..),
+    Entitlement,
     newEntitlement,
     entitlement_dataTransferSubscriberFeePercent,
     entitlement_description,
@@ -179,7 +180,7 @@ module Amazonka.MediaConnect.Types
     entitlement_name,
 
     -- * FailoverConfig
-    FailoverConfig (..),
+    FailoverConfig,
     newFailoverConfig,
     failoverConfig_failoverMode,
     failoverConfig_recoveryWindow,
@@ -187,7 +188,7 @@ module Amazonka.MediaConnect.Types
     failoverConfig_state,
 
     -- * Flow
-    Flow (..),
+    Flow,
     newFlow,
     flow_description,
     flow_egressIp,
@@ -205,7 +206,7 @@ module Amazonka.MediaConnect.Types
     flow_name,
 
     -- * Fmtp
-    Fmtp (..),
+    Fmtp,
     newFmtp,
     fmtp_channelOrder,
     fmtp_colorimetry,
@@ -216,7 +217,7 @@ module Amazonka.MediaConnect.Types
     fmtp_tcs,
 
     -- * FmtpRequest
-    FmtpRequest (..),
+    FmtpRequest,
     newFmtpRequest,
     fmtpRequest_channelOrder,
     fmtpRequest_colorimetry,
@@ -227,7 +228,7 @@ module Amazonka.MediaConnect.Types
     fmtpRequest_tcs,
 
     -- * GrantEntitlementRequest
-    GrantEntitlementRequest (..),
+    GrantEntitlementRequest,
     newGrantEntitlementRequest,
     grantEntitlementRequest_dataTransferSubscriberFeePercent,
     grantEntitlementRequest_description,
@@ -237,37 +238,37 @@ module Amazonka.MediaConnect.Types
     grantEntitlementRequest_subscribers,
 
     -- * InputConfiguration
-    InputConfiguration (..),
+    InputConfiguration,
     newInputConfiguration,
     inputConfiguration_inputPort,
     inputConfiguration_inputIp,
     inputConfiguration_interface,
 
     -- * InputConfigurationRequest
-    InputConfigurationRequest (..),
+    InputConfigurationRequest,
     newInputConfigurationRequest,
     inputConfigurationRequest_inputPort,
     inputConfigurationRequest_interface,
 
     -- * Interface
-    Interface (..),
+    Interface,
     newInterface,
     interface_name,
 
     -- * InterfaceRequest
-    InterfaceRequest (..),
+    InterfaceRequest,
     newInterfaceRequest,
     interfaceRequest_name,
 
     -- * ListedEntitlement
-    ListedEntitlement (..),
+    ListedEntitlement,
     newListedEntitlement,
     listedEntitlement_dataTransferSubscriberFeePercent,
     listedEntitlement_entitlementArn,
     listedEntitlement_entitlementName,
 
     -- * ListedFlow
-    ListedFlow (..),
+    ListedFlow,
     newListedFlow,
     listedFlow_maintenance,
     listedFlow_status,
@@ -278,7 +279,7 @@ module Amazonka.MediaConnect.Types
     listedFlow_name,
 
     -- * Maintenance
-    Maintenance (..),
+    Maintenance,
     newMaintenance,
     maintenance_maintenanceDay,
     maintenance_maintenanceDeadline,
@@ -286,7 +287,7 @@ module Amazonka.MediaConnect.Types
     maintenance_maintenanceStartHour,
 
     -- * MediaStream
-    MediaStream (..),
+    MediaStream,
     newMediaStream,
     mediaStream_attributes,
     mediaStream_clockRate,
@@ -298,19 +299,19 @@ module Amazonka.MediaConnect.Types
     mediaStream_fmt,
 
     -- * MediaStreamAttributes
-    MediaStreamAttributes (..),
+    MediaStreamAttributes,
     newMediaStreamAttributes,
     mediaStreamAttributes_lang,
     mediaStreamAttributes_fmtp,
 
     -- * MediaStreamAttributesRequest
-    MediaStreamAttributesRequest (..),
+    MediaStreamAttributesRequest,
     newMediaStreamAttributesRequest,
     mediaStreamAttributesRequest_fmtp,
     mediaStreamAttributesRequest_lang,
 
     -- * MediaStreamOutputConfiguration
-    MediaStreamOutputConfiguration (..),
+    MediaStreamOutputConfiguration,
     newMediaStreamOutputConfiguration,
     mediaStreamOutputConfiguration_destinationConfigurations,
     mediaStreamOutputConfiguration_encodingParameters,
@@ -318,7 +319,7 @@ module Amazonka.MediaConnect.Types
     mediaStreamOutputConfiguration_encodingName,
 
     -- * MediaStreamOutputConfigurationRequest
-    MediaStreamOutputConfigurationRequest (..),
+    MediaStreamOutputConfigurationRequest,
     newMediaStreamOutputConfigurationRequest,
     mediaStreamOutputConfigurationRequest_destinationConfigurations,
     mediaStreamOutputConfigurationRequest_encodingParameters,
@@ -326,26 +327,26 @@ module Amazonka.MediaConnect.Types
     mediaStreamOutputConfigurationRequest_encodingName,
 
     -- * MediaStreamSourceConfiguration
-    MediaStreamSourceConfiguration (..),
+    MediaStreamSourceConfiguration,
     newMediaStreamSourceConfiguration,
     mediaStreamSourceConfiguration_inputConfigurations,
     mediaStreamSourceConfiguration_mediaStreamName,
     mediaStreamSourceConfiguration_encodingName,
 
     -- * MediaStreamSourceConfigurationRequest
-    MediaStreamSourceConfigurationRequest (..),
+    MediaStreamSourceConfigurationRequest,
     newMediaStreamSourceConfigurationRequest,
     mediaStreamSourceConfigurationRequest_inputConfigurations,
     mediaStreamSourceConfigurationRequest_mediaStreamName,
     mediaStreamSourceConfigurationRequest_encodingName,
 
     -- * Messages
-    Messages (..),
+    Messages,
     newMessages,
     messages_errors,
 
     -- * Offering
-    Offering (..),
+    Offering,
     newOffering,
     offering_currencyCode,
     offering_offeringArn,
@@ -357,7 +358,7 @@ module Amazonka.MediaConnect.Types
     offering_priceUnits,
 
     -- * Output
-    Output (..),
+    Output,
     newOutput,
     output_dataTransferSubscriberFeePercent,
     output_description,
@@ -374,7 +375,7 @@ module Amazonka.MediaConnect.Types
     output_name,
 
     -- * Reservation
-    Reservation (..),
+    Reservation,
     newReservation,
     reservation_currencyCode,
     reservation_reservationState,
@@ -391,13 +392,13 @@ module Amazonka.MediaConnect.Types
     reservation_priceUnits,
 
     -- * ResourceSpecification
-    ResourceSpecification (..),
+    ResourceSpecification,
     newResourceSpecification,
     resourceSpecification_reservedBitrate,
     resourceSpecification_resourceType,
 
     -- * SetSourceRequest
-    SetSourceRequest (..),
+    SetSourceRequest,
     newSetSourceRequest,
     setSourceRequest_decryption,
     setSourceRequest_description,
@@ -419,7 +420,7 @@ module Amazonka.MediaConnect.Types
     setSourceRequest_whitelistCidr,
 
     -- * Source
-    Source (..),
+    Source,
     newSource,
     source_dataTransferSubscriberFeePercent,
     source_decryption,
@@ -437,12 +438,12 @@ module Amazonka.MediaConnect.Types
     source_name,
 
     -- * SourcePriority
-    SourcePriority (..),
+    SourcePriority,
     newSourcePriority,
     sourcePriority_primarySource,
 
     -- * Transport
-    Transport (..),
+    Transport,
     newTransport,
     transport_cidrAllowList,
     transport_maxBitrate,
@@ -459,7 +460,7 @@ module Amazonka.MediaConnect.Types
     transport_protocol,
 
     -- * UpdateEncryption
-    UpdateEncryption (..),
+    UpdateEncryption,
     newUpdateEncryption,
     updateEncryption_algorithm,
     updateEncryption_constantInitializationVector,
@@ -472,7 +473,7 @@ module Amazonka.MediaConnect.Types
     updateEncryption_url,
 
     -- * UpdateFailoverConfig
-    UpdateFailoverConfig (..),
+    UpdateFailoverConfig,
     newUpdateFailoverConfig,
     updateFailoverConfig_failoverMode,
     updateFailoverConfig_recoveryWindow,
@@ -480,14 +481,14 @@ module Amazonka.MediaConnect.Types
     updateFailoverConfig_state,
 
     -- * UpdateMaintenance
-    UpdateMaintenance (..),
+    UpdateMaintenance,
     newUpdateMaintenance,
     updateMaintenance_maintenanceDay,
     updateMaintenance_maintenanceScheduledDate,
     updateMaintenance_maintenanceStartHour,
 
     -- * VpcInterface
-    VpcInterface (..),
+    VpcInterface,
     newVpcInterface,
     vpcInterface_networkInterfaceType,
     vpcInterface_networkInterfaceIds,
@@ -497,12 +498,12 @@ module Amazonka.MediaConnect.Types
     vpcInterface_name,
 
     -- * VpcInterfaceAttachment
-    VpcInterfaceAttachment (..),
+    VpcInterfaceAttachment,
     newVpcInterfaceAttachment,
     vpcInterfaceAttachment_vpcInterfaceName,
 
     -- * VpcInterfaceRequest
-    VpcInterfaceRequest (..),
+    VpcInterfaceRequest,
     newVpcInterfaceRequest,
     vpcInterfaceRequest_networkInterfaceType,
     vpcInterfaceRequest_subnetId,
