@@ -65,411 +65,411 @@ module Amazonka.FraudDetector
     -- $operations
 
     -- ** BatchCreateVariable
-    BatchCreateVariable,
+    BatchCreateVariable (BatchCreateVariable'),
     newBatchCreateVariable,
-    BatchCreateVariableResponse,
+    BatchCreateVariableResponse (BatchCreateVariableResponse'),
     newBatchCreateVariableResponse,
 
     -- ** BatchGetVariable
-    BatchGetVariable,
+    BatchGetVariable (BatchGetVariable'),
     newBatchGetVariable,
-    BatchGetVariableResponse,
+    BatchGetVariableResponse (BatchGetVariableResponse'),
     newBatchGetVariableResponse,
 
     -- ** CancelBatchImportJob
-    CancelBatchImportJob,
+    CancelBatchImportJob (CancelBatchImportJob'),
     newCancelBatchImportJob,
-    CancelBatchImportJobResponse,
+    CancelBatchImportJobResponse (CancelBatchImportJobResponse'),
     newCancelBatchImportJobResponse,
 
     -- ** CancelBatchPredictionJob
-    CancelBatchPredictionJob,
+    CancelBatchPredictionJob (CancelBatchPredictionJob'),
     newCancelBatchPredictionJob,
-    CancelBatchPredictionJobResponse,
+    CancelBatchPredictionJobResponse (CancelBatchPredictionJobResponse'),
     newCancelBatchPredictionJobResponse,
 
     -- ** CreateBatchImportJob
-    CreateBatchImportJob,
+    CreateBatchImportJob (CreateBatchImportJob'),
     newCreateBatchImportJob,
-    CreateBatchImportJobResponse,
+    CreateBatchImportJobResponse (CreateBatchImportJobResponse'),
     newCreateBatchImportJobResponse,
 
     -- ** CreateBatchPredictionJob
-    CreateBatchPredictionJob,
+    CreateBatchPredictionJob (CreateBatchPredictionJob'),
     newCreateBatchPredictionJob,
-    CreateBatchPredictionJobResponse,
+    CreateBatchPredictionJobResponse (CreateBatchPredictionJobResponse'),
     newCreateBatchPredictionJobResponse,
 
     -- ** CreateDetectorVersion
-    CreateDetectorVersion,
+    CreateDetectorVersion (CreateDetectorVersion'),
     newCreateDetectorVersion,
-    CreateDetectorVersionResponse,
+    CreateDetectorVersionResponse (CreateDetectorVersionResponse'),
     newCreateDetectorVersionResponse,
 
     -- ** CreateModel
-    CreateModel,
+    CreateModel (CreateModel'),
     newCreateModel,
-    CreateModelResponse,
+    CreateModelResponse (CreateModelResponse'),
     newCreateModelResponse,
 
     -- ** CreateModelVersion
-    CreateModelVersion,
+    CreateModelVersion (CreateModelVersion'),
     newCreateModelVersion,
-    CreateModelVersionResponse,
+    CreateModelVersionResponse (CreateModelVersionResponse'),
     newCreateModelVersionResponse,
 
     -- ** CreateRule
-    CreateRule,
+    CreateRule (CreateRule'),
     newCreateRule,
-    CreateRuleResponse,
+    CreateRuleResponse (CreateRuleResponse'),
     newCreateRuleResponse,
 
     -- ** CreateVariable
-    CreateVariable,
+    CreateVariable (CreateVariable'),
     newCreateVariable,
-    CreateVariableResponse,
+    CreateVariableResponse (CreateVariableResponse'),
     newCreateVariableResponse,
 
     -- ** DeleteBatchImportJob
-    DeleteBatchImportJob,
+    DeleteBatchImportJob (DeleteBatchImportJob'),
     newDeleteBatchImportJob,
-    DeleteBatchImportJobResponse,
+    DeleteBatchImportJobResponse (DeleteBatchImportJobResponse'),
     newDeleteBatchImportJobResponse,
 
     -- ** DeleteBatchPredictionJob
-    DeleteBatchPredictionJob,
+    DeleteBatchPredictionJob (DeleteBatchPredictionJob'),
     newDeleteBatchPredictionJob,
-    DeleteBatchPredictionJobResponse,
+    DeleteBatchPredictionJobResponse (DeleteBatchPredictionJobResponse'),
     newDeleteBatchPredictionJobResponse,
 
     -- ** DeleteDetector
-    DeleteDetector,
+    DeleteDetector (DeleteDetector'),
     newDeleteDetector,
-    DeleteDetectorResponse,
+    DeleteDetectorResponse (DeleteDetectorResponse'),
     newDeleteDetectorResponse,
 
     -- ** DeleteDetectorVersion
-    DeleteDetectorVersion,
+    DeleteDetectorVersion (DeleteDetectorVersion'),
     newDeleteDetectorVersion,
-    DeleteDetectorVersionResponse,
+    DeleteDetectorVersionResponse (DeleteDetectorVersionResponse'),
     newDeleteDetectorVersionResponse,
 
     -- ** DeleteEntityType
-    DeleteEntityType,
+    DeleteEntityType (DeleteEntityType'),
     newDeleteEntityType,
-    DeleteEntityTypeResponse,
+    DeleteEntityTypeResponse (DeleteEntityTypeResponse'),
     newDeleteEntityTypeResponse,
 
     -- ** DeleteEvent
-    DeleteEvent,
+    DeleteEvent (DeleteEvent'),
     newDeleteEvent,
-    DeleteEventResponse,
+    DeleteEventResponse (DeleteEventResponse'),
     newDeleteEventResponse,
 
     -- ** DeleteEventType
-    DeleteEventType,
+    DeleteEventType (DeleteEventType'),
     newDeleteEventType,
-    DeleteEventTypeResponse,
+    DeleteEventTypeResponse (DeleteEventTypeResponse'),
     newDeleteEventTypeResponse,
 
     -- ** DeleteEventsByEventType
-    DeleteEventsByEventType,
+    DeleteEventsByEventType (DeleteEventsByEventType'),
     newDeleteEventsByEventType,
-    DeleteEventsByEventTypeResponse,
+    DeleteEventsByEventTypeResponse (DeleteEventsByEventTypeResponse'),
     newDeleteEventsByEventTypeResponse,
 
     -- ** DeleteExternalModel
-    DeleteExternalModel,
+    DeleteExternalModel (DeleteExternalModel'),
     newDeleteExternalModel,
-    DeleteExternalModelResponse,
+    DeleteExternalModelResponse (DeleteExternalModelResponse'),
     newDeleteExternalModelResponse,
 
     -- ** DeleteLabel
-    DeleteLabel,
+    DeleteLabel (DeleteLabel'),
     newDeleteLabel,
-    DeleteLabelResponse,
+    DeleteLabelResponse (DeleteLabelResponse'),
     newDeleteLabelResponse,
 
     -- ** DeleteModel
-    DeleteModel,
+    DeleteModel (DeleteModel'),
     newDeleteModel,
-    DeleteModelResponse,
+    DeleteModelResponse (DeleteModelResponse'),
     newDeleteModelResponse,
 
     -- ** DeleteModelVersion
-    DeleteModelVersion,
+    DeleteModelVersion (DeleteModelVersion'),
     newDeleteModelVersion,
-    DeleteModelVersionResponse,
+    DeleteModelVersionResponse (DeleteModelVersionResponse'),
     newDeleteModelVersionResponse,
 
     -- ** DeleteOutcome
-    DeleteOutcome,
+    DeleteOutcome (DeleteOutcome'),
     newDeleteOutcome,
-    DeleteOutcomeResponse,
+    DeleteOutcomeResponse (DeleteOutcomeResponse'),
     newDeleteOutcomeResponse,
 
     -- ** DeleteRule
-    DeleteRule,
+    DeleteRule (DeleteRule'),
     newDeleteRule,
-    DeleteRuleResponse,
+    DeleteRuleResponse (DeleteRuleResponse'),
     newDeleteRuleResponse,
 
     -- ** DeleteVariable
-    DeleteVariable,
+    DeleteVariable (DeleteVariable'),
     newDeleteVariable,
-    DeleteVariableResponse,
+    DeleteVariableResponse (DeleteVariableResponse'),
     newDeleteVariableResponse,
 
     -- ** DescribeDetector
-    DescribeDetector,
+    DescribeDetector (DescribeDetector'),
     newDescribeDetector,
-    DescribeDetectorResponse,
+    DescribeDetectorResponse (DescribeDetectorResponse'),
     newDescribeDetectorResponse,
 
     -- ** DescribeModelVersions
-    DescribeModelVersions,
+    DescribeModelVersions (DescribeModelVersions'),
     newDescribeModelVersions,
-    DescribeModelVersionsResponse,
+    DescribeModelVersionsResponse (DescribeModelVersionsResponse'),
     newDescribeModelVersionsResponse,
 
     -- ** GetBatchImportJobs
-    GetBatchImportJobs,
+    GetBatchImportJobs (GetBatchImportJobs'),
     newGetBatchImportJobs,
-    GetBatchImportJobsResponse,
+    GetBatchImportJobsResponse (GetBatchImportJobsResponse'),
     newGetBatchImportJobsResponse,
 
     -- ** GetBatchPredictionJobs
-    GetBatchPredictionJobs,
+    GetBatchPredictionJobs (GetBatchPredictionJobs'),
     newGetBatchPredictionJobs,
-    GetBatchPredictionJobsResponse,
+    GetBatchPredictionJobsResponse (GetBatchPredictionJobsResponse'),
     newGetBatchPredictionJobsResponse,
 
     -- ** GetDeleteEventsByEventTypeStatus
-    GetDeleteEventsByEventTypeStatus,
+    GetDeleteEventsByEventTypeStatus (GetDeleteEventsByEventTypeStatus'),
     newGetDeleteEventsByEventTypeStatus,
-    GetDeleteEventsByEventTypeStatusResponse,
+    GetDeleteEventsByEventTypeStatusResponse (GetDeleteEventsByEventTypeStatusResponse'),
     newGetDeleteEventsByEventTypeStatusResponse,
 
     -- ** GetDetectorVersion
-    GetDetectorVersion,
+    GetDetectorVersion (GetDetectorVersion'),
     newGetDetectorVersion,
-    GetDetectorVersionResponse,
+    GetDetectorVersionResponse (GetDetectorVersionResponse'),
     newGetDetectorVersionResponse,
 
     -- ** GetDetectors
-    GetDetectors,
+    GetDetectors (GetDetectors'),
     newGetDetectors,
-    GetDetectorsResponse,
+    GetDetectorsResponse (GetDetectorsResponse'),
     newGetDetectorsResponse,
 
     -- ** GetEntityTypes
-    GetEntityTypes,
+    GetEntityTypes (GetEntityTypes'),
     newGetEntityTypes,
-    GetEntityTypesResponse,
+    GetEntityTypesResponse (GetEntityTypesResponse'),
     newGetEntityTypesResponse,
 
     -- ** GetEvent
-    GetEvent,
+    GetEvent (GetEvent'),
     newGetEvent,
-    GetEventResponse,
+    GetEventResponse (GetEventResponse'),
     newGetEventResponse,
 
     -- ** GetEventPrediction
-    GetEventPrediction,
+    GetEventPrediction (GetEventPrediction'),
     newGetEventPrediction,
-    GetEventPredictionResponse,
+    GetEventPredictionResponse (GetEventPredictionResponse'),
     newGetEventPredictionResponse,
 
     -- ** GetEventPredictionMetadata
-    GetEventPredictionMetadata,
+    GetEventPredictionMetadata (GetEventPredictionMetadata'),
     newGetEventPredictionMetadata,
-    GetEventPredictionMetadataResponse,
+    GetEventPredictionMetadataResponse (GetEventPredictionMetadataResponse'),
     newGetEventPredictionMetadataResponse,
 
     -- ** GetEventTypes
-    GetEventTypes,
+    GetEventTypes (GetEventTypes'),
     newGetEventTypes,
-    GetEventTypesResponse,
+    GetEventTypesResponse (GetEventTypesResponse'),
     newGetEventTypesResponse,
 
     -- ** GetExternalModels
-    GetExternalModels,
+    GetExternalModels (GetExternalModels'),
     newGetExternalModels,
-    GetExternalModelsResponse,
+    GetExternalModelsResponse (GetExternalModelsResponse'),
     newGetExternalModelsResponse,
 
     -- ** GetKMSEncryptionKey
-    GetKMSEncryptionKey,
+    GetKMSEncryptionKey (GetKMSEncryptionKey'),
     newGetKMSEncryptionKey,
-    GetKMSEncryptionKeyResponse,
+    GetKMSEncryptionKeyResponse (GetKMSEncryptionKeyResponse'),
     newGetKMSEncryptionKeyResponse,
 
     -- ** GetLabels
-    GetLabels,
+    GetLabels (GetLabels'),
     newGetLabels,
-    GetLabelsResponse,
+    GetLabelsResponse (GetLabelsResponse'),
     newGetLabelsResponse,
 
     -- ** GetModelVersion
-    GetModelVersion,
+    GetModelVersion (GetModelVersion'),
     newGetModelVersion,
-    GetModelVersionResponse,
+    GetModelVersionResponse (GetModelVersionResponse'),
     newGetModelVersionResponse,
 
     -- ** GetModels
-    GetModels,
+    GetModels (GetModels'),
     newGetModels,
-    GetModelsResponse,
+    GetModelsResponse (GetModelsResponse'),
     newGetModelsResponse,
 
     -- ** GetOutcomes
-    GetOutcomes,
+    GetOutcomes (GetOutcomes'),
     newGetOutcomes,
-    GetOutcomesResponse,
+    GetOutcomesResponse (GetOutcomesResponse'),
     newGetOutcomesResponse,
 
     -- ** GetRules
-    GetRules,
+    GetRules (GetRules'),
     newGetRules,
-    GetRulesResponse,
+    GetRulesResponse (GetRulesResponse'),
     newGetRulesResponse,
 
     -- ** GetVariables
-    GetVariables,
+    GetVariables (GetVariables'),
     newGetVariables,
-    GetVariablesResponse,
+    GetVariablesResponse (GetVariablesResponse'),
     newGetVariablesResponse,
 
     -- ** ListEventPredictions
-    ListEventPredictions,
+    ListEventPredictions (ListEventPredictions'),
     newListEventPredictions,
-    ListEventPredictionsResponse,
+    ListEventPredictionsResponse (ListEventPredictionsResponse'),
     newListEventPredictionsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** PutDetector
-    PutDetector,
+    PutDetector (PutDetector'),
     newPutDetector,
-    PutDetectorResponse,
+    PutDetectorResponse (PutDetectorResponse'),
     newPutDetectorResponse,
 
     -- ** PutEntityType
-    PutEntityType,
+    PutEntityType (PutEntityType'),
     newPutEntityType,
-    PutEntityTypeResponse,
+    PutEntityTypeResponse (PutEntityTypeResponse'),
     newPutEntityTypeResponse,
 
     -- ** PutEventType
-    PutEventType,
+    PutEventType (PutEventType'),
     newPutEventType,
-    PutEventTypeResponse,
+    PutEventTypeResponse (PutEventTypeResponse'),
     newPutEventTypeResponse,
 
     -- ** PutExternalModel
-    PutExternalModel,
+    PutExternalModel (PutExternalModel'),
     newPutExternalModel,
-    PutExternalModelResponse,
+    PutExternalModelResponse (PutExternalModelResponse'),
     newPutExternalModelResponse,
 
     -- ** PutKMSEncryptionKey
-    PutKMSEncryptionKey,
+    PutKMSEncryptionKey (PutKMSEncryptionKey'),
     newPutKMSEncryptionKey,
-    PutKMSEncryptionKeyResponse,
+    PutKMSEncryptionKeyResponse (PutKMSEncryptionKeyResponse'),
     newPutKMSEncryptionKeyResponse,
 
     -- ** PutLabel
-    PutLabel,
+    PutLabel (PutLabel'),
     newPutLabel,
-    PutLabelResponse,
+    PutLabelResponse (PutLabelResponse'),
     newPutLabelResponse,
 
     -- ** PutOutcome
-    PutOutcome,
+    PutOutcome (PutOutcome'),
     newPutOutcome,
-    PutOutcomeResponse,
+    PutOutcomeResponse (PutOutcomeResponse'),
     newPutOutcomeResponse,
 
     -- ** SendEvent
-    SendEvent,
+    SendEvent (SendEvent'),
     newSendEvent,
-    SendEventResponse,
+    SendEventResponse (SendEventResponse'),
     newSendEventResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateDetectorVersion
-    UpdateDetectorVersion,
+    UpdateDetectorVersion (UpdateDetectorVersion'),
     newUpdateDetectorVersion,
-    UpdateDetectorVersionResponse,
+    UpdateDetectorVersionResponse (UpdateDetectorVersionResponse'),
     newUpdateDetectorVersionResponse,
 
     -- ** UpdateDetectorVersionMetadata
-    UpdateDetectorVersionMetadata,
+    UpdateDetectorVersionMetadata (UpdateDetectorVersionMetadata'),
     newUpdateDetectorVersionMetadata,
-    UpdateDetectorVersionMetadataResponse,
+    UpdateDetectorVersionMetadataResponse (UpdateDetectorVersionMetadataResponse'),
     newUpdateDetectorVersionMetadataResponse,
 
     -- ** UpdateDetectorVersionStatus
-    UpdateDetectorVersionStatus,
+    UpdateDetectorVersionStatus (UpdateDetectorVersionStatus'),
     newUpdateDetectorVersionStatus,
-    UpdateDetectorVersionStatusResponse,
+    UpdateDetectorVersionStatusResponse (UpdateDetectorVersionStatusResponse'),
     newUpdateDetectorVersionStatusResponse,
 
     -- ** UpdateEventLabel
-    UpdateEventLabel,
+    UpdateEventLabel (UpdateEventLabel'),
     newUpdateEventLabel,
-    UpdateEventLabelResponse,
+    UpdateEventLabelResponse (UpdateEventLabelResponse'),
     newUpdateEventLabelResponse,
 
     -- ** UpdateModel
-    UpdateModel,
+    UpdateModel (UpdateModel'),
     newUpdateModel,
-    UpdateModelResponse,
+    UpdateModelResponse (UpdateModelResponse'),
     newUpdateModelResponse,
 
     -- ** UpdateModelVersion
-    UpdateModelVersion,
+    UpdateModelVersion (UpdateModelVersion'),
     newUpdateModelVersion,
-    UpdateModelVersionResponse,
+    UpdateModelVersionResponse (UpdateModelVersionResponse'),
     newUpdateModelVersionResponse,
 
     -- ** UpdateModelVersionStatus
-    UpdateModelVersionStatus,
+    UpdateModelVersionStatus (UpdateModelVersionStatus'),
     newUpdateModelVersionStatus,
-    UpdateModelVersionStatusResponse,
+    UpdateModelVersionStatusResponse (UpdateModelVersionStatusResponse'),
     newUpdateModelVersionStatusResponse,
 
     -- ** UpdateRuleMetadata
-    UpdateRuleMetadata,
+    UpdateRuleMetadata (UpdateRuleMetadata'),
     newUpdateRuleMetadata,
-    UpdateRuleMetadataResponse,
+    UpdateRuleMetadataResponse (UpdateRuleMetadataResponse'),
     newUpdateRuleMetadataResponse,
 
     -- ** UpdateRuleVersion
-    UpdateRuleVersion,
+    UpdateRuleVersion (UpdateRuleVersion'),
     newUpdateRuleVersion,
-    UpdateRuleVersionResponse,
+    UpdateRuleVersionResponse (UpdateRuleVersionResponse'),
     newUpdateRuleVersionResponse,
 
     -- ** UpdateVariable
-    UpdateVariable,
+    UpdateVariable (UpdateVariable'),
     newUpdateVariable,
-    UpdateVariableResponse,
+    UpdateVariableResponse (UpdateVariableResponse'),
     newUpdateVariableResponse,
 
     -- * Types
@@ -520,271 +520,271 @@ module Amazonka.FraudDetector
     UnlabeledEventsTreatment (..),
 
     -- ** ATIMetricDataPoint
-    ATIMetricDataPoint,
+    ATIMetricDataPoint (ATIMetricDataPoint'),
     newATIMetricDataPoint,
 
     -- ** ATIModelPerformance
-    ATIModelPerformance,
+    ATIModelPerformance (ATIModelPerformance'),
     newATIModelPerformance,
 
     -- ** ATITrainingMetricsValue
-    ATITrainingMetricsValue,
+    ATITrainingMetricsValue (ATITrainingMetricsValue'),
     newATITrainingMetricsValue,
 
     -- ** AggregatedLogOddsMetric
-    AggregatedLogOddsMetric,
+    AggregatedLogOddsMetric (AggregatedLogOddsMetric'),
     newAggregatedLogOddsMetric,
 
     -- ** AggregatedVariablesImpactExplanation
-    AggregatedVariablesImpactExplanation,
+    AggregatedVariablesImpactExplanation (AggregatedVariablesImpactExplanation'),
     newAggregatedVariablesImpactExplanation,
 
     -- ** AggregatedVariablesImportanceMetrics
-    AggregatedVariablesImportanceMetrics,
+    AggregatedVariablesImportanceMetrics (AggregatedVariablesImportanceMetrics'),
     newAggregatedVariablesImportanceMetrics,
 
     -- ** BatchCreateVariableError
-    BatchCreateVariableError,
+    BatchCreateVariableError (BatchCreateVariableError'),
     newBatchCreateVariableError,
 
     -- ** BatchGetVariableError
-    BatchGetVariableError,
+    BatchGetVariableError (BatchGetVariableError'),
     newBatchGetVariableError,
 
     -- ** BatchImport
-    BatchImport,
+    BatchImport (BatchImport'),
     newBatchImport,
 
     -- ** BatchPrediction
-    BatchPrediction,
+    BatchPrediction (BatchPrediction'),
     newBatchPrediction,
 
     -- ** DataValidationMetrics
-    DataValidationMetrics,
+    DataValidationMetrics (DataValidationMetrics'),
     newDataValidationMetrics,
 
     -- ** Detector
-    Detector,
+    Detector (Detector'),
     newDetector,
 
     -- ** DetectorVersionSummary
-    DetectorVersionSummary,
+    DetectorVersionSummary (DetectorVersionSummary'),
     newDetectorVersionSummary,
 
     -- ** Entity
-    Entity,
+    Entity (Entity'),
     newEntity,
 
     -- ** EntityType
-    EntityType,
+    EntityType (EntityType'),
     newEntityType,
 
     -- ** EvaluatedExternalModel
-    EvaluatedExternalModel,
+    EvaluatedExternalModel (EvaluatedExternalModel'),
     newEvaluatedExternalModel,
 
     -- ** EvaluatedModelVersion
-    EvaluatedModelVersion,
+    EvaluatedModelVersion (EvaluatedModelVersion'),
     newEvaluatedModelVersion,
 
     -- ** EvaluatedRule
-    EvaluatedRule,
+    EvaluatedRule (EvaluatedRule'),
     newEvaluatedRule,
 
     -- ** Event
-    Event,
+    Event (Event'),
     newEvent,
 
     -- ** EventPredictionSummary
-    EventPredictionSummary,
+    EventPredictionSummary (EventPredictionSummary'),
     newEventPredictionSummary,
 
     -- ** EventType
-    EventType,
+    EventType (EventType'),
     newEventType,
 
     -- ** EventVariableSummary
-    EventVariableSummary,
+    EventVariableSummary (EventVariableSummary'),
     newEventVariableSummary,
 
     -- ** ExternalEventsDetail
-    ExternalEventsDetail,
+    ExternalEventsDetail (ExternalEventsDetail'),
     newExternalEventsDetail,
 
     -- ** ExternalModel
-    ExternalModel,
+    ExternalModel (ExternalModel'),
     newExternalModel,
 
     -- ** ExternalModelOutputs
-    ExternalModelOutputs,
+    ExternalModelOutputs (ExternalModelOutputs'),
     newExternalModelOutputs,
 
     -- ** ExternalModelSummary
-    ExternalModelSummary,
+    ExternalModelSummary (ExternalModelSummary'),
     newExternalModelSummary,
 
     -- ** FieldValidationMessage
-    FieldValidationMessage,
+    FieldValidationMessage (FieldValidationMessage'),
     newFieldValidationMessage,
 
     -- ** FileValidationMessage
-    FileValidationMessage,
+    FileValidationMessage (FileValidationMessage'),
     newFileValidationMessage,
 
     -- ** FilterCondition
-    FilterCondition,
+    FilterCondition (FilterCondition'),
     newFilterCondition,
 
     -- ** IngestedEventStatistics
-    IngestedEventStatistics,
+    IngestedEventStatistics (IngestedEventStatistics'),
     newIngestedEventStatistics,
 
     -- ** IngestedEventsDetail
-    IngestedEventsDetail,
+    IngestedEventsDetail (IngestedEventsDetail'),
     newIngestedEventsDetail,
 
     -- ** IngestedEventsTimeWindow
-    IngestedEventsTimeWindow,
+    IngestedEventsTimeWindow (IngestedEventsTimeWindow'),
     newIngestedEventsTimeWindow,
 
     -- ** KMSKey
-    KMSKey,
+    KMSKey (KMSKey'),
     newKMSKey,
 
     -- ** Label
-    Label,
+    Label (Label'),
     newLabel,
 
     -- ** LabelSchema
-    LabelSchema,
+    LabelSchema (LabelSchema'),
     newLabelSchema,
 
     -- ** LogOddsMetric
-    LogOddsMetric,
+    LogOddsMetric (LogOddsMetric'),
     newLogOddsMetric,
 
     -- ** MetricDataPoint
-    MetricDataPoint,
+    MetricDataPoint (MetricDataPoint'),
     newMetricDataPoint,
 
     -- ** Model
-    Model,
+    Model (Model'),
     newModel,
 
     -- ** ModelEndpointDataBlob
-    ModelEndpointDataBlob,
+    ModelEndpointDataBlob (ModelEndpointDataBlob'),
     newModelEndpointDataBlob,
 
     -- ** ModelInputConfiguration
-    ModelInputConfiguration,
+    ModelInputConfiguration (ModelInputConfiguration'),
     newModelInputConfiguration,
 
     -- ** ModelOutputConfiguration
-    ModelOutputConfiguration,
+    ModelOutputConfiguration (ModelOutputConfiguration'),
     newModelOutputConfiguration,
 
     -- ** ModelScores
-    ModelScores,
+    ModelScores (ModelScores'),
     newModelScores,
 
     -- ** ModelVersion
-    ModelVersion,
+    ModelVersion (ModelVersion'),
     newModelVersion,
 
     -- ** ModelVersionDetail
-    ModelVersionDetail,
+    ModelVersionDetail (ModelVersionDetail'),
     newModelVersionDetail,
 
     -- ** ModelVersionEvaluation
-    ModelVersionEvaluation,
+    ModelVersionEvaluation (ModelVersionEvaluation'),
     newModelVersionEvaluation,
 
     -- ** OFIMetricDataPoint
-    OFIMetricDataPoint,
+    OFIMetricDataPoint (OFIMetricDataPoint'),
     newOFIMetricDataPoint,
 
     -- ** OFIModelPerformance
-    OFIModelPerformance,
+    OFIModelPerformance (OFIModelPerformance'),
     newOFIModelPerformance,
 
     -- ** OFITrainingMetricsValue
-    OFITrainingMetricsValue,
+    OFITrainingMetricsValue (OFITrainingMetricsValue'),
     newOFITrainingMetricsValue,
 
     -- ** Outcome
-    Outcome,
+    Outcome (Outcome'),
     newOutcome,
 
     -- ** PredictionExplanations
-    PredictionExplanations,
+    PredictionExplanations (PredictionExplanations'),
     newPredictionExplanations,
 
     -- ** PredictionTimeRange
-    PredictionTimeRange,
+    PredictionTimeRange (PredictionTimeRange'),
     newPredictionTimeRange,
 
     -- ** Rule
-    Rule,
+    Rule (Rule'),
     newRule,
 
     -- ** RuleDetail
-    RuleDetail,
+    RuleDetail (RuleDetail'),
     newRuleDetail,
 
     -- ** RuleResult
-    RuleResult,
+    RuleResult (RuleResult'),
     newRuleResult,
 
     -- ** TFIMetricDataPoint
-    TFIMetricDataPoint,
+    TFIMetricDataPoint (TFIMetricDataPoint'),
     newTFIMetricDataPoint,
 
     -- ** TFIModelPerformance
-    TFIModelPerformance,
+    TFIModelPerformance (TFIModelPerformance'),
     newTFIModelPerformance,
 
     -- ** TFITrainingMetricsValue
-    TFITrainingMetricsValue,
+    TFITrainingMetricsValue (TFITrainingMetricsValue'),
     newTFITrainingMetricsValue,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** TrainingDataSchema
-    TrainingDataSchema,
+    TrainingDataSchema (TrainingDataSchema'),
     newTrainingDataSchema,
 
     -- ** TrainingMetrics
-    TrainingMetrics,
+    TrainingMetrics (TrainingMetrics'),
     newTrainingMetrics,
 
     -- ** TrainingMetricsV2
-    TrainingMetricsV2,
+    TrainingMetricsV2 (TrainingMetricsV2'),
     newTrainingMetricsV2,
 
     -- ** TrainingResult
-    TrainingResult,
+    TrainingResult (TrainingResult'),
     newTrainingResult,
 
     -- ** TrainingResultV2
-    TrainingResultV2,
+    TrainingResultV2 (TrainingResultV2'),
     newTrainingResultV2,
 
     -- ** Variable
-    Variable,
+    Variable (Variable'),
     newVariable,
 
     -- ** VariableEntry
-    VariableEntry,
+    VariableEntry (VariableEntry'),
     newVariableEntry,
 
     -- ** VariableImpactExplanation
-    VariableImpactExplanation,
+    VariableImpactExplanation (VariableImpactExplanation'),
     newVariableImpactExplanation,
 
     -- ** VariableImportanceMetrics
-    VariableImportanceMetrics,
+    VariableImportanceMetrics (VariableImportanceMetrics'),
     newVariableImportanceMetrics,
   )
 where

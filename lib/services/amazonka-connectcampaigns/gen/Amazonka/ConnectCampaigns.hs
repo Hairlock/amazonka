@@ -53,135 +53,135 @@ module Amazonka.ConnectCampaigns
     -- $operations
 
     -- ** CreateCampaign
-    CreateCampaign,
+    CreateCampaign (CreateCampaign'),
     newCreateCampaign,
-    CreateCampaignResponse,
+    CreateCampaignResponse (CreateCampaignResponse'),
     newCreateCampaignResponse,
 
     -- ** DeleteCampaign
-    DeleteCampaign,
+    DeleteCampaign (DeleteCampaign'),
     newDeleteCampaign,
-    DeleteCampaignResponse,
+    DeleteCampaignResponse (DeleteCampaignResponse'),
     newDeleteCampaignResponse,
 
     -- ** DeleteConnectInstanceConfig
-    DeleteConnectInstanceConfig,
+    DeleteConnectInstanceConfig (DeleteConnectInstanceConfig'),
     newDeleteConnectInstanceConfig,
-    DeleteConnectInstanceConfigResponse,
+    DeleteConnectInstanceConfigResponse (DeleteConnectInstanceConfigResponse'),
     newDeleteConnectInstanceConfigResponse,
 
     -- ** DeleteInstanceOnboardingJob
-    DeleteInstanceOnboardingJob,
+    DeleteInstanceOnboardingJob (DeleteInstanceOnboardingJob'),
     newDeleteInstanceOnboardingJob,
-    DeleteInstanceOnboardingJobResponse,
+    DeleteInstanceOnboardingJobResponse (DeleteInstanceOnboardingJobResponse'),
     newDeleteInstanceOnboardingJobResponse,
 
     -- ** DescribeCampaign
-    DescribeCampaign,
+    DescribeCampaign (DescribeCampaign'),
     newDescribeCampaign,
-    DescribeCampaignResponse,
+    DescribeCampaignResponse (DescribeCampaignResponse'),
     newDescribeCampaignResponse,
 
     -- ** GetCampaignState
-    GetCampaignState,
+    GetCampaignState (GetCampaignState'),
     newGetCampaignState,
-    GetCampaignStateResponse,
+    GetCampaignStateResponse (GetCampaignStateResponse'),
     newGetCampaignStateResponse,
 
     -- ** GetCampaignStateBatch
-    GetCampaignStateBatch,
+    GetCampaignStateBatch (GetCampaignStateBatch'),
     newGetCampaignStateBatch,
-    GetCampaignStateBatchResponse,
+    GetCampaignStateBatchResponse (GetCampaignStateBatchResponse'),
     newGetCampaignStateBatchResponse,
 
     -- ** GetConnectInstanceConfig
-    GetConnectInstanceConfig,
+    GetConnectInstanceConfig (GetConnectInstanceConfig'),
     newGetConnectInstanceConfig,
-    GetConnectInstanceConfigResponse,
+    GetConnectInstanceConfigResponse (GetConnectInstanceConfigResponse'),
     newGetConnectInstanceConfigResponse,
 
     -- ** GetInstanceOnboardingJobStatus
-    GetInstanceOnboardingJobStatus,
+    GetInstanceOnboardingJobStatus (GetInstanceOnboardingJobStatus'),
     newGetInstanceOnboardingJobStatus,
-    GetInstanceOnboardingJobStatusResponse,
+    GetInstanceOnboardingJobStatusResponse (GetInstanceOnboardingJobStatusResponse'),
     newGetInstanceOnboardingJobStatusResponse,
 
     -- ** ListCampaigns (Paginated)
-    ListCampaigns,
+    ListCampaigns (ListCampaigns'),
     newListCampaigns,
-    ListCampaignsResponse,
+    ListCampaignsResponse (ListCampaignsResponse'),
     newListCampaignsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** PauseCampaign
-    PauseCampaign,
+    PauseCampaign (PauseCampaign'),
     newPauseCampaign,
-    PauseCampaignResponse,
+    PauseCampaignResponse (PauseCampaignResponse'),
     newPauseCampaignResponse,
 
     -- ** PutDialRequestBatch
-    PutDialRequestBatch,
+    PutDialRequestBatch (PutDialRequestBatch'),
     newPutDialRequestBatch,
-    PutDialRequestBatchResponse,
+    PutDialRequestBatchResponse (PutDialRequestBatchResponse'),
     newPutDialRequestBatchResponse,
 
     -- ** ResumeCampaign
-    ResumeCampaign,
+    ResumeCampaign (ResumeCampaign'),
     newResumeCampaign,
-    ResumeCampaignResponse,
+    ResumeCampaignResponse (ResumeCampaignResponse'),
     newResumeCampaignResponse,
 
     -- ** StartCampaign
-    StartCampaign,
+    StartCampaign (StartCampaign'),
     newStartCampaign,
-    StartCampaignResponse,
+    StartCampaignResponse (StartCampaignResponse'),
     newStartCampaignResponse,
 
     -- ** StartInstanceOnboardingJob
-    StartInstanceOnboardingJob,
+    StartInstanceOnboardingJob (StartInstanceOnboardingJob'),
     newStartInstanceOnboardingJob,
-    StartInstanceOnboardingJobResponse,
+    StartInstanceOnboardingJobResponse (StartInstanceOnboardingJobResponse'),
     newStartInstanceOnboardingJobResponse,
 
     -- ** StopCampaign
-    StopCampaign,
+    StopCampaign (StopCampaign'),
     newStopCampaign,
-    StopCampaignResponse,
+    StopCampaignResponse (StopCampaignResponse'),
     newStopCampaignResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateCampaignDialerConfig
-    UpdateCampaignDialerConfig,
+    UpdateCampaignDialerConfig (UpdateCampaignDialerConfig'),
     newUpdateCampaignDialerConfig,
-    UpdateCampaignDialerConfigResponse,
+    UpdateCampaignDialerConfigResponse (UpdateCampaignDialerConfigResponse'),
     newUpdateCampaignDialerConfigResponse,
 
     -- ** UpdateCampaignName
-    UpdateCampaignName,
+    UpdateCampaignName (UpdateCampaignName'),
     newUpdateCampaignName,
-    UpdateCampaignNameResponse,
+    UpdateCampaignNameResponse (UpdateCampaignNameResponse'),
     newUpdateCampaignNameResponse,
 
     -- ** UpdateCampaignOutboundCallConfig
-    UpdateCampaignOutboundCallConfig,
+    UpdateCampaignOutboundCallConfig (UpdateCampaignOutboundCallConfig'),
     newUpdateCampaignOutboundCallConfig,
-    UpdateCampaignOutboundCallConfigResponse,
+    UpdateCampaignOutboundCallConfigResponse (UpdateCampaignOutboundCallConfigResponse'),
     newUpdateCampaignOutboundCallConfigResponse,
 
     -- * Types
@@ -208,71 +208,71 @@ module Amazonka.ConnectCampaigns
     InstanceOnboardingJobStatusCode (..),
 
     -- ** AnswerMachineDetectionConfig
-    AnswerMachineDetectionConfig,
+    AnswerMachineDetectionConfig (AnswerMachineDetectionConfig'),
     newAnswerMachineDetectionConfig,
 
     -- ** Campaign
-    Campaign,
+    Campaign (Campaign'),
     newCampaign,
 
     -- ** CampaignFilters
-    CampaignFilters,
+    CampaignFilters (CampaignFilters'),
     newCampaignFilters,
 
     -- ** CampaignSummary
-    CampaignSummary,
+    CampaignSummary (CampaignSummary'),
     newCampaignSummary,
 
     -- ** DialRequest
-    DialRequest,
+    DialRequest (DialRequest'),
     newDialRequest,
 
     -- ** DialerConfig
-    DialerConfig,
+    DialerConfig (DialerConfig'),
     newDialerConfig,
 
     -- ** EncryptionConfig
-    EncryptionConfig,
+    EncryptionConfig (EncryptionConfig'),
     newEncryptionConfig,
 
     -- ** FailedCampaignStateResponse
-    FailedCampaignStateResponse,
+    FailedCampaignStateResponse (FailedCampaignStateResponse'),
     newFailedCampaignStateResponse,
 
     -- ** FailedRequest
-    FailedRequest,
+    FailedRequest (FailedRequest'),
     newFailedRequest,
 
     -- ** InstanceConfig
-    InstanceConfig,
+    InstanceConfig (InstanceConfig'),
     newInstanceConfig,
 
     -- ** InstanceIdFilter
-    InstanceIdFilter,
+    InstanceIdFilter (InstanceIdFilter'),
     newInstanceIdFilter,
 
     -- ** InstanceOnboardingJobStatus
-    InstanceOnboardingJobStatus,
+    InstanceOnboardingJobStatus (InstanceOnboardingJobStatus'),
     newInstanceOnboardingJobStatus,
 
     -- ** OutboundCallConfig
-    OutboundCallConfig,
+    OutboundCallConfig (OutboundCallConfig'),
     newOutboundCallConfig,
 
     -- ** PredictiveDialerConfig
-    PredictiveDialerConfig,
+    PredictiveDialerConfig (PredictiveDialerConfig'),
     newPredictiveDialerConfig,
 
     -- ** ProgressiveDialerConfig
-    ProgressiveDialerConfig,
+    ProgressiveDialerConfig (ProgressiveDialerConfig'),
     newProgressiveDialerConfig,
 
     -- ** SuccessfulCampaignStateResponse
-    SuccessfulCampaignStateResponse,
+    SuccessfulCampaignStateResponse (SuccessfulCampaignStateResponse'),
     newSuccessfulCampaignStateResponse,
 
     -- ** SuccessfulRequest
-    SuccessfulRequest,
+    SuccessfulRequest (SuccessfulRequest'),
     newSuccessfulRequest,
   )
 where

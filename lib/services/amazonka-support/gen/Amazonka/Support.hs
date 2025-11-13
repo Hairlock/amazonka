@@ -103,153 +103,153 @@ module Amazonka.Support
     -- $operations
 
     -- ** AddAttachmentsToSet
-    AddAttachmentsToSet,
+    AddAttachmentsToSet (AddAttachmentsToSet'),
     newAddAttachmentsToSet,
-    AddAttachmentsToSetResponse,
+    AddAttachmentsToSetResponse (AddAttachmentsToSetResponse'),
     newAddAttachmentsToSetResponse,
 
     -- ** AddCommunicationToCase
-    AddCommunicationToCase,
+    AddCommunicationToCase (AddCommunicationToCase'),
     newAddCommunicationToCase,
-    AddCommunicationToCaseResponse,
+    AddCommunicationToCaseResponse (AddCommunicationToCaseResponse'),
     newAddCommunicationToCaseResponse,
 
     -- ** CreateCase
-    CreateCase,
+    CreateCase (CreateCase'),
     newCreateCase,
-    CreateCaseResponse,
+    CreateCaseResponse (CreateCaseResponse'),
     newCreateCaseResponse,
 
     -- ** DescribeAttachment
-    DescribeAttachment,
+    DescribeAttachment (DescribeAttachment'),
     newDescribeAttachment,
-    DescribeAttachmentResponse,
+    DescribeAttachmentResponse (DescribeAttachmentResponse'),
     newDescribeAttachmentResponse,
 
     -- ** DescribeCases (Paginated)
-    DescribeCases,
+    DescribeCases (DescribeCases'),
     newDescribeCases,
-    DescribeCasesResponse,
+    DescribeCasesResponse (DescribeCasesResponse'),
     newDescribeCasesResponse,
 
     -- ** DescribeCommunications (Paginated)
-    DescribeCommunications,
+    DescribeCommunications (DescribeCommunications'),
     newDescribeCommunications,
-    DescribeCommunicationsResponse,
+    DescribeCommunicationsResponse (DescribeCommunicationsResponse'),
     newDescribeCommunicationsResponse,
 
     -- ** DescribeServices
-    DescribeServices,
+    DescribeServices (DescribeServices'),
     newDescribeServices,
-    DescribeServicesResponse,
+    DescribeServicesResponse (DescribeServicesResponse'),
     newDescribeServicesResponse,
 
     -- ** DescribeSeverityLevels
-    DescribeSeverityLevels,
+    DescribeSeverityLevels (DescribeSeverityLevels'),
     newDescribeSeverityLevels,
-    DescribeSeverityLevelsResponse,
+    DescribeSeverityLevelsResponse (DescribeSeverityLevelsResponse'),
     newDescribeSeverityLevelsResponse,
 
     -- ** DescribeTrustedAdvisorCheckRefreshStatuses
-    DescribeTrustedAdvisorCheckRefreshStatuses,
+    DescribeTrustedAdvisorCheckRefreshStatuses (DescribeTrustedAdvisorCheckRefreshStatuses'),
     newDescribeTrustedAdvisorCheckRefreshStatuses,
-    DescribeTrustedAdvisorCheckRefreshStatusesResponse,
+    DescribeTrustedAdvisorCheckRefreshStatusesResponse (DescribeTrustedAdvisorCheckRefreshStatusesResponse'),
     newDescribeTrustedAdvisorCheckRefreshStatusesResponse,
 
     -- ** DescribeTrustedAdvisorCheckResult
-    DescribeTrustedAdvisorCheckResult,
+    DescribeTrustedAdvisorCheckResult (DescribeTrustedAdvisorCheckResult'),
     newDescribeTrustedAdvisorCheckResult,
-    DescribeTrustedAdvisorCheckResultResponse,
+    DescribeTrustedAdvisorCheckResultResponse (DescribeTrustedAdvisorCheckResultResponse'),
     newDescribeTrustedAdvisorCheckResultResponse,
 
     -- ** DescribeTrustedAdvisorCheckSummaries
-    DescribeTrustedAdvisorCheckSummaries,
+    DescribeTrustedAdvisorCheckSummaries (DescribeTrustedAdvisorCheckSummaries'),
     newDescribeTrustedAdvisorCheckSummaries,
-    DescribeTrustedAdvisorCheckSummariesResponse,
+    DescribeTrustedAdvisorCheckSummariesResponse (DescribeTrustedAdvisorCheckSummariesResponse'),
     newDescribeTrustedAdvisorCheckSummariesResponse,
 
     -- ** DescribeTrustedAdvisorChecks
-    DescribeTrustedAdvisorChecks,
+    DescribeTrustedAdvisorChecks (DescribeTrustedAdvisorChecks'),
     newDescribeTrustedAdvisorChecks,
-    DescribeTrustedAdvisorChecksResponse,
+    DescribeTrustedAdvisorChecksResponse (DescribeTrustedAdvisorChecksResponse'),
     newDescribeTrustedAdvisorChecksResponse,
 
     -- ** RefreshTrustedAdvisorCheck
-    RefreshTrustedAdvisorCheck,
+    RefreshTrustedAdvisorCheck (RefreshTrustedAdvisorCheck'),
     newRefreshTrustedAdvisorCheck,
-    RefreshTrustedAdvisorCheckResponse,
+    RefreshTrustedAdvisorCheckResponse (RefreshTrustedAdvisorCheckResponse'),
     newRefreshTrustedAdvisorCheckResponse,
 
     -- ** ResolveCase
-    ResolveCase,
+    ResolveCase (ResolveCase'),
     newResolveCase,
-    ResolveCaseResponse,
+    ResolveCaseResponse (ResolveCaseResponse'),
     newResolveCaseResponse,
 
     -- * Types
 
     -- ** Attachment
-    Attachment,
+    Attachment (Attachment'),
     newAttachment,
 
     -- ** AttachmentDetails
-    AttachmentDetails,
+    AttachmentDetails (AttachmentDetails'),
     newAttachmentDetails,
 
     -- ** CaseDetails
-    CaseDetails,
+    CaseDetails (CaseDetails'),
     newCaseDetails,
 
     -- ** Category
-    Category,
+    Category (Category'),
     newCategory,
 
     -- ** Communication
-    Communication,
+    Communication (Communication'),
     newCommunication,
 
     -- ** RecentCaseCommunications
-    RecentCaseCommunications,
+    RecentCaseCommunications (RecentCaseCommunications'),
     newRecentCaseCommunications,
 
     -- ** SeverityLevel
-    SeverityLevel,
+    SeverityLevel (SeverityLevel'),
     newSeverityLevel,
 
     -- ** SupportService
-    SupportService,
+    SupportService (SupportService'),
     newSupportService,
 
     -- ** TrustedAdvisorCategorySpecificSummary
-    TrustedAdvisorCategorySpecificSummary,
+    TrustedAdvisorCategorySpecificSummary (TrustedAdvisorCategorySpecificSummary'),
     newTrustedAdvisorCategorySpecificSummary,
 
     -- ** TrustedAdvisorCheckDescription
-    TrustedAdvisorCheckDescription,
+    TrustedAdvisorCheckDescription (TrustedAdvisorCheckDescription'),
     newTrustedAdvisorCheckDescription,
 
     -- ** TrustedAdvisorCheckRefreshStatus
-    TrustedAdvisorCheckRefreshStatus,
+    TrustedAdvisorCheckRefreshStatus (TrustedAdvisorCheckRefreshStatus'),
     newTrustedAdvisorCheckRefreshStatus,
 
     -- ** TrustedAdvisorCheckResult
-    TrustedAdvisorCheckResult,
+    TrustedAdvisorCheckResult (TrustedAdvisorCheckResult'),
     newTrustedAdvisorCheckResult,
 
     -- ** TrustedAdvisorCheckSummary
-    TrustedAdvisorCheckSummary,
+    TrustedAdvisorCheckSummary (TrustedAdvisorCheckSummary'),
     newTrustedAdvisorCheckSummary,
 
     -- ** TrustedAdvisorCostOptimizingSummary
-    TrustedAdvisorCostOptimizingSummary,
+    TrustedAdvisorCostOptimizingSummary (TrustedAdvisorCostOptimizingSummary'),
     newTrustedAdvisorCostOptimizingSummary,
 
     -- ** TrustedAdvisorResourceDetail
-    TrustedAdvisorResourceDetail,
+    TrustedAdvisorResourceDetail (TrustedAdvisorResourceDetail'),
     newTrustedAdvisorResourceDetail,
 
     -- ** TrustedAdvisorResourcesSummary
-    TrustedAdvisorResourcesSummary,
+    TrustedAdvisorResourcesSummary (TrustedAdvisorResourcesSummary'),
     newTrustedAdvisorResourcesSummary,
   )
 where

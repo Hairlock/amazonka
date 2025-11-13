@@ -86,255 +86,255 @@ module Amazonka.AppConfig
     -- $operations
 
     -- ** CreateApplication
-    CreateApplication,
+    CreateApplication (CreateApplication'),
     newCreateApplication,
-    Application,
+    Application (Application'),
     newApplication,
 
     -- ** CreateConfigurationProfile
-    CreateConfigurationProfile,
+    CreateConfigurationProfile (CreateConfigurationProfile'),
     newCreateConfigurationProfile,
-    ConfigurationProfile,
+    ConfigurationProfile (ConfigurationProfile'),
     newConfigurationProfile,
 
     -- ** CreateDeploymentStrategy
-    CreateDeploymentStrategy,
+    CreateDeploymentStrategy (CreateDeploymentStrategy'),
     newCreateDeploymentStrategy,
-    DeploymentStrategy,
+    DeploymentStrategy (DeploymentStrategy'),
     newDeploymentStrategy,
 
     -- ** CreateEnvironment
-    CreateEnvironment,
+    CreateEnvironment (CreateEnvironment'),
     newCreateEnvironment,
-    Environment,
+    Environment (Environment'),
     newEnvironment,
 
     -- ** CreateExtension
-    CreateExtension,
+    CreateExtension (CreateExtension'),
     newCreateExtension,
-    Extension,
+    Extension (Extension'),
     newExtension,
 
     -- ** CreateExtensionAssociation
-    CreateExtensionAssociation,
+    CreateExtensionAssociation (CreateExtensionAssociation'),
     newCreateExtensionAssociation,
-    ExtensionAssociation,
+    ExtensionAssociation (ExtensionAssociation'),
     newExtensionAssociation,
 
     -- ** CreateHostedConfigurationVersion
-    CreateHostedConfigurationVersion,
+    CreateHostedConfigurationVersion (CreateHostedConfigurationVersion'),
     newCreateHostedConfigurationVersion,
-    HostedConfigurationVersion,
+    HostedConfigurationVersion (HostedConfigurationVersion'),
     newHostedConfigurationVersion,
 
     -- ** DeleteApplication
-    DeleteApplication,
+    DeleteApplication (DeleteApplication'),
     newDeleteApplication,
-    DeleteApplicationResponse,
+    DeleteApplicationResponse (DeleteApplicationResponse'),
     newDeleteApplicationResponse,
 
     -- ** DeleteConfigurationProfile
-    DeleteConfigurationProfile,
+    DeleteConfigurationProfile (DeleteConfigurationProfile'),
     newDeleteConfigurationProfile,
-    DeleteConfigurationProfileResponse,
+    DeleteConfigurationProfileResponse (DeleteConfigurationProfileResponse'),
     newDeleteConfigurationProfileResponse,
 
     -- ** DeleteDeploymentStrategy
-    DeleteDeploymentStrategy,
+    DeleteDeploymentStrategy (DeleteDeploymentStrategy'),
     newDeleteDeploymentStrategy,
-    DeleteDeploymentStrategyResponse,
+    DeleteDeploymentStrategyResponse (DeleteDeploymentStrategyResponse'),
     newDeleteDeploymentStrategyResponse,
 
     -- ** DeleteEnvironment
-    DeleteEnvironment,
+    DeleteEnvironment (DeleteEnvironment'),
     newDeleteEnvironment,
-    DeleteEnvironmentResponse,
+    DeleteEnvironmentResponse (DeleteEnvironmentResponse'),
     newDeleteEnvironmentResponse,
 
     -- ** DeleteExtension
-    DeleteExtension,
+    DeleteExtension (DeleteExtension'),
     newDeleteExtension,
-    DeleteExtensionResponse,
+    DeleteExtensionResponse (DeleteExtensionResponse'),
     newDeleteExtensionResponse,
 
     -- ** DeleteExtensionAssociation
-    DeleteExtensionAssociation,
+    DeleteExtensionAssociation (DeleteExtensionAssociation'),
     newDeleteExtensionAssociation,
-    DeleteExtensionAssociationResponse,
+    DeleteExtensionAssociationResponse (DeleteExtensionAssociationResponse'),
     newDeleteExtensionAssociationResponse,
 
     -- ** DeleteHostedConfigurationVersion
-    DeleteHostedConfigurationVersion,
+    DeleteHostedConfigurationVersion (DeleteHostedConfigurationVersion'),
     newDeleteHostedConfigurationVersion,
-    DeleteHostedConfigurationVersionResponse,
+    DeleteHostedConfigurationVersionResponse (DeleteHostedConfigurationVersionResponse'),
     newDeleteHostedConfigurationVersionResponse,
 
     -- ** GetApplication
-    GetApplication,
+    GetApplication (GetApplication'),
     newGetApplication,
-    Application,
+    Application (Application'),
     newApplication,
 
     -- ** GetConfigurationProfile
-    GetConfigurationProfile,
+    GetConfigurationProfile (GetConfigurationProfile'),
     newGetConfigurationProfile,
-    ConfigurationProfile,
+    ConfigurationProfile (ConfigurationProfile'),
     newConfigurationProfile,
 
     -- ** GetDeployment
-    GetDeployment,
+    GetDeployment (GetDeployment'),
     newGetDeployment,
-    Deployment,
+    Deployment (Deployment'),
     newDeployment,
 
     -- ** GetDeploymentStrategy
-    GetDeploymentStrategy,
+    GetDeploymentStrategy (GetDeploymentStrategy'),
     newGetDeploymentStrategy,
-    DeploymentStrategy,
+    DeploymentStrategy (DeploymentStrategy'),
     newDeploymentStrategy,
 
     -- ** GetEnvironment
-    GetEnvironment,
+    GetEnvironment (GetEnvironment'),
     newGetEnvironment,
-    Environment,
+    Environment (Environment'),
     newEnvironment,
 
     -- ** GetExtension
-    GetExtension,
+    GetExtension (GetExtension'),
     newGetExtension,
-    Extension,
+    Extension (Extension'),
     newExtension,
 
     -- ** GetExtensionAssociation
-    GetExtensionAssociation,
+    GetExtensionAssociation (GetExtensionAssociation'),
     newGetExtensionAssociation,
-    ExtensionAssociation,
+    ExtensionAssociation (ExtensionAssociation'),
     newExtensionAssociation,
 
     -- ** GetHostedConfigurationVersion
-    GetHostedConfigurationVersion,
+    GetHostedConfigurationVersion (GetHostedConfigurationVersion'),
     newGetHostedConfigurationVersion,
-    HostedConfigurationVersion,
+    HostedConfigurationVersion (HostedConfigurationVersion'),
     newHostedConfigurationVersion,
 
     -- ** ListApplications
-    ListApplications,
+    ListApplications (ListApplications'),
     newListApplications,
-    ListApplicationsResponse,
+    ListApplicationsResponse (ListApplicationsResponse'),
     newListApplicationsResponse,
 
     -- ** ListConfigurationProfiles
-    ListConfigurationProfiles,
+    ListConfigurationProfiles (ListConfigurationProfiles'),
     newListConfigurationProfiles,
-    ListConfigurationProfilesResponse,
+    ListConfigurationProfilesResponse (ListConfigurationProfilesResponse'),
     newListConfigurationProfilesResponse,
 
     -- ** ListDeploymentStrategies
-    ListDeploymentStrategies,
+    ListDeploymentStrategies (ListDeploymentStrategies'),
     newListDeploymentStrategies,
-    ListDeploymentStrategiesResponse,
+    ListDeploymentStrategiesResponse (ListDeploymentStrategiesResponse'),
     newListDeploymentStrategiesResponse,
 
     -- ** ListDeployments
-    ListDeployments,
+    ListDeployments (ListDeployments'),
     newListDeployments,
-    ListDeploymentsResponse,
+    ListDeploymentsResponse (ListDeploymentsResponse'),
     newListDeploymentsResponse,
 
     -- ** ListEnvironments
-    ListEnvironments,
+    ListEnvironments (ListEnvironments'),
     newListEnvironments,
-    ListEnvironmentsResponse,
+    ListEnvironmentsResponse (ListEnvironmentsResponse'),
     newListEnvironmentsResponse,
 
     -- ** ListExtensionAssociations
-    ListExtensionAssociations,
+    ListExtensionAssociations (ListExtensionAssociations'),
     newListExtensionAssociations,
-    ListExtensionAssociationsResponse,
+    ListExtensionAssociationsResponse (ListExtensionAssociationsResponse'),
     newListExtensionAssociationsResponse,
 
     -- ** ListExtensions
-    ListExtensions,
+    ListExtensions (ListExtensions'),
     newListExtensions,
-    ListExtensionsResponse,
+    ListExtensionsResponse (ListExtensionsResponse'),
     newListExtensionsResponse,
 
     -- ** ListHostedConfigurationVersions
-    ListHostedConfigurationVersions,
+    ListHostedConfigurationVersions (ListHostedConfigurationVersions'),
     newListHostedConfigurationVersions,
-    ListHostedConfigurationVersionsResponse,
+    ListHostedConfigurationVersionsResponse (ListHostedConfigurationVersionsResponse'),
     newListHostedConfigurationVersionsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** StartDeployment
-    StartDeployment,
+    StartDeployment (StartDeployment'),
     newStartDeployment,
-    Deployment,
+    Deployment (Deployment'),
     newDeployment,
 
     -- ** StopDeployment
-    StopDeployment,
+    StopDeployment (StopDeployment'),
     newStopDeployment,
-    Deployment,
+    Deployment (Deployment'),
     newDeployment,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateApplication
-    UpdateApplication,
+    UpdateApplication (UpdateApplication'),
     newUpdateApplication,
-    Application,
+    Application (Application'),
     newApplication,
 
     -- ** UpdateConfigurationProfile
-    UpdateConfigurationProfile,
+    UpdateConfigurationProfile (UpdateConfigurationProfile'),
     newUpdateConfigurationProfile,
-    ConfigurationProfile,
+    ConfigurationProfile (ConfigurationProfile'),
     newConfigurationProfile,
 
     -- ** UpdateDeploymentStrategy
-    UpdateDeploymentStrategy,
+    UpdateDeploymentStrategy (UpdateDeploymentStrategy'),
     newUpdateDeploymentStrategy,
-    DeploymentStrategy,
+    DeploymentStrategy (DeploymentStrategy'),
     newDeploymentStrategy,
 
     -- ** UpdateEnvironment
-    UpdateEnvironment,
+    UpdateEnvironment (UpdateEnvironment'),
     newUpdateEnvironment,
-    Environment,
+    Environment (Environment'),
     newEnvironment,
 
     -- ** UpdateExtension
-    UpdateExtension,
+    UpdateExtension (UpdateExtension'),
     newUpdateExtension,
-    Extension,
+    Extension (Extension'),
     newExtension,
 
     -- ** UpdateExtensionAssociation
-    UpdateExtensionAssociation,
+    UpdateExtensionAssociation (UpdateExtensionAssociation'),
     newUpdateExtensionAssociation,
-    ExtensionAssociation,
+    ExtensionAssociation (ExtensionAssociation'),
     newExtensionAssociation,
 
     -- ** ValidateConfiguration
-    ValidateConfiguration,
+    ValidateConfiguration (ValidateConfiguration'),
     newValidateConfiguration,
-    ValidateConfigurationResponse,
+    ValidateConfigurationResponse (ValidateConfigurationResponse'),
     newValidateConfigurationResponse,
 
     -- * Types
@@ -364,83 +364,83 @@ module Amazonka.AppConfig
     ValidatorType (..),
 
     -- ** Action
-    Action,
+    Action (Action'),
     newAction,
 
     -- ** ActionInvocation
-    ActionInvocation,
+    ActionInvocation (ActionInvocation'),
     newActionInvocation,
 
     -- ** Application
-    Application,
+    Application (Application'),
     newApplication,
 
     -- ** AppliedExtension
-    AppliedExtension,
+    AppliedExtension (AppliedExtension'),
     newAppliedExtension,
 
     -- ** ConfigurationProfile
-    ConfigurationProfile,
+    ConfigurationProfile (ConfigurationProfile'),
     newConfigurationProfile,
 
     -- ** ConfigurationProfileSummary
-    ConfigurationProfileSummary,
+    ConfigurationProfileSummary (ConfigurationProfileSummary'),
     newConfigurationProfileSummary,
 
     -- ** Deployment
-    Deployment,
+    Deployment (Deployment'),
     newDeployment,
 
     -- ** DeploymentEvent
-    DeploymentEvent,
+    DeploymentEvent (DeploymentEvent'),
     newDeploymentEvent,
 
     -- ** DeploymentStrategy
-    DeploymentStrategy,
+    DeploymentStrategy (DeploymentStrategy'),
     newDeploymentStrategy,
 
     -- ** DeploymentSummary
-    DeploymentSummary,
+    DeploymentSummary (DeploymentSummary'),
     newDeploymentSummary,
 
     -- ** Environment
-    Environment,
+    Environment (Environment'),
     newEnvironment,
 
     -- ** Extension
-    Extension,
+    Extension (Extension'),
     newExtension,
 
     -- ** ExtensionAssociation
-    ExtensionAssociation,
+    ExtensionAssociation (ExtensionAssociation'),
     newExtensionAssociation,
 
     -- ** ExtensionAssociationSummary
-    ExtensionAssociationSummary,
+    ExtensionAssociationSummary (ExtensionAssociationSummary'),
     newExtensionAssociationSummary,
 
     -- ** ExtensionSummary
-    ExtensionSummary,
+    ExtensionSummary (ExtensionSummary'),
     newExtensionSummary,
 
     -- ** HostedConfigurationVersion
-    HostedConfigurationVersion,
+    HostedConfigurationVersion (HostedConfigurationVersion'),
     newHostedConfigurationVersion,
 
     -- ** HostedConfigurationVersionSummary
-    HostedConfigurationVersionSummary,
+    HostedConfigurationVersionSummary (HostedConfigurationVersionSummary'),
     newHostedConfigurationVersionSummary,
 
     -- ** Monitor
-    Monitor,
+    Monitor (Monitor'),
     newMonitor,
 
     -- ** Parameter
-    Parameter,
+    Parameter (Parameter'),
     newParameter,
 
     -- ** Validator
-    Validator,
+    Validator (Validator'),
     newValidator,
   )
 where

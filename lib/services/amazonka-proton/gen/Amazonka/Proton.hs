@@ -232,453 +232,453 @@ module Amazonka.Proton
     -- $operations
 
     -- ** AcceptEnvironmentAccountConnection
-    AcceptEnvironmentAccountConnection,
+    AcceptEnvironmentAccountConnection (AcceptEnvironmentAccountConnection'),
     newAcceptEnvironmentAccountConnection,
-    AcceptEnvironmentAccountConnectionResponse,
+    AcceptEnvironmentAccountConnectionResponse (AcceptEnvironmentAccountConnectionResponse'),
     newAcceptEnvironmentAccountConnectionResponse,
 
     -- ** CancelComponentDeployment
-    CancelComponentDeployment,
+    CancelComponentDeployment (CancelComponentDeployment'),
     newCancelComponentDeployment,
-    CancelComponentDeploymentResponse,
+    CancelComponentDeploymentResponse (CancelComponentDeploymentResponse'),
     newCancelComponentDeploymentResponse,
 
     -- ** CancelEnvironmentDeployment
-    CancelEnvironmentDeployment,
+    CancelEnvironmentDeployment (CancelEnvironmentDeployment'),
     newCancelEnvironmentDeployment,
-    CancelEnvironmentDeploymentResponse,
+    CancelEnvironmentDeploymentResponse (CancelEnvironmentDeploymentResponse'),
     newCancelEnvironmentDeploymentResponse,
 
     -- ** CancelServiceInstanceDeployment
-    CancelServiceInstanceDeployment,
+    CancelServiceInstanceDeployment (CancelServiceInstanceDeployment'),
     newCancelServiceInstanceDeployment,
-    CancelServiceInstanceDeploymentResponse,
+    CancelServiceInstanceDeploymentResponse (CancelServiceInstanceDeploymentResponse'),
     newCancelServiceInstanceDeploymentResponse,
 
     -- ** CancelServicePipelineDeployment
-    CancelServicePipelineDeployment,
+    CancelServicePipelineDeployment (CancelServicePipelineDeployment'),
     newCancelServicePipelineDeployment,
-    CancelServicePipelineDeploymentResponse,
+    CancelServicePipelineDeploymentResponse (CancelServicePipelineDeploymentResponse'),
     newCancelServicePipelineDeploymentResponse,
 
     -- ** CreateComponent
-    CreateComponent,
+    CreateComponent (CreateComponent'),
     newCreateComponent,
-    CreateComponentResponse,
+    CreateComponentResponse (CreateComponentResponse'),
     newCreateComponentResponse,
 
     -- ** CreateEnvironment
-    CreateEnvironment,
+    CreateEnvironment (CreateEnvironment'),
     newCreateEnvironment,
-    CreateEnvironmentResponse,
+    CreateEnvironmentResponse (CreateEnvironmentResponse'),
     newCreateEnvironmentResponse,
 
     -- ** CreateEnvironmentAccountConnection
-    CreateEnvironmentAccountConnection,
+    CreateEnvironmentAccountConnection (CreateEnvironmentAccountConnection'),
     newCreateEnvironmentAccountConnection,
-    CreateEnvironmentAccountConnectionResponse,
+    CreateEnvironmentAccountConnectionResponse (CreateEnvironmentAccountConnectionResponse'),
     newCreateEnvironmentAccountConnectionResponse,
 
     -- ** CreateEnvironmentTemplate
-    CreateEnvironmentTemplate,
+    CreateEnvironmentTemplate (CreateEnvironmentTemplate'),
     newCreateEnvironmentTemplate,
-    CreateEnvironmentTemplateResponse,
+    CreateEnvironmentTemplateResponse (CreateEnvironmentTemplateResponse'),
     newCreateEnvironmentTemplateResponse,
 
     -- ** CreateEnvironmentTemplateVersion
-    CreateEnvironmentTemplateVersion,
+    CreateEnvironmentTemplateVersion (CreateEnvironmentTemplateVersion'),
     newCreateEnvironmentTemplateVersion,
-    CreateEnvironmentTemplateVersionResponse,
+    CreateEnvironmentTemplateVersionResponse (CreateEnvironmentTemplateVersionResponse'),
     newCreateEnvironmentTemplateVersionResponse,
 
     -- ** CreateRepository
-    CreateRepository,
+    CreateRepository (CreateRepository'),
     newCreateRepository,
-    CreateRepositoryResponse,
+    CreateRepositoryResponse (CreateRepositoryResponse'),
     newCreateRepositoryResponse,
 
     -- ** CreateService
-    CreateService,
+    CreateService (CreateService'),
     newCreateService,
-    CreateServiceResponse,
+    CreateServiceResponse (CreateServiceResponse'),
     newCreateServiceResponse,
 
     -- ** CreateServiceTemplate
-    CreateServiceTemplate,
+    CreateServiceTemplate (CreateServiceTemplate'),
     newCreateServiceTemplate,
-    CreateServiceTemplateResponse,
+    CreateServiceTemplateResponse (CreateServiceTemplateResponse'),
     newCreateServiceTemplateResponse,
 
     -- ** CreateServiceTemplateVersion
-    CreateServiceTemplateVersion,
+    CreateServiceTemplateVersion (CreateServiceTemplateVersion'),
     newCreateServiceTemplateVersion,
-    CreateServiceTemplateVersionResponse,
+    CreateServiceTemplateVersionResponse (CreateServiceTemplateVersionResponse'),
     newCreateServiceTemplateVersionResponse,
 
     -- ** CreateTemplateSyncConfig
-    CreateTemplateSyncConfig,
+    CreateTemplateSyncConfig (CreateTemplateSyncConfig'),
     newCreateTemplateSyncConfig,
-    CreateTemplateSyncConfigResponse,
+    CreateTemplateSyncConfigResponse (CreateTemplateSyncConfigResponse'),
     newCreateTemplateSyncConfigResponse,
 
     -- ** DeleteComponent
-    DeleteComponent,
+    DeleteComponent (DeleteComponent'),
     newDeleteComponent,
-    DeleteComponentResponse,
+    DeleteComponentResponse (DeleteComponentResponse'),
     newDeleteComponentResponse,
 
     -- ** DeleteEnvironment
-    DeleteEnvironment,
+    DeleteEnvironment (DeleteEnvironment'),
     newDeleteEnvironment,
-    DeleteEnvironmentResponse,
+    DeleteEnvironmentResponse (DeleteEnvironmentResponse'),
     newDeleteEnvironmentResponse,
 
     -- ** DeleteEnvironmentAccountConnection
-    DeleteEnvironmentAccountConnection,
+    DeleteEnvironmentAccountConnection (DeleteEnvironmentAccountConnection'),
     newDeleteEnvironmentAccountConnection,
-    DeleteEnvironmentAccountConnectionResponse,
+    DeleteEnvironmentAccountConnectionResponse (DeleteEnvironmentAccountConnectionResponse'),
     newDeleteEnvironmentAccountConnectionResponse,
 
     -- ** DeleteEnvironmentTemplate
-    DeleteEnvironmentTemplate,
+    DeleteEnvironmentTemplate (DeleteEnvironmentTemplate'),
     newDeleteEnvironmentTemplate,
-    DeleteEnvironmentTemplateResponse,
+    DeleteEnvironmentTemplateResponse (DeleteEnvironmentTemplateResponse'),
     newDeleteEnvironmentTemplateResponse,
 
     -- ** DeleteEnvironmentTemplateVersion
-    DeleteEnvironmentTemplateVersion,
+    DeleteEnvironmentTemplateVersion (DeleteEnvironmentTemplateVersion'),
     newDeleteEnvironmentTemplateVersion,
-    DeleteEnvironmentTemplateVersionResponse,
+    DeleteEnvironmentTemplateVersionResponse (DeleteEnvironmentTemplateVersionResponse'),
     newDeleteEnvironmentTemplateVersionResponse,
 
     -- ** DeleteRepository
-    DeleteRepository,
+    DeleteRepository (DeleteRepository'),
     newDeleteRepository,
-    DeleteRepositoryResponse,
+    DeleteRepositoryResponse (DeleteRepositoryResponse'),
     newDeleteRepositoryResponse,
 
     -- ** DeleteService
-    DeleteService,
+    DeleteService (DeleteService'),
     newDeleteService,
-    DeleteServiceResponse,
+    DeleteServiceResponse (DeleteServiceResponse'),
     newDeleteServiceResponse,
 
     -- ** DeleteServiceTemplate
-    DeleteServiceTemplate,
+    DeleteServiceTemplate (DeleteServiceTemplate'),
     newDeleteServiceTemplate,
-    DeleteServiceTemplateResponse,
+    DeleteServiceTemplateResponse (DeleteServiceTemplateResponse'),
     newDeleteServiceTemplateResponse,
 
     -- ** DeleteServiceTemplateVersion
-    DeleteServiceTemplateVersion,
+    DeleteServiceTemplateVersion (DeleteServiceTemplateVersion'),
     newDeleteServiceTemplateVersion,
-    DeleteServiceTemplateVersionResponse,
+    DeleteServiceTemplateVersionResponse (DeleteServiceTemplateVersionResponse'),
     newDeleteServiceTemplateVersionResponse,
 
     -- ** DeleteTemplateSyncConfig
-    DeleteTemplateSyncConfig,
+    DeleteTemplateSyncConfig (DeleteTemplateSyncConfig'),
     newDeleteTemplateSyncConfig,
-    DeleteTemplateSyncConfigResponse,
+    DeleteTemplateSyncConfigResponse (DeleteTemplateSyncConfigResponse'),
     newDeleteTemplateSyncConfigResponse,
 
     -- ** GetAccountSettings
-    GetAccountSettings,
+    GetAccountSettings (GetAccountSettings'),
     newGetAccountSettings,
-    GetAccountSettingsResponse,
+    GetAccountSettingsResponse (GetAccountSettingsResponse'),
     newGetAccountSettingsResponse,
 
     -- ** GetComponent
-    GetComponent,
+    GetComponent (GetComponent'),
     newGetComponent,
-    GetComponentResponse,
+    GetComponentResponse (GetComponentResponse'),
     newGetComponentResponse,
 
     -- ** GetEnvironment
-    GetEnvironment,
+    GetEnvironment (GetEnvironment'),
     newGetEnvironment,
-    GetEnvironmentResponse,
+    GetEnvironmentResponse (GetEnvironmentResponse'),
     newGetEnvironmentResponse,
 
     -- ** GetEnvironmentAccountConnection
-    GetEnvironmentAccountConnection,
+    GetEnvironmentAccountConnection (GetEnvironmentAccountConnection'),
     newGetEnvironmentAccountConnection,
-    GetEnvironmentAccountConnectionResponse,
+    GetEnvironmentAccountConnectionResponse (GetEnvironmentAccountConnectionResponse'),
     newGetEnvironmentAccountConnectionResponse,
 
     -- ** GetEnvironmentTemplate
-    GetEnvironmentTemplate,
+    GetEnvironmentTemplate (GetEnvironmentTemplate'),
     newGetEnvironmentTemplate,
-    GetEnvironmentTemplateResponse,
+    GetEnvironmentTemplateResponse (GetEnvironmentTemplateResponse'),
     newGetEnvironmentTemplateResponse,
 
     -- ** GetEnvironmentTemplateVersion
-    GetEnvironmentTemplateVersion,
+    GetEnvironmentTemplateVersion (GetEnvironmentTemplateVersion'),
     newGetEnvironmentTemplateVersion,
-    GetEnvironmentTemplateVersionResponse,
+    GetEnvironmentTemplateVersionResponse (GetEnvironmentTemplateVersionResponse'),
     newGetEnvironmentTemplateVersionResponse,
 
     -- ** GetRepository
-    GetRepository,
+    GetRepository (GetRepository'),
     newGetRepository,
-    GetRepositoryResponse,
+    GetRepositoryResponse (GetRepositoryResponse'),
     newGetRepositoryResponse,
 
     -- ** GetRepositorySyncStatus
-    GetRepositorySyncStatus,
+    GetRepositorySyncStatus (GetRepositorySyncStatus'),
     newGetRepositorySyncStatus,
-    GetRepositorySyncStatusResponse,
+    GetRepositorySyncStatusResponse (GetRepositorySyncStatusResponse'),
     newGetRepositorySyncStatusResponse,
 
     -- ** GetService
-    GetService,
+    GetService (GetService'),
     newGetService,
-    GetServiceResponse,
+    GetServiceResponse (GetServiceResponse'),
     newGetServiceResponse,
 
     -- ** GetServiceInstance
-    GetServiceInstance,
+    GetServiceInstance (GetServiceInstance'),
     newGetServiceInstance,
-    GetServiceInstanceResponse,
+    GetServiceInstanceResponse (GetServiceInstanceResponse'),
     newGetServiceInstanceResponse,
 
     -- ** GetServiceTemplate
-    GetServiceTemplate,
+    GetServiceTemplate (GetServiceTemplate'),
     newGetServiceTemplate,
-    GetServiceTemplateResponse,
+    GetServiceTemplateResponse (GetServiceTemplateResponse'),
     newGetServiceTemplateResponse,
 
     -- ** GetServiceTemplateVersion
-    GetServiceTemplateVersion,
+    GetServiceTemplateVersion (GetServiceTemplateVersion'),
     newGetServiceTemplateVersion,
-    GetServiceTemplateVersionResponse,
+    GetServiceTemplateVersionResponse (GetServiceTemplateVersionResponse'),
     newGetServiceTemplateVersionResponse,
 
     -- ** GetTemplateSyncConfig
-    GetTemplateSyncConfig,
+    GetTemplateSyncConfig (GetTemplateSyncConfig'),
     newGetTemplateSyncConfig,
-    GetTemplateSyncConfigResponse,
+    GetTemplateSyncConfigResponse (GetTemplateSyncConfigResponse'),
     newGetTemplateSyncConfigResponse,
 
     -- ** GetTemplateSyncStatus
-    GetTemplateSyncStatus,
+    GetTemplateSyncStatus (GetTemplateSyncStatus'),
     newGetTemplateSyncStatus,
-    GetTemplateSyncStatusResponse,
+    GetTemplateSyncStatusResponse (GetTemplateSyncStatusResponse'),
     newGetTemplateSyncStatusResponse,
 
     -- ** ListComponentOutputs (Paginated)
-    ListComponentOutputs,
+    ListComponentOutputs (ListComponentOutputs'),
     newListComponentOutputs,
-    ListComponentOutputsResponse,
+    ListComponentOutputsResponse (ListComponentOutputsResponse'),
     newListComponentOutputsResponse,
 
     -- ** ListComponentProvisionedResources (Paginated)
-    ListComponentProvisionedResources,
+    ListComponentProvisionedResources (ListComponentProvisionedResources'),
     newListComponentProvisionedResources,
-    ListComponentProvisionedResourcesResponse,
+    ListComponentProvisionedResourcesResponse (ListComponentProvisionedResourcesResponse'),
     newListComponentProvisionedResourcesResponse,
 
     -- ** ListComponents (Paginated)
-    ListComponents,
+    ListComponents (ListComponents'),
     newListComponents,
-    ListComponentsResponse,
+    ListComponentsResponse (ListComponentsResponse'),
     newListComponentsResponse,
 
     -- ** ListEnvironmentAccountConnections (Paginated)
-    ListEnvironmentAccountConnections,
+    ListEnvironmentAccountConnections (ListEnvironmentAccountConnections'),
     newListEnvironmentAccountConnections,
-    ListEnvironmentAccountConnectionsResponse,
+    ListEnvironmentAccountConnectionsResponse (ListEnvironmentAccountConnectionsResponse'),
     newListEnvironmentAccountConnectionsResponse,
 
     -- ** ListEnvironmentOutputs (Paginated)
-    ListEnvironmentOutputs,
+    ListEnvironmentOutputs (ListEnvironmentOutputs'),
     newListEnvironmentOutputs,
-    ListEnvironmentOutputsResponse,
+    ListEnvironmentOutputsResponse (ListEnvironmentOutputsResponse'),
     newListEnvironmentOutputsResponse,
 
     -- ** ListEnvironmentProvisionedResources (Paginated)
-    ListEnvironmentProvisionedResources,
+    ListEnvironmentProvisionedResources (ListEnvironmentProvisionedResources'),
     newListEnvironmentProvisionedResources,
-    ListEnvironmentProvisionedResourcesResponse,
+    ListEnvironmentProvisionedResourcesResponse (ListEnvironmentProvisionedResourcesResponse'),
     newListEnvironmentProvisionedResourcesResponse,
 
     -- ** ListEnvironmentTemplateVersions (Paginated)
-    ListEnvironmentTemplateVersions,
+    ListEnvironmentTemplateVersions (ListEnvironmentTemplateVersions'),
     newListEnvironmentTemplateVersions,
-    ListEnvironmentTemplateVersionsResponse,
+    ListEnvironmentTemplateVersionsResponse (ListEnvironmentTemplateVersionsResponse'),
     newListEnvironmentTemplateVersionsResponse,
 
     -- ** ListEnvironmentTemplates (Paginated)
-    ListEnvironmentTemplates,
+    ListEnvironmentTemplates (ListEnvironmentTemplates'),
     newListEnvironmentTemplates,
-    ListEnvironmentTemplatesResponse,
+    ListEnvironmentTemplatesResponse (ListEnvironmentTemplatesResponse'),
     newListEnvironmentTemplatesResponse,
 
     -- ** ListEnvironments (Paginated)
-    ListEnvironments,
+    ListEnvironments (ListEnvironments'),
     newListEnvironments,
-    ListEnvironmentsResponse,
+    ListEnvironmentsResponse (ListEnvironmentsResponse'),
     newListEnvironmentsResponse,
 
     -- ** ListRepositories (Paginated)
-    ListRepositories,
+    ListRepositories (ListRepositories'),
     newListRepositories,
-    ListRepositoriesResponse,
+    ListRepositoriesResponse (ListRepositoriesResponse'),
     newListRepositoriesResponse,
 
     -- ** ListRepositorySyncDefinitions (Paginated)
-    ListRepositorySyncDefinitions,
+    ListRepositorySyncDefinitions (ListRepositorySyncDefinitions'),
     newListRepositorySyncDefinitions,
-    ListRepositorySyncDefinitionsResponse,
+    ListRepositorySyncDefinitionsResponse (ListRepositorySyncDefinitionsResponse'),
     newListRepositorySyncDefinitionsResponse,
 
     -- ** ListServiceInstanceOutputs (Paginated)
-    ListServiceInstanceOutputs,
+    ListServiceInstanceOutputs (ListServiceInstanceOutputs'),
     newListServiceInstanceOutputs,
-    ListServiceInstanceOutputsResponse,
+    ListServiceInstanceOutputsResponse (ListServiceInstanceOutputsResponse'),
     newListServiceInstanceOutputsResponse,
 
     -- ** ListServiceInstanceProvisionedResources (Paginated)
-    ListServiceInstanceProvisionedResources,
+    ListServiceInstanceProvisionedResources (ListServiceInstanceProvisionedResources'),
     newListServiceInstanceProvisionedResources,
-    ListServiceInstanceProvisionedResourcesResponse,
+    ListServiceInstanceProvisionedResourcesResponse (ListServiceInstanceProvisionedResourcesResponse'),
     newListServiceInstanceProvisionedResourcesResponse,
 
     -- ** ListServiceInstances (Paginated)
-    ListServiceInstances,
+    ListServiceInstances (ListServiceInstances'),
     newListServiceInstances,
-    ListServiceInstancesResponse,
+    ListServiceInstancesResponse (ListServiceInstancesResponse'),
     newListServiceInstancesResponse,
 
     -- ** ListServicePipelineOutputs (Paginated)
-    ListServicePipelineOutputs,
+    ListServicePipelineOutputs (ListServicePipelineOutputs'),
     newListServicePipelineOutputs,
-    ListServicePipelineOutputsResponse,
+    ListServicePipelineOutputsResponse (ListServicePipelineOutputsResponse'),
     newListServicePipelineOutputsResponse,
 
     -- ** ListServicePipelineProvisionedResources (Paginated)
-    ListServicePipelineProvisionedResources,
+    ListServicePipelineProvisionedResources (ListServicePipelineProvisionedResources'),
     newListServicePipelineProvisionedResources,
-    ListServicePipelineProvisionedResourcesResponse,
+    ListServicePipelineProvisionedResourcesResponse (ListServicePipelineProvisionedResourcesResponse'),
     newListServicePipelineProvisionedResourcesResponse,
 
     -- ** ListServiceTemplateVersions (Paginated)
-    ListServiceTemplateVersions,
+    ListServiceTemplateVersions (ListServiceTemplateVersions'),
     newListServiceTemplateVersions,
-    ListServiceTemplateVersionsResponse,
+    ListServiceTemplateVersionsResponse (ListServiceTemplateVersionsResponse'),
     newListServiceTemplateVersionsResponse,
 
     -- ** ListServiceTemplates (Paginated)
-    ListServiceTemplates,
+    ListServiceTemplates (ListServiceTemplates'),
     newListServiceTemplates,
-    ListServiceTemplatesResponse,
+    ListServiceTemplatesResponse (ListServiceTemplatesResponse'),
     newListServiceTemplatesResponse,
 
     -- ** ListServices (Paginated)
-    ListServices,
+    ListServices (ListServices'),
     newListServices,
-    ListServicesResponse,
+    ListServicesResponse (ListServicesResponse'),
     newListServicesResponse,
 
     -- ** ListTagsForResource (Paginated)
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** NotifyResourceDeploymentStatusChange
-    NotifyResourceDeploymentStatusChange,
+    NotifyResourceDeploymentStatusChange (NotifyResourceDeploymentStatusChange'),
     newNotifyResourceDeploymentStatusChange,
-    NotifyResourceDeploymentStatusChangeResponse,
+    NotifyResourceDeploymentStatusChangeResponse (NotifyResourceDeploymentStatusChangeResponse'),
     newNotifyResourceDeploymentStatusChangeResponse,
 
     -- ** RejectEnvironmentAccountConnection
-    RejectEnvironmentAccountConnection,
+    RejectEnvironmentAccountConnection (RejectEnvironmentAccountConnection'),
     newRejectEnvironmentAccountConnection,
-    RejectEnvironmentAccountConnectionResponse,
+    RejectEnvironmentAccountConnectionResponse (RejectEnvironmentAccountConnectionResponse'),
     newRejectEnvironmentAccountConnectionResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateAccountSettings
-    UpdateAccountSettings,
+    UpdateAccountSettings (UpdateAccountSettings'),
     newUpdateAccountSettings,
-    UpdateAccountSettingsResponse,
+    UpdateAccountSettingsResponse (UpdateAccountSettingsResponse'),
     newUpdateAccountSettingsResponse,
 
     -- ** UpdateComponent
-    UpdateComponent,
+    UpdateComponent (UpdateComponent'),
     newUpdateComponent,
-    UpdateComponentResponse,
+    UpdateComponentResponse (UpdateComponentResponse'),
     newUpdateComponentResponse,
 
     -- ** UpdateEnvironment
-    UpdateEnvironment,
+    UpdateEnvironment (UpdateEnvironment'),
     newUpdateEnvironment,
-    UpdateEnvironmentResponse,
+    UpdateEnvironmentResponse (UpdateEnvironmentResponse'),
     newUpdateEnvironmentResponse,
 
     -- ** UpdateEnvironmentAccountConnection
-    UpdateEnvironmentAccountConnection,
+    UpdateEnvironmentAccountConnection (UpdateEnvironmentAccountConnection'),
     newUpdateEnvironmentAccountConnection,
-    UpdateEnvironmentAccountConnectionResponse,
+    UpdateEnvironmentAccountConnectionResponse (UpdateEnvironmentAccountConnectionResponse'),
     newUpdateEnvironmentAccountConnectionResponse,
 
     -- ** UpdateEnvironmentTemplate
-    UpdateEnvironmentTemplate,
+    UpdateEnvironmentTemplate (UpdateEnvironmentTemplate'),
     newUpdateEnvironmentTemplate,
-    UpdateEnvironmentTemplateResponse,
+    UpdateEnvironmentTemplateResponse (UpdateEnvironmentTemplateResponse'),
     newUpdateEnvironmentTemplateResponse,
 
     -- ** UpdateEnvironmentTemplateVersion
-    UpdateEnvironmentTemplateVersion,
+    UpdateEnvironmentTemplateVersion (UpdateEnvironmentTemplateVersion'),
     newUpdateEnvironmentTemplateVersion,
-    UpdateEnvironmentTemplateVersionResponse,
+    UpdateEnvironmentTemplateVersionResponse (UpdateEnvironmentTemplateVersionResponse'),
     newUpdateEnvironmentTemplateVersionResponse,
 
     -- ** UpdateService
-    UpdateService,
+    UpdateService (UpdateService'),
     newUpdateService,
-    UpdateServiceResponse,
+    UpdateServiceResponse (UpdateServiceResponse'),
     newUpdateServiceResponse,
 
     -- ** UpdateServiceInstance
-    UpdateServiceInstance,
+    UpdateServiceInstance (UpdateServiceInstance'),
     newUpdateServiceInstance,
-    UpdateServiceInstanceResponse,
+    UpdateServiceInstanceResponse (UpdateServiceInstanceResponse'),
     newUpdateServiceInstanceResponse,
 
     -- ** UpdateServicePipeline
-    UpdateServicePipeline,
+    UpdateServicePipeline (UpdateServicePipeline'),
     newUpdateServicePipeline,
-    UpdateServicePipelineResponse,
+    UpdateServicePipelineResponse (UpdateServicePipelineResponse'),
     newUpdateServicePipelineResponse,
 
     -- ** UpdateServiceTemplate
-    UpdateServiceTemplate,
+    UpdateServiceTemplate (UpdateServiceTemplate'),
     newUpdateServiceTemplate,
-    UpdateServiceTemplateResponse,
+    UpdateServiceTemplateResponse (UpdateServiceTemplateResponse'),
     newUpdateServiceTemplateResponse,
 
     -- ** UpdateServiceTemplateVersion
-    UpdateServiceTemplateVersion,
+    UpdateServiceTemplateVersion (UpdateServiceTemplateVersion'),
     newUpdateServiceTemplateVersion,
-    UpdateServiceTemplateVersionResponse,
+    UpdateServiceTemplateVersionResponse (UpdateServiceTemplateVersionResponse'),
     newUpdateServiceTemplateVersionResponse,
 
     -- ** UpdateTemplateSyncConfig
-    UpdateTemplateSyncConfig,
+    UpdateTemplateSyncConfig (UpdateTemplateSyncConfig'),
     newUpdateTemplateSyncConfig,
-    UpdateTemplateSyncConfigResponse,
+    UpdateTemplateSyncConfigResponse (UpdateTemplateSyncConfigResponse'),
     newUpdateTemplateSyncConfigResponse,
 
     -- * Types
@@ -741,163 +741,163 @@ module Amazonka.Proton
     TemplateVersionStatus (..),
 
     -- ** AccountSettings
-    AccountSettings,
+    AccountSettings (AccountSettings'),
     newAccountSettings,
 
     -- ** CompatibleEnvironmentTemplate
-    CompatibleEnvironmentTemplate,
+    CompatibleEnvironmentTemplate (CompatibleEnvironmentTemplate'),
     newCompatibleEnvironmentTemplate,
 
     -- ** CompatibleEnvironmentTemplateInput
-    CompatibleEnvironmentTemplateInput,
+    CompatibleEnvironmentTemplateInput (CompatibleEnvironmentTemplateInput'),
     newCompatibleEnvironmentTemplateInput,
 
     -- ** Component
-    Component,
+    Component (Component'),
     newComponent,
 
     -- ** ComponentSummary
-    ComponentSummary,
+    ComponentSummary (ComponentSummary'),
     newComponentSummary,
 
     -- ** Environment
-    Environment,
+    Environment (Environment'),
     newEnvironment,
 
     -- ** EnvironmentAccountConnection
-    EnvironmentAccountConnection,
+    EnvironmentAccountConnection (EnvironmentAccountConnection'),
     newEnvironmentAccountConnection,
 
     -- ** EnvironmentAccountConnectionSummary
-    EnvironmentAccountConnectionSummary,
+    EnvironmentAccountConnectionSummary (EnvironmentAccountConnectionSummary'),
     newEnvironmentAccountConnectionSummary,
 
     -- ** EnvironmentSummary
-    EnvironmentSummary,
+    EnvironmentSummary (EnvironmentSummary'),
     newEnvironmentSummary,
 
     -- ** EnvironmentTemplate
-    EnvironmentTemplate,
+    EnvironmentTemplate (EnvironmentTemplate'),
     newEnvironmentTemplate,
 
     -- ** EnvironmentTemplateFilter
-    EnvironmentTemplateFilter,
+    EnvironmentTemplateFilter (EnvironmentTemplateFilter'),
     newEnvironmentTemplateFilter,
 
     -- ** EnvironmentTemplateSummary
-    EnvironmentTemplateSummary,
+    EnvironmentTemplateSummary (EnvironmentTemplateSummary'),
     newEnvironmentTemplateSummary,
 
     -- ** EnvironmentTemplateVersion
-    EnvironmentTemplateVersion,
+    EnvironmentTemplateVersion (EnvironmentTemplateVersion'),
     newEnvironmentTemplateVersion,
 
     -- ** EnvironmentTemplateVersionSummary
-    EnvironmentTemplateVersionSummary,
+    EnvironmentTemplateVersionSummary (EnvironmentTemplateVersionSummary'),
     newEnvironmentTemplateVersionSummary,
 
     -- ** ListServiceInstancesFilter
-    ListServiceInstancesFilter,
+    ListServiceInstancesFilter (ListServiceInstancesFilter'),
     newListServiceInstancesFilter,
 
     -- ** Output
-    Output,
+    Output (Output'),
     newOutput,
 
     -- ** ProvisionedResource
-    ProvisionedResource,
+    ProvisionedResource (ProvisionedResource'),
     newProvisionedResource,
 
     -- ** Repository
-    Repository,
+    Repository (Repository'),
     newRepository,
 
     -- ** RepositoryBranch
-    RepositoryBranch,
+    RepositoryBranch (RepositoryBranch'),
     newRepositoryBranch,
 
     -- ** RepositoryBranchInput
-    RepositoryBranchInput,
+    RepositoryBranchInput (RepositoryBranchInput'),
     newRepositoryBranchInput,
 
     -- ** RepositorySummary
-    RepositorySummary,
+    RepositorySummary (RepositorySummary'),
     newRepositorySummary,
 
     -- ** RepositorySyncAttempt
-    RepositorySyncAttempt,
+    RepositorySyncAttempt (RepositorySyncAttempt'),
     newRepositorySyncAttempt,
 
     -- ** RepositorySyncDefinition
-    RepositorySyncDefinition,
+    RepositorySyncDefinition (RepositorySyncDefinition'),
     newRepositorySyncDefinition,
 
     -- ** RepositorySyncEvent
-    RepositorySyncEvent,
+    RepositorySyncEvent (RepositorySyncEvent'),
     newRepositorySyncEvent,
 
     -- ** ResourceSyncAttempt
-    ResourceSyncAttempt,
+    ResourceSyncAttempt (ResourceSyncAttempt'),
     newResourceSyncAttempt,
 
     -- ** ResourceSyncEvent
-    ResourceSyncEvent,
+    ResourceSyncEvent (ResourceSyncEvent'),
     newResourceSyncEvent,
 
     -- ** Revision
-    Revision,
+    Revision (Revision'),
     newRevision,
 
     -- ** S3ObjectSource
-    S3ObjectSource,
+    S3ObjectSource (S3ObjectSource'),
     newS3ObjectSource,
 
     -- ** Service
-    Service,
+    Service (Service'),
     newService,
 
     -- ** ServiceInstance
-    ServiceInstance,
+    ServiceInstance (ServiceInstance'),
     newServiceInstance,
 
     -- ** ServiceInstanceSummary
-    ServiceInstanceSummary,
+    ServiceInstanceSummary (ServiceInstanceSummary'),
     newServiceInstanceSummary,
 
     -- ** ServicePipeline
-    ServicePipeline,
+    ServicePipeline (ServicePipeline'),
     newServicePipeline,
 
     -- ** ServiceSummary
-    ServiceSummary,
+    ServiceSummary (ServiceSummary'),
     newServiceSummary,
 
     -- ** ServiceTemplate
-    ServiceTemplate,
+    ServiceTemplate (ServiceTemplate'),
     newServiceTemplate,
 
     -- ** ServiceTemplateSummary
-    ServiceTemplateSummary,
+    ServiceTemplateSummary (ServiceTemplateSummary'),
     newServiceTemplateSummary,
 
     -- ** ServiceTemplateVersion
-    ServiceTemplateVersion,
+    ServiceTemplateVersion (ServiceTemplateVersion'),
     newServiceTemplateVersion,
 
     -- ** ServiceTemplateVersionSummary
-    ServiceTemplateVersionSummary,
+    ServiceTemplateVersionSummary (ServiceTemplateVersionSummary'),
     newServiceTemplateVersionSummary,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** TemplateSyncConfig
-    TemplateSyncConfig,
+    TemplateSyncConfig (TemplateSyncConfig'),
     newTemplateSyncConfig,
 
     -- ** TemplateVersionSourceInput
-    TemplateVersionSourceInput,
+    TemplateVersionSourceInput (TemplateVersionSourceInput'),
     newTemplateVersionSourceInput,
   )
 where

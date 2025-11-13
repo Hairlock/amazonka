@@ -112,381 +112,381 @@ module Amazonka.Route53Resolver
     -- $operations
 
     -- ** AssociateFirewallRuleGroup
-    AssociateFirewallRuleGroup,
+    AssociateFirewallRuleGroup (AssociateFirewallRuleGroup'),
     newAssociateFirewallRuleGroup,
-    AssociateFirewallRuleGroupResponse,
+    AssociateFirewallRuleGroupResponse (AssociateFirewallRuleGroupResponse'),
     newAssociateFirewallRuleGroupResponse,
 
     -- ** AssociateResolverEndpointIpAddress
-    AssociateResolverEndpointIpAddress,
+    AssociateResolverEndpointIpAddress (AssociateResolverEndpointIpAddress'),
     newAssociateResolverEndpointIpAddress,
-    AssociateResolverEndpointIpAddressResponse,
+    AssociateResolverEndpointIpAddressResponse (AssociateResolverEndpointIpAddressResponse'),
     newAssociateResolverEndpointIpAddressResponse,
 
     -- ** AssociateResolverQueryLogConfig
-    AssociateResolverQueryLogConfig,
+    AssociateResolverQueryLogConfig (AssociateResolverQueryLogConfig'),
     newAssociateResolverQueryLogConfig,
-    AssociateResolverQueryLogConfigResponse,
+    AssociateResolverQueryLogConfigResponse (AssociateResolverQueryLogConfigResponse'),
     newAssociateResolverQueryLogConfigResponse,
 
     -- ** AssociateResolverRule
-    AssociateResolverRule,
+    AssociateResolverRule (AssociateResolverRule'),
     newAssociateResolverRule,
-    AssociateResolverRuleResponse,
+    AssociateResolverRuleResponse (AssociateResolverRuleResponse'),
     newAssociateResolverRuleResponse,
 
     -- ** CreateFirewallDomainList
-    CreateFirewallDomainList,
+    CreateFirewallDomainList (CreateFirewallDomainList'),
     newCreateFirewallDomainList,
-    CreateFirewallDomainListResponse,
+    CreateFirewallDomainListResponse (CreateFirewallDomainListResponse'),
     newCreateFirewallDomainListResponse,
 
     -- ** CreateFirewallRule
-    CreateFirewallRule,
+    CreateFirewallRule (CreateFirewallRule'),
     newCreateFirewallRule,
-    CreateFirewallRuleResponse,
+    CreateFirewallRuleResponse (CreateFirewallRuleResponse'),
     newCreateFirewallRuleResponse,
 
     -- ** CreateFirewallRuleGroup
-    CreateFirewallRuleGroup,
+    CreateFirewallRuleGroup (CreateFirewallRuleGroup'),
     newCreateFirewallRuleGroup,
-    CreateFirewallRuleGroupResponse,
+    CreateFirewallRuleGroupResponse (CreateFirewallRuleGroupResponse'),
     newCreateFirewallRuleGroupResponse,
 
     -- ** CreateResolverEndpoint
-    CreateResolverEndpoint,
+    CreateResolverEndpoint (CreateResolverEndpoint'),
     newCreateResolverEndpoint,
-    CreateResolverEndpointResponse,
+    CreateResolverEndpointResponse (CreateResolverEndpointResponse'),
     newCreateResolverEndpointResponse,
 
     -- ** CreateResolverQueryLogConfig
-    CreateResolverQueryLogConfig,
+    CreateResolverQueryLogConfig (CreateResolverQueryLogConfig'),
     newCreateResolverQueryLogConfig,
-    CreateResolverQueryLogConfigResponse,
+    CreateResolverQueryLogConfigResponse (CreateResolverQueryLogConfigResponse'),
     newCreateResolverQueryLogConfigResponse,
 
     -- ** CreateResolverRule
-    CreateResolverRule,
+    CreateResolverRule (CreateResolverRule'),
     newCreateResolverRule,
-    CreateResolverRuleResponse,
+    CreateResolverRuleResponse (CreateResolverRuleResponse'),
     newCreateResolverRuleResponse,
 
     -- ** DeleteFirewallDomainList
-    DeleteFirewallDomainList,
+    DeleteFirewallDomainList (DeleteFirewallDomainList'),
     newDeleteFirewallDomainList,
-    DeleteFirewallDomainListResponse,
+    DeleteFirewallDomainListResponse (DeleteFirewallDomainListResponse'),
     newDeleteFirewallDomainListResponse,
 
     -- ** DeleteFirewallRule
-    DeleteFirewallRule,
+    DeleteFirewallRule (DeleteFirewallRule'),
     newDeleteFirewallRule,
-    DeleteFirewallRuleResponse,
+    DeleteFirewallRuleResponse (DeleteFirewallRuleResponse'),
     newDeleteFirewallRuleResponse,
 
     -- ** DeleteFirewallRuleGroup
-    DeleteFirewallRuleGroup,
+    DeleteFirewallRuleGroup (DeleteFirewallRuleGroup'),
     newDeleteFirewallRuleGroup,
-    DeleteFirewallRuleGroupResponse,
+    DeleteFirewallRuleGroupResponse (DeleteFirewallRuleGroupResponse'),
     newDeleteFirewallRuleGroupResponse,
 
     -- ** DeleteResolverEndpoint
-    DeleteResolverEndpoint,
+    DeleteResolverEndpoint (DeleteResolverEndpoint'),
     newDeleteResolverEndpoint,
-    DeleteResolverEndpointResponse,
+    DeleteResolverEndpointResponse (DeleteResolverEndpointResponse'),
     newDeleteResolverEndpointResponse,
 
     -- ** DeleteResolverQueryLogConfig
-    DeleteResolverQueryLogConfig,
+    DeleteResolverQueryLogConfig (DeleteResolverQueryLogConfig'),
     newDeleteResolverQueryLogConfig,
-    DeleteResolverQueryLogConfigResponse,
+    DeleteResolverQueryLogConfigResponse (DeleteResolverQueryLogConfigResponse'),
     newDeleteResolverQueryLogConfigResponse,
 
     -- ** DeleteResolverRule
-    DeleteResolverRule,
+    DeleteResolverRule (DeleteResolverRule'),
     newDeleteResolverRule,
-    DeleteResolverRuleResponse,
+    DeleteResolverRuleResponse (DeleteResolverRuleResponse'),
     newDeleteResolverRuleResponse,
 
     -- ** DisassociateFirewallRuleGroup
-    DisassociateFirewallRuleGroup,
+    DisassociateFirewallRuleGroup (DisassociateFirewallRuleGroup'),
     newDisassociateFirewallRuleGroup,
-    DisassociateFirewallRuleGroupResponse,
+    DisassociateFirewallRuleGroupResponse (DisassociateFirewallRuleGroupResponse'),
     newDisassociateFirewallRuleGroupResponse,
 
     -- ** DisassociateResolverEndpointIpAddress
-    DisassociateResolverEndpointIpAddress,
+    DisassociateResolverEndpointIpAddress (DisassociateResolverEndpointIpAddress'),
     newDisassociateResolverEndpointIpAddress,
-    DisassociateResolverEndpointIpAddressResponse,
+    DisassociateResolverEndpointIpAddressResponse (DisassociateResolverEndpointIpAddressResponse'),
     newDisassociateResolverEndpointIpAddressResponse,
 
     -- ** DisassociateResolverQueryLogConfig
-    DisassociateResolverQueryLogConfig,
+    DisassociateResolverQueryLogConfig (DisassociateResolverQueryLogConfig'),
     newDisassociateResolverQueryLogConfig,
-    DisassociateResolverQueryLogConfigResponse,
+    DisassociateResolverQueryLogConfigResponse (DisassociateResolverQueryLogConfigResponse'),
     newDisassociateResolverQueryLogConfigResponse,
 
     -- ** DisassociateResolverRule
-    DisassociateResolverRule,
+    DisassociateResolverRule (DisassociateResolverRule'),
     newDisassociateResolverRule,
-    DisassociateResolverRuleResponse,
+    DisassociateResolverRuleResponse (DisassociateResolverRuleResponse'),
     newDisassociateResolverRuleResponse,
 
     -- ** GetFirewallConfig
-    GetFirewallConfig,
+    GetFirewallConfig (GetFirewallConfig'),
     newGetFirewallConfig,
-    GetFirewallConfigResponse,
+    GetFirewallConfigResponse (GetFirewallConfigResponse'),
     newGetFirewallConfigResponse,
 
     -- ** GetFirewallDomainList
-    GetFirewallDomainList,
+    GetFirewallDomainList (GetFirewallDomainList'),
     newGetFirewallDomainList,
-    GetFirewallDomainListResponse,
+    GetFirewallDomainListResponse (GetFirewallDomainListResponse'),
     newGetFirewallDomainListResponse,
 
     -- ** GetFirewallRuleGroup
-    GetFirewallRuleGroup,
+    GetFirewallRuleGroup (GetFirewallRuleGroup'),
     newGetFirewallRuleGroup,
-    GetFirewallRuleGroupResponse,
+    GetFirewallRuleGroupResponse (GetFirewallRuleGroupResponse'),
     newGetFirewallRuleGroupResponse,
 
     -- ** GetFirewallRuleGroupAssociation
-    GetFirewallRuleGroupAssociation,
+    GetFirewallRuleGroupAssociation (GetFirewallRuleGroupAssociation'),
     newGetFirewallRuleGroupAssociation,
-    GetFirewallRuleGroupAssociationResponse,
+    GetFirewallRuleGroupAssociationResponse (GetFirewallRuleGroupAssociationResponse'),
     newGetFirewallRuleGroupAssociationResponse,
 
     -- ** GetFirewallRuleGroupPolicy
-    GetFirewallRuleGroupPolicy,
+    GetFirewallRuleGroupPolicy (GetFirewallRuleGroupPolicy'),
     newGetFirewallRuleGroupPolicy,
-    GetFirewallRuleGroupPolicyResponse,
+    GetFirewallRuleGroupPolicyResponse (GetFirewallRuleGroupPolicyResponse'),
     newGetFirewallRuleGroupPolicyResponse,
 
     -- ** GetResolverConfig
-    GetResolverConfig,
+    GetResolverConfig (GetResolverConfig'),
     newGetResolverConfig,
-    GetResolverConfigResponse,
+    GetResolverConfigResponse (GetResolverConfigResponse'),
     newGetResolverConfigResponse,
 
     -- ** GetResolverDnssecConfig
-    GetResolverDnssecConfig,
+    GetResolverDnssecConfig (GetResolverDnssecConfig'),
     newGetResolverDnssecConfig,
-    GetResolverDnssecConfigResponse,
+    GetResolverDnssecConfigResponse (GetResolverDnssecConfigResponse'),
     newGetResolverDnssecConfigResponse,
 
     -- ** GetResolverEndpoint
-    GetResolverEndpoint,
+    GetResolverEndpoint (GetResolverEndpoint'),
     newGetResolverEndpoint,
-    GetResolverEndpointResponse,
+    GetResolverEndpointResponse (GetResolverEndpointResponse'),
     newGetResolverEndpointResponse,
 
     -- ** GetResolverQueryLogConfig
-    GetResolverQueryLogConfig,
+    GetResolverQueryLogConfig (GetResolverQueryLogConfig'),
     newGetResolverQueryLogConfig,
-    GetResolverQueryLogConfigResponse,
+    GetResolverQueryLogConfigResponse (GetResolverQueryLogConfigResponse'),
     newGetResolverQueryLogConfigResponse,
 
     -- ** GetResolverQueryLogConfigAssociation
-    GetResolverQueryLogConfigAssociation,
+    GetResolverQueryLogConfigAssociation (GetResolverQueryLogConfigAssociation'),
     newGetResolverQueryLogConfigAssociation,
-    GetResolverQueryLogConfigAssociationResponse,
+    GetResolverQueryLogConfigAssociationResponse (GetResolverQueryLogConfigAssociationResponse'),
     newGetResolverQueryLogConfigAssociationResponse,
 
     -- ** GetResolverQueryLogConfigPolicy
-    GetResolverQueryLogConfigPolicy,
+    GetResolverQueryLogConfigPolicy (GetResolverQueryLogConfigPolicy'),
     newGetResolverQueryLogConfigPolicy,
-    GetResolverQueryLogConfigPolicyResponse,
+    GetResolverQueryLogConfigPolicyResponse (GetResolverQueryLogConfigPolicyResponse'),
     newGetResolverQueryLogConfigPolicyResponse,
 
     -- ** GetResolverRule
-    GetResolverRule,
+    GetResolverRule (GetResolverRule'),
     newGetResolverRule,
-    GetResolverRuleResponse,
+    GetResolverRuleResponse (GetResolverRuleResponse'),
     newGetResolverRuleResponse,
 
     -- ** GetResolverRuleAssociation
-    GetResolverRuleAssociation,
+    GetResolverRuleAssociation (GetResolverRuleAssociation'),
     newGetResolverRuleAssociation,
-    GetResolverRuleAssociationResponse,
+    GetResolverRuleAssociationResponse (GetResolverRuleAssociationResponse'),
     newGetResolverRuleAssociationResponse,
 
     -- ** GetResolverRulePolicy
-    GetResolverRulePolicy,
+    GetResolverRulePolicy (GetResolverRulePolicy'),
     newGetResolverRulePolicy,
-    GetResolverRulePolicyResponse,
+    GetResolverRulePolicyResponse (GetResolverRulePolicyResponse'),
     newGetResolverRulePolicyResponse,
 
     -- ** ImportFirewallDomains
-    ImportFirewallDomains,
+    ImportFirewallDomains (ImportFirewallDomains'),
     newImportFirewallDomains,
-    ImportFirewallDomainsResponse,
+    ImportFirewallDomainsResponse (ImportFirewallDomainsResponse'),
     newImportFirewallDomainsResponse,
 
     -- ** ListFirewallConfigs (Paginated)
-    ListFirewallConfigs,
+    ListFirewallConfigs (ListFirewallConfigs'),
     newListFirewallConfigs,
-    ListFirewallConfigsResponse,
+    ListFirewallConfigsResponse (ListFirewallConfigsResponse'),
     newListFirewallConfigsResponse,
 
     -- ** ListFirewallDomainLists (Paginated)
-    ListFirewallDomainLists,
+    ListFirewallDomainLists (ListFirewallDomainLists'),
     newListFirewallDomainLists,
-    ListFirewallDomainListsResponse,
+    ListFirewallDomainListsResponse (ListFirewallDomainListsResponse'),
     newListFirewallDomainListsResponse,
 
     -- ** ListFirewallDomains (Paginated)
-    ListFirewallDomains,
+    ListFirewallDomains (ListFirewallDomains'),
     newListFirewallDomains,
-    ListFirewallDomainsResponse,
+    ListFirewallDomainsResponse (ListFirewallDomainsResponse'),
     newListFirewallDomainsResponse,
 
     -- ** ListFirewallRuleGroupAssociations (Paginated)
-    ListFirewallRuleGroupAssociations,
+    ListFirewallRuleGroupAssociations (ListFirewallRuleGroupAssociations'),
     newListFirewallRuleGroupAssociations,
-    ListFirewallRuleGroupAssociationsResponse,
+    ListFirewallRuleGroupAssociationsResponse (ListFirewallRuleGroupAssociationsResponse'),
     newListFirewallRuleGroupAssociationsResponse,
 
     -- ** ListFirewallRuleGroups (Paginated)
-    ListFirewallRuleGroups,
+    ListFirewallRuleGroups (ListFirewallRuleGroups'),
     newListFirewallRuleGroups,
-    ListFirewallRuleGroupsResponse,
+    ListFirewallRuleGroupsResponse (ListFirewallRuleGroupsResponse'),
     newListFirewallRuleGroupsResponse,
 
     -- ** ListFirewallRules (Paginated)
-    ListFirewallRules,
+    ListFirewallRules (ListFirewallRules'),
     newListFirewallRules,
-    ListFirewallRulesResponse,
+    ListFirewallRulesResponse (ListFirewallRulesResponse'),
     newListFirewallRulesResponse,
 
     -- ** ListResolverConfigs (Paginated)
-    ListResolverConfigs,
+    ListResolverConfigs (ListResolverConfigs'),
     newListResolverConfigs,
-    ListResolverConfigsResponse,
+    ListResolverConfigsResponse (ListResolverConfigsResponse'),
     newListResolverConfigsResponse,
 
     -- ** ListResolverDnssecConfigs (Paginated)
-    ListResolverDnssecConfigs,
+    ListResolverDnssecConfigs (ListResolverDnssecConfigs'),
     newListResolverDnssecConfigs,
-    ListResolverDnssecConfigsResponse,
+    ListResolverDnssecConfigsResponse (ListResolverDnssecConfigsResponse'),
     newListResolverDnssecConfigsResponse,
 
     -- ** ListResolverEndpointIpAddresses (Paginated)
-    ListResolverEndpointIpAddresses,
+    ListResolverEndpointIpAddresses (ListResolverEndpointIpAddresses'),
     newListResolverEndpointIpAddresses,
-    ListResolverEndpointIpAddressesResponse,
+    ListResolverEndpointIpAddressesResponse (ListResolverEndpointIpAddressesResponse'),
     newListResolverEndpointIpAddressesResponse,
 
     -- ** ListResolverEndpoints (Paginated)
-    ListResolverEndpoints,
+    ListResolverEndpoints (ListResolverEndpoints'),
     newListResolverEndpoints,
-    ListResolverEndpointsResponse,
+    ListResolverEndpointsResponse (ListResolverEndpointsResponse'),
     newListResolverEndpointsResponse,
 
     -- ** ListResolverQueryLogConfigAssociations (Paginated)
-    ListResolverQueryLogConfigAssociations,
+    ListResolverQueryLogConfigAssociations (ListResolverQueryLogConfigAssociations'),
     newListResolverQueryLogConfigAssociations,
-    ListResolverQueryLogConfigAssociationsResponse,
+    ListResolverQueryLogConfigAssociationsResponse (ListResolverQueryLogConfigAssociationsResponse'),
     newListResolverQueryLogConfigAssociationsResponse,
 
     -- ** ListResolverQueryLogConfigs (Paginated)
-    ListResolverQueryLogConfigs,
+    ListResolverQueryLogConfigs (ListResolverQueryLogConfigs'),
     newListResolverQueryLogConfigs,
-    ListResolverQueryLogConfigsResponse,
+    ListResolverQueryLogConfigsResponse (ListResolverQueryLogConfigsResponse'),
     newListResolverQueryLogConfigsResponse,
 
     -- ** ListResolverRuleAssociations (Paginated)
-    ListResolverRuleAssociations,
+    ListResolverRuleAssociations (ListResolverRuleAssociations'),
     newListResolverRuleAssociations,
-    ListResolverRuleAssociationsResponse,
+    ListResolverRuleAssociationsResponse (ListResolverRuleAssociationsResponse'),
     newListResolverRuleAssociationsResponse,
 
     -- ** ListResolverRules (Paginated)
-    ListResolverRules,
+    ListResolverRules (ListResolverRules'),
     newListResolverRules,
-    ListResolverRulesResponse,
+    ListResolverRulesResponse (ListResolverRulesResponse'),
     newListResolverRulesResponse,
 
     -- ** ListTagsForResource (Paginated)
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** PutFirewallRuleGroupPolicy
-    PutFirewallRuleGroupPolicy,
+    PutFirewallRuleGroupPolicy (PutFirewallRuleGroupPolicy'),
     newPutFirewallRuleGroupPolicy,
-    PutFirewallRuleGroupPolicyResponse,
+    PutFirewallRuleGroupPolicyResponse (PutFirewallRuleGroupPolicyResponse'),
     newPutFirewallRuleGroupPolicyResponse,
 
     -- ** PutResolverQueryLogConfigPolicy
-    PutResolverQueryLogConfigPolicy,
+    PutResolverQueryLogConfigPolicy (PutResolverQueryLogConfigPolicy'),
     newPutResolverQueryLogConfigPolicy,
-    PutResolverQueryLogConfigPolicyResponse,
+    PutResolverQueryLogConfigPolicyResponse (PutResolverQueryLogConfigPolicyResponse'),
     newPutResolverQueryLogConfigPolicyResponse,
 
     -- ** PutResolverRulePolicy
-    PutResolverRulePolicy,
+    PutResolverRulePolicy (PutResolverRulePolicy'),
     newPutResolverRulePolicy,
-    PutResolverRulePolicyResponse,
+    PutResolverRulePolicyResponse (PutResolverRulePolicyResponse'),
     newPutResolverRulePolicyResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateFirewallConfig
-    UpdateFirewallConfig,
+    UpdateFirewallConfig (UpdateFirewallConfig'),
     newUpdateFirewallConfig,
-    UpdateFirewallConfigResponse,
+    UpdateFirewallConfigResponse (UpdateFirewallConfigResponse'),
     newUpdateFirewallConfigResponse,
 
     -- ** UpdateFirewallDomains
-    UpdateFirewallDomains,
+    UpdateFirewallDomains (UpdateFirewallDomains'),
     newUpdateFirewallDomains,
-    UpdateFirewallDomainsResponse,
+    UpdateFirewallDomainsResponse (UpdateFirewallDomainsResponse'),
     newUpdateFirewallDomainsResponse,
 
     -- ** UpdateFirewallRule
-    UpdateFirewallRule,
+    UpdateFirewallRule (UpdateFirewallRule'),
     newUpdateFirewallRule,
-    UpdateFirewallRuleResponse,
+    UpdateFirewallRuleResponse (UpdateFirewallRuleResponse'),
     newUpdateFirewallRuleResponse,
 
     -- ** UpdateFirewallRuleGroupAssociation
-    UpdateFirewallRuleGroupAssociation,
+    UpdateFirewallRuleGroupAssociation (UpdateFirewallRuleGroupAssociation'),
     newUpdateFirewallRuleGroupAssociation,
-    UpdateFirewallRuleGroupAssociationResponse,
+    UpdateFirewallRuleGroupAssociationResponse (UpdateFirewallRuleGroupAssociationResponse'),
     newUpdateFirewallRuleGroupAssociationResponse,
 
     -- ** UpdateResolverConfig
-    UpdateResolverConfig,
+    UpdateResolverConfig (UpdateResolverConfig'),
     newUpdateResolverConfig,
-    UpdateResolverConfigResponse,
+    UpdateResolverConfigResponse (UpdateResolverConfigResponse'),
     newUpdateResolverConfigResponse,
 
     -- ** UpdateResolverDnssecConfig
-    UpdateResolverDnssecConfig,
+    UpdateResolverDnssecConfig (UpdateResolverDnssecConfig'),
     newUpdateResolverDnssecConfig,
-    UpdateResolverDnssecConfigResponse,
+    UpdateResolverDnssecConfigResponse (UpdateResolverDnssecConfigResponse'),
     newUpdateResolverDnssecConfigResponse,
 
     -- ** UpdateResolverEndpoint
-    UpdateResolverEndpoint,
+    UpdateResolverEndpoint (UpdateResolverEndpoint'),
     newUpdateResolverEndpoint,
-    UpdateResolverEndpointResponse,
+    UpdateResolverEndpointResponse (UpdateResolverEndpointResponse'),
     newUpdateResolverEndpointResponse,
 
     -- ** UpdateResolverRule
-    UpdateResolverRule,
+    UpdateResolverRule (UpdateResolverRule'),
     newUpdateResolverRule,
-    UpdateResolverRuleResponse,
+    UpdateResolverRuleResponse (UpdateResolverRuleResponse'),
     newUpdateResolverRuleResponse,
 
     -- * Types
@@ -567,87 +567,87 @@ module Amazonka.Route53Resolver
     Validation (..),
 
     -- ** Filter
-    Filter,
+    Filter (Filter'),
     newFilter,
 
     -- ** FirewallConfig
-    FirewallConfig,
+    FirewallConfig (FirewallConfig'),
     newFirewallConfig,
 
     -- ** FirewallDomainList
-    FirewallDomainList,
+    FirewallDomainList (FirewallDomainList'),
     newFirewallDomainList,
 
     -- ** FirewallDomainListMetadata
-    FirewallDomainListMetadata,
+    FirewallDomainListMetadata (FirewallDomainListMetadata'),
     newFirewallDomainListMetadata,
 
     -- ** FirewallRule
-    FirewallRule,
+    FirewallRule (FirewallRule'),
     newFirewallRule,
 
     -- ** FirewallRuleGroup
-    FirewallRuleGroup,
+    FirewallRuleGroup (FirewallRuleGroup'),
     newFirewallRuleGroup,
 
     -- ** FirewallRuleGroupAssociation
-    FirewallRuleGroupAssociation,
+    FirewallRuleGroupAssociation (FirewallRuleGroupAssociation'),
     newFirewallRuleGroupAssociation,
 
     -- ** FirewallRuleGroupMetadata
-    FirewallRuleGroupMetadata,
+    FirewallRuleGroupMetadata (FirewallRuleGroupMetadata'),
     newFirewallRuleGroupMetadata,
 
     -- ** IpAddressRequest
-    IpAddressRequest,
+    IpAddressRequest (IpAddressRequest'),
     newIpAddressRequest,
 
     -- ** IpAddressResponse
-    IpAddressResponse,
+    IpAddressResponse (IpAddressResponse'),
     newIpAddressResponse,
 
     -- ** IpAddressUpdate
-    IpAddressUpdate,
+    IpAddressUpdate (IpAddressUpdate'),
     newIpAddressUpdate,
 
     -- ** ResolverConfig
-    ResolverConfig,
+    ResolverConfig (ResolverConfig'),
     newResolverConfig,
 
     -- ** ResolverDnssecConfig
-    ResolverDnssecConfig,
+    ResolverDnssecConfig (ResolverDnssecConfig'),
     newResolverDnssecConfig,
 
     -- ** ResolverEndpoint
-    ResolverEndpoint,
+    ResolverEndpoint (ResolverEndpoint'),
     newResolverEndpoint,
 
     -- ** ResolverQueryLogConfig
-    ResolverQueryLogConfig,
+    ResolverQueryLogConfig (ResolverQueryLogConfig'),
     newResolverQueryLogConfig,
 
     -- ** ResolverQueryLogConfigAssociation
-    ResolverQueryLogConfigAssociation,
+    ResolverQueryLogConfigAssociation (ResolverQueryLogConfigAssociation'),
     newResolverQueryLogConfigAssociation,
 
     -- ** ResolverRule
-    ResolverRule,
+    ResolverRule (ResolverRule'),
     newResolverRule,
 
     -- ** ResolverRuleAssociation
-    ResolverRuleAssociation,
+    ResolverRuleAssociation (ResolverRuleAssociation'),
     newResolverRuleAssociation,
 
     -- ** ResolverRuleConfig
-    ResolverRuleConfig,
+    ResolverRuleConfig (ResolverRuleConfig'),
     newResolverRuleConfig,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** TargetAddress
-    TargetAddress,
+    TargetAddress (TargetAddress'),
     newTargetAddress,
   )
 where

@@ -39,25 +39,25 @@ module Amazonka.WorkMailMessageFlow
     -- $operations
 
     -- ** GetRawMessageContent
-    GetRawMessageContent,
+    GetRawMessageContent (GetRawMessageContent'),
     newGetRawMessageContent,
-    GetRawMessageContentResponse,
+    GetRawMessageContentResponse (GetRawMessageContentResponse'),
     newGetRawMessageContentResponse,
 
     -- ** PutRawMessageContent
-    PutRawMessageContent,
+    PutRawMessageContent (PutRawMessageContent'),
     newPutRawMessageContent,
-    PutRawMessageContentResponse,
+    PutRawMessageContentResponse (PutRawMessageContentResponse'),
     newPutRawMessageContentResponse,
 
     -- * Types
 
     -- ** RawMessageContent
-    RawMessageContent,
+    RawMessageContent (RawMessageContent'),
     newRawMessageContent,
 
     -- ** S3Reference
-    S3Reference,
+    S3Reference (S3Reference'),
     newS3Reference,
   )
 where

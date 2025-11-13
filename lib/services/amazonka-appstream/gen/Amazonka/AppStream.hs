@@ -93,393 +93,393 @@ module Amazonka.AppStream
     -- $operations
 
     -- ** AssociateApplicationFleet
-    AssociateApplicationFleet,
+    AssociateApplicationFleet (AssociateApplicationFleet'),
     newAssociateApplicationFleet,
-    AssociateApplicationFleetResponse,
+    AssociateApplicationFleetResponse (AssociateApplicationFleetResponse'),
     newAssociateApplicationFleetResponse,
 
     -- ** AssociateApplicationToEntitlement
-    AssociateApplicationToEntitlement,
+    AssociateApplicationToEntitlement (AssociateApplicationToEntitlement'),
     newAssociateApplicationToEntitlement,
-    AssociateApplicationToEntitlementResponse,
+    AssociateApplicationToEntitlementResponse (AssociateApplicationToEntitlementResponse'),
     newAssociateApplicationToEntitlementResponse,
 
     -- ** AssociateFleet
-    AssociateFleet,
+    AssociateFleet (AssociateFleet'),
     newAssociateFleet,
-    AssociateFleetResponse,
+    AssociateFleetResponse (AssociateFleetResponse'),
     newAssociateFleetResponse,
 
     -- ** BatchAssociateUserStack
-    BatchAssociateUserStack,
+    BatchAssociateUserStack (BatchAssociateUserStack'),
     newBatchAssociateUserStack,
-    BatchAssociateUserStackResponse,
+    BatchAssociateUserStackResponse (BatchAssociateUserStackResponse'),
     newBatchAssociateUserStackResponse,
 
     -- ** BatchDisassociateUserStack
-    BatchDisassociateUserStack,
+    BatchDisassociateUserStack (BatchDisassociateUserStack'),
     newBatchDisassociateUserStack,
-    BatchDisassociateUserStackResponse,
+    BatchDisassociateUserStackResponse (BatchDisassociateUserStackResponse'),
     newBatchDisassociateUserStackResponse,
 
     -- ** CopyImage
-    CopyImage,
+    CopyImage (CopyImage'),
     newCopyImage,
-    CopyImageResponse,
+    CopyImageResponse (CopyImageResponse'),
     newCopyImageResponse,
 
     -- ** CreateAppBlock
-    CreateAppBlock,
+    CreateAppBlock (CreateAppBlock'),
     newCreateAppBlock,
-    CreateAppBlockResponse,
+    CreateAppBlockResponse (CreateAppBlockResponse'),
     newCreateAppBlockResponse,
 
     -- ** CreateApplication
-    CreateApplication,
+    CreateApplication (CreateApplication'),
     newCreateApplication,
-    CreateApplicationResponse,
+    CreateApplicationResponse (CreateApplicationResponse'),
     newCreateApplicationResponse,
 
     -- ** CreateDirectoryConfig
-    CreateDirectoryConfig,
+    CreateDirectoryConfig (CreateDirectoryConfig'),
     newCreateDirectoryConfig,
-    CreateDirectoryConfigResponse,
+    CreateDirectoryConfigResponse (CreateDirectoryConfigResponse'),
     newCreateDirectoryConfigResponse,
 
     -- ** CreateEntitlement
-    CreateEntitlement,
+    CreateEntitlement (CreateEntitlement'),
     newCreateEntitlement,
-    CreateEntitlementResponse,
+    CreateEntitlementResponse (CreateEntitlementResponse'),
     newCreateEntitlementResponse,
 
     -- ** CreateFleet
-    CreateFleet,
+    CreateFleet (CreateFleet'),
     newCreateFleet,
-    CreateFleetResponse,
+    CreateFleetResponse (CreateFleetResponse'),
     newCreateFleetResponse,
 
     -- ** CreateImageBuilder
-    CreateImageBuilder,
+    CreateImageBuilder (CreateImageBuilder'),
     newCreateImageBuilder,
-    CreateImageBuilderResponse,
+    CreateImageBuilderResponse (CreateImageBuilderResponse'),
     newCreateImageBuilderResponse,
 
     -- ** CreateImageBuilderStreamingURL
-    CreateImageBuilderStreamingURL,
+    CreateImageBuilderStreamingURL (CreateImageBuilderStreamingURL'),
     newCreateImageBuilderStreamingURL,
-    CreateImageBuilderStreamingURLResponse,
+    CreateImageBuilderStreamingURLResponse (CreateImageBuilderStreamingURLResponse'),
     newCreateImageBuilderStreamingURLResponse,
 
     -- ** CreateStack
-    CreateStack,
+    CreateStack (CreateStack'),
     newCreateStack,
-    CreateStackResponse,
+    CreateStackResponse (CreateStackResponse'),
     newCreateStackResponse,
 
     -- ** CreateStreamingURL
-    CreateStreamingURL,
+    CreateStreamingURL (CreateStreamingURL'),
     newCreateStreamingURL,
-    CreateStreamingURLResponse,
+    CreateStreamingURLResponse (CreateStreamingURLResponse'),
     newCreateStreamingURLResponse,
 
     -- ** CreateUpdatedImage
-    CreateUpdatedImage,
+    CreateUpdatedImage (CreateUpdatedImage'),
     newCreateUpdatedImage,
-    CreateUpdatedImageResponse,
+    CreateUpdatedImageResponse (CreateUpdatedImageResponse'),
     newCreateUpdatedImageResponse,
 
     -- ** CreateUsageReportSubscription
-    CreateUsageReportSubscription,
+    CreateUsageReportSubscription (CreateUsageReportSubscription'),
     newCreateUsageReportSubscription,
-    CreateUsageReportSubscriptionResponse,
+    CreateUsageReportSubscriptionResponse (CreateUsageReportSubscriptionResponse'),
     newCreateUsageReportSubscriptionResponse,
 
     -- ** CreateUser
-    CreateUser,
+    CreateUser (CreateUser'),
     newCreateUser,
-    CreateUserResponse,
+    CreateUserResponse (CreateUserResponse'),
     newCreateUserResponse,
 
     -- ** DeleteAppBlock
-    DeleteAppBlock,
+    DeleteAppBlock (DeleteAppBlock'),
     newDeleteAppBlock,
-    DeleteAppBlockResponse,
+    DeleteAppBlockResponse (DeleteAppBlockResponse'),
     newDeleteAppBlockResponse,
 
     -- ** DeleteApplication
-    DeleteApplication,
+    DeleteApplication (DeleteApplication'),
     newDeleteApplication,
-    DeleteApplicationResponse,
+    DeleteApplicationResponse (DeleteApplicationResponse'),
     newDeleteApplicationResponse,
 
     -- ** DeleteDirectoryConfig
-    DeleteDirectoryConfig,
+    DeleteDirectoryConfig (DeleteDirectoryConfig'),
     newDeleteDirectoryConfig,
-    DeleteDirectoryConfigResponse,
+    DeleteDirectoryConfigResponse (DeleteDirectoryConfigResponse'),
     newDeleteDirectoryConfigResponse,
 
     -- ** DeleteEntitlement
-    DeleteEntitlement,
+    DeleteEntitlement (DeleteEntitlement'),
     newDeleteEntitlement,
-    DeleteEntitlementResponse,
+    DeleteEntitlementResponse (DeleteEntitlementResponse'),
     newDeleteEntitlementResponse,
 
     -- ** DeleteFleet
-    DeleteFleet,
+    DeleteFleet (DeleteFleet'),
     newDeleteFleet,
-    DeleteFleetResponse,
+    DeleteFleetResponse (DeleteFleetResponse'),
     newDeleteFleetResponse,
 
     -- ** DeleteImage
-    DeleteImage,
+    DeleteImage (DeleteImage'),
     newDeleteImage,
-    DeleteImageResponse,
+    DeleteImageResponse (DeleteImageResponse'),
     newDeleteImageResponse,
 
     -- ** DeleteImageBuilder
-    DeleteImageBuilder,
+    DeleteImageBuilder (DeleteImageBuilder'),
     newDeleteImageBuilder,
-    DeleteImageBuilderResponse,
+    DeleteImageBuilderResponse (DeleteImageBuilderResponse'),
     newDeleteImageBuilderResponse,
 
     -- ** DeleteImagePermissions
-    DeleteImagePermissions,
+    DeleteImagePermissions (DeleteImagePermissions'),
     newDeleteImagePermissions,
-    DeleteImagePermissionsResponse,
+    DeleteImagePermissionsResponse (DeleteImagePermissionsResponse'),
     newDeleteImagePermissionsResponse,
 
     -- ** DeleteStack
-    DeleteStack,
+    DeleteStack (DeleteStack'),
     newDeleteStack,
-    DeleteStackResponse,
+    DeleteStackResponse (DeleteStackResponse'),
     newDeleteStackResponse,
 
     -- ** DeleteUsageReportSubscription
-    DeleteUsageReportSubscription,
+    DeleteUsageReportSubscription (DeleteUsageReportSubscription'),
     newDeleteUsageReportSubscription,
-    DeleteUsageReportSubscriptionResponse,
+    DeleteUsageReportSubscriptionResponse (DeleteUsageReportSubscriptionResponse'),
     newDeleteUsageReportSubscriptionResponse,
 
     -- ** DeleteUser
-    DeleteUser,
+    DeleteUser (DeleteUser'),
     newDeleteUser,
-    DeleteUserResponse,
+    DeleteUserResponse (DeleteUserResponse'),
     newDeleteUserResponse,
 
     -- ** DescribeAppBlocks
-    DescribeAppBlocks,
+    DescribeAppBlocks (DescribeAppBlocks'),
     newDescribeAppBlocks,
-    DescribeAppBlocksResponse,
+    DescribeAppBlocksResponse (DescribeAppBlocksResponse'),
     newDescribeAppBlocksResponse,
 
     -- ** DescribeApplicationFleetAssociations
-    DescribeApplicationFleetAssociations,
+    DescribeApplicationFleetAssociations (DescribeApplicationFleetAssociations'),
     newDescribeApplicationFleetAssociations,
-    DescribeApplicationFleetAssociationsResponse,
+    DescribeApplicationFleetAssociationsResponse (DescribeApplicationFleetAssociationsResponse'),
     newDescribeApplicationFleetAssociationsResponse,
 
     -- ** DescribeApplications
-    DescribeApplications,
+    DescribeApplications (DescribeApplications'),
     newDescribeApplications,
-    DescribeApplicationsResponse,
+    DescribeApplicationsResponse (DescribeApplicationsResponse'),
     newDescribeApplicationsResponse,
 
     -- ** DescribeDirectoryConfigs (Paginated)
-    DescribeDirectoryConfigs,
+    DescribeDirectoryConfigs (DescribeDirectoryConfigs'),
     newDescribeDirectoryConfigs,
-    DescribeDirectoryConfigsResponse,
+    DescribeDirectoryConfigsResponse (DescribeDirectoryConfigsResponse'),
     newDescribeDirectoryConfigsResponse,
 
     -- ** DescribeEntitlements
-    DescribeEntitlements,
+    DescribeEntitlements (DescribeEntitlements'),
     newDescribeEntitlements,
-    DescribeEntitlementsResponse,
+    DescribeEntitlementsResponse (DescribeEntitlementsResponse'),
     newDescribeEntitlementsResponse,
 
     -- ** DescribeFleets (Paginated)
-    DescribeFleets,
+    DescribeFleets (DescribeFleets'),
     newDescribeFleets,
-    DescribeFleetsResponse,
+    DescribeFleetsResponse (DescribeFleetsResponse'),
     newDescribeFleetsResponse,
 
     -- ** DescribeImageBuilders (Paginated)
-    DescribeImageBuilders,
+    DescribeImageBuilders (DescribeImageBuilders'),
     newDescribeImageBuilders,
-    DescribeImageBuildersResponse,
+    DescribeImageBuildersResponse (DescribeImageBuildersResponse'),
     newDescribeImageBuildersResponse,
 
     -- ** DescribeImagePermissions
-    DescribeImagePermissions,
+    DescribeImagePermissions (DescribeImagePermissions'),
     newDescribeImagePermissions,
-    DescribeImagePermissionsResponse,
+    DescribeImagePermissionsResponse (DescribeImagePermissionsResponse'),
     newDescribeImagePermissionsResponse,
 
     -- ** DescribeImages (Paginated)
-    DescribeImages,
+    DescribeImages (DescribeImages'),
     newDescribeImages,
-    DescribeImagesResponse,
+    DescribeImagesResponse (DescribeImagesResponse'),
     newDescribeImagesResponse,
 
     -- ** DescribeSessions (Paginated)
-    DescribeSessions,
+    DescribeSessions (DescribeSessions'),
     newDescribeSessions,
-    DescribeSessionsResponse,
+    DescribeSessionsResponse (DescribeSessionsResponse'),
     newDescribeSessionsResponse,
 
     -- ** DescribeStacks (Paginated)
-    DescribeStacks,
+    DescribeStacks (DescribeStacks'),
     newDescribeStacks,
-    DescribeStacksResponse,
+    DescribeStacksResponse (DescribeStacksResponse'),
     newDescribeStacksResponse,
 
     -- ** DescribeUsageReportSubscriptions
-    DescribeUsageReportSubscriptions,
+    DescribeUsageReportSubscriptions (DescribeUsageReportSubscriptions'),
     newDescribeUsageReportSubscriptions,
-    DescribeUsageReportSubscriptionsResponse,
+    DescribeUsageReportSubscriptionsResponse (DescribeUsageReportSubscriptionsResponse'),
     newDescribeUsageReportSubscriptionsResponse,
 
     -- ** DescribeUserStackAssociations (Paginated)
-    DescribeUserStackAssociations,
+    DescribeUserStackAssociations (DescribeUserStackAssociations'),
     newDescribeUserStackAssociations,
-    DescribeUserStackAssociationsResponse,
+    DescribeUserStackAssociationsResponse (DescribeUserStackAssociationsResponse'),
     newDescribeUserStackAssociationsResponse,
 
     -- ** DescribeUsers (Paginated)
-    DescribeUsers,
+    DescribeUsers (DescribeUsers'),
     newDescribeUsers,
-    DescribeUsersResponse,
+    DescribeUsersResponse (DescribeUsersResponse'),
     newDescribeUsersResponse,
 
     -- ** DisableUser
-    DisableUser,
+    DisableUser (DisableUser'),
     newDisableUser,
-    DisableUserResponse,
+    DisableUserResponse (DisableUserResponse'),
     newDisableUserResponse,
 
     -- ** DisassociateApplicationFleet
-    DisassociateApplicationFleet,
+    DisassociateApplicationFleet (DisassociateApplicationFleet'),
     newDisassociateApplicationFleet,
-    DisassociateApplicationFleetResponse,
+    DisassociateApplicationFleetResponse (DisassociateApplicationFleetResponse'),
     newDisassociateApplicationFleetResponse,
 
     -- ** DisassociateApplicationFromEntitlement
-    DisassociateApplicationFromEntitlement,
+    DisassociateApplicationFromEntitlement (DisassociateApplicationFromEntitlement'),
     newDisassociateApplicationFromEntitlement,
-    DisassociateApplicationFromEntitlementResponse,
+    DisassociateApplicationFromEntitlementResponse (DisassociateApplicationFromEntitlementResponse'),
     newDisassociateApplicationFromEntitlementResponse,
 
     -- ** DisassociateFleet
-    DisassociateFleet,
+    DisassociateFleet (DisassociateFleet'),
     newDisassociateFleet,
-    DisassociateFleetResponse,
+    DisassociateFleetResponse (DisassociateFleetResponse'),
     newDisassociateFleetResponse,
 
     -- ** EnableUser
-    EnableUser,
+    EnableUser (EnableUser'),
     newEnableUser,
-    EnableUserResponse,
+    EnableUserResponse (EnableUserResponse'),
     newEnableUserResponse,
 
     -- ** ExpireSession
-    ExpireSession,
+    ExpireSession (ExpireSession'),
     newExpireSession,
-    ExpireSessionResponse,
+    ExpireSessionResponse (ExpireSessionResponse'),
     newExpireSessionResponse,
 
     -- ** ListAssociatedFleets (Paginated)
-    ListAssociatedFleets,
+    ListAssociatedFleets (ListAssociatedFleets'),
     newListAssociatedFleets,
-    ListAssociatedFleetsResponse,
+    ListAssociatedFleetsResponse (ListAssociatedFleetsResponse'),
     newListAssociatedFleetsResponse,
 
     -- ** ListAssociatedStacks (Paginated)
-    ListAssociatedStacks,
+    ListAssociatedStacks (ListAssociatedStacks'),
     newListAssociatedStacks,
-    ListAssociatedStacksResponse,
+    ListAssociatedStacksResponse (ListAssociatedStacksResponse'),
     newListAssociatedStacksResponse,
 
     -- ** ListEntitledApplications
-    ListEntitledApplications,
+    ListEntitledApplications (ListEntitledApplications'),
     newListEntitledApplications,
-    ListEntitledApplicationsResponse,
+    ListEntitledApplicationsResponse (ListEntitledApplicationsResponse'),
     newListEntitledApplicationsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** StartFleet
-    StartFleet,
+    StartFleet (StartFleet'),
     newStartFleet,
-    StartFleetResponse,
+    StartFleetResponse (StartFleetResponse'),
     newStartFleetResponse,
 
     -- ** StartImageBuilder
-    StartImageBuilder,
+    StartImageBuilder (StartImageBuilder'),
     newStartImageBuilder,
-    StartImageBuilderResponse,
+    StartImageBuilderResponse (StartImageBuilderResponse'),
     newStartImageBuilderResponse,
 
     -- ** StopFleet
-    StopFleet,
+    StopFleet (StopFleet'),
     newStopFleet,
-    StopFleetResponse,
+    StopFleetResponse (StopFleetResponse'),
     newStopFleetResponse,
 
     -- ** StopImageBuilder
-    StopImageBuilder,
+    StopImageBuilder (StopImageBuilder'),
     newStopImageBuilder,
-    StopImageBuilderResponse,
+    StopImageBuilderResponse (StopImageBuilderResponse'),
     newStopImageBuilderResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateApplication
-    UpdateApplication,
+    UpdateApplication (UpdateApplication'),
     newUpdateApplication,
-    UpdateApplicationResponse,
+    UpdateApplicationResponse (UpdateApplicationResponse'),
     newUpdateApplicationResponse,
 
     -- ** UpdateDirectoryConfig
-    UpdateDirectoryConfig,
+    UpdateDirectoryConfig (UpdateDirectoryConfig'),
     newUpdateDirectoryConfig,
-    UpdateDirectoryConfigResponse,
+    UpdateDirectoryConfigResponse (UpdateDirectoryConfigResponse'),
     newUpdateDirectoryConfigResponse,
 
     -- ** UpdateEntitlement
-    UpdateEntitlement,
+    UpdateEntitlement (UpdateEntitlement'),
     newUpdateEntitlement,
-    UpdateEntitlementResponse,
+    UpdateEntitlementResponse (UpdateEntitlementResponse'),
     newUpdateEntitlementResponse,
 
     -- ** UpdateFleet
-    UpdateFleet,
+    UpdateFleet (UpdateFleet'),
     newUpdateFleet,
-    UpdateFleetResponse,
+    UpdateFleetResponse (UpdateFleetResponse'),
     newUpdateFleetResponse,
 
     -- ** UpdateImagePermissions
-    UpdateImagePermissions,
+    UpdateImagePermissions (UpdateImagePermissions'),
     newUpdateImagePermissions,
-    UpdateImagePermissionsResponse,
+    UpdateImagePermissionsResponse (UpdateImagePermissionsResponse'),
     newUpdateImagePermissionsResponse,
 
     -- ** UpdateStack
-    UpdateStack,
+    UpdateStack (UpdateStack'),
     newUpdateStack,
-    UpdateStackResponse,
+    UpdateStackResponse (UpdateStackResponse'),
     newUpdateStackResponse,
 
     -- * Types
@@ -569,159 +569,159 @@ module Amazonka.AppStream
     VisibilityType (..),
 
     -- ** AccessEndpoint
-    AccessEndpoint,
+    AccessEndpoint (AccessEndpoint'),
     newAccessEndpoint,
 
     -- ** AppBlock
-    AppBlock,
+    AppBlock (AppBlock'),
     newAppBlock,
 
     -- ** Application
-    Application,
+    Application (Application'),
     newApplication,
 
     -- ** ApplicationFleetAssociation
-    ApplicationFleetAssociation,
+    ApplicationFleetAssociation (ApplicationFleetAssociation'),
     newApplicationFleetAssociation,
 
     -- ** ApplicationSettings
-    ApplicationSettings,
+    ApplicationSettings (ApplicationSettings'),
     newApplicationSettings,
 
     -- ** ApplicationSettingsResponse
-    ApplicationSettingsResponse,
+    ApplicationSettingsResponse (ApplicationSettingsResponse'),
     newApplicationSettingsResponse,
 
     -- ** CertificateBasedAuthProperties
-    CertificateBasedAuthProperties,
+    CertificateBasedAuthProperties (CertificateBasedAuthProperties'),
     newCertificateBasedAuthProperties,
 
     -- ** ComputeCapacity
-    ComputeCapacity,
+    ComputeCapacity (ComputeCapacity'),
     newComputeCapacity,
 
     -- ** ComputeCapacityStatus
-    ComputeCapacityStatus,
+    ComputeCapacityStatus (ComputeCapacityStatus'),
     newComputeCapacityStatus,
 
     -- ** DirectoryConfig
-    DirectoryConfig,
+    DirectoryConfig (DirectoryConfig'),
     newDirectoryConfig,
 
     -- ** DomainJoinInfo
-    DomainJoinInfo,
+    DomainJoinInfo (DomainJoinInfo'),
     newDomainJoinInfo,
 
     -- ** EntitledApplication
-    EntitledApplication,
+    EntitledApplication (EntitledApplication'),
     newEntitledApplication,
 
     -- ** Entitlement
-    Entitlement,
+    Entitlement (Entitlement'),
     newEntitlement,
 
     -- ** EntitlementAttribute
-    EntitlementAttribute,
+    EntitlementAttribute (EntitlementAttribute'),
     newEntitlementAttribute,
 
     -- ** Fleet
-    Fleet,
+    Fleet (Fleet'),
     newFleet,
 
     -- ** FleetError
-    FleetError,
+    FleetError (FleetError'),
     newFleetError,
 
     -- ** Image
-    Image,
+    Image (Image'),
     newImage,
 
     -- ** ImageBuilder
-    ImageBuilder,
+    ImageBuilder (ImageBuilder'),
     newImageBuilder,
 
     -- ** ImageBuilderStateChangeReason
-    ImageBuilderStateChangeReason,
+    ImageBuilderStateChangeReason (ImageBuilderStateChangeReason'),
     newImageBuilderStateChangeReason,
 
     -- ** ImagePermissions
-    ImagePermissions,
+    ImagePermissions (ImagePermissions'),
     newImagePermissions,
 
     -- ** ImageStateChangeReason
-    ImageStateChangeReason,
+    ImageStateChangeReason (ImageStateChangeReason'),
     newImageStateChangeReason,
 
     -- ** LastReportGenerationExecutionError
-    LastReportGenerationExecutionError,
+    LastReportGenerationExecutionError (LastReportGenerationExecutionError'),
     newLastReportGenerationExecutionError,
 
     -- ** NetworkAccessConfiguration
-    NetworkAccessConfiguration,
+    NetworkAccessConfiguration (NetworkAccessConfiguration'),
     newNetworkAccessConfiguration,
 
     -- ** ResourceError
-    ResourceError,
+    ResourceError (ResourceError'),
     newResourceError,
 
     -- ** S3Location
-    S3Location,
+    S3Location (S3Location'),
     newS3Location,
 
     -- ** ScriptDetails
-    ScriptDetails,
+    ScriptDetails (ScriptDetails'),
     newScriptDetails,
 
     -- ** ServiceAccountCredentials
-    ServiceAccountCredentials,
+    ServiceAccountCredentials (ServiceAccountCredentials'),
     newServiceAccountCredentials,
 
     -- ** Session
-    Session,
+    Session (Session'),
     newSession,
 
     -- ** SharedImagePermissions
-    SharedImagePermissions,
+    SharedImagePermissions (SharedImagePermissions'),
     newSharedImagePermissions,
 
     -- ** Stack
-    Stack,
+    Stack (Stack'),
     newStack,
 
     -- ** StackError
-    StackError,
+    StackError (StackError'),
     newStackError,
 
     -- ** StorageConnector
-    StorageConnector,
+    StorageConnector (StorageConnector'),
     newStorageConnector,
 
     -- ** StreamingExperienceSettings
-    StreamingExperienceSettings,
+    StreamingExperienceSettings (StreamingExperienceSettings'),
     newStreamingExperienceSettings,
 
     -- ** UsageReportSubscription
-    UsageReportSubscription,
+    UsageReportSubscription (UsageReportSubscription'),
     newUsageReportSubscription,
 
     -- ** User
-    User,
+    User (User'),
     newUser,
 
     -- ** UserSetting
-    UserSetting,
+    UserSetting (UserSetting'),
     newUserSetting,
 
     -- ** UserStackAssociation
-    UserStackAssociation,
+    UserStackAssociation (UserStackAssociation'),
     newUserStackAssociation,
 
     -- ** UserStackAssociationError
-    UserStackAssociationError,
+    UserStackAssociationError (UserStackAssociationError'),
     newUserStackAssociationError,
 
     -- ** VpcConfig
-    VpcConfig,
+    VpcConfig (VpcConfig'),
     newVpcConfig,
   )
 where

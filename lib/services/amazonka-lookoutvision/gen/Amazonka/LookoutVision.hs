@@ -56,135 +56,135 @@ module Amazonka.LookoutVision
     -- $operations
 
     -- ** CreateDataset
-    CreateDataset,
+    CreateDataset (CreateDataset'),
     newCreateDataset,
-    CreateDatasetResponse,
+    CreateDatasetResponse (CreateDatasetResponse'),
     newCreateDatasetResponse,
 
     -- ** CreateModel
-    CreateModel,
+    CreateModel (CreateModel'),
     newCreateModel,
-    CreateModelResponse,
+    CreateModelResponse (CreateModelResponse'),
     newCreateModelResponse,
 
     -- ** CreateProject
-    CreateProject,
+    CreateProject (CreateProject'),
     newCreateProject,
-    CreateProjectResponse,
+    CreateProjectResponse (CreateProjectResponse'),
     newCreateProjectResponse,
 
     -- ** DeleteDataset
-    DeleteDataset,
+    DeleteDataset (DeleteDataset'),
     newDeleteDataset,
-    DeleteDatasetResponse,
+    DeleteDatasetResponse (DeleteDatasetResponse'),
     newDeleteDatasetResponse,
 
     -- ** DeleteModel
-    DeleteModel,
+    DeleteModel (DeleteModel'),
     newDeleteModel,
-    DeleteModelResponse,
+    DeleteModelResponse (DeleteModelResponse'),
     newDeleteModelResponse,
 
     -- ** DeleteProject
-    DeleteProject,
+    DeleteProject (DeleteProject'),
     newDeleteProject,
-    DeleteProjectResponse,
+    DeleteProjectResponse (DeleteProjectResponse'),
     newDeleteProjectResponse,
 
     -- ** DescribeDataset
-    DescribeDataset,
+    DescribeDataset (DescribeDataset'),
     newDescribeDataset,
-    DescribeDatasetResponse,
+    DescribeDatasetResponse (DescribeDatasetResponse'),
     newDescribeDatasetResponse,
 
     -- ** DescribeModel
-    DescribeModel,
+    DescribeModel (DescribeModel'),
     newDescribeModel,
-    DescribeModelResponse,
+    DescribeModelResponse (DescribeModelResponse'),
     newDescribeModelResponse,
 
     -- ** DescribeModelPackagingJob
-    DescribeModelPackagingJob,
+    DescribeModelPackagingJob (DescribeModelPackagingJob'),
     newDescribeModelPackagingJob,
-    DescribeModelPackagingJobResponse,
+    DescribeModelPackagingJobResponse (DescribeModelPackagingJobResponse'),
     newDescribeModelPackagingJobResponse,
 
     -- ** DescribeProject
-    DescribeProject,
+    DescribeProject (DescribeProject'),
     newDescribeProject,
-    DescribeProjectResponse,
+    DescribeProjectResponse (DescribeProjectResponse'),
     newDescribeProjectResponse,
 
     -- ** DetectAnomalies
-    DetectAnomalies,
+    DetectAnomalies (DetectAnomalies'),
     newDetectAnomalies,
-    DetectAnomaliesResponse,
+    DetectAnomaliesResponse (DetectAnomaliesResponse'),
     newDetectAnomaliesResponse,
 
     -- ** ListDatasetEntries (Paginated)
-    ListDatasetEntries,
+    ListDatasetEntries (ListDatasetEntries'),
     newListDatasetEntries,
-    ListDatasetEntriesResponse,
+    ListDatasetEntriesResponse (ListDatasetEntriesResponse'),
     newListDatasetEntriesResponse,
 
     -- ** ListModelPackagingJobs (Paginated)
-    ListModelPackagingJobs,
+    ListModelPackagingJobs (ListModelPackagingJobs'),
     newListModelPackagingJobs,
-    ListModelPackagingJobsResponse,
+    ListModelPackagingJobsResponse (ListModelPackagingJobsResponse'),
     newListModelPackagingJobsResponse,
 
     -- ** ListModels (Paginated)
-    ListModels,
+    ListModels (ListModels'),
     newListModels,
-    ListModelsResponse,
+    ListModelsResponse (ListModelsResponse'),
     newListModelsResponse,
 
     -- ** ListProjects (Paginated)
-    ListProjects,
+    ListProjects (ListProjects'),
     newListProjects,
-    ListProjectsResponse,
+    ListProjectsResponse (ListProjectsResponse'),
     newListProjectsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** StartModel
-    StartModel,
+    StartModel (StartModel'),
     newStartModel,
-    StartModelResponse,
+    StartModelResponse (StartModelResponse'),
     newStartModelResponse,
 
     -- ** StartModelPackagingJob
-    StartModelPackagingJob,
+    StartModelPackagingJob (StartModelPackagingJob'),
     newStartModelPackagingJob,
-    StartModelPackagingJobResponse,
+    StartModelPackagingJobResponse (StartModelPackagingJobResponse'),
     newStartModelPackagingJobResponse,
 
     -- ** StopModel
-    StopModel,
+    StopModel (StopModel'),
     newStopModel,
-    StopModelResponse,
+    StopModelResponse (StopModelResponse'),
     newStopModelResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateDatasetEntries
-    UpdateDatasetEntries,
+    UpdateDatasetEntries (UpdateDatasetEntries'),
     newUpdateDatasetEntries,
-    UpdateDatasetEntriesResponse,
+    UpdateDatasetEntriesResponse (UpdateDatasetEntriesResponse'),
     newUpdateDatasetEntriesResponse,
 
     -- * Types
@@ -214,107 +214,107 @@ module Amazonka.LookoutVision
     TargetPlatformOs (..),
 
     -- ** Anomaly
-    Anomaly,
+    Anomaly (Anomaly'),
     newAnomaly,
 
     -- ** DatasetDescription
-    DatasetDescription,
+    DatasetDescription (DatasetDescription'),
     newDatasetDescription,
 
     -- ** DatasetGroundTruthManifest
-    DatasetGroundTruthManifest,
+    DatasetGroundTruthManifest (DatasetGroundTruthManifest'),
     newDatasetGroundTruthManifest,
 
     -- ** DatasetImageStats
-    DatasetImageStats,
+    DatasetImageStats (DatasetImageStats'),
     newDatasetImageStats,
 
     -- ** DatasetMetadata
-    DatasetMetadata,
+    DatasetMetadata (DatasetMetadata'),
     newDatasetMetadata,
 
     -- ** DatasetSource
-    DatasetSource,
+    DatasetSource (DatasetSource'),
     newDatasetSource,
 
     -- ** DetectAnomalyResult
-    DetectAnomalyResult,
+    DetectAnomalyResult (DetectAnomalyResult'),
     newDetectAnomalyResult,
 
     -- ** GreengrassConfiguration
-    GreengrassConfiguration,
+    GreengrassConfiguration (GreengrassConfiguration'),
     newGreengrassConfiguration,
 
     -- ** GreengrassOutputDetails
-    GreengrassOutputDetails,
+    GreengrassOutputDetails (GreengrassOutputDetails'),
     newGreengrassOutputDetails,
 
     -- ** ImageSource
-    ImageSource,
+    ImageSource (ImageSource'),
     newImageSource,
 
     -- ** InputS3Object
-    InputS3Object,
+    InputS3Object (InputS3Object'),
     newInputS3Object,
 
     -- ** ModelDescription
-    ModelDescription,
+    ModelDescription (ModelDescription'),
     newModelDescription,
 
     -- ** ModelMetadata
-    ModelMetadata,
+    ModelMetadata (ModelMetadata'),
     newModelMetadata,
 
     -- ** ModelPackagingConfiguration
-    ModelPackagingConfiguration,
+    ModelPackagingConfiguration (ModelPackagingConfiguration'),
     newModelPackagingConfiguration,
 
     -- ** ModelPackagingDescription
-    ModelPackagingDescription,
+    ModelPackagingDescription (ModelPackagingDescription'),
     newModelPackagingDescription,
 
     -- ** ModelPackagingJobMetadata
-    ModelPackagingJobMetadata,
+    ModelPackagingJobMetadata (ModelPackagingJobMetadata'),
     newModelPackagingJobMetadata,
 
     -- ** ModelPackagingOutputDetails
-    ModelPackagingOutputDetails,
+    ModelPackagingOutputDetails (ModelPackagingOutputDetails'),
     newModelPackagingOutputDetails,
 
     -- ** ModelPerformance
-    ModelPerformance,
+    ModelPerformance (ModelPerformance'),
     newModelPerformance,
 
     -- ** OutputConfig
-    OutputConfig,
+    OutputConfig (OutputConfig'),
     newOutputConfig,
 
     -- ** OutputS3Object
-    OutputS3Object,
+    OutputS3Object (OutputS3Object'),
     newOutputS3Object,
 
     -- ** PixelAnomaly
-    PixelAnomaly,
+    PixelAnomaly (PixelAnomaly'),
     newPixelAnomaly,
 
     -- ** ProjectDescription
-    ProjectDescription,
+    ProjectDescription (ProjectDescription'),
     newProjectDescription,
 
     -- ** ProjectMetadata
-    ProjectMetadata,
+    ProjectMetadata (ProjectMetadata'),
     newProjectMetadata,
 
     -- ** S3Location
-    S3Location,
+    S3Location (S3Location'),
     newS3Location,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** TargetPlatform
-    TargetPlatform,
+    TargetPlatform (TargetPlatform'),
     newTargetPlatform,
   )
 where

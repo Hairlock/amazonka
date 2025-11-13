@@ -45,147 +45,147 @@ module Amazonka.ServiceCatalogAppRegistry
     -- $operations
 
     -- ** AssociateAttributeGroup
-    AssociateAttributeGroup,
+    AssociateAttributeGroup (AssociateAttributeGroup'),
     newAssociateAttributeGroup,
-    AssociateAttributeGroupResponse,
+    AssociateAttributeGroupResponse (AssociateAttributeGroupResponse'),
     newAssociateAttributeGroupResponse,
 
     -- ** AssociateResource
-    AssociateResource,
+    AssociateResource (AssociateResource'),
     newAssociateResource,
-    AssociateResourceResponse,
+    AssociateResourceResponse (AssociateResourceResponse'),
     newAssociateResourceResponse,
 
     -- ** CreateApplication
-    CreateApplication,
+    CreateApplication (CreateApplication'),
     newCreateApplication,
-    CreateApplicationResponse,
+    CreateApplicationResponse (CreateApplicationResponse'),
     newCreateApplicationResponse,
 
     -- ** CreateAttributeGroup
-    CreateAttributeGroup,
+    CreateAttributeGroup (CreateAttributeGroup'),
     newCreateAttributeGroup,
-    CreateAttributeGroupResponse,
+    CreateAttributeGroupResponse (CreateAttributeGroupResponse'),
     newCreateAttributeGroupResponse,
 
     -- ** DeleteApplication
-    DeleteApplication,
+    DeleteApplication (DeleteApplication'),
     newDeleteApplication,
-    DeleteApplicationResponse,
+    DeleteApplicationResponse (DeleteApplicationResponse'),
     newDeleteApplicationResponse,
 
     -- ** DeleteAttributeGroup
-    DeleteAttributeGroup,
+    DeleteAttributeGroup (DeleteAttributeGroup'),
     newDeleteAttributeGroup,
-    DeleteAttributeGroupResponse,
+    DeleteAttributeGroupResponse (DeleteAttributeGroupResponse'),
     newDeleteAttributeGroupResponse,
 
     -- ** DisassociateAttributeGroup
-    DisassociateAttributeGroup,
+    DisassociateAttributeGroup (DisassociateAttributeGroup'),
     newDisassociateAttributeGroup,
-    DisassociateAttributeGroupResponse,
+    DisassociateAttributeGroupResponse (DisassociateAttributeGroupResponse'),
     newDisassociateAttributeGroupResponse,
 
     -- ** DisassociateResource
-    DisassociateResource,
+    DisassociateResource (DisassociateResource'),
     newDisassociateResource,
-    DisassociateResourceResponse,
+    DisassociateResourceResponse (DisassociateResourceResponse'),
     newDisassociateResourceResponse,
 
     -- ** GetApplication
-    GetApplication,
+    GetApplication (GetApplication'),
     newGetApplication,
-    GetApplicationResponse,
+    GetApplicationResponse (GetApplicationResponse'),
     newGetApplicationResponse,
 
     -- ** GetAssociatedResource
-    GetAssociatedResource,
+    GetAssociatedResource (GetAssociatedResource'),
     newGetAssociatedResource,
-    GetAssociatedResourceResponse,
+    GetAssociatedResourceResponse (GetAssociatedResourceResponse'),
     newGetAssociatedResourceResponse,
 
     -- ** GetAttributeGroup
-    GetAttributeGroup,
+    GetAttributeGroup (GetAttributeGroup'),
     newGetAttributeGroup,
-    GetAttributeGroupResponse,
+    GetAttributeGroupResponse (GetAttributeGroupResponse'),
     newGetAttributeGroupResponse,
 
     -- ** GetConfiguration
-    GetConfiguration,
+    GetConfiguration (GetConfiguration'),
     newGetConfiguration,
-    GetConfigurationResponse,
+    GetConfigurationResponse (GetConfigurationResponse'),
     newGetConfigurationResponse,
 
     -- ** ListApplications (Paginated)
-    ListApplications,
+    ListApplications (ListApplications'),
     newListApplications,
-    ListApplicationsResponse,
+    ListApplicationsResponse (ListApplicationsResponse'),
     newListApplicationsResponse,
 
     -- ** ListAssociatedAttributeGroups (Paginated)
-    ListAssociatedAttributeGroups,
+    ListAssociatedAttributeGroups (ListAssociatedAttributeGroups'),
     newListAssociatedAttributeGroups,
-    ListAssociatedAttributeGroupsResponse,
+    ListAssociatedAttributeGroupsResponse (ListAssociatedAttributeGroupsResponse'),
     newListAssociatedAttributeGroupsResponse,
 
     -- ** ListAssociatedResources (Paginated)
-    ListAssociatedResources,
+    ListAssociatedResources (ListAssociatedResources'),
     newListAssociatedResources,
-    ListAssociatedResourcesResponse,
+    ListAssociatedResourcesResponse (ListAssociatedResourcesResponse'),
     newListAssociatedResourcesResponse,
 
     -- ** ListAttributeGroups (Paginated)
-    ListAttributeGroups,
+    ListAttributeGroups (ListAttributeGroups'),
     newListAttributeGroups,
-    ListAttributeGroupsResponse,
+    ListAttributeGroupsResponse (ListAttributeGroupsResponse'),
     newListAttributeGroupsResponse,
 
     -- ** ListAttributeGroupsForApplication (Paginated)
-    ListAttributeGroupsForApplication,
+    ListAttributeGroupsForApplication (ListAttributeGroupsForApplication'),
     newListAttributeGroupsForApplication,
-    ListAttributeGroupsForApplicationResponse,
+    ListAttributeGroupsForApplicationResponse (ListAttributeGroupsForApplicationResponse'),
     newListAttributeGroupsForApplicationResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** PutConfiguration
-    PutConfiguration,
+    PutConfiguration (PutConfiguration'),
     newPutConfiguration,
-    PutConfigurationResponse,
+    PutConfigurationResponse (PutConfigurationResponse'),
     newPutConfigurationResponse,
 
     -- ** SyncResource
-    SyncResource,
+    SyncResource (SyncResource'),
     newSyncResource,
-    SyncResourceResponse,
+    SyncResourceResponse (SyncResourceResponse'),
     newSyncResourceResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateApplication
-    UpdateApplication,
+    UpdateApplication (UpdateApplication'),
     newUpdateApplication,
-    UpdateApplicationResponse,
+    UpdateApplicationResponse (UpdateApplicationResponse'),
     newUpdateApplicationResponse,
 
     -- ** UpdateAttributeGroup
-    UpdateAttributeGroup,
+    UpdateAttributeGroup (UpdateAttributeGroup'),
     newUpdateAttributeGroup,
-    UpdateAttributeGroupResponse,
+    UpdateAttributeGroupResponse (UpdateAttributeGroupResponse'),
     newUpdateAttributeGroupResponse,
 
     -- * Types
@@ -200,55 +200,55 @@ module Amazonka.ServiceCatalogAppRegistry
     SyncAction (..),
 
     -- ** AppRegistryConfiguration
-    AppRegistryConfiguration,
+    AppRegistryConfiguration (AppRegistryConfiguration'),
     newAppRegistryConfiguration,
 
     -- ** Application
-    Application,
+    Application (Application'),
     newApplication,
 
     -- ** ApplicationSummary
-    ApplicationSummary,
+    ApplicationSummary (ApplicationSummary'),
     newApplicationSummary,
 
     -- ** AttributeGroup
-    AttributeGroup,
+    AttributeGroup (AttributeGroup'),
     newAttributeGroup,
 
     -- ** AttributeGroupDetails
-    AttributeGroupDetails,
+    AttributeGroupDetails (AttributeGroupDetails'),
     newAttributeGroupDetails,
 
     -- ** AttributeGroupSummary
-    AttributeGroupSummary,
+    AttributeGroupSummary (AttributeGroupSummary'),
     newAttributeGroupSummary,
 
     -- ** Integrations
-    Integrations,
+    Integrations (Integrations'),
     newIntegrations,
 
     -- ** Resource
-    Resource,
+    Resource (Resource'),
     newResource,
 
     -- ** ResourceDetails
-    ResourceDetails,
+    ResourceDetails (ResourceDetails'),
     newResourceDetails,
 
     -- ** ResourceGroup
-    ResourceGroup,
+    ResourceGroup (ResourceGroup'),
     newResourceGroup,
 
     -- ** ResourceInfo
-    ResourceInfo,
+    ResourceInfo (ResourceInfo'),
     newResourceInfo,
 
     -- ** ResourceIntegrations
-    ResourceIntegrations,
+    ResourceIntegrations (ResourceIntegrations'),
     newResourceIntegrations,
 
     -- ** TagQueryConfiguration
-    TagQueryConfiguration,
+    TagQueryConfiguration (TagQueryConfiguration'),
     newTagQueryConfiguration,
   )
 where

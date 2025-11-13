@@ -144,249 +144,249 @@ module Amazonka.ECR
     -- $operations
 
     -- ** BatchCheckLayerAvailability
-    BatchCheckLayerAvailability,
+    BatchCheckLayerAvailability (BatchCheckLayerAvailability'),
     newBatchCheckLayerAvailability,
-    BatchCheckLayerAvailabilityResponse,
+    BatchCheckLayerAvailabilityResponse (BatchCheckLayerAvailabilityResponse'),
     newBatchCheckLayerAvailabilityResponse,
 
     -- ** BatchDeleteImage
-    BatchDeleteImage,
+    BatchDeleteImage (BatchDeleteImage'),
     newBatchDeleteImage,
-    BatchDeleteImageResponse,
+    BatchDeleteImageResponse (BatchDeleteImageResponse'),
     newBatchDeleteImageResponse,
 
     -- ** BatchGetImage
-    BatchGetImage,
+    BatchGetImage (BatchGetImage'),
     newBatchGetImage,
-    BatchGetImageResponse,
+    BatchGetImageResponse (BatchGetImageResponse'),
     newBatchGetImageResponse,
 
     -- ** BatchGetRepositoryScanningConfiguration
-    BatchGetRepositoryScanningConfiguration,
+    BatchGetRepositoryScanningConfiguration (BatchGetRepositoryScanningConfiguration'),
     newBatchGetRepositoryScanningConfiguration,
-    BatchGetRepositoryScanningConfigurationResponse,
+    BatchGetRepositoryScanningConfigurationResponse (BatchGetRepositoryScanningConfigurationResponse'),
     newBatchGetRepositoryScanningConfigurationResponse,
 
     -- ** CompleteLayerUpload
-    CompleteLayerUpload,
+    CompleteLayerUpload (CompleteLayerUpload'),
     newCompleteLayerUpload,
-    CompleteLayerUploadResponse,
+    CompleteLayerUploadResponse (CompleteLayerUploadResponse'),
     newCompleteLayerUploadResponse,
 
     -- ** CreatePullThroughCacheRule
-    CreatePullThroughCacheRule,
+    CreatePullThroughCacheRule (CreatePullThroughCacheRule'),
     newCreatePullThroughCacheRule,
-    CreatePullThroughCacheRuleResponse,
+    CreatePullThroughCacheRuleResponse (CreatePullThroughCacheRuleResponse'),
     newCreatePullThroughCacheRuleResponse,
 
     -- ** CreateRepository
-    CreateRepository,
+    CreateRepository (CreateRepository'),
     newCreateRepository,
-    CreateRepositoryResponse,
+    CreateRepositoryResponse (CreateRepositoryResponse'),
     newCreateRepositoryResponse,
 
     -- ** DeleteLifecyclePolicy
-    DeleteLifecyclePolicy,
+    DeleteLifecyclePolicy (DeleteLifecyclePolicy'),
     newDeleteLifecyclePolicy,
-    DeleteLifecyclePolicyResponse,
+    DeleteLifecyclePolicyResponse (DeleteLifecyclePolicyResponse'),
     newDeleteLifecyclePolicyResponse,
 
     -- ** DeletePullThroughCacheRule
-    DeletePullThroughCacheRule,
+    DeletePullThroughCacheRule (DeletePullThroughCacheRule'),
     newDeletePullThroughCacheRule,
-    DeletePullThroughCacheRuleResponse,
+    DeletePullThroughCacheRuleResponse (DeletePullThroughCacheRuleResponse'),
     newDeletePullThroughCacheRuleResponse,
 
     -- ** DeleteRegistryPolicy
-    DeleteRegistryPolicy,
+    DeleteRegistryPolicy (DeleteRegistryPolicy'),
     newDeleteRegistryPolicy,
-    DeleteRegistryPolicyResponse,
+    DeleteRegistryPolicyResponse (DeleteRegistryPolicyResponse'),
     newDeleteRegistryPolicyResponse,
 
     -- ** DeleteRepository
-    DeleteRepository,
+    DeleteRepository (DeleteRepository'),
     newDeleteRepository,
-    DeleteRepositoryResponse,
+    DeleteRepositoryResponse (DeleteRepositoryResponse'),
     newDeleteRepositoryResponse,
 
     -- ** DeleteRepositoryPolicy
-    DeleteRepositoryPolicy,
+    DeleteRepositoryPolicy (DeleteRepositoryPolicy'),
     newDeleteRepositoryPolicy,
-    DeleteRepositoryPolicyResponse,
+    DeleteRepositoryPolicyResponse (DeleteRepositoryPolicyResponse'),
     newDeleteRepositoryPolicyResponse,
 
     -- ** DescribeImageReplicationStatus
-    DescribeImageReplicationStatus,
+    DescribeImageReplicationStatus (DescribeImageReplicationStatus'),
     newDescribeImageReplicationStatus,
-    DescribeImageReplicationStatusResponse,
+    DescribeImageReplicationStatusResponse (DescribeImageReplicationStatusResponse'),
     newDescribeImageReplicationStatusResponse,
 
     -- ** DescribeImageScanFindings (Paginated)
-    DescribeImageScanFindings,
+    DescribeImageScanFindings (DescribeImageScanFindings'),
     newDescribeImageScanFindings,
-    DescribeImageScanFindingsResponse,
+    DescribeImageScanFindingsResponse (DescribeImageScanFindingsResponse'),
     newDescribeImageScanFindingsResponse,
 
     -- ** DescribeImages (Paginated)
-    DescribeImages,
+    DescribeImages (DescribeImages'),
     newDescribeImages,
-    DescribeImagesResponse,
+    DescribeImagesResponse (DescribeImagesResponse'),
     newDescribeImagesResponse,
 
     -- ** DescribePullThroughCacheRules (Paginated)
-    DescribePullThroughCacheRules,
+    DescribePullThroughCacheRules (DescribePullThroughCacheRules'),
     newDescribePullThroughCacheRules,
-    DescribePullThroughCacheRulesResponse,
+    DescribePullThroughCacheRulesResponse (DescribePullThroughCacheRulesResponse'),
     newDescribePullThroughCacheRulesResponse,
 
     -- ** DescribeRegistry
-    DescribeRegistry,
+    DescribeRegistry (DescribeRegistry'),
     newDescribeRegistry,
-    DescribeRegistryResponse,
+    DescribeRegistryResponse (DescribeRegistryResponse'),
     newDescribeRegistryResponse,
 
     -- ** DescribeRepositories (Paginated)
-    DescribeRepositories,
+    DescribeRepositories (DescribeRepositories'),
     newDescribeRepositories,
-    DescribeRepositoriesResponse,
+    DescribeRepositoriesResponse (DescribeRepositoriesResponse'),
     newDescribeRepositoriesResponse,
 
     -- ** GetAuthorizationToken
-    GetAuthorizationToken,
+    GetAuthorizationToken (GetAuthorizationToken'),
     newGetAuthorizationToken,
-    GetAuthorizationTokenResponse,
+    GetAuthorizationTokenResponse (GetAuthorizationTokenResponse'),
     newGetAuthorizationTokenResponse,
 
     -- ** GetDownloadUrlForLayer
-    GetDownloadUrlForLayer,
+    GetDownloadUrlForLayer (GetDownloadUrlForLayer'),
     newGetDownloadUrlForLayer,
-    GetDownloadUrlForLayerResponse,
+    GetDownloadUrlForLayerResponse (GetDownloadUrlForLayerResponse'),
     newGetDownloadUrlForLayerResponse,
 
     -- ** GetLifecyclePolicy
-    GetLifecyclePolicy,
+    GetLifecyclePolicy (GetLifecyclePolicy'),
     newGetLifecyclePolicy,
-    GetLifecyclePolicyResponse,
+    GetLifecyclePolicyResponse (GetLifecyclePolicyResponse'),
     newGetLifecyclePolicyResponse,
 
     -- ** GetLifecyclePolicyPreview (Paginated)
-    GetLifecyclePolicyPreview,
+    GetLifecyclePolicyPreview (GetLifecyclePolicyPreview'),
     newGetLifecyclePolicyPreview,
-    GetLifecyclePolicyPreviewResponse,
+    GetLifecyclePolicyPreviewResponse (GetLifecyclePolicyPreviewResponse'),
     newGetLifecyclePolicyPreviewResponse,
 
     -- ** GetRegistryPolicy
-    GetRegistryPolicy,
+    GetRegistryPolicy (GetRegistryPolicy'),
     newGetRegistryPolicy,
-    GetRegistryPolicyResponse,
+    GetRegistryPolicyResponse (GetRegistryPolicyResponse'),
     newGetRegistryPolicyResponse,
 
     -- ** GetRegistryScanningConfiguration
-    GetRegistryScanningConfiguration,
+    GetRegistryScanningConfiguration (GetRegistryScanningConfiguration'),
     newGetRegistryScanningConfiguration,
-    GetRegistryScanningConfigurationResponse,
+    GetRegistryScanningConfigurationResponse (GetRegistryScanningConfigurationResponse'),
     newGetRegistryScanningConfigurationResponse,
 
     -- ** GetRepositoryPolicy
-    GetRepositoryPolicy,
+    GetRepositoryPolicy (GetRepositoryPolicy'),
     newGetRepositoryPolicy,
-    GetRepositoryPolicyResponse,
+    GetRepositoryPolicyResponse (GetRepositoryPolicyResponse'),
     newGetRepositoryPolicyResponse,
 
     -- ** InitiateLayerUpload
-    InitiateLayerUpload,
+    InitiateLayerUpload (InitiateLayerUpload'),
     newInitiateLayerUpload,
-    InitiateLayerUploadResponse,
+    InitiateLayerUploadResponse (InitiateLayerUploadResponse'),
     newInitiateLayerUploadResponse,
 
     -- ** ListImages (Paginated)
-    ListImages,
+    ListImages (ListImages'),
     newListImages,
-    ListImagesResponse,
+    ListImagesResponse (ListImagesResponse'),
     newListImagesResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** PutImage
-    PutImage,
+    PutImage (PutImage'),
     newPutImage,
-    PutImageResponse,
+    PutImageResponse (PutImageResponse'),
     newPutImageResponse,
 
     -- ** PutImageScanningConfiguration
-    PutImageScanningConfiguration,
+    PutImageScanningConfiguration (PutImageScanningConfiguration'),
     newPutImageScanningConfiguration,
-    PutImageScanningConfigurationResponse,
+    PutImageScanningConfigurationResponse (PutImageScanningConfigurationResponse'),
     newPutImageScanningConfigurationResponse,
 
     -- ** PutImageTagMutability
-    PutImageTagMutability,
+    PutImageTagMutability (PutImageTagMutability'),
     newPutImageTagMutability,
-    PutImageTagMutabilityResponse,
+    PutImageTagMutabilityResponse (PutImageTagMutabilityResponse'),
     newPutImageTagMutabilityResponse,
 
     -- ** PutLifecyclePolicy
-    PutLifecyclePolicy,
+    PutLifecyclePolicy (PutLifecyclePolicy'),
     newPutLifecyclePolicy,
-    PutLifecyclePolicyResponse,
+    PutLifecyclePolicyResponse (PutLifecyclePolicyResponse'),
     newPutLifecyclePolicyResponse,
 
     -- ** PutRegistryPolicy
-    PutRegistryPolicy,
+    PutRegistryPolicy (PutRegistryPolicy'),
     newPutRegistryPolicy,
-    PutRegistryPolicyResponse,
+    PutRegistryPolicyResponse (PutRegistryPolicyResponse'),
     newPutRegistryPolicyResponse,
 
     -- ** PutRegistryScanningConfiguration
-    PutRegistryScanningConfiguration,
+    PutRegistryScanningConfiguration (PutRegistryScanningConfiguration'),
     newPutRegistryScanningConfiguration,
-    PutRegistryScanningConfigurationResponse,
+    PutRegistryScanningConfigurationResponse (PutRegistryScanningConfigurationResponse'),
     newPutRegistryScanningConfigurationResponse,
 
     -- ** PutReplicationConfiguration
-    PutReplicationConfiguration,
+    PutReplicationConfiguration (PutReplicationConfiguration'),
     newPutReplicationConfiguration,
-    PutReplicationConfigurationResponse,
+    PutReplicationConfigurationResponse (PutReplicationConfigurationResponse'),
     newPutReplicationConfigurationResponse,
 
     -- ** SetRepositoryPolicy
-    SetRepositoryPolicy,
+    SetRepositoryPolicy (SetRepositoryPolicy'),
     newSetRepositoryPolicy,
-    SetRepositoryPolicyResponse,
+    SetRepositoryPolicyResponse (SetRepositoryPolicyResponse'),
     newSetRepositoryPolicyResponse,
 
     -- ** StartImageScan
-    StartImageScan,
+    StartImageScan (StartImageScan'),
     newStartImageScan,
-    StartImageScanResponse,
+    StartImageScanResponse (StartImageScanResponse'),
     newStartImageScanResponse,
 
     -- ** StartLifecyclePolicyPreview
-    StartLifecyclePolicyPreview,
+    StartLifecyclePolicyPreview (StartLifecyclePolicyPreview'),
     newStartLifecyclePolicyPreview,
-    StartLifecyclePolicyPreviewResponse,
+    StartLifecyclePolicyPreviewResponse (StartLifecyclePolicyPreviewResponse'),
     newStartLifecyclePolicyPreviewResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UploadLayerPart
-    UploadLayerPart,
+    UploadLayerPart (UploadLayerPart'),
     newUploadLayerPart,
-    UploadLayerPartResponse,
+    UploadLayerPartResponse (UploadLayerPartResponse'),
     newUploadLayerPartResponse,
 
     -- * Types
@@ -440,183 +440,183 @@ module Amazonka.ECR
     TagStatus (..),
 
     -- ** Attribute
-    Attribute,
+    Attribute (Attribute'),
     newAttribute,
 
     -- ** AuthorizationData
-    AuthorizationData,
+    AuthorizationData (AuthorizationData'),
     newAuthorizationData,
 
     -- ** AwsEcrContainerImageDetails
-    AwsEcrContainerImageDetails,
+    AwsEcrContainerImageDetails (AwsEcrContainerImageDetails'),
     newAwsEcrContainerImageDetails,
 
     -- ** CvssScore
-    CvssScore,
+    CvssScore (CvssScore'),
     newCvssScore,
 
     -- ** CvssScoreAdjustment
-    CvssScoreAdjustment,
+    CvssScoreAdjustment (CvssScoreAdjustment'),
     newCvssScoreAdjustment,
 
     -- ** CvssScoreDetails
-    CvssScoreDetails,
+    CvssScoreDetails (CvssScoreDetails'),
     newCvssScoreDetails,
 
     -- ** DescribeImagesFilter
-    DescribeImagesFilter,
+    DescribeImagesFilter (DescribeImagesFilter'),
     newDescribeImagesFilter,
 
     -- ** EncryptionConfiguration
-    EncryptionConfiguration,
+    EncryptionConfiguration (EncryptionConfiguration'),
     newEncryptionConfiguration,
 
     -- ** EnhancedImageScanFinding
-    EnhancedImageScanFinding,
+    EnhancedImageScanFinding (EnhancedImageScanFinding'),
     newEnhancedImageScanFinding,
 
     -- ** Image
-    Image,
+    Image (Image'),
     newImage,
 
     -- ** ImageDetail
-    ImageDetail,
+    ImageDetail (ImageDetail'),
     newImageDetail,
 
     -- ** ImageFailure
-    ImageFailure,
+    ImageFailure (ImageFailure'),
     newImageFailure,
 
     -- ** ImageIdentifier
-    ImageIdentifier,
+    ImageIdentifier (ImageIdentifier'),
     newImageIdentifier,
 
     -- ** ImageReplicationStatus
-    ImageReplicationStatus,
+    ImageReplicationStatus (ImageReplicationStatus'),
     newImageReplicationStatus,
 
     -- ** ImageScanFinding
-    ImageScanFinding,
+    ImageScanFinding (ImageScanFinding'),
     newImageScanFinding,
 
     -- ** ImageScanFindings
-    ImageScanFindings,
+    ImageScanFindings (ImageScanFindings'),
     newImageScanFindings,
 
     -- ** ImageScanFindingsSummary
-    ImageScanFindingsSummary,
+    ImageScanFindingsSummary (ImageScanFindingsSummary'),
     newImageScanFindingsSummary,
 
     -- ** ImageScanStatus
-    ImageScanStatus,
+    ImageScanStatus (ImageScanStatus'),
     newImageScanStatus,
 
     -- ** ImageScanningConfiguration
-    ImageScanningConfiguration,
+    ImageScanningConfiguration (ImageScanningConfiguration'),
     newImageScanningConfiguration,
 
     -- ** Layer
-    Layer,
+    Layer (Layer'),
     newLayer,
 
     -- ** LayerFailure
-    LayerFailure,
+    LayerFailure (LayerFailure'),
     newLayerFailure,
 
     -- ** LifecyclePolicyPreviewFilter
-    LifecyclePolicyPreviewFilter,
+    LifecyclePolicyPreviewFilter (LifecyclePolicyPreviewFilter'),
     newLifecyclePolicyPreviewFilter,
 
     -- ** LifecyclePolicyPreviewResult
-    LifecyclePolicyPreviewResult,
+    LifecyclePolicyPreviewResult (LifecyclePolicyPreviewResult'),
     newLifecyclePolicyPreviewResult,
 
     -- ** LifecyclePolicyPreviewSummary
-    LifecyclePolicyPreviewSummary,
+    LifecyclePolicyPreviewSummary (LifecyclePolicyPreviewSummary'),
     newLifecyclePolicyPreviewSummary,
 
     -- ** LifecyclePolicyRuleAction
-    LifecyclePolicyRuleAction,
+    LifecyclePolicyRuleAction (LifecyclePolicyRuleAction'),
     newLifecyclePolicyRuleAction,
 
     -- ** ListImagesFilter
-    ListImagesFilter,
+    ListImagesFilter (ListImagesFilter'),
     newListImagesFilter,
 
     -- ** PackageVulnerabilityDetails
-    PackageVulnerabilityDetails,
+    PackageVulnerabilityDetails (PackageVulnerabilityDetails'),
     newPackageVulnerabilityDetails,
 
     -- ** PullThroughCacheRule
-    PullThroughCacheRule,
+    PullThroughCacheRule (PullThroughCacheRule'),
     newPullThroughCacheRule,
 
     -- ** Recommendation
-    Recommendation,
+    Recommendation (Recommendation'),
     newRecommendation,
 
     -- ** RegistryScanningConfiguration
-    RegistryScanningConfiguration,
+    RegistryScanningConfiguration (RegistryScanningConfiguration'),
     newRegistryScanningConfiguration,
 
     -- ** RegistryScanningRule
-    RegistryScanningRule,
+    RegistryScanningRule (RegistryScanningRule'),
     newRegistryScanningRule,
 
     -- ** Remediation
-    Remediation,
+    Remediation (Remediation'),
     newRemediation,
 
     -- ** ReplicationConfiguration
-    ReplicationConfiguration,
+    ReplicationConfiguration (ReplicationConfiguration'),
     newReplicationConfiguration,
 
     -- ** ReplicationDestination
-    ReplicationDestination,
+    ReplicationDestination (ReplicationDestination'),
     newReplicationDestination,
 
     -- ** ReplicationRule
-    ReplicationRule,
+    ReplicationRule (ReplicationRule'),
     newReplicationRule,
 
     -- ** Repository
-    Repository,
+    Repository (Repository'),
     newRepository,
 
     -- ** RepositoryFilter
-    RepositoryFilter,
+    RepositoryFilter (RepositoryFilter'),
     newRepositoryFilter,
 
     -- ** RepositoryScanningConfiguration
-    RepositoryScanningConfiguration,
+    RepositoryScanningConfiguration (RepositoryScanningConfiguration'),
     newRepositoryScanningConfiguration,
 
     -- ** RepositoryScanningConfigurationFailure
-    RepositoryScanningConfigurationFailure,
+    RepositoryScanningConfigurationFailure (RepositoryScanningConfigurationFailure'),
     newRepositoryScanningConfigurationFailure,
 
     -- ** Resource
-    Resource,
+    Resource (Resource'),
     newResource,
 
     -- ** ResourceDetails
-    ResourceDetails,
+    ResourceDetails (ResourceDetails'),
     newResourceDetails,
 
     -- ** ScanningRepositoryFilter
-    ScanningRepositoryFilter,
+    ScanningRepositoryFilter (ScanningRepositoryFilter'),
     newScanningRepositoryFilter,
 
     -- ** ScoreDetails
-    ScoreDetails,
+    ScoreDetails (ScoreDetails'),
     newScoreDetails,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** VulnerablePackage
-    VulnerablePackage,
+    VulnerablePackage (VulnerablePackage'),
     newVulnerablePackage,
   )
 where

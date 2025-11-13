@@ -154,405 +154,405 @@ module Amazonka.DirectoryService
     -- $operations
 
     -- ** AcceptSharedDirectory
-    AcceptSharedDirectory,
+    AcceptSharedDirectory (AcceptSharedDirectory'),
     newAcceptSharedDirectory,
-    AcceptSharedDirectoryResponse,
+    AcceptSharedDirectoryResponse (AcceptSharedDirectoryResponse'),
     newAcceptSharedDirectoryResponse,
 
     -- ** AddIpRoutes
-    AddIpRoutes,
+    AddIpRoutes (AddIpRoutes'),
     newAddIpRoutes,
-    AddIpRoutesResponse,
+    AddIpRoutesResponse (AddIpRoutesResponse'),
     newAddIpRoutesResponse,
 
     -- ** AddRegion
-    AddRegion,
+    AddRegion (AddRegion'),
     newAddRegion,
-    AddRegionResponse,
+    AddRegionResponse (AddRegionResponse'),
     newAddRegionResponse,
 
     -- ** AddTagsToResource
-    AddTagsToResource,
+    AddTagsToResource (AddTagsToResource'),
     newAddTagsToResource,
-    AddTagsToResourceResponse,
+    AddTagsToResourceResponse (AddTagsToResourceResponse'),
     newAddTagsToResourceResponse,
 
     -- ** CancelSchemaExtension
-    CancelSchemaExtension,
+    CancelSchemaExtension (CancelSchemaExtension'),
     newCancelSchemaExtension,
-    CancelSchemaExtensionResponse,
+    CancelSchemaExtensionResponse (CancelSchemaExtensionResponse'),
     newCancelSchemaExtensionResponse,
 
     -- ** ConnectDirectory
-    ConnectDirectory,
+    ConnectDirectory (ConnectDirectory'),
     newConnectDirectory,
-    ConnectDirectoryResponse,
+    ConnectDirectoryResponse (ConnectDirectoryResponse'),
     newConnectDirectoryResponse,
 
     -- ** CreateAlias
-    CreateAlias,
+    CreateAlias (CreateAlias'),
     newCreateAlias,
-    CreateAliasResponse,
+    CreateAliasResponse (CreateAliasResponse'),
     newCreateAliasResponse,
 
     -- ** CreateComputer
-    CreateComputer,
+    CreateComputer (CreateComputer'),
     newCreateComputer,
-    CreateComputerResponse,
+    CreateComputerResponse (CreateComputerResponse'),
     newCreateComputerResponse,
 
     -- ** CreateConditionalForwarder
-    CreateConditionalForwarder,
+    CreateConditionalForwarder (CreateConditionalForwarder'),
     newCreateConditionalForwarder,
-    CreateConditionalForwarderResponse,
+    CreateConditionalForwarderResponse (CreateConditionalForwarderResponse'),
     newCreateConditionalForwarderResponse,
 
     -- ** CreateDirectory
-    CreateDirectory,
+    CreateDirectory (CreateDirectory'),
     newCreateDirectory,
-    CreateDirectoryResponse,
+    CreateDirectoryResponse (CreateDirectoryResponse'),
     newCreateDirectoryResponse,
 
     -- ** CreateLogSubscription
-    CreateLogSubscription,
+    CreateLogSubscription (CreateLogSubscription'),
     newCreateLogSubscription,
-    CreateLogSubscriptionResponse,
+    CreateLogSubscriptionResponse (CreateLogSubscriptionResponse'),
     newCreateLogSubscriptionResponse,
 
     -- ** CreateMicrosoftAD
-    CreateMicrosoftAD,
+    CreateMicrosoftAD (CreateMicrosoftAD'),
     newCreateMicrosoftAD,
-    CreateMicrosoftADResponse,
+    CreateMicrosoftADResponse (CreateMicrosoftADResponse'),
     newCreateMicrosoftADResponse,
 
     -- ** CreateSnapshot
-    CreateSnapshot,
+    CreateSnapshot (CreateSnapshot'),
     newCreateSnapshot,
-    CreateSnapshotResponse,
+    CreateSnapshotResponse (CreateSnapshotResponse'),
     newCreateSnapshotResponse,
 
     -- ** CreateTrust
-    CreateTrust,
+    CreateTrust (CreateTrust'),
     newCreateTrust,
-    CreateTrustResponse,
+    CreateTrustResponse (CreateTrustResponse'),
     newCreateTrustResponse,
 
     -- ** DeleteConditionalForwarder
-    DeleteConditionalForwarder,
+    DeleteConditionalForwarder (DeleteConditionalForwarder'),
     newDeleteConditionalForwarder,
-    DeleteConditionalForwarderResponse,
+    DeleteConditionalForwarderResponse (DeleteConditionalForwarderResponse'),
     newDeleteConditionalForwarderResponse,
 
     -- ** DeleteDirectory
-    DeleteDirectory,
+    DeleteDirectory (DeleteDirectory'),
     newDeleteDirectory,
-    DeleteDirectoryResponse,
+    DeleteDirectoryResponse (DeleteDirectoryResponse'),
     newDeleteDirectoryResponse,
 
     -- ** DeleteLogSubscription
-    DeleteLogSubscription,
+    DeleteLogSubscription (DeleteLogSubscription'),
     newDeleteLogSubscription,
-    DeleteLogSubscriptionResponse,
+    DeleteLogSubscriptionResponse (DeleteLogSubscriptionResponse'),
     newDeleteLogSubscriptionResponse,
 
     -- ** DeleteSnapshot
-    DeleteSnapshot,
+    DeleteSnapshot (DeleteSnapshot'),
     newDeleteSnapshot,
-    DeleteSnapshotResponse,
+    DeleteSnapshotResponse (DeleteSnapshotResponse'),
     newDeleteSnapshotResponse,
 
     -- ** DeleteTrust
-    DeleteTrust,
+    DeleteTrust (DeleteTrust'),
     newDeleteTrust,
-    DeleteTrustResponse,
+    DeleteTrustResponse (DeleteTrustResponse'),
     newDeleteTrustResponse,
 
     -- ** DeregisterCertificate
-    DeregisterCertificate,
+    DeregisterCertificate (DeregisterCertificate'),
     newDeregisterCertificate,
-    DeregisterCertificateResponse,
+    DeregisterCertificateResponse (DeregisterCertificateResponse'),
     newDeregisterCertificateResponse,
 
     -- ** DeregisterEventTopic
-    DeregisterEventTopic,
+    DeregisterEventTopic (DeregisterEventTopic'),
     newDeregisterEventTopic,
-    DeregisterEventTopicResponse,
+    DeregisterEventTopicResponse (DeregisterEventTopicResponse'),
     newDeregisterEventTopicResponse,
 
     -- ** DescribeCertificate
-    DescribeCertificate,
+    DescribeCertificate (DescribeCertificate'),
     newDescribeCertificate,
-    DescribeCertificateResponse,
+    DescribeCertificateResponse (DescribeCertificateResponse'),
     newDescribeCertificateResponse,
 
     -- ** DescribeClientAuthenticationSettings (Paginated)
-    DescribeClientAuthenticationSettings,
+    DescribeClientAuthenticationSettings (DescribeClientAuthenticationSettings'),
     newDescribeClientAuthenticationSettings,
-    DescribeClientAuthenticationSettingsResponse,
+    DescribeClientAuthenticationSettingsResponse (DescribeClientAuthenticationSettingsResponse'),
     newDescribeClientAuthenticationSettingsResponse,
 
     -- ** DescribeConditionalForwarders
-    DescribeConditionalForwarders,
+    DescribeConditionalForwarders (DescribeConditionalForwarders'),
     newDescribeConditionalForwarders,
-    DescribeConditionalForwardersResponse,
+    DescribeConditionalForwardersResponse (DescribeConditionalForwardersResponse'),
     newDescribeConditionalForwardersResponse,
 
     -- ** DescribeDirectories (Paginated)
-    DescribeDirectories,
+    DescribeDirectories (DescribeDirectories'),
     newDescribeDirectories,
-    DescribeDirectoriesResponse,
+    DescribeDirectoriesResponse (DescribeDirectoriesResponse'),
     newDescribeDirectoriesResponse,
 
     -- ** DescribeDomainControllers (Paginated)
-    DescribeDomainControllers,
+    DescribeDomainControllers (DescribeDomainControllers'),
     newDescribeDomainControllers,
-    DescribeDomainControllersResponse,
+    DescribeDomainControllersResponse (DescribeDomainControllersResponse'),
     newDescribeDomainControllersResponse,
 
     -- ** DescribeEventTopics
-    DescribeEventTopics,
+    DescribeEventTopics (DescribeEventTopics'),
     newDescribeEventTopics,
-    DescribeEventTopicsResponse,
+    DescribeEventTopicsResponse (DescribeEventTopicsResponse'),
     newDescribeEventTopicsResponse,
 
     -- ** DescribeLDAPSSettings (Paginated)
-    DescribeLDAPSSettings,
+    DescribeLDAPSSettings (DescribeLDAPSSettings'),
     newDescribeLDAPSSettings,
-    DescribeLDAPSSettingsResponse,
+    DescribeLDAPSSettingsResponse (DescribeLDAPSSettingsResponse'),
     newDescribeLDAPSSettingsResponse,
 
     -- ** DescribeRegions (Paginated)
-    DescribeRegions,
+    DescribeRegions (DescribeRegions'),
     newDescribeRegions,
-    DescribeRegionsResponse,
+    DescribeRegionsResponse (DescribeRegionsResponse'),
     newDescribeRegionsResponse,
 
     -- ** DescribeSettings
-    DescribeSettings,
+    DescribeSettings (DescribeSettings'),
     newDescribeSettings,
-    DescribeSettingsResponse,
+    DescribeSettingsResponse (DescribeSettingsResponse'),
     newDescribeSettingsResponse,
 
     -- ** DescribeSharedDirectories (Paginated)
-    DescribeSharedDirectories,
+    DescribeSharedDirectories (DescribeSharedDirectories'),
     newDescribeSharedDirectories,
-    DescribeSharedDirectoriesResponse,
+    DescribeSharedDirectoriesResponse (DescribeSharedDirectoriesResponse'),
     newDescribeSharedDirectoriesResponse,
 
     -- ** DescribeSnapshots (Paginated)
-    DescribeSnapshots,
+    DescribeSnapshots (DescribeSnapshots'),
     newDescribeSnapshots,
-    DescribeSnapshotsResponse,
+    DescribeSnapshotsResponse (DescribeSnapshotsResponse'),
     newDescribeSnapshotsResponse,
 
     -- ** DescribeTrusts (Paginated)
-    DescribeTrusts,
+    DescribeTrusts (DescribeTrusts'),
     newDescribeTrusts,
-    DescribeTrustsResponse,
+    DescribeTrustsResponse (DescribeTrustsResponse'),
     newDescribeTrustsResponse,
 
     -- ** DescribeUpdateDirectory (Paginated)
-    DescribeUpdateDirectory,
+    DescribeUpdateDirectory (DescribeUpdateDirectory'),
     newDescribeUpdateDirectory,
-    DescribeUpdateDirectoryResponse,
+    DescribeUpdateDirectoryResponse (DescribeUpdateDirectoryResponse'),
     newDescribeUpdateDirectoryResponse,
 
     -- ** DisableClientAuthentication
-    DisableClientAuthentication,
+    DisableClientAuthentication (DisableClientAuthentication'),
     newDisableClientAuthentication,
-    DisableClientAuthenticationResponse,
+    DisableClientAuthenticationResponse (DisableClientAuthenticationResponse'),
     newDisableClientAuthenticationResponse,
 
     -- ** DisableLDAPS
-    DisableLDAPS,
+    DisableLDAPS (DisableLDAPS'),
     newDisableLDAPS,
-    DisableLDAPSResponse,
+    DisableLDAPSResponse (DisableLDAPSResponse'),
     newDisableLDAPSResponse,
 
     -- ** DisableRadius
-    DisableRadius,
+    DisableRadius (DisableRadius'),
     newDisableRadius,
-    DisableRadiusResponse,
+    DisableRadiusResponse (DisableRadiusResponse'),
     newDisableRadiusResponse,
 
     -- ** DisableSso
-    DisableSso,
+    DisableSso (DisableSso'),
     newDisableSso,
-    DisableSsoResponse,
+    DisableSsoResponse (DisableSsoResponse'),
     newDisableSsoResponse,
 
     -- ** EnableClientAuthentication
-    EnableClientAuthentication,
+    EnableClientAuthentication (EnableClientAuthentication'),
     newEnableClientAuthentication,
-    EnableClientAuthenticationResponse,
+    EnableClientAuthenticationResponse (EnableClientAuthenticationResponse'),
     newEnableClientAuthenticationResponse,
 
     -- ** EnableLDAPS
-    EnableLDAPS,
+    EnableLDAPS (EnableLDAPS'),
     newEnableLDAPS,
-    EnableLDAPSResponse,
+    EnableLDAPSResponse (EnableLDAPSResponse'),
     newEnableLDAPSResponse,
 
     -- ** EnableRadius
-    EnableRadius,
+    EnableRadius (EnableRadius'),
     newEnableRadius,
-    EnableRadiusResponse,
+    EnableRadiusResponse (EnableRadiusResponse'),
     newEnableRadiusResponse,
 
     -- ** EnableSso
-    EnableSso,
+    EnableSso (EnableSso'),
     newEnableSso,
-    EnableSsoResponse,
+    EnableSsoResponse (EnableSsoResponse'),
     newEnableSsoResponse,
 
     -- ** GetDirectoryLimits
-    GetDirectoryLimits,
+    GetDirectoryLimits (GetDirectoryLimits'),
     newGetDirectoryLimits,
-    GetDirectoryLimitsResponse,
+    GetDirectoryLimitsResponse (GetDirectoryLimitsResponse'),
     newGetDirectoryLimitsResponse,
 
     -- ** GetSnapshotLimits
-    GetSnapshotLimits,
+    GetSnapshotLimits (GetSnapshotLimits'),
     newGetSnapshotLimits,
-    GetSnapshotLimitsResponse,
+    GetSnapshotLimitsResponse (GetSnapshotLimitsResponse'),
     newGetSnapshotLimitsResponse,
 
     -- ** ListCertificates (Paginated)
-    ListCertificates,
+    ListCertificates (ListCertificates'),
     newListCertificates,
-    ListCertificatesResponse,
+    ListCertificatesResponse (ListCertificatesResponse'),
     newListCertificatesResponse,
 
     -- ** ListIpRoutes (Paginated)
-    ListIpRoutes,
+    ListIpRoutes (ListIpRoutes'),
     newListIpRoutes,
-    ListIpRoutesResponse,
+    ListIpRoutesResponse (ListIpRoutesResponse'),
     newListIpRoutesResponse,
 
     -- ** ListLogSubscriptions (Paginated)
-    ListLogSubscriptions,
+    ListLogSubscriptions (ListLogSubscriptions'),
     newListLogSubscriptions,
-    ListLogSubscriptionsResponse,
+    ListLogSubscriptionsResponse (ListLogSubscriptionsResponse'),
     newListLogSubscriptionsResponse,
 
     -- ** ListSchemaExtensions (Paginated)
-    ListSchemaExtensions,
+    ListSchemaExtensions (ListSchemaExtensions'),
     newListSchemaExtensions,
-    ListSchemaExtensionsResponse,
+    ListSchemaExtensionsResponse (ListSchemaExtensionsResponse'),
     newListSchemaExtensionsResponse,
 
     -- ** ListTagsForResource (Paginated)
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** RegisterCertificate
-    RegisterCertificate,
+    RegisterCertificate (RegisterCertificate'),
     newRegisterCertificate,
-    RegisterCertificateResponse,
+    RegisterCertificateResponse (RegisterCertificateResponse'),
     newRegisterCertificateResponse,
 
     -- ** RegisterEventTopic
-    RegisterEventTopic,
+    RegisterEventTopic (RegisterEventTopic'),
     newRegisterEventTopic,
-    RegisterEventTopicResponse,
+    RegisterEventTopicResponse (RegisterEventTopicResponse'),
     newRegisterEventTopicResponse,
 
     -- ** RejectSharedDirectory
-    RejectSharedDirectory,
+    RejectSharedDirectory (RejectSharedDirectory'),
     newRejectSharedDirectory,
-    RejectSharedDirectoryResponse,
+    RejectSharedDirectoryResponse (RejectSharedDirectoryResponse'),
     newRejectSharedDirectoryResponse,
 
     -- ** RemoveIpRoutes
-    RemoveIpRoutes,
+    RemoveIpRoutes (RemoveIpRoutes'),
     newRemoveIpRoutes,
-    RemoveIpRoutesResponse,
+    RemoveIpRoutesResponse (RemoveIpRoutesResponse'),
     newRemoveIpRoutesResponse,
 
     -- ** RemoveRegion
-    RemoveRegion,
+    RemoveRegion (RemoveRegion'),
     newRemoveRegion,
-    RemoveRegionResponse,
+    RemoveRegionResponse (RemoveRegionResponse'),
     newRemoveRegionResponse,
 
     -- ** RemoveTagsFromResource
-    RemoveTagsFromResource,
+    RemoveTagsFromResource (RemoveTagsFromResource'),
     newRemoveTagsFromResource,
-    RemoveTagsFromResourceResponse,
+    RemoveTagsFromResourceResponse (RemoveTagsFromResourceResponse'),
     newRemoveTagsFromResourceResponse,
 
     -- ** ResetUserPassword
-    ResetUserPassword,
+    ResetUserPassword (ResetUserPassword'),
     newResetUserPassword,
-    ResetUserPasswordResponse,
+    ResetUserPasswordResponse (ResetUserPasswordResponse'),
     newResetUserPasswordResponse,
 
     -- ** RestoreFromSnapshot
-    RestoreFromSnapshot,
+    RestoreFromSnapshot (RestoreFromSnapshot'),
     newRestoreFromSnapshot,
-    RestoreFromSnapshotResponse,
+    RestoreFromSnapshotResponse (RestoreFromSnapshotResponse'),
     newRestoreFromSnapshotResponse,
 
     -- ** ShareDirectory
-    ShareDirectory,
+    ShareDirectory (ShareDirectory'),
     newShareDirectory,
-    ShareDirectoryResponse,
+    ShareDirectoryResponse (ShareDirectoryResponse'),
     newShareDirectoryResponse,
 
     -- ** StartSchemaExtension
-    StartSchemaExtension,
+    StartSchemaExtension (StartSchemaExtension'),
     newStartSchemaExtension,
-    StartSchemaExtensionResponse,
+    StartSchemaExtensionResponse (StartSchemaExtensionResponse'),
     newStartSchemaExtensionResponse,
 
     -- ** UnshareDirectory
-    UnshareDirectory,
+    UnshareDirectory (UnshareDirectory'),
     newUnshareDirectory,
-    UnshareDirectoryResponse,
+    UnshareDirectoryResponse (UnshareDirectoryResponse'),
     newUnshareDirectoryResponse,
 
     -- ** UpdateConditionalForwarder
-    UpdateConditionalForwarder,
+    UpdateConditionalForwarder (UpdateConditionalForwarder'),
     newUpdateConditionalForwarder,
-    UpdateConditionalForwarderResponse,
+    UpdateConditionalForwarderResponse (UpdateConditionalForwarderResponse'),
     newUpdateConditionalForwarderResponse,
 
     -- ** UpdateDirectorySetup
-    UpdateDirectorySetup,
+    UpdateDirectorySetup (UpdateDirectorySetup'),
     newUpdateDirectorySetup,
-    UpdateDirectorySetupResponse,
+    UpdateDirectorySetupResponse (UpdateDirectorySetupResponse'),
     newUpdateDirectorySetupResponse,
 
     -- ** UpdateNumberOfDomainControllers
-    UpdateNumberOfDomainControllers,
+    UpdateNumberOfDomainControllers (UpdateNumberOfDomainControllers'),
     newUpdateNumberOfDomainControllers,
-    UpdateNumberOfDomainControllersResponse,
+    UpdateNumberOfDomainControllersResponse (UpdateNumberOfDomainControllersResponse'),
     newUpdateNumberOfDomainControllersResponse,
 
     -- ** UpdateRadius
-    UpdateRadius,
+    UpdateRadius (UpdateRadius'),
     newUpdateRadius,
-    UpdateRadiusResponse,
+    UpdateRadiusResponse (UpdateRadiusResponse'),
     newUpdateRadiusResponse,
 
     -- ** UpdateSettings
-    UpdateSettings,
+    UpdateSettings (UpdateSettings'),
     newUpdateSettings,
-    UpdateSettingsResponse,
+    UpdateSettingsResponse (UpdateSettingsResponse'),
     newUpdateSettingsResponse,
 
     -- ** UpdateTrust
-    UpdateTrust,
+    UpdateTrust (UpdateTrust'),
     newUpdateTrust,
-    UpdateTrustResponse,
+    UpdateTrustResponse (UpdateTrustResponse'),
     newUpdateTrustResponse,
 
     -- ** VerifyTrust
-    VerifyTrust,
+    VerifyTrust (VerifyTrust'),
     newVerifyTrust,
-    VerifyTrustResponse,
+    VerifyTrustResponse (VerifyTrustResponse'),
     newVerifyTrustResponse,
 
     -- * Types
@@ -651,147 +651,147 @@ module Amazonka.DirectoryService
     UpdateType (..),
 
     -- ** Attribute
-    Attribute,
+    Attribute (Attribute'),
     newAttribute,
 
     -- ** Certificate
-    Certificate,
+    Certificate (Certificate'),
     newCertificate,
 
     -- ** CertificateInfo
-    CertificateInfo,
+    CertificateInfo (CertificateInfo'),
     newCertificateInfo,
 
     -- ** ClientAuthenticationSettingInfo
-    ClientAuthenticationSettingInfo,
+    ClientAuthenticationSettingInfo (ClientAuthenticationSettingInfo'),
     newClientAuthenticationSettingInfo,
 
     -- ** ClientCertAuthSettings
-    ClientCertAuthSettings,
+    ClientCertAuthSettings (ClientCertAuthSettings'),
     newClientCertAuthSettings,
 
     -- ** Computer
-    Computer,
+    Computer (Computer'),
     newComputer,
 
     -- ** ConditionalForwarder
-    ConditionalForwarder,
+    ConditionalForwarder (ConditionalForwarder'),
     newConditionalForwarder,
 
     -- ** DirectoryConnectSettings
-    DirectoryConnectSettings,
+    DirectoryConnectSettings (DirectoryConnectSettings'),
     newDirectoryConnectSettings,
 
     -- ** DirectoryConnectSettingsDescription
-    DirectoryConnectSettingsDescription,
+    DirectoryConnectSettingsDescription (DirectoryConnectSettingsDescription'),
     newDirectoryConnectSettingsDescription,
 
     -- ** DirectoryDescription
-    DirectoryDescription,
+    DirectoryDescription (DirectoryDescription'),
     newDirectoryDescription,
 
     -- ** DirectoryLimits
-    DirectoryLimits,
+    DirectoryLimits (DirectoryLimits'),
     newDirectoryLimits,
 
     -- ** DirectoryVpcSettings
-    DirectoryVpcSettings,
+    DirectoryVpcSettings (DirectoryVpcSettings'),
     newDirectoryVpcSettings,
 
     -- ** DirectoryVpcSettingsDescription
-    DirectoryVpcSettingsDescription,
+    DirectoryVpcSettingsDescription (DirectoryVpcSettingsDescription'),
     newDirectoryVpcSettingsDescription,
 
     -- ** DomainController
-    DomainController,
+    DomainController (DomainController'),
     newDomainController,
 
     -- ** EventTopic
-    EventTopic,
+    EventTopic (EventTopic'),
     newEventTopic,
 
     -- ** IpRoute
-    IpRoute,
+    IpRoute (IpRoute'),
     newIpRoute,
 
     -- ** IpRouteInfo
-    IpRouteInfo,
+    IpRouteInfo (IpRouteInfo'),
     newIpRouteInfo,
 
     -- ** LDAPSSettingInfo
-    LDAPSSettingInfo,
+    LDAPSSettingInfo (LDAPSSettingInfo'),
     newLDAPSSettingInfo,
 
     -- ** LogSubscription
-    LogSubscription,
+    LogSubscription (LogSubscription'),
     newLogSubscription,
 
     -- ** OSUpdateSettings
-    OSUpdateSettings,
+    OSUpdateSettings (OSUpdateSettings'),
     newOSUpdateSettings,
 
     -- ** OwnerDirectoryDescription
-    OwnerDirectoryDescription,
+    OwnerDirectoryDescription (OwnerDirectoryDescription'),
     newOwnerDirectoryDescription,
 
     -- ** RadiusSettings
-    RadiusSettings,
+    RadiusSettings (RadiusSettings'),
     newRadiusSettings,
 
     -- ** RegionDescription
-    RegionDescription,
+    RegionDescription (RegionDescription'),
     newRegionDescription,
 
     -- ** RegionsInfo
-    RegionsInfo,
+    RegionsInfo (RegionsInfo'),
     newRegionsInfo,
 
     -- ** SchemaExtensionInfo
-    SchemaExtensionInfo,
+    SchemaExtensionInfo (SchemaExtensionInfo'),
     newSchemaExtensionInfo,
 
     -- ** Setting
-    Setting,
+    Setting (Setting'),
     newSetting,
 
     -- ** SettingEntry
-    SettingEntry,
+    SettingEntry (SettingEntry'),
     newSettingEntry,
 
     -- ** ShareTarget
-    ShareTarget,
+    ShareTarget (ShareTarget'),
     newShareTarget,
 
     -- ** SharedDirectory
-    SharedDirectory,
+    SharedDirectory (SharedDirectory'),
     newSharedDirectory,
 
     -- ** Snapshot
-    Snapshot,
+    Snapshot (Snapshot'),
     newSnapshot,
 
     -- ** SnapshotLimits
-    SnapshotLimits,
+    SnapshotLimits (SnapshotLimits'),
     newSnapshotLimits,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** Trust
-    Trust,
+    Trust (Trust'),
     newTrust,
 
     -- ** UnshareTarget
-    UnshareTarget,
+    UnshareTarget (UnshareTarget'),
     newUnshareTarget,
 
     -- ** UpdateInfoEntry
-    UpdateInfoEntry,
+    UpdateInfoEntry (UpdateInfoEntry'),
     newUpdateInfoEntry,
 
     -- ** UpdateValue
-    UpdateValue,
+    UpdateValue (UpdateValue'),
     newUpdateValue,
   )
 where

@@ -101,141 +101,141 @@ module Amazonka.Budgets
     -- $operations
 
     -- ** CreateBudget
-    CreateBudget,
+    CreateBudget (CreateBudget'),
     newCreateBudget,
-    CreateBudgetResponse,
+    CreateBudgetResponse (CreateBudgetResponse'),
     newCreateBudgetResponse,
 
     -- ** CreateBudgetAction
-    CreateBudgetAction,
+    CreateBudgetAction (CreateBudgetAction'),
     newCreateBudgetAction,
-    CreateBudgetActionResponse,
+    CreateBudgetActionResponse (CreateBudgetActionResponse'),
     newCreateBudgetActionResponse,
 
     -- ** CreateNotification
-    CreateNotification,
+    CreateNotification (CreateNotification'),
     newCreateNotification,
-    CreateNotificationResponse,
+    CreateNotificationResponse (CreateNotificationResponse'),
     newCreateNotificationResponse,
 
     -- ** CreateSubscriber
-    CreateSubscriber,
+    CreateSubscriber (CreateSubscriber'),
     newCreateSubscriber,
-    CreateSubscriberResponse,
+    CreateSubscriberResponse (CreateSubscriberResponse'),
     newCreateSubscriberResponse,
 
     -- ** DeleteBudget
-    DeleteBudget,
+    DeleteBudget (DeleteBudget'),
     newDeleteBudget,
-    DeleteBudgetResponse,
+    DeleteBudgetResponse (DeleteBudgetResponse'),
     newDeleteBudgetResponse,
 
     -- ** DeleteBudgetAction
-    DeleteBudgetAction,
+    DeleteBudgetAction (DeleteBudgetAction'),
     newDeleteBudgetAction,
-    DeleteBudgetActionResponse,
+    DeleteBudgetActionResponse (DeleteBudgetActionResponse'),
     newDeleteBudgetActionResponse,
 
     -- ** DeleteNotification
-    DeleteNotification,
+    DeleteNotification (DeleteNotification'),
     newDeleteNotification,
-    DeleteNotificationResponse,
+    DeleteNotificationResponse (DeleteNotificationResponse'),
     newDeleteNotificationResponse,
 
     -- ** DeleteSubscriber
-    DeleteSubscriber,
+    DeleteSubscriber (DeleteSubscriber'),
     newDeleteSubscriber,
-    DeleteSubscriberResponse,
+    DeleteSubscriberResponse (DeleteSubscriberResponse'),
     newDeleteSubscriberResponse,
 
     -- ** DescribeBudget
-    DescribeBudget,
+    DescribeBudget (DescribeBudget'),
     newDescribeBudget,
-    DescribeBudgetResponse,
+    DescribeBudgetResponse (DescribeBudgetResponse'),
     newDescribeBudgetResponse,
 
     -- ** DescribeBudgetAction
-    DescribeBudgetAction,
+    DescribeBudgetAction (DescribeBudgetAction'),
     newDescribeBudgetAction,
-    DescribeBudgetActionResponse,
+    DescribeBudgetActionResponse (DescribeBudgetActionResponse'),
     newDescribeBudgetActionResponse,
 
     -- ** DescribeBudgetActionHistories (Paginated)
-    DescribeBudgetActionHistories,
+    DescribeBudgetActionHistories (DescribeBudgetActionHistories'),
     newDescribeBudgetActionHistories,
-    DescribeBudgetActionHistoriesResponse,
+    DescribeBudgetActionHistoriesResponse (DescribeBudgetActionHistoriesResponse'),
     newDescribeBudgetActionHistoriesResponse,
 
     -- ** DescribeBudgetActionsForAccount (Paginated)
-    DescribeBudgetActionsForAccount,
+    DescribeBudgetActionsForAccount (DescribeBudgetActionsForAccount'),
     newDescribeBudgetActionsForAccount,
-    DescribeBudgetActionsForAccountResponse,
+    DescribeBudgetActionsForAccountResponse (DescribeBudgetActionsForAccountResponse'),
     newDescribeBudgetActionsForAccountResponse,
 
     -- ** DescribeBudgetActionsForBudget (Paginated)
-    DescribeBudgetActionsForBudget,
+    DescribeBudgetActionsForBudget (DescribeBudgetActionsForBudget'),
     newDescribeBudgetActionsForBudget,
-    DescribeBudgetActionsForBudgetResponse,
+    DescribeBudgetActionsForBudgetResponse (DescribeBudgetActionsForBudgetResponse'),
     newDescribeBudgetActionsForBudgetResponse,
 
     -- ** DescribeBudgetNotificationsForAccount (Paginated)
-    DescribeBudgetNotificationsForAccount,
+    DescribeBudgetNotificationsForAccount (DescribeBudgetNotificationsForAccount'),
     newDescribeBudgetNotificationsForAccount,
-    DescribeBudgetNotificationsForAccountResponse,
+    DescribeBudgetNotificationsForAccountResponse (DescribeBudgetNotificationsForAccountResponse'),
     newDescribeBudgetNotificationsForAccountResponse,
 
     -- ** DescribeBudgetPerformanceHistory (Paginated)
-    DescribeBudgetPerformanceHistory,
+    DescribeBudgetPerformanceHistory (DescribeBudgetPerformanceHistory'),
     newDescribeBudgetPerformanceHistory,
-    DescribeBudgetPerformanceHistoryResponse,
+    DescribeBudgetPerformanceHistoryResponse (DescribeBudgetPerformanceHistoryResponse'),
     newDescribeBudgetPerformanceHistoryResponse,
 
     -- ** DescribeBudgets (Paginated)
-    DescribeBudgets,
+    DescribeBudgets (DescribeBudgets'),
     newDescribeBudgets,
-    DescribeBudgetsResponse,
+    DescribeBudgetsResponse (DescribeBudgetsResponse'),
     newDescribeBudgetsResponse,
 
     -- ** DescribeNotificationsForBudget (Paginated)
-    DescribeNotificationsForBudget,
+    DescribeNotificationsForBudget (DescribeNotificationsForBudget'),
     newDescribeNotificationsForBudget,
-    DescribeNotificationsForBudgetResponse,
+    DescribeNotificationsForBudgetResponse (DescribeNotificationsForBudgetResponse'),
     newDescribeNotificationsForBudgetResponse,
 
     -- ** DescribeSubscribersForNotification (Paginated)
-    DescribeSubscribersForNotification,
+    DescribeSubscribersForNotification (DescribeSubscribersForNotification'),
     newDescribeSubscribersForNotification,
-    DescribeSubscribersForNotificationResponse,
+    DescribeSubscribersForNotificationResponse (DescribeSubscribersForNotificationResponse'),
     newDescribeSubscribersForNotificationResponse,
 
     -- ** ExecuteBudgetAction
-    ExecuteBudgetAction,
+    ExecuteBudgetAction (ExecuteBudgetAction'),
     newExecuteBudgetAction,
-    ExecuteBudgetActionResponse,
+    ExecuteBudgetActionResponse (ExecuteBudgetActionResponse'),
     newExecuteBudgetActionResponse,
 
     -- ** UpdateBudget
-    UpdateBudget,
+    UpdateBudget (UpdateBudget'),
     newUpdateBudget,
-    UpdateBudgetResponse,
+    UpdateBudgetResponse (UpdateBudgetResponse'),
     newUpdateBudgetResponse,
 
     -- ** UpdateBudgetAction
-    UpdateBudgetAction,
+    UpdateBudgetAction (UpdateBudgetAction'),
     newUpdateBudgetAction,
-    UpdateBudgetActionResponse,
+    UpdateBudgetActionResponse (UpdateBudgetActionResponse'),
     newUpdateBudgetActionResponse,
 
     -- ** UpdateNotification
-    UpdateNotification,
+    UpdateNotification (UpdateNotification'),
     newUpdateNotification,
-    UpdateNotificationResponse,
+    UpdateNotificationResponse (UpdateNotificationResponse'),
     newUpdateNotificationResponse,
 
     -- ** UpdateSubscriber
-    UpdateSubscriber,
+    UpdateSubscriber (UpdateSubscriber'),
     newUpdateSubscriber,
-    UpdateSubscriberResponse,
+    UpdateSubscriberResponse (UpdateSubscriberResponse'),
     newUpdateSubscriberResponse,
 
     -- * Types
@@ -283,87 +283,87 @@ module Amazonka.Budgets
     TimeUnit (..),
 
     -- ** Action
-    Action,
+    Action (Action'),
     newAction,
 
     -- ** ActionHistory
-    ActionHistory,
+    ActionHistory (ActionHistory'),
     newActionHistory,
 
     -- ** ActionHistoryDetails
-    ActionHistoryDetails,
+    ActionHistoryDetails (ActionHistoryDetails'),
     newActionHistoryDetails,
 
     -- ** ActionThreshold
-    ActionThreshold,
+    ActionThreshold (ActionThreshold'),
     newActionThreshold,
 
     -- ** AutoAdjustData
-    AutoAdjustData,
+    AutoAdjustData (AutoAdjustData'),
     newAutoAdjustData,
 
     -- ** Budget
-    Budget,
+    Budget (Budget'),
     newBudget,
 
     -- ** BudgetNotificationsForAccount
-    BudgetNotificationsForAccount,
+    BudgetNotificationsForAccount (BudgetNotificationsForAccount'),
     newBudgetNotificationsForAccount,
 
     -- ** BudgetPerformanceHistory
-    BudgetPerformanceHistory,
+    BudgetPerformanceHistory (BudgetPerformanceHistory'),
     newBudgetPerformanceHistory,
 
     -- ** BudgetedAndActualAmounts
-    BudgetedAndActualAmounts,
+    BudgetedAndActualAmounts (BudgetedAndActualAmounts'),
     newBudgetedAndActualAmounts,
 
     -- ** CalculatedSpend
-    CalculatedSpend,
+    CalculatedSpend (CalculatedSpend'),
     newCalculatedSpend,
 
     -- ** CostTypes
-    CostTypes,
+    CostTypes (CostTypes'),
     newCostTypes,
 
     -- ** Definition
-    Definition,
+    Definition (Definition'),
     newDefinition,
 
     -- ** HistoricalOptions
-    HistoricalOptions,
+    HistoricalOptions (HistoricalOptions'),
     newHistoricalOptions,
 
     -- ** IamActionDefinition
-    IamActionDefinition,
+    IamActionDefinition (IamActionDefinition'),
     newIamActionDefinition,
 
     -- ** Notification
-    Notification,
+    Notification (Notification'),
     newNotification,
 
     -- ** NotificationWithSubscribers
-    NotificationWithSubscribers,
+    NotificationWithSubscribers (NotificationWithSubscribers'),
     newNotificationWithSubscribers,
 
     -- ** ScpActionDefinition
-    ScpActionDefinition,
+    ScpActionDefinition (ScpActionDefinition'),
     newScpActionDefinition,
 
     -- ** Spend
-    Spend,
+    Spend (Spend'),
     newSpend,
 
     -- ** SsmActionDefinition
-    SsmActionDefinition,
+    SsmActionDefinition (SsmActionDefinition'),
     newSsmActionDefinition,
 
     -- ** Subscriber
-    Subscriber,
+    Subscriber (Subscriber'),
     newSubscriber,
 
     -- ** TimePeriod
-    TimePeriod,
+    TimePeriod (TimePeriod'),
     newTimePeriod,
   )
 where

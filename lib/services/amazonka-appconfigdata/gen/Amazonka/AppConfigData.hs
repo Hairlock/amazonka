@@ -81,15 +81,15 @@ module Amazonka.AppConfigData
     -- $operations
 
     -- ** GetLatestConfiguration
-    GetLatestConfiguration,
+    GetLatestConfiguration (GetLatestConfiguration'),
     newGetLatestConfiguration,
-    GetLatestConfigurationResponse,
+    GetLatestConfigurationResponse (GetLatestConfigurationResponse'),
     newGetLatestConfigurationResponse,
 
     -- ** StartConfigurationSession
-    StartConfigurationSession,
+    StartConfigurationSession (StartConfigurationSession'),
     newStartConfigurationSession,
-    StartConfigurationSessionResponse,
+    StartConfigurationSessionResponse (StartConfigurationSessionResponse'),
     newStartConfigurationSessionResponse,
 
     -- * Types

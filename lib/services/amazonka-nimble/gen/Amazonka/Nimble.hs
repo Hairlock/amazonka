@@ -88,297 +88,297 @@ module Amazonka.Nimble
     -- $operations
 
     -- ** AcceptEulas
-    AcceptEulas,
+    AcceptEulas (AcceptEulas'),
     newAcceptEulas,
-    AcceptEulasResponse,
+    AcceptEulasResponse (AcceptEulasResponse'),
     newAcceptEulasResponse,
 
     -- ** CreateLaunchProfile
-    CreateLaunchProfile,
+    CreateLaunchProfile (CreateLaunchProfile'),
     newCreateLaunchProfile,
-    CreateLaunchProfileResponse,
+    CreateLaunchProfileResponse (CreateLaunchProfileResponse'),
     newCreateLaunchProfileResponse,
 
     -- ** CreateStreamingImage
-    CreateStreamingImage,
+    CreateStreamingImage (CreateStreamingImage'),
     newCreateStreamingImage,
-    CreateStreamingImageResponse,
+    CreateStreamingImageResponse (CreateStreamingImageResponse'),
     newCreateStreamingImageResponse,
 
     -- ** CreateStreamingSession
-    CreateStreamingSession,
+    CreateStreamingSession (CreateStreamingSession'),
     newCreateStreamingSession,
-    CreateStreamingSessionResponse,
+    CreateStreamingSessionResponse (CreateStreamingSessionResponse'),
     newCreateStreamingSessionResponse,
 
     -- ** CreateStreamingSessionStream
-    CreateStreamingSessionStream,
+    CreateStreamingSessionStream (CreateStreamingSessionStream'),
     newCreateStreamingSessionStream,
-    CreateStreamingSessionStreamResponse,
+    CreateStreamingSessionStreamResponse (CreateStreamingSessionStreamResponse'),
     newCreateStreamingSessionStreamResponse,
 
     -- ** CreateStudio
-    CreateStudio,
+    CreateStudio (CreateStudio'),
     newCreateStudio,
-    CreateStudioResponse,
+    CreateStudioResponse (CreateStudioResponse'),
     newCreateStudioResponse,
 
     -- ** CreateStudioComponent
-    CreateStudioComponent,
+    CreateStudioComponent (CreateStudioComponent'),
     newCreateStudioComponent,
-    CreateStudioComponentResponse,
+    CreateStudioComponentResponse (CreateStudioComponentResponse'),
     newCreateStudioComponentResponse,
 
     -- ** DeleteLaunchProfile
-    DeleteLaunchProfile,
+    DeleteLaunchProfile (DeleteLaunchProfile'),
     newDeleteLaunchProfile,
-    DeleteLaunchProfileResponse,
+    DeleteLaunchProfileResponse (DeleteLaunchProfileResponse'),
     newDeleteLaunchProfileResponse,
 
     -- ** DeleteLaunchProfileMember
-    DeleteLaunchProfileMember,
+    DeleteLaunchProfileMember (DeleteLaunchProfileMember'),
     newDeleteLaunchProfileMember,
-    DeleteLaunchProfileMemberResponse,
+    DeleteLaunchProfileMemberResponse (DeleteLaunchProfileMemberResponse'),
     newDeleteLaunchProfileMemberResponse,
 
     -- ** DeleteStreamingImage
-    DeleteStreamingImage,
+    DeleteStreamingImage (DeleteStreamingImage'),
     newDeleteStreamingImage,
-    DeleteStreamingImageResponse,
+    DeleteStreamingImageResponse (DeleteStreamingImageResponse'),
     newDeleteStreamingImageResponse,
 
     -- ** DeleteStreamingSession
-    DeleteStreamingSession,
+    DeleteStreamingSession (DeleteStreamingSession'),
     newDeleteStreamingSession,
-    DeleteStreamingSessionResponse,
+    DeleteStreamingSessionResponse (DeleteStreamingSessionResponse'),
     newDeleteStreamingSessionResponse,
 
     -- ** DeleteStudio
-    DeleteStudio,
+    DeleteStudio (DeleteStudio'),
     newDeleteStudio,
-    DeleteStudioResponse,
+    DeleteStudioResponse (DeleteStudioResponse'),
     newDeleteStudioResponse,
 
     -- ** DeleteStudioComponent
-    DeleteStudioComponent,
+    DeleteStudioComponent (DeleteStudioComponent'),
     newDeleteStudioComponent,
-    DeleteStudioComponentResponse,
+    DeleteStudioComponentResponse (DeleteStudioComponentResponse'),
     newDeleteStudioComponentResponse,
 
     -- ** DeleteStudioMember
-    DeleteStudioMember,
+    DeleteStudioMember (DeleteStudioMember'),
     newDeleteStudioMember,
-    DeleteStudioMemberResponse,
+    DeleteStudioMemberResponse (DeleteStudioMemberResponse'),
     newDeleteStudioMemberResponse,
 
     -- ** GetEula
-    GetEula,
+    GetEula (GetEula'),
     newGetEula,
-    GetEulaResponse,
+    GetEulaResponse (GetEulaResponse'),
     newGetEulaResponse,
 
     -- ** GetLaunchProfile
-    GetLaunchProfile,
+    GetLaunchProfile (GetLaunchProfile'),
     newGetLaunchProfile,
-    GetLaunchProfileResponse,
+    GetLaunchProfileResponse (GetLaunchProfileResponse'),
     newGetLaunchProfileResponse,
 
     -- ** GetLaunchProfileDetails
-    GetLaunchProfileDetails,
+    GetLaunchProfileDetails (GetLaunchProfileDetails'),
     newGetLaunchProfileDetails,
-    GetLaunchProfileDetailsResponse,
+    GetLaunchProfileDetailsResponse (GetLaunchProfileDetailsResponse'),
     newGetLaunchProfileDetailsResponse,
 
     -- ** GetLaunchProfileInitialization
-    GetLaunchProfileInitialization,
+    GetLaunchProfileInitialization (GetLaunchProfileInitialization'),
     newGetLaunchProfileInitialization,
-    GetLaunchProfileInitializationResponse,
+    GetLaunchProfileInitializationResponse (GetLaunchProfileInitializationResponse'),
     newGetLaunchProfileInitializationResponse,
 
     -- ** GetLaunchProfileMember
-    GetLaunchProfileMember,
+    GetLaunchProfileMember (GetLaunchProfileMember'),
     newGetLaunchProfileMember,
-    GetLaunchProfileMemberResponse,
+    GetLaunchProfileMemberResponse (GetLaunchProfileMemberResponse'),
     newGetLaunchProfileMemberResponse,
 
     -- ** GetStreamingImage
-    GetStreamingImage,
+    GetStreamingImage (GetStreamingImage'),
     newGetStreamingImage,
-    GetStreamingImageResponse,
+    GetStreamingImageResponse (GetStreamingImageResponse'),
     newGetStreamingImageResponse,
 
     -- ** GetStreamingSession
-    GetStreamingSession,
+    GetStreamingSession (GetStreamingSession'),
     newGetStreamingSession,
-    GetStreamingSessionResponse,
+    GetStreamingSessionResponse (GetStreamingSessionResponse'),
     newGetStreamingSessionResponse,
 
     -- ** GetStreamingSessionBackup
-    GetStreamingSessionBackup,
+    GetStreamingSessionBackup (GetStreamingSessionBackup'),
     newGetStreamingSessionBackup,
-    GetStreamingSessionBackupResponse,
+    GetStreamingSessionBackupResponse (GetStreamingSessionBackupResponse'),
     newGetStreamingSessionBackupResponse,
 
     -- ** GetStreamingSessionStream
-    GetStreamingSessionStream,
+    GetStreamingSessionStream (GetStreamingSessionStream'),
     newGetStreamingSessionStream,
-    GetStreamingSessionStreamResponse,
+    GetStreamingSessionStreamResponse (GetStreamingSessionStreamResponse'),
     newGetStreamingSessionStreamResponse,
 
     -- ** GetStudio
-    GetStudio,
+    GetStudio (GetStudio'),
     newGetStudio,
-    GetStudioResponse,
+    GetStudioResponse (GetStudioResponse'),
     newGetStudioResponse,
 
     -- ** GetStudioComponent
-    GetStudioComponent,
+    GetStudioComponent (GetStudioComponent'),
     newGetStudioComponent,
-    GetStudioComponentResponse,
+    GetStudioComponentResponse (GetStudioComponentResponse'),
     newGetStudioComponentResponse,
 
     -- ** GetStudioMember
-    GetStudioMember,
+    GetStudioMember (GetStudioMember'),
     newGetStudioMember,
-    GetStudioMemberResponse,
+    GetStudioMemberResponse (GetStudioMemberResponse'),
     newGetStudioMemberResponse,
 
     -- ** ListEulaAcceptances (Paginated)
-    ListEulaAcceptances,
+    ListEulaAcceptances (ListEulaAcceptances'),
     newListEulaAcceptances,
-    ListEulaAcceptancesResponse,
+    ListEulaAcceptancesResponse (ListEulaAcceptancesResponse'),
     newListEulaAcceptancesResponse,
 
     -- ** ListEulas (Paginated)
-    ListEulas,
+    ListEulas (ListEulas'),
     newListEulas,
-    ListEulasResponse,
+    ListEulasResponse (ListEulasResponse'),
     newListEulasResponse,
 
     -- ** ListLaunchProfileMembers (Paginated)
-    ListLaunchProfileMembers,
+    ListLaunchProfileMembers (ListLaunchProfileMembers'),
     newListLaunchProfileMembers,
-    ListLaunchProfileMembersResponse,
+    ListLaunchProfileMembersResponse (ListLaunchProfileMembersResponse'),
     newListLaunchProfileMembersResponse,
 
     -- ** ListLaunchProfiles (Paginated)
-    ListLaunchProfiles,
+    ListLaunchProfiles (ListLaunchProfiles'),
     newListLaunchProfiles,
-    ListLaunchProfilesResponse,
+    ListLaunchProfilesResponse (ListLaunchProfilesResponse'),
     newListLaunchProfilesResponse,
 
     -- ** ListStreamingImages (Paginated)
-    ListStreamingImages,
+    ListStreamingImages (ListStreamingImages'),
     newListStreamingImages,
-    ListStreamingImagesResponse,
+    ListStreamingImagesResponse (ListStreamingImagesResponse'),
     newListStreamingImagesResponse,
 
     -- ** ListStreamingSessionBackups (Paginated)
-    ListStreamingSessionBackups,
+    ListStreamingSessionBackups (ListStreamingSessionBackups'),
     newListStreamingSessionBackups,
-    ListStreamingSessionBackupsResponse,
+    ListStreamingSessionBackupsResponse (ListStreamingSessionBackupsResponse'),
     newListStreamingSessionBackupsResponse,
 
     -- ** ListStreamingSessions (Paginated)
-    ListStreamingSessions,
+    ListStreamingSessions (ListStreamingSessions'),
     newListStreamingSessions,
-    ListStreamingSessionsResponse,
+    ListStreamingSessionsResponse (ListStreamingSessionsResponse'),
     newListStreamingSessionsResponse,
 
     -- ** ListStudioComponents (Paginated)
-    ListStudioComponents,
+    ListStudioComponents (ListStudioComponents'),
     newListStudioComponents,
-    ListStudioComponentsResponse,
+    ListStudioComponentsResponse (ListStudioComponentsResponse'),
     newListStudioComponentsResponse,
 
     -- ** ListStudioMembers (Paginated)
-    ListStudioMembers,
+    ListStudioMembers (ListStudioMembers'),
     newListStudioMembers,
-    ListStudioMembersResponse,
+    ListStudioMembersResponse (ListStudioMembersResponse'),
     newListStudioMembersResponse,
 
     -- ** ListStudios (Paginated)
-    ListStudios,
+    ListStudios (ListStudios'),
     newListStudios,
-    ListStudiosResponse,
+    ListStudiosResponse (ListStudiosResponse'),
     newListStudiosResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** PutLaunchProfileMembers
-    PutLaunchProfileMembers,
+    PutLaunchProfileMembers (PutLaunchProfileMembers'),
     newPutLaunchProfileMembers,
-    PutLaunchProfileMembersResponse,
+    PutLaunchProfileMembersResponse (PutLaunchProfileMembersResponse'),
     newPutLaunchProfileMembersResponse,
 
     -- ** PutStudioMembers
-    PutStudioMembers,
+    PutStudioMembers (PutStudioMembers'),
     newPutStudioMembers,
-    PutStudioMembersResponse,
+    PutStudioMembersResponse (PutStudioMembersResponse'),
     newPutStudioMembersResponse,
 
     -- ** StartStreamingSession
-    StartStreamingSession,
+    StartStreamingSession (StartStreamingSession'),
     newStartStreamingSession,
-    StartStreamingSessionResponse,
+    StartStreamingSessionResponse (StartStreamingSessionResponse'),
     newStartStreamingSessionResponse,
 
     -- ** StartStudioSSOConfigurationRepair
-    StartStudioSSOConfigurationRepair,
+    StartStudioSSOConfigurationRepair (StartStudioSSOConfigurationRepair'),
     newStartStudioSSOConfigurationRepair,
-    StartStudioSSOConfigurationRepairResponse,
+    StartStudioSSOConfigurationRepairResponse (StartStudioSSOConfigurationRepairResponse'),
     newStartStudioSSOConfigurationRepairResponse,
 
     -- ** StopStreamingSession
-    StopStreamingSession,
+    StopStreamingSession (StopStreamingSession'),
     newStopStreamingSession,
-    StopStreamingSessionResponse,
+    StopStreamingSessionResponse (StopStreamingSessionResponse'),
     newStopStreamingSessionResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateLaunchProfile
-    UpdateLaunchProfile,
+    UpdateLaunchProfile (UpdateLaunchProfile'),
     newUpdateLaunchProfile,
-    UpdateLaunchProfileResponse,
+    UpdateLaunchProfileResponse (UpdateLaunchProfileResponse'),
     newUpdateLaunchProfileResponse,
 
     -- ** UpdateLaunchProfileMember
-    UpdateLaunchProfileMember,
+    UpdateLaunchProfileMember (UpdateLaunchProfileMember'),
     newUpdateLaunchProfileMember,
-    UpdateLaunchProfileMemberResponse,
+    UpdateLaunchProfileMemberResponse (UpdateLaunchProfileMemberResponse'),
     newUpdateLaunchProfileMemberResponse,
 
     -- ** UpdateStreamingImage
-    UpdateStreamingImage,
+    UpdateStreamingImage (UpdateStreamingImage'),
     newUpdateStreamingImage,
-    UpdateStreamingImageResponse,
+    UpdateStreamingImageResponse (UpdateStreamingImageResponse'),
     newUpdateStreamingImageResponse,
 
     -- ** UpdateStudio
-    UpdateStudio,
+    UpdateStudio (UpdateStudio'),
     newUpdateStudio,
-    UpdateStudioResponse,
+    UpdateStudioResponse (UpdateStudioResponse'),
     newUpdateStudioResponse,
 
     -- ** UpdateStudioComponent
-    UpdateStudioComponent,
+    UpdateStudioComponent (UpdateStudioComponent'),
     newUpdateStudioComponent,
-    UpdateStudioComponentResponse,
+    UpdateStudioComponentResponse (UpdateStudioComponentResponse'),
     newUpdateStudioComponentResponse,
 
     -- * Types
@@ -474,139 +474,139 @@ module Amazonka.Nimble
     VolumeRetentionMode (..),
 
     -- ** ActiveDirectoryComputerAttribute
-    ActiveDirectoryComputerAttribute,
+    ActiveDirectoryComputerAttribute (ActiveDirectoryComputerAttribute'),
     newActiveDirectoryComputerAttribute,
 
     -- ** ActiveDirectoryConfiguration
-    ActiveDirectoryConfiguration,
+    ActiveDirectoryConfiguration (ActiveDirectoryConfiguration'),
     newActiveDirectoryConfiguration,
 
     -- ** ComputeFarmConfiguration
-    ComputeFarmConfiguration,
+    ComputeFarmConfiguration (ComputeFarmConfiguration'),
     newComputeFarmConfiguration,
 
     -- ** Eula
-    Eula,
+    Eula (Eula'),
     newEula,
 
     -- ** EulaAcceptance
-    EulaAcceptance,
+    EulaAcceptance (EulaAcceptance'),
     newEulaAcceptance,
 
     -- ** LaunchProfile
-    LaunchProfile,
+    LaunchProfile (LaunchProfile'),
     newLaunchProfile,
 
     -- ** LaunchProfileInitialization
-    LaunchProfileInitialization,
+    LaunchProfileInitialization (LaunchProfileInitialization'),
     newLaunchProfileInitialization,
 
     -- ** LaunchProfileInitializationActiveDirectory
-    LaunchProfileInitializationActiveDirectory,
+    LaunchProfileInitializationActiveDirectory (LaunchProfileInitializationActiveDirectory'),
     newLaunchProfileInitializationActiveDirectory,
 
     -- ** LaunchProfileInitializationScript
-    LaunchProfileInitializationScript,
+    LaunchProfileInitializationScript (LaunchProfileInitializationScript'),
     newLaunchProfileInitializationScript,
 
     -- ** LaunchProfileMembership
-    LaunchProfileMembership,
+    LaunchProfileMembership (LaunchProfileMembership'),
     newLaunchProfileMembership,
 
     -- ** LicenseServiceConfiguration
-    LicenseServiceConfiguration,
+    LicenseServiceConfiguration (LicenseServiceConfiguration'),
     newLicenseServiceConfiguration,
 
     -- ** NewLaunchProfileMember
-    NewLaunchProfileMember,
+    NewLaunchProfileMember (NewLaunchProfileMember'),
     newNewLaunchProfileMember,
 
     -- ** NewStudioMember
-    NewStudioMember,
+    NewStudioMember (NewStudioMember'),
     newNewStudioMember,
 
     -- ** ScriptParameterKeyValue
-    ScriptParameterKeyValue,
+    ScriptParameterKeyValue (ScriptParameterKeyValue'),
     newScriptParameterKeyValue,
 
     -- ** SharedFileSystemConfiguration
-    SharedFileSystemConfiguration,
+    SharedFileSystemConfiguration (SharedFileSystemConfiguration'),
     newSharedFileSystemConfiguration,
 
     -- ** StreamConfiguration
-    StreamConfiguration,
+    StreamConfiguration (StreamConfiguration'),
     newStreamConfiguration,
 
     -- ** StreamConfigurationCreate
-    StreamConfigurationCreate,
+    StreamConfigurationCreate (StreamConfigurationCreate'),
     newStreamConfigurationCreate,
 
     -- ** StreamConfigurationSessionBackup
-    StreamConfigurationSessionBackup,
+    StreamConfigurationSessionBackup (StreamConfigurationSessionBackup'),
     newStreamConfigurationSessionBackup,
 
     -- ** StreamConfigurationSessionStorage
-    StreamConfigurationSessionStorage,
+    StreamConfigurationSessionStorage (StreamConfigurationSessionStorage'),
     newStreamConfigurationSessionStorage,
 
     -- ** StreamingImage
-    StreamingImage,
+    StreamingImage (StreamingImage'),
     newStreamingImage,
 
     -- ** StreamingImageEncryptionConfiguration
-    StreamingImageEncryptionConfiguration,
+    StreamingImageEncryptionConfiguration (StreamingImageEncryptionConfiguration'),
     newStreamingImageEncryptionConfiguration,
 
     -- ** StreamingSession
-    StreamingSession,
+    StreamingSession (StreamingSession'),
     newStreamingSession,
 
     -- ** StreamingSessionBackup
-    StreamingSessionBackup,
+    StreamingSessionBackup (StreamingSessionBackup'),
     newStreamingSessionBackup,
 
     -- ** StreamingSessionStorageRoot
-    StreamingSessionStorageRoot,
+    StreamingSessionStorageRoot (StreamingSessionStorageRoot'),
     newStreamingSessionStorageRoot,
 
     -- ** StreamingSessionStream
-    StreamingSessionStream,
+    StreamingSessionStream (StreamingSessionStream'),
     newStreamingSessionStream,
 
     -- ** Studio
-    Studio,
+    Studio (Studio'),
     newStudio,
 
     -- ** StudioComponent
-    StudioComponent,
+    StudioComponent (StudioComponent'),
     newStudioComponent,
 
     -- ** StudioComponentConfiguration
-    StudioComponentConfiguration,
+    StudioComponentConfiguration (StudioComponentConfiguration'),
     newStudioComponentConfiguration,
 
     -- ** StudioComponentInitializationScript
-    StudioComponentInitializationScript,
+    StudioComponentInitializationScript (StudioComponentInitializationScript'),
     newStudioComponentInitializationScript,
 
     -- ** StudioComponentSummary
-    StudioComponentSummary,
+    StudioComponentSummary (StudioComponentSummary'),
     newStudioComponentSummary,
 
     -- ** StudioEncryptionConfiguration
-    StudioEncryptionConfiguration,
+    StudioEncryptionConfiguration (StudioEncryptionConfiguration'),
     newStudioEncryptionConfiguration,
 
     -- ** StudioMembership
-    StudioMembership,
+    StudioMembership (StudioMembership'),
     newStudioMembership,
 
     -- ** ValidationResult
-    ValidationResult,
+    ValidationResult (ValidationResult'),
     newValidationResult,
 
     -- ** VolumeConfiguration
-    VolumeConfiguration,
+    VolumeConfiguration (VolumeConfiguration'),
     newVolumeConfiguration,
   )
 where

@@ -71,81 +71,81 @@ module Amazonka.KeySpaces
     -- $operations
 
     -- ** CreateKeyspace
-    CreateKeyspace,
+    CreateKeyspace (CreateKeyspace'),
     newCreateKeyspace,
-    CreateKeyspaceResponse,
+    CreateKeyspaceResponse (CreateKeyspaceResponse'),
     newCreateKeyspaceResponse,
 
     -- ** CreateTable
-    CreateTable,
+    CreateTable (CreateTable'),
     newCreateTable,
-    CreateTableResponse,
+    CreateTableResponse (CreateTableResponse'),
     newCreateTableResponse,
 
     -- ** DeleteKeyspace
-    DeleteKeyspace,
+    DeleteKeyspace (DeleteKeyspace'),
     newDeleteKeyspace,
-    DeleteKeyspaceResponse,
+    DeleteKeyspaceResponse (DeleteKeyspaceResponse'),
     newDeleteKeyspaceResponse,
 
     -- ** DeleteTable
-    DeleteTable,
+    DeleteTable (DeleteTable'),
     newDeleteTable,
-    DeleteTableResponse,
+    DeleteTableResponse (DeleteTableResponse'),
     newDeleteTableResponse,
 
     -- ** GetKeyspace
-    GetKeyspace,
+    GetKeyspace (GetKeyspace'),
     newGetKeyspace,
-    GetKeyspaceResponse,
+    GetKeyspaceResponse (GetKeyspaceResponse'),
     newGetKeyspaceResponse,
 
     -- ** GetTable
-    GetTable,
+    GetTable (GetTable'),
     newGetTable,
-    GetTableResponse,
+    GetTableResponse (GetTableResponse'),
     newGetTableResponse,
 
     -- ** ListKeyspaces (Paginated)
-    ListKeyspaces,
+    ListKeyspaces (ListKeyspaces'),
     newListKeyspaces,
-    ListKeyspacesResponse,
+    ListKeyspacesResponse (ListKeyspacesResponse'),
     newListKeyspacesResponse,
 
     -- ** ListTables (Paginated)
-    ListTables,
+    ListTables (ListTables'),
     newListTables,
-    ListTablesResponse,
+    ListTablesResponse (ListTablesResponse'),
     newListTablesResponse,
 
     -- ** ListTagsForResource (Paginated)
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** RestoreTable
-    RestoreTable,
+    RestoreTable (RestoreTable'),
     newRestoreTable,
-    RestoreTableResponse,
+    RestoreTableResponse (RestoreTableResponse'),
     newRestoreTableResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateTable
-    UpdateTable,
+    UpdateTable (UpdateTable'),
     newUpdateTable,
-    UpdateTableResponse,
+    UpdateTableResponse (UpdateTableResponse'),
     newUpdateTableResponse,
 
     -- * Types
@@ -169,63 +169,63 @@ module Amazonka.KeySpaces
     TimeToLiveStatus (..),
 
     -- ** CapacitySpecification
-    CapacitySpecification,
+    CapacitySpecification (CapacitySpecification'),
     newCapacitySpecification,
 
     -- ** CapacitySpecificationSummary
-    CapacitySpecificationSummary,
+    CapacitySpecificationSummary (CapacitySpecificationSummary'),
     newCapacitySpecificationSummary,
 
     -- ** ClusteringKey
-    ClusteringKey,
+    ClusteringKey (ClusteringKey'),
     newClusteringKey,
 
     -- ** ColumnDefinition
-    ColumnDefinition,
+    ColumnDefinition (ColumnDefinition'),
     newColumnDefinition,
 
     -- ** Comment
-    Comment,
+    Comment (Comment'),
     newComment,
 
     -- ** EncryptionSpecification
-    EncryptionSpecification,
+    EncryptionSpecification (EncryptionSpecification'),
     newEncryptionSpecification,
 
     -- ** KeyspaceSummary
-    KeyspaceSummary,
+    KeyspaceSummary (KeyspaceSummary'),
     newKeyspaceSummary,
 
     -- ** PartitionKey
-    PartitionKey,
+    PartitionKey (PartitionKey'),
     newPartitionKey,
 
     -- ** PointInTimeRecovery
-    PointInTimeRecovery,
+    PointInTimeRecovery (PointInTimeRecovery'),
     newPointInTimeRecovery,
 
     -- ** PointInTimeRecoverySummary
-    PointInTimeRecoverySummary,
+    PointInTimeRecoverySummary (PointInTimeRecoverySummary'),
     newPointInTimeRecoverySummary,
 
     -- ** SchemaDefinition
-    SchemaDefinition,
+    SchemaDefinition (SchemaDefinition'),
     newSchemaDefinition,
 
     -- ** StaticColumn
-    StaticColumn,
+    StaticColumn (StaticColumn'),
     newStaticColumn,
 
     -- ** TableSummary
-    TableSummary,
+    TableSummary (TableSummary'),
     newTableSummary,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** TimeToLive
-    TimeToLive,
+    TimeToLive (TimeToLive'),
     newTimeToLive,
   )
 where

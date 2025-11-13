@@ -55,119 +55,119 @@ module Amazonka.AppIntegrationS
     -- $operations
 
     -- ** CreateDataIntegration
-    CreateDataIntegration,
+    CreateDataIntegration (CreateDataIntegration'),
     newCreateDataIntegration,
-    CreateDataIntegrationResponse,
+    CreateDataIntegrationResponse (CreateDataIntegrationResponse'),
     newCreateDataIntegrationResponse,
 
     -- ** CreateEventIntegration
-    CreateEventIntegration,
+    CreateEventIntegration (CreateEventIntegration'),
     newCreateEventIntegration,
-    CreateEventIntegrationResponse,
+    CreateEventIntegrationResponse (CreateEventIntegrationResponse'),
     newCreateEventIntegrationResponse,
 
     -- ** DeleteDataIntegration
-    DeleteDataIntegration,
+    DeleteDataIntegration (DeleteDataIntegration'),
     newDeleteDataIntegration,
-    DeleteDataIntegrationResponse,
+    DeleteDataIntegrationResponse (DeleteDataIntegrationResponse'),
     newDeleteDataIntegrationResponse,
 
     -- ** DeleteEventIntegration
-    DeleteEventIntegration,
+    DeleteEventIntegration (DeleteEventIntegration'),
     newDeleteEventIntegration,
-    DeleteEventIntegrationResponse,
+    DeleteEventIntegrationResponse (DeleteEventIntegrationResponse'),
     newDeleteEventIntegrationResponse,
 
     -- ** GetDataIntegration
-    GetDataIntegration,
+    GetDataIntegration (GetDataIntegration'),
     newGetDataIntegration,
-    GetDataIntegrationResponse,
+    GetDataIntegrationResponse (GetDataIntegrationResponse'),
     newGetDataIntegrationResponse,
 
     -- ** GetEventIntegration
-    GetEventIntegration,
+    GetEventIntegration (GetEventIntegration'),
     newGetEventIntegration,
-    GetEventIntegrationResponse,
+    GetEventIntegrationResponse (GetEventIntegrationResponse'),
     newGetEventIntegrationResponse,
 
     -- ** ListDataIntegrationAssociations
-    ListDataIntegrationAssociations,
+    ListDataIntegrationAssociations (ListDataIntegrationAssociations'),
     newListDataIntegrationAssociations,
-    ListDataIntegrationAssociationsResponse,
+    ListDataIntegrationAssociationsResponse (ListDataIntegrationAssociationsResponse'),
     newListDataIntegrationAssociationsResponse,
 
     -- ** ListDataIntegrations
-    ListDataIntegrations,
+    ListDataIntegrations (ListDataIntegrations'),
     newListDataIntegrations,
-    ListDataIntegrationsResponse,
+    ListDataIntegrationsResponse (ListDataIntegrationsResponse'),
     newListDataIntegrationsResponse,
 
     -- ** ListEventIntegrationAssociations
-    ListEventIntegrationAssociations,
+    ListEventIntegrationAssociations (ListEventIntegrationAssociations'),
     newListEventIntegrationAssociations,
-    ListEventIntegrationAssociationsResponse,
+    ListEventIntegrationAssociationsResponse (ListEventIntegrationAssociationsResponse'),
     newListEventIntegrationAssociationsResponse,
 
     -- ** ListEventIntegrations
-    ListEventIntegrations,
+    ListEventIntegrations (ListEventIntegrations'),
     newListEventIntegrations,
-    ListEventIntegrationsResponse,
+    ListEventIntegrationsResponse (ListEventIntegrationsResponse'),
     newListEventIntegrationsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateDataIntegration
-    UpdateDataIntegration,
+    UpdateDataIntegration (UpdateDataIntegration'),
     newUpdateDataIntegration,
-    UpdateDataIntegrationResponse,
+    UpdateDataIntegrationResponse (UpdateDataIntegrationResponse'),
     newUpdateDataIntegrationResponse,
 
     -- ** UpdateEventIntegration
-    UpdateEventIntegration,
+    UpdateEventIntegration (UpdateEventIntegration'),
     newUpdateEventIntegration,
-    UpdateEventIntegrationResponse,
+    UpdateEventIntegrationResponse (UpdateEventIntegrationResponse'),
     newUpdateEventIntegrationResponse,
 
     -- * Types
 
     -- ** DataIntegrationAssociationSummary
-    DataIntegrationAssociationSummary,
+    DataIntegrationAssociationSummary (DataIntegrationAssociationSummary'),
     newDataIntegrationAssociationSummary,
 
     -- ** DataIntegrationSummary
-    DataIntegrationSummary,
+    DataIntegrationSummary (DataIntegrationSummary'),
     newDataIntegrationSummary,
 
     -- ** EventFilter
-    EventFilter,
+    EventFilter (EventFilter'),
     newEventFilter,
 
     -- ** EventIntegration
-    EventIntegration,
+    EventIntegration (EventIntegration'),
     newEventIntegration,
 
     -- ** EventIntegrationAssociation
-    EventIntegrationAssociation,
+    EventIntegrationAssociation (EventIntegrationAssociation'),
     newEventIntegrationAssociation,
 
     -- ** ScheduleConfiguration
-    ScheduleConfiguration,
+    ScheduleConfiguration (ScheduleConfiguration'),
     newScheduleConfiguration,
   )
 where

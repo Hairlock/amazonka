@@ -226,381 +226,381 @@ module Amazonka.Rekognition
     -- $operations
 
     -- ** CompareFaces
-    CompareFaces,
+    CompareFaces (CompareFaces'),
     newCompareFaces,
-    CompareFacesResponse,
+    CompareFacesResponse (CompareFacesResponse'),
     newCompareFacesResponse,
 
     -- ** CopyProjectVersion
-    CopyProjectVersion,
+    CopyProjectVersion (CopyProjectVersion'),
     newCopyProjectVersion,
-    CopyProjectVersionResponse,
+    CopyProjectVersionResponse (CopyProjectVersionResponse'),
     newCopyProjectVersionResponse,
 
     -- ** CreateCollection
-    CreateCollection,
+    CreateCollection (CreateCollection'),
     newCreateCollection,
-    CreateCollectionResponse,
+    CreateCollectionResponse (CreateCollectionResponse'),
     newCreateCollectionResponse,
 
     -- ** CreateDataset
-    CreateDataset,
+    CreateDataset (CreateDataset'),
     newCreateDataset,
-    CreateDatasetResponse,
+    CreateDatasetResponse (CreateDatasetResponse'),
     newCreateDatasetResponse,
 
     -- ** CreateProject
-    CreateProject,
+    CreateProject (CreateProject'),
     newCreateProject,
-    CreateProjectResponse,
+    CreateProjectResponse (CreateProjectResponse'),
     newCreateProjectResponse,
 
     -- ** CreateProjectVersion
-    CreateProjectVersion,
+    CreateProjectVersion (CreateProjectVersion'),
     newCreateProjectVersion,
-    CreateProjectVersionResponse,
+    CreateProjectVersionResponse (CreateProjectVersionResponse'),
     newCreateProjectVersionResponse,
 
     -- ** CreateStreamProcessor
-    CreateStreamProcessor,
+    CreateStreamProcessor (CreateStreamProcessor'),
     newCreateStreamProcessor,
-    CreateStreamProcessorResponse,
+    CreateStreamProcessorResponse (CreateStreamProcessorResponse'),
     newCreateStreamProcessorResponse,
 
     -- ** DeleteCollection
-    DeleteCollection,
+    DeleteCollection (DeleteCollection'),
     newDeleteCollection,
-    DeleteCollectionResponse,
+    DeleteCollectionResponse (DeleteCollectionResponse'),
     newDeleteCollectionResponse,
 
     -- ** DeleteDataset
-    DeleteDataset,
+    DeleteDataset (DeleteDataset'),
     newDeleteDataset,
-    DeleteDatasetResponse,
+    DeleteDatasetResponse (DeleteDatasetResponse'),
     newDeleteDatasetResponse,
 
     -- ** DeleteFaces
-    DeleteFaces,
+    DeleteFaces (DeleteFaces'),
     newDeleteFaces,
-    DeleteFacesResponse,
+    DeleteFacesResponse (DeleteFacesResponse'),
     newDeleteFacesResponse,
 
     -- ** DeleteProject
-    DeleteProject,
+    DeleteProject (DeleteProject'),
     newDeleteProject,
-    DeleteProjectResponse,
+    DeleteProjectResponse (DeleteProjectResponse'),
     newDeleteProjectResponse,
 
     -- ** DeleteProjectPolicy
-    DeleteProjectPolicy,
+    DeleteProjectPolicy (DeleteProjectPolicy'),
     newDeleteProjectPolicy,
-    DeleteProjectPolicyResponse,
+    DeleteProjectPolicyResponse (DeleteProjectPolicyResponse'),
     newDeleteProjectPolicyResponse,
 
     -- ** DeleteProjectVersion
-    DeleteProjectVersion,
+    DeleteProjectVersion (DeleteProjectVersion'),
     newDeleteProjectVersion,
-    DeleteProjectVersionResponse,
+    DeleteProjectVersionResponse (DeleteProjectVersionResponse'),
     newDeleteProjectVersionResponse,
 
     -- ** DeleteStreamProcessor
-    DeleteStreamProcessor,
+    DeleteStreamProcessor (DeleteStreamProcessor'),
     newDeleteStreamProcessor,
-    DeleteStreamProcessorResponse,
+    DeleteStreamProcessorResponse (DeleteStreamProcessorResponse'),
     newDeleteStreamProcessorResponse,
 
     -- ** DescribeCollection
-    DescribeCollection,
+    DescribeCollection (DescribeCollection'),
     newDescribeCollection,
-    DescribeCollectionResponse,
+    DescribeCollectionResponse (DescribeCollectionResponse'),
     newDescribeCollectionResponse,
 
     -- ** DescribeDataset
-    DescribeDataset,
+    DescribeDataset (DescribeDataset'),
     newDescribeDataset,
-    DescribeDatasetResponse,
+    DescribeDatasetResponse (DescribeDatasetResponse'),
     newDescribeDatasetResponse,
 
     -- ** DescribeProjectVersions (Paginated)
-    DescribeProjectVersions,
+    DescribeProjectVersions (DescribeProjectVersions'),
     newDescribeProjectVersions,
-    DescribeProjectVersionsResponse,
+    DescribeProjectVersionsResponse (DescribeProjectVersionsResponse'),
     newDescribeProjectVersionsResponse,
 
     -- ** DescribeProjects (Paginated)
-    DescribeProjects,
+    DescribeProjects (DescribeProjects'),
     newDescribeProjects,
-    DescribeProjectsResponse,
+    DescribeProjectsResponse (DescribeProjectsResponse'),
     newDescribeProjectsResponse,
 
     -- ** DescribeStreamProcessor
-    DescribeStreamProcessor,
+    DescribeStreamProcessor (DescribeStreamProcessor'),
     newDescribeStreamProcessor,
-    DescribeStreamProcessorResponse,
+    DescribeStreamProcessorResponse (DescribeStreamProcessorResponse'),
     newDescribeStreamProcessorResponse,
 
     -- ** DetectCustomLabels
-    DetectCustomLabels,
+    DetectCustomLabels (DetectCustomLabels'),
     newDetectCustomLabels,
-    DetectCustomLabelsResponse,
+    DetectCustomLabelsResponse (DetectCustomLabelsResponse'),
     newDetectCustomLabelsResponse,
 
     -- ** DetectFaces
-    DetectFaces,
+    DetectFaces (DetectFaces'),
     newDetectFaces,
-    DetectFacesResponse,
+    DetectFacesResponse (DetectFacesResponse'),
     newDetectFacesResponse,
 
     -- ** DetectLabels
-    DetectLabels,
+    DetectLabels (DetectLabels'),
     newDetectLabels,
-    DetectLabelsResponse,
+    DetectLabelsResponse (DetectLabelsResponse'),
     newDetectLabelsResponse,
 
     -- ** DetectModerationLabels
-    DetectModerationLabels,
+    DetectModerationLabels (DetectModerationLabels'),
     newDetectModerationLabels,
-    DetectModerationLabelsResponse,
+    DetectModerationLabelsResponse (DetectModerationLabelsResponse'),
     newDetectModerationLabelsResponse,
 
     -- ** DetectProtectiveEquipment
-    DetectProtectiveEquipment,
+    DetectProtectiveEquipment (DetectProtectiveEquipment'),
     newDetectProtectiveEquipment,
-    DetectProtectiveEquipmentResponse,
+    DetectProtectiveEquipmentResponse (DetectProtectiveEquipmentResponse'),
     newDetectProtectiveEquipmentResponse,
 
     -- ** DetectText
-    DetectText,
+    DetectText (DetectText'),
     newDetectText,
-    DetectTextResponse,
+    DetectTextResponse (DetectTextResponse'),
     newDetectTextResponse,
 
     -- ** DistributeDatasetEntries
-    DistributeDatasetEntries,
+    DistributeDatasetEntries (DistributeDatasetEntries'),
     newDistributeDatasetEntries,
-    DistributeDatasetEntriesResponse,
+    DistributeDatasetEntriesResponse (DistributeDatasetEntriesResponse'),
     newDistributeDatasetEntriesResponse,
 
     -- ** GetCelebrityInfo
-    GetCelebrityInfo,
+    GetCelebrityInfo (GetCelebrityInfo'),
     newGetCelebrityInfo,
-    GetCelebrityInfoResponse,
+    GetCelebrityInfoResponse (GetCelebrityInfoResponse'),
     newGetCelebrityInfoResponse,
 
     -- ** GetCelebrityRecognition
-    GetCelebrityRecognition,
+    GetCelebrityRecognition (GetCelebrityRecognition'),
     newGetCelebrityRecognition,
-    GetCelebrityRecognitionResponse,
+    GetCelebrityRecognitionResponse (GetCelebrityRecognitionResponse'),
     newGetCelebrityRecognitionResponse,
 
     -- ** GetContentModeration
-    GetContentModeration,
+    GetContentModeration (GetContentModeration'),
     newGetContentModeration,
-    GetContentModerationResponse,
+    GetContentModerationResponse (GetContentModerationResponse'),
     newGetContentModerationResponse,
 
     -- ** GetFaceDetection
-    GetFaceDetection,
+    GetFaceDetection (GetFaceDetection'),
     newGetFaceDetection,
-    GetFaceDetectionResponse,
+    GetFaceDetectionResponse (GetFaceDetectionResponse'),
     newGetFaceDetectionResponse,
 
     -- ** GetFaceSearch
-    GetFaceSearch,
+    GetFaceSearch (GetFaceSearch'),
     newGetFaceSearch,
-    GetFaceSearchResponse,
+    GetFaceSearchResponse (GetFaceSearchResponse'),
     newGetFaceSearchResponse,
 
     -- ** GetLabelDetection
-    GetLabelDetection,
+    GetLabelDetection (GetLabelDetection'),
     newGetLabelDetection,
-    GetLabelDetectionResponse,
+    GetLabelDetectionResponse (GetLabelDetectionResponse'),
     newGetLabelDetectionResponse,
 
     -- ** GetPersonTracking
-    GetPersonTracking,
+    GetPersonTracking (GetPersonTracking'),
     newGetPersonTracking,
-    GetPersonTrackingResponse,
+    GetPersonTrackingResponse (GetPersonTrackingResponse'),
     newGetPersonTrackingResponse,
 
     -- ** GetSegmentDetection
-    GetSegmentDetection,
+    GetSegmentDetection (GetSegmentDetection'),
     newGetSegmentDetection,
-    GetSegmentDetectionResponse,
+    GetSegmentDetectionResponse (GetSegmentDetectionResponse'),
     newGetSegmentDetectionResponse,
 
     -- ** GetTextDetection
-    GetTextDetection,
+    GetTextDetection (GetTextDetection'),
     newGetTextDetection,
-    GetTextDetectionResponse,
+    GetTextDetectionResponse (GetTextDetectionResponse'),
     newGetTextDetectionResponse,
 
     -- ** IndexFaces
-    IndexFaces,
+    IndexFaces (IndexFaces'),
     newIndexFaces,
-    IndexFacesResponse,
+    IndexFacesResponse (IndexFacesResponse'),
     newIndexFacesResponse,
 
     -- ** ListCollections (Paginated)
-    ListCollections,
+    ListCollections (ListCollections'),
     newListCollections,
-    ListCollectionsResponse,
+    ListCollectionsResponse (ListCollectionsResponse'),
     newListCollectionsResponse,
 
     -- ** ListDatasetEntries (Paginated)
-    ListDatasetEntries,
+    ListDatasetEntries (ListDatasetEntries'),
     newListDatasetEntries,
-    ListDatasetEntriesResponse,
+    ListDatasetEntriesResponse (ListDatasetEntriesResponse'),
     newListDatasetEntriesResponse,
 
     -- ** ListDatasetLabels (Paginated)
-    ListDatasetLabels,
+    ListDatasetLabels (ListDatasetLabels'),
     newListDatasetLabels,
-    ListDatasetLabelsResponse,
+    ListDatasetLabelsResponse (ListDatasetLabelsResponse'),
     newListDatasetLabelsResponse,
 
     -- ** ListFaces (Paginated)
-    ListFaces,
+    ListFaces (ListFaces'),
     newListFaces,
-    ListFacesResponse,
+    ListFacesResponse (ListFacesResponse'),
     newListFacesResponse,
 
     -- ** ListProjectPolicies (Paginated)
-    ListProjectPolicies,
+    ListProjectPolicies (ListProjectPolicies'),
     newListProjectPolicies,
-    ListProjectPoliciesResponse,
+    ListProjectPoliciesResponse (ListProjectPoliciesResponse'),
     newListProjectPoliciesResponse,
 
     -- ** ListStreamProcessors (Paginated)
-    ListStreamProcessors,
+    ListStreamProcessors (ListStreamProcessors'),
     newListStreamProcessors,
-    ListStreamProcessorsResponse,
+    ListStreamProcessorsResponse (ListStreamProcessorsResponse'),
     newListStreamProcessorsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** PutProjectPolicy
-    PutProjectPolicy,
+    PutProjectPolicy (PutProjectPolicy'),
     newPutProjectPolicy,
-    PutProjectPolicyResponse,
+    PutProjectPolicyResponse (PutProjectPolicyResponse'),
     newPutProjectPolicyResponse,
 
     -- ** RecognizeCelebrities
-    RecognizeCelebrities,
+    RecognizeCelebrities (RecognizeCelebrities'),
     newRecognizeCelebrities,
-    RecognizeCelebritiesResponse,
+    RecognizeCelebritiesResponse (RecognizeCelebritiesResponse'),
     newRecognizeCelebritiesResponse,
 
     -- ** SearchFaces
-    SearchFaces,
+    SearchFaces (SearchFaces'),
     newSearchFaces,
-    SearchFacesResponse,
+    SearchFacesResponse (SearchFacesResponse'),
     newSearchFacesResponse,
 
     -- ** SearchFacesByImage
-    SearchFacesByImage,
+    SearchFacesByImage (SearchFacesByImage'),
     newSearchFacesByImage,
-    SearchFacesByImageResponse,
+    SearchFacesByImageResponse (SearchFacesByImageResponse'),
     newSearchFacesByImageResponse,
 
     -- ** StartCelebrityRecognition
-    StartCelebrityRecognition,
+    StartCelebrityRecognition (StartCelebrityRecognition'),
     newStartCelebrityRecognition,
-    StartCelebrityRecognitionResponse,
+    StartCelebrityRecognitionResponse (StartCelebrityRecognitionResponse'),
     newStartCelebrityRecognitionResponse,
 
     -- ** StartContentModeration
-    StartContentModeration,
+    StartContentModeration (StartContentModeration'),
     newStartContentModeration,
-    StartContentModerationResponse,
+    StartContentModerationResponse (StartContentModerationResponse'),
     newStartContentModerationResponse,
 
     -- ** StartFaceDetection
-    StartFaceDetection,
+    StartFaceDetection (StartFaceDetection'),
     newStartFaceDetection,
-    StartFaceDetectionResponse,
+    StartFaceDetectionResponse (StartFaceDetectionResponse'),
     newStartFaceDetectionResponse,
 
     -- ** StartFaceSearch
-    StartFaceSearch,
+    StartFaceSearch (StartFaceSearch'),
     newStartFaceSearch,
-    StartFaceSearchResponse,
+    StartFaceSearchResponse (StartFaceSearchResponse'),
     newStartFaceSearchResponse,
 
     -- ** StartLabelDetection
-    StartLabelDetection,
+    StartLabelDetection (StartLabelDetection'),
     newStartLabelDetection,
-    StartLabelDetectionResponse,
+    StartLabelDetectionResponse (StartLabelDetectionResponse'),
     newStartLabelDetectionResponse,
 
     -- ** StartPersonTracking
-    StartPersonTracking,
+    StartPersonTracking (StartPersonTracking'),
     newStartPersonTracking,
-    StartPersonTrackingResponse,
+    StartPersonTrackingResponse (StartPersonTrackingResponse'),
     newStartPersonTrackingResponse,
 
     -- ** StartProjectVersion
-    StartProjectVersion,
+    StartProjectVersion (StartProjectVersion'),
     newStartProjectVersion,
-    StartProjectVersionResponse,
+    StartProjectVersionResponse (StartProjectVersionResponse'),
     newStartProjectVersionResponse,
 
     -- ** StartSegmentDetection
-    StartSegmentDetection,
+    StartSegmentDetection (StartSegmentDetection'),
     newStartSegmentDetection,
-    StartSegmentDetectionResponse,
+    StartSegmentDetectionResponse (StartSegmentDetectionResponse'),
     newStartSegmentDetectionResponse,
 
     -- ** StartStreamProcessor
-    StartStreamProcessor,
+    StartStreamProcessor (StartStreamProcessor'),
     newStartStreamProcessor,
-    StartStreamProcessorResponse,
+    StartStreamProcessorResponse (StartStreamProcessorResponse'),
     newStartStreamProcessorResponse,
 
     -- ** StartTextDetection
-    StartTextDetection,
+    StartTextDetection (StartTextDetection'),
     newStartTextDetection,
-    StartTextDetectionResponse,
+    StartTextDetectionResponse (StartTextDetectionResponse'),
     newStartTextDetectionResponse,
 
     -- ** StopProjectVersion
-    StopProjectVersion,
+    StopProjectVersion (StopProjectVersion'),
     newStopProjectVersion,
-    StopProjectVersionResponse,
+    StopProjectVersionResponse (StopProjectVersionResponse'),
     newStopProjectVersionResponse,
 
     -- ** StopStreamProcessor
-    StopStreamProcessor,
+    StopStreamProcessor (StopStreamProcessor'),
     newStopStreamProcessor,
-    StopStreamProcessorResponse,
+    StopStreamProcessorResponse (StopStreamProcessorResponse'),
     newStopStreamProcessorResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateDatasetEntries
-    UpdateDatasetEntries,
+    UpdateDatasetEntries (UpdateDatasetEntries'),
     newUpdateDatasetEntries,
-    UpdateDatasetEntriesResponse,
+    UpdateDatasetEntriesResponse (UpdateDatasetEntriesResponse'),
     newUpdateDatasetEntriesResponse,
 
     -- ** UpdateStreamProcessor
-    UpdateStreamProcessor,
+    UpdateStreamProcessor (UpdateStreamProcessor'),
     newUpdateStreamProcessor,
-    UpdateStreamProcessorResponse,
+    UpdateStreamProcessorResponse (UpdateStreamProcessorResponse'),
     newUpdateStreamProcessorResponse,
 
     -- * Types
@@ -702,467 +702,467 @@ module Amazonka.Rekognition
     VideoJobStatus (..),
 
     -- ** AgeRange
-    AgeRange,
+    AgeRange (AgeRange'),
     newAgeRange,
 
     -- ** Asset
-    Asset,
+    Asset (Asset'),
     newAsset,
 
     -- ** AudioMetadata
-    AudioMetadata,
+    AudioMetadata (AudioMetadata'),
     newAudioMetadata,
 
     -- ** Beard
-    Beard,
+    Beard (Beard'),
     newBeard,
 
     -- ** BlackFrame
-    BlackFrame,
+    BlackFrame (BlackFrame'),
     newBlackFrame,
 
     -- ** BoundingBox
-    BoundingBox,
+    BoundingBox (BoundingBox'),
     newBoundingBox,
 
     -- ** Celebrity
-    Celebrity,
+    Celebrity (Celebrity'),
     newCelebrity,
 
     -- ** CelebrityDetail
-    CelebrityDetail,
+    CelebrityDetail (CelebrityDetail'),
     newCelebrityDetail,
 
     -- ** CelebrityRecognition
-    CelebrityRecognition,
+    CelebrityRecognition (CelebrityRecognition'),
     newCelebrityRecognition,
 
     -- ** CompareFacesMatch
-    CompareFacesMatch,
+    CompareFacesMatch (CompareFacesMatch'),
     newCompareFacesMatch,
 
     -- ** ComparedFace
-    ComparedFace,
+    ComparedFace (ComparedFace'),
     newComparedFace,
 
     -- ** ComparedSourceImageFace
-    ComparedSourceImageFace,
+    ComparedSourceImageFace (ComparedSourceImageFace'),
     newComparedSourceImageFace,
 
     -- ** ConnectedHomeSettings
-    ConnectedHomeSettings,
+    ConnectedHomeSettings (ConnectedHomeSettings'),
     newConnectedHomeSettings,
 
     -- ** ConnectedHomeSettingsForUpdate
-    ConnectedHomeSettingsForUpdate,
+    ConnectedHomeSettingsForUpdate (ConnectedHomeSettingsForUpdate'),
     newConnectedHomeSettingsForUpdate,
 
     -- ** ContentModerationDetection
-    ContentModerationDetection,
+    ContentModerationDetection (ContentModerationDetection'),
     newContentModerationDetection,
 
     -- ** CoversBodyPart
-    CoversBodyPart,
+    CoversBodyPart (CoversBodyPart'),
     newCoversBodyPart,
 
     -- ** CustomLabel
-    CustomLabel,
+    CustomLabel (CustomLabel'),
     newCustomLabel,
 
     -- ** DatasetChanges
-    DatasetChanges,
+    DatasetChanges (DatasetChanges'),
     newDatasetChanges,
 
     -- ** DatasetDescription
-    DatasetDescription,
+    DatasetDescription (DatasetDescription'),
     newDatasetDescription,
 
     -- ** DatasetLabelDescription
-    DatasetLabelDescription,
+    DatasetLabelDescription (DatasetLabelDescription'),
     newDatasetLabelDescription,
 
     -- ** DatasetLabelStats
-    DatasetLabelStats,
+    DatasetLabelStats (DatasetLabelStats'),
     newDatasetLabelStats,
 
     -- ** DatasetMetadata
-    DatasetMetadata,
+    DatasetMetadata (DatasetMetadata'),
     newDatasetMetadata,
 
     -- ** DatasetSource
-    DatasetSource,
+    DatasetSource (DatasetSource'),
     newDatasetSource,
 
     -- ** DatasetStats
-    DatasetStats,
+    DatasetStats (DatasetStats'),
     newDatasetStats,
 
     -- ** DetectLabelsImageBackground
-    DetectLabelsImageBackground,
+    DetectLabelsImageBackground (DetectLabelsImageBackground'),
     newDetectLabelsImageBackground,
 
     -- ** DetectLabelsImageForeground
-    DetectLabelsImageForeground,
+    DetectLabelsImageForeground (DetectLabelsImageForeground'),
     newDetectLabelsImageForeground,
 
     -- ** DetectLabelsImageProperties
-    DetectLabelsImageProperties,
+    DetectLabelsImageProperties (DetectLabelsImageProperties'),
     newDetectLabelsImageProperties,
 
     -- ** DetectLabelsImagePropertiesSettings
-    DetectLabelsImagePropertiesSettings,
+    DetectLabelsImagePropertiesSettings (DetectLabelsImagePropertiesSettings'),
     newDetectLabelsImagePropertiesSettings,
 
     -- ** DetectLabelsImageQuality
-    DetectLabelsImageQuality,
+    DetectLabelsImageQuality (DetectLabelsImageQuality'),
     newDetectLabelsImageQuality,
 
     -- ** DetectLabelsSettings
-    DetectLabelsSettings,
+    DetectLabelsSettings (DetectLabelsSettings'),
     newDetectLabelsSettings,
 
     -- ** DetectTextFilters
-    DetectTextFilters,
+    DetectTextFilters (DetectTextFilters'),
     newDetectTextFilters,
 
     -- ** DetectionFilter
-    DetectionFilter,
+    DetectionFilter (DetectionFilter'),
     newDetectionFilter,
 
     -- ** DistributeDataset
-    DistributeDataset,
+    DistributeDataset (DistributeDataset'),
     newDistributeDataset,
 
     -- ** DominantColor
-    DominantColor,
+    DominantColor (DominantColor'),
     newDominantColor,
 
     -- ** Emotion
-    Emotion,
+    Emotion (Emotion'),
     newEmotion,
 
     -- ** EquipmentDetection
-    EquipmentDetection,
+    EquipmentDetection (EquipmentDetection'),
     newEquipmentDetection,
 
     -- ** EvaluationResult
-    EvaluationResult,
+    EvaluationResult (EvaluationResult'),
     newEvaluationResult,
 
     -- ** EyeOpen
-    EyeOpen,
+    EyeOpen (EyeOpen'),
     newEyeOpen,
 
     -- ** Eyeglasses
-    Eyeglasses,
+    Eyeglasses (Eyeglasses'),
     newEyeglasses,
 
     -- ** Face
-    Face,
+    Face (Face'),
     newFace,
 
     -- ** FaceDetail
-    FaceDetail,
+    FaceDetail (FaceDetail'),
     newFaceDetail,
 
     -- ** FaceDetection
-    FaceDetection,
+    FaceDetection (FaceDetection'),
     newFaceDetection,
 
     -- ** FaceMatch
-    FaceMatch,
+    FaceMatch (FaceMatch'),
     newFaceMatch,
 
     -- ** FaceRecord
-    FaceRecord,
+    FaceRecord (FaceRecord'),
     newFaceRecord,
 
     -- ** FaceSearchSettings
-    FaceSearchSettings,
+    FaceSearchSettings (FaceSearchSettings'),
     newFaceSearchSettings,
 
     -- ** Gender
-    Gender,
+    Gender (Gender'),
     newGender,
 
     -- ** GeneralLabelsSettings
-    GeneralLabelsSettings,
+    GeneralLabelsSettings (GeneralLabelsSettings'),
     newGeneralLabelsSettings,
 
     -- ** Geometry
-    Geometry,
+    Geometry (Geometry'),
     newGeometry,
 
     -- ** GroundTruthManifest
-    GroundTruthManifest,
+    GroundTruthManifest (GroundTruthManifest'),
     newGroundTruthManifest,
 
     -- ** HumanLoopActivationOutput
-    HumanLoopActivationOutput,
+    HumanLoopActivationOutput (HumanLoopActivationOutput'),
     newHumanLoopActivationOutput,
 
     -- ** HumanLoopConfig
-    HumanLoopConfig,
+    HumanLoopConfig (HumanLoopConfig'),
     newHumanLoopConfig,
 
     -- ** HumanLoopDataAttributes
-    HumanLoopDataAttributes,
+    HumanLoopDataAttributes (HumanLoopDataAttributes'),
     newHumanLoopDataAttributes,
 
     -- ** Image
-    Image,
+    Image (Image'),
     newImage,
 
     -- ** ImageQuality
-    ImageQuality,
+    ImageQuality (ImageQuality'),
     newImageQuality,
 
     -- ** Instance
-    Instance,
+    Instance (Instance'),
     newInstance,
 
     -- ** KinesisDataStream
-    KinesisDataStream,
+    KinesisDataStream (KinesisDataStream'),
     newKinesisDataStream,
 
     -- ** KinesisVideoStream
-    KinesisVideoStream,
+    KinesisVideoStream (KinesisVideoStream'),
     newKinesisVideoStream,
 
     -- ** KinesisVideoStreamStartSelector
-    KinesisVideoStreamStartSelector,
+    KinesisVideoStreamStartSelector (KinesisVideoStreamStartSelector'),
     newKinesisVideoStreamStartSelector,
 
     -- ** KnownGender
-    KnownGender,
+    KnownGender (KnownGender'),
     newKnownGender,
 
     -- ** Label
-    Label,
+    Label (Label'),
     newLabel,
 
     -- ** LabelAlias
-    LabelAlias,
+    LabelAlias (LabelAlias'),
     newLabelAlias,
 
     -- ** LabelCategory
-    LabelCategory,
+    LabelCategory (LabelCategory'),
     newLabelCategory,
 
     -- ** LabelDetection
-    LabelDetection,
+    LabelDetection (LabelDetection'),
     newLabelDetection,
 
     -- ** LabelDetectionSettings
-    LabelDetectionSettings,
+    LabelDetectionSettings (LabelDetectionSettings'),
     newLabelDetectionSettings,
 
     -- ** Landmark
-    Landmark,
+    Landmark (Landmark'),
     newLandmark,
 
     -- ** ModerationLabel
-    ModerationLabel,
+    ModerationLabel (ModerationLabel'),
     newModerationLabel,
 
     -- ** MouthOpen
-    MouthOpen,
+    MouthOpen (MouthOpen'),
     newMouthOpen,
 
     -- ** Mustache
-    Mustache,
+    Mustache (Mustache'),
     newMustache,
 
     -- ** NotificationChannel
-    NotificationChannel,
+    NotificationChannel (NotificationChannel'),
     newNotificationChannel,
 
     -- ** OutputConfig
-    OutputConfig,
+    OutputConfig (OutputConfig'),
     newOutputConfig,
 
     -- ** Parent
-    Parent,
+    Parent (Parent'),
     newParent,
 
     -- ** PersonDetail
-    PersonDetail,
+    PersonDetail (PersonDetail'),
     newPersonDetail,
 
     -- ** PersonDetection
-    PersonDetection,
+    PersonDetection (PersonDetection'),
     newPersonDetection,
 
     -- ** PersonMatch
-    PersonMatch,
+    PersonMatch (PersonMatch'),
     newPersonMatch,
 
     -- ** Point
-    Point,
+    Point (Point'),
     newPoint,
 
     -- ** Pose
-    Pose,
+    Pose (Pose'),
     newPose,
 
     -- ** ProjectDescription
-    ProjectDescription,
+    ProjectDescription (ProjectDescription'),
     newProjectDescription,
 
     -- ** ProjectPolicy
-    ProjectPolicy,
+    ProjectPolicy (ProjectPolicy'),
     newProjectPolicy,
 
     -- ** ProjectVersionDescription
-    ProjectVersionDescription,
+    ProjectVersionDescription (ProjectVersionDescription'),
     newProjectVersionDescription,
 
     -- ** ProtectiveEquipmentBodyPart
-    ProtectiveEquipmentBodyPart,
+    ProtectiveEquipmentBodyPart (ProtectiveEquipmentBodyPart'),
     newProtectiveEquipmentBodyPart,
 
     -- ** ProtectiveEquipmentPerson
-    ProtectiveEquipmentPerson,
+    ProtectiveEquipmentPerson (ProtectiveEquipmentPerson'),
     newProtectiveEquipmentPerson,
 
     -- ** ProtectiveEquipmentSummarizationAttributes
-    ProtectiveEquipmentSummarizationAttributes,
+    ProtectiveEquipmentSummarizationAttributes (ProtectiveEquipmentSummarizationAttributes'),
     newProtectiveEquipmentSummarizationAttributes,
 
     -- ** ProtectiveEquipmentSummary
-    ProtectiveEquipmentSummary,
+    ProtectiveEquipmentSummary (ProtectiveEquipmentSummary'),
     newProtectiveEquipmentSummary,
 
     -- ** RegionOfInterest
-    RegionOfInterest,
+    RegionOfInterest (RegionOfInterest'),
     newRegionOfInterest,
 
     -- ** S3Destination
-    S3Destination,
+    S3Destination (S3Destination'),
     newS3Destination,
 
     -- ** S3Object
-    S3Object,
+    S3Object (S3Object'),
     newS3Object,
 
     -- ** SegmentDetection
-    SegmentDetection,
+    SegmentDetection (SegmentDetection'),
     newSegmentDetection,
 
     -- ** SegmentTypeInfo
-    SegmentTypeInfo,
+    SegmentTypeInfo (SegmentTypeInfo'),
     newSegmentTypeInfo,
 
     -- ** ShotSegment
-    ShotSegment,
+    ShotSegment (ShotSegment'),
     newShotSegment,
 
     -- ** Smile
-    Smile,
+    Smile (Smile'),
     newSmile,
 
     -- ** StartSegmentDetectionFilters
-    StartSegmentDetectionFilters,
+    StartSegmentDetectionFilters (StartSegmentDetectionFilters'),
     newStartSegmentDetectionFilters,
 
     -- ** StartShotDetectionFilter
-    StartShotDetectionFilter,
+    StartShotDetectionFilter (StartShotDetectionFilter'),
     newStartShotDetectionFilter,
 
     -- ** StartTechnicalCueDetectionFilter
-    StartTechnicalCueDetectionFilter,
+    StartTechnicalCueDetectionFilter (StartTechnicalCueDetectionFilter'),
     newStartTechnicalCueDetectionFilter,
 
     -- ** StartTextDetectionFilters
-    StartTextDetectionFilters,
+    StartTextDetectionFilters (StartTextDetectionFilters'),
     newStartTextDetectionFilters,
 
     -- ** StreamProcessingStartSelector
-    StreamProcessingStartSelector,
+    StreamProcessingStartSelector (StreamProcessingStartSelector'),
     newStreamProcessingStartSelector,
 
     -- ** StreamProcessingStopSelector
-    StreamProcessingStopSelector,
+    StreamProcessingStopSelector (StreamProcessingStopSelector'),
     newStreamProcessingStopSelector,
 
     -- ** StreamProcessor
-    StreamProcessor,
+    StreamProcessor (StreamProcessor'),
     newStreamProcessor,
 
     -- ** StreamProcessorDataSharingPreference
-    StreamProcessorDataSharingPreference,
+    StreamProcessorDataSharingPreference (StreamProcessorDataSharingPreference'),
     newStreamProcessorDataSharingPreference,
 
     -- ** StreamProcessorInput
-    StreamProcessorInput,
+    StreamProcessorInput (StreamProcessorInput'),
     newStreamProcessorInput,
 
     -- ** StreamProcessorNotificationChannel
-    StreamProcessorNotificationChannel,
+    StreamProcessorNotificationChannel (StreamProcessorNotificationChannel'),
     newStreamProcessorNotificationChannel,
 
     -- ** StreamProcessorOutput
-    StreamProcessorOutput,
+    StreamProcessorOutput (StreamProcessorOutput'),
     newStreamProcessorOutput,
 
     -- ** StreamProcessorSettings
-    StreamProcessorSettings,
+    StreamProcessorSettings (StreamProcessorSettings'),
     newStreamProcessorSettings,
 
     -- ** StreamProcessorSettingsForUpdate
-    StreamProcessorSettingsForUpdate,
+    StreamProcessorSettingsForUpdate (StreamProcessorSettingsForUpdate'),
     newStreamProcessorSettingsForUpdate,
 
     -- ** Summary
-    Summary,
+    Summary (Summary'),
     newSummary,
 
     -- ** Sunglasses
-    Sunglasses,
+    Sunglasses (Sunglasses'),
     newSunglasses,
 
     -- ** TechnicalCueSegment
-    TechnicalCueSegment,
+    TechnicalCueSegment (TechnicalCueSegment'),
     newTechnicalCueSegment,
 
     -- ** TestingData
-    TestingData,
+    TestingData (TestingData'),
     newTestingData,
 
     -- ** TestingDataResult
-    TestingDataResult,
+    TestingDataResult (TestingDataResult'),
     newTestingDataResult,
 
     -- ** TextDetection
-    TextDetection,
+    TextDetection (TextDetection'),
     newTextDetection,
 
     -- ** TextDetectionResult
-    TextDetectionResult,
+    TextDetectionResult (TextDetectionResult'),
     newTextDetectionResult,
 
     -- ** TrainingData
-    TrainingData,
+    TrainingData (TrainingData'),
     newTrainingData,
 
     -- ** TrainingDataResult
-    TrainingDataResult,
+    TrainingDataResult (TrainingDataResult'),
     newTrainingDataResult,
 
     -- ** UnindexedFace
-    UnindexedFace,
+    UnindexedFace (UnindexedFace'),
     newUnindexedFace,
 
     -- ** ValidationData
-    ValidationData,
+    ValidationData (ValidationData'),
     newValidationData,
 
     -- ** Video
-    Video,
+    Video (Video'),
     newVideo,
 
     -- ** VideoMetadata
-    VideoMetadata,
+    VideoMetadata (VideoMetadata'),
     newVideoMetadata,
   )
 where

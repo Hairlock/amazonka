@@ -38,189 +38,189 @@ module Amazonka.AmplifyBackend
     -- $operations
 
     -- ** CloneBackend
-    CloneBackend,
+    CloneBackend (CloneBackend'),
     newCloneBackend,
-    CloneBackendResponse,
+    CloneBackendResponse (CloneBackendResponse'),
     newCloneBackendResponse,
 
     -- ** CreateBackend
-    CreateBackend,
+    CreateBackend (CreateBackend'),
     newCreateBackend,
-    CreateBackendResponse,
+    CreateBackendResponse (CreateBackendResponse'),
     newCreateBackendResponse,
 
     -- ** CreateBackendAPI
-    CreateBackendAPI,
+    CreateBackendAPI (CreateBackendAPI'),
     newCreateBackendAPI,
-    CreateBackendAPIResponse,
+    CreateBackendAPIResponse (CreateBackendAPIResponse'),
     newCreateBackendAPIResponse,
 
     -- ** CreateBackendAuth
-    CreateBackendAuth,
+    CreateBackendAuth (CreateBackendAuth'),
     newCreateBackendAuth,
-    CreateBackendAuthResponse,
+    CreateBackendAuthResponse (CreateBackendAuthResponse'),
     newCreateBackendAuthResponse,
 
     -- ** CreateBackendConfig
-    CreateBackendConfig,
+    CreateBackendConfig (CreateBackendConfig'),
     newCreateBackendConfig,
-    CreateBackendConfigResponse,
+    CreateBackendConfigResponse (CreateBackendConfigResponse'),
     newCreateBackendConfigResponse,
 
     -- ** CreateBackendStorage
-    CreateBackendStorage,
+    CreateBackendStorage (CreateBackendStorage'),
     newCreateBackendStorage,
-    CreateBackendStorageResponse,
+    CreateBackendStorageResponse (CreateBackendStorageResponse'),
     newCreateBackendStorageResponse,
 
     -- ** CreateToken
-    CreateToken,
+    CreateToken (CreateToken'),
     newCreateToken,
-    CreateTokenResponse,
+    CreateTokenResponse (CreateTokenResponse'),
     newCreateTokenResponse,
 
     -- ** DeleteBackend
-    DeleteBackend,
+    DeleteBackend (DeleteBackend'),
     newDeleteBackend,
-    DeleteBackendResponse,
+    DeleteBackendResponse (DeleteBackendResponse'),
     newDeleteBackendResponse,
 
     -- ** DeleteBackendAPI
-    DeleteBackendAPI,
+    DeleteBackendAPI (DeleteBackendAPI'),
     newDeleteBackendAPI,
-    DeleteBackendAPIResponse,
+    DeleteBackendAPIResponse (DeleteBackendAPIResponse'),
     newDeleteBackendAPIResponse,
 
     -- ** DeleteBackendAuth
-    DeleteBackendAuth,
+    DeleteBackendAuth (DeleteBackendAuth'),
     newDeleteBackendAuth,
-    DeleteBackendAuthResponse,
+    DeleteBackendAuthResponse (DeleteBackendAuthResponse'),
     newDeleteBackendAuthResponse,
 
     -- ** DeleteBackendStorage
-    DeleteBackendStorage,
+    DeleteBackendStorage (DeleteBackendStorage'),
     newDeleteBackendStorage,
-    DeleteBackendStorageResponse,
+    DeleteBackendStorageResponse (DeleteBackendStorageResponse'),
     newDeleteBackendStorageResponse,
 
     -- ** DeleteToken
-    DeleteToken,
+    DeleteToken (DeleteToken'),
     newDeleteToken,
-    DeleteTokenResponse,
+    DeleteTokenResponse (DeleteTokenResponse'),
     newDeleteTokenResponse,
 
     -- ** GenerateBackendAPIModels
-    GenerateBackendAPIModels,
+    GenerateBackendAPIModels (GenerateBackendAPIModels'),
     newGenerateBackendAPIModels,
-    GenerateBackendAPIModelsResponse,
+    GenerateBackendAPIModelsResponse (GenerateBackendAPIModelsResponse'),
     newGenerateBackendAPIModelsResponse,
 
     -- ** GetBackend
-    GetBackend,
+    GetBackend (GetBackend'),
     newGetBackend,
-    GetBackendResponse,
+    GetBackendResponse (GetBackendResponse'),
     newGetBackendResponse,
 
     -- ** GetBackendAPI
-    GetBackendAPI,
+    GetBackendAPI (GetBackendAPI'),
     newGetBackendAPI,
-    GetBackendAPIResponse,
+    GetBackendAPIResponse (GetBackendAPIResponse'),
     newGetBackendAPIResponse,
 
     -- ** GetBackendAPIModels
-    GetBackendAPIModels,
+    GetBackendAPIModels (GetBackendAPIModels'),
     newGetBackendAPIModels,
-    GetBackendAPIModelsResponse,
+    GetBackendAPIModelsResponse (GetBackendAPIModelsResponse'),
     newGetBackendAPIModelsResponse,
 
     -- ** GetBackendAuth
-    GetBackendAuth,
+    GetBackendAuth (GetBackendAuth'),
     newGetBackendAuth,
-    GetBackendAuthResponse,
+    GetBackendAuthResponse (GetBackendAuthResponse'),
     newGetBackendAuthResponse,
 
     -- ** GetBackendJob
-    GetBackendJob,
+    GetBackendJob (GetBackendJob'),
     newGetBackendJob,
-    GetBackendJobResponse,
+    GetBackendJobResponse (GetBackendJobResponse'),
     newGetBackendJobResponse,
 
     -- ** GetBackendStorage
-    GetBackendStorage,
+    GetBackendStorage (GetBackendStorage'),
     newGetBackendStorage,
-    GetBackendStorageResponse,
+    GetBackendStorageResponse (GetBackendStorageResponse'),
     newGetBackendStorageResponse,
 
     -- ** GetToken
-    GetToken,
+    GetToken (GetToken'),
     newGetToken,
-    GetTokenResponse,
+    GetTokenResponse (GetTokenResponse'),
     newGetTokenResponse,
 
     -- ** ImportBackendAuth
-    ImportBackendAuth,
+    ImportBackendAuth (ImportBackendAuth'),
     newImportBackendAuth,
-    ImportBackendAuthResponse,
+    ImportBackendAuthResponse (ImportBackendAuthResponse'),
     newImportBackendAuthResponse,
 
     -- ** ImportBackendStorage
-    ImportBackendStorage,
+    ImportBackendStorage (ImportBackendStorage'),
     newImportBackendStorage,
-    ImportBackendStorageResponse,
+    ImportBackendStorageResponse (ImportBackendStorageResponse'),
     newImportBackendStorageResponse,
 
     -- ** ListBackendJobs (Paginated)
-    ListBackendJobs,
+    ListBackendJobs (ListBackendJobs'),
     newListBackendJobs,
-    ListBackendJobsResponse,
+    ListBackendJobsResponse (ListBackendJobsResponse'),
     newListBackendJobsResponse,
 
     -- ** ListS3Buckets
-    ListS3Buckets,
+    ListS3Buckets (ListS3Buckets'),
     newListS3Buckets,
-    ListS3BucketsResponse,
+    ListS3BucketsResponse (ListS3BucketsResponse'),
     newListS3BucketsResponse,
 
     -- ** RemoveAllBackends
-    RemoveAllBackends,
+    RemoveAllBackends (RemoveAllBackends'),
     newRemoveAllBackends,
-    RemoveAllBackendsResponse,
+    RemoveAllBackendsResponse (RemoveAllBackendsResponse'),
     newRemoveAllBackendsResponse,
 
     -- ** RemoveBackendConfig
-    RemoveBackendConfig,
+    RemoveBackendConfig (RemoveBackendConfig'),
     newRemoveBackendConfig,
-    RemoveBackendConfigResponse,
+    RemoveBackendConfigResponse (RemoveBackendConfigResponse'),
     newRemoveBackendConfigResponse,
 
     -- ** UpdateBackendAPI
-    UpdateBackendAPI,
+    UpdateBackendAPI (UpdateBackendAPI'),
     newUpdateBackendAPI,
-    UpdateBackendAPIResponse,
+    UpdateBackendAPIResponse (UpdateBackendAPIResponse'),
     newUpdateBackendAPIResponse,
 
     -- ** UpdateBackendAuth
-    UpdateBackendAuth,
+    UpdateBackendAuth (UpdateBackendAuth'),
     newUpdateBackendAuth,
-    UpdateBackendAuthResponse,
+    UpdateBackendAuthResponse (UpdateBackendAuthResponse'),
     newUpdateBackendAuthResponse,
 
     -- ** UpdateBackendConfig
-    UpdateBackendConfig,
+    UpdateBackendConfig (UpdateBackendConfig'),
     newUpdateBackendConfig,
-    UpdateBackendConfigResponse,
+    UpdateBackendConfigResponse (UpdateBackendConfigResponse'),
     newUpdateBackendConfigResponse,
 
     -- ** UpdateBackendJob
-    UpdateBackendJob,
+    UpdateBackendJob (UpdateBackendJob'),
     newUpdateBackendJob,
-    UpdateBackendJobResponse,
+    UpdateBackendJobResponse (UpdateBackendJobResponse'),
     newUpdateBackendJobResponse,
 
     -- ** UpdateBackendStorage
-    UpdateBackendStorage,
+    UpdateBackendStorage (UpdateBackendStorage'),
     newUpdateBackendStorage,
-    UpdateBackendStorageResponse,
+    UpdateBackendStorageResponse (UpdateBackendStorageResponse'),
     newUpdateBackendStorageResponse,
 
     -- * Types
@@ -274,139 +274,139 @@ module Amazonka.AmplifyBackend
     UnAuthenticatedElement (..),
 
     -- ** BackendAPIAppSyncAuthSettings
-    BackendAPIAppSyncAuthSettings,
+    BackendAPIAppSyncAuthSettings (BackendAPIAppSyncAuthSettings'),
     newBackendAPIAppSyncAuthSettings,
 
     -- ** BackendAPIAuthType
-    BackendAPIAuthType,
+    BackendAPIAuthType (BackendAPIAuthType'),
     newBackendAPIAuthType,
 
     -- ** BackendAPIConflictResolution
-    BackendAPIConflictResolution,
+    BackendAPIConflictResolution (BackendAPIConflictResolution'),
     newBackendAPIConflictResolution,
 
     -- ** BackendAPIResourceConfig
-    BackendAPIResourceConfig,
+    BackendAPIResourceConfig (BackendAPIResourceConfig'),
     newBackendAPIResourceConfig,
 
     -- ** BackendAuthAppleProviderConfig
-    BackendAuthAppleProviderConfig,
+    BackendAuthAppleProviderConfig (BackendAuthAppleProviderConfig'),
     newBackendAuthAppleProviderConfig,
 
     -- ** BackendAuthSocialProviderConfig
-    BackendAuthSocialProviderConfig,
+    BackendAuthSocialProviderConfig (BackendAuthSocialProviderConfig'),
     newBackendAuthSocialProviderConfig,
 
     -- ** BackendJobRespObj
-    BackendJobRespObj,
+    BackendJobRespObj (BackendJobRespObj'),
     newBackendJobRespObj,
 
     -- ** BackendStoragePermissions
-    BackendStoragePermissions,
+    BackendStoragePermissions (BackendStoragePermissions'),
     newBackendStoragePermissions,
 
     -- ** CreateBackendAuthForgotPasswordConfig
-    CreateBackendAuthForgotPasswordConfig,
+    CreateBackendAuthForgotPasswordConfig (CreateBackendAuthForgotPasswordConfig'),
     newCreateBackendAuthForgotPasswordConfig,
 
     -- ** CreateBackendAuthIdentityPoolConfig
-    CreateBackendAuthIdentityPoolConfig,
+    CreateBackendAuthIdentityPoolConfig (CreateBackendAuthIdentityPoolConfig'),
     newCreateBackendAuthIdentityPoolConfig,
 
     -- ** CreateBackendAuthMFAConfig
-    CreateBackendAuthMFAConfig,
+    CreateBackendAuthMFAConfig (CreateBackendAuthMFAConfig'),
     newCreateBackendAuthMFAConfig,
 
     -- ** CreateBackendAuthOAuthConfig
-    CreateBackendAuthOAuthConfig,
+    CreateBackendAuthOAuthConfig (CreateBackendAuthOAuthConfig'),
     newCreateBackendAuthOAuthConfig,
 
     -- ** CreateBackendAuthPasswordPolicyConfig
-    CreateBackendAuthPasswordPolicyConfig,
+    CreateBackendAuthPasswordPolicyConfig (CreateBackendAuthPasswordPolicyConfig'),
     newCreateBackendAuthPasswordPolicyConfig,
 
     -- ** CreateBackendAuthResourceConfig
-    CreateBackendAuthResourceConfig,
+    CreateBackendAuthResourceConfig (CreateBackendAuthResourceConfig'),
     newCreateBackendAuthResourceConfig,
 
     -- ** CreateBackendAuthUserPoolConfig
-    CreateBackendAuthUserPoolConfig,
+    CreateBackendAuthUserPoolConfig (CreateBackendAuthUserPoolConfig'),
     newCreateBackendAuthUserPoolConfig,
 
     -- ** CreateBackendAuthVerificationMessageConfig
-    CreateBackendAuthVerificationMessageConfig,
+    CreateBackendAuthVerificationMessageConfig (CreateBackendAuthVerificationMessageConfig'),
     newCreateBackendAuthVerificationMessageConfig,
 
     -- ** CreateBackendStorageResourceConfig
-    CreateBackendStorageResourceConfig,
+    CreateBackendStorageResourceConfig (CreateBackendStorageResourceConfig'),
     newCreateBackendStorageResourceConfig,
 
     -- ** EmailSettings
-    EmailSettings,
+    EmailSettings (EmailSettings'),
     newEmailSettings,
 
     -- ** GetBackendStorageResourceConfig
-    GetBackendStorageResourceConfig,
+    GetBackendStorageResourceConfig (GetBackendStorageResourceConfig'),
     newGetBackendStorageResourceConfig,
 
     -- ** LoginAuthConfigReqObj
-    LoginAuthConfigReqObj,
+    LoginAuthConfigReqObj (LoginAuthConfigReqObj'),
     newLoginAuthConfigReqObj,
 
     -- ** ResourceConfig
-    ResourceConfig,
+    ResourceConfig (ResourceConfig'),
     newResourceConfig,
 
     -- ** S3BucketInfo
-    S3BucketInfo,
+    S3BucketInfo (S3BucketInfo'),
     newS3BucketInfo,
 
     -- ** Settings
-    Settings,
+    Settings (Settings'),
     newSettings,
 
     -- ** SmsSettings
-    SmsSettings,
+    SmsSettings (SmsSettings'),
     newSmsSettings,
 
     -- ** SocialProviderSettings
-    SocialProviderSettings,
+    SocialProviderSettings (SocialProviderSettings'),
     newSocialProviderSettings,
 
     -- ** UpdateBackendAuthForgotPasswordConfig
-    UpdateBackendAuthForgotPasswordConfig,
+    UpdateBackendAuthForgotPasswordConfig (UpdateBackendAuthForgotPasswordConfig'),
     newUpdateBackendAuthForgotPasswordConfig,
 
     -- ** UpdateBackendAuthIdentityPoolConfig
-    UpdateBackendAuthIdentityPoolConfig,
+    UpdateBackendAuthIdentityPoolConfig (UpdateBackendAuthIdentityPoolConfig'),
     newUpdateBackendAuthIdentityPoolConfig,
 
     -- ** UpdateBackendAuthMFAConfig
-    UpdateBackendAuthMFAConfig,
+    UpdateBackendAuthMFAConfig (UpdateBackendAuthMFAConfig'),
     newUpdateBackendAuthMFAConfig,
 
     -- ** UpdateBackendAuthOAuthConfig
-    UpdateBackendAuthOAuthConfig,
+    UpdateBackendAuthOAuthConfig (UpdateBackendAuthOAuthConfig'),
     newUpdateBackendAuthOAuthConfig,
 
     -- ** UpdateBackendAuthPasswordPolicyConfig
-    UpdateBackendAuthPasswordPolicyConfig,
+    UpdateBackendAuthPasswordPolicyConfig (UpdateBackendAuthPasswordPolicyConfig'),
     newUpdateBackendAuthPasswordPolicyConfig,
 
     -- ** UpdateBackendAuthResourceConfig
-    UpdateBackendAuthResourceConfig,
+    UpdateBackendAuthResourceConfig (UpdateBackendAuthResourceConfig'),
     newUpdateBackendAuthResourceConfig,
 
     -- ** UpdateBackendAuthUserPoolConfig
-    UpdateBackendAuthUserPoolConfig,
+    UpdateBackendAuthUserPoolConfig (UpdateBackendAuthUserPoolConfig'),
     newUpdateBackendAuthUserPoolConfig,
 
     -- ** UpdateBackendAuthVerificationMessageConfig
-    UpdateBackendAuthVerificationMessageConfig,
+    UpdateBackendAuthVerificationMessageConfig (UpdateBackendAuthVerificationMessageConfig'),
     newUpdateBackendAuthVerificationMessageConfig,
 
     -- ** UpdateBackendStorageResourceConfig
-    UpdateBackendStorageResourceConfig,
+    UpdateBackendStorageResourceConfig (UpdateBackendStorageResourceConfig'),
     newUpdateBackendStorageResourceConfig,
   )
 where

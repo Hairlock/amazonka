@@ -111,123 +111,123 @@ module Amazonka.SQS
     -- $operations
 
     -- ** AddPermission
-    AddPermission,
+    AddPermission (AddPermission'),
     newAddPermission,
-    AddPermissionResponse,
+    AddPermissionResponse (AddPermissionResponse'),
     newAddPermissionResponse,
 
     -- ** ChangeMessageVisibility
-    ChangeMessageVisibility,
+    ChangeMessageVisibility (ChangeMessageVisibility'),
     newChangeMessageVisibility,
-    ChangeMessageVisibilityResponse,
+    ChangeMessageVisibilityResponse (ChangeMessageVisibilityResponse'),
     newChangeMessageVisibilityResponse,
 
     -- ** ChangeMessageVisibilityBatch
-    ChangeMessageVisibilityBatch,
+    ChangeMessageVisibilityBatch (ChangeMessageVisibilityBatch'),
     newChangeMessageVisibilityBatch,
-    ChangeMessageVisibilityBatchResponse,
+    ChangeMessageVisibilityBatchResponse (ChangeMessageVisibilityBatchResponse'),
     newChangeMessageVisibilityBatchResponse,
 
     -- ** CreateQueue
-    CreateQueue,
+    CreateQueue (CreateQueue'),
     newCreateQueue,
-    CreateQueueResponse,
+    CreateQueueResponse (CreateQueueResponse'),
     newCreateQueueResponse,
 
     -- ** DeleteMessage
-    DeleteMessage,
+    DeleteMessage (DeleteMessage'),
     newDeleteMessage,
-    DeleteMessageResponse,
+    DeleteMessageResponse (DeleteMessageResponse'),
     newDeleteMessageResponse,
 
     -- ** DeleteMessageBatch
-    DeleteMessageBatch,
+    DeleteMessageBatch (DeleteMessageBatch'),
     newDeleteMessageBatch,
-    DeleteMessageBatchResponse,
+    DeleteMessageBatchResponse (DeleteMessageBatchResponse'),
     newDeleteMessageBatchResponse,
 
     -- ** DeleteQueue
-    DeleteQueue,
+    DeleteQueue (DeleteQueue'),
     newDeleteQueue,
-    DeleteQueueResponse,
+    DeleteQueueResponse (DeleteQueueResponse'),
     newDeleteQueueResponse,
 
     -- ** GetQueueAttributes
-    GetQueueAttributes,
+    GetQueueAttributes (GetQueueAttributes'),
     newGetQueueAttributes,
-    GetQueueAttributesResponse,
+    GetQueueAttributesResponse (GetQueueAttributesResponse'),
     newGetQueueAttributesResponse,
 
     -- ** GetQueueUrl
-    GetQueueUrl,
+    GetQueueUrl (GetQueueUrl'),
     newGetQueueUrl,
-    GetQueueUrlResponse,
+    GetQueueUrlResponse (GetQueueUrlResponse'),
     newGetQueueUrlResponse,
 
     -- ** ListDeadLetterSourceQueues (Paginated)
-    ListDeadLetterSourceQueues,
+    ListDeadLetterSourceQueues (ListDeadLetterSourceQueues'),
     newListDeadLetterSourceQueues,
-    ListDeadLetterSourceQueuesResponse,
+    ListDeadLetterSourceQueuesResponse (ListDeadLetterSourceQueuesResponse'),
     newListDeadLetterSourceQueuesResponse,
 
     -- ** ListQueueTags
-    ListQueueTags,
+    ListQueueTags (ListQueueTags'),
     newListQueueTags,
-    ListQueueTagsResponse,
+    ListQueueTagsResponse (ListQueueTagsResponse'),
     newListQueueTagsResponse,
 
     -- ** ListQueues (Paginated)
-    ListQueues,
+    ListQueues (ListQueues'),
     newListQueues,
-    ListQueuesResponse,
+    ListQueuesResponse (ListQueuesResponse'),
     newListQueuesResponse,
 
     -- ** PurgeQueue
-    PurgeQueue,
+    PurgeQueue (PurgeQueue'),
     newPurgeQueue,
-    PurgeQueueResponse,
+    PurgeQueueResponse (PurgeQueueResponse'),
     newPurgeQueueResponse,
 
     -- ** ReceiveMessage
-    ReceiveMessage,
+    ReceiveMessage (ReceiveMessage'),
     newReceiveMessage,
-    ReceiveMessageResponse,
+    ReceiveMessageResponse (ReceiveMessageResponse'),
     newReceiveMessageResponse,
 
     -- ** RemovePermission
-    RemovePermission,
+    RemovePermission (RemovePermission'),
     newRemovePermission,
-    RemovePermissionResponse,
+    RemovePermissionResponse (RemovePermissionResponse'),
     newRemovePermissionResponse,
 
     -- ** SendMessage
-    SendMessage,
+    SendMessage (SendMessage'),
     newSendMessage,
-    SendMessageResponse,
+    SendMessageResponse (SendMessageResponse'),
     newSendMessageResponse,
 
     -- ** SendMessageBatch
-    SendMessageBatch,
+    SendMessageBatch (SendMessageBatch'),
     newSendMessageBatch,
-    SendMessageBatchResponse,
+    SendMessageBatchResponse (SendMessageBatchResponse'),
     newSendMessageBatchResponse,
 
     -- ** SetQueueAttributes
-    SetQueueAttributes,
+    SetQueueAttributes (SetQueueAttributes'),
     newSetQueueAttributes,
-    SetQueueAttributesResponse,
+    SetQueueAttributesResponse (SetQueueAttributesResponse'),
     newSetQueueAttributesResponse,
 
     -- ** TagQueue
-    TagQueue,
+    TagQueue (TagQueue'),
     newTagQueue,
-    TagQueueResponse,
+    TagQueueResponse (TagQueueResponse'),
     newTagQueueResponse,
 
     -- ** UntagQueue
-    UntagQueue,
+    UntagQueue (UntagQueue'),
     newUntagQueue,
-    UntagQueueResponse,
+    UntagQueueResponse (UntagQueueResponse'),
     newUntagQueueResponse,
 
     -- * Types
@@ -242,43 +242,43 @@ module Amazonka.SQS
     QueueAttributeName (..),
 
     -- ** BatchResultErrorEntry
-    BatchResultErrorEntry,
+    BatchResultErrorEntry (BatchResultErrorEntry'),
     newBatchResultErrorEntry,
 
     -- ** ChangeMessageVisibilityBatchRequestEntry
-    ChangeMessageVisibilityBatchRequestEntry,
+    ChangeMessageVisibilityBatchRequestEntry (ChangeMessageVisibilityBatchRequestEntry'),
     newChangeMessageVisibilityBatchRequestEntry,
 
     -- ** ChangeMessageVisibilityBatchResultEntry
-    ChangeMessageVisibilityBatchResultEntry,
+    ChangeMessageVisibilityBatchResultEntry (ChangeMessageVisibilityBatchResultEntry'),
     newChangeMessageVisibilityBatchResultEntry,
 
     -- ** DeleteMessageBatchRequestEntry
-    DeleteMessageBatchRequestEntry,
+    DeleteMessageBatchRequestEntry (DeleteMessageBatchRequestEntry'),
     newDeleteMessageBatchRequestEntry,
 
     -- ** DeleteMessageBatchResultEntry
-    DeleteMessageBatchResultEntry,
+    DeleteMessageBatchResultEntry (DeleteMessageBatchResultEntry'),
     newDeleteMessageBatchResultEntry,
 
     -- ** Message
-    Message,
+    Message (Message'),
     newMessage,
 
     -- ** MessageAttributeValue
-    MessageAttributeValue,
+    MessageAttributeValue (MessageAttributeValue'),
     newMessageAttributeValue,
 
     -- ** MessageSystemAttributeValue
-    MessageSystemAttributeValue,
+    MessageSystemAttributeValue (MessageSystemAttributeValue'),
     newMessageSystemAttributeValue,
 
     -- ** SendMessageBatchRequestEntry
-    SendMessageBatchRequestEntry,
+    SendMessageBatchRequestEntry (SendMessageBatchRequestEntry'),
     newSendMessageBatchRequestEntry,
 
     -- ** SendMessageBatchResultEntry
-    SendMessageBatchResultEntry,
+    SendMessageBatchResultEntry (SendMessageBatchResultEntry'),
     newSendMessageBatchResultEntry,
   )
 where

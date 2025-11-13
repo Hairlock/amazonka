@@ -53,81 +53,81 @@ module Amazonka.TimeStreamQuery
     -- $operations
 
     -- ** CancelQuery
-    CancelQuery,
+    CancelQuery (CancelQuery'),
     newCancelQuery,
-    CancelQueryResponse,
+    CancelQueryResponse (CancelQueryResponse'),
     newCancelQueryResponse,
 
     -- ** CreateScheduledQuery
-    CreateScheduledQuery,
+    CreateScheduledQuery (CreateScheduledQuery'),
     newCreateScheduledQuery,
-    CreateScheduledQueryResponse,
+    CreateScheduledQueryResponse (CreateScheduledQueryResponse'),
     newCreateScheduledQueryResponse,
 
     -- ** DeleteScheduledQuery
-    DeleteScheduledQuery,
+    DeleteScheduledQuery (DeleteScheduledQuery'),
     newDeleteScheduledQuery,
-    DeleteScheduledQueryResponse,
+    DeleteScheduledQueryResponse (DeleteScheduledQueryResponse'),
     newDeleteScheduledQueryResponse,
 
     -- ** DescribeEndpoints
-    DescribeEndpoints,
+    DescribeEndpoints (DescribeEndpoints'),
     newDescribeEndpoints,
-    DescribeEndpointsResponse,
+    DescribeEndpointsResponse (DescribeEndpointsResponse'),
     newDescribeEndpointsResponse,
 
     -- ** DescribeScheduledQuery
-    DescribeScheduledQuery,
+    DescribeScheduledQuery (DescribeScheduledQuery'),
     newDescribeScheduledQuery,
-    DescribeScheduledQueryResponse,
+    DescribeScheduledQueryResponse (DescribeScheduledQueryResponse'),
     newDescribeScheduledQueryResponse,
 
     -- ** ExecuteScheduledQuery
-    ExecuteScheduledQuery,
+    ExecuteScheduledQuery (ExecuteScheduledQuery'),
     newExecuteScheduledQuery,
-    ExecuteScheduledQueryResponse,
+    ExecuteScheduledQueryResponse (ExecuteScheduledQueryResponse'),
     newExecuteScheduledQueryResponse,
 
     -- ** ListScheduledQueries (Paginated)
-    ListScheduledQueries,
+    ListScheduledQueries (ListScheduledQueries'),
     newListScheduledQueries,
-    ListScheduledQueriesResponse,
+    ListScheduledQueriesResponse (ListScheduledQueriesResponse'),
     newListScheduledQueriesResponse,
 
     -- ** ListTagsForResource (Paginated)
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** PrepareQuery
-    PrepareQuery,
+    PrepareQuery (PrepareQuery'),
     newPrepareQuery,
-    PrepareQueryResponse,
+    PrepareQueryResponse (PrepareQueryResponse'),
     newPrepareQueryResponse,
 
     -- ** Query (Paginated)
-    Query,
+    Query (Query'),
     newQuery,
-    QueryResponse,
+    QueryResponse (QueryResponse'),
     newQueryResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateScheduledQuery
-    UpdateScheduledQuery,
+    UpdateScheduledQuery (UpdateScheduledQuery'),
     newUpdateScheduledQuery,
-    UpdateScheduledQueryResponse,
+    UpdateScheduledQueryResponse (UpdateScheduledQueryResponse'),
     newUpdateScheduledQueryResponse,
 
     -- * Types
@@ -154,119 +154,119 @@ module Amazonka.TimeStreamQuery
     ScheduledQueryState (..),
 
     -- ** ColumnInfo
-    ColumnInfo,
+    ColumnInfo (ColumnInfo'),
     newColumnInfo,
 
     -- ** Datum
-    Datum,
+    Datum (Datum'),
     newDatum,
 
     -- ** DimensionMapping
-    DimensionMapping,
+    DimensionMapping (DimensionMapping'),
     newDimensionMapping,
 
     -- ** Endpoint
-    Endpoint,
+    Endpoint (Endpoint'),
     newEndpoint,
 
     -- ** ErrorReportConfiguration
-    ErrorReportConfiguration,
+    ErrorReportConfiguration (ErrorReportConfiguration'),
     newErrorReportConfiguration,
 
     -- ** ErrorReportLocation
-    ErrorReportLocation,
+    ErrorReportLocation (ErrorReportLocation'),
     newErrorReportLocation,
 
     -- ** ExecutionStats
-    ExecutionStats,
+    ExecutionStats (ExecutionStats'),
     newExecutionStats,
 
     -- ** MixedMeasureMapping
-    MixedMeasureMapping,
+    MixedMeasureMapping (MixedMeasureMapping'),
     newMixedMeasureMapping,
 
     -- ** MultiMeasureAttributeMapping
-    MultiMeasureAttributeMapping,
+    MultiMeasureAttributeMapping (MultiMeasureAttributeMapping'),
     newMultiMeasureAttributeMapping,
 
     -- ** MultiMeasureMappings
-    MultiMeasureMappings,
+    MultiMeasureMappings (MultiMeasureMappings'),
     newMultiMeasureMappings,
 
     -- ** NotificationConfiguration
-    NotificationConfiguration,
+    NotificationConfiguration (NotificationConfiguration'),
     newNotificationConfiguration,
 
     -- ** ParameterMapping
-    ParameterMapping,
+    ParameterMapping (ParameterMapping'),
     newParameterMapping,
 
     -- ** QueryStatus
-    QueryStatus,
+    QueryStatus (QueryStatus'),
     newQueryStatus,
 
     -- ** Row
-    Row,
+    Row (Row'),
     newRow,
 
     -- ** S3Configuration
-    S3Configuration,
+    S3Configuration (S3Configuration'),
     newS3Configuration,
 
     -- ** S3ReportLocation
-    S3ReportLocation,
+    S3ReportLocation (S3ReportLocation'),
     newS3ReportLocation,
 
     -- ** ScheduleConfiguration
-    ScheduleConfiguration,
+    ScheduleConfiguration (ScheduleConfiguration'),
     newScheduleConfiguration,
 
     -- ** ScheduledQuery
-    ScheduledQuery,
+    ScheduledQuery (ScheduledQuery'),
     newScheduledQuery,
 
     -- ** ScheduledQueryDescription
-    ScheduledQueryDescription,
+    ScheduledQueryDescription (ScheduledQueryDescription'),
     newScheduledQueryDescription,
 
     -- ** ScheduledQueryRunSummary
-    ScheduledQueryRunSummary,
+    ScheduledQueryRunSummary (ScheduledQueryRunSummary'),
     newScheduledQueryRunSummary,
 
     -- ** SelectColumn
-    SelectColumn,
+    SelectColumn (SelectColumn'),
     newSelectColumn,
 
     -- ** SnsConfiguration
-    SnsConfiguration,
+    SnsConfiguration (SnsConfiguration'),
     newSnsConfiguration,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** TargetConfiguration
-    TargetConfiguration,
+    TargetConfiguration (TargetConfiguration'),
     newTargetConfiguration,
 
     -- ** TargetDestination
-    TargetDestination,
+    TargetDestination (TargetDestination'),
     newTargetDestination,
 
     -- ** TimeSeriesDataPoint
-    TimeSeriesDataPoint,
+    TimeSeriesDataPoint (TimeSeriesDataPoint'),
     newTimeSeriesDataPoint,
 
     -- ** TimestreamConfiguration
-    TimestreamConfiguration,
+    TimestreamConfiguration (TimestreamConfiguration'),
     newTimestreamConfiguration,
 
     -- ** TimestreamDestination
-    TimestreamDestination,
+    TimestreamDestination (TimestreamDestination'),
     newTimestreamDestination,
 
     -- ** Type
-    Type,
+    Type (Type'),
     newType,
   )
 where

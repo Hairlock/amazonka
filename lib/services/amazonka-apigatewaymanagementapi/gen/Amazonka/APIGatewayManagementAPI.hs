@@ -44,27 +44,27 @@ module Amazonka.APIGatewayManagementAPI
     -- $operations
 
     -- ** DeleteConnection
-    DeleteConnection,
+    DeleteConnection (DeleteConnection'),
     newDeleteConnection,
-    DeleteConnectionResponse,
+    DeleteConnectionResponse (DeleteConnectionResponse'),
     newDeleteConnectionResponse,
 
     -- ** GetConnection
-    GetConnection,
+    GetConnection (GetConnection'),
     newGetConnection,
-    GetConnectionResponse,
+    GetConnectionResponse (GetConnectionResponse'),
     newGetConnectionResponse,
 
     -- ** PostToConnection
-    PostToConnection,
+    PostToConnection (PostToConnection'),
     newPostToConnection,
-    PostToConnectionResponse,
+    PostToConnectionResponse (PostToConnectionResponse'),
     newPostToConnectionResponse,
 
     -- * Types
 
     -- ** Identity
-    Identity,
+    Identity (Identity'),
     newIdentity,
   )
 where

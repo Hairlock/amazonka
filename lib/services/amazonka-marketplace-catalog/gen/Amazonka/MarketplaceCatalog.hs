@@ -57,57 +57,57 @@ module Amazonka.MarketplaceCatalog
     -- $operations
 
     -- ** CancelChangeSet
-    CancelChangeSet,
+    CancelChangeSet (CancelChangeSet'),
     newCancelChangeSet,
-    CancelChangeSetResponse,
+    CancelChangeSetResponse (CancelChangeSetResponse'),
     newCancelChangeSetResponse,
 
     -- ** DescribeChangeSet
-    DescribeChangeSet,
+    DescribeChangeSet (DescribeChangeSet'),
     newDescribeChangeSet,
-    DescribeChangeSetResponse,
+    DescribeChangeSetResponse (DescribeChangeSetResponse'),
     newDescribeChangeSetResponse,
 
     -- ** DescribeEntity
-    DescribeEntity,
+    DescribeEntity (DescribeEntity'),
     newDescribeEntity,
-    DescribeEntityResponse,
+    DescribeEntityResponse (DescribeEntityResponse'),
     newDescribeEntityResponse,
 
     -- ** ListChangeSets
-    ListChangeSets,
+    ListChangeSets (ListChangeSets'),
     newListChangeSets,
-    ListChangeSetsResponse,
+    ListChangeSetsResponse (ListChangeSetsResponse'),
     newListChangeSetsResponse,
 
     -- ** ListEntities
-    ListEntities,
+    ListEntities (ListEntities'),
     newListEntities,
-    ListEntitiesResponse,
+    ListEntitiesResponse (ListEntitiesResponse'),
     newListEntitiesResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** StartChangeSet
-    StartChangeSet,
+    StartChangeSet (StartChangeSet'),
     newStartChangeSet,
-    StartChangeSetResponse,
+    StartChangeSetResponse (StartChangeSetResponse'),
     newStartChangeSetResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- * Types
@@ -122,39 +122,39 @@ module Amazonka.MarketplaceCatalog
     SortOrder (..),
 
     -- ** Change
-    Change,
+    Change (Change'),
     newChange,
 
     -- ** ChangeSetSummaryListItem
-    ChangeSetSummaryListItem,
+    ChangeSetSummaryListItem (ChangeSetSummaryListItem'),
     newChangeSetSummaryListItem,
 
     -- ** ChangeSummary
-    ChangeSummary,
+    ChangeSummary (ChangeSummary'),
     newChangeSummary,
 
     -- ** Entity
-    Entity,
+    Entity (Entity'),
     newEntity,
 
     -- ** EntitySummary
-    EntitySummary,
+    EntitySummary (EntitySummary'),
     newEntitySummary,
 
     -- ** ErrorDetail
-    ErrorDetail,
+    ErrorDetail (ErrorDetail'),
     newErrorDetail,
 
     -- ** Filter
-    Filter,
+    Filter (Filter'),
     newFilter,
 
     -- ** Sort
-    Sort,
+    Sort (Sort'),
     newSort,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
   )
 where

@@ -35,39 +35,39 @@ module Amazonka.ElasticInference
     -- $operations
 
     -- ** DescribeAcceleratorOfferings
-    DescribeAcceleratorOfferings,
+    DescribeAcceleratorOfferings (DescribeAcceleratorOfferings'),
     newDescribeAcceleratorOfferings,
-    DescribeAcceleratorOfferingsResponse,
+    DescribeAcceleratorOfferingsResponse (DescribeAcceleratorOfferingsResponse'),
     newDescribeAcceleratorOfferingsResponse,
 
     -- ** DescribeAcceleratorTypes
-    DescribeAcceleratorTypes,
+    DescribeAcceleratorTypes (DescribeAcceleratorTypes'),
     newDescribeAcceleratorTypes,
-    DescribeAcceleratorTypesResponse,
+    DescribeAcceleratorTypesResponse (DescribeAcceleratorTypesResponse'),
     newDescribeAcceleratorTypesResponse,
 
     -- ** DescribeAccelerators (Paginated)
-    DescribeAccelerators,
+    DescribeAccelerators (DescribeAccelerators'),
     newDescribeAccelerators,
-    DescribeAcceleratorsResponse,
+    DescribeAcceleratorsResponse (DescribeAcceleratorsResponse'),
     newDescribeAcceleratorsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- * Types
@@ -76,31 +76,31 @@ module Amazonka.ElasticInference
     LocationType (..),
 
     -- ** AcceleratorType
-    AcceleratorType,
+    AcceleratorType (AcceleratorType'),
     newAcceleratorType,
 
     -- ** AcceleratorTypeOffering
-    AcceleratorTypeOffering,
+    AcceleratorTypeOffering (AcceleratorTypeOffering'),
     newAcceleratorTypeOffering,
 
     -- ** ElasticInferenceAccelerator
-    ElasticInferenceAccelerator,
+    ElasticInferenceAccelerator (ElasticInferenceAccelerator'),
     newElasticInferenceAccelerator,
 
     -- ** ElasticInferenceAcceleratorHealth
-    ElasticInferenceAcceleratorHealth,
+    ElasticInferenceAcceleratorHealth (ElasticInferenceAcceleratorHealth'),
     newElasticInferenceAcceleratorHealth,
 
     -- ** Filter
-    Filter,
+    Filter (Filter'),
     newFilter,
 
     -- ** KeyValuePair
-    KeyValuePair,
+    KeyValuePair (KeyValuePair'),
     newKeyValuePair,
 
     -- ** MemoryInfo
-    MemoryInfo,
+    MemoryInfo (MemoryInfo'),
     newMemoryInfo,
   )
 where

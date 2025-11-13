@@ -44,171 +44,171 @@ module Amazonka.MediaConvert
     -- $operations
 
     -- ** AssociateCertificate
-    AssociateCertificate,
+    AssociateCertificate (AssociateCertificate'),
     newAssociateCertificate,
-    AssociateCertificateResponse,
+    AssociateCertificateResponse (AssociateCertificateResponse'),
     newAssociateCertificateResponse,
 
     -- ** CancelJob
-    CancelJob,
+    CancelJob (CancelJob'),
     newCancelJob,
-    CancelJobResponse,
+    CancelJobResponse (CancelJobResponse'),
     newCancelJobResponse,
 
     -- ** CreateJob
-    CreateJob,
+    CreateJob (CreateJob'),
     newCreateJob,
-    CreateJobResponse,
+    CreateJobResponse (CreateJobResponse'),
     newCreateJobResponse,
 
     -- ** CreateJobTemplate
-    CreateJobTemplate,
+    CreateJobTemplate (CreateJobTemplate'),
     newCreateJobTemplate,
-    CreateJobTemplateResponse,
+    CreateJobTemplateResponse (CreateJobTemplateResponse'),
     newCreateJobTemplateResponse,
 
     -- ** CreatePreset
-    CreatePreset,
+    CreatePreset (CreatePreset'),
     newCreatePreset,
-    CreatePresetResponse,
+    CreatePresetResponse (CreatePresetResponse'),
     newCreatePresetResponse,
 
     -- ** CreateQueue
-    CreateQueue,
+    CreateQueue (CreateQueue'),
     newCreateQueue,
-    CreateQueueResponse,
+    CreateQueueResponse (CreateQueueResponse'),
     newCreateQueueResponse,
 
     -- ** DeleteJobTemplate
-    DeleteJobTemplate,
+    DeleteJobTemplate (DeleteJobTemplate'),
     newDeleteJobTemplate,
-    DeleteJobTemplateResponse,
+    DeleteJobTemplateResponse (DeleteJobTemplateResponse'),
     newDeleteJobTemplateResponse,
 
     -- ** DeletePolicy
-    DeletePolicy,
+    DeletePolicy (DeletePolicy'),
     newDeletePolicy,
-    DeletePolicyResponse,
+    DeletePolicyResponse (DeletePolicyResponse'),
     newDeletePolicyResponse,
 
     -- ** DeletePreset
-    DeletePreset,
+    DeletePreset (DeletePreset'),
     newDeletePreset,
-    DeletePresetResponse,
+    DeletePresetResponse (DeletePresetResponse'),
     newDeletePresetResponse,
 
     -- ** DeleteQueue
-    DeleteQueue,
+    DeleteQueue (DeleteQueue'),
     newDeleteQueue,
-    DeleteQueueResponse,
+    DeleteQueueResponse (DeleteQueueResponse'),
     newDeleteQueueResponse,
 
     -- ** DescribeEndpoints (Paginated)
-    DescribeEndpoints,
+    DescribeEndpoints (DescribeEndpoints'),
     newDescribeEndpoints,
-    DescribeEndpointsResponse,
+    DescribeEndpointsResponse (DescribeEndpointsResponse'),
     newDescribeEndpointsResponse,
 
     -- ** DisassociateCertificate
-    DisassociateCertificate,
+    DisassociateCertificate (DisassociateCertificate'),
     newDisassociateCertificate,
-    DisassociateCertificateResponse,
+    DisassociateCertificateResponse (DisassociateCertificateResponse'),
     newDisassociateCertificateResponse,
 
     -- ** GetJob
-    GetJob,
+    GetJob (GetJob'),
     newGetJob,
-    GetJobResponse,
+    GetJobResponse (GetJobResponse'),
     newGetJobResponse,
 
     -- ** GetJobTemplate
-    GetJobTemplate,
+    GetJobTemplate (GetJobTemplate'),
     newGetJobTemplate,
-    GetJobTemplateResponse,
+    GetJobTemplateResponse (GetJobTemplateResponse'),
     newGetJobTemplateResponse,
 
     -- ** GetPolicy
-    GetPolicy,
+    GetPolicy (GetPolicy'),
     newGetPolicy,
-    GetPolicyResponse,
+    GetPolicyResponse (GetPolicyResponse'),
     newGetPolicyResponse,
 
     -- ** GetPreset
-    GetPreset,
+    GetPreset (GetPreset'),
     newGetPreset,
-    GetPresetResponse,
+    GetPresetResponse (GetPresetResponse'),
     newGetPresetResponse,
 
     -- ** GetQueue
-    GetQueue,
+    GetQueue (GetQueue'),
     newGetQueue,
-    GetQueueResponse,
+    GetQueueResponse (GetQueueResponse'),
     newGetQueueResponse,
 
     -- ** ListJobTemplates (Paginated)
-    ListJobTemplates,
+    ListJobTemplates (ListJobTemplates'),
     newListJobTemplates,
-    ListJobTemplatesResponse,
+    ListJobTemplatesResponse (ListJobTemplatesResponse'),
     newListJobTemplatesResponse,
 
     -- ** ListJobs (Paginated)
-    ListJobs,
+    ListJobs (ListJobs'),
     newListJobs,
-    ListJobsResponse,
+    ListJobsResponse (ListJobsResponse'),
     newListJobsResponse,
 
     -- ** ListPresets (Paginated)
-    ListPresets,
+    ListPresets (ListPresets'),
     newListPresets,
-    ListPresetsResponse,
+    ListPresetsResponse (ListPresetsResponse'),
     newListPresetsResponse,
 
     -- ** ListQueues (Paginated)
-    ListQueues,
+    ListQueues (ListQueues'),
     newListQueues,
-    ListQueuesResponse,
+    ListQueuesResponse (ListQueuesResponse'),
     newListQueuesResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** PutPolicy
-    PutPolicy,
+    PutPolicy (PutPolicy'),
     newPutPolicy,
-    PutPolicyResponse,
+    PutPolicyResponse (PutPolicyResponse'),
     newPutPolicyResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateJobTemplate
-    UpdateJobTemplate,
+    UpdateJobTemplate (UpdateJobTemplate'),
     newUpdateJobTemplate,
-    UpdateJobTemplateResponse,
+    UpdateJobTemplateResponse (UpdateJobTemplateResponse'),
     newUpdateJobTemplateResponse,
 
     -- ** UpdatePreset
-    UpdatePreset,
+    UpdatePreset (UpdatePreset'),
     newUpdatePreset,
-    UpdatePresetResponse,
+    UpdatePresetResponse (UpdatePresetResponse'),
     newUpdatePresetResponse,
 
     -- ** UpdateQueue
-    UpdateQueue,
+    UpdateQueue (UpdateQueue'),
     newUpdateQueue,
-    UpdateQueueResponse,
+    UpdateQueueResponse (UpdateQueueResponse'),
     newUpdateQueueResponse,
 
     -- * Types
@@ -1411,687 +1411,687 @@ module Amazonka.MediaConvert
     XavcTemporalAdaptiveQuantization (..),
 
     -- ** AacSettings
-    AacSettings,
+    AacSettings (AacSettings'),
     newAacSettings,
 
     -- ** Ac3Settings
-    Ac3Settings,
+    Ac3Settings (Ac3Settings'),
     newAc3Settings,
 
     -- ** AccelerationSettings
-    AccelerationSettings,
+    AccelerationSettings (AccelerationSettings'),
     newAccelerationSettings,
 
     -- ** AiffSettings
-    AiffSettings,
+    AiffSettings (AiffSettings'),
     newAiffSettings,
 
     -- ** AllowedRenditionSize
-    AllowedRenditionSize,
+    AllowedRenditionSize (AllowedRenditionSize'),
     newAllowedRenditionSize,
 
     -- ** AncillarySourceSettings
-    AncillarySourceSettings,
+    AncillarySourceSettings (AncillarySourceSettings'),
     newAncillarySourceSettings,
 
     -- ** AudioChannelTaggingSettings
-    AudioChannelTaggingSettings,
+    AudioChannelTaggingSettings (AudioChannelTaggingSettings'),
     newAudioChannelTaggingSettings,
 
     -- ** AudioCodecSettings
-    AudioCodecSettings,
+    AudioCodecSettings (AudioCodecSettings'),
     newAudioCodecSettings,
 
     -- ** AudioDescription
-    AudioDescription,
+    AudioDescription (AudioDescription'),
     newAudioDescription,
 
     -- ** AudioNormalizationSettings
-    AudioNormalizationSettings,
+    AudioNormalizationSettings (AudioNormalizationSettings'),
     newAudioNormalizationSettings,
 
     -- ** AudioSelector
-    AudioSelector,
+    AudioSelector (AudioSelector'),
     newAudioSelector,
 
     -- ** AudioSelectorGroup
-    AudioSelectorGroup,
+    AudioSelectorGroup (AudioSelectorGroup'),
     newAudioSelectorGroup,
 
     -- ** AutomatedAbrRule
-    AutomatedAbrRule,
+    AutomatedAbrRule (AutomatedAbrRule'),
     newAutomatedAbrRule,
 
     -- ** AutomatedAbrSettings
-    AutomatedAbrSettings,
+    AutomatedAbrSettings (AutomatedAbrSettings'),
     newAutomatedAbrSettings,
 
     -- ** AutomatedEncodingSettings
-    AutomatedEncodingSettings,
+    AutomatedEncodingSettings (AutomatedEncodingSettings'),
     newAutomatedEncodingSettings,
 
     -- ** Av1QvbrSettings
-    Av1QvbrSettings,
+    Av1QvbrSettings (Av1QvbrSettings'),
     newAv1QvbrSettings,
 
     -- ** Av1Settings
-    Av1Settings,
+    Av1Settings (Av1Settings'),
     newAv1Settings,
 
     -- ** AvailBlanking
-    AvailBlanking,
+    AvailBlanking (AvailBlanking'),
     newAvailBlanking,
 
     -- ** AvcIntraSettings
-    AvcIntraSettings,
+    AvcIntraSettings (AvcIntraSettings'),
     newAvcIntraSettings,
 
     -- ** AvcIntraUhdSettings
-    AvcIntraUhdSettings,
+    AvcIntraUhdSettings (AvcIntraUhdSettings'),
     newAvcIntraUhdSettings,
 
     -- ** BurninDestinationSettings
-    BurninDestinationSettings,
+    BurninDestinationSettings (BurninDestinationSettings'),
     newBurninDestinationSettings,
 
     -- ** CaptionDescription
-    CaptionDescription,
+    CaptionDescription (CaptionDescription'),
     newCaptionDescription,
 
     -- ** CaptionDescriptionPreset
-    CaptionDescriptionPreset,
+    CaptionDescriptionPreset (CaptionDescriptionPreset'),
     newCaptionDescriptionPreset,
 
     -- ** CaptionDestinationSettings
-    CaptionDestinationSettings,
+    CaptionDestinationSettings (CaptionDestinationSettings'),
     newCaptionDestinationSettings,
 
     -- ** CaptionSelector
-    CaptionSelector,
+    CaptionSelector (CaptionSelector'),
     newCaptionSelector,
 
     -- ** CaptionSourceFramerate
-    CaptionSourceFramerate,
+    CaptionSourceFramerate (CaptionSourceFramerate'),
     newCaptionSourceFramerate,
 
     -- ** CaptionSourceSettings
-    CaptionSourceSettings,
+    CaptionSourceSettings (CaptionSourceSettings'),
     newCaptionSourceSettings,
 
     -- ** ChannelMapping
-    ChannelMapping,
+    ChannelMapping (ChannelMapping'),
     newChannelMapping,
 
     -- ** CmafAdditionalManifest
-    CmafAdditionalManifest,
+    CmafAdditionalManifest (CmafAdditionalManifest'),
     newCmafAdditionalManifest,
 
     -- ** CmafEncryptionSettings
-    CmafEncryptionSettings,
+    CmafEncryptionSettings (CmafEncryptionSettings'),
     newCmafEncryptionSettings,
 
     -- ** CmafGroupSettings
-    CmafGroupSettings,
+    CmafGroupSettings (CmafGroupSettings'),
     newCmafGroupSettings,
 
     -- ** CmafImageBasedTrickPlaySettings
-    CmafImageBasedTrickPlaySettings,
+    CmafImageBasedTrickPlaySettings (CmafImageBasedTrickPlaySettings'),
     newCmafImageBasedTrickPlaySettings,
 
     -- ** CmfcSettings
-    CmfcSettings,
+    CmfcSettings (CmfcSettings'),
     newCmfcSettings,
 
     -- ** ColorCorrector
-    ColorCorrector,
+    ColorCorrector (ColorCorrector'),
     newColorCorrector,
 
     -- ** ContainerSettings
-    ContainerSettings,
+    ContainerSettings (ContainerSettings'),
     newContainerSettings,
 
     -- ** DashAdditionalManifest
-    DashAdditionalManifest,
+    DashAdditionalManifest (DashAdditionalManifest'),
     newDashAdditionalManifest,
 
     -- ** DashIsoEncryptionSettings
-    DashIsoEncryptionSettings,
+    DashIsoEncryptionSettings (DashIsoEncryptionSettings'),
     newDashIsoEncryptionSettings,
 
     -- ** DashIsoGroupSettings
-    DashIsoGroupSettings,
+    DashIsoGroupSettings (DashIsoGroupSettings'),
     newDashIsoGroupSettings,
 
     -- ** DashIsoImageBasedTrickPlaySettings
-    DashIsoImageBasedTrickPlaySettings,
+    DashIsoImageBasedTrickPlaySettings (DashIsoImageBasedTrickPlaySettings'),
     newDashIsoImageBasedTrickPlaySettings,
 
     -- ** Deinterlacer
-    Deinterlacer,
+    Deinterlacer (Deinterlacer'),
     newDeinterlacer,
 
     -- ** DestinationSettings
-    DestinationSettings,
+    DestinationSettings (DestinationSettings'),
     newDestinationSettings,
 
     -- ** DolbyVision
-    DolbyVision,
+    DolbyVision (DolbyVision'),
     newDolbyVision,
 
     -- ** DolbyVisionLevel6Metadata
-    DolbyVisionLevel6Metadata,
+    DolbyVisionLevel6Metadata (DolbyVisionLevel6Metadata'),
     newDolbyVisionLevel6Metadata,
 
     -- ** DvbNitSettings
-    DvbNitSettings,
+    DvbNitSettings (DvbNitSettings'),
     newDvbNitSettings,
 
     -- ** DvbSdtSettings
-    DvbSdtSettings,
+    DvbSdtSettings (DvbSdtSettings'),
     newDvbSdtSettings,
 
     -- ** DvbSubDestinationSettings
-    DvbSubDestinationSettings,
+    DvbSubDestinationSettings (DvbSubDestinationSettings'),
     newDvbSubDestinationSettings,
 
     -- ** DvbSubSourceSettings
-    DvbSubSourceSettings,
+    DvbSubSourceSettings (DvbSubSourceSettings'),
     newDvbSubSourceSettings,
 
     -- ** DvbTdtSettings
-    DvbTdtSettings,
+    DvbTdtSettings (DvbTdtSettings'),
     newDvbTdtSettings,
 
     -- ** Eac3AtmosSettings
-    Eac3AtmosSettings,
+    Eac3AtmosSettings (Eac3AtmosSettings'),
     newEac3AtmosSettings,
 
     -- ** Eac3Settings
-    Eac3Settings,
+    Eac3Settings (Eac3Settings'),
     newEac3Settings,
 
     -- ** EmbeddedDestinationSettings
-    EmbeddedDestinationSettings,
+    EmbeddedDestinationSettings (EmbeddedDestinationSettings'),
     newEmbeddedDestinationSettings,
 
     -- ** EmbeddedSourceSettings
-    EmbeddedSourceSettings,
+    EmbeddedSourceSettings (EmbeddedSourceSettings'),
     newEmbeddedSourceSettings,
 
     -- ** Endpoint
-    Endpoint,
+    Endpoint (Endpoint'),
     newEndpoint,
 
     -- ** EsamManifestConfirmConditionNotification
-    EsamManifestConfirmConditionNotification,
+    EsamManifestConfirmConditionNotification (EsamManifestConfirmConditionNotification'),
     newEsamManifestConfirmConditionNotification,
 
     -- ** EsamSettings
-    EsamSettings,
+    EsamSettings (EsamSettings'),
     newEsamSettings,
 
     -- ** EsamSignalProcessingNotification
-    EsamSignalProcessingNotification,
+    EsamSignalProcessingNotification (EsamSignalProcessingNotification'),
     newEsamSignalProcessingNotification,
 
     -- ** ExtendedDataServices
-    ExtendedDataServices,
+    ExtendedDataServices (ExtendedDataServices'),
     newExtendedDataServices,
 
     -- ** F4vSettings
-    F4vSettings,
+    F4vSettings (F4vSettings'),
     newF4vSettings,
 
     -- ** FileGroupSettings
-    FileGroupSettings,
+    FileGroupSettings (FileGroupSettings'),
     newFileGroupSettings,
 
     -- ** FileSourceSettings
-    FileSourceSettings,
+    FileSourceSettings (FileSourceSettings'),
     newFileSourceSettings,
 
     -- ** ForceIncludeRenditionSize
-    ForceIncludeRenditionSize,
+    ForceIncludeRenditionSize (ForceIncludeRenditionSize'),
     newForceIncludeRenditionSize,
 
     -- ** FrameCaptureSettings
-    FrameCaptureSettings,
+    FrameCaptureSettings (FrameCaptureSettings'),
     newFrameCaptureSettings,
 
     -- ** H264QvbrSettings
-    H264QvbrSettings,
+    H264QvbrSettings (H264QvbrSettings'),
     newH264QvbrSettings,
 
     -- ** H264Settings
-    H264Settings,
+    H264Settings (H264Settings'),
     newH264Settings,
 
     -- ** H265QvbrSettings
-    H265QvbrSettings,
+    H265QvbrSettings (H265QvbrSettings'),
     newH265QvbrSettings,
 
     -- ** H265Settings
-    H265Settings,
+    H265Settings (H265Settings'),
     newH265Settings,
 
     -- ** Hdr10Metadata
-    Hdr10Metadata,
+    Hdr10Metadata (Hdr10Metadata'),
     newHdr10Metadata,
 
     -- ** Hdr10Plus
-    Hdr10Plus,
+    Hdr10Plus (Hdr10Plus'),
     newHdr10Plus,
 
     -- ** HlsAdditionalManifest
-    HlsAdditionalManifest,
+    HlsAdditionalManifest (HlsAdditionalManifest'),
     newHlsAdditionalManifest,
 
     -- ** HlsCaptionLanguageMapping
-    HlsCaptionLanguageMapping,
+    HlsCaptionLanguageMapping (HlsCaptionLanguageMapping'),
     newHlsCaptionLanguageMapping,
 
     -- ** HlsEncryptionSettings
-    HlsEncryptionSettings,
+    HlsEncryptionSettings (HlsEncryptionSettings'),
     newHlsEncryptionSettings,
 
     -- ** HlsGroupSettings
-    HlsGroupSettings,
+    HlsGroupSettings (HlsGroupSettings'),
     newHlsGroupSettings,
 
     -- ** HlsImageBasedTrickPlaySettings
-    HlsImageBasedTrickPlaySettings,
+    HlsImageBasedTrickPlaySettings (HlsImageBasedTrickPlaySettings'),
     newHlsImageBasedTrickPlaySettings,
 
     -- ** HlsRenditionGroupSettings
-    HlsRenditionGroupSettings,
+    HlsRenditionGroupSettings (HlsRenditionGroupSettings'),
     newHlsRenditionGroupSettings,
 
     -- ** HlsSettings
-    HlsSettings,
+    HlsSettings (HlsSettings'),
     newHlsSettings,
 
     -- ** HopDestination
-    HopDestination,
+    HopDestination (HopDestination'),
     newHopDestination,
 
     -- ** Id3Insertion
-    Id3Insertion,
+    Id3Insertion (Id3Insertion'),
     newId3Insertion,
 
     -- ** ImageInserter
-    ImageInserter,
+    ImageInserter (ImageInserter'),
     newImageInserter,
 
     -- ** ImscDestinationSettings
-    ImscDestinationSettings,
+    ImscDestinationSettings (ImscDestinationSettings'),
     newImscDestinationSettings,
 
     -- ** Input
-    Input,
+    Input (Input'),
     newInput,
 
     -- ** InputClipping
-    InputClipping,
+    InputClipping (InputClipping'),
     newInputClipping,
 
     -- ** InputDecryptionSettings
-    InputDecryptionSettings,
+    InputDecryptionSettings (InputDecryptionSettings'),
     newInputDecryptionSettings,
 
     -- ** InputTemplate
-    InputTemplate,
+    InputTemplate (InputTemplate'),
     newInputTemplate,
 
     -- ** InputVideoGenerator
-    InputVideoGenerator,
+    InputVideoGenerator (InputVideoGenerator'),
     newInputVideoGenerator,
 
     -- ** InsertableImage
-    InsertableImage,
+    InsertableImage (InsertableImage'),
     newInsertableImage,
 
     -- ** Job
-    Job,
+    Job (Job'),
     newJob,
 
     -- ** JobMessages
-    JobMessages,
+    JobMessages (JobMessages'),
     newJobMessages,
 
     -- ** JobSettings
-    JobSettings,
+    JobSettings (JobSettings'),
     newJobSettings,
 
     -- ** JobTemplate
-    JobTemplate,
+    JobTemplate (JobTemplate'),
     newJobTemplate,
 
     -- ** JobTemplateSettings
-    JobTemplateSettings,
+    JobTemplateSettings (JobTemplateSettings'),
     newJobTemplateSettings,
 
     -- ** KantarWatermarkSettings
-    KantarWatermarkSettings,
+    KantarWatermarkSettings (KantarWatermarkSettings'),
     newKantarWatermarkSettings,
 
     -- ** M2tsScte35Esam
-    M2tsScte35Esam,
+    M2tsScte35Esam (M2tsScte35Esam'),
     newM2tsScte35Esam,
 
     -- ** M2tsSettings
-    M2tsSettings,
+    M2tsSettings (M2tsSettings'),
     newM2tsSettings,
 
     -- ** M3u8Settings
-    M3u8Settings,
+    M3u8Settings (M3u8Settings'),
     newM3u8Settings,
 
     -- ** MinBottomRenditionSize
-    MinBottomRenditionSize,
+    MinBottomRenditionSize (MinBottomRenditionSize'),
     newMinBottomRenditionSize,
 
     -- ** MinTopRenditionSize
-    MinTopRenditionSize,
+    MinTopRenditionSize (MinTopRenditionSize'),
     newMinTopRenditionSize,
 
     -- ** MotionImageInserter
-    MotionImageInserter,
+    MotionImageInserter (MotionImageInserter'),
     newMotionImageInserter,
 
     -- ** MotionImageInsertionFramerate
-    MotionImageInsertionFramerate,
+    MotionImageInsertionFramerate (MotionImageInsertionFramerate'),
     newMotionImageInsertionFramerate,
 
     -- ** MotionImageInsertionOffset
-    MotionImageInsertionOffset,
+    MotionImageInsertionOffset (MotionImageInsertionOffset'),
     newMotionImageInsertionOffset,
 
     -- ** MovSettings
-    MovSettings,
+    MovSettings (MovSettings'),
     newMovSettings,
 
     -- ** Mp2Settings
-    Mp2Settings,
+    Mp2Settings (Mp2Settings'),
     newMp2Settings,
 
     -- ** Mp3Settings
-    Mp3Settings,
+    Mp3Settings (Mp3Settings'),
     newMp3Settings,
 
     -- ** Mp4Settings
-    Mp4Settings,
+    Mp4Settings (Mp4Settings'),
     newMp4Settings,
 
     -- ** MpdSettings
-    MpdSettings,
+    MpdSettings (MpdSettings'),
     newMpdSettings,
 
     -- ** Mpeg2Settings
-    Mpeg2Settings,
+    Mpeg2Settings (Mpeg2Settings'),
     newMpeg2Settings,
 
     -- ** MsSmoothAdditionalManifest
-    MsSmoothAdditionalManifest,
+    MsSmoothAdditionalManifest (MsSmoothAdditionalManifest'),
     newMsSmoothAdditionalManifest,
 
     -- ** MsSmoothEncryptionSettings
-    MsSmoothEncryptionSettings,
+    MsSmoothEncryptionSettings (MsSmoothEncryptionSettings'),
     newMsSmoothEncryptionSettings,
 
     -- ** MsSmoothGroupSettings
-    MsSmoothGroupSettings,
+    MsSmoothGroupSettings (MsSmoothGroupSettings'),
     newMsSmoothGroupSettings,
 
     -- ** MxfSettings
-    MxfSettings,
+    MxfSettings (MxfSettings'),
     newMxfSettings,
 
     -- ** MxfXavcProfileSettings
-    MxfXavcProfileSettings,
+    MxfXavcProfileSettings (MxfXavcProfileSettings'),
     newMxfXavcProfileSettings,
 
     -- ** NexGuardFileMarkerSettings
-    NexGuardFileMarkerSettings,
+    NexGuardFileMarkerSettings (NexGuardFileMarkerSettings'),
     newNexGuardFileMarkerSettings,
 
     -- ** NielsenConfiguration
-    NielsenConfiguration,
+    NielsenConfiguration (NielsenConfiguration'),
     newNielsenConfiguration,
 
     -- ** NielsenNonLinearWatermarkSettings
-    NielsenNonLinearWatermarkSettings,
+    NielsenNonLinearWatermarkSettings (NielsenNonLinearWatermarkSettings'),
     newNielsenNonLinearWatermarkSettings,
 
     -- ** NoiseReducer
-    NoiseReducer,
+    NoiseReducer (NoiseReducer'),
     newNoiseReducer,
 
     -- ** NoiseReducerFilterSettings
-    NoiseReducerFilterSettings,
+    NoiseReducerFilterSettings (NoiseReducerFilterSettings'),
     newNoiseReducerFilterSettings,
 
     -- ** NoiseReducerSpatialFilterSettings
-    NoiseReducerSpatialFilterSettings,
+    NoiseReducerSpatialFilterSettings (NoiseReducerSpatialFilterSettings'),
     newNoiseReducerSpatialFilterSettings,
 
     -- ** NoiseReducerTemporalFilterSettings
-    NoiseReducerTemporalFilterSettings,
+    NoiseReducerTemporalFilterSettings (NoiseReducerTemporalFilterSettings'),
     newNoiseReducerTemporalFilterSettings,
 
     -- ** OpusSettings
-    OpusSettings,
+    OpusSettings (OpusSettings'),
     newOpusSettings,
 
     -- ** Output
-    Output,
+    Output (Output'),
     newOutput,
 
     -- ** OutputChannelMapping
-    OutputChannelMapping,
+    OutputChannelMapping (OutputChannelMapping'),
     newOutputChannelMapping,
 
     -- ** OutputDetail
-    OutputDetail,
+    OutputDetail (OutputDetail'),
     newOutputDetail,
 
     -- ** OutputGroup
-    OutputGroup,
+    OutputGroup (OutputGroup'),
     newOutputGroup,
 
     -- ** OutputGroupDetail
-    OutputGroupDetail,
+    OutputGroupDetail (OutputGroupDetail'),
     newOutputGroupDetail,
 
     -- ** OutputGroupSettings
-    OutputGroupSettings,
+    OutputGroupSettings (OutputGroupSettings'),
     newOutputGroupSettings,
 
     -- ** OutputSettings
-    OutputSettings,
+    OutputSettings (OutputSettings'),
     newOutputSettings,
 
     -- ** PartnerWatermarking
-    PartnerWatermarking,
+    PartnerWatermarking (PartnerWatermarking'),
     newPartnerWatermarking,
 
     -- ** Policy
-    Policy,
+    Policy (Policy'),
     newPolicy,
 
     -- ** Preset
-    Preset,
+    Preset (Preset'),
     newPreset,
 
     -- ** PresetSettings
-    PresetSettings,
+    PresetSettings (PresetSettings'),
     newPresetSettings,
 
     -- ** ProresSettings
-    ProresSettings,
+    ProresSettings (ProresSettings'),
     newProresSettings,
 
     -- ** Queue
-    Queue,
+    Queue (Queue'),
     newQueue,
 
     -- ** QueueTransition
-    QueueTransition,
+    QueueTransition (QueueTransition'),
     newQueueTransition,
 
     -- ** Rectangle
-    Rectangle,
+    Rectangle (Rectangle'),
     newRectangle,
 
     -- ** RemixSettings
-    RemixSettings,
+    RemixSettings (RemixSettings'),
     newRemixSettings,
 
     -- ** ReservationPlan
-    ReservationPlan,
+    ReservationPlan (ReservationPlan'),
     newReservationPlan,
 
     -- ** ReservationPlanSettings
-    ReservationPlanSettings,
+    ReservationPlanSettings (ReservationPlanSettings'),
     newReservationPlanSettings,
 
     -- ** ResourceTags
-    ResourceTags,
+    ResourceTags (ResourceTags'),
     newResourceTags,
 
     -- ** S3DestinationAccessControl
-    S3DestinationAccessControl,
+    S3DestinationAccessControl (S3DestinationAccessControl'),
     newS3DestinationAccessControl,
 
     -- ** S3DestinationSettings
-    S3DestinationSettings,
+    S3DestinationSettings (S3DestinationSettings'),
     newS3DestinationSettings,
 
     -- ** S3EncryptionSettings
-    S3EncryptionSettings,
+    S3EncryptionSettings (S3EncryptionSettings'),
     newS3EncryptionSettings,
 
     -- ** SccDestinationSettings
-    SccDestinationSettings,
+    SccDestinationSettings (SccDestinationSettings'),
     newSccDestinationSettings,
 
     -- ** SpekeKeyProvider
-    SpekeKeyProvider,
+    SpekeKeyProvider (SpekeKeyProvider'),
     newSpekeKeyProvider,
 
     -- ** SpekeKeyProviderCmaf
-    SpekeKeyProviderCmaf,
+    SpekeKeyProviderCmaf (SpekeKeyProviderCmaf'),
     newSpekeKeyProviderCmaf,
 
     -- ** SrtDestinationSettings
-    SrtDestinationSettings,
+    SrtDestinationSettings (SrtDestinationSettings'),
     newSrtDestinationSettings,
 
     -- ** StaticKeyProvider
-    StaticKeyProvider,
+    StaticKeyProvider (StaticKeyProvider'),
     newStaticKeyProvider,
 
     -- ** TeletextDestinationSettings
-    TeletextDestinationSettings,
+    TeletextDestinationSettings (TeletextDestinationSettings'),
     newTeletextDestinationSettings,
 
     -- ** TeletextSourceSettings
-    TeletextSourceSettings,
+    TeletextSourceSettings (TeletextSourceSettings'),
     newTeletextSourceSettings,
 
     -- ** TimecodeBurnin
-    TimecodeBurnin,
+    TimecodeBurnin (TimecodeBurnin'),
     newTimecodeBurnin,
 
     -- ** TimecodeConfig
-    TimecodeConfig,
+    TimecodeConfig (TimecodeConfig'),
     newTimecodeConfig,
 
     -- ** TimedMetadataInsertion
-    TimedMetadataInsertion,
+    TimedMetadataInsertion (TimedMetadataInsertion'),
     newTimedMetadataInsertion,
 
     -- ** Timing
-    Timing,
+    Timing (Timing'),
     newTiming,
 
     -- ** TrackSourceSettings
-    TrackSourceSettings,
+    TrackSourceSettings (TrackSourceSettings'),
     newTrackSourceSettings,
 
     -- ** TtmlDestinationSettings
-    TtmlDestinationSettings,
+    TtmlDestinationSettings (TtmlDestinationSettings'),
     newTtmlDestinationSettings,
 
     -- ** Vc3Settings
-    Vc3Settings,
+    Vc3Settings (Vc3Settings'),
     newVc3Settings,
 
     -- ** VideoCodecSettings
-    VideoCodecSettings,
+    VideoCodecSettings (VideoCodecSettings'),
     newVideoCodecSettings,
 
     -- ** VideoDescription
-    VideoDescription,
+    VideoDescription (VideoDescription'),
     newVideoDescription,
 
     -- ** VideoDetail
-    VideoDetail,
+    VideoDetail (VideoDetail'),
     newVideoDetail,
 
     -- ** VideoPreprocessor
-    VideoPreprocessor,
+    VideoPreprocessor (VideoPreprocessor'),
     newVideoPreprocessor,
 
     -- ** VideoSelector
-    VideoSelector,
+    VideoSelector (VideoSelector'),
     newVideoSelector,
 
     -- ** VorbisSettings
-    VorbisSettings,
+    VorbisSettings (VorbisSettings'),
     newVorbisSettings,
 
     -- ** Vp8Settings
-    Vp8Settings,
+    Vp8Settings (Vp8Settings'),
     newVp8Settings,
 
     -- ** Vp9Settings
-    Vp9Settings,
+    Vp9Settings (Vp9Settings'),
     newVp9Settings,
 
     -- ** WavSettings
-    WavSettings,
+    WavSettings (WavSettings'),
     newWavSettings,
 
     -- ** WebvttDestinationSettings
-    WebvttDestinationSettings,
+    WebvttDestinationSettings (WebvttDestinationSettings'),
     newWebvttDestinationSettings,
 
     -- ** WebvttHlsSourceSettings
-    WebvttHlsSourceSettings,
+    WebvttHlsSourceSettings (WebvttHlsSourceSettings'),
     newWebvttHlsSourceSettings,
 
     -- ** Xavc4kIntraCbgProfileSettings
-    Xavc4kIntraCbgProfileSettings,
+    Xavc4kIntraCbgProfileSettings (Xavc4kIntraCbgProfileSettings'),
     newXavc4kIntraCbgProfileSettings,
 
     -- ** Xavc4kIntraVbrProfileSettings
-    Xavc4kIntraVbrProfileSettings,
+    Xavc4kIntraVbrProfileSettings (Xavc4kIntraVbrProfileSettings'),
     newXavc4kIntraVbrProfileSettings,
 
     -- ** Xavc4kProfileSettings
-    Xavc4kProfileSettings,
+    Xavc4kProfileSettings (Xavc4kProfileSettings'),
     newXavc4kProfileSettings,
 
     -- ** XavcHdIntraCbgProfileSettings
-    XavcHdIntraCbgProfileSettings,
+    XavcHdIntraCbgProfileSettings (XavcHdIntraCbgProfileSettings'),
     newXavcHdIntraCbgProfileSettings,
 
     -- ** XavcHdProfileSettings
-    XavcHdProfileSettings,
+    XavcHdProfileSettings (XavcHdProfileSettings'),
     newXavcHdProfileSettings,
 
     -- ** XavcSettings
-    XavcSettings,
+    XavcSettings (XavcSettings'),
     newXavcSettings,
   )
 where

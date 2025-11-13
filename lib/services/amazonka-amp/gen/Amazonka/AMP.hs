@@ -53,129 +53,129 @@ module Amazonka.AMP
     -- $operations
 
     -- ** CreateAlertManagerDefinition
-    CreateAlertManagerDefinition,
+    CreateAlertManagerDefinition (CreateAlertManagerDefinition'),
     newCreateAlertManagerDefinition,
-    CreateAlertManagerDefinitionResponse,
+    CreateAlertManagerDefinitionResponse (CreateAlertManagerDefinitionResponse'),
     newCreateAlertManagerDefinitionResponse,
 
     -- ** CreateLoggingConfiguration
-    CreateLoggingConfiguration,
+    CreateLoggingConfiguration (CreateLoggingConfiguration'),
     newCreateLoggingConfiguration,
-    CreateLoggingConfigurationResponse,
+    CreateLoggingConfigurationResponse (CreateLoggingConfigurationResponse'),
     newCreateLoggingConfigurationResponse,
 
     -- ** CreateRuleGroupsNamespace
-    CreateRuleGroupsNamespace,
+    CreateRuleGroupsNamespace (CreateRuleGroupsNamespace'),
     newCreateRuleGroupsNamespace,
-    CreateRuleGroupsNamespaceResponse,
+    CreateRuleGroupsNamespaceResponse (CreateRuleGroupsNamespaceResponse'),
     newCreateRuleGroupsNamespaceResponse,
 
     -- ** CreateWorkspace
-    CreateWorkspace,
+    CreateWorkspace (CreateWorkspace'),
     newCreateWorkspace,
-    CreateWorkspaceResponse,
+    CreateWorkspaceResponse (CreateWorkspaceResponse'),
     newCreateWorkspaceResponse,
 
     -- ** DeleteAlertManagerDefinition
-    DeleteAlertManagerDefinition,
+    DeleteAlertManagerDefinition (DeleteAlertManagerDefinition'),
     newDeleteAlertManagerDefinition,
-    DeleteAlertManagerDefinitionResponse,
+    DeleteAlertManagerDefinitionResponse (DeleteAlertManagerDefinitionResponse'),
     newDeleteAlertManagerDefinitionResponse,
 
     -- ** DeleteLoggingConfiguration
-    DeleteLoggingConfiguration,
+    DeleteLoggingConfiguration (DeleteLoggingConfiguration'),
     newDeleteLoggingConfiguration,
-    DeleteLoggingConfigurationResponse,
+    DeleteLoggingConfigurationResponse (DeleteLoggingConfigurationResponse'),
     newDeleteLoggingConfigurationResponse,
 
     -- ** DeleteRuleGroupsNamespace
-    DeleteRuleGroupsNamespace,
+    DeleteRuleGroupsNamespace (DeleteRuleGroupsNamespace'),
     newDeleteRuleGroupsNamespace,
-    DeleteRuleGroupsNamespaceResponse,
+    DeleteRuleGroupsNamespaceResponse (DeleteRuleGroupsNamespaceResponse'),
     newDeleteRuleGroupsNamespaceResponse,
 
     -- ** DeleteWorkspace
-    DeleteWorkspace,
+    DeleteWorkspace (DeleteWorkspace'),
     newDeleteWorkspace,
-    DeleteWorkspaceResponse,
+    DeleteWorkspaceResponse (DeleteWorkspaceResponse'),
     newDeleteWorkspaceResponse,
 
     -- ** DescribeAlertManagerDefinition
-    DescribeAlertManagerDefinition,
+    DescribeAlertManagerDefinition (DescribeAlertManagerDefinition'),
     newDescribeAlertManagerDefinition,
-    DescribeAlertManagerDefinitionResponse,
+    DescribeAlertManagerDefinitionResponse (DescribeAlertManagerDefinitionResponse'),
     newDescribeAlertManagerDefinitionResponse,
 
     -- ** DescribeLoggingConfiguration
-    DescribeLoggingConfiguration,
+    DescribeLoggingConfiguration (DescribeLoggingConfiguration'),
     newDescribeLoggingConfiguration,
-    DescribeLoggingConfigurationResponse,
+    DescribeLoggingConfigurationResponse (DescribeLoggingConfigurationResponse'),
     newDescribeLoggingConfigurationResponse,
 
     -- ** DescribeRuleGroupsNamespace
-    DescribeRuleGroupsNamespace,
+    DescribeRuleGroupsNamespace (DescribeRuleGroupsNamespace'),
     newDescribeRuleGroupsNamespace,
-    DescribeRuleGroupsNamespaceResponse,
+    DescribeRuleGroupsNamespaceResponse (DescribeRuleGroupsNamespaceResponse'),
     newDescribeRuleGroupsNamespaceResponse,
 
     -- ** DescribeWorkspace
-    DescribeWorkspace,
+    DescribeWorkspace (DescribeWorkspace'),
     newDescribeWorkspace,
-    DescribeWorkspaceResponse,
+    DescribeWorkspaceResponse (DescribeWorkspaceResponse'),
     newDescribeWorkspaceResponse,
 
     -- ** ListRuleGroupsNamespaces (Paginated)
-    ListRuleGroupsNamespaces,
+    ListRuleGroupsNamespaces (ListRuleGroupsNamespaces'),
     newListRuleGroupsNamespaces,
-    ListRuleGroupsNamespacesResponse,
+    ListRuleGroupsNamespacesResponse (ListRuleGroupsNamespacesResponse'),
     newListRuleGroupsNamespacesResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** ListWorkspaces (Paginated)
-    ListWorkspaces,
+    ListWorkspaces (ListWorkspaces'),
     newListWorkspaces,
-    ListWorkspacesResponse,
+    ListWorkspacesResponse (ListWorkspacesResponse'),
     newListWorkspacesResponse,
 
     -- ** PutAlertManagerDefinition
-    PutAlertManagerDefinition,
+    PutAlertManagerDefinition (PutAlertManagerDefinition'),
     newPutAlertManagerDefinition,
-    PutAlertManagerDefinitionResponse,
+    PutAlertManagerDefinitionResponse (PutAlertManagerDefinitionResponse'),
     newPutAlertManagerDefinitionResponse,
 
     -- ** PutRuleGroupsNamespace
-    PutRuleGroupsNamespace,
+    PutRuleGroupsNamespace (PutRuleGroupsNamespace'),
     newPutRuleGroupsNamespace,
-    PutRuleGroupsNamespaceResponse,
+    PutRuleGroupsNamespaceResponse (PutRuleGroupsNamespaceResponse'),
     newPutRuleGroupsNamespaceResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateLoggingConfiguration
-    UpdateLoggingConfiguration,
+    UpdateLoggingConfiguration (UpdateLoggingConfiguration'),
     newUpdateLoggingConfiguration,
-    UpdateLoggingConfigurationResponse,
+    UpdateLoggingConfigurationResponse (UpdateLoggingConfigurationResponse'),
     newUpdateLoggingConfigurationResponse,
 
     -- ** UpdateWorkspaceAlias
-    UpdateWorkspaceAlias,
+    UpdateWorkspaceAlias (UpdateWorkspaceAlias'),
     newUpdateWorkspaceAlias,
-    UpdateWorkspaceAliasResponse,
+    UpdateWorkspaceAliasResponse (UpdateWorkspaceAliasResponse'),
     newUpdateWorkspaceAliasResponse,
 
     -- * Types
@@ -193,43 +193,43 @@ module Amazonka.AMP
     WorkspaceStatusCode (..),
 
     -- ** AlertManagerDefinitionDescription
-    AlertManagerDefinitionDescription,
+    AlertManagerDefinitionDescription (AlertManagerDefinitionDescription'),
     newAlertManagerDefinitionDescription,
 
     -- ** AlertManagerDefinitionStatus
-    AlertManagerDefinitionStatus,
+    AlertManagerDefinitionStatus (AlertManagerDefinitionStatus'),
     newAlertManagerDefinitionStatus,
 
     -- ** LoggingConfigurationMetadata
-    LoggingConfigurationMetadata,
+    LoggingConfigurationMetadata (LoggingConfigurationMetadata'),
     newLoggingConfigurationMetadata,
 
     -- ** LoggingConfigurationStatus
-    LoggingConfigurationStatus,
+    LoggingConfigurationStatus (LoggingConfigurationStatus'),
     newLoggingConfigurationStatus,
 
     -- ** RuleGroupsNamespaceDescription
-    RuleGroupsNamespaceDescription,
+    RuleGroupsNamespaceDescription (RuleGroupsNamespaceDescription'),
     newRuleGroupsNamespaceDescription,
 
     -- ** RuleGroupsNamespaceStatus
-    RuleGroupsNamespaceStatus,
+    RuleGroupsNamespaceStatus (RuleGroupsNamespaceStatus'),
     newRuleGroupsNamespaceStatus,
 
     -- ** RuleGroupsNamespaceSummary
-    RuleGroupsNamespaceSummary,
+    RuleGroupsNamespaceSummary (RuleGroupsNamespaceSummary'),
     newRuleGroupsNamespaceSummary,
 
     -- ** WorkspaceDescription
-    WorkspaceDescription,
+    WorkspaceDescription (WorkspaceDescription'),
     newWorkspaceDescription,
 
     -- ** WorkspaceStatus
-    WorkspaceStatus,
+    WorkspaceStatus (WorkspaceStatus'),
     newWorkspaceStatus,
 
     -- ** WorkspaceSummary
-    WorkspaceSummary,
+    WorkspaceSummary (WorkspaceSummary'),
     newWorkspaceSummary,
   )
 where

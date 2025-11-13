@@ -55,147 +55,147 @@ module Amazonka.ChimeSDKIdentity
     -- $operations
 
     -- ** CreateAppInstance
-    CreateAppInstance,
+    CreateAppInstance (CreateAppInstance'),
     newCreateAppInstance,
-    CreateAppInstanceResponse,
+    CreateAppInstanceResponse (CreateAppInstanceResponse'),
     newCreateAppInstanceResponse,
 
     -- ** CreateAppInstanceAdmin
-    CreateAppInstanceAdmin,
+    CreateAppInstanceAdmin (CreateAppInstanceAdmin'),
     newCreateAppInstanceAdmin,
-    CreateAppInstanceAdminResponse,
+    CreateAppInstanceAdminResponse (CreateAppInstanceAdminResponse'),
     newCreateAppInstanceAdminResponse,
 
     -- ** CreateAppInstanceUser
-    CreateAppInstanceUser,
+    CreateAppInstanceUser (CreateAppInstanceUser'),
     newCreateAppInstanceUser,
-    CreateAppInstanceUserResponse,
+    CreateAppInstanceUserResponse (CreateAppInstanceUserResponse'),
     newCreateAppInstanceUserResponse,
 
     -- ** DeleteAppInstance
-    DeleteAppInstance,
+    DeleteAppInstance (DeleteAppInstance'),
     newDeleteAppInstance,
-    DeleteAppInstanceResponse,
+    DeleteAppInstanceResponse (DeleteAppInstanceResponse'),
     newDeleteAppInstanceResponse,
 
     -- ** DeleteAppInstanceAdmin
-    DeleteAppInstanceAdmin,
+    DeleteAppInstanceAdmin (DeleteAppInstanceAdmin'),
     newDeleteAppInstanceAdmin,
-    DeleteAppInstanceAdminResponse,
+    DeleteAppInstanceAdminResponse (DeleteAppInstanceAdminResponse'),
     newDeleteAppInstanceAdminResponse,
 
     -- ** DeleteAppInstanceUser
-    DeleteAppInstanceUser,
+    DeleteAppInstanceUser (DeleteAppInstanceUser'),
     newDeleteAppInstanceUser,
-    DeleteAppInstanceUserResponse,
+    DeleteAppInstanceUserResponse (DeleteAppInstanceUserResponse'),
     newDeleteAppInstanceUserResponse,
 
     -- ** DeregisterAppInstanceUserEndpoint
-    DeregisterAppInstanceUserEndpoint,
+    DeregisterAppInstanceUserEndpoint (DeregisterAppInstanceUserEndpoint'),
     newDeregisterAppInstanceUserEndpoint,
-    DeregisterAppInstanceUserEndpointResponse,
+    DeregisterAppInstanceUserEndpointResponse (DeregisterAppInstanceUserEndpointResponse'),
     newDeregisterAppInstanceUserEndpointResponse,
 
     -- ** DescribeAppInstance
-    DescribeAppInstance,
+    DescribeAppInstance (DescribeAppInstance'),
     newDescribeAppInstance,
-    DescribeAppInstanceResponse,
+    DescribeAppInstanceResponse (DescribeAppInstanceResponse'),
     newDescribeAppInstanceResponse,
 
     -- ** DescribeAppInstanceAdmin
-    DescribeAppInstanceAdmin,
+    DescribeAppInstanceAdmin (DescribeAppInstanceAdmin'),
     newDescribeAppInstanceAdmin,
-    DescribeAppInstanceAdminResponse,
+    DescribeAppInstanceAdminResponse (DescribeAppInstanceAdminResponse'),
     newDescribeAppInstanceAdminResponse,
 
     -- ** DescribeAppInstanceUser
-    DescribeAppInstanceUser,
+    DescribeAppInstanceUser (DescribeAppInstanceUser'),
     newDescribeAppInstanceUser,
-    DescribeAppInstanceUserResponse,
+    DescribeAppInstanceUserResponse (DescribeAppInstanceUserResponse'),
     newDescribeAppInstanceUserResponse,
 
     -- ** DescribeAppInstanceUserEndpoint
-    DescribeAppInstanceUserEndpoint,
+    DescribeAppInstanceUserEndpoint (DescribeAppInstanceUserEndpoint'),
     newDescribeAppInstanceUserEndpoint,
-    DescribeAppInstanceUserEndpointResponse,
+    DescribeAppInstanceUserEndpointResponse (DescribeAppInstanceUserEndpointResponse'),
     newDescribeAppInstanceUserEndpointResponse,
 
     -- ** GetAppInstanceRetentionSettings
-    GetAppInstanceRetentionSettings,
+    GetAppInstanceRetentionSettings (GetAppInstanceRetentionSettings'),
     newGetAppInstanceRetentionSettings,
-    GetAppInstanceRetentionSettingsResponse,
+    GetAppInstanceRetentionSettingsResponse (GetAppInstanceRetentionSettingsResponse'),
     newGetAppInstanceRetentionSettingsResponse,
 
     -- ** ListAppInstanceAdmins
-    ListAppInstanceAdmins,
+    ListAppInstanceAdmins (ListAppInstanceAdmins'),
     newListAppInstanceAdmins,
-    ListAppInstanceAdminsResponse,
+    ListAppInstanceAdminsResponse (ListAppInstanceAdminsResponse'),
     newListAppInstanceAdminsResponse,
 
     -- ** ListAppInstanceUserEndpoints
-    ListAppInstanceUserEndpoints,
+    ListAppInstanceUserEndpoints (ListAppInstanceUserEndpoints'),
     newListAppInstanceUserEndpoints,
-    ListAppInstanceUserEndpointsResponse,
+    ListAppInstanceUserEndpointsResponse (ListAppInstanceUserEndpointsResponse'),
     newListAppInstanceUserEndpointsResponse,
 
     -- ** ListAppInstanceUsers
-    ListAppInstanceUsers,
+    ListAppInstanceUsers (ListAppInstanceUsers'),
     newListAppInstanceUsers,
-    ListAppInstanceUsersResponse,
+    ListAppInstanceUsersResponse (ListAppInstanceUsersResponse'),
     newListAppInstanceUsersResponse,
 
     -- ** ListAppInstances
-    ListAppInstances,
+    ListAppInstances (ListAppInstances'),
     newListAppInstances,
-    ListAppInstancesResponse,
+    ListAppInstancesResponse (ListAppInstancesResponse'),
     newListAppInstancesResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** PutAppInstanceRetentionSettings
-    PutAppInstanceRetentionSettings,
+    PutAppInstanceRetentionSettings (PutAppInstanceRetentionSettings'),
     newPutAppInstanceRetentionSettings,
-    PutAppInstanceRetentionSettingsResponse,
+    PutAppInstanceRetentionSettingsResponse (PutAppInstanceRetentionSettingsResponse'),
     newPutAppInstanceRetentionSettingsResponse,
 
     -- ** RegisterAppInstanceUserEndpoint
-    RegisterAppInstanceUserEndpoint,
+    RegisterAppInstanceUserEndpoint (RegisterAppInstanceUserEndpoint'),
     newRegisterAppInstanceUserEndpoint,
-    RegisterAppInstanceUserEndpointResponse,
+    RegisterAppInstanceUserEndpointResponse (RegisterAppInstanceUserEndpointResponse'),
     newRegisterAppInstanceUserEndpointResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateAppInstance
-    UpdateAppInstance,
+    UpdateAppInstance (UpdateAppInstance'),
     newUpdateAppInstance,
-    UpdateAppInstanceResponse,
+    UpdateAppInstanceResponse (UpdateAppInstanceResponse'),
     newUpdateAppInstanceResponse,
 
     -- ** UpdateAppInstanceUser
-    UpdateAppInstanceUser,
+    UpdateAppInstanceUser (UpdateAppInstanceUser'),
     newUpdateAppInstanceUser,
-    UpdateAppInstanceUserResponse,
+    UpdateAppInstanceUserResponse (UpdateAppInstanceUserResponse'),
     newUpdateAppInstanceUserResponse,
 
     -- ** UpdateAppInstanceUserEndpoint
-    UpdateAppInstanceUserEndpoint,
+    UpdateAppInstanceUserEndpoint (UpdateAppInstanceUserEndpoint'),
     newUpdateAppInstanceUserEndpoint,
-    UpdateAppInstanceUserEndpointResponse,
+    UpdateAppInstanceUserEndpointResponse (UpdateAppInstanceUserEndpointResponse'),
     newUpdateAppInstanceUserEndpointResponse,
 
     -- * Types
@@ -213,59 +213,59 @@ module Amazonka.ChimeSDKIdentity
     EndpointStatusReason (..),
 
     -- ** AppInstance
-    AppInstance,
+    AppInstance (AppInstance'),
     newAppInstance,
 
     -- ** AppInstanceAdmin
-    AppInstanceAdmin,
+    AppInstanceAdmin (AppInstanceAdmin'),
     newAppInstanceAdmin,
 
     -- ** AppInstanceAdminSummary
-    AppInstanceAdminSummary,
+    AppInstanceAdminSummary (AppInstanceAdminSummary'),
     newAppInstanceAdminSummary,
 
     -- ** AppInstanceRetentionSettings
-    AppInstanceRetentionSettings,
+    AppInstanceRetentionSettings (AppInstanceRetentionSettings'),
     newAppInstanceRetentionSettings,
 
     -- ** AppInstanceSummary
-    AppInstanceSummary,
+    AppInstanceSummary (AppInstanceSummary'),
     newAppInstanceSummary,
 
     -- ** AppInstanceUser
-    AppInstanceUser,
+    AppInstanceUser (AppInstanceUser'),
     newAppInstanceUser,
 
     -- ** AppInstanceUserEndpoint
-    AppInstanceUserEndpoint,
+    AppInstanceUserEndpoint (AppInstanceUserEndpoint'),
     newAppInstanceUserEndpoint,
 
     -- ** AppInstanceUserEndpointSummary
-    AppInstanceUserEndpointSummary,
+    AppInstanceUserEndpointSummary (AppInstanceUserEndpointSummary'),
     newAppInstanceUserEndpointSummary,
 
     -- ** AppInstanceUserSummary
-    AppInstanceUserSummary,
+    AppInstanceUserSummary (AppInstanceUserSummary'),
     newAppInstanceUserSummary,
 
     -- ** ChannelRetentionSettings
-    ChannelRetentionSettings,
+    ChannelRetentionSettings (ChannelRetentionSettings'),
     newChannelRetentionSettings,
 
     -- ** EndpointAttributes
-    EndpointAttributes,
+    EndpointAttributes (EndpointAttributes'),
     newEndpointAttributes,
 
     -- ** EndpointState
-    EndpointState,
+    EndpointState (EndpointState'),
     newEndpointState,
 
     -- ** Identity
-    Identity,
+    Identity (Identity'),
     newIdentity,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
   )
 where

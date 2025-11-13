@@ -64,27 +64,27 @@ module Amazonka.IoTJobsData
     -- $operations
 
     -- ** DescribeJobExecution
-    DescribeJobExecution,
+    DescribeJobExecution (DescribeJobExecution'),
     newDescribeJobExecution,
-    DescribeJobExecutionResponse,
+    DescribeJobExecutionResponse (DescribeJobExecutionResponse'),
     newDescribeJobExecutionResponse,
 
     -- ** GetPendingJobExecutions
-    GetPendingJobExecutions,
+    GetPendingJobExecutions (GetPendingJobExecutions'),
     newGetPendingJobExecutions,
-    GetPendingJobExecutionsResponse,
+    GetPendingJobExecutionsResponse (GetPendingJobExecutionsResponse'),
     newGetPendingJobExecutionsResponse,
 
     -- ** StartNextPendingJobExecution
-    StartNextPendingJobExecution,
+    StartNextPendingJobExecution (StartNextPendingJobExecution'),
     newStartNextPendingJobExecution,
-    StartNextPendingJobExecutionResponse,
+    StartNextPendingJobExecutionResponse (StartNextPendingJobExecutionResponse'),
     newStartNextPendingJobExecutionResponse,
 
     -- ** UpdateJobExecution
-    UpdateJobExecution,
+    UpdateJobExecution (UpdateJobExecution'),
     newUpdateJobExecution,
-    UpdateJobExecutionResponse,
+    UpdateJobExecutionResponse (UpdateJobExecutionResponse'),
     newUpdateJobExecutionResponse,
 
     -- * Types
@@ -93,15 +93,15 @@ module Amazonka.IoTJobsData
     JobExecutionStatus (..),
 
     -- ** JobExecution
-    JobExecution,
+    JobExecution (JobExecution'),
     newJobExecution,
 
     -- ** JobExecutionState
-    JobExecutionState,
+    JobExecutionState (JobExecutionState'),
     newJobExecutionState,
 
     -- ** JobExecutionSummary
-    JobExecutionSummary,
+    JobExecutionSummary (JobExecutionSummary'),
     newJobExecutionSummary,
   )
 where

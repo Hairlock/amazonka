@@ -49,201 +49,201 @@ module Amazonka.LookoutEquipment
     -- $operations
 
     -- ** CreateDataset
-    CreateDataset,
+    CreateDataset (CreateDataset'),
     newCreateDataset,
-    CreateDatasetResponse,
+    CreateDatasetResponse (CreateDatasetResponse'),
     newCreateDatasetResponse,
 
     -- ** CreateInferenceScheduler
-    CreateInferenceScheduler,
+    CreateInferenceScheduler (CreateInferenceScheduler'),
     newCreateInferenceScheduler,
-    CreateInferenceSchedulerResponse,
+    CreateInferenceSchedulerResponse (CreateInferenceSchedulerResponse'),
     newCreateInferenceSchedulerResponse,
 
     -- ** CreateLabel
-    CreateLabel,
+    CreateLabel (CreateLabel'),
     newCreateLabel,
-    CreateLabelResponse,
+    CreateLabelResponse (CreateLabelResponse'),
     newCreateLabelResponse,
 
     -- ** CreateLabelGroup
-    CreateLabelGroup,
+    CreateLabelGroup (CreateLabelGroup'),
     newCreateLabelGroup,
-    CreateLabelGroupResponse,
+    CreateLabelGroupResponse (CreateLabelGroupResponse'),
     newCreateLabelGroupResponse,
 
     -- ** CreateModel
-    CreateModel,
+    CreateModel (CreateModel'),
     newCreateModel,
-    CreateModelResponse,
+    CreateModelResponse (CreateModelResponse'),
     newCreateModelResponse,
 
     -- ** DeleteDataset
-    DeleteDataset,
+    DeleteDataset (DeleteDataset'),
     newDeleteDataset,
-    DeleteDatasetResponse,
+    DeleteDatasetResponse (DeleteDatasetResponse'),
     newDeleteDatasetResponse,
 
     -- ** DeleteInferenceScheduler
-    DeleteInferenceScheduler,
+    DeleteInferenceScheduler (DeleteInferenceScheduler'),
     newDeleteInferenceScheduler,
-    DeleteInferenceSchedulerResponse,
+    DeleteInferenceSchedulerResponse (DeleteInferenceSchedulerResponse'),
     newDeleteInferenceSchedulerResponse,
 
     -- ** DeleteLabel
-    DeleteLabel,
+    DeleteLabel (DeleteLabel'),
     newDeleteLabel,
-    DeleteLabelResponse,
+    DeleteLabelResponse (DeleteLabelResponse'),
     newDeleteLabelResponse,
 
     -- ** DeleteLabelGroup
-    DeleteLabelGroup,
+    DeleteLabelGroup (DeleteLabelGroup'),
     newDeleteLabelGroup,
-    DeleteLabelGroupResponse,
+    DeleteLabelGroupResponse (DeleteLabelGroupResponse'),
     newDeleteLabelGroupResponse,
 
     -- ** DeleteModel
-    DeleteModel,
+    DeleteModel (DeleteModel'),
     newDeleteModel,
-    DeleteModelResponse,
+    DeleteModelResponse (DeleteModelResponse'),
     newDeleteModelResponse,
 
     -- ** DescribeDataIngestionJob
-    DescribeDataIngestionJob,
+    DescribeDataIngestionJob (DescribeDataIngestionJob'),
     newDescribeDataIngestionJob,
-    DescribeDataIngestionJobResponse,
+    DescribeDataIngestionJobResponse (DescribeDataIngestionJobResponse'),
     newDescribeDataIngestionJobResponse,
 
     -- ** DescribeDataset
-    DescribeDataset,
+    DescribeDataset (DescribeDataset'),
     newDescribeDataset,
-    DescribeDatasetResponse,
+    DescribeDatasetResponse (DescribeDatasetResponse'),
     newDescribeDatasetResponse,
 
     -- ** DescribeInferenceScheduler
-    DescribeInferenceScheduler,
+    DescribeInferenceScheduler (DescribeInferenceScheduler'),
     newDescribeInferenceScheduler,
-    DescribeInferenceSchedulerResponse,
+    DescribeInferenceSchedulerResponse (DescribeInferenceSchedulerResponse'),
     newDescribeInferenceSchedulerResponse,
 
     -- ** DescribeLabel
-    DescribeLabel,
+    DescribeLabel (DescribeLabel'),
     newDescribeLabel,
-    DescribeLabelResponse,
+    DescribeLabelResponse (DescribeLabelResponse'),
     newDescribeLabelResponse,
 
     -- ** DescribeLabelGroup
-    DescribeLabelGroup,
+    DescribeLabelGroup (DescribeLabelGroup'),
     newDescribeLabelGroup,
-    DescribeLabelGroupResponse,
+    DescribeLabelGroupResponse (DescribeLabelGroupResponse'),
     newDescribeLabelGroupResponse,
 
     -- ** DescribeModel
-    DescribeModel,
+    DescribeModel (DescribeModel'),
     newDescribeModel,
-    DescribeModelResponse,
+    DescribeModelResponse (DescribeModelResponse'),
     newDescribeModelResponse,
 
     -- ** ListDataIngestionJobs
-    ListDataIngestionJobs,
+    ListDataIngestionJobs (ListDataIngestionJobs'),
     newListDataIngestionJobs,
-    ListDataIngestionJobsResponse,
+    ListDataIngestionJobsResponse (ListDataIngestionJobsResponse'),
     newListDataIngestionJobsResponse,
 
     -- ** ListDatasets
-    ListDatasets,
+    ListDatasets (ListDatasets'),
     newListDatasets,
-    ListDatasetsResponse,
+    ListDatasetsResponse (ListDatasetsResponse'),
     newListDatasetsResponse,
 
     -- ** ListInferenceEvents
-    ListInferenceEvents,
+    ListInferenceEvents (ListInferenceEvents'),
     newListInferenceEvents,
-    ListInferenceEventsResponse,
+    ListInferenceEventsResponse (ListInferenceEventsResponse'),
     newListInferenceEventsResponse,
 
     -- ** ListInferenceExecutions
-    ListInferenceExecutions,
+    ListInferenceExecutions (ListInferenceExecutions'),
     newListInferenceExecutions,
-    ListInferenceExecutionsResponse,
+    ListInferenceExecutionsResponse (ListInferenceExecutionsResponse'),
     newListInferenceExecutionsResponse,
 
     -- ** ListInferenceSchedulers
-    ListInferenceSchedulers,
+    ListInferenceSchedulers (ListInferenceSchedulers'),
     newListInferenceSchedulers,
-    ListInferenceSchedulersResponse,
+    ListInferenceSchedulersResponse (ListInferenceSchedulersResponse'),
     newListInferenceSchedulersResponse,
 
     -- ** ListLabelGroups
-    ListLabelGroups,
+    ListLabelGroups (ListLabelGroups'),
     newListLabelGroups,
-    ListLabelGroupsResponse,
+    ListLabelGroupsResponse (ListLabelGroupsResponse'),
     newListLabelGroupsResponse,
 
     -- ** ListLabels
-    ListLabels,
+    ListLabels (ListLabels'),
     newListLabels,
-    ListLabelsResponse,
+    ListLabelsResponse (ListLabelsResponse'),
     newListLabelsResponse,
 
     -- ** ListModels
-    ListModels,
+    ListModels (ListModels'),
     newListModels,
-    ListModelsResponse,
+    ListModelsResponse (ListModelsResponse'),
     newListModelsResponse,
 
     -- ** ListSensorStatistics
-    ListSensorStatistics,
+    ListSensorStatistics (ListSensorStatistics'),
     newListSensorStatistics,
-    ListSensorStatisticsResponse,
+    ListSensorStatisticsResponse (ListSensorStatisticsResponse'),
     newListSensorStatisticsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** StartDataIngestionJob
-    StartDataIngestionJob,
+    StartDataIngestionJob (StartDataIngestionJob'),
     newStartDataIngestionJob,
-    StartDataIngestionJobResponse,
+    StartDataIngestionJobResponse (StartDataIngestionJobResponse'),
     newStartDataIngestionJobResponse,
 
     -- ** StartInferenceScheduler
-    StartInferenceScheduler,
+    StartInferenceScheduler (StartInferenceScheduler'),
     newStartInferenceScheduler,
-    StartInferenceSchedulerResponse,
+    StartInferenceSchedulerResponse (StartInferenceSchedulerResponse'),
     newStartInferenceSchedulerResponse,
 
     -- ** StopInferenceScheduler
-    StopInferenceScheduler,
+    StopInferenceScheduler (StopInferenceScheduler'),
     newStopInferenceScheduler,
-    StopInferenceSchedulerResponse,
+    StopInferenceSchedulerResponse (StopInferenceSchedulerResponse'),
     newStopInferenceSchedulerResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateInferenceScheduler
-    UpdateInferenceScheduler,
+    UpdateInferenceScheduler (UpdateInferenceScheduler'),
     newUpdateInferenceScheduler,
-    UpdateInferenceSchedulerResponse,
+    UpdateInferenceSchedulerResponse (UpdateInferenceSchedulerResponse'),
     newUpdateInferenceSchedulerResponse,
 
     -- ** UpdateLabelGroup
-    UpdateLabelGroup,
+    UpdateLabelGroup (UpdateLabelGroup'),
     newUpdateLabelGroup,
-    UpdateLabelGroupResponse,
+    UpdateLabelGroupResponse (UpdateLabelGroupResponse'),
     newUpdateLabelGroupResponse,
 
     -- * Types
@@ -282,147 +282,147 @@ module Amazonka.LookoutEquipment
     TargetSamplingRate (..),
 
     -- ** CategoricalValues
-    CategoricalValues,
+    CategoricalValues (CategoricalValues'),
     newCategoricalValues,
 
     -- ** CountPercent
-    CountPercent,
+    CountPercent (CountPercent'),
     newCountPercent,
 
     -- ** DataIngestionJobSummary
-    DataIngestionJobSummary,
+    DataIngestionJobSummary (DataIngestionJobSummary'),
     newDataIngestionJobSummary,
 
     -- ** DataPreProcessingConfiguration
-    DataPreProcessingConfiguration,
+    DataPreProcessingConfiguration (DataPreProcessingConfiguration'),
     newDataPreProcessingConfiguration,
 
     -- ** DataQualitySummary
-    DataQualitySummary,
+    DataQualitySummary (DataQualitySummary'),
     newDataQualitySummary,
 
     -- ** DatasetSchema
-    DatasetSchema,
+    DatasetSchema (DatasetSchema'),
     newDatasetSchema,
 
     -- ** DatasetSummary
-    DatasetSummary,
+    DatasetSummary (DatasetSummary'),
     newDatasetSummary,
 
     -- ** DuplicateTimestamps
-    DuplicateTimestamps,
+    DuplicateTimestamps (DuplicateTimestamps'),
     newDuplicateTimestamps,
 
     -- ** InferenceEventSummary
-    InferenceEventSummary,
+    InferenceEventSummary (InferenceEventSummary'),
     newInferenceEventSummary,
 
     -- ** InferenceExecutionSummary
-    InferenceExecutionSummary,
+    InferenceExecutionSummary (InferenceExecutionSummary'),
     newInferenceExecutionSummary,
 
     -- ** InferenceInputConfiguration
-    InferenceInputConfiguration,
+    InferenceInputConfiguration (InferenceInputConfiguration'),
     newInferenceInputConfiguration,
 
     -- ** InferenceInputNameConfiguration
-    InferenceInputNameConfiguration,
+    InferenceInputNameConfiguration (InferenceInputNameConfiguration'),
     newInferenceInputNameConfiguration,
 
     -- ** InferenceOutputConfiguration
-    InferenceOutputConfiguration,
+    InferenceOutputConfiguration (InferenceOutputConfiguration'),
     newInferenceOutputConfiguration,
 
     -- ** InferenceS3InputConfiguration
-    InferenceS3InputConfiguration,
+    InferenceS3InputConfiguration (InferenceS3InputConfiguration'),
     newInferenceS3InputConfiguration,
 
     -- ** InferenceS3OutputConfiguration
-    InferenceS3OutputConfiguration,
+    InferenceS3OutputConfiguration (InferenceS3OutputConfiguration'),
     newInferenceS3OutputConfiguration,
 
     -- ** InferenceSchedulerSummary
-    InferenceSchedulerSummary,
+    InferenceSchedulerSummary (InferenceSchedulerSummary'),
     newInferenceSchedulerSummary,
 
     -- ** IngestedFilesSummary
-    IngestedFilesSummary,
+    IngestedFilesSummary (IngestedFilesSummary'),
     newIngestedFilesSummary,
 
     -- ** IngestionInputConfiguration
-    IngestionInputConfiguration,
+    IngestionInputConfiguration (IngestionInputConfiguration'),
     newIngestionInputConfiguration,
 
     -- ** IngestionS3InputConfiguration
-    IngestionS3InputConfiguration,
+    IngestionS3InputConfiguration (IngestionS3InputConfiguration'),
     newIngestionS3InputConfiguration,
 
     -- ** InsufficientSensorData
-    InsufficientSensorData,
+    InsufficientSensorData (InsufficientSensorData'),
     newInsufficientSensorData,
 
     -- ** InvalidSensorData
-    InvalidSensorData,
+    InvalidSensorData (InvalidSensorData'),
     newInvalidSensorData,
 
     -- ** LabelGroupSummary
-    LabelGroupSummary,
+    LabelGroupSummary (LabelGroupSummary'),
     newLabelGroupSummary,
 
     -- ** LabelSummary
-    LabelSummary,
+    LabelSummary (LabelSummary'),
     newLabelSummary,
 
     -- ** LabelsInputConfiguration
-    LabelsInputConfiguration,
+    LabelsInputConfiguration (LabelsInputConfiguration'),
     newLabelsInputConfiguration,
 
     -- ** LabelsS3InputConfiguration
-    LabelsS3InputConfiguration,
+    LabelsS3InputConfiguration (LabelsS3InputConfiguration'),
     newLabelsS3InputConfiguration,
 
     -- ** LargeTimestampGaps
-    LargeTimestampGaps,
+    LargeTimestampGaps (LargeTimestampGaps'),
     newLargeTimestampGaps,
 
     -- ** MissingCompleteSensorData
-    MissingCompleteSensorData,
+    MissingCompleteSensorData (MissingCompleteSensorData'),
     newMissingCompleteSensorData,
 
     -- ** MissingSensorData
-    MissingSensorData,
+    MissingSensorData (MissingSensorData'),
     newMissingSensorData,
 
     -- ** ModelSummary
-    ModelSummary,
+    ModelSummary (ModelSummary'),
     newModelSummary,
 
     -- ** MonotonicValues
-    MonotonicValues,
+    MonotonicValues (MonotonicValues'),
     newMonotonicValues,
 
     -- ** MultipleOperatingModes
-    MultipleOperatingModes,
+    MultipleOperatingModes (MultipleOperatingModes'),
     newMultipleOperatingModes,
 
     -- ** S3Object
-    S3Object,
+    S3Object (S3Object'),
     newS3Object,
 
     -- ** SensorStatisticsSummary
-    SensorStatisticsSummary,
+    SensorStatisticsSummary (SensorStatisticsSummary'),
     newSensorStatisticsSummary,
 
     -- ** SensorsWithShortDateRange
-    SensorsWithShortDateRange,
+    SensorsWithShortDateRange (SensorsWithShortDateRange'),
     newSensorsWithShortDateRange,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** UnsupportedTimestamps
-    UnsupportedTimestamps,
+    UnsupportedTimestamps (UnsupportedTimestamps'),
     newUnsupportedTimestamps,
   )
 where

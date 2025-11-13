@@ -81,69 +81,69 @@ module Amazonka.MwAA
     -- $operations
 
     -- ** CreateCliToken
-    CreateCliToken,
+    CreateCliToken (CreateCliToken'),
     newCreateCliToken,
-    CreateCliTokenResponse,
+    CreateCliTokenResponse (CreateCliTokenResponse'),
     newCreateCliTokenResponse,
 
     -- ** CreateEnvironment
-    CreateEnvironment,
+    CreateEnvironment (CreateEnvironment'),
     newCreateEnvironment,
-    CreateEnvironmentResponse,
+    CreateEnvironmentResponse (CreateEnvironmentResponse'),
     newCreateEnvironmentResponse,
 
     -- ** CreateWebLoginToken
-    CreateWebLoginToken,
+    CreateWebLoginToken (CreateWebLoginToken'),
     newCreateWebLoginToken,
-    CreateWebLoginTokenResponse,
+    CreateWebLoginTokenResponse (CreateWebLoginTokenResponse'),
     newCreateWebLoginTokenResponse,
 
     -- ** DeleteEnvironment
-    DeleteEnvironment,
+    DeleteEnvironment (DeleteEnvironment'),
     newDeleteEnvironment,
-    DeleteEnvironmentResponse,
+    DeleteEnvironmentResponse (DeleteEnvironmentResponse'),
     newDeleteEnvironmentResponse,
 
     -- ** GetEnvironment
-    GetEnvironment,
+    GetEnvironment (GetEnvironment'),
     newGetEnvironment,
-    GetEnvironmentResponse,
+    GetEnvironmentResponse (GetEnvironmentResponse'),
     newGetEnvironmentResponse,
 
     -- ** ListEnvironments (Paginated)
-    ListEnvironments,
+    ListEnvironments (ListEnvironments'),
     newListEnvironments,
-    ListEnvironmentsResponse,
+    ListEnvironmentsResponse (ListEnvironmentsResponse'),
     newListEnvironmentsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** PublishMetrics
-    PublishMetrics,
+    PublishMetrics (PublishMetrics'),
     newPublishMetrics,
-    PublishMetricsResponse,
+    PublishMetricsResponse (PublishMetricsResponse'),
     newPublishMetricsResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateEnvironment
-    UpdateEnvironment,
+    UpdateEnvironment (UpdateEnvironment'),
     newUpdateEnvironment,
-    UpdateEnvironmentResponse,
+    UpdateEnvironmentResponse (UpdateEnvironmentResponse'),
     newUpdateEnvironmentResponse,
 
     -- * Types
@@ -164,51 +164,51 @@ module Amazonka.MwAA
     WebserverAccessMode (..),
 
     -- ** Dimension
-    Dimension,
+    Dimension (Dimension'),
     newDimension,
 
     -- ** Environment
-    Environment,
+    Environment (Environment'),
     newEnvironment,
 
     -- ** LastUpdate
-    LastUpdate,
+    LastUpdate (LastUpdate'),
     newLastUpdate,
 
     -- ** LoggingConfiguration
-    LoggingConfiguration,
+    LoggingConfiguration (LoggingConfiguration'),
     newLoggingConfiguration,
 
     -- ** LoggingConfigurationInput
-    LoggingConfigurationInput,
+    LoggingConfigurationInput (LoggingConfigurationInput'),
     newLoggingConfigurationInput,
 
     -- ** MetricDatum
-    MetricDatum,
+    MetricDatum (MetricDatum'),
     newMetricDatum,
 
     -- ** ModuleLoggingConfiguration
-    ModuleLoggingConfiguration,
+    ModuleLoggingConfiguration (ModuleLoggingConfiguration'),
     newModuleLoggingConfiguration,
 
     -- ** ModuleLoggingConfigurationInput
-    ModuleLoggingConfigurationInput,
+    ModuleLoggingConfigurationInput (ModuleLoggingConfigurationInput'),
     newModuleLoggingConfigurationInput,
 
     -- ** NetworkConfiguration
-    NetworkConfiguration,
+    NetworkConfiguration (NetworkConfiguration'),
     newNetworkConfiguration,
 
     -- ** StatisticSet
-    StatisticSet,
+    StatisticSet (StatisticSet'),
     newStatisticSet,
 
     -- ** UpdateError
-    UpdateError,
+    UpdateError (UpdateError'),
     newUpdateError,
 
     -- ** UpdateNetworkConfigurationInput
-    UpdateNetworkConfigurationInput,
+    UpdateNetworkConfigurationInput (UpdateNetworkConfigurationInput'),
     newUpdateNetworkConfigurationInput,
   )
 where

@@ -95,57 +95,57 @@ module Amazonka.Polly
     -- $operations
 
     -- ** DeleteLexicon
-    DeleteLexicon,
+    DeleteLexicon (DeleteLexicon'),
     newDeleteLexicon,
-    DeleteLexiconResponse,
+    DeleteLexiconResponse (DeleteLexiconResponse'),
     newDeleteLexiconResponse,
 
     -- ** DescribeVoices (Paginated)
-    DescribeVoices,
+    DescribeVoices (DescribeVoices'),
     newDescribeVoices,
-    DescribeVoicesResponse,
+    DescribeVoicesResponse (DescribeVoicesResponse'),
     newDescribeVoicesResponse,
 
     -- ** GetLexicon
-    GetLexicon,
+    GetLexicon (GetLexicon'),
     newGetLexicon,
-    GetLexiconResponse,
+    GetLexiconResponse (GetLexiconResponse'),
     newGetLexiconResponse,
 
     -- ** GetSpeechSynthesisTask
-    GetSpeechSynthesisTask,
+    GetSpeechSynthesisTask (GetSpeechSynthesisTask'),
     newGetSpeechSynthesisTask,
-    GetSpeechSynthesisTaskResponse,
+    GetSpeechSynthesisTaskResponse (GetSpeechSynthesisTaskResponse'),
     newGetSpeechSynthesisTaskResponse,
 
     -- ** ListLexicons (Paginated)
-    ListLexicons,
+    ListLexicons (ListLexicons'),
     newListLexicons,
-    ListLexiconsResponse,
+    ListLexiconsResponse (ListLexiconsResponse'),
     newListLexiconsResponse,
 
     -- ** ListSpeechSynthesisTasks (Paginated)
-    ListSpeechSynthesisTasks,
+    ListSpeechSynthesisTasks (ListSpeechSynthesisTasks'),
     newListSpeechSynthesisTasks,
-    ListSpeechSynthesisTasksResponse,
+    ListSpeechSynthesisTasksResponse (ListSpeechSynthesisTasksResponse'),
     newListSpeechSynthesisTasksResponse,
 
     -- ** PutLexicon
-    PutLexicon,
+    PutLexicon (PutLexicon'),
     newPutLexicon,
-    PutLexiconResponse,
+    PutLexiconResponse (PutLexiconResponse'),
     newPutLexiconResponse,
 
     -- ** StartSpeechSynthesisTask
-    StartSpeechSynthesisTask,
+    StartSpeechSynthesisTask (StartSpeechSynthesisTask'),
     newStartSpeechSynthesisTask,
-    StartSpeechSynthesisTaskResponse,
+    StartSpeechSynthesisTaskResponse (StartSpeechSynthesisTaskResponse'),
     newStartSpeechSynthesisTaskResponse,
 
     -- ** SynthesizeSpeech
-    SynthesizeSpeech,
+    SynthesizeSpeech (SynthesizeSpeech'),
     newSynthesizeSpeech,
-    SynthesizeSpeechResponse,
+    SynthesizeSpeechResponse (SynthesizeSpeechResponse'),
     newSynthesizeSpeechResponse,
 
     -- * Types
@@ -175,23 +175,23 @@ module Amazonka.Polly
     VoiceId (..),
 
     -- ** Lexicon
-    Lexicon,
+    Lexicon (Lexicon'),
     newLexicon,
 
     -- ** LexiconAttributes
-    LexiconAttributes,
+    LexiconAttributes (LexiconAttributes'),
     newLexiconAttributes,
 
     -- ** LexiconDescription
-    LexiconDescription,
+    LexiconDescription (LexiconDescription'),
     newLexiconDescription,
 
     -- ** SynthesisTask
-    SynthesisTask,
+    SynthesisTask (SynthesisTask'),
     newSynthesisTask,
 
     -- ** Voice
-    Voice,
+    Voice (Voice'),
     newVoice,
   )
 where

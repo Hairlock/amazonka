@@ -48,129 +48,129 @@ module Amazonka.VoiceId
     -- $operations
 
     -- ** CreateDomain
-    CreateDomain,
+    CreateDomain (CreateDomain'),
     newCreateDomain,
-    CreateDomainResponse,
+    CreateDomainResponse (CreateDomainResponse'),
     newCreateDomainResponse,
 
     -- ** DeleteDomain
-    DeleteDomain,
+    DeleteDomain (DeleteDomain'),
     newDeleteDomain,
-    DeleteDomainResponse,
+    DeleteDomainResponse (DeleteDomainResponse'),
     newDeleteDomainResponse,
 
     -- ** DeleteFraudster
-    DeleteFraudster,
+    DeleteFraudster (DeleteFraudster'),
     newDeleteFraudster,
-    DeleteFraudsterResponse,
+    DeleteFraudsterResponse (DeleteFraudsterResponse'),
     newDeleteFraudsterResponse,
 
     -- ** DeleteSpeaker
-    DeleteSpeaker,
+    DeleteSpeaker (DeleteSpeaker'),
     newDeleteSpeaker,
-    DeleteSpeakerResponse,
+    DeleteSpeakerResponse (DeleteSpeakerResponse'),
     newDeleteSpeakerResponse,
 
     -- ** DescribeDomain
-    DescribeDomain,
+    DescribeDomain (DescribeDomain'),
     newDescribeDomain,
-    DescribeDomainResponse,
+    DescribeDomainResponse (DescribeDomainResponse'),
     newDescribeDomainResponse,
 
     -- ** DescribeFraudster
-    DescribeFraudster,
+    DescribeFraudster (DescribeFraudster'),
     newDescribeFraudster,
-    DescribeFraudsterResponse,
+    DescribeFraudsterResponse (DescribeFraudsterResponse'),
     newDescribeFraudsterResponse,
 
     -- ** DescribeFraudsterRegistrationJob
-    DescribeFraudsterRegistrationJob,
+    DescribeFraudsterRegistrationJob (DescribeFraudsterRegistrationJob'),
     newDescribeFraudsterRegistrationJob,
-    DescribeFraudsterRegistrationJobResponse,
+    DescribeFraudsterRegistrationJobResponse (DescribeFraudsterRegistrationJobResponse'),
     newDescribeFraudsterRegistrationJobResponse,
 
     -- ** DescribeSpeaker
-    DescribeSpeaker,
+    DescribeSpeaker (DescribeSpeaker'),
     newDescribeSpeaker,
-    DescribeSpeakerResponse,
+    DescribeSpeakerResponse (DescribeSpeakerResponse'),
     newDescribeSpeakerResponse,
 
     -- ** DescribeSpeakerEnrollmentJob
-    DescribeSpeakerEnrollmentJob,
+    DescribeSpeakerEnrollmentJob (DescribeSpeakerEnrollmentJob'),
     newDescribeSpeakerEnrollmentJob,
-    DescribeSpeakerEnrollmentJobResponse,
+    DescribeSpeakerEnrollmentJobResponse (DescribeSpeakerEnrollmentJobResponse'),
     newDescribeSpeakerEnrollmentJobResponse,
 
     -- ** EvaluateSession
-    EvaluateSession,
+    EvaluateSession (EvaluateSession'),
     newEvaluateSession,
-    EvaluateSessionResponse,
+    EvaluateSessionResponse (EvaluateSessionResponse'),
     newEvaluateSessionResponse,
 
     -- ** ListDomains (Paginated)
-    ListDomains,
+    ListDomains (ListDomains'),
     newListDomains,
-    ListDomainsResponse,
+    ListDomainsResponse (ListDomainsResponse'),
     newListDomainsResponse,
 
     -- ** ListFraudsterRegistrationJobs (Paginated)
-    ListFraudsterRegistrationJobs,
+    ListFraudsterRegistrationJobs (ListFraudsterRegistrationJobs'),
     newListFraudsterRegistrationJobs,
-    ListFraudsterRegistrationJobsResponse,
+    ListFraudsterRegistrationJobsResponse (ListFraudsterRegistrationJobsResponse'),
     newListFraudsterRegistrationJobsResponse,
 
     -- ** ListSpeakerEnrollmentJobs (Paginated)
-    ListSpeakerEnrollmentJobs,
+    ListSpeakerEnrollmentJobs (ListSpeakerEnrollmentJobs'),
     newListSpeakerEnrollmentJobs,
-    ListSpeakerEnrollmentJobsResponse,
+    ListSpeakerEnrollmentJobsResponse (ListSpeakerEnrollmentJobsResponse'),
     newListSpeakerEnrollmentJobsResponse,
 
     -- ** ListSpeakers (Paginated)
-    ListSpeakers,
+    ListSpeakers (ListSpeakers'),
     newListSpeakers,
-    ListSpeakersResponse,
+    ListSpeakersResponse (ListSpeakersResponse'),
     newListSpeakersResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** OptOutSpeaker
-    OptOutSpeaker,
+    OptOutSpeaker (OptOutSpeaker'),
     newOptOutSpeaker,
-    OptOutSpeakerResponse,
+    OptOutSpeakerResponse (OptOutSpeakerResponse'),
     newOptOutSpeakerResponse,
 
     -- ** StartFraudsterRegistrationJob
-    StartFraudsterRegistrationJob,
+    StartFraudsterRegistrationJob (StartFraudsterRegistrationJob'),
     newStartFraudsterRegistrationJob,
-    StartFraudsterRegistrationJobResponse,
+    StartFraudsterRegistrationJobResponse (StartFraudsterRegistrationJobResponse'),
     newStartFraudsterRegistrationJobResponse,
 
     -- ** StartSpeakerEnrollmentJob
-    StartSpeakerEnrollmentJob,
+    StartSpeakerEnrollmentJob (StartSpeakerEnrollmentJob'),
     newStartSpeakerEnrollmentJob,
-    StartSpeakerEnrollmentJobResponse,
+    StartSpeakerEnrollmentJobResponse (StartSpeakerEnrollmentJobResponse'),
     newStartSpeakerEnrollmentJobResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateDomain
-    UpdateDomain,
+    UpdateDomain (UpdateDomain'),
     newUpdateDomain,
-    UpdateDomainResponse,
+    UpdateDomainResponse (UpdateDomainResponse'),
     newUpdateDomainResponse,
 
     -- * Types
@@ -212,107 +212,107 @@ module Amazonka.VoiceId
     StreamingStatus (..),
 
     -- ** AuthenticationConfiguration
-    AuthenticationConfiguration,
+    AuthenticationConfiguration (AuthenticationConfiguration'),
     newAuthenticationConfiguration,
 
     -- ** AuthenticationResult
-    AuthenticationResult,
+    AuthenticationResult (AuthenticationResult'),
     newAuthenticationResult,
 
     -- ** Domain
-    Domain,
+    Domain (Domain'),
     newDomain,
 
     -- ** DomainSummary
-    DomainSummary,
+    DomainSummary (DomainSummary'),
     newDomainSummary,
 
     -- ** EnrollmentConfig
-    EnrollmentConfig,
+    EnrollmentConfig (EnrollmentConfig'),
     newEnrollmentConfig,
 
     -- ** EnrollmentJobFraudDetectionConfig
-    EnrollmentJobFraudDetectionConfig,
+    EnrollmentJobFraudDetectionConfig (EnrollmentJobFraudDetectionConfig'),
     newEnrollmentJobFraudDetectionConfig,
 
     -- ** FailureDetails
-    FailureDetails,
+    FailureDetails (FailureDetails'),
     newFailureDetails,
 
     -- ** FraudDetectionConfiguration
-    FraudDetectionConfiguration,
+    FraudDetectionConfiguration (FraudDetectionConfiguration'),
     newFraudDetectionConfiguration,
 
     -- ** FraudDetectionResult
-    FraudDetectionResult,
+    FraudDetectionResult (FraudDetectionResult'),
     newFraudDetectionResult,
 
     -- ** FraudRiskDetails
-    FraudRiskDetails,
+    FraudRiskDetails (FraudRiskDetails'),
     newFraudRiskDetails,
 
     -- ** Fraudster
-    Fraudster,
+    Fraudster (Fraudster'),
     newFraudster,
 
     -- ** FraudsterRegistrationJob
-    FraudsterRegistrationJob,
+    FraudsterRegistrationJob (FraudsterRegistrationJob'),
     newFraudsterRegistrationJob,
 
     -- ** FraudsterRegistrationJobSummary
-    FraudsterRegistrationJobSummary,
+    FraudsterRegistrationJobSummary (FraudsterRegistrationJobSummary'),
     newFraudsterRegistrationJobSummary,
 
     -- ** InputDataConfig
-    InputDataConfig,
+    InputDataConfig (InputDataConfig'),
     newInputDataConfig,
 
     -- ** JobProgress
-    JobProgress,
+    JobProgress (JobProgress'),
     newJobProgress,
 
     -- ** KnownFraudsterRisk
-    KnownFraudsterRisk,
+    KnownFraudsterRisk (KnownFraudsterRisk'),
     newKnownFraudsterRisk,
 
     -- ** OutputDataConfig
-    OutputDataConfig,
+    OutputDataConfig (OutputDataConfig'),
     newOutputDataConfig,
 
     -- ** RegistrationConfig
-    RegistrationConfig,
+    RegistrationConfig (RegistrationConfig'),
     newRegistrationConfig,
 
     -- ** ServerSideEncryptionConfiguration
-    ServerSideEncryptionConfiguration,
+    ServerSideEncryptionConfiguration (ServerSideEncryptionConfiguration'),
     newServerSideEncryptionConfiguration,
 
     -- ** ServerSideEncryptionUpdateDetails
-    ServerSideEncryptionUpdateDetails,
+    ServerSideEncryptionUpdateDetails (ServerSideEncryptionUpdateDetails'),
     newServerSideEncryptionUpdateDetails,
 
     -- ** Speaker
-    Speaker,
+    Speaker (Speaker'),
     newSpeaker,
 
     -- ** SpeakerEnrollmentJob
-    SpeakerEnrollmentJob,
+    SpeakerEnrollmentJob (SpeakerEnrollmentJob'),
     newSpeakerEnrollmentJob,
 
     -- ** SpeakerEnrollmentJobSummary
-    SpeakerEnrollmentJobSummary,
+    SpeakerEnrollmentJobSummary (SpeakerEnrollmentJobSummary'),
     newSpeakerEnrollmentJobSummary,
 
     -- ** SpeakerSummary
-    SpeakerSummary,
+    SpeakerSummary (SpeakerSummary'),
     newSpeakerSummary,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** VoiceSpoofingRisk
-    VoiceSpoofingRisk,
+    VoiceSpoofingRisk (VoiceSpoofingRisk'),
     newVoiceSpoofingRisk,
   )
 where

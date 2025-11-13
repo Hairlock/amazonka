@@ -51,51 +51,51 @@ module Amazonka.FinSpace
     -- $operations
 
     -- ** CreateEnvironment
-    CreateEnvironment,
+    CreateEnvironment (CreateEnvironment'),
     newCreateEnvironment,
-    CreateEnvironmentResponse,
+    CreateEnvironmentResponse (CreateEnvironmentResponse'),
     newCreateEnvironmentResponse,
 
     -- ** DeleteEnvironment
-    DeleteEnvironment,
+    DeleteEnvironment (DeleteEnvironment'),
     newDeleteEnvironment,
-    DeleteEnvironmentResponse,
+    DeleteEnvironmentResponse (DeleteEnvironmentResponse'),
     newDeleteEnvironmentResponse,
 
     -- ** GetEnvironment
-    GetEnvironment,
+    GetEnvironment (GetEnvironment'),
     newGetEnvironment,
-    GetEnvironmentResponse,
+    GetEnvironmentResponse (GetEnvironmentResponse'),
     newGetEnvironmentResponse,
 
     -- ** ListEnvironments
-    ListEnvironments,
+    ListEnvironments (ListEnvironments'),
     newListEnvironments,
-    ListEnvironmentsResponse,
+    ListEnvironmentsResponse (ListEnvironmentsResponse'),
     newListEnvironmentsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateEnvironment
-    UpdateEnvironment,
+    UpdateEnvironment (UpdateEnvironment'),
     newUpdateEnvironment,
-    UpdateEnvironmentResponse,
+    UpdateEnvironmentResponse (UpdateEnvironmentResponse'),
     newUpdateEnvironmentResponse,
 
     -- * Types
@@ -107,15 +107,15 @@ module Amazonka.FinSpace
     FederationMode (..),
 
     -- ** Environment
-    Environment,
+    Environment (Environment'),
     newEnvironment,
 
     -- ** FederationParameters
-    FederationParameters,
+    FederationParameters (FederationParameters'),
     newFederationParameters,
 
     -- ** SuperuserParameters
-    SuperuserParameters,
+    SuperuserParameters (SuperuserParameters'),
     newSuperuserParameters,
   )
 where

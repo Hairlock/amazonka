@@ -41,33 +41,33 @@ module Amazonka.Account
     -- $operations
 
     -- ** DeleteAlternateContact
-    DeleteAlternateContact,
+    DeleteAlternateContact (DeleteAlternateContact'),
     newDeleteAlternateContact,
-    DeleteAlternateContactResponse,
+    DeleteAlternateContactResponse (DeleteAlternateContactResponse'),
     newDeleteAlternateContactResponse,
 
     -- ** GetAlternateContact
-    GetAlternateContact,
+    GetAlternateContact (GetAlternateContact'),
     newGetAlternateContact,
-    GetAlternateContactResponse,
+    GetAlternateContactResponse (GetAlternateContactResponse'),
     newGetAlternateContactResponse,
 
     -- ** GetContactInformation
-    GetContactInformation,
+    GetContactInformation (GetContactInformation'),
     newGetContactInformation,
-    GetContactInformationResponse,
+    GetContactInformationResponse (GetContactInformationResponse'),
     newGetContactInformationResponse,
 
     -- ** PutAlternateContact
-    PutAlternateContact,
+    PutAlternateContact (PutAlternateContact'),
     newPutAlternateContact,
-    PutAlternateContactResponse,
+    PutAlternateContactResponse (PutAlternateContactResponse'),
     newPutAlternateContactResponse,
 
     -- ** PutContactInformation
-    PutContactInformation,
+    PutContactInformation (PutContactInformation'),
     newPutContactInformation,
-    PutContactInformationResponse,
+    PutContactInformationResponse (PutContactInformationResponse'),
     newPutContactInformationResponse,
 
     -- * Types
@@ -76,11 +76,11 @@ module Amazonka.Account
     AlternateContactType (..),
 
     -- ** AlternateContact
-    AlternateContact,
+    AlternateContact (AlternateContact'),
     newAlternateContact,
 
     -- ** ContactInformation
-    ContactInformation,
+    ContactInformation (ContactInformation'),
     newContactInformation,
   )
 where

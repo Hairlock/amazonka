@@ -62,387 +62,387 @@ module Amazonka.AutoScaling
     -- $operations
 
     -- ** AttachInstances
-    AttachInstances,
+    AttachInstances (AttachInstances'),
     newAttachInstances,
-    AttachInstancesResponse,
+    AttachInstancesResponse (AttachInstancesResponse'),
     newAttachInstancesResponse,
 
     -- ** AttachLoadBalancerTargetGroups
-    AttachLoadBalancerTargetGroups,
+    AttachLoadBalancerTargetGroups (AttachLoadBalancerTargetGroups'),
     newAttachLoadBalancerTargetGroups,
-    AttachLoadBalancerTargetGroupsResponse,
+    AttachLoadBalancerTargetGroupsResponse (AttachLoadBalancerTargetGroupsResponse'),
     newAttachLoadBalancerTargetGroupsResponse,
 
     -- ** AttachLoadBalancers
-    AttachLoadBalancers,
+    AttachLoadBalancers (AttachLoadBalancers'),
     newAttachLoadBalancers,
-    AttachLoadBalancersResponse,
+    AttachLoadBalancersResponse (AttachLoadBalancersResponse'),
     newAttachLoadBalancersResponse,
 
     -- ** AttachTrafficSources
-    AttachTrafficSources,
+    AttachTrafficSources (AttachTrafficSources'),
     newAttachTrafficSources,
-    AttachTrafficSourcesResponse,
+    AttachTrafficSourcesResponse (AttachTrafficSourcesResponse'),
     newAttachTrafficSourcesResponse,
 
     -- ** BatchDeleteScheduledAction
-    BatchDeleteScheduledAction,
+    BatchDeleteScheduledAction (BatchDeleteScheduledAction'),
     newBatchDeleteScheduledAction,
-    BatchDeleteScheduledActionResponse,
+    BatchDeleteScheduledActionResponse (BatchDeleteScheduledActionResponse'),
     newBatchDeleteScheduledActionResponse,
 
     -- ** BatchPutScheduledUpdateGroupAction
-    BatchPutScheduledUpdateGroupAction,
+    BatchPutScheduledUpdateGroupAction (BatchPutScheduledUpdateGroupAction'),
     newBatchPutScheduledUpdateGroupAction,
-    BatchPutScheduledUpdateGroupActionResponse,
+    BatchPutScheduledUpdateGroupActionResponse (BatchPutScheduledUpdateGroupActionResponse'),
     newBatchPutScheduledUpdateGroupActionResponse,
 
     -- ** CancelInstanceRefresh
-    CancelInstanceRefresh,
+    CancelInstanceRefresh (CancelInstanceRefresh'),
     newCancelInstanceRefresh,
-    CancelInstanceRefreshResponse,
+    CancelInstanceRefreshResponse (CancelInstanceRefreshResponse'),
     newCancelInstanceRefreshResponse,
 
     -- ** CompleteLifecycleAction
-    CompleteLifecycleAction,
+    CompleteLifecycleAction (CompleteLifecycleAction'),
     newCompleteLifecycleAction,
-    CompleteLifecycleActionResponse,
+    CompleteLifecycleActionResponse (CompleteLifecycleActionResponse'),
     newCompleteLifecycleActionResponse,
 
     -- ** CreateAutoScalingGroup
-    CreateAutoScalingGroup,
+    CreateAutoScalingGroup (CreateAutoScalingGroup'),
     newCreateAutoScalingGroup,
-    CreateAutoScalingGroupResponse,
+    CreateAutoScalingGroupResponse (CreateAutoScalingGroupResponse'),
     newCreateAutoScalingGroupResponse,
 
     -- ** CreateLaunchConfiguration
-    CreateLaunchConfiguration,
+    CreateLaunchConfiguration (CreateLaunchConfiguration'),
     newCreateLaunchConfiguration,
-    CreateLaunchConfigurationResponse,
+    CreateLaunchConfigurationResponse (CreateLaunchConfigurationResponse'),
     newCreateLaunchConfigurationResponse,
 
     -- ** CreateOrUpdateTags
-    CreateOrUpdateTags,
+    CreateOrUpdateTags (CreateOrUpdateTags'),
     newCreateOrUpdateTags,
-    CreateOrUpdateTagsResponse,
+    CreateOrUpdateTagsResponse (CreateOrUpdateTagsResponse'),
     newCreateOrUpdateTagsResponse,
 
     -- ** DeleteAutoScalingGroup
-    DeleteAutoScalingGroup,
+    DeleteAutoScalingGroup (DeleteAutoScalingGroup'),
     newDeleteAutoScalingGroup,
-    DeleteAutoScalingGroupResponse,
+    DeleteAutoScalingGroupResponse (DeleteAutoScalingGroupResponse'),
     newDeleteAutoScalingGroupResponse,
 
     -- ** DeleteLaunchConfiguration
-    DeleteLaunchConfiguration,
+    DeleteLaunchConfiguration (DeleteLaunchConfiguration'),
     newDeleteLaunchConfiguration,
-    DeleteLaunchConfigurationResponse,
+    DeleteLaunchConfigurationResponse (DeleteLaunchConfigurationResponse'),
     newDeleteLaunchConfigurationResponse,
 
     -- ** DeleteLifecycleHook
-    DeleteLifecycleHook,
+    DeleteLifecycleHook (DeleteLifecycleHook'),
     newDeleteLifecycleHook,
-    DeleteLifecycleHookResponse,
+    DeleteLifecycleHookResponse (DeleteLifecycleHookResponse'),
     newDeleteLifecycleHookResponse,
 
     -- ** DeleteNotificationConfiguration
-    DeleteNotificationConfiguration,
+    DeleteNotificationConfiguration (DeleteNotificationConfiguration'),
     newDeleteNotificationConfiguration,
-    DeleteNotificationConfigurationResponse,
+    DeleteNotificationConfigurationResponse (DeleteNotificationConfigurationResponse'),
     newDeleteNotificationConfigurationResponse,
 
     -- ** DeletePolicy
-    DeletePolicy,
+    DeletePolicy (DeletePolicy'),
     newDeletePolicy,
-    DeletePolicyResponse,
+    DeletePolicyResponse (DeletePolicyResponse'),
     newDeletePolicyResponse,
 
     -- ** DeleteScheduledAction
-    DeleteScheduledAction,
+    DeleteScheduledAction (DeleteScheduledAction'),
     newDeleteScheduledAction,
-    DeleteScheduledActionResponse,
+    DeleteScheduledActionResponse (DeleteScheduledActionResponse'),
     newDeleteScheduledActionResponse,
 
     -- ** DeleteTags
-    DeleteTags,
+    DeleteTags (DeleteTags'),
     newDeleteTags,
-    DeleteTagsResponse,
+    DeleteTagsResponse (DeleteTagsResponse'),
     newDeleteTagsResponse,
 
     -- ** DeleteWarmPool
-    DeleteWarmPool,
+    DeleteWarmPool (DeleteWarmPool'),
     newDeleteWarmPool,
-    DeleteWarmPoolResponse,
+    DeleteWarmPoolResponse (DeleteWarmPoolResponse'),
     newDeleteWarmPoolResponse,
 
     -- ** DescribeAccountLimits
-    DescribeAccountLimits,
+    DescribeAccountLimits (DescribeAccountLimits'),
     newDescribeAccountLimits,
-    DescribeAccountLimitsResponse,
+    DescribeAccountLimitsResponse (DescribeAccountLimitsResponse'),
     newDescribeAccountLimitsResponse,
 
     -- ** DescribeAdjustmentTypes
-    DescribeAdjustmentTypes,
+    DescribeAdjustmentTypes (DescribeAdjustmentTypes'),
     newDescribeAdjustmentTypes,
-    DescribeAdjustmentTypesResponse,
+    DescribeAdjustmentTypesResponse (DescribeAdjustmentTypesResponse'),
     newDescribeAdjustmentTypesResponse,
 
     -- ** DescribeAutoScalingGroups (Paginated)
-    DescribeAutoScalingGroups,
+    DescribeAutoScalingGroups (DescribeAutoScalingGroups'),
     newDescribeAutoScalingGroups,
-    DescribeAutoScalingGroupsResponse,
+    DescribeAutoScalingGroupsResponse (DescribeAutoScalingGroupsResponse'),
     newDescribeAutoScalingGroupsResponse,
 
     -- ** DescribeAutoScalingInstances (Paginated)
-    DescribeAutoScalingInstances,
+    DescribeAutoScalingInstances (DescribeAutoScalingInstances'),
     newDescribeAutoScalingInstances,
-    DescribeAutoScalingInstancesResponse,
+    DescribeAutoScalingInstancesResponse (DescribeAutoScalingInstancesResponse'),
     newDescribeAutoScalingInstancesResponse,
 
     -- ** DescribeAutoScalingNotificationTypes
-    DescribeAutoScalingNotificationTypes,
+    DescribeAutoScalingNotificationTypes (DescribeAutoScalingNotificationTypes'),
     newDescribeAutoScalingNotificationTypes,
-    DescribeAutoScalingNotificationTypesResponse,
+    DescribeAutoScalingNotificationTypesResponse (DescribeAutoScalingNotificationTypesResponse'),
     newDescribeAutoScalingNotificationTypesResponse,
 
     -- ** DescribeInstanceRefreshes
-    DescribeInstanceRefreshes,
+    DescribeInstanceRefreshes (DescribeInstanceRefreshes'),
     newDescribeInstanceRefreshes,
-    DescribeInstanceRefreshesResponse,
+    DescribeInstanceRefreshesResponse (DescribeInstanceRefreshesResponse'),
     newDescribeInstanceRefreshesResponse,
 
     -- ** DescribeLaunchConfigurations (Paginated)
-    DescribeLaunchConfigurations,
+    DescribeLaunchConfigurations (DescribeLaunchConfigurations'),
     newDescribeLaunchConfigurations,
-    DescribeLaunchConfigurationsResponse,
+    DescribeLaunchConfigurationsResponse (DescribeLaunchConfigurationsResponse'),
     newDescribeLaunchConfigurationsResponse,
 
     -- ** DescribeLifecycleHookTypes
-    DescribeLifecycleHookTypes,
+    DescribeLifecycleHookTypes (DescribeLifecycleHookTypes'),
     newDescribeLifecycleHookTypes,
-    DescribeLifecycleHookTypesResponse,
+    DescribeLifecycleHookTypesResponse (DescribeLifecycleHookTypesResponse'),
     newDescribeLifecycleHookTypesResponse,
 
     -- ** DescribeLifecycleHooks
-    DescribeLifecycleHooks,
+    DescribeLifecycleHooks (DescribeLifecycleHooks'),
     newDescribeLifecycleHooks,
-    DescribeLifecycleHooksResponse,
+    DescribeLifecycleHooksResponse (DescribeLifecycleHooksResponse'),
     newDescribeLifecycleHooksResponse,
 
     -- ** DescribeLoadBalancerTargetGroups (Paginated)
-    DescribeLoadBalancerTargetGroups,
+    DescribeLoadBalancerTargetGroups (DescribeLoadBalancerTargetGroups'),
     newDescribeLoadBalancerTargetGroups,
-    DescribeLoadBalancerTargetGroupsResponse,
+    DescribeLoadBalancerTargetGroupsResponse (DescribeLoadBalancerTargetGroupsResponse'),
     newDescribeLoadBalancerTargetGroupsResponse,
 
     -- ** DescribeLoadBalancers (Paginated)
-    DescribeLoadBalancers,
+    DescribeLoadBalancers (DescribeLoadBalancers'),
     newDescribeLoadBalancers,
-    DescribeLoadBalancersResponse,
+    DescribeLoadBalancersResponse (DescribeLoadBalancersResponse'),
     newDescribeLoadBalancersResponse,
 
     -- ** DescribeMetricCollectionTypes
-    DescribeMetricCollectionTypes,
+    DescribeMetricCollectionTypes (DescribeMetricCollectionTypes'),
     newDescribeMetricCollectionTypes,
-    DescribeMetricCollectionTypesResponse,
+    DescribeMetricCollectionTypesResponse (DescribeMetricCollectionTypesResponse'),
     newDescribeMetricCollectionTypesResponse,
 
     -- ** DescribeNotificationConfigurations (Paginated)
-    DescribeNotificationConfigurations,
+    DescribeNotificationConfigurations (DescribeNotificationConfigurations'),
     newDescribeNotificationConfigurations,
-    DescribeNotificationConfigurationsResponse,
+    DescribeNotificationConfigurationsResponse (DescribeNotificationConfigurationsResponse'),
     newDescribeNotificationConfigurationsResponse,
 
     -- ** DescribePolicies (Paginated)
-    DescribePolicies,
+    DescribePolicies (DescribePolicies'),
     newDescribePolicies,
-    DescribePoliciesResponse,
+    DescribePoliciesResponse (DescribePoliciesResponse'),
     newDescribePoliciesResponse,
 
     -- ** DescribeScalingActivities (Paginated)
-    DescribeScalingActivities,
+    DescribeScalingActivities (DescribeScalingActivities'),
     newDescribeScalingActivities,
-    DescribeScalingActivitiesResponse,
+    DescribeScalingActivitiesResponse (DescribeScalingActivitiesResponse'),
     newDescribeScalingActivitiesResponse,
 
     -- ** DescribeScalingProcessTypes
-    DescribeScalingProcessTypes,
+    DescribeScalingProcessTypes (DescribeScalingProcessTypes'),
     newDescribeScalingProcessTypes,
-    DescribeScalingProcessTypesResponse,
+    DescribeScalingProcessTypesResponse (DescribeScalingProcessTypesResponse'),
     newDescribeScalingProcessTypesResponse,
 
     -- ** DescribeScheduledActions (Paginated)
-    DescribeScheduledActions,
+    DescribeScheduledActions (DescribeScheduledActions'),
     newDescribeScheduledActions,
-    DescribeScheduledActionsResponse,
+    DescribeScheduledActionsResponse (DescribeScheduledActionsResponse'),
     newDescribeScheduledActionsResponse,
 
     -- ** DescribeTags (Paginated)
-    DescribeTags,
+    DescribeTags (DescribeTags'),
     newDescribeTags,
-    DescribeTagsResponse,
+    DescribeTagsResponse (DescribeTagsResponse'),
     newDescribeTagsResponse,
 
     -- ** DescribeTerminationPolicyTypes
-    DescribeTerminationPolicyTypes,
+    DescribeTerminationPolicyTypes (DescribeTerminationPolicyTypes'),
     newDescribeTerminationPolicyTypes,
-    DescribeTerminationPolicyTypesResponse,
+    DescribeTerminationPolicyTypesResponse (DescribeTerminationPolicyTypesResponse'),
     newDescribeTerminationPolicyTypesResponse,
 
     -- ** DescribeTrafficSources
-    DescribeTrafficSources,
+    DescribeTrafficSources (DescribeTrafficSources'),
     newDescribeTrafficSources,
-    DescribeTrafficSourcesResponse,
+    DescribeTrafficSourcesResponse (DescribeTrafficSourcesResponse'),
     newDescribeTrafficSourcesResponse,
 
     -- ** DescribeWarmPool
-    DescribeWarmPool,
+    DescribeWarmPool (DescribeWarmPool'),
     newDescribeWarmPool,
-    DescribeWarmPoolResponse,
+    DescribeWarmPoolResponse (DescribeWarmPoolResponse'),
     newDescribeWarmPoolResponse,
 
     -- ** DetachInstances
-    DetachInstances,
+    DetachInstances (DetachInstances'),
     newDetachInstances,
-    DetachInstancesResponse,
+    DetachInstancesResponse (DetachInstancesResponse'),
     newDetachInstancesResponse,
 
     -- ** DetachLoadBalancerTargetGroups
-    DetachLoadBalancerTargetGroups,
+    DetachLoadBalancerTargetGroups (DetachLoadBalancerTargetGroups'),
     newDetachLoadBalancerTargetGroups,
-    DetachLoadBalancerTargetGroupsResponse,
+    DetachLoadBalancerTargetGroupsResponse (DetachLoadBalancerTargetGroupsResponse'),
     newDetachLoadBalancerTargetGroupsResponse,
 
     -- ** DetachLoadBalancers
-    DetachLoadBalancers,
+    DetachLoadBalancers (DetachLoadBalancers'),
     newDetachLoadBalancers,
-    DetachLoadBalancersResponse,
+    DetachLoadBalancersResponse (DetachLoadBalancersResponse'),
     newDetachLoadBalancersResponse,
 
     -- ** DetachTrafficSources
-    DetachTrafficSources,
+    DetachTrafficSources (DetachTrafficSources'),
     newDetachTrafficSources,
-    DetachTrafficSourcesResponse,
+    DetachTrafficSourcesResponse (DetachTrafficSourcesResponse'),
     newDetachTrafficSourcesResponse,
 
     -- ** DisableMetricsCollection
-    DisableMetricsCollection,
+    DisableMetricsCollection (DisableMetricsCollection'),
     newDisableMetricsCollection,
-    DisableMetricsCollectionResponse,
+    DisableMetricsCollectionResponse (DisableMetricsCollectionResponse'),
     newDisableMetricsCollectionResponse,
 
     -- ** EnableMetricsCollection
-    EnableMetricsCollection,
+    EnableMetricsCollection (EnableMetricsCollection'),
     newEnableMetricsCollection,
-    EnableMetricsCollectionResponse,
+    EnableMetricsCollectionResponse (EnableMetricsCollectionResponse'),
     newEnableMetricsCollectionResponse,
 
     -- ** EnterStandby
-    EnterStandby,
+    EnterStandby (EnterStandby'),
     newEnterStandby,
-    EnterStandbyResponse,
+    EnterStandbyResponse (EnterStandbyResponse'),
     newEnterStandbyResponse,
 
     -- ** ExecutePolicy
-    ExecutePolicy,
+    ExecutePolicy (ExecutePolicy'),
     newExecutePolicy,
-    ExecutePolicyResponse,
+    ExecutePolicyResponse (ExecutePolicyResponse'),
     newExecutePolicyResponse,
 
     -- ** ExitStandby
-    ExitStandby,
+    ExitStandby (ExitStandby'),
     newExitStandby,
-    ExitStandbyResponse,
+    ExitStandbyResponse (ExitStandbyResponse'),
     newExitStandbyResponse,
 
     -- ** GetPredictiveScalingForecast
-    GetPredictiveScalingForecast,
+    GetPredictiveScalingForecast (GetPredictiveScalingForecast'),
     newGetPredictiveScalingForecast,
-    GetPredictiveScalingForecastResponse,
+    GetPredictiveScalingForecastResponse (GetPredictiveScalingForecastResponse'),
     newGetPredictiveScalingForecastResponse,
 
     -- ** PutLifecycleHook
-    PutLifecycleHook,
+    PutLifecycleHook (PutLifecycleHook'),
     newPutLifecycleHook,
-    PutLifecycleHookResponse,
+    PutLifecycleHookResponse (PutLifecycleHookResponse'),
     newPutLifecycleHookResponse,
 
     -- ** PutNotificationConfiguration
-    PutNotificationConfiguration,
+    PutNotificationConfiguration (PutNotificationConfiguration'),
     newPutNotificationConfiguration,
-    PutNotificationConfigurationResponse,
+    PutNotificationConfigurationResponse (PutNotificationConfigurationResponse'),
     newPutNotificationConfigurationResponse,
 
     -- ** PutScalingPolicy
-    PutScalingPolicy,
+    PutScalingPolicy (PutScalingPolicy'),
     newPutScalingPolicy,
-    PutScalingPolicyResponse,
+    PutScalingPolicyResponse (PutScalingPolicyResponse'),
     newPutScalingPolicyResponse,
 
     -- ** PutScheduledUpdateGroupAction
-    PutScheduledUpdateGroupAction,
+    PutScheduledUpdateGroupAction (PutScheduledUpdateGroupAction'),
     newPutScheduledUpdateGroupAction,
-    PutScheduledUpdateGroupActionResponse,
+    PutScheduledUpdateGroupActionResponse (PutScheduledUpdateGroupActionResponse'),
     newPutScheduledUpdateGroupActionResponse,
 
     -- ** PutWarmPool
-    PutWarmPool,
+    PutWarmPool (PutWarmPool'),
     newPutWarmPool,
-    PutWarmPoolResponse,
+    PutWarmPoolResponse (PutWarmPoolResponse'),
     newPutWarmPoolResponse,
 
     -- ** RecordLifecycleActionHeartbeat
-    RecordLifecycleActionHeartbeat,
+    RecordLifecycleActionHeartbeat (RecordLifecycleActionHeartbeat'),
     newRecordLifecycleActionHeartbeat,
-    RecordLifecycleActionHeartbeatResponse,
+    RecordLifecycleActionHeartbeatResponse (RecordLifecycleActionHeartbeatResponse'),
     newRecordLifecycleActionHeartbeatResponse,
 
     -- ** ResumeProcesses
-    ResumeProcesses,
+    ResumeProcesses (ResumeProcesses'),
     newResumeProcesses,
-    ResumeProcessesResponse,
+    ResumeProcessesResponse (ResumeProcessesResponse'),
     newResumeProcessesResponse,
 
     -- ** SetDesiredCapacity
-    SetDesiredCapacity,
+    SetDesiredCapacity (SetDesiredCapacity'),
     newSetDesiredCapacity,
-    SetDesiredCapacityResponse,
+    SetDesiredCapacityResponse (SetDesiredCapacityResponse'),
     newSetDesiredCapacityResponse,
 
     -- ** SetInstanceHealth
-    SetInstanceHealth,
+    SetInstanceHealth (SetInstanceHealth'),
     newSetInstanceHealth,
-    SetInstanceHealthResponse,
+    SetInstanceHealthResponse (SetInstanceHealthResponse'),
     newSetInstanceHealthResponse,
 
     -- ** SetInstanceProtection
-    SetInstanceProtection,
+    SetInstanceProtection (SetInstanceProtection'),
     newSetInstanceProtection,
-    SetInstanceProtectionResponse,
+    SetInstanceProtectionResponse (SetInstanceProtectionResponse'),
     newSetInstanceProtectionResponse,
 
     -- ** StartInstanceRefresh
-    StartInstanceRefresh,
+    StartInstanceRefresh (StartInstanceRefresh'),
     newStartInstanceRefresh,
-    StartInstanceRefreshResponse,
+    StartInstanceRefreshResponse (StartInstanceRefreshResponse'),
     newStartInstanceRefreshResponse,
 
     -- ** SuspendProcesses
-    SuspendProcesses,
+    SuspendProcesses (SuspendProcesses'),
     newSuspendProcesses,
-    SuspendProcessesResponse,
+    SuspendProcessesResponse (SuspendProcessesResponse'),
     newSuspendProcessesResponse,
 
     -- ** TerminateInstanceInAutoScalingGroup
-    TerminateInstanceInAutoScalingGroup,
+    TerminateInstanceInAutoScalingGroup (TerminateInstanceInAutoScalingGroup'),
     newTerminateInstanceInAutoScalingGroup,
-    TerminateInstanceInAutoScalingGroupResponse,
+    TerminateInstanceInAutoScalingGroupResponse (TerminateInstanceInAutoScalingGroupResponse'),
     newTerminateInstanceInAutoScalingGroupResponse,
 
     -- ** UpdateAutoScalingGroup
-    UpdateAutoScalingGroup,
+    UpdateAutoScalingGroup (UpdateAutoScalingGroup'),
     newUpdateAutoScalingGroup,
-    UpdateAutoScalingGroupResponse,
+    UpdateAutoScalingGroupResponse (UpdateAutoScalingGroupResponse'),
     newUpdateAutoScalingGroupResponse,
 
     -- * Types
@@ -520,299 +520,299 @@ module Amazonka.AutoScaling
     WarmPoolStatus (..),
 
     -- ** AcceleratorCountRequest
-    AcceleratorCountRequest,
+    AcceleratorCountRequest (AcceleratorCountRequest'),
     newAcceleratorCountRequest,
 
     -- ** AcceleratorTotalMemoryMiBRequest
-    AcceleratorTotalMemoryMiBRequest,
+    AcceleratorTotalMemoryMiBRequest (AcceleratorTotalMemoryMiBRequest'),
     newAcceleratorTotalMemoryMiBRequest,
 
     -- ** Activity
-    Activity,
+    Activity (Activity'),
     newActivity,
 
     -- ** AdjustmentType
-    AdjustmentType,
+    AdjustmentType (AdjustmentType'),
     newAdjustmentType,
 
     -- ** Alarm
-    Alarm,
+    Alarm (Alarm'),
     newAlarm,
 
     -- ** AutoScalingGroup
-    AutoScalingGroup,
+    AutoScalingGroup (AutoScalingGroup'),
     newAutoScalingGroup,
 
     -- ** AutoScalingInstanceDetails
-    AutoScalingInstanceDetails,
+    AutoScalingInstanceDetails (AutoScalingInstanceDetails'),
     newAutoScalingInstanceDetails,
 
     -- ** BaselineEbsBandwidthMbpsRequest
-    BaselineEbsBandwidthMbpsRequest,
+    BaselineEbsBandwidthMbpsRequest (BaselineEbsBandwidthMbpsRequest'),
     newBaselineEbsBandwidthMbpsRequest,
 
     -- ** BlockDeviceMapping
-    BlockDeviceMapping,
+    BlockDeviceMapping (BlockDeviceMapping'),
     newBlockDeviceMapping,
 
     -- ** CapacityForecast
-    CapacityForecast,
+    CapacityForecast (CapacityForecast'),
     newCapacityForecast,
 
     -- ** CustomizedMetricSpecification
-    CustomizedMetricSpecification,
+    CustomizedMetricSpecification (CustomizedMetricSpecification'),
     newCustomizedMetricSpecification,
 
     -- ** DesiredConfiguration
-    DesiredConfiguration,
+    DesiredConfiguration (DesiredConfiguration'),
     newDesiredConfiguration,
 
     -- ** Ebs
-    Ebs,
+    Ebs (Ebs'),
     newEbs,
 
     -- ** EnabledMetric
-    EnabledMetric,
+    EnabledMetric (EnabledMetric'),
     newEnabledMetric,
 
     -- ** FailedScheduledUpdateGroupActionRequest
-    FailedScheduledUpdateGroupActionRequest,
+    FailedScheduledUpdateGroupActionRequest (FailedScheduledUpdateGroupActionRequest'),
     newFailedScheduledUpdateGroupActionRequest,
 
     -- ** Filter
-    Filter,
+    Filter (Filter'),
     newFilter,
 
     -- ** Instance
-    Instance,
+    Instance (Instance'),
     newInstance,
 
     -- ** InstanceMetadataOptions
-    InstanceMetadataOptions,
+    InstanceMetadataOptions (InstanceMetadataOptions'),
     newInstanceMetadataOptions,
 
     -- ** InstanceMonitoring
-    InstanceMonitoring,
+    InstanceMonitoring (InstanceMonitoring'),
     newInstanceMonitoring,
 
     -- ** InstanceRefresh
-    InstanceRefresh,
+    InstanceRefresh (InstanceRefresh'),
     newInstanceRefresh,
 
     -- ** InstanceRefreshLivePoolProgress
-    InstanceRefreshLivePoolProgress,
+    InstanceRefreshLivePoolProgress (InstanceRefreshLivePoolProgress'),
     newInstanceRefreshLivePoolProgress,
 
     -- ** InstanceRefreshProgressDetails
-    InstanceRefreshProgressDetails,
+    InstanceRefreshProgressDetails (InstanceRefreshProgressDetails'),
     newInstanceRefreshProgressDetails,
 
     -- ** InstanceRefreshWarmPoolProgress
-    InstanceRefreshWarmPoolProgress,
+    InstanceRefreshWarmPoolProgress (InstanceRefreshWarmPoolProgress'),
     newInstanceRefreshWarmPoolProgress,
 
     -- ** InstanceRequirements
-    InstanceRequirements,
+    InstanceRequirements (InstanceRequirements'),
     newInstanceRequirements,
 
     -- ** InstanceReusePolicy
-    InstanceReusePolicy,
+    InstanceReusePolicy (InstanceReusePolicy'),
     newInstanceReusePolicy,
 
     -- ** InstancesDistribution
-    InstancesDistribution,
+    InstancesDistribution (InstancesDistribution'),
     newInstancesDistribution,
 
     -- ** LaunchConfiguration
-    LaunchConfiguration,
+    LaunchConfiguration (LaunchConfiguration'),
     newLaunchConfiguration,
 
     -- ** LaunchTemplate
-    LaunchTemplate,
+    LaunchTemplate (LaunchTemplate'),
     newLaunchTemplate,
 
     -- ** LaunchTemplateOverrides
-    LaunchTemplateOverrides,
+    LaunchTemplateOverrides (LaunchTemplateOverrides'),
     newLaunchTemplateOverrides,
 
     -- ** LaunchTemplateSpecification
-    LaunchTemplateSpecification,
+    LaunchTemplateSpecification (LaunchTemplateSpecification'),
     newLaunchTemplateSpecification,
 
     -- ** LifecycleHook
-    LifecycleHook,
+    LifecycleHook (LifecycleHook'),
     newLifecycleHook,
 
     -- ** LifecycleHookSpecification
-    LifecycleHookSpecification,
+    LifecycleHookSpecification (LifecycleHookSpecification'),
     newLifecycleHookSpecification,
 
     -- ** LoadBalancerState
-    LoadBalancerState,
+    LoadBalancerState (LoadBalancerState'),
     newLoadBalancerState,
 
     -- ** LoadBalancerTargetGroupState
-    LoadBalancerTargetGroupState,
+    LoadBalancerTargetGroupState (LoadBalancerTargetGroupState'),
     newLoadBalancerTargetGroupState,
 
     -- ** LoadForecast
-    LoadForecast,
+    LoadForecast (LoadForecast'),
     newLoadForecast,
 
     -- ** MemoryGiBPerVCpuRequest
-    MemoryGiBPerVCpuRequest,
+    MemoryGiBPerVCpuRequest (MemoryGiBPerVCpuRequest'),
     newMemoryGiBPerVCpuRequest,
 
     -- ** MemoryMiBRequest
-    MemoryMiBRequest,
+    MemoryMiBRequest (MemoryMiBRequest'),
     newMemoryMiBRequest,
 
     -- ** Metric
-    Metric,
+    Metric (Metric'),
     newMetric,
 
     -- ** MetricCollectionType
-    MetricCollectionType,
+    MetricCollectionType (MetricCollectionType'),
     newMetricCollectionType,
 
     -- ** MetricDataQuery
-    MetricDataQuery,
+    MetricDataQuery (MetricDataQuery'),
     newMetricDataQuery,
 
     -- ** MetricDimension
-    MetricDimension,
+    MetricDimension (MetricDimension'),
     newMetricDimension,
 
     -- ** MetricGranularityType
-    MetricGranularityType,
+    MetricGranularityType (MetricGranularityType'),
     newMetricGranularityType,
 
     -- ** MetricStat
-    MetricStat,
+    MetricStat (MetricStat'),
     newMetricStat,
 
     -- ** MixedInstancesPolicy
-    MixedInstancesPolicy,
+    MixedInstancesPolicy (MixedInstancesPolicy'),
     newMixedInstancesPolicy,
 
     -- ** NetworkBandwidthGbpsRequest
-    NetworkBandwidthGbpsRequest,
+    NetworkBandwidthGbpsRequest (NetworkBandwidthGbpsRequest'),
     newNetworkBandwidthGbpsRequest,
 
     -- ** NetworkInterfaceCountRequest
-    NetworkInterfaceCountRequest,
+    NetworkInterfaceCountRequest (NetworkInterfaceCountRequest'),
     newNetworkInterfaceCountRequest,
 
     -- ** NotificationConfiguration
-    NotificationConfiguration,
+    NotificationConfiguration (NotificationConfiguration'),
     newNotificationConfiguration,
 
     -- ** PredefinedMetricSpecification
-    PredefinedMetricSpecification,
+    PredefinedMetricSpecification (PredefinedMetricSpecification'),
     newPredefinedMetricSpecification,
 
     -- ** PredictiveScalingConfiguration
-    PredictiveScalingConfiguration,
+    PredictiveScalingConfiguration (PredictiveScalingConfiguration'),
     newPredictiveScalingConfiguration,
 
     -- ** PredictiveScalingCustomizedCapacityMetric
-    PredictiveScalingCustomizedCapacityMetric,
+    PredictiveScalingCustomizedCapacityMetric (PredictiveScalingCustomizedCapacityMetric'),
     newPredictiveScalingCustomizedCapacityMetric,
 
     -- ** PredictiveScalingCustomizedLoadMetric
-    PredictiveScalingCustomizedLoadMetric,
+    PredictiveScalingCustomizedLoadMetric (PredictiveScalingCustomizedLoadMetric'),
     newPredictiveScalingCustomizedLoadMetric,
 
     -- ** PredictiveScalingCustomizedScalingMetric
-    PredictiveScalingCustomizedScalingMetric,
+    PredictiveScalingCustomizedScalingMetric (PredictiveScalingCustomizedScalingMetric'),
     newPredictiveScalingCustomizedScalingMetric,
 
     -- ** PredictiveScalingMetricSpecification
-    PredictiveScalingMetricSpecification,
+    PredictiveScalingMetricSpecification (PredictiveScalingMetricSpecification'),
     newPredictiveScalingMetricSpecification,
 
     -- ** PredictiveScalingPredefinedLoadMetric
-    PredictiveScalingPredefinedLoadMetric,
+    PredictiveScalingPredefinedLoadMetric (PredictiveScalingPredefinedLoadMetric'),
     newPredictiveScalingPredefinedLoadMetric,
 
     -- ** PredictiveScalingPredefinedMetricPair
-    PredictiveScalingPredefinedMetricPair,
+    PredictiveScalingPredefinedMetricPair (PredictiveScalingPredefinedMetricPair'),
     newPredictiveScalingPredefinedMetricPair,
 
     -- ** PredictiveScalingPredefinedScalingMetric
-    PredictiveScalingPredefinedScalingMetric,
+    PredictiveScalingPredefinedScalingMetric (PredictiveScalingPredefinedScalingMetric'),
     newPredictiveScalingPredefinedScalingMetric,
 
     -- ** ProcessType
-    ProcessType,
+    ProcessType (ProcessType'),
     newProcessType,
 
     -- ** RefreshPreferences
-    RefreshPreferences,
+    RefreshPreferences (RefreshPreferences'),
     newRefreshPreferences,
 
     -- ** ScalingPolicy
-    ScalingPolicy,
+    ScalingPolicy (ScalingPolicy'),
     newScalingPolicy,
 
     -- ** ScalingProcessQuery
-    ScalingProcessQuery,
+    ScalingProcessQuery (ScalingProcessQuery'),
     newScalingProcessQuery,
 
     -- ** ScheduledUpdateGroupAction
-    ScheduledUpdateGroupAction,
+    ScheduledUpdateGroupAction (ScheduledUpdateGroupAction'),
     newScheduledUpdateGroupAction,
 
     -- ** ScheduledUpdateGroupActionRequest
-    ScheduledUpdateGroupActionRequest,
+    ScheduledUpdateGroupActionRequest (ScheduledUpdateGroupActionRequest'),
     newScheduledUpdateGroupActionRequest,
 
     -- ** StepAdjustment
-    StepAdjustment,
+    StepAdjustment (StepAdjustment'),
     newStepAdjustment,
 
     -- ** SuspendedProcess
-    SuspendedProcess,
+    SuspendedProcess (SuspendedProcess'),
     newSuspendedProcess,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** TagDescription
-    TagDescription,
+    TagDescription (TagDescription'),
     newTagDescription,
 
     -- ** TargetTrackingConfiguration
-    TargetTrackingConfiguration,
+    TargetTrackingConfiguration (TargetTrackingConfiguration'),
     newTargetTrackingConfiguration,
 
     -- ** TargetTrackingMetricDataQuery
-    TargetTrackingMetricDataQuery,
+    TargetTrackingMetricDataQuery (TargetTrackingMetricDataQuery'),
     newTargetTrackingMetricDataQuery,
 
     -- ** TargetTrackingMetricStat
-    TargetTrackingMetricStat,
+    TargetTrackingMetricStat (TargetTrackingMetricStat'),
     newTargetTrackingMetricStat,
 
     -- ** TotalLocalStorageGBRequest
-    TotalLocalStorageGBRequest,
+    TotalLocalStorageGBRequest (TotalLocalStorageGBRequest'),
     newTotalLocalStorageGBRequest,
 
     -- ** TrafficSourceIdentifier
-    TrafficSourceIdentifier,
+    TrafficSourceIdentifier (TrafficSourceIdentifier'),
     newTrafficSourceIdentifier,
 
     -- ** TrafficSourceState
-    TrafficSourceState,
+    TrafficSourceState (TrafficSourceState'),
     newTrafficSourceState,
 
     -- ** VCpuCountRequest
-    VCpuCountRequest,
+    VCpuCountRequest (VCpuCountRequest'),
     newVCpuCountRequest,
 
     -- ** WarmPoolConfiguration
-    WarmPoolConfiguration,
+    WarmPoolConfiguration (WarmPoolConfiguration'),
     newWarmPoolConfiguration,
   )
 where

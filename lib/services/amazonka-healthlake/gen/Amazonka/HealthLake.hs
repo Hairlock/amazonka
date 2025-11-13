@@ -46,81 +46,81 @@ module Amazonka.HealthLake
     -- $operations
 
     -- ** CreateFHIRDatastore
-    CreateFHIRDatastore,
+    CreateFHIRDatastore (CreateFHIRDatastore'),
     newCreateFHIRDatastore,
-    CreateFHIRDatastoreResponse,
+    CreateFHIRDatastoreResponse (CreateFHIRDatastoreResponse'),
     newCreateFHIRDatastoreResponse,
 
     -- ** DeleteFHIRDatastore
-    DeleteFHIRDatastore,
+    DeleteFHIRDatastore (DeleteFHIRDatastore'),
     newDeleteFHIRDatastore,
-    DeleteFHIRDatastoreResponse,
+    DeleteFHIRDatastoreResponse (DeleteFHIRDatastoreResponse'),
     newDeleteFHIRDatastoreResponse,
 
     -- ** DescribeFHIRDatastore
-    DescribeFHIRDatastore,
+    DescribeFHIRDatastore (DescribeFHIRDatastore'),
     newDescribeFHIRDatastore,
-    DescribeFHIRDatastoreResponse,
+    DescribeFHIRDatastoreResponse (DescribeFHIRDatastoreResponse'),
     newDescribeFHIRDatastoreResponse,
 
     -- ** DescribeFHIRExportJob
-    DescribeFHIRExportJob,
+    DescribeFHIRExportJob (DescribeFHIRExportJob'),
     newDescribeFHIRExportJob,
-    DescribeFHIRExportJobResponse,
+    DescribeFHIRExportJobResponse (DescribeFHIRExportJobResponse'),
     newDescribeFHIRExportJobResponse,
 
     -- ** DescribeFHIRImportJob
-    DescribeFHIRImportJob,
+    DescribeFHIRImportJob (DescribeFHIRImportJob'),
     newDescribeFHIRImportJob,
-    DescribeFHIRImportJobResponse,
+    DescribeFHIRImportJobResponse (DescribeFHIRImportJobResponse'),
     newDescribeFHIRImportJobResponse,
 
     -- ** ListFHIRDatastores
-    ListFHIRDatastores,
+    ListFHIRDatastores (ListFHIRDatastores'),
     newListFHIRDatastores,
-    ListFHIRDatastoresResponse,
+    ListFHIRDatastoresResponse (ListFHIRDatastoresResponse'),
     newListFHIRDatastoresResponse,
 
     -- ** ListFHIRExportJobs
-    ListFHIRExportJobs,
+    ListFHIRExportJobs (ListFHIRExportJobs'),
     newListFHIRExportJobs,
-    ListFHIRExportJobsResponse,
+    ListFHIRExportJobsResponse (ListFHIRExportJobsResponse'),
     newListFHIRExportJobsResponse,
 
     -- ** ListFHIRImportJobs
-    ListFHIRImportJobs,
+    ListFHIRImportJobs (ListFHIRImportJobs'),
     newListFHIRImportJobs,
-    ListFHIRImportJobsResponse,
+    ListFHIRImportJobsResponse (ListFHIRImportJobsResponse'),
     newListFHIRImportJobsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** StartFHIRExportJob
-    StartFHIRExportJob,
+    StartFHIRExportJob (StartFHIRExportJob'),
     newStartFHIRExportJob,
-    StartFHIRExportJobResponse,
+    StartFHIRExportJobResponse (StartFHIRExportJobResponse'),
     newStartFHIRExportJobResponse,
 
     -- ** StartFHIRImportJob
-    StartFHIRImportJob,
+    StartFHIRImportJob (StartFHIRImportJob'),
     newStartFHIRImportJob,
-    StartFHIRImportJobResponse,
+    StartFHIRImportJobResponse (StartFHIRImportJobResponse'),
     newStartFHIRImportJobResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- * Types
@@ -141,47 +141,47 @@ module Amazonka.HealthLake
     PreloadDataType (..),
 
     -- ** DatastoreFilter
-    DatastoreFilter,
+    DatastoreFilter (DatastoreFilter'),
     newDatastoreFilter,
 
     -- ** DatastoreProperties
-    DatastoreProperties,
+    DatastoreProperties (DatastoreProperties'),
     newDatastoreProperties,
 
     -- ** ExportJobProperties
-    ExportJobProperties,
+    ExportJobProperties (ExportJobProperties'),
     newExportJobProperties,
 
     -- ** ImportJobProperties
-    ImportJobProperties,
+    ImportJobProperties (ImportJobProperties'),
     newImportJobProperties,
 
     -- ** InputDataConfig
-    InputDataConfig,
+    InputDataConfig (InputDataConfig'),
     newInputDataConfig,
 
     -- ** KmsEncryptionConfig
-    KmsEncryptionConfig,
+    KmsEncryptionConfig (KmsEncryptionConfig'),
     newKmsEncryptionConfig,
 
     -- ** OutputDataConfig
-    OutputDataConfig,
+    OutputDataConfig (OutputDataConfig'),
     newOutputDataConfig,
 
     -- ** PreloadDataConfig
-    PreloadDataConfig,
+    PreloadDataConfig (PreloadDataConfig'),
     newPreloadDataConfig,
 
     -- ** S3Configuration
-    S3Configuration,
+    S3Configuration (S3Configuration'),
     newS3Configuration,
 
     -- ** SseConfiguration
-    SseConfiguration,
+    SseConfiguration (SseConfiguration'),
     newSseConfiguration,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
   )
 where

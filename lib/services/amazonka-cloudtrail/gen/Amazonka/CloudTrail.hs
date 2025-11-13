@@ -267,231 +267,231 @@ module Amazonka.CloudTrail
     -- $operations
 
     -- ** AddTags
-    AddTags,
+    AddTags (AddTags'),
     newAddTags,
-    AddTagsResponse,
+    AddTagsResponse (AddTagsResponse'),
     newAddTagsResponse,
 
     -- ** CancelQuery
-    CancelQuery,
+    CancelQuery (CancelQuery'),
     newCancelQuery,
-    CancelQueryResponse,
+    CancelQueryResponse (CancelQueryResponse'),
     newCancelQueryResponse,
 
     -- ** CreateEventDataStore
-    CreateEventDataStore,
+    CreateEventDataStore (CreateEventDataStore'),
     newCreateEventDataStore,
-    CreateEventDataStoreResponse,
+    CreateEventDataStoreResponse (CreateEventDataStoreResponse'),
     newCreateEventDataStoreResponse,
 
     -- ** CreateTrail
-    CreateTrail,
+    CreateTrail (CreateTrail'),
     newCreateTrail,
-    CreateTrailResponse,
+    CreateTrailResponse (CreateTrailResponse'),
     newCreateTrailResponse,
 
     -- ** DeleteEventDataStore
-    DeleteEventDataStore,
+    DeleteEventDataStore (DeleteEventDataStore'),
     newDeleteEventDataStore,
-    DeleteEventDataStoreResponse,
+    DeleteEventDataStoreResponse (DeleteEventDataStoreResponse'),
     newDeleteEventDataStoreResponse,
 
     -- ** DeleteTrail
-    DeleteTrail,
+    DeleteTrail (DeleteTrail'),
     newDeleteTrail,
-    DeleteTrailResponse,
+    DeleteTrailResponse (DeleteTrailResponse'),
     newDeleteTrailResponse,
 
     -- ** DeregisterOrganizationDelegatedAdmin
-    DeregisterOrganizationDelegatedAdmin,
+    DeregisterOrganizationDelegatedAdmin (DeregisterOrganizationDelegatedAdmin'),
     newDeregisterOrganizationDelegatedAdmin,
-    DeregisterOrganizationDelegatedAdminResponse,
+    DeregisterOrganizationDelegatedAdminResponse (DeregisterOrganizationDelegatedAdminResponse'),
     newDeregisterOrganizationDelegatedAdminResponse,
 
     -- ** DescribeQuery
-    DescribeQuery,
+    DescribeQuery (DescribeQuery'),
     newDescribeQuery,
-    DescribeQueryResponse,
+    DescribeQueryResponse (DescribeQueryResponse'),
     newDescribeQueryResponse,
 
     -- ** DescribeTrails
-    DescribeTrails,
+    DescribeTrails (DescribeTrails'),
     newDescribeTrails,
-    DescribeTrailsResponse,
+    DescribeTrailsResponse (DescribeTrailsResponse'),
     newDescribeTrailsResponse,
 
     -- ** GetChannel
-    GetChannel,
+    GetChannel (GetChannel'),
     newGetChannel,
-    GetChannelResponse,
+    GetChannelResponse (GetChannelResponse'),
     newGetChannelResponse,
 
     -- ** GetEventDataStore
-    GetEventDataStore,
+    GetEventDataStore (GetEventDataStore'),
     newGetEventDataStore,
-    GetEventDataStoreResponse,
+    GetEventDataStoreResponse (GetEventDataStoreResponse'),
     newGetEventDataStoreResponse,
 
     -- ** GetEventSelectors
-    GetEventSelectors,
+    GetEventSelectors (GetEventSelectors'),
     newGetEventSelectors,
-    GetEventSelectorsResponse,
+    GetEventSelectorsResponse (GetEventSelectorsResponse'),
     newGetEventSelectorsResponse,
 
     -- ** GetImport
-    GetImport,
+    GetImport (GetImport'),
     newGetImport,
-    GetImportResponse,
+    GetImportResponse (GetImportResponse'),
     newGetImportResponse,
 
     -- ** GetInsightSelectors
-    GetInsightSelectors,
+    GetInsightSelectors (GetInsightSelectors'),
     newGetInsightSelectors,
-    GetInsightSelectorsResponse,
+    GetInsightSelectorsResponse (GetInsightSelectorsResponse'),
     newGetInsightSelectorsResponse,
 
     -- ** GetQueryResults
-    GetQueryResults,
+    GetQueryResults (GetQueryResults'),
     newGetQueryResults,
-    GetQueryResultsResponse,
+    GetQueryResultsResponse (GetQueryResultsResponse'),
     newGetQueryResultsResponse,
 
     -- ** GetTrail
-    GetTrail,
+    GetTrail (GetTrail'),
     newGetTrail,
-    GetTrailResponse,
+    GetTrailResponse (GetTrailResponse'),
     newGetTrailResponse,
 
     -- ** GetTrailStatus
-    GetTrailStatus,
+    GetTrailStatus (GetTrailStatus'),
     newGetTrailStatus,
-    GetTrailStatusResponse,
+    GetTrailStatusResponse (GetTrailStatusResponse'),
     newGetTrailStatusResponse,
 
     -- ** ListChannels
-    ListChannels,
+    ListChannels (ListChannels'),
     newListChannels,
-    ListChannelsResponse,
+    ListChannelsResponse (ListChannelsResponse'),
     newListChannelsResponse,
 
     -- ** ListEventDataStores
-    ListEventDataStores,
+    ListEventDataStores (ListEventDataStores'),
     newListEventDataStores,
-    ListEventDataStoresResponse,
+    ListEventDataStoresResponse (ListEventDataStoresResponse'),
     newListEventDataStoresResponse,
 
     -- ** ListImportFailures (Paginated)
-    ListImportFailures,
+    ListImportFailures (ListImportFailures'),
     newListImportFailures,
-    ListImportFailuresResponse,
+    ListImportFailuresResponse (ListImportFailuresResponse'),
     newListImportFailuresResponse,
 
     -- ** ListImports (Paginated)
-    ListImports,
+    ListImports (ListImports'),
     newListImports,
-    ListImportsResponse,
+    ListImportsResponse (ListImportsResponse'),
     newListImportsResponse,
 
     -- ** ListPublicKeys (Paginated)
-    ListPublicKeys,
+    ListPublicKeys (ListPublicKeys'),
     newListPublicKeys,
-    ListPublicKeysResponse,
+    ListPublicKeysResponse (ListPublicKeysResponse'),
     newListPublicKeysResponse,
 
     -- ** ListQueries
-    ListQueries,
+    ListQueries (ListQueries'),
     newListQueries,
-    ListQueriesResponse,
+    ListQueriesResponse (ListQueriesResponse'),
     newListQueriesResponse,
 
     -- ** ListTags (Paginated)
-    ListTags,
+    ListTags (ListTags'),
     newListTags,
-    ListTagsResponse,
+    ListTagsResponse (ListTagsResponse'),
     newListTagsResponse,
 
     -- ** ListTrails (Paginated)
-    ListTrails,
+    ListTrails (ListTrails'),
     newListTrails,
-    ListTrailsResponse,
+    ListTrailsResponse (ListTrailsResponse'),
     newListTrailsResponse,
 
     -- ** LookupEvents (Paginated)
-    LookupEvents,
+    LookupEvents (LookupEvents'),
     newLookupEvents,
-    LookupEventsResponse,
+    LookupEventsResponse (LookupEventsResponse'),
     newLookupEventsResponse,
 
     -- ** PutEventSelectors
-    PutEventSelectors,
+    PutEventSelectors (PutEventSelectors'),
     newPutEventSelectors,
-    PutEventSelectorsResponse,
+    PutEventSelectorsResponse (PutEventSelectorsResponse'),
     newPutEventSelectorsResponse,
 
     -- ** PutInsightSelectors
-    PutInsightSelectors,
+    PutInsightSelectors (PutInsightSelectors'),
     newPutInsightSelectors,
-    PutInsightSelectorsResponse,
+    PutInsightSelectorsResponse (PutInsightSelectorsResponse'),
     newPutInsightSelectorsResponse,
 
     -- ** RegisterOrganizationDelegatedAdmin
-    RegisterOrganizationDelegatedAdmin,
+    RegisterOrganizationDelegatedAdmin (RegisterOrganizationDelegatedAdmin'),
     newRegisterOrganizationDelegatedAdmin,
-    RegisterOrganizationDelegatedAdminResponse,
+    RegisterOrganizationDelegatedAdminResponse (RegisterOrganizationDelegatedAdminResponse'),
     newRegisterOrganizationDelegatedAdminResponse,
 
     -- ** RemoveTags
-    RemoveTags,
+    RemoveTags (RemoveTags'),
     newRemoveTags,
-    RemoveTagsResponse,
+    RemoveTagsResponse (RemoveTagsResponse'),
     newRemoveTagsResponse,
 
     -- ** RestoreEventDataStore
-    RestoreEventDataStore,
+    RestoreEventDataStore (RestoreEventDataStore'),
     newRestoreEventDataStore,
-    RestoreEventDataStoreResponse,
+    RestoreEventDataStoreResponse (RestoreEventDataStoreResponse'),
     newRestoreEventDataStoreResponse,
 
     -- ** StartImport
-    StartImport,
+    StartImport (StartImport'),
     newStartImport,
-    StartImportResponse,
+    StartImportResponse (StartImportResponse'),
     newStartImportResponse,
 
     -- ** StartLogging
-    StartLogging,
+    StartLogging (StartLogging'),
     newStartLogging,
-    StartLoggingResponse,
+    StartLoggingResponse (StartLoggingResponse'),
     newStartLoggingResponse,
 
     -- ** StartQuery
-    StartQuery,
+    StartQuery (StartQuery'),
     newStartQuery,
-    StartQueryResponse,
+    StartQueryResponse (StartQueryResponse'),
     newStartQueryResponse,
 
     -- ** StopImport
-    StopImport,
+    StopImport (StopImport'),
     newStopImport,
-    StopImportResponse,
+    StopImportResponse (StopImportResponse'),
     newStopImportResponse,
 
     -- ** StopLogging
-    StopLogging,
+    StopLogging (StopLogging'),
     newStopLogging,
-    StopLoggingResponse,
+    StopLoggingResponse (StopLoggingResponse'),
     newStopLoggingResponse,
 
     -- ** UpdateEventDataStore
-    UpdateEventDataStore,
+    UpdateEventDataStore (UpdateEventDataStore'),
     newUpdateEventDataStore,
-    UpdateEventDataStoreResponse,
+    UpdateEventDataStoreResponse (UpdateEventDataStoreResponse'),
     newUpdateEventDataStoreResponse,
 
     -- ** UpdateTrail
-    UpdateTrail,
+    UpdateTrail (UpdateTrail'),
     newUpdateTrail,
-    UpdateTrailResponse,
+    UpdateTrailResponse (UpdateTrailResponse'),
     newUpdateTrailResponse,
 
     -- * Types
@@ -527,103 +527,103 @@ module Amazonka.CloudTrail
     ReadWriteType (..),
 
     -- ** AdvancedEventSelector
-    AdvancedEventSelector,
+    AdvancedEventSelector (AdvancedEventSelector'),
     newAdvancedEventSelector,
 
     -- ** AdvancedFieldSelector
-    AdvancedFieldSelector,
+    AdvancedFieldSelector (AdvancedFieldSelector'),
     newAdvancedFieldSelector,
 
     -- ** Channel
-    Channel,
+    Channel (Channel'),
     newChannel,
 
     -- ** DataResource
-    DataResource,
+    DataResource (DataResource'),
     newDataResource,
 
     -- ** Destination
-    Destination,
+    Destination (Destination'),
     newDestination,
 
     -- ** Event
-    Event,
+    Event (Event'),
     newEvent,
 
     -- ** EventDataStore
-    EventDataStore,
+    EventDataStore (EventDataStore'),
     newEventDataStore,
 
     -- ** EventSelector
-    EventSelector,
+    EventSelector (EventSelector'),
     newEventSelector,
 
     -- ** ImportFailureListItem
-    ImportFailureListItem,
+    ImportFailureListItem (ImportFailureListItem'),
     newImportFailureListItem,
 
     -- ** ImportSource
-    ImportSource,
+    ImportSource (ImportSource'),
     newImportSource,
 
     -- ** ImportStatistics
-    ImportStatistics,
+    ImportStatistics (ImportStatistics'),
     newImportStatistics,
 
     -- ** ImportsListItem
-    ImportsListItem,
+    ImportsListItem (ImportsListItem'),
     newImportsListItem,
 
     -- ** InsightSelector
-    InsightSelector,
+    InsightSelector (InsightSelector'),
     newInsightSelector,
 
     -- ** LookupAttribute
-    LookupAttribute,
+    LookupAttribute (LookupAttribute'),
     newLookupAttribute,
 
     -- ** PublicKey
-    PublicKey,
+    PublicKey (PublicKey'),
     newPublicKey,
 
     -- ** Query
-    Query,
+    Query (Query'),
     newQuery,
 
     -- ** QueryStatistics
-    QueryStatistics,
+    QueryStatistics (QueryStatistics'),
     newQueryStatistics,
 
     -- ** QueryStatisticsForDescribeQuery
-    QueryStatisticsForDescribeQuery,
+    QueryStatisticsForDescribeQuery (QueryStatisticsForDescribeQuery'),
     newQueryStatisticsForDescribeQuery,
 
     -- ** Resource
-    Resource,
+    Resource (Resource'),
     newResource,
 
     -- ** ResourceTag
-    ResourceTag,
+    ResourceTag (ResourceTag'),
     newResourceTag,
 
     -- ** S3ImportSource
-    S3ImportSource,
+    S3ImportSource (S3ImportSource'),
     newS3ImportSource,
 
     -- ** SourceConfig
-    SourceConfig,
+    SourceConfig (SourceConfig'),
     newSourceConfig,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** Trail
-    Trail,
+    Trail (Trail'),
     newTrail,
 
     -- ** TrailInfo
-    TrailInfo,
+    TrailInfo (TrailInfo'),
     newTrailInfo,
   )
 where

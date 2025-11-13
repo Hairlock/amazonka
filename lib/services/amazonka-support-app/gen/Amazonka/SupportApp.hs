@@ -82,63 +82,63 @@ module Amazonka.SupportApp
     -- $operations
 
     -- ** CreateSlackChannelConfiguration
-    CreateSlackChannelConfiguration,
+    CreateSlackChannelConfiguration (CreateSlackChannelConfiguration'),
     newCreateSlackChannelConfiguration,
-    CreateSlackChannelConfigurationResponse,
+    CreateSlackChannelConfigurationResponse (CreateSlackChannelConfigurationResponse'),
     newCreateSlackChannelConfigurationResponse,
 
     -- ** DeleteAccountAlias
-    DeleteAccountAlias,
+    DeleteAccountAlias (DeleteAccountAlias'),
     newDeleteAccountAlias,
-    DeleteAccountAliasResponse,
+    DeleteAccountAliasResponse (DeleteAccountAliasResponse'),
     newDeleteAccountAliasResponse,
 
     -- ** DeleteSlackChannelConfiguration
-    DeleteSlackChannelConfiguration,
+    DeleteSlackChannelConfiguration (DeleteSlackChannelConfiguration'),
     newDeleteSlackChannelConfiguration,
-    DeleteSlackChannelConfigurationResponse,
+    DeleteSlackChannelConfigurationResponse (DeleteSlackChannelConfigurationResponse'),
     newDeleteSlackChannelConfigurationResponse,
 
     -- ** DeleteSlackWorkspaceConfiguration
-    DeleteSlackWorkspaceConfiguration,
+    DeleteSlackWorkspaceConfiguration (DeleteSlackWorkspaceConfiguration'),
     newDeleteSlackWorkspaceConfiguration,
-    DeleteSlackWorkspaceConfigurationResponse,
+    DeleteSlackWorkspaceConfigurationResponse (DeleteSlackWorkspaceConfigurationResponse'),
     newDeleteSlackWorkspaceConfigurationResponse,
 
     -- ** GetAccountAlias
-    GetAccountAlias,
+    GetAccountAlias (GetAccountAlias'),
     newGetAccountAlias,
-    GetAccountAliasResponse,
+    GetAccountAliasResponse (GetAccountAliasResponse'),
     newGetAccountAliasResponse,
 
     -- ** ListSlackChannelConfigurations
-    ListSlackChannelConfigurations,
+    ListSlackChannelConfigurations (ListSlackChannelConfigurations'),
     newListSlackChannelConfigurations,
-    ListSlackChannelConfigurationsResponse,
+    ListSlackChannelConfigurationsResponse (ListSlackChannelConfigurationsResponse'),
     newListSlackChannelConfigurationsResponse,
 
     -- ** ListSlackWorkspaceConfigurations
-    ListSlackWorkspaceConfigurations,
+    ListSlackWorkspaceConfigurations (ListSlackWorkspaceConfigurations'),
     newListSlackWorkspaceConfigurations,
-    ListSlackWorkspaceConfigurationsResponse,
+    ListSlackWorkspaceConfigurationsResponse (ListSlackWorkspaceConfigurationsResponse'),
     newListSlackWorkspaceConfigurationsResponse,
 
     -- ** PutAccountAlias
-    PutAccountAlias,
+    PutAccountAlias (PutAccountAlias'),
     newPutAccountAlias,
-    PutAccountAliasResponse,
+    PutAccountAliasResponse (PutAccountAliasResponse'),
     newPutAccountAliasResponse,
 
     -- ** RegisterSlackWorkspaceForOrganization
-    RegisterSlackWorkspaceForOrganization,
+    RegisterSlackWorkspaceForOrganization (RegisterSlackWorkspaceForOrganization'),
     newRegisterSlackWorkspaceForOrganization,
-    RegisterSlackWorkspaceForOrganizationResponse,
+    RegisterSlackWorkspaceForOrganizationResponse (RegisterSlackWorkspaceForOrganizationResponse'),
     newRegisterSlackWorkspaceForOrganizationResponse,
 
     -- ** UpdateSlackChannelConfiguration
-    UpdateSlackChannelConfiguration,
+    UpdateSlackChannelConfiguration (UpdateSlackChannelConfiguration'),
     newUpdateSlackChannelConfiguration,
-    UpdateSlackChannelConfigurationResponse,
+    UpdateSlackChannelConfigurationResponse (UpdateSlackChannelConfigurationResponse'),
     newUpdateSlackChannelConfigurationResponse,
 
     -- * Types
@@ -150,11 +150,11 @@ module Amazonka.SupportApp
     NotificationSeverityLevel (..),
 
     -- ** SlackChannelConfiguration
-    SlackChannelConfiguration,
+    SlackChannelConfiguration (SlackChannelConfiguration'),
     newSlackChannelConfiguration,
 
     -- ** SlackWorkspaceConfiguration
-    SlackWorkspaceConfiguration,
+    SlackWorkspaceConfiguration (SlackWorkspaceConfiguration'),
     newSlackWorkspaceConfiguration,
   )
 where

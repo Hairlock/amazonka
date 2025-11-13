@@ -45,201 +45,201 @@ module Amazonka.GamesParks
     -- $operations
 
     -- ** CreateGame
-    CreateGame,
+    CreateGame (CreateGame'),
     newCreateGame,
-    CreateGameResponse,
+    CreateGameResponse (CreateGameResponse'),
     newCreateGameResponse,
 
     -- ** CreateSnapshot
-    CreateSnapshot,
+    CreateSnapshot (CreateSnapshot'),
     newCreateSnapshot,
-    CreateSnapshotResponse,
+    CreateSnapshotResponse (CreateSnapshotResponse'),
     newCreateSnapshotResponse,
 
     -- ** CreateStage
-    CreateStage,
+    CreateStage (CreateStage'),
     newCreateStage,
-    CreateStageResponse,
+    CreateStageResponse (CreateStageResponse'),
     newCreateStageResponse,
 
     -- ** DeleteGame
-    DeleteGame,
+    DeleteGame (DeleteGame'),
     newDeleteGame,
-    DeleteGameResponse,
+    DeleteGameResponse (DeleteGameResponse'),
     newDeleteGameResponse,
 
     -- ** DeleteStage
-    DeleteStage,
+    DeleteStage (DeleteStage'),
     newDeleteStage,
-    DeleteStageResponse,
+    DeleteStageResponse (DeleteStageResponse'),
     newDeleteStageResponse,
 
     -- ** DisconnectPlayer
-    DisconnectPlayer,
+    DisconnectPlayer (DisconnectPlayer'),
     newDisconnectPlayer,
-    DisconnectPlayerResponse,
+    DisconnectPlayerResponse (DisconnectPlayerResponse'),
     newDisconnectPlayerResponse,
 
     -- ** ExportSnapshot
-    ExportSnapshot,
+    ExportSnapshot (ExportSnapshot'),
     newExportSnapshot,
-    ExportSnapshotResponse,
+    ExportSnapshotResponse (ExportSnapshotResponse'),
     newExportSnapshotResponse,
 
     -- ** GetExtension
-    GetExtension,
+    GetExtension (GetExtension'),
     newGetExtension,
-    GetExtensionResponse,
+    GetExtensionResponse (GetExtensionResponse'),
     newGetExtensionResponse,
 
     -- ** GetExtensionVersion
-    GetExtensionVersion,
+    GetExtensionVersion (GetExtensionVersion'),
     newGetExtensionVersion,
-    GetExtensionVersionResponse,
+    GetExtensionVersionResponse (GetExtensionVersionResponse'),
     newGetExtensionVersionResponse,
 
     -- ** GetGame
-    GetGame,
+    GetGame (GetGame'),
     newGetGame,
-    GetGameResponse,
+    GetGameResponse (GetGameResponse'),
     newGetGameResponse,
 
     -- ** GetGameConfiguration
-    GetGameConfiguration,
+    GetGameConfiguration (GetGameConfiguration'),
     newGetGameConfiguration,
-    GetGameConfigurationResponse,
+    GetGameConfigurationResponse (GetGameConfigurationResponse'),
     newGetGameConfigurationResponse,
 
     -- ** GetGeneratedCodeJob
-    GetGeneratedCodeJob,
+    GetGeneratedCodeJob (GetGeneratedCodeJob'),
     newGetGeneratedCodeJob,
-    GetGeneratedCodeJobResponse,
+    GetGeneratedCodeJobResponse (GetGeneratedCodeJobResponse'),
     newGetGeneratedCodeJobResponse,
 
     -- ** GetPlayerConnectionStatus
-    GetPlayerConnectionStatus,
+    GetPlayerConnectionStatus (GetPlayerConnectionStatus'),
     newGetPlayerConnectionStatus,
-    GetPlayerConnectionStatusResponse,
+    GetPlayerConnectionStatusResponse (GetPlayerConnectionStatusResponse'),
     newGetPlayerConnectionStatusResponse,
 
     -- ** GetSnapshot
-    GetSnapshot,
+    GetSnapshot (GetSnapshot'),
     newGetSnapshot,
-    GetSnapshotResponse,
+    GetSnapshotResponse (GetSnapshotResponse'),
     newGetSnapshotResponse,
 
     -- ** GetStage
-    GetStage,
+    GetStage (GetStage'),
     newGetStage,
-    GetStageResponse,
+    GetStageResponse (GetStageResponse'),
     newGetStageResponse,
 
     -- ** GetStageDeployment
-    GetStageDeployment,
+    GetStageDeployment (GetStageDeployment'),
     newGetStageDeployment,
-    GetStageDeploymentResponse,
+    GetStageDeploymentResponse (GetStageDeploymentResponse'),
     newGetStageDeploymentResponse,
 
     -- ** ImportGameConfiguration
-    ImportGameConfiguration,
+    ImportGameConfiguration (ImportGameConfiguration'),
     newImportGameConfiguration,
-    ImportGameConfigurationResponse,
+    ImportGameConfigurationResponse (ImportGameConfigurationResponse'),
     newImportGameConfigurationResponse,
 
     -- ** ListExtensionVersions (Paginated)
-    ListExtensionVersions,
+    ListExtensionVersions (ListExtensionVersions'),
     newListExtensionVersions,
-    ListExtensionVersionsResponse,
+    ListExtensionVersionsResponse (ListExtensionVersionsResponse'),
     newListExtensionVersionsResponse,
 
     -- ** ListExtensions (Paginated)
-    ListExtensions,
+    ListExtensions (ListExtensions'),
     newListExtensions,
-    ListExtensionsResponse,
+    ListExtensionsResponse (ListExtensionsResponse'),
     newListExtensionsResponse,
 
     -- ** ListGames (Paginated)
-    ListGames,
+    ListGames (ListGames'),
     newListGames,
-    ListGamesResponse,
+    ListGamesResponse (ListGamesResponse'),
     newListGamesResponse,
 
     -- ** ListGeneratedCodeJobs (Paginated)
-    ListGeneratedCodeJobs,
+    ListGeneratedCodeJobs (ListGeneratedCodeJobs'),
     newListGeneratedCodeJobs,
-    ListGeneratedCodeJobsResponse,
+    ListGeneratedCodeJobsResponse (ListGeneratedCodeJobsResponse'),
     newListGeneratedCodeJobsResponse,
 
     -- ** ListSnapshots (Paginated)
-    ListSnapshots,
+    ListSnapshots (ListSnapshots'),
     newListSnapshots,
-    ListSnapshotsResponse,
+    ListSnapshotsResponse (ListSnapshotsResponse'),
     newListSnapshotsResponse,
 
     -- ** ListStageDeployments (Paginated)
-    ListStageDeployments,
+    ListStageDeployments (ListStageDeployments'),
     newListStageDeployments,
-    ListStageDeploymentsResponse,
+    ListStageDeploymentsResponse (ListStageDeploymentsResponse'),
     newListStageDeploymentsResponse,
 
     -- ** ListStages (Paginated)
-    ListStages,
+    ListStages (ListStages'),
     newListStages,
-    ListStagesResponse,
+    ListStagesResponse (ListStagesResponse'),
     newListStagesResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** StartGeneratedCodeJob
-    StartGeneratedCodeJob,
+    StartGeneratedCodeJob (StartGeneratedCodeJob'),
     newStartGeneratedCodeJob,
-    StartGeneratedCodeJobResponse,
+    StartGeneratedCodeJobResponse (StartGeneratedCodeJobResponse'),
     newStartGeneratedCodeJobResponse,
 
     -- ** StartStageDeployment
-    StartStageDeployment,
+    StartStageDeployment (StartStageDeployment'),
     newStartStageDeployment,
-    StartStageDeploymentResponse,
+    StartStageDeploymentResponse (StartStageDeploymentResponse'),
     newStartStageDeploymentResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateGame
-    UpdateGame,
+    UpdateGame (UpdateGame'),
     newUpdateGame,
-    UpdateGameResponse,
+    UpdateGameResponse (UpdateGameResponse'),
     newUpdateGameResponse,
 
     -- ** UpdateGameConfiguration
-    UpdateGameConfiguration,
+    UpdateGameConfiguration (UpdateGameConfiguration'),
     newUpdateGameConfiguration,
-    UpdateGameConfigurationResponse,
+    UpdateGameConfigurationResponse (UpdateGameConfigurationResponse'),
     newUpdateGameConfigurationResponse,
 
     -- ** UpdateSnapshot
-    UpdateSnapshot,
+    UpdateSnapshot (UpdateSnapshot'),
     newUpdateSnapshot,
-    UpdateSnapshotResponse,
+    UpdateSnapshotResponse (UpdateSnapshotResponse'),
     newUpdateSnapshotResponse,
 
     -- ** UpdateStage
-    UpdateStage,
+    UpdateStage (UpdateStage'),
     newUpdateStage,
-    UpdateStageResponse,
+    UpdateStageResponse (UpdateStageResponse'),
     newUpdateStageResponse,
 
     -- * Types
@@ -266,79 +266,79 @@ module Amazonka.GamesParks
     StageState (..),
 
     -- ** Connection
-    Connection,
+    Connection (Connection'),
     newConnection,
 
     -- ** DeploymentResult
-    DeploymentResult,
+    DeploymentResult (DeploymentResult'),
     newDeploymentResult,
 
     -- ** Document
-    Document,
+    Document (Document'),
     newDocument,
 
     -- ** ExtensionDetails
-    ExtensionDetails,
+    ExtensionDetails (ExtensionDetails'),
     newExtensionDetails,
 
     -- ** ExtensionVersionDetails
-    ExtensionVersionDetails,
+    ExtensionVersionDetails (ExtensionVersionDetails'),
     newExtensionVersionDetails,
 
     -- ** GameConfigurationDetails
-    GameConfigurationDetails,
+    GameConfigurationDetails (GameConfigurationDetails'),
     newGameConfigurationDetails,
 
     -- ** GameDetails
-    GameDetails,
+    GameDetails (GameDetails'),
     newGameDetails,
 
     -- ** GameSummary
-    GameSummary,
+    GameSummary (GameSummary'),
     newGameSummary,
 
     -- ** GeneratedCodeJobDetails
-    GeneratedCodeJobDetails,
+    GeneratedCodeJobDetails (GeneratedCodeJobDetails'),
     newGeneratedCodeJobDetails,
 
     -- ** Generator
-    Generator,
+    Generator (Generator'),
     newGenerator,
 
     -- ** ImportGameConfigurationSource
-    ImportGameConfigurationSource,
+    ImportGameConfigurationSource (ImportGameConfigurationSource'),
     newImportGameConfigurationSource,
 
     -- ** Section
-    Section,
+    Section (Section'),
     newSection,
 
     -- ** SectionModification
-    SectionModification,
+    SectionModification (SectionModification'),
     newSectionModification,
 
     -- ** SnapshotDetails
-    SnapshotDetails,
+    SnapshotDetails (SnapshotDetails'),
     newSnapshotDetails,
 
     -- ** SnapshotSummary
-    SnapshotSummary,
+    SnapshotSummary (SnapshotSummary'),
     newSnapshotSummary,
 
     -- ** StageDeploymentDetails
-    StageDeploymentDetails,
+    StageDeploymentDetails (StageDeploymentDetails'),
     newStageDeploymentDetails,
 
     -- ** StageDeploymentSummary
-    StageDeploymentSummary,
+    StageDeploymentSummary (StageDeploymentSummary'),
     newStageDeploymentSummary,
 
     -- ** StageDetails
-    StageDetails,
+    StageDetails (StageDetails'),
     newStageDetails,
 
     -- ** StageSummary
-    StageSummary,
+    StageSummary (StageSummary'),
     newStageSummary,
   )
 where

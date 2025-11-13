@@ -64,225 +64,225 @@ module Amazonka.Inspector
     -- $operations
 
     -- ** AddAttributesToFindings
-    AddAttributesToFindings,
+    AddAttributesToFindings (AddAttributesToFindings'),
     newAddAttributesToFindings,
-    AddAttributesToFindingsResponse,
+    AddAttributesToFindingsResponse (AddAttributesToFindingsResponse'),
     newAddAttributesToFindingsResponse,
 
     -- ** CreateAssessmentTarget
-    CreateAssessmentTarget,
+    CreateAssessmentTarget (CreateAssessmentTarget'),
     newCreateAssessmentTarget,
-    CreateAssessmentTargetResponse,
+    CreateAssessmentTargetResponse (CreateAssessmentTargetResponse'),
     newCreateAssessmentTargetResponse,
 
     -- ** CreateAssessmentTemplate
-    CreateAssessmentTemplate,
+    CreateAssessmentTemplate (CreateAssessmentTemplate'),
     newCreateAssessmentTemplate,
-    CreateAssessmentTemplateResponse,
+    CreateAssessmentTemplateResponse (CreateAssessmentTemplateResponse'),
     newCreateAssessmentTemplateResponse,
 
     -- ** CreateExclusionsPreview
-    CreateExclusionsPreview,
+    CreateExclusionsPreview (CreateExclusionsPreview'),
     newCreateExclusionsPreview,
-    CreateExclusionsPreviewResponse,
+    CreateExclusionsPreviewResponse (CreateExclusionsPreviewResponse'),
     newCreateExclusionsPreviewResponse,
 
     -- ** CreateResourceGroup
-    CreateResourceGroup,
+    CreateResourceGroup (CreateResourceGroup'),
     newCreateResourceGroup,
-    CreateResourceGroupResponse,
+    CreateResourceGroupResponse (CreateResourceGroupResponse'),
     newCreateResourceGroupResponse,
 
     -- ** DeleteAssessmentRun
-    DeleteAssessmentRun,
+    DeleteAssessmentRun (DeleteAssessmentRun'),
     newDeleteAssessmentRun,
-    DeleteAssessmentRunResponse,
+    DeleteAssessmentRunResponse (DeleteAssessmentRunResponse'),
     newDeleteAssessmentRunResponse,
 
     -- ** DeleteAssessmentTarget
-    DeleteAssessmentTarget,
+    DeleteAssessmentTarget (DeleteAssessmentTarget'),
     newDeleteAssessmentTarget,
-    DeleteAssessmentTargetResponse,
+    DeleteAssessmentTargetResponse (DeleteAssessmentTargetResponse'),
     newDeleteAssessmentTargetResponse,
 
     -- ** DeleteAssessmentTemplate
-    DeleteAssessmentTemplate,
+    DeleteAssessmentTemplate (DeleteAssessmentTemplate'),
     newDeleteAssessmentTemplate,
-    DeleteAssessmentTemplateResponse,
+    DeleteAssessmentTemplateResponse (DeleteAssessmentTemplateResponse'),
     newDeleteAssessmentTemplateResponse,
 
     -- ** DescribeAssessmentRuns
-    DescribeAssessmentRuns,
+    DescribeAssessmentRuns (DescribeAssessmentRuns'),
     newDescribeAssessmentRuns,
-    DescribeAssessmentRunsResponse,
+    DescribeAssessmentRunsResponse (DescribeAssessmentRunsResponse'),
     newDescribeAssessmentRunsResponse,
 
     -- ** DescribeAssessmentTargets
-    DescribeAssessmentTargets,
+    DescribeAssessmentTargets (DescribeAssessmentTargets'),
     newDescribeAssessmentTargets,
-    DescribeAssessmentTargetsResponse,
+    DescribeAssessmentTargetsResponse (DescribeAssessmentTargetsResponse'),
     newDescribeAssessmentTargetsResponse,
 
     -- ** DescribeAssessmentTemplates
-    DescribeAssessmentTemplates,
+    DescribeAssessmentTemplates (DescribeAssessmentTemplates'),
     newDescribeAssessmentTemplates,
-    DescribeAssessmentTemplatesResponse,
+    DescribeAssessmentTemplatesResponse (DescribeAssessmentTemplatesResponse'),
     newDescribeAssessmentTemplatesResponse,
 
     -- ** DescribeCrossAccountAccessRole
-    DescribeCrossAccountAccessRole,
+    DescribeCrossAccountAccessRole (DescribeCrossAccountAccessRole'),
     newDescribeCrossAccountAccessRole,
-    DescribeCrossAccountAccessRoleResponse,
+    DescribeCrossAccountAccessRoleResponse (DescribeCrossAccountAccessRoleResponse'),
     newDescribeCrossAccountAccessRoleResponse,
 
     -- ** DescribeExclusions
-    DescribeExclusions,
+    DescribeExclusions (DescribeExclusions'),
     newDescribeExclusions,
-    DescribeExclusionsResponse,
+    DescribeExclusionsResponse (DescribeExclusionsResponse'),
     newDescribeExclusionsResponse,
 
     -- ** DescribeFindings
-    DescribeFindings,
+    DescribeFindings (DescribeFindings'),
     newDescribeFindings,
-    DescribeFindingsResponse,
+    DescribeFindingsResponse (DescribeFindingsResponse'),
     newDescribeFindingsResponse,
 
     -- ** DescribeResourceGroups
-    DescribeResourceGroups,
+    DescribeResourceGroups (DescribeResourceGroups'),
     newDescribeResourceGroups,
-    DescribeResourceGroupsResponse,
+    DescribeResourceGroupsResponse (DescribeResourceGroupsResponse'),
     newDescribeResourceGroupsResponse,
 
     -- ** DescribeRulesPackages
-    DescribeRulesPackages,
+    DescribeRulesPackages (DescribeRulesPackages'),
     newDescribeRulesPackages,
-    DescribeRulesPackagesResponse,
+    DescribeRulesPackagesResponse (DescribeRulesPackagesResponse'),
     newDescribeRulesPackagesResponse,
 
     -- ** GetAssessmentReport
-    GetAssessmentReport,
+    GetAssessmentReport (GetAssessmentReport'),
     newGetAssessmentReport,
-    GetAssessmentReportResponse,
+    GetAssessmentReportResponse (GetAssessmentReportResponse'),
     newGetAssessmentReportResponse,
 
     -- ** GetExclusionsPreview
-    GetExclusionsPreview,
+    GetExclusionsPreview (GetExclusionsPreview'),
     newGetExclusionsPreview,
-    GetExclusionsPreviewResponse,
+    GetExclusionsPreviewResponse (GetExclusionsPreviewResponse'),
     newGetExclusionsPreviewResponse,
 
     -- ** GetTelemetryMetadata
-    GetTelemetryMetadata,
+    GetTelemetryMetadata (GetTelemetryMetadata'),
     newGetTelemetryMetadata,
-    GetTelemetryMetadataResponse,
+    GetTelemetryMetadataResponse (GetTelemetryMetadataResponse'),
     newGetTelemetryMetadataResponse,
 
     -- ** ListAssessmentRunAgents (Paginated)
-    ListAssessmentRunAgents,
+    ListAssessmentRunAgents (ListAssessmentRunAgents'),
     newListAssessmentRunAgents,
-    ListAssessmentRunAgentsResponse,
+    ListAssessmentRunAgentsResponse (ListAssessmentRunAgentsResponse'),
     newListAssessmentRunAgentsResponse,
 
     -- ** ListAssessmentRuns (Paginated)
-    ListAssessmentRuns,
+    ListAssessmentRuns (ListAssessmentRuns'),
     newListAssessmentRuns,
-    ListAssessmentRunsResponse,
+    ListAssessmentRunsResponse (ListAssessmentRunsResponse'),
     newListAssessmentRunsResponse,
 
     -- ** ListAssessmentTargets (Paginated)
-    ListAssessmentTargets,
+    ListAssessmentTargets (ListAssessmentTargets'),
     newListAssessmentTargets,
-    ListAssessmentTargetsResponse,
+    ListAssessmentTargetsResponse (ListAssessmentTargetsResponse'),
     newListAssessmentTargetsResponse,
 
     -- ** ListAssessmentTemplates (Paginated)
-    ListAssessmentTemplates,
+    ListAssessmentTemplates (ListAssessmentTemplates'),
     newListAssessmentTemplates,
-    ListAssessmentTemplatesResponse,
+    ListAssessmentTemplatesResponse (ListAssessmentTemplatesResponse'),
     newListAssessmentTemplatesResponse,
 
     -- ** ListEventSubscriptions (Paginated)
-    ListEventSubscriptions,
+    ListEventSubscriptions (ListEventSubscriptions'),
     newListEventSubscriptions,
-    ListEventSubscriptionsResponse,
+    ListEventSubscriptionsResponse (ListEventSubscriptionsResponse'),
     newListEventSubscriptionsResponse,
 
     -- ** ListExclusions (Paginated)
-    ListExclusions,
+    ListExclusions (ListExclusions'),
     newListExclusions,
-    ListExclusionsResponse,
+    ListExclusionsResponse (ListExclusionsResponse'),
     newListExclusionsResponse,
 
     -- ** ListFindings (Paginated)
-    ListFindings,
+    ListFindings (ListFindings'),
     newListFindings,
-    ListFindingsResponse,
+    ListFindingsResponse (ListFindingsResponse'),
     newListFindingsResponse,
 
     -- ** ListRulesPackages (Paginated)
-    ListRulesPackages,
+    ListRulesPackages (ListRulesPackages'),
     newListRulesPackages,
-    ListRulesPackagesResponse,
+    ListRulesPackagesResponse (ListRulesPackagesResponse'),
     newListRulesPackagesResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** PreviewAgents (Paginated)
-    PreviewAgents,
+    PreviewAgents (PreviewAgents'),
     newPreviewAgents,
-    PreviewAgentsResponse,
+    PreviewAgentsResponse (PreviewAgentsResponse'),
     newPreviewAgentsResponse,
 
     -- ** RegisterCrossAccountAccessRole
-    RegisterCrossAccountAccessRole,
+    RegisterCrossAccountAccessRole (RegisterCrossAccountAccessRole'),
     newRegisterCrossAccountAccessRole,
-    RegisterCrossAccountAccessRoleResponse,
+    RegisterCrossAccountAccessRoleResponse (RegisterCrossAccountAccessRoleResponse'),
     newRegisterCrossAccountAccessRoleResponse,
 
     -- ** RemoveAttributesFromFindings
-    RemoveAttributesFromFindings,
+    RemoveAttributesFromFindings (RemoveAttributesFromFindings'),
     newRemoveAttributesFromFindings,
-    RemoveAttributesFromFindingsResponse,
+    RemoveAttributesFromFindingsResponse (RemoveAttributesFromFindingsResponse'),
     newRemoveAttributesFromFindingsResponse,
 
     -- ** SetTagsForResource
-    SetTagsForResource,
+    SetTagsForResource (SetTagsForResource'),
     newSetTagsForResource,
-    SetTagsForResourceResponse,
+    SetTagsForResourceResponse (SetTagsForResourceResponse'),
     newSetTagsForResourceResponse,
 
     -- ** StartAssessmentRun
-    StartAssessmentRun,
+    StartAssessmentRun (StartAssessmentRun'),
     newStartAssessmentRun,
-    StartAssessmentRunResponse,
+    StartAssessmentRunResponse (StartAssessmentRunResponse'),
     newStartAssessmentRunResponse,
 
     -- ** StopAssessmentRun
-    StopAssessmentRun,
+    StopAssessmentRun (StopAssessmentRun'),
     newStopAssessmentRun,
-    StopAssessmentRunResponse,
+    StopAssessmentRunResponse (StopAssessmentRunResponse'),
     newStopAssessmentRunResponse,
 
     -- ** SubscribeToEvent
-    SubscribeToEvent,
+    SubscribeToEvent (SubscribeToEvent'),
     newSubscribeToEvent,
-    SubscribeToEventResponse,
+    SubscribeToEventResponse (SubscribeToEventResponse'),
     newSubscribeToEventResponse,
 
     -- ** UnsubscribeFromEvent
-    UnsubscribeFromEvent,
+    UnsubscribeFromEvent (UnsubscribeFromEvent'),
     newUnsubscribeFromEvent,
-    UnsubscribeFromEventResponse,
+    UnsubscribeFromEventResponse (UnsubscribeFromEventResponse'),
     newUnsubscribeFromEventResponse,
 
     -- ** UpdateAssessmentTarget
-    UpdateAssessmentTarget,
+    UpdateAssessmentTarget (UpdateAssessmentTarget'),
     newUpdateAssessmentTarget,
-    UpdateAssessmentTargetResponse,
+    UpdateAssessmentTargetResponse (UpdateAssessmentTargetResponse'),
     newUpdateAssessmentTargetResponse,
 
     -- * Types
@@ -333,131 +333,131 @@ module Amazonka.Inspector
     StopAction (..),
 
     -- ** AgentFilter
-    AgentFilter,
+    AgentFilter (AgentFilter'),
     newAgentFilter,
 
     -- ** AgentPreview
-    AgentPreview,
+    AgentPreview (AgentPreview'),
     newAgentPreview,
 
     -- ** AssessmentRun
-    AssessmentRun,
+    AssessmentRun (AssessmentRun'),
     newAssessmentRun,
 
     -- ** AssessmentRunAgent
-    AssessmentRunAgent,
+    AssessmentRunAgent (AssessmentRunAgent'),
     newAssessmentRunAgent,
 
     -- ** AssessmentRunFilter
-    AssessmentRunFilter,
+    AssessmentRunFilter (AssessmentRunFilter'),
     newAssessmentRunFilter,
 
     -- ** AssessmentRunNotification
-    AssessmentRunNotification,
+    AssessmentRunNotification (AssessmentRunNotification'),
     newAssessmentRunNotification,
 
     -- ** AssessmentRunStateChange
-    AssessmentRunStateChange,
+    AssessmentRunStateChange (AssessmentRunStateChange'),
     newAssessmentRunStateChange,
 
     -- ** AssessmentTarget
-    AssessmentTarget,
+    AssessmentTarget (AssessmentTarget'),
     newAssessmentTarget,
 
     -- ** AssessmentTargetFilter
-    AssessmentTargetFilter,
+    AssessmentTargetFilter (AssessmentTargetFilter'),
     newAssessmentTargetFilter,
 
     -- ** AssessmentTemplate
-    AssessmentTemplate,
+    AssessmentTemplate (AssessmentTemplate'),
     newAssessmentTemplate,
 
     -- ** AssessmentTemplateFilter
-    AssessmentTemplateFilter,
+    AssessmentTemplateFilter (AssessmentTemplateFilter'),
     newAssessmentTemplateFilter,
 
     -- ** AssetAttributes
-    AssetAttributes,
+    AssetAttributes (AssetAttributes'),
     newAssetAttributes,
 
     -- ** Attribute
-    Attribute,
+    Attribute (Attribute'),
     newAttribute,
 
     -- ** DurationRange
-    DurationRange,
+    DurationRange (DurationRange'),
     newDurationRange,
 
     -- ** EventSubscription
-    EventSubscription,
+    EventSubscription (EventSubscription'),
     newEventSubscription,
 
     -- ** Exclusion
-    Exclusion,
+    Exclusion (Exclusion'),
     newExclusion,
 
     -- ** ExclusionPreview
-    ExclusionPreview,
+    ExclusionPreview (ExclusionPreview'),
     newExclusionPreview,
 
     -- ** FailedItemDetails
-    FailedItemDetails,
+    FailedItemDetails (FailedItemDetails'),
     newFailedItemDetails,
 
     -- ** Finding
-    Finding,
+    Finding (Finding'),
     newFinding,
 
     -- ** FindingFilter
-    FindingFilter,
+    FindingFilter (FindingFilter'),
     newFindingFilter,
 
     -- ** InspectorServiceAttributes
-    InspectorServiceAttributes,
+    InspectorServiceAttributes (InspectorServiceAttributes'),
     newInspectorServiceAttributes,
 
     -- ** NetworkInterface
-    NetworkInterface,
+    NetworkInterface (NetworkInterface'),
     newNetworkInterface,
 
     -- ** PrivateIp
-    PrivateIp,
+    PrivateIp (PrivateIp'),
     newPrivateIp,
 
     -- ** ResourceGroup
-    ResourceGroup,
+    ResourceGroup (ResourceGroup'),
     newResourceGroup,
 
     -- ** ResourceGroupTag
-    ResourceGroupTag,
+    ResourceGroupTag (ResourceGroupTag'),
     newResourceGroupTag,
 
     -- ** RulesPackage
-    RulesPackage,
+    RulesPackage (RulesPackage'),
     newRulesPackage,
 
     -- ** Scope
-    Scope,
+    Scope (Scope'),
     newScope,
 
     -- ** SecurityGroup
-    SecurityGroup,
+    SecurityGroup (SecurityGroup'),
     newSecurityGroup,
 
     -- ** Subscription
-    Subscription,
+    Subscription (Subscription'),
     newSubscription,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** TelemetryMetadata
-    TelemetryMetadata,
+    TelemetryMetadata (TelemetryMetadata'),
     newTelemetryMetadata,
 
     -- ** TimestampRange
-    TimestampRange,
+    TimestampRange (TimestampRange'),
     newTimestampRange,
   )
 where

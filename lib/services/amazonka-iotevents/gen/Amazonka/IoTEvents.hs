@@ -56,159 +56,159 @@ module Amazonka.IoTEvents
     -- $operations
 
     -- ** CreateAlarmModel
-    CreateAlarmModel,
+    CreateAlarmModel (CreateAlarmModel'),
     newCreateAlarmModel,
-    CreateAlarmModelResponse,
+    CreateAlarmModelResponse (CreateAlarmModelResponse'),
     newCreateAlarmModelResponse,
 
     -- ** CreateDetectorModel
-    CreateDetectorModel,
+    CreateDetectorModel (CreateDetectorModel'),
     newCreateDetectorModel,
-    CreateDetectorModelResponse,
+    CreateDetectorModelResponse (CreateDetectorModelResponse'),
     newCreateDetectorModelResponse,
 
     -- ** CreateInput
-    CreateInput,
+    CreateInput (CreateInput'),
     newCreateInput,
-    CreateInputResponse,
+    CreateInputResponse (CreateInputResponse'),
     newCreateInputResponse,
 
     -- ** DeleteAlarmModel
-    DeleteAlarmModel,
+    DeleteAlarmModel (DeleteAlarmModel'),
     newDeleteAlarmModel,
-    DeleteAlarmModelResponse,
+    DeleteAlarmModelResponse (DeleteAlarmModelResponse'),
     newDeleteAlarmModelResponse,
 
     -- ** DeleteDetectorModel
-    DeleteDetectorModel,
+    DeleteDetectorModel (DeleteDetectorModel'),
     newDeleteDetectorModel,
-    DeleteDetectorModelResponse,
+    DeleteDetectorModelResponse (DeleteDetectorModelResponse'),
     newDeleteDetectorModelResponse,
 
     -- ** DeleteInput
-    DeleteInput,
+    DeleteInput (DeleteInput'),
     newDeleteInput,
-    DeleteInputResponse,
+    DeleteInputResponse (DeleteInputResponse'),
     newDeleteInputResponse,
 
     -- ** DescribeAlarmModel
-    DescribeAlarmModel,
+    DescribeAlarmModel (DescribeAlarmModel'),
     newDescribeAlarmModel,
-    DescribeAlarmModelResponse,
+    DescribeAlarmModelResponse (DescribeAlarmModelResponse'),
     newDescribeAlarmModelResponse,
 
     -- ** DescribeDetectorModel
-    DescribeDetectorModel,
+    DescribeDetectorModel (DescribeDetectorModel'),
     newDescribeDetectorModel,
-    DescribeDetectorModelResponse,
+    DescribeDetectorModelResponse (DescribeDetectorModelResponse'),
     newDescribeDetectorModelResponse,
 
     -- ** DescribeDetectorModelAnalysis
-    DescribeDetectorModelAnalysis,
+    DescribeDetectorModelAnalysis (DescribeDetectorModelAnalysis'),
     newDescribeDetectorModelAnalysis,
-    DescribeDetectorModelAnalysisResponse,
+    DescribeDetectorModelAnalysisResponse (DescribeDetectorModelAnalysisResponse'),
     newDescribeDetectorModelAnalysisResponse,
 
     -- ** DescribeInput
-    DescribeInput,
+    DescribeInput (DescribeInput'),
     newDescribeInput,
-    DescribeInputResponse,
+    DescribeInputResponse (DescribeInputResponse'),
     newDescribeInputResponse,
 
     -- ** DescribeLoggingOptions
-    DescribeLoggingOptions,
+    DescribeLoggingOptions (DescribeLoggingOptions'),
     newDescribeLoggingOptions,
-    DescribeLoggingOptionsResponse,
+    DescribeLoggingOptionsResponse (DescribeLoggingOptionsResponse'),
     newDescribeLoggingOptionsResponse,
 
     -- ** GetDetectorModelAnalysisResults
-    GetDetectorModelAnalysisResults,
+    GetDetectorModelAnalysisResults (GetDetectorModelAnalysisResults'),
     newGetDetectorModelAnalysisResults,
-    GetDetectorModelAnalysisResultsResponse,
+    GetDetectorModelAnalysisResultsResponse (GetDetectorModelAnalysisResultsResponse'),
     newGetDetectorModelAnalysisResultsResponse,
 
     -- ** ListAlarmModelVersions
-    ListAlarmModelVersions,
+    ListAlarmModelVersions (ListAlarmModelVersions'),
     newListAlarmModelVersions,
-    ListAlarmModelVersionsResponse,
+    ListAlarmModelVersionsResponse (ListAlarmModelVersionsResponse'),
     newListAlarmModelVersionsResponse,
 
     -- ** ListAlarmModels
-    ListAlarmModels,
+    ListAlarmModels (ListAlarmModels'),
     newListAlarmModels,
-    ListAlarmModelsResponse,
+    ListAlarmModelsResponse (ListAlarmModelsResponse'),
     newListAlarmModelsResponse,
 
     -- ** ListDetectorModelVersions
-    ListDetectorModelVersions,
+    ListDetectorModelVersions (ListDetectorModelVersions'),
     newListDetectorModelVersions,
-    ListDetectorModelVersionsResponse,
+    ListDetectorModelVersionsResponse (ListDetectorModelVersionsResponse'),
     newListDetectorModelVersionsResponse,
 
     -- ** ListDetectorModels
-    ListDetectorModels,
+    ListDetectorModels (ListDetectorModels'),
     newListDetectorModels,
-    ListDetectorModelsResponse,
+    ListDetectorModelsResponse (ListDetectorModelsResponse'),
     newListDetectorModelsResponse,
 
     -- ** ListInputRoutings
-    ListInputRoutings,
+    ListInputRoutings (ListInputRoutings'),
     newListInputRoutings,
-    ListInputRoutingsResponse,
+    ListInputRoutingsResponse (ListInputRoutingsResponse'),
     newListInputRoutingsResponse,
 
     -- ** ListInputs
-    ListInputs,
+    ListInputs (ListInputs'),
     newListInputs,
-    ListInputsResponse,
+    ListInputsResponse (ListInputsResponse'),
     newListInputsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** PutLoggingOptions
-    PutLoggingOptions,
+    PutLoggingOptions (PutLoggingOptions'),
     newPutLoggingOptions,
-    PutLoggingOptionsResponse,
+    PutLoggingOptionsResponse (PutLoggingOptionsResponse'),
     newPutLoggingOptionsResponse,
 
     -- ** StartDetectorModelAnalysis
-    StartDetectorModelAnalysis,
+    StartDetectorModelAnalysis (StartDetectorModelAnalysis'),
     newStartDetectorModelAnalysis,
-    StartDetectorModelAnalysisResponse,
+    StartDetectorModelAnalysisResponse (StartDetectorModelAnalysisResponse'),
     newStartDetectorModelAnalysisResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateAlarmModel
-    UpdateAlarmModel,
+    UpdateAlarmModel (UpdateAlarmModel'),
     newUpdateAlarmModel,
-    UpdateAlarmModelResponse,
+    UpdateAlarmModelResponse (UpdateAlarmModelResponse'),
     newUpdateAlarmModelResponse,
 
     -- ** UpdateDetectorModel
-    UpdateDetectorModel,
+    UpdateDetectorModel (UpdateDetectorModel'),
     newUpdateDetectorModel,
-    UpdateDetectorModelResponse,
+    UpdateDetectorModelResponse (UpdateDetectorModelResponse'),
     newUpdateDetectorModelResponse,
 
     -- ** UpdateInput
-    UpdateInput,
+    UpdateInput (UpdateInput'),
     newUpdateInput,
-    UpdateInputResponse,
+    UpdateInputResponse (UpdateInputResponse'),
     newUpdateInputResponse,
 
     -- * Types
@@ -241,251 +241,251 @@ module Amazonka.IoTEvents
     PayloadType (..),
 
     -- ** AcknowledgeFlow
-    AcknowledgeFlow,
+    AcknowledgeFlow (AcknowledgeFlow'),
     newAcknowledgeFlow,
 
     -- ** Action
-    Action,
+    Action (Action'),
     newAction,
 
     -- ** AlarmAction
-    AlarmAction,
+    AlarmAction (AlarmAction'),
     newAlarmAction,
 
     -- ** AlarmCapabilities
-    AlarmCapabilities,
+    AlarmCapabilities (AlarmCapabilities'),
     newAlarmCapabilities,
 
     -- ** AlarmEventActions
-    AlarmEventActions,
+    AlarmEventActions (AlarmEventActions'),
     newAlarmEventActions,
 
     -- ** AlarmModelSummary
-    AlarmModelSummary,
+    AlarmModelSummary (AlarmModelSummary'),
     newAlarmModelSummary,
 
     -- ** AlarmModelVersionSummary
-    AlarmModelVersionSummary,
+    AlarmModelVersionSummary (AlarmModelVersionSummary'),
     newAlarmModelVersionSummary,
 
     -- ** AlarmNotification
-    AlarmNotification,
+    AlarmNotification (AlarmNotification'),
     newAlarmNotification,
 
     -- ** AlarmRule
-    AlarmRule,
+    AlarmRule (AlarmRule'),
     newAlarmRule,
 
     -- ** AnalysisResult
-    AnalysisResult,
+    AnalysisResult (AnalysisResult'),
     newAnalysisResult,
 
     -- ** AnalysisResultLocation
-    AnalysisResultLocation,
+    AnalysisResultLocation (AnalysisResultLocation'),
     newAnalysisResultLocation,
 
     -- ** AssetPropertyTimestamp
-    AssetPropertyTimestamp,
+    AssetPropertyTimestamp (AssetPropertyTimestamp'),
     newAssetPropertyTimestamp,
 
     -- ** AssetPropertyValue
-    AssetPropertyValue,
+    AssetPropertyValue (AssetPropertyValue'),
     newAssetPropertyValue,
 
     -- ** AssetPropertyVariant
-    AssetPropertyVariant,
+    AssetPropertyVariant (AssetPropertyVariant'),
     newAssetPropertyVariant,
 
     -- ** Attribute
-    Attribute,
+    Attribute (Attribute'),
     newAttribute,
 
     -- ** ClearTimerAction
-    ClearTimerAction,
+    ClearTimerAction (ClearTimerAction'),
     newClearTimerAction,
 
     -- ** DetectorDebugOption
-    DetectorDebugOption,
+    DetectorDebugOption (DetectorDebugOption'),
     newDetectorDebugOption,
 
     -- ** DetectorModel
-    DetectorModel,
+    DetectorModel (DetectorModel'),
     newDetectorModel,
 
     -- ** DetectorModelConfiguration
-    DetectorModelConfiguration,
+    DetectorModelConfiguration (DetectorModelConfiguration'),
     newDetectorModelConfiguration,
 
     -- ** DetectorModelDefinition
-    DetectorModelDefinition,
+    DetectorModelDefinition (DetectorModelDefinition'),
     newDetectorModelDefinition,
 
     -- ** DetectorModelSummary
-    DetectorModelSummary,
+    DetectorModelSummary (DetectorModelSummary'),
     newDetectorModelSummary,
 
     -- ** DetectorModelVersionSummary
-    DetectorModelVersionSummary,
+    DetectorModelVersionSummary (DetectorModelVersionSummary'),
     newDetectorModelVersionSummary,
 
     -- ** DynamoDBAction
-    DynamoDBAction,
+    DynamoDBAction (DynamoDBAction'),
     newDynamoDBAction,
 
     -- ** DynamoDBv2Action
-    DynamoDBv2Action,
+    DynamoDBv2Action (DynamoDBv2Action'),
     newDynamoDBv2Action,
 
     -- ** EmailConfiguration
-    EmailConfiguration,
+    EmailConfiguration (EmailConfiguration'),
     newEmailConfiguration,
 
     -- ** EmailContent
-    EmailContent,
+    EmailContent (EmailContent'),
     newEmailContent,
 
     -- ** EmailRecipients
-    EmailRecipients,
+    EmailRecipients (EmailRecipients'),
     newEmailRecipients,
 
     -- ** Event
-    Event,
+    Event (Event'),
     newEvent,
 
     -- ** FirehoseAction
-    FirehoseAction,
+    FirehoseAction (FirehoseAction'),
     newFirehoseAction,
 
     -- ** InitializationConfiguration
-    InitializationConfiguration,
+    InitializationConfiguration (InitializationConfiguration'),
     newInitializationConfiguration,
 
     -- ** Input
-    Input,
+    Input (Input'),
     newInput,
 
     -- ** InputConfiguration
-    InputConfiguration,
+    InputConfiguration (InputConfiguration'),
     newInputConfiguration,
 
     -- ** InputDefinition
-    InputDefinition,
+    InputDefinition (InputDefinition'),
     newInputDefinition,
 
     -- ** InputIdentifier
-    InputIdentifier,
+    InputIdentifier (InputIdentifier'),
     newInputIdentifier,
 
     -- ** InputSummary
-    InputSummary,
+    InputSummary (InputSummary'),
     newInputSummary,
 
     -- ** IotEventsAction
-    IotEventsAction,
+    IotEventsAction (IotEventsAction'),
     newIotEventsAction,
 
     -- ** IotEventsInputIdentifier
-    IotEventsInputIdentifier,
+    IotEventsInputIdentifier (IotEventsInputIdentifier'),
     newIotEventsInputIdentifier,
 
     -- ** IotSiteWiseAction
-    IotSiteWiseAction,
+    IotSiteWiseAction (IotSiteWiseAction'),
     newIotSiteWiseAction,
 
     -- ** IotSiteWiseAssetModelPropertyIdentifier
-    IotSiteWiseAssetModelPropertyIdentifier,
+    IotSiteWiseAssetModelPropertyIdentifier (IotSiteWiseAssetModelPropertyIdentifier'),
     newIotSiteWiseAssetModelPropertyIdentifier,
 
     -- ** IotSiteWiseInputIdentifier
-    IotSiteWiseInputIdentifier,
+    IotSiteWiseInputIdentifier (IotSiteWiseInputIdentifier'),
     newIotSiteWiseInputIdentifier,
 
     -- ** IotTopicPublishAction
-    IotTopicPublishAction,
+    IotTopicPublishAction (IotTopicPublishAction'),
     newIotTopicPublishAction,
 
     -- ** LambdaAction
-    LambdaAction,
+    LambdaAction (LambdaAction'),
     newLambdaAction,
 
     -- ** LoggingOptions
-    LoggingOptions,
+    LoggingOptions (LoggingOptions'),
     newLoggingOptions,
 
     -- ** NotificationAction
-    NotificationAction,
+    NotificationAction (NotificationAction'),
     newNotificationAction,
 
     -- ** NotificationTargetActions
-    NotificationTargetActions,
+    NotificationTargetActions (NotificationTargetActions'),
     newNotificationTargetActions,
 
     -- ** OnEnterLifecycle
-    OnEnterLifecycle,
+    OnEnterLifecycle (OnEnterLifecycle'),
     newOnEnterLifecycle,
 
     -- ** OnExitLifecycle
-    OnExitLifecycle,
+    OnExitLifecycle (OnExitLifecycle'),
     newOnExitLifecycle,
 
     -- ** OnInputLifecycle
-    OnInputLifecycle,
+    OnInputLifecycle (OnInputLifecycle'),
     newOnInputLifecycle,
 
     -- ** Payload
-    Payload,
+    Payload (Payload'),
     newPayload,
 
     -- ** RecipientDetail
-    RecipientDetail,
+    RecipientDetail (RecipientDetail'),
     newRecipientDetail,
 
     -- ** ResetTimerAction
-    ResetTimerAction,
+    ResetTimerAction (ResetTimerAction'),
     newResetTimerAction,
 
     -- ** RoutedResource
-    RoutedResource,
+    RoutedResource (RoutedResource'),
     newRoutedResource,
 
     -- ** SMSConfiguration
-    SMSConfiguration,
+    SMSConfiguration (SMSConfiguration'),
     newSMSConfiguration,
 
     -- ** SNSTopicPublishAction
-    SNSTopicPublishAction,
+    SNSTopicPublishAction (SNSTopicPublishAction'),
     newSNSTopicPublishAction,
 
     -- ** SSOIdentity
-    SSOIdentity,
+    SSOIdentity (SSOIdentity'),
     newSSOIdentity,
 
     -- ** SetTimerAction
-    SetTimerAction,
+    SetTimerAction (SetTimerAction'),
     newSetTimerAction,
 
     -- ** SetVariableAction
-    SetVariableAction,
+    SetVariableAction (SetVariableAction'),
     newSetVariableAction,
 
     -- ** SimpleRule
-    SimpleRule,
+    SimpleRule (SimpleRule'),
     newSimpleRule,
 
     -- ** SqsAction
-    SqsAction,
+    SqsAction (SqsAction'),
     newSqsAction,
 
     -- ** State
-    State,
+    State (State'),
     newState,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** TransitionEvent
-    TransitionEvent,
+    TransitionEvent (TransitionEvent'),
     newTransitionEvent,
   )
 where

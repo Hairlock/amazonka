@@ -147,261 +147,261 @@ module Amazonka.WorkDocs
     -- $operations
 
     -- ** AbortDocumentVersionUpload
-    AbortDocumentVersionUpload,
+    AbortDocumentVersionUpload (AbortDocumentVersionUpload'),
     newAbortDocumentVersionUpload,
-    AbortDocumentVersionUploadResponse,
+    AbortDocumentVersionUploadResponse (AbortDocumentVersionUploadResponse'),
     newAbortDocumentVersionUploadResponse,
 
     -- ** ActivateUser
-    ActivateUser,
+    ActivateUser (ActivateUser'),
     newActivateUser,
-    ActivateUserResponse,
+    ActivateUserResponse (ActivateUserResponse'),
     newActivateUserResponse,
 
     -- ** AddResourcePermissions
-    AddResourcePermissions,
+    AddResourcePermissions (AddResourcePermissions'),
     newAddResourcePermissions,
-    AddResourcePermissionsResponse,
+    AddResourcePermissionsResponse (AddResourcePermissionsResponse'),
     newAddResourcePermissionsResponse,
 
     -- ** CreateComment
-    CreateComment,
+    CreateComment (CreateComment'),
     newCreateComment,
-    CreateCommentResponse,
+    CreateCommentResponse (CreateCommentResponse'),
     newCreateCommentResponse,
 
     -- ** CreateCustomMetadata
-    CreateCustomMetadata,
+    CreateCustomMetadata (CreateCustomMetadata'),
     newCreateCustomMetadata,
-    CreateCustomMetadataResponse,
+    CreateCustomMetadataResponse (CreateCustomMetadataResponse'),
     newCreateCustomMetadataResponse,
 
     -- ** CreateFolder
-    CreateFolder,
+    CreateFolder (CreateFolder'),
     newCreateFolder,
-    CreateFolderResponse,
+    CreateFolderResponse (CreateFolderResponse'),
     newCreateFolderResponse,
 
     -- ** CreateLabels
-    CreateLabels,
+    CreateLabels (CreateLabels'),
     newCreateLabels,
-    CreateLabelsResponse,
+    CreateLabelsResponse (CreateLabelsResponse'),
     newCreateLabelsResponse,
 
     -- ** CreateNotificationSubscription
-    CreateNotificationSubscription,
+    CreateNotificationSubscription (CreateNotificationSubscription'),
     newCreateNotificationSubscription,
-    CreateNotificationSubscriptionResponse,
+    CreateNotificationSubscriptionResponse (CreateNotificationSubscriptionResponse'),
     newCreateNotificationSubscriptionResponse,
 
     -- ** CreateUser
-    CreateUser,
+    CreateUser (CreateUser'),
     newCreateUser,
-    CreateUserResponse,
+    CreateUserResponse (CreateUserResponse'),
     newCreateUserResponse,
 
     -- ** DeactivateUser
-    DeactivateUser,
+    DeactivateUser (DeactivateUser'),
     newDeactivateUser,
-    DeactivateUserResponse,
+    DeactivateUserResponse (DeactivateUserResponse'),
     newDeactivateUserResponse,
 
     -- ** DeleteComment
-    DeleteComment,
+    DeleteComment (DeleteComment'),
     newDeleteComment,
-    DeleteCommentResponse,
+    DeleteCommentResponse (DeleteCommentResponse'),
     newDeleteCommentResponse,
 
     -- ** DeleteCustomMetadata
-    DeleteCustomMetadata,
+    DeleteCustomMetadata (DeleteCustomMetadata'),
     newDeleteCustomMetadata,
-    DeleteCustomMetadataResponse,
+    DeleteCustomMetadataResponse (DeleteCustomMetadataResponse'),
     newDeleteCustomMetadataResponse,
 
     -- ** DeleteDocument
-    DeleteDocument,
+    DeleteDocument (DeleteDocument'),
     newDeleteDocument,
-    DeleteDocumentResponse,
+    DeleteDocumentResponse (DeleteDocumentResponse'),
     newDeleteDocumentResponse,
 
     -- ** DeleteDocumentVersion
-    DeleteDocumentVersion,
+    DeleteDocumentVersion (DeleteDocumentVersion'),
     newDeleteDocumentVersion,
-    DeleteDocumentVersionResponse,
+    DeleteDocumentVersionResponse (DeleteDocumentVersionResponse'),
     newDeleteDocumentVersionResponse,
 
     -- ** DeleteFolder
-    DeleteFolder,
+    DeleteFolder (DeleteFolder'),
     newDeleteFolder,
-    DeleteFolderResponse,
+    DeleteFolderResponse (DeleteFolderResponse'),
     newDeleteFolderResponse,
 
     -- ** DeleteFolderContents
-    DeleteFolderContents,
+    DeleteFolderContents (DeleteFolderContents'),
     newDeleteFolderContents,
-    DeleteFolderContentsResponse,
+    DeleteFolderContentsResponse (DeleteFolderContentsResponse'),
     newDeleteFolderContentsResponse,
 
     -- ** DeleteLabels
-    DeleteLabels,
+    DeleteLabels (DeleteLabels'),
     newDeleteLabels,
-    DeleteLabelsResponse,
+    DeleteLabelsResponse (DeleteLabelsResponse'),
     newDeleteLabelsResponse,
 
     -- ** DeleteNotificationSubscription
-    DeleteNotificationSubscription,
+    DeleteNotificationSubscription (DeleteNotificationSubscription'),
     newDeleteNotificationSubscription,
-    DeleteNotificationSubscriptionResponse,
+    DeleteNotificationSubscriptionResponse (DeleteNotificationSubscriptionResponse'),
     newDeleteNotificationSubscriptionResponse,
 
     -- ** DeleteUser
-    DeleteUser,
+    DeleteUser (DeleteUser'),
     newDeleteUser,
-    DeleteUserResponse,
+    DeleteUserResponse (DeleteUserResponse'),
     newDeleteUserResponse,
 
     -- ** DescribeActivities (Paginated)
-    DescribeActivities,
+    DescribeActivities (DescribeActivities'),
     newDescribeActivities,
-    DescribeActivitiesResponse,
+    DescribeActivitiesResponse (DescribeActivitiesResponse'),
     newDescribeActivitiesResponse,
 
     -- ** DescribeComments (Paginated)
-    DescribeComments,
+    DescribeComments (DescribeComments'),
     newDescribeComments,
-    DescribeCommentsResponse,
+    DescribeCommentsResponse (DescribeCommentsResponse'),
     newDescribeCommentsResponse,
 
     -- ** DescribeDocumentVersions (Paginated)
-    DescribeDocumentVersions,
+    DescribeDocumentVersions (DescribeDocumentVersions'),
     newDescribeDocumentVersions,
-    DescribeDocumentVersionsResponse,
+    DescribeDocumentVersionsResponse (DescribeDocumentVersionsResponse'),
     newDescribeDocumentVersionsResponse,
 
     -- ** DescribeFolderContents (Paginated)
-    DescribeFolderContents,
+    DescribeFolderContents (DescribeFolderContents'),
     newDescribeFolderContents,
-    DescribeFolderContentsResponse,
+    DescribeFolderContentsResponse (DescribeFolderContentsResponse'),
     newDescribeFolderContentsResponse,
 
     -- ** DescribeGroups (Paginated)
-    DescribeGroups,
+    DescribeGroups (DescribeGroups'),
     newDescribeGroups,
-    DescribeGroupsResponse,
+    DescribeGroupsResponse (DescribeGroupsResponse'),
     newDescribeGroupsResponse,
 
     -- ** DescribeNotificationSubscriptions (Paginated)
-    DescribeNotificationSubscriptions,
+    DescribeNotificationSubscriptions (DescribeNotificationSubscriptions'),
     newDescribeNotificationSubscriptions,
-    DescribeNotificationSubscriptionsResponse,
+    DescribeNotificationSubscriptionsResponse (DescribeNotificationSubscriptionsResponse'),
     newDescribeNotificationSubscriptionsResponse,
 
     -- ** DescribeResourcePermissions (Paginated)
-    DescribeResourcePermissions,
+    DescribeResourcePermissions (DescribeResourcePermissions'),
     newDescribeResourcePermissions,
-    DescribeResourcePermissionsResponse,
+    DescribeResourcePermissionsResponse (DescribeResourcePermissionsResponse'),
     newDescribeResourcePermissionsResponse,
 
     -- ** DescribeRootFolders (Paginated)
-    DescribeRootFolders,
+    DescribeRootFolders (DescribeRootFolders'),
     newDescribeRootFolders,
-    DescribeRootFoldersResponse,
+    DescribeRootFoldersResponse (DescribeRootFoldersResponse'),
     newDescribeRootFoldersResponse,
 
     -- ** DescribeUsers (Paginated)
-    DescribeUsers,
+    DescribeUsers (DescribeUsers'),
     newDescribeUsers,
-    DescribeUsersResponse,
+    DescribeUsersResponse (DescribeUsersResponse'),
     newDescribeUsersResponse,
 
     -- ** GetCurrentUser
-    GetCurrentUser,
+    GetCurrentUser (GetCurrentUser'),
     newGetCurrentUser,
-    GetCurrentUserResponse,
+    GetCurrentUserResponse (GetCurrentUserResponse'),
     newGetCurrentUserResponse,
 
     -- ** GetDocument
-    GetDocument,
+    GetDocument (GetDocument'),
     newGetDocument,
-    GetDocumentResponse,
+    GetDocumentResponse (GetDocumentResponse'),
     newGetDocumentResponse,
 
     -- ** GetDocumentPath
-    GetDocumentPath,
+    GetDocumentPath (GetDocumentPath'),
     newGetDocumentPath,
-    GetDocumentPathResponse,
+    GetDocumentPathResponse (GetDocumentPathResponse'),
     newGetDocumentPathResponse,
 
     -- ** GetDocumentVersion
-    GetDocumentVersion,
+    GetDocumentVersion (GetDocumentVersion'),
     newGetDocumentVersion,
-    GetDocumentVersionResponse,
+    GetDocumentVersionResponse (GetDocumentVersionResponse'),
     newGetDocumentVersionResponse,
 
     -- ** GetFolder
-    GetFolder,
+    GetFolder (GetFolder'),
     newGetFolder,
-    GetFolderResponse,
+    GetFolderResponse (GetFolderResponse'),
     newGetFolderResponse,
 
     -- ** GetFolderPath
-    GetFolderPath,
+    GetFolderPath (GetFolderPath'),
     newGetFolderPath,
-    GetFolderPathResponse,
+    GetFolderPathResponse (GetFolderPathResponse'),
     newGetFolderPathResponse,
 
     -- ** GetResources
-    GetResources,
+    GetResources (GetResources'),
     newGetResources,
-    GetResourcesResponse,
+    GetResourcesResponse (GetResourcesResponse'),
     newGetResourcesResponse,
 
     -- ** InitiateDocumentVersionUpload
-    InitiateDocumentVersionUpload,
+    InitiateDocumentVersionUpload (InitiateDocumentVersionUpload'),
     newInitiateDocumentVersionUpload,
-    InitiateDocumentVersionUploadResponse,
+    InitiateDocumentVersionUploadResponse (InitiateDocumentVersionUploadResponse'),
     newInitiateDocumentVersionUploadResponse,
 
     -- ** RemoveAllResourcePermissions
-    RemoveAllResourcePermissions,
+    RemoveAllResourcePermissions (RemoveAllResourcePermissions'),
     newRemoveAllResourcePermissions,
-    RemoveAllResourcePermissionsResponse,
+    RemoveAllResourcePermissionsResponse (RemoveAllResourcePermissionsResponse'),
     newRemoveAllResourcePermissionsResponse,
 
     -- ** RemoveResourcePermission
-    RemoveResourcePermission,
+    RemoveResourcePermission (RemoveResourcePermission'),
     newRemoveResourcePermission,
-    RemoveResourcePermissionResponse,
+    RemoveResourcePermissionResponse (RemoveResourcePermissionResponse'),
     newRemoveResourcePermissionResponse,
 
     -- ** RestoreDocumentVersions
-    RestoreDocumentVersions,
+    RestoreDocumentVersions (RestoreDocumentVersions'),
     newRestoreDocumentVersions,
-    RestoreDocumentVersionsResponse,
+    RestoreDocumentVersionsResponse (RestoreDocumentVersionsResponse'),
     newRestoreDocumentVersionsResponse,
 
     -- ** UpdateDocument
-    UpdateDocument,
+    UpdateDocument (UpdateDocument'),
     newUpdateDocument,
-    UpdateDocumentResponse,
+    UpdateDocumentResponse (UpdateDocumentResponse'),
     newUpdateDocumentResponse,
 
     -- ** UpdateDocumentVersion
-    UpdateDocumentVersion,
+    UpdateDocumentVersion (UpdateDocumentVersion'),
     newUpdateDocumentVersion,
-    UpdateDocumentVersionResponse,
+    UpdateDocumentVersionResponse (UpdateDocumentVersionResponse'),
     newUpdateDocumentVersionResponse,
 
     -- ** UpdateFolder
-    UpdateFolder,
+    UpdateFolder (UpdateFolder'),
     newUpdateFolder,
-    UpdateFolderResponse,
+    UpdateFolderResponse (UpdateFolderResponse'),
     newUpdateFolderResponse,
 
     -- ** UpdateUser
-    UpdateUser,
+    UpdateUser (UpdateUser'),
     newUpdateUser,
-    UpdateUserResponse,
+    UpdateUserResponse (UpdateUserResponse'),
     newUpdateUserResponse,
 
     -- * Types
@@ -485,91 +485,91 @@ module Amazonka.WorkDocs
     UserType (..),
 
     -- ** Activity
-    Activity,
+    Activity (Activity'),
     newActivity,
 
     -- ** Comment
-    Comment,
+    Comment (Comment'),
     newComment,
 
     -- ** CommentMetadata
-    CommentMetadata,
+    CommentMetadata (CommentMetadata'),
     newCommentMetadata,
 
     -- ** DocumentMetadata
-    DocumentMetadata,
+    DocumentMetadata (DocumentMetadata'),
     newDocumentMetadata,
 
     -- ** DocumentVersionMetadata
-    DocumentVersionMetadata,
+    DocumentVersionMetadata (DocumentVersionMetadata'),
     newDocumentVersionMetadata,
 
     -- ** FolderMetadata
-    FolderMetadata,
+    FolderMetadata (FolderMetadata'),
     newFolderMetadata,
 
     -- ** GroupMetadata
-    GroupMetadata,
+    GroupMetadata (GroupMetadata'),
     newGroupMetadata,
 
     -- ** NotificationOptions
-    NotificationOptions,
+    NotificationOptions (NotificationOptions'),
     newNotificationOptions,
 
     -- ** Participants
-    Participants,
+    Participants (Participants'),
     newParticipants,
 
     -- ** PermissionInfo
-    PermissionInfo,
+    PermissionInfo (PermissionInfo'),
     newPermissionInfo,
 
     -- ** Principal
-    Principal,
+    Principal (Principal'),
     newPrincipal,
 
     -- ** ResourceMetadata
-    ResourceMetadata,
+    ResourceMetadata (ResourceMetadata'),
     newResourceMetadata,
 
     -- ** ResourcePath
-    ResourcePath,
+    ResourcePath (ResourcePath'),
     newResourcePath,
 
     -- ** ResourcePathComponent
-    ResourcePathComponent,
+    ResourcePathComponent (ResourcePathComponent'),
     newResourcePathComponent,
 
     -- ** SharePrincipal
-    SharePrincipal,
+    SharePrincipal (SharePrincipal'),
     newSharePrincipal,
 
     -- ** ShareResult
-    ShareResult,
+    ShareResult (ShareResult'),
     newShareResult,
 
     -- ** StorageRuleType
-    StorageRuleType,
+    StorageRuleType (StorageRuleType'),
     newStorageRuleType,
 
     -- ** Subscription
-    Subscription,
+    Subscription (Subscription'),
     newSubscription,
 
     -- ** UploadMetadata
-    UploadMetadata,
+    UploadMetadata (UploadMetadata'),
     newUploadMetadata,
 
     -- ** User
-    User,
+    User (User'),
     newUser,
 
     -- ** UserMetadata
-    UserMetadata,
+    UserMetadata (UserMetadata'),
     newUserMetadata,
 
     -- ** UserStorageMetadata
-    UserStorageMetadata,
+    UserStorageMetadata (UserStorageMetadata'),
     newUserStorageMetadata,
   )
 where

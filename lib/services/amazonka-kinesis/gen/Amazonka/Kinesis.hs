@@ -83,177 +83,177 @@ module Amazonka.Kinesis
     -- $operations
 
     -- ** AddTagsToStream
-    AddTagsToStream,
+    AddTagsToStream (AddTagsToStream'),
     newAddTagsToStream,
-    AddTagsToStreamResponse,
+    AddTagsToStreamResponse (AddTagsToStreamResponse'),
     newAddTagsToStreamResponse,
 
     -- ** CreateStream
-    CreateStream,
+    CreateStream (CreateStream'),
     newCreateStream,
-    CreateStreamResponse,
+    CreateStreamResponse (CreateStreamResponse'),
     newCreateStreamResponse,
 
     -- ** DecreaseStreamRetentionPeriod
-    DecreaseStreamRetentionPeriod,
+    DecreaseStreamRetentionPeriod (DecreaseStreamRetentionPeriod'),
     newDecreaseStreamRetentionPeriod,
-    DecreaseStreamRetentionPeriodResponse,
+    DecreaseStreamRetentionPeriodResponse (DecreaseStreamRetentionPeriodResponse'),
     newDecreaseStreamRetentionPeriodResponse,
 
     -- ** DeleteStream
-    DeleteStream,
+    DeleteStream (DeleteStream'),
     newDeleteStream,
-    DeleteStreamResponse,
+    DeleteStreamResponse (DeleteStreamResponse'),
     newDeleteStreamResponse,
 
     -- ** DeregisterStreamConsumer
-    DeregisterStreamConsumer,
+    DeregisterStreamConsumer (DeregisterStreamConsumer'),
     newDeregisterStreamConsumer,
-    DeregisterStreamConsumerResponse,
+    DeregisterStreamConsumerResponse (DeregisterStreamConsumerResponse'),
     newDeregisterStreamConsumerResponse,
 
     -- ** DescribeLimits
-    DescribeLimits,
+    DescribeLimits (DescribeLimits'),
     newDescribeLimits,
-    DescribeLimitsResponse,
+    DescribeLimitsResponse (DescribeLimitsResponse'),
     newDescribeLimitsResponse,
 
     -- ** DescribeStream (Paginated)
-    DescribeStream,
+    DescribeStream (DescribeStream'),
     newDescribeStream,
-    DescribeStreamResponse,
+    DescribeStreamResponse (DescribeStreamResponse'),
     newDescribeStreamResponse,
 
     -- ** DescribeStreamConsumer
-    DescribeStreamConsumer,
+    DescribeStreamConsumer (DescribeStreamConsumer'),
     newDescribeStreamConsumer,
-    DescribeStreamConsumerResponse,
+    DescribeStreamConsumerResponse (DescribeStreamConsumerResponse'),
     newDescribeStreamConsumerResponse,
 
     -- ** DescribeStreamSummary
-    DescribeStreamSummary,
+    DescribeStreamSummary (DescribeStreamSummary'),
     newDescribeStreamSummary,
-    DescribeStreamSummaryResponse,
+    DescribeStreamSummaryResponse (DescribeStreamSummaryResponse'),
     newDescribeStreamSummaryResponse,
 
     -- ** DisableEnhancedMonitoring
-    DisableEnhancedMonitoring,
+    DisableEnhancedMonitoring (DisableEnhancedMonitoring'),
     newDisableEnhancedMonitoring,
-    EnhancedMonitoringOutput,
+    EnhancedMonitoringOutput (EnhancedMonitoringOutput'),
     newEnhancedMonitoringOutput,
 
     -- ** EnableEnhancedMonitoring
-    EnableEnhancedMonitoring,
+    EnableEnhancedMonitoring (EnableEnhancedMonitoring'),
     newEnableEnhancedMonitoring,
-    EnhancedMonitoringOutput,
+    EnhancedMonitoringOutput (EnhancedMonitoringOutput'),
     newEnhancedMonitoringOutput,
 
     -- ** GetRecords
-    GetRecords,
+    GetRecords (GetRecords'),
     newGetRecords,
-    GetRecordsResponse,
+    GetRecordsResponse (GetRecordsResponse'),
     newGetRecordsResponse,
 
     -- ** GetShardIterator
-    GetShardIterator,
+    GetShardIterator (GetShardIterator'),
     newGetShardIterator,
-    GetShardIteratorResponse,
+    GetShardIteratorResponse (GetShardIteratorResponse'),
     newGetShardIteratorResponse,
 
     -- ** IncreaseStreamRetentionPeriod
-    IncreaseStreamRetentionPeriod,
+    IncreaseStreamRetentionPeriod (IncreaseStreamRetentionPeriod'),
     newIncreaseStreamRetentionPeriod,
-    IncreaseStreamRetentionPeriodResponse,
+    IncreaseStreamRetentionPeriodResponse (IncreaseStreamRetentionPeriodResponse'),
     newIncreaseStreamRetentionPeriodResponse,
 
     -- ** ListShards (Paginated)
-    ListShards,
+    ListShards (ListShards'),
     newListShards,
-    ListShardsResponse,
+    ListShardsResponse (ListShardsResponse'),
     newListShardsResponse,
 
     -- ** ListStreamConsumers (Paginated)
-    ListStreamConsumers,
+    ListStreamConsumers (ListStreamConsumers'),
     newListStreamConsumers,
-    ListStreamConsumersResponse,
+    ListStreamConsumersResponse (ListStreamConsumersResponse'),
     newListStreamConsumersResponse,
 
     -- ** ListStreams (Paginated)
-    ListStreams,
+    ListStreams (ListStreams'),
     newListStreams,
-    ListStreamsResponse,
+    ListStreamsResponse (ListStreamsResponse'),
     newListStreamsResponse,
 
     -- ** ListTagsForStream
-    ListTagsForStream,
+    ListTagsForStream (ListTagsForStream'),
     newListTagsForStream,
-    ListTagsForStreamResponse,
+    ListTagsForStreamResponse (ListTagsForStreamResponse'),
     newListTagsForStreamResponse,
 
     -- ** MergeShards
-    MergeShards,
+    MergeShards (MergeShards'),
     newMergeShards,
-    MergeShardsResponse,
+    MergeShardsResponse (MergeShardsResponse'),
     newMergeShardsResponse,
 
     -- ** PutRecord
-    PutRecord,
+    PutRecord (PutRecord'),
     newPutRecord,
-    PutRecordResponse,
+    PutRecordResponse (PutRecordResponse'),
     newPutRecordResponse,
 
     -- ** PutRecords
-    PutRecords,
+    PutRecords (PutRecords'),
     newPutRecords,
-    PutRecordsResponse,
+    PutRecordsResponse (PutRecordsResponse'),
     newPutRecordsResponse,
 
     -- ** RegisterStreamConsumer
-    RegisterStreamConsumer,
+    RegisterStreamConsumer (RegisterStreamConsumer'),
     newRegisterStreamConsumer,
-    RegisterStreamConsumerResponse,
+    RegisterStreamConsumerResponse (RegisterStreamConsumerResponse'),
     newRegisterStreamConsumerResponse,
 
     -- ** RemoveTagsFromStream
-    RemoveTagsFromStream,
+    RemoveTagsFromStream (RemoveTagsFromStream'),
     newRemoveTagsFromStream,
-    RemoveTagsFromStreamResponse,
+    RemoveTagsFromStreamResponse (RemoveTagsFromStreamResponse'),
     newRemoveTagsFromStreamResponse,
 
     -- ** SplitShard
-    SplitShard,
+    SplitShard (SplitShard'),
     newSplitShard,
-    SplitShardResponse,
+    SplitShardResponse (SplitShardResponse'),
     newSplitShardResponse,
 
     -- ** StartStreamEncryption
-    StartStreamEncryption,
+    StartStreamEncryption (StartStreamEncryption'),
     newStartStreamEncryption,
-    StartStreamEncryptionResponse,
+    StartStreamEncryptionResponse (StartStreamEncryptionResponse'),
     newStartStreamEncryptionResponse,
 
     -- ** StopStreamEncryption
-    StopStreamEncryption,
+    StopStreamEncryption (StopStreamEncryption'),
     newStopStreamEncryption,
-    StopStreamEncryptionResponse,
+    StopStreamEncryptionResponse (StopStreamEncryptionResponse'),
     newStopStreamEncryptionResponse,
 
     -- ** SubscribeToShard
-    SubscribeToShard,
+    SubscribeToShard (SubscribeToShard'),
     newSubscribeToShard,
-    SubscribeToShardResponse,
+    SubscribeToShardResponse (SubscribeToShardResponse'),
     newSubscribeToShardResponse,
 
     -- ** UpdateShardCount
-    UpdateShardCount,
+    UpdateShardCount (UpdateShardCount'),
     newUpdateShardCount,
-    UpdateShardCountResponse,
+    UpdateShardCountResponse (UpdateShardCountResponse'),
     newUpdateShardCountResponse,
 
     -- ** UpdateStreamMode
-    UpdateStreamMode,
+    UpdateStreamMode (UpdateStreamMode'),
     newUpdateStreamMode,
-    UpdateStreamModeResponse,
+    UpdateStreamModeResponse (UpdateStreamModeResponse'),
     newUpdateStreamModeResponse,
 
     -- * Types
@@ -283,79 +283,79 @@ module Amazonka.Kinesis
     StreamStatus (..),
 
     -- ** ChildShard
-    ChildShard,
+    ChildShard (ChildShard'),
     newChildShard,
 
     -- ** Consumer
-    Consumer,
+    Consumer (Consumer'),
     newConsumer,
 
     -- ** ConsumerDescription
-    ConsumerDescription,
+    ConsumerDescription (ConsumerDescription'),
     newConsumerDescription,
 
     -- ** EnhancedMetrics
-    EnhancedMetrics,
+    EnhancedMetrics (EnhancedMetrics'),
     newEnhancedMetrics,
 
     -- ** EnhancedMonitoringOutput
-    EnhancedMonitoringOutput,
+    EnhancedMonitoringOutput (EnhancedMonitoringOutput'),
     newEnhancedMonitoringOutput,
 
     -- ** HashKeyRange
-    HashKeyRange,
+    HashKeyRange (HashKeyRange'),
     newHashKeyRange,
 
     -- ** PutRecordsRequestEntry
-    PutRecordsRequestEntry,
+    PutRecordsRequestEntry (PutRecordsRequestEntry'),
     newPutRecordsRequestEntry,
 
     -- ** PutRecordsResultEntry
-    PutRecordsResultEntry,
+    PutRecordsResultEntry (PutRecordsResultEntry'),
     newPutRecordsResultEntry,
 
     -- ** Record
-    Record,
+    Record (Record'),
     newRecord,
 
     -- ** SequenceNumberRange
-    SequenceNumberRange,
+    SequenceNumberRange (SequenceNumberRange'),
     newSequenceNumberRange,
 
     -- ** Shard
-    Shard,
+    Shard (Shard'),
     newShard,
 
     -- ** ShardFilter
-    ShardFilter,
+    ShardFilter (ShardFilter'),
     newShardFilter,
 
     -- ** StartingPosition
-    StartingPosition,
+    StartingPosition (StartingPosition'),
     newStartingPosition,
 
     -- ** StreamDescription
-    StreamDescription,
+    StreamDescription (StreamDescription'),
     newStreamDescription,
 
     -- ** StreamDescriptionSummary
-    StreamDescriptionSummary,
+    StreamDescriptionSummary (StreamDescriptionSummary'),
     newStreamDescriptionSummary,
 
     -- ** StreamModeDetails
-    StreamModeDetails,
+    StreamModeDetails (StreamModeDetails'),
     newStreamModeDetails,
 
     -- ** StreamSummary
-    StreamSummary,
+    StreamSummary (StreamSummary'),
     newStreamSummary,
 
     -- ** SubscribeToShardEvent
-    SubscribeToShardEvent,
+    SubscribeToShardEvent (SubscribeToShardEvent'),
     newSubscribeToShardEvent,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
   )
 where

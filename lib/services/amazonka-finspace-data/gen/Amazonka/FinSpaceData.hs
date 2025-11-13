@@ -47,189 +47,189 @@ module Amazonka.FinSpaceData
     -- $operations
 
     -- ** AssociateUserToPermissionGroup
-    AssociateUserToPermissionGroup,
+    AssociateUserToPermissionGroup (AssociateUserToPermissionGroup'),
     newAssociateUserToPermissionGroup,
-    AssociateUserToPermissionGroupResponse,
+    AssociateUserToPermissionGroupResponse (AssociateUserToPermissionGroupResponse'),
     newAssociateUserToPermissionGroupResponse,
 
     -- ** CreateChangeset
-    CreateChangeset,
+    CreateChangeset (CreateChangeset'),
     newCreateChangeset,
-    CreateChangesetResponse,
+    CreateChangesetResponse (CreateChangesetResponse'),
     newCreateChangesetResponse,
 
     -- ** CreateDataView
-    CreateDataView,
+    CreateDataView (CreateDataView'),
     newCreateDataView,
-    CreateDataViewResponse,
+    CreateDataViewResponse (CreateDataViewResponse'),
     newCreateDataViewResponse,
 
     -- ** CreateDataset
-    CreateDataset,
+    CreateDataset (CreateDataset'),
     newCreateDataset,
-    CreateDatasetResponse,
+    CreateDatasetResponse (CreateDatasetResponse'),
     newCreateDatasetResponse,
 
     -- ** CreatePermissionGroup
-    CreatePermissionGroup,
+    CreatePermissionGroup (CreatePermissionGroup'),
     newCreatePermissionGroup,
-    CreatePermissionGroupResponse,
+    CreatePermissionGroupResponse (CreatePermissionGroupResponse'),
     newCreatePermissionGroupResponse,
 
     -- ** CreateUser
-    CreateUser,
+    CreateUser (CreateUser'),
     newCreateUser,
-    CreateUserResponse,
+    CreateUserResponse (CreateUserResponse'),
     newCreateUserResponse,
 
     -- ** DeleteDataset
-    DeleteDataset,
+    DeleteDataset (DeleteDataset'),
     newDeleteDataset,
-    DeleteDatasetResponse,
+    DeleteDatasetResponse (DeleteDatasetResponse'),
     newDeleteDatasetResponse,
 
     -- ** DeletePermissionGroup
-    DeletePermissionGroup,
+    DeletePermissionGroup (DeletePermissionGroup'),
     newDeletePermissionGroup,
-    DeletePermissionGroupResponse,
+    DeletePermissionGroupResponse (DeletePermissionGroupResponse'),
     newDeletePermissionGroupResponse,
 
     -- ** DisableUser
-    DisableUser,
+    DisableUser (DisableUser'),
     newDisableUser,
-    DisableUserResponse,
+    DisableUserResponse (DisableUserResponse'),
     newDisableUserResponse,
 
     -- ** DisassociateUserFromPermissionGroup
-    DisassociateUserFromPermissionGroup,
+    DisassociateUserFromPermissionGroup (DisassociateUserFromPermissionGroup'),
     newDisassociateUserFromPermissionGroup,
-    DisassociateUserFromPermissionGroupResponse,
+    DisassociateUserFromPermissionGroupResponse (DisassociateUserFromPermissionGroupResponse'),
     newDisassociateUserFromPermissionGroupResponse,
 
     -- ** EnableUser
-    EnableUser,
+    EnableUser (EnableUser'),
     newEnableUser,
-    EnableUserResponse,
+    EnableUserResponse (EnableUserResponse'),
     newEnableUserResponse,
 
     -- ** GetChangeset
-    GetChangeset,
+    GetChangeset (GetChangeset'),
     newGetChangeset,
-    GetChangesetResponse,
+    GetChangesetResponse (GetChangesetResponse'),
     newGetChangesetResponse,
 
     -- ** GetDataView
-    GetDataView,
+    GetDataView (GetDataView'),
     newGetDataView,
-    GetDataViewResponse,
+    GetDataViewResponse (GetDataViewResponse'),
     newGetDataViewResponse,
 
     -- ** GetDataset
-    GetDataset,
+    GetDataset (GetDataset'),
     newGetDataset,
-    GetDatasetResponse,
+    GetDatasetResponse (GetDatasetResponse'),
     newGetDatasetResponse,
 
     -- ** GetExternalDataViewAccessDetails
-    GetExternalDataViewAccessDetails,
+    GetExternalDataViewAccessDetails (GetExternalDataViewAccessDetails'),
     newGetExternalDataViewAccessDetails,
-    GetExternalDataViewAccessDetailsResponse,
+    GetExternalDataViewAccessDetailsResponse (GetExternalDataViewAccessDetailsResponse'),
     newGetExternalDataViewAccessDetailsResponse,
 
     -- ** GetPermissionGroup
-    GetPermissionGroup,
+    GetPermissionGroup (GetPermissionGroup'),
     newGetPermissionGroup,
-    GetPermissionGroupResponse,
+    GetPermissionGroupResponse (GetPermissionGroupResponse'),
     newGetPermissionGroupResponse,
 
     -- ** GetProgrammaticAccessCredentials
-    GetProgrammaticAccessCredentials,
+    GetProgrammaticAccessCredentials (GetProgrammaticAccessCredentials'),
     newGetProgrammaticAccessCredentials,
-    GetProgrammaticAccessCredentialsResponse,
+    GetProgrammaticAccessCredentialsResponse (GetProgrammaticAccessCredentialsResponse'),
     newGetProgrammaticAccessCredentialsResponse,
 
     -- ** GetUser
-    GetUser,
+    GetUser (GetUser'),
     newGetUser,
-    GetUserResponse,
+    GetUserResponse (GetUserResponse'),
     newGetUserResponse,
 
     -- ** GetWorkingLocation
-    GetWorkingLocation,
+    GetWorkingLocation (GetWorkingLocation'),
     newGetWorkingLocation,
-    GetWorkingLocationResponse,
+    GetWorkingLocationResponse (GetWorkingLocationResponse'),
     newGetWorkingLocationResponse,
 
     -- ** ListChangesets (Paginated)
-    ListChangesets,
+    ListChangesets (ListChangesets'),
     newListChangesets,
-    ListChangesetsResponse,
+    ListChangesetsResponse (ListChangesetsResponse'),
     newListChangesetsResponse,
 
     -- ** ListDataViews (Paginated)
-    ListDataViews,
+    ListDataViews (ListDataViews'),
     newListDataViews,
-    ListDataViewsResponse,
+    ListDataViewsResponse (ListDataViewsResponse'),
     newListDataViewsResponse,
 
     -- ** ListDatasets (Paginated)
-    ListDatasets,
+    ListDatasets (ListDatasets'),
     newListDatasets,
-    ListDatasetsResponse,
+    ListDatasetsResponse (ListDatasetsResponse'),
     newListDatasetsResponse,
 
     -- ** ListPermissionGroups (Paginated)
-    ListPermissionGroups,
+    ListPermissionGroups (ListPermissionGroups'),
     newListPermissionGroups,
-    ListPermissionGroupsResponse,
+    ListPermissionGroupsResponse (ListPermissionGroupsResponse'),
     newListPermissionGroupsResponse,
 
     -- ** ListPermissionGroupsByUser
-    ListPermissionGroupsByUser,
+    ListPermissionGroupsByUser (ListPermissionGroupsByUser'),
     newListPermissionGroupsByUser,
-    ListPermissionGroupsByUserResponse,
+    ListPermissionGroupsByUserResponse (ListPermissionGroupsByUserResponse'),
     newListPermissionGroupsByUserResponse,
 
     -- ** ListUsers (Paginated)
-    ListUsers,
+    ListUsers (ListUsers'),
     newListUsers,
-    ListUsersResponse,
+    ListUsersResponse (ListUsersResponse'),
     newListUsersResponse,
 
     -- ** ListUsersByPermissionGroup
-    ListUsersByPermissionGroup,
+    ListUsersByPermissionGroup (ListUsersByPermissionGroup'),
     newListUsersByPermissionGroup,
-    ListUsersByPermissionGroupResponse,
+    ListUsersByPermissionGroupResponse (ListUsersByPermissionGroupResponse'),
     newListUsersByPermissionGroupResponse,
 
     -- ** ResetUserPassword
-    ResetUserPassword,
+    ResetUserPassword (ResetUserPassword'),
     newResetUserPassword,
-    ResetUserPasswordResponse,
+    ResetUserPasswordResponse (ResetUserPasswordResponse'),
     newResetUserPasswordResponse,
 
     -- ** UpdateChangeset
-    UpdateChangeset,
+    UpdateChangeset (UpdateChangeset'),
     newUpdateChangeset,
-    UpdateChangesetResponse,
+    UpdateChangesetResponse (UpdateChangesetResponse'),
     newUpdateChangesetResponse,
 
     -- ** UpdateDataset
-    UpdateDataset,
+    UpdateDataset (UpdateDataset'),
     newUpdateDataset,
-    UpdateDatasetResponse,
+    UpdateDatasetResponse (UpdateDatasetResponse'),
     newUpdateDatasetResponse,
 
     -- ** UpdatePermissionGroup
-    UpdatePermissionGroup,
+    UpdatePermissionGroup (UpdatePermissionGroup'),
     newUpdatePermissionGroup,
-    UpdatePermissionGroupResponse,
+    UpdatePermissionGroupResponse (UpdatePermissionGroupResponse'),
     newUpdatePermissionGroupResponse,
 
     -- ** UpdateUser
-    UpdateUser,
+    UpdateUser (UpdateUser'),
     newUpdateUser,
-    UpdateUserResponse,
+    UpdateUserResponse (UpdateUserResponse'),
     newUpdateUserResponse,
 
     -- * Types
@@ -277,79 +277,79 @@ module Amazonka.FinSpaceData
     UserType (..),
 
     -- ** AwsCredentials
-    AwsCredentials,
+    AwsCredentials (AwsCredentials'),
     newAwsCredentials,
 
     -- ** ChangesetErrorInfo
-    ChangesetErrorInfo,
+    ChangesetErrorInfo (ChangesetErrorInfo'),
     newChangesetErrorInfo,
 
     -- ** ChangesetSummary
-    ChangesetSummary,
+    ChangesetSummary (ChangesetSummary'),
     newChangesetSummary,
 
     -- ** ColumnDefinition
-    ColumnDefinition,
+    ColumnDefinition (ColumnDefinition'),
     newColumnDefinition,
 
     -- ** Credentials
-    Credentials,
+    Credentials (Credentials'),
     newCredentials,
 
     -- ** DataViewDestinationTypeParams
-    DataViewDestinationTypeParams,
+    DataViewDestinationTypeParams (DataViewDestinationTypeParams'),
     newDataViewDestinationTypeParams,
 
     -- ** DataViewErrorInfo
-    DataViewErrorInfo,
+    DataViewErrorInfo (DataViewErrorInfo'),
     newDataViewErrorInfo,
 
     -- ** DataViewSummary
-    DataViewSummary,
+    DataViewSummary (DataViewSummary'),
     newDataViewSummary,
 
     -- ** Dataset
-    Dataset,
+    Dataset (Dataset'),
     newDataset,
 
     -- ** DatasetOwnerInfo
-    DatasetOwnerInfo,
+    DatasetOwnerInfo (DatasetOwnerInfo'),
     newDatasetOwnerInfo,
 
     -- ** PermissionGroup
-    PermissionGroup,
+    PermissionGroup (PermissionGroup'),
     newPermissionGroup,
 
     -- ** PermissionGroupByUser
-    PermissionGroupByUser,
+    PermissionGroupByUser (PermissionGroupByUser'),
     newPermissionGroupByUser,
 
     -- ** PermissionGroupParams
-    PermissionGroupParams,
+    PermissionGroupParams (PermissionGroupParams'),
     newPermissionGroupParams,
 
     -- ** ResourcePermission
-    ResourcePermission,
+    ResourcePermission (ResourcePermission'),
     newResourcePermission,
 
     -- ** S3Location
-    S3Location,
+    S3Location (S3Location'),
     newS3Location,
 
     -- ** SchemaDefinition
-    SchemaDefinition,
+    SchemaDefinition (SchemaDefinition'),
     newSchemaDefinition,
 
     -- ** SchemaUnion
-    SchemaUnion,
+    SchemaUnion (SchemaUnion'),
     newSchemaUnion,
 
     -- ** User
-    User,
+    User (User'),
     newUser,
 
     -- ** UserByPermissionGroup
-    UserByPermissionGroup,
+    UserByPermissionGroup (UserByPermissionGroup'),
     newUserByPermissionGroup,
   )
 where

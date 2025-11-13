@@ -72,213 +72,213 @@ module Amazonka.Shield
     -- $operations
 
     -- ** AssociateDRTLogBucket
-    AssociateDRTLogBucket,
+    AssociateDRTLogBucket (AssociateDRTLogBucket'),
     newAssociateDRTLogBucket,
-    AssociateDRTLogBucketResponse,
+    AssociateDRTLogBucketResponse (AssociateDRTLogBucketResponse'),
     newAssociateDRTLogBucketResponse,
 
     -- ** AssociateDRTRole
-    AssociateDRTRole,
+    AssociateDRTRole (AssociateDRTRole'),
     newAssociateDRTRole,
-    AssociateDRTRoleResponse,
+    AssociateDRTRoleResponse (AssociateDRTRoleResponse'),
     newAssociateDRTRoleResponse,
 
     -- ** AssociateHealthCheck
-    AssociateHealthCheck,
+    AssociateHealthCheck (AssociateHealthCheck'),
     newAssociateHealthCheck,
-    AssociateHealthCheckResponse,
+    AssociateHealthCheckResponse (AssociateHealthCheckResponse'),
     newAssociateHealthCheckResponse,
 
     -- ** AssociateProactiveEngagementDetails
-    AssociateProactiveEngagementDetails,
+    AssociateProactiveEngagementDetails (AssociateProactiveEngagementDetails'),
     newAssociateProactiveEngagementDetails,
-    AssociateProactiveEngagementDetailsResponse,
+    AssociateProactiveEngagementDetailsResponse (AssociateProactiveEngagementDetailsResponse'),
     newAssociateProactiveEngagementDetailsResponse,
 
     -- ** CreateProtection
-    CreateProtection,
+    CreateProtection (CreateProtection'),
     newCreateProtection,
-    CreateProtectionResponse,
+    CreateProtectionResponse (CreateProtectionResponse'),
     newCreateProtectionResponse,
 
     -- ** CreateProtectionGroup
-    CreateProtectionGroup,
+    CreateProtectionGroup (CreateProtectionGroup'),
     newCreateProtectionGroup,
-    CreateProtectionGroupResponse,
+    CreateProtectionGroupResponse (CreateProtectionGroupResponse'),
     newCreateProtectionGroupResponse,
 
     -- ** CreateSubscription
-    CreateSubscription,
+    CreateSubscription (CreateSubscription'),
     newCreateSubscription,
-    CreateSubscriptionResponse,
+    CreateSubscriptionResponse (CreateSubscriptionResponse'),
     newCreateSubscriptionResponse,
 
     -- ** DeleteProtection
-    DeleteProtection,
+    DeleteProtection (DeleteProtection'),
     newDeleteProtection,
-    DeleteProtectionResponse,
+    DeleteProtectionResponse (DeleteProtectionResponse'),
     newDeleteProtectionResponse,
 
     -- ** DeleteProtectionGroup
-    DeleteProtectionGroup,
+    DeleteProtectionGroup (DeleteProtectionGroup'),
     newDeleteProtectionGroup,
-    DeleteProtectionGroupResponse,
+    DeleteProtectionGroupResponse (DeleteProtectionGroupResponse'),
     newDeleteProtectionGroupResponse,
 
     -- ** DescribeAttack
-    DescribeAttack,
+    DescribeAttack (DescribeAttack'),
     newDescribeAttack,
-    DescribeAttackResponse,
+    DescribeAttackResponse (DescribeAttackResponse'),
     newDescribeAttackResponse,
 
     -- ** DescribeAttackStatistics
-    DescribeAttackStatistics,
+    DescribeAttackStatistics (DescribeAttackStatistics'),
     newDescribeAttackStatistics,
-    DescribeAttackStatisticsResponse,
+    DescribeAttackStatisticsResponse (DescribeAttackStatisticsResponse'),
     newDescribeAttackStatisticsResponse,
 
     -- ** DescribeDRTAccess
-    DescribeDRTAccess,
+    DescribeDRTAccess (DescribeDRTAccess'),
     newDescribeDRTAccess,
-    DescribeDRTAccessResponse,
+    DescribeDRTAccessResponse (DescribeDRTAccessResponse'),
     newDescribeDRTAccessResponse,
 
     -- ** DescribeEmergencyContactSettings
-    DescribeEmergencyContactSettings,
+    DescribeEmergencyContactSettings (DescribeEmergencyContactSettings'),
     newDescribeEmergencyContactSettings,
-    DescribeEmergencyContactSettingsResponse,
+    DescribeEmergencyContactSettingsResponse (DescribeEmergencyContactSettingsResponse'),
     newDescribeEmergencyContactSettingsResponse,
 
     -- ** DescribeProtection
-    DescribeProtection,
+    DescribeProtection (DescribeProtection'),
     newDescribeProtection,
-    DescribeProtectionResponse,
+    DescribeProtectionResponse (DescribeProtectionResponse'),
     newDescribeProtectionResponse,
 
     -- ** DescribeProtectionGroup
-    DescribeProtectionGroup,
+    DescribeProtectionGroup (DescribeProtectionGroup'),
     newDescribeProtectionGroup,
-    DescribeProtectionGroupResponse,
+    DescribeProtectionGroupResponse (DescribeProtectionGroupResponse'),
     newDescribeProtectionGroupResponse,
 
     -- ** DescribeSubscription
-    DescribeSubscription,
+    DescribeSubscription (DescribeSubscription'),
     newDescribeSubscription,
-    DescribeSubscriptionResponse,
+    DescribeSubscriptionResponse (DescribeSubscriptionResponse'),
     newDescribeSubscriptionResponse,
 
     -- ** DisableApplicationLayerAutomaticResponse
-    DisableApplicationLayerAutomaticResponse,
+    DisableApplicationLayerAutomaticResponse (DisableApplicationLayerAutomaticResponse'),
     newDisableApplicationLayerAutomaticResponse,
-    DisableApplicationLayerAutomaticResponseResponse,
+    DisableApplicationLayerAutomaticResponseResponse (DisableApplicationLayerAutomaticResponseResponse'),
     newDisableApplicationLayerAutomaticResponseResponse,
 
     -- ** DisableProactiveEngagement
-    DisableProactiveEngagement,
+    DisableProactiveEngagement (DisableProactiveEngagement'),
     newDisableProactiveEngagement,
-    DisableProactiveEngagementResponse,
+    DisableProactiveEngagementResponse (DisableProactiveEngagementResponse'),
     newDisableProactiveEngagementResponse,
 
     -- ** DisassociateDRTLogBucket
-    DisassociateDRTLogBucket,
+    DisassociateDRTLogBucket (DisassociateDRTLogBucket'),
     newDisassociateDRTLogBucket,
-    DisassociateDRTLogBucketResponse,
+    DisassociateDRTLogBucketResponse (DisassociateDRTLogBucketResponse'),
     newDisassociateDRTLogBucketResponse,
 
     -- ** DisassociateDRTRole
-    DisassociateDRTRole,
+    DisassociateDRTRole (DisassociateDRTRole'),
     newDisassociateDRTRole,
-    DisassociateDRTRoleResponse,
+    DisassociateDRTRoleResponse (DisassociateDRTRoleResponse'),
     newDisassociateDRTRoleResponse,
 
     -- ** DisassociateHealthCheck
-    DisassociateHealthCheck,
+    DisassociateHealthCheck (DisassociateHealthCheck'),
     newDisassociateHealthCheck,
-    DisassociateHealthCheckResponse,
+    DisassociateHealthCheckResponse (DisassociateHealthCheckResponse'),
     newDisassociateHealthCheckResponse,
 
     -- ** EnableApplicationLayerAutomaticResponse
-    EnableApplicationLayerAutomaticResponse,
+    EnableApplicationLayerAutomaticResponse (EnableApplicationLayerAutomaticResponse'),
     newEnableApplicationLayerAutomaticResponse,
-    EnableApplicationLayerAutomaticResponseResponse,
+    EnableApplicationLayerAutomaticResponseResponse (EnableApplicationLayerAutomaticResponseResponse'),
     newEnableApplicationLayerAutomaticResponseResponse,
 
     -- ** EnableProactiveEngagement
-    EnableProactiveEngagement,
+    EnableProactiveEngagement (EnableProactiveEngagement'),
     newEnableProactiveEngagement,
-    EnableProactiveEngagementResponse,
+    EnableProactiveEngagementResponse (EnableProactiveEngagementResponse'),
     newEnableProactiveEngagementResponse,
 
     -- ** GetSubscriptionState
-    GetSubscriptionState,
+    GetSubscriptionState (GetSubscriptionState'),
     newGetSubscriptionState,
-    GetSubscriptionStateResponse,
+    GetSubscriptionStateResponse (GetSubscriptionStateResponse'),
     newGetSubscriptionStateResponse,
 
     -- ** ListAttacks (Paginated)
-    ListAttacks,
+    ListAttacks (ListAttacks'),
     newListAttacks,
-    ListAttacksResponse,
+    ListAttacksResponse (ListAttacksResponse'),
     newListAttacksResponse,
 
     -- ** ListProtectionGroups
-    ListProtectionGroups,
+    ListProtectionGroups (ListProtectionGroups'),
     newListProtectionGroups,
-    ListProtectionGroupsResponse,
+    ListProtectionGroupsResponse (ListProtectionGroupsResponse'),
     newListProtectionGroupsResponse,
 
     -- ** ListProtections (Paginated)
-    ListProtections,
+    ListProtections (ListProtections'),
     newListProtections,
-    ListProtectionsResponse,
+    ListProtectionsResponse (ListProtectionsResponse'),
     newListProtectionsResponse,
 
     -- ** ListResourcesInProtectionGroup
-    ListResourcesInProtectionGroup,
+    ListResourcesInProtectionGroup (ListResourcesInProtectionGroup'),
     newListResourcesInProtectionGroup,
-    ListResourcesInProtectionGroupResponse,
+    ListResourcesInProtectionGroupResponse (ListResourcesInProtectionGroupResponse'),
     newListResourcesInProtectionGroupResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateApplicationLayerAutomaticResponse
-    UpdateApplicationLayerAutomaticResponse,
+    UpdateApplicationLayerAutomaticResponse (UpdateApplicationLayerAutomaticResponse'),
     newUpdateApplicationLayerAutomaticResponse,
-    UpdateApplicationLayerAutomaticResponseResponse,
+    UpdateApplicationLayerAutomaticResponseResponse (UpdateApplicationLayerAutomaticResponseResponse'),
     newUpdateApplicationLayerAutomaticResponseResponse,
 
     -- ** UpdateEmergencyContactSettings
-    UpdateEmergencyContactSettings,
+    UpdateEmergencyContactSettings (UpdateEmergencyContactSettings'),
     newUpdateEmergencyContactSettings,
-    UpdateEmergencyContactSettingsResponse,
+    UpdateEmergencyContactSettingsResponse (UpdateEmergencyContactSettingsResponse'),
     newUpdateEmergencyContactSettingsResponse,
 
     -- ** UpdateProtectionGroup
-    UpdateProtectionGroup,
+    UpdateProtectionGroup (UpdateProtectionGroup'),
     newUpdateProtectionGroup,
-    UpdateProtectionGroupResponse,
+    UpdateProtectionGroupResponse (UpdateProtectionGroupResponse'),
     newUpdateProtectionGroupResponse,
 
     -- ** UpdateSubscription
-    UpdateSubscription,
+    UpdateSubscription (UpdateSubscription'),
     newUpdateSubscription,
-    UpdateSubscriptionResponse,
+    UpdateSubscriptionResponse (UpdateSubscriptionResponse'),
     newUpdateSubscriptionResponse,
 
     -- * Types
@@ -317,123 +317,123 @@ module Amazonka.Shield
     Unit (..),
 
     -- ** ApplicationLayerAutomaticResponseConfiguration
-    ApplicationLayerAutomaticResponseConfiguration,
+    ApplicationLayerAutomaticResponseConfiguration (ApplicationLayerAutomaticResponseConfiguration'),
     newApplicationLayerAutomaticResponseConfiguration,
 
     -- ** AttackDetail
-    AttackDetail,
+    AttackDetail (AttackDetail'),
     newAttackDetail,
 
     -- ** AttackProperty
-    AttackProperty,
+    AttackProperty (AttackProperty'),
     newAttackProperty,
 
     -- ** AttackStatisticsDataItem
-    AttackStatisticsDataItem,
+    AttackStatisticsDataItem (AttackStatisticsDataItem'),
     newAttackStatisticsDataItem,
 
     -- ** AttackSummary
-    AttackSummary,
+    AttackSummary (AttackSummary'),
     newAttackSummary,
 
     -- ** AttackVectorDescription
-    AttackVectorDescription,
+    AttackVectorDescription (AttackVectorDescription'),
     newAttackVectorDescription,
 
     -- ** AttackVolume
-    AttackVolume,
+    AttackVolume (AttackVolume'),
     newAttackVolume,
 
     -- ** AttackVolumeStatistics
-    AttackVolumeStatistics,
+    AttackVolumeStatistics (AttackVolumeStatistics'),
     newAttackVolumeStatistics,
 
     -- ** BlockAction
-    BlockAction,
+    BlockAction (BlockAction'),
     newBlockAction,
 
     -- ** Contributor
-    Contributor,
+    Contributor (Contributor'),
     newContributor,
 
     -- ** CountAction
-    CountAction,
+    CountAction (CountAction'),
     newCountAction,
 
     -- ** EmergencyContact
-    EmergencyContact,
+    EmergencyContact (EmergencyContact'),
     newEmergencyContact,
 
     -- ** InclusionProtectionFilters
-    InclusionProtectionFilters,
+    InclusionProtectionFilters (InclusionProtectionFilters'),
     newInclusionProtectionFilters,
 
     -- ** InclusionProtectionGroupFilters
-    InclusionProtectionGroupFilters,
+    InclusionProtectionGroupFilters (InclusionProtectionGroupFilters'),
     newInclusionProtectionGroupFilters,
 
     -- ** Limit
-    Limit,
+    Limit (Limit'),
     newLimit,
 
     -- ** Mitigation
-    Mitigation,
+    Mitigation (Mitigation'),
     newMitigation,
 
     -- ** Protection
-    Protection,
+    Protection (Protection'),
     newProtection,
 
     -- ** ProtectionGroup
-    ProtectionGroup,
+    ProtectionGroup (ProtectionGroup'),
     newProtectionGroup,
 
     -- ** ProtectionGroupArbitraryPatternLimits
-    ProtectionGroupArbitraryPatternLimits,
+    ProtectionGroupArbitraryPatternLimits (ProtectionGroupArbitraryPatternLimits'),
     newProtectionGroupArbitraryPatternLimits,
 
     -- ** ProtectionGroupLimits
-    ProtectionGroupLimits,
+    ProtectionGroupLimits (ProtectionGroupLimits'),
     newProtectionGroupLimits,
 
     -- ** ProtectionGroupPatternTypeLimits
-    ProtectionGroupPatternTypeLimits,
+    ProtectionGroupPatternTypeLimits (ProtectionGroupPatternTypeLimits'),
     newProtectionGroupPatternTypeLimits,
 
     -- ** ProtectionLimits
-    ProtectionLimits,
+    ProtectionLimits (ProtectionLimits'),
     newProtectionLimits,
 
     -- ** ResponseAction
-    ResponseAction,
+    ResponseAction (ResponseAction'),
     newResponseAction,
 
     -- ** SubResourceSummary
-    SubResourceSummary,
+    SubResourceSummary (SubResourceSummary'),
     newSubResourceSummary,
 
     -- ** Subscription
-    Subscription,
+    Subscription (Subscription'),
     newSubscription,
 
     -- ** SubscriptionLimits
-    SubscriptionLimits,
+    SubscriptionLimits (SubscriptionLimits'),
     newSubscriptionLimits,
 
     -- ** SummarizedAttackVector
-    SummarizedAttackVector,
+    SummarizedAttackVector (SummarizedAttackVector'),
     newSummarizedAttackVector,
 
     -- ** SummarizedCounter
-    SummarizedCounter,
+    SummarizedCounter (SummarizedCounter'),
     newSummarizedCounter,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** TimeRange
-    TimeRange,
+    TimeRange (TimeRange'),
     newTimeRange,
   )
 where

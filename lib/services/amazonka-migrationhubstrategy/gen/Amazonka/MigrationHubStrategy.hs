@@ -55,129 +55,129 @@ module Amazonka.MigrationHubStrategy
     -- $operations
 
     -- ** GetApplicationComponentDetails
-    GetApplicationComponentDetails,
+    GetApplicationComponentDetails (GetApplicationComponentDetails'),
     newGetApplicationComponentDetails,
-    GetApplicationComponentDetailsResponse,
+    GetApplicationComponentDetailsResponse (GetApplicationComponentDetailsResponse'),
     newGetApplicationComponentDetailsResponse,
 
     -- ** GetApplicationComponentStrategies
-    GetApplicationComponentStrategies,
+    GetApplicationComponentStrategies (GetApplicationComponentStrategies'),
     newGetApplicationComponentStrategies,
-    GetApplicationComponentStrategiesResponse,
+    GetApplicationComponentStrategiesResponse (GetApplicationComponentStrategiesResponse'),
     newGetApplicationComponentStrategiesResponse,
 
     -- ** GetAssessment
-    GetAssessment,
+    GetAssessment (GetAssessment'),
     newGetAssessment,
-    GetAssessmentResponse,
+    GetAssessmentResponse (GetAssessmentResponse'),
     newGetAssessmentResponse,
 
     -- ** GetImportFileTask
-    GetImportFileTask,
+    GetImportFileTask (GetImportFileTask'),
     newGetImportFileTask,
-    GetImportFileTaskResponse,
+    GetImportFileTaskResponse (GetImportFileTaskResponse'),
     newGetImportFileTaskResponse,
 
     -- ** GetLatestAssessmentId
-    GetLatestAssessmentId,
+    GetLatestAssessmentId (GetLatestAssessmentId'),
     newGetLatestAssessmentId,
-    GetLatestAssessmentIdResponse,
+    GetLatestAssessmentIdResponse (GetLatestAssessmentIdResponse'),
     newGetLatestAssessmentIdResponse,
 
     -- ** GetPortfolioPreferences
-    GetPortfolioPreferences,
+    GetPortfolioPreferences (GetPortfolioPreferences'),
     newGetPortfolioPreferences,
-    GetPortfolioPreferencesResponse,
+    GetPortfolioPreferencesResponse (GetPortfolioPreferencesResponse'),
     newGetPortfolioPreferencesResponse,
 
     -- ** GetPortfolioSummary
-    GetPortfolioSummary,
+    GetPortfolioSummary (GetPortfolioSummary'),
     newGetPortfolioSummary,
-    GetPortfolioSummaryResponse,
+    GetPortfolioSummaryResponse (GetPortfolioSummaryResponse'),
     newGetPortfolioSummaryResponse,
 
     -- ** GetRecommendationReportDetails
-    GetRecommendationReportDetails,
+    GetRecommendationReportDetails (GetRecommendationReportDetails'),
     newGetRecommendationReportDetails,
-    GetRecommendationReportDetailsResponse,
+    GetRecommendationReportDetailsResponse (GetRecommendationReportDetailsResponse'),
     newGetRecommendationReportDetailsResponse,
 
     -- ** GetServerDetails (Paginated)
-    GetServerDetails,
+    GetServerDetails (GetServerDetails'),
     newGetServerDetails,
-    GetServerDetailsResponse,
+    GetServerDetailsResponse (GetServerDetailsResponse'),
     newGetServerDetailsResponse,
 
     -- ** GetServerStrategies
-    GetServerStrategies,
+    GetServerStrategies (GetServerStrategies'),
     newGetServerStrategies,
-    GetServerStrategiesResponse,
+    GetServerStrategiesResponse (GetServerStrategiesResponse'),
     newGetServerStrategiesResponse,
 
     -- ** ListApplicationComponents (Paginated)
-    ListApplicationComponents,
+    ListApplicationComponents (ListApplicationComponents'),
     newListApplicationComponents,
-    ListApplicationComponentsResponse,
+    ListApplicationComponentsResponse (ListApplicationComponentsResponse'),
     newListApplicationComponentsResponse,
 
     -- ** ListCollectors (Paginated)
-    ListCollectors,
+    ListCollectors (ListCollectors'),
     newListCollectors,
-    ListCollectorsResponse,
+    ListCollectorsResponse (ListCollectorsResponse'),
     newListCollectorsResponse,
 
     -- ** ListImportFileTask (Paginated)
-    ListImportFileTask,
+    ListImportFileTask (ListImportFileTask'),
     newListImportFileTask,
-    ListImportFileTaskResponse,
+    ListImportFileTaskResponse (ListImportFileTaskResponse'),
     newListImportFileTaskResponse,
 
     -- ** ListServers (Paginated)
-    ListServers,
+    ListServers (ListServers'),
     newListServers,
-    ListServersResponse,
+    ListServersResponse (ListServersResponse'),
     newListServersResponse,
 
     -- ** PutPortfolioPreferences
-    PutPortfolioPreferences,
+    PutPortfolioPreferences (PutPortfolioPreferences'),
     newPutPortfolioPreferences,
-    PutPortfolioPreferencesResponse,
+    PutPortfolioPreferencesResponse (PutPortfolioPreferencesResponse'),
     newPutPortfolioPreferencesResponse,
 
     -- ** StartAssessment
-    StartAssessment,
+    StartAssessment (StartAssessment'),
     newStartAssessment,
-    StartAssessmentResponse,
+    StartAssessmentResponse (StartAssessmentResponse'),
     newStartAssessmentResponse,
 
     -- ** StartImportFileTask
-    StartImportFileTask,
+    StartImportFileTask (StartImportFileTask'),
     newStartImportFileTask,
-    StartImportFileTaskResponse,
+    StartImportFileTaskResponse (StartImportFileTaskResponse'),
     newStartImportFileTaskResponse,
 
     -- ** StartRecommendationReportGeneration
-    StartRecommendationReportGeneration,
+    StartRecommendationReportGeneration (StartRecommendationReportGeneration'),
     newStartRecommendationReportGeneration,
-    StartRecommendationReportGenerationResponse,
+    StartRecommendationReportGenerationResponse (StartRecommendationReportGenerationResponse'),
     newStartRecommendationReportGenerationResponse,
 
     -- ** StopAssessment
-    StopAssessment,
+    StopAssessment (StopAssessment'),
     newStopAssessment,
-    StopAssessmentResponse,
+    StopAssessmentResponse (StopAssessmentResponse'),
     newStopAssessmentResponse,
 
     -- ** UpdateApplicationComponentConfig
-    UpdateApplicationComponentConfig,
+    UpdateApplicationComponentConfig (UpdateApplicationComponentConfig'),
     newUpdateApplicationComponentConfig,
-    UpdateApplicationComponentConfigResponse,
+    UpdateApplicationComponentConfigResponse (UpdateApplicationComponentConfigResponse'),
     newUpdateApplicationComponentConfigResponse,
 
     -- ** UpdateServerConfig
-    UpdateServerConfig,
+    UpdateServerConfig (UpdateServerConfig'),
     newUpdateServerConfig,
-    UpdateServerConfigResponse,
+    UpdateServerConfigResponse (UpdateServerConfigResponse'),
     newUpdateServerConfigResponse,
 
     -- * Types
@@ -300,195 +300,195 @@ module Amazonka.MigrationHubStrategy
     VersionControlType (..),
 
     -- ** AntipatternSeveritySummary
-    AntipatternSeveritySummary,
+    AntipatternSeveritySummary (AntipatternSeveritySummary'),
     newAntipatternSeveritySummary,
 
     -- ** AppUnitError
-    AppUnitError,
+    AppUnitError (AppUnitError'),
     newAppUnitError,
 
     -- ** ApplicationComponentDetail
-    ApplicationComponentDetail,
+    ApplicationComponentDetail (ApplicationComponentDetail'),
     newApplicationComponentDetail,
 
     -- ** ApplicationComponentStatusSummary
-    ApplicationComponentStatusSummary,
+    ApplicationComponentStatusSummary (ApplicationComponentStatusSummary'),
     newApplicationComponentStatusSummary,
 
     -- ** ApplicationComponentStrategy
-    ApplicationComponentStrategy,
+    ApplicationComponentStrategy (ApplicationComponentStrategy'),
     newApplicationComponentStrategy,
 
     -- ** ApplicationComponentSummary
-    ApplicationComponentSummary,
+    ApplicationComponentSummary (ApplicationComponentSummary'),
     newApplicationComponentSummary,
 
     -- ** ApplicationPreferences
-    ApplicationPreferences,
+    ApplicationPreferences (ApplicationPreferences'),
     newApplicationPreferences,
 
     -- ** AssessmentSummary
-    AssessmentSummary,
+    AssessmentSummary (AssessmentSummary'),
     newAssessmentSummary,
 
     -- ** AssessmentTarget
-    AssessmentTarget,
+    AssessmentTarget (AssessmentTarget'),
     newAssessmentTarget,
 
     -- ** AssociatedApplication
-    AssociatedApplication,
+    AssociatedApplication (AssociatedApplication'),
     newAssociatedApplication,
 
     -- ** AwsManagedResources
-    AwsManagedResources,
+    AwsManagedResources (AwsManagedResources'),
     newAwsManagedResources,
 
     -- ** BusinessGoals
-    BusinessGoals,
+    BusinessGoals (BusinessGoals'),
     newBusinessGoals,
 
     -- ** Collector
-    Collector,
+    Collector (Collector'),
     newCollector,
 
     -- ** ConfigurationSummary
-    ConfigurationSummary,
+    ConfigurationSummary (ConfigurationSummary'),
     newConfigurationSummary,
 
     -- ** DataCollectionDetails
-    DataCollectionDetails,
+    DataCollectionDetails (DataCollectionDetails'),
     newDataCollectionDetails,
 
     -- ** DatabaseConfigDetail
-    DatabaseConfigDetail,
+    DatabaseConfigDetail (DatabaseConfigDetail'),
     newDatabaseConfigDetail,
 
     -- ** DatabaseMigrationPreference
-    DatabaseMigrationPreference,
+    DatabaseMigrationPreference (DatabaseMigrationPreference'),
     newDatabaseMigrationPreference,
 
     -- ** DatabasePreferences
-    DatabasePreferences,
+    DatabasePreferences (DatabasePreferences'),
     newDatabasePreferences,
 
     -- ** Group
-    Group,
+    Group (Group'),
     newGroup,
 
     -- ** Heterogeneous
-    Heterogeneous,
+    Heterogeneous (Heterogeneous'),
     newHeterogeneous,
 
     -- ** Homogeneous
-    Homogeneous,
+    Homogeneous (Homogeneous'),
     newHomogeneous,
 
     -- ** IPAddressBasedRemoteInfo
-    IPAddressBasedRemoteInfo,
+    IPAddressBasedRemoteInfo (IPAddressBasedRemoteInfo'),
     newIPAddressBasedRemoteInfo,
 
     -- ** ImportFileTaskInformation
-    ImportFileTaskInformation,
+    ImportFileTaskInformation (ImportFileTaskInformation'),
     newImportFileTaskInformation,
 
     -- ** ManagementPreference
-    ManagementPreference,
+    ManagementPreference (ManagementPreference'),
     newManagementPreference,
 
     -- ** NetworkInfo
-    NetworkInfo,
+    NetworkInfo (NetworkInfo'),
     newNetworkInfo,
 
     -- ** NoDatabaseMigrationPreference
-    NoDatabaseMigrationPreference,
+    NoDatabaseMigrationPreference (NoDatabaseMigrationPreference'),
     newNoDatabaseMigrationPreference,
 
     -- ** NoManagementPreference
-    NoManagementPreference,
+    NoManagementPreference (NoManagementPreference'),
     newNoManagementPreference,
 
     -- ** OSInfo
-    OSInfo,
+    OSInfo (OSInfo'),
     newOSInfo,
 
     -- ** PipelineInfo
-    PipelineInfo,
+    PipelineInfo (PipelineInfo'),
     newPipelineInfo,
 
     -- ** PrioritizeBusinessGoals
-    PrioritizeBusinessGoals,
+    PrioritizeBusinessGoals (PrioritizeBusinessGoals'),
     newPrioritizeBusinessGoals,
 
     -- ** RecommendationReportDetails
-    RecommendationReportDetails,
+    RecommendationReportDetails (RecommendationReportDetails'),
     newRecommendationReportDetails,
 
     -- ** RecommendationSet
-    RecommendationSet,
+    RecommendationSet (RecommendationSet'),
     newRecommendationSet,
 
     -- ** RemoteSourceCodeAnalysisServerInfo
-    RemoteSourceCodeAnalysisServerInfo,
+    RemoteSourceCodeAnalysisServerInfo (RemoteSourceCodeAnalysisServerInfo'),
     newRemoteSourceCodeAnalysisServerInfo,
 
     -- ** S3Object
-    S3Object,
+    S3Object (S3Object'),
     newS3Object,
 
     -- ** SelfManageResources
-    SelfManageResources,
+    SelfManageResources (SelfManageResources'),
     newSelfManageResources,
 
     -- ** ServerDetail
-    ServerDetail,
+    ServerDetail (ServerDetail'),
     newServerDetail,
 
     -- ** ServerError
-    ServerError,
+    ServerError (ServerError'),
     newServerError,
 
     -- ** ServerStatusSummary
-    ServerStatusSummary,
+    ServerStatusSummary (ServerStatusSummary'),
     newServerStatusSummary,
 
     -- ** ServerStrategy
-    ServerStrategy,
+    ServerStrategy (ServerStrategy'),
     newServerStrategy,
 
     -- ** ServerSummary
-    ServerSummary,
+    ServerSummary (ServerSummary'),
     newServerSummary,
 
     -- ** SourceCode
-    SourceCode,
+    SourceCode (SourceCode'),
     newSourceCode,
 
     -- ** SourceCodeRepository
-    SourceCodeRepository,
+    SourceCodeRepository (SourceCodeRepository'),
     newSourceCodeRepository,
 
     -- ** StrategyOption
-    StrategyOption,
+    StrategyOption (StrategyOption'),
     newStrategyOption,
 
     -- ** StrategySummary
-    StrategySummary,
+    StrategySummary (StrategySummary'),
     newStrategySummary,
 
     -- ** SystemInfo
-    SystemInfo,
+    SystemInfo (SystemInfo'),
     newSystemInfo,
 
     -- ** TransformationTool
-    TransformationTool,
+    TransformationTool (TransformationTool'),
     newTransformationTool,
 
     -- ** VcenterBasedRemoteInfo
-    VcenterBasedRemoteInfo,
+    VcenterBasedRemoteInfo (VcenterBasedRemoteInfo'),
     newVcenterBasedRemoteInfo,
 
     -- ** VersionControlInfo
-    VersionControlInfo,
+    VersionControlInfo (VersionControlInfo'),
     newVersionControlInfo,
   )
 where

@@ -41,27 +41,27 @@ module Amazonka.S3Outposts
     -- $operations
 
     -- ** CreateEndpoint
-    CreateEndpoint,
+    CreateEndpoint (CreateEndpoint'),
     newCreateEndpoint,
-    CreateEndpointResponse,
+    CreateEndpointResponse (CreateEndpointResponse'),
     newCreateEndpointResponse,
 
     -- ** DeleteEndpoint
-    DeleteEndpoint,
+    DeleteEndpoint (DeleteEndpoint'),
     newDeleteEndpoint,
-    DeleteEndpointResponse,
+    DeleteEndpointResponse (DeleteEndpointResponse'),
     newDeleteEndpointResponse,
 
     -- ** ListEndpoints (Paginated)
-    ListEndpoints,
+    ListEndpoints (ListEndpoints'),
     newListEndpoints,
-    ListEndpointsResponse,
+    ListEndpointsResponse (ListEndpointsResponse'),
     newListEndpointsResponse,
 
     -- ** ListSharedEndpoints (Paginated)
-    ListSharedEndpoints,
+    ListSharedEndpoints (ListSharedEndpoints'),
     newListSharedEndpoints,
-    ListSharedEndpointsResponse,
+    ListSharedEndpointsResponse (ListSharedEndpointsResponse'),
     newListSharedEndpointsResponse,
 
     -- * Types
@@ -73,11 +73,11 @@ module Amazonka.S3Outposts
     EndpointStatus (..),
 
     -- ** Endpoint
-    Endpoint,
+    Endpoint (Endpoint'),
     newEndpoint,
 
     -- ** NetworkInterface
-    NetworkInterface,
+    NetworkInterface (NetworkInterface'),
     newNetworkInterface,
   )
 where

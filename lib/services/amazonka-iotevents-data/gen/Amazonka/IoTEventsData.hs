@@ -48,75 +48,75 @@ module Amazonka.IoTEventsData
     -- $operations
 
     -- ** BatchAcknowledgeAlarm
-    BatchAcknowledgeAlarm,
+    BatchAcknowledgeAlarm (BatchAcknowledgeAlarm'),
     newBatchAcknowledgeAlarm,
-    BatchAcknowledgeAlarmResponse,
+    BatchAcknowledgeAlarmResponse (BatchAcknowledgeAlarmResponse'),
     newBatchAcknowledgeAlarmResponse,
 
     -- ** BatchDeleteDetector
-    BatchDeleteDetector,
+    BatchDeleteDetector (BatchDeleteDetector'),
     newBatchDeleteDetector,
-    BatchDeleteDetectorResponse,
+    BatchDeleteDetectorResponse (BatchDeleteDetectorResponse'),
     newBatchDeleteDetectorResponse,
 
     -- ** BatchDisableAlarm
-    BatchDisableAlarm,
+    BatchDisableAlarm (BatchDisableAlarm'),
     newBatchDisableAlarm,
-    BatchDisableAlarmResponse,
+    BatchDisableAlarmResponse (BatchDisableAlarmResponse'),
     newBatchDisableAlarmResponse,
 
     -- ** BatchEnableAlarm
-    BatchEnableAlarm,
+    BatchEnableAlarm (BatchEnableAlarm'),
     newBatchEnableAlarm,
-    BatchEnableAlarmResponse,
+    BatchEnableAlarmResponse (BatchEnableAlarmResponse'),
     newBatchEnableAlarmResponse,
 
     -- ** BatchPutMessage
-    BatchPutMessage,
+    BatchPutMessage (BatchPutMessage'),
     newBatchPutMessage,
-    BatchPutMessageResponse,
+    BatchPutMessageResponse (BatchPutMessageResponse'),
     newBatchPutMessageResponse,
 
     -- ** BatchResetAlarm
-    BatchResetAlarm,
+    BatchResetAlarm (BatchResetAlarm'),
     newBatchResetAlarm,
-    BatchResetAlarmResponse,
+    BatchResetAlarmResponse (BatchResetAlarmResponse'),
     newBatchResetAlarmResponse,
 
     -- ** BatchSnoozeAlarm
-    BatchSnoozeAlarm,
+    BatchSnoozeAlarm (BatchSnoozeAlarm'),
     newBatchSnoozeAlarm,
-    BatchSnoozeAlarmResponse,
+    BatchSnoozeAlarmResponse (BatchSnoozeAlarmResponse'),
     newBatchSnoozeAlarmResponse,
 
     -- ** BatchUpdateDetector
-    BatchUpdateDetector,
+    BatchUpdateDetector (BatchUpdateDetector'),
     newBatchUpdateDetector,
-    BatchUpdateDetectorResponse,
+    BatchUpdateDetectorResponse (BatchUpdateDetectorResponse'),
     newBatchUpdateDetectorResponse,
 
     -- ** DescribeAlarm
-    DescribeAlarm,
+    DescribeAlarm (DescribeAlarm'),
     newDescribeAlarm,
-    DescribeAlarmResponse,
+    DescribeAlarmResponse (DescribeAlarmResponse'),
     newDescribeAlarmResponse,
 
     -- ** DescribeDetector
-    DescribeDetector,
+    DescribeDetector (DescribeDetector'),
     newDescribeDetector,
-    DescribeDetectorResponse,
+    DescribeDetectorResponse (DescribeDetectorResponse'),
     newDescribeDetectorResponse,
 
     -- ** ListAlarms
-    ListAlarms,
+    ListAlarms (ListAlarms'),
     newListAlarms,
-    ListAlarmsResponse,
+    ListAlarmsResponse (ListAlarmsResponse'),
     newListAlarmsResponse,
 
     -- ** ListDetectors
-    ListDetectors,
+    ListDetectors (ListDetectors'),
     newListDetectors,
-    ListDetectorsResponse,
+    ListDetectorsResponse (ListDetectorsResponse'),
     newListDetectorsResponse,
 
     -- * Types
@@ -140,143 +140,143 @@ module Amazonka.IoTEventsData
     TriggerType (..),
 
     -- ** AcknowledgeActionConfiguration
-    AcknowledgeActionConfiguration,
+    AcknowledgeActionConfiguration (AcknowledgeActionConfiguration'),
     newAcknowledgeActionConfiguration,
 
     -- ** AcknowledgeAlarmActionRequest
-    AcknowledgeAlarmActionRequest,
+    AcknowledgeAlarmActionRequest (AcknowledgeAlarmActionRequest'),
     newAcknowledgeAlarmActionRequest,
 
     -- ** Alarm
-    Alarm,
+    Alarm (Alarm'),
     newAlarm,
 
     -- ** AlarmState
-    AlarmState,
+    AlarmState (AlarmState'),
     newAlarmState,
 
     -- ** AlarmSummary
-    AlarmSummary,
+    AlarmSummary (AlarmSummary'),
     newAlarmSummary,
 
     -- ** BatchAlarmActionErrorEntry
-    BatchAlarmActionErrorEntry,
+    BatchAlarmActionErrorEntry (BatchAlarmActionErrorEntry'),
     newBatchAlarmActionErrorEntry,
 
     -- ** BatchDeleteDetectorErrorEntry
-    BatchDeleteDetectorErrorEntry,
+    BatchDeleteDetectorErrorEntry (BatchDeleteDetectorErrorEntry'),
     newBatchDeleteDetectorErrorEntry,
 
     -- ** BatchPutMessageErrorEntry
-    BatchPutMessageErrorEntry,
+    BatchPutMessageErrorEntry (BatchPutMessageErrorEntry'),
     newBatchPutMessageErrorEntry,
 
     -- ** BatchUpdateDetectorErrorEntry
-    BatchUpdateDetectorErrorEntry,
+    BatchUpdateDetectorErrorEntry (BatchUpdateDetectorErrorEntry'),
     newBatchUpdateDetectorErrorEntry,
 
     -- ** CustomerAction
-    CustomerAction,
+    CustomerAction (CustomerAction'),
     newCustomerAction,
 
     -- ** DeleteDetectorRequest
-    DeleteDetectorRequest,
+    DeleteDetectorRequest (DeleteDetectorRequest'),
     newDeleteDetectorRequest,
 
     -- ** Detector
-    Detector,
+    Detector (Detector'),
     newDetector,
 
     -- ** DetectorState
-    DetectorState,
+    DetectorState (DetectorState'),
     newDetectorState,
 
     -- ** DetectorStateDefinition
-    DetectorStateDefinition,
+    DetectorStateDefinition (DetectorStateDefinition'),
     newDetectorStateDefinition,
 
     -- ** DetectorStateSummary
-    DetectorStateSummary,
+    DetectorStateSummary (DetectorStateSummary'),
     newDetectorStateSummary,
 
     -- ** DetectorSummary
-    DetectorSummary,
+    DetectorSummary (DetectorSummary'),
     newDetectorSummary,
 
     -- ** DisableActionConfiguration
-    DisableActionConfiguration,
+    DisableActionConfiguration (DisableActionConfiguration'),
     newDisableActionConfiguration,
 
     -- ** DisableAlarmActionRequest
-    DisableAlarmActionRequest,
+    DisableAlarmActionRequest (DisableAlarmActionRequest'),
     newDisableAlarmActionRequest,
 
     -- ** EnableActionConfiguration
-    EnableActionConfiguration,
+    EnableActionConfiguration (EnableActionConfiguration'),
     newEnableActionConfiguration,
 
     -- ** EnableAlarmActionRequest
-    EnableAlarmActionRequest,
+    EnableAlarmActionRequest (EnableAlarmActionRequest'),
     newEnableAlarmActionRequest,
 
     -- ** Message
-    Message,
+    Message (Message'),
     newMessage,
 
     -- ** ResetActionConfiguration
-    ResetActionConfiguration,
+    ResetActionConfiguration (ResetActionConfiguration'),
     newResetActionConfiguration,
 
     -- ** ResetAlarmActionRequest
-    ResetAlarmActionRequest,
+    ResetAlarmActionRequest (ResetAlarmActionRequest'),
     newResetAlarmActionRequest,
 
     -- ** RuleEvaluation
-    RuleEvaluation,
+    RuleEvaluation (RuleEvaluation'),
     newRuleEvaluation,
 
     -- ** SimpleRuleEvaluation
-    SimpleRuleEvaluation,
+    SimpleRuleEvaluation (SimpleRuleEvaluation'),
     newSimpleRuleEvaluation,
 
     -- ** SnoozeActionConfiguration
-    SnoozeActionConfiguration,
+    SnoozeActionConfiguration (SnoozeActionConfiguration'),
     newSnoozeActionConfiguration,
 
     -- ** SnoozeAlarmActionRequest
-    SnoozeAlarmActionRequest,
+    SnoozeAlarmActionRequest (SnoozeAlarmActionRequest'),
     newSnoozeAlarmActionRequest,
 
     -- ** StateChangeConfiguration
-    StateChangeConfiguration,
+    StateChangeConfiguration (StateChangeConfiguration'),
     newStateChangeConfiguration,
 
     -- ** SystemEvent
-    SystemEvent,
+    SystemEvent (SystemEvent'),
     newSystemEvent,
 
     -- ** Timer
-    Timer,
+    Timer (Timer'),
     newTimer,
 
     -- ** TimerDefinition
-    TimerDefinition,
+    TimerDefinition (TimerDefinition'),
     newTimerDefinition,
 
     -- ** TimestampValue
-    TimestampValue,
+    TimestampValue (TimestampValue'),
     newTimestampValue,
 
     -- ** UpdateDetectorRequest
-    UpdateDetectorRequest,
+    UpdateDetectorRequest (UpdateDetectorRequest'),
     newUpdateDetectorRequest,
 
     -- ** Variable
-    Variable,
+    Variable (Variable'),
     newVariable,
 
     -- ** VariableDefinition
-    VariableDefinition,
+    VariableDefinition (VariableDefinition'),
     newVariableDefinition,
   )
 where

@@ -86,81 +86,81 @@ module Amazonka.AWSHealth
     -- $operations
 
     -- ** DescribeAffectedAccountsForOrganization (Paginated)
-    DescribeAffectedAccountsForOrganization,
+    DescribeAffectedAccountsForOrganization (DescribeAffectedAccountsForOrganization'),
     newDescribeAffectedAccountsForOrganization,
-    DescribeAffectedAccountsForOrganizationResponse,
+    DescribeAffectedAccountsForOrganizationResponse (DescribeAffectedAccountsForOrganizationResponse'),
     newDescribeAffectedAccountsForOrganizationResponse,
 
     -- ** DescribeAffectedEntities (Paginated)
-    DescribeAffectedEntities,
+    DescribeAffectedEntities (DescribeAffectedEntities'),
     newDescribeAffectedEntities,
-    DescribeAffectedEntitiesResponse,
+    DescribeAffectedEntitiesResponse (DescribeAffectedEntitiesResponse'),
     newDescribeAffectedEntitiesResponse,
 
     -- ** DescribeAffectedEntitiesForOrganization (Paginated)
-    DescribeAffectedEntitiesForOrganization,
+    DescribeAffectedEntitiesForOrganization (DescribeAffectedEntitiesForOrganization'),
     newDescribeAffectedEntitiesForOrganization,
-    DescribeAffectedEntitiesForOrganizationResponse,
+    DescribeAffectedEntitiesForOrganizationResponse (DescribeAffectedEntitiesForOrganizationResponse'),
     newDescribeAffectedEntitiesForOrganizationResponse,
 
     -- ** DescribeEntityAggregates
-    DescribeEntityAggregates,
+    DescribeEntityAggregates (DescribeEntityAggregates'),
     newDescribeEntityAggregates,
-    DescribeEntityAggregatesResponse,
+    DescribeEntityAggregatesResponse (DescribeEntityAggregatesResponse'),
     newDescribeEntityAggregatesResponse,
 
     -- ** DescribeEventAggregates (Paginated)
-    DescribeEventAggregates,
+    DescribeEventAggregates (DescribeEventAggregates'),
     newDescribeEventAggregates,
-    DescribeEventAggregatesResponse,
+    DescribeEventAggregatesResponse (DescribeEventAggregatesResponse'),
     newDescribeEventAggregatesResponse,
 
     -- ** DescribeEventDetails
-    DescribeEventDetails,
+    DescribeEventDetails (DescribeEventDetails'),
     newDescribeEventDetails,
-    DescribeEventDetailsResponse,
+    DescribeEventDetailsResponse (DescribeEventDetailsResponse'),
     newDescribeEventDetailsResponse,
 
     -- ** DescribeEventDetailsForOrganization
-    DescribeEventDetailsForOrganization,
+    DescribeEventDetailsForOrganization (DescribeEventDetailsForOrganization'),
     newDescribeEventDetailsForOrganization,
-    DescribeEventDetailsForOrganizationResponse,
+    DescribeEventDetailsForOrganizationResponse (DescribeEventDetailsForOrganizationResponse'),
     newDescribeEventDetailsForOrganizationResponse,
 
     -- ** DescribeEventTypes (Paginated)
-    DescribeEventTypes,
+    DescribeEventTypes (DescribeEventTypes'),
     newDescribeEventTypes,
-    DescribeEventTypesResponse,
+    DescribeEventTypesResponse (DescribeEventTypesResponse'),
     newDescribeEventTypesResponse,
 
     -- ** DescribeEvents (Paginated)
-    DescribeEvents,
+    DescribeEvents (DescribeEvents'),
     newDescribeEvents,
-    DescribeEventsResponse,
+    DescribeEventsResponse (DescribeEventsResponse'),
     newDescribeEventsResponse,
 
     -- ** DescribeEventsForOrganization (Paginated)
-    DescribeEventsForOrganization,
+    DescribeEventsForOrganization (DescribeEventsForOrganization'),
     newDescribeEventsForOrganization,
-    DescribeEventsForOrganizationResponse,
+    DescribeEventsForOrganizationResponse (DescribeEventsForOrganizationResponse'),
     newDescribeEventsForOrganizationResponse,
 
     -- ** DescribeHealthServiceStatusForOrganization
-    DescribeHealthServiceStatusForOrganization,
+    DescribeHealthServiceStatusForOrganization (DescribeHealthServiceStatusForOrganization'),
     newDescribeHealthServiceStatusForOrganization,
-    DescribeHealthServiceStatusForOrganizationResponse,
+    DescribeHealthServiceStatusForOrganizationResponse (DescribeHealthServiceStatusForOrganizationResponse'),
     newDescribeHealthServiceStatusForOrganizationResponse,
 
     -- ** DisableHealthServiceAccessForOrganization
-    DisableHealthServiceAccessForOrganization,
+    DisableHealthServiceAccessForOrganization (DisableHealthServiceAccessForOrganization'),
     newDisableHealthServiceAccessForOrganization,
-    DisableHealthServiceAccessForOrganizationResponse,
+    DisableHealthServiceAccessForOrganizationResponse (DisableHealthServiceAccessForOrganizationResponse'),
     newDisableHealthServiceAccessForOrganizationResponse,
 
     -- ** EnableHealthServiceAccessForOrganization
-    EnableHealthServiceAccessForOrganization,
+    EnableHealthServiceAccessForOrganization (EnableHealthServiceAccessForOrganization'),
     newEnableHealthServiceAccessForOrganization,
-    EnableHealthServiceAccessForOrganizationResponse,
+    EnableHealthServiceAccessForOrganizationResponse (EnableHealthServiceAccessForOrganizationResponse'),
     newEnableHealthServiceAccessForOrganizationResponse,
 
     -- * Types
@@ -181,75 +181,75 @@ module Amazonka.AWSHealth
     EventTypeCategory (..),
 
     -- ** AffectedEntity
-    AffectedEntity,
+    AffectedEntity (AffectedEntity'),
     newAffectedEntity,
 
     -- ** DateTimeRange
-    DateTimeRange,
+    DateTimeRange (DateTimeRange'),
     newDateTimeRange,
 
     -- ** EntityAggregate
-    EntityAggregate,
+    EntityAggregate (EntityAggregate'),
     newEntityAggregate,
 
     -- ** EntityFilter
-    EntityFilter,
+    EntityFilter (EntityFilter'),
     newEntityFilter,
 
     -- ** Event
-    Event,
+    Event (Event'),
     newEvent,
 
     -- ** EventAccountFilter
-    EventAccountFilter,
+    EventAccountFilter (EventAccountFilter'),
     newEventAccountFilter,
 
     -- ** EventAggregate
-    EventAggregate,
+    EventAggregate (EventAggregate'),
     newEventAggregate,
 
     -- ** EventDescription
-    EventDescription,
+    EventDescription (EventDescription'),
     newEventDescription,
 
     -- ** EventDetails
-    EventDetails,
+    EventDetails (EventDetails'),
     newEventDetails,
 
     -- ** EventDetailsErrorItem
-    EventDetailsErrorItem,
+    EventDetailsErrorItem (EventDetailsErrorItem'),
     newEventDetailsErrorItem,
 
     -- ** EventFilter
-    EventFilter,
+    EventFilter (EventFilter'),
     newEventFilter,
 
     -- ** EventType
-    EventType,
+    EventType (EventType'),
     newEventType,
 
     -- ** EventTypeFilter
-    EventTypeFilter,
+    EventTypeFilter (EventTypeFilter'),
     newEventTypeFilter,
 
     -- ** OrganizationAffectedEntitiesErrorItem
-    OrganizationAffectedEntitiesErrorItem,
+    OrganizationAffectedEntitiesErrorItem (OrganizationAffectedEntitiesErrorItem'),
     newOrganizationAffectedEntitiesErrorItem,
 
     -- ** OrganizationEvent
-    OrganizationEvent,
+    OrganizationEvent (OrganizationEvent'),
     newOrganizationEvent,
 
     -- ** OrganizationEventDetails
-    OrganizationEventDetails,
+    OrganizationEventDetails (OrganizationEventDetails'),
     newOrganizationEventDetails,
 
     -- ** OrganizationEventDetailsErrorItem
-    OrganizationEventDetailsErrorItem,
+    OrganizationEventDetailsErrorItem (OrganizationEventDetailsErrorItem'),
     newOrganizationEventDetailsErrorItem,
 
     -- ** OrganizationEventFilter
-    OrganizationEventFilter,
+    OrganizationEventFilter (OrganizationEventFilter'),
     newOrganizationEventFilter,
   )
 where

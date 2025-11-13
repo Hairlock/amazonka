@@ -69,429 +69,429 @@ module Amazonka.LexV2Models
     -- $operations
 
     -- ** BatchCreateCustomVocabularyItem
-    BatchCreateCustomVocabularyItem,
+    BatchCreateCustomVocabularyItem (BatchCreateCustomVocabularyItem'),
     newBatchCreateCustomVocabularyItem,
-    BatchCreateCustomVocabularyItemResponse,
+    BatchCreateCustomVocabularyItemResponse (BatchCreateCustomVocabularyItemResponse'),
     newBatchCreateCustomVocabularyItemResponse,
 
     -- ** BatchDeleteCustomVocabularyItem
-    BatchDeleteCustomVocabularyItem,
+    BatchDeleteCustomVocabularyItem (BatchDeleteCustomVocabularyItem'),
     newBatchDeleteCustomVocabularyItem,
-    BatchDeleteCustomVocabularyItemResponse,
+    BatchDeleteCustomVocabularyItemResponse (BatchDeleteCustomVocabularyItemResponse'),
     newBatchDeleteCustomVocabularyItemResponse,
 
     -- ** BatchUpdateCustomVocabularyItem
-    BatchUpdateCustomVocabularyItem,
+    BatchUpdateCustomVocabularyItem (BatchUpdateCustomVocabularyItem'),
     newBatchUpdateCustomVocabularyItem,
-    BatchUpdateCustomVocabularyItemResponse,
+    BatchUpdateCustomVocabularyItemResponse (BatchUpdateCustomVocabularyItemResponse'),
     newBatchUpdateCustomVocabularyItemResponse,
 
     -- ** BuildBotLocale
-    BuildBotLocale,
+    BuildBotLocale (BuildBotLocale'),
     newBuildBotLocale,
-    BuildBotLocaleResponse,
+    BuildBotLocaleResponse (BuildBotLocaleResponse'),
     newBuildBotLocaleResponse,
 
     -- ** CreateBot
-    CreateBot,
+    CreateBot (CreateBot'),
     newCreateBot,
-    CreateBotResponse,
+    CreateBotResponse (CreateBotResponse'),
     newCreateBotResponse,
 
     -- ** CreateBotAlias
-    CreateBotAlias,
+    CreateBotAlias (CreateBotAlias'),
     newCreateBotAlias,
-    CreateBotAliasResponse,
+    CreateBotAliasResponse (CreateBotAliasResponse'),
     newCreateBotAliasResponse,
 
     -- ** CreateBotLocale
-    CreateBotLocale,
+    CreateBotLocale (CreateBotLocale'),
     newCreateBotLocale,
-    CreateBotLocaleResponse,
+    CreateBotLocaleResponse (CreateBotLocaleResponse'),
     newCreateBotLocaleResponse,
 
     -- ** CreateBotVersion
-    CreateBotVersion,
+    CreateBotVersion (CreateBotVersion'),
     newCreateBotVersion,
-    CreateBotVersionResponse,
+    CreateBotVersionResponse (CreateBotVersionResponse'),
     newCreateBotVersionResponse,
 
     -- ** CreateExport
-    CreateExport,
+    CreateExport (CreateExport'),
     newCreateExport,
-    CreateExportResponse,
+    CreateExportResponse (CreateExportResponse'),
     newCreateExportResponse,
 
     -- ** CreateIntent
-    CreateIntent,
+    CreateIntent (CreateIntent'),
     newCreateIntent,
-    CreateIntentResponse,
+    CreateIntentResponse (CreateIntentResponse'),
     newCreateIntentResponse,
 
     -- ** CreateResourcePolicy
-    CreateResourcePolicy,
+    CreateResourcePolicy (CreateResourcePolicy'),
     newCreateResourcePolicy,
-    CreateResourcePolicyResponse,
+    CreateResourcePolicyResponse (CreateResourcePolicyResponse'),
     newCreateResourcePolicyResponse,
 
     -- ** CreateResourcePolicyStatement
-    CreateResourcePolicyStatement,
+    CreateResourcePolicyStatement (CreateResourcePolicyStatement'),
     newCreateResourcePolicyStatement,
-    CreateResourcePolicyStatementResponse,
+    CreateResourcePolicyStatementResponse (CreateResourcePolicyStatementResponse'),
     newCreateResourcePolicyStatementResponse,
 
     -- ** CreateSlot
-    CreateSlot,
+    CreateSlot (CreateSlot'),
     newCreateSlot,
-    CreateSlotResponse,
+    CreateSlotResponse (CreateSlotResponse'),
     newCreateSlotResponse,
 
     -- ** CreateSlotType
-    CreateSlotType,
+    CreateSlotType (CreateSlotType'),
     newCreateSlotType,
-    CreateSlotTypeResponse,
+    CreateSlotTypeResponse (CreateSlotTypeResponse'),
     newCreateSlotTypeResponse,
 
     -- ** CreateUploadUrl
-    CreateUploadUrl,
+    CreateUploadUrl (CreateUploadUrl'),
     newCreateUploadUrl,
-    CreateUploadUrlResponse,
+    CreateUploadUrlResponse (CreateUploadUrlResponse'),
     newCreateUploadUrlResponse,
 
     -- ** DeleteBot
-    DeleteBot,
+    DeleteBot (DeleteBot'),
     newDeleteBot,
-    DeleteBotResponse,
+    DeleteBotResponse (DeleteBotResponse'),
     newDeleteBotResponse,
 
     -- ** DeleteBotAlias
-    DeleteBotAlias,
+    DeleteBotAlias (DeleteBotAlias'),
     newDeleteBotAlias,
-    DeleteBotAliasResponse,
+    DeleteBotAliasResponse (DeleteBotAliasResponse'),
     newDeleteBotAliasResponse,
 
     -- ** DeleteBotLocale
-    DeleteBotLocale,
+    DeleteBotLocale (DeleteBotLocale'),
     newDeleteBotLocale,
-    DeleteBotLocaleResponse,
+    DeleteBotLocaleResponse (DeleteBotLocaleResponse'),
     newDeleteBotLocaleResponse,
 
     -- ** DeleteBotVersion
-    DeleteBotVersion,
+    DeleteBotVersion (DeleteBotVersion'),
     newDeleteBotVersion,
-    DeleteBotVersionResponse,
+    DeleteBotVersionResponse (DeleteBotVersionResponse'),
     newDeleteBotVersionResponse,
 
     -- ** DeleteCustomVocabulary
-    DeleteCustomVocabulary,
+    DeleteCustomVocabulary (DeleteCustomVocabulary'),
     newDeleteCustomVocabulary,
-    DeleteCustomVocabularyResponse,
+    DeleteCustomVocabularyResponse (DeleteCustomVocabularyResponse'),
     newDeleteCustomVocabularyResponse,
 
     -- ** DeleteExport
-    DeleteExport,
+    DeleteExport (DeleteExport'),
     newDeleteExport,
-    DeleteExportResponse,
+    DeleteExportResponse (DeleteExportResponse'),
     newDeleteExportResponse,
 
     -- ** DeleteImport
-    DeleteImport,
+    DeleteImport (DeleteImport'),
     newDeleteImport,
-    DeleteImportResponse,
+    DeleteImportResponse (DeleteImportResponse'),
     newDeleteImportResponse,
 
     -- ** DeleteIntent
-    DeleteIntent,
+    DeleteIntent (DeleteIntent'),
     newDeleteIntent,
-    DeleteIntentResponse,
+    DeleteIntentResponse (DeleteIntentResponse'),
     newDeleteIntentResponse,
 
     -- ** DeleteResourcePolicy
-    DeleteResourcePolicy,
+    DeleteResourcePolicy (DeleteResourcePolicy'),
     newDeleteResourcePolicy,
-    DeleteResourcePolicyResponse,
+    DeleteResourcePolicyResponse (DeleteResourcePolicyResponse'),
     newDeleteResourcePolicyResponse,
 
     -- ** DeleteResourcePolicyStatement
-    DeleteResourcePolicyStatement,
+    DeleteResourcePolicyStatement (DeleteResourcePolicyStatement'),
     newDeleteResourcePolicyStatement,
-    DeleteResourcePolicyStatementResponse,
+    DeleteResourcePolicyStatementResponse (DeleteResourcePolicyStatementResponse'),
     newDeleteResourcePolicyStatementResponse,
 
     -- ** DeleteSlot
-    DeleteSlot,
+    DeleteSlot (DeleteSlot'),
     newDeleteSlot,
-    DeleteSlotResponse,
+    DeleteSlotResponse (DeleteSlotResponse'),
     newDeleteSlotResponse,
 
     -- ** DeleteSlotType
-    DeleteSlotType,
+    DeleteSlotType (DeleteSlotType'),
     newDeleteSlotType,
-    DeleteSlotTypeResponse,
+    DeleteSlotTypeResponse (DeleteSlotTypeResponse'),
     newDeleteSlotTypeResponse,
 
     -- ** DeleteUtterances
-    DeleteUtterances,
+    DeleteUtterances (DeleteUtterances'),
     newDeleteUtterances,
-    DeleteUtterancesResponse,
+    DeleteUtterancesResponse (DeleteUtterancesResponse'),
     newDeleteUtterancesResponse,
 
     -- ** DescribeBot
-    DescribeBot,
+    DescribeBot (DescribeBot'),
     newDescribeBot,
-    DescribeBotResponse,
+    DescribeBotResponse (DescribeBotResponse'),
     newDescribeBotResponse,
 
     -- ** DescribeBotAlias
-    DescribeBotAlias,
+    DescribeBotAlias (DescribeBotAlias'),
     newDescribeBotAlias,
-    DescribeBotAliasResponse,
+    DescribeBotAliasResponse (DescribeBotAliasResponse'),
     newDescribeBotAliasResponse,
 
     -- ** DescribeBotLocale
-    DescribeBotLocale,
+    DescribeBotLocale (DescribeBotLocale'),
     newDescribeBotLocale,
-    DescribeBotLocaleResponse,
+    DescribeBotLocaleResponse (DescribeBotLocaleResponse'),
     newDescribeBotLocaleResponse,
 
     -- ** DescribeBotRecommendation
-    DescribeBotRecommendation,
+    DescribeBotRecommendation (DescribeBotRecommendation'),
     newDescribeBotRecommendation,
-    DescribeBotRecommendationResponse,
+    DescribeBotRecommendationResponse (DescribeBotRecommendationResponse'),
     newDescribeBotRecommendationResponse,
 
     -- ** DescribeBotVersion
-    DescribeBotVersion,
+    DescribeBotVersion (DescribeBotVersion'),
     newDescribeBotVersion,
-    DescribeBotVersionResponse,
+    DescribeBotVersionResponse (DescribeBotVersionResponse'),
     newDescribeBotVersionResponse,
 
     -- ** DescribeCustomVocabularyMetadata
-    DescribeCustomVocabularyMetadata,
+    DescribeCustomVocabularyMetadata (DescribeCustomVocabularyMetadata'),
     newDescribeCustomVocabularyMetadata,
-    DescribeCustomVocabularyMetadataResponse,
+    DescribeCustomVocabularyMetadataResponse (DescribeCustomVocabularyMetadataResponse'),
     newDescribeCustomVocabularyMetadataResponse,
 
     -- ** DescribeExport
-    DescribeExport,
+    DescribeExport (DescribeExport'),
     newDescribeExport,
-    DescribeExportResponse,
+    DescribeExportResponse (DescribeExportResponse'),
     newDescribeExportResponse,
 
     -- ** DescribeImport
-    DescribeImport,
+    DescribeImport (DescribeImport'),
     newDescribeImport,
-    DescribeImportResponse,
+    DescribeImportResponse (DescribeImportResponse'),
     newDescribeImportResponse,
 
     -- ** DescribeIntent
-    DescribeIntent,
+    DescribeIntent (DescribeIntent'),
     newDescribeIntent,
-    DescribeIntentResponse,
+    DescribeIntentResponse (DescribeIntentResponse'),
     newDescribeIntentResponse,
 
     -- ** DescribeResourcePolicy
-    DescribeResourcePolicy,
+    DescribeResourcePolicy (DescribeResourcePolicy'),
     newDescribeResourcePolicy,
-    DescribeResourcePolicyResponse,
+    DescribeResourcePolicyResponse (DescribeResourcePolicyResponse'),
     newDescribeResourcePolicyResponse,
 
     -- ** DescribeSlot
-    DescribeSlot,
+    DescribeSlot (DescribeSlot'),
     newDescribeSlot,
-    DescribeSlotResponse,
+    DescribeSlotResponse (DescribeSlotResponse'),
     newDescribeSlotResponse,
 
     -- ** DescribeSlotType
-    DescribeSlotType,
+    DescribeSlotType (DescribeSlotType'),
     newDescribeSlotType,
-    DescribeSlotTypeResponse,
+    DescribeSlotTypeResponse (DescribeSlotTypeResponse'),
     newDescribeSlotTypeResponse,
 
     -- ** ListAggregatedUtterances
-    ListAggregatedUtterances,
+    ListAggregatedUtterances (ListAggregatedUtterances'),
     newListAggregatedUtterances,
-    ListAggregatedUtterancesResponse,
+    ListAggregatedUtterancesResponse (ListAggregatedUtterancesResponse'),
     newListAggregatedUtterancesResponse,
 
     -- ** ListBotAliases
-    ListBotAliases,
+    ListBotAliases (ListBotAliases'),
     newListBotAliases,
-    ListBotAliasesResponse,
+    ListBotAliasesResponse (ListBotAliasesResponse'),
     newListBotAliasesResponse,
 
     -- ** ListBotLocales
-    ListBotLocales,
+    ListBotLocales (ListBotLocales'),
     newListBotLocales,
-    ListBotLocalesResponse,
+    ListBotLocalesResponse (ListBotLocalesResponse'),
     newListBotLocalesResponse,
 
     -- ** ListBotRecommendations
-    ListBotRecommendations,
+    ListBotRecommendations (ListBotRecommendations'),
     newListBotRecommendations,
-    ListBotRecommendationsResponse,
+    ListBotRecommendationsResponse (ListBotRecommendationsResponse'),
     newListBotRecommendationsResponse,
 
     -- ** ListBotVersions
-    ListBotVersions,
+    ListBotVersions (ListBotVersions'),
     newListBotVersions,
-    ListBotVersionsResponse,
+    ListBotVersionsResponse (ListBotVersionsResponse'),
     newListBotVersionsResponse,
 
     -- ** ListBots
-    ListBots,
+    ListBots (ListBots'),
     newListBots,
-    ListBotsResponse,
+    ListBotsResponse (ListBotsResponse'),
     newListBotsResponse,
 
     -- ** ListBuiltInIntents
-    ListBuiltInIntents,
+    ListBuiltInIntents (ListBuiltInIntents'),
     newListBuiltInIntents,
-    ListBuiltInIntentsResponse,
+    ListBuiltInIntentsResponse (ListBuiltInIntentsResponse'),
     newListBuiltInIntentsResponse,
 
     -- ** ListBuiltInSlotTypes
-    ListBuiltInSlotTypes,
+    ListBuiltInSlotTypes (ListBuiltInSlotTypes'),
     newListBuiltInSlotTypes,
-    ListBuiltInSlotTypesResponse,
+    ListBuiltInSlotTypesResponse (ListBuiltInSlotTypesResponse'),
     newListBuiltInSlotTypesResponse,
 
     -- ** ListCustomVocabularyItems
-    ListCustomVocabularyItems,
+    ListCustomVocabularyItems (ListCustomVocabularyItems'),
     newListCustomVocabularyItems,
-    ListCustomVocabularyItemsResponse,
+    ListCustomVocabularyItemsResponse (ListCustomVocabularyItemsResponse'),
     newListCustomVocabularyItemsResponse,
 
     -- ** ListExports
-    ListExports,
+    ListExports (ListExports'),
     newListExports,
-    ListExportsResponse,
+    ListExportsResponse (ListExportsResponse'),
     newListExportsResponse,
 
     -- ** ListImports
-    ListImports,
+    ListImports (ListImports'),
     newListImports,
-    ListImportsResponse,
+    ListImportsResponse (ListImportsResponse'),
     newListImportsResponse,
 
     -- ** ListIntents
-    ListIntents,
+    ListIntents (ListIntents'),
     newListIntents,
-    ListIntentsResponse,
+    ListIntentsResponse (ListIntentsResponse'),
     newListIntentsResponse,
 
     -- ** ListRecommendedIntents
-    ListRecommendedIntents,
+    ListRecommendedIntents (ListRecommendedIntents'),
     newListRecommendedIntents,
-    ListRecommendedIntentsResponse,
+    ListRecommendedIntentsResponse (ListRecommendedIntentsResponse'),
     newListRecommendedIntentsResponse,
 
     -- ** ListSlotTypes
-    ListSlotTypes,
+    ListSlotTypes (ListSlotTypes'),
     newListSlotTypes,
-    ListSlotTypesResponse,
+    ListSlotTypesResponse (ListSlotTypesResponse'),
     newListSlotTypesResponse,
 
     -- ** ListSlots
-    ListSlots,
+    ListSlots (ListSlots'),
     newListSlots,
-    ListSlotsResponse,
+    ListSlotsResponse (ListSlotsResponse'),
     newListSlotsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** SearchAssociatedTranscripts
-    SearchAssociatedTranscripts,
+    SearchAssociatedTranscripts (SearchAssociatedTranscripts'),
     newSearchAssociatedTranscripts,
-    SearchAssociatedTranscriptsResponse,
+    SearchAssociatedTranscriptsResponse (SearchAssociatedTranscriptsResponse'),
     newSearchAssociatedTranscriptsResponse,
 
     -- ** StartBotRecommendation
-    StartBotRecommendation,
+    StartBotRecommendation (StartBotRecommendation'),
     newStartBotRecommendation,
-    StartBotRecommendationResponse,
+    StartBotRecommendationResponse (StartBotRecommendationResponse'),
     newStartBotRecommendationResponse,
 
     -- ** StartImport
-    StartImport,
+    StartImport (StartImport'),
     newStartImport,
-    StartImportResponse,
+    StartImportResponse (StartImportResponse'),
     newStartImportResponse,
 
     -- ** StopBotRecommendation
-    StopBotRecommendation,
+    StopBotRecommendation (StopBotRecommendation'),
     newStopBotRecommendation,
-    StopBotRecommendationResponse,
+    StopBotRecommendationResponse (StopBotRecommendationResponse'),
     newStopBotRecommendationResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateBot
-    UpdateBot,
+    UpdateBot (UpdateBot'),
     newUpdateBot,
-    UpdateBotResponse,
+    UpdateBotResponse (UpdateBotResponse'),
     newUpdateBotResponse,
 
     -- ** UpdateBotAlias
-    UpdateBotAlias,
+    UpdateBotAlias (UpdateBotAlias'),
     newUpdateBotAlias,
-    UpdateBotAliasResponse,
+    UpdateBotAliasResponse (UpdateBotAliasResponse'),
     newUpdateBotAliasResponse,
 
     -- ** UpdateBotLocale
-    UpdateBotLocale,
+    UpdateBotLocale (UpdateBotLocale'),
     newUpdateBotLocale,
-    UpdateBotLocaleResponse,
+    UpdateBotLocaleResponse (UpdateBotLocaleResponse'),
     newUpdateBotLocaleResponse,
 
     -- ** UpdateBotRecommendation
-    UpdateBotRecommendation,
+    UpdateBotRecommendation (UpdateBotRecommendation'),
     newUpdateBotRecommendation,
-    UpdateBotRecommendationResponse,
+    UpdateBotRecommendationResponse (UpdateBotRecommendationResponse'),
     newUpdateBotRecommendationResponse,
 
     -- ** UpdateExport
-    UpdateExport,
+    UpdateExport (UpdateExport'),
     newUpdateExport,
-    UpdateExportResponse,
+    UpdateExportResponse (UpdateExportResponse'),
     newUpdateExportResponse,
 
     -- ** UpdateIntent
-    UpdateIntent,
+    UpdateIntent (UpdateIntent'),
     newUpdateIntent,
-    UpdateIntentResponse,
+    UpdateIntentResponse (UpdateIntentResponse'),
     newUpdateIntentResponse,
 
     -- ** UpdateResourcePolicy
-    UpdateResourcePolicy,
+    UpdateResourcePolicy (UpdateResourcePolicy'),
     newUpdateResourcePolicy,
-    UpdateResourcePolicyResponse,
+    UpdateResourcePolicyResponse (UpdateResourcePolicyResponse'),
     newUpdateResourcePolicyResponse,
 
     -- ** UpdateSlot
-    UpdateSlot,
+    UpdateSlot (UpdateSlot'),
     newUpdateSlot,
-    UpdateSlotResponse,
+    UpdateSlotResponse (UpdateSlotResponse'),
     newUpdateSlotResponse,
 
     -- ** UpdateSlotType
-    UpdateSlotType,
+    UpdateSlotType (UpdateSlotType'),
     newUpdateSlotType,
-    UpdateSlotTypeResponse,
+    UpdateSlotTypeResponse (UpdateSlotTypeResponse'),
     newUpdateSlotTypeResponse,
 
     -- * Types
@@ -659,559 +659,559 @@ module Amazonka.LexV2Models
     VoiceEngine (..),
 
     -- ** AdvancedRecognitionSetting
-    AdvancedRecognitionSetting,
+    AdvancedRecognitionSetting (AdvancedRecognitionSetting'),
     newAdvancedRecognitionSetting,
 
     -- ** AggregatedUtterancesFilter
-    AggregatedUtterancesFilter,
+    AggregatedUtterancesFilter (AggregatedUtterancesFilter'),
     newAggregatedUtterancesFilter,
 
     -- ** AggregatedUtterancesSortBy
-    AggregatedUtterancesSortBy,
+    AggregatedUtterancesSortBy (AggregatedUtterancesSortBy'),
     newAggregatedUtterancesSortBy,
 
     -- ** AggregatedUtterancesSummary
-    AggregatedUtterancesSummary,
+    AggregatedUtterancesSummary (AggregatedUtterancesSummary'),
     newAggregatedUtterancesSummary,
 
     -- ** AllowedInputTypes
-    AllowedInputTypes,
+    AllowedInputTypes (AllowedInputTypes'),
     newAllowedInputTypes,
 
     -- ** AssociatedTranscript
-    AssociatedTranscript,
+    AssociatedTranscript (AssociatedTranscript'),
     newAssociatedTranscript,
 
     -- ** AssociatedTranscriptFilter
-    AssociatedTranscriptFilter,
+    AssociatedTranscriptFilter (AssociatedTranscriptFilter'),
     newAssociatedTranscriptFilter,
 
     -- ** AudioAndDTMFInputSpecification
-    AudioAndDTMFInputSpecification,
+    AudioAndDTMFInputSpecification (AudioAndDTMFInputSpecification'),
     newAudioAndDTMFInputSpecification,
 
     -- ** AudioLogDestination
-    AudioLogDestination,
+    AudioLogDestination (AudioLogDestination'),
     newAudioLogDestination,
 
     -- ** AudioLogSetting
-    AudioLogSetting,
+    AudioLogSetting (AudioLogSetting'),
     newAudioLogSetting,
 
     -- ** AudioSpecification
-    AudioSpecification,
+    AudioSpecification (AudioSpecification'),
     newAudioSpecification,
 
     -- ** BotAliasHistoryEvent
-    BotAliasHistoryEvent,
+    BotAliasHistoryEvent (BotAliasHistoryEvent'),
     newBotAliasHistoryEvent,
 
     -- ** BotAliasLocaleSettings
-    BotAliasLocaleSettings,
+    BotAliasLocaleSettings (BotAliasLocaleSettings'),
     newBotAliasLocaleSettings,
 
     -- ** BotAliasSummary
-    BotAliasSummary,
+    BotAliasSummary (BotAliasSummary'),
     newBotAliasSummary,
 
     -- ** BotExportSpecification
-    BotExportSpecification,
+    BotExportSpecification (BotExportSpecification'),
     newBotExportSpecification,
 
     -- ** BotFilter
-    BotFilter,
+    BotFilter (BotFilter'),
     newBotFilter,
 
     -- ** BotImportSpecification
-    BotImportSpecification,
+    BotImportSpecification (BotImportSpecification'),
     newBotImportSpecification,
 
     -- ** BotLocaleExportSpecification
-    BotLocaleExportSpecification,
+    BotLocaleExportSpecification (BotLocaleExportSpecification'),
     newBotLocaleExportSpecification,
 
     -- ** BotLocaleFilter
-    BotLocaleFilter,
+    BotLocaleFilter (BotLocaleFilter'),
     newBotLocaleFilter,
 
     -- ** BotLocaleHistoryEvent
-    BotLocaleHistoryEvent,
+    BotLocaleHistoryEvent (BotLocaleHistoryEvent'),
     newBotLocaleHistoryEvent,
 
     -- ** BotLocaleImportSpecification
-    BotLocaleImportSpecification,
+    BotLocaleImportSpecification (BotLocaleImportSpecification'),
     newBotLocaleImportSpecification,
 
     -- ** BotLocaleSortBy
-    BotLocaleSortBy,
+    BotLocaleSortBy (BotLocaleSortBy'),
     newBotLocaleSortBy,
 
     -- ** BotLocaleSummary
-    BotLocaleSummary,
+    BotLocaleSummary (BotLocaleSummary'),
     newBotLocaleSummary,
 
     -- ** BotRecommendationResultStatistics
-    BotRecommendationResultStatistics,
+    BotRecommendationResultStatistics (BotRecommendationResultStatistics'),
     newBotRecommendationResultStatistics,
 
     -- ** BotRecommendationResults
-    BotRecommendationResults,
+    BotRecommendationResults (BotRecommendationResults'),
     newBotRecommendationResults,
 
     -- ** BotRecommendationSummary
-    BotRecommendationSummary,
+    BotRecommendationSummary (BotRecommendationSummary'),
     newBotRecommendationSummary,
 
     -- ** BotSortBy
-    BotSortBy,
+    BotSortBy (BotSortBy'),
     newBotSortBy,
 
     -- ** BotSummary
-    BotSummary,
+    BotSummary (BotSummary'),
     newBotSummary,
 
     -- ** BotVersionLocaleDetails
-    BotVersionLocaleDetails,
+    BotVersionLocaleDetails (BotVersionLocaleDetails'),
     newBotVersionLocaleDetails,
 
     -- ** BotVersionSortBy
-    BotVersionSortBy,
+    BotVersionSortBy (BotVersionSortBy'),
     newBotVersionSortBy,
 
     -- ** BotVersionSummary
-    BotVersionSummary,
+    BotVersionSummary (BotVersionSummary'),
     newBotVersionSummary,
 
     -- ** BuiltInIntentSortBy
-    BuiltInIntentSortBy,
+    BuiltInIntentSortBy (BuiltInIntentSortBy'),
     newBuiltInIntentSortBy,
 
     -- ** BuiltInIntentSummary
-    BuiltInIntentSummary,
+    BuiltInIntentSummary (BuiltInIntentSummary'),
     newBuiltInIntentSummary,
 
     -- ** BuiltInSlotTypeSortBy
-    BuiltInSlotTypeSortBy,
+    BuiltInSlotTypeSortBy (BuiltInSlotTypeSortBy'),
     newBuiltInSlotTypeSortBy,
 
     -- ** BuiltInSlotTypeSummary
-    BuiltInSlotTypeSummary,
+    BuiltInSlotTypeSummary (BuiltInSlotTypeSummary'),
     newBuiltInSlotTypeSummary,
 
     -- ** Button
-    Button,
+    Button (Button'),
     newButton,
 
     -- ** CloudWatchLogGroupLogDestination
-    CloudWatchLogGroupLogDestination,
+    CloudWatchLogGroupLogDestination (CloudWatchLogGroupLogDestination'),
     newCloudWatchLogGroupLogDestination,
 
     -- ** CodeHookSpecification
-    CodeHookSpecification,
+    CodeHookSpecification (CodeHookSpecification'),
     newCodeHookSpecification,
 
     -- ** CompositeSlotTypeSetting
-    CompositeSlotTypeSetting,
+    CompositeSlotTypeSetting (CompositeSlotTypeSetting'),
     newCompositeSlotTypeSetting,
 
     -- ** Condition
-    Condition,
+    Condition (Condition'),
     newCondition,
 
     -- ** ConditionalBranch
-    ConditionalBranch,
+    ConditionalBranch (ConditionalBranch'),
     newConditionalBranch,
 
     -- ** ConditionalSpecification
-    ConditionalSpecification,
+    ConditionalSpecification (ConditionalSpecification'),
     newConditionalSpecification,
 
     -- ** ConversationLogSettings
-    ConversationLogSettings,
+    ConversationLogSettings (ConversationLogSettings'),
     newConversationLogSettings,
 
     -- ** CustomPayload
-    CustomPayload,
+    CustomPayload (CustomPayload'),
     newCustomPayload,
 
     -- ** CustomVocabularyEntryId
-    CustomVocabularyEntryId,
+    CustomVocabularyEntryId (CustomVocabularyEntryId'),
     newCustomVocabularyEntryId,
 
     -- ** CustomVocabularyExportSpecification
-    CustomVocabularyExportSpecification,
+    CustomVocabularyExportSpecification (CustomVocabularyExportSpecification'),
     newCustomVocabularyExportSpecification,
 
     -- ** CustomVocabularyImportSpecification
-    CustomVocabularyImportSpecification,
+    CustomVocabularyImportSpecification (CustomVocabularyImportSpecification'),
     newCustomVocabularyImportSpecification,
 
     -- ** CustomVocabularyItem
-    CustomVocabularyItem,
+    CustomVocabularyItem (CustomVocabularyItem'),
     newCustomVocabularyItem,
 
     -- ** DTMFSpecification
-    DTMFSpecification,
+    DTMFSpecification (DTMFSpecification'),
     newDTMFSpecification,
 
     -- ** DataPrivacy
-    DataPrivacy,
+    DataPrivacy (DataPrivacy'),
     newDataPrivacy,
 
     -- ** DateRangeFilter
-    DateRangeFilter,
+    DateRangeFilter (DateRangeFilter'),
     newDateRangeFilter,
 
     -- ** DefaultConditionalBranch
-    DefaultConditionalBranch,
+    DefaultConditionalBranch (DefaultConditionalBranch'),
     newDefaultConditionalBranch,
 
     -- ** DialogAction
-    DialogAction,
+    DialogAction (DialogAction'),
     newDialogAction,
 
     -- ** DialogCodeHookInvocationSetting
-    DialogCodeHookInvocationSetting,
+    DialogCodeHookInvocationSetting (DialogCodeHookInvocationSetting'),
     newDialogCodeHookInvocationSetting,
 
     -- ** DialogCodeHookSettings
-    DialogCodeHookSettings,
+    DialogCodeHookSettings (DialogCodeHookSettings'),
     newDialogCodeHookSettings,
 
     -- ** DialogState
-    DialogState,
+    DialogState (DialogState'),
     newDialogState,
 
     -- ** ElicitationCodeHookInvocationSetting
-    ElicitationCodeHookInvocationSetting,
+    ElicitationCodeHookInvocationSetting (ElicitationCodeHookInvocationSetting'),
     newElicitationCodeHookInvocationSetting,
 
     -- ** EncryptionSetting
-    EncryptionSetting,
+    EncryptionSetting (EncryptionSetting'),
     newEncryptionSetting,
 
     -- ** ExportFilter
-    ExportFilter,
+    ExportFilter (ExportFilter'),
     newExportFilter,
 
     -- ** ExportResourceSpecification
-    ExportResourceSpecification,
+    ExportResourceSpecification (ExportResourceSpecification'),
     newExportResourceSpecification,
 
     -- ** ExportSortBy
-    ExportSortBy,
+    ExportSortBy (ExportSortBy'),
     newExportSortBy,
 
     -- ** ExportSummary
-    ExportSummary,
+    ExportSummary (ExportSummary'),
     newExportSummary,
 
     -- ** ExternalSourceSetting
-    ExternalSourceSetting,
+    ExternalSourceSetting (ExternalSourceSetting'),
     newExternalSourceSetting,
 
     -- ** FailedCustomVocabularyItem
-    FailedCustomVocabularyItem,
+    FailedCustomVocabularyItem (FailedCustomVocabularyItem'),
     newFailedCustomVocabularyItem,
 
     -- ** FulfillmentCodeHookSettings
-    FulfillmentCodeHookSettings,
+    FulfillmentCodeHookSettings (FulfillmentCodeHookSettings'),
     newFulfillmentCodeHookSettings,
 
     -- ** FulfillmentStartResponseSpecification
-    FulfillmentStartResponseSpecification,
+    FulfillmentStartResponseSpecification (FulfillmentStartResponseSpecification'),
     newFulfillmentStartResponseSpecification,
 
     -- ** FulfillmentUpdateResponseSpecification
-    FulfillmentUpdateResponseSpecification,
+    FulfillmentUpdateResponseSpecification (FulfillmentUpdateResponseSpecification'),
     newFulfillmentUpdateResponseSpecification,
 
     -- ** FulfillmentUpdatesSpecification
-    FulfillmentUpdatesSpecification,
+    FulfillmentUpdatesSpecification (FulfillmentUpdatesSpecification'),
     newFulfillmentUpdatesSpecification,
 
     -- ** GrammarSlotTypeSetting
-    GrammarSlotTypeSetting,
+    GrammarSlotTypeSetting (GrammarSlotTypeSetting'),
     newGrammarSlotTypeSetting,
 
     -- ** GrammarSlotTypeSource
-    GrammarSlotTypeSource,
+    GrammarSlotTypeSource (GrammarSlotTypeSource'),
     newGrammarSlotTypeSource,
 
     -- ** ImageResponseCard
-    ImageResponseCard,
+    ImageResponseCard (ImageResponseCard'),
     newImageResponseCard,
 
     -- ** ImportFilter
-    ImportFilter,
+    ImportFilter (ImportFilter'),
     newImportFilter,
 
     -- ** ImportResourceSpecification
-    ImportResourceSpecification,
+    ImportResourceSpecification (ImportResourceSpecification'),
     newImportResourceSpecification,
 
     -- ** ImportSortBy
-    ImportSortBy,
+    ImportSortBy (ImportSortBy'),
     newImportSortBy,
 
     -- ** ImportSummary
-    ImportSummary,
+    ImportSummary (ImportSummary'),
     newImportSummary,
 
     -- ** InitialResponseSetting
-    InitialResponseSetting,
+    InitialResponseSetting (InitialResponseSetting'),
     newInitialResponseSetting,
 
     -- ** InputContext
-    InputContext,
+    InputContext (InputContext'),
     newInputContext,
 
     -- ** IntentClosingSetting
-    IntentClosingSetting,
+    IntentClosingSetting (IntentClosingSetting'),
     newIntentClosingSetting,
 
     -- ** IntentConfirmationSetting
-    IntentConfirmationSetting,
+    IntentConfirmationSetting (IntentConfirmationSetting'),
     newIntentConfirmationSetting,
 
     -- ** IntentFilter
-    IntentFilter,
+    IntentFilter (IntentFilter'),
     newIntentFilter,
 
     -- ** IntentOverride
-    IntentOverride,
+    IntentOverride (IntentOverride'),
     newIntentOverride,
 
     -- ** IntentSortBy
-    IntentSortBy,
+    IntentSortBy (IntentSortBy'),
     newIntentSortBy,
 
     -- ** IntentStatistics
-    IntentStatistics,
+    IntentStatistics (IntentStatistics'),
     newIntentStatistics,
 
     -- ** IntentSummary
-    IntentSummary,
+    IntentSummary (IntentSummary'),
     newIntentSummary,
 
     -- ** KendraConfiguration
-    KendraConfiguration,
+    KendraConfiguration (KendraConfiguration'),
     newKendraConfiguration,
 
     -- ** LambdaCodeHook
-    LambdaCodeHook,
+    LambdaCodeHook (LambdaCodeHook'),
     newLambdaCodeHook,
 
     -- ** LexTranscriptFilter
-    LexTranscriptFilter,
+    LexTranscriptFilter (LexTranscriptFilter'),
     newLexTranscriptFilter,
 
     -- ** Message
-    Message,
+    Message (Message'),
     newMessage,
 
     -- ** MessageGroup
-    MessageGroup,
+    MessageGroup (MessageGroup'),
     newMessageGroup,
 
     -- ** MultipleValuesSetting
-    MultipleValuesSetting,
+    MultipleValuesSetting (MultipleValuesSetting'),
     newMultipleValuesSetting,
 
     -- ** NewCustomVocabularyItem
-    NewCustomVocabularyItem,
+    NewCustomVocabularyItem (NewCustomVocabularyItem'),
     newNewCustomVocabularyItem,
 
     -- ** ObfuscationSetting
-    ObfuscationSetting,
+    ObfuscationSetting (ObfuscationSetting'),
     newObfuscationSetting,
 
     -- ** OutputContext
-    OutputContext,
+    OutputContext (OutputContext'),
     newOutputContext,
 
     -- ** PathFormat
-    PathFormat,
+    PathFormat (PathFormat'),
     newPathFormat,
 
     -- ** PlainTextMessage
-    PlainTextMessage,
+    PlainTextMessage (PlainTextMessage'),
     newPlainTextMessage,
 
     -- ** PostDialogCodeHookInvocationSpecification
-    PostDialogCodeHookInvocationSpecification,
+    PostDialogCodeHookInvocationSpecification (PostDialogCodeHookInvocationSpecification'),
     newPostDialogCodeHookInvocationSpecification,
 
     -- ** PostFulfillmentStatusSpecification
-    PostFulfillmentStatusSpecification,
+    PostFulfillmentStatusSpecification (PostFulfillmentStatusSpecification'),
     newPostFulfillmentStatusSpecification,
 
     -- ** Principal
-    Principal,
+    Principal (Principal'),
     newPrincipal,
 
     -- ** PromptAttemptSpecification
-    PromptAttemptSpecification,
+    PromptAttemptSpecification (PromptAttemptSpecification'),
     newPromptAttemptSpecification,
 
     -- ** PromptSpecification
-    PromptSpecification,
+    PromptSpecification (PromptSpecification'),
     newPromptSpecification,
 
     -- ** RecommendedIntentSummary
-    RecommendedIntentSummary,
+    RecommendedIntentSummary (RecommendedIntentSummary'),
     newRecommendedIntentSummary,
 
     -- ** RelativeAggregationDuration
-    RelativeAggregationDuration,
+    RelativeAggregationDuration (RelativeAggregationDuration'),
     newRelativeAggregationDuration,
 
     -- ** ResponseSpecification
-    ResponseSpecification,
+    ResponseSpecification (ResponseSpecification'),
     newResponseSpecification,
 
     -- ** S3BucketLogDestination
-    S3BucketLogDestination,
+    S3BucketLogDestination (S3BucketLogDestination'),
     newS3BucketLogDestination,
 
     -- ** S3BucketTranscriptSource
-    S3BucketTranscriptSource,
+    S3BucketTranscriptSource (S3BucketTranscriptSource'),
     newS3BucketTranscriptSource,
 
     -- ** SSMLMessage
-    SSMLMessage,
+    SSMLMessage (SSMLMessage'),
     newSSMLMessage,
 
     -- ** SampleUtterance
-    SampleUtterance,
+    SampleUtterance (SampleUtterance'),
     newSampleUtterance,
 
     -- ** SampleValue
-    SampleValue,
+    SampleValue (SampleValue'),
     newSampleValue,
 
     -- ** SentimentAnalysisSettings
-    SentimentAnalysisSettings,
+    SentimentAnalysisSettings (SentimentAnalysisSettings'),
     newSentimentAnalysisSettings,
 
     -- ** SlotCaptureSetting
-    SlotCaptureSetting,
+    SlotCaptureSetting (SlotCaptureSetting'),
     newSlotCaptureSetting,
 
     -- ** SlotDefaultValue
-    SlotDefaultValue,
+    SlotDefaultValue (SlotDefaultValue'),
     newSlotDefaultValue,
 
     -- ** SlotDefaultValueSpecification
-    SlotDefaultValueSpecification,
+    SlotDefaultValueSpecification (SlotDefaultValueSpecification'),
     newSlotDefaultValueSpecification,
 
     -- ** SlotFilter
-    SlotFilter,
+    SlotFilter (SlotFilter'),
     newSlotFilter,
 
     -- ** SlotPriority
-    SlotPriority,
+    SlotPriority (SlotPriority'),
     newSlotPriority,
 
     -- ** SlotSortBy
-    SlotSortBy,
+    SlotSortBy (SlotSortBy'),
     newSlotSortBy,
 
     -- ** SlotSummary
-    SlotSummary,
+    SlotSummary (SlotSummary'),
     newSlotSummary,
 
     -- ** SlotTypeFilter
-    SlotTypeFilter,
+    SlotTypeFilter (SlotTypeFilter'),
     newSlotTypeFilter,
 
     -- ** SlotTypeSortBy
-    SlotTypeSortBy,
+    SlotTypeSortBy (SlotTypeSortBy'),
     newSlotTypeSortBy,
 
     -- ** SlotTypeStatistics
-    SlotTypeStatistics,
+    SlotTypeStatistics (SlotTypeStatistics'),
     newSlotTypeStatistics,
 
     -- ** SlotTypeSummary
-    SlotTypeSummary,
+    SlotTypeSummary (SlotTypeSummary'),
     newSlotTypeSummary,
 
     -- ** SlotTypeValue
-    SlotTypeValue,
+    SlotTypeValue (SlotTypeValue'),
     newSlotTypeValue,
 
     -- ** SlotValue
-    SlotValue,
+    SlotValue (SlotValue'),
     newSlotValue,
 
     -- ** SlotValueElicitationSetting
-    SlotValueElicitationSetting,
+    SlotValueElicitationSetting (SlotValueElicitationSetting'),
     newSlotValueElicitationSetting,
 
     -- ** SlotValueOverride
-    SlotValueOverride,
+    SlotValueOverride (SlotValueOverride'),
     newSlotValueOverride,
 
     -- ** SlotValueRegexFilter
-    SlotValueRegexFilter,
+    SlotValueRegexFilter (SlotValueRegexFilter'),
     newSlotValueRegexFilter,
 
     -- ** SlotValueSelectionSetting
-    SlotValueSelectionSetting,
+    SlotValueSelectionSetting (SlotValueSelectionSetting'),
     newSlotValueSelectionSetting,
 
     -- ** Specifications
-    Specifications,
+    Specifications (Specifications'),
     newSpecifications,
 
     -- ** StillWaitingResponseSpecification
-    StillWaitingResponseSpecification,
+    StillWaitingResponseSpecification (StillWaitingResponseSpecification'),
     newStillWaitingResponseSpecification,
 
     -- ** SubSlotSetting
-    SubSlotSetting,
+    SubSlotSetting (SubSlotSetting'),
     newSubSlotSetting,
 
     -- ** SubSlotTypeComposition
-    SubSlotTypeComposition,
+    SubSlotTypeComposition (SubSlotTypeComposition'),
     newSubSlotTypeComposition,
 
     -- ** SubSlotValueElicitationSetting
-    SubSlotValueElicitationSetting,
+    SubSlotValueElicitationSetting (SubSlotValueElicitationSetting'),
     newSubSlotValueElicitationSetting,
 
     -- ** TextInputSpecification
-    TextInputSpecification,
+    TextInputSpecification (TextInputSpecification'),
     newTextInputSpecification,
 
     -- ** TextLogDestination
-    TextLogDestination,
+    TextLogDestination (TextLogDestination'),
     newTextLogDestination,
 
     -- ** TextLogSetting
-    TextLogSetting,
+    TextLogSetting (TextLogSetting'),
     newTextLogSetting,
 
     -- ** TranscriptFilter
-    TranscriptFilter,
+    TranscriptFilter (TranscriptFilter'),
     newTranscriptFilter,
 
     -- ** TranscriptSourceSetting
-    TranscriptSourceSetting,
+    TranscriptSourceSetting (TranscriptSourceSetting'),
     newTranscriptSourceSetting,
 
     -- ** UtteranceAggregationDuration
-    UtteranceAggregationDuration,
+    UtteranceAggregationDuration (UtteranceAggregationDuration'),
     newUtteranceAggregationDuration,
 
     -- ** VoiceSettings
-    VoiceSettings,
+    VoiceSettings (VoiceSettings'),
     newVoiceSettings,
 
     -- ** WaitAndContinueSpecification
-    WaitAndContinueSpecification,
+    WaitAndContinueSpecification (WaitAndContinueSpecification'),
     newWaitAndContinueSpecification,
   )
 where

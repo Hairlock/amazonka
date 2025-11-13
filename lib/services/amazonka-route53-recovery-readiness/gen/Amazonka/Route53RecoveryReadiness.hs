@@ -44,195 +44,195 @@ module Amazonka.Route53RecoveryReadiness
     -- $operations
 
     -- ** CreateCell
-    CreateCell,
+    CreateCell (CreateCell'),
     newCreateCell,
-    CreateCellResponse,
+    CreateCellResponse (CreateCellResponse'),
     newCreateCellResponse,
 
     -- ** CreateCrossAccountAuthorization
-    CreateCrossAccountAuthorization,
+    CreateCrossAccountAuthorization (CreateCrossAccountAuthorization'),
     newCreateCrossAccountAuthorization,
-    CreateCrossAccountAuthorizationResponse,
+    CreateCrossAccountAuthorizationResponse (CreateCrossAccountAuthorizationResponse'),
     newCreateCrossAccountAuthorizationResponse,
 
     -- ** CreateReadinessCheck
-    CreateReadinessCheck,
+    CreateReadinessCheck (CreateReadinessCheck'),
     newCreateReadinessCheck,
-    CreateReadinessCheckResponse,
+    CreateReadinessCheckResponse (CreateReadinessCheckResponse'),
     newCreateReadinessCheckResponse,
 
     -- ** CreateRecoveryGroup
-    CreateRecoveryGroup,
+    CreateRecoveryGroup (CreateRecoveryGroup'),
     newCreateRecoveryGroup,
-    CreateRecoveryGroupResponse,
+    CreateRecoveryGroupResponse (CreateRecoveryGroupResponse'),
     newCreateRecoveryGroupResponse,
 
     -- ** CreateResourceSet
-    CreateResourceSet,
+    CreateResourceSet (CreateResourceSet'),
     newCreateResourceSet,
-    CreateResourceSetResponse,
+    CreateResourceSetResponse (CreateResourceSetResponse'),
     newCreateResourceSetResponse,
 
     -- ** DeleteCell
-    DeleteCell,
+    DeleteCell (DeleteCell'),
     newDeleteCell,
-    DeleteCellResponse,
+    DeleteCellResponse (DeleteCellResponse'),
     newDeleteCellResponse,
 
     -- ** DeleteCrossAccountAuthorization
-    DeleteCrossAccountAuthorization,
+    DeleteCrossAccountAuthorization (DeleteCrossAccountAuthorization'),
     newDeleteCrossAccountAuthorization,
-    DeleteCrossAccountAuthorizationResponse,
+    DeleteCrossAccountAuthorizationResponse (DeleteCrossAccountAuthorizationResponse'),
     newDeleteCrossAccountAuthorizationResponse,
 
     -- ** DeleteReadinessCheck
-    DeleteReadinessCheck,
+    DeleteReadinessCheck (DeleteReadinessCheck'),
     newDeleteReadinessCheck,
-    DeleteReadinessCheckResponse,
+    DeleteReadinessCheckResponse (DeleteReadinessCheckResponse'),
     newDeleteReadinessCheckResponse,
 
     -- ** DeleteRecoveryGroup
-    DeleteRecoveryGroup,
+    DeleteRecoveryGroup (DeleteRecoveryGroup'),
     newDeleteRecoveryGroup,
-    DeleteRecoveryGroupResponse,
+    DeleteRecoveryGroupResponse (DeleteRecoveryGroupResponse'),
     newDeleteRecoveryGroupResponse,
 
     -- ** DeleteResourceSet
-    DeleteResourceSet,
+    DeleteResourceSet (DeleteResourceSet'),
     newDeleteResourceSet,
-    DeleteResourceSetResponse,
+    DeleteResourceSetResponse (DeleteResourceSetResponse'),
     newDeleteResourceSetResponse,
 
     -- ** GetArchitectureRecommendations
-    GetArchitectureRecommendations,
+    GetArchitectureRecommendations (GetArchitectureRecommendations'),
     newGetArchitectureRecommendations,
-    GetArchitectureRecommendationsResponse,
+    GetArchitectureRecommendationsResponse (GetArchitectureRecommendationsResponse'),
     newGetArchitectureRecommendationsResponse,
 
     -- ** GetCell
-    GetCell,
+    GetCell (GetCell'),
     newGetCell,
-    GetCellResponse,
+    GetCellResponse (GetCellResponse'),
     newGetCellResponse,
 
     -- ** GetCellReadinessSummary (Paginated)
-    GetCellReadinessSummary,
+    GetCellReadinessSummary (GetCellReadinessSummary'),
     newGetCellReadinessSummary,
-    GetCellReadinessSummaryResponse,
+    GetCellReadinessSummaryResponse (GetCellReadinessSummaryResponse'),
     newGetCellReadinessSummaryResponse,
 
     -- ** GetReadinessCheck
-    GetReadinessCheck,
+    GetReadinessCheck (GetReadinessCheck'),
     newGetReadinessCheck,
-    GetReadinessCheckResponse,
+    GetReadinessCheckResponse (GetReadinessCheckResponse'),
     newGetReadinessCheckResponse,
 
     -- ** GetReadinessCheckResourceStatus (Paginated)
-    GetReadinessCheckResourceStatus,
+    GetReadinessCheckResourceStatus (GetReadinessCheckResourceStatus'),
     newGetReadinessCheckResourceStatus,
-    GetReadinessCheckResourceStatusResponse,
+    GetReadinessCheckResourceStatusResponse (GetReadinessCheckResourceStatusResponse'),
     newGetReadinessCheckResourceStatusResponse,
 
     -- ** GetReadinessCheckStatus (Paginated)
-    GetReadinessCheckStatus,
+    GetReadinessCheckStatus (GetReadinessCheckStatus'),
     newGetReadinessCheckStatus,
-    GetReadinessCheckStatusResponse,
+    GetReadinessCheckStatusResponse (GetReadinessCheckStatusResponse'),
     newGetReadinessCheckStatusResponse,
 
     -- ** GetRecoveryGroup
-    GetRecoveryGroup,
+    GetRecoveryGroup (GetRecoveryGroup'),
     newGetRecoveryGroup,
-    GetRecoveryGroupResponse,
+    GetRecoveryGroupResponse (GetRecoveryGroupResponse'),
     newGetRecoveryGroupResponse,
 
     -- ** GetRecoveryGroupReadinessSummary (Paginated)
-    GetRecoveryGroupReadinessSummary,
+    GetRecoveryGroupReadinessSummary (GetRecoveryGroupReadinessSummary'),
     newGetRecoveryGroupReadinessSummary,
-    GetRecoveryGroupReadinessSummaryResponse,
+    GetRecoveryGroupReadinessSummaryResponse (GetRecoveryGroupReadinessSummaryResponse'),
     newGetRecoveryGroupReadinessSummaryResponse,
 
     -- ** GetResourceSet
-    GetResourceSet,
+    GetResourceSet (GetResourceSet'),
     newGetResourceSet,
-    GetResourceSetResponse,
+    GetResourceSetResponse (GetResourceSetResponse'),
     newGetResourceSetResponse,
 
     -- ** ListCells (Paginated)
-    ListCells,
+    ListCells (ListCells'),
     newListCells,
-    ListCellsResponse,
+    ListCellsResponse (ListCellsResponse'),
     newListCellsResponse,
 
     -- ** ListCrossAccountAuthorizations (Paginated)
-    ListCrossAccountAuthorizations,
+    ListCrossAccountAuthorizations (ListCrossAccountAuthorizations'),
     newListCrossAccountAuthorizations,
-    ListCrossAccountAuthorizationsResponse,
+    ListCrossAccountAuthorizationsResponse (ListCrossAccountAuthorizationsResponse'),
     newListCrossAccountAuthorizationsResponse,
 
     -- ** ListReadinessChecks (Paginated)
-    ListReadinessChecks,
+    ListReadinessChecks (ListReadinessChecks'),
     newListReadinessChecks,
-    ListReadinessChecksResponse,
+    ListReadinessChecksResponse (ListReadinessChecksResponse'),
     newListReadinessChecksResponse,
 
     -- ** ListRecoveryGroups (Paginated)
-    ListRecoveryGroups,
+    ListRecoveryGroups (ListRecoveryGroups'),
     newListRecoveryGroups,
-    ListRecoveryGroupsResponse,
+    ListRecoveryGroupsResponse (ListRecoveryGroupsResponse'),
     newListRecoveryGroupsResponse,
 
     -- ** ListResourceSets (Paginated)
-    ListResourceSets,
+    ListResourceSets (ListResourceSets'),
     newListResourceSets,
-    ListResourceSetsResponse,
+    ListResourceSetsResponse (ListResourceSetsResponse'),
     newListResourceSetsResponse,
 
     -- ** ListRules (Paginated)
-    ListRules,
+    ListRules (ListRules'),
     newListRules,
-    ListRulesResponse,
+    ListRulesResponse (ListRulesResponse'),
     newListRulesResponse,
 
     -- ** ListTagsForResources
-    ListTagsForResources,
+    ListTagsForResources (ListTagsForResources'),
     newListTagsForResources,
-    ListTagsForResourcesResponse,
+    ListTagsForResourcesResponse (ListTagsForResourcesResponse'),
     newListTagsForResourcesResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateCell
-    UpdateCell,
+    UpdateCell (UpdateCell'),
     newUpdateCell,
-    UpdateCellResponse,
+    UpdateCellResponse (UpdateCellResponse'),
     newUpdateCellResponse,
 
     -- ** UpdateReadinessCheck
-    UpdateReadinessCheck,
+    UpdateReadinessCheck (UpdateReadinessCheck'),
     newUpdateReadinessCheck,
-    UpdateReadinessCheckResponse,
+    UpdateReadinessCheckResponse (UpdateReadinessCheckResponse'),
     newUpdateReadinessCheckResponse,
 
     -- ** UpdateRecoveryGroup
-    UpdateRecoveryGroup,
+    UpdateRecoveryGroup (UpdateRecoveryGroup'),
     newUpdateRecoveryGroup,
-    UpdateRecoveryGroupResponse,
+    UpdateRecoveryGroupResponse (UpdateRecoveryGroupResponse'),
     newUpdateRecoveryGroupResponse,
 
     -- ** UpdateResourceSet
-    UpdateResourceSet,
+    UpdateResourceSet (UpdateResourceSet'),
     newUpdateResourceSet,
-    UpdateResourceSetResponse,
+    UpdateResourceSetResponse (UpdateResourceSetResponse'),
     newUpdateResourceSetResponse,
 
     -- * Types
@@ -241,63 +241,63 @@ module Amazonka.Route53RecoveryReadiness
     Readiness (..),
 
     -- ** CellOutput
-    CellOutput,
+    CellOutput (CellOutput'),
     newCellOutput,
 
     -- ** DNSTargetResource
-    DNSTargetResource,
+    DNSTargetResource (DNSTargetResource'),
     newDNSTargetResource,
 
     -- ** ListRulesOutput
-    ListRulesOutput,
+    ListRulesOutput (ListRulesOutput'),
     newListRulesOutput,
 
     -- ** Message
-    Message,
+    Message (Message'),
     newMessage,
 
     -- ** NLBResource
-    NLBResource,
+    NLBResource (NLBResource'),
     newNLBResource,
 
     -- ** R53ResourceRecord
-    R53ResourceRecord,
+    R53ResourceRecord (R53ResourceRecord'),
     newR53ResourceRecord,
 
     -- ** ReadinessCheckOutput
-    ReadinessCheckOutput,
+    ReadinessCheckOutput (ReadinessCheckOutput'),
     newReadinessCheckOutput,
 
     -- ** ReadinessCheckSummary
-    ReadinessCheckSummary,
+    ReadinessCheckSummary (ReadinessCheckSummary'),
     newReadinessCheckSummary,
 
     -- ** Recommendation
-    Recommendation,
+    Recommendation (Recommendation'),
     newRecommendation,
 
     -- ** RecoveryGroupOutput
-    RecoveryGroupOutput,
+    RecoveryGroupOutput (RecoveryGroupOutput'),
     newRecoveryGroupOutput,
 
     -- ** Resource
-    Resource,
+    Resource (Resource'),
     newResource,
 
     -- ** ResourceResult
-    ResourceResult,
+    ResourceResult (ResourceResult'),
     newResourceResult,
 
     -- ** ResourceSetOutput
-    ResourceSetOutput,
+    ResourceSetOutput (ResourceSetOutput'),
     newResourceSetOutput,
 
     -- ** RuleResult
-    RuleResult,
+    RuleResult (RuleResult'),
     newRuleResult,
 
     -- ** TargetResource
-    TargetResource,
+    TargetResource (TargetResource'),
     newTargetResource,
   )
 where

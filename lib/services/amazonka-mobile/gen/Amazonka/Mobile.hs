@@ -53,57 +53,57 @@ module Amazonka.Mobile
     -- $operations
 
     -- ** CreateProject
-    CreateProject,
+    CreateProject (CreateProject'),
     newCreateProject,
-    CreateProjectResponse,
+    CreateProjectResponse (CreateProjectResponse'),
     newCreateProjectResponse,
 
     -- ** DeleteProject
-    DeleteProject,
+    DeleteProject (DeleteProject'),
     newDeleteProject,
-    DeleteProjectResponse,
+    DeleteProjectResponse (DeleteProjectResponse'),
     newDeleteProjectResponse,
 
     -- ** DescribeBundle
-    DescribeBundle,
+    DescribeBundle (DescribeBundle'),
     newDescribeBundle,
-    DescribeBundleResponse,
+    DescribeBundleResponse (DescribeBundleResponse'),
     newDescribeBundleResponse,
 
     -- ** DescribeProject
-    DescribeProject,
+    DescribeProject (DescribeProject'),
     newDescribeProject,
-    DescribeProjectResponse,
+    DescribeProjectResponse (DescribeProjectResponse'),
     newDescribeProjectResponse,
 
     -- ** ExportBundle
-    ExportBundle,
+    ExportBundle (ExportBundle'),
     newExportBundle,
-    ExportBundleResponse,
+    ExportBundleResponse (ExportBundleResponse'),
     newExportBundleResponse,
 
     -- ** ExportProject
-    ExportProject,
+    ExportProject (ExportProject'),
     newExportProject,
-    ExportProjectResponse,
+    ExportProjectResponse (ExportProjectResponse'),
     newExportProjectResponse,
 
     -- ** ListBundles (Paginated)
-    ListBundles,
+    ListBundles (ListBundles'),
     newListBundles,
-    ListBundlesResponse,
+    ListBundlesResponse (ListBundlesResponse'),
     newListBundlesResponse,
 
     -- ** ListProjects (Paginated)
-    ListProjects,
+    ListProjects (ListProjects'),
     newListProjects,
-    ListProjectsResponse,
+    ListProjectsResponse (ListProjectsResponse'),
     newListProjectsResponse,
 
     -- ** UpdateProject
-    UpdateProject,
+    UpdateProject (UpdateProject'),
     newUpdateProject,
-    UpdateProjectResponse,
+    UpdateProjectResponse (UpdateProjectResponse'),
     newUpdateProjectResponse,
 
     -- * Types
@@ -115,19 +115,19 @@ module Amazonka.Mobile
     ProjectState (..),
 
     -- ** BundleDetails
-    BundleDetails,
+    BundleDetails (BundleDetails'),
     newBundleDetails,
 
     -- ** ProjectDetails
-    ProjectDetails,
+    ProjectDetails (ProjectDetails'),
     newProjectDetails,
 
     -- ** ProjectSummary
-    ProjectSummary,
+    ProjectSummary (ProjectSummary'),
     newProjectSummary,
 
     -- ** Resource
-    Resource,
+    Resource (Resource'),
     newResource,
   )
 where

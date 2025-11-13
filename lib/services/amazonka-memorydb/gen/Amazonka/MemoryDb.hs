@@ -191,231 +191,231 @@ module Amazonka.MemoryDb
     -- $operations
 
     -- ** BatchUpdateCluster
-    BatchUpdateCluster,
+    BatchUpdateCluster (BatchUpdateCluster'),
     newBatchUpdateCluster,
-    BatchUpdateClusterResponse,
+    BatchUpdateClusterResponse (BatchUpdateClusterResponse'),
     newBatchUpdateClusterResponse,
 
     -- ** CopySnapshot
-    CopySnapshot,
+    CopySnapshot (CopySnapshot'),
     newCopySnapshot,
-    CopySnapshotResponse,
+    CopySnapshotResponse (CopySnapshotResponse'),
     newCopySnapshotResponse,
 
     -- ** CreateACL
-    CreateACL,
+    CreateACL (CreateACL'),
     newCreateACL,
-    CreateACLResponse,
+    CreateACLResponse (CreateACLResponse'),
     newCreateACLResponse,
 
     -- ** CreateCluster
-    CreateCluster,
+    CreateCluster (CreateCluster'),
     newCreateCluster,
-    CreateClusterResponse,
+    CreateClusterResponse (CreateClusterResponse'),
     newCreateClusterResponse,
 
     -- ** CreateParameterGroup
-    CreateParameterGroup,
+    CreateParameterGroup (CreateParameterGroup'),
     newCreateParameterGroup,
-    CreateParameterGroupResponse,
+    CreateParameterGroupResponse (CreateParameterGroupResponse'),
     newCreateParameterGroupResponse,
 
     -- ** CreateSnapshot
-    CreateSnapshot,
+    CreateSnapshot (CreateSnapshot'),
     newCreateSnapshot,
-    CreateSnapshotResponse,
+    CreateSnapshotResponse (CreateSnapshotResponse'),
     newCreateSnapshotResponse,
 
     -- ** CreateSubnetGroup
-    CreateSubnetGroup,
+    CreateSubnetGroup (CreateSubnetGroup'),
     newCreateSubnetGroup,
-    CreateSubnetGroupResponse,
+    CreateSubnetGroupResponse (CreateSubnetGroupResponse'),
     newCreateSubnetGroupResponse,
 
     -- ** CreateUser
-    CreateUser,
+    CreateUser (CreateUser'),
     newCreateUser,
-    CreateUserResponse,
+    CreateUserResponse (CreateUserResponse'),
     newCreateUserResponse,
 
     -- ** DeleteACL
-    DeleteACL,
+    DeleteACL (DeleteACL'),
     newDeleteACL,
-    DeleteACLResponse,
+    DeleteACLResponse (DeleteACLResponse'),
     newDeleteACLResponse,
 
     -- ** DeleteCluster
-    DeleteCluster,
+    DeleteCluster (DeleteCluster'),
     newDeleteCluster,
-    DeleteClusterResponse,
+    DeleteClusterResponse (DeleteClusterResponse'),
     newDeleteClusterResponse,
 
     -- ** DeleteParameterGroup
-    DeleteParameterGroup,
+    DeleteParameterGroup (DeleteParameterGroup'),
     newDeleteParameterGroup,
-    DeleteParameterGroupResponse,
+    DeleteParameterGroupResponse (DeleteParameterGroupResponse'),
     newDeleteParameterGroupResponse,
 
     -- ** DeleteSnapshot
-    DeleteSnapshot,
+    DeleteSnapshot (DeleteSnapshot'),
     newDeleteSnapshot,
-    DeleteSnapshotResponse,
+    DeleteSnapshotResponse (DeleteSnapshotResponse'),
     newDeleteSnapshotResponse,
 
     -- ** DeleteSubnetGroup
-    DeleteSubnetGroup,
+    DeleteSubnetGroup (DeleteSubnetGroup'),
     newDeleteSubnetGroup,
-    DeleteSubnetGroupResponse,
+    DeleteSubnetGroupResponse (DeleteSubnetGroupResponse'),
     newDeleteSubnetGroupResponse,
 
     -- ** DeleteUser
-    DeleteUser,
+    DeleteUser (DeleteUser'),
     newDeleteUser,
-    DeleteUserResponse,
+    DeleteUserResponse (DeleteUserResponse'),
     newDeleteUserResponse,
 
     -- ** DescribeACLs (Paginated)
-    DescribeACLs,
+    DescribeACLs (DescribeACLs'),
     newDescribeACLs,
-    DescribeACLsResponse,
+    DescribeACLsResponse (DescribeACLsResponse'),
     newDescribeACLsResponse,
 
     -- ** DescribeClusters (Paginated)
-    DescribeClusters,
+    DescribeClusters (DescribeClusters'),
     newDescribeClusters,
-    DescribeClustersResponse,
+    DescribeClustersResponse (DescribeClustersResponse'),
     newDescribeClustersResponse,
 
     -- ** DescribeEngineVersions (Paginated)
-    DescribeEngineVersions,
+    DescribeEngineVersions (DescribeEngineVersions'),
     newDescribeEngineVersions,
-    DescribeEngineVersionsResponse,
+    DescribeEngineVersionsResponse (DescribeEngineVersionsResponse'),
     newDescribeEngineVersionsResponse,
 
     -- ** DescribeEvents (Paginated)
-    DescribeEvents,
+    DescribeEvents (DescribeEvents'),
     newDescribeEvents,
-    DescribeEventsResponse,
+    DescribeEventsResponse (DescribeEventsResponse'),
     newDescribeEventsResponse,
 
     -- ** DescribeParameterGroups (Paginated)
-    DescribeParameterGroups,
+    DescribeParameterGroups (DescribeParameterGroups'),
     newDescribeParameterGroups,
-    DescribeParameterGroupsResponse,
+    DescribeParameterGroupsResponse (DescribeParameterGroupsResponse'),
     newDescribeParameterGroupsResponse,
 
     -- ** DescribeParameters (Paginated)
-    DescribeParameters,
+    DescribeParameters (DescribeParameters'),
     newDescribeParameters,
-    DescribeParametersResponse,
+    DescribeParametersResponse (DescribeParametersResponse'),
     newDescribeParametersResponse,
 
     -- ** DescribeReservedNodes (Paginated)
-    DescribeReservedNodes,
+    DescribeReservedNodes (DescribeReservedNodes'),
     newDescribeReservedNodes,
-    DescribeReservedNodesResponse,
+    DescribeReservedNodesResponse (DescribeReservedNodesResponse'),
     newDescribeReservedNodesResponse,
 
     -- ** DescribeReservedNodesOfferings (Paginated)
-    DescribeReservedNodesOfferings,
+    DescribeReservedNodesOfferings (DescribeReservedNodesOfferings'),
     newDescribeReservedNodesOfferings,
-    DescribeReservedNodesOfferingsResponse,
+    DescribeReservedNodesOfferingsResponse (DescribeReservedNodesOfferingsResponse'),
     newDescribeReservedNodesOfferingsResponse,
 
     -- ** DescribeServiceUpdates (Paginated)
-    DescribeServiceUpdates,
+    DescribeServiceUpdates (DescribeServiceUpdates'),
     newDescribeServiceUpdates,
-    DescribeServiceUpdatesResponse,
+    DescribeServiceUpdatesResponse (DescribeServiceUpdatesResponse'),
     newDescribeServiceUpdatesResponse,
 
     -- ** DescribeSnapshots (Paginated)
-    DescribeSnapshots,
+    DescribeSnapshots (DescribeSnapshots'),
     newDescribeSnapshots,
-    DescribeSnapshotsResponse,
+    DescribeSnapshotsResponse (DescribeSnapshotsResponse'),
     newDescribeSnapshotsResponse,
 
     -- ** DescribeSubnetGroups (Paginated)
-    DescribeSubnetGroups,
+    DescribeSubnetGroups (DescribeSubnetGroups'),
     newDescribeSubnetGroups,
-    DescribeSubnetGroupsResponse,
+    DescribeSubnetGroupsResponse (DescribeSubnetGroupsResponse'),
     newDescribeSubnetGroupsResponse,
 
     -- ** DescribeUsers (Paginated)
-    DescribeUsers,
+    DescribeUsers (DescribeUsers'),
     newDescribeUsers,
-    DescribeUsersResponse,
+    DescribeUsersResponse (DescribeUsersResponse'),
     newDescribeUsersResponse,
 
     -- ** FailoverShard
-    FailoverShard,
+    FailoverShard (FailoverShard'),
     newFailoverShard,
-    FailoverShardResponse,
+    FailoverShardResponse (FailoverShardResponse'),
     newFailoverShardResponse,
 
     -- ** ListAllowedNodeTypeUpdates
-    ListAllowedNodeTypeUpdates,
+    ListAllowedNodeTypeUpdates (ListAllowedNodeTypeUpdates'),
     newListAllowedNodeTypeUpdates,
-    ListAllowedNodeTypeUpdatesResponse,
+    ListAllowedNodeTypeUpdatesResponse (ListAllowedNodeTypeUpdatesResponse'),
     newListAllowedNodeTypeUpdatesResponse,
 
     -- ** ListTags
-    ListTags,
+    ListTags (ListTags'),
     newListTags,
-    ListTagsResponse,
+    ListTagsResponse (ListTagsResponse'),
     newListTagsResponse,
 
     -- ** PurchaseReservedNodesOffering
-    PurchaseReservedNodesOffering,
+    PurchaseReservedNodesOffering (PurchaseReservedNodesOffering'),
     newPurchaseReservedNodesOffering,
-    PurchaseReservedNodesOfferingResponse,
+    PurchaseReservedNodesOfferingResponse (PurchaseReservedNodesOfferingResponse'),
     newPurchaseReservedNodesOfferingResponse,
 
     -- ** ResetParameterGroup
-    ResetParameterGroup,
+    ResetParameterGroup (ResetParameterGroup'),
     newResetParameterGroup,
-    ResetParameterGroupResponse,
+    ResetParameterGroupResponse (ResetParameterGroupResponse'),
     newResetParameterGroupResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateACL
-    UpdateACL,
+    UpdateACL (UpdateACL'),
     newUpdateACL,
-    UpdateACLResponse,
+    UpdateACLResponse (UpdateACLResponse'),
     newUpdateACLResponse,
 
     -- ** UpdateCluster
-    UpdateCluster,
+    UpdateCluster (UpdateCluster'),
     newUpdateCluster,
-    UpdateClusterResponse,
+    UpdateClusterResponse (UpdateClusterResponse'),
     newUpdateClusterResponse,
 
     -- ** UpdateParameterGroup
-    UpdateParameterGroup,
+    UpdateParameterGroup (UpdateParameterGroup'),
     newUpdateParameterGroup,
-    UpdateParameterGroupResponse,
+    UpdateParameterGroupResponse (UpdateParameterGroupResponse'),
     newUpdateParameterGroupResponse,
 
     -- ** UpdateSubnetGroup
-    UpdateSubnetGroup,
+    UpdateSubnetGroup (UpdateSubnetGroup'),
     newUpdateSubnetGroup,
-    UpdateSubnetGroupResponse,
+    UpdateSubnetGroupResponse (UpdateSubnetGroupResponse'),
     newUpdateSubnetGroupResponse,
 
     -- ** UpdateUser
-    UpdateUser,
+    UpdateUser (UpdateUser'),
     newUpdateUser,
-    UpdateUserResponse,
+    UpdateUserResponse (UpdateUserResponse'),
     newUpdateUserResponse,
 
     -- * Types
@@ -442,151 +442,151 @@ module Amazonka.MemoryDb
     SourceType (..),
 
     -- ** ACL
-    ACL,
+    ACL (ACL'),
     newACL,
 
     -- ** ACLPendingChanges
-    ACLPendingChanges,
+    ACLPendingChanges (ACLPendingChanges'),
     newACLPendingChanges,
 
     -- ** ACLsUpdateStatus
-    ACLsUpdateStatus,
+    ACLsUpdateStatus (ACLsUpdateStatus'),
     newACLsUpdateStatus,
 
     -- ** Authentication
-    Authentication,
+    Authentication (Authentication'),
     newAuthentication,
 
     -- ** AuthenticationMode
-    AuthenticationMode,
+    AuthenticationMode (AuthenticationMode'),
     newAuthenticationMode,
 
     -- ** AvailabilityZone
-    AvailabilityZone,
+    AvailabilityZone (AvailabilityZone'),
     newAvailabilityZone,
 
     -- ** Cluster
-    Cluster,
+    Cluster (Cluster'),
     newCluster,
 
     -- ** ClusterConfiguration
-    ClusterConfiguration,
+    ClusterConfiguration (ClusterConfiguration'),
     newClusterConfiguration,
 
     -- ** ClusterPendingUpdates
-    ClusterPendingUpdates,
+    ClusterPendingUpdates (ClusterPendingUpdates'),
     newClusterPendingUpdates,
 
     -- ** Endpoint
-    Endpoint,
+    Endpoint (Endpoint'),
     newEndpoint,
 
     -- ** EngineVersionInfo
-    EngineVersionInfo,
+    EngineVersionInfo (EngineVersionInfo'),
     newEngineVersionInfo,
 
     -- ** Event
-    Event,
+    Event (Event'),
     newEvent,
 
     -- ** Filter
-    Filter,
+    Filter (Filter'),
     newFilter,
 
     -- ** Node
-    Node,
+    Node (Node'),
     newNode,
 
     -- ** Parameter
-    Parameter,
+    Parameter (Parameter'),
     newParameter,
 
     -- ** ParameterGroup
-    ParameterGroup,
+    ParameterGroup (ParameterGroup'),
     newParameterGroup,
 
     -- ** ParameterNameValue
-    ParameterNameValue,
+    ParameterNameValue (ParameterNameValue'),
     newParameterNameValue,
 
     -- ** PendingModifiedServiceUpdate
-    PendingModifiedServiceUpdate,
+    PendingModifiedServiceUpdate (PendingModifiedServiceUpdate'),
     newPendingModifiedServiceUpdate,
 
     -- ** RecurringCharge
-    RecurringCharge,
+    RecurringCharge (RecurringCharge'),
     newRecurringCharge,
 
     -- ** ReplicaConfigurationRequest
-    ReplicaConfigurationRequest,
+    ReplicaConfigurationRequest (ReplicaConfigurationRequest'),
     newReplicaConfigurationRequest,
 
     -- ** ReservedNode
-    ReservedNode,
+    ReservedNode (ReservedNode'),
     newReservedNode,
 
     -- ** ReservedNodesOffering
-    ReservedNodesOffering,
+    ReservedNodesOffering (ReservedNodesOffering'),
     newReservedNodesOffering,
 
     -- ** ReshardingStatus
-    ReshardingStatus,
+    ReshardingStatus (ReshardingStatus'),
     newReshardingStatus,
 
     -- ** SecurityGroupMembership
-    SecurityGroupMembership,
+    SecurityGroupMembership (SecurityGroupMembership'),
     newSecurityGroupMembership,
 
     -- ** ServiceUpdate
-    ServiceUpdate,
+    ServiceUpdate (ServiceUpdate'),
     newServiceUpdate,
 
     -- ** ServiceUpdateRequest
-    ServiceUpdateRequest,
+    ServiceUpdateRequest (ServiceUpdateRequest'),
     newServiceUpdateRequest,
 
     -- ** Shard
-    Shard,
+    Shard (Shard'),
     newShard,
 
     -- ** ShardConfiguration
-    ShardConfiguration,
+    ShardConfiguration (ShardConfiguration'),
     newShardConfiguration,
 
     -- ** ShardConfigurationRequest
-    ShardConfigurationRequest,
+    ShardConfigurationRequest (ShardConfigurationRequest'),
     newShardConfigurationRequest,
 
     -- ** ShardDetail
-    ShardDetail,
+    ShardDetail (ShardDetail'),
     newShardDetail,
 
     -- ** SlotMigration
-    SlotMigration,
+    SlotMigration (SlotMigration'),
     newSlotMigration,
 
     -- ** Snapshot
-    Snapshot,
+    Snapshot (Snapshot'),
     newSnapshot,
 
     -- ** Subnet
-    Subnet,
+    Subnet (Subnet'),
     newSubnet,
 
     -- ** SubnetGroup
-    SubnetGroup,
+    SubnetGroup (SubnetGroup'),
     newSubnetGroup,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** UnprocessedCluster
-    UnprocessedCluster,
+    UnprocessedCluster (UnprocessedCluster'),
     newUnprocessedCluster,
 
     -- ** User
-    User,
+    User (User'),
     newUser,
   )
 where

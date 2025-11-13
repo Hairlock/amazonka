@@ -62,159 +62,159 @@ module Amazonka.CloudSearch
     -- $operations
 
     -- ** BuildSuggesters
-    BuildSuggesters,
+    BuildSuggesters (BuildSuggesters'),
     newBuildSuggesters,
-    BuildSuggestersResponse,
+    BuildSuggestersResponse (BuildSuggestersResponse'),
     newBuildSuggestersResponse,
 
     -- ** CreateDomain
-    CreateDomain,
+    CreateDomain (CreateDomain'),
     newCreateDomain,
-    CreateDomainResponse,
+    CreateDomainResponse (CreateDomainResponse'),
     newCreateDomainResponse,
 
     -- ** DefineAnalysisScheme
-    DefineAnalysisScheme,
+    DefineAnalysisScheme (DefineAnalysisScheme'),
     newDefineAnalysisScheme,
-    DefineAnalysisSchemeResponse,
+    DefineAnalysisSchemeResponse (DefineAnalysisSchemeResponse'),
     newDefineAnalysisSchemeResponse,
 
     -- ** DefineExpression
-    DefineExpression,
+    DefineExpression (DefineExpression'),
     newDefineExpression,
-    DefineExpressionResponse,
+    DefineExpressionResponse (DefineExpressionResponse'),
     newDefineExpressionResponse,
 
     -- ** DefineIndexField
-    DefineIndexField,
+    DefineIndexField (DefineIndexField'),
     newDefineIndexField,
-    DefineIndexFieldResponse,
+    DefineIndexFieldResponse (DefineIndexFieldResponse'),
     newDefineIndexFieldResponse,
 
     -- ** DefineSuggester
-    DefineSuggester,
+    DefineSuggester (DefineSuggester'),
     newDefineSuggester,
-    DefineSuggesterResponse,
+    DefineSuggesterResponse (DefineSuggesterResponse'),
     newDefineSuggesterResponse,
 
     -- ** DeleteAnalysisScheme
-    DeleteAnalysisScheme,
+    DeleteAnalysisScheme (DeleteAnalysisScheme'),
     newDeleteAnalysisScheme,
-    DeleteAnalysisSchemeResponse,
+    DeleteAnalysisSchemeResponse (DeleteAnalysisSchemeResponse'),
     newDeleteAnalysisSchemeResponse,
 
     -- ** DeleteDomain
-    DeleteDomain,
+    DeleteDomain (DeleteDomain'),
     newDeleteDomain,
-    DeleteDomainResponse,
+    DeleteDomainResponse (DeleteDomainResponse'),
     newDeleteDomainResponse,
 
     -- ** DeleteExpression
-    DeleteExpression,
+    DeleteExpression (DeleteExpression'),
     newDeleteExpression,
-    DeleteExpressionResponse,
+    DeleteExpressionResponse (DeleteExpressionResponse'),
     newDeleteExpressionResponse,
 
     -- ** DeleteIndexField
-    DeleteIndexField,
+    DeleteIndexField (DeleteIndexField'),
     newDeleteIndexField,
-    DeleteIndexFieldResponse,
+    DeleteIndexFieldResponse (DeleteIndexFieldResponse'),
     newDeleteIndexFieldResponse,
 
     -- ** DeleteSuggester
-    DeleteSuggester,
+    DeleteSuggester (DeleteSuggester'),
     newDeleteSuggester,
-    DeleteSuggesterResponse,
+    DeleteSuggesterResponse (DeleteSuggesterResponse'),
     newDeleteSuggesterResponse,
 
     -- ** DescribeAnalysisSchemes
-    DescribeAnalysisSchemes,
+    DescribeAnalysisSchemes (DescribeAnalysisSchemes'),
     newDescribeAnalysisSchemes,
-    DescribeAnalysisSchemesResponse,
+    DescribeAnalysisSchemesResponse (DescribeAnalysisSchemesResponse'),
     newDescribeAnalysisSchemesResponse,
 
     -- ** DescribeAvailabilityOptions
-    DescribeAvailabilityOptions,
+    DescribeAvailabilityOptions (DescribeAvailabilityOptions'),
     newDescribeAvailabilityOptions,
-    DescribeAvailabilityOptionsResponse,
+    DescribeAvailabilityOptionsResponse (DescribeAvailabilityOptionsResponse'),
     newDescribeAvailabilityOptionsResponse,
 
     -- ** DescribeDomainEndpointOptions
-    DescribeDomainEndpointOptions,
+    DescribeDomainEndpointOptions (DescribeDomainEndpointOptions'),
     newDescribeDomainEndpointOptions,
-    DescribeDomainEndpointOptionsResponse,
+    DescribeDomainEndpointOptionsResponse (DescribeDomainEndpointOptionsResponse'),
     newDescribeDomainEndpointOptionsResponse,
 
     -- ** DescribeDomains
-    DescribeDomains,
+    DescribeDomains (DescribeDomains'),
     newDescribeDomains,
-    DescribeDomainsResponse,
+    DescribeDomainsResponse (DescribeDomainsResponse'),
     newDescribeDomainsResponse,
 
     -- ** DescribeExpressions
-    DescribeExpressions,
+    DescribeExpressions (DescribeExpressions'),
     newDescribeExpressions,
-    DescribeExpressionsResponse,
+    DescribeExpressionsResponse (DescribeExpressionsResponse'),
     newDescribeExpressionsResponse,
 
     -- ** DescribeIndexFields
-    DescribeIndexFields,
+    DescribeIndexFields (DescribeIndexFields'),
     newDescribeIndexFields,
-    DescribeIndexFieldsResponse,
+    DescribeIndexFieldsResponse (DescribeIndexFieldsResponse'),
     newDescribeIndexFieldsResponse,
 
     -- ** DescribeScalingParameters
-    DescribeScalingParameters,
+    DescribeScalingParameters (DescribeScalingParameters'),
     newDescribeScalingParameters,
-    DescribeScalingParametersResponse,
+    DescribeScalingParametersResponse (DescribeScalingParametersResponse'),
     newDescribeScalingParametersResponse,
 
     -- ** DescribeServiceAccessPolicies
-    DescribeServiceAccessPolicies,
+    DescribeServiceAccessPolicies (DescribeServiceAccessPolicies'),
     newDescribeServiceAccessPolicies,
-    DescribeServiceAccessPoliciesResponse,
+    DescribeServiceAccessPoliciesResponse (DescribeServiceAccessPoliciesResponse'),
     newDescribeServiceAccessPoliciesResponse,
 
     -- ** DescribeSuggesters
-    DescribeSuggesters,
+    DescribeSuggesters (DescribeSuggesters'),
     newDescribeSuggesters,
-    DescribeSuggestersResponse,
+    DescribeSuggestersResponse (DescribeSuggestersResponse'),
     newDescribeSuggestersResponse,
 
     -- ** IndexDocuments
-    IndexDocuments,
+    IndexDocuments (IndexDocuments'),
     newIndexDocuments,
-    IndexDocumentsResponse,
+    IndexDocumentsResponse (IndexDocumentsResponse'),
     newIndexDocumentsResponse,
 
     -- ** ListDomainNames
-    ListDomainNames,
+    ListDomainNames (ListDomainNames'),
     newListDomainNames,
-    ListDomainNamesResponse,
+    ListDomainNamesResponse (ListDomainNamesResponse'),
     newListDomainNamesResponse,
 
     -- ** UpdateAvailabilityOptions
-    UpdateAvailabilityOptions,
+    UpdateAvailabilityOptions (UpdateAvailabilityOptions'),
     newUpdateAvailabilityOptions,
-    UpdateAvailabilityOptionsResponse,
+    UpdateAvailabilityOptionsResponse (UpdateAvailabilityOptionsResponse'),
     newUpdateAvailabilityOptionsResponse,
 
     -- ** UpdateDomainEndpointOptions
-    UpdateDomainEndpointOptions,
+    UpdateDomainEndpointOptions (UpdateDomainEndpointOptions'),
     newUpdateDomainEndpointOptions,
-    UpdateDomainEndpointOptionsResponse,
+    UpdateDomainEndpointOptionsResponse (UpdateDomainEndpointOptionsResponse'),
     newUpdateDomainEndpointOptionsResponse,
 
     -- ** UpdateScalingParameters
-    UpdateScalingParameters,
+    UpdateScalingParameters (UpdateScalingParameters'),
     newUpdateScalingParameters,
-    UpdateScalingParametersResponse,
+    UpdateScalingParametersResponse (UpdateScalingParametersResponse'),
     newUpdateScalingParametersResponse,
 
     -- ** UpdateServiceAccessPolicies
-    UpdateServiceAccessPolicies,
+    UpdateServiceAccessPolicies (UpdateServiceAccessPolicies'),
     newUpdateServiceAccessPolicies,
-    UpdateServiceAccessPoliciesResponse,
+    UpdateServiceAccessPoliciesResponse (UpdateServiceAccessPoliciesResponse'),
     newUpdateServiceAccessPoliciesResponse,
 
     -- * Types
@@ -241,127 +241,127 @@ module Amazonka.CloudSearch
     TLSSecurityPolicy (..),
 
     -- ** AccessPoliciesStatus
-    AccessPoliciesStatus,
+    AccessPoliciesStatus (AccessPoliciesStatus'),
     newAccessPoliciesStatus,
 
     -- ** AnalysisOptions
-    AnalysisOptions,
+    AnalysisOptions (AnalysisOptions'),
     newAnalysisOptions,
 
     -- ** AnalysisScheme
-    AnalysisScheme,
+    AnalysisScheme (AnalysisScheme'),
     newAnalysisScheme,
 
     -- ** AnalysisSchemeStatus
-    AnalysisSchemeStatus,
+    AnalysisSchemeStatus (AnalysisSchemeStatus'),
     newAnalysisSchemeStatus,
 
     -- ** AvailabilityOptionsStatus
-    AvailabilityOptionsStatus,
+    AvailabilityOptionsStatus (AvailabilityOptionsStatus'),
     newAvailabilityOptionsStatus,
 
     -- ** DateArrayOptions
-    DateArrayOptions,
+    DateArrayOptions (DateArrayOptions'),
     newDateArrayOptions,
 
     -- ** DateOptions
-    DateOptions,
+    DateOptions (DateOptions'),
     newDateOptions,
 
     -- ** DocumentSuggesterOptions
-    DocumentSuggesterOptions,
+    DocumentSuggesterOptions (DocumentSuggesterOptions'),
     newDocumentSuggesterOptions,
 
     -- ** DomainEndpointOptions
-    DomainEndpointOptions,
+    DomainEndpointOptions (DomainEndpointOptions'),
     newDomainEndpointOptions,
 
     -- ** DomainEndpointOptionsStatus
-    DomainEndpointOptionsStatus,
+    DomainEndpointOptionsStatus (DomainEndpointOptionsStatus'),
     newDomainEndpointOptionsStatus,
 
     -- ** DomainStatus
-    DomainStatus,
+    DomainStatus (DomainStatus'),
     newDomainStatus,
 
     -- ** DoubleArrayOptions
-    DoubleArrayOptions,
+    DoubleArrayOptions (DoubleArrayOptions'),
     newDoubleArrayOptions,
 
     -- ** DoubleOptions
-    DoubleOptions,
+    DoubleOptions (DoubleOptions'),
     newDoubleOptions,
 
     -- ** Expression
-    Expression,
+    Expression (Expression'),
     newExpression,
 
     -- ** ExpressionStatus
-    ExpressionStatus,
+    ExpressionStatus (ExpressionStatus'),
     newExpressionStatus,
 
     -- ** IndexField
-    IndexField,
+    IndexField (IndexField'),
     newIndexField,
 
     -- ** IndexFieldStatus
-    IndexFieldStatus,
+    IndexFieldStatus (IndexFieldStatus'),
     newIndexFieldStatus,
 
     -- ** IntArrayOptions
-    IntArrayOptions,
+    IntArrayOptions (IntArrayOptions'),
     newIntArrayOptions,
 
     -- ** IntOptions
-    IntOptions,
+    IntOptions (IntOptions'),
     newIntOptions,
 
     -- ** LatLonOptions
-    LatLonOptions,
+    LatLonOptions (LatLonOptions'),
     newLatLonOptions,
 
     -- ** Limits
-    Limits,
+    Limits (Limits'),
     newLimits,
 
     -- ** LiteralArrayOptions
-    LiteralArrayOptions,
+    LiteralArrayOptions (LiteralArrayOptions'),
     newLiteralArrayOptions,
 
     -- ** LiteralOptions
-    LiteralOptions,
+    LiteralOptions (LiteralOptions'),
     newLiteralOptions,
 
     -- ** OptionStatus
-    OptionStatus,
+    OptionStatus (OptionStatus'),
     newOptionStatus,
 
     -- ** ScalingParameters
-    ScalingParameters,
+    ScalingParameters (ScalingParameters'),
     newScalingParameters,
 
     -- ** ScalingParametersStatus
-    ScalingParametersStatus,
+    ScalingParametersStatus (ScalingParametersStatus'),
     newScalingParametersStatus,
 
     -- ** ServiceEndpoint
-    ServiceEndpoint,
+    ServiceEndpoint (ServiceEndpoint'),
     newServiceEndpoint,
 
     -- ** Suggester
-    Suggester,
+    Suggester (Suggester'),
     newSuggester,
 
     -- ** SuggesterStatus
-    SuggesterStatus,
+    SuggesterStatus (SuggesterStatus'),
     newSuggesterStatus,
 
     -- ** TextArrayOptions
-    TextArrayOptions,
+    TextArrayOptions (TextArrayOptions'),
     newTextArrayOptions,
 
     -- ** TextOptions
-    TextOptions,
+    TextOptions (TextOptions'),
     newTextOptions,
   )
 where

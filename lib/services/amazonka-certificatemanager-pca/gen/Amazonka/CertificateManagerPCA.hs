@@ -117,141 +117,141 @@ module Amazonka.CertificateManagerPCA
     -- $operations
 
     -- ** CreateCertificateAuthority
-    CreateCertificateAuthority,
+    CreateCertificateAuthority (CreateCertificateAuthority'),
     newCreateCertificateAuthority,
-    CreateCertificateAuthorityResponse,
+    CreateCertificateAuthorityResponse (CreateCertificateAuthorityResponse'),
     newCreateCertificateAuthorityResponse,
 
     -- ** CreateCertificateAuthorityAuditReport
-    CreateCertificateAuthorityAuditReport,
+    CreateCertificateAuthorityAuditReport (CreateCertificateAuthorityAuditReport'),
     newCreateCertificateAuthorityAuditReport,
-    CreateCertificateAuthorityAuditReportResponse,
+    CreateCertificateAuthorityAuditReportResponse (CreateCertificateAuthorityAuditReportResponse'),
     newCreateCertificateAuthorityAuditReportResponse,
 
     -- ** CreatePermission
-    CreatePermission,
+    CreatePermission (CreatePermission'),
     newCreatePermission,
-    CreatePermissionResponse,
+    CreatePermissionResponse (CreatePermissionResponse'),
     newCreatePermissionResponse,
 
     -- ** DeleteCertificateAuthority
-    DeleteCertificateAuthority,
+    DeleteCertificateAuthority (DeleteCertificateAuthority'),
     newDeleteCertificateAuthority,
-    DeleteCertificateAuthorityResponse,
+    DeleteCertificateAuthorityResponse (DeleteCertificateAuthorityResponse'),
     newDeleteCertificateAuthorityResponse,
 
     -- ** DeletePermission
-    DeletePermission,
+    DeletePermission (DeletePermission'),
     newDeletePermission,
-    DeletePermissionResponse,
+    DeletePermissionResponse (DeletePermissionResponse'),
     newDeletePermissionResponse,
 
     -- ** DeletePolicy
-    DeletePolicy,
+    DeletePolicy (DeletePolicy'),
     newDeletePolicy,
-    DeletePolicyResponse,
+    DeletePolicyResponse (DeletePolicyResponse'),
     newDeletePolicyResponse,
 
     -- ** DescribeCertificateAuthority
-    DescribeCertificateAuthority,
+    DescribeCertificateAuthority (DescribeCertificateAuthority'),
     newDescribeCertificateAuthority,
-    DescribeCertificateAuthorityResponse,
+    DescribeCertificateAuthorityResponse (DescribeCertificateAuthorityResponse'),
     newDescribeCertificateAuthorityResponse,
 
     -- ** DescribeCertificateAuthorityAuditReport
-    DescribeCertificateAuthorityAuditReport,
+    DescribeCertificateAuthorityAuditReport (DescribeCertificateAuthorityAuditReport'),
     newDescribeCertificateAuthorityAuditReport,
-    DescribeCertificateAuthorityAuditReportResponse,
+    DescribeCertificateAuthorityAuditReportResponse (DescribeCertificateAuthorityAuditReportResponse'),
     newDescribeCertificateAuthorityAuditReportResponse,
 
     -- ** GetCertificate
-    GetCertificate,
+    GetCertificate (GetCertificate'),
     newGetCertificate,
-    GetCertificateResponse,
+    GetCertificateResponse (GetCertificateResponse'),
     newGetCertificateResponse,
 
     -- ** GetCertificateAuthorityCertificate
-    GetCertificateAuthorityCertificate,
+    GetCertificateAuthorityCertificate (GetCertificateAuthorityCertificate'),
     newGetCertificateAuthorityCertificate,
-    GetCertificateAuthorityCertificateResponse,
+    GetCertificateAuthorityCertificateResponse (GetCertificateAuthorityCertificateResponse'),
     newGetCertificateAuthorityCertificateResponse,
 
     -- ** GetCertificateAuthorityCsr
-    GetCertificateAuthorityCsr,
+    GetCertificateAuthorityCsr (GetCertificateAuthorityCsr'),
     newGetCertificateAuthorityCsr,
-    GetCertificateAuthorityCsrResponse,
+    GetCertificateAuthorityCsrResponse (GetCertificateAuthorityCsrResponse'),
     newGetCertificateAuthorityCsrResponse,
 
     -- ** GetPolicy
-    GetPolicy,
+    GetPolicy (GetPolicy'),
     newGetPolicy,
-    GetPolicyResponse,
+    GetPolicyResponse (GetPolicyResponse'),
     newGetPolicyResponse,
 
     -- ** ImportCertificateAuthorityCertificate
-    ImportCertificateAuthorityCertificate,
+    ImportCertificateAuthorityCertificate (ImportCertificateAuthorityCertificate'),
     newImportCertificateAuthorityCertificate,
-    ImportCertificateAuthorityCertificateResponse,
+    ImportCertificateAuthorityCertificateResponse (ImportCertificateAuthorityCertificateResponse'),
     newImportCertificateAuthorityCertificateResponse,
 
     -- ** IssueCertificate
-    IssueCertificate,
+    IssueCertificate (IssueCertificate'),
     newIssueCertificate,
-    IssueCertificateResponse,
+    IssueCertificateResponse (IssueCertificateResponse'),
     newIssueCertificateResponse,
 
     -- ** ListCertificateAuthorities (Paginated)
-    ListCertificateAuthorities,
+    ListCertificateAuthorities (ListCertificateAuthorities'),
     newListCertificateAuthorities,
-    ListCertificateAuthoritiesResponse,
+    ListCertificateAuthoritiesResponse (ListCertificateAuthoritiesResponse'),
     newListCertificateAuthoritiesResponse,
 
     -- ** ListPermissions (Paginated)
-    ListPermissions,
+    ListPermissions (ListPermissions'),
     newListPermissions,
-    ListPermissionsResponse,
+    ListPermissionsResponse (ListPermissionsResponse'),
     newListPermissionsResponse,
 
     -- ** ListTags (Paginated)
-    ListTags,
+    ListTags (ListTags'),
     newListTags,
-    ListTagsResponse,
+    ListTagsResponse (ListTagsResponse'),
     newListTagsResponse,
 
     -- ** PutPolicy
-    PutPolicy,
+    PutPolicy (PutPolicy'),
     newPutPolicy,
-    PutPolicyResponse,
+    PutPolicyResponse (PutPolicyResponse'),
     newPutPolicyResponse,
 
     -- ** RestoreCertificateAuthority
-    RestoreCertificateAuthority,
+    RestoreCertificateAuthority (RestoreCertificateAuthority'),
     newRestoreCertificateAuthority,
-    RestoreCertificateAuthorityResponse,
+    RestoreCertificateAuthorityResponse (RestoreCertificateAuthorityResponse'),
     newRestoreCertificateAuthorityResponse,
 
     -- ** RevokeCertificate
-    RevokeCertificate,
+    RevokeCertificate (RevokeCertificate'),
     newRevokeCertificate,
-    RevokeCertificateResponse,
+    RevokeCertificateResponse (RevokeCertificateResponse'),
     newRevokeCertificateResponse,
 
     -- ** TagCertificateAuthority
-    TagCertificateAuthority,
+    TagCertificateAuthority (TagCertificateAuthority'),
     newTagCertificateAuthority,
-    TagCertificateAuthorityResponse,
+    TagCertificateAuthorityResponse (TagCertificateAuthorityResponse'),
     newTagCertificateAuthorityResponse,
 
     -- ** UntagCertificateAuthority
-    UntagCertificateAuthority,
+    UntagCertificateAuthority (UntagCertificateAuthority'),
     newUntagCertificateAuthority,
-    UntagCertificateAuthorityResponse,
+    UntagCertificateAuthorityResponse (UntagCertificateAuthorityResponse'),
     newUntagCertificateAuthorityResponse,
 
     -- ** UpdateCertificateAuthority
-    UpdateCertificateAuthority,
+    UpdateCertificateAuthority (UpdateCertificateAuthority'),
     newUpdateCertificateAuthority,
-    UpdateCertificateAuthorityResponse,
+    UpdateCertificateAuthorityResponse (UpdateCertificateAuthorityResponse'),
     newUpdateCertificateAuthorityResponse,
 
     -- * Types
@@ -308,99 +308,99 @@ module Amazonka.CertificateManagerPCA
     ValidityPeriodType (..),
 
     -- ** ASN1Subject
-    ASN1Subject,
+    ASN1Subject (ASN1Subject'),
     newASN1Subject,
 
     -- ** AccessDescription
-    AccessDescription,
+    AccessDescription (AccessDescription'),
     newAccessDescription,
 
     -- ** AccessMethod
-    AccessMethod,
+    AccessMethod (AccessMethod'),
     newAccessMethod,
 
     -- ** ApiPassthrough
-    ApiPassthrough,
+    ApiPassthrough (ApiPassthrough'),
     newApiPassthrough,
 
     -- ** CertificateAuthority
-    CertificateAuthority,
+    CertificateAuthority (CertificateAuthority'),
     newCertificateAuthority,
 
     -- ** CertificateAuthorityConfiguration
-    CertificateAuthorityConfiguration,
+    CertificateAuthorityConfiguration (CertificateAuthorityConfiguration'),
     newCertificateAuthorityConfiguration,
 
     -- ** CrlConfiguration
-    CrlConfiguration,
+    CrlConfiguration (CrlConfiguration'),
     newCrlConfiguration,
 
     -- ** CsrExtensions
-    CsrExtensions,
+    CsrExtensions (CsrExtensions'),
     newCsrExtensions,
 
     -- ** CustomAttribute
-    CustomAttribute,
+    CustomAttribute (CustomAttribute'),
     newCustomAttribute,
 
     -- ** CustomExtension
-    CustomExtension,
+    CustomExtension (CustomExtension'),
     newCustomExtension,
 
     -- ** EdiPartyName
-    EdiPartyName,
+    EdiPartyName (EdiPartyName'),
     newEdiPartyName,
 
     -- ** ExtendedKeyUsage
-    ExtendedKeyUsage,
+    ExtendedKeyUsage (ExtendedKeyUsage'),
     newExtendedKeyUsage,
 
     -- ** Extensions
-    Extensions,
+    Extensions (Extensions'),
     newExtensions,
 
     -- ** GeneralName
-    GeneralName,
+    GeneralName (GeneralName'),
     newGeneralName,
 
     -- ** KeyUsage
-    KeyUsage,
+    KeyUsage (KeyUsage'),
     newKeyUsage,
 
     -- ** OcspConfiguration
-    OcspConfiguration,
+    OcspConfiguration (OcspConfiguration'),
     newOcspConfiguration,
 
     -- ** OtherName
-    OtherName,
+    OtherName (OtherName'),
     newOtherName,
 
     -- ** Permission
-    Permission,
+    Permission (Permission'),
     newPermission,
 
     -- ** PolicyInformation
-    PolicyInformation,
+    PolicyInformation (PolicyInformation'),
     newPolicyInformation,
 
     -- ** PolicyQualifierInfo
-    PolicyQualifierInfo,
+    PolicyQualifierInfo (PolicyQualifierInfo'),
     newPolicyQualifierInfo,
 
     -- ** Qualifier
-    Qualifier,
+    Qualifier (Qualifier'),
     newQualifier,
 
     -- ** RevocationConfiguration
-    RevocationConfiguration,
+    RevocationConfiguration (RevocationConfiguration'),
     newRevocationConfiguration,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** Validity
-    Validity,
+    Validity (Validity'),
     newValidity,
   )
 where

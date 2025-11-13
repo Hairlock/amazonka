@@ -62,363 +62,363 @@ module Amazonka.Athena
     -- $operations
 
     -- ** BatchGetNamedQuery
-    BatchGetNamedQuery,
+    BatchGetNamedQuery (BatchGetNamedQuery'),
     newBatchGetNamedQuery,
-    BatchGetNamedQueryResponse,
+    BatchGetNamedQueryResponse (BatchGetNamedQueryResponse'),
     newBatchGetNamedQueryResponse,
 
     -- ** BatchGetPreparedStatement
-    BatchGetPreparedStatement,
+    BatchGetPreparedStatement (BatchGetPreparedStatement'),
     newBatchGetPreparedStatement,
-    BatchGetPreparedStatementResponse,
+    BatchGetPreparedStatementResponse (BatchGetPreparedStatementResponse'),
     newBatchGetPreparedStatementResponse,
 
     -- ** BatchGetQueryExecution
-    BatchGetQueryExecution,
+    BatchGetQueryExecution (BatchGetQueryExecution'),
     newBatchGetQueryExecution,
-    BatchGetQueryExecutionResponse,
+    BatchGetQueryExecutionResponse (BatchGetQueryExecutionResponse'),
     newBatchGetQueryExecutionResponse,
 
     -- ** CreateDataCatalog
-    CreateDataCatalog,
+    CreateDataCatalog (CreateDataCatalog'),
     newCreateDataCatalog,
-    CreateDataCatalogResponse,
+    CreateDataCatalogResponse (CreateDataCatalogResponse'),
     newCreateDataCatalogResponse,
 
     -- ** CreateNamedQuery
-    CreateNamedQuery,
+    CreateNamedQuery (CreateNamedQuery'),
     newCreateNamedQuery,
-    CreateNamedQueryResponse,
+    CreateNamedQueryResponse (CreateNamedQueryResponse'),
     newCreateNamedQueryResponse,
 
     -- ** CreateNotebook
-    CreateNotebook,
+    CreateNotebook (CreateNotebook'),
     newCreateNotebook,
-    CreateNotebookResponse,
+    CreateNotebookResponse (CreateNotebookResponse'),
     newCreateNotebookResponse,
 
     -- ** CreatePreparedStatement
-    CreatePreparedStatement,
+    CreatePreparedStatement (CreatePreparedStatement'),
     newCreatePreparedStatement,
-    CreatePreparedStatementResponse,
+    CreatePreparedStatementResponse (CreatePreparedStatementResponse'),
     newCreatePreparedStatementResponse,
 
     -- ** CreatePresignedNotebookUrl
-    CreatePresignedNotebookUrl,
+    CreatePresignedNotebookUrl (CreatePresignedNotebookUrl'),
     newCreatePresignedNotebookUrl,
-    CreatePresignedNotebookUrlResponse,
+    CreatePresignedNotebookUrlResponse (CreatePresignedNotebookUrlResponse'),
     newCreatePresignedNotebookUrlResponse,
 
     -- ** CreateWorkGroup
-    CreateWorkGroup,
+    CreateWorkGroup (CreateWorkGroup'),
     newCreateWorkGroup,
-    CreateWorkGroupResponse,
+    CreateWorkGroupResponse (CreateWorkGroupResponse'),
     newCreateWorkGroupResponse,
 
     -- ** DeleteDataCatalog
-    DeleteDataCatalog,
+    DeleteDataCatalog (DeleteDataCatalog'),
     newDeleteDataCatalog,
-    DeleteDataCatalogResponse,
+    DeleteDataCatalogResponse (DeleteDataCatalogResponse'),
     newDeleteDataCatalogResponse,
 
     -- ** DeleteNamedQuery
-    DeleteNamedQuery,
+    DeleteNamedQuery (DeleteNamedQuery'),
     newDeleteNamedQuery,
-    DeleteNamedQueryResponse,
+    DeleteNamedQueryResponse (DeleteNamedQueryResponse'),
     newDeleteNamedQueryResponse,
 
     -- ** DeleteNotebook
-    DeleteNotebook,
+    DeleteNotebook (DeleteNotebook'),
     newDeleteNotebook,
-    DeleteNotebookResponse,
+    DeleteNotebookResponse (DeleteNotebookResponse'),
     newDeleteNotebookResponse,
 
     -- ** DeletePreparedStatement
-    DeletePreparedStatement,
+    DeletePreparedStatement (DeletePreparedStatement'),
     newDeletePreparedStatement,
-    DeletePreparedStatementResponse,
+    DeletePreparedStatementResponse (DeletePreparedStatementResponse'),
     newDeletePreparedStatementResponse,
 
     -- ** DeleteWorkGroup
-    DeleteWorkGroup,
+    DeleteWorkGroup (DeleteWorkGroup'),
     newDeleteWorkGroup,
-    DeleteWorkGroupResponse,
+    DeleteWorkGroupResponse (DeleteWorkGroupResponse'),
     newDeleteWorkGroupResponse,
 
     -- ** ExportNotebook
-    ExportNotebook,
+    ExportNotebook (ExportNotebook'),
     newExportNotebook,
-    ExportNotebookResponse,
+    ExportNotebookResponse (ExportNotebookResponse'),
     newExportNotebookResponse,
 
     -- ** GetCalculationExecution
-    GetCalculationExecution,
+    GetCalculationExecution (GetCalculationExecution'),
     newGetCalculationExecution,
-    GetCalculationExecutionResponse,
+    GetCalculationExecutionResponse (GetCalculationExecutionResponse'),
     newGetCalculationExecutionResponse,
 
     -- ** GetCalculationExecutionCode
-    GetCalculationExecutionCode,
+    GetCalculationExecutionCode (GetCalculationExecutionCode'),
     newGetCalculationExecutionCode,
-    GetCalculationExecutionCodeResponse,
+    GetCalculationExecutionCodeResponse (GetCalculationExecutionCodeResponse'),
     newGetCalculationExecutionCodeResponse,
 
     -- ** GetCalculationExecutionStatus
-    GetCalculationExecutionStatus,
+    GetCalculationExecutionStatus (GetCalculationExecutionStatus'),
     newGetCalculationExecutionStatus,
-    GetCalculationExecutionStatusResponse,
+    GetCalculationExecutionStatusResponse (GetCalculationExecutionStatusResponse'),
     newGetCalculationExecutionStatusResponse,
 
     -- ** GetDataCatalog
-    GetDataCatalog,
+    GetDataCatalog (GetDataCatalog'),
     newGetDataCatalog,
-    GetDataCatalogResponse,
+    GetDataCatalogResponse (GetDataCatalogResponse'),
     newGetDataCatalogResponse,
 
     -- ** GetDatabase
-    GetDatabase,
+    GetDatabase (GetDatabase'),
     newGetDatabase,
-    GetDatabaseResponse,
+    GetDatabaseResponse (GetDatabaseResponse'),
     newGetDatabaseResponse,
 
     -- ** GetNamedQuery
-    GetNamedQuery,
+    GetNamedQuery (GetNamedQuery'),
     newGetNamedQuery,
-    GetNamedQueryResponse,
+    GetNamedQueryResponse (GetNamedQueryResponse'),
     newGetNamedQueryResponse,
 
     -- ** GetNotebookMetadata
-    GetNotebookMetadata,
+    GetNotebookMetadata (GetNotebookMetadata'),
     newGetNotebookMetadata,
-    GetNotebookMetadataResponse,
+    GetNotebookMetadataResponse (GetNotebookMetadataResponse'),
     newGetNotebookMetadataResponse,
 
     -- ** GetPreparedStatement
-    GetPreparedStatement,
+    GetPreparedStatement (GetPreparedStatement'),
     newGetPreparedStatement,
-    GetPreparedStatementResponse,
+    GetPreparedStatementResponse (GetPreparedStatementResponse'),
     newGetPreparedStatementResponse,
 
     -- ** GetQueryExecution
-    GetQueryExecution,
+    GetQueryExecution (GetQueryExecution'),
     newGetQueryExecution,
-    GetQueryExecutionResponse,
+    GetQueryExecutionResponse (GetQueryExecutionResponse'),
     newGetQueryExecutionResponse,
 
     -- ** GetQueryResults (Paginated)
-    GetQueryResults,
+    GetQueryResults (GetQueryResults'),
     newGetQueryResults,
-    GetQueryResultsResponse,
+    GetQueryResultsResponse (GetQueryResultsResponse'),
     newGetQueryResultsResponse,
 
     -- ** GetQueryRuntimeStatistics
-    GetQueryRuntimeStatistics,
+    GetQueryRuntimeStatistics (GetQueryRuntimeStatistics'),
     newGetQueryRuntimeStatistics,
-    GetQueryRuntimeStatisticsResponse,
+    GetQueryRuntimeStatisticsResponse (GetQueryRuntimeStatisticsResponse'),
     newGetQueryRuntimeStatisticsResponse,
 
     -- ** GetSession
-    GetSession,
+    GetSession (GetSession'),
     newGetSession,
-    GetSessionResponse,
+    GetSessionResponse (GetSessionResponse'),
     newGetSessionResponse,
 
     -- ** GetSessionStatus
-    GetSessionStatus,
+    GetSessionStatus (GetSessionStatus'),
     newGetSessionStatus,
-    GetSessionStatusResponse,
+    GetSessionStatusResponse (GetSessionStatusResponse'),
     newGetSessionStatusResponse,
 
     -- ** GetTableMetadata
-    GetTableMetadata,
+    GetTableMetadata (GetTableMetadata'),
     newGetTableMetadata,
-    GetTableMetadataResponse,
+    GetTableMetadataResponse (GetTableMetadataResponse'),
     newGetTableMetadataResponse,
 
     -- ** GetWorkGroup
-    GetWorkGroup,
+    GetWorkGroup (GetWorkGroup'),
     newGetWorkGroup,
-    GetWorkGroupResponse,
+    GetWorkGroupResponse (GetWorkGroupResponse'),
     newGetWorkGroupResponse,
 
     -- ** ImportNotebook
-    ImportNotebook,
+    ImportNotebook (ImportNotebook'),
     newImportNotebook,
-    ImportNotebookResponse,
+    ImportNotebookResponse (ImportNotebookResponse'),
     newImportNotebookResponse,
 
     -- ** ListApplicationDPUSizes
-    ListApplicationDPUSizes,
+    ListApplicationDPUSizes (ListApplicationDPUSizes'),
     newListApplicationDPUSizes,
-    ListApplicationDPUSizesResponse,
+    ListApplicationDPUSizesResponse (ListApplicationDPUSizesResponse'),
     newListApplicationDPUSizesResponse,
 
     -- ** ListCalculationExecutions
-    ListCalculationExecutions,
+    ListCalculationExecutions (ListCalculationExecutions'),
     newListCalculationExecutions,
-    ListCalculationExecutionsResponse,
+    ListCalculationExecutionsResponse (ListCalculationExecutionsResponse'),
     newListCalculationExecutionsResponse,
 
     -- ** ListDataCatalogs (Paginated)
-    ListDataCatalogs,
+    ListDataCatalogs (ListDataCatalogs'),
     newListDataCatalogs,
-    ListDataCatalogsResponse,
+    ListDataCatalogsResponse (ListDataCatalogsResponse'),
     newListDataCatalogsResponse,
 
     -- ** ListDatabases (Paginated)
-    ListDatabases,
+    ListDatabases (ListDatabases'),
     newListDatabases,
-    ListDatabasesResponse,
+    ListDatabasesResponse (ListDatabasesResponse'),
     newListDatabasesResponse,
 
     -- ** ListEngineVersions
-    ListEngineVersions,
+    ListEngineVersions (ListEngineVersions'),
     newListEngineVersions,
-    ListEngineVersionsResponse,
+    ListEngineVersionsResponse (ListEngineVersionsResponse'),
     newListEngineVersionsResponse,
 
     -- ** ListExecutors
-    ListExecutors,
+    ListExecutors (ListExecutors'),
     newListExecutors,
-    ListExecutorsResponse,
+    ListExecutorsResponse (ListExecutorsResponse'),
     newListExecutorsResponse,
 
     -- ** ListNamedQueries (Paginated)
-    ListNamedQueries,
+    ListNamedQueries (ListNamedQueries'),
     newListNamedQueries,
-    ListNamedQueriesResponse,
+    ListNamedQueriesResponse (ListNamedQueriesResponse'),
     newListNamedQueriesResponse,
 
     -- ** ListNotebookMetadata
-    ListNotebookMetadata,
+    ListNotebookMetadata (ListNotebookMetadata'),
     newListNotebookMetadata,
-    ListNotebookMetadataResponse,
+    ListNotebookMetadataResponse (ListNotebookMetadataResponse'),
     newListNotebookMetadataResponse,
 
     -- ** ListNotebookSessions
-    ListNotebookSessions,
+    ListNotebookSessions (ListNotebookSessions'),
     newListNotebookSessions,
-    ListNotebookSessionsResponse,
+    ListNotebookSessionsResponse (ListNotebookSessionsResponse'),
     newListNotebookSessionsResponse,
 
     -- ** ListPreparedStatements
-    ListPreparedStatements,
+    ListPreparedStatements (ListPreparedStatements'),
     newListPreparedStatements,
-    ListPreparedStatementsResponse,
+    ListPreparedStatementsResponse (ListPreparedStatementsResponse'),
     newListPreparedStatementsResponse,
 
     -- ** ListQueryExecutions (Paginated)
-    ListQueryExecutions,
+    ListQueryExecutions (ListQueryExecutions'),
     newListQueryExecutions,
-    ListQueryExecutionsResponse,
+    ListQueryExecutionsResponse (ListQueryExecutionsResponse'),
     newListQueryExecutionsResponse,
 
     -- ** ListSessions
-    ListSessions,
+    ListSessions (ListSessions'),
     newListSessions,
-    ListSessionsResponse,
+    ListSessionsResponse (ListSessionsResponse'),
     newListSessionsResponse,
 
     -- ** ListTableMetadata (Paginated)
-    ListTableMetadata,
+    ListTableMetadata (ListTableMetadata'),
     newListTableMetadata,
-    ListTableMetadataResponse,
+    ListTableMetadataResponse (ListTableMetadataResponse'),
     newListTableMetadataResponse,
 
     -- ** ListTagsForResource (Paginated)
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** ListWorkGroups
-    ListWorkGroups,
+    ListWorkGroups (ListWorkGroups'),
     newListWorkGroups,
-    ListWorkGroupsResponse,
+    ListWorkGroupsResponse (ListWorkGroupsResponse'),
     newListWorkGroupsResponse,
 
     -- ** StartCalculationExecution
-    StartCalculationExecution,
+    StartCalculationExecution (StartCalculationExecution'),
     newStartCalculationExecution,
-    StartCalculationExecutionResponse,
+    StartCalculationExecutionResponse (StartCalculationExecutionResponse'),
     newStartCalculationExecutionResponse,
 
     -- ** StartQueryExecution
-    StartQueryExecution,
+    StartQueryExecution (StartQueryExecution'),
     newStartQueryExecution,
-    StartQueryExecutionResponse,
+    StartQueryExecutionResponse (StartQueryExecutionResponse'),
     newStartQueryExecutionResponse,
 
     -- ** StartSession
-    StartSession,
+    StartSession (StartSession'),
     newStartSession,
-    StartSessionResponse,
+    StartSessionResponse (StartSessionResponse'),
     newStartSessionResponse,
 
     -- ** StopCalculationExecution
-    StopCalculationExecution,
+    StopCalculationExecution (StopCalculationExecution'),
     newStopCalculationExecution,
-    StopCalculationExecutionResponse,
+    StopCalculationExecutionResponse (StopCalculationExecutionResponse'),
     newStopCalculationExecutionResponse,
 
     -- ** StopQueryExecution
-    StopQueryExecution,
+    StopQueryExecution (StopQueryExecution'),
     newStopQueryExecution,
-    StopQueryExecutionResponse,
+    StopQueryExecutionResponse (StopQueryExecutionResponse'),
     newStopQueryExecutionResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** TerminateSession
-    TerminateSession,
+    TerminateSession (TerminateSession'),
     newTerminateSession,
-    TerminateSessionResponse,
+    TerminateSessionResponse (TerminateSessionResponse'),
     newTerminateSessionResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateDataCatalog
-    UpdateDataCatalog,
+    UpdateDataCatalog (UpdateDataCatalog'),
     newUpdateDataCatalog,
-    UpdateDataCatalogResponse,
+    UpdateDataCatalogResponse (UpdateDataCatalogResponse'),
     newUpdateDataCatalogResponse,
 
     -- ** UpdateNamedQuery
-    UpdateNamedQuery,
+    UpdateNamedQuery (UpdateNamedQuery'),
     newUpdateNamedQuery,
-    UpdateNamedQueryResponse,
+    UpdateNamedQueryResponse (UpdateNamedQueryResponse'),
     newUpdateNamedQueryResponse,
 
     -- ** UpdateNotebook
-    UpdateNotebook,
+    UpdateNotebook (UpdateNotebook'),
     newUpdateNotebook,
-    UpdateNotebookResponse,
+    UpdateNotebookResponse (UpdateNotebookResponse'),
     newUpdateNotebookResponse,
 
     -- ** UpdateNotebookMetadata
-    UpdateNotebookMetadata,
+    UpdateNotebookMetadata (UpdateNotebookMetadata'),
     newUpdateNotebookMetadata,
-    UpdateNotebookMetadataResponse,
+    UpdateNotebookMetadataResponse (UpdateNotebookMetadataResponse'),
     newUpdateNotebookMetadataResponse,
 
     -- ** UpdatePreparedStatement
-    UpdatePreparedStatement,
+    UpdatePreparedStatement (UpdatePreparedStatement'),
     newUpdatePreparedStatement,
-    UpdatePreparedStatementResponse,
+    UpdatePreparedStatementResponse (UpdatePreparedStatementResponse'),
     newUpdatePreparedStatementResponse,
 
     -- ** UpdateWorkGroup
-    UpdateWorkGroup,
+    UpdateWorkGroup (UpdateWorkGroup'),
     newUpdateWorkGroup,
-    UpdateWorkGroupResponse,
+    UpdateWorkGroupResponse (UpdateWorkGroupResponse'),
     newUpdateWorkGroupResponse,
 
     -- * Types
@@ -460,223 +460,223 @@ module Amazonka.Athena
     WorkGroupState (..),
 
     -- ** AclConfiguration
-    AclConfiguration,
+    AclConfiguration (AclConfiguration'),
     newAclConfiguration,
 
     -- ** ApplicationDPUSizes
-    ApplicationDPUSizes,
+    ApplicationDPUSizes (ApplicationDPUSizes'),
     newApplicationDPUSizes,
 
     -- ** AthenaError
-    AthenaError,
+    AthenaError (AthenaError'),
     newAthenaError,
 
     -- ** CalculationConfiguration
-    CalculationConfiguration,
+    CalculationConfiguration (CalculationConfiguration'),
     newCalculationConfiguration,
 
     -- ** CalculationResult
-    CalculationResult,
+    CalculationResult (CalculationResult'),
     newCalculationResult,
 
     -- ** CalculationStatistics
-    CalculationStatistics,
+    CalculationStatistics (CalculationStatistics'),
     newCalculationStatistics,
 
     -- ** CalculationStatus
-    CalculationStatus,
+    CalculationStatus (CalculationStatus'),
     newCalculationStatus,
 
     -- ** CalculationSummary
-    CalculationSummary,
+    CalculationSummary (CalculationSummary'),
     newCalculationSummary,
 
     -- ** Column
-    Column,
+    Column (Column'),
     newColumn,
 
     -- ** ColumnInfo
-    ColumnInfo,
+    ColumnInfo (ColumnInfo'),
     newColumnInfo,
 
     -- ** CustomerContentEncryptionConfiguration
-    CustomerContentEncryptionConfiguration,
+    CustomerContentEncryptionConfiguration (CustomerContentEncryptionConfiguration'),
     newCustomerContentEncryptionConfiguration,
 
     -- ** DataCatalog
-    DataCatalog,
+    DataCatalog (DataCatalog'),
     newDataCatalog,
 
     -- ** DataCatalogSummary
-    DataCatalogSummary,
+    DataCatalogSummary (DataCatalogSummary'),
     newDataCatalogSummary,
 
     -- ** Database
-    Database,
+    Database (Database'),
     newDatabase,
 
     -- ** Datum
-    Datum,
+    Datum (Datum'),
     newDatum,
 
     -- ** EncryptionConfiguration
-    EncryptionConfiguration,
+    EncryptionConfiguration (EncryptionConfiguration'),
     newEncryptionConfiguration,
 
     -- ** EngineConfiguration
-    EngineConfiguration,
+    EngineConfiguration (EngineConfiguration'),
     newEngineConfiguration,
 
     -- ** EngineVersion
-    EngineVersion,
+    EngineVersion (EngineVersion'),
     newEngineVersion,
 
     -- ** ExecutorsSummary
-    ExecutorsSummary,
+    ExecutorsSummary (ExecutorsSummary'),
     newExecutorsSummary,
 
     -- ** FilterDefinition
-    FilterDefinition,
+    FilterDefinition (FilterDefinition'),
     newFilterDefinition,
 
     -- ** NamedQuery
-    NamedQuery,
+    NamedQuery (NamedQuery'),
     newNamedQuery,
 
     -- ** NotebookMetadata
-    NotebookMetadata,
+    NotebookMetadata (NotebookMetadata'),
     newNotebookMetadata,
 
     -- ** NotebookSessionSummary
-    NotebookSessionSummary,
+    NotebookSessionSummary (NotebookSessionSummary'),
     newNotebookSessionSummary,
 
     -- ** PreparedStatement
-    PreparedStatement,
+    PreparedStatement (PreparedStatement'),
     newPreparedStatement,
 
     -- ** PreparedStatementSummary
-    PreparedStatementSummary,
+    PreparedStatementSummary (PreparedStatementSummary'),
     newPreparedStatementSummary,
 
     -- ** QueryExecution
-    QueryExecution,
+    QueryExecution (QueryExecution'),
     newQueryExecution,
 
     -- ** QueryExecutionContext
-    QueryExecutionContext,
+    QueryExecutionContext (QueryExecutionContext'),
     newQueryExecutionContext,
 
     -- ** QueryExecutionStatistics
-    QueryExecutionStatistics,
+    QueryExecutionStatistics (QueryExecutionStatistics'),
     newQueryExecutionStatistics,
 
     -- ** QueryExecutionStatus
-    QueryExecutionStatus,
+    QueryExecutionStatus (QueryExecutionStatus'),
     newQueryExecutionStatus,
 
     -- ** QueryRuntimeStatistics
-    QueryRuntimeStatistics,
+    QueryRuntimeStatistics (QueryRuntimeStatistics'),
     newQueryRuntimeStatistics,
 
     -- ** QueryRuntimeStatisticsRows
-    QueryRuntimeStatisticsRows,
+    QueryRuntimeStatisticsRows (QueryRuntimeStatisticsRows'),
     newQueryRuntimeStatisticsRows,
 
     -- ** QueryRuntimeStatisticsTimeline
-    QueryRuntimeStatisticsTimeline,
+    QueryRuntimeStatisticsTimeline (QueryRuntimeStatisticsTimeline'),
     newQueryRuntimeStatisticsTimeline,
 
     -- ** QueryStage
-    QueryStage,
+    QueryStage (QueryStage'),
     newQueryStage,
 
     -- ** QueryStagePlanNode
-    QueryStagePlanNode,
+    QueryStagePlanNode (QueryStagePlanNode'),
     newQueryStagePlanNode,
 
     -- ** ResultConfiguration
-    ResultConfiguration,
+    ResultConfiguration (ResultConfiguration'),
     newResultConfiguration,
 
     -- ** ResultConfigurationUpdates
-    ResultConfigurationUpdates,
+    ResultConfigurationUpdates (ResultConfigurationUpdates'),
     newResultConfigurationUpdates,
 
     -- ** ResultReuseByAgeConfiguration
-    ResultReuseByAgeConfiguration,
+    ResultReuseByAgeConfiguration (ResultReuseByAgeConfiguration'),
     newResultReuseByAgeConfiguration,
 
     -- ** ResultReuseConfiguration
-    ResultReuseConfiguration,
+    ResultReuseConfiguration (ResultReuseConfiguration'),
     newResultReuseConfiguration,
 
     -- ** ResultReuseInformation
-    ResultReuseInformation,
+    ResultReuseInformation (ResultReuseInformation'),
     newResultReuseInformation,
 
     -- ** ResultSet
-    ResultSet,
+    ResultSet (ResultSet'),
     newResultSet,
 
     -- ** ResultSetMetadata
-    ResultSetMetadata,
+    ResultSetMetadata (ResultSetMetadata'),
     newResultSetMetadata,
 
     -- ** Row
-    Row,
+    Row (Row'),
     newRow,
 
     -- ** SessionConfiguration
-    SessionConfiguration,
+    SessionConfiguration (SessionConfiguration'),
     newSessionConfiguration,
 
     -- ** SessionStatistics
-    SessionStatistics,
+    SessionStatistics (SessionStatistics'),
     newSessionStatistics,
 
     -- ** SessionStatus
-    SessionStatus,
+    SessionStatus (SessionStatus'),
     newSessionStatus,
 
     -- ** SessionSummary
-    SessionSummary,
+    SessionSummary (SessionSummary'),
     newSessionSummary,
 
     -- ** TableMetadata
-    TableMetadata,
+    TableMetadata (TableMetadata'),
     newTableMetadata,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** UnprocessedNamedQueryId
-    UnprocessedNamedQueryId,
+    UnprocessedNamedQueryId (UnprocessedNamedQueryId'),
     newUnprocessedNamedQueryId,
 
     -- ** UnprocessedPreparedStatementName
-    UnprocessedPreparedStatementName,
+    UnprocessedPreparedStatementName (UnprocessedPreparedStatementName'),
     newUnprocessedPreparedStatementName,
 
     -- ** UnprocessedQueryExecutionId
-    UnprocessedQueryExecutionId,
+    UnprocessedQueryExecutionId (UnprocessedQueryExecutionId'),
     newUnprocessedQueryExecutionId,
 
     -- ** WorkGroup
-    WorkGroup,
+    WorkGroup (WorkGroup'),
     newWorkGroup,
 
     -- ** WorkGroupConfiguration
-    WorkGroupConfiguration,
+    WorkGroupConfiguration (WorkGroupConfiguration'),
     newWorkGroupConfiguration,
 
     -- ** WorkGroupConfigurationUpdates
-    WorkGroupConfigurationUpdates,
+    WorkGroupConfigurationUpdates (WorkGroupConfigurationUpdates'),
     newWorkGroupConfigurationUpdates,
 
     -- ** WorkGroupSummary
-    WorkGroupSummary,
+    WorkGroupSummary (WorkGroupSummary'),
     newWorkGroupSummary,
   )
 where

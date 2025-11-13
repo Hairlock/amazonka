@@ -49,183 +49,183 @@ module Amazonka.LookoutMetrics
     -- $operations
 
     -- ** ActivateAnomalyDetector
-    ActivateAnomalyDetector,
+    ActivateAnomalyDetector (ActivateAnomalyDetector'),
     newActivateAnomalyDetector,
-    ActivateAnomalyDetectorResponse,
+    ActivateAnomalyDetectorResponse (ActivateAnomalyDetectorResponse'),
     newActivateAnomalyDetectorResponse,
 
     -- ** BackTestAnomalyDetector
-    BackTestAnomalyDetector,
+    BackTestAnomalyDetector (BackTestAnomalyDetector'),
     newBackTestAnomalyDetector,
-    BackTestAnomalyDetectorResponse,
+    BackTestAnomalyDetectorResponse (BackTestAnomalyDetectorResponse'),
     newBackTestAnomalyDetectorResponse,
 
     -- ** CreateAlert
-    CreateAlert,
+    CreateAlert (CreateAlert'),
     newCreateAlert,
-    CreateAlertResponse,
+    CreateAlertResponse (CreateAlertResponse'),
     newCreateAlertResponse,
 
     -- ** CreateAnomalyDetector
-    CreateAnomalyDetector,
+    CreateAnomalyDetector (CreateAnomalyDetector'),
     newCreateAnomalyDetector,
-    CreateAnomalyDetectorResponse,
+    CreateAnomalyDetectorResponse (CreateAnomalyDetectorResponse'),
     newCreateAnomalyDetectorResponse,
 
     -- ** CreateMetricSet
-    CreateMetricSet,
+    CreateMetricSet (CreateMetricSet'),
     newCreateMetricSet,
-    CreateMetricSetResponse,
+    CreateMetricSetResponse (CreateMetricSetResponse'),
     newCreateMetricSetResponse,
 
     -- ** DeactivateAnomalyDetector
-    DeactivateAnomalyDetector,
+    DeactivateAnomalyDetector (DeactivateAnomalyDetector'),
     newDeactivateAnomalyDetector,
-    DeactivateAnomalyDetectorResponse,
+    DeactivateAnomalyDetectorResponse (DeactivateAnomalyDetectorResponse'),
     newDeactivateAnomalyDetectorResponse,
 
     -- ** DeleteAlert
-    DeleteAlert,
+    DeleteAlert (DeleteAlert'),
     newDeleteAlert,
-    DeleteAlertResponse,
+    DeleteAlertResponse (DeleteAlertResponse'),
     newDeleteAlertResponse,
 
     -- ** DeleteAnomalyDetector
-    DeleteAnomalyDetector,
+    DeleteAnomalyDetector (DeleteAnomalyDetector'),
     newDeleteAnomalyDetector,
-    DeleteAnomalyDetectorResponse,
+    DeleteAnomalyDetectorResponse (DeleteAnomalyDetectorResponse'),
     newDeleteAnomalyDetectorResponse,
 
     -- ** DescribeAlert
-    DescribeAlert,
+    DescribeAlert (DescribeAlert'),
     newDescribeAlert,
-    DescribeAlertResponse,
+    DescribeAlertResponse (DescribeAlertResponse'),
     newDescribeAlertResponse,
 
     -- ** DescribeAnomalyDetectionExecutions
-    DescribeAnomalyDetectionExecutions,
+    DescribeAnomalyDetectionExecutions (DescribeAnomalyDetectionExecutions'),
     newDescribeAnomalyDetectionExecutions,
-    DescribeAnomalyDetectionExecutionsResponse,
+    DescribeAnomalyDetectionExecutionsResponse (DescribeAnomalyDetectionExecutionsResponse'),
     newDescribeAnomalyDetectionExecutionsResponse,
 
     -- ** DescribeAnomalyDetector
-    DescribeAnomalyDetector,
+    DescribeAnomalyDetector (DescribeAnomalyDetector'),
     newDescribeAnomalyDetector,
-    DescribeAnomalyDetectorResponse,
+    DescribeAnomalyDetectorResponse (DescribeAnomalyDetectorResponse'),
     newDescribeAnomalyDetectorResponse,
 
     -- ** DescribeMetricSet
-    DescribeMetricSet,
+    DescribeMetricSet (DescribeMetricSet'),
     newDescribeMetricSet,
-    DescribeMetricSetResponse,
+    DescribeMetricSetResponse (DescribeMetricSetResponse'),
     newDescribeMetricSetResponse,
 
     -- ** DetectMetricSetConfig
-    DetectMetricSetConfig,
+    DetectMetricSetConfig (DetectMetricSetConfig'),
     newDetectMetricSetConfig,
-    DetectMetricSetConfigResponse,
+    DetectMetricSetConfigResponse (DetectMetricSetConfigResponse'),
     newDetectMetricSetConfigResponse,
 
     -- ** GetAnomalyGroup
-    GetAnomalyGroup,
+    GetAnomalyGroup (GetAnomalyGroup'),
     newGetAnomalyGroup,
-    GetAnomalyGroupResponse,
+    GetAnomalyGroupResponse (GetAnomalyGroupResponse'),
     newGetAnomalyGroupResponse,
 
     -- ** GetDataQualityMetrics
-    GetDataQualityMetrics,
+    GetDataQualityMetrics (GetDataQualityMetrics'),
     newGetDataQualityMetrics,
-    GetDataQualityMetricsResponse,
+    GetDataQualityMetricsResponse (GetDataQualityMetricsResponse'),
     newGetDataQualityMetricsResponse,
 
     -- ** GetFeedback
-    GetFeedback,
+    GetFeedback (GetFeedback'),
     newGetFeedback,
-    GetFeedbackResponse,
+    GetFeedbackResponse (GetFeedbackResponse'),
     newGetFeedbackResponse,
 
     -- ** GetSampleData
-    GetSampleData,
+    GetSampleData (GetSampleData'),
     newGetSampleData,
-    GetSampleDataResponse,
+    GetSampleDataResponse (GetSampleDataResponse'),
     newGetSampleDataResponse,
 
     -- ** ListAlerts
-    ListAlerts,
+    ListAlerts (ListAlerts'),
     newListAlerts,
-    ListAlertsResponse,
+    ListAlertsResponse (ListAlertsResponse'),
     newListAlertsResponse,
 
     -- ** ListAnomalyDetectors
-    ListAnomalyDetectors,
+    ListAnomalyDetectors (ListAnomalyDetectors'),
     newListAnomalyDetectors,
-    ListAnomalyDetectorsResponse,
+    ListAnomalyDetectorsResponse (ListAnomalyDetectorsResponse'),
     newListAnomalyDetectorsResponse,
 
     -- ** ListAnomalyGroupRelatedMetrics
-    ListAnomalyGroupRelatedMetrics,
+    ListAnomalyGroupRelatedMetrics (ListAnomalyGroupRelatedMetrics'),
     newListAnomalyGroupRelatedMetrics,
-    ListAnomalyGroupRelatedMetricsResponse,
+    ListAnomalyGroupRelatedMetricsResponse (ListAnomalyGroupRelatedMetricsResponse'),
     newListAnomalyGroupRelatedMetricsResponse,
 
     -- ** ListAnomalyGroupSummaries
-    ListAnomalyGroupSummaries,
+    ListAnomalyGroupSummaries (ListAnomalyGroupSummaries'),
     newListAnomalyGroupSummaries,
-    ListAnomalyGroupSummariesResponse,
+    ListAnomalyGroupSummariesResponse (ListAnomalyGroupSummariesResponse'),
     newListAnomalyGroupSummariesResponse,
 
     -- ** ListAnomalyGroupTimeSeries
-    ListAnomalyGroupTimeSeries,
+    ListAnomalyGroupTimeSeries (ListAnomalyGroupTimeSeries'),
     newListAnomalyGroupTimeSeries,
-    ListAnomalyGroupTimeSeriesResponse,
+    ListAnomalyGroupTimeSeriesResponse (ListAnomalyGroupTimeSeriesResponse'),
     newListAnomalyGroupTimeSeriesResponse,
 
     -- ** ListMetricSets
-    ListMetricSets,
+    ListMetricSets (ListMetricSets'),
     newListMetricSets,
-    ListMetricSetsResponse,
+    ListMetricSetsResponse (ListMetricSetsResponse'),
     newListMetricSetsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** PutFeedback
-    PutFeedback,
+    PutFeedback (PutFeedback'),
     newPutFeedback,
-    PutFeedbackResponse,
+    PutFeedbackResponse (PutFeedbackResponse'),
     newPutFeedbackResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateAlert
-    UpdateAlert,
+    UpdateAlert (UpdateAlert'),
     newUpdateAlert,
-    UpdateAlertResponse,
+    UpdateAlertResponse (UpdateAlertResponse'),
     newUpdateAlertResponse,
 
     -- ** UpdateAnomalyDetector
-    UpdateAnomalyDetector,
+    UpdateAnomalyDetector (UpdateAnomalyDetector'),
     newUpdateAnomalyDetector,
-    UpdateAnomalyDetectorResponse,
+    UpdateAnomalyDetectorResponse (UpdateAnomalyDetectorResponse'),
     newUpdateAnomalyDetectorResponse,
 
     -- ** UpdateMetricSet
-    UpdateMetricSet,
+    UpdateMetricSet (UpdateMetricSet'),
     newUpdateMetricSet,
-    UpdateMetricSetResponse,
+    UpdateMetricSetResponse (UpdateMetricSetResponse'),
     newUpdateMetricSetResponse,
 
     -- * Types
@@ -273,227 +273,227 @@ module Amazonka.LookoutMetrics
     SnsFormat (..),
 
     -- ** Action
-    Action,
+    Action (Action'),
     newAction,
 
     -- ** Alert
-    Alert,
+    Alert (Alert'),
     newAlert,
 
     -- ** AlertFilters
-    AlertFilters,
+    AlertFilters (AlertFilters'),
     newAlertFilters,
 
     -- ** AlertSummary
-    AlertSummary,
+    AlertSummary (AlertSummary'),
     newAlertSummary,
 
     -- ** AnomalyDetectorConfig
-    AnomalyDetectorConfig,
+    AnomalyDetectorConfig (AnomalyDetectorConfig'),
     newAnomalyDetectorConfig,
 
     -- ** AnomalyDetectorConfigSummary
-    AnomalyDetectorConfigSummary,
+    AnomalyDetectorConfigSummary (AnomalyDetectorConfigSummary'),
     newAnomalyDetectorConfigSummary,
 
     -- ** AnomalyDetectorDataQualityMetric
-    AnomalyDetectorDataQualityMetric,
+    AnomalyDetectorDataQualityMetric (AnomalyDetectorDataQualityMetric'),
     newAnomalyDetectorDataQualityMetric,
 
     -- ** AnomalyDetectorSummary
-    AnomalyDetectorSummary,
+    AnomalyDetectorSummary (AnomalyDetectorSummary'),
     newAnomalyDetectorSummary,
 
     -- ** AnomalyGroup
-    AnomalyGroup,
+    AnomalyGroup (AnomalyGroup'),
     newAnomalyGroup,
 
     -- ** AnomalyGroupStatistics
-    AnomalyGroupStatistics,
+    AnomalyGroupStatistics (AnomalyGroupStatistics'),
     newAnomalyGroupStatistics,
 
     -- ** AnomalyGroupSummary
-    AnomalyGroupSummary,
+    AnomalyGroupSummary (AnomalyGroupSummary'),
     newAnomalyGroupSummary,
 
     -- ** AnomalyGroupTimeSeries
-    AnomalyGroupTimeSeries,
+    AnomalyGroupTimeSeries (AnomalyGroupTimeSeries'),
     newAnomalyGroupTimeSeries,
 
     -- ** AnomalyGroupTimeSeriesFeedback
-    AnomalyGroupTimeSeriesFeedback,
+    AnomalyGroupTimeSeriesFeedback (AnomalyGroupTimeSeriesFeedback'),
     newAnomalyGroupTimeSeriesFeedback,
 
     -- ** AppFlowConfig
-    AppFlowConfig,
+    AppFlowConfig (AppFlowConfig'),
     newAppFlowConfig,
 
     -- ** AthenaSourceConfig
-    AthenaSourceConfig,
+    AthenaSourceConfig (AthenaSourceConfig'),
     newAthenaSourceConfig,
 
     -- ** AttributeValue
-    AttributeValue,
+    AttributeValue (AttributeValue'),
     newAttributeValue,
 
     -- ** AutoDetectionMetricSource
-    AutoDetectionMetricSource,
+    AutoDetectionMetricSource (AutoDetectionMetricSource'),
     newAutoDetectionMetricSource,
 
     -- ** AutoDetectionS3SourceConfig
-    AutoDetectionS3SourceConfig,
+    AutoDetectionS3SourceConfig (AutoDetectionS3SourceConfig'),
     newAutoDetectionS3SourceConfig,
 
     -- ** BackTestConfiguration
-    BackTestConfiguration,
+    BackTestConfiguration (BackTestConfiguration'),
     newBackTestConfiguration,
 
     -- ** CloudWatchConfig
-    CloudWatchConfig,
+    CloudWatchConfig (CloudWatchConfig'),
     newCloudWatchConfig,
 
     -- ** ContributionMatrix
-    ContributionMatrix,
+    ContributionMatrix (ContributionMatrix'),
     newContributionMatrix,
 
     -- ** CsvFormatDescriptor
-    CsvFormatDescriptor,
+    CsvFormatDescriptor (CsvFormatDescriptor'),
     newCsvFormatDescriptor,
 
     -- ** DataQualityMetric
-    DataQualityMetric,
+    DataQualityMetric (DataQualityMetric'),
     newDataQualityMetric,
 
     -- ** DetectedCsvFormatDescriptor
-    DetectedCsvFormatDescriptor,
+    DetectedCsvFormatDescriptor (DetectedCsvFormatDescriptor'),
     newDetectedCsvFormatDescriptor,
 
     -- ** DetectedField
-    DetectedField,
+    DetectedField (DetectedField'),
     newDetectedField,
 
     -- ** DetectedFileFormatDescriptor
-    DetectedFileFormatDescriptor,
+    DetectedFileFormatDescriptor (DetectedFileFormatDescriptor'),
     newDetectedFileFormatDescriptor,
 
     -- ** DetectedJsonFormatDescriptor
-    DetectedJsonFormatDescriptor,
+    DetectedJsonFormatDescriptor (DetectedJsonFormatDescriptor'),
     newDetectedJsonFormatDescriptor,
 
     -- ** DetectedMetricSetConfig
-    DetectedMetricSetConfig,
+    DetectedMetricSetConfig (DetectedMetricSetConfig'),
     newDetectedMetricSetConfig,
 
     -- ** DetectedMetricSource
-    DetectedMetricSource,
+    DetectedMetricSource (DetectedMetricSource'),
     newDetectedMetricSource,
 
     -- ** DetectedS3SourceConfig
-    DetectedS3SourceConfig,
+    DetectedS3SourceConfig (DetectedS3SourceConfig'),
     newDetectedS3SourceConfig,
 
     -- ** DimensionContribution
-    DimensionContribution,
+    DimensionContribution (DimensionContribution'),
     newDimensionContribution,
 
     -- ** DimensionFilter
-    DimensionFilter,
+    DimensionFilter (DimensionFilter'),
     newDimensionFilter,
 
     -- ** DimensionNameValue
-    DimensionNameValue,
+    DimensionNameValue (DimensionNameValue'),
     newDimensionNameValue,
 
     -- ** DimensionValueContribution
-    DimensionValueContribution,
+    DimensionValueContribution (DimensionValueContribution'),
     newDimensionValueContribution,
 
     -- ** ExecutionStatus
-    ExecutionStatus,
+    ExecutionStatus (ExecutionStatus'),
     newExecutionStatus,
 
     -- ** FileFormatDescriptor
-    FileFormatDescriptor,
+    FileFormatDescriptor (FileFormatDescriptor'),
     newFileFormatDescriptor,
 
     -- ** Filter
-    Filter,
+    Filter (Filter'),
     newFilter,
 
     -- ** InterMetricImpactDetails
-    InterMetricImpactDetails,
+    InterMetricImpactDetails (InterMetricImpactDetails'),
     newInterMetricImpactDetails,
 
     -- ** ItemizedMetricStats
-    ItemizedMetricStats,
+    ItemizedMetricStats (ItemizedMetricStats'),
     newItemizedMetricStats,
 
     -- ** JsonFormatDescriptor
-    JsonFormatDescriptor,
+    JsonFormatDescriptor (JsonFormatDescriptor'),
     newJsonFormatDescriptor,
 
     -- ** LambdaConfiguration
-    LambdaConfiguration,
+    LambdaConfiguration (LambdaConfiguration'),
     newLambdaConfiguration,
 
     -- ** Metric
-    Metric,
+    Metric (Metric'),
     newMetric,
 
     -- ** MetricLevelImpact
-    MetricLevelImpact,
+    MetricLevelImpact (MetricLevelImpact'),
     newMetricLevelImpact,
 
     -- ** MetricSetDataQualityMetric
-    MetricSetDataQualityMetric,
+    MetricSetDataQualityMetric (MetricSetDataQualityMetric'),
     newMetricSetDataQualityMetric,
 
     -- ** MetricSetDimensionFilter
-    MetricSetDimensionFilter,
+    MetricSetDimensionFilter (MetricSetDimensionFilter'),
     newMetricSetDimensionFilter,
 
     -- ** MetricSetSummary
-    MetricSetSummary,
+    MetricSetSummary (MetricSetSummary'),
     newMetricSetSummary,
 
     -- ** MetricSource
-    MetricSource,
+    MetricSource (MetricSource'),
     newMetricSource,
 
     -- ** RDSSourceConfig
-    RDSSourceConfig,
+    RDSSourceConfig (RDSSourceConfig'),
     newRDSSourceConfig,
 
     -- ** RedshiftSourceConfig
-    RedshiftSourceConfig,
+    RedshiftSourceConfig (RedshiftSourceConfig'),
     newRedshiftSourceConfig,
 
     -- ** S3SourceConfig
-    S3SourceConfig,
+    S3SourceConfig (S3SourceConfig'),
     newS3SourceConfig,
 
     -- ** SNSConfiguration
-    SNSConfiguration,
+    SNSConfiguration (SNSConfiguration'),
     newSNSConfiguration,
 
     -- ** SampleDataS3SourceConfig
-    SampleDataS3SourceConfig,
+    SampleDataS3SourceConfig (SampleDataS3SourceConfig'),
     newSampleDataS3SourceConfig,
 
     -- ** TimeSeries
-    TimeSeries,
+    TimeSeries (TimeSeries'),
     newTimeSeries,
 
     -- ** TimeSeriesFeedback
-    TimeSeriesFeedback,
+    TimeSeriesFeedback (TimeSeriesFeedback'),
     newTimeSeriesFeedback,
 
     -- ** TimestampColumn
-    TimestampColumn,
+    TimestampColumn (TimestampColumn'),
     newTimestampColumn,
 
     -- ** VpcConfiguration
-    VpcConfiguration,
+    VpcConfiguration (VpcConfiguration'),
     newVpcConfiguration,
   )
 where

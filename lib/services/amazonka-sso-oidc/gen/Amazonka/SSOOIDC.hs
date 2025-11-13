@@ -103,21 +103,21 @@ module Amazonka.SSOOIDC
     -- $operations
 
     -- ** CreateToken
-    CreateToken,
+    CreateToken (CreateToken'),
     newCreateToken,
-    CreateTokenResponse,
+    CreateTokenResponse (CreateTokenResponse'),
     newCreateTokenResponse,
 
     -- ** RegisterClient
-    RegisterClient,
+    RegisterClient (RegisterClient'),
     newRegisterClient,
-    RegisterClientResponse,
+    RegisterClientResponse (RegisterClientResponse'),
     newRegisterClientResponse,
 
     -- ** StartDeviceAuthorization
-    StartDeviceAuthorization,
+    StartDeviceAuthorization (StartDeviceAuthorization'),
     newStartDeviceAuthorization,
-    StartDeviceAuthorizationResponse,
+    StartDeviceAuthorizationResponse (StartDeviceAuthorizationResponse'),
     newStartDeviceAuthorizationResponse,
 
     -- * Types

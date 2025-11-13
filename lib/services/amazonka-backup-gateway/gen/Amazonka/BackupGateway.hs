@@ -59,153 +59,153 @@ module Amazonka.BackupGateway
     -- $operations
 
     -- ** AssociateGatewayToServer
-    AssociateGatewayToServer,
+    AssociateGatewayToServer (AssociateGatewayToServer'),
     newAssociateGatewayToServer,
-    AssociateGatewayToServerResponse,
+    AssociateGatewayToServerResponse (AssociateGatewayToServerResponse'),
     newAssociateGatewayToServerResponse,
 
     -- ** CreateGateway
-    CreateGateway,
+    CreateGateway (CreateGateway'),
     newCreateGateway,
-    CreateGatewayResponse,
+    CreateGatewayResponse (CreateGatewayResponse'),
     newCreateGatewayResponse,
 
     -- ** DeleteGateway
-    DeleteGateway,
+    DeleteGateway (DeleteGateway'),
     newDeleteGateway,
-    DeleteGatewayResponse,
+    DeleteGatewayResponse (DeleteGatewayResponse'),
     newDeleteGatewayResponse,
 
     -- ** DeleteHypervisor
-    DeleteHypervisor,
+    DeleteHypervisor (DeleteHypervisor'),
     newDeleteHypervisor,
-    DeleteHypervisorResponse,
+    DeleteHypervisorResponse (DeleteHypervisorResponse'),
     newDeleteHypervisorResponse,
 
     -- ** DisassociateGatewayFromServer
-    DisassociateGatewayFromServer,
+    DisassociateGatewayFromServer (DisassociateGatewayFromServer'),
     newDisassociateGatewayFromServer,
-    DisassociateGatewayFromServerResponse,
+    DisassociateGatewayFromServerResponse (DisassociateGatewayFromServerResponse'),
     newDisassociateGatewayFromServerResponse,
 
     -- ** GetBandwidthRateLimitSchedule
-    GetBandwidthRateLimitSchedule,
+    GetBandwidthRateLimitSchedule (GetBandwidthRateLimitSchedule'),
     newGetBandwidthRateLimitSchedule,
-    GetBandwidthRateLimitScheduleResponse,
+    GetBandwidthRateLimitScheduleResponse (GetBandwidthRateLimitScheduleResponse'),
     newGetBandwidthRateLimitScheduleResponse,
 
     -- ** GetGateway
-    GetGateway,
+    GetGateway (GetGateway'),
     newGetGateway,
-    GetGatewayResponse,
+    GetGatewayResponse (GetGatewayResponse'),
     newGetGatewayResponse,
 
     -- ** GetHypervisor
-    GetHypervisor,
+    GetHypervisor (GetHypervisor'),
     newGetHypervisor,
-    GetHypervisorResponse,
+    GetHypervisorResponse (GetHypervisorResponse'),
     newGetHypervisorResponse,
 
     -- ** GetHypervisorPropertyMappings
-    GetHypervisorPropertyMappings,
+    GetHypervisorPropertyMappings (GetHypervisorPropertyMappings'),
     newGetHypervisorPropertyMappings,
-    GetHypervisorPropertyMappingsResponse,
+    GetHypervisorPropertyMappingsResponse (GetHypervisorPropertyMappingsResponse'),
     newGetHypervisorPropertyMappingsResponse,
 
     -- ** GetVirtualMachine
-    GetVirtualMachine,
+    GetVirtualMachine (GetVirtualMachine'),
     newGetVirtualMachine,
-    GetVirtualMachineResponse,
+    GetVirtualMachineResponse (GetVirtualMachineResponse'),
     newGetVirtualMachineResponse,
 
     -- ** ImportHypervisorConfiguration
-    ImportHypervisorConfiguration,
+    ImportHypervisorConfiguration (ImportHypervisorConfiguration'),
     newImportHypervisorConfiguration,
-    ImportHypervisorConfigurationResponse,
+    ImportHypervisorConfigurationResponse (ImportHypervisorConfigurationResponse'),
     newImportHypervisorConfigurationResponse,
 
     -- ** ListGateways (Paginated)
-    ListGateways,
+    ListGateways (ListGateways'),
     newListGateways,
-    ListGatewaysResponse,
+    ListGatewaysResponse (ListGatewaysResponse'),
     newListGatewaysResponse,
 
     -- ** ListHypervisors (Paginated)
-    ListHypervisors,
+    ListHypervisors (ListHypervisors'),
     newListHypervisors,
-    ListHypervisorsResponse,
+    ListHypervisorsResponse (ListHypervisorsResponse'),
     newListHypervisorsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** ListVirtualMachines (Paginated)
-    ListVirtualMachines,
+    ListVirtualMachines (ListVirtualMachines'),
     newListVirtualMachines,
-    ListVirtualMachinesResponse,
+    ListVirtualMachinesResponse (ListVirtualMachinesResponse'),
     newListVirtualMachinesResponse,
 
     -- ** PutBandwidthRateLimitSchedule
-    PutBandwidthRateLimitSchedule,
+    PutBandwidthRateLimitSchedule (PutBandwidthRateLimitSchedule'),
     newPutBandwidthRateLimitSchedule,
-    PutBandwidthRateLimitScheduleResponse,
+    PutBandwidthRateLimitScheduleResponse (PutBandwidthRateLimitScheduleResponse'),
     newPutBandwidthRateLimitScheduleResponse,
 
     -- ** PutHypervisorPropertyMappings
-    PutHypervisorPropertyMappings,
+    PutHypervisorPropertyMappings (PutHypervisorPropertyMappings'),
     newPutHypervisorPropertyMappings,
-    PutHypervisorPropertyMappingsResponse,
+    PutHypervisorPropertyMappingsResponse (PutHypervisorPropertyMappingsResponse'),
     newPutHypervisorPropertyMappingsResponse,
 
     -- ** PutMaintenanceStartTime
-    PutMaintenanceStartTime,
+    PutMaintenanceStartTime (PutMaintenanceStartTime'),
     newPutMaintenanceStartTime,
-    PutMaintenanceStartTimeResponse,
+    PutMaintenanceStartTimeResponse (PutMaintenanceStartTimeResponse'),
     newPutMaintenanceStartTimeResponse,
 
     -- ** StartVirtualMachinesMetadataSync
-    StartVirtualMachinesMetadataSync,
+    StartVirtualMachinesMetadataSync (StartVirtualMachinesMetadataSync'),
     newStartVirtualMachinesMetadataSync,
-    StartVirtualMachinesMetadataSyncResponse,
+    StartVirtualMachinesMetadataSyncResponse (StartVirtualMachinesMetadataSyncResponse'),
     newStartVirtualMachinesMetadataSyncResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** TestHypervisorConfiguration
-    TestHypervisorConfiguration,
+    TestHypervisorConfiguration (TestHypervisorConfiguration'),
     newTestHypervisorConfiguration,
-    TestHypervisorConfigurationResponse,
+    TestHypervisorConfigurationResponse (TestHypervisorConfigurationResponse'),
     newTestHypervisorConfigurationResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateGatewayInformation
-    UpdateGatewayInformation,
+    UpdateGatewayInformation (UpdateGatewayInformation'),
     newUpdateGatewayInformation,
-    UpdateGatewayInformationResponse,
+    UpdateGatewayInformationResponse (UpdateGatewayInformationResponse'),
     newUpdateGatewayInformationResponse,
 
     -- ** UpdateGatewaySoftwareNow
-    UpdateGatewaySoftwareNow,
+    UpdateGatewaySoftwareNow (UpdateGatewaySoftwareNow'),
     newUpdateGatewaySoftwareNow,
-    UpdateGatewaySoftwareNowResponse,
+    UpdateGatewaySoftwareNowResponse (UpdateGatewaySoftwareNowResponse'),
     newUpdateGatewaySoftwareNowResponse,
 
     -- ** UpdateHypervisor
-    UpdateHypervisor,
+    UpdateHypervisor (UpdateHypervisor'),
     newUpdateHypervisor,
-    UpdateHypervisorResponse,
+    UpdateHypervisorResponse (UpdateHypervisorResponse'),
     newUpdateHypervisorResponse,
 
     -- * Types
@@ -220,47 +220,47 @@ module Amazonka.BackupGateway
     SyncMetadataStatus (..),
 
     -- ** BandwidthRateLimitInterval
-    BandwidthRateLimitInterval,
+    BandwidthRateLimitInterval (BandwidthRateLimitInterval'),
     newBandwidthRateLimitInterval,
 
     -- ** Gateway
-    Gateway,
+    Gateway (Gateway'),
     newGateway,
 
     -- ** GatewayDetails
-    GatewayDetails,
+    GatewayDetails (GatewayDetails'),
     newGatewayDetails,
 
     -- ** Hypervisor
-    Hypervisor,
+    Hypervisor (Hypervisor'),
     newHypervisor,
 
     -- ** HypervisorDetails
-    HypervisorDetails,
+    HypervisorDetails (HypervisorDetails'),
     newHypervisorDetails,
 
     -- ** MaintenanceStartTime
-    MaintenanceStartTime,
+    MaintenanceStartTime (MaintenanceStartTime'),
     newMaintenanceStartTime,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** VirtualMachine
-    VirtualMachine,
+    VirtualMachine (VirtualMachine'),
     newVirtualMachine,
 
     -- ** VirtualMachineDetails
-    VirtualMachineDetails,
+    VirtualMachineDetails (VirtualMachineDetails'),
     newVirtualMachineDetails,
 
     -- ** VmwareTag
-    VmwareTag,
+    VmwareTag (VmwareTag'),
     newVmwareTag,
 
     -- ** VmwareToAwsTagMapping
-    VmwareToAwsTagMapping,
+    VmwareToAwsTagMapping (VmwareToAwsTagMapping'),
     newVmwareToAwsTagMapping,
   )
 where

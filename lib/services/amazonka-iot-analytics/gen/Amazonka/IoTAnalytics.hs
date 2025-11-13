@@ -72,207 +72,207 @@ module Amazonka.IoTAnalytics
     -- $operations
 
     -- ** BatchPutMessage
-    BatchPutMessage,
+    BatchPutMessage (BatchPutMessage'),
     newBatchPutMessage,
-    BatchPutMessageResponse,
+    BatchPutMessageResponse (BatchPutMessageResponse'),
     newBatchPutMessageResponse,
 
     -- ** CancelPipelineReprocessing
-    CancelPipelineReprocessing,
+    CancelPipelineReprocessing (CancelPipelineReprocessing'),
     newCancelPipelineReprocessing,
-    CancelPipelineReprocessingResponse,
+    CancelPipelineReprocessingResponse (CancelPipelineReprocessingResponse'),
     newCancelPipelineReprocessingResponse,
 
     -- ** CreateChannel
-    CreateChannel,
+    CreateChannel (CreateChannel'),
     newCreateChannel,
-    CreateChannelResponse,
+    CreateChannelResponse (CreateChannelResponse'),
     newCreateChannelResponse,
 
     -- ** CreateDataset
-    CreateDataset,
+    CreateDataset (CreateDataset'),
     newCreateDataset,
-    CreateDatasetResponse,
+    CreateDatasetResponse (CreateDatasetResponse'),
     newCreateDatasetResponse,
 
     -- ** CreateDatasetContent
-    CreateDatasetContent,
+    CreateDatasetContent (CreateDatasetContent'),
     newCreateDatasetContent,
-    CreateDatasetContentResponse,
+    CreateDatasetContentResponse (CreateDatasetContentResponse'),
     newCreateDatasetContentResponse,
 
     -- ** CreateDatastore
-    CreateDatastore,
+    CreateDatastore (CreateDatastore'),
     newCreateDatastore,
-    CreateDatastoreResponse,
+    CreateDatastoreResponse (CreateDatastoreResponse'),
     newCreateDatastoreResponse,
 
     -- ** CreatePipeline
-    CreatePipeline,
+    CreatePipeline (CreatePipeline'),
     newCreatePipeline,
-    CreatePipelineResponse,
+    CreatePipelineResponse (CreatePipelineResponse'),
     newCreatePipelineResponse,
 
     -- ** DeleteChannel
-    DeleteChannel,
+    DeleteChannel (DeleteChannel'),
     newDeleteChannel,
-    DeleteChannelResponse,
+    DeleteChannelResponse (DeleteChannelResponse'),
     newDeleteChannelResponse,
 
     -- ** DeleteDataset
-    DeleteDataset,
+    DeleteDataset (DeleteDataset'),
     newDeleteDataset,
-    DeleteDatasetResponse,
+    DeleteDatasetResponse (DeleteDatasetResponse'),
     newDeleteDatasetResponse,
 
     -- ** DeleteDatasetContent
-    DeleteDatasetContent,
+    DeleteDatasetContent (DeleteDatasetContent'),
     newDeleteDatasetContent,
-    DeleteDatasetContentResponse,
+    DeleteDatasetContentResponse (DeleteDatasetContentResponse'),
     newDeleteDatasetContentResponse,
 
     -- ** DeleteDatastore
-    DeleteDatastore,
+    DeleteDatastore (DeleteDatastore'),
     newDeleteDatastore,
-    DeleteDatastoreResponse,
+    DeleteDatastoreResponse (DeleteDatastoreResponse'),
     newDeleteDatastoreResponse,
 
     -- ** DeletePipeline
-    DeletePipeline,
+    DeletePipeline (DeletePipeline'),
     newDeletePipeline,
-    DeletePipelineResponse,
+    DeletePipelineResponse (DeletePipelineResponse'),
     newDeletePipelineResponse,
 
     -- ** DescribeChannel
-    DescribeChannel,
+    DescribeChannel (DescribeChannel'),
     newDescribeChannel,
-    DescribeChannelResponse,
+    DescribeChannelResponse (DescribeChannelResponse'),
     newDescribeChannelResponse,
 
     -- ** DescribeDataset
-    DescribeDataset,
+    DescribeDataset (DescribeDataset'),
     newDescribeDataset,
-    DescribeDatasetResponse,
+    DescribeDatasetResponse (DescribeDatasetResponse'),
     newDescribeDatasetResponse,
 
     -- ** DescribeDatastore
-    DescribeDatastore,
+    DescribeDatastore (DescribeDatastore'),
     newDescribeDatastore,
-    DescribeDatastoreResponse,
+    DescribeDatastoreResponse (DescribeDatastoreResponse'),
     newDescribeDatastoreResponse,
 
     -- ** DescribeLoggingOptions
-    DescribeLoggingOptions,
+    DescribeLoggingOptions (DescribeLoggingOptions'),
     newDescribeLoggingOptions,
-    DescribeLoggingOptionsResponse,
+    DescribeLoggingOptionsResponse (DescribeLoggingOptionsResponse'),
     newDescribeLoggingOptionsResponse,
 
     -- ** DescribePipeline
-    DescribePipeline,
+    DescribePipeline (DescribePipeline'),
     newDescribePipeline,
-    DescribePipelineResponse,
+    DescribePipelineResponse (DescribePipelineResponse'),
     newDescribePipelineResponse,
 
     -- ** GetDatasetContent
-    GetDatasetContent,
+    GetDatasetContent (GetDatasetContent'),
     newGetDatasetContent,
-    GetDatasetContentResponse,
+    GetDatasetContentResponse (GetDatasetContentResponse'),
     newGetDatasetContentResponse,
 
     -- ** ListChannels (Paginated)
-    ListChannels,
+    ListChannels (ListChannels'),
     newListChannels,
-    ListChannelsResponse,
+    ListChannelsResponse (ListChannelsResponse'),
     newListChannelsResponse,
 
     -- ** ListDatasetContents (Paginated)
-    ListDatasetContents,
+    ListDatasetContents (ListDatasetContents'),
     newListDatasetContents,
-    ListDatasetContentsResponse,
+    ListDatasetContentsResponse (ListDatasetContentsResponse'),
     newListDatasetContentsResponse,
 
     -- ** ListDatasets (Paginated)
-    ListDatasets,
+    ListDatasets (ListDatasets'),
     newListDatasets,
-    ListDatasetsResponse,
+    ListDatasetsResponse (ListDatasetsResponse'),
     newListDatasetsResponse,
 
     -- ** ListDatastores (Paginated)
-    ListDatastores,
+    ListDatastores (ListDatastores'),
     newListDatastores,
-    ListDatastoresResponse,
+    ListDatastoresResponse (ListDatastoresResponse'),
     newListDatastoresResponse,
 
     -- ** ListPipelines (Paginated)
-    ListPipelines,
+    ListPipelines (ListPipelines'),
     newListPipelines,
-    ListPipelinesResponse,
+    ListPipelinesResponse (ListPipelinesResponse'),
     newListPipelinesResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** PutLoggingOptions
-    PutLoggingOptions,
+    PutLoggingOptions (PutLoggingOptions'),
     newPutLoggingOptions,
-    PutLoggingOptionsResponse,
+    PutLoggingOptionsResponse (PutLoggingOptionsResponse'),
     newPutLoggingOptionsResponse,
 
     -- ** RunPipelineActivity
-    RunPipelineActivity,
+    RunPipelineActivity (RunPipelineActivity'),
     newRunPipelineActivity,
-    RunPipelineActivityResponse,
+    RunPipelineActivityResponse (RunPipelineActivityResponse'),
     newRunPipelineActivityResponse,
 
     -- ** SampleChannelData
-    SampleChannelData,
+    SampleChannelData (SampleChannelData'),
     newSampleChannelData,
-    SampleChannelDataResponse,
+    SampleChannelDataResponse (SampleChannelDataResponse'),
     newSampleChannelDataResponse,
 
     -- ** StartPipelineReprocessing
-    StartPipelineReprocessing,
+    StartPipelineReprocessing (StartPipelineReprocessing'),
     newStartPipelineReprocessing,
-    StartPipelineReprocessingResponse,
+    StartPipelineReprocessingResponse (StartPipelineReprocessingResponse'),
     newStartPipelineReprocessingResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateChannel
-    UpdateChannel,
+    UpdateChannel (UpdateChannel'),
     newUpdateChannel,
-    UpdateChannelResponse,
+    UpdateChannelResponse (UpdateChannelResponse'),
     newUpdateChannelResponse,
 
     -- ** UpdateDataset
-    UpdateDataset,
+    UpdateDataset (UpdateDataset'),
     newUpdateDataset,
-    UpdateDatasetResponse,
+    UpdateDatasetResponse (UpdateDatasetResponse'),
     newUpdateDatasetResponse,
 
     -- ** UpdateDatastore
-    UpdateDatastore,
+    UpdateDatastore (UpdateDatastore'),
     newUpdateDatastore,
-    UpdateDatastoreResponse,
+    UpdateDatastoreResponse (UpdateDatastoreResponse'),
     newUpdateDatastoreResponse,
 
     -- ** UpdatePipeline
-    UpdatePipeline,
+    UpdatePipeline (UpdatePipeline'),
     newUpdatePipeline,
-    UpdatePipelineResponse,
+    UpdatePipelineResponse (UpdatePipelineResponse'),
     newUpdatePipelineResponse,
 
     -- * Types
@@ -305,319 +305,319 @@ module Amazonka.IoTAnalytics
     ReprocessingStatus (..),
 
     -- ** AddAttributesActivity
-    AddAttributesActivity,
+    AddAttributesActivity (AddAttributesActivity'),
     newAddAttributesActivity,
 
     -- ** BatchPutMessageErrorEntry
-    BatchPutMessageErrorEntry,
+    BatchPutMessageErrorEntry (BatchPutMessageErrorEntry'),
     newBatchPutMessageErrorEntry,
 
     -- ** Channel
-    Channel,
+    Channel (Channel'),
     newChannel,
 
     -- ** ChannelActivity
-    ChannelActivity,
+    ChannelActivity (ChannelActivity'),
     newChannelActivity,
 
     -- ** ChannelMessages
-    ChannelMessages,
+    ChannelMessages (ChannelMessages'),
     newChannelMessages,
 
     -- ** ChannelStatistics
-    ChannelStatistics,
+    ChannelStatistics (ChannelStatistics'),
     newChannelStatistics,
 
     -- ** ChannelStorage
-    ChannelStorage,
+    ChannelStorage (ChannelStorage'),
     newChannelStorage,
 
     -- ** ChannelStorageSummary
-    ChannelStorageSummary,
+    ChannelStorageSummary (ChannelStorageSummary'),
     newChannelStorageSummary,
 
     -- ** ChannelSummary
-    ChannelSummary,
+    ChannelSummary (ChannelSummary'),
     newChannelSummary,
 
     -- ** Column
-    Column,
+    Column (Column'),
     newColumn,
 
     -- ** ContainerDatasetAction
-    ContainerDatasetAction,
+    ContainerDatasetAction (ContainerDatasetAction'),
     newContainerDatasetAction,
 
     -- ** CustomerManagedChannelS3Storage
-    CustomerManagedChannelS3Storage,
+    CustomerManagedChannelS3Storage (CustomerManagedChannelS3Storage'),
     newCustomerManagedChannelS3Storage,
 
     -- ** CustomerManagedChannelS3StorageSummary
-    CustomerManagedChannelS3StorageSummary,
+    CustomerManagedChannelS3StorageSummary (CustomerManagedChannelS3StorageSummary'),
     newCustomerManagedChannelS3StorageSummary,
 
     -- ** CustomerManagedDatastoreS3Storage
-    CustomerManagedDatastoreS3Storage,
+    CustomerManagedDatastoreS3Storage (CustomerManagedDatastoreS3Storage'),
     newCustomerManagedDatastoreS3Storage,
 
     -- ** CustomerManagedDatastoreS3StorageSummary
-    CustomerManagedDatastoreS3StorageSummary,
+    CustomerManagedDatastoreS3StorageSummary (CustomerManagedDatastoreS3StorageSummary'),
     newCustomerManagedDatastoreS3StorageSummary,
 
     -- ** Dataset
-    Dataset,
+    Dataset (Dataset'),
     newDataset,
 
     -- ** DatasetAction
-    DatasetAction,
+    DatasetAction (DatasetAction'),
     newDatasetAction,
 
     -- ** DatasetActionSummary
-    DatasetActionSummary,
+    DatasetActionSummary (DatasetActionSummary'),
     newDatasetActionSummary,
 
     -- ** DatasetContentDeliveryDestination
-    DatasetContentDeliveryDestination,
+    DatasetContentDeliveryDestination (DatasetContentDeliveryDestination'),
     newDatasetContentDeliveryDestination,
 
     -- ** DatasetContentDeliveryRule
-    DatasetContentDeliveryRule,
+    DatasetContentDeliveryRule (DatasetContentDeliveryRule'),
     newDatasetContentDeliveryRule,
 
     -- ** DatasetContentStatus
-    DatasetContentStatus,
+    DatasetContentStatus (DatasetContentStatus'),
     newDatasetContentStatus,
 
     -- ** DatasetContentSummary
-    DatasetContentSummary,
+    DatasetContentSummary (DatasetContentSummary'),
     newDatasetContentSummary,
 
     -- ** DatasetContentVersionValue
-    DatasetContentVersionValue,
+    DatasetContentVersionValue (DatasetContentVersionValue'),
     newDatasetContentVersionValue,
 
     -- ** DatasetEntry
-    DatasetEntry,
+    DatasetEntry (DatasetEntry'),
     newDatasetEntry,
 
     -- ** DatasetSummary
-    DatasetSummary,
+    DatasetSummary (DatasetSummary'),
     newDatasetSummary,
 
     -- ** DatasetTrigger
-    DatasetTrigger,
+    DatasetTrigger (DatasetTrigger'),
     newDatasetTrigger,
 
     -- ** Datastore
-    Datastore,
+    Datastore (Datastore'),
     newDatastore,
 
     -- ** DatastoreActivity
-    DatastoreActivity,
+    DatastoreActivity (DatastoreActivity'),
     newDatastoreActivity,
 
     -- ** DatastoreIotSiteWiseMultiLayerStorage
-    DatastoreIotSiteWiseMultiLayerStorage,
+    DatastoreIotSiteWiseMultiLayerStorage (DatastoreIotSiteWiseMultiLayerStorage'),
     newDatastoreIotSiteWiseMultiLayerStorage,
 
     -- ** DatastoreIotSiteWiseMultiLayerStorageSummary
-    DatastoreIotSiteWiseMultiLayerStorageSummary,
+    DatastoreIotSiteWiseMultiLayerStorageSummary (DatastoreIotSiteWiseMultiLayerStorageSummary'),
     newDatastoreIotSiteWiseMultiLayerStorageSummary,
 
     -- ** DatastorePartition
-    DatastorePartition,
+    DatastorePartition (DatastorePartition'),
     newDatastorePartition,
 
     -- ** DatastorePartitions
-    DatastorePartitions,
+    DatastorePartitions (DatastorePartitions'),
     newDatastorePartitions,
 
     -- ** DatastoreStatistics
-    DatastoreStatistics,
+    DatastoreStatistics (DatastoreStatistics'),
     newDatastoreStatistics,
 
     -- ** DatastoreStorage
-    DatastoreStorage,
+    DatastoreStorage (DatastoreStorage'),
     newDatastoreStorage,
 
     -- ** DatastoreStorageSummary
-    DatastoreStorageSummary,
+    DatastoreStorageSummary (DatastoreStorageSummary'),
     newDatastoreStorageSummary,
 
     -- ** DatastoreSummary
-    DatastoreSummary,
+    DatastoreSummary (DatastoreSummary'),
     newDatastoreSummary,
 
     -- ** DeltaTime
-    DeltaTime,
+    DeltaTime (DeltaTime'),
     newDeltaTime,
 
     -- ** DeltaTimeSessionWindowConfiguration
-    DeltaTimeSessionWindowConfiguration,
+    DeltaTimeSessionWindowConfiguration (DeltaTimeSessionWindowConfiguration'),
     newDeltaTimeSessionWindowConfiguration,
 
     -- ** DeviceRegistryEnrichActivity
-    DeviceRegistryEnrichActivity,
+    DeviceRegistryEnrichActivity (DeviceRegistryEnrichActivity'),
     newDeviceRegistryEnrichActivity,
 
     -- ** DeviceShadowEnrichActivity
-    DeviceShadowEnrichActivity,
+    DeviceShadowEnrichActivity (DeviceShadowEnrichActivity'),
     newDeviceShadowEnrichActivity,
 
     -- ** EstimatedResourceSize
-    EstimatedResourceSize,
+    EstimatedResourceSize (EstimatedResourceSize'),
     newEstimatedResourceSize,
 
     -- ** FileFormatConfiguration
-    FileFormatConfiguration,
+    FileFormatConfiguration (FileFormatConfiguration'),
     newFileFormatConfiguration,
 
     -- ** FilterActivity
-    FilterActivity,
+    FilterActivity (FilterActivity'),
     newFilterActivity,
 
     -- ** GlueConfiguration
-    GlueConfiguration,
+    GlueConfiguration (GlueConfiguration'),
     newGlueConfiguration,
 
     -- ** IotEventsDestinationConfiguration
-    IotEventsDestinationConfiguration,
+    IotEventsDestinationConfiguration (IotEventsDestinationConfiguration'),
     newIotEventsDestinationConfiguration,
 
     -- ** IotSiteWiseCustomerManagedDatastoreS3Storage
-    IotSiteWiseCustomerManagedDatastoreS3Storage,
+    IotSiteWiseCustomerManagedDatastoreS3Storage (IotSiteWiseCustomerManagedDatastoreS3Storage'),
     newIotSiteWiseCustomerManagedDatastoreS3Storage,
 
     -- ** IotSiteWiseCustomerManagedDatastoreS3StorageSummary
-    IotSiteWiseCustomerManagedDatastoreS3StorageSummary,
+    IotSiteWiseCustomerManagedDatastoreS3StorageSummary (IotSiteWiseCustomerManagedDatastoreS3StorageSummary'),
     newIotSiteWiseCustomerManagedDatastoreS3StorageSummary,
 
     -- ** JsonConfiguration
-    JsonConfiguration,
+    JsonConfiguration (JsonConfiguration'),
     newJsonConfiguration,
 
     -- ** LambdaActivity
-    LambdaActivity,
+    LambdaActivity (LambdaActivity'),
     newLambdaActivity,
 
     -- ** LateDataRule
-    LateDataRule,
+    LateDataRule (LateDataRule'),
     newLateDataRule,
 
     -- ** LateDataRuleConfiguration
-    LateDataRuleConfiguration,
+    LateDataRuleConfiguration (LateDataRuleConfiguration'),
     newLateDataRuleConfiguration,
 
     -- ** LoggingOptions
-    LoggingOptions,
+    LoggingOptions (LoggingOptions'),
     newLoggingOptions,
 
     -- ** MathActivity
-    MathActivity,
+    MathActivity (MathActivity'),
     newMathActivity,
 
     -- ** Message
-    Message,
+    Message (Message'),
     newMessage,
 
     -- ** OutputFileUriValue
-    OutputFileUriValue,
+    OutputFileUriValue (OutputFileUriValue'),
     newOutputFileUriValue,
 
     -- ** ParquetConfiguration
-    ParquetConfiguration,
+    ParquetConfiguration (ParquetConfiguration'),
     newParquetConfiguration,
 
     -- ** Partition
-    Partition,
+    Partition (Partition'),
     newPartition,
 
     -- ** Pipeline
-    Pipeline,
+    Pipeline (Pipeline'),
     newPipeline,
 
     -- ** PipelineActivity
-    PipelineActivity,
+    PipelineActivity (PipelineActivity'),
     newPipelineActivity,
 
     -- ** PipelineSummary
-    PipelineSummary,
+    PipelineSummary (PipelineSummary'),
     newPipelineSummary,
 
     -- ** QueryFilter
-    QueryFilter,
+    QueryFilter (QueryFilter'),
     newQueryFilter,
 
     -- ** RemoveAttributesActivity
-    RemoveAttributesActivity,
+    RemoveAttributesActivity (RemoveAttributesActivity'),
     newRemoveAttributesActivity,
 
     -- ** ReprocessingSummary
-    ReprocessingSummary,
+    ReprocessingSummary (ReprocessingSummary'),
     newReprocessingSummary,
 
     -- ** ResourceConfiguration
-    ResourceConfiguration,
+    ResourceConfiguration (ResourceConfiguration'),
     newResourceConfiguration,
 
     -- ** RetentionPeriod
-    RetentionPeriod,
+    RetentionPeriod (RetentionPeriod'),
     newRetentionPeriod,
 
     -- ** S3DestinationConfiguration
-    S3DestinationConfiguration,
+    S3DestinationConfiguration (S3DestinationConfiguration'),
     newS3DestinationConfiguration,
 
     -- ** Schedule
-    Schedule,
+    Schedule (Schedule'),
     newSchedule,
 
     -- ** SchemaDefinition
-    SchemaDefinition,
+    SchemaDefinition (SchemaDefinition'),
     newSchemaDefinition,
 
     -- ** SelectAttributesActivity
-    SelectAttributesActivity,
+    SelectAttributesActivity (SelectAttributesActivity'),
     newSelectAttributesActivity,
 
     -- ** ServiceManagedChannelS3Storage
-    ServiceManagedChannelS3Storage,
+    ServiceManagedChannelS3Storage (ServiceManagedChannelS3Storage'),
     newServiceManagedChannelS3Storage,
 
     -- ** ServiceManagedChannelS3StorageSummary
-    ServiceManagedChannelS3StorageSummary,
+    ServiceManagedChannelS3StorageSummary (ServiceManagedChannelS3StorageSummary'),
     newServiceManagedChannelS3StorageSummary,
 
     -- ** ServiceManagedDatastoreS3Storage
-    ServiceManagedDatastoreS3Storage,
+    ServiceManagedDatastoreS3Storage (ServiceManagedDatastoreS3Storage'),
     newServiceManagedDatastoreS3Storage,
 
     -- ** ServiceManagedDatastoreS3StorageSummary
-    ServiceManagedDatastoreS3StorageSummary,
+    ServiceManagedDatastoreS3StorageSummary (ServiceManagedDatastoreS3StorageSummary'),
     newServiceManagedDatastoreS3StorageSummary,
 
     -- ** SqlQueryDatasetAction
-    SqlQueryDatasetAction,
+    SqlQueryDatasetAction (SqlQueryDatasetAction'),
     newSqlQueryDatasetAction,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** TimestampPartition
-    TimestampPartition,
+    TimestampPartition (TimestampPartition'),
     newTimestampPartition,
 
     -- ** TriggeringDataset
-    TriggeringDataset,
+    TriggeringDataset (TriggeringDataset'),
     newTriggeringDataset,
 
     -- ** Variable
-    Variable,
+    Variable (Variable'),
     newVariable,
 
     -- ** VersioningConfiguration
-    VersioningConfiguration,
+    VersioningConfiguration (VersioningConfiguration'),
     newVersioningConfiguration,
   )
 where

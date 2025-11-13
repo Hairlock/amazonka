@@ -63,93 +63,93 @@ module Amazonka.SimSpaceWeaver
     -- $operations
 
     -- ** DeleteApp
-    DeleteApp,
+    DeleteApp (DeleteApp'),
     newDeleteApp,
-    DeleteAppResponse,
+    DeleteAppResponse (DeleteAppResponse'),
     newDeleteAppResponse,
 
     -- ** DeleteSimulation
-    DeleteSimulation,
+    DeleteSimulation (DeleteSimulation'),
     newDeleteSimulation,
-    DeleteSimulationResponse,
+    DeleteSimulationResponse (DeleteSimulationResponse'),
     newDeleteSimulationResponse,
 
     -- ** DescribeApp
-    DescribeApp,
+    DescribeApp (DescribeApp'),
     newDescribeApp,
-    DescribeAppResponse,
+    DescribeAppResponse (DescribeAppResponse'),
     newDescribeAppResponse,
 
     -- ** DescribeSimulation
-    DescribeSimulation,
+    DescribeSimulation (DescribeSimulation'),
     newDescribeSimulation,
-    DescribeSimulationResponse,
+    DescribeSimulationResponse (DescribeSimulationResponse'),
     newDescribeSimulationResponse,
 
     -- ** ListApps
-    ListApps,
+    ListApps (ListApps'),
     newListApps,
-    ListAppsResponse,
+    ListAppsResponse (ListAppsResponse'),
     newListAppsResponse,
 
     -- ** ListSimulations
-    ListSimulations,
+    ListSimulations (ListSimulations'),
     newListSimulations,
-    ListSimulationsResponse,
+    ListSimulationsResponse (ListSimulationsResponse'),
     newListSimulationsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** StartApp
-    StartApp,
+    StartApp (StartApp'),
     newStartApp,
-    StartAppResponse,
+    StartAppResponse (StartAppResponse'),
     newStartAppResponse,
 
     -- ** StartClock
-    StartClock,
+    StartClock (StartClock'),
     newStartClock,
-    StartClockResponse,
+    StartClockResponse (StartClockResponse'),
     newStartClockResponse,
 
     -- ** StartSimulation
-    StartSimulation,
+    StartSimulation (StartSimulation'),
     newStartSimulation,
-    StartSimulationResponse,
+    StartSimulationResponse (StartSimulationResponse'),
     newStartSimulationResponse,
 
     -- ** StopApp
-    StopApp,
+    StopApp (StopApp'),
     newStopApp,
-    StopAppResponse,
+    StopAppResponse (StopAppResponse'),
     newStopAppResponse,
 
     -- ** StopClock
-    StopClock,
+    StopClock (StopClock'),
     newStopClock,
-    StopClockResponse,
+    StopClockResponse (StopClockResponse'),
     newStopClockResponse,
 
     -- ** StopSimulation
-    StopSimulation,
+    StopSimulation (StopSimulation'),
     newStopSimulation,
-    StopSimulationResponse,
+    StopSimulationResponse (StopSimulationResponse'),
     newStopSimulationResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- * Types
@@ -176,51 +176,51 @@ module Amazonka.SimSpaceWeaver
     SimulationTargetStatus (..),
 
     -- ** CloudWatchLogsLogGroup
-    CloudWatchLogsLogGroup,
+    CloudWatchLogsLogGroup (CloudWatchLogsLogGroup'),
     newCloudWatchLogsLogGroup,
 
     -- ** Domain
-    Domain,
+    Domain (Domain'),
     newDomain,
 
     -- ** LaunchOverrides
-    LaunchOverrides,
+    LaunchOverrides (LaunchOverrides'),
     newLaunchOverrides,
 
     -- ** LiveSimulationState
-    LiveSimulationState,
+    LiveSimulationState (LiveSimulationState'),
     newLiveSimulationState,
 
     -- ** LogDestination
-    LogDestination,
+    LogDestination (LogDestination'),
     newLogDestination,
 
     -- ** LoggingConfiguration
-    LoggingConfiguration,
+    LoggingConfiguration (LoggingConfiguration'),
     newLoggingConfiguration,
 
     -- ** S3Location
-    S3Location,
+    S3Location (S3Location'),
     newS3Location,
 
     -- ** SimulationAppEndpointInfo
-    SimulationAppEndpointInfo,
+    SimulationAppEndpointInfo (SimulationAppEndpointInfo'),
     newSimulationAppEndpointInfo,
 
     -- ** SimulationAppMetadata
-    SimulationAppMetadata,
+    SimulationAppMetadata (SimulationAppMetadata'),
     newSimulationAppMetadata,
 
     -- ** SimulationAppPortMapping
-    SimulationAppPortMapping,
+    SimulationAppPortMapping (SimulationAppPortMapping'),
     newSimulationAppPortMapping,
 
     -- ** SimulationClock
-    SimulationClock,
+    SimulationClock (SimulationClock'),
     newSimulationClock,
 
     -- ** SimulationMetadata
-    SimulationMetadata,
+    SimulationMetadata (SimulationMetadata'),
     newSimulationMetadata,
   )
 where

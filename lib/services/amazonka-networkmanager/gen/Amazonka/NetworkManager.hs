@@ -52,513 +52,513 @@ module Amazonka.NetworkManager
     -- $operations
 
     -- ** AcceptAttachment
-    AcceptAttachment,
+    AcceptAttachment (AcceptAttachment'),
     newAcceptAttachment,
-    AcceptAttachmentResponse,
+    AcceptAttachmentResponse (AcceptAttachmentResponse'),
     newAcceptAttachmentResponse,
 
     -- ** AssociateConnectPeer
-    AssociateConnectPeer,
+    AssociateConnectPeer (AssociateConnectPeer'),
     newAssociateConnectPeer,
-    AssociateConnectPeerResponse,
+    AssociateConnectPeerResponse (AssociateConnectPeerResponse'),
     newAssociateConnectPeerResponse,
 
     -- ** AssociateCustomerGateway
-    AssociateCustomerGateway,
+    AssociateCustomerGateway (AssociateCustomerGateway'),
     newAssociateCustomerGateway,
-    AssociateCustomerGatewayResponse,
+    AssociateCustomerGatewayResponse (AssociateCustomerGatewayResponse'),
     newAssociateCustomerGatewayResponse,
 
     -- ** AssociateLink
-    AssociateLink,
+    AssociateLink (AssociateLink'),
     newAssociateLink,
-    AssociateLinkResponse,
+    AssociateLinkResponse (AssociateLinkResponse'),
     newAssociateLinkResponse,
 
     -- ** AssociateTransitGatewayConnectPeer
-    AssociateTransitGatewayConnectPeer,
+    AssociateTransitGatewayConnectPeer (AssociateTransitGatewayConnectPeer'),
     newAssociateTransitGatewayConnectPeer,
-    AssociateTransitGatewayConnectPeerResponse,
+    AssociateTransitGatewayConnectPeerResponse (AssociateTransitGatewayConnectPeerResponse'),
     newAssociateTransitGatewayConnectPeerResponse,
 
     -- ** CreateConnectAttachment
-    CreateConnectAttachment,
+    CreateConnectAttachment (CreateConnectAttachment'),
     newCreateConnectAttachment,
-    CreateConnectAttachmentResponse,
+    CreateConnectAttachmentResponse (CreateConnectAttachmentResponse'),
     newCreateConnectAttachmentResponse,
 
     -- ** CreateConnectPeer
-    CreateConnectPeer,
+    CreateConnectPeer (CreateConnectPeer'),
     newCreateConnectPeer,
-    CreateConnectPeerResponse,
+    CreateConnectPeerResponse (CreateConnectPeerResponse'),
     newCreateConnectPeerResponse,
 
     -- ** CreateConnection
-    CreateConnection,
+    CreateConnection (CreateConnection'),
     newCreateConnection,
-    CreateConnectionResponse,
+    CreateConnectionResponse (CreateConnectionResponse'),
     newCreateConnectionResponse,
 
     -- ** CreateCoreNetwork
-    CreateCoreNetwork,
+    CreateCoreNetwork (CreateCoreNetwork'),
     newCreateCoreNetwork,
-    CreateCoreNetworkResponse,
+    CreateCoreNetworkResponse (CreateCoreNetworkResponse'),
     newCreateCoreNetworkResponse,
 
     -- ** CreateDevice
-    CreateDevice,
+    CreateDevice (CreateDevice'),
     newCreateDevice,
-    CreateDeviceResponse,
+    CreateDeviceResponse (CreateDeviceResponse'),
     newCreateDeviceResponse,
 
     -- ** CreateGlobalNetwork
-    CreateGlobalNetwork,
+    CreateGlobalNetwork (CreateGlobalNetwork'),
     newCreateGlobalNetwork,
-    CreateGlobalNetworkResponse,
+    CreateGlobalNetworkResponse (CreateGlobalNetworkResponse'),
     newCreateGlobalNetworkResponse,
 
     -- ** CreateLink
-    CreateLink,
+    CreateLink (CreateLink'),
     newCreateLink,
-    CreateLinkResponse,
+    CreateLinkResponse (CreateLinkResponse'),
     newCreateLinkResponse,
 
     -- ** CreateSite
-    CreateSite,
+    CreateSite (CreateSite'),
     newCreateSite,
-    CreateSiteResponse,
+    CreateSiteResponse (CreateSiteResponse'),
     newCreateSiteResponse,
 
     -- ** CreateSiteToSiteVpnAttachment
-    CreateSiteToSiteVpnAttachment,
+    CreateSiteToSiteVpnAttachment (CreateSiteToSiteVpnAttachment'),
     newCreateSiteToSiteVpnAttachment,
-    CreateSiteToSiteVpnAttachmentResponse,
+    CreateSiteToSiteVpnAttachmentResponse (CreateSiteToSiteVpnAttachmentResponse'),
     newCreateSiteToSiteVpnAttachmentResponse,
 
     -- ** CreateTransitGatewayPeering
-    CreateTransitGatewayPeering,
+    CreateTransitGatewayPeering (CreateTransitGatewayPeering'),
     newCreateTransitGatewayPeering,
-    CreateTransitGatewayPeeringResponse,
+    CreateTransitGatewayPeeringResponse (CreateTransitGatewayPeeringResponse'),
     newCreateTransitGatewayPeeringResponse,
 
     -- ** CreateTransitGatewayRouteTableAttachment
-    CreateTransitGatewayRouteTableAttachment,
+    CreateTransitGatewayRouteTableAttachment (CreateTransitGatewayRouteTableAttachment'),
     newCreateTransitGatewayRouteTableAttachment,
-    CreateTransitGatewayRouteTableAttachmentResponse,
+    CreateTransitGatewayRouteTableAttachmentResponse (CreateTransitGatewayRouteTableAttachmentResponse'),
     newCreateTransitGatewayRouteTableAttachmentResponse,
 
     -- ** CreateVpcAttachment
-    CreateVpcAttachment,
+    CreateVpcAttachment (CreateVpcAttachment'),
     newCreateVpcAttachment,
-    CreateVpcAttachmentResponse,
+    CreateVpcAttachmentResponse (CreateVpcAttachmentResponse'),
     newCreateVpcAttachmentResponse,
 
     -- ** DeleteAttachment
-    DeleteAttachment,
+    DeleteAttachment (DeleteAttachment'),
     newDeleteAttachment,
-    DeleteAttachmentResponse,
+    DeleteAttachmentResponse (DeleteAttachmentResponse'),
     newDeleteAttachmentResponse,
 
     -- ** DeleteConnectPeer
-    DeleteConnectPeer,
+    DeleteConnectPeer (DeleteConnectPeer'),
     newDeleteConnectPeer,
-    DeleteConnectPeerResponse,
+    DeleteConnectPeerResponse (DeleteConnectPeerResponse'),
     newDeleteConnectPeerResponse,
 
     -- ** DeleteConnection
-    DeleteConnection,
+    DeleteConnection (DeleteConnection'),
     newDeleteConnection,
-    DeleteConnectionResponse,
+    DeleteConnectionResponse (DeleteConnectionResponse'),
     newDeleteConnectionResponse,
 
     -- ** DeleteCoreNetwork
-    DeleteCoreNetwork,
+    DeleteCoreNetwork (DeleteCoreNetwork'),
     newDeleteCoreNetwork,
-    DeleteCoreNetworkResponse,
+    DeleteCoreNetworkResponse (DeleteCoreNetworkResponse'),
     newDeleteCoreNetworkResponse,
 
     -- ** DeleteCoreNetworkPolicyVersion
-    DeleteCoreNetworkPolicyVersion,
+    DeleteCoreNetworkPolicyVersion (DeleteCoreNetworkPolicyVersion'),
     newDeleteCoreNetworkPolicyVersion,
-    DeleteCoreNetworkPolicyVersionResponse,
+    DeleteCoreNetworkPolicyVersionResponse (DeleteCoreNetworkPolicyVersionResponse'),
     newDeleteCoreNetworkPolicyVersionResponse,
 
     -- ** DeleteDevice
-    DeleteDevice,
+    DeleteDevice (DeleteDevice'),
     newDeleteDevice,
-    DeleteDeviceResponse,
+    DeleteDeviceResponse (DeleteDeviceResponse'),
     newDeleteDeviceResponse,
 
     -- ** DeleteGlobalNetwork
-    DeleteGlobalNetwork,
+    DeleteGlobalNetwork (DeleteGlobalNetwork'),
     newDeleteGlobalNetwork,
-    DeleteGlobalNetworkResponse,
+    DeleteGlobalNetworkResponse (DeleteGlobalNetworkResponse'),
     newDeleteGlobalNetworkResponse,
 
     -- ** DeleteLink
-    DeleteLink,
+    DeleteLink (DeleteLink'),
     newDeleteLink,
-    DeleteLinkResponse,
+    DeleteLinkResponse (DeleteLinkResponse'),
     newDeleteLinkResponse,
 
     -- ** DeletePeering
-    DeletePeering,
+    DeletePeering (DeletePeering'),
     newDeletePeering,
-    DeletePeeringResponse,
+    DeletePeeringResponse (DeletePeeringResponse'),
     newDeletePeeringResponse,
 
     -- ** DeleteResourcePolicy
-    DeleteResourcePolicy,
+    DeleteResourcePolicy (DeleteResourcePolicy'),
     newDeleteResourcePolicy,
-    DeleteResourcePolicyResponse,
+    DeleteResourcePolicyResponse (DeleteResourcePolicyResponse'),
     newDeleteResourcePolicyResponse,
 
     -- ** DeleteSite
-    DeleteSite,
+    DeleteSite (DeleteSite'),
     newDeleteSite,
-    DeleteSiteResponse,
+    DeleteSiteResponse (DeleteSiteResponse'),
     newDeleteSiteResponse,
 
     -- ** DeregisterTransitGateway
-    DeregisterTransitGateway,
+    DeregisterTransitGateway (DeregisterTransitGateway'),
     newDeregisterTransitGateway,
-    DeregisterTransitGatewayResponse,
+    DeregisterTransitGatewayResponse (DeregisterTransitGatewayResponse'),
     newDeregisterTransitGatewayResponse,
 
     -- ** DescribeGlobalNetworks (Paginated)
-    DescribeGlobalNetworks,
+    DescribeGlobalNetworks (DescribeGlobalNetworks'),
     newDescribeGlobalNetworks,
-    DescribeGlobalNetworksResponse,
+    DescribeGlobalNetworksResponse (DescribeGlobalNetworksResponse'),
     newDescribeGlobalNetworksResponse,
 
     -- ** DisassociateConnectPeer
-    DisassociateConnectPeer,
+    DisassociateConnectPeer (DisassociateConnectPeer'),
     newDisassociateConnectPeer,
-    DisassociateConnectPeerResponse,
+    DisassociateConnectPeerResponse (DisassociateConnectPeerResponse'),
     newDisassociateConnectPeerResponse,
 
     -- ** DisassociateCustomerGateway
-    DisassociateCustomerGateway,
+    DisassociateCustomerGateway (DisassociateCustomerGateway'),
     newDisassociateCustomerGateway,
-    DisassociateCustomerGatewayResponse,
+    DisassociateCustomerGatewayResponse (DisassociateCustomerGatewayResponse'),
     newDisassociateCustomerGatewayResponse,
 
     -- ** DisassociateLink
-    DisassociateLink,
+    DisassociateLink (DisassociateLink'),
     newDisassociateLink,
-    DisassociateLinkResponse,
+    DisassociateLinkResponse (DisassociateLinkResponse'),
     newDisassociateLinkResponse,
 
     -- ** DisassociateTransitGatewayConnectPeer
-    DisassociateTransitGatewayConnectPeer,
+    DisassociateTransitGatewayConnectPeer (DisassociateTransitGatewayConnectPeer'),
     newDisassociateTransitGatewayConnectPeer,
-    DisassociateTransitGatewayConnectPeerResponse,
+    DisassociateTransitGatewayConnectPeerResponse (DisassociateTransitGatewayConnectPeerResponse'),
     newDisassociateTransitGatewayConnectPeerResponse,
 
     -- ** ExecuteCoreNetworkChangeSet
-    ExecuteCoreNetworkChangeSet,
+    ExecuteCoreNetworkChangeSet (ExecuteCoreNetworkChangeSet'),
     newExecuteCoreNetworkChangeSet,
-    ExecuteCoreNetworkChangeSetResponse,
+    ExecuteCoreNetworkChangeSetResponse (ExecuteCoreNetworkChangeSetResponse'),
     newExecuteCoreNetworkChangeSetResponse,
 
     -- ** GetConnectAttachment
-    GetConnectAttachment,
+    GetConnectAttachment (GetConnectAttachment'),
     newGetConnectAttachment,
-    GetConnectAttachmentResponse,
+    GetConnectAttachmentResponse (GetConnectAttachmentResponse'),
     newGetConnectAttachmentResponse,
 
     -- ** GetConnectPeer
-    GetConnectPeer,
+    GetConnectPeer (GetConnectPeer'),
     newGetConnectPeer,
-    GetConnectPeerResponse,
+    GetConnectPeerResponse (GetConnectPeerResponse'),
     newGetConnectPeerResponse,
 
     -- ** GetConnectPeerAssociations (Paginated)
-    GetConnectPeerAssociations,
+    GetConnectPeerAssociations (GetConnectPeerAssociations'),
     newGetConnectPeerAssociations,
-    GetConnectPeerAssociationsResponse,
+    GetConnectPeerAssociationsResponse (GetConnectPeerAssociationsResponse'),
     newGetConnectPeerAssociationsResponse,
 
     -- ** GetConnections (Paginated)
-    GetConnections,
+    GetConnections (GetConnections'),
     newGetConnections,
-    GetConnectionsResponse,
+    GetConnectionsResponse (GetConnectionsResponse'),
     newGetConnectionsResponse,
 
     -- ** GetCoreNetwork
-    GetCoreNetwork,
+    GetCoreNetwork (GetCoreNetwork'),
     newGetCoreNetwork,
-    GetCoreNetworkResponse,
+    GetCoreNetworkResponse (GetCoreNetworkResponse'),
     newGetCoreNetworkResponse,
 
     -- ** GetCoreNetworkChangeEvents (Paginated)
-    GetCoreNetworkChangeEvents,
+    GetCoreNetworkChangeEvents (GetCoreNetworkChangeEvents'),
     newGetCoreNetworkChangeEvents,
-    GetCoreNetworkChangeEventsResponse,
+    GetCoreNetworkChangeEventsResponse (GetCoreNetworkChangeEventsResponse'),
     newGetCoreNetworkChangeEventsResponse,
 
     -- ** GetCoreNetworkChangeSet (Paginated)
-    GetCoreNetworkChangeSet,
+    GetCoreNetworkChangeSet (GetCoreNetworkChangeSet'),
     newGetCoreNetworkChangeSet,
-    GetCoreNetworkChangeSetResponse,
+    GetCoreNetworkChangeSetResponse (GetCoreNetworkChangeSetResponse'),
     newGetCoreNetworkChangeSetResponse,
 
     -- ** GetCoreNetworkPolicy
-    GetCoreNetworkPolicy,
+    GetCoreNetworkPolicy (GetCoreNetworkPolicy'),
     newGetCoreNetworkPolicy,
-    GetCoreNetworkPolicyResponse,
+    GetCoreNetworkPolicyResponse (GetCoreNetworkPolicyResponse'),
     newGetCoreNetworkPolicyResponse,
 
     -- ** GetCustomerGatewayAssociations (Paginated)
-    GetCustomerGatewayAssociations,
+    GetCustomerGatewayAssociations (GetCustomerGatewayAssociations'),
     newGetCustomerGatewayAssociations,
-    GetCustomerGatewayAssociationsResponse,
+    GetCustomerGatewayAssociationsResponse (GetCustomerGatewayAssociationsResponse'),
     newGetCustomerGatewayAssociationsResponse,
 
     -- ** GetDevices (Paginated)
-    GetDevices,
+    GetDevices (GetDevices'),
     newGetDevices,
-    GetDevicesResponse,
+    GetDevicesResponse (GetDevicesResponse'),
     newGetDevicesResponse,
 
     -- ** GetLinkAssociations (Paginated)
-    GetLinkAssociations,
+    GetLinkAssociations (GetLinkAssociations'),
     newGetLinkAssociations,
-    GetLinkAssociationsResponse,
+    GetLinkAssociationsResponse (GetLinkAssociationsResponse'),
     newGetLinkAssociationsResponse,
 
     -- ** GetLinks (Paginated)
-    GetLinks,
+    GetLinks (GetLinks'),
     newGetLinks,
-    GetLinksResponse,
+    GetLinksResponse (GetLinksResponse'),
     newGetLinksResponse,
 
     -- ** GetNetworkResourceCounts (Paginated)
-    GetNetworkResourceCounts,
+    GetNetworkResourceCounts (GetNetworkResourceCounts'),
     newGetNetworkResourceCounts,
-    GetNetworkResourceCountsResponse,
+    GetNetworkResourceCountsResponse (GetNetworkResourceCountsResponse'),
     newGetNetworkResourceCountsResponse,
 
     -- ** GetNetworkResourceRelationships (Paginated)
-    GetNetworkResourceRelationships,
+    GetNetworkResourceRelationships (GetNetworkResourceRelationships'),
     newGetNetworkResourceRelationships,
-    GetNetworkResourceRelationshipsResponse,
+    GetNetworkResourceRelationshipsResponse (GetNetworkResourceRelationshipsResponse'),
     newGetNetworkResourceRelationshipsResponse,
 
     -- ** GetNetworkResources (Paginated)
-    GetNetworkResources,
+    GetNetworkResources (GetNetworkResources'),
     newGetNetworkResources,
-    GetNetworkResourcesResponse,
+    GetNetworkResourcesResponse (GetNetworkResourcesResponse'),
     newGetNetworkResourcesResponse,
 
     -- ** GetNetworkRoutes
-    GetNetworkRoutes,
+    GetNetworkRoutes (GetNetworkRoutes'),
     newGetNetworkRoutes,
-    GetNetworkRoutesResponse,
+    GetNetworkRoutesResponse (GetNetworkRoutesResponse'),
     newGetNetworkRoutesResponse,
 
     -- ** GetNetworkTelemetry (Paginated)
-    GetNetworkTelemetry,
+    GetNetworkTelemetry (GetNetworkTelemetry'),
     newGetNetworkTelemetry,
-    GetNetworkTelemetryResponse,
+    GetNetworkTelemetryResponse (GetNetworkTelemetryResponse'),
     newGetNetworkTelemetryResponse,
 
     -- ** GetResourcePolicy
-    GetResourcePolicy,
+    GetResourcePolicy (GetResourcePolicy'),
     newGetResourcePolicy,
-    GetResourcePolicyResponse,
+    GetResourcePolicyResponse (GetResourcePolicyResponse'),
     newGetResourcePolicyResponse,
 
     -- ** GetRouteAnalysis
-    GetRouteAnalysis,
+    GetRouteAnalysis (GetRouteAnalysis'),
     newGetRouteAnalysis,
-    GetRouteAnalysisResponse,
+    GetRouteAnalysisResponse (GetRouteAnalysisResponse'),
     newGetRouteAnalysisResponse,
 
     -- ** GetSiteToSiteVpnAttachment
-    GetSiteToSiteVpnAttachment,
+    GetSiteToSiteVpnAttachment (GetSiteToSiteVpnAttachment'),
     newGetSiteToSiteVpnAttachment,
-    GetSiteToSiteVpnAttachmentResponse,
+    GetSiteToSiteVpnAttachmentResponse (GetSiteToSiteVpnAttachmentResponse'),
     newGetSiteToSiteVpnAttachmentResponse,
 
     -- ** GetSites (Paginated)
-    GetSites,
+    GetSites (GetSites'),
     newGetSites,
-    GetSitesResponse,
+    GetSitesResponse (GetSitesResponse'),
     newGetSitesResponse,
 
     -- ** GetTransitGatewayConnectPeerAssociations (Paginated)
-    GetTransitGatewayConnectPeerAssociations,
+    GetTransitGatewayConnectPeerAssociations (GetTransitGatewayConnectPeerAssociations'),
     newGetTransitGatewayConnectPeerAssociations,
-    GetTransitGatewayConnectPeerAssociationsResponse,
+    GetTransitGatewayConnectPeerAssociationsResponse (GetTransitGatewayConnectPeerAssociationsResponse'),
     newGetTransitGatewayConnectPeerAssociationsResponse,
 
     -- ** GetTransitGatewayPeering
-    GetTransitGatewayPeering,
+    GetTransitGatewayPeering (GetTransitGatewayPeering'),
     newGetTransitGatewayPeering,
-    GetTransitGatewayPeeringResponse,
+    GetTransitGatewayPeeringResponse (GetTransitGatewayPeeringResponse'),
     newGetTransitGatewayPeeringResponse,
 
     -- ** GetTransitGatewayRegistrations (Paginated)
-    GetTransitGatewayRegistrations,
+    GetTransitGatewayRegistrations (GetTransitGatewayRegistrations'),
     newGetTransitGatewayRegistrations,
-    GetTransitGatewayRegistrationsResponse,
+    GetTransitGatewayRegistrationsResponse (GetTransitGatewayRegistrationsResponse'),
     newGetTransitGatewayRegistrationsResponse,
 
     -- ** GetTransitGatewayRouteTableAttachment
-    GetTransitGatewayRouteTableAttachment,
+    GetTransitGatewayRouteTableAttachment (GetTransitGatewayRouteTableAttachment'),
     newGetTransitGatewayRouteTableAttachment,
-    GetTransitGatewayRouteTableAttachmentResponse,
+    GetTransitGatewayRouteTableAttachmentResponse (GetTransitGatewayRouteTableAttachmentResponse'),
     newGetTransitGatewayRouteTableAttachmentResponse,
 
     -- ** GetVpcAttachment
-    GetVpcAttachment,
+    GetVpcAttachment (GetVpcAttachment'),
     newGetVpcAttachment,
-    GetVpcAttachmentResponse,
+    GetVpcAttachmentResponse (GetVpcAttachmentResponse'),
     newGetVpcAttachmentResponse,
 
     -- ** ListAttachments (Paginated)
-    ListAttachments,
+    ListAttachments (ListAttachments'),
     newListAttachments,
-    ListAttachmentsResponse,
+    ListAttachmentsResponse (ListAttachmentsResponse'),
     newListAttachmentsResponse,
 
     -- ** ListConnectPeers (Paginated)
-    ListConnectPeers,
+    ListConnectPeers (ListConnectPeers'),
     newListConnectPeers,
-    ListConnectPeersResponse,
+    ListConnectPeersResponse (ListConnectPeersResponse'),
     newListConnectPeersResponse,
 
     -- ** ListCoreNetworkPolicyVersions (Paginated)
-    ListCoreNetworkPolicyVersions,
+    ListCoreNetworkPolicyVersions (ListCoreNetworkPolicyVersions'),
     newListCoreNetworkPolicyVersions,
-    ListCoreNetworkPolicyVersionsResponse,
+    ListCoreNetworkPolicyVersionsResponse (ListCoreNetworkPolicyVersionsResponse'),
     newListCoreNetworkPolicyVersionsResponse,
 
     -- ** ListCoreNetworks (Paginated)
-    ListCoreNetworks,
+    ListCoreNetworks (ListCoreNetworks'),
     newListCoreNetworks,
-    ListCoreNetworksResponse,
+    ListCoreNetworksResponse (ListCoreNetworksResponse'),
     newListCoreNetworksResponse,
 
     -- ** ListOrganizationServiceAccessStatus
-    ListOrganizationServiceAccessStatus,
+    ListOrganizationServiceAccessStatus (ListOrganizationServiceAccessStatus'),
     newListOrganizationServiceAccessStatus,
-    ListOrganizationServiceAccessStatusResponse,
+    ListOrganizationServiceAccessStatusResponse (ListOrganizationServiceAccessStatusResponse'),
     newListOrganizationServiceAccessStatusResponse,
 
     -- ** ListPeerings (Paginated)
-    ListPeerings,
+    ListPeerings (ListPeerings'),
     newListPeerings,
-    ListPeeringsResponse,
+    ListPeeringsResponse (ListPeeringsResponse'),
     newListPeeringsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** PutCoreNetworkPolicy
-    PutCoreNetworkPolicy,
+    PutCoreNetworkPolicy (PutCoreNetworkPolicy'),
     newPutCoreNetworkPolicy,
-    PutCoreNetworkPolicyResponse,
+    PutCoreNetworkPolicyResponse (PutCoreNetworkPolicyResponse'),
     newPutCoreNetworkPolicyResponse,
 
     -- ** PutResourcePolicy
-    PutResourcePolicy,
+    PutResourcePolicy (PutResourcePolicy'),
     newPutResourcePolicy,
-    PutResourcePolicyResponse,
+    PutResourcePolicyResponse (PutResourcePolicyResponse'),
     newPutResourcePolicyResponse,
 
     -- ** RegisterTransitGateway
-    RegisterTransitGateway,
+    RegisterTransitGateway (RegisterTransitGateway'),
     newRegisterTransitGateway,
-    RegisterTransitGatewayResponse,
+    RegisterTransitGatewayResponse (RegisterTransitGatewayResponse'),
     newRegisterTransitGatewayResponse,
 
     -- ** RejectAttachment
-    RejectAttachment,
+    RejectAttachment (RejectAttachment'),
     newRejectAttachment,
-    RejectAttachmentResponse,
+    RejectAttachmentResponse (RejectAttachmentResponse'),
     newRejectAttachmentResponse,
 
     -- ** RestoreCoreNetworkPolicyVersion
-    RestoreCoreNetworkPolicyVersion,
+    RestoreCoreNetworkPolicyVersion (RestoreCoreNetworkPolicyVersion'),
     newRestoreCoreNetworkPolicyVersion,
-    RestoreCoreNetworkPolicyVersionResponse,
+    RestoreCoreNetworkPolicyVersionResponse (RestoreCoreNetworkPolicyVersionResponse'),
     newRestoreCoreNetworkPolicyVersionResponse,
 
     -- ** StartOrganizationServiceAccessUpdate
-    StartOrganizationServiceAccessUpdate,
+    StartOrganizationServiceAccessUpdate (StartOrganizationServiceAccessUpdate'),
     newStartOrganizationServiceAccessUpdate,
-    StartOrganizationServiceAccessUpdateResponse,
+    StartOrganizationServiceAccessUpdateResponse (StartOrganizationServiceAccessUpdateResponse'),
     newStartOrganizationServiceAccessUpdateResponse,
 
     -- ** StartRouteAnalysis
-    StartRouteAnalysis,
+    StartRouteAnalysis (StartRouteAnalysis'),
     newStartRouteAnalysis,
-    StartRouteAnalysisResponse,
+    StartRouteAnalysisResponse (StartRouteAnalysisResponse'),
     newStartRouteAnalysisResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateConnection
-    UpdateConnection,
+    UpdateConnection (UpdateConnection'),
     newUpdateConnection,
-    UpdateConnectionResponse,
+    UpdateConnectionResponse (UpdateConnectionResponse'),
     newUpdateConnectionResponse,
 
     -- ** UpdateCoreNetwork
-    UpdateCoreNetwork,
+    UpdateCoreNetwork (UpdateCoreNetwork'),
     newUpdateCoreNetwork,
-    UpdateCoreNetworkResponse,
+    UpdateCoreNetworkResponse (UpdateCoreNetworkResponse'),
     newUpdateCoreNetworkResponse,
 
     -- ** UpdateDevice
-    UpdateDevice,
+    UpdateDevice (UpdateDevice'),
     newUpdateDevice,
-    UpdateDeviceResponse,
+    UpdateDeviceResponse (UpdateDeviceResponse'),
     newUpdateDeviceResponse,
 
     -- ** UpdateGlobalNetwork
-    UpdateGlobalNetwork,
+    UpdateGlobalNetwork (UpdateGlobalNetwork'),
     newUpdateGlobalNetwork,
-    UpdateGlobalNetworkResponse,
+    UpdateGlobalNetworkResponse (UpdateGlobalNetworkResponse'),
     newUpdateGlobalNetworkResponse,
 
     -- ** UpdateLink
-    UpdateLink,
+    UpdateLink (UpdateLink'),
     newUpdateLink,
-    UpdateLinkResponse,
+    UpdateLinkResponse (UpdateLinkResponse'),
     newUpdateLinkResponse,
 
     -- ** UpdateNetworkResourceMetadata
-    UpdateNetworkResourceMetadata,
+    UpdateNetworkResourceMetadata (UpdateNetworkResourceMetadata'),
     newUpdateNetworkResourceMetadata,
-    UpdateNetworkResourceMetadataResponse,
+    UpdateNetworkResourceMetadataResponse (UpdateNetworkResourceMetadataResponse'),
     newUpdateNetworkResourceMetadataResponse,
 
     -- ** UpdateSite
-    UpdateSite,
+    UpdateSite (UpdateSite'),
     newUpdateSite,
-    UpdateSiteResponse,
+    UpdateSiteResponse (UpdateSiteResponse'),
     newUpdateSiteResponse,
 
     -- ** UpdateVpcAttachment
-    UpdateVpcAttachment,
+    UpdateVpcAttachment (UpdateVpcAttachment'),
     newUpdateVpcAttachment,
-    UpdateVpcAttachmentResponse,
+    UpdateVpcAttachmentResponse (UpdateVpcAttachmentResponse'),
     newUpdateVpcAttachmentResponse,
 
     -- * Types
@@ -654,239 +654,239 @@ module Amazonka.NetworkManager
     TunnelProtocol (..),
 
     -- ** AWSLocation
-    AWSLocation,
+    AWSLocation (AWSLocation'),
     newAWSLocation,
 
     -- ** AccountStatus
-    AccountStatus,
+    AccountStatus (AccountStatus'),
     newAccountStatus,
 
     -- ** Attachment
-    Attachment,
+    Attachment (Attachment'),
     newAttachment,
 
     -- ** Bandwidth
-    Bandwidth,
+    Bandwidth (Bandwidth'),
     newBandwidth,
 
     -- ** BgpOptions
-    BgpOptions,
+    BgpOptions (BgpOptions'),
     newBgpOptions,
 
     -- ** ConnectAttachment
-    ConnectAttachment,
+    ConnectAttachment (ConnectAttachment'),
     newConnectAttachment,
 
     -- ** ConnectAttachmentOptions
-    ConnectAttachmentOptions,
+    ConnectAttachmentOptions (ConnectAttachmentOptions'),
     newConnectAttachmentOptions,
 
     -- ** ConnectPeer
-    ConnectPeer,
+    ConnectPeer (ConnectPeer'),
     newConnectPeer,
 
     -- ** ConnectPeerAssociation
-    ConnectPeerAssociation,
+    ConnectPeerAssociation (ConnectPeerAssociation'),
     newConnectPeerAssociation,
 
     -- ** ConnectPeerBgpConfiguration
-    ConnectPeerBgpConfiguration,
+    ConnectPeerBgpConfiguration (ConnectPeerBgpConfiguration'),
     newConnectPeerBgpConfiguration,
 
     -- ** ConnectPeerConfiguration
-    ConnectPeerConfiguration,
+    ConnectPeerConfiguration (ConnectPeerConfiguration'),
     newConnectPeerConfiguration,
 
     -- ** ConnectPeerSummary
-    ConnectPeerSummary,
+    ConnectPeerSummary (ConnectPeerSummary'),
     newConnectPeerSummary,
 
     -- ** Connection
-    Connection,
+    Connection (Connection'),
     newConnection,
 
     -- ** ConnectionHealth
-    ConnectionHealth,
+    ConnectionHealth (ConnectionHealth'),
     newConnectionHealth,
 
     -- ** CoreNetwork
-    CoreNetwork,
+    CoreNetwork (CoreNetwork'),
     newCoreNetwork,
 
     -- ** CoreNetworkChange
-    CoreNetworkChange,
+    CoreNetworkChange (CoreNetworkChange'),
     newCoreNetworkChange,
 
     -- ** CoreNetworkChangeEvent
-    CoreNetworkChangeEvent,
+    CoreNetworkChangeEvent (CoreNetworkChangeEvent'),
     newCoreNetworkChangeEvent,
 
     -- ** CoreNetworkChangeEventValues
-    CoreNetworkChangeEventValues,
+    CoreNetworkChangeEventValues (CoreNetworkChangeEventValues'),
     newCoreNetworkChangeEventValues,
 
     -- ** CoreNetworkChangeValues
-    CoreNetworkChangeValues,
+    CoreNetworkChangeValues (CoreNetworkChangeValues'),
     newCoreNetworkChangeValues,
 
     -- ** CoreNetworkEdge
-    CoreNetworkEdge,
+    CoreNetworkEdge (CoreNetworkEdge'),
     newCoreNetworkEdge,
 
     -- ** CoreNetworkPolicy
-    CoreNetworkPolicy,
+    CoreNetworkPolicy (CoreNetworkPolicy'),
     newCoreNetworkPolicy,
 
     -- ** CoreNetworkPolicyError
-    CoreNetworkPolicyError,
+    CoreNetworkPolicyError (CoreNetworkPolicyError'),
     newCoreNetworkPolicyError,
 
     -- ** CoreNetworkPolicyVersion
-    CoreNetworkPolicyVersion,
+    CoreNetworkPolicyVersion (CoreNetworkPolicyVersion'),
     newCoreNetworkPolicyVersion,
 
     -- ** CoreNetworkSegment
-    CoreNetworkSegment,
+    CoreNetworkSegment (CoreNetworkSegment'),
     newCoreNetworkSegment,
 
     -- ** CoreNetworkSegmentEdgeIdentifier
-    CoreNetworkSegmentEdgeIdentifier,
+    CoreNetworkSegmentEdgeIdentifier (CoreNetworkSegmentEdgeIdentifier'),
     newCoreNetworkSegmentEdgeIdentifier,
 
     -- ** CoreNetworkSummary
-    CoreNetworkSummary,
+    CoreNetworkSummary (CoreNetworkSummary'),
     newCoreNetworkSummary,
 
     -- ** CustomerGatewayAssociation
-    CustomerGatewayAssociation,
+    CustomerGatewayAssociation (CustomerGatewayAssociation'),
     newCustomerGatewayAssociation,
 
     -- ** Device
-    Device,
+    Device (Device'),
     newDevice,
 
     -- ** GlobalNetwork
-    GlobalNetwork,
+    GlobalNetwork (GlobalNetwork'),
     newGlobalNetwork,
 
     -- ** Link
-    Link,
+    Link (Link'),
     newLink,
 
     -- ** LinkAssociation
-    LinkAssociation,
+    LinkAssociation (LinkAssociation'),
     newLinkAssociation,
 
     -- ** Location
-    Location,
+    Location (Location'),
     newLocation,
 
     -- ** NetworkResource
-    NetworkResource,
+    NetworkResource (NetworkResource'),
     newNetworkResource,
 
     -- ** NetworkResourceCount
-    NetworkResourceCount,
+    NetworkResourceCount (NetworkResourceCount'),
     newNetworkResourceCount,
 
     -- ** NetworkResourceSummary
-    NetworkResourceSummary,
+    NetworkResourceSummary (NetworkResourceSummary'),
     newNetworkResourceSummary,
 
     -- ** NetworkRoute
-    NetworkRoute,
+    NetworkRoute (NetworkRoute'),
     newNetworkRoute,
 
     -- ** NetworkRouteDestination
-    NetworkRouteDestination,
+    NetworkRouteDestination (NetworkRouteDestination'),
     newNetworkRouteDestination,
 
     -- ** NetworkTelemetry
-    NetworkTelemetry,
+    NetworkTelemetry (NetworkTelemetry'),
     newNetworkTelemetry,
 
     -- ** OrganizationStatus
-    OrganizationStatus,
+    OrganizationStatus (OrganizationStatus'),
     newOrganizationStatus,
 
     -- ** PathComponent
-    PathComponent,
+    PathComponent (PathComponent'),
     newPathComponent,
 
     -- ** Peering
-    Peering,
+    Peering (Peering'),
     newPeering,
 
     -- ** ProposedSegmentChange
-    ProposedSegmentChange,
+    ProposedSegmentChange (ProposedSegmentChange'),
     newProposedSegmentChange,
 
     -- ** Relationship
-    Relationship,
+    Relationship (Relationship'),
     newRelationship,
 
     -- ** RouteAnalysis
-    RouteAnalysis,
+    RouteAnalysis (RouteAnalysis'),
     newRouteAnalysis,
 
     -- ** RouteAnalysisCompletion
-    RouteAnalysisCompletion,
+    RouteAnalysisCompletion (RouteAnalysisCompletion'),
     newRouteAnalysisCompletion,
 
     -- ** RouteAnalysisEndpointOptions
-    RouteAnalysisEndpointOptions,
+    RouteAnalysisEndpointOptions (RouteAnalysisEndpointOptions'),
     newRouteAnalysisEndpointOptions,
 
     -- ** RouteAnalysisEndpointOptionsSpecification
-    RouteAnalysisEndpointOptionsSpecification,
+    RouteAnalysisEndpointOptionsSpecification (RouteAnalysisEndpointOptionsSpecification'),
     newRouteAnalysisEndpointOptionsSpecification,
 
     -- ** RouteAnalysisPath
-    RouteAnalysisPath,
+    RouteAnalysisPath (RouteAnalysisPath'),
     newRouteAnalysisPath,
 
     -- ** RouteTableIdentifier
-    RouteTableIdentifier,
+    RouteTableIdentifier (RouteTableIdentifier'),
     newRouteTableIdentifier,
 
     -- ** Site
-    Site,
+    Site (Site'),
     newSite,
 
     -- ** SiteToSiteVpnAttachment
-    SiteToSiteVpnAttachment,
+    SiteToSiteVpnAttachment (SiteToSiteVpnAttachment'),
     newSiteToSiteVpnAttachment,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** TransitGatewayConnectPeerAssociation
-    TransitGatewayConnectPeerAssociation,
+    TransitGatewayConnectPeerAssociation (TransitGatewayConnectPeerAssociation'),
     newTransitGatewayConnectPeerAssociation,
 
     -- ** TransitGatewayPeering
-    TransitGatewayPeering,
+    TransitGatewayPeering (TransitGatewayPeering'),
     newTransitGatewayPeering,
 
     -- ** TransitGatewayRegistration
-    TransitGatewayRegistration,
+    TransitGatewayRegistration (TransitGatewayRegistration'),
     newTransitGatewayRegistration,
 
     -- ** TransitGatewayRegistrationStateReason
-    TransitGatewayRegistrationStateReason,
+    TransitGatewayRegistrationStateReason (TransitGatewayRegistrationStateReason'),
     newTransitGatewayRegistrationStateReason,
 
     -- ** TransitGatewayRouteTableAttachment
-    TransitGatewayRouteTableAttachment,
+    TransitGatewayRouteTableAttachment (TransitGatewayRouteTableAttachment'),
     newTransitGatewayRouteTableAttachment,
 
     -- ** VpcAttachment
-    VpcAttachment,
+    VpcAttachment (VpcAttachment'),
     newVpcAttachment,
 
     -- ** VpcOptions
-    VpcOptions,
+    VpcOptions (VpcOptions'),
     newVpcOptions,
   )
 where

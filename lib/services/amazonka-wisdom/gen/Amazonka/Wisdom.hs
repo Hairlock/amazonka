@@ -52,189 +52,189 @@ module Amazonka.Wisdom
     -- $operations
 
     -- ** CreateAssistant
-    CreateAssistant,
+    CreateAssistant (CreateAssistant'),
     newCreateAssistant,
-    CreateAssistantResponse,
+    CreateAssistantResponse (CreateAssistantResponse'),
     newCreateAssistantResponse,
 
     -- ** CreateAssistantAssociation
-    CreateAssistantAssociation,
+    CreateAssistantAssociation (CreateAssistantAssociation'),
     newCreateAssistantAssociation,
-    CreateAssistantAssociationResponse,
+    CreateAssistantAssociationResponse (CreateAssistantAssociationResponse'),
     newCreateAssistantAssociationResponse,
 
     -- ** CreateContent
-    CreateContent,
+    CreateContent (CreateContent'),
     newCreateContent,
-    CreateContentResponse,
+    CreateContentResponse (CreateContentResponse'),
     newCreateContentResponse,
 
     -- ** CreateKnowledgeBase
-    CreateKnowledgeBase,
+    CreateKnowledgeBase (CreateKnowledgeBase'),
     newCreateKnowledgeBase,
-    CreateKnowledgeBaseResponse,
+    CreateKnowledgeBaseResponse (CreateKnowledgeBaseResponse'),
     newCreateKnowledgeBaseResponse,
 
     -- ** CreateSession
-    CreateSession,
+    CreateSession (CreateSession'),
     newCreateSession,
-    CreateSessionResponse,
+    CreateSessionResponse (CreateSessionResponse'),
     newCreateSessionResponse,
 
     -- ** DeleteAssistant
-    DeleteAssistant,
+    DeleteAssistant (DeleteAssistant'),
     newDeleteAssistant,
-    DeleteAssistantResponse,
+    DeleteAssistantResponse (DeleteAssistantResponse'),
     newDeleteAssistantResponse,
 
     -- ** DeleteAssistantAssociation
-    DeleteAssistantAssociation,
+    DeleteAssistantAssociation (DeleteAssistantAssociation'),
     newDeleteAssistantAssociation,
-    DeleteAssistantAssociationResponse,
+    DeleteAssistantAssociationResponse (DeleteAssistantAssociationResponse'),
     newDeleteAssistantAssociationResponse,
 
     -- ** DeleteContent
-    DeleteContent,
+    DeleteContent (DeleteContent'),
     newDeleteContent,
-    DeleteContentResponse,
+    DeleteContentResponse (DeleteContentResponse'),
     newDeleteContentResponse,
 
     -- ** DeleteKnowledgeBase
-    DeleteKnowledgeBase,
+    DeleteKnowledgeBase (DeleteKnowledgeBase'),
     newDeleteKnowledgeBase,
-    DeleteKnowledgeBaseResponse,
+    DeleteKnowledgeBaseResponse (DeleteKnowledgeBaseResponse'),
     newDeleteKnowledgeBaseResponse,
 
     -- ** GetAssistant
-    GetAssistant,
+    GetAssistant (GetAssistant'),
     newGetAssistant,
-    GetAssistantResponse,
+    GetAssistantResponse (GetAssistantResponse'),
     newGetAssistantResponse,
 
     -- ** GetAssistantAssociation
-    GetAssistantAssociation,
+    GetAssistantAssociation (GetAssistantAssociation'),
     newGetAssistantAssociation,
-    GetAssistantAssociationResponse,
+    GetAssistantAssociationResponse (GetAssistantAssociationResponse'),
     newGetAssistantAssociationResponse,
 
     -- ** GetContent
-    GetContent,
+    GetContent (GetContent'),
     newGetContent,
-    GetContentResponse,
+    GetContentResponse (GetContentResponse'),
     newGetContentResponse,
 
     -- ** GetContentSummary
-    GetContentSummary,
+    GetContentSummary (GetContentSummary'),
     newGetContentSummary,
-    GetContentSummaryResponse,
+    GetContentSummaryResponse (GetContentSummaryResponse'),
     newGetContentSummaryResponse,
 
     -- ** GetKnowledgeBase
-    GetKnowledgeBase,
+    GetKnowledgeBase (GetKnowledgeBase'),
     newGetKnowledgeBase,
-    GetKnowledgeBaseResponse,
+    GetKnowledgeBaseResponse (GetKnowledgeBaseResponse'),
     newGetKnowledgeBaseResponse,
 
     -- ** GetRecommendations
-    GetRecommendations,
+    GetRecommendations (GetRecommendations'),
     newGetRecommendations,
-    GetRecommendationsResponse,
+    GetRecommendationsResponse (GetRecommendationsResponse'),
     newGetRecommendationsResponse,
 
     -- ** GetSession
-    GetSession,
+    GetSession (GetSession'),
     newGetSession,
-    GetSessionResponse,
+    GetSessionResponse (GetSessionResponse'),
     newGetSessionResponse,
 
     -- ** ListAssistantAssociations (Paginated)
-    ListAssistantAssociations,
+    ListAssistantAssociations (ListAssistantAssociations'),
     newListAssistantAssociations,
-    ListAssistantAssociationsResponse,
+    ListAssistantAssociationsResponse (ListAssistantAssociationsResponse'),
     newListAssistantAssociationsResponse,
 
     -- ** ListAssistants (Paginated)
-    ListAssistants,
+    ListAssistants (ListAssistants'),
     newListAssistants,
-    ListAssistantsResponse,
+    ListAssistantsResponse (ListAssistantsResponse'),
     newListAssistantsResponse,
 
     -- ** ListContents (Paginated)
-    ListContents,
+    ListContents (ListContents'),
     newListContents,
-    ListContentsResponse,
+    ListContentsResponse (ListContentsResponse'),
     newListContentsResponse,
 
     -- ** ListKnowledgeBases (Paginated)
-    ListKnowledgeBases,
+    ListKnowledgeBases (ListKnowledgeBases'),
     newListKnowledgeBases,
-    ListKnowledgeBasesResponse,
+    ListKnowledgeBasesResponse (ListKnowledgeBasesResponse'),
     newListKnowledgeBasesResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** NotifyRecommendationsReceived
-    NotifyRecommendationsReceived,
+    NotifyRecommendationsReceived (NotifyRecommendationsReceived'),
     newNotifyRecommendationsReceived,
-    NotifyRecommendationsReceivedResponse,
+    NotifyRecommendationsReceivedResponse (NotifyRecommendationsReceivedResponse'),
     newNotifyRecommendationsReceivedResponse,
 
     -- ** QueryAssistant (Paginated)
-    QueryAssistant,
+    QueryAssistant (QueryAssistant'),
     newQueryAssistant,
-    QueryAssistantResponse,
+    QueryAssistantResponse (QueryAssistantResponse'),
     newQueryAssistantResponse,
 
     -- ** RemoveKnowledgeBaseTemplateUri
-    RemoveKnowledgeBaseTemplateUri,
+    RemoveKnowledgeBaseTemplateUri (RemoveKnowledgeBaseTemplateUri'),
     newRemoveKnowledgeBaseTemplateUri,
-    RemoveKnowledgeBaseTemplateUriResponse,
+    RemoveKnowledgeBaseTemplateUriResponse (RemoveKnowledgeBaseTemplateUriResponse'),
     newRemoveKnowledgeBaseTemplateUriResponse,
 
     -- ** SearchContent (Paginated)
-    SearchContent,
+    SearchContent (SearchContent'),
     newSearchContent,
-    SearchContentResponse,
+    SearchContentResponse (SearchContentResponse'),
     newSearchContentResponse,
 
     -- ** SearchSessions (Paginated)
-    SearchSessions,
+    SearchSessions (SearchSessions'),
     newSearchSessions,
-    SearchSessionsResponse,
+    SearchSessionsResponse (SearchSessionsResponse'),
     newSearchSessionsResponse,
 
     -- ** StartContentUpload
-    StartContentUpload,
+    StartContentUpload (StartContentUpload'),
     newStartContentUpload,
-    StartContentUploadResponse,
+    StartContentUploadResponse (StartContentUploadResponse'),
     newStartContentUploadResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateContent
-    UpdateContent,
+    UpdateContent (UpdateContent'),
     newUpdateContent,
-    UpdateContentResponse,
+    UpdateContentResponse (UpdateContentResponse'),
     newUpdateContentResponse,
 
     -- ** UpdateKnowledgeBaseTemplateUri
-    UpdateKnowledgeBaseTemplateUri,
+    UpdateKnowledgeBaseTemplateUri (UpdateKnowledgeBaseTemplateUri'),
     newUpdateKnowledgeBaseTemplateUri,
-    UpdateKnowledgeBaseTemplateUriResponse,
+    UpdateKnowledgeBaseTemplateUriResponse (UpdateKnowledgeBaseTemplateUriResponse'),
     newUpdateKnowledgeBaseTemplateUriResponse,
 
     -- * Types
@@ -276,119 +276,119 @@ module Amazonka.Wisdom
     RelevanceLevel (..),
 
     -- ** AppIntegrationsConfiguration
-    AppIntegrationsConfiguration,
+    AppIntegrationsConfiguration (AppIntegrationsConfiguration'),
     newAppIntegrationsConfiguration,
 
     -- ** AssistantAssociationData
-    AssistantAssociationData,
+    AssistantAssociationData (AssistantAssociationData'),
     newAssistantAssociationData,
 
     -- ** AssistantAssociationInputData
-    AssistantAssociationInputData,
+    AssistantAssociationInputData (AssistantAssociationInputData'),
     newAssistantAssociationInputData,
 
     -- ** AssistantAssociationOutputData
-    AssistantAssociationOutputData,
+    AssistantAssociationOutputData (AssistantAssociationOutputData'),
     newAssistantAssociationOutputData,
 
     -- ** AssistantAssociationSummary
-    AssistantAssociationSummary,
+    AssistantAssociationSummary (AssistantAssociationSummary'),
     newAssistantAssociationSummary,
 
     -- ** AssistantData
-    AssistantData,
+    AssistantData (AssistantData'),
     newAssistantData,
 
     -- ** AssistantSummary
-    AssistantSummary,
+    AssistantSummary (AssistantSummary'),
     newAssistantSummary,
 
     -- ** ContentData
-    ContentData,
+    ContentData (ContentData'),
     newContentData,
 
     -- ** ContentReference
-    ContentReference,
+    ContentReference (ContentReference'),
     newContentReference,
 
     -- ** ContentSummary
-    ContentSummary,
+    ContentSummary (ContentSummary'),
     newContentSummary,
 
     -- ** Document
-    Document,
+    Document (Document'),
     newDocument,
 
     -- ** DocumentText
-    DocumentText,
+    DocumentText (DocumentText'),
     newDocumentText,
 
     -- ** Filter
-    Filter,
+    Filter (Filter'),
     newFilter,
 
     -- ** Highlight
-    Highlight,
+    Highlight (Highlight'),
     newHighlight,
 
     -- ** KnowledgeBaseAssociationData
-    KnowledgeBaseAssociationData,
+    KnowledgeBaseAssociationData (KnowledgeBaseAssociationData'),
     newKnowledgeBaseAssociationData,
 
     -- ** KnowledgeBaseData
-    KnowledgeBaseData,
+    KnowledgeBaseData (KnowledgeBaseData'),
     newKnowledgeBaseData,
 
     -- ** KnowledgeBaseSummary
-    KnowledgeBaseSummary,
+    KnowledgeBaseSummary (KnowledgeBaseSummary'),
     newKnowledgeBaseSummary,
 
     -- ** NotifyRecommendationsReceivedError
-    NotifyRecommendationsReceivedError,
+    NotifyRecommendationsReceivedError (NotifyRecommendationsReceivedError'),
     newNotifyRecommendationsReceivedError,
 
     -- ** QueryRecommendationTriggerData
-    QueryRecommendationTriggerData,
+    QueryRecommendationTriggerData (QueryRecommendationTriggerData'),
     newQueryRecommendationTriggerData,
 
     -- ** RecommendationData
-    RecommendationData,
+    RecommendationData (RecommendationData'),
     newRecommendationData,
 
     -- ** RecommendationTrigger
-    RecommendationTrigger,
+    RecommendationTrigger (RecommendationTrigger'),
     newRecommendationTrigger,
 
     -- ** RecommendationTriggerData
-    RecommendationTriggerData,
+    RecommendationTriggerData (RecommendationTriggerData'),
     newRecommendationTriggerData,
 
     -- ** RenderingConfiguration
-    RenderingConfiguration,
+    RenderingConfiguration (RenderingConfiguration'),
     newRenderingConfiguration,
 
     -- ** ResultData
-    ResultData,
+    ResultData (ResultData'),
     newResultData,
 
     -- ** SearchExpression
-    SearchExpression,
+    SearchExpression (SearchExpression'),
     newSearchExpression,
 
     -- ** ServerSideEncryptionConfiguration
-    ServerSideEncryptionConfiguration,
+    ServerSideEncryptionConfiguration (ServerSideEncryptionConfiguration'),
     newServerSideEncryptionConfiguration,
 
     -- ** SessionData
-    SessionData,
+    SessionData (SessionData'),
     newSessionData,
 
     -- ** SessionSummary
-    SessionSummary,
+    SessionSummary (SessionSummary'),
     newSessionSummary,
 
     -- ** SourceConfiguration
-    SourceConfiguration,
+    SourceConfiguration (SourceConfiguration'),
     newSourceConfiguration,
   )
 where

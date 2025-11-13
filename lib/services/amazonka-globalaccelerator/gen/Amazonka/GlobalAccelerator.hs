@@ -149,297 +149,297 @@ module Amazonka.GlobalAccelerator
     -- $operations
 
     -- ** AddCustomRoutingEndpoints
-    AddCustomRoutingEndpoints,
+    AddCustomRoutingEndpoints (AddCustomRoutingEndpoints'),
     newAddCustomRoutingEndpoints,
-    AddCustomRoutingEndpointsResponse,
+    AddCustomRoutingEndpointsResponse (AddCustomRoutingEndpointsResponse'),
     newAddCustomRoutingEndpointsResponse,
 
     -- ** AddEndpoints
-    AddEndpoints,
+    AddEndpoints (AddEndpoints'),
     newAddEndpoints,
-    AddEndpointsResponse,
+    AddEndpointsResponse (AddEndpointsResponse'),
     newAddEndpointsResponse,
 
     -- ** AdvertiseByoipCidr
-    AdvertiseByoipCidr,
+    AdvertiseByoipCidr (AdvertiseByoipCidr'),
     newAdvertiseByoipCidr,
-    AdvertiseByoipCidrResponse,
+    AdvertiseByoipCidrResponse (AdvertiseByoipCidrResponse'),
     newAdvertiseByoipCidrResponse,
 
     -- ** AllowCustomRoutingTraffic
-    AllowCustomRoutingTraffic,
+    AllowCustomRoutingTraffic (AllowCustomRoutingTraffic'),
     newAllowCustomRoutingTraffic,
-    AllowCustomRoutingTrafficResponse,
+    AllowCustomRoutingTrafficResponse (AllowCustomRoutingTrafficResponse'),
     newAllowCustomRoutingTrafficResponse,
 
     -- ** CreateAccelerator
-    CreateAccelerator,
+    CreateAccelerator (CreateAccelerator'),
     newCreateAccelerator,
-    CreateAcceleratorResponse,
+    CreateAcceleratorResponse (CreateAcceleratorResponse'),
     newCreateAcceleratorResponse,
 
     -- ** CreateCustomRoutingAccelerator
-    CreateCustomRoutingAccelerator,
+    CreateCustomRoutingAccelerator (CreateCustomRoutingAccelerator'),
     newCreateCustomRoutingAccelerator,
-    CreateCustomRoutingAcceleratorResponse,
+    CreateCustomRoutingAcceleratorResponse (CreateCustomRoutingAcceleratorResponse'),
     newCreateCustomRoutingAcceleratorResponse,
 
     -- ** CreateCustomRoutingEndpointGroup
-    CreateCustomRoutingEndpointGroup,
+    CreateCustomRoutingEndpointGroup (CreateCustomRoutingEndpointGroup'),
     newCreateCustomRoutingEndpointGroup,
-    CreateCustomRoutingEndpointGroupResponse,
+    CreateCustomRoutingEndpointGroupResponse (CreateCustomRoutingEndpointGroupResponse'),
     newCreateCustomRoutingEndpointGroupResponse,
 
     -- ** CreateCustomRoutingListener
-    CreateCustomRoutingListener,
+    CreateCustomRoutingListener (CreateCustomRoutingListener'),
     newCreateCustomRoutingListener,
-    CreateCustomRoutingListenerResponse,
+    CreateCustomRoutingListenerResponse (CreateCustomRoutingListenerResponse'),
     newCreateCustomRoutingListenerResponse,
 
     -- ** CreateEndpointGroup
-    CreateEndpointGroup,
+    CreateEndpointGroup (CreateEndpointGroup'),
     newCreateEndpointGroup,
-    CreateEndpointGroupResponse,
+    CreateEndpointGroupResponse (CreateEndpointGroupResponse'),
     newCreateEndpointGroupResponse,
 
     -- ** CreateListener
-    CreateListener,
+    CreateListener (CreateListener'),
     newCreateListener,
-    CreateListenerResponse,
+    CreateListenerResponse (CreateListenerResponse'),
     newCreateListenerResponse,
 
     -- ** DeleteAccelerator
-    DeleteAccelerator,
+    DeleteAccelerator (DeleteAccelerator'),
     newDeleteAccelerator,
-    DeleteAcceleratorResponse,
+    DeleteAcceleratorResponse (DeleteAcceleratorResponse'),
     newDeleteAcceleratorResponse,
 
     -- ** DeleteCustomRoutingAccelerator
-    DeleteCustomRoutingAccelerator,
+    DeleteCustomRoutingAccelerator (DeleteCustomRoutingAccelerator'),
     newDeleteCustomRoutingAccelerator,
-    DeleteCustomRoutingAcceleratorResponse,
+    DeleteCustomRoutingAcceleratorResponse (DeleteCustomRoutingAcceleratorResponse'),
     newDeleteCustomRoutingAcceleratorResponse,
 
     -- ** DeleteCustomRoutingEndpointGroup
-    DeleteCustomRoutingEndpointGroup,
+    DeleteCustomRoutingEndpointGroup (DeleteCustomRoutingEndpointGroup'),
     newDeleteCustomRoutingEndpointGroup,
-    DeleteCustomRoutingEndpointGroupResponse,
+    DeleteCustomRoutingEndpointGroupResponse (DeleteCustomRoutingEndpointGroupResponse'),
     newDeleteCustomRoutingEndpointGroupResponse,
 
     -- ** DeleteCustomRoutingListener
-    DeleteCustomRoutingListener,
+    DeleteCustomRoutingListener (DeleteCustomRoutingListener'),
     newDeleteCustomRoutingListener,
-    DeleteCustomRoutingListenerResponse,
+    DeleteCustomRoutingListenerResponse (DeleteCustomRoutingListenerResponse'),
     newDeleteCustomRoutingListenerResponse,
 
     -- ** DeleteEndpointGroup
-    DeleteEndpointGroup,
+    DeleteEndpointGroup (DeleteEndpointGroup'),
     newDeleteEndpointGroup,
-    DeleteEndpointGroupResponse,
+    DeleteEndpointGroupResponse (DeleteEndpointGroupResponse'),
     newDeleteEndpointGroupResponse,
 
     -- ** DeleteListener
-    DeleteListener,
+    DeleteListener (DeleteListener'),
     newDeleteListener,
-    DeleteListenerResponse,
+    DeleteListenerResponse (DeleteListenerResponse'),
     newDeleteListenerResponse,
 
     -- ** DenyCustomRoutingTraffic
-    DenyCustomRoutingTraffic,
+    DenyCustomRoutingTraffic (DenyCustomRoutingTraffic'),
     newDenyCustomRoutingTraffic,
-    DenyCustomRoutingTrafficResponse,
+    DenyCustomRoutingTrafficResponse (DenyCustomRoutingTrafficResponse'),
     newDenyCustomRoutingTrafficResponse,
 
     -- ** DeprovisionByoipCidr
-    DeprovisionByoipCidr,
+    DeprovisionByoipCidr (DeprovisionByoipCidr'),
     newDeprovisionByoipCidr,
-    DeprovisionByoipCidrResponse,
+    DeprovisionByoipCidrResponse (DeprovisionByoipCidrResponse'),
     newDeprovisionByoipCidrResponse,
 
     -- ** DescribeAccelerator
-    DescribeAccelerator,
+    DescribeAccelerator (DescribeAccelerator'),
     newDescribeAccelerator,
-    DescribeAcceleratorResponse,
+    DescribeAcceleratorResponse (DescribeAcceleratorResponse'),
     newDescribeAcceleratorResponse,
 
     -- ** DescribeAcceleratorAttributes
-    DescribeAcceleratorAttributes,
+    DescribeAcceleratorAttributes (DescribeAcceleratorAttributes'),
     newDescribeAcceleratorAttributes,
-    DescribeAcceleratorAttributesResponse,
+    DescribeAcceleratorAttributesResponse (DescribeAcceleratorAttributesResponse'),
     newDescribeAcceleratorAttributesResponse,
 
     -- ** DescribeCustomRoutingAccelerator
-    DescribeCustomRoutingAccelerator,
+    DescribeCustomRoutingAccelerator (DescribeCustomRoutingAccelerator'),
     newDescribeCustomRoutingAccelerator,
-    DescribeCustomRoutingAcceleratorResponse,
+    DescribeCustomRoutingAcceleratorResponse (DescribeCustomRoutingAcceleratorResponse'),
     newDescribeCustomRoutingAcceleratorResponse,
 
     -- ** DescribeCustomRoutingAcceleratorAttributes
-    DescribeCustomRoutingAcceleratorAttributes,
+    DescribeCustomRoutingAcceleratorAttributes (DescribeCustomRoutingAcceleratorAttributes'),
     newDescribeCustomRoutingAcceleratorAttributes,
-    DescribeCustomRoutingAcceleratorAttributesResponse,
+    DescribeCustomRoutingAcceleratorAttributesResponse (DescribeCustomRoutingAcceleratorAttributesResponse'),
     newDescribeCustomRoutingAcceleratorAttributesResponse,
 
     -- ** DescribeCustomRoutingEndpointGroup
-    DescribeCustomRoutingEndpointGroup,
+    DescribeCustomRoutingEndpointGroup (DescribeCustomRoutingEndpointGroup'),
     newDescribeCustomRoutingEndpointGroup,
-    DescribeCustomRoutingEndpointGroupResponse,
+    DescribeCustomRoutingEndpointGroupResponse (DescribeCustomRoutingEndpointGroupResponse'),
     newDescribeCustomRoutingEndpointGroupResponse,
 
     -- ** DescribeCustomRoutingListener
-    DescribeCustomRoutingListener,
+    DescribeCustomRoutingListener (DescribeCustomRoutingListener'),
     newDescribeCustomRoutingListener,
-    DescribeCustomRoutingListenerResponse,
+    DescribeCustomRoutingListenerResponse (DescribeCustomRoutingListenerResponse'),
     newDescribeCustomRoutingListenerResponse,
 
     -- ** DescribeEndpointGroup
-    DescribeEndpointGroup,
+    DescribeEndpointGroup (DescribeEndpointGroup'),
     newDescribeEndpointGroup,
-    DescribeEndpointGroupResponse,
+    DescribeEndpointGroupResponse (DescribeEndpointGroupResponse'),
     newDescribeEndpointGroupResponse,
 
     -- ** DescribeListener
-    DescribeListener,
+    DescribeListener (DescribeListener'),
     newDescribeListener,
-    DescribeListenerResponse,
+    DescribeListenerResponse (DescribeListenerResponse'),
     newDescribeListenerResponse,
 
     -- ** ListAccelerators (Paginated)
-    ListAccelerators,
+    ListAccelerators (ListAccelerators'),
     newListAccelerators,
-    ListAcceleratorsResponse,
+    ListAcceleratorsResponse (ListAcceleratorsResponse'),
     newListAcceleratorsResponse,
 
     -- ** ListByoipCidrs (Paginated)
-    ListByoipCidrs,
+    ListByoipCidrs (ListByoipCidrs'),
     newListByoipCidrs,
-    ListByoipCidrsResponse,
+    ListByoipCidrsResponse (ListByoipCidrsResponse'),
     newListByoipCidrsResponse,
 
     -- ** ListCustomRoutingAccelerators (Paginated)
-    ListCustomRoutingAccelerators,
+    ListCustomRoutingAccelerators (ListCustomRoutingAccelerators'),
     newListCustomRoutingAccelerators,
-    ListCustomRoutingAcceleratorsResponse,
+    ListCustomRoutingAcceleratorsResponse (ListCustomRoutingAcceleratorsResponse'),
     newListCustomRoutingAcceleratorsResponse,
 
     -- ** ListCustomRoutingEndpointGroups
-    ListCustomRoutingEndpointGroups,
+    ListCustomRoutingEndpointGroups (ListCustomRoutingEndpointGroups'),
     newListCustomRoutingEndpointGroups,
-    ListCustomRoutingEndpointGroupsResponse,
+    ListCustomRoutingEndpointGroupsResponse (ListCustomRoutingEndpointGroupsResponse'),
     newListCustomRoutingEndpointGroupsResponse,
 
     -- ** ListCustomRoutingListeners (Paginated)
-    ListCustomRoutingListeners,
+    ListCustomRoutingListeners (ListCustomRoutingListeners'),
     newListCustomRoutingListeners,
-    ListCustomRoutingListenersResponse,
+    ListCustomRoutingListenersResponse (ListCustomRoutingListenersResponse'),
     newListCustomRoutingListenersResponse,
 
     -- ** ListCustomRoutingPortMappings (Paginated)
-    ListCustomRoutingPortMappings,
+    ListCustomRoutingPortMappings (ListCustomRoutingPortMappings'),
     newListCustomRoutingPortMappings,
-    ListCustomRoutingPortMappingsResponse,
+    ListCustomRoutingPortMappingsResponse (ListCustomRoutingPortMappingsResponse'),
     newListCustomRoutingPortMappingsResponse,
 
     -- ** ListCustomRoutingPortMappingsByDestination (Paginated)
-    ListCustomRoutingPortMappingsByDestination,
+    ListCustomRoutingPortMappingsByDestination (ListCustomRoutingPortMappingsByDestination'),
     newListCustomRoutingPortMappingsByDestination,
-    ListCustomRoutingPortMappingsByDestinationResponse,
+    ListCustomRoutingPortMappingsByDestinationResponse (ListCustomRoutingPortMappingsByDestinationResponse'),
     newListCustomRoutingPortMappingsByDestinationResponse,
 
     -- ** ListEndpointGroups (Paginated)
-    ListEndpointGroups,
+    ListEndpointGroups (ListEndpointGroups'),
     newListEndpointGroups,
-    ListEndpointGroupsResponse,
+    ListEndpointGroupsResponse (ListEndpointGroupsResponse'),
     newListEndpointGroupsResponse,
 
     -- ** ListListeners (Paginated)
-    ListListeners,
+    ListListeners (ListListeners'),
     newListListeners,
-    ListListenersResponse,
+    ListListenersResponse (ListListenersResponse'),
     newListListenersResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** ProvisionByoipCidr
-    ProvisionByoipCidr,
+    ProvisionByoipCidr (ProvisionByoipCidr'),
     newProvisionByoipCidr,
-    ProvisionByoipCidrResponse,
+    ProvisionByoipCidrResponse (ProvisionByoipCidrResponse'),
     newProvisionByoipCidrResponse,
 
     -- ** RemoveCustomRoutingEndpoints
-    RemoveCustomRoutingEndpoints,
+    RemoveCustomRoutingEndpoints (RemoveCustomRoutingEndpoints'),
     newRemoveCustomRoutingEndpoints,
-    RemoveCustomRoutingEndpointsResponse,
+    RemoveCustomRoutingEndpointsResponse (RemoveCustomRoutingEndpointsResponse'),
     newRemoveCustomRoutingEndpointsResponse,
 
     -- ** RemoveEndpoints
-    RemoveEndpoints,
+    RemoveEndpoints (RemoveEndpoints'),
     newRemoveEndpoints,
-    RemoveEndpointsResponse,
+    RemoveEndpointsResponse (RemoveEndpointsResponse'),
     newRemoveEndpointsResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateAccelerator
-    UpdateAccelerator,
+    UpdateAccelerator (UpdateAccelerator'),
     newUpdateAccelerator,
-    UpdateAcceleratorResponse,
+    UpdateAcceleratorResponse (UpdateAcceleratorResponse'),
     newUpdateAcceleratorResponse,
 
     -- ** UpdateAcceleratorAttributes
-    UpdateAcceleratorAttributes,
+    UpdateAcceleratorAttributes (UpdateAcceleratorAttributes'),
     newUpdateAcceleratorAttributes,
-    UpdateAcceleratorAttributesResponse,
+    UpdateAcceleratorAttributesResponse (UpdateAcceleratorAttributesResponse'),
     newUpdateAcceleratorAttributesResponse,
 
     -- ** UpdateCustomRoutingAccelerator
-    UpdateCustomRoutingAccelerator,
+    UpdateCustomRoutingAccelerator (UpdateCustomRoutingAccelerator'),
     newUpdateCustomRoutingAccelerator,
-    UpdateCustomRoutingAcceleratorResponse,
+    UpdateCustomRoutingAcceleratorResponse (UpdateCustomRoutingAcceleratorResponse'),
     newUpdateCustomRoutingAcceleratorResponse,
 
     -- ** UpdateCustomRoutingAcceleratorAttributes
-    UpdateCustomRoutingAcceleratorAttributes,
+    UpdateCustomRoutingAcceleratorAttributes (UpdateCustomRoutingAcceleratorAttributes'),
     newUpdateCustomRoutingAcceleratorAttributes,
-    UpdateCustomRoutingAcceleratorAttributesResponse,
+    UpdateCustomRoutingAcceleratorAttributesResponse (UpdateCustomRoutingAcceleratorAttributesResponse'),
     newUpdateCustomRoutingAcceleratorAttributesResponse,
 
     -- ** UpdateCustomRoutingListener
-    UpdateCustomRoutingListener,
+    UpdateCustomRoutingListener (UpdateCustomRoutingListener'),
     newUpdateCustomRoutingListener,
-    UpdateCustomRoutingListenerResponse,
+    UpdateCustomRoutingListenerResponse (UpdateCustomRoutingListenerResponse'),
     newUpdateCustomRoutingListenerResponse,
 
     -- ** UpdateEndpointGroup
-    UpdateEndpointGroup,
+    UpdateEndpointGroup (UpdateEndpointGroup'),
     newUpdateEndpointGroup,
-    UpdateEndpointGroupResponse,
+    UpdateEndpointGroupResponse (UpdateEndpointGroupResponse'),
     newUpdateEndpointGroupResponse,
 
     -- ** UpdateListener
-    UpdateListener,
+    UpdateListener (UpdateListener'),
     newUpdateListener,
-    UpdateListenerResponse,
+    UpdateListenerResponse (UpdateListenerResponse'),
     newUpdateListenerResponse,
 
     -- ** WithdrawByoipCidr
-    WithdrawByoipCidr,
+    WithdrawByoipCidr (WithdrawByoipCidr'),
     newWithdrawByoipCidr,
-    WithdrawByoipCidrResponse,
+    WithdrawByoipCidrResponse (WithdrawByoipCidrResponse'),
     newWithdrawByoipCidrResponse,
 
     -- * Types
@@ -478,107 +478,107 @@ module Amazonka.GlobalAccelerator
     Protocol (..),
 
     -- ** Accelerator
-    Accelerator,
+    Accelerator (Accelerator'),
     newAccelerator,
 
     -- ** AcceleratorAttributes
-    AcceleratorAttributes,
+    AcceleratorAttributes (AcceleratorAttributes'),
     newAcceleratorAttributes,
 
     -- ** AcceleratorEvent
-    AcceleratorEvent,
+    AcceleratorEvent (AcceleratorEvent'),
     newAcceleratorEvent,
 
     -- ** ByoipCidr
-    ByoipCidr,
+    ByoipCidr (ByoipCidr'),
     newByoipCidr,
 
     -- ** ByoipCidrEvent
-    ByoipCidrEvent,
+    ByoipCidrEvent (ByoipCidrEvent'),
     newByoipCidrEvent,
 
     -- ** CidrAuthorizationContext
-    CidrAuthorizationContext,
+    CidrAuthorizationContext (CidrAuthorizationContext'),
     newCidrAuthorizationContext,
 
     -- ** CustomRoutingAccelerator
-    CustomRoutingAccelerator,
+    CustomRoutingAccelerator (CustomRoutingAccelerator'),
     newCustomRoutingAccelerator,
 
     -- ** CustomRoutingAcceleratorAttributes
-    CustomRoutingAcceleratorAttributes,
+    CustomRoutingAcceleratorAttributes (CustomRoutingAcceleratorAttributes'),
     newCustomRoutingAcceleratorAttributes,
 
     -- ** CustomRoutingDestinationConfiguration
-    CustomRoutingDestinationConfiguration,
+    CustomRoutingDestinationConfiguration (CustomRoutingDestinationConfiguration'),
     newCustomRoutingDestinationConfiguration,
 
     -- ** CustomRoutingDestinationDescription
-    CustomRoutingDestinationDescription,
+    CustomRoutingDestinationDescription (CustomRoutingDestinationDescription'),
     newCustomRoutingDestinationDescription,
 
     -- ** CustomRoutingEndpointConfiguration
-    CustomRoutingEndpointConfiguration,
+    CustomRoutingEndpointConfiguration (CustomRoutingEndpointConfiguration'),
     newCustomRoutingEndpointConfiguration,
 
     -- ** CustomRoutingEndpointDescription
-    CustomRoutingEndpointDescription,
+    CustomRoutingEndpointDescription (CustomRoutingEndpointDescription'),
     newCustomRoutingEndpointDescription,
 
     -- ** CustomRoutingEndpointGroup
-    CustomRoutingEndpointGroup,
+    CustomRoutingEndpointGroup (CustomRoutingEndpointGroup'),
     newCustomRoutingEndpointGroup,
 
     -- ** CustomRoutingListener
-    CustomRoutingListener,
+    CustomRoutingListener (CustomRoutingListener'),
     newCustomRoutingListener,
 
     -- ** DestinationPortMapping
-    DestinationPortMapping,
+    DestinationPortMapping (DestinationPortMapping'),
     newDestinationPortMapping,
 
     -- ** EndpointConfiguration
-    EndpointConfiguration,
+    EndpointConfiguration (EndpointConfiguration'),
     newEndpointConfiguration,
 
     -- ** EndpointDescription
-    EndpointDescription,
+    EndpointDescription (EndpointDescription'),
     newEndpointDescription,
 
     -- ** EndpointGroup
-    EndpointGroup,
+    EndpointGroup (EndpointGroup'),
     newEndpointGroup,
 
     -- ** EndpointIdentifier
-    EndpointIdentifier,
+    EndpointIdentifier (EndpointIdentifier'),
     newEndpointIdentifier,
 
     -- ** IpSet
-    IpSet,
+    IpSet (IpSet'),
     newIpSet,
 
     -- ** Listener
-    Listener,
+    Listener (Listener'),
     newListener,
 
     -- ** PortMapping
-    PortMapping,
+    PortMapping (PortMapping'),
     newPortMapping,
 
     -- ** PortOverride
-    PortOverride,
+    PortOverride (PortOverride'),
     newPortOverride,
 
     -- ** PortRange
-    PortRange,
+    PortRange (PortRange'),
     newPortRange,
 
     -- ** SocketAddress
-    SocketAddress,
+    SocketAddress (SocketAddress'),
     newSocketAddress,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
   )
 where

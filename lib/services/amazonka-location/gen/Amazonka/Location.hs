@@ -48,321 +48,321 @@ module Amazonka.Location
     -- $operations
 
     -- ** AssociateTrackerConsumer
-    AssociateTrackerConsumer,
+    AssociateTrackerConsumer (AssociateTrackerConsumer'),
     newAssociateTrackerConsumer,
-    AssociateTrackerConsumerResponse,
+    AssociateTrackerConsumerResponse (AssociateTrackerConsumerResponse'),
     newAssociateTrackerConsumerResponse,
 
     -- ** BatchDeleteDevicePositionHistory
-    BatchDeleteDevicePositionHistory,
+    BatchDeleteDevicePositionHistory (BatchDeleteDevicePositionHistory'),
     newBatchDeleteDevicePositionHistory,
-    BatchDeleteDevicePositionHistoryResponse,
+    BatchDeleteDevicePositionHistoryResponse (BatchDeleteDevicePositionHistoryResponse'),
     newBatchDeleteDevicePositionHistoryResponse,
 
     -- ** BatchDeleteGeofence
-    BatchDeleteGeofence,
+    BatchDeleteGeofence (BatchDeleteGeofence'),
     newBatchDeleteGeofence,
-    BatchDeleteGeofenceResponse,
+    BatchDeleteGeofenceResponse (BatchDeleteGeofenceResponse'),
     newBatchDeleteGeofenceResponse,
 
     -- ** BatchEvaluateGeofences
-    BatchEvaluateGeofences,
+    BatchEvaluateGeofences (BatchEvaluateGeofences'),
     newBatchEvaluateGeofences,
-    BatchEvaluateGeofencesResponse,
+    BatchEvaluateGeofencesResponse (BatchEvaluateGeofencesResponse'),
     newBatchEvaluateGeofencesResponse,
 
     -- ** BatchGetDevicePosition
-    BatchGetDevicePosition,
+    BatchGetDevicePosition (BatchGetDevicePosition'),
     newBatchGetDevicePosition,
-    BatchGetDevicePositionResponse,
+    BatchGetDevicePositionResponse (BatchGetDevicePositionResponse'),
     newBatchGetDevicePositionResponse,
 
     -- ** BatchPutGeofence
-    BatchPutGeofence,
+    BatchPutGeofence (BatchPutGeofence'),
     newBatchPutGeofence,
-    BatchPutGeofenceResponse,
+    BatchPutGeofenceResponse (BatchPutGeofenceResponse'),
     newBatchPutGeofenceResponse,
 
     -- ** BatchUpdateDevicePosition
-    BatchUpdateDevicePosition,
+    BatchUpdateDevicePosition (BatchUpdateDevicePosition'),
     newBatchUpdateDevicePosition,
-    BatchUpdateDevicePositionResponse,
+    BatchUpdateDevicePositionResponse (BatchUpdateDevicePositionResponse'),
     newBatchUpdateDevicePositionResponse,
 
     -- ** CalculateRoute
-    CalculateRoute,
+    CalculateRoute (CalculateRoute'),
     newCalculateRoute,
-    CalculateRouteResponse,
+    CalculateRouteResponse (CalculateRouteResponse'),
     newCalculateRouteResponse,
 
     -- ** CalculateRouteMatrix
-    CalculateRouteMatrix,
+    CalculateRouteMatrix (CalculateRouteMatrix'),
     newCalculateRouteMatrix,
-    CalculateRouteMatrixResponse,
+    CalculateRouteMatrixResponse (CalculateRouteMatrixResponse'),
     newCalculateRouteMatrixResponse,
 
     -- ** CreateGeofenceCollection
-    CreateGeofenceCollection,
+    CreateGeofenceCollection (CreateGeofenceCollection'),
     newCreateGeofenceCollection,
-    CreateGeofenceCollectionResponse,
+    CreateGeofenceCollectionResponse (CreateGeofenceCollectionResponse'),
     newCreateGeofenceCollectionResponse,
 
     -- ** CreateMap
-    CreateMap,
+    CreateMap (CreateMap'),
     newCreateMap,
-    CreateMapResponse,
+    CreateMapResponse (CreateMapResponse'),
     newCreateMapResponse,
 
     -- ** CreatePlaceIndex
-    CreatePlaceIndex,
+    CreatePlaceIndex (CreatePlaceIndex'),
     newCreatePlaceIndex,
-    CreatePlaceIndexResponse,
+    CreatePlaceIndexResponse (CreatePlaceIndexResponse'),
     newCreatePlaceIndexResponse,
 
     -- ** CreateRouteCalculator
-    CreateRouteCalculator,
+    CreateRouteCalculator (CreateRouteCalculator'),
     newCreateRouteCalculator,
-    CreateRouteCalculatorResponse,
+    CreateRouteCalculatorResponse (CreateRouteCalculatorResponse'),
     newCreateRouteCalculatorResponse,
 
     -- ** CreateTracker
-    CreateTracker,
+    CreateTracker (CreateTracker'),
     newCreateTracker,
-    CreateTrackerResponse,
+    CreateTrackerResponse (CreateTrackerResponse'),
     newCreateTrackerResponse,
 
     -- ** DeleteGeofenceCollection
-    DeleteGeofenceCollection,
+    DeleteGeofenceCollection (DeleteGeofenceCollection'),
     newDeleteGeofenceCollection,
-    DeleteGeofenceCollectionResponse,
+    DeleteGeofenceCollectionResponse (DeleteGeofenceCollectionResponse'),
     newDeleteGeofenceCollectionResponse,
 
     -- ** DeleteMap
-    DeleteMap,
+    DeleteMap (DeleteMap'),
     newDeleteMap,
-    DeleteMapResponse,
+    DeleteMapResponse (DeleteMapResponse'),
     newDeleteMapResponse,
 
     -- ** DeletePlaceIndex
-    DeletePlaceIndex,
+    DeletePlaceIndex (DeletePlaceIndex'),
     newDeletePlaceIndex,
-    DeletePlaceIndexResponse,
+    DeletePlaceIndexResponse (DeletePlaceIndexResponse'),
     newDeletePlaceIndexResponse,
 
     -- ** DeleteRouteCalculator
-    DeleteRouteCalculator,
+    DeleteRouteCalculator (DeleteRouteCalculator'),
     newDeleteRouteCalculator,
-    DeleteRouteCalculatorResponse,
+    DeleteRouteCalculatorResponse (DeleteRouteCalculatorResponse'),
     newDeleteRouteCalculatorResponse,
 
     -- ** DeleteTracker
-    DeleteTracker,
+    DeleteTracker (DeleteTracker'),
     newDeleteTracker,
-    DeleteTrackerResponse,
+    DeleteTrackerResponse (DeleteTrackerResponse'),
     newDeleteTrackerResponse,
 
     -- ** DescribeGeofenceCollection
-    DescribeGeofenceCollection,
+    DescribeGeofenceCollection (DescribeGeofenceCollection'),
     newDescribeGeofenceCollection,
-    DescribeGeofenceCollectionResponse,
+    DescribeGeofenceCollectionResponse (DescribeGeofenceCollectionResponse'),
     newDescribeGeofenceCollectionResponse,
 
     -- ** DescribeMap
-    DescribeMap,
+    DescribeMap (DescribeMap'),
     newDescribeMap,
-    DescribeMapResponse,
+    DescribeMapResponse (DescribeMapResponse'),
     newDescribeMapResponse,
 
     -- ** DescribePlaceIndex
-    DescribePlaceIndex,
+    DescribePlaceIndex (DescribePlaceIndex'),
     newDescribePlaceIndex,
-    DescribePlaceIndexResponse,
+    DescribePlaceIndexResponse (DescribePlaceIndexResponse'),
     newDescribePlaceIndexResponse,
 
     -- ** DescribeRouteCalculator
-    DescribeRouteCalculator,
+    DescribeRouteCalculator (DescribeRouteCalculator'),
     newDescribeRouteCalculator,
-    DescribeRouteCalculatorResponse,
+    DescribeRouteCalculatorResponse (DescribeRouteCalculatorResponse'),
     newDescribeRouteCalculatorResponse,
 
     -- ** DescribeTracker
-    DescribeTracker,
+    DescribeTracker (DescribeTracker'),
     newDescribeTracker,
-    DescribeTrackerResponse,
+    DescribeTrackerResponse (DescribeTrackerResponse'),
     newDescribeTrackerResponse,
 
     -- ** DisassociateTrackerConsumer
-    DisassociateTrackerConsumer,
+    DisassociateTrackerConsumer (DisassociateTrackerConsumer'),
     newDisassociateTrackerConsumer,
-    DisassociateTrackerConsumerResponse,
+    DisassociateTrackerConsumerResponse (DisassociateTrackerConsumerResponse'),
     newDisassociateTrackerConsumerResponse,
 
     -- ** GetDevicePosition
-    GetDevicePosition,
+    GetDevicePosition (GetDevicePosition'),
     newGetDevicePosition,
-    GetDevicePositionResponse,
+    GetDevicePositionResponse (GetDevicePositionResponse'),
     newGetDevicePositionResponse,
 
     -- ** GetDevicePositionHistory (Paginated)
-    GetDevicePositionHistory,
+    GetDevicePositionHistory (GetDevicePositionHistory'),
     newGetDevicePositionHistory,
-    GetDevicePositionHistoryResponse,
+    GetDevicePositionHistoryResponse (GetDevicePositionHistoryResponse'),
     newGetDevicePositionHistoryResponse,
 
     -- ** GetGeofence
-    GetGeofence,
+    GetGeofence (GetGeofence'),
     newGetGeofence,
-    GetGeofenceResponse,
+    GetGeofenceResponse (GetGeofenceResponse'),
     newGetGeofenceResponse,
 
     -- ** GetMapGlyphs
-    GetMapGlyphs,
+    GetMapGlyphs (GetMapGlyphs'),
     newGetMapGlyphs,
-    GetMapGlyphsResponse,
+    GetMapGlyphsResponse (GetMapGlyphsResponse'),
     newGetMapGlyphsResponse,
 
     -- ** GetMapSprites
-    GetMapSprites,
+    GetMapSprites (GetMapSprites'),
     newGetMapSprites,
-    GetMapSpritesResponse,
+    GetMapSpritesResponse (GetMapSpritesResponse'),
     newGetMapSpritesResponse,
 
     -- ** GetMapStyleDescriptor
-    GetMapStyleDescriptor,
+    GetMapStyleDescriptor (GetMapStyleDescriptor'),
     newGetMapStyleDescriptor,
-    GetMapStyleDescriptorResponse,
+    GetMapStyleDescriptorResponse (GetMapStyleDescriptorResponse'),
     newGetMapStyleDescriptorResponse,
 
     -- ** GetMapTile
-    GetMapTile,
+    GetMapTile (GetMapTile'),
     newGetMapTile,
-    GetMapTileResponse,
+    GetMapTileResponse (GetMapTileResponse'),
     newGetMapTileResponse,
 
     -- ** GetPlace
-    GetPlace,
+    GetPlace (GetPlace'),
     newGetPlace,
-    GetPlaceResponse,
+    GetPlaceResponse (GetPlaceResponse'),
     newGetPlaceResponse,
 
     -- ** ListDevicePositions (Paginated)
-    ListDevicePositions,
+    ListDevicePositions (ListDevicePositions'),
     newListDevicePositions,
-    ListDevicePositionsResponse,
+    ListDevicePositionsResponse (ListDevicePositionsResponse'),
     newListDevicePositionsResponse,
 
     -- ** ListGeofenceCollections (Paginated)
-    ListGeofenceCollections,
+    ListGeofenceCollections (ListGeofenceCollections'),
     newListGeofenceCollections,
-    ListGeofenceCollectionsResponse,
+    ListGeofenceCollectionsResponse (ListGeofenceCollectionsResponse'),
     newListGeofenceCollectionsResponse,
 
     -- ** ListGeofences (Paginated)
-    ListGeofences,
+    ListGeofences (ListGeofences'),
     newListGeofences,
-    ListGeofencesResponse,
+    ListGeofencesResponse (ListGeofencesResponse'),
     newListGeofencesResponse,
 
     -- ** ListMaps (Paginated)
-    ListMaps,
+    ListMaps (ListMaps'),
     newListMaps,
-    ListMapsResponse,
+    ListMapsResponse (ListMapsResponse'),
     newListMapsResponse,
 
     -- ** ListPlaceIndexes (Paginated)
-    ListPlaceIndexes,
+    ListPlaceIndexes (ListPlaceIndexes'),
     newListPlaceIndexes,
-    ListPlaceIndexesResponse,
+    ListPlaceIndexesResponse (ListPlaceIndexesResponse'),
     newListPlaceIndexesResponse,
 
     -- ** ListRouteCalculators (Paginated)
-    ListRouteCalculators,
+    ListRouteCalculators (ListRouteCalculators'),
     newListRouteCalculators,
-    ListRouteCalculatorsResponse,
+    ListRouteCalculatorsResponse (ListRouteCalculatorsResponse'),
     newListRouteCalculatorsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** ListTrackerConsumers (Paginated)
-    ListTrackerConsumers,
+    ListTrackerConsumers (ListTrackerConsumers'),
     newListTrackerConsumers,
-    ListTrackerConsumersResponse,
+    ListTrackerConsumersResponse (ListTrackerConsumersResponse'),
     newListTrackerConsumersResponse,
 
     -- ** ListTrackers (Paginated)
-    ListTrackers,
+    ListTrackers (ListTrackers'),
     newListTrackers,
-    ListTrackersResponse,
+    ListTrackersResponse (ListTrackersResponse'),
     newListTrackersResponse,
 
     -- ** PutGeofence
-    PutGeofence,
+    PutGeofence (PutGeofence'),
     newPutGeofence,
-    PutGeofenceResponse,
+    PutGeofenceResponse (PutGeofenceResponse'),
     newPutGeofenceResponse,
 
     -- ** SearchPlaceIndexForPosition
-    SearchPlaceIndexForPosition,
+    SearchPlaceIndexForPosition (SearchPlaceIndexForPosition'),
     newSearchPlaceIndexForPosition,
-    SearchPlaceIndexForPositionResponse,
+    SearchPlaceIndexForPositionResponse (SearchPlaceIndexForPositionResponse'),
     newSearchPlaceIndexForPositionResponse,
 
     -- ** SearchPlaceIndexForSuggestions
-    SearchPlaceIndexForSuggestions,
+    SearchPlaceIndexForSuggestions (SearchPlaceIndexForSuggestions'),
     newSearchPlaceIndexForSuggestions,
-    SearchPlaceIndexForSuggestionsResponse,
+    SearchPlaceIndexForSuggestionsResponse (SearchPlaceIndexForSuggestionsResponse'),
     newSearchPlaceIndexForSuggestionsResponse,
 
     -- ** SearchPlaceIndexForText
-    SearchPlaceIndexForText,
+    SearchPlaceIndexForText (SearchPlaceIndexForText'),
     newSearchPlaceIndexForText,
-    SearchPlaceIndexForTextResponse,
+    SearchPlaceIndexForTextResponse (SearchPlaceIndexForTextResponse'),
     newSearchPlaceIndexForTextResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateGeofenceCollection
-    UpdateGeofenceCollection,
+    UpdateGeofenceCollection (UpdateGeofenceCollection'),
     newUpdateGeofenceCollection,
-    UpdateGeofenceCollectionResponse,
+    UpdateGeofenceCollectionResponse (UpdateGeofenceCollectionResponse'),
     newUpdateGeofenceCollectionResponse,
 
     -- ** UpdateMap
-    UpdateMap,
+    UpdateMap (UpdateMap'),
     newUpdateMap,
-    UpdateMapResponse,
+    UpdateMapResponse (UpdateMapResponse'),
     newUpdateMapResponse,
 
     -- ** UpdatePlaceIndex
-    UpdatePlaceIndex,
+    UpdatePlaceIndex (UpdatePlaceIndex'),
     newUpdatePlaceIndex,
-    UpdatePlaceIndexResponse,
+    UpdatePlaceIndexResponse (UpdatePlaceIndexResponse'),
     newUpdatePlaceIndexResponse,
 
     -- ** UpdateRouteCalculator
-    UpdateRouteCalculator,
+    UpdateRouteCalculator (UpdateRouteCalculator'),
     newUpdateRouteCalculator,
-    UpdateRouteCalculatorResponse,
+    UpdateRouteCalculatorResponse (UpdateRouteCalculatorResponse'),
     newUpdateRouteCalculatorResponse,
 
     -- ** UpdateTracker
-    UpdateTracker,
+    UpdateTracker (UpdateTracker'),
     newUpdateTracker,
-    UpdateTrackerResponse,
+    UpdateTrackerResponse (UpdateTrackerResponse'),
     newUpdateTrackerResponse,
 
     -- * Types
@@ -395,175 +395,175 @@ module Amazonka.Location
     VehicleWeightUnit (..),
 
     -- ** BatchDeleteDevicePositionHistoryError
-    BatchDeleteDevicePositionHistoryError,
+    BatchDeleteDevicePositionHistoryError (BatchDeleteDevicePositionHistoryError'),
     newBatchDeleteDevicePositionHistoryError,
 
     -- ** BatchDeleteGeofenceError
-    BatchDeleteGeofenceError,
+    BatchDeleteGeofenceError (BatchDeleteGeofenceError'),
     newBatchDeleteGeofenceError,
 
     -- ** BatchEvaluateGeofencesError
-    BatchEvaluateGeofencesError,
+    BatchEvaluateGeofencesError (BatchEvaluateGeofencesError'),
     newBatchEvaluateGeofencesError,
 
     -- ** BatchGetDevicePositionError
-    BatchGetDevicePositionError,
+    BatchGetDevicePositionError (BatchGetDevicePositionError'),
     newBatchGetDevicePositionError,
 
     -- ** BatchItemError
-    BatchItemError,
+    BatchItemError (BatchItemError'),
     newBatchItemError,
 
     -- ** BatchPutGeofenceError
-    BatchPutGeofenceError,
+    BatchPutGeofenceError (BatchPutGeofenceError'),
     newBatchPutGeofenceError,
 
     -- ** BatchPutGeofenceRequestEntry
-    BatchPutGeofenceRequestEntry,
+    BatchPutGeofenceRequestEntry (BatchPutGeofenceRequestEntry'),
     newBatchPutGeofenceRequestEntry,
 
     -- ** BatchPutGeofenceSuccess
-    BatchPutGeofenceSuccess,
+    BatchPutGeofenceSuccess (BatchPutGeofenceSuccess'),
     newBatchPutGeofenceSuccess,
 
     -- ** BatchUpdateDevicePositionError
-    BatchUpdateDevicePositionError,
+    BatchUpdateDevicePositionError (BatchUpdateDevicePositionError'),
     newBatchUpdateDevicePositionError,
 
     -- ** CalculateRouteCarModeOptions
-    CalculateRouteCarModeOptions,
+    CalculateRouteCarModeOptions (CalculateRouteCarModeOptions'),
     newCalculateRouteCarModeOptions,
 
     -- ** CalculateRouteMatrixSummary
-    CalculateRouteMatrixSummary,
+    CalculateRouteMatrixSummary (CalculateRouteMatrixSummary'),
     newCalculateRouteMatrixSummary,
 
     -- ** CalculateRouteSummary
-    CalculateRouteSummary,
+    CalculateRouteSummary (CalculateRouteSummary'),
     newCalculateRouteSummary,
 
     -- ** CalculateRouteTruckModeOptions
-    CalculateRouteTruckModeOptions,
+    CalculateRouteTruckModeOptions (CalculateRouteTruckModeOptions'),
     newCalculateRouteTruckModeOptions,
 
     -- ** Circle
-    Circle,
+    Circle (Circle'),
     newCircle,
 
     -- ** DataSourceConfiguration
-    DataSourceConfiguration,
+    DataSourceConfiguration (DataSourceConfiguration'),
     newDataSourceConfiguration,
 
     -- ** DevicePosition
-    DevicePosition,
+    DevicePosition (DevicePosition'),
     newDevicePosition,
 
     -- ** DevicePositionUpdate
-    DevicePositionUpdate,
+    DevicePositionUpdate (DevicePositionUpdate'),
     newDevicePositionUpdate,
 
     -- ** GeofenceGeometry
-    GeofenceGeometry,
+    GeofenceGeometry (GeofenceGeometry'),
     newGeofenceGeometry,
 
     -- ** Leg
-    Leg,
+    Leg (Leg'),
     newLeg,
 
     -- ** LegGeometry
-    LegGeometry,
+    LegGeometry (LegGeometry'),
     newLegGeometry,
 
     -- ** ListDevicePositionsResponseEntry
-    ListDevicePositionsResponseEntry,
+    ListDevicePositionsResponseEntry (ListDevicePositionsResponseEntry'),
     newListDevicePositionsResponseEntry,
 
     -- ** ListGeofenceCollectionsResponseEntry
-    ListGeofenceCollectionsResponseEntry,
+    ListGeofenceCollectionsResponseEntry (ListGeofenceCollectionsResponseEntry'),
     newListGeofenceCollectionsResponseEntry,
 
     -- ** ListGeofenceResponseEntry
-    ListGeofenceResponseEntry,
+    ListGeofenceResponseEntry (ListGeofenceResponseEntry'),
     newListGeofenceResponseEntry,
 
     -- ** ListMapsResponseEntry
-    ListMapsResponseEntry,
+    ListMapsResponseEntry (ListMapsResponseEntry'),
     newListMapsResponseEntry,
 
     -- ** ListPlaceIndexesResponseEntry
-    ListPlaceIndexesResponseEntry,
+    ListPlaceIndexesResponseEntry (ListPlaceIndexesResponseEntry'),
     newListPlaceIndexesResponseEntry,
 
     -- ** ListRouteCalculatorsResponseEntry
-    ListRouteCalculatorsResponseEntry,
+    ListRouteCalculatorsResponseEntry (ListRouteCalculatorsResponseEntry'),
     newListRouteCalculatorsResponseEntry,
 
     -- ** ListTrackersResponseEntry
-    ListTrackersResponseEntry,
+    ListTrackersResponseEntry (ListTrackersResponseEntry'),
     newListTrackersResponseEntry,
 
     -- ** MapConfiguration
-    MapConfiguration,
+    MapConfiguration (MapConfiguration'),
     newMapConfiguration,
 
     -- ** Place
-    Place,
+    Place (Place'),
     newPlace,
 
     -- ** PlaceGeometry
-    PlaceGeometry,
+    PlaceGeometry (PlaceGeometry'),
     newPlaceGeometry,
 
     -- ** PositionalAccuracy
-    PositionalAccuracy,
+    PositionalAccuracy (PositionalAccuracy'),
     newPositionalAccuracy,
 
     -- ** RouteMatrixEntry
-    RouteMatrixEntry,
+    RouteMatrixEntry (RouteMatrixEntry'),
     newRouteMatrixEntry,
 
     -- ** RouteMatrixEntryError
-    RouteMatrixEntryError,
+    RouteMatrixEntryError (RouteMatrixEntryError'),
     newRouteMatrixEntryError,
 
     -- ** SearchForPositionResult
-    SearchForPositionResult,
+    SearchForPositionResult (SearchForPositionResult'),
     newSearchForPositionResult,
 
     -- ** SearchForSuggestionsResult
-    SearchForSuggestionsResult,
+    SearchForSuggestionsResult (SearchForSuggestionsResult'),
     newSearchForSuggestionsResult,
 
     -- ** SearchForTextResult
-    SearchForTextResult,
+    SearchForTextResult (SearchForTextResult'),
     newSearchForTextResult,
 
     -- ** SearchPlaceIndexForPositionSummary
-    SearchPlaceIndexForPositionSummary,
+    SearchPlaceIndexForPositionSummary (SearchPlaceIndexForPositionSummary'),
     newSearchPlaceIndexForPositionSummary,
 
     -- ** SearchPlaceIndexForSuggestionsSummary
-    SearchPlaceIndexForSuggestionsSummary,
+    SearchPlaceIndexForSuggestionsSummary (SearchPlaceIndexForSuggestionsSummary'),
     newSearchPlaceIndexForSuggestionsSummary,
 
     -- ** SearchPlaceIndexForTextSummary
-    SearchPlaceIndexForTextSummary,
+    SearchPlaceIndexForTextSummary (SearchPlaceIndexForTextSummary'),
     newSearchPlaceIndexForTextSummary,
 
     -- ** Step
-    Step,
+    Step (Step'),
     newStep,
 
     -- ** TimeZone
-    TimeZone,
+    TimeZone (TimeZone'),
     newTimeZone,
 
     -- ** TruckDimensions
-    TruckDimensions,
+    TruckDimensions (TruckDimensions'),
     newTruckDimensions,
 
     -- ** TruckWeight
-    TruckWeight,
+    TruckWeight (TruckWeight'),
     newTruckWeight,
   )
 where

@@ -56,375 +56,375 @@ module Amazonka.GuardDuty
     -- $operations
 
     -- ** AcceptAdministratorInvitation
-    AcceptAdministratorInvitation,
+    AcceptAdministratorInvitation (AcceptAdministratorInvitation'),
     newAcceptAdministratorInvitation,
-    AcceptAdministratorInvitationResponse,
+    AcceptAdministratorInvitationResponse (AcceptAdministratorInvitationResponse'),
     newAcceptAdministratorInvitationResponse,
 
     -- ** ArchiveFindings
-    ArchiveFindings,
+    ArchiveFindings (ArchiveFindings'),
     newArchiveFindings,
-    ArchiveFindingsResponse,
+    ArchiveFindingsResponse (ArchiveFindingsResponse'),
     newArchiveFindingsResponse,
 
     -- ** CreateDetector
-    CreateDetector,
+    CreateDetector (CreateDetector'),
     newCreateDetector,
-    CreateDetectorResponse,
+    CreateDetectorResponse (CreateDetectorResponse'),
     newCreateDetectorResponse,
 
     -- ** CreateFilter
-    CreateFilter,
+    CreateFilter (CreateFilter'),
     newCreateFilter,
-    CreateFilterResponse,
+    CreateFilterResponse (CreateFilterResponse'),
     newCreateFilterResponse,
 
     -- ** CreateIPSet
-    CreateIPSet,
+    CreateIPSet (CreateIPSet'),
     newCreateIPSet,
-    CreateIPSetResponse,
+    CreateIPSetResponse (CreateIPSetResponse'),
     newCreateIPSetResponse,
 
     -- ** CreateMembers
-    CreateMembers,
+    CreateMembers (CreateMembers'),
     newCreateMembers,
-    CreateMembersResponse,
+    CreateMembersResponse (CreateMembersResponse'),
     newCreateMembersResponse,
 
     -- ** CreatePublishingDestination
-    CreatePublishingDestination,
+    CreatePublishingDestination (CreatePublishingDestination'),
     newCreatePublishingDestination,
-    CreatePublishingDestinationResponse,
+    CreatePublishingDestinationResponse (CreatePublishingDestinationResponse'),
     newCreatePublishingDestinationResponse,
 
     -- ** CreateSampleFindings
-    CreateSampleFindings,
+    CreateSampleFindings (CreateSampleFindings'),
     newCreateSampleFindings,
-    CreateSampleFindingsResponse,
+    CreateSampleFindingsResponse (CreateSampleFindingsResponse'),
     newCreateSampleFindingsResponse,
 
     -- ** CreateThreatIntelSet
-    CreateThreatIntelSet,
+    CreateThreatIntelSet (CreateThreatIntelSet'),
     newCreateThreatIntelSet,
-    CreateThreatIntelSetResponse,
+    CreateThreatIntelSetResponse (CreateThreatIntelSetResponse'),
     newCreateThreatIntelSetResponse,
 
     -- ** DeclineInvitations
-    DeclineInvitations,
+    DeclineInvitations (DeclineInvitations'),
     newDeclineInvitations,
-    DeclineInvitationsResponse,
+    DeclineInvitationsResponse (DeclineInvitationsResponse'),
     newDeclineInvitationsResponse,
 
     -- ** DeleteDetector
-    DeleteDetector,
+    DeleteDetector (DeleteDetector'),
     newDeleteDetector,
-    DeleteDetectorResponse,
+    DeleteDetectorResponse (DeleteDetectorResponse'),
     newDeleteDetectorResponse,
 
     -- ** DeleteFilter
-    DeleteFilter,
+    DeleteFilter (DeleteFilter'),
     newDeleteFilter,
-    DeleteFilterResponse,
+    DeleteFilterResponse (DeleteFilterResponse'),
     newDeleteFilterResponse,
 
     -- ** DeleteIPSet
-    DeleteIPSet,
+    DeleteIPSet (DeleteIPSet'),
     newDeleteIPSet,
-    DeleteIPSetResponse,
+    DeleteIPSetResponse (DeleteIPSetResponse'),
     newDeleteIPSetResponse,
 
     -- ** DeleteInvitations
-    DeleteInvitations,
+    DeleteInvitations (DeleteInvitations'),
     newDeleteInvitations,
-    DeleteInvitationsResponse,
+    DeleteInvitationsResponse (DeleteInvitationsResponse'),
     newDeleteInvitationsResponse,
 
     -- ** DeleteMembers
-    DeleteMembers,
+    DeleteMembers (DeleteMembers'),
     newDeleteMembers,
-    DeleteMembersResponse,
+    DeleteMembersResponse (DeleteMembersResponse'),
     newDeleteMembersResponse,
 
     -- ** DeletePublishingDestination
-    DeletePublishingDestination,
+    DeletePublishingDestination (DeletePublishingDestination'),
     newDeletePublishingDestination,
-    DeletePublishingDestinationResponse,
+    DeletePublishingDestinationResponse (DeletePublishingDestinationResponse'),
     newDeletePublishingDestinationResponse,
 
     -- ** DeleteThreatIntelSet
-    DeleteThreatIntelSet,
+    DeleteThreatIntelSet (DeleteThreatIntelSet'),
     newDeleteThreatIntelSet,
-    DeleteThreatIntelSetResponse,
+    DeleteThreatIntelSetResponse (DeleteThreatIntelSetResponse'),
     newDeleteThreatIntelSetResponse,
 
     -- ** DescribeMalwareScans (Paginated)
-    DescribeMalwareScans,
+    DescribeMalwareScans (DescribeMalwareScans'),
     newDescribeMalwareScans,
-    DescribeMalwareScansResponse,
+    DescribeMalwareScansResponse (DescribeMalwareScansResponse'),
     newDescribeMalwareScansResponse,
 
     -- ** DescribeOrganizationConfiguration
-    DescribeOrganizationConfiguration,
+    DescribeOrganizationConfiguration (DescribeOrganizationConfiguration'),
     newDescribeOrganizationConfiguration,
-    DescribeOrganizationConfigurationResponse,
+    DescribeOrganizationConfigurationResponse (DescribeOrganizationConfigurationResponse'),
     newDescribeOrganizationConfigurationResponse,
 
     -- ** DescribePublishingDestination
-    DescribePublishingDestination,
+    DescribePublishingDestination (DescribePublishingDestination'),
     newDescribePublishingDestination,
-    DescribePublishingDestinationResponse,
+    DescribePublishingDestinationResponse (DescribePublishingDestinationResponse'),
     newDescribePublishingDestinationResponse,
 
     -- ** DisableOrganizationAdminAccount
-    DisableOrganizationAdminAccount,
+    DisableOrganizationAdminAccount (DisableOrganizationAdminAccount'),
     newDisableOrganizationAdminAccount,
-    DisableOrganizationAdminAccountResponse,
+    DisableOrganizationAdminAccountResponse (DisableOrganizationAdminAccountResponse'),
     newDisableOrganizationAdminAccountResponse,
 
     -- ** DisassociateFromAdministratorAccount
-    DisassociateFromAdministratorAccount,
+    DisassociateFromAdministratorAccount (DisassociateFromAdministratorAccount'),
     newDisassociateFromAdministratorAccount,
-    DisassociateFromAdministratorAccountResponse,
+    DisassociateFromAdministratorAccountResponse (DisassociateFromAdministratorAccountResponse'),
     newDisassociateFromAdministratorAccountResponse,
 
     -- ** DisassociateMembers
-    DisassociateMembers,
+    DisassociateMembers (DisassociateMembers'),
     newDisassociateMembers,
-    DisassociateMembersResponse,
+    DisassociateMembersResponse (DisassociateMembersResponse'),
     newDisassociateMembersResponse,
 
     -- ** EnableOrganizationAdminAccount
-    EnableOrganizationAdminAccount,
+    EnableOrganizationAdminAccount (EnableOrganizationAdminAccount'),
     newEnableOrganizationAdminAccount,
-    EnableOrganizationAdminAccountResponse,
+    EnableOrganizationAdminAccountResponse (EnableOrganizationAdminAccountResponse'),
     newEnableOrganizationAdminAccountResponse,
 
     -- ** GetAdministratorAccount
-    GetAdministratorAccount,
+    GetAdministratorAccount (GetAdministratorAccount'),
     newGetAdministratorAccount,
-    GetAdministratorAccountResponse,
+    GetAdministratorAccountResponse (GetAdministratorAccountResponse'),
     newGetAdministratorAccountResponse,
 
     -- ** GetDetector
-    GetDetector,
+    GetDetector (GetDetector'),
     newGetDetector,
-    GetDetectorResponse,
+    GetDetectorResponse (GetDetectorResponse'),
     newGetDetectorResponse,
 
     -- ** GetFilter
-    GetFilter,
+    GetFilter (GetFilter'),
     newGetFilter,
-    GetFilterResponse,
+    GetFilterResponse (GetFilterResponse'),
     newGetFilterResponse,
 
     -- ** GetFindings
-    GetFindings,
+    GetFindings (GetFindings'),
     newGetFindings,
-    GetFindingsResponse,
+    GetFindingsResponse (GetFindingsResponse'),
     newGetFindingsResponse,
 
     -- ** GetFindingsStatistics
-    GetFindingsStatistics,
+    GetFindingsStatistics (GetFindingsStatistics'),
     newGetFindingsStatistics,
-    GetFindingsStatisticsResponse,
+    GetFindingsStatisticsResponse (GetFindingsStatisticsResponse'),
     newGetFindingsStatisticsResponse,
 
     -- ** GetIPSet
-    GetIPSet,
+    GetIPSet (GetIPSet'),
     newGetIPSet,
-    GetIPSetResponse,
+    GetIPSetResponse (GetIPSetResponse'),
     newGetIPSetResponse,
 
     -- ** GetInvitationsCount
-    GetInvitationsCount,
+    GetInvitationsCount (GetInvitationsCount'),
     newGetInvitationsCount,
-    GetInvitationsCountResponse,
+    GetInvitationsCountResponse (GetInvitationsCountResponse'),
     newGetInvitationsCountResponse,
 
     -- ** GetMalwareScanSettings
-    GetMalwareScanSettings,
+    GetMalwareScanSettings (GetMalwareScanSettings'),
     newGetMalwareScanSettings,
-    GetMalwareScanSettingsResponse,
+    GetMalwareScanSettingsResponse (GetMalwareScanSettingsResponse'),
     newGetMalwareScanSettingsResponse,
 
     -- ** GetMemberDetectors
-    GetMemberDetectors,
+    GetMemberDetectors (GetMemberDetectors'),
     newGetMemberDetectors,
-    GetMemberDetectorsResponse,
+    GetMemberDetectorsResponse (GetMemberDetectorsResponse'),
     newGetMemberDetectorsResponse,
 
     -- ** GetMembers
-    GetMembers,
+    GetMembers (GetMembers'),
     newGetMembers,
-    GetMembersResponse,
+    GetMembersResponse (GetMembersResponse'),
     newGetMembersResponse,
 
     -- ** GetRemainingFreeTrialDays
-    GetRemainingFreeTrialDays,
+    GetRemainingFreeTrialDays (GetRemainingFreeTrialDays'),
     newGetRemainingFreeTrialDays,
-    GetRemainingFreeTrialDaysResponse,
+    GetRemainingFreeTrialDaysResponse (GetRemainingFreeTrialDaysResponse'),
     newGetRemainingFreeTrialDaysResponse,
 
     -- ** GetThreatIntelSet
-    GetThreatIntelSet,
+    GetThreatIntelSet (GetThreatIntelSet'),
     newGetThreatIntelSet,
-    GetThreatIntelSetResponse,
+    GetThreatIntelSetResponse (GetThreatIntelSetResponse'),
     newGetThreatIntelSetResponse,
 
     -- ** GetUsageStatistics
-    GetUsageStatistics,
+    GetUsageStatistics (GetUsageStatistics'),
     newGetUsageStatistics,
-    GetUsageStatisticsResponse,
+    GetUsageStatisticsResponse (GetUsageStatisticsResponse'),
     newGetUsageStatisticsResponse,
 
     -- ** InviteMembers
-    InviteMembers,
+    InviteMembers (InviteMembers'),
     newInviteMembers,
-    InviteMembersResponse,
+    InviteMembersResponse (InviteMembersResponse'),
     newInviteMembersResponse,
 
     -- ** ListDetectors (Paginated)
-    ListDetectors,
+    ListDetectors (ListDetectors'),
     newListDetectors,
-    ListDetectorsResponse,
+    ListDetectorsResponse (ListDetectorsResponse'),
     newListDetectorsResponse,
 
     -- ** ListFilters (Paginated)
-    ListFilters,
+    ListFilters (ListFilters'),
     newListFilters,
-    ListFiltersResponse,
+    ListFiltersResponse (ListFiltersResponse'),
     newListFiltersResponse,
 
     -- ** ListFindings (Paginated)
-    ListFindings,
+    ListFindings (ListFindings'),
     newListFindings,
-    ListFindingsResponse,
+    ListFindingsResponse (ListFindingsResponse'),
     newListFindingsResponse,
 
     -- ** ListIPSets (Paginated)
-    ListIPSets,
+    ListIPSets (ListIPSets'),
     newListIPSets,
-    ListIPSetsResponse,
+    ListIPSetsResponse (ListIPSetsResponse'),
     newListIPSetsResponse,
 
     -- ** ListInvitations (Paginated)
-    ListInvitations,
+    ListInvitations (ListInvitations'),
     newListInvitations,
-    ListInvitationsResponse,
+    ListInvitationsResponse (ListInvitationsResponse'),
     newListInvitationsResponse,
 
     -- ** ListMembers (Paginated)
-    ListMembers,
+    ListMembers (ListMembers'),
     newListMembers,
-    ListMembersResponse,
+    ListMembersResponse (ListMembersResponse'),
     newListMembersResponse,
 
     -- ** ListOrganizationAdminAccounts (Paginated)
-    ListOrganizationAdminAccounts,
+    ListOrganizationAdminAccounts (ListOrganizationAdminAccounts'),
     newListOrganizationAdminAccounts,
-    ListOrganizationAdminAccountsResponse,
+    ListOrganizationAdminAccountsResponse (ListOrganizationAdminAccountsResponse'),
     newListOrganizationAdminAccountsResponse,
 
     -- ** ListPublishingDestinations
-    ListPublishingDestinations,
+    ListPublishingDestinations (ListPublishingDestinations'),
     newListPublishingDestinations,
-    ListPublishingDestinationsResponse,
+    ListPublishingDestinationsResponse (ListPublishingDestinationsResponse'),
     newListPublishingDestinationsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** ListThreatIntelSets (Paginated)
-    ListThreatIntelSets,
+    ListThreatIntelSets (ListThreatIntelSets'),
     newListThreatIntelSets,
-    ListThreatIntelSetsResponse,
+    ListThreatIntelSetsResponse (ListThreatIntelSetsResponse'),
     newListThreatIntelSetsResponse,
 
     -- ** StartMonitoringMembers
-    StartMonitoringMembers,
+    StartMonitoringMembers (StartMonitoringMembers'),
     newStartMonitoringMembers,
-    StartMonitoringMembersResponse,
+    StartMonitoringMembersResponse (StartMonitoringMembersResponse'),
     newStartMonitoringMembersResponse,
 
     -- ** StopMonitoringMembers
-    StopMonitoringMembers,
+    StopMonitoringMembers (StopMonitoringMembers'),
     newStopMonitoringMembers,
-    StopMonitoringMembersResponse,
+    StopMonitoringMembersResponse (StopMonitoringMembersResponse'),
     newStopMonitoringMembersResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UnarchiveFindings
-    UnarchiveFindings,
+    UnarchiveFindings (UnarchiveFindings'),
     newUnarchiveFindings,
-    UnarchiveFindingsResponse,
+    UnarchiveFindingsResponse (UnarchiveFindingsResponse'),
     newUnarchiveFindingsResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateDetector
-    UpdateDetector,
+    UpdateDetector (UpdateDetector'),
     newUpdateDetector,
-    UpdateDetectorResponse,
+    UpdateDetectorResponse (UpdateDetectorResponse'),
     newUpdateDetectorResponse,
 
     -- ** UpdateFilter
-    UpdateFilter,
+    UpdateFilter (UpdateFilter'),
     newUpdateFilter,
-    UpdateFilterResponse,
+    UpdateFilterResponse (UpdateFilterResponse'),
     newUpdateFilterResponse,
 
     -- ** UpdateFindingsFeedback
-    UpdateFindingsFeedback,
+    UpdateFindingsFeedback (UpdateFindingsFeedback'),
     newUpdateFindingsFeedback,
-    UpdateFindingsFeedbackResponse,
+    UpdateFindingsFeedbackResponse (UpdateFindingsFeedbackResponse'),
     newUpdateFindingsFeedbackResponse,
 
     -- ** UpdateIPSet
-    UpdateIPSet,
+    UpdateIPSet (UpdateIPSet'),
     newUpdateIPSet,
-    UpdateIPSetResponse,
+    UpdateIPSetResponse (UpdateIPSetResponse'),
     newUpdateIPSetResponse,
 
     -- ** UpdateMalwareScanSettings
-    UpdateMalwareScanSettings,
+    UpdateMalwareScanSettings (UpdateMalwareScanSettings'),
     newUpdateMalwareScanSettings,
-    UpdateMalwareScanSettingsResponse,
+    UpdateMalwareScanSettingsResponse (UpdateMalwareScanSettingsResponse'),
     newUpdateMalwareScanSettingsResponse,
 
     -- ** UpdateMemberDetectors
-    UpdateMemberDetectors,
+    UpdateMemberDetectors (UpdateMemberDetectors'),
     newUpdateMemberDetectors,
-    UpdateMemberDetectorsResponse,
+    UpdateMemberDetectorsResponse (UpdateMemberDetectorsResponse'),
     newUpdateMemberDetectorsResponse,
 
     -- ** UpdateOrganizationConfiguration
-    UpdateOrganizationConfiguration,
+    UpdateOrganizationConfiguration (UpdateOrganizationConfiguration'),
     newUpdateOrganizationConfiguration,
-    UpdateOrganizationConfigurationResponse,
+    UpdateOrganizationConfigurationResponse (UpdateOrganizationConfigurationResponse'),
     newUpdateOrganizationConfigurationResponse,
 
     -- ** UpdatePublishingDestination
-    UpdatePublishingDestination,
+    UpdatePublishingDestination (UpdatePublishingDestination'),
     newUpdatePublishingDestination,
-    UpdatePublishingDestinationResponse,
+    UpdatePublishingDestinationResponse (UpdatePublishingDestinationResponse'),
     newUpdatePublishingDestinationResponse,
 
     -- ** UpdateThreatIntelSet
-    UpdateThreatIntelSet,
+    UpdateThreatIntelSet (UpdateThreatIntelSet'),
     newUpdateThreatIntelSet,
-    UpdateThreatIntelSetResponse,
+    UpdateThreatIntelSetResponse (UpdateThreatIntelSetResponse'),
     newUpdateThreatIntelSetResponse,
 
     -- * Types
@@ -493,511 +493,511 @@ module Amazonka.GuardDuty
     UsageStatisticType (..),
 
     -- ** AccessControlList
-    AccessControlList,
+    AccessControlList (AccessControlList'),
     newAccessControlList,
 
     -- ** AccessKeyDetails
-    AccessKeyDetails,
+    AccessKeyDetails (AccessKeyDetails'),
     newAccessKeyDetails,
 
     -- ** AccountDetail
-    AccountDetail,
+    AccountDetail (AccountDetail'),
     newAccountDetail,
 
     -- ** AccountFreeTrialInfo
-    AccountFreeTrialInfo,
+    AccountFreeTrialInfo (AccountFreeTrialInfo'),
     newAccountFreeTrialInfo,
 
     -- ** AccountLevelPermissions
-    AccountLevelPermissions,
+    AccountLevelPermissions (AccountLevelPermissions'),
     newAccountLevelPermissions,
 
     -- ** Action
-    Action,
+    Action (Action'),
     newAction,
 
     -- ** AdminAccount
-    AdminAccount,
+    AdminAccount (AdminAccount'),
     newAdminAccount,
 
     -- ** Administrator
-    Administrator,
+    Administrator (Administrator'),
     newAdministrator,
 
     -- ** AwsApiCallAction
-    AwsApiCallAction,
+    AwsApiCallAction (AwsApiCallAction'),
     newAwsApiCallAction,
 
     -- ** BlockPublicAccess
-    BlockPublicAccess,
+    BlockPublicAccess (BlockPublicAccess'),
     newBlockPublicAccess,
 
     -- ** BucketLevelPermissions
-    BucketLevelPermissions,
+    BucketLevelPermissions (BucketLevelPermissions'),
     newBucketLevelPermissions,
 
     -- ** BucketPolicy
-    BucketPolicy,
+    BucketPolicy (BucketPolicy'),
     newBucketPolicy,
 
     -- ** City
-    City,
+    City (City'),
     newCity,
 
     -- ** CloudTrailConfigurationResult
-    CloudTrailConfigurationResult,
+    CloudTrailConfigurationResult (CloudTrailConfigurationResult'),
     newCloudTrailConfigurationResult,
 
     -- ** Condition
-    Condition,
+    Condition (Condition'),
     newCondition,
 
     -- ** Container
-    Container,
+    Container (Container'),
     newContainer,
 
     -- ** Country
-    Country,
+    Country (Country'),
     newCountry,
 
     -- ** DNSLogsConfigurationResult
-    DNSLogsConfigurationResult,
+    DNSLogsConfigurationResult (DNSLogsConfigurationResult'),
     newDNSLogsConfigurationResult,
 
     -- ** DataSourceConfigurations
-    DataSourceConfigurations,
+    DataSourceConfigurations (DataSourceConfigurations'),
     newDataSourceConfigurations,
 
     -- ** DataSourceConfigurationsResult
-    DataSourceConfigurationsResult,
+    DataSourceConfigurationsResult (DataSourceConfigurationsResult'),
     newDataSourceConfigurationsResult,
 
     -- ** DataSourceFreeTrial
-    DataSourceFreeTrial,
+    DataSourceFreeTrial (DataSourceFreeTrial'),
     newDataSourceFreeTrial,
 
     -- ** DataSourcesFreeTrial
-    DataSourcesFreeTrial,
+    DataSourcesFreeTrial (DataSourcesFreeTrial'),
     newDataSourcesFreeTrial,
 
     -- ** DefaultServerSideEncryption
-    DefaultServerSideEncryption,
+    DefaultServerSideEncryption (DefaultServerSideEncryption'),
     newDefaultServerSideEncryption,
 
     -- ** Destination
-    Destination,
+    Destination (Destination'),
     newDestination,
 
     -- ** DestinationProperties
-    DestinationProperties,
+    DestinationProperties (DestinationProperties'),
     newDestinationProperties,
 
     -- ** DnsRequestAction
-    DnsRequestAction,
+    DnsRequestAction (DnsRequestAction'),
     newDnsRequestAction,
 
     -- ** DomainDetails
-    DomainDetails,
+    DomainDetails (DomainDetails'),
     newDomainDetails,
 
     -- ** EbsVolumeDetails
-    EbsVolumeDetails,
+    EbsVolumeDetails (EbsVolumeDetails'),
     newEbsVolumeDetails,
 
     -- ** EbsVolumeScanDetails
-    EbsVolumeScanDetails,
+    EbsVolumeScanDetails (EbsVolumeScanDetails'),
     newEbsVolumeScanDetails,
 
     -- ** EbsVolumesResult
-    EbsVolumesResult,
+    EbsVolumesResult (EbsVolumesResult'),
     newEbsVolumesResult,
 
     -- ** EcsClusterDetails
-    EcsClusterDetails,
+    EcsClusterDetails (EcsClusterDetails'),
     newEcsClusterDetails,
 
     -- ** EcsTaskDetails
-    EcsTaskDetails,
+    EcsTaskDetails (EcsTaskDetails'),
     newEcsTaskDetails,
 
     -- ** EksClusterDetails
-    EksClusterDetails,
+    EksClusterDetails (EksClusterDetails'),
     newEksClusterDetails,
 
     -- ** Evidence
-    Evidence,
+    Evidence (Evidence'),
     newEvidence,
 
     -- ** FilterCondition
-    FilterCondition,
+    FilterCondition (FilterCondition'),
     newFilterCondition,
 
     -- ** FilterCriteria
-    FilterCriteria,
+    FilterCriteria (FilterCriteria'),
     newFilterCriteria,
 
     -- ** FilterCriterion
-    FilterCriterion,
+    FilterCriterion (FilterCriterion'),
     newFilterCriterion,
 
     -- ** Finding
-    Finding,
+    Finding (Finding'),
     newFinding,
 
     -- ** FindingCriteria
-    FindingCriteria,
+    FindingCriteria (FindingCriteria'),
     newFindingCriteria,
 
     -- ** FindingStatistics
-    FindingStatistics,
+    FindingStatistics (FindingStatistics'),
     newFindingStatistics,
 
     -- ** FlowLogsConfigurationResult
-    FlowLogsConfigurationResult,
+    FlowLogsConfigurationResult (FlowLogsConfigurationResult'),
     newFlowLogsConfigurationResult,
 
     -- ** GeoLocation
-    GeoLocation,
+    GeoLocation (GeoLocation'),
     newGeoLocation,
 
     -- ** HighestSeverityThreatDetails
-    HighestSeverityThreatDetails,
+    HighestSeverityThreatDetails (HighestSeverityThreatDetails'),
     newHighestSeverityThreatDetails,
 
     -- ** HostPath
-    HostPath,
+    HostPath (HostPath'),
     newHostPath,
 
     -- ** IamInstanceProfile
-    IamInstanceProfile,
+    IamInstanceProfile (IamInstanceProfile'),
     newIamInstanceProfile,
 
     -- ** InstanceDetails
-    InstanceDetails,
+    InstanceDetails (InstanceDetails'),
     newInstanceDetails,
 
     -- ** Invitation
-    Invitation,
+    Invitation (Invitation'),
     newInvitation,
 
     -- ** KubernetesApiCallAction
-    KubernetesApiCallAction,
+    KubernetesApiCallAction (KubernetesApiCallAction'),
     newKubernetesApiCallAction,
 
     -- ** KubernetesAuditLogsConfiguration
-    KubernetesAuditLogsConfiguration,
+    KubernetesAuditLogsConfiguration (KubernetesAuditLogsConfiguration'),
     newKubernetesAuditLogsConfiguration,
 
     -- ** KubernetesAuditLogsConfigurationResult
-    KubernetesAuditLogsConfigurationResult,
+    KubernetesAuditLogsConfigurationResult (KubernetesAuditLogsConfigurationResult'),
     newKubernetesAuditLogsConfigurationResult,
 
     -- ** KubernetesConfiguration
-    KubernetesConfiguration,
+    KubernetesConfiguration (KubernetesConfiguration'),
     newKubernetesConfiguration,
 
     -- ** KubernetesConfigurationResult
-    KubernetesConfigurationResult,
+    KubernetesConfigurationResult (KubernetesConfigurationResult'),
     newKubernetesConfigurationResult,
 
     -- ** KubernetesDataSourceFreeTrial
-    KubernetesDataSourceFreeTrial,
+    KubernetesDataSourceFreeTrial (KubernetesDataSourceFreeTrial'),
     newKubernetesDataSourceFreeTrial,
 
     -- ** KubernetesDetails
-    KubernetesDetails,
+    KubernetesDetails (KubernetesDetails'),
     newKubernetesDetails,
 
     -- ** KubernetesUserDetails
-    KubernetesUserDetails,
+    KubernetesUserDetails (KubernetesUserDetails'),
     newKubernetesUserDetails,
 
     -- ** KubernetesWorkloadDetails
-    KubernetesWorkloadDetails,
+    KubernetesWorkloadDetails (KubernetesWorkloadDetails'),
     newKubernetesWorkloadDetails,
 
     -- ** LocalIpDetails
-    LocalIpDetails,
+    LocalIpDetails (LocalIpDetails'),
     newLocalIpDetails,
 
     -- ** LocalPortDetails
-    LocalPortDetails,
+    LocalPortDetails (LocalPortDetails'),
     newLocalPortDetails,
 
     -- ** MalwareProtectionConfiguration
-    MalwareProtectionConfiguration,
+    MalwareProtectionConfiguration (MalwareProtectionConfiguration'),
     newMalwareProtectionConfiguration,
 
     -- ** MalwareProtectionConfigurationResult
-    MalwareProtectionConfigurationResult,
+    MalwareProtectionConfigurationResult (MalwareProtectionConfigurationResult'),
     newMalwareProtectionConfigurationResult,
 
     -- ** MalwareProtectionDataSourceFreeTrial
-    MalwareProtectionDataSourceFreeTrial,
+    MalwareProtectionDataSourceFreeTrial (MalwareProtectionDataSourceFreeTrial'),
     newMalwareProtectionDataSourceFreeTrial,
 
     -- ** Member
-    Member,
+    Member (Member'),
     newMember,
 
     -- ** MemberDataSourceConfiguration
-    MemberDataSourceConfiguration,
+    MemberDataSourceConfiguration (MemberDataSourceConfiguration'),
     newMemberDataSourceConfiguration,
 
     -- ** NetworkConnectionAction
-    NetworkConnectionAction,
+    NetworkConnectionAction (NetworkConnectionAction'),
     newNetworkConnectionAction,
 
     -- ** NetworkInterface
-    NetworkInterface,
+    NetworkInterface (NetworkInterface'),
     newNetworkInterface,
 
     -- ** Organization
-    Organization,
+    Organization (Organization'),
     newOrganization,
 
     -- ** OrganizationDataSourceConfigurations
-    OrganizationDataSourceConfigurations,
+    OrganizationDataSourceConfigurations (OrganizationDataSourceConfigurations'),
     newOrganizationDataSourceConfigurations,
 
     -- ** OrganizationDataSourceConfigurationsResult
-    OrganizationDataSourceConfigurationsResult,
+    OrganizationDataSourceConfigurationsResult (OrganizationDataSourceConfigurationsResult'),
     newOrganizationDataSourceConfigurationsResult,
 
     -- ** OrganizationEbsVolumes
-    OrganizationEbsVolumes,
+    OrganizationEbsVolumes (OrganizationEbsVolumes'),
     newOrganizationEbsVolumes,
 
     -- ** OrganizationEbsVolumesResult
-    OrganizationEbsVolumesResult,
+    OrganizationEbsVolumesResult (OrganizationEbsVolumesResult'),
     newOrganizationEbsVolumesResult,
 
     -- ** OrganizationKubernetesAuditLogsConfiguration
-    OrganizationKubernetesAuditLogsConfiguration,
+    OrganizationKubernetesAuditLogsConfiguration (OrganizationKubernetesAuditLogsConfiguration'),
     newOrganizationKubernetesAuditLogsConfiguration,
 
     -- ** OrganizationKubernetesAuditLogsConfigurationResult
-    OrganizationKubernetesAuditLogsConfigurationResult,
+    OrganizationKubernetesAuditLogsConfigurationResult (OrganizationKubernetesAuditLogsConfigurationResult'),
     newOrganizationKubernetesAuditLogsConfigurationResult,
 
     -- ** OrganizationKubernetesConfiguration
-    OrganizationKubernetesConfiguration,
+    OrganizationKubernetesConfiguration (OrganizationKubernetesConfiguration'),
     newOrganizationKubernetesConfiguration,
 
     -- ** OrganizationKubernetesConfigurationResult
-    OrganizationKubernetesConfigurationResult,
+    OrganizationKubernetesConfigurationResult (OrganizationKubernetesConfigurationResult'),
     newOrganizationKubernetesConfigurationResult,
 
     -- ** OrganizationMalwareProtectionConfiguration
-    OrganizationMalwareProtectionConfiguration,
+    OrganizationMalwareProtectionConfiguration (OrganizationMalwareProtectionConfiguration'),
     newOrganizationMalwareProtectionConfiguration,
 
     -- ** OrganizationMalwareProtectionConfigurationResult
-    OrganizationMalwareProtectionConfigurationResult,
+    OrganizationMalwareProtectionConfigurationResult (OrganizationMalwareProtectionConfigurationResult'),
     newOrganizationMalwareProtectionConfigurationResult,
 
     -- ** OrganizationS3LogsConfiguration
-    OrganizationS3LogsConfiguration,
+    OrganizationS3LogsConfiguration (OrganizationS3LogsConfiguration'),
     newOrganizationS3LogsConfiguration,
 
     -- ** OrganizationS3LogsConfigurationResult
-    OrganizationS3LogsConfigurationResult,
+    OrganizationS3LogsConfigurationResult (OrganizationS3LogsConfigurationResult'),
     newOrganizationS3LogsConfigurationResult,
 
     -- ** OrganizationScanEc2InstanceWithFindings
-    OrganizationScanEc2InstanceWithFindings,
+    OrganizationScanEc2InstanceWithFindings (OrganizationScanEc2InstanceWithFindings'),
     newOrganizationScanEc2InstanceWithFindings,
 
     -- ** OrganizationScanEc2InstanceWithFindingsResult
-    OrganizationScanEc2InstanceWithFindingsResult,
+    OrganizationScanEc2InstanceWithFindingsResult (OrganizationScanEc2InstanceWithFindingsResult'),
     newOrganizationScanEc2InstanceWithFindingsResult,
 
     -- ** Owner
-    Owner,
+    Owner (Owner'),
     newOwner,
 
     -- ** PermissionConfiguration
-    PermissionConfiguration,
+    PermissionConfiguration (PermissionConfiguration'),
     newPermissionConfiguration,
 
     -- ** PortProbeAction
-    PortProbeAction,
+    PortProbeAction (PortProbeAction'),
     newPortProbeAction,
 
     -- ** PortProbeDetail
-    PortProbeDetail,
+    PortProbeDetail (PortProbeDetail'),
     newPortProbeDetail,
 
     -- ** PrivateIpAddressDetails
-    PrivateIpAddressDetails,
+    PrivateIpAddressDetails (PrivateIpAddressDetails'),
     newPrivateIpAddressDetails,
 
     -- ** ProductCode
-    ProductCode,
+    ProductCode (ProductCode'),
     newProductCode,
 
     -- ** PublicAccess
-    PublicAccess,
+    PublicAccess (PublicAccess'),
     newPublicAccess,
 
     -- ** RemoteAccountDetails
-    RemoteAccountDetails,
+    RemoteAccountDetails (RemoteAccountDetails'),
     newRemoteAccountDetails,
 
     -- ** RemoteIpDetails
-    RemoteIpDetails,
+    RemoteIpDetails (RemoteIpDetails'),
     newRemoteIpDetails,
 
     -- ** RemotePortDetails
-    RemotePortDetails,
+    RemotePortDetails (RemotePortDetails'),
     newRemotePortDetails,
 
     -- ** Resource
-    Resource,
+    Resource (Resource'),
     newResource,
 
     -- ** ResourceDetails
-    ResourceDetails,
+    ResourceDetails (ResourceDetails'),
     newResourceDetails,
 
     -- ** S3BucketDetail
-    S3BucketDetail,
+    S3BucketDetail (S3BucketDetail'),
     newS3BucketDetail,
 
     -- ** S3LogsConfiguration
-    S3LogsConfiguration,
+    S3LogsConfiguration (S3LogsConfiguration'),
     newS3LogsConfiguration,
 
     -- ** S3LogsConfigurationResult
-    S3LogsConfigurationResult,
+    S3LogsConfigurationResult (S3LogsConfigurationResult'),
     newS3LogsConfigurationResult,
 
     -- ** Scan
-    Scan,
+    Scan (Scan'),
     newScan,
 
     -- ** ScanCondition
-    ScanCondition,
+    ScanCondition (ScanCondition'),
     newScanCondition,
 
     -- ** ScanConditionPair
-    ScanConditionPair,
+    ScanConditionPair (ScanConditionPair'),
     newScanConditionPair,
 
     -- ** ScanDetections
-    ScanDetections,
+    ScanDetections (ScanDetections'),
     newScanDetections,
 
     -- ** ScanEc2InstanceWithFindings
-    ScanEc2InstanceWithFindings,
+    ScanEc2InstanceWithFindings (ScanEc2InstanceWithFindings'),
     newScanEc2InstanceWithFindings,
 
     -- ** ScanEc2InstanceWithFindingsResult
-    ScanEc2InstanceWithFindingsResult,
+    ScanEc2InstanceWithFindingsResult (ScanEc2InstanceWithFindingsResult'),
     newScanEc2InstanceWithFindingsResult,
 
     -- ** ScanFilePath
-    ScanFilePath,
+    ScanFilePath (ScanFilePath'),
     newScanFilePath,
 
     -- ** ScanResourceCriteria
-    ScanResourceCriteria,
+    ScanResourceCriteria (ScanResourceCriteria'),
     newScanResourceCriteria,
 
     -- ** ScanResultDetails
-    ScanResultDetails,
+    ScanResultDetails (ScanResultDetails'),
     newScanResultDetails,
 
     -- ** ScanThreatName
-    ScanThreatName,
+    ScanThreatName (ScanThreatName'),
     newScanThreatName,
 
     -- ** ScannedItemCount
-    ScannedItemCount,
+    ScannedItemCount (ScannedItemCount'),
     newScannedItemCount,
 
     -- ** SecurityContext
-    SecurityContext,
+    SecurityContext (SecurityContext'),
     newSecurityContext,
 
     -- ** SecurityGroup
-    SecurityGroup,
+    SecurityGroup (SecurityGroup'),
     newSecurityGroup,
 
     -- ** ServiceAdditionalInfo
-    ServiceAdditionalInfo,
+    ServiceAdditionalInfo (ServiceAdditionalInfo'),
     newServiceAdditionalInfo,
 
     -- ** ServiceInfo
-    ServiceInfo,
+    ServiceInfo (ServiceInfo'),
     newServiceInfo,
 
     -- ** SortCriteria
-    SortCriteria,
+    SortCriteria (SortCriteria'),
     newSortCriteria,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** ThreatDetectedByName
-    ThreatDetectedByName,
+    ThreatDetectedByName (ThreatDetectedByName'),
     newThreatDetectedByName,
 
     -- ** ThreatIntelligenceDetail
-    ThreatIntelligenceDetail,
+    ThreatIntelligenceDetail (ThreatIntelligenceDetail'),
     newThreatIntelligenceDetail,
 
     -- ** ThreatsDetectedItemCount
-    ThreatsDetectedItemCount,
+    ThreatsDetectedItemCount (ThreatsDetectedItemCount'),
     newThreatsDetectedItemCount,
 
     -- ** Total
-    Total,
+    Total (Total'),
     newTotal,
 
     -- ** TriggerDetails
-    TriggerDetails,
+    TriggerDetails (TriggerDetails'),
     newTriggerDetails,
 
     -- ** UnprocessedAccount
-    UnprocessedAccount,
+    UnprocessedAccount (UnprocessedAccount'),
     newUnprocessedAccount,
 
     -- ** UnprocessedDataSourcesResult
-    UnprocessedDataSourcesResult,
+    UnprocessedDataSourcesResult (UnprocessedDataSourcesResult'),
     newUnprocessedDataSourcesResult,
 
     -- ** UsageAccountResult
-    UsageAccountResult,
+    UsageAccountResult (UsageAccountResult'),
     newUsageAccountResult,
 
     -- ** UsageCriteria
-    UsageCriteria,
+    UsageCriteria (UsageCriteria'),
     newUsageCriteria,
 
     -- ** UsageDataSourceResult
-    UsageDataSourceResult,
+    UsageDataSourceResult (UsageDataSourceResult'),
     newUsageDataSourceResult,
 
     -- ** UsageResourceResult
-    UsageResourceResult,
+    UsageResourceResult (UsageResourceResult'),
     newUsageResourceResult,
 
     -- ** UsageStatistics
-    UsageStatistics,
+    UsageStatistics (UsageStatistics'),
     newUsageStatistics,
 
     -- ** Volume
-    Volume,
+    Volume (Volume'),
     newVolume,
 
     -- ** VolumeDetail
-    VolumeDetail,
+    VolumeDetail (VolumeDetail'),
     newVolumeDetail,
 
     -- ** VolumeMount
-    VolumeMount,
+    VolumeMount (VolumeMount'),
     newVolumeMount,
   )
 where

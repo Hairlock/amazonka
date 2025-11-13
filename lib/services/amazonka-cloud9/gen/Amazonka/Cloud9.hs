@@ -94,81 +94,81 @@ module Amazonka.Cloud9
     -- $operations
 
     -- ** CreateEnvironmentEC2
-    CreateEnvironmentEC2,
+    CreateEnvironmentEC2 (CreateEnvironmentEC2'),
     newCreateEnvironmentEC2,
-    CreateEnvironmentEC2Response,
+    CreateEnvironmentEC2Response (CreateEnvironmentEC2Response'),
     newCreateEnvironmentEC2Response,
 
     -- ** CreateEnvironmentMembership
-    CreateEnvironmentMembership,
+    CreateEnvironmentMembership (CreateEnvironmentMembership'),
     newCreateEnvironmentMembership,
-    CreateEnvironmentMembershipResponse,
+    CreateEnvironmentMembershipResponse (CreateEnvironmentMembershipResponse'),
     newCreateEnvironmentMembershipResponse,
 
     -- ** DeleteEnvironment
-    DeleteEnvironment,
+    DeleteEnvironment (DeleteEnvironment'),
     newDeleteEnvironment,
-    DeleteEnvironmentResponse,
+    DeleteEnvironmentResponse (DeleteEnvironmentResponse'),
     newDeleteEnvironmentResponse,
 
     -- ** DeleteEnvironmentMembership
-    DeleteEnvironmentMembership,
+    DeleteEnvironmentMembership (DeleteEnvironmentMembership'),
     newDeleteEnvironmentMembership,
-    DeleteEnvironmentMembershipResponse,
+    DeleteEnvironmentMembershipResponse (DeleteEnvironmentMembershipResponse'),
     newDeleteEnvironmentMembershipResponse,
 
     -- ** DescribeEnvironmentMemberships (Paginated)
-    DescribeEnvironmentMemberships,
+    DescribeEnvironmentMemberships (DescribeEnvironmentMemberships'),
     newDescribeEnvironmentMemberships,
-    DescribeEnvironmentMembershipsResponse,
+    DescribeEnvironmentMembershipsResponse (DescribeEnvironmentMembershipsResponse'),
     newDescribeEnvironmentMembershipsResponse,
 
     -- ** DescribeEnvironmentStatus
-    DescribeEnvironmentStatus,
+    DescribeEnvironmentStatus (DescribeEnvironmentStatus'),
     newDescribeEnvironmentStatus,
-    DescribeEnvironmentStatusResponse,
+    DescribeEnvironmentStatusResponse (DescribeEnvironmentStatusResponse'),
     newDescribeEnvironmentStatusResponse,
 
     -- ** DescribeEnvironments
-    DescribeEnvironments,
+    DescribeEnvironments (DescribeEnvironments'),
     newDescribeEnvironments,
-    DescribeEnvironmentsResponse,
+    DescribeEnvironmentsResponse (DescribeEnvironmentsResponse'),
     newDescribeEnvironmentsResponse,
 
     -- ** ListEnvironments (Paginated)
-    ListEnvironments,
+    ListEnvironments (ListEnvironments'),
     newListEnvironments,
-    ListEnvironmentsResponse,
+    ListEnvironmentsResponse (ListEnvironmentsResponse'),
     newListEnvironmentsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateEnvironment
-    UpdateEnvironment,
+    UpdateEnvironment (UpdateEnvironment'),
     newUpdateEnvironment,
-    UpdateEnvironmentResponse,
+    UpdateEnvironmentResponse (UpdateEnvironmentResponse'),
     newUpdateEnvironmentResponse,
 
     -- ** UpdateEnvironmentMembership
-    UpdateEnvironmentMembership,
+    UpdateEnvironmentMembership (UpdateEnvironmentMembership'),
     newUpdateEnvironmentMembership,
-    UpdateEnvironmentMembershipResponse,
+    UpdateEnvironmentMembershipResponse (UpdateEnvironmentMembershipResponse'),
     newUpdateEnvironmentMembershipResponse,
 
     -- * Types
@@ -198,19 +198,19 @@ module Amazonka.Cloud9
     Permissions (..),
 
     -- ** Environment
-    Environment,
+    Environment (Environment'),
     newEnvironment,
 
     -- ** EnvironmentLifecycle
-    EnvironmentLifecycle,
+    EnvironmentLifecycle (EnvironmentLifecycle'),
     newEnvironmentLifecycle,
 
     -- ** EnvironmentMember
-    EnvironmentMember,
+    EnvironmentMember (EnvironmentMember'),
     newEnvironmentMember,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
   )
 where

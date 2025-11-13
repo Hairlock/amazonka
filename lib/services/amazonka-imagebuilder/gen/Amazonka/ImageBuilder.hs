@@ -81,303 +81,303 @@ module Amazonka.ImageBuilder
     -- $operations
 
     -- ** CancelImageCreation
-    CancelImageCreation,
+    CancelImageCreation (CancelImageCreation'),
     newCancelImageCreation,
-    CancelImageCreationResponse,
+    CancelImageCreationResponse (CancelImageCreationResponse'),
     newCancelImageCreationResponse,
 
     -- ** CreateComponent
-    CreateComponent,
+    CreateComponent (CreateComponent'),
     newCreateComponent,
-    CreateComponentResponse,
+    CreateComponentResponse (CreateComponentResponse'),
     newCreateComponentResponse,
 
     -- ** CreateContainerRecipe
-    CreateContainerRecipe,
+    CreateContainerRecipe (CreateContainerRecipe'),
     newCreateContainerRecipe,
-    CreateContainerRecipeResponse,
+    CreateContainerRecipeResponse (CreateContainerRecipeResponse'),
     newCreateContainerRecipeResponse,
 
     -- ** CreateDistributionConfiguration
-    CreateDistributionConfiguration,
+    CreateDistributionConfiguration (CreateDistributionConfiguration'),
     newCreateDistributionConfiguration,
-    CreateDistributionConfigurationResponse,
+    CreateDistributionConfigurationResponse (CreateDistributionConfigurationResponse'),
     newCreateDistributionConfigurationResponse,
 
     -- ** CreateImage
-    CreateImage,
+    CreateImage (CreateImage'),
     newCreateImage,
-    CreateImageResponse,
+    CreateImageResponse (CreateImageResponse'),
     newCreateImageResponse,
 
     -- ** CreateImagePipeline
-    CreateImagePipeline,
+    CreateImagePipeline (CreateImagePipeline'),
     newCreateImagePipeline,
-    CreateImagePipelineResponse,
+    CreateImagePipelineResponse (CreateImagePipelineResponse'),
     newCreateImagePipelineResponse,
 
     -- ** CreateImageRecipe
-    CreateImageRecipe,
+    CreateImageRecipe (CreateImageRecipe'),
     newCreateImageRecipe,
-    CreateImageRecipeResponse,
+    CreateImageRecipeResponse (CreateImageRecipeResponse'),
     newCreateImageRecipeResponse,
 
     -- ** CreateInfrastructureConfiguration
-    CreateInfrastructureConfiguration,
+    CreateInfrastructureConfiguration (CreateInfrastructureConfiguration'),
     newCreateInfrastructureConfiguration,
-    CreateInfrastructureConfigurationResponse,
+    CreateInfrastructureConfigurationResponse (CreateInfrastructureConfigurationResponse'),
     newCreateInfrastructureConfigurationResponse,
 
     -- ** DeleteComponent
-    DeleteComponent,
+    DeleteComponent (DeleteComponent'),
     newDeleteComponent,
-    DeleteComponentResponse,
+    DeleteComponentResponse (DeleteComponentResponse'),
     newDeleteComponentResponse,
 
     -- ** DeleteContainerRecipe
-    DeleteContainerRecipe,
+    DeleteContainerRecipe (DeleteContainerRecipe'),
     newDeleteContainerRecipe,
-    DeleteContainerRecipeResponse,
+    DeleteContainerRecipeResponse (DeleteContainerRecipeResponse'),
     newDeleteContainerRecipeResponse,
 
     -- ** DeleteDistributionConfiguration
-    DeleteDistributionConfiguration,
+    DeleteDistributionConfiguration (DeleteDistributionConfiguration'),
     newDeleteDistributionConfiguration,
-    DeleteDistributionConfigurationResponse,
+    DeleteDistributionConfigurationResponse (DeleteDistributionConfigurationResponse'),
     newDeleteDistributionConfigurationResponse,
 
     -- ** DeleteImage
-    DeleteImage,
+    DeleteImage (DeleteImage'),
     newDeleteImage,
-    DeleteImageResponse,
+    DeleteImageResponse (DeleteImageResponse'),
     newDeleteImageResponse,
 
     -- ** DeleteImagePipeline
-    DeleteImagePipeline,
+    DeleteImagePipeline (DeleteImagePipeline'),
     newDeleteImagePipeline,
-    DeleteImagePipelineResponse,
+    DeleteImagePipelineResponse (DeleteImagePipelineResponse'),
     newDeleteImagePipelineResponse,
 
     -- ** DeleteImageRecipe
-    DeleteImageRecipe,
+    DeleteImageRecipe (DeleteImageRecipe'),
     newDeleteImageRecipe,
-    DeleteImageRecipeResponse,
+    DeleteImageRecipeResponse (DeleteImageRecipeResponse'),
     newDeleteImageRecipeResponse,
 
     -- ** DeleteInfrastructureConfiguration
-    DeleteInfrastructureConfiguration,
+    DeleteInfrastructureConfiguration (DeleteInfrastructureConfiguration'),
     newDeleteInfrastructureConfiguration,
-    DeleteInfrastructureConfigurationResponse,
+    DeleteInfrastructureConfigurationResponse (DeleteInfrastructureConfigurationResponse'),
     newDeleteInfrastructureConfigurationResponse,
 
     -- ** GetComponent
-    GetComponent,
+    GetComponent (GetComponent'),
     newGetComponent,
-    GetComponentResponse,
+    GetComponentResponse (GetComponentResponse'),
     newGetComponentResponse,
 
     -- ** GetComponentPolicy
-    GetComponentPolicy,
+    GetComponentPolicy (GetComponentPolicy'),
     newGetComponentPolicy,
-    GetComponentPolicyResponse,
+    GetComponentPolicyResponse (GetComponentPolicyResponse'),
     newGetComponentPolicyResponse,
 
     -- ** GetContainerRecipe
-    GetContainerRecipe,
+    GetContainerRecipe (GetContainerRecipe'),
     newGetContainerRecipe,
-    GetContainerRecipeResponse,
+    GetContainerRecipeResponse (GetContainerRecipeResponse'),
     newGetContainerRecipeResponse,
 
     -- ** GetContainerRecipePolicy
-    GetContainerRecipePolicy,
+    GetContainerRecipePolicy (GetContainerRecipePolicy'),
     newGetContainerRecipePolicy,
-    GetContainerRecipePolicyResponse,
+    GetContainerRecipePolicyResponse (GetContainerRecipePolicyResponse'),
     newGetContainerRecipePolicyResponse,
 
     -- ** GetDistributionConfiguration
-    GetDistributionConfiguration,
+    GetDistributionConfiguration (GetDistributionConfiguration'),
     newGetDistributionConfiguration,
-    GetDistributionConfigurationResponse,
+    GetDistributionConfigurationResponse (GetDistributionConfigurationResponse'),
     newGetDistributionConfigurationResponse,
 
     -- ** GetImage
-    GetImage,
+    GetImage (GetImage'),
     newGetImage,
-    GetImageResponse,
+    GetImageResponse (GetImageResponse'),
     newGetImageResponse,
 
     -- ** GetImagePipeline
-    GetImagePipeline,
+    GetImagePipeline (GetImagePipeline'),
     newGetImagePipeline,
-    GetImagePipelineResponse,
+    GetImagePipelineResponse (GetImagePipelineResponse'),
     newGetImagePipelineResponse,
 
     -- ** GetImagePolicy
-    GetImagePolicy,
+    GetImagePolicy (GetImagePolicy'),
     newGetImagePolicy,
-    GetImagePolicyResponse,
+    GetImagePolicyResponse (GetImagePolicyResponse'),
     newGetImagePolicyResponse,
 
     -- ** GetImageRecipe
-    GetImageRecipe,
+    GetImageRecipe (GetImageRecipe'),
     newGetImageRecipe,
-    GetImageRecipeResponse,
+    GetImageRecipeResponse (GetImageRecipeResponse'),
     newGetImageRecipeResponse,
 
     -- ** GetImageRecipePolicy
-    GetImageRecipePolicy,
+    GetImageRecipePolicy (GetImageRecipePolicy'),
     newGetImageRecipePolicy,
-    GetImageRecipePolicyResponse,
+    GetImageRecipePolicyResponse (GetImageRecipePolicyResponse'),
     newGetImageRecipePolicyResponse,
 
     -- ** GetInfrastructureConfiguration
-    GetInfrastructureConfiguration,
+    GetInfrastructureConfiguration (GetInfrastructureConfiguration'),
     newGetInfrastructureConfiguration,
-    GetInfrastructureConfigurationResponse,
+    GetInfrastructureConfigurationResponse (GetInfrastructureConfigurationResponse'),
     newGetInfrastructureConfigurationResponse,
 
     -- ** ImportComponent
-    ImportComponent,
+    ImportComponent (ImportComponent'),
     newImportComponent,
-    ImportComponentResponse,
+    ImportComponentResponse (ImportComponentResponse'),
     newImportComponentResponse,
 
     -- ** ImportVmImage
-    ImportVmImage,
+    ImportVmImage (ImportVmImage'),
     newImportVmImage,
-    ImportVmImageResponse,
+    ImportVmImageResponse (ImportVmImageResponse'),
     newImportVmImageResponse,
 
     -- ** ListComponentBuildVersions
-    ListComponentBuildVersions,
+    ListComponentBuildVersions (ListComponentBuildVersions'),
     newListComponentBuildVersions,
-    ListComponentBuildVersionsResponse,
+    ListComponentBuildVersionsResponse (ListComponentBuildVersionsResponse'),
     newListComponentBuildVersionsResponse,
 
     -- ** ListComponents
-    ListComponents,
+    ListComponents (ListComponents'),
     newListComponents,
-    ListComponentsResponse,
+    ListComponentsResponse (ListComponentsResponse'),
     newListComponentsResponse,
 
     -- ** ListContainerRecipes
-    ListContainerRecipes,
+    ListContainerRecipes (ListContainerRecipes'),
     newListContainerRecipes,
-    ListContainerRecipesResponse,
+    ListContainerRecipesResponse (ListContainerRecipesResponse'),
     newListContainerRecipesResponse,
 
     -- ** ListDistributionConfigurations
-    ListDistributionConfigurations,
+    ListDistributionConfigurations (ListDistributionConfigurations'),
     newListDistributionConfigurations,
-    ListDistributionConfigurationsResponse,
+    ListDistributionConfigurationsResponse (ListDistributionConfigurationsResponse'),
     newListDistributionConfigurationsResponse,
 
     -- ** ListImageBuildVersions
-    ListImageBuildVersions,
+    ListImageBuildVersions (ListImageBuildVersions'),
     newListImageBuildVersions,
-    ListImageBuildVersionsResponse,
+    ListImageBuildVersionsResponse (ListImageBuildVersionsResponse'),
     newListImageBuildVersionsResponse,
 
     -- ** ListImagePackages
-    ListImagePackages,
+    ListImagePackages (ListImagePackages'),
     newListImagePackages,
-    ListImagePackagesResponse,
+    ListImagePackagesResponse (ListImagePackagesResponse'),
     newListImagePackagesResponse,
 
     -- ** ListImagePipelineImages
-    ListImagePipelineImages,
+    ListImagePipelineImages (ListImagePipelineImages'),
     newListImagePipelineImages,
-    ListImagePipelineImagesResponse,
+    ListImagePipelineImagesResponse (ListImagePipelineImagesResponse'),
     newListImagePipelineImagesResponse,
 
     -- ** ListImagePipelines
-    ListImagePipelines,
+    ListImagePipelines (ListImagePipelines'),
     newListImagePipelines,
-    ListImagePipelinesResponse,
+    ListImagePipelinesResponse (ListImagePipelinesResponse'),
     newListImagePipelinesResponse,
 
     -- ** ListImageRecipes
-    ListImageRecipes,
+    ListImageRecipes (ListImageRecipes'),
     newListImageRecipes,
-    ListImageRecipesResponse,
+    ListImageRecipesResponse (ListImageRecipesResponse'),
     newListImageRecipesResponse,
 
     -- ** ListImages
-    ListImages,
+    ListImages (ListImages'),
     newListImages,
-    ListImagesResponse,
+    ListImagesResponse (ListImagesResponse'),
     newListImagesResponse,
 
     -- ** ListInfrastructureConfigurations
-    ListInfrastructureConfigurations,
+    ListInfrastructureConfigurations (ListInfrastructureConfigurations'),
     newListInfrastructureConfigurations,
-    ListInfrastructureConfigurationsResponse,
+    ListInfrastructureConfigurationsResponse (ListInfrastructureConfigurationsResponse'),
     newListInfrastructureConfigurationsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** PutComponentPolicy
-    PutComponentPolicy,
+    PutComponentPolicy (PutComponentPolicy'),
     newPutComponentPolicy,
-    PutComponentPolicyResponse,
+    PutComponentPolicyResponse (PutComponentPolicyResponse'),
     newPutComponentPolicyResponse,
 
     -- ** PutContainerRecipePolicy
-    PutContainerRecipePolicy,
+    PutContainerRecipePolicy (PutContainerRecipePolicy'),
     newPutContainerRecipePolicy,
-    PutContainerRecipePolicyResponse,
+    PutContainerRecipePolicyResponse (PutContainerRecipePolicyResponse'),
     newPutContainerRecipePolicyResponse,
 
     -- ** PutImagePolicy
-    PutImagePolicy,
+    PutImagePolicy (PutImagePolicy'),
     newPutImagePolicy,
-    PutImagePolicyResponse,
+    PutImagePolicyResponse (PutImagePolicyResponse'),
     newPutImagePolicyResponse,
 
     -- ** PutImageRecipePolicy
-    PutImageRecipePolicy,
+    PutImageRecipePolicy (PutImageRecipePolicy'),
     newPutImageRecipePolicy,
-    PutImageRecipePolicyResponse,
+    PutImageRecipePolicyResponse (PutImageRecipePolicyResponse'),
     newPutImageRecipePolicyResponse,
 
     -- ** StartImagePipelineExecution
-    StartImagePipelineExecution,
+    StartImagePipelineExecution (StartImagePipelineExecution'),
     newStartImagePipelineExecution,
-    StartImagePipelineExecutionResponse,
+    StartImagePipelineExecutionResponse (StartImagePipelineExecutionResponse'),
     newStartImagePipelineExecutionResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateDistributionConfiguration
-    UpdateDistributionConfiguration,
+    UpdateDistributionConfiguration (UpdateDistributionConfiguration'),
     newUpdateDistributionConfiguration,
-    UpdateDistributionConfigurationResponse,
+    UpdateDistributionConfigurationResponse (UpdateDistributionConfigurationResponse'),
     newUpdateDistributionConfigurationResponse,
 
     -- ** UpdateImagePipeline
-    UpdateImagePipeline,
+    UpdateImagePipeline (UpdateImagePipeline'),
     newUpdateImagePipeline,
-    UpdateImagePipelineResponse,
+    UpdateImagePipelineResponse (UpdateImagePipelineResponse'),
     newUpdateImagePipelineResponse,
 
     -- ** UpdateInfrastructureConfiguration
-    UpdateInfrastructureConfiguration,
+    UpdateInfrastructureConfiguration (UpdateInfrastructureConfiguration'),
     newUpdateInfrastructureConfiguration,
-    UpdateInfrastructureConfigurationResponse,
+    UpdateInfrastructureConfigurationResponse (UpdateInfrastructureConfigurationResponse'),
     newUpdateInfrastructureConfigurationResponse,
 
     -- * Types
@@ -425,183 +425,183 @@ module Amazonka.ImageBuilder
     Platform (..),
 
     -- ** AdditionalInstanceConfiguration
-    AdditionalInstanceConfiguration,
+    AdditionalInstanceConfiguration (AdditionalInstanceConfiguration'),
     newAdditionalInstanceConfiguration,
 
     -- ** Ami
-    Ami,
+    Ami (Ami'),
     newAmi,
 
     -- ** AmiDistributionConfiguration
-    AmiDistributionConfiguration,
+    AmiDistributionConfiguration (AmiDistributionConfiguration'),
     newAmiDistributionConfiguration,
 
     -- ** Component
-    Component,
+    Component (Component'),
     newComponent,
 
     -- ** ComponentConfiguration
-    ComponentConfiguration,
+    ComponentConfiguration (ComponentConfiguration'),
     newComponentConfiguration,
 
     -- ** ComponentParameter
-    ComponentParameter,
+    ComponentParameter (ComponentParameter'),
     newComponentParameter,
 
     -- ** ComponentParameterDetail
-    ComponentParameterDetail,
+    ComponentParameterDetail (ComponentParameterDetail'),
     newComponentParameterDetail,
 
     -- ** ComponentState
-    ComponentState,
+    ComponentState (ComponentState'),
     newComponentState,
 
     -- ** ComponentSummary
-    ComponentSummary,
+    ComponentSummary (ComponentSummary'),
     newComponentSummary,
 
     -- ** ComponentVersion
-    ComponentVersion,
+    ComponentVersion (ComponentVersion'),
     newComponentVersion,
 
     -- ** Container
-    Container,
+    Container (Container'),
     newContainer,
 
     -- ** ContainerDistributionConfiguration
-    ContainerDistributionConfiguration,
+    ContainerDistributionConfiguration (ContainerDistributionConfiguration'),
     newContainerDistributionConfiguration,
 
     -- ** ContainerRecipe
-    ContainerRecipe,
+    ContainerRecipe (ContainerRecipe'),
     newContainerRecipe,
 
     -- ** ContainerRecipeSummary
-    ContainerRecipeSummary,
+    ContainerRecipeSummary (ContainerRecipeSummary'),
     newContainerRecipeSummary,
 
     -- ** Distribution
-    Distribution,
+    Distribution (Distribution'),
     newDistribution,
 
     -- ** DistributionConfiguration
-    DistributionConfiguration,
+    DistributionConfiguration (DistributionConfiguration'),
     newDistributionConfiguration,
 
     -- ** DistributionConfigurationSummary
-    DistributionConfigurationSummary,
+    DistributionConfigurationSummary (DistributionConfigurationSummary'),
     newDistributionConfigurationSummary,
 
     -- ** EbsInstanceBlockDeviceSpecification
-    EbsInstanceBlockDeviceSpecification,
+    EbsInstanceBlockDeviceSpecification (EbsInstanceBlockDeviceSpecification'),
     newEbsInstanceBlockDeviceSpecification,
 
     -- ** FastLaunchConfiguration
-    FastLaunchConfiguration,
+    FastLaunchConfiguration (FastLaunchConfiguration'),
     newFastLaunchConfiguration,
 
     -- ** FastLaunchLaunchTemplateSpecification
-    FastLaunchLaunchTemplateSpecification,
+    FastLaunchLaunchTemplateSpecification (FastLaunchLaunchTemplateSpecification'),
     newFastLaunchLaunchTemplateSpecification,
 
     -- ** FastLaunchSnapshotConfiguration
-    FastLaunchSnapshotConfiguration,
+    FastLaunchSnapshotConfiguration (FastLaunchSnapshotConfiguration'),
     newFastLaunchSnapshotConfiguration,
 
     -- ** Filter
-    Filter,
+    Filter (Filter'),
     newFilter,
 
     -- ** Image
-    Image,
+    Image (Image'),
     newImage,
 
     -- ** ImagePackage
-    ImagePackage,
+    ImagePackage (ImagePackage'),
     newImagePackage,
 
     -- ** ImagePipeline
-    ImagePipeline,
+    ImagePipeline (ImagePipeline'),
     newImagePipeline,
 
     -- ** ImageRecipe
-    ImageRecipe,
+    ImageRecipe (ImageRecipe'),
     newImageRecipe,
 
     -- ** ImageRecipeSummary
-    ImageRecipeSummary,
+    ImageRecipeSummary (ImageRecipeSummary'),
     newImageRecipeSummary,
 
     -- ** ImageState
-    ImageState,
+    ImageState (ImageState'),
     newImageState,
 
     -- ** ImageSummary
-    ImageSummary,
+    ImageSummary (ImageSummary'),
     newImageSummary,
 
     -- ** ImageTestsConfiguration
-    ImageTestsConfiguration,
+    ImageTestsConfiguration (ImageTestsConfiguration'),
     newImageTestsConfiguration,
 
     -- ** ImageVersion
-    ImageVersion,
+    ImageVersion (ImageVersion'),
     newImageVersion,
 
     -- ** InfrastructureConfiguration
-    InfrastructureConfiguration,
+    InfrastructureConfiguration (InfrastructureConfiguration'),
     newInfrastructureConfiguration,
 
     -- ** InfrastructureConfigurationSummary
-    InfrastructureConfigurationSummary,
+    InfrastructureConfigurationSummary (InfrastructureConfigurationSummary'),
     newInfrastructureConfigurationSummary,
 
     -- ** InstanceBlockDeviceMapping
-    InstanceBlockDeviceMapping,
+    InstanceBlockDeviceMapping (InstanceBlockDeviceMapping'),
     newInstanceBlockDeviceMapping,
 
     -- ** InstanceConfiguration
-    InstanceConfiguration,
+    InstanceConfiguration (InstanceConfiguration'),
     newInstanceConfiguration,
 
     -- ** InstanceMetadataOptions
-    InstanceMetadataOptions,
+    InstanceMetadataOptions (InstanceMetadataOptions'),
     newInstanceMetadataOptions,
 
     -- ** LaunchPermissionConfiguration
-    LaunchPermissionConfiguration,
+    LaunchPermissionConfiguration (LaunchPermissionConfiguration'),
     newLaunchPermissionConfiguration,
 
     -- ** LaunchTemplateConfiguration
-    LaunchTemplateConfiguration,
+    LaunchTemplateConfiguration (LaunchTemplateConfiguration'),
     newLaunchTemplateConfiguration,
 
     -- ** Logging
-    Logging,
+    Logging (Logging'),
     newLogging,
 
     -- ** OutputResources
-    OutputResources,
+    OutputResources (OutputResources'),
     newOutputResources,
 
     -- ** S3ExportConfiguration
-    S3ExportConfiguration,
+    S3ExportConfiguration (S3ExportConfiguration'),
     newS3ExportConfiguration,
 
     -- ** S3Logs
-    S3Logs,
+    S3Logs (S3Logs'),
     newS3Logs,
 
     -- ** Schedule
-    Schedule,
+    Schedule (Schedule'),
     newSchedule,
 
     -- ** SystemsManagerAgent
-    SystemsManagerAgent,
+    SystemsManagerAgent (SystemsManagerAgent'),
     newSystemsManagerAgent,
 
     -- ** TargetContainerRepository
-    TargetContainerRepository,
+    TargetContainerRepository (TargetContainerRepository'),
     newTargetContainerRepository,
   )
 where

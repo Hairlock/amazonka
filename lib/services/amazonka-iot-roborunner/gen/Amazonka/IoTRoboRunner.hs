@@ -48,123 +48,123 @@ module Amazonka.IoTRoboRunner
     -- $operations
 
     -- ** CreateDestination
-    CreateDestination,
+    CreateDestination (CreateDestination'),
     newCreateDestination,
-    CreateDestinationResponse,
+    CreateDestinationResponse (CreateDestinationResponse'),
     newCreateDestinationResponse,
 
     -- ** CreateSite
-    CreateSite,
+    CreateSite (CreateSite'),
     newCreateSite,
-    CreateSiteResponse,
+    CreateSiteResponse (CreateSiteResponse'),
     newCreateSiteResponse,
 
     -- ** CreateWorker
-    CreateWorker,
+    CreateWorker (CreateWorker'),
     newCreateWorker,
-    CreateWorkerResponse,
+    CreateWorkerResponse (CreateWorkerResponse'),
     newCreateWorkerResponse,
 
     -- ** CreateWorkerFleet
-    CreateWorkerFleet,
+    CreateWorkerFleet (CreateWorkerFleet'),
     newCreateWorkerFleet,
-    CreateWorkerFleetResponse,
+    CreateWorkerFleetResponse (CreateWorkerFleetResponse'),
     newCreateWorkerFleetResponse,
 
     -- ** DeleteDestination
-    DeleteDestination,
+    DeleteDestination (DeleteDestination'),
     newDeleteDestination,
-    DeleteDestinationResponse,
+    DeleteDestinationResponse (DeleteDestinationResponse'),
     newDeleteDestinationResponse,
 
     -- ** DeleteSite
-    DeleteSite,
+    DeleteSite (DeleteSite'),
     newDeleteSite,
-    DeleteSiteResponse,
+    DeleteSiteResponse (DeleteSiteResponse'),
     newDeleteSiteResponse,
 
     -- ** DeleteWorker
-    DeleteWorker,
+    DeleteWorker (DeleteWorker'),
     newDeleteWorker,
-    DeleteWorkerResponse,
+    DeleteWorkerResponse (DeleteWorkerResponse'),
     newDeleteWorkerResponse,
 
     -- ** DeleteWorkerFleet
-    DeleteWorkerFleet,
+    DeleteWorkerFleet (DeleteWorkerFleet'),
     newDeleteWorkerFleet,
-    DeleteWorkerFleetResponse,
+    DeleteWorkerFleetResponse (DeleteWorkerFleetResponse'),
     newDeleteWorkerFleetResponse,
 
     -- ** GetDestination
-    GetDestination,
+    GetDestination (GetDestination'),
     newGetDestination,
-    GetDestinationResponse,
+    GetDestinationResponse (GetDestinationResponse'),
     newGetDestinationResponse,
 
     -- ** GetSite
-    GetSite,
+    GetSite (GetSite'),
     newGetSite,
-    GetSiteResponse,
+    GetSiteResponse (GetSiteResponse'),
     newGetSiteResponse,
 
     -- ** GetWorker
-    GetWorker,
+    GetWorker (GetWorker'),
     newGetWorker,
-    GetWorkerResponse,
+    GetWorkerResponse (GetWorkerResponse'),
     newGetWorkerResponse,
 
     -- ** GetWorkerFleet
-    GetWorkerFleet,
+    GetWorkerFleet (GetWorkerFleet'),
     newGetWorkerFleet,
-    GetWorkerFleetResponse,
+    GetWorkerFleetResponse (GetWorkerFleetResponse'),
     newGetWorkerFleetResponse,
 
     -- ** ListDestinations (Paginated)
-    ListDestinations,
+    ListDestinations (ListDestinations'),
     newListDestinations,
-    ListDestinationsResponse,
+    ListDestinationsResponse (ListDestinationsResponse'),
     newListDestinationsResponse,
 
     -- ** ListSites (Paginated)
-    ListSites,
+    ListSites (ListSites'),
     newListSites,
-    ListSitesResponse,
+    ListSitesResponse (ListSitesResponse'),
     newListSitesResponse,
 
     -- ** ListWorkerFleets (Paginated)
-    ListWorkerFleets,
+    ListWorkerFleets (ListWorkerFleets'),
     newListWorkerFleets,
-    ListWorkerFleetsResponse,
+    ListWorkerFleetsResponse (ListWorkerFleetsResponse'),
     newListWorkerFleetsResponse,
 
     -- ** ListWorkers (Paginated)
-    ListWorkers,
+    ListWorkers (ListWorkers'),
     newListWorkers,
-    ListWorkersResponse,
+    ListWorkersResponse (ListWorkersResponse'),
     newListWorkersResponse,
 
     -- ** UpdateDestination
-    UpdateDestination,
+    UpdateDestination (UpdateDestination'),
     newUpdateDestination,
-    UpdateDestinationResponse,
+    UpdateDestinationResponse (UpdateDestinationResponse'),
     newUpdateDestinationResponse,
 
     -- ** UpdateSite
-    UpdateSite,
+    UpdateSite (UpdateSite'),
     newUpdateSite,
-    UpdateSiteResponse,
+    UpdateSiteResponse (UpdateSiteResponse'),
     newUpdateSiteResponse,
 
     -- ** UpdateWorker
-    UpdateWorker,
+    UpdateWorker (UpdateWorker'),
     newUpdateWorker,
-    UpdateWorkerResponse,
+    UpdateWorkerResponse (UpdateWorkerResponse'),
     newUpdateWorkerResponse,
 
     -- ** UpdateWorkerFleet
-    UpdateWorkerFleet,
+    UpdateWorkerFleet (UpdateWorkerFleet'),
     newUpdateWorkerFleet,
-    UpdateWorkerFleetResponse,
+    UpdateWorkerFleetResponse (UpdateWorkerFleetResponse'),
     newUpdateWorkerFleetResponse,
 
     -- * Types
@@ -173,35 +173,35 @@ module Amazonka.IoTRoboRunner
     DestinationState (..),
 
     -- ** CartesianCoordinates
-    CartesianCoordinates,
+    CartesianCoordinates (CartesianCoordinates'),
     newCartesianCoordinates,
 
     -- ** Destination
-    Destination,
+    Destination (Destination'),
     newDestination,
 
     -- ** Orientation
-    Orientation,
+    Orientation (Orientation'),
     newOrientation,
 
     -- ** PositionCoordinates
-    PositionCoordinates,
+    PositionCoordinates (PositionCoordinates'),
     newPositionCoordinates,
 
     -- ** Site
-    Site,
+    Site (Site'),
     newSite,
 
     -- ** VendorProperties
-    VendorProperties,
+    VendorProperties (VendorProperties'),
     newVendorProperties,
 
     -- ** Worker
-    Worker,
+    Worker (Worker'),
     newWorker,
 
     -- ** WorkerFleet
-    WorkerFleet,
+    WorkerFleet (WorkerFleet'),
     newWorkerFleet,
   )
 where

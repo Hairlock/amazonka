@@ -63,579 +63,579 @@ module Amazonka.IoTWireless
     -- $operations
 
     -- ** AssociateAwsAccountWithPartnerAccount
-    AssociateAwsAccountWithPartnerAccount,
+    AssociateAwsAccountWithPartnerAccount (AssociateAwsAccountWithPartnerAccount'),
     newAssociateAwsAccountWithPartnerAccount,
-    AssociateAwsAccountWithPartnerAccountResponse,
+    AssociateAwsAccountWithPartnerAccountResponse (AssociateAwsAccountWithPartnerAccountResponse'),
     newAssociateAwsAccountWithPartnerAccountResponse,
 
     -- ** AssociateMulticastGroupWithFuotaTask
-    AssociateMulticastGroupWithFuotaTask,
+    AssociateMulticastGroupWithFuotaTask (AssociateMulticastGroupWithFuotaTask'),
     newAssociateMulticastGroupWithFuotaTask,
-    AssociateMulticastGroupWithFuotaTaskResponse,
+    AssociateMulticastGroupWithFuotaTaskResponse (AssociateMulticastGroupWithFuotaTaskResponse'),
     newAssociateMulticastGroupWithFuotaTaskResponse,
 
     -- ** AssociateWirelessDeviceWithFuotaTask
-    AssociateWirelessDeviceWithFuotaTask,
+    AssociateWirelessDeviceWithFuotaTask (AssociateWirelessDeviceWithFuotaTask'),
     newAssociateWirelessDeviceWithFuotaTask,
-    AssociateWirelessDeviceWithFuotaTaskResponse,
+    AssociateWirelessDeviceWithFuotaTaskResponse (AssociateWirelessDeviceWithFuotaTaskResponse'),
     newAssociateWirelessDeviceWithFuotaTaskResponse,
 
     -- ** AssociateWirelessDeviceWithMulticastGroup
-    AssociateWirelessDeviceWithMulticastGroup,
+    AssociateWirelessDeviceWithMulticastGroup (AssociateWirelessDeviceWithMulticastGroup'),
     newAssociateWirelessDeviceWithMulticastGroup,
-    AssociateWirelessDeviceWithMulticastGroupResponse,
+    AssociateWirelessDeviceWithMulticastGroupResponse (AssociateWirelessDeviceWithMulticastGroupResponse'),
     newAssociateWirelessDeviceWithMulticastGroupResponse,
 
     -- ** AssociateWirelessDeviceWithThing
-    AssociateWirelessDeviceWithThing,
+    AssociateWirelessDeviceWithThing (AssociateWirelessDeviceWithThing'),
     newAssociateWirelessDeviceWithThing,
-    AssociateWirelessDeviceWithThingResponse,
+    AssociateWirelessDeviceWithThingResponse (AssociateWirelessDeviceWithThingResponse'),
     newAssociateWirelessDeviceWithThingResponse,
 
     -- ** AssociateWirelessGatewayWithCertificate
-    AssociateWirelessGatewayWithCertificate,
+    AssociateWirelessGatewayWithCertificate (AssociateWirelessGatewayWithCertificate'),
     newAssociateWirelessGatewayWithCertificate,
-    AssociateWirelessGatewayWithCertificateResponse,
+    AssociateWirelessGatewayWithCertificateResponse (AssociateWirelessGatewayWithCertificateResponse'),
     newAssociateWirelessGatewayWithCertificateResponse,
 
     -- ** AssociateWirelessGatewayWithThing
-    AssociateWirelessGatewayWithThing,
+    AssociateWirelessGatewayWithThing (AssociateWirelessGatewayWithThing'),
     newAssociateWirelessGatewayWithThing,
-    AssociateWirelessGatewayWithThingResponse,
+    AssociateWirelessGatewayWithThingResponse (AssociateWirelessGatewayWithThingResponse'),
     newAssociateWirelessGatewayWithThingResponse,
 
     -- ** CancelMulticastGroupSession
-    CancelMulticastGroupSession,
+    CancelMulticastGroupSession (CancelMulticastGroupSession'),
     newCancelMulticastGroupSession,
-    CancelMulticastGroupSessionResponse,
+    CancelMulticastGroupSessionResponse (CancelMulticastGroupSessionResponse'),
     newCancelMulticastGroupSessionResponse,
 
     -- ** CreateDestination
-    CreateDestination,
+    CreateDestination (CreateDestination'),
     newCreateDestination,
-    CreateDestinationResponse,
+    CreateDestinationResponse (CreateDestinationResponse'),
     newCreateDestinationResponse,
 
     -- ** CreateDeviceProfile
-    CreateDeviceProfile,
+    CreateDeviceProfile (CreateDeviceProfile'),
     newCreateDeviceProfile,
-    CreateDeviceProfileResponse,
+    CreateDeviceProfileResponse (CreateDeviceProfileResponse'),
     newCreateDeviceProfileResponse,
 
     -- ** CreateFuotaTask
-    CreateFuotaTask,
+    CreateFuotaTask (CreateFuotaTask'),
     newCreateFuotaTask,
-    CreateFuotaTaskResponse,
+    CreateFuotaTaskResponse (CreateFuotaTaskResponse'),
     newCreateFuotaTaskResponse,
 
     -- ** CreateMulticastGroup
-    CreateMulticastGroup,
+    CreateMulticastGroup (CreateMulticastGroup'),
     newCreateMulticastGroup,
-    CreateMulticastGroupResponse,
+    CreateMulticastGroupResponse (CreateMulticastGroupResponse'),
     newCreateMulticastGroupResponse,
 
     -- ** CreateNetworkAnalyzerConfiguration
-    CreateNetworkAnalyzerConfiguration,
+    CreateNetworkAnalyzerConfiguration (CreateNetworkAnalyzerConfiguration'),
     newCreateNetworkAnalyzerConfiguration,
-    CreateNetworkAnalyzerConfigurationResponse,
+    CreateNetworkAnalyzerConfigurationResponse (CreateNetworkAnalyzerConfigurationResponse'),
     newCreateNetworkAnalyzerConfigurationResponse,
 
     -- ** CreateServiceProfile
-    CreateServiceProfile,
+    CreateServiceProfile (CreateServiceProfile'),
     newCreateServiceProfile,
-    CreateServiceProfileResponse,
+    CreateServiceProfileResponse (CreateServiceProfileResponse'),
     newCreateServiceProfileResponse,
 
     -- ** CreateWirelessDevice
-    CreateWirelessDevice,
+    CreateWirelessDevice (CreateWirelessDevice'),
     newCreateWirelessDevice,
-    CreateWirelessDeviceResponse,
+    CreateWirelessDeviceResponse (CreateWirelessDeviceResponse'),
     newCreateWirelessDeviceResponse,
 
     -- ** CreateWirelessGateway
-    CreateWirelessGateway,
+    CreateWirelessGateway (CreateWirelessGateway'),
     newCreateWirelessGateway,
-    CreateWirelessGatewayResponse,
+    CreateWirelessGatewayResponse (CreateWirelessGatewayResponse'),
     newCreateWirelessGatewayResponse,
 
     -- ** CreateWirelessGatewayTask
-    CreateWirelessGatewayTask,
+    CreateWirelessGatewayTask (CreateWirelessGatewayTask'),
     newCreateWirelessGatewayTask,
-    CreateWirelessGatewayTaskResponse,
+    CreateWirelessGatewayTaskResponse (CreateWirelessGatewayTaskResponse'),
     newCreateWirelessGatewayTaskResponse,
 
     -- ** CreateWirelessGatewayTaskDefinition
-    CreateWirelessGatewayTaskDefinition,
+    CreateWirelessGatewayTaskDefinition (CreateWirelessGatewayTaskDefinition'),
     newCreateWirelessGatewayTaskDefinition,
-    CreateWirelessGatewayTaskDefinitionResponse,
+    CreateWirelessGatewayTaskDefinitionResponse (CreateWirelessGatewayTaskDefinitionResponse'),
     newCreateWirelessGatewayTaskDefinitionResponse,
 
     -- ** DeleteDestination
-    DeleteDestination,
+    DeleteDestination (DeleteDestination'),
     newDeleteDestination,
-    DeleteDestinationResponse,
+    DeleteDestinationResponse (DeleteDestinationResponse'),
     newDeleteDestinationResponse,
 
     -- ** DeleteDeviceProfile
-    DeleteDeviceProfile,
+    DeleteDeviceProfile (DeleteDeviceProfile'),
     newDeleteDeviceProfile,
-    DeleteDeviceProfileResponse,
+    DeleteDeviceProfileResponse (DeleteDeviceProfileResponse'),
     newDeleteDeviceProfileResponse,
 
     -- ** DeleteFuotaTask
-    DeleteFuotaTask,
+    DeleteFuotaTask (DeleteFuotaTask'),
     newDeleteFuotaTask,
-    DeleteFuotaTaskResponse,
+    DeleteFuotaTaskResponse (DeleteFuotaTaskResponse'),
     newDeleteFuotaTaskResponse,
 
     -- ** DeleteMulticastGroup
-    DeleteMulticastGroup,
+    DeleteMulticastGroup (DeleteMulticastGroup'),
     newDeleteMulticastGroup,
-    DeleteMulticastGroupResponse,
+    DeleteMulticastGroupResponse (DeleteMulticastGroupResponse'),
     newDeleteMulticastGroupResponse,
 
     -- ** DeleteNetworkAnalyzerConfiguration
-    DeleteNetworkAnalyzerConfiguration,
+    DeleteNetworkAnalyzerConfiguration (DeleteNetworkAnalyzerConfiguration'),
     newDeleteNetworkAnalyzerConfiguration,
-    DeleteNetworkAnalyzerConfigurationResponse,
+    DeleteNetworkAnalyzerConfigurationResponse (DeleteNetworkAnalyzerConfigurationResponse'),
     newDeleteNetworkAnalyzerConfigurationResponse,
 
     -- ** DeleteQueuedMessages
-    DeleteQueuedMessages,
+    DeleteQueuedMessages (DeleteQueuedMessages'),
     newDeleteQueuedMessages,
-    DeleteQueuedMessagesResponse,
+    DeleteQueuedMessagesResponse (DeleteQueuedMessagesResponse'),
     newDeleteQueuedMessagesResponse,
 
     -- ** DeleteServiceProfile
-    DeleteServiceProfile,
+    DeleteServiceProfile (DeleteServiceProfile'),
     newDeleteServiceProfile,
-    DeleteServiceProfileResponse,
+    DeleteServiceProfileResponse (DeleteServiceProfileResponse'),
     newDeleteServiceProfileResponse,
 
     -- ** DeleteWirelessDevice
-    DeleteWirelessDevice,
+    DeleteWirelessDevice (DeleteWirelessDevice'),
     newDeleteWirelessDevice,
-    DeleteWirelessDeviceResponse,
+    DeleteWirelessDeviceResponse (DeleteWirelessDeviceResponse'),
     newDeleteWirelessDeviceResponse,
 
     -- ** DeleteWirelessGateway
-    DeleteWirelessGateway,
+    DeleteWirelessGateway (DeleteWirelessGateway'),
     newDeleteWirelessGateway,
-    DeleteWirelessGatewayResponse,
+    DeleteWirelessGatewayResponse (DeleteWirelessGatewayResponse'),
     newDeleteWirelessGatewayResponse,
 
     -- ** DeleteWirelessGatewayTask
-    DeleteWirelessGatewayTask,
+    DeleteWirelessGatewayTask (DeleteWirelessGatewayTask'),
     newDeleteWirelessGatewayTask,
-    DeleteWirelessGatewayTaskResponse,
+    DeleteWirelessGatewayTaskResponse (DeleteWirelessGatewayTaskResponse'),
     newDeleteWirelessGatewayTaskResponse,
 
     -- ** DeleteWirelessGatewayTaskDefinition
-    DeleteWirelessGatewayTaskDefinition,
+    DeleteWirelessGatewayTaskDefinition (DeleteWirelessGatewayTaskDefinition'),
     newDeleteWirelessGatewayTaskDefinition,
-    DeleteWirelessGatewayTaskDefinitionResponse,
+    DeleteWirelessGatewayTaskDefinitionResponse (DeleteWirelessGatewayTaskDefinitionResponse'),
     newDeleteWirelessGatewayTaskDefinitionResponse,
 
     -- ** DisassociateAwsAccountFromPartnerAccount
-    DisassociateAwsAccountFromPartnerAccount,
+    DisassociateAwsAccountFromPartnerAccount (DisassociateAwsAccountFromPartnerAccount'),
     newDisassociateAwsAccountFromPartnerAccount,
-    DisassociateAwsAccountFromPartnerAccountResponse,
+    DisassociateAwsAccountFromPartnerAccountResponse (DisassociateAwsAccountFromPartnerAccountResponse'),
     newDisassociateAwsAccountFromPartnerAccountResponse,
 
     -- ** DisassociateMulticastGroupFromFuotaTask
-    DisassociateMulticastGroupFromFuotaTask,
+    DisassociateMulticastGroupFromFuotaTask (DisassociateMulticastGroupFromFuotaTask'),
     newDisassociateMulticastGroupFromFuotaTask,
-    DisassociateMulticastGroupFromFuotaTaskResponse,
+    DisassociateMulticastGroupFromFuotaTaskResponse (DisassociateMulticastGroupFromFuotaTaskResponse'),
     newDisassociateMulticastGroupFromFuotaTaskResponse,
 
     -- ** DisassociateWirelessDeviceFromFuotaTask
-    DisassociateWirelessDeviceFromFuotaTask,
+    DisassociateWirelessDeviceFromFuotaTask (DisassociateWirelessDeviceFromFuotaTask'),
     newDisassociateWirelessDeviceFromFuotaTask,
-    DisassociateWirelessDeviceFromFuotaTaskResponse,
+    DisassociateWirelessDeviceFromFuotaTaskResponse (DisassociateWirelessDeviceFromFuotaTaskResponse'),
     newDisassociateWirelessDeviceFromFuotaTaskResponse,
 
     -- ** DisassociateWirelessDeviceFromMulticastGroup
-    DisassociateWirelessDeviceFromMulticastGroup,
+    DisassociateWirelessDeviceFromMulticastGroup (DisassociateWirelessDeviceFromMulticastGroup'),
     newDisassociateWirelessDeviceFromMulticastGroup,
-    DisassociateWirelessDeviceFromMulticastGroupResponse,
+    DisassociateWirelessDeviceFromMulticastGroupResponse (DisassociateWirelessDeviceFromMulticastGroupResponse'),
     newDisassociateWirelessDeviceFromMulticastGroupResponse,
 
     -- ** DisassociateWirelessDeviceFromThing
-    DisassociateWirelessDeviceFromThing,
+    DisassociateWirelessDeviceFromThing (DisassociateWirelessDeviceFromThing'),
     newDisassociateWirelessDeviceFromThing,
-    DisassociateWirelessDeviceFromThingResponse,
+    DisassociateWirelessDeviceFromThingResponse (DisassociateWirelessDeviceFromThingResponse'),
     newDisassociateWirelessDeviceFromThingResponse,
 
     -- ** DisassociateWirelessGatewayFromCertificate
-    DisassociateWirelessGatewayFromCertificate,
+    DisassociateWirelessGatewayFromCertificate (DisassociateWirelessGatewayFromCertificate'),
     newDisassociateWirelessGatewayFromCertificate,
-    DisassociateWirelessGatewayFromCertificateResponse,
+    DisassociateWirelessGatewayFromCertificateResponse (DisassociateWirelessGatewayFromCertificateResponse'),
     newDisassociateWirelessGatewayFromCertificateResponse,
 
     -- ** DisassociateWirelessGatewayFromThing
-    DisassociateWirelessGatewayFromThing,
+    DisassociateWirelessGatewayFromThing (DisassociateWirelessGatewayFromThing'),
     newDisassociateWirelessGatewayFromThing,
-    DisassociateWirelessGatewayFromThingResponse,
+    DisassociateWirelessGatewayFromThingResponse (DisassociateWirelessGatewayFromThingResponse'),
     newDisassociateWirelessGatewayFromThingResponse,
 
     -- ** GetDestination
-    GetDestination,
+    GetDestination (GetDestination'),
     newGetDestination,
-    GetDestinationResponse,
+    GetDestinationResponse (GetDestinationResponse'),
     newGetDestinationResponse,
 
     -- ** GetDeviceProfile
-    GetDeviceProfile,
+    GetDeviceProfile (GetDeviceProfile'),
     newGetDeviceProfile,
-    GetDeviceProfileResponse,
+    GetDeviceProfileResponse (GetDeviceProfileResponse'),
     newGetDeviceProfileResponse,
 
     -- ** GetEventConfigurationByResourceTypes
-    GetEventConfigurationByResourceTypes,
+    GetEventConfigurationByResourceTypes (GetEventConfigurationByResourceTypes'),
     newGetEventConfigurationByResourceTypes,
-    GetEventConfigurationByResourceTypesResponse,
+    GetEventConfigurationByResourceTypesResponse (GetEventConfigurationByResourceTypesResponse'),
     newGetEventConfigurationByResourceTypesResponse,
 
     -- ** GetFuotaTask
-    GetFuotaTask,
+    GetFuotaTask (GetFuotaTask'),
     newGetFuotaTask,
-    GetFuotaTaskResponse,
+    GetFuotaTaskResponse (GetFuotaTaskResponse'),
     newGetFuotaTaskResponse,
 
     -- ** GetLogLevelsByResourceTypes
-    GetLogLevelsByResourceTypes,
+    GetLogLevelsByResourceTypes (GetLogLevelsByResourceTypes'),
     newGetLogLevelsByResourceTypes,
-    GetLogLevelsByResourceTypesResponse,
+    GetLogLevelsByResourceTypesResponse (GetLogLevelsByResourceTypesResponse'),
     newGetLogLevelsByResourceTypesResponse,
 
     -- ** GetMulticastGroup
-    GetMulticastGroup,
+    GetMulticastGroup (GetMulticastGroup'),
     newGetMulticastGroup,
-    GetMulticastGroupResponse,
+    GetMulticastGroupResponse (GetMulticastGroupResponse'),
     newGetMulticastGroupResponse,
 
     -- ** GetMulticastGroupSession
-    GetMulticastGroupSession,
+    GetMulticastGroupSession (GetMulticastGroupSession'),
     newGetMulticastGroupSession,
-    GetMulticastGroupSessionResponse,
+    GetMulticastGroupSessionResponse (GetMulticastGroupSessionResponse'),
     newGetMulticastGroupSessionResponse,
 
     -- ** GetNetworkAnalyzerConfiguration
-    GetNetworkAnalyzerConfiguration,
+    GetNetworkAnalyzerConfiguration (GetNetworkAnalyzerConfiguration'),
     newGetNetworkAnalyzerConfiguration,
-    GetNetworkAnalyzerConfigurationResponse,
+    GetNetworkAnalyzerConfigurationResponse (GetNetworkAnalyzerConfigurationResponse'),
     newGetNetworkAnalyzerConfigurationResponse,
 
     -- ** GetPartnerAccount
-    GetPartnerAccount,
+    GetPartnerAccount (GetPartnerAccount'),
     newGetPartnerAccount,
-    GetPartnerAccountResponse,
+    GetPartnerAccountResponse (GetPartnerAccountResponse'),
     newGetPartnerAccountResponse,
 
     -- ** GetPositionEstimate
-    GetPositionEstimate,
+    GetPositionEstimate (GetPositionEstimate'),
     newGetPositionEstimate,
-    GetPositionEstimateResponse,
+    GetPositionEstimateResponse (GetPositionEstimateResponse'),
     newGetPositionEstimateResponse,
 
     -- ** GetResourceEventConfiguration
-    GetResourceEventConfiguration,
+    GetResourceEventConfiguration (GetResourceEventConfiguration'),
     newGetResourceEventConfiguration,
-    GetResourceEventConfigurationResponse,
+    GetResourceEventConfigurationResponse (GetResourceEventConfigurationResponse'),
     newGetResourceEventConfigurationResponse,
 
     -- ** GetResourceLogLevel
-    GetResourceLogLevel,
+    GetResourceLogLevel (GetResourceLogLevel'),
     newGetResourceLogLevel,
-    GetResourceLogLevelResponse,
+    GetResourceLogLevelResponse (GetResourceLogLevelResponse'),
     newGetResourceLogLevelResponse,
 
     -- ** GetResourcePosition
-    GetResourcePosition,
+    GetResourcePosition (GetResourcePosition'),
     newGetResourcePosition,
-    GetResourcePositionResponse,
+    GetResourcePositionResponse (GetResourcePositionResponse'),
     newGetResourcePositionResponse,
 
     -- ** GetServiceEndpoint
-    GetServiceEndpoint,
+    GetServiceEndpoint (GetServiceEndpoint'),
     newGetServiceEndpoint,
-    GetServiceEndpointResponse,
+    GetServiceEndpointResponse (GetServiceEndpointResponse'),
     newGetServiceEndpointResponse,
 
     -- ** GetServiceProfile
-    GetServiceProfile,
+    GetServiceProfile (GetServiceProfile'),
     newGetServiceProfile,
-    GetServiceProfileResponse,
+    GetServiceProfileResponse (GetServiceProfileResponse'),
     newGetServiceProfileResponse,
 
     -- ** GetWirelessDevice
-    GetWirelessDevice,
+    GetWirelessDevice (GetWirelessDevice'),
     newGetWirelessDevice,
-    GetWirelessDeviceResponse,
+    GetWirelessDeviceResponse (GetWirelessDeviceResponse'),
     newGetWirelessDeviceResponse,
 
     -- ** GetWirelessDeviceStatistics
-    GetWirelessDeviceStatistics,
+    GetWirelessDeviceStatistics (GetWirelessDeviceStatistics'),
     newGetWirelessDeviceStatistics,
-    GetWirelessDeviceStatisticsResponse,
+    GetWirelessDeviceStatisticsResponse (GetWirelessDeviceStatisticsResponse'),
     newGetWirelessDeviceStatisticsResponse,
 
     -- ** GetWirelessGateway
-    GetWirelessGateway,
+    GetWirelessGateway (GetWirelessGateway'),
     newGetWirelessGateway,
-    GetWirelessGatewayResponse,
+    GetWirelessGatewayResponse (GetWirelessGatewayResponse'),
     newGetWirelessGatewayResponse,
 
     -- ** GetWirelessGatewayCertificate
-    GetWirelessGatewayCertificate,
+    GetWirelessGatewayCertificate (GetWirelessGatewayCertificate'),
     newGetWirelessGatewayCertificate,
-    GetWirelessGatewayCertificateResponse,
+    GetWirelessGatewayCertificateResponse (GetWirelessGatewayCertificateResponse'),
     newGetWirelessGatewayCertificateResponse,
 
     -- ** GetWirelessGatewayFirmwareInformation
-    GetWirelessGatewayFirmwareInformation,
+    GetWirelessGatewayFirmwareInformation (GetWirelessGatewayFirmwareInformation'),
     newGetWirelessGatewayFirmwareInformation,
-    GetWirelessGatewayFirmwareInformationResponse,
+    GetWirelessGatewayFirmwareInformationResponse (GetWirelessGatewayFirmwareInformationResponse'),
     newGetWirelessGatewayFirmwareInformationResponse,
 
     -- ** GetWirelessGatewayStatistics
-    GetWirelessGatewayStatistics,
+    GetWirelessGatewayStatistics (GetWirelessGatewayStatistics'),
     newGetWirelessGatewayStatistics,
-    GetWirelessGatewayStatisticsResponse,
+    GetWirelessGatewayStatisticsResponse (GetWirelessGatewayStatisticsResponse'),
     newGetWirelessGatewayStatisticsResponse,
 
     -- ** GetWirelessGatewayTask
-    GetWirelessGatewayTask,
+    GetWirelessGatewayTask (GetWirelessGatewayTask'),
     newGetWirelessGatewayTask,
-    GetWirelessGatewayTaskResponse,
+    GetWirelessGatewayTaskResponse (GetWirelessGatewayTaskResponse'),
     newGetWirelessGatewayTaskResponse,
 
     -- ** GetWirelessGatewayTaskDefinition
-    GetWirelessGatewayTaskDefinition,
+    GetWirelessGatewayTaskDefinition (GetWirelessGatewayTaskDefinition'),
     newGetWirelessGatewayTaskDefinition,
-    GetWirelessGatewayTaskDefinitionResponse,
+    GetWirelessGatewayTaskDefinitionResponse (GetWirelessGatewayTaskDefinitionResponse'),
     newGetWirelessGatewayTaskDefinitionResponse,
 
     -- ** ListDestinations
-    ListDestinations,
+    ListDestinations (ListDestinations'),
     newListDestinations,
-    ListDestinationsResponse,
+    ListDestinationsResponse (ListDestinationsResponse'),
     newListDestinationsResponse,
 
     -- ** ListDeviceProfiles
-    ListDeviceProfiles,
+    ListDeviceProfiles (ListDeviceProfiles'),
     newListDeviceProfiles,
-    ListDeviceProfilesResponse,
+    ListDeviceProfilesResponse (ListDeviceProfilesResponse'),
     newListDeviceProfilesResponse,
 
     -- ** ListEventConfigurations
-    ListEventConfigurations,
+    ListEventConfigurations (ListEventConfigurations'),
     newListEventConfigurations,
-    ListEventConfigurationsResponse,
+    ListEventConfigurationsResponse (ListEventConfigurationsResponse'),
     newListEventConfigurationsResponse,
 
     -- ** ListFuotaTasks
-    ListFuotaTasks,
+    ListFuotaTasks (ListFuotaTasks'),
     newListFuotaTasks,
-    ListFuotaTasksResponse,
+    ListFuotaTasksResponse (ListFuotaTasksResponse'),
     newListFuotaTasksResponse,
 
     -- ** ListMulticastGroups
-    ListMulticastGroups,
+    ListMulticastGroups (ListMulticastGroups'),
     newListMulticastGroups,
-    ListMulticastGroupsResponse,
+    ListMulticastGroupsResponse (ListMulticastGroupsResponse'),
     newListMulticastGroupsResponse,
 
     -- ** ListMulticastGroupsByFuotaTask
-    ListMulticastGroupsByFuotaTask,
+    ListMulticastGroupsByFuotaTask (ListMulticastGroupsByFuotaTask'),
     newListMulticastGroupsByFuotaTask,
-    ListMulticastGroupsByFuotaTaskResponse,
+    ListMulticastGroupsByFuotaTaskResponse (ListMulticastGroupsByFuotaTaskResponse'),
     newListMulticastGroupsByFuotaTaskResponse,
 
     -- ** ListNetworkAnalyzerConfigurations
-    ListNetworkAnalyzerConfigurations,
+    ListNetworkAnalyzerConfigurations (ListNetworkAnalyzerConfigurations'),
     newListNetworkAnalyzerConfigurations,
-    ListNetworkAnalyzerConfigurationsResponse,
+    ListNetworkAnalyzerConfigurationsResponse (ListNetworkAnalyzerConfigurationsResponse'),
     newListNetworkAnalyzerConfigurationsResponse,
 
     -- ** ListPartnerAccounts
-    ListPartnerAccounts,
+    ListPartnerAccounts (ListPartnerAccounts'),
     newListPartnerAccounts,
-    ListPartnerAccountsResponse,
+    ListPartnerAccountsResponse (ListPartnerAccountsResponse'),
     newListPartnerAccountsResponse,
 
     -- ** ListQueuedMessages
-    ListQueuedMessages,
+    ListQueuedMessages (ListQueuedMessages'),
     newListQueuedMessages,
-    ListQueuedMessagesResponse,
+    ListQueuedMessagesResponse (ListQueuedMessagesResponse'),
     newListQueuedMessagesResponse,
 
     -- ** ListServiceProfiles
-    ListServiceProfiles,
+    ListServiceProfiles (ListServiceProfiles'),
     newListServiceProfiles,
-    ListServiceProfilesResponse,
+    ListServiceProfilesResponse (ListServiceProfilesResponse'),
     newListServiceProfilesResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** ListWirelessDevices
-    ListWirelessDevices,
+    ListWirelessDevices (ListWirelessDevices'),
     newListWirelessDevices,
-    ListWirelessDevicesResponse,
+    ListWirelessDevicesResponse (ListWirelessDevicesResponse'),
     newListWirelessDevicesResponse,
 
     -- ** ListWirelessGatewayTaskDefinitions
-    ListWirelessGatewayTaskDefinitions,
+    ListWirelessGatewayTaskDefinitions (ListWirelessGatewayTaskDefinitions'),
     newListWirelessGatewayTaskDefinitions,
-    ListWirelessGatewayTaskDefinitionsResponse,
+    ListWirelessGatewayTaskDefinitionsResponse (ListWirelessGatewayTaskDefinitionsResponse'),
     newListWirelessGatewayTaskDefinitionsResponse,
 
     -- ** ListWirelessGateways
-    ListWirelessGateways,
+    ListWirelessGateways (ListWirelessGateways'),
     newListWirelessGateways,
-    ListWirelessGatewaysResponse,
+    ListWirelessGatewaysResponse (ListWirelessGatewaysResponse'),
     newListWirelessGatewaysResponse,
 
     -- ** PutResourceLogLevel
-    PutResourceLogLevel,
+    PutResourceLogLevel (PutResourceLogLevel'),
     newPutResourceLogLevel,
-    PutResourceLogLevelResponse,
+    PutResourceLogLevelResponse (PutResourceLogLevelResponse'),
     newPutResourceLogLevelResponse,
 
     -- ** ResetAllResourceLogLevels
-    ResetAllResourceLogLevels,
+    ResetAllResourceLogLevels (ResetAllResourceLogLevels'),
     newResetAllResourceLogLevels,
-    ResetAllResourceLogLevelsResponse,
+    ResetAllResourceLogLevelsResponse (ResetAllResourceLogLevelsResponse'),
     newResetAllResourceLogLevelsResponse,
 
     -- ** ResetResourceLogLevel
-    ResetResourceLogLevel,
+    ResetResourceLogLevel (ResetResourceLogLevel'),
     newResetResourceLogLevel,
-    ResetResourceLogLevelResponse,
+    ResetResourceLogLevelResponse (ResetResourceLogLevelResponse'),
     newResetResourceLogLevelResponse,
 
     -- ** SendDataToMulticastGroup
-    SendDataToMulticastGroup,
+    SendDataToMulticastGroup (SendDataToMulticastGroup'),
     newSendDataToMulticastGroup,
-    SendDataToMulticastGroupResponse,
+    SendDataToMulticastGroupResponse (SendDataToMulticastGroupResponse'),
     newSendDataToMulticastGroupResponse,
 
     -- ** SendDataToWirelessDevice
-    SendDataToWirelessDevice,
+    SendDataToWirelessDevice (SendDataToWirelessDevice'),
     newSendDataToWirelessDevice,
-    SendDataToWirelessDeviceResponse,
+    SendDataToWirelessDeviceResponse (SendDataToWirelessDeviceResponse'),
     newSendDataToWirelessDeviceResponse,
 
     -- ** StartBulkAssociateWirelessDeviceWithMulticastGroup
-    StartBulkAssociateWirelessDeviceWithMulticastGroup,
+    StartBulkAssociateWirelessDeviceWithMulticastGroup (StartBulkAssociateWirelessDeviceWithMulticastGroup'),
     newStartBulkAssociateWirelessDeviceWithMulticastGroup,
-    StartBulkAssociateWirelessDeviceWithMulticastGroupResponse,
+    StartBulkAssociateWirelessDeviceWithMulticastGroupResponse (StartBulkAssociateWirelessDeviceWithMulticastGroupResponse'),
     newStartBulkAssociateWirelessDeviceWithMulticastGroupResponse,
 
     -- ** StartBulkDisassociateWirelessDeviceFromMulticastGroup
-    StartBulkDisassociateWirelessDeviceFromMulticastGroup,
+    StartBulkDisassociateWirelessDeviceFromMulticastGroup (StartBulkDisassociateWirelessDeviceFromMulticastGroup'),
     newStartBulkDisassociateWirelessDeviceFromMulticastGroup,
-    StartBulkDisassociateWirelessDeviceFromMulticastGroupResponse,
+    StartBulkDisassociateWirelessDeviceFromMulticastGroupResponse (StartBulkDisassociateWirelessDeviceFromMulticastGroupResponse'),
     newStartBulkDisassociateWirelessDeviceFromMulticastGroupResponse,
 
     -- ** StartFuotaTask
-    StartFuotaTask,
+    StartFuotaTask (StartFuotaTask'),
     newStartFuotaTask,
-    StartFuotaTaskResponse,
+    StartFuotaTaskResponse (StartFuotaTaskResponse'),
     newStartFuotaTaskResponse,
 
     -- ** StartMulticastGroupSession
-    StartMulticastGroupSession,
+    StartMulticastGroupSession (StartMulticastGroupSession'),
     newStartMulticastGroupSession,
-    StartMulticastGroupSessionResponse,
+    StartMulticastGroupSessionResponse (StartMulticastGroupSessionResponse'),
     newStartMulticastGroupSessionResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** TestWirelessDevice
-    TestWirelessDevice,
+    TestWirelessDevice (TestWirelessDevice'),
     newTestWirelessDevice,
-    TestWirelessDeviceResponse,
+    TestWirelessDeviceResponse (TestWirelessDeviceResponse'),
     newTestWirelessDeviceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateDestination
-    UpdateDestination,
+    UpdateDestination (UpdateDestination'),
     newUpdateDestination,
-    UpdateDestinationResponse,
+    UpdateDestinationResponse (UpdateDestinationResponse'),
     newUpdateDestinationResponse,
 
     -- ** UpdateEventConfigurationByResourceTypes
-    UpdateEventConfigurationByResourceTypes,
+    UpdateEventConfigurationByResourceTypes (UpdateEventConfigurationByResourceTypes'),
     newUpdateEventConfigurationByResourceTypes,
-    UpdateEventConfigurationByResourceTypesResponse,
+    UpdateEventConfigurationByResourceTypesResponse (UpdateEventConfigurationByResourceTypesResponse'),
     newUpdateEventConfigurationByResourceTypesResponse,
 
     -- ** UpdateFuotaTask
-    UpdateFuotaTask,
+    UpdateFuotaTask (UpdateFuotaTask'),
     newUpdateFuotaTask,
-    UpdateFuotaTaskResponse,
+    UpdateFuotaTaskResponse (UpdateFuotaTaskResponse'),
     newUpdateFuotaTaskResponse,
 
     -- ** UpdateLogLevelsByResourceTypes
-    UpdateLogLevelsByResourceTypes,
+    UpdateLogLevelsByResourceTypes (UpdateLogLevelsByResourceTypes'),
     newUpdateLogLevelsByResourceTypes,
-    UpdateLogLevelsByResourceTypesResponse,
+    UpdateLogLevelsByResourceTypesResponse (UpdateLogLevelsByResourceTypesResponse'),
     newUpdateLogLevelsByResourceTypesResponse,
 
     -- ** UpdateMulticastGroup
-    UpdateMulticastGroup,
+    UpdateMulticastGroup (UpdateMulticastGroup'),
     newUpdateMulticastGroup,
-    UpdateMulticastGroupResponse,
+    UpdateMulticastGroupResponse (UpdateMulticastGroupResponse'),
     newUpdateMulticastGroupResponse,
 
     -- ** UpdateNetworkAnalyzerConfiguration
-    UpdateNetworkAnalyzerConfiguration,
+    UpdateNetworkAnalyzerConfiguration (UpdateNetworkAnalyzerConfiguration'),
     newUpdateNetworkAnalyzerConfiguration,
-    UpdateNetworkAnalyzerConfigurationResponse,
+    UpdateNetworkAnalyzerConfigurationResponse (UpdateNetworkAnalyzerConfigurationResponse'),
     newUpdateNetworkAnalyzerConfigurationResponse,
 
     -- ** UpdatePartnerAccount
-    UpdatePartnerAccount,
+    UpdatePartnerAccount (UpdatePartnerAccount'),
     newUpdatePartnerAccount,
-    UpdatePartnerAccountResponse,
+    UpdatePartnerAccountResponse (UpdatePartnerAccountResponse'),
     newUpdatePartnerAccountResponse,
 
     -- ** UpdateResourceEventConfiguration
-    UpdateResourceEventConfiguration,
+    UpdateResourceEventConfiguration (UpdateResourceEventConfiguration'),
     newUpdateResourceEventConfiguration,
-    UpdateResourceEventConfigurationResponse,
+    UpdateResourceEventConfigurationResponse (UpdateResourceEventConfigurationResponse'),
     newUpdateResourceEventConfigurationResponse,
 
     -- ** UpdateResourcePosition
-    UpdateResourcePosition,
+    UpdateResourcePosition (UpdateResourcePosition'),
     newUpdateResourcePosition,
-    UpdateResourcePositionResponse,
+    UpdateResourcePositionResponse (UpdateResourcePositionResponse'),
     newUpdateResourcePositionResponse,
 
     -- ** UpdateWirelessDevice
-    UpdateWirelessDevice,
+    UpdateWirelessDevice (UpdateWirelessDevice'),
     newUpdateWirelessDevice,
-    UpdateWirelessDeviceResponse,
+    UpdateWirelessDeviceResponse (UpdateWirelessDeviceResponse'),
     newUpdateWirelessDeviceResponse,
 
     -- ** UpdateWirelessGateway
-    UpdateWirelessGateway,
+    UpdateWirelessGateway (UpdateWirelessGateway'),
     newUpdateWirelessGateway,
-    UpdateWirelessGatewayResponse,
+    UpdateWirelessGatewayResponse (UpdateWirelessGatewayResponse'),
     newUpdateWirelessGatewayResponse,
 
     -- * Types
@@ -742,247 +742,247 @@ module Amazonka.IoTWireless
     newAbpV1_1,
 
     -- ** ApplicationConfig
-    ApplicationConfig,
+    ApplicationConfig (ApplicationConfig'),
     newApplicationConfig,
 
     -- ** Beaconing
-    Beaconing,
+    Beaconing (Beaconing'),
     newBeaconing,
 
     -- ** CdmaLocalId
-    CdmaLocalId,
+    CdmaLocalId (CdmaLocalId'),
     newCdmaLocalId,
 
     -- ** CdmaNmrObj
-    CdmaNmrObj,
+    CdmaNmrObj (CdmaNmrObj'),
     newCdmaNmrObj,
 
     -- ** CdmaObj
-    CdmaObj,
+    CdmaObj (CdmaObj'),
     newCdmaObj,
 
     -- ** CellTowers
-    CellTowers,
+    CellTowers (CellTowers'),
     newCellTowers,
 
     -- ** CertificateList
-    CertificateList,
+    CertificateList (CertificateList'),
     newCertificateList,
 
     -- ** ConnectionStatusEventConfiguration
-    ConnectionStatusEventConfiguration,
+    ConnectionStatusEventConfiguration (ConnectionStatusEventConfiguration'),
     newConnectionStatusEventConfiguration,
 
     -- ** ConnectionStatusResourceTypeEventConfiguration
-    ConnectionStatusResourceTypeEventConfiguration,
+    ConnectionStatusResourceTypeEventConfiguration (ConnectionStatusResourceTypeEventConfiguration'),
     newConnectionStatusResourceTypeEventConfiguration,
 
     -- ** Destinations
-    Destinations,
+    Destinations (Destinations'),
     newDestinations,
 
     -- ** DeviceProfile
-    DeviceProfile,
+    DeviceProfile (DeviceProfile'),
     newDeviceProfile,
 
     -- ** DeviceRegistrationStateEventConfiguration
-    DeviceRegistrationStateEventConfiguration,
+    DeviceRegistrationStateEventConfiguration (DeviceRegistrationStateEventConfiguration'),
     newDeviceRegistrationStateEventConfiguration,
 
     -- ** DeviceRegistrationStateResourceTypeEventConfiguration
-    DeviceRegistrationStateResourceTypeEventConfiguration,
+    DeviceRegistrationStateResourceTypeEventConfiguration (DeviceRegistrationStateResourceTypeEventConfiguration'),
     newDeviceRegistrationStateResourceTypeEventConfiguration,
 
     -- ** DownlinkQueueMessage
-    DownlinkQueueMessage,
+    DownlinkQueueMessage (DownlinkQueueMessage'),
     newDownlinkQueueMessage,
 
     -- ** EventConfigurationItem
-    EventConfigurationItem,
+    EventConfigurationItem (EventConfigurationItem'),
     newEventConfigurationItem,
 
     -- ** EventNotificationItemConfigurations
-    EventNotificationItemConfigurations,
+    EventNotificationItemConfigurations (EventNotificationItemConfigurations'),
     newEventNotificationItemConfigurations,
 
     -- ** FPorts
-    FPorts,
+    FPorts (FPorts'),
     newFPorts,
 
     -- ** FuotaTask
-    FuotaTask,
+    FuotaTask (FuotaTask'),
     newFuotaTask,
 
     -- ** GatewayListItem
-    GatewayListItem,
+    GatewayListItem (GatewayListItem'),
     newGatewayListItem,
 
     -- ** GlobalIdentity
-    GlobalIdentity,
+    GlobalIdentity (GlobalIdentity'),
     newGlobalIdentity,
 
     -- ** Gnss
-    Gnss,
+    Gnss (Gnss'),
     newGnss,
 
     -- ** GsmLocalId
-    GsmLocalId,
+    GsmLocalId (GsmLocalId'),
     newGsmLocalId,
 
     -- ** GsmNmrObj
-    GsmNmrObj,
+    GsmNmrObj (GsmNmrObj'),
     newGsmNmrObj,
 
     -- ** GsmObj
-    GsmObj,
+    GsmObj (GsmObj'),
     newGsmObj,
 
     -- ** Ip
-    Ip,
+    Ip (Ip'),
     newIp,
 
     -- ** JoinEventConfiguration
-    JoinEventConfiguration,
+    JoinEventConfiguration (JoinEventConfiguration'),
     newJoinEventConfiguration,
 
     -- ** JoinResourceTypeEventConfiguration
-    JoinResourceTypeEventConfiguration,
+    JoinResourceTypeEventConfiguration (JoinResourceTypeEventConfiguration'),
     newJoinResourceTypeEventConfiguration,
 
     -- ** LoRaWANConnectionStatusEventNotificationConfigurations
-    LoRaWANConnectionStatusEventNotificationConfigurations,
+    LoRaWANConnectionStatusEventNotificationConfigurations (LoRaWANConnectionStatusEventNotificationConfigurations'),
     newLoRaWANConnectionStatusEventNotificationConfigurations,
 
     -- ** LoRaWANConnectionStatusResourceTypeEventConfiguration
-    LoRaWANConnectionStatusResourceTypeEventConfiguration,
+    LoRaWANConnectionStatusResourceTypeEventConfiguration (LoRaWANConnectionStatusResourceTypeEventConfiguration'),
     newLoRaWANConnectionStatusResourceTypeEventConfiguration,
 
     -- ** LoRaWANDevice
-    LoRaWANDevice,
+    LoRaWANDevice (LoRaWANDevice'),
     newLoRaWANDevice,
 
     -- ** LoRaWANDeviceMetadata
-    LoRaWANDeviceMetadata,
+    LoRaWANDeviceMetadata (LoRaWANDeviceMetadata'),
     newLoRaWANDeviceMetadata,
 
     -- ** LoRaWANDeviceProfile
-    LoRaWANDeviceProfile,
+    LoRaWANDeviceProfile (LoRaWANDeviceProfile'),
     newLoRaWANDeviceProfile,
 
     -- ** LoRaWANFuotaTask
-    LoRaWANFuotaTask,
+    LoRaWANFuotaTask (LoRaWANFuotaTask'),
     newLoRaWANFuotaTask,
 
     -- ** LoRaWANFuotaTaskGetInfo
-    LoRaWANFuotaTaskGetInfo,
+    LoRaWANFuotaTaskGetInfo (LoRaWANFuotaTaskGetInfo'),
     newLoRaWANFuotaTaskGetInfo,
 
     -- ** LoRaWANGateway
-    LoRaWANGateway,
+    LoRaWANGateway (LoRaWANGateway'),
     newLoRaWANGateway,
 
     -- ** LoRaWANGatewayCurrentVersion
-    LoRaWANGatewayCurrentVersion,
+    LoRaWANGatewayCurrentVersion (LoRaWANGatewayCurrentVersion'),
     newLoRaWANGatewayCurrentVersion,
 
     -- ** LoRaWANGatewayMetadata
-    LoRaWANGatewayMetadata,
+    LoRaWANGatewayMetadata (LoRaWANGatewayMetadata'),
     newLoRaWANGatewayMetadata,
 
     -- ** LoRaWANGatewayVersion
-    LoRaWANGatewayVersion,
+    LoRaWANGatewayVersion (LoRaWANGatewayVersion'),
     newLoRaWANGatewayVersion,
 
     -- ** LoRaWANGetServiceProfileInfo
-    LoRaWANGetServiceProfileInfo,
+    LoRaWANGetServiceProfileInfo (LoRaWANGetServiceProfileInfo'),
     newLoRaWANGetServiceProfileInfo,
 
     -- ** LoRaWANJoinEventNotificationConfigurations
-    LoRaWANJoinEventNotificationConfigurations,
+    LoRaWANJoinEventNotificationConfigurations (LoRaWANJoinEventNotificationConfigurations'),
     newLoRaWANJoinEventNotificationConfigurations,
 
     -- ** LoRaWANJoinResourceTypeEventConfiguration
-    LoRaWANJoinResourceTypeEventConfiguration,
+    LoRaWANJoinResourceTypeEventConfiguration (LoRaWANJoinResourceTypeEventConfiguration'),
     newLoRaWANJoinResourceTypeEventConfiguration,
 
     -- ** LoRaWANListDevice
-    LoRaWANListDevice,
+    LoRaWANListDevice (LoRaWANListDevice'),
     newLoRaWANListDevice,
 
     -- ** LoRaWANMulticast
-    LoRaWANMulticast,
+    LoRaWANMulticast (LoRaWANMulticast'),
     newLoRaWANMulticast,
 
     -- ** LoRaWANMulticastGet
-    LoRaWANMulticastGet,
+    LoRaWANMulticastGet (LoRaWANMulticastGet'),
     newLoRaWANMulticastGet,
 
     -- ** LoRaWANMulticastMetadata
-    LoRaWANMulticastMetadata,
+    LoRaWANMulticastMetadata (LoRaWANMulticastMetadata'),
     newLoRaWANMulticastMetadata,
 
     -- ** LoRaWANMulticastSession
-    LoRaWANMulticastSession,
+    LoRaWANMulticastSession (LoRaWANMulticastSession'),
     newLoRaWANMulticastSession,
 
     -- ** LoRaWANSendDataToDevice
-    LoRaWANSendDataToDevice,
+    LoRaWANSendDataToDevice (LoRaWANSendDataToDevice'),
     newLoRaWANSendDataToDevice,
 
     -- ** LoRaWANServiceProfile
-    LoRaWANServiceProfile,
+    LoRaWANServiceProfile (LoRaWANServiceProfile'),
     newLoRaWANServiceProfile,
 
     -- ** LoRaWANStartFuotaTask
-    LoRaWANStartFuotaTask,
+    LoRaWANStartFuotaTask (LoRaWANStartFuotaTask'),
     newLoRaWANStartFuotaTask,
 
     -- ** LoRaWANUpdateDevice
-    LoRaWANUpdateDevice,
+    LoRaWANUpdateDevice (LoRaWANUpdateDevice'),
     newLoRaWANUpdateDevice,
 
     -- ** LoRaWANUpdateGatewayTaskCreate
-    LoRaWANUpdateGatewayTaskCreate,
+    LoRaWANUpdateGatewayTaskCreate (LoRaWANUpdateGatewayTaskCreate'),
     newLoRaWANUpdateGatewayTaskCreate,
 
     -- ** LoRaWANUpdateGatewayTaskEntry
-    LoRaWANUpdateGatewayTaskEntry,
+    LoRaWANUpdateGatewayTaskEntry (LoRaWANUpdateGatewayTaskEntry'),
     newLoRaWANUpdateGatewayTaskEntry,
 
     -- ** LteLocalId
-    LteLocalId,
+    LteLocalId (LteLocalId'),
     newLteLocalId,
 
     -- ** LteNmrObj
-    LteNmrObj,
+    LteNmrObj (LteNmrObj'),
     newLteNmrObj,
 
     -- ** LteObj
-    LteObj,
+    LteObj (LteObj'),
     newLteObj,
 
     -- ** MessageDeliveryStatusEventConfiguration
-    MessageDeliveryStatusEventConfiguration,
+    MessageDeliveryStatusEventConfiguration (MessageDeliveryStatusEventConfiguration'),
     newMessageDeliveryStatusEventConfiguration,
 
     -- ** MessageDeliveryStatusResourceTypeEventConfiguration
-    MessageDeliveryStatusResourceTypeEventConfiguration,
+    MessageDeliveryStatusResourceTypeEventConfiguration (MessageDeliveryStatusResourceTypeEventConfiguration'),
     newMessageDeliveryStatusResourceTypeEventConfiguration,
 
     -- ** MulticastGroup
-    MulticastGroup,
+    MulticastGroup (MulticastGroup'),
     newMulticastGroup,
 
     -- ** MulticastGroupByFuotaTask
-    MulticastGroupByFuotaTask,
+    MulticastGroupByFuotaTask (MulticastGroupByFuotaTask'),
     newMulticastGroupByFuotaTask,
 
     -- ** MulticastWirelessMetadata
-    MulticastWirelessMetadata,
+    MulticastWirelessMetadata (MulticastWirelessMetadata'),
     newMulticastWirelessMetadata,
 
     -- ** NetworkAnalyzerConfigurations
-    NetworkAnalyzerConfigurations,
+    NetworkAnalyzerConfigurations (NetworkAnalyzerConfigurations'),
     newNetworkAnalyzerConfigurations,
 
     -- ** OtaaV1_0_x
@@ -994,23 +994,23 @@ module Amazonka.IoTWireless
     newOtaaV1_1,
 
     -- ** ParticipatingGateways
-    ParticipatingGateways,
+    ParticipatingGateways (ParticipatingGateways'),
     newParticipatingGateways,
 
     -- ** Positioning
-    Positioning,
+    Positioning (Positioning'),
     newPositioning,
 
     -- ** ProximityEventConfiguration
-    ProximityEventConfiguration,
+    ProximityEventConfiguration (ProximityEventConfiguration'),
     newProximityEventConfiguration,
 
     -- ** ProximityResourceTypeEventConfiguration
-    ProximityResourceTypeEventConfiguration,
+    ProximityResourceTypeEventConfiguration (ProximityResourceTypeEventConfiguration'),
     newProximityResourceTypeEventConfiguration,
 
     -- ** ServiceProfile
-    ServiceProfile,
+    ServiceProfile (ServiceProfile'),
     newServiceProfile,
 
     -- ** SessionKeysAbpV1_0_x
@@ -1022,59 +1022,59 @@ module Amazonka.IoTWireless
     newSessionKeysAbpV1_1,
 
     -- ** SidewalkAccountInfo
-    SidewalkAccountInfo,
+    SidewalkAccountInfo (SidewalkAccountInfo'),
     newSidewalkAccountInfo,
 
     -- ** SidewalkAccountInfoWithFingerprint
-    SidewalkAccountInfoWithFingerprint,
+    SidewalkAccountInfoWithFingerprint (SidewalkAccountInfoWithFingerprint'),
     newSidewalkAccountInfoWithFingerprint,
 
     -- ** SidewalkDevice
-    SidewalkDevice,
+    SidewalkDevice (SidewalkDevice'),
     newSidewalkDevice,
 
     -- ** SidewalkDeviceMetadata
-    SidewalkDeviceMetadata,
+    SidewalkDeviceMetadata (SidewalkDeviceMetadata'),
     newSidewalkDeviceMetadata,
 
     -- ** SidewalkEventNotificationConfigurations
-    SidewalkEventNotificationConfigurations,
+    SidewalkEventNotificationConfigurations (SidewalkEventNotificationConfigurations'),
     newSidewalkEventNotificationConfigurations,
 
     -- ** SidewalkListDevice
-    SidewalkListDevice,
+    SidewalkListDevice (SidewalkListDevice'),
     newSidewalkListDevice,
 
     -- ** SidewalkResourceTypeEventConfiguration
-    SidewalkResourceTypeEventConfiguration,
+    SidewalkResourceTypeEventConfiguration (SidewalkResourceTypeEventConfiguration'),
     newSidewalkResourceTypeEventConfiguration,
 
     -- ** SidewalkSendDataToDevice
-    SidewalkSendDataToDevice,
+    SidewalkSendDataToDevice (SidewalkSendDataToDevice'),
     newSidewalkSendDataToDevice,
 
     -- ** SidewalkUpdateAccount
-    SidewalkUpdateAccount,
+    SidewalkUpdateAccount (SidewalkUpdateAccount'),
     newSidewalkUpdateAccount,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** TdscdmaLocalId
-    TdscdmaLocalId,
+    TdscdmaLocalId (TdscdmaLocalId'),
     newTdscdmaLocalId,
 
     -- ** TdscdmaNmrObj
-    TdscdmaNmrObj,
+    TdscdmaNmrObj (TdscdmaNmrObj'),
     newTdscdmaNmrObj,
 
     -- ** TdscdmaObj
-    TdscdmaObj,
+    TdscdmaObj (TdscdmaObj'),
     newTdscdmaObj,
 
     -- ** TraceContent
-    TraceContent,
+    TraceContent (TraceContent'),
     newTraceContent,
 
     -- ** UpdateAbpV1_0_x
@@ -1086,59 +1086,59 @@ module Amazonka.IoTWireless
     newUpdateAbpV1_1,
 
     -- ** UpdateFPorts
-    UpdateFPorts,
+    UpdateFPorts (UpdateFPorts'),
     newUpdateFPorts,
 
     -- ** UpdateWirelessGatewayTaskCreate
-    UpdateWirelessGatewayTaskCreate,
+    UpdateWirelessGatewayTaskCreate (UpdateWirelessGatewayTaskCreate'),
     newUpdateWirelessGatewayTaskCreate,
 
     -- ** UpdateWirelessGatewayTaskEntry
-    UpdateWirelessGatewayTaskEntry,
+    UpdateWirelessGatewayTaskEntry (UpdateWirelessGatewayTaskEntry'),
     newUpdateWirelessGatewayTaskEntry,
 
     -- ** WcdmaLocalId
-    WcdmaLocalId,
+    WcdmaLocalId (WcdmaLocalId'),
     newWcdmaLocalId,
 
     -- ** WcdmaNmrObj
-    WcdmaNmrObj,
+    WcdmaNmrObj (WcdmaNmrObj'),
     newWcdmaNmrObj,
 
     -- ** WcdmaObj
-    WcdmaObj,
+    WcdmaObj (WcdmaObj'),
     newWcdmaObj,
 
     -- ** WiFiAccessPoint
-    WiFiAccessPoint,
+    WiFiAccessPoint (WiFiAccessPoint'),
     newWiFiAccessPoint,
 
     -- ** WirelessDeviceEventLogOption
-    WirelessDeviceEventLogOption,
+    WirelessDeviceEventLogOption (WirelessDeviceEventLogOption'),
     newWirelessDeviceEventLogOption,
 
     -- ** WirelessDeviceLogOption
-    WirelessDeviceLogOption,
+    WirelessDeviceLogOption (WirelessDeviceLogOption'),
     newWirelessDeviceLogOption,
 
     -- ** WirelessDeviceStatistics
-    WirelessDeviceStatistics,
+    WirelessDeviceStatistics (WirelessDeviceStatistics'),
     newWirelessDeviceStatistics,
 
     -- ** WirelessGatewayEventLogOption
-    WirelessGatewayEventLogOption,
+    WirelessGatewayEventLogOption (WirelessGatewayEventLogOption'),
     newWirelessGatewayEventLogOption,
 
     -- ** WirelessGatewayLogOption
-    WirelessGatewayLogOption,
+    WirelessGatewayLogOption (WirelessGatewayLogOption'),
     newWirelessGatewayLogOption,
 
     -- ** WirelessGatewayStatistics
-    WirelessGatewayStatistics,
+    WirelessGatewayStatistics (WirelessGatewayStatistics'),
     newWirelessGatewayStatistics,
 
     -- ** WirelessMetadata
-    WirelessMetadata,
+    WirelessMetadata (WirelessMetadata'),
     newWirelessMetadata,
   )
 where

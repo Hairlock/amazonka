@@ -52,75 +52,75 @@ module Amazonka.Firehose
     -- $operations
 
     -- ** CreateDeliveryStream
-    CreateDeliveryStream,
+    CreateDeliveryStream (CreateDeliveryStream'),
     newCreateDeliveryStream,
-    CreateDeliveryStreamResponse,
+    CreateDeliveryStreamResponse (CreateDeliveryStreamResponse'),
     newCreateDeliveryStreamResponse,
 
     -- ** DeleteDeliveryStream
-    DeleteDeliveryStream,
+    DeleteDeliveryStream (DeleteDeliveryStream'),
     newDeleteDeliveryStream,
-    DeleteDeliveryStreamResponse,
+    DeleteDeliveryStreamResponse (DeleteDeliveryStreamResponse'),
     newDeleteDeliveryStreamResponse,
 
     -- ** DescribeDeliveryStream
-    DescribeDeliveryStream,
+    DescribeDeliveryStream (DescribeDeliveryStream'),
     newDescribeDeliveryStream,
-    DescribeDeliveryStreamResponse,
+    DescribeDeliveryStreamResponse (DescribeDeliveryStreamResponse'),
     newDescribeDeliveryStreamResponse,
 
     -- ** ListDeliveryStreams
-    ListDeliveryStreams,
+    ListDeliveryStreams (ListDeliveryStreams'),
     newListDeliveryStreams,
-    ListDeliveryStreamsResponse,
+    ListDeliveryStreamsResponse (ListDeliveryStreamsResponse'),
     newListDeliveryStreamsResponse,
 
     -- ** ListTagsForDeliveryStream
-    ListTagsForDeliveryStream,
+    ListTagsForDeliveryStream (ListTagsForDeliveryStream'),
     newListTagsForDeliveryStream,
-    ListTagsForDeliveryStreamResponse,
+    ListTagsForDeliveryStreamResponse (ListTagsForDeliveryStreamResponse'),
     newListTagsForDeliveryStreamResponse,
 
     -- ** PutRecord
-    PutRecord,
+    PutRecord (PutRecord'),
     newPutRecord,
-    PutRecordResponse,
+    PutRecordResponse (PutRecordResponse'),
     newPutRecordResponse,
 
     -- ** PutRecordBatch
-    PutRecordBatch,
+    PutRecordBatch (PutRecordBatch'),
     newPutRecordBatch,
-    PutRecordBatchResponse,
+    PutRecordBatchResponse (PutRecordBatchResponse'),
     newPutRecordBatchResponse,
 
     -- ** StartDeliveryStreamEncryption
-    StartDeliveryStreamEncryption,
+    StartDeliveryStreamEncryption (StartDeliveryStreamEncryption'),
     newStartDeliveryStreamEncryption,
-    StartDeliveryStreamEncryptionResponse,
+    StartDeliveryStreamEncryptionResponse (StartDeliveryStreamEncryptionResponse'),
     newStartDeliveryStreamEncryptionResponse,
 
     -- ** StopDeliveryStreamEncryption
-    StopDeliveryStreamEncryption,
+    StopDeliveryStreamEncryption (StopDeliveryStreamEncryption'),
     newStopDeliveryStreamEncryption,
-    StopDeliveryStreamEncryptionResponse,
+    StopDeliveryStreamEncryptionResponse (StopDeliveryStreamEncryptionResponse'),
     newStopDeliveryStreamEncryptionResponse,
 
     -- ** TagDeliveryStream
-    TagDeliveryStream,
+    TagDeliveryStream (TagDeliveryStream'),
     newTagDeliveryStream,
-    TagDeliveryStreamResponse,
+    TagDeliveryStreamResponse (TagDeliveryStreamResponse'),
     newTagDeliveryStreamResponse,
 
     -- ** UntagDeliveryStream
-    UntagDeliveryStream,
+    UntagDeliveryStream (UntagDeliveryStream'),
     newUntagDeliveryStream,
-    UntagDeliveryStreamResponse,
+    UntagDeliveryStreamResponse (UntagDeliveryStreamResponse'),
     newUntagDeliveryStreamResponse,
 
     -- ** UpdateDestination
-    UpdateDestination,
+    UpdateDestination (UpdateDestination'),
     newUpdateDestination,
-    UpdateDestinationResponse,
+    UpdateDestinationResponse (UpdateDestinationResponse'),
     newUpdateDestinationResponse,
 
     -- * Types
@@ -198,287 +198,287 @@ module Amazonka.Firehose
     SplunkS3BackupMode (..),
 
     -- ** AmazonOpenSearchServerlessBufferingHints
-    AmazonOpenSearchServerlessBufferingHints,
+    AmazonOpenSearchServerlessBufferingHints (AmazonOpenSearchServerlessBufferingHints'),
     newAmazonOpenSearchServerlessBufferingHints,
 
     -- ** AmazonOpenSearchServerlessDestinationConfiguration
-    AmazonOpenSearchServerlessDestinationConfiguration,
+    AmazonOpenSearchServerlessDestinationConfiguration (AmazonOpenSearchServerlessDestinationConfiguration'),
     newAmazonOpenSearchServerlessDestinationConfiguration,
 
     -- ** AmazonOpenSearchServerlessDestinationDescription
-    AmazonOpenSearchServerlessDestinationDescription,
+    AmazonOpenSearchServerlessDestinationDescription (AmazonOpenSearchServerlessDestinationDescription'),
     newAmazonOpenSearchServerlessDestinationDescription,
 
     -- ** AmazonOpenSearchServerlessDestinationUpdate
-    AmazonOpenSearchServerlessDestinationUpdate,
+    AmazonOpenSearchServerlessDestinationUpdate (AmazonOpenSearchServerlessDestinationUpdate'),
     newAmazonOpenSearchServerlessDestinationUpdate,
 
     -- ** AmazonOpenSearchServerlessRetryOptions
-    AmazonOpenSearchServerlessRetryOptions,
+    AmazonOpenSearchServerlessRetryOptions (AmazonOpenSearchServerlessRetryOptions'),
     newAmazonOpenSearchServerlessRetryOptions,
 
     -- ** AmazonopensearchserviceBufferingHints
-    AmazonopensearchserviceBufferingHints,
+    AmazonopensearchserviceBufferingHints (AmazonopensearchserviceBufferingHints'),
     newAmazonopensearchserviceBufferingHints,
 
     -- ** AmazonopensearchserviceDestinationConfiguration
-    AmazonopensearchserviceDestinationConfiguration,
+    AmazonopensearchserviceDestinationConfiguration (AmazonopensearchserviceDestinationConfiguration'),
     newAmazonopensearchserviceDestinationConfiguration,
 
     -- ** AmazonopensearchserviceDestinationDescription
-    AmazonopensearchserviceDestinationDescription,
+    AmazonopensearchserviceDestinationDescription (AmazonopensearchserviceDestinationDescription'),
     newAmazonopensearchserviceDestinationDescription,
 
     -- ** AmazonopensearchserviceDestinationUpdate
-    AmazonopensearchserviceDestinationUpdate,
+    AmazonopensearchserviceDestinationUpdate (AmazonopensearchserviceDestinationUpdate'),
     newAmazonopensearchserviceDestinationUpdate,
 
     -- ** AmazonopensearchserviceRetryOptions
-    AmazonopensearchserviceRetryOptions,
+    AmazonopensearchserviceRetryOptions (AmazonopensearchserviceRetryOptions'),
     newAmazonopensearchserviceRetryOptions,
 
     -- ** BufferingHints
-    BufferingHints,
+    BufferingHints (BufferingHints'),
     newBufferingHints,
 
     -- ** CloudWatchLoggingOptions
-    CloudWatchLoggingOptions,
+    CloudWatchLoggingOptions (CloudWatchLoggingOptions'),
     newCloudWatchLoggingOptions,
 
     -- ** CopyCommand
-    CopyCommand,
+    CopyCommand (CopyCommand'),
     newCopyCommand,
 
     -- ** DataFormatConversionConfiguration
-    DataFormatConversionConfiguration,
+    DataFormatConversionConfiguration (DataFormatConversionConfiguration'),
     newDataFormatConversionConfiguration,
 
     -- ** DeliveryStreamDescription
-    DeliveryStreamDescription,
+    DeliveryStreamDescription (DeliveryStreamDescription'),
     newDeliveryStreamDescription,
 
     -- ** DeliveryStreamEncryptionConfiguration
-    DeliveryStreamEncryptionConfiguration,
+    DeliveryStreamEncryptionConfiguration (DeliveryStreamEncryptionConfiguration'),
     newDeliveryStreamEncryptionConfiguration,
 
     -- ** DeliveryStreamEncryptionConfigurationInput
-    DeliveryStreamEncryptionConfigurationInput,
+    DeliveryStreamEncryptionConfigurationInput (DeliveryStreamEncryptionConfigurationInput'),
     newDeliveryStreamEncryptionConfigurationInput,
 
     -- ** Deserializer
-    Deserializer,
+    Deserializer (Deserializer'),
     newDeserializer,
 
     -- ** DestinationDescription
-    DestinationDescription,
+    DestinationDescription (DestinationDescription'),
     newDestinationDescription,
 
     -- ** DynamicPartitioningConfiguration
-    DynamicPartitioningConfiguration,
+    DynamicPartitioningConfiguration (DynamicPartitioningConfiguration'),
     newDynamicPartitioningConfiguration,
 
     -- ** ElasticsearchBufferingHints
-    ElasticsearchBufferingHints,
+    ElasticsearchBufferingHints (ElasticsearchBufferingHints'),
     newElasticsearchBufferingHints,
 
     -- ** ElasticsearchDestinationConfiguration
-    ElasticsearchDestinationConfiguration,
+    ElasticsearchDestinationConfiguration (ElasticsearchDestinationConfiguration'),
     newElasticsearchDestinationConfiguration,
 
     -- ** ElasticsearchDestinationDescription
-    ElasticsearchDestinationDescription,
+    ElasticsearchDestinationDescription (ElasticsearchDestinationDescription'),
     newElasticsearchDestinationDescription,
 
     -- ** ElasticsearchDestinationUpdate
-    ElasticsearchDestinationUpdate,
+    ElasticsearchDestinationUpdate (ElasticsearchDestinationUpdate'),
     newElasticsearchDestinationUpdate,
 
     -- ** ElasticsearchRetryOptions
-    ElasticsearchRetryOptions,
+    ElasticsearchRetryOptions (ElasticsearchRetryOptions'),
     newElasticsearchRetryOptions,
 
     -- ** EncryptionConfiguration
-    EncryptionConfiguration,
+    EncryptionConfiguration (EncryptionConfiguration'),
     newEncryptionConfiguration,
 
     -- ** ExtendedS3DestinationConfiguration
-    ExtendedS3DestinationConfiguration,
+    ExtendedS3DestinationConfiguration (ExtendedS3DestinationConfiguration'),
     newExtendedS3DestinationConfiguration,
 
     -- ** ExtendedS3DestinationDescription
-    ExtendedS3DestinationDescription,
+    ExtendedS3DestinationDescription (ExtendedS3DestinationDescription'),
     newExtendedS3DestinationDescription,
 
     -- ** ExtendedS3DestinationUpdate
-    ExtendedS3DestinationUpdate,
+    ExtendedS3DestinationUpdate (ExtendedS3DestinationUpdate'),
     newExtendedS3DestinationUpdate,
 
     -- ** FailureDescription
-    FailureDescription,
+    FailureDescription (FailureDescription'),
     newFailureDescription,
 
     -- ** HiveJsonSerDe
-    HiveJsonSerDe,
+    HiveJsonSerDe (HiveJsonSerDe'),
     newHiveJsonSerDe,
 
     -- ** HttpEndpointBufferingHints
-    HttpEndpointBufferingHints,
+    HttpEndpointBufferingHints (HttpEndpointBufferingHints'),
     newHttpEndpointBufferingHints,
 
     -- ** HttpEndpointCommonAttribute
-    HttpEndpointCommonAttribute,
+    HttpEndpointCommonAttribute (HttpEndpointCommonAttribute'),
     newHttpEndpointCommonAttribute,
 
     -- ** HttpEndpointConfiguration
-    HttpEndpointConfiguration,
+    HttpEndpointConfiguration (HttpEndpointConfiguration'),
     newHttpEndpointConfiguration,
 
     -- ** HttpEndpointDescription
-    HttpEndpointDescription,
+    HttpEndpointDescription (HttpEndpointDescription'),
     newHttpEndpointDescription,
 
     -- ** HttpEndpointDestinationConfiguration
-    HttpEndpointDestinationConfiguration,
+    HttpEndpointDestinationConfiguration (HttpEndpointDestinationConfiguration'),
     newHttpEndpointDestinationConfiguration,
 
     -- ** HttpEndpointDestinationDescription
-    HttpEndpointDestinationDescription,
+    HttpEndpointDestinationDescription (HttpEndpointDestinationDescription'),
     newHttpEndpointDestinationDescription,
 
     -- ** HttpEndpointDestinationUpdate
-    HttpEndpointDestinationUpdate,
+    HttpEndpointDestinationUpdate (HttpEndpointDestinationUpdate'),
     newHttpEndpointDestinationUpdate,
 
     -- ** HttpEndpointRequestConfiguration
-    HttpEndpointRequestConfiguration,
+    HttpEndpointRequestConfiguration (HttpEndpointRequestConfiguration'),
     newHttpEndpointRequestConfiguration,
 
     -- ** HttpEndpointRetryOptions
-    HttpEndpointRetryOptions,
+    HttpEndpointRetryOptions (HttpEndpointRetryOptions'),
     newHttpEndpointRetryOptions,
 
     -- ** InputFormatConfiguration
-    InputFormatConfiguration,
+    InputFormatConfiguration (InputFormatConfiguration'),
     newInputFormatConfiguration,
 
     -- ** KMSEncryptionConfig
-    KMSEncryptionConfig,
+    KMSEncryptionConfig (KMSEncryptionConfig'),
     newKMSEncryptionConfig,
 
     -- ** KinesisStreamSourceConfiguration
-    KinesisStreamSourceConfiguration,
+    KinesisStreamSourceConfiguration (KinesisStreamSourceConfiguration'),
     newKinesisStreamSourceConfiguration,
 
     -- ** KinesisStreamSourceDescription
-    KinesisStreamSourceDescription,
+    KinesisStreamSourceDescription (KinesisStreamSourceDescription'),
     newKinesisStreamSourceDescription,
 
     -- ** OpenXJsonSerDe
-    OpenXJsonSerDe,
+    OpenXJsonSerDe (OpenXJsonSerDe'),
     newOpenXJsonSerDe,
 
     -- ** OrcSerDe
-    OrcSerDe,
+    OrcSerDe (OrcSerDe'),
     newOrcSerDe,
 
     -- ** OutputFormatConfiguration
-    OutputFormatConfiguration,
+    OutputFormatConfiguration (OutputFormatConfiguration'),
     newOutputFormatConfiguration,
 
     -- ** ParquetSerDe
-    ParquetSerDe,
+    ParquetSerDe (ParquetSerDe'),
     newParquetSerDe,
 
     -- ** ProcessingConfiguration
-    ProcessingConfiguration,
+    ProcessingConfiguration (ProcessingConfiguration'),
     newProcessingConfiguration,
 
     -- ** Processor
-    Processor,
+    Processor (Processor'),
     newProcessor,
 
     -- ** ProcessorParameter
-    ProcessorParameter,
+    ProcessorParameter (ProcessorParameter'),
     newProcessorParameter,
 
     -- ** PutRecordBatchResponseEntry
-    PutRecordBatchResponseEntry,
+    PutRecordBatchResponseEntry (PutRecordBatchResponseEntry'),
     newPutRecordBatchResponseEntry,
 
     -- ** Record
-    Record,
+    Record (Record'),
     newRecord,
 
     -- ** RedshiftDestinationConfiguration
-    RedshiftDestinationConfiguration,
+    RedshiftDestinationConfiguration (RedshiftDestinationConfiguration'),
     newRedshiftDestinationConfiguration,
 
     -- ** RedshiftDestinationDescription
-    RedshiftDestinationDescription,
+    RedshiftDestinationDescription (RedshiftDestinationDescription'),
     newRedshiftDestinationDescription,
 
     -- ** RedshiftDestinationUpdate
-    RedshiftDestinationUpdate,
+    RedshiftDestinationUpdate (RedshiftDestinationUpdate'),
     newRedshiftDestinationUpdate,
 
     -- ** RedshiftRetryOptions
-    RedshiftRetryOptions,
+    RedshiftRetryOptions (RedshiftRetryOptions'),
     newRedshiftRetryOptions,
 
     -- ** RetryOptions
-    RetryOptions,
+    RetryOptions (RetryOptions'),
     newRetryOptions,
 
     -- ** S3DestinationConfiguration
-    S3DestinationConfiguration,
+    S3DestinationConfiguration (S3DestinationConfiguration'),
     newS3DestinationConfiguration,
 
     -- ** S3DestinationDescription
-    S3DestinationDescription,
+    S3DestinationDescription (S3DestinationDescription'),
     newS3DestinationDescription,
 
     -- ** S3DestinationUpdate
-    S3DestinationUpdate,
+    S3DestinationUpdate (S3DestinationUpdate'),
     newS3DestinationUpdate,
 
     -- ** SchemaConfiguration
-    SchemaConfiguration,
+    SchemaConfiguration (SchemaConfiguration'),
     newSchemaConfiguration,
 
     -- ** Serializer
-    Serializer,
+    Serializer (Serializer'),
     newSerializer,
 
     -- ** SourceDescription
-    SourceDescription,
+    SourceDescription (SourceDescription'),
     newSourceDescription,
 
     -- ** SplunkDestinationConfiguration
-    SplunkDestinationConfiguration,
+    SplunkDestinationConfiguration (SplunkDestinationConfiguration'),
     newSplunkDestinationConfiguration,
 
     -- ** SplunkDestinationDescription
-    SplunkDestinationDescription,
+    SplunkDestinationDescription (SplunkDestinationDescription'),
     newSplunkDestinationDescription,
 
     -- ** SplunkDestinationUpdate
-    SplunkDestinationUpdate,
+    SplunkDestinationUpdate (SplunkDestinationUpdate'),
     newSplunkDestinationUpdate,
 
     -- ** SplunkRetryOptions
-    SplunkRetryOptions,
+    SplunkRetryOptions (SplunkRetryOptions'),
     newSplunkRetryOptions,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** VpcConfiguration
-    VpcConfiguration,
+    VpcConfiguration (VpcConfiguration'),
     newVpcConfiguration,
 
     -- ** VpcConfigurationDescription
-    VpcConfigurationDescription,
+    VpcConfigurationDescription (VpcConfigurationDescription'),
     newVpcConfigurationDescription,
   )
 where

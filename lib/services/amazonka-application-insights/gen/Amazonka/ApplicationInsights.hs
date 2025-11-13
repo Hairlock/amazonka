@@ -65,165 +65,165 @@ module Amazonka.ApplicationInsights
     -- $operations
 
     -- ** CreateApplication
-    CreateApplication,
+    CreateApplication (CreateApplication'),
     newCreateApplication,
-    CreateApplicationResponse,
+    CreateApplicationResponse (CreateApplicationResponse'),
     newCreateApplicationResponse,
 
     -- ** CreateComponent
-    CreateComponent,
+    CreateComponent (CreateComponent'),
     newCreateComponent,
-    CreateComponentResponse,
+    CreateComponentResponse (CreateComponentResponse'),
     newCreateComponentResponse,
 
     -- ** CreateLogPattern
-    CreateLogPattern,
+    CreateLogPattern (CreateLogPattern'),
     newCreateLogPattern,
-    CreateLogPatternResponse,
+    CreateLogPatternResponse (CreateLogPatternResponse'),
     newCreateLogPatternResponse,
 
     -- ** DeleteApplication
-    DeleteApplication,
+    DeleteApplication (DeleteApplication'),
     newDeleteApplication,
-    DeleteApplicationResponse,
+    DeleteApplicationResponse (DeleteApplicationResponse'),
     newDeleteApplicationResponse,
 
     -- ** DeleteComponent
-    DeleteComponent,
+    DeleteComponent (DeleteComponent'),
     newDeleteComponent,
-    DeleteComponentResponse,
+    DeleteComponentResponse (DeleteComponentResponse'),
     newDeleteComponentResponse,
 
     -- ** DeleteLogPattern
-    DeleteLogPattern,
+    DeleteLogPattern (DeleteLogPattern'),
     newDeleteLogPattern,
-    DeleteLogPatternResponse,
+    DeleteLogPatternResponse (DeleteLogPatternResponse'),
     newDeleteLogPatternResponse,
 
     -- ** DescribeApplication
-    DescribeApplication,
+    DescribeApplication (DescribeApplication'),
     newDescribeApplication,
-    DescribeApplicationResponse,
+    DescribeApplicationResponse (DescribeApplicationResponse'),
     newDescribeApplicationResponse,
 
     -- ** DescribeComponent
-    DescribeComponent,
+    DescribeComponent (DescribeComponent'),
     newDescribeComponent,
-    DescribeComponentResponse,
+    DescribeComponentResponse (DescribeComponentResponse'),
     newDescribeComponentResponse,
 
     -- ** DescribeComponentConfiguration
-    DescribeComponentConfiguration,
+    DescribeComponentConfiguration (DescribeComponentConfiguration'),
     newDescribeComponentConfiguration,
-    DescribeComponentConfigurationResponse,
+    DescribeComponentConfigurationResponse (DescribeComponentConfigurationResponse'),
     newDescribeComponentConfigurationResponse,
 
     -- ** DescribeComponentConfigurationRecommendation
-    DescribeComponentConfigurationRecommendation,
+    DescribeComponentConfigurationRecommendation (DescribeComponentConfigurationRecommendation'),
     newDescribeComponentConfigurationRecommendation,
-    DescribeComponentConfigurationRecommendationResponse,
+    DescribeComponentConfigurationRecommendationResponse (DescribeComponentConfigurationRecommendationResponse'),
     newDescribeComponentConfigurationRecommendationResponse,
 
     -- ** DescribeLogPattern
-    DescribeLogPattern,
+    DescribeLogPattern (DescribeLogPattern'),
     newDescribeLogPattern,
-    DescribeLogPatternResponse,
+    DescribeLogPatternResponse (DescribeLogPatternResponse'),
     newDescribeLogPatternResponse,
 
     -- ** DescribeObservation
-    DescribeObservation,
+    DescribeObservation (DescribeObservation'),
     newDescribeObservation,
-    DescribeObservationResponse,
+    DescribeObservationResponse (DescribeObservationResponse'),
     newDescribeObservationResponse,
 
     -- ** DescribeProblem
-    DescribeProblem,
+    DescribeProblem (DescribeProblem'),
     newDescribeProblem,
-    DescribeProblemResponse,
+    DescribeProblemResponse (DescribeProblemResponse'),
     newDescribeProblemResponse,
 
     -- ** DescribeProblemObservations
-    DescribeProblemObservations,
+    DescribeProblemObservations (DescribeProblemObservations'),
     newDescribeProblemObservations,
-    DescribeProblemObservationsResponse,
+    DescribeProblemObservationsResponse (DescribeProblemObservationsResponse'),
     newDescribeProblemObservationsResponse,
 
     -- ** ListApplications
-    ListApplications,
+    ListApplications (ListApplications'),
     newListApplications,
-    ListApplicationsResponse,
+    ListApplicationsResponse (ListApplicationsResponse'),
     newListApplicationsResponse,
 
     -- ** ListComponents
-    ListComponents,
+    ListComponents (ListComponents'),
     newListComponents,
-    ListComponentsResponse,
+    ListComponentsResponse (ListComponentsResponse'),
     newListComponentsResponse,
 
     -- ** ListConfigurationHistory
-    ListConfigurationHistory,
+    ListConfigurationHistory (ListConfigurationHistory'),
     newListConfigurationHistory,
-    ListConfigurationHistoryResponse,
+    ListConfigurationHistoryResponse (ListConfigurationHistoryResponse'),
     newListConfigurationHistoryResponse,
 
     -- ** ListLogPatternSets
-    ListLogPatternSets,
+    ListLogPatternSets (ListLogPatternSets'),
     newListLogPatternSets,
-    ListLogPatternSetsResponse,
+    ListLogPatternSetsResponse (ListLogPatternSetsResponse'),
     newListLogPatternSetsResponse,
 
     -- ** ListLogPatterns
-    ListLogPatterns,
+    ListLogPatterns (ListLogPatterns'),
     newListLogPatterns,
-    ListLogPatternsResponse,
+    ListLogPatternsResponse (ListLogPatternsResponse'),
     newListLogPatternsResponse,
 
     -- ** ListProblems
-    ListProblems,
+    ListProblems (ListProblems'),
     newListProblems,
-    ListProblemsResponse,
+    ListProblemsResponse (ListProblemsResponse'),
     newListProblemsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateApplication
-    UpdateApplication,
+    UpdateApplication (UpdateApplication'),
     newUpdateApplication,
-    UpdateApplicationResponse,
+    UpdateApplicationResponse (UpdateApplicationResponse'),
     newUpdateApplicationResponse,
 
     -- ** UpdateComponent
-    UpdateComponent,
+    UpdateComponent (UpdateComponent'),
     newUpdateComponent,
-    UpdateComponentResponse,
+    UpdateComponentResponse (UpdateComponentResponse'),
     newUpdateComponentResponse,
 
     -- ** UpdateComponentConfiguration
-    UpdateComponentConfiguration,
+    UpdateComponentConfiguration (UpdateComponentConfiguration'),
     newUpdateComponentConfiguration,
-    UpdateComponentConfigurationResponse,
+    UpdateComponentConfigurationResponse (UpdateComponentConfigurationResponse'),
     newUpdateComponentConfigurationResponse,
 
     -- ** UpdateLogPattern
-    UpdateLogPattern,
+    UpdateLogPattern (UpdateLogPattern'),
     newUpdateLogPattern,
-    UpdateLogPatternResponse,
+    UpdateLogPatternResponse (UpdateLogPatternResponse'),
     newUpdateLogPatternResponse,
 
     -- * Types
@@ -265,35 +265,35 @@ module Amazonka.ApplicationInsights
     Tier (..),
 
     -- ** ApplicationComponent
-    ApplicationComponent,
+    ApplicationComponent (ApplicationComponent'),
     newApplicationComponent,
 
     -- ** ApplicationInfo
-    ApplicationInfo,
+    ApplicationInfo (ApplicationInfo'),
     newApplicationInfo,
 
     -- ** ConfigurationEvent
-    ConfigurationEvent,
+    ConfigurationEvent (ConfigurationEvent'),
     newConfigurationEvent,
 
     -- ** LogPattern
-    LogPattern,
+    LogPattern (LogPattern'),
     newLogPattern,
 
     -- ** Observation
-    Observation,
+    Observation (Observation'),
     newObservation,
 
     -- ** Problem
-    Problem,
+    Problem (Problem'),
     newProblem,
 
     -- ** RelatedObservations
-    RelatedObservations,
+    RelatedObservations (RelatedObservations'),
     newRelatedObservations,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
   )
 where

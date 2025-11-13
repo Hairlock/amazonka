@@ -51,207 +51,207 @@ module Amazonka.Panorama
     -- $operations
 
     -- ** CreateApplicationInstance
-    CreateApplicationInstance,
+    CreateApplicationInstance (CreateApplicationInstance'),
     newCreateApplicationInstance,
-    CreateApplicationInstanceResponse,
+    CreateApplicationInstanceResponse (CreateApplicationInstanceResponse'),
     newCreateApplicationInstanceResponse,
 
     -- ** CreateJobForDevices
-    CreateJobForDevices,
+    CreateJobForDevices (CreateJobForDevices'),
     newCreateJobForDevices,
-    CreateJobForDevicesResponse,
+    CreateJobForDevicesResponse (CreateJobForDevicesResponse'),
     newCreateJobForDevicesResponse,
 
     -- ** CreateNodeFromTemplateJob
-    CreateNodeFromTemplateJob,
+    CreateNodeFromTemplateJob (CreateNodeFromTemplateJob'),
     newCreateNodeFromTemplateJob,
-    CreateNodeFromTemplateJobResponse,
+    CreateNodeFromTemplateJobResponse (CreateNodeFromTemplateJobResponse'),
     newCreateNodeFromTemplateJobResponse,
 
     -- ** CreatePackage
-    CreatePackage,
+    CreatePackage (CreatePackage'),
     newCreatePackage,
-    CreatePackageResponse,
+    CreatePackageResponse (CreatePackageResponse'),
     newCreatePackageResponse,
 
     -- ** CreatePackageImportJob
-    CreatePackageImportJob,
+    CreatePackageImportJob (CreatePackageImportJob'),
     newCreatePackageImportJob,
-    CreatePackageImportJobResponse,
+    CreatePackageImportJobResponse (CreatePackageImportJobResponse'),
     newCreatePackageImportJobResponse,
 
     -- ** DeleteDevice
-    DeleteDevice,
+    DeleteDevice (DeleteDevice'),
     newDeleteDevice,
-    DeleteDeviceResponse,
+    DeleteDeviceResponse (DeleteDeviceResponse'),
     newDeleteDeviceResponse,
 
     -- ** DeletePackage
-    DeletePackage,
+    DeletePackage (DeletePackage'),
     newDeletePackage,
-    DeletePackageResponse,
+    DeletePackageResponse (DeletePackageResponse'),
     newDeletePackageResponse,
 
     -- ** DeregisterPackageVersion
-    DeregisterPackageVersion,
+    DeregisterPackageVersion (DeregisterPackageVersion'),
     newDeregisterPackageVersion,
-    DeregisterPackageVersionResponse,
+    DeregisterPackageVersionResponse (DeregisterPackageVersionResponse'),
     newDeregisterPackageVersionResponse,
 
     -- ** DescribeApplicationInstance
-    DescribeApplicationInstance,
+    DescribeApplicationInstance (DescribeApplicationInstance'),
     newDescribeApplicationInstance,
-    DescribeApplicationInstanceResponse,
+    DescribeApplicationInstanceResponse (DescribeApplicationInstanceResponse'),
     newDescribeApplicationInstanceResponse,
 
     -- ** DescribeApplicationInstanceDetails
-    DescribeApplicationInstanceDetails,
+    DescribeApplicationInstanceDetails (DescribeApplicationInstanceDetails'),
     newDescribeApplicationInstanceDetails,
-    DescribeApplicationInstanceDetailsResponse,
+    DescribeApplicationInstanceDetailsResponse (DescribeApplicationInstanceDetailsResponse'),
     newDescribeApplicationInstanceDetailsResponse,
 
     -- ** DescribeDevice
-    DescribeDevice,
+    DescribeDevice (DescribeDevice'),
     newDescribeDevice,
-    DescribeDeviceResponse,
+    DescribeDeviceResponse (DescribeDeviceResponse'),
     newDescribeDeviceResponse,
 
     -- ** DescribeDeviceJob
-    DescribeDeviceJob,
+    DescribeDeviceJob (DescribeDeviceJob'),
     newDescribeDeviceJob,
-    DescribeDeviceJobResponse,
+    DescribeDeviceJobResponse (DescribeDeviceJobResponse'),
     newDescribeDeviceJobResponse,
 
     -- ** DescribeNode
-    DescribeNode,
+    DescribeNode (DescribeNode'),
     newDescribeNode,
-    DescribeNodeResponse,
+    DescribeNodeResponse (DescribeNodeResponse'),
     newDescribeNodeResponse,
 
     -- ** DescribeNodeFromTemplateJob
-    DescribeNodeFromTemplateJob,
+    DescribeNodeFromTemplateJob (DescribeNodeFromTemplateJob'),
     newDescribeNodeFromTemplateJob,
-    DescribeNodeFromTemplateJobResponse,
+    DescribeNodeFromTemplateJobResponse (DescribeNodeFromTemplateJobResponse'),
     newDescribeNodeFromTemplateJobResponse,
 
     -- ** DescribePackage
-    DescribePackage,
+    DescribePackage (DescribePackage'),
     newDescribePackage,
-    DescribePackageResponse,
+    DescribePackageResponse (DescribePackageResponse'),
     newDescribePackageResponse,
 
     -- ** DescribePackageImportJob
-    DescribePackageImportJob,
+    DescribePackageImportJob (DescribePackageImportJob'),
     newDescribePackageImportJob,
-    DescribePackageImportJobResponse,
+    DescribePackageImportJobResponse (DescribePackageImportJobResponse'),
     newDescribePackageImportJobResponse,
 
     -- ** DescribePackageVersion
-    DescribePackageVersion,
+    DescribePackageVersion (DescribePackageVersion'),
     newDescribePackageVersion,
-    DescribePackageVersionResponse,
+    DescribePackageVersionResponse (DescribePackageVersionResponse'),
     newDescribePackageVersionResponse,
 
     -- ** ListApplicationInstanceDependencies
-    ListApplicationInstanceDependencies,
+    ListApplicationInstanceDependencies (ListApplicationInstanceDependencies'),
     newListApplicationInstanceDependencies,
-    ListApplicationInstanceDependenciesResponse,
+    ListApplicationInstanceDependenciesResponse (ListApplicationInstanceDependenciesResponse'),
     newListApplicationInstanceDependenciesResponse,
 
     -- ** ListApplicationInstanceNodeInstances
-    ListApplicationInstanceNodeInstances,
+    ListApplicationInstanceNodeInstances (ListApplicationInstanceNodeInstances'),
     newListApplicationInstanceNodeInstances,
-    ListApplicationInstanceNodeInstancesResponse,
+    ListApplicationInstanceNodeInstancesResponse (ListApplicationInstanceNodeInstancesResponse'),
     newListApplicationInstanceNodeInstancesResponse,
 
     -- ** ListApplicationInstances
-    ListApplicationInstances,
+    ListApplicationInstances (ListApplicationInstances'),
     newListApplicationInstances,
-    ListApplicationInstancesResponse,
+    ListApplicationInstancesResponse (ListApplicationInstancesResponse'),
     newListApplicationInstancesResponse,
 
     -- ** ListDevices
-    ListDevices,
+    ListDevices (ListDevices'),
     newListDevices,
-    ListDevicesResponse,
+    ListDevicesResponse (ListDevicesResponse'),
     newListDevicesResponse,
 
     -- ** ListDevicesJobs
-    ListDevicesJobs,
+    ListDevicesJobs (ListDevicesJobs'),
     newListDevicesJobs,
-    ListDevicesJobsResponse,
+    ListDevicesJobsResponse (ListDevicesJobsResponse'),
     newListDevicesJobsResponse,
 
     -- ** ListNodeFromTemplateJobs
-    ListNodeFromTemplateJobs,
+    ListNodeFromTemplateJobs (ListNodeFromTemplateJobs'),
     newListNodeFromTemplateJobs,
-    ListNodeFromTemplateJobsResponse,
+    ListNodeFromTemplateJobsResponse (ListNodeFromTemplateJobsResponse'),
     newListNodeFromTemplateJobsResponse,
 
     -- ** ListNodes
-    ListNodes,
+    ListNodes (ListNodes'),
     newListNodes,
-    ListNodesResponse,
+    ListNodesResponse (ListNodesResponse'),
     newListNodesResponse,
 
     -- ** ListPackageImportJobs
-    ListPackageImportJobs,
+    ListPackageImportJobs (ListPackageImportJobs'),
     newListPackageImportJobs,
-    ListPackageImportJobsResponse,
+    ListPackageImportJobsResponse (ListPackageImportJobsResponse'),
     newListPackageImportJobsResponse,
 
     -- ** ListPackages
-    ListPackages,
+    ListPackages (ListPackages'),
     newListPackages,
-    ListPackagesResponse,
+    ListPackagesResponse (ListPackagesResponse'),
     newListPackagesResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** ProvisionDevice
-    ProvisionDevice,
+    ProvisionDevice (ProvisionDevice'),
     newProvisionDevice,
-    ProvisionDeviceResponse,
+    ProvisionDeviceResponse (ProvisionDeviceResponse'),
     newProvisionDeviceResponse,
 
     -- ** RegisterPackageVersion
-    RegisterPackageVersion,
+    RegisterPackageVersion (RegisterPackageVersion'),
     newRegisterPackageVersion,
-    RegisterPackageVersionResponse,
+    RegisterPackageVersionResponse (RegisterPackageVersionResponse'),
     newRegisterPackageVersionResponse,
 
     -- ** RemoveApplicationInstance
-    RemoveApplicationInstance,
+    RemoveApplicationInstance (RemoveApplicationInstance'),
     newRemoveApplicationInstance,
-    RemoveApplicationInstanceResponse,
+    RemoveApplicationInstanceResponse (RemoveApplicationInstanceResponse'),
     newRemoveApplicationInstanceResponse,
 
     -- ** SignalApplicationInstanceNodeInstances
-    SignalApplicationInstanceNodeInstances,
+    SignalApplicationInstanceNodeInstances (SignalApplicationInstanceNodeInstances'),
     newSignalApplicationInstanceNodeInstances,
-    SignalApplicationInstanceNodeInstancesResponse,
+    SignalApplicationInstanceNodeInstancesResponse (SignalApplicationInstanceNodeInstancesResponse'),
     newSignalApplicationInstanceNodeInstancesResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateDeviceMetadata
-    UpdateDeviceMetadata,
+    UpdateDeviceMetadata (UpdateDeviceMetadata'),
     newUpdateDeviceMetadata,
-    UpdateDeviceMetadataResponse,
+    UpdateDeviceMetadataResponse (UpdateDeviceMetadataResponse'),
     newUpdateDeviceMetadataResponse,
 
     -- * Types
@@ -335,151 +335,151 @@ module Amazonka.Panorama
     UpdateProgress (..),
 
     -- ** AlternateSoftwareMetadata
-    AlternateSoftwareMetadata,
+    AlternateSoftwareMetadata (AlternateSoftwareMetadata'),
     newAlternateSoftwareMetadata,
 
     -- ** ApplicationInstance
-    ApplicationInstance,
+    ApplicationInstance (ApplicationInstance'),
     newApplicationInstance,
 
     -- ** Device
-    Device,
+    Device (Device'),
     newDevice,
 
     -- ** DeviceJob
-    DeviceJob,
+    DeviceJob (DeviceJob'),
     newDeviceJob,
 
     -- ** DeviceJobConfig
-    DeviceJobConfig,
+    DeviceJobConfig (DeviceJobConfig'),
     newDeviceJobConfig,
 
     -- ** EthernetPayload
-    EthernetPayload,
+    EthernetPayload (EthernetPayload'),
     newEthernetPayload,
 
     -- ** EthernetStatus
-    EthernetStatus,
+    EthernetStatus (EthernetStatus'),
     newEthernetStatus,
 
     -- ** Job
-    Job,
+    Job (Job'),
     newJob,
 
     -- ** JobResourceTags
-    JobResourceTags,
+    JobResourceTags (JobResourceTags'),
     newJobResourceTags,
 
     -- ** LatestDeviceJob
-    LatestDeviceJob,
+    LatestDeviceJob (LatestDeviceJob'),
     newLatestDeviceJob,
 
     -- ** ManifestOverridesPayload
-    ManifestOverridesPayload,
+    ManifestOverridesPayload (ManifestOverridesPayload'),
     newManifestOverridesPayload,
 
     -- ** ManifestPayload
-    ManifestPayload,
+    ManifestPayload (ManifestPayload'),
     newManifestPayload,
 
     -- ** NetworkPayload
-    NetworkPayload,
+    NetworkPayload (NetworkPayload'),
     newNetworkPayload,
 
     -- ** NetworkStatus
-    NetworkStatus,
+    NetworkStatus (NetworkStatus'),
     newNetworkStatus,
 
     -- ** Node
-    Node,
+    Node (Node'),
     newNode,
 
     -- ** NodeFromTemplateJob
-    NodeFromTemplateJob,
+    NodeFromTemplateJob (NodeFromTemplateJob'),
     newNodeFromTemplateJob,
 
     -- ** NodeInputPort
-    NodeInputPort,
+    NodeInputPort (NodeInputPort'),
     newNodeInputPort,
 
     -- ** NodeInstance
-    NodeInstance,
+    NodeInstance (NodeInstance'),
     newNodeInstance,
 
     -- ** NodeInterface
-    NodeInterface,
+    NodeInterface (NodeInterface'),
     newNodeInterface,
 
     -- ** NodeOutputPort
-    NodeOutputPort,
+    NodeOutputPort (NodeOutputPort'),
     newNodeOutputPort,
 
     -- ** NodeSignal
-    NodeSignal,
+    NodeSignal (NodeSignal'),
     newNodeSignal,
 
     -- ** NtpPayload
-    NtpPayload,
+    NtpPayload (NtpPayload'),
     newNtpPayload,
 
     -- ** NtpStatus
-    NtpStatus,
+    NtpStatus (NtpStatus'),
     newNtpStatus,
 
     -- ** OTAJobConfig
-    OTAJobConfig,
+    OTAJobConfig (OTAJobConfig'),
     newOTAJobConfig,
 
     -- ** OutPutS3Location
-    OutPutS3Location,
+    OutPutS3Location (OutPutS3Location'),
     newOutPutS3Location,
 
     -- ** PackageImportJob
-    PackageImportJob,
+    PackageImportJob (PackageImportJob'),
     newPackageImportJob,
 
     -- ** PackageImportJobInputConfig
-    PackageImportJobInputConfig,
+    PackageImportJobInputConfig (PackageImportJobInputConfig'),
     newPackageImportJobInputConfig,
 
     -- ** PackageImportJobOutput
-    PackageImportJobOutput,
+    PackageImportJobOutput (PackageImportJobOutput'),
     newPackageImportJobOutput,
 
     -- ** PackageImportJobOutputConfig
-    PackageImportJobOutputConfig,
+    PackageImportJobOutputConfig (PackageImportJobOutputConfig'),
     newPackageImportJobOutputConfig,
 
     -- ** PackageListItem
-    PackageListItem,
+    PackageListItem (PackageListItem'),
     newPackageListItem,
 
     -- ** PackageObject
-    PackageObject,
+    PackageObject (PackageObject'),
     newPackageObject,
 
     -- ** PackageVersionInputConfig
-    PackageVersionInputConfig,
+    PackageVersionInputConfig (PackageVersionInputConfig'),
     newPackageVersionInputConfig,
 
     -- ** PackageVersionOutputConfig
-    PackageVersionOutputConfig,
+    PackageVersionOutputConfig (PackageVersionOutputConfig'),
     newPackageVersionOutputConfig,
 
     -- ** ReportedRuntimeContextState
-    ReportedRuntimeContextState,
+    ReportedRuntimeContextState (ReportedRuntimeContextState'),
     newReportedRuntimeContextState,
 
     -- ** S3Location
-    S3Location,
+    S3Location (S3Location'),
     newS3Location,
 
     -- ** StaticIpConnectionInfo
-    StaticIpConnectionInfo,
+    StaticIpConnectionInfo (StaticIpConnectionInfo'),
     newStaticIpConnectionInfo,
 
     -- ** StorageLocation
-    StorageLocation,
+    StorageLocation (StorageLocation'),
     newStorageLocation,
   )
 where

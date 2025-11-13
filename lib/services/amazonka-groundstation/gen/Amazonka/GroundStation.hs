@@ -42,183 +42,183 @@ module Amazonka.GroundStation
     -- $operations
 
     -- ** CancelContact
-    CancelContact,
+    CancelContact (CancelContact'),
     newCancelContact,
-    ContactIdResponse,
+    ContactIdResponse (ContactIdResponse'),
     newContactIdResponse,
 
     -- ** CreateConfig
-    CreateConfig,
+    CreateConfig (CreateConfig'),
     newCreateConfig,
-    ConfigIdResponse,
+    ConfigIdResponse (ConfigIdResponse'),
     newConfigIdResponse,
 
     -- ** CreateDataflowEndpointGroup
-    CreateDataflowEndpointGroup,
+    CreateDataflowEndpointGroup (CreateDataflowEndpointGroup'),
     newCreateDataflowEndpointGroup,
-    DataflowEndpointGroupIdResponse,
+    DataflowEndpointGroupIdResponse (DataflowEndpointGroupIdResponse'),
     newDataflowEndpointGroupIdResponse,
 
     -- ** CreateEphemeris
-    CreateEphemeris,
+    CreateEphemeris (CreateEphemeris'),
     newCreateEphemeris,
-    EphemerisIdResponse,
+    EphemerisIdResponse (EphemerisIdResponse'),
     newEphemerisIdResponse,
 
     -- ** CreateMissionProfile
-    CreateMissionProfile,
+    CreateMissionProfile (CreateMissionProfile'),
     newCreateMissionProfile,
-    MissionProfileIdResponse,
+    MissionProfileIdResponse (MissionProfileIdResponse'),
     newMissionProfileIdResponse,
 
     -- ** DeleteConfig
-    DeleteConfig,
+    DeleteConfig (DeleteConfig'),
     newDeleteConfig,
-    ConfigIdResponse,
+    ConfigIdResponse (ConfigIdResponse'),
     newConfigIdResponse,
 
     -- ** DeleteDataflowEndpointGroup
-    DeleteDataflowEndpointGroup,
+    DeleteDataflowEndpointGroup (DeleteDataflowEndpointGroup'),
     newDeleteDataflowEndpointGroup,
-    DataflowEndpointGroupIdResponse,
+    DataflowEndpointGroupIdResponse (DataflowEndpointGroupIdResponse'),
     newDataflowEndpointGroupIdResponse,
 
     -- ** DeleteEphemeris
-    DeleteEphemeris,
+    DeleteEphemeris (DeleteEphemeris'),
     newDeleteEphemeris,
-    EphemerisIdResponse,
+    EphemerisIdResponse (EphemerisIdResponse'),
     newEphemerisIdResponse,
 
     -- ** DeleteMissionProfile
-    DeleteMissionProfile,
+    DeleteMissionProfile (DeleteMissionProfile'),
     newDeleteMissionProfile,
-    MissionProfileIdResponse,
+    MissionProfileIdResponse (MissionProfileIdResponse'),
     newMissionProfileIdResponse,
 
     -- ** DescribeContact
-    DescribeContact,
+    DescribeContact (DescribeContact'),
     newDescribeContact,
-    DescribeContactResponse,
+    DescribeContactResponse (DescribeContactResponse'),
     newDescribeContactResponse,
 
     -- ** DescribeEphemeris
-    DescribeEphemeris,
+    DescribeEphemeris (DescribeEphemeris'),
     newDescribeEphemeris,
-    DescribeEphemerisResponse,
+    DescribeEphemerisResponse (DescribeEphemerisResponse'),
     newDescribeEphemerisResponse,
 
     -- ** GetConfig
-    GetConfig,
+    GetConfig (GetConfig'),
     newGetConfig,
-    GetConfigResponse,
+    GetConfigResponse (GetConfigResponse'),
     newGetConfigResponse,
 
     -- ** GetDataflowEndpointGroup
-    GetDataflowEndpointGroup,
+    GetDataflowEndpointGroup (GetDataflowEndpointGroup'),
     newGetDataflowEndpointGroup,
-    GetDataflowEndpointGroupResponse,
+    GetDataflowEndpointGroupResponse (GetDataflowEndpointGroupResponse'),
     newGetDataflowEndpointGroupResponse,
 
     -- ** GetMinuteUsage
-    GetMinuteUsage,
+    GetMinuteUsage (GetMinuteUsage'),
     newGetMinuteUsage,
-    GetMinuteUsageResponse,
+    GetMinuteUsageResponse (GetMinuteUsageResponse'),
     newGetMinuteUsageResponse,
 
     -- ** GetMissionProfile
-    GetMissionProfile,
+    GetMissionProfile (GetMissionProfile'),
     newGetMissionProfile,
-    GetMissionProfileResponse,
+    GetMissionProfileResponse (GetMissionProfileResponse'),
     newGetMissionProfileResponse,
 
     -- ** GetSatellite
-    GetSatellite,
+    GetSatellite (GetSatellite'),
     newGetSatellite,
-    GetSatelliteResponse,
+    GetSatelliteResponse (GetSatelliteResponse'),
     newGetSatelliteResponse,
 
     -- ** ListConfigs (Paginated)
-    ListConfigs,
+    ListConfigs (ListConfigs'),
     newListConfigs,
-    ListConfigsResponse,
+    ListConfigsResponse (ListConfigsResponse'),
     newListConfigsResponse,
 
     -- ** ListContacts (Paginated)
-    ListContacts,
+    ListContacts (ListContacts'),
     newListContacts,
-    ListContactsResponse,
+    ListContactsResponse (ListContactsResponse'),
     newListContactsResponse,
 
     -- ** ListDataflowEndpointGroups (Paginated)
-    ListDataflowEndpointGroups,
+    ListDataflowEndpointGroups (ListDataflowEndpointGroups'),
     newListDataflowEndpointGroups,
-    ListDataflowEndpointGroupsResponse,
+    ListDataflowEndpointGroupsResponse (ListDataflowEndpointGroupsResponse'),
     newListDataflowEndpointGroupsResponse,
 
     -- ** ListEphemerides (Paginated)
-    ListEphemerides,
+    ListEphemerides (ListEphemerides'),
     newListEphemerides,
-    ListEphemeridesResponse,
+    ListEphemeridesResponse (ListEphemeridesResponse'),
     newListEphemeridesResponse,
 
     -- ** ListGroundStations (Paginated)
-    ListGroundStations,
+    ListGroundStations (ListGroundStations'),
     newListGroundStations,
-    ListGroundStationsResponse,
+    ListGroundStationsResponse (ListGroundStationsResponse'),
     newListGroundStationsResponse,
 
     -- ** ListMissionProfiles (Paginated)
-    ListMissionProfiles,
+    ListMissionProfiles (ListMissionProfiles'),
     newListMissionProfiles,
-    ListMissionProfilesResponse,
+    ListMissionProfilesResponse (ListMissionProfilesResponse'),
     newListMissionProfilesResponse,
 
     -- ** ListSatellites (Paginated)
-    ListSatellites,
+    ListSatellites (ListSatellites'),
     newListSatellites,
-    ListSatellitesResponse,
+    ListSatellitesResponse (ListSatellitesResponse'),
     newListSatellitesResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** ReserveContact
-    ReserveContact,
+    ReserveContact (ReserveContact'),
     newReserveContact,
-    ContactIdResponse,
+    ContactIdResponse (ContactIdResponse'),
     newContactIdResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateConfig
-    UpdateConfig,
+    UpdateConfig (UpdateConfig'),
     newUpdateConfig,
-    ConfigIdResponse,
+    ConfigIdResponse (ConfigIdResponse'),
     newConfigIdResponse,
 
     -- ** UpdateEphemeris
-    UpdateEphemeris,
+    UpdateEphemeris (UpdateEphemeris'),
     newUpdateEphemeris,
-    EphemerisIdResponse,
+    EphemerisIdResponse (EphemerisIdResponse'),
     newEphemerisIdResponse,
 
     -- ** UpdateMissionProfile
-    UpdateMissionProfile,
+    UpdateMissionProfile (UpdateMissionProfile'),
     newUpdateMissionProfile,
-    MissionProfileIdResponse,
+    MissionProfileIdResponse (MissionProfileIdResponse'),
     newMissionProfileIdResponse,
 
     -- * Types
@@ -260,191 +260,191 @@ module Amazonka.GroundStation
     Polarization (..),
 
     -- ** AntennaDemodDecodeDetails
-    AntennaDemodDecodeDetails,
+    AntennaDemodDecodeDetails (AntennaDemodDecodeDetails'),
     newAntennaDemodDecodeDetails,
 
     -- ** AntennaDownlinkConfig
-    AntennaDownlinkConfig,
+    AntennaDownlinkConfig (AntennaDownlinkConfig'),
     newAntennaDownlinkConfig,
 
     -- ** AntennaDownlinkDemodDecodeConfig
-    AntennaDownlinkDemodDecodeConfig,
+    AntennaDownlinkDemodDecodeConfig (AntennaDownlinkDemodDecodeConfig'),
     newAntennaDownlinkDemodDecodeConfig,
 
     -- ** AntennaUplinkConfig
-    AntennaUplinkConfig,
+    AntennaUplinkConfig (AntennaUplinkConfig'),
     newAntennaUplinkConfig,
 
     -- ** ConfigDetails
-    ConfigDetails,
+    ConfigDetails (ConfigDetails'),
     newConfigDetails,
 
     -- ** ConfigIdResponse
-    ConfigIdResponse,
+    ConfigIdResponse (ConfigIdResponse'),
     newConfigIdResponse,
 
     -- ** ConfigListItem
-    ConfigListItem,
+    ConfigListItem (ConfigListItem'),
     newConfigListItem,
 
     -- ** ConfigTypeData
-    ConfigTypeData,
+    ConfigTypeData (ConfigTypeData'),
     newConfigTypeData,
 
     -- ** ContactData
-    ContactData,
+    ContactData (ContactData'),
     newContactData,
 
     -- ** ContactIdResponse
-    ContactIdResponse,
+    ContactIdResponse (ContactIdResponse'),
     newContactIdResponse,
 
     -- ** DataflowDetail
-    DataflowDetail,
+    DataflowDetail (DataflowDetail'),
     newDataflowDetail,
 
     -- ** DataflowEndpoint
-    DataflowEndpoint,
+    DataflowEndpoint (DataflowEndpoint'),
     newDataflowEndpoint,
 
     -- ** DataflowEndpointConfig
-    DataflowEndpointConfig,
+    DataflowEndpointConfig (DataflowEndpointConfig'),
     newDataflowEndpointConfig,
 
     -- ** DataflowEndpointGroupIdResponse
-    DataflowEndpointGroupIdResponse,
+    DataflowEndpointGroupIdResponse (DataflowEndpointGroupIdResponse'),
     newDataflowEndpointGroupIdResponse,
 
     -- ** DataflowEndpointListItem
-    DataflowEndpointListItem,
+    DataflowEndpointListItem (DataflowEndpointListItem'),
     newDataflowEndpointListItem,
 
     -- ** DecodeConfig
-    DecodeConfig,
+    DecodeConfig (DecodeConfig'),
     newDecodeConfig,
 
     -- ** DemodulationConfig
-    DemodulationConfig,
+    DemodulationConfig (DemodulationConfig'),
     newDemodulationConfig,
 
     -- ** Destination
-    Destination,
+    Destination (Destination'),
     newDestination,
 
     -- ** Eirp
-    Eirp,
+    Eirp (Eirp'),
     newEirp,
 
     -- ** Elevation
-    Elevation,
+    Elevation (Elevation'),
     newElevation,
 
     -- ** EndpointDetails
-    EndpointDetails,
+    EndpointDetails (EndpointDetails'),
     newEndpointDetails,
 
     -- ** EphemerisData
-    EphemerisData,
+    EphemerisData (EphemerisData'),
     newEphemerisData,
 
     -- ** EphemerisDescription
-    EphemerisDescription,
+    EphemerisDescription (EphemerisDescription'),
     newEphemerisDescription,
 
     -- ** EphemerisIdResponse
-    EphemerisIdResponse,
+    EphemerisIdResponse (EphemerisIdResponse'),
     newEphemerisIdResponse,
 
     -- ** EphemerisItem
-    EphemerisItem,
+    EphemerisItem (EphemerisItem'),
     newEphemerisItem,
 
     -- ** EphemerisMetaData
-    EphemerisMetaData,
+    EphemerisMetaData (EphemerisMetaData'),
     newEphemerisMetaData,
 
     -- ** EphemerisTypeDescription
-    EphemerisTypeDescription,
+    EphemerisTypeDescription (EphemerisTypeDescription'),
     newEphemerisTypeDescription,
 
     -- ** Frequency
-    Frequency,
+    Frequency (Frequency'),
     newFrequency,
 
     -- ** FrequencyBandwidth
-    FrequencyBandwidth,
+    FrequencyBandwidth (FrequencyBandwidth'),
     newFrequencyBandwidth,
 
     -- ** GroundStationData
-    GroundStationData,
+    GroundStationData (GroundStationData'),
     newGroundStationData,
 
     -- ** MissionProfileIdResponse
-    MissionProfileIdResponse,
+    MissionProfileIdResponse (MissionProfileIdResponse'),
     newMissionProfileIdResponse,
 
     -- ** MissionProfileListItem
-    MissionProfileListItem,
+    MissionProfileListItem (MissionProfileListItem'),
     newMissionProfileListItem,
 
     -- ** OEMEphemeris
-    OEMEphemeris,
+    OEMEphemeris (OEMEphemeris'),
     newOEMEphemeris,
 
     -- ** S3Object
-    S3Object,
+    S3Object (S3Object'),
     newS3Object,
 
     -- ** S3RecordingConfig
-    S3RecordingConfig,
+    S3RecordingConfig (S3RecordingConfig'),
     newS3RecordingConfig,
 
     -- ** S3RecordingDetails
-    S3RecordingDetails,
+    S3RecordingDetails (S3RecordingDetails'),
     newS3RecordingDetails,
 
     -- ** SatelliteListItem
-    SatelliteListItem,
+    SatelliteListItem (SatelliteListItem'),
     newSatelliteListItem,
 
     -- ** SecurityDetails
-    SecurityDetails,
+    SecurityDetails (SecurityDetails'),
     newSecurityDetails,
 
     -- ** SocketAddress
-    SocketAddress,
+    SocketAddress (SocketAddress'),
     newSocketAddress,
 
     -- ** Source
-    Source,
+    Source (Source'),
     newSource,
 
     -- ** SpectrumConfig
-    SpectrumConfig,
+    SpectrumConfig (SpectrumConfig'),
     newSpectrumConfig,
 
     -- ** TLEData
-    TLEData,
+    TLEData (TLEData'),
     newTLEData,
 
     -- ** TLEEphemeris
-    TLEEphemeris,
+    TLEEphemeris (TLEEphemeris'),
     newTLEEphemeris,
 
     -- ** TimeRange
-    TimeRange,
+    TimeRange (TimeRange'),
     newTimeRange,
 
     -- ** TrackingConfig
-    TrackingConfig,
+    TrackingConfig (TrackingConfig'),
     newTrackingConfig,
 
     -- ** UplinkEchoConfig
-    UplinkEchoConfig,
+    UplinkEchoConfig (UplinkEchoConfig'),
     newUplinkEchoConfig,
 
     -- ** UplinkSpectrumConfig
-    UplinkSpectrumConfig,
+    UplinkSpectrumConfig (UplinkSpectrumConfig'),
     newUplinkSpectrumConfig,
   )
 where

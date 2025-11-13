@@ -50,159 +50,159 @@ module Amazonka.Outposts
     -- $operations
 
     -- ** CancelOrder
-    CancelOrder,
+    CancelOrder (CancelOrder'),
     newCancelOrder,
-    CancelOrderResponse,
+    CancelOrderResponse (CancelOrderResponse'),
     newCancelOrderResponse,
 
     -- ** CreateOrder
-    CreateOrder,
+    CreateOrder (CreateOrder'),
     newCreateOrder,
-    CreateOrderResponse,
+    CreateOrderResponse (CreateOrderResponse'),
     newCreateOrderResponse,
 
     -- ** CreateOutpost
-    CreateOutpost,
+    CreateOutpost (CreateOutpost'),
     newCreateOutpost,
-    CreateOutpostResponse,
+    CreateOutpostResponse (CreateOutpostResponse'),
     newCreateOutpostResponse,
 
     -- ** CreateSite
-    CreateSite,
+    CreateSite (CreateSite'),
     newCreateSite,
-    CreateSiteResponse,
+    CreateSiteResponse (CreateSiteResponse'),
     newCreateSiteResponse,
 
     -- ** DeleteOutpost
-    DeleteOutpost,
+    DeleteOutpost (DeleteOutpost'),
     newDeleteOutpost,
-    DeleteOutpostResponse,
+    DeleteOutpostResponse (DeleteOutpostResponse'),
     newDeleteOutpostResponse,
 
     -- ** DeleteSite
-    DeleteSite,
+    DeleteSite (DeleteSite'),
     newDeleteSite,
-    DeleteSiteResponse,
+    DeleteSiteResponse (DeleteSiteResponse'),
     newDeleteSiteResponse,
 
     -- ** GetCatalogItem
-    GetCatalogItem,
+    GetCatalogItem (GetCatalogItem'),
     newGetCatalogItem,
-    GetCatalogItemResponse,
+    GetCatalogItemResponse (GetCatalogItemResponse'),
     newGetCatalogItemResponse,
 
     -- ** GetConnection
-    GetConnection,
+    GetConnection (GetConnection'),
     newGetConnection,
-    GetConnectionResponse,
+    GetConnectionResponse (GetConnectionResponse'),
     newGetConnectionResponse,
 
     -- ** GetOrder
-    GetOrder,
+    GetOrder (GetOrder'),
     newGetOrder,
-    GetOrderResponse,
+    GetOrderResponse (GetOrderResponse'),
     newGetOrderResponse,
 
     -- ** GetOutpost
-    GetOutpost,
+    GetOutpost (GetOutpost'),
     newGetOutpost,
-    GetOutpostResponse,
+    GetOutpostResponse (GetOutpostResponse'),
     newGetOutpostResponse,
 
     -- ** GetOutpostInstanceTypes
-    GetOutpostInstanceTypes,
+    GetOutpostInstanceTypes (GetOutpostInstanceTypes'),
     newGetOutpostInstanceTypes,
-    GetOutpostInstanceTypesResponse,
+    GetOutpostInstanceTypesResponse (GetOutpostInstanceTypesResponse'),
     newGetOutpostInstanceTypesResponse,
 
     -- ** GetSite
-    GetSite,
+    GetSite (GetSite'),
     newGetSite,
-    GetSiteResponse,
+    GetSiteResponse (GetSiteResponse'),
     newGetSiteResponse,
 
     -- ** GetSiteAddress
-    GetSiteAddress,
+    GetSiteAddress (GetSiteAddress'),
     newGetSiteAddress,
-    GetSiteAddressResponse,
+    GetSiteAddressResponse (GetSiteAddressResponse'),
     newGetSiteAddressResponse,
 
     -- ** ListAssets
-    ListAssets,
+    ListAssets (ListAssets'),
     newListAssets,
-    ListAssetsResponse,
+    ListAssetsResponse (ListAssetsResponse'),
     newListAssetsResponse,
 
     -- ** ListCatalogItems
-    ListCatalogItems,
+    ListCatalogItems (ListCatalogItems'),
     newListCatalogItems,
-    ListCatalogItemsResponse,
+    ListCatalogItemsResponse (ListCatalogItemsResponse'),
     newListCatalogItemsResponse,
 
     -- ** ListOrders
-    ListOrders,
+    ListOrders (ListOrders'),
     newListOrders,
-    ListOrdersResponse,
+    ListOrdersResponse (ListOrdersResponse'),
     newListOrdersResponse,
 
     -- ** ListOutposts
-    ListOutposts,
+    ListOutposts (ListOutposts'),
     newListOutposts,
-    ListOutpostsResponse,
+    ListOutpostsResponse (ListOutpostsResponse'),
     newListOutpostsResponse,
 
     -- ** ListSites
-    ListSites,
+    ListSites (ListSites'),
     newListSites,
-    ListSitesResponse,
+    ListSitesResponse (ListSitesResponse'),
     newListSitesResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** StartConnection
-    StartConnection,
+    StartConnection (StartConnection'),
     newStartConnection,
-    StartConnectionResponse,
+    StartConnectionResponse (StartConnectionResponse'),
     newStartConnectionResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateOutpost
-    UpdateOutpost,
+    UpdateOutpost (UpdateOutpost'),
     newUpdateOutpost,
-    UpdateOutpostResponse,
+    UpdateOutpostResponse (UpdateOutpostResponse'),
     newUpdateOutpostResponse,
 
     -- ** UpdateSite
-    UpdateSite,
+    UpdateSite (UpdateSite'),
     newUpdateSite,
-    UpdateSiteResponse,
+    UpdateSiteResponse (UpdateSiteResponse'),
     newUpdateSiteResponse,
 
     -- ** UpdateSiteAddress
-    UpdateSiteAddress,
+    UpdateSiteAddress (UpdateSiteAddress'),
     newUpdateSiteAddress,
-    UpdateSiteAddressResponse,
+    UpdateSiteAddressResponse (UpdateSiteAddressResponse'),
     newUpdateSiteAddressResponse,
 
     -- ** UpdateSiteRackPhysicalProperties
-    UpdateSiteRackPhysicalProperties,
+    UpdateSiteRackPhysicalProperties (UpdateSiteRackPhysicalProperties'),
     newUpdateSiteRackPhysicalProperties,
-    UpdateSiteRackPhysicalPropertiesResponse,
+    UpdateSiteRackPhysicalPropertiesResponse (UpdateSiteRackPhysicalPropertiesResponse'),
     newUpdateSiteRackPhysicalPropertiesResponse,
 
     -- * Types
@@ -277,71 +277,71 @@ module Amazonka.Outposts
     UplinkGbps (..),
 
     -- ** Address
-    Address,
+    Address (Address'),
     newAddress,
 
     -- ** AssetInfo
-    AssetInfo,
+    AssetInfo (AssetInfo'),
     newAssetInfo,
 
     -- ** AssetLocation
-    AssetLocation,
+    AssetLocation (AssetLocation'),
     newAssetLocation,
 
     -- ** CatalogItem
-    CatalogItem,
+    CatalogItem (CatalogItem'),
     newCatalogItem,
 
     -- ** ComputeAttributes
-    ComputeAttributes,
+    ComputeAttributes (ComputeAttributes'),
     newComputeAttributes,
 
     -- ** ConnectionDetails
-    ConnectionDetails,
+    ConnectionDetails (ConnectionDetails'),
     newConnectionDetails,
 
     -- ** EC2Capacity
-    EC2Capacity,
+    EC2Capacity (EC2Capacity'),
     newEC2Capacity,
 
     -- ** InstanceTypeItem
-    InstanceTypeItem,
+    InstanceTypeItem (InstanceTypeItem'),
     newInstanceTypeItem,
 
     -- ** LineItem
-    LineItem,
+    LineItem (LineItem'),
     newLineItem,
 
     -- ** LineItemAssetInformation
-    LineItemAssetInformation,
+    LineItemAssetInformation (LineItemAssetInformation'),
     newLineItemAssetInformation,
 
     -- ** LineItemRequest
-    LineItemRequest,
+    LineItemRequest (LineItemRequest'),
     newLineItemRequest,
 
     -- ** Order
-    Order,
+    Order (Order'),
     newOrder,
 
     -- ** OrderSummary
-    OrderSummary,
+    OrderSummary (OrderSummary'),
     newOrderSummary,
 
     -- ** Outpost
-    Outpost,
+    Outpost (Outpost'),
     newOutpost,
 
     -- ** RackPhysicalProperties
-    RackPhysicalProperties,
+    RackPhysicalProperties (RackPhysicalProperties'),
     newRackPhysicalProperties,
 
     -- ** ShipmentInformation
-    ShipmentInformation,
+    ShipmentInformation (ShipmentInformation'),
     newShipmentInformation,
 
     -- ** Site
-    Site,
+    Site (Site'),
     newSite,
   )
 where

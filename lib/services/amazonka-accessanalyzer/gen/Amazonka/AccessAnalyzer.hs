@@ -63,171 +63,171 @@ module Amazonka.AccessAnalyzer
     -- $operations
 
     -- ** ApplyArchiveRule
-    ApplyArchiveRule,
+    ApplyArchiveRule (ApplyArchiveRule'),
     newApplyArchiveRule,
-    ApplyArchiveRuleResponse,
+    ApplyArchiveRuleResponse (ApplyArchiveRuleResponse'),
     newApplyArchiveRuleResponse,
 
     -- ** CancelPolicyGeneration
-    CancelPolicyGeneration,
+    CancelPolicyGeneration (CancelPolicyGeneration'),
     newCancelPolicyGeneration,
-    CancelPolicyGenerationResponse,
+    CancelPolicyGenerationResponse (CancelPolicyGenerationResponse'),
     newCancelPolicyGenerationResponse,
 
     -- ** CreateAccessPreview
-    CreateAccessPreview,
+    CreateAccessPreview (CreateAccessPreview'),
     newCreateAccessPreview,
-    CreateAccessPreviewResponse,
+    CreateAccessPreviewResponse (CreateAccessPreviewResponse'),
     newCreateAccessPreviewResponse,
 
     -- ** CreateAnalyzer
-    CreateAnalyzer,
+    CreateAnalyzer (CreateAnalyzer'),
     newCreateAnalyzer,
-    CreateAnalyzerResponse,
+    CreateAnalyzerResponse (CreateAnalyzerResponse'),
     newCreateAnalyzerResponse,
 
     -- ** CreateArchiveRule
-    CreateArchiveRule,
+    CreateArchiveRule (CreateArchiveRule'),
     newCreateArchiveRule,
-    CreateArchiveRuleResponse,
+    CreateArchiveRuleResponse (CreateArchiveRuleResponse'),
     newCreateArchiveRuleResponse,
 
     -- ** DeleteAnalyzer
-    DeleteAnalyzer,
+    DeleteAnalyzer (DeleteAnalyzer'),
     newDeleteAnalyzer,
-    DeleteAnalyzerResponse,
+    DeleteAnalyzerResponse (DeleteAnalyzerResponse'),
     newDeleteAnalyzerResponse,
 
     -- ** DeleteArchiveRule
-    DeleteArchiveRule,
+    DeleteArchiveRule (DeleteArchiveRule'),
     newDeleteArchiveRule,
-    DeleteArchiveRuleResponse,
+    DeleteArchiveRuleResponse (DeleteArchiveRuleResponse'),
     newDeleteArchiveRuleResponse,
 
     -- ** GetAccessPreview
-    GetAccessPreview,
+    GetAccessPreview (GetAccessPreview'),
     newGetAccessPreview,
-    GetAccessPreviewResponse,
+    GetAccessPreviewResponse (GetAccessPreviewResponse'),
     newGetAccessPreviewResponse,
 
     -- ** GetAnalyzedResource
-    GetAnalyzedResource,
+    GetAnalyzedResource (GetAnalyzedResource'),
     newGetAnalyzedResource,
-    GetAnalyzedResourceResponse,
+    GetAnalyzedResourceResponse (GetAnalyzedResourceResponse'),
     newGetAnalyzedResourceResponse,
 
     -- ** GetAnalyzer
-    GetAnalyzer,
+    GetAnalyzer (GetAnalyzer'),
     newGetAnalyzer,
-    GetAnalyzerResponse,
+    GetAnalyzerResponse (GetAnalyzerResponse'),
     newGetAnalyzerResponse,
 
     -- ** GetArchiveRule
-    GetArchiveRule,
+    GetArchiveRule (GetArchiveRule'),
     newGetArchiveRule,
-    GetArchiveRuleResponse,
+    GetArchiveRuleResponse (GetArchiveRuleResponse'),
     newGetArchiveRuleResponse,
 
     -- ** GetFinding
-    GetFinding,
+    GetFinding (GetFinding'),
     newGetFinding,
-    GetFindingResponse,
+    GetFindingResponse (GetFindingResponse'),
     newGetFindingResponse,
 
     -- ** GetGeneratedPolicy
-    GetGeneratedPolicy,
+    GetGeneratedPolicy (GetGeneratedPolicy'),
     newGetGeneratedPolicy,
-    GetGeneratedPolicyResponse,
+    GetGeneratedPolicyResponse (GetGeneratedPolicyResponse'),
     newGetGeneratedPolicyResponse,
 
     -- ** ListAccessPreviewFindings (Paginated)
-    ListAccessPreviewFindings,
+    ListAccessPreviewFindings (ListAccessPreviewFindings'),
     newListAccessPreviewFindings,
-    ListAccessPreviewFindingsResponse,
+    ListAccessPreviewFindingsResponse (ListAccessPreviewFindingsResponse'),
     newListAccessPreviewFindingsResponse,
 
     -- ** ListAccessPreviews (Paginated)
-    ListAccessPreviews,
+    ListAccessPreviews (ListAccessPreviews'),
     newListAccessPreviews,
-    ListAccessPreviewsResponse,
+    ListAccessPreviewsResponse (ListAccessPreviewsResponse'),
     newListAccessPreviewsResponse,
 
     -- ** ListAnalyzedResources (Paginated)
-    ListAnalyzedResources,
+    ListAnalyzedResources (ListAnalyzedResources'),
     newListAnalyzedResources,
-    ListAnalyzedResourcesResponse,
+    ListAnalyzedResourcesResponse (ListAnalyzedResourcesResponse'),
     newListAnalyzedResourcesResponse,
 
     -- ** ListAnalyzers (Paginated)
-    ListAnalyzers,
+    ListAnalyzers (ListAnalyzers'),
     newListAnalyzers,
-    ListAnalyzersResponse,
+    ListAnalyzersResponse (ListAnalyzersResponse'),
     newListAnalyzersResponse,
 
     -- ** ListArchiveRules (Paginated)
-    ListArchiveRules,
+    ListArchiveRules (ListArchiveRules'),
     newListArchiveRules,
-    ListArchiveRulesResponse,
+    ListArchiveRulesResponse (ListArchiveRulesResponse'),
     newListArchiveRulesResponse,
 
     -- ** ListFindings (Paginated)
-    ListFindings,
+    ListFindings (ListFindings'),
     newListFindings,
-    ListFindingsResponse,
+    ListFindingsResponse (ListFindingsResponse'),
     newListFindingsResponse,
 
     -- ** ListPolicyGenerations (Paginated)
-    ListPolicyGenerations,
+    ListPolicyGenerations (ListPolicyGenerations'),
     newListPolicyGenerations,
-    ListPolicyGenerationsResponse,
+    ListPolicyGenerationsResponse (ListPolicyGenerationsResponse'),
     newListPolicyGenerationsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** StartPolicyGeneration
-    StartPolicyGeneration,
+    StartPolicyGeneration (StartPolicyGeneration'),
     newStartPolicyGeneration,
-    StartPolicyGenerationResponse,
+    StartPolicyGenerationResponse (StartPolicyGenerationResponse'),
     newStartPolicyGenerationResponse,
 
     -- ** StartResourceScan
-    StartResourceScan,
+    StartResourceScan (StartResourceScan'),
     newStartResourceScan,
-    StartResourceScanResponse,
+    StartResourceScanResponse (StartResourceScanResponse'),
     newStartResourceScanResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateArchiveRule
-    UpdateArchiveRule,
+    UpdateArchiveRule (UpdateArchiveRule'),
     newUpdateArchiveRule,
-    UpdateArchiveRuleResponse,
+    UpdateArchiveRuleResponse (UpdateArchiveRuleResponse'),
     newUpdateArchiveRuleResponse,
 
     -- ** UpdateFindings
-    UpdateFindings,
+    UpdateFindings (UpdateFindings'),
     newUpdateFindings,
-    UpdateFindingsResponse,
+    UpdateFindingsResponse (UpdateFindingsResponse'),
     newUpdateFindingsResponse,
 
     -- ** ValidatePolicy (Paginated)
-    ValidatePolicy,
+    ValidatePolicy (ValidatePolicy'),
     newValidatePolicy,
-    ValidatePolicyResponse,
+    ValidatePolicyResponse (ValidatePolicyResponse'),
     newValidatePolicyResponse,
 
     -- * Types
@@ -290,227 +290,227 @@ module Amazonka.AccessAnalyzer
     ValidatePolicyResourceType (..),
 
     -- ** AccessPreview
-    AccessPreview,
+    AccessPreview (AccessPreview'),
     newAccessPreview,
 
     -- ** AccessPreviewFinding
-    AccessPreviewFinding,
+    AccessPreviewFinding (AccessPreviewFinding'),
     newAccessPreviewFinding,
 
     -- ** AccessPreviewStatusReason
-    AccessPreviewStatusReason,
+    AccessPreviewStatusReason (AccessPreviewStatusReason'),
     newAccessPreviewStatusReason,
 
     -- ** AccessPreviewSummary
-    AccessPreviewSummary,
+    AccessPreviewSummary (AccessPreviewSummary'),
     newAccessPreviewSummary,
 
     -- ** AclGrantee
-    AclGrantee,
+    AclGrantee (AclGrantee'),
     newAclGrantee,
 
     -- ** AnalyzedResource
-    AnalyzedResource,
+    AnalyzedResource (AnalyzedResource'),
     newAnalyzedResource,
 
     -- ** AnalyzedResourceSummary
-    AnalyzedResourceSummary,
+    AnalyzedResourceSummary (AnalyzedResourceSummary'),
     newAnalyzedResourceSummary,
 
     -- ** AnalyzerSummary
-    AnalyzerSummary,
+    AnalyzerSummary (AnalyzerSummary'),
     newAnalyzerSummary,
 
     -- ** ArchiveRuleSummary
-    ArchiveRuleSummary,
+    ArchiveRuleSummary (ArchiveRuleSummary'),
     newArchiveRuleSummary,
 
     -- ** CloudTrailDetails
-    CloudTrailDetails,
+    CloudTrailDetails (CloudTrailDetails'),
     newCloudTrailDetails,
 
     -- ** CloudTrailProperties
-    CloudTrailProperties,
+    CloudTrailProperties (CloudTrailProperties'),
     newCloudTrailProperties,
 
     -- ** Configuration
-    Configuration,
+    Configuration (Configuration'),
     newConfiguration,
 
     -- ** Criterion
-    Criterion,
+    Criterion (Criterion'),
     newCriterion,
 
     -- ** EbsSnapshotConfiguration
-    EbsSnapshotConfiguration,
+    EbsSnapshotConfiguration (EbsSnapshotConfiguration'),
     newEbsSnapshotConfiguration,
 
     -- ** EcrRepositoryConfiguration
-    EcrRepositoryConfiguration,
+    EcrRepositoryConfiguration (EcrRepositoryConfiguration'),
     newEcrRepositoryConfiguration,
 
     -- ** EfsFileSystemConfiguration
-    EfsFileSystemConfiguration,
+    EfsFileSystemConfiguration (EfsFileSystemConfiguration'),
     newEfsFileSystemConfiguration,
 
     -- ** Finding
-    Finding,
+    Finding (Finding'),
     newFinding,
 
     -- ** FindingSource
-    FindingSource,
+    FindingSource (FindingSource'),
     newFindingSource,
 
     -- ** FindingSourceDetail
-    FindingSourceDetail,
+    FindingSourceDetail (FindingSourceDetail'),
     newFindingSourceDetail,
 
     -- ** FindingSummary
-    FindingSummary,
+    FindingSummary (FindingSummary'),
     newFindingSummary,
 
     -- ** GeneratedPolicy
-    GeneratedPolicy,
+    GeneratedPolicy (GeneratedPolicy'),
     newGeneratedPolicy,
 
     -- ** GeneratedPolicyProperties
-    GeneratedPolicyProperties,
+    GeneratedPolicyProperties (GeneratedPolicyProperties'),
     newGeneratedPolicyProperties,
 
     -- ** GeneratedPolicyResult
-    GeneratedPolicyResult,
+    GeneratedPolicyResult (GeneratedPolicyResult'),
     newGeneratedPolicyResult,
 
     -- ** IamRoleConfiguration
-    IamRoleConfiguration,
+    IamRoleConfiguration (IamRoleConfiguration'),
     newIamRoleConfiguration,
 
     -- ** InlineArchiveRule
-    InlineArchiveRule,
+    InlineArchiveRule (InlineArchiveRule'),
     newInlineArchiveRule,
 
     -- ** InternetConfiguration
-    InternetConfiguration,
+    InternetConfiguration (InternetConfiguration'),
     newInternetConfiguration,
 
     -- ** JobDetails
-    JobDetails,
+    JobDetails (JobDetails'),
     newJobDetails,
 
     -- ** JobError
-    JobError,
+    JobError (JobError'),
     newJobError,
 
     -- ** KmsGrantConfiguration
-    KmsGrantConfiguration,
+    KmsGrantConfiguration (KmsGrantConfiguration'),
     newKmsGrantConfiguration,
 
     -- ** KmsGrantConstraints
-    KmsGrantConstraints,
+    KmsGrantConstraints (KmsGrantConstraints'),
     newKmsGrantConstraints,
 
     -- ** KmsKeyConfiguration
-    KmsKeyConfiguration,
+    KmsKeyConfiguration (KmsKeyConfiguration'),
     newKmsKeyConfiguration,
 
     -- ** Location
-    Location,
+    Location (Location'),
     newLocation,
 
     -- ** NetworkOriginConfiguration
-    NetworkOriginConfiguration,
+    NetworkOriginConfiguration (NetworkOriginConfiguration'),
     newNetworkOriginConfiguration,
 
     -- ** PathElement
-    PathElement,
+    PathElement (PathElement'),
     newPathElement,
 
     -- ** PolicyGeneration
-    PolicyGeneration,
+    PolicyGeneration (PolicyGeneration'),
     newPolicyGeneration,
 
     -- ** PolicyGenerationDetails
-    PolicyGenerationDetails,
+    PolicyGenerationDetails (PolicyGenerationDetails'),
     newPolicyGenerationDetails,
 
     -- ** Position
-    Position,
+    Position (Position'),
     newPosition,
 
     -- ** RdsDbClusterSnapshotAttributeValue
-    RdsDbClusterSnapshotAttributeValue,
+    RdsDbClusterSnapshotAttributeValue (RdsDbClusterSnapshotAttributeValue'),
     newRdsDbClusterSnapshotAttributeValue,
 
     -- ** RdsDbClusterSnapshotConfiguration
-    RdsDbClusterSnapshotConfiguration,
+    RdsDbClusterSnapshotConfiguration (RdsDbClusterSnapshotConfiguration'),
     newRdsDbClusterSnapshotConfiguration,
 
     -- ** RdsDbSnapshotAttributeValue
-    RdsDbSnapshotAttributeValue,
+    RdsDbSnapshotAttributeValue (RdsDbSnapshotAttributeValue'),
     newRdsDbSnapshotAttributeValue,
 
     -- ** RdsDbSnapshotConfiguration
-    RdsDbSnapshotConfiguration,
+    RdsDbSnapshotConfiguration (RdsDbSnapshotConfiguration'),
     newRdsDbSnapshotConfiguration,
 
     -- ** S3AccessPointConfiguration
-    S3AccessPointConfiguration,
+    S3AccessPointConfiguration (S3AccessPointConfiguration'),
     newS3AccessPointConfiguration,
 
     -- ** S3BucketAclGrantConfiguration
-    S3BucketAclGrantConfiguration,
+    S3BucketAclGrantConfiguration (S3BucketAclGrantConfiguration'),
     newS3BucketAclGrantConfiguration,
 
     -- ** S3BucketConfiguration
-    S3BucketConfiguration,
+    S3BucketConfiguration (S3BucketConfiguration'),
     newS3BucketConfiguration,
 
     -- ** S3PublicAccessBlockConfiguration
-    S3PublicAccessBlockConfiguration,
+    S3PublicAccessBlockConfiguration (S3PublicAccessBlockConfiguration'),
     newS3PublicAccessBlockConfiguration,
 
     -- ** SecretsManagerSecretConfiguration
-    SecretsManagerSecretConfiguration,
+    SecretsManagerSecretConfiguration (SecretsManagerSecretConfiguration'),
     newSecretsManagerSecretConfiguration,
 
     -- ** SnsTopicConfiguration
-    SnsTopicConfiguration,
+    SnsTopicConfiguration (SnsTopicConfiguration'),
     newSnsTopicConfiguration,
 
     -- ** SortCriteria
-    SortCriteria,
+    SortCriteria (SortCriteria'),
     newSortCriteria,
 
     -- ** Span
-    Span,
+    Span (Span'),
     newSpan,
 
     -- ** SqsQueueConfiguration
-    SqsQueueConfiguration,
+    SqsQueueConfiguration (SqsQueueConfiguration'),
     newSqsQueueConfiguration,
 
     -- ** StatusReason
-    StatusReason,
+    StatusReason (StatusReason'),
     newStatusReason,
 
     -- ** Substring
-    Substring,
+    Substring (Substring'),
     newSubstring,
 
     -- ** Trail
-    Trail,
+    Trail (Trail'),
     newTrail,
 
     -- ** TrailProperties
-    TrailProperties,
+    TrailProperties (TrailProperties'),
     newTrailProperties,
 
     -- ** ValidatePolicyFinding
-    ValidatePolicyFinding,
+    ValidatePolicyFinding (ValidatePolicyFinding'),
     newValidatePolicyFinding,
 
     -- ** VpcConfiguration
-    VpcConfiguration,
+    VpcConfiguration (VpcConfiguration'),
     newVpcConfiguration,
   )
 where

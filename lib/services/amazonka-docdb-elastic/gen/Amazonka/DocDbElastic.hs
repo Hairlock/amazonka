@@ -47,81 +47,81 @@ module Amazonka.DocDbElastic
     -- $operations
 
     -- ** CreateCluster
-    CreateCluster,
+    CreateCluster (CreateCluster'),
     newCreateCluster,
-    CreateClusterResponse,
+    CreateClusterResponse (CreateClusterResponse'),
     newCreateClusterResponse,
 
     -- ** CreateClusterSnapshot
-    CreateClusterSnapshot,
+    CreateClusterSnapshot (CreateClusterSnapshot'),
     newCreateClusterSnapshot,
-    CreateClusterSnapshotResponse,
+    CreateClusterSnapshotResponse (CreateClusterSnapshotResponse'),
     newCreateClusterSnapshotResponse,
 
     -- ** DeleteCluster
-    DeleteCluster,
+    DeleteCluster (DeleteCluster'),
     newDeleteCluster,
-    DeleteClusterResponse,
+    DeleteClusterResponse (DeleteClusterResponse'),
     newDeleteClusterResponse,
 
     -- ** DeleteClusterSnapshot
-    DeleteClusterSnapshot,
+    DeleteClusterSnapshot (DeleteClusterSnapshot'),
     newDeleteClusterSnapshot,
-    DeleteClusterSnapshotResponse,
+    DeleteClusterSnapshotResponse (DeleteClusterSnapshotResponse'),
     newDeleteClusterSnapshotResponse,
 
     -- ** GetCluster
-    GetCluster,
+    GetCluster (GetCluster'),
     newGetCluster,
-    GetClusterResponse,
+    GetClusterResponse (GetClusterResponse'),
     newGetClusterResponse,
 
     -- ** GetClusterSnapshot
-    GetClusterSnapshot,
+    GetClusterSnapshot (GetClusterSnapshot'),
     newGetClusterSnapshot,
-    GetClusterSnapshotResponse,
+    GetClusterSnapshotResponse (GetClusterSnapshotResponse'),
     newGetClusterSnapshotResponse,
 
     -- ** ListClusterSnapshots (Paginated)
-    ListClusterSnapshots,
+    ListClusterSnapshots (ListClusterSnapshots'),
     newListClusterSnapshots,
-    ListClusterSnapshotsResponse,
+    ListClusterSnapshotsResponse (ListClusterSnapshotsResponse'),
     newListClusterSnapshotsResponse,
 
     -- ** ListClusters (Paginated)
-    ListClusters,
+    ListClusters (ListClusters'),
     newListClusters,
-    ListClustersResponse,
+    ListClustersResponse (ListClustersResponse'),
     newListClustersResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** RestoreClusterFromSnapshot
-    RestoreClusterFromSnapshot,
+    RestoreClusterFromSnapshot (RestoreClusterFromSnapshot'),
     newRestoreClusterFromSnapshot,
-    RestoreClusterFromSnapshotResponse,
+    RestoreClusterFromSnapshotResponse (RestoreClusterFromSnapshotResponse'),
     newRestoreClusterFromSnapshotResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateCluster
-    UpdateCluster,
+    UpdateCluster (UpdateCluster'),
     newUpdateCluster,
-    UpdateClusterResponse,
+    UpdateClusterResponse (UpdateClusterResponse'),
     newUpdateClusterResponse,
 
     -- * Types
@@ -133,19 +133,19 @@ module Amazonka.DocDbElastic
     Status (..),
 
     -- ** Cluster
-    Cluster,
+    Cluster (Cluster'),
     newCluster,
 
     -- ** ClusterInList
-    ClusterInList,
+    ClusterInList (ClusterInList'),
     newClusterInList,
 
     -- ** ClusterSnapshot
-    ClusterSnapshot,
+    ClusterSnapshot (ClusterSnapshot'),
     newClusterSnapshot,
 
     -- ** ClusterSnapshotInList
-    ClusterSnapshotInList,
+    ClusterSnapshotInList (ClusterSnapshotInList'),
     newClusterSnapshotInList,
   )
 where

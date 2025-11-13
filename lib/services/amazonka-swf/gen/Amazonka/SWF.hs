@@ -73,225 +73,225 @@ module Amazonka.SWF
     -- $operations
 
     -- ** CountClosedWorkflowExecutions
-    CountClosedWorkflowExecutions,
+    CountClosedWorkflowExecutions (CountClosedWorkflowExecutions'),
     newCountClosedWorkflowExecutions,
-    WorkflowExecutionCount,
+    WorkflowExecutionCount (WorkflowExecutionCount'),
     newWorkflowExecutionCount,
 
     -- ** CountOpenWorkflowExecutions
-    CountOpenWorkflowExecutions,
+    CountOpenWorkflowExecutions (CountOpenWorkflowExecutions'),
     newCountOpenWorkflowExecutions,
-    WorkflowExecutionCount,
+    WorkflowExecutionCount (WorkflowExecutionCount'),
     newWorkflowExecutionCount,
 
     -- ** CountPendingActivityTasks
-    CountPendingActivityTasks,
+    CountPendingActivityTasks (CountPendingActivityTasks'),
     newCountPendingActivityTasks,
-    PendingTaskCount,
+    PendingTaskCount (PendingTaskCount'),
     newPendingTaskCount,
 
     -- ** CountPendingDecisionTasks
-    CountPendingDecisionTasks,
+    CountPendingDecisionTasks (CountPendingDecisionTasks'),
     newCountPendingDecisionTasks,
-    PendingTaskCount,
+    PendingTaskCount (PendingTaskCount'),
     newPendingTaskCount,
 
     -- ** DeprecateActivityType
-    DeprecateActivityType,
+    DeprecateActivityType (DeprecateActivityType'),
     newDeprecateActivityType,
-    DeprecateActivityTypeResponse,
+    DeprecateActivityTypeResponse (DeprecateActivityTypeResponse'),
     newDeprecateActivityTypeResponse,
 
     -- ** DeprecateDomain
-    DeprecateDomain,
+    DeprecateDomain (DeprecateDomain'),
     newDeprecateDomain,
-    DeprecateDomainResponse,
+    DeprecateDomainResponse (DeprecateDomainResponse'),
     newDeprecateDomainResponse,
 
     -- ** DeprecateWorkflowType
-    DeprecateWorkflowType,
+    DeprecateWorkflowType (DeprecateWorkflowType'),
     newDeprecateWorkflowType,
-    DeprecateWorkflowTypeResponse,
+    DeprecateWorkflowTypeResponse (DeprecateWorkflowTypeResponse'),
     newDeprecateWorkflowTypeResponse,
 
     -- ** DescribeActivityType
-    DescribeActivityType,
+    DescribeActivityType (DescribeActivityType'),
     newDescribeActivityType,
-    DescribeActivityTypeResponse,
+    DescribeActivityTypeResponse (DescribeActivityTypeResponse'),
     newDescribeActivityTypeResponse,
 
     -- ** DescribeDomain
-    DescribeDomain,
+    DescribeDomain (DescribeDomain'),
     newDescribeDomain,
-    DescribeDomainResponse,
+    DescribeDomainResponse (DescribeDomainResponse'),
     newDescribeDomainResponse,
 
     -- ** DescribeWorkflowExecution
-    DescribeWorkflowExecution,
+    DescribeWorkflowExecution (DescribeWorkflowExecution'),
     newDescribeWorkflowExecution,
-    DescribeWorkflowExecutionResponse,
+    DescribeWorkflowExecutionResponse (DescribeWorkflowExecutionResponse'),
     newDescribeWorkflowExecutionResponse,
 
     -- ** DescribeWorkflowType
-    DescribeWorkflowType,
+    DescribeWorkflowType (DescribeWorkflowType'),
     newDescribeWorkflowType,
-    DescribeWorkflowTypeResponse,
+    DescribeWorkflowTypeResponse (DescribeWorkflowTypeResponse'),
     newDescribeWorkflowTypeResponse,
 
     -- ** GetWorkflowExecutionHistory (Paginated)
-    GetWorkflowExecutionHistory,
+    GetWorkflowExecutionHistory (GetWorkflowExecutionHistory'),
     newGetWorkflowExecutionHistory,
-    GetWorkflowExecutionHistoryResponse,
+    GetWorkflowExecutionHistoryResponse (GetWorkflowExecutionHistoryResponse'),
     newGetWorkflowExecutionHistoryResponse,
 
     -- ** ListActivityTypes (Paginated)
-    ListActivityTypes,
+    ListActivityTypes (ListActivityTypes'),
     newListActivityTypes,
-    ListActivityTypesResponse,
+    ListActivityTypesResponse (ListActivityTypesResponse'),
     newListActivityTypesResponse,
 
     -- ** ListClosedWorkflowExecutions (Paginated)
-    ListClosedWorkflowExecutions,
+    ListClosedWorkflowExecutions (ListClosedWorkflowExecutions'),
     newListClosedWorkflowExecutions,
-    WorkflowExecutionInfos,
+    WorkflowExecutionInfos (WorkflowExecutionInfos'),
     newWorkflowExecutionInfos,
 
     -- ** ListDomains (Paginated)
-    ListDomains,
+    ListDomains (ListDomains'),
     newListDomains,
-    ListDomainsResponse,
+    ListDomainsResponse (ListDomainsResponse'),
     newListDomainsResponse,
 
     -- ** ListOpenWorkflowExecutions (Paginated)
-    ListOpenWorkflowExecutions,
+    ListOpenWorkflowExecutions (ListOpenWorkflowExecutions'),
     newListOpenWorkflowExecutions,
-    WorkflowExecutionInfos,
+    WorkflowExecutionInfos (WorkflowExecutionInfos'),
     newWorkflowExecutionInfos,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** ListWorkflowTypes (Paginated)
-    ListWorkflowTypes,
+    ListWorkflowTypes (ListWorkflowTypes'),
     newListWorkflowTypes,
-    ListWorkflowTypesResponse,
+    ListWorkflowTypesResponse (ListWorkflowTypesResponse'),
     newListWorkflowTypesResponse,
 
     -- ** PollForActivityTask
-    PollForActivityTask,
+    PollForActivityTask (PollForActivityTask'),
     newPollForActivityTask,
-    PollForActivityTaskResponse,
+    PollForActivityTaskResponse (PollForActivityTaskResponse'),
     newPollForActivityTaskResponse,
 
     -- ** PollForDecisionTask (Paginated)
-    PollForDecisionTask,
+    PollForDecisionTask (PollForDecisionTask'),
     newPollForDecisionTask,
-    PollForDecisionTaskResponse,
+    PollForDecisionTaskResponse (PollForDecisionTaskResponse'),
     newPollForDecisionTaskResponse,
 
     -- ** RecordActivityTaskHeartbeat
-    RecordActivityTaskHeartbeat,
+    RecordActivityTaskHeartbeat (RecordActivityTaskHeartbeat'),
     newRecordActivityTaskHeartbeat,
-    RecordActivityTaskHeartbeatResponse,
+    RecordActivityTaskHeartbeatResponse (RecordActivityTaskHeartbeatResponse'),
     newRecordActivityTaskHeartbeatResponse,
 
     -- ** RegisterActivityType
-    RegisterActivityType,
+    RegisterActivityType (RegisterActivityType'),
     newRegisterActivityType,
-    RegisterActivityTypeResponse,
+    RegisterActivityTypeResponse (RegisterActivityTypeResponse'),
     newRegisterActivityTypeResponse,
 
     -- ** RegisterDomain
-    RegisterDomain,
+    RegisterDomain (RegisterDomain'),
     newRegisterDomain,
-    RegisterDomainResponse,
+    RegisterDomainResponse (RegisterDomainResponse'),
     newRegisterDomainResponse,
 
     -- ** RegisterWorkflowType
-    RegisterWorkflowType,
+    RegisterWorkflowType (RegisterWorkflowType'),
     newRegisterWorkflowType,
-    RegisterWorkflowTypeResponse,
+    RegisterWorkflowTypeResponse (RegisterWorkflowTypeResponse'),
     newRegisterWorkflowTypeResponse,
 
     -- ** RequestCancelWorkflowExecution
-    RequestCancelWorkflowExecution,
+    RequestCancelWorkflowExecution (RequestCancelWorkflowExecution'),
     newRequestCancelWorkflowExecution,
-    RequestCancelWorkflowExecutionResponse,
+    RequestCancelWorkflowExecutionResponse (RequestCancelWorkflowExecutionResponse'),
     newRequestCancelWorkflowExecutionResponse,
 
     -- ** RespondActivityTaskCanceled
-    RespondActivityTaskCanceled,
+    RespondActivityTaskCanceled (RespondActivityTaskCanceled'),
     newRespondActivityTaskCanceled,
-    RespondActivityTaskCanceledResponse,
+    RespondActivityTaskCanceledResponse (RespondActivityTaskCanceledResponse'),
     newRespondActivityTaskCanceledResponse,
 
     -- ** RespondActivityTaskCompleted
-    RespondActivityTaskCompleted,
+    RespondActivityTaskCompleted (RespondActivityTaskCompleted'),
     newRespondActivityTaskCompleted,
-    RespondActivityTaskCompletedResponse,
+    RespondActivityTaskCompletedResponse (RespondActivityTaskCompletedResponse'),
     newRespondActivityTaskCompletedResponse,
 
     -- ** RespondActivityTaskFailed
-    RespondActivityTaskFailed,
+    RespondActivityTaskFailed (RespondActivityTaskFailed'),
     newRespondActivityTaskFailed,
-    RespondActivityTaskFailedResponse,
+    RespondActivityTaskFailedResponse (RespondActivityTaskFailedResponse'),
     newRespondActivityTaskFailedResponse,
 
     -- ** RespondDecisionTaskCompleted
-    RespondDecisionTaskCompleted,
+    RespondDecisionTaskCompleted (RespondDecisionTaskCompleted'),
     newRespondDecisionTaskCompleted,
-    RespondDecisionTaskCompletedResponse,
+    RespondDecisionTaskCompletedResponse (RespondDecisionTaskCompletedResponse'),
     newRespondDecisionTaskCompletedResponse,
 
     -- ** SignalWorkflowExecution
-    SignalWorkflowExecution,
+    SignalWorkflowExecution (SignalWorkflowExecution'),
     newSignalWorkflowExecution,
-    SignalWorkflowExecutionResponse,
+    SignalWorkflowExecutionResponse (SignalWorkflowExecutionResponse'),
     newSignalWorkflowExecutionResponse,
 
     -- ** StartWorkflowExecution
-    StartWorkflowExecution,
+    StartWorkflowExecution (StartWorkflowExecution'),
     newStartWorkflowExecution,
-    StartWorkflowExecutionResponse,
+    StartWorkflowExecutionResponse (StartWorkflowExecutionResponse'),
     newStartWorkflowExecutionResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** TerminateWorkflowExecution
-    TerminateWorkflowExecution,
+    TerminateWorkflowExecution (TerminateWorkflowExecution'),
     newTerminateWorkflowExecution,
-    TerminateWorkflowExecutionResponse,
+    TerminateWorkflowExecutionResponse (TerminateWorkflowExecutionResponse'),
     newTerminateWorkflowExecutionResponse,
 
     -- ** UndeprecateActivityType
-    UndeprecateActivityType,
+    UndeprecateActivityType (UndeprecateActivityType'),
     newUndeprecateActivityType,
-    UndeprecateActivityTypeResponse,
+    UndeprecateActivityTypeResponse (UndeprecateActivityTypeResponse'),
     newUndeprecateActivityTypeResponse,
 
     -- ** UndeprecateDomain
-    UndeprecateDomain,
+    UndeprecateDomain (UndeprecateDomain'),
     newUndeprecateDomain,
-    UndeprecateDomainResponse,
+    UndeprecateDomainResponse (UndeprecateDomainResponse'),
     newUndeprecateDomainResponse,
 
     -- ** UndeprecateWorkflowType
-    UndeprecateWorkflowType,
+    UndeprecateWorkflowType (UndeprecateWorkflowType'),
     newUndeprecateWorkflowType,
-    UndeprecateWorkflowTypeResponse,
+    UndeprecateWorkflowTypeResponse (UndeprecateWorkflowTypeResponse'),
     newUndeprecateWorkflowTypeResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- * Types
@@ -375,367 +375,367 @@ module Amazonka.SWF
     WorkflowExecutionTimeoutType (..),
 
     -- ** ActivityTaskCancelRequestedEventAttributes
-    ActivityTaskCancelRequestedEventAttributes,
+    ActivityTaskCancelRequestedEventAttributes (ActivityTaskCancelRequestedEventAttributes'),
     newActivityTaskCancelRequestedEventAttributes,
 
     -- ** ActivityTaskCanceledEventAttributes
-    ActivityTaskCanceledEventAttributes,
+    ActivityTaskCanceledEventAttributes (ActivityTaskCanceledEventAttributes'),
     newActivityTaskCanceledEventAttributes,
 
     -- ** ActivityTaskCompletedEventAttributes
-    ActivityTaskCompletedEventAttributes,
+    ActivityTaskCompletedEventAttributes (ActivityTaskCompletedEventAttributes'),
     newActivityTaskCompletedEventAttributes,
 
     -- ** ActivityTaskFailedEventAttributes
-    ActivityTaskFailedEventAttributes,
+    ActivityTaskFailedEventAttributes (ActivityTaskFailedEventAttributes'),
     newActivityTaskFailedEventAttributes,
 
     -- ** ActivityTaskScheduledEventAttributes
-    ActivityTaskScheduledEventAttributes,
+    ActivityTaskScheduledEventAttributes (ActivityTaskScheduledEventAttributes'),
     newActivityTaskScheduledEventAttributes,
 
     -- ** ActivityTaskStartedEventAttributes
-    ActivityTaskStartedEventAttributes,
+    ActivityTaskStartedEventAttributes (ActivityTaskStartedEventAttributes'),
     newActivityTaskStartedEventAttributes,
 
     -- ** ActivityTaskTimedOutEventAttributes
-    ActivityTaskTimedOutEventAttributes,
+    ActivityTaskTimedOutEventAttributes (ActivityTaskTimedOutEventAttributes'),
     newActivityTaskTimedOutEventAttributes,
 
     -- ** ActivityType
-    ActivityType,
+    ActivityType (ActivityType'),
     newActivityType,
 
     -- ** ActivityTypeConfiguration
-    ActivityTypeConfiguration,
+    ActivityTypeConfiguration (ActivityTypeConfiguration'),
     newActivityTypeConfiguration,
 
     -- ** ActivityTypeInfo
-    ActivityTypeInfo,
+    ActivityTypeInfo (ActivityTypeInfo'),
     newActivityTypeInfo,
 
     -- ** CancelTimerDecisionAttributes
-    CancelTimerDecisionAttributes,
+    CancelTimerDecisionAttributes (CancelTimerDecisionAttributes'),
     newCancelTimerDecisionAttributes,
 
     -- ** CancelTimerFailedEventAttributes
-    CancelTimerFailedEventAttributes,
+    CancelTimerFailedEventAttributes (CancelTimerFailedEventAttributes'),
     newCancelTimerFailedEventAttributes,
 
     -- ** CancelWorkflowExecutionDecisionAttributes
-    CancelWorkflowExecutionDecisionAttributes,
+    CancelWorkflowExecutionDecisionAttributes (CancelWorkflowExecutionDecisionAttributes'),
     newCancelWorkflowExecutionDecisionAttributes,
 
     -- ** CancelWorkflowExecutionFailedEventAttributes
-    CancelWorkflowExecutionFailedEventAttributes,
+    CancelWorkflowExecutionFailedEventAttributes (CancelWorkflowExecutionFailedEventAttributes'),
     newCancelWorkflowExecutionFailedEventAttributes,
 
     -- ** ChildWorkflowExecutionCanceledEventAttributes
-    ChildWorkflowExecutionCanceledEventAttributes,
+    ChildWorkflowExecutionCanceledEventAttributes (ChildWorkflowExecutionCanceledEventAttributes'),
     newChildWorkflowExecutionCanceledEventAttributes,
 
     -- ** ChildWorkflowExecutionCompletedEventAttributes
-    ChildWorkflowExecutionCompletedEventAttributes,
+    ChildWorkflowExecutionCompletedEventAttributes (ChildWorkflowExecutionCompletedEventAttributes'),
     newChildWorkflowExecutionCompletedEventAttributes,
 
     -- ** ChildWorkflowExecutionFailedEventAttributes
-    ChildWorkflowExecutionFailedEventAttributes,
+    ChildWorkflowExecutionFailedEventAttributes (ChildWorkflowExecutionFailedEventAttributes'),
     newChildWorkflowExecutionFailedEventAttributes,
 
     -- ** ChildWorkflowExecutionStartedEventAttributes
-    ChildWorkflowExecutionStartedEventAttributes,
+    ChildWorkflowExecutionStartedEventAttributes (ChildWorkflowExecutionStartedEventAttributes'),
     newChildWorkflowExecutionStartedEventAttributes,
 
     -- ** ChildWorkflowExecutionTerminatedEventAttributes
-    ChildWorkflowExecutionTerminatedEventAttributes,
+    ChildWorkflowExecutionTerminatedEventAttributes (ChildWorkflowExecutionTerminatedEventAttributes'),
     newChildWorkflowExecutionTerminatedEventAttributes,
 
     -- ** ChildWorkflowExecutionTimedOutEventAttributes
-    ChildWorkflowExecutionTimedOutEventAttributes,
+    ChildWorkflowExecutionTimedOutEventAttributes (ChildWorkflowExecutionTimedOutEventAttributes'),
     newChildWorkflowExecutionTimedOutEventAttributes,
 
     -- ** CloseStatusFilter
-    CloseStatusFilter,
+    CloseStatusFilter (CloseStatusFilter'),
     newCloseStatusFilter,
 
     -- ** CompleteWorkflowExecutionDecisionAttributes
-    CompleteWorkflowExecutionDecisionAttributes,
+    CompleteWorkflowExecutionDecisionAttributes (CompleteWorkflowExecutionDecisionAttributes'),
     newCompleteWorkflowExecutionDecisionAttributes,
 
     -- ** CompleteWorkflowExecutionFailedEventAttributes
-    CompleteWorkflowExecutionFailedEventAttributes,
+    CompleteWorkflowExecutionFailedEventAttributes (CompleteWorkflowExecutionFailedEventAttributes'),
     newCompleteWorkflowExecutionFailedEventAttributes,
 
     -- ** ContinueAsNewWorkflowExecutionDecisionAttributes
-    ContinueAsNewWorkflowExecutionDecisionAttributes,
+    ContinueAsNewWorkflowExecutionDecisionAttributes (ContinueAsNewWorkflowExecutionDecisionAttributes'),
     newContinueAsNewWorkflowExecutionDecisionAttributes,
 
     -- ** ContinueAsNewWorkflowExecutionFailedEventAttributes
-    ContinueAsNewWorkflowExecutionFailedEventAttributes,
+    ContinueAsNewWorkflowExecutionFailedEventAttributes (ContinueAsNewWorkflowExecutionFailedEventAttributes'),
     newContinueAsNewWorkflowExecutionFailedEventAttributes,
 
     -- ** Decision
-    Decision,
+    Decision (Decision'),
     newDecision,
 
     -- ** DecisionTaskCompletedEventAttributes
-    DecisionTaskCompletedEventAttributes,
+    DecisionTaskCompletedEventAttributes (DecisionTaskCompletedEventAttributes'),
     newDecisionTaskCompletedEventAttributes,
 
     -- ** DecisionTaskScheduledEventAttributes
-    DecisionTaskScheduledEventAttributes,
+    DecisionTaskScheduledEventAttributes (DecisionTaskScheduledEventAttributes'),
     newDecisionTaskScheduledEventAttributes,
 
     -- ** DecisionTaskStartedEventAttributes
-    DecisionTaskStartedEventAttributes,
+    DecisionTaskStartedEventAttributes (DecisionTaskStartedEventAttributes'),
     newDecisionTaskStartedEventAttributes,
 
     -- ** DecisionTaskTimedOutEventAttributes
-    DecisionTaskTimedOutEventAttributes,
+    DecisionTaskTimedOutEventAttributes (DecisionTaskTimedOutEventAttributes'),
     newDecisionTaskTimedOutEventAttributes,
 
     -- ** DomainConfiguration
-    DomainConfiguration,
+    DomainConfiguration (DomainConfiguration'),
     newDomainConfiguration,
 
     -- ** DomainInfo
-    DomainInfo,
+    DomainInfo (DomainInfo'),
     newDomainInfo,
 
     -- ** ExecutionTimeFilter
-    ExecutionTimeFilter,
+    ExecutionTimeFilter (ExecutionTimeFilter'),
     newExecutionTimeFilter,
 
     -- ** ExternalWorkflowExecutionCancelRequestedEventAttributes
-    ExternalWorkflowExecutionCancelRequestedEventAttributes,
+    ExternalWorkflowExecutionCancelRequestedEventAttributes (ExternalWorkflowExecutionCancelRequestedEventAttributes'),
     newExternalWorkflowExecutionCancelRequestedEventAttributes,
 
     -- ** ExternalWorkflowExecutionSignaledEventAttributes
-    ExternalWorkflowExecutionSignaledEventAttributes,
+    ExternalWorkflowExecutionSignaledEventAttributes (ExternalWorkflowExecutionSignaledEventAttributes'),
     newExternalWorkflowExecutionSignaledEventAttributes,
 
     -- ** FailWorkflowExecutionDecisionAttributes
-    FailWorkflowExecutionDecisionAttributes,
+    FailWorkflowExecutionDecisionAttributes (FailWorkflowExecutionDecisionAttributes'),
     newFailWorkflowExecutionDecisionAttributes,
 
     -- ** FailWorkflowExecutionFailedEventAttributes
-    FailWorkflowExecutionFailedEventAttributes,
+    FailWorkflowExecutionFailedEventAttributes (FailWorkflowExecutionFailedEventAttributes'),
     newFailWorkflowExecutionFailedEventAttributes,
 
     -- ** HistoryEvent
-    HistoryEvent,
+    HistoryEvent (HistoryEvent'),
     newHistoryEvent,
 
     -- ** LambdaFunctionCompletedEventAttributes
-    LambdaFunctionCompletedEventAttributes,
+    LambdaFunctionCompletedEventAttributes (LambdaFunctionCompletedEventAttributes'),
     newLambdaFunctionCompletedEventAttributes,
 
     -- ** LambdaFunctionFailedEventAttributes
-    LambdaFunctionFailedEventAttributes,
+    LambdaFunctionFailedEventAttributes (LambdaFunctionFailedEventAttributes'),
     newLambdaFunctionFailedEventAttributes,
 
     -- ** LambdaFunctionScheduledEventAttributes
-    LambdaFunctionScheduledEventAttributes,
+    LambdaFunctionScheduledEventAttributes (LambdaFunctionScheduledEventAttributes'),
     newLambdaFunctionScheduledEventAttributes,
 
     -- ** LambdaFunctionStartedEventAttributes
-    LambdaFunctionStartedEventAttributes,
+    LambdaFunctionStartedEventAttributes (LambdaFunctionStartedEventAttributes'),
     newLambdaFunctionStartedEventAttributes,
 
     -- ** LambdaFunctionTimedOutEventAttributes
-    LambdaFunctionTimedOutEventAttributes,
+    LambdaFunctionTimedOutEventAttributes (LambdaFunctionTimedOutEventAttributes'),
     newLambdaFunctionTimedOutEventAttributes,
 
     -- ** MarkerRecordedEventAttributes
-    MarkerRecordedEventAttributes,
+    MarkerRecordedEventAttributes (MarkerRecordedEventAttributes'),
     newMarkerRecordedEventAttributes,
 
     -- ** PendingTaskCount
-    PendingTaskCount,
+    PendingTaskCount (PendingTaskCount'),
     newPendingTaskCount,
 
     -- ** RecordMarkerDecisionAttributes
-    RecordMarkerDecisionAttributes,
+    RecordMarkerDecisionAttributes (RecordMarkerDecisionAttributes'),
     newRecordMarkerDecisionAttributes,
 
     -- ** RecordMarkerFailedEventAttributes
-    RecordMarkerFailedEventAttributes,
+    RecordMarkerFailedEventAttributes (RecordMarkerFailedEventAttributes'),
     newRecordMarkerFailedEventAttributes,
 
     -- ** RequestCancelActivityTaskDecisionAttributes
-    RequestCancelActivityTaskDecisionAttributes,
+    RequestCancelActivityTaskDecisionAttributes (RequestCancelActivityTaskDecisionAttributes'),
     newRequestCancelActivityTaskDecisionAttributes,
 
     -- ** RequestCancelActivityTaskFailedEventAttributes
-    RequestCancelActivityTaskFailedEventAttributes,
+    RequestCancelActivityTaskFailedEventAttributes (RequestCancelActivityTaskFailedEventAttributes'),
     newRequestCancelActivityTaskFailedEventAttributes,
 
     -- ** RequestCancelExternalWorkflowExecutionDecisionAttributes
-    RequestCancelExternalWorkflowExecutionDecisionAttributes,
+    RequestCancelExternalWorkflowExecutionDecisionAttributes (RequestCancelExternalWorkflowExecutionDecisionAttributes'),
     newRequestCancelExternalWorkflowExecutionDecisionAttributes,
 
     -- ** RequestCancelExternalWorkflowExecutionFailedEventAttributes
-    RequestCancelExternalWorkflowExecutionFailedEventAttributes,
+    RequestCancelExternalWorkflowExecutionFailedEventAttributes (RequestCancelExternalWorkflowExecutionFailedEventAttributes'),
     newRequestCancelExternalWorkflowExecutionFailedEventAttributes,
 
     -- ** RequestCancelExternalWorkflowExecutionInitiatedEventAttributes
-    RequestCancelExternalWorkflowExecutionInitiatedEventAttributes,
+    RequestCancelExternalWorkflowExecutionInitiatedEventAttributes (RequestCancelExternalWorkflowExecutionInitiatedEventAttributes'),
     newRequestCancelExternalWorkflowExecutionInitiatedEventAttributes,
 
     -- ** ResourceTag
-    ResourceTag,
+    ResourceTag (ResourceTag'),
     newResourceTag,
 
     -- ** ScheduleActivityTaskDecisionAttributes
-    ScheduleActivityTaskDecisionAttributes,
+    ScheduleActivityTaskDecisionAttributes (ScheduleActivityTaskDecisionAttributes'),
     newScheduleActivityTaskDecisionAttributes,
 
     -- ** ScheduleActivityTaskFailedEventAttributes
-    ScheduleActivityTaskFailedEventAttributes,
+    ScheduleActivityTaskFailedEventAttributes (ScheduleActivityTaskFailedEventAttributes'),
     newScheduleActivityTaskFailedEventAttributes,
 
     -- ** ScheduleLambdaFunctionDecisionAttributes
-    ScheduleLambdaFunctionDecisionAttributes,
+    ScheduleLambdaFunctionDecisionAttributes (ScheduleLambdaFunctionDecisionAttributes'),
     newScheduleLambdaFunctionDecisionAttributes,
 
     -- ** ScheduleLambdaFunctionFailedEventAttributes
-    ScheduleLambdaFunctionFailedEventAttributes,
+    ScheduleLambdaFunctionFailedEventAttributes (ScheduleLambdaFunctionFailedEventAttributes'),
     newScheduleLambdaFunctionFailedEventAttributes,
 
     -- ** SignalExternalWorkflowExecutionDecisionAttributes
-    SignalExternalWorkflowExecutionDecisionAttributes,
+    SignalExternalWorkflowExecutionDecisionAttributes (SignalExternalWorkflowExecutionDecisionAttributes'),
     newSignalExternalWorkflowExecutionDecisionAttributes,
 
     -- ** SignalExternalWorkflowExecutionFailedEventAttributes
-    SignalExternalWorkflowExecutionFailedEventAttributes,
+    SignalExternalWorkflowExecutionFailedEventAttributes (SignalExternalWorkflowExecutionFailedEventAttributes'),
     newSignalExternalWorkflowExecutionFailedEventAttributes,
 
     -- ** SignalExternalWorkflowExecutionInitiatedEventAttributes
-    SignalExternalWorkflowExecutionInitiatedEventAttributes,
+    SignalExternalWorkflowExecutionInitiatedEventAttributes (SignalExternalWorkflowExecutionInitiatedEventAttributes'),
     newSignalExternalWorkflowExecutionInitiatedEventAttributes,
 
     -- ** StartChildWorkflowExecutionDecisionAttributes
-    StartChildWorkflowExecutionDecisionAttributes,
+    StartChildWorkflowExecutionDecisionAttributes (StartChildWorkflowExecutionDecisionAttributes'),
     newStartChildWorkflowExecutionDecisionAttributes,
 
     -- ** StartChildWorkflowExecutionFailedEventAttributes
-    StartChildWorkflowExecutionFailedEventAttributes,
+    StartChildWorkflowExecutionFailedEventAttributes (StartChildWorkflowExecutionFailedEventAttributes'),
     newStartChildWorkflowExecutionFailedEventAttributes,
 
     -- ** StartChildWorkflowExecutionInitiatedEventAttributes
-    StartChildWorkflowExecutionInitiatedEventAttributes,
+    StartChildWorkflowExecutionInitiatedEventAttributes (StartChildWorkflowExecutionInitiatedEventAttributes'),
     newStartChildWorkflowExecutionInitiatedEventAttributes,
 
     -- ** StartLambdaFunctionFailedEventAttributes
-    StartLambdaFunctionFailedEventAttributes,
+    StartLambdaFunctionFailedEventAttributes (StartLambdaFunctionFailedEventAttributes'),
     newStartLambdaFunctionFailedEventAttributes,
 
     -- ** StartTimerDecisionAttributes
-    StartTimerDecisionAttributes,
+    StartTimerDecisionAttributes (StartTimerDecisionAttributes'),
     newStartTimerDecisionAttributes,
 
     -- ** StartTimerFailedEventAttributes
-    StartTimerFailedEventAttributes,
+    StartTimerFailedEventAttributes (StartTimerFailedEventAttributes'),
     newStartTimerFailedEventAttributes,
 
     -- ** TagFilter
-    TagFilter,
+    TagFilter (TagFilter'),
     newTagFilter,
 
     -- ** TaskList
-    TaskList,
+    TaskList (TaskList'),
     newTaskList,
 
     -- ** TimerCanceledEventAttributes
-    TimerCanceledEventAttributes,
+    TimerCanceledEventAttributes (TimerCanceledEventAttributes'),
     newTimerCanceledEventAttributes,
 
     -- ** TimerFiredEventAttributes
-    TimerFiredEventAttributes,
+    TimerFiredEventAttributes (TimerFiredEventAttributes'),
     newTimerFiredEventAttributes,
 
     -- ** TimerStartedEventAttributes
-    TimerStartedEventAttributes,
+    TimerStartedEventAttributes (TimerStartedEventAttributes'),
     newTimerStartedEventAttributes,
 
     -- ** WorkflowExecution
-    WorkflowExecution,
+    WorkflowExecution (WorkflowExecution'),
     newWorkflowExecution,
 
     -- ** WorkflowExecutionCancelRequestedEventAttributes
-    WorkflowExecutionCancelRequestedEventAttributes,
+    WorkflowExecutionCancelRequestedEventAttributes (WorkflowExecutionCancelRequestedEventAttributes'),
     newWorkflowExecutionCancelRequestedEventAttributes,
 
     -- ** WorkflowExecutionCanceledEventAttributes
-    WorkflowExecutionCanceledEventAttributes,
+    WorkflowExecutionCanceledEventAttributes (WorkflowExecutionCanceledEventAttributes'),
     newWorkflowExecutionCanceledEventAttributes,
 
     -- ** WorkflowExecutionCompletedEventAttributes
-    WorkflowExecutionCompletedEventAttributes,
+    WorkflowExecutionCompletedEventAttributes (WorkflowExecutionCompletedEventAttributes'),
     newWorkflowExecutionCompletedEventAttributes,
 
     -- ** WorkflowExecutionConfiguration
-    WorkflowExecutionConfiguration,
+    WorkflowExecutionConfiguration (WorkflowExecutionConfiguration'),
     newWorkflowExecutionConfiguration,
 
     -- ** WorkflowExecutionContinuedAsNewEventAttributes
-    WorkflowExecutionContinuedAsNewEventAttributes,
+    WorkflowExecutionContinuedAsNewEventAttributes (WorkflowExecutionContinuedAsNewEventAttributes'),
     newWorkflowExecutionContinuedAsNewEventAttributes,
 
     -- ** WorkflowExecutionCount
-    WorkflowExecutionCount,
+    WorkflowExecutionCount (WorkflowExecutionCount'),
     newWorkflowExecutionCount,
 
     -- ** WorkflowExecutionFailedEventAttributes
-    WorkflowExecutionFailedEventAttributes,
+    WorkflowExecutionFailedEventAttributes (WorkflowExecutionFailedEventAttributes'),
     newWorkflowExecutionFailedEventAttributes,
 
     -- ** WorkflowExecutionFilter
-    WorkflowExecutionFilter,
+    WorkflowExecutionFilter (WorkflowExecutionFilter'),
     newWorkflowExecutionFilter,
 
     -- ** WorkflowExecutionInfo
-    WorkflowExecutionInfo,
+    WorkflowExecutionInfo (WorkflowExecutionInfo'),
     newWorkflowExecutionInfo,
 
     -- ** WorkflowExecutionInfos
-    WorkflowExecutionInfos,
+    WorkflowExecutionInfos (WorkflowExecutionInfos'),
     newWorkflowExecutionInfos,
 
     -- ** WorkflowExecutionOpenCounts
-    WorkflowExecutionOpenCounts,
+    WorkflowExecutionOpenCounts (WorkflowExecutionOpenCounts'),
     newWorkflowExecutionOpenCounts,
 
     -- ** WorkflowExecutionSignaledEventAttributes
-    WorkflowExecutionSignaledEventAttributes,
+    WorkflowExecutionSignaledEventAttributes (WorkflowExecutionSignaledEventAttributes'),
     newWorkflowExecutionSignaledEventAttributes,
 
     -- ** WorkflowExecutionStartedEventAttributes
-    WorkflowExecutionStartedEventAttributes,
+    WorkflowExecutionStartedEventAttributes (WorkflowExecutionStartedEventAttributes'),
     newWorkflowExecutionStartedEventAttributes,
 
     -- ** WorkflowExecutionTerminatedEventAttributes
-    WorkflowExecutionTerminatedEventAttributes,
+    WorkflowExecutionTerminatedEventAttributes (WorkflowExecutionTerminatedEventAttributes'),
     newWorkflowExecutionTerminatedEventAttributes,
 
     -- ** WorkflowExecutionTimedOutEventAttributes
-    WorkflowExecutionTimedOutEventAttributes,
+    WorkflowExecutionTimedOutEventAttributes (WorkflowExecutionTimedOutEventAttributes'),
     newWorkflowExecutionTimedOutEventAttributes,
 
     -- ** WorkflowType
-    WorkflowType,
+    WorkflowType (WorkflowType'),
     newWorkflowType,
 
     -- ** WorkflowTypeConfiguration
-    WorkflowTypeConfiguration,
+    WorkflowTypeConfiguration (WorkflowTypeConfiguration'),
     newWorkflowTypeConfiguration,
 
     -- ** WorkflowTypeFilter
-    WorkflowTypeFilter,
+    WorkflowTypeFilter (WorkflowTypeFilter'),
     newWorkflowTypeFilter,
 
     -- ** WorkflowTypeInfo
-    WorkflowTypeInfo,
+    WorkflowTypeInfo (WorkflowTypeInfo'),
     newWorkflowTypeInfo,
   )
 where

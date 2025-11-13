@@ -51,39 +51,39 @@ module Amazonka.KinesisVideoArchivedMedia
     -- $operations
 
     -- ** GetClip
-    GetClip,
+    GetClip (GetClip'),
     newGetClip,
-    GetClipResponse,
+    GetClipResponse (GetClipResponse'),
     newGetClipResponse,
 
     -- ** GetDASHStreamingSessionURL
-    GetDASHStreamingSessionURL,
+    GetDASHStreamingSessionURL (GetDASHStreamingSessionURL'),
     newGetDASHStreamingSessionURL,
-    GetDASHStreamingSessionURLResponse,
+    GetDASHStreamingSessionURLResponse (GetDASHStreamingSessionURLResponse'),
     newGetDASHStreamingSessionURLResponse,
 
     -- ** GetHLSStreamingSessionURL
-    GetHLSStreamingSessionURL,
+    GetHLSStreamingSessionURL (GetHLSStreamingSessionURL'),
     newGetHLSStreamingSessionURL,
-    GetHLSStreamingSessionURLResponse,
+    GetHLSStreamingSessionURLResponse (GetHLSStreamingSessionURLResponse'),
     newGetHLSStreamingSessionURLResponse,
 
     -- ** GetImages (Paginated)
-    GetImages,
+    GetImages (GetImages'),
     newGetImages,
-    GetImagesResponse,
+    GetImagesResponse (GetImagesResponse'),
     newGetImagesResponse,
 
     -- ** GetMediaForFragmentList
-    GetMediaForFragmentList,
+    GetMediaForFragmentList (GetMediaForFragmentList'),
     newGetMediaForFragmentList,
-    GetMediaForFragmentListResponse,
+    GetMediaForFragmentListResponse (GetMediaForFragmentListResponse'),
     newGetMediaForFragmentListResponse,
 
     -- ** ListFragments (Paginated)
-    ListFragments,
+    ListFragments (ListFragments'),
     newListFragments,
-    ListFragmentsResponse,
+    ListFragmentsResponse (ListFragmentsResponse'),
     newListFragmentsResponse,
 
     -- * Types
@@ -134,43 +134,43 @@ module Amazonka.KinesisVideoArchivedMedia
     ImageSelectorType (..),
 
     -- ** ClipFragmentSelector
-    ClipFragmentSelector,
+    ClipFragmentSelector (ClipFragmentSelector'),
     newClipFragmentSelector,
 
     -- ** ClipTimestampRange
-    ClipTimestampRange,
+    ClipTimestampRange (ClipTimestampRange'),
     newClipTimestampRange,
 
     -- ** DASHFragmentSelector
-    DASHFragmentSelector,
+    DASHFragmentSelector (DASHFragmentSelector'),
     newDASHFragmentSelector,
 
     -- ** DASHTimestampRange
-    DASHTimestampRange,
+    DASHTimestampRange (DASHTimestampRange'),
     newDASHTimestampRange,
 
     -- ** Fragment
-    Fragment,
+    Fragment (Fragment'),
     newFragment,
 
     -- ** FragmentSelector
-    FragmentSelector,
+    FragmentSelector (FragmentSelector'),
     newFragmentSelector,
 
     -- ** HLSFragmentSelector
-    HLSFragmentSelector,
+    HLSFragmentSelector (HLSFragmentSelector'),
     newHLSFragmentSelector,
 
     -- ** HLSTimestampRange
-    HLSTimestampRange,
+    HLSTimestampRange (HLSTimestampRange'),
     newHLSTimestampRange,
 
     -- ** Image
-    Image,
+    Image (Image'),
     newImage,
 
     -- ** TimestampRange
-    TimestampRange,
+    TimestampRange (TimestampRange'),
     newTimestampRange,
   )
 where

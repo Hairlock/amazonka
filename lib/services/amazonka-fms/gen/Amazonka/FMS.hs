@@ -52,231 +52,231 @@ module Amazonka.FMS
     -- $operations
 
     -- ** AssociateAdminAccount
-    AssociateAdminAccount,
+    AssociateAdminAccount (AssociateAdminAccount'),
     newAssociateAdminAccount,
-    AssociateAdminAccountResponse,
+    AssociateAdminAccountResponse (AssociateAdminAccountResponse'),
     newAssociateAdminAccountResponse,
 
     -- ** AssociateThirdPartyFirewall
-    AssociateThirdPartyFirewall,
+    AssociateThirdPartyFirewall (AssociateThirdPartyFirewall'),
     newAssociateThirdPartyFirewall,
-    AssociateThirdPartyFirewallResponse,
+    AssociateThirdPartyFirewallResponse (AssociateThirdPartyFirewallResponse'),
     newAssociateThirdPartyFirewallResponse,
 
     -- ** BatchAssociateResource
-    BatchAssociateResource,
+    BatchAssociateResource (BatchAssociateResource'),
     newBatchAssociateResource,
-    BatchAssociateResourceResponse,
+    BatchAssociateResourceResponse (BatchAssociateResourceResponse'),
     newBatchAssociateResourceResponse,
 
     -- ** BatchDisassociateResource
-    BatchDisassociateResource,
+    BatchDisassociateResource (BatchDisassociateResource'),
     newBatchDisassociateResource,
-    BatchDisassociateResourceResponse,
+    BatchDisassociateResourceResponse (BatchDisassociateResourceResponse'),
     newBatchDisassociateResourceResponse,
 
     -- ** DeleteAppsList
-    DeleteAppsList,
+    DeleteAppsList (DeleteAppsList'),
     newDeleteAppsList,
-    DeleteAppsListResponse,
+    DeleteAppsListResponse (DeleteAppsListResponse'),
     newDeleteAppsListResponse,
 
     -- ** DeleteNotificationChannel
-    DeleteNotificationChannel,
+    DeleteNotificationChannel (DeleteNotificationChannel'),
     newDeleteNotificationChannel,
-    DeleteNotificationChannelResponse,
+    DeleteNotificationChannelResponse (DeleteNotificationChannelResponse'),
     newDeleteNotificationChannelResponse,
 
     -- ** DeletePolicy
-    DeletePolicy,
+    DeletePolicy (DeletePolicy'),
     newDeletePolicy,
-    DeletePolicyResponse,
+    DeletePolicyResponse (DeletePolicyResponse'),
     newDeletePolicyResponse,
 
     -- ** DeleteProtocolsList
-    DeleteProtocolsList,
+    DeleteProtocolsList (DeleteProtocolsList'),
     newDeleteProtocolsList,
-    DeleteProtocolsListResponse,
+    DeleteProtocolsListResponse (DeleteProtocolsListResponse'),
     newDeleteProtocolsListResponse,
 
     -- ** DeleteResourceSet
-    DeleteResourceSet,
+    DeleteResourceSet (DeleteResourceSet'),
     newDeleteResourceSet,
-    DeleteResourceSetResponse,
+    DeleteResourceSetResponse (DeleteResourceSetResponse'),
     newDeleteResourceSetResponse,
 
     -- ** DisassociateAdminAccount
-    DisassociateAdminAccount,
+    DisassociateAdminAccount (DisassociateAdminAccount'),
     newDisassociateAdminAccount,
-    DisassociateAdminAccountResponse,
+    DisassociateAdminAccountResponse (DisassociateAdminAccountResponse'),
     newDisassociateAdminAccountResponse,
 
     -- ** DisassociateThirdPartyFirewall
-    DisassociateThirdPartyFirewall,
+    DisassociateThirdPartyFirewall (DisassociateThirdPartyFirewall'),
     newDisassociateThirdPartyFirewall,
-    DisassociateThirdPartyFirewallResponse,
+    DisassociateThirdPartyFirewallResponse (DisassociateThirdPartyFirewallResponse'),
     newDisassociateThirdPartyFirewallResponse,
 
     -- ** GetAdminAccount
-    GetAdminAccount,
+    GetAdminAccount (GetAdminAccount'),
     newGetAdminAccount,
-    GetAdminAccountResponse,
+    GetAdminAccountResponse (GetAdminAccountResponse'),
     newGetAdminAccountResponse,
 
     -- ** GetAppsList
-    GetAppsList,
+    GetAppsList (GetAppsList'),
     newGetAppsList,
-    GetAppsListResponse,
+    GetAppsListResponse (GetAppsListResponse'),
     newGetAppsListResponse,
 
     -- ** GetComplianceDetail
-    GetComplianceDetail,
+    GetComplianceDetail (GetComplianceDetail'),
     newGetComplianceDetail,
-    GetComplianceDetailResponse,
+    GetComplianceDetailResponse (GetComplianceDetailResponse'),
     newGetComplianceDetailResponse,
 
     -- ** GetNotificationChannel
-    GetNotificationChannel,
+    GetNotificationChannel (GetNotificationChannel'),
     newGetNotificationChannel,
-    GetNotificationChannelResponse,
+    GetNotificationChannelResponse (GetNotificationChannelResponse'),
     newGetNotificationChannelResponse,
 
     -- ** GetPolicy
-    GetPolicy,
+    GetPolicy (GetPolicy'),
     newGetPolicy,
-    GetPolicyResponse,
+    GetPolicyResponse (GetPolicyResponse'),
     newGetPolicyResponse,
 
     -- ** GetProtectionStatus
-    GetProtectionStatus,
+    GetProtectionStatus (GetProtectionStatus'),
     newGetProtectionStatus,
-    GetProtectionStatusResponse,
+    GetProtectionStatusResponse (GetProtectionStatusResponse'),
     newGetProtectionStatusResponse,
 
     -- ** GetProtocolsList
-    GetProtocolsList,
+    GetProtocolsList (GetProtocolsList'),
     newGetProtocolsList,
-    GetProtocolsListResponse,
+    GetProtocolsListResponse (GetProtocolsListResponse'),
     newGetProtocolsListResponse,
 
     -- ** GetResourceSet
-    GetResourceSet,
+    GetResourceSet (GetResourceSet'),
     newGetResourceSet,
-    GetResourceSetResponse,
+    GetResourceSetResponse (GetResourceSetResponse'),
     newGetResourceSetResponse,
 
     -- ** GetThirdPartyFirewallAssociationStatus
-    GetThirdPartyFirewallAssociationStatus,
+    GetThirdPartyFirewallAssociationStatus (GetThirdPartyFirewallAssociationStatus'),
     newGetThirdPartyFirewallAssociationStatus,
-    GetThirdPartyFirewallAssociationStatusResponse,
+    GetThirdPartyFirewallAssociationStatusResponse (GetThirdPartyFirewallAssociationStatusResponse'),
     newGetThirdPartyFirewallAssociationStatusResponse,
 
     -- ** GetViolationDetails
-    GetViolationDetails,
+    GetViolationDetails (GetViolationDetails'),
     newGetViolationDetails,
-    GetViolationDetailsResponse,
+    GetViolationDetailsResponse (GetViolationDetailsResponse'),
     newGetViolationDetailsResponse,
 
     -- ** ListAppsLists (Paginated)
-    ListAppsLists,
+    ListAppsLists (ListAppsLists'),
     newListAppsLists,
-    ListAppsListsResponse,
+    ListAppsListsResponse (ListAppsListsResponse'),
     newListAppsListsResponse,
 
     -- ** ListComplianceStatus (Paginated)
-    ListComplianceStatus,
+    ListComplianceStatus (ListComplianceStatus'),
     newListComplianceStatus,
-    ListComplianceStatusResponse,
+    ListComplianceStatusResponse (ListComplianceStatusResponse'),
     newListComplianceStatusResponse,
 
     -- ** ListDiscoveredResources
-    ListDiscoveredResources,
+    ListDiscoveredResources (ListDiscoveredResources'),
     newListDiscoveredResources,
-    ListDiscoveredResourcesResponse,
+    ListDiscoveredResourcesResponse (ListDiscoveredResourcesResponse'),
     newListDiscoveredResourcesResponse,
 
     -- ** ListMemberAccounts (Paginated)
-    ListMemberAccounts,
+    ListMemberAccounts (ListMemberAccounts'),
     newListMemberAccounts,
-    ListMemberAccountsResponse,
+    ListMemberAccountsResponse (ListMemberAccountsResponse'),
     newListMemberAccountsResponse,
 
     -- ** ListPolicies (Paginated)
-    ListPolicies,
+    ListPolicies (ListPolicies'),
     newListPolicies,
-    ListPoliciesResponse,
+    ListPoliciesResponse (ListPoliciesResponse'),
     newListPoliciesResponse,
 
     -- ** ListProtocolsLists (Paginated)
-    ListProtocolsLists,
+    ListProtocolsLists (ListProtocolsLists'),
     newListProtocolsLists,
-    ListProtocolsListsResponse,
+    ListProtocolsListsResponse (ListProtocolsListsResponse'),
     newListProtocolsListsResponse,
 
     -- ** ListResourceSetResources
-    ListResourceSetResources,
+    ListResourceSetResources (ListResourceSetResources'),
     newListResourceSetResources,
-    ListResourceSetResourcesResponse,
+    ListResourceSetResourcesResponse (ListResourceSetResourcesResponse'),
     newListResourceSetResourcesResponse,
 
     -- ** ListResourceSets
-    ListResourceSets,
+    ListResourceSets (ListResourceSets'),
     newListResourceSets,
-    ListResourceSetsResponse,
+    ListResourceSetsResponse (ListResourceSetsResponse'),
     newListResourceSetsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** ListThirdPartyFirewallFirewallPolicies (Paginated)
-    ListThirdPartyFirewallFirewallPolicies,
+    ListThirdPartyFirewallFirewallPolicies (ListThirdPartyFirewallFirewallPolicies'),
     newListThirdPartyFirewallFirewallPolicies,
-    ListThirdPartyFirewallFirewallPoliciesResponse,
+    ListThirdPartyFirewallFirewallPoliciesResponse (ListThirdPartyFirewallFirewallPoliciesResponse'),
     newListThirdPartyFirewallFirewallPoliciesResponse,
 
     -- ** PutAppsList
-    PutAppsList,
+    PutAppsList (PutAppsList'),
     newPutAppsList,
-    PutAppsListResponse,
+    PutAppsListResponse (PutAppsListResponse'),
     newPutAppsListResponse,
 
     -- ** PutNotificationChannel
-    PutNotificationChannel,
+    PutNotificationChannel (PutNotificationChannel'),
     newPutNotificationChannel,
-    PutNotificationChannelResponse,
+    PutNotificationChannelResponse (PutNotificationChannelResponse'),
     newPutNotificationChannelResponse,
 
     -- ** PutPolicy
-    PutPolicy,
+    PutPolicy (PutPolicy'),
     newPutPolicy,
-    PutPolicyResponse,
+    PutPolicyResponse (PutPolicyResponse'),
     newPutPolicyResponse,
 
     -- ** PutProtocolsList
-    PutProtocolsList,
+    PutProtocolsList (PutProtocolsList'),
     newPutProtocolsList,
-    PutProtocolsListResponse,
+    PutProtocolsListResponse (PutProtocolsListResponse'),
     newPutProtocolsListResponse,
 
     -- ** PutResourceSet
-    PutResourceSet,
+    PutResourceSet (PutResourceSet'),
     newPutResourceSet,
-    PutResourceSetResponse,
+    PutResourceSetResponse (PutResourceSetResponse'),
     newPutResourceSetResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- * Types
@@ -330,283 +330,283 @@ module Amazonka.FMS
     ViolationReason (..),
 
     -- ** ActionTarget
-    ActionTarget,
+    ActionTarget (ActionTarget'),
     newActionTarget,
 
     -- ** App
-    App,
+    App (App'),
     newApp,
 
     -- ** AppsListData
-    AppsListData,
+    AppsListData (AppsListData'),
     newAppsListData,
 
     -- ** AppsListDataSummary
-    AppsListDataSummary,
+    AppsListDataSummary (AppsListDataSummary'),
     newAppsListDataSummary,
 
     -- ** AwsEc2InstanceViolation
-    AwsEc2InstanceViolation,
+    AwsEc2InstanceViolation (AwsEc2InstanceViolation'),
     newAwsEc2InstanceViolation,
 
     -- ** AwsEc2NetworkInterfaceViolation
-    AwsEc2NetworkInterfaceViolation,
+    AwsEc2NetworkInterfaceViolation (AwsEc2NetworkInterfaceViolation'),
     newAwsEc2NetworkInterfaceViolation,
 
     -- ** AwsVPCSecurityGroupViolation
-    AwsVPCSecurityGroupViolation,
+    AwsVPCSecurityGroupViolation (AwsVPCSecurityGroupViolation'),
     newAwsVPCSecurityGroupViolation,
 
     -- ** ComplianceViolator
-    ComplianceViolator,
+    ComplianceViolator (ComplianceViolator'),
     newComplianceViolator,
 
     -- ** DiscoveredResource
-    DiscoveredResource,
+    DiscoveredResource (DiscoveredResource'),
     newDiscoveredResource,
 
     -- ** DnsDuplicateRuleGroupViolation
-    DnsDuplicateRuleGroupViolation,
+    DnsDuplicateRuleGroupViolation (DnsDuplicateRuleGroupViolation'),
     newDnsDuplicateRuleGroupViolation,
 
     -- ** DnsRuleGroupLimitExceededViolation
-    DnsRuleGroupLimitExceededViolation,
+    DnsRuleGroupLimitExceededViolation (DnsRuleGroupLimitExceededViolation'),
     newDnsRuleGroupLimitExceededViolation,
 
     -- ** DnsRuleGroupPriorityConflictViolation
-    DnsRuleGroupPriorityConflictViolation,
+    DnsRuleGroupPriorityConflictViolation (DnsRuleGroupPriorityConflictViolation'),
     newDnsRuleGroupPriorityConflictViolation,
 
     -- ** EC2AssociateRouteTableAction
-    EC2AssociateRouteTableAction,
+    EC2AssociateRouteTableAction (EC2AssociateRouteTableAction'),
     newEC2AssociateRouteTableAction,
 
     -- ** EC2CopyRouteTableAction
-    EC2CopyRouteTableAction,
+    EC2CopyRouteTableAction (EC2CopyRouteTableAction'),
     newEC2CopyRouteTableAction,
 
     -- ** EC2CreateRouteAction
-    EC2CreateRouteAction,
+    EC2CreateRouteAction (EC2CreateRouteAction'),
     newEC2CreateRouteAction,
 
     -- ** EC2CreateRouteTableAction
-    EC2CreateRouteTableAction,
+    EC2CreateRouteTableAction (EC2CreateRouteTableAction'),
     newEC2CreateRouteTableAction,
 
     -- ** EC2DeleteRouteAction
-    EC2DeleteRouteAction,
+    EC2DeleteRouteAction (EC2DeleteRouteAction'),
     newEC2DeleteRouteAction,
 
     -- ** EC2ReplaceRouteAction
-    EC2ReplaceRouteAction,
+    EC2ReplaceRouteAction (EC2ReplaceRouteAction'),
     newEC2ReplaceRouteAction,
 
     -- ** EC2ReplaceRouteTableAssociationAction
-    EC2ReplaceRouteTableAssociationAction,
+    EC2ReplaceRouteTableAssociationAction (EC2ReplaceRouteTableAssociationAction'),
     newEC2ReplaceRouteTableAssociationAction,
 
     -- ** EvaluationResult
-    EvaluationResult,
+    EvaluationResult (EvaluationResult'),
     newEvaluationResult,
 
     -- ** ExpectedRoute
-    ExpectedRoute,
+    ExpectedRoute (ExpectedRoute'),
     newExpectedRoute,
 
     -- ** FMSPolicyUpdateFirewallCreationConfigAction
-    FMSPolicyUpdateFirewallCreationConfigAction,
+    FMSPolicyUpdateFirewallCreationConfigAction (FMSPolicyUpdateFirewallCreationConfigAction'),
     newFMSPolicyUpdateFirewallCreationConfigAction,
 
     -- ** FailedItem
-    FailedItem,
+    FailedItem (FailedItem'),
     newFailedItem,
 
     -- ** FirewallSubnetIsOutOfScopeViolation
-    FirewallSubnetIsOutOfScopeViolation,
+    FirewallSubnetIsOutOfScopeViolation (FirewallSubnetIsOutOfScopeViolation'),
     newFirewallSubnetIsOutOfScopeViolation,
 
     -- ** FirewallSubnetMissingVPCEndpointViolation
-    FirewallSubnetMissingVPCEndpointViolation,
+    FirewallSubnetMissingVPCEndpointViolation (FirewallSubnetMissingVPCEndpointViolation'),
     newFirewallSubnetMissingVPCEndpointViolation,
 
     -- ** NetworkFirewallBlackHoleRouteDetectedViolation
-    NetworkFirewallBlackHoleRouteDetectedViolation,
+    NetworkFirewallBlackHoleRouteDetectedViolation (NetworkFirewallBlackHoleRouteDetectedViolation'),
     newNetworkFirewallBlackHoleRouteDetectedViolation,
 
     -- ** NetworkFirewallInternetTrafficNotInspectedViolation
-    NetworkFirewallInternetTrafficNotInspectedViolation,
+    NetworkFirewallInternetTrafficNotInspectedViolation (NetworkFirewallInternetTrafficNotInspectedViolation'),
     newNetworkFirewallInternetTrafficNotInspectedViolation,
 
     -- ** NetworkFirewallInvalidRouteConfigurationViolation
-    NetworkFirewallInvalidRouteConfigurationViolation,
+    NetworkFirewallInvalidRouteConfigurationViolation (NetworkFirewallInvalidRouteConfigurationViolation'),
     newNetworkFirewallInvalidRouteConfigurationViolation,
 
     -- ** NetworkFirewallMissingExpectedRTViolation
-    NetworkFirewallMissingExpectedRTViolation,
+    NetworkFirewallMissingExpectedRTViolation (NetworkFirewallMissingExpectedRTViolation'),
     newNetworkFirewallMissingExpectedRTViolation,
 
     -- ** NetworkFirewallMissingExpectedRoutesViolation
-    NetworkFirewallMissingExpectedRoutesViolation,
+    NetworkFirewallMissingExpectedRoutesViolation (NetworkFirewallMissingExpectedRoutesViolation'),
     newNetworkFirewallMissingExpectedRoutesViolation,
 
     -- ** NetworkFirewallMissingFirewallViolation
-    NetworkFirewallMissingFirewallViolation,
+    NetworkFirewallMissingFirewallViolation (NetworkFirewallMissingFirewallViolation'),
     newNetworkFirewallMissingFirewallViolation,
 
     -- ** NetworkFirewallMissingSubnetViolation
-    NetworkFirewallMissingSubnetViolation,
+    NetworkFirewallMissingSubnetViolation (NetworkFirewallMissingSubnetViolation'),
     newNetworkFirewallMissingSubnetViolation,
 
     -- ** NetworkFirewallPolicy
-    NetworkFirewallPolicy,
+    NetworkFirewallPolicy (NetworkFirewallPolicy'),
     newNetworkFirewallPolicy,
 
     -- ** NetworkFirewallPolicyDescription
-    NetworkFirewallPolicyDescription,
+    NetworkFirewallPolicyDescription (NetworkFirewallPolicyDescription'),
     newNetworkFirewallPolicyDescription,
 
     -- ** NetworkFirewallPolicyModifiedViolation
-    NetworkFirewallPolicyModifiedViolation,
+    NetworkFirewallPolicyModifiedViolation (NetworkFirewallPolicyModifiedViolation'),
     newNetworkFirewallPolicyModifiedViolation,
 
     -- ** NetworkFirewallStatefulRuleGroupOverride
-    NetworkFirewallStatefulRuleGroupOverride,
+    NetworkFirewallStatefulRuleGroupOverride (NetworkFirewallStatefulRuleGroupOverride'),
     newNetworkFirewallStatefulRuleGroupOverride,
 
     -- ** NetworkFirewallUnexpectedFirewallRoutesViolation
-    NetworkFirewallUnexpectedFirewallRoutesViolation,
+    NetworkFirewallUnexpectedFirewallRoutesViolation (NetworkFirewallUnexpectedFirewallRoutesViolation'),
     newNetworkFirewallUnexpectedFirewallRoutesViolation,
 
     -- ** NetworkFirewallUnexpectedGatewayRoutesViolation
-    NetworkFirewallUnexpectedGatewayRoutesViolation,
+    NetworkFirewallUnexpectedGatewayRoutesViolation (NetworkFirewallUnexpectedGatewayRoutesViolation'),
     newNetworkFirewallUnexpectedGatewayRoutesViolation,
 
     -- ** PartialMatch
-    PartialMatch,
+    PartialMatch (PartialMatch'),
     newPartialMatch,
 
     -- ** Policy
-    Policy,
+    Policy (Policy'),
     newPolicy,
 
     -- ** PolicyComplianceDetail
-    PolicyComplianceDetail,
+    PolicyComplianceDetail (PolicyComplianceDetail'),
     newPolicyComplianceDetail,
 
     -- ** PolicyComplianceStatus
-    PolicyComplianceStatus,
+    PolicyComplianceStatus (PolicyComplianceStatus'),
     newPolicyComplianceStatus,
 
     -- ** PolicyOption
-    PolicyOption,
+    PolicyOption (PolicyOption'),
     newPolicyOption,
 
     -- ** PolicySummary
-    PolicySummary,
+    PolicySummary (PolicySummary'),
     newPolicySummary,
 
     -- ** PossibleRemediationAction
-    PossibleRemediationAction,
+    PossibleRemediationAction (PossibleRemediationAction'),
     newPossibleRemediationAction,
 
     -- ** PossibleRemediationActions
-    PossibleRemediationActions,
+    PossibleRemediationActions (PossibleRemediationActions'),
     newPossibleRemediationActions,
 
     -- ** ProtocolsListData
-    ProtocolsListData,
+    ProtocolsListData (ProtocolsListData'),
     newProtocolsListData,
 
     -- ** ProtocolsListDataSummary
-    ProtocolsListDataSummary,
+    ProtocolsListDataSummary (ProtocolsListDataSummary'),
     newProtocolsListDataSummary,
 
     -- ** RemediationAction
-    RemediationAction,
+    RemediationAction (RemediationAction'),
     newRemediationAction,
 
     -- ** RemediationActionWithOrder
-    RemediationActionWithOrder,
+    RemediationActionWithOrder (RemediationActionWithOrder'),
     newRemediationActionWithOrder,
 
     -- ** Resource
-    Resource,
+    Resource (Resource'),
     newResource,
 
     -- ** ResourceSet
-    ResourceSet,
+    ResourceSet (ResourceSet'),
     newResourceSet,
 
     -- ** ResourceSetSummary
-    ResourceSetSummary,
+    ResourceSetSummary (ResourceSetSummary'),
     newResourceSetSummary,
 
     -- ** ResourceTag
-    ResourceTag,
+    ResourceTag (ResourceTag'),
     newResourceTag,
 
     -- ** ResourceViolation
-    ResourceViolation,
+    ResourceViolation (ResourceViolation'),
     newResourceViolation,
 
     -- ** Route
-    Route,
+    Route (Route'),
     newRoute,
 
     -- ** RouteHasOutOfScopeEndpointViolation
-    RouteHasOutOfScopeEndpointViolation,
+    RouteHasOutOfScopeEndpointViolation (RouteHasOutOfScopeEndpointViolation'),
     newRouteHasOutOfScopeEndpointViolation,
 
     -- ** SecurityGroupRemediationAction
-    SecurityGroupRemediationAction,
+    SecurityGroupRemediationAction (SecurityGroupRemediationAction'),
     newSecurityGroupRemediationAction,
 
     -- ** SecurityGroupRuleDescription
-    SecurityGroupRuleDescription,
+    SecurityGroupRuleDescription (SecurityGroupRuleDescription'),
     newSecurityGroupRuleDescription,
 
     -- ** SecurityServicePolicyData
-    SecurityServicePolicyData,
+    SecurityServicePolicyData (SecurityServicePolicyData'),
     newSecurityServicePolicyData,
 
     -- ** StatefulEngineOptions
-    StatefulEngineOptions,
+    StatefulEngineOptions (StatefulEngineOptions'),
     newStatefulEngineOptions,
 
     -- ** StatefulRuleGroup
-    StatefulRuleGroup,
+    StatefulRuleGroup (StatefulRuleGroup'),
     newStatefulRuleGroup,
 
     -- ** StatelessRuleGroup
-    StatelessRuleGroup,
+    StatelessRuleGroup (StatelessRuleGroup'),
     newStatelessRuleGroup,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** ThirdPartyFirewallFirewallPolicy
-    ThirdPartyFirewallFirewallPolicy,
+    ThirdPartyFirewallFirewallPolicy (ThirdPartyFirewallFirewallPolicy'),
     newThirdPartyFirewallFirewallPolicy,
 
     -- ** ThirdPartyFirewallMissingExpectedRouteTableViolation
-    ThirdPartyFirewallMissingExpectedRouteTableViolation,
+    ThirdPartyFirewallMissingExpectedRouteTableViolation (ThirdPartyFirewallMissingExpectedRouteTableViolation'),
     newThirdPartyFirewallMissingExpectedRouteTableViolation,
 
     -- ** ThirdPartyFirewallMissingFirewallViolation
-    ThirdPartyFirewallMissingFirewallViolation,
+    ThirdPartyFirewallMissingFirewallViolation (ThirdPartyFirewallMissingFirewallViolation'),
     newThirdPartyFirewallMissingFirewallViolation,
 
     -- ** ThirdPartyFirewallMissingSubnetViolation
-    ThirdPartyFirewallMissingSubnetViolation,
+    ThirdPartyFirewallMissingSubnetViolation (ThirdPartyFirewallMissingSubnetViolation'),
     newThirdPartyFirewallMissingSubnetViolation,
 
     -- ** ThirdPartyFirewallPolicy
-    ThirdPartyFirewallPolicy,
+    ThirdPartyFirewallPolicy (ThirdPartyFirewallPolicy'),
     newThirdPartyFirewallPolicy,
 
     -- ** ViolationDetail
-    ViolationDetail,
+    ViolationDetail (ViolationDetail'),
     newViolationDetail,
   )
 where

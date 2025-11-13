@@ -52,273 +52,273 @@ module Amazonka.CodeBuild
     -- $operations
 
     -- ** BatchDeleteBuilds
-    BatchDeleteBuilds,
+    BatchDeleteBuilds (BatchDeleteBuilds'),
     newBatchDeleteBuilds,
-    BatchDeleteBuildsResponse,
+    BatchDeleteBuildsResponse (BatchDeleteBuildsResponse'),
     newBatchDeleteBuildsResponse,
 
     -- ** BatchGetBuildBatches
-    BatchGetBuildBatches,
+    BatchGetBuildBatches (BatchGetBuildBatches'),
     newBatchGetBuildBatches,
-    BatchGetBuildBatchesResponse,
+    BatchGetBuildBatchesResponse (BatchGetBuildBatchesResponse'),
     newBatchGetBuildBatchesResponse,
 
     -- ** BatchGetBuilds
-    BatchGetBuilds,
+    BatchGetBuilds (BatchGetBuilds'),
     newBatchGetBuilds,
-    BatchGetBuildsResponse,
+    BatchGetBuildsResponse (BatchGetBuildsResponse'),
     newBatchGetBuildsResponse,
 
     -- ** BatchGetProjects
-    BatchGetProjects,
+    BatchGetProjects (BatchGetProjects'),
     newBatchGetProjects,
-    BatchGetProjectsResponse,
+    BatchGetProjectsResponse (BatchGetProjectsResponse'),
     newBatchGetProjectsResponse,
 
     -- ** BatchGetReportGroups
-    BatchGetReportGroups,
+    BatchGetReportGroups (BatchGetReportGroups'),
     newBatchGetReportGroups,
-    BatchGetReportGroupsResponse,
+    BatchGetReportGroupsResponse (BatchGetReportGroupsResponse'),
     newBatchGetReportGroupsResponse,
 
     -- ** BatchGetReports
-    BatchGetReports,
+    BatchGetReports (BatchGetReports'),
     newBatchGetReports,
-    BatchGetReportsResponse,
+    BatchGetReportsResponse (BatchGetReportsResponse'),
     newBatchGetReportsResponse,
 
     -- ** CreateProject
-    CreateProject,
+    CreateProject (CreateProject'),
     newCreateProject,
-    CreateProjectResponse,
+    CreateProjectResponse (CreateProjectResponse'),
     newCreateProjectResponse,
 
     -- ** CreateReportGroup
-    CreateReportGroup,
+    CreateReportGroup (CreateReportGroup'),
     newCreateReportGroup,
-    CreateReportGroupResponse,
+    CreateReportGroupResponse (CreateReportGroupResponse'),
     newCreateReportGroupResponse,
 
     -- ** CreateWebhook
-    CreateWebhook,
+    CreateWebhook (CreateWebhook'),
     newCreateWebhook,
-    CreateWebhookResponse,
+    CreateWebhookResponse (CreateWebhookResponse'),
     newCreateWebhookResponse,
 
     -- ** DeleteBuildBatch
-    DeleteBuildBatch,
+    DeleteBuildBatch (DeleteBuildBatch'),
     newDeleteBuildBatch,
-    DeleteBuildBatchResponse,
+    DeleteBuildBatchResponse (DeleteBuildBatchResponse'),
     newDeleteBuildBatchResponse,
 
     -- ** DeleteProject
-    DeleteProject,
+    DeleteProject (DeleteProject'),
     newDeleteProject,
-    DeleteProjectResponse,
+    DeleteProjectResponse (DeleteProjectResponse'),
     newDeleteProjectResponse,
 
     -- ** DeleteReport
-    DeleteReport,
+    DeleteReport (DeleteReport'),
     newDeleteReport,
-    DeleteReportResponse,
+    DeleteReportResponse (DeleteReportResponse'),
     newDeleteReportResponse,
 
     -- ** DeleteReportGroup
-    DeleteReportGroup,
+    DeleteReportGroup (DeleteReportGroup'),
     newDeleteReportGroup,
-    DeleteReportGroupResponse,
+    DeleteReportGroupResponse (DeleteReportGroupResponse'),
     newDeleteReportGroupResponse,
 
     -- ** DeleteResourcePolicy
-    DeleteResourcePolicy,
+    DeleteResourcePolicy (DeleteResourcePolicy'),
     newDeleteResourcePolicy,
-    DeleteResourcePolicyResponse,
+    DeleteResourcePolicyResponse (DeleteResourcePolicyResponse'),
     newDeleteResourcePolicyResponse,
 
     -- ** DeleteSourceCredentials
-    DeleteSourceCredentials,
+    DeleteSourceCredentials (DeleteSourceCredentials'),
     newDeleteSourceCredentials,
-    DeleteSourceCredentialsResponse,
+    DeleteSourceCredentialsResponse (DeleteSourceCredentialsResponse'),
     newDeleteSourceCredentialsResponse,
 
     -- ** DeleteWebhook
-    DeleteWebhook,
+    DeleteWebhook (DeleteWebhook'),
     newDeleteWebhook,
-    DeleteWebhookResponse,
+    DeleteWebhookResponse (DeleteWebhookResponse'),
     newDeleteWebhookResponse,
 
     -- ** DescribeCodeCoverages (Paginated)
-    DescribeCodeCoverages,
+    DescribeCodeCoverages (DescribeCodeCoverages'),
     newDescribeCodeCoverages,
-    DescribeCodeCoveragesResponse,
+    DescribeCodeCoveragesResponse (DescribeCodeCoveragesResponse'),
     newDescribeCodeCoveragesResponse,
 
     -- ** DescribeTestCases (Paginated)
-    DescribeTestCases,
+    DescribeTestCases (DescribeTestCases'),
     newDescribeTestCases,
-    DescribeTestCasesResponse,
+    DescribeTestCasesResponse (DescribeTestCasesResponse'),
     newDescribeTestCasesResponse,
 
     -- ** GetReportGroupTrend
-    GetReportGroupTrend,
+    GetReportGroupTrend (GetReportGroupTrend'),
     newGetReportGroupTrend,
-    GetReportGroupTrendResponse,
+    GetReportGroupTrendResponse (GetReportGroupTrendResponse'),
     newGetReportGroupTrendResponse,
 
     -- ** GetResourcePolicy
-    GetResourcePolicy,
+    GetResourcePolicy (GetResourcePolicy'),
     newGetResourcePolicy,
-    GetResourcePolicyResponse,
+    GetResourcePolicyResponse (GetResourcePolicyResponse'),
     newGetResourcePolicyResponse,
 
     -- ** ImportSourceCredentials
-    ImportSourceCredentials,
+    ImportSourceCredentials (ImportSourceCredentials'),
     newImportSourceCredentials,
-    ImportSourceCredentialsResponse,
+    ImportSourceCredentialsResponse (ImportSourceCredentialsResponse'),
     newImportSourceCredentialsResponse,
 
     -- ** InvalidateProjectCache
-    InvalidateProjectCache,
+    InvalidateProjectCache (InvalidateProjectCache'),
     newInvalidateProjectCache,
-    InvalidateProjectCacheResponse,
+    InvalidateProjectCacheResponse (InvalidateProjectCacheResponse'),
     newInvalidateProjectCacheResponse,
 
     -- ** ListBuildBatches (Paginated)
-    ListBuildBatches,
+    ListBuildBatches (ListBuildBatches'),
     newListBuildBatches,
-    ListBuildBatchesResponse,
+    ListBuildBatchesResponse (ListBuildBatchesResponse'),
     newListBuildBatchesResponse,
 
     -- ** ListBuildBatchesForProject (Paginated)
-    ListBuildBatchesForProject,
+    ListBuildBatchesForProject (ListBuildBatchesForProject'),
     newListBuildBatchesForProject,
-    ListBuildBatchesForProjectResponse,
+    ListBuildBatchesForProjectResponse (ListBuildBatchesForProjectResponse'),
     newListBuildBatchesForProjectResponse,
 
     -- ** ListBuilds (Paginated)
-    ListBuilds,
+    ListBuilds (ListBuilds'),
     newListBuilds,
-    ListBuildsResponse,
+    ListBuildsResponse (ListBuildsResponse'),
     newListBuildsResponse,
 
     -- ** ListBuildsForProject (Paginated)
-    ListBuildsForProject,
+    ListBuildsForProject (ListBuildsForProject'),
     newListBuildsForProject,
-    ListBuildsForProjectResponse,
+    ListBuildsForProjectResponse (ListBuildsForProjectResponse'),
     newListBuildsForProjectResponse,
 
     -- ** ListCuratedEnvironmentImages
-    ListCuratedEnvironmentImages,
+    ListCuratedEnvironmentImages (ListCuratedEnvironmentImages'),
     newListCuratedEnvironmentImages,
-    ListCuratedEnvironmentImagesResponse,
+    ListCuratedEnvironmentImagesResponse (ListCuratedEnvironmentImagesResponse'),
     newListCuratedEnvironmentImagesResponse,
 
     -- ** ListProjects (Paginated)
-    ListProjects,
+    ListProjects (ListProjects'),
     newListProjects,
-    ListProjectsResponse,
+    ListProjectsResponse (ListProjectsResponse'),
     newListProjectsResponse,
 
     -- ** ListReportGroups (Paginated)
-    ListReportGroups,
+    ListReportGroups (ListReportGroups'),
     newListReportGroups,
-    ListReportGroupsResponse,
+    ListReportGroupsResponse (ListReportGroupsResponse'),
     newListReportGroupsResponse,
 
     -- ** ListReports (Paginated)
-    ListReports,
+    ListReports (ListReports'),
     newListReports,
-    ListReportsResponse,
+    ListReportsResponse (ListReportsResponse'),
     newListReportsResponse,
 
     -- ** ListReportsForReportGroup (Paginated)
-    ListReportsForReportGroup,
+    ListReportsForReportGroup (ListReportsForReportGroup'),
     newListReportsForReportGroup,
-    ListReportsForReportGroupResponse,
+    ListReportsForReportGroupResponse (ListReportsForReportGroupResponse'),
     newListReportsForReportGroupResponse,
 
     -- ** ListSharedProjects (Paginated)
-    ListSharedProjects,
+    ListSharedProjects (ListSharedProjects'),
     newListSharedProjects,
-    ListSharedProjectsResponse,
+    ListSharedProjectsResponse (ListSharedProjectsResponse'),
     newListSharedProjectsResponse,
 
     -- ** ListSharedReportGroups (Paginated)
-    ListSharedReportGroups,
+    ListSharedReportGroups (ListSharedReportGroups'),
     newListSharedReportGroups,
-    ListSharedReportGroupsResponse,
+    ListSharedReportGroupsResponse (ListSharedReportGroupsResponse'),
     newListSharedReportGroupsResponse,
 
     -- ** ListSourceCredentials
-    ListSourceCredentials,
+    ListSourceCredentials (ListSourceCredentials'),
     newListSourceCredentials,
-    ListSourceCredentialsResponse,
+    ListSourceCredentialsResponse (ListSourceCredentialsResponse'),
     newListSourceCredentialsResponse,
 
     -- ** PutResourcePolicy
-    PutResourcePolicy,
+    PutResourcePolicy (PutResourcePolicy'),
     newPutResourcePolicy,
-    PutResourcePolicyResponse,
+    PutResourcePolicyResponse (PutResourcePolicyResponse'),
     newPutResourcePolicyResponse,
 
     -- ** RetryBuild
-    RetryBuild,
+    RetryBuild (RetryBuild'),
     newRetryBuild,
-    RetryBuildResponse,
+    RetryBuildResponse (RetryBuildResponse'),
     newRetryBuildResponse,
 
     -- ** RetryBuildBatch
-    RetryBuildBatch,
+    RetryBuildBatch (RetryBuildBatch'),
     newRetryBuildBatch,
-    RetryBuildBatchResponse,
+    RetryBuildBatchResponse (RetryBuildBatchResponse'),
     newRetryBuildBatchResponse,
 
     -- ** StartBuild
-    StartBuild,
+    StartBuild (StartBuild'),
     newStartBuild,
-    StartBuildResponse,
+    StartBuildResponse (StartBuildResponse'),
     newStartBuildResponse,
 
     -- ** StartBuildBatch
-    StartBuildBatch,
+    StartBuildBatch (StartBuildBatch'),
     newStartBuildBatch,
-    StartBuildBatchResponse,
+    StartBuildBatchResponse (StartBuildBatchResponse'),
     newStartBuildBatchResponse,
 
     -- ** StopBuild
-    StopBuild,
+    StopBuild (StopBuild'),
     newStopBuild,
-    StopBuildResponse,
+    StopBuildResponse (StopBuildResponse'),
     newStopBuildResponse,
 
     -- ** StopBuildBatch
-    StopBuildBatch,
+    StopBuildBatch (StopBuildBatch'),
     newStopBuildBatch,
-    StopBuildBatchResponse,
+    StopBuildBatchResponse (StopBuildBatchResponse'),
     newStopBuildBatchResponse,
 
     -- ** UpdateProject
-    UpdateProject,
+    UpdateProject (UpdateProject'),
     newUpdateProject,
-    UpdateProjectResponse,
+    UpdateProjectResponse (UpdateProjectResponse'),
     newUpdateProjectResponse,
 
     -- ** UpdateProjectVisibility
-    UpdateProjectVisibility,
+    UpdateProjectVisibility (UpdateProjectVisibility'),
     newUpdateProjectVisibility,
-    UpdateProjectVisibilityResponse,
+    UpdateProjectVisibilityResponse (UpdateProjectVisibilityResponse'),
     newUpdateProjectVisibilityResponse,
 
     -- ** UpdateReportGroup
-    UpdateReportGroup,
+    UpdateReportGroup (UpdateReportGroup'),
     newUpdateReportGroup,
-    UpdateReportGroupResponse,
+    UpdateReportGroupResponse (UpdateReportGroupResponse'),
     newUpdateReportGroupResponse,
 
     -- ** UpdateWebhook
-    UpdateWebhook,
+    UpdateWebhook (UpdateWebhook'),
     newUpdateWebhook,
-    UpdateWebhookResponse,
+    UpdateWebhookResponse (UpdateWebhookResponse'),
     newUpdateWebhookResponse,
 
     -- * Types
@@ -438,215 +438,215 @@ module Amazonka.CodeBuild
     WebhookFilterType (..),
 
     -- ** BatchRestrictions
-    BatchRestrictions,
+    BatchRestrictions (BatchRestrictions'),
     newBatchRestrictions,
 
     -- ** Build
-    Build,
+    Build (Build'),
     newBuild,
 
     -- ** BuildArtifacts
-    BuildArtifacts,
+    BuildArtifacts (BuildArtifacts'),
     newBuildArtifacts,
 
     -- ** BuildBatch
-    BuildBatch,
+    BuildBatch (BuildBatch'),
     newBuildBatch,
 
     -- ** BuildBatchFilter
-    BuildBatchFilter,
+    BuildBatchFilter (BuildBatchFilter'),
     newBuildBatchFilter,
 
     -- ** BuildBatchPhase
-    BuildBatchPhase,
+    BuildBatchPhase (BuildBatchPhase'),
     newBuildBatchPhase,
 
     -- ** BuildGroup
-    BuildGroup,
+    BuildGroup (BuildGroup'),
     newBuildGroup,
 
     -- ** BuildNotDeleted
-    BuildNotDeleted,
+    BuildNotDeleted (BuildNotDeleted'),
     newBuildNotDeleted,
 
     -- ** BuildPhase
-    BuildPhase,
+    BuildPhase (BuildPhase'),
     newBuildPhase,
 
     -- ** BuildStatusConfig
-    BuildStatusConfig,
+    BuildStatusConfig (BuildStatusConfig'),
     newBuildStatusConfig,
 
     -- ** BuildSummary
-    BuildSummary,
+    BuildSummary (BuildSummary'),
     newBuildSummary,
 
     -- ** CloudWatchLogsConfig
-    CloudWatchLogsConfig,
+    CloudWatchLogsConfig (CloudWatchLogsConfig'),
     newCloudWatchLogsConfig,
 
     -- ** CodeCoverage
-    CodeCoverage,
+    CodeCoverage (CodeCoverage'),
     newCodeCoverage,
 
     -- ** CodeCoverageReportSummary
-    CodeCoverageReportSummary,
+    CodeCoverageReportSummary (CodeCoverageReportSummary'),
     newCodeCoverageReportSummary,
 
     -- ** DebugSession
-    DebugSession,
+    DebugSession (DebugSession'),
     newDebugSession,
 
     -- ** EnvironmentImage
-    EnvironmentImage,
+    EnvironmentImage (EnvironmentImage'),
     newEnvironmentImage,
 
     -- ** EnvironmentLanguage
-    EnvironmentLanguage,
+    EnvironmentLanguage (EnvironmentLanguage'),
     newEnvironmentLanguage,
 
     -- ** EnvironmentPlatform
-    EnvironmentPlatform,
+    EnvironmentPlatform (EnvironmentPlatform'),
     newEnvironmentPlatform,
 
     -- ** EnvironmentVariable
-    EnvironmentVariable,
+    EnvironmentVariable (EnvironmentVariable'),
     newEnvironmentVariable,
 
     -- ** ExportedEnvironmentVariable
-    ExportedEnvironmentVariable,
+    ExportedEnvironmentVariable (ExportedEnvironmentVariable'),
     newExportedEnvironmentVariable,
 
     -- ** GitSubmodulesConfig
-    GitSubmodulesConfig,
+    GitSubmodulesConfig (GitSubmodulesConfig'),
     newGitSubmodulesConfig,
 
     -- ** LogsConfig
-    LogsConfig,
+    LogsConfig (LogsConfig'),
     newLogsConfig,
 
     -- ** LogsLocation
-    LogsLocation,
+    LogsLocation (LogsLocation'),
     newLogsLocation,
 
     -- ** NetworkInterface
-    NetworkInterface,
+    NetworkInterface (NetworkInterface'),
     newNetworkInterface,
 
     -- ** PhaseContext
-    PhaseContext,
+    PhaseContext (PhaseContext'),
     newPhaseContext,
 
     -- ** Project
-    Project,
+    Project (Project'),
     newProject,
 
     -- ** ProjectArtifacts
-    ProjectArtifacts,
+    ProjectArtifacts (ProjectArtifacts'),
     newProjectArtifacts,
 
     -- ** ProjectBadge
-    ProjectBadge,
+    ProjectBadge (ProjectBadge'),
     newProjectBadge,
 
     -- ** ProjectBuildBatchConfig
-    ProjectBuildBatchConfig,
+    ProjectBuildBatchConfig (ProjectBuildBatchConfig'),
     newProjectBuildBatchConfig,
 
     -- ** ProjectCache
-    ProjectCache,
+    ProjectCache (ProjectCache'),
     newProjectCache,
 
     -- ** ProjectEnvironment
-    ProjectEnvironment,
+    ProjectEnvironment (ProjectEnvironment'),
     newProjectEnvironment,
 
     -- ** ProjectFileSystemLocation
-    ProjectFileSystemLocation,
+    ProjectFileSystemLocation (ProjectFileSystemLocation'),
     newProjectFileSystemLocation,
 
     -- ** ProjectSource
-    ProjectSource,
+    ProjectSource (ProjectSource'),
     newProjectSource,
 
     -- ** ProjectSourceVersion
-    ProjectSourceVersion,
+    ProjectSourceVersion (ProjectSourceVersion'),
     newProjectSourceVersion,
 
     -- ** RegistryCredential
-    RegistryCredential,
+    RegistryCredential (RegistryCredential'),
     newRegistryCredential,
 
     -- ** Report
-    Report,
+    Report (Report'),
     newReport,
 
     -- ** ReportExportConfig
-    ReportExportConfig,
+    ReportExportConfig (ReportExportConfig'),
     newReportExportConfig,
 
     -- ** ReportFilter
-    ReportFilter,
+    ReportFilter (ReportFilter'),
     newReportFilter,
 
     -- ** ReportGroup
-    ReportGroup,
+    ReportGroup (ReportGroup'),
     newReportGroup,
 
     -- ** ReportGroupTrendStats
-    ReportGroupTrendStats,
+    ReportGroupTrendStats (ReportGroupTrendStats'),
     newReportGroupTrendStats,
 
     -- ** ReportWithRawData
-    ReportWithRawData,
+    ReportWithRawData (ReportWithRawData'),
     newReportWithRawData,
 
     -- ** ResolvedArtifact
-    ResolvedArtifact,
+    ResolvedArtifact (ResolvedArtifact'),
     newResolvedArtifact,
 
     -- ** S3LogsConfig
-    S3LogsConfig,
+    S3LogsConfig (S3LogsConfig'),
     newS3LogsConfig,
 
     -- ** S3ReportExportConfig
-    S3ReportExportConfig,
+    S3ReportExportConfig (S3ReportExportConfig'),
     newS3ReportExportConfig,
 
     -- ** SourceAuth
-    SourceAuth,
+    SourceAuth (SourceAuth'),
     newSourceAuth,
 
     -- ** SourceCredentialsInfo
-    SourceCredentialsInfo,
+    SourceCredentialsInfo (SourceCredentialsInfo'),
     newSourceCredentialsInfo,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** TestCase
-    TestCase,
+    TestCase (TestCase'),
     newTestCase,
 
     -- ** TestCaseFilter
-    TestCaseFilter,
+    TestCaseFilter (TestCaseFilter'),
     newTestCaseFilter,
 
     -- ** TestReportSummary
-    TestReportSummary,
+    TestReportSummary (TestReportSummary'),
     newTestReportSummary,
 
     -- ** VpcConfig
-    VpcConfig,
+    VpcConfig (VpcConfig'),
     newVpcConfig,
 
     -- ** Webhook
-    Webhook,
+    Webhook (Webhook'),
     newWebhook,
 
     -- ** WebhookFilter
-    WebhookFilter,
+    WebhookFilter (WebhookFilter'),
     newWebhookFilter,
   )
 where

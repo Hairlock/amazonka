@@ -77,39 +77,39 @@ module Amazonka.EBS
     -- $operations
 
     -- ** CompleteSnapshot
-    CompleteSnapshot,
+    CompleteSnapshot (CompleteSnapshot'),
     newCompleteSnapshot,
-    CompleteSnapshotResponse,
+    CompleteSnapshotResponse (CompleteSnapshotResponse'),
     newCompleteSnapshotResponse,
 
     -- ** GetSnapshotBlock
-    GetSnapshotBlock,
+    GetSnapshotBlock (GetSnapshotBlock'),
     newGetSnapshotBlock,
-    GetSnapshotBlockResponse,
+    GetSnapshotBlockResponse (GetSnapshotBlockResponse'),
     newGetSnapshotBlockResponse,
 
     -- ** ListChangedBlocks
-    ListChangedBlocks,
+    ListChangedBlocks (ListChangedBlocks'),
     newListChangedBlocks,
-    ListChangedBlocksResponse,
+    ListChangedBlocksResponse (ListChangedBlocksResponse'),
     newListChangedBlocksResponse,
 
     -- ** ListSnapshotBlocks
-    ListSnapshotBlocks,
+    ListSnapshotBlocks (ListSnapshotBlocks'),
     newListSnapshotBlocks,
-    ListSnapshotBlocksResponse,
+    ListSnapshotBlocksResponse (ListSnapshotBlocksResponse'),
     newListSnapshotBlocksResponse,
 
     -- ** PutSnapshotBlock
-    PutSnapshotBlock,
+    PutSnapshotBlock (PutSnapshotBlock'),
     newPutSnapshotBlock,
-    PutSnapshotBlockResponse,
+    PutSnapshotBlockResponse (PutSnapshotBlockResponse'),
     newPutSnapshotBlockResponse,
 
     -- ** StartSnapshot
-    StartSnapshot,
+    StartSnapshot (StartSnapshot'),
     newStartSnapshot,
-    StartSnapshotResponse,
+    StartSnapshotResponse (StartSnapshotResponse'),
     newStartSnapshotResponse,
 
     -- * Types
@@ -124,15 +124,15 @@ module Amazonka.EBS
     Status (..),
 
     -- ** Block
-    Block,
+    Block (Block'),
     newBlock,
 
     -- ** ChangedBlock
-    ChangedBlock,
+    ChangedBlock (ChangedBlock'),
     newChangedBlock,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
   )
 where

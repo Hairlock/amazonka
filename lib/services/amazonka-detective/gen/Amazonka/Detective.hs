@@ -119,147 +119,147 @@ module Amazonka.Detective
     -- $operations
 
     -- ** AcceptInvitation
-    AcceptInvitation,
+    AcceptInvitation (AcceptInvitation'),
     newAcceptInvitation,
-    AcceptInvitationResponse,
+    AcceptInvitationResponse (AcceptInvitationResponse'),
     newAcceptInvitationResponse,
 
     -- ** BatchGetGraphMemberDatasources
-    BatchGetGraphMemberDatasources,
+    BatchGetGraphMemberDatasources (BatchGetGraphMemberDatasources'),
     newBatchGetGraphMemberDatasources,
-    BatchGetGraphMemberDatasourcesResponse,
+    BatchGetGraphMemberDatasourcesResponse (BatchGetGraphMemberDatasourcesResponse'),
     newBatchGetGraphMemberDatasourcesResponse,
 
     -- ** BatchGetMembershipDatasources
-    BatchGetMembershipDatasources,
+    BatchGetMembershipDatasources (BatchGetMembershipDatasources'),
     newBatchGetMembershipDatasources,
-    BatchGetMembershipDatasourcesResponse,
+    BatchGetMembershipDatasourcesResponse (BatchGetMembershipDatasourcesResponse'),
     newBatchGetMembershipDatasourcesResponse,
 
     -- ** CreateGraph
-    CreateGraph,
+    CreateGraph (CreateGraph'),
     newCreateGraph,
-    CreateGraphResponse,
+    CreateGraphResponse (CreateGraphResponse'),
     newCreateGraphResponse,
 
     -- ** CreateMembers
-    CreateMembers,
+    CreateMembers (CreateMembers'),
     newCreateMembers,
-    CreateMembersResponse,
+    CreateMembersResponse (CreateMembersResponse'),
     newCreateMembersResponse,
 
     -- ** DeleteGraph
-    DeleteGraph,
+    DeleteGraph (DeleteGraph'),
     newDeleteGraph,
-    DeleteGraphResponse,
+    DeleteGraphResponse (DeleteGraphResponse'),
     newDeleteGraphResponse,
 
     -- ** DeleteMembers
-    DeleteMembers,
+    DeleteMembers (DeleteMembers'),
     newDeleteMembers,
-    DeleteMembersResponse,
+    DeleteMembersResponse (DeleteMembersResponse'),
     newDeleteMembersResponse,
 
     -- ** DescribeOrganizationConfiguration
-    DescribeOrganizationConfiguration,
+    DescribeOrganizationConfiguration (DescribeOrganizationConfiguration'),
     newDescribeOrganizationConfiguration,
-    DescribeOrganizationConfigurationResponse,
+    DescribeOrganizationConfigurationResponse (DescribeOrganizationConfigurationResponse'),
     newDescribeOrganizationConfigurationResponse,
 
     -- ** DisableOrganizationAdminAccount
-    DisableOrganizationAdminAccount,
+    DisableOrganizationAdminAccount (DisableOrganizationAdminAccount'),
     newDisableOrganizationAdminAccount,
-    DisableOrganizationAdminAccountResponse,
+    DisableOrganizationAdminAccountResponse (DisableOrganizationAdminAccountResponse'),
     newDisableOrganizationAdminAccountResponse,
 
     -- ** DisassociateMembership
-    DisassociateMembership,
+    DisassociateMembership (DisassociateMembership'),
     newDisassociateMembership,
-    DisassociateMembershipResponse,
+    DisassociateMembershipResponse (DisassociateMembershipResponse'),
     newDisassociateMembershipResponse,
 
     -- ** EnableOrganizationAdminAccount
-    EnableOrganizationAdminAccount,
+    EnableOrganizationAdminAccount (EnableOrganizationAdminAccount'),
     newEnableOrganizationAdminAccount,
-    EnableOrganizationAdminAccountResponse,
+    EnableOrganizationAdminAccountResponse (EnableOrganizationAdminAccountResponse'),
     newEnableOrganizationAdminAccountResponse,
 
     -- ** GetMembers
-    GetMembers,
+    GetMembers (GetMembers'),
     newGetMembers,
-    GetMembersResponse,
+    GetMembersResponse (GetMembersResponse'),
     newGetMembersResponse,
 
     -- ** ListDatasourcePackages
-    ListDatasourcePackages,
+    ListDatasourcePackages (ListDatasourcePackages'),
     newListDatasourcePackages,
-    ListDatasourcePackagesResponse,
+    ListDatasourcePackagesResponse (ListDatasourcePackagesResponse'),
     newListDatasourcePackagesResponse,
 
     -- ** ListGraphs
-    ListGraphs,
+    ListGraphs (ListGraphs'),
     newListGraphs,
-    ListGraphsResponse,
+    ListGraphsResponse (ListGraphsResponse'),
     newListGraphsResponse,
 
     -- ** ListInvitations
-    ListInvitations,
+    ListInvitations (ListInvitations'),
     newListInvitations,
-    ListInvitationsResponse,
+    ListInvitationsResponse (ListInvitationsResponse'),
     newListInvitationsResponse,
 
     -- ** ListMembers
-    ListMembers,
+    ListMembers (ListMembers'),
     newListMembers,
-    ListMembersResponse,
+    ListMembersResponse (ListMembersResponse'),
     newListMembersResponse,
 
     -- ** ListOrganizationAdminAccounts
-    ListOrganizationAdminAccounts,
+    ListOrganizationAdminAccounts (ListOrganizationAdminAccounts'),
     newListOrganizationAdminAccounts,
-    ListOrganizationAdminAccountsResponse,
+    ListOrganizationAdminAccountsResponse (ListOrganizationAdminAccountsResponse'),
     newListOrganizationAdminAccountsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** RejectInvitation
-    RejectInvitation,
+    RejectInvitation (RejectInvitation'),
     newRejectInvitation,
-    RejectInvitationResponse,
+    RejectInvitationResponse (RejectInvitationResponse'),
     newRejectInvitationResponse,
 
     -- ** StartMonitoringMember
-    StartMonitoringMember,
+    StartMonitoringMember (StartMonitoringMember'),
     newStartMonitoringMember,
-    StartMonitoringMemberResponse,
+    StartMonitoringMemberResponse (StartMonitoringMemberResponse'),
     newStartMonitoringMemberResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateDatasourcePackages
-    UpdateDatasourcePackages,
+    UpdateDatasourcePackages (UpdateDatasourcePackages'),
     newUpdateDatasourcePackages,
-    UpdateDatasourcePackagesResponse,
+    UpdateDatasourcePackagesResponse (UpdateDatasourcePackagesResponse'),
     newUpdateDatasourcePackagesResponse,
 
     -- ** UpdateOrganizationConfiguration
-    UpdateOrganizationConfiguration,
+    UpdateOrganizationConfiguration (UpdateOrganizationConfiguration'),
     newUpdateOrganizationConfiguration,
-    UpdateOrganizationConfigurationResponse,
+    UpdateOrganizationConfigurationResponse (UpdateOrganizationConfigurationResponse'),
     newUpdateOrganizationConfigurationResponse,
 
     -- * Types
@@ -280,43 +280,43 @@ module Amazonka.Detective
     MemberStatus (..),
 
     -- ** Account
-    Account,
+    Account (Account'),
     newAccount,
 
     -- ** Administrator
-    Administrator,
+    Administrator (Administrator'),
     newAdministrator,
 
     -- ** DatasourcePackageIngestDetail
-    DatasourcePackageIngestDetail,
+    DatasourcePackageIngestDetail (DatasourcePackageIngestDetail'),
     newDatasourcePackageIngestDetail,
 
     -- ** DatasourcePackageUsageInfo
-    DatasourcePackageUsageInfo,
+    DatasourcePackageUsageInfo (DatasourcePackageUsageInfo'),
     newDatasourcePackageUsageInfo,
 
     -- ** Graph
-    Graph,
+    Graph (Graph'),
     newGraph,
 
     -- ** MemberDetail
-    MemberDetail,
+    MemberDetail (MemberDetail'),
     newMemberDetail,
 
     -- ** MembershipDatasources
-    MembershipDatasources,
+    MembershipDatasources (MembershipDatasources'),
     newMembershipDatasources,
 
     -- ** TimestampForCollection
-    TimestampForCollection,
+    TimestampForCollection (TimestampForCollection'),
     newTimestampForCollection,
 
     -- ** UnprocessedAccount
-    UnprocessedAccount,
+    UnprocessedAccount (UnprocessedAccount'),
     newUnprocessedAccount,
 
     -- ** UnprocessedGraph
-    UnprocessedGraph,
+    UnprocessedGraph (UnprocessedGraph'),
     newUnprocessedGraph,
   )
 where

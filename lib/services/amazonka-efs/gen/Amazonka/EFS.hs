@@ -126,165 +126,165 @@ module Amazonka.EFS
     -- $operations
 
     -- ** CreateAccessPoint
-    CreateAccessPoint,
+    CreateAccessPoint (CreateAccessPoint'),
     newCreateAccessPoint,
-    AccessPointDescription,
+    AccessPointDescription (AccessPointDescription'),
     newAccessPointDescription,
 
     -- ** CreateFileSystem
-    CreateFileSystem,
+    CreateFileSystem (CreateFileSystem'),
     newCreateFileSystem,
-    FileSystemDescription,
+    FileSystemDescription (FileSystemDescription'),
     newFileSystemDescription,
 
     -- ** CreateMountTarget
-    CreateMountTarget,
+    CreateMountTarget (CreateMountTarget'),
     newCreateMountTarget,
-    MountTargetDescription,
+    MountTargetDescription (MountTargetDescription'),
     newMountTargetDescription,
 
     -- ** CreateReplicationConfiguration
-    CreateReplicationConfiguration,
+    CreateReplicationConfiguration (CreateReplicationConfiguration'),
     newCreateReplicationConfiguration,
-    ReplicationConfigurationDescription,
+    ReplicationConfigurationDescription (ReplicationConfigurationDescription'),
     newReplicationConfigurationDescription,
 
     -- ** DeleteAccessPoint
-    DeleteAccessPoint,
+    DeleteAccessPoint (DeleteAccessPoint'),
     newDeleteAccessPoint,
-    DeleteAccessPointResponse,
+    DeleteAccessPointResponse (DeleteAccessPointResponse'),
     newDeleteAccessPointResponse,
 
     -- ** DeleteFileSystem
-    DeleteFileSystem,
+    DeleteFileSystem (DeleteFileSystem'),
     newDeleteFileSystem,
-    DeleteFileSystemResponse,
+    DeleteFileSystemResponse (DeleteFileSystemResponse'),
     newDeleteFileSystemResponse,
 
     -- ** DeleteFileSystemPolicy
-    DeleteFileSystemPolicy,
+    DeleteFileSystemPolicy (DeleteFileSystemPolicy'),
     newDeleteFileSystemPolicy,
-    DeleteFileSystemPolicyResponse,
+    DeleteFileSystemPolicyResponse (DeleteFileSystemPolicyResponse'),
     newDeleteFileSystemPolicyResponse,
 
     -- ** DeleteMountTarget
-    DeleteMountTarget,
+    DeleteMountTarget (DeleteMountTarget'),
     newDeleteMountTarget,
-    DeleteMountTargetResponse,
+    DeleteMountTargetResponse (DeleteMountTargetResponse'),
     newDeleteMountTargetResponse,
 
     -- ** DeleteReplicationConfiguration
-    DeleteReplicationConfiguration,
+    DeleteReplicationConfiguration (DeleteReplicationConfiguration'),
     newDeleteReplicationConfiguration,
-    DeleteReplicationConfigurationResponse,
+    DeleteReplicationConfigurationResponse (DeleteReplicationConfigurationResponse'),
     newDeleteReplicationConfigurationResponse,
 
     -- ** DescribeAccessPoints
-    DescribeAccessPoints,
+    DescribeAccessPoints (DescribeAccessPoints'),
     newDescribeAccessPoints,
-    DescribeAccessPointsResponse,
+    DescribeAccessPointsResponse (DescribeAccessPointsResponse'),
     newDescribeAccessPointsResponse,
 
     -- ** DescribeAccountPreferences
-    DescribeAccountPreferences,
+    DescribeAccountPreferences (DescribeAccountPreferences'),
     newDescribeAccountPreferences,
-    DescribeAccountPreferencesResponse,
+    DescribeAccountPreferencesResponse (DescribeAccountPreferencesResponse'),
     newDescribeAccountPreferencesResponse,
 
     -- ** DescribeBackupPolicy
-    DescribeBackupPolicy,
+    DescribeBackupPolicy (DescribeBackupPolicy'),
     newDescribeBackupPolicy,
-    BackupPolicyDescription,
+    BackupPolicyDescription (BackupPolicyDescription'),
     newBackupPolicyDescription,
 
     -- ** DescribeFileSystemPolicy
-    DescribeFileSystemPolicy,
+    DescribeFileSystemPolicy (DescribeFileSystemPolicy'),
     newDescribeFileSystemPolicy,
-    FileSystemPolicyDescription,
+    FileSystemPolicyDescription (FileSystemPolicyDescription'),
     newFileSystemPolicyDescription,
 
     -- ** DescribeFileSystems (Paginated)
-    DescribeFileSystems,
+    DescribeFileSystems (DescribeFileSystems'),
     newDescribeFileSystems,
-    DescribeFileSystemsResponse,
+    DescribeFileSystemsResponse (DescribeFileSystemsResponse'),
     newDescribeFileSystemsResponse,
 
     -- ** DescribeLifecycleConfiguration
-    DescribeLifecycleConfiguration,
+    DescribeLifecycleConfiguration (DescribeLifecycleConfiguration'),
     newDescribeLifecycleConfiguration,
-    LifecycleConfigurationDescription,
+    LifecycleConfigurationDescription (LifecycleConfigurationDescription'),
     newLifecycleConfigurationDescription,
 
     -- ** DescribeMountTargetSecurityGroups
-    DescribeMountTargetSecurityGroups,
+    DescribeMountTargetSecurityGroups (DescribeMountTargetSecurityGroups'),
     newDescribeMountTargetSecurityGroups,
-    DescribeMountTargetSecurityGroupsResponse,
+    DescribeMountTargetSecurityGroupsResponse (DescribeMountTargetSecurityGroupsResponse'),
     newDescribeMountTargetSecurityGroupsResponse,
 
     -- ** DescribeMountTargets (Paginated)
-    DescribeMountTargets,
+    DescribeMountTargets (DescribeMountTargets'),
     newDescribeMountTargets,
-    DescribeMountTargetsResponse,
+    DescribeMountTargetsResponse (DescribeMountTargetsResponse'),
     newDescribeMountTargetsResponse,
 
     -- ** DescribeReplicationConfigurations
-    DescribeReplicationConfigurations,
+    DescribeReplicationConfigurations (DescribeReplicationConfigurations'),
     newDescribeReplicationConfigurations,
-    DescribeReplicationConfigurationsResponse,
+    DescribeReplicationConfigurationsResponse (DescribeReplicationConfigurationsResponse'),
     newDescribeReplicationConfigurationsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** ModifyMountTargetSecurityGroups
-    ModifyMountTargetSecurityGroups,
+    ModifyMountTargetSecurityGroups (ModifyMountTargetSecurityGroups'),
     newModifyMountTargetSecurityGroups,
-    ModifyMountTargetSecurityGroupsResponse,
+    ModifyMountTargetSecurityGroupsResponse (ModifyMountTargetSecurityGroupsResponse'),
     newModifyMountTargetSecurityGroupsResponse,
 
     -- ** PutAccountPreferences
-    PutAccountPreferences,
+    PutAccountPreferences (PutAccountPreferences'),
     newPutAccountPreferences,
-    PutAccountPreferencesResponse,
+    PutAccountPreferencesResponse (PutAccountPreferencesResponse'),
     newPutAccountPreferencesResponse,
 
     -- ** PutBackupPolicy
-    PutBackupPolicy,
+    PutBackupPolicy (PutBackupPolicy'),
     newPutBackupPolicy,
-    BackupPolicyDescription,
+    BackupPolicyDescription (BackupPolicyDescription'),
     newBackupPolicyDescription,
 
     -- ** PutFileSystemPolicy
-    PutFileSystemPolicy,
+    PutFileSystemPolicy (PutFileSystemPolicy'),
     newPutFileSystemPolicy,
-    FileSystemPolicyDescription,
+    FileSystemPolicyDescription (FileSystemPolicyDescription'),
     newFileSystemPolicyDescription,
 
     -- ** PutLifecycleConfiguration
-    PutLifecycleConfiguration,
+    PutLifecycleConfiguration (PutLifecycleConfiguration'),
     newPutLifecycleConfiguration,
-    LifecycleConfigurationDescription,
+    LifecycleConfigurationDescription (LifecycleConfigurationDescription'),
     newLifecycleConfigurationDescription,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateFileSystem
-    UpdateFileSystem,
+    UpdateFileSystem (UpdateFileSystem'),
     newUpdateFileSystem,
-    FileSystemDescription,
+    FileSystemDescription (FileSystemDescription'),
     newFileSystemDescription,
 
     -- * Types
@@ -317,71 +317,71 @@ module Amazonka.EFS
     TransitionToPrimaryStorageClassRules (..),
 
     -- ** AccessPointDescription
-    AccessPointDescription,
+    AccessPointDescription (AccessPointDescription'),
     newAccessPointDescription,
 
     -- ** BackupPolicy
-    BackupPolicy,
+    BackupPolicy (BackupPolicy'),
     newBackupPolicy,
 
     -- ** BackupPolicyDescription
-    BackupPolicyDescription,
+    BackupPolicyDescription (BackupPolicyDescription'),
     newBackupPolicyDescription,
 
     -- ** CreationInfo
-    CreationInfo,
+    CreationInfo (CreationInfo'),
     newCreationInfo,
 
     -- ** Destination
-    Destination,
+    Destination (Destination'),
     newDestination,
 
     -- ** DestinationToCreate
-    DestinationToCreate,
+    DestinationToCreate (DestinationToCreate'),
     newDestinationToCreate,
 
     -- ** FileSystemDescription
-    FileSystemDescription,
+    FileSystemDescription (FileSystemDescription'),
     newFileSystemDescription,
 
     -- ** FileSystemPolicyDescription
-    FileSystemPolicyDescription,
+    FileSystemPolicyDescription (FileSystemPolicyDescription'),
     newFileSystemPolicyDescription,
 
     -- ** FileSystemSize
-    FileSystemSize,
+    FileSystemSize (FileSystemSize'),
     newFileSystemSize,
 
     -- ** LifecycleConfigurationDescription
-    LifecycleConfigurationDescription,
+    LifecycleConfigurationDescription (LifecycleConfigurationDescription'),
     newLifecycleConfigurationDescription,
 
     -- ** LifecyclePolicy
-    LifecyclePolicy,
+    LifecyclePolicy (LifecyclePolicy'),
     newLifecyclePolicy,
 
     -- ** MountTargetDescription
-    MountTargetDescription,
+    MountTargetDescription (MountTargetDescription'),
     newMountTargetDescription,
 
     -- ** PosixUser
-    PosixUser,
+    PosixUser (PosixUser'),
     newPosixUser,
 
     -- ** ReplicationConfigurationDescription
-    ReplicationConfigurationDescription,
+    ReplicationConfigurationDescription (ReplicationConfigurationDescription'),
     newReplicationConfigurationDescription,
 
     -- ** ResourceIdPreference
-    ResourceIdPreference,
+    ResourceIdPreference (ResourceIdPreference'),
     newResourceIdPreference,
 
     -- ** RootDirectory
-    RootDirectory,
+    RootDirectory (RootDirectory'),
     newRootDirectory,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
   )
 where

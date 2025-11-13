@@ -50,39 +50,39 @@ module Amazonka.ApplicationCostProfiler
     -- $operations
 
     -- ** DeleteReportDefinition
-    DeleteReportDefinition,
+    DeleteReportDefinition (DeleteReportDefinition'),
     newDeleteReportDefinition,
-    DeleteReportDefinitionResponse,
+    DeleteReportDefinitionResponse (DeleteReportDefinitionResponse'),
     newDeleteReportDefinitionResponse,
 
     -- ** GetReportDefinition
-    GetReportDefinition,
+    GetReportDefinition (GetReportDefinition'),
     newGetReportDefinition,
-    GetReportDefinitionResponse,
+    GetReportDefinitionResponse (GetReportDefinitionResponse'),
     newGetReportDefinitionResponse,
 
     -- ** ImportApplicationUsage
-    ImportApplicationUsage,
+    ImportApplicationUsage (ImportApplicationUsage'),
     newImportApplicationUsage,
-    ImportApplicationUsageResponse,
+    ImportApplicationUsageResponse (ImportApplicationUsageResponse'),
     newImportApplicationUsageResponse,
 
     -- ** ListReportDefinitions (Paginated)
-    ListReportDefinitions,
+    ListReportDefinitions (ListReportDefinitions'),
     newListReportDefinitions,
-    ListReportDefinitionsResponse,
+    ListReportDefinitionsResponse (ListReportDefinitionsResponse'),
     newListReportDefinitionsResponse,
 
     -- ** PutReportDefinition
-    PutReportDefinition,
+    PutReportDefinition (PutReportDefinition'),
     newPutReportDefinition,
-    PutReportDefinitionResponse,
+    PutReportDefinitionResponse (PutReportDefinitionResponse'),
     newPutReportDefinitionResponse,
 
     -- ** UpdateReportDefinition
-    UpdateReportDefinition,
+    UpdateReportDefinition (UpdateReportDefinition'),
     newUpdateReportDefinition,
-    UpdateReportDefinitionResponse,
+    UpdateReportDefinitionResponse (UpdateReportDefinitionResponse'),
     newUpdateReportDefinitionResponse,
 
     -- * Types
@@ -97,15 +97,15 @@ module Amazonka.ApplicationCostProfiler
     S3BucketRegion (..),
 
     -- ** ReportDefinition
-    ReportDefinition,
+    ReportDefinition (ReportDefinition'),
     newReportDefinition,
 
     -- ** S3Location
-    S3Location,
+    S3Location (S3Location'),
     newS3Location,
 
     -- ** SourceS3Location
-    SourceS3Location,
+    SourceS3Location (SourceS3Location'),
     newSourceS3Location,
   )
 where

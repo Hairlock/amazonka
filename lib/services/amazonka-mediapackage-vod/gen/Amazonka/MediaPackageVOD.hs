@@ -44,105 +44,105 @@ module Amazonka.MediaPackageVOD
     -- $operations
 
     -- ** ConfigureLogs
-    ConfigureLogs,
+    ConfigureLogs (ConfigureLogs'),
     newConfigureLogs,
-    ConfigureLogsResponse,
+    ConfigureLogsResponse (ConfigureLogsResponse'),
     newConfigureLogsResponse,
 
     -- ** CreateAsset
-    CreateAsset,
+    CreateAsset (CreateAsset'),
     newCreateAsset,
-    CreateAssetResponse,
+    CreateAssetResponse (CreateAssetResponse'),
     newCreateAssetResponse,
 
     -- ** CreatePackagingConfiguration
-    CreatePackagingConfiguration,
+    CreatePackagingConfiguration (CreatePackagingConfiguration'),
     newCreatePackagingConfiguration,
-    CreatePackagingConfigurationResponse,
+    CreatePackagingConfigurationResponse (CreatePackagingConfigurationResponse'),
     newCreatePackagingConfigurationResponse,
 
     -- ** CreatePackagingGroup
-    CreatePackagingGroup,
+    CreatePackagingGroup (CreatePackagingGroup'),
     newCreatePackagingGroup,
-    CreatePackagingGroupResponse,
+    CreatePackagingGroupResponse (CreatePackagingGroupResponse'),
     newCreatePackagingGroupResponse,
 
     -- ** DeleteAsset
-    DeleteAsset,
+    DeleteAsset (DeleteAsset'),
     newDeleteAsset,
-    DeleteAssetResponse,
+    DeleteAssetResponse (DeleteAssetResponse'),
     newDeleteAssetResponse,
 
     -- ** DeletePackagingConfiguration
-    DeletePackagingConfiguration,
+    DeletePackagingConfiguration (DeletePackagingConfiguration'),
     newDeletePackagingConfiguration,
-    DeletePackagingConfigurationResponse,
+    DeletePackagingConfigurationResponse (DeletePackagingConfigurationResponse'),
     newDeletePackagingConfigurationResponse,
 
     -- ** DeletePackagingGroup
-    DeletePackagingGroup,
+    DeletePackagingGroup (DeletePackagingGroup'),
     newDeletePackagingGroup,
-    DeletePackagingGroupResponse,
+    DeletePackagingGroupResponse (DeletePackagingGroupResponse'),
     newDeletePackagingGroupResponse,
 
     -- ** DescribeAsset
-    DescribeAsset,
+    DescribeAsset (DescribeAsset'),
     newDescribeAsset,
-    DescribeAssetResponse,
+    DescribeAssetResponse (DescribeAssetResponse'),
     newDescribeAssetResponse,
 
     -- ** DescribePackagingConfiguration
-    DescribePackagingConfiguration,
+    DescribePackagingConfiguration (DescribePackagingConfiguration'),
     newDescribePackagingConfiguration,
-    DescribePackagingConfigurationResponse,
+    DescribePackagingConfigurationResponse (DescribePackagingConfigurationResponse'),
     newDescribePackagingConfigurationResponse,
 
     -- ** DescribePackagingGroup
-    DescribePackagingGroup,
+    DescribePackagingGroup (DescribePackagingGroup'),
     newDescribePackagingGroup,
-    DescribePackagingGroupResponse,
+    DescribePackagingGroupResponse (DescribePackagingGroupResponse'),
     newDescribePackagingGroupResponse,
 
     -- ** ListAssets (Paginated)
-    ListAssets,
+    ListAssets (ListAssets'),
     newListAssets,
-    ListAssetsResponse,
+    ListAssetsResponse (ListAssetsResponse'),
     newListAssetsResponse,
 
     -- ** ListPackagingConfigurations (Paginated)
-    ListPackagingConfigurations,
+    ListPackagingConfigurations (ListPackagingConfigurations'),
     newListPackagingConfigurations,
-    ListPackagingConfigurationsResponse,
+    ListPackagingConfigurationsResponse (ListPackagingConfigurationsResponse'),
     newListPackagingConfigurationsResponse,
 
     -- ** ListPackagingGroups (Paginated)
-    ListPackagingGroups,
+    ListPackagingGroups (ListPackagingGroups'),
     newListPackagingGroups,
-    ListPackagingGroupsResponse,
+    ListPackagingGroupsResponse (ListPackagingGroupsResponse'),
     newListPackagingGroupsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdatePackagingGroup
-    UpdatePackagingGroup,
+    UpdatePackagingGroup (UpdatePackagingGroup'),
     newUpdatePackagingGroup,
-    UpdatePackagingGroupResponse,
+    UpdatePackagingGroupResponse (UpdatePackagingGroupResponse'),
     newUpdatePackagingGroupResponse,
 
     -- * Types
@@ -178,83 +178,83 @@ module Amazonka.MediaPackageVOD
     StreamOrder (..),
 
     -- ** AssetShallow
-    AssetShallow,
+    AssetShallow (AssetShallow'),
     newAssetShallow,
 
     -- ** Authorization
-    Authorization,
+    Authorization (Authorization'),
     newAuthorization,
 
     -- ** CmafEncryption
-    CmafEncryption,
+    CmafEncryption (CmafEncryption'),
     newCmafEncryption,
 
     -- ** CmafPackage
-    CmafPackage,
+    CmafPackage (CmafPackage'),
     newCmafPackage,
 
     -- ** DashEncryption
-    DashEncryption,
+    DashEncryption (DashEncryption'),
     newDashEncryption,
 
     -- ** DashManifest
-    DashManifest,
+    DashManifest (DashManifest'),
     newDashManifest,
 
     -- ** DashPackage
-    DashPackage,
+    DashPackage (DashPackage'),
     newDashPackage,
 
     -- ** EgressAccessLogs
-    EgressAccessLogs,
+    EgressAccessLogs (EgressAccessLogs'),
     newEgressAccessLogs,
 
     -- ** EgressEndpoint
-    EgressEndpoint,
+    EgressEndpoint (EgressEndpoint'),
     newEgressEndpoint,
 
     -- ** EncryptionContractConfiguration
-    EncryptionContractConfiguration,
+    EncryptionContractConfiguration (EncryptionContractConfiguration'),
     newEncryptionContractConfiguration,
 
     -- ** HlsEncryption
-    HlsEncryption,
+    HlsEncryption (HlsEncryption'),
     newHlsEncryption,
 
     -- ** HlsManifest
-    HlsManifest,
+    HlsManifest (HlsManifest'),
     newHlsManifest,
 
     -- ** HlsPackage
-    HlsPackage,
+    HlsPackage (HlsPackage'),
     newHlsPackage,
 
     -- ** MssEncryption
-    MssEncryption,
+    MssEncryption (MssEncryption'),
     newMssEncryption,
 
     -- ** MssManifest
-    MssManifest,
+    MssManifest (MssManifest'),
     newMssManifest,
 
     -- ** MssPackage
-    MssPackage,
+    MssPackage (MssPackage'),
     newMssPackage,
 
     -- ** PackagingConfiguration
-    PackagingConfiguration,
+    PackagingConfiguration (PackagingConfiguration'),
     newPackagingConfiguration,
 
     -- ** PackagingGroup
-    PackagingGroup,
+    PackagingGroup (PackagingGroup'),
     newPackagingGroup,
 
     -- ** SpekeKeyProvider
-    SpekeKeyProvider,
+    SpekeKeyProvider (SpekeKeyProvider'),
     newSpekeKeyProvider,
 
     -- ** StreamSelection
-    StreamSelection,
+    StreamSelection (StreamSelection'),
     newStreamSelection,
   )
 where

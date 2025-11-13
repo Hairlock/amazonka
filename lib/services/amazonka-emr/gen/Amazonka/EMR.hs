@@ -48,315 +48,315 @@ module Amazonka.EMR
     -- $operations
 
     -- ** AddInstanceFleet
-    AddInstanceFleet,
+    AddInstanceFleet (AddInstanceFleet'),
     newAddInstanceFleet,
-    AddInstanceFleetResponse,
+    AddInstanceFleetResponse (AddInstanceFleetResponse'),
     newAddInstanceFleetResponse,
 
     -- ** AddInstanceGroups
-    AddInstanceGroups,
+    AddInstanceGroups (AddInstanceGroups'),
     newAddInstanceGroups,
-    AddInstanceGroupsResponse,
+    AddInstanceGroupsResponse (AddInstanceGroupsResponse'),
     newAddInstanceGroupsResponse,
 
     -- ** AddJobFlowSteps
-    AddJobFlowSteps,
+    AddJobFlowSteps (AddJobFlowSteps'),
     newAddJobFlowSteps,
-    AddJobFlowStepsResponse,
+    AddJobFlowStepsResponse (AddJobFlowStepsResponse'),
     newAddJobFlowStepsResponse,
 
     -- ** AddTags
-    AddTags,
+    AddTags (AddTags'),
     newAddTags,
-    AddTagsResponse,
+    AddTagsResponse (AddTagsResponse'),
     newAddTagsResponse,
 
     -- ** CancelSteps
-    CancelSteps,
+    CancelSteps (CancelSteps'),
     newCancelSteps,
-    CancelStepsResponse,
+    CancelStepsResponse (CancelStepsResponse'),
     newCancelStepsResponse,
 
     -- ** CreateSecurityConfiguration
-    CreateSecurityConfiguration,
+    CreateSecurityConfiguration (CreateSecurityConfiguration'),
     newCreateSecurityConfiguration,
-    CreateSecurityConfigurationResponse,
+    CreateSecurityConfigurationResponse (CreateSecurityConfigurationResponse'),
     newCreateSecurityConfigurationResponse,
 
     -- ** CreateStudio
-    CreateStudio,
+    CreateStudio (CreateStudio'),
     newCreateStudio,
-    CreateStudioResponse,
+    CreateStudioResponse (CreateStudioResponse'),
     newCreateStudioResponse,
 
     -- ** CreateStudioSessionMapping
-    CreateStudioSessionMapping,
+    CreateStudioSessionMapping (CreateStudioSessionMapping'),
     newCreateStudioSessionMapping,
-    CreateStudioSessionMappingResponse,
+    CreateStudioSessionMappingResponse (CreateStudioSessionMappingResponse'),
     newCreateStudioSessionMappingResponse,
 
     -- ** DeleteSecurityConfiguration
-    DeleteSecurityConfiguration,
+    DeleteSecurityConfiguration (DeleteSecurityConfiguration'),
     newDeleteSecurityConfiguration,
-    DeleteSecurityConfigurationResponse,
+    DeleteSecurityConfigurationResponse (DeleteSecurityConfigurationResponse'),
     newDeleteSecurityConfigurationResponse,
 
     -- ** DeleteStudio
-    DeleteStudio,
+    DeleteStudio (DeleteStudio'),
     newDeleteStudio,
-    DeleteStudioResponse,
+    DeleteStudioResponse (DeleteStudioResponse'),
     newDeleteStudioResponse,
 
     -- ** DeleteStudioSessionMapping
-    DeleteStudioSessionMapping,
+    DeleteStudioSessionMapping (DeleteStudioSessionMapping'),
     newDeleteStudioSessionMapping,
-    DeleteStudioSessionMappingResponse,
+    DeleteStudioSessionMappingResponse (DeleteStudioSessionMappingResponse'),
     newDeleteStudioSessionMappingResponse,
 
     -- ** DescribeCluster
-    DescribeCluster,
+    DescribeCluster (DescribeCluster'),
     newDescribeCluster,
-    DescribeClusterResponse,
+    DescribeClusterResponse (DescribeClusterResponse'),
     newDescribeClusterResponse,
 
     -- ** DescribeNotebookExecution
-    DescribeNotebookExecution,
+    DescribeNotebookExecution (DescribeNotebookExecution'),
     newDescribeNotebookExecution,
-    DescribeNotebookExecutionResponse,
+    DescribeNotebookExecutionResponse (DescribeNotebookExecutionResponse'),
     newDescribeNotebookExecutionResponse,
 
     -- ** DescribeReleaseLabel
-    DescribeReleaseLabel,
+    DescribeReleaseLabel (DescribeReleaseLabel'),
     newDescribeReleaseLabel,
-    DescribeReleaseLabelResponse,
+    DescribeReleaseLabelResponse (DescribeReleaseLabelResponse'),
     newDescribeReleaseLabelResponse,
 
     -- ** DescribeSecurityConfiguration
-    DescribeSecurityConfiguration,
+    DescribeSecurityConfiguration (DescribeSecurityConfiguration'),
     newDescribeSecurityConfiguration,
-    DescribeSecurityConfigurationResponse,
+    DescribeSecurityConfigurationResponse (DescribeSecurityConfigurationResponse'),
     newDescribeSecurityConfigurationResponse,
 
     -- ** DescribeStep
-    DescribeStep,
+    DescribeStep (DescribeStep'),
     newDescribeStep,
-    DescribeStepResponse,
+    DescribeStepResponse (DescribeStepResponse'),
     newDescribeStepResponse,
 
     -- ** DescribeStudio
-    DescribeStudio,
+    DescribeStudio (DescribeStudio'),
     newDescribeStudio,
-    DescribeStudioResponse,
+    DescribeStudioResponse (DescribeStudioResponse'),
     newDescribeStudioResponse,
 
     -- ** GetAutoTerminationPolicy
-    GetAutoTerminationPolicy,
+    GetAutoTerminationPolicy (GetAutoTerminationPolicy'),
     newGetAutoTerminationPolicy,
-    GetAutoTerminationPolicyResponse,
+    GetAutoTerminationPolicyResponse (GetAutoTerminationPolicyResponse'),
     newGetAutoTerminationPolicyResponse,
 
     -- ** GetBlockPublicAccessConfiguration
-    GetBlockPublicAccessConfiguration,
+    GetBlockPublicAccessConfiguration (GetBlockPublicAccessConfiguration'),
     newGetBlockPublicAccessConfiguration,
-    GetBlockPublicAccessConfigurationResponse,
+    GetBlockPublicAccessConfigurationResponse (GetBlockPublicAccessConfigurationResponse'),
     newGetBlockPublicAccessConfigurationResponse,
 
     -- ** GetClusterSessionCredentials
-    GetClusterSessionCredentials,
+    GetClusterSessionCredentials (GetClusterSessionCredentials'),
     newGetClusterSessionCredentials,
-    GetClusterSessionCredentialsResponse,
+    GetClusterSessionCredentialsResponse (GetClusterSessionCredentialsResponse'),
     newGetClusterSessionCredentialsResponse,
 
     -- ** GetManagedScalingPolicy
-    GetManagedScalingPolicy,
+    GetManagedScalingPolicy (GetManagedScalingPolicy'),
     newGetManagedScalingPolicy,
-    GetManagedScalingPolicyResponse,
+    GetManagedScalingPolicyResponse (GetManagedScalingPolicyResponse'),
     newGetManagedScalingPolicyResponse,
 
     -- ** GetStudioSessionMapping
-    GetStudioSessionMapping,
+    GetStudioSessionMapping (GetStudioSessionMapping'),
     newGetStudioSessionMapping,
-    GetStudioSessionMappingResponse,
+    GetStudioSessionMappingResponse (GetStudioSessionMappingResponse'),
     newGetStudioSessionMappingResponse,
 
     -- ** ListBootstrapActions (Paginated)
-    ListBootstrapActions,
+    ListBootstrapActions (ListBootstrapActions'),
     newListBootstrapActions,
-    ListBootstrapActionsResponse,
+    ListBootstrapActionsResponse (ListBootstrapActionsResponse'),
     newListBootstrapActionsResponse,
 
     -- ** ListClusters (Paginated)
-    ListClusters,
+    ListClusters (ListClusters'),
     newListClusters,
-    ListClustersResponse,
+    ListClustersResponse (ListClustersResponse'),
     newListClustersResponse,
 
     -- ** ListInstanceFleets (Paginated)
-    ListInstanceFleets,
+    ListInstanceFleets (ListInstanceFleets'),
     newListInstanceFleets,
-    ListInstanceFleetsResponse,
+    ListInstanceFleetsResponse (ListInstanceFleetsResponse'),
     newListInstanceFleetsResponse,
 
     -- ** ListInstanceGroups (Paginated)
-    ListInstanceGroups,
+    ListInstanceGroups (ListInstanceGroups'),
     newListInstanceGroups,
-    ListInstanceGroupsResponse,
+    ListInstanceGroupsResponse (ListInstanceGroupsResponse'),
     newListInstanceGroupsResponse,
 
     -- ** ListInstances (Paginated)
-    ListInstances,
+    ListInstances (ListInstances'),
     newListInstances,
-    ListInstancesResponse,
+    ListInstancesResponse (ListInstancesResponse'),
     newListInstancesResponse,
 
     -- ** ListNotebookExecutions (Paginated)
-    ListNotebookExecutions,
+    ListNotebookExecutions (ListNotebookExecutions'),
     newListNotebookExecutions,
-    ListNotebookExecutionsResponse,
+    ListNotebookExecutionsResponse (ListNotebookExecutionsResponse'),
     newListNotebookExecutionsResponse,
 
     -- ** ListReleaseLabels
-    ListReleaseLabels,
+    ListReleaseLabels (ListReleaseLabels'),
     newListReleaseLabels,
-    ListReleaseLabelsResponse,
+    ListReleaseLabelsResponse (ListReleaseLabelsResponse'),
     newListReleaseLabelsResponse,
 
     -- ** ListSecurityConfigurations (Paginated)
-    ListSecurityConfigurations,
+    ListSecurityConfigurations (ListSecurityConfigurations'),
     newListSecurityConfigurations,
-    ListSecurityConfigurationsResponse,
+    ListSecurityConfigurationsResponse (ListSecurityConfigurationsResponse'),
     newListSecurityConfigurationsResponse,
 
     -- ** ListSteps (Paginated)
-    ListSteps,
+    ListSteps (ListSteps'),
     newListSteps,
-    ListStepsResponse,
+    ListStepsResponse (ListStepsResponse'),
     newListStepsResponse,
 
     -- ** ListStudioSessionMappings (Paginated)
-    ListStudioSessionMappings,
+    ListStudioSessionMappings (ListStudioSessionMappings'),
     newListStudioSessionMappings,
-    ListStudioSessionMappingsResponse,
+    ListStudioSessionMappingsResponse (ListStudioSessionMappingsResponse'),
     newListStudioSessionMappingsResponse,
 
     -- ** ListStudios (Paginated)
-    ListStudios,
+    ListStudios (ListStudios'),
     newListStudios,
-    ListStudiosResponse,
+    ListStudiosResponse (ListStudiosResponse'),
     newListStudiosResponse,
 
     -- ** ModifyCluster
-    ModifyCluster,
+    ModifyCluster (ModifyCluster'),
     newModifyCluster,
-    ModifyClusterResponse,
+    ModifyClusterResponse (ModifyClusterResponse'),
     newModifyClusterResponse,
 
     -- ** ModifyInstanceFleet
-    ModifyInstanceFleet,
+    ModifyInstanceFleet (ModifyInstanceFleet'),
     newModifyInstanceFleet,
-    ModifyInstanceFleetResponse,
+    ModifyInstanceFleetResponse (ModifyInstanceFleetResponse'),
     newModifyInstanceFleetResponse,
 
     -- ** ModifyInstanceGroups
-    ModifyInstanceGroups,
+    ModifyInstanceGroups (ModifyInstanceGroups'),
     newModifyInstanceGroups,
-    ModifyInstanceGroupsResponse,
+    ModifyInstanceGroupsResponse (ModifyInstanceGroupsResponse'),
     newModifyInstanceGroupsResponse,
 
     -- ** PutAutoScalingPolicy
-    PutAutoScalingPolicy,
+    PutAutoScalingPolicy (PutAutoScalingPolicy'),
     newPutAutoScalingPolicy,
-    PutAutoScalingPolicyResponse,
+    PutAutoScalingPolicyResponse (PutAutoScalingPolicyResponse'),
     newPutAutoScalingPolicyResponse,
 
     -- ** PutAutoTerminationPolicy
-    PutAutoTerminationPolicy,
+    PutAutoTerminationPolicy (PutAutoTerminationPolicy'),
     newPutAutoTerminationPolicy,
-    PutAutoTerminationPolicyResponse,
+    PutAutoTerminationPolicyResponse (PutAutoTerminationPolicyResponse'),
     newPutAutoTerminationPolicyResponse,
 
     -- ** PutBlockPublicAccessConfiguration
-    PutBlockPublicAccessConfiguration,
+    PutBlockPublicAccessConfiguration (PutBlockPublicAccessConfiguration'),
     newPutBlockPublicAccessConfiguration,
-    PutBlockPublicAccessConfigurationResponse,
+    PutBlockPublicAccessConfigurationResponse (PutBlockPublicAccessConfigurationResponse'),
     newPutBlockPublicAccessConfigurationResponse,
 
     -- ** PutManagedScalingPolicy
-    PutManagedScalingPolicy,
+    PutManagedScalingPolicy (PutManagedScalingPolicy'),
     newPutManagedScalingPolicy,
-    PutManagedScalingPolicyResponse,
+    PutManagedScalingPolicyResponse (PutManagedScalingPolicyResponse'),
     newPutManagedScalingPolicyResponse,
 
     -- ** RemoveAutoScalingPolicy
-    RemoveAutoScalingPolicy,
+    RemoveAutoScalingPolicy (RemoveAutoScalingPolicy'),
     newRemoveAutoScalingPolicy,
-    RemoveAutoScalingPolicyResponse,
+    RemoveAutoScalingPolicyResponse (RemoveAutoScalingPolicyResponse'),
     newRemoveAutoScalingPolicyResponse,
 
     -- ** RemoveAutoTerminationPolicy
-    RemoveAutoTerminationPolicy,
+    RemoveAutoTerminationPolicy (RemoveAutoTerminationPolicy'),
     newRemoveAutoTerminationPolicy,
-    RemoveAutoTerminationPolicyResponse,
+    RemoveAutoTerminationPolicyResponse (RemoveAutoTerminationPolicyResponse'),
     newRemoveAutoTerminationPolicyResponse,
 
     -- ** RemoveManagedScalingPolicy
-    RemoveManagedScalingPolicy,
+    RemoveManagedScalingPolicy (RemoveManagedScalingPolicy'),
     newRemoveManagedScalingPolicy,
-    RemoveManagedScalingPolicyResponse,
+    RemoveManagedScalingPolicyResponse (RemoveManagedScalingPolicyResponse'),
     newRemoveManagedScalingPolicyResponse,
 
     -- ** RemoveTags
-    RemoveTags,
+    RemoveTags (RemoveTags'),
     newRemoveTags,
-    RemoveTagsResponse,
+    RemoveTagsResponse (RemoveTagsResponse'),
     newRemoveTagsResponse,
 
     -- ** RunJobFlow
-    RunJobFlow,
+    RunJobFlow (RunJobFlow'),
     newRunJobFlow,
-    RunJobFlowResponse,
+    RunJobFlowResponse (RunJobFlowResponse'),
     newRunJobFlowResponse,
 
     -- ** SetTerminationProtection
-    SetTerminationProtection,
+    SetTerminationProtection (SetTerminationProtection'),
     newSetTerminationProtection,
-    SetTerminationProtectionResponse,
+    SetTerminationProtectionResponse (SetTerminationProtectionResponse'),
     newSetTerminationProtectionResponse,
 
     -- ** SetVisibleToAllUsers
-    SetVisibleToAllUsers,
+    SetVisibleToAllUsers (SetVisibleToAllUsers'),
     newSetVisibleToAllUsers,
-    SetVisibleToAllUsersResponse,
+    SetVisibleToAllUsersResponse (SetVisibleToAllUsersResponse'),
     newSetVisibleToAllUsersResponse,
 
     -- ** StartNotebookExecution
-    StartNotebookExecution,
+    StartNotebookExecution (StartNotebookExecution'),
     newStartNotebookExecution,
-    StartNotebookExecutionResponse,
+    StartNotebookExecutionResponse (StartNotebookExecutionResponse'),
     newStartNotebookExecutionResponse,
 
     -- ** StopNotebookExecution
-    StopNotebookExecution,
+    StopNotebookExecution (StopNotebookExecution'),
     newStopNotebookExecution,
-    StopNotebookExecutionResponse,
+    StopNotebookExecutionResponse (StopNotebookExecutionResponse'),
     newStopNotebookExecutionResponse,
 
     -- ** TerminateJobFlows
-    TerminateJobFlows,
+    TerminateJobFlows (TerminateJobFlows'),
     newTerminateJobFlows,
-    TerminateJobFlowsResponse,
+    TerminateJobFlowsResponse (TerminateJobFlowsResponse'),
     newTerminateJobFlowsResponse,
 
     -- ** UpdateStudio
-    UpdateStudio,
+    UpdateStudio (UpdateStudio'),
     newUpdateStudio,
-    UpdateStudioResponse,
+    UpdateStudioResponse (UpdateStudioResponse'),
     newUpdateStudioResponse,
 
     -- ** UpdateStudioSessionMapping
-    UpdateStudioSessionMapping,
+    UpdateStudioSessionMapping (UpdateStudioSessionMapping'),
     newUpdateStudioSessionMapping,
-    UpdateStudioSessionMappingResponse,
+    UpdateStudioSessionMappingResponse (UpdateStudioSessionMappingResponse'),
     newUpdateStudioSessionMappingResponse,
 
     -- * Types
@@ -476,351 +476,351 @@ module Amazonka.EMR
     Unit (..),
 
     -- ** Application
-    Application,
+    Application (Application'),
     newApplication,
 
     -- ** AutoScalingPolicy
-    AutoScalingPolicy,
+    AutoScalingPolicy (AutoScalingPolicy'),
     newAutoScalingPolicy,
 
     -- ** AutoScalingPolicyDescription
-    AutoScalingPolicyDescription,
+    AutoScalingPolicyDescription (AutoScalingPolicyDescription'),
     newAutoScalingPolicyDescription,
 
     -- ** AutoScalingPolicyStateChangeReason
-    AutoScalingPolicyStateChangeReason,
+    AutoScalingPolicyStateChangeReason (AutoScalingPolicyStateChangeReason'),
     newAutoScalingPolicyStateChangeReason,
 
     -- ** AutoScalingPolicyStatus
-    AutoScalingPolicyStatus,
+    AutoScalingPolicyStatus (AutoScalingPolicyStatus'),
     newAutoScalingPolicyStatus,
 
     -- ** AutoTerminationPolicy
-    AutoTerminationPolicy,
+    AutoTerminationPolicy (AutoTerminationPolicy'),
     newAutoTerminationPolicy,
 
     -- ** BlockPublicAccessConfiguration
-    BlockPublicAccessConfiguration,
+    BlockPublicAccessConfiguration (BlockPublicAccessConfiguration'),
     newBlockPublicAccessConfiguration,
 
     -- ** BlockPublicAccessConfigurationMetadata
-    BlockPublicAccessConfigurationMetadata,
+    BlockPublicAccessConfigurationMetadata (BlockPublicAccessConfigurationMetadata'),
     newBlockPublicAccessConfigurationMetadata,
 
     -- ** BootstrapActionConfig
-    BootstrapActionConfig,
+    BootstrapActionConfig (BootstrapActionConfig'),
     newBootstrapActionConfig,
 
     -- ** CancelStepsInfo
-    CancelStepsInfo,
+    CancelStepsInfo (CancelStepsInfo'),
     newCancelStepsInfo,
 
     -- ** CloudWatchAlarmDefinition
-    CloudWatchAlarmDefinition,
+    CloudWatchAlarmDefinition (CloudWatchAlarmDefinition'),
     newCloudWatchAlarmDefinition,
 
     -- ** Cluster
-    Cluster,
+    Cluster (Cluster'),
     newCluster,
 
     -- ** ClusterStateChangeReason
-    ClusterStateChangeReason,
+    ClusterStateChangeReason (ClusterStateChangeReason'),
     newClusterStateChangeReason,
 
     -- ** ClusterStatus
-    ClusterStatus,
+    ClusterStatus (ClusterStatus'),
     newClusterStatus,
 
     -- ** ClusterSummary
-    ClusterSummary,
+    ClusterSummary (ClusterSummary'),
     newClusterSummary,
 
     -- ** ClusterTimeline
-    ClusterTimeline,
+    ClusterTimeline (ClusterTimeline'),
     newClusterTimeline,
 
     -- ** Command
-    Command,
+    Command (Command'),
     newCommand,
 
     -- ** ComputeLimits
-    ComputeLimits,
+    ComputeLimits (ComputeLimits'),
     newComputeLimits,
 
     -- ** Configuration
-    Configuration,
+    Configuration (Configuration'),
     newConfiguration,
 
     -- ** Credentials
-    Credentials,
+    Credentials (Credentials'),
     newCredentials,
 
     -- ** EbsBlockDevice
-    EbsBlockDevice,
+    EbsBlockDevice (EbsBlockDevice'),
     newEbsBlockDevice,
 
     -- ** EbsBlockDeviceConfig
-    EbsBlockDeviceConfig,
+    EbsBlockDeviceConfig (EbsBlockDeviceConfig'),
     newEbsBlockDeviceConfig,
 
     -- ** EbsConfiguration
-    EbsConfiguration,
+    EbsConfiguration (EbsConfiguration'),
     newEbsConfiguration,
 
     -- ** EbsVolume
-    EbsVolume,
+    EbsVolume (EbsVolume'),
     newEbsVolume,
 
     -- ** Ec2InstanceAttributes
-    Ec2InstanceAttributes,
+    Ec2InstanceAttributes (Ec2InstanceAttributes'),
     newEc2InstanceAttributes,
 
     -- ** ExecutionEngineConfig
-    ExecutionEngineConfig,
+    ExecutionEngineConfig (ExecutionEngineConfig'),
     newExecutionEngineConfig,
 
     -- ** FailureDetails
-    FailureDetails,
+    FailureDetails (FailureDetails'),
     newFailureDetails,
 
     -- ** HadoopJarStepConfig
-    HadoopJarStepConfig,
+    HadoopJarStepConfig (HadoopJarStepConfig'),
     newHadoopJarStepConfig,
 
     -- ** HadoopStepConfig
-    HadoopStepConfig,
+    HadoopStepConfig (HadoopStepConfig'),
     newHadoopStepConfig,
 
     -- ** Instance
-    Instance,
+    Instance (Instance'),
     newInstance,
 
     -- ** InstanceFleet
-    InstanceFleet,
+    InstanceFleet (InstanceFleet'),
     newInstanceFleet,
 
     -- ** InstanceFleetConfig
-    InstanceFleetConfig,
+    InstanceFleetConfig (InstanceFleetConfig'),
     newInstanceFleetConfig,
 
     -- ** InstanceFleetModifyConfig
-    InstanceFleetModifyConfig,
+    InstanceFleetModifyConfig (InstanceFleetModifyConfig'),
     newInstanceFleetModifyConfig,
 
     -- ** InstanceFleetProvisioningSpecifications
-    InstanceFleetProvisioningSpecifications,
+    InstanceFleetProvisioningSpecifications (InstanceFleetProvisioningSpecifications'),
     newInstanceFleetProvisioningSpecifications,
 
     -- ** InstanceFleetStateChangeReason
-    InstanceFleetStateChangeReason,
+    InstanceFleetStateChangeReason (InstanceFleetStateChangeReason'),
     newInstanceFleetStateChangeReason,
 
     -- ** InstanceFleetStatus
-    InstanceFleetStatus,
+    InstanceFleetStatus (InstanceFleetStatus'),
     newInstanceFleetStatus,
 
     -- ** InstanceFleetTimeline
-    InstanceFleetTimeline,
+    InstanceFleetTimeline (InstanceFleetTimeline'),
     newInstanceFleetTimeline,
 
     -- ** InstanceGroup
-    InstanceGroup,
+    InstanceGroup (InstanceGroup'),
     newInstanceGroup,
 
     -- ** InstanceGroupConfig
-    InstanceGroupConfig,
+    InstanceGroupConfig (InstanceGroupConfig'),
     newInstanceGroupConfig,
 
     -- ** InstanceGroupModifyConfig
-    InstanceGroupModifyConfig,
+    InstanceGroupModifyConfig (InstanceGroupModifyConfig'),
     newInstanceGroupModifyConfig,
 
     -- ** InstanceGroupStateChangeReason
-    InstanceGroupStateChangeReason,
+    InstanceGroupStateChangeReason (InstanceGroupStateChangeReason'),
     newInstanceGroupStateChangeReason,
 
     -- ** InstanceGroupStatus
-    InstanceGroupStatus,
+    InstanceGroupStatus (InstanceGroupStatus'),
     newInstanceGroupStatus,
 
     -- ** InstanceGroupTimeline
-    InstanceGroupTimeline,
+    InstanceGroupTimeline (InstanceGroupTimeline'),
     newInstanceGroupTimeline,
 
     -- ** InstanceResizePolicy
-    InstanceResizePolicy,
+    InstanceResizePolicy (InstanceResizePolicy'),
     newInstanceResizePolicy,
 
     -- ** InstanceStateChangeReason
-    InstanceStateChangeReason,
+    InstanceStateChangeReason (InstanceStateChangeReason'),
     newInstanceStateChangeReason,
 
     -- ** InstanceStatus
-    InstanceStatus,
+    InstanceStatus (InstanceStatus'),
     newInstanceStatus,
 
     -- ** InstanceTimeline
-    InstanceTimeline,
+    InstanceTimeline (InstanceTimeline'),
     newInstanceTimeline,
 
     -- ** InstanceTypeConfig
-    InstanceTypeConfig,
+    InstanceTypeConfig (InstanceTypeConfig'),
     newInstanceTypeConfig,
 
     -- ** InstanceTypeSpecification
-    InstanceTypeSpecification,
+    InstanceTypeSpecification (InstanceTypeSpecification'),
     newInstanceTypeSpecification,
 
     -- ** JobFlowInstancesConfig
-    JobFlowInstancesConfig,
+    JobFlowInstancesConfig (JobFlowInstancesConfig'),
     newJobFlowInstancesConfig,
 
     -- ** KerberosAttributes
-    KerberosAttributes,
+    KerberosAttributes (KerberosAttributes'),
     newKerberosAttributes,
 
     -- ** KeyValue
-    KeyValue,
+    KeyValue (KeyValue'),
     newKeyValue,
 
     -- ** ManagedScalingPolicy
-    ManagedScalingPolicy,
+    ManagedScalingPolicy (ManagedScalingPolicy'),
     newManagedScalingPolicy,
 
     -- ** MetricDimension
-    MetricDimension,
+    MetricDimension (MetricDimension'),
     newMetricDimension,
 
     -- ** NotebookExecution
-    NotebookExecution,
+    NotebookExecution (NotebookExecution'),
     newNotebookExecution,
 
     -- ** NotebookExecutionSummary
-    NotebookExecutionSummary,
+    NotebookExecutionSummary (NotebookExecutionSummary'),
     newNotebookExecutionSummary,
 
     -- ** OSRelease
-    OSRelease,
+    OSRelease (OSRelease'),
     newOSRelease,
 
     -- ** OnDemandCapacityReservationOptions
-    OnDemandCapacityReservationOptions,
+    OnDemandCapacityReservationOptions (OnDemandCapacityReservationOptions'),
     newOnDemandCapacityReservationOptions,
 
     -- ** OnDemandProvisioningSpecification
-    OnDemandProvisioningSpecification,
+    OnDemandProvisioningSpecification (OnDemandProvisioningSpecification'),
     newOnDemandProvisioningSpecification,
 
     -- ** PlacementGroupConfig
-    PlacementGroupConfig,
+    PlacementGroupConfig (PlacementGroupConfig'),
     newPlacementGroupConfig,
 
     -- ** PlacementType
-    PlacementType,
+    PlacementType (PlacementType'),
     newPlacementType,
 
     -- ** PortRange
-    PortRange,
+    PortRange (PortRange'),
     newPortRange,
 
     -- ** ReleaseLabelFilter
-    ReleaseLabelFilter,
+    ReleaseLabelFilter (ReleaseLabelFilter'),
     newReleaseLabelFilter,
 
     -- ** ScalingAction
-    ScalingAction,
+    ScalingAction (ScalingAction'),
     newScalingAction,
 
     -- ** ScalingConstraints
-    ScalingConstraints,
+    ScalingConstraints (ScalingConstraints'),
     newScalingConstraints,
 
     -- ** ScalingRule
-    ScalingRule,
+    ScalingRule (ScalingRule'),
     newScalingRule,
 
     -- ** ScalingTrigger
-    ScalingTrigger,
+    ScalingTrigger (ScalingTrigger'),
     newScalingTrigger,
 
     -- ** ScriptBootstrapActionConfig
-    ScriptBootstrapActionConfig,
+    ScriptBootstrapActionConfig (ScriptBootstrapActionConfig'),
     newScriptBootstrapActionConfig,
 
     -- ** SecurityConfigurationSummary
-    SecurityConfigurationSummary,
+    SecurityConfigurationSummary (SecurityConfigurationSummary'),
     newSecurityConfigurationSummary,
 
     -- ** SessionMappingDetail
-    SessionMappingDetail,
+    SessionMappingDetail (SessionMappingDetail'),
     newSessionMappingDetail,
 
     -- ** SessionMappingSummary
-    SessionMappingSummary,
+    SessionMappingSummary (SessionMappingSummary'),
     newSessionMappingSummary,
 
     -- ** ShrinkPolicy
-    ShrinkPolicy,
+    ShrinkPolicy (ShrinkPolicy'),
     newShrinkPolicy,
 
     -- ** SimpleScalingPolicyConfiguration
-    SimpleScalingPolicyConfiguration,
+    SimpleScalingPolicyConfiguration (SimpleScalingPolicyConfiguration'),
     newSimpleScalingPolicyConfiguration,
 
     -- ** SimplifiedApplication
-    SimplifiedApplication,
+    SimplifiedApplication (SimplifiedApplication'),
     newSimplifiedApplication,
 
     -- ** SpotProvisioningSpecification
-    SpotProvisioningSpecification,
+    SpotProvisioningSpecification (SpotProvisioningSpecification'),
     newSpotProvisioningSpecification,
 
     -- ** Step
-    Step,
+    Step (Step'),
     newStep,
 
     -- ** StepConfig
-    StepConfig,
+    StepConfig (StepConfig'),
     newStepConfig,
 
     -- ** StepStateChangeReason
-    StepStateChangeReason,
+    StepStateChangeReason (StepStateChangeReason'),
     newStepStateChangeReason,
 
     -- ** StepStatus
-    StepStatus,
+    StepStatus (StepStatus'),
     newStepStatus,
 
     -- ** StepSummary
-    StepSummary,
+    StepSummary (StepSummary'),
     newStepSummary,
 
     -- ** StepTimeline
-    StepTimeline,
+    StepTimeline (StepTimeline'),
     newStepTimeline,
 
     -- ** Studio
-    Studio,
+    Studio (Studio'),
     newStudio,
 
     -- ** StudioSummary
-    StudioSummary,
+    StudioSummary (StudioSummary'),
     newStudioSummary,
 
     -- ** SupportedProductConfig
-    SupportedProductConfig,
+    SupportedProductConfig (SupportedProductConfig'),
     newSupportedProductConfig,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** UsernamePassword
-    UsernamePassword,
+    UsernamePassword (UsernamePassword'),
     newUsernamePassword,
 
     -- ** VolumeSpecification
-    VolumeSpecification,
+    VolumeSpecification (VolumeSpecification'),
     newVolumeSpecification,
   )
 where

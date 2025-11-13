@@ -88,105 +88,105 @@ module Amazonka.CognitoSync
     -- $operations
 
     -- ** BulkPublish
-    BulkPublish,
+    BulkPublish (BulkPublish'),
     newBulkPublish,
-    BulkPublishResponse,
+    BulkPublishResponse (BulkPublishResponse'),
     newBulkPublishResponse,
 
     -- ** DeleteDataset
-    DeleteDataset,
+    DeleteDataset (DeleteDataset'),
     newDeleteDataset,
-    DeleteDatasetResponse,
+    DeleteDatasetResponse (DeleteDatasetResponse'),
     newDeleteDatasetResponse,
 
     -- ** DescribeDataset
-    DescribeDataset,
+    DescribeDataset (DescribeDataset'),
     newDescribeDataset,
-    DescribeDatasetResponse,
+    DescribeDatasetResponse (DescribeDatasetResponse'),
     newDescribeDatasetResponse,
 
     -- ** DescribeIdentityPoolUsage
-    DescribeIdentityPoolUsage,
+    DescribeIdentityPoolUsage (DescribeIdentityPoolUsage'),
     newDescribeIdentityPoolUsage,
-    DescribeIdentityPoolUsageResponse,
+    DescribeIdentityPoolUsageResponse (DescribeIdentityPoolUsageResponse'),
     newDescribeIdentityPoolUsageResponse,
 
     -- ** DescribeIdentityUsage
-    DescribeIdentityUsage,
+    DescribeIdentityUsage (DescribeIdentityUsage'),
     newDescribeIdentityUsage,
-    DescribeIdentityUsageResponse,
+    DescribeIdentityUsageResponse (DescribeIdentityUsageResponse'),
     newDescribeIdentityUsageResponse,
 
     -- ** GetBulkPublishDetails
-    GetBulkPublishDetails,
+    GetBulkPublishDetails (GetBulkPublishDetails'),
     newGetBulkPublishDetails,
-    GetBulkPublishDetailsResponse,
+    GetBulkPublishDetailsResponse (GetBulkPublishDetailsResponse'),
     newGetBulkPublishDetailsResponse,
 
     -- ** GetCognitoEvents
-    GetCognitoEvents,
+    GetCognitoEvents (GetCognitoEvents'),
     newGetCognitoEvents,
-    GetCognitoEventsResponse,
+    GetCognitoEventsResponse (GetCognitoEventsResponse'),
     newGetCognitoEventsResponse,
 
     -- ** GetIdentityPoolConfiguration
-    GetIdentityPoolConfiguration,
+    GetIdentityPoolConfiguration (GetIdentityPoolConfiguration'),
     newGetIdentityPoolConfiguration,
-    GetIdentityPoolConfigurationResponse,
+    GetIdentityPoolConfigurationResponse (GetIdentityPoolConfigurationResponse'),
     newGetIdentityPoolConfigurationResponse,
 
     -- ** ListDatasets
-    ListDatasets,
+    ListDatasets (ListDatasets'),
     newListDatasets,
-    ListDatasetsResponse,
+    ListDatasetsResponse (ListDatasetsResponse'),
     newListDatasetsResponse,
 
     -- ** ListIdentityPoolUsage
-    ListIdentityPoolUsage,
+    ListIdentityPoolUsage (ListIdentityPoolUsage'),
     newListIdentityPoolUsage,
-    ListIdentityPoolUsageResponse,
+    ListIdentityPoolUsageResponse (ListIdentityPoolUsageResponse'),
     newListIdentityPoolUsageResponse,
 
     -- ** ListRecords
-    ListRecords,
+    ListRecords (ListRecords'),
     newListRecords,
-    ListRecordsResponse,
+    ListRecordsResponse (ListRecordsResponse'),
     newListRecordsResponse,
 
     -- ** RegisterDevice
-    RegisterDevice,
+    RegisterDevice (RegisterDevice'),
     newRegisterDevice,
-    RegisterDeviceResponse,
+    RegisterDeviceResponse (RegisterDeviceResponse'),
     newRegisterDeviceResponse,
 
     -- ** SetCognitoEvents
-    SetCognitoEvents,
+    SetCognitoEvents (SetCognitoEvents'),
     newSetCognitoEvents,
-    SetCognitoEventsResponse,
+    SetCognitoEventsResponse (SetCognitoEventsResponse'),
     newSetCognitoEventsResponse,
 
     -- ** SetIdentityPoolConfiguration
-    SetIdentityPoolConfiguration,
+    SetIdentityPoolConfiguration (SetIdentityPoolConfiguration'),
     newSetIdentityPoolConfiguration,
-    SetIdentityPoolConfigurationResponse,
+    SetIdentityPoolConfigurationResponse (SetIdentityPoolConfigurationResponse'),
     newSetIdentityPoolConfigurationResponse,
 
     -- ** SubscribeToDataset
-    SubscribeToDataset,
+    SubscribeToDataset (SubscribeToDataset'),
     newSubscribeToDataset,
-    SubscribeToDatasetResponse,
+    SubscribeToDatasetResponse (SubscribeToDatasetResponse'),
     newSubscribeToDatasetResponse,
 
     -- ** UnsubscribeFromDataset
-    UnsubscribeFromDataset,
+    UnsubscribeFromDataset (UnsubscribeFromDataset'),
     newUnsubscribeFromDataset,
-    UnsubscribeFromDatasetResponse,
+    UnsubscribeFromDatasetResponse (UnsubscribeFromDatasetResponse'),
     newUnsubscribeFromDatasetResponse,
 
     -- ** UpdateRecords
-    UpdateRecords,
+    UpdateRecords (UpdateRecords'),
     newUpdateRecords,
-    UpdateRecordsResponse,
+    UpdateRecordsResponse (UpdateRecordsResponse'),
     newUpdateRecordsResponse,
 
     -- * Types
@@ -204,31 +204,31 @@ module Amazonka.CognitoSync
     StreamingStatus (..),
 
     -- ** CognitoStreams
-    CognitoStreams,
+    CognitoStreams (CognitoStreams'),
     newCognitoStreams,
 
     -- ** Dataset
-    Dataset,
+    Dataset (Dataset'),
     newDataset,
 
     -- ** IdentityPoolUsage
-    IdentityPoolUsage,
+    IdentityPoolUsage (IdentityPoolUsage'),
     newIdentityPoolUsage,
 
     -- ** IdentityUsage
-    IdentityUsage,
+    IdentityUsage (IdentityUsage'),
     newIdentityUsage,
 
     -- ** PushSync
-    PushSync,
+    PushSync (PushSync'),
     newPushSync,
 
     -- ** Record
-    Record,
+    Record (Record'),
     newRecord,
 
     -- ** RecordPatch
-    RecordPatch,
+    RecordPatch (RecordPatch'),
     newRecordPatch,
   )
 where

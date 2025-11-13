@@ -47,15 +47,15 @@ module Amazonka.KinesisVideoSignaling
     -- $operations
 
     -- ** GetIceServerConfig
-    GetIceServerConfig,
+    GetIceServerConfig (GetIceServerConfig'),
     newGetIceServerConfig,
-    GetIceServerConfigResponse,
+    GetIceServerConfigResponse (GetIceServerConfigResponse'),
     newGetIceServerConfigResponse,
 
     -- ** SendAlexaOfferToMaster
-    SendAlexaOfferToMaster,
+    SendAlexaOfferToMaster (SendAlexaOfferToMaster'),
     newSendAlexaOfferToMaster,
-    SendAlexaOfferToMasterResponse,
+    SendAlexaOfferToMasterResponse (SendAlexaOfferToMasterResponse'),
     newSendAlexaOfferToMasterResponse,
 
     -- * Types
@@ -64,7 +64,7 @@ module Amazonka.KinesisVideoSignaling
     Service (..),
 
     -- ** IceServer
-    IceServer,
+    IceServer (IceServer'),
     newIceServer,
   )
 where

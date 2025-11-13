@@ -67,189 +67,189 @@ module Amazonka.BillingConductor
     -- $operations
 
     -- ** AssociateAccounts
-    AssociateAccounts,
+    AssociateAccounts (AssociateAccounts'),
     newAssociateAccounts,
-    AssociateAccountsResponse,
+    AssociateAccountsResponse (AssociateAccountsResponse'),
     newAssociateAccountsResponse,
 
     -- ** AssociatePricingRules
-    AssociatePricingRules,
+    AssociatePricingRules (AssociatePricingRules'),
     newAssociatePricingRules,
-    AssociatePricingRulesResponse,
+    AssociatePricingRulesResponse (AssociatePricingRulesResponse'),
     newAssociatePricingRulesResponse,
 
     -- ** BatchAssociateResourcesToCustomLineItem
-    BatchAssociateResourcesToCustomLineItem,
+    BatchAssociateResourcesToCustomLineItem (BatchAssociateResourcesToCustomLineItem'),
     newBatchAssociateResourcesToCustomLineItem,
-    BatchAssociateResourcesToCustomLineItemResponse,
+    BatchAssociateResourcesToCustomLineItemResponse (BatchAssociateResourcesToCustomLineItemResponse'),
     newBatchAssociateResourcesToCustomLineItemResponse,
 
     -- ** BatchDisassociateResourcesFromCustomLineItem
-    BatchDisassociateResourcesFromCustomLineItem,
+    BatchDisassociateResourcesFromCustomLineItem (BatchDisassociateResourcesFromCustomLineItem'),
     newBatchDisassociateResourcesFromCustomLineItem,
-    BatchDisassociateResourcesFromCustomLineItemResponse,
+    BatchDisassociateResourcesFromCustomLineItemResponse (BatchDisassociateResourcesFromCustomLineItemResponse'),
     newBatchDisassociateResourcesFromCustomLineItemResponse,
 
     -- ** CreateBillingGroup
-    CreateBillingGroup,
+    CreateBillingGroup (CreateBillingGroup'),
     newCreateBillingGroup,
-    CreateBillingGroupResponse,
+    CreateBillingGroupResponse (CreateBillingGroupResponse'),
     newCreateBillingGroupResponse,
 
     -- ** CreateCustomLineItem
-    CreateCustomLineItem,
+    CreateCustomLineItem (CreateCustomLineItem'),
     newCreateCustomLineItem,
-    CreateCustomLineItemResponse,
+    CreateCustomLineItemResponse (CreateCustomLineItemResponse'),
     newCreateCustomLineItemResponse,
 
     -- ** CreatePricingPlan
-    CreatePricingPlan,
+    CreatePricingPlan (CreatePricingPlan'),
     newCreatePricingPlan,
-    CreatePricingPlanResponse,
+    CreatePricingPlanResponse (CreatePricingPlanResponse'),
     newCreatePricingPlanResponse,
 
     -- ** CreatePricingRule
-    CreatePricingRule,
+    CreatePricingRule (CreatePricingRule'),
     newCreatePricingRule,
-    CreatePricingRuleResponse,
+    CreatePricingRuleResponse (CreatePricingRuleResponse'),
     newCreatePricingRuleResponse,
 
     -- ** DeleteBillingGroup
-    DeleteBillingGroup,
+    DeleteBillingGroup (DeleteBillingGroup'),
     newDeleteBillingGroup,
-    DeleteBillingGroupResponse,
+    DeleteBillingGroupResponse (DeleteBillingGroupResponse'),
     newDeleteBillingGroupResponse,
 
     -- ** DeleteCustomLineItem
-    DeleteCustomLineItem,
+    DeleteCustomLineItem (DeleteCustomLineItem'),
     newDeleteCustomLineItem,
-    DeleteCustomLineItemResponse,
+    DeleteCustomLineItemResponse (DeleteCustomLineItemResponse'),
     newDeleteCustomLineItemResponse,
 
     -- ** DeletePricingPlan
-    DeletePricingPlan,
+    DeletePricingPlan (DeletePricingPlan'),
     newDeletePricingPlan,
-    DeletePricingPlanResponse,
+    DeletePricingPlanResponse (DeletePricingPlanResponse'),
     newDeletePricingPlanResponse,
 
     -- ** DeletePricingRule
-    DeletePricingRule,
+    DeletePricingRule (DeletePricingRule'),
     newDeletePricingRule,
-    DeletePricingRuleResponse,
+    DeletePricingRuleResponse (DeletePricingRuleResponse'),
     newDeletePricingRuleResponse,
 
     -- ** DisassociateAccounts
-    DisassociateAccounts,
+    DisassociateAccounts (DisassociateAccounts'),
     newDisassociateAccounts,
-    DisassociateAccountsResponse,
+    DisassociateAccountsResponse (DisassociateAccountsResponse'),
     newDisassociateAccountsResponse,
 
     -- ** DisassociatePricingRules
-    DisassociatePricingRules,
+    DisassociatePricingRules (DisassociatePricingRules'),
     newDisassociatePricingRules,
-    DisassociatePricingRulesResponse,
+    DisassociatePricingRulesResponse (DisassociatePricingRulesResponse'),
     newDisassociatePricingRulesResponse,
 
     -- ** ListAccountAssociations (Paginated)
-    ListAccountAssociations,
+    ListAccountAssociations (ListAccountAssociations'),
     newListAccountAssociations,
-    ListAccountAssociationsResponse,
+    ListAccountAssociationsResponse (ListAccountAssociationsResponse'),
     newListAccountAssociationsResponse,
 
     -- ** ListBillingGroupCostReports (Paginated)
-    ListBillingGroupCostReports,
+    ListBillingGroupCostReports (ListBillingGroupCostReports'),
     newListBillingGroupCostReports,
-    ListBillingGroupCostReportsResponse,
+    ListBillingGroupCostReportsResponse (ListBillingGroupCostReportsResponse'),
     newListBillingGroupCostReportsResponse,
 
     -- ** ListBillingGroups (Paginated)
-    ListBillingGroups,
+    ListBillingGroups (ListBillingGroups'),
     newListBillingGroups,
-    ListBillingGroupsResponse,
+    ListBillingGroupsResponse (ListBillingGroupsResponse'),
     newListBillingGroupsResponse,
 
     -- ** ListCustomLineItemVersions (Paginated)
-    ListCustomLineItemVersions,
+    ListCustomLineItemVersions (ListCustomLineItemVersions'),
     newListCustomLineItemVersions,
-    ListCustomLineItemVersionsResponse,
+    ListCustomLineItemVersionsResponse (ListCustomLineItemVersionsResponse'),
     newListCustomLineItemVersionsResponse,
 
     -- ** ListCustomLineItems (Paginated)
-    ListCustomLineItems,
+    ListCustomLineItems (ListCustomLineItems'),
     newListCustomLineItems,
-    ListCustomLineItemsResponse,
+    ListCustomLineItemsResponse (ListCustomLineItemsResponse'),
     newListCustomLineItemsResponse,
 
     -- ** ListPricingPlans (Paginated)
-    ListPricingPlans,
+    ListPricingPlans (ListPricingPlans'),
     newListPricingPlans,
-    ListPricingPlansResponse,
+    ListPricingPlansResponse (ListPricingPlansResponse'),
     newListPricingPlansResponse,
 
     -- ** ListPricingPlansAssociatedWithPricingRule (Paginated)
-    ListPricingPlansAssociatedWithPricingRule,
+    ListPricingPlansAssociatedWithPricingRule (ListPricingPlansAssociatedWithPricingRule'),
     newListPricingPlansAssociatedWithPricingRule,
-    ListPricingPlansAssociatedWithPricingRuleResponse,
+    ListPricingPlansAssociatedWithPricingRuleResponse (ListPricingPlansAssociatedWithPricingRuleResponse'),
     newListPricingPlansAssociatedWithPricingRuleResponse,
 
     -- ** ListPricingRules (Paginated)
-    ListPricingRules,
+    ListPricingRules (ListPricingRules'),
     newListPricingRules,
-    ListPricingRulesResponse,
+    ListPricingRulesResponse (ListPricingRulesResponse'),
     newListPricingRulesResponse,
 
     -- ** ListPricingRulesAssociatedToPricingPlan (Paginated)
-    ListPricingRulesAssociatedToPricingPlan,
+    ListPricingRulesAssociatedToPricingPlan (ListPricingRulesAssociatedToPricingPlan'),
     newListPricingRulesAssociatedToPricingPlan,
-    ListPricingRulesAssociatedToPricingPlanResponse,
+    ListPricingRulesAssociatedToPricingPlanResponse (ListPricingRulesAssociatedToPricingPlanResponse'),
     newListPricingRulesAssociatedToPricingPlanResponse,
 
     -- ** ListResourcesAssociatedToCustomLineItem (Paginated)
-    ListResourcesAssociatedToCustomLineItem,
+    ListResourcesAssociatedToCustomLineItem (ListResourcesAssociatedToCustomLineItem'),
     newListResourcesAssociatedToCustomLineItem,
-    ListResourcesAssociatedToCustomLineItemResponse,
+    ListResourcesAssociatedToCustomLineItemResponse (ListResourcesAssociatedToCustomLineItemResponse'),
     newListResourcesAssociatedToCustomLineItemResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateBillingGroup
-    UpdateBillingGroup,
+    UpdateBillingGroup (UpdateBillingGroup'),
     newUpdateBillingGroup,
-    UpdateBillingGroupResponse,
+    UpdateBillingGroupResponse (UpdateBillingGroupResponse'),
     newUpdateBillingGroupResponse,
 
     -- ** UpdateCustomLineItem
-    UpdateCustomLineItem,
+    UpdateCustomLineItem (UpdateCustomLineItem'),
     newUpdateCustomLineItem,
-    UpdateCustomLineItemResponse,
+    UpdateCustomLineItemResponse (UpdateCustomLineItemResponse'),
     newUpdateCustomLineItemResponse,
 
     -- ** UpdatePricingPlan
-    UpdatePricingPlan,
+    UpdatePricingPlan (UpdatePricingPlan'),
     newUpdatePricingPlan,
-    UpdatePricingPlanResponse,
+    UpdatePricingPlanResponse (UpdatePricingPlanResponse'),
     newUpdatePricingPlanResponse,
 
     -- ** UpdatePricingRule
-    UpdatePricingRule,
+    UpdatePricingRule (UpdatePricingRule'),
     newUpdatePricingRule,
-    UpdatePricingRuleResponse,
+    UpdatePricingRuleResponse (UpdatePricingRuleResponse'),
     newUpdatePricingRuleResponse,
 
     -- * Types
@@ -276,155 +276,155 @@ module Amazonka.BillingConductor
     PricingRuleType (..),
 
     -- ** AccountAssociationsListElement
-    AccountAssociationsListElement,
+    AccountAssociationsListElement (AccountAssociationsListElement'),
     newAccountAssociationsListElement,
 
     -- ** AccountGrouping
-    AccountGrouping,
+    AccountGrouping (AccountGrouping'),
     newAccountGrouping,
 
     -- ** AssociateResourceError
-    AssociateResourceError,
+    AssociateResourceError (AssociateResourceError'),
     newAssociateResourceError,
 
     -- ** AssociateResourceResponseElement
-    AssociateResourceResponseElement,
+    AssociateResourceResponseElement (AssociateResourceResponseElement'),
     newAssociateResourceResponseElement,
 
     -- ** BillingGroupCostReportElement
-    BillingGroupCostReportElement,
+    BillingGroupCostReportElement (BillingGroupCostReportElement'),
     newBillingGroupCostReportElement,
 
     -- ** BillingGroupListElement
-    BillingGroupListElement,
+    BillingGroupListElement (BillingGroupListElement'),
     newBillingGroupListElement,
 
     -- ** ComputationPreference
-    ComputationPreference,
+    ComputationPreference (ComputationPreference'),
     newComputationPreference,
 
     -- ** CreateFreeTierConfig
-    CreateFreeTierConfig,
+    CreateFreeTierConfig (CreateFreeTierConfig'),
     newCreateFreeTierConfig,
 
     -- ** CreateTieringInput
-    CreateTieringInput,
+    CreateTieringInput (CreateTieringInput'),
     newCreateTieringInput,
 
     -- ** CustomLineItemBillingPeriodRange
-    CustomLineItemBillingPeriodRange,
+    CustomLineItemBillingPeriodRange (CustomLineItemBillingPeriodRange'),
     newCustomLineItemBillingPeriodRange,
 
     -- ** CustomLineItemChargeDetails
-    CustomLineItemChargeDetails,
+    CustomLineItemChargeDetails (CustomLineItemChargeDetails'),
     newCustomLineItemChargeDetails,
 
     -- ** CustomLineItemFlatChargeDetails
-    CustomLineItemFlatChargeDetails,
+    CustomLineItemFlatChargeDetails (CustomLineItemFlatChargeDetails'),
     newCustomLineItemFlatChargeDetails,
 
     -- ** CustomLineItemListElement
-    CustomLineItemListElement,
+    CustomLineItemListElement (CustomLineItemListElement'),
     newCustomLineItemListElement,
 
     -- ** CustomLineItemPercentageChargeDetails
-    CustomLineItemPercentageChargeDetails,
+    CustomLineItemPercentageChargeDetails (CustomLineItemPercentageChargeDetails'),
     newCustomLineItemPercentageChargeDetails,
 
     -- ** CustomLineItemVersionListElement
-    CustomLineItemVersionListElement,
+    CustomLineItemVersionListElement (CustomLineItemVersionListElement'),
     newCustomLineItemVersionListElement,
 
     -- ** DisassociateResourceResponseElement
-    DisassociateResourceResponseElement,
+    DisassociateResourceResponseElement (DisassociateResourceResponseElement'),
     newDisassociateResourceResponseElement,
 
     -- ** FreeTierConfig
-    FreeTierConfig,
+    FreeTierConfig (FreeTierConfig'),
     newFreeTierConfig,
 
     -- ** ListAccountAssociationsFilter
-    ListAccountAssociationsFilter,
+    ListAccountAssociationsFilter (ListAccountAssociationsFilter'),
     newListAccountAssociationsFilter,
 
     -- ** ListBillingGroupCostReportsFilter
-    ListBillingGroupCostReportsFilter,
+    ListBillingGroupCostReportsFilter (ListBillingGroupCostReportsFilter'),
     newListBillingGroupCostReportsFilter,
 
     -- ** ListBillingGroupsFilter
-    ListBillingGroupsFilter,
+    ListBillingGroupsFilter (ListBillingGroupsFilter'),
     newListBillingGroupsFilter,
 
     -- ** ListCustomLineItemChargeDetails
-    ListCustomLineItemChargeDetails,
+    ListCustomLineItemChargeDetails (ListCustomLineItemChargeDetails'),
     newListCustomLineItemChargeDetails,
 
     -- ** ListCustomLineItemFlatChargeDetails
-    ListCustomLineItemFlatChargeDetails,
+    ListCustomLineItemFlatChargeDetails (ListCustomLineItemFlatChargeDetails'),
     newListCustomLineItemFlatChargeDetails,
 
     -- ** ListCustomLineItemPercentageChargeDetails
-    ListCustomLineItemPercentageChargeDetails,
+    ListCustomLineItemPercentageChargeDetails (ListCustomLineItemPercentageChargeDetails'),
     newListCustomLineItemPercentageChargeDetails,
 
     -- ** ListCustomLineItemVersionsBillingPeriodRangeFilter
-    ListCustomLineItemVersionsBillingPeriodRangeFilter,
+    ListCustomLineItemVersionsBillingPeriodRangeFilter (ListCustomLineItemVersionsBillingPeriodRangeFilter'),
     newListCustomLineItemVersionsBillingPeriodRangeFilter,
 
     -- ** ListCustomLineItemVersionsFilter
-    ListCustomLineItemVersionsFilter,
+    ListCustomLineItemVersionsFilter (ListCustomLineItemVersionsFilter'),
     newListCustomLineItemVersionsFilter,
 
     -- ** ListCustomLineItemsFilter
-    ListCustomLineItemsFilter,
+    ListCustomLineItemsFilter (ListCustomLineItemsFilter'),
     newListCustomLineItemsFilter,
 
     -- ** ListPricingPlansFilter
-    ListPricingPlansFilter,
+    ListPricingPlansFilter (ListPricingPlansFilter'),
     newListPricingPlansFilter,
 
     -- ** ListPricingRulesFilter
-    ListPricingRulesFilter,
+    ListPricingRulesFilter (ListPricingRulesFilter'),
     newListPricingRulesFilter,
 
     -- ** ListResourcesAssociatedToCustomLineItemFilter
-    ListResourcesAssociatedToCustomLineItemFilter,
+    ListResourcesAssociatedToCustomLineItemFilter (ListResourcesAssociatedToCustomLineItemFilter'),
     newListResourcesAssociatedToCustomLineItemFilter,
 
     -- ** ListResourcesAssociatedToCustomLineItemResponseElement
-    ListResourcesAssociatedToCustomLineItemResponseElement,
+    ListResourcesAssociatedToCustomLineItemResponseElement (ListResourcesAssociatedToCustomLineItemResponseElement'),
     newListResourcesAssociatedToCustomLineItemResponseElement,
 
     -- ** PricingPlanListElement
-    PricingPlanListElement,
+    PricingPlanListElement (PricingPlanListElement'),
     newPricingPlanListElement,
 
     -- ** PricingRuleListElement
-    PricingRuleListElement,
+    PricingRuleListElement (PricingRuleListElement'),
     newPricingRuleListElement,
 
     -- ** Tiering
-    Tiering,
+    Tiering (Tiering'),
     newTiering,
 
     -- ** UpdateCustomLineItemChargeDetails
-    UpdateCustomLineItemChargeDetails,
+    UpdateCustomLineItemChargeDetails (UpdateCustomLineItemChargeDetails'),
     newUpdateCustomLineItemChargeDetails,
 
     -- ** UpdateCustomLineItemFlatChargeDetails
-    UpdateCustomLineItemFlatChargeDetails,
+    UpdateCustomLineItemFlatChargeDetails (UpdateCustomLineItemFlatChargeDetails'),
     newUpdateCustomLineItemFlatChargeDetails,
 
     -- ** UpdateCustomLineItemPercentageChargeDetails
-    UpdateCustomLineItemPercentageChargeDetails,
+    UpdateCustomLineItemPercentageChargeDetails (UpdateCustomLineItemPercentageChargeDetails'),
     newUpdateCustomLineItemPercentageChargeDetails,
 
     -- ** UpdateFreeTierConfig
-    UpdateFreeTierConfig,
+    UpdateFreeTierConfig (UpdateFreeTierConfig'),
     newUpdateFreeTierConfig,
 
     -- ** UpdateTieringInput
-    UpdateTieringInput,
+    UpdateTieringInput (UpdateTieringInput'),
     newUpdateTieringInput,
   )
 where

@@ -146,321 +146,321 @@ module Amazonka.DynamoDB
     -- $operations
 
     -- ** BatchExecuteStatement
-    BatchExecuteStatement,
+    BatchExecuteStatement (BatchExecuteStatement'),
     newBatchExecuteStatement,
-    BatchExecuteStatementResponse,
+    BatchExecuteStatementResponse (BatchExecuteStatementResponse'),
     newBatchExecuteStatementResponse,
 
     -- ** BatchGetItem
-    BatchGetItem,
+    BatchGetItem (BatchGetItem'),
     newBatchGetItem,
-    BatchGetItemResponse,
+    BatchGetItemResponse (BatchGetItemResponse'),
     newBatchGetItemResponse,
 
     -- ** BatchWriteItem
-    BatchWriteItem,
+    BatchWriteItem (BatchWriteItem'),
     newBatchWriteItem,
-    BatchWriteItemResponse,
+    BatchWriteItemResponse (BatchWriteItemResponse'),
     newBatchWriteItemResponse,
 
     -- ** CreateBackup
-    CreateBackup,
+    CreateBackup (CreateBackup'),
     newCreateBackup,
-    CreateBackupResponse,
+    CreateBackupResponse (CreateBackupResponse'),
     newCreateBackupResponse,
 
     -- ** CreateGlobalTable
-    CreateGlobalTable,
+    CreateGlobalTable (CreateGlobalTable'),
     newCreateGlobalTable,
-    CreateGlobalTableResponse,
+    CreateGlobalTableResponse (CreateGlobalTableResponse'),
     newCreateGlobalTableResponse,
 
     -- ** CreateTable
-    CreateTable,
+    CreateTable (CreateTable'),
     newCreateTable,
-    CreateTableResponse,
+    CreateTableResponse (CreateTableResponse'),
     newCreateTableResponse,
 
     -- ** DeleteBackup
-    DeleteBackup,
+    DeleteBackup (DeleteBackup'),
     newDeleteBackup,
-    DeleteBackupResponse,
+    DeleteBackupResponse (DeleteBackupResponse'),
     newDeleteBackupResponse,
 
     -- ** DeleteItem
-    DeleteItem,
+    DeleteItem (DeleteItem'),
     newDeleteItem,
-    DeleteItemResponse,
+    DeleteItemResponse (DeleteItemResponse'),
     newDeleteItemResponse,
 
     -- ** DeleteTable
-    DeleteTable,
+    DeleteTable (DeleteTable'),
     newDeleteTable,
-    DeleteTableResponse,
+    DeleteTableResponse (DeleteTableResponse'),
     newDeleteTableResponse,
 
     -- ** DescribeBackup
-    DescribeBackup,
+    DescribeBackup (DescribeBackup'),
     newDescribeBackup,
-    DescribeBackupResponse,
+    DescribeBackupResponse (DescribeBackupResponse'),
     newDescribeBackupResponse,
 
     -- ** DescribeContinuousBackups
-    DescribeContinuousBackups,
+    DescribeContinuousBackups (DescribeContinuousBackups'),
     newDescribeContinuousBackups,
-    DescribeContinuousBackupsResponse,
+    DescribeContinuousBackupsResponse (DescribeContinuousBackupsResponse'),
     newDescribeContinuousBackupsResponse,
 
     -- ** DescribeContributorInsights
-    DescribeContributorInsights,
+    DescribeContributorInsights (DescribeContributorInsights'),
     newDescribeContributorInsights,
-    DescribeContributorInsightsResponse,
+    DescribeContributorInsightsResponse (DescribeContributorInsightsResponse'),
     newDescribeContributorInsightsResponse,
 
     -- ** DescribeEndpoints
-    DescribeEndpoints,
+    DescribeEndpoints (DescribeEndpoints'),
     newDescribeEndpoints,
-    DescribeEndpointsResponse,
+    DescribeEndpointsResponse (DescribeEndpointsResponse'),
     newDescribeEndpointsResponse,
 
     -- ** DescribeExport
-    DescribeExport,
+    DescribeExport (DescribeExport'),
     newDescribeExport,
-    DescribeExportResponse,
+    DescribeExportResponse (DescribeExportResponse'),
     newDescribeExportResponse,
 
     -- ** DescribeGlobalTable
-    DescribeGlobalTable,
+    DescribeGlobalTable (DescribeGlobalTable'),
     newDescribeGlobalTable,
-    DescribeGlobalTableResponse,
+    DescribeGlobalTableResponse (DescribeGlobalTableResponse'),
     newDescribeGlobalTableResponse,
 
     -- ** DescribeGlobalTableSettings
-    DescribeGlobalTableSettings,
+    DescribeGlobalTableSettings (DescribeGlobalTableSettings'),
     newDescribeGlobalTableSettings,
-    DescribeGlobalTableSettingsResponse,
+    DescribeGlobalTableSettingsResponse (DescribeGlobalTableSettingsResponse'),
     newDescribeGlobalTableSettingsResponse,
 
     -- ** DescribeImport
-    DescribeImport,
+    DescribeImport (DescribeImport'),
     newDescribeImport,
-    DescribeImportResponse,
+    DescribeImportResponse (DescribeImportResponse'),
     newDescribeImportResponse,
 
     -- ** DescribeKinesisStreamingDestination
-    DescribeKinesisStreamingDestination,
+    DescribeKinesisStreamingDestination (DescribeKinesisStreamingDestination'),
     newDescribeKinesisStreamingDestination,
-    DescribeKinesisStreamingDestinationResponse,
+    DescribeKinesisStreamingDestinationResponse (DescribeKinesisStreamingDestinationResponse'),
     newDescribeKinesisStreamingDestinationResponse,
 
     -- ** DescribeLimits
-    DescribeLimits,
+    DescribeLimits (DescribeLimits'),
     newDescribeLimits,
-    DescribeLimitsResponse,
+    DescribeLimitsResponse (DescribeLimitsResponse'),
     newDescribeLimitsResponse,
 
     -- ** DescribeTable
-    DescribeTable,
+    DescribeTable (DescribeTable'),
     newDescribeTable,
-    DescribeTableResponse,
+    DescribeTableResponse (DescribeTableResponse'),
     newDescribeTableResponse,
 
     -- ** DescribeTableReplicaAutoScaling
-    DescribeTableReplicaAutoScaling,
+    DescribeTableReplicaAutoScaling (DescribeTableReplicaAutoScaling'),
     newDescribeTableReplicaAutoScaling,
-    DescribeTableReplicaAutoScalingResponse,
+    DescribeTableReplicaAutoScalingResponse (DescribeTableReplicaAutoScalingResponse'),
     newDescribeTableReplicaAutoScalingResponse,
 
     -- ** DescribeTimeToLive
-    DescribeTimeToLive,
+    DescribeTimeToLive (DescribeTimeToLive'),
     newDescribeTimeToLive,
-    DescribeTimeToLiveResponse,
+    DescribeTimeToLiveResponse (DescribeTimeToLiveResponse'),
     newDescribeTimeToLiveResponse,
 
     -- ** DisableKinesisStreamingDestination
-    DisableKinesisStreamingDestination,
+    DisableKinesisStreamingDestination (DisableKinesisStreamingDestination'),
     newDisableKinesisStreamingDestination,
-    KinesisStreamingDestinationOutput,
+    KinesisStreamingDestinationOutput (KinesisStreamingDestinationOutput'),
     newKinesisStreamingDestinationOutput,
 
     -- ** EnableKinesisStreamingDestination
-    EnableKinesisStreamingDestination,
+    EnableKinesisStreamingDestination (EnableKinesisStreamingDestination'),
     newEnableKinesisStreamingDestination,
-    KinesisStreamingDestinationOutput,
+    KinesisStreamingDestinationOutput (KinesisStreamingDestinationOutput'),
     newKinesisStreamingDestinationOutput,
 
     -- ** ExecuteStatement
-    ExecuteStatement,
+    ExecuteStatement (ExecuteStatement'),
     newExecuteStatement,
-    ExecuteStatementResponse,
+    ExecuteStatementResponse (ExecuteStatementResponse'),
     newExecuteStatementResponse,
 
     -- ** ExecuteTransaction
-    ExecuteTransaction,
+    ExecuteTransaction (ExecuteTransaction'),
     newExecuteTransaction,
-    ExecuteTransactionResponse,
+    ExecuteTransactionResponse (ExecuteTransactionResponse'),
     newExecuteTransactionResponse,
 
     -- ** ExportTableToPointInTime
-    ExportTableToPointInTime,
+    ExportTableToPointInTime (ExportTableToPointInTime'),
     newExportTableToPointInTime,
-    ExportTableToPointInTimeResponse,
+    ExportTableToPointInTimeResponse (ExportTableToPointInTimeResponse'),
     newExportTableToPointInTimeResponse,
 
     -- ** GetItem
-    GetItem,
+    GetItem (GetItem'),
     newGetItem,
-    GetItemResponse,
+    GetItemResponse (GetItemResponse'),
     newGetItemResponse,
 
     -- ** ImportTable
-    ImportTable,
+    ImportTable (ImportTable'),
     newImportTable,
-    ImportTableResponse,
+    ImportTableResponse (ImportTableResponse'),
     newImportTableResponse,
 
     -- ** ListBackups (Paginated)
-    ListBackups,
+    ListBackups (ListBackups'),
     newListBackups,
-    ListBackupsResponse,
+    ListBackupsResponse (ListBackupsResponse'),
     newListBackupsResponse,
 
     -- ** ListContributorInsights
-    ListContributorInsights,
+    ListContributorInsights (ListContributorInsights'),
     newListContributorInsights,
-    ListContributorInsightsResponse,
+    ListContributorInsightsResponse (ListContributorInsightsResponse'),
     newListContributorInsightsResponse,
 
     -- ** ListExports
-    ListExports,
+    ListExports (ListExports'),
     newListExports,
-    ListExportsResponse,
+    ListExportsResponse (ListExportsResponse'),
     newListExportsResponse,
 
     -- ** ListGlobalTables
-    ListGlobalTables,
+    ListGlobalTables (ListGlobalTables'),
     newListGlobalTables,
-    ListGlobalTablesResponse,
+    ListGlobalTablesResponse (ListGlobalTablesResponse'),
     newListGlobalTablesResponse,
 
     -- ** ListImports
-    ListImports,
+    ListImports (ListImports'),
     newListImports,
-    ListImportsResponse,
+    ListImportsResponse (ListImportsResponse'),
     newListImportsResponse,
 
     -- ** ListTables (Paginated)
-    ListTables,
+    ListTables (ListTables'),
     newListTables,
-    ListTablesResponse,
+    ListTablesResponse (ListTablesResponse'),
     newListTablesResponse,
 
     -- ** ListTagsOfResource (Paginated)
-    ListTagsOfResource,
+    ListTagsOfResource (ListTagsOfResource'),
     newListTagsOfResource,
-    ListTagsOfResourceResponse,
+    ListTagsOfResourceResponse (ListTagsOfResourceResponse'),
     newListTagsOfResourceResponse,
 
     -- ** PutItem
-    PutItem,
+    PutItem (PutItem'),
     newPutItem,
-    PutItemResponse,
+    PutItemResponse (PutItemResponse'),
     newPutItemResponse,
 
     -- ** Query (Paginated)
-    Query,
+    Query (Query'),
     newQuery,
-    QueryResponse,
+    QueryResponse (QueryResponse'),
     newQueryResponse,
 
     -- ** RestoreTableFromBackup
-    RestoreTableFromBackup,
+    RestoreTableFromBackup (RestoreTableFromBackup'),
     newRestoreTableFromBackup,
-    RestoreTableFromBackupResponse,
+    RestoreTableFromBackupResponse (RestoreTableFromBackupResponse'),
     newRestoreTableFromBackupResponse,
 
     -- ** RestoreTableToPointInTime
-    RestoreTableToPointInTime,
+    RestoreTableToPointInTime (RestoreTableToPointInTime'),
     newRestoreTableToPointInTime,
-    RestoreTableToPointInTimeResponse,
+    RestoreTableToPointInTimeResponse (RestoreTableToPointInTimeResponse'),
     newRestoreTableToPointInTimeResponse,
 
     -- ** Scan (Paginated)
-    Scan,
+    Scan (Scan'),
     newScan,
-    ScanResponse,
+    ScanResponse (ScanResponse'),
     newScanResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** TransactGetItems
-    TransactGetItems,
+    TransactGetItems (TransactGetItems'),
     newTransactGetItems,
-    TransactGetItemsResponse,
+    TransactGetItemsResponse (TransactGetItemsResponse'),
     newTransactGetItemsResponse,
 
     -- ** TransactWriteItems
-    TransactWriteItems,
+    TransactWriteItems (TransactWriteItems'),
     newTransactWriteItems,
-    TransactWriteItemsResponse,
+    TransactWriteItemsResponse (TransactWriteItemsResponse'),
     newTransactWriteItemsResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateContinuousBackups
-    UpdateContinuousBackups,
+    UpdateContinuousBackups (UpdateContinuousBackups'),
     newUpdateContinuousBackups,
-    UpdateContinuousBackupsResponse,
+    UpdateContinuousBackupsResponse (UpdateContinuousBackupsResponse'),
     newUpdateContinuousBackupsResponse,
 
     -- ** UpdateContributorInsights
-    UpdateContributorInsights,
+    UpdateContributorInsights (UpdateContributorInsights'),
     newUpdateContributorInsights,
-    UpdateContributorInsightsResponse,
+    UpdateContributorInsightsResponse (UpdateContributorInsightsResponse'),
     newUpdateContributorInsightsResponse,
 
     -- ** UpdateGlobalTable
-    UpdateGlobalTable,
+    UpdateGlobalTable (UpdateGlobalTable'),
     newUpdateGlobalTable,
-    UpdateGlobalTableResponse,
+    UpdateGlobalTableResponse (UpdateGlobalTableResponse'),
     newUpdateGlobalTableResponse,
 
     -- ** UpdateGlobalTableSettings
-    UpdateGlobalTableSettings,
+    UpdateGlobalTableSettings (UpdateGlobalTableSettings'),
     newUpdateGlobalTableSettings,
-    UpdateGlobalTableSettingsResponse,
+    UpdateGlobalTableSettingsResponse (UpdateGlobalTableSettingsResponse'),
     newUpdateGlobalTableSettingsResponse,
 
     -- ** UpdateItem
-    UpdateItem,
+    UpdateItem (UpdateItem'),
     newUpdateItem,
-    UpdateItemResponse,
+    UpdateItemResponse (UpdateItemResponse'),
     newUpdateItemResponse,
 
     -- ** UpdateTable
-    UpdateTable,
+    UpdateTable (UpdateTable'),
     newUpdateTable,
-    UpdateTableResponse,
+    UpdateTableResponse (UpdateTableResponse'),
     newUpdateTableResponse,
 
     -- ** UpdateTableReplicaAutoScaling
-    UpdateTableReplicaAutoScaling,
+    UpdateTableReplicaAutoScaling (UpdateTableReplicaAutoScaling'),
     newUpdateTableReplicaAutoScaling,
-    UpdateTableReplicaAutoScalingResponse,
+    UpdateTableReplicaAutoScalingResponse (UpdateTableReplicaAutoScalingResponse'),
     newUpdateTableReplicaAutoScalingResponse,
 
     -- ** UpdateTimeToLive
-    UpdateTimeToLive,
+    UpdateTimeToLive (UpdateTimeToLive'),
     newUpdateTimeToLive,
-    UpdateTimeToLiveResponse,
+    UpdateTimeToLiveResponse (UpdateTimeToLiveResponse'),
     newUpdateTimeToLiveResponse,
 
     -- * Types
@@ -579,391 +579,391 @@ module Amazonka.DynamoDB
     TimeToLiveStatus (..),
 
     -- ** ArchivalSummary
-    ArchivalSummary,
+    ArchivalSummary (ArchivalSummary'),
     newArchivalSummary,
 
     -- ** AttributeDefinition
-    AttributeDefinition,
+    AttributeDefinition (AttributeDefinition'),
     newAttributeDefinition,
 
     -- ** AttributeValueUpdate
-    AttributeValueUpdate,
+    AttributeValueUpdate (AttributeValueUpdate'),
     newAttributeValueUpdate,
 
     -- ** AutoScalingPolicyDescription
-    AutoScalingPolicyDescription,
+    AutoScalingPolicyDescription (AutoScalingPolicyDescription'),
     newAutoScalingPolicyDescription,
 
     -- ** AutoScalingPolicyUpdate
-    AutoScalingPolicyUpdate,
+    AutoScalingPolicyUpdate (AutoScalingPolicyUpdate'),
     newAutoScalingPolicyUpdate,
 
     -- ** AutoScalingSettingsDescription
-    AutoScalingSettingsDescription,
+    AutoScalingSettingsDescription (AutoScalingSettingsDescription'),
     newAutoScalingSettingsDescription,
 
     -- ** AutoScalingSettingsUpdate
-    AutoScalingSettingsUpdate,
+    AutoScalingSettingsUpdate (AutoScalingSettingsUpdate'),
     newAutoScalingSettingsUpdate,
 
     -- ** AutoScalingTargetTrackingScalingPolicyConfigurationDescription
-    AutoScalingTargetTrackingScalingPolicyConfigurationDescription,
+    AutoScalingTargetTrackingScalingPolicyConfigurationDescription (AutoScalingTargetTrackingScalingPolicyConfigurationDescription'),
     newAutoScalingTargetTrackingScalingPolicyConfigurationDescription,
 
     -- ** AutoScalingTargetTrackingScalingPolicyConfigurationUpdate
-    AutoScalingTargetTrackingScalingPolicyConfigurationUpdate,
+    AutoScalingTargetTrackingScalingPolicyConfigurationUpdate (AutoScalingTargetTrackingScalingPolicyConfigurationUpdate'),
     newAutoScalingTargetTrackingScalingPolicyConfigurationUpdate,
 
     -- ** BackupDescription
-    BackupDescription,
+    BackupDescription (BackupDescription'),
     newBackupDescription,
 
     -- ** BackupDetails
-    BackupDetails,
+    BackupDetails (BackupDetails'),
     newBackupDetails,
 
     -- ** BackupSummary
-    BackupSummary,
+    BackupSummary (BackupSummary'),
     newBackupSummary,
 
     -- ** BatchStatementError
-    BatchStatementError,
+    BatchStatementError (BatchStatementError'),
     newBatchStatementError,
 
     -- ** BatchStatementRequest
-    BatchStatementRequest,
+    BatchStatementRequest (BatchStatementRequest'),
     newBatchStatementRequest,
 
     -- ** BatchStatementResponse
-    BatchStatementResponse,
+    BatchStatementResponse (BatchStatementResponse'),
     newBatchStatementResponse,
 
     -- ** BillingModeSummary
-    BillingModeSummary,
+    BillingModeSummary (BillingModeSummary'),
     newBillingModeSummary,
 
     -- ** Capacity
-    Capacity,
+    Capacity (Capacity'),
     newCapacity,
 
     -- ** Condition
-    Condition,
+    Condition (Condition'),
     newCondition,
 
     -- ** ConditionCheck
-    ConditionCheck,
+    ConditionCheck (ConditionCheck'),
     newConditionCheck,
 
     -- ** ConsumedCapacity
-    ConsumedCapacity,
+    ConsumedCapacity (ConsumedCapacity'),
     newConsumedCapacity,
 
     -- ** ContinuousBackupsDescription
-    ContinuousBackupsDescription,
+    ContinuousBackupsDescription (ContinuousBackupsDescription'),
     newContinuousBackupsDescription,
 
     -- ** ContributorInsightsSummary
-    ContributorInsightsSummary,
+    ContributorInsightsSummary (ContributorInsightsSummary'),
     newContributorInsightsSummary,
 
     -- ** CreateGlobalSecondaryIndexAction
-    CreateGlobalSecondaryIndexAction,
+    CreateGlobalSecondaryIndexAction (CreateGlobalSecondaryIndexAction'),
     newCreateGlobalSecondaryIndexAction,
 
     -- ** CreateReplicaAction
-    CreateReplicaAction,
+    CreateReplicaAction (CreateReplicaAction'),
     newCreateReplicaAction,
 
     -- ** CreateReplicationGroupMemberAction
-    CreateReplicationGroupMemberAction,
+    CreateReplicationGroupMemberAction (CreateReplicationGroupMemberAction'),
     newCreateReplicationGroupMemberAction,
 
     -- ** CsvOptions
-    CsvOptions,
+    CsvOptions (CsvOptions'),
     newCsvOptions,
 
     -- ** Delete
-    Delete,
+    Delete (Delete'),
     newDelete,
 
     -- ** DeleteGlobalSecondaryIndexAction
-    DeleteGlobalSecondaryIndexAction,
+    DeleteGlobalSecondaryIndexAction (DeleteGlobalSecondaryIndexAction'),
     newDeleteGlobalSecondaryIndexAction,
 
     -- ** DeleteReplicaAction
-    DeleteReplicaAction,
+    DeleteReplicaAction (DeleteReplicaAction'),
     newDeleteReplicaAction,
 
     -- ** DeleteReplicationGroupMemberAction
-    DeleteReplicationGroupMemberAction,
+    DeleteReplicationGroupMemberAction (DeleteReplicationGroupMemberAction'),
     newDeleteReplicationGroupMemberAction,
 
     -- ** Endpoint
-    Endpoint,
+    Endpoint (Endpoint'),
     newEndpoint,
 
     -- ** ExpectedAttributeValue
-    ExpectedAttributeValue,
+    ExpectedAttributeValue (ExpectedAttributeValue'),
     newExpectedAttributeValue,
 
     -- ** ExportDescription
-    ExportDescription,
+    ExportDescription (ExportDescription'),
     newExportDescription,
 
     -- ** ExportSummary
-    ExportSummary,
+    ExportSummary (ExportSummary'),
     newExportSummary,
 
     -- ** FailureException
-    FailureException,
+    FailureException (FailureException'),
     newFailureException,
 
     -- ** Get
-    Get,
+    Get (Get'),
     newGet,
 
     -- ** GlobalSecondaryIndex
-    GlobalSecondaryIndex,
+    GlobalSecondaryIndex (GlobalSecondaryIndex'),
     newGlobalSecondaryIndex,
 
     -- ** GlobalSecondaryIndexAutoScalingUpdate
-    GlobalSecondaryIndexAutoScalingUpdate,
+    GlobalSecondaryIndexAutoScalingUpdate (GlobalSecondaryIndexAutoScalingUpdate'),
     newGlobalSecondaryIndexAutoScalingUpdate,
 
     -- ** GlobalSecondaryIndexDescription
-    GlobalSecondaryIndexDescription,
+    GlobalSecondaryIndexDescription (GlobalSecondaryIndexDescription'),
     newGlobalSecondaryIndexDescription,
 
     -- ** GlobalSecondaryIndexInfo
-    GlobalSecondaryIndexInfo,
+    GlobalSecondaryIndexInfo (GlobalSecondaryIndexInfo'),
     newGlobalSecondaryIndexInfo,
 
     -- ** GlobalSecondaryIndexUpdate
-    GlobalSecondaryIndexUpdate,
+    GlobalSecondaryIndexUpdate (GlobalSecondaryIndexUpdate'),
     newGlobalSecondaryIndexUpdate,
 
     -- ** GlobalTable
-    GlobalTable,
+    GlobalTable (GlobalTable'),
     newGlobalTable,
 
     -- ** GlobalTableDescription
-    GlobalTableDescription,
+    GlobalTableDescription (GlobalTableDescription'),
     newGlobalTableDescription,
 
     -- ** GlobalTableGlobalSecondaryIndexSettingsUpdate
-    GlobalTableGlobalSecondaryIndexSettingsUpdate,
+    GlobalTableGlobalSecondaryIndexSettingsUpdate (GlobalTableGlobalSecondaryIndexSettingsUpdate'),
     newGlobalTableGlobalSecondaryIndexSettingsUpdate,
 
     -- ** ImportSummary
-    ImportSummary,
+    ImportSummary (ImportSummary'),
     newImportSummary,
 
     -- ** ImportTableDescription
-    ImportTableDescription,
+    ImportTableDescription (ImportTableDescription'),
     newImportTableDescription,
 
     -- ** InputFormatOptions
-    InputFormatOptions,
+    InputFormatOptions (InputFormatOptions'),
     newInputFormatOptions,
 
     -- ** ItemCollectionMetrics
-    ItemCollectionMetrics,
+    ItemCollectionMetrics (ItemCollectionMetrics'),
     newItemCollectionMetrics,
 
     -- ** ItemResponse
-    ItemResponse,
+    ItemResponse (ItemResponse'),
     newItemResponse,
 
     -- ** KeySchemaElement
-    KeySchemaElement,
+    KeySchemaElement (KeySchemaElement'),
     newKeySchemaElement,
 
     -- ** KeysAndAttributes
-    KeysAndAttributes,
+    KeysAndAttributes (KeysAndAttributes'),
     newKeysAndAttributes,
 
     -- ** KinesisDataStreamDestination
-    KinesisDataStreamDestination,
+    KinesisDataStreamDestination (KinesisDataStreamDestination'),
     newKinesisDataStreamDestination,
 
     -- ** KinesisStreamingDestinationInput
-    KinesisStreamingDestinationInput,
+    KinesisStreamingDestinationInput (KinesisStreamingDestinationInput'),
     newKinesisStreamingDestinationInput,
 
     -- ** KinesisStreamingDestinationOutput
-    KinesisStreamingDestinationOutput,
+    KinesisStreamingDestinationOutput (KinesisStreamingDestinationOutput'),
     newKinesisStreamingDestinationOutput,
 
     -- ** LocalSecondaryIndex
-    LocalSecondaryIndex,
+    LocalSecondaryIndex (LocalSecondaryIndex'),
     newLocalSecondaryIndex,
 
     -- ** LocalSecondaryIndexDescription
-    LocalSecondaryIndexDescription,
+    LocalSecondaryIndexDescription (LocalSecondaryIndexDescription'),
     newLocalSecondaryIndexDescription,
 
     -- ** LocalSecondaryIndexInfo
-    LocalSecondaryIndexInfo,
+    LocalSecondaryIndexInfo (LocalSecondaryIndexInfo'),
     newLocalSecondaryIndexInfo,
 
     -- ** ParameterizedStatement
-    ParameterizedStatement,
+    ParameterizedStatement (ParameterizedStatement'),
     newParameterizedStatement,
 
     -- ** PointInTimeRecoveryDescription
-    PointInTimeRecoveryDescription,
+    PointInTimeRecoveryDescription (PointInTimeRecoveryDescription'),
     newPointInTimeRecoveryDescription,
 
     -- ** PointInTimeRecoverySpecification
-    PointInTimeRecoverySpecification,
+    PointInTimeRecoverySpecification (PointInTimeRecoverySpecification'),
     newPointInTimeRecoverySpecification,
 
     -- ** Projection
-    Projection,
+    Projection (Projection'),
     newProjection,
 
     -- ** ProvisionedThroughput
-    ProvisionedThroughput,
+    ProvisionedThroughput (ProvisionedThroughput'),
     newProvisionedThroughput,
 
     -- ** ProvisionedThroughputDescription
-    ProvisionedThroughputDescription,
+    ProvisionedThroughputDescription (ProvisionedThroughputDescription'),
     newProvisionedThroughputDescription,
 
     -- ** ProvisionedThroughputOverride
-    ProvisionedThroughputOverride,
+    ProvisionedThroughputOverride (ProvisionedThroughputOverride'),
     newProvisionedThroughputOverride,
 
     -- ** Put
-    Put,
+    Put (Put'),
     newPut,
 
     -- ** Replica
-    Replica,
+    Replica (Replica'),
     newReplica,
 
     -- ** ReplicaAutoScalingDescription
-    ReplicaAutoScalingDescription,
+    ReplicaAutoScalingDescription (ReplicaAutoScalingDescription'),
     newReplicaAutoScalingDescription,
 
     -- ** ReplicaAutoScalingUpdate
-    ReplicaAutoScalingUpdate,
+    ReplicaAutoScalingUpdate (ReplicaAutoScalingUpdate'),
     newReplicaAutoScalingUpdate,
 
     -- ** ReplicaDescription
-    ReplicaDescription,
+    ReplicaDescription (ReplicaDescription'),
     newReplicaDescription,
 
     -- ** ReplicaGlobalSecondaryIndex
-    ReplicaGlobalSecondaryIndex,
+    ReplicaGlobalSecondaryIndex (ReplicaGlobalSecondaryIndex'),
     newReplicaGlobalSecondaryIndex,
 
     -- ** ReplicaGlobalSecondaryIndexAutoScalingDescription
-    ReplicaGlobalSecondaryIndexAutoScalingDescription,
+    ReplicaGlobalSecondaryIndexAutoScalingDescription (ReplicaGlobalSecondaryIndexAutoScalingDescription'),
     newReplicaGlobalSecondaryIndexAutoScalingDescription,
 
     -- ** ReplicaGlobalSecondaryIndexAutoScalingUpdate
-    ReplicaGlobalSecondaryIndexAutoScalingUpdate,
+    ReplicaGlobalSecondaryIndexAutoScalingUpdate (ReplicaGlobalSecondaryIndexAutoScalingUpdate'),
     newReplicaGlobalSecondaryIndexAutoScalingUpdate,
 
     -- ** ReplicaGlobalSecondaryIndexDescription
-    ReplicaGlobalSecondaryIndexDescription,
+    ReplicaGlobalSecondaryIndexDescription (ReplicaGlobalSecondaryIndexDescription'),
     newReplicaGlobalSecondaryIndexDescription,
 
     -- ** ReplicaGlobalSecondaryIndexSettingsDescription
-    ReplicaGlobalSecondaryIndexSettingsDescription,
+    ReplicaGlobalSecondaryIndexSettingsDescription (ReplicaGlobalSecondaryIndexSettingsDescription'),
     newReplicaGlobalSecondaryIndexSettingsDescription,
 
     -- ** ReplicaGlobalSecondaryIndexSettingsUpdate
-    ReplicaGlobalSecondaryIndexSettingsUpdate,
+    ReplicaGlobalSecondaryIndexSettingsUpdate (ReplicaGlobalSecondaryIndexSettingsUpdate'),
     newReplicaGlobalSecondaryIndexSettingsUpdate,
 
     -- ** ReplicaSettingsDescription
-    ReplicaSettingsDescription,
+    ReplicaSettingsDescription (ReplicaSettingsDescription'),
     newReplicaSettingsDescription,
 
     -- ** ReplicaSettingsUpdate
-    ReplicaSettingsUpdate,
+    ReplicaSettingsUpdate (ReplicaSettingsUpdate'),
     newReplicaSettingsUpdate,
 
     -- ** ReplicaUpdate
-    ReplicaUpdate,
+    ReplicaUpdate (ReplicaUpdate'),
     newReplicaUpdate,
 
     -- ** ReplicationGroupUpdate
-    ReplicationGroupUpdate,
+    ReplicationGroupUpdate (ReplicationGroupUpdate'),
     newReplicationGroupUpdate,
 
     -- ** RestoreSummary
-    RestoreSummary,
+    RestoreSummary (RestoreSummary'),
     newRestoreSummary,
 
     -- ** S3BucketSource
-    S3BucketSource,
+    S3BucketSource (S3BucketSource'),
     newS3BucketSource,
 
     -- ** SSEDescription
-    SSEDescription,
+    SSEDescription (SSEDescription'),
     newSSEDescription,
 
     -- ** SSESpecification
-    SSESpecification,
+    SSESpecification (SSESpecification'),
     newSSESpecification,
 
     -- ** SourceTableDetails
-    SourceTableDetails,
+    SourceTableDetails (SourceTableDetails'),
     newSourceTableDetails,
 
     -- ** SourceTableFeatureDetails
-    SourceTableFeatureDetails,
+    SourceTableFeatureDetails (SourceTableFeatureDetails'),
     newSourceTableFeatureDetails,
 
     -- ** StreamSpecification
-    StreamSpecification,
+    StreamSpecification (StreamSpecification'),
     newStreamSpecification,
 
     -- ** TableAutoScalingDescription
-    TableAutoScalingDescription,
+    TableAutoScalingDescription (TableAutoScalingDescription'),
     newTableAutoScalingDescription,
 
     -- ** TableClassSummary
-    TableClassSummary,
+    TableClassSummary (TableClassSummary'),
     newTableClassSummary,
 
     -- ** TableCreationParameters
-    TableCreationParameters,
+    TableCreationParameters (TableCreationParameters'),
     newTableCreationParameters,
 
     -- ** TableDescription
-    TableDescription,
+    TableDescription (TableDescription'),
     newTableDescription,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** TimeToLiveDescription
-    TimeToLiveDescription,
+    TimeToLiveDescription (TimeToLiveDescription'),
     newTimeToLiveDescription,
 
     -- ** TimeToLiveSpecification
-    TimeToLiveSpecification,
+    TimeToLiveSpecification (TimeToLiveSpecification'),
     newTimeToLiveSpecification,
 
     -- ** TransactGetItem
-    TransactGetItem,
+    TransactGetItem (TransactGetItem'),
     newTransactGetItem,
 
     -- ** Update
-    Update,
+    Update (Update'),
     newUpdate,
 
     -- ** UpdateGlobalSecondaryIndexAction
-    UpdateGlobalSecondaryIndexAction,
+    UpdateGlobalSecondaryIndexAction (UpdateGlobalSecondaryIndexAction'),
     newUpdateGlobalSecondaryIndexAction,
 
     -- ** UpdateReplicationGroupMemberAction
-    UpdateReplicationGroupMemberAction,
+    UpdateReplicationGroupMemberAction (UpdateReplicationGroupMemberAction'),
     newUpdateReplicationGroupMemberAction,
   )
 where

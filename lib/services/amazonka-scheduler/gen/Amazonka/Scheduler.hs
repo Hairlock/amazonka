@@ -49,75 +49,75 @@ module Amazonka.Scheduler
     -- $operations
 
     -- ** CreateSchedule
-    CreateSchedule,
+    CreateSchedule (CreateSchedule'),
     newCreateSchedule,
-    CreateScheduleResponse,
+    CreateScheduleResponse (CreateScheduleResponse'),
     newCreateScheduleResponse,
 
     -- ** CreateScheduleGroup
-    CreateScheduleGroup,
+    CreateScheduleGroup (CreateScheduleGroup'),
     newCreateScheduleGroup,
-    CreateScheduleGroupResponse,
+    CreateScheduleGroupResponse (CreateScheduleGroupResponse'),
     newCreateScheduleGroupResponse,
 
     -- ** DeleteSchedule
-    DeleteSchedule,
+    DeleteSchedule (DeleteSchedule'),
     newDeleteSchedule,
-    DeleteScheduleResponse,
+    DeleteScheduleResponse (DeleteScheduleResponse'),
     newDeleteScheduleResponse,
 
     -- ** DeleteScheduleGroup
-    DeleteScheduleGroup,
+    DeleteScheduleGroup (DeleteScheduleGroup'),
     newDeleteScheduleGroup,
-    DeleteScheduleGroupResponse,
+    DeleteScheduleGroupResponse (DeleteScheduleGroupResponse'),
     newDeleteScheduleGroupResponse,
 
     -- ** GetSchedule
-    GetSchedule,
+    GetSchedule (GetSchedule'),
     newGetSchedule,
-    GetScheduleResponse,
+    GetScheduleResponse (GetScheduleResponse'),
     newGetScheduleResponse,
 
     -- ** GetScheduleGroup
-    GetScheduleGroup,
+    GetScheduleGroup (GetScheduleGroup'),
     newGetScheduleGroup,
-    GetScheduleGroupResponse,
+    GetScheduleGroupResponse (GetScheduleGroupResponse'),
     newGetScheduleGroupResponse,
 
     -- ** ListScheduleGroups (Paginated)
-    ListScheduleGroups,
+    ListScheduleGroups (ListScheduleGroups'),
     newListScheduleGroups,
-    ListScheduleGroupsResponse,
+    ListScheduleGroupsResponse (ListScheduleGroupsResponse'),
     newListScheduleGroupsResponse,
 
     -- ** ListSchedules (Paginated)
-    ListSchedules,
+    ListSchedules (ListSchedules'),
     newListSchedules,
-    ListSchedulesResponse,
+    ListSchedulesResponse (ListSchedulesResponse'),
     newListSchedulesResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateSchedule
-    UpdateSchedule,
+    UpdateSchedule (UpdateSchedule'),
     newUpdateSchedule,
-    UpdateScheduleResponse,
+    UpdateScheduleResponse (UpdateScheduleResponse'),
     newUpdateScheduleResponse,
 
     -- * Types
@@ -147,79 +147,79 @@ module Amazonka.Scheduler
     ScheduleState (..),
 
     -- ** AwsVpcConfiguration
-    AwsVpcConfiguration,
+    AwsVpcConfiguration (AwsVpcConfiguration'),
     newAwsVpcConfiguration,
 
     -- ** CapacityProviderStrategyItem
-    CapacityProviderStrategyItem,
+    CapacityProviderStrategyItem (CapacityProviderStrategyItem'),
     newCapacityProviderStrategyItem,
 
     -- ** DeadLetterConfig
-    DeadLetterConfig,
+    DeadLetterConfig (DeadLetterConfig'),
     newDeadLetterConfig,
 
     -- ** EcsParameters
-    EcsParameters,
+    EcsParameters (EcsParameters'),
     newEcsParameters,
 
     -- ** EventBridgeParameters
-    EventBridgeParameters,
+    EventBridgeParameters (EventBridgeParameters'),
     newEventBridgeParameters,
 
     -- ** FlexibleTimeWindow
-    FlexibleTimeWindow,
+    FlexibleTimeWindow (FlexibleTimeWindow'),
     newFlexibleTimeWindow,
 
     -- ** KinesisParameters
-    KinesisParameters,
+    KinesisParameters (KinesisParameters'),
     newKinesisParameters,
 
     -- ** NetworkConfiguration
-    NetworkConfiguration,
+    NetworkConfiguration (NetworkConfiguration'),
     newNetworkConfiguration,
 
     -- ** PlacementConstraint
-    PlacementConstraint,
+    PlacementConstraint (PlacementConstraint'),
     newPlacementConstraint,
 
     -- ** PlacementStrategy
-    PlacementStrategy,
+    PlacementStrategy (PlacementStrategy'),
     newPlacementStrategy,
 
     -- ** RetryPolicy
-    RetryPolicy,
+    RetryPolicy (RetryPolicy'),
     newRetryPolicy,
 
     -- ** SageMakerPipelineParameter
-    SageMakerPipelineParameter,
+    SageMakerPipelineParameter (SageMakerPipelineParameter'),
     newSageMakerPipelineParameter,
 
     -- ** SageMakerPipelineParameters
-    SageMakerPipelineParameters,
+    SageMakerPipelineParameters (SageMakerPipelineParameters'),
     newSageMakerPipelineParameters,
 
     -- ** ScheduleGroupSummary
-    ScheduleGroupSummary,
+    ScheduleGroupSummary (ScheduleGroupSummary'),
     newScheduleGroupSummary,
 
     -- ** ScheduleSummary
-    ScheduleSummary,
+    ScheduleSummary (ScheduleSummary'),
     newScheduleSummary,
 
     -- ** SqsParameters
-    SqsParameters,
+    SqsParameters (SqsParameters'),
     newSqsParameters,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** Target
-    Target,
+    Target (Target'),
     newTarget,
 
     -- ** TargetSummary
-    TargetSummary,
+    TargetSummary (TargetSummary'),
     newTargetSummary,
   )
 where

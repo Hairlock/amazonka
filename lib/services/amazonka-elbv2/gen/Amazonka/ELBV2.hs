@@ -182,207 +182,207 @@ module Amazonka.ELBV2
     -- $operations
 
     -- ** AddListenerCertificates
-    AddListenerCertificates,
+    AddListenerCertificates (AddListenerCertificates'),
     newAddListenerCertificates,
-    AddListenerCertificatesResponse,
+    AddListenerCertificatesResponse (AddListenerCertificatesResponse'),
     newAddListenerCertificatesResponse,
 
     -- ** AddTags
-    AddTags,
+    AddTags (AddTags'),
     newAddTags,
-    AddTagsResponse,
+    AddTagsResponse (AddTagsResponse'),
     newAddTagsResponse,
 
     -- ** CreateListener
-    CreateListener,
+    CreateListener (CreateListener'),
     newCreateListener,
-    CreateListenerResponse,
+    CreateListenerResponse (CreateListenerResponse'),
     newCreateListenerResponse,
 
     -- ** CreateLoadBalancer
-    CreateLoadBalancer,
+    CreateLoadBalancer (CreateLoadBalancer'),
     newCreateLoadBalancer,
-    CreateLoadBalancerResponse,
+    CreateLoadBalancerResponse (CreateLoadBalancerResponse'),
     newCreateLoadBalancerResponse,
 
     -- ** CreateRule
-    CreateRule,
+    CreateRule (CreateRule'),
     newCreateRule,
-    CreateRuleResponse,
+    CreateRuleResponse (CreateRuleResponse'),
     newCreateRuleResponse,
 
     -- ** CreateTargetGroup
-    CreateTargetGroup,
+    CreateTargetGroup (CreateTargetGroup'),
     newCreateTargetGroup,
-    CreateTargetGroupResponse,
+    CreateTargetGroupResponse (CreateTargetGroupResponse'),
     newCreateTargetGroupResponse,
 
     -- ** DeleteListener
-    DeleteListener,
+    DeleteListener (DeleteListener'),
     newDeleteListener,
-    DeleteListenerResponse,
+    DeleteListenerResponse (DeleteListenerResponse'),
     newDeleteListenerResponse,
 
     -- ** DeleteLoadBalancer
-    DeleteLoadBalancer,
+    DeleteLoadBalancer (DeleteLoadBalancer'),
     newDeleteLoadBalancer,
-    DeleteLoadBalancerResponse,
+    DeleteLoadBalancerResponse (DeleteLoadBalancerResponse'),
     newDeleteLoadBalancerResponse,
 
     -- ** DeleteRule
-    DeleteRule,
+    DeleteRule (DeleteRule'),
     newDeleteRule,
-    DeleteRuleResponse,
+    DeleteRuleResponse (DeleteRuleResponse'),
     newDeleteRuleResponse,
 
     -- ** DeleteTargetGroup
-    DeleteTargetGroup,
+    DeleteTargetGroup (DeleteTargetGroup'),
     newDeleteTargetGroup,
-    DeleteTargetGroupResponse,
+    DeleteTargetGroupResponse (DeleteTargetGroupResponse'),
     newDeleteTargetGroupResponse,
 
     -- ** DeregisterTargets
-    DeregisterTargets,
+    DeregisterTargets (DeregisterTargets'),
     newDeregisterTargets,
-    DeregisterTargetsResponse,
+    DeregisterTargetsResponse (DeregisterTargetsResponse'),
     newDeregisterTargetsResponse,
 
     -- ** DescribeAccountLimits (Paginated)
-    DescribeAccountLimits,
+    DescribeAccountLimits (DescribeAccountLimits'),
     newDescribeAccountLimits,
-    DescribeAccountLimitsResponse,
+    DescribeAccountLimitsResponse (DescribeAccountLimitsResponse'),
     newDescribeAccountLimitsResponse,
 
     -- ** DescribeListenerCertificates (Paginated)
-    DescribeListenerCertificates,
+    DescribeListenerCertificates (DescribeListenerCertificates'),
     newDescribeListenerCertificates,
-    DescribeListenerCertificatesResponse,
+    DescribeListenerCertificatesResponse (DescribeListenerCertificatesResponse'),
     newDescribeListenerCertificatesResponse,
 
     -- ** DescribeListeners (Paginated)
-    DescribeListeners,
+    DescribeListeners (DescribeListeners'),
     newDescribeListeners,
-    DescribeListenersResponse,
+    DescribeListenersResponse (DescribeListenersResponse'),
     newDescribeListenersResponse,
 
     -- ** DescribeLoadBalancerAttributes
-    DescribeLoadBalancerAttributes,
+    DescribeLoadBalancerAttributes (DescribeLoadBalancerAttributes'),
     newDescribeLoadBalancerAttributes,
-    DescribeLoadBalancerAttributesResponse,
+    DescribeLoadBalancerAttributesResponse (DescribeLoadBalancerAttributesResponse'),
     newDescribeLoadBalancerAttributesResponse,
 
     -- ** DescribeLoadBalancers (Paginated)
-    DescribeLoadBalancers,
+    DescribeLoadBalancers (DescribeLoadBalancers'),
     newDescribeLoadBalancers,
-    DescribeLoadBalancersResponse,
+    DescribeLoadBalancersResponse (DescribeLoadBalancersResponse'),
     newDescribeLoadBalancersResponse,
 
     -- ** DescribeRules (Paginated)
-    DescribeRules,
+    DescribeRules (DescribeRules'),
     newDescribeRules,
-    DescribeRulesResponse,
+    DescribeRulesResponse (DescribeRulesResponse'),
     newDescribeRulesResponse,
 
     -- ** DescribeSSLPolicies (Paginated)
-    DescribeSSLPolicies,
+    DescribeSSLPolicies (DescribeSSLPolicies'),
     newDescribeSSLPolicies,
-    DescribeSSLPoliciesResponse,
+    DescribeSSLPoliciesResponse (DescribeSSLPoliciesResponse'),
     newDescribeSSLPoliciesResponse,
 
     -- ** DescribeTags
-    DescribeTags,
+    DescribeTags (DescribeTags'),
     newDescribeTags,
-    DescribeTagsResponse,
+    DescribeTagsResponse (DescribeTagsResponse'),
     newDescribeTagsResponse,
 
     -- ** DescribeTargetGroupAttributes
-    DescribeTargetGroupAttributes,
+    DescribeTargetGroupAttributes (DescribeTargetGroupAttributes'),
     newDescribeTargetGroupAttributes,
-    DescribeTargetGroupAttributesResponse,
+    DescribeTargetGroupAttributesResponse (DescribeTargetGroupAttributesResponse'),
     newDescribeTargetGroupAttributesResponse,
 
     -- ** DescribeTargetGroups (Paginated)
-    DescribeTargetGroups,
+    DescribeTargetGroups (DescribeTargetGroups'),
     newDescribeTargetGroups,
-    DescribeTargetGroupsResponse,
+    DescribeTargetGroupsResponse (DescribeTargetGroupsResponse'),
     newDescribeTargetGroupsResponse,
 
     -- ** DescribeTargetHealth
-    DescribeTargetHealth,
+    DescribeTargetHealth (DescribeTargetHealth'),
     newDescribeTargetHealth,
-    DescribeTargetHealthResponse,
+    DescribeTargetHealthResponse (DescribeTargetHealthResponse'),
     newDescribeTargetHealthResponse,
 
     -- ** ModifyListener
-    ModifyListener,
+    ModifyListener (ModifyListener'),
     newModifyListener,
-    ModifyListenerResponse,
+    ModifyListenerResponse (ModifyListenerResponse'),
     newModifyListenerResponse,
 
     -- ** ModifyLoadBalancerAttributes
-    ModifyLoadBalancerAttributes,
+    ModifyLoadBalancerAttributes (ModifyLoadBalancerAttributes'),
     newModifyLoadBalancerAttributes,
-    ModifyLoadBalancerAttributesResponse,
+    ModifyLoadBalancerAttributesResponse (ModifyLoadBalancerAttributesResponse'),
     newModifyLoadBalancerAttributesResponse,
 
     -- ** ModifyRule
-    ModifyRule,
+    ModifyRule (ModifyRule'),
     newModifyRule,
-    ModifyRuleResponse,
+    ModifyRuleResponse (ModifyRuleResponse'),
     newModifyRuleResponse,
 
     -- ** ModifyTargetGroup
-    ModifyTargetGroup,
+    ModifyTargetGroup (ModifyTargetGroup'),
     newModifyTargetGroup,
-    ModifyTargetGroupResponse,
+    ModifyTargetGroupResponse (ModifyTargetGroupResponse'),
     newModifyTargetGroupResponse,
 
     -- ** ModifyTargetGroupAttributes
-    ModifyTargetGroupAttributes,
+    ModifyTargetGroupAttributes (ModifyTargetGroupAttributes'),
     newModifyTargetGroupAttributes,
-    ModifyTargetGroupAttributesResponse,
+    ModifyTargetGroupAttributesResponse (ModifyTargetGroupAttributesResponse'),
     newModifyTargetGroupAttributesResponse,
 
     -- ** RegisterTargets
-    RegisterTargets,
+    RegisterTargets (RegisterTargets'),
     newRegisterTargets,
-    RegisterTargetsResponse,
+    RegisterTargetsResponse (RegisterTargetsResponse'),
     newRegisterTargetsResponse,
 
     -- ** RemoveListenerCertificates
-    RemoveListenerCertificates,
+    RemoveListenerCertificates (RemoveListenerCertificates'),
     newRemoveListenerCertificates,
-    RemoveListenerCertificatesResponse,
+    RemoveListenerCertificatesResponse (RemoveListenerCertificatesResponse'),
     newRemoveListenerCertificatesResponse,
 
     -- ** RemoveTags
-    RemoveTags,
+    RemoveTags (RemoveTags'),
     newRemoveTags,
-    RemoveTagsResponse,
+    RemoveTagsResponse (RemoveTagsResponse'),
     newRemoveTagsResponse,
 
     -- ** SetIpAddressType
-    SetIpAddressType,
+    SetIpAddressType (SetIpAddressType'),
     newSetIpAddressType,
-    SetIpAddressTypeResponse,
+    SetIpAddressTypeResponse (SetIpAddressTypeResponse'),
     newSetIpAddressTypeResponse,
 
     -- ** SetRulePriorities
-    SetRulePriorities,
+    SetRulePriorities (SetRulePriorities'),
     newSetRulePriorities,
-    SetRulePrioritiesResponse,
+    SetRulePrioritiesResponse (SetRulePrioritiesResponse'),
     newSetRulePrioritiesResponse,
 
     -- ** SetSecurityGroups
-    SetSecurityGroups,
+    SetSecurityGroups (SetSecurityGroups'),
     newSetSecurityGroups,
-    SetSecurityGroupsResponse,
+    SetSecurityGroupsResponse (SetSecurityGroupsResponse'),
     newSetSecurityGroupsResponse,
 
     -- ** SetSubnets
-    SetSubnets,
+    SetSubnets (SetSubnets'),
     newSetSubnets,
-    SetSubnetsResponse,
+    SetSubnetsResponse (SetSubnetsResponse'),
     newSetSubnetsResponse,
 
     -- * Types
@@ -427,151 +427,151 @@ module Amazonka.ELBV2
     TargetTypeEnum (..),
 
     -- ** Action
-    Action,
+    Action (Action'),
     newAction,
 
     -- ** AuthenticateCognitoActionConfig
-    AuthenticateCognitoActionConfig,
+    AuthenticateCognitoActionConfig (AuthenticateCognitoActionConfig'),
     newAuthenticateCognitoActionConfig,
 
     -- ** AuthenticateOidcActionConfig
-    AuthenticateOidcActionConfig,
+    AuthenticateOidcActionConfig (AuthenticateOidcActionConfig'),
     newAuthenticateOidcActionConfig,
 
     -- ** AvailabilityZone
-    AvailabilityZone,
+    AvailabilityZone (AvailabilityZone'),
     newAvailabilityZone,
 
     -- ** Certificate
-    Certificate,
+    Certificate (Certificate'),
     newCertificate,
 
     -- ** Cipher
-    Cipher,
+    Cipher (Cipher'),
     newCipher,
 
     -- ** FixedResponseActionConfig
-    FixedResponseActionConfig,
+    FixedResponseActionConfig (FixedResponseActionConfig'),
     newFixedResponseActionConfig,
 
     -- ** ForwardActionConfig
-    ForwardActionConfig,
+    ForwardActionConfig (ForwardActionConfig'),
     newForwardActionConfig,
 
     -- ** HostHeaderConditionConfig
-    HostHeaderConditionConfig,
+    HostHeaderConditionConfig (HostHeaderConditionConfig'),
     newHostHeaderConditionConfig,
 
     -- ** HttpHeaderConditionConfig
-    HttpHeaderConditionConfig,
+    HttpHeaderConditionConfig (HttpHeaderConditionConfig'),
     newHttpHeaderConditionConfig,
 
     -- ** HttpRequestMethodConditionConfig
-    HttpRequestMethodConditionConfig,
+    HttpRequestMethodConditionConfig (HttpRequestMethodConditionConfig'),
     newHttpRequestMethodConditionConfig,
 
     -- ** Limit
-    Limit,
+    Limit (Limit'),
     newLimit,
 
     -- ** Listener
-    Listener,
+    Listener (Listener'),
     newListener,
 
     -- ** LoadBalancer
-    LoadBalancer,
+    LoadBalancer (LoadBalancer'),
     newLoadBalancer,
 
     -- ** LoadBalancerAddress
-    LoadBalancerAddress,
+    LoadBalancerAddress (LoadBalancerAddress'),
     newLoadBalancerAddress,
 
     -- ** LoadBalancerAttribute
-    LoadBalancerAttribute,
+    LoadBalancerAttribute (LoadBalancerAttribute'),
     newLoadBalancerAttribute,
 
     -- ** LoadBalancerState
-    LoadBalancerState,
+    LoadBalancerState (LoadBalancerState'),
     newLoadBalancerState,
 
     -- ** Matcher
-    Matcher,
+    Matcher (Matcher'),
     newMatcher,
 
     -- ** PathPatternConditionConfig
-    PathPatternConditionConfig,
+    PathPatternConditionConfig (PathPatternConditionConfig'),
     newPathPatternConditionConfig,
 
     -- ** QueryStringConditionConfig
-    QueryStringConditionConfig,
+    QueryStringConditionConfig (QueryStringConditionConfig'),
     newQueryStringConditionConfig,
 
     -- ** QueryStringKeyValuePair
-    QueryStringKeyValuePair,
+    QueryStringKeyValuePair (QueryStringKeyValuePair'),
     newQueryStringKeyValuePair,
 
     -- ** RedirectActionConfig
-    RedirectActionConfig,
+    RedirectActionConfig (RedirectActionConfig'),
     newRedirectActionConfig,
 
     -- ** Rule
-    Rule,
+    Rule (Rule'),
     newRule,
 
     -- ** RuleCondition
-    RuleCondition,
+    RuleCondition (RuleCondition'),
     newRuleCondition,
 
     -- ** RulePriorityPair
-    RulePriorityPair,
+    RulePriorityPair (RulePriorityPair'),
     newRulePriorityPair,
 
     -- ** SourceIpConditionConfig
-    SourceIpConditionConfig,
+    SourceIpConditionConfig (SourceIpConditionConfig'),
     newSourceIpConditionConfig,
 
     -- ** SslPolicy
-    SslPolicy,
+    SslPolicy (SslPolicy'),
     newSslPolicy,
 
     -- ** SubnetMapping
-    SubnetMapping,
+    SubnetMapping (SubnetMapping'),
     newSubnetMapping,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** TagDescription
-    TagDescription,
+    TagDescription (TagDescription'),
     newTagDescription,
 
     -- ** TargetDescription
-    TargetDescription,
+    TargetDescription (TargetDescription'),
     newTargetDescription,
 
     -- ** TargetGroup
-    TargetGroup,
+    TargetGroup (TargetGroup'),
     newTargetGroup,
 
     -- ** TargetGroupAttribute
-    TargetGroupAttribute,
+    TargetGroupAttribute (TargetGroupAttribute'),
     newTargetGroupAttribute,
 
     -- ** TargetGroupStickinessConfig
-    TargetGroupStickinessConfig,
+    TargetGroupStickinessConfig (TargetGroupStickinessConfig'),
     newTargetGroupStickinessConfig,
 
     -- ** TargetGroupTuple
-    TargetGroupTuple,
+    TargetGroupTuple (TargetGroupTuple'),
     newTargetGroupTuple,
 
     -- ** TargetHealth
-    TargetHealth,
+    TargetHealth (TargetHealth'),
     newTargetHealth,
 
     -- ** TargetHealthDescription
-    TargetHealthDescription,
+    TargetHealthDescription (TargetHealthDescription'),
     newTargetHealthDescription,
   )
 where

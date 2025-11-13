@@ -57,69 +57,69 @@ module Amazonka.STS
     -- $operations
 
     -- ** AssumeRole
-    AssumeRole,
+    AssumeRole (AssumeRole'),
     newAssumeRole,
-    AssumeRoleResponse,
+    AssumeRoleResponse (AssumeRoleResponse'),
     newAssumeRoleResponse,
 
     -- ** AssumeRoleWithSAML
-    AssumeRoleWithSAML,
+    AssumeRoleWithSAML (AssumeRoleWithSAML'),
     newAssumeRoleWithSAML,
-    AssumeRoleWithSAMLResponse,
+    AssumeRoleWithSAMLResponse (AssumeRoleWithSAMLResponse'),
     newAssumeRoleWithSAMLResponse,
 
     -- ** AssumeRoleWithWebIdentity
-    AssumeRoleWithWebIdentity,
+    AssumeRoleWithWebIdentity (AssumeRoleWithWebIdentity'),
     newAssumeRoleWithWebIdentity,
-    AssumeRoleWithWebIdentityResponse,
+    AssumeRoleWithWebIdentityResponse (AssumeRoleWithWebIdentityResponse'),
     newAssumeRoleWithWebIdentityResponse,
 
     -- ** DecodeAuthorizationMessage
-    DecodeAuthorizationMessage,
+    DecodeAuthorizationMessage (DecodeAuthorizationMessage'),
     newDecodeAuthorizationMessage,
-    DecodeAuthorizationMessageResponse,
+    DecodeAuthorizationMessageResponse (DecodeAuthorizationMessageResponse'),
     newDecodeAuthorizationMessageResponse,
 
     -- ** GetAccessKeyInfo
-    GetAccessKeyInfo,
+    GetAccessKeyInfo (GetAccessKeyInfo'),
     newGetAccessKeyInfo,
-    GetAccessKeyInfoResponse,
+    GetAccessKeyInfoResponse (GetAccessKeyInfoResponse'),
     newGetAccessKeyInfoResponse,
 
     -- ** GetCallerIdentity
-    GetCallerIdentity,
+    GetCallerIdentity (GetCallerIdentity'),
     newGetCallerIdentity,
-    GetCallerIdentityResponse,
+    GetCallerIdentityResponse (GetCallerIdentityResponse'),
     newGetCallerIdentityResponse,
 
     -- ** GetFederationToken
-    GetFederationToken,
+    GetFederationToken (GetFederationToken'),
     newGetFederationToken,
-    GetFederationTokenResponse,
+    GetFederationTokenResponse (GetFederationTokenResponse'),
     newGetFederationTokenResponse,
 
     -- ** GetSessionToken
-    GetSessionToken,
+    GetSessionToken (GetSessionToken'),
     newGetSessionToken,
-    GetSessionTokenResponse,
+    GetSessionTokenResponse (GetSessionTokenResponse'),
     newGetSessionTokenResponse,
 
     -- * Types
 
     -- ** AssumedRoleUser
-    AssumedRoleUser,
+    AssumedRoleUser (AssumedRoleUser'),
     newAssumedRoleUser,
 
     -- ** FederatedUser
-    FederatedUser,
+    FederatedUser (FederatedUser'),
     newFederatedUser,
 
     -- ** PolicyDescriptorType
-    PolicyDescriptorType,
+    PolicyDescriptorType (PolicyDescriptorType'),
     newPolicyDescriptorType,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
   )
 where

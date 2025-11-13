@@ -66,99 +66,99 @@ module Amazonka.ChimeSdkMeetings
     -- $operations
 
     -- ** BatchCreateAttendee
-    BatchCreateAttendee,
+    BatchCreateAttendee (BatchCreateAttendee'),
     newBatchCreateAttendee,
-    BatchCreateAttendeeResponse,
+    BatchCreateAttendeeResponse (BatchCreateAttendeeResponse'),
     newBatchCreateAttendeeResponse,
 
     -- ** BatchUpdateAttendeeCapabilitiesExcept
-    BatchUpdateAttendeeCapabilitiesExcept,
+    BatchUpdateAttendeeCapabilitiesExcept (BatchUpdateAttendeeCapabilitiesExcept'),
     newBatchUpdateAttendeeCapabilitiesExcept,
-    BatchUpdateAttendeeCapabilitiesExceptResponse,
+    BatchUpdateAttendeeCapabilitiesExceptResponse (BatchUpdateAttendeeCapabilitiesExceptResponse'),
     newBatchUpdateAttendeeCapabilitiesExceptResponse,
 
     -- ** CreateAttendee
-    CreateAttendee,
+    CreateAttendee (CreateAttendee'),
     newCreateAttendee,
-    CreateAttendeeResponse,
+    CreateAttendeeResponse (CreateAttendeeResponse'),
     newCreateAttendeeResponse,
 
     -- ** CreateMeeting
-    CreateMeeting,
+    CreateMeeting (CreateMeeting'),
     newCreateMeeting,
-    CreateMeetingResponse,
+    CreateMeetingResponse (CreateMeetingResponse'),
     newCreateMeetingResponse,
 
     -- ** CreateMeetingWithAttendees
-    CreateMeetingWithAttendees,
+    CreateMeetingWithAttendees (CreateMeetingWithAttendees'),
     newCreateMeetingWithAttendees,
-    CreateMeetingWithAttendeesResponse,
+    CreateMeetingWithAttendeesResponse (CreateMeetingWithAttendeesResponse'),
     newCreateMeetingWithAttendeesResponse,
 
     -- ** DeleteAttendee
-    DeleteAttendee,
+    DeleteAttendee (DeleteAttendee'),
     newDeleteAttendee,
-    DeleteAttendeeResponse,
+    DeleteAttendeeResponse (DeleteAttendeeResponse'),
     newDeleteAttendeeResponse,
 
     -- ** DeleteMeeting
-    DeleteMeeting,
+    DeleteMeeting (DeleteMeeting'),
     newDeleteMeeting,
-    DeleteMeetingResponse,
+    DeleteMeetingResponse (DeleteMeetingResponse'),
     newDeleteMeetingResponse,
 
     -- ** GetAttendee
-    GetAttendee,
+    GetAttendee (GetAttendee'),
     newGetAttendee,
-    GetAttendeeResponse,
+    GetAttendeeResponse (GetAttendeeResponse'),
     newGetAttendeeResponse,
 
     -- ** GetMeeting
-    GetMeeting,
+    GetMeeting (GetMeeting'),
     newGetMeeting,
-    GetMeetingResponse,
+    GetMeetingResponse (GetMeetingResponse'),
     newGetMeetingResponse,
 
     -- ** ListAttendees
-    ListAttendees,
+    ListAttendees (ListAttendees'),
     newListAttendees,
-    ListAttendeesResponse,
+    ListAttendeesResponse (ListAttendeesResponse'),
     newListAttendeesResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** StartMeetingTranscription
-    StartMeetingTranscription,
+    StartMeetingTranscription (StartMeetingTranscription'),
     newStartMeetingTranscription,
-    StartMeetingTranscriptionResponse,
+    StartMeetingTranscriptionResponse (StartMeetingTranscriptionResponse'),
     newStartMeetingTranscriptionResponse,
 
     -- ** StopMeetingTranscription
-    StopMeetingTranscription,
+    StopMeetingTranscription (StopMeetingTranscription'),
     newStopMeetingTranscription,
-    StopMeetingTranscriptionResponse,
+    StopMeetingTranscriptionResponse (StopMeetingTranscriptionResponse'),
     newStopMeetingTranscriptionResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateAttendeeCapabilities
-    UpdateAttendeeCapabilities,
+    UpdateAttendeeCapabilities (UpdateAttendeeCapabilities'),
     newUpdateAttendeeCapabilities,
-    UpdateAttendeeCapabilitiesResponse,
+    UpdateAttendeeCapabilitiesResponse (UpdateAttendeeCapabilitiesResponse'),
     newUpdateAttendeeCapabilitiesResponse,
 
     -- * Types
@@ -203,59 +203,59 @@ module Amazonka.ChimeSdkMeetings
     TranscribeVocabularyFilterMethod (..),
 
     -- ** Attendee
-    Attendee,
+    Attendee (Attendee'),
     newAttendee,
 
     -- ** AttendeeCapabilities
-    AttendeeCapabilities,
+    AttendeeCapabilities (AttendeeCapabilities'),
     newAttendeeCapabilities,
 
     -- ** AttendeeIdItem
-    AttendeeIdItem,
+    AttendeeIdItem (AttendeeIdItem'),
     newAttendeeIdItem,
 
     -- ** AudioFeatures
-    AudioFeatures,
+    AudioFeatures (AudioFeatures'),
     newAudioFeatures,
 
     -- ** CreateAttendeeError
-    CreateAttendeeError,
+    CreateAttendeeError (CreateAttendeeError'),
     newCreateAttendeeError,
 
     -- ** CreateAttendeeRequestItem
-    CreateAttendeeRequestItem,
+    CreateAttendeeRequestItem (CreateAttendeeRequestItem'),
     newCreateAttendeeRequestItem,
 
     -- ** EngineTranscribeMedicalSettings
-    EngineTranscribeMedicalSettings,
+    EngineTranscribeMedicalSettings (EngineTranscribeMedicalSettings'),
     newEngineTranscribeMedicalSettings,
 
     -- ** EngineTranscribeSettings
-    EngineTranscribeSettings,
+    EngineTranscribeSettings (EngineTranscribeSettings'),
     newEngineTranscribeSettings,
 
     -- ** MediaPlacement
-    MediaPlacement,
+    MediaPlacement (MediaPlacement'),
     newMediaPlacement,
 
     -- ** Meeting
-    Meeting,
+    Meeting (Meeting'),
     newMeeting,
 
     -- ** MeetingFeaturesConfiguration
-    MeetingFeaturesConfiguration,
+    MeetingFeaturesConfiguration (MeetingFeaturesConfiguration'),
     newMeetingFeaturesConfiguration,
 
     -- ** NotificationsConfiguration
-    NotificationsConfiguration,
+    NotificationsConfiguration (NotificationsConfiguration'),
     newNotificationsConfiguration,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** TranscriptionConfiguration
-    TranscriptionConfiguration,
+    TranscriptionConfiguration (TranscriptionConfiguration'),
     newTranscriptionConfiguration,
   )
 where

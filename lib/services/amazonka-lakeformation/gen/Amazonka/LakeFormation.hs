@@ -82,273 +82,273 @@ module Amazonka.LakeFormation
     -- $operations
 
     -- ** AddLFTagsToResource
-    AddLFTagsToResource,
+    AddLFTagsToResource (AddLFTagsToResource'),
     newAddLFTagsToResource,
-    AddLFTagsToResourceResponse,
+    AddLFTagsToResourceResponse (AddLFTagsToResourceResponse'),
     newAddLFTagsToResourceResponse,
 
     -- ** AssumeDecoratedRoleWithSAML
-    AssumeDecoratedRoleWithSAML,
+    AssumeDecoratedRoleWithSAML (AssumeDecoratedRoleWithSAML'),
     newAssumeDecoratedRoleWithSAML,
-    AssumeDecoratedRoleWithSAMLResponse,
+    AssumeDecoratedRoleWithSAMLResponse (AssumeDecoratedRoleWithSAMLResponse'),
     newAssumeDecoratedRoleWithSAMLResponse,
 
     -- ** BatchGrantPermissions
-    BatchGrantPermissions,
+    BatchGrantPermissions (BatchGrantPermissions'),
     newBatchGrantPermissions,
-    BatchGrantPermissionsResponse,
+    BatchGrantPermissionsResponse (BatchGrantPermissionsResponse'),
     newBatchGrantPermissionsResponse,
 
     -- ** BatchRevokePermissions
-    BatchRevokePermissions,
+    BatchRevokePermissions (BatchRevokePermissions'),
     newBatchRevokePermissions,
-    BatchRevokePermissionsResponse,
+    BatchRevokePermissionsResponse (BatchRevokePermissionsResponse'),
     newBatchRevokePermissionsResponse,
 
     -- ** CancelTransaction
-    CancelTransaction,
+    CancelTransaction (CancelTransaction'),
     newCancelTransaction,
-    CancelTransactionResponse,
+    CancelTransactionResponse (CancelTransactionResponse'),
     newCancelTransactionResponse,
 
     -- ** CommitTransaction
-    CommitTransaction,
+    CommitTransaction (CommitTransaction'),
     newCommitTransaction,
-    CommitTransactionResponse,
+    CommitTransactionResponse (CommitTransactionResponse'),
     newCommitTransactionResponse,
 
     -- ** CreateDataCellsFilter
-    CreateDataCellsFilter,
+    CreateDataCellsFilter (CreateDataCellsFilter'),
     newCreateDataCellsFilter,
-    CreateDataCellsFilterResponse,
+    CreateDataCellsFilterResponse (CreateDataCellsFilterResponse'),
     newCreateDataCellsFilterResponse,
 
     -- ** CreateLFTag
-    CreateLFTag,
+    CreateLFTag (CreateLFTag'),
     newCreateLFTag,
-    CreateLFTagResponse,
+    CreateLFTagResponse (CreateLFTagResponse'),
     newCreateLFTagResponse,
 
     -- ** DeleteDataCellsFilter
-    DeleteDataCellsFilter,
+    DeleteDataCellsFilter (DeleteDataCellsFilter'),
     newDeleteDataCellsFilter,
-    DeleteDataCellsFilterResponse,
+    DeleteDataCellsFilterResponse (DeleteDataCellsFilterResponse'),
     newDeleteDataCellsFilterResponse,
 
     -- ** DeleteLFTag
-    DeleteLFTag,
+    DeleteLFTag (DeleteLFTag'),
     newDeleteLFTag,
-    DeleteLFTagResponse,
+    DeleteLFTagResponse (DeleteLFTagResponse'),
     newDeleteLFTagResponse,
 
     -- ** DeleteObjectsOnCancel
-    DeleteObjectsOnCancel,
+    DeleteObjectsOnCancel (DeleteObjectsOnCancel'),
     newDeleteObjectsOnCancel,
-    DeleteObjectsOnCancelResponse,
+    DeleteObjectsOnCancelResponse (DeleteObjectsOnCancelResponse'),
     newDeleteObjectsOnCancelResponse,
 
     -- ** DeregisterResource
-    DeregisterResource,
+    DeregisterResource (DeregisterResource'),
     newDeregisterResource,
-    DeregisterResourceResponse,
+    DeregisterResourceResponse (DeregisterResourceResponse'),
     newDeregisterResourceResponse,
 
     -- ** DescribeResource
-    DescribeResource,
+    DescribeResource (DescribeResource'),
     newDescribeResource,
-    DescribeResourceResponse,
+    DescribeResourceResponse (DescribeResourceResponse'),
     newDescribeResourceResponse,
 
     -- ** DescribeTransaction
-    DescribeTransaction,
+    DescribeTransaction (DescribeTransaction'),
     newDescribeTransaction,
-    DescribeTransactionResponse,
+    DescribeTransactionResponse (DescribeTransactionResponse'),
     newDescribeTransactionResponse,
 
     -- ** ExtendTransaction
-    ExtendTransaction,
+    ExtendTransaction (ExtendTransaction'),
     newExtendTransaction,
-    ExtendTransactionResponse,
+    ExtendTransactionResponse (ExtendTransactionResponse'),
     newExtendTransactionResponse,
 
     -- ** GetDataLakeSettings
-    GetDataLakeSettings,
+    GetDataLakeSettings (GetDataLakeSettings'),
     newGetDataLakeSettings,
-    GetDataLakeSettingsResponse,
+    GetDataLakeSettingsResponse (GetDataLakeSettingsResponse'),
     newGetDataLakeSettingsResponse,
 
     -- ** GetEffectivePermissionsForPath
-    GetEffectivePermissionsForPath,
+    GetEffectivePermissionsForPath (GetEffectivePermissionsForPath'),
     newGetEffectivePermissionsForPath,
-    GetEffectivePermissionsForPathResponse,
+    GetEffectivePermissionsForPathResponse (GetEffectivePermissionsForPathResponse'),
     newGetEffectivePermissionsForPathResponse,
 
     -- ** GetLFTag
-    GetLFTag,
+    GetLFTag (GetLFTag'),
     newGetLFTag,
-    GetLFTagResponse,
+    GetLFTagResponse (GetLFTagResponse'),
     newGetLFTagResponse,
 
     -- ** GetQueryState
-    GetQueryState,
+    GetQueryState (GetQueryState'),
     newGetQueryState,
-    GetQueryStateResponse,
+    GetQueryStateResponse (GetQueryStateResponse'),
     newGetQueryStateResponse,
 
     -- ** GetQueryStatistics
-    GetQueryStatistics,
+    GetQueryStatistics (GetQueryStatistics'),
     newGetQueryStatistics,
-    GetQueryStatisticsResponse,
+    GetQueryStatisticsResponse (GetQueryStatisticsResponse'),
     newGetQueryStatisticsResponse,
 
     -- ** GetResourceLFTags
-    GetResourceLFTags,
+    GetResourceLFTags (GetResourceLFTags'),
     newGetResourceLFTags,
-    GetResourceLFTagsResponse,
+    GetResourceLFTagsResponse (GetResourceLFTagsResponse'),
     newGetResourceLFTagsResponse,
 
     -- ** GetTableObjects
-    GetTableObjects,
+    GetTableObjects (GetTableObjects'),
     newGetTableObjects,
-    GetTableObjectsResponse,
+    GetTableObjectsResponse (GetTableObjectsResponse'),
     newGetTableObjectsResponse,
 
     -- ** GetTemporaryGluePartitionCredentials
-    GetTemporaryGluePartitionCredentials,
+    GetTemporaryGluePartitionCredentials (GetTemporaryGluePartitionCredentials'),
     newGetTemporaryGluePartitionCredentials,
-    GetTemporaryGluePartitionCredentialsResponse,
+    GetTemporaryGluePartitionCredentialsResponse (GetTemporaryGluePartitionCredentialsResponse'),
     newGetTemporaryGluePartitionCredentialsResponse,
 
     -- ** GetTemporaryGlueTableCredentials
-    GetTemporaryGlueTableCredentials,
+    GetTemporaryGlueTableCredentials (GetTemporaryGlueTableCredentials'),
     newGetTemporaryGlueTableCredentials,
-    GetTemporaryGlueTableCredentialsResponse,
+    GetTemporaryGlueTableCredentialsResponse (GetTemporaryGlueTableCredentialsResponse'),
     newGetTemporaryGlueTableCredentialsResponse,
 
     -- ** GetWorkUnitResults
-    GetWorkUnitResults,
+    GetWorkUnitResults (GetWorkUnitResults'),
     newGetWorkUnitResults,
-    GetWorkUnitResultsResponse,
+    GetWorkUnitResultsResponse (GetWorkUnitResultsResponse'),
     newGetWorkUnitResultsResponse,
 
     -- ** GetWorkUnits (Paginated)
-    GetWorkUnits,
+    GetWorkUnits (GetWorkUnits'),
     newGetWorkUnits,
-    GetWorkUnitsResponse,
+    GetWorkUnitsResponse (GetWorkUnitsResponse'),
     newGetWorkUnitsResponse,
 
     -- ** GrantPermissions
-    GrantPermissions,
+    GrantPermissions (GrantPermissions'),
     newGrantPermissions,
-    GrantPermissionsResponse,
+    GrantPermissionsResponse (GrantPermissionsResponse'),
     newGrantPermissionsResponse,
 
     -- ** ListDataCellsFilter (Paginated)
-    ListDataCellsFilter,
+    ListDataCellsFilter (ListDataCellsFilter'),
     newListDataCellsFilter,
-    ListDataCellsFilterResponse,
+    ListDataCellsFilterResponse (ListDataCellsFilterResponse'),
     newListDataCellsFilterResponse,
 
     -- ** ListLFTags (Paginated)
-    ListLFTags,
+    ListLFTags (ListLFTags'),
     newListLFTags,
-    ListLFTagsResponse,
+    ListLFTagsResponse (ListLFTagsResponse'),
     newListLFTagsResponse,
 
     -- ** ListPermissions
-    ListPermissions,
+    ListPermissions (ListPermissions'),
     newListPermissions,
-    ListPermissionsResponse,
+    ListPermissionsResponse (ListPermissionsResponse'),
     newListPermissionsResponse,
 
     -- ** ListResources
-    ListResources,
+    ListResources (ListResources'),
     newListResources,
-    ListResourcesResponse,
+    ListResourcesResponse (ListResourcesResponse'),
     newListResourcesResponse,
 
     -- ** ListTableStorageOptimizers
-    ListTableStorageOptimizers,
+    ListTableStorageOptimizers (ListTableStorageOptimizers'),
     newListTableStorageOptimizers,
-    ListTableStorageOptimizersResponse,
+    ListTableStorageOptimizersResponse (ListTableStorageOptimizersResponse'),
     newListTableStorageOptimizersResponse,
 
     -- ** ListTransactions
-    ListTransactions,
+    ListTransactions (ListTransactions'),
     newListTransactions,
-    ListTransactionsResponse,
+    ListTransactionsResponse (ListTransactionsResponse'),
     newListTransactionsResponse,
 
     -- ** PutDataLakeSettings
-    PutDataLakeSettings,
+    PutDataLakeSettings (PutDataLakeSettings'),
     newPutDataLakeSettings,
-    PutDataLakeSettingsResponse,
+    PutDataLakeSettingsResponse (PutDataLakeSettingsResponse'),
     newPutDataLakeSettingsResponse,
 
     -- ** RegisterResource
-    RegisterResource,
+    RegisterResource (RegisterResource'),
     newRegisterResource,
-    RegisterResourceResponse,
+    RegisterResourceResponse (RegisterResourceResponse'),
     newRegisterResourceResponse,
 
     -- ** RemoveLFTagsFromResource
-    RemoveLFTagsFromResource,
+    RemoveLFTagsFromResource (RemoveLFTagsFromResource'),
     newRemoveLFTagsFromResource,
-    RemoveLFTagsFromResourceResponse,
+    RemoveLFTagsFromResourceResponse (RemoveLFTagsFromResourceResponse'),
     newRemoveLFTagsFromResourceResponse,
 
     -- ** RevokePermissions
-    RevokePermissions,
+    RevokePermissions (RevokePermissions'),
     newRevokePermissions,
-    RevokePermissionsResponse,
+    RevokePermissionsResponse (RevokePermissionsResponse'),
     newRevokePermissionsResponse,
 
     -- ** SearchDatabasesByLFTags (Paginated)
-    SearchDatabasesByLFTags,
+    SearchDatabasesByLFTags (SearchDatabasesByLFTags'),
     newSearchDatabasesByLFTags,
-    SearchDatabasesByLFTagsResponse,
+    SearchDatabasesByLFTagsResponse (SearchDatabasesByLFTagsResponse'),
     newSearchDatabasesByLFTagsResponse,
 
     -- ** SearchTablesByLFTags (Paginated)
-    SearchTablesByLFTags,
+    SearchTablesByLFTags (SearchTablesByLFTags'),
     newSearchTablesByLFTags,
-    SearchTablesByLFTagsResponse,
+    SearchTablesByLFTagsResponse (SearchTablesByLFTagsResponse'),
     newSearchTablesByLFTagsResponse,
 
     -- ** StartQueryPlanning
-    StartQueryPlanning,
+    StartQueryPlanning (StartQueryPlanning'),
     newStartQueryPlanning,
-    StartQueryPlanningResponse,
+    StartQueryPlanningResponse (StartQueryPlanningResponse'),
     newStartQueryPlanningResponse,
 
     -- ** StartTransaction
-    StartTransaction,
+    StartTransaction (StartTransaction'),
     newStartTransaction,
-    StartTransactionResponse,
+    StartTransactionResponse (StartTransactionResponse'),
     newStartTransactionResponse,
 
     -- ** UpdateLFTag
-    UpdateLFTag,
+    UpdateLFTag (UpdateLFTag'),
     newUpdateLFTag,
-    UpdateLFTagResponse,
+    UpdateLFTagResponse (UpdateLFTagResponse'),
     newUpdateLFTagResponse,
 
     -- ** UpdateResource
-    UpdateResource,
+    UpdateResource (UpdateResource'),
     newUpdateResource,
-    UpdateResourceResponse,
+    UpdateResourceResponse (UpdateResourceResponse'),
     newUpdateResourceResponse,
 
     -- ** UpdateTableObjects
-    UpdateTableObjects,
+    UpdateTableObjects (UpdateTableObjects'),
     newUpdateTableObjects,
-    UpdateTableObjectsResponse,
+    UpdateTableObjectsResponse (UpdateTableObjectsResponse'),
     newUpdateTableObjectsResponse,
 
     -- ** UpdateTableStorageOptimizer
-    UpdateTableStorageOptimizer,
+    UpdateTableStorageOptimizer (UpdateTableStorageOptimizer'),
     newUpdateTableStorageOptimizer,
-    UpdateTableStorageOptimizerResponse,
+    UpdateTableStorageOptimizerResponse (UpdateTableStorageOptimizerResponse'),
     newUpdateTableStorageOptimizerResponse,
 
     -- * Types
@@ -390,179 +390,179 @@ module Amazonka.LakeFormation
     TransactionType (..),
 
     -- ** AddObjectInput
-    AddObjectInput,
+    AddObjectInput (AddObjectInput'),
     newAddObjectInput,
 
     -- ** AllRowsWildcard
-    AllRowsWildcard,
+    AllRowsWildcard (AllRowsWildcard'),
     newAllRowsWildcard,
 
     -- ** AuditContext
-    AuditContext,
+    AuditContext (AuditContext'),
     newAuditContext,
 
     -- ** BatchPermissionsFailureEntry
-    BatchPermissionsFailureEntry,
+    BatchPermissionsFailureEntry (BatchPermissionsFailureEntry'),
     newBatchPermissionsFailureEntry,
 
     -- ** BatchPermissionsRequestEntry
-    BatchPermissionsRequestEntry,
+    BatchPermissionsRequestEntry (BatchPermissionsRequestEntry'),
     newBatchPermissionsRequestEntry,
 
     -- ** CatalogResource
-    CatalogResource,
+    CatalogResource (CatalogResource'),
     newCatalogResource,
 
     -- ** ColumnLFTag
-    ColumnLFTag,
+    ColumnLFTag (ColumnLFTag'),
     newColumnLFTag,
 
     -- ** ColumnWildcard
-    ColumnWildcard,
+    ColumnWildcard (ColumnWildcard'),
     newColumnWildcard,
 
     -- ** DataCellsFilter
-    DataCellsFilter,
+    DataCellsFilter (DataCellsFilter'),
     newDataCellsFilter,
 
     -- ** DataCellsFilterResource
-    DataCellsFilterResource,
+    DataCellsFilterResource (DataCellsFilterResource'),
     newDataCellsFilterResource,
 
     -- ** DataLakePrincipal
-    DataLakePrincipal,
+    DataLakePrincipal (DataLakePrincipal'),
     newDataLakePrincipal,
 
     -- ** DataLakeSettings
-    DataLakeSettings,
+    DataLakeSettings (DataLakeSettings'),
     newDataLakeSettings,
 
     -- ** DataLocationResource
-    DataLocationResource,
+    DataLocationResource (DataLocationResource'),
     newDataLocationResource,
 
     -- ** DatabaseResource
-    DatabaseResource,
+    DatabaseResource (DatabaseResource'),
     newDatabaseResource,
 
     -- ** DeleteObjectInput
-    DeleteObjectInput,
+    DeleteObjectInput (DeleteObjectInput'),
     newDeleteObjectInput,
 
     -- ** DetailsMap
-    DetailsMap,
+    DetailsMap (DetailsMap'),
     newDetailsMap,
 
     -- ** ErrorDetail
-    ErrorDetail,
+    ErrorDetail (ErrorDetail'),
     newErrorDetail,
 
     -- ** ExecutionStatistics
-    ExecutionStatistics,
+    ExecutionStatistics (ExecutionStatistics'),
     newExecutionStatistics,
 
     -- ** FilterCondition
-    FilterCondition,
+    FilterCondition (FilterCondition'),
     newFilterCondition,
 
     -- ** LFTag
-    LFTag,
+    LFTag (LFTag'),
     newLFTag,
 
     -- ** LFTagError
-    LFTagError,
+    LFTagError (LFTagError'),
     newLFTagError,
 
     -- ** LFTagKeyResource
-    LFTagKeyResource,
+    LFTagKeyResource (LFTagKeyResource'),
     newLFTagKeyResource,
 
     -- ** LFTagPair
-    LFTagPair,
+    LFTagPair (LFTagPair'),
     newLFTagPair,
 
     -- ** LFTagPolicyResource
-    LFTagPolicyResource,
+    LFTagPolicyResource (LFTagPolicyResource'),
     newLFTagPolicyResource,
 
     -- ** PartitionObjects
-    PartitionObjects,
+    PartitionObjects (PartitionObjects'),
     newPartitionObjects,
 
     -- ** PartitionValueList
-    PartitionValueList,
+    PartitionValueList (PartitionValueList'),
     newPartitionValueList,
 
     -- ** PlanningStatistics
-    PlanningStatistics,
+    PlanningStatistics (PlanningStatistics'),
     newPlanningStatistics,
 
     -- ** PrincipalPermissions
-    PrincipalPermissions,
+    PrincipalPermissions (PrincipalPermissions'),
     newPrincipalPermissions,
 
     -- ** PrincipalResourcePermissions
-    PrincipalResourcePermissions,
+    PrincipalResourcePermissions (PrincipalResourcePermissions'),
     newPrincipalResourcePermissions,
 
     -- ** QueryPlanningContext
-    QueryPlanningContext,
+    QueryPlanningContext (QueryPlanningContext'),
     newQueryPlanningContext,
 
     -- ** Resource
-    Resource,
+    Resource (Resource'),
     newResource,
 
     -- ** ResourceInfo
-    ResourceInfo,
+    ResourceInfo (ResourceInfo'),
     newResourceInfo,
 
     -- ** RowFilter
-    RowFilter,
+    RowFilter (RowFilter'),
     newRowFilter,
 
     -- ** StorageOptimizer
-    StorageOptimizer,
+    StorageOptimizer (StorageOptimizer'),
     newStorageOptimizer,
 
     -- ** TableObject
-    TableObject,
+    TableObject (TableObject'),
     newTableObject,
 
     -- ** TableResource
-    TableResource,
+    TableResource (TableResource'),
     newTableResource,
 
     -- ** TableWildcard
-    TableWildcard,
+    TableWildcard (TableWildcard'),
     newTableWildcard,
 
     -- ** TableWithColumnsResource
-    TableWithColumnsResource,
+    TableWithColumnsResource (TableWithColumnsResource'),
     newTableWithColumnsResource,
 
     -- ** TaggedDatabase
-    TaggedDatabase,
+    TaggedDatabase (TaggedDatabase'),
     newTaggedDatabase,
 
     -- ** TaggedTable
-    TaggedTable,
+    TaggedTable (TaggedTable'),
     newTaggedTable,
 
     -- ** TransactionDescription
-    TransactionDescription,
+    TransactionDescription (TransactionDescription'),
     newTransactionDescription,
 
     -- ** VirtualObject
-    VirtualObject,
+    VirtualObject (VirtualObject'),
     newVirtualObject,
 
     -- ** WorkUnitRange
-    WorkUnitRange,
+    WorkUnitRange (WorkUnitRange'),
     newWorkUnitRange,
 
     -- ** WriteOperation
-    WriteOperation,
+    WriteOperation (WriteOperation'),
     newWriteOperation,
   )
 where

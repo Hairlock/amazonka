@@ -128,951 +128,951 @@ module Amazonka.IAM
     -- $operations
 
     -- ** AddClientIDToOpenIDConnectProvider
-    AddClientIDToOpenIDConnectProvider,
+    AddClientIDToOpenIDConnectProvider (AddClientIDToOpenIDConnectProvider'),
     newAddClientIDToOpenIDConnectProvider,
-    AddClientIDToOpenIDConnectProviderResponse,
+    AddClientIDToOpenIDConnectProviderResponse (AddClientIDToOpenIDConnectProviderResponse'),
     newAddClientIDToOpenIDConnectProviderResponse,
 
     -- ** AddRoleToInstanceProfile
-    AddRoleToInstanceProfile,
+    AddRoleToInstanceProfile (AddRoleToInstanceProfile'),
     newAddRoleToInstanceProfile,
-    AddRoleToInstanceProfileResponse,
+    AddRoleToInstanceProfileResponse (AddRoleToInstanceProfileResponse'),
     newAddRoleToInstanceProfileResponse,
 
     -- ** AddUserToGroup
-    AddUserToGroup,
+    AddUserToGroup (AddUserToGroup'),
     newAddUserToGroup,
-    AddUserToGroupResponse,
+    AddUserToGroupResponse (AddUserToGroupResponse'),
     newAddUserToGroupResponse,
 
     -- ** AttachGroupPolicy
-    AttachGroupPolicy,
+    AttachGroupPolicy (AttachGroupPolicy'),
     newAttachGroupPolicy,
-    AttachGroupPolicyResponse,
+    AttachGroupPolicyResponse (AttachGroupPolicyResponse'),
     newAttachGroupPolicyResponse,
 
     -- ** AttachRolePolicy
-    AttachRolePolicy,
+    AttachRolePolicy (AttachRolePolicy'),
     newAttachRolePolicy,
-    AttachRolePolicyResponse,
+    AttachRolePolicyResponse (AttachRolePolicyResponse'),
     newAttachRolePolicyResponse,
 
     -- ** AttachUserPolicy
-    AttachUserPolicy,
+    AttachUserPolicy (AttachUserPolicy'),
     newAttachUserPolicy,
-    AttachUserPolicyResponse,
+    AttachUserPolicyResponse (AttachUserPolicyResponse'),
     newAttachUserPolicyResponse,
 
     -- ** ChangePassword
-    ChangePassword,
+    ChangePassword (ChangePassword'),
     newChangePassword,
-    ChangePasswordResponse,
+    ChangePasswordResponse (ChangePasswordResponse'),
     newChangePasswordResponse,
 
     -- ** CreateAccessKey
-    CreateAccessKey,
+    CreateAccessKey (CreateAccessKey'),
     newCreateAccessKey,
-    CreateAccessKeyResponse,
+    CreateAccessKeyResponse (CreateAccessKeyResponse'),
     newCreateAccessKeyResponse,
 
     -- ** CreateAccountAlias
-    CreateAccountAlias,
+    CreateAccountAlias (CreateAccountAlias'),
     newCreateAccountAlias,
-    CreateAccountAliasResponse,
+    CreateAccountAliasResponse (CreateAccountAliasResponse'),
     newCreateAccountAliasResponse,
 
     -- ** CreateGroup
-    CreateGroup,
+    CreateGroup (CreateGroup'),
     newCreateGroup,
-    CreateGroupResponse,
+    CreateGroupResponse (CreateGroupResponse'),
     newCreateGroupResponse,
 
     -- ** CreateInstanceProfile
-    CreateInstanceProfile,
+    CreateInstanceProfile (CreateInstanceProfile'),
     newCreateInstanceProfile,
-    CreateInstanceProfileResponse,
+    CreateInstanceProfileResponse (CreateInstanceProfileResponse'),
     newCreateInstanceProfileResponse,
 
     -- ** CreateLoginProfile
-    CreateLoginProfile,
+    CreateLoginProfile (CreateLoginProfile'),
     newCreateLoginProfile,
-    CreateLoginProfileResponse,
+    CreateLoginProfileResponse (CreateLoginProfileResponse'),
     newCreateLoginProfileResponse,
 
     -- ** CreateOpenIDConnectProvider
-    CreateOpenIDConnectProvider,
+    CreateOpenIDConnectProvider (CreateOpenIDConnectProvider'),
     newCreateOpenIDConnectProvider,
-    CreateOpenIDConnectProviderResponse,
+    CreateOpenIDConnectProviderResponse (CreateOpenIDConnectProviderResponse'),
     newCreateOpenIDConnectProviderResponse,
 
     -- ** CreatePolicy
-    CreatePolicy,
+    CreatePolicy (CreatePolicy'),
     newCreatePolicy,
-    CreatePolicyResponse,
+    CreatePolicyResponse (CreatePolicyResponse'),
     newCreatePolicyResponse,
 
     -- ** CreatePolicyVersion
-    CreatePolicyVersion,
+    CreatePolicyVersion (CreatePolicyVersion'),
     newCreatePolicyVersion,
-    CreatePolicyVersionResponse,
+    CreatePolicyVersionResponse (CreatePolicyVersionResponse'),
     newCreatePolicyVersionResponse,
 
     -- ** CreateRole
-    CreateRole,
+    CreateRole (CreateRole'),
     newCreateRole,
-    CreateRoleResponse,
+    CreateRoleResponse (CreateRoleResponse'),
     newCreateRoleResponse,
 
     -- ** CreateSAMLProvider
-    CreateSAMLProvider,
+    CreateSAMLProvider (CreateSAMLProvider'),
     newCreateSAMLProvider,
-    CreateSAMLProviderResponse,
+    CreateSAMLProviderResponse (CreateSAMLProviderResponse'),
     newCreateSAMLProviderResponse,
 
     -- ** CreateServiceLinkedRole
-    CreateServiceLinkedRole,
+    CreateServiceLinkedRole (CreateServiceLinkedRole'),
     newCreateServiceLinkedRole,
-    CreateServiceLinkedRoleResponse,
+    CreateServiceLinkedRoleResponse (CreateServiceLinkedRoleResponse'),
     newCreateServiceLinkedRoleResponse,
 
     -- ** CreateServiceSpecificCredential
-    CreateServiceSpecificCredential,
+    CreateServiceSpecificCredential (CreateServiceSpecificCredential'),
     newCreateServiceSpecificCredential,
-    CreateServiceSpecificCredentialResponse,
+    CreateServiceSpecificCredentialResponse (CreateServiceSpecificCredentialResponse'),
     newCreateServiceSpecificCredentialResponse,
 
     -- ** CreateUser
-    CreateUser,
+    CreateUser (CreateUser'),
     newCreateUser,
-    CreateUserResponse,
+    CreateUserResponse (CreateUserResponse'),
     newCreateUserResponse,
 
     -- ** CreateVirtualMFADevice
-    CreateVirtualMFADevice,
+    CreateVirtualMFADevice (CreateVirtualMFADevice'),
     newCreateVirtualMFADevice,
-    CreateVirtualMFADeviceResponse,
+    CreateVirtualMFADeviceResponse (CreateVirtualMFADeviceResponse'),
     newCreateVirtualMFADeviceResponse,
 
     -- ** DeactivateMFADevice
-    DeactivateMFADevice,
+    DeactivateMFADevice (DeactivateMFADevice'),
     newDeactivateMFADevice,
-    DeactivateMFADeviceResponse,
+    DeactivateMFADeviceResponse (DeactivateMFADeviceResponse'),
     newDeactivateMFADeviceResponse,
 
     -- ** DeleteAccessKey
-    DeleteAccessKey,
+    DeleteAccessKey (DeleteAccessKey'),
     newDeleteAccessKey,
-    DeleteAccessKeyResponse,
+    DeleteAccessKeyResponse (DeleteAccessKeyResponse'),
     newDeleteAccessKeyResponse,
 
     -- ** DeleteAccountAlias
-    DeleteAccountAlias,
+    DeleteAccountAlias (DeleteAccountAlias'),
     newDeleteAccountAlias,
-    DeleteAccountAliasResponse,
+    DeleteAccountAliasResponse (DeleteAccountAliasResponse'),
     newDeleteAccountAliasResponse,
 
     -- ** DeleteAccountPasswordPolicy
-    DeleteAccountPasswordPolicy,
+    DeleteAccountPasswordPolicy (DeleteAccountPasswordPolicy'),
     newDeleteAccountPasswordPolicy,
-    DeleteAccountPasswordPolicyResponse,
+    DeleteAccountPasswordPolicyResponse (DeleteAccountPasswordPolicyResponse'),
     newDeleteAccountPasswordPolicyResponse,
 
     -- ** DeleteGroup
-    DeleteGroup,
+    DeleteGroup (DeleteGroup'),
     newDeleteGroup,
-    DeleteGroupResponse,
+    DeleteGroupResponse (DeleteGroupResponse'),
     newDeleteGroupResponse,
 
     -- ** DeleteGroupPolicy
-    DeleteGroupPolicy,
+    DeleteGroupPolicy (DeleteGroupPolicy'),
     newDeleteGroupPolicy,
-    DeleteGroupPolicyResponse,
+    DeleteGroupPolicyResponse (DeleteGroupPolicyResponse'),
     newDeleteGroupPolicyResponse,
 
     -- ** DeleteInstanceProfile
-    DeleteInstanceProfile,
+    DeleteInstanceProfile (DeleteInstanceProfile'),
     newDeleteInstanceProfile,
-    DeleteInstanceProfileResponse,
+    DeleteInstanceProfileResponse (DeleteInstanceProfileResponse'),
     newDeleteInstanceProfileResponse,
 
     -- ** DeleteLoginProfile
-    DeleteLoginProfile,
+    DeleteLoginProfile (DeleteLoginProfile'),
     newDeleteLoginProfile,
-    DeleteLoginProfileResponse,
+    DeleteLoginProfileResponse (DeleteLoginProfileResponse'),
     newDeleteLoginProfileResponse,
 
     -- ** DeleteOpenIDConnectProvider
-    DeleteOpenIDConnectProvider,
+    DeleteOpenIDConnectProvider (DeleteOpenIDConnectProvider'),
     newDeleteOpenIDConnectProvider,
-    DeleteOpenIDConnectProviderResponse,
+    DeleteOpenIDConnectProviderResponse (DeleteOpenIDConnectProviderResponse'),
     newDeleteOpenIDConnectProviderResponse,
 
     -- ** DeletePolicy
-    DeletePolicy,
+    DeletePolicy (DeletePolicy'),
     newDeletePolicy,
-    DeletePolicyResponse,
+    DeletePolicyResponse (DeletePolicyResponse'),
     newDeletePolicyResponse,
 
     -- ** DeletePolicyVersion
-    DeletePolicyVersion,
+    DeletePolicyVersion (DeletePolicyVersion'),
     newDeletePolicyVersion,
-    DeletePolicyVersionResponse,
+    DeletePolicyVersionResponse (DeletePolicyVersionResponse'),
     newDeletePolicyVersionResponse,
 
     -- ** DeleteRole
-    DeleteRole,
+    DeleteRole (DeleteRole'),
     newDeleteRole,
-    DeleteRoleResponse,
+    DeleteRoleResponse (DeleteRoleResponse'),
     newDeleteRoleResponse,
 
     -- ** DeleteRolePermissionsBoundary
-    DeleteRolePermissionsBoundary,
+    DeleteRolePermissionsBoundary (DeleteRolePermissionsBoundary'),
     newDeleteRolePermissionsBoundary,
-    DeleteRolePermissionsBoundaryResponse,
+    DeleteRolePermissionsBoundaryResponse (DeleteRolePermissionsBoundaryResponse'),
     newDeleteRolePermissionsBoundaryResponse,
 
     -- ** DeleteRolePolicy
-    DeleteRolePolicy,
+    DeleteRolePolicy (DeleteRolePolicy'),
     newDeleteRolePolicy,
-    DeleteRolePolicyResponse,
+    DeleteRolePolicyResponse (DeleteRolePolicyResponse'),
     newDeleteRolePolicyResponse,
 
     -- ** DeleteSAMLProvider
-    DeleteSAMLProvider,
+    DeleteSAMLProvider (DeleteSAMLProvider'),
     newDeleteSAMLProvider,
-    DeleteSAMLProviderResponse,
+    DeleteSAMLProviderResponse (DeleteSAMLProviderResponse'),
     newDeleteSAMLProviderResponse,
 
     -- ** DeleteSSHPublicKey
-    DeleteSSHPublicKey,
+    DeleteSSHPublicKey (DeleteSSHPublicKey'),
     newDeleteSSHPublicKey,
-    DeleteSSHPublicKeyResponse,
+    DeleteSSHPublicKeyResponse (DeleteSSHPublicKeyResponse'),
     newDeleteSSHPublicKeyResponse,
 
     -- ** DeleteServerCertificate
-    DeleteServerCertificate,
+    DeleteServerCertificate (DeleteServerCertificate'),
     newDeleteServerCertificate,
-    DeleteServerCertificateResponse,
+    DeleteServerCertificateResponse (DeleteServerCertificateResponse'),
     newDeleteServerCertificateResponse,
 
     -- ** DeleteServiceLinkedRole
-    DeleteServiceLinkedRole,
+    DeleteServiceLinkedRole (DeleteServiceLinkedRole'),
     newDeleteServiceLinkedRole,
-    DeleteServiceLinkedRoleResponse,
+    DeleteServiceLinkedRoleResponse (DeleteServiceLinkedRoleResponse'),
     newDeleteServiceLinkedRoleResponse,
 
     -- ** DeleteServiceSpecificCredential
-    DeleteServiceSpecificCredential,
+    DeleteServiceSpecificCredential (DeleteServiceSpecificCredential'),
     newDeleteServiceSpecificCredential,
-    DeleteServiceSpecificCredentialResponse,
+    DeleteServiceSpecificCredentialResponse (DeleteServiceSpecificCredentialResponse'),
     newDeleteServiceSpecificCredentialResponse,
 
     -- ** DeleteSigningCertificate
-    DeleteSigningCertificate,
+    DeleteSigningCertificate (DeleteSigningCertificate'),
     newDeleteSigningCertificate,
-    DeleteSigningCertificateResponse,
+    DeleteSigningCertificateResponse (DeleteSigningCertificateResponse'),
     newDeleteSigningCertificateResponse,
 
     -- ** DeleteUser
-    DeleteUser,
+    DeleteUser (DeleteUser'),
     newDeleteUser,
-    DeleteUserResponse,
+    DeleteUserResponse (DeleteUserResponse'),
     newDeleteUserResponse,
 
     -- ** DeleteUserPermissionsBoundary
-    DeleteUserPermissionsBoundary,
+    DeleteUserPermissionsBoundary (DeleteUserPermissionsBoundary'),
     newDeleteUserPermissionsBoundary,
-    DeleteUserPermissionsBoundaryResponse,
+    DeleteUserPermissionsBoundaryResponse (DeleteUserPermissionsBoundaryResponse'),
     newDeleteUserPermissionsBoundaryResponse,
 
     -- ** DeleteUserPolicy
-    DeleteUserPolicy,
+    DeleteUserPolicy (DeleteUserPolicy'),
     newDeleteUserPolicy,
-    DeleteUserPolicyResponse,
+    DeleteUserPolicyResponse (DeleteUserPolicyResponse'),
     newDeleteUserPolicyResponse,
 
     -- ** DeleteVirtualMFADevice
-    DeleteVirtualMFADevice,
+    DeleteVirtualMFADevice (DeleteVirtualMFADevice'),
     newDeleteVirtualMFADevice,
-    DeleteVirtualMFADeviceResponse,
+    DeleteVirtualMFADeviceResponse (DeleteVirtualMFADeviceResponse'),
     newDeleteVirtualMFADeviceResponse,
 
     -- ** DetachGroupPolicy
-    DetachGroupPolicy,
+    DetachGroupPolicy (DetachGroupPolicy'),
     newDetachGroupPolicy,
-    DetachGroupPolicyResponse,
+    DetachGroupPolicyResponse (DetachGroupPolicyResponse'),
     newDetachGroupPolicyResponse,
 
     -- ** DetachRolePolicy
-    DetachRolePolicy,
+    DetachRolePolicy (DetachRolePolicy'),
     newDetachRolePolicy,
-    DetachRolePolicyResponse,
+    DetachRolePolicyResponse (DetachRolePolicyResponse'),
     newDetachRolePolicyResponse,
 
     -- ** DetachUserPolicy
-    DetachUserPolicy,
+    DetachUserPolicy (DetachUserPolicy'),
     newDetachUserPolicy,
-    DetachUserPolicyResponse,
+    DetachUserPolicyResponse (DetachUserPolicyResponse'),
     newDetachUserPolicyResponse,
 
     -- ** EnableMFADevice
-    EnableMFADevice,
+    EnableMFADevice (EnableMFADevice'),
     newEnableMFADevice,
-    EnableMFADeviceResponse,
+    EnableMFADeviceResponse (EnableMFADeviceResponse'),
     newEnableMFADeviceResponse,
 
     -- ** GenerateCredentialReport
-    GenerateCredentialReport,
+    GenerateCredentialReport (GenerateCredentialReport'),
     newGenerateCredentialReport,
-    GenerateCredentialReportResponse,
+    GenerateCredentialReportResponse (GenerateCredentialReportResponse'),
     newGenerateCredentialReportResponse,
 
     -- ** GenerateOrganizationsAccessReport
-    GenerateOrganizationsAccessReport,
+    GenerateOrganizationsAccessReport (GenerateOrganizationsAccessReport'),
     newGenerateOrganizationsAccessReport,
-    GenerateOrganizationsAccessReportResponse,
+    GenerateOrganizationsAccessReportResponse (GenerateOrganizationsAccessReportResponse'),
     newGenerateOrganizationsAccessReportResponse,
 
     -- ** GenerateServiceLastAccessedDetails
-    GenerateServiceLastAccessedDetails,
+    GenerateServiceLastAccessedDetails (GenerateServiceLastAccessedDetails'),
     newGenerateServiceLastAccessedDetails,
-    GenerateServiceLastAccessedDetailsResponse,
+    GenerateServiceLastAccessedDetailsResponse (GenerateServiceLastAccessedDetailsResponse'),
     newGenerateServiceLastAccessedDetailsResponse,
 
     -- ** GetAccessKeyLastUsed
-    GetAccessKeyLastUsed,
+    GetAccessKeyLastUsed (GetAccessKeyLastUsed'),
     newGetAccessKeyLastUsed,
-    GetAccessKeyLastUsedResponse,
+    GetAccessKeyLastUsedResponse (GetAccessKeyLastUsedResponse'),
     newGetAccessKeyLastUsedResponse,
 
     -- ** GetAccountAuthorizationDetails (Paginated)
-    GetAccountAuthorizationDetails,
+    GetAccountAuthorizationDetails (GetAccountAuthorizationDetails'),
     newGetAccountAuthorizationDetails,
-    GetAccountAuthorizationDetailsResponse,
+    GetAccountAuthorizationDetailsResponse (GetAccountAuthorizationDetailsResponse'),
     newGetAccountAuthorizationDetailsResponse,
 
     -- ** GetAccountPasswordPolicy
-    GetAccountPasswordPolicy,
+    GetAccountPasswordPolicy (GetAccountPasswordPolicy'),
     newGetAccountPasswordPolicy,
-    GetAccountPasswordPolicyResponse,
+    GetAccountPasswordPolicyResponse (GetAccountPasswordPolicyResponse'),
     newGetAccountPasswordPolicyResponse,
 
     -- ** GetAccountSummary
-    GetAccountSummary,
+    GetAccountSummary (GetAccountSummary'),
     newGetAccountSummary,
-    GetAccountSummaryResponse,
+    GetAccountSummaryResponse (GetAccountSummaryResponse'),
     newGetAccountSummaryResponse,
 
     -- ** GetContextKeysForCustomPolicy
-    GetContextKeysForCustomPolicy,
+    GetContextKeysForCustomPolicy (GetContextKeysForCustomPolicy'),
     newGetContextKeysForCustomPolicy,
-    GetContextKeysForPolicyResponse,
+    GetContextKeysForPolicyResponse (GetContextKeysForPolicyResponse'),
     newGetContextKeysForPolicyResponse,
 
     -- ** GetContextKeysForPrincipalPolicy
-    GetContextKeysForPrincipalPolicy,
+    GetContextKeysForPrincipalPolicy (GetContextKeysForPrincipalPolicy'),
     newGetContextKeysForPrincipalPolicy,
-    GetContextKeysForPolicyResponse,
+    GetContextKeysForPolicyResponse (GetContextKeysForPolicyResponse'),
     newGetContextKeysForPolicyResponse,
 
     -- ** GetCredentialReport
-    GetCredentialReport,
+    GetCredentialReport (GetCredentialReport'),
     newGetCredentialReport,
-    GetCredentialReportResponse,
+    GetCredentialReportResponse (GetCredentialReportResponse'),
     newGetCredentialReportResponse,
 
     -- ** GetGroup (Paginated)
-    GetGroup,
+    GetGroup (GetGroup'),
     newGetGroup,
-    GetGroupResponse,
+    GetGroupResponse (GetGroupResponse'),
     newGetGroupResponse,
 
     -- ** GetGroupPolicy
-    GetGroupPolicy,
+    GetGroupPolicy (GetGroupPolicy'),
     newGetGroupPolicy,
-    GetGroupPolicyResponse,
+    GetGroupPolicyResponse (GetGroupPolicyResponse'),
     newGetGroupPolicyResponse,
 
     -- ** GetInstanceProfile
-    GetInstanceProfile,
+    GetInstanceProfile (GetInstanceProfile'),
     newGetInstanceProfile,
-    GetInstanceProfileResponse,
+    GetInstanceProfileResponse (GetInstanceProfileResponse'),
     newGetInstanceProfileResponse,
 
     -- ** GetLoginProfile
-    GetLoginProfile,
+    GetLoginProfile (GetLoginProfile'),
     newGetLoginProfile,
-    GetLoginProfileResponse,
+    GetLoginProfileResponse (GetLoginProfileResponse'),
     newGetLoginProfileResponse,
 
     -- ** GetOpenIDConnectProvider
-    GetOpenIDConnectProvider,
+    GetOpenIDConnectProvider (GetOpenIDConnectProvider'),
     newGetOpenIDConnectProvider,
-    GetOpenIDConnectProviderResponse,
+    GetOpenIDConnectProviderResponse (GetOpenIDConnectProviderResponse'),
     newGetOpenIDConnectProviderResponse,
 
     -- ** GetOrganizationsAccessReport
-    GetOrganizationsAccessReport,
+    GetOrganizationsAccessReport (GetOrganizationsAccessReport'),
     newGetOrganizationsAccessReport,
-    GetOrganizationsAccessReportResponse,
+    GetOrganizationsAccessReportResponse (GetOrganizationsAccessReportResponse'),
     newGetOrganizationsAccessReportResponse,
 
     -- ** GetPolicy
-    GetPolicy,
+    GetPolicy (GetPolicy'),
     newGetPolicy,
-    GetPolicyResponse,
+    GetPolicyResponse (GetPolicyResponse'),
     newGetPolicyResponse,
 
     -- ** GetPolicyVersion
-    GetPolicyVersion,
+    GetPolicyVersion (GetPolicyVersion'),
     newGetPolicyVersion,
-    GetPolicyVersionResponse,
+    GetPolicyVersionResponse (GetPolicyVersionResponse'),
     newGetPolicyVersionResponse,
 
     -- ** GetRole
-    GetRole,
+    GetRole (GetRole'),
     newGetRole,
-    GetRoleResponse,
+    GetRoleResponse (GetRoleResponse'),
     newGetRoleResponse,
 
     -- ** GetRolePolicy
-    GetRolePolicy,
+    GetRolePolicy (GetRolePolicy'),
     newGetRolePolicy,
-    GetRolePolicyResponse,
+    GetRolePolicyResponse (GetRolePolicyResponse'),
     newGetRolePolicyResponse,
 
     -- ** GetSAMLProvider
-    GetSAMLProvider,
+    GetSAMLProvider (GetSAMLProvider'),
     newGetSAMLProvider,
-    GetSAMLProviderResponse,
+    GetSAMLProviderResponse (GetSAMLProviderResponse'),
     newGetSAMLProviderResponse,
 
     -- ** GetSSHPublicKey
-    GetSSHPublicKey,
+    GetSSHPublicKey (GetSSHPublicKey'),
     newGetSSHPublicKey,
-    GetSSHPublicKeyResponse,
+    GetSSHPublicKeyResponse (GetSSHPublicKeyResponse'),
     newGetSSHPublicKeyResponse,
 
     -- ** GetServerCertificate
-    GetServerCertificate,
+    GetServerCertificate (GetServerCertificate'),
     newGetServerCertificate,
-    GetServerCertificateResponse,
+    GetServerCertificateResponse (GetServerCertificateResponse'),
     newGetServerCertificateResponse,
 
     -- ** GetServiceLastAccessedDetails
-    GetServiceLastAccessedDetails,
+    GetServiceLastAccessedDetails (GetServiceLastAccessedDetails'),
     newGetServiceLastAccessedDetails,
-    GetServiceLastAccessedDetailsResponse,
+    GetServiceLastAccessedDetailsResponse (GetServiceLastAccessedDetailsResponse'),
     newGetServiceLastAccessedDetailsResponse,
 
     -- ** GetServiceLastAccessedDetailsWithEntities
-    GetServiceLastAccessedDetailsWithEntities,
+    GetServiceLastAccessedDetailsWithEntities (GetServiceLastAccessedDetailsWithEntities'),
     newGetServiceLastAccessedDetailsWithEntities,
-    GetServiceLastAccessedDetailsWithEntitiesResponse,
+    GetServiceLastAccessedDetailsWithEntitiesResponse (GetServiceLastAccessedDetailsWithEntitiesResponse'),
     newGetServiceLastAccessedDetailsWithEntitiesResponse,
 
     -- ** GetServiceLinkedRoleDeletionStatus
-    GetServiceLinkedRoleDeletionStatus,
+    GetServiceLinkedRoleDeletionStatus (GetServiceLinkedRoleDeletionStatus'),
     newGetServiceLinkedRoleDeletionStatus,
-    GetServiceLinkedRoleDeletionStatusResponse,
+    GetServiceLinkedRoleDeletionStatusResponse (GetServiceLinkedRoleDeletionStatusResponse'),
     newGetServiceLinkedRoleDeletionStatusResponse,
 
     -- ** GetUser
-    GetUser,
+    GetUser (GetUser'),
     newGetUser,
-    GetUserResponse,
+    GetUserResponse (GetUserResponse'),
     newGetUserResponse,
 
     -- ** GetUserPolicy
-    GetUserPolicy,
+    GetUserPolicy (GetUserPolicy'),
     newGetUserPolicy,
-    GetUserPolicyResponse,
+    GetUserPolicyResponse (GetUserPolicyResponse'),
     newGetUserPolicyResponse,
 
     -- ** ListAccessKeys (Paginated)
-    ListAccessKeys,
+    ListAccessKeys (ListAccessKeys'),
     newListAccessKeys,
-    ListAccessKeysResponse,
+    ListAccessKeysResponse (ListAccessKeysResponse'),
     newListAccessKeysResponse,
 
     -- ** ListAccountAliases (Paginated)
-    ListAccountAliases,
+    ListAccountAliases (ListAccountAliases'),
     newListAccountAliases,
-    ListAccountAliasesResponse,
+    ListAccountAliasesResponse (ListAccountAliasesResponse'),
     newListAccountAliasesResponse,
 
     -- ** ListAttachedGroupPolicies (Paginated)
-    ListAttachedGroupPolicies,
+    ListAttachedGroupPolicies (ListAttachedGroupPolicies'),
     newListAttachedGroupPolicies,
-    ListAttachedGroupPoliciesResponse,
+    ListAttachedGroupPoliciesResponse (ListAttachedGroupPoliciesResponse'),
     newListAttachedGroupPoliciesResponse,
 
     -- ** ListAttachedRolePolicies (Paginated)
-    ListAttachedRolePolicies,
+    ListAttachedRolePolicies (ListAttachedRolePolicies'),
     newListAttachedRolePolicies,
-    ListAttachedRolePoliciesResponse,
+    ListAttachedRolePoliciesResponse (ListAttachedRolePoliciesResponse'),
     newListAttachedRolePoliciesResponse,
 
     -- ** ListAttachedUserPolicies (Paginated)
-    ListAttachedUserPolicies,
+    ListAttachedUserPolicies (ListAttachedUserPolicies'),
     newListAttachedUserPolicies,
-    ListAttachedUserPoliciesResponse,
+    ListAttachedUserPoliciesResponse (ListAttachedUserPoliciesResponse'),
     newListAttachedUserPoliciesResponse,
 
     -- ** ListEntitiesForPolicy (Paginated)
-    ListEntitiesForPolicy,
+    ListEntitiesForPolicy (ListEntitiesForPolicy'),
     newListEntitiesForPolicy,
-    ListEntitiesForPolicyResponse,
+    ListEntitiesForPolicyResponse (ListEntitiesForPolicyResponse'),
     newListEntitiesForPolicyResponse,
 
     -- ** ListGroupPolicies (Paginated)
-    ListGroupPolicies,
+    ListGroupPolicies (ListGroupPolicies'),
     newListGroupPolicies,
-    ListGroupPoliciesResponse,
+    ListGroupPoliciesResponse (ListGroupPoliciesResponse'),
     newListGroupPoliciesResponse,
 
     -- ** ListGroups (Paginated)
-    ListGroups,
+    ListGroups (ListGroups'),
     newListGroups,
-    ListGroupsResponse,
+    ListGroupsResponse (ListGroupsResponse'),
     newListGroupsResponse,
 
     -- ** ListGroupsForUser (Paginated)
-    ListGroupsForUser,
+    ListGroupsForUser (ListGroupsForUser'),
     newListGroupsForUser,
-    ListGroupsForUserResponse,
+    ListGroupsForUserResponse (ListGroupsForUserResponse'),
     newListGroupsForUserResponse,
 
     -- ** ListInstanceProfileTags
-    ListInstanceProfileTags,
+    ListInstanceProfileTags (ListInstanceProfileTags'),
     newListInstanceProfileTags,
-    ListInstanceProfileTagsResponse,
+    ListInstanceProfileTagsResponse (ListInstanceProfileTagsResponse'),
     newListInstanceProfileTagsResponse,
 
     -- ** ListInstanceProfiles (Paginated)
-    ListInstanceProfiles,
+    ListInstanceProfiles (ListInstanceProfiles'),
     newListInstanceProfiles,
-    ListInstanceProfilesResponse,
+    ListInstanceProfilesResponse (ListInstanceProfilesResponse'),
     newListInstanceProfilesResponse,
 
     -- ** ListInstanceProfilesForRole (Paginated)
-    ListInstanceProfilesForRole,
+    ListInstanceProfilesForRole (ListInstanceProfilesForRole'),
     newListInstanceProfilesForRole,
-    ListInstanceProfilesForRoleResponse,
+    ListInstanceProfilesForRoleResponse (ListInstanceProfilesForRoleResponse'),
     newListInstanceProfilesForRoleResponse,
 
     -- ** ListMFADeviceTags
-    ListMFADeviceTags,
+    ListMFADeviceTags (ListMFADeviceTags'),
     newListMFADeviceTags,
-    ListMFADeviceTagsResponse,
+    ListMFADeviceTagsResponse (ListMFADeviceTagsResponse'),
     newListMFADeviceTagsResponse,
 
     -- ** ListMFADevices (Paginated)
-    ListMFADevices,
+    ListMFADevices (ListMFADevices'),
     newListMFADevices,
-    ListMFADevicesResponse,
+    ListMFADevicesResponse (ListMFADevicesResponse'),
     newListMFADevicesResponse,
 
     -- ** ListOpenIDConnectProviderTags
-    ListOpenIDConnectProviderTags,
+    ListOpenIDConnectProviderTags (ListOpenIDConnectProviderTags'),
     newListOpenIDConnectProviderTags,
-    ListOpenIDConnectProviderTagsResponse,
+    ListOpenIDConnectProviderTagsResponse (ListOpenIDConnectProviderTagsResponse'),
     newListOpenIDConnectProviderTagsResponse,
 
     -- ** ListOpenIDConnectProviders
-    ListOpenIDConnectProviders,
+    ListOpenIDConnectProviders (ListOpenIDConnectProviders'),
     newListOpenIDConnectProviders,
-    ListOpenIDConnectProvidersResponse,
+    ListOpenIDConnectProvidersResponse (ListOpenIDConnectProvidersResponse'),
     newListOpenIDConnectProvidersResponse,
 
     -- ** ListPolicies (Paginated)
-    ListPolicies,
+    ListPolicies (ListPolicies'),
     newListPolicies,
-    ListPoliciesResponse,
+    ListPoliciesResponse (ListPoliciesResponse'),
     newListPoliciesResponse,
 
     -- ** ListPoliciesGrantingServiceAccess
-    ListPoliciesGrantingServiceAccess,
+    ListPoliciesGrantingServiceAccess (ListPoliciesGrantingServiceAccess'),
     newListPoliciesGrantingServiceAccess,
-    ListPoliciesGrantingServiceAccessResponse,
+    ListPoliciesGrantingServiceAccessResponse (ListPoliciesGrantingServiceAccessResponse'),
     newListPoliciesGrantingServiceAccessResponse,
 
     -- ** ListPolicyTags
-    ListPolicyTags,
+    ListPolicyTags (ListPolicyTags'),
     newListPolicyTags,
-    ListPolicyTagsResponse,
+    ListPolicyTagsResponse (ListPolicyTagsResponse'),
     newListPolicyTagsResponse,
 
     -- ** ListPolicyVersions (Paginated)
-    ListPolicyVersions,
+    ListPolicyVersions (ListPolicyVersions'),
     newListPolicyVersions,
-    ListPolicyVersionsResponse,
+    ListPolicyVersionsResponse (ListPolicyVersionsResponse'),
     newListPolicyVersionsResponse,
 
     -- ** ListRolePolicies (Paginated)
-    ListRolePolicies,
+    ListRolePolicies (ListRolePolicies'),
     newListRolePolicies,
-    ListRolePoliciesResponse,
+    ListRolePoliciesResponse (ListRolePoliciesResponse'),
     newListRolePoliciesResponse,
 
     -- ** ListRoleTags
-    ListRoleTags,
+    ListRoleTags (ListRoleTags'),
     newListRoleTags,
-    ListRoleTagsResponse,
+    ListRoleTagsResponse (ListRoleTagsResponse'),
     newListRoleTagsResponse,
 
     -- ** ListRoles (Paginated)
-    ListRoles,
+    ListRoles (ListRoles'),
     newListRoles,
-    ListRolesResponse,
+    ListRolesResponse (ListRolesResponse'),
     newListRolesResponse,
 
     -- ** ListSAMLProviderTags
-    ListSAMLProviderTags,
+    ListSAMLProviderTags (ListSAMLProviderTags'),
     newListSAMLProviderTags,
-    ListSAMLProviderTagsResponse,
+    ListSAMLProviderTagsResponse (ListSAMLProviderTagsResponse'),
     newListSAMLProviderTagsResponse,
 
     -- ** ListSAMLProviders
-    ListSAMLProviders,
+    ListSAMLProviders (ListSAMLProviders'),
     newListSAMLProviders,
-    ListSAMLProvidersResponse,
+    ListSAMLProvidersResponse (ListSAMLProvidersResponse'),
     newListSAMLProvidersResponse,
 
     -- ** ListSSHPublicKeys (Paginated)
-    ListSSHPublicKeys,
+    ListSSHPublicKeys (ListSSHPublicKeys'),
     newListSSHPublicKeys,
-    ListSSHPublicKeysResponse,
+    ListSSHPublicKeysResponse (ListSSHPublicKeysResponse'),
     newListSSHPublicKeysResponse,
 
     -- ** ListServerCertificateTags
-    ListServerCertificateTags,
+    ListServerCertificateTags (ListServerCertificateTags'),
     newListServerCertificateTags,
-    ListServerCertificateTagsResponse,
+    ListServerCertificateTagsResponse (ListServerCertificateTagsResponse'),
     newListServerCertificateTagsResponse,
 
     -- ** ListServerCertificates (Paginated)
-    ListServerCertificates,
+    ListServerCertificates (ListServerCertificates'),
     newListServerCertificates,
-    ListServerCertificatesResponse,
+    ListServerCertificatesResponse (ListServerCertificatesResponse'),
     newListServerCertificatesResponse,
 
     -- ** ListServiceSpecificCredentials
-    ListServiceSpecificCredentials,
+    ListServiceSpecificCredentials (ListServiceSpecificCredentials'),
     newListServiceSpecificCredentials,
-    ListServiceSpecificCredentialsResponse,
+    ListServiceSpecificCredentialsResponse (ListServiceSpecificCredentialsResponse'),
     newListServiceSpecificCredentialsResponse,
 
     -- ** ListSigningCertificates (Paginated)
-    ListSigningCertificates,
+    ListSigningCertificates (ListSigningCertificates'),
     newListSigningCertificates,
-    ListSigningCertificatesResponse,
+    ListSigningCertificatesResponse (ListSigningCertificatesResponse'),
     newListSigningCertificatesResponse,
 
     -- ** ListUserPolicies (Paginated)
-    ListUserPolicies,
+    ListUserPolicies (ListUserPolicies'),
     newListUserPolicies,
-    ListUserPoliciesResponse,
+    ListUserPoliciesResponse (ListUserPoliciesResponse'),
     newListUserPoliciesResponse,
 
     -- ** ListUserTags (Paginated)
-    ListUserTags,
+    ListUserTags (ListUserTags'),
     newListUserTags,
-    ListUserTagsResponse,
+    ListUserTagsResponse (ListUserTagsResponse'),
     newListUserTagsResponse,
 
     -- ** ListUsers (Paginated)
-    ListUsers,
+    ListUsers (ListUsers'),
     newListUsers,
-    ListUsersResponse,
+    ListUsersResponse (ListUsersResponse'),
     newListUsersResponse,
 
     -- ** ListVirtualMFADevices (Paginated)
-    ListVirtualMFADevices,
+    ListVirtualMFADevices (ListVirtualMFADevices'),
     newListVirtualMFADevices,
-    ListVirtualMFADevicesResponse,
+    ListVirtualMFADevicesResponse (ListVirtualMFADevicesResponse'),
     newListVirtualMFADevicesResponse,
 
     -- ** PutGroupPolicy
-    PutGroupPolicy,
+    PutGroupPolicy (PutGroupPolicy'),
     newPutGroupPolicy,
-    PutGroupPolicyResponse,
+    PutGroupPolicyResponse (PutGroupPolicyResponse'),
     newPutGroupPolicyResponse,
 
     -- ** PutRolePermissionsBoundary
-    PutRolePermissionsBoundary,
+    PutRolePermissionsBoundary (PutRolePermissionsBoundary'),
     newPutRolePermissionsBoundary,
-    PutRolePermissionsBoundaryResponse,
+    PutRolePermissionsBoundaryResponse (PutRolePermissionsBoundaryResponse'),
     newPutRolePermissionsBoundaryResponse,
 
     -- ** PutRolePolicy
-    PutRolePolicy,
+    PutRolePolicy (PutRolePolicy'),
     newPutRolePolicy,
-    PutRolePolicyResponse,
+    PutRolePolicyResponse (PutRolePolicyResponse'),
     newPutRolePolicyResponse,
 
     -- ** PutUserPermissionsBoundary
-    PutUserPermissionsBoundary,
+    PutUserPermissionsBoundary (PutUserPermissionsBoundary'),
     newPutUserPermissionsBoundary,
-    PutUserPermissionsBoundaryResponse,
+    PutUserPermissionsBoundaryResponse (PutUserPermissionsBoundaryResponse'),
     newPutUserPermissionsBoundaryResponse,
 
     -- ** PutUserPolicy
-    PutUserPolicy,
+    PutUserPolicy (PutUserPolicy'),
     newPutUserPolicy,
-    PutUserPolicyResponse,
+    PutUserPolicyResponse (PutUserPolicyResponse'),
     newPutUserPolicyResponse,
 
     -- ** RemoveClientIDFromOpenIDConnectProvider
-    RemoveClientIDFromOpenIDConnectProvider,
+    RemoveClientIDFromOpenIDConnectProvider (RemoveClientIDFromOpenIDConnectProvider'),
     newRemoveClientIDFromOpenIDConnectProvider,
-    RemoveClientIDFromOpenIDConnectProviderResponse,
+    RemoveClientIDFromOpenIDConnectProviderResponse (RemoveClientIDFromOpenIDConnectProviderResponse'),
     newRemoveClientIDFromOpenIDConnectProviderResponse,
 
     -- ** RemoveRoleFromInstanceProfile
-    RemoveRoleFromInstanceProfile,
+    RemoveRoleFromInstanceProfile (RemoveRoleFromInstanceProfile'),
     newRemoveRoleFromInstanceProfile,
-    RemoveRoleFromInstanceProfileResponse,
+    RemoveRoleFromInstanceProfileResponse (RemoveRoleFromInstanceProfileResponse'),
     newRemoveRoleFromInstanceProfileResponse,
 
     -- ** RemoveUserFromGroup
-    RemoveUserFromGroup,
+    RemoveUserFromGroup (RemoveUserFromGroup'),
     newRemoveUserFromGroup,
-    RemoveUserFromGroupResponse,
+    RemoveUserFromGroupResponse (RemoveUserFromGroupResponse'),
     newRemoveUserFromGroupResponse,
 
     -- ** ResetServiceSpecificCredential
-    ResetServiceSpecificCredential,
+    ResetServiceSpecificCredential (ResetServiceSpecificCredential'),
     newResetServiceSpecificCredential,
-    ResetServiceSpecificCredentialResponse,
+    ResetServiceSpecificCredentialResponse (ResetServiceSpecificCredentialResponse'),
     newResetServiceSpecificCredentialResponse,
 
     -- ** ResyncMFADevice
-    ResyncMFADevice,
+    ResyncMFADevice (ResyncMFADevice'),
     newResyncMFADevice,
-    ResyncMFADeviceResponse,
+    ResyncMFADeviceResponse (ResyncMFADeviceResponse'),
     newResyncMFADeviceResponse,
 
     -- ** SetDefaultPolicyVersion
-    SetDefaultPolicyVersion,
+    SetDefaultPolicyVersion (SetDefaultPolicyVersion'),
     newSetDefaultPolicyVersion,
-    SetDefaultPolicyVersionResponse,
+    SetDefaultPolicyVersionResponse (SetDefaultPolicyVersionResponse'),
     newSetDefaultPolicyVersionResponse,
 
     -- ** SetSecurityTokenServicePreferences
-    SetSecurityTokenServicePreferences,
+    SetSecurityTokenServicePreferences (SetSecurityTokenServicePreferences'),
     newSetSecurityTokenServicePreferences,
-    SetSecurityTokenServicePreferencesResponse,
+    SetSecurityTokenServicePreferencesResponse (SetSecurityTokenServicePreferencesResponse'),
     newSetSecurityTokenServicePreferencesResponse,
 
     -- ** SimulateCustomPolicy (Paginated)
-    SimulateCustomPolicy,
+    SimulateCustomPolicy (SimulateCustomPolicy'),
     newSimulateCustomPolicy,
-    SimulatePolicyResponse,
+    SimulatePolicyResponse (SimulatePolicyResponse'),
     newSimulatePolicyResponse,
 
     -- ** SimulatePrincipalPolicy (Paginated)
-    SimulatePrincipalPolicy,
+    SimulatePrincipalPolicy (SimulatePrincipalPolicy'),
     newSimulatePrincipalPolicy,
-    SimulatePolicyResponse,
+    SimulatePolicyResponse (SimulatePolicyResponse'),
     newSimulatePolicyResponse,
 
     -- ** TagInstanceProfile
-    TagInstanceProfile,
+    TagInstanceProfile (TagInstanceProfile'),
     newTagInstanceProfile,
-    TagInstanceProfileResponse,
+    TagInstanceProfileResponse (TagInstanceProfileResponse'),
     newTagInstanceProfileResponse,
 
     -- ** TagMFADevice
-    TagMFADevice,
+    TagMFADevice (TagMFADevice'),
     newTagMFADevice,
-    TagMFADeviceResponse,
+    TagMFADeviceResponse (TagMFADeviceResponse'),
     newTagMFADeviceResponse,
 
     -- ** TagOpenIDConnectProvider
-    TagOpenIDConnectProvider,
+    TagOpenIDConnectProvider (TagOpenIDConnectProvider'),
     newTagOpenIDConnectProvider,
-    TagOpenIDConnectProviderResponse,
+    TagOpenIDConnectProviderResponse (TagOpenIDConnectProviderResponse'),
     newTagOpenIDConnectProviderResponse,
 
     -- ** TagPolicy
-    TagPolicy,
+    TagPolicy (TagPolicy'),
     newTagPolicy,
-    TagPolicyResponse,
+    TagPolicyResponse (TagPolicyResponse'),
     newTagPolicyResponse,
 
     -- ** TagRole
-    TagRole,
+    TagRole (TagRole'),
     newTagRole,
-    TagRoleResponse,
+    TagRoleResponse (TagRoleResponse'),
     newTagRoleResponse,
 
     -- ** TagSAMLProvider
-    TagSAMLProvider,
+    TagSAMLProvider (TagSAMLProvider'),
     newTagSAMLProvider,
-    TagSAMLProviderResponse,
+    TagSAMLProviderResponse (TagSAMLProviderResponse'),
     newTagSAMLProviderResponse,
 
     -- ** TagServerCertificate
-    TagServerCertificate,
+    TagServerCertificate (TagServerCertificate'),
     newTagServerCertificate,
-    TagServerCertificateResponse,
+    TagServerCertificateResponse (TagServerCertificateResponse'),
     newTagServerCertificateResponse,
 
     -- ** TagUser
-    TagUser,
+    TagUser (TagUser'),
     newTagUser,
-    TagUserResponse,
+    TagUserResponse (TagUserResponse'),
     newTagUserResponse,
 
     -- ** UntagInstanceProfile
-    UntagInstanceProfile,
+    UntagInstanceProfile (UntagInstanceProfile'),
     newUntagInstanceProfile,
-    UntagInstanceProfileResponse,
+    UntagInstanceProfileResponse (UntagInstanceProfileResponse'),
     newUntagInstanceProfileResponse,
 
     -- ** UntagMFADevice
-    UntagMFADevice,
+    UntagMFADevice (UntagMFADevice'),
     newUntagMFADevice,
-    UntagMFADeviceResponse,
+    UntagMFADeviceResponse (UntagMFADeviceResponse'),
     newUntagMFADeviceResponse,
 
     -- ** UntagOpenIDConnectProvider
-    UntagOpenIDConnectProvider,
+    UntagOpenIDConnectProvider (UntagOpenIDConnectProvider'),
     newUntagOpenIDConnectProvider,
-    UntagOpenIDConnectProviderResponse,
+    UntagOpenIDConnectProviderResponse (UntagOpenIDConnectProviderResponse'),
     newUntagOpenIDConnectProviderResponse,
 
     -- ** UntagPolicy
-    UntagPolicy,
+    UntagPolicy (UntagPolicy'),
     newUntagPolicy,
-    UntagPolicyResponse,
+    UntagPolicyResponse (UntagPolicyResponse'),
     newUntagPolicyResponse,
 
     -- ** UntagRole
-    UntagRole,
+    UntagRole (UntagRole'),
     newUntagRole,
-    UntagRoleResponse,
+    UntagRoleResponse (UntagRoleResponse'),
     newUntagRoleResponse,
 
     -- ** UntagSAMLProvider
-    UntagSAMLProvider,
+    UntagSAMLProvider (UntagSAMLProvider'),
     newUntagSAMLProvider,
-    UntagSAMLProviderResponse,
+    UntagSAMLProviderResponse (UntagSAMLProviderResponse'),
     newUntagSAMLProviderResponse,
 
     -- ** UntagServerCertificate
-    UntagServerCertificate,
+    UntagServerCertificate (UntagServerCertificate'),
     newUntagServerCertificate,
-    UntagServerCertificateResponse,
+    UntagServerCertificateResponse (UntagServerCertificateResponse'),
     newUntagServerCertificateResponse,
 
     -- ** UntagUser
-    UntagUser,
+    UntagUser (UntagUser'),
     newUntagUser,
-    UntagUserResponse,
+    UntagUserResponse (UntagUserResponse'),
     newUntagUserResponse,
 
     -- ** UpdateAccessKey
-    UpdateAccessKey,
+    UpdateAccessKey (UpdateAccessKey'),
     newUpdateAccessKey,
-    UpdateAccessKeyResponse,
+    UpdateAccessKeyResponse (UpdateAccessKeyResponse'),
     newUpdateAccessKeyResponse,
 
     -- ** UpdateAccountPasswordPolicy
-    UpdateAccountPasswordPolicy,
+    UpdateAccountPasswordPolicy (UpdateAccountPasswordPolicy'),
     newUpdateAccountPasswordPolicy,
-    UpdateAccountPasswordPolicyResponse,
+    UpdateAccountPasswordPolicyResponse (UpdateAccountPasswordPolicyResponse'),
     newUpdateAccountPasswordPolicyResponse,
 
     -- ** UpdateAssumeRolePolicy
-    UpdateAssumeRolePolicy,
+    UpdateAssumeRolePolicy (UpdateAssumeRolePolicy'),
     newUpdateAssumeRolePolicy,
-    UpdateAssumeRolePolicyResponse,
+    UpdateAssumeRolePolicyResponse (UpdateAssumeRolePolicyResponse'),
     newUpdateAssumeRolePolicyResponse,
 
     -- ** UpdateGroup
-    UpdateGroup,
+    UpdateGroup (UpdateGroup'),
     newUpdateGroup,
-    UpdateGroupResponse,
+    UpdateGroupResponse (UpdateGroupResponse'),
     newUpdateGroupResponse,
 
     -- ** UpdateLoginProfile
-    UpdateLoginProfile,
+    UpdateLoginProfile (UpdateLoginProfile'),
     newUpdateLoginProfile,
-    UpdateLoginProfileResponse,
+    UpdateLoginProfileResponse (UpdateLoginProfileResponse'),
     newUpdateLoginProfileResponse,
 
     -- ** UpdateOpenIDConnectProviderThumbprint
-    UpdateOpenIDConnectProviderThumbprint,
+    UpdateOpenIDConnectProviderThumbprint (UpdateOpenIDConnectProviderThumbprint'),
     newUpdateOpenIDConnectProviderThumbprint,
-    UpdateOpenIDConnectProviderThumbprintResponse,
+    UpdateOpenIDConnectProviderThumbprintResponse (UpdateOpenIDConnectProviderThumbprintResponse'),
     newUpdateOpenIDConnectProviderThumbprintResponse,
 
     -- ** UpdateRole
-    UpdateRole,
+    UpdateRole (UpdateRole'),
     newUpdateRole,
-    UpdateRoleResponse,
+    UpdateRoleResponse (UpdateRoleResponse'),
     newUpdateRoleResponse,
 
     -- ** UpdateRoleDescription
-    UpdateRoleDescription,
+    UpdateRoleDescription (UpdateRoleDescription'),
     newUpdateRoleDescription,
-    UpdateRoleDescriptionResponse,
+    UpdateRoleDescriptionResponse (UpdateRoleDescriptionResponse'),
     newUpdateRoleDescriptionResponse,
 
     -- ** UpdateSAMLProvider
-    UpdateSAMLProvider,
+    UpdateSAMLProvider (UpdateSAMLProvider'),
     newUpdateSAMLProvider,
-    UpdateSAMLProviderResponse,
+    UpdateSAMLProviderResponse (UpdateSAMLProviderResponse'),
     newUpdateSAMLProviderResponse,
 
     -- ** UpdateSSHPublicKey
-    UpdateSSHPublicKey,
+    UpdateSSHPublicKey (UpdateSSHPublicKey'),
     newUpdateSSHPublicKey,
-    UpdateSSHPublicKeyResponse,
+    UpdateSSHPublicKeyResponse (UpdateSSHPublicKeyResponse'),
     newUpdateSSHPublicKeyResponse,
 
     -- ** UpdateServerCertificate
-    UpdateServerCertificate,
+    UpdateServerCertificate (UpdateServerCertificate'),
     newUpdateServerCertificate,
-    UpdateServerCertificateResponse,
+    UpdateServerCertificateResponse (UpdateServerCertificateResponse'),
     newUpdateServerCertificateResponse,
 
     -- ** UpdateServiceSpecificCredential
-    UpdateServiceSpecificCredential,
+    UpdateServiceSpecificCredential (UpdateServiceSpecificCredential'),
     newUpdateServiceSpecificCredential,
-    UpdateServiceSpecificCredentialResponse,
+    UpdateServiceSpecificCredentialResponse (UpdateServiceSpecificCredentialResponse'),
     newUpdateServiceSpecificCredentialResponse,
 
     -- ** UpdateSigningCertificate
-    UpdateSigningCertificate,
+    UpdateSigningCertificate (UpdateSigningCertificate'),
     newUpdateSigningCertificate,
-    UpdateSigningCertificateResponse,
+    UpdateSigningCertificateResponse (UpdateSigningCertificateResponse'),
     newUpdateSigningCertificateResponse,
 
     -- ** UpdateUser
-    UpdateUser,
+    UpdateUser (UpdateUser'),
     newUpdateUser,
-    UpdateUserResponse,
+    UpdateUserResponse (UpdateUserResponse'),
     newUpdateUserResponse,
 
     -- ** UploadSSHPublicKey
-    UploadSSHPublicKey,
+    UploadSSHPublicKey (UploadSSHPublicKey'),
     newUploadSSHPublicKey,
-    UploadSSHPublicKeyResponse,
+    UploadSSHPublicKeyResponse (UploadSSHPublicKeyResponse'),
     newUploadSSHPublicKeyResponse,
 
     -- ** UploadServerCertificate
-    UploadServerCertificate,
+    UploadServerCertificate (UploadServerCertificate'),
     newUploadServerCertificate,
-    UploadServerCertificateResponse,
+    UploadServerCertificateResponse (UploadServerCertificateResponse'),
     newUploadServerCertificateResponse,
 
     -- ** UploadSigningCertificate
-    UploadSigningCertificate,
+    UploadSigningCertificate (UploadSigningCertificate'),
     newUploadSigningCertificate,
-    UploadSigningCertificateResponse,
+    UploadSigningCertificateResponse (UploadSigningCertificateResponse'),
     newUploadSigningCertificateResponse,
 
     -- * Types
@@ -1138,215 +1138,215 @@ module Amazonka.IAM
     SummaryKeyType (..),
 
     -- ** AccessDetail
-    AccessDetail,
+    AccessDetail (AccessDetail'),
     newAccessDetail,
 
     -- ** AccessKeyInfo
-    AccessKeyInfo,
+    AccessKeyInfo (AccessKeyInfo'),
     newAccessKeyInfo,
 
     -- ** AccessKeyLastUsed
-    AccessKeyLastUsed,
+    AccessKeyLastUsed (AccessKeyLastUsed'),
     newAccessKeyLastUsed,
 
     -- ** AccessKeyMetadata
-    AccessKeyMetadata,
+    AccessKeyMetadata (AccessKeyMetadata'),
     newAccessKeyMetadata,
 
     -- ** AttachedPermissionsBoundary
-    AttachedPermissionsBoundary,
+    AttachedPermissionsBoundary (AttachedPermissionsBoundary'),
     newAttachedPermissionsBoundary,
 
     -- ** AttachedPolicy
-    AttachedPolicy,
+    AttachedPolicy (AttachedPolicy'),
     newAttachedPolicy,
 
     -- ** ContextEntry
-    ContextEntry,
+    ContextEntry (ContextEntry'),
     newContextEntry,
 
     -- ** DeletionTaskFailureReasonType
-    DeletionTaskFailureReasonType,
+    DeletionTaskFailureReasonType (DeletionTaskFailureReasonType'),
     newDeletionTaskFailureReasonType,
 
     -- ** EntityDetails
-    EntityDetails,
+    EntityDetails (EntityDetails'),
     newEntityDetails,
 
     -- ** EntityInfo
-    EntityInfo,
+    EntityInfo (EntityInfo'),
     newEntityInfo,
 
     -- ** ErrorDetails
-    ErrorDetails,
+    ErrorDetails (ErrorDetails'),
     newErrorDetails,
 
     -- ** EvaluationResult
-    EvaluationResult,
+    EvaluationResult (EvaluationResult'),
     newEvaluationResult,
 
     -- ** GetContextKeysForPolicyResponse
-    GetContextKeysForPolicyResponse,
+    GetContextKeysForPolicyResponse (GetContextKeysForPolicyResponse'),
     newGetContextKeysForPolicyResponse,
 
     -- ** Group
-    Group,
+    Group (Group'),
     newGroup,
 
     -- ** GroupDetail
-    GroupDetail,
+    GroupDetail (GroupDetail'),
     newGroupDetail,
 
     -- ** InstanceProfile
-    InstanceProfile,
+    InstanceProfile (InstanceProfile'),
     newInstanceProfile,
 
     -- ** ListPoliciesGrantingServiceAccessEntry
-    ListPoliciesGrantingServiceAccessEntry,
+    ListPoliciesGrantingServiceAccessEntry (ListPoliciesGrantingServiceAccessEntry'),
     newListPoliciesGrantingServiceAccessEntry,
 
     -- ** LoginProfile
-    LoginProfile,
+    LoginProfile (LoginProfile'),
     newLoginProfile,
 
     -- ** MFADevice
-    MFADevice,
+    MFADevice (MFADevice'),
     newMFADevice,
 
     -- ** ManagedPolicyDetail
-    ManagedPolicyDetail,
+    ManagedPolicyDetail (ManagedPolicyDetail'),
     newManagedPolicyDetail,
 
     -- ** OpenIDConnectProviderListEntry
-    OpenIDConnectProviderListEntry,
+    OpenIDConnectProviderListEntry (OpenIDConnectProviderListEntry'),
     newOpenIDConnectProviderListEntry,
 
     -- ** OrganizationsDecisionDetail
-    OrganizationsDecisionDetail,
+    OrganizationsDecisionDetail (OrganizationsDecisionDetail'),
     newOrganizationsDecisionDetail,
 
     -- ** PasswordPolicy
-    PasswordPolicy,
+    PasswordPolicy (PasswordPolicy'),
     newPasswordPolicy,
 
     -- ** PermissionsBoundaryDecisionDetail
-    PermissionsBoundaryDecisionDetail,
+    PermissionsBoundaryDecisionDetail (PermissionsBoundaryDecisionDetail'),
     newPermissionsBoundaryDecisionDetail,
 
     -- ** Policy
-    Policy,
+    Policy (Policy'),
     newPolicy,
 
     -- ** PolicyDetail
-    PolicyDetail,
+    PolicyDetail (PolicyDetail'),
     newPolicyDetail,
 
     -- ** PolicyGrantingServiceAccess
-    PolicyGrantingServiceAccess,
+    PolicyGrantingServiceAccess (PolicyGrantingServiceAccess'),
     newPolicyGrantingServiceAccess,
 
     -- ** PolicyGroup
-    PolicyGroup,
+    PolicyGroup (PolicyGroup'),
     newPolicyGroup,
 
     -- ** PolicyRole
-    PolicyRole,
+    PolicyRole (PolicyRole'),
     newPolicyRole,
 
     -- ** PolicyUser
-    PolicyUser,
+    PolicyUser (PolicyUser'),
     newPolicyUser,
 
     -- ** PolicyVersion
-    PolicyVersion,
+    PolicyVersion (PolicyVersion'),
     newPolicyVersion,
 
     -- ** Position
-    Position,
+    Position (Position'),
     newPosition,
 
     -- ** ResourceSpecificResult
-    ResourceSpecificResult,
+    ResourceSpecificResult (ResourceSpecificResult'),
     newResourceSpecificResult,
 
     -- ** Role
-    Role,
+    Role (Role'),
     newRole,
 
     -- ** RoleDetail
-    RoleDetail,
+    RoleDetail (RoleDetail'),
     newRoleDetail,
 
     -- ** RoleLastUsed
-    RoleLastUsed,
+    RoleLastUsed (RoleLastUsed'),
     newRoleLastUsed,
 
     -- ** RoleUsageType
-    RoleUsageType,
+    RoleUsageType (RoleUsageType'),
     newRoleUsageType,
 
     -- ** SAMLProviderListEntry
-    SAMLProviderListEntry,
+    SAMLProviderListEntry (SAMLProviderListEntry'),
     newSAMLProviderListEntry,
 
     -- ** SSHPublicKey
-    SSHPublicKey,
+    SSHPublicKey (SSHPublicKey'),
     newSSHPublicKey,
 
     -- ** SSHPublicKeyMetadata
-    SSHPublicKeyMetadata,
+    SSHPublicKeyMetadata (SSHPublicKeyMetadata'),
     newSSHPublicKeyMetadata,
 
     -- ** ServerCertificate
-    ServerCertificate,
+    ServerCertificate (ServerCertificate'),
     newServerCertificate,
 
     -- ** ServerCertificateMetadata
-    ServerCertificateMetadata,
+    ServerCertificateMetadata (ServerCertificateMetadata'),
     newServerCertificateMetadata,
 
     -- ** ServiceLastAccessed
-    ServiceLastAccessed,
+    ServiceLastAccessed (ServiceLastAccessed'),
     newServiceLastAccessed,
 
     -- ** ServiceSpecificCredential
-    ServiceSpecificCredential,
+    ServiceSpecificCredential (ServiceSpecificCredential'),
     newServiceSpecificCredential,
 
     -- ** ServiceSpecificCredentialMetadata
-    ServiceSpecificCredentialMetadata,
+    ServiceSpecificCredentialMetadata (ServiceSpecificCredentialMetadata'),
     newServiceSpecificCredentialMetadata,
 
     -- ** SigningCertificate
-    SigningCertificate,
+    SigningCertificate (SigningCertificate'),
     newSigningCertificate,
 
     -- ** SimulatePolicyResponse
-    SimulatePolicyResponse,
+    SimulatePolicyResponse (SimulatePolicyResponse'),
     newSimulatePolicyResponse,
 
     -- ** Statement
-    Statement,
+    Statement (Statement'),
     newStatement,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** TrackedActionLastAccessed
-    TrackedActionLastAccessed,
+    TrackedActionLastAccessed (TrackedActionLastAccessed'),
     newTrackedActionLastAccessed,
 
     -- ** User
-    User,
+    User (User'),
     newUser,
 
     -- ** UserDetail
-    UserDetail,
+    UserDetail (UserDetail'),
     newUserDetail,
 
     -- ** VirtualMFADevice
-    VirtualMFADevice,
+    VirtualMFADevice (VirtualMFADevice'),
     newVirtualMFADevice,
   )
 where

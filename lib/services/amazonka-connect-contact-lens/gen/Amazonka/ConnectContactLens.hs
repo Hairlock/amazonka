@@ -50,9 +50,9 @@ module Amazonka.ConnectContactLens
     -- $operations
 
     -- ** ListRealtimeContactAnalysisSegments
-    ListRealtimeContactAnalysisSegments,
+    ListRealtimeContactAnalysisSegments (ListRealtimeContactAnalysisSegments'),
     newListRealtimeContactAnalysisSegments,
-    ListRealtimeContactAnalysisSegmentsResponse,
+    ListRealtimeContactAnalysisSegmentsResponse (ListRealtimeContactAnalysisSegmentsResponse'),
     newListRealtimeContactAnalysisSegmentsResponse,
 
     -- * Types
@@ -61,31 +61,31 @@ module Amazonka.ConnectContactLens
     SentimentValue (..),
 
     -- ** Categories
-    Categories,
+    Categories (Categories'),
     newCategories,
 
     -- ** CategoryDetails
-    CategoryDetails,
+    CategoryDetails (CategoryDetails'),
     newCategoryDetails,
 
     -- ** CharacterOffsets
-    CharacterOffsets,
+    CharacterOffsets (CharacterOffsets'),
     newCharacterOffsets,
 
     -- ** IssueDetected
-    IssueDetected,
+    IssueDetected (IssueDetected'),
     newIssueDetected,
 
     -- ** PointOfInterest
-    PointOfInterest,
+    PointOfInterest (PointOfInterest'),
     newPointOfInterest,
 
     -- ** RealtimeContactAnalysisSegment
-    RealtimeContactAnalysisSegment,
+    RealtimeContactAnalysisSegment (RealtimeContactAnalysisSegment'),
     newRealtimeContactAnalysisSegment,
 
     -- ** Transcript
-    Transcript,
+    Transcript (Transcript'),
     newTranscript,
   )
 where

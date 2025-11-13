@@ -51,399 +51,399 @@ module Amazonka.Personalize
     -- $operations
 
     -- ** CreateBatchInferenceJob
-    CreateBatchInferenceJob,
+    CreateBatchInferenceJob (CreateBatchInferenceJob'),
     newCreateBatchInferenceJob,
-    CreateBatchInferenceJobResponse,
+    CreateBatchInferenceJobResponse (CreateBatchInferenceJobResponse'),
     newCreateBatchInferenceJobResponse,
 
     -- ** CreateBatchSegmentJob
-    CreateBatchSegmentJob,
+    CreateBatchSegmentJob (CreateBatchSegmentJob'),
     newCreateBatchSegmentJob,
-    CreateBatchSegmentJobResponse,
+    CreateBatchSegmentJobResponse (CreateBatchSegmentJobResponse'),
     newCreateBatchSegmentJobResponse,
 
     -- ** CreateCampaign
-    CreateCampaign,
+    CreateCampaign (CreateCampaign'),
     newCreateCampaign,
-    CreateCampaignResponse,
+    CreateCampaignResponse (CreateCampaignResponse'),
     newCreateCampaignResponse,
 
     -- ** CreateDataset
-    CreateDataset,
+    CreateDataset (CreateDataset'),
     newCreateDataset,
-    CreateDatasetResponse,
+    CreateDatasetResponse (CreateDatasetResponse'),
     newCreateDatasetResponse,
 
     -- ** CreateDatasetExportJob
-    CreateDatasetExportJob,
+    CreateDatasetExportJob (CreateDatasetExportJob'),
     newCreateDatasetExportJob,
-    CreateDatasetExportJobResponse,
+    CreateDatasetExportJobResponse (CreateDatasetExportJobResponse'),
     newCreateDatasetExportJobResponse,
 
     -- ** CreateDatasetGroup
-    CreateDatasetGroup,
+    CreateDatasetGroup (CreateDatasetGroup'),
     newCreateDatasetGroup,
-    CreateDatasetGroupResponse,
+    CreateDatasetGroupResponse (CreateDatasetGroupResponse'),
     newCreateDatasetGroupResponse,
 
     -- ** CreateDatasetImportJob
-    CreateDatasetImportJob,
+    CreateDatasetImportJob (CreateDatasetImportJob'),
     newCreateDatasetImportJob,
-    CreateDatasetImportJobResponse,
+    CreateDatasetImportJobResponse (CreateDatasetImportJobResponse'),
     newCreateDatasetImportJobResponse,
 
     -- ** CreateEventTracker
-    CreateEventTracker,
+    CreateEventTracker (CreateEventTracker'),
     newCreateEventTracker,
-    CreateEventTrackerResponse,
+    CreateEventTrackerResponse (CreateEventTrackerResponse'),
     newCreateEventTrackerResponse,
 
     -- ** CreateFilter
-    CreateFilter,
+    CreateFilter (CreateFilter'),
     newCreateFilter,
-    CreateFilterResponse,
+    CreateFilterResponse (CreateFilterResponse'),
     newCreateFilterResponse,
 
     -- ** CreateMetricAttribution
-    CreateMetricAttribution,
+    CreateMetricAttribution (CreateMetricAttribution'),
     newCreateMetricAttribution,
-    CreateMetricAttributionResponse,
+    CreateMetricAttributionResponse (CreateMetricAttributionResponse'),
     newCreateMetricAttributionResponse,
 
     -- ** CreateRecommender
-    CreateRecommender,
+    CreateRecommender (CreateRecommender'),
     newCreateRecommender,
-    CreateRecommenderResponse,
+    CreateRecommenderResponse (CreateRecommenderResponse'),
     newCreateRecommenderResponse,
 
     -- ** CreateSchema
-    CreateSchema,
+    CreateSchema (CreateSchema'),
     newCreateSchema,
-    CreateSchemaResponse,
+    CreateSchemaResponse (CreateSchemaResponse'),
     newCreateSchemaResponse,
 
     -- ** CreateSolution
-    CreateSolution,
+    CreateSolution (CreateSolution'),
     newCreateSolution,
-    CreateSolutionResponse,
+    CreateSolutionResponse (CreateSolutionResponse'),
     newCreateSolutionResponse,
 
     -- ** CreateSolutionVersion
-    CreateSolutionVersion,
+    CreateSolutionVersion (CreateSolutionVersion'),
     newCreateSolutionVersion,
-    CreateSolutionVersionResponse,
+    CreateSolutionVersionResponse (CreateSolutionVersionResponse'),
     newCreateSolutionVersionResponse,
 
     -- ** DeleteCampaign
-    DeleteCampaign,
+    DeleteCampaign (DeleteCampaign'),
     newDeleteCampaign,
-    DeleteCampaignResponse,
+    DeleteCampaignResponse (DeleteCampaignResponse'),
     newDeleteCampaignResponse,
 
     -- ** DeleteDataset
-    DeleteDataset,
+    DeleteDataset (DeleteDataset'),
     newDeleteDataset,
-    DeleteDatasetResponse,
+    DeleteDatasetResponse (DeleteDatasetResponse'),
     newDeleteDatasetResponse,
 
     -- ** DeleteDatasetGroup
-    DeleteDatasetGroup,
+    DeleteDatasetGroup (DeleteDatasetGroup'),
     newDeleteDatasetGroup,
-    DeleteDatasetGroupResponse,
+    DeleteDatasetGroupResponse (DeleteDatasetGroupResponse'),
     newDeleteDatasetGroupResponse,
 
     -- ** DeleteEventTracker
-    DeleteEventTracker,
+    DeleteEventTracker (DeleteEventTracker'),
     newDeleteEventTracker,
-    DeleteEventTrackerResponse,
+    DeleteEventTrackerResponse (DeleteEventTrackerResponse'),
     newDeleteEventTrackerResponse,
 
     -- ** DeleteFilter
-    DeleteFilter,
+    DeleteFilter (DeleteFilter'),
     newDeleteFilter,
-    DeleteFilterResponse,
+    DeleteFilterResponse (DeleteFilterResponse'),
     newDeleteFilterResponse,
 
     -- ** DeleteMetricAttribution
-    DeleteMetricAttribution,
+    DeleteMetricAttribution (DeleteMetricAttribution'),
     newDeleteMetricAttribution,
-    DeleteMetricAttributionResponse,
+    DeleteMetricAttributionResponse (DeleteMetricAttributionResponse'),
     newDeleteMetricAttributionResponse,
 
     -- ** DeleteRecommender
-    DeleteRecommender,
+    DeleteRecommender (DeleteRecommender'),
     newDeleteRecommender,
-    DeleteRecommenderResponse,
+    DeleteRecommenderResponse (DeleteRecommenderResponse'),
     newDeleteRecommenderResponse,
 
     -- ** DeleteSchema
-    DeleteSchema,
+    DeleteSchema (DeleteSchema'),
     newDeleteSchema,
-    DeleteSchemaResponse,
+    DeleteSchemaResponse (DeleteSchemaResponse'),
     newDeleteSchemaResponse,
 
     -- ** DeleteSolution
-    DeleteSolution,
+    DeleteSolution (DeleteSolution'),
     newDeleteSolution,
-    DeleteSolutionResponse,
+    DeleteSolutionResponse (DeleteSolutionResponse'),
     newDeleteSolutionResponse,
 
     -- ** DescribeAlgorithm
-    DescribeAlgorithm,
+    DescribeAlgorithm (DescribeAlgorithm'),
     newDescribeAlgorithm,
-    DescribeAlgorithmResponse,
+    DescribeAlgorithmResponse (DescribeAlgorithmResponse'),
     newDescribeAlgorithmResponse,
 
     -- ** DescribeBatchInferenceJob
-    DescribeBatchInferenceJob,
+    DescribeBatchInferenceJob (DescribeBatchInferenceJob'),
     newDescribeBatchInferenceJob,
-    DescribeBatchInferenceJobResponse,
+    DescribeBatchInferenceJobResponse (DescribeBatchInferenceJobResponse'),
     newDescribeBatchInferenceJobResponse,
 
     -- ** DescribeBatchSegmentJob
-    DescribeBatchSegmentJob,
+    DescribeBatchSegmentJob (DescribeBatchSegmentJob'),
     newDescribeBatchSegmentJob,
-    DescribeBatchSegmentJobResponse,
+    DescribeBatchSegmentJobResponse (DescribeBatchSegmentJobResponse'),
     newDescribeBatchSegmentJobResponse,
 
     -- ** DescribeCampaign
-    DescribeCampaign,
+    DescribeCampaign (DescribeCampaign'),
     newDescribeCampaign,
-    DescribeCampaignResponse,
+    DescribeCampaignResponse (DescribeCampaignResponse'),
     newDescribeCampaignResponse,
 
     -- ** DescribeDataset
-    DescribeDataset,
+    DescribeDataset (DescribeDataset'),
     newDescribeDataset,
-    DescribeDatasetResponse,
+    DescribeDatasetResponse (DescribeDatasetResponse'),
     newDescribeDatasetResponse,
 
     -- ** DescribeDatasetExportJob
-    DescribeDatasetExportJob,
+    DescribeDatasetExportJob (DescribeDatasetExportJob'),
     newDescribeDatasetExportJob,
-    DescribeDatasetExportJobResponse,
+    DescribeDatasetExportJobResponse (DescribeDatasetExportJobResponse'),
     newDescribeDatasetExportJobResponse,
 
     -- ** DescribeDatasetGroup
-    DescribeDatasetGroup,
+    DescribeDatasetGroup (DescribeDatasetGroup'),
     newDescribeDatasetGroup,
-    DescribeDatasetGroupResponse,
+    DescribeDatasetGroupResponse (DescribeDatasetGroupResponse'),
     newDescribeDatasetGroupResponse,
 
     -- ** DescribeDatasetImportJob
-    DescribeDatasetImportJob,
+    DescribeDatasetImportJob (DescribeDatasetImportJob'),
     newDescribeDatasetImportJob,
-    DescribeDatasetImportJobResponse,
+    DescribeDatasetImportJobResponse (DescribeDatasetImportJobResponse'),
     newDescribeDatasetImportJobResponse,
 
     -- ** DescribeEventTracker
-    DescribeEventTracker,
+    DescribeEventTracker (DescribeEventTracker'),
     newDescribeEventTracker,
-    DescribeEventTrackerResponse,
+    DescribeEventTrackerResponse (DescribeEventTrackerResponse'),
     newDescribeEventTrackerResponse,
 
     -- ** DescribeFeatureTransformation
-    DescribeFeatureTransformation,
+    DescribeFeatureTransformation (DescribeFeatureTransformation'),
     newDescribeFeatureTransformation,
-    DescribeFeatureTransformationResponse,
+    DescribeFeatureTransformationResponse (DescribeFeatureTransformationResponse'),
     newDescribeFeatureTransformationResponse,
 
     -- ** DescribeFilter
-    DescribeFilter,
+    DescribeFilter (DescribeFilter'),
     newDescribeFilter,
-    DescribeFilterResponse,
+    DescribeFilterResponse (DescribeFilterResponse'),
     newDescribeFilterResponse,
 
     -- ** DescribeMetricAttribution
-    DescribeMetricAttribution,
+    DescribeMetricAttribution (DescribeMetricAttribution'),
     newDescribeMetricAttribution,
-    DescribeMetricAttributionResponse,
+    DescribeMetricAttributionResponse (DescribeMetricAttributionResponse'),
     newDescribeMetricAttributionResponse,
 
     -- ** DescribeRecipe
-    DescribeRecipe,
+    DescribeRecipe (DescribeRecipe'),
     newDescribeRecipe,
-    DescribeRecipeResponse,
+    DescribeRecipeResponse (DescribeRecipeResponse'),
     newDescribeRecipeResponse,
 
     -- ** DescribeRecommender
-    DescribeRecommender,
+    DescribeRecommender (DescribeRecommender'),
     newDescribeRecommender,
-    DescribeRecommenderResponse,
+    DescribeRecommenderResponse (DescribeRecommenderResponse'),
     newDescribeRecommenderResponse,
 
     -- ** DescribeSchema
-    DescribeSchema,
+    DescribeSchema (DescribeSchema'),
     newDescribeSchema,
-    DescribeSchemaResponse,
+    DescribeSchemaResponse (DescribeSchemaResponse'),
     newDescribeSchemaResponse,
 
     -- ** DescribeSolution
-    DescribeSolution,
+    DescribeSolution (DescribeSolution'),
     newDescribeSolution,
-    DescribeSolutionResponse,
+    DescribeSolutionResponse (DescribeSolutionResponse'),
     newDescribeSolutionResponse,
 
     -- ** DescribeSolutionVersion
-    DescribeSolutionVersion,
+    DescribeSolutionVersion (DescribeSolutionVersion'),
     newDescribeSolutionVersion,
-    DescribeSolutionVersionResponse,
+    DescribeSolutionVersionResponse (DescribeSolutionVersionResponse'),
     newDescribeSolutionVersionResponse,
 
     -- ** GetSolutionMetrics
-    GetSolutionMetrics,
+    GetSolutionMetrics (GetSolutionMetrics'),
     newGetSolutionMetrics,
-    GetSolutionMetricsResponse,
+    GetSolutionMetricsResponse (GetSolutionMetricsResponse'),
     newGetSolutionMetricsResponse,
 
     -- ** ListBatchInferenceJobs (Paginated)
-    ListBatchInferenceJobs,
+    ListBatchInferenceJobs (ListBatchInferenceJobs'),
     newListBatchInferenceJobs,
-    ListBatchInferenceJobsResponse,
+    ListBatchInferenceJobsResponse (ListBatchInferenceJobsResponse'),
     newListBatchInferenceJobsResponse,
 
     -- ** ListBatchSegmentJobs (Paginated)
-    ListBatchSegmentJobs,
+    ListBatchSegmentJobs (ListBatchSegmentJobs'),
     newListBatchSegmentJobs,
-    ListBatchSegmentJobsResponse,
+    ListBatchSegmentJobsResponse (ListBatchSegmentJobsResponse'),
     newListBatchSegmentJobsResponse,
 
     -- ** ListCampaigns (Paginated)
-    ListCampaigns,
+    ListCampaigns (ListCampaigns'),
     newListCampaigns,
-    ListCampaignsResponse,
+    ListCampaignsResponse (ListCampaignsResponse'),
     newListCampaignsResponse,
 
     -- ** ListDatasetExportJobs (Paginated)
-    ListDatasetExportJobs,
+    ListDatasetExportJobs (ListDatasetExportJobs'),
     newListDatasetExportJobs,
-    ListDatasetExportJobsResponse,
+    ListDatasetExportJobsResponse (ListDatasetExportJobsResponse'),
     newListDatasetExportJobsResponse,
 
     -- ** ListDatasetGroups (Paginated)
-    ListDatasetGroups,
+    ListDatasetGroups (ListDatasetGroups'),
     newListDatasetGroups,
-    ListDatasetGroupsResponse,
+    ListDatasetGroupsResponse (ListDatasetGroupsResponse'),
     newListDatasetGroupsResponse,
 
     -- ** ListDatasetImportJobs (Paginated)
-    ListDatasetImportJobs,
+    ListDatasetImportJobs (ListDatasetImportJobs'),
     newListDatasetImportJobs,
-    ListDatasetImportJobsResponse,
+    ListDatasetImportJobsResponse (ListDatasetImportJobsResponse'),
     newListDatasetImportJobsResponse,
 
     -- ** ListDatasets (Paginated)
-    ListDatasets,
+    ListDatasets (ListDatasets'),
     newListDatasets,
-    ListDatasetsResponse,
+    ListDatasetsResponse (ListDatasetsResponse'),
     newListDatasetsResponse,
 
     -- ** ListEventTrackers (Paginated)
-    ListEventTrackers,
+    ListEventTrackers (ListEventTrackers'),
     newListEventTrackers,
-    ListEventTrackersResponse,
+    ListEventTrackersResponse (ListEventTrackersResponse'),
     newListEventTrackersResponse,
 
     -- ** ListFilters (Paginated)
-    ListFilters,
+    ListFilters (ListFilters'),
     newListFilters,
-    ListFiltersResponse,
+    ListFiltersResponse (ListFiltersResponse'),
     newListFiltersResponse,
 
     -- ** ListMetricAttributionMetrics (Paginated)
-    ListMetricAttributionMetrics,
+    ListMetricAttributionMetrics (ListMetricAttributionMetrics'),
     newListMetricAttributionMetrics,
-    ListMetricAttributionMetricsResponse,
+    ListMetricAttributionMetricsResponse (ListMetricAttributionMetricsResponse'),
     newListMetricAttributionMetricsResponse,
 
     -- ** ListMetricAttributions (Paginated)
-    ListMetricAttributions,
+    ListMetricAttributions (ListMetricAttributions'),
     newListMetricAttributions,
-    ListMetricAttributionsResponse,
+    ListMetricAttributionsResponse (ListMetricAttributionsResponse'),
     newListMetricAttributionsResponse,
 
     -- ** ListRecipes (Paginated)
-    ListRecipes,
+    ListRecipes (ListRecipes'),
     newListRecipes,
-    ListRecipesResponse,
+    ListRecipesResponse (ListRecipesResponse'),
     newListRecipesResponse,
 
     -- ** ListRecommenders (Paginated)
-    ListRecommenders,
+    ListRecommenders (ListRecommenders'),
     newListRecommenders,
-    ListRecommendersResponse,
+    ListRecommendersResponse (ListRecommendersResponse'),
     newListRecommendersResponse,
 
     -- ** ListSchemas (Paginated)
-    ListSchemas,
+    ListSchemas (ListSchemas'),
     newListSchemas,
-    ListSchemasResponse,
+    ListSchemasResponse (ListSchemasResponse'),
     newListSchemasResponse,
 
     -- ** ListSolutionVersions (Paginated)
-    ListSolutionVersions,
+    ListSolutionVersions (ListSolutionVersions'),
     newListSolutionVersions,
-    ListSolutionVersionsResponse,
+    ListSolutionVersionsResponse (ListSolutionVersionsResponse'),
     newListSolutionVersionsResponse,
 
     -- ** ListSolutions (Paginated)
-    ListSolutions,
+    ListSolutions (ListSolutions'),
     newListSolutions,
-    ListSolutionsResponse,
+    ListSolutionsResponse (ListSolutionsResponse'),
     newListSolutionsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** StartRecommender
-    StartRecommender,
+    StartRecommender (StartRecommender'),
     newStartRecommender,
-    StartRecommenderResponse,
+    StartRecommenderResponse (StartRecommenderResponse'),
     newStartRecommenderResponse,
 
     -- ** StopRecommender
-    StopRecommender,
+    StopRecommender (StopRecommender'),
     newStopRecommender,
-    StopRecommenderResponse,
+    StopRecommenderResponse (StopRecommenderResponse'),
     newStopRecommenderResponse,
 
     -- ** StopSolutionVersionCreation
-    StopSolutionVersionCreation,
+    StopSolutionVersionCreation (StopSolutionVersionCreation'),
     newStopSolutionVersionCreation,
-    StopSolutionVersionCreationResponse,
+    StopSolutionVersionCreationResponse (StopSolutionVersionCreationResponse'),
     newStopSolutionVersionCreationResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateCampaign
-    UpdateCampaign,
+    UpdateCampaign (UpdateCampaign'),
     newUpdateCampaign,
-    UpdateCampaignResponse,
+    UpdateCampaignResponse (UpdateCampaignResponse'),
     newUpdateCampaignResponse,
 
     -- ** UpdateMetricAttribution
-    UpdateMetricAttribution,
+    UpdateMetricAttribution (UpdateMetricAttribution'),
     newUpdateMetricAttribution,
-    UpdateMetricAttributionResponse,
+    UpdateMetricAttributionResponse (UpdateMetricAttributionResponse'),
     newUpdateMetricAttributionResponse,
 
     -- ** UpdateRecommender
-    UpdateRecommender,
+    UpdateRecommender (UpdateRecommender'),
     newUpdateRecommender,
-    UpdateRecommenderResponse,
+    UpdateRecommenderResponse (UpdateRecommenderResponse'),
     newUpdateRecommenderResponse,
 
     -- * Types
@@ -467,259 +467,259 @@ module Amazonka.Personalize
     TrainingMode (..),
 
     -- ** Algorithm
-    Algorithm,
+    Algorithm (Algorithm'),
     newAlgorithm,
 
     -- ** AlgorithmImage
-    AlgorithmImage,
+    AlgorithmImage (AlgorithmImage'),
     newAlgorithmImage,
 
     -- ** AutoMLConfig
-    AutoMLConfig,
+    AutoMLConfig (AutoMLConfig'),
     newAutoMLConfig,
 
     -- ** AutoMLResult
-    AutoMLResult,
+    AutoMLResult (AutoMLResult'),
     newAutoMLResult,
 
     -- ** BatchInferenceJob
-    BatchInferenceJob,
+    BatchInferenceJob (BatchInferenceJob'),
     newBatchInferenceJob,
 
     -- ** BatchInferenceJobConfig
-    BatchInferenceJobConfig,
+    BatchInferenceJobConfig (BatchInferenceJobConfig'),
     newBatchInferenceJobConfig,
 
     -- ** BatchInferenceJobInput
-    BatchInferenceJobInput,
+    BatchInferenceJobInput (BatchInferenceJobInput'),
     newBatchInferenceJobInput,
 
     -- ** BatchInferenceJobOutput
-    BatchInferenceJobOutput,
+    BatchInferenceJobOutput (BatchInferenceJobOutput'),
     newBatchInferenceJobOutput,
 
     -- ** BatchInferenceJobSummary
-    BatchInferenceJobSummary,
+    BatchInferenceJobSummary (BatchInferenceJobSummary'),
     newBatchInferenceJobSummary,
 
     -- ** BatchSegmentJob
-    BatchSegmentJob,
+    BatchSegmentJob (BatchSegmentJob'),
     newBatchSegmentJob,
 
     -- ** BatchSegmentJobInput
-    BatchSegmentJobInput,
+    BatchSegmentJobInput (BatchSegmentJobInput'),
     newBatchSegmentJobInput,
 
     -- ** BatchSegmentJobOutput
-    BatchSegmentJobOutput,
+    BatchSegmentJobOutput (BatchSegmentJobOutput'),
     newBatchSegmentJobOutput,
 
     -- ** BatchSegmentJobSummary
-    BatchSegmentJobSummary,
+    BatchSegmentJobSummary (BatchSegmentJobSummary'),
     newBatchSegmentJobSummary,
 
     -- ** Campaign
-    Campaign,
+    Campaign (Campaign'),
     newCampaign,
 
     -- ** CampaignConfig
-    CampaignConfig,
+    CampaignConfig (CampaignConfig'),
     newCampaignConfig,
 
     -- ** CampaignSummary
-    CampaignSummary,
+    CampaignSummary (CampaignSummary'),
     newCampaignSummary,
 
     -- ** CampaignUpdateSummary
-    CampaignUpdateSummary,
+    CampaignUpdateSummary (CampaignUpdateSummary'),
     newCampaignUpdateSummary,
 
     -- ** CategoricalHyperParameterRange
-    CategoricalHyperParameterRange,
+    CategoricalHyperParameterRange (CategoricalHyperParameterRange'),
     newCategoricalHyperParameterRange,
 
     -- ** ContinuousHyperParameterRange
-    ContinuousHyperParameterRange,
+    ContinuousHyperParameterRange (ContinuousHyperParameterRange'),
     newContinuousHyperParameterRange,
 
     -- ** DataSource
-    DataSource,
+    DataSource (DataSource'),
     newDataSource,
 
     -- ** Dataset
-    Dataset,
+    Dataset (Dataset'),
     newDataset,
 
     -- ** DatasetExportJob
-    DatasetExportJob,
+    DatasetExportJob (DatasetExportJob'),
     newDatasetExportJob,
 
     -- ** DatasetExportJobOutput
-    DatasetExportJobOutput,
+    DatasetExportJobOutput (DatasetExportJobOutput'),
     newDatasetExportJobOutput,
 
     -- ** DatasetExportJobSummary
-    DatasetExportJobSummary,
+    DatasetExportJobSummary (DatasetExportJobSummary'),
     newDatasetExportJobSummary,
 
     -- ** DatasetGroup
-    DatasetGroup,
+    DatasetGroup (DatasetGroup'),
     newDatasetGroup,
 
     -- ** DatasetGroupSummary
-    DatasetGroupSummary,
+    DatasetGroupSummary (DatasetGroupSummary'),
     newDatasetGroupSummary,
 
     -- ** DatasetImportJob
-    DatasetImportJob,
+    DatasetImportJob (DatasetImportJob'),
     newDatasetImportJob,
 
     -- ** DatasetImportJobSummary
-    DatasetImportJobSummary,
+    DatasetImportJobSummary (DatasetImportJobSummary'),
     newDatasetImportJobSummary,
 
     -- ** DatasetSchema
-    DatasetSchema,
+    DatasetSchema (DatasetSchema'),
     newDatasetSchema,
 
     -- ** DatasetSchemaSummary
-    DatasetSchemaSummary,
+    DatasetSchemaSummary (DatasetSchemaSummary'),
     newDatasetSchemaSummary,
 
     -- ** DatasetSummary
-    DatasetSummary,
+    DatasetSummary (DatasetSummary'),
     newDatasetSummary,
 
     -- ** DefaultCategoricalHyperParameterRange
-    DefaultCategoricalHyperParameterRange,
+    DefaultCategoricalHyperParameterRange (DefaultCategoricalHyperParameterRange'),
     newDefaultCategoricalHyperParameterRange,
 
     -- ** DefaultContinuousHyperParameterRange
-    DefaultContinuousHyperParameterRange,
+    DefaultContinuousHyperParameterRange (DefaultContinuousHyperParameterRange'),
     newDefaultContinuousHyperParameterRange,
 
     -- ** DefaultHyperParameterRanges
-    DefaultHyperParameterRanges,
+    DefaultHyperParameterRanges (DefaultHyperParameterRanges'),
     newDefaultHyperParameterRanges,
 
     -- ** DefaultIntegerHyperParameterRange
-    DefaultIntegerHyperParameterRange,
+    DefaultIntegerHyperParameterRange (DefaultIntegerHyperParameterRange'),
     newDefaultIntegerHyperParameterRange,
 
     -- ** EventTracker
-    EventTracker,
+    EventTracker (EventTracker'),
     newEventTracker,
 
     -- ** EventTrackerSummary
-    EventTrackerSummary,
+    EventTrackerSummary (EventTrackerSummary'),
     newEventTrackerSummary,
 
     -- ** FeatureTransformation
-    FeatureTransformation,
+    FeatureTransformation (FeatureTransformation'),
     newFeatureTransformation,
 
     -- ** Filter
-    Filter,
+    Filter (Filter'),
     newFilter,
 
     -- ** FilterSummary
-    FilterSummary,
+    FilterSummary (FilterSummary'),
     newFilterSummary,
 
     -- ** HPOConfig
-    HPOConfig,
+    HPOConfig (HPOConfig'),
     newHPOConfig,
 
     -- ** HPOObjective
-    HPOObjective,
+    HPOObjective (HPOObjective'),
     newHPOObjective,
 
     -- ** HPOResourceConfig
-    HPOResourceConfig,
+    HPOResourceConfig (HPOResourceConfig'),
     newHPOResourceConfig,
 
     -- ** HyperParameterRanges
-    HyperParameterRanges,
+    HyperParameterRanges (HyperParameterRanges'),
     newHyperParameterRanges,
 
     -- ** IntegerHyperParameterRange
-    IntegerHyperParameterRange,
+    IntegerHyperParameterRange (IntegerHyperParameterRange'),
     newIntegerHyperParameterRange,
 
     -- ** MetricAttribute
-    MetricAttribute,
+    MetricAttribute (MetricAttribute'),
     newMetricAttribute,
 
     -- ** MetricAttribution
-    MetricAttribution,
+    MetricAttribution (MetricAttribution'),
     newMetricAttribution,
 
     -- ** MetricAttributionOutput
-    MetricAttributionOutput,
+    MetricAttributionOutput (MetricAttributionOutput'),
     newMetricAttributionOutput,
 
     -- ** MetricAttributionSummary
-    MetricAttributionSummary,
+    MetricAttributionSummary (MetricAttributionSummary'),
     newMetricAttributionSummary,
 
     -- ** OptimizationObjective
-    OptimizationObjective,
+    OptimizationObjective (OptimizationObjective'),
     newOptimizationObjective,
 
     -- ** Recipe
-    Recipe,
+    Recipe (Recipe'),
     newRecipe,
 
     -- ** RecipeSummary
-    RecipeSummary,
+    RecipeSummary (RecipeSummary'),
     newRecipeSummary,
 
     -- ** Recommender
-    Recommender,
+    Recommender (Recommender'),
     newRecommender,
 
     -- ** RecommenderConfig
-    RecommenderConfig,
+    RecommenderConfig (RecommenderConfig'),
     newRecommenderConfig,
 
     -- ** RecommenderSummary
-    RecommenderSummary,
+    RecommenderSummary (RecommenderSummary'),
     newRecommenderSummary,
 
     -- ** RecommenderUpdateSummary
-    RecommenderUpdateSummary,
+    RecommenderUpdateSummary (RecommenderUpdateSummary'),
     newRecommenderUpdateSummary,
 
     -- ** S3DataConfig
-    S3DataConfig,
+    S3DataConfig (S3DataConfig'),
     newS3DataConfig,
 
     -- ** Solution
-    Solution,
+    Solution (Solution'),
     newSolution,
 
     -- ** SolutionConfig
-    SolutionConfig,
+    SolutionConfig (SolutionConfig'),
     newSolutionConfig,
 
     -- ** SolutionSummary
-    SolutionSummary,
+    SolutionSummary (SolutionSummary'),
     newSolutionSummary,
 
     -- ** SolutionVersion
-    SolutionVersion,
+    SolutionVersion (SolutionVersion'),
     newSolutionVersion,
 
     -- ** SolutionVersionSummary
-    SolutionVersionSummary,
+    SolutionVersionSummary (SolutionVersionSummary'),
     newSolutionVersionSummary,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** TunedHPOParams
-    TunedHPOParams,
+    TunedHPOParams (TunedHPOParams'),
     newTunedHPOParams,
   )
 where

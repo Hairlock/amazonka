@@ -58,81 +58,81 @@ module Amazonka.Braket
     -- $operations
 
     -- ** CancelJob
-    CancelJob,
+    CancelJob (CancelJob'),
     newCancelJob,
-    CancelJobResponse,
+    CancelJobResponse (CancelJobResponse'),
     newCancelJobResponse,
 
     -- ** CancelQuantumTask
-    CancelQuantumTask,
+    CancelQuantumTask (CancelQuantumTask'),
     newCancelQuantumTask,
-    CancelQuantumTaskResponse,
+    CancelQuantumTaskResponse (CancelQuantumTaskResponse'),
     newCancelQuantumTaskResponse,
 
     -- ** CreateJob
-    CreateJob,
+    CreateJob (CreateJob'),
     newCreateJob,
-    CreateJobResponse,
+    CreateJobResponse (CreateJobResponse'),
     newCreateJobResponse,
 
     -- ** CreateQuantumTask
-    CreateQuantumTask,
+    CreateQuantumTask (CreateQuantumTask'),
     newCreateQuantumTask,
-    CreateQuantumTaskResponse,
+    CreateQuantumTaskResponse (CreateQuantumTaskResponse'),
     newCreateQuantumTaskResponse,
 
     -- ** GetDevice
-    GetDevice,
+    GetDevice (GetDevice'),
     newGetDevice,
-    GetDeviceResponse,
+    GetDeviceResponse (GetDeviceResponse'),
     newGetDeviceResponse,
 
     -- ** GetJob
-    GetJob,
+    GetJob (GetJob'),
     newGetJob,
-    GetJobResponse,
+    GetJobResponse (GetJobResponse'),
     newGetJobResponse,
 
     -- ** GetQuantumTask
-    GetQuantumTask,
+    GetQuantumTask (GetQuantumTask'),
     newGetQuantumTask,
-    GetQuantumTaskResponse,
+    GetQuantumTaskResponse (GetQuantumTaskResponse'),
     newGetQuantumTaskResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** SearchDevices (Paginated)
-    SearchDevices,
+    SearchDevices (SearchDevices'),
     newSearchDevices,
-    SearchDevicesResponse,
+    SearchDevicesResponse (SearchDevicesResponse'),
     newSearchDevicesResponse,
 
     -- ** SearchJobs (Paginated)
-    SearchJobs,
+    SearchJobs (SearchJobs'),
     newSearchJobs,
-    SearchJobsResponse,
+    SearchJobsResponse (SearchJobsResponse'),
     newSearchJobsResponse,
 
     -- ** SearchQuantumTasks (Paginated)
-    SearchQuantumTasks,
+    SearchQuantumTasks (SearchQuantumTasks'),
     newSearchQuantumTasks,
-    SearchQuantumTasksResponse,
+    SearchQuantumTasksResponse (SearchQuantumTasksResponse'),
     newSearchQuantumTasksResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- * Types
@@ -168,75 +168,75 @@ module Amazonka.Braket
     SearchQuantumTasksFilterOperator (..),
 
     -- ** AlgorithmSpecification
-    AlgorithmSpecification,
+    AlgorithmSpecification (AlgorithmSpecification'),
     newAlgorithmSpecification,
 
     -- ** ContainerImage
-    ContainerImage,
+    ContainerImage (ContainerImage'),
     newContainerImage,
 
     -- ** DataSource
-    DataSource,
+    DataSource (DataSource'),
     newDataSource,
 
     -- ** DeviceConfig
-    DeviceConfig,
+    DeviceConfig (DeviceConfig'),
     newDeviceConfig,
 
     -- ** DeviceSummary
-    DeviceSummary,
+    DeviceSummary (DeviceSummary'),
     newDeviceSummary,
 
     -- ** InputFileConfig
-    InputFileConfig,
+    InputFileConfig (InputFileConfig'),
     newInputFileConfig,
 
     -- ** InstanceConfig
-    InstanceConfig,
+    InstanceConfig (InstanceConfig'),
     newInstanceConfig,
 
     -- ** JobCheckpointConfig
-    JobCheckpointConfig,
+    JobCheckpointConfig (JobCheckpointConfig'),
     newJobCheckpointConfig,
 
     -- ** JobEventDetails
-    JobEventDetails,
+    JobEventDetails (JobEventDetails'),
     newJobEventDetails,
 
     -- ** JobOutputDataConfig
-    JobOutputDataConfig,
+    JobOutputDataConfig (JobOutputDataConfig'),
     newJobOutputDataConfig,
 
     -- ** JobStoppingCondition
-    JobStoppingCondition,
+    JobStoppingCondition (JobStoppingCondition'),
     newJobStoppingCondition,
 
     -- ** JobSummary
-    JobSummary,
+    JobSummary (JobSummary'),
     newJobSummary,
 
     -- ** QuantumTaskSummary
-    QuantumTaskSummary,
+    QuantumTaskSummary (QuantumTaskSummary'),
     newQuantumTaskSummary,
 
     -- ** S3DataSource
-    S3DataSource,
+    S3DataSource (S3DataSource'),
     newS3DataSource,
 
     -- ** ScriptModeConfig
-    ScriptModeConfig,
+    ScriptModeConfig (ScriptModeConfig'),
     newScriptModeConfig,
 
     -- ** SearchDevicesFilter
-    SearchDevicesFilter,
+    SearchDevicesFilter (SearchDevicesFilter'),
     newSearchDevicesFilter,
 
     -- ** SearchJobsFilter
-    SearchJobsFilter,
+    SearchJobsFilter (SearchJobsFilter'),
     newSearchJobsFilter,
 
     -- ** SearchQuantumTasksFilter
-    SearchQuantumTasksFilter,
+    SearchQuantumTasksFilter (SearchQuantumTasksFilter'),
     newSearchQuantumTasksFilter,
   )
 where

@@ -71,351 +71,351 @@ module Amazonka.Transfer
     -- $operations
 
     -- ** CreateAccess
-    CreateAccess,
+    CreateAccess (CreateAccess'),
     newCreateAccess,
-    CreateAccessResponse,
+    CreateAccessResponse (CreateAccessResponse'),
     newCreateAccessResponse,
 
     -- ** CreateAgreement
-    CreateAgreement,
+    CreateAgreement (CreateAgreement'),
     newCreateAgreement,
-    CreateAgreementResponse,
+    CreateAgreementResponse (CreateAgreementResponse'),
     newCreateAgreementResponse,
 
     -- ** CreateConnector
-    CreateConnector,
+    CreateConnector (CreateConnector'),
     newCreateConnector,
-    CreateConnectorResponse,
+    CreateConnectorResponse (CreateConnectorResponse'),
     newCreateConnectorResponse,
 
     -- ** CreateProfile
-    CreateProfile,
+    CreateProfile (CreateProfile'),
     newCreateProfile,
-    CreateProfileResponse,
+    CreateProfileResponse (CreateProfileResponse'),
     newCreateProfileResponse,
 
     -- ** CreateServer
-    CreateServer,
+    CreateServer (CreateServer'),
     newCreateServer,
-    CreateServerResponse,
+    CreateServerResponse (CreateServerResponse'),
     newCreateServerResponse,
 
     -- ** CreateUser
-    CreateUser,
+    CreateUser (CreateUser'),
     newCreateUser,
-    CreateUserResponse,
+    CreateUserResponse (CreateUserResponse'),
     newCreateUserResponse,
 
     -- ** CreateWorkflow
-    CreateWorkflow,
+    CreateWorkflow (CreateWorkflow'),
     newCreateWorkflow,
-    CreateWorkflowResponse,
+    CreateWorkflowResponse (CreateWorkflowResponse'),
     newCreateWorkflowResponse,
 
     -- ** DeleteAccess
-    DeleteAccess,
+    DeleteAccess (DeleteAccess'),
     newDeleteAccess,
-    DeleteAccessResponse,
+    DeleteAccessResponse (DeleteAccessResponse'),
     newDeleteAccessResponse,
 
     -- ** DeleteAgreement
-    DeleteAgreement,
+    DeleteAgreement (DeleteAgreement'),
     newDeleteAgreement,
-    DeleteAgreementResponse,
+    DeleteAgreementResponse (DeleteAgreementResponse'),
     newDeleteAgreementResponse,
 
     -- ** DeleteCertificate
-    DeleteCertificate,
+    DeleteCertificate (DeleteCertificate'),
     newDeleteCertificate,
-    DeleteCertificateResponse,
+    DeleteCertificateResponse (DeleteCertificateResponse'),
     newDeleteCertificateResponse,
 
     -- ** DeleteConnector
-    DeleteConnector,
+    DeleteConnector (DeleteConnector'),
     newDeleteConnector,
-    DeleteConnectorResponse,
+    DeleteConnectorResponse (DeleteConnectorResponse'),
     newDeleteConnectorResponse,
 
     -- ** DeleteHostKey
-    DeleteHostKey,
+    DeleteHostKey (DeleteHostKey'),
     newDeleteHostKey,
-    DeleteHostKeyResponse,
+    DeleteHostKeyResponse (DeleteHostKeyResponse'),
     newDeleteHostKeyResponse,
 
     -- ** DeleteProfile
-    DeleteProfile,
+    DeleteProfile (DeleteProfile'),
     newDeleteProfile,
-    DeleteProfileResponse,
+    DeleteProfileResponse (DeleteProfileResponse'),
     newDeleteProfileResponse,
 
     -- ** DeleteServer
-    DeleteServer,
+    DeleteServer (DeleteServer'),
     newDeleteServer,
-    DeleteServerResponse,
+    DeleteServerResponse (DeleteServerResponse'),
     newDeleteServerResponse,
 
     -- ** DeleteSshPublicKey
-    DeleteSshPublicKey,
+    DeleteSshPublicKey (DeleteSshPublicKey'),
     newDeleteSshPublicKey,
-    DeleteSshPublicKeyResponse,
+    DeleteSshPublicKeyResponse (DeleteSshPublicKeyResponse'),
     newDeleteSshPublicKeyResponse,
 
     -- ** DeleteUser
-    DeleteUser,
+    DeleteUser (DeleteUser'),
     newDeleteUser,
-    DeleteUserResponse,
+    DeleteUserResponse (DeleteUserResponse'),
     newDeleteUserResponse,
 
     -- ** DeleteWorkflow
-    DeleteWorkflow,
+    DeleteWorkflow (DeleteWorkflow'),
     newDeleteWorkflow,
-    DeleteWorkflowResponse,
+    DeleteWorkflowResponse (DeleteWorkflowResponse'),
     newDeleteWorkflowResponse,
 
     -- ** DescribeAccess
-    DescribeAccess,
+    DescribeAccess (DescribeAccess'),
     newDescribeAccess,
-    DescribeAccessResponse,
+    DescribeAccessResponse (DescribeAccessResponse'),
     newDescribeAccessResponse,
 
     -- ** DescribeAgreement
-    DescribeAgreement,
+    DescribeAgreement (DescribeAgreement'),
     newDescribeAgreement,
-    DescribeAgreementResponse,
+    DescribeAgreementResponse (DescribeAgreementResponse'),
     newDescribeAgreementResponse,
 
     -- ** DescribeCertificate
-    DescribeCertificate,
+    DescribeCertificate (DescribeCertificate'),
     newDescribeCertificate,
-    DescribeCertificateResponse,
+    DescribeCertificateResponse (DescribeCertificateResponse'),
     newDescribeCertificateResponse,
 
     -- ** DescribeConnector
-    DescribeConnector,
+    DescribeConnector (DescribeConnector'),
     newDescribeConnector,
-    DescribeConnectorResponse,
+    DescribeConnectorResponse (DescribeConnectorResponse'),
     newDescribeConnectorResponse,
 
     -- ** DescribeExecution
-    DescribeExecution,
+    DescribeExecution (DescribeExecution'),
     newDescribeExecution,
-    DescribeExecutionResponse,
+    DescribeExecutionResponse (DescribeExecutionResponse'),
     newDescribeExecutionResponse,
 
     -- ** DescribeHostKey
-    DescribeHostKey,
+    DescribeHostKey (DescribeHostKey'),
     newDescribeHostKey,
-    DescribeHostKeyResponse,
+    DescribeHostKeyResponse (DescribeHostKeyResponse'),
     newDescribeHostKeyResponse,
 
     -- ** DescribeProfile
-    DescribeProfile,
+    DescribeProfile (DescribeProfile'),
     newDescribeProfile,
-    DescribeProfileResponse,
+    DescribeProfileResponse (DescribeProfileResponse'),
     newDescribeProfileResponse,
 
     -- ** DescribeSecurityPolicy
-    DescribeSecurityPolicy,
+    DescribeSecurityPolicy (DescribeSecurityPolicy'),
     newDescribeSecurityPolicy,
-    DescribeSecurityPolicyResponse,
+    DescribeSecurityPolicyResponse (DescribeSecurityPolicyResponse'),
     newDescribeSecurityPolicyResponse,
 
     -- ** DescribeServer
-    DescribeServer,
+    DescribeServer (DescribeServer'),
     newDescribeServer,
-    DescribeServerResponse,
+    DescribeServerResponse (DescribeServerResponse'),
     newDescribeServerResponse,
 
     -- ** DescribeUser
-    DescribeUser,
+    DescribeUser (DescribeUser'),
     newDescribeUser,
-    DescribeUserResponse,
+    DescribeUserResponse (DescribeUserResponse'),
     newDescribeUserResponse,
 
     -- ** DescribeWorkflow
-    DescribeWorkflow,
+    DescribeWorkflow (DescribeWorkflow'),
     newDescribeWorkflow,
-    DescribeWorkflowResponse,
+    DescribeWorkflowResponse (DescribeWorkflowResponse'),
     newDescribeWorkflowResponse,
 
     -- ** ImportCertificate
-    ImportCertificate,
+    ImportCertificate (ImportCertificate'),
     newImportCertificate,
-    ImportCertificateResponse,
+    ImportCertificateResponse (ImportCertificateResponse'),
     newImportCertificateResponse,
 
     -- ** ImportHostKey
-    ImportHostKey,
+    ImportHostKey (ImportHostKey'),
     newImportHostKey,
-    ImportHostKeyResponse,
+    ImportHostKeyResponse (ImportHostKeyResponse'),
     newImportHostKeyResponse,
 
     -- ** ImportSshPublicKey
-    ImportSshPublicKey,
+    ImportSshPublicKey (ImportSshPublicKey'),
     newImportSshPublicKey,
-    ImportSshPublicKeyResponse,
+    ImportSshPublicKeyResponse (ImportSshPublicKeyResponse'),
     newImportSshPublicKeyResponse,
 
     -- ** ListAccesses (Paginated)
-    ListAccesses,
+    ListAccesses (ListAccesses'),
     newListAccesses,
-    ListAccessesResponse,
+    ListAccessesResponse (ListAccessesResponse'),
     newListAccessesResponse,
 
     -- ** ListAgreements (Paginated)
-    ListAgreements,
+    ListAgreements (ListAgreements'),
     newListAgreements,
-    ListAgreementsResponse,
+    ListAgreementsResponse (ListAgreementsResponse'),
     newListAgreementsResponse,
 
     -- ** ListCertificates (Paginated)
-    ListCertificates,
+    ListCertificates (ListCertificates'),
     newListCertificates,
-    ListCertificatesResponse,
+    ListCertificatesResponse (ListCertificatesResponse'),
     newListCertificatesResponse,
 
     -- ** ListConnectors (Paginated)
-    ListConnectors,
+    ListConnectors (ListConnectors'),
     newListConnectors,
-    ListConnectorsResponse,
+    ListConnectorsResponse (ListConnectorsResponse'),
     newListConnectorsResponse,
 
     -- ** ListExecutions (Paginated)
-    ListExecutions,
+    ListExecutions (ListExecutions'),
     newListExecutions,
-    ListExecutionsResponse,
+    ListExecutionsResponse (ListExecutionsResponse'),
     newListExecutionsResponse,
 
     -- ** ListHostKeys
-    ListHostKeys,
+    ListHostKeys (ListHostKeys'),
     newListHostKeys,
-    ListHostKeysResponse,
+    ListHostKeysResponse (ListHostKeysResponse'),
     newListHostKeysResponse,
 
     -- ** ListProfiles (Paginated)
-    ListProfiles,
+    ListProfiles (ListProfiles'),
     newListProfiles,
-    ListProfilesResponse,
+    ListProfilesResponse (ListProfilesResponse'),
     newListProfilesResponse,
 
     -- ** ListSecurityPolicies (Paginated)
-    ListSecurityPolicies,
+    ListSecurityPolicies (ListSecurityPolicies'),
     newListSecurityPolicies,
-    ListSecurityPoliciesResponse,
+    ListSecurityPoliciesResponse (ListSecurityPoliciesResponse'),
     newListSecurityPoliciesResponse,
 
     -- ** ListServers (Paginated)
-    ListServers,
+    ListServers (ListServers'),
     newListServers,
-    ListServersResponse,
+    ListServersResponse (ListServersResponse'),
     newListServersResponse,
 
     -- ** ListTagsForResource (Paginated)
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** ListUsers (Paginated)
-    ListUsers,
+    ListUsers (ListUsers'),
     newListUsers,
-    ListUsersResponse,
+    ListUsersResponse (ListUsersResponse'),
     newListUsersResponse,
 
     -- ** ListWorkflows (Paginated)
-    ListWorkflows,
+    ListWorkflows (ListWorkflows'),
     newListWorkflows,
-    ListWorkflowsResponse,
+    ListWorkflowsResponse (ListWorkflowsResponse'),
     newListWorkflowsResponse,
 
     -- ** SendWorkflowStepState
-    SendWorkflowStepState,
+    SendWorkflowStepState (SendWorkflowStepState'),
     newSendWorkflowStepState,
-    SendWorkflowStepStateResponse,
+    SendWorkflowStepStateResponse (SendWorkflowStepStateResponse'),
     newSendWorkflowStepStateResponse,
 
     -- ** StartFileTransfer
-    StartFileTransfer,
+    StartFileTransfer (StartFileTransfer'),
     newStartFileTransfer,
-    StartFileTransferResponse,
+    StartFileTransferResponse (StartFileTransferResponse'),
     newStartFileTransferResponse,
 
     -- ** StartServer
-    StartServer,
+    StartServer (StartServer'),
     newStartServer,
-    StartServerResponse,
+    StartServerResponse (StartServerResponse'),
     newStartServerResponse,
 
     -- ** StopServer
-    StopServer,
+    StopServer (StopServer'),
     newStopServer,
-    StopServerResponse,
+    StopServerResponse (StopServerResponse'),
     newStopServerResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** TestIdentityProvider
-    TestIdentityProvider,
+    TestIdentityProvider (TestIdentityProvider'),
     newTestIdentityProvider,
-    TestIdentityProviderResponse,
+    TestIdentityProviderResponse (TestIdentityProviderResponse'),
     newTestIdentityProviderResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateAccess
-    UpdateAccess,
+    UpdateAccess (UpdateAccess'),
     newUpdateAccess,
-    UpdateAccessResponse,
+    UpdateAccessResponse (UpdateAccessResponse'),
     newUpdateAccessResponse,
 
     -- ** UpdateAgreement
-    UpdateAgreement,
+    UpdateAgreement (UpdateAgreement'),
     newUpdateAgreement,
-    UpdateAgreementResponse,
+    UpdateAgreementResponse (UpdateAgreementResponse'),
     newUpdateAgreementResponse,
 
     -- ** UpdateCertificate
-    UpdateCertificate,
+    UpdateCertificate (UpdateCertificate'),
     newUpdateCertificate,
-    UpdateCertificateResponse,
+    UpdateCertificateResponse (UpdateCertificateResponse'),
     newUpdateCertificateResponse,
 
     -- ** UpdateConnector
-    UpdateConnector,
+    UpdateConnector (UpdateConnector'),
     newUpdateConnector,
-    UpdateConnectorResponse,
+    UpdateConnectorResponse (UpdateConnectorResponse'),
     newUpdateConnectorResponse,
 
     -- ** UpdateHostKey
-    UpdateHostKey,
+    UpdateHostKey (UpdateHostKey'),
     newUpdateHostKey,
-    UpdateHostKeyResponse,
+    UpdateHostKeyResponse (UpdateHostKeyResponse'),
     newUpdateHostKeyResponse,
 
     -- ** UpdateProfile
-    UpdateProfile,
+    UpdateProfile (UpdateProfile'),
     newUpdateProfile,
-    UpdateProfileResponse,
+    UpdateProfileResponse (UpdateProfileResponse'),
     newUpdateProfileResponse,
 
     -- ** UpdateServer
-    UpdateServer,
+    UpdateServer (UpdateServer'),
     newUpdateServer,
-    UpdateServerResponse,
+    UpdateServerResponse (UpdateServerResponse'),
     newUpdateServerResponse,
 
     -- ** UpdateUser
-    UpdateUser,
+    UpdateUser (UpdateUser'),
     newUpdateUser,
-    UpdateUserResponse,
+    UpdateUserResponse (UpdateUserResponse'),
     newUpdateUserResponse,
 
     -- * Types
@@ -496,199 +496,199 @@ module Amazonka.Transfer
     WorkflowStepType (..),
 
     -- ** As2ConnectorConfig
-    As2ConnectorConfig,
+    As2ConnectorConfig (As2ConnectorConfig'),
     newAs2ConnectorConfig,
 
     -- ** CopyStepDetails
-    CopyStepDetails,
+    CopyStepDetails (CopyStepDetails'),
     newCopyStepDetails,
 
     -- ** CustomStepDetails
-    CustomStepDetails,
+    CustomStepDetails (CustomStepDetails'),
     newCustomStepDetails,
 
     -- ** DecryptStepDetails
-    DecryptStepDetails,
+    DecryptStepDetails (DecryptStepDetails'),
     newDecryptStepDetails,
 
     -- ** DeleteStepDetails
-    DeleteStepDetails,
+    DeleteStepDetails (DeleteStepDetails'),
     newDeleteStepDetails,
 
     -- ** DescribedAccess
-    DescribedAccess,
+    DescribedAccess (DescribedAccess'),
     newDescribedAccess,
 
     -- ** DescribedAgreement
-    DescribedAgreement,
+    DescribedAgreement (DescribedAgreement'),
     newDescribedAgreement,
 
     -- ** DescribedCertificate
-    DescribedCertificate,
+    DescribedCertificate (DescribedCertificate'),
     newDescribedCertificate,
 
     -- ** DescribedConnector
-    DescribedConnector,
+    DescribedConnector (DescribedConnector'),
     newDescribedConnector,
 
     -- ** DescribedExecution
-    DescribedExecution,
+    DescribedExecution (DescribedExecution'),
     newDescribedExecution,
 
     -- ** DescribedHostKey
-    DescribedHostKey,
+    DescribedHostKey (DescribedHostKey'),
     newDescribedHostKey,
 
     -- ** DescribedProfile
-    DescribedProfile,
+    DescribedProfile (DescribedProfile'),
     newDescribedProfile,
 
     -- ** DescribedSecurityPolicy
-    DescribedSecurityPolicy,
+    DescribedSecurityPolicy (DescribedSecurityPolicy'),
     newDescribedSecurityPolicy,
 
     -- ** DescribedServer
-    DescribedServer,
+    DescribedServer (DescribedServer'),
     newDescribedServer,
 
     -- ** DescribedUser
-    DescribedUser,
+    DescribedUser (DescribedUser'),
     newDescribedUser,
 
     -- ** DescribedWorkflow
-    DescribedWorkflow,
+    DescribedWorkflow (DescribedWorkflow'),
     newDescribedWorkflow,
 
     -- ** EfsFileLocation
-    EfsFileLocation,
+    EfsFileLocation (EfsFileLocation'),
     newEfsFileLocation,
 
     -- ** EndpointDetails
-    EndpointDetails,
+    EndpointDetails (EndpointDetails'),
     newEndpointDetails,
 
     -- ** ExecutionError
-    ExecutionError,
+    ExecutionError (ExecutionError'),
     newExecutionError,
 
     -- ** ExecutionResults
-    ExecutionResults,
+    ExecutionResults (ExecutionResults'),
     newExecutionResults,
 
     -- ** ExecutionStepResult
-    ExecutionStepResult,
+    ExecutionStepResult (ExecutionStepResult'),
     newExecutionStepResult,
 
     -- ** FileLocation
-    FileLocation,
+    FileLocation (FileLocation'),
     newFileLocation,
 
     -- ** HomeDirectoryMapEntry
-    HomeDirectoryMapEntry,
+    HomeDirectoryMapEntry (HomeDirectoryMapEntry'),
     newHomeDirectoryMapEntry,
 
     -- ** IdentityProviderDetails
-    IdentityProviderDetails,
+    IdentityProviderDetails (IdentityProviderDetails'),
     newIdentityProviderDetails,
 
     -- ** InputFileLocation
-    InputFileLocation,
+    InputFileLocation (InputFileLocation'),
     newInputFileLocation,
 
     -- ** ListedAccess
-    ListedAccess,
+    ListedAccess (ListedAccess'),
     newListedAccess,
 
     -- ** ListedAgreement
-    ListedAgreement,
+    ListedAgreement (ListedAgreement'),
     newListedAgreement,
 
     -- ** ListedCertificate
-    ListedCertificate,
+    ListedCertificate (ListedCertificate'),
     newListedCertificate,
 
     -- ** ListedConnector
-    ListedConnector,
+    ListedConnector (ListedConnector'),
     newListedConnector,
 
     -- ** ListedExecution
-    ListedExecution,
+    ListedExecution (ListedExecution'),
     newListedExecution,
 
     -- ** ListedHostKey
-    ListedHostKey,
+    ListedHostKey (ListedHostKey'),
     newListedHostKey,
 
     -- ** ListedProfile
-    ListedProfile,
+    ListedProfile (ListedProfile'),
     newListedProfile,
 
     -- ** ListedServer
-    ListedServer,
+    ListedServer (ListedServer'),
     newListedServer,
 
     -- ** ListedUser
-    ListedUser,
+    ListedUser (ListedUser'),
     newListedUser,
 
     -- ** ListedWorkflow
-    ListedWorkflow,
+    ListedWorkflow (ListedWorkflow'),
     newListedWorkflow,
 
     -- ** LoggingConfiguration
-    LoggingConfiguration,
+    LoggingConfiguration (LoggingConfiguration'),
     newLoggingConfiguration,
 
     -- ** PosixProfile
-    PosixProfile,
+    PosixProfile (PosixProfile'),
     newPosixProfile,
 
     -- ** ProtocolDetails
-    ProtocolDetails,
+    ProtocolDetails (ProtocolDetails'),
     newProtocolDetails,
 
     -- ** S3FileLocation
-    S3FileLocation,
+    S3FileLocation (S3FileLocation'),
     newS3FileLocation,
 
     -- ** S3InputFileLocation
-    S3InputFileLocation,
+    S3InputFileLocation (S3InputFileLocation'),
     newS3InputFileLocation,
 
     -- ** S3Tag
-    S3Tag,
+    S3Tag (S3Tag'),
     newS3Tag,
 
     -- ** ServiceMetadata
-    ServiceMetadata,
+    ServiceMetadata (ServiceMetadata'),
     newServiceMetadata,
 
     -- ** SshPublicKey
-    SshPublicKey,
+    SshPublicKey (SshPublicKey'),
     newSshPublicKey,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** TagStepDetails
-    TagStepDetails,
+    TagStepDetails (TagStepDetails'),
     newTagStepDetails,
 
     -- ** UserDetails
-    UserDetails,
+    UserDetails (UserDetails'),
     newUserDetails,
 
     -- ** WorkflowDetail
-    WorkflowDetail,
+    WorkflowDetail (WorkflowDetail'),
     newWorkflowDetail,
 
     -- ** WorkflowDetails
-    WorkflowDetails,
+    WorkflowDetails (WorkflowDetails'),
     newWorkflowDetails,
 
     -- ** WorkflowStep
-    WorkflowStep,
+    WorkflowStep (WorkflowStep'),
     newWorkflowStep,
   )
 where

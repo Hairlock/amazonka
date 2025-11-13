@@ -100,81 +100,81 @@ module Amazonka.CodeStarNotifications
     -- $operations
 
     -- ** CreateNotificationRule
-    CreateNotificationRule,
+    CreateNotificationRule (CreateNotificationRule'),
     newCreateNotificationRule,
-    CreateNotificationRuleResponse,
+    CreateNotificationRuleResponse (CreateNotificationRuleResponse'),
     newCreateNotificationRuleResponse,
 
     -- ** DeleteNotificationRule
-    DeleteNotificationRule,
+    DeleteNotificationRule (DeleteNotificationRule'),
     newDeleteNotificationRule,
-    DeleteNotificationRuleResponse,
+    DeleteNotificationRuleResponse (DeleteNotificationRuleResponse'),
     newDeleteNotificationRuleResponse,
 
     -- ** DeleteTarget
-    DeleteTarget,
+    DeleteTarget (DeleteTarget'),
     newDeleteTarget,
-    DeleteTargetResponse,
+    DeleteTargetResponse (DeleteTargetResponse'),
     newDeleteTargetResponse,
 
     -- ** DescribeNotificationRule
-    DescribeNotificationRule,
+    DescribeNotificationRule (DescribeNotificationRule'),
     newDescribeNotificationRule,
-    DescribeNotificationRuleResponse,
+    DescribeNotificationRuleResponse (DescribeNotificationRuleResponse'),
     newDescribeNotificationRuleResponse,
 
     -- ** ListEventTypes (Paginated)
-    ListEventTypes,
+    ListEventTypes (ListEventTypes'),
     newListEventTypes,
-    ListEventTypesResponse,
+    ListEventTypesResponse (ListEventTypesResponse'),
     newListEventTypesResponse,
 
     -- ** ListNotificationRules (Paginated)
-    ListNotificationRules,
+    ListNotificationRules (ListNotificationRules'),
     newListNotificationRules,
-    ListNotificationRulesResponse,
+    ListNotificationRulesResponse (ListNotificationRulesResponse'),
     newListNotificationRulesResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** ListTargets (Paginated)
-    ListTargets,
+    ListTargets (ListTargets'),
     newListTargets,
-    ListTargetsResponse,
+    ListTargetsResponse (ListTargetsResponse'),
     newListTargetsResponse,
 
     -- ** Subscribe
-    Subscribe,
+    Subscribe (Subscribe'),
     newSubscribe,
-    SubscribeResponse,
+    SubscribeResponse (SubscribeResponse'),
     newSubscribeResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** Unsubscribe
-    Unsubscribe,
+    Unsubscribe (Unsubscribe'),
     newUnsubscribe,
-    UnsubscribeResponse,
+    UnsubscribeResponse (UnsubscribeResponse'),
     newUnsubscribeResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateNotificationRule
-    UpdateNotificationRule,
+    UpdateNotificationRule (UpdateNotificationRule'),
     newUpdateNotificationRule,
-    UpdateNotificationRuleResponse,
+    UpdateNotificationRuleResponse (UpdateNotificationRuleResponse'),
     newUpdateNotificationRuleResponse,
 
     -- * Types
@@ -198,31 +198,31 @@ module Amazonka.CodeStarNotifications
     TargetStatus (..),
 
     -- ** EventTypeSummary
-    EventTypeSummary,
+    EventTypeSummary (EventTypeSummary'),
     newEventTypeSummary,
 
     -- ** ListEventTypesFilter
-    ListEventTypesFilter,
+    ListEventTypesFilter (ListEventTypesFilter'),
     newListEventTypesFilter,
 
     -- ** ListNotificationRulesFilter
-    ListNotificationRulesFilter,
+    ListNotificationRulesFilter (ListNotificationRulesFilter'),
     newListNotificationRulesFilter,
 
     -- ** ListTargetsFilter
-    ListTargetsFilter,
+    ListTargetsFilter (ListTargetsFilter'),
     newListTargetsFilter,
 
     -- ** NotificationRuleSummary
-    NotificationRuleSummary,
+    NotificationRuleSummary (NotificationRuleSummary'),
     newNotificationRuleSummary,
 
     -- ** Target
-    Target,
+    Target (Target'),
     newTarget,
 
     -- ** TargetSummary
-    TargetSummary,
+    TargetSummary (TargetSummary'),
     newTargetSummary,
   )
 where

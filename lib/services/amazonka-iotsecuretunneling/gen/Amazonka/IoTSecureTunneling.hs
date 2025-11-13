@@ -38,51 +38,51 @@ module Amazonka.IoTSecureTunneling
     -- $operations
 
     -- ** CloseTunnel
-    CloseTunnel,
+    CloseTunnel (CloseTunnel'),
     newCloseTunnel,
-    CloseTunnelResponse,
+    CloseTunnelResponse (CloseTunnelResponse'),
     newCloseTunnelResponse,
 
     -- ** DescribeTunnel
-    DescribeTunnel,
+    DescribeTunnel (DescribeTunnel'),
     newDescribeTunnel,
-    DescribeTunnelResponse,
+    DescribeTunnelResponse (DescribeTunnelResponse'),
     newDescribeTunnelResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** ListTunnels
-    ListTunnels,
+    ListTunnels (ListTunnels'),
     newListTunnels,
-    ListTunnelsResponse,
+    ListTunnelsResponse (ListTunnelsResponse'),
     newListTunnelsResponse,
 
     -- ** OpenTunnel
-    OpenTunnel,
+    OpenTunnel (OpenTunnel'),
     newOpenTunnel,
-    OpenTunnelResponse,
+    OpenTunnelResponse (OpenTunnelResponse'),
     newOpenTunnelResponse,
 
     -- ** RotateTunnelAccessToken
-    RotateTunnelAccessToken,
+    RotateTunnelAccessToken (RotateTunnelAccessToken'),
     newRotateTunnelAccessToken,
-    RotateTunnelAccessTokenResponse,
+    RotateTunnelAccessTokenResponse (RotateTunnelAccessTokenResponse'),
     newRotateTunnelAccessTokenResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- * Types
@@ -97,27 +97,27 @@ module Amazonka.IoTSecureTunneling
     TunnelStatus (..),
 
     -- ** ConnectionState
-    ConnectionState,
+    ConnectionState (ConnectionState'),
     newConnectionState,
 
     -- ** DestinationConfig
-    DestinationConfig,
+    DestinationConfig (DestinationConfig'),
     newDestinationConfig,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** TimeoutConfig
-    TimeoutConfig,
+    TimeoutConfig (TimeoutConfig'),
     newTimeoutConfig,
 
     -- ** Tunnel
-    Tunnel,
+    Tunnel (Tunnel'),
     newTunnel,
 
     -- ** TunnelSummary
-    TunnelSummary,
+    TunnelSummary (TunnelSummary'),
     newTunnelSummary,
   )
 where

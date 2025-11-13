@@ -50,63 +50,63 @@ module Amazonka.Pipes
     -- $operations
 
     -- ** CreatePipe
-    CreatePipe,
+    CreatePipe (CreatePipe'),
     newCreatePipe,
-    CreatePipeResponse,
+    CreatePipeResponse (CreatePipeResponse'),
     newCreatePipeResponse,
 
     -- ** DeletePipe
-    DeletePipe,
+    DeletePipe (DeletePipe'),
     newDeletePipe,
-    DeletePipeResponse,
+    DeletePipeResponse (DeletePipeResponse'),
     newDeletePipeResponse,
 
     -- ** DescribePipe
-    DescribePipe,
+    DescribePipe (DescribePipe'),
     newDescribePipe,
-    DescribePipeResponse,
+    DescribePipeResponse (DescribePipeResponse'),
     newDescribePipeResponse,
 
     -- ** ListPipes (Paginated)
-    ListPipes,
+    ListPipes (ListPipes'),
     newListPipes,
-    ListPipesResponse,
+    ListPipesResponse (ListPipesResponse'),
     newListPipesResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** StartPipe
-    StartPipe,
+    StartPipe (StartPipe'),
     newStartPipe,
-    StartPipeResponse,
+    StartPipeResponse (StartPipeResponse'),
     newStartPipeResponse,
 
     -- ** StopPipe
-    StopPipe,
+    StopPipe (StopPipe'),
     newStopPipe,
-    StopPipeResponse,
+    StopPipeResponse (StopPipeResponse'),
     newStopPipeResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdatePipe
-    UpdatePipe,
+    UpdatePipe (UpdatePipe'),
     newUpdatePipe,
-    UpdatePipeResponse,
+    UpdatePipeResponse (UpdatePipeResponse'),
     newUpdatePipeResponse,
 
     -- * Types
@@ -166,235 +166,235 @@ module Amazonka.Pipes
     SelfManagedKafkaStartPosition (..),
 
     -- ** AwsVpcConfiguration
-    AwsVpcConfiguration,
+    AwsVpcConfiguration (AwsVpcConfiguration'),
     newAwsVpcConfiguration,
 
     -- ** BatchArrayProperties
-    BatchArrayProperties,
+    BatchArrayProperties (BatchArrayProperties'),
     newBatchArrayProperties,
 
     -- ** BatchContainerOverrides
-    BatchContainerOverrides,
+    BatchContainerOverrides (BatchContainerOverrides'),
     newBatchContainerOverrides,
 
     -- ** BatchEnvironmentVariable
-    BatchEnvironmentVariable,
+    BatchEnvironmentVariable (BatchEnvironmentVariable'),
     newBatchEnvironmentVariable,
 
     -- ** BatchJobDependency
-    BatchJobDependency,
+    BatchJobDependency (BatchJobDependency'),
     newBatchJobDependency,
 
     -- ** BatchResourceRequirement
-    BatchResourceRequirement,
+    BatchResourceRequirement (BatchResourceRequirement'),
     newBatchResourceRequirement,
 
     -- ** BatchRetryStrategy
-    BatchRetryStrategy,
+    BatchRetryStrategy (BatchRetryStrategy'),
     newBatchRetryStrategy,
 
     -- ** CapacityProviderStrategyItem
-    CapacityProviderStrategyItem,
+    CapacityProviderStrategyItem (CapacityProviderStrategyItem'),
     newCapacityProviderStrategyItem,
 
     -- ** DeadLetterConfig
-    DeadLetterConfig,
+    DeadLetterConfig (DeadLetterConfig'),
     newDeadLetterConfig,
 
     -- ** EcsContainerOverride
-    EcsContainerOverride,
+    EcsContainerOverride (EcsContainerOverride'),
     newEcsContainerOverride,
 
     -- ** EcsEnvironmentFile
-    EcsEnvironmentFile,
+    EcsEnvironmentFile (EcsEnvironmentFile'),
     newEcsEnvironmentFile,
 
     -- ** EcsEnvironmentVariable
-    EcsEnvironmentVariable,
+    EcsEnvironmentVariable (EcsEnvironmentVariable'),
     newEcsEnvironmentVariable,
 
     -- ** EcsEphemeralStorage
-    EcsEphemeralStorage,
+    EcsEphemeralStorage (EcsEphemeralStorage'),
     newEcsEphemeralStorage,
 
     -- ** EcsInferenceAcceleratorOverride
-    EcsInferenceAcceleratorOverride,
+    EcsInferenceAcceleratorOverride (EcsInferenceAcceleratorOverride'),
     newEcsInferenceAcceleratorOverride,
 
     -- ** EcsResourceRequirement
-    EcsResourceRequirement,
+    EcsResourceRequirement (EcsResourceRequirement'),
     newEcsResourceRequirement,
 
     -- ** EcsTaskOverride
-    EcsTaskOverride,
+    EcsTaskOverride (EcsTaskOverride'),
     newEcsTaskOverride,
 
     -- ** Filter
-    Filter,
+    Filter (Filter'),
     newFilter,
 
     -- ** FilterCriteria
-    FilterCriteria,
+    FilterCriteria (FilterCriteria'),
     newFilterCriteria,
 
     -- ** MQBrokerAccessCredentials
-    MQBrokerAccessCredentials,
+    MQBrokerAccessCredentials (MQBrokerAccessCredentials'),
     newMQBrokerAccessCredentials,
 
     -- ** MSKAccessCredentials
-    MSKAccessCredentials,
+    MSKAccessCredentials (MSKAccessCredentials'),
     newMSKAccessCredentials,
 
     -- ** NetworkConfiguration
-    NetworkConfiguration,
+    NetworkConfiguration (NetworkConfiguration'),
     newNetworkConfiguration,
 
     -- ** Pipe
-    Pipe,
+    Pipe (Pipe'),
     newPipe,
 
     -- ** PipeEnrichmentHttpParameters
-    PipeEnrichmentHttpParameters,
+    PipeEnrichmentHttpParameters (PipeEnrichmentHttpParameters'),
     newPipeEnrichmentHttpParameters,
 
     -- ** PipeEnrichmentParameters
-    PipeEnrichmentParameters,
+    PipeEnrichmentParameters (PipeEnrichmentParameters'),
     newPipeEnrichmentParameters,
 
     -- ** PipeSourceActiveMQBrokerParameters
-    PipeSourceActiveMQBrokerParameters,
+    PipeSourceActiveMQBrokerParameters (PipeSourceActiveMQBrokerParameters'),
     newPipeSourceActiveMQBrokerParameters,
 
     -- ** PipeSourceDynamoDBStreamParameters
-    PipeSourceDynamoDBStreamParameters,
+    PipeSourceDynamoDBStreamParameters (PipeSourceDynamoDBStreamParameters'),
     newPipeSourceDynamoDBStreamParameters,
 
     -- ** PipeSourceKinesisStreamParameters
-    PipeSourceKinesisStreamParameters,
+    PipeSourceKinesisStreamParameters (PipeSourceKinesisStreamParameters'),
     newPipeSourceKinesisStreamParameters,
 
     -- ** PipeSourceManagedStreamingKafkaParameters
-    PipeSourceManagedStreamingKafkaParameters,
+    PipeSourceManagedStreamingKafkaParameters (PipeSourceManagedStreamingKafkaParameters'),
     newPipeSourceManagedStreamingKafkaParameters,
 
     -- ** PipeSourceParameters
-    PipeSourceParameters,
+    PipeSourceParameters (PipeSourceParameters'),
     newPipeSourceParameters,
 
     -- ** PipeSourceRabbitMQBrokerParameters
-    PipeSourceRabbitMQBrokerParameters,
+    PipeSourceRabbitMQBrokerParameters (PipeSourceRabbitMQBrokerParameters'),
     newPipeSourceRabbitMQBrokerParameters,
 
     -- ** PipeSourceSelfManagedKafkaParameters
-    PipeSourceSelfManagedKafkaParameters,
+    PipeSourceSelfManagedKafkaParameters (PipeSourceSelfManagedKafkaParameters'),
     newPipeSourceSelfManagedKafkaParameters,
 
     -- ** PipeSourceSqsQueueParameters
-    PipeSourceSqsQueueParameters,
+    PipeSourceSqsQueueParameters (PipeSourceSqsQueueParameters'),
     newPipeSourceSqsQueueParameters,
 
     -- ** PipeTargetBatchJobParameters
-    PipeTargetBatchJobParameters,
+    PipeTargetBatchJobParameters (PipeTargetBatchJobParameters'),
     newPipeTargetBatchJobParameters,
 
     -- ** PipeTargetCloudWatchLogsParameters
-    PipeTargetCloudWatchLogsParameters,
+    PipeTargetCloudWatchLogsParameters (PipeTargetCloudWatchLogsParameters'),
     newPipeTargetCloudWatchLogsParameters,
 
     -- ** PipeTargetEcsTaskParameters
-    PipeTargetEcsTaskParameters,
+    PipeTargetEcsTaskParameters (PipeTargetEcsTaskParameters'),
     newPipeTargetEcsTaskParameters,
 
     -- ** PipeTargetEventBridgeEventBusParameters
-    PipeTargetEventBridgeEventBusParameters,
+    PipeTargetEventBridgeEventBusParameters (PipeTargetEventBridgeEventBusParameters'),
     newPipeTargetEventBridgeEventBusParameters,
 
     -- ** PipeTargetHttpParameters
-    PipeTargetHttpParameters,
+    PipeTargetHttpParameters (PipeTargetHttpParameters'),
     newPipeTargetHttpParameters,
 
     -- ** PipeTargetKinesisStreamParameters
-    PipeTargetKinesisStreamParameters,
+    PipeTargetKinesisStreamParameters (PipeTargetKinesisStreamParameters'),
     newPipeTargetKinesisStreamParameters,
 
     -- ** PipeTargetLambdaFunctionParameters
-    PipeTargetLambdaFunctionParameters,
+    PipeTargetLambdaFunctionParameters (PipeTargetLambdaFunctionParameters'),
     newPipeTargetLambdaFunctionParameters,
 
     -- ** PipeTargetParameters
-    PipeTargetParameters,
+    PipeTargetParameters (PipeTargetParameters'),
     newPipeTargetParameters,
 
     -- ** PipeTargetRedshiftDataParameters
-    PipeTargetRedshiftDataParameters,
+    PipeTargetRedshiftDataParameters (PipeTargetRedshiftDataParameters'),
     newPipeTargetRedshiftDataParameters,
 
     -- ** PipeTargetSageMakerPipelineParameters
-    PipeTargetSageMakerPipelineParameters,
+    PipeTargetSageMakerPipelineParameters (PipeTargetSageMakerPipelineParameters'),
     newPipeTargetSageMakerPipelineParameters,
 
     -- ** PipeTargetSqsQueueParameters
-    PipeTargetSqsQueueParameters,
+    PipeTargetSqsQueueParameters (PipeTargetSqsQueueParameters'),
     newPipeTargetSqsQueueParameters,
 
     -- ** PipeTargetStateMachineParameters
-    PipeTargetStateMachineParameters,
+    PipeTargetStateMachineParameters (PipeTargetStateMachineParameters'),
     newPipeTargetStateMachineParameters,
 
     -- ** PlacementConstraint
-    PlacementConstraint,
+    PlacementConstraint (PlacementConstraint'),
     newPlacementConstraint,
 
     -- ** PlacementStrategy
-    PlacementStrategy,
+    PlacementStrategy (PlacementStrategy'),
     newPlacementStrategy,
 
     -- ** SageMakerPipelineParameter
-    SageMakerPipelineParameter,
+    SageMakerPipelineParameter (SageMakerPipelineParameter'),
     newSageMakerPipelineParameter,
 
     -- ** SelfManagedKafkaAccessConfigurationCredentials
-    SelfManagedKafkaAccessConfigurationCredentials,
+    SelfManagedKafkaAccessConfigurationCredentials (SelfManagedKafkaAccessConfigurationCredentials'),
     newSelfManagedKafkaAccessConfigurationCredentials,
 
     -- ** SelfManagedKafkaAccessConfigurationVpc
-    SelfManagedKafkaAccessConfigurationVpc,
+    SelfManagedKafkaAccessConfigurationVpc (SelfManagedKafkaAccessConfigurationVpc'),
     newSelfManagedKafkaAccessConfigurationVpc,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** UpdatePipeSourceActiveMQBrokerParameters
-    UpdatePipeSourceActiveMQBrokerParameters,
+    UpdatePipeSourceActiveMQBrokerParameters (UpdatePipeSourceActiveMQBrokerParameters'),
     newUpdatePipeSourceActiveMQBrokerParameters,
 
     -- ** UpdatePipeSourceDynamoDBStreamParameters
-    UpdatePipeSourceDynamoDBStreamParameters,
+    UpdatePipeSourceDynamoDBStreamParameters (UpdatePipeSourceDynamoDBStreamParameters'),
     newUpdatePipeSourceDynamoDBStreamParameters,
 
     -- ** UpdatePipeSourceKinesisStreamParameters
-    UpdatePipeSourceKinesisStreamParameters,
+    UpdatePipeSourceKinesisStreamParameters (UpdatePipeSourceKinesisStreamParameters'),
     newUpdatePipeSourceKinesisStreamParameters,
 
     -- ** UpdatePipeSourceManagedStreamingKafkaParameters
-    UpdatePipeSourceManagedStreamingKafkaParameters,
+    UpdatePipeSourceManagedStreamingKafkaParameters (UpdatePipeSourceManagedStreamingKafkaParameters'),
     newUpdatePipeSourceManagedStreamingKafkaParameters,
 
     -- ** UpdatePipeSourceParameters
-    UpdatePipeSourceParameters,
+    UpdatePipeSourceParameters (UpdatePipeSourceParameters'),
     newUpdatePipeSourceParameters,
 
     -- ** UpdatePipeSourceRabbitMQBrokerParameters
-    UpdatePipeSourceRabbitMQBrokerParameters,
+    UpdatePipeSourceRabbitMQBrokerParameters (UpdatePipeSourceRabbitMQBrokerParameters'),
     newUpdatePipeSourceRabbitMQBrokerParameters,
 
     -- ** UpdatePipeSourceSelfManagedKafkaParameters
-    UpdatePipeSourceSelfManagedKafkaParameters,
+    UpdatePipeSourceSelfManagedKafkaParameters (UpdatePipeSourceSelfManagedKafkaParameters'),
     newUpdatePipeSourceSelfManagedKafkaParameters,
 
     -- ** UpdatePipeSourceSqsQueueParameters
-    UpdatePipeSourceSqsQueueParameters,
+    UpdatePipeSourceSqsQueueParameters (UpdatePipeSourceSqsQueueParameters'),
     newUpdatePipeSourceSqsQueueParameters,
   )
 where

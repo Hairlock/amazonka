@@ -50,219 +50,219 @@ module Amazonka.Kafka
     -- $operations
 
     -- ** BatchAssociateScramSecret
-    BatchAssociateScramSecret,
+    BatchAssociateScramSecret (BatchAssociateScramSecret'),
     newBatchAssociateScramSecret,
-    BatchAssociateScramSecretResponse,
+    BatchAssociateScramSecretResponse (BatchAssociateScramSecretResponse'),
     newBatchAssociateScramSecretResponse,
 
     -- ** BatchDisassociateScramSecret
-    BatchDisassociateScramSecret,
+    BatchDisassociateScramSecret (BatchDisassociateScramSecret'),
     newBatchDisassociateScramSecret,
-    BatchDisassociateScramSecretResponse,
+    BatchDisassociateScramSecretResponse (BatchDisassociateScramSecretResponse'),
     newBatchDisassociateScramSecretResponse,
 
     -- ** CreateCluster
-    CreateCluster,
+    CreateCluster (CreateCluster'),
     newCreateCluster,
-    CreateClusterResponse,
+    CreateClusterResponse (CreateClusterResponse'),
     newCreateClusterResponse,
 
     -- ** CreateClusterV2
-    CreateClusterV2,
+    CreateClusterV2 (CreateClusterV2'),
     newCreateClusterV2,
-    CreateClusterV2Response,
+    CreateClusterV2Response (CreateClusterV2Response'),
     newCreateClusterV2Response,
 
     -- ** CreateConfiguration
-    CreateConfiguration,
+    CreateConfiguration (CreateConfiguration'),
     newCreateConfiguration,
-    CreateConfigurationResponse,
+    CreateConfigurationResponse (CreateConfigurationResponse'),
     newCreateConfigurationResponse,
 
     -- ** DeleteCluster
-    DeleteCluster,
+    DeleteCluster (DeleteCluster'),
     newDeleteCluster,
-    DeleteClusterResponse,
+    DeleteClusterResponse (DeleteClusterResponse'),
     newDeleteClusterResponse,
 
     -- ** DeleteConfiguration
-    DeleteConfiguration,
+    DeleteConfiguration (DeleteConfiguration'),
     newDeleteConfiguration,
-    DeleteConfigurationResponse,
+    DeleteConfigurationResponse (DeleteConfigurationResponse'),
     newDeleteConfigurationResponse,
 
     -- ** DescribeCluster
-    DescribeCluster,
+    DescribeCluster (DescribeCluster'),
     newDescribeCluster,
-    DescribeClusterResponse,
+    DescribeClusterResponse (DescribeClusterResponse'),
     newDescribeClusterResponse,
 
     -- ** DescribeClusterOperation
-    DescribeClusterOperation,
+    DescribeClusterOperation (DescribeClusterOperation'),
     newDescribeClusterOperation,
-    DescribeClusterOperationResponse,
+    DescribeClusterOperationResponse (DescribeClusterOperationResponse'),
     newDescribeClusterOperationResponse,
 
     -- ** DescribeClusterV2
-    DescribeClusterV2,
+    DescribeClusterV2 (DescribeClusterV2'),
     newDescribeClusterV2,
-    DescribeClusterV2Response,
+    DescribeClusterV2Response (DescribeClusterV2Response'),
     newDescribeClusterV2Response,
 
     -- ** DescribeConfiguration
-    DescribeConfiguration,
+    DescribeConfiguration (DescribeConfiguration'),
     newDescribeConfiguration,
-    DescribeConfigurationResponse,
+    DescribeConfigurationResponse (DescribeConfigurationResponse'),
     newDescribeConfigurationResponse,
 
     -- ** DescribeConfigurationRevision
-    DescribeConfigurationRevision,
+    DescribeConfigurationRevision (DescribeConfigurationRevision'),
     newDescribeConfigurationRevision,
-    DescribeConfigurationRevisionResponse,
+    DescribeConfigurationRevisionResponse (DescribeConfigurationRevisionResponse'),
     newDescribeConfigurationRevisionResponse,
 
     -- ** GetBootstrapBrokers
-    GetBootstrapBrokers,
+    GetBootstrapBrokers (GetBootstrapBrokers'),
     newGetBootstrapBrokers,
-    GetBootstrapBrokersResponse,
+    GetBootstrapBrokersResponse (GetBootstrapBrokersResponse'),
     newGetBootstrapBrokersResponse,
 
     -- ** GetCompatibleKafkaVersions
-    GetCompatibleKafkaVersions,
+    GetCompatibleKafkaVersions (GetCompatibleKafkaVersions'),
     newGetCompatibleKafkaVersions,
-    GetCompatibleKafkaVersionsResponse,
+    GetCompatibleKafkaVersionsResponse (GetCompatibleKafkaVersionsResponse'),
     newGetCompatibleKafkaVersionsResponse,
 
     -- ** ListClusterOperations (Paginated)
-    ListClusterOperations,
+    ListClusterOperations (ListClusterOperations'),
     newListClusterOperations,
-    ListClusterOperationsResponse,
+    ListClusterOperationsResponse (ListClusterOperationsResponse'),
     newListClusterOperationsResponse,
 
     -- ** ListClusters (Paginated)
-    ListClusters,
+    ListClusters (ListClusters'),
     newListClusters,
-    ListClustersResponse,
+    ListClustersResponse (ListClustersResponse'),
     newListClustersResponse,
 
     -- ** ListClustersV2 (Paginated)
-    ListClustersV2,
+    ListClustersV2 (ListClustersV2'),
     newListClustersV2,
-    ListClustersV2Response,
+    ListClustersV2Response (ListClustersV2Response'),
     newListClustersV2Response,
 
     -- ** ListConfigurationRevisions (Paginated)
-    ListConfigurationRevisions,
+    ListConfigurationRevisions (ListConfigurationRevisions'),
     newListConfigurationRevisions,
-    ListConfigurationRevisionsResponse,
+    ListConfigurationRevisionsResponse (ListConfigurationRevisionsResponse'),
     newListConfigurationRevisionsResponse,
 
     -- ** ListConfigurations (Paginated)
-    ListConfigurations,
+    ListConfigurations (ListConfigurations'),
     newListConfigurations,
-    ListConfigurationsResponse,
+    ListConfigurationsResponse (ListConfigurationsResponse'),
     newListConfigurationsResponse,
 
     -- ** ListKafkaVersions (Paginated)
-    ListKafkaVersions,
+    ListKafkaVersions (ListKafkaVersions'),
     newListKafkaVersions,
-    ListKafkaVersionsResponse,
+    ListKafkaVersionsResponse (ListKafkaVersionsResponse'),
     newListKafkaVersionsResponse,
 
     -- ** ListNodes (Paginated)
-    ListNodes,
+    ListNodes (ListNodes'),
     newListNodes,
-    ListNodesResponse,
+    ListNodesResponse (ListNodesResponse'),
     newListNodesResponse,
 
     -- ** ListScramSecrets (Paginated)
-    ListScramSecrets,
+    ListScramSecrets (ListScramSecrets'),
     newListScramSecrets,
-    ListScramSecretsResponse,
+    ListScramSecretsResponse (ListScramSecretsResponse'),
     newListScramSecretsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** RebootBroker
-    RebootBroker,
+    RebootBroker (RebootBroker'),
     newRebootBroker,
-    RebootBrokerResponse,
+    RebootBrokerResponse (RebootBrokerResponse'),
     newRebootBrokerResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateBrokerCount
-    UpdateBrokerCount,
+    UpdateBrokerCount (UpdateBrokerCount'),
     newUpdateBrokerCount,
-    UpdateBrokerCountResponse,
+    UpdateBrokerCountResponse (UpdateBrokerCountResponse'),
     newUpdateBrokerCountResponse,
 
     -- ** UpdateBrokerStorage
-    UpdateBrokerStorage,
+    UpdateBrokerStorage (UpdateBrokerStorage'),
     newUpdateBrokerStorage,
-    UpdateBrokerStorageResponse,
+    UpdateBrokerStorageResponse (UpdateBrokerStorageResponse'),
     newUpdateBrokerStorageResponse,
 
     -- ** UpdateBrokerType
-    UpdateBrokerType,
+    UpdateBrokerType (UpdateBrokerType'),
     newUpdateBrokerType,
-    UpdateBrokerTypeResponse,
+    UpdateBrokerTypeResponse (UpdateBrokerTypeResponse'),
     newUpdateBrokerTypeResponse,
 
     -- ** UpdateClusterConfiguration
-    UpdateClusterConfiguration,
+    UpdateClusterConfiguration (UpdateClusterConfiguration'),
     newUpdateClusterConfiguration,
-    UpdateClusterConfigurationResponse,
+    UpdateClusterConfigurationResponse (UpdateClusterConfigurationResponse'),
     newUpdateClusterConfigurationResponse,
 
     -- ** UpdateClusterKafkaVersion
-    UpdateClusterKafkaVersion,
+    UpdateClusterKafkaVersion (UpdateClusterKafkaVersion'),
     newUpdateClusterKafkaVersion,
-    UpdateClusterKafkaVersionResponse,
+    UpdateClusterKafkaVersionResponse (UpdateClusterKafkaVersionResponse'),
     newUpdateClusterKafkaVersionResponse,
 
     -- ** UpdateConfiguration
-    UpdateConfiguration,
+    UpdateConfiguration (UpdateConfiguration'),
     newUpdateConfiguration,
-    UpdateConfigurationResponse,
+    UpdateConfigurationResponse (UpdateConfigurationResponse'),
     newUpdateConfigurationResponse,
 
     -- ** UpdateConnectivity
-    UpdateConnectivity,
+    UpdateConnectivity (UpdateConnectivity'),
     newUpdateConnectivity,
-    UpdateConnectivityResponse,
+    UpdateConnectivityResponse (UpdateConnectivityResponse'),
     newUpdateConnectivityResponse,
 
     -- ** UpdateMonitoring
-    UpdateMonitoring,
+    UpdateMonitoring (UpdateMonitoring'),
     newUpdateMonitoring,
-    UpdateMonitoringResponse,
+    UpdateMonitoringResponse (UpdateMonitoringResponse'),
     newUpdateMonitoringResponse,
 
     -- ** UpdateSecurity
-    UpdateSecurity,
+    UpdateSecurity (UpdateSecurity'),
     newUpdateSecurity,
-    UpdateSecurityResponse,
+    UpdateSecurityResponse (UpdateSecurityResponse'),
     newUpdateSecurityResponse,
 
     -- ** UpdateStorage
-    UpdateStorage,
+    UpdateStorage (UpdateStorage'),
     newUpdateStorage,
-    UpdateStorageResponse,
+    UpdateStorageResponse (UpdateStorageResponse'),
     newUpdateStorageResponse,
 
     -- * Types
@@ -295,219 +295,219 @@ module Amazonka.Kafka
     StorageMode (..),
 
     -- ** BrokerEBSVolumeInfo
-    BrokerEBSVolumeInfo,
+    BrokerEBSVolumeInfo (BrokerEBSVolumeInfo'),
     newBrokerEBSVolumeInfo,
 
     -- ** BrokerLogs
-    BrokerLogs,
+    BrokerLogs (BrokerLogs'),
     newBrokerLogs,
 
     -- ** BrokerNodeGroupInfo
-    BrokerNodeGroupInfo,
+    BrokerNodeGroupInfo (BrokerNodeGroupInfo'),
     newBrokerNodeGroupInfo,
 
     -- ** BrokerNodeInfo
-    BrokerNodeInfo,
+    BrokerNodeInfo (BrokerNodeInfo'),
     newBrokerNodeInfo,
 
     -- ** BrokerSoftwareInfo
-    BrokerSoftwareInfo,
+    BrokerSoftwareInfo (BrokerSoftwareInfo'),
     newBrokerSoftwareInfo,
 
     -- ** ClientAuthentication
-    ClientAuthentication,
+    ClientAuthentication (ClientAuthentication'),
     newClientAuthentication,
 
     -- ** CloudWatchLogs
-    CloudWatchLogs,
+    CloudWatchLogs (CloudWatchLogs'),
     newCloudWatchLogs,
 
     -- ** Cluster
-    Cluster,
+    Cluster (Cluster'),
     newCluster,
 
     -- ** ClusterInfo
-    ClusterInfo,
+    ClusterInfo (ClusterInfo'),
     newClusterInfo,
 
     -- ** ClusterOperationInfo
-    ClusterOperationInfo,
+    ClusterOperationInfo (ClusterOperationInfo'),
     newClusterOperationInfo,
 
     -- ** ClusterOperationStep
-    ClusterOperationStep,
+    ClusterOperationStep (ClusterOperationStep'),
     newClusterOperationStep,
 
     -- ** ClusterOperationStepInfo
-    ClusterOperationStepInfo,
+    ClusterOperationStepInfo (ClusterOperationStepInfo'),
     newClusterOperationStepInfo,
 
     -- ** CompatibleKafkaVersion
-    CompatibleKafkaVersion,
+    CompatibleKafkaVersion (CompatibleKafkaVersion'),
     newCompatibleKafkaVersion,
 
     -- ** Configuration
-    Configuration,
+    Configuration (Configuration'),
     newConfiguration,
 
     -- ** ConfigurationInfo
-    ConfigurationInfo,
+    ConfigurationInfo (ConfigurationInfo'),
     newConfigurationInfo,
 
     -- ** ConfigurationRevision
-    ConfigurationRevision,
+    ConfigurationRevision (ConfigurationRevision'),
     newConfigurationRevision,
 
     -- ** ConnectivityInfo
-    ConnectivityInfo,
+    ConnectivityInfo (ConnectivityInfo'),
     newConnectivityInfo,
 
     -- ** EBSStorageInfo
-    EBSStorageInfo,
+    EBSStorageInfo (EBSStorageInfo'),
     newEBSStorageInfo,
 
     -- ** EncryptionAtRest
-    EncryptionAtRest,
+    EncryptionAtRest (EncryptionAtRest'),
     newEncryptionAtRest,
 
     -- ** EncryptionInTransit
-    EncryptionInTransit,
+    EncryptionInTransit (EncryptionInTransit'),
     newEncryptionInTransit,
 
     -- ** EncryptionInfo
-    EncryptionInfo,
+    EncryptionInfo (EncryptionInfo'),
     newEncryptionInfo,
 
     -- ** ErrorInfo
-    ErrorInfo,
+    ErrorInfo (ErrorInfo'),
     newErrorInfo,
 
     -- ** Firehose
-    Firehose,
+    Firehose (Firehose'),
     newFirehose,
 
     -- ** Iam
-    Iam,
+    Iam (Iam'),
     newIam,
 
     -- ** JmxExporter
-    JmxExporter,
+    JmxExporter (JmxExporter'),
     newJmxExporter,
 
     -- ** JmxExporterInfo
-    JmxExporterInfo,
+    JmxExporterInfo (JmxExporterInfo'),
     newJmxExporterInfo,
 
     -- ** KafkaVersion
-    KafkaVersion,
+    KafkaVersion (KafkaVersion'),
     newKafkaVersion,
 
     -- ** LoggingInfo
-    LoggingInfo,
+    LoggingInfo (LoggingInfo'),
     newLoggingInfo,
 
     -- ** MutableClusterInfo
-    MutableClusterInfo,
+    MutableClusterInfo (MutableClusterInfo'),
     newMutableClusterInfo,
 
     -- ** NodeExporter
-    NodeExporter,
+    NodeExporter (NodeExporter'),
     newNodeExporter,
 
     -- ** NodeExporterInfo
-    NodeExporterInfo,
+    NodeExporterInfo (NodeExporterInfo'),
     newNodeExporterInfo,
 
     -- ** NodeInfo
-    NodeInfo,
+    NodeInfo (NodeInfo'),
     newNodeInfo,
 
     -- ** OpenMonitoring
-    OpenMonitoring,
+    OpenMonitoring (OpenMonitoring'),
     newOpenMonitoring,
 
     -- ** OpenMonitoringInfo
-    OpenMonitoringInfo,
+    OpenMonitoringInfo (OpenMonitoringInfo'),
     newOpenMonitoringInfo,
 
     -- ** Prometheus
-    Prometheus,
+    Prometheus (Prometheus'),
     newPrometheus,
 
     -- ** PrometheusInfo
-    PrometheusInfo,
+    PrometheusInfo (PrometheusInfo'),
     newPrometheusInfo,
 
     -- ** Provisioned
-    Provisioned,
+    Provisioned (Provisioned'),
     newProvisioned,
 
     -- ** ProvisionedRequest
-    ProvisionedRequest,
+    ProvisionedRequest (ProvisionedRequest'),
     newProvisionedRequest,
 
     -- ** ProvisionedThroughput
-    ProvisionedThroughput,
+    ProvisionedThroughput (ProvisionedThroughput'),
     newProvisionedThroughput,
 
     -- ** PublicAccess
-    PublicAccess,
+    PublicAccess (PublicAccess'),
     newPublicAccess,
 
     -- ** S3
-    S3,
+    S3 (S3'),
     newS3,
 
     -- ** Sasl
-    Sasl,
+    Sasl (Sasl'),
     newSasl,
 
     -- ** Scram
-    Scram,
+    Scram (Scram'),
     newScram,
 
     -- ** Serverless
-    Serverless,
+    Serverless (Serverless'),
     newServerless,
 
     -- ** ServerlessClientAuthentication
-    ServerlessClientAuthentication,
+    ServerlessClientAuthentication (ServerlessClientAuthentication'),
     newServerlessClientAuthentication,
 
     -- ** ServerlessRequest
-    ServerlessRequest,
+    ServerlessRequest (ServerlessRequest'),
     newServerlessRequest,
 
     -- ** ServerlessSasl
-    ServerlessSasl,
+    ServerlessSasl (ServerlessSasl'),
     newServerlessSasl,
 
     -- ** StateInfo
-    StateInfo,
+    StateInfo (StateInfo'),
     newStateInfo,
 
     -- ** StorageInfo
-    StorageInfo,
+    StorageInfo (StorageInfo'),
     newStorageInfo,
 
     -- ** Tls
-    Tls,
+    Tls (Tls'),
     newTls,
 
     -- ** Unauthenticated
-    Unauthenticated,
+    Unauthenticated (Unauthenticated'),
     newUnauthenticated,
 
     -- ** UnprocessedScramSecret
-    UnprocessedScramSecret,
+    UnprocessedScramSecret (UnprocessedScramSecret'),
     newUnprocessedScramSecret,
 
     -- ** VpcConfig
-    VpcConfig,
+    VpcConfig (VpcConfig'),
     newVpcConfig,
 
     -- ** ZookeeperNodeInfo
-    ZookeeperNodeInfo,
+    ZookeeperNodeInfo (ZookeeperNodeInfo'),
     newZookeeperNodeInfo,
   )
 where

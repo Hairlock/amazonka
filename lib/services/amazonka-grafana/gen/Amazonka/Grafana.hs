@@ -58,111 +58,111 @@ module Amazonka.Grafana
     -- $operations
 
     -- ** AssociateLicense
-    AssociateLicense,
+    AssociateLicense (AssociateLicense'),
     newAssociateLicense,
-    AssociateLicenseResponse,
+    AssociateLicenseResponse (AssociateLicenseResponse'),
     newAssociateLicenseResponse,
 
     -- ** CreateWorkspace
-    CreateWorkspace,
+    CreateWorkspace (CreateWorkspace'),
     newCreateWorkspace,
-    CreateWorkspaceResponse,
+    CreateWorkspaceResponse (CreateWorkspaceResponse'),
     newCreateWorkspaceResponse,
 
     -- ** CreateWorkspaceApiKey
-    CreateWorkspaceApiKey,
+    CreateWorkspaceApiKey (CreateWorkspaceApiKey'),
     newCreateWorkspaceApiKey,
-    CreateWorkspaceApiKeyResponse,
+    CreateWorkspaceApiKeyResponse (CreateWorkspaceApiKeyResponse'),
     newCreateWorkspaceApiKeyResponse,
 
     -- ** DeleteWorkspace
-    DeleteWorkspace,
+    DeleteWorkspace (DeleteWorkspace'),
     newDeleteWorkspace,
-    DeleteWorkspaceResponse,
+    DeleteWorkspaceResponse (DeleteWorkspaceResponse'),
     newDeleteWorkspaceResponse,
 
     -- ** DeleteWorkspaceApiKey
-    DeleteWorkspaceApiKey,
+    DeleteWorkspaceApiKey (DeleteWorkspaceApiKey'),
     newDeleteWorkspaceApiKey,
-    DeleteWorkspaceApiKeyResponse,
+    DeleteWorkspaceApiKeyResponse (DeleteWorkspaceApiKeyResponse'),
     newDeleteWorkspaceApiKeyResponse,
 
     -- ** DescribeWorkspace
-    DescribeWorkspace,
+    DescribeWorkspace (DescribeWorkspace'),
     newDescribeWorkspace,
-    DescribeWorkspaceResponse,
+    DescribeWorkspaceResponse (DescribeWorkspaceResponse'),
     newDescribeWorkspaceResponse,
 
     -- ** DescribeWorkspaceAuthentication
-    DescribeWorkspaceAuthentication,
+    DescribeWorkspaceAuthentication (DescribeWorkspaceAuthentication'),
     newDescribeWorkspaceAuthentication,
-    DescribeWorkspaceAuthenticationResponse,
+    DescribeWorkspaceAuthenticationResponse (DescribeWorkspaceAuthenticationResponse'),
     newDescribeWorkspaceAuthenticationResponse,
 
     -- ** DescribeWorkspaceConfiguration
-    DescribeWorkspaceConfiguration,
+    DescribeWorkspaceConfiguration (DescribeWorkspaceConfiguration'),
     newDescribeWorkspaceConfiguration,
-    DescribeWorkspaceConfigurationResponse,
+    DescribeWorkspaceConfigurationResponse (DescribeWorkspaceConfigurationResponse'),
     newDescribeWorkspaceConfigurationResponse,
 
     -- ** DisassociateLicense
-    DisassociateLicense,
+    DisassociateLicense (DisassociateLicense'),
     newDisassociateLicense,
-    DisassociateLicenseResponse,
+    DisassociateLicenseResponse (DisassociateLicenseResponse'),
     newDisassociateLicenseResponse,
 
     -- ** ListPermissions (Paginated)
-    ListPermissions,
+    ListPermissions (ListPermissions'),
     newListPermissions,
-    ListPermissionsResponse,
+    ListPermissionsResponse (ListPermissionsResponse'),
     newListPermissionsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** ListWorkspaces (Paginated)
-    ListWorkspaces,
+    ListWorkspaces (ListWorkspaces'),
     newListWorkspaces,
-    ListWorkspacesResponse,
+    ListWorkspacesResponse (ListWorkspacesResponse'),
     newListWorkspacesResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdatePermissions
-    UpdatePermissions,
+    UpdatePermissions (UpdatePermissions'),
     newUpdatePermissions,
-    UpdatePermissionsResponse,
+    UpdatePermissionsResponse (UpdatePermissionsResponse'),
     newUpdatePermissionsResponse,
 
     -- ** UpdateWorkspace
-    UpdateWorkspace,
+    UpdateWorkspace (UpdateWorkspace'),
     newUpdateWorkspace,
-    UpdateWorkspaceResponse,
+    UpdateWorkspaceResponse (UpdateWorkspaceResponse'),
     newUpdateWorkspaceResponse,
 
     -- ** UpdateWorkspaceAuthentication
-    UpdateWorkspaceAuthentication,
+    UpdateWorkspaceAuthentication (UpdateWorkspaceAuthentication'),
     newUpdateWorkspaceAuthentication,
-    UpdateWorkspaceAuthenticationResponse,
+    UpdateWorkspaceAuthenticationResponse (UpdateWorkspaceAuthenticationResponse'),
     newUpdateWorkspaceAuthenticationResponse,
 
     -- ** UpdateWorkspaceConfiguration
-    UpdateWorkspaceConfiguration,
+    UpdateWorkspaceConfiguration (UpdateWorkspaceConfiguration'),
     newUpdateWorkspaceConfiguration,
-    UpdateWorkspaceConfigurationResponse,
+    UpdateWorkspaceConfigurationResponse (UpdateWorkspaceConfigurationResponse'),
     newUpdateWorkspaceConfigurationResponse,
 
     -- * Types
@@ -201,63 +201,63 @@ module Amazonka.Grafana
     WorkspaceStatus (..),
 
     -- ** AssertionAttributes
-    AssertionAttributes,
+    AssertionAttributes (AssertionAttributes'),
     newAssertionAttributes,
 
     -- ** AuthenticationDescription
-    AuthenticationDescription,
+    AuthenticationDescription (AuthenticationDescription'),
     newAuthenticationDescription,
 
     -- ** AuthenticationSummary
-    AuthenticationSummary,
+    AuthenticationSummary (AuthenticationSummary'),
     newAuthenticationSummary,
 
     -- ** AwsSsoAuthentication
-    AwsSsoAuthentication,
+    AwsSsoAuthentication (AwsSsoAuthentication'),
     newAwsSsoAuthentication,
 
     -- ** IdpMetadata
-    IdpMetadata,
+    IdpMetadata (IdpMetadata'),
     newIdpMetadata,
 
     -- ** PermissionEntry
-    PermissionEntry,
+    PermissionEntry (PermissionEntry'),
     newPermissionEntry,
 
     -- ** RoleValues
-    RoleValues,
+    RoleValues (RoleValues'),
     newRoleValues,
 
     -- ** SamlAuthentication
-    SamlAuthentication,
+    SamlAuthentication (SamlAuthentication'),
     newSamlAuthentication,
 
     -- ** SamlConfiguration
-    SamlConfiguration,
+    SamlConfiguration (SamlConfiguration'),
     newSamlConfiguration,
 
     -- ** UpdateError
-    UpdateError,
+    UpdateError (UpdateError'),
     newUpdateError,
 
     -- ** UpdateInstruction
-    UpdateInstruction,
+    UpdateInstruction (UpdateInstruction'),
     newUpdateInstruction,
 
     -- ** User
-    User,
+    User (User'),
     newUser,
 
     -- ** VpcConfiguration
-    VpcConfiguration,
+    VpcConfiguration (VpcConfiguration'),
     newVpcConfiguration,
 
     -- ** WorkspaceDescription
-    WorkspaceDescription,
+    WorkspaceDescription (WorkspaceDescription'),
     newWorkspaceDescription,
 
     -- ** WorkspaceSummary
-    WorkspaceSummary,
+    WorkspaceSummary (WorkspaceSummary'),
     newWorkspaceSummary,
   )
 where

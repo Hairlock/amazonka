@@ -92,39 +92,39 @@ module Amazonka.ImportExport
     -- $operations
 
     -- ** CancelJob
-    CancelJob,
+    CancelJob (CancelJob'),
     newCancelJob,
-    CancelJobResponse,
+    CancelJobResponse (CancelJobResponse'),
     newCancelJobResponse,
 
     -- ** CreateJob
-    CreateJob,
+    CreateJob (CreateJob'),
     newCreateJob,
-    CreateJobResponse,
+    CreateJobResponse (CreateJobResponse'),
     newCreateJobResponse,
 
     -- ** GetShippingLabel
-    GetShippingLabel,
+    GetShippingLabel (GetShippingLabel'),
     newGetShippingLabel,
-    GetShippingLabelResponse,
+    GetShippingLabelResponse (GetShippingLabelResponse'),
     newGetShippingLabelResponse,
 
     -- ** GetStatus
-    GetStatus,
+    GetStatus (GetStatus'),
     newGetStatus,
-    GetStatusResponse,
+    GetStatusResponse (GetStatusResponse'),
     newGetStatusResponse,
 
     -- ** ListJobs (Paginated)
-    ListJobs,
+    ListJobs (ListJobs'),
     newListJobs,
-    ListJobsResponse,
+    ListJobsResponse (ListJobsResponse'),
     newListJobsResponse,
 
     -- ** UpdateJob
-    UpdateJob,
+    UpdateJob (UpdateJob'),
     newUpdateJob,
-    UpdateJobResponse,
+    UpdateJobResponse (UpdateJobResponse'),
     newUpdateJobResponse,
 
     -- * Types
@@ -133,11 +133,11 @@ module Amazonka.ImportExport
     JobType (..),
 
     -- ** Artifact
-    Artifact,
+    Artifact (Artifact'),
     newArtifact,
 
     -- ** Job
-    Job,
+    Job (Job'),
     newJob,
   )
 where

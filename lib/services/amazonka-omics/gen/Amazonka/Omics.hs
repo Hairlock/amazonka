@@ -101,399 +101,399 @@ module Amazonka.Omics
     -- $operations
 
     -- ** BatchDeleteReadSet
-    BatchDeleteReadSet,
+    BatchDeleteReadSet (BatchDeleteReadSet'),
     newBatchDeleteReadSet,
-    BatchDeleteReadSetResponse,
+    BatchDeleteReadSetResponse (BatchDeleteReadSetResponse'),
     newBatchDeleteReadSetResponse,
 
     -- ** CancelAnnotationImportJob
-    CancelAnnotationImportJob,
+    CancelAnnotationImportJob (CancelAnnotationImportJob'),
     newCancelAnnotationImportJob,
-    CancelAnnotationImportJobResponse,
+    CancelAnnotationImportJobResponse (CancelAnnotationImportJobResponse'),
     newCancelAnnotationImportJobResponse,
 
     -- ** CancelRun
-    CancelRun,
+    CancelRun (CancelRun'),
     newCancelRun,
-    CancelRunResponse,
+    CancelRunResponse (CancelRunResponse'),
     newCancelRunResponse,
 
     -- ** CancelVariantImportJob
-    CancelVariantImportJob,
+    CancelVariantImportJob (CancelVariantImportJob'),
     newCancelVariantImportJob,
-    CancelVariantImportJobResponse,
+    CancelVariantImportJobResponse (CancelVariantImportJobResponse'),
     newCancelVariantImportJobResponse,
 
     -- ** CreateAnnotationStore
-    CreateAnnotationStore,
+    CreateAnnotationStore (CreateAnnotationStore'),
     newCreateAnnotationStore,
-    CreateAnnotationStoreResponse,
+    CreateAnnotationStoreResponse (CreateAnnotationStoreResponse'),
     newCreateAnnotationStoreResponse,
 
     -- ** CreateReferenceStore
-    CreateReferenceStore,
+    CreateReferenceStore (CreateReferenceStore'),
     newCreateReferenceStore,
-    CreateReferenceStoreResponse,
+    CreateReferenceStoreResponse (CreateReferenceStoreResponse'),
     newCreateReferenceStoreResponse,
 
     -- ** CreateRunGroup
-    CreateRunGroup,
+    CreateRunGroup (CreateRunGroup'),
     newCreateRunGroup,
-    CreateRunGroupResponse,
+    CreateRunGroupResponse (CreateRunGroupResponse'),
     newCreateRunGroupResponse,
 
     -- ** CreateSequenceStore
-    CreateSequenceStore,
+    CreateSequenceStore (CreateSequenceStore'),
     newCreateSequenceStore,
-    CreateSequenceStoreResponse,
+    CreateSequenceStoreResponse (CreateSequenceStoreResponse'),
     newCreateSequenceStoreResponse,
 
     -- ** CreateVariantStore
-    CreateVariantStore,
+    CreateVariantStore (CreateVariantStore'),
     newCreateVariantStore,
-    CreateVariantStoreResponse,
+    CreateVariantStoreResponse (CreateVariantStoreResponse'),
     newCreateVariantStoreResponse,
 
     -- ** CreateWorkflow
-    CreateWorkflow,
+    CreateWorkflow (CreateWorkflow'),
     newCreateWorkflow,
-    CreateWorkflowResponse,
+    CreateWorkflowResponse (CreateWorkflowResponse'),
     newCreateWorkflowResponse,
 
     -- ** DeleteAnnotationStore
-    DeleteAnnotationStore,
+    DeleteAnnotationStore (DeleteAnnotationStore'),
     newDeleteAnnotationStore,
-    DeleteAnnotationStoreResponse,
+    DeleteAnnotationStoreResponse (DeleteAnnotationStoreResponse'),
     newDeleteAnnotationStoreResponse,
 
     -- ** DeleteReference
-    DeleteReference,
+    DeleteReference (DeleteReference'),
     newDeleteReference,
-    DeleteReferenceResponse,
+    DeleteReferenceResponse (DeleteReferenceResponse'),
     newDeleteReferenceResponse,
 
     -- ** DeleteReferenceStore
-    DeleteReferenceStore,
+    DeleteReferenceStore (DeleteReferenceStore'),
     newDeleteReferenceStore,
-    DeleteReferenceStoreResponse,
+    DeleteReferenceStoreResponse (DeleteReferenceStoreResponse'),
     newDeleteReferenceStoreResponse,
 
     -- ** DeleteRun
-    DeleteRun,
+    DeleteRun (DeleteRun'),
     newDeleteRun,
-    DeleteRunResponse,
+    DeleteRunResponse (DeleteRunResponse'),
     newDeleteRunResponse,
 
     -- ** DeleteRunGroup
-    DeleteRunGroup,
+    DeleteRunGroup (DeleteRunGroup'),
     newDeleteRunGroup,
-    DeleteRunGroupResponse,
+    DeleteRunGroupResponse (DeleteRunGroupResponse'),
     newDeleteRunGroupResponse,
 
     -- ** DeleteSequenceStore
-    DeleteSequenceStore,
+    DeleteSequenceStore (DeleteSequenceStore'),
     newDeleteSequenceStore,
-    DeleteSequenceStoreResponse,
+    DeleteSequenceStoreResponse (DeleteSequenceStoreResponse'),
     newDeleteSequenceStoreResponse,
 
     -- ** DeleteVariantStore
-    DeleteVariantStore,
+    DeleteVariantStore (DeleteVariantStore'),
     newDeleteVariantStore,
-    DeleteVariantStoreResponse,
+    DeleteVariantStoreResponse (DeleteVariantStoreResponse'),
     newDeleteVariantStoreResponse,
 
     -- ** DeleteWorkflow
-    DeleteWorkflow,
+    DeleteWorkflow (DeleteWorkflow'),
     newDeleteWorkflow,
-    DeleteWorkflowResponse,
+    DeleteWorkflowResponse (DeleteWorkflowResponse'),
     newDeleteWorkflowResponse,
 
     -- ** GetAnnotationImportJob
-    GetAnnotationImportJob,
+    GetAnnotationImportJob (GetAnnotationImportJob'),
     newGetAnnotationImportJob,
-    GetAnnotationImportJobResponse,
+    GetAnnotationImportJobResponse (GetAnnotationImportJobResponse'),
     newGetAnnotationImportJobResponse,
 
     -- ** GetAnnotationStore
-    GetAnnotationStore,
+    GetAnnotationStore (GetAnnotationStore'),
     newGetAnnotationStore,
-    GetAnnotationStoreResponse,
+    GetAnnotationStoreResponse (GetAnnotationStoreResponse'),
     newGetAnnotationStoreResponse,
 
     -- ** GetReadSet
-    GetReadSet,
+    GetReadSet (GetReadSet'),
     newGetReadSet,
-    GetReadSetResponse,
+    GetReadSetResponse (GetReadSetResponse'),
     newGetReadSetResponse,
 
     -- ** GetReadSetActivationJob
-    GetReadSetActivationJob,
+    GetReadSetActivationJob (GetReadSetActivationJob'),
     newGetReadSetActivationJob,
-    GetReadSetActivationJobResponse,
+    GetReadSetActivationJobResponse (GetReadSetActivationJobResponse'),
     newGetReadSetActivationJobResponse,
 
     -- ** GetReadSetExportJob
-    GetReadSetExportJob,
+    GetReadSetExportJob (GetReadSetExportJob'),
     newGetReadSetExportJob,
-    GetReadSetExportJobResponse,
+    GetReadSetExportJobResponse (GetReadSetExportJobResponse'),
     newGetReadSetExportJobResponse,
 
     -- ** GetReadSetImportJob
-    GetReadSetImportJob,
+    GetReadSetImportJob (GetReadSetImportJob'),
     newGetReadSetImportJob,
-    GetReadSetImportJobResponse,
+    GetReadSetImportJobResponse (GetReadSetImportJobResponse'),
     newGetReadSetImportJobResponse,
 
     -- ** GetReadSetMetadata
-    GetReadSetMetadata,
+    GetReadSetMetadata (GetReadSetMetadata'),
     newGetReadSetMetadata,
-    GetReadSetMetadataResponse,
+    GetReadSetMetadataResponse (GetReadSetMetadataResponse'),
     newGetReadSetMetadataResponse,
 
     -- ** GetReference
-    GetReference,
+    GetReference (GetReference'),
     newGetReference,
-    GetReferenceResponse,
+    GetReferenceResponse (GetReferenceResponse'),
     newGetReferenceResponse,
 
     -- ** GetReferenceImportJob
-    GetReferenceImportJob,
+    GetReferenceImportJob (GetReferenceImportJob'),
     newGetReferenceImportJob,
-    GetReferenceImportJobResponse,
+    GetReferenceImportJobResponse (GetReferenceImportJobResponse'),
     newGetReferenceImportJobResponse,
 
     -- ** GetReferenceMetadata
-    GetReferenceMetadata,
+    GetReferenceMetadata (GetReferenceMetadata'),
     newGetReferenceMetadata,
-    GetReferenceMetadataResponse,
+    GetReferenceMetadataResponse (GetReferenceMetadataResponse'),
     newGetReferenceMetadataResponse,
 
     -- ** GetReferenceStore
-    GetReferenceStore,
+    GetReferenceStore (GetReferenceStore'),
     newGetReferenceStore,
-    GetReferenceStoreResponse,
+    GetReferenceStoreResponse (GetReferenceStoreResponse'),
     newGetReferenceStoreResponse,
 
     -- ** GetRun
-    GetRun,
+    GetRun (GetRun'),
     newGetRun,
-    GetRunResponse,
+    GetRunResponse (GetRunResponse'),
     newGetRunResponse,
 
     -- ** GetRunGroup
-    GetRunGroup,
+    GetRunGroup (GetRunGroup'),
     newGetRunGroup,
-    GetRunGroupResponse,
+    GetRunGroupResponse (GetRunGroupResponse'),
     newGetRunGroupResponse,
 
     -- ** GetRunTask
-    GetRunTask,
+    GetRunTask (GetRunTask'),
     newGetRunTask,
-    GetRunTaskResponse,
+    GetRunTaskResponse (GetRunTaskResponse'),
     newGetRunTaskResponse,
 
     -- ** GetSequenceStore
-    GetSequenceStore,
+    GetSequenceStore (GetSequenceStore'),
     newGetSequenceStore,
-    GetSequenceStoreResponse,
+    GetSequenceStoreResponse (GetSequenceStoreResponse'),
     newGetSequenceStoreResponse,
 
     -- ** GetVariantImportJob
-    GetVariantImportJob,
+    GetVariantImportJob (GetVariantImportJob'),
     newGetVariantImportJob,
-    GetVariantImportJobResponse,
+    GetVariantImportJobResponse (GetVariantImportJobResponse'),
     newGetVariantImportJobResponse,
 
     -- ** GetVariantStore
-    GetVariantStore,
+    GetVariantStore (GetVariantStore'),
     newGetVariantStore,
-    GetVariantStoreResponse,
+    GetVariantStoreResponse (GetVariantStoreResponse'),
     newGetVariantStoreResponse,
 
     -- ** GetWorkflow
-    GetWorkflow,
+    GetWorkflow (GetWorkflow'),
     newGetWorkflow,
-    GetWorkflowResponse,
+    GetWorkflowResponse (GetWorkflowResponse'),
     newGetWorkflowResponse,
 
     -- ** ListAnnotationImportJobs (Paginated)
-    ListAnnotationImportJobs,
+    ListAnnotationImportJobs (ListAnnotationImportJobs'),
     newListAnnotationImportJobs,
-    ListAnnotationImportJobsResponse,
+    ListAnnotationImportJobsResponse (ListAnnotationImportJobsResponse'),
     newListAnnotationImportJobsResponse,
 
     -- ** ListAnnotationStores (Paginated)
-    ListAnnotationStores,
+    ListAnnotationStores (ListAnnotationStores'),
     newListAnnotationStores,
-    ListAnnotationStoresResponse,
+    ListAnnotationStoresResponse (ListAnnotationStoresResponse'),
     newListAnnotationStoresResponse,
 
     -- ** ListReadSetActivationJobs (Paginated)
-    ListReadSetActivationJobs,
+    ListReadSetActivationJobs (ListReadSetActivationJobs'),
     newListReadSetActivationJobs,
-    ListReadSetActivationJobsResponse,
+    ListReadSetActivationJobsResponse (ListReadSetActivationJobsResponse'),
     newListReadSetActivationJobsResponse,
 
     -- ** ListReadSetExportJobs (Paginated)
-    ListReadSetExportJobs,
+    ListReadSetExportJobs (ListReadSetExportJobs'),
     newListReadSetExportJobs,
-    ListReadSetExportJobsResponse,
+    ListReadSetExportJobsResponse (ListReadSetExportJobsResponse'),
     newListReadSetExportJobsResponse,
 
     -- ** ListReadSetImportJobs (Paginated)
-    ListReadSetImportJobs,
+    ListReadSetImportJobs (ListReadSetImportJobs'),
     newListReadSetImportJobs,
-    ListReadSetImportJobsResponse,
+    ListReadSetImportJobsResponse (ListReadSetImportJobsResponse'),
     newListReadSetImportJobsResponse,
 
     -- ** ListReadSets (Paginated)
-    ListReadSets,
+    ListReadSets (ListReadSets'),
     newListReadSets,
-    ListReadSetsResponse,
+    ListReadSetsResponse (ListReadSetsResponse'),
     newListReadSetsResponse,
 
     -- ** ListReferenceImportJobs (Paginated)
-    ListReferenceImportJobs,
+    ListReferenceImportJobs (ListReferenceImportJobs'),
     newListReferenceImportJobs,
-    ListReferenceImportJobsResponse,
+    ListReferenceImportJobsResponse (ListReferenceImportJobsResponse'),
     newListReferenceImportJobsResponse,
 
     -- ** ListReferenceStores (Paginated)
-    ListReferenceStores,
+    ListReferenceStores (ListReferenceStores'),
     newListReferenceStores,
-    ListReferenceStoresResponse,
+    ListReferenceStoresResponse (ListReferenceStoresResponse'),
     newListReferenceStoresResponse,
 
     -- ** ListReferences (Paginated)
-    ListReferences,
+    ListReferences (ListReferences'),
     newListReferences,
-    ListReferencesResponse,
+    ListReferencesResponse (ListReferencesResponse'),
     newListReferencesResponse,
 
     -- ** ListRunGroups (Paginated)
-    ListRunGroups,
+    ListRunGroups (ListRunGroups'),
     newListRunGroups,
-    ListRunGroupsResponse,
+    ListRunGroupsResponse (ListRunGroupsResponse'),
     newListRunGroupsResponse,
 
     -- ** ListRunTasks (Paginated)
-    ListRunTasks,
+    ListRunTasks (ListRunTasks'),
     newListRunTasks,
-    ListRunTasksResponse,
+    ListRunTasksResponse (ListRunTasksResponse'),
     newListRunTasksResponse,
 
     -- ** ListRuns (Paginated)
-    ListRuns,
+    ListRuns (ListRuns'),
     newListRuns,
-    ListRunsResponse,
+    ListRunsResponse (ListRunsResponse'),
     newListRunsResponse,
 
     -- ** ListSequenceStores (Paginated)
-    ListSequenceStores,
+    ListSequenceStores (ListSequenceStores'),
     newListSequenceStores,
-    ListSequenceStoresResponse,
+    ListSequenceStoresResponse (ListSequenceStoresResponse'),
     newListSequenceStoresResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** ListVariantImportJobs (Paginated)
-    ListVariantImportJobs,
+    ListVariantImportJobs (ListVariantImportJobs'),
     newListVariantImportJobs,
-    ListVariantImportJobsResponse,
+    ListVariantImportJobsResponse (ListVariantImportJobsResponse'),
     newListVariantImportJobsResponse,
 
     -- ** ListVariantStores (Paginated)
-    ListVariantStores,
+    ListVariantStores (ListVariantStores'),
     newListVariantStores,
-    ListVariantStoresResponse,
+    ListVariantStoresResponse (ListVariantStoresResponse'),
     newListVariantStoresResponse,
 
     -- ** ListWorkflows (Paginated)
-    ListWorkflows,
+    ListWorkflows (ListWorkflows'),
     newListWorkflows,
-    ListWorkflowsResponse,
+    ListWorkflowsResponse (ListWorkflowsResponse'),
     newListWorkflowsResponse,
 
     -- ** StartAnnotationImportJob
-    StartAnnotationImportJob,
+    StartAnnotationImportJob (StartAnnotationImportJob'),
     newStartAnnotationImportJob,
-    StartAnnotationImportJobResponse,
+    StartAnnotationImportJobResponse (StartAnnotationImportJobResponse'),
     newStartAnnotationImportJobResponse,
 
     -- ** StartReadSetActivationJob
-    StartReadSetActivationJob,
+    StartReadSetActivationJob (StartReadSetActivationJob'),
     newStartReadSetActivationJob,
-    StartReadSetActivationJobResponse,
+    StartReadSetActivationJobResponse (StartReadSetActivationJobResponse'),
     newStartReadSetActivationJobResponse,
 
     -- ** StartReadSetExportJob
-    StartReadSetExportJob,
+    StartReadSetExportJob (StartReadSetExportJob'),
     newStartReadSetExportJob,
-    StartReadSetExportJobResponse,
+    StartReadSetExportJobResponse (StartReadSetExportJobResponse'),
     newStartReadSetExportJobResponse,
 
     -- ** StartReadSetImportJob
-    StartReadSetImportJob,
+    StartReadSetImportJob (StartReadSetImportJob'),
     newStartReadSetImportJob,
-    StartReadSetImportJobResponse,
+    StartReadSetImportJobResponse (StartReadSetImportJobResponse'),
     newStartReadSetImportJobResponse,
 
     -- ** StartReferenceImportJob
-    StartReferenceImportJob,
+    StartReferenceImportJob (StartReferenceImportJob'),
     newStartReferenceImportJob,
-    StartReferenceImportJobResponse,
+    StartReferenceImportJobResponse (StartReferenceImportJobResponse'),
     newStartReferenceImportJobResponse,
 
     -- ** StartRun
-    StartRun,
+    StartRun (StartRun'),
     newStartRun,
-    StartRunResponse,
+    StartRunResponse (StartRunResponse'),
     newStartRunResponse,
 
     -- ** StartVariantImportJob
-    StartVariantImportJob,
+    StartVariantImportJob (StartVariantImportJob'),
     newStartVariantImportJob,
-    StartVariantImportJobResponse,
+    StartVariantImportJobResponse (StartVariantImportJobResponse'),
     newStartVariantImportJobResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateAnnotationStore
-    UpdateAnnotationStore,
+    UpdateAnnotationStore (UpdateAnnotationStore'),
     newUpdateAnnotationStore,
-    UpdateAnnotationStoreResponse,
+    UpdateAnnotationStoreResponse (UpdateAnnotationStoreResponse'),
     newUpdateAnnotationStoreResponse,
 
     -- ** UpdateRunGroup
-    UpdateRunGroup,
+    UpdateRunGroup (UpdateRunGroup'),
     newUpdateRunGroup,
-    UpdateRunGroupResponse,
+    UpdateRunGroupResponse (UpdateRunGroupResponse'),
     newUpdateRunGroupResponse,
 
     -- ** UpdateVariantStore
-    UpdateVariantStore,
+    UpdateVariantStore (UpdateVariantStore'),
     newUpdateVariantStore,
-    UpdateVariantStoreResponse,
+    UpdateVariantStoreResponse (UpdateVariantStoreResponse'),
     newUpdateVariantStoreResponse,
 
     -- ** UpdateWorkflow
-    UpdateWorkflow,
+    UpdateWorkflow (UpdateWorkflow'),
     newUpdateWorkflow,
-    UpdateWorkflowResponse,
+    UpdateWorkflowResponse (UpdateWorkflowResponse'),
     newUpdateWorkflowResponse,
 
     -- * Types
@@ -583,227 +583,227 @@ module Amazonka.Omics
     WorkflowType (..),
 
     -- ** ActivateReadSetFilter
-    ActivateReadSetFilter,
+    ActivateReadSetFilter (ActivateReadSetFilter'),
     newActivateReadSetFilter,
 
     -- ** ActivateReadSetJobItem
-    ActivateReadSetJobItem,
+    ActivateReadSetJobItem (ActivateReadSetJobItem'),
     newActivateReadSetJobItem,
 
     -- ** ActivateReadSetSourceItem
-    ActivateReadSetSourceItem,
+    ActivateReadSetSourceItem (ActivateReadSetSourceItem'),
     newActivateReadSetSourceItem,
 
     -- ** AnnotationImportItemDetail
-    AnnotationImportItemDetail,
+    AnnotationImportItemDetail (AnnotationImportItemDetail'),
     newAnnotationImportItemDetail,
 
     -- ** AnnotationImportItemSource
-    AnnotationImportItemSource,
+    AnnotationImportItemSource (AnnotationImportItemSource'),
     newAnnotationImportItemSource,
 
     -- ** AnnotationImportJobItem
-    AnnotationImportJobItem,
+    AnnotationImportJobItem (AnnotationImportJobItem'),
     newAnnotationImportJobItem,
 
     -- ** AnnotationStoreItem
-    AnnotationStoreItem,
+    AnnotationStoreItem (AnnotationStoreItem'),
     newAnnotationStoreItem,
 
     -- ** ExportReadSet
-    ExportReadSet,
+    ExportReadSet (ExportReadSet'),
     newExportReadSet,
 
     -- ** ExportReadSetDetail
-    ExportReadSetDetail,
+    ExportReadSetDetail (ExportReadSetDetail'),
     newExportReadSetDetail,
 
     -- ** ExportReadSetFilter
-    ExportReadSetFilter,
+    ExportReadSetFilter (ExportReadSetFilter'),
     newExportReadSetFilter,
 
     -- ** ExportReadSetJobDetail
-    ExportReadSetJobDetail,
+    ExportReadSetJobDetail (ExportReadSetJobDetail'),
     newExportReadSetJobDetail,
 
     -- ** FileInformation
-    FileInformation,
+    FileInformation (FileInformation'),
     newFileInformation,
 
     -- ** FormatOptions
-    FormatOptions,
+    FormatOptions (FormatOptions'),
     newFormatOptions,
 
     -- ** ImportReadSetFilter
-    ImportReadSetFilter,
+    ImportReadSetFilter (ImportReadSetFilter'),
     newImportReadSetFilter,
 
     -- ** ImportReadSetJobItem
-    ImportReadSetJobItem,
+    ImportReadSetJobItem (ImportReadSetJobItem'),
     newImportReadSetJobItem,
 
     -- ** ImportReadSetSourceItem
-    ImportReadSetSourceItem,
+    ImportReadSetSourceItem (ImportReadSetSourceItem'),
     newImportReadSetSourceItem,
 
     -- ** ImportReferenceFilter
-    ImportReferenceFilter,
+    ImportReferenceFilter (ImportReferenceFilter'),
     newImportReferenceFilter,
 
     -- ** ImportReferenceJobItem
-    ImportReferenceJobItem,
+    ImportReferenceJobItem (ImportReferenceJobItem'),
     newImportReferenceJobItem,
 
     -- ** ImportReferenceSourceItem
-    ImportReferenceSourceItem,
+    ImportReferenceSourceItem (ImportReferenceSourceItem'),
     newImportReferenceSourceItem,
 
     -- ** ListAnnotationImportJobsFilter
-    ListAnnotationImportJobsFilter,
+    ListAnnotationImportJobsFilter (ListAnnotationImportJobsFilter'),
     newListAnnotationImportJobsFilter,
 
     -- ** ListAnnotationStoresFilter
-    ListAnnotationStoresFilter,
+    ListAnnotationStoresFilter (ListAnnotationStoresFilter'),
     newListAnnotationStoresFilter,
 
     -- ** ListVariantImportJobsFilter
-    ListVariantImportJobsFilter,
+    ListVariantImportJobsFilter (ListVariantImportJobsFilter'),
     newListVariantImportJobsFilter,
 
     -- ** ListVariantStoresFilter
-    ListVariantStoresFilter,
+    ListVariantStoresFilter (ListVariantStoresFilter'),
     newListVariantStoresFilter,
 
     -- ** ReadOptions
-    ReadOptions,
+    ReadOptions (ReadOptions'),
     newReadOptions,
 
     -- ** ReadSetBatchError
-    ReadSetBatchError,
+    ReadSetBatchError (ReadSetBatchError'),
     newReadSetBatchError,
 
     -- ** ReadSetFiles
-    ReadSetFiles,
+    ReadSetFiles (ReadSetFiles'),
     newReadSetFiles,
 
     -- ** ReadSetFilter
-    ReadSetFilter,
+    ReadSetFilter (ReadSetFilter'),
     newReadSetFilter,
 
     -- ** ReadSetListItem
-    ReadSetListItem,
+    ReadSetListItem (ReadSetListItem'),
     newReadSetListItem,
 
     -- ** ReferenceFiles
-    ReferenceFiles,
+    ReferenceFiles (ReferenceFiles'),
     newReferenceFiles,
 
     -- ** ReferenceFilter
-    ReferenceFilter,
+    ReferenceFilter (ReferenceFilter'),
     newReferenceFilter,
 
     -- ** ReferenceItem
-    ReferenceItem,
+    ReferenceItem (ReferenceItem'),
     newReferenceItem,
 
     -- ** ReferenceListItem
-    ReferenceListItem,
+    ReferenceListItem (ReferenceListItem'),
     newReferenceListItem,
 
     -- ** ReferenceStoreDetail
-    ReferenceStoreDetail,
+    ReferenceStoreDetail (ReferenceStoreDetail'),
     newReferenceStoreDetail,
 
     -- ** ReferenceStoreFilter
-    ReferenceStoreFilter,
+    ReferenceStoreFilter (ReferenceStoreFilter'),
     newReferenceStoreFilter,
 
     -- ** RunGroupListItem
-    RunGroupListItem,
+    RunGroupListItem (RunGroupListItem'),
     newRunGroupListItem,
 
     -- ** RunListItem
-    RunListItem,
+    RunListItem (RunListItem'),
     newRunListItem,
 
     -- ** RunParameters
-    RunParameters,
+    RunParameters (RunParameters'),
     newRunParameters,
 
     -- ** SequenceInformation
-    SequenceInformation,
+    SequenceInformation (SequenceInformation'),
     newSequenceInformation,
 
     -- ** SequenceStoreDetail
-    SequenceStoreDetail,
+    SequenceStoreDetail (SequenceStoreDetail'),
     newSequenceStoreDetail,
 
     -- ** SequenceStoreFilter
-    SequenceStoreFilter,
+    SequenceStoreFilter (SequenceStoreFilter'),
     newSequenceStoreFilter,
 
     -- ** SourceFiles
-    SourceFiles,
+    SourceFiles (SourceFiles'),
     newSourceFiles,
 
     -- ** SseConfig
-    SseConfig,
+    SseConfig (SseConfig'),
     newSseConfig,
 
     -- ** StartReadSetActivationJobSourceItem
-    StartReadSetActivationJobSourceItem,
+    StartReadSetActivationJobSourceItem (StartReadSetActivationJobSourceItem'),
     newStartReadSetActivationJobSourceItem,
 
     -- ** StartReadSetImportJobSourceItem
-    StartReadSetImportJobSourceItem,
+    StartReadSetImportJobSourceItem (StartReadSetImportJobSourceItem'),
     newStartReadSetImportJobSourceItem,
 
     -- ** StartReferenceImportJobSourceItem
-    StartReferenceImportJobSourceItem,
+    StartReferenceImportJobSourceItem (StartReferenceImportJobSourceItem'),
     newStartReferenceImportJobSourceItem,
 
     -- ** StoreOptions
-    StoreOptions,
+    StoreOptions (StoreOptions'),
     newStoreOptions,
 
     -- ** TaskListItem
-    TaskListItem,
+    TaskListItem (TaskListItem'),
     newTaskListItem,
 
     -- ** TsvOptions
-    TsvOptions,
+    TsvOptions (TsvOptions'),
     newTsvOptions,
 
     -- ** TsvStoreOptions
-    TsvStoreOptions,
+    TsvStoreOptions (TsvStoreOptions'),
     newTsvStoreOptions,
 
     -- ** VariantImportItemDetail
-    VariantImportItemDetail,
+    VariantImportItemDetail (VariantImportItemDetail'),
     newVariantImportItemDetail,
 
     -- ** VariantImportItemSource
-    VariantImportItemSource,
+    VariantImportItemSource (VariantImportItemSource'),
     newVariantImportItemSource,
 
     -- ** VariantImportJobItem
-    VariantImportJobItem,
+    VariantImportJobItem (VariantImportJobItem'),
     newVariantImportJobItem,
 
     -- ** VariantStoreItem
-    VariantStoreItem,
+    VariantStoreItem (VariantStoreItem'),
     newVariantStoreItem,
 
     -- ** VcfOptions
-    VcfOptions,
+    VcfOptions (VcfOptions'),
     newVcfOptions,
 
     -- ** WorkflowListItem
-    WorkflowListItem,
+    WorkflowListItem (WorkflowListItem'),
     newWorkflowListItem,
 
     -- ** WorkflowParameter
-    WorkflowParameter,
+    WorkflowParameter (WorkflowParameter'),
     newWorkflowParameter,
   )
 where

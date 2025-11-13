@@ -36,9 +36,9 @@ module Amazonka.KinesisVideoWebRtcStorage
     -- $operations
 
     -- ** JoinStorageSession
-    JoinStorageSession,
+    JoinStorageSession (JoinStorageSession'),
     newJoinStorageSession,
-    JoinStorageSessionResponse,
+    JoinStorageSessionResponse (JoinStorageSessionResponse'),
     newJoinStorageSessionResponse,
 
     -- * Types

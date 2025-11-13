@@ -57,159 +57,159 @@ module Amazonka.RolesAnywhere
     -- $operations
 
     -- ** CreateProfile
-    CreateProfile,
+    CreateProfile (CreateProfile'),
     newCreateProfile,
-    ProfileDetailResponse,
+    ProfileDetailResponse (ProfileDetailResponse'),
     newProfileDetailResponse,
 
     -- ** CreateTrustAnchor
-    CreateTrustAnchor,
+    CreateTrustAnchor (CreateTrustAnchor'),
     newCreateTrustAnchor,
-    TrustAnchorDetailResponse,
+    TrustAnchorDetailResponse (TrustAnchorDetailResponse'),
     newTrustAnchorDetailResponse,
 
     -- ** DeleteCrl
-    DeleteCrl,
+    DeleteCrl (DeleteCrl'),
     newDeleteCrl,
-    CrlDetailResponse,
+    CrlDetailResponse (CrlDetailResponse'),
     newCrlDetailResponse,
 
     -- ** DeleteProfile
-    DeleteProfile,
+    DeleteProfile (DeleteProfile'),
     newDeleteProfile,
-    ProfileDetailResponse,
+    ProfileDetailResponse (ProfileDetailResponse'),
     newProfileDetailResponse,
 
     -- ** DeleteTrustAnchor
-    DeleteTrustAnchor,
+    DeleteTrustAnchor (DeleteTrustAnchor'),
     newDeleteTrustAnchor,
-    TrustAnchorDetailResponse,
+    TrustAnchorDetailResponse (TrustAnchorDetailResponse'),
     newTrustAnchorDetailResponse,
 
     -- ** DisableCrl
-    DisableCrl,
+    DisableCrl (DisableCrl'),
     newDisableCrl,
-    CrlDetailResponse,
+    CrlDetailResponse (CrlDetailResponse'),
     newCrlDetailResponse,
 
     -- ** DisableProfile
-    DisableProfile,
+    DisableProfile (DisableProfile'),
     newDisableProfile,
-    ProfileDetailResponse,
+    ProfileDetailResponse (ProfileDetailResponse'),
     newProfileDetailResponse,
 
     -- ** DisableTrustAnchor
-    DisableTrustAnchor,
+    DisableTrustAnchor (DisableTrustAnchor'),
     newDisableTrustAnchor,
-    TrustAnchorDetailResponse,
+    TrustAnchorDetailResponse (TrustAnchorDetailResponse'),
     newTrustAnchorDetailResponse,
 
     -- ** EnableCrl
-    EnableCrl,
+    EnableCrl (EnableCrl'),
     newEnableCrl,
-    CrlDetailResponse,
+    CrlDetailResponse (CrlDetailResponse'),
     newCrlDetailResponse,
 
     -- ** EnableProfile
-    EnableProfile,
+    EnableProfile (EnableProfile'),
     newEnableProfile,
-    ProfileDetailResponse,
+    ProfileDetailResponse (ProfileDetailResponse'),
     newProfileDetailResponse,
 
     -- ** EnableTrustAnchor
-    EnableTrustAnchor,
+    EnableTrustAnchor (EnableTrustAnchor'),
     newEnableTrustAnchor,
-    TrustAnchorDetailResponse,
+    TrustAnchorDetailResponse (TrustAnchorDetailResponse'),
     newTrustAnchorDetailResponse,
 
     -- ** GetCrl
-    GetCrl,
+    GetCrl (GetCrl'),
     newGetCrl,
-    CrlDetailResponse,
+    CrlDetailResponse (CrlDetailResponse'),
     newCrlDetailResponse,
 
     -- ** GetProfile
-    GetProfile,
+    GetProfile (GetProfile'),
     newGetProfile,
-    ProfileDetailResponse,
+    ProfileDetailResponse (ProfileDetailResponse'),
     newProfileDetailResponse,
 
     -- ** GetSubject
-    GetSubject,
+    GetSubject (GetSubject'),
     newGetSubject,
-    GetSubjectResponse,
+    GetSubjectResponse (GetSubjectResponse'),
     newGetSubjectResponse,
 
     -- ** GetTrustAnchor
-    GetTrustAnchor,
+    GetTrustAnchor (GetTrustAnchor'),
     newGetTrustAnchor,
-    TrustAnchorDetailResponse,
+    TrustAnchorDetailResponse (TrustAnchorDetailResponse'),
     newTrustAnchorDetailResponse,
 
     -- ** ImportCrl
-    ImportCrl,
+    ImportCrl (ImportCrl'),
     newImportCrl,
-    CrlDetailResponse,
+    CrlDetailResponse (CrlDetailResponse'),
     newCrlDetailResponse,
 
     -- ** ListCrls (Paginated)
-    ListCrls,
+    ListCrls (ListCrls'),
     newListCrls,
-    ListCrlsResponse,
+    ListCrlsResponse (ListCrlsResponse'),
     newListCrlsResponse,
 
     -- ** ListProfiles (Paginated)
-    ListProfiles,
+    ListProfiles (ListProfiles'),
     newListProfiles,
-    ListProfilesResponse,
+    ListProfilesResponse (ListProfilesResponse'),
     newListProfilesResponse,
 
     -- ** ListSubjects (Paginated)
-    ListSubjects,
+    ListSubjects (ListSubjects'),
     newListSubjects,
-    ListSubjectsResponse,
+    ListSubjectsResponse (ListSubjectsResponse'),
     newListSubjectsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** ListTrustAnchors (Paginated)
-    ListTrustAnchors,
+    ListTrustAnchors (ListTrustAnchors'),
     newListTrustAnchors,
-    ListTrustAnchorsResponse,
+    ListTrustAnchorsResponse (ListTrustAnchorsResponse'),
     newListTrustAnchorsResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateCrl
-    UpdateCrl,
+    UpdateCrl (UpdateCrl'),
     newUpdateCrl,
-    CrlDetailResponse,
+    CrlDetailResponse (CrlDetailResponse'),
     newCrlDetailResponse,
 
     -- ** UpdateProfile
-    UpdateProfile,
+    UpdateProfile (UpdateProfile'),
     newUpdateProfile,
-    ProfileDetailResponse,
+    ProfileDetailResponse (ProfileDetailResponse'),
     newProfileDetailResponse,
 
     -- ** UpdateTrustAnchor
-    UpdateTrustAnchor,
+    UpdateTrustAnchor (UpdateTrustAnchor'),
     newUpdateTrustAnchor,
-    TrustAnchorDetailResponse,
+    TrustAnchorDetailResponse (TrustAnchorDetailResponse'),
     newTrustAnchorDetailResponse,
 
     -- * Types
@@ -218,71 +218,71 @@ module Amazonka.RolesAnywhere
     TrustAnchorType (..),
 
     -- ** CredentialSummary
-    CredentialSummary,
+    CredentialSummary (CredentialSummary'),
     newCredentialSummary,
 
     -- ** CrlDetail
-    CrlDetail,
+    CrlDetail (CrlDetail'),
     newCrlDetail,
 
     -- ** CrlDetailResponse
-    CrlDetailResponse,
+    CrlDetailResponse (CrlDetailResponse'),
     newCrlDetailResponse,
 
     -- ** InstanceProperty
-    InstanceProperty,
+    InstanceProperty (InstanceProperty'),
     newInstanceProperty,
 
     -- ** ListRequest
-    ListRequest,
+    ListRequest (ListRequest'),
     newListRequest,
 
     -- ** ProfileDetail
-    ProfileDetail,
+    ProfileDetail (ProfileDetail'),
     newProfileDetail,
 
     -- ** ProfileDetailResponse
-    ProfileDetailResponse,
+    ProfileDetailResponse (ProfileDetailResponse'),
     newProfileDetailResponse,
 
     -- ** ScalarCrlRequest
-    ScalarCrlRequest,
+    ScalarCrlRequest (ScalarCrlRequest'),
     newScalarCrlRequest,
 
     -- ** ScalarProfileRequest
-    ScalarProfileRequest,
+    ScalarProfileRequest (ScalarProfileRequest'),
     newScalarProfileRequest,
 
     -- ** ScalarTrustAnchorRequest
-    ScalarTrustAnchorRequest,
+    ScalarTrustAnchorRequest (ScalarTrustAnchorRequest'),
     newScalarTrustAnchorRequest,
 
     -- ** Source
-    Source,
+    Source (Source'),
     newSource,
 
     -- ** SourceData
-    SourceData,
+    SourceData (SourceData'),
     newSourceData,
 
     -- ** SubjectDetail
-    SubjectDetail,
+    SubjectDetail (SubjectDetail'),
     newSubjectDetail,
 
     -- ** SubjectSummary
-    SubjectSummary,
+    SubjectSummary (SubjectSummary'),
     newSubjectSummary,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** TrustAnchorDetail
-    TrustAnchorDetail,
+    TrustAnchorDetail (TrustAnchorDetail'),
     newTrustAnchorDetail,
 
     -- ** TrustAnchorDetailResponse
-    TrustAnchorDetailResponse,
+    TrustAnchorDetailResponse (TrustAnchorDetailResponse'),
     newTrustAnchorDetailResponse,
   )
 where

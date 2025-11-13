@@ -49,45 +49,45 @@ module Amazonka.Macie
     -- $operations
 
     -- ** AssociateMemberAccount
-    AssociateMemberAccount,
+    AssociateMemberAccount (AssociateMemberAccount'),
     newAssociateMemberAccount,
-    AssociateMemberAccountResponse,
+    AssociateMemberAccountResponse (AssociateMemberAccountResponse'),
     newAssociateMemberAccountResponse,
 
     -- ** AssociateS3Resources
-    AssociateS3Resources,
+    AssociateS3Resources (AssociateS3Resources'),
     newAssociateS3Resources,
-    AssociateS3ResourcesResponse,
+    AssociateS3ResourcesResponse (AssociateS3ResourcesResponse'),
     newAssociateS3ResourcesResponse,
 
     -- ** DisassociateMemberAccount
-    DisassociateMemberAccount,
+    DisassociateMemberAccount (DisassociateMemberAccount'),
     newDisassociateMemberAccount,
-    DisassociateMemberAccountResponse,
+    DisassociateMemberAccountResponse (DisassociateMemberAccountResponse'),
     newDisassociateMemberAccountResponse,
 
     -- ** DisassociateS3Resources
-    DisassociateS3Resources,
+    DisassociateS3Resources (DisassociateS3Resources'),
     newDisassociateS3Resources,
-    DisassociateS3ResourcesResponse,
+    DisassociateS3ResourcesResponse (DisassociateS3ResourcesResponse'),
     newDisassociateS3ResourcesResponse,
 
     -- ** ListMemberAccounts (Paginated)
-    ListMemberAccounts,
+    ListMemberAccounts (ListMemberAccounts'),
     newListMemberAccounts,
-    ListMemberAccountsResponse,
+    ListMemberAccountsResponse (ListMemberAccountsResponse'),
     newListMemberAccountsResponse,
 
     -- ** ListS3Resources (Paginated)
-    ListS3Resources,
+    ListS3Resources (ListS3Resources'),
     newListS3Resources,
-    ListS3ResourcesResponse,
+    ListS3ResourcesResponse (ListS3ResourcesResponse'),
     newListS3ResourcesResponse,
 
     -- ** UpdateS3Resources
-    UpdateS3Resources,
+    UpdateS3Resources (UpdateS3Resources'),
     newUpdateS3Resources,
-    UpdateS3ResourcesResponse,
+    UpdateS3ResourcesResponse (UpdateS3ResourcesResponse'),
     newUpdateS3ResourcesResponse,
 
     -- * Types
@@ -99,31 +99,31 @@ module Amazonka.Macie
     S3OneTimeClassificationType (..),
 
     -- ** ClassificationType
-    ClassificationType,
+    ClassificationType (ClassificationType'),
     newClassificationType,
 
     -- ** ClassificationTypeUpdate
-    ClassificationTypeUpdate,
+    ClassificationTypeUpdate (ClassificationTypeUpdate'),
     newClassificationTypeUpdate,
 
     -- ** FailedS3Resource
-    FailedS3Resource,
+    FailedS3Resource (FailedS3Resource'),
     newFailedS3Resource,
 
     -- ** MemberAccount
-    MemberAccount,
+    MemberAccount (MemberAccount'),
     newMemberAccount,
 
     -- ** S3Resource
-    S3Resource,
+    S3Resource (S3Resource'),
     newS3Resource,
 
     -- ** S3ResourceClassification
-    S3ResourceClassification,
+    S3ResourceClassification (S3ResourceClassification'),
     newS3ResourceClassification,
 
     -- ** S3ResourceClassificationUpdate
-    S3ResourceClassificationUpdate,
+    S3ResourceClassificationUpdate (S3ResourceClassificationUpdate'),
     newS3ResourceClassificationUpdate,
   )
 where

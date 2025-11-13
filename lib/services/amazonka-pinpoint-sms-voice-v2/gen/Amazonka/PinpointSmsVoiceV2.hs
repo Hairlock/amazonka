@@ -65,261 +65,261 @@ module Amazonka.PinpointSmsVoiceV2
     -- $operations
 
     -- ** AssociateOriginationIdentity
-    AssociateOriginationIdentity,
+    AssociateOriginationIdentity (AssociateOriginationIdentity'),
     newAssociateOriginationIdentity,
-    AssociateOriginationIdentityResponse,
+    AssociateOriginationIdentityResponse (AssociateOriginationIdentityResponse'),
     newAssociateOriginationIdentityResponse,
 
     -- ** CreateConfigurationSet
-    CreateConfigurationSet,
+    CreateConfigurationSet (CreateConfigurationSet'),
     newCreateConfigurationSet,
-    CreateConfigurationSetResponse,
+    CreateConfigurationSetResponse (CreateConfigurationSetResponse'),
     newCreateConfigurationSetResponse,
 
     -- ** CreateEventDestination
-    CreateEventDestination,
+    CreateEventDestination (CreateEventDestination'),
     newCreateEventDestination,
-    CreateEventDestinationResponse,
+    CreateEventDestinationResponse (CreateEventDestinationResponse'),
     newCreateEventDestinationResponse,
 
     -- ** CreateOptOutList
-    CreateOptOutList,
+    CreateOptOutList (CreateOptOutList'),
     newCreateOptOutList,
-    CreateOptOutListResponse,
+    CreateOptOutListResponse (CreateOptOutListResponse'),
     newCreateOptOutListResponse,
 
     -- ** CreatePool
-    CreatePool,
+    CreatePool (CreatePool'),
     newCreatePool,
-    CreatePoolResponse,
+    CreatePoolResponse (CreatePoolResponse'),
     newCreatePoolResponse,
 
     -- ** DeleteConfigurationSet
-    DeleteConfigurationSet,
+    DeleteConfigurationSet (DeleteConfigurationSet'),
     newDeleteConfigurationSet,
-    DeleteConfigurationSetResponse,
+    DeleteConfigurationSetResponse (DeleteConfigurationSetResponse'),
     newDeleteConfigurationSetResponse,
 
     -- ** DeleteDefaultMessageType
-    DeleteDefaultMessageType,
+    DeleteDefaultMessageType (DeleteDefaultMessageType'),
     newDeleteDefaultMessageType,
-    DeleteDefaultMessageTypeResponse,
+    DeleteDefaultMessageTypeResponse (DeleteDefaultMessageTypeResponse'),
     newDeleteDefaultMessageTypeResponse,
 
     -- ** DeleteDefaultSenderId
-    DeleteDefaultSenderId,
+    DeleteDefaultSenderId (DeleteDefaultSenderId'),
     newDeleteDefaultSenderId,
-    DeleteDefaultSenderIdResponse,
+    DeleteDefaultSenderIdResponse (DeleteDefaultSenderIdResponse'),
     newDeleteDefaultSenderIdResponse,
 
     -- ** DeleteEventDestination
-    DeleteEventDestination,
+    DeleteEventDestination (DeleteEventDestination'),
     newDeleteEventDestination,
-    DeleteEventDestinationResponse,
+    DeleteEventDestinationResponse (DeleteEventDestinationResponse'),
     newDeleteEventDestinationResponse,
 
     -- ** DeleteKeyword
-    DeleteKeyword,
+    DeleteKeyword (DeleteKeyword'),
     newDeleteKeyword,
-    DeleteKeywordResponse,
+    DeleteKeywordResponse (DeleteKeywordResponse'),
     newDeleteKeywordResponse,
 
     -- ** DeleteOptOutList
-    DeleteOptOutList,
+    DeleteOptOutList (DeleteOptOutList'),
     newDeleteOptOutList,
-    DeleteOptOutListResponse,
+    DeleteOptOutListResponse (DeleteOptOutListResponse'),
     newDeleteOptOutListResponse,
 
     -- ** DeleteOptedOutNumber
-    DeleteOptedOutNumber,
+    DeleteOptedOutNumber (DeleteOptedOutNumber'),
     newDeleteOptedOutNumber,
-    DeleteOptedOutNumberResponse,
+    DeleteOptedOutNumberResponse (DeleteOptedOutNumberResponse'),
     newDeleteOptedOutNumberResponse,
 
     -- ** DeletePool
-    DeletePool,
+    DeletePool (DeletePool'),
     newDeletePool,
-    DeletePoolResponse,
+    DeletePoolResponse (DeletePoolResponse'),
     newDeletePoolResponse,
 
     -- ** DeleteTextMessageSpendLimitOverride
-    DeleteTextMessageSpendLimitOverride,
+    DeleteTextMessageSpendLimitOverride (DeleteTextMessageSpendLimitOverride'),
     newDeleteTextMessageSpendLimitOverride,
-    DeleteTextMessageSpendLimitOverrideResponse,
+    DeleteTextMessageSpendLimitOverrideResponse (DeleteTextMessageSpendLimitOverrideResponse'),
     newDeleteTextMessageSpendLimitOverrideResponse,
 
     -- ** DeleteVoiceMessageSpendLimitOverride
-    DeleteVoiceMessageSpendLimitOverride,
+    DeleteVoiceMessageSpendLimitOverride (DeleteVoiceMessageSpendLimitOverride'),
     newDeleteVoiceMessageSpendLimitOverride,
-    DeleteVoiceMessageSpendLimitOverrideResponse,
+    DeleteVoiceMessageSpendLimitOverrideResponse (DeleteVoiceMessageSpendLimitOverrideResponse'),
     newDeleteVoiceMessageSpendLimitOverrideResponse,
 
     -- ** DescribeAccountAttributes (Paginated)
-    DescribeAccountAttributes,
+    DescribeAccountAttributes (DescribeAccountAttributes'),
     newDescribeAccountAttributes,
-    DescribeAccountAttributesResponse,
+    DescribeAccountAttributesResponse (DescribeAccountAttributesResponse'),
     newDescribeAccountAttributesResponse,
 
     -- ** DescribeAccountLimits (Paginated)
-    DescribeAccountLimits,
+    DescribeAccountLimits (DescribeAccountLimits'),
     newDescribeAccountLimits,
-    DescribeAccountLimitsResponse,
+    DescribeAccountLimitsResponse (DescribeAccountLimitsResponse'),
     newDescribeAccountLimitsResponse,
 
     -- ** DescribeConfigurationSets (Paginated)
-    DescribeConfigurationSets,
+    DescribeConfigurationSets (DescribeConfigurationSets'),
     newDescribeConfigurationSets,
-    DescribeConfigurationSetsResponse,
+    DescribeConfigurationSetsResponse (DescribeConfigurationSetsResponse'),
     newDescribeConfigurationSetsResponse,
 
     -- ** DescribeKeywords (Paginated)
-    DescribeKeywords,
+    DescribeKeywords (DescribeKeywords'),
     newDescribeKeywords,
-    DescribeKeywordsResponse,
+    DescribeKeywordsResponse (DescribeKeywordsResponse'),
     newDescribeKeywordsResponse,
 
     -- ** DescribeOptOutLists (Paginated)
-    DescribeOptOutLists,
+    DescribeOptOutLists (DescribeOptOutLists'),
     newDescribeOptOutLists,
-    DescribeOptOutListsResponse,
+    DescribeOptOutListsResponse (DescribeOptOutListsResponse'),
     newDescribeOptOutListsResponse,
 
     -- ** DescribeOptedOutNumbers (Paginated)
-    DescribeOptedOutNumbers,
+    DescribeOptedOutNumbers (DescribeOptedOutNumbers'),
     newDescribeOptedOutNumbers,
-    DescribeOptedOutNumbersResponse,
+    DescribeOptedOutNumbersResponse (DescribeOptedOutNumbersResponse'),
     newDescribeOptedOutNumbersResponse,
 
     -- ** DescribePhoneNumbers (Paginated)
-    DescribePhoneNumbers,
+    DescribePhoneNumbers (DescribePhoneNumbers'),
     newDescribePhoneNumbers,
-    DescribePhoneNumbersResponse,
+    DescribePhoneNumbersResponse (DescribePhoneNumbersResponse'),
     newDescribePhoneNumbersResponse,
 
     -- ** DescribePools (Paginated)
-    DescribePools,
+    DescribePools (DescribePools'),
     newDescribePools,
-    DescribePoolsResponse,
+    DescribePoolsResponse (DescribePoolsResponse'),
     newDescribePoolsResponse,
 
     -- ** DescribeSenderIds (Paginated)
-    DescribeSenderIds,
+    DescribeSenderIds (DescribeSenderIds'),
     newDescribeSenderIds,
-    DescribeSenderIdsResponse,
+    DescribeSenderIdsResponse (DescribeSenderIdsResponse'),
     newDescribeSenderIdsResponse,
 
     -- ** DescribeSpendLimits (Paginated)
-    DescribeSpendLimits,
+    DescribeSpendLimits (DescribeSpendLimits'),
     newDescribeSpendLimits,
-    DescribeSpendLimitsResponse,
+    DescribeSpendLimitsResponse (DescribeSpendLimitsResponse'),
     newDescribeSpendLimitsResponse,
 
     -- ** DisassociateOriginationIdentity
-    DisassociateOriginationIdentity,
+    DisassociateOriginationIdentity (DisassociateOriginationIdentity'),
     newDisassociateOriginationIdentity,
-    DisassociateOriginationIdentityResponse,
+    DisassociateOriginationIdentityResponse (DisassociateOriginationIdentityResponse'),
     newDisassociateOriginationIdentityResponse,
 
     -- ** ListPoolOriginationIdentities (Paginated)
-    ListPoolOriginationIdentities,
+    ListPoolOriginationIdentities (ListPoolOriginationIdentities'),
     newListPoolOriginationIdentities,
-    ListPoolOriginationIdentitiesResponse,
+    ListPoolOriginationIdentitiesResponse (ListPoolOriginationIdentitiesResponse'),
     newListPoolOriginationIdentitiesResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** PutKeyword
-    PutKeyword,
+    PutKeyword (PutKeyword'),
     newPutKeyword,
-    PutKeywordResponse,
+    PutKeywordResponse (PutKeywordResponse'),
     newPutKeywordResponse,
 
     -- ** PutOptedOutNumber
-    PutOptedOutNumber,
+    PutOptedOutNumber (PutOptedOutNumber'),
     newPutOptedOutNumber,
-    PutOptedOutNumberResponse,
+    PutOptedOutNumberResponse (PutOptedOutNumberResponse'),
     newPutOptedOutNumberResponse,
 
     -- ** ReleasePhoneNumber
-    ReleasePhoneNumber,
+    ReleasePhoneNumber (ReleasePhoneNumber'),
     newReleasePhoneNumber,
-    ReleasePhoneNumberResponse,
+    ReleasePhoneNumberResponse (ReleasePhoneNumberResponse'),
     newReleasePhoneNumberResponse,
 
     -- ** RequestPhoneNumber
-    RequestPhoneNumber,
+    RequestPhoneNumber (RequestPhoneNumber'),
     newRequestPhoneNumber,
-    RequestPhoneNumberResponse,
+    RequestPhoneNumberResponse (RequestPhoneNumberResponse'),
     newRequestPhoneNumberResponse,
 
     -- ** SendTextMessage
-    SendTextMessage,
+    SendTextMessage (SendTextMessage'),
     newSendTextMessage,
-    SendTextMessageResponse,
+    SendTextMessageResponse (SendTextMessageResponse'),
     newSendTextMessageResponse,
 
     -- ** SendVoiceMessage
-    SendVoiceMessage,
+    SendVoiceMessage (SendVoiceMessage'),
     newSendVoiceMessage,
-    SendVoiceMessageResponse,
+    SendVoiceMessageResponse (SendVoiceMessageResponse'),
     newSendVoiceMessageResponse,
 
     -- ** SetDefaultMessageType
-    SetDefaultMessageType,
+    SetDefaultMessageType (SetDefaultMessageType'),
     newSetDefaultMessageType,
-    SetDefaultMessageTypeResponse,
+    SetDefaultMessageTypeResponse (SetDefaultMessageTypeResponse'),
     newSetDefaultMessageTypeResponse,
 
     -- ** SetDefaultSenderId
-    SetDefaultSenderId,
+    SetDefaultSenderId (SetDefaultSenderId'),
     newSetDefaultSenderId,
-    SetDefaultSenderIdResponse,
+    SetDefaultSenderIdResponse (SetDefaultSenderIdResponse'),
     newSetDefaultSenderIdResponse,
 
     -- ** SetTextMessageSpendLimitOverride
-    SetTextMessageSpendLimitOverride,
+    SetTextMessageSpendLimitOverride (SetTextMessageSpendLimitOverride'),
     newSetTextMessageSpendLimitOverride,
-    SetTextMessageSpendLimitOverrideResponse,
+    SetTextMessageSpendLimitOverrideResponse (SetTextMessageSpendLimitOverrideResponse'),
     newSetTextMessageSpendLimitOverrideResponse,
 
     -- ** SetVoiceMessageSpendLimitOverride
-    SetVoiceMessageSpendLimitOverride,
+    SetVoiceMessageSpendLimitOverride (SetVoiceMessageSpendLimitOverride'),
     newSetVoiceMessageSpendLimitOverride,
-    SetVoiceMessageSpendLimitOverrideResponse,
+    SetVoiceMessageSpendLimitOverrideResponse (SetVoiceMessageSpendLimitOverrideResponse'),
     newSetVoiceMessageSpendLimitOverrideResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateEventDestination
-    UpdateEventDestination,
+    UpdateEventDestination (UpdateEventDestination'),
     newUpdateEventDestination,
-    UpdateEventDestinationResponse,
+    UpdateEventDestinationResponse (UpdateEventDestinationResponse'),
     newUpdateEventDestinationResponse,
 
     -- ** UpdatePhoneNumber
-    UpdatePhoneNumber,
+    UpdatePhoneNumber (UpdatePhoneNumber'),
     newUpdatePhoneNumber,
-    UpdatePhoneNumberResponse,
+    UpdatePhoneNumberResponse (UpdatePhoneNumberResponse'),
     newUpdatePhoneNumberResponse,
 
     -- ** UpdatePool
-    UpdatePool,
+    UpdatePool (UpdatePool'),
     newUpdatePool,
-    UpdatePoolResponse,
+    UpdatePoolResponse (UpdatePoolResponse'),
     newUpdatePoolResponse,
 
     -- * Types
@@ -388,99 +388,99 @@ module Amazonka.PinpointSmsVoiceV2
     VoiceMessageBodyTextType (..),
 
     -- ** AccountAttribute
-    AccountAttribute,
+    AccountAttribute (AccountAttribute'),
     newAccountAttribute,
 
     -- ** AccountLimit
-    AccountLimit,
+    AccountLimit (AccountLimit'),
     newAccountLimit,
 
     -- ** CloudWatchLogsDestination
-    CloudWatchLogsDestination,
+    CloudWatchLogsDestination (CloudWatchLogsDestination'),
     newCloudWatchLogsDestination,
 
     -- ** ConfigurationSetFilter
-    ConfigurationSetFilter,
+    ConfigurationSetFilter (ConfigurationSetFilter'),
     newConfigurationSetFilter,
 
     -- ** ConfigurationSetInformation
-    ConfigurationSetInformation,
+    ConfigurationSetInformation (ConfigurationSetInformation'),
     newConfigurationSetInformation,
 
     -- ** EventDestination
-    EventDestination,
+    EventDestination (EventDestination'),
     newEventDestination,
 
     -- ** KeywordFilter
-    KeywordFilter,
+    KeywordFilter (KeywordFilter'),
     newKeywordFilter,
 
     -- ** KeywordInformation
-    KeywordInformation,
+    KeywordInformation (KeywordInformation'),
     newKeywordInformation,
 
     -- ** KinesisFirehoseDestination
-    KinesisFirehoseDestination,
+    KinesisFirehoseDestination (KinesisFirehoseDestination'),
     newKinesisFirehoseDestination,
 
     -- ** OptOutListInformation
-    OptOutListInformation,
+    OptOutListInformation (OptOutListInformation'),
     newOptOutListInformation,
 
     -- ** OptedOutFilter
-    OptedOutFilter,
+    OptedOutFilter (OptedOutFilter'),
     newOptedOutFilter,
 
     -- ** OptedOutNumberInformation
-    OptedOutNumberInformation,
+    OptedOutNumberInformation (OptedOutNumberInformation'),
     newOptedOutNumberInformation,
 
     -- ** OriginationIdentityMetadata
-    OriginationIdentityMetadata,
+    OriginationIdentityMetadata (OriginationIdentityMetadata'),
     newOriginationIdentityMetadata,
 
     -- ** PhoneNumberFilter
-    PhoneNumberFilter,
+    PhoneNumberFilter (PhoneNumberFilter'),
     newPhoneNumberFilter,
 
     -- ** PhoneNumberInformation
-    PhoneNumberInformation,
+    PhoneNumberInformation (PhoneNumberInformation'),
     newPhoneNumberInformation,
 
     -- ** PoolFilter
-    PoolFilter,
+    PoolFilter (PoolFilter'),
     newPoolFilter,
 
     -- ** PoolInformation
-    PoolInformation,
+    PoolInformation (PoolInformation'),
     newPoolInformation,
 
     -- ** PoolOriginationIdentitiesFilter
-    PoolOriginationIdentitiesFilter,
+    PoolOriginationIdentitiesFilter (PoolOriginationIdentitiesFilter'),
     newPoolOriginationIdentitiesFilter,
 
     -- ** SenderIdAndCountry
-    SenderIdAndCountry,
+    SenderIdAndCountry (SenderIdAndCountry'),
     newSenderIdAndCountry,
 
     -- ** SenderIdFilter
-    SenderIdFilter,
+    SenderIdFilter (SenderIdFilter'),
     newSenderIdFilter,
 
     -- ** SenderIdInformation
-    SenderIdInformation,
+    SenderIdInformation (SenderIdInformation'),
     newSenderIdInformation,
 
     -- ** SnsDestination
-    SnsDestination,
+    SnsDestination (SnsDestination'),
     newSnsDestination,
 
     -- ** SpendLimit
-    SpendLimit,
+    SpendLimit (SpendLimit'),
     newSpendLimit,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
   )
 where

@@ -88,141 +88,141 @@ module Amazonka.AppFlow
     -- $operations
 
     -- ** CreateConnectorProfile
-    CreateConnectorProfile,
+    CreateConnectorProfile (CreateConnectorProfile'),
     newCreateConnectorProfile,
-    CreateConnectorProfileResponse,
+    CreateConnectorProfileResponse (CreateConnectorProfileResponse'),
     newCreateConnectorProfileResponse,
 
     -- ** CreateFlow
-    CreateFlow,
+    CreateFlow (CreateFlow'),
     newCreateFlow,
-    CreateFlowResponse,
+    CreateFlowResponse (CreateFlowResponse'),
     newCreateFlowResponse,
 
     -- ** DeleteConnectorProfile
-    DeleteConnectorProfile,
+    DeleteConnectorProfile (DeleteConnectorProfile'),
     newDeleteConnectorProfile,
-    DeleteConnectorProfileResponse,
+    DeleteConnectorProfileResponse (DeleteConnectorProfileResponse'),
     newDeleteConnectorProfileResponse,
 
     -- ** DeleteFlow
-    DeleteFlow,
+    DeleteFlow (DeleteFlow'),
     newDeleteFlow,
-    DeleteFlowResponse,
+    DeleteFlowResponse (DeleteFlowResponse'),
     newDeleteFlowResponse,
 
     -- ** DescribeConnector
-    DescribeConnector,
+    DescribeConnector (DescribeConnector'),
     newDescribeConnector,
-    DescribeConnectorResponse,
+    DescribeConnectorResponse (DescribeConnectorResponse'),
     newDescribeConnectorResponse,
 
     -- ** DescribeConnectorEntity
-    DescribeConnectorEntity,
+    DescribeConnectorEntity (DescribeConnectorEntity'),
     newDescribeConnectorEntity,
-    DescribeConnectorEntityResponse,
+    DescribeConnectorEntityResponse (DescribeConnectorEntityResponse'),
     newDescribeConnectorEntityResponse,
 
     -- ** DescribeConnectorProfiles
-    DescribeConnectorProfiles,
+    DescribeConnectorProfiles (DescribeConnectorProfiles'),
     newDescribeConnectorProfiles,
-    DescribeConnectorProfilesResponse,
+    DescribeConnectorProfilesResponse (DescribeConnectorProfilesResponse'),
     newDescribeConnectorProfilesResponse,
 
     -- ** DescribeConnectors
-    DescribeConnectors,
+    DescribeConnectors (DescribeConnectors'),
     newDescribeConnectors,
-    DescribeConnectorsResponse,
+    DescribeConnectorsResponse (DescribeConnectorsResponse'),
     newDescribeConnectorsResponse,
 
     -- ** DescribeFlow
-    DescribeFlow,
+    DescribeFlow (DescribeFlow'),
     newDescribeFlow,
-    DescribeFlowResponse,
+    DescribeFlowResponse (DescribeFlowResponse'),
     newDescribeFlowResponse,
 
     -- ** DescribeFlowExecutionRecords
-    DescribeFlowExecutionRecords,
+    DescribeFlowExecutionRecords (DescribeFlowExecutionRecords'),
     newDescribeFlowExecutionRecords,
-    DescribeFlowExecutionRecordsResponse,
+    DescribeFlowExecutionRecordsResponse (DescribeFlowExecutionRecordsResponse'),
     newDescribeFlowExecutionRecordsResponse,
 
     -- ** ListConnectorEntities
-    ListConnectorEntities,
+    ListConnectorEntities (ListConnectorEntities'),
     newListConnectorEntities,
-    ListConnectorEntitiesResponse,
+    ListConnectorEntitiesResponse (ListConnectorEntitiesResponse'),
     newListConnectorEntitiesResponse,
 
     -- ** ListConnectors
-    ListConnectors,
+    ListConnectors (ListConnectors'),
     newListConnectors,
-    ListConnectorsResponse,
+    ListConnectorsResponse (ListConnectorsResponse'),
     newListConnectorsResponse,
 
     -- ** ListFlows
-    ListFlows,
+    ListFlows (ListFlows'),
     newListFlows,
-    ListFlowsResponse,
+    ListFlowsResponse (ListFlowsResponse'),
     newListFlowsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** RegisterConnector
-    RegisterConnector,
+    RegisterConnector (RegisterConnector'),
     newRegisterConnector,
-    RegisterConnectorResponse,
+    RegisterConnectorResponse (RegisterConnectorResponse'),
     newRegisterConnectorResponse,
 
     -- ** StartFlow
-    StartFlow,
+    StartFlow (StartFlow'),
     newStartFlow,
-    StartFlowResponse,
+    StartFlowResponse (StartFlowResponse'),
     newStartFlowResponse,
 
     -- ** StopFlow
-    StopFlow,
+    StopFlow (StopFlow'),
     newStopFlow,
-    StopFlowResponse,
+    StopFlowResponse (StopFlowResponse'),
     newStopFlowResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UnregisterConnector
-    UnregisterConnector,
+    UnregisterConnector (UnregisterConnector'),
     newUnregisterConnector,
-    UnregisterConnectorResponse,
+    UnregisterConnectorResponse (UnregisterConnectorResponse'),
     newUnregisterConnectorResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateConnectorProfile
-    UpdateConnectorProfile,
+    UpdateConnectorProfile (UpdateConnectorProfile'),
     newUpdateConnectorProfile,
-    UpdateConnectorProfileResponse,
+    UpdateConnectorProfileResponse (UpdateConnectorProfileResponse'),
     newUpdateConnectorProfileResponse,
 
     -- ** UpdateConnectorRegistration
-    UpdateConnectorRegistration,
+    UpdateConnectorRegistration (UpdateConnectorRegistration'),
     newUpdateConnectorRegistration,
-    UpdateConnectorRegistrationResponse,
+    UpdateConnectorRegistrationResponse (UpdateConnectorRegistrationResponse'),
     newUpdateConnectorRegistrationResponse,
 
     -- ** UpdateFlow
-    UpdateFlow,
+    UpdateFlow (UpdateFlow'),
     newUpdateFlow,
-    UpdateFlowResponse,
+    UpdateFlowResponse (UpdateFlowResponse'),
     newUpdateFlowResponse,
 
     -- * Types
@@ -351,575 +351,575 @@ module Amazonka.AppFlow
     ZendeskConnectorOperator (..),
 
     -- ** AggregationConfig
-    AggregationConfig,
+    AggregationConfig (AggregationConfig'),
     newAggregationConfig,
 
     -- ** AmplitudeConnectorProfileCredentials
-    AmplitudeConnectorProfileCredentials,
+    AmplitudeConnectorProfileCredentials (AmplitudeConnectorProfileCredentials'),
     newAmplitudeConnectorProfileCredentials,
 
     -- ** AmplitudeConnectorProfileProperties
-    AmplitudeConnectorProfileProperties,
+    AmplitudeConnectorProfileProperties (AmplitudeConnectorProfileProperties'),
     newAmplitudeConnectorProfileProperties,
 
     -- ** AmplitudeMetadata
-    AmplitudeMetadata,
+    AmplitudeMetadata (AmplitudeMetadata'),
     newAmplitudeMetadata,
 
     -- ** AmplitudeSourceProperties
-    AmplitudeSourceProperties,
+    AmplitudeSourceProperties (AmplitudeSourceProperties'),
     newAmplitudeSourceProperties,
 
     -- ** ApiKeyCredentials
-    ApiKeyCredentials,
+    ApiKeyCredentials (ApiKeyCredentials'),
     newApiKeyCredentials,
 
     -- ** AuthParameter
-    AuthParameter,
+    AuthParameter (AuthParameter'),
     newAuthParameter,
 
     -- ** AuthenticationConfig
-    AuthenticationConfig,
+    AuthenticationConfig (AuthenticationConfig'),
     newAuthenticationConfig,
 
     -- ** BasicAuthCredentials
-    BasicAuthCredentials,
+    BasicAuthCredentials (BasicAuthCredentials'),
     newBasicAuthCredentials,
 
     -- ** ConnectorConfiguration
-    ConnectorConfiguration,
+    ConnectorConfiguration (ConnectorConfiguration'),
     newConnectorConfiguration,
 
     -- ** ConnectorDetail
-    ConnectorDetail,
+    ConnectorDetail (ConnectorDetail'),
     newConnectorDetail,
 
     -- ** ConnectorEntity
-    ConnectorEntity,
+    ConnectorEntity (ConnectorEntity'),
     newConnectorEntity,
 
     -- ** ConnectorEntityField
-    ConnectorEntityField,
+    ConnectorEntityField (ConnectorEntityField'),
     newConnectorEntityField,
 
     -- ** ConnectorMetadata
-    ConnectorMetadata,
+    ConnectorMetadata (ConnectorMetadata'),
     newConnectorMetadata,
 
     -- ** ConnectorOAuthRequest
-    ConnectorOAuthRequest,
+    ConnectorOAuthRequest (ConnectorOAuthRequest'),
     newConnectorOAuthRequest,
 
     -- ** ConnectorOperator
-    ConnectorOperator,
+    ConnectorOperator (ConnectorOperator'),
     newConnectorOperator,
 
     -- ** ConnectorProfile
-    ConnectorProfile,
+    ConnectorProfile (ConnectorProfile'),
     newConnectorProfile,
 
     -- ** ConnectorProfileConfig
-    ConnectorProfileConfig,
+    ConnectorProfileConfig (ConnectorProfileConfig'),
     newConnectorProfileConfig,
 
     -- ** ConnectorProfileCredentials
-    ConnectorProfileCredentials,
+    ConnectorProfileCredentials (ConnectorProfileCredentials'),
     newConnectorProfileCredentials,
 
     -- ** ConnectorProfileProperties
-    ConnectorProfileProperties,
+    ConnectorProfileProperties (ConnectorProfileProperties'),
     newConnectorProfileProperties,
 
     -- ** ConnectorProvisioningConfig
-    ConnectorProvisioningConfig,
+    ConnectorProvisioningConfig (ConnectorProvisioningConfig'),
     newConnectorProvisioningConfig,
 
     -- ** ConnectorRuntimeSetting
-    ConnectorRuntimeSetting,
+    ConnectorRuntimeSetting (ConnectorRuntimeSetting'),
     newConnectorRuntimeSetting,
 
     -- ** CustomAuthConfig
-    CustomAuthConfig,
+    CustomAuthConfig (CustomAuthConfig'),
     newCustomAuthConfig,
 
     -- ** CustomAuthCredentials
-    CustomAuthCredentials,
+    CustomAuthCredentials (CustomAuthCredentials'),
     newCustomAuthCredentials,
 
     -- ** CustomConnectorDestinationProperties
-    CustomConnectorDestinationProperties,
+    CustomConnectorDestinationProperties (CustomConnectorDestinationProperties'),
     newCustomConnectorDestinationProperties,
 
     -- ** CustomConnectorProfileCredentials
-    CustomConnectorProfileCredentials,
+    CustomConnectorProfileCredentials (CustomConnectorProfileCredentials'),
     newCustomConnectorProfileCredentials,
 
     -- ** CustomConnectorProfileProperties
-    CustomConnectorProfileProperties,
+    CustomConnectorProfileProperties (CustomConnectorProfileProperties'),
     newCustomConnectorProfileProperties,
 
     -- ** CustomConnectorSourceProperties
-    CustomConnectorSourceProperties,
+    CustomConnectorSourceProperties (CustomConnectorSourceProperties'),
     newCustomConnectorSourceProperties,
 
     -- ** CustomerProfilesDestinationProperties
-    CustomerProfilesDestinationProperties,
+    CustomerProfilesDestinationProperties (CustomerProfilesDestinationProperties'),
     newCustomerProfilesDestinationProperties,
 
     -- ** CustomerProfilesMetadata
-    CustomerProfilesMetadata,
+    CustomerProfilesMetadata (CustomerProfilesMetadata'),
     newCustomerProfilesMetadata,
 
     -- ** DatadogConnectorProfileCredentials
-    DatadogConnectorProfileCredentials,
+    DatadogConnectorProfileCredentials (DatadogConnectorProfileCredentials'),
     newDatadogConnectorProfileCredentials,
 
     -- ** DatadogConnectorProfileProperties
-    DatadogConnectorProfileProperties,
+    DatadogConnectorProfileProperties (DatadogConnectorProfileProperties'),
     newDatadogConnectorProfileProperties,
 
     -- ** DatadogMetadata
-    DatadogMetadata,
+    DatadogMetadata (DatadogMetadata'),
     newDatadogMetadata,
 
     -- ** DatadogSourceProperties
-    DatadogSourceProperties,
+    DatadogSourceProperties (DatadogSourceProperties'),
     newDatadogSourceProperties,
 
     -- ** DestinationConnectorProperties
-    DestinationConnectorProperties,
+    DestinationConnectorProperties (DestinationConnectorProperties'),
     newDestinationConnectorProperties,
 
     -- ** DestinationFieldProperties
-    DestinationFieldProperties,
+    DestinationFieldProperties (DestinationFieldProperties'),
     newDestinationFieldProperties,
 
     -- ** DestinationFlowConfig
-    DestinationFlowConfig,
+    DestinationFlowConfig (DestinationFlowConfig'),
     newDestinationFlowConfig,
 
     -- ** DynatraceConnectorProfileCredentials
-    DynatraceConnectorProfileCredentials,
+    DynatraceConnectorProfileCredentials (DynatraceConnectorProfileCredentials'),
     newDynatraceConnectorProfileCredentials,
 
     -- ** DynatraceConnectorProfileProperties
-    DynatraceConnectorProfileProperties,
+    DynatraceConnectorProfileProperties (DynatraceConnectorProfileProperties'),
     newDynatraceConnectorProfileProperties,
 
     -- ** DynatraceMetadata
-    DynatraceMetadata,
+    DynatraceMetadata (DynatraceMetadata'),
     newDynatraceMetadata,
 
     -- ** DynatraceSourceProperties
-    DynatraceSourceProperties,
+    DynatraceSourceProperties (DynatraceSourceProperties'),
     newDynatraceSourceProperties,
 
     -- ** ErrorHandlingConfig
-    ErrorHandlingConfig,
+    ErrorHandlingConfig (ErrorHandlingConfig'),
     newErrorHandlingConfig,
 
     -- ** ErrorInfo
-    ErrorInfo,
+    ErrorInfo (ErrorInfo'),
     newErrorInfo,
 
     -- ** EventBridgeDestinationProperties
-    EventBridgeDestinationProperties,
+    EventBridgeDestinationProperties (EventBridgeDestinationProperties'),
     newEventBridgeDestinationProperties,
 
     -- ** EventBridgeMetadata
-    EventBridgeMetadata,
+    EventBridgeMetadata (EventBridgeMetadata'),
     newEventBridgeMetadata,
 
     -- ** ExecutionDetails
-    ExecutionDetails,
+    ExecutionDetails (ExecutionDetails'),
     newExecutionDetails,
 
     -- ** ExecutionRecord
-    ExecutionRecord,
+    ExecutionRecord (ExecutionRecord'),
     newExecutionRecord,
 
     -- ** ExecutionResult
-    ExecutionResult,
+    ExecutionResult (ExecutionResult'),
     newExecutionResult,
 
     -- ** FieldTypeDetails
-    FieldTypeDetails,
+    FieldTypeDetails (FieldTypeDetails'),
     newFieldTypeDetails,
 
     -- ** FlowDefinition
-    FlowDefinition,
+    FlowDefinition (FlowDefinition'),
     newFlowDefinition,
 
     -- ** GlueDataCatalogConfig
-    GlueDataCatalogConfig,
+    GlueDataCatalogConfig (GlueDataCatalogConfig'),
     newGlueDataCatalogConfig,
 
     -- ** GoogleAnalyticsConnectorProfileCredentials
-    GoogleAnalyticsConnectorProfileCredentials,
+    GoogleAnalyticsConnectorProfileCredentials (GoogleAnalyticsConnectorProfileCredentials'),
     newGoogleAnalyticsConnectorProfileCredentials,
 
     -- ** GoogleAnalyticsConnectorProfileProperties
-    GoogleAnalyticsConnectorProfileProperties,
+    GoogleAnalyticsConnectorProfileProperties (GoogleAnalyticsConnectorProfileProperties'),
     newGoogleAnalyticsConnectorProfileProperties,
 
     -- ** GoogleAnalyticsMetadata
-    GoogleAnalyticsMetadata,
+    GoogleAnalyticsMetadata (GoogleAnalyticsMetadata'),
     newGoogleAnalyticsMetadata,
 
     -- ** GoogleAnalyticsSourceProperties
-    GoogleAnalyticsSourceProperties,
+    GoogleAnalyticsSourceProperties (GoogleAnalyticsSourceProperties'),
     newGoogleAnalyticsSourceProperties,
 
     -- ** HoneycodeConnectorProfileCredentials
-    HoneycodeConnectorProfileCredentials,
+    HoneycodeConnectorProfileCredentials (HoneycodeConnectorProfileCredentials'),
     newHoneycodeConnectorProfileCredentials,
 
     -- ** HoneycodeConnectorProfileProperties
-    HoneycodeConnectorProfileProperties,
+    HoneycodeConnectorProfileProperties (HoneycodeConnectorProfileProperties'),
     newHoneycodeConnectorProfileProperties,
 
     -- ** HoneycodeDestinationProperties
-    HoneycodeDestinationProperties,
+    HoneycodeDestinationProperties (HoneycodeDestinationProperties'),
     newHoneycodeDestinationProperties,
 
     -- ** HoneycodeMetadata
-    HoneycodeMetadata,
+    HoneycodeMetadata (HoneycodeMetadata'),
     newHoneycodeMetadata,
 
     -- ** IncrementalPullConfig
-    IncrementalPullConfig,
+    IncrementalPullConfig (IncrementalPullConfig'),
     newIncrementalPullConfig,
 
     -- ** InforNexusConnectorProfileCredentials
-    InforNexusConnectorProfileCredentials,
+    InforNexusConnectorProfileCredentials (InforNexusConnectorProfileCredentials'),
     newInforNexusConnectorProfileCredentials,
 
     -- ** InforNexusConnectorProfileProperties
-    InforNexusConnectorProfileProperties,
+    InforNexusConnectorProfileProperties (InforNexusConnectorProfileProperties'),
     newInforNexusConnectorProfileProperties,
 
     -- ** InforNexusMetadata
-    InforNexusMetadata,
+    InforNexusMetadata (InforNexusMetadata'),
     newInforNexusMetadata,
 
     -- ** InforNexusSourceProperties
-    InforNexusSourceProperties,
+    InforNexusSourceProperties (InforNexusSourceProperties'),
     newInforNexusSourceProperties,
 
     -- ** LambdaConnectorProvisioningConfig
-    LambdaConnectorProvisioningConfig,
+    LambdaConnectorProvisioningConfig (LambdaConnectorProvisioningConfig'),
     newLambdaConnectorProvisioningConfig,
 
     -- ** LookoutMetricsDestinationProperties
-    LookoutMetricsDestinationProperties,
+    LookoutMetricsDestinationProperties (LookoutMetricsDestinationProperties'),
     newLookoutMetricsDestinationProperties,
 
     -- ** MarketoConnectorProfileCredentials
-    MarketoConnectorProfileCredentials,
+    MarketoConnectorProfileCredentials (MarketoConnectorProfileCredentials'),
     newMarketoConnectorProfileCredentials,
 
     -- ** MarketoConnectorProfileProperties
-    MarketoConnectorProfileProperties,
+    MarketoConnectorProfileProperties (MarketoConnectorProfileProperties'),
     newMarketoConnectorProfileProperties,
 
     -- ** MarketoDestinationProperties
-    MarketoDestinationProperties,
+    MarketoDestinationProperties (MarketoDestinationProperties'),
     newMarketoDestinationProperties,
 
     -- ** MarketoMetadata
-    MarketoMetadata,
+    MarketoMetadata (MarketoMetadata'),
     newMarketoMetadata,
 
     -- ** MarketoSourceProperties
-    MarketoSourceProperties,
+    MarketoSourceProperties (MarketoSourceProperties'),
     newMarketoSourceProperties,
 
     -- ** MetadataCatalogConfig
-    MetadataCatalogConfig,
+    MetadataCatalogConfig (MetadataCatalogConfig'),
     newMetadataCatalogConfig,
 
     -- ** MetadataCatalogDetail
-    MetadataCatalogDetail,
+    MetadataCatalogDetail (MetadataCatalogDetail'),
     newMetadataCatalogDetail,
 
     -- ** OAuth2Credentials
-    OAuth2Credentials,
+    OAuth2Credentials (OAuth2Credentials'),
     newOAuth2Credentials,
 
     -- ** OAuth2CustomParameter
-    OAuth2CustomParameter,
+    OAuth2CustomParameter (OAuth2CustomParameter'),
     newOAuth2CustomParameter,
 
     -- ** OAuth2Defaults
-    OAuth2Defaults,
+    OAuth2Defaults (OAuth2Defaults'),
     newOAuth2Defaults,
 
     -- ** OAuth2Properties
-    OAuth2Properties,
+    OAuth2Properties (OAuth2Properties'),
     newOAuth2Properties,
 
     -- ** OAuthCredentials
-    OAuthCredentials,
+    OAuthCredentials (OAuthCredentials'),
     newOAuthCredentials,
 
     -- ** OAuthProperties
-    OAuthProperties,
+    OAuthProperties (OAuthProperties'),
     newOAuthProperties,
 
     -- ** PrefixConfig
-    PrefixConfig,
+    PrefixConfig (PrefixConfig'),
     newPrefixConfig,
 
     -- ** PrivateConnectionProvisioningState
-    PrivateConnectionProvisioningState,
+    PrivateConnectionProvisioningState (PrivateConnectionProvisioningState'),
     newPrivateConnectionProvisioningState,
 
     -- ** Range
-    Range,
+    Range (Range'),
     newRange,
 
     -- ** RedshiftConnectorProfileCredentials
-    RedshiftConnectorProfileCredentials,
+    RedshiftConnectorProfileCredentials (RedshiftConnectorProfileCredentials'),
     newRedshiftConnectorProfileCredentials,
 
     -- ** RedshiftConnectorProfileProperties
-    RedshiftConnectorProfileProperties,
+    RedshiftConnectorProfileProperties (RedshiftConnectorProfileProperties'),
     newRedshiftConnectorProfileProperties,
 
     -- ** RedshiftDestinationProperties
-    RedshiftDestinationProperties,
+    RedshiftDestinationProperties (RedshiftDestinationProperties'),
     newRedshiftDestinationProperties,
 
     -- ** RedshiftMetadata
-    RedshiftMetadata,
+    RedshiftMetadata (RedshiftMetadata'),
     newRedshiftMetadata,
 
     -- ** RegistrationOutput
-    RegistrationOutput,
+    RegistrationOutput (RegistrationOutput'),
     newRegistrationOutput,
 
     -- ** S3DestinationProperties
-    S3DestinationProperties,
+    S3DestinationProperties (S3DestinationProperties'),
     newS3DestinationProperties,
 
     -- ** S3InputFormatConfig
-    S3InputFormatConfig,
+    S3InputFormatConfig (S3InputFormatConfig'),
     newS3InputFormatConfig,
 
     -- ** S3Metadata
-    S3Metadata,
+    S3Metadata (S3Metadata'),
     newS3Metadata,
 
     -- ** S3OutputFormatConfig
-    S3OutputFormatConfig,
+    S3OutputFormatConfig (S3OutputFormatConfig'),
     newS3OutputFormatConfig,
 
     -- ** S3SourceProperties
-    S3SourceProperties,
+    S3SourceProperties (S3SourceProperties'),
     newS3SourceProperties,
 
     -- ** SAPODataConnectorProfileCredentials
-    SAPODataConnectorProfileCredentials,
+    SAPODataConnectorProfileCredentials (SAPODataConnectorProfileCredentials'),
     newSAPODataConnectorProfileCredentials,
 
     -- ** SAPODataConnectorProfileProperties
-    SAPODataConnectorProfileProperties,
+    SAPODataConnectorProfileProperties (SAPODataConnectorProfileProperties'),
     newSAPODataConnectorProfileProperties,
 
     -- ** SAPODataDestinationProperties
-    SAPODataDestinationProperties,
+    SAPODataDestinationProperties (SAPODataDestinationProperties'),
     newSAPODataDestinationProperties,
 
     -- ** SAPODataMetadata
-    SAPODataMetadata,
+    SAPODataMetadata (SAPODataMetadata'),
     newSAPODataMetadata,
 
     -- ** SAPODataSourceProperties
-    SAPODataSourceProperties,
+    SAPODataSourceProperties (SAPODataSourceProperties'),
     newSAPODataSourceProperties,
 
     -- ** SalesforceConnectorProfileCredentials
-    SalesforceConnectorProfileCredentials,
+    SalesforceConnectorProfileCredentials (SalesforceConnectorProfileCredentials'),
     newSalesforceConnectorProfileCredentials,
 
     -- ** SalesforceConnectorProfileProperties
-    SalesforceConnectorProfileProperties,
+    SalesforceConnectorProfileProperties (SalesforceConnectorProfileProperties'),
     newSalesforceConnectorProfileProperties,
 
     -- ** SalesforceDestinationProperties
-    SalesforceDestinationProperties,
+    SalesforceDestinationProperties (SalesforceDestinationProperties'),
     newSalesforceDestinationProperties,
 
     -- ** SalesforceMetadata
-    SalesforceMetadata,
+    SalesforceMetadata (SalesforceMetadata'),
     newSalesforceMetadata,
 
     -- ** SalesforceSourceProperties
-    SalesforceSourceProperties,
+    SalesforceSourceProperties (SalesforceSourceProperties'),
     newSalesforceSourceProperties,
 
     -- ** ScheduledTriggerProperties
-    ScheduledTriggerProperties,
+    ScheduledTriggerProperties (ScheduledTriggerProperties'),
     newScheduledTriggerProperties,
 
     -- ** ServiceNowConnectorProfileCredentials
-    ServiceNowConnectorProfileCredentials,
+    ServiceNowConnectorProfileCredentials (ServiceNowConnectorProfileCredentials'),
     newServiceNowConnectorProfileCredentials,
 
     -- ** ServiceNowConnectorProfileProperties
-    ServiceNowConnectorProfileProperties,
+    ServiceNowConnectorProfileProperties (ServiceNowConnectorProfileProperties'),
     newServiceNowConnectorProfileProperties,
 
     -- ** ServiceNowMetadata
-    ServiceNowMetadata,
+    ServiceNowMetadata (ServiceNowMetadata'),
     newServiceNowMetadata,
 
     -- ** ServiceNowSourceProperties
-    ServiceNowSourceProperties,
+    ServiceNowSourceProperties (ServiceNowSourceProperties'),
     newServiceNowSourceProperties,
 
     -- ** SingularConnectorProfileCredentials
-    SingularConnectorProfileCredentials,
+    SingularConnectorProfileCredentials (SingularConnectorProfileCredentials'),
     newSingularConnectorProfileCredentials,
 
     -- ** SingularConnectorProfileProperties
-    SingularConnectorProfileProperties,
+    SingularConnectorProfileProperties (SingularConnectorProfileProperties'),
     newSingularConnectorProfileProperties,
 
     -- ** SingularMetadata
-    SingularMetadata,
+    SingularMetadata (SingularMetadata'),
     newSingularMetadata,
 
     -- ** SingularSourceProperties
-    SingularSourceProperties,
+    SingularSourceProperties (SingularSourceProperties'),
     newSingularSourceProperties,
 
     -- ** SlackConnectorProfileCredentials
-    SlackConnectorProfileCredentials,
+    SlackConnectorProfileCredentials (SlackConnectorProfileCredentials'),
     newSlackConnectorProfileCredentials,
 
     -- ** SlackConnectorProfileProperties
-    SlackConnectorProfileProperties,
+    SlackConnectorProfileProperties (SlackConnectorProfileProperties'),
     newSlackConnectorProfileProperties,
 
     -- ** SlackMetadata
-    SlackMetadata,
+    SlackMetadata (SlackMetadata'),
     newSlackMetadata,
 
     -- ** SlackSourceProperties
-    SlackSourceProperties,
+    SlackSourceProperties (SlackSourceProperties'),
     newSlackSourceProperties,
 
     -- ** SnowflakeConnectorProfileCredentials
-    SnowflakeConnectorProfileCredentials,
+    SnowflakeConnectorProfileCredentials (SnowflakeConnectorProfileCredentials'),
     newSnowflakeConnectorProfileCredentials,
 
     -- ** SnowflakeConnectorProfileProperties
-    SnowflakeConnectorProfileProperties,
+    SnowflakeConnectorProfileProperties (SnowflakeConnectorProfileProperties'),
     newSnowflakeConnectorProfileProperties,
 
     -- ** SnowflakeDestinationProperties
-    SnowflakeDestinationProperties,
+    SnowflakeDestinationProperties (SnowflakeDestinationProperties'),
     newSnowflakeDestinationProperties,
 
     -- ** SnowflakeMetadata
-    SnowflakeMetadata,
+    SnowflakeMetadata (SnowflakeMetadata'),
     newSnowflakeMetadata,
 
     -- ** SourceConnectorProperties
-    SourceConnectorProperties,
+    SourceConnectorProperties (SourceConnectorProperties'),
     newSourceConnectorProperties,
 
     -- ** SourceFieldProperties
-    SourceFieldProperties,
+    SourceFieldProperties (SourceFieldProperties'),
     newSourceFieldProperties,
 
     -- ** SourceFlowConfig
-    SourceFlowConfig,
+    SourceFlowConfig (SourceFlowConfig'),
     newSourceFlowConfig,
 
     -- ** SuccessResponseHandlingConfig
-    SuccessResponseHandlingConfig,
+    SuccessResponseHandlingConfig (SuccessResponseHandlingConfig'),
     newSuccessResponseHandlingConfig,
 
     -- ** SupportedFieldTypeDetails
-    SupportedFieldTypeDetails,
+    SupportedFieldTypeDetails (SupportedFieldTypeDetails'),
     newSupportedFieldTypeDetails,
 
     -- ** Task
-    Task,
+    Task (Task'),
     newTask,
 
     -- ** TrendmicroConnectorProfileCredentials
-    TrendmicroConnectorProfileCredentials,
+    TrendmicroConnectorProfileCredentials (TrendmicroConnectorProfileCredentials'),
     newTrendmicroConnectorProfileCredentials,
 
     -- ** TrendmicroConnectorProfileProperties
-    TrendmicroConnectorProfileProperties,
+    TrendmicroConnectorProfileProperties (TrendmicroConnectorProfileProperties'),
     newTrendmicroConnectorProfileProperties,
 
     -- ** TrendmicroMetadata
-    TrendmicroMetadata,
+    TrendmicroMetadata (TrendmicroMetadata'),
     newTrendmicroMetadata,
 
     -- ** TrendmicroSourceProperties
-    TrendmicroSourceProperties,
+    TrendmicroSourceProperties (TrendmicroSourceProperties'),
     newTrendmicroSourceProperties,
 
     -- ** TriggerConfig
-    TriggerConfig,
+    TriggerConfig (TriggerConfig'),
     newTriggerConfig,
 
     -- ** TriggerProperties
-    TriggerProperties,
+    TriggerProperties (TriggerProperties'),
     newTriggerProperties,
 
     -- ** UpsolverDestinationProperties
-    UpsolverDestinationProperties,
+    UpsolverDestinationProperties (UpsolverDestinationProperties'),
     newUpsolverDestinationProperties,
 
     -- ** UpsolverMetadata
-    UpsolverMetadata,
+    UpsolverMetadata (UpsolverMetadata'),
     newUpsolverMetadata,
 
     -- ** UpsolverS3OutputFormatConfig
-    UpsolverS3OutputFormatConfig,
+    UpsolverS3OutputFormatConfig (UpsolverS3OutputFormatConfig'),
     newUpsolverS3OutputFormatConfig,
 
     -- ** VeevaConnectorProfileCredentials
-    VeevaConnectorProfileCredentials,
+    VeevaConnectorProfileCredentials (VeevaConnectorProfileCredentials'),
     newVeevaConnectorProfileCredentials,
 
     -- ** VeevaConnectorProfileProperties
-    VeevaConnectorProfileProperties,
+    VeevaConnectorProfileProperties (VeevaConnectorProfileProperties'),
     newVeevaConnectorProfileProperties,
 
     -- ** VeevaMetadata
-    VeevaMetadata,
+    VeevaMetadata (VeevaMetadata'),
     newVeevaMetadata,
 
     -- ** VeevaSourceProperties
-    VeevaSourceProperties,
+    VeevaSourceProperties (VeevaSourceProperties'),
     newVeevaSourceProperties,
 
     -- ** ZendeskConnectorProfileCredentials
-    ZendeskConnectorProfileCredentials,
+    ZendeskConnectorProfileCredentials (ZendeskConnectorProfileCredentials'),
     newZendeskConnectorProfileCredentials,
 
     -- ** ZendeskConnectorProfileProperties
-    ZendeskConnectorProfileProperties,
+    ZendeskConnectorProfileProperties (ZendeskConnectorProfileProperties'),
     newZendeskConnectorProfileProperties,
 
     -- ** ZendeskDestinationProperties
-    ZendeskDestinationProperties,
+    ZendeskDestinationProperties (ZendeskDestinationProperties'),
     newZendeskDestinationProperties,
 
     -- ** ZendeskMetadata
-    ZendeskMetadata,
+    ZendeskMetadata (ZendeskMetadata'),
     newZendeskMetadata,
 
     -- ** ZendeskSourceProperties
-    ZendeskSourceProperties,
+    ZendeskSourceProperties (ZendeskSourceProperties'),
     newZendeskSourceProperties,
   )
 where

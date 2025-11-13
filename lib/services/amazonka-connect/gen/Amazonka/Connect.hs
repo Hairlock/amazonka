@@ -105,1017 +105,1017 @@ module Amazonka.Connect
     -- $operations
 
     -- ** AssociateApprovedOrigin
-    AssociateApprovedOrigin,
+    AssociateApprovedOrigin (AssociateApprovedOrigin'),
     newAssociateApprovedOrigin,
-    AssociateApprovedOriginResponse,
+    AssociateApprovedOriginResponse (AssociateApprovedOriginResponse'),
     newAssociateApprovedOriginResponse,
 
     -- ** AssociateBot
-    AssociateBot,
+    AssociateBot (AssociateBot'),
     newAssociateBot,
-    AssociateBotResponse,
+    AssociateBotResponse (AssociateBotResponse'),
     newAssociateBotResponse,
 
     -- ** AssociateDefaultVocabulary
-    AssociateDefaultVocabulary,
+    AssociateDefaultVocabulary (AssociateDefaultVocabulary'),
     newAssociateDefaultVocabulary,
-    AssociateDefaultVocabularyResponse,
+    AssociateDefaultVocabularyResponse (AssociateDefaultVocabularyResponse'),
     newAssociateDefaultVocabularyResponse,
 
     -- ** AssociateInstanceStorageConfig
-    AssociateInstanceStorageConfig,
+    AssociateInstanceStorageConfig (AssociateInstanceStorageConfig'),
     newAssociateInstanceStorageConfig,
-    AssociateInstanceStorageConfigResponse,
+    AssociateInstanceStorageConfigResponse (AssociateInstanceStorageConfigResponse'),
     newAssociateInstanceStorageConfigResponse,
 
     -- ** AssociateLambdaFunction
-    AssociateLambdaFunction,
+    AssociateLambdaFunction (AssociateLambdaFunction'),
     newAssociateLambdaFunction,
-    AssociateLambdaFunctionResponse,
+    AssociateLambdaFunctionResponse (AssociateLambdaFunctionResponse'),
     newAssociateLambdaFunctionResponse,
 
     -- ** AssociateLexBot
-    AssociateLexBot,
+    AssociateLexBot (AssociateLexBot'),
     newAssociateLexBot,
-    AssociateLexBotResponse,
+    AssociateLexBotResponse (AssociateLexBotResponse'),
     newAssociateLexBotResponse,
 
     -- ** AssociatePhoneNumberContactFlow
-    AssociatePhoneNumberContactFlow,
+    AssociatePhoneNumberContactFlow (AssociatePhoneNumberContactFlow'),
     newAssociatePhoneNumberContactFlow,
-    AssociatePhoneNumberContactFlowResponse,
+    AssociatePhoneNumberContactFlowResponse (AssociatePhoneNumberContactFlowResponse'),
     newAssociatePhoneNumberContactFlowResponse,
 
     -- ** AssociateQueueQuickConnects
-    AssociateQueueQuickConnects,
+    AssociateQueueQuickConnects (AssociateQueueQuickConnects'),
     newAssociateQueueQuickConnects,
-    AssociateQueueQuickConnectsResponse,
+    AssociateQueueQuickConnectsResponse (AssociateQueueQuickConnectsResponse'),
     newAssociateQueueQuickConnectsResponse,
 
     -- ** AssociateRoutingProfileQueues
-    AssociateRoutingProfileQueues,
+    AssociateRoutingProfileQueues (AssociateRoutingProfileQueues'),
     newAssociateRoutingProfileQueues,
-    AssociateRoutingProfileQueuesResponse,
+    AssociateRoutingProfileQueuesResponse (AssociateRoutingProfileQueuesResponse'),
     newAssociateRoutingProfileQueuesResponse,
 
     -- ** AssociateSecurityKey
-    AssociateSecurityKey,
+    AssociateSecurityKey (AssociateSecurityKey'),
     newAssociateSecurityKey,
-    AssociateSecurityKeyResponse,
+    AssociateSecurityKeyResponse (AssociateSecurityKeyResponse'),
     newAssociateSecurityKeyResponse,
 
     -- ** ClaimPhoneNumber
-    ClaimPhoneNumber,
+    ClaimPhoneNumber (ClaimPhoneNumber'),
     newClaimPhoneNumber,
-    ClaimPhoneNumberResponse,
+    ClaimPhoneNumberResponse (ClaimPhoneNumberResponse'),
     newClaimPhoneNumberResponse,
 
     -- ** CreateAgentStatus
-    CreateAgentStatus,
+    CreateAgentStatus (CreateAgentStatus'),
     newCreateAgentStatus,
-    CreateAgentStatusResponse,
+    CreateAgentStatusResponse (CreateAgentStatusResponse'),
     newCreateAgentStatusResponse,
 
     -- ** CreateContactFlow
-    CreateContactFlow,
+    CreateContactFlow (CreateContactFlow'),
     newCreateContactFlow,
-    CreateContactFlowResponse,
+    CreateContactFlowResponse (CreateContactFlowResponse'),
     newCreateContactFlowResponse,
 
     -- ** CreateContactFlowModule
-    CreateContactFlowModule,
+    CreateContactFlowModule (CreateContactFlowModule'),
     newCreateContactFlowModule,
-    CreateContactFlowModuleResponse,
+    CreateContactFlowModuleResponse (CreateContactFlowModuleResponse'),
     newCreateContactFlowModuleResponse,
 
     -- ** CreateHoursOfOperation
-    CreateHoursOfOperation,
+    CreateHoursOfOperation (CreateHoursOfOperation'),
     newCreateHoursOfOperation,
-    CreateHoursOfOperationResponse,
+    CreateHoursOfOperationResponse (CreateHoursOfOperationResponse'),
     newCreateHoursOfOperationResponse,
 
     -- ** CreateInstance
-    CreateInstance,
+    CreateInstance (CreateInstance'),
     newCreateInstance,
-    CreateInstanceResponse,
+    CreateInstanceResponse (CreateInstanceResponse'),
     newCreateInstanceResponse,
 
     -- ** CreateIntegrationAssociation
-    CreateIntegrationAssociation,
+    CreateIntegrationAssociation (CreateIntegrationAssociation'),
     newCreateIntegrationAssociation,
-    CreateIntegrationAssociationResponse,
+    CreateIntegrationAssociationResponse (CreateIntegrationAssociationResponse'),
     newCreateIntegrationAssociationResponse,
 
     -- ** CreateQueue
-    CreateQueue,
+    CreateQueue (CreateQueue'),
     newCreateQueue,
-    CreateQueueResponse,
+    CreateQueueResponse (CreateQueueResponse'),
     newCreateQueueResponse,
 
     -- ** CreateQuickConnect
-    CreateQuickConnect,
+    CreateQuickConnect (CreateQuickConnect'),
     newCreateQuickConnect,
-    CreateQuickConnectResponse,
+    CreateQuickConnectResponse (CreateQuickConnectResponse'),
     newCreateQuickConnectResponse,
 
     -- ** CreateRoutingProfile
-    CreateRoutingProfile,
+    CreateRoutingProfile (CreateRoutingProfile'),
     newCreateRoutingProfile,
-    CreateRoutingProfileResponse,
+    CreateRoutingProfileResponse (CreateRoutingProfileResponse'),
     newCreateRoutingProfileResponse,
 
     -- ** CreateRule
-    CreateRule,
+    CreateRule (CreateRule'),
     newCreateRule,
-    CreateRuleResponse,
+    CreateRuleResponse (CreateRuleResponse'),
     newCreateRuleResponse,
 
     -- ** CreateSecurityProfile
-    CreateSecurityProfile,
+    CreateSecurityProfile (CreateSecurityProfile'),
     newCreateSecurityProfile,
-    CreateSecurityProfileResponse,
+    CreateSecurityProfileResponse (CreateSecurityProfileResponse'),
     newCreateSecurityProfileResponse,
 
     -- ** CreateTaskTemplate
-    CreateTaskTemplate,
+    CreateTaskTemplate (CreateTaskTemplate'),
     newCreateTaskTemplate,
-    CreateTaskTemplateResponse,
+    CreateTaskTemplateResponse (CreateTaskTemplateResponse'),
     newCreateTaskTemplateResponse,
 
     -- ** CreateTrafficDistributionGroup
-    CreateTrafficDistributionGroup,
+    CreateTrafficDistributionGroup (CreateTrafficDistributionGroup'),
     newCreateTrafficDistributionGroup,
-    CreateTrafficDistributionGroupResponse,
+    CreateTrafficDistributionGroupResponse (CreateTrafficDistributionGroupResponse'),
     newCreateTrafficDistributionGroupResponse,
 
     -- ** CreateUseCase
-    CreateUseCase,
+    CreateUseCase (CreateUseCase'),
     newCreateUseCase,
-    CreateUseCaseResponse,
+    CreateUseCaseResponse (CreateUseCaseResponse'),
     newCreateUseCaseResponse,
 
     -- ** CreateUser
-    CreateUser,
+    CreateUser (CreateUser'),
     newCreateUser,
-    CreateUserResponse,
+    CreateUserResponse (CreateUserResponse'),
     newCreateUserResponse,
 
     -- ** CreateUserHierarchyGroup
-    CreateUserHierarchyGroup,
+    CreateUserHierarchyGroup (CreateUserHierarchyGroup'),
     newCreateUserHierarchyGroup,
-    CreateUserHierarchyGroupResponse,
+    CreateUserHierarchyGroupResponse (CreateUserHierarchyGroupResponse'),
     newCreateUserHierarchyGroupResponse,
 
     -- ** CreateVocabulary
-    CreateVocabulary,
+    CreateVocabulary (CreateVocabulary'),
     newCreateVocabulary,
-    CreateVocabularyResponse,
+    CreateVocabularyResponse (CreateVocabularyResponse'),
     newCreateVocabularyResponse,
 
     -- ** DeleteContactFlow
-    DeleteContactFlow,
+    DeleteContactFlow (DeleteContactFlow'),
     newDeleteContactFlow,
-    DeleteContactFlowResponse,
+    DeleteContactFlowResponse (DeleteContactFlowResponse'),
     newDeleteContactFlowResponse,
 
     -- ** DeleteContactFlowModule
-    DeleteContactFlowModule,
+    DeleteContactFlowModule (DeleteContactFlowModule'),
     newDeleteContactFlowModule,
-    DeleteContactFlowModuleResponse,
+    DeleteContactFlowModuleResponse (DeleteContactFlowModuleResponse'),
     newDeleteContactFlowModuleResponse,
 
     -- ** DeleteHoursOfOperation
-    DeleteHoursOfOperation,
+    DeleteHoursOfOperation (DeleteHoursOfOperation'),
     newDeleteHoursOfOperation,
-    DeleteHoursOfOperationResponse,
+    DeleteHoursOfOperationResponse (DeleteHoursOfOperationResponse'),
     newDeleteHoursOfOperationResponse,
 
     -- ** DeleteInstance
-    DeleteInstance,
+    DeleteInstance (DeleteInstance'),
     newDeleteInstance,
-    DeleteInstanceResponse,
+    DeleteInstanceResponse (DeleteInstanceResponse'),
     newDeleteInstanceResponse,
 
     -- ** DeleteIntegrationAssociation
-    DeleteIntegrationAssociation,
+    DeleteIntegrationAssociation (DeleteIntegrationAssociation'),
     newDeleteIntegrationAssociation,
-    DeleteIntegrationAssociationResponse,
+    DeleteIntegrationAssociationResponse (DeleteIntegrationAssociationResponse'),
     newDeleteIntegrationAssociationResponse,
 
     -- ** DeleteQuickConnect
-    DeleteQuickConnect,
+    DeleteQuickConnect (DeleteQuickConnect'),
     newDeleteQuickConnect,
-    DeleteQuickConnectResponse,
+    DeleteQuickConnectResponse (DeleteQuickConnectResponse'),
     newDeleteQuickConnectResponse,
 
     -- ** DeleteRule
-    DeleteRule,
+    DeleteRule (DeleteRule'),
     newDeleteRule,
-    DeleteRuleResponse,
+    DeleteRuleResponse (DeleteRuleResponse'),
     newDeleteRuleResponse,
 
     -- ** DeleteSecurityProfile
-    DeleteSecurityProfile,
+    DeleteSecurityProfile (DeleteSecurityProfile'),
     newDeleteSecurityProfile,
-    DeleteSecurityProfileResponse,
+    DeleteSecurityProfileResponse (DeleteSecurityProfileResponse'),
     newDeleteSecurityProfileResponse,
 
     -- ** DeleteTaskTemplate
-    DeleteTaskTemplate,
+    DeleteTaskTemplate (DeleteTaskTemplate'),
     newDeleteTaskTemplate,
-    DeleteTaskTemplateResponse,
+    DeleteTaskTemplateResponse (DeleteTaskTemplateResponse'),
     newDeleteTaskTemplateResponse,
 
     -- ** DeleteTrafficDistributionGroup
-    DeleteTrafficDistributionGroup,
+    DeleteTrafficDistributionGroup (DeleteTrafficDistributionGroup'),
     newDeleteTrafficDistributionGroup,
-    DeleteTrafficDistributionGroupResponse,
+    DeleteTrafficDistributionGroupResponse (DeleteTrafficDistributionGroupResponse'),
     newDeleteTrafficDistributionGroupResponse,
 
     -- ** DeleteUseCase
-    DeleteUseCase,
+    DeleteUseCase (DeleteUseCase'),
     newDeleteUseCase,
-    DeleteUseCaseResponse,
+    DeleteUseCaseResponse (DeleteUseCaseResponse'),
     newDeleteUseCaseResponse,
 
     -- ** DeleteUser
-    DeleteUser,
+    DeleteUser (DeleteUser'),
     newDeleteUser,
-    DeleteUserResponse,
+    DeleteUserResponse (DeleteUserResponse'),
     newDeleteUserResponse,
 
     -- ** DeleteUserHierarchyGroup
-    DeleteUserHierarchyGroup,
+    DeleteUserHierarchyGroup (DeleteUserHierarchyGroup'),
     newDeleteUserHierarchyGroup,
-    DeleteUserHierarchyGroupResponse,
+    DeleteUserHierarchyGroupResponse (DeleteUserHierarchyGroupResponse'),
     newDeleteUserHierarchyGroupResponse,
 
     -- ** DeleteVocabulary
-    DeleteVocabulary,
+    DeleteVocabulary (DeleteVocabulary'),
     newDeleteVocabulary,
-    DeleteVocabularyResponse,
+    DeleteVocabularyResponse (DeleteVocabularyResponse'),
     newDeleteVocabularyResponse,
 
     -- ** DescribeAgentStatus
-    DescribeAgentStatus,
+    DescribeAgentStatus (DescribeAgentStatus'),
     newDescribeAgentStatus,
-    DescribeAgentStatusResponse,
+    DescribeAgentStatusResponse (DescribeAgentStatusResponse'),
     newDescribeAgentStatusResponse,
 
     -- ** DescribeContact
-    DescribeContact,
+    DescribeContact (DescribeContact'),
     newDescribeContact,
-    DescribeContactResponse,
+    DescribeContactResponse (DescribeContactResponse'),
     newDescribeContactResponse,
 
     -- ** DescribeContactFlow
-    DescribeContactFlow,
+    DescribeContactFlow (DescribeContactFlow'),
     newDescribeContactFlow,
-    DescribeContactFlowResponse,
+    DescribeContactFlowResponse (DescribeContactFlowResponse'),
     newDescribeContactFlowResponse,
 
     -- ** DescribeContactFlowModule
-    DescribeContactFlowModule,
+    DescribeContactFlowModule (DescribeContactFlowModule'),
     newDescribeContactFlowModule,
-    DescribeContactFlowModuleResponse,
+    DescribeContactFlowModuleResponse (DescribeContactFlowModuleResponse'),
     newDescribeContactFlowModuleResponse,
 
     -- ** DescribeHoursOfOperation
-    DescribeHoursOfOperation,
+    DescribeHoursOfOperation (DescribeHoursOfOperation'),
     newDescribeHoursOfOperation,
-    DescribeHoursOfOperationResponse,
+    DescribeHoursOfOperationResponse (DescribeHoursOfOperationResponse'),
     newDescribeHoursOfOperationResponse,
 
     -- ** DescribeInstance
-    DescribeInstance,
+    DescribeInstance (DescribeInstance'),
     newDescribeInstance,
-    DescribeInstanceResponse,
+    DescribeInstanceResponse (DescribeInstanceResponse'),
     newDescribeInstanceResponse,
 
     -- ** DescribeInstanceAttribute
-    DescribeInstanceAttribute,
+    DescribeInstanceAttribute (DescribeInstanceAttribute'),
     newDescribeInstanceAttribute,
-    DescribeInstanceAttributeResponse,
+    DescribeInstanceAttributeResponse (DescribeInstanceAttributeResponse'),
     newDescribeInstanceAttributeResponse,
 
     -- ** DescribeInstanceStorageConfig
-    DescribeInstanceStorageConfig,
+    DescribeInstanceStorageConfig (DescribeInstanceStorageConfig'),
     newDescribeInstanceStorageConfig,
-    DescribeInstanceStorageConfigResponse,
+    DescribeInstanceStorageConfigResponse (DescribeInstanceStorageConfigResponse'),
     newDescribeInstanceStorageConfigResponse,
 
     -- ** DescribePhoneNumber
-    DescribePhoneNumber,
+    DescribePhoneNumber (DescribePhoneNumber'),
     newDescribePhoneNumber,
-    DescribePhoneNumberResponse,
+    DescribePhoneNumberResponse (DescribePhoneNumberResponse'),
     newDescribePhoneNumberResponse,
 
     -- ** DescribeQueue
-    DescribeQueue,
+    DescribeQueue (DescribeQueue'),
     newDescribeQueue,
-    DescribeQueueResponse,
+    DescribeQueueResponse (DescribeQueueResponse'),
     newDescribeQueueResponse,
 
     -- ** DescribeQuickConnect
-    DescribeQuickConnect,
+    DescribeQuickConnect (DescribeQuickConnect'),
     newDescribeQuickConnect,
-    DescribeQuickConnectResponse,
+    DescribeQuickConnectResponse (DescribeQuickConnectResponse'),
     newDescribeQuickConnectResponse,
 
     -- ** DescribeRoutingProfile
-    DescribeRoutingProfile,
+    DescribeRoutingProfile (DescribeRoutingProfile'),
     newDescribeRoutingProfile,
-    DescribeRoutingProfileResponse,
+    DescribeRoutingProfileResponse (DescribeRoutingProfileResponse'),
     newDescribeRoutingProfileResponse,
 
     -- ** DescribeRule
-    DescribeRule,
+    DescribeRule (DescribeRule'),
     newDescribeRule,
-    DescribeRuleResponse,
+    DescribeRuleResponse (DescribeRuleResponse'),
     newDescribeRuleResponse,
 
     -- ** DescribeSecurityProfile
-    DescribeSecurityProfile,
+    DescribeSecurityProfile (DescribeSecurityProfile'),
     newDescribeSecurityProfile,
-    DescribeSecurityProfileResponse,
+    DescribeSecurityProfileResponse (DescribeSecurityProfileResponse'),
     newDescribeSecurityProfileResponse,
 
     -- ** DescribeTrafficDistributionGroup
-    DescribeTrafficDistributionGroup,
+    DescribeTrafficDistributionGroup (DescribeTrafficDistributionGroup'),
     newDescribeTrafficDistributionGroup,
-    DescribeTrafficDistributionGroupResponse,
+    DescribeTrafficDistributionGroupResponse (DescribeTrafficDistributionGroupResponse'),
     newDescribeTrafficDistributionGroupResponse,
 
     -- ** DescribeUser
-    DescribeUser,
+    DescribeUser (DescribeUser'),
     newDescribeUser,
-    DescribeUserResponse,
+    DescribeUserResponse (DescribeUserResponse'),
     newDescribeUserResponse,
 
     -- ** DescribeUserHierarchyGroup
-    DescribeUserHierarchyGroup,
+    DescribeUserHierarchyGroup (DescribeUserHierarchyGroup'),
     newDescribeUserHierarchyGroup,
-    DescribeUserHierarchyGroupResponse,
+    DescribeUserHierarchyGroupResponse (DescribeUserHierarchyGroupResponse'),
     newDescribeUserHierarchyGroupResponse,
 
     -- ** DescribeUserHierarchyStructure
-    DescribeUserHierarchyStructure,
+    DescribeUserHierarchyStructure (DescribeUserHierarchyStructure'),
     newDescribeUserHierarchyStructure,
-    DescribeUserHierarchyStructureResponse,
+    DescribeUserHierarchyStructureResponse (DescribeUserHierarchyStructureResponse'),
     newDescribeUserHierarchyStructureResponse,
 
     -- ** DescribeVocabulary
-    DescribeVocabulary,
+    DescribeVocabulary (DescribeVocabulary'),
     newDescribeVocabulary,
-    DescribeVocabularyResponse,
+    DescribeVocabularyResponse (DescribeVocabularyResponse'),
     newDescribeVocabularyResponse,
 
     -- ** DisassociateApprovedOrigin
-    DisassociateApprovedOrigin,
+    DisassociateApprovedOrigin (DisassociateApprovedOrigin'),
     newDisassociateApprovedOrigin,
-    DisassociateApprovedOriginResponse,
+    DisassociateApprovedOriginResponse (DisassociateApprovedOriginResponse'),
     newDisassociateApprovedOriginResponse,
 
     -- ** DisassociateBot
-    DisassociateBot,
+    DisassociateBot (DisassociateBot'),
     newDisassociateBot,
-    DisassociateBotResponse,
+    DisassociateBotResponse (DisassociateBotResponse'),
     newDisassociateBotResponse,
 
     -- ** DisassociateInstanceStorageConfig
-    DisassociateInstanceStorageConfig,
+    DisassociateInstanceStorageConfig (DisassociateInstanceStorageConfig'),
     newDisassociateInstanceStorageConfig,
-    DisassociateInstanceStorageConfigResponse,
+    DisassociateInstanceStorageConfigResponse (DisassociateInstanceStorageConfigResponse'),
     newDisassociateInstanceStorageConfigResponse,
 
     -- ** DisassociateLambdaFunction
-    DisassociateLambdaFunction,
+    DisassociateLambdaFunction (DisassociateLambdaFunction'),
     newDisassociateLambdaFunction,
-    DisassociateLambdaFunctionResponse,
+    DisassociateLambdaFunctionResponse (DisassociateLambdaFunctionResponse'),
     newDisassociateLambdaFunctionResponse,
 
     -- ** DisassociateLexBot
-    DisassociateLexBot,
+    DisassociateLexBot (DisassociateLexBot'),
     newDisassociateLexBot,
-    DisassociateLexBotResponse,
+    DisassociateLexBotResponse (DisassociateLexBotResponse'),
     newDisassociateLexBotResponse,
 
     -- ** DisassociatePhoneNumberContactFlow
-    DisassociatePhoneNumberContactFlow,
+    DisassociatePhoneNumberContactFlow (DisassociatePhoneNumberContactFlow'),
     newDisassociatePhoneNumberContactFlow,
-    DisassociatePhoneNumberContactFlowResponse,
+    DisassociatePhoneNumberContactFlowResponse (DisassociatePhoneNumberContactFlowResponse'),
     newDisassociatePhoneNumberContactFlowResponse,
 
     -- ** DisassociateQueueQuickConnects
-    DisassociateQueueQuickConnects,
+    DisassociateQueueQuickConnects (DisassociateQueueQuickConnects'),
     newDisassociateQueueQuickConnects,
-    DisassociateQueueQuickConnectsResponse,
+    DisassociateQueueQuickConnectsResponse (DisassociateQueueQuickConnectsResponse'),
     newDisassociateQueueQuickConnectsResponse,
 
     -- ** DisassociateRoutingProfileQueues
-    DisassociateRoutingProfileQueues,
+    DisassociateRoutingProfileQueues (DisassociateRoutingProfileQueues'),
     newDisassociateRoutingProfileQueues,
-    DisassociateRoutingProfileQueuesResponse,
+    DisassociateRoutingProfileQueuesResponse (DisassociateRoutingProfileQueuesResponse'),
     newDisassociateRoutingProfileQueuesResponse,
 
     -- ** DisassociateSecurityKey
-    DisassociateSecurityKey,
+    DisassociateSecurityKey (DisassociateSecurityKey'),
     newDisassociateSecurityKey,
-    DisassociateSecurityKeyResponse,
+    DisassociateSecurityKeyResponse (DisassociateSecurityKeyResponse'),
     newDisassociateSecurityKeyResponse,
 
     -- ** DismissUserContact
-    DismissUserContact,
+    DismissUserContact (DismissUserContact'),
     newDismissUserContact,
-    DismissUserContactResponse,
+    DismissUserContactResponse (DismissUserContactResponse'),
     newDismissUserContactResponse,
 
     -- ** GetContactAttributes
-    GetContactAttributes,
+    GetContactAttributes (GetContactAttributes'),
     newGetContactAttributes,
-    GetContactAttributesResponse,
+    GetContactAttributesResponse (GetContactAttributesResponse'),
     newGetContactAttributesResponse,
 
     -- ** GetCurrentMetricData
-    GetCurrentMetricData,
+    GetCurrentMetricData (GetCurrentMetricData'),
     newGetCurrentMetricData,
-    GetCurrentMetricDataResponse,
+    GetCurrentMetricDataResponse (GetCurrentMetricDataResponse'),
     newGetCurrentMetricDataResponse,
 
     -- ** GetCurrentUserData
-    GetCurrentUserData,
+    GetCurrentUserData (GetCurrentUserData'),
     newGetCurrentUserData,
-    GetCurrentUserDataResponse,
+    GetCurrentUserDataResponse (GetCurrentUserDataResponse'),
     newGetCurrentUserDataResponse,
 
     -- ** GetFederationToken
-    GetFederationToken,
+    GetFederationToken (GetFederationToken'),
     newGetFederationToken,
-    GetFederationTokenResponse,
+    GetFederationTokenResponse (GetFederationTokenResponse'),
     newGetFederationTokenResponse,
 
     -- ** GetMetricData (Paginated)
-    GetMetricData,
+    GetMetricData (GetMetricData'),
     newGetMetricData,
-    GetMetricDataResponse,
+    GetMetricDataResponse (GetMetricDataResponse'),
     newGetMetricDataResponse,
 
     -- ** GetTaskTemplate
-    GetTaskTemplate,
+    GetTaskTemplate (GetTaskTemplate'),
     newGetTaskTemplate,
-    GetTaskTemplateResponse,
+    GetTaskTemplateResponse (GetTaskTemplateResponse'),
     newGetTaskTemplateResponse,
 
     -- ** GetTrafficDistribution
-    GetTrafficDistribution,
+    GetTrafficDistribution (GetTrafficDistribution'),
     newGetTrafficDistribution,
-    GetTrafficDistributionResponse,
+    GetTrafficDistributionResponse (GetTrafficDistributionResponse'),
     newGetTrafficDistributionResponse,
 
     -- ** ListAgentStatuses (Paginated)
-    ListAgentStatuses,
+    ListAgentStatuses (ListAgentStatuses'),
     newListAgentStatuses,
-    ListAgentStatusesResponse,
+    ListAgentStatusesResponse (ListAgentStatusesResponse'),
     newListAgentStatusesResponse,
 
     -- ** ListApprovedOrigins (Paginated)
-    ListApprovedOrigins,
+    ListApprovedOrigins (ListApprovedOrigins'),
     newListApprovedOrigins,
-    ListApprovedOriginsResponse,
+    ListApprovedOriginsResponse (ListApprovedOriginsResponse'),
     newListApprovedOriginsResponse,
 
     -- ** ListBots (Paginated)
-    ListBots,
+    ListBots (ListBots'),
     newListBots,
-    ListBotsResponse,
+    ListBotsResponse (ListBotsResponse'),
     newListBotsResponse,
 
     -- ** ListContactFlowModules (Paginated)
-    ListContactFlowModules,
+    ListContactFlowModules (ListContactFlowModules'),
     newListContactFlowModules,
-    ListContactFlowModulesResponse,
+    ListContactFlowModulesResponse (ListContactFlowModulesResponse'),
     newListContactFlowModulesResponse,
 
     -- ** ListContactFlows (Paginated)
-    ListContactFlows,
+    ListContactFlows (ListContactFlows'),
     newListContactFlows,
-    ListContactFlowsResponse,
+    ListContactFlowsResponse (ListContactFlowsResponse'),
     newListContactFlowsResponse,
 
     -- ** ListContactReferences (Paginated)
-    ListContactReferences,
+    ListContactReferences (ListContactReferences'),
     newListContactReferences,
-    ListContactReferencesResponse,
+    ListContactReferencesResponse (ListContactReferencesResponse'),
     newListContactReferencesResponse,
 
     -- ** ListDefaultVocabularies (Paginated)
-    ListDefaultVocabularies,
+    ListDefaultVocabularies (ListDefaultVocabularies'),
     newListDefaultVocabularies,
-    ListDefaultVocabulariesResponse,
+    ListDefaultVocabulariesResponse (ListDefaultVocabulariesResponse'),
     newListDefaultVocabulariesResponse,
 
     -- ** ListHoursOfOperations (Paginated)
-    ListHoursOfOperations,
+    ListHoursOfOperations (ListHoursOfOperations'),
     newListHoursOfOperations,
-    ListHoursOfOperationsResponse,
+    ListHoursOfOperationsResponse (ListHoursOfOperationsResponse'),
     newListHoursOfOperationsResponse,
 
     -- ** ListInstanceAttributes (Paginated)
-    ListInstanceAttributes,
+    ListInstanceAttributes (ListInstanceAttributes'),
     newListInstanceAttributes,
-    ListInstanceAttributesResponse,
+    ListInstanceAttributesResponse (ListInstanceAttributesResponse'),
     newListInstanceAttributesResponse,
 
     -- ** ListInstanceStorageConfigs (Paginated)
-    ListInstanceStorageConfigs,
+    ListInstanceStorageConfigs (ListInstanceStorageConfigs'),
     newListInstanceStorageConfigs,
-    ListInstanceStorageConfigsResponse,
+    ListInstanceStorageConfigsResponse (ListInstanceStorageConfigsResponse'),
     newListInstanceStorageConfigsResponse,
 
     -- ** ListInstances (Paginated)
-    ListInstances,
+    ListInstances (ListInstances'),
     newListInstances,
-    ListInstancesResponse,
+    ListInstancesResponse (ListInstancesResponse'),
     newListInstancesResponse,
 
     -- ** ListIntegrationAssociations (Paginated)
-    ListIntegrationAssociations,
+    ListIntegrationAssociations (ListIntegrationAssociations'),
     newListIntegrationAssociations,
-    ListIntegrationAssociationsResponse,
+    ListIntegrationAssociationsResponse (ListIntegrationAssociationsResponse'),
     newListIntegrationAssociationsResponse,
 
     -- ** ListLambdaFunctions (Paginated)
-    ListLambdaFunctions,
+    ListLambdaFunctions (ListLambdaFunctions'),
     newListLambdaFunctions,
-    ListLambdaFunctionsResponse,
+    ListLambdaFunctionsResponse (ListLambdaFunctionsResponse'),
     newListLambdaFunctionsResponse,
 
     -- ** ListLexBots (Paginated)
-    ListLexBots,
+    ListLexBots (ListLexBots'),
     newListLexBots,
-    ListLexBotsResponse,
+    ListLexBotsResponse (ListLexBotsResponse'),
     newListLexBotsResponse,
 
     -- ** ListPhoneNumbers (Paginated)
-    ListPhoneNumbers,
+    ListPhoneNumbers (ListPhoneNumbers'),
     newListPhoneNumbers,
-    ListPhoneNumbersResponse,
+    ListPhoneNumbersResponse (ListPhoneNumbersResponse'),
     newListPhoneNumbersResponse,
 
     -- ** ListPhoneNumbersV2 (Paginated)
-    ListPhoneNumbersV2,
+    ListPhoneNumbersV2 (ListPhoneNumbersV2'),
     newListPhoneNumbersV2,
-    ListPhoneNumbersV2Response,
+    ListPhoneNumbersV2Response (ListPhoneNumbersV2Response'),
     newListPhoneNumbersV2Response,
 
     -- ** ListPrompts (Paginated)
-    ListPrompts,
+    ListPrompts (ListPrompts'),
     newListPrompts,
-    ListPromptsResponse,
+    ListPromptsResponse (ListPromptsResponse'),
     newListPromptsResponse,
 
     -- ** ListQueueQuickConnects (Paginated)
-    ListQueueQuickConnects,
+    ListQueueQuickConnects (ListQueueQuickConnects'),
     newListQueueQuickConnects,
-    ListQueueQuickConnectsResponse,
+    ListQueueQuickConnectsResponse (ListQueueQuickConnectsResponse'),
     newListQueueQuickConnectsResponse,
 
     -- ** ListQueues (Paginated)
-    ListQueues,
+    ListQueues (ListQueues'),
     newListQueues,
-    ListQueuesResponse,
+    ListQueuesResponse (ListQueuesResponse'),
     newListQueuesResponse,
 
     -- ** ListQuickConnects (Paginated)
-    ListQuickConnects,
+    ListQuickConnects (ListQuickConnects'),
     newListQuickConnects,
-    ListQuickConnectsResponse,
+    ListQuickConnectsResponse (ListQuickConnectsResponse'),
     newListQuickConnectsResponse,
 
     -- ** ListRoutingProfileQueues (Paginated)
-    ListRoutingProfileQueues,
+    ListRoutingProfileQueues (ListRoutingProfileQueues'),
     newListRoutingProfileQueues,
-    ListRoutingProfileQueuesResponse,
+    ListRoutingProfileQueuesResponse (ListRoutingProfileQueuesResponse'),
     newListRoutingProfileQueuesResponse,
 
     -- ** ListRoutingProfiles (Paginated)
-    ListRoutingProfiles,
+    ListRoutingProfiles (ListRoutingProfiles'),
     newListRoutingProfiles,
-    ListRoutingProfilesResponse,
+    ListRoutingProfilesResponse (ListRoutingProfilesResponse'),
     newListRoutingProfilesResponse,
 
     -- ** ListRules (Paginated)
-    ListRules,
+    ListRules (ListRules'),
     newListRules,
-    ListRulesResponse,
+    ListRulesResponse (ListRulesResponse'),
     newListRulesResponse,
 
     -- ** ListSecurityKeys (Paginated)
-    ListSecurityKeys,
+    ListSecurityKeys (ListSecurityKeys'),
     newListSecurityKeys,
-    ListSecurityKeysResponse,
+    ListSecurityKeysResponse (ListSecurityKeysResponse'),
     newListSecurityKeysResponse,
 
     -- ** ListSecurityProfilePermissions (Paginated)
-    ListSecurityProfilePermissions,
+    ListSecurityProfilePermissions (ListSecurityProfilePermissions'),
     newListSecurityProfilePermissions,
-    ListSecurityProfilePermissionsResponse,
+    ListSecurityProfilePermissionsResponse (ListSecurityProfilePermissionsResponse'),
     newListSecurityProfilePermissionsResponse,
 
     -- ** ListSecurityProfiles (Paginated)
-    ListSecurityProfiles,
+    ListSecurityProfiles (ListSecurityProfiles'),
     newListSecurityProfiles,
-    ListSecurityProfilesResponse,
+    ListSecurityProfilesResponse (ListSecurityProfilesResponse'),
     newListSecurityProfilesResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** ListTaskTemplates (Paginated)
-    ListTaskTemplates,
+    ListTaskTemplates (ListTaskTemplates'),
     newListTaskTemplates,
-    ListTaskTemplatesResponse,
+    ListTaskTemplatesResponse (ListTaskTemplatesResponse'),
     newListTaskTemplatesResponse,
 
     -- ** ListTrafficDistributionGroups (Paginated)
-    ListTrafficDistributionGroups,
+    ListTrafficDistributionGroups (ListTrafficDistributionGroups'),
     newListTrafficDistributionGroups,
-    ListTrafficDistributionGroupsResponse,
+    ListTrafficDistributionGroupsResponse (ListTrafficDistributionGroupsResponse'),
     newListTrafficDistributionGroupsResponse,
 
     -- ** ListUseCases (Paginated)
-    ListUseCases,
+    ListUseCases (ListUseCases'),
     newListUseCases,
-    ListUseCasesResponse,
+    ListUseCasesResponse (ListUseCasesResponse'),
     newListUseCasesResponse,
 
     -- ** ListUserHierarchyGroups (Paginated)
-    ListUserHierarchyGroups,
+    ListUserHierarchyGroups (ListUserHierarchyGroups'),
     newListUserHierarchyGroups,
-    ListUserHierarchyGroupsResponse,
+    ListUserHierarchyGroupsResponse (ListUserHierarchyGroupsResponse'),
     newListUserHierarchyGroupsResponse,
 
     -- ** ListUsers (Paginated)
-    ListUsers,
+    ListUsers (ListUsers'),
     newListUsers,
-    ListUsersResponse,
+    ListUsersResponse (ListUsersResponse'),
     newListUsersResponse,
 
     -- ** MonitorContact
-    MonitorContact,
+    MonitorContact (MonitorContact'),
     newMonitorContact,
-    MonitorContactResponse,
+    MonitorContactResponse (MonitorContactResponse'),
     newMonitorContactResponse,
 
     -- ** PutUserStatus
-    PutUserStatus,
+    PutUserStatus (PutUserStatus'),
     newPutUserStatus,
-    PutUserStatusResponse,
+    PutUserStatusResponse (PutUserStatusResponse'),
     newPutUserStatusResponse,
 
     -- ** ReleasePhoneNumber
-    ReleasePhoneNumber,
+    ReleasePhoneNumber (ReleasePhoneNumber'),
     newReleasePhoneNumber,
-    ReleasePhoneNumberResponse,
+    ReleasePhoneNumberResponse (ReleasePhoneNumberResponse'),
     newReleasePhoneNumberResponse,
 
     -- ** ReplicateInstance
-    ReplicateInstance,
+    ReplicateInstance (ReplicateInstance'),
     newReplicateInstance,
-    ReplicateInstanceResponse,
+    ReplicateInstanceResponse (ReplicateInstanceResponse'),
     newReplicateInstanceResponse,
 
     -- ** ResumeContactRecording
-    ResumeContactRecording,
+    ResumeContactRecording (ResumeContactRecording'),
     newResumeContactRecording,
-    ResumeContactRecordingResponse,
+    ResumeContactRecordingResponse (ResumeContactRecordingResponse'),
     newResumeContactRecordingResponse,
 
     -- ** SearchAvailablePhoneNumbers (Paginated)
-    SearchAvailablePhoneNumbers,
+    SearchAvailablePhoneNumbers (SearchAvailablePhoneNumbers'),
     newSearchAvailablePhoneNumbers,
-    SearchAvailablePhoneNumbersResponse,
+    SearchAvailablePhoneNumbersResponse (SearchAvailablePhoneNumbersResponse'),
     newSearchAvailablePhoneNumbersResponse,
 
     -- ** SearchQueues (Paginated)
-    SearchQueues,
+    SearchQueues (SearchQueues'),
     newSearchQueues,
-    SearchQueuesResponse,
+    SearchQueuesResponse (SearchQueuesResponse'),
     newSearchQueuesResponse,
 
     -- ** SearchRoutingProfiles (Paginated)
-    SearchRoutingProfiles,
+    SearchRoutingProfiles (SearchRoutingProfiles'),
     newSearchRoutingProfiles,
-    SearchRoutingProfilesResponse,
+    SearchRoutingProfilesResponse (SearchRoutingProfilesResponse'),
     newSearchRoutingProfilesResponse,
 
     -- ** SearchSecurityProfiles (Paginated)
-    SearchSecurityProfiles,
+    SearchSecurityProfiles (SearchSecurityProfiles'),
     newSearchSecurityProfiles,
-    SearchSecurityProfilesResponse,
+    SearchSecurityProfilesResponse (SearchSecurityProfilesResponse'),
     newSearchSecurityProfilesResponse,
 
     -- ** SearchUsers (Paginated)
-    SearchUsers,
+    SearchUsers (SearchUsers'),
     newSearchUsers,
-    SearchUsersResponse,
+    SearchUsersResponse (SearchUsersResponse'),
     newSearchUsersResponse,
 
     -- ** SearchVocabularies (Paginated)
-    SearchVocabularies,
+    SearchVocabularies (SearchVocabularies'),
     newSearchVocabularies,
-    SearchVocabulariesResponse,
+    SearchVocabulariesResponse (SearchVocabulariesResponse'),
     newSearchVocabulariesResponse,
 
     -- ** StartChatContact
-    StartChatContact,
+    StartChatContact (StartChatContact'),
     newStartChatContact,
-    StartChatContactResponse,
+    StartChatContactResponse (StartChatContactResponse'),
     newStartChatContactResponse,
 
     -- ** StartContactRecording
-    StartContactRecording,
+    StartContactRecording (StartContactRecording'),
     newStartContactRecording,
-    StartContactRecordingResponse,
+    StartContactRecordingResponse (StartContactRecordingResponse'),
     newStartContactRecordingResponse,
 
     -- ** StartContactStreaming
-    StartContactStreaming,
+    StartContactStreaming (StartContactStreaming'),
     newStartContactStreaming,
-    StartContactStreamingResponse,
+    StartContactStreamingResponse (StartContactStreamingResponse'),
     newStartContactStreamingResponse,
 
     -- ** StartOutboundVoiceContact
-    StartOutboundVoiceContact,
+    StartOutboundVoiceContact (StartOutboundVoiceContact'),
     newStartOutboundVoiceContact,
-    StartOutboundVoiceContactResponse,
+    StartOutboundVoiceContactResponse (StartOutboundVoiceContactResponse'),
     newStartOutboundVoiceContactResponse,
 
     -- ** StartTaskContact
-    StartTaskContact,
+    StartTaskContact (StartTaskContact'),
     newStartTaskContact,
-    StartTaskContactResponse,
+    StartTaskContactResponse (StartTaskContactResponse'),
     newStartTaskContactResponse,
 
     -- ** StopContact
-    StopContact,
+    StopContact (StopContact'),
     newStopContact,
-    StopContactResponse,
+    StopContactResponse (StopContactResponse'),
     newStopContactResponse,
 
     -- ** StopContactRecording
-    StopContactRecording,
+    StopContactRecording (StopContactRecording'),
     newStopContactRecording,
-    StopContactRecordingResponse,
+    StopContactRecordingResponse (StopContactRecordingResponse'),
     newStopContactRecordingResponse,
 
     -- ** StopContactStreaming
-    StopContactStreaming,
+    StopContactStreaming (StopContactStreaming'),
     newStopContactStreaming,
-    StopContactStreamingResponse,
+    StopContactStreamingResponse (StopContactStreamingResponse'),
     newStopContactStreamingResponse,
 
     -- ** SuspendContactRecording
-    SuspendContactRecording,
+    SuspendContactRecording (SuspendContactRecording'),
     newSuspendContactRecording,
-    SuspendContactRecordingResponse,
+    SuspendContactRecordingResponse (SuspendContactRecordingResponse'),
     newSuspendContactRecordingResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** TransferContact
-    TransferContact,
+    TransferContact (TransferContact'),
     newTransferContact,
-    TransferContactResponse,
+    TransferContactResponse (TransferContactResponse'),
     newTransferContactResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateAgentStatus
-    UpdateAgentStatus,
+    UpdateAgentStatus (UpdateAgentStatus'),
     newUpdateAgentStatus,
-    UpdateAgentStatusResponse,
+    UpdateAgentStatusResponse (UpdateAgentStatusResponse'),
     newUpdateAgentStatusResponse,
 
     -- ** UpdateContact
-    UpdateContact,
+    UpdateContact (UpdateContact'),
     newUpdateContact,
-    UpdateContactResponse,
+    UpdateContactResponse (UpdateContactResponse'),
     newUpdateContactResponse,
 
     -- ** UpdateContactAttributes
-    UpdateContactAttributes,
+    UpdateContactAttributes (UpdateContactAttributes'),
     newUpdateContactAttributes,
-    UpdateContactAttributesResponse,
+    UpdateContactAttributesResponse (UpdateContactAttributesResponse'),
     newUpdateContactAttributesResponse,
 
     -- ** UpdateContactFlowContent
-    UpdateContactFlowContent,
+    UpdateContactFlowContent (UpdateContactFlowContent'),
     newUpdateContactFlowContent,
-    UpdateContactFlowContentResponse,
+    UpdateContactFlowContentResponse (UpdateContactFlowContentResponse'),
     newUpdateContactFlowContentResponse,
 
     -- ** UpdateContactFlowMetadata
-    UpdateContactFlowMetadata,
+    UpdateContactFlowMetadata (UpdateContactFlowMetadata'),
     newUpdateContactFlowMetadata,
-    UpdateContactFlowMetadataResponse,
+    UpdateContactFlowMetadataResponse (UpdateContactFlowMetadataResponse'),
     newUpdateContactFlowMetadataResponse,
 
     -- ** UpdateContactFlowModuleContent
-    UpdateContactFlowModuleContent,
+    UpdateContactFlowModuleContent (UpdateContactFlowModuleContent'),
     newUpdateContactFlowModuleContent,
-    UpdateContactFlowModuleContentResponse,
+    UpdateContactFlowModuleContentResponse (UpdateContactFlowModuleContentResponse'),
     newUpdateContactFlowModuleContentResponse,
 
     -- ** UpdateContactFlowModuleMetadata
-    UpdateContactFlowModuleMetadata,
+    UpdateContactFlowModuleMetadata (UpdateContactFlowModuleMetadata'),
     newUpdateContactFlowModuleMetadata,
-    UpdateContactFlowModuleMetadataResponse,
+    UpdateContactFlowModuleMetadataResponse (UpdateContactFlowModuleMetadataResponse'),
     newUpdateContactFlowModuleMetadataResponse,
 
     -- ** UpdateContactFlowName
-    UpdateContactFlowName,
+    UpdateContactFlowName (UpdateContactFlowName'),
     newUpdateContactFlowName,
-    UpdateContactFlowNameResponse,
+    UpdateContactFlowNameResponse (UpdateContactFlowNameResponse'),
     newUpdateContactFlowNameResponse,
 
     -- ** UpdateContactSchedule
-    UpdateContactSchedule,
+    UpdateContactSchedule (UpdateContactSchedule'),
     newUpdateContactSchedule,
-    UpdateContactScheduleResponse,
+    UpdateContactScheduleResponse (UpdateContactScheduleResponse'),
     newUpdateContactScheduleResponse,
 
     -- ** UpdateHoursOfOperation
-    UpdateHoursOfOperation,
+    UpdateHoursOfOperation (UpdateHoursOfOperation'),
     newUpdateHoursOfOperation,
-    UpdateHoursOfOperationResponse,
+    UpdateHoursOfOperationResponse (UpdateHoursOfOperationResponse'),
     newUpdateHoursOfOperationResponse,
 
     -- ** UpdateInstanceAttribute
-    UpdateInstanceAttribute,
+    UpdateInstanceAttribute (UpdateInstanceAttribute'),
     newUpdateInstanceAttribute,
-    UpdateInstanceAttributeResponse,
+    UpdateInstanceAttributeResponse (UpdateInstanceAttributeResponse'),
     newUpdateInstanceAttributeResponse,
 
     -- ** UpdateInstanceStorageConfig
-    UpdateInstanceStorageConfig,
+    UpdateInstanceStorageConfig (UpdateInstanceStorageConfig'),
     newUpdateInstanceStorageConfig,
-    UpdateInstanceStorageConfigResponse,
+    UpdateInstanceStorageConfigResponse (UpdateInstanceStorageConfigResponse'),
     newUpdateInstanceStorageConfigResponse,
 
     -- ** UpdateParticipantRoleConfig
-    UpdateParticipantRoleConfig,
+    UpdateParticipantRoleConfig (UpdateParticipantRoleConfig'),
     newUpdateParticipantRoleConfig,
-    UpdateParticipantRoleConfigResponse,
+    UpdateParticipantRoleConfigResponse (UpdateParticipantRoleConfigResponse'),
     newUpdateParticipantRoleConfigResponse,
 
     -- ** UpdatePhoneNumber
-    UpdatePhoneNumber,
+    UpdatePhoneNumber (UpdatePhoneNumber'),
     newUpdatePhoneNumber,
-    UpdatePhoneNumberResponse,
+    UpdatePhoneNumberResponse (UpdatePhoneNumberResponse'),
     newUpdatePhoneNumberResponse,
 
     -- ** UpdateQueueHoursOfOperation
-    UpdateQueueHoursOfOperation,
+    UpdateQueueHoursOfOperation (UpdateQueueHoursOfOperation'),
     newUpdateQueueHoursOfOperation,
-    UpdateQueueHoursOfOperationResponse,
+    UpdateQueueHoursOfOperationResponse (UpdateQueueHoursOfOperationResponse'),
     newUpdateQueueHoursOfOperationResponse,
 
     -- ** UpdateQueueMaxContacts
-    UpdateQueueMaxContacts,
+    UpdateQueueMaxContacts (UpdateQueueMaxContacts'),
     newUpdateQueueMaxContacts,
-    UpdateQueueMaxContactsResponse,
+    UpdateQueueMaxContactsResponse (UpdateQueueMaxContactsResponse'),
     newUpdateQueueMaxContactsResponse,
 
     -- ** UpdateQueueName
-    UpdateQueueName,
+    UpdateQueueName (UpdateQueueName'),
     newUpdateQueueName,
-    UpdateQueueNameResponse,
+    UpdateQueueNameResponse (UpdateQueueNameResponse'),
     newUpdateQueueNameResponse,
 
     -- ** UpdateQueueOutboundCallerConfig
-    UpdateQueueOutboundCallerConfig,
+    UpdateQueueOutboundCallerConfig (UpdateQueueOutboundCallerConfig'),
     newUpdateQueueOutboundCallerConfig,
-    UpdateQueueOutboundCallerConfigResponse,
+    UpdateQueueOutboundCallerConfigResponse (UpdateQueueOutboundCallerConfigResponse'),
     newUpdateQueueOutboundCallerConfigResponse,
 
     -- ** UpdateQueueStatus
-    UpdateQueueStatus,
+    UpdateQueueStatus (UpdateQueueStatus'),
     newUpdateQueueStatus,
-    UpdateQueueStatusResponse,
+    UpdateQueueStatusResponse (UpdateQueueStatusResponse'),
     newUpdateQueueStatusResponse,
 
     -- ** UpdateQuickConnectConfig
-    UpdateQuickConnectConfig,
+    UpdateQuickConnectConfig (UpdateQuickConnectConfig'),
     newUpdateQuickConnectConfig,
-    UpdateQuickConnectConfigResponse,
+    UpdateQuickConnectConfigResponse (UpdateQuickConnectConfigResponse'),
     newUpdateQuickConnectConfigResponse,
 
     -- ** UpdateQuickConnectName
-    UpdateQuickConnectName,
+    UpdateQuickConnectName (UpdateQuickConnectName'),
     newUpdateQuickConnectName,
-    UpdateQuickConnectNameResponse,
+    UpdateQuickConnectNameResponse (UpdateQuickConnectNameResponse'),
     newUpdateQuickConnectNameResponse,
 
     -- ** UpdateRoutingProfileConcurrency
-    UpdateRoutingProfileConcurrency,
+    UpdateRoutingProfileConcurrency (UpdateRoutingProfileConcurrency'),
     newUpdateRoutingProfileConcurrency,
-    UpdateRoutingProfileConcurrencyResponse,
+    UpdateRoutingProfileConcurrencyResponse (UpdateRoutingProfileConcurrencyResponse'),
     newUpdateRoutingProfileConcurrencyResponse,
 
     -- ** UpdateRoutingProfileDefaultOutboundQueue
-    UpdateRoutingProfileDefaultOutboundQueue,
+    UpdateRoutingProfileDefaultOutboundQueue (UpdateRoutingProfileDefaultOutboundQueue'),
     newUpdateRoutingProfileDefaultOutboundQueue,
-    UpdateRoutingProfileDefaultOutboundQueueResponse,
+    UpdateRoutingProfileDefaultOutboundQueueResponse (UpdateRoutingProfileDefaultOutboundQueueResponse'),
     newUpdateRoutingProfileDefaultOutboundQueueResponse,
 
     -- ** UpdateRoutingProfileName
-    UpdateRoutingProfileName,
+    UpdateRoutingProfileName (UpdateRoutingProfileName'),
     newUpdateRoutingProfileName,
-    UpdateRoutingProfileNameResponse,
+    UpdateRoutingProfileNameResponse (UpdateRoutingProfileNameResponse'),
     newUpdateRoutingProfileNameResponse,
 
     -- ** UpdateRoutingProfileQueues
-    UpdateRoutingProfileQueues,
+    UpdateRoutingProfileQueues (UpdateRoutingProfileQueues'),
     newUpdateRoutingProfileQueues,
-    UpdateRoutingProfileQueuesResponse,
+    UpdateRoutingProfileQueuesResponse (UpdateRoutingProfileQueuesResponse'),
     newUpdateRoutingProfileQueuesResponse,
 
     -- ** UpdateRule
-    UpdateRule,
+    UpdateRule (UpdateRule'),
     newUpdateRule,
-    UpdateRuleResponse,
+    UpdateRuleResponse (UpdateRuleResponse'),
     newUpdateRuleResponse,
 
     -- ** UpdateSecurityProfile
-    UpdateSecurityProfile,
+    UpdateSecurityProfile (UpdateSecurityProfile'),
     newUpdateSecurityProfile,
-    UpdateSecurityProfileResponse,
+    UpdateSecurityProfileResponse (UpdateSecurityProfileResponse'),
     newUpdateSecurityProfileResponse,
 
     -- ** UpdateTaskTemplate
-    UpdateTaskTemplate,
+    UpdateTaskTemplate (UpdateTaskTemplate'),
     newUpdateTaskTemplate,
-    UpdateTaskTemplateResponse,
+    UpdateTaskTemplateResponse (UpdateTaskTemplateResponse'),
     newUpdateTaskTemplateResponse,
 
     -- ** UpdateTrafficDistribution
-    UpdateTrafficDistribution,
+    UpdateTrafficDistribution (UpdateTrafficDistribution'),
     newUpdateTrafficDistribution,
-    UpdateTrafficDistributionResponse,
+    UpdateTrafficDistributionResponse (UpdateTrafficDistributionResponse'),
     newUpdateTrafficDistributionResponse,
 
     -- ** UpdateUserHierarchy
-    UpdateUserHierarchy,
+    UpdateUserHierarchy (UpdateUserHierarchy'),
     newUpdateUserHierarchy,
-    UpdateUserHierarchyResponse,
+    UpdateUserHierarchyResponse (UpdateUserHierarchyResponse'),
     newUpdateUserHierarchyResponse,
 
     -- ** UpdateUserHierarchyGroupName
-    UpdateUserHierarchyGroupName,
+    UpdateUserHierarchyGroupName (UpdateUserHierarchyGroupName'),
     newUpdateUserHierarchyGroupName,
-    UpdateUserHierarchyGroupNameResponse,
+    UpdateUserHierarchyGroupNameResponse (UpdateUserHierarchyGroupNameResponse'),
     newUpdateUserHierarchyGroupNameResponse,
 
     -- ** UpdateUserHierarchyStructure
-    UpdateUserHierarchyStructure,
+    UpdateUserHierarchyStructure (UpdateUserHierarchyStructure'),
     newUpdateUserHierarchyStructure,
-    UpdateUserHierarchyStructureResponse,
+    UpdateUserHierarchyStructureResponse (UpdateUserHierarchyStructureResponse'),
     newUpdateUserHierarchyStructureResponse,
 
     -- ** UpdateUserIdentityInfo
-    UpdateUserIdentityInfo,
+    UpdateUserIdentityInfo (UpdateUserIdentityInfo'),
     newUpdateUserIdentityInfo,
-    UpdateUserIdentityInfoResponse,
+    UpdateUserIdentityInfoResponse (UpdateUserIdentityInfoResponse'),
     newUpdateUserIdentityInfoResponse,
 
     -- ** UpdateUserPhoneConfig
-    UpdateUserPhoneConfig,
+    UpdateUserPhoneConfig (UpdateUserPhoneConfig'),
     newUpdateUserPhoneConfig,
-    UpdateUserPhoneConfigResponse,
+    UpdateUserPhoneConfigResponse (UpdateUserPhoneConfigResponse'),
     newUpdateUserPhoneConfigResponse,
 
     -- ** UpdateUserRoutingProfile
-    UpdateUserRoutingProfile,
+    UpdateUserRoutingProfile (UpdateUserRoutingProfile'),
     newUpdateUserRoutingProfile,
-    UpdateUserRoutingProfileResponse,
+    UpdateUserRoutingProfileResponse (UpdateUserRoutingProfileResponse'),
     newUpdateUserRoutingProfileResponse,
 
     -- ** UpdateUserSecurityProfiles
-    UpdateUserSecurityProfiles,
+    UpdateUserSecurityProfiles (UpdateUserSecurityProfiles'),
     newUpdateUserSecurityProfiles,
-    UpdateUserSecurityProfilesResponse,
+    UpdateUserSecurityProfilesResponse (UpdateUserSecurityProfilesResponse'),
     newUpdateUserSecurityProfilesResponse,
 
     -- * Types
@@ -1286,571 +1286,571 @@ module Amazonka.Connect
     VoiceRecordingTrack (..),
 
     -- ** ActionSummary
-    ActionSummary,
+    ActionSummary (ActionSummary'),
     newActionSummary,
 
     -- ** AgentContactReference
-    AgentContactReference,
+    AgentContactReference (AgentContactReference'),
     newAgentContactReference,
 
     -- ** AgentInfo
-    AgentInfo,
+    AgentInfo (AgentInfo'),
     newAgentInfo,
 
     -- ** AgentStatus
-    AgentStatus,
+    AgentStatus (AgentStatus'),
     newAgentStatus,
 
     -- ** AgentStatusReference
-    AgentStatusReference,
+    AgentStatusReference (AgentStatusReference'),
     newAgentStatusReference,
 
     -- ** AgentStatusSummary
-    AgentStatusSummary,
+    AgentStatusSummary (AgentStatusSummary'),
     newAgentStatusSummary,
 
     -- ** AnswerMachineDetectionConfig
-    AnswerMachineDetectionConfig,
+    AnswerMachineDetectionConfig (AnswerMachineDetectionConfig'),
     newAnswerMachineDetectionConfig,
 
     -- ** AssignContactCategoryActionDefinition
-    AssignContactCategoryActionDefinition,
+    AssignContactCategoryActionDefinition (AssignContactCategoryActionDefinition'),
     newAssignContactCategoryActionDefinition,
 
     -- ** AttachmentReference
-    AttachmentReference,
+    AttachmentReference (AttachmentReference'),
     newAttachmentReference,
 
     -- ** Attribute
-    Attribute,
+    Attribute (Attribute'),
     newAttribute,
 
     -- ** AvailableNumberSummary
-    AvailableNumberSummary,
+    AvailableNumberSummary (AvailableNumberSummary'),
     newAvailableNumberSummary,
 
     -- ** ChatMessage
-    ChatMessage,
+    ChatMessage (ChatMessage'),
     newChatMessage,
 
     -- ** ChatParticipantRoleConfig
-    ChatParticipantRoleConfig,
+    ChatParticipantRoleConfig (ChatParticipantRoleConfig'),
     newChatParticipantRoleConfig,
 
     -- ** ChatStreamingConfiguration
-    ChatStreamingConfiguration,
+    ChatStreamingConfiguration (ChatStreamingConfiguration'),
     newChatStreamingConfiguration,
 
     -- ** ClaimedPhoneNumberSummary
-    ClaimedPhoneNumberSummary,
+    ClaimedPhoneNumberSummary (ClaimedPhoneNumberSummary'),
     newClaimedPhoneNumberSummary,
 
     -- ** Contact
-    Contact,
+    Contact (Contact'),
     newContact,
 
     -- ** ContactFilter
-    ContactFilter,
+    ContactFilter (ContactFilter'),
     newContactFilter,
 
     -- ** ContactFlow
-    ContactFlow,
+    ContactFlow (ContactFlow'),
     newContactFlow,
 
     -- ** ContactFlowModule
-    ContactFlowModule,
+    ContactFlowModule (ContactFlowModule'),
     newContactFlowModule,
 
     -- ** ContactFlowModuleSummary
-    ContactFlowModuleSummary,
+    ContactFlowModuleSummary (ContactFlowModuleSummary'),
     newContactFlowModuleSummary,
 
     -- ** ContactFlowSummary
-    ContactFlowSummary,
+    ContactFlowSummary (ContactFlowSummary'),
     newContactFlowSummary,
 
     -- ** ControlPlaneTagFilter
-    ControlPlaneTagFilter,
+    ControlPlaneTagFilter (ControlPlaneTagFilter'),
     newControlPlaneTagFilter,
 
     -- ** Credentials
-    Credentials,
+    Credentials (Credentials'),
     newCredentials,
 
     -- ** CurrentMetric
-    CurrentMetric,
+    CurrentMetric (CurrentMetric'),
     newCurrentMetric,
 
     -- ** CurrentMetricData
-    CurrentMetricData,
+    CurrentMetricData (CurrentMetricData'),
     newCurrentMetricData,
 
     -- ** CurrentMetricResult
-    CurrentMetricResult,
+    CurrentMetricResult (CurrentMetricResult'),
     newCurrentMetricResult,
 
     -- ** CurrentMetricSortCriteria
-    CurrentMetricSortCriteria,
+    CurrentMetricSortCriteria (CurrentMetricSortCriteria'),
     newCurrentMetricSortCriteria,
 
     -- ** DateReference
-    DateReference,
+    DateReference (DateReference'),
     newDateReference,
 
     -- ** DefaultVocabulary
-    DefaultVocabulary,
+    DefaultVocabulary (DefaultVocabulary'),
     newDefaultVocabulary,
 
     -- ** Dimensions
-    Dimensions,
+    Dimensions (Dimensions'),
     newDimensions,
 
     -- ** Distribution
-    Distribution,
+    Distribution (Distribution'),
     newDistribution,
 
     -- ** EmailReference
-    EmailReference,
+    EmailReference (EmailReference'),
     newEmailReference,
 
     -- ** EncryptionConfig
-    EncryptionConfig,
+    EncryptionConfig (EncryptionConfig'),
     newEncryptionConfig,
 
     -- ** EventBridgeActionDefinition
-    EventBridgeActionDefinition,
+    EventBridgeActionDefinition (EventBridgeActionDefinition'),
     newEventBridgeActionDefinition,
 
     -- ** Filters
-    Filters,
+    Filters (Filters'),
     newFilters,
 
     -- ** HierarchyGroup
-    HierarchyGroup,
+    HierarchyGroup (HierarchyGroup'),
     newHierarchyGroup,
 
     -- ** HierarchyGroupCondition
-    HierarchyGroupCondition,
+    HierarchyGroupCondition (HierarchyGroupCondition'),
     newHierarchyGroupCondition,
 
     -- ** HierarchyGroupSummary
-    HierarchyGroupSummary,
+    HierarchyGroupSummary (HierarchyGroupSummary'),
     newHierarchyGroupSummary,
 
     -- ** HierarchyGroupSummaryReference
-    HierarchyGroupSummaryReference,
+    HierarchyGroupSummaryReference (HierarchyGroupSummaryReference'),
     newHierarchyGroupSummaryReference,
 
     -- ** HierarchyLevel
-    HierarchyLevel,
+    HierarchyLevel (HierarchyLevel'),
     newHierarchyLevel,
 
     -- ** HierarchyLevelUpdate
-    HierarchyLevelUpdate,
+    HierarchyLevelUpdate (HierarchyLevelUpdate'),
     newHierarchyLevelUpdate,
 
     -- ** HierarchyPath
-    HierarchyPath,
+    HierarchyPath (HierarchyPath'),
     newHierarchyPath,
 
     -- ** HierarchyPathReference
-    HierarchyPathReference,
+    HierarchyPathReference (HierarchyPathReference'),
     newHierarchyPathReference,
 
     -- ** HierarchyStructure
-    HierarchyStructure,
+    HierarchyStructure (HierarchyStructure'),
     newHierarchyStructure,
 
     -- ** HierarchyStructureUpdate
-    HierarchyStructureUpdate,
+    HierarchyStructureUpdate (HierarchyStructureUpdate'),
     newHierarchyStructureUpdate,
 
     -- ** HistoricalMetric
-    HistoricalMetric,
+    HistoricalMetric (HistoricalMetric'),
     newHistoricalMetric,
 
     -- ** HistoricalMetricData
-    HistoricalMetricData,
+    HistoricalMetricData (HistoricalMetricData'),
     newHistoricalMetricData,
 
     -- ** HistoricalMetricResult
-    HistoricalMetricResult,
+    HistoricalMetricResult (HistoricalMetricResult'),
     newHistoricalMetricResult,
 
     -- ** HoursOfOperation
-    HoursOfOperation,
+    HoursOfOperation (HoursOfOperation'),
     newHoursOfOperation,
 
     -- ** HoursOfOperationConfig
-    HoursOfOperationConfig,
+    HoursOfOperationConfig (HoursOfOperationConfig'),
     newHoursOfOperationConfig,
 
     -- ** HoursOfOperationSummary
-    HoursOfOperationSummary,
+    HoursOfOperationSummary (HoursOfOperationSummary'),
     newHoursOfOperationSummary,
 
     -- ** HoursOfOperationTimeSlice
-    HoursOfOperationTimeSlice,
+    HoursOfOperationTimeSlice (HoursOfOperationTimeSlice'),
     newHoursOfOperationTimeSlice,
 
     -- ** Instance
-    Instance,
+    Instance (Instance'),
     newInstance,
 
     -- ** InstanceStatusReason
-    InstanceStatusReason,
+    InstanceStatusReason (InstanceStatusReason'),
     newInstanceStatusReason,
 
     -- ** InstanceStorageConfig
-    InstanceStorageConfig,
+    InstanceStorageConfig (InstanceStorageConfig'),
     newInstanceStorageConfig,
 
     -- ** InstanceSummary
-    InstanceSummary,
+    InstanceSummary (InstanceSummary'),
     newInstanceSummary,
 
     -- ** IntegrationAssociationSummary
-    IntegrationAssociationSummary,
+    IntegrationAssociationSummary (IntegrationAssociationSummary'),
     newIntegrationAssociationSummary,
 
     -- ** InvisibleFieldInfo
-    InvisibleFieldInfo,
+    InvisibleFieldInfo (InvisibleFieldInfo'),
     newInvisibleFieldInfo,
 
     -- ** KinesisFirehoseConfig
-    KinesisFirehoseConfig,
+    KinesisFirehoseConfig (KinesisFirehoseConfig'),
     newKinesisFirehoseConfig,
 
     -- ** KinesisStreamConfig
-    KinesisStreamConfig,
+    KinesisStreamConfig (KinesisStreamConfig'),
     newKinesisStreamConfig,
 
     -- ** KinesisVideoStreamConfig
-    KinesisVideoStreamConfig,
+    KinesisVideoStreamConfig (KinesisVideoStreamConfig'),
     newKinesisVideoStreamConfig,
 
     -- ** LexBot
-    LexBot,
+    LexBot (LexBot'),
     newLexBot,
 
     -- ** LexBotConfig
-    LexBotConfig,
+    LexBotConfig (LexBotConfig'),
     newLexBotConfig,
 
     -- ** LexV2Bot
-    LexV2Bot,
+    LexV2Bot (LexV2Bot'),
     newLexV2Bot,
 
     -- ** ListPhoneNumbersSummary
-    ListPhoneNumbersSummary,
+    ListPhoneNumbersSummary (ListPhoneNumbersSummary'),
     newListPhoneNumbersSummary,
 
     -- ** MediaConcurrency
-    MediaConcurrency,
+    MediaConcurrency (MediaConcurrency'),
     newMediaConcurrency,
 
     -- ** NotificationRecipientType
-    NotificationRecipientType,
+    NotificationRecipientType (NotificationRecipientType'),
     newNotificationRecipientType,
 
     -- ** NumberReference
-    NumberReference,
+    NumberReference (NumberReference'),
     newNumberReference,
 
     -- ** OutboundCallerConfig
-    OutboundCallerConfig,
+    OutboundCallerConfig (OutboundCallerConfig'),
     newOutboundCallerConfig,
 
     -- ** ParticipantDetails
-    ParticipantDetails,
+    ParticipantDetails (ParticipantDetails'),
     newParticipantDetails,
 
     -- ** ParticipantTimerConfiguration
-    ParticipantTimerConfiguration,
+    ParticipantTimerConfiguration (ParticipantTimerConfiguration'),
     newParticipantTimerConfiguration,
 
     -- ** ParticipantTimerValue
-    ParticipantTimerValue,
+    ParticipantTimerValue (ParticipantTimerValue'),
     newParticipantTimerValue,
 
     -- ** PhoneNumberQuickConnectConfig
-    PhoneNumberQuickConnectConfig,
+    PhoneNumberQuickConnectConfig (PhoneNumberQuickConnectConfig'),
     newPhoneNumberQuickConnectConfig,
 
     -- ** PhoneNumberStatus
-    PhoneNumberStatus,
+    PhoneNumberStatus (PhoneNumberStatus'),
     newPhoneNumberStatus,
 
     -- ** PhoneNumberSummary
-    PhoneNumberSummary,
+    PhoneNumberSummary (PhoneNumberSummary'),
     newPhoneNumberSummary,
 
     -- ** PromptSummary
-    PromptSummary,
+    PromptSummary (PromptSummary'),
     newPromptSummary,
 
     -- ** Queue
-    Queue,
+    Queue (Queue'),
     newQueue,
 
     -- ** QueueInfo
-    QueueInfo,
+    QueueInfo (QueueInfo'),
     newQueueInfo,
 
     -- ** QueueQuickConnectConfig
-    QueueQuickConnectConfig,
+    QueueQuickConnectConfig (QueueQuickConnectConfig'),
     newQueueQuickConnectConfig,
 
     -- ** QueueReference
-    QueueReference,
+    QueueReference (QueueReference'),
     newQueueReference,
 
     -- ** QueueSearchCriteria
-    QueueSearchCriteria,
+    QueueSearchCriteria (QueueSearchCriteria'),
     newQueueSearchCriteria,
 
     -- ** QueueSearchFilter
-    QueueSearchFilter,
+    QueueSearchFilter (QueueSearchFilter'),
     newQueueSearchFilter,
 
     -- ** QueueSummary
-    QueueSummary,
+    QueueSummary (QueueSummary'),
     newQueueSummary,
 
     -- ** QuickConnect
-    QuickConnect,
+    QuickConnect (QuickConnect'),
     newQuickConnect,
 
     -- ** QuickConnectConfig
-    QuickConnectConfig,
+    QuickConnectConfig (QuickConnectConfig'),
     newQuickConnectConfig,
 
     -- ** QuickConnectSummary
-    QuickConnectSummary,
+    QuickConnectSummary (QuickConnectSummary'),
     newQuickConnectSummary,
 
     -- ** ReadOnlyFieldInfo
-    ReadOnlyFieldInfo,
+    ReadOnlyFieldInfo (ReadOnlyFieldInfo'),
     newReadOnlyFieldInfo,
 
     -- ** Reference
-    Reference,
+    Reference (Reference'),
     newReference,
 
     -- ** ReferenceSummary
-    ReferenceSummary,
+    ReferenceSummary (ReferenceSummary'),
     newReferenceSummary,
 
     -- ** RequiredFieldInfo
-    RequiredFieldInfo,
+    RequiredFieldInfo (RequiredFieldInfo'),
     newRequiredFieldInfo,
 
     -- ** RoutingProfile
-    RoutingProfile,
+    RoutingProfile (RoutingProfile'),
     newRoutingProfile,
 
     -- ** RoutingProfileQueueConfig
-    RoutingProfileQueueConfig,
+    RoutingProfileQueueConfig (RoutingProfileQueueConfig'),
     newRoutingProfileQueueConfig,
 
     -- ** RoutingProfileQueueConfigSummary
-    RoutingProfileQueueConfigSummary,
+    RoutingProfileQueueConfigSummary (RoutingProfileQueueConfigSummary'),
     newRoutingProfileQueueConfigSummary,
 
     -- ** RoutingProfileQueueReference
-    RoutingProfileQueueReference,
+    RoutingProfileQueueReference (RoutingProfileQueueReference'),
     newRoutingProfileQueueReference,
 
     -- ** RoutingProfileReference
-    RoutingProfileReference,
+    RoutingProfileReference (RoutingProfileReference'),
     newRoutingProfileReference,
 
     -- ** RoutingProfileSearchCriteria
-    RoutingProfileSearchCriteria,
+    RoutingProfileSearchCriteria (RoutingProfileSearchCriteria'),
     newRoutingProfileSearchCriteria,
 
     -- ** RoutingProfileSearchFilter
-    RoutingProfileSearchFilter,
+    RoutingProfileSearchFilter (RoutingProfileSearchFilter'),
     newRoutingProfileSearchFilter,
 
     -- ** RoutingProfileSummary
-    RoutingProfileSummary,
+    RoutingProfileSummary (RoutingProfileSummary'),
     newRoutingProfileSummary,
 
     -- ** Rule
-    Rule,
+    Rule (Rule'),
     newRule,
 
     -- ** RuleAction
-    RuleAction,
+    RuleAction (RuleAction'),
     newRuleAction,
 
     -- ** RuleSummary
-    RuleSummary,
+    RuleSummary (RuleSummary'),
     newRuleSummary,
 
     -- ** RuleTriggerEventSource
-    RuleTriggerEventSource,
+    RuleTriggerEventSource (RuleTriggerEventSource'),
     newRuleTriggerEventSource,
 
     -- ** S3Config
-    S3Config,
+    S3Config (S3Config'),
     newS3Config,
 
     -- ** SecurityKey
-    SecurityKey,
+    SecurityKey (SecurityKey'),
     newSecurityKey,
 
     -- ** SecurityProfile
-    SecurityProfile,
+    SecurityProfile (SecurityProfile'),
     newSecurityProfile,
 
     -- ** SecurityProfileSearchCriteria
-    SecurityProfileSearchCriteria,
+    SecurityProfileSearchCriteria (SecurityProfileSearchCriteria'),
     newSecurityProfileSearchCriteria,
 
     -- ** SecurityProfileSearchSummary
-    SecurityProfileSearchSummary,
+    SecurityProfileSearchSummary (SecurityProfileSearchSummary'),
     newSecurityProfileSearchSummary,
 
     -- ** SecurityProfileSummary
-    SecurityProfileSummary,
+    SecurityProfileSummary (SecurityProfileSummary'),
     newSecurityProfileSummary,
 
     -- ** SecurityProfilesSearchFilter
-    SecurityProfilesSearchFilter,
+    SecurityProfilesSearchFilter (SecurityProfilesSearchFilter'),
     newSecurityProfilesSearchFilter,
 
     -- ** SendNotificationActionDefinition
-    SendNotificationActionDefinition,
+    SendNotificationActionDefinition (SendNotificationActionDefinition'),
     newSendNotificationActionDefinition,
 
     -- ** StringCondition
-    StringCondition,
+    StringCondition (StringCondition'),
     newStringCondition,
 
     -- ** StringReference
-    StringReference,
+    StringReference (StringReference'),
     newStringReference,
 
     -- ** TagCondition
-    TagCondition,
+    TagCondition (TagCondition'),
     newTagCondition,
 
     -- ** TaskActionDefinition
-    TaskActionDefinition,
+    TaskActionDefinition (TaskActionDefinition'),
     newTaskActionDefinition,
 
     -- ** TaskTemplateConstraints
-    TaskTemplateConstraints,
+    TaskTemplateConstraints (TaskTemplateConstraints'),
     newTaskTemplateConstraints,
 
     -- ** TaskTemplateDefaultFieldValue
-    TaskTemplateDefaultFieldValue,
+    TaskTemplateDefaultFieldValue (TaskTemplateDefaultFieldValue'),
     newTaskTemplateDefaultFieldValue,
 
     -- ** TaskTemplateDefaults
-    TaskTemplateDefaults,
+    TaskTemplateDefaults (TaskTemplateDefaults'),
     newTaskTemplateDefaults,
 
     -- ** TaskTemplateField
-    TaskTemplateField,
+    TaskTemplateField (TaskTemplateField'),
     newTaskTemplateField,
 
     -- ** TaskTemplateFieldIdentifier
-    TaskTemplateFieldIdentifier,
+    TaskTemplateFieldIdentifier (TaskTemplateFieldIdentifier'),
     newTaskTemplateFieldIdentifier,
 
     -- ** TaskTemplateMetadata
-    TaskTemplateMetadata,
+    TaskTemplateMetadata (TaskTemplateMetadata'),
     newTaskTemplateMetadata,
 
     -- ** TelephonyConfig
-    TelephonyConfig,
+    TelephonyConfig (TelephonyConfig'),
     newTelephonyConfig,
 
     -- ** Threshold
-    Threshold,
+    Threshold (Threshold'),
     newThreshold,
 
     -- ** TrafficDistributionGroup
-    TrafficDistributionGroup,
+    TrafficDistributionGroup (TrafficDistributionGroup'),
     newTrafficDistributionGroup,
 
     -- ** TrafficDistributionGroupSummary
-    TrafficDistributionGroupSummary,
+    TrafficDistributionGroupSummary (TrafficDistributionGroupSummary'),
     newTrafficDistributionGroupSummary,
 
     -- ** UpdateParticipantRoleConfigChannelInfo
-    UpdateParticipantRoleConfigChannelInfo,
+    UpdateParticipantRoleConfigChannelInfo (UpdateParticipantRoleConfigChannelInfo'),
     newUpdateParticipantRoleConfigChannelInfo,
 
     -- ** UrlReference
-    UrlReference,
+    UrlReference (UrlReference'),
     newUrlReference,
 
     -- ** UseCase
-    UseCase,
+    UseCase (UseCase'),
     newUseCase,
 
     -- ** User
-    User,
+    User (User'),
     newUser,
 
     -- ** UserData
-    UserData,
+    UserData (UserData'),
     newUserData,
 
     -- ** UserDataFilters
-    UserDataFilters,
+    UserDataFilters (UserDataFilters'),
     newUserDataFilters,
 
     -- ** UserIdentityInfo
-    UserIdentityInfo,
+    UserIdentityInfo (UserIdentityInfo'),
     newUserIdentityInfo,
 
     -- ** UserIdentityInfoLite
-    UserIdentityInfoLite,
+    UserIdentityInfoLite (UserIdentityInfoLite'),
     newUserIdentityInfoLite,
 
     -- ** UserPhoneConfig
-    UserPhoneConfig,
+    UserPhoneConfig (UserPhoneConfig'),
     newUserPhoneConfig,
 
     -- ** UserQuickConnectConfig
-    UserQuickConnectConfig,
+    UserQuickConnectConfig (UserQuickConnectConfig'),
     newUserQuickConnectConfig,
 
     -- ** UserReference
-    UserReference,
+    UserReference (UserReference'),
     newUserReference,
 
     -- ** UserSearchCriteria
-    UserSearchCriteria,
+    UserSearchCriteria (UserSearchCriteria'),
     newUserSearchCriteria,
 
     -- ** UserSearchFilter
-    UserSearchFilter,
+    UserSearchFilter (UserSearchFilter'),
     newUserSearchFilter,
 
     -- ** UserSearchSummary
-    UserSearchSummary,
+    UserSearchSummary (UserSearchSummary'),
     newUserSearchSummary,
 
     -- ** UserSummary
-    UserSummary,
+    UserSummary (UserSummary'),
     newUserSummary,
 
     -- ** Vocabulary
-    Vocabulary,
+    Vocabulary (Vocabulary'),
     newVocabulary,
 
     -- ** VocabularySummary
-    VocabularySummary,
+    VocabularySummary (VocabularySummary'),
     newVocabularySummary,
 
     -- ** VoiceRecordingConfiguration
-    VoiceRecordingConfiguration,
+    VoiceRecordingConfiguration (VoiceRecordingConfiguration'),
     newVoiceRecordingConfiguration,
   )
 where

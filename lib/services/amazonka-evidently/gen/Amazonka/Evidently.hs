@@ -62,231 +62,231 @@ module Amazonka.Evidently
     -- $operations
 
     -- ** BatchEvaluateFeature
-    BatchEvaluateFeature,
+    BatchEvaluateFeature (BatchEvaluateFeature'),
     newBatchEvaluateFeature,
-    BatchEvaluateFeatureResponse,
+    BatchEvaluateFeatureResponse (BatchEvaluateFeatureResponse'),
     newBatchEvaluateFeatureResponse,
 
     -- ** CreateExperiment
-    CreateExperiment,
+    CreateExperiment (CreateExperiment'),
     newCreateExperiment,
-    CreateExperimentResponse,
+    CreateExperimentResponse (CreateExperimentResponse'),
     newCreateExperimentResponse,
 
     -- ** CreateFeature
-    CreateFeature,
+    CreateFeature (CreateFeature'),
     newCreateFeature,
-    CreateFeatureResponse,
+    CreateFeatureResponse (CreateFeatureResponse'),
     newCreateFeatureResponse,
 
     -- ** CreateLaunch
-    CreateLaunch,
+    CreateLaunch (CreateLaunch'),
     newCreateLaunch,
-    CreateLaunchResponse,
+    CreateLaunchResponse (CreateLaunchResponse'),
     newCreateLaunchResponse,
 
     -- ** CreateProject
-    CreateProject,
+    CreateProject (CreateProject'),
     newCreateProject,
-    CreateProjectResponse,
+    CreateProjectResponse (CreateProjectResponse'),
     newCreateProjectResponse,
 
     -- ** CreateSegment
-    CreateSegment,
+    CreateSegment (CreateSegment'),
     newCreateSegment,
-    CreateSegmentResponse,
+    CreateSegmentResponse (CreateSegmentResponse'),
     newCreateSegmentResponse,
 
     -- ** DeleteExperiment
-    DeleteExperiment,
+    DeleteExperiment (DeleteExperiment'),
     newDeleteExperiment,
-    DeleteExperimentResponse,
+    DeleteExperimentResponse (DeleteExperimentResponse'),
     newDeleteExperimentResponse,
 
     -- ** DeleteFeature
-    DeleteFeature,
+    DeleteFeature (DeleteFeature'),
     newDeleteFeature,
-    DeleteFeatureResponse,
+    DeleteFeatureResponse (DeleteFeatureResponse'),
     newDeleteFeatureResponse,
 
     -- ** DeleteLaunch
-    DeleteLaunch,
+    DeleteLaunch (DeleteLaunch'),
     newDeleteLaunch,
-    DeleteLaunchResponse,
+    DeleteLaunchResponse (DeleteLaunchResponse'),
     newDeleteLaunchResponse,
 
     -- ** DeleteProject
-    DeleteProject,
+    DeleteProject (DeleteProject'),
     newDeleteProject,
-    DeleteProjectResponse,
+    DeleteProjectResponse (DeleteProjectResponse'),
     newDeleteProjectResponse,
 
     -- ** DeleteSegment
-    DeleteSegment,
+    DeleteSegment (DeleteSegment'),
     newDeleteSegment,
-    DeleteSegmentResponse,
+    DeleteSegmentResponse (DeleteSegmentResponse'),
     newDeleteSegmentResponse,
 
     -- ** EvaluateFeature
-    EvaluateFeature,
+    EvaluateFeature (EvaluateFeature'),
     newEvaluateFeature,
-    EvaluateFeatureResponse,
+    EvaluateFeatureResponse (EvaluateFeatureResponse'),
     newEvaluateFeatureResponse,
 
     -- ** GetExperiment
-    GetExperiment,
+    GetExperiment (GetExperiment'),
     newGetExperiment,
-    GetExperimentResponse,
+    GetExperimentResponse (GetExperimentResponse'),
     newGetExperimentResponse,
 
     -- ** GetExperimentResults
-    GetExperimentResults,
+    GetExperimentResults (GetExperimentResults'),
     newGetExperimentResults,
-    GetExperimentResultsResponse,
+    GetExperimentResultsResponse (GetExperimentResultsResponse'),
     newGetExperimentResultsResponse,
 
     -- ** GetFeature
-    GetFeature,
+    GetFeature (GetFeature'),
     newGetFeature,
-    GetFeatureResponse,
+    GetFeatureResponse (GetFeatureResponse'),
     newGetFeatureResponse,
 
     -- ** GetLaunch
-    GetLaunch,
+    GetLaunch (GetLaunch'),
     newGetLaunch,
-    GetLaunchResponse,
+    GetLaunchResponse (GetLaunchResponse'),
     newGetLaunchResponse,
 
     -- ** GetProject
-    GetProject,
+    GetProject (GetProject'),
     newGetProject,
-    GetProjectResponse,
+    GetProjectResponse (GetProjectResponse'),
     newGetProjectResponse,
 
     -- ** GetSegment
-    GetSegment,
+    GetSegment (GetSegment'),
     newGetSegment,
-    GetSegmentResponse,
+    GetSegmentResponse (GetSegmentResponse'),
     newGetSegmentResponse,
 
     -- ** ListExperiments (Paginated)
-    ListExperiments,
+    ListExperiments (ListExperiments'),
     newListExperiments,
-    ListExperimentsResponse,
+    ListExperimentsResponse (ListExperimentsResponse'),
     newListExperimentsResponse,
 
     -- ** ListFeatures (Paginated)
-    ListFeatures,
+    ListFeatures (ListFeatures'),
     newListFeatures,
-    ListFeaturesResponse,
+    ListFeaturesResponse (ListFeaturesResponse'),
     newListFeaturesResponse,
 
     -- ** ListLaunches (Paginated)
-    ListLaunches,
+    ListLaunches (ListLaunches'),
     newListLaunches,
-    ListLaunchesResponse,
+    ListLaunchesResponse (ListLaunchesResponse'),
     newListLaunchesResponse,
 
     -- ** ListProjects (Paginated)
-    ListProjects,
+    ListProjects (ListProjects'),
     newListProjects,
-    ListProjectsResponse,
+    ListProjectsResponse (ListProjectsResponse'),
     newListProjectsResponse,
 
     -- ** ListSegmentReferences (Paginated)
-    ListSegmentReferences,
+    ListSegmentReferences (ListSegmentReferences'),
     newListSegmentReferences,
-    ListSegmentReferencesResponse,
+    ListSegmentReferencesResponse (ListSegmentReferencesResponse'),
     newListSegmentReferencesResponse,
 
     -- ** ListSegments (Paginated)
-    ListSegments,
+    ListSegments (ListSegments'),
     newListSegments,
-    ListSegmentsResponse,
+    ListSegmentsResponse (ListSegmentsResponse'),
     newListSegmentsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** PutProjectEvents
-    PutProjectEvents,
+    PutProjectEvents (PutProjectEvents'),
     newPutProjectEvents,
-    PutProjectEventsResponse,
+    PutProjectEventsResponse (PutProjectEventsResponse'),
     newPutProjectEventsResponse,
 
     -- ** StartExperiment
-    StartExperiment,
+    StartExperiment (StartExperiment'),
     newStartExperiment,
-    StartExperimentResponse,
+    StartExperimentResponse (StartExperimentResponse'),
     newStartExperimentResponse,
 
     -- ** StartLaunch
-    StartLaunch,
+    StartLaunch (StartLaunch'),
     newStartLaunch,
-    StartLaunchResponse,
+    StartLaunchResponse (StartLaunchResponse'),
     newStartLaunchResponse,
 
     -- ** StopExperiment
-    StopExperiment,
+    StopExperiment (StopExperiment'),
     newStopExperiment,
-    StopExperimentResponse,
+    StopExperimentResponse (StopExperimentResponse'),
     newStopExperimentResponse,
 
     -- ** StopLaunch
-    StopLaunch,
+    StopLaunch (StopLaunch'),
     newStopLaunch,
-    StopLaunchResponse,
+    StopLaunchResponse (StopLaunchResponse'),
     newStopLaunchResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** TestSegmentPattern
-    TestSegmentPattern,
+    TestSegmentPattern (TestSegmentPattern'),
     newTestSegmentPattern,
-    TestSegmentPatternResponse,
+    TestSegmentPatternResponse (TestSegmentPatternResponse'),
     newTestSegmentPatternResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateExperiment
-    UpdateExperiment,
+    UpdateExperiment (UpdateExperiment'),
     newUpdateExperiment,
-    UpdateExperimentResponse,
+    UpdateExperimentResponse (UpdateExperimentResponse'),
     newUpdateExperimentResponse,
 
     -- ** UpdateFeature
-    UpdateFeature,
+    UpdateFeature (UpdateFeature'),
     newUpdateFeature,
-    UpdateFeatureResponse,
+    UpdateFeatureResponse (UpdateFeatureResponse'),
     newUpdateFeatureResponse,
 
     -- ** UpdateLaunch
-    UpdateLaunch,
+    UpdateLaunch (UpdateLaunch'),
     newUpdateLaunch,
-    UpdateLaunchResponse,
+    UpdateLaunchResponse (UpdateLaunchResponse'),
     newUpdateLaunchResponse,
 
     -- ** UpdateProject
-    UpdateProject,
+    UpdateProject (UpdateProject'),
     newUpdateProject,
-    UpdateProjectResponse,
+    UpdateProjectResponse (UpdateProjectResponse'),
     newUpdateProjectResponse,
 
     -- ** UpdateProjectDataDelivery
-    UpdateProjectDataDelivery,
+    UpdateProjectDataDelivery (UpdateProjectDataDelivery'),
     newUpdateProjectDataDelivery,
-    UpdateProjectDataDeliveryResponse,
+    UpdateProjectDataDeliveryResponse (UpdateProjectDataDeliveryResponse'),
     newUpdateProjectDataDeliveryResponse,
 
     -- * Types
@@ -343,187 +343,187 @@ module Amazonka.Evidently
     VariationValueType (..),
 
     -- ** CloudWatchLogsDestination
-    CloudWatchLogsDestination,
+    CloudWatchLogsDestination (CloudWatchLogsDestination'),
     newCloudWatchLogsDestination,
 
     -- ** CloudWatchLogsDestinationConfig
-    CloudWatchLogsDestinationConfig,
+    CloudWatchLogsDestinationConfig (CloudWatchLogsDestinationConfig'),
     newCloudWatchLogsDestinationConfig,
 
     -- ** EvaluationRequest
-    EvaluationRequest,
+    EvaluationRequest (EvaluationRequest'),
     newEvaluationRequest,
 
     -- ** EvaluationResult
-    EvaluationResult,
+    EvaluationResult (EvaluationResult'),
     newEvaluationResult,
 
     -- ** EvaluationRule
-    EvaluationRule,
+    EvaluationRule (EvaluationRule'),
     newEvaluationRule,
 
     -- ** Event
-    Event,
+    Event (Event'),
     newEvent,
 
     -- ** Experiment
-    Experiment,
+    Experiment (Experiment'),
     newExperiment,
 
     -- ** ExperimentExecution
-    ExperimentExecution,
+    ExperimentExecution (ExperimentExecution'),
     newExperimentExecution,
 
     -- ** ExperimentReport
-    ExperimentReport,
+    ExperimentReport (ExperimentReport'),
     newExperimentReport,
 
     -- ** ExperimentResultsData
-    ExperimentResultsData,
+    ExperimentResultsData (ExperimentResultsData'),
     newExperimentResultsData,
 
     -- ** ExperimentSchedule
-    ExperimentSchedule,
+    ExperimentSchedule (ExperimentSchedule'),
     newExperimentSchedule,
 
     -- ** Feature
-    Feature,
+    Feature (Feature'),
     newFeature,
 
     -- ** FeatureSummary
-    FeatureSummary,
+    FeatureSummary (FeatureSummary'),
     newFeatureSummary,
 
     -- ** Launch
-    Launch,
+    Launch (Launch'),
     newLaunch,
 
     -- ** LaunchExecution
-    LaunchExecution,
+    LaunchExecution (LaunchExecution'),
     newLaunchExecution,
 
     -- ** LaunchGroup
-    LaunchGroup,
+    LaunchGroup (LaunchGroup'),
     newLaunchGroup,
 
     -- ** LaunchGroupConfig
-    LaunchGroupConfig,
+    LaunchGroupConfig (LaunchGroupConfig'),
     newLaunchGroupConfig,
 
     -- ** MetricDefinition
-    MetricDefinition,
+    MetricDefinition (MetricDefinition'),
     newMetricDefinition,
 
     -- ** MetricDefinitionConfig
-    MetricDefinitionConfig,
+    MetricDefinitionConfig (MetricDefinitionConfig'),
     newMetricDefinitionConfig,
 
     -- ** MetricGoal
-    MetricGoal,
+    MetricGoal (MetricGoal'),
     newMetricGoal,
 
     -- ** MetricGoalConfig
-    MetricGoalConfig,
+    MetricGoalConfig (MetricGoalConfig'),
     newMetricGoalConfig,
 
     -- ** MetricMonitor
-    MetricMonitor,
+    MetricMonitor (MetricMonitor'),
     newMetricMonitor,
 
     -- ** MetricMonitorConfig
-    MetricMonitorConfig,
+    MetricMonitorConfig (MetricMonitorConfig'),
     newMetricMonitorConfig,
 
     -- ** OnlineAbConfig
-    OnlineAbConfig,
+    OnlineAbConfig (OnlineAbConfig'),
     newOnlineAbConfig,
 
     -- ** OnlineAbDefinition
-    OnlineAbDefinition,
+    OnlineAbDefinition (OnlineAbDefinition'),
     newOnlineAbDefinition,
 
     -- ** Project
-    Project,
+    Project (Project'),
     newProject,
 
     -- ** ProjectAppConfigResource
-    ProjectAppConfigResource,
+    ProjectAppConfigResource (ProjectAppConfigResource'),
     newProjectAppConfigResource,
 
     -- ** ProjectAppConfigResourceConfig
-    ProjectAppConfigResourceConfig,
+    ProjectAppConfigResourceConfig (ProjectAppConfigResourceConfig'),
     newProjectAppConfigResourceConfig,
 
     -- ** ProjectDataDelivery
-    ProjectDataDelivery,
+    ProjectDataDelivery (ProjectDataDelivery'),
     newProjectDataDelivery,
 
     -- ** ProjectDataDeliveryConfig
-    ProjectDataDeliveryConfig,
+    ProjectDataDeliveryConfig (ProjectDataDeliveryConfig'),
     newProjectDataDeliveryConfig,
 
     -- ** ProjectSummary
-    ProjectSummary,
+    ProjectSummary (ProjectSummary'),
     newProjectSummary,
 
     -- ** PutProjectEventsResultEntry
-    PutProjectEventsResultEntry,
+    PutProjectEventsResultEntry (PutProjectEventsResultEntry'),
     newPutProjectEventsResultEntry,
 
     -- ** RefResource
-    RefResource,
+    RefResource (RefResource'),
     newRefResource,
 
     -- ** S3Destination
-    S3Destination,
+    S3Destination (S3Destination'),
     newS3Destination,
 
     -- ** S3DestinationConfig
-    S3DestinationConfig,
+    S3DestinationConfig (S3DestinationConfig'),
     newS3DestinationConfig,
 
     -- ** ScheduledSplit
-    ScheduledSplit,
+    ScheduledSplit (ScheduledSplit'),
     newScheduledSplit,
 
     -- ** ScheduledSplitConfig
-    ScheduledSplitConfig,
+    ScheduledSplitConfig (ScheduledSplitConfig'),
     newScheduledSplitConfig,
 
     -- ** ScheduledSplitsLaunchConfig
-    ScheduledSplitsLaunchConfig,
+    ScheduledSplitsLaunchConfig (ScheduledSplitsLaunchConfig'),
     newScheduledSplitsLaunchConfig,
 
     -- ** ScheduledSplitsLaunchDefinition
-    ScheduledSplitsLaunchDefinition,
+    ScheduledSplitsLaunchDefinition (ScheduledSplitsLaunchDefinition'),
     newScheduledSplitsLaunchDefinition,
 
     -- ** Segment
-    Segment,
+    Segment (Segment'),
     newSegment,
 
     -- ** SegmentOverride
-    SegmentOverride,
+    SegmentOverride (SegmentOverride'),
     newSegmentOverride,
 
     -- ** Treatment
-    Treatment,
+    Treatment (Treatment'),
     newTreatment,
 
     -- ** TreatmentConfig
-    TreatmentConfig,
+    TreatmentConfig (TreatmentConfig'),
     newTreatmentConfig,
 
     -- ** VariableValue
-    VariableValue,
+    VariableValue (VariableValue'),
     newVariableValue,
 
     -- ** Variation
-    Variation,
+    Variation (Variation'),
     newVariation,
 
     -- ** VariationConfig
-    VariationConfig,
+    VariationConfig (VariationConfig'),
     newVariationConfig,
   )
 where

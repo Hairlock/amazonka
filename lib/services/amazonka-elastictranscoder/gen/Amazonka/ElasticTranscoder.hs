@@ -52,225 +52,225 @@ module Amazonka.ElasticTranscoder
     -- $operations
 
     -- ** CancelJob
-    CancelJob,
+    CancelJob (CancelJob'),
     newCancelJob,
-    CancelJobResponse,
+    CancelJobResponse (CancelJobResponse'),
     newCancelJobResponse,
 
     -- ** CreateJob
-    CreateJob,
+    CreateJob (CreateJob'),
     newCreateJob,
-    CreateJobResponse,
+    CreateJobResponse (CreateJobResponse'),
     newCreateJobResponse,
 
     -- ** CreatePipeline
-    CreatePipeline,
+    CreatePipeline (CreatePipeline'),
     newCreatePipeline,
-    CreatePipelineResponse,
+    CreatePipelineResponse (CreatePipelineResponse'),
     newCreatePipelineResponse,
 
     -- ** CreatePreset
-    CreatePreset,
+    CreatePreset (CreatePreset'),
     newCreatePreset,
-    CreatePresetResponse,
+    CreatePresetResponse (CreatePresetResponse'),
     newCreatePresetResponse,
 
     -- ** DeletePipeline
-    DeletePipeline,
+    DeletePipeline (DeletePipeline'),
     newDeletePipeline,
-    DeletePipelineResponse,
+    DeletePipelineResponse (DeletePipelineResponse'),
     newDeletePipelineResponse,
 
     -- ** DeletePreset
-    DeletePreset,
+    DeletePreset (DeletePreset'),
     newDeletePreset,
-    DeletePresetResponse,
+    DeletePresetResponse (DeletePresetResponse'),
     newDeletePresetResponse,
 
     -- ** ListJobsByPipeline (Paginated)
-    ListJobsByPipeline,
+    ListJobsByPipeline (ListJobsByPipeline'),
     newListJobsByPipeline,
-    ListJobsByPipelineResponse,
+    ListJobsByPipelineResponse (ListJobsByPipelineResponse'),
     newListJobsByPipelineResponse,
 
     -- ** ListJobsByStatus (Paginated)
-    ListJobsByStatus,
+    ListJobsByStatus (ListJobsByStatus'),
     newListJobsByStatus,
-    ListJobsByStatusResponse,
+    ListJobsByStatusResponse (ListJobsByStatusResponse'),
     newListJobsByStatusResponse,
 
     -- ** ListPipelines (Paginated)
-    ListPipelines,
+    ListPipelines (ListPipelines'),
     newListPipelines,
-    ListPipelinesResponse,
+    ListPipelinesResponse (ListPipelinesResponse'),
     newListPipelinesResponse,
 
     -- ** ListPresets (Paginated)
-    ListPresets,
+    ListPresets (ListPresets'),
     newListPresets,
-    ListPresetsResponse,
+    ListPresetsResponse (ListPresetsResponse'),
     newListPresetsResponse,
 
     -- ** ReadJob
-    ReadJob,
+    ReadJob (ReadJob'),
     newReadJob,
-    ReadJobResponse,
+    ReadJobResponse (ReadJobResponse'),
     newReadJobResponse,
 
     -- ** ReadPipeline
-    ReadPipeline,
+    ReadPipeline (ReadPipeline'),
     newReadPipeline,
-    ReadPipelineResponse,
+    ReadPipelineResponse (ReadPipelineResponse'),
     newReadPipelineResponse,
 
     -- ** ReadPreset
-    ReadPreset,
+    ReadPreset (ReadPreset'),
     newReadPreset,
-    ReadPresetResponse,
+    ReadPresetResponse (ReadPresetResponse'),
     newReadPresetResponse,
 
     -- ** UpdatePipeline
-    UpdatePipeline,
+    UpdatePipeline (UpdatePipeline'),
     newUpdatePipeline,
-    UpdatePipelineResponse,
+    UpdatePipelineResponse (UpdatePipelineResponse'),
     newUpdatePipelineResponse,
 
     -- ** UpdatePipelineNotifications
-    UpdatePipelineNotifications,
+    UpdatePipelineNotifications (UpdatePipelineNotifications'),
     newUpdatePipelineNotifications,
-    UpdatePipelineNotificationsResponse,
+    UpdatePipelineNotificationsResponse (UpdatePipelineNotificationsResponse'),
     newUpdatePipelineNotificationsResponse,
 
     -- ** UpdatePipelineStatus
-    UpdatePipelineStatus,
+    UpdatePipelineStatus (UpdatePipelineStatus'),
     newUpdatePipelineStatus,
-    UpdatePipelineStatusResponse,
+    UpdatePipelineStatusResponse (UpdatePipelineStatusResponse'),
     newUpdatePipelineStatusResponse,
 
     -- * Types
 
     -- ** Artwork
-    Artwork,
+    Artwork (Artwork'),
     newArtwork,
 
     -- ** AudioCodecOptions
-    AudioCodecOptions,
+    AudioCodecOptions (AudioCodecOptions'),
     newAudioCodecOptions,
 
     -- ** AudioParameters
-    AudioParameters,
+    AudioParameters (AudioParameters'),
     newAudioParameters,
 
     -- ** CaptionFormat
-    CaptionFormat,
+    CaptionFormat (CaptionFormat'),
     newCaptionFormat,
 
     -- ** CaptionSource
-    CaptionSource,
+    CaptionSource (CaptionSource'),
     newCaptionSource,
 
     -- ** Captions
-    Captions,
+    Captions (Captions'),
     newCaptions,
 
     -- ** Clip
-    Clip,
+    Clip (Clip'),
     newClip,
 
     -- ** CreateJobOutput
-    CreateJobOutput,
+    CreateJobOutput (CreateJobOutput'),
     newCreateJobOutput,
 
     -- ** CreateJobPlaylist
-    CreateJobPlaylist,
+    CreateJobPlaylist (CreateJobPlaylist'),
     newCreateJobPlaylist,
 
     -- ** DetectedProperties
-    DetectedProperties,
+    DetectedProperties (DetectedProperties'),
     newDetectedProperties,
 
     -- ** Encryption
-    Encryption,
+    Encryption (Encryption'),
     newEncryption,
 
     -- ** HlsContentProtection
-    HlsContentProtection,
+    HlsContentProtection (HlsContentProtection'),
     newHlsContentProtection,
 
     -- ** InputCaptions
-    InputCaptions,
+    InputCaptions (InputCaptions'),
     newInputCaptions,
 
     -- ** Job
-    Job,
+    Job (Job'),
     newJob,
 
     -- ** JobAlbumArt
-    JobAlbumArt,
+    JobAlbumArt (JobAlbumArt'),
     newJobAlbumArt,
 
     -- ** JobInput
-    JobInput,
+    JobInput (JobInput'),
     newJobInput,
 
     -- ** JobOutput
-    JobOutput,
+    JobOutput (JobOutput'),
     newJobOutput,
 
     -- ** JobWatermark
-    JobWatermark,
+    JobWatermark (JobWatermark'),
     newJobWatermark,
 
     -- ** Notifications
-    Notifications,
+    Notifications (Notifications'),
     newNotifications,
 
     -- ** Permission
-    Permission,
+    Permission (Permission'),
     newPermission,
 
     -- ** Pipeline
-    Pipeline,
+    Pipeline (Pipeline'),
     newPipeline,
 
     -- ** PipelineOutputConfig
-    PipelineOutputConfig,
+    PipelineOutputConfig (PipelineOutputConfig'),
     newPipelineOutputConfig,
 
     -- ** PlayReadyDrm
-    PlayReadyDrm,
+    PlayReadyDrm (PlayReadyDrm'),
     newPlayReadyDrm,
 
     -- ** Playlist
-    Playlist,
+    Playlist (Playlist'),
     newPlaylist,
 
     -- ** Preset
-    Preset,
+    Preset (Preset'),
     newPreset,
 
     -- ** PresetWatermark
-    PresetWatermark,
+    PresetWatermark (PresetWatermark'),
     newPresetWatermark,
 
     -- ** Thumbnails
-    Thumbnails,
+    Thumbnails (Thumbnails'),
     newThumbnails,
 
     -- ** TimeSpan
-    TimeSpan,
+    TimeSpan (TimeSpan'),
     newTimeSpan,
 
     -- ** Timing
-    Timing,
+    Timing (Timing'),
     newTiming,
 
     -- ** VideoParameters
-    VideoParameters,
+    VideoParameters (VideoParameters'),
     newVideoParameters,
 
     -- ** Warning
-    Warning,
+    Warning (Warning'),
     newWarning,
   )
 where

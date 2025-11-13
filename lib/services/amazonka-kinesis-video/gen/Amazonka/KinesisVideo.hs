@@ -69,171 +69,171 @@ module Amazonka.KinesisVideo
     -- $operations
 
     -- ** CreateSignalingChannel
-    CreateSignalingChannel,
+    CreateSignalingChannel (CreateSignalingChannel'),
     newCreateSignalingChannel,
-    CreateSignalingChannelResponse,
+    CreateSignalingChannelResponse (CreateSignalingChannelResponse'),
     newCreateSignalingChannelResponse,
 
     -- ** CreateStream
-    CreateStream,
+    CreateStream (CreateStream'),
     newCreateStream,
-    CreateStreamResponse,
+    CreateStreamResponse (CreateStreamResponse'),
     newCreateStreamResponse,
 
     -- ** DeleteSignalingChannel
-    DeleteSignalingChannel,
+    DeleteSignalingChannel (DeleteSignalingChannel'),
     newDeleteSignalingChannel,
-    DeleteSignalingChannelResponse,
+    DeleteSignalingChannelResponse (DeleteSignalingChannelResponse'),
     newDeleteSignalingChannelResponse,
 
     -- ** DeleteStream
-    DeleteStream,
+    DeleteStream (DeleteStream'),
     newDeleteStream,
-    DeleteStreamResponse,
+    DeleteStreamResponse (DeleteStreamResponse'),
     newDeleteStreamResponse,
 
     -- ** DescribeEdgeConfiguration
-    DescribeEdgeConfiguration,
+    DescribeEdgeConfiguration (DescribeEdgeConfiguration'),
     newDescribeEdgeConfiguration,
-    DescribeEdgeConfigurationResponse,
+    DescribeEdgeConfigurationResponse (DescribeEdgeConfigurationResponse'),
     newDescribeEdgeConfigurationResponse,
 
     -- ** DescribeImageGenerationConfiguration
-    DescribeImageGenerationConfiguration,
+    DescribeImageGenerationConfiguration (DescribeImageGenerationConfiguration'),
     newDescribeImageGenerationConfiguration,
-    DescribeImageGenerationConfigurationResponse,
+    DescribeImageGenerationConfigurationResponse (DescribeImageGenerationConfigurationResponse'),
     newDescribeImageGenerationConfigurationResponse,
 
     -- ** DescribeMappedResourceConfiguration (Paginated)
-    DescribeMappedResourceConfiguration,
+    DescribeMappedResourceConfiguration (DescribeMappedResourceConfiguration'),
     newDescribeMappedResourceConfiguration,
-    DescribeMappedResourceConfigurationResponse,
+    DescribeMappedResourceConfigurationResponse (DescribeMappedResourceConfigurationResponse'),
     newDescribeMappedResourceConfigurationResponse,
 
     -- ** DescribeMediaStorageConfiguration
-    DescribeMediaStorageConfiguration,
+    DescribeMediaStorageConfiguration (DescribeMediaStorageConfiguration'),
     newDescribeMediaStorageConfiguration,
-    DescribeMediaStorageConfigurationResponse,
+    DescribeMediaStorageConfigurationResponse (DescribeMediaStorageConfigurationResponse'),
     newDescribeMediaStorageConfigurationResponse,
 
     -- ** DescribeNotificationConfiguration
-    DescribeNotificationConfiguration,
+    DescribeNotificationConfiguration (DescribeNotificationConfiguration'),
     newDescribeNotificationConfiguration,
-    DescribeNotificationConfigurationResponse,
+    DescribeNotificationConfigurationResponse (DescribeNotificationConfigurationResponse'),
     newDescribeNotificationConfigurationResponse,
 
     -- ** DescribeSignalingChannel
-    DescribeSignalingChannel,
+    DescribeSignalingChannel (DescribeSignalingChannel'),
     newDescribeSignalingChannel,
-    DescribeSignalingChannelResponse,
+    DescribeSignalingChannelResponse (DescribeSignalingChannelResponse'),
     newDescribeSignalingChannelResponse,
 
     -- ** DescribeStream
-    DescribeStream,
+    DescribeStream (DescribeStream'),
     newDescribeStream,
-    DescribeStreamResponse,
+    DescribeStreamResponse (DescribeStreamResponse'),
     newDescribeStreamResponse,
 
     -- ** GetDataEndpoint
-    GetDataEndpoint,
+    GetDataEndpoint (GetDataEndpoint'),
     newGetDataEndpoint,
-    GetDataEndpointResponse,
+    GetDataEndpointResponse (GetDataEndpointResponse'),
     newGetDataEndpointResponse,
 
     -- ** GetSignalingChannelEndpoint
-    GetSignalingChannelEndpoint,
+    GetSignalingChannelEndpoint (GetSignalingChannelEndpoint'),
     newGetSignalingChannelEndpoint,
-    GetSignalingChannelEndpointResponse,
+    GetSignalingChannelEndpointResponse (GetSignalingChannelEndpointResponse'),
     newGetSignalingChannelEndpointResponse,
 
     -- ** ListSignalingChannels (Paginated)
-    ListSignalingChannels,
+    ListSignalingChannels (ListSignalingChannels'),
     newListSignalingChannels,
-    ListSignalingChannelsResponse,
+    ListSignalingChannelsResponse (ListSignalingChannelsResponse'),
     newListSignalingChannelsResponse,
 
     -- ** ListStreams (Paginated)
-    ListStreams,
+    ListStreams (ListStreams'),
     newListStreams,
-    ListStreamsResponse,
+    ListStreamsResponse (ListStreamsResponse'),
     newListStreamsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** ListTagsForStream
-    ListTagsForStream,
+    ListTagsForStream (ListTagsForStream'),
     newListTagsForStream,
-    ListTagsForStreamResponse,
+    ListTagsForStreamResponse (ListTagsForStreamResponse'),
     newListTagsForStreamResponse,
 
     -- ** StartEdgeConfigurationUpdate
-    StartEdgeConfigurationUpdate,
+    StartEdgeConfigurationUpdate (StartEdgeConfigurationUpdate'),
     newStartEdgeConfigurationUpdate,
-    StartEdgeConfigurationUpdateResponse,
+    StartEdgeConfigurationUpdateResponse (StartEdgeConfigurationUpdateResponse'),
     newStartEdgeConfigurationUpdateResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** TagStream
-    TagStream,
+    TagStream (TagStream'),
     newTagStream,
-    TagStreamResponse,
+    TagStreamResponse (TagStreamResponse'),
     newTagStreamResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UntagStream
-    UntagStream,
+    UntagStream (UntagStream'),
     newUntagStream,
-    UntagStreamResponse,
+    UntagStreamResponse (UntagStreamResponse'),
     newUntagStreamResponse,
 
     -- ** UpdateDataRetention
-    UpdateDataRetention,
+    UpdateDataRetention (UpdateDataRetention'),
     newUpdateDataRetention,
-    UpdateDataRetentionResponse,
+    UpdateDataRetentionResponse (UpdateDataRetentionResponse'),
     newUpdateDataRetentionResponse,
 
     -- ** UpdateImageGenerationConfiguration
-    UpdateImageGenerationConfiguration,
+    UpdateImageGenerationConfiguration (UpdateImageGenerationConfiguration'),
     newUpdateImageGenerationConfiguration,
-    UpdateImageGenerationConfigurationResponse,
+    UpdateImageGenerationConfigurationResponse (UpdateImageGenerationConfigurationResponse'),
     newUpdateImageGenerationConfigurationResponse,
 
     -- ** UpdateMediaStorageConfiguration
-    UpdateMediaStorageConfiguration,
+    UpdateMediaStorageConfiguration (UpdateMediaStorageConfiguration'),
     newUpdateMediaStorageConfiguration,
-    UpdateMediaStorageConfigurationResponse,
+    UpdateMediaStorageConfigurationResponse (UpdateMediaStorageConfigurationResponse'),
     newUpdateMediaStorageConfigurationResponse,
 
     -- ** UpdateNotificationConfiguration
-    UpdateNotificationConfiguration,
+    UpdateNotificationConfiguration (UpdateNotificationConfiguration'),
     newUpdateNotificationConfiguration,
-    UpdateNotificationConfigurationResponse,
+    UpdateNotificationConfigurationResponse (UpdateNotificationConfigurationResponse'),
     newUpdateNotificationConfigurationResponse,
 
     -- ** UpdateSignalingChannel
-    UpdateSignalingChannel,
+    UpdateSignalingChannel (UpdateSignalingChannel'),
     newUpdateSignalingChannel,
-    UpdateSignalingChannelResponse,
+    UpdateSignalingChannelResponse (UpdateSignalingChannelResponse'),
     newUpdateSignalingChannelResponse,
 
     -- ** UpdateStream
-    UpdateStream,
+    UpdateStream (UpdateStream'),
     newUpdateStream,
-    UpdateStreamResponse,
+    UpdateStreamResponse (UpdateStreamResponse'),
     newUpdateStreamResponse,
 
     -- * Types
@@ -284,87 +284,87 @@ module Amazonka.KinesisVideo
     UpdateDataRetentionOperation (..),
 
     -- ** ChannelInfo
-    ChannelInfo,
+    ChannelInfo (ChannelInfo'),
     newChannelInfo,
 
     -- ** ChannelNameCondition
-    ChannelNameCondition,
+    ChannelNameCondition (ChannelNameCondition'),
     newChannelNameCondition,
 
     -- ** DeletionConfig
-    DeletionConfig,
+    DeletionConfig (DeletionConfig'),
     newDeletionConfig,
 
     -- ** EdgeConfig
-    EdgeConfig,
+    EdgeConfig (EdgeConfig'),
     newEdgeConfig,
 
     -- ** ImageGenerationConfiguration
-    ImageGenerationConfiguration,
+    ImageGenerationConfiguration (ImageGenerationConfiguration'),
     newImageGenerationConfiguration,
 
     -- ** ImageGenerationDestinationConfig
-    ImageGenerationDestinationConfig,
+    ImageGenerationDestinationConfig (ImageGenerationDestinationConfig'),
     newImageGenerationDestinationConfig,
 
     -- ** LocalSizeConfig
-    LocalSizeConfig,
+    LocalSizeConfig (LocalSizeConfig'),
     newLocalSizeConfig,
 
     -- ** MappedResourceConfigurationListItem
-    MappedResourceConfigurationListItem,
+    MappedResourceConfigurationListItem (MappedResourceConfigurationListItem'),
     newMappedResourceConfigurationListItem,
 
     -- ** MediaSourceConfig
-    MediaSourceConfig,
+    MediaSourceConfig (MediaSourceConfig'),
     newMediaSourceConfig,
 
     -- ** MediaStorageConfiguration
-    MediaStorageConfiguration,
+    MediaStorageConfiguration (MediaStorageConfiguration'),
     newMediaStorageConfiguration,
 
     -- ** NotificationConfiguration
-    NotificationConfiguration,
+    NotificationConfiguration (NotificationConfiguration'),
     newNotificationConfiguration,
 
     -- ** NotificationDestinationConfig
-    NotificationDestinationConfig,
+    NotificationDestinationConfig (NotificationDestinationConfig'),
     newNotificationDestinationConfig,
 
     -- ** RecorderConfig
-    RecorderConfig,
+    RecorderConfig (RecorderConfig'),
     newRecorderConfig,
 
     -- ** ResourceEndpointListItem
-    ResourceEndpointListItem,
+    ResourceEndpointListItem (ResourceEndpointListItem'),
     newResourceEndpointListItem,
 
     -- ** ScheduleConfig
-    ScheduleConfig,
+    ScheduleConfig (ScheduleConfig'),
     newScheduleConfig,
 
     -- ** SingleMasterChannelEndpointConfiguration
-    SingleMasterChannelEndpointConfiguration,
+    SingleMasterChannelEndpointConfiguration (SingleMasterChannelEndpointConfiguration'),
     newSingleMasterChannelEndpointConfiguration,
 
     -- ** SingleMasterConfiguration
-    SingleMasterConfiguration,
+    SingleMasterConfiguration (SingleMasterConfiguration'),
     newSingleMasterConfiguration,
 
     -- ** StreamInfo
-    StreamInfo,
+    StreamInfo (StreamInfo'),
     newStreamInfo,
 
     -- ** StreamNameCondition
-    StreamNameCondition,
+    StreamNameCondition (StreamNameCondition'),
     newStreamNameCondition,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** UploaderConfig
-    UploaderConfig,
+    UploaderConfig (UploaderConfig'),
     newUploaderConfig,
   )
 where

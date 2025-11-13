@@ -44,81 +44,81 @@ module Amazonka.SnowDeviceManagement
     -- $operations
 
     -- ** CancelTask
-    CancelTask,
+    CancelTask (CancelTask'),
     newCancelTask,
-    CancelTaskResponse,
+    CancelTaskResponse (CancelTaskResponse'),
     newCancelTaskResponse,
 
     -- ** CreateTask
-    CreateTask,
+    CreateTask (CreateTask'),
     newCreateTask,
-    CreateTaskResponse,
+    CreateTaskResponse (CreateTaskResponse'),
     newCreateTaskResponse,
 
     -- ** DescribeDevice
-    DescribeDevice,
+    DescribeDevice (DescribeDevice'),
     newDescribeDevice,
-    DescribeDeviceResponse,
+    DescribeDeviceResponse (DescribeDeviceResponse'),
     newDescribeDeviceResponse,
 
     -- ** DescribeDeviceEc2Instances
-    DescribeDeviceEc2Instances,
+    DescribeDeviceEc2Instances (DescribeDeviceEc2Instances'),
     newDescribeDeviceEc2Instances,
-    DescribeDeviceEc2InstancesResponse,
+    DescribeDeviceEc2InstancesResponse (DescribeDeviceEc2InstancesResponse'),
     newDescribeDeviceEc2InstancesResponse,
 
     -- ** DescribeExecution
-    DescribeExecution,
+    DescribeExecution (DescribeExecution'),
     newDescribeExecution,
-    DescribeExecutionResponse,
+    DescribeExecutionResponse (DescribeExecutionResponse'),
     newDescribeExecutionResponse,
 
     -- ** DescribeTask
-    DescribeTask,
+    DescribeTask (DescribeTask'),
     newDescribeTask,
-    DescribeTaskResponse,
+    DescribeTaskResponse (DescribeTaskResponse'),
     newDescribeTaskResponse,
 
     -- ** ListDeviceResources (Paginated)
-    ListDeviceResources,
+    ListDeviceResources (ListDeviceResources'),
     newListDeviceResources,
-    ListDeviceResourcesResponse,
+    ListDeviceResourcesResponse (ListDeviceResourcesResponse'),
     newListDeviceResourcesResponse,
 
     -- ** ListDevices (Paginated)
-    ListDevices,
+    ListDevices (ListDevices'),
     newListDevices,
-    ListDevicesResponse,
+    ListDevicesResponse (ListDevicesResponse'),
     newListDevicesResponse,
 
     -- ** ListExecutions (Paginated)
-    ListExecutions,
+    ListExecutions (ListExecutions'),
     newListExecutions,
-    ListExecutionsResponse,
+    ListExecutionsResponse (ListExecutionsResponse'),
     newListExecutionsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** ListTasks (Paginated)
-    ListTasks,
+    ListTasks (ListTasks'),
     newListTasks,
-    ListTasksResponse,
+    ListTasksResponse (ListTasksResponse'),
     newListTasksResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- * Types
@@ -145,71 +145,71 @@ module Amazonka.SnowDeviceManagement
     UnlockState (..),
 
     -- ** Capacity
-    Capacity,
+    Capacity (Capacity'),
     newCapacity,
 
     -- ** Command
-    Command,
+    Command (Command'),
     newCommand,
 
     -- ** CpuOptions
-    CpuOptions,
+    CpuOptions (CpuOptions'),
     newCpuOptions,
 
     -- ** DeviceSummary
-    DeviceSummary,
+    DeviceSummary (DeviceSummary'),
     newDeviceSummary,
 
     -- ** EbsInstanceBlockDevice
-    EbsInstanceBlockDevice,
+    EbsInstanceBlockDevice (EbsInstanceBlockDevice'),
     newEbsInstanceBlockDevice,
 
     -- ** ExecutionSummary
-    ExecutionSummary,
+    ExecutionSummary (ExecutionSummary'),
     newExecutionSummary,
 
     -- ** Instance
-    Instance,
+    Instance (Instance'),
     newInstance,
 
     -- ** InstanceBlockDeviceMapping
-    InstanceBlockDeviceMapping,
+    InstanceBlockDeviceMapping (InstanceBlockDeviceMapping'),
     newInstanceBlockDeviceMapping,
 
     -- ** InstanceState
-    InstanceState,
+    InstanceState (InstanceState'),
     newInstanceState,
 
     -- ** InstanceSummary
-    InstanceSummary,
+    InstanceSummary (InstanceSummary'),
     newInstanceSummary,
 
     -- ** PhysicalNetworkInterface
-    PhysicalNetworkInterface,
+    PhysicalNetworkInterface (PhysicalNetworkInterface'),
     newPhysicalNetworkInterface,
 
     -- ** Reboot
-    Reboot,
+    Reboot (Reboot'),
     newReboot,
 
     -- ** ResourceSummary
-    ResourceSummary,
+    ResourceSummary (ResourceSummary'),
     newResourceSummary,
 
     -- ** SecurityGroupIdentifier
-    SecurityGroupIdentifier,
+    SecurityGroupIdentifier (SecurityGroupIdentifier'),
     newSecurityGroupIdentifier,
 
     -- ** SoftwareInformation
-    SoftwareInformation,
+    SoftwareInformation (SoftwareInformation'),
     newSoftwareInformation,
 
     -- ** TaskSummary
-    TaskSummary,
+    TaskSummary (TaskSummary'),
     newTaskSummary,
 
     -- ** Unlock
-    Unlock,
+    Unlock (Unlock'),
     newUnlock,
   )
 where

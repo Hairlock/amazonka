@@ -98,135 +98,135 @@ module Amazonka.SecretsManager
     -- $operations
 
     -- ** CancelRotateSecret
-    CancelRotateSecret,
+    CancelRotateSecret (CancelRotateSecret'),
     newCancelRotateSecret,
-    CancelRotateSecretResponse,
+    CancelRotateSecretResponse (CancelRotateSecretResponse'),
     newCancelRotateSecretResponse,
 
     -- ** CreateSecret
-    CreateSecret,
+    CreateSecret (CreateSecret'),
     newCreateSecret,
-    CreateSecretResponse,
+    CreateSecretResponse (CreateSecretResponse'),
     newCreateSecretResponse,
 
     -- ** DeleteResourcePolicy
-    DeleteResourcePolicy,
+    DeleteResourcePolicy (DeleteResourcePolicy'),
     newDeleteResourcePolicy,
-    DeleteResourcePolicyResponse,
+    DeleteResourcePolicyResponse (DeleteResourcePolicyResponse'),
     newDeleteResourcePolicyResponse,
 
     -- ** DeleteSecret
-    DeleteSecret,
+    DeleteSecret (DeleteSecret'),
     newDeleteSecret,
-    DeleteSecretResponse,
+    DeleteSecretResponse (DeleteSecretResponse'),
     newDeleteSecretResponse,
 
     -- ** DescribeSecret
-    DescribeSecret,
+    DescribeSecret (DescribeSecret'),
     newDescribeSecret,
-    DescribeSecretResponse,
+    DescribeSecretResponse (DescribeSecretResponse'),
     newDescribeSecretResponse,
 
     -- ** GetRandomPassword
-    GetRandomPassword,
+    GetRandomPassword (GetRandomPassword'),
     newGetRandomPassword,
-    GetRandomPasswordResponse,
+    GetRandomPasswordResponse (GetRandomPasswordResponse'),
     newGetRandomPasswordResponse,
 
     -- ** GetResourcePolicy
-    GetResourcePolicy,
+    GetResourcePolicy (GetResourcePolicy'),
     newGetResourcePolicy,
-    GetResourcePolicyResponse,
+    GetResourcePolicyResponse (GetResourcePolicyResponse'),
     newGetResourcePolicyResponse,
 
     -- ** GetSecretValue
-    GetSecretValue,
+    GetSecretValue (GetSecretValue'),
     newGetSecretValue,
-    GetSecretValueResponse,
+    GetSecretValueResponse (GetSecretValueResponse'),
     newGetSecretValueResponse,
 
     -- ** ListSecretVersionIds (Paginated)
-    ListSecretVersionIds,
+    ListSecretVersionIds (ListSecretVersionIds'),
     newListSecretVersionIds,
-    ListSecretVersionIdsResponse,
+    ListSecretVersionIdsResponse (ListSecretVersionIdsResponse'),
     newListSecretVersionIdsResponse,
 
     -- ** ListSecrets (Paginated)
-    ListSecrets,
+    ListSecrets (ListSecrets'),
     newListSecrets,
-    ListSecretsResponse,
+    ListSecretsResponse (ListSecretsResponse'),
     newListSecretsResponse,
 
     -- ** PutResourcePolicy
-    PutResourcePolicy,
+    PutResourcePolicy (PutResourcePolicy'),
     newPutResourcePolicy,
-    PutResourcePolicyResponse,
+    PutResourcePolicyResponse (PutResourcePolicyResponse'),
     newPutResourcePolicyResponse,
 
     -- ** PutSecretValue
-    PutSecretValue,
+    PutSecretValue (PutSecretValue'),
     newPutSecretValue,
-    PutSecretValueResponse,
+    PutSecretValueResponse (PutSecretValueResponse'),
     newPutSecretValueResponse,
 
     -- ** RemoveRegionsFromReplication
-    RemoveRegionsFromReplication,
+    RemoveRegionsFromReplication (RemoveRegionsFromReplication'),
     newRemoveRegionsFromReplication,
-    RemoveRegionsFromReplicationResponse,
+    RemoveRegionsFromReplicationResponse (RemoveRegionsFromReplicationResponse'),
     newRemoveRegionsFromReplicationResponse,
 
     -- ** ReplicateSecretToRegions
-    ReplicateSecretToRegions,
+    ReplicateSecretToRegions (ReplicateSecretToRegions'),
     newReplicateSecretToRegions,
-    ReplicateSecretToRegionsResponse,
+    ReplicateSecretToRegionsResponse (ReplicateSecretToRegionsResponse'),
     newReplicateSecretToRegionsResponse,
 
     -- ** RestoreSecret
-    RestoreSecret,
+    RestoreSecret (RestoreSecret'),
     newRestoreSecret,
-    RestoreSecretResponse,
+    RestoreSecretResponse (RestoreSecretResponse'),
     newRestoreSecretResponse,
 
     -- ** RotateSecret
-    RotateSecret,
+    RotateSecret (RotateSecret'),
     newRotateSecret,
-    RotateSecretResponse,
+    RotateSecretResponse (RotateSecretResponse'),
     newRotateSecretResponse,
 
     -- ** StopReplicationToReplica
-    StopReplicationToReplica,
+    StopReplicationToReplica (StopReplicationToReplica'),
     newStopReplicationToReplica,
-    StopReplicationToReplicaResponse,
+    StopReplicationToReplicaResponse (StopReplicationToReplicaResponse'),
     newStopReplicationToReplicaResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateSecret
-    UpdateSecret,
+    UpdateSecret (UpdateSecret'),
     newUpdateSecret,
-    UpdateSecretResponse,
+    UpdateSecretResponse (UpdateSecretResponse'),
     newUpdateSecretResponse,
 
     -- ** UpdateSecretVersionStage
-    UpdateSecretVersionStage,
+    UpdateSecretVersionStage (UpdateSecretVersionStage'),
     newUpdateSecretVersionStage,
-    UpdateSecretVersionStageResponse,
+    UpdateSecretVersionStageResponse (UpdateSecretVersionStageResponse'),
     newUpdateSecretVersionStageResponse,
 
     -- ** ValidateResourcePolicy
-    ValidateResourcePolicy,
+    ValidateResourcePolicy (ValidateResourcePolicy'),
     newValidateResourcePolicy,
-    ValidateResourcePolicyResponse,
+    ValidateResourcePolicyResponse (ValidateResourcePolicyResponse'),
     newValidateResourcePolicyResponse,
 
     -- * Types
@@ -241,35 +241,35 @@ module Amazonka.SecretsManager
     StatusType (..),
 
     -- ** Filter
-    Filter,
+    Filter (Filter'),
     newFilter,
 
     -- ** ReplicaRegionType
-    ReplicaRegionType,
+    ReplicaRegionType (ReplicaRegionType'),
     newReplicaRegionType,
 
     -- ** ReplicationStatusType
-    ReplicationStatusType,
+    ReplicationStatusType (ReplicationStatusType'),
     newReplicationStatusType,
 
     -- ** RotationRulesType
-    RotationRulesType,
+    RotationRulesType (RotationRulesType'),
     newRotationRulesType,
 
     -- ** SecretListEntry
-    SecretListEntry,
+    SecretListEntry (SecretListEntry'),
     newSecretListEntry,
 
     -- ** SecretVersionsListEntry
-    SecretVersionsListEntry,
+    SecretVersionsListEntry (SecretVersionsListEntry'),
     newSecretVersionsListEntry,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** ValidationErrorsEntry
-    ValidationErrorsEntry,
+    ValidationErrorsEntry (ValidationErrorsEntry'),
     newValidationErrorsEntry,
   )
 where

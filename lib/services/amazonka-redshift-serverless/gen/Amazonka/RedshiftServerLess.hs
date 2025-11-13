@@ -69,243 +69,243 @@ module Amazonka.RedshiftServerLess
     -- $operations
 
     -- ** ConvertRecoveryPointToSnapshot
-    ConvertRecoveryPointToSnapshot,
+    ConvertRecoveryPointToSnapshot (ConvertRecoveryPointToSnapshot'),
     newConvertRecoveryPointToSnapshot,
-    ConvertRecoveryPointToSnapshotResponse,
+    ConvertRecoveryPointToSnapshotResponse (ConvertRecoveryPointToSnapshotResponse'),
     newConvertRecoveryPointToSnapshotResponse,
 
     -- ** CreateEndpointAccess
-    CreateEndpointAccess,
+    CreateEndpointAccess (CreateEndpointAccess'),
     newCreateEndpointAccess,
-    CreateEndpointAccessResponse,
+    CreateEndpointAccessResponse (CreateEndpointAccessResponse'),
     newCreateEndpointAccessResponse,
 
     -- ** CreateNamespace
-    CreateNamespace,
+    CreateNamespace (CreateNamespace'),
     newCreateNamespace,
-    CreateNamespaceResponse,
+    CreateNamespaceResponse (CreateNamespaceResponse'),
     newCreateNamespaceResponse,
 
     -- ** CreateSnapshot
-    CreateSnapshot,
+    CreateSnapshot (CreateSnapshot'),
     newCreateSnapshot,
-    CreateSnapshotResponse,
+    CreateSnapshotResponse (CreateSnapshotResponse'),
     newCreateSnapshotResponse,
 
     -- ** CreateUsageLimit
-    CreateUsageLimit,
+    CreateUsageLimit (CreateUsageLimit'),
     newCreateUsageLimit,
-    CreateUsageLimitResponse,
+    CreateUsageLimitResponse (CreateUsageLimitResponse'),
     newCreateUsageLimitResponse,
 
     -- ** CreateWorkgroup
-    CreateWorkgroup,
+    CreateWorkgroup (CreateWorkgroup'),
     newCreateWorkgroup,
-    CreateWorkgroupResponse,
+    CreateWorkgroupResponse (CreateWorkgroupResponse'),
     newCreateWorkgroupResponse,
 
     -- ** DeleteEndpointAccess
-    DeleteEndpointAccess,
+    DeleteEndpointAccess (DeleteEndpointAccess'),
     newDeleteEndpointAccess,
-    DeleteEndpointAccessResponse,
+    DeleteEndpointAccessResponse (DeleteEndpointAccessResponse'),
     newDeleteEndpointAccessResponse,
 
     -- ** DeleteNamespace
-    DeleteNamespace,
+    DeleteNamespace (DeleteNamespace'),
     newDeleteNamespace,
-    DeleteNamespaceResponse,
+    DeleteNamespaceResponse (DeleteNamespaceResponse'),
     newDeleteNamespaceResponse,
 
     -- ** DeleteResourcePolicy
-    DeleteResourcePolicy,
+    DeleteResourcePolicy (DeleteResourcePolicy'),
     newDeleteResourcePolicy,
-    DeleteResourcePolicyResponse,
+    DeleteResourcePolicyResponse (DeleteResourcePolicyResponse'),
     newDeleteResourcePolicyResponse,
 
     -- ** DeleteSnapshot
-    DeleteSnapshot,
+    DeleteSnapshot (DeleteSnapshot'),
     newDeleteSnapshot,
-    DeleteSnapshotResponse,
+    DeleteSnapshotResponse (DeleteSnapshotResponse'),
     newDeleteSnapshotResponse,
 
     -- ** DeleteUsageLimit
-    DeleteUsageLimit,
+    DeleteUsageLimit (DeleteUsageLimit'),
     newDeleteUsageLimit,
-    DeleteUsageLimitResponse,
+    DeleteUsageLimitResponse (DeleteUsageLimitResponse'),
     newDeleteUsageLimitResponse,
 
     -- ** DeleteWorkgroup
-    DeleteWorkgroup,
+    DeleteWorkgroup (DeleteWorkgroup'),
     newDeleteWorkgroup,
-    DeleteWorkgroupResponse,
+    DeleteWorkgroupResponse (DeleteWorkgroupResponse'),
     newDeleteWorkgroupResponse,
 
     -- ** GetCredentials
-    GetCredentials,
+    GetCredentials (GetCredentials'),
     newGetCredentials,
-    GetCredentialsResponse,
+    GetCredentialsResponse (GetCredentialsResponse'),
     newGetCredentialsResponse,
 
     -- ** GetEndpointAccess
-    GetEndpointAccess,
+    GetEndpointAccess (GetEndpointAccess'),
     newGetEndpointAccess,
-    GetEndpointAccessResponse,
+    GetEndpointAccessResponse (GetEndpointAccessResponse'),
     newGetEndpointAccessResponse,
 
     -- ** GetNamespace
-    GetNamespace,
+    GetNamespace (GetNamespace'),
     newGetNamespace,
-    GetNamespaceResponse,
+    GetNamespaceResponse (GetNamespaceResponse'),
     newGetNamespaceResponse,
 
     -- ** GetRecoveryPoint
-    GetRecoveryPoint,
+    GetRecoveryPoint (GetRecoveryPoint'),
     newGetRecoveryPoint,
-    GetRecoveryPointResponse,
+    GetRecoveryPointResponse (GetRecoveryPointResponse'),
     newGetRecoveryPointResponse,
 
     -- ** GetResourcePolicy
-    GetResourcePolicy,
+    GetResourcePolicy (GetResourcePolicy'),
     newGetResourcePolicy,
-    GetResourcePolicyResponse,
+    GetResourcePolicyResponse (GetResourcePolicyResponse'),
     newGetResourcePolicyResponse,
 
     -- ** GetSnapshot
-    GetSnapshot,
+    GetSnapshot (GetSnapshot'),
     newGetSnapshot,
-    GetSnapshotResponse,
+    GetSnapshotResponse (GetSnapshotResponse'),
     newGetSnapshotResponse,
 
     -- ** GetTableRestoreStatus
-    GetTableRestoreStatus,
+    GetTableRestoreStatus (GetTableRestoreStatus'),
     newGetTableRestoreStatus,
-    GetTableRestoreStatusResponse,
+    GetTableRestoreStatusResponse (GetTableRestoreStatusResponse'),
     newGetTableRestoreStatusResponse,
 
     -- ** GetUsageLimit
-    GetUsageLimit,
+    GetUsageLimit (GetUsageLimit'),
     newGetUsageLimit,
-    GetUsageLimitResponse,
+    GetUsageLimitResponse (GetUsageLimitResponse'),
     newGetUsageLimitResponse,
 
     -- ** GetWorkgroup
-    GetWorkgroup,
+    GetWorkgroup (GetWorkgroup'),
     newGetWorkgroup,
-    GetWorkgroupResponse,
+    GetWorkgroupResponse (GetWorkgroupResponse'),
     newGetWorkgroupResponse,
 
     -- ** ListEndpointAccess (Paginated)
-    ListEndpointAccess,
+    ListEndpointAccess (ListEndpointAccess'),
     newListEndpointAccess,
-    ListEndpointAccessResponse,
+    ListEndpointAccessResponse (ListEndpointAccessResponse'),
     newListEndpointAccessResponse,
 
     -- ** ListNamespaces (Paginated)
-    ListNamespaces,
+    ListNamespaces (ListNamespaces'),
     newListNamespaces,
-    ListNamespacesResponse,
+    ListNamespacesResponse (ListNamespacesResponse'),
     newListNamespacesResponse,
 
     -- ** ListRecoveryPoints (Paginated)
-    ListRecoveryPoints,
+    ListRecoveryPoints (ListRecoveryPoints'),
     newListRecoveryPoints,
-    ListRecoveryPointsResponse,
+    ListRecoveryPointsResponse (ListRecoveryPointsResponse'),
     newListRecoveryPointsResponse,
 
     -- ** ListSnapshots (Paginated)
-    ListSnapshots,
+    ListSnapshots (ListSnapshots'),
     newListSnapshots,
-    ListSnapshotsResponse,
+    ListSnapshotsResponse (ListSnapshotsResponse'),
     newListSnapshotsResponse,
 
     -- ** ListTableRestoreStatus (Paginated)
-    ListTableRestoreStatus,
+    ListTableRestoreStatus (ListTableRestoreStatus'),
     newListTableRestoreStatus,
-    ListTableRestoreStatusResponse,
+    ListTableRestoreStatusResponse (ListTableRestoreStatusResponse'),
     newListTableRestoreStatusResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** ListUsageLimits (Paginated)
-    ListUsageLimits,
+    ListUsageLimits (ListUsageLimits'),
     newListUsageLimits,
-    ListUsageLimitsResponse,
+    ListUsageLimitsResponse (ListUsageLimitsResponse'),
     newListUsageLimitsResponse,
 
     -- ** ListWorkgroups (Paginated)
-    ListWorkgroups,
+    ListWorkgroups (ListWorkgroups'),
     newListWorkgroups,
-    ListWorkgroupsResponse,
+    ListWorkgroupsResponse (ListWorkgroupsResponse'),
     newListWorkgroupsResponse,
 
     -- ** PutResourcePolicy
-    PutResourcePolicy,
+    PutResourcePolicy (PutResourcePolicy'),
     newPutResourcePolicy,
-    PutResourcePolicyResponse,
+    PutResourcePolicyResponse (PutResourcePolicyResponse'),
     newPutResourcePolicyResponse,
 
     -- ** RestoreFromRecoveryPoint
-    RestoreFromRecoveryPoint,
+    RestoreFromRecoveryPoint (RestoreFromRecoveryPoint'),
     newRestoreFromRecoveryPoint,
-    RestoreFromRecoveryPointResponse,
+    RestoreFromRecoveryPointResponse (RestoreFromRecoveryPointResponse'),
     newRestoreFromRecoveryPointResponse,
 
     -- ** RestoreFromSnapshot
-    RestoreFromSnapshot,
+    RestoreFromSnapshot (RestoreFromSnapshot'),
     newRestoreFromSnapshot,
-    RestoreFromSnapshotResponse,
+    RestoreFromSnapshotResponse (RestoreFromSnapshotResponse'),
     newRestoreFromSnapshotResponse,
 
     -- ** RestoreTableFromSnapshot
-    RestoreTableFromSnapshot,
+    RestoreTableFromSnapshot (RestoreTableFromSnapshot'),
     newRestoreTableFromSnapshot,
-    RestoreTableFromSnapshotResponse,
+    RestoreTableFromSnapshotResponse (RestoreTableFromSnapshotResponse'),
     newRestoreTableFromSnapshotResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateEndpointAccess
-    UpdateEndpointAccess,
+    UpdateEndpointAccess (UpdateEndpointAccess'),
     newUpdateEndpointAccess,
-    UpdateEndpointAccessResponse,
+    UpdateEndpointAccessResponse (UpdateEndpointAccessResponse'),
     newUpdateEndpointAccessResponse,
 
     -- ** UpdateNamespace
-    UpdateNamespace,
+    UpdateNamespace (UpdateNamespace'),
     newUpdateNamespace,
-    UpdateNamespaceResponse,
+    UpdateNamespaceResponse (UpdateNamespaceResponse'),
     newUpdateNamespaceResponse,
 
     -- ** UpdateSnapshot
-    UpdateSnapshot,
+    UpdateSnapshot (UpdateSnapshot'),
     newUpdateSnapshot,
-    UpdateSnapshotResponse,
+    UpdateSnapshotResponse (UpdateSnapshotResponse'),
     newUpdateSnapshotResponse,
 
     -- ** UpdateUsageLimit
-    UpdateUsageLimit,
+    UpdateUsageLimit (UpdateUsageLimit'),
     newUpdateUsageLimit,
-    UpdateUsageLimitResponse,
+    UpdateUsageLimitResponse (UpdateUsageLimitResponse'),
     newUpdateUsageLimitResponse,
 
     -- ** UpdateWorkgroup
-    UpdateWorkgroup,
+    UpdateWorkgroup (UpdateWorkgroup'),
     newUpdateWorkgroup,
-    UpdateWorkgroupResponse,
+    UpdateWorkgroupResponse (UpdateWorkgroupResponse'),
     newUpdateWorkgroupResponse,
 
     -- * Types
@@ -332,59 +332,59 @@ module Amazonka.RedshiftServerLess
     WorkgroupStatus (..),
 
     -- ** ConfigParameter
-    ConfigParameter,
+    ConfigParameter (ConfigParameter'),
     newConfigParameter,
 
     -- ** Endpoint
-    Endpoint,
+    Endpoint (Endpoint'),
     newEndpoint,
 
     -- ** EndpointAccess
-    EndpointAccess,
+    EndpointAccess (EndpointAccess'),
     newEndpointAccess,
 
     -- ** Namespace
-    Namespace,
+    Namespace (Namespace'),
     newNamespace,
 
     -- ** NetworkInterface
-    NetworkInterface,
+    NetworkInterface (NetworkInterface'),
     newNetworkInterface,
 
     -- ** RecoveryPoint
-    RecoveryPoint,
+    RecoveryPoint (RecoveryPoint'),
     newRecoveryPoint,
 
     -- ** ResourcePolicy
-    ResourcePolicy,
+    ResourcePolicy (ResourcePolicy'),
     newResourcePolicy,
 
     -- ** Snapshot
-    Snapshot,
+    Snapshot (Snapshot'),
     newSnapshot,
 
     -- ** TableRestoreStatus
-    TableRestoreStatus,
+    TableRestoreStatus (TableRestoreStatus'),
     newTableRestoreStatus,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** UsageLimit
-    UsageLimit,
+    UsageLimit (UsageLimit'),
     newUsageLimit,
 
     -- ** VpcEndpoint
-    VpcEndpoint,
+    VpcEndpoint (VpcEndpoint'),
     newVpcEndpoint,
 
     -- ** VpcSecurityGroupMembership
-    VpcSecurityGroupMembership,
+    VpcSecurityGroupMembership (VpcSecurityGroupMembership'),
     newVpcSecurityGroupMembership,
 
     -- ** Workgroup
-    Workgroup,
+    Workgroup (Workgroup'),
     newWorkgroup,
   )
 where

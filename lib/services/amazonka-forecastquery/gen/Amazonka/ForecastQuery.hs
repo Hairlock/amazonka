@@ -41,25 +41,25 @@ module Amazonka.ForecastQuery
     -- $operations
 
     -- ** QueryForecast
-    QueryForecast,
+    QueryForecast (QueryForecast'),
     newQueryForecast,
-    QueryForecastResponse,
+    QueryForecastResponse (QueryForecastResponse'),
     newQueryForecastResponse,
 
     -- ** QueryWhatIfForecast
-    QueryWhatIfForecast,
+    QueryWhatIfForecast (QueryWhatIfForecast'),
     newQueryWhatIfForecast,
-    QueryWhatIfForecastResponse,
+    QueryWhatIfForecastResponse (QueryWhatIfForecastResponse'),
     newQueryWhatIfForecastResponse,
 
     -- * Types
 
     -- ** DataPoint
-    DataPoint,
+    DataPoint (DataPoint'),
     newDataPoint,
 
     -- ** Forecast
-    Forecast,
+    Forecast (Forecast'),
     newForecast,
   )
 where

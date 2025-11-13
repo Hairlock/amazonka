@@ -73,45 +73,45 @@ module Amazonka.IoTData
     -- $operations
 
     -- ** DeleteThingShadow
-    DeleteThingShadow,
+    DeleteThingShadow (DeleteThingShadow'),
     newDeleteThingShadow,
-    DeleteThingShadowResponse,
+    DeleteThingShadowResponse (DeleteThingShadowResponse'),
     newDeleteThingShadowResponse,
 
     -- ** GetRetainedMessage
-    GetRetainedMessage,
+    GetRetainedMessage (GetRetainedMessage'),
     newGetRetainedMessage,
-    GetRetainedMessageResponse,
+    GetRetainedMessageResponse (GetRetainedMessageResponse'),
     newGetRetainedMessageResponse,
 
     -- ** GetThingShadow
-    GetThingShadow,
+    GetThingShadow (GetThingShadow'),
     newGetThingShadow,
-    GetThingShadowResponse,
+    GetThingShadowResponse (GetThingShadowResponse'),
     newGetThingShadowResponse,
 
     -- ** ListNamedShadowsForThing
-    ListNamedShadowsForThing,
+    ListNamedShadowsForThing (ListNamedShadowsForThing'),
     newListNamedShadowsForThing,
-    ListNamedShadowsForThingResponse,
+    ListNamedShadowsForThingResponse (ListNamedShadowsForThingResponse'),
     newListNamedShadowsForThingResponse,
 
     -- ** ListRetainedMessages (Paginated)
-    ListRetainedMessages,
+    ListRetainedMessages (ListRetainedMessages'),
     newListRetainedMessages,
-    ListRetainedMessagesResponse,
+    ListRetainedMessagesResponse (ListRetainedMessagesResponse'),
     newListRetainedMessagesResponse,
 
     -- ** Publish
-    Publish,
+    Publish (Publish'),
     newPublish,
-    PublishResponse,
+    PublishResponse (PublishResponse'),
     newPublishResponse,
 
     -- ** UpdateThingShadow
-    UpdateThingShadow,
+    UpdateThingShadow (UpdateThingShadow'),
     newUpdateThingShadow,
-    UpdateThingShadowResponse,
+    UpdateThingShadowResponse (UpdateThingShadowResponse'),
     newUpdateThingShadowResponse,
 
     -- * Types
@@ -120,7 +120,7 @@ module Amazonka.IoTData
     PayloadFormatIndicator (..),
 
     -- ** RetainedMessageSummary
-    RetainedMessageSummary,
+    RetainedMessageSummary (RetainedMessageSummary'),
     newRetainedMessageSummary,
   )
 where

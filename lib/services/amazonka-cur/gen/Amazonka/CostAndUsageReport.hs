@@ -51,27 +51,27 @@ module Amazonka.CostAndUsageReport
     -- $operations
 
     -- ** DeleteReportDefinition
-    DeleteReportDefinition,
+    DeleteReportDefinition (DeleteReportDefinition'),
     newDeleteReportDefinition,
-    DeleteReportDefinitionResponse,
+    DeleteReportDefinitionResponse (DeleteReportDefinitionResponse'),
     newDeleteReportDefinitionResponse,
 
     -- ** DescribeReportDefinitions (Paginated)
-    DescribeReportDefinitions,
+    DescribeReportDefinitions (DescribeReportDefinitions'),
     newDescribeReportDefinitions,
-    DescribeReportDefinitionsResponse,
+    DescribeReportDefinitionsResponse (DescribeReportDefinitionsResponse'),
     newDescribeReportDefinitionsResponse,
 
     -- ** ModifyReportDefinition
-    ModifyReportDefinition,
+    ModifyReportDefinition (ModifyReportDefinition'),
     newModifyReportDefinition,
-    ModifyReportDefinitionResponse,
+    ModifyReportDefinitionResponse (ModifyReportDefinitionResponse'),
     newModifyReportDefinitionResponse,
 
     -- ** PutReportDefinition
-    PutReportDefinition,
+    PutReportDefinition (PutReportDefinition'),
     newPutReportDefinition,
-    PutReportDefinitionResponse,
+    PutReportDefinitionResponse (PutReportDefinitionResponse'),
     newPutReportDefinitionResponse,
 
     -- * Types
@@ -98,7 +98,7 @@ module Amazonka.CostAndUsageReport
     TimeUnit (..),
 
     -- ** ReportDefinition
-    ReportDefinition,
+    ReportDefinition (ReportDefinition'),
     newReportDefinition,
   )
 where

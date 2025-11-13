@@ -70,297 +70,297 @@ module Amazonka.OpenSearch
     -- $operations
 
     -- ** AcceptInboundConnection
-    AcceptInboundConnection,
+    AcceptInboundConnection (AcceptInboundConnection'),
     newAcceptInboundConnection,
-    AcceptInboundConnectionResponse,
+    AcceptInboundConnectionResponse (AcceptInboundConnectionResponse'),
     newAcceptInboundConnectionResponse,
 
     -- ** AddTags
-    AddTags,
+    AddTags (AddTags'),
     newAddTags,
-    AddTagsResponse,
+    AddTagsResponse (AddTagsResponse'),
     newAddTagsResponse,
 
     -- ** AssociatePackage
-    AssociatePackage,
+    AssociatePackage (AssociatePackage'),
     newAssociatePackage,
-    AssociatePackageResponse,
+    AssociatePackageResponse (AssociatePackageResponse'),
     newAssociatePackageResponse,
 
     -- ** AuthorizeVpcEndpointAccess
-    AuthorizeVpcEndpointAccess,
+    AuthorizeVpcEndpointAccess (AuthorizeVpcEndpointAccess'),
     newAuthorizeVpcEndpointAccess,
-    AuthorizeVpcEndpointAccessResponse,
+    AuthorizeVpcEndpointAccessResponse (AuthorizeVpcEndpointAccessResponse'),
     newAuthorizeVpcEndpointAccessResponse,
 
     -- ** CancelServiceSoftwareUpdate
-    CancelServiceSoftwareUpdate,
+    CancelServiceSoftwareUpdate (CancelServiceSoftwareUpdate'),
     newCancelServiceSoftwareUpdate,
-    CancelServiceSoftwareUpdateResponse,
+    CancelServiceSoftwareUpdateResponse (CancelServiceSoftwareUpdateResponse'),
     newCancelServiceSoftwareUpdateResponse,
 
     -- ** CreateDomain
-    CreateDomain,
+    CreateDomain (CreateDomain'),
     newCreateDomain,
-    CreateDomainResponse,
+    CreateDomainResponse (CreateDomainResponse'),
     newCreateDomainResponse,
 
     -- ** CreateOutboundConnection
-    CreateOutboundConnection,
+    CreateOutboundConnection (CreateOutboundConnection'),
     newCreateOutboundConnection,
-    CreateOutboundConnectionResponse,
+    CreateOutboundConnectionResponse (CreateOutboundConnectionResponse'),
     newCreateOutboundConnectionResponse,
 
     -- ** CreatePackage
-    CreatePackage,
+    CreatePackage (CreatePackage'),
     newCreatePackage,
-    CreatePackageResponse,
+    CreatePackageResponse (CreatePackageResponse'),
     newCreatePackageResponse,
 
     -- ** CreateVpcEndpoint
-    CreateVpcEndpoint,
+    CreateVpcEndpoint (CreateVpcEndpoint'),
     newCreateVpcEndpoint,
-    CreateVpcEndpointResponse,
+    CreateVpcEndpointResponse (CreateVpcEndpointResponse'),
     newCreateVpcEndpointResponse,
 
     -- ** DeleteDomain
-    DeleteDomain,
+    DeleteDomain (DeleteDomain'),
     newDeleteDomain,
-    DeleteDomainResponse,
+    DeleteDomainResponse (DeleteDomainResponse'),
     newDeleteDomainResponse,
 
     -- ** DeleteInboundConnection
-    DeleteInboundConnection,
+    DeleteInboundConnection (DeleteInboundConnection'),
     newDeleteInboundConnection,
-    DeleteInboundConnectionResponse,
+    DeleteInboundConnectionResponse (DeleteInboundConnectionResponse'),
     newDeleteInboundConnectionResponse,
 
     -- ** DeleteOutboundConnection
-    DeleteOutboundConnection,
+    DeleteOutboundConnection (DeleteOutboundConnection'),
     newDeleteOutboundConnection,
-    DeleteOutboundConnectionResponse,
+    DeleteOutboundConnectionResponse (DeleteOutboundConnectionResponse'),
     newDeleteOutboundConnectionResponse,
 
     -- ** DeletePackage
-    DeletePackage,
+    DeletePackage (DeletePackage'),
     newDeletePackage,
-    DeletePackageResponse,
+    DeletePackageResponse (DeletePackageResponse'),
     newDeletePackageResponse,
 
     -- ** DeleteVpcEndpoint
-    DeleteVpcEndpoint,
+    DeleteVpcEndpoint (DeleteVpcEndpoint'),
     newDeleteVpcEndpoint,
-    DeleteVpcEndpointResponse,
+    DeleteVpcEndpointResponse (DeleteVpcEndpointResponse'),
     newDeleteVpcEndpointResponse,
 
     -- ** DescribeDomain
-    DescribeDomain,
+    DescribeDomain (DescribeDomain'),
     newDescribeDomain,
-    DescribeDomainResponse,
+    DescribeDomainResponse (DescribeDomainResponse'),
     newDescribeDomainResponse,
 
     -- ** DescribeDomainAutoTunes
-    DescribeDomainAutoTunes,
+    DescribeDomainAutoTunes (DescribeDomainAutoTunes'),
     newDescribeDomainAutoTunes,
-    DescribeDomainAutoTunesResponse,
+    DescribeDomainAutoTunesResponse (DescribeDomainAutoTunesResponse'),
     newDescribeDomainAutoTunesResponse,
 
     -- ** DescribeDomainChangeProgress
-    DescribeDomainChangeProgress,
+    DescribeDomainChangeProgress (DescribeDomainChangeProgress'),
     newDescribeDomainChangeProgress,
-    DescribeDomainChangeProgressResponse,
+    DescribeDomainChangeProgressResponse (DescribeDomainChangeProgressResponse'),
     newDescribeDomainChangeProgressResponse,
 
     -- ** DescribeDomainConfig
-    DescribeDomainConfig,
+    DescribeDomainConfig (DescribeDomainConfig'),
     newDescribeDomainConfig,
-    DescribeDomainConfigResponse,
+    DescribeDomainConfigResponse (DescribeDomainConfigResponse'),
     newDescribeDomainConfigResponse,
 
     -- ** DescribeDomains
-    DescribeDomains,
+    DescribeDomains (DescribeDomains'),
     newDescribeDomains,
-    DescribeDomainsResponse,
+    DescribeDomainsResponse (DescribeDomainsResponse'),
     newDescribeDomainsResponse,
 
     -- ** DescribeInboundConnections
-    DescribeInboundConnections,
+    DescribeInboundConnections (DescribeInboundConnections'),
     newDescribeInboundConnections,
-    DescribeInboundConnectionsResponse,
+    DescribeInboundConnectionsResponse (DescribeInboundConnectionsResponse'),
     newDescribeInboundConnectionsResponse,
 
     -- ** DescribeInstanceTypeLimits
-    DescribeInstanceTypeLimits,
+    DescribeInstanceTypeLimits (DescribeInstanceTypeLimits'),
     newDescribeInstanceTypeLimits,
-    DescribeInstanceTypeLimitsResponse,
+    DescribeInstanceTypeLimitsResponse (DescribeInstanceTypeLimitsResponse'),
     newDescribeInstanceTypeLimitsResponse,
 
     -- ** DescribeOutboundConnections
-    DescribeOutboundConnections,
+    DescribeOutboundConnections (DescribeOutboundConnections'),
     newDescribeOutboundConnections,
-    DescribeOutboundConnectionsResponse,
+    DescribeOutboundConnectionsResponse (DescribeOutboundConnectionsResponse'),
     newDescribeOutboundConnectionsResponse,
 
     -- ** DescribePackages
-    DescribePackages,
+    DescribePackages (DescribePackages'),
     newDescribePackages,
-    DescribePackagesResponse,
+    DescribePackagesResponse (DescribePackagesResponse'),
     newDescribePackagesResponse,
 
     -- ** DescribeReservedInstanceOfferings
-    DescribeReservedInstanceOfferings,
+    DescribeReservedInstanceOfferings (DescribeReservedInstanceOfferings'),
     newDescribeReservedInstanceOfferings,
-    DescribeReservedInstanceOfferingsResponse,
+    DescribeReservedInstanceOfferingsResponse (DescribeReservedInstanceOfferingsResponse'),
     newDescribeReservedInstanceOfferingsResponse,
 
     -- ** DescribeReservedInstances
-    DescribeReservedInstances,
+    DescribeReservedInstances (DescribeReservedInstances'),
     newDescribeReservedInstances,
-    DescribeReservedInstancesResponse,
+    DescribeReservedInstancesResponse (DescribeReservedInstancesResponse'),
     newDescribeReservedInstancesResponse,
 
     -- ** DescribeVpcEndpoints
-    DescribeVpcEndpoints,
+    DescribeVpcEndpoints (DescribeVpcEndpoints'),
     newDescribeVpcEndpoints,
-    DescribeVpcEndpointsResponse,
+    DescribeVpcEndpointsResponse (DescribeVpcEndpointsResponse'),
     newDescribeVpcEndpointsResponse,
 
     -- ** DissociatePackage
-    DissociatePackage,
+    DissociatePackage (DissociatePackage'),
     newDissociatePackage,
-    DissociatePackageResponse,
+    DissociatePackageResponse (DissociatePackageResponse'),
     newDissociatePackageResponse,
 
     -- ** GetCompatibleVersions
-    GetCompatibleVersions,
+    GetCompatibleVersions (GetCompatibleVersions'),
     newGetCompatibleVersions,
-    GetCompatibleVersionsResponse,
+    GetCompatibleVersionsResponse (GetCompatibleVersionsResponse'),
     newGetCompatibleVersionsResponse,
 
     -- ** GetPackageVersionHistory
-    GetPackageVersionHistory,
+    GetPackageVersionHistory (GetPackageVersionHistory'),
     newGetPackageVersionHistory,
-    GetPackageVersionHistoryResponse,
+    GetPackageVersionHistoryResponse (GetPackageVersionHistoryResponse'),
     newGetPackageVersionHistoryResponse,
 
     -- ** GetUpgradeHistory
-    GetUpgradeHistory,
+    GetUpgradeHistory (GetUpgradeHistory'),
     newGetUpgradeHistory,
-    GetUpgradeHistoryResponse,
+    GetUpgradeHistoryResponse (GetUpgradeHistoryResponse'),
     newGetUpgradeHistoryResponse,
 
     -- ** GetUpgradeStatus
-    GetUpgradeStatus,
+    GetUpgradeStatus (GetUpgradeStatus'),
     newGetUpgradeStatus,
-    GetUpgradeStatusResponse,
+    GetUpgradeStatusResponse (GetUpgradeStatusResponse'),
     newGetUpgradeStatusResponse,
 
     -- ** ListDomainNames
-    ListDomainNames,
+    ListDomainNames (ListDomainNames'),
     newListDomainNames,
-    ListDomainNamesResponse,
+    ListDomainNamesResponse (ListDomainNamesResponse'),
     newListDomainNamesResponse,
 
     -- ** ListDomainsForPackage
-    ListDomainsForPackage,
+    ListDomainsForPackage (ListDomainsForPackage'),
     newListDomainsForPackage,
-    ListDomainsForPackageResponse,
+    ListDomainsForPackageResponse (ListDomainsForPackageResponse'),
     newListDomainsForPackageResponse,
 
     -- ** ListInstanceTypeDetails
-    ListInstanceTypeDetails,
+    ListInstanceTypeDetails (ListInstanceTypeDetails'),
     newListInstanceTypeDetails,
-    ListInstanceTypeDetailsResponse,
+    ListInstanceTypeDetailsResponse (ListInstanceTypeDetailsResponse'),
     newListInstanceTypeDetailsResponse,
 
     -- ** ListPackagesForDomain
-    ListPackagesForDomain,
+    ListPackagesForDomain (ListPackagesForDomain'),
     newListPackagesForDomain,
-    ListPackagesForDomainResponse,
+    ListPackagesForDomainResponse (ListPackagesForDomainResponse'),
     newListPackagesForDomainResponse,
 
     -- ** ListTags
-    ListTags,
+    ListTags (ListTags'),
     newListTags,
-    ListTagsResponse,
+    ListTagsResponse (ListTagsResponse'),
     newListTagsResponse,
 
     -- ** ListVersions
-    ListVersions,
+    ListVersions (ListVersions'),
     newListVersions,
-    ListVersionsResponse,
+    ListVersionsResponse (ListVersionsResponse'),
     newListVersionsResponse,
 
     -- ** ListVpcEndpointAccess
-    ListVpcEndpointAccess,
+    ListVpcEndpointAccess (ListVpcEndpointAccess'),
     newListVpcEndpointAccess,
-    ListVpcEndpointAccessResponse,
+    ListVpcEndpointAccessResponse (ListVpcEndpointAccessResponse'),
     newListVpcEndpointAccessResponse,
 
     -- ** ListVpcEndpoints
-    ListVpcEndpoints,
+    ListVpcEndpoints (ListVpcEndpoints'),
     newListVpcEndpoints,
-    ListVpcEndpointsResponse,
+    ListVpcEndpointsResponse (ListVpcEndpointsResponse'),
     newListVpcEndpointsResponse,
 
     -- ** ListVpcEndpointsForDomain
-    ListVpcEndpointsForDomain,
+    ListVpcEndpointsForDomain (ListVpcEndpointsForDomain'),
     newListVpcEndpointsForDomain,
-    ListVpcEndpointsForDomainResponse,
+    ListVpcEndpointsForDomainResponse (ListVpcEndpointsForDomainResponse'),
     newListVpcEndpointsForDomainResponse,
 
     -- ** PurchaseReservedInstanceOffering
-    PurchaseReservedInstanceOffering,
+    PurchaseReservedInstanceOffering (PurchaseReservedInstanceOffering'),
     newPurchaseReservedInstanceOffering,
-    PurchaseReservedInstanceOfferingResponse,
+    PurchaseReservedInstanceOfferingResponse (PurchaseReservedInstanceOfferingResponse'),
     newPurchaseReservedInstanceOfferingResponse,
 
     -- ** RejectInboundConnection
-    RejectInboundConnection,
+    RejectInboundConnection (RejectInboundConnection'),
     newRejectInboundConnection,
-    RejectInboundConnectionResponse,
+    RejectInboundConnectionResponse (RejectInboundConnectionResponse'),
     newRejectInboundConnectionResponse,
 
     -- ** RemoveTags
-    RemoveTags,
+    RemoveTags (RemoveTags'),
     newRemoveTags,
-    RemoveTagsResponse,
+    RemoveTagsResponse (RemoveTagsResponse'),
     newRemoveTagsResponse,
 
     -- ** RevokeVpcEndpointAccess
-    RevokeVpcEndpointAccess,
+    RevokeVpcEndpointAccess (RevokeVpcEndpointAccess'),
     newRevokeVpcEndpointAccess,
-    RevokeVpcEndpointAccessResponse,
+    RevokeVpcEndpointAccessResponse (RevokeVpcEndpointAccessResponse'),
     newRevokeVpcEndpointAccessResponse,
 
     -- ** StartServiceSoftwareUpdate
-    StartServiceSoftwareUpdate,
+    StartServiceSoftwareUpdate (StartServiceSoftwareUpdate'),
     newStartServiceSoftwareUpdate,
-    StartServiceSoftwareUpdateResponse,
+    StartServiceSoftwareUpdateResponse (StartServiceSoftwareUpdateResponse'),
     newStartServiceSoftwareUpdateResponse,
 
     -- ** UpdateDomainConfig
-    UpdateDomainConfig,
+    UpdateDomainConfig (UpdateDomainConfig'),
     newUpdateDomainConfig,
-    UpdateDomainConfigResponse,
+    UpdateDomainConfigResponse (UpdateDomainConfigResponse'),
     newUpdateDomainConfigResponse,
 
     -- ** UpdatePackage
-    UpdatePackage,
+    UpdatePackage (UpdatePackage'),
     newUpdatePackage,
-    UpdatePackageResponse,
+    UpdatePackageResponse (UpdatePackageResponse'),
     newUpdatePackageResponse,
 
     -- ** UpdateVpcEndpoint
-    UpdateVpcEndpoint,
+    UpdateVpcEndpoint (UpdateVpcEndpoint'),
     newUpdateVpcEndpoint,
-    UpdateVpcEndpointResponse,
+    UpdateVpcEndpointResponse (UpdateVpcEndpointResponse'),
     newUpdateVpcEndpointResponse,
 
     -- ** UpgradeDomain
-    UpgradeDomain,
+    UpgradeDomain (UpgradeDomain'),
     newUpgradeDomain,
-    UpgradeDomainResponse,
+    UpgradeDomainResponse (UpgradeDomainResponse'),
     newUpgradeDomainResponse,
 
     -- * Types
@@ -450,327 +450,327 @@ module Amazonka.OpenSearch
     VpcEndpointStatus (..),
 
     -- ** AWSDomainInformation
-    AWSDomainInformation,
+    AWSDomainInformation (AWSDomainInformation'),
     newAWSDomainInformation,
 
     -- ** AccessPoliciesStatus
-    AccessPoliciesStatus,
+    AccessPoliciesStatus (AccessPoliciesStatus'),
     newAccessPoliciesStatus,
 
     -- ** AdditionalLimit
-    AdditionalLimit,
+    AdditionalLimit (AdditionalLimit'),
     newAdditionalLimit,
 
     -- ** AdvancedOptionsStatus
-    AdvancedOptionsStatus,
+    AdvancedOptionsStatus (AdvancedOptionsStatus'),
     newAdvancedOptionsStatus,
 
     -- ** AdvancedSecurityOptions
-    AdvancedSecurityOptions,
+    AdvancedSecurityOptions (AdvancedSecurityOptions'),
     newAdvancedSecurityOptions,
 
     -- ** AdvancedSecurityOptionsInput
-    AdvancedSecurityOptionsInput,
+    AdvancedSecurityOptionsInput (AdvancedSecurityOptionsInput'),
     newAdvancedSecurityOptionsInput,
 
     -- ** AdvancedSecurityOptionsStatus
-    AdvancedSecurityOptionsStatus,
+    AdvancedSecurityOptionsStatus (AdvancedSecurityOptionsStatus'),
     newAdvancedSecurityOptionsStatus,
 
     -- ** AuthorizedPrincipal
-    AuthorizedPrincipal,
+    AuthorizedPrincipal (AuthorizedPrincipal'),
     newAuthorizedPrincipal,
 
     -- ** AutoTune
-    AutoTune,
+    AutoTune (AutoTune'),
     newAutoTune,
 
     -- ** AutoTuneDetails
-    AutoTuneDetails,
+    AutoTuneDetails (AutoTuneDetails'),
     newAutoTuneDetails,
 
     -- ** AutoTuneMaintenanceSchedule
-    AutoTuneMaintenanceSchedule,
+    AutoTuneMaintenanceSchedule (AutoTuneMaintenanceSchedule'),
     newAutoTuneMaintenanceSchedule,
 
     -- ** AutoTuneOptions
-    AutoTuneOptions,
+    AutoTuneOptions (AutoTuneOptions'),
     newAutoTuneOptions,
 
     -- ** AutoTuneOptionsInput
-    AutoTuneOptionsInput,
+    AutoTuneOptionsInput (AutoTuneOptionsInput'),
     newAutoTuneOptionsInput,
 
     -- ** AutoTuneOptionsOutput
-    AutoTuneOptionsOutput,
+    AutoTuneOptionsOutput (AutoTuneOptionsOutput'),
     newAutoTuneOptionsOutput,
 
     -- ** AutoTuneOptionsStatus
-    AutoTuneOptionsStatus,
+    AutoTuneOptionsStatus (AutoTuneOptionsStatus'),
     newAutoTuneOptionsStatus,
 
     -- ** AutoTuneStatus
-    AutoTuneStatus,
+    AutoTuneStatus (AutoTuneStatus'),
     newAutoTuneStatus,
 
     -- ** ChangeProgressDetails
-    ChangeProgressDetails,
+    ChangeProgressDetails (ChangeProgressDetails'),
     newChangeProgressDetails,
 
     -- ** ChangeProgressStage
-    ChangeProgressStage,
+    ChangeProgressStage (ChangeProgressStage'),
     newChangeProgressStage,
 
     -- ** ChangeProgressStatusDetails
-    ChangeProgressStatusDetails,
+    ChangeProgressStatusDetails (ChangeProgressStatusDetails'),
     newChangeProgressStatusDetails,
 
     -- ** ClusterConfig
-    ClusterConfig,
+    ClusterConfig (ClusterConfig'),
     newClusterConfig,
 
     -- ** ClusterConfigStatus
-    ClusterConfigStatus,
+    ClusterConfigStatus (ClusterConfigStatus'),
     newClusterConfigStatus,
 
     -- ** CognitoOptions
-    CognitoOptions,
+    CognitoOptions (CognitoOptions'),
     newCognitoOptions,
 
     -- ** CognitoOptionsStatus
-    CognitoOptionsStatus,
+    CognitoOptionsStatus (CognitoOptionsStatus'),
     newCognitoOptionsStatus,
 
     -- ** ColdStorageOptions
-    ColdStorageOptions,
+    ColdStorageOptions (ColdStorageOptions'),
     newColdStorageOptions,
 
     -- ** CompatibleVersionsMap
-    CompatibleVersionsMap,
+    CompatibleVersionsMap (CompatibleVersionsMap'),
     newCompatibleVersionsMap,
 
     -- ** DescribePackagesFilter
-    DescribePackagesFilter,
+    DescribePackagesFilter (DescribePackagesFilter'),
     newDescribePackagesFilter,
 
     -- ** DomainConfig
-    DomainConfig,
+    DomainConfig (DomainConfig'),
     newDomainConfig,
 
     -- ** DomainEndpointOptions
-    DomainEndpointOptions,
+    DomainEndpointOptions (DomainEndpointOptions'),
     newDomainEndpointOptions,
 
     -- ** DomainEndpointOptionsStatus
-    DomainEndpointOptionsStatus,
+    DomainEndpointOptionsStatus (DomainEndpointOptionsStatus'),
     newDomainEndpointOptionsStatus,
 
     -- ** DomainInfo
-    DomainInfo,
+    DomainInfo (DomainInfo'),
     newDomainInfo,
 
     -- ** DomainInformationContainer
-    DomainInformationContainer,
+    DomainInformationContainer (DomainInformationContainer'),
     newDomainInformationContainer,
 
     -- ** DomainPackageDetails
-    DomainPackageDetails,
+    DomainPackageDetails (DomainPackageDetails'),
     newDomainPackageDetails,
 
     -- ** DomainStatus
-    DomainStatus,
+    DomainStatus (DomainStatus'),
     newDomainStatus,
 
     -- ** DryRunResults
-    DryRunResults,
+    DryRunResults (DryRunResults'),
     newDryRunResults,
 
     -- ** Duration
-    Duration,
+    Duration (Duration'),
     newDuration,
 
     -- ** EBSOptions
-    EBSOptions,
+    EBSOptions (EBSOptions'),
     newEBSOptions,
 
     -- ** EBSOptionsStatus
-    EBSOptionsStatus,
+    EBSOptionsStatus (EBSOptionsStatus'),
     newEBSOptionsStatus,
 
     -- ** EncryptionAtRestOptions
-    EncryptionAtRestOptions,
+    EncryptionAtRestOptions (EncryptionAtRestOptions'),
     newEncryptionAtRestOptions,
 
     -- ** EncryptionAtRestOptionsStatus
-    EncryptionAtRestOptionsStatus,
+    EncryptionAtRestOptionsStatus (EncryptionAtRestOptionsStatus'),
     newEncryptionAtRestOptionsStatus,
 
     -- ** ErrorDetails
-    ErrorDetails,
+    ErrorDetails (ErrorDetails'),
     newErrorDetails,
 
     -- ** Filter
-    Filter,
+    Filter (Filter'),
     newFilter,
 
     -- ** InboundConnection
-    InboundConnection,
+    InboundConnection (InboundConnection'),
     newInboundConnection,
 
     -- ** InboundConnectionStatus
-    InboundConnectionStatus,
+    InboundConnectionStatus (InboundConnectionStatus'),
     newInboundConnectionStatus,
 
     -- ** InstanceCountLimits
-    InstanceCountLimits,
+    InstanceCountLimits (InstanceCountLimits'),
     newInstanceCountLimits,
 
     -- ** InstanceLimits
-    InstanceLimits,
+    InstanceLimits (InstanceLimits'),
     newInstanceLimits,
 
     -- ** InstanceTypeDetails
-    InstanceTypeDetails,
+    InstanceTypeDetails (InstanceTypeDetails'),
     newInstanceTypeDetails,
 
     -- ** Limits
-    Limits,
+    Limits (Limits'),
     newLimits,
 
     -- ** LogPublishingOption
-    LogPublishingOption,
+    LogPublishingOption (LogPublishingOption'),
     newLogPublishingOption,
 
     -- ** LogPublishingOptionsStatus
-    LogPublishingOptionsStatus,
+    LogPublishingOptionsStatus (LogPublishingOptionsStatus'),
     newLogPublishingOptionsStatus,
 
     -- ** MasterUserOptions
-    MasterUserOptions,
+    MasterUserOptions (MasterUserOptions'),
     newMasterUserOptions,
 
     -- ** NodeToNodeEncryptionOptions
-    NodeToNodeEncryptionOptions,
+    NodeToNodeEncryptionOptions (NodeToNodeEncryptionOptions'),
     newNodeToNodeEncryptionOptions,
 
     -- ** NodeToNodeEncryptionOptionsStatus
-    NodeToNodeEncryptionOptionsStatus,
+    NodeToNodeEncryptionOptionsStatus (NodeToNodeEncryptionOptionsStatus'),
     newNodeToNodeEncryptionOptionsStatus,
 
     -- ** OptionStatus
-    OptionStatus,
+    OptionStatus (OptionStatus'),
     newOptionStatus,
 
     -- ** OutboundConnection
-    OutboundConnection,
+    OutboundConnection (OutboundConnection'),
     newOutboundConnection,
 
     -- ** OutboundConnectionStatus
-    OutboundConnectionStatus,
+    OutboundConnectionStatus (OutboundConnectionStatus'),
     newOutboundConnectionStatus,
 
     -- ** PackageDetails
-    PackageDetails,
+    PackageDetails (PackageDetails'),
     newPackageDetails,
 
     -- ** PackageSource
-    PackageSource,
+    PackageSource (PackageSource'),
     newPackageSource,
 
     -- ** PackageVersionHistory
-    PackageVersionHistory,
+    PackageVersionHistory (PackageVersionHistory'),
     newPackageVersionHistory,
 
     -- ** RecurringCharge
-    RecurringCharge,
+    RecurringCharge (RecurringCharge'),
     newRecurringCharge,
 
     -- ** ReservedInstance
-    ReservedInstance,
+    ReservedInstance (ReservedInstance'),
     newReservedInstance,
 
     -- ** ReservedInstanceOffering
-    ReservedInstanceOffering,
+    ReservedInstanceOffering (ReservedInstanceOffering'),
     newReservedInstanceOffering,
 
     -- ** SAMLIdp
-    SAMLIdp,
+    SAMLIdp (SAMLIdp'),
     newSAMLIdp,
 
     -- ** SAMLOptionsInput
-    SAMLOptionsInput,
+    SAMLOptionsInput (SAMLOptionsInput'),
     newSAMLOptionsInput,
 
     -- ** SAMLOptionsOutput
-    SAMLOptionsOutput,
+    SAMLOptionsOutput (SAMLOptionsOutput'),
     newSAMLOptionsOutput,
 
     -- ** ScheduledAutoTuneDetails
-    ScheduledAutoTuneDetails,
+    ScheduledAutoTuneDetails (ScheduledAutoTuneDetails'),
     newScheduledAutoTuneDetails,
 
     -- ** ServiceSoftwareOptions
-    ServiceSoftwareOptions,
+    ServiceSoftwareOptions (ServiceSoftwareOptions'),
     newServiceSoftwareOptions,
 
     -- ** SnapshotOptions
-    SnapshotOptions,
+    SnapshotOptions (SnapshotOptions'),
     newSnapshotOptions,
 
     -- ** SnapshotOptionsStatus
-    SnapshotOptionsStatus,
+    SnapshotOptionsStatus (SnapshotOptionsStatus'),
     newSnapshotOptionsStatus,
 
     -- ** StorageType
-    StorageType,
+    StorageType (StorageType'),
     newStorageType,
 
     -- ** StorageTypeLimit
-    StorageTypeLimit,
+    StorageTypeLimit (StorageTypeLimit'),
     newStorageTypeLimit,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** UpgradeHistory
-    UpgradeHistory,
+    UpgradeHistory (UpgradeHistory'),
     newUpgradeHistory,
 
     -- ** UpgradeStepItem
-    UpgradeStepItem,
+    UpgradeStepItem (UpgradeStepItem'),
     newUpgradeStepItem,
 
     -- ** VPCDerivedInfo
-    VPCDerivedInfo,
+    VPCDerivedInfo (VPCDerivedInfo'),
     newVPCDerivedInfo,
 
     -- ** VPCDerivedInfoStatus
-    VPCDerivedInfoStatus,
+    VPCDerivedInfoStatus (VPCDerivedInfoStatus'),
     newVPCDerivedInfoStatus,
 
     -- ** VPCOptions
-    VPCOptions,
+    VPCOptions (VPCOptions'),
     newVPCOptions,
 
     -- ** VersionStatus
-    VersionStatus,
+    VersionStatus (VersionStatus'),
     newVersionStatus,
 
     -- ** VpcEndpoint
-    VpcEndpoint,
+    VpcEndpoint (VpcEndpoint'),
     newVpcEndpoint,
 
     -- ** VpcEndpointError
-    VpcEndpointError,
+    VpcEndpointError (VpcEndpointError'),
     newVpcEndpointError,
 
     -- ** VpcEndpointSummary
-    VpcEndpointSummary,
+    VpcEndpointSummary (VpcEndpointSummary'),
     newVpcEndpointSummary,
 
     -- ** ZoneAwarenessConfig
-    ZoneAwarenessConfig,
+    ZoneAwarenessConfig (ZoneAwarenessConfig'),
     newZoneAwarenessConfig,
   )
 where

@@ -42,267 +42,267 @@ module Amazonka.DataSync
     -- $operations
 
     -- ** CancelTaskExecution
-    CancelTaskExecution,
+    CancelTaskExecution (CancelTaskExecution'),
     newCancelTaskExecution,
-    CancelTaskExecutionResponse,
+    CancelTaskExecutionResponse (CancelTaskExecutionResponse'),
     newCancelTaskExecutionResponse,
 
     -- ** CreateAgent
-    CreateAgent,
+    CreateAgent (CreateAgent'),
     newCreateAgent,
-    CreateAgentResponse,
+    CreateAgentResponse (CreateAgentResponse'),
     newCreateAgentResponse,
 
     -- ** CreateLocationEfs
-    CreateLocationEfs,
+    CreateLocationEfs (CreateLocationEfs'),
     newCreateLocationEfs,
-    CreateLocationEfsResponse,
+    CreateLocationEfsResponse (CreateLocationEfsResponse'),
     newCreateLocationEfsResponse,
 
     -- ** CreateLocationFsxLustre
-    CreateLocationFsxLustre,
+    CreateLocationFsxLustre (CreateLocationFsxLustre'),
     newCreateLocationFsxLustre,
-    CreateLocationFsxLustreResponse,
+    CreateLocationFsxLustreResponse (CreateLocationFsxLustreResponse'),
     newCreateLocationFsxLustreResponse,
 
     -- ** CreateLocationFsxOntap
-    CreateLocationFsxOntap,
+    CreateLocationFsxOntap (CreateLocationFsxOntap'),
     newCreateLocationFsxOntap,
-    CreateLocationFsxOntapResponse,
+    CreateLocationFsxOntapResponse (CreateLocationFsxOntapResponse'),
     newCreateLocationFsxOntapResponse,
 
     -- ** CreateLocationFsxOpenZfs
-    CreateLocationFsxOpenZfs,
+    CreateLocationFsxOpenZfs (CreateLocationFsxOpenZfs'),
     newCreateLocationFsxOpenZfs,
-    CreateLocationFsxOpenZfsResponse,
+    CreateLocationFsxOpenZfsResponse (CreateLocationFsxOpenZfsResponse'),
     newCreateLocationFsxOpenZfsResponse,
 
     -- ** CreateLocationFsxWindows
-    CreateLocationFsxWindows,
+    CreateLocationFsxWindows (CreateLocationFsxWindows'),
     newCreateLocationFsxWindows,
-    CreateLocationFsxWindowsResponse,
+    CreateLocationFsxWindowsResponse (CreateLocationFsxWindowsResponse'),
     newCreateLocationFsxWindowsResponse,
 
     -- ** CreateLocationHdfs
-    CreateLocationHdfs,
+    CreateLocationHdfs (CreateLocationHdfs'),
     newCreateLocationHdfs,
-    CreateLocationHdfsResponse,
+    CreateLocationHdfsResponse (CreateLocationHdfsResponse'),
     newCreateLocationHdfsResponse,
 
     -- ** CreateLocationNfs
-    CreateLocationNfs,
+    CreateLocationNfs (CreateLocationNfs'),
     newCreateLocationNfs,
-    CreateLocationNfsResponse,
+    CreateLocationNfsResponse (CreateLocationNfsResponse'),
     newCreateLocationNfsResponse,
 
     -- ** CreateLocationObjectStorage
-    CreateLocationObjectStorage,
+    CreateLocationObjectStorage (CreateLocationObjectStorage'),
     newCreateLocationObjectStorage,
-    CreateLocationObjectStorageResponse,
+    CreateLocationObjectStorageResponse (CreateLocationObjectStorageResponse'),
     newCreateLocationObjectStorageResponse,
 
     -- ** CreateLocationS3
-    CreateLocationS3,
+    CreateLocationS3 (CreateLocationS3'),
     newCreateLocationS3,
-    CreateLocationS3Response,
+    CreateLocationS3Response (CreateLocationS3Response'),
     newCreateLocationS3Response,
 
     -- ** CreateLocationSmb
-    CreateLocationSmb,
+    CreateLocationSmb (CreateLocationSmb'),
     newCreateLocationSmb,
-    CreateLocationSmbResponse,
+    CreateLocationSmbResponse (CreateLocationSmbResponse'),
     newCreateLocationSmbResponse,
 
     -- ** CreateTask
-    CreateTask,
+    CreateTask (CreateTask'),
     newCreateTask,
-    CreateTaskResponse,
+    CreateTaskResponse (CreateTaskResponse'),
     newCreateTaskResponse,
 
     -- ** DeleteAgent
-    DeleteAgent,
+    DeleteAgent (DeleteAgent'),
     newDeleteAgent,
-    DeleteAgentResponse,
+    DeleteAgentResponse (DeleteAgentResponse'),
     newDeleteAgentResponse,
 
     -- ** DeleteLocation
-    DeleteLocation,
+    DeleteLocation (DeleteLocation'),
     newDeleteLocation,
-    DeleteLocationResponse,
+    DeleteLocationResponse (DeleteLocationResponse'),
     newDeleteLocationResponse,
 
     -- ** DeleteTask
-    DeleteTask,
+    DeleteTask (DeleteTask'),
     newDeleteTask,
-    DeleteTaskResponse,
+    DeleteTaskResponse (DeleteTaskResponse'),
     newDeleteTaskResponse,
 
     -- ** DescribeAgent
-    DescribeAgent,
+    DescribeAgent (DescribeAgent'),
     newDescribeAgent,
-    DescribeAgentResponse,
+    DescribeAgentResponse (DescribeAgentResponse'),
     newDescribeAgentResponse,
 
     -- ** DescribeLocationEfs
-    DescribeLocationEfs,
+    DescribeLocationEfs (DescribeLocationEfs'),
     newDescribeLocationEfs,
-    DescribeLocationEfsResponse,
+    DescribeLocationEfsResponse (DescribeLocationEfsResponse'),
     newDescribeLocationEfsResponse,
 
     -- ** DescribeLocationFsxLustre
-    DescribeLocationFsxLustre,
+    DescribeLocationFsxLustre (DescribeLocationFsxLustre'),
     newDescribeLocationFsxLustre,
-    DescribeLocationFsxLustreResponse,
+    DescribeLocationFsxLustreResponse (DescribeLocationFsxLustreResponse'),
     newDescribeLocationFsxLustreResponse,
 
     -- ** DescribeLocationFsxOntap
-    DescribeLocationFsxOntap,
+    DescribeLocationFsxOntap (DescribeLocationFsxOntap'),
     newDescribeLocationFsxOntap,
-    DescribeLocationFsxOntapResponse,
+    DescribeLocationFsxOntapResponse (DescribeLocationFsxOntapResponse'),
     newDescribeLocationFsxOntapResponse,
 
     -- ** DescribeLocationFsxOpenZfs
-    DescribeLocationFsxOpenZfs,
+    DescribeLocationFsxOpenZfs (DescribeLocationFsxOpenZfs'),
     newDescribeLocationFsxOpenZfs,
-    DescribeLocationFsxOpenZfsResponse,
+    DescribeLocationFsxOpenZfsResponse (DescribeLocationFsxOpenZfsResponse'),
     newDescribeLocationFsxOpenZfsResponse,
 
     -- ** DescribeLocationFsxWindows
-    DescribeLocationFsxWindows,
+    DescribeLocationFsxWindows (DescribeLocationFsxWindows'),
     newDescribeLocationFsxWindows,
-    DescribeLocationFsxWindowsResponse,
+    DescribeLocationFsxWindowsResponse (DescribeLocationFsxWindowsResponse'),
     newDescribeLocationFsxWindowsResponse,
 
     -- ** DescribeLocationHdfs
-    DescribeLocationHdfs,
+    DescribeLocationHdfs (DescribeLocationHdfs'),
     newDescribeLocationHdfs,
-    DescribeLocationHdfsResponse,
+    DescribeLocationHdfsResponse (DescribeLocationHdfsResponse'),
     newDescribeLocationHdfsResponse,
 
     -- ** DescribeLocationNfs
-    DescribeLocationNfs,
+    DescribeLocationNfs (DescribeLocationNfs'),
     newDescribeLocationNfs,
-    DescribeLocationNfsResponse,
+    DescribeLocationNfsResponse (DescribeLocationNfsResponse'),
     newDescribeLocationNfsResponse,
 
     -- ** DescribeLocationObjectStorage
-    DescribeLocationObjectStorage,
+    DescribeLocationObjectStorage (DescribeLocationObjectStorage'),
     newDescribeLocationObjectStorage,
-    DescribeLocationObjectStorageResponse,
+    DescribeLocationObjectStorageResponse (DescribeLocationObjectStorageResponse'),
     newDescribeLocationObjectStorageResponse,
 
     -- ** DescribeLocationS3
-    DescribeLocationS3,
+    DescribeLocationS3 (DescribeLocationS3'),
     newDescribeLocationS3,
-    DescribeLocationS3Response,
+    DescribeLocationS3Response (DescribeLocationS3Response'),
     newDescribeLocationS3Response,
 
     -- ** DescribeLocationSmb
-    DescribeLocationSmb,
+    DescribeLocationSmb (DescribeLocationSmb'),
     newDescribeLocationSmb,
-    DescribeLocationSmbResponse,
+    DescribeLocationSmbResponse (DescribeLocationSmbResponse'),
     newDescribeLocationSmbResponse,
 
     -- ** DescribeTask
-    DescribeTask,
+    DescribeTask (DescribeTask'),
     newDescribeTask,
-    DescribeTaskResponse,
+    DescribeTaskResponse (DescribeTaskResponse'),
     newDescribeTaskResponse,
 
     -- ** DescribeTaskExecution
-    DescribeTaskExecution,
+    DescribeTaskExecution (DescribeTaskExecution'),
     newDescribeTaskExecution,
-    DescribeTaskExecutionResponse,
+    DescribeTaskExecutionResponse (DescribeTaskExecutionResponse'),
     newDescribeTaskExecutionResponse,
 
     -- ** ListAgents (Paginated)
-    ListAgents,
+    ListAgents (ListAgents'),
     newListAgents,
-    ListAgentsResponse,
+    ListAgentsResponse (ListAgentsResponse'),
     newListAgentsResponse,
 
     -- ** ListLocations (Paginated)
-    ListLocations,
+    ListLocations (ListLocations'),
     newListLocations,
-    ListLocationsResponse,
+    ListLocationsResponse (ListLocationsResponse'),
     newListLocationsResponse,
 
     -- ** ListTagsForResource (Paginated)
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** ListTaskExecutions (Paginated)
-    ListTaskExecutions,
+    ListTaskExecutions (ListTaskExecutions'),
     newListTaskExecutions,
-    ListTaskExecutionsResponse,
+    ListTaskExecutionsResponse (ListTaskExecutionsResponse'),
     newListTaskExecutionsResponse,
 
     -- ** ListTasks (Paginated)
-    ListTasks,
+    ListTasks (ListTasks'),
     newListTasks,
-    ListTasksResponse,
+    ListTasksResponse (ListTasksResponse'),
     newListTasksResponse,
 
     -- ** StartTaskExecution
-    StartTaskExecution,
+    StartTaskExecution (StartTaskExecution'),
     newStartTaskExecution,
-    StartTaskExecutionResponse,
+    StartTaskExecutionResponse (StartTaskExecutionResponse'),
     newStartTaskExecutionResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateAgent
-    UpdateAgent,
+    UpdateAgent (UpdateAgent'),
     newUpdateAgent,
-    UpdateAgentResponse,
+    UpdateAgentResponse (UpdateAgentResponse'),
     newUpdateAgentResponse,
 
     -- ** UpdateLocationHdfs
-    UpdateLocationHdfs,
+    UpdateLocationHdfs (UpdateLocationHdfs'),
     newUpdateLocationHdfs,
-    UpdateLocationHdfsResponse,
+    UpdateLocationHdfsResponse (UpdateLocationHdfsResponse'),
     newUpdateLocationHdfsResponse,
 
     -- ** UpdateLocationNfs
-    UpdateLocationNfs,
+    UpdateLocationNfs (UpdateLocationNfs'),
     newUpdateLocationNfs,
-    UpdateLocationNfsResponse,
+    UpdateLocationNfsResponse (UpdateLocationNfsResponse'),
     newUpdateLocationNfsResponse,
 
     -- ** UpdateLocationObjectStorage
-    UpdateLocationObjectStorage,
+    UpdateLocationObjectStorage (UpdateLocationObjectStorage'),
     newUpdateLocationObjectStorage,
-    UpdateLocationObjectStorageResponse,
+    UpdateLocationObjectStorageResponse (UpdateLocationObjectStorageResponse'),
     newUpdateLocationObjectStorageResponse,
 
     -- ** UpdateLocationSmb
-    UpdateLocationSmb,
+    UpdateLocationSmb (UpdateLocationSmb'),
     newUpdateLocationSmb,
-    UpdateLocationSmbResponse,
+    UpdateLocationSmbResponse (UpdateLocationSmbResponse'),
     newUpdateLocationSmbResponse,
 
     -- ** UpdateTask
-    UpdateTask,
+    UpdateTask (UpdateTask'),
     newUpdateTask,
-    UpdateTaskResponse,
+    UpdateTaskResponse (UpdateTaskResponse'),
     newUpdateTaskResponse,
 
     -- ** UpdateTaskExecution
-    UpdateTaskExecution,
+    UpdateTaskExecution (UpdateTaskExecution'),
     newUpdateTaskExecution,
-    UpdateTaskExecutionResponse,
+    UpdateTaskExecutionResponse (UpdateTaskExecutionResponse'),
     newUpdateTaskExecutionResponse,
 
     -- * Types
@@ -401,91 +401,91 @@ module Amazonka.DataSync
     VerifyMode (..),
 
     -- ** AgentListEntry
-    AgentListEntry,
+    AgentListEntry (AgentListEntry'),
     newAgentListEntry,
 
     -- ** Ec2Config
-    Ec2Config,
+    Ec2Config (Ec2Config'),
     newEc2Config,
 
     -- ** FilterRule
-    FilterRule,
+    FilterRule (FilterRule'),
     newFilterRule,
 
     -- ** FsxProtocol
-    FsxProtocol,
+    FsxProtocol (FsxProtocol'),
     newFsxProtocol,
 
     -- ** FsxProtocolNfs
-    FsxProtocolNfs,
+    FsxProtocolNfs (FsxProtocolNfs'),
     newFsxProtocolNfs,
 
     -- ** FsxProtocolSmb
-    FsxProtocolSmb,
+    FsxProtocolSmb (FsxProtocolSmb'),
     newFsxProtocolSmb,
 
     -- ** HdfsNameNode
-    HdfsNameNode,
+    HdfsNameNode (HdfsNameNode'),
     newHdfsNameNode,
 
     -- ** LocationFilter
-    LocationFilter,
+    LocationFilter (LocationFilter'),
     newLocationFilter,
 
     -- ** LocationListEntry
-    LocationListEntry,
+    LocationListEntry (LocationListEntry'),
     newLocationListEntry,
 
     -- ** NfsMountOptions
-    NfsMountOptions,
+    NfsMountOptions (NfsMountOptions'),
     newNfsMountOptions,
 
     -- ** OnPremConfig
-    OnPremConfig,
+    OnPremConfig (OnPremConfig'),
     newOnPremConfig,
 
     -- ** Options
-    Options,
+    Options (Options'),
     newOptions,
 
     -- ** PrivateLinkConfig
-    PrivateLinkConfig,
+    PrivateLinkConfig (PrivateLinkConfig'),
     newPrivateLinkConfig,
 
     -- ** QopConfiguration
-    QopConfiguration,
+    QopConfiguration (QopConfiguration'),
     newQopConfiguration,
 
     -- ** S3Config
-    S3Config,
+    S3Config (S3Config'),
     newS3Config,
 
     -- ** SmbMountOptions
-    SmbMountOptions,
+    SmbMountOptions (SmbMountOptions'),
     newSmbMountOptions,
 
     -- ** TagListEntry
-    TagListEntry,
+    TagListEntry (TagListEntry'),
     newTagListEntry,
 
     -- ** TaskExecutionListEntry
-    TaskExecutionListEntry,
+    TaskExecutionListEntry (TaskExecutionListEntry'),
     newTaskExecutionListEntry,
 
     -- ** TaskExecutionResultDetail
-    TaskExecutionResultDetail,
+    TaskExecutionResultDetail (TaskExecutionResultDetail'),
     newTaskExecutionResultDetail,
 
     -- ** TaskFilter
-    TaskFilter,
+    TaskFilter (TaskFilter'),
     newTaskFilter,
 
     -- ** TaskListEntry
-    TaskListEntry,
+    TaskListEntry (TaskListEntry'),
     newTaskListEntry,
 
     -- ** TaskSchedule
-    TaskSchedule,
+    TaskSchedule (TaskSchedule'),
     newTaskSchedule,
   )
 where

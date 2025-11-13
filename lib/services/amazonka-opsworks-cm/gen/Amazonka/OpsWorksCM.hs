@@ -117,117 +117,117 @@ module Amazonka.OpsWorksCM
     -- $operations
 
     -- ** AssociateNode
-    AssociateNode,
+    AssociateNode (AssociateNode'),
     newAssociateNode,
-    AssociateNodeResponse,
+    AssociateNodeResponse (AssociateNodeResponse'),
     newAssociateNodeResponse,
 
     -- ** CreateBackup
-    CreateBackup,
+    CreateBackup (CreateBackup'),
     newCreateBackup,
-    CreateBackupResponse,
+    CreateBackupResponse (CreateBackupResponse'),
     newCreateBackupResponse,
 
     -- ** CreateServer
-    CreateServer,
+    CreateServer (CreateServer'),
     newCreateServer,
-    CreateServerResponse,
+    CreateServerResponse (CreateServerResponse'),
     newCreateServerResponse,
 
     -- ** DeleteBackup
-    DeleteBackup,
+    DeleteBackup (DeleteBackup'),
     newDeleteBackup,
-    DeleteBackupResponse,
+    DeleteBackupResponse (DeleteBackupResponse'),
     newDeleteBackupResponse,
 
     -- ** DeleteServer
-    DeleteServer,
+    DeleteServer (DeleteServer'),
     newDeleteServer,
-    DeleteServerResponse,
+    DeleteServerResponse (DeleteServerResponse'),
     newDeleteServerResponse,
 
     -- ** DescribeAccountAttributes
-    DescribeAccountAttributes,
+    DescribeAccountAttributes (DescribeAccountAttributes'),
     newDescribeAccountAttributes,
-    DescribeAccountAttributesResponse,
+    DescribeAccountAttributesResponse (DescribeAccountAttributesResponse'),
     newDescribeAccountAttributesResponse,
 
     -- ** DescribeBackups (Paginated)
-    DescribeBackups,
+    DescribeBackups (DescribeBackups'),
     newDescribeBackups,
-    DescribeBackupsResponse,
+    DescribeBackupsResponse (DescribeBackupsResponse'),
     newDescribeBackupsResponse,
 
     -- ** DescribeEvents (Paginated)
-    DescribeEvents,
+    DescribeEvents (DescribeEvents'),
     newDescribeEvents,
-    DescribeEventsResponse,
+    DescribeEventsResponse (DescribeEventsResponse'),
     newDescribeEventsResponse,
 
     -- ** DescribeNodeAssociationStatus
-    DescribeNodeAssociationStatus,
+    DescribeNodeAssociationStatus (DescribeNodeAssociationStatus'),
     newDescribeNodeAssociationStatus,
-    DescribeNodeAssociationStatusResponse,
+    DescribeNodeAssociationStatusResponse (DescribeNodeAssociationStatusResponse'),
     newDescribeNodeAssociationStatusResponse,
 
     -- ** DescribeServers (Paginated)
-    DescribeServers,
+    DescribeServers (DescribeServers'),
     newDescribeServers,
-    DescribeServersResponse,
+    DescribeServersResponse (DescribeServersResponse'),
     newDescribeServersResponse,
 
     -- ** DisassociateNode
-    DisassociateNode,
+    DisassociateNode (DisassociateNode'),
     newDisassociateNode,
-    DisassociateNodeResponse,
+    DisassociateNodeResponse (DisassociateNodeResponse'),
     newDisassociateNodeResponse,
 
     -- ** ExportServerEngineAttribute
-    ExportServerEngineAttribute,
+    ExportServerEngineAttribute (ExportServerEngineAttribute'),
     newExportServerEngineAttribute,
-    ExportServerEngineAttributeResponse,
+    ExportServerEngineAttributeResponse (ExportServerEngineAttributeResponse'),
     newExportServerEngineAttributeResponse,
 
     -- ** ListTagsForResource (Paginated)
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** RestoreServer
-    RestoreServer,
+    RestoreServer (RestoreServer'),
     newRestoreServer,
-    RestoreServerResponse,
+    RestoreServerResponse (RestoreServerResponse'),
     newRestoreServerResponse,
 
     -- ** StartMaintenance
-    StartMaintenance,
+    StartMaintenance (StartMaintenance'),
     newStartMaintenance,
-    StartMaintenanceResponse,
+    StartMaintenanceResponse (StartMaintenanceResponse'),
     newStartMaintenanceResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateServer
-    UpdateServer,
+    UpdateServer (UpdateServer'),
     newUpdateServer,
-    UpdateServerResponse,
+    UpdateServerResponse (UpdateServerResponse'),
     newUpdateServerResponse,
 
     -- ** UpdateServerEngineAttributes
-    UpdateServerEngineAttributes,
+    UpdateServerEngineAttributes (UpdateServerEngineAttributes'),
     newUpdateServerEngineAttributes,
-    UpdateServerEngineAttributesResponse,
+    UpdateServerEngineAttributesResponse (UpdateServerEngineAttributesResponse'),
     newUpdateServerEngineAttributesResponse,
 
     -- * Types
@@ -248,27 +248,27 @@ module Amazonka.OpsWorksCM
     ServerStatus (..),
 
     -- ** AccountAttribute
-    AccountAttribute,
+    AccountAttribute (AccountAttribute'),
     newAccountAttribute,
 
     -- ** Backup
-    Backup,
+    Backup (Backup'),
     newBackup,
 
     -- ** EngineAttribute
-    EngineAttribute,
+    EngineAttribute (EngineAttribute'),
     newEngineAttribute,
 
     -- ** Server
-    Server,
+    Server (Server'),
     newServer,
 
     -- ** ServerEvent
-    ServerEvent,
+    ServerEvent (ServerEvent'),
     newServerEvent,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
   )
 where

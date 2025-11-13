@@ -43,21 +43,21 @@ module Amazonka.CloudSearchDomains
     -- $operations
 
     -- ** Search
-    Search,
+    Search (Search'),
     newSearch,
-    SearchResponse,
+    SearchResponse (SearchResponse'),
     newSearchResponse,
 
     -- ** Suggest
-    Suggest,
+    Suggest (Suggest'),
     newSuggest,
-    SuggestResponse,
+    SuggestResponse (SuggestResponse'),
     newSuggestResponse,
 
     -- ** UploadDocuments
-    UploadDocuments,
+    UploadDocuments (UploadDocuments'),
     newUploadDocuments,
-    UploadDocumentsResponse,
+    UploadDocumentsResponse (UploadDocumentsResponse'),
     newUploadDocumentsResponse,
 
     -- * Types
@@ -69,43 +69,43 @@ module Amazonka.CloudSearchDomains
     QueryParser (..),
 
     -- ** Bucket
-    Bucket,
+    Bucket (Bucket'),
     newBucket,
 
     -- ** BucketInfo
-    BucketInfo,
+    BucketInfo (BucketInfo'),
     newBucketInfo,
 
     -- ** DocumentServiceWarning
-    DocumentServiceWarning,
+    DocumentServiceWarning (DocumentServiceWarning'),
     newDocumentServiceWarning,
 
     -- ** FieldStats
-    FieldStats,
+    FieldStats (FieldStats'),
     newFieldStats,
 
     -- ** Hit
-    Hit,
+    Hit (Hit'),
     newHit,
 
     -- ** Hits
-    Hits,
+    Hits (Hits'),
     newHits,
 
     -- ** SearchStatus
-    SearchStatus,
+    SearchStatus (SearchStatus'),
     newSearchStatus,
 
     -- ** SuggestModel
-    SuggestModel,
+    SuggestModel (SuggestModel'),
     newSuggestModel,
 
     -- ** SuggestStatus
-    SuggestStatus,
+    SuggestStatus (SuggestStatus'),
     newSuggestStatus,
 
     -- ** SuggestionMatch
-    SuggestionMatch,
+    SuggestionMatch (SuggestionMatch'),
     newSuggestionMatch,
   )
 where

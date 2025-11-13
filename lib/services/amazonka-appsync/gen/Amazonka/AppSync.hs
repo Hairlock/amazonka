@@ -60,309 +60,309 @@ module Amazonka.AppSync
     -- $operations
 
     -- ** AssociateApi
-    AssociateApi,
+    AssociateApi (AssociateApi'),
     newAssociateApi,
-    AssociateApiResponse,
+    AssociateApiResponse (AssociateApiResponse'),
     newAssociateApiResponse,
 
     -- ** CreateApiCache
-    CreateApiCache,
+    CreateApiCache (CreateApiCache'),
     newCreateApiCache,
-    CreateApiCacheResponse,
+    CreateApiCacheResponse (CreateApiCacheResponse'),
     newCreateApiCacheResponse,
 
     -- ** CreateApiKey
-    CreateApiKey,
+    CreateApiKey (CreateApiKey'),
     newCreateApiKey,
-    CreateApiKeyResponse,
+    CreateApiKeyResponse (CreateApiKeyResponse'),
     newCreateApiKeyResponse,
 
     -- ** CreateDataSource
-    CreateDataSource,
+    CreateDataSource (CreateDataSource'),
     newCreateDataSource,
-    CreateDataSourceResponse,
+    CreateDataSourceResponse (CreateDataSourceResponse'),
     newCreateDataSourceResponse,
 
     -- ** CreateDomainName
-    CreateDomainName,
+    CreateDomainName (CreateDomainName'),
     newCreateDomainName,
-    CreateDomainNameResponse,
+    CreateDomainNameResponse (CreateDomainNameResponse'),
     newCreateDomainNameResponse,
 
     -- ** CreateFunction
-    CreateFunction,
+    CreateFunction (CreateFunction'),
     newCreateFunction,
-    CreateFunctionResponse,
+    CreateFunctionResponse (CreateFunctionResponse'),
     newCreateFunctionResponse,
 
     -- ** CreateGraphqlApi
-    CreateGraphqlApi,
+    CreateGraphqlApi (CreateGraphqlApi'),
     newCreateGraphqlApi,
-    CreateGraphqlApiResponse,
+    CreateGraphqlApiResponse (CreateGraphqlApiResponse'),
     newCreateGraphqlApiResponse,
 
     -- ** CreateResolver
-    CreateResolver,
+    CreateResolver (CreateResolver'),
     newCreateResolver,
-    CreateResolverResponse,
+    CreateResolverResponse (CreateResolverResponse'),
     newCreateResolverResponse,
 
     -- ** CreateType
-    CreateType,
+    CreateType (CreateType'),
     newCreateType,
-    CreateTypeResponse,
+    CreateTypeResponse (CreateTypeResponse'),
     newCreateTypeResponse,
 
     -- ** DeleteApiCache
-    DeleteApiCache,
+    DeleteApiCache (DeleteApiCache'),
     newDeleteApiCache,
-    DeleteApiCacheResponse,
+    DeleteApiCacheResponse (DeleteApiCacheResponse'),
     newDeleteApiCacheResponse,
 
     -- ** DeleteApiKey
-    DeleteApiKey,
+    DeleteApiKey (DeleteApiKey'),
     newDeleteApiKey,
-    DeleteApiKeyResponse,
+    DeleteApiKeyResponse (DeleteApiKeyResponse'),
     newDeleteApiKeyResponse,
 
     -- ** DeleteDataSource
-    DeleteDataSource,
+    DeleteDataSource (DeleteDataSource'),
     newDeleteDataSource,
-    DeleteDataSourceResponse,
+    DeleteDataSourceResponse (DeleteDataSourceResponse'),
     newDeleteDataSourceResponse,
 
     -- ** DeleteDomainName
-    DeleteDomainName,
+    DeleteDomainName (DeleteDomainName'),
     newDeleteDomainName,
-    DeleteDomainNameResponse,
+    DeleteDomainNameResponse (DeleteDomainNameResponse'),
     newDeleteDomainNameResponse,
 
     -- ** DeleteFunction
-    DeleteFunction,
+    DeleteFunction (DeleteFunction'),
     newDeleteFunction,
-    DeleteFunctionResponse,
+    DeleteFunctionResponse (DeleteFunctionResponse'),
     newDeleteFunctionResponse,
 
     -- ** DeleteGraphqlApi
-    DeleteGraphqlApi,
+    DeleteGraphqlApi (DeleteGraphqlApi'),
     newDeleteGraphqlApi,
-    DeleteGraphqlApiResponse,
+    DeleteGraphqlApiResponse (DeleteGraphqlApiResponse'),
     newDeleteGraphqlApiResponse,
 
     -- ** DeleteResolver
-    DeleteResolver,
+    DeleteResolver (DeleteResolver'),
     newDeleteResolver,
-    DeleteResolverResponse,
+    DeleteResolverResponse (DeleteResolverResponse'),
     newDeleteResolverResponse,
 
     -- ** DeleteType
-    DeleteType,
+    DeleteType (DeleteType'),
     newDeleteType,
-    DeleteTypeResponse,
+    DeleteTypeResponse (DeleteTypeResponse'),
     newDeleteTypeResponse,
 
     -- ** DisassociateApi
-    DisassociateApi,
+    DisassociateApi (DisassociateApi'),
     newDisassociateApi,
-    DisassociateApiResponse,
+    DisassociateApiResponse (DisassociateApiResponse'),
     newDisassociateApiResponse,
 
     -- ** EvaluateCode
-    EvaluateCode,
+    EvaluateCode (EvaluateCode'),
     newEvaluateCode,
-    EvaluateCodeResponse,
+    EvaluateCodeResponse (EvaluateCodeResponse'),
     newEvaluateCodeResponse,
 
     -- ** EvaluateMappingTemplate
-    EvaluateMappingTemplate,
+    EvaluateMappingTemplate (EvaluateMappingTemplate'),
     newEvaluateMappingTemplate,
-    EvaluateMappingTemplateResponse,
+    EvaluateMappingTemplateResponse (EvaluateMappingTemplateResponse'),
     newEvaluateMappingTemplateResponse,
 
     -- ** FlushApiCache
-    FlushApiCache,
+    FlushApiCache (FlushApiCache'),
     newFlushApiCache,
-    FlushApiCacheResponse,
+    FlushApiCacheResponse (FlushApiCacheResponse'),
     newFlushApiCacheResponse,
 
     -- ** GetApiAssociation
-    GetApiAssociation,
+    GetApiAssociation (GetApiAssociation'),
     newGetApiAssociation,
-    GetApiAssociationResponse,
+    GetApiAssociationResponse (GetApiAssociationResponse'),
     newGetApiAssociationResponse,
 
     -- ** GetApiCache
-    GetApiCache,
+    GetApiCache (GetApiCache'),
     newGetApiCache,
-    GetApiCacheResponse,
+    GetApiCacheResponse (GetApiCacheResponse'),
     newGetApiCacheResponse,
 
     -- ** GetDataSource
-    GetDataSource,
+    GetDataSource (GetDataSource'),
     newGetDataSource,
-    GetDataSourceResponse,
+    GetDataSourceResponse (GetDataSourceResponse'),
     newGetDataSourceResponse,
 
     -- ** GetDomainName
-    GetDomainName,
+    GetDomainName (GetDomainName'),
     newGetDomainName,
-    GetDomainNameResponse,
+    GetDomainNameResponse (GetDomainNameResponse'),
     newGetDomainNameResponse,
 
     -- ** GetFunction
-    GetFunction,
+    GetFunction (GetFunction'),
     newGetFunction,
-    GetFunctionResponse,
+    GetFunctionResponse (GetFunctionResponse'),
     newGetFunctionResponse,
 
     -- ** GetGraphqlApi
-    GetGraphqlApi,
+    GetGraphqlApi (GetGraphqlApi'),
     newGetGraphqlApi,
-    GetGraphqlApiResponse,
+    GetGraphqlApiResponse (GetGraphqlApiResponse'),
     newGetGraphqlApiResponse,
 
     -- ** GetIntrospectionSchema
-    GetIntrospectionSchema,
+    GetIntrospectionSchema (GetIntrospectionSchema'),
     newGetIntrospectionSchema,
-    GetIntrospectionSchemaResponse,
+    GetIntrospectionSchemaResponse (GetIntrospectionSchemaResponse'),
     newGetIntrospectionSchemaResponse,
 
     -- ** GetResolver
-    GetResolver,
+    GetResolver (GetResolver'),
     newGetResolver,
-    GetResolverResponse,
+    GetResolverResponse (GetResolverResponse'),
     newGetResolverResponse,
 
     -- ** GetSchemaCreationStatus
-    GetSchemaCreationStatus,
+    GetSchemaCreationStatus (GetSchemaCreationStatus'),
     newGetSchemaCreationStatus,
-    GetSchemaCreationStatusResponse,
+    GetSchemaCreationStatusResponse (GetSchemaCreationStatusResponse'),
     newGetSchemaCreationStatusResponse,
 
     -- ** GetType
-    GetType,
+    GetType (GetType'),
     newGetType,
-    GetTypeResponse,
+    GetTypeResponse (GetTypeResponse'),
     newGetTypeResponse,
 
     -- ** ListApiKeys (Paginated)
-    ListApiKeys,
+    ListApiKeys (ListApiKeys'),
     newListApiKeys,
-    ListApiKeysResponse,
+    ListApiKeysResponse (ListApiKeysResponse'),
     newListApiKeysResponse,
 
     -- ** ListDataSources (Paginated)
-    ListDataSources,
+    ListDataSources (ListDataSources'),
     newListDataSources,
-    ListDataSourcesResponse,
+    ListDataSourcesResponse (ListDataSourcesResponse'),
     newListDataSourcesResponse,
 
     -- ** ListDomainNames
-    ListDomainNames,
+    ListDomainNames (ListDomainNames'),
     newListDomainNames,
-    ListDomainNamesResponse,
+    ListDomainNamesResponse (ListDomainNamesResponse'),
     newListDomainNamesResponse,
 
     -- ** ListFunctions (Paginated)
-    ListFunctions,
+    ListFunctions (ListFunctions'),
     newListFunctions,
-    ListFunctionsResponse,
+    ListFunctionsResponse (ListFunctionsResponse'),
     newListFunctionsResponse,
 
     -- ** ListGraphqlApis (Paginated)
-    ListGraphqlApis,
+    ListGraphqlApis (ListGraphqlApis'),
     newListGraphqlApis,
-    ListGraphqlApisResponse,
+    ListGraphqlApisResponse (ListGraphqlApisResponse'),
     newListGraphqlApisResponse,
 
     -- ** ListResolvers (Paginated)
-    ListResolvers,
+    ListResolvers (ListResolvers'),
     newListResolvers,
-    ListResolversResponse,
+    ListResolversResponse (ListResolversResponse'),
     newListResolversResponse,
 
     -- ** ListResolversByFunction (Paginated)
-    ListResolversByFunction,
+    ListResolversByFunction (ListResolversByFunction'),
     newListResolversByFunction,
-    ListResolversByFunctionResponse,
+    ListResolversByFunctionResponse (ListResolversByFunctionResponse'),
     newListResolversByFunctionResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** ListTypes (Paginated)
-    ListTypes,
+    ListTypes (ListTypes'),
     newListTypes,
-    ListTypesResponse,
+    ListTypesResponse (ListTypesResponse'),
     newListTypesResponse,
 
     -- ** StartSchemaCreation
-    StartSchemaCreation,
+    StartSchemaCreation (StartSchemaCreation'),
     newStartSchemaCreation,
-    StartSchemaCreationResponse,
+    StartSchemaCreationResponse (StartSchemaCreationResponse'),
     newStartSchemaCreationResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateApiCache
-    UpdateApiCache,
+    UpdateApiCache (UpdateApiCache'),
     newUpdateApiCache,
-    UpdateApiCacheResponse,
+    UpdateApiCacheResponse (UpdateApiCacheResponse'),
     newUpdateApiCacheResponse,
 
     -- ** UpdateApiKey
-    UpdateApiKey,
+    UpdateApiKey (UpdateApiKey'),
     newUpdateApiKey,
-    UpdateApiKeyResponse,
+    UpdateApiKeyResponse (UpdateApiKeyResponse'),
     newUpdateApiKeyResponse,
 
     -- ** UpdateDataSource
-    UpdateDataSource,
+    UpdateDataSource (UpdateDataSource'),
     newUpdateDataSource,
-    UpdateDataSourceResponse,
+    UpdateDataSourceResponse (UpdateDataSourceResponse'),
     newUpdateDataSourceResponse,
 
     -- ** UpdateDomainName
-    UpdateDomainName,
+    UpdateDomainName (UpdateDomainName'),
     newUpdateDomainName,
-    UpdateDomainNameResponse,
+    UpdateDomainNameResponse (UpdateDomainNameResponse'),
     newUpdateDomainNameResponse,
 
     -- ** UpdateFunction
-    UpdateFunction,
+    UpdateFunction (UpdateFunction'),
     newUpdateFunction,
-    UpdateFunctionResponse,
+    UpdateFunctionResponse (UpdateFunctionResponse'),
     newUpdateFunctionResponse,
 
     -- ** UpdateGraphqlApi
-    UpdateGraphqlApi,
+    UpdateGraphqlApi (UpdateGraphqlApi'),
     newUpdateGraphqlApi,
-    UpdateGraphqlApiResponse,
+    UpdateGraphqlApiResponse (UpdateGraphqlApiResponse'),
     newUpdateGraphqlApiResponse,
 
     -- ** UpdateResolver
-    UpdateResolver,
+    UpdateResolver (UpdateResolver'),
     newUpdateResolver,
-    UpdateResolverResponse,
+    UpdateResolverResponse (UpdateResolverResponse'),
     newUpdateResolverResponse,
 
     -- ** UpdateType
-    UpdateType,
+    UpdateType (UpdateType'),
     newUpdateType,
-    UpdateTypeResponse,
+    UpdateTypeResponse (UpdateTypeResponse'),
     newUpdateTypeResponse,
 
     -- * Types
@@ -419,139 +419,139 @@ module Amazonka.AppSync
     TypeDefinitionFormat (..),
 
     -- ** AdditionalAuthenticationProvider
-    AdditionalAuthenticationProvider,
+    AdditionalAuthenticationProvider (AdditionalAuthenticationProvider'),
     newAdditionalAuthenticationProvider,
 
     -- ** ApiAssociation
-    ApiAssociation,
+    ApiAssociation (ApiAssociation'),
     newApiAssociation,
 
     -- ** ApiCache
-    ApiCache,
+    ApiCache (ApiCache'),
     newApiCache,
 
     -- ** ApiKey
-    ApiKey,
+    ApiKey (ApiKey'),
     newApiKey,
 
     -- ** AppSyncRuntime
-    AppSyncRuntime,
+    AppSyncRuntime (AppSyncRuntime'),
     newAppSyncRuntime,
 
     -- ** AuthorizationConfig
-    AuthorizationConfig,
+    AuthorizationConfig (AuthorizationConfig'),
     newAuthorizationConfig,
 
     -- ** AwsIamConfig
-    AwsIamConfig,
+    AwsIamConfig (AwsIamConfig'),
     newAwsIamConfig,
 
     -- ** CachingConfig
-    CachingConfig,
+    CachingConfig (CachingConfig'),
     newCachingConfig,
 
     -- ** CodeError
-    CodeError,
+    CodeError (CodeError'),
     newCodeError,
 
     -- ** CodeErrorLocation
-    CodeErrorLocation,
+    CodeErrorLocation (CodeErrorLocation'),
     newCodeErrorLocation,
 
     -- ** CognitoUserPoolConfig
-    CognitoUserPoolConfig,
+    CognitoUserPoolConfig (CognitoUserPoolConfig'),
     newCognitoUserPoolConfig,
 
     -- ** DataSource
-    DataSource,
+    DataSource (DataSource'),
     newDataSource,
 
     -- ** DeltaSyncConfig
-    DeltaSyncConfig,
+    DeltaSyncConfig (DeltaSyncConfig'),
     newDeltaSyncConfig,
 
     -- ** DomainNameConfig
-    DomainNameConfig,
+    DomainNameConfig (DomainNameConfig'),
     newDomainNameConfig,
 
     -- ** DynamodbDataSourceConfig
-    DynamodbDataSourceConfig,
+    DynamodbDataSourceConfig (DynamodbDataSourceConfig'),
     newDynamodbDataSourceConfig,
 
     -- ** ElasticsearchDataSourceConfig
-    ElasticsearchDataSourceConfig,
+    ElasticsearchDataSourceConfig (ElasticsearchDataSourceConfig'),
     newElasticsearchDataSourceConfig,
 
     -- ** ErrorDetail
-    ErrorDetail,
+    ErrorDetail (ErrorDetail'),
     newErrorDetail,
 
     -- ** EvaluateCodeErrorDetail
-    EvaluateCodeErrorDetail,
+    EvaluateCodeErrorDetail (EvaluateCodeErrorDetail'),
     newEvaluateCodeErrorDetail,
 
     -- ** FunctionConfiguration
-    FunctionConfiguration,
+    FunctionConfiguration (FunctionConfiguration'),
     newFunctionConfiguration,
 
     -- ** GraphqlApi
-    GraphqlApi,
+    GraphqlApi (GraphqlApi'),
     newGraphqlApi,
 
     -- ** HttpDataSourceConfig
-    HttpDataSourceConfig,
+    HttpDataSourceConfig (HttpDataSourceConfig'),
     newHttpDataSourceConfig,
 
     -- ** LambdaAuthorizerConfig
-    LambdaAuthorizerConfig,
+    LambdaAuthorizerConfig (LambdaAuthorizerConfig'),
     newLambdaAuthorizerConfig,
 
     -- ** LambdaConflictHandlerConfig
-    LambdaConflictHandlerConfig,
+    LambdaConflictHandlerConfig (LambdaConflictHandlerConfig'),
     newLambdaConflictHandlerConfig,
 
     -- ** LambdaDataSourceConfig
-    LambdaDataSourceConfig,
+    LambdaDataSourceConfig (LambdaDataSourceConfig'),
     newLambdaDataSourceConfig,
 
     -- ** LogConfig
-    LogConfig,
+    LogConfig (LogConfig'),
     newLogConfig,
 
     -- ** OpenIDConnectConfig
-    OpenIDConnectConfig,
+    OpenIDConnectConfig (OpenIDConnectConfig'),
     newOpenIDConnectConfig,
 
     -- ** OpenSearchServiceDataSourceConfig
-    OpenSearchServiceDataSourceConfig,
+    OpenSearchServiceDataSourceConfig (OpenSearchServiceDataSourceConfig'),
     newOpenSearchServiceDataSourceConfig,
 
     -- ** PipelineConfig
-    PipelineConfig,
+    PipelineConfig (PipelineConfig'),
     newPipelineConfig,
 
     -- ** RdsHttpEndpointConfig
-    RdsHttpEndpointConfig,
+    RdsHttpEndpointConfig (RdsHttpEndpointConfig'),
     newRdsHttpEndpointConfig,
 
     -- ** RelationalDatabaseDataSourceConfig
-    RelationalDatabaseDataSourceConfig,
+    RelationalDatabaseDataSourceConfig (RelationalDatabaseDataSourceConfig'),
     newRelationalDatabaseDataSourceConfig,
 
     -- ** Resolver
-    Resolver,
+    Resolver (Resolver'),
     newResolver,
 
     -- ** SyncConfig
-    SyncConfig,
+    SyncConfig (SyncConfig'),
     newSyncConfig,
 
     -- ** Type
-    Type,
+    Type (Type'),
     newType,
 
     -- ** UserPoolConfig
-    UserPoolConfig,
+    UserPoolConfig (UserPoolConfig'),
     newUserPoolConfig,
   )
 where

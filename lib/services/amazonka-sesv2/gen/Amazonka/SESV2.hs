@@ -74,519 +74,519 @@ module Amazonka.SESV2
     -- $operations
 
     -- ** BatchGetMetricData
-    BatchGetMetricData,
+    BatchGetMetricData (BatchGetMetricData'),
     newBatchGetMetricData,
-    BatchGetMetricDataResponse,
+    BatchGetMetricDataResponse (BatchGetMetricDataResponse'),
     newBatchGetMetricDataResponse,
 
     -- ** CreateConfigurationSet
-    CreateConfigurationSet,
+    CreateConfigurationSet (CreateConfigurationSet'),
     newCreateConfigurationSet,
-    CreateConfigurationSetResponse,
+    CreateConfigurationSetResponse (CreateConfigurationSetResponse'),
     newCreateConfigurationSetResponse,
 
     -- ** CreateConfigurationSetEventDestination
-    CreateConfigurationSetEventDestination,
+    CreateConfigurationSetEventDestination (CreateConfigurationSetEventDestination'),
     newCreateConfigurationSetEventDestination,
-    CreateConfigurationSetEventDestinationResponse,
+    CreateConfigurationSetEventDestinationResponse (CreateConfigurationSetEventDestinationResponse'),
     newCreateConfigurationSetEventDestinationResponse,
 
     -- ** CreateContact
-    CreateContact,
+    CreateContact (CreateContact'),
     newCreateContact,
-    CreateContactResponse,
+    CreateContactResponse (CreateContactResponse'),
     newCreateContactResponse,
 
     -- ** CreateContactList
-    CreateContactList,
+    CreateContactList (CreateContactList'),
     newCreateContactList,
-    CreateContactListResponse,
+    CreateContactListResponse (CreateContactListResponse'),
     newCreateContactListResponse,
 
     -- ** CreateCustomVerificationEmailTemplate
-    CreateCustomVerificationEmailTemplate,
+    CreateCustomVerificationEmailTemplate (CreateCustomVerificationEmailTemplate'),
     newCreateCustomVerificationEmailTemplate,
-    CreateCustomVerificationEmailTemplateResponse,
+    CreateCustomVerificationEmailTemplateResponse (CreateCustomVerificationEmailTemplateResponse'),
     newCreateCustomVerificationEmailTemplateResponse,
 
     -- ** CreateDedicatedIpPool
-    CreateDedicatedIpPool,
+    CreateDedicatedIpPool (CreateDedicatedIpPool'),
     newCreateDedicatedIpPool,
-    CreateDedicatedIpPoolResponse,
+    CreateDedicatedIpPoolResponse (CreateDedicatedIpPoolResponse'),
     newCreateDedicatedIpPoolResponse,
 
     -- ** CreateDeliverabilityTestReport
-    CreateDeliverabilityTestReport,
+    CreateDeliverabilityTestReport (CreateDeliverabilityTestReport'),
     newCreateDeliverabilityTestReport,
-    CreateDeliverabilityTestReportResponse,
+    CreateDeliverabilityTestReportResponse (CreateDeliverabilityTestReportResponse'),
     newCreateDeliverabilityTestReportResponse,
 
     -- ** CreateEmailIdentity
-    CreateEmailIdentity,
+    CreateEmailIdentity (CreateEmailIdentity'),
     newCreateEmailIdentity,
-    CreateEmailIdentityResponse,
+    CreateEmailIdentityResponse (CreateEmailIdentityResponse'),
     newCreateEmailIdentityResponse,
 
     -- ** CreateEmailIdentityPolicy
-    CreateEmailIdentityPolicy,
+    CreateEmailIdentityPolicy (CreateEmailIdentityPolicy'),
     newCreateEmailIdentityPolicy,
-    CreateEmailIdentityPolicyResponse,
+    CreateEmailIdentityPolicyResponse (CreateEmailIdentityPolicyResponse'),
     newCreateEmailIdentityPolicyResponse,
 
     -- ** CreateEmailTemplate
-    CreateEmailTemplate,
+    CreateEmailTemplate (CreateEmailTemplate'),
     newCreateEmailTemplate,
-    CreateEmailTemplateResponse,
+    CreateEmailTemplateResponse (CreateEmailTemplateResponse'),
     newCreateEmailTemplateResponse,
 
     -- ** CreateImportJob
-    CreateImportJob,
+    CreateImportJob (CreateImportJob'),
     newCreateImportJob,
-    CreateImportJobResponse,
+    CreateImportJobResponse (CreateImportJobResponse'),
     newCreateImportJobResponse,
 
     -- ** DeleteConfigurationSet
-    DeleteConfigurationSet,
+    DeleteConfigurationSet (DeleteConfigurationSet'),
     newDeleteConfigurationSet,
-    DeleteConfigurationSetResponse,
+    DeleteConfigurationSetResponse (DeleteConfigurationSetResponse'),
     newDeleteConfigurationSetResponse,
 
     -- ** DeleteConfigurationSetEventDestination
-    DeleteConfigurationSetEventDestination,
+    DeleteConfigurationSetEventDestination (DeleteConfigurationSetEventDestination'),
     newDeleteConfigurationSetEventDestination,
-    DeleteConfigurationSetEventDestinationResponse,
+    DeleteConfigurationSetEventDestinationResponse (DeleteConfigurationSetEventDestinationResponse'),
     newDeleteConfigurationSetEventDestinationResponse,
 
     -- ** DeleteContact
-    DeleteContact,
+    DeleteContact (DeleteContact'),
     newDeleteContact,
-    DeleteContactResponse,
+    DeleteContactResponse (DeleteContactResponse'),
     newDeleteContactResponse,
 
     -- ** DeleteContactList
-    DeleteContactList,
+    DeleteContactList (DeleteContactList'),
     newDeleteContactList,
-    DeleteContactListResponse,
+    DeleteContactListResponse (DeleteContactListResponse'),
     newDeleteContactListResponse,
 
     -- ** DeleteCustomVerificationEmailTemplate
-    DeleteCustomVerificationEmailTemplate,
+    DeleteCustomVerificationEmailTemplate (DeleteCustomVerificationEmailTemplate'),
     newDeleteCustomVerificationEmailTemplate,
-    DeleteCustomVerificationEmailTemplateResponse,
+    DeleteCustomVerificationEmailTemplateResponse (DeleteCustomVerificationEmailTemplateResponse'),
     newDeleteCustomVerificationEmailTemplateResponse,
 
     -- ** DeleteDedicatedIpPool
-    DeleteDedicatedIpPool,
+    DeleteDedicatedIpPool (DeleteDedicatedIpPool'),
     newDeleteDedicatedIpPool,
-    DeleteDedicatedIpPoolResponse,
+    DeleteDedicatedIpPoolResponse (DeleteDedicatedIpPoolResponse'),
     newDeleteDedicatedIpPoolResponse,
 
     -- ** DeleteEmailIdentity
-    DeleteEmailIdentity,
+    DeleteEmailIdentity (DeleteEmailIdentity'),
     newDeleteEmailIdentity,
-    DeleteEmailIdentityResponse,
+    DeleteEmailIdentityResponse (DeleteEmailIdentityResponse'),
     newDeleteEmailIdentityResponse,
 
     -- ** DeleteEmailIdentityPolicy
-    DeleteEmailIdentityPolicy,
+    DeleteEmailIdentityPolicy (DeleteEmailIdentityPolicy'),
     newDeleteEmailIdentityPolicy,
-    DeleteEmailIdentityPolicyResponse,
+    DeleteEmailIdentityPolicyResponse (DeleteEmailIdentityPolicyResponse'),
     newDeleteEmailIdentityPolicyResponse,
 
     -- ** DeleteEmailTemplate
-    DeleteEmailTemplate,
+    DeleteEmailTemplate (DeleteEmailTemplate'),
     newDeleteEmailTemplate,
-    DeleteEmailTemplateResponse,
+    DeleteEmailTemplateResponse (DeleteEmailTemplateResponse'),
     newDeleteEmailTemplateResponse,
 
     -- ** DeleteSuppressedDestination
-    DeleteSuppressedDestination,
+    DeleteSuppressedDestination (DeleteSuppressedDestination'),
     newDeleteSuppressedDestination,
-    DeleteSuppressedDestinationResponse,
+    DeleteSuppressedDestinationResponse (DeleteSuppressedDestinationResponse'),
     newDeleteSuppressedDestinationResponse,
 
     -- ** GetAccount
-    GetAccount,
+    GetAccount (GetAccount'),
     newGetAccount,
-    GetAccountResponse,
+    GetAccountResponse (GetAccountResponse'),
     newGetAccountResponse,
 
     -- ** GetBlacklistReports
-    GetBlacklistReports,
+    GetBlacklistReports (GetBlacklistReports'),
     newGetBlacklistReports,
-    GetBlacklistReportsResponse,
+    GetBlacklistReportsResponse (GetBlacklistReportsResponse'),
     newGetBlacklistReportsResponse,
 
     -- ** GetConfigurationSet
-    GetConfigurationSet,
+    GetConfigurationSet (GetConfigurationSet'),
     newGetConfigurationSet,
-    GetConfigurationSetResponse,
+    GetConfigurationSetResponse (GetConfigurationSetResponse'),
     newGetConfigurationSetResponse,
 
     -- ** GetConfigurationSetEventDestinations
-    GetConfigurationSetEventDestinations,
+    GetConfigurationSetEventDestinations (GetConfigurationSetEventDestinations'),
     newGetConfigurationSetEventDestinations,
-    GetConfigurationSetEventDestinationsResponse,
+    GetConfigurationSetEventDestinationsResponse (GetConfigurationSetEventDestinationsResponse'),
     newGetConfigurationSetEventDestinationsResponse,
 
     -- ** GetContact
-    GetContact,
+    GetContact (GetContact'),
     newGetContact,
-    GetContactResponse,
+    GetContactResponse (GetContactResponse'),
     newGetContactResponse,
 
     -- ** GetContactList
-    GetContactList,
+    GetContactList (GetContactList'),
     newGetContactList,
-    GetContactListResponse,
+    GetContactListResponse (GetContactListResponse'),
     newGetContactListResponse,
 
     -- ** GetCustomVerificationEmailTemplate
-    GetCustomVerificationEmailTemplate,
+    GetCustomVerificationEmailTemplate (GetCustomVerificationEmailTemplate'),
     newGetCustomVerificationEmailTemplate,
-    GetCustomVerificationEmailTemplateResponse,
+    GetCustomVerificationEmailTemplateResponse (GetCustomVerificationEmailTemplateResponse'),
     newGetCustomVerificationEmailTemplateResponse,
 
     -- ** GetDedicatedIp
-    GetDedicatedIp,
+    GetDedicatedIp (GetDedicatedIp'),
     newGetDedicatedIp,
-    GetDedicatedIpResponse,
+    GetDedicatedIpResponse (GetDedicatedIpResponse'),
     newGetDedicatedIpResponse,
 
     -- ** GetDedicatedIpPool
-    GetDedicatedIpPool,
+    GetDedicatedIpPool (GetDedicatedIpPool'),
     newGetDedicatedIpPool,
-    GetDedicatedIpPoolResponse,
+    GetDedicatedIpPoolResponse (GetDedicatedIpPoolResponse'),
     newGetDedicatedIpPoolResponse,
 
     -- ** GetDedicatedIps
-    GetDedicatedIps,
+    GetDedicatedIps (GetDedicatedIps'),
     newGetDedicatedIps,
-    GetDedicatedIpsResponse,
+    GetDedicatedIpsResponse (GetDedicatedIpsResponse'),
     newGetDedicatedIpsResponse,
 
     -- ** GetDeliverabilityDashboardOptions
-    GetDeliverabilityDashboardOptions,
+    GetDeliverabilityDashboardOptions (GetDeliverabilityDashboardOptions'),
     newGetDeliverabilityDashboardOptions,
-    GetDeliverabilityDashboardOptionsResponse,
+    GetDeliverabilityDashboardOptionsResponse (GetDeliverabilityDashboardOptionsResponse'),
     newGetDeliverabilityDashboardOptionsResponse,
 
     -- ** GetDeliverabilityTestReport
-    GetDeliverabilityTestReport,
+    GetDeliverabilityTestReport (GetDeliverabilityTestReport'),
     newGetDeliverabilityTestReport,
-    GetDeliverabilityTestReportResponse,
+    GetDeliverabilityTestReportResponse (GetDeliverabilityTestReportResponse'),
     newGetDeliverabilityTestReportResponse,
 
     -- ** GetDomainDeliverabilityCampaign
-    GetDomainDeliverabilityCampaign,
+    GetDomainDeliverabilityCampaign (GetDomainDeliverabilityCampaign'),
     newGetDomainDeliverabilityCampaign,
-    GetDomainDeliverabilityCampaignResponse,
+    GetDomainDeliverabilityCampaignResponse (GetDomainDeliverabilityCampaignResponse'),
     newGetDomainDeliverabilityCampaignResponse,
 
     -- ** GetDomainStatisticsReport
-    GetDomainStatisticsReport,
+    GetDomainStatisticsReport (GetDomainStatisticsReport'),
     newGetDomainStatisticsReport,
-    GetDomainStatisticsReportResponse,
+    GetDomainStatisticsReportResponse (GetDomainStatisticsReportResponse'),
     newGetDomainStatisticsReportResponse,
 
     -- ** GetEmailIdentity
-    GetEmailIdentity,
+    GetEmailIdentity (GetEmailIdentity'),
     newGetEmailIdentity,
-    GetEmailIdentityResponse,
+    GetEmailIdentityResponse (GetEmailIdentityResponse'),
     newGetEmailIdentityResponse,
 
     -- ** GetEmailIdentityPolicies
-    GetEmailIdentityPolicies,
+    GetEmailIdentityPolicies (GetEmailIdentityPolicies'),
     newGetEmailIdentityPolicies,
-    GetEmailIdentityPoliciesResponse,
+    GetEmailIdentityPoliciesResponse (GetEmailIdentityPoliciesResponse'),
     newGetEmailIdentityPoliciesResponse,
 
     -- ** GetEmailTemplate
-    GetEmailTemplate,
+    GetEmailTemplate (GetEmailTemplate'),
     newGetEmailTemplate,
-    GetEmailTemplateResponse,
+    GetEmailTemplateResponse (GetEmailTemplateResponse'),
     newGetEmailTemplateResponse,
 
     -- ** GetImportJob
-    GetImportJob,
+    GetImportJob (GetImportJob'),
     newGetImportJob,
-    GetImportJobResponse,
+    GetImportJobResponse (GetImportJobResponse'),
     newGetImportJobResponse,
 
     -- ** GetSuppressedDestination
-    GetSuppressedDestination,
+    GetSuppressedDestination (GetSuppressedDestination'),
     newGetSuppressedDestination,
-    GetSuppressedDestinationResponse,
+    GetSuppressedDestinationResponse (GetSuppressedDestinationResponse'),
     newGetSuppressedDestinationResponse,
 
     -- ** ListConfigurationSets
-    ListConfigurationSets,
+    ListConfigurationSets (ListConfigurationSets'),
     newListConfigurationSets,
-    ListConfigurationSetsResponse,
+    ListConfigurationSetsResponse (ListConfigurationSetsResponse'),
     newListConfigurationSetsResponse,
 
     -- ** ListContactLists
-    ListContactLists,
+    ListContactLists (ListContactLists'),
     newListContactLists,
-    ListContactListsResponse,
+    ListContactListsResponse (ListContactListsResponse'),
     newListContactListsResponse,
 
     -- ** ListContacts
-    ListContacts,
+    ListContacts (ListContacts'),
     newListContacts,
-    ListContactsResponse,
+    ListContactsResponse (ListContactsResponse'),
     newListContactsResponse,
 
     -- ** ListCustomVerificationEmailTemplates
-    ListCustomVerificationEmailTemplates,
+    ListCustomVerificationEmailTemplates (ListCustomVerificationEmailTemplates'),
     newListCustomVerificationEmailTemplates,
-    ListCustomVerificationEmailTemplatesResponse,
+    ListCustomVerificationEmailTemplatesResponse (ListCustomVerificationEmailTemplatesResponse'),
     newListCustomVerificationEmailTemplatesResponse,
 
     -- ** ListDedicatedIpPools
-    ListDedicatedIpPools,
+    ListDedicatedIpPools (ListDedicatedIpPools'),
     newListDedicatedIpPools,
-    ListDedicatedIpPoolsResponse,
+    ListDedicatedIpPoolsResponse (ListDedicatedIpPoolsResponse'),
     newListDedicatedIpPoolsResponse,
 
     -- ** ListDeliverabilityTestReports
-    ListDeliverabilityTestReports,
+    ListDeliverabilityTestReports (ListDeliverabilityTestReports'),
     newListDeliverabilityTestReports,
-    ListDeliverabilityTestReportsResponse,
+    ListDeliverabilityTestReportsResponse (ListDeliverabilityTestReportsResponse'),
     newListDeliverabilityTestReportsResponse,
 
     -- ** ListDomainDeliverabilityCampaigns
-    ListDomainDeliverabilityCampaigns,
+    ListDomainDeliverabilityCampaigns (ListDomainDeliverabilityCampaigns'),
     newListDomainDeliverabilityCampaigns,
-    ListDomainDeliverabilityCampaignsResponse,
+    ListDomainDeliverabilityCampaignsResponse (ListDomainDeliverabilityCampaignsResponse'),
     newListDomainDeliverabilityCampaignsResponse,
 
     -- ** ListEmailIdentities
-    ListEmailIdentities,
+    ListEmailIdentities (ListEmailIdentities'),
     newListEmailIdentities,
-    ListEmailIdentitiesResponse,
+    ListEmailIdentitiesResponse (ListEmailIdentitiesResponse'),
     newListEmailIdentitiesResponse,
 
     -- ** ListEmailTemplates
-    ListEmailTemplates,
+    ListEmailTemplates (ListEmailTemplates'),
     newListEmailTemplates,
-    ListEmailTemplatesResponse,
+    ListEmailTemplatesResponse (ListEmailTemplatesResponse'),
     newListEmailTemplatesResponse,
 
     -- ** ListImportJobs
-    ListImportJobs,
+    ListImportJobs (ListImportJobs'),
     newListImportJobs,
-    ListImportJobsResponse,
+    ListImportJobsResponse (ListImportJobsResponse'),
     newListImportJobsResponse,
 
     -- ** ListRecommendations
-    ListRecommendations,
+    ListRecommendations (ListRecommendations'),
     newListRecommendations,
-    ListRecommendationsResponse,
+    ListRecommendationsResponse (ListRecommendationsResponse'),
     newListRecommendationsResponse,
 
     -- ** ListSuppressedDestinations
-    ListSuppressedDestinations,
+    ListSuppressedDestinations (ListSuppressedDestinations'),
     newListSuppressedDestinations,
-    ListSuppressedDestinationsResponse,
+    ListSuppressedDestinationsResponse (ListSuppressedDestinationsResponse'),
     newListSuppressedDestinationsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** PutAccountDedicatedIpWarmupAttributes
-    PutAccountDedicatedIpWarmupAttributes,
+    PutAccountDedicatedIpWarmupAttributes (PutAccountDedicatedIpWarmupAttributes'),
     newPutAccountDedicatedIpWarmupAttributes,
-    PutAccountDedicatedIpWarmupAttributesResponse,
+    PutAccountDedicatedIpWarmupAttributesResponse (PutAccountDedicatedIpWarmupAttributesResponse'),
     newPutAccountDedicatedIpWarmupAttributesResponse,
 
     -- ** PutAccountDetails
-    PutAccountDetails,
+    PutAccountDetails (PutAccountDetails'),
     newPutAccountDetails,
-    PutAccountDetailsResponse,
+    PutAccountDetailsResponse (PutAccountDetailsResponse'),
     newPutAccountDetailsResponse,
 
     -- ** PutAccountSendingAttributes
-    PutAccountSendingAttributes,
+    PutAccountSendingAttributes (PutAccountSendingAttributes'),
     newPutAccountSendingAttributes,
-    PutAccountSendingAttributesResponse,
+    PutAccountSendingAttributesResponse (PutAccountSendingAttributesResponse'),
     newPutAccountSendingAttributesResponse,
 
     -- ** PutAccountSuppressionAttributes
-    PutAccountSuppressionAttributes,
+    PutAccountSuppressionAttributes (PutAccountSuppressionAttributes'),
     newPutAccountSuppressionAttributes,
-    PutAccountSuppressionAttributesResponse,
+    PutAccountSuppressionAttributesResponse (PutAccountSuppressionAttributesResponse'),
     newPutAccountSuppressionAttributesResponse,
 
     -- ** PutAccountVdmAttributes
-    PutAccountVdmAttributes,
+    PutAccountVdmAttributes (PutAccountVdmAttributes'),
     newPutAccountVdmAttributes,
-    PutAccountVdmAttributesResponse,
+    PutAccountVdmAttributesResponse (PutAccountVdmAttributesResponse'),
     newPutAccountVdmAttributesResponse,
 
     -- ** PutConfigurationSetDeliveryOptions
-    PutConfigurationSetDeliveryOptions,
+    PutConfigurationSetDeliveryOptions (PutConfigurationSetDeliveryOptions'),
     newPutConfigurationSetDeliveryOptions,
-    PutConfigurationSetDeliveryOptionsResponse,
+    PutConfigurationSetDeliveryOptionsResponse (PutConfigurationSetDeliveryOptionsResponse'),
     newPutConfigurationSetDeliveryOptionsResponse,
 
     -- ** PutConfigurationSetReputationOptions
-    PutConfigurationSetReputationOptions,
+    PutConfigurationSetReputationOptions (PutConfigurationSetReputationOptions'),
     newPutConfigurationSetReputationOptions,
-    PutConfigurationSetReputationOptionsResponse,
+    PutConfigurationSetReputationOptionsResponse (PutConfigurationSetReputationOptionsResponse'),
     newPutConfigurationSetReputationOptionsResponse,
 
     -- ** PutConfigurationSetSendingOptions
-    PutConfigurationSetSendingOptions,
+    PutConfigurationSetSendingOptions (PutConfigurationSetSendingOptions'),
     newPutConfigurationSetSendingOptions,
-    PutConfigurationSetSendingOptionsResponse,
+    PutConfigurationSetSendingOptionsResponse (PutConfigurationSetSendingOptionsResponse'),
     newPutConfigurationSetSendingOptionsResponse,
 
     -- ** PutConfigurationSetSuppressionOptions
-    PutConfigurationSetSuppressionOptions,
+    PutConfigurationSetSuppressionOptions (PutConfigurationSetSuppressionOptions'),
     newPutConfigurationSetSuppressionOptions,
-    PutConfigurationSetSuppressionOptionsResponse,
+    PutConfigurationSetSuppressionOptionsResponse (PutConfigurationSetSuppressionOptionsResponse'),
     newPutConfigurationSetSuppressionOptionsResponse,
 
     -- ** PutConfigurationSetTrackingOptions
-    PutConfigurationSetTrackingOptions,
+    PutConfigurationSetTrackingOptions (PutConfigurationSetTrackingOptions'),
     newPutConfigurationSetTrackingOptions,
-    PutConfigurationSetTrackingOptionsResponse,
+    PutConfigurationSetTrackingOptionsResponse (PutConfigurationSetTrackingOptionsResponse'),
     newPutConfigurationSetTrackingOptionsResponse,
 
     -- ** PutConfigurationSetVdmOptions
-    PutConfigurationSetVdmOptions,
+    PutConfigurationSetVdmOptions (PutConfigurationSetVdmOptions'),
     newPutConfigurationSetVdmOptions,
-    PutConfigurationSetVdmOptionsResponse,
+    PutConfigurationSetVdmOptionsResponse (PutConfigurationSetVdmOptionsResponse'),
     newPutConfigurationSetVdmOptionsResponse,
 
     -- ** PutDedicatedIpInPool
-    PutDedicatedIpInPool,
+    PutDedicatedIpInPool (PutDedicatedIpInPool'),
     newPutDedicatedIpInPool,
-    PutDedicatedIpInPoolResponse,
+    PutDedicatedIpInPoolResponse (PutDedicatedIpInPoolResponse'),
     newPutDedicatedIpInPoolResponse,
 
     -- ** PutDedicatedIpWarmupAttributes
-    PutDedicatedIpWarmupAttributes,
+    PutDedicatedIpWarmupAttributes (PutDedicatedIpWarmupAttributes'),
     newPutDedicatedIpWarmupAttributes,
-    PutDedicatedIpWarmupAttributesResponse,
+    PutDedicatedIpWarmupAttributesResponse (PutDedicatedIpWarmupAttributesResponse'),
     newPutDedicatedIpWarmupAttributesResponse,
 
     -- ** PutDeliverabilityDashboardOption
-    PutDeliverabilityDashboardOption,
+    PutDeliverabilityDashboardOption (PutDeliverabilityDashboardOption'),
     newPutDeliverabilityDashboardOption,
-    PutDeliverabilityDashboardOptionResponse,
+    PutDeliverabilityDashboardOptionResponse (PutDeliverabilityDashboardOptionResponse'),
     newPutDeliverabilityDashboardOptionResponse,
 
     -- ** PutEmailIdentityConfigurationSetAttributes
-    PutEmailIdentityConfigurationSetAttributes,
+    PutEmailIdentityConfigurationSetAttributes (PutEmailIdentityConfigurationSetAttributes'),
     newPutEmailIdentityConfigurationSetAttributes,
-    PutEmailIdentityConfigurationSetAttributesResponse,
+    PutEmailIdentityConfigurationSetAttributesResponse (PutEmailIdentityConfigurationSetAttributesResponse'),
     newPutEmailIdentityConfigurationSetAttributesResponse,
 
     -- ** PutEmailIdentityDkimAttributes
-    PutEmailIdentityDkimAttributes,
+    PutEmailIdentityDkimAttributes (PutEmailIdentityDkimAttributes'),
     newPutEmailIdentityDkimAttributes,
-    PutEmailIdentityDkimAttributesResponse,
+    PutEmailIdentityDkimAttributesResponse (PutEmailIdentityDkimAttributesResponse'),
     newPutEmailIdentityDkimAttributesResponse,
 
     -- ** PutEmailIdentityDkimSigningAttributes
-    PutEmailIdentityDkimSigningAttributes,
+    PutEmailIdentityDkimSigningAttributes (PutEmailIdentityDkimSigningAttributes'),
     newPutEmailIdentityDkimSigningAttributes,
-    PutEmailIdentityDkimSigningAttributesResponse,
+    PutEmailIdentityDkimSigningAttributesResponse (PutEmailIdentityDkimSigningAttributesResponse'),
     newPutEmailIdentityDkimSigningAttributesResponse,
 
     -- ** PutEmailIdentityFeedbackAttributes
-    PutEmailIdentityFeedbackAttributes,
+    PutEmailIdentityFeedbackAttributes (PutEmailIdentityFeedbackAttributes'),
     newPutEmailIdentityFeedbackAttributes,
-    PutEmailIdentityFeedbackAttributesResponse,
+    PutEmailIdentityFeedbackAttributesResponse (PutEmailIdentityFeedbackAttributesResponse'),
     newPutEmailIdentityFeedbackAttributesResponse,
 
     -- ** PutEmailIdentityMailFromAttributes
-    PutEmailIdentityMailFromAttributes,
+    PutEmailIdentityMailFromAttributes (PutEmailIdentityMailFromAttributes'),
     newPutEmailIdentityMailFromAttributes,
-    PutEmailIdentityMailFromAttributesResponse,
+    PutEmailIdentityMailFromAttributesResponse (PutEmailIdentityMailFromAttributesResponse'),
     newPutEmailIdentityMailFromAttributesResponse,
 
     -- ** PutSuppressedDestination
-    PutSuppressedDestination,
+    PutSuppressedDestination (PutSuppressedDestination'),
     newPutSuppressedDestination,
-    PutSuppressedDestinationResponse,
+    PutSuppressedDestinationResponse (PutSuppressedDestinationResponse'),
     newPutSuppressedDestinationResponse,
 
     -- ** SendBulkEmail
-    SendBulkEmail,
+    SendBulkEmail (SendBulkEmail'),
     newSendBulkEmail,
-    SendBulkEmailResponse,
+    SendBulkEmailResponse (SendBulkEmailResponse'),
     newSendBulkEmailResponse,
 
     -- ** SendCustomVerificationEmail
-    SendCustomVerificationEmail,
+    SendCustomVerificationEmail (SendCustomVerificationEmail'),
     newSendCustomVerificationEmail,
-    SendCustomVerificationEmailResponse,
+    SendCustomVerificationEmailResponse (SendCustomVerificationEmailResponse'),
     newSendCustomVerificationEmailResponse,
 
     -- ** SendEmail
-    SendEmail,
+    SendEmail (SendEmail'),
     newSendEmail,
-    SendEmailResponse,
+    SendEmailResponse (SendEmailResponse'),
     newSendEmailResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** TestRenderEmailTemplate
-    TestRenderEmailTemplate,
+    TestRenderEmailTemplate (TestRenderEmailTemplate'),
     newTestRenderEmailTemplate,
-    TestRenderEmailTemplateResponse,
+    TestRenderEmailTemplateResponse (TestRenderEmailTemplateResponse'),
     newTestRenderEmailTemplateResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateConfigurationSetEventDestination
-    UpdateConfigurationSetEventDestination,
+    UpdateConfigurationSetEventDestination (UpdateConfigurationSetEventDestination'),
     newUpdateConfigurationSetEventDestination,
-    UpdateConfigurationSetEventDestinationResponse,
+    UpdateConfigurationSetEventDestinationResponse (UpdateConfigurationSetEventDestinationResponse'),
     newUpdateConfigurationSetEventDestinationResponse,
 
     -- ** UpdateContact
-    UpdateContact,
+    UpdateContact (UpdateContact'),
     newUpdateContact,
-    UpdateContactResponse,
+    UpdateContactResponse (UpdateContactResponse'),
     newUpdateContactResponse,
 
     -- ** UpdateContactList
-    UpdateContactList,
+    UpdateContactList (UpdateContactList'),
     newUpdateContactList,
-    UpdateContactListResponse,
+    UpdateContactListResponse (UpdateContactListResponse'),
     newUpdateContactListResponse,
 
     -- ** UpdateCustomVerificationEmailTemplate
-    UpdateCustomVerificationEmailTemplate,
+    UpdateCustomVerificationEmailTemplate (UpdateCustomVerificationEmailTemplate'),
     newUpdateCustomVerificationEmailTemplate,
-    UpdateCustomVerificationEmailTemplateResponse,
+    UpdateCustomVerificationEmailTemplateResponse (UpdateCustomVerificationEmailTemplateResponse'),
     newUpdateCustomVerificationEmailTemplateResponse,
 
     -- ** UpdateEmailIdentityPolicy
-    UpdateEmailIdentityPolicy,
+    UpdateEmailIdentityPolicy (UpdateEmailIdentityPolicy'),
     newUpdateEmailIdentityPolicy,
-    UpdateEmailIdentityPolicyResponse,
+    UpdateEmailIdentityPolicyResponse (UpdateEmailIdentityPolicyResponse'),
     newUpdateEmailIdentityPolicyResponse,
 
     -- ** UpdateEmailTemplate
-    UpdateEmailTemplate,
+    UpdateEmailTemplate (UpdateEmailTemplate'),
     newUpdateEmailTemplate,
-    UpdateEmailTemplateResponse,
+    UpdateEmailTemplateResponse (UpdateEmailTemplateResponse'),
     newUpdateEmailTemplateResponse,
 
     -- * Types
@@ -694,307 +694,307 @@ module Amazonka.SESV2
     WarmupStatus (..),
 
     -- ** AccountDetails
-    AccountDetails,
+    AccountDetails (AccountDetails'),
     newAccountDetails,
 
     -- ** BatchGetMetricDataQuery
-    BatchGetMetricDataQuery,
+    BatchGetMetricDataQuery (BatchGetMetricDataQuery'),
     newBatchGetMetricDataQuery,
 
     -- ** BlacklistEntry
-    BlacklistEntry,
+    BlacklistEntry (BlacklistEntry'),
     newBlacklistEntry,
 
     -- ** Body
-    Body,
+    Body (Body'),
     newBody,
 
     -- ** BulkEmailContent
-    BulkEmailContent,
+    BulkEmailContent (BulkEmailContent'),
     newBulkEmailContent,
 
     -- ** BulkEmailEntry
-    BulkEmailEntry,
+    BulkEmailEntry (BulkEmailEntry'),
     newBulkEmailEntry,
 
     -- ** BulkEmailEntryResult
-    BulkEmailEntryResult,
+    BulkEmailEntryResult (BulkEmailEntryResult'),
     newBulkEmailEntryResult,
 
     -- ** CloudWatchDestination
-    CloudWatchDestination,
+    CloudWatchDestination (CloudWatchDestination'),
     newCloudWatchDestination,
 
     -- ** CloudWatchDimensionConfiguration
-    CloudWatchDimensionConfiguration,
+    CloudWatchDimensionConfiguration (CloudWatchDimensionConfiguration'),
     newCloudWatchDimensionConfiguration,
 
     -- ** Contact
-    Contact,
+    Contact (Contact'),
     newContact,
 
     -- ** ContactList
-    ContactList,
+    ContactList (ContactList'),
     newContactList,
 
     -- ** ContactListDestination
-    ContactListDestination,
+    ContactListDestination (ContactListDestination'),
     newContactListDestination,
 
     -- ** Content
-    Content,
+    Content (Content'),
     newContent,
 
     -- ** CustomVerificationEmailTemplateMetadata
-    CustomVerificationEmailTemplateMetadata,
+    CustomVerificationEmailTemplateMetadata (CustomVerificationEmailTemplateMetadata'),
     newCustomVerificationEmailTemplateMetadata,
 
     -- ** DailyVolume
-    DailyVolume,
+    DailyVolume (DailyVolume'),
     newDailyVolume,
 
     -- ** DashboardAttributes
-    DashboardAttributes,
+    DashboardAttributes (DashboardAttributes'),
     newDashboardAttributes,
 
     -- ** DashboardOptions
-    DashboardOptions,
+    DashboardOptions (DashboardOptions'),
     newDashboardOptions,
 
     -- ** DedicatedIp
-    DedicatedIp,
+    DedicatedIp (DedicatedIp'),
     newDedicatedIp,
 
     -- ** DedicatedIpPool
-    DedicatedIpPool,
+    DedicatedIpPool (DedicatedIpPool'),
     newDedicatedIpPool,
 
     -- ** DeliverabilityTestReport
-    DeliverabilityTestReport,
+    DeliverabilityTestReport (DeliverabilityTestReport'),
     newDeliverabilityTestReport,
 
     -- ** DeliveryOptions
-    DeliveryOptions,
+    DeliveryOptions (DeliveryOptions'),
     newDeliveryOptions,
 
     -- ** Destination
-    Destination,
+    Destination (Destination'),
     newDestination,
 
     -- ** DkimAttributes
-    DkimAttributes,
+    DkimAttributes (DkimAttributes'),
     newDkimAttributes,
 
     -- ** DkimSigningAttributes
-    DkimSigningAttributes,
+    DkimSigningAttributes (DkimSigningAttributes'),
     newDkimSigningAttributes,
 
     -- ** DomainDeliverabilityCampaign
-    DomainDeliverabilityCampaign,
+    DomainDeliverabilityCampaign (DomainDeliverabilityCampaign'),
     newDomainDeliverabilityCampaign,
 
     -- ** DomainDeliverabilityTrackingOption
-    DomainDeliverabilityTrackingOption,
+    DomainDeliverabilityTrackingOption (DomainDeliverabilityTrackingOption'),
     newDomainDeliverabilityTrackingOption,
 
     -- ** DomainIspPlacement
-    DomainIspPlacement,
+    DomainIspPlacement (DomainIspPlacement'),
     newDomainIspPlacement,
 
     -- ** EmailContent
-    EmailContent,
+    EmailContent (EmailContent'),
     newEmailContent,
 
     -- ** EmailTemplateContent
-    EmailTemplateContent,
+    EmailTemplateContent (EmailTemplateContent'),
     newEmailTemplateContent,
 
     -- ** EmailTemplateMetadata
-    EmailTemplateMetadata,
+    EmailTemplateMetadata (EmailTemplateMetadata'),
     newEmailTemplateMetadata,
 
     -- ** EventDestination
-    EventDestination,
+    EventDestination (EventDestination'),
     newEventDestination,
 
     -- ** EventDestinationDefinition
-    EventDestinationDefinition,
+    EventDestinationDefinition (EventDestinationDefinition'),
     newEventDestinationDefinition,
 
     -- ** FailureInfo
-    FailureInfo,
+    FailureInfo (FailureInfo'),
     newFailureInfo,
 
     -- ** GuardianAttributes
-    GuardianAttributes,
+    GuardianAttributes (GuardianAttributes'),
     newGuardianAttributes,
 
     -- ** GuardianOptions
-    GuardianOptions,
+    GuardianOptions (GuardianOptions'),
     newGuardianOptions,
 
     -- ** IdentityInfo
-    IdentityInfo,
+    IdentityInfo (IdentityInfo'),
     newIdentityInfo,
 
     -- ** ImportDataSource
-    ImportDataSource,
+    ImportDataSource (ImportDataSource'),
     newImportDataSource,
 
     -- ** ImportDestination
-    ImportDestination,
+    ImportDestination (ImportDestination'),
     newImportDestination,
 
     -- ** ImportJobSummary
-    ImportJobSummary,
+    ImportJobSummary (ImportJobSummary'),
     newImportJobSummary,
 
     -- ** InboxPlacementTrackingOption
-    InboxPlacementTrackingOption,
+    InboxPlacementTrackingOption (InboxPlacementTrackingOption'),
     newInboxPlacementTrackingOption,
 
     -- ** IspPlacement
-    IspPlacement,
+    IspPlacement (IspPlacement'),
     newIspPlacement,
 
     -- ** KinesisFirehoseDestination
-    KinesisFirehoseDestination,
+    KinesisFirehoseDestination (KinesisFirehoseDestination'),
     newKinesisFirehoseDestination,
 
     -- ** ListContactsFilter
-    ListContactsFilter,
+    ListContactsFilter (ListContactsFilter'),
     newListContactsFilter,
 
     -- ** ListManagementOptions
-    ListManagementOptions,
+    ListManagementOptions (ListManagementOptions'),
     newListManagementOptions,
 
     -- ** MailFromAttributes
-    MailFromAttributes,
+    MailFromAttributes (MailFromAttributes'),
     newMailFromAttributes,
 
     -- ** Message
-    Message,
+    Message (Message'),
     newMessage,
 
     -- ** MessageTag
-    MessageTag,
+    MessageTag (MessageTag'),
     newMessageTag,
 
     -- ** MetricDataError
-    MetricDataError,
+    MetricDataError (MetricDataError'),
     newMetricDataError,
 
     -- ** MetricDataResult
-    MetricDataResult,
+    MetricDataResult (MetricDataResult'),
     newMetricDataResult,
 
     -- ** OverallVolume
-    OverallVolume,
+    OverallVolume (OverallVolume'),
     newOverallVolume,
 
     -- ** PinpointDestination
-    PinpointDestination,
+    PinpointDestination (PinpointDestination'),
     newPinpointDestination,
 
     -- ** PlacementStatistics
-    PlacementStatistics,
+    PlacementStatistics (PlacementStatistics'),
     newPlacementStatistics,
 
     -- ** RawMessage
-    RawMessage,
+    RawMessage (RawMessage'),
     newRawMessage,
 
     -- ** Recommendation
-    Recommendation,
+    Recommendation (Recommendation'),
     newRecommendation,
 
     -- ** ReplacementEmailContent
-    ReplacementEmailContent,
+    ReplacementEmailContent (ReplacementEmailContent'),
     newReplacementEmailContent,
 
     -- ** ReplacementTemplate
-    ReplacementTemplate,
+    ReplacementTemplate (ReplacementTemplate'),
     newReplacementTemplate,
 
     -- ** ReputationOptions
-    ReputationOptions,
+    ReputationOptions (ReputationOptions'),
     newReputationOptions,
 
     -- ** ReviewDetails
-    ReviewDetails,
+    ReviewDetails (ReviewDetails'),
     newReviewDetails,
 
     -- ** SendQuota
-    SendQuota,
+    SendQuota (SendQuota'),
     newSendQuota,
 
     -- ** SendingOptions
-    SendingOptions,
+    SendingOptions (SendingOptions'),
     newSendingOptions,
 
     -- ** SnsDestination
-    SnsDestination,
+    SnsDestination (SnsDestination'),
     newSnsDestination,
 
     -- ** SuppressedDestination
-    SuppressedDestination,
+    SuppressedDestination (SuppressedDestination'),
     newSuppressedDestination,
 
     -- ** SuppressedDestinationAttributes
-    SuppressedDestinationAttributes,
+    SuppressedDestinationAttributes (SuppressedDestinationAttributes'),
     newSuppressedDestinationAttributes,
 
     -- ** SuppressedDestinationSummary
-    SuppressedDestinationSummary,
+    SuppressedDestinationSummary (SuppressedDestinationSummary'),
     newSuppressedDestinationSummary,
 
     -- ** SuppressionAttributes
-    SuppressionAttributes,
+    SuppressionAttributes (SuppressionAttributes'),
     newSuppressionAttributes,
 
     -- ** SuppressionListDestination
-    SuppressionListDestination,
+    SuppressionListDestination (SuppressionListDestination'),
     newSuppressionListDestination,
 
     -- ** SuppressionOptions
-    SuppressionOptions,
+    SuppressionOptions (SuppressionOptions'),
     newSuppressionOptions,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** Template
-    Template,
+    Template (Template'),
     newTemplate,
 
     -- ** Topic
-    Topic,
+    Topic (Topic'),
     newTopic,
 
     -- ** TopicFilter
-    TopicFilter,
+    TopicFilter (TopicFilter'),
     newTopicFilter,
 
     -- ** TopicPreference
-    TopicPreference,
+    TopicPreference (TopicPreference'),
     newTopicPreference,
 
     -- ** TrackingOptions
-    TrackingOptions,
+    TrackingOptions (TrackingOptions'),
     newTrackingOptions,
 
     -- ** VdmAttributes
-    VdmAttributes,
+    VdmAttributes (VdmAttributes'),
     newVdmAttributes,
 
     -- ** VdmOptions
-    VdmOptions,
+    VdmOptions (VdmOptions'),
     newVdmOptions,
 
     -- ** VolumeStatistics
-    VolumeStatistics,
+    VolumeStatistics (VolumeStatistics'),
     newVolumeStatistics,
   )
 where

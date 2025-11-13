@@ -61,15 +61,15 @@ module Amazonka.EC2InstanceConnect
     -- $operations
 
     -- ** SendSSHPublicKey
-    SendSSHPublicKey,
+    SendSSHPublicKey (SendSSHPublicKey'),
     newSendSSHPublicKey,
-    SendSSHPublicKeyResponse,
+    SendSSHPublicKeyResponse (SendSSHPublicKeyResponse'),
     newSendSSHPublicKeyResponse,
 
     -- ** SendSerialConsoleSSHPublicKey
-    SendSerialConsoleSSHPublicKey,
+    SendSerialConsoleSSHPublicKey (SendSerialConsoleSSHPublicKey'),
     newSendSerialConsoleSSHPublicKey,
-    SendSerialConsoleSSHPublicKeyResponse,
+    SendSerialConsoleSSHPublicKeyResponse (SendSerialConsoleSSHPublicKeyResponse'),
     newSendSerialConsoleSSHPublicKeyResponse,
 
     -- * Types

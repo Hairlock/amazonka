@@ -69,189 +69,189 @@ module Amazonka.KinesisAnalyticsV2
     -- $operations
 
     -- ** AddApplicationCloudWatchLoggingOption
-    AddApplicationCloudWatchLoggingOption,
+    AddApplicationCloudWatchLoggingOption (AddApplicationCloudWatchLoggingOption'),
     newAddApplicationCloudWatchLoggingOption,
-    AddApplicationCloudWatchLoggingOptionResponse,
+    AddApplicationCloudWatchLoggingOptionResponse (AddApplicationCloudWatchLoggingOptionResponse'),
     newAddApplicationCloudWatchLoggingOptionResponse,
 
     -- ** AddApplicationInput
-    AddApplicationInput,
+    AddApplicationInput (AddApplicationInput'),
     newAddApplicationInput,
-    AddApplicationInputResponse,
+    AddApplicationInputResponse (AddApplicationInputResponse'),
     newAddApplicationInputResponse,
 
     -- ** AddApplicationInputProcessingConfiguration
-    AddApplicationInputProcessingConfiguration,
+    AddApplicationInputProcessingConfiguration (AddApplicationInputProcessingConfiguration'),
     newAddApplicationInputProcessingConfiguration,
-    AddApplicationInputProcessingConfigurationResponse,
+    AddApplicationInputProcessingConfigurationResponse (AddApplicationInputProcessingConfigurationResponse'),
     newAddApplicationInputProcessingConfigurationResponse,
 
     -- ** AddApplicationOutput
-    AddApplicationOutput,
+    AddApplicationOutput (AddApplicationOutput'),
     newAddApplicationOutput,
-    AddApplicationOutputResponse,
+    AddApplicationOutputResponse (AddApplicationOutputResponse'),
     newAddApplicationOutputResponse,
 
     -- ** AddApplicationReferenceDataSource
-    AddApplicationReferenceDataSource,
+    AddApplicationReferenceDataSource (AddApplicationReferenceDataSource'),
     newAddApplicationReferenceDataSource,
-    AddApplicationReferenceDataSourceResponse,
+    AddApplicationReferenceDataSourceResponse (AddApplicationReferenceDataSourceResponse'),
     newAddApplicationReferenceDataSourceResponse,
 
     -- ** AddApplicationVpcConfiguration
-    AddApplicationVpcConfiguration,
+    AddApplicationVpcConfiguration (AddApplicationVpcConfiguration'),
     newAddApplicationVpcConfiguration,
-    AddApplicationVpcConfigurationResponse,
+    AddApplicationVpcConfigurationResponse (AddApplicationVpcConfigurationResponse'),
     newAddApplicationVpcConfigurationResponse,
 
     -- ** CreateApplication
-    CreateApplication,
+    CreateApplication (CreateApplication'),
     newCreateApplication,
-    CreateApplicationResponse,
+    CreateApplicationResponse (CreateApplicationResponse'),
     newCreateApplicationResponse,
 
     -- ** CreateApplicationPresignedUrl
-    CreateApplicationPresignedUrl,
+    CreateApplicationPresignedUrl (CreateApplicationPresignedUrl'),
     newCreateApplicationPresignedUrl,
-    CreateApplicationPresignedUrlResponse,
+    CreateApplicationPresignedUrlResponse (CreateApplicationPresignedUrlResponse'),
     newCreateApplicationPresignedUrlResponse,
 
     -- ** CreateApplicationSnapshot
-    CreateApplicationSnapshot,
+    CreateApplicationSnapshot (CreateApplicationSnapshot'),
     newCreateApplicationSnapshot,
-    CreateApplicationSnapshotResponse,
+    CreateApplicationSnapshotResponse (CreateApplicationSnapshotResponse'),
     newCreateApplicationSnapshotResponse,
 
     -- ** DeleteApplication
-    DeleteApplication,
+    DeleteApplication (DeleteApplication'),
     newDeleteApplication,
-    DeleteApplicationResponse,
+    DeleteApplicationResponse (DeleteApplicationResponse'),
     newDeleteApplicationResponse,
 
     -- ** DeleteApplicationCloudWatchLoggingOption
-    DeleteApplicationCloudWatchLoggingOption,
+    DeleteApplicationCloudWatchLoggingOption (DeleteApplicationCloudWatchLoggingOption'),
     newDeleteApplicationCloudWatchLoggingOption,
-    DeleteApplicationCloudWatchLoggingOptionResponse,
+    DeleteApplicationCloudWatchLoggingOptionResponse (DeleteApplicationCloudWatchLoggingOptionResponse'),
     newDeleteApplicationCloudWatchLoggingOptionResponse,
 
     -- ** DeleteApplicationInputProcessingConfiguration
-    DeleteApplicationInputProcessingConfiguration,
+    DeleteApplicationInputProcessingConfiguration (DeleteApplicationInputProcessingConfiguration'),
     newDeleteApplicationInputProcessingConfiguration,
-    DeleteApplicationInputProcessingConfigurationResponse,
+    DeleteApplicationInputProcessingConfigurationResponse (DeleteApplicationInputProcessingConfigurationResponse'),
     newDeleteApplicationInputProcessingConfigurationResponse,
 
     -- ** DeleteApplicationOutput
-    DeleteApplicationOutput,
+    DeleteApplicationOutput (DeleteApplicationOutput'),
     newDeleteApplicationOutput,
-    DeleteApplicationOutputResponse,
+    DeleteApplicationOutputResponse (DeleteApplicationOutputResponse'),
     newDeleteApplicationOutputResponse,
 
     -- ** DeleteApplicationReferenceDataSource
-    DeleteApplicationReferenceDataSource,
+    DeleteApplicationReferenceDataSource (DeleteApplicationReferenceDataSource'),
     newDeleteApplicationReferenceDataSource,
-    DeleteApplicationReferenceDataSourceResponse,
+    DeleteApplicationReferenceDataSourceResponse (DeleteApplicationReferenceDataSourceResponse'),
     newDeleteApplicationReferenceDataSourceResponse,
 
     -- ** DeleteApplicationSnapshot
-    DeleteApplicationSnapshot,
+    DeleteApplicationSnapshot (DeleteApplicationSnapshot'),
     newDeleteApplicationSnapshot,
-    DeleteApplicationSnapshotResponse,
+    DeleteApplicationSnapshotResponse (DeleteApplicationSnapshotResponse'),
     newDeleteApplicationSnapshotResponse,
 
     -- ** DeleteApplicationVpcConfiguration
-    DeleteApplicationVpcConfiguration,
+    DeleteApplicationVpcConfiguration (DeleteApplicationVpcConfiguration'),
     newDeleteApplicationVpcConfiguration,
-    DeleteApplicationVpcConfigurationResponse,
+    DeleteApplicationVpcConfigurationResponse (DeleteApplicationVpcConfigurationResponse'),
     newDeleteApplicationVpcConfigurationResponse,
 
     -- ** DescribeApplication
-    DescribeApplication,
+    DescribeApplication (DescribeApplication'),
     newDescribeApplication,
-    DescribeApplicationResponse,
+    DescribeApplicationResponse (DescribeApplicationResponse'),
     newDescribeApplicationResponse,
 
     -- ** DescribeApplicationSnapshot
-    DescribeApplicationSnapshot,
+    DescribeApplicationSnapshot (DescribeApplicationSnapshot'),
     newDescribeApplicationSnapshot,
-    DescribeApplicationSnapshotResponse,
+    DescribeApplicationSnapshotResponse (DescribeApplicationSnapshotResponse'),
     newDescribeApplicationSnapshotResponse,
 
     -- ** DescribeApplicationVersion
-    DescribeApplicationVersion,
+    DescribeApplicationVersion (DescribeApplicationVersion'),
     newDescribeApplicationVersion,
-    DescribeApplicationVersionResponse,
+    DescribeApplicationVersionResponse (DescribeApplicationVersionResponse'),
     newDescribeApplicationVersionResponse,
 
     -- ** DiscoverInputSchema
-    DiscoverInputSchema,
+    DiscoverInputSchema (DiscoverInputSchema'),
     newDiscoverInputSchema,
-    DiscoverInputSchemaResponse,
+    DiscoverInputSchemaResponse (DiscoverInputSchemaResponse'),
     newDiscoverInputSchemaResponse,
 
     -- ** ListApplicationSnapshots (Paginated)
-    ListApplicationSnapshots,
+    ListApplicationSnapshots (ListApplicationSnapshots'),
     newListApplicationSnapshots,
-    ListApplicationSnapshotsResponse,
+    ListApplicationSnapshotsResponse (ListApplicationSnapshotsResponse'),
     newListApplicationSnapshotsResponse,
 
     -- ** ListApplicationVersions
-    ListApplicationVersions,
+    ListApplicationVersions (ListApplicationVersions'),
     newListApplicationVersions,
-    ListApplicationVersionsResponse,
+    ListApplicationVersionsResponse (ListApplicationVersionsResponse'),
     newListApplicationVersionsResponse,
 
     -- ** ListApplications (Paginated)
-    ListApplications,
+    ListApplications (ListApplications'),
     newListApplications,
-    ListApplicationsResponse,
+    ListApplicationsResponse (ListApplicationsResponse'),
     newListApplicationsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** RollbackApplication
-    RollbackApplication,
+    RollbackApplication (RollbackApplication'),
     newRollbackApplication,
-    RollbackApplicationResponse,
+    RollbackApplicationResponse (RollbackApplicationResponse'),
     newRollbackApplicationResponse,
 
     -- ** StartApplication
-    StartApplication,
+    StartApplication (StartApplication'),
     newStartApplication,
-    StartApplicationResponse,
+    StartApplicationResponse (StartApplicationResponse'),
     newStartApplicationResponse,
 
     -- ** StopApplication
-    StopApplication,
+    StopApplication (StopApplication'),
     newStopApplication,
-    StopApplicationResponse,
+    StopApplicationResponse (StopApplicationResponse'),
     newStopApplicationResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateApplication
-    UpdateApplication,
+    UpdateApplication (UpdateApplication'),
     newUpdateApplication,
-    UpdateApplicationResponse,
+    UpdateApplicationResponse (UpdateApplicationResponse'),
     newUpdateApplicationResponse,
 
     -- ** UpdateApplicationMaintenanceConfiguration
-    UpdateApplicationMaintenanceConfiguration,
+    UpdateApplicationMaintenanceConfiguration (UpdateApplicationMaintenanceConfiguration'),
     newUpdateApplicationMaintenanceConfiguration,
-    UpdateApplicationMaintenanceConfigurationResponse,
+    UpdateApplicationMaintenanceConfigurationResponse (UpdateApplicationMaintenanceConfigurationResponse'),
     newUpdateApplicationMaintenanceConfigurationResponse,
 
     -- * Types
@@ -296,479 +296,479 @@ module Amazonka.KinesisAnalyticsV2
     UrlType (..),
 
     -- ** ApplicationCodeConfiguration
-    ApplicationCodeConfiguration,
+    ApplicationCodeConfiguration (ApplicationCodeConfiguration'),
     newApplicationCodeConfiguration,
 
     -- ** ApplicationCodeConfigurationDescription
-    ApplicationCodeConfigurationDescription,
+    ApplicationCodeConfigurationDescription (ApplicationCodeConfigurationDescription'),
     newApplicationCodeConfigurationDescription,
 
     -- ** ApplicationCodeConfigurationUpdate
-    ApplicationCodeConfigurationUpdate,
+    ApplicationCodeConfigurationUpdate (ApplicationCodeConfigurationUpdate'),
     newApplicationCodeConfigurationUpdate,
 
     -- ** ApplicationConfiguration
-    ApplicationConfiguration,
+    ApplicationConfiguration (ApplicationConfiguration'),
     newApplicationConfiguration,
 
     -- ** ApplicationConfigurationDescription
-    ApplicationConfigurationDescription,
+    ApplicationConfigurationDescription (ApplicationConfigurationDescription'),
     newApplicationConfigurationDescription,
 
     -- ** ApplicationConfigurationUpdate
-    ApplicationConfigurationUpdate,
+    ApplicationConfigurationUpdate (ApplicationConfigurationUpdate'),
     newApplicationConfigurationUpdate,
 
     -- ** ApplicationDetail
-    ApplicationDetail,
+    ApplicationDetail (ApplicationDetail'),
     newApplicationDetail,
 
     -- ** ApplicationMaintenanceConfigurationDescription
-    ApplicationMaintenanceConfigurationDescription,
+    ApplicationMaintenanceConfigurationDescription (ApplicationMaintenanceConfigurationDescription'),
     newApplicationMaintenanceConfigurationDescription,
 
     -- ** ApplicationMaintenanceConfigurationUpdate
-    ApplicationMaintenanceConfigurationUpdate,
+    ApplicationMaintenanceConfigurationUpdate (ApplicationMaintenanceConfigurationUpdate'),
     newApplicationMaintenanceConfigurationUpdate,
 
     -- ** ApplicationRestoreConfiguration
-    ApplicationRestoreConfiguration,
+    ApplicationRestoreConfiguration (ApplicationRestoreConfiguration'),
     newApplicationRestoreConfiguration,
 
     -- ** ApplicationSnapshotConfiguration
-    ApplicationSnapshotConfiguration,
+    ApplicationSnapshotConfiguration (ApplicationSnapshotConfiguration'),
     newApplicationSnapshotConfiguration,
 
     -- ** ApplicationSnapshotConfigurationDescription
-    ApplicationSnapshotConfigurationDescription,
+    ApplicationSnapshotConfigurationDescription (ApplicationSnapshotConfigurationDescription'),
     newApplicationSnapshotConfigurationDescription,
 
     -- ** ApplicationSnapshotConfigurationUpdate
-    ApplicationSnapshotConfigurationUpdate,
+    ApplicationSnapshotConfigurationUpdate (ApplicationSnapshotConfigurationUpdate'),
     newApplicationSnapshotConfigurationUpdate,
 
     -- ** ApplicationSummary
-    ApplicationSummary,
+    ApplicationSummary (ApplicationSummary'),
     newApplicationSummary,
 
     -- ** ApplicationVersionSummary
-    ApplicationVersionSummary,
+    ApplicationVersionSummary (ApplicationVersionSummary'),
     newApplicationVersionSummary,
 
     -- ** CSVMappingParameters
-    CSVMappingParameters,
+    CSVMappingParameters (CSVMappingParameters'),
     newCSVMappingParameters,
 
     -- ** CatalogConfiguration
-    CatalogConfiguration,
+    CatalogConfiguration (CatalogConfiguration'),
     newCatalogConfiguration,
 
     -- ** CatalogConfigurationDescription
-    CatalogConfigurationDescription,
+    CatalogConfigurationDescription (CatalogConfigurationDescription'),
     newCatalogConfigurationDescription,
 
     -- ** CatalogConfigurationUpdate
-    CatalogConfigurationUpdate,
+    CatalogConfigurationUpdate (CatalogConfigurationUpdate'),
     newCatalogConfigurationUpdate,
 
     -- ** CheckpointConfiguration
-    CheckpointConfiguration,
+    CheckpointConfiguration (CheckpointConfiguration'),
     newCheckpointConfiguration,
 
     -- ** CheckpointConfigurationDescription
-    CheckpointConfigurationDescription,
+    CheckpointConfigurationDescription (CheckpointConfigurationDescription'),
     newCheckpointConfigurationDescription,
 
     -- ** CheckpointConfigurationUpdate
-    CheckpointConfigurationUpdate,
+    CheckpointConfigurationUpdate (CheckpointConfigurationUpdate'),
     newCheckpointConfigurationUpdate,
 
     -- ** CloudWatchLoggingOption
-    CloudWatchLoggingOption,
+    CloudWatchLoggingOption (CloudWatchLoggingOption'),
     newCloudWatchLoggingOption,
 
     -- ** CloudWatchLoggingOptionDescription
-    CloudWatchLoggingOptionDescription,
+    CloudWatchLoggingOptionDescription (CloudWatchLoggingOptionDescription'),
     newCloudWatchLoggingOptionDescription,
 
     -- ** CloudWatchLoggingOptionUpdate
-    CloudWatchLoggingOptionUpdate,
+    CloudWatchLoggingOptionUpdate (CloudWatchLoggingOptionUpdate'),
     newCloudWatchLoggingOptionUpdate,
 
     -- ** CodeContent
-    CodeContent,
+    CodeContent (CodeContent'),
     newCodeContent,
 
     -- ** CodeContentDescription
-    CodeContentDescription,
+    CodeContentDescription (CodeContentDescription'),
     newCodeContentDescription,
 
     -- ** CodeContentUpdate
-    CodeContentUpdate,
+    CodeContentUpdate (CodeContentUpdate'),
     newCodeContentUpdate,
 
     -- ** CustomArtifactConfiguration
-    CustomArtifactConfiguration,
+    CustomArtifactConfiguration (CustomArtifactConfiguration'),
     newCustomArtifactConfiguration,
 
     -- ** CustomArtifactConfigurationDescription
-    CustomArtifactConfigurationDescription,
+    CustomArtifactConfigurationDescription (CustomArtifactConfigurationDescription'),
     newCustomArtifactConfigurationDescription,
 
     -- ** DeployAsApplicationConfiguration
-    DeployAsApplicationConfiguration,
+    DeployAsApplicationConfiguration (DeployAsApplicationConfiguration'),
     newDeployAsApplicationConfiguration,
 
     -- ** DeployAsApplicationConfigurationDescription
-    DeployAsApplicationConfigurationDescription,
+    DeployAsApplicationConfigurationDescription (DeployAsApplicationConfigurationDescription'),
     newDeployAsApplicationConfigurationDescription,
 
     -- ** DeployAsApplicationConfigurationUpdate
-    DeployAsApplicationConfigurationUpdate,
+    DeployAsApplicationConfigurationUpdate (DeployAsApplicationConfigurationUpdate'),
     newDeployAsApplicationConfigurationUpdate,
 
     -- ** DestinationSchema
-    DestinationSchema,
+    DestinationSchema (DestinationSchema'),
     newDestinationSchema,
 
     -- ** EnvironmentProperties
-    EnvironmentProperties,
+    EnvironmentProperties (EnvironmentProperties'),
     newEnvironmentProperties,
 
     -- ** EnvironmentPropertyDescriptions
-    EnvironmentPropertyDescriptions,
+    EnvironmentPropertyDescriptions (EnvironmentPropertyDescriptions'),
     newEnvironmentPropertyDescriptions,
 
     -- ** EnvironmentPropertyUpdates
-    EnvironmentPropertyUpdates,
+    EnvironmentPropertyUpdates (EnvironmentPropertyUpdates'),
     newEnvironmentPropertyUpdates,
 
     -- ** FlinkApplicationConfiguration
-    FlinkApplicationConfiguration,
+    FlinkApplicationConfiguration (FlinkApplicationConfiguration'),
     newFlinkApplicationConfiguration,
 
     -- ** FlinkApplicationConfigurationDescription
-    FlinkApplicationConfigurationDescription,
+    FlinkApplicationConfigurationDescription (FlinkApplicationConfigurationDescription'),
     newFlinkApplicationConfigurationDescription,
 
     -- ** FlinkApplicationConfigurationUpdate
-    FlinkApplicationConfigurationUpdate,
+    FlinkApplicationConfigurationUpdate (FlinkApplicationConfigurationUpdate'),
     newFlinkApplicationConfigurationUpdate,
 
     -- ** FlinkRunConfiguration
-    FlinkRunConfiguration,
+    FlinkRunConfiguration (FlinkRunConfiguration'),
     newFlinkRunConfiguration,
 
     -- ** GlueDataCatalogConfiguration
-    GlueDataCatalogConfiguration,
+    GlueDataCatalogConfiguration (GlueDataCatalogConfiguration'),
     newGlueDataCatalogConfiguration,
 
     -- ** GlueDataCatalogConfigurationDescription
-    GlueDataCatalogConfigurationDescription,
+    GlueDataCatalogConfigurationDescription (GlueDataCatalogConfigurationDescription'),
     newGlueDataCatalogConfigurationDescription,
 
     -- ** GlueDataCatalogConfigurationUpdate
-    GlueDataCatalogConfigurationUpdate,
+    GlueDataCatalogConfigurationUpdate (GlueDataCatalogConfigurationUpdate'),
     newGlueDataCatalogConfigurationUpdate,
 
     -- ** Input
-    Input,
+    Input (Input'),
     newInput,
 
     -- ** InputDescription
-    InputDescription,
+    InputDescription (InputDescription'),
     newInputDescription,
 
     -- ** InputLambdaProcessor
-    InputLambdaProcessor,
+    InputLambdaProcessor (InputLambdaProcessor'),
     newInputLambdaProcessor,
 
     -- ** InputLambdaProcessorDescription
-    InputLambdaProcessorDescription,
+    InputLambdaProcessorDescription (InputLambdaProcessorDescription'),
     newInputLambdaProcessorDescription,
 
     -- ** InputLambdaProcessorUpdate
-    InputLambdaProcessorUpdate,
+    InputLambdaProcessorUpdate (InputLambdaProcessorUpdate'),
     newInputLambdaProcessorUpdate,
 
     -- ** InputParallelism
-    InputParallelism,
+    InputParallelism (InputParallelism'),
     newInputParallelism,
 
     -- ** InputParallelismUpdate
-    InputParallelismUpdate,
+    InputParallelismUpdate (InputParallelismUpdate'),
     newInputParallelismUpdate,
 
     -- ** InputProcessingConfiguration
-    InputProcessingConfiguration,
+    InputProcessingConfiguration (InputProcessingConfiguration'),
     newInputProcessingConfiguration,
 
     -- ** InputProcessingConfigurationDescription
-    InputProcessingConfigurationDescription,
+    InputProcessingConfigurationDescription (InputProcessingConfigurationDescription'),
     newInputProcessingConfigurationDescription,
 
     -- ** InputProcessingConfigurationUpdate
-    InputProcessingConfigurationUpdate,
+    InputProcessingConfigurationUpdate (InputProcessingConfigurationUpdate'),
     newInputProcessingConfigurationUpdate,
 
     -- ** InputSchemaUpdate
-    InputSchemaUpdate,
+    InputSchemaUpdate (InputSchemaUpdate'),
     newInputSchemaUpdate,
 
     -- ** InputStartingPositionConfiguration
-    InputStartingPositionConfiguration,
+    InputStartingPositionConfiguration (InputStartingPositionConfiguration'),
     newInputStartingPositionConfiguration,
 
     -- ** InputUpdate
-    InputUpdate,
+    InputUpdate (InputUpdate'),
     newInputUpdate,
 
     -- ** JSONMappingParameters
-    JSONMappingParameters,
+    JSONMappingParameters (JSONMappingParameters'),
     newJSONMappingParameters,
 
     -- ** KinesisFirehoseInput
-    KinesisFirehoseInput,
+    KinesisFirehoseInput (KinesisFirehoseInput'),
     newKinesisFirehoseInput,
 
     -- ** KinesisFirehoseInputDescription
-    KinesisFirehoseInputDescription,
+    KinesisFirehoseInputDescription (KinesisFirehoseInputDescription'),
     newKinesisFirehoseInputDescription,
 
     -- ** KinesisFirehoseInputUpdate
-    KinesisFirehoseInputUpdate,
+    KinesisFirehoseInputUpdate (KinesisFirehoseInputUpdate'),
     newKinesisFirehoseInputUpdate,
 
     -- ** KinesisFirehoseOutput
-    KinesisFirehoseOutput,
+    KinesisFirehoseOutput (KinesisFirehoseOutput'),
     newKinesisFirehoseOutput,
 
     -- ** KinesisFirehoseOutputDescription
-    KinesisFirehoseOutputDescription,
+    KinesisFirehoseOutputDescription (KinesisFirehoseOutputDescription'),
     newKinesisFirehoseOutputDescription,
 
     -- ** KinesisFirehoseOutputUpdate
-    KinesisFirehoseOutputUpdate,
+    KinesisFirehoseOutputUpdate (KinesisFirehoseOutputUpdate'),
     newKinesisFirehoseOutputUpdate,
 
     -- ** KinesisStreamsInput
-    KinesisStreamsInput,
+    KinesisStreamsInput (KinesisStreamsInput'),
     newKinesisStreamsInput,
 
     -- ** KinesisStreamsInputDescription
-    KinesisStreamsInputDescription,
+    KinesisStreamsInputDescription (KinesisStreamsInputDescription'),
     newKinesisStreamsInputDescription,
 
     -- ** KinesisStreamsInputUpdate
-    KinesisStreamsInputUpdate,
+    KinesisStreamsInputUpdate (KinesisStreamsInputUpdate'),
     newKinesisStreamsInputUpdate,
 
     -- ** KinesisStreamsOutput
-    KinesisStreamsOutput,
+    KinesisStreamsOutput (KinesisStreamsOutput'),
     newKinesisStreamsOutput,
 
     -- ** KinesisStreamsOutputDescription
-    KinesisStreamsOutputDescription,
+    KinesisStreamsOutputDescription (KinesisStreamsOutputDescription'),
     newKinesisStreamsOutputDescription,
 
     -- ** KinesisStreamsOutputUpdate
-    KinesisStreamsOutputUpdate,
+    KinesisStreamsOutputUpdate (KinesisStreamsOutputUpdate'),
     newKinesisStreamsOutputUpdate,
 
     -- ** LambdaOutput
-    LambdaOutput,
+    LambdaOutput (LambdaOutput'),
     newLambdaOutput,
 
     -- ** LambdaOutputDescription
-    LambdaOutputDescription,
+    LambdaOutputDescription (LambdaOutputDescription'),
     newLambdaOutputDescription,
 
     -- ** LambdaOutputUpdate
-    LambdaOutputUpdate,
+    LambdaOutputUpdate (LambdaOutputUpdate'),
     newLambdaOutputUpdate,
 
     -- ** MappingParameters
-    MappingParameters,
+    MappingParameters (MappingParameters'),
     newMappingParameters,
 
     -- ** MavenReference
-    MavenReference,
+    MavenReference (MavenReference'),
     newMavenReference,
 
     -- ** MonitoringConfiguration
-    MonitoringConfiguration,
+    MonitoringConfiguration (MonitoringConfiguration'),
     newMonitoringConfiguration,
 
     -- ** MonitoringConfigurationDescription
-    MonitoringConfigurationDescription,
+    MonitoringConfigurationDescription (MonitoringConfigurationDescription'),
     newMonitoringConfigurationDescription,
 
     -- ** MonitoringConfigurationUpdate
-    MonitoringConfigurationUpdate,
+    MonitoringConfigurationUpdate (MonitoringConfigurationUpdate'),
     newMonitoringConfigurationUpdate,
 
     -- ** Output
-    Output,
+    Output (Output'),
     newOutput,
 
     -- ** OutputDescription
-    OutputDescription,
+    OutputDescription (OutputDescription'),
     newOutputDescription,
 
     -- ** OutputUpdate
-    OutputUpdate,
+    OutputUpdate (OutputUpdate'),
     newOutputUpdate,
 
     -- ** ParallelismConfiguration
-    ParallelismConfiguration,
+    ParallelismConfiguration (ParallelismConfiguration'),
     newParallelismConfiguration,
 
     -- ** ParallelismConfigurationDescription
-    ParallelismConfigurationDescription,
+    ParallelismConfigurationDescription (ParallelismConfigurationDescription'),
     newParallelismConfigurationDescription,
 
     -- ** ParallelismConfigurationUpdate
-    ParallelismConfigurationUpdate,
+    ParallelismConfigurationUpdate (ParallelismConfigurationUpdate'),
     newParallelismConfigurationUpdate,
 
     -- ** PropertyGroup
-    PropertyGroup,
+    PropertyGroup (PropertyGroup'),
     newPropertyGroup,
 
     -- ** RecordColumn
-    RecordColumn,
+    RecordColumn (RecordColumn'),
     newRecordColumn,
 
     -- ** RecordFormat
-    RecordFormat,
+    RecordFormat (RecordFormat'),
     newRecordFormat,
 
     -- ** ReferenceDataSource
-    ReferenceDataSource,
+    ReferenceDataSource (ReferenceDataSource'),
     newReferenceDataSource,
 
     -- ** ReferenceDataSourceDescription
-    ReferenceDataSourceDescription,
+    ReferenceDataSourceDescription (ReferenceDataSourceDescription'),
     newReferenceDataSourceDescription,
 
     -- ** ReferenceDataSourceUpdate
-    ReferenceDataSourceUpdate,
+    ReferenceDataSourceUpdate (ReferenceDataSourceUpdate'),
     newReferenceDataSourceUpdate,
 
     -- ** RunConfiguration
-    RunConfiguration,
+    RunConfiguration (RunConfiguration'),
     newRunConfiguration,
 
     -- ** RunConfigurationDescription
-    RunConfigurationDescription,
+    RunConfigurationDescription (RunConfigurationDescription'),
     newRunConfigurationDescription,
 
     -- ** RunConfigurationUpdate
-    RunConfigurationUpdate,
+    RunConfigurationUpdate (RunConfigurationUpdate'),
     newRunConfigurationUpdate,
 
     -- ** S3ApplicationCodeLocationDescription
-    S3ApplicationCodeLocationDescription,
+    S3ApplicationCodeLocationDescription (S3ApplicationCodeLocationDescription'),
     newS3ApplicationCodeLocationDescription,
 
     -- ** S3Configuration
-    S3Configuration,
+    S3Configuration (S3Configuration'),
     newS3Configuration,
 
     -- ** S3ContentBaseLocation
-    S3ContentBaseLocation,
+    S3ContentBaseLocation (S3ContentBaseLocation'),
     newS3ContentBaseLocation,
 
     -- ** S3ContentBaseLocationDescription
-    S3ContentBaseLocationDescription,
+    S3ContentBaseLocationDescription (S3ContentBaseLocationDescription'),
     newS3ContentBaseLocationDescription,
 
     -- ** S3ContentBaseLocationUpdate
-    S3ContentBaseLocationUpdate,
+    S3ContentBaseLocationUpdate (S3ContentBaseLocationUpdate'),
     newS3ContentBaseLocationUpdate,
 
     -- ** S3ContentLocation
-    S3ContentLocation,
+    S3ContentLocation (S3ContentLocation'),
     newS3ContentLocation,
 
     -- ** S3ContentLocationUpdate
-    S3ContentLocationUpdate,
+    S3ContentLocationUpdate (S3ContentLocationUpdate'),
     newS3ContentLocationUpdate,
 
     -- ** S3ReferenceDataSource
-    S3ReferenceDataSource,
+    S3ReferenceDataSource (S3ReferenceDataSource'),
     newS3ReferenceDataSource,
 
     -- ** S3ReferenceDataSourceDescription
-    S3ReferenceDataSourceDescription,
+    S3ReferenceDataSourceDescription (S3ReferenceDataSourceDescription'),
     newS3ReferenceDataSourceDescription,
 
     -- ** S3ReferenceDataSourceUpdate
-    S3ReferenceDataSourceUpdate,
+    S3ReferenceDataSourceUpdate (S3ReferenceDataSourceUpdate'),
     newS3ReferenceDataSourceUpdate,
 
     -- ** SnapshotDetails
-    SnapshotDetails,
+    SnapshotDetails (SnapshotDetails'),
     newSnapshotDetails,
 
     -- ** SourceSchema
-    SourceSchema,
+    SourceSchema (SourceSchema'),
     newSourceSchema,
 
     -- ** SqlApplicationConfiguration
-    SqlApplicationConfiguration,
+    SqlApplicationConfiguration (SqlApplicationConfiguration'),
     newSqlApplicationConfiguration,
 
     -- ** SqlApplicationConfigurationDescription
-    SqlApplicationConfigurationDescription,
+    SqlApplicationConfigurationDescription (SqlApplicationConfigurationDescription'),
     newSqlApplicationConfigurationDescription,
 
     -- ** SqlApplicationConfigurationUpdate
-    SqlApplicationConfigurationUpdate,
+    SqlApplicationConfigurationUpdate (SqlApplicationConfigurationUpdate'),
     newSqlApplicationConfigurationUpdate,
 
     -- ** SqlRunConfiguration
-    SqlRunConfiguration,
+    SqlRunConfiguration (SqlRunConfiguration'),
     newSqlRunConfiguration,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** VpcConfiguration
-    VpcConfiguration,
+    VpcConfiguration (VpcConfiguration'),
     newVpcConfiguration,
 
     -- ** VpcConfigurationDescription
-    VpcConfigurationDescription,
+    VpcConfigurationDescription (VpcConfigurationDescription'),
     newVpcConfigurationDescription,
 
     -- ** VpcConfigurationUpdate
-    VpcConfigurationUpdate,
+    VpcConfigurationUpdate (VpcConfigurationUpdate'),
     newVpcConfigurationUpdate,
 
     -- ** ZeppelinApplicationConfiguration
-    ZeppelinApplicationConfiguration,
+    ZeppelinApplicationConfiguration (ZeppelinApplicationConfiguration'),
     newZeppelinApplicationConfiguration,
 
     -- ** ZeppelinApplicationConfigurationDescription
-    ZeppelinApplicationConfigurationDescription,
+    ZeppelinApplicationConfigurationDescription (ZeppelinApplicationConfigurationDescription'),
     newZeppelinApplicationConfigurationDescription,
 
     -- ** ZeppelinApplicationConfigurationUpdate
-    ZeppelinApplicationConfigurationUpdate,
+    ZeppelinApplicationConfigurationUpdate (ZeppelinApplicationConfigurationUpdate'),
     newZeppelinApplicationConfigurationUpdate,
 
     -- ** ZeppelinMonitoringConfiguration
-    ZeppelinMonitoringConfiguration,
+    ZeppelinMonitoringConfiguration (ZeppelinMonitoringConfiguration'),
     newZeppelinMonitoringConfiguration,
 
     -- ** ZeppelinMonitoringConfigurationDescription
-    ZeppelinMonitoringConfigurationDescription,
+    ZeppelinMonitoringConfigurationDescription (ZeppelinMonitoringConfigurationDescription'),
     newZeppelinMonitoringConfigurationDescription,
 
     -- ** ZeppelinMonitoringConfigurationUpdate
-    ZeppelinMonitoringConfigurationUpdate,
+    ZeppelinMonitoringConfigurationUpdate (ZeppelinMonitoringConfigurationUpdate'),
     newZeppelinMonitoringConfigurationUpdate,
   )
 where

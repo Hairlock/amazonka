@@ -60,165 +60,165 @@ module Amazonka.SSMContacts
     -- $operations
 
     -- ** AcceptPage
-    AcceptPage,
+    AcceptPage (AcceptPage'),
     newAcceptPage,
-    AcceptPageResponse,
+    AcceptPageResponse (AcceptPageResponse'),
     newAcceptPageResponse,
 
     -- ** ActivateContactChannel
-    ActivateContactChannel,
+    ActivateContactChannel (ActivateContactChannel'),
     newActivateContactChannel,
-    ActivateContactChannelResponse,
+    ActivateContactChannelResponse (ActivateContactChannelResponse'),
     newActivateContactChannelResponse,
 
     -- ** CreateContact
-    CreateContact,
+    CreateContact (CreateContact'),
     newCreateContact,
-    CreateContactResponse,
+    CreateContactResponse (CreateContactResponse'),
     newCreateContactResponse,
 
     -- ** CreateContactChannel
-    CreateContactChannel,
+    CreateContactChannel (CreateContactChannel'),
     newCreateContactChannel,
-    CreateContactChannelResponse,
+    CreateContactChannelResponse (CreateContactChannelResponse'),
     newCreateContactChannelResponse,
 
     -- ** DeactivateContactChannel
-    DeactivateContactChannel,
+    DeactivateContactChannel (DeactivateContactChannel'),
     newDeactivateContactChannel,
-    DeactivateContactChannelResponse,
+    DeactivateContactChannelResponse (DeactivateContactChannelResponse'),
     newDeactivateContactChannelResponse,
 
     -- ** DeleteContact
-    DeleteContact,
+    DeleteContact (DeleteContact'),
     newDeleteContact,
-    DeleteContactResponse,
+    DeleteContactResponse (DeleteContactResponse'),
     newDeleteContactResponse,
 
     -- ** DeleteContactChannel
-    DeleteContactChannel,
+    DeleteContactChannel (DeleteContactChannel'),
     newDeleteContactChannel,
-    DeleteContactChannelResponse,
+    DeleteContactChannelResponse (DeleteContactChannelResponse'),
     newDeleteContactChannelResponse,
 
     -- ** DescribeEngagement
-    DescribeEngagement,
+    DescribeEngagement (DescribeEngagement'),
     newDescribeEngagement,
-    DescribeEngagementResponse,
+    DescribeEngagementResponse (DescribeEngagementResponse'),
     newDescribeEngagementResponse,
 
     -- ** DescribePage
-    DescribePage,
+    DescribePage (DescribePage'),
     newDescribePage,
-    DescribePageResponse,
+    DescribePageResponse (DescribePageResponse'),
     newDescribePageResponse,
 
     -- ** GetContact
-    GetContact,
+    GetContact (GetContact'),
     newGetContact,
-    GetContactResponse,
+    GetContactResponse (GetContactResponse'),
     newGetContactResponse,
 
     -- ** GetContactChannel
-    GetContactChannel,
+    GetContactChannel (GetContactChannel'),
     newGetContactChannel,
-    GetContactChannelResponse,
+    GetContactChannelResponse (GetContactChannelResponse'),
     newGetContactChannelResponse,
 
     -- ** GetContactPolicy
-    GetContactPolicy,
+    GetContactPolicy (GetContactPolicy'),
     newGetContactPolicy,
-    GetContactPolicyResponse,
+    GetContactPolicyResponse (GetContactPolicyResponse'),
     newGetContactPolicyResponse,
 
     -- ** ListContactChannels (Paginated)
-    ListContactChannels,
+    ListContactChannels (ListContactChannels'),
     newListContactChannels,
-    ListContactChannelsResponse,
+    ListContactChannelsResponse (ListContactChannelsResponse'),
     newListContactChannelsResponse,
 
     -- ** ListContacts (Paginated)
-    ListContacts,
+    ListContacts (ListContacts'),
     newListContacts,
-    ListContactsResponse,
+    ListContactsResponse (ListContactsResponse'),
     newListContactsResponse,
 
     -- ** ListEngagements (Paginated)
-    ListEngagements,
+    ListEngagements (ListEngagements'),
     newListEngagements,
-    ListEngagementsResponse,
+    ListEngagementsResponse (ListEngagementsResponse'),
     newListEngagementsResponse,
 
     -- ** ListPageReceipts (Paginated)
-    ListPageReceipts,
+    ListPageReceipts (ListPageReceipts'),
     newListPageReceipts,
-    ListPageReceiptsResponse,
+    ListPageReceiptsResponse (ListPageReceiptsResponse'),
     newListPageReceiptsResponse,
 
     -- ** ListPagesByContact (Paginated)
-    ListPagesByContact,
+    ListPagesByContact (ListPagesByContact'),
     newListPagesByContact,
-    ListPagesByContactResponse,
+    ListPagesByContactResponse (ListPagesByContactResponse'),
     newListPagesByContactResponse,
 
     -- ** ListPagesByEngagement (Paginated)
-    ListPagesByEngagement,
+    ListPagesByEngagement (ListPagesByEngagement'),
     newListPagesByEngagement,
-    ListPagesByEngagementResponse,
+    ListPagesByEngagementResponse (ListPagesByEngagementResponse'),
     newListPagesByEngagementResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** PutContactPolicy
-    PutContactPolicy,
+    PutContactPolicy (PutContactPolicy'),
     newPutContactPolicy,
-    PutContactPolicyResponse,
+    PutContactPolicyResponse (PutContactPolicyResponse'),
     newPutContactPolicyResponse,
 
     -- ** SendActivationCode
-    SendActivationCode,
+    SendActivationCode (SendActivationCode'),
     newSendActivationCode,
-    SendActivationCodeResponse,
+    SendActivationCodeResponse (SendActivationCodeResponse'),
     newSendActivationCodeResponse,
 
     -- ** StartEngagement
-    StartEngagement,
+    StartEngagement (StartEngagement'),
     newStartEngagement,
-    StartEngagementResponse,
+    StartEngagementResponse (StartEngagementResponse'),
     newStartEngagementResponse,
 
     -- ** StopEngagement
-    StopEngagement,
+    StopEngagement (StopEngagement'),
     newStopEngagement,
-    StopEngagementResponse,
+    StopEngagementResponse (StopEngagementResponse'),
     newStopEngagementResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateContact
-    UpdateContact,
+    UpdateContact (UpdateContact'),
     newUpdateContact,
-    UpdateContactResponse,
+    UpdateContactResponse (UpdateContactResponse'),
     newUpdateContactResponse,
 
     -- ** UpdateContactChannel
-    UpdateContactChannel,
+    UpdateContactChannel (UpdateContactChannel'),
     newUpdateContactChannel,
-    UpdateContactChannelResponse,
+    UpdateContactChannelResponse (UpdateContactChannelResponse'),
     newUpdateContactChannelResponse,
 
     -- * Types
@@ -242,55 +242,55 @@ module Amazonka.SSMContacts
     ReceiptType (..),
 
     -- ** ChannelTargetInfo
-    ChannelTargetInfo,
+    ChannelTargetInfo (ChannelTargetInfo'),
     newChannelTargetInfo,
 
     -- ** Contact
-    Contact,
+    Contact (Contact'),
     newContact,
 
     -- ** ContactChannel
-    ContactChannel,
+    ContactChannel (ContactChannel'),
     newContactChannel,
 
     -- ** ContactChannelAddress
-    ContactChannelAddress,
+    ContactChannelAddress (ContactChannelAddress'),
     newContactChannelAddress,
 
     -- ** ContactTargetInfo
-    ContactTargetInfo,
+    ContactTargetInfo (ContactTargetInfo'),
     newContactTargetInfo,
 
     -- ** Engagement
-    Engagement,
+    Engagement (Engagement'),
     newEngagement,
 
     -- ** Page
-    Page,
+    Page (Page'),
     newPage,
 
     -- ** Plan
-    Plan,
+    Plan (Plan'),
     newPlan,
 
     -- ** Receipt
-    Receipt,
+    Receipt (Receipt'),
     newReceipt,
 
     -- ** Stage
-    Stage,
+    Stage (Stage'),
     newStage,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** Target
-    Target,
+    Target (Target'),
     newTarget,
 
     -- ** TimeRange
-    TimeRange,
+    TimeRange (TimeRange'),
     newTimeRange,
   )
 where

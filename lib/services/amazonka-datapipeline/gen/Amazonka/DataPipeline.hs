@@ -63,117 +63,117 @@ module Amazonka.DataPipeline
     -- $operations
 
     -- ** ActivatePipeline
-    ActivatePipeline,
+    ActivatePipeline (ActivatePipeline'),
     newActivatePipeline,
-    ActivatePipelineResponse,
+    ActivatePipelineResponse (ActivatePipelineResponse'),
     newActivatePipelineResponse,
 
     -- ** AddTags
-    AddTags,
+    AddTags (AddTags'),
     newAddTags,
-    AddTagsResponse,
+    AddTagsResponse (AddTagsResponse'),
     newAddTagsResponse,
 
     -- ** CreatePipeline
-    CreatePipeline,
+    CreatePipeline (CreatePipeline'),
     newCreatePipeline,
-    CreatePipelineResponse,
+    CreatePipelineResponse (CreatePipelineResponse'),
     newCreatePipelineResponse,
 
     -- ** DeactivatePipeline
-    DeactivatePipeline,
+    DeactivatePipeline (DeactivatePipeline'),
     newDeactivatePipeline,
-    DeactivatePipelineResponse,
+    DeactivatePipelineResponse (DeactivatePipelineResponse'),
     newDeactivatePipelineResponse,
 
     -- ** DeletePipeline
-    DeletePipeline,
+    DeletePipeline (DeletePipeline'),
     newDeletePipeline,
-    DeletePipelineResponse,
+    DeletePipelineResponse (DeletePipelineResponse'),
     newDeletePipelineResponse,
 
     -- ** DescribeObjects (Paginated)
-    DescribeObjects,
+    DescribeObjects (DescribeObjects'),
     newDescribeObjects,
-    DescribeObjectsResponse,
+    DescribeObjectsResponse (DescribeObjectsResponse'),
     newDescribeObjectsResponse,
 
     -- ** DescribePipelines
-    DescribePipelines,
+    DescribePipelines (DescribePipelines'),
     newDescribePipelines,
-    DescribePipelinesResponse,
+    DescribePipelinesResponse (DescribePipelinesResponse'),
     newDescribePipelinesResponse,
 
     -- ** EvaluateExpression
-    EvaluateExpression,
+    EvaluateExpression (EvaluateExpression'),
     newEvaluateExpression,
-    EvaluateExpressionResponse,
+    EvaluateExpressionResponse (EvaluateExpressionResponse'),
     newEvaluateExpressionResponse,
 
     -- ** GetPipelineDefinition
-    GetPipelineDefinition,
+    GetPipelineDefinition (GetPipelineDefinition'),
     newGetPipelineDefinition,
-    GetPipelineDefinitionResponse,
+    GetPipelineDefinitionResponse (GetPipelineDefinitionResponse'),
     newGetPipelineDefinitionResponse,
 
     -- ** ListPipelines (Paginated)
-    ListPipelines,
+    ListPipelines (ListPipelines'),
     newListPipelines,
-    ListPipelinesResponse,
+    ListPipelinesResponse (ListPipelinesResponse'),
     newListPipelinesResponse,
 
     -- ** PollForTask
-    PollForTask,
+    PollForTask (PollForTask'),
     newPollForTask,
-    PollForTaskResponse,
+    PollForTaskResponse (PollForTaskResponse'),
     newPollForTaskResponse,
 
     -- ** PutPipelineDefinition
-    PutPipelineDefinition,
+    PutPipelineDefinition (PutPipelineDefinition'),
     newPutPipelineDefinition,
-    PutPipelineDefinitionResponse,
+    PutPipelineDefinitionResponse (PutPipelineDefinitionResponse'),
     newPutPipelineDefinitionResponse,
 
     -- ** QueryObjects (Paginated)
-    QueryObjects,
+    QueryObjects (QueryObjects'),
     newQueryObjects,
-    QueryObjectsResponse,
+    QueryObjectsResponse (QueryObjectsResponse'),
     newQueryObjectsResponse,
 
     -- ** RemoveTags
-    RemoveTags,
+    RemoveTags (RemoveTags'),
     newRemoveTags,
-    RemoveTagsResponse,
+    RemoveTagsResponse (RemoveTagsResponse'),
     newRemoveTagsResponse,
 
     -- ** ReportTaskProgress
-    ReportTaskProgress,
+    ReportTaskProgress (ReportTaskProgress'),
     newReportTaskProgress,
-    ReportTaskProgressResponse,
+    ReportTaskProgressResponse (ReportTaskProgressResponse'),
     newReportTaskProgressResponse,
 
     -- ** ReportTaskRunnerHeartbeat
-    ReportTaskRunnerHeartbeat,
+    ReportTaskRunnerHeartbeat (ReportTaskRunnerHeartbeat'),
     newReportTaskRunnerHeartbeat,
-    ReportTaskRunnerHeartbeatResponse,
+    ReportTaskRunnerHeartbeatResponse (ReportTaskRunnerHeartbeatResponse'),
     newReportTaskRunnerHeartbeatResponse,
 
     -- ** SetStatus
-    SetStatus,
+    SetStatus (SetStatus'),
     newSetStatus,
-    SetStatusResponse,
+    SetStatusResponse (SetStatusResponse'),
     newSetStatusResponse,
 
     -- ** SetTaskStatus
-    SetTaskStatus,
+    SetTaskStatus (SetTaskStatus'),
     newSetTaskStatus,
-    SetTaskStatusResponse,
+    SetTaskStatusResponse (SetTaskStatusResponse'),
     newSetTaskStatusResponse,
 
     -- ** ValidatePipelineDefinition
-    ValidatePipelineDefinition,
+    ValidatePipelineDefinition (ValidatePipelineDefinition'),
     newValidatePipelineDefinition,
-    ValidatePipelineDefinitionResponse,
+    ValidatePipelineDefinitionResponse (ValidatePipelineDefinitionResponse'),
     newValidatePipelineDefinitionResponse,
 
     -- * Types
@@ -185,63 +185,63 @@ module Amazonka.DataPipeline
     TaskStatus (..),
 
     -- ** Field
-    Field,
+    Field (Field'),
     newField,
 
     -- ** InstanceIdentity
-    InstanceIdentity,
+    InstanceIdentity (InstanceIdentity'),
     newInstanceIdentity,
 
     -- ** Operator
-    Operator,
+    Operator (Operator'),
     newOperator,
 
     -- ** ParameterAttribute
-    ParameterAttribute,
+    ParameterAttribute (ParameterAttribute'),
     newParameterAttribute,
 
     -- ** ParameterObject
-    ParameterObject,
+    ParameterObject (ParameterObject'),
     newParameterObject,
 
     -- ** ParameterValue
-    ParameterValue,
+    ParameterValue (ParameterValue'),
     newParameterValue,
 
     -- ** PipelineDescription
-    PipelineDescription,
+    PipelineDescription (PipelineDescription'),
     newPipelineDescription,
 
     -- ** PipelineIdName
-    PipelineIdName,
+    PipelineIdName (PipelineIdName'),
     newPipelineIdName,
 
     -- ** PipelineObject
-    PipelineObject,
+    PipelineObject (PipelineObject'),
     newPipelineObject,
 
     -- ** Query
-    Query,
+    Query (Query'),
     newQuery,
 
     -- ** Selector
-    Selector,
+    Selector (Selector'),
     newSelector,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** TaskObject
-    TaskObject,
+    TaskObject (TaskObject'),
     newTaskObject,
 
     -- ** ValidationError
-    ValidationError,
+    ValidationError (ValidationError'),
     newValidationError,
 
     -- ** ValidationWarning
-    ValidationWarning,
+    ValidationWarning (ValidationWarning'),
     newValidationWarning,
   )
 where

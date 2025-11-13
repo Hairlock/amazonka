@@ -65,303 +65,303 @@ module Amazonka.IoTFleetWise
     -- $operations
 
     -- ** AssociateVehicleFleet
-    AssociateVehicleFleet,
+    AssociateVehicleFleet (AssociateVehicleFleet'),
     newAssociateVehicleFleet,
-    AssociateVehicleFleetResponse,
+    AssociateVehicleFleetResponse (AssociateVehicleFleetResponse'),
     newAssociateVehicleFleetResponse,
 
     -- ** BatchCreateVehicle
-    BatchCreateVehicle,
+    BatchCreateVehicle (BatchCreateVehicle'),
     newBatchCreateVehicle,
-    BatchCreateVehicleResponse,
+    BatchCreateVehicleResponse (BatchCreateVehicleResponse'),
     newBatchCreateVehicleResponse,
 
     -- ** BatchUpdateVehicle
-    BatchUpdateVehicle,
+    BatchUpdateVehicle (BatchUpdateVehicle'),
     newBatchUpdateVehicle,
-    BatchUpdateVehicleResponse,
+    BatchUpdateVehicleResponse (BatchUpdateVehicleResponse'),
     newBatchUpdateVehicleResponse,
 
     -- ** CreateCampaign
-    CreateCampaign,
+    CreateCampaign (CreateCampaign'),
     newCreateCampaign,
-    CreateCampaignResponse,
+    CreateCampaignResponse (CreateCampaignResponse'),
     newCreateCampaignResponse,
 
     -- ** CreateDecoderManifest
-    CreateDecoderManifest,
+    CreateDecoderManifest (CreateDecoderManifest'),
     newCreateDecoderManifest,
-    CreateDecoderManifestResponse,
+    CreateDecoderManifestResponse (CreateDecoderManifestResponse'),
     newCreateDecoderManifestResponse,
 
     -- ** CreateFleet
-    CreateFleet,
+    CreateFleet (CreateFleet'),
     newCreateFleet,
-    CreateFleetResponse,
+    CreateFleetResponse (CreateFleetResponse'),
     newCreateFleetResponse,
 
     -- ** CreateModelManifest
-    CreateModelManifest,
+    CreateModelManifest (CreateModelManifest'),
     newCreateModelManifest,
-    CreateModelManifestResponse,
+    CreateModelManifestResponse (CreateModelManifestResponse'),
     newCreateModelManifestResponse,
 
     -- ** CreateSignalCatalog
-    CreateSignalCatalog,
+    CreateSignalCatalog (CreateSignalCatalog'),
     newCreateSignalCatalog,
-    CreateSignalCatalogResponse,
+    CreateSignalCatalogResponse (CreateSignalCatalogResponse'),
     newCreateSignalCatalogResponse,
 
     -- ** CreateVehicle
-    CreateVehicle,
+    CreateVehicle (CreateVehicle'),
     newCreateVehicle,
-    CreateVehicleResponse,
+    CreateVehicleResponse (CreateVehicleResponse'),
     newCreateVehicleResponse,
 
     -- ** DeleteCampaign
-    DeleteCampaign,
+    DeleteCampaign (DeleteCampaign'),
     newDeleteCampaign,
-    DeleteCampaignResponse,
+    DeleteCampaignResponse (DeleteCampaignResponse'),
     newDeleteCampaignResponse,
 
     -- ** DeleteDecoderManifest
-    DeleteDecoderManifest,
+    DeleteDecoderManifest (DeleteDecoderManifest'),
     newDeleteDecoderManifest,
-    DeleteDecoderManifestResponse,
+    DeleteDecoderManifestResponse (DeleteDecoderManifestResponse'),
     newDeleteDecoderManifestResponse,
 
     -- ** DeleteFleet
-    DeleteFleet,
+    DeleteFleet (DeleteFleet'),
     newDeleteFleet,
-    DeleteFleetResponse,
+    DeleteFleetResponse (DeleteFleetResponse'),
     newDeleteFleetResponse,
 
     -- ** DeleteModelManifest
-    DeleteModelManifest,
+    DeleteModelManifest (DeleteModelManifest'),
     newDeleteModelManifest,
-    DeleteModelManifestResponse,
+    DeleteModelManifestResponse (DeleteModelManifestResponse'),
     newDeleteModelManifestResponse,
 
     -- ** DeleteSignalCatalog
-    DeleteSignalCatalog,
+    DeleteSignalCatalog (DeleteSignalCatalog'),
     newDeleteSignalCatalog,
-    DeleteSignalCatalogResponse,
+    DeleteSignalCatalogResponse (DeleteSignalCatalogResponse'),
     newDeleteSignalCatalogResponse,
 
     -- ** DeleteVehicle
-    DeleteVehicle,
+    DeleteVehicle (DeleteVehicle'),
     newDeleteVehicle,
-    DeleteVehicleResponse,
+    DeleteVehicleResponse (DeleteVehicleResponse'),
     newDeleteVehicleResponse,
 
     -- ** DisassociateVehicleFleet
-    DisassociateVehicleFleet,
+    DisassociateVehicleFleet (DisassociateVehicleFleet'),
     newDisassociateVehicleFleet,
-    DisassociateVehicleFleetResponse,
+    DisassociateVehicleFleetResponse (DisassociateVehicleFleetResponse'),
     newDisassociateVehicleFleetResponse,
 
     -- ** GetCampaign
-    GetCampaign,
+    GetCampaign (GetCampaign'),
     newGetCampaign,
-    GetCampaignResponse,
+    GetCampaignResponse (GetCampaignResponse'),
     newGetCampaignResponse,
 
     -- ** GetDecoderManifest
-    GetDecoderManifest,
+    GetDecoderManifest (GetDecoderManifest'),
     newGetDecoderManifest,
-    GetDecoderManifestResponse,
+    GetDecoderManifestResponse (GetDecoderManifestResponse'),
     newGetDecoderManifestResponse,
 
     -- ** GetFleet
-    GetFleet,
+    GetFleet (GetFleet'),
     newGetFleet,
-    GetFleetResponse,
+    GetFleetResponse (GetFleetResponse'),
     newGetFleetResponse,
 
     -- ** GetLoggingOptions
-    GetLoggingOptions,
+    GetLoggingOptions (GetLoggingOptions'),
     newGetLoggingOptions,
-    GetLoggingOptionsResponse,
+    GetLoggingOptionsResponse (GetLoggingOptionsResponse'),
     newGetLoggingOptionsResponse,
 
     -- ** GetModelManifest
-    GetModelManifest,
+    GetModelManifest (GetModelManifest'),
     newGetModelManifest,
-    GetModelManifestResponse,
+    GetModelManifestResponse (GetModelManifestResponse'),
     newGetModelManifestResponse,
 
     -- ** GetRegisterAccountStatus
-    GetRegisterAccountStatus,
+    GetRegisterAccountStatus (GetRegisterAccountStatus'),
     newGetRegisterAccountStatus,
-    GetRegisterAccountStatusResponse,
+    GetRegisterAccountStatusResponse (GetRegisterAccountStatusResponse'),
     newGetRegisterAccountStatusResponse,
 
     -- ** GetSignalCatalog
-    GetSignalCatalog,
+    GetSignalCatalog (GetSignalCatalog'),
     newGetSignalCatalog,
-    GetSignalCatalogResponse,
+    GetSignalCatalogResponse (GetSignalCatalogResponse'),
     newGetSignalCatalogResponse,
 
     -- ** GetVehicle
-    GetVehicle,
+    GetVehicle (GetVehicle'),
     newGetVehicle,
-    GetVehicleResponse,
+    GetVehicleResponse (GetVehicleResponse'),
     newGetVehicleResponse,
 
     -- ** GetVehicleStatus (Paginated)
-    GetVehicleStatus,
+    GetVehicleStatus (GetVehicleStatus'),
     newGetVehicleStatus,
-    GetVehicleStatusResponse,
+    GetVehicleStatusResponse (GetVehicleStatusResponse'),
     newGetVehicleStatusResponse,
 
     -- ** ImportDecoderManifest
-    ImportDecoderManifest,
+    ImportDecoderManifest (ImportDecoderManifest'),
     newImportDecoderManifest,
-    ImportDecoderManifestResponse,
+    ImportDecoderManifestResponse (ImportDecoderManifestResponse'),
     newImportDecoderManifestResponse,
 
     -- ** ImportSignalCatalog
-    ImportSignalCatalog,
+    ImportSignalCatalog (ImportSignalCatalog'),
     newImportSignalCatalog,
-    ImportSignalCatalogResponse,
+    ImportSignalCatalogResponse (ImportSignalCatalogResponse'),
     newImportSignalCatalogResponse,
 
     -- ** ListCampaigns (Paginated)
-    ListCampaigns,
+    ListCampaigns (ListCampaigns'),
     newListCampaigns,
-    ListCampaignsResponse,
+    ListCampaignsResponse (ListCampaignsResponse'),
     newListCampaignsResponse,
 
     -- ** ListDecoderManifestNetworkInterfaces (Paginated)
-    ListDecoderManifestNetworkInterfaces,
+    ListDecoderManifestNetworkInterfaces (ListDecoderManifestNetworkInterfaces'),
     newListDecoderManifestNetworkInterfaces,
-    ListDecoderManifestNetworkInterfacesResponse,
+    ListDecoderManifestNetworkInterfacesResponse (ListDecoderManifestNetworkInterfacesResponse'),
     newListDecoderManifestNetworkInterfacesResponse,
 
     -- ** ListDecoderManifestSignals (Paginated)
-    ListDecoderManifestSignals,
+    ListDecoderManifestSignals (ListDecoderManifestSignals'),
     newListDecoderManifestSignals,
-    ListDecoderManifestSignalsResponse,
+    ListDecoderManifestSignalsResponse (ListDecoderManifestSignalsResponse'),
     newListDecoderManifestSignalsResponse,
 
     -- ** ListDecoderManifests (Paginated)
-    ListDecoderManifests,
+    ListDecoderManifests (ListDecoderManifests'),
     newListDecoderManifests,
-    ListDecoderManifestsResponse,
+    ListDecoderManifestsResponse (ListDecoderManifestsResponse'),
     newListDecoderManifestsResponse,
 
     -- ** ListFleets (Paginated)
-    ListFleets,
+    ListFleets (ListFleets'),
     newListFleets,
-    ListFleetsResponse,
+    ListFleetsResponse (ListFleetsResponse'),
     newListFleetsResponse,
 
     -- ** ListFleetsForVehicle (Paginated)
-    ListFleetsForVehicle,
+    ListFleetsForVehicle (ListFleetsForVehicle'),
     newListFleetsForVehicle,
-    ListFleetsForVehicleResponse,
+    ListFleetsForVehicleResponse (ListFleetsForVehicleResponse'),
     newListFleetsForVehicleResponse,
 
     -- ** ListModelManifestNodes (Paginated)
-    ListModelManifestNodes,
+    ListModelManifestNodes (ListModelManifestNodes'),
     newListModelManifestNodes,
-    ListModelManifestNodesResponse,
+    ListModelManifestNodesResponse (ListModelManifestNodesResponse'),
     newListModelManifestNodesResponse,
 
     -- ** ListModelManifests (Paginated)
-    ListModelManifests,
+    ListModelManifests (ListModelManifests'),
     newListModelManifests,
-    ListModelManifestsResponse,
+    ListModelManifestsResponse (ListModelManifestsResponse'),
     newListModelManifestsResponse,
 
     -- ** ListSignalCatalogNodes (Paginated)
-    ListSignalCatalogNodes,
+    ListSignalCatalogNodes (ListSignalCatalogNodes'),
     newListSignalCatalogNodes,
-    ListSignalCatalogNodesResponse,
+    ListSignalCatalogNodesResponse (ListSignalCatalogNodesResponse'),
     newListSignalCatalogNodesResponse,
 
     -- ** ListSignalCatalogs (Paginated)
-    ListSignalCatalogs,
+    ListSignalCatalogs (ListSignalCatalogs'),
     newListSignalCatalogs,
-    ListSignalCatalogsResponse,
+    ListSignalCatalogsResponse (ListSignalCatalogsResponse'),
     newListSignalCatalogsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** ListVehicles (Paginated)
-    ListVehicles,
+    ListVehicles (ListVehicles'),
     newListVehicles,
-    ListVehiclesResponse,
+    ListVehiclesResponse (ListVehiclesResponse'),
     newListVehiclesResponse,
 
     -- ** ListVehiclesInFleet (Paginated)
-    ListVehiclesInFleet,
+    ListVehiclesInFleet (ListVehiclesInFleet'),
     newListVehiclesInFleet,
-    ListVehiclesInFleetResponse,
+    ListVehiclesInFleetResponse (ListVehiclesInFleetResponse'),
     newListVehiclesInFleetResponse,
 
     -- ** PutLoggingOptions
-    PutLoggingOptions,
+    PutLoggingOptions (PutLoggingOptions'),
     newPutLoggingOptions,
-    PutLoggingOptionsResponse,
+    PutLoggingOptionsResponse (PutLoggingOptionsResponse'),
     newPutLoggingOptionsResponse,
 
     -- ** RegisterAccount
-    RegisterAccount,
+    RegisterAccount (RegisterAccount'),
     newRegisterAccount,
-    RegisterAccountResponse,
+    RegisterAccountResponse (RegisterAccountResponse'),
     newRegisterAccountResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateCampaign
-    UpdateCampaign,
+    UpdateCampaign (UpdateCampaign'),
     newUpdateCampaign,
-    UpdateCampaignResponse,
+    UpdateCampaignResponse (UpdateCampaignResponse'),
     newUpdateCampaignResponse,
 
     -- ** UpdateDecoderManifest
-    UpdateDecoderManifest,
+    UpdateDecoderManifest (UpdateDecoderManifest'),
     newUpdateDecoderManifest,
-    UpdateDecoderManifestResponse,
+    UpdateDecoderManifestResponse (UpdateDecoderManifestResponse'),
     newUpdateDecoderManifestResponse,
 
     -- ** UpdateFleet
-    UpdateFleet,
+    UpdateFleet (UpdateFleet'),
     newUpdateFleet,
-    UpdateFleetResponse,
+    UpdateFleetResponse (UpdateFleetResponse'),
     newUpdateFleetResponse,
 
     -- ** UpdateModelManifest
-    UpdateModelManifest,
+    UpdateModelManifest (UpdateModelManifest'),
     newUpdateModelManifest,
-    UpdateModelManifestResponse,
+    UpdateModelManifestResponse (UpdateModelManifestResponse'),
     newUpdateModelManifestResponse,
 
     -- ** UpdateSignalCatalog
-    UpdateSignalCatalog,
+    UpdateSignalCatalog (UpdateSignalCatalog'),
     newUpdateSignalCatalog,
-    UpdateSignalCatalogResponse,
+    UpdateSignalCatalogResponse (UpdateSignalCatalogResponse'),
     newUpdateSignalCatalogResponse,
 
     -- ** UpdateVehicle
-    UpdateVehicle,
+    UpdateVehicle (UpdateVehicle'),
     newUpdateVehicle,
-    UpdateVehicleResponse,
+    UpdateVehicleResponse (UpdateVehicleResponse'),
     newUpdateVehicleResponse,
 
     -- * Types
@@ -412,155 +412,155 @@ module Amazonka.IoTFleetWise
     VehicleState (..),
 
     -- ** Actuator
-    Actuator,
+    Actuator (Actuator'),
     newActuator,
 
     -- ** Attribute
-    Attribute,
+    Attribute (Attribute'),
     newAttribute,
 
     -- ** Branch
-    Branch,
+    Branch (Branch'),
     newBranch,
 
     -- ** CampaignSummary
-    CampaignSummary,
+    CampaignSummary (CampaignSummary'),
     newCampaignSummary,
 
     -- ** CanDbcDefinition
-    CanDbcDefinition,
+    CanDbcDefinition (CanDbcDefinition'),
     newCanDbcDefinition,
 
     -- ** CanInterface
-    CanInterface,
+    CanInterface (CanInterface'),
     newCanInterface,
 
     -- ** CanSignal
-    CanSignal,
+    CanSignal (CanSignal'),
     newCanSignal,
 
     -- ** CloudWatchLogDeliveryOptions
-    CloudWatchLogDeliveryOptions,
+    CloudWatchLogDeliveryOptions (CloudWatchLogDeliveryOptions'),
     newCloudWatchLogDeliveryOptions,
 
     -- ** CollectionScheme
-    CollectionScheme,
+    CollectionScheme (CollectionScheme'),
     newCollectionScheme,
 
     -- ** ConditionBasedCollectionScheme
-    ConditionBasedCollectionScheme,
+    ConditionBasedCollectionScheme (ConditionBasedCollectionScheme'),
     newConditionBasedCollectionScheme,
 
     -- ** CreateVehicleError
-    CreateVehicleError,
+    CreateVehicleError (CreateVehicleError'),
     newCreateVehicleError,
 
     -- ** CreateVehicleRequestItem
-    CreateVehicleRequestItem,
+    CreateVehicleRequestItem (CreateVehicleRequestItem'),
     newCreateVehicleRequestItem,
 
     -- ** CreateVehicleResponseItem
-    CreateVehicleResponseItem,
+    CreateVehicleResponseItem (CreateVehicleResponseItem'),
     newCreateVehicleResponseItem,
 
     -- ** DecoderManifestSummary
-    DecoderManifestSummary,
+    DecoderManifestSummary (DecoderManifestSummary'),
     newDecoderManifestSummary,
 
     -- ** FleetSummary
-    FleetSummary,
+    FleetSummary (FleetSummary'),
     newFleetSummary,
 
     -- ** FormattedVss
-    FormattedVss,
+    FormattedVss (FormattedVss'),
     newFormattedVss,
 
     -- ** IamRegistrationResponse
-    IamRegistrationResponse,
+    IamRegistrationResponse (IamRegistrationResponse'),
     newIamRegistrationResponse,
 
     -- ** IamResources
-    IamResources,
+    IamResources (IamResources'),
     newIamResources,
 
     -- ** ModelManifestSummary
-    ModelManifestSummary,
+    ModelManifestSummary (ModelManifestSummary'),
     newModelManifestSummary,
 
     -- ** NetworkFileDefinition
-    NetworkFileDefinition,
+    NetworkFileDefinition (NetworkFileDefinition'),
     newNetworkFileDefinition,
 
     -- ** NetworkInterface
-    NetworkInterface,
+    NetworkInterface (NetworkInterface'),
     newNetworkInterface,
 
     -- ** Node
-    Node,
+    Node (Node'),
     newNode,
 
     -- ** NodeCounts
-    NodeCounts,
+    NodeCounts (NodeCounts'),
     newNodeCounts,
 
     -- ** ObdInterface
-    ObdInterface,
+    ObdInterface (ObdInterface'),
     newObdInterface,
 
     -- ** ObdSignal
-    ObdSignal,
+    ObdSignal (ObdSignal'),
     newObdSignal,
 
     -- ** Sensor
-    Sensor,
+    Sensor (Sensor'),
     newSensor,
 
     -- ** SignalCatalogSummary
-    SignalCatalogSummary,
+    SignalCatalogSummary (SignalCatalogSummary'),
     newSignalCatalogSummary,
 
     -- ** SignalDecoder
-    SignalDecoder,
+    SignalDecoder (SignalDecoder'),
     newSignalDecoder,
 
     -- ** SignalInformation
-    SignalInformation,
+    SignalInformation (SignalInformation'),
     newSignalInformation,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** TimeBasedCollectionScheme
-    TimeBasedCollectionScheme,
+    TimeBasedCollectionScheme (TimeBasedCollectionScheme'),
     newTimeBasedCollectionScheme,
 
     -- ** TimestreamRegistrationResponse
-    TimestreamRegistrationResponse,
+    TimestreamRegistrationResponse (TimestreamRegistrationResponse'),
     newTimestreamRegistrationResponse,
 
     -- ** TimestreamResources
-    TimestreamResources,
+    TimestreamResources (TimestreamResources'),
     newTimestreamResources,
 
     -- ** UpdateVehicleError
-    UpdateVehicleError,
+    UpdateVehicleError (UpdateVehicleError'),
     newUpdateVehicleError,
 
     -- ** UpdateVehicleRequestItem
-    UpdateVehicleRequestItem,
+    UpdateVehicleRequestItem (UpdateVehicleRequestItem'),
     newUpdateVehicleRequestItem,
 
     -- ** UpdateVehicleResponseItem
-    UpdateVehicleResponseItem,
+    UpdateVehicleResponseItem (UpdateVehicleResponseItem'),
     newUpdateVehicleResponseItem,
 
     -- ** VehicleStatus
-    VehicleStatus,
+    VehicleStatus (VehicleStatus'),
     newVehicleStatus,
 
     -- ** VehicleSummary
-    VehicleSummary,
+    VehicleSummary (VehicleSummary'),
     newVehicleSummary,
   )
 where

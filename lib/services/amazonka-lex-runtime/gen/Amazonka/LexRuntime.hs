@@ -70,33 +70,33 @@ module Amazonka.LexRuntime
     -- $operations
 
     -- ** DeleteSession
-    DeleteSession,
+    DeleteSession (DeleteSession'),
     newDeleteSession,
-    DeleteSessionResponse,
+    DeleteSessionResponse (DeleteSessionResponse'),
     newDeleteSessionResponse,
 
     -- ** GetSession
-    GetSession,
+    GetSession (GetSession'),
     newGetSession,
-    GetSessionResponse,
+    GetSessionResponse (GetSessionResponse'),
     newGetSessionResponse,
 
     -- ** PostContent
-    PostContent,
+    PostContent (PostContent'),
     newPostContent,
-    PostContentResponse,
+    PostContentResponse (PostContentResponse'),
     newPostContentResponse,
 
     -- ** PostText
-    PostText,
+    PostText (PostText'),
     newPostText,
-    PostTextResponse,
+    PostTextResponse (PostTextResponse'),
     newPostTextResponse,
 
     -- ** PutSession
-    PutSession,
+    PutSession (PutSession'),
     newPutSession,
-    PutSessionResponse,
+    PutSessionResponse (PutSessionResponse'),
     newPutSessionResponse,
 
     -- * Types
@@ -120,43 +120,43 @@ module Amazonka.LexRuntime
     MessageFormatType (..),
 
     -- ** ActiveContext
-    ActiveContext,
+    ActiveContext (ActiveContext'),
     newActiveContext,
 
     -- ** ActiveContextTimeToLive
-    ActiveContextTimeToLive,
+    ActiveContextTimeToLive (ActiveContextTimeToLive'),
     newActiveContextTimeToLive,
 
     -- ** Button
-    Button,
+    Button (Button'),
     newButton,
 
     -- ** DialogAction
-    DialogAction,
+    DialogAction (DialogAction'),
     newDialogAction,
 
     -- ** GenericAttachment
-    GenericAttachment,
+    GenericAttachment (GenericAttachment'),
     newGenericAttachment,
 
     -- ** IntentConfidence
-    IntentConfidence,
+    IntentConfidence (IntentConfidence'),
     newIntentConfidence,
 
     -- ** IntentSummary
-    IntentSummary,
+    IntentSummary (IntentSummary'),
     newIntentSummary,
 
     -- ** PredictedIntent
-    PredictedIntent,
+    PredictedIntent (PredictedIntent'),
     newPredictedIntent,
 
     -- ** ResponseCard
-    ResponseCard,
+    ResponseCard (ResponseCard'),
     newResponseCard,
 
     -- ** SentimentResponse
-    SentimentResponse,
+    SentimentResponse (SentimentResponse'),
     newSentimentResponse,
   )
 where

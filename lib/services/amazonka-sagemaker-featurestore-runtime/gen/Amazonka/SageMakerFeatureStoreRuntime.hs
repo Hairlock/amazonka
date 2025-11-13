@@ -54,27 +54,27 @@ module Amazonka.SageMakerFeatureStoreRuntime
     -- $operations
 
     -- ** BatchGetRecord
-    BatchGetRecord,
+    BatchGetRecord (BatchGetRecord'),
     newBatchGetRecord,
-    BatchGetRecordResponse,
+    BatchGetRecordResponse (BatchGetRecordResponse'),
     newBatchGetRecordResponse,
 
     -- ** DeleteRecord
-    DeleteRecord,
+    DeleteRecord (DeleteRecord'),
     newDeleteRecord,
-    DeleteRecordResponse,
+    DeleteRecordResponse (DeleteRecordResponse'),
     newDeleteRecordResponse,
 
     -- ** GetRecord
-    GetRecord,
+    GetRecord (GetRecord'),
     newGetRecord,
-    GetRecordResponse,
+    GetRecordResponse (GetRecordResponse'),
     newGetRecordResponse,
 
     -- ** PutRecord
-    PutRecord,
+    PutRecord (PutRecord'),
     newPutRecord,
-    PutRecordResponse,
+    PutRecordResponse (PutRecordResponse'),
     newPutRecordResponse,
 
     -- * Types
@@ -83,19 +83,19 @@ module Amazonka.SageMakerFeatureStoreRuntime
     TargetStore (..),
 
     -- ** BatchGetRecordError
-    BatchGetRecordError,
+    BatchGetRecordError (BatchGetRecordError'),
     newBatchGetRecordError,
 
     -- ** BatchGetRecordIdentifier
-    BatchGetRecordIdentifier,
+    BatchGetRecordIdentifier (BatchGetRecordIdentifier'),
     newBatchGetRecordIdentifier,
 
     -- ** BatchGetRecordResultDetail
-    BatchGetRecordResultDetail,
+    BatchGetRecordResultDetail (BatchGetRecordResultDetail'),
     newBatchGetRecordResultDetail,
 
     -- ** FeatureValue
-    FeatureValue,
+    FeatureValue (FeatureValue'),
     newFeatureValue,
   )
 where

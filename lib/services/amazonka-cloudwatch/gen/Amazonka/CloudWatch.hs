@@ -87,231 +87,231 @@ module Amazonka.CloudWatch
     -- $operations
 
     -- ** DeleteAlarms
-    DeleteAlarms,
+    DeleteAlarms (DeleteAlarms'),
     newDeleteAlarms,
-    DeleteAlarmsResponse,
+    DeleteAlarmsResponse (DeleteAlarmsResponse'),
     newDeleteAlarmsResponse,
 
     -- ** DeleteAnomalyDetector
-    DeleteAnomalyDetector,
+    DeleteAnomalyDetector (DeleteAnomalyDetector'),
     newDeleteAnomalyDetector,
-    DeleteAnomalyDetectorResponse,
+    DeleteAnomalyDetectorResponse (DeleteAnomalyDetectorResponse'),
     newDeleteAnomalyDetectorResponse,
 
     -- ** DeleteDashboards
-    DeleteDashboards,
+    DeleteDashboards (DeleteDashboards'),
     newDeleteDashboards,
-    DeleteDashboardsResponse,
+    DeleteDashboardsResponse (DeleteDashboardsResponse'),
     newDeleteDashboardsResponse,
 
     -- ** DeleteInsightRules
-    DeleteInsightRules,
+    DeleteInsightRules (DeleteInsightRules'),
     newDeleteInsightRules,
-    DeleteInsightRulesResponse,
+    DeleteInsightRulesResponse (DeleteInsightRulesResponse'),
     newDeleteInsightRulesResponse,
 
     -- ** DeleteMetricStream
-    DeleteMetricStream,
+    DeleteMetricStream (DeleteMetricStream'),
     newDeleteMetricStream,
-    DeleteMetricStreamResponse,
+    DeleteMetricStreamResponse (DeleteMetricStreamResponse'),
     newDeleteMetricStreamResponse,
 
     -- ** DescribeAlarmHistory (Paginated)
-    DescribeAlarmHistory,
+    DescribeAlarmHistory (DescribeAlarmHistory'),
     newDescribeAlarmHistory,
-    DescribeAlarmHistoryResponse,
+    DescribeAlarmHistoryResponse (DescribeAlarmHistoryResponse'),
     newDescribeAlarmHistoryResponse,
 
     -- ** DescribeAlarms (Paginated)
-    DescribeAlarms,
+    DescribeAlarms (DescribeAlarms'),
     newDescribeAlarms,
-    DescribeAlarmsResponse,
+    DescribeAlarmsResponse (DescribeAlarmsResponse'),
     newDescribeAlarmsResponse,
 
     -- ** DescribeAlarmsForMetric
-    DescribeAlarmsForMetric,
+    DescribeAlarmsForMetric (DescribeAlarmsForMetric'),
     newDescribeAlarmsForMetric,
-    DescribeAlarmsForMetricResponse,
+    DescribeAlarmsForMetricResponse (DescribeAlarmsForMetricResponse'),
     newDescribeAlarmsForMetricResponse,
 
     -- ** DescribeAnomalyDetectors (Paginated)
-    DescribeAnomalyDetectors,
+    DescribeAnomalyDetectors (DescribeAnomalyDetectors'),
     newDescribeAnomalyDetectors,
-    DescribeAnomalyDetectorsResponse,
+    DescribeAnomalyDetectorsResponse (DescribeAnomalyDetectorsResponse'),
     newDescribeAnomalyDetectorsResponse,
 
     -- ** DescribeInsightRules
-    DescribeInsightRules,
+    DescribeInsightRules (DescribeInsightRules'),
     newDescribeInsightRules,
-    DescribeInsightRulesResponse,
+    DescribeInsightRulesResponse (DescribeInsightRulesResponse'),
     newDescribeInsightRulesResponse,
 
     -- ** DisableAlarmActions
-    DisableAlarmActions,
+    DisableAlarmActions (DisableAlarmActions'),
     newDisableAlarmActions,
-    DisableAlarmActionsResponse,
+    DisableAlarmActionsResponse (DisableAlarmActionsResponse'),
     newDisableAlarmActionsResponse,
 
     -- ** DisableInsightRules
-    DisableInsightRules,
+    DisableInsightRules (DisableInsightRules'),
     newDisableInsightRules,
-    DisableInsightRulesResponse,
+    DisableInsightRulesResponse (DisableInsightRulesResponse'),
     newDisableInsightRulesResponse,
 
     -- ** EnableAlarmActions
-    EnableAlarmActions,
+    EnableAlarmActions (EnableAlarmActions'),
     newEnableAlarmActions,
-    EnableAlarmActionsResponse,
+    EnableAlarmActionsResponse (EnableAlarmActionsResponse'),
     newEnableAlarmActionsResponse,
 
     -- ** EnableInsightRules
-    EnableInsightRules,
+    EnableInsightRules (EnableInsightRules'),
     newEnableInsightRules,
-    EnableInsightRulesResponse,
+    EnableInsightRulesResponse (EnableInsightRulesResponse'),
     newEnableInsightRulesResponse,
 
     -- ** GetDashboard
-    GetDashboard,
+    GetDashboard (GetDashboard'),
     newGetDashboard,
-    GetDashboardResponse,
+    GetDashboardResponse (GetDashboardResponse'),
     newGetDashboardResponse,
 
     -- ** GetInsightRuleReport
-    GetInsightRuleReport,
+    GetInsightRuleReport (GetInsightRuleReport'),
     newGetInsightRuleReport,
-    GetInsightRuleReportResponse,
+    GetInsightRuleReportResponse (GetInsightRuleReportResponse'),
     newGetInsightRuleReportResponse,
 
     -- ** GetMetricData (Paginated)
-    GetMetricData,
+    GetMetricData (GetMetricData'),
     newGetMetricData,
-    GetMetricDataResponse,
+    GetMetricDataResponse (GetMetricDataResponse'),
     newGetMetricDataResponse,
 
     -- ** GetMetricStatistics
-    GetMetricStatistics,
+    GetMetricStatistics (GetMetricStatistics'),
     newGetMetricStatistics,
-    GetMetricStatisticsResponse,
+    GetMetricStatisticsResponse (GetMetricStatisticsResponse'),
     newGetMetricStatisticsResponse,
 
     -- ** GetMetricStream
-    GetMetricStream,
+    GetMetricStream (GetMetricStream'),
     newGetMetricStream,
-    GetMetricStreamResponse,
+    GetMetricStreamResponse (GetMetricStreamResponse'),
     newGetMetricStreamResponse,
 
     -- ** GetMetricWidgetImage
-    GetMetricWidgetImage,
+    GetMetricWidgetImage (GetMetricWidgetImage'),
     newGetMetricWidgetImage,
-    GetMetricWidgetImageResponse,
+    GetMetricWidgetImageResponse (GetMetricWidgetImageResponse'),
     newGetMetricWidgetImageResponse,
 
     -- ** ListDashboards (Paginated)
-    ListDashboards,
+    ListDashboards (ListDashboards'),
     newListDashboards,
-    ListDashboardsResponse,
+    ListDashboardsResponse (ListDashboardsResponse'),
     newListDashboardsResponse,
 
     -- ** ListManagedInsightRules
-    ListManagedInsightRules,
+    ListManagedInsightRules (ListManagedInsightRules'),
     newListManagedInsightRules,
-    ListManagedInsightRulesResponse,
+    ListManagedInsightRulesResponse (ListManagedInsightRulesResponse'),
     newListManagedInsightRulesResponse,
 
     -- ** ListMetricStreams
-    ListMetricStreams,
+    ListMetricStreams (ListMetricStreams'),
     newListMetricStreams,
-    ListMetricStreamsResponse,
+    ListMetricStreamsResponse (ListMetricStreamsResponse'),
     newListMetricStreamsResponse,
 
     -- ** ListMetrics (Paginated)
-    ListMetrics,
+    ListMetrics (ListMetrics'),
     newListMetrics,
-    ListMetricsResponse,
+    ListMetricsResponse (ListMetricsResponse'),
     newListMetricsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** PutAnomalyDetector
-    PutAnomalyDetector,
+    PutAnomalyDetector (PutAnomalyDetector'),
     newPutAnomalyDetector,
-    PutAnomalyDetectorResponse,
+    PutAnomalyDetectorResponse (PutAnomalyDetectorResponse'),
     newPutAnomalyDetectorResponse,
 
     -- ** PutCompositeAlarm
-    PutCompositeAlarm,
+    PutCompositeAlarm (PutCompositeAlarm'),
     newPutCompositeAlarm,
-    PutCompositeAlarmResponse,
+    PutCompositeAlarmResponse (PutCompositeAlarmResponse'),
     newPutCompositeAlarmResponse,
 
     -- ** PutDashboard
-    PutDashboard,
+    PutDashboard (PutDashboard'),
     newPutDashboard,
-    PutDashboardResponse,
+    PutDashboardResponse (PutDashboardResponse'),
     newPutDashboardResponse,
 
     -- ** PutInsightRule
-    PutInsightRule,
+    PutInsightRule (PutInsightRule'),
     newPutInsightRule,
-    PutInsightRuleResponse,
+    PutInsightRuleResponse (PutInsightRuleResponse'),
     newPutInsightRuleResponse,
 
     -- ** PutManagedInsightRules
-    PutManagedInsightRules,
+    PutManagedInsightRules (PutManagedInsightRules'),
     newPutManagedInsightRules,
-    PutManagedInsightRulesResponse,
+    PutManagedInsightRulesResponse (PutManagedInsightRulesResponse'),
     newPutManagedInsightRulesResponse,
 
     -- ** PutMetricAlarm
-    PutMetricAlarm,
+    PutMetricAlarm (PutMetricAlarm'),
     newPutMetricAlarm,
-    PutMetricAlarmResponse,
+    PutMetricAlarmResponse (PutMetricAlarmResponse'),
     newPutMetricAlarmResponse,
 
     -- ** PutMetricData
-    PutMetricData,
+    PutMetricData (PutMetricData'),
     newPutMetricData,
-    PutMetricDataResponse,
+    PutMetricDataResponse (PutMetricDataResponse'),
     newPutMetricDataResponse,
 
     -- ** PutMetricStream
-    PutMetricStream,
+    PutMetricStream (PutMetricStream'),
     newPutMetricStream,
-    PutMetricStreamResponse,
+    PutMetricStreamResponse (PutMetricStreamResponse'),
     newPutMetricStreamResponse,
 
     -- ** SetAlarmState
-    SetAlarmState,
+    SetAlarmState (SetAlarmState'),
     newSetAlarmState,
-    SetAlarmStateResponse,
+    SetAlarmStateResponse (SetAlarmStateResponse'),
     newSetAlarmStateResponse,
 
     -- ** StartMetricStreams
-    StartMetricStreams,
+    StartMetricStreams (StartMetricStreams'),
     newStartMetricStreams,
-    StartMetricStreamsResponse,
+    StartMetricStreamsResponse (StartMetricStreamsResponse'),
     newStartMetricStreamsResponse,
 
     -- ** StopMetricStreams
-    StopMetricStreams,
+    StopMetricStreams (StopMetricStreams'),
     newStopMetricStreams,
-    StopMetricStreamsResponse,
+    StopMetricStreamsResponse (StopMetricStreamsResponse'),
     newStopMetricStreamsResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- * Types
@@ -359,139 +359,139 @@ module Amazonka.CloudWatch
     StatusCode (..),
 
     -- ** AlarmHistoryItem
-    AlarmHistoryItem,
+    AlarmHistoryItem (AlarmHistoryItem'),
     newAlarmHistoryItem,
 
     -- ** AnomalyDetector
-    AnomalyDetector,
+    AnomalyDetector (AnomalyDetector'),
     newAnomalyDetector,
 
     -- ** AnomalyDetectorConfiguration
-    AnomalyDetectorConfiguration,
+    AnomalyDetectorConfiguration (AnomalyDetectorConfiguration'),
     newAnomalyDetectorConfiguration,
 
     -- ** CompositeAlarm
-    CompositeAlarm,
+    CompositeAlarm (CompositeAlarm'),
     newCompositeAlarm,
 
     -- ** DashboardEntry
-    DashboardEntry,
+    DashboardEntry (DashboardEntry'),
     newDashboardEntry,
 
     -- ** DashboardValidationMessage
-    DashboardValidationMessage,
+    DashboardValidationMessage (DashboardValidationMessage'),
     newDashboardValidationMessage,
 
     -- ** Datapoint
-    Datapoint,
+    Datapoint (Datapoint'),
     newDatapoint,
 
     -- ** Dimension
-    Dimension,
+    Dimension (Dimension'),
     newDimension,
 
     -- ** DimensionFilter
-    DimensionFilter,
+    DimensionFilter (DimensionFilter'),
     newDimensionFilter,
 
     -- ** InsightRule
-    InsightRule,
+    InsightRule (InsightRule'),
     newInsightRule,
 
     -- ** InsightRuleContributor
-    InsightRuleContributor,
+    InsightRuleContributor (InsightRuleContributor'),
     newInsightRuleContributor,
 
     -- ** InsightRuleContributorDatapoint
-    InsightRuleContributorDatapoint,
+    InsightRuleContributorDatapoint (InsightRuleContributorDatapoint'),
     newInsightRuleContributorDatapoint,
 
     -- ** InsightRuleMetricDatapoint
-    InsightRuleMetricDatapoint,
+    InsightRuleMetricDatapoint (InsightRuleMetricDatapoint'),
     newInsightRuleMetricDatapoint,
 
     -- ** LabelOptions
-    LabelOptions,
+    LabelOptions (LabelOptions'),
     newLabelOptions,
 
     -- ** ManagedRule
-    ManagedRule,
+    ManagedRule (ManagedRule'),
     newManagedRule,
 
     -- ** ManagedRuleDescription
-    ManagedRuleDescription,
+    ManagedRuleDescription (ManagedRuleDescription'),
     newManagedRuleDescription,
 
     -- ** ManagedRuleState
-    ManagedRuleState,
+    ManagedRuleState (ManagedRuleState'),
     newManagedRuleState,
 
     -- ** MessageData
-    MessageData,
+    MessageData (MessageData'),
     newMessageData,
 
     -- ** Metric
-    Metric,
+    Metric (Metric'),
     newMetric,
 
     -- ** MetricAlarm
-    MetricAlarm,
+    MetricAlarm (MetricAlarm'),
     newMetricAlarm,
 
     -- ** MetricDataQuery
-    MetricDataQuery,
+    MetricDataQuery (MetricDataQuery'),
     newMetricDataQuery,
 
     -- ** MetricDataResult
-    MetricDataResult,
+    MetricDataResult (MetricDataResult'),
     newMetricDataResult,
 
     -- ** MetricDatum
-    MetricDatum,
+    MetricDatum (MetricDatum'),
     newMetricDatum,
 
     -- ** MetricMathAnomalyDetector
-    MetricMathAnomalyDetector,
+    MetricMathAnomalyDetector (MetricMathAnomalyDetector'),
     newMetricMathAnomalyDetector,
 
     -- ** MetricStat
-    MetricStat,
+    MetricStat (MetricStat'),
     newMetricStat,
 
     -- ** MetricStreamEntry
-    MetricStreamEntry,
+    MetricStreamEntry (MetricStreamEntry'),
     newMetricStreamEntry,
 
     -- ** MetricStreamFilter
-    MetricStreamFilter,
+    MetricStreamFilter (MetricStreamFilter'),
     newMetricStreamFilter,
 
     -- ** MetricStreamStatisticsConfiguration
-    MetricStreamStatisticsConfiguration,
+    MetricStreamStatisticsConfiguration (MetricStreamStatisticsConfiguration'),
     newMetricStreamStatisticsConfiguration,
 
     -- ** MetricStreamStatisticsMetric
-    MetricStreamStatisticsMetric,
+    MetricStreamStatisticsMetric (MetricStreamStatisticsMetric'),
     newMetricStreamStatisticsMetric,
 
     -- ** PartialFailure
-    PartialFailure,
+    PartialFailure (PartialFailure'),
     newPartialFailure,
 
     -- ** Range
-    Range,
+    Range (Range'),
     newRange,
 
     -- ** SingleMetricAnomalyDetector
-    SingleMetricAnomalyDetector,
+    SingleMetricAnomalyDetector (SingleMetricAnomalyDetector'),
     newSingleMetricAnomalyDetector,
 
     -- ** StatisticSet
-    StatisticSet,
+    StatisticSet (StatisticSet'),
     newStatisticSet,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
   )
 where

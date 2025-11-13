@@ -44,15 +44,15 @@ module Amazonka.SageMakerRuntime
     -- $operations
 
     -- ** InvokeEndpoint
-    InvokeEndpoint,
+    InvokeEndpoint (InvokeEndpoint'),
     newInvokeEndpoint,
-    InvokeEndpointResponse,
+    InvokeEndpointResponse (InvokeEndpointResponse'),
     newInvokeEndpointResponse,
 
     -- ** InvokeEndpointAsync
-    InvokeEndpointAsync,
+    InvokeEndpointAsync (InvokeEndpointAsync'),
     newInvokeEndpointAsync,
-    InvokeEndpointAsyncResponse,
+    InvokeEndpointAsyncResponse (InvokeEndpointAsyncResponse'),
     newInvokeEndpointAsyncResponse,
 
     -- * Types

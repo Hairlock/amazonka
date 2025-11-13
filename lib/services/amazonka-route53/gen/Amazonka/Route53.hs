@@ -241,423 +241,423 @@ module Amazonka.Route53
     -- $operations
 
     -- ** ActivateKeySigningKey
-    ActivateKeySigningKey,
+    ActivateKeySigningKey (ActivateKeySigningKey'),
     newActivateKeySigningKey,
-    ActivateKeySigningKeyResponse,
+    ActivateKeySigningKeyResponse (ActivateKeySigningKeyResponse'),
     newActivateKeySigningKeyResponse,
 
     -- ** AssociateVPCWithHostedZone
-    AssociateVPCWithHostedZone,
+    AssociateVPCWithHostedZone (AssociateVPCWithHostedZone'),
     newAssociateVPCWithHostedZone,
-    AssociateVPCWithHostedZoneResponse,
+    AssociateVPCWithHostedZoneResponse (AssociateVPCWithHostedZoneResponse'),
     newAssociateVPCWithHostedZoneResponse,
 
     -- ** ChangeCidrCollection
-    ChangeCidrCollection,
+    ChangeCidrCollection (ChangeCidrCollection'),
     newChangeCidrCollection,
-    ChangeCidrCollectionResponse,
+    ChangeCidrCollectionResponse (ChangeCidrCollectionResponse'),
     newChangeCidrCollectionResponse,
 
     -- ** ChangeResourceRecordSets
-    ChangeResourceRecordSets,
+    ChangeResourceRecordSets (ChangeResourceRecordSets'),
     newChangeResourceRecordSets,
-    ChangeResourceRecordSetsResponse,
+    ChangeResourceRecordSetsResponse (ChangeResourceRecordSetsResponse'),
     newChangeResourceRecordSetsResponse,
 
     -- ** ChangeTagsForResource
-    ChangeTagsForResource,
+    ChangeTagsForResource (ChangeTagsForResource'),
     newChangeTagsForResource,
-    ChangeTagsForResourceResponse,
+    ChangeTagsForResourceResponse (ChangeTagsForResourceResponse'),
     newChangeTagsForResourceResponse,
 
     -- ** CreateCidrCollection
-    CreateCidrCollection,
+    CreateCidrCollection (CreateCidrCollection'),
     newCreateCidrCollection,
-    CreateCidrCollectionResponse,
+    CreateCidrCollectionResponse (CreateCidrCollectionResponse'),
     newCreateCidrCollectionResponse,
 
     -- ** CreateHealthCheck
-    CreateHealthCheck,
+    CreateHealthCheck (CreateHealthCheck'),
     newCreateHealthCheck,
-    CreateHealthCheckResponse,
+    CreateHealthCheckResponse (CreateHealthCheckResponse'),
     newCreateHealthCheckResponse,
 
     -- ** CreateHostedZone
-    CreateHostedZone,
+    CreateHostedZone (CreateHostedZone'),
     newCreateHostedZone,
-    CreateHostedZoneResponse,
+    CreateHostedZoneResponse (CreateHostedZoneResponse'),
     newCreateHostedZoneResponse,
 
     -- ** CreateKeySigningKey
-    CreateKeySigningKey,
+    CreateKeySigningKey (CreateKeySigningKey'),
     newCreateKeySigningKey,
-    CreateKeySigningKeyResponse,
+    CreateKeySigningKeyResponse (CreateKeySigningKeyResponse'),
     newCreateKeySigningKeyResponse,
 
     -- ** CreateQueryLoggingConfig
-    CreateQueryLoggingConfig,
+    CreateQueryLoggingConfig (CreateQueryLoggingConfig'),
     newCreateQueryLoggingConfig,
-    CreateQueryLoggingConfigResponse,
+    CreateQueryLoggingConfigResponse (CreateQueryLoggingConfigResponse'),
     newCreateQueryLoggingConfigResponse,
 
     -- ** CreateReusableDelegationSet
-    CreateReusableDelegationSet,
+    CreateReusableDelegationSet (CreateReusableDelegationSet'),
     newCreateReusableDelegationSet,
-    CreateReusableDelegationSetResponse,
+    CreateReusableDelegationSetResponse (CreateReusableDelegationSetResponse'),
     newCreateReusableDelegationSetResponse,
 
     -- ** CreateTrafficPolicy
-    CreateTrafficPolicy,
+    CreateTrafficPolicy (CreateTrafficPolicy'),
     newCreateTrafficPolicy,
-    CreateTrafficPolicyResponse,
+    CreateTrafficPolicyResponse (CreateTrafficPolicyResponse'),
     newCreateTrafficPolicyResponse,
 
     -- ** CreateTrafficPolicyInstance
-    CreateTrafficPolicyInstance,
+    CreateTrafficPolicyInstance (CreateTrafficPolicyInstance'),
     newCreateTrafficPolicyInstance,
-    CreateTrafficPolicyInstanceResponse,
+    CreateTrafficPolicyInstanceResponse (CreateTrafficPolicyInstanceResponse'),
     newCreateTrafficPolicyInstanceResponse,
 
     -- ** CreateTrafficPolicyVersion
-    CreateTrafficPolicyVersion,
+    CreateTrafficPolicyVersion (CreateTrafficPolicyVersion'),
     newCreateTrafficPolicyVersion,
-    CreateTrafficPolicyVersionResponse,
+    CreateTrafficPolicyVersionResponse (CreateTrafficPolicyVersionResponse'),
     newCreateTrafficPolicyVersionResponse,
 
     -- ** CreateVPCAssociationAuthorization
-    CreateVPCAssociationAuthorization,
+    CreateVPCAssociationAuthorization (CreateVPCAssociationAuthorization'),
     newCreateVPCAssociationAuthorization,
-    CreateVPCAssociationAuthorizationResponse,
+    CreateVPCAssociationAuthorizationResponse (CreateVPCAssociationAuthorizationResponse'),
     newCreateVPCAssociationAuthorizationResponse,
 
     -- ** DeactivateKeySigningKey
-    DeactivateKeySigningKey,
+    DeactivateKeySigningKey (DeactivateKeySigningKey'),
     newDeactivateKeySigningKey,
-    DeactivateKeySigningKeyResponse,
+    DeactivateKeySigningKeyResponse (DeactivateKeySigningKeyResponse'),
     newDeactivateKeySigningKeyResponse,
 
     -- ** DeleteCidrCollection
-    DeleteCidrCollection,
+    DeleteCidrCollection (DeleteCidrCollection'),
     newDeleteCidrCollection,
-    DeleteCidrCollectionResponse,
+    DeleteCidrCollectionResponse (DeleteCidrCollectionResponse'),
     newDeleteCidrCollectionResponse,
 
     -- ** DeleteHealthCheck
-    DeleteHealthCheck,
+    DeleteHealthCheck (DeleteHealthCheck'),
     newDeleteHealthCheck,
-    DeleteHealthCheckResponse,
+    DeleteHealthCheckResponse (DeleteHealthCheckResponse'),
     newDeleteHealthCheckResponse,
 
     -- ** DeleteHostedZone
-    DeleteHostedZone,
+    DeleteHostedZone (DeleteHostedZone'),
     newDeleteHostedZone,
-    DeleteHostedZoneResponse,
+    DeleteHostedZoneResponse (DeleteHostedZoneResponse'),
     newDeleteHostedZoneResponse,
 
     -- ** DeleteKeySigningKey
-    DeleteKeySigningKey,
+    DeleteKeySigningKey (DeleteKeySigningKey'),
     newDeleteKeySigningKey,
-    DeleteKeySigningKeyResponse,
+    DeleteKeySigningKeyResponse (DeleteKeySigningKeyResponse'),
     newDeleteKeySigningKeyResponse,
 
     -- ** DeleteQueryLoggingConfig
-    DeleteQueryLoggingConfig,
+    DeleteQueryLoggingConfig (DeleteQueryLoggingConfig'),
     newDeleteQueryLoggingConfig,
-    DeleteQueryLoggingConfigResponse,
+    DeleteQueryLoggingConfigResponse (DeleteQueryLoggingConfigResponse'),
     newDeleteQueryLoggingConfigResponse,
 
     -- ** DeleteReusableDelegationSet
-    DeleteReusableDelegationSet,
+    DeleteReusableDelegationSet (DeleteReusableDelegationSet'),
     newDeleteReusableDelegationSet,
-    DeleteReusableDelegationSetResponse,
+    DeleteReusableDelegationSetResponse (DeleteReusableDelegationSetResponse'),
     newDeleteReusableDelegationSetResponse,
 
     -- ** DeleteTrafficPolicy
-    DeleteTrafficPolicy,
+    DeleteTrafficPolicy (DeleteTrafficPolicy'),
     newDeleteTrafficPolicy,
-    DeleteTrafficPolicyResponse,
+    DeleteTrafficPolicyResponse (DeleteTrafficPolicyResponse'),
     newDeleteTrafficPolicyResponse,
 
     -- ** DeleteTrafficPolicyInstance
-    DeleteTrafficPolicyInstance,
+    DeleteTrafficPolicyInstance (DeleteTrafficPolicyInstance'),
     newDeleteTrafficPolicyInstance,
-    DeleteTrafficPolicyInstanceResponse,
+    DeleteTrafficPolicyInstanceResponse (DeleteTrafficPolicyInstanceResponse'),
     newDeleteTrafficPolicyInstanceResponse,
 
     -- ** DeleteVPCAssociationAuthorization
-    DeleteVPCAssociationAuthorization,
+    DeleteVPCAssociationAuthorization (DeleteVPCAssociationAuthorization'),
     newDeleteVPCAssociationAuthorization,
-    DeleteVPCAssociationAuthorizationResponse,
+    DeleteVPCAssociationAuthorizationResponse (DeleteVPCAssociationAuthorizationResponse'),
     newDeleteVPCAssociationAuthorizationResponse,
 
     -- ** DisableHostedZoneDNSSEC
-    DisableHostedZoneDNSSEC,
+    DisableHostedZoneDNSSEC (DisableHostedZoneDNSSEC'),
     newDisableHostedZoneDNSSEC,
-    DisableHostedZoneDNSSECResponse,
+    DisableHostedZoneDNSSECResponse (DisableHostedZoneDNSSECResponse'),
     newDisableHostedZoneDNSSECResponse,
 
     -- ** DisassociateVPCFromHostedZone
-    DisassociateVPCFromHostedZone,
+    DisassociateVPCFromHostedZone (DisassociateVPCFromHostedZone'),
     newDisassociateVPCFromHostedZone,
-    DisassociateVPCFromHostedZoneResponse,
+    DisassociateVPCFromHostedZoneResponse (DisassociateVPCFromHostedZoneResponse'),
     newDisassociateVPCFromHostedZoneResponse,
 
     -- ** EnableHostedZoneDNSSEC
-    EnableHostedZoneDNSSEC,
+    EnableHostedZoneDNSSEC (EnableHostedZoneDNSSEC'),
     newEnableHostedZoneDNSSEC,
-    EnableHostedZoneDNSSECResponse,
+    EnableHostedZoneDNSSECResponse (EnableHostedZoneDNSSECResponse'),
     newEnableHostedZoneDNSSECResponse,
 
     -- ** GetAccountLimit
-    GetAccountLimit,
+    GetAccountLimit (GetAccountLimit'),
     newGetAccountLimit,
-    GetAccountLimitResponse,
+    GetAccountLimitResponse (GetAccountLimitResponse'),
     newGetAccountLimitResponse,
 
     -- ** GetChange
-    GetChange,
+    GetChange (GetChange'),
     newGetChange,
-    GetChangeResponse,
+    GetChangeResponse (GetChangeResponse'),
     newGetChangeResponse,
 
     -- ** GetCheckerIpRanges
-    GetCheckerIpRanges,
+    GetCheckerIpRanges (GetCheckerIpRanges'),
     newGetCheckerIpRanges,
-    GetCheckerIpRangesResponse,
+    GetCheckerIpRangesResponse (GetCheckerIpRangesResponse'),
     newGetCheckerIpRangesResponse,
 
     -- ** GetDNSSEC
-    GetDNSSEC,
+    GetDNSSEC (GetDNSSEC'),
     newGetDNSSEC,
-    GetDNSSECResponse,
+    GetDNSSECResponse (GetDNSSECResponse'),
     newGetDNSSECResponse,
 
     -- ** GetGeoLocation
-    GetGeoLocation,
+    GetGeoLocation (GetGeoLocation'),
     newGetGeoLocation,
-    GetGeoLocationResponse,
+    GetGeoLocationResponse (GetGeoLocationResponse'),
     newGetGeoLocationResponse,
 
     -- ** GetHealthCheck
-    GetHealthCheck,
+    GetHealthCheck (GetHealthCheck'),
     newGetHealthCheck,
-    GetHealthCheckResponse,
+    GetHealthCheckResponse (GetHealthCheckResponse'),
     newGetHealthCheckResponse,
 
     -- ** GetHealthCheckCount
-    GetHealthCheckCount,
+    GetHealthCheckCount (GetHealthCheckCount'),
     newGetHealthCheckCount,
-    GetHealthCheckCountResponse,
+    GetHealthCheckCountResponse (GetHealthCheckCountResponse'),
     newGetHealthCheckCountResponse,
 
     -- ** GetHealthCheckLastFailureReason
-    GetHealthCheckLastFailureReason,
+    GetHealthCheckLastFailureReason (GetHealthCheckLastFailureReason'),
     newGetHealthCheckLastFailureReason,
-    GetHealthCheckLastFailureReasonResponse,
+    GetHealthCheckLastFailureReasonResponse (GetHealthCheckLastFailureReasonResponse'),
     newGetHealthCheckLastFailureReasonResponse,
 
     -- ** GetHealthCheckStatus
-    GetHealthCheckStatus,
+    GetHealthCheckStatus (GetHealthCheckStatus'),
     newGetHealthCheckStatus,
-    GetHealthCheckStatusResponse,
+    GetHealthCheckStatusResponse (GetHealthCheckStatusResponse'),
     newGetHealthCheckStatusResponse,
 
     -- ** GetHostedZone
-    GetHostedZone,
+    GetHostedZone (GetHostedZone'),
     newGetHostedZone,
-    GetHostedZoneResponse,
+    GetHostedZoneResponse (GetHostedZoneResponse'),
     newGetHostedZoneResponse,
 
     -- ** GetHostedZoneCount
-    GetHostedZoneCount,
+    GetHostedZoneCount (GetHostedZoneCount'),
     newGetHostedZoneCount,
-    GetHostedZoneCountResponse,
+    GetHostedZoneCountResponse (GetHostedZoneCountResponse'),
     newGetHostedZoneCountResponse,
 
     -- ** GetHostedZoneLimit
-    GetHostedZoneLimit,
+    GetHostedZoneLimit (GetHostedZoneLimit'),
     newGetHostedZoneLimit,
-    GetHostedZoneLimitResponse,
+    GetHostedZoneLimitResponse (GetHostedZoneLimitResponse'),
     newGetHostedZoneLimitResponse,
 
     -- ** GetQueryLoggingConfig
-    GetQueryLoggingConfig,
+    GetQueryLoggingConfig (GetQueryLoggingConfig'),
     newGetQueryLoggingConfig,
-    GetQueryLoggingConfigResponse,
+    GetQueryLoggingConfigResponse (GetQueryLoggingConfigResponse'),
     newGetQueryLoggingConfigResponse,
 
     -- ** GetReusableDelegationSet
-    GetReusableDelegationSet,
+    GetReusableDelegationSet (GetReusableDelegationSet'),
     newGetReusableDelegationSet,
-    GetReusableDelegationSetResponse,
+    GetReusableDelegationSetResponse (GetReusableDelegationSetResponse'),
     newGetReusableDelegationSetResponse,
 
     -- ** GetReusableDelegationSetLimit
-    GetReusableDelegationSetLimit,
+    GetReusableDelegationSetLimit (GetReusableDelegationSetLimit'),
     newGetReusableDelegationSetLimit,
-    GetReusableDelegationSetLimitResponse,
+    GetReusableDelegationSetLimitResponse (GetReusableDelegationSetLimitResponse'),
     newGetReusableDelegationSetLimitResponse,
 
     -- ** GetTrafficPolicy
-    GetTrafficPolicy,
+    GetTrafficPolicy (GetTrafficPolicy'),
     newGetTrafficPolicy,
-    GetTrafficPolicyResponse,
+    GetTrafficPolicyResponse (GetTrafficPolicyResponse'),
     newGetTrafficPolicyResponse,
 
     -- ** GetTrafficPolicyInstance
-    GetTrafficPolicyInstance,
+    GetTrafficPolicyInstance (GetTrafficPolicyInstance'),
     newGetTrafficPolicyInstance,
-    GetTrafficPolicyInstanceResponse,
+    GetTrafficPolicyInstanceResponse (GetTrafficPolicyInstanceResponse'),
     newGetTrafficPolicyInstanceResponse,
 
     -- ** GetTrafficPolicyInstanceCount
-    GetTrafficPolicyInstanceCount,
+    GetTrafficPolicyInstanceCount (GetTrafficPolicyInstanceCount'),
     newGetTrafficPolicyInstanceCount,
-    GetTrafficPolicyInstanceCountResponse,
+    GetTrafficPolicyInstanceCountResponse (GetTrafficPolicyInstanceCountResponse'),
     newGetTrafficPolicyInstanceCountResponse,
 
     -- ** ListCidrBlocks (Paginated)
-    ListCidrBlocks,
+    ListCidrBlocks (ListCidrBlocks'),
     newListCidrBlocks,
-    ListCidrBlocksResponse,
+    ListCidrBlocksResponse (ListCidrBlocksResponse'),
     newListCidrBlocksResponse,
 
     -- ** ListCidrCollections (Paginated)
-    ListCidrCollections,
+    ListCidrCollections (ListCidrCollections'),
     newListCidrCollections,
-    ListCidrCollectionsResponse,
+    ListCidrCollectionsResponse (ListCidrCollectionsResponse'),
     newListCidrCollectionsResponse,
 
     -- ** ListCidrLocations (Paginated)
-    ListCidrLocations,
+    ListCidrLocations (ListCidrLocations'),
     newListCidrLocations,
-    ListCidrLocationsResponse,
+    ListCidrLocationsResponse (ListCidrLocationsResponse'),
     newListCidrLocationsResponse,
 
     -- ** ListGeoLocations
-    ListGeoLocations,
+    ListGeoLocations (ListGeoLocations'),
     newListGeoLocations,
-    ListGeoLocationsResponse,
+    ListGeoLocationsResponse (ListGeoLocationsResponse'),
     newListGeoLocationsResponse,
 
     -- ** ListHealthChecks (Paginated)
-    ListHealthChecks,
+    ListHealthChecks (ListHealthChecks'),
     newListHealthChecks,
-    ListHealthChecksResponse,
+    ListHealthChecksResponse (ListHealthChecksResponse'),
     newListHealthChecksResponse,
 
     -- ** ListHostedZones (Paginated)
-    ListHostedZones,
+    ListHostedZones (ListHostedZones'),
     newListHostedZones,
-    ListHostedZonesResponse,
+    ListHostedZonesResponse (ListHostedZonesResponse'),
     newListHostedZonesResponse,
 
     -- ** ListHostedZonesByName
-    ListHostedZonesByName,
+    ListHostedZonesByName (ListHostedZonesByName'),
     newListHostedZonesByName,
-    ListHostedZonesByNameResponse,
+    ListHostedZonesByNameResponse (ListHostedZonesByNameResponse'),
     newListHostedZonesByNameResponse,
 
     -- ** ListHostedZonesByVPC
-    ListHostedZonesByVPC,
+    ListHostedZonesByVPC (ListHostedZonesByVPC'),
     newListHostedZonesByVPC,
-    ListHostedZonesByVPCResponse,
+    ListHostedZonesByVPCResponse (ListHostedZonesByVPCResponse'),
     newListHostedZonesByVPCResponse,
 
     -- ** ListQueryLoggingConfigs (Paginated)
-    ListQueryLoggingConfigs,
+    ListQueryLoggingConfigs (ListQueryLoggingConfigs'),
     newListQueryLoggingConfigs,
-    ListQueryLoggingConfigsResponse,
+    ListQueryLoggingConfigsResponse (ListQueryLoggingConfigsResponse'),
     newListQueryLoggingConfigsResponse,
 
     -- ** ListResourceRecordSets (Paginated)
-    ListResourceRecordSets,
+    ListResourceRecordSets (ListResourceRecordSets'),
     newListResourceRecordSets,
-    ListResourceRecordSetsResponse,
+    ListResourceRecordSetsResponse (ListResourceRecordSetsResponse'),
     newListResourceRecordSetsResponse,
 
     -- ** ListReusableDelegationSets
-    ListReusableDelegationSets,
+    ListReusableDelegationSets (ListReusableDelegationSets'),
     newListReusableDelegationSets,
-    ListReusableDelegationSetsResponse,
+    ListReusableDelegationSetsResponse (ListReusableDelegationSetsResponse'),
     newListReusableDelegationSetsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** ListTagsForResources
-    ListTagsForResources,
+    ListTagsForResources (ListTagsForResources'),
     newListTagsForResources,
-    ListTagsForResourcesResponse,
+    ListTagsForResourcesResponse (ListTagsForResourcesResponse'),
     newListTagsForResourcesResponse,
 
     -- ** ListTrafficPolicies
-    ListTrafficPolicies,
+    ListTrafficPolicies (ListTrafficPolicies'),
     newListTrafficPolicies,
-    ListTrafficPoliciesResponse,
+    ListTrafficPoliciesResponse (ListTrafficPoliciesResponse'),
     newListTrafficPoliciesResponse,
 
     -- ** ListTrafficPolicyInstances
-    ListTrafficPolicyInstances,
+    ListTrafficPolicyInstances (ListTrafficPolicyInstances'),
     newListTrafficPolicyInstances,
-    ListTrafficPolicyInstancesResponse,
+    ListTrafficPolicyInstancesResponse (ListTrafficPolicyInstancesResponse'),
     newListTrafficPolicyInstancesResponse,
 
     -- ** ListTrafficPolicyInstancesByHostedZone
-    ListTrafficPolicyInstancesByHostedZone,
+    ListTrafficPolicyInstancesByHostedZone (ListTrafficPolicyInstancesByHostedZone'),
     newListTrafficPolicyInstancesByHostedZone,
-    ListTrafficPolicyInstancesByHostedZoneResponse,
+    ListTrafficPolicyInstancesByHostedZoneResponse (ListTrafficPolicyInstancesByHostedZoneResponse'),
     newListTrafficPolicyInstancesByHostedZoneResponse,
 
     -- ** ListTrafficPolicyInstancesByPolicy
-    ListTrafficPolicyInstancesByPolicy,
+    ListTrafficPolicyInstancesByPolicy (ListTrafficPolicyInstancesByPolicy'),
     newListTrafficPolicyInstancesByPolicy,
-    ListTrafficPolicyInstancesByPolicyResponse,
+    ListTrafficPolicyInstancesByPolicyResponse (ListTrafficPolicyInstancesByPolicyResponse'),
     newListTrafficPolicyInstancesByPolicyResponse,
 
     -- ** ListTrafficPolicyVersions
-    ListTrafficPolicyVersions,
+    ListTrafficPolicyVersions (ListTrafficPolicyVersions'),
     newListTrafficPolicyVersions,
-    ListTrafficPolicyVersionsResponse,
+    ListTrafficPolicyVersionsResponse (ListTrafficPolicyVersionsResponse'),
     newListTrafficPolicyVersionsResponse,
 
     -- ** ListVPCAssociationAuthorizations (Paginated)
-    ListVPCAssociationAuthorizations,
+    ListVPCAssociationAuthorizations (ListVPCAssociationAuthorizations'),
     newListVPCAssociationAuthorizations,
-    ListVPCAssociationAuthorizationsResponse,
+    ListVPCAssociationAuthorizationsResponse (ListVPCAssociationAuthorizationsResponse'),
     newListVPCAssociationAuthorizationsResponse,
 
     -- ** TestDNSAnswer
-    TestDNSAnswer,
+    TestDNSAnswer (TestDNSAnswer'),
     newTestDNSAnswer,
-    TestDNSAnswerResponse,
+    TestDNSAnswerResponse (TestDNSAnswerResponse'),
     newTestDNSAnswerResponse,
 
     -- ** UpdateHealthCheck
-    UpdateHealthCheck,
+    UpdateHealthCheck (UpdateHealthCheck'),
     newUpdateHealthCheck,
-    UpdateHealthCheckResponse,
+    UpdateHealthCheckResponse (UpdateHealthCheckResponse'),
     newUpdateHealthCheckResponse,
 
     -- ** UpdateHostedZoneComment
-    UpdateHostedZoneComment,
+    UpdateHostedZoneComment (UpdateHostedZoneComment'),
     newUpdateHostedZoneComment,
-    UpdateHostedZoneCommentResponse,
+    UpdateHostedZoneCommentResponse (UpdateHostedZoneCommentResponse'),
     newUpdateHostedZoneCommentResponse,
 
     -- ** UpdateTrafficPolicyComment
-    UpdateTrafficPolicyComment,
+    UpdateTrafficPolicyComment (UpdateTrafficPolicyComment'),
     newUpdateTrafficPolicyComment,
-    UpdateTrafficPolicyCommentResponse,
+    UpdateTrafficPolicyCommentResponse (UpdateTrafficPolicyCommentResponse'),
     newUpdateTrafficPolicyCommentResponse,
 
     -- ** UpdateTrafficPolicyInstance
-    UpdateTrafficPolicyInstance,
+    UpdateTrafficPolicyInstance (UpdateTrafficPolicyInstance'),
     newUpdateTrafficPolicyInstance,
-    UpdateTrafficPolicyInstanceResponse,
+    UpdateTrafficPolicyInstanceResponse (UpdateTrafficPolicyInstanceResponse'),
     newUpdateTrafficPolicyInstanceResponse,
 
     -- * Types
@@ -717,159 +717,159 @@ module Amazonka.Route53
     VPCRegion (..),
 
     -- ** AccountLimit
-    AccountLimit,
+    AccountLimit (AccountLimit'),
     newAccountLimit,
 
     -- ** AlarmIdentifier
-    AlarmIdentifier,
+    AlarmIdentifier (AlarmIdentifier'),
     newAlarmIdentifier,
 
     -- ** AliasTarget
-    AliasTarget,
+    AliasTarget (AliasTarget'),
     newAliasTarget,
 
     -- ** Change
-    Change,
+    Change (Change'),
     newChange,
 
     -- ** ChangeBatch
-    ChangeBatch,
+    ChangeBatch (ChangeBatch'),
     newChangeBatch,
 
     -- ** ChangeInfo
-    ChangeInfo,
+    ChangeInfo (ChangeInfo'),
     newChangeInfo,
 
     -- ** CidrBlockSummary
-    CidrBlockSummary,
+    CidrBlockSummary (CidrBlockSummary'),
     newCidrBlockSummary,
 
     -- ** CidrCollection
-    CidrCollection,
+    CidrCollection (CidrCollection'),
     newCidrCollection,
 
     -- ** CidrCollectionChange
-    CidrCollectionChange,
+    CidrCollectionChange (CidrCollectionChange'),
     newCidrCollectionChange,
 
     -- ** CidrRoutingConfig
-    CidrRoutingConfig,
+    CidrRoutingConfig (CidrRoutingConfig'),
     newCidrRoutingConfig,
 
     -- ** CloudWatchAlarmConfiguration
-    CloudWatchAlarmConfiguration,
+    CloudWatchAlarmConfiguration (CloudWatchAlarmConfiguration'),
     newCloudWatchAlarmConfiguration,
 
     -- ** CollectionSummary
-    CollectionSummary,
+    CollectionSummary (CollectionSummary'),
     newCollectionSummary,
 
     -- ** DNSSECStatus
-    DNSSECStatus,
+    DNSSECStatus (DNSSECStatus'),
     newDNSSECStatus,
 
     -- ** DelegationSet
-    DelegationSet,
+    DelegationSet (DelegationSet'),
     newDelegationSet,
 
     -- ** Dimension
-    Dimension,
+    Dimension (Dimension'),
     newDimension,
 
     -- ** GeoLocation
-    GeoLocation,
+    GeoLocation (GeoLocation'),
     newGeoLocation,
 
     -- ** GeoLocationDetails
-    GeoLocationDetails,
+    GeoLocationDetails (GeoLocationDetails'),
     newGeoLocationDetails,
 
     -- ** HealthCheck
-    HealthCheck,
+    HealthCheck (HealthCheck'),
     newHealthCheck,
 
     -- ** HealthCheckConfig
-    HealthCheckConfig,
+    HealthCheckConfig (HealthCheckConfig'),
     newHealthCheckConfig,
 
     -- ** HealthCheckObservation
-    HealthCheckObservation,
+    HealthCheckObservation (HealthCheckObservation'),
     newHealthCheckObservation,
 
     -- ** HostedZone
-    HostedZone,
+    HostedZone (HostedZone'),
     newHostedZone,
 
     -- ** HostedZoneConfig
-    HostedZoneConfig,
+    HostedZoneConfig (HostedZoneConfig'),
     newHostedZoneConfig,
 
     -- ** HostedZoneLimit
-    HostedZoneLimit,
+    HostedZoneLimit (HostedZoneLimit'),
     newHostedZoneLimit,
 
     -- ** HostedZoneOwner
-    HostedZoneOwner,
+    HostedZoneOwner (HostedZoneOwner'),
     newHostedZoneOwner,
 
     -- ** HostedZoneSummary
-    HostedZoneSummary,
+    HostedZoneSummary (HostedZoneSummary'),
     newHostedZoneSummary,
 
     -- ** KeySigningKey
-    KeySigningKey,
+    KeySigningKey (KeySigningKey'),
     newKeySigningKey,
 
     -- ** LinkedService
-    LinkedService,
+    LinkedService (LinkedService'),
     newLinkedService,
 
     -- ** LocationSummary
-    LocationSummary,
+    LocationSummary (LocationSummary'),
     newLocationSummary,
 
     -- ** QueryLoggingConfig
-    QueryLoggingConfig,
+    QueryLoggingConfig (QueryLoggingConfig'),
     newQueryLoggingConfig,
 
     -- ** ResourceRecord
-    ResourceRecord,
+    ResourceRecord (ResourceRecord'),
     newResourceRecord,
 
     -- ** ResourceRecordSet
-    ResourceRecordSet,
+    ResourceRecordSet (ResourceRecordSet'),
     newResourceRecordSet,
 
     -- ** ResourceTagSet
-    ResourceTagSet,
+    ResourceTagSet (ResourceTagSet'),
     newResourceTagSet,
 
     -- ** ReusableDelegationSetLimit
-    ReusableDelegationSetLimit,
+    ReusableDelegationSetLimit (ReusableDelegationSetLimit'),
     newReusableDelegationSetLimit,
 
     -- ** StatusReport
-    StatusReport,
+    StatusReport (StatusReport'),
     newStatusReport,
 
     -- ** Tag
-    Tag,
+    Tag (Tag'),
     newTag,
 
     -- ** TrafficPolicy
-    TrafficPolicy,
+    TrafficPolicy (TrafficPolicy'),
     newTrafficPolicy,
 
     -- ** TrafficPolicyInstance
-    TrafficPolicyInstance,
+    TrafficPolicyInstance (TrafficPolicyInstance'),
     newTrafficPolicyInstance,
 
     -- ** TrafficPolicySummary
-    TrafficPolicySummary,
+    TrafficPolicySummary (TrafficPolicySummary'),
     newTrafficPolicySummary,
 
     -- ** VPC
-    VPC,
+    VPC (VPC'),
     newVPC,
   )
 where

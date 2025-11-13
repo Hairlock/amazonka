@@ -48,153 +48,153 @@ module Amazonka.PrivateNetworks
     -- $operations
 
     -- ** AcknowledgeOrderReceipt
-    AcknowledgeOrderReceipt,
+    AcknowledgeOrderReceipt (AcknowledgeOrderReceipt'),
     newAcknowledgeOrderReceipt,
-    AcknowledgeOrderReceiptResponse,
+    AcknowledgeOrderReceiptResponse (AcknowledgeOrderReceiptResponse'),
     newAcknowledgeOrderReceiptResponse,
 
     -- ** ActivateDeviceIdentifier
-    ActivateDeviceIdentifier,
+    ActivateDeviceIdentifier (ActivateDeviceIdentifier'),
     newActivateDeviceIdentifier,
-    ActivateDeviceIdentifierResponse,
+    ActivateDeviceIdentifierResponse (ActivateDeviceIdentifierResponse'),
     newActivateDeviceIdentifierResponse,
 
     -- ** ActivateNetworkSite
-    ActivateNetworkSite,
+    ActivateNetworkSite (ActivateNetworkSite'),
     newActivateNetworkSite,
-    ActivateNetworkSiteResponse,
+    ActivateNetworkSiteResponse (ActivateNetworkSiteResponse'),
     newActivateNetworkSiteResponse,
 
     -- ** ConfigureAccessPoint
-    ConfigureAccessPoint,
+    ConfigureAccessPoint (ConfigureAccessPoint'),
     newConfigureAccessPoint,
-    ConfigureAccessPointResponse,
+    ConfigureAccessPointResponse (ConfigureAccessPointResponse'),
     newConfigureAccessPointResponse,
 
     -- ** CreateNetwork
-    CreateNetwork,
+    CreateNetwork (CreateNetwork'),
     newCreateNetwork,
-    CreateNetworkResponse,
+    CreateNetworkResponse (CreateNetworkResponse'),
     newCreateNetworkResponse,
 
     -- ** CreateNetworkSite
-    CreateNetworkSite,
+    CreateNetworkSite (CreateNetworkSite'),
     newCreateNetworkSite,
-    CreateNetworkSiteResponse,
+    CreateNetworkSiteResponse (CreateNetworkSiteResponse'),
     newCreateNetworkSiteResponse,
 
     -- ** DeactivateDeviceIdentifier
-    DeactivateDeviceIdentifier,
+    DeactivateDeviceIdentifier (DeactivateDeviceIdentifier'),
     newDeactivateDeviceIdentifier,
-    DeactivateDeviceIdentifierResponse,
+    DeactivateDeviceIdentifierResponse (DeactivateDeviceIdentifierResponse'),
     newDeactivateDeviceIdentifierResponse,
 
     -- ** DeleteNetwork
-    DeleteNetwork,
+    DeleteNetwork (DeleteNetwork'),
     newDeleteNetwork,
-    DeleteNetworkResponse,
+    DeleteNetworkResponse (DeleteNetworkResponse'),
     newDeleteNetworkResponse,
 
     -- ** DeleteNetworkSite
-    DeleteNetworkSite,
+    DeleteNetworkSite (DeleteNetworkSite'),
     newDeleteNetworkSite,
-    DeleteNetworkSiteResponse,
+    DeleteNetworkSiteResponse (DeleteNetworkSiteResponse'),
     newDeleteNetworkSiteResponse,
 
     -- ** GetDeviceIdentifier
-    GetDeviceIdentifier,
+    GetDeviceIdentifier (GetDeviceIdentifier'),
     newGetDeviceIdentifier,
-    GetDeviceIdentifierResponse,
+    GetDeviceIdentifierResponse (GetDeviceIdentifierResponse'),
     newGetDeviceIdentifierResponse,
 
     -- ** GetNetwork
-    GetNetwork,
+    GetNetwork (GetNetwork'),
     newGetNetwork,
-    GetNetworkResponse,
+    GetNetworkResponse (GetNetworkResponse'),
     newGetNetworkResponse,
 
     -- ** GetNetworkResource
-    GetNetworkResource,
+    GetNetworkResource (GetNetworkResource'),
     newGetNetworkResource,
-    GetNetworkResourceResponse,
+    GetNetworkResourceResponse (GetNetworkResourceResponse'),
     newGetNetworkResourceResponse,
 
     -- ** GetNetworkSite
-    GetNetworkSite,
+    GetNetworkSite (GetNetworkSite'),
     newGetNetworkSite,
-    GetNetworkSiteResponse,
+    GetNetworkSiteResponse (GetNetworkSiteResponse'),
     newGetNetworkSiteResponse,
 
     -- ** GetOrder
-    GetOrder,
+    GetOrder (GetOrder'),
     newGetOrder,
-    GetOrderResponse,
+    GetOrderResponse (GetOrderResponse'),
     newGetOrderResponse,
 
     -- ** ListDeviceIdentifiers (Paginated)
-    ListDeviceIdentifiers,
+    ListDeviceIdentifiers (ListDeviceIdentifiers'),
     newListDeviceIdentifiers,
-    ListDeviceIdentifiersResponse,
+    ListDeviceIdentifiersResponse (ListDeviceIdentifiersResponse'),
     newListDeviceIdentifiersResponse,
 
     -- ** ListNetworkResources (Paginated)
-    ListNetworkResources,
+    ListNetworkResources (ListNetworkResources'),
     newListNetworkResources,
-    ListNetworkResourcesResponse,
+    ListNetworkResourcesResponse (ListNetworkResourcesResponse'),
     newListNetworkResourcesResponse,
 
     -- ** ListNetworkSites (Paginated)
-    ListNetworkSites,
+    ListNetworkSites (ListNetworkSites'),
     newListNetworkSites,
-    ListNetworkSitesResponse,
+    ListNetworkSitesResponse (ListNetworkSitesResponse'),
     newListNetworkSitesResponse,
 
     -- ** ListNetworks (Paginated)
-    ListNetworks,
+    ListNetworks (ListNetworks'),
     newListNetworks,
-    ListNetworksResponse,
+    ListNetworksResponse (ListNetworksResponse'),
     newListNetworksResponse,
 
     -- ** ListOrders (Paginated)
-    ListOrders,
+    ListOrders (ListOrders'),
     newListOrders,
-    ListOrdersResponse,
+    ListOrdersResponse (ListOrdersResponse'),
     newListOrdersResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** Ping
-    Ping,
+    Ping (Ping'),
     newPing,
-    PingResponse,
+    PingResponse (PingResponse'),
     newPingResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateNetworkSite
-    UpdateNetworkSite,
+    UpdateNetworkSite (UpdateNetworkSite'),
     newUpdateNetworkSite,
-    UpdateNetworkSiteResponse,
+    UpdateNetworkSiteResponse (UpdateNetworkSiteResponse'),
     newUpdateNetworkSiteResponse,
 
     -- ** UpdateNetworkSitePlan
-    UpdateNetworkSitePlan,
+    UpdateNetworkSitePlan (UpdateNetworkSitePlan'),
     newUpdateNetworkSitePlan,
-    UpdateNetworkSiteResponse,
+    UpdateNetworkSiteResponse (UpdateNetworkSiteResponse'),
     newUpdateNetworkSiteResponse,
 
     -- * Types
@@ -245,51 +245,51 @@ module Amazonka.PrivateNetworks
     OrderFilterKeys (..),
 
     -- ** Address
-    Address,
+    Address (Address'),
     newAddress,
 
     -- ** DeviceIdentifier
-    DeviceIdentifier,
+    DeviceIdentifier (DeviceIdentifier'),
     newDeviceIdentifier,
 
     -- ** NameValuePair
-    NameValuePair,
+    NameValuePair (NameValuePair'),
     newNameValuePair,
 
     -- ** Network
-    Network,
+    Network (Network'),
     newNetwork,
 
     -- ** NetworkResource
-    NetworkResource,
+    NetworkResource (NetworkResource'),
     newNetworkResource,
 
     -- ** NetworkResourceDefinition
-    NetworkResourceDefinition,
+    NetworkResourceDefinition (NetworkResourceDefinition'),
     newNetworkResourceDefinition,
 
     -- ** NetworkSite
-    NetworkSite,
+    NetworkSite (NetworkSite'),
     newNetworkSite,
 
     -- ** Order
-    Order,
+    Order (Order'),
     newOrder,
 
     -- ** Position
-    Position,
+    Position (Position'),
     newPosition,
 
     -- ** SitePlan
-    SitePlan,
+    SitePlan (SitePlan'),
     newSitePlan,
 
     -- ** TrackingInformation
-    TrackingInformation,
+    TrackingInformation (TrackingInformation'),
     newTrackingInformation,
 
     -- ** UpdateNetworkSiteResponse
-    UpdateNetworkSiteResponse,
+    UpdateNetworkSiteResponse (UpdateNetworkSiteResponse'),
     newUpdateNetworkSiteResponse,
   )
 where

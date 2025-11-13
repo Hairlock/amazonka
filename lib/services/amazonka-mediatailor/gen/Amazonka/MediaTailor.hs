@@ -40,255 +40,255 @@ module Amazonka.MediaTailor
     -- $operations
 
     -- ** ConfigureLogsForPlaybackConfiguration
-    ConfigureLogsForPlaybackConfiguration,
+    ConfigureLogsForPlaybackConfiguration (ConfigureLogsForPlaybackConfiguration'),
     newConfigureLogsForPlaybackConfiguration,
-    ConfigureLogsForPlaybackConfigurationResponse,
+    ConfigureLogsForPlaybackConfigurationResponse (ConfigureLogsForPlaybackConfigurationResponse'),
     newConfigureLogsForPlaybackConfigurationResponse,
 
     -- ** CreateChannel
-    CreateChannel,
+    CreateChannel (CreateChannel'),
     newCreateChannel,
-    CreateChannelResponse,
+    CreateChannelResponse (CreateChannelResponse'),
     newCreateChannelResponse,
 
     -- ** CreateLiveSource
-    CreateLiveSource,
+    CreateLiveSource (CreateLiveSource'),
     newCreateLiveSource,
-    CreateLiveSourceResponse,
+    CreateLiveSourceResponse (CreateLiveSourceResponse'),
     newCreateLiveSourceResponse,
 
     -- ** CreatePrefetchSchedule
-    CreatePrefetchSchedule,
+    CreatePrefetchSchedule (CreatePrefetchSchedule'),
     newCreatePrefetchSchedule,
-    CreatePrefetchScheduleResponse,
+    CreatePrefetchScheduleResponse (CreatePrefetchScheduleResponse'),
     newCreatePrefetchScheduleResponse,
 
     -- ** CreateProgram
-    CreateProgram,
+    CreateProgram (CreateProgram'),
     newCreateProgram,
-    CreateProgramResponse,
+    CreateProgramResponse (CreateProgramResponse'),
     newCreateProgramResponse,
 
     -- ** CreateSourceLocation
-    CreateSourceLocation,
+    CreateSourceLocation (CreateSourceLocation'),
     newCreateSourceLocation,
-    CreateSourceLocationResponse,
+    CreateSourceLocationResponse (CreateSourceLocationResponse'),
     newCreateSourceLocationResponse,
 
     -- ** CreateVodSource
-    CreateVodSource,
+    CreateVodSource (CreateVodSource'),
     newCreateVodSource,
-    CreateVodSourceResponse,
+    CreateVodSourceResponse (CreateVodSourceResponse'),
     newCreateVodSourceResponse,
 
     -- ** DeleteChannel
-    DeleteChannel,
+    DeleteChannel (DeleteChannel'),
     newDeleteChannel,
-    DeleteChannelResponse,
+    DeleteChannelResponse (DeleteChannelResponse'),
     newDeleteChannelResponse,
 
     -- ** DeleteChannelPolicy
-    DeleteChannelPolicy,
+    DeleteChannelPolicy (DeleteChannelPolicy'),
     newDeleteChannelPolicy,
-    DeleteChannelPolicyResponse,
+    DeleteChannelPolicyResponse (DeleteChannelPolicyResponse'),
     newDeleteChannelPolicyResponse,
 
     -- ** DeleteLiveSource
-    DeleteLiveSource,
+    DeleteLiveSource (DeleteLiveSource'),
     newDeleteLiveSource,
-    DeleteLiveSourceResponse,
+    DeleteLiveSourceResponse (DeleteLiveSourceResponse'),
     newDeleteLiveSourceResponse,
 
     -- ** DeletePlaybackConfiguration
-    DeletePlaybackConfiguration,
+    DeletePlaybackConfiguration (DeletePlaybackConfiguration'),
     newDeletePlaybackConfiguration,
-    DeletePlaybackConfigurationResponse,
+    DeletePlaybackConfigurationResponse (DeletePlaybackConfigurationResponse'),
     newDeletePlaybackConfigurationResponse,
 
     -- ** DeletePrefetchSchedule
-    DeletePrefetchSchedule,
+    DeletePrefetchSchedule (DeletePrefetchSchedule'),
     newDeletePrefetchSchedule,
-    DeletePrefetchScheduleResponse,
+    DeletePrefetchScheduleResponse (DeletePrefetchScheduleResponse'),
     newDeletePrefetchScheduleResponse,
 
     -- ** DeleteProgram
-    DeleteProgram,
+    DeleteProgram (DeleteProgram'),
     newDeleteProgram,
-    DeleteProgramResponse,
+    DeleteProgramResponse (DeleteProgramResponse'),
     newDeleteProgramResponse,
 
     -- ** DeleteSourceLocation
-    DeleteSourceLocation,
+    DeleteSourceLocation (DeleteSourceLocation'),
     newDeleteSourceLocation,
-    DeleteSourceLocationResponse,
+    DeleteSourceLocationResponse (DeleteSourceLocationResponse'),
     newDeleteSourceLocationResponse,
 
     -- ** DeleteVodSource
-    DeleteVodSource,
+    DeleteVodSource (DeleteVodSource'),
     newDeleteVodSource,
-    DeleteVodSourceResponse,
+    DeleteVodSourceResponse (DeleteVodSourceResponse'),
     newDeleteVodSourceResponse,
 
     -- ** DescribeChannel
-    DescribeChannel,
+    DescribeChannel (DescribeChannel'),
     newDescribeChannel,
-    DescribeChannelResponse,
+    DescribeChannelResponse (DescribeChannelResponse'),
     newDescribeChannelResponse,
 
     -- ** DescribeLiveSource
-    DescribeLiveSource,
+    DescribeLiveSource (DescribeLiveSource'),
     newDescribeLiveSource,
-    DescribeLiveSourceResponse,
+    DescribeLiveSourceResponse (DescribeLiveSourceResponse'),
     newDescribeLiveSourceResponse,
 
     -- ** DescribeProgram
-    DescribeProgram,
+    DescribeProgram (DescribeProgram'),
     newDescribeProgram,
-    DescribeProgramResponse,
+    DescribeProgramResponse (DescribeProgramResponse'),
     newDescribeProgramResponse,
 
     -- ** DescribeSourceLocation
-    DescribeSourceLocation,
+    DescribeSourceLocation (DescribeSourceLocation'),
     newDescribeSourceLocation,
-    DescribeSourceLocationResponse,
+    DescribeSourceLocationResponse (DescribeSourceLocationResponse'),
     newDescribeSourceLocationResponse,
 
     -- ** DescribeVodSource
-    DescribeVodSource,
+    DescribeVodSource (DescribeVodSource'),
     newDescribeVodSource,
-    DescribeVodSourceResponse,
+    DescribeVodSourceResponse (DescribeVodSourceResponse'),
     newDescribeVodSourceResponse,
 
     -- ** GetChannelPolicy
-    GetChannelPolicy,
+    GetChannelPolicy (GetChannelPolicy'),
     newGetChannelPolicy,
-    GetChannelPolicyResponse,
+    GetChannelPolicyResponse (GetChannelPolicyResponse'),
     newGetChannelPolicyResponse,
 
     -- ** GetChannelSchedule (Paginated)
-    GetChannelSchedule,
+    GetChannelSchedule (GetChannelSchedule'),
     newGetChannelSchedule,
-    GetChannelScheduleResponse,
+    GetChannelScheduleResponse (GetChannelScheduleResponse'),
     newGetChannelScheduleResponse,
 
     -- ** GetPlaybackConfiguration
-    GetPlaybackConfiguration,
+    GetPlaybackConfiguration (GetPlaybackConfiguration'),
     newGetPlaybackConfiguration,
-    GetPlaybackConfigurationResponse,
+    GetPlaybackConfigurationResponse (GetPlaybackConfigurationResponse'),
     newGetPlaybackConfigurationResponse,
 
     -- ** GetPrefetchSchedule
-    GetPrefetchSchedule,
+    GetPrefetchSchedule (GetPrefetchSchedule'),
     newGetPrefetchSchedule,
-    GetPrefetchScheduleResponse,
+    GetPrefetchScheduleResponse (GetPrefetchScheduleResponse'),
     newGetPrefetchScheduleResponse,
 
     -- ** ListAlerts (Paginated)
-    ListAlerts,
+    ListAlerts (ListAlerts'),
     newListAlerts,
-    ListAlertsResponse,
+    ListAlertsResponse (ListAlertsResponse'),
     newListAlertsResponse,
 
     -- ** ListChannels (Paginated)
-    ListChannels,
+    ListChannels (ListChannels'),
     newListChannels,
-    ListChannelsResponse,
+    ListChannelsResponse (ListChannelsResponse'),
     newListChannelsResponse,
 
     -- ** ListLiveSources (Paginated)
-    ListLiveSources,
+    ListLiveSources (ListLiveSources'),
     newListLiveSources,
-    ListLiveSourcesResponse,
+    ListLiveSourcesResponse (ListLiveSourcesResponse'),
     newListLiveSourcesResponse,
 
     -- ** ListPlaybackConfigurations (Paginated)
-    ListPlaybackConfigurations,
+    ListPlaybackConfigurations (ListPlaybackConfigurations'),
     newListPlaybackConfigurations,
-    ListPlaybackConfigurationsResponse,
+    ListPlaybackConfigurationsResponse (ListPlaybackConfigurationsResponse'),
     newListPlaybackConfigurationsResponse,
 
     -- ** ListPrefetchSchedules (Paginated)
-    ListPrefetchSchedules,
+    ListPrefetchSchedules (ListPrefetchSchedules'),
     newListPrefetchSchedules,
-    ListPrefetchSchedulesResponse,
+    ListPrefetchSchedulesResponse (ListPrefetchSchedulesResponse'),
     newListPrefetchSchedulesResponse,
 
     -- ** ListSourceLocations (Paginated)
-    ListSourceLocations,
+    ListSourceLocations (ListSourceLocations'),
     newListSourceLocations,
-    ListSourceLocationsResponse,
+    ListSourceLocationsResponse (ListSourceLocationsResponse'),
     newListSourceLocationsResponse,
 
     -- ** ListTagsForResource
-    ListTagsForResource,
+    ListTagsForResource (ListTagsForResource'),
     newListTagsForResource,
-    ListTagsForResourceResponse,
+    ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
 
     -- ** ListVodSources (Paginated)
-    ListVodSources,
+    ListVodSources (ListVodSources'),
     newListVodSources,
-    ListVodSourcesResponse,
+    ListVodSourcesResponse (ListVodSourcesResponse'),
     newListVodSourcesResponse,
 
     -- ** PutChannelPolicy
-    PutChannelPolicy,
+    PutChannelPolicy (PutChannelPolicy'),
     newPutChannelPolicy,
-    PutChannelPolicyResponse,
+    PutChannelPolicyResponse (PutChannelPolicyResponse'),
     newPutChannelPolicyResponse,
 
     -- ** PutPlaybackConfiguration
-    PutPlaybackConfiguration,
+    PutPlaybackConfiguration (PutPlaybackConfiguration'),
     newPutPlaybackConfiguration,
-    PutPlaybackConfigurationResponse,
+    PutPlaybackConfigurationResponse (PutPlaybackConfigurationResponse'),
     newPutPlaybackConfigurationResponse,
 
     -- ** StartChannel
-    StartChannel,
+    StartChannel (StartChannel'),
     newStartChannel,
-    StartChannelResponse,
+    StartChannelResponse (StartChannelResponse'),
     newStartChannelResponse,
 
     -- ** StopChannel
-    StopChannel,
+    StopChannel (StopChannel'),
     newStopChannel,
-    StopChannelResponse,
+    StopChannelResponse (StopChannelResponse'),
     newStopChannelResponse,
 
     -- ** TagResource
-    TagResource,
+    TagResource (TagResource'),
     newTagResource,
-    TagResourceResponse,
+    TagResourceResponse (TagResourceResponse'),
     newTagResourceResponse,
 
     -- ** UntagResource
-    UntagResource,
+    UntagResource (UntagResource'),
     newUntagResource,
-    UntagResourceResponse,
+    UntagResourceResponse (UntagResourceResponse'),
     newUntagResourceResponse,
 
     -- ** UpdateChannel
-    UpdateChannel,
+    UpdateChannel (UpdateChannel'),
     newUpdateChannel,
-    UpdateChannelResponse,
+    UpdateChannelResponse (UpdateChannelResponse'),
     newUpdateChannelResponse,
 
     -- ** UpdateLiveSource
-    UpdateLiveSource,
+    UpdateLiveSource (UpdateLiveSource'),
     newUpdateLiveSource,
-    UpdateLiveSourceResponse,
+    UpdateLiveSourceResponse (UpdateLiveSourceResponse'),
     newUpdateLiveSourceResponse,
 
     -- ** UpdateSourceLocation
-    UpdateSourceLocation,
+    UpdateSourceLocation (UpdateSourceLocation'),
     newUpdateSourceLocation,
-    UpdateSourceLocationResponse,
+    UpdateSourceLocationResponse (UpdateSourceLocationResponse'),
     newUpdateSourceLocationResponse,
 
     -- ** UpdateVodSource
-    UpdateVodSource,
+    UpdateVodSource (UpdateVodSource'),
     newUpdateVodSource,
-    UpdateVodSourceResponse,
+    UpdateVodSourceResponse (UpdateVodSourceResponse'),
     newUpdateVodSourceResponse,
 
     -- * Types
@@ -327,159 +327,159 @@ module Amazonka.MediaTailor
     Type (..),
 
     -- ** AccessConfiguration
-    AccessConfiguration,
+    AccessConfiguration (AccessConfiguration'),
     newAccessConfiguration,
 
     -- ** AdBreak
-    AdBreak,
+    AdBreak (AdBreak'),
     newAdBreak,
 
     -- ** AdMarkerPassthrough
-    AdMarkerPassthrough,
+    AdMarkerPassthrough (AdMarkerPassthrough'),
     newAdMarkerPassthrough,
 
     -- ** Alert
-    Alert,
+    Alert (Alert'),
     newAlert,
 
     -- ** AvailMatchingCriteria
-    AvailMatchingCriteria,
+    AvailMatchingCriteria (AvailMatchingCriteria'),
     newAvailMatchingCriteria,
 
     -- ** AvailSuppression
-    AvailSuppression,
+    AvailSuppression (AvailSuppression'),
     newAvailSuppression,
 
     -- ** Bumper
-    Bumper,
+    Bumper (Bumper'),
     newBumper,
 
     -- ** CdnConfiguration
-    CdnConfiguration,
+    CdnConfiguration (CdnConfiguration'),
     newCdnConfiguration,
 
     -- ** Channel
-    Channel,
+    Channel (Channel'),
     newChannel,
 
     -- ** DashConfiguration
-    DashConfiguration,
+    DashConfiguration (DashConfiguration'),
     newDashConfiguration,
 
     -- ** DashConfigurationForPut
-    DashConfigurationForPut,
+    DashConfigurationForPut (DashConfigurationForPut'),
     newDashConfigurationForPut,
 
     -- ** DashPlaylistSettings
-    DashPlaylistSettings,
+    DashPlaylistSettings (DashPlaylistSettings'),
     newDashPlaylistSettings,
 
     -- ** DefaultSegmentDeliveryConfiguration
-    DefaultSegmentDeliveryConfiguration,
+    DefaultSegmentDeliveryConfiguration (DefaultSegmentDeliveryConfiguration'),
     newDefaultSegmentDeliveryConfiguration,
 
     -- ** HlsConfiguration
-    HlsConfiguration,
+    HlsConfiguration (HlsConfiguration'),
     newHlsConfiguration,
 
     -- ** HlsPlaylistSettings
-    HlsPlaylistSettings,
+    HlsPlaylistSettings (HlsPlaylistSettings'),
     newHlsPlaylistSettings,
 
     -- ** HttpConfiguration
-    HttpConfiguration,
+    HttpConfiguration (HttpConfiguration'),
     newHttpConfiguration,
 
     -- ** HttpPackageConfiguration
-    HttpPackageConfiguration,
+    HttpPackageConfiguration (HttpPackageConfiguration'),
     newHttpPackageConfiguration,
 
     -- ** LivePreRollConfiguration
-    LivePreRollConfiguration,
+    LivePreRollConfiguration (LivePreRollConfiguration'),
     newLivePreRollConfiguration,
 
     -- ** LiveSource
-    LiveSource,
+    LiveSource (LiveSource'),
     newLiveSource,
 
     -- ** LogConfiguration
-    LogConfiguration,
+    LogConfiguration (LogConfiguration'),
     newLogConfiguration,
 
     -- ** ManifestProcessingRules
-    ManifestProcessingRules,
+    ManifestProcessingRules (ManifestProcessingRules'),
     newManifestProcessingRules,
 
     -- ** PlaybackConfiguration
-    PlaybackConfiguration,
+    PlaybackConfiguration (PlaybackConfiguration'),
     newPlaybackConfiguration,
 
     -- ** PrefetchConsumption
-    PrefetchConsumption,
+    PrefetchConsumption (PrefetchConsumption'),
     newPrefetchConsumption,
 
     -- ** PrefetchRetrieval
-    PrefetchRetrieval,
+    PrefetchRetrieval (PrefetchRetrieval'),
     newPrefetchRetrieval,
 
     -- ** PrefetchSchedule
-    PrefetchSchedule,
+    PrefetchSchedule (PrefetchSchedule'),
     newPrefetchSchedule,
 
     -- ** RequestOutputItem
-    RequestOutputItem,
+    RequestOutputItem (RequestOutputItem'),
     newRequestOutputItem,
 
     -- ** ResponseOutputItem
-    ResponseOutputItem,
+    ResponseOutputItem (ResponseOutputItem'),
     newResponseOutputItem,
 
     -- ** ScheduleAdBreak
-    ScheduleAdBreak,
+    ScheduleAdBreak (ScheduleAdBreak'),
     newScheduleAdBreak,
 
     -- ** ScheduleConfiguration
-    ScheduleConfiguration,
+    ScheduleConfiguration (ScheduleConfiguration'),
     newScheduleConfiguration,
 
     -- ** ScheduleEntry
-    ScheduleEntry,
+    ScheduleEntry (ScheduleEntry'),
     newScheduleEntry,
 
     -- ** SecretsManagerAccessTokenConfiguration
-    SecretsManagerAccessTokenConfiguration,
+    SecretsManagerAccessTokenConfiguration (SecretsManagerAccessTokenConfiguration'),
     newSecretsManagerAccessTokenConfiguration,
 
     -- ** SegmentDeliveryConfiguration
-    SegmentDeliveryConfiguration,
+    SegmentDeliveryConfiguration (SegmentDeliveryConfiguration'),
     newSegmentDeliveryConfiguration,
 
     -- ** SegmentationDescriptor
-    SegmentationDescriptor,
+    SegmentationDescriptor (SegmentationDescriptor'),
     newSegmentationDescriptor,
 
     -- ** SlateSource
-    SlateSource,
+    SlateSource (SlateSource'),
     newSlateSource,
 
     -- ** SourceLocation
-    SourceLocation,
+    SourceLocation (SourceLocation'),
     newSourceLocation,
 
     -- ** SpliceInsertMessage
-    SpliceInsertMessage,
+    SpliceInsertMessage (SpliceInsertMessage'),
     newSpliceInsertMessage,
 
     -- ** TimeSignalMessage
-    TimeSignalMessage,
+    TimeSignalMessage (TimeSignalMessage'),
     newTimeSignalMessage,
 
     -- ** Transition
-    Transition,
+    Transition (Transition'),
     newTransition,
 
     -- ** VodSource
-    VodSource,
+    VodSource (VodSource'),
     newVodSource,
   )
 where

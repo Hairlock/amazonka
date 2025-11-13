@@ -94,51 +94,51 @@ module Amazonka.CloudControl
     -- $operations
 
     -- ** CancelResourceRequest
-    CancelResourceRequest,
+    CancelResourceRequest (CancelResourceRequest'),
     newCancelResourceRequest,
-    CancelResourceRequestResponse,
+    CancelResourceRequestResponse (CancelResourceRequestResponse'),
     newCancelResourceRequestResponse,
 
     -- ** CreateResource
-    CreateResource,
+    CreateResource (CreateResource'),
     newCreateResource,
-    CreateResourceResponse,
+    CreateResourceResponse (CreateResourceResponse'),
     newCreateResourceResponse,
 
     -- ** DeleteResource
-    DeleteResource,
+    DeleteResource (DeleteResource'),
     newDeleteResource,
-    DeleteResourceResponse,
+    DeleteResourceResponse (DeleteResourceResponse'),
     newDeleteResourceResponse,
 
     -- ** GetResource
-    GetResource,
+    GetResource (GetResource'),
     newGetResource,
-    GetResourceResponse,
+    GetResourceResponse (GetResourceResponse'),
     newGetResourceResponse,
 
     -- ** GetResourceRequestStatus
-    GetResourceRequestStatus,
+    GetResourceRequestStatus (GetResourceRequestStatus'),
     newGetResourceRequestStatus,
-    GetResourceRequestStatusResponse,
+    GetResourceRequestStatusResponse (GetResourceRequestStatusResponse'),
     newGetResourceRequestStatusResponse,
 
     -- ** ListResourceRequests (Paginated)
-    ListResourceRequests,
+    ListResourceRequests (ListResourceRequests'),
     newListResourceRequests,
-    ListResourceRequestsResponse,
+    ListResourceRequestsResponse (ListResourceRequestsResponse'),
     newListResourceRequestsResponse,
 
     -- ** ListResources (Paginated)
-    ListResources,
+    ListResources (ListResources'),
     newListResources,
-    ListResourcesResponse,
+    ListResourcesResponse (ListResourcesResponse'),
     newListResourcesResponse,
 
     -- ** UpdateResource
-    UpdateResource,
+    UpdateResource (UpdateResource'),
     newUpdateResource,
-    UpdateResourceResponse,
+    UpdateResourceResponse (UpdateResourceResponse'),
     newUpdateResourceResponse,
 
     -- * Types
@@ -153,15 +153,15 @@ module Amazonka.CloudControl
     OperationStatus (..),
 
     -- ** ProgressEvent
-    ProgressEvent,
+    ProgressEvent (ProgressEvent'),
     newProgressEvent,
 
     -- ** ResourceDescription
-    ResourceDescription,
+    ResourceDescription (ResourceDescription'),
     newResourceDescription,
 
     -- ** ResourceRequestStatusFilter
-    ResourceRequestStatusFilter,
+    ResourceRequestStatusFilter (ResourceRequestStatusFilter'),
     newResourceRequestStatusFilter,
   )
 where

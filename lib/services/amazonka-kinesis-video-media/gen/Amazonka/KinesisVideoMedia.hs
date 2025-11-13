@@ -42,9 +42,9 @@ module Amazonka.KinesisVideoMedia
     -- $operations
 
     -- ** GetMedia
-    GetMedia,
+    GetMedia (GetMedia'),
     newGetMedia,
-    GetMediaResponse,
+    GetMediaResponse (GetMediaResponse'),
     newGetMediaResponse,
 
     -- * Types
@@ -53,7 +53,7 @@ module Amazonka.KinesisVideoMedia
     StartSelectorType (..),
 
     -- ** StartSelector
-    StartSelector,
+    StartSelector (StartSelector'),
     newStartSelector,
   )
 where

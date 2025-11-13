@@ -120,165 +120,165 @@ module Amazonka.CodeStar
     -- $operations
 
     -- ** AssociateTeamMember
-    AssociateTeamMember,
+    AssociateTeamMember (AssociateTeamMember'),
     newAssociateTeamMember,
-    AssociateTeamMemberResponse,
+    AssociateTeamMemberResponse (AssociateTeamMemberResponse'),
     newAssociateTeamMemberResponse,
 
     -- ** CreateProject
-    CreateProject,
+    CreateProject (CreateProject'),
     newCreateProject,
-    CreateProjectResponse,
+    CreateProjectResponse (CreateProjectResponse'),
     newCreateProjectResponse,
 
     -- ** CreateUserProfile
-    CreateUserProfile,
+    CreateUserProfile (CreateUserProfile'),
     newCreateUserProfile,
-    CreateUserProfileResponse,
+    CreateUserProfileResponse (CreateUserProfileResponse'),
     newCreateUserProfileResponse,
 
     -- ** DeleteProject
-    DeleteProject,
+    DeleteProject (DeleteProject'),
     newDeleteProject,
-    DeleteProjectResponse,
+    DeleteProjectResponse (DeleteProjectResponse'),
     newDeleteProjectResponse,
 
     -- ** DeleteUserProfile
-    DeleteUserProfile,
+    DeleteUserProfile (DeleteUserProfile'),
     newDeleteUserProfile,
-    DeleteUserProfileResponse,
+    DeleteUserProfileResponse (DeleteUserProfileResponse'),
     newDeleteUserProfileResponse,
 
     -- ** DescribeProject
-    DescribeProject,
+    DescribeProject (DescribeProject'),
     newDescribeProject,
-    DescribeProjectResponse,
+    DescribeProjectResponse (DescribeProjectResponse'),
     newDescribeProjectResponse,
 
     -- ** DescribeUserProfile
-    DescribeUserProfile,
+    DescribeUserProfile (DescribeUserProfile'),
     newDescribeUserProfile,
-    DescribeUserProfileResponse,
+    DescribeUserProfileResponse (DescribeUserProfileResponse'),
     newDescribeUserProfileResponse,
 
     -- ** DisassociateTeamMember
-    DisassociateTeamMember,
+    DisassociateTeamMember (DisassociateTeamMember'),
     newDisassociateTeamMember,
-    DisassociateTeamMemberResponse,
+    DisassociateTeamMemberResponse (DisassociateTeamMemberResponse'),
     newDisassociateTeamMemberResponse,
 
     -- ** ListProjects (Paginated)
-    ListProjects,
+    ListProjects (ListProjects'),
     newListProjects,
-    ListProjectsResponse,
+    ListProjectsResponse (ListProjectsResponse'),
     newListProjectsResponse,
 
     -- ** ListResources (Paginated)
-    ListResources,
+    ListResources (ListResources'),
     newListResources,
-    ListResourcesResponse,
+    ListResourcesResponse (ListResourcesResponse'),
     newListResourcesResponse,
 
     -- ** ListTagsForProject
-    ListTagsForProject,
+    ListTagsForProject (ListTagsForProject'),
     newListTagsForProject,
-    ListTagsForProjectResponse,
+    ListTagsForProjectResponse (ListTagsForProjectResponse'),
     newListTagsForProjectResponse,
 
     -- ** ListTeamMembers (Paginated)
-    ListTeamMembers,
+    ListTeamMembers (ListTeamMembers'),
     newListTeamMembers,
-    ListTeamMembersResponse,
+    ListTeamMembersResponse (ListTeamMembersResponse'),
     newListTeamMembersResponse,
 
     -- ** ListUserProfiles (Paginated)
-    ListUserProfiles,
+    ListUserProfiles (ListUserProfiles'),
     newListUserProfiles,
-    ListUserProfilesResponse,
+    ListUserProfilesResponse (ListUserProfilesResponse'),
     newListUserProfilesResponse,
 
     -- ** TagProject
-    TagProject,
+    TagProject (TagProject'),
     newTagProject,
-    TagProjectResponse,
+    TagProjectResponse (TagProjectResponse'),
     newTagProjectResponse,
 
     -- ** UntagProject
-    UntagProject,
+    UntagProject (UntagProject'),
     newUntagProject,
-    UntagProjectResponse,
+    UntagProjectResponse (UntagProjectResponse'),
     newUntagProjectResponse,
 
     -- ** UpdateProject
-    UpdateProject,
+    UpdateProject (UpdateProject'),
     newUpdateProject,
-    UpdateProjectResponse,
+    UpdateProjectResponse (UpdateProjectResponse'),
     newUpdateProjectResponse,
 
     -- ** UpdateTeamMember
-    UpdateTeamMember,
+    UpdateTeamMember (UpdateTeamMember'),
     newUpdateTeamMember,
-    UpdateTeamMemberResponse,
+    UpdateTeamMemberResponse (UpdateTeamMemberResponse'),
     newUpdateTeamMemberResponse,
 
     -- ** UpdateUserProfile
-    UpdateUserProfile,
+    UpdateUserProfile (UpdateUserProfile'),
     newUpdateUserProfile,
-    UpdateUserProfileResponse,
+    UpdateUserProfileResponse (UpdateUserProfileResponse'),
     newUpdateUserProfileResponse,
 
     -- * Types
 
     -- ** Code
-    Code,
+    Code (Code'),
     newCode,
 
     -- ** CodeCommitCodeDestination
-    CodeCommitCodeDestination,
+    CodeCommitCodeDestination (CodeCommitCodeDestination'),
     newCodeCommitCodeDestination,
 
     -- ** CodeDestination
-    CodeDestination,
+    CodeDestination (CodeDestination'),
     newCodeDestination,
 
     -- ** CodeSource
-    CodeSource,
+    CodeSource (CodeSource'),
     newCodeSource,
 
     -- ** GitHubCodeDestination
-    GitHubCodeDestination,
+    GitHubCodeDestination (GitHubCodeDestination'),
     newGitHubCodeDestination,
 
     -- ** ProjectStatus
-    ProjectStatus,
+    ProjectStatus (ProjectStatus'),
     newProjectStatus,
 
     -- ** ProjectSummary
-    ProjectSummary,
+    ProjectSummary (ProjectSummary'),
     newProjectSummary,
 
     -- ** Resource
-    Resource,
+    Resource (Resource'),
     newResource,
 
     -- ** S3Location
-    S3Location,
+    S3Location (S3Location'),
     newS3Location,
 
     -- ** TeamMember
-    TeamMember,
+    TeamMember (TeamMember'),
     newTeamMember,
 
     -- ** Toolchain
-    Toolchain,
+    Toolchain (Toolchain'),
     newToolchain,
 
     -- ** ToolchainSource
-    ToolchainSource,
+    ToolchainSource (ToolchainSource'),
     newToolchainSource,
 
     -- ** UserProfileSummary
-    UserProfileSummary,
+    UserProfileSummary (UserProfileSummary'),
     newUserProfileSummary,
   )
 where
