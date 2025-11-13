@@ -16,7 +16,13 @@ import Amazonka.Data.Time (Time (..))
 import Amazonka.Env (Env, Env' (..))
 import Amazonka.Prelude
 import Amazonka.SSO.GetRoleCredentials as SSO
-import qualified Amazonka.SSO.Types as SSO (RoleCredentials (..))
+import qualified Amazonka.SSO.Types as SSO
+  ( RoleCredentials (..),
+    roleCredentials_accessKeyId,
+    roleCredentials_expiration,
+    roleCredentials_secretAccessKey,
+    roleCredentials_sessionToken,
+  )
 import Amazonka.Send (sendUnsigned)
 import Amazonka.Types
 import Control.Exception (IOException)
@@ -122,9 +128,9 @@ readCachedAccessToken p = liftIO $
             ]
 
 roleCredentialsToAuthEnv :: SSO.RoleCredentials -> AuthEnv
-roleCredentialsToAuthEnv (SSO.RoleCredentials' {accessKeyId, secretAccessKey, sessionToken, expiration}) =
+roleCredentialsToAuthEnv creds =
   AuthEnv
-    accessKeyId
-    secretAccessKey
-    sessionToken
-    (Time . posixSecondsToUTCTime . fromInteger <$> expiration)
+    (creds ^. SSO.roleCredentials_accessKeyId)
+    (creds ^. SSO.roleCredentials_secretAccessKey)
+    (creds ^. SSO.roleCredentials_sessionToken)
+    (Time . posixSecondsToUTCTime . fromInteger <$> (creds ^. SSO.roleCredentials_expiration))
