@@ -28,19 +28,19 @@ module Amazonka.AMP.Types
     _ValidationException,
 
     -- * AlertManagerDefinitionStatusCode
-    AlertManagerDefinitionStatusCode,
+    AlertManagerDefinitionStatusCode (AlertManagerDefinitionStatusCode'),
 
     -- * LoggingConfigurationStatusCode
-    LoggingConfigurationStatusCode,
+    LoggingConfigurationStatusCode (LoggingConfigurationStatusCode'),
 
     -- * RuleGroupsNamespaceStatusCode
-    RuleGroupsNamespaceStatusCode,
+    RuleGroupsNamespaceStatusCode (RuleGroupsNamespaceStatusCode'),
 
     -- * WorkspaceStatusCode
-    WorkspaceStatusCode,
+    WorkspaceStatusCode (WorkspaceStatusCode'),
 
     -- * AlertManagerDefinitionDescription
-    AlertManagerDefinitionDescription,
+    AlertManagerDefinitionDescription (AlertManagerDefinitionDescription'),
     newAlertManagerDefinitionDescription,
     alertManagerDefinitionDescription_createdAt,
     alertManagerDefinitionDescription_data,
@@ -48,13 +48,13 @@ module Amazonka.AMP.Types
     alertManagerDefinitionDescription_status,
 
     -- * AlertManagerDefinitionStatus
-    AlertManagerDefinitionStatus,
+    AlertManagerDefinitionStatus (AlertManagerDefinitionStatus'),
     newAlertManagerDefinitionStatus,
     alertManagerDefinitionStatus_statusReason,
     alertManagerDefinitionStatus_statusCode,
 
     -- * LoggingConfigurationMetadata
-    LoggingConfigurationMetadata,
+    LoggingConfigurationMetadata (LoggingConfigurationMetadata'),
     newLoggingConfigurationMetadata,
     loggingConfigurationMetadata_createdAt,
     loggingConfigurationMetadata_logGroupArn,
@@ -63,13 +63,13 @@ module Amazonka.AMP.Types
     loggingConfigurationMetadata_workspace,
 
     -- * LoggingConfigurationStatus
-    LoggingConfigurationStatus,
+    LoggingConfigurationStatus (LoggingConfigurationStatus'),
     newLoggingConfigurationStatus,
     loggingConfigurationStatus_statusReason,
     loggingConfigurationStatus_statusCode,
 
     -- * RuleGroupsNamespaceDescription
-    RuleGroupsNamespaceDescription,
+    RuleGroupsNamespaceDescription (RuleGroupsNamespaceDescription'),
     newRuleGroupsNamespaceDescription,
     ruleGroupsNamespaceDescription_tags,
     ruleGroupsNamespaceDescription_arn,
@@ -80,13 +80,13 @@ module Amazonka.AMP.Types
     ruleGroupsNamespaceDescription_status,
 
     -- * RuleGroupsNamespaceStatus
-    RuleGroupsNamespaceStatus,
+    RuleGroupsNamespaceStatus (RuleGroupsNamespaceStatus'),
     newRuleGroupsNamespaceStatus,
     ruleGroupsNamespaceStatus_statusReason,
     ruleGroupsNamespaceStatus_statusCode,
 
     -- * RuleGroupsNamespaceSummary
-    RuleGroupsNamespaceSummary,
+    RuleGroupsNamespaceSummary (RuleGroupsNamespaceSummary'),
     newRuleGroupsNamespaceSummary,
     ruleGroupsNamespaceSummary_tags,
     ruleGroupsNamespaceSummary_arn,
@@ -96,7 +96,7 @@ module Amazonka.AMP.Types
     ruleGroupsNamespaceSummary_status,
 
     -- * WorkspaceDescription
-    WorkspaceDescription,
+    WorkspaceDescription (WorkspaceDescription'),
     newWorkspaceDescription,
     workspaceDescription_alias,
     workspaceDescription_prometheusEndpoint,
@@ -107,12 +107,12 @@ module Amazonka.AMP.Types
     workspaceDescription_workspaceId,
 
     -- * WorkspaceStatus
-    WorkspaceStatus,
+    WorkspaceStatus (WorkspaceStatus'),
     newWorkspaceStatus,
     workspaceStatus_statusCode,
 
     -- * WorkspaceSummary
-    WorkspaceSummary,
+    WorkspaceSummary (WorkspaceSummary'),
     newWorkspaceSummary,
     workspaceSummary_alias,
     workspaceSummary_tags,

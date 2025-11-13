@@ -28,95 +28,95 @@ module Amazonka.PinpointSmsVoiceV2.Types
     _ValidationException,
 
     -- * AccountAttributeName
-    AccountAttributeName,
+    AccountAttributeName (AccountAttributeName'),
 
     -- * AccountLimitName
-    AccountLimitName,
+    AccountLimitName (AccountLimitName'),
 
     -- * ConfigurationSetFilterName
-    ConfigurationSetFilterName,
+    ConfigurationSetFilterName (ConfigurationSetFilterName'),
 
     -- * DestinationCountryParameterKey
-    DestinationCountryParameterKey,
+    DestinationCountryParameterKey (DestinationCountryParameterKey'),
 
     -- * EventType
-    EventType,
+    EventType (EventType'),
 
     -- * KeywordAction
-    KeywordAction,
+    KeywordAction (KeywordAction'),
 
     -- * KeywordFilterName
-    KeywordFilterName,
+    KeywordFilterName (KeywordFilterName'),
 
     -- * MessageType
-    MessageType,
+    MessageType (MessageType'),
 
     -- * NumberCapability
-    NumberCapability,
+    NumberCapability (NumberCapability'),
 
     -- * NumberStatus
-    NumberStatus,
+    NumberStatus (NumberStatus'),
 
     -- * NumberType
-    NumberType,
+    NumberType (NumberType'),
 
     -- * OptedOutFilterName
-    OptedOutFilterName,
+    OptedOutFilterName (OptedOutFilterName'),
 
     -- * PhoneNumberFilterName
-    PhoneNumberFilterName,
+    PhoneNumberFilterName (PhoneNumberFilterName'),
 
     -- * PoolFilterName
-    PoolFilterName,
+    PoolFilterName (PoolFilterName'),
 
     -- * PoolOriginationIdentitiesFilterName
-    PoolOriginationIdentitiesFilterName,
+    PoolOriginationIdentitiesFilterName (PoolOriginationIdentitiesFilterName'),
 
     -- * PoolStatus
-    PoolStatus,
+    PoolStatus (PoolStatus'),
 
     -- * RequestableNumberType
-    RequestableNumberType,
+    RequestableNumberType (RequestableNumberType'),
 
     -- * SenderIdFilterName
-    SenderIdFilterName,
+    SenderIdFilterName (SenderIdFilterName'),
 
     -- * SpendLimitName
-    SpendLimitName,
+    SpendLimitName (SpendLimitName'),
 
     -- * VoiceId
-    VoiceId,
+    VoiceId (VoiceId'),
 
     -- * VoiceMessageBodyTextType
-    VoiceMessageBodyTextType,
+    VoiceMessageBodyTextType (VoiceMessageBodyTextType'),
 
     -- * AccountAttribute
-    AccountAttribute,
+    AccountAttribute (AccountAttribute'),
     newAccountAttribute,
     accountAttribute_name,
     accountAttribute_value,
 
     -- * AccountLimit
-    AccountLimit,
+    AccountLimit (AccountLimit'),
     newAccountLimit,
     accountLimit_name,
     accountLimit_used,
     accountLimit_max,
 
     -- * CloudWatchLogsDestination
-    CloudWatchLogsDestination,
+    CloudWatchLogsDestination (CloudWatchLogsDestination'),
     newCloudWatchLogsDestination,
     cloudWatchLogsDestination_iamRoleArn,
     cloudWatchLogsDestination_logGroupArn,
 
     -- * ConfigurationSetFilter
-    ConfigurationSetFilter,
+    ConfigurationSetFilter (ConfigurationSetFilter'),
     newConfigurationSetFilter,
     configurationSetFilter_name,
     configurationSetFilter_values,
 
     -- * ConfigurationSetInformation
-    ConfigurationSetInformation,
+    ConfigurationSetInformation (ConfigurationSetInformation'),
     newConfigurationSetInformation,
     configurationSetInformation_defaultMessageType,
     configurationSetInformation_defaultSenderId,
@@ -126,7 +126,7 @@ module Amazonka.PinpointSmsVoiceV2.Types
     configurationSetInformation_createdTimestamp,
 
     -- * EventDestination
-    EventDestination,
+    EventDestination (EventDestination'),
     newEventDestination,
     eventDestination_cloudWatchLogsDestination,
     eventDestination_kinesisFirehoseDestination,
@@ -136,46 +136,46 @@ module Amazonka.PinpointSmsVoiceV2.Types
     eventDestination_matchingEventTypes,
 
     -- * KeywordFilter
-    KeywordFilter,
+    KeywordFilter (KeywordFilter'),
     newKeywordFilter,
     keywordFilter_name,
     keywordFilter_values,
 
     -- * KeywordInformation
-    KeywordInformation,
+    KeywordInformation (KeywordInformation'),
     newKeywordInformation,
     keywordInformation_keyword,
     keywordInformation_keywordMessage,
     keywordInformation_keywordAction,
 
     -- * KinesisFirehoseDestination
-    KinesisFirehoseDestination,
+    KinesisFirehoseDestination (KinesisFirehoseDestination'),
     newKinesisFirehoseDestination,
     kinesisFirehoseDestination_iamRoleArn,
     kinesisFirehoseDestination_deliveryStreamArn,
 
     -- * OptOutListInformation
-    OptOutListInformation,
+    OptOutListInformation (OptOutListInformation'),
     newOptOutListInformation,
     optOutListInformation_optOutListArn,
     optOutListInformation_optOutListName,
     optOutListInformation_createdTimestamp,
 
     -- * OptedOutFilter
-    OptedOutFilter,
+    OptedOutFilter (OptedOutFilter'),
     newOptedOutFilter,
     optedOutFilter_name,
     optedOutFilter_values,
 
     -- * OptedOutNumberInformation
-    OptedOutNumberInformation,
+    OptedOutNumberInformation (OptedOutNumberInformation'),
     newOptedOutNumberInformation,
     optedOutNumberInformation_optedOutNumber,
     optedOutNumberInformation_optedOutTimestamp,
     optedOutNumberInformation_endUserOptedOut,
 
     -- * OriginationIdentityMetadata
-    OriginationIdentityMetadata,
+    OriginationIdentityMetadata (OriginationIdentityMetadata'),
     newOriginationIdentityMetadata,
     originationIdentityMetadata_originationIdentityArn,
     originationIdentityMetadata_originationIdentity,
@@ -183,13 +183,13 @@ module Amazonka.PinpointSmsVoiceV2.Types
     originationIdentityMetadata_numberCapabilities,
 
     -- * PhoneNumberFilter
-    PhoneNumberFilter,
+    PhoneNumberFilter (PhoneNumberFilter'),
     newPhoneNumberFilter,
     phoneNumberFilter_name,
     phoneNumberFilter_values,
 
     -- * PhoneNumberInformation
-    PhoneNumberInformation,
+    PhoneNumberInformation (PhoneNumberInformation'),
     newPhoneNumberInformation,
     phoneNumberInformation_phoneNumberId,
     phoneNumberInformation_poolId,
@@ -209,13 +209,13 @@ module Amazonka.PinpointSmsVoiceV2.Types
     phoneNumberInformation_createdTimestamp,
 
     -- * PoolFilter
-    PoolFilter,
+    PoolFilter (PoolFilter'),
     newPoolFilter,
     poolFilter_name,
     poolFilter_values,
 
     -- * PoolInformation
-    PoolInformation,
+    PoolInformation (PoolInformation'),
     newPoolInformation,
     poolInformation_twoWayChannelArn,
     poolInformation_poolArn,
@@ -230,25 +230,25 @@ module Amazonka.PinpointSmsVoiceV2.Types
     poolInformation_createdTimestamp,
 
     -- * PoolOriginationIdentitiesFilter
-    PoolOriginationIdentitiesFilter,
+    PoolOriginationIdentitiesFilter (PoolOriginationIdentitiesFilter'),
     newPoolOriginationIdentitiesFilter,
     poolOriginationIdentitiesFilter_name,
     poolOriginationIdentitiesFilter_values,
 
     -- * SenderIdAndCountry
-    SenderIdAndCountry,
+    SenderIdAndCountry (SenderIdAndCountry'),
     newSenderIdAndCountry,
     senderIdAndCountry_senderId,
     senderIdAndCountry_isoCountryCode,
 
     -- * SenderIdFilter
-    SenderIdFilter,
+    SenderIdFilter (SenderIdFilter'),
     newSenderIdFilter,
     senderIdFilter_name,
     senderIdFilter_values,
 
     -- * SenderIdInformation
-    SenderIdInformation,
+    SenderIdInformation (SenderIdInformation'),
     newSenderIdInformation,
     senderIdInformation_senderIdArn,
     senderIdInformation_senderId,
@@ -257,12 +257,12 @@ module Amazonka.PinpointSmsVoiceV2.Types
     senderIdInformation_monthlyLeasingPrice,
 
     -- * SnsDestination
-    SnsDestination,
+    SnsDestination (SnsDestination'),
     newSnsDestination,
     snsDestination_topicArn,
 
     -- * SpendLimit
-    SpendLimit,
+    SpendLimit (SpendLimit'),
     newSpendLimit,
     spendLimit_name,
     spendLimit_enforcedLimit,
@@ -270,7 +270,7 @@ module Amazonka.PinpointSmsVoiceV2.Types
     spendLimit_overridden,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,

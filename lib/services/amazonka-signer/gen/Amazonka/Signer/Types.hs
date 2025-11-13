@@ -31,45 +31,45 @@ module Amazonka.Signer.Types
     _ValidationException,
 
     -- * Category
-    Category,
+    Category (Category'),
 
     -- * EncryptionAlgorithm
-    EncryptionAlgorithm,
+    EncryptionAlgorithm (EncryptionAlgorithm'),
 
     -- * HashAlgorithm
-    HashAlgorithm,
+    HashAlgorithm (HashAlgorithm'),
 
     -- * ImageFormat
-    ImageFormat,
+    ImageFormat (ImageFormat'),
 
     -- * SigningProfileStatus
-    SigningProfileStatus,
+    SigningProfileStatus (SigningProfileStatus'),
 
     -- * SigningStatus
-    SigningStatus,
+    SigningStatus (SigningStatus'),
 
     -- * ValidityType
-    ValidityType,
+    ValidityType (ValidityType'),
 
     -- * Destination
-    Destination,
+    Destination (Destination'),
     newDestination,
     destination_s3,
 
     -- * EncryptionAlgorithmOptions
-    EncryptionAlgorithmOptions,
+    EncryptionAlgorithmOptions (EncryptionAlgorithmOptions'),
     newEncryptionAlgorithmOptions,
     encryptionAlgorithmOptions_allowedValues,
     encryptionAlgorithmOptions_defaultValue,
 
     -- * HashAlgorithmOptions
-    HashAlgorithmOptions,
+    HashAlgorithmOptions (HashAlgorithmOptions'),
     newHashAlgorithmOptions,
     hashAlgorithmOptions_allowedValues,
     hashAlgorithmOptions_defaultValue,
 
     -- * Permission
-    Permission,
+    Permission (Permission'),
     newPermission,
     permission_action,
     permission_principal,
@@ -77,55 +77,55 @@ module Amazonka.Signer.Types
     permission_statementId,
 
     -- * S3Destination
-    S3Destination,
+    S3Destination (S3Destination'),
     newS3Destination,
     s3Destination_bucketName,
     s3Destination_prefix,
 
     -- * S3SignedObject
-    S3SignedObject,
+    S3SignedObject (S3SignedObject'),
     newS3SignedObject,
     s3SignedObject_bucketName,
     s3SignedObject_key,
 
     -- * S3Source
-    S3Source,
+    S3Source (S3Source'),
     newS3Source,
     s3Source_bucketName,
     s3Source_key,
     s3Source_version,
 
     -- * SignatureValidityPeriod
-    SignatureValidityPeriod,
+    SignatureValidityPeriod (SignatureValidityPeriod'),
     newSignatureValidityPeriod,
     signatureValidityPeriod_type,
     signatureValidityPeriod_value,
 
     -- * SignedObject
-    SignedObject,
+    SignedObject (SignedObject'),
     newSignedObject,
     signedObject_s3,
 
     -- * SigningConfiguration
-    SigningConfiguration,
+    SigningConfiguration (SigningConfiguration'),
     newSigningConfiguration,
     signingConfiguration_encryptionAlgorithmOptions,
     signingConfiguration_hashAlgorithmOptions,
 
     -- * SigningConfigurationOverrides
-    SigningConfigurationOverrides,
+    SigningConfigurationOverrides (SigningConfigurationOverrides'),
     newSigningConfigurationOverrides,
     signingConfigurationOverrides_encryptionAlgorithm,
     signingConfigurationOverrides_hashAlgorithm,
 
     -- * SigningImageFormat
-    SigningImageFormat,
+    SigningImageFormat (SigningImageFormat'),
     newSigningImageFormat,
     signingImageFormat_supportedFormats,
     signingImageFormat_defaultFormat,
 
     -- * SigningJob
-    SigningJob,
+    SigningJob (SigningJob'),
     newSigningJob,
     signingJob_createdAt,
     signingJob_isRevoked,
@@ -143,19 +143,19 @@ module Amazonka.Signer.Types
     signingJob_status,
 
     -- * SigningJobRevocationRecord
-    SigningJobRevocationRecord,
+    SigningJobRevocationRecord (SigningJobRevocationRecord'),
     newSigningJobRevocationRecord,
     signingJobRevocationRecord_reason,
     signingJobRevocationRecord_revokedAt,
     signingJobRevocationRecord_revokedBy,
 
     -- * SigningMaterial
-    SigningMaterial,
+    SigningMaterial (SigningMaterial'),
     newSigningMaterial,
     signingMaterial_certificateArn,
 
     -- * SigningPlatform
-    SigningPlatform,
+    SigningPlatform (SigningPlatform'),
     newSigningPlatform,
     signingPlatform_category,
     signingPlatform_displayName,
@@ -168,13 +168,13 @@ module Amazonka.Signer.Types
     signingPlatform_target,
 
     -- * SigningPlatformOverrides
-    SigningPlatformOverrides,
+    SigningPlatformOverrides (SigningPlatformOverrides'),
     newSigningPlatformOverrides,
     signingPlatformOverrides_signingConfiguration,
     signingPlatformOverrides_signingImageFormat,
 
     -- * SigningProfile
-    SigningProfile,
+    SigningProfile (SigningProfile'),
     newSigningProfile,
     signingProfile_arn,
     signingProfile_platformDisplayName,
@@ -189,14 +189,14 @@ module Amazonka.Signer.Types
     signingProfile_tags,
 
     -- * SigningProfileRevocationRecord
-    SigningProfileRevocationRecord,
+    SigningProfileRevocationRecord (SigningProfileRevocationRecord'),
     newSigningProfileRevocationRecord,
     signingProfileRevocationRecord_revocationEffectiveFrom,
     signingProfileRevocationRecord_revokedAt,
     signingProfileRevocationRecord_revokedBy,
 
     -- * Source
-    Source,
+    Source (Source'),
     newSource,
     source_s3,
   )

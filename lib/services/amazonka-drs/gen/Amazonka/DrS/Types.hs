@@ -29,105 +29,105 @@ module Amazonka.DrS.Types
     _ValidationException,
 
     -- * DataReplicationErrorString
-    DataReplicationErrorString,
+    DataReplicationErrorString (DataReplicationErrorString'),
 
     -- * DataReplicationInitiationStepName
-    DataReplicationInitiationStepName,
+    DataReplicationInitiationStepName (DataReplicationInitiationStepName'),
 
     -- * DataReplicationInitiationStepStatus
-    DataReplicationInitiationStepStatus,
+    DataReplicationInitiationStepStatus (DataReplicationInitiationStepStatus'),
 
     -- * DataReplicationState
-    DataReplicationState,
+    DataReplicationState (DataReplicationState'),
 
     -- * EC2InstanceState
-    EC2InstanceState,
+    EC2InstanceState (EC2InstanceState'),
 
     -- * ExtensionStatus
-    ExtensionStatus,
+    ExtensionStatus (ExtensionStatus'),
 
     -- * FailbackLaunchType
-    FailbackLaunchType,
+    FailbackLaunchType (FailbackLaunchType'),
 
     -- * FailbackReplicationError
-    FailbackReplicationError,
+    FailbackReplicationError (FailbackReplicationError'),
 
     -- * FailbackState
-    FailbackState,
+    FailbackState (FailbackState'),
 
     -- * InitiatedBy
-    InitiatedBy,
+    InitiatedBy (InitiatedBy'),
 
     -- * JobLogEvent
-    JobLogEvent,
+    JobLogEvent (JobLogEvent'),
 
     -- * JobStatus
-    JobStatus,
+    JobStatus (JobStatus'),
 
     -- * JobType
-    JobType,
+    JobType (JobType'),
 
     -- * LastLaunchResult
-    LastLaunchResult,
+    LastLaunchResult (LastLaunchResult'),
 
     -- * LastLaunchType
-    LastLaunchType,
+    LastLaunchType (LastLaunchType'),
 
     -- * LaunchDisposition
-    LaunchDisposition,
+    LaunchDisposition (LaunchDisposition'),
 
     -- * LaunchStatus
-    LaunchStatus,
+    LaunchStatus (LaunchStatus'),
 
     -- * OriginEnvironment
-    OriginEnvironment,
+    OriginEnvironment (OriginEnvironment'),
 
     -- * PITPolicyRuleUnits
-    PITPolicyRuleUnits,
+    PITPolicyRuleUnits (PITPolicyRuleUnits'),
 
     -- * RecoveryInstanceDataReplicationInitiationStepName
-    RecoveryInstanceDataReplicationInitiationStepName,
+    RecoveryInstanceDataReplicationInitiationStepName (RecoveryInstanceDataReplicationInitiationStepName'),
 
     -- * RecoveryInstanceDataReplicationInitiationStepStatus
-    RecoveryInstanceDataReplicationInitiationStepStatus,
+    RecoveryInstanceDataReplicationInitiationStepStatus (RecoveryInstanceDataReplicationInitiationStepStatus'),
 
     -- * RecoveryInstanceDataReplicationState
-    RecoveryInstanceDataReplicationState,
+    RecoveryInstanceDataReplicationState (RecoveryInstanceDataReplicationState'),
 
     -- * RecoverySnapshotsOrder
-    RecoverySnapshotsOrder,
+    RecoverySnapshotsOrder (RecoverySnapshotsOrder'),
 
     -- * ReplicationConfigurationDataPlaneRouting
-    ReplicationConfigurationDataPlaneRouting,
+    ReplicationConfigurationDataPlaneRouting (ReplicationConfigurationDataPlaneRouting'),
 
     -- * ReplicationConfigurationDefaultLargeStagingDiskType
-    ReplicationConfigurationDefaultLargeStagingDiskType,
+    ReplicationConfigurationDefaultLargeStagingDiskType (ReplicationConfigurationDefaultLargeStagingDiskType'),
 
     -- * ReplicationConfigurationEbsEncryption
-    ReplicationConfigurationEbsEncryption,
+    ReplicationConfigurationEbsEncryption (ReplicationConfigurationEbsEncryption'),
 
     -- * ReplicationConfigurationReplicatedDiskStagingDiskType
-    ReplicationConfigurationReplicatedDiskStagingDiskType,
+    ReplicationConfigurationReplicatedDiskStagingDiskType (ReplicationConfigurationReplicatedDiskStagingDiskType'),
 
     -- * ReplicationDirection
-    ReplicationDirection,
+    ReplicationDirection (ReplicationDirection'),
 
     -- * TargetInstanceTypeRightSizingMethod
-    TargetInstanceTypeRightSizingMethod,
+    TargetInstanceTypeRightSizingMethod (TargetInstanceTypeRightSizingMethod'),
 
     -- * Account
-    Account,
+    Account (Account'),
     newAccount,
     account_accountID,
 
     -- * CPU
-    CPU,
+    CPU (CPU'),
     newCPU,
     cpu_cores,
     cpu_modelName,
 
     -- * ConversionProperties
-    ConversionProperties,
+    ConversionProperties (ConversionProperties'),
     newConversionProperties,
     conversionProperties_dataTimestamp,
     conversionProperties_forceUefi,
@@ -136,13 +136,13 @@ module Amazonka.DrS.Types
     conversionProperties_volumeToVolumeSize,
 
     -- * DataReplicationError
-    DataReplicationError,
+    DataReplicationError (DataReplicationError'),
     newDataReplicationError,
     dataReplicationError_error,
     dataReplicationError_rawError,
 
     -- * DataReplicationInfo
-    DataReplicationInfo,
+    DataReplicationInfo (DataReplicationInfo'),
     newDataReplicationInfo,
     dataReplicationInfo_dataReplicationError,
     dataReplicationInfo_dataReplicationInitiation,
@@ -152,7 +152,7 @@ module Amazonka.DrS.Types
     dataReplicationInfo_replicatedDisks,
 
     -- * DataReplicationInfoReplicatedDisk
-    DataReplicationInfoReplicatedDisk,
+    DataReplicationInfoReplicatedDisk (DataReplicationInfoReplicatedDisk'),
     newDataReplicationInfoReplicatedDisk,
     dataReplicationInfoReplicatedDisk_backloggedStorageBytes,
     dataReplicationInfoReplicatedDisk_deviceName,
@@ -161,52 +161,52 @@ module Amazonka.DrS.Types
     dataReplicationInfoReplicatedDisk_totalStorageBytes,
 
     -- * DataReplicationInitiation
-    DataReplicationInitiation,
+    DataReplicationInitiation (DataReplicationInitiation'),
     newDataReplicationInitiation,
     dataReplicationInitiation_nextAttemptDateTime,
     dataReplicationInitiation_startDateTime,
     dataReplicationInitiation_steps,
 
     -- * DataReplicationInitiationStep
-    DataReplicationInitiationStep,
+    DataReplicationInitiationStep (DataReplicationInitiationStep'),
     newDataReplicationInitiationStep,
     dataReplicationInitiationStep_name,
     dataReplicationInitiationStep_status,
 
     -- * DescribeJobsRequestFilters
-    DescribeJobsRequestFilters,
+    DescribeJobsRequestFilters (DescribeJobsRequestFilters'),
     newDescribeJobsRequestFilters,
     describeJobsRequestFilters_fromDate,
     describeJobsRequestFilters_jobIDs,
     describeJobsRequestFilters_toDate,
 
     -- * DescribeRecoveryInstancesRequestFilters
-    DescribeRecoveryInstancesRequestFilters,
+    DescribeRecoveryInstancesRequestFilters (DescribeRecoveryInstancesRequestFilters'),
     newDescribeRecoveryInstancesRequestFilters,
     describeRecoveryInstancesRequestFilters_recoveryInstanceIDs,
     describeRecoveryInstancesRequestFilters_sourceServerIDs,
 
     -- * DescribeRecoverySnapshotsRequestFilters
-    DescribeRecoverySnapshotsRequestFilters,
+    DescribeRecoverySnapshotsRequestFilters (DescribeRecoverySnapshotsRequestFilters'),
     newDescribeRecoverySnapshotsRequestFilters,
     describeRecoverySnapshotsRequestFilters_fromDateTime,
     describeRecoverySnapshotsRequestFilters_toDateTime,
 
     -- * DescribeSourceServersRequestFilters
-    DescribeSourceServersRequestFilters,
+    DescribeSourceServersRequestFilters (DescribeSourceServersRequestFilters'),
     newDescribeSourceServersRequestFilters,
     describeSourceServersRequestFilters_hardwareId,
     describeSourceServersRequestFilters_sourceServerIDs,
     describeSourceServersRequestFilters_stagingAccountIDs,
 
     -- * Disk
-    Disk,
+    Disk (Disk'),
     newDisk,
     disk_bytes,
     disk_deviceName,
 
     -- * IdentificationHints
-    IdentificationHints,
+    IdentificationHints (IdentificationHints'),
     newIdentificationHints,
     identificationHints_awsInstanceID,
     identificationHints_fqdn,
@@ -214,7 +214,7 @@ module Amazonka.DrS.Types
     identificationHints_vmWareUuid,
 
     -- * Job
-    Job,
+    Job (Job'),
     newJob,
     job_arn,
     job_creationDateTime,
@@ -227,14 +227,14 @@ module Amazonka.DrS.Types
     job_jobID,
 
     -- * JobLog
-    JobLog,
+    JobLog (JobLog'),
     newJobLog,
     jobLog_event,
     jobLog_eventData,
     jobLog_logDateTime,
 
     -- * JobLogEventData
-    JobLogEventData,
+    JobLogEventData (JobLogEventData'),
     newJobLogEventData,
     jobLogEventData_conversionProperties,
     jobLogEventData_conversionServerID,
@@ -243,7 +243,7 @@ module Amazonka.DrS.Types
     jobLogEventData_targetInstanceID,
 
     -- * LaunchConfiguration
-    LaunchConfiguration,
+    LaunchConfiguration (LaunchConfiguration'),
     newLaunchConfiguration,
     launchConfiguration_copyPrivateIp,
     launchConfiguration_copyTags,
@@ -255,12 +255,12 @@ module Amazonka.DrS.Types
     launchConfiguration_targetInstanceTypeRightSizingMethod,
 
     -- * Licensing
-    Licensing,
+    Licensing (Licensing'),
     newLicensing,
     licensing_osByol,
 
     -- * LifeCycle
-    LifeCycle,
+    LifeCycle (LifeCycle'),
     newLifeCycle,
     lifeCycle_addedToServiceDateTime,
     lifeCycle_elapsedReplicationDuration,
@@ -269,31 +269,31 @@ module Amazonka.DrS.Types
     lifeCycle_lastSeenByServiceDateTime,
 
     -- * LifeCycleLastLaunch
-    LifeCycleLastLaunch,
+    LifeCycleLastLaunch (LifeCycleLastLaunch'),
     newLifeCycleLastLaunch,
     lifeCycleLastLaunch_initiated,
 
     -- * LifeCycleLastLaunchInitiated
-    LifeCycleLastLaunchInitiated,
+    LifeCycleLastLaunchInitiated (LifeCycleLastLaunchInitiated'),
     newLifeCycleLastLaunchInitiated,
     lifeCycleLastLaunchInitiated_apiCallDateTime,
     lifeCycleLastLaunchInitiated_jobID,
     lifeCycleLastLaunchInitiated_type,
 
     -- * NetworkInterface
-    NetworkInterface,
+    NetworkInterface (NetworkInterface'),
     newNetworkInterface,
     networkInterface_ips,
     networkInterface_isPrimary,
     networkInterface_macAddress,
 
     -- * OS
-    OS,
+    OS (OS'),
     newOS,
     os_fullString,
 
     -- * PITPolicyRule
-    PITPolicyRule,
+    PITPolicyRule (PITPolicyRule'),
     newPITPolicyRule,
     pITPolicyRule_enabled,
     pITPolicyRule_ruleID,
@@ -302,14 +302,14 @@ module Amazonka.DrS.Types
     pITPolicyRule_units,
 
     -- * ParticipatingServer
-    ParticipatingServer,
+    ParticipatingServer (ParticipatingServer'),
     newParticipatingServer,
     participatingServer_launchStatus,
     participatingServer_recoveryInstanceID,
     participatingServer_sourceServerID,
 
     -- * RecoveryInstance
-    RecoveryInstance,
+    RecoveryInstance (RecoveryInstance'),
     newRecoveryInstance,
     recoveryInstance_arn,
     recoveryInstance_dataReplicationInfo,
@@ -326,13 +326,13 @@ module Amazonka.DrS.Types
     recoveryInstance_tags,
 
     -- * RecoveryInstanceDataReplicationError
-    RecoveryInstanceDataReplicationError,
+    RecoveryInstanceDataReplicationError (RecoveryInstanceDataReplicationError'),
     newRecoveryInstanceDataReplicationError,
     recoveryInstanceDataReplicationError_error,
     recoveryInstanceDataReplicationError_rawError,
 
     -- * RecoveryInstanceDataReplicationInfo
-    RecoveryInstanceDataReplicationInfo,
+    RecoveryInstanceDataReplicationInfo (RecoveryInstanceDataReplicationInfo'),
     newRecoveryInstanceDataReplicationInfo,
     recoveryInstanceDataReplicationInfo_dataReplicationError,
     recoveryInstanceDataReplicationInfo_dataReplicationInitiation,
@@ -342,7 +342,7 @@ module Amazonka.DrS.Types
     recoveryInstanceDataReplicationInfo_replicatedDisks,
 
     -- * RecoveryInstanceDataReplicationInfoReplicatedDisk
-    RecoveryInstanceDataReplicationInfoReplicatedDisk,
+    RecoveryInstanceDataReplicationInfoReplicatedDisk (RecoveryInstanceDataReplicationInfoReplicatedDisk'),
     newRecoveryInstanceDataReplicationInfoReplicatedDisk,
     recoveryInstanceDataReplicationInfoReplicatedDisk_backloggedStorageBytes,
     recoveryInstanceDataReplicationInfoReplicatedDisk_deviceName,
@@ -351,26 +351,26 @@ module Amazonka.DrS.Types
     recoveryInstanceDataReplicationInfoReplicatedDisk_totalStorageBytes,
 
     -- * RecoveryInstanceDataReplicationInitiation
-    RecoveryInstanceDataReplicationInitiation,
+    RecoveryInstanceDataReplicationInitiation (RecoveryInstanceDataReplicationInitiation'),
     newRecoveryInstanceDataReplicationInitiation,
     recoveryInstanceDataReplicationInitiation_startDateTime,
     recoveryInstanceDataReplicationInitiation_steps,
 
     -- * RecoveryInstanceDataReplicationInitiationStep
-    RecoveryInstanceDataReplicationInitiationStep,
+    RecoveryInstanceDataReplicationInitiationStep (RecoveryInstanceDataReplicationInitiationStep'),
     newRecoveryInstanceDataReplicationInitiationStep,
     recoveryInstanceDataReplicationInitiationStep_name,
     recoveryInstanceDataReplicationInitiationStep_status,
 
     -- * RecoveryInstanceDisk
-    RecoveryInstanceDisk,
+    RecoveryInstanceDisk (RecoveryInstanceDisk'),
     newRecoveryInstanceDisk,
     recoveryInstanceDisk_bytes,
     recoveryInstanceDisk_ebsVolumeID,
     recoveryInstanceDisk_internalDeviceName,
 
     -- * RecoveryInstanceFailback
-    RecoveryInstanceFailback,
+    RecoveryInstanceFailback (RecoveryInstanceFailback'),
     newRecoveryInstanceFailback,
     recoveryInstanceFailback_agentLastSeenByServiceDateTime,
     recoveryInstanceFailback_elapsedReplicationDuration,
@@ -384,7 +384,7 @@ module Amazonka.DrS.Types
     recoveryInstanceFailback_state,
 
     -- * RecoveryInstanceProperties
-    RecoveryInstanceProperties,
+    RecoveryInstanceProperties (RecoveryInstanceProperties'),
     newRecoveryInstanceProperties,
     recoveryInstanceProperties_cpus,
     recoveryInstanceProperties_disks,
@@ -395,7 +395,7 @@ module Amazonka.DrS.Types
     recoveryInstanceProperties_ramBytes,
 
     -- * RecoverySnapshot
-    RecoverySnapshot,
+    RecoverySnapshot (RecoverySnapshot'),
     newRecoverySnapshot,
     recoverySnapshot_ebsSnapshots,
     recoverySnapshot_timestamp,
@@ -404,7 +404,7 @@ module Amazonka.DrS.Types
     recoverySnapshot_sourceServerID,
 
     -- * ReplicationConfiguration
-    ReplicationConfiguration,
+    ReplicationConfiguration (ReplicationConfiguration'),
     newReplicationConfiguration,
     replicationConfiguration_associateDefaultSecurityGroup,
     replicationConfiguration_bandwidthThrottling,
@@ -424,7 +424,7 @@ module Amazonka.DrS.Types
     replicationConfiguration_useDedicatedReplicationServer,
 
     -- * ReplicationConfigurationReplicatedDisk
-    ReplicationConfigurationReplicatedDisk,
+    ReplicationConfigurationReplicatedDisk (ReplicationConfigurationReplicatedDisk'),
     newReplicationConfigurationReplicatedDisk,
     replicationConfigurationReplicatedDisk_deviceName,
     replicationConfigurationReplicatedDisk_iops,
@@ -434,7 +434,7 @@ module Amazonka.DrS.Types
     replicationConfigurationReplicatedDisk_throughput,
 
     -- * ReplicationConfigurationTemplate
-    ReplicationConfigurationTemplate,
+    ReplicationConfigurationTemplate (ReplicationConfigurationTemplate'),
     newReplicationConfigurationTemplate,
     replicationConfigurationTemplate_arn,
     replicationConfigurationTemplate_associateDefaultSecurityGroup,
@@ -454,14 +454,14 @@ module Amazonka.DrS.Types
     replicationConfigurationTemplate_replicationConfigurationTemplateID,
 
     -- * SourceCloudProperties
-    SourceCloudProperties,
+    SourceCloudProperties (SourceCloudProperties'),
     newSourceCloudProperties,
     sourceCloudProperties_originAccountID,
     sourceCloudProperties_originAvailabilityZone,
     sourceCloudProperties_originRegion,
 
     -- * SourceProperties
-    SourceProperties,
+    SourceProperties (SourceProperties'),
     newSourceProperties,
     sourceProperties_cpus,
     sourceProperties_disks,
@@ -473,7 +473,7 @@ module Amazonka.DrS.Types
     sourceProperties_recommendedInstanceType,
 
     -- * SourceServer
-    SourceServer,
+    SourceServer (SourceServer'),
     newSourceServer,
     sourceServer_arn,
     sourceServer_dataReplicationInfo,
@@ -489,7 +489,7 @@ module Amazonka.DrS.Types
     sourceServer_tags,
 
     -- * StagingArea
-    StagingArea,
+    StagingArea (StagingArea'),
     newStagingArea,
     stagingArea_errorMessage,
     stagingArea_stagingAccountID,
@@ -497,14 +497,14 @@ module Amazonka.DrS.Types
     stagingArea_status,
 
     -- * StagingSourceServer
-    StagingSourceServer,
+    StagingSourceServer (StagingSourceServer'),
     newStagingSourceServer,
     stagingSourceServer_arn,
     stagingSourceServer_hostname,
     stagingSourceServer_tags,
 
     -- * StartRecoveryRequestSourceServer
-    StartRecoveryRequestSourceServer,
+    StartRecoveryRequestSourceServer (StartRecoveryRequestSourceServer'),
     newStartRecoveryRequestSourceServer,
     startRecoveryRequestSourceServer_recoverySnapshotID,
     startRecoveryRequestSourceServer_sourceServerID,

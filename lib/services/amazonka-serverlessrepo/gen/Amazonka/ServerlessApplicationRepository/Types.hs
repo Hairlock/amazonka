@@ -27,19 +27,19 @@ module Amazonka.ServerlessApplicationRepository.Types
     _TooManyRequestsException,
 
     -- * Capability
-    Capability,
+    Capability (Capability'),
 
     -- * Status
-    Status,
+    Status (Status'),
 
     -- * ApplicationDependencySummary
-    ApplicationDependencySummary,
+    ApplicationDependencySummary (ApplicationDependencySummary'),
     newApplicationDependencySummary,
     applicationDependencySummary_applicationId,
     applicationDependencySummary_semanticVersion,
 
     -- * ApplicationPolicyStatement
-    ApplicationPolicyStatement,
+    ApplicationPolicyStatement (ApplicationPolicyStatement'),
     newApplicationPolicyStatement,
     applicationPolicyStatement_principalOrgIDs,
     applicationPolicyStatement_statementId,
@@ -47,7 +47,7 @@ module Amazonka.ServerlessApplicationRepository.Types
     applicationPolicyStatement_actions,
 
     -- * ApplicationSummary
-    ApplicationSummary,
+    ApplicationSummary (ApplicationSummary'),
     newApplicationSummary,
     applicationSummary_creationTime,
     applicationSummary_homePageUrl,
@@ -59,7 +59,7 @@ module Amazonka.ServerlessApplicationRepository.Types
     applicationSummary_name,
 
     -- * ParameterDefinition
-    ParameterDefinition,
+    ParameterDefinition (ParameterDefinition'),
     newParameterDefinition,
     parameterDefinition_allowedPattern,
     parameterDefinition_allowedValues,
@@ -76,31 +76,31 @@ module Amazonka.ServerlessApplicationRepository.Types
     parameterDefinition_name,
 
     -- * ParameterValue
-    ParameterValue,
+    ParameterValue (ParameterValue'),
     newParameterValue,
     parameterValue_value,
     parameterValue_name,
 
     -- * RollbackConfiguration
-    RollbackConfiguration,
+    RollbackConfiguration (RollbackConfiguration'),
     newRollbackConfiguration,
     rollbackConfiguration_monitoringTimeInMinutes,
     rollbackConfiguration_rollbackTriggers,
 
     -- * RollbackTrigger
-    RollbackTrigger,
+    RollbackTrigger (RollbackTrigger'),
     newRollbackTrigger,
     rollbackTrigger_type,
     rollbackTrigger_arn,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_value,
     tag_key,
 
     -- * Version
-    Version,
+    Version (Version'),
     newVersion,
     version_sourceCodeArchiveUrl,
     version_sourceCodeUrl,
@@ -113,7 +113,7 @@ module Amazonka.ServerlessApplicationRepository.Types
     version_semanticVersion,
 
     -- * VersionSummary
-    VersionSummary,
+    VersionSummary (VersionSummary'),
     newVersionSummary,
     versionSummary_sourceCodeUrl,
     versionSummary_creationTime,

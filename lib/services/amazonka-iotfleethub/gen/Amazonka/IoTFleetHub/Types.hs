@@ -27,10 +27,10 @@ module Amazonka.IoTFleetHub.Types
     _ThrottlingException,
 
     -- * ApplicationState
-    ApplicationState,
+    ApplicationState (ApplicationState'),
 
     -- * ApplicationSummary
-    ApplicationSummary,
+    ApplicationSummary (ApplicationSummary'),
     newApplicationSummary,
     applicationSummary_applicationCreationDate,
     applicationSummary_applicationDescription,

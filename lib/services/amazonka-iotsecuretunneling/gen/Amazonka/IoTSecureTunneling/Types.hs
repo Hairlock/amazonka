@@ -23,39 +23,39 @@ module Amazonka.IoTSecureTunneling.Types
     _ResourceNotFoundException,
 
     -- * ClientMode
-    ClientMode,
+    ClientMode (ClientMode'),
 
     -- * ConnectionStatus
-    ConnectionStatus,
+    ConnectionStatus (ConnectionStatus'),
 
     -- * TunnelStatus
-    TunnelStatus,
+    TunnelStatus (TunnelStatus'),
 
     -- * ConnectionState
-    ConnectionState,
+    ConnectionState (ConnectionState'),
     newConnectionState,
     connectionState_lastUpdatedAt,
     connectionState_status,
 
     -- * DestinationConfig
-    DestinationConfig,
+    DestinationConfig (DestinationConfig'),
     newDestinationConfig,
     destinationConfig_thingName,
     destinationConfig_services,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
 
     -- * TimeoutConfig
-    TimeoutConfig,
+    TimeoutConfig (TimeoutConfig'),
     newTimeoutConfig,
     timeoutConfig_maxLifetimeTimeoutMinutes,
 
     -- * Tunnel
-    Tunnel,
+    Tunnel (Tunnel'),
     newTunnel,
     tunnel_createdAt,
     tunnel_description,
@@ -70,7 +70,7 @@ module Amazonka.IoTSecureTunneling.Types
     tunnel_tunnelId,
 
     -- * TunnelSummary
-    TunnelSummary,
+    TunnelSummary (TunnelSummary'),
     newTunnelSummary,
     tunnelSummary_createdAt,
     tunnelSummary_description,

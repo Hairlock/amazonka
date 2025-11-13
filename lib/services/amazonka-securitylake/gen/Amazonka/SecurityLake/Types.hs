@@ -36,43 +36,43 @@ module Amazonka.SecurityLake.Types
     _ValidationException,
 
     -- * AccessType
-    AccessType,
+    AccessType (AccessType'),
 
     -- * AwsLogSourceType
-    AwsLogSourceType,
+    AwsLogSourceType (AwsLogSourceType'),
 
     -- * Dimension
-    Dimension,
+    Dimension (Dimension'),
 
     -- * EndpointProtocol
-    EndpointProtocol,
+    EndpointProtocol (EndpointProtocol'),
 
     -- * HttpsMethod
-    HttpsMethod,
+    HttpsMethod (HttpsMethod'),
 
     -- * OcsfEventClass
-    OcsfEventClass,
+    OcsfEventClass (OcsfEventClass'),
 
     -- * Region
-    Region,
+    Region (Region'),
 
     -- * SettingsStatus
-    SettingsStatus,
+    SettingsStatus (SettingsStatus'),
 
     -- * SourceStatus
-    SourceStatus,
+    SourceStatus (SourceStatus'),
 
     -- * StorageClass
-    StorageClass,
+    StorageClass (StorageClass'),
 
     -- * SubscriptionProtocolType
-    SubscriptionProtocolType,
+    SubscriptionProtocolType (SubscriptionProtocolType'),
 
     -- * SubscriptionStatus
-    SubscriptionStatus,
+    SubscriptionStatus (SubscriptionStatus'),
 
     -- * AccountSources
-    AccountSources,
+    AccountSources (AccountSources'),
     newAccountSources,
     accountSources_eventClass,
     accountSources_logsStatus,
@@ -80,26 +80,26 @@ module Amazonka.SecurityLake.Types
     accountSources_sourceType,
 
     -- * AutoEnableNewRegionConfiguration
-    AutoEnableNewRegionConfiguration,
+    AutoEnableNewRegionConfiguration (AutoEnableNewRegionConfiguration'),
     newAutoEnableNewRegionConfiguration,
     autoEnableNewRegionConfiguration_region,
     autoEnableNewRegionConfiguration_sources,
 
     -- * Failures
-    Failures,
+    Failures (Failures'),
     newFailures,
     failures_exceptionMessage,
     failures_remediation,
     failures_timestamp,
 
     -- * FailuresResponse
-    FailuresResponse,
+    FailuresResponse (FailuresResponse'),
     newFailuresResponse,
     failuresResponse_failures,
     failuresResponse_region,
 
     -- * LakeConfigurationRequest
-    LakeConfigurationRequest,
+    LakeConfigurationRequest (LakeConfigurationRequest'),
     newLakeConfigurationRequest,
     lakeConfigurationRequest_encryptionKey,
     lakeConfigurationRequest_replicationDestinationRegions,
@@ -108,7 +108,7 @@ module Amazonka.SecurityLake.Types
     lakeConfigurationRequest_tagsMap,
 
     -- * LakeConfigurationResponse
-    LakeConfigurationResponse,
+    LakeConfigurationResponse (LakeConfigurationResponse'),
     newLakeConfigurationResponse,
     lakeConfigurationResponse_encryptionKey,
     lakeConfigurationResponse_replicationDestinationRegions,
@@ -119,31 +119,31 @@ module Amazonka.SecurityLake.Types
     lakeConfigurationResponse_tagsMap,
 
     -- * LogsStatus
-    LogsStatus,
+    LogsStatus (LogsStatus'),
     newLogsStatus,
     logsStatus_healthStatus,
     logsStatus_pathToLogs,
 
     -- * ProtocolAndNotificationEndpoint
-    ProtocolAndNotificationEndpoint,
+    ProtocolAndNotificationEndpoint (ProtocolAndNotificationEndpoint'),
     newProtocolAndNotificationEndpoint,
     protocolAndNotificationEndpoint_endpoint,
     protocolAndNotificationEndpoint_protocol,
 
     -- * RetentionSetting
-    RetentionSetting,
+    RetentionSetting (RetentionSetting'),
     newRetentionSetting,
     retentionSetting_retentionPeriod,
     retentionSetting_storageClass,
 
     -- * SourceType
-    SourceType,
+    SourceType (SourceType'),
     newSourceType,
     sourceType_awsSourceType,
     sourceType_customSourceType,
 
     -- * SubscriberResource
-    SubscriberResource,
+    SubscriberResource (SubscriberResource'),
     newSubscriberResource,
     subscriberResource_accessTypes,
     subscriberResource_createdAt,

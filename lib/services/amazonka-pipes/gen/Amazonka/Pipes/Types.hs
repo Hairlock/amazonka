@@ -27,73 +27,73 @@ module Amazonka.Pipes.Types
     _ValidationException,
 
     -- * AssignPublicIp
-    AssignPublicIp,
+    AssignPublicIp (AssignPublicIp'),
 
     -- * BatchJobDependencyType
-    BatchJobDependencyType,
+    BatchJobDependencyType (BatchJobDependencyType'),
 
     -- * BatchResourceRequirementType
-    BatchResourceRequirementType,
+    BatchResourceRequirementType (BatchResourceRequirementType'),
 
     -- * DynamoDBStreamStartPosition
-    DynamoDBStreamStartPosition,
+    DynamoDBStreamStartPosition (DynamoDBStreamStartPosition'),
 
     -- * EcsEnvironmentFileType
-    EcsEnvironmentFileType,
+    EcsEnvironmentFileType (EcsEnvironmentFileType'),
 
     -- * EcsResourceRequirementType
-    EcsResourceRequirementType,
+    EcsResourceRequirementType (EcsResourceRequirementType'),
 
     -- * KinesisStreamStartPosition
-    KinesisStreamStartPosition,
+    KinesisStreamStartPosition (KinesisStreamStartPosition'),
 
     -- * LaunchType
-    LaunchType,
+    LaunchType (LaunchType'),
 
     -- * MSKStartPosition
-    MSKStartPosition,
+    MSKStartPosition (MSKStartPosition'),
 
     -- * OnPartialBatchItemFailureStreams
-    OnPartialBatchItemFailureStreams,
+    OnPartialBatchItemFailureStreams (OnPartialBatchItemFailureStreams'),
 
     -- * PipeState
-    PipeState,
+    PipeState (PipeState'),
 
     -- * PipeTargetInvocationType
-    PipeTargetInvocationType,
+    PipeTargetInvocationType (PipeTargetInvocationType'),
 
     -- * PlacementConstraintType
-    PlacementConstraintType,
+    PlacementConstraintType (PlacementConstraintType'),
 
     -- * PlacementStrategyType
-    PlacementStrategyType,
+    PlacementStrategyType (PlacementStrategyType'),
 
     -- * PropagateTags
-    PropagateTags,
+    PropagateTags (PropagateTags'),
 
     -- * RequestedPipeState
-    RequestedPipeState,
+    RequestedPipeState (RequestedPipeState'),
 
     -- * RequestedPipeStateDescribeResponse
-    RequestedPipeStateDescribeResponse,
+    RequestedPipeStateDescribeResponse (RequestedPipeStateDescribeResponse'),
 
     -- * SelfManagedKafkaStartPosition
-    SelfManagedKafkaStartPosition,
+    SelfManagedKafkaStartPosition (SelfManagedKafkaStartPosition'),
 
     -- * AwsVpcConfiguration
-    AwsVpcConfiguration,
+    AwsVpcConfiguration (AwsVpcConfiguration'),
     newAwsVpcConfiguration,
     awsVpcConfiguration_assignPublicIp,
     awsVpcConfiguration_securityGroups,
     awsVpcConfiguration_subnets,
 
     -- * BatchArrayProperties
-    BatchArrayProperties,
+    BatchArrayProperties (BatchArrayProperties'),
     newBatchArrayProperties,
     batchArrayProperties_size,
 
     -- * BatchContainerOverrides
-    BatchContainerOverrides,
+    BatchContainerOverrides (BatchContainerOverrides'),
     newBatchContainerOverrides,
     batchContainerOverrides_command,
     batchContainerOverrides_environment,
@@ -101,42 +101,42 @@ module Amazonka.Pipes.Types
     batchContainerOverrides_resourceRequirements,
 
     -- * BatchEnvironmentVariable
-    BatchEnvironmentVariable,
+    BatchEnvironmentVariable (BatchEnvironmentVariable'),
     newBatchEnvironmentVariable,
     batchEnvironmentVariable_name,
     batchEnvironmentVariable_value,
 
     -- * BatchJobDependency
-    BatchJobDependency,
+    BatchJobDependency (BatchJobDependency'),
     newBatchJobDependency,
     batchJobDependency_jobId,
     batchJobDependency_type,
 
     -- * BatchResourceRequirement
-    BatchResourceRequirement,
+    BatchResourceRequirement (BatchResourceRequirement'),
     newBatchResourceRequirement,
     batchResourceRequirement_type,
     batchResourceRequirement_value,
 
     -- * BatchRetryStrategy
-    BatchRetryStrategy,
+    BatchRetryStrategy (BatchRetryStrategy'),
     newBatchRetryStrategy,
     batchRetryStrategy_attempts,
 
     -- * CapacityProviderStrategyItem
-    CapacityProviderStrategyItem,
+    CapacityProviderStrategyItem (CapacityProviderStrategyItem'),
     newCapacityProviderStrategyItem,
     capacityProviderStrategyItem_base,
     capacityProviderStrategyItem_weight,
     capacityProviderStrategyItem_capacityProvider,
 
     -- * DeadLetterConfig
-    DeadLetterConfig,
+    DeadLetterConfig (DeadLetterConfig'),
     newDeadLetterConfig,
     deadLetterConfig_arn,
 
     -- * EcsContainerOverride
-    EcsContainerOverride,
+    EcsContainerOverride (EcsContainerOverride'),
     newEcsContainerOverride,
     ecsContainerOverride_command,
     ecsContainerOverride_cpu,
@@ -148,36 +148,36 @@ module Amazonka.Pipes.Types
     ecsContainerOverride_resourceRequirements,
 
     -- * EcsEnvironmentFile
-    EcsEnvironmentFile,
+    EcsEnvironmentFile (EcsEnvironmentFile'),
     newEcsEnvironmentFile,
     ecsEnvironmentFile_type,
     ecsEnvironmentFile_value,
 
     -- * EcsEnvironmentVariable
-    EcsEnvironmentVariable,
+    EcsEnvironmentVariable (EcsEnvironmentVariable'),
     newEcsEnvironmentVariable,
     ecsEnvironmentVariable_name,
     ecsEnvironmentVariable_value,
 
     -- * EcsEphemeralStorage
-    EcsEphemeralStorage,
+    EcsEphemeralStorage (EcsEphemeralStorage'),
     newEcsEphemeralStorage,
     ecsEphemeralStorage_sizeInGiB,
 
     -- * EcsInferenceAcceleratorOverride
-    EcsInferenceAcceleratorOverride,
+    EcsInferenceAcceleratorOverride (EcsInferenceAcceleratorOverride'),
     newEcsInferenceAcceleratorOverride,
     ecsInferenceAcceleratorOverride_deviceName,
     ecsInferenceAcceleratorOverride_deviceType,
 
     -- * EcsResourceRequirement
-    EcsResourceRequirement,
+    EcsResourceRequirement (EcsResourceRequirement'),
     newEcsResourceRequirement,
     ecsResourceRequirement_type,
     ecsResourceRequirement_value,
 
     -- * EcsTaskOverride
-    EcsTaskOverride,
+    EcsTaskOverride (EcsTaskOverride'),
     newEcsTaskOverride,
     ecsTaskOverride_containerOverrides,
     ecsTaskOverride_cpu,
@@ -188,33 +188,33 @@ module Amazonka.Pipes.Types
     ecsTaskOverride_taskRoleArn,
 
     -- * Filter
-    Filter,
+    Filter (Filter'),
     newFilter,
     filter_pattern,
 
     -- * FilterCriteria
-    FilterCriteria,
+    FilterCriteria (FilterCriteria'),
     newFilterCriteria,
     filterCriteria_filters,
 
     -- * MQBrokerAccessCredentials
-    MQBrokerAccessCredentials,
+    MQBrokerAccessCredentials (MQBrokerAccessCredentials'),
     newMQBrokerAccessCredentials,
     mQBrokerAccessCredentials_basicAuth,
 
     -- * MSKAccessCredentials
-    MSKAccessCredentials,
+    MSKAccessCredentials (MSKAccessCredentials'),
     newMSKAccessCredentials,
     mSKAccessCredentials_clientCertificateTlsAuth,
     mSKAccessCredentials_saslScram512Auth,
 
     -- * NetworkConfiguration
-    NetworkConfiguration,
+    NetworkConfiguration (NetworkConfiguration'),
     newNetworkConfiguration,
     networkConfiguration_awsvpcConfiguration,
 
     -- * Pipe
-    Pipe,
+    Pipe (Pipe'),
     newPipe,
     pipe_arn,
     pipe_creationTime,
@@ -228,20 +228,20 @@ module Amazonka.Pipes.Types
     pipe_target,
 
     -- * PipeEnrichmentHttpParameters
-    PipeEnrichmentHttpParameters,
+    PipeEnrichmentHttpParameters (PipeEnrichmentHttpParameters'),
     newPipeEnrichmentHttpParameters,
     pipeEnrichmentHttpParameters_headerParameters,
     pipeEnrichmentHttpParameters_pathParameterValues,
     pipeEnrichmentHttpParameters_queryStringParameters,
 
     -- * PipeEnrichmentParameters
-    PipeEnrichmentParameters,
+    PipeEnrichmentParameters (PipeEnrichmentParameters'),
     newPipeEnrichmentParameters,
     pipeEnrichmentParameters_httpParameters,
     pipeEnrichmentParameters_inputTemplate,
 
     -- * PipeSourceActiveMQBrokerParameters
-    PipeSourceActiveMQBrokerParameters,
+    PipeSourceActiveMQBrokerParameters (PipeSourceActiveMQBrokerParameters'),
     newPipeSourceActiveMQBrokerParameters,
     pipeSourceActiveMQBrokerParameters_batchSize,
     pipeSourceActiveMQBrokerParameters_maximumBatchingWindowInSeconds,
@@ -249,7 +249,7 @@ module Amazonka.Pipes.Types
     pipeSourceActiveMQBrokerParameters_queueName,
 
     -- * PipeSourceDynamoDBStreamParameters
-    PipeSourceDynamoDBStreamParameters,
+    PipeSourceDynamoDBStreamParameters (PipeSourceDynamoDBStreamParameters'),
     newPipeSourceDynamoDBStreamParameters,
     pipeSourceDynamoDBStreamParameters_batchSize,
     pipeSourceDynamoDBStreamParameters_deadLetterConfig,
@@ -261,7 +261,7 @@ module Amazonka.Pipes.Types
     pipeSourceDynamoDBStreamParameters_startingPosition,
 
     -- * PipeSourceKinesisStreamParameters
-    PipeSourceKinesisStreamParameters,
+    PipeSourceKinesisStreamParameters (PipeSourceKinesisStreamParameters'),
     newPipeSourceKinesisStreamParameters,
     pipeSourceKinesisStreamParameters_batchSize,
     pipeSourceKinesisStreamParameters_deadLetterConfig,
@@ -274,7 +274,7 @@ module Amazonka.Pipes.Types
     pipeSourceKinesisStreamParameters_startingPosition,
 
     -- * PipeSourceManagedStreamingKafkaParameters
-    PipeSourceManagedStreamingKafkaParameters,
+    PipeSourceManagedStreamingKafkaParameters (PipeSourceManagedStreamingKafkaParameters'),
     newPipeSourceManagedStreamingKafkaParameters,
     pipeSourceManagedStreamingKafkaParameters_batchSize,
     pipeSourceManagedStreamingKafkaParameters_consumerGroupID,
@@ -284,7 +284,7 @@ module Amazonka.Pipes.Types
     pipeSourceManagedStreamingKafkaParameters_topicName,
 
     -- * PipeSourceParameters
-    PipeSourceParameters,
+    PipeSourceParameters (PipeSourceParameters'),
     newPipeSourceParameters,
     pipeSourceParameters_activeMQBrokerParameters,
     pipeSourceParameters_dynamoDBStreamParameters,
@@ -296,7 +296,7 @@ module Amazonka.Pipes.Types
     pipeSourceParameters_sqsQueueParameters,
 
     -- * PipeSourceRabbitMQBrokerParameters
-    PipeSourceRabbitMQBrokerParameters,
+    PipeSourceRabbitMQBrokerParameters (PipeSourceRabbitMQBrokerParameters'),
     newPipeSourceRabbitMQBrokerParameters,
     pipeSourceRabbitMQBrokerParameters_batchSize,
     pipeSourceRabbitMQBrokerParameters_maximumBatchingWindowInSeconds,
@@ -305,7 +305,7 @@ module Amazonka.Pipes.Types
     pipeSourceRabbitMQBrokerParameters_queueName,
 
     -- * PipeSourceSelfManagedKafkaParameters
-    PipeSourceSelfManagedKafkaParameters,
+    PipeSourceSelfManagedKafkaParameters (PipeSourceSelfManagedKafkaParameters'),
     newPipeSourceSelfManagedKafkaParameters,
     pipeSourceSelfManagedKafkaParameters_additionalBootstrapServers,
     pipeSourceSelfManagedKafkaParameters_batchSize,
@@ -318,13 +318,13 @@ module Amazonka.Pipes.Types
     pipeSourceSelfManagedKafkaParameters_topicName,
 
     -- * PipeSourceSqsQueueParameters
-    PipeSourceSqsQueueParameters,
+    PipeSourceSqsQueueParameters (PipeSourceSqsQueueParameters'),
     newPipeSourceSqsQueueParameters,
     pipeSourceSqsQueueParameters_batchSize,
     pipeSourceSqsQueueParameters_maximumBatchingWindowInSeconds,
 
     -- * PipeTargetBatchJobParameters
-    PipeTargetBatchJobParameters,
+    PipeTargetBatchJobParameters (PipeTargetBatchJobParameters'),
     newPipeTargetBatchJobParameters,
     pipeTargetBatchJobParameters_arrayProperties,
     pipeTargetBatchJobParameters_containerOverrides,
@@ -335,13 +335,13 @@ module Amazonka.Pipes.Types
     pipeTargetBatchJobParameters_jobName,
 
     -- * PipeTargetCloudWatchLogsParameters
-    PipeTargetCloudWatchLogsParameters,
+    PipeTargetCloudWatchLogsParameters (PipeTargetCloudWatchLogsParameters'),
     newPipeTargetCloudWatchLogsParameters,
     pipeTargetCloudWatchLogsParameters_logStreamName,
     pipeTargetCloudWatchLogsParameters_timestamp,
 
     -- * PipeTargetEcsTaskParameters
-    PipeTargetEcsTaskParameters,
+    PipeTargetEcsTaskParameters (PipeTargetEcsTaskParameters'),
     newPipeTargetEcsTaskParameters,
     pipeTargetEcsTaskParameters_capacityProviderStrategy,
     pipeTargetEcsTaskParameters_enableECSManagedTags,
@@ -360,7 +360,7 @@ module Amazonka.Pipes.Types
     pipeTargetEcsTaskParameters_taskDefinitionArn,
 
     -- * PipeTargetEventBridgeEventBusParameters
-    PipeTargetEventBridgeEventBusParameters,
+    PipeTargetEventBridgeEventBusParameters (PipeTargetEventBridgeEventBusParameters'),
     newPipeTargetEventBridgeEventBusParameters,
     pipeTargetEventBridgeEventBusParameters_detailType,
     pipeTargetEventBridgeEventBusParameters_endpointId,
@@ -369,24 +369,24 @@ module Amazonka.Pipes.Types
     pipeTargetEventBridgeEventBusParameters_time,
 
     -- * PipeTargetHttpParameters
-    PipeTargetHttpParameters,
+    PipeTargetHttpParameters (PipeTargetHttpParameters'),
     newPipeTargetHttpParameters,
     pipeTargetHttpParameters_headerParameters,
     pipeTargetHttpParameters_pathParameterValues,
     pipeTargetHttpParameters_queryStringParameters,
 
     -- * PipeTargetKinesisStreamParameters
-    PipeTargetKinesisStreamParameters,
+    PipeTargetKinesisStreamParameters (PipeTargetKinesisStreamParameters'),
     newPipeTargetKinesisStreamParameters,
     pipeTargetKinesisStreamParameters_partitionKey,
 
     -- * PipeTargetLambdaFunctionParameters
-    PipeTargetLambdaFunctionParameters,
+    PipeTargetLambdaFunctionParameters (PipeTargetLambdaFunctionParameters'),
     newPipeTargetLambdaFunctionParameters,
     pipeTargetLambdaFunctionParameters_invocationType,
 
     -- * PipeTargetParameters
-    PipeTargetParameters,
+    PipeTargetParameters (PipeTargetParameters'),
     newPipeTargetParameters,
     pipeTargetParameters_batchJobParameters,
     pipeTargetParameters_cloudWatchLogsParameters,
@@ -402,7 +402,7 @@ module Amazonka.Pipes.Types
     pipeTargetParameters_stepFunctionStateMachineParameters,
 
     -- * PipeTargetRedshiftDataParameters
-    PipeTargetRedshiftDataParameters,
+    PipeTargetRedshiftDataParameters (PipeTargetRedshiftDataParameters'),
     newPipeTargetRedshiftDataParameters,
     pipeTargetRedshiftDataParameters_dbUser,
     pipeTargetRedshiftDataParameters_secretManagerArn,
@@ -412,41 +412,41 @@ module Amazonka.Pipes.Types
     pipeTargetRedshiftDataParameters_sqls,
 
     -- * PipeTargetSageMakerPipelineParameters
-    PipeTargetSageMakerPipelineParameters,
+    PipeTargetSageMakerPipelineParameters (PipeTargetSageMakerPipelineParameters'),
     newPipeTargetSageMakerPipelineParameters,
     pipeTargetSageMakerPipelineParameters_pipelineParameterList,
 
     -- * PipeTargetSqsQueueParameters
-    PipeTargetSqsQueueParameters,
+    PipeTargetSqsQueueParameters (PipeTargetSqsQueueParameters'),
     newPipeTargetSqsQueueParameters,
     pipeTargetSqsQueueParameters_messageDeduplicationId,
     pipeTargetSqsQueueParameters_messageGroupId,
 
     -- * PipeTargetStateMachineParameters
-    PipeTargetStateMachineParameters,
+    PipeTargetStateMachineParameters (PipeTargetStateMachineParameters'),
     newPipeTargetStateMachineParameters,
     pipeTargetStateMachineParameters_invocationType,
 
     -- * PlacementConstraint
-    PlacementConstraint,
+    PlacementConstraint (PlacementConstraint'),
     newPlacementConstraint,
     placementConstraint_expression,
     placementConstraint_type,
 
     -- * PlacementStrategy
-    PlacementStrategy,
+    PlacementStrategy (PlacementStrategy'),
     newPlacementStrategy,
     placementStrategy_field,
     placementStrategy_type,
 
     -- * SageMakerPipelineParameter
-    SageMakerPipelineParameter,
+    SageMakerPipelineParameter (SageMakerPipelineParameter'),
     newSageMakerPipelineParameter,
     sageMakerPipelineParameter_name,
     sageMakerPipelineParameter_value,
 
     -- * SelfManagedKafkaAccessConfigurationCredentials
-    SelfManagedKafkaAccessConfigurationCredentials,
+    SelfManagedKafkaAccessConfigurationCredentials (SelfManagedKafkaAccessConfigurationCredentials'),
     newSelfManagedKafkaAccessConfigurationCredentials,
     selfManagedKafkaAccessConfigurationCredentials_basicAuth,
     selfManagedKafkaAccessConfigurationCredentials_clientCertificateTlsAuth,
@@ -454,26 +454,26 @@ module Amazonka.Pipes.Types
     selfManagedKafkaAccessConfigurationCredentials_saslScram512Auth,
 
     -- * SelfManagedKafkaAccessConfigurationVpc
-    SelfManagedKafkaAccessConfigurationVpc,
+    SelfManagedKafkaAccessConfigurationVpc (SelfManagedKafkaAccessConfigurationVpc'),
     newSelfManagedKafkaAccessConfigurationVpc,
     selfManagedKafkaAccessConfigurationVpc_securityGroup,
     selfManagedKafkaAccessConfigurationVpc_subnets,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
 
     -- * UpdatePipeSourceActiveMQBrokerParameters
-    UpdatePipeSourceActiveMQBrokerParameters,
+    UpdatePipeSourceActiveMQBrokerParameters (UpdatePipeSourceActiveMQBrokerParameters'),
     newUpdatePipeSourceActiveMQBrokerParameters,
     updatePipeSourceActiveMQBrokerParameters_batchSize,
     updatePipeSourceActiveMQBrokerParameters_maximumBatchingWindowInSeconds,
     updatePipeSourceActiveMQBrokerParameters_credentials,
 
     -- * UpdatePipeSourceDynamoDBStreamParameters
-    UpdatePipeSourceDynamoDBStreamParameters,
+    UpdatePipeSourceDynamoDBStreamParameters (UpdatePipeSourceDynamoDBStreamParameters'),
     newUpdatePipeSourceDynamoDBStreamParameters,
     updatePipeSourceDynamoDBStreamParameters_batchSize,
     updatePipeSourceDynamoDBStreamParameters_deadLetterConfig,
@@ -484,7 +484,7 @@ module Amazonka.Pipes.Types
     updatePipeSourceDynamoDBStreamParameters_parallelizationFactor,
 
     -- * UpdatePipeSourceKinesisStreamParameters
-    UpdatePipeSourceKinesisStreamParameters,
+    UpdatePipeSourceKinesisStreamParameters (UpdatePipeSourceKinesisStreamParameters'),
     newUpdatePipeSourceKinesisStreamParameters,
     updatePipeSourceKinesisStreamParameters_batchSize,
     updatePipeSourceKinesisStreamParameters_deadLetterConfig,
@@ -495,14 +495,14 @@ module Amazonka.Pipes.Types
     updatePipeSourceKinesisStreamParameters_parallelizationFactor,
 
     -- * UpdatePipeSourceManagedStreamingKafkaParameters
-    UpdatePipeSourceManagedStreamingKafkaParameters,
+    UpdatePipeSourceManagedStreamingKafkaParameters (UpdatePipeSourceManagedStreamingKafkaParameters'),
     newUpdatePipeSourceManagedStreamingKafkaParameters,
     updatePipeSourceManagedStreamingKafkaParameters_batchSize,
     updatePipeSourceManagedStreamingKafkaParameters_credentials,
     updatePipeSourceManagedStreamingKafkaParameters_maximumBatchingWindowInSeconds,
 
     -- * UpdatePipeSourceParameters
-    UpdatePipeSourceParameters,
+    UpdatePipeSourceParameters (UpdatePipeSourceParameters'),
     newUpdatePipeSourceParameters,
     updatePipeSourceParameters_activeMQBrokerParameters,
     updatePipeSourceParameters_dynamoDBStreamParameters,
@@ -514,14 +514,14 @@ module Amazonka.Pipes.Types
     updatePipeSourceParameters_sqsQueueParameters,
 
     -- * UpdatePipeSourceRabbitMQBrokerParameters
-    UpdatePipeSourceRabbitMQBrokerParameters,
+    UpdatePipeSourceRabbitMQBrokerParameters (UpdatePipeSourceRabbitMQBrokerParameters'),
     newUpdatePipeSourceRabbitMQBrokerParameters,
     updatePipeSourceRabbitMQBrokerParameters_batchSize,
     updatePipeSourceRabbitMQBrokerParameters_maximumBatchingWindowInSeconds,
     updatePipeSourceRabbitMQBrokerParameters_credentials,
 
     -- * UpdatePipeSourceSelfManagedKafkaParameters
-    UpdatePipeSourceSelfManagedKafkaParameters,
+    UpdatePipeSourceSelfManagedKafkaParameters (UpdatePipeSourceSelfManagedKafkaParameters'),
     newUpdatePipeSourceSelfManagedKafkaParameters,
     updatePipeSourceSelfManagedKafkaParameters_batchSize,
     updatePipeSourceSelfManagedKafkaParameters_credentials,
@@ -530,7 +530,7 @@ module Amazonka.Pipes.Types
     updatePipeSourceSelfManagedKafkaParameters_vpc,
 
     -- * UpdatePipeSourceSqsQueueParameters
-    UpdatePipeSourceSqsQueueParameters,
+    UpdatePipeSourceSqsQueueParameters (UpdatePipeSourceSqsQueueParameters'),
     newUpdatePipeSourceSqsQueueParameters,
     updatePipeSourceSqsQueueParameters_batchSize,
     updatePipeSourceSqsQueueParameters_maximumBatchingWindowInSeconds,

@@ -46,85 +46,85 @@ module Amazonka.WorkDocs.Types
     _UnauthorizedResourceAccessException,
 
     -- * ActivityType
-    ActivityType,
+    ActivityType (ActivityType'),
 
     -- * BooleanEnumType
-    BooleanEnumType,
+    BooleanEnumType (BooleanEnumType'),
 
     -- * CommentStatusType
-    CommentStatusType,
+    CommentStatusType (CommentStatusType'),
 
     -- * CommentVisibilityType
-    CommentVisibilityType,
+    CommentVisibilityType (CommentVisibilityType'),
 
     -- * DocumentSourceType
-    DocumentSourceType,
+    DocumentSourceType (DocumentSourceType'),
 
     -- * DocumentStatusType
-    DocumentStatusType,
+    DocumentStatusType (DocumentStatusType'),
 
     -- * DocumentThumbnailType
-    DocumentThumbnailType,
+    DocumentThumbnailType (DocumentThumbnailType'),
 
     -- * DocumentVersionStatus
-    DocumentVersionStatus,
+    DocumentVersionStatus (DocumentVersionStatus'),
 
     -- * FolderContentType
-    FolderContentType,
+    FolderContentType (FolderContentType'),
 
     -- * LocaleType
-    LocaleType,
+    LocaleType (LocaleType'),
 
     -- * OrderType
-    OrderType,
+    OrderType (OrderType'),
 
     -- * PrincipalType
-    PrincipalType,
+    PrincipalType (PrincipalType'),
 
     -- * ResourceCollectionType
-    ResourceCollectionType,
+    ResourceCollectionType (ResourceCollectionType'),
 
     -- * ResourceSortType
-    ResourceSortType,
+    ResourceSortType (ResourceSortType'),
 
     -- * ResourceStateType
-    ResourceStateType,
+    ResourceStateType (ResourceStateType'),
 
     -- * ResourceType
-    ResourceType,
+    ResourceType (ResourceType'),
 
     -- * RolePermissionType
-    RolePermissionType,
+    RolePermissionType (RolePermissionType'),
 
     -- * RoleType
-    RoleType,
+    RoleType (RoleType'),
 
     -- * ShareStatusType
-    ShareStatusType,
+    ShareStatusType (ShareStatusType'),
 
     -- * StorageType
-    StorageType,
+    StorageType (StorageType'),
 
     -- * SubscriptionProtocolType
-    SubscriptionProtocolType,
+    SubscriptionProtocolType (SubscriptionProtocolType'),
 
     -- * SubscriptionType
-    SubscriptionType,
+    SubscriptionType (SubscriptionType'),
 
     -- * UserFilterType
-    UserFilterType,
+    UserFilterType (UserFilterType'),
 
     -- * UserSortType
-    UserSortType,
+    UserSortType (UserSortType'),
 
     -- * UserStatusType
-    UserStatusType,
+    UserStatusType (UserStatusType'),
 
     -- * UserType
-    UserType,
+    UserType (UserType'),
 
     -- * Activity
-    Activity,
+    Activity (Activity'),
     newActivity,
     activity_commentMetadata,
     activity_initiator,
@@ -137,7 +137,7 @@ module Amazonka.WorkDocs.Types
     activity_type,
 
     -- * Comment
-    Comment,
+    Comment (Comment'),
     newComment,
     comment_contributor,
     comment_createdTimestamp,
@@ -150,7 +150,7 @@ module Amazonka.WorkDocs.Types
     comment_commentId,
 
     -- * CommentMetadata
-    CommentMetadata,
+    CommentMetadata (CommentMetadata'),
     newCommentMetadata,
     commentMetadata_commentId,
     commentMetadata_commentStatus,
@@ -159,7 +159,7 @@ module Amazonka.WorkDocs.Types
     commentMetadata_recipientId,
 
     -- * DocumentMetadata
-    DocumentMetadata,
+    DocumentMetadata (DocumentMetadata'),
     newDocumentMetadata,
     documentMetadata_createdTimestamp,
     documentMetadata_creatorId,
@@ -171,7 +171,7 @@ module Amazonka.WorkDocs.Types
     documentMetadata_resourceState,
 
     -- * DocumentVersionMetadata
-    DocumentVersionMetadata,
+    DocumentVersionMetadata (DocumentVersionMetadata'),
     newDocumentVersionMetadata,
     documentVersionMetadata_contentCreatedTimestamp,
     documentVersionMetadata_contentModifiedTimestamp,
@@ -188,7 +188,7 @@ module Amazonka.WorkDocs.Types
     documentVersionMetadata_thumbnail,
 
     -- * FolderMetadata
-    FolderMetadata,
+    FolderMetadata (FolderMetadata'),
     newFolderMetadata,
     folderMetadata_createdTimestamp,
     folderMetadata_creatorId,
@@ -203,38 +203,38 @@ module Amazonka.WorkDocs.Types
     folderMetadata_size,
 
     -- * GroupMetadata
-    GroupMetadata,
+    GroupMetadata (GroupMetadata'),
     newGroupMetadata,
     groupMetadata_id,
     groupMetadata_name,
 
     -- * NotificationOptions
-    NotificationOptions,
+    NotificationOptions (NotificationOptions'),
     newNotificationOptions,
     notificationOptions_emailMessage,
     notificationOptions_sendEmail,
 
     -- * Participants
-    Participants,
+    Participants (Participants'),
     newParticipants,
     participants_groups,
     participants_users,
 
     -- * PermissionInfo
-    PermissionInfo,
+    PermissionInfo (PermissionInfo'),
     newPermissionInfo,
     permissionInfo_role,
     permissionInfo_type,
 
     -- * Principal
-    Principal,
+    Principal (Principal'),
     newPrincipal,
     principal_id,
     principal_roles,
     principal_type,
 
     -- * ResourceMetadata
-    ResourceMetadata,
+    ResourceMetadata (ResourceMetadata'),
     newResourceMetadata,
     resourceMetadata_id,
     resourceMetadata_name,
@@ -245,25 +245,25 @@ module Amazonka.WorkDocs.Types
     resourceMetadata_versionId,
 
     -- * ResourcePath
-    ResourcePath,
+    ResourcePath (ResourcePath'),
     newResourcePath,
     resourcePath_components,
 
     -- * ResourcePathComponent
-    ResourcePathComponent,
+    ResourcePathComponent (ResourcePathComponent'),
     newResourcePathComponent,
     resourcePathComponent_id,
     resourcePathComponent_name,
 
     -- * SharePrincipal
-    SharePrincipal,
+    SharePrincipal (SharePrincipal'),
     newSharePrincipal,
     sharePrincipal_id,
     sharePrincipal_type,
     sharePrincipal_role,
 
     -- * ShareResult
-    ShareResult,
+    ShareResult (ShareResult'),
     newShareResult,
     shareResult_inviteePrincipalId,
     shareResult_principalId,
@@ -273,26 +273,26 @@ module Amazonka.WorkDocs.Types
     shareResult_statusMessage,
 
     -- * StorageRuleType
-    StorageRuleType,
+    StorageRuleType (StorageRuleType'),
     newStorageRuleType,
     storageRuleType_storageAllocatedInBytes,
     storageRuleType_storageType,
 
     -- * Subscription
-    Subscription,
+    Subscription (Subscription'),
     newSubscription,
     subscription_endPoint,
     subscription_protocol,
     subscription_subscriptionId,
 
     -- * UploadMetadata
-    UploadMetadata,
+    UploadMetadata (UploadMetadata'),
     newUploadMetadata,
     uploadMetadata_signedHeaders,
     uploadMetadata_uploadUrl,
 
     -- * User
-    User,
+    User (User'),
     newUser,
     user_createdTimestamp,
     user_emailAddress,
@@ -311,7 +311,7 @@ module Amazonka.WorkDocs.Types
     user_username,
 
     -- * UserMetadata
-    UserMetadata,
+    UserMetadata (UserMetadata'),
     newUserMetadata,
     userMetadata_emailAddress,
     userMetadata_givenName,
@@ -320,7 +320,7 @@ module Amazonka.WorkDocs.Types
     userMetadata_username,
 
     -- * UserStorageMetadata
-    UserStorageMetadata,
+    UserStorageMetadata (UserStorageMetadata'),
     newUserStorageMetadata,
     userStorageMetadata_storageRule,
     userStorageMetadata_storageUtilizedInBytes,

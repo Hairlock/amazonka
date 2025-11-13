@@ -40,64 +40,64 @@ module Amazonka.ElasticBeanstalk.Types
     _TooManyTagsException,
 
     -- * ActionHistoryStatus
-    ActionHistoryStatus,
+    ActionHistoryStatus (ActionHistoryStatus'),
 
     -- * ActionStatus
-    ActionStatus,
+    ActionStatus (ActionStatus'),
 
     -- * ActionType
-    ActionType,
+    ActionType (ActionType'),
 
     -- * ApplicationVersionStatus
-    ApplicationVersionStatus,
+    ApplicationVersionStatus (ApplicationVersionStatus'),
 
     -- * ComputeType
-    ComputeType,
+    ComputeType (ComputeType'),
 
     -- * ConfigurationDeploymentStatus
-    ConfigurationDeploymentStatus,
+    ConfigurationDeploymentStatus (ConfigurationDeploymentStatus'),
 
     -- * ConfigurationOptionValueType
-    ConfigurationOptionValueType,
+    ConfigurationOptionValueType (ConfigurationOptionValueType'),
 
     -- * EnvironmentHealth
-    EnvironmentHealth,
+    EnvironmentHealth (EnvironmentHealth'),
 
     -- * EnvironmentHealthAttribute
-    EnvironmentHealthAttribute,
+    EnvironmentHealthAttribute (EnvironmentHealthAttribute'),
 
     -- * EnvironmentHealthStatus
-    EnvironmentHealthStatus,
+    EnvironmentHealthStatus (EnvironmentHealthStatus'),
 
     -- * EnvironmentInfoType
-    EnvironmentInfoType,
+    EnvironmentInfoType (EnvironmentInfoType'),
 
     -- * EnvironmentStatus
-    EnvironmentStatus,
+    EnvironmentStatus (EnvironmentStatus'),
 
     -- * EventSeverity
-    EventSeverity,
+    EventSeverity (EventSeverity'),
 
     -- * FailureType
-    FailureType,
+    FailureType (FailureType'),
 
     -- * InstancesHealthAttribute
-    InstancesHealthAttribute,
+    InstancesHealthAttribute (InstancesHealthAttribute'),
 
     -- * PlatformStatus
-    PlatformStatus,
+    PlatformStatus (PlatformStatus'),
 
     -- * SourceRepository
-    SourceRepository,
+    SourceRepository (SourceRepository'),
 
     -- * SourceType
-    SourceType,
+    SourceType (SourceType'),
 
     -- * ValidationSeverity
-    ValidationSeverity,
+    ValidationSeverity (ValidationSeverity'),
 
     -- * ApplicationDescription
-    ApplicationDescription,
+    ApplicationDescription (ApplicationDescription'),
     newApplicationDescription,
     applicationDescription_applicationArn,
     applicationDescription_applicationName,
@@ -109,12 +109,12 @@ module Amazonka.ElasticBeanstalk.Types
     applicationDescription_versions,
 
     -- * ApplicationDescriptionMessage
-    ApplicationDescriptionMessage,
+    ApplicationDescriptionMessage (ApplicationDescriptionMessage'),
     newApplicationDescriptionMessage,
     applicationDescriptionMessage_application,
 
     -- * ApplicationMetrics
-    ApplicationMetrics,
+    ApplicationMetrics (ApplicationMetrics'),
     newApplicationMetrics,
     applicationMetrics_duration,
     applicationMetrics_latency,
@@ -122,13 +122,13 @@ module Amazonka.ElasticBeanstalk.Types
     applicationMetrics_statusCodes,
 
     -- * ApplicationResourceLifecycleConfig
-    ApplicationResourceLifecycleConfig,
+    ApplicationResourceLifecycleConfig (ApplicationResourceLifecycleConfig'),
     newApplicationResourceLifecycleConfig,
     applicationResourceLifecycleConfig_serviceRole,
     applicationResourceLifecycleConfig_versionLifecycleConfig,
 
     -- * ApplicationVersionDescription
-    ApplicationVersionDescription,
+    ApplicationVersionDescription (ApplicationVersionDescription'),
     newApplicationVersionDescription,
     applicationVersionDescription_applicationName,
     applicationVersionDescription_applicationVersionArn,
@@ -142,23 +142,23 @@ module Amazonka.ElasticBeanstalk.Types
     applicationVersionDescription_versionLabel,
 
     -- * ApplicationVersionDescriptionMessage
-    ApplicationVersionDescriptionMessage,
+    ApplicationVersionDescriptionMessage (ApplicationVersionDescriptionMessage'),
     newApplicationVersionDescriptionMessage,
     applicationVersionDescriptionMessage_applicationVersion,
 
     -- * ApplicationVersionLifecycleConfig
-    ApplicationVersionLifecycleConfig,
+    ApplicationVersionLifecycleConfig (ApplicationVersionLifecycleConfig'),
     newApplicationVersionLifecycleConfig,
     applicationVersionLifecycleConfig_maxAgeRule,
     applicationVersionLifecycleConfig_maxCountRule,
 
     -- * AutoScalingGroup
-    AutoScalingGroup,
+    AutoScalingGroup (AutoScalingGroup'),
     newAutoScalingGroup,
     autoScalingGroup_name,
 
     -- * BuildConfiguration
-    BuildConfiguration,
+    BuildConfiguration (BuildConfiguration'),
     newBuildConfiguration,
     buildConfiguration_artifactName,
     buildConfiguration_computeType,
@@ -167,12 +167,12 @@ module Amazonka.ElasticBeanstalk.Types
     buildConfiguration_image,
 
     -- * Builder
-    Builder,
+    Builder (Builder'),
     newBuilder,
     builder_arn,
 
     -- * CPUUtilization
-    CPUUtilization,
+    CPUUtilization (CPUUtilization'),
     newCPUUtilization,
     cPUUtilization_iOWait,
     cPUUtilization_irq,
@@ -184,7 +184,7 @@ module Amazonka.ElasticBeanstalk.Types
     cPUUtilization_user,
 
     -- * ConfigurationOptionDescription
-    ConfigurationOptionDescription,
+    ConfigurationOptionDescription (ConfigurationOptionDescription'),
     newConfigurationOptionDescription,
     configurationOptionDescription_changeSeverity,
     configurationOptionDescription_defaultValue,
@@ -199,7 +199,7 @@ module Amazonka.ElasticBeanstalk.Types
     configurationOptionDescription_valueType,
 
     -- * ConfigurationOptionSetting
-    ConfigurationOptionSetting,
+    ConfigurationOptionSetting (ConfigurationOptionSetting'),
     newConfigurationOptionSetting,
     configurationOptionSetting_namespace,
     configurationOptionSetting_optionName,
@@ -207,7 +207,7 @@ module Amazonka.ElasticBeanstalk.Types
     configurationOptionSetting_value,
 
     -- * ConfigurationSettingsDescription
-    ConfigurationSettingsDescription,
+    ConfigurationSettingsDescription (ConfigurationSettingsDescription'),
     newConfigurationSettingsDescription,
     configurationSettingsDescription_applicationName,
     configurationSettingsDescription_dateCreated,
@@ -221,13 +221,13 @@ module Amazonka.ElasticBeanstalk.Types
     configurationSettingsDescription_templateName,
 
     -- * CustomAmi
-    CustomAmi,
+    CustomAmi (CustomAmi'),
     newCustomAmi,
     customAmi_imageId,
     customAmi_virtualizationType,
 
     -- * Deployment
-    Deployment,
+    Deployment (Deployment'),
     newDeployment,
     deployment_deploymentId,
     deployment_deploymentTime,
@@ -235,7 +235,7 @@ module Amazonka.ElasticBeanstalk.Types
     deployment_versionLabel,
 
     -- * EnvironmentDescription
-    EnvironmentDescription,
+    EnvironmentDescription (EnvironmentDescription'),
     newEnvironmentDescription,
     environmentDescription_abortableOperationInProgress,
     environmentDescription_applicationName,
@@ -260,13 +260,13 @@ module Amazonka.ElasticBeanstalk.Types
     environmentDescription_versionLabel,
 
     -- * EnvironmentDescriptionsMessage
-    EnvironmentDescriptionsMessage,
+    EnvironmentDescriptionsMessage (EnvironmentDescriptionsMessage'),
     newEnvironmentDescriptionsMessage,
     environmentDescriptionsMessage_environments,
     environmentDescriptionsMessage_nextToken,
 
     -- * EnvironmentInfoDescription
-    EnvironmentInfoDescription,
+    EnvironmentInfoDescription (EnvironmentInfoDescription'),
     newEnvironmentInfoDescription,
     environmentInfoDescription_ec2InstanceId,
     environmentInfoDescription_infoType,
@@ -274,13 +274,13 @@ module Amazonka.ElasticBeanstalk.Types
     environmentInfoDescription_sampleTimestamp,
 
     -- * EnvironmentLink
-    EnvironmentLink,
+    EnvironmentLink (EnvironmentLink'),
     newEnvironmentLink,
     environmentLink_environmentName,
     environmentLink_linkName,
 
     -- * EnvironmentResourceDescription
-    EnvironmentResourceDescription,
+    EnvironmentResourceDescription (EnvironmentResourceDescription'),
     newEnvironmentResourceDescription,
     environmentResourceDescription_autoScalingGroups,
     environmentResourceDescription_environmentName,
@@ -292,19 +292,19 @@ module Amazonka.ElasticBeanstalk.Types
     environmentResourceDescription_triggers,
 
     -- * EnvironmentResourcesDescription
-    EnvironmentResourcesDescription,
+    EnvironmentResourcesDescription (EnvironmentResourcesDescription'),
     newEnvironmentResourcesDescription,
     environmentResourcesDescription_loadBalancer,
 
     -- * EnvironmentTier
-    EnvironmentTier,
+    EnvironmentTier (EnvironmentTier'),
     newEnvironmentTier,
     environmentTier_name,
     environmentTier_type,
     environmentTier_version,
 
     -- * EventDescription
-    EventDescription,
+    EventDescription (EventDescription'),
     newEventDescription,
     eventDescription_applicationName,
     eventDescription_environmentName,
@@ -317,12 +317,12 @@ module Amazonka.ElasticBeanstalk.Types
     eventDescription_versionLabel,
 
     -- * Instance
-    Instance,
+    Instance (Instance'),
     newInstance,
     instance_id,
 
     -- * InstanceHealthSummary
-    InstanceHealthSummary,
+    InstanceHealthSummary (InstanceHealthSummary'),
     newInstanceHealthSummary,
     instanceHealthSummary_degraded,
     instanceHealthSummary_info,
@@ -334,7 +334,7 @@ module Amazonka.ElasticBeanstalk.Types
     instanceHealthSummary_warning,
 
     -- * Latency
-    Latency,
+    Latency (Latency'),
     newLatency,
     latency_p10,
     latency_p50,
@@ -346,35 +346,35 @@ module Amazonka.ElasticBeanstalk.Types
     latency_p999,
 
     -- * LaunchConfiguration
-    LaunchConfiguration,
+    LaunchConfiguration (LaunchConfiguration'),
     newLaunchConfiguration,
     launchConfiguration_name,
 
     -- * LaunchTemplate
-    LaunchTemplate,
+    LaunchTemplate (LaunchTemplate'),
     newLaunchTemplate,
     launchTemplate_id,
 
     -- * Listener
-    Listener,
+    Listener (Listener'),
     newListener,
     listener_port,
     listener_protocol,
 
     -- * LoadBalancer
-    LoadBalancer,
+    LoadBalancer (LoadBalancer'),
     newLoadBalancer,
     loadBalancer_name,
 
     -- * LoadBalancerDescription
-    LoadBalancerDescription,
+    LoadBalancerDescription (LoadBalancerDescription'),
     newLoadBalancerDescription,
     loadBalancerDescription_domain,
     loadBalancerDescription_listeners,
     loadBalancerDescription_loadBalancerName,
 
     -- * ManagedAction
-    ManagedAction,
+    ManagedAction (ManagedAction'),
     newManagedAction,
     managedAction_actionDescription,
     managedAction_actionId,
@@ -383,7 +383,7 @@ module Amazonka.ElasticBeanstalk.Types
     managedAction_windowStartTime,
 
     -- * ManagedActionHistoryItem
-    ManagedActionHistoryItem,
+    ManagedActionHistoryItem (ManagedActionHistoryItem'),
     newManagedActionHistoryItem,
     managedActionHistoryItem_actionDescription,
     managedActionHistoryItem_actionId,
@@ -395,34 +395,34 @@ module Amazonka.ElasticBeanstalk.Types
     managedActionHistoryItem_status,
 
     -- * MaxAgeRule
-    MaxAgeRule,
+    MaxAgeRule (MaxAgeRule'),
     newMaxAgeRule,
     maxAgeRule_deleteSourceFromS3,
     maxAgeRule_maxAgeInDays,
     maxAgeRule_enabled,
 
     -- * MaxCountRule
-    MaxCountRule,
+    MaxCountRule (MaxCountRule'),
     newMaxCountRule,
     maxCountRule_deleteSourceFromS3,
     maxCountRule_maxCount,
     maxCountRule_enabled,
 
     -- * OptionRestrictionRegex
-    OptionRestrictionRegex,
+    OptionRestrictionRegex (OptionRestrictionRegex'),
     newOptionRestrictionRegex,
     optionRestrictionRegex_label,
     optionRestrictionRegex_pattern,
 
     -- * OptionSpecification
-    OptionSpecification,
+    OptionSpecification (OptionSpecification'),
     newOptionSpecification,
     optionSpecification_namespace,
     optionSpecification_optionName,
     optionSpecification_resourceName,
 
     -- * PlatformBranchSummary
-    PlatformBranchSummary,
+    PlatformBranchSummary (PlatformBranchSummary'),
     newPlatformBranchSummary,
     platformBranchSummary_branchName,
     platformBranchSummary_branchOrder,
@@ -431,7 +431,7 @@ module Amazonka.ElasticBeanstalk.Types
     platformBranchSummary_supportedTierList,
 
     -- * PlatformDescription
-    PlatformDescription,
+    PlatformDescription (PlatformDescription'),
     newPlatformDescription,
     platformDescription_customAmiList,
     platformDescription_dateCreated,
@@ -456,26 +456,26 @@ module Amazonka.ElasticBeanstalk.Types
     platformDescription_supportedTierList,
 
     -- * PlatformFilter
-    PlatformFilter,
+    PlatformFilter (PlatformFilter'),
     newPlatformFilter,
     platformFilter_operator,
     platformFilter_type,
     platformFilter_values,
 
     -- * PlatformFramework
-    PlatformFramework,
+    PlatformFramework (PlatformFramework'),
     newPlatformFramework,
     platformFramework_name,
     platformFramework_version,
 
     -- * PlatformProgrammingLanguage
-    PlatformProgrammingLanguage,
+    PlatformProgrammingLanguage (PlatformProgrammingLanguage'),
     newPlatformProgrammingLanguage,
     platformProgrammingLanguage_name,
     platformProgrammingLanguage_version,
 
     -- * PlatformSummary
-    PlatformSummary,
+    PlatformSummary (PlatformSummary'),
     newPlatformSummary,
     platformSummary_operatingSystemName,
     platformSummary_operatingSystemVersion,
@@ -491,18 +491,18 @@ module Amazonka.ElasticBeanstalk.Types
     platformSummary_supportedTierList,
 
     -- * Queue
-    Queue,
+    Queue (Queue'),
     newQueue,
     queue_name,
     queue_url,
 
     -- * ResourceQuota
-    ResourceQuota,
+    ResourceQuota (ResourceQuota'),
     newResourceQuota,
     resourceQuota_maximum,
 
     -- * ResourceQuotas
-    ResourceQuotas,
+    ResourceQuotas (ResourceQuotas'),
     newResourceQuotas,
     resourceQuotas_applicationQuota,
     resourceQuotas_applicationVersionQuota,
@@ -511,20 +511,20 @@ module Amazonka.ElasticBeanstalk.Types
     resourceQuotas_environmentQuota,
 
     -- * S3Location
-    S3Location,
+    S3Location (S3Location'),
     newS3Location,
     s3Location_s3Bucket,
     s3Location_s3Key,
 
     -- * SearchFilter
-    SearchFilter,
+    SearchFilter (SearchFilter'),
     newSearchFilter,
     searchFilter_attribute,
     searchFilter_operator,
     searchFilter_values,
 
     -- * SingleInstanceHealth
-    SingleInstanceHealth,
+    SingleInstanceHealth (SingleInstanceHealth'),
     newSingleInstanceHealth,
     singleInstanceHealth_applicationMetrics,
     singleInstanceHealth_availabilityZone,
@@ -538,26 +538,26 @@ module Amazonka.ElasticBeanstalk.Types
     singleInstanceHealth_system,
 
     -- * SolutionStackDescription
-    SolutionStackDescription,
+    SolutionStackDescription (SolutionStackDescription'),
     newSolutionStackDescription,
     solutionStackDescription_permittedFileTypes,
     solutionStackDescription_solutionStackName,
 
     -- * SourceBuildInformation
-    SourceBuildInformation,
+    SourceBuildInformation (SourceBuildInformation'),
     newSourceBuildInformation,
     sourceBuildInformation_sourceType,
     sourceBuildInformation_sourceRepository,
     sourceBuildInformation_sourceLocation,
 
     -- * SourceConfiguration
-    SourceConfiguration,
+    SourceConfiguration (SourceConfiguration'),
     newSourceConfiguration,
     sourceConfiguration_applicationName,
     sourceConfiguration_templateName,
 
     -- * StatusCodes
-    StatusCodes,
+    StatusCodes (StatusCodes'),
     newStatusCodes,
     statusCodes_status2xx,
     statusCodes_status3xx,
@@ -565,24 +565,24 @@ module Amazonka.ElasticBeanstalk.Types
     statusCodes_status5xx,
 
     -- * SystemStatus
-    SystemStatus,
+    SystemStatus (SystemStatus'),
     newSystemStatus,
     systemStatus_cPUUtilization,
     systemStatus_loadAverage,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
 
     -- * Trigger
-    Trigger,
+    Trigger (Trigger'),
     newTrigger,
     trigger_name,
 
     -- * ValidationMessage
-    ValidationMessage,
+    ValidationMessage (ValidationMessage'),
     newValidationMessage,
     validationMessage_message,
     validationMessage_namespace,

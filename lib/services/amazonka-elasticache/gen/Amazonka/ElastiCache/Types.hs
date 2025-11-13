@@ -88,102 +88,102 @@ module Amazonka.ElastiCache.Types
     _UserQuotaExceededFault,
 
     -- * AZMode
-    AZMode,
+    AZMode (AZMode'),
 
     -- * AuthTokenUpdateStatus
-    AuthTokenUpdateStatus,
+    AuthTokenUpdateStatus (AuthTokenUpdateStatus'),
 
     -- * AuthTokenUpdateStrategyType
-    AuthTokenUpdateStrategyType,
+    AuthTokenUpdateStrategyType (AuthTokenUpdateStrategyType'),
 
     -- * AuthenticationType
-    AuthenticationType,
+    AuthenticationType (AuthenticationType'),
 
     -- * AutomaticFailoverStatus
-    AutomaticFailoverStatus,
+    AutomaticFailoverStatus (AutomaticFailoverStatus'),
 
     -- * ChangeType
-    ChangeType,
+    ChangeType (ChangeType'),
 
     -- * DataTieringStatus
-    DataTieringStatus,
+    DataTieringStatus (DataTieringStatus'),
 
     -- * DestinationType
-    DestinationType,
+    DestinationType (DestinationType'),
 
     -- * InputAuthenticationType
-    InputAuthenticationType,
+    InputAuthenticationType (InputAuthenticationType'),
 
     -- * IpDiscovery
-    IpDiscovery,
+    IpDiscovery (IpDiscovery'),
 
     -- * LogDeliveryConfigurationStatus
-    LogDeliveryConfigurationStatus,
+    LogDeliveryConfigurationStatus (LogDeliveryConfigurationStatus'),
 
     -- * LogFormat
-    LogFormat,
+    LogFormat (LogFormat'),
 
     -- * LogType
-    LogType,
+    LogType (LogType'),
 
     -- * MultiAZStatus
-    MultiAZStatus,
+    MultiAZStatus (MultiAZStatus'),
 
     -- * NetworkType
-    NetworkType,
+    NetworkType (NetworkType'),
 
     -- * NodeUpdateInitiatedBy
-    NodeUpdateInitiatedBy,
+    NodeUpdateInitiatedBy (NodeUpdateInitiatedBy'),
 
     -- * NodeUpdateStatus
-    NodeUpdateStatus,
+    NodeUpdateStatus (NodeUpdateStatus'),
 
     -- * OutpostMode
-    OutpostMode,
+    OutpostMode (OutpostMode'),
 
     -- * PendingAutomaticFailoverStatus
-    PendingAutomaticFailoverStatus,
+    PendingAutomaticFailoverStatus (PendingAutomaticFailoverStatus'),
 
     -- * ServiceUpdateSeverity
-    ServiceUpdateSeverity,
+    ServiceUpdateSeverity (ServiceUpdateSeverity'),
 
     -- * ServiceUpdateStatus
-    ServiceUpdateStatus,
+    ServiceUpdateStatus (ServiceUpdateStatus'),
 
     -- * ServiceUpdateType
-    ServiceUpdateType,
+    ServiceUpdateType (ServiceUpdateType'),
 
     -- * SlaMet
-    SlaMet,
+    SlaMet (SlaMet'),
 
     -- * SourceType
-    SourceType,
+    SourceType (SourceType'),
 
     -- * TransitEncryptionMode
-    TransitEncryptionMode,
+    TransitEncryptionMode (TransitEncryptionMode'),
 
     -- * UpdateActionStatus
-    UpdateActionStatus,
+    UpdateActionStatus (UpdateActionStatus'),
 
     -- * Authentication
-    Authentication,
+    Authentication (Authentication'),
     newAuthentication,
     authentication_passwordCount,
     authentication_type,
 
     -- * AuthenticationMode
-    AuthenticationMode,
+    AuthenticationMode (AuthenticationMode'),
     newAuthenticationMode,
     authenticationMode_passwords,
     authenticationMode_type,
 
     -- * AvailabilityZone
-    AvailabilityZone,
+    AvailabilityZone (AvailabilityZone'),
     newAvailabilityZone,
     availabilityZone_name,
 
     -- * CacheCluster
-    CacheCluster,
+    CacheCluster (CacheCluster'),
     newCacheCluster,
     cacheCluster_arn,
     cacheCluster_atRestEncryptionEnabled,
@@ -220,7 +220,7 @@ module Amazonka.ElastiCache.Types
     cacheCluster_transitEncryptionMode,
 
     -- * CacheEngineVersion
-    CacheEngineVersion,
+    CacheEngineVersion (CacheEngineVersion'),
     newCacheEngineVersion,
     cacheEngineVersion_cacheEngineDescription,
     cacheEngineVersion_cacheEngineVersionDescription,
@@ -229,7 +229,7 @@ module Amazonka.ElastiCache.Types
     cacheEngineVersion_engineVersion,
 
     -- * CacheNode
-    CacheNode,
+    CacheNode (CacheNode'),
     newCacheNode,
     cacheNode_cacheNodeCreateTime,
     cacheNode_cacheNodeId,
@@ -241,7 +241,7 @@ module Amazonka.ElastiCache.Types
     cacheNode_sourceCacheNodeId,
 
     -- * CacheNodeTypeSpecificParameter
-    CacheNodeTypeSpecificParameter,
+    CacheNodeTypeSpecificParameter (CacheNodeTypeSpecificParameter'),
     newCacheNodeTypeSpecificParameter,
     cacheNodeTypeSpecificParameter_allowedValues,
     cacheNodeTypeSpecificParameter_cacheNodeTypeSpecificValues,
@@ -254,13 +254,13 @@ module Amazonka.ElastiCache.Types
     cacheNodeTypeSpecificParameter_source,
 
     -- * CacheNodeTypeSpecificValue
-    CacheNodeTypeSpecificValue,
+    CacheNodeTypeSpecificValue (CacheNodeTypeSpecificValue'),
     newCacheNodeTypeSpecificValue,
     cacheNodeTypeSpecificValue_cacheNodeType,
     cacheNodeTypeSpecificValue_value,
 
     -- * CacheNodeUpdateStatus
-    CacheNodeUpdateStatus,
+    CacheNodeUpdateStatus (CacheNodeUpdateStatus'),
     newCacheNodeUpdateStatus,
     cacheNodeUpdateStatus_cacheNodeId,
     cacheNodeUpdateStatus_nodeDeletionDate,
@@ -272,7 +272,7 @@ module Amazonka.ElastiCache.Types
     cacheNodeUpdateStatus_nodeUpdateStatusModifiedDate,
 
     -- * CacheParameterGroup
-    CacheParameterGroup,
+    CacheParameterGroup (CacheParameterGroup'),
     newCacheParameterGroup,
     cacheParameterGroup_arn,
     cacheParameterGroup_cacheParameterGroupFamily,
@@ -281,19 +281,19 @@ module Amazonka.ElastiCache.Types
     cacheParameterGroup_isGlobal,
 
     -- * CacheParameterGroupNameMessage
-    CacheParameterGroupNameMessage,
+    CacheParameterGroupNameMessage (CacheParameterGroupNameMessage'),
     newCacheParameterGroupNameMessage,
     cacheParameterGroupNameMessage_cacheParameterGroupName,
 
     -- * CacheParameterGroupStatus
-    CacheParameterGroupStatus,
+    CacheParameterGroupStatus (CacheParameterGroupStatus'),
     newCacheParameterGroupStatus,
     cacheParameterGroupStatus_cacheNodeIdsToReboot,
     cacheParameterGroupStatus_cacheParameterGroupName,
     cacheParameterGroupStatus_parameterApplyStatus,
 
     -- * CacheSecurityGroup
-    CacheSecurityGroup,
+    CacheSecurityGroup (CacheSecurityGroup'),
     newCacheSecurityGroup,
     cacheSecurityGroup_arn,
     cacheSecurityGroup_cacheSecurityGroupName,
@@ -302,13 +302,13 @@ module Amazonka.ElastiCache.Types
     cacheSecurityGroup_ownerId,
 
     -- * CacheSecurityGroupMembership
-    CacheSecurityGroupMembership,
+    CacheSecurityGroupMembership (CacheSecurityGroupMembership'),
     newCacheSecurityGroupMembership,
     cacheSecurityGroupMembership_cacheSecurityGroupName,
     cacheSecurityGroupMembership_status,
 
     -- * CacheSubnetGroup
-    CacheSubnetGroup,
+    CacheSubnetGroup (CacheSubnetGroup'),
     newCacheSubnetGroup,
     cacheSubnetGroup_arn,
     cacheSubnetGroup_cacheSubnetGroupDescription,
@@ -318,12 +318,12 @@ module Amazonka.ElastiCache.Types
     cacheSubnetGroup_vpcId,
 
     -- * CloudWatchLogsDestinationDetails
-    CloudWatchLogsDestinationDetails,
+    CloudWatchLogsDestinationDetails (CloudWatchLogsDestinationDetails'),
     newCloudWatchLogsDestinationDetails,
     cloudWatchLogsDestinationDetails_logGroup,
 
     -- * ConfigureShard
-    ConfigureShard,
+    ConfigureShard (ConfigureShard'),
     newConfigureShard,
     configureShard_preferredAvailabilityZones,
     configureShard_preferredOutpostArns,
@@ -331,32 +331,32 @@ module Amazonka.ElastiCache.Types
     configureShard_newReplicaCount,
 
     -- * CustomerNodeEndpoint
-    CustomerNodeEndpoint,
+    CustomerNodeEndpoint (CustomerNodeEndpoint'),
     newCustomerNodeEndpoint,
     customerNodeEndpoint_address,
     customerNodeEndpoint_port,
 
     -- * DestinationDetails
-    DestinationDetails,
+    DestinationDetails (DestinationDetails'),
     newDestinationDetails,
     destinationDetails_cloudWatchLogsDetails,
     destinationDetails_kinesisFirehoseDetails,
 
     -- * EC2SecurityGroup
-    EC2SecurityGroup,
+    EC2SecurityGroup (EC2SecurityGroup'),
     newEC2SecurityGroup,
     eC2SecurityGroup_eC2SecurityGroupName,
     eC2SecurityGroup_eC2SecurityGroupOwnerId,
     eC2SecurityGroup_status,
 
     -- * Endpoint
-    Endpoint,
+    Endpoint (Endpoint'),
     newEndpoint,
     endpoint_address,
     endpoint_port,
 
     -- * EngineDefaults
-    EngineDefaults,
+    EngineDefaults (EngineDefaults'),
     newEngineDefaults,
     engineDefaults_cacheNodeTypeSpecificParameters,
     engineDefaults_cacheParameterGroupFamily,
@@ -364,7 +364,7 @@ module Amazonka.ElastiCache.Types
     engineDefaults_parameters,
 
     -- * Event
-    Event,
+    Event (Event'),
     newEvent,
     event_date,
     event_message,
@@ -372,19 +372,19 @@ module Amazonka.ElastiCache.Types
     event_sourceType,
 
     -- * Filter
-    Filter,
+    Filter (Filter'),
     newFilter,
     filter_name,
     filter_values,
 
     -- * GlobalNodeGroup
-    GlobalNodeGroup,
+    GlobalNodeGroup (GlobalNodeGroup'),
     newGlobalNodeGroup,
     globalNodeGroup_globalNodeGroupId,
     globalNodeGroup_slots,
 
     -- * GlobalReplicationGroup
-    GlobalReplicationGroup,
+    GlobalReplicationGroup (GlobalReplicationGroup'),
     newGlobalReplicationGroup,
     globalReplicationGroup_arn,
     globalReplicationGroup_atRestEncryptionEnabled,
@@ -401,13 +401,13 @@ module Amazonka.ElastiCache.Types
     globalReplicationGroup_transitEncryptionEnabled,
 
     -- * GlobalReplicationGroupInfo
-    GlobalReplicationGroupInfo,
+    GlobalReplicationGroupInfo (GlobalReplicationGroupInfo'),
     newGlobalReplicationGroupInfo,
     globalReplicationGroupInfo_globalReplicationGroupId,
     globalReplicationGroupInfo_globalReplicationGroupMemberRole,
 
     -- * GlobalReplicationGroupMember
-    GlobalReplicationGroupMember,
+    GlobalReplicationGroupMember (GlobalReplicationGroupMember'),
     newGlobalReplicationGroupMember,
     globalReplicationGroupMember_automaticFailover,
     globalReplicationGroupMember_replicationGroupId,
@@ -416,12 +416,12 @@ module Amazonka.ElastiCache.Types
     globalReplicationGroupMember_status,
 
     -- * KinesisFirehoseDestinationDetails
-    KinesisFirehoseDestinationDetails,
+    KinesisFirehoseDestinationDetails (KinesisFirehoseDestinationDetails'),
     newKinesisFirehoseDestinationDetails,
     kinesisFirehoseDestinationDetails_deliveryStream,
 
     -- * LogDeliveryConfiguration
-    LogDeliveryConfiguration,
+    LogDeliveryConfiguration (LogDeliveryConfiguration'),
     newLogDeliveryConfiguration,
     logDeliveryConfiguration_destinationDetails,
     logDeliveryConfiguration_destinationType,
@@ -431,7 +431,7 @@ module Amazonka.ElastiCache.Types
     logDeliveryConfiguration_status,
 
     -- * LogDeliveryConfigurationRequest
-    LogDeliveryConfigurationRequest,
+    LogDeliveryConfigurationRequest (LogDeliveryConfigurationRequest'),
     newLogDeliveryConfigurationRequest,
     logDeliveryConfigurationRequest_destinationDetails,
     logDeliveryConfigurationRequest_destinationType,
@@ -440,7 +440,7 @@ module Amazonka.ElastiCache.Types
     logDeliveryConfigurationRequest_logType,
 
     -- * NodeGroup
-    NodeGroup,
+    NodeGroup (NodeGroup'),
     newNodeGroup,
     nodeGroup_nodeGroupId,
     nodeGroup_nodeGroupMembers,
@@ -450,7 +450,7 @@ module Amazonka.ElastiCache.Types
     nodeGroup_status,
 
     -- * NodeGroupConfiguration
-    NodeGroupConfiguration,
+    NodeGroupConfiguration (NodeGroupConfiguration'),
     newNodeGroupConfiguration,
     nodeGroupConfiguration_nodeGroupId,
     nodeGroupConfiguration_primaryAvailabilityZone,
@@ -461,7 +461,7 @@ module Amazonka.ElastiCache.Types
     nodeGroupConfiguration_slots,
 
     -- * NodeGroupMember
-    NodeGroupMember,
+    NodeGroupMember (NodeGroupMember'),
     newNodeGroupMember,
     nodeGroupMember_cacheClusterId,
     nodeGroupMember_cacheNodeId,
@@ -471,7 +471,7 @@ module Amazonka.ElastiCache.Types
     nodeGroupMember_readEndpoint,
 
     -- * NodeGroupMemberUpdateStatus
-    NodeGroupMemberUpdateStatus,
+    NodeGroupMemberUpdateStatus (NodeGroupMemberUpdateStatus'),
     newNodeGroupMemberUpdateStatus,
     nodeGroupMemberUpdateStatus_cacheClusterId,
     nodeGroupMemberUpdateStatus_cacheNodeId,
@@ -484,13 +484,13 @@ module Amazonka.ElastiCache.Types
     nodeGroupMemberUpdateStatus_nodeUpdateStatusModifiedDate,
 
     -- * NodeGroupUpdateStatus
-    NodeGroupUpdateStatus,
+    NodeGroupUpdateStatus (NodeGroupUpdateStatus'),
     newNodeGroupUpdateStatus,
     nodeGroupUpdateStatus_nodeGroupId,
     nodeGroupUpdateStatus_nodeGroupMemberUpdateStatus,
 
     -- * NodeSnapshot
-    NodeSnapshot,
+    NodeSnapshot (NodeSnapshot'),
     newNodeSnapshot,
     nodeSnapshot_cacheClusterId,
     nodeSnapshot_cacheNodeCreateTime,
@@ -501,13 +501,13 @@ module Amazonka.ElastiCache.Types
     nodeSnapshot_snapshotCreateTime,
 
     -- * NotificationConfiguration
-    NotificationConfiguration,
+    NotificationConfiguration (NotificationConfiguration'),
     newNotificationConfiguration,
     notificationConfiguration_topicArn,
     notificationConfiguration_topicStatus,
 
     -- * Parameter
-    Parameter,
+    Parameter (Parameter'),
     newParameter,
     parameter_allowedValues,
     parameter_changeType,
@@ -520,13 +520,13 @@ module Amazonka.ElastiCache.Types
     parameter_source,
 
     -- * ParameterNameValue
-    ParameterNameValue,
+    ParameterNameValue (ParameterNameValue'),
     newParameterNameValue,
     parameterNameValue_parameterName,
     parameterNameValue_parameterValue,
 
     -- * PendingLogDeliveryConfiguration
-    PendingLogDeliveryConfiguration,
+    PendingLogDeliveryConfiguration (PendingLogDeliveryConfiguration'),
     newPendingLogDeliveryConfiguration,
     pendingLogDeliveryConfiguration_destinationDetails,
     pendingLogDeliveryConfiguration_destinationType,
@@ -534,7 +534,7 @@ module Amazonka.ElastiCache.Types
     pendingLogDeliveryConfiguration_logType,
 
     -- * PendingModifiedValues
-    PendingModifiedValues,
+    PendingModifiedValues (PendingModifiedValues'),
     newPendingModifiedValues,
     pendingModifiedValues_authTokenStatus,
     pendingModifiedValues_cacheNodeIdsToRemove,
@@ -546,7 +546,7 @@ module Amazonka.ElastiCache.Types
     pendingModifiedValues_transitEncryptionMode,
 
     -- * ProcessedUpdateAction
-    ProcessedUpdateAction,
+    ProcessedUpdateAction (ProcessedUpdateAction'),
     newProcessedUpdateAction,
     processedUpdateAction_cacheClusterId,
     processedUpdateAction_replicationGroupId,
@@ -554,20 +554,20 @@ module Amazonka.ElastiCache.Types
     processedUpdateAction_updateActionStatus,
 
     -- * RecurringCharge
-    RecurringCharge,
+    RecurringCharge (RecurringCharge'),
     newRecurringCharge,
     recurringCharge_recurringChargeAmount,
     recurringCharge_recurringChargeFrequency,
 
     -- * RegionalConfiguration
-    RegionalConfiguration,
+    RegionalConfiguration (RegionalConfiguration'),
     newRegionalConfiguration,
     regionalConfiguration_replicationGroupId,
     regionalConfiguration_replicationGroupRegion,
     regionalConfiguration_reshardingConfiguration,
 
     -- * ReplicationGroup
-    ReplicationGroup,
+    ReplicationGroup (ReplicationGroup'),
     newReplicationGroup,
     replicationGroup_arn,
     replicationGroup_atRestEncryptionEnabled,
@@ -601,7 +601,7 @@ module Amazonka.ElastiCache.Types
     replicationGroup_userGroupIds,
 
     -- * ReplicationGroupPendingModifiedValues
-    ReplicationGroupPendingModifiedValues,
+    ReplicationGroupPendingModifiedValues (ReplicationGroupPendingModifiedValues'),
     newReplicationGroupPendingModifiedValues,
     replicationGroupPendingModifiedValues_authTokenStatus,
     replicationGroupPendingModifiedValues_automaticFailoverStatus,
@@ -613,7 +613,7 @@ module Amazonka.ElastiCache.Types
     replicationGroupPendingModifiedValues_userGroups,
 
     -- * ReservedCacheNode
-    ReservedCacheNode,
+    ReservedCacheNode (ReservedCacheNode'),
     newReservedCacheNode,
     reservedCacheNode_cacheNodeCount,
     reservedCacheNode_cacheNodeType,
@@ -630,7 +630,7 @@ module Amazonka.ElastiCache.Types
     reservedCacheNode_usagePrice,
 
     -- * ReservedCacheNodesOffering
-    ReservedCacheNodesOffering,
+    ReservedCacheNodesOffering (ReservedCacheNodesOffering'),
     newReservedCacheNodesOffering,
     reservedCacheNodesOffering_cacheNodeType,
     reservedCacheNodesOffering_duration,
@@ -642,24 +642,24 @@ module Amazonka.ElastiCache.Types
     reservedCacheNodesOffering_usagePrice,
 
     -- * ReshardingConfiguration
-    ReshardingConfiguration,
+    ReshardingConfiguration (ReshardingConfiguration'),
     newReshardingConfiguration,
     reshardingConfiguration_nodeGroupId,
     reshardingConfiguration_preferredAvailabilityZones,
 
     -- * ReshardingStatus
-    ReshardingStatus,
+    ReshardingStatus (ReshardingStatus'),
     newReshardingStatus,
     reshardingStatus_slotMigration,
 
     -- * SecurityGroupMembership
-    SecurityGroupMembership,
+    SecurityGroupMembership (SecurityGroupMembership'),
     newSecurityGroupMembership,
     securityGroupMembership_securityGroupId,
     securityGroupMembership_status,
 
     -- * ServiceUpdate
-    ServiceUpdate,
+    ServiceUpdate (ServiceUpdate'),
     newServiceUpdate,
     serviceUpdate_autoUpdateAfterRecommendedApplyByDate,
     serviceUpdate_engine,
@@ -675,12 +675,12 @@ module Amazonka.ElastiCache.Types
     serviceUpdate_serviceUpdateType,
 
     -- * SlotMigration
-    SlotMigration,
+    SlotMigration (SlotMigration'),
     newSlotMigration,
     slotMigration_progressPercentage,
 
     -- * Snapshot
-    Snapshot,
+    Snapshot (Snapshot'),
     newSnapshot,
     snapshot_arn,
     snapshot_autoMinorVersionUpgrade,
@@ -712,7 +712,7 @@ module Amazonka.ElastiCache.Types
     snapshot_vpcId,
 
     -- * Subnet
-    Subnet,
+    Subnet (Subnet'),
     newSubnet,
     subnet_subnetAvailabilityZone,
     subnet_subnetIdentifier,
@@ -720,29 +720,29 @@ module Amazonka.ElastiCache.Types
     subnet_supportedNetworkTypes,
 
     -- * SubnetOutpost
-    SubnetOutpost,
+    SubnetOutpost (SubnetOutpost'),
     newSubnetOutpost,
     subnetOutpost_subnetOutpostArn,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
 
     -- * TagListMessage
-    TagListMessage,
+    TagListMessage (TagListMessage'),
     newTagListMessage,
     tagListMessage_tagList,
 
     -- * TimeRangeFilter
-    TimeRangeFilter,
+    TimeRangeFilter (TimeRangeFilter'),
     newTimeRangeFilter,
     timeRangeFilter_endTime,
     timeRangeFilter_startTime,
 
     -- * UnprocessedUpdateAction
-    UnprocessedUpdateAction,
+    UnprocessedUpdateAction (UnprocessedUpdateAction'),
     newUnprocessedUpdateAction,
     unprocessedUpdateAction_cacheClusterId,
     unprocessedUpdateAction_errorMessage,
@@ -751,7 +751,7 @@ module Amazonka.ElastiCache.Types
     unprocessedUpdateAction_serviceUpdateName,
 
     -- * UpdateAction
-    UpdateAction,
+    UpdateAction (UpdateAction'),
     newUpdateAction,
     updateAction_cacheClusterId,
     updateAction_cacheNodeUpdateStatus,
@@ -772,13 +772,13 @@ module Amazonka.ElastiCache.Types
     updateAction_updateActionStatusModifiedDate,
 
     -- * UpdateActionResultsMessage
-    UpdateActionResultsMessage,
+    UpdateActionResultsMessage (UpdateActionResultsMessage'),
     newUpdateActionResultsMessage,
     updateActionResultsMessage_processedUpdateActions,
     updateActionResultsMessage_unprocessedUpdateActions,
 
     -- * User
-    User,
+    User (User'),
     newUser,
     user_arn,
     user_accessString,
@@ -791,7 +791,7 @@ module Amazonka.ElastiCache.Types
     user_userName,
 
     -- * UserGroup
-    UserGroup,
+    UserGroup (UserGroup'),
     newUserGroup,
     userGroup_arn,
     userGroup_engine,
@@ -803,13 +803,13 @@ module Amazonka.ElastiCache.Types
     userGroup_userIds,
 
     -- * UserGroupPendingChanges
-    UserGroupPendingChanges,
+    UserGroupPendingChanges (UserGroupPendingChanges'),
     newUserGroupPendingChanges,
     userGroupPendingChanges_userIdsToAdd,
     userGroupPendingChanges_userIdsToRemove,
 
     -- * UserGroupsUpdateStatus
-    UserGroupsUpdateStatus,
+    UserGroupsUpdateStatus (UserGroupsUpdateStatus'),
     newUserGroupsUpdateStatus,
     userGroupsUpdateStatus_userGroupIdsToAdd,
     userGroupsUpdateStatus_userGroupIdsToRemove,

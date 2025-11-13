@@ -32,44 +32,44 @@ module Amazonka.LexRuntime.Types
     _UnsupportedMediaTypeException,
 
     -- * ConfirmationStatus
-    ConfirmationStatus,
+    ConfirmationStatus (ConfirmationStatus'),
 
     -- * ContentType
-    ContentType,
+    ContentType (ContentType'),
 
     -- * DialogActionType
-    DialogActionType,
+    DialogActionType (DialogActionType'),
 
     -- * DialogState
-    DialogState,
+    DialogState (DialogState'),
 
     -- * FulfillmentState
-    FulfillmentState,
+    FulfillmentState (FulfillmentState'),
 
     -- * MessageFormatType
-    MessageFormatType,
+    MessageFormatType (MessageFormatType'),
 
     -- * ActiveContext
-    ActiveContext,
+    ActiveContext (ActiveContext'),
     newActiveContext,
     activeContext_name,
     activeContext_timeToLive,
     activeContext_parameters,
 
     -- * ActiveContextTimeToLive
-    ActiveContextTimeToLive,
+    ActiveContextTimeToLive (ActiveContextTimeToLive'),
     newActiveContextTimeToLive,
     activeContextTimeToLive_timeToLiveInSeconds,
     activeContextTimeToLive_turnsToLive,
 
     -- * Button
-    Button,
+    Button (Button'),
     newButton,
     button_text,
     button_value,
 
     -- * DialogAction
-    DialogAction,
+    DialogAction (DialogAction'),
     newDialogAction,
     dialogAction_fulfillmentState,
     dialogAction_intentName,
@@ -80,7 +80,7 @@ module Amazonka.LexRuntime.Types
     dialogAction_type,
 
     -- * GenericAttachment
-    GenericAttachment,
+    GenericAttachment (GenericAttachment'),
     newGenericAttachment,
     genericAttachment_attachmentLinkUrl,
     genericAttachment_buttons,
@@ -89,12 +89,12 @@ module Amazonka.LexRuntime.Types
     genericAttachment_title,
 
     -- * IntentConfidence
-    IntentConfidence,
+    IntentConfidence (IntentConfidence'),
     newIntentConfidence,
     intentConfidence_score,
 
     -- * IntentSummary
-    IntentSummary,
+    IntentSummary (IntentSummary'),
     newIntentSummary,
     intentSummary_checkpointLabel,
     intentSummary_confirmationStatus,
@@ -105,21 +105,21 @@ module Amazonka.LexRuntime.Types
     intentSummary_dialogActionType,
 
     -- * PredictedIntent
-    PredictedIntent,
+    PredictedIntent (PredictedIntent'),
     newPredictedIntent,
     predictedIntent_intentName,
     predictedIntent_nluIntentConfidence,
     predictedIntent_slots,
 
     -- * ResponseCard
-    ResponseCard,
+    ResponseCard (ResponseCard'),
     newResponseCard,
     responseCard_contentType,
     responseCard_genericAttachments,
     responseCard_version,
 
     -- * SentimentResponse
-    SentimentResponse,
+    SentimentResponse (SentimentResponse'),
     newSentimentResponse,
     sentimentResponse_sentimentLabel,
     sentimentResponse_sentimentScore,

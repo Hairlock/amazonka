@@ -24,121 +24,121 @@ module Amazonka.EMR.Types
     _InvalidRequestException,
 
     -- * ActionOnFailure
-    ActionOnFailure,
+    ActionOnFailure (ActionOnFailure'),
 
     -- * AdjustmentType
-    AdjustmentType,
+    AdjustmentType (AdjustmentType'),
 
     -- * AuthMode
-    AuthMode,
+    AuthMode (AuthMode'),
 
     -- * AutoScalingPolicyState
-    AutoScalingPolicyState,
+    AutoScalingPolicyState (AutoScalingPolicyState'),
 
     -- * AutoScalingPolicyStateChangeReasonCode
-    AutoScalingPolicyStateChangeReasonCode,
+    AutoScalingPolicyStateChangeReasonCode (AutoScalingPolicyStateChangeReasonCode'),
 
     -- * CancelStepsRequestStatus
-    CancelStepsRequestStatus,
+    CancelStepsRequestStatus (CancelStepsRequestStatus'),
 
     -- * ClusterState
-    ClusterState,
+    ClusterState (ClusterState'),
 
     -- * ClusterStateChangeReasonCode
-    ClusterStateChangeReasonCode,
+    ClusterStateChangeReasonCode (ClusterStateChangeReasonCode'),
 
     -- * ComparisonOperator
-    ComparisonOperator,
+    ComparisonOperator (ComparisonOperator'),
 
     -- * ComputeLimitsUnitType
-    ComputeLimitsUnitType,
+    ComputeLimitsUnitType (ComputeLimitsUnitType'),
 
     -- * ExecutionEngineType
-    ExecutionEngineType,
+    ExecutionEngineType (ExecutionEngineType'),
 
     -- * IdentityType
-    IdentityType,
+    IdentityType (IdentityType'),
 
     -- * InstanceCollectionType
-    InstanceCollectionType,
+    InstanceCollectionType (InstanceCollectionType'),
 
     -- * InstanceFleetState
-    InstanceFleetState,
+    InstanceFleetState (InstanceFleetState'),
 
     -- * InstanceFleetStateChangeReasonCode
-    InstanceFleetStateChangeReasonCode,
+    InstanceFleetStateChangeReasonCode (InstanceFleetStateChangeReasonCode'),
 
     -- * InstanceFleetType
-    InstanceFleetType,
+    InstanceFleetType (InstanceFleetType'),
 
     -- * InstanceGroupState
-    InstanceGroupState,
+    InstanceGroupState (InstanceGroupState'),
 
     -- * InstanceGroupStateChangeReasonCode
-    InstanceGroupStateChangeReasonCode,
+    InstanceGroupStateChangeReasonCode (InstanceGroupStateChangeReasonCode'),
 
     -- * InstanceGroupType
-    InstanceGroupType,
+    InstanceGroupType (InstanceGroupType'),
 
     -- * InstanceRoleType
-    InstanceRoleType,
+    InstanceRoleType (InstanceRoleType'),
 
     -- * InstanceState
-    InstanceState,
+    InstanceState (InstanceState'),
 
     -- * InstanceStateChangeReasonCode
-    InstanceStateChangeReasonCode,
+    InstanceStateChangeReasonCode (InstanceStateChangeReasonCode'),
 
     -- * MarketType
-    MarketType,
+    MarketType (MarketType'),
 
     -- * NotebookExecutionStatus
-    NotebookExecutionStatus,
+    NotebookExecutionStatus (NotebookExecutionStatus'),
 
     -- * OnDemandCapacityReservationPreference
-    OnDemandCapacityReservationPreference,
+    OnDemandCapacityReservationPreference (OnDemandCapacityReservationPreference'),
 
     -- * OnDemandCapacityReservationUsageStrategy
-    OnDemandCapacityReservationUsageStrategy,
+    OnDemandCapacityReservationUsageStrategy (OnDemandCapacityReservationUsageStrategy'),
 
     -- * OnDemandProvisioningAllocationStrategy
-    OnDemandProvisioningAllocationStrategy,
+    OnDemandProvisioningAllocationStrategy (OnDemandProvisioningAllocationStrategy'),
 
     -- * PlacementGroupStrategy
-    PlacementGroupStrategy,
+    PlacementGroupStrategy (PlacementGroupStrategy'),
 
     -- * ReconfigurationType
-    ReconfigurationType,
+    ReconfigurationType (ReconfigurationType'),
 
     -- * RepoUpgradeOnBoot
-    RepoUpgradeOnBoot,
+    RepoUpgradeOnBoot (RepoUpgradeOnBoot'),
 
     -- * ScaleDownBehavior
-    ScaleDownBehavior,
+    ScaleDownBehavior (ScaleDownBehavior'),
 
     -- * SpotProvisioningAllocationStrategy
-    SpotProvisioningAllocationStrategy,
+    SpotProvisioningAllocationStrategy (SpotProvisioningAllocationStrategy'),
 
     -- * SpotProvisioningTimeoutAction
-    SpotProvisioningTimeoutAction,
+    SpotProvisioningTimeoutAction (SpotProvisioningTimeoutAction'),
 
     -- * Statistic
-    Statistic,
+    Statistic (Statistic'),
 
     -- * StepCancellationOption
-    StepCancellationOption,
+    StepCancellationOption (StepCancellationOption'),
 
     -- * StepState
-    StepState,
+    StepState (StepState'),
 
     -- * StepStateChangeReasonCode
-    StepStateChangeReasonCode,
+    StepStateChangeReasonCode (StepStateChangeReasonCode'),
 
     -- * Unit
-    Unit,
+    Unit (Unit'),
 
     -- * Application
-    Application,
+    Application (Application'),
     newApplication,
     application_additionalInfo,
     application_args,
@@ -146,62 +146,62 @@ module Amazonka.EMR.Types
     application_version,
 
     -- * AutoScalingPolicy
-    AutoScalingPolicy,
+    AutoScalingPolicy (AutoScalingPolicy'),
     newAutoScalingPolicy,
     autoScalingPolicy_constraints,
     autoScalingPolicy_rules,
 
     -- * AutoScalingPolicyDescription
-    AutoScalingPolicyDescription,
+    AutoScalingPolicyDescription (AutoScalingPolicyDescription'),
     newAutoScalingPolicyDescription,
     autoScalingPolicyDescription_constraints,
     autoScalingPolicyDescription_rules,
     autoScalingPolicyDescription_status,
 
     -- * AutoScalingPolicyStateChangeReason
-    AutoScalingPolicyStateChangeReason,
+    AutoScalingPolicyStateChangeReason (AutoScalingPolicyStateChangeReason'),
     newAutoScalingPolicyStateChangeReason,
     autoScalingPolicyStateChangeReason_code,
     autoScalingPolicyStateChangeReason_message,
 
     -- * AutoScalingPolicyStatus
-    AutoScalingPolicyStatus,
+    AutoScalingPolicyStatus (AutoScalingPolicyStatus'),
     newAutoScalingPolicyStatus,
     autoScalingPolicyStatus_state,
     autoScalingPolicyStatus_stateChangeReason,
 
     -- * AutoTerminationPolicy
-    AutoTerminationPolicy,
+    AutoTerminationPolicy (AutoTerminationPolicy'),
     newAutoTerminationPolicy,
     autoTerminationPolicy_idleTimeout,
 
     -- * BlockPublicAccessConfiguration
-    BlockPublicAccessConfiguration,
+    BlockPublicAccessConfiguration (BlockPublicAccessConfiguration'),
     newBlockPublicAccessConfiguration,
     blockPublicAccessConfiguration_permittedPublicSecurityGroupRuleRanges,
     blockPublicAccessConfiguration_blockPublicSecurityGroupRules,
 
     -- * BlockPublicAccessConfigurationMetadata
-    BlockPublicAccessConfigurationMetadata,
+    BlockPublicAccessConfigurationMetadata (BlockPublicAccessConfigurationMetadata'),
     newBlockPublicAccessConfigurationMetadata,
     blockPublicAccessConfigurationMetadata_creationDateTime,
     blockPublicAccessConfigurationMetadata_createdByArn,
 
     -- * BootstrapActionConfig
-    BootstrapActionConfig,
+    BootstrapActionConfig (BootstrapActionConfig'),
     newBootstrapActionConfig,
     bootstrapActionConfig_name,
     bootstrapActionConfig_scriptBootstrapAction,
 
     -- * CancelStepsInfo
-    CancelStepsInfo,
+    CancelStepsInfo (CancelStepsInfo'),
     newCancelStepsInfo,
     cancelStepsInfo_reason,
     cancelStepsInfo_status,
     cancelStepsInfo_stepId,
 
     -- * CloudWatchAlarmDefinition
-    CloudWatchAlarmDefinition,
+    CloudWatchAlarmDefinition (CloudWatchAlarmDefinition'),
     newCloudWatchAlarmDefinition,
     cloudWatchAlarmDefinition_dimensions,
     cloudWatchAlarmDefinition_evaluationPeriods,
@@ -214,7 +214,7 @@ module Amazonka.EMR.Types
     cloudWatchAlarmDefinition_threshold,
 
     -- * Cluster
-    Cluster,
+    Cluster (Cluster'),
     newCluster,
     cluster_applications,
     cluster_autoScalingRole,
@@ -249,20 +249,20 @@ module Amazonka.EMR.Types
     cluster_status,
 
     -- * ClusterStateChangeReason
-    ClusterStateChangeReason,
+    ClusterStateChangeReason (ClusterStateChangeReason'),
     newClusterStateChangeReason,
     clusterStateChangeReason_code,
     clusterStateChangeReason_message,
 
     -- * ClusterStatus
-    ClusterStatus,
+    ClusterStatus (ClusterStatus'),
     newClusterStatus,
     clusterStatus_state,
     clusterStatus_stateChangeReason,
     clusterStatus_timeline,
 
     -- * ClusterSummary
-    ClusterSummary,
+    ClusterSummary (ClusterSummary'),
     newClusterSummary,
     clusterSummary_clusterArn,
     clusterSummary_id,
@@ -272,21 +272,21 @@ module Amazonka.EMR.Types
     clusterSummary_status,
 
     -- * ClusterTimeline
-    ClusterTimeline,
+    ClusterTimeline (ClusterTimeline'),
     newClusterTimeline,
     clusterTimeline_creationDateTime,
     clusterTimeline_endDateTime,
     clusterTimeline_readyDateTime,
 
     -- * Command
-    Command,
+    Command (Command'),
     newCommand,
     command_args,
     command_name,
     command_scriptPath,
 
     -- * ComputeLimits
-    ComputeLimits,
+    ComputeLimits (ComputeLimits'),
     newComputeLimits,
     computeLimits_maximumCoreCapacityUnits,
     computeLimits_maximumOnDemandCapacityUnits,
@@ -295,43 +295,43 @@ module Amazonka.EMR.Types
     computeLimits_maximumCapacityUnits,
 
     -- * Configuration
-    Configuration,
+    Configuration (Configuration'),
     newConfiguration,
     configuration_classification,
     configuration_configurations,
     configuration_properties,
 
     -- * Credentials
-    Credentials,
+    Credentials (Credentials'),
     newCredentials,
     credentials_usernamePassword,
 
     -- * EbsBlockDevice
-    EbsBlockDevice,
+    EbsBlockDevice (EbsBlockDevice'),
     newEbsBlockDevice,
     ebsBlockDevice_device,
     ebsBlockDevice_volumeSpecification,
 
     -- * EbsBlockDeviceConfig
-    EbsBlockDeviceConfig,
+    EbsBlockDeviceConfig (EbsBlockDeviceConfig'),
     newEbsBlockDeviceConfig,
     ebsBlockDeviceConfig_volumesPerInstance,
     ebsBlockDeviceConfig_volumeSpecification,
 
     -- * EbsConfiguration
-    EbsConfiguration,
+    EbsConfiguration (EbsConfiguration'),
     newEbsConfiguration,
     ebsConfiguration_ebsBlockDeviceConfigs,
     ebsConfiguration_ebsOptimized,
 
     -- * EbsVolume
-    EbsVolume,
+    EbsVolume (EbsVolume'),
     newEbsVolume,
     ebsVolume_device,
     ebsVolume_volumeId,
 
     -- * Ec2InstanceAttributes
-    Ec2InstanceAttributes,
+    Ec2InstanceAttributes (Ec2InstanceAttributes'),
     newEc2InstanceAttributes,
     ec2InstanceAttributes_additionalMasterSecurityGroups,
     ec2InstanceAttributes_additionalSlaveSecurityGroups,
@@ -346,21 +346,21 @@ module Amazonka.EMR.Types
     ec2InstanceAttributes_serviceAccessSecurityGroup,
 
     -- * ExecutionEngineConfig
-    ExecutionEngineConfig,
+    ExecutionEngineConfig (ExecutionEngineConfig'),
     newExecutionEngineConfig,
     executionEngineConfig_masterInstanceSecurityGroupId,
     executionEngineConfig_type,
     executionEngineConfig_id,
 
     -- * FailureDetails
-    FailureDetails,
+    FailureDetails (FailureDetails'),
     newFailureDetails,
     failureDetails_logFile,
     failureDetails_message,
     failureDetails_reason,
 
     -- * HadoopJarStepConfig
-    HadoopJarStepConfig,
+    HadoopJarStepConfig (HadoopJarStepConfig'),
     newHadoopJarStepConfig,
     hadoopJarStepConfig_args,
     hadoopJarStepConfig_mainClass,
@@ -368,7 +368,7 @@ module Amazonka.EMR.Types
     hadoopJarStepConfig_jar,
 
     -- * HadoopStepConfig
-    HadoopStepConfig,
+    HadoopStepConfig (HadoopStepConfig'),
     newHadoopStepConfig,
     hadoopStepConfig_args,
     hadoopStepConfig_jar,
@@ -376,7 +376,7 @@ module Amazonka.EMR.Types
     hadoopStepConfig_properties,
 
     -- * Instance
-    Instance,
+    Instance (Instance'),
     newInstance,
     instance_ebsVolumes,
     instance_ec2InstanceId,
@@ -392,7 +392,7 @@ module Amazonka.EMR.Types
     instance_status,
 
     -- * InstanceFleet
-    InstanceFleet,
+    InstanceFleet (InstanceFleet'),
     newInstanceFleet,
     instanceFleet_id,
     instanceFleet_instanceFleetType,
@@ -406,7 +406,7 @@ module Amazonka.EMR.Types
     instanceFleet_targetSpotCapacity,
 
     -- * InstanceFleetConfig
-    InstanceFleetConfig,
+    InstanceFleetConfig (InstanceFleetConfig'),
     newInstanceFleetConfig,
     instanceFleetConfig_instanceTypeConfigs,
     instanceFleetConfig_launchSpecifications,
@@ -416,40 +416,40 @@ module Amazonka.EMR.Types
     instanceFleetConfig_instanceFleetType,
 
     -- * InstanceFleetModifyConfig
-    InstanceFleetModifyConfig,
+    InstanceFleetModifyConfig (InstanceFleetModifyConfig'),
     newInstanceFleetModifyConfig,
     instanceFleetModifyConfig_targetOnDemandCapacity,
     instanceFleetModifyConfig_targetSpotCapacity,
     instanceFleetModifyConfig_instanceFleetId,
 
     -- * InstanceFleetProvisioningSpecifications
-    InstanceFleetProvisioningSpecifications,
+    InstanceFleetProvisioningSpecifications (InstanceFleetProvisioningSpecifications'),
     newInstanceFleetProvisioningSpecifications,
     instanceFleetProvisioningSpecifications_onDemandSpecification,
     instanceFleetProvisioningSpecifications_spotSpecification,
 
     -- * InstanceFleetStateChangeReason
-    InstanceFleetStateChangeReason,
+    InstanceFleetStateChangeReason (InstanceFleetStateChangeReason'),
     newInstanceFleetStateChangeReason,
     instanceFleetStateChangeReason_code,
     instanceFleetStateChangeReason_message,
 
     -- * InstanceFleetStatus
-    InstanceFleetStatus,
+    InstanceFleetStatus (InstanceFleetStatus'),
     newInstanceFleetStatus,
     instanceFleetStatus_state,
     instanceFleetStatus_stateChangeReason,
     instanceFleetStatus_timeline,
 
     -- * InstanceFleetTimeline
-    InstanceFleetTimeline,
+    InstanceFleetTimeline (InstanceFleetTimeline'),
     newInstanceFleetTimeline,
     instanceFleetTimeline_creationDateTime,
     instanceFleetTimeline_endDateTime,
     instanceFleetTimeline_readyDateTime,
 
     -- * InstanceGroup
-    InstanceGroup,
+    InstanceGroup (InstanceGroup'),
     newInstanceGroup,
     instanceGroup_autoScalingPolicy,
     instanceGroup_bidPrice,
@@ -471,7 +471,7 @@ module Amazonka.EMR.Types
     instanceGroup_status,
 
     -- * InstanceGroupConfig
-    InstanceGroupConfig,
+    InstanceGroupConfig (InstanceGroupConfig'),
     newInstanceGroupConfig,
     instanceGroupConfig_autoScalingPolicy,
     instanceGroupConfig_bidPrice,
@@ -485,7 +485,7 @@ module Amazonka.EMR.Types
     instanceGroupConfig_instanceCount,
 
     -- * InstanceGroupModifyConfig
-    InstanceGroupModifyConfig,
+    InstanceGroupModifyConfig (InstanceGroupModifyConfig'),
     newInstanceGroupModifyConfig,
     instanceGroupModifyConfig_configurations,
     instanceGroupModifyConfig_eC2InstanceIdsToTerminate,
@@ -495,54 +495,54 @@ module Amazonka.EMR.Types
     instanceGroupModifyConfig_instanceGroupId,
 
     -- * InstanceGroupStateChangeReason
-    InstanceGroupStateChangeReason,
+    InstanceGroupStateChangeReason (InstanceGroupStateChangeReason'),
     newInstanceGroupStateChangeReason,
     instanceGroupStateChangeReason_code,
     instanceGroupStateChangeReason_message,
 
     -- * InstanceGroupStatus
-    InstanceGroupStatus,
+    InstanceGroupStatus (InstanceGroupStatus'),
     newInstanceGroupStatus,
     instanceGroupStatus_state,
     instanceGroupStatus_stateChangeReason,
     instanceGroupStatus_timeline,
 
     -- * InstanceGroupTimeline
-    InstanceGroupTimeline,
+    InstanceGroupTimeline (InstanceGroupTimeline'),
     newInstanceGroupTimeline,
     instanceGroupTimeline_creationDateTime,
     instanceGroupTimeline_endDateTime,
     instanceGroupTimeline_readyDateTime,
 
     -- * InstanceResizePolicy
-    InstanceResizePolicy,
+    InstanceResizePolicy (InstanceResizePolicy'),
     newInstanceResizePolicy,
     instanceResizePolicy_instanceTerminationTimeout,
     instanceResizePolicy_instancesToProtect,
     instanceResizePolicy_instancesToTerminate,
 
     -- * InstanceStateChangeReason
-    InstanceStateChangeReason,
+    InstanceStateChangeReason (InstanceStateChangeReason'),
     newInstanceStateChangeReason,
     instanceStateChangeReason_code,
     instanceStateChangeReason_message,
 
     -- * InstanceStatus
-    InstanceStatus,
+    InstanceStatus (InstanceStatus'),
     newInstanceStatus,
     instanceStatus_state,
     instanceStatus_stateChangeReason,
     instanceStatus_timeline,
 
     -- * InstanceTimeline
-    InstanceTimeline,
+    InstanceTimeline (InstanceTimeline'),
     newInstanceTimeline,
     instanceTimeline_creationDateTime,
     instanceTimeline_endDateTime,
     instanceTimeline_readyDateTime,
 
     -- * InstanceTypeConfig
-    InstanceTypeConfig,
+    InstanceTypeConfig (InstanceTypeConfig'),
     newInstanceTypeConfig,
     instanceTypeConfig_bidPrice,
     instanceTypeConfig_bidPriceAsPercentageOfOnDemandPrice,
@@ -553,7 +553,7 @@ module Amazonka.EMR.Types
     instanceTypeConfig_instanceType,
 
     -- * InstanceTypeSpecification
-    InstanceTypeSpecification,
+    InstanceTypeSpecification (InstanceTypeSpecification'),
     newInstanceTypeSpecification,
     instanceTypeSpecification_bidPrice,
     instanceTypeSpecification_bidPriceAsPercentageOfOnDemandPrice,
@@ -565,7 +565,7 @@ module Amazonka.EMR.Types
     instanceTypeSpecification_weightedCapacity,
 
     -- * JobFlowInstancesConfig
-    JobFlowInstancesConfig,
+    JobFlowInstancesConfig (JobFlowInstancesConfig'),
     newJobFlowInstancesConfig,
     jobFlowInstancesConfig_additionalMasterSecurityGroups,
     jobFlowInstancesConfig_additionalSlaveSecurityGroups,
@@ -586,7 +586,7 @@ module Amazonka.EMR.Types
     jobFlowInstancesConfig_terminationProtected,
 
     -- * KerberosAttributes
-    KerberosAttributes,
+    KerberosAttributes (KerberosAttributes'),
     newKerberosAttributes,
     kerberosAttributes_aDDomainJoinPassword,
     kerberosAttributes_aDDomainJoinUser,
@@ -595,24 +595,24 @@ module Amazonka.EMR.Types
     kerberosAttributes_realm,
 
     -- * KeyValue
-    KeyValue,
+    KeyValue (KeyValue'),
     newKeyValue,
     keyValue_key,
     keyValue_value,
 
     -- * ManagedScalingPolicy
-    ManagedScalingPolicy,
+    ManagedScalingPolicy (ManagedScalingPolicy'),
     newManagedScalingPolicy,
     managedScalingPolicy_computeLimits,
 
     -- * MetricDimension
-    MetricDimension,
+    MetricDimension (MetricDimension'),
     newMetricDimension,
     metricDimension_key,
     metricDimension_value,
 
     -- * NotebookExecution
-    NotebookExecution,
+    NotebookExecution (NotebookExecution'),
     newNotebookExecution,
     notebookExecution_arn,
     notebookExecution_editorId,
@@ -629,7 +629,7 @@ module Amazonka.EMR.Types
     notebookExecution_tags,
 
     -- * NotebookExecutionSummary
-    NotebookExecutionSummary,
+    NotebookExecutionSummary (NotebookExecutionSummary'),
     newNotebookExecutionSummary,
     notebookExecutionSummary_editorId,
     notebookExecutionSummary_endTime,
@@ -639,61 +639,61 @@ module Amazonka.EMR.Types
     notebookExecutionSummary_status,
 
     -- * OSRelease
-    OSRelease,
+    OSRelease (OSRelease'),
     newOSRelease,
     oSRelease_label,
 
     -- * OnDemandCapacityReservationOptions
-    OnDemandCapacityReservationOptions,
+    OnDemandCapacityReservationOptions (OnDemandCapacityReservationOptions'),
     newOnDemandCapacityReservationOptions,
     onDemandCapacityReservationOptions_capacityReservationPreference,
     onDemandCapacityReservationOptions_capacityReservationResourceGroupArn,
     onDemandCapacityReservationOptions_usageStrategy,
 
     -- * OnDemandProvisioningSpecification
-    OnDemandProvisioningSpecification,
+    OnDemandProvisioningSpecification (OnDemandProvisioningSpecification'),
     newOnDemandProvisioningSpecification,
     onDemandProvisioningSpecification_capacityReservationOptions,
     onDemandProvisioningSpecification_allocationStrategy,
 
     -- * PlacementGroupConfig
-    PlacementGroupConfig,
+    PlacementGroupConfig (PlacementGroupConfig'),
     newPlacementGroupConfig,
     placementGroupConfig_placementStrategy,
     placementGroupConfig_instanceRole,
 
     -- * PlacementType
-    PlacementType,
+    PlacementType (PlacementType'),
     newPlacementType,
     placementType_availabilityZone,
     placementType_availabilityZones,
 
     -- * PortRange
-    PortRange,
+    PortRange (PortRange'),
     newPortRange,
     portRange_maxRange,
     portRange_minRange,
 
     -- * ReleaseLabelFilter
-    ReleaseLabelFilter,
+    ReleaseLabelFilter (ReleaseLabelFilter'),
     newReleaseLabelFilter,
     releaseLabelFilter_application,
     releaseLabelFilter_prefix,
 
     -- * ScalingAction
-    ScalingAction,
+    ScalingAction (ScalingAction'),
     newScalingAction,
     scalingAction_market,
     scalingAction_simpleScalingPolicyConfiguration,
 
     -- * ScalingConstraints
-    ScalingConstraints,
+    ScalingConstraints (ScalingConstraints'),
     newScalingConstraints,
     scalingConstraints_minCapacity,
     scalingConstraints_maxCapacity,
 
     -- * ScalingRule
-    ScalingRule,
+    ScalingRule (ScalingRule'),
     newScalingRule,
     scalingRule_description,
     scalingRule_name,
@@ -701,24 +701,24 @@ module Amazonka.EMR.Types
     scalingRule_trigger,
 
     -- * ScalingTrigger
-    ScalingTrigger,
+    ScalingTrigger (ScalingTrigger'),
     newScalingTrigger,
     scalingTrigger_cloudWatchAlarmDefinition,
 
     -- * ScriptBootstrapActionConfig
-    ScriptBootstrapActionConfig,
+    ScriptBootstrapActionConfig (ScriptBootstrapActionConfig'),
     newScriptBootstrapActionConfig,
     scriptBootstrapActionConfig_args,
     scriptBootstrapActionConfig_path,
 
     -- * SecurityConfigurationSummary
-    SecurityConfigurationSummary,
+    SecurityConfigurationSummary (SecurityConfigurationSummary'),
     newSecurityConfigurationSummary,
     securityConfigurationSummary_creationDateTime,
     securityConfigurationSummary_name,
 
     -- * SessionMappingDetail
-    SessionMappingDetail,
+    SessionMappingDetail (SessionMappingDetail'),
     newSessionMappingDetail,
     sessionMappingDetail_creationTime,
     sessionMappingDetail_identityId,
@@ -729,7 +729,7 @@ module Amazonka.EMR.Types
     sessionMappingDetail_studioId,
 
     -- * SessionMappingSummary
-    SessionMappingSummary,
+    SessionMappingSummary (SessionMappingSummary'),
     newSessionMappingSummary,
     sessionMappingSummary_creationTime,
     sessionMappingSummary_identityId,
@@ -739,26 +739,26 @@ module Amazonka.EMR.Types
     sessionMappingSummary_studioId,
 
     -- * ShrinkPolicy
-    ShrinkPolicy,
+    ShrinkPolicy (ShrinkPolicy'),
     newShrinkPolicy,
     shrinkPolicy_decommissionTimeout,
     shrinkPolicy_instanceResizePolicy,
 
     -- * SimpleScalingPolicyConfiguration
-    SimpleScalingPolicyConfiguration,
+    SimpleScalingPolicyConfiguration (SimpleScalingPolicyConfiguration'),
     newSimpleScalingPolicyConfiguration,
     simpleScalingPolicyConfiguration_adjustmentType,
     simpleScalingPolicyConfiguration_coolDown,
     simpleScalingPolicyConfiguration_scalingAdjustment,
 
     -- * SimplifiedApplication
-    SimplifiedApplication,
+    SimplifiedApplication (SimplifiedApplication'),
     newSimplifiedApplication,
     simplifiedApplication_name,
     simplifiedApplication_version,
 
     -- * SpotProvisioningSpecification
-    SpotProvisioningSpecification,
+    SpotProvisioningSpecification (SpotProvisioningSpecification'),
     newSpotProvisioningSpecification,
     spotProvisioningSpecification_allocationStrategy,
     spotProvisioningSpecification_blockDurationMinutes,
@@ -766,7 +766,7 @@ module Amazonka.EMR.Types
     spotProvisioningSpecification_timeoutAction,
 
     -- * Step
-    Step,
+    Step (Step'),
     newStep,
     step_actionOnFailure,
     step_config,
@@ -776,20 +776,20 @@ module Amazonka.EMR.Types
     step_status,
 
     -- * StepConfig
-    StepConfig,
+    StepConfig (StepConfig'),
     newStepConfig,
     stepConfig_actionOnFailure,
     stepConfig_name,
     stepConfig_hadoopJarStep,
 
     -- * StepStateChangeReason
-    StepStateChangeReason,
+    StepStateChangeReason (StepStateChangeReason'),
     newStepStateChangeReason,
     stepStateChangeReason_code,
     stepStateChangeReason_message,
 
     -- * StepStatus
-    StepStatus,
+    StepStatus (StepStatus'),
     newStepStatus,
     stepStatus_failureDetails,
     stepStatus_state,
@@ -797,7 +797,7 @@ module Amazonka.EMR.Types
     stepStatus_timeline,
 
     -- * StepSummary
-    StepSummary,
+    StepSummary (StepSummary'),
     newStepSummary,
     stepSummary_actionOnFailure,
     stepSummary_config,
@@ -806,14 +806,14 @@ module Amazonka.EMR.Types
     stepSummary_status,
 
     -- * StepTimeline
-    StepTimeline,
+    StepTimeline (StepTimeline'),
     newStepTimeline,
     stepTimeline_creationDateTime,
     stepTimeline_endDateTime,
     stepTimeline_startDateTime,
 
     -- * Studio
-    Studio,
+    Studio (Studio'),
     newStudio,
     studio_authMode,
     studio_creationTime,
@@ -834,7 +834,7 @@ module Amazonka.EMR.Types
     studio_workspaceSecurityGroupId,
 
     -- * StudioSummary
-    StudioSummary,
+    StudioSummary (StudioSummary'),
     newStudioSummary,
     studioSummary_authMode,
     studioSummary_creationTime,
@@ -845,25 +845,25 @@ module Amazonka.EMR.Types
     studioSummary_vpcId,
 
     -- * SupportedProductConfig
-    SupportedProductConfig,
+    SupportedProductConfig (SupportedProductConfig'),
     newSupportedProductConfig,
     supportedProductConfig_args,
     supportedProductConfig_name,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
 
     -- * UsernamePassword
-    UsernamePassword,
+    UsernamePassword (UsernamePassword'),
     newUsernamePassword,
     usernamePassword_password,
     usernamePassword_username,
 
     -- * VolumeSpecification
-    VolumeSpecification,
+    VolumeSpecification (VolumeSpecification'),
     newVolumeSpecification,
     volumeSpecification_iops,
     volumeSpecification_throughput,

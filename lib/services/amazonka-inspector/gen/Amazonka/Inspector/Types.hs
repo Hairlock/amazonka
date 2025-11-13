@@ -32,58 +32,58 @@ module Amazonka.Inspector.Types
     _UnsupportedFeatureException,
 
     -- * AgentHealth
-    AgentHealth,
+    AgentHealth (AgentHealth'),
 
     -- * AgentHealthCode
-    AgentHealthCode,
+    AgentHealthCode (AgentHealthCode'),
 
     -- * AssessmentRunNotificationSnsStatusCode
-    AssessmentRunNotificationSnsStatusCode,
+    AssessmentRunNotificationSnsStatusCode (AssessmentRunNotificationSnsStatusCode'),
 
     -- * AssessmentRunState
-    AssessmentRunState,
+    AssessmentRunState (AssessmentRunState'),
 
     -- * AssetType
-    AssetType,
+    AssetType (AssetType'),
 
     -- * FailedItemErrorCode
-    FailedItemErrorCode,
+    FailedItemErrorCode (FailedItemErrorCode'),
 
     -- * InspectorEvent
-    InspectorEvent,
+    InspectorEvent (InspectorEvent'),
 
     -- * Locale
-    Locale,
+    Locale (Locale'),
 
     -- * PreviewStatus
-    PreviewStatus,
+    PreviewStatus (PreviewStatus'),
 
     -- * ReportFileFormat
-    ReportFileFormat,
+    ReportFileFormat (ReportFileFormat'),
 
     -- * ReportStatus
-    ReportStatus,
+    ReportStatus (ReportStatus'),
 
     -- * ReportType
-    ReportType,
+    ReportType (ReportType'),
 
     -- * ScopeType
-    ScopeType,
+    ScopeType (ScopeType'),
 
     -- * Severity
-    Severity,
+    Severity (Severity'),
 
     -- * StopAction
-    StopAction,
+    StopAction (StopAction'),
 
     -- * AgentFilter
-    AgentFilter,
+    AgentFilter (AgentFilter'),
     newAgentFilter,
     agentFilter_agentHealths,
     agentFilter_agentHealthCodes,
 
     -- * AgentPreview
-    AgentPreview,
+    AgentPreview (AgentPreview'),
     newAgentPreview,
     agentPreview_agentHealth,
     agentPreview_agentVersion,
@@ -95,7 +95,7 @@ module Amazonka.Inspector.Types
     agentPreview_agentId,
 
     -- * AssessmentRun
-    AssessmentRun,
+    AssessmentRun (AssessmentRun'),
     newAssessmentRun,
     assessmentRun_completedAt,
     assessmentRun_startedAt,
@@ -114,7 +114,7 @@ module Amazonka.Inspector.Types
     assessmentRun_findingCounts,
 
     -- * AssessmentRunAgent
-    AssessmentRunAgent,
+    AssessmentRunAgent (AssessmentRunAgent'),
     newAssessmentRunAgent,
     assessmentRunAgent_agentHealthDetails,
     assessmentRunAgent_autoScalingGroup,
@@ -125,7 +125,7 @@ module Amazonka.Inspector.Types
     assessmentRunAgent_telemetryMetadata,
 
     -- * AssessmentRunFilter
-    AssessmentRunFilter,
+    AssessmentRunFilter (AssessmentRunFilter'),
     newAssessmentRunFilter,
     assessmentRunFilter_completionTimeRange,
     assessmentRunFilter_durationRange,
@@ -136,7 +136,7 @@ module Amazonka.Inspector.Types
     assessmentRunFilter_states,
 
     -- * AssessmentRunNotification
-    AssessmentRunNotification,
+    AssessmentRunNotification (AssessmentRunNotification'),
     newAssessmentRunNotification,
     assessmentRunNotification_message,
     assessmentRunNotification_snsPublishStatusCode,
@@ -146,13 +146,13 @@ module Amazonka.Inspector.Types
     assessmentRunNotification_error,
 
     -- * AssessmentRunStateChange
-    AssessmentRunStateChange,
+    AssessmentRunStateChange (AssessmentRunStateChange'),
     newAssessmentRunStateChange,
     assessmentRunStateChange_stateChangedAt,
     assessmentRunStateChange_state,
 
     -- * AssessmentTarget
-    AssessmentTarget,
+    AssessmentTarget (AssessmentTarget'),
     newAssessmentTarget,
     assessmentTarget_resourceGroupArn,
     assessmentTarget_arn,
@@ -161,12 +161,12 @@ module Amazonka.Inspector.Types
     assessmentTarget_updatedAt,
 
     -- * AssessmentTargetFilter
-    AssessmentTargetFilter,
+    AssessmentTargetFilter (AssessmentTargetFilter'),
     newAssessmentTargetFilter,
     assessmentTargetFilter_assessmentTargetNamePattern,
 
     -- * AssessmentTemplate
-    AssessmentTemplate,
+    AssessmentTemplate (AssessmentTemplate'),
     newAssessmentTemplate,
     assessmentTemplate_lastAssessmentRunArn,
     assessmentTemplate_arn,
@@ -179,14 +179,14 @@ module Amazonka.Inspector.Types
     assessmentTemplate_createdAt,
 
     -- * AssessmentTemplateFilter
-    AssessmentTemplateFilter,
+    AssessmentTemplateFilter (AssessmentTemplateFilter'),
     newAssessmentTemplateFilter,
     assessmentTemplateFilter_durationRange,
     assessmentTemplateFilter_namePattern,
     assessmentTemplateFilter_rulesPackageArns,
 
     -- * AssetAttributes
-    AssetAttributes,
+    AssetAttributes (AssetAttributes'),
     newAssetAttributes,
     assetAttributes_agentId,
     assetAttributes_amiId,
@@ -198,25 +198,25 @@ module Amazonka.Inspector.Types
     assetAttributes_schemaVersion,
 
     -- * Attribute
-    Attribute,
+    Attribute (Attribute'),
     newAttribute,
     attribute_value,
     attribute_key,
 
     -- * DurationRange
-    DurationRange,
+    DurationRange (DurationRange'),
     newDurationRange,
     durationRange_maxSeconds,
     durationRange_minSeconds,
 
     -- * EventSubscription
-    EventSubscription,
+    EventSubscription (EventSubscription'),
     newEventSubscription,
     eventSubscription_event,
     eventSubscription_subscribedAt,
 
     -- * Exclusion
-    Exclusion,
+    Exclusion (Exclusion'),
     newExclusion,
     exclusion_attributes,
     exclusion_arn,
@@ -226,7 +226,7 @@ module Amazonka.Inspector.Types
     exclusion_scopes,
 
     -- * ExclusionPreview
-    ExclusionPreview,
+    ExclusionPreview (ExclusionPreview'),
     newExclusionPreview,
     exclusionPreview_attributes,
     exclusionPreview_title,
@@ -235,13 +235,13 @@ module Amazonka.Inspector.Types
     exclusionPreview_scopes,
 
     -- * FailedItemDetails
-    FailedItemDetails,
+    FailedItemDetails (FailedItemDetails'),
     newFailedItemDetails,
     failedItemDetails_failureCode,
     failedItemDetails_retryable,
 
     -- * Finding
-    Finding,
+    Finding (Finding'),
     newFinding,
     finding_assetAttributes,
     finding_assetType,
@@ -263,7 +263,7 @@ module Amazonka.Inspector.Types
     finding_updatedAt,
 
     -- * FindingFilter
-    FindingFilter,
+    FindingFilter (FindingFilter'),
     newFindingFilter,
     findingFilter_agentIds,
     findingFilter_attributes,
@@ -275,14 +275,14 @@ module Amazonka.Inspector.Types
     findingFilter_userAttributes,
 
     -- * InspectorServiceAttributes
-    InspectorServiceAttributes,
+    InspectorServiceAttributes (InspectorServiceAttributes'),
     newInspectorServiceAttributes,
     inspectorServiceAttributes_assessmentRunArn,
     inspectorServiceAttributes_rulesPackageArn,
     inspectorServiceAttributes_schemaVersion,
 
     -- * NetworkInterface
-    NetworkInterface,
+    NetworkInterface (NetworkInterface'),
     newNetworkInterface,
     networkInterface_ipv6Addresses,
     networkInterface_networkInterfaceId,
@@ -296,26 +296,26 @@ module Amazonka.Inspector.Types
     networkInterface_vpcId,
 
     -- * PrivateIp
-    PrivateIp,
+    PrivateIp (PrivateIp'),
     newPrivateIp,
     privateIp_privateDnsName,
     privateIp_privateIpAddress,
 
     -- * ResourceGroup
-    ResourceGroup,
+    ResourceGroup (ResourceGroup'),
     newResourceGroup,
     resourceGroup_arn,
     resourceGroup_tags,
     resourceGroup_createdAt,
 
     -- * ResourceGroupTag
-    ResourceGroupTag,
+    ResourceGroupTag (ResourceGroupTag'),
     newResourceGroupTag,
     resourceGroupTag_value,
     resourceGroupTag_key,
 
     -- * RulesPackage
-    RulesPackage,
+    RulesPackage (RulesPackage'),
     newRulesPackage,
     rulesPackage_description,
     rulesPackage_arn,
@@ -324,39 +324,39 @@ module Amazonka.Inspector.Types
     rulesPackage_provider,
 
     -- * Scope
-    Scope,
+    Scope (Scope'),
     newScope,
     scope_key,
     scope_value,
 
     -- * SecurityGroup
-    SecurityGroup,
+    SecurityGroup (SecurityGroup'),
     newSecurityGroup,
     securityGroup_groupId,
     securityGroup_groupName,
 
     -- * Subscription
-    Subscription,
+    Subscription (Subscription'),
     newSubscription,
     subscription_resourceArn,
     subscription_topicArn,
     subscription_eventSubscriptions,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_value,
     tag_key,
 
     -- * TelemetryMetadata
-    TelemetryMetadata,
+    TelemetryMetadata (TelemetryMetadata'),
     newTelemetryMetadata,
     telemetryMetadata_dataSize,
     telemetryMetadata_messageType,
     telemetryMetadata_count,
 
     -- * TimestampRange
-    TimestampRange,
+    TimestampRange (TimestampRange'),
     newTimestampRange,
     timestampRange_beginDate,
     timestampRange_endDate,

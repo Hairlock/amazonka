@@ -25,50 +25,50 @@ module Amazonka.Macie.Types
     _LimitExceededException,
 
     -- * S3ContinuousClassificationType
-    S3ContinuousClassificationType,
+    S3ContinuousClassificationType (S3ContinuousClassificationType'),
 
     -- * S3OneTimeClassificationType
-    S3OneTimeClassificationType,
+    S3OneTimeClassificationType (S3OneTimeClassificationType'),
 
     -- * ClassificationType
-    ClassificationType,
+    ClassificationType (ClassificationType'),
     newClassificationType,
     classificationType_oneTime,
     classificationType_continuous,
 
     -- * ClassificationTypeUpdate
-    ClassificationTypeUpdate,
+    ClassificationTypeUpdate (ClassificationTypeUpdate'),
     newClassificationTypeUpdate,
     classificationTypeUpdate_continuous,
     classificationTypeUpdate_oneTime,
 
     -- * FailedS3Resource
-    FailedS3Resource,
+    FailedS3Resource (FailedS3Resource'),
     newFailedS3Resource,
     failedS3Resource_errorCode,
     failedS3Resource_errorMessage,
     failedS3Resource_failedItem,
 
     -- * MemberAccount
-    MemberAccount,
+    MemberAccount (MemberAccount'),
     newMemberAccount,
     memberAccount_accountId,
 
     -- * S3Resource
-    S3Resource,
+    S3Resource (S3Resource'),
     newS3Resource,
     s3Resource_prefix,
     s3Resource_bucketName,
 
     -- * S3ResourceClassification
-    S3ResourceClassification,
+    S3ResourceClassification (S3ResourceClassification'),
     newS3ResourceClassification,
     s3ResourceClassification_prefix,
     s3ResourceClassification_bucketName,
     s3ResourceClassification_classificationType,
 
     -- * S3ResourceClassificationUpdate
-    S3ResourceClassificationUpdate,
+    S3ResourceClassificationUpdate (S3ResourceClassificationUpdate'),
     newS3ResourceClassificationUpdate,
     s3ResourceClassificationUpdate_prefix,
     s3ResourceClassificationUpdate_bucketName,

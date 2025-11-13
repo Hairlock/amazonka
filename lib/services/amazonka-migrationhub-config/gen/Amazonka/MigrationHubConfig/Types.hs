@@ -27,10 +27,10 @@ module Amazonka.MigrationHubConfig.Types
     _ThrottlingException,
 
     -- * TargetType
-    TargetType,
+    TargetType (TargetType'),
 
     -- * HomeRegionControl
-    HomeRegionControl,
+    HomeRegionControl (HomeRegionControl'),
     newHomeRegionControl,
     homeRegionControl_controlId,
     homeRegionControl_homeRegion,
@@ -38,7 +38,7 @@ module Amazonka.MigrationHubConfig.Types
     homeRegionControl_target,
 
     -- * Target
-    Target,
+    Target (Target'),
     newTarget,
     target_id,
     target_type,

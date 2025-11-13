@@ -30,81 +30,81 @@ module Amazonka.RobOMaker.Types
     _ThrottlingException,
 
     -- * Architecture
-    Architecture,
+    Architecture (Architecture'),
 
     -- * ComputeType
-    ComputeType,
+    ComputeType (ComputeType'),
 
     -- * DataSourceType
-    DataSourceType,
+    DataSourceType (DataSourceType'),
 
     -- * ExitBehavior
-    ExitBehavior,
+    ExitBehavior (ExitBehavior'),
 
     -- * FailureBehavior
-    FailureBehavior,
+    FailureBehavior (FailureBehavior'),
 
     -- * RenderingEngineType
-    RenderingEngineType,
+    RenderingEngineType (RenderingEngineType'),
 
     -- * RobotSoftwareSuiteType
-    RobotSoftwareSuiteType,
+    RobotSoftwareSuiteType (RobotSoftwareSuiteType'),
 
     -- * RobotSoftwareSuiteVersionType
-    RobotSoftwareSuiteVersionType,
+    RobotSoftwareSuiteVersionType (RobotSoftwareSuiteVersionType'),
 
     -- * SimulationJobBatchErrorCode
-    SimulationJobBatchErrorCode,
+    SimulationJobBatchErrorCode (SimulationJobBatchErrorCode'),
 
     -- * SimulationJobBatchStatus
-    SimulationJobBatchStatus,
+    SimulationJobBatchStatus (SimulationJobBatchStatus'),
 
     -- * SimulationJobErrorCode
-    SimulationJobErrorCode,
+    SimulationJobErrorCode (SimulationJobErrorCode'),
 
     -- * SimulationJobStatus
-    SimulationJobStatus,
+    SimulationJobStatus (SimulationJobStatus'),
 
     -- * SimulationSoftwareSuiteType
-    SimulationSoftwareSuiteType,
+    SimulationSoftwareSuiteType (SimulationSoftwareSuiteType'),
 
     -- * UploadBehavior
-    UploadBehavior,
+    UploadBehavior (UploadBehavior'),
 
     -- * WorldExportJobErrorCode
-    WorldExportJobErrorCode,
+    WorldExportJobErrorCode (WorldExportJobErrorCode'),
 
     -- * WorldExportJobStatus
-    WorldExportJobStatus,
+    WorldExportJobStatus (WorldExportJobStatus'),
 
     -- * WorldGenerationJobErrorCode
-    WorldGenerationJobErrorCode,
+    WorldGenerationJobErrorCode (WorldGenerationJobErrorCode'),
 
     -- * WorldGenerationJobStatus
-    WorldGenerationJobStatus,
+    WorldGenerationJobStatus (WorldGenerationJobStatus'),
 
     -- * BatchPolicy
-    BatchPolicy,
+    BatchPolicy (BatchPolicy'),
     newBatchPolicy,
     batchPolicy_maxConcurrency,
     batchPolicy_timeoutInSeconds,
 
     -- * Compute
-    Compute,
+    Compute (Compute'),
     newCompute,
     compute_computeType,
     compute_gpuUnitLimit,
     compute_simulationUnitLimit,
 
     -- * ComputeResponse
-    ComputeResponse,
+    ComputeResponse (ComputeResponse'),
     newComputeResponse,
     computeResponse_computeType,
     computeResponse_gpuUnitLimit,
     computeResponse_simulationUnitLimit,
 
     -- * DataSource
-    DataSource,
+    DataSource (DataSource'),
     newDataSource,
     dataSource_destination,
     dataSource_name,
@@ -113,7 +113,7 @@ module Amazonka.RobOMaker.Types
     dataSource_type,
 
     -- * DataSourceConfig
-    DataSourceConfig,
+    DataSourceConfig (DataSourceConfig'),
     newDataSourceConfig,
     dataSourceConfig_destination,
     dataSourceConfig_type,
@@ -122,12 +122,12 @@ module Amazonka.RobOMaker.Types
     dataSourceConfig_s3Keys,
 
     -- * Environment
-    Environment,
+    Environment (Environment'),
     newEnvironment,
     environment_uri,
 
     -- * FailedCreateSimulationJobRequest
-    FailedCreateSimulationJobRequest,
+    FailedCreateSimulationJobRequest (FailedCreateSimulationJobRequest'),
     newFailedCreateSimulationJobRequest,
     failedCreateSimulationJobRequest_failedAt,
     failedCreateSimulationJobRequest_failureCode,
@@ -135,26 +135,26 @@ module Amazonka.RobOMaker.Types
     failedCreateSimulationJobRequest_request,
 
     -- * FailureSummary
-    FailureSummary,
+    FailureSummary (FailureSummary'),
     newFailureSummary,
     failureSummary_failures,
     failureSummary_totalFailureCount,
 
     -- * Filter
-    Filter,
+    Filter (Filter'),
     newFilter,
     filter_name,
     filter_values,
 
     -- * FinishedWorldsSummary
-    FinishedWorldsSummary,
+    FinishedWorldsSummary (FinishedWorldsSummary'),
     newFinishedWorldsSummary,
     finishedWorldsSummary_failureSummary,
     finishedWorldsSummary_finishedCount,
     finishedWorldsSummary_succeededWorlds,
 
     -- * LaunchConfig
-    LaunchConfig,
+    LaunchConfig (LaunchConfig'),
     newLaunchConfig,
     launchConfig_command,
     launchConfig_environmentVariables,
@@ -164,43 +164,43 @@ module Amazonka.RobOMaker.Types
     launchConfig_streamUI,
 
     -- * LoggingConfig
-    LoggingConfig,
+    LoggingConfig (LoggingConfig'),
     newLoggingConfig,
     loggingConfig_recordAllRosTopics,
 
     -- * NetworkInterface
-    NetworkInterface,
+    NetworkInterface (NetworkInterface'),
     newNetworkInterface,
     networkInterface_networkInterfaceId,
     networkInterface_privateIpAddress,
     networkInterface_publicIpAddress,
 
     -- * OutputLocation
-    OutputLocation,
+    OutputLocation (OutputLocation'),
     newOutputLocation,
     outputLocation_s3Bucket,
     outputLocation_s3Prefix,
 
     -- * PortForwardingConfig
-    PortForwardingConfig,
+    PortForwardingConfig (PortForwardingConfig'),
     newPortForwardingConfig,
     portForwardingConfig_portMappings,
 
     -- * PortMapping
-    PortMapping,
+    PortMapping (PortMapping'),
     newPortMapping,
     portMapping_enableOnPublicIp,
     portMapping_jobPort,
     portMapping_applicationPort,
 
     -- * RenderingEngine
-    RenderingEngine,
+    RenderingEngine (RenderingEngine'),
     newRenderingEngine,
     renderingEngine_name,
     renderingEngine_version,
 
     -- * RobotApplicationConfig
-    RobotApplicationConfig,
+    RobotApplicationConfig (RobotApplicationConfig'),
     newRobotApplicationConfig,
     robotApplicationConfig_applicationVersion,
     robotApplicationConfig_tools,
@@ -211,7 +211,7 @@ module Amazonka.RobOMaker.Types
     robotApplicationConfig_launchConfig,
 
     -- * RobotApplicationSummary
-    RobotApplicationSummary,
+    RobotApplicationSummary (RobotApplicationSummary'),
     newRobotApplicationSummary,
     robotApplicationSummary_arn,
     robotApplicationSummary_lastUpdatedAt,
@@ -220,19 +220,19 @@ module Amazonka.RobOMaker.Types
     robotApplicationSummary_version,
 
     -- * RobotSoftwareSuite
-    RobotSoftwareSuite,
+    RobotSoftwareSuite (RobotSoftwareSuite'),
     newRobotSoftwareSuite,
     robotSoftwareSuite_name,
     robotSoftwareSuite_version,
 
     -- * S3KeyOutput
-    S3KeyOutput,
+    S3KeyOutput (S3KeyOutput'),
     newS3KeyOutput,
     s3KeyOutput_etag,
     s3KeyOutput_s3Key,
 
     -- * SimulationApplicationConfig
-    SimulationApplicationConfig,
+    SimulationApplicationConfig (SimulationApplicationConfig'),
     newSimulationApplicationConfig,
     simulationApplicationConfig_applicationVersion,
     simulationApplicationConfig_tools,
@@ -244,7 +244,7 @@ module Amazonka.RobOMaker.Types
     simulationApplicationConfig_launchConfig,
 
     -- * SimulationApplicationSummary
-    SimulationApplicationSummary,
+    SimulationApplicationSummary (SimulationApplicationSummary'),
     newSimulationApplicationSummary,
     simulationApplicationSummary_arn,
     simulationApplicationSummary_lastUpdatedAt,
@@ -254,7 +254,7 @@ module Amazonka.RobOMaker.Types
     simulationApplicationSummary_version,
 
     -- * SimulationJob
-    SimulationJob,
+    SimulationJob (SimulationJob'),
     newSimulationJob,
     simulationJob_arn,
     simulationJob_clientRequestToken,
@@ -279,7 +279,7 @@ module Amazonka.RobOMaker.Types
     simulationJob_vpcConfig,
 
     -- * SimulationJobBatchSummary
-    SimulationJobBatchSummary,
+    SimulationJobBatchSummary (SimulationJobBatchSummary'),
     newSimulationJobBatchSummary,
     simulationJobBatchSummary_arn,
     simulationJobBatchSummary_createdAt,
@@ -290,7 +290,7 @@ module Amazonka.RobOMaker.Types
     simulationJobBatchSummary_status,
 
     -- * SimulationJobRequest
-    SimulationJobRequest,
+    SimulationJobRequest (SimulationJobRequest'),
     newSimulationJobRequest,
     simulationJobRequest_compute,
     simulationJobRequest_dataSources,
@@ -306,7 +306,7 @@ module Amazonka.RobOMaker.Types
     simulationJobRequest_maxJobDurationInSeconds,
 
     -- * SimulationJobSummary
-    SimulationJobSummary,
+    SimulationJobSummary (SimulationJobSummary'),
     newSimulationJobSummary,
     simulationJobSummary_arn,
     simulationJobSummary_computeType,
@@ -318,13 +318,13 @@ module Amazonka.RobOMaker.Types
     simulationJobSummary_status,
 
     -- * SimulationSoftwareSuite
-    SimulationSoftwareSuite,
+    SimulationSoftwareSuite (SimulationSoftwareSuite'),
     newSimulationSoftwareSuite,
     simulationSoftwareSuite_name,
     simulationSoftwareSuite_version,
 
     -- * Source
-    Source,
+    Source (Source'),
     newSource,
     source_architecture,
     source_etag,
@@ -332,20 +332,20 @@ module Amazonka.RobOMaker.Types
     source_s3Key,
 
     -- * SourceConfig
-    SourceConfig,
+    SourceConfig (SourceConfig'),
     newSourceConfig,
     sourceConfig_architecture,
     sourceConfig_s3Bucket,
     sourceConfig_s3Key,
 
     -- * TemplateLocation
-    TemplateLocation,
+    TemplateLocation (TemplateLocation'),
     newTemplateLocation,
     templateLocation_s3Bucket,
     templateLocation_s3Key,
 
     -- * TemplateSummary
-    TemplateSummary,
+    TemplateSummary (TemplateSummary'),
     newTemplateSummary,
     templateSummary_arn,
     templateSummary_createdAt,
@@ -354,7 +354,7 @@ module Amazonka.RobOMaker.Types
     templateSummary_version,
 
     -- * Tool
-    Tool,
+    Tool (Tool'),
     newTool,
     tool_exitBehavior,
     tool_streamOutputToCloudWatch,
@@ -363,21 +363,21 @@ module Amazonka.RobOMaker.Types
     tool_command,
 
     -- * UploadConfiguration
-    UploadConfiguration,
+    UploadConfiguration (UploadConfiguration'),
     newUploadConfiguration,
     uploadConfiguration_name,
     uploadConfiguration_path,
     uploadConfiguration_uploadBehavior,
 
     -- * VPCConfig
-    VPCConfig,
+    VPCConfig (VPCConfig'),
     newVPCConfig,
     vPCConfig_assignPublicIp,
     vPCConfig_securityGroups,
     vPCConfig_subnets,
 
     -- * VPCConfigResponse
-    VPCConfigResponse,
+    VPCConfigResponse (VPCConfigResponse'),
     newVPCConfigResponse,
     vPCConfigResponse_assignPublicIp,
     vPCConfigResponse_securityGroups,
@@ -385,18 +385,18 @@ module Amazonka.RobOMaker.Types
     vPCConfigResponse_vpcId,
 
     -- * WorldConfig
-    WorldConfig,
+    WorldConfig (WorldConfig'),
     newWorldConfig,
     worldConfig_world,
 
     -- * WorldCount
-    WorldCount,
+    WorldCount (WorldCount'),
     newWorldCount,
     worldCount_floorplanCount,
     worldCount_interiorCountPerFloorplan,
 
     -- * WorldExportJobSummary
-    WorldExportJobSummary,
+    WorldExportJobSummary (WorldExportJobSummary'),
     newWorldExportJobSummary,
     worldExportJobSummary_arn,
     worldExportJobSummary_createdAt,
@@ -405,14 +405,14 @@ module Amazonka.RobOMaker.Types
     worldExportJobSummary_worlds,
 
     -- * WorldFailure
-    WorldFailure,
+    WorldFailure (WorldFailure'),
     newWorldFailure,
     worldFailure_failureCode,
     worldFailure_failureCount,
     worldFailure_sampleFailureReason,
 
     -- * WorldGenerationJobSummary
-    WorldGenerationJobSummary,
+    WorldGenerationJobSummary (WorldGenerationJobSummary'),
     newWorldGenerationJobSummary,
     worldGenerationJobSummary_arn,
     worldGenerationJobSummary_createdAt,
@@ -423,7 +423,7 @@ module Amazonka.RobOMaker.Types
     worldGenerationJobSummary_worldCount,
 
     -- * WorldSummary
-    WorldSummary,
+    WorldSummary (WorldSummary'),
     newWorldSummary,
     worldSummary_arn,
     worldSummary_createdAt,

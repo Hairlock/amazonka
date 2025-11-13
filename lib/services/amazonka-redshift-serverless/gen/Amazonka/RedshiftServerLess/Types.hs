@@ -31,41 +31,41 @@ module Amazonka.RedshiftServerLess.Types
     _ValidationException,
 
     -- * LogExport
-    LogExport,
+    LogExport (LogExport'),
 
     -- * NamespaceStatus
-    NamespaceStatus,
+    NamespaceStatus (NamespaceStatus'),
 
     -- * SnapshotStatus
-    SnapshotStatus,
+    SnapshotStatus (SnapshotStatus'),
 
     -- * UsageLimitBreachAction
-    UsageLimitBreachAction,
+    UsageLimitBreachAction (UsageLimitBreachAction'),
 
     -- * UsageLimitPeriod
-    UsageLimitPeriod,
+    UsageLimitPeriod (UsageLimitPeriod'),
 
     -- * UsageLimitUsageType
-    UsageLimitUsageType,
+    UsageLimitUsageType (UsageLimitUsageType'),
 
     -- * WorkgroupStatus
-    WorkgroupStatus,
+    WorkgroupStatus (WorkgroupStatus'),
 
     -- * ConfigParameter
-    ConfigParameter,
+    ConfigParameter (ConfigParameter'),
     newConfigParameter,
     configParameter_parameterKey,
     configParameter_parameterValue,
 
     -- * Endpoint
-    Endpoint,
+    Endpoint (Endpoint'),
     newEndpoint,
     endpoint_address,
     endpoint_port,
     endpoint_vpcEndpoints,
 
     -- * EndpointAccess
-    EndpointAccess,
+    EndpointAccess (EndpointAccess'),
     newEndpointAccess,
     endpointAccess_address,
     endpointAccess_endpointArn,
@@ -79,7 +79,7 @@ module Amazonka.RedshiftServerLess.Types
     endpointAccess_workgroupName,
 
     -- * Namespace
-    Namespace,
+    Namespace (Namespace'),
     newNamespace,
     namespace_adminUsername,
     namespace_creationDate,
@@ -94,7 +94,7 @@ module Amazonka.RedshiftServerLess.Types
     namespace_status,
 
     -- * NetworkInterface
-    NetworkInterface,
+    NetworkInterface (NetworkInterface'),
     newNetworkInterface,
     networkInterface_availabilityZone,
     networkInterface_networkInterfaceId,
@@ -102,7 +102,7 @@ module Amazonka.RedshiftServerLess.Types
     networkInterface_subnetId,
 
     -- * RecoveryPoint
-    RecoveryPoint,
+    RecoveryPoint (RecoveryPoint'),
     newRecoveryPoint,
     recoveryPoint_namespaceArn,
     recoveryPoint_namespaceName,
@@ -112,13 +112,13 @@ module Amazonka.RedshiftServerLess.Types
     recoveryPoint_workgroupName,
 
     -- * ResourcePolicy
-    ResourcePolicy,
+    ResourcePolicy (ResourcePolicy'),
     newResourcePolicy,
     resourcePolicy_policy,
     resourcePolicy_resourceArn,
 
     -- * Snapshot
-    Snapshot,
+    Snapshot (Snapshot'),
     newSnapshot,
     snapshot_accountsWithProvisionedRestoreAccess,
     snapshot_accountsWithRestoreAccess,
@@ -142,7 +142,7 @@ module Amazonka.RedshiftServerLess.Types
     snapshot_totalBackupSizeInMegaBytes,
 
     -- * TableRestoreStatus
-    TableRestoreStatus,
+    TableRestoreStatus (TableRestoreStatus'),
     newTableRestoreStatus,
     tableRestoreStatus_message,
     tableRestoreStatus_namespaceName,
@@ -161,13 +161,13 @@ module Amazonka.RedshiftServerLess.Types
     tableRestoreStatus_workgroupName,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
 
     -- * UsageLimit
-    UsageLimit,
+    UsageLimit (UsageLimit'),
     newUsageLimit,
     usageLimit_amount,
     usageLimit_breachAction,
@@ -178,20 +178,20 @@ module Amazonka.RedshiftServerLess.Types
     usageLimit_usageType,
 
     -- * VpcEndpoint
-    VpcEndpoint,
+    VpcEndpoint (VpcEndpoint'),
     newVpcEndpoint,
     vpcEndpoint_networkInterfaces,
     vpcEndpoint_vpcEndpointId,
     vpcEndpoint_vpcId,
 
     -- * VpcSecurityGroupMembership
-    VpcSecurityGroupMembership,
+    VpcSecurityGroupMembership (VpcSecurityGroupMembership'),
     newVpcSecurityGroupMembership,
     vpcSecurityGroupMembership_status,
     vpcSecurityGroupMembership_vpcSecurityGroupId,
 
     -- * Workgroup
-    Workgroup,
+    Workgroup (Workgroup'),
     newWorkgroup,
     workgroup_baseCapacity,
     workgroup_configParameters,

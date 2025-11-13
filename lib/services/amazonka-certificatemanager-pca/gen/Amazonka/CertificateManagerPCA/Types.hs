@@ -40,58 +40,58 @@ module Amazonka.CertificateManagerPCA.Types
     _TooManyTagsException,
 
     -- * AccessMethodType
-    AccessMethodType,
+    AccessMethodType (AccessMethodType'),
 
     -- * ActionType
-    ActionType,
+    ActionType (ActionType'),
 
     -- * AuditReportResponseFormat
-    AuditReportResponseFormat,
+    AuditReportResponseFormat (AuditReportResponseFormat'),
 
     -- * AuditReportStatus
-    AuditReportStatus,
+    AuditReportStatus (AuditReportStatus'),
 
     -- * CertificateAuthorityStatus
-    CertificateAuthorityStatus,
+    CertificateAuthorityStatus (CertificateAuthorityStatus'),
 
     -- * CertificateAuthorityType
-    CertificateAuthorityType,
+    CertificateAuthorityType (CertificateAuthorityType'),
 
     -- * CertificateAuthorityUsageMode
-    CertificateAuthorityUsageMode,
+    CertificateAuthorityUsageMode (CertificateAuthorityUsageMode'),
 
     -- * ExtendedKeyUsageType
-    ExtendedKeyUsageType,
+    ExtendedKeyUsageType (ExtendedKeyUsageType'),
 
     -- * FailureReason
-    FailureReason,
+    FailureReason (FailureReason'),
 
     -- * KeyAlgorithm
-    KeyAlgorithm,
+    KeyAlgorithm (KeyAlgorithm'),
 
     -- * KeyStorageSecurityStandard
-    KeyStorageSecurityStandard,
+    KeyStorageSecurityStandard (KeyStorageSecurityStandard'),
 
     -- * PolicyQualifierId
-    PolicyQualifierId,
+    PolicyQualifierId (PolicyQualifierId'),
 
     -- * ResourceOwner
-    ResourceOwner,
+    ResourceOwner (ResourceOwner'),
 
     -- * RevocationReason
-    RevocationReason,
+    RevocationReason (RevocationReason'),
 
     -- * S3ObjectAcl
-    S3ObjectAcl,
+    S3ObjectAcl (S3ObjectAcl'),
 
     -- * SigningAlgorithm
-    SigningAlgorithm,
+    SigningAlgorithm (SigningAlgorithm'),
 
     -- * ValidityPeriodType
-    ValidityPeriodType,
+    ValidityPeriodType (ValidityPeriodType'),
 
     -- * ASN1Subject
-    ASN1Subject,
+    ASN1Subject (ASN1Subject'),
     newASN1Subject,
     aSN1Subject_commonName,
     aSN1Subject_country,
@@ -110,25 +110,25 @@ module Amazonka.CertificateManagerPCA.Types
     aSN1Subject_title,
 
     -- * AccessDescription
-    AccessDescription,
+    AccessDescription (AccessDescription'),
     newAccessDescription,
     accessDescription_accessMethod,
     accessDescription_accessLocation,
 
     -- * AccessMethod
-    AccessMethod,
+    AccessMethod (AccessMethod'),
     newAccessMethod,
     accessMethod_accessMethodType,
     accessMethod_customObjectIdentifier,
 
     -- * ApiPassthrough
-    ApiPassthrough,
+    ApiPassthrough (ApiPassthrough'),
     newApiPassthrough,
     apiPassthrough_extensions,
     apiPassthrough_subject,
 
     -- * CertificateAuthority
-    CertificateAuthority,
+    CertificateAuthority (CertificateAuthority'),
     newCertificateAuthority,
     certificateAuthority_arn,
     certificateAuthority_certificateAuthorityConfiguration,
@@ -147,7 +147,7 @@ module Amazonka.CertificateManagerPCA.Types
     certificateAuthority_usageMode,
 
     -- * CertificateAuthorityConfiguration
-    CertificateAuthorityConfiguration,
+    CertificateAuthorityConfiguration (CertificateAuthorityConfiguration'),
     newCertificateAuthorityConfiguration,
     certificateAuthorityConfiguration_csrExtensions,
     certificateAuthorityConfiguration_keyAlgorithm,
@@ -155,7 +155,7 @@ module Amazonka.CertificateManagerPCA.Types
     certificateAuthorityConfiguration_subject,
 
     -- * CrlConfiguration
-    CrlConfiguration,
+    CrlConfiguration (CrlConfiguration'),
     newCrlConfiguration,
     crlConfiguration_customCname,
     crlConfiguration_expirationInDays,
@@ -164,38 +164,38 @@ module Amazonka.CertificateManagerPCA.Types
     crlConfiguration_enabled,
 
     -- * CsrExtensions
-    CsrExtensions,
+    CsrExtensions (CsrExtensions'),
     newCsrExtensions,
     csrExtensions_keyUsage,
     csrExtensions_subjectInformationAccess,
 
     -- * CustomAttribute
-    CustomAttribute,
+    CustomAttribute (CustomAttribute'),
     newCustomAttribute,
     customAttribute_objectIdentifier,
     customAttribute_value,
 
     -- * CustomExtension
-    CustomExtension,
+    CustomExtension (CustomExtension'),
     newCustomExtension,
     customExtension_critical,
     customExtension_objectIdentifier,
     customExtension_value,
 
     -- * EdiPartyName
-    EdiPartyName,
+    EdiPartyName (EdiPartyName'),
     newEdiPartyName,
     ediPartyName_nameAssigner,
     ediPartyName_partyName,
 
     -- * ExtendedKeyUsage
-    ExtendedKeyUsage,
+    ExtendedKeyUsage (ExtendedKeyUsage'),
     newExtendedKeyUsage,
     extendedKeyUsage_extendedKeyUsageObjectIdentifier,
     extendedKeyUsage_extendedKeyUsageType,
 
     -- * Extensions
-    Extensions,
+    Extensions (Extensions'),
     newExtensions,
     extensions_certificatePolicies,
     extensions_customExtensions,
@@ -204,7 +204,7 @@ module Amazonka.CertificateManagerPCA.Types
     extensions_subjectAlternativeNames,
 
     -- * GeneralName
-    GeneralName,
+    GeneralName (GeneralName'),
     newGeneralName,
     generalName_directoryName,
     generalName_dnsName,
@@ -216,7 +216,7 @@ module Amazonka.CertificateManagerPCA.Types
     generalName_uniformResourceIdentifier,
 
     -- * KeyUsage
-    KeyUsage,
+    KeyUsage (KeyUsage'),
     newKeyUsage,
     keyUsage_cRLSign,
     keyUsage_dataEncipherment,
@@ -229,19 +229,19 @@ module Amazonka.CertificateManagerPCA.Types
     keyUsage_nonRepudiation,
 
     -- * OcspConfiguration
-    OcspConfiguration,
+    OcspConfiguration (OcspConfiguration'),
     newOcspConfiguration,
     ocspConfiguration_ocspCustomCname,
     ocspConfiguration_enabled,
 
     -- * OtherName
-    OtherName,
+    OtherName (OtherName'),
     newOtherName,
     otherName_typeId,
     otherName_value,
 
     -- * Permission
-    Permission,
+    Permission (Permission'),
     newPermission,
     permission_actions,
     permission_certificateAuthorityArn,
@@ -251,36 +251,36 @@ module Amazonka.CertificateManagerPCA.Types
     permission_sourceAccount,
 
     -- * PolicyInformation
-    PolicyInformation,
+    PolicyInformation (PolicyInformation'),
     newPolicyInformation,
     policyInformation_policyQualifiers,
     policyInformation_certPolicyId,
 
     -- * PolicyQualifierInfo
-    PolicyQualifierInfo,
+    PolicyQualifierInfo (PolicyQualifierInfo'),
     newPolicyQualifierInfo,
     policyQualifierInfo_policyQualifierId,
     policyQualifierInfo_qualifier,
 
     -- * Qualifier
-    Qualifier,
+    Qualifier (Qualifier'),
     newQualifier,
     qualifier_cpsUri,
 
     -- * RevocationConfiguration
-    RevocationConfiguration,
+    RevocationConfiguration (RevocationConfiguration'),
     newRevocationConfiguration,
     revocationConfiguration_crlConfiguration,
     revocationConfiguration_ocspConfiguration,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_value,
     tag_key,
 
     -- * Validity
-    Validity,
+    Validity (Validity'),
     newValidity,
     validity_value,
     validity_type,

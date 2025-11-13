@@ -30,799 +30,799 @@ module Amazonka.MediaLive.Types
     _UnprocessableEntityException,
 
     -- * AacCodingMode
-    AacCodingMode,
+    AacCodingMode (AacCodingMode'),
 
     -- * AacInputType
-    AacInputType,
+    AacInputType (AacInputType'),
 
     -- * AacProfile
-    AacProfile,
+    AacProfile (AacProfile'),
 
     -- * AacRateControlMode
-    AacRateControlMode,
+    AacRateControlMode (AacRateControlMode'),
 
     -- * AacRawFormat
-    AacRawFormat,
+    AacRawFormat (AacRawFormat'),
 
     -- * AacSpec
-    AacSpec,
+    AacSpec (AacSpec'),
 
     -- * AacVbrQuality
-    AacVbrQuality,
+    AacVbrQuality (AacVbrQuality'),
 
     -- * Ac3BitstreamMode
-    Ac3BitstreamMode,
+    Ac3BitstreamMode (Ac3BitstreamMode'),
 
     -- * Ac3CodingMode
-    Ac3CodingMode,
+    Ac3CodingMode (Ac3CodingMode'),
 
     -- * Ac3DrcProfile
-    Ac3DrcProfile,
+    Ac3DrcProfile (Ac3DrcProfile'),
 
     -- * Ac3LfeFilter
-    Ac3LfeFilter,
+    Ac3LfeFilter (Ac3LfeFilter'),
 
     -- * Ac3MetadataControl
-    Ac3MetadataControl,
+    Ac3MetadataControl (Ac3MetadataControl'),
 
     -- * AcceptHeader
-    AcceptHeader,
+    AcceptHeader (AcceptHeader'),
 
     -- * AccessibilityType
-    AccessibilityType,
+    AccessibilityType (AccessibilityType'),
 
     -- * AfdSignaling
-    AfdSignaling,
+    AfdSignaling (AfdSignaling'),
 
     -- * AudioDescriptionAudioTypeControl
-    AudioDescriptionAudioTypeControl,
+    AudioDescriptionAudioTypeControl (AudioDescriptionAudioTypeControl'),
 
     -- * AudioDescriptionLanguageCodeControl
-    AudioDescriptionLanguageCodeControl,
+    AudioDescriptionLanguageCodeControl (AudioDescriptionLanguageCodeControl'),
 
     -- * AudioLanguageSelectionPolicy
-    AudioLanguageSelectionPolicy,
+    AudioLanguageSelectionPolicy (AudioLanguageSelectionPolicy'),
 
     -- * AudioNormalizationAlgorithm
-    AudioNormalizationAlgorithm,
+    AudioNormalizationAlgorithm (AudioNormalizationAlgorithm'),
 
     -- * AudioNormalizationAlgorithmControl
-    AudioNormalizationAlgorithmControl,
+    AudioNormalizationAlgorithmControl (AudioNormalizationAlgorithmControl'),
 
     -- * AudioOnlyHlsSegmentType
-    AudioOnlyHlsSegmentType,
+    AudioOnlyHlsSegmentType (AudioOnlyHlsSegmentType'),
 
     -- * AudioOnlyHlsTrackType
-    AudioOnlyHlsTrackType,
+    AudioOnlyHlsTrackType (AudioOnlyHlsTrackType'),
 
     -- * AudioType
-    AudioType,
+    AudioType (AudioType'),
 
     -- * AuthenticationScheme
-    AuthenticationScheme,
+    AuthenticationScheme (AuthenticationScheme'),
 
     -- * AvailBlankingState
-    AvailBlankingState,
+    AvailBlankingState (AvailBlankingState'),
 
     -- * BlackoutSlateNetworkEndBlackout
-    BlackoutSlateNetworkEndBlackout,
+    BlackoutSlateNetworkEndBlackout (BlackoutSlateNetworkEndBlackout'),
 
     -- * BlackoutSlateState
-    BlackoutSlateState,
+    BlackoutSlateState (BlackoutSlateState'),
 
     -- * BurnInAlignment
-    BurnInAlignment,
+    BurnInAlignment (BurnInAlignment'),
 
     -- * BurnInBackgroundColor
-    BurnInBackgroundColor,
+    BurnInBackgroundColor (BurnInBackgroundColor'),
 
     -- * BurnInFontColor
-    BurnInFontColor,
+    BurnInFontColor (BurnInFontColor'),
 
     -- * BurnInOutlineColor
-    BurnInOutlineColor,
+    BurnInOutlineColor (BurnInOutlineColor'),
 
     -- * BurnInShadowColor
-    BurnInShadowColor,
+    BurnInShadowColor (BurnInShadowColor'),
 
     -- * BurnInTeletextGridControl
-    BurnInTeletextGridControl,
+    BurnInTeletextGridControl (BurnInTeletextGridControl'),
 
     -- * CdiInputResolution
-    CdiInputResolution,
+    CdiInputResolution (CdiInputResolution'),
 
     -- * ChannelClass
-    ChannelClass,
+    ChannelClass (ChannelClass'),
 
     -- * ChannelState
-    ChannelState,
+    ChannelState (ChannelState'),
 
     -- * ContentType
-    ContentType,
+    ContentType (ContentType'),
 
     -- * DeviceSettingsSyncState
-    DeviceSettingsSyncState,
+    DeviceSettingsSyncState (DeviceSettingsSyncState'),
 
     -- * DeviceUpdateStatus
-    DeviceUpdateStatus,
+    DeviceUpdateStatus (DeviceUpdateStatus'),
 
     -- * DolbyEProgramSelection
-    DolbyEProgramSelection,
+    DolbyEProgramSelection (DolbyEProgramSelection'),
 
     -- * DvbSdtOutputSdt
-    DvbSdtOutputSdt,
+    DvbSdtOutputSdt (DvbSdtOutputSdt'),
 
     -- * DvbSubDestinationAlignment
-    DvbSubDestinationAlignment,
+    DvbSubDestinationAlignment (DvbSubDestinationAlignment'),
 
     -- * DvbSubDestinationBackgroundColor
-    DvbSubDestinationBackgroundColor,
+    DvbSubDestinationBackgroundColor (DvbSubDestinationBackgroundColor'),
 
     -- * DvbSubDestinationFontColor
-    DvbSubDestinationFontColor,
+    DvbSubDestinationFontColor (DvbSubDestinationFontColor'),
 
     -- * DvbSubDestinationOutlineColor
-    DvbSubDestinationOutlineColor,
+    DvbSubDestinationOutlineColor (DvbSubDestinationOutlineColor'),
 
     -- * DvbSubDestinationShadowColor
-    DvbSubDestinationShadowColor,
+    DvbSubDestinationShadowColor (DvbSubDestinationShadowColor'),
 
     -- * DvbSubDestinationTeletextGridControl
-    DvbSubDestinationTeletextGridControl,
+    DvbSubDestinationTeletextGridControl (DvbSubDestinationTeletextGridControl'),
 
     -- * DvbSubOcrLanguage
-    DvbSubOcrLanguage,
+    DvbSubOcrLanguage (DvbSubOcrLanguage'),
 
     -- * Eac3AtmosCodingMode
-    Eac3AtmosCodingMode,
+    Eac3AtmosCodingMode (Eac3AtmosCodingMode'),
 
     -- * Eac3AtmosDrcLine
-    Eac3AtmosDrcLine,
+    Eac3AtmosDrcLine (Eac3AtmosDrcLine'),
 
     -- * Eac3AtmosDrcRf
-    Eac3AtmosDrcRf,
+    Eac3AtmosDrcRf (Eac3AtmosDrcRf'),
 
     -- * Eac3AttenuationControl
-    Eac3AttenuationControl,
+    Eac3AttenuationControl (Eac3AttenuationControl'),
 
     -- * Eac3BitstreamMode
-    Eac3BitstreamMode,
+    Eac3BitstreamMode (Eac3BitstreamMode'),
 
     -- * Eac3CodingMode
-    Eac3CodingMode,
+    Eac3CodingMode (Eac3CodingMode'),
 
     -- * Eac3DcFilter
-    Eac3DcFilter,
+    Eac3DcFilter (Eac3DcFilter'),
 
     -- * Eac3DrcLine
-    Eac3DrcLine,
+    Eac3DrcLine (Eac3DrcLine'),
 
     -- * Eac3DrcRf
-    Eac3DrcRf,
+    Eac3DrcRf (Eac3DrcRf'),
 
     -- * Eac3LfeControl
-    Eac3LfeControl,
+    Eac3LfeControl (Eac3LfeControl'),
 
     -- * Eac3LfeFilter
-    Eac3LfeFilter,
+    Eac3LfeFilter (Eac3LfeFilter'),
 
     -- * Eac3MetadataControl
-    Eac3MetadataControl,
+    Eac3MetadataControl (Eac3MetadataControl'),
 
     -- * Eac3PassthroughControl
-    Eac3PassthroughControl,
+    Eac3PassthroughControl (Eac3PassthroughControl'),
 
     -- * Eac3PhaseControl
-    Eac3PhaseControl,
+    Eac3PhaseControl (Eac3PhaseControl'),
 
     -- * Eac3StereoDownmix
-    Eac3StereoDownmix,
+    Eac3StereoDownmix (Eac3StereoDownmix'),
 
     -- * Eac3SurroundExMode
-    Eac3SurroundExMode,
+    Eac3SurroundExMode (Eac3SurroundExMode'),
 
     -- * Eac3SurroundMode
-    Eac3SurroundMode,
+    Eac3SurroundMode (Eac3SurroundMode'),
 
     -- * EbuTtDDestinationStyleControl
-    EbuTtDDestinationStyleControl,
+    EbuTtDDestinationStyleControl (EbuTtDDestinationStyleControl'),
 
     -- * EbuTtDFillLineGapControl
-    EbuTtDFillLineGapControl,
+    EbuTtDFillLineGapControl (EbuTtDFillLineGapControl'),
 
     -- * EmbeddedConvert608To708
-    EmbeddedConvert608To708,
+    EmbeddedConvert608To708 (EmbeddedConvert608To708'),
 
     -- * EmbeddedScte20Detection
-    EmbeddedScte20Detection,
+    EmbeddedScte20Detection (EmbeddedScte20Detection'),
 
     -- * FeatureActivationsInputPrepareScheduleActions
-    FeatureActivationsInputPrepareScheduleActions,
+    FeatureActivationsInputPrepareScheduleActions (FeatureActivationsInputPrepareScheduleActions'),
 
     -- * FecOutputIncludeFec
-    FecOutputIncludeFec,
+    FecOutputIncludeFec (FecOutputIncludeFec'),
 
     -- * FixedAfd
-    FixedAfd,
+    FixedAfd (FixedAfd'),
 
     -- * Fmp4NielsenId3Behavior
-    Fmp4NielsenId3Behavior,
+    Fmp4NielsenId3Behavior (Fmp4NielsenId3Behavior'),
 
     -- * Fmp4TimedMetadataBehavior
-    Fmp4TimedMetadataBehavior,
+    Fmp4TimedMetadataBehavior (Fmp4TimedMetadataBehavior'),
 
     -- * FollowPoint
-    FollowPoint,
+    FollowPoint (FollowPoint'),
 
     -- * FrameCaptureIntervalUnit
-    FrameCaptureIntervalUnit,
+    FrameCaptureIntervalUnit (FrameCaptureIntervalUnit'),
 
     -- * GlobalConfigurationInputEndAction
-    GlobalConfigurationInputEndAction,
+    GlobalConfigurationInputEndAction (GlobalConfigurationInputEndAction'),
 
     -- * GlobalConfigurationLowFramerateInputs
-    GlobalConfigurationLowFramerateInputs,
+    GlobalConfigurationLowFramerateInputs (GlobalConfigurationLowFramerateInputs'),
 
     -- * GlobalConfigurationOutputLockingMode
-    GlobalConfigurationOutputLockingMode,
+    GlobalConfigurationOutputLockingMode (GlobalConfigurationOutputLockingMode'),
 
     -- * GlobalConfigurationOutputTimingSource
-    GlobalConfigurationOutputTimingSource,
+    GlobalConfigurationOutputTimingSource (GlobalConfigurationOutputTimingSource'),
 
     -- * H264AdaptiveQuantization
-    H264AdaptiveQuantization,
+    H264AdaptiveQuantization (H264AdaptiveQuantization'),
 
     -- * H264ColorMetadata
-    H264ColorMetadata,
+    H264ColorMetadata (H264ColorMetadata'),
 
     -- * H264EntropyEncoding
-    H264EntropyEncoding,
+    H264EntropyEncoding (H264EntropyEncoding'),
 
     -- * H264FlickerAq
-    H264FlickerAq,
+    H264FlickerAq (H264FlickerAq'),
 
     -- * H264ForceFieldPictures
-    H264ForceFieldPictures,
+    H264ForceFieldPictures (H264ForceFieldPictures'),
 
     -- * H264FramerateControl
-    H264FramerateControl,
+    H264FramerateControl (H264FramerateControl'),
 
     -- * H264GopBReference
-    H264GopBReference,
+    H264GopBReference (H264GopBReference'),
 
     -- * H264GopSizeUnits
-    H264GopSizeUnits,
+    H264GopSizeUnits (H264GopSizeUnits'),
 
     -- * H264Level
-    H264Level,
+    H264Level (H264Level'),
 
     -- * H264LookAheadRateControl
-    H264LookAheadRateControl,
+    H264LookAheadRateControl (H264LookAheadRateControl'),
 
     -- * H264ParControl
-    H264ParControl,
+    H264ParControl (H264ParControl'),
 
     -- * H264Profile
-    H264Profile,
+    H264Profile (H264Profile'),
 
     -- * H264QualityLevel
-    H264QualityLevel,
+    H264QualityLevel (H264QualityLevel'),
 
     -- * H264RateControlMode
-    H264RateControlMode,
+    H264RateControlMode (H264RateControlMode'),
 
     -- * H264ScanType
-    H264ScanType,
+    H264ScanType (H264ScanType'),
 
     -- * H264SceneChangeDetect
-    H264SceneChangeDetect,
+    H264SceneChangeDetect (H264SceneChangeDetect'),
 
     -- * H264SpatialAq
-    H264SpatialAq,
+    H264SpatialAq (H264SpatialAq'),
 
     -- * H264SubGopLength
-    H264SubGopLength,
+    H264SubGopLength (H264SubGopLength'),
 
     -- * H264Syntax
-    H264Syntax,
+    H264Syntax (H264Syntax'),
 
     -- * H264TemporalAq
-    H264TemporalAq,
+    H264TemporalAq (H264TemporalAq'),
 
     -- * H264TimecodeInsertionBehavior
-    H264TimecodeInsertionBehavior,
+    H264TimecodeInsertionBehavior (H264TimecodeInsertionBehavior'),
 
     -- * H265AdaptiveQuantization
-    H265AdaptiveQuantization,
+    H265AdaptiveQuantization (H265AdaptiveQuantization'),
 
     -- * H265AlternativeTransferFunction
-    H265AlternativeTransferFunction,
+    H265AlternativeTransferFunction (H265AlternativeTransferFunction'),
 
     -- * H265ColorMetadata
-    H265ColorMetadata,
+    H265ColorMetadata (H265ColorMetadata'),
 
     -- * H265FlickerAq
-    H265FlickerAq,
+    H265FlickerAq (H265FlickerAq'),
 
     -- * H265GopSizeUnits
-    H265GopSizeUnits,
+    H265GopSizeUnits (H265GopSizeUnits'),
 
     -- * H265Level
-    H265Level,
+    H265Level (H265Level'),
 
     -- * H265LookAheadRateControl
-    H265LookAheadRateControl,
+    H265LookAheadRateControl (H265LookAheadRateControl'),
 
     -- * H265Profile
-    H265Profile,
+    H265Profile (H265Profile'),
 
     -- * H265RateControlMode
-    H265RateControlMode,
+    H265RateControlMode (H265RateControlMode'),
 
     -- * H265ScanType
-    H265ScanType,
+    H265ScanType (H265ScanType'),
 
     -- * H265SceneChangeDetect
-    H265SceneChangeDetect,
+    H265SceneChangeDetect (H265SceneChangeDetect'),
 
     -- * H265Tier
-    H265Tier,
+    H265Tier (H265Tier'),
 
     -- * H265TimecodeInsertionBehavior
-    H265TimecodeInsertionBehavior,
+    H265TimecodeInsertionBehavior (H265TimecodeInsertionBehavior'),
 
     -- * HlsAdMarkers
-    HlsAdMarkers,
+    HlsAdMarkers (HlsAdMarkers'),
 
     -- * HlsAkamaiHttpTransferMode
-    HlsAkamaiHttpTransferMode,
+    HlsAkamaiHttpTransferMode (HlsAkamaiHttpTransferMode'),
 
     -- * HlsCaptionLanguageSetting
-    HlsCaptionLanguageSetting,
+    HlsCaptionLanguageSetting (HlsCaptionLanguageSetting'),
 
     -- * HlsClientCache
-    HlsClientCache,
+    HlsClientCache (HlsClientCache'),
 
     -- * HlsCodecSpecification
-    HlsCodecSpecification,
+    HlsCodecSpecification (HlsCodecSpecification'),
 
     -- * HlsDirectoryStructure
-    HlsDirectoryStructure,
+    HlsDirectoryStructure (HlsDirectoryStructure'),
 
     -- * HlsDiscontinuityTags
-    HlsDiscontinuityTags,
+    HlsDiscontinuityTags (HlsDiscontinuityTags'),
 
     -- * HlsEncryptionType
-    HlsEncryptionType,
+    HlsEncryptionType (HlsEncryptionType'),
 
     -- * HlsH265PackagingType
-    HlsH265PackagingType,
+    HlsH265PackagingType (HlsH265PackagingType'),
 
     -- * HlsId3SegmentTaggingState
-    HlsId3SegmentTaggingState,
+    HlsId3SegmentTaggingState (HlsId3SegmentTaggingState'),
 
     -- * HlsIncompleteSegmentBehavior
-    HlsIncompleteSegmentBehavior,
+    HlsIncompleteSegmentBehavior (HlsIncompleteSegmentBehavior'),
 
     -- * HlsIvInManifest
-    HlsIvInManifest,
+    HlsIvInManifest (HlsIvInManifest'),
 
     -- * HlsIvSource
-    HlsIvSource,
+    HlsIvSource (HlsIvSource'),
 
     -- * HlsManifestCompression
-    HlsManifestCompression,
+    HlsManifestCompression (HlsManifestCompression'),
 
     -- * HlsManifestDurationFormat
-    HlsManifestDurationFormat,
+    HlsManifestDurationFormat (HlsManifestDurationFormat'),
 
     -- * HlsMediaStoreStorageClass
-    HlsMediaStoreStorageClass,
+    HlsMediaStoreStorageClass (HlsMediaStoreStorageClass'),
 
     -- * HlsMode
-    HlsMode,
+    HlsMode (HlsMode'),
 
     -- * HlsOutputSelection
-    HlsOutputSelection,
+    HlsOutputSelection (HlsOutputSelection'),
 
     -- * HlsProgramDateTime
-    HlsProgramDateTime,
+    HlsProgramDateTime (HlsProgramDateTime'),
 
     -- * HlsProgramDateTimeClock
-    HlsProgramDateTimeClock,
+    HlsProgramDateTimeClock (HlsProgramDateTimeClock'),
 
     -- * HlsRedundantManifest
-    HlsRedundantManifest,
+    HlsRedundantManifest (HlsRedundantManifest'),
 
     -- * HlsScte35SourceType
-    HlsScte35SourceType,
+    HlsScte35SourceType (HlsScte35SourceType'),
 
     -- * HlsSegmentationMode
-    HlsSegmentationMode,
+    HlsSegmentationMode (HlsSegmentationMode'),
 
     -- * HlsStreamInfResolution
-    HlsStreamInfResolution,
+    HlsStreamInfResolution (HlsStreamInfResolution'),
 
     -- * HlsTimedMetadataId3Frame
-    HlsTimedMetadataId3Frame,
+    HlsTimedMetadataId3Frame (HlsTimedMetadataId3Frame'),
 
     -- * HlsTsFileMode
-    HlsTsFileMode,
+    HlsTsFileMode (HlsTsFileMode'),
 
     -- * HlsWebdavHttpTransferMode
-    HlsWebdavHttpTransferMode,
+    HlsWebdavHttpTransferMode (HlsWebdavHttpTransferMode'),
 
     -- * IFrameOnlyPlaylistType
-    IFrameOnlyPlaylistType,
+    IFrameOnlyPlaylistType (IFrameOnlyPlaylistType'),
 
     -- * InputClass
-    InputClass,
+    InputClass (InputClass'),
 
     -- * InputCodec
-    InputCodec,
+    InputCodec (InputCodec'),
 
     -- * InputDeblockFilter
-    InputDeblockFilter,
+    InputDeblockFilter (InputDeblockFilter'),
 
     -- * InputDenoiseFilter
-    InputDenoiseFilter,
+    InputDenoiseFilter (InputDenoiseFilter'),
 
     -- * InputDeviceActiveInput
-    InputDeviceActiveInput,
+    InputDeviceActiveInput (InputDeviceActiveInput'),
 
     -- * InputDeviceConfiguredInput
-    InputDeviceConfiguredInput,
+    InputDeviceConfiguredInput (InputDeviceConfiguredInput'),
 
     -- * InputDeviceConnectionState
-    InputDeviceConnectionState,
+    InputDeviceConnectionState (InputDeviceConnectionState'),
 
     -- * InputDeviceIpScheme
-    InputDeviceIpScheme,
+    InputDeviceIpScheme (InputDeviceIpScheme'),
 
     -- * InputDeviceScanType
-    InputDeviceScanType,
+    InputDeviceScanType (InputDeviceScanType'),
 
     -- * InputDeviceState
-    InputDeviceState,
+    InputDeviceState (InputDeviceState'),
 
     -- * InputDeviceTransferType
-    InputDeviceTransferType,
+    InputDeviceTransferType (InputDeviceTransferType'),
 
     -- * InputDeviceType
-    InputDeviceType,
+    InputDeviceType (InputDeviceType'),
 
     -- * InputFilter
-    InputFilter,
+    InputFilter (InputFilter'),
 
     -- * InputLossActionForHlsOut
-    InputLossActionForHlsOut,
+    InputLossActionForHlsOut (InputLossActionForHlsOut'),
 
     -- * InputLossActionForMsSmoothOut
-    InputLossActionForMsSmoothOut,
+    InputLossActionForMsSmoothOut (InputLossActionForMsSmoothOut'),
 
     -- * InputLossActionForRtmpOut
-    InputLossActionForRtmpOut,
+    InputLossActionForRtmpOut (InputLossActionForRtmpOut'),
 
     -- * InputLossActionForUdpOut
-    InputLossActionForUdpOut,
+    InputLossActionForUdpOut (InputLossActionForUdpOut'),
 
     -- * InputLossImageType
-    InputLossImageType,
+    InputLossImageType (InputLossImageType'),
 
     -- * InputMaximumBitrate
-    InputMaximumBitrate,
+    InputMaximumBitrate (InputMaximumBitrate'),
 
     -- * InputPreference
-    InputPreference,
+    InputPreference (InputPreference'),
 
     -- * InputResolution
-    InputResolution,
+    InputResolution (InputResolution'),
 
     -- * InputSecurityGroupState
-    InputSecurityGroupState,
+    InputSecurityGroupState (InputSecurityGroupState'),
 
     -- * InputSourceEndBehavior
-    InputSourceEndBehavior,
+    InputSourceEndBehavior (InputSourceEndBehavior'),
 
     -- * InputSourceType
-    InputSourceType,
+    InputSourceType (InputSourceType'),
 
     -- * InputState
-    InputState,
+    InputState (InputState'),
 
     -- * InputTimecodeSource
-    InputTimecodeSource,
+    InputTimecodeSource (InputTimecodeSource'),
 
     -- * InputType
-    InputType,
+    InputType (InputType'),
 
     -- * LastFrameClippingBehavior
-    LastFrameClippingBehavior,
+    LastFrameClippingBehavior (LastFrameClippingBehavior'),
 
     -- * LogLevel
-    LogLevel,
+    LogLevel (LogLevel'),
 
     -- * M2tsAbsentInputAudioBehavior
-    M2tsAbsentInputAudioBehavior,
+    M2tsAbsentInputAudioBehavior (M2tsAbsentInputAudioBehavior'),
 
     -- * M2tsArib
-    M2tsArib,
+    M2tsArib (M2tsArib'),
 
     -- * M2tsAribCaptionsPidControl
-    M2tsAribCaptionsPidControl,
+    M2tsAribCaptionsPidControl (M2tsAribCaptionsPidControl'),
 
     -- * M2tsAudioBufferModel
-    M2tsAudioBufferModel,
+    M2tsAudioBufferModel (M2tsAudioBufferModel'),
 
     -- * M2tsAudioInterval
-    M2tsAudioInterval,
+    M2tsAudioInterval (M2tsAudioInterval'),
 
     -- * M2tsAudioStreamType
-    M2tsAudioStreamType,
+    M2tsAudioStreamType (M2tsAudioStreamType'),
 
     -- * M2tsBufferModel
-    M2tsBufferModel,
+    M2tsBufferModel (M2tsBufferModel'),
 
     -- * M2tsCcDescriptor
-    M2tsCcDescriptor,
+    M2tsCcDescriptor (M2tsCcDescriptor'),
 
     -- * M2tsEbifControl
-    M2tsEbifControl,
+    M2tsEbifControl (M2tsEbifControl'),
 
     -- * M2tsEbpPlacement
-    M2tsEbpPlacement,
+    M2tsEbpPlacement (M2tsEbpPlacement'),
 
     -- * M2tsEsRateInPes
-    M2tsEsRateInPes,
+    M2tsEsRateInPes (M2tsEsRateInPes'),
 
     -- * M2tsKlv
-    M2tsKlv,
+    M2tsKlv (M2tsKlv'),
 
     -- * M2tsNielsenId3Behavior
-    M2tsNielsenId3Behavior,
+    M2tsNielsenId3Behavior (M2tsNielsenId3Behavior'),
 
     -- * M2tsPcrControl
-    M2tsPcrControl,
+    M2tsPcrControl (M2tsPcrControl'),
 
     -- * M2tsRateMode
-    M2tsRateMode,
+    M2tsRateMode (M2tsRateMode'),
 
     -- * M2tsScte35Control
-    M2tsScte35Control,
+    M2tsScte35Control (M2tsScte35Control'),
 
     -- * M2tsSegmentationMarkers
-    M2tsSegmentationMarkers,
+    M2tsSegmentationMarkers (M2tsSegmentationMarkers'),
 
     -- * M2tsSegmentationStyle
-    M2tsSegmentationStyle,
+    M2tsSegmentationStyle (M2tsSegmentationStyle'),
 
     -- * M2tsTimedMetadataBehavior
-    M2tsTimedMetadataBehavior,
+    M2tsTimedMetadataBehavior (M2tsTimedMetadataBehavior'),
 
     -- * M3u8NielsenId3Behavior
-    M3u8NielsenId3Behavior,
+    M3u8NielsenId3Behavior (M3u8NielsenId3Behavior'),
 
     -- * M3u8PcrControl
-    M3u8PcrControl,
+    M3u8PcrControl (M3u8PcrControl'),
 
     -- * M3u8Scte35Behavior
-    M3u8Scte35Behavior,
+    M3u8Scte35Behavior (M3u8Scte35Behavior'),
 
     -- * M3u8TimedMetadataBehavior
-    M3u8TimedMetadataBehavior,
+    M3u8TimedMetadataBehavior (M3u8TimedMetadataBehavior'),
 
     -- * MaintenanceDay
-    MaintenanceDay,
+    MaintenanceDay (MaintenanceDay'),
 
     -- * MotionGraphicsInsertion
-    MotionGraphicsInsertion,
+    MotionGraphicsInsertion (MotionGraphicsInsertion'),
 
     -- * Mp2CodingMode
-    Mp2CodingMode,
+    Mp2CodingMode (Mp2CodingMode'),
 
     -- * Mpeg2AdaptiveQuantization
-    Mpeg2AdaptiveQuantization,
+    Mpeg2AdaptiveQuantization (Mpeg2AdaptiveQuantization'),
 
     -- * Mpeg2ColorMetadata
-    Mpeg2ColorMetadata,
+    Mpeg2ColorMetadata (Mpeg2ColorMetadata'),
 
     -- * Mpeg2ColorSpace
-    Mpeg2ColorSpace,
+    Mpeg2ColorSpace (Mpeg2ColorSpace'),
 
     -- * Mpeg2DisplayRatio
-    Mpeg2DisplayRatio,
+    Mpeg2DisplayRatio (Mpeg2DisplayRatio'),
 
     -- * Mpeg2GopSizeUnits
-    Mpeg2GopSizeUnits,
+    Mpeg2GopSizeUnits (Mpeg2GopSizeUnits'),
 
     -- * Mpeg2ScanType
-    Mpeg2ScanType,
+    Mpeg2ScanType (Mpeg2ScanType'),
 
     -- * Mpeg2SubGopLength
-    Mpeg2SubGopLength,
+    Mpeg2SubGopLength (Mpeg2SubGopLength'),
 
     -- * Mpeg2TimecodeInsertionBehavior
-    Mpeg2TimecodeInsertionBehavior,
+    Mpeg2TimecodeInsertionBehavior (Mpeg2TimecodeInsertionBehavior'),
 
     -- * MsSmoothH265PackagingType
-    MsSmoothH265PackagingType,
+    MsSmoothH265PackagingType (MsSmoothH265PackagingType'),
 
     -- * MultiplexState
-    MultiplexState,
+    MultiplexState (MultiplexState'),
 
     -- * NetworkInputServerValidation
-    NetworkInputServerValidation,
+    NetworkInputServerValidation (NetworkInputServerValidation'),
 
     -- * NielsenPcmToId3TaggingState
-    NielsenPcmToId3TaggingState,
+    NielsenPcmToId3TaggingState (NielsenPcmToId3TaggingState'),
 
     -- * NielsenWatermarksCbetStepaside
-    NielsenWatermarksCbetStepaside,
+    NielsenWatermarksCbetStepaside (NielsenWatermarksCbetStepaside'),
 
     -- * NielsenWatermarksDistributionTypes
-    NielsenWatermarksDistributionTypes,
+    NielsenWatermarksDistributionTypes (NielsenWatermarksDistributionTypes'),
 
     -- * OfferingDurationUnits
-    OfferingDurationUnits,
+    OfferingDurationUnits (OfferingDurationUnits'),
 
     -- * OfferingType
-    OfferingType,
+    OfferingType (OfferingType'),
 
     -- * PipelineId
-    PipelineId,
+    PipelineId (PipelineId'),
 
     -- * PreferredChannelPipeline
-    PreferredChannelPipeline,
+    PreferredChannelPipeline (PreferredChannelPipeline'),
 
     -- * RebootInputDeviceForce
-    RebootInputDeviceForce,
+    RebootInputDeviceForce (RebootInputDeviceForce'),
 
     -- * ReservationAutomaticRenewal
-    ReservationAutomaticRenewal,
+    ReservationAutomaticRenewal (ReservationAutomaticRenewal'),
 
     -- * ReservationCodec
-    ReservationCodec,
+    ReservationCodec (ReservationCodec'),
 
     -- * ReservationMaximumBitrate
-    ReservationMaximumBitrate,
+    ReservationMaximumBitrate (ReservationMaximumBitrate'),
 
     -- * ReservationMaximumFramerate
-    ReservationMaximumFramerate,
+    ReservationMaximumFramerate (ReservationMaximumFramerate'),
 
     -- * ReservationResolution
-    ReservationResolution,
+    ReservationResolution (ReservationResolution'),
 
     -- * ReservationResourceType
-    ReservationResourceType,
+    ReservationResourceType (ReservationResourceType'),
 
     -- * ReservationSpecialFeature
-    ReservationSpecialFeature,
+    ReservationSpecialFeature (ReservationSpecialFeature'),
 
     -- * ReservationState
-    ReservationState,
+    ReservationState (ReservationState'),
 
     -- * ReservationVideoQuality
-    ReservationVideoQuality,
+    ReservationVideoQuality (ReservationVideoQuality'),
 
     -- * RtmpAdMarkers
-    RtmpAdMarkers,
+    RtmpAdMarkers (RtmpAdMarkers'),
 
     -- * RtmpCacheFullBehavior
-    RtmpCacheFullBehavior,
+    RtmpCacheFullBehavior (RtmpCacheFullBehavior'),
 
     -- * RtmpCaptionData
-    RtmpCaptionData,
+    RtmpCaptionData (RtmpCaptionData'),
 
     -- * RtmpOutputCertificateMode
-    RtmpOutputCertificateMode,
+    RtmpOutputCertificateMode (RtmpOutputCertificateMode'),
 
     -- * S3CannedAcl
-    S3CannedAcl,
+    S3CannedAcl (S3CannedAcl'),
 
     -- * Scte20Convert608To708
-    Scte20Convert608To708,
+    Scte20Convert608To708 (Scte20Convert608To708'),
 
     -- * Scte27OcrLanguage
-    Scte27OcrLanguage,
+    Scte27OcrLanguage (Scte27OcrLanguage'),
 
     -- * Scte35AposNoRegionalBlackoutBehavior
-    Scte35AposNoRegionalBlackoutBehavior,
+    Scte35AposNoRegionalBlackoutBehavior (Scte35AposNoRegionalBlackoutBehavior'),
 
     -- * Scte35AposWebDeliveryAllowedBehavior
-    Scte35AposWebDeliveryAllowedBehavior,
+    Scte35AposWebDeliveryAllowedBehavior (Scte35AposWebDeliveryAllowedBehavior'),
 
     -- * Scte35ArchiveAllowedFlag
-    Scte35ArchiveAllowedFlag,
+    Scte35ArchiveAllowedFlag (Scte35ArchiveAllowedFlag'),
 
     -- * Scte35DeviceRestrictions
-    Scte35DeviceRestrictions,
+    Scte35DeviceRestrictions (Scte35DeviceRestrictions'),
 
     -- * Scte35InputMode
-    Scte35InputMode,
+    Scte35InputMode (Scte35InputMode'),
 
     -- * Scte35NoRegionalBlackoutFlag
-    Scte35NoRegionalBlackoutFlag,
+    Scte35NoRegionalBlackoutFlag (Scte35NoRegionalBlackoutFlag'),
 
     -- * Scte35SegmentationCancelIndicator
-    Scte35SegmentationCancelIndicator,
+    Scte35SegmentationCancelIndicator (Scte35SegmentationCancelIndicator'),
 
     -- * Scte35SpliceInsertNoRegionalBlackoutBehavior
-    Scte35SpliceInsertNoRegionalBlackoutBehavior,
+    Scte35SpliceInsertNoRegionalBlackoutBehavior (Scte35SpliceInsertNoRegionalBlackoutBehavior'),
 
     -- * Scte35SpliceInsertWebDeliveryAllowedBehavior
-    Scte35SpliceInsertWebDeliveryAllowedBehavior,
+    Scte35SpliceInsertWebDeliveryAllowedBehavior (Scte35SpliceInsertWebDeliveryAllowedBehavior'),
 
     -- * Scte35WebDeliveryAllowedFlag
-    Scte35WebDeliveryAllowedFlag,
+    Scte35WebDeliveryAllowedFlag (Scte35WebDeliveryAllowedFlag'),
 
     -- * SmoothGroupAudioOnlyTimecodeControl
-    SmoothGroupAudioOnlyTimecodeControl,
+    SmoothGroupAudioOnlyTimecodeControl (SmoothGroupAudioOnlyTimecodeControl'),
 
     -- * SmoothGroupCertificateMode
-    SmoothGroupCertificateMode,
+    SmoothGroupCertificateMode (SmoothGroupCertificateMode'),
 
     -- * SmoothGroupEventIdMode
-    SmoothGroupEventIdMode,
+    SmoothGroupEventIdMode (SmoothGroupEventIdMode'),
 
     -- * SmoothGroupEventStopBehavior
-    SmoothGroupEventStopBehavior,
+    SmoothGroupEventStopBehavior (SmoothGroupEventStopBehavior'),
 
     -- * SmoothGroupSegmentationMode
-    SmoothGroupSegmentationMode,
+    SmoothGroupSegmentationMode (SmoothGroupSegmentationMode'),
 
     -- * SmoothGroupSparseTrackType
-    SmoothGroupSparseTrackType,
+    SmoothGroupSparseTrackType (SmoothGroupSparseTrackType'),
 
     -- * SmoothGroupStreamManifestBehavior
-    SmoothGroupStreamManifestBehavior,
+    SmoothGroupStreamManifestBehavior (SmoothGroupStreamManifestBehavior'),
 
     -- * SmoothGroupTimestampOffsetMode
-    SmoothGroupTimestampOffsetMode,
+    SmoothGroupTimestampOffsetMode (SmoothGroupTimestampOffsetMode'),
 
     -- * Smpte2038DataPreference
-    Smpte2038DataPreference,
+    Smpte2038DataPreference (Smpte2038DataPreference'),
 
     -- * TemporalFilterPostFilterSharpening
-    TemporalFilterPostFilterSharpening,
+    TemporalFilterPostFilterSharpening (TemporalFilterPostFilterSharpening'),
 
     -- * TemporalFilterStrength
-    TemporalFilterStrength,
+    TemporalFilterStrength (TemporalFilterStrength'),
 
     -- * TimecodeBurninFontSize
-    TimecodeBurninFontSize,
+    TimecodeBurninFontSize (TimecodeBurninFontSize'),
 
     -- * TimecodeBurninPosition
-    TimecodeBurninPosition,
+    TimecodeBurninPosition (TimecodeBurninPosition'),
 
     -- * TimecodeConfigSource
-    TimecodeConfigSource,
+    TimecodeConfigSource (TimecodeConfigSource'),
 
     -- * TtmlDestinationStyleControl
-    TtmlDestinationStyleControl,
+    TtmlDestinationStyleControl (TtmlDestinationStyleControl'),
 
     -- * UdpTimedMetadataId3Frame
-    UdpTimedMetadataId3Frame,
+    UdpTimedMetadataId3Frame (UdpTimedMetadataId3Frame'),
 
     -- * VideoDescriptionRespondToAfd
-    VideoDescriptionRespondToAfd,
+    VideoDescriptionRespondToAfd (VideoDescriptionRespondToAfd'),
 
     -- * VideoDescriptionScalingBehavior
-    VideoDescriptionScalingBehavior,
+    VideoDescriptionScalingBehavior (VideoDescriptionScalingBehavior'),
 
     -- * VideoSelectorColorSpace
-    VideoSelectorColorSpace,
+    VideoSelectorColorSpace (VideoSelectorColorSpace'),
 
     -- * VideoSelectorColorSpaceUsage
-    VideoSelectorColorSpaceUsage,
+    VideoSelectorColorSpaceUsage (VideoSelectorColorSpaceUsage'),
 
     -- * WavCodingMode
-    WavCodingMode,
+    WavCodingMode (WavCodingMode'),
 
     -- * WebvttDestinationStyleControl
-    WebvttDestinationStyleControl,
+    WebvttDestinationStyleControl (WebvttDestinationStyleControl'),
 
     -- * AacSettings
-    AacSettings,
+    AacSettings (AacSettings'),
     newAacSettings,
     aacSettings_bitrate,
     aacSettings_codingMode,
@@ -835,7 +835,7 @@ module Amazonka.MediaLive.Types
     aacSettings_vbrQuality,
 
     -- * Ac3Settings
-    Ac3Settings,
+    Ac3Settings (Ac3Settings'),
     newAc3Settings,
     ac3Settings_bitrate,
     ac3Settings_bitstreamMode,
@@ -846,56 +846,56 @@ module Amazonka.MediaLive.Types
     ac3Settings_metadataControl,
 
     -- * AncillarySourceSettings
-    AncillarySourceSettings,
+    AncillarySourceSettings (AncillarySourceSettings'),
     newAncillarySourceSettings,
     ancillarySourceSettings_sourceAncillaryChannelNumber,
 
     -- * ArchiveCdnSettings
-    ArchiveCdnSettings,
+    ArchiveCdnSettings (ArchiveCdnSettings'),
     newArchiveCdnSettings,
     archiveCdnSettings_archiveS3Settings,
 
     -- * ArchiveContainerSettings
-    ArchiveContainerSettings,
+    ArchiveContainerSettings (ArchiveContainerSettings'),
     newArchiveContainerSettings,
     archiveContainerSettings_m2tsSettings,
     archiveContainerSettings_rawSettings,
 
     -- * ArchiveGroupSettings
-    ArchiveGroupSettings,
+    ArchiveGroupSettings (ArchiveGroupSettings'),
     newArchiveGroupSettings,
     archiveGroupSettings_archiveCdnSettings,
     archiveGroupSettings_rolloverInterval,
     archiveGroupSettings_destination,
 
     -- * ArchiveOutputSettings
-    ArchiveOutputSettings,
+    ArchiveOutputSettings (ArchiveOutputSettings'),
     newArchiveOutputSettings,
     archiveOutputSettings_extension,
     archiveOutputSettings_nameModifier,
     archiveOutputSettings_containerSettings,
 
     -- * ArchiveS3Settings
-    ArchiveS3Settings,
+    ArchiveS3Settings (ArchiveS3Settings'),
     newArchiveS3Settings,
     archiveS3Settings_cannedAcl,
 
     -- * AribDestinationSettings
-    AribDestinationSettings,
+    AribDestinationSettings (AribDestinationSettings'),
     newAribDestinationSettings,
 
     -- * AribSourceSettings
-    AribSourceSettings,
+    AribSourceSettings (AribSourceSettings'),
     newAribSourceSettings,
 
     -- * AudioChannelMapping
-    AudioChannelMapping,
+    AudioChannelMapping (AudioChannelMapping'),
     newAudioChannelMapping,
     audioChannelMapping_outputChannel,
     audioChannelMapping_inputChannelLevels,
 
     -- * AudioCodecSettings
-    AudioCodecSettings,
+    AudioCodecSettings (AudioCodecSettings'),
     newAudioCodecSettings,
     audioCodecSettings_aacSettings,
     audioCodecSettings_ac3Settings,
@@ -906,7 +906,7 @@ module Amazonka.MediaLive.Types
     audioCodecSettings_wavSettings,
 
     -- * AudioDescription
-    AudioDescription,
+    AudioDescription (AudioDescription'),
     newAudioDescription,
     audioDescription_audioNormalizationSettings,
     audioDescription_audioType,
@@ -921,31 +921,31 @@ module Amazonka.MediaLive.Types
     audioDescription_name,
 
     -- * AudioDolbyEDecode
-    AudioDolbyEDecode,
+    AudioDolbyEDecode (AudioDolbyEDecode'),
     newAudioDolbyEDecode,
     audioDolbyEDecode_programSelection,
 
     -- * AudioHlsRenditionSelection
-    AudioHlsRenditionSelection,
+    AudioHlsRenditionSelection (AudioHlsRenditionSelection'),
     newAudioHlsRenditionSelection,
     audioHlsRenditionSelection_name,
     audioHlsRenditionSelection_groupId,
 
     -- * AudioLanguageSelection
-    AudioLanguageSelection,
+    AudioLanguageSelection (AudioLanguageSelection'),
     newAudioLanguageSelection,
     audioLanguageSelection_languageSelectionPolicy,
     audioLanguageSelection_languageCode,
 
     -- * AudioNormalizationSettings
-    AudioNormalizationSettings,
+    AudioNormalizationSettings (AudioNormalizationSettings'),
     newAudioNormalizationSettings,
     audioNormalizationSettings_algorithm,
     audioNormalizationSettings_algorithmControl,
     audioNormalizationSettings_targetLkfs,
 
     -- * AudioOnlyHlsSettings
-    AudioOnlyHlsSettings,
+    AudioOnlyHlsSettings (AudioOnlyHlsSettings'),
     newAudioOnlyHlsSettings,
     audioOnlyHlsSettings_audioGroupId,
     audioOnlyHlsSettings_audioOnlyImage,
@@ -953,18 +953,18 @@ module Amazonka.MediaLive.Types
     audioOnlyHlsSettings_segmentType,
 
     -- * AudioPidSelection
-    AudioPidSelection,
+    AudioPidSelection (AudioPidSelection'),
     newAudioPidSelection,
     audioPidSelection_pid,
 
     -- * AudioSelector
-    AudioSelector,
+    AudioSelector (AudioSelector'),
     newAudioSelector,
     audioSelector_selectorSettings,
     audioSelector_name,
 
     -- * AudioSelectorSettings
-    AudioSelectorSettings,
+    AudioSelectorSettings (AudioSelectorSettings'),
     newAudioSelectorSettings,
     audioSelectorSettings_audioHlsRenditionSelection,
     audioSelectorSettings_audioLanguageSelection,
@@ -972,29 +972,29 @@ module Amazonka.MediaLive.Types
     audioSelectorSettings_audioTrackSelection,
 
     -- * AudioSilenceFailoverSettings
-    AudioSilenceFailoverSettings,
+    AudioSilenceFailoverSettings (AudioSilenceFailoverSettings'),
     newAudioSilenceFailoverSettings,
     audioSilenceFailoverSettings_audioSilenceThresholdMsec,
     audioSilenceFailoverSettings_audioSelectorName,
 
     -- * AudioTrack
-    AudioTrack,
+    AudioTrack (AudioTrack'),
     newAudioTrack,
     audioTrack_track,
 
     -- * AudioTrackSelection
-    AudioTrackSelection,
+    AudioTrackSelection (AudioTrackSelection'),
     newAudioTrackSelection,
     audioTrackSelection_dolbyEDecode,
     audioTrackSelection_tracks,
 
     -- * AudioWatermarkSettings
-    AudioWatermarkSettings,
+    AudioWatermarkSettings (AudioWatermarkSettings'),
     newAudioWatermarkSettings,
     audioWatermarkSettings_nielsenWatermarksSettings,
 
     -- * AutomaticInputFailoverSettings
-    AutomaticInputFailoverSettings,
+    AutomaticInputFailoverSettings (AutomaticInputFailoverSettings'),
     newAutomaticInputFailoverSettings,
     automaticInputFailoverSettings_errorClearTimeMsec,
     automaticInputFailoverSettings_failoverConditions,
@@ -1002,25 +1002,25 @@ module Amazonka.MediaLive.Types
     automaticInputFailoverSettings_secondaryInputId,
 
     -- * AvailBlanking
-    AvailBlanking,
+    AvailBlanking (AvailBlanking'),
     newAvailBlanking,
     availBlanking_availBlankingImage,
     availBlanking_state,
 
     -- * AvailConfiguration
-    AvailConfiguration,
+    AvailConfiguration (AvailConfiguration'),
     newAvailConfiguration,
     availConfiguration_availSettings,
 
     -- * AvailSettings
-    AvailSettings,
+    AvailSettings (AvailSettings'),
     newAvailSettings,
     availSettings_esam,
     availSettings_scte35SpliceInsert,
     availSettings_scte35TimeSignalApos,
 
     -- * BatchFailedResultModel
-    BatchFailedResultModel,
+    BatchFailedResultModel (BatchFailedResultModel'),
     newBatchFailedResultModel,
     batchFailedResultModel_arn,
     batchFailedResultModel_code,
@@ -1028,34 +1028,34 @@ module Amazonka.MediaLive.Types
     batchFailedResultModel_message,
 
     -- * BatchScheduleActionCreateRequest
-    BatchScheduleActionCreateRequest,
+    BatchScheduleActionCreateRequest (BatchScheduleActionCreateRequest'),
     newBatchScheduleActionCreateRequest,
     batchScheduleActionCreateRequest_scheduleActions,
 
     -- * BatchScheduleActionCreateResult
-    BatchScheduleActionCreateResult,
+    BatchScheduleActionCreateResult (BatchScheduleActionCreateResult'),
     newBatchScheduleActionCreateResult,
     batchScheduleActionCreateResult_scheduleActions,
 
     -- * BatchScheduleActionDeleteRequest
-    BatchScheduleActionDeleteRequest,
+    BatchScheduleActionDeleteRequest (BatchScheduleActionDeleteRequest'),
     newBatchScheduleActionDeleteRequest,
     batchScheduleActionDeleteRequest_actionNames,
 
     -- * BatchScheduleActionDeleteResult
-    BatchScheduleActionDeleteResult,
+    BatchScheduleActionDeleteResult (BatchScheduleActionDeleteResult'),
     newBatchScheduleActionDeleteResult,
     batchScheduleActionDeleteResult_scheduleActions,
 
     -- * BatchSuccessfulResultModel
-    BatchSuccessfulResultModel,
+    BatchSuccessfulResultModel (BatchSuccessfulResultModel'),
     newBatchSuccessfulResultModel,
     batchSuccessfulResultModel_arn,
     batchSuccessfulResultModel_id,
     batchSuccessfulResultModel_state,
 
     -- * BlackoutSlate
-    BlackoutSlate,
+    BlackoutSlate (BlackoutSlate'),
     newBlackoutSlate,
     blackoutSlate_blackoutSlateImage,
     blackoutSlate_networkEndBlackout,
@@ -1064,7 +1064,7 @@ module Amazonka.MediaLive.Types
     blackoutSlate_state,
 
     -- * BurnInDestinationSettings
-    BurnInDestinationSettings,
+    BurnInDestinationSettings (BurnInDestinationSettings'),
     newBurnInDestinationSettings,
     burnInDestinationSettings_alignment,
     burnInDestinationSettings_backgroundColor,
@@ -1085,7 +1085,7 @@ module Amazonka.MediaLive.Types
     burnInDestinationSettings_yPosition,
 
     -- * CaptionDescription
-    CaptionDescription,
+    CaptionDescription (CaptionDescription'),
     newCaptionDescription,
     captionDescription_accessibility,
     captionDescription_destinationSettings,
@@ -1095,7 +1095,7 @@ module Amazonka.MediaLive.Types
     captionDescription_name,
 
     -- * CaptionDestinationSettings
-    CaptionDestinationSettings,
+    CaptionDestinationSettings (CaptionDestinationSettings'),
     newCaptionDestinationSettings,
     captionDestinationSettings_aribDestinationSettings,
     captionDestinationSettings_burnInDestinationSettings,
@@ -1112,14 +1112,14 @@ module Amazonka.MediaLive.Types
     captionDestinationSettings_webvttDestinationSettings,
 
     -- * CaptionLanguageMapping
-    CaptionLanguageMapping,
+    CaptionLanguageMapping (CaptionLanguageMapping'),
     newCaptionLanguageMapping,
     captionLanguageMapping_languageCode,
     captionLanguageMapping_languageDescription,
     captionLanguageMapping_captionChannel,
 
     -- * CaptionRectangle
-    CaptionRectangle,
+    CaptionRectangle (CaptionRectangle'),
     newCaptionRectangle,
     captionRectangle_topOffset,
     captionRectangle_height,
@@ -1127,14 +1127,14 @@ module Amazonka.MediaLive.Types
     captionRectangle_leftOffset,
 
     -- * CaptionSelector
-    CaptionSelector,
+    CaptionSelector (CaptionSelector'),
     newCaptionSelector,
     captionSelector_languageCode,
     captionSelector_selectorSettings,
     captionSelector_name,
 
     -- * CaptionSelectorSettings
-    CaptionSelectorSettings,
+    CaptionSelectorSettings (CaptionSelectorSettings'),
     newCaptionSelectorSettings,
     captionSelectorSettings_ancillarySourceSettings,
     captionSelectorSettings_aribSourceSettings,
@@ -1145,12 +1145,12 @@ module Amazonka.MediaLive.Types
     captionSelectorSettings_teletextSourceSettings,
 
     -- * CdiInputSpecification
-    CdiInputSpecification,
+    CdiInputSpecification (CdiInputSpecification'),
     newCdiInputSpecification,
     cdiInputSpecification_resolution,
 
     -- * Channel
-    Channel,
+    Channel (Channel'),
     newChannel,
     channel_arn,
     channel_cdiInputSpecification,
@@ -1172,12 +1172,12 @@ module Amazonka.MediaLive.Types
     channel_vpc,
 
     -- * ChannelEgressEndpoint
-    ChannelEgressEndpoint,
+    ChannelEgressEndpoint (ChannelEgressEndpoint'),
     newChannelEgressEndpoint,
     channelEgressEndpoint_sourceIp,
 
     -- * ChannelSummary
-    ChannelSummary,
+    ChannelSummary (ChannelSummary'),
     newChannelSummary,
     channelSummary_arn,
     channelSummary_cdiInputSpecification,
@@ -1197,22 +1197,22 @@ module Amazonka.MediaLive.Types
     channelSummary_vpc,
 
     -- * ColorSpacePassthroughSettings
-    ColorSpacePassthroughSettings,
+    ColorSpacePassthroughSettings (ColorSpacePassthroughSettings'),
     newColorSpacePassthroughSettings,
 
     -- * DolbyVision81Settings
-    DolbyVision81Settings,
+    DolbyVision81Settings (DolbyVision81Settings'),
     newDolbyVision81Settings,
 
     -- * DvbNitSettings
-    DvbNitSettings,
+    DvbNitSettings (DvbNitSettings'),
     newDvbNitSettings,
     dvbNitSettings_repInterval,
     dvbNitSettings_networkName,
     dvbNitSettings_networkId,
 
     -- * DvbSdtSettings
-    DvbSdtSettings,
+    DvbSdtSettings (DvbSdtSettings'),
     newDvbSdtSettings,
     dvbSdtSettings_outputSdt,
     dvbSdtSettings_repInterval,
@@ -1220,7 +1220,7 @@ module Amazonka.MediaLive.Types
     dvbSdtSettings_serviceProviderName,
 
     -- * DvbSubDestinationSettings
-    DvbSubDestinationSettings,
+    DvbSubDestinationSettings (DvbSubDestinationSettings'),
     newDvbSubDestinationSettings,
     dvbSubDestinationSettings_alignment,
     dvbSubDestinationSettings_backgroundColor,
@@ -1241,18 +1241,18 @@ module Amazonka.MediaLive.Types
     dvbSubDestinationSettings_yPosition,
 
     -- * DvbSubSourceSettings
-    DvbSubSourceSettings,
+    DvbSubSourceSettings (DvbSubSourceSettings'),
     newDvbSubSourceSettings,
     dvbSubSourceSettings_ocrLanguage,
     dvbSubSourceSettings_pid,
 
     -- * DvbTdtSettings
-    DvbTdtSettings,
+    DvbTdtSettings (DvbTdtSettings'),
     newDvbTdtSettings,
     dvbTdtSettings_repInterval,
 
     -- * Eac3AtmosSettings
-    Eac3AtmosSettings,
+    Eac3AtmosSettings (Eac3AtmosSettings'),
     newEac3AtmosSettings,
     eac3AtmosSettings_bitrate,
     eac3AtmosSettings_codingMode,
@@ -1263,7 +1263,7 @@ module Amazonka.MediaLive.Types
     eac3AtmosSettings_surroundTrim,
 
     -- * Eac3Settings
-    Eac3Settings,
+    Eac3Settings (Eac3Settings'),
     newEac3Settings,
     eac3Settings_attenuationControl,
     eac3Settings_bitrate,
@@ -1287,7 +1287,7 @@ module Amazonka.MediaLive.Types
     eac3Settings_surroundMode,
 
     -- * EbuTtDDestinationSettings
-    EbuTtDDestinationSettings,
+    EbuTtDDestinationSettings (EbuTtDDestinationSettings'),
     newEbuTtDDestinationSettings,
     ebuTtDDestinationSettings_copyrightHolder,
     ebuTtDDestinationSettings_fillLineGap,
@@ -1295,15 +1295,15 @@ module Amazonka.MediaLive.Types
     ebuTtDDestinationSettings_styleControl,
 
     -- * EmbeddedDestinationSettings
-    EmbeddedDestinationSettings,
+    EmbeddedDestinationSettings (EmbeddedDestinationSettings'),
     newEmbeddedDestinationSettings,
 
     -- * EmbeddedPlusScte20DestinationSettings
-    EmbeddedPlusScte20DestinationSettings,
+    EmbeddedPlusScte20DestinationSettings (EmbeddedPlusScte20DestinationSettings'),
     newEmbeddedPlusScte20DestinationSettings,
 
     -- * EmbeddedSourceSettings
-    EmbeddedSourceSettings,
+    EmbeddedSourceSettings (EmbeddedSourceSettings'),
     newEmbeddedSourceSettings,
     embeddedSourceSettings_convert608To708,
     embeddedSourceSettings_scte20Detection,
@@ -1311,7 +1311,7 @@ module Amazonka.MediaLive.Types
     embeddedSourceSettings_source608TrackNumber,
 
     -- * EncoderSettings
-    EncoderSettings,
+    EncoderSettings (EncoderSettings'),
     newEncoderSettings,
     encoderSettings_availBlanking,
     encoderSettings_availConfiguration,
@@ -1327,7 +1327,7 @@ module Amazonka.MediaLive.Types
     encoderSettings_timecodeConfig,
 
     -- * Esam
-    Esam,
+    Esam (Esam'),
     newEsam,
     esam_adAvailOffset,
     esam_passwordParam,
@@ -1337,81 +1337,81 @@ module Amazonka.MediaLive.Types
     esam_poisEndpoint,
 
     -- * FailoverCondition
-    FailoverCondition,
+    FailoverCondition (FailoverCondition'),
     newFailoverCondition,
     failoverCondition_failoverConditionSettings,
 
     -- * FailoverConditionSettings
-    FailoverConditionSettings,
+    FailoverConditionSettings (FailoverConditionSettings'),
     newFailoverConditionSettings,
     failoverConditionSettings_audioSilenceSettings,
     failoverConditionSettings_inputLossSettings,
     failoverConditionSettings_videoBlackSettings,
 
     -- * FeatureActivations
-    FeatureActivations,
+    FeatureActivations (FeatureActivations'),
     newFeatureActivations,
     featureActivations_inputPrepareScheduleActions,
 
     -- * FecOutputSettings
-    FecOutputSettings,
+    FecOutputSettings (FecOutputSettings'),
     newFecOutputSettings,
     fecOutputSettings_columnDepth,
     fecOutputSettings_includeFec,
     fecOutputSettings_rowLength,
 
     -- * FixedModeScheduleActionStartSettings
-    FixedModeScheduleActionStartSettings,
+    FixedModeScheduleActionStartSettings (FixedModeScheduleActionStartSettings'),
     newFixedModeScheduleActionStartSettings,
     fixedModeScheduleActionStartSettings_time,
 
     -- * Fmp4HlsSettings
-    Fmp4HlsSettings,
+    Fmp4HlsSettings (Fmp4HlsSettings'),
     newFmp4HlsSettings,
     fmp4HlsSettings_audioRenditionSets,
     fmp4HlsSettings_nielsenId3Behavior,
     fmp4HlsSettings_timedMetadataBehavior,
 
     -- * FollowModeScheduleActionStartSettings
-    FollowModeScheduleActionStartSettings,
+    FollowModeScheduleActionStartSettings (FollowModeScheduleActionStartSettings'),
     newFollowModeScheduleActionStartSettings,
     followModeScheduleActionStartSettings_referenceActionName,
     followModeScheduleActionStartSettings_followPoint,
 
     -- * FrameCaptureCdnSettings
-    FrameCaptureCdnSettings,
+    FrameCaptureCdnSettings (FrameCaptureCdnSettings'),
     newFrameCaptureCdnSettings,
     frameCaptureCdnSettings_frameCaptureS3Settings,
 
     -- * FrameCaptureGroupSettings
-    FrameCaptureGroupSettings,
+    FrameCaptureGroupSettings (FrameCaptureGroupSettings'),
     newFrameCaptureGroupSettings,
     frameCaptureGroupSettings_frameCaptureCdnSettings,
     frameCaptureGroupSettings_destination,
 
     -- * FrameCaptureHlsSettings
-    FrameCaptureHlsSettings,
+    FrameCaptureHlsSettings (FrameCaptureHlsSettings'),
     newFrameCaptureHlsSettings,
 
     -- * FrameCaptureOutputSettings
-    FrameCaptureOutputSettings,
+    FrameCaptureOutputSettings (FrameCaptureOutputSettings'),
     newFrameCaptureOutputSettings,
     frameCaptureOutputSettings_nameModifier,
 
     -- * FrameCaptureS3Settings
-    FrameCaptureS3Settings,
+    FrameCaptureS3Settings (FrameCaptureS3Settings'),
     newFrameCaptureS3Settings,
     frameCaptureS3Settings_cannedAcl,
 
     -- * FrameCaptureSettings
-    FrameCaptureSettings,
+    FrameCaptureSettings (FrameCaptureSettings'),
     newFrameCaptureSettings,
     frameCaptureSettings_captureInterval,
     frameCaptureSettings_captureIntervalUnits,
     frameCaptureSettings_timecodeBurninSettings,
 
     -- * GlobalConfiguration
-    GlobalConfiguration,
+    GlobalConfiguration (GlobalConfiguration'),
     newGlobalConfiguration,
     globalConfiguration_initialAudioGain,
     globalConfiguration_inputEndAction,
@@ -1421,19 +1421,19 @@ module Amazonka.MediaLive.Types
     globalConfiguration_supportLowFramerateInputs,
 
     -- * H264ColorSpaceSettings
-    H264ColorSpaceSettings,
+    H264ColorSpaceSettings (H264ColorSpaceSettings'),
     newH264ColorSpaceSettings,
     h264ColorSpaceSettings_colorSpacePassthroughSettings,
     h264ColorSpaceSettings_rec601Settings,
     h264ColorSpaceSettings_rec709Settings,
 
     -- * H264FilterSettings
-    H264FilterSettings,
+    H264FilterSettings (H264FilterSettings'),
     newH264FilterSettings,
     h264FilterSettings_temporalFilterSettings,
 
     -- * H264Settings
-    H264Settings,
+    H264Settings (H264Settings'),
     newH264Settings,
     h264Settings_adaptiveQuantization,
     h264Settings_afdSignaling,
@@ -1479,7 +1479,7 @@ module Amazonka.MediaLive.Types
     h264Settings_timecodeInsertion,
 
     -- * H265ColorSpaceSettings
-    H265ColorSpaceSettings,
+    H265ColorSpaceSettings (H265ColorSpaceSettings'),
     newH265ColorSpaceSettings,
     h265ColorSpaceSettings_colorSpacePassthroughSettings,
     h265ColorSpaceSettings_dolbyVision81Settings,
@@ -1488,12 +1488,12 @@ module Amazonka.MediaLive.Types
     h265ColorSpaceSettings_rec709Settings,
 
     -- * H265FilterSettings
-    H265FilterSettings,
+    H265FilterSettings (H265FilterSettings'),
     newH265FilterSettings,
     h265FilterSettings_temporalFilterSettings,
 
     -- * H265Settings
-    H265Settings,
+    H265Settings (H265Settings'),
     newH265Settings,
     h265Settings_adaptiveQuantization,
     h265Settings_afdSignaling,
@@ -1527,13 +1527,13 @@ module Amazonka.MediaLive.Types
     h265Settings_framerateDenominator,
 
     -- * Hdr10Settings
-    Hdr10Settings,
+    Hdr10Settings (Hdr10Settings'),
     newHdr10Settings,
     hdr10Settings_maxCll,
     hdr10Settings_maxFall,
 
     -- * HlsAkamaiSettings
-    HlsAkamaiSettings,
+    HlsAkamaiSettings (HlsAkamaiSettings'),
     newHlsAkamaiSettings,
     hlsAkamaiSettings_connectionRetryInterval,
     hlsAkamaiSettings_filecacheDuration,
@@ -1544,7 +1544,7 @@ module Amazonka.MediaLive.Types
     hlsAkamaiSettings_token,
 
     -- * HlsBasicPutSettings
-    HlsBasicPutSettings,
+    HlsBasicPutSettings (HlsBasicPutSettings'),
     newHlsBasicPutSettings,
     hlsBasicPutSettings_connectionRetryInterval,
     hlsBasicPutSettings_filecacheDuration,
@@ -1552,7 +1552,7 @@ module Amazonka.MediaLive.Types
     hlsBasicPutSettings_restartDelay,
 
     -- * HlsCdnSettings
-    HlsCdnSettings,
+    HlsCdnSettings (HlsCdnSettings'),
     newHlsCdnSettings,
     hlsCdnSettings_hlsAkamaiSettings,
     hlsCdnSettings_hlsBasicPutSettings,
@@ -1561,7 +1561,7 @@ module Amazonka.MediaLive.Types
     hlsCdnSettings_hlsWebdavSettings,
 
     -- * HlsGroupSettings
-    HlsGroupSettings,
+    HlsGroupSettings (HlsGroupSettings'),
     newHlsGroupSettings,
     hlsGroupSettings_adMarkers,
     hlsGroupSettings_baseUrlContent,
@@ -1608,12 +1608,12 @@ module Amazonka.MediaLive.Types
     hlsGroupSettings_destination,
 
     -- * HlsId3SegmentTaggingScheduleActionSettings
-    HlsId3SegmentTaggingScheduleActionSettings,
+    HlsId3SegmentTaggingScheduleActionSettings (HlsId3SegmentTaggingScheduleActionSettings'),
     newHlsId3SegmentTaggingScheduleActionSettings,
     hlsId3SegmentTaggingScheduleActionSettings_tag,
 
     -- * HlsInputSettings
-    HlsInputSettings,
+    HlsInputSettings (HlsInputSettings'),
     newHlsInputSettings,
     hlsInputSettings_bandwidth,
     hlsInputSettings_bufferSegments,
@@ -1622,7 +1622,7 @@ module Amazonka.MediaLive.Types
     hlsInputSettings_scte35Source,
 
     -- * HlsMediaStoreSettings
-    HlsMediaStoreSettings,
+    HlsMediaStoreSettings (HlsMediaStoreSettings'),
     newHlsMediaStoreSettings,
     hlsMediaStoreSettings_connectionRetryInterval,
     hlsMediaStoreSettings_filecacheDuration,
@@ -1631,7 +1631,7 @@ module Amazonka.MediaLive.Types
     hlsMediaStoreSettings_restartDelay,
 
     -- * HlsOutputSettings
-    HlsOutputSettings,
+    HlsOutputSettings (HlsOutputSettings'),
     newHlsOutputSettings,
     hlsOutputSettings_h265PackagingType,
     hlsOutputSettings_nameModifier,
@@ -1639,12 +1639,12 @@ module Amazonka.MediaLive.Types
     hlsOutputSettings_hlsSettings,
 
     -- * HlsS3Settings
-    HlsS3Settings,
+    HlsS3Settings (HlsS3Settings'),
     newHlsS3Settings,
     hlsS3Settings_cannedAcl,
 
     -- * HlsSettings
-    HlsSettings,
+    HlsSettings (HlsSettings'),
     newHlsSettings,
     hlsSettings_audioOnlyHlsSettings,
     hlsSettings_fmp4HlsSettings,
@@ -1652,12 +1652,12 @@ module Amazonka.MediaLive.Types
     hlsSettings_standardHlsSettings,
 
     -- * HlsTimedMetadataScheduleActionSettings
-    HlsTimedMetadataScheduleActionSettings,
+    HlsTimedMetadataScheduleActionSettings (HlsTimedMetadataScheduleActionSettings'),
     newHlsTimedMetadataScheduleActionSettings,
     hlsTimedMetadataScheduleActionSettings_id3,
 
     -- * HlsWebdavSettings
-    HlsWebdavSettings,
+    HlsWebdavSettings (HlsWebdavSettings'),
     newHlsWebdavSettings,
     hlsWebdavSettings_connectionRetryInterval,
     hlsWebdavSettings_filecacheDuration,
@@ -1666,15 +1666,15 @@ module Amazonka.MediaLive.Types
     hlsWebdavSettings_restartDelay,
 
     -- * HtmlMotionGraphicsSettings
-    HtmlMotionGraphicsSettings,
+    HtmlMotionGraphicsSettings (HtmlMotionGraphicsSettings'),
     newHtmlMotionGraphicsSettings,
 
     -- * ImmediateModeScheduleActionStartSettings
-    ImmediateModeScheduleActionStartSettings,
+    ImmediateModeScheduleActionStartSettings (ImmediateModeScheduleActionStartSettings'),
     newImmediateModeScheduleActionStartSettings,
 
     -- * Input
-    Input,
+    Input (Input'),
     newInput,
     input_arn,
     input_attachedChannels,
@@ -1694,7 +1694,7 @@ module Amazonka.MediaLive.Types
     input_type,
 
     -- * InputAttachment
-    InputAttachment,
+    InputAttachment (InputAttachment'),
     newInputAttachment,
     inputAttachment_automaticInputFailoverSettings,
     inputAttachment_inputAttachmentName,
@@ -1702,20 +1702,20 @@ module Amazonka.MediaLive.Types
     inputAttachment_inputSettings,
 
     -- * InputChannelLevel
-    InputChannelLevel,
+    InputChannelLevel (InputChannelLevel'),
     newInputChannelLevel,
     inputChannelLevel_inputChannel,
     inputChannelLevel_gain,
 
     -- * InputClippingSettings
-    InputClippingSettings,
+    InputClippingSettings (InputClippingSettings'),
     newInputClippingSettings,
     inputClippingSettings_startTimecode,
     inputClippingSettings_stopTimecode,
     inputClippingSettings_inputTimecodeSource,
 
     -- * InputDestination
-    InputDestination,
+    InputDestination (InputDestination'),
     newInputDestination,
     inputDestination_ip,
     inputDestination_port,
@@ -1723,25 +1723,25 @@ module Amazonka.MediaLive.Types
     inputDestination_vpc,
 
     -- * InputDestinationRequest
-    InputDestinationRequest,
+    InputDestinationRequest (InputDestinationRequest'),
     newInputDestinationRequest,
     inputDestinationRequest_streamName,
 
     -- * InputDestinationVpc
-    InputDestinationVpc,
+    InputDestinationVpc (InputDestinationVpc'),
     newInputDestinationVpc,
     inputDestinationVpc_availabilityZone,
     inputDestinationVpc_networkInterfaceId,
 
     -- * InputDeviceConfigurableSettings
-    InputDeviceConfigurableSettings,
+    InputDeviceConfigurableSettings (InputDeviceConfigurableSettings'),
     newInputDeviceConfigurableSettings,
     inputDeviceConfigurableSettings_configuredInput,
     inputDeviceConfigurableSettings_latencyMs,
     inputDeviceConfigurableSettings_maxBitrate,
 
     -- * InputDeviceHdSettings
-    InputDeviceHdSettings,
+    InputDeviceHdSettings (InputDeviceHdSettings'),
     newInputDeviceHdSettings,
     inputDeviceHdSettings_activeInput,
     inputDeviceHdSettings_configuredInput,
@@ -1754,7 +1754,7 @@ module Amazonka.MediaLive.Types
     inputDeviceHdSettings_width,
 
     -- * InputDeviceNetworkSettings
-    InputDeviceNetworkSettings,
+    InputDeviceNetworkSettings (InputDeviceNetworkSettings'),
     newInputDeviceNetworkSettings,
     inputDeviceNetworkSettings_dnsAddresses,
     inputDeviceNetworkSettings_gateway,
@@ -1763,17 +1763,17 @@ module Amazonka.MediaLive.Types
     inputDeviceNetworkSettings_subnetMask,
 
     -- * InputDeviceRequest
-    InputDeviceRequest,
+    InputDeviceRequest (InputDeviceRequest'),
     newInputDeviceRequest,
     inputDeviceRequest_id,
 
     -- * InputDeviceSettings
-    InputDeviceSettings,
+    InputDeviceSettings (InputDeviceSettings'),
     newInputDeviceSettings,
     inputDeviceSettings_id,
 
     -- * InputDeviceSummary
-    InputDeviceSummary,
+    InputDeviceSummary (InputDeviceSummary'),
     newInputDeviceSummary,
     inputDeviceSummary_arn,
     inputDeviceSummary_connectionState,
@@ -1789,7 +1789,7 @@ module Amazonka.MediaLive.Types
     inputDeviceSummary_uhdDeviceSettings,
 
     -- * InputDeviceUhdSettings
-    InputDeviceUhdSettings,
+    InputDeviceUhdSettings (InputDeviceUhdSettings'),
     newInputDeviceUhdSettings,
     inputDeviceUhdSettings_activeInput,
     inputDeviceUhdSettings_configuredInput,
@@ -1802,14 +1802,14 @@ module Amazonka.MediaLive.Types
     inputDeviceUhdSettings_width,
 
     -- * InputLocation
-    InputLocation,
+    InputLocation (InputLocation'),
     newInputLocation,
     inputLocation_passwordParam,
     inputLocation_username,
     inputLocation_uri,
 
     -- * InputLossBehavior
-    InputLossBehavior,
+    InputLossBehavior (InputLossBehavior'),
     newInputLossBehavior,
     inputLossBehavior_blackFrameMsec,
     inputLossBehavior_inputLossImageColor,
@@ -1818,19 +1818,19 @@ module Amazonka.MediaLive.Types
     inputLossBehavior_repeatFrameMsec,
 
     -- * InputLossFailoverSettings
-    InputLossFailoverSettings,
+    InputLossFailoverSettings (InputLossFailoverSettings'),
     newInputLossFailoverSettings,
     inputLossFailoverSettings_inputLossThresholdMsec,
 
     -- * InputPrepareScheduleActionSettings
-    InputPrepareScheduleActionSettings,
+    InputPrepareScheduleActionSettings (InputPrepareScheduleActionSettings'),
     newInputPrepareScheduleActionSettings,
     inputPrepareScheduleActionSettings_inputAttachmentNameReference,
     inputPrepareScheduleActionSettings_inputClippingSettings,
     inputPrepareScheduleActionSettings_urlPath,
 
     -- * InputSecurityGroup
-    InputSecurityGroup,
+    InputSecurityGroup (InputSecurityGroup'),
     newInputSecurityGroup,
     inputSecurityGroup_arn,
     inputSecurityGroup_id,
@@ -1840,7 +1840,7 @@ module Amazonka.MediaLive.Types
     inputSecurityGroup_whitelistRules,
 
     -- * InputSettings
-    InputSettings,
+    InputSettings (InputSettings'),
     newInputSettings,
     inputSettings_audioSelectors,
     inputSettings_captionSelectors,
@@ -1855,56 +1855,56 @@ module Amazonka.MediaLive.Types
     inputSettings_videoSelector,
 
     -- * InputSource
-    InputSource,
+    InputSource (InputSource'),
     newInputSource,
     inputSource_passwordParam,
     inputSource_url,
     inputSource_username,
 
     -- * InputSourceRequest
-    InputSourceRequest,
+    InputSourceRequest (InputSourceRequest'),
     newInputSourceRequest,
     inputSourceRequest_passwordParam,
     inputSourceRequest_url,
     inputSourceRequest_username,
 
     -- * InputSpecification
-    InputSpecification,
+    InputSpecification (InputSpecification'),
     newInputSpecification,
     inputSpecification_codec,
     inputSpecification_maximumBitrate,
     inputSpecification_resolution,
 
     -- * InputSwitchScheduleActionSettings
-    InputSwitchScheduleActionSettings,
+    InputSwitchScheduleActionSettings (InputSwitchScheduleActionSettings'),
     newInputSwitchScheduleActionSettings,
     inputSwitchScheduleActionSettings_inputClippingSettings,
     inputSwitchScheduleActionSettings_urlPath,
     inputSwitchScheduleActionSettings_inputAttachmentNameReference,
 
     -- * InputVpcRequest
-    InputVpcRequest,
+    InputVpcRequest (InputVpcRequest'),
     newInputVpcRequest,
     inputVpcRequest_securityGroupIds,
     inputVpcRequest_subnetIds,
 
     -- * InputWhitelistRule
-    InputWhitelistRule,
+    InputWhitelistRule (InputWhitelistRule'),
     newInputWhitelistRule,
     inputWhitelistRule_cidr,
 
     -- * InputWhitelistRuleCidr
-    InputWhitelistRuleCidr,
+    InputWhitelistRuleCidr (InputWhitelistRuleCidr'),
     newInputWhitelistRuleCidr,
     inputWhitelistRuleCidr_cidr,
 
     -- * KeyProviderSettings
-    KeyProviderSettings,
+    KeyProviderSettings (KeyProviderSettings'),
     newKeyProviderSettings,
     keyProviderSettings_staticKeySettings,
 
     -- * M2tsSettings
-    M2tsSettings,
+    M2tsSettings (M2tsSettings'),
     newM2tsSettings,
     m2tsSettings_absentInputAudioBehavior,
     m2tsSettings_arib,
@@ -1955,7 +1955,7 @@ module Amazonka.MediaLive.Types
     m2tsSettings_videoPid,
 
     -- * M3u8Settings
-    M3u8Settings,
+    M3u8Settings (M3u8Settings'),
     newM3u8Settings,
     m3u8Settings_audioFramesPerPes,
     m3u8Settings_audioPids,
@@ -1976,13 +1976,13 @@ module Amazonka.MediaLive.Types
     m3u8Settings_videoPid,
 
     -- * MaintenanceCreateSettings
-    MaintenanceCreateSettings,
+    MaintenanceCreateSettings (MaintenanceCreateSettings'),
     newMaintenanceCreateSettings,
     maintenanceCreateSettings_maintenanceDay,
     maintenanceCreateSettings_maintenanceStartTime,
 
     -- * MaintenanceStatus
-    MaintenanceStatus,
+    MaintenanceStatus (MaintenanceStatus'),
     newMaintenanceStatus,
     maintenanceStatus_maintenanceDay,
     maintenanceStatus_maintenanceDeadline,
@@ -1990,38 +1990,38 @@ module Amazonka.MediaLive.Types
     maintenanceStatus_maintenanceStartTime,
 
     -- * MaintenanceUpdateSettings
-    MaintenanceUpdateSettings,
+    MaintenanceUpdateSettings (MaintenanceUpdateSettings'),
     newMaintenanceUpdateSettings,
     maintenanceUpdateSettings_maintenanceDay,
     maintenanceUpdateSettings_maintenanceScheduledDate,
     maintenanceUpdateSettings_maintenanceStartTime,
 
     -- * MediaConnectFlow
-    MediaConnectFlow,
+    MediaConnectFlow (MediaConnectFlow'),
     newMediaConnectFlow,
     mediaConnectFlow_flowArn,
 
     -- * MediaConnectFlowRequest
-    MediaConnectFlowRequest,
+    MediaConnectFlowRequest (MediaConnectFlowRequest'),
     newMediaConnectFlowRequest,
     mediaConnectFlowRequest_flowArn,
 
     -- * MediaPackageGroupSettings
-    MediaPackageGroupSettings,
+    MediaPackageGroupSettings (MediaPackageGroupSettings'),
     newMediaPackageGroupSettings,
     mediaPackageGroupSettings_destination,
 
     -- * MediaPackageOutputDestinationSettings
-    MediaPackageOutputDestinationSettings,
+    MediaPackageOutputDestinationSettings (MediaPackageOutputDestinationSettings'),
     newMediaPackageOutputDestinationSettings,
     mediaPackageOutputDestinationSettings_channelId,
 
     -- * MediaPackageOutputSettings
-    MediaPackageOutputSettings,
+    MediaPackageOutputSettings (MediaPackageOutputSettings'),
     newMediaPackageOutputSettings,
 
     -- * MotionGraphicsActivateScheduleActionSettings
-    MotionGraphicsActivateScheduleActionSettings,
+    MotionGraphicsActivateScheduleActionSettings (MotionGraphicsActivateScheduleActionSettings'),
     newMotionGraphicsActivateScheduleActionSettings,
     motionGraphicsActivateScheduleActionSettings_duration,
     motionGraphicsActivateScheduleActionSettings_passwordParam,
@@ -2029,34 +2029,34 @@ module Amazonka.MediaLive.Types
     motionGraphicsActivateScheduleActionSettings_username,
 
     -- * MotionGraphicsConfiguration
-    MotionGraphicsConfiguration,
+    MotionGraphicsConfiguration (MotionGraphicsConfiguration'),
     newMotionGraphicsConfiguration,
     motionGraphicsConfiguration_motionGraphicsInsertion,
     motionGraphicsConfiguration_motionGraphicsSettings,
 
     -- * MotionGraphicsDeactivateScheduleActionSettings
-    MotionGraphicsDeactivateScheduleActionSettings,
+    MotionGraphicsDeactivateScheduleActionSettings (MotionGraphicsDeactivateScheduleActionSettings'),
     newMotionGraphicsDeactivateScheduleActionSettings,
 
     -- * MotionGraphicsSettings
-    MotionGraphicsSettings,
+    MotionGraphicsSettings (MotionGraphicsSettings'),
     newMotionGraphicsSettings,
     motionGraphicsSettings_htmlMotionGraphicsSettings,
 
     -- * Mp2Settings
-    Mp2Settings,
+    Mp2Settings (Mp2Settings'),
     newMp2Settings,
     mp2Settings_bitrate,
     mp2Settings_codingMode,
     mp2Settings_sampleRate,
 
     -- * Mpeg2FilterSettings
-    Mpeg2FilterSettings,
+    Mpeg2FilterSettings (Mpeg2FilterSettings'),
     newMpeg2FilterSettings,
     mpeg2FilterSettings_temporalFilterSettings,
 
     -- * Mpeg2Settings
-    Mpeg2Settings,
+    Mpeg2Settings (Mpeg2Settings'),
     newMpeg2Settings,
     mpeg2Settings_adaptiveQuantization,
     mpeg2Settings_afdSignaling,
@@ -2077,7 +2077,7 @@ module Amazonka.MediaLive.Types
     mpeg2Settings_framerateDenominator,
 
     -- * MsSmoothGroupSettings
-    MsSmoothGroupSettings,
+    MsSmoothGroupSettings (MsSmoothGroupSettings'),
     newMsSmoothGroupSettings,
     msSmoothGroupSettings_acquisitionPointId,
     msSmoothGroupSettings_audioOnlyTimecodeControl,
@@ -2100,13 +2100,13 @@ module Amazonka.MediaLive.Types
     msSmoothGroupSettings_destination,
 
     -- * MsSmoothOutputSettings
-    MsSmoothOutputSettings,
+    MsSmoothOutputSettings (MsSmoothOutputSettings'),
     newMsSmoothOutputSettings,
     msSmoothOutputSettings_h265PackagingType,
     msSmoothOutputSettings_nameModifier,
 
     -- * Multiplex
-    Multiplex,
+    Multiplex (Multiplex'),
     newMultiplex,
     multiplex_arn,
     multiplex_availabilityZones,
@@ -2120,26 +2120,26 @@ module Amazonka.MediaLive.Types
     multiplex_tags,
 
     -- * MultiplexGroupSettings
-    MultiplexGroupSettings,
+    MultiplexGroupSettings (MultiplexGroupSettings'),
     newMultiplexGroupSettings,
 
     -- * MultiplexMediaConnectOutputDestinationSettings
-    MultiplexMediaConnectOutputDestinationSettings,
+    MultiplexMediaConnectOutputDestinationSettings (MultiplexMediaConnectOutputDestinationSettings'),
     newMultiplexMediaConnectOutputDestinationSettings,
     multiplexMediaConnectOutputDestinationSettings_entitlementArn,
 
     -- * MultiplexOutputDestination
-    MultiplexOutputDestination,
+    MultiplexOutputDestination (MultiplexOutputDestination'),
     newMultiplexOutputDestination,
     multiplexOutputDestination_mediaConnectSettings,
 
     -- * MultiplexOutputSettings
-    MultiplexOutputSettings,
+    MultiplexOutputSettings (MultiplexOutputSettings'),
     newMultiplexOutputSettings,
     multiplexOutputSettings_destination,
 
     -- * MultiplexProgram
-    MultiplexProgram,
+    MultiplexProgram (MultiplexProgram'),
     newMultiplexProgram,
     multiplexProgram_channelId,
     multiplexProgram_multiplexProgramSettings,
@@ -2148,13 +2148,13 @@ module Amazonka.MediaLive.Types
     multiplexProgram_programName,
 
     -- * MultiplexProgramChannelDestinationSettings
-    MultiplexProgramChannelDestinationSettings,
+    MultiplexProgramChannelDestinationSettings (MultiplexProgramChannelDestinationSettings'),
     newMultiplexProgramChannelDestinationSettings,
     multiplexProgramChannelDestinationSettings_multiplexId,
     multiplexProgramChannelDestinationSettings_programName,
 
     -- * MultiplexProgramPacketIdentifiersMap
-    MultiplexProgramPacketIdentifiersMap,
+    MultiplexProgramPacketIdentifiersMap (MultiplexProgramPacketIdentifiersMap'),
     newMultiplexProgramPacketIdentifiersMap,
     multiplexProgramPacketIdentifiersMap_audioPids,
     multiplexProgramPacketIdentifiersMap_dvbSubPids,
@@ -2171,19 +2171,19 @@ module Amazonka.MediaLive.Types
     multiplexProgramPacketIdentifiersMap_videoPid,
 
     -- * MultiplexProgramPipelineDetail
-    MultiplexProgramPipelineDetail,
+    MultiplexProgramPipelineDetail (MultiplexProgramPipelineDetail'),
     newMultiplexProgramPipelineDetail,
     multiplexProgramPipelineDetail_activeChannelPipeline,
     multiplexProgramPipelineDetail_pipelineId,
 
     -- * MultiplexProgramServiceDescriptor
-    MultiplexProgramServiceDescriptor,
+    MultiplexProgramServiceDescriptor (MultiplexProgramServiceDescriptor'),
     newMultiplexProgramServiceDescriptor,
     multiplexProgramServiceDescriptor_providerName,
     multiplexProgramServiceDescriptor_serviceName,
 
     -- * MultiplexProgramSettings
-    MultiplexProgramSettings,
+    MultiplexProgramSettings (MultiplexProgramSettings'),
     newMultiplexProgramSettings,
     multiplexProgramSettings_preferredChannelPipeline,
     multiplexProgramSettings_serviceDescriptor,
@@ -2191,13 +2191,13 @@ module Amazonka.MediaLive.Types
     multiplexProgramSettings_programNumber,
 
     -- * MultiplexProgramSummary
-    MultiplexProgramSummary,
+    MultiplexProgramSummary (MultiplexProgramSummary'),
     newMultiplexProgramSummary,
     multiplexProgramSummary_channelId,
     multiplexProgramSummary_programName,
 
     -- * MultiplexSettings
-    MultiplexSettings,
+    MultiplexSettings (MultiplexSettings'),
     newMultiplexSettings,
     multiplexSettings_maximumVideoBufferDelayMilliseconds,
     multiplexSettings_transportStreamReservedBitrate,
@@ -2205,19 +2205,19 @@ module Amazonka.MediaLive.Types
     multiplexSettings_transportStreamId,
 
     -- * MultiplexSettingsSummary
-    MultiplexSettingsSummary,
+    MultiplexSettingsSummary (MultiplexSettingsSummary'),
     newMultiplexSettingsSummary,
     multiplexSettingsSummary_transportStreamBitrate,
 
     -- * MultiplexStatmuxVideoSettings
-    MultiplexStatmuxVideoSettings,
+    MultiplexStatmuxVideoSettings (MultiplexStatmuxVideoSettings'),
     newMultiplexStatmuxVideoSettings,
     multiplexStatmuxVideoSettings_maximumBitrate,
     multiplexStatmuxVideoSettings_minimumBitrate,
     multiplexStatmuxVideoSettings_priority,
 
     -- * MultiplexSummary
-    MultiplexSummary,
+    MultiplexSummary (MultiplexSummary'),
     newMultiplexSummary,
     multiplexSummary_arn,
     multiplexSummary_availabilityZones,
@@ -2230,45 +2230,45 @@ module Amazonka.MediaLive.Types
     multiplexSummary_tags,
 
     -- * MultiplexVideoSettings
-    MultiplexVideoSettings,
+    MultiplexVideoSettings (MultiplexVideoSettings'),
     newMultiplexVideoSettings,
     multiplexVideoSettings_constantBitrate,
     multiplexVideoSettings_statmuxSettings,
 
     -- * NetworkInputSettings
-    NetworkInputSettings,
+    NetworkInputSettings (NetworkInputSettings'),
     newNetworkInputSettings,
     networkInputSettings_hlsInputSettings,
     networkInputSettings_serverValidation,
 
     -- * NielsenCBET
-    NielsenCBET,
+    NielsenCBET (NielsenCBET'),
     newNielsenCBET,
     nielsenCBET_cbetCheckDigitString,
     nielsenCBET_cbetStepaside,
     nielsenCBET_csid,
 
     -- * NielsenConfiguration
-    NielsenConfiguration,
+    NielsenConfiguration (NielsenConfiguration'),
     newNielsenConfiguration,
     nielsenConfiguration_distributorId,
     nielsenConfiguration_nielsenPcmToId3Tagging,
 
     -- * NielsenNaesIiNw
-    NielsenNaesIiNw,
+    NielsenNaesIiNw (NielsenNaesIiNw'),
     newNielsenNaesIiNw,
     nielsenNaesIiNw_checkDigitString,
     nielsenNaesIiNw_sid,
 
     -- * NielsenWatermarksSettings
-    NielsenWatermarksSettings,
+    NielsenWatermarksSettings (NielsenWatermarksSettings'),
     newNielsenWatermarksSettings,
     nielsenWatermarksSettings_nielsenCbetSettings,
     nielsenWatermarksSettings_nielsenDistributionType,
     nielsenWatermarksSettings_nielsenNaesIiNwSettings,
 
     -- * Offering
-    Offering,
+    Offering (Offering'),
     newOffering,
     offering_arn,
     offering_currencyCode,
@@ -2283,7 +2283,7 @@ module Amazonka.MediaLive.Types
     offering_usagePrice,
 
     -- * Output
-    Output,
+    Output (Output'),
     newOutput,
     output_audioDescriptionNames,
     output_captionDescriptionNames,
@@ -2292,7 +2292,7 @@ module Amazonka.MediaLive.Types
     output_outputSettings,
 
     -- * OutputDestination
-    OutputDestination,
+    OutputDestination (OutputDestination'),
     newOutputDestination,
     outputDestination_id,
     outputDestination_mediaPackageSettings,
@@ -2300,7 +2300,7 @@ module Amazonka.MediaLive.Types
     outputDestination_settings,
 
     -- * OutputDestinationSettings
-    OutputDestinationSettings,
+    OutputDestinationSettings (OutputDestinationSettings'),
     newOutputDestinationSettings,
     outputDestinationSettings_passwordParam,
     outputDestinationSettings_streamName,
@@ -2308,14 +2308,14 @@ module Amazonka.MediaLive.Types
     outputDestinationSettings_username,
 
     -- * OutputGroup
-    OutputGroup,
+    OutputGroup (OutputGroup'),
     newOutputGroup,
     outputGroup_name,
     outputGroup_outputs,
     outputGroup_outputGroupSettings,
 
     -- * OutputGroupSettings
-    OutputGroupSettings,
+    OutputGroupSettings (OutputGroupSettings'),
     newOutputGroupSettings,
     outputGroupSettings_archiveGroupSettings,
     outputGroupSettings_frameCaptureGroupSettings,
@@ -2327,12 +2327,12 @@ module Amazonka.MediaLive.Types
     outputGroupSettings_udpGroupSettings,
 
     -- * OutputLocationRef
-    OutputLocationRef,
+    OutputLocationRef (OutputLocationRef'),
     newOutputLocationRef,
     outputLocationRef_destinationRefId,
 
     -- * OutputSettings
-    OutputSettings,
+    OutputSettings (OutputSettings'),
     newOutputSettings,
     outputSettings_archiveOutputSettings,
     outputSettings_frameCaptureOutputSettings,
@@ -2344,16 +2344,16 @@ module Amazonka.MediaLive.Types
     outputSettings_udpOutputSettings,
 
     -- * PassThroughSettings
-    PassThroughSettings,
+    PassThroughSettings (PassThroughSettings'),
     newPassThroughSettings,
 
     -- * PauseStateScheduleActionSettings
-    PauseStateScheduleActionSettings,
+    PauseStateScheduleActionSettings (PauseStateScheduleActionSettings'),
     newPauseStateScheduleActionSettings,
     pauseStateScheduleActionSettings_pipelines,
 
     -- * PipelineDetail
-    PipelineDetail,
+    PipelineDetail (PipelineDetail'),
     newPipelineDetail,
     pipelineDetail_activeInputAttachmentName,
     pipelineDetail_activeInputSwitchActionName,
@@ -2362,37 +2362,37 @@ module Amazonka.MediaLive.Types
     pipelineDetail_pipelineId,
 
     -- * PipelinePauseStateSettings
-    PipelinePauseStateSettings,
+    PipelinePauseStateSettings (PipelinePauseStateSettings'),
     newPipelinePauseStateSettings,
     pipelinePauseStateSettings_pipelineId,
 
     -- * RawSettings
-    RawSettings,
+    RawSettings (RawSettings'),
     newRawSettings,
 
     -- * Rec601Settings
-    Rec601Settings,
+    Rec601Settings (Rec601Settings'),
     newRec601Settings,
 
     -- * Rec709Settings
-    Rec709Settings,
+    Rec709Settings (Rec709Settings'),
     newRec709Settings,
 
     -- * RemixSettings
-    RemixSettings,
+    RemixSettings (RemixSettings'),
     newRemixSettings,
     remixSettings_channelsIn,
     remixSettings_channelsOut,
     remixSettings_channelMappings,
 
     -- * RenewalSettings
-    RenewalSettings,
+    RenewalSettings (RenewalSettings'),
     newRenewalSettings,
     renewalSettings_automaticRenewal,
     renewalSettings_renewalCount,
 
     -- * Reservation
-    Reservation,
+    Reservation (Reservation'),
     newReservation,
     reservation_arn,
     reservation_count,
@@ -2415,7 +2415,7 @@ module Amazonka.MediaLive.Types
     reservation_usagePrice,
 
     -- * ReservationResourceSpecification
-    ReservationResourceSpecification,
+    ReservationResourceSpecification (ReservationResourceSpecification'),
     newReservationResourceSpecification,
     reservationResourceSpecification_channelClass,
     reservationResourceSpecification_codec,
@@ -2427,11 +2427,11 @@ module Amazonka.MediaLive.Types
     reservationResourceSpecification_videoQuality,
 
     -- * RtmpCaptionInfoDestinationSettings
-    RtmpCaptionInfoDestinationSettings,
+    RtmpCaptionInfoDestinationSettings (RtmpCaptionInfoDestinationSettings'),
     newRtmpCaptionInfoDestinationSettings,
 
     -- * RtmpGroupSettings
-    RtmpGroupSettings,
+    RtmpGroupSettings (RtmpGroupSettings'),
     newRtmpGroupSettings,
     rtmpGroupSettings_adMarkers,
     rtmpGroupSettings_authenticationScheme,
@@ -2442,7 +2442,7 @@ module Amazonka.MediaLive.Types
     rtmpGroupSettings_restartDelay,
 
     -- * RtmpOutputSettings
-    RtmpOutputSettings,
+    RtmpOutputSettings (RtmpOutputSettings'),
     newRtmpOutputSettings,
     rtmpOutputSettings_certificateMode,
     rtmpOutputSettings_connectionRetryInterval,
@@ -2450,14 +2450,14 @@ module Amazonka.MediaLive.Types
     rtmpOutputSettings_destination,
 
     -- * ScheduleAction
-    ScheduleAction,
+    ScheduleAction (ScheduleAction'),
     newScheduleAction,
     scheduleAction_actionName,
     scheduleAction_scheduleActionStartSettings,
     scheduleAction_scheduleActionSettings,
 
     -- * ScheduleActionSettings
-    ScheduleActionSettings,
+    ScheduleActionSettings (ScheduleActionSettings'),
     newScheduleActionSettings,
     scheduleActionSettings_hlsId3SegmentTaggingSettings,
     scheduleActionSettings_hlsTimedMetadataSettings,
@@ -2474,34 +2474,34 @@ module Amazonka.MediaLive.Types
     scheduleActionSettings_staticImageDeactivateSettings,
 
     -- * ScheduleActionStartSettings
-    ScheduleActionStartSettings,
+    ScheduleActionStartSettings (ScheduleActionStartSettings'),
     newScheduleActionStartSettings,
     scheduleActionStartSettings_fixedModeScheduleActionStartSettings,
     scheduleActionStartSettings_followModeScheduleActionStartSettings,
     scheduleActionStartSettings_immediateModeScheduleActionStartSettings,
 
     -- * Scte20PlusEmbeddedDestinationSettings
-    Scte20PlusEmbeddedDestinationSettings,
+    Scte20PlusEmbeddedDestinationSettings (Scte20PlusEmbeddedDestinationSettings'),
     newScte20PlusEmbeddedDestinationSettings,
 
     -- * Scte20SourceSettings
-    Scte20SourceSettings,
+    Scte20SourceSettings (Scte20SourceSettings'),
     newScte20SourceSettings,
     scte20SourceSettings_convert608To708,
     scte20SourceSettings_source608ChannelNumber,
 
     -- * Scte27DestinationSettings
-    Scte27DestinationSettings,
+    Scte27DestinationSettings (Scte27DestinationSettings'),
     newScte27DestinationSettings,
 
     -- * Scte27SourceSettings
-    Scte27SourceSettings,
+    Scte27SourceSettings (Scte27SourceSettings'),
     newScte27SourceSettings,
     scte27SourceSettings_ocrLanguage,
     scte27SourceSettings_pid,
 
     -- * Scte35DeliveryRestrictions
-    Scte35DeliveryRestrictions,
+    Scte35DeliveryRestrictions (Scte35DeliveryRestrictions'),
     newScte35DeliveryRestrictions,
     scte35DeliveryRestrictions_deviceRestrictions,
     scte35DeliveryRestrictions_archiveAllowedFlag,
@@ -2509,28 +2509,28 @@ module Amazonka.MediaLive.Types
     scte35DeliveryRestrictions_noRegionalBlackoutFlag,
 
     -- * Scte35Descriptor
-    Scte35Descriptor,
+    Scte35Descriptor (Scte35Descriptor'),
     newScte35Descriptor,
     scte35Descriptor_scte35DescriptorSettings,
 
     -- * Scte35DescriptorSettings
-    Scte35DescriptorSettings,
+    Scte35DescriptorSettings (Scte35DescriptorSettings'),
     newScte35DescriptorSettings,
     scte35DescriptorSettings_segmentationDescriptorScte35DescriptorSettings,
 
     -- * Scte35InputScheduleActionSettings
-    Scte35InputScheduleActionSettings,
+    Scte35InputScheduleActionSettings (Scte35InputScheduleActionSettings'),
     newScte35InputScheduleActionSettings,
     scte35InputScheduleActionSettings_inputAttachmentNameReference,
     scte35InputScheduleActionSettings_mode,
 
     -- * Scte35ReturnToNetworkScheduleActionSettings
-    Scte35ReturnToNetworkScheduleActionSettings,
+    Scte35ReturnToNetworkScheduleActionSettings (Scte35ReturnToNetworkScheduleActionSettings'),
     newScte35ReturnToNetworkScheduleActionSettings,
     scte35ReturnToNetworkScheduleActionSettings_spliceEventId,
 
     -- * Scte35SegmentationDescriptor
-    Scte35SegmentationDescriptor,
+    Scte35SegmentationDescriptor (Scte35SegmentationDescriptor'),
     newScte35SegmentationDescriptor,
     scte35SegmentationDescriptor_deliveryRestrictions,
     scte35SegmentationDescriptor_segmentNum,
@@ -2545,47 +2545,47 @@ module Amazonka.MediaLive.Types
     scte35SegmentationDescriptor_segmentationCancelIndicator,
 
     -- * Scte35SpliceInsert
-    Scte35SpliceInsert,
+    Scte35SpliceInsert (Scte35SpliceInsert'),
     newScte35SpliceInsert,
     scte35SpliceInsert_adAvailOffset,
     scte35SpliceInsert_noRegionalBlackoutFlag,
     scte35SpliceInsert_webDeliveryAllowedFlag,
 
     -- * Scte35SpliceInsertScheduleActionSettings
-    Scte35SpliceInsertScheduleActionSettings,
+    Scte35SpliceInsertScheduleActionSettings (Scte35SpliceInsertScheduleActionSettings'),
     newScte35SpliceInsertScheduleActionSettings,
     scte35SpliceInsertScheduleActionSettings_duration,
     scte35SpliceInsertScheduleActionSettings_spliceEventId,
 
     -- * Scte35TimeSignalApos
-    Scte35TimeSignalApos,
+    Scte35TimeSignalApos (Scte35TimeSignalApos'),
     newScte35TimeSignalApos,
     scte35TimeSignalApos_adAvailOffset,
     scte35TimeSignalApos_noRegionalBlackoutFlag,
     scte35TimeSignalApos_webDeliveryAllowedFlag,
 
     -- * Scte35TimeSignalScheduleActionSettings
-    Scte35TimeSignalScheduleActionSettings,
+    Scte35TimeSignalScheduleActionSettings (Scte35TimeSignalScheduleActionSettings'),
     newScte35TimeSignalScheduleActionSettings,
     scte35TimeSignalScheduleActionSettings_scte35Descriptors,
 
     -- * SmpteTtDestinationSettings
-    SmpteTtDestinationSettings,
+    SmpteTtDestinationSettings (SmpteTtDestinationSettings'),
     newSmpteTtDestinationSettings,
 
     -- * StandardHlsSettings
-    StandardHlsSettings,
+    StandardHlsSettings (StandardHlsSettings'),
     newStandardHlsSettings,
     standardHlsSettings_audioRenditionSets,
     standardHlsSettings_m3u8Settings,
 
     -- * StartTimecode
-    StartTimecode,
+    StartTimecode (StartTimecode'),
     newStartTimecode,
     startTimecode_timecode,
 
     -- * StaticImageActivateScheduleActionSettings
-    StaticImageActivateScheduleActionSettings,
+    StaticImageActivateScheduleActionSettings (StaticImageActivateScheduleActionSettings'),
     newStaticImageActivateScheduleActionSettings,
     staticImageActivateScheduleActionSettings_duration,
     staticImageActivateScheduleActionSettings_fadeIn,
@@ -2599,54 +2599,54 @@ module Amazonka.MediaLive.Types
     staticImageActivateScheduleActionSettings_image,
 
     -- * StaticImageDeactivateScheduleActionSettings
-    StaticImageDeactivateScheduleActionSettings,
+    StaticImageDeactivateScheduleActionSettings (StaticImageDeactivateScheduleActionSettings'),
     newStaticImageDeactivateScheduleActionSettings,
     staticImageDeactivateScheduleActionSettings_fadeOut,
     staticImageDeactivateScheduleActionSettings_layer,
 
     -- * StaticKeySettings
-    StaticKeySettings,
+    StaticKeySettings (StaticKeySettings'),
     newStaticKeySettings,
     staticKeySettings_keyProviderServer,
     staticKeySettings_staticKeyValue,
 
     -- * StopTimecode
-    StopTimecode,
+    StopTimecode (StopTimecode'),
     newStopTimecode,
     stopTimecode_lastFrameClippingBehavior,
     stopTimecode_timecode,
 
     -- * TeletextDestinationSettings
-    TeletextDestinationSettings,
+    TeletextDestinationSettings (TeletextDestinationSettings'),
     newTeletextDestinationSettings,
 
     -- * TeletextSourceSettings
-    TeletextSourceSettings,
+    TeletextSourceSettings (TeletextSourceSettings'),
     newTeletextSourceSettings,
     teletextSourceSettings_outputRectangle,
     teletextSourceSettings_pageNumber,
 
     -- * TemporalFilterSettings
-    TemporalFilterSettings,
+    TemporalFilterSettings (TemporalFilterSettings'),
     newTemporalFilterSettings,
     temporalFilterSettings_postFilterSharpening,
     temporalFilterSettings_strength,
 
     -- * TimecodeBurninSettings
-    TimecodeBurninSettings,
+    TimecodeBurninSettings (TimecodeBurninSettings'),
     newTimecodeBurninSettings,
     timecodeBurninSettings_prefix,
     timecodeBurninSettings_position,
     timecodeBurninSettings_fontSize,
 
     -- * TimecodeConfig
-    TimecodeConfig,
+    TimecodeConfig (TimecodeConfig'),
     newTimecodeConfig,
     timecodeConfig_syncThreshold,
     timecodeConfig_source,
 
     -- * TransferringInputDeviceSummary
-    TransferringInputDeviceSummary,
+    TransferringInputDeviceSummary (TransferringInputDeviceSummary'),
     newTransferringInputDeviceSummary,
     transferringInputDeviceSummary_id,
     transferringInputDeviceSummary_message,
@@ -2654,24 +2654,24 @@ module Amazonka.MediaLive.Types
     transferringInputDeviceSummary_transferType,
 
     -- * TtmlDestinationSettings
-    TtmlDestinationSettings,
+    TtmlDestinationSettings (TtmlDestinationSettings'),
     newTtmlDestinationSettings,
     ttmlDestinationSettings_styleControl,
 
     -- * UdpContainerSettings
-    UdpContainerSettings,
+    UdpContainerSettings (UdpContainerSettings'),
     newUdpContainerSettings,
     udpContainerSettings_m2tsSettings,
 
     -- * UdpGroupSettings
-    UdpGroupSettings,
+    UdpGroupSettings (UdpGroupSettings'),
     newUdpGroupSettings,
     udpGroupSettings_inputLossAction,
     udpGroupSettings_timedMetadataId3Frame,
     udpGroupSettings_timedMetadataId3Period,
 
     -- * UdpOutputSettings
-    UdpOutputSettings,
+    UdpOutputSettings (UdpOutputSettings'),
     newUdpOutputSettings,
     udpOutputSettings_bufferMsec,
     udpOutputSettings_fecOutputSettings,
@@ -2679,13 +2679,13 @@ module Amazonka.MediaLive.Types
     udpOutputSettings_containerSettings,
 
     -- * VideoBlackFailoverSettings
-    VideoBlackFailoverSettings,
+    VideoBlackFailoverSettings (VideoBlackFailoverSettings'),
     newVideoBlackFailoverSettings,
     videoBlackFailoverSettings_blackDetectThreshold,
     videoBlackFailoverSettings_videoBlackThresholdMsec,
 
     -- * VideoCodecSettings
-    VideoCodecSettings,
+    VideoCodecSettings (VideoCodecSettings'),
     newVideoCodecSettings,
     videoCodecSettings_frameCaptureSettings,
     videoCodecSettings_h264Settings,
@@ -2693,7 +2693,7 @@ module Amazonka.MediaLive.Types
     videoCodecSettings_mpeg2Settings,
 
     -- * VideoDescription
-    VideoDescription,
+    VideoDescription (VideoDescription'),
     newVideoDescription,
     videoDescription_codecSettings,
     videoDescription_height,
@@ -2704,7 +2704,7 @@ module Amazonka.MediaLive.Types
     videoDescription_name,
 
     -- * VideoSelector
-    VideoSelector,
+    VideoSelector (VideoSelector'),
     newVideoSelector,
     videoSelector_colorSpace,
     videoSelector_colorSpaceSettings,
@@ -2712,35 +2712,35 @@ module Amazonka.MediaLive.Types
     videoSelector_selectorSettings,
 
     -- * VideoSelectorColorSpaceSettings
-    VideoSelectorColorSpaceSettings,
+    VideoSelectorColorSpaceSettings (VideoSelectorColorSpaceSettings'),
     newVideoSelectorColorSpaceSettings,
     videoSelectorColorSpaceSettings_hdr10Settings,
 
     -- * VideoSelectorPid
-    VideoSelectorPid,
+    VideoSelectorPid (VideoSelectorPid'),
     newVideoSelectorPid,
     videoSelectorPid_pid,
 
     -- * VideoSelectorProgramId
-    VideoSelectorProgramId,
+    VideoSelectorProgramId (VideoSelectorProgramId'),
     newVideoSelectorProgramId,
     videoSelectorProgramId_programId,
 
     -- * VideoSelectorSettings
-    VideoSelectorSettings,
+    VideoSelectorSettings (VideoSelectorSettings'),
     newVideoSelectorSettings,
     videoSelectorSettings_videoSelectorPid,
     videoSelectorSettings_videoSelectorProgramId,
 
     -- * VpcOutputSettings
-    VpcOutputSettings,
+    VpcOutputSettings (VpcOutputSettings'),
     newVpcOutputSettings,
     vpcOutputSettings_publicAddressAllocationIds,
     vpcOutputSettings_securityGroupIds,
     vpcOutputSettings_subnetIds,
 
     -- * VpcOutputSettingsDescription
-    VpcOutputSettingsDescription,
+    VpcOutputSettingsDescription (VpcOutputSettingsDescription'),
     newVpcOutputSettingsDescription,
     vpcOutputSettingsDescription_availabilityZones,
     vpcOutputSettingsDescription_networkInterfaceIds,
@@ -2748,14 +2748,14 @@ module Amazonka.MediaLive.Types
     vpcOutputSettingsDescription_subnetIds,
 
     -- * WavSettings
-    WavSettings,
+    WavSettings (WavSettings'),
     newWavSettings,
     wavSettings_bitDepth,
     wavSettings_codingMode,
     wavSettings_sampleRate,
 
     -- * WebvttDestinationSettings
-    WebvttDestinationSettings,
+    WebvttDestinationSettings (WebvttDestinationSettings'),
     newWebvttDestinationSettings,
     webvttDestinationSettings_styleControl,
   )

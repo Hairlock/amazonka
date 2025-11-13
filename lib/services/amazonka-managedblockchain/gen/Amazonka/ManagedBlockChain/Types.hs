@@ -31,43 +31,43 @@ module Amazonka.ManagedBlockChain.Types
     _TooManyTagsException,
 
     -- * AccessorStatus
-    AccessorStatus,
+    AccessorStatus (AccessorStatus'),
 
     -- * AccessorType
-    AccessorType,
+    AccessorType (AccessorType'),
 
     -- * Edition
-    Edition,
+    Edition (Edition'),
 
     -- * Framework
-    Framework,
+    Framework (Framework'),
 
     -- * InvitationStatus
-    InvitationStatus,
+    InvitationStatus (InvitationStatus'),
 
     -- * MemberStatus
-    MemberStatus,
+    MemberStatus (MemberStatus'),
 
     -- * NetworkStatus
-    NetworkStatus,
+    NetworkStatus (NetworkStatus'),
 
     -- * NodeStatus
-    NodeStatus,
+    NodeStatus (NodeStatus'),
 
     -- * ProposalStatus
-    ProposalStatus,
+    ProposalStatus (ProposalStatus'),
 
     -- * StateDBType
-    StateDBType,
+    StateDBType (StateDBType'),
 
     -- * ThresholdComparator
-    ThresholdComparator,
+    ThresholdComparator (ThresholdComparator'),
 
     -- * VoteValue
-    VoteValue,
+    VoteValue (VoteValue'),
 
     -- * Accessor
-    Accessor,
+    Accessor (Accessor'),
     newAccessor,
     accessor_arn,
     accessor_billingToken,
@@ -77,7 +77,7 @@ module Amazonka.ManagedBlockChain.Types
     accessor_type,
 
     -- * AccessorSummary
-    AccessorSummary,
+    AccessorSummary (AccessorSummary'),
     newAccessorSummary,
     accessorSummary_arn,
     accessorSummary_creationDate,
@@ -86,14 +86,14 @@ module Amazonka.ManagedBlockChain.Types
     accessorSummary_type,
 
     -- * ApprovalThresholdPolicy
-    ApprovalThresholdPolicy,
+    ApprovalThresholdPolicy (ApprovalThresholdPolicy'),
     newApprovalThresholdPolicy,
     approvalThresholdPolicy_proposalDurationInHours,
     approvalThresholdPolicy_thresholdComparator,
     approvalThresholdPolicy_thresholdPercentage,
 
     -- * Invitation
-    Invitation,
+    Invitation (Invitation'),
     newInvitation,
     invitation_arn,
     invitation_creationDate,
@@ -103,22 +103,22 @@ module Amazonka.ManagedBlockChain.Types
     invitation_status,
 
     -- * InviteAction
-    InviteAction,
+    InviteAction (InviteAction'),
     newInviteAction,
     inviteAction_principal,
 
     -- * LogConfiguration
-    LogConfiguration,
+    LogConfiguration (LogConfiguration'),
     newLogConfiguration,
     logConfiguration_enabled,
 
     -- * LogConfigurations
-    LogConfigurations,
+    LogConfigurations (LogConfigurations'),
     newLogConfigurations,
     logConfigurations_cloudwatch,
 
     -- * Member
-    Member,
+    Member (Member'),
     newMember,
     member_arn,
     member_creationDate,
@@ -133,7 +133,7 @@ module Amazonka.ManagedBlockChain.Types
     member_tags,
 
     -- * MemberConfiguration
-    MemberConfiguration,
+    MemberConfiguration (MemberConfiguration'),
     newMemberConfiguration,
     memberConfiguration_description,
     memberConfiguration_kmsKeyArn,
@@ -143,39 +143,39 @@ module Amazonka.ManagedBlockChain.Types
     memberConfiguration_frameworkConfiguration,
 
     -- * MemberFabricAttributes
-    MemberFabricAttributes,
+    MemberFabricAttributes (MemberFabricAttributes'),
     newMemberFabricAttributes,
     memberFabricAttributes_adminUsername,
     memberFabricAttributes_caEndpoint,
 
     -- * MemberFabricConfiguration
-    MemberFabricConfiguration,
+    MemberFabricConfiguration (MemberFabricConfiguration'),
     newMemberFabricConfiguration,
     memberFabricConfiguration_adminUsername,
     memberFabricConfiguration_adminPassword,
 
     -- * MemberFabricLogPublishingConfiguration
-    MemberFabricLogPublishingConfiguration,
+    MemberFabricLogPublishingConfiguration (MemberFabricLogPublishingConfiguration'),
     newMemberFabricLogPublishingConfiguration,
     memberFabricLogPublishingConfiguration_caLogs,
 
     -- * MemberFrameworkAttributes
-    MemberFrameworkAttributes,
+    MemberFrameworkAttributes (MemberFrameworkAttributes'),
     newMemberFrameworkAttributes,
     memberFrameworkAttributes_fabric,
 
     -- * MemberFrameworkConfiguration
-    MemberFrameworkConfiguration,
+    MemberFrameworkConfiguration (MemberFrameworkConfiguration'),
     newMemberFrameworkConfiguration,
     memberFrameworkConfiguration_fabric,
 
     -- * MemberLogPublishingConfiguration
-    MemberLogPublishingConfiguration,
+    MemberLogPublishingConfiguration (MemberLogPublishingConfiguration'),
     newMemberLogPublishingConfiguration,
     memberLogPublishingConfiguration_fabric,
 
     -- * MemberSummary
-    MemberSummary,
+    MemberSummary (MemberSummary'),
     newMemberSummary,
     memberSummary_arn,
     memberSummary_creationDate,
@@ -186,7 +186,7 @@ module Amazonka.ManagedBlockChain.Types
     memberSummary_status,
 
     -- * Network
-    Network,
+    Network (Network'),
     newNetwork,
     network_arn,
     network_creationDate,
@@ -202,34 +202,34 @@ module Amazonka.ManagedBlockChain.Types
     network_vpcEndpointServiceName,
 
     -- * NetworkEthereumAttributes
-    NetworkEthereumAttributes,
+    NetworkEthereumAttributes (NetworkEthereumAttributes'),
     newNetworkEthereumAttributes,
     networkEthereumAttributes_chainId,
 
     -- * NetworkFabricAttributes
-    NetworkFabricAttributes,
+    NetworkFabricAttributes (NetworkFabricAttributes'),
     newNetworkFabricAttributes,
     networkFabricAttributes_edition,
     networkFabricAttributes_orderingServiceEndpoint,
 
     -- * NetworkFabricConfiguration
-    NetworkFabricConfiguration,
+    NetworkFabricConfiguration (NetworkFabricConfiguration'),
     newNetworkFabricConfiguration,
     networkFabricConfiguration_edition,
 
     -- * NetworkFrameworkAttributes
-    NetworkFrameworkAttributes,
+    NetworkFrameworkAttributes (NetworkFrameworkAttributes'),
     newNetworkFrameworkAttributes,
     networkFrameworkAttributes_ethereum,
     networkFrameworkAttributes_fabric,
 
     -- * NetworkFrameworkConfiguration
-    NetworkFrameworkConfiguration,
+    NetworkFrameworkConfiguration (NetworkFrameworkConfiguration'),
     newNetworkFrameworkConfiguration,
     networkFrameworkConfiguration_fabric,
 
     -- * NetworkSummary
-    NetworkSummary,
+    NetworkSummary (NetworkSummary'),
     newNetworkSummary,
     networkSummary_arn,
     networkSummary_creationDate,
@@ -241,7 +241,7 @@ module Amazonka.ManagedBlockChain.Types
     networkSummary_status,
 
     -- * Node
-    Node,
+    Node (Node'),
     newNode,
     node_arn,
     node_availabilityZone,
@@ -258,7 +258,7 @@ module Amazonka.ManagedBlockChain.Types
     node_tags,
 
     -- * NodeConfiguration
-    NodeConfiguration,
+    NodeConfiguration (NodeConfiguration'),
     newNodeConfiguration,
     nodeConfiguration_availabilityZone,
     nodeConfiguration_logPublishingConfiguration,
@@ -266,36 +266,36 @@ module Amazonka.ManagedBlockChain.Types
     nodeConfiguration_instanceType,
 
     -- * NodeEthereumAttributes
-    NodeEthereumAttributes,
+    NodeEthereumAttributes (NodeEthereumAttributes'),
     newNodeEthereumAttributes,
     nodeEthereumAttributes_httpEndpoint,
     nodeEthereumAttributes_webSocketEndpoint,
 
     -- * NodeFabricAttributes
-    NodeFabricAttributes,
+    NodeFabricAttributes (NodeFabricAttributes'),
     newNodeFabricAttributes,
     nodeFabricAttributes_peerEndpoint,
     nodeFabricAttributes_peerEventEndpoint,
 
     -- * NodeFabricLogPublishingConfiguration
-    NodeFabricLogPublishingConfiguration,
+    NodeFabricLogPublishingConfiguration (NodeFabricLogPublishingConfiguration'),
     newNodeFabricLogPublishingConfiguration,
     nodeFabricLogPublishingConfiguration_chaincodeLogs,
     nodeFabricLogPublishingConfiguration_peerLogs,
 
     -- * NodeFrameworkAttributes
-    NodeFrameworkAttributes,
+    NodeFrameworkAttributes (NodeFrameworkAttributes'),
     newNodeFrameworkAttributes,
     nodeFrameworkAttributes_ethereum,
     nodeFrameworkAttributes_fabric,
 
     -- * NodeLogPublishingConfiguration
-    NodeLogPublishingConfiguration,
+    NodeLogPublishingConfiguration (NodeLogPublishingConfiguration'),
     newNodeLogPublishingConfiguration,
     nodeLogPublishingConfiguration_fabric,
 
     -- * NodeSummary
-    NodeSummary,
+    NodeSummary (NodeSummary'),
     newNodeSummary,
     nodeSummary_arn,
     nodeSummary_availabilityZone,
@@ -305,7 +305,7 @@ module Amazonka.ManagedBlockChain.Types
     nodeSummary_status,
 
     -- * Proposal
-    Proposal,
+    Proposal (Proposal'),
     newProposal,
     proposal_actions,
     proposal_arn,
@@ -323,13 +323,13 @@ module Amazonka.ManagedBlockChain.Types
     proposal_yesVoteCount,
 
     -- * ProposalActions
-    ProposalActions,
+    ProposalActions (ProposalActions'),
     newProposalActions,
     proposalActions_invitations,
     proposalActions_removals,
 
     -- * ProposalSummary
-    ProposalSummary,
+    ProposalSummary (ProposalSummary'),
     newProposalSummary,
     proposalSummary_arn,
     proposalSummary_creationDate,
@@ -341,19 +341,19 @@ module Amazonka.ManagedBlockChain.Types
     proposalSummary_status,
 
     -- * RemoveAction
-    RemoveAction,
+    RemoveAction (RemoveAction'),
     newRemoveAction,
     removeAction_memberId,
 
     -- * VoteSummary
-    VoteSummary,
+    VoteSummary (VoteSummary'),
     newVoteSummary,
     voteSummary_memberId,
     voteSummary_memberName,
     voteSummary_vote,
 
     -- * VotingPolicy
-    VotingPolicy,
+    VotingPolicy (VotingPolicy'),
     newVotingPolicy,
     votingPolicy_approvalThresholdPolicy,
   )

@@ -27,31 +27,31 @@ module Amazonka.SageMakerA2IRuntime.Types
     _ValidationException,
 
     -- * ContentClassifier
-    ContentClassifier,
+    ContentClassifier (ContentClassifier'),
 
     -- * HumanLoopStatus
-    HumanLoopStatus,
+    HumanLoopStatus (HumanLoopStatus'),
 
     -- * SortOrder
-    SortOrder,
+    SortOrder (SortOrder'),
 
     -- * HumanLoopDataAttributes
-    HumanLoopDataAttributes,
+    HumanLoopDataAttributes (HumanLoopDataAttributes'),
     newHumanLoopDataAttributes,
     humanLoopDataAttributes_contentClassifiers,
 
     -- * HumanLoopInput
-    HumanLoopInput,
+    HumanLoopInput (HumanLoopInput'),
     newHumanLoopInput,
     humanLoopInput_inputContent,
 
     -- * HumanLoopOutput
-    HumanLoopOutput,
+    HumanLoopOutput (HumanLoopOutput'),
     newHumanLoopOutput,
     humanLoopOutput_outputS3Uri,
 
     -- * HumanLoopSummary
-    HumanLoopSummary,
+    HumanLoopSummary (HumanLoopSummary'),
     newHumanLoopSummary,
     humanLoopSummary_creationTime,
     humanLoopSummary_failureReason,

@@ -42,37 +42,37 @@ module Amazonka.Polly.Types
     _UnsupportedPlsLanguageException,
 
     -- * Engine
-    Engine,
+    Engine (Engine'),
 
     -- * Gender
-    Gender,
+    Gender (Gender'),
 
     -- * LanguageCode
-    LanguageCode,
+    LanguageCode (LanguageCode'),
 
     -- * OutputFormat
-    OutputFormat,
+    OutputFormat (OutputFormat'),
 
     -- * SpeechMarkType
-    SpeechMarkType,
+    SpeechMarkType (SpeechMarkType'),
 
     -- * TaskStatus
-    TaskStatus,
+    TaskStatus (TaskStatus'),
 
     -- * TextType
-    TextType,
+    TextType (TextType'),
 
     -- * VoiceId
-    VoiceId,
+    VoiceId (VoiceId'),
 
     -- * Lexicon
-    Lexicon,
+    Lexicon (Lexicon'),
     newLexicon,
     lexicon_content,
     lexicon_name,
 
     -- * LexiconAttributes
-    LexiconAttributes,
+    LexiconAttributes (LexiconAttributes'),
     newLexiconAttributes,
     lexiconAttributes_alphabet,
     lexiconAttributes_languageCode,
@@ -82,13 +82,13 @@ module Amazonka.Polly.Types
     lexiconAttributes_size,
 
     -- * LexiconDescription
-    LexiconDescription,
+    LexiconDescription (LexiconDescription'),
     newLexiconDescription,
     lexiconDescription_attributes,
     lexiconDescription_name,
 
     -- * SynthesisTask
-    SynthesisTask,
+    SynthesisTask (SynthesisTask'),
     newSynthesisTask,
     synthesisTask_creationTime,
     synthesisTask_engine,
@@ -107,7 +107,7 @@ module Amazonka.Polly.Types
     synthesisTask_voiceId,
 
     -- * Voice
-    Voice,
+    Voice (Voice'),
     newVoice,
     voice_additionalLanguageCodes,
     voice_gender,

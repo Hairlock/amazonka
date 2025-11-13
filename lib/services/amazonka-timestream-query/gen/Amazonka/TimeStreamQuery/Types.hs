@@ -30,34 +30,34 @@ module Amazonka.TimeStreamQuery.Types
     _ValidationException,
 
     -- * DimensionValueType
-    DimensionValueType,
+    DimensionValueType (DimensionValueType'),
 
     -- * MeasureValueType
-    MeasureValueType,
+    MeasureValueType (MeasureValueType'),
 
     -- * S3EncryptionOption
-    S3EncryptionOption,
+    S3EncryptionOption (S3EncryptionOption'),
 
     -- * ScalarMeasureValueType
-    ScalarMeasureValueType,
+    ScalarMeasureValueType (ScalarMeasureValueType'),
 
     -- * ScalarType
-    ScalarType,
+    ScalarType (ScalarType'),
 
     -- * ScheduledQueryRunStatus
-    ScheduledQueryRunStatus,
+    ScheduledQueryRunStatus (ScheduledQueryRunStatus'),
 
     -- * ScheduledQueryState
-    ScheduledQueryState,
+    ScheduledQueryState (ScheduledQueryState'),
 
     -- * ColumnInfo
-    ColumnInfo,
+    ColumnInfo (ColumnInfo'),
     newColumnInfo,
     columnInfo_name,
     columnInfo_type,
 
     -- * Datum
-    Datum,
+    Datum (Datum'),
     newDatum,
     datum_arrayValue,
     datum_nullValue,
@@ -66,29 +66,29 @@ module Amazonka.TimeStreamQuery.Types
     datum_timeSeriesValue,
 
     -- * DimensionMapping
-    DimensionMapping,
+    DimensionMapping (DimensionMapping'),
     newDimensionMapping,
     dimensionMapping_name,
     dimensionMapping_dimensionValueType,
 
     -- * Endpoint
-    Endpoint,
+    Endpoint (Endpoint'),
     newEndpoint,
     endpoint_address,
     endpoint_cachePeriodInMinutes,
 
     -- * ErrorReportConfiguration
-    ErrorReportConfiguration,
+    ErrorReportConfiguration (ErrorReportConfiguration'),
     newErrorReportConfiguration,
     errorReportConfiguration_s3Configuration,
 
     -- * ErrorReportLocation
-    ErrorReportLocation,
+    ErrorReportLocation (ErrorReportLocation'),
     newErrorReportLocation,
     errorReportLocation_s3ReportLocation,
 
     -- * ExecutionStats
-    ExecutionStats,
+    ExecutionStats (ExecutionStats'),
     newExecutionStats,
     executionStats_bytesMetered,
     executionStats_dataWrites,
@@ -97,7 +97,7 @@ module Amazonka.TimeStreamQuery.Types
     executionStats_recordsIngested,
 
     -- * MixedMeasureMapping
-    MixedMeasureMapping,
+    MixedMeasureMapping (MixedMeasureMapping'),
     newMixedMeasureMapping,
     mixedMeasureMapping_measureName,
     mixedMeasureMapping_multiMeasureAttributeMappings,
@@ -106,61 +106,61 @@ module Amazonka.TimeStreamQuery.Types
     mixedMeasureMapping_measureValueType,
 
     -- * MultiMeasureAttributeMapping
-    MultiMeasureAttributeMapping,
+    MultiMeasureAttributeMapping (MultiMeasureAttributeMapping'),
     newMultiMeasureAttributeMapping,
     multiMeasureAttributeMapping_targetMultiMeasureAttributeName,
     multiMeasureAttributeMapping_sourceColumn,
     multiMeasureAttributeMapping_measureValueType,
 
     -- * MultiMeasureMappings
-    MultiMeasureMappings,
+    MultiMeasureMappings (MultiMeasureMappings'),
     newMultiMeasureMappings,
     multiMeasureMappings_targetMultiMeasureName,
     multiMeasureMappings_multiMeasureAttributeMappings,
 
     -- * NotificationConfiguration
-    NotificationConfiguration,
+    NotificationConfiguration (NotificationConfiguration'),
     newNotificationConfiguration,
     notificationConfiguration_snsConfiguration,
 
     -- * ParameterMapping
-    ParameterMapping,
+    ParameterMapping (ParameterMapping'),
     newParameterMapping,
     parameterMapping_name,
     parameterMapping_type,
 
     -- * QueryStatus
-    QueryStatus,
+    QueryStatus (QueryStatus'),
     newQueryStatus,
     queryStatus_cumulativeBytesMetered,
     queryStatus_cumulativeBytesScanned,
     queryStatus_progressPercentage,
 
     -- * Row
-    Row,
+    Row (Row'),
     newRow,
     row_data,
 
     -- * S3Configuration
-    S3Configuration,
+    S3Configuration (S3Configuration'),
     newS3Configuration,
     s3Configuration_encryptionOption,
     s3Configuration_objectKeyPrefix,
     s3Configuration_bucketName,
 
     -- * S3ReportLocation
-    S3ReportLocation,
+    S3ReportLocation (S3ReportLocation'),
     newS3ReportLocation,
     s3ReportLocation_bucketName,
     s3ReportLocation_objectKey,
 
     -- * ScheduleConfiguration
-    ScheduleConfiguration,
+    ScheduleConfiguration (ScheduleConfiguration'),
     newScheduleConfiguration,
     scheduleConfiguration_scheduleExpression,
 
     -- * ScheduledQuery
-    ScheduledQuery,
+    ScheduledQuery (ScheduledQuery'),
     newScheduledQuery,
     scheduledQuery_creationTime,
     scheduledQuery_errorReportConfiguration,
@@ -173,7 +173,7 @@ module Amazonka.TimeStreamQuery.Types
     scheduledQuery_state,
 
     -- * ScheduledQueryDescription
-    ScheduledQueryDescription,
+    ScheduledQueryDescription (ScheduledQueryDescription'),
     newScheduledQueryDescription,
     scheduledQueryDescription_creationTime,
     scheduledQueryDescription_errorReportConfiguration,
@@ -192,7 +192,7 @@ module Amazonka.TimeStreamQuery.Types
     scheduledQueryDescription_notificationConfiguration,
 
     -- * ScheduledQueryRunSummary
-    ScheduledQueryRunSummary,
+    ScheduledQueryRunSummary (ScheduledQueryRunSummary'),
     newScheduledQueryRunSummary,
     scheduledQueryRunSummary_errorReportLocation,
     scheduledQueryRunSummary_executionStats,
@@ -202,7 +202,7 @@ module Amazonka.TimeStreamQuery.Types
     scheduledQueryRunSummary_triggerTime,
 
     -- * SelectColumn
-    SelectColumn,
+    SelectColumn (SelectColumn'),
     newSelectColumn,
     selectColumn_aliased,
     selectColumn_databaseName,
@@ -211,34 +211,34 @@ module Amazonka.TimeStreamQuery.Types
     selectColumn_type,
 
     -- * SnsConfiguration
-    SnsConfiguration,
+    SnsConfiguration (SnsConfiguration'),
     newSnsConfiguration,
     snsConfiguration_topicArn,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
 
     -- * TargetConfiguration
-    TargetConfiguration,
+    TargetConfiguration (TargetConfiguration'),
     newTargetConfiguration,
     targetConfiguration_timestreamConfiguration,
 
     -- * TargetDestination
-    TargetDestination,
+    TargetDestination (TargetDestination'),
     newTargetDestination,
     targetDestination_timestreamDestination,
 
     -- * TimeSeriesDataPoint
-    TimeSeriesDataPoint,
+    TimeSeriesDataPoint (TimeSeriesDataPoint'),
     newTimeSeriesDataPoint,
     timeSeriesDataPoint_time,
     timeSeriesDataPoint_value,
 
     -- * TimestreamConfiguration
-    TimestreamConfiguration,
+    TimestreamConfiguration (TimestreamConfiguration'),
     newTimestreamConfiguration,
     timestreamConfiguration_measureNameColumn,
     timestreamConfiguration_mixedMeasureMappings,
@@ -249,13 +249,13 @@ module Amazonka.TimeStreamQuery.Types
     timestreamConfiguration_dimensionMappings,
 
     -- * TimestreamDestination
-    TimestreamDestination,
+    TimestreamDestination (TimestreamDestination'),
     newTimestreamDestination,
     timestreamDestination_databaseName,
     timestreamDestination_tableName,
 
     -- * Type
-    Type,
+    Type (Type'),
     newType,
     type_arrayColumnInfo,
     type_rowColumnInfo,

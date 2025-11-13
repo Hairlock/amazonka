@@ -27,16 +27,16 @@ module Amazonka.MediaStore.Types
     _PolicyNotFoundException,
 
     -- * ContainerLevelMetrics
-    ContainerLevelMetrics,
+    ContainerLevelMetrics (ContainerLevelMetrics'),
 
     -- * ContainerStatus
-    ContainerStatus,
+    ContainerStatus (ContainerStatus'),
 
     -- * MethodName
-    MethodName,
+    MethodName (MethodName'),
 
     -- * Container
-    Container,
+    Container (Container'),
     newContainer,
     container_arn,
     container_accessLoggingEnabled,
@@ -46,7 +46,7 @@ module Amazonka.MediaStore.Types
     container_status,
 
     -- * CorsRule
-    CorsRule,
+    CorsRule (CorsRule'),
     newCorsRule,
     corsRule_allowedMethods,
     corsRule_exposeHeaders,
@@ -55,19 +55,19 @@ module Amazonka.MediaStore.Types
     corsRule_allowedHeaders,
 
     -- * MetricPolicy
-    MetricPolicy,
+    MetricPolicy (MetricPolicy'),
     newMetricPolicy,
     metricPolicy_metricPolicyRules,
     metricPolicy_containerLevelMetrics,
 
     -- * MetricPolicyRule
-    MetricPolicyRule,
+    MetricPolicyRule (MetricPolicyRule'),
     newMetricPolicyRule,
     metricPolicyRule_objectGroup,
     metricPolicyRule_objectGroupName,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_value,
     tag_key,

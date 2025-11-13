@@ -30,22 +30,22 @@ module Amazonka.TimeStreamWrite.Types
     _ValidationException,
 
     -- * DimensionValueType
-    DimensionValueType,
+    DimensionValueType (DimensionValueType'),
 
     -- * MeasureValueType
-    MeasureValueType,
+    MeasureValueType (MeasureValueType'),
 
     -- * S3EncryptionOption
-    S3EncryptionOption,
+    S3EncryptionOption (S3EncryptionOption'),
 
     -- * TableStatus
-    TableStatus,
+    TableStatus (TableStatus'),
 
     -- * TimeUnit
-    TimeUnit,
+    TimeUnit (TimeUnit'),
 
     -- * Database
-    Database,
+    Database (Database'),
     newDatabase,
     database_arn,
     database_creationTime,
@@ -55,38 +55,38 @@ module Amazonka.TimeStreamWrite.Types
     database_tableCount,
 
     -- * Dimension
-    Dimension,
+    Dimension (Dimension'),
     newDimension,
     dimension_dimensionValueType,
     dimension_name,
     dimension_value,
 
     -- * Endpoint
-    Endpoint,
+    Endpoint (Endpoint'),
     newEndpoint,
     endpoint_address,
     endpoint_cachePeriodInMinutes,
 
     -- * MagneticStoreRejectedDataLocation
-    MagneticStoreRejectedDataLocation,
+    MagneticStoreRejectedDataLocation (MagneticStoreRejectedDataLocation'),
     newMagneticStoreRejectedDataLocation,
     magneticStoreRejectedDataLocation_s3Configuration,
 
     -- * MagneticStoreWriteProperties
-    MagneticStoreWriteProperties,
+    MagneticStoreWriteProperties (MagneticStoreWriteProperties'),
     newMagneticStoreWriteProperties,
     magneticStoreWriteProperties_magneticStoreRejectedDataLocation,
     magneticStoreWriteProperties_enableMagneticStoreWrites,
 
     -- * MeasureValue
-    MeasureValue,
+    MeasureValue (MeasureValue'),
     newMeasureValue,
     measureValue_name,
     measureValue_value,
     measureValue_type,
 
     -- * Record
-    Record,
+    Record (Record'),
     newRecord,
     record_dimensions,
     record_measureName,
@@ -98,20 +98,20 @@ module Amazonka.TimeStreamWrite.Types
     record_version,
 
     -- * RecordsIngested
-    RecordsIngested,
+    RecordsIngested (RecordsIngested'),
     newRecordsIngested,
     recordsIngested_magneticStore,
     recordsIngested_memoryStore,
     recordsIngested_total,
 
     -- * RetentionProperties
-    RetentionProperties,
+    RetentionProperties (RetentionProperties'),
     newRetentionProperties,
     retentionProperties_memoryStoreRetentionPeriodInHours,
     retentionProperties_magneticStoreRetentionPeriodInDays,
 
     -- * S3Configuration
-    S3Configuration,
+    S3Configuration (S3Configuration'),
     newS3Configuration,
     s3Configuration_bucketName,
     s3Configuration_encryptionOption,
@@ -119,7 +119,7 @@ module Amazonka.TimeStreamWrite.Types
     s3Configuration_objectKeyPrefix,
 
     -- * Table
-    Table,
+    Table (Table'),
     newTable,
     table_arn,
     table_creationTime,
@@ -131,7 +131,7 @@ module Amazonka.TimeStreamWrite.Types
     table_tableStatus,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,

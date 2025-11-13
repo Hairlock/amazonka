@@ -24,7 +24,7 @@ module Amazonka.PersonalizeEvents.Types
     _ResourceNotFoundException,
 
     -- * Event
-    Event,
+    Event (Event'),
     newEvent,
     event_eventId,
     event_eventValue,
@@ -37,18 +37,18 @@ module Amazonka.PersonalizeEvents.Types
     event_sentAt,
 
     -- * Item
-    Item,
+    Item (Item'),
     newItem,
     item_properties,
     item_itemId,
 
     -- * MetricAttribution
-    MetricAttribution,
+    MetricAttribution (MetricAttribution'),
     newMetricAttribution,
     metricAttribution_eventAttributionSource,
 
     -- * User
-    User,
+    User (User'),
     newUser,
     user_properties,
     user_userId,

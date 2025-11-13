@@ -40,40 +40,40 @@ module Amazonka.GlobalAccelerator.Types
     _TransactionInProgressException,
 
     -- * AcceleratorStatus
-    AcceleratorStatus,
+    AcceleratorStatus (AcceleratorStatus'),
 
     -- * ByoipCidrState
-    ByoipCidrState,
+    ByoipCidrState (ByoipCidrState'),
 
     -- * ClientAffinity
-    ClientAffinity,
+    ClientAffinity (ClientAffinity'),
 
     -- * CustomRoutingAcceleratorStatus
-    CustomRoutingAcceleratorStatus,
+    CustomRoutingAcceleratorStatus (CustomRoutingAcceleratorStatus'),
 
     -- * CustomRoutingDestinationTrafficState
-    CustomRoutingDestinationTrafficState,
+    CustomRoutingDestinationTrafficState (CustomRoutingDestinationTrafficState'),
 
     -- * CustomRoutingProtocol
-    CustomRoutingProtocol,
+    CustomRoutingProtocol (CustomRoutingProtocol'),
 
     -- * HealthCheckProtocol
-    HealthCheckProtocol,
+    HealthCheckProtocol (HealthCheckProtocol'),
 
     -- * HealthState
-    HealthState,
+    HealthState (HealthState'),
 
     -- * IpAddressFamily
-    IpAddressFamily,
+    IpAddressFamily (IpAddressFamily'),
 
     -- * IpAddressType
-    IpAddressType,
+    IpAddressType (IpAddressType'),
 
     -- * Protocol
-    Protocol,
+    Protocol (Protocol'),
 
     -- * Accelerator
-    Accelerator,
+    Accelerator (Accelerator'),
     newAccelerator,
     accelerator_acceleratorArn,
     accelerator_createdTime,
@@ -88,39 +88,39 @@ module Amazonka.GlobalAccelerator.Types
     accelerator_status,
 
     -- * AcceleratorAttributes
-    AcceleratorAttributes,
+    AcceleratorAttributes (AcceleratorAttributes'),
     newAcceleratorAttributes,
     acceleratorAttributes_flowLogsEnabled,
     acceleratorAttributes_flowLogsS3Bucket,
     acceleratorAttributes_flowLogsS3Prefix,
 
     -- * AcceleratorEvent
-    AcceleratorEvent,
+    AcceleratorEvent (AcceleratorEvent'),
     newAcceleratorEvent,
     acceleratorEvent_message,
     acceleratorEvent_timestamp,
 
     -- * ByoipCidr
-    ByoipCidr,
+    ByoipCidr (ByoipCidr'),
     newByoipCidr,
     byoipCidr_cidr,
     byoipCidr_events,
     byoipCidr_state,
 
     -- * ByoipCidrEvent
-    ByoipCidrEvent,
+    ByoipCidrEvent (ByoipCidrEvent'),
     newByoipCidrEvent,
     byoipCidrEvent_message,
     byoipCidrEvent_timestamp,
 
     -- * CidrAuthorizationContext
-    CidrAuthorizationContext,
+    CidrAuthorizationContext (CidrAuthorizationContext'),
     newCidrAuthorizationContext,
     cidrAuthorizationContext_message,
     cidrAuthorizationContext_signature,
 
     -- * CustomRoutingAccelerator
-    CustomRoutingAccelerator,
+    CustomRoutingAccelerator (CustomRoutingAccelerator'),
     newCustomRoutingAccelerator,
     customRoutingAccelerator_acceleratorArn,
     customRoutingAccelerator_createdTime,
@@ -133,38 +133,38 @@ module Amazonka.GlobalAccelerator.Types
     customRoutingAccelerator_status,
 
     -- * CustomRoutingAcceleratorAttributes
-    CustomRoutingAcceleratorAttributes,
+    CustomRoutingAcceleratorAttributes (CustomRoutingAcceleratorAttributes'),
     newCustomRoutingAcceleratorAttributes,
     customRoutingAcceleratorAttributes_flowLogsEnabled,
     customRoutingAcceleratorAttributes_flowLogsS3Bucket,
     customRoutingAcceleratorAttributes_flowLogsS3Prefix,
 
     -- * CustomRoutingDestinationConfiguration
-    CustomRoutingDestinationConfiguration,
+    CustomRoutingDestinationConfiguration (CustomRoutingDestinationConfiguration'),
     newCustomRoutingDestinationConfiguration,
     customRoutingDestinationConfiguration_fromPort,
     customRoutingDestinationConfiguration_toPort,
     customRoutingDestinationConfiguration_protocols,
 
     -- * CustomRoutingDestinationDescription
-    CustomRoutingDestinationDescription,
+    CustomRoutingDestinationDescription (CustomRoutingDestinationDescription'),
     newCustomRoutingDestinationDescription,
     customRoutingDestinationDescription_fromPort,
     customRoutingDestinationDescription_protocols,
     customRoutingDestinationDescription_toPort,
 
     -- * CustomRoutingEndpointConfiguration
-    CustomRoutingEndpointConfiguration,
+    CustomRoutingEndpointConfiguration (CustomRoutingEndpointConfiguration'),
     newCustomRoutingEndpointConfiguration,
     customRoutingEndpointConfiguration_endpointId,
 
     -- * CustomRoutingEndpointDescription
-    CustomRoutingEndpointDescription,
+    CustomRoutingEndpointDescription (CustomRoutingEndpointDescription'),
     newCustomRoutingEndpointDescription,
     customRoutingEndpointDescription_endpointId,
 
     -- * CustomRoutingEndpointGroup
-    CustomRoutingEndpointGroup,
+    CustomRoutingEndpointGroup (CustomRoutingEndpointGroup'),
     newCustomRoutingEndpointGroup,
     customRoutingEndpointGroup_destinationDescriptions,
     customRoutingEndpointGroup_endpointDescriptions,
@@ -172,13 +172,13 @@ module Amazonka.GlobalAccelerator.Types
     customRoutingEndpointGroup_endpointGroupRegion,
 
     -- * CustomRoutingListener
-    CustomRoutingListener,
+    CustomRoutingListener (CustomRoutingListener'),
     newCustomRoutingListener,
     customRoutingListener_listenerArn,
     customRoutingListener_portRanges,
 
     -- * DestinationPortMapping
-    DestinationPortMapping,
+    DestinationPortMapping (DestinationPortMapping'),
     newDestinationPortMapping,
     destinationPortMapping_acceleratorArn,
     destinationPortMapping_acceleratorSocketAddresses,
@@ -190,14 +190,14 @@ module Amazonka.GlobalAccelerator.Types
     destinationPortMapping_ipAddressType,
 
     -- * EndpointConfiguration
-    EndpointConfiguration,
+    EndpointConfiguration (EndpointConfiguration'),
     newEndpointConfiguration,
     endpointConfiguration_clientIPPreservationEnabled,
     endpointConfiguration_endpointId,
     endpointConfiguration_weight,
 
     -- * EndpointDescription
-    EndpointDescription,
+    EndpointDescription (EndpointDescription'),
     newEndpointDescription,
     endpointDescription_clientIPPreservationEnabled,
     endpointDescription_endpointId,
@@ -206,7 +206,7 @@ module Amazonka.GlobalAccelerator.Types
     endpointDescription_weight,
 
     -- * EndpointGroup
-    EndpointGroup,
+    EndpointGroup (EndpointGroup'),
     newEndpointGroup,
     endpointGroup_endpointDescriptions,
     endpointGroup_endpointGroupArn,
@@ -220,20 +220,20 @@ module Amazonka.GlobalAccelerator.Types
     endpointGroup_trafficDialPercentage,
 
     -- * EndpointIdentifier
-    EndpointIdentifier,
+    EndpointIdentifier (EndpointIdentifier'),
     newEndpointIdentifier,
     endpointIdentifier_clientIPPreservationEnabled,
     endpointIdentifier_endpointId,
 
     -- * IpSet
-    IpSet,
+    IpSet (IpSet'),
     newIpSet,
     ipSet_ipAddressFamily,
     ipSet_ipAddresses,
     ipSet_ipFamily,
 
     -- * Listener
-    Listener,
+    Listener (Listener'),
     newListener,
     listener_clientAffinity,
     listener_listenerArn,
@@ -241,7 +241,7 @@ module Amazonka.GlobalAccelerator.Types
     listener_protocol,
 
     -- * PortMapping
-    PortMapping,
+    PortMapping (PortMapping'),
     newPortMapping,
     portMapping_acceleratorPort,
     portMapping_destinationSocketAddress,
@@ -251,25 +251,25 @@ module Amazonka.GlobalAccelerator.Types
     portMapping_protocols,
 
     -- * PortOverride
-    PortOverride,
+    PortOverride (PortOverride'),
     newPortOverride,
     portOverride_endpointPort,
     portOverride_listenerPort,
 
     -- * PortRange
-    PortRange,
+    PortRange (PortRange'),
     newPortRange,
     portRange_fromPort,
     portRange_toPort,
 
     -- * SocketAddress
-    SocketAddress,
+    SocketAddress (SocketAddress'),
     newSocketAddress,
     socketAddress_ipAddress,
     socketAddress_port,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,

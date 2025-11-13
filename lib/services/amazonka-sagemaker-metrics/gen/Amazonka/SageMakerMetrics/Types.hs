@@ -21,16 +21,16 @@ module Amazonka.SageMakerMetrics.Types
     -- * Errors
 
     -- * PutMetricsErrorCode
-    PutMetricsErrorCode,
+    PutMetricsErrorCode (PutMetricsErrorCode'),
 
     -- * BatchPutMetricsError
-    BatchPutMetricsError,
+    BatchPutMetricsError (BatchPutMetricsError'),
     newBatchPutMetricsError,
     batchPutMetricsError_code,
     batchPutMetricsError_metricIndex,
 
     -- * RawMetricData
-    RawMetricData,
+    RawMetricData (RawMetricData'),
     newRawMetricData,
     rawMetricData_step,
     rawMetricData_metricName,

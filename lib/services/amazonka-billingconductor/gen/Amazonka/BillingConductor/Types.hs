@@ -28,28 +28,28 @@ module Amazonka.BillingConductor.Types
     _ValidationException,
 
     -- * AssociateResourceErrorReason
-    AssociateResourceErrorReason,
+    AssociateResourceErrorReason (AssociateResourceErrorReason'),
 
     -- * BillingGroupStatus
-    BillingGroupStatus,
+    BillingGroupStatus (BillingGroupStatus'),
 
     -- * CurrencyCode
-    CurrencyCode,
+    CurrencyCode (CurrencyCode'),
 
     -- * CustomLineItemRelationship
-    CustomLineItemRelationship,
+    CustomLineItemRelationship (CustomLineItemRelationship'),
 
     -- * CustomLineItemType
-    CustomLineItemType,
+    CustomLineItemType (CustomLineItemType'),
 
     -- * PricingRuleScope
-    PricingRuleScope,
+    PricingRuleScope (PricingRuleScope'),
 
     -- * PricingRuleType
-    PricingRuleType,
+    PricingRuleType (PricingRuleType'),
 
     -- * AccountAssociationsListElement
-    AccountAssociationsListElement,
+    AccountAssociationsListElement (AccountAssociationsListElement'),
     newAccountAssociationsListElement,
     accountAssociationsListElement_accountEmail,
     accountAssociationsListElement_accountId,
@@ -57,24 +57,24 @@ module Amazonka.BillingConductor.Types
     accountAssociationsListElement_billingGroupArn,
 
     -- * AccountGrouping
-    AccountGrouping,
+    AccountGrouping (AccountGrouping'),
     newAccountGrouping,
     accountGrouping_linkedAccountIds,
 
     -- * AssociateResourceError
-    AssociateResourceError,
+    AssociateResourceError (AssociateResourceError'),
     newAssociateResourceError,
     associateResourceError_message,
     associateResourceError_reason,
 
     -- * AssociateResourceResponseElement
-    AssociateResourceResponseElement,
+    AssociateResourceResponseElement (AssociateResourceResponseElement'),
     newAssociateResourceResponseElement,
     associateResourceResponseElement_arn,
     associateResourceResponseElement_error,
 
     -- * BillingGroupCostReportElement
-    BillingGroupCostReportElement,
+    BillingGroupCostReportElement (BillingGroupCostReportElement'),
     newBillingGroupCostReportElement,
     billingGroupCostReportElement_aWSCost,
     billingGroupCostReportElement_arn,
@@ -84,7 +84,7 @@ module Amazonka.BillingConductor.Types
     billingGroupCostReportElement_proformaCost,
 
     -- * BillingGroupListElement
-    BillingGroupListElement,
+    BillingGroupListElement (BillingGroupListElement'),
     newBillingGroupListElement,
     billingGroupListElement_arn,
     billingGroupListElement_computationPreference,
@@ -98,40 +98,40 @@ module Amazonka.BillingConductor.Types
     billingGroupListElement_statusReason,
 
     -- * ComputationPreference
-    ComputationPreference,
+    ComputationPreference (ComputationPreference'),
     newComputationPreference,
     computationPreference_pricingPlanArn,
 
     -- * CreateFreeTierConfig
-    CreateFreeTierConfig,
+    CreateFreeTierConfig (CreateFreeTierConfig'),
     newCreateFreeTierConfig,
     createFreeTierConfig_activated,
 
     -- * CreateTieringInput
-    CreateTieringInput,
+    CreateTieringInput (CreateTieringInput'),
     newCreateTieringInput,
     createTieringInput_freeTier,
 
     -- * CustomLineItemBillingPeriodRange
-    CustomLineItemBillingPeriodRange,
+    CustomLineItemBillingPeriodRange (CustomLineItemBillingPeriodRange'),
     newCustomLineItemBillingPeriodRange,
     customLineItemBillingPeriodRange_exclusiveEndBillingPeriod,
     customLineItemBillingPeriodRange_inclusiveStartBillingPeriod,
 
     -- * CustomLineItemChargeDetails
-    CustomLineItemChargeDetails,
+    CustomLineItemChargeDetails (CustomLineItemChargeDetails'),
     newCustomLineItemChargeDetails,
     customLineItemChargeDetails_flat,
     customLineItemChargeDetails_percentage,
     customLineItemChargeDetails_type,
 
     -- * CustomLineItemFlatChargeDetails
-    CustomLineItemFlatChargeDetails,
+    CustomLineItemFlatChargeDetails (CustomLineItemFlatChargeDetails'),
     newCustomLineItemFlatChargeDetails,
     customLineItemFlatChargeDetails_chargeValue,
 
     -- * CustomLineItemListElement
-    CustomLineItemListElement,
+    CustomLineItemListElement (CustomLineItemListElement'),
     newCustomLineItemListElement,
     customLineItemListElement_arn,
     customLineItemListElement_associationSize,
@@ -145,13 +145,13 @@ module Amazonka.BillingConductor.Types
     customLineItemListElement_productCode,
 
     -- * CustomLineItemPercentageChargeDetails
-    CustomLineItemPercentageChargeDetails,
+    CustomLineItemPercentageChargeDetails (CustomLineItemPercentageChargeDetails'),
     newCustomLineItemPercentageChargeDetails,
     customLineItemPercentageChargeDetails_associatedValues,
     customLineItemPercentageChargeDetails_percentageValue,
 
     -- * CustomLineItemVersionListElement
-    CustomLineItemVersionListElement,
+    CustomLineItemVersionListElement (CustomLineItemVersionListElement'),
     newCustomLineItemVersionListElement,
     customLineItemVersionListElement_associationSize,
     customLineItemVersionListElement_billingGroupArn,
@@ -166,92 +166,92 @@ module Amazonka.BillingConductor.Types
     customLineItemVersionListElement_startBillingPeriod,
 
     -- * DisassociateResourceResponseElement
-    DisassociateResourceResponseElement,
+    DisassociateResourceResponseElement (DisassociateResourceResponseElement'),
     newDisassociateResourceResponseElement,
     disassociateResourceResponseElement_arn,
     disassociateResourceResponseElement_error,
 
     -- * FreeTierConfig
-    FreeTierConfig,
+    FreeTierConfig (FreeTierConfig'),
     newFreeTierConfig,
     freeTierConfig_activated,
 
     -- * ListAccountAssociationsFilter
-    ListAccountAssociationsFilter,
+    ListAccountAssociationsFilter (ListAccountAssociationsFilter'),
     newListAccountAssociationsFilter,
     listAccountAssociationsFilter_accountId,
     listAccountAssociationsFilter_association,
 
     -- * ListBillingGroupCostReportsFilter
-    ListBillingGroupCostReportsFilter,
+    ListBillingGroupCostReportsFilter (ListBillingGroupCostReportsFilter'),
     newListBillingGroupCostReportsFilter,
     listBillingGroupCostReportsFilter_billingGroupArns,
 
     -- * ListBillingGroupsFilter
-    ListBillingGroupsFilter,
+    ListBillingGroupsFilter (ListBillingGroupsFilter'),
     newListBillingGroupsFilter,
     listBillingGroupsFilter_arns,
     listBillingGroupsFilter_pricingPlan,
 
     -- * ListCustomLineItemChargeDetails
-    ListCustomLineItemChargeDetails,
+    ListCustomLineItemChargeDetails (ListCustomLineItemChargeDetails'),
     newListCustomLineItemChargeDetails,
     listCustomLineItemChargeDetails_flat,
     listCustomLineItemChargeDetails_percentage,
     listCustomLineItemChargeDetails_type,
 
     -- * ListCustomLineItemFlatChargeDetails
-    ListCustomLineItemFlatChargeDetails,
+    ListCustomLineItemFlatChargeDetails (ListCustomLineItemFlatChargeDetails'),
     newListCustomLineItemFlatChargeDetails,
     listCustomLineItemFlatChargeDetails_chargeValue,
 
     -- * ListCustomLineItemPercentageChargeDetails
-    ListCustomLineItemPercentageChargeDetails,
+    ListCustomLineItemPercentageChargeDetails (ListCustomLineItemPercentageChargeDetails'),
     newListCustomLineItemPercentageChargeDetails,
     listCustomLineItemPercentageChargeDetails_percentageValue,
 
     -- * ListCustomLineItemVersionsBillingPeriodRangeFilter
-    ListCustomLineItemVersionsBillingPeriodRangeFilter,
+    ListCustomLineItemVersionsBillingPeriodRangeFilter (ListCustomLineItemVersionsBillingPeriodRangeFilter'),
     newListCustomLineItemVersionsBillingPeriodRangeFilter,
     listCustomLineItemVersionsBillingPeriodRangeFilter_endBillingPeriod,
     listCustomLineItemVersionsBillingPeriodRangeFilter_startBillingPeriod,
 
     -- * ListCustomLineItemVersionsFilter
-    ListCustomLineItemVersionsFilter,
+    ListCustomLineItemVersionsFilter (ListCustomLineItemVersionsFilter'),
     newListCustomLineItemVersionsFilter,
     listCustomLineItemVersionsFilter_billingPeriodRange,
 
     -- * ListCustomLineItemsFilter
-    ListCustomLineItemsFilter,
+    ListCustomLineItemsFilter (ListCustomLineItemsFilter'),
     newListCustomLineItemsFilter,
     listCustomLineItemsFilter_arns,
     listCustomLineItemsFilter_billingGroups,
     listCustomLineItemsFilter_names,
 
     -- * ListPricingPlansFilter
-    ListPricingPlansFilter,
+    ListPricingPlansFilter (ListPricingPlansFilter'),
     newListPricingPlansFilter,
     listPricingPlansFilter_arns,
 
     -- * ListPricingRulesFilter
-    ListPricingRulesFilter,
+    ListPricingRulesFilter (ListPricingRulesFilter'),
     newListPricingRulesFilter,
     listPricingRulesFilter_arns,
 
     -- * ListResourcesAssociatedToCustomLineItemFilter
-    ListResourcesAssociatedToCustomLineItemFilter,
+    ListResourcesAssociatedToCustomLineItemFilter (ListResourcesAssociatedToCustomLineItemFilter'),
     newListResourcesAssociatedToCustomLineItemFilter,
     listResourcesAssociatedToCustomLineItemFilter_relationship,
 
     -- * ListResourcesAssociatedToCustomLineItemResponseElement
-    ListResourcesAssociatedToCustomLineItemResponseElement,
+    ListResourcesAssociatedToCustomLineItemResponseElement (ListResourcesAssociatedToCustomLineItemResponseElement'),
     newListResourcesAssociatedToCustomLineItemResponseElement,
     listResourcesAssociatedToCustomLineItemResponseElement_arn,
     listResourcesAssociatedToCustomLineItemResponseElement_endBillingPeriod,
     listResourcesAssociatedToCustomLineItemResponseElement_relationship,
 
     -- * PricingPlanListElement
-    PricingPlanListElement,
+    PricingPlanListElement (PricingPlanListElement'),
     newPricingPlanListElement,
     pricingPlanListElement_arn,
     pricingPlanListElement_creationTime,
@@ -261,7 +261,7 @@ module Amazonka.BillingConductor.Types
     pricingPlanListElement_size,
 
     -- * PricingRuleListElement
-    PricingRuleListElement,
+    PricingRuleListElement (PricingRuleListElement'),
     newPricingRuleListElement,
     pricingRuleListElement_arn,
     pricingRuleListElement_associatedPricingPlanCount,
@@ -277,33 +277,33 @@ module Amazonka.BillingConductor.Types
     pricingRuleListElement_type,
 
     -- * Tiering
-    Tiering,
+    Tiering (Tiering'),
     newTiering,
     tiering_freeTier,
 
     -- * UpdateCustomLineItemChargeDetails
-    UpdateCustomLineItemChargeDetails,
+    UpdateCustomLineItemChargeDetails (UpdateCustomLineItemChargeDetails'),
     newUpdateCustomLineItemChargeDetails,
     updateCustomLineItemChargeDetails_flat,
     updateCustomLineItemChargeDetails_percentage,
 
     -- * UpdateCustomLineItemFlatChargeDetails
-    UpdateCustomLineItemFlatChargeDetails,
+    UpdateCustomLineItemFlatChargeDetails (UpdateCustomLineItemFlatChargeDetails'),
     newUpdateCustomLineItemFlatChargeDetails,
     updateCustomLineItemFlatChargeDetails_chargeValue,
 
     -- * UpdateCustomLineItemPercentageChargeDetails
-    UpdateCustomLineItemPercentageChargeDetails,
+    UpdateCustomLineItemPercentageChargeDetails (UpdateCustomLineItemPercentageChargeDetails'),
     newUpdateCustomLineItemPercentageChargeDetails,
     updateCustomLineItemPercentageChargeDetails_percentageValue,
 
     -- * UpdateFreeTierConfig
-    UpdateFreeTierConfig,
+    UpdateFreeTierConfig (UpdateFreeTierConfig'),
     newUpdateFreeTierConfig,
     updateFreeTierConfig_activated,
 
     -- * UpdateTieringInput
-    UpdateTieringInput,
+    UpdateTieringInput (UpdateTieringInput'),
     newUpdateTieringInput,
     updateTieringInput_freeTier,
   )

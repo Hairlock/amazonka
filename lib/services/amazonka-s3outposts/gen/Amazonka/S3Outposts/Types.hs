@@ -26,13 +26,13 @@ module Amazonka.S3Outposts.Types
     _ValidationException,
 
     -- * EndpointAccessType
-    EndpointAccessType,
+    EndpointAccessType (EndpointAccessType'),
 
     -- * EndpointStatus
-    EndpointStatus,
+    EndpointStatus (EndpointStatus'),
 
     -- * Endpoint
-    Endpoint,
+    Endpoint (Endpoint'),
     newEndpoint,
     endpoint_accessType,
     endpoint_cidrBlock,
@@ -47,7 +47,7 @@ module Amazonka.S3Outposts.Types
     endpoint_vpcId,
 
     -- * NetworkInterface
-    NetworkInterface,
+    NetworkInterface (NetworkInterface'),
     newNetworkInterface,
     networkInterface_networkInterfaceId,
   )

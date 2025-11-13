@@ -43,34 +43,34 @@ module Amazonka.RAM.Types
     _UnknownResourceException,
 
     -- * ResourceOwner
-    ResourceOwner,
+    ResourceOwner (ResourceOwner'),
 
     -- * ResourceRegionScope
-    ResourceRegionScope,
+    ResourceRegionScope (ResourceRegionScope'),
 
     -- * ResourceRegionScopeFilter
-    ResourceRegionScopeFilter,
+    ResourceRegionScopeFilter (ResourceRegionScopeFilter'),
 
     -- * ResourceShareAssociationStatus
-    ResourceShareAssociationStatus,
+    ResourceShareAssociationStatus (ResourceShareAssociationStatus'),
 
     -- * ResourceShareAssociationType
-    ResourceShareAssociationType,
+    ResourceShareAssociationType (ResourceShareAssociationType'),
 
     -- * ResourceShareFeatureSet
-    ResourceShareFeatureSet,
+    ResourceShareFeatureSet (ResourceShareFeatureSet'),
 
     -- * ResourceShareInvitationStatus
-    ResourceShareInvitationStatus,
+    ResourceShareInvitationStatus (ResourceShareInvitationStatus'),
 
     -- * ResourceShareStatus
-    ResourceShareStatus,
+    ResourceShareStatus (ResourceShareStatus'),
 
     -- * ResourceStatus
-    ResourceStatus,
+    ResourceStatus (ResourceStatus'),
 
     -- * Principal
-    Principal,
+    Principal (Principal'),
     newPrincipal,
     principal_creationTime,
     principal_external,
@@ -79,7 +79,7 @@ module Amazonka.RAM.Types
     principal_resourceShareArn,
 
     -- * Resource
-    Resource,
+    Resource (Resource'),
     newResource,
     resource_arn,
     resource_creationTime,
@@ -92,7 +92,7 @@ module Amazonka.RAM.Types
     resource_type,
 
     -- * ResourceShare
-    ResourceShare,
+    ResourceShare (ResourceShare'),
     newResourceShare,
     resourceShare_allowExternalPrincipals,
     resourceShare_creationTime,
@@ -106,7 +106,7 @@ module Amazonka.RAM.Types
     resourceShare_tags,
 
     -- * ResourceShareAssociation
-    ResourceShareAssociation,
+    ResourceShareAssociation (ResourceShareAssociation'),
     newResourceShareAssociation,
     resourceShareAssociation_associatedEntity,
     resourceShareAssociation_associationType,
@@ -119,7 +119,7 @@ module Amazonka.RAM.Types
     resourceShareAssociation_statusMessage,
 
     -- * ResourceShareInvitation
-    ResourceShareInvitation,
+    ResourceShareInvitation (ResourceShareInvitation'),
     newResourceShareInvitation,
     resourceShareInvitation_invitationTimestamp,
     resourceShareInvitation_receiverAccountId,
@@ -132,7 +132,7 @@ module Amazonka.RAM.Types
     resourceShareInvitation_status,
 
     -- * ResourceSharePermissionDetail
-    ResourceSharePermissionDetail,
+    ResourceSharePermissionDetail (ResourceSharePermissionDetail'),
     newResourceSharePermissionDetail,
     resourceSharePermissionDetail_arn,
     resourceSharePermissionDetail_creationTime,
@@ -145,7 +145,7 @@ module Amazonka.RAM.Types
     resourceSharePermissionDetail_version,
 
     -- * ResourceSharePermissionSummary
-    ResourceSharePermissionSummary,
+    ResourceSharePermissionSummary (ResourceSharePermissionSummary'),
     newResourceSharePermissionSummary,
     resourceSharePermissionSummary_arn,
     resourceSharePermissionSummary_creationTime,
@@ -158,20 +158,20 @@ module Amazonka.RAM.Types
     resourceSharePermissionSummary_version,
 
     -- * ServiceNameAndResourceType
-    ServiceNameAndResourceType,
+    ServiceNameAndResourceType (ServiceNameAndResourceType'),
     newServiceNameAndResourceType,
     serviceNameAndResourceType_resourceRegionScope,
     serviceNameAndResourceType_resourceType,
     serviceNameAndResourceType_serviceName,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
 
     -- * TagFilter
-    TagFilter,
+    TagFilter (TagFilter'),
     newTagFilter,
     tagFilter_tagKey,
     tagFilter_tagValues,

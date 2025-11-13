@@ -28,97 +28,97 @@ module Amazonka.IoTWireless.Types
     _ValidationException,
 
     -- * ApplicationConfigType
-    ApplicationConfigType,
+    ApplicationConfigType (ApplicationConfigType'),
 
     -- * BatteryLevel
-    BatteryLevel,
+    BatteryLevel (BatteryLevel'),
 
     -- * ConnectionStatus
-    ConnectionStatus,
+    ConnectionStatus (ConnectionStatus'),
 
     -- * DeviceState
-    DeviceState,
+    DeviceState (DeviceState'),
 
     -- * DlClass
-    DlClass,
+    DlClass (DlClass'),
 
     -- * DownlinkMode
-    DownlinkMode,
+    DownlinkMode (DownlinkMode'),
 
     -- * Event
-    Event,
+    Event (Event'),
 
     -- * EventNotificationPartnerType
-    EventNotificationPartnerType,
+    EventNotificationPartnerType (EventNotificationPartnerType'),
 
     -- * EventNotificationResourceType
-    EventNotificationResourceType,
+    EventNotificationResourceType (EventNotificationResourceType'),
 
     -- * EventNotificationTopicStatus
-    EventNotificationTopicStatus,
+    EventNotificationTopicStatus (EventNotificationTopicStatus'),
 
     -- * ExpressionType
-    ExpressionType,
+    ExpressionType (ExpressionType'),
 
     -- * FuotaDeviceStatus
-    FuotaDeviceStatus,
+    FuotaDeviceStatus (FuotaDeviceStatus'),
 
     -- * FuotaTaskStatus
-    FuotaTaskStatus,
+    FuotaTaskStatus (FuotaTaskStatus'),
 
     -- * IdentifierType
-    IdentifierType,
+    IdentifierType (IdentifierType'),
 
     -- * LogLevel
-    LogLevel,
+    LogLevel (LogLevel'),
 
     -- * MessageType
-    MessageType,
+    MessageType (MessageType'),
 
     -- * PartnerType
-    PartnerType,
+    PartnerType (PartnerType'),
 
     -- * PositionResourceType
-    PositionResourceType,
+    PositionResourceType (PositionResourceType'),
 
     -- * PositioningConfigStatus
-    PositioningConfigStatus,
+    PositioningConfigStatus (PositioningConfigStatus'),
 
     -- * SigningAlg
-    SigningAlg,
+    SigningAlg (SigningAlg'),
 
     -- * SupportedRfRegion
-    SupportedRfRegion,
+    SupportedRfRegion (SupportedRfRegion'),
 
     -- * WirelessDeviceEvent
-    WirelessDeviceEvent,
+    WirelessDeviceEvent (WirelessDeviceEvent'),
 
     -- * WirelessDeviceFrameInfo
-    WirelessDeviceFrameInfo,
+    WirelessDeviceFrameInfo (WirelessDeviceFrameInfo'),
 
     -- * WirelessDeviceIdType
-    WirelessDeviceIdType,
+    WirelessDeviceIdType (WirelessDeviceIdType'),
 
     -- * WirelessDeviceType
-    WirelessDeviceType,
+    WirelessDeviceType (WirelessDeviceType'),
 
     -- * WirelessGatewayEvent
-    WirelessGatewayEvent,
+    WirelessGatewayEvent (WirelessGatewayEvent'),
 
     -- * WirelessGatewayIdType
-    WirelessGatewayIdType,
+    WirelessGatewayIdType (WirelessGatewayIdType'),
 
     -- * WirelessGatewayServiceType
-    WirelessGatewayServiceType,
+    WirelessGatewayServiceType (WirelessGatewayServiceType'),
 
     -- * WirelessGatewayTaskDefinitionType
-    WirelessGatewayTaskDefinitionType,
+    WirelessGatewayTaskDefinitionType (WirelessGatewayTaskDefinitionType'),
 
     -- * WirelessGatewayTaskStatus
-    WirelessGatewayTaskStatus,
+    WirelessGatewayTaskStatus (WirelessGatewayTaskStatus'),
 
     -- * WirelessGatewayType
-    WirelessGatewayType,
+    WirelessGatewayType (WirelessGatewayType'),
 
     -- * AbpV1_0_x
     AbpV1_0_x (..),
@@ -135,26 +135,26 @@ module Amazonka.IoTWireless.Types
     abpV1_1_sessionKeys,
 
     -- * ApplicationConfig
-    ApplicationConfig,
+    ApplicationConfig (ApplicationConfig'),
     newApplicationConfig,
     applicationConfig_destinationName,
     applicationConfig_fPort,
     applicationConfig_type,
 
     -- * Beaconing
-    Beaconing,
+    Beaconing (Beaconing'),
     newBeaconing,
     beaconing_dataRate,
     beaconing_frequencies,
 
     -- * CdmaLocalId
-    CdmaLocalId,
+    CdmaLocalId (CdmaLocalId'),
     newCdmaLocalId,
     cdmaLocalId_pnOffset,
     cdmaLocalId_cdmaChannel,
 
     -- * CdmaNmrObj
-    CdmaNmrObj,
+    CdmaNmrObj (CdmaNmrObj'),
     newCdmaNmrObj,
     cdmaNmrObj_baseStationId,
     cdmaNmrObj_pilotPower,
@@ -162,7 +162,7 @@ module Amazonka.IoTWireless.Types
     cdmaNmrObj_cdmaChannel,
 
     -- * CdmaObj
-    CdmaObj,
+    CdmaObj (CdmaObj'),
     newCdmaObj,
     cdmaObj_baseLat,
     cdmaObj_baseLng,
@@ -175,7 +175,7 @@ module Amazonka.IoTWireless.Types
     cdmaObj_baseStationId,
 
     -- * CellTowers
-    CellTowers,
+    CellTowers (CellTowers'),
     newCellTowers,
     cellTowers_cdma,
     cellTowers_gsm,
@@ -184,24 +184,24 @@ module Amazonka.IoTWireless.Types
     cellTowers_wcdma,
 
     -- * CertificateList
-    CertificateList,
+    CertificateList (CertificateList'),
     newCertificateList,
     certificateList_signingAlg,
     certificateList_value,
 
     -- * ConnectionStatusEventConfiguration
-    ConnectionStatusEventConfiguration,
+    ConnectionStatusEventConfiguration (ConnectionStatusEventConfiguration'),
     newConnectionStatusEventConfiguration,
     connectionStatusEventConfiguration_loRaWAN,
     connectionStatusEventConfiguration_wirelessGatewayIdEventTopic,
 
     -- * ConnectionStatusResourceTypeEventConfiguration
-    ConnectionStatusResourceTypeEventConfiguration,
+    ConnectionStatusResourceTypeEventConfiguration (ConnectionStatusResourceTypeEventConfiguration'),
     newConnectionStatusResourceTypeEventConfiguration,
     connectionStatusResourceTypeEventConfiguration_loRaWAN,
 
     -- * Destinations
-    Destinations,
+    Destinations (Destinations'),
     newDestinations,
     destinations_arn,
     destinations_description,
@@ -211,25 +211,25 @@ module Amazonka.IoTWireless.Types
     destinations_roleArn,
 
     -- * DeviceProfile
-    DeviceProfile,
+    DeviceProfile (DeviceProfile'),
     newDeviceProfile,
     deviceProfile_arn,
     deviceProfile_id,
     deviceProfile_name,
 
     -- * DeviceRegistrationStateEventConfiguration
-    DeviceRegistrationStateEventConfiguration,
+    DeviceRegistrationStateEventConfiguration (DeviceRegistrationStateEventConfiguration'),
     newDeviceRegistrationStateEventConfiguration,
     deviceRegistrationStateEventConfiguration_sidewalk,
     deviceRegistrationStateEventConfiguration_wirelessDeviceIdEventTopic,
 
     -- * DeviceRegistrationStateResourceTypeEventConfiguration
-    DeviceRegistrationStateResourceTypeEventConfiguration,
+    DeviceRegistrationStateResourceTypeEventConfiguration (DeviceRegistrationStateResourceTypeEventConfiguration'),
     newDeviceRegistrationStateResourceTypeEventConfiguration,
     deviceRegistrationStateResourceTypeEventConfiguration_sidewalk,
 
     -- * DownlinkQueueMessage
-    DownlinkQueueMessage,
+    DownlinkQueueMessage (DownlinkQueueMessage'),
     newDownlinkQueueMessage,
     downlinkQueueMessage_loRaWAN,
     downlinkQueueMessage_messageId,
@@ -237,7 +237,7 @@ module Amazonka.IoTWireless.Types
     downlinkQueueMessage_transmitMode,
 
     -- * EventConfigurationItem
-    EventConfigurationItem,
+    EventConfigurationItem (EventConfigurationItem'),
     newEventConfigurationItem,
     eventConfigurationItem_events,
     eventConfigurationItem_identifier,
@@ -245,7 +245,7 @@ module Amazonka.IoTWireless.Types
     eventConfigurationItem_partnerType,
 
     -- * EventNotificationItemConfigurations
-    EventNotificationItemConfigurations,
+    EventNotificationItemConfigurations (EventNotificationItemConfigurations'),
     newEventNotificationItemConfigurations,
     eventNotificationItemConfigurations_connectionStatus,
     eventNotificationItemConfigurations_deviceRegistrationState,
@@ -254,7 +254,7 @@ module Amazonka.IoTWireless.Types
     eventNotificationItemConfigurations_proximity,
 
     -- * FPorts
-    FPorts,
+    FPorts (FPorts'),
     newFPorts,
     fPorts_applications,
     fPorts_clockSync,
@@ -263,26 +263,26 @@ module Amazonka.IoTWireless.Types
     fPorts_positioning,
 
     -- * FuotaTask
-    FuotaTask,
+    FuotaTask (FuotaTask'),
     newFuotaTask,
     fuotaTask_arn,
     fuotaTask_id,
     fuotaTask_name,
 
     -- * GatewayListItem
-    GatewayListItem,
+    GatewayListItem (GatewayListItem'),
     newGatewayListItem,
     gatewayListItem_gatewayId,
     gatewayListItem_downlinkFrequency,
 
     -- * GlobalIdentity
-    GlobalIdentity,
+    GlobalIdentity (GlobalIdentity'),
     newGlobalIdentity,
     globalIdentity_lac,
     globalIdentity_geranCid,
 
     -- * Gnss
-    Gnss,
+    Gnss (Gnss'),
     newGnss,
     gnss_assistAltitude,
     gnss_assistPosition,
@@ -292,13 +292,13 @@ module Amazonka.IoTWireless.Types
     gnss_payload,
 
     -- * GsmLocalId
-    GsmLocalId,
+    GsmLocalId (GsmLocalId'),
     newGsmLocalId,
     gsmLocalId_bsic,
     gsmLocalId_bcch,
 
     -- * GsmNmrObj
-    GsmNmrObj,
+    GsmNmrObj (GsmNmrObj'),
     newGsmNmrObj,
     gsmNmrObj_globalIdentity,
     gsmNmrObj_rxLevel,
@@ -306,7 +306,7 @@ module Amazonka.IoTWireless.Types
     gsmNmrObj_bcch,
 
     -- * GsmObj
-    GsmObj,
+    GsmObj (GsmObj'),
     newGsmObj,
     gsmObj_gsmLocalId,
     gsmObj_gsmNmr,
@@ -318,33 +318,33 @@ module Amazonka.IoTWireless.Types
     gsmObj_geranCid,
 
     -- * Ip
-    Ip,
+    Ip (Ip'),
     newIp,
     ip_ipAddress,
 
     -- * JoinEventConfiguration
-    JoinEventConfiguration,
+    JoinEventConfiguration (JoinEventConfiguration'),
     newJoinEventConfiguration,
     joinEventConfiguration_loRaWAN,
     joinEventConfiguration_wirelessDeviceIdEventTopic,
 
     -- * JoinResourceTypeEventConfiguration
-    JoinResourceTypeEventConfiguration,
+    JoinResourceTypeEventConfiguration (JoinResourceTypeEventConfiguration'),
     newJoinResourceTypeEventConfiguration,
     joinResourceTypeEventConfiguration_loRaWAN,
 
     -- * LoRaWANConnectionStatusEventNotificationConfigurations
-    LoRaWANConnectionStatusEventNotificationConfigurations,
+    LoRaWANConnectionStatusEventNotificationConfigurations (LoRaWANConnectionStatusEventNotificationConfigurations'),
     newLoRaWANConnectionStatusEventNotificationConfigurations,
     loRaWANConnectionStatusEventNotificationConfigurations_gatewayEuiEventTopic,
 
     -- * LoRaWANConnectionStatusResourceTypeEventConfiguration
-    LoRaWANConnectionStatusResourceTypeEventConfiguration,
+    LoRaWANConnectionStatusResourceTypeEventConfiguration (LoRaWANConnectionStatusResourceTypeEventConfiguration'),
     newLoRaWANConnectionStatusResourceTypeEventConfiguration,
     loRaWANConnectionStatusResourceTypeEventConfiguration_wirelessGatewayEventTopic,
 
     -- * LoRaWANDevice
-    LoRaWANDevice,
+    LoRaWANDevice (LoRaWANDevice'),
     newLoRaWANDevice,
     loRaWANDevice_abpV1_0_x,
     loRaWANDevice_abpV1_1,
@@ -356,7 +356,7 @@ module Amazonka.IoTWireless.Types
     loRaWANDevice_serviceProfileId,
 
     -- * LoRaWANDeviceMetadata
-    LoRaWANDeviceMetadata,
+    LoRaWANDeviceMetadata (LoRaWANDeviceMetadata'),
     newLoRaWANDeviceMetadata,
     loRaWANDeviceMetadata_dataRate,
     loRaWANDeviceMetadata_devEui,
@@ -366,7 +366,7 @@ module Amazonka.IoTWireless.Types
     loRaWANDeviceMetadata_timestamp,
 
     -- * LoRaWANDeviceProfile
-    LoRaWANDeviceProfile,
+    LoRaWANDeviceProfile (LoRaWANDeviceProfile'),
     newLoRaWANDeviceProfile,
     loRaWANDeviceProfile_classBTimeout,
     loRaWANDeviceProfile_classCTimeout,
@@ -389,18 +389,18 @@ module Amazonka.IoTWireless.Types
     loRaWANDeviceProfile_supportsJoin,
 
     -- * LoRaWANFuotaTask
-    LoRaWANFuotaTask,
+    LoRaWANFuotaTask (LoRaWANFuotaTask'),
     newLoRaWANFuotaTask,
     loRaWANFuotaTask_rfRegion,
 
     -- * LoRaWANFuotaTaskGetInfo
-    LoRaWANFuotaTaskGetInfo,
+    LoRaWANFuotaTaskGetInfo (LoRaWANFuotaTaskGetInfo'),
     newLoRaWANFuotaTaskGetInfo,
     loRaWANFuotaTaskGetInfo_rfRegion,
     loRaWANFuotaTaskGetInfo_startTime,
 
     -- * LoRaWANGateway
-    LoRaWANGateway,
+    LoRaWANGateway (LoRaWANGateway'),
     newLoRaWANGateway,
     loRaWANGateway_beaconing,
     loRaWANGateway_gatewayEui,
@@ -410,26 +410,26 @@ module Amazonka.IoTWireless.Types
     loRaWANGateway_subBands,
 
     -- * LoRaWANGatewayCurrentVersion
-    LoRaWANGatewayCurrentVersion,
+    LoRaWANGatewayCurrentVersion (LoRaWANGatewayCurrentVersion'),
     newLoRaWANGatewayCurrentVersion,
     loRaWANGatewayCurrentVersion_currentVersion,
 
     -- * LoRaWANGatewayMetadata
-    LoRaWANGatewayMetadata,
+    LoRaWANGatewayMetadata (LoRaWANGatewayMetadata'),
     newLoRaWANGatewayMetadata,
     loRaWANGatewayMetadata_gatewayEui,
     loRaWANGatewayMetadata_rssi,
     loRaWANGatewayMetadata_snr,
 
     -- * LoRaWANGatewayVersion
-    LoRaWANGatewayVersion,
+    LoRaWANGatewayVersion (LoRaWANGatewayVersion'),
     newLoRaWANGatewayVersion,
     loRaWANGatewayVersion_model,
     loRaWANGatewayVersion_packageVersion,
     loRaWANGatewayVersion_station,
 
     -- * LoRaWANGetServiceProfileInfo
-    LoRaWANGetServiceProfileInfo,
+    LoRaWANGetServiceProfileInfo (LoRaWANGetServiceProfileInfo'),
     newLoRaWANGetServiceProfileInfo,
     loRaWANGetServiceProfileInfo_addGwMetadata,
     loRaWANGetServiceProfileInfo_channelMask,
@@ -452,28 +452,28 @@ module Amazonka.IoTWireless.Types
     loRaWANGetServiceProfileInfo_ulRatePolicy,
 
     -- * LoRaWANJoinEventNotificationConfigurations
-    LoRaWANJoinEventNotificationConfigurations,
+    LoRaWANJoinEventNotificationConfigurations (LoRaWANJoinEventNotificationConfigurations'),
     newLoRaWANJoinEventNotificationConfigurations,
     loRaWANJoinEventNotificationConfigurations_devEuiEventTopic,
 
     -- * LoRaWANJoinResourceTypeEventConfiguration
-    LoRaWANJoinResourceTypeEventConfiguration,
+    LoRaWANJoinResourceTypeEventConfiguration (LoRaWANJoinResourceTypeEventConfiguration'),
     newLoRaWANJoinResourceTypeEventConfiguration,
     loRaWANJoinResourceTypeEventConfiguration_wirelessDeviceEventTopic,
 
     -- * LoRaWANListDevice
-    LoRaWANListDevice,
+    LoRaWANListDevice (LoRaWANListDevice'),
     newLoRaWANListDevice,
     loRaWANListDevice_devEui,
 
     -- * LoRaWANMulticast
-    LoRaWANMulticast,
+    LoRaWANMulticast (LoRaWANMulticast'),
     newLoRaWANMulticast,
     loRaWANMulticast_dlClass,
     loRaWANMulticast_rfRegion,
 
     -- * LoRaWANMulticastGet
-    LoRaWANMulticastGet,
+    LoRaWANMulticastGet (LoRaWANMulticastGet'),
     newLoRaWANMulticastGet,
     loRaWANMulticastGet_dlClass,
     loRaWANMulticastGet_numberOfDevicesInGroup,
@@ -481,12 +481,12 @@ module Amazonka.IoTWireless.Types
     loRaWANMulticastGet_rfRegion,
 
     -- * LoRaWANMulticastMetadata
-    LoRaWANMulticastMetadata,
+    LoRaWANMulticastMetadata (LoRaWANMulticastMetadata'),
     newLoRaWANMulticastMetadata,
     loRaWANMulticastMetadata_fPort,
 
     -- * LoRaWANMulticastSession
-    LoRaWANMulticastSession,
+    LoRaWANMulticastSession (LoRaWANMulticastSession'),
     newLoRaWANMulticastSession,
     loRaWANMulticastSession_dlDr,
     loRaWANMulticastSession_dlFreq,
@@ -494,25 +494,25 @@ module Amazonka.IoTWireless.Types
     loRaWANMulticastSession_sessionTimeout,
 
     -- * LoRaWANSendDataToDevice
-    LoRaWANSendDataToDevice,
+    LoRaWANSendDataToDevice (LoRaWANSendDataToDevice'),
     newLoRaWANSendDataToDevice,
     loRaWANSendDataToDevice_fPort,
     loRaWANSendDataToDevice_participatingGateways,
 
     -- * LoRaWANServiceProfile
-    LoRaWANServiceProfile,
+    LoRaWANServiceProfile (LoRaWANServiceProfile'),
     newLoRaWANServiceProfile,
     loRaWANServiceProfile_addGwMetadata,
     loRaWANServiceProfile_drMax,
     loRaWANServiceProfile_drMin,
 
     -- * LoRaWANStartFuotaTask
-    LoRaWANStartFuotaTask,
+    LoRaWANStartFuotaTask (LoRaWANStartFuotaTask'),
     newLoRaWANStartFuotaTask,
     loRaWANStartFuotaTask_startTime,
 
     -- * LoRaWANUpdateDevice
-    LoRaWANUpdateDevice,
+    LoRaWANUpdateDevice (LoRaWANUpdateDevice'),
     newLoRaWANUpdateDevice,
     loRaWANUpdateDevice_abpV1_0_x,
     loRaWANUpdateDevice_abpV1_1,
@@ -521,7 +521,7 @@ module Amazonka.IoTWireless.Types
     loRaWANUpdateDevice_serviceProfileId,
 
     -- * LoRaWANUpdateGatewayTaskCreate
-    LoRaWANUpdateGatewayTaskCreate,
+    LoRaWANUpdateGatewayTaskCreate (LoRaWANUpdateGatewayTaskCreate'),
     newLoRaWANUpdateGatewayTaskCreate,
     loRaWANUpdateGatewayTaskCreate_currentVersion,
     loRaWANUpdateGatewayTaskCreate_sigKeyCrc,
@@ -529,19 +529,19 @@ module Amazonka.IoTWireless.Types
     loRaWANUpdateGatewayTaskCreate_updateVersion,
 
     -- * LoRaWANUpdateGatewayTaskEntry
-    LoRaWANUpdateGatewayTaskEntry,
+    LoRaWANUpdateGatewayTaskEntry (LoRaWANUpdateGatewayTaskEntry'),
     newLoRaWANUpdateGatewayTaskEntry,
     loRaWANUpdateGatewayTaskEntry_currentVersion,
     loRaWANUpdateGatewayTaskEntry_updateVersion,
 
     -- * LteLocalId
-    LteLocalId,
+    LteLocalId (LteLocalId'),
     newLteLocalId,
     lteLocalId_pci,
     lteLocalId_earfcn,
 
     -- * LteNmrObj
-    LteNmrObj,
+    LteNmrObj (LteNmrObj'),
     newLteNmrObj,
     lteNmrObj_rsrp,
     lteNmrObj_rsrq,
@@ -550,7 +550,7 @@ module Amazonka.IoTWireless.Types
     lteNmrObj_eutranCid,
 
     -- * LteObj
-    LteObj,
+    LteObj (LteObj'),
     newLteObj,
     lteObj_lteLocalId,
     lteObj_lteNmr,
@@ -564,35 +564,35 @@ module Amazonka.IoTWireless.Types
     lteObj_eutranCid,
 
     -- * MessageDeliveryStatusEventConfiguration
-    MessageDeliveryStatusEventConfiguration,
+    MessageDeliveryStatusEventConfiguration (MessageDeliveryStatusEventConfiguration'),
     newMessageDeliveryStatusEventConfiguration,
     messageDeliveryStatusEventConfiguration_sidewalk,
     messageDeliveryStatusEventConfiguration_wirelessDeviceIdEventTopic,
 
     -- * MessageDeliveryStatusResourceTypeEventConfiguration
-    MessageDeliveryStatusResourceTypeEventConfiguration,
+    MessageDeliveryStatusResourceTypeEventConfiguration (MessageDeliveryStatusResourceTypeEventConfiguration'),
     newMessageDeliveryStatusResourceTypeEventConfiguration,
     messageDeliveryStatusResourceTypeEventConfiguration_sidewalk,
 
     -- * MulticastGroup
-    MulticastGroup,
+    MulticastGroup (MulticastGroup'),
     newMulticastGroup,
     multicastGroup_arn,
     multicastGroup_id,
     multicastGroup_name,
 
     -- * MulticastGroupByFuotaTask
-    MulticastGroupByFuotaTask,
+    MulticastGroupByFuotaTask (MulticastGroupByFuotaTask'),
     newMulticastGroupByFuotaTask,
     multicastGroupByFuotaTask_id,
 
     -- * MulticastWirelessMetadata
-    MulticastWirelessMetadata,
+    MulticastWirelessMetadata (MulticastWirelessMetadata'),
     newMulticastWirelessMetadata,
     multicastWirelessMetadata_loRaWAN,
 
     -- * NetworkAnalyzerConfigurations
-    NetworkAnalyzerConfigurations,
+    NetworkAnalyzerConfigurations (NetworkAnalyzerConfigurations'),
     newNetworkAnalyzerConfigurations,
     networkAnalyzerConfigurations_arn,
     networkAnalyzerConfigurations_name,
@@ -612,32 +612,32 @@ module Amazonka.IoTWireless.Types
     otaaV1_1_nwkKey,
 
     -- * ParticipatingGateways
-    ParticipatingGateways,
+    ParticipatingGateways (ParticipatingGateways'),
     newParticipatingGateways,
     participatingGateways_downlinkMode,
     participatingGateways_gatewayList,
     participatingGateways_transmissionInterval,
 
     -- * Positioning
-    Positioning,
+    Positioning (Positioning'),
     newPositioning,
     positioning_clockSync,
     positioning_gnss,
     positioning_stream,
 
     -- * ProximityEventConfiguration
-    ProximityEventConfiguration,
+    ProximityEventConfiguration (ProximityEventConfiguration'),
     newProximityEventConfiguration,
     proximityEventConfiguration_sidewalk,
     proximityEventConfiguration_wirelessDeviceIdEventTopic,
 
     -- * ProximityResourceTypeEventConfiguration
-    ProximityResourceTypeEventConfiguration,
+    ProximityResourceTypeEventConfiguration (ProximityResourceTypeEventConfiguration'),
     newProximityResourceTypeEventConfiguration,
     proximityResourceTypeEventConfiguration_sidewalk,
 
     -- * ServiceProfile
-    ServiceProfile,
+    ServiceProfile (ServiceProfile'),
     newServiceProfile,
     serviceProfile_arn,
     serviceProfile_id,
@@ -658,20 +658,20 @@ module Amazonka.IoTWireless.Types
     sessionKeysAbpV1_1_sNwkSIntKey,
 
     -- * SidewalkAccountInfo
-    SidewalkAccountInfo,
+    SidewalkAccountInfo (SidewalkAccountInfo'),
     newSidewalkAccountInfo,
     sidewalkAccountInfo_amazonId,
     sidewalkAccountInfo_appServerPrivateKey,
 
     -- * SidewalkAccountInfoWithFingerprint
-    SidewalkAccountInfoWithFingerprint,
+    SidewalkAccountInfoWithFingerprint (SidewalkAccountInfoWithFingerprint'),
     newSidewalkAccountInfoWithFingerprint,
     sidewalkAccountInfoWithFingerprint_amazonId,
     sidewalkAccountInfoWithFingerprint_arn,
     sidewalkAccountInfoWithFingerprint_fingerprint,
 
     -- * SidewalkDevice
-    SidewalkDevice,
+    SidewalkDevice (SidewalkDevice'),
     newSidewalkDevice,
     sidewalkDevice_amazonId,
     sidewalkDevice_deviceCertificates,
@@ -679,7 +679,7 @@ module Amazonka.IoTWireless.Types
     sidewalkDevice_sidewalkManufacturingSn,
 
     -- * SidewalkDeviceMetadata
-    SidewalkDeviceMetadata,
+    SidewalkDeviceMetadata (SidewalkDeviceMetadata'),
     newSidewalkDeviceMetadata,
     sidewalkDeviceMetadata_batteryLevel,
     sidewalkDeviceMetadata_deviceState,
@@ -687,12 +687,12 @@ module Amazonka.IoTWireless.Types
     sidewalkDeviceMetadata_rssi,
 
     -- * SidewalkEventNotificationConfigurations
-    SidewalkEventNotificationConfigurations,
+    SidewalkEventNotificationConfigurations (SidewalkEventNotificationConfigurations'),
     newSidewalkEventNotificationConfigurations,
     sidewalkEventNotificationConfigurations_amazonIdEventTopic,
 
     -- * SidewalkListDevice
-    SidewalkListDevice,
+    SidewalkListDevice (SidewalkListDevice'),
     newSidewalkListDevice,
     sidewalkListDevice_amazonId,
     sidewalkListDevice_deviceCertificates,
@@ -700,36 +700,36 @@ module Amazonka.IoTWireless.Types
     sidewalkListDevice_sidewalkManufacturingSn,
 
     -- * SidewalkResourceTypeEventConfiguration
-    SidewalkResourceTypeEventConfiguration,
+    SidewalkResourceTypeEventConfiguration (SidewalkResourceTypeEventConfiguration'),
     newSidewalkResourceTypeEventConfiguration,
     sidewalkResourceTypeEventConfiguration_wirelessDeviceEventTopic,
 
     -- * SidewalkSendDataToDevice
-    SidewalkSendDataToDevice,
+    SidewalkSendDataToDevice (SidewalkSendDataToDevice'),
     newSidewalkSendDataToDevice,
     sidewalkSendDataToDevice_ackModeRetryDurationSecs,
     sidewalkSendDataToDevice_messageType,
     sidewalkSendDataToDevice_seq,
 
     -- * SidewalkUpdateAccount
-    SidewalkUpdateAccount,
+    SidewalkUpdateAccount (SidewalkUpdateAccount'),
     newSidewalkUpdateAccount,
     sidewalkUpdateAccount_appServerPrivateKey,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
 
     -- * TdscdmaLocalId
-    TdscdmaLocalId,
+    TdscdmaLocalId (TdscdmaLocalId'),
     newTdscdmaLocalId,
     tdscdmaLocalId_uarfcn,
     tdscdmaLocalId_cellParams,
 
     -- * TdscdmaNmrObj
-    TdscdmaNmrObj,
+    TdscdmaNmrObj (TdscdmaNmrObj'),
     newTdscdmaNmrObj,
     tdscdmaNmrObj_pathLoss,
     tdscdmaNmrObj_rscp,
@@ -738,7 +738,7 @@ module Amazonka.IoTWireless.Types
     tdscdmaNmrObj_cellParams,
 
     -- * TdscdmaObj
-    TdscdmaObj,
+    TdscdmaObj (TdscdmaObj'),
     newTdscdmaObj,
     tdscdmaObj_lac,
     tdscdmaObj_pathLoss,
@@ -751,7 +751,7 @@ module Amazonka.IoTWireless.Types
     tdscdmaObj_utranCid,
 
     -- * TraceContent
-    TraceContent,
+    TraceContent (TraceContent'),
     newTraceContent,
     traceContent_logLevel,
     traceContent_wirelessDeviceFrameInfo,
@@ -767,33 +767,33 @@ module Amazonka.IoTWireless.Types
     updateAbpV1_1_fCntStart,
 
     -- * UpdateFPorts
-    UpdateFPorts,
+    UpdateFPorts (UpdateFPorts'),
     newUpdateFPorts,
     updateFPorts_applications,
     updateFPorts_positioning,
 
     -- * UpdateWirelessGatewayTaskCreate
-    UpdateWirelessGatewayTaskCreate,
+    UpdateWirelessGatewayTaskCreate (UpdateWirelessGatewayTaskCreate'),
     newUpdateWirelessGatewayTaskCreate,
     updateWirelessGatewayTaskCreate_loRaWAN,
     updateWirelessGatewayTaskCreate_updateDataRole,
     updateWirelessGatewayTaskCreate_updateDataSource,
 
     -- * UpdateWirelessGatewayTaskEntry
-    UpdateWirelessGatewayTaskEntry,
+    UpdateWirelessGatewayTaskEntry (UpdateWirelessGatewayTaskEntry'),
     newUpdateWirelessGatewayTaskEntry,
     updateWirelessGatewayTaskEntry_arn,
     updateWirelessGatewayTaskEntry_id,
     updateWirelessGatewayTaskEntry_loRaWAN,
 
     -- * WcdmaLocalId
-    WcdmaLocalId,
+    WcdmaLocalId (WcdmaLocalId'),
     newWcdmaLocalId,
     wcdmaLocalId_uarfcndl,
     wcdmaLocalId_psc,
 
     -- * WcdmaNmrObj
-    WcdmaNmrObj,
+    WcdmaNmrObj (WcdmaNmrObj'),
     newWcdmaNmrObj,
     wcdmaNmrObj_pathLoss,
     wcdmaNmrObj_rscp,
@@ -802,7 +802,7 @@ module Amazonka.IoTWireless.Types
     wcdmaNmrObj_utranCid,
 
     -- * WcdmaObj
-    WcdmaObj,
+    WcdmaObj (WcdmaObj'),
     newWcdmaObj,
     wcdmaObj_lac,
     wcdmaObj_pathLoss,
@@ -814,26 +814,26 @@ module Amazonka.IoTWireless.Types
     wcdmaObj_utranCid,
 
     -- * WiFiAccessPoint
-    WiFiAccessPoint,
+    WiFiAccessPoint (WiFiAccessPoint'),
     newWiFiAccessPoint,
     wiFiAccessPoint_macAddress,
     wiFiAccessPoint_rss,
 
     -- * WirelessDeviceEventLogOption
-    WirelessDeviceEventLogOption,
+    WirelessDeviceEventLogOption (WirelessDeviceEventLogOption'),
     newWirelessDeviceEventLogOption,
     wirelessDeviceEventLogOption_event,
     wirelessDeviceEventLogOption_logLevel,
 
     -- * WirelessDeviceLogOption
-    WirelessDeviceLogOption,
+    WirelessDeviceLogOption (WirelessDeviceLogOption'),
     newWirelessDeviceLogOption,
     wirelessDeviceLogOption_events,
     wirelessDeviceLogOption_type,
     wirelessDeviceLogOption_logLevel,
 
     -- * WirelessDeviceStatistics
-    WirelessDeviceStatistics,
+    WirelessDeviceStatistics (WirelessDeviceStatistics'),
     newWirelessDeviceStatistics,
     wirelessDeviceStatistics_arn,
     wirelessDeviceStatistics_destinationName,
@@ -848,20 +848,20 @@ module Amazonka.IoTWireless.Types
     wirelessDeviceStatistics_type,
 
     -- * WirelessGatewayEventLogOption
-    WirelessGatewayEventLogOption,
+    WirelessGatewayEventLogOption (WirelessGatewayEventLogOption'),
     newWirelessGatewayEventLogOption,
     wirelessGatewayEventLogOption_event,
     wirelessGatewayEventLogOption_logLevel,
 
     -- * WirelessGatewayLogOption
-    WirelessGatewayLogOption,
+    WirelessGatewayLogOption (WirelessGatewayLogOption'),
     newWirelessGatewayLogOption,
     wirelessGatewayLogOption_events,
     wirelessGatewayLogOption_type,
     wirelessGatewayLogOption_logLevel,
 
     -- * WirelessGatewayStatistics
-    WirelessGatewayStatistics,
+    WirelessGatewayStatistics (WirelessGatewayStatistics'),
     newWirelessGatewayStatistics,
     wirelessGatewayStatistics_arn,
     wirelessGatewayStatistics_description,
@@ -871,7 +871,7 @@ module Amazonka.IoTWireless.Types
     wirelessGatewayStatistics_name,
 
     -- * WirelessMetadata
-    WirelessMetadata,
+    WirelessMetadata (WirelessMetadata'),
     newWirelessMetadata,
     wirelessMetadata_loRaWAN,
     wirelessMetadata_sidewalk,

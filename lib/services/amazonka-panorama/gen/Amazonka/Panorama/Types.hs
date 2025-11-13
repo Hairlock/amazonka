@@ -27,90 +27,90 @@ module Amazonka.Panorama.Types
     _ValidationException,
 
     -- * ApplicationInstanceHealthStatus
-    ApplicationInstanceHealthStatus,
+    ApplicationInstanceHealthStatus (ApplicationInstanceHealthStatus'),
 
     -- * ApplicationInstanceStatus
-    ApplicationInstanceStatus,
+    ApplicationInstanceStatus (ApplicationInstanceStatus'),
 
     -- * ConnectionType
-    ConnectionType,
+    ConnectionType (ConnectionType'),
 
     -- * DesiredState
-    DesiredState,
+    DesiredState (DesiredState'),
 
     -- * DeviceAggregatedStatus
-    DeviceAggregatedStatus,
+    DeviceAggregatedStatus (DeviceAggregatedStatus'),
 
     -- * DeviceBrand
-    DeviceBrand,
+    DeviceBrand (DeviceBrand'),
 
     -- * DeviceConnectionStatus
-    DeviceConnectionStatus,
+    DeviceConnectionStatus (DeviceConnectionStatus'),
 
     -- * DeviceReportedStatus
-    DeviceReportedStatus,
+    DeviceReportedStatus (DeviceReportedStatus'),
 
     -- * DeviceStatus
-    DeviceStatus,
+    DeviceStatus (DeviceStatus'),
 
     -- * DeviceType
-    DeviceType,
+    DeviceType (DeviceType'),
 
     -- * JobResourceType
-    JobResourceType,
+    JobResourceType (JobResourceType'),
 
     -- * JobType
-    JobType,
+    JobType (JobType'),
 
     -- * ListDevicesSortBy
-    ListDevicesSortBy,
+    ListDevicesSortBy (ListDevicesSortBy'),
 
     -- * NetworkConnectionStatus
-    NetworkConnectionStatus,
+    NetworkConnectionStatus (NetworkConnectionStatus'),
 
     -- * NodeCategory
-    NodeCategory,
+    NodeCategory (NodeCategory'),
 
     -- * NodeFromTemplateJobStatus
-    NodeFromTemplateJobStatus,
+    NodeFromTemplateJobStatus (NodeFromTemplateJobStatus'),
 
     -- * NodeInstanceStatus
-    NodeInstanceStatus,
+    NodeInstanceStatus (NodeInstanceStatus'),
 
     -- * NodeSignalValue
-    NodeSignalValue,
+    NodeSignalValue (NodeSignalValue'),
 
     -- * PackageImportJobStatus
-    PackageImportJobStatus,
+    PackageImportJobStatus (PackageImportJobStatus'),
 
     -- * PackageImportJobType
-    PackageImportJobType,
+    PackageImportJobType (PackageImportJobType'),
 
     -- * PackageVersionStatus
-    PackageVersionStatus,
+    PackageVersionStatus (PackageVersionStatus'),
 
     -- * PortType
-    PortType,
+    PortType (PortType'),
 
     -- * SortOrder
-    SortOrder,
+    SortOrder (SortOrder'),
 
     -- * StatusFilter
-    StatusFilter,
+    StatusFilter (StatusFilter'),
 
     -- * TemplateType
-    TemplateType,
+    TemplateType (TemplateType'),
 
     -- * UpdateProgress
-    UpdateProgress,
+    UpdateProgress (UpdateProgress'),
 
     -- * AlternateSoftwareMetadata
-    AlternateSoftwareMetadata,
+    AlternateSoftwareMetadata (AlternateSoftwareMetadata'),
     newAlternateSoftwareMetadata,
     alternateSoftwareMetadata_version,
 
     -- * ApplicationInstance
-    ApplicationInstance,
+    ApplicationInstance (ApplicationInstance'),
     newApplicationInstance,
     applicationInstance_applicationInstanceId,
     applicationInstance_arn,
@@ -126,7 +126,7 @@ module Amazonka.Panorama.Types
     applicationInstance_tags,
 
     -- * Device
-    Device,
+    Device (Device'),
     newDevice,
     device_brand,
     device_createdTime,
@@ -143,7 +143,7 @@ module Amazonka.Panorama.Types
     device_type,
 
     -- * DeviceJob
-    DeviceJob,
+    DeviceJob (DeviceJob'),
     newDeviceJob,
     deviceJob_createdTime,
     deviceJob_deviceId,
@@ -152,61 +152,61 @@ module Amazonka.Panorama.Types
     deviceJob_jobType,
 
     -- * DeviceJobConfig
-    DeviceJobConfig,
+    DeviceJobConfig (DeviceJobConfig'),
     newDeviceJobConfig,
     deviceJobConfig_oTAJobConfig,
 
     -- * EthernetPayload
-    EthernetPayload,
+    EthernetPayload (EthernetPayload'),
     newEthernetPayload,
     ethernetPayload_staticIpConnectionInfo,
     ethernetPayload_connectionType,
 
     -- * EthernetStatus
-    EthernetStatus,
+    EthernetStatus (EthernetStatus'),
     newEthernetStatus,
     ethernetStatus_connectionStatus,
     ethernetStatus_hwAddress,
     ethernetStatus_ipAddress,
 
     -- * Job
-    Job,
+    Job (Job'),
     newJob,
     job_deviceId,
     job_jobId,
 
     -- * JobResourceTags
-    JobResourceTags,
+    JobResourceTags (JobResourceTags'),
     newJobResourceTags,
     jobResourceTags_resourceType,
     jobResourceTags_tags,
 
     -- * LatestDeviceJob
-    LatestDeviceJob,
+    LatestDeviceJob (LatestDeviceJob'),
     newLatestDeviceJob,
     latestDeviceJob_imageVersion,
     latestDeviceJob_jobType,
     latestDeviceJob_status,
 
     -- * ManifestOverridesPayload
-    ManifestOverridesPayload,
+    ManifestOverridesPayload (ManifestOverridesPayload'),
     newManifestOverridesPayload,
     manifestOverridesPayload_payloadData,
 
     -- * ManifestPayload
-    ManifestPayload,
+    ManifestPayload (ManifestPayload'),
     newManifestPayload,
     manifestPayload_payloadData,
 
     -- * NetworkPayload
-    NetworkPayload,
+    NetworkPayload (NetworkPayload'),
     newNetworkPayload,
     networkPayload_ethernet0,
     networkPayload_ethernet1,
     networkPayload_ntp,
 
     -- * NetworkStatus
-    NetworkStatus,
+    NetworkStatus (NetworkStatus'),
     newNetworkStatus,
     networkStatus_ethernet0Status,
     networkStatus_ethernet1Status,
@@ -214,7 +214,7 @@ module Amazonka.Panorama.Types
     networkStatus_ntpStatus,
 
     -- * Node
-    Node,
+    Node (Node'),
     newNode,
     node_description,
     node_ownerAccount,
@@ -229,7 +229,7 @@ module Amazonka.Panorama.Types
     node_patchVersion,
 
     -- * NodeFromTemplateJob
-    NodeFromTemplateJob,
+    NodeFromTemplateJob (NodeFromTemplateJob'),
     newNodeFromTemplateJob,
     nodeFromTemplateJob_createdTime,
     nodeFromTemplateJob_jobId,
@@ -239,7 +239,7 @@ module Amazonka.Panorama.Types
     nodeFromTemplateJob_templateType,
 
     -- * NodeInputPort
-    NodeInputPort,
+    NodeInputPort (NodeInputPort'),
     newNodeInputPort,
     nodeInputPort_defaultValue,
     nodeInputPort_description,
@@ -248,7 +248,7 @@ module Amazonka.Panorama.Types
     nodeInputPort_type,
 
     -- * NodeInstance
-    NodeInstance,
+    NodeInstance (NodeInstance'),
     newNodeInstance,
     nodeInstance_nodeId,
     nodeInstance_nodeName,
@@ -259,49 +259,49 @@ module Amazonka.Panorama.Types
     nodeInstance_nodeInstanceId,
 
     -- * NodeInterface
-    NodeInterface,
+    NodeInterface (NodeInterface'),
     newNodeInterface,
     nodeInterface_inputs,
     nodeInterface_outputs,
 
     -- * NodeOutputPort
-    NodeOutputPort,
+    NodeOutputPort (NodeOutputPort'),
     newNodeOutputPort,
     nodeOutputPort_description,
     nodeOutputPort_name,
     nodeOutputPort_type,
 
     -- * NodeSignal
-    NodeSignal,
+    NodeSignal (NodeSignal'),
     newNodeSignal,
     nodeSignal_nodeInstanceId,
     nodeSignal_signal,
 
     -- * NtpPayload
-    NtpPayload,
+    NtpPayload (NtpPayload'),
     newNtpPayload,
     ntpPayload_ntpServers,
 
     -- * NtpStatus
-    NtpStatus,
+    NtpStatus (NtpStatus'),
     newNtpStatus,
     ntpStatus_connectionStatus,
     ntpStatus_ipAddress,
     ntpStatus_ntpServerName,
 
     -- * OTAJobConfig
-    OTAJobConfig,
+    OTAJobConfig (OTAJobConfig'),
     newOTAJobConfig,
     oTAJobConfig_imageVersion,
 
     -- * OutPutS3Location
-    OutPutS3Location,
+    OutPutS3Location (OutPutS3Location'),
     newOutPutS3Location,
     outPutS3Location_bucketName,
     outPutS3Location_objectKey,
 
     -- * PackageImportJob
-    PackageImportJob,
+    PackageImportJob (PackageImportJob'),
     newPackageImportJob,
     packageImportJob_createdTime,
     packageImportJob_jobId,
@@ -311,12 +311,12 @@ module Amazonka.Panorama.Types
     packageImportJob_statusMessage,
 
     -- * PackageImportJobInputConfig
-    PackageImportJobInputConfig,
+    PackageImportJobInputConfig (PackageImportJobInputConfig'),
     newPackageImportJobInputConfig,
     packageImportJobInputConfig_packageVersionInputConfig,
 
     -- * PackageImportJobOutput
-    PackageImportJobOutput,
+    PackageImportJobOutput (PackageImportJobOutput'),
     newPackageImportJobOutput,
     packageImportJobOutput_outputS3Location,
     packageImportJobOutput_packageId,
@@ -324,12 +324,12 @@ module Amazonka.Panorama.Types
     packageImportJobOutput_patchVersion,
 
     -- * PackageImportJobOutputConfig
-    PackageImportJobOutputConfig,
+    PackageImportJobOutputConfig (PackageImportJobOutputConfig'),
     newPackageImportJobOutputConfig,
     packageImportJobOutputConfig_packageVersionOutputConfig,
 
     -- * PackageListItem
-    PackageListItem,
+    PackageListItem (PackageListItem'),
     newPackageListItem,
     packageListItem_arn,
     packageListItem_createdTime,
@@ -338,26 +338,26 @@ module Amazonka.Panorama.Types
     packageListItem_tags,
 
     -- * PackageObject
-    PackageObject,
+    PackageObject (PackageObject'),
     newPackageObject,
     packageObject_name,
     packageObject_packageVersion,
     packageObject_patchVersion,
 
     -- * PackageVersionInputConfig
-    PackageVersionInputConfig,
+    PackageVersionInputConfig (PackageVersionInputConfig'),
     newPackageVersionInputConfig,
     packageVersionInputConfig_s3Location,
 
     -- * PackageVersionOutputConfig
-    PackageVersionOutputConfig,
+    PackageVersionOutputConfig (PackageVersionOutputConfig'),
     newPackageVersionOutputConfig,
     packageVersionOutputConfig_markLatest,
     packageVersionOutputConfig_packageName,
     packageVersionOutputConfig_packageVersion,
 
     -- * ReportedRuntimeContextState
-    ReportedRuntimeContextState,
+    ReportedRuntimeContextState (ReportedRuntimeContextState'),
     newReportedRuntimeContextState,
     reportedRuntimeContextState_desiredState,
     reportedRuntimeContextState_deviceReportedStatus,
@@ -365,14 +365,14 @@ module Amazonka.Panorama.Types
     reportedRuntimeContextState_runtimeContextName,
 
     -- * S3Location
-    S3Location,
+    S3Location (S3Location'),
     newS3Location,
     s3Location_region,
     s3Location_bucketName,
     s3Location_objectKey,
 
     -- * StaticIpConnectionInfo
-    StaticIpConnectionInfo,
+    StaticIpConnectionInfo (StaticIpConnectionInfo'),
     newStaticIpConnectionInfo,
     staticIpConnectionInfo_defaultGateway,
     staticIpConnectionInfo_dns,
@@ -380,7 +380,7 @@ module Amazonka.Panorama.Types
     staticIpConnectionInfo_mask,
 
     -- * StorageLocation
-    StorageLocation,
+    StorageLocation (StorageLocation'),
     newStorageLocation,
     storageLocation_binaryPrefixLocation,
     storageLocation_bucket,

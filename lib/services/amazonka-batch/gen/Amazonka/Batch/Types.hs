@@ -23,85 +23,85 @@ module Amazonka.Batch.Types
     _ServerException,
 
     -- * ArrayJobDependency
-    ArrayJobDependency,
+    ArrayJobDependency (ArrayJobDependency'),
 
     -- * AssignPublicIp
-    AssignPublicIp,
+    AssignPublicIp (AssignPublicIp'),
 
     -- * CEState
-    CEState,
+    CEState (CEState'),
 
     -- * CEStatus
-    CEStatus,
+    CEStatus (CEStatus'),
 
     -- * CEType
-    CEType,
+    CEType (CEType'),
 
     -- * CRAllocationStrategy
-    CRAllocationStrategy,
+    CRAllocationStrategy (CRAllocationStrategy'),
 
     -- * CRType
-    CRType,
+    CRType (CRType'),
 
     -- * CRUpdateAllocationStrategy
-    CRUpdateAllocationStrategy,
+    CRUpdateAllocationStrategy (CRUpdateAllocationStrategy'),
 
     -- * DeviceCgroupPermission
-    DeviceCgroupPermission,
+    DeviceCgroupPermission (DeviceCgroupPermission'),
 
     -- * EFSAuthorizationConfigIAM
-    EFSAuthorizationConfigIAM,
+    EFSAuthorizationConfigIAM (EFSAuthorizationConfigIAM'),
 
     -- * EFSTransitEncryption
-    EFSTransitEncryption,
+    EFSTransitEncryption (EFSTransitEncryption'),
 
     -- * JQState
-    JQState,
+    JQState (JQState'),
 
     -- * JQStatus
-    JQStatus,
+    JQStatus (JQStatus'),
 
     -- * JobDefinitionType
-    JobDefinitionType,
+    JobDefinitionType (JobDefinitionType'),
 
     -- * JobStatus
-    JobStatus,
+    JobStatus (JobStatus'),
 
     -- * LogDriver
-    LogDriver,
+    LogDriver (LogDriver'),
 
     -- * OrchestrationType
-    OrchestrationType,
+    OrchestrationType (OrchestrationType'),
 
     -- * PlatformCapability
-    PlatformCapability,
+    PlatformCapability (PlatformCapability'),
 
     -- * ResourceType
-    ResourceType,
+    ResourceType (ResourceType'),
 
     -- * RetryAction
-    RetryAction,
+    RetryAction (RetryAction'),
 
     -- * ArrayProperties
-    ArrayProperties,
+    ArrayProperties (ArrayProperties'),
     newArrayProperties,
     arrayProperties_size,
 
     -- * ArrayPropertiesDetail
-    ArrayPropertiesDetail,
+    ArrayPropertiesDetail (ArrayPropertiesDetail'),
     newArrayPropertiesDetail,
     arrayPropertiesDetail_index,
     arrayPropertiesDetail_size,
     arrayPropertiesDetail_statusSummary,
 
     -- * ArrayPropertiesSummary
-    ArrayPropertiesSummary,
+    ArrayPropertiesSummary (ArrayPropertiesSummary'),
     newArrayPropertiesSummary,
     arrayPropertiesSummary_index,
     arrayPropertiesSummary_size,
 
     -- * AttemptContainerDetail
-    AttemptContainerDetail,
+    AttemptContainerDetail (AttemptContainerDetail'),
     newAttemptContainerDetail,
     attemptContainerDetail_containerInstanceArn,
     attemptContainerDetail_exitCode,
@@ -111,7 +111,7 @@ module Amazonka.Batch.Types
     attemptContainerDetail_taskArn,
 
     -- * AttemptDetail
-    AttemptDetail,
+    AttemptDetail (AttemptDetail'),
     newAttemptDetail,
     attemptDetail_container,
     attemptDetail_startedAt,
@@ -119,7 +119,7 @@ module Amazonka.Batch.Types
     attemptDetail_stoppedAt,
 
     -- * ComputeEnvironmentDetail
-    ComputeEnvironmentDetail,
+    ComputeEnvironmentDetail (ComputeEnvironmentDetail'),
     newComputeEnvironmentDetail,
     computeEnvironmentDetail_computeResources,
     computeEnvironmentDetail_containerOrchestrationType,
@@ -138,13 +138,13 @@ module Amazonka.Batch.Types
     computeEnvironmentDetail_computeEnvironmentArn,
 
     -- * ComputeEnvironmentOrder
-    ComputeEnvironmentOrder,
+    ComputeEnvironmentOrder (ComputeEnvironmentOrder'),
     newComputeEnvironmentOrder,
     computeEnvironmentOrder_order,
     computeEnvironmentOrder_computeEnvironment,
 
     -- * ComputeResource
-    ComputeResource,
+    ComputeResource (ComputeResource'),
     newComputeResource,
     computeResource_allocationStrategy,
     computeResource_bidPercentage,
@@ -165,7 +165,7 @@ module Amazonka.Batch.Types
     computeResource_subnets,
 
     -- * ComputeResourceUpdate
-    ComputeResourceUpdate,
+    ComputeResourceUpdate (ComputeResourceUpdate'),
     newComputeResourceUpdate,
     computeResourceUpdate_allocationStrategy,
     computeResourceUpdate_bidPercentage,
@@ -186,7 +186,7 @@ module Amazonka.Batch.Types
     computeResourceUpdate_updateToLatestImageVersion,
 
     -- * ContainerDetail
-    ContainerDetail,
+    ContainerDetail (ContainerDetail'),
     newContainerDetail,
     containerDetail_command,
     containerDetail_containerInstanceArn,
@@ -216,7 +216,7 @@ module Amazonka.Batch.Types
     containerDetail_volumes,
 
     -- * ContainerOverrides
-    ContainerOverrides,
+    ContainerOverrides (ContainerOverrides'),
     newContainerOverrides,
     containerOverrides_command,
     containerOverrides_environment,
@@ -226,7 +226,7 @@ module Amazonka.Batch.Types
     containerOverrides_vcpus,
 
     -- * ContainerProperties
-    ContainerProperties,
+    ContainerProperties (ContainerProperties'),
     newContainerProperties,
     containerProperties_command,
     containerProperties_environment,
@@ -250,26 +250,26 @@ module Amazonka.Batch.Types
     containerProperties_volumes,
 
     -- * ContainerSummary
-    ContainerSummary,
+    ContainerSummary (ContainerSummary'),
     newContainerSummary,
     containerSummary_exitCode,
     containerSummary_reason,
 
     -- * Device
-    Device,
+    Device (Device'),
     newDevice,
     device_containerPath,
     device_permissions,
     device_hostPath,
 
     -- * EFSAuthorizationConfig
-    EFSAuthorizationConfig,
+    EFSAuthorizationConfig (EFSAuthorizationConfig'),
     newEFSAuthorizationConfig,
     eFSAuthorizationConfig_accessPointId,
     eFSAuthorizationConfig_iam,
 
     -- * EFSVolumeConfiguration
-    EFSVolumeConfiguration,
+    EFSVolumeConfiguration (EFSVolumeConfiguration'),
     newEFSVolumeConfiguration,
     eFSVolumeConfiguration_authorizationConfig,
     eFSVolumeConfiguration_rootDirectory,
@@ -278,20 +278,20 @@ module Amazonka.Batch.Types
     eFSVolumeConfiguration_fileSystemId,
 
     -- * Ec2Configuration
-    Ec2Configuration,
+    Ec2Configuration (Ec2Configuration'),
     newEc2Configuration,
     ec2Configuration_imageIdOverride,
     ec2Configuration_imageKubernetesVersion,
     ec2Configuration_imageType,
 
     -- * EksAttemptContainerDetail
-    EksAttemptContainerDetail,
+    EksAttemptContainerDetail (EksAttemptContainerDetail'),
     newEksAttemptContainerDetail,
     eksAttemptContainerDetail_exitCode,
     eksAttemptContainerDetail_reason,
 
     -- * EksAttemptDetail
-    EksAttemptDetail,
+    EksAttemptDetail (EksAttemptDetail'),
     newEksAttemptDetail,
     eksAttemptDetail_containers,
     eksAttemptDetail_nodeName,
@@ -301,13 +301,13 @@ module Amazonka.Batch.Types
     eksAttemptDetail_stoppedAt,
 
     -- * EksConfiguration
-    EksConfiguration,
+    EksConfiguration (EksConfiguration'),
     newEksConfiguration,
     eksConfiguration_eksClusterArn,
     eksConfiguration_kubernetesNamespace,
 
     -- * EksContainer
-    EksContainer,
+    EksContainer (EksContainer'),
     newEksContainer,
     eksContainer_args,
     eksContainer_command,
@@ -320,7 +320,7 @@ module Amazonka.Batch.Types
     eksContainer_image,
 
     -- * EksContainerDetail
-    EksContainerDetail,
+    EksContainerDetail (EksContainerDetail'),
     newEksContainerDetail,
     eksContainerDetail_args,
     eksContainerDetail_command,
@@ -335,13 +335,13 @@ module Amazonka.Batch.Types
     eksContainerDetail_volumeMounts,
 
     -- * EksContainerEnvironmentVariable
-    EksContainerEnvironmentVariable,
+    EksContainerEnvironmentVariable (EksContainerEnvironmentVariable'),
     newEksContainerEnvironmentVariable,
     eksContainerEnvironmentVariable_value,
     eksContainerEnvironmentVariable_name,
 
     -- * EksContainerOverride
-    EksContainerOverride,
+    EksContainerOverride (EksContainerOverride'),
     newEksContainerOverride,
     eksContainerOverride_args,
     eksContainerOverride_command,
@@ -350,13 +350,13 @@ module Amazonka.Batch.Types
     eksContainerOverride_resources,
 
     -- * EksContainerResourceRequirements
-    EksContainerResourceRequirements,
+    EksContainerResourceRequirements (EksContainerResourceRequirements'),
     newEksContainerResourceRequirements,
     eksContainerResourceRequirements_limits,
     eksContainerResourceRequirements_requests,
 
     -- * EksContainerSecurityContext
-    EksContainerSecurityContext,
+    EksContainerSecurityContext (EksContainerSecurityContext'),
     newEksContainerSecurityContext,
     eksContainerSecurityContext_privileged,
     eksContainerSecurityContext_readOnlyRootFilesystem,
@@ -365,25 +365,25 @@ module Amazonka.Batch.Types
     eksContainerSecurityContext_runAsUser,
 
     -- * EksContainerVolumeMount
-    EksContainerVolumeMount,
+    EksContainerVolumeMount (EksContainerVolumeMount'),
     newEksContainerVolumeMount,
     eksContainerVolumeMount_mountPath,
     eksContainerVolumeMount_name,
     eksContainerVolumeMount_readOnly,
 
     -- * EksEmptyDir
-    EksEmptyDir,
+    EksEmptyDir (EksEmptyDir'),
     newEksEmptyDir,
     eksEmptyDir_medium,
     eksEmptyDir_sizeLimit,
 
     -- * EksHostPath
-    EksHostPath,
+    EksHostPath (EksHostPath'),
     newEksHostPath,
     eksHostPath_path,
 
     -- * EksPodProperties
-    EksPodProperties,
+    EksPodProperties (EksPodProperties'),
     newEksPodProperties,
     eksPodProperties_containers,
     eksPodProperties_dnsPolicy,
@@ -392,7 +392,7 @@ module Amazonka.Batch.Types
     eksPodProperties_volumes,
 
     -- * EksPodPropertiesDetail
-    EksPodPropertiesDetail,
+    EksPodPropertiesDetail (EksPodPropertiesDetail'),
     newEksPodPropertiesDetail,
     eksPodPropertiesDetail_containers,
     eksPodPropertiesDetail_dnsPolicy,
@@ -403,33 +403,33 @@ module Amazonka.Batch.Types
     eksPodPropertiesDetail_volumes,
 
     -- * EksPodPropertiesOverride
-    EksPodPropertiesOverride,
+    EksPodPropertiesOverride (EksPodPropertiesOverride'),
     newEksPodPropertiesOverride,
     eksPodPropertiesOverride_containers,
 
     -- * EksProperties
-    EksProperties,
+    EksProperties (EksProperties'),
     newEksProperties,
     eksProperties_podProperties,
 
     -- * EksPropertiesDetail
-    EksPropertiesDetail,
+    EksPropertiesDetail (EksPropertiesDetail'),
     newEksPropertiesDetail,
     eksPropertiesDetail_podProperties,
 
     -- * EksPropertiesOverride
-    EksPropertiesOverride,
+    EksPropertiesOverride (EksPropertiesOverride'),
     newEksPropertiesOverride,
     eksPropertiesOverride_podProperties,
 
     -- * EksSecret
-    EksSecret,
+    EksSecret (EksSecret'),
     newEksSecret,
     eksSecret_optional,
     eksSecret_secretName,
 
     -- * EksVolume
-    EksVolume,
+    EksVolume (EksVolume'),
     newEksVolume,
     eksVolume_emptyDir,
     eksVolume_hostPath,
@@ -437,7 +437,7 @@ module Amazonka.Batch.Types
     eksVolume_name,
 
     -- * EvaluateOnExit
-    EvaluateOnExit,
+    EvaluateOnExit (EvaluateOnExit'),
     newEvaluateOnExit,
     evaluateOnExit_onExitCode,
     evaluateOnExit_onReason,
@@ -445,24 +445,24 @@ module Amazonka.Batch.Types
     evaluateOnExit_action,
 
     -- * FairsharePolicy
-    FairsharePolicy,
+    FairsharePolicy (FairsharePolicy'),
     newFairsharePolicy,
     fairsharePolicy_computeReservation,
     fairsharePolicy_shareDecaySeconds,
     fairsharePolicy_shareDistribution,
 
     -- * FargatePlatformConfiguration
-    FargatePlatformConfiguration,
+    FargatePlatformConfiguration (FargatePlatformConfiguration'),
     newFargatePlatformConfiguration,
     fargatePlatformConfiguration_platformVersion,
 
     -- * Host
-    Host,
+    Host (Host'),
     newHost,
     host_sourcePath,
 
     -- * JobDefinition
-    JobDefinition,
+    JobDefinition (JobDefinition'),
     newJobDefinition,
     jobDefinition_containerOrchestrationType,
     jobDefinition_containerProperties,
@@ -482,13 +482,13 @@ module Amazonka.Batch.Types
     jobDefinition_type,
 
     -- * JobDependency
-    JobDependency,
+    JobDependency (JobDependency'),
     newJobDependency,
     jobDependency_jobId,
     jobDependency_type,
 
     -- * JobDetail
-    JobDetail,
+    JobDetail (JobDetail'),
     newJobDetail,
     jobDetail_arrayProperties,
     jobDetail_attempts,
@@ -520,7 +520,7 @@ module Amazonka.Batch.Types
     jobDetail_jobDefinition,
 
     -- * JobQueueDetail
-    JobQueueDetail,
+    JobQueueDetail (JobQueueDetail'),
     newJobQueueDetail,
     jobQueueDetail_schedulingPolicyArn,
     jobQueueDetail_status,
@@ -533,7 +533,7 @@ module Amazonka.Batch.Types
     jobQueueDetail_computeEnvironmentOrder,
 
     -- * JobSummary
-    JobSummary,
+    JobSummary (JobSummary'),
     newJobSummary,
     jobSummary_arrayProperties,
     jobSummary_container,
@@ -549,31 +549,31 @@ module Amazonka.Batch.Types
     jobSummary_jobName,
 
     -- * JobTimeout
-    JobTimeout,
+    JobTimeout (JobTimeout'),
     newJobTimeout,
     jobTimeout_attemptDurationSeconds,
 
     -- * KeyValuePair
-    KeyValuePair,
+    KeyValuePair (KeyValuePair'),
     newKeyValuePair,
     keyValuePair_name,
     keyValuePair_value,
 
     -- * KeyValuesPair
-    KeyValuesPair,
+    KeyValuesPair (KeyValuesPair'),
     newKeyValuesPair,
     keyValuesPair_name,
     keyValuesPair_values,
 
     -- * LaunchTemplateSpecification
-    LaunchTemplateSpecification,
+    LaunchTemplateSpecification (LaunchTemplateSpecification'),
     newLaunchTemplateSpecification,
     launchTemplateSpecification_launchTemplateId,
     launchTemplateSpecification_launchTemplateName,
     launchTemplateSpecification_version,
 
     -- * LinuxParameters
-    LinuxParameters,
+    LinuxParameters (LinuxParameters'),
     newLinuxParameters,
     linuxParameters_devices,
     linuxParameters_initProcessEnabled,
@@ -583,83 +583,83 @@ module Amazonka.Batch.Types
     linuxParameters_tmpfs,
 
     -- * LogConfiguration
-    LogConfiguration,
+    LogConfiguration (LogConfiguration'),
     newLogConfiguration,
     logConfiguration_options,
     logConfiguration_secretOptions,
     logConfiguration_logDriver,
 
     -- * MountPoint
-    MountPoint,
+    MountPoint (MountPoint'),
     newMountPoint,
     mountPoint_containerPath,
     mountPoint_readOnly,
     mountPoint_sourceVolume,
 
     -- * NetworkConfiguration
-    NetworkConfiguration,
+    NetworkConfiguration (NetworkConfiguration'),
     newNetworkConfiguration,
     networkConfiguration_assignPublicIp,
 
     -- * NetworkInterface
-    NetworkInterface,
+    NetworkInterface (NetworkInterface'),
     newNetworkInterface,
     networkInterface_attachmentId,
     networkInterface_ipv6Address,
     networkInterface_privateIpv4Address,
 
     -- * NodeDetails
-    NodeDetails,
+    NodeDetails (NodeDetails'),
     newNodeDetails,
     nodeDetails_isMainNode,
     nodeDetails_nodeIndex,
 
     -- * NodeOverrides
-    NodeOverrides,
+    NodeOverrides (NodeOverrides'),
     newNodeOverrides,
     nodeOverrides_nodePropertyOverrides,
     nodeOverrides_numNodes,
 
     -- * NodeProperties
-    NodeProperties,
+    NodeProperties (NodeProperties'),
     newNodeProperties,
     nodeProperties_numNodes,
     nodeProperties_mainNode,
     nodeProperties_nodeRangeProperties,
 
     -- * NodePropertiesSummary
-    NodePropertiesSummary,
+    NodePropertiesSummary (NodePropertiesSummary'),
     newNodePropertiesSummary,
     nodePropertiesSummary_isMainNode,
     nodePropertiesSummary_nodeIndex,
     nodePropertiesSummary_numNodes,
 
     -- * NodePropertyOverride
-    NodePropertyOverride,
+    NodePropertyOverride (NodePropertyOverride'),
     newNodePropertyOverride,
     nodePropertyOverride_containerOverrides,
     nodePropertyOverride_targetNodes,
 
     -- * NodeRangeProperty
-    NodeRangeProperty,
+    NodeRangeProperty (NodeRangeProperty'),
     newNodeRangeProperty,
     nodeRangeProperty_container,
     nodeRangeProperty_targetNodes,
 
     -- * ResourceRequirement
-    ResourceRequirement,
+    ResourceRequirement (ResourceRequirement'),
     newResourceRequirement,
     resourceRequirement_value,
     resourceRequirement_type,
 
     -- * RetryStrategy
-    RetryStrategy,
+    RetryStrategy (RetryStrategy'),
     newRetryStrategy,
     retryStrategy_attempts,
     retryStrategy_evaluateOnExit,
 
     -- * SchedulingPolicyDetail
-    SchedulingPolicyDetail,
+    SchedulingPolicyDetail (SchedulingPolicyDetail'),
     newSchedulingPolicyDetail,
     schedulingPolicyDetail_fairsharePolicy,
     schedulingPolicyDetail_tags,
@@ -667,44 +667,44 @@ module Amazonka.Batch.Types
     schedulingPolicyDetail_arn,
 
     -- * SchedulingPolicyListingDetail
-    SchedulingPolicyListingDetail,
+    SchedulingPolicyListingDetail (SchedulingPolicyListingDetail'),
     newSchedulingPolicyListingDetail,
     schedulingPolicyListingDetail_arn,
 
     -- * Secret
-    Secret,
+    Secret (Secret'),
     newSecret,
     secret_name,
     secret_valueFrom,
 
     -- * ShareAttributes
-    ShareAttributes,
+    ShareAttributes (ShareAttributes'),
     newShareAttributes,
     shareAttributes_weightFactor,
     shareAttributes_shareIdentifier,
 
     -- * Tmpfs
-    Tmpfs,
+    Tmpfs (Tmpfs'),
     newTmpfs,
     tmpfs_mountOptions,
     tmpfs_containerPath,
     tmpfs_size,
 
     -- * Ulimit
-    Ulimit,
+    Ulimit (Ulimit'),
     newUlimit,
     ulimit_hardLimit,
     ulimit_name,
     ulimit_softLimit,
 
     -- * UpdatePolicy
-    UpdatePolicy,
+    UpdatePolicy (UpdatePolicy'),
     newUpdatePolicy,
     updatePolicy_jobExecutionTimeoutMinutes,
     updatePolicy_terminateJobsOnUpdate,
 
     -- * Volume
-    Volume,
+    Volume (Volume'),
     newVolume,
     volume_efsVolumeConfiguration,
     volume_host,

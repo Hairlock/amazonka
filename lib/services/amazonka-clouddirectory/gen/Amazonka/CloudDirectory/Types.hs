@@ -56,100 +56,100 @@ module Amazonka.CloudDirectory.Types
     _ValidationException,
 
     -- * BatchReadExceptionType
-    BatchReadExceptionType,
+    BatchReadExceptionType (BatchReadExceptionType'),
 
     -- * ConsistencyLevel
-    ConsistencyLevel,
+    ConsistencyLevel (ConsistencyLevel'),
 
     -- * DirectoryState
-    DirectoryState,
+    DirectoryState (DirectoryState'),
 
     -- * FacetAttributeType
-    FacetAttributeType,
+    FacetAttributeType (FacetAttributeType'),
 
     -- * FacetStyle
-    FacetStyle,
+    FacetStyle (FacetStyle'),
 
     -- * ObjectType
-    ObjectType,
+    ObjectType (ObjectType'),
 
     -- * RangeMode
-    RangeMode,
+    RangeMode (RangeMode'),
 
     -- * RequiredAttributeBehavior
-    RequiredAttributeBehavior,
+    RequiredAttributeBehavior (RequiredAttributeBehavior'),
 
     -- * RuleType
-    RuleType,
+    RuleType (RuleType'),
 
     -- * UpdateActionType
-    UpdateActionType,
+    UpdateActionType (UpdateActionType'),
 
     -- * AttributeKey
-    AttributeKey,
+    AttributeKey (AttributeKey'),
     newAttributeKey,
     attributeKey_schemaArn,
     attributeKey_facetName,
     attributeKey_name,
 
     -- * AttributeKeyAndValue
-    AttributeKeyAndValue,
+    AttributeKeyAndValue (AttributeKeyAndValue'),
     newAttributeKeyAndValue,
     attributeKeyAndValue_key,
     attributeKeyAndValue_value,
 
     -- * AttributeNameAndValue
-    AttributeNameAndValue,
+    AttributeNameAndValue (AttributeNameAndValue'),
     newAttributeNameAndValue,
     attributeNameAndValue_attributeName,
     attributeNameAndValue_value,
 
     -- * BatchAddFacetToObject
-    BatchAddFacetToObject,
+    BatchAddFacetToObject (BatchAddFacetToObject'),
     newBatchAddFacetToObject,
     batchAddFacetToObject_schemaFacet,
     batchAddFacetToObject_objectAttributeList,
     batchAddFacetToObject_objectReference,
 
     -- * BatchAddFacetToObjectResponse
-    BatchAddFacetToObjectResponse,
+    BatchAddFacetToObjectResponse (BatchAddFacetToObjectResponse'),
     newBatchAddFacetToObjectResponse,
 
     -- * BatchAttachObject
-    BatchAttachObject,
+    BatchAttachObject (BatchAttachObject'),
     newBatchAttachObject,
     batchAttachObject_parentReference,
     batchAttachObject_childReference,
     batchAttachObject_linkName,
 
     -- * BatchAttachObjectResponse
-    BatchAttachObjectResponse,
+    BatchAttachObjectResponse (BatchAttachObjectResponse'),
     newBatchAttachObjectResponse,
     batchAttachObjectResponse_attachedObjectIdentifier,
 
     -- * BatchAttachPolicy
-    BatchAttachPolicy,
+    BatchAttachPolicy (BatchAttachPolicy'),
     newBatchAttachPolicy,
     batchAttachPolicy_policyReference,
     batchAttachPolicy_objectReference,
 
     -- * BatchAttachPolicyResponse
-    BatchAttachPolicyResponse,
+    BatchAttachPolicyResponse (BatchAttachPolicyResponse'),
     newBatchAttachPolicyResponse,
 
     -- * BatchAttachToIndex
-    BatchAttachToIndex,
+    BatchAttachToIndex (BatchAttachToIndex'),
     newBatchAttachToIndex,
     batchAttachToIndex_indexReference,
     batchAttachToIndex_targetReference,
 
     -- * BatchAttachToIndexResponse
-    BatchAttachToIndexResponse,
+    BatchAttachToIndexResponse (BatchAttachToIndexResponse'),
     newBatchAttachToIndexResponse,
     batchAttachToIndexResponse_attachedObjectIdentifier,
 
     -- * BatchAttachTypedLink
-    BatchAttachTypedLink,
+    BatchAttachTypedLink (BatchAttachTypedLink'),
     newBatchAttachTypedLink,
     batchAttachTypedLink_sourceObjectReference,
     batchAttachTypedLink_targetObjectReference,
@@ -157,12 +157,12 @@ module Amazonka.CloudDirectory.Types
     batchAttachTypedLink_attributes,
 
     -- * BatchAttachTypedLinkResponse
-    BatchAttachTypedLinkResponse,
+    BatchAttachTypedLinkResponse (BatchAttachTypedLinkResponse'),
     newBatchAttachTypedLinkResponse,
     batchAttachTypedLinkResponse_typedLinkSpecifier,
 
     -- * BatchCreateIndex
-    BatchCreateIndex,
+    BatchCreateIndex (BatchCreateIndex'),
     newBatchCreateIndex,
     batchCreateIndex_batchReferenceName,
     batchCreateIndex_linkName,
@@ -171,12 +171,12 @@ module Amazonka.CloudDirectory.Types
     batchCreateIndex_isUnique,
 
     -- * BatchCreateIndexResponse
-    BatchCreateIndexResponse,
+    BatchCreateIndexResponse (BatchCreateIndexResponse'),
     newBatchCreateIndexResponse,
     batchCreateIndexResponse_objectIdentifier,
 
     -- * BatchCreateObject
-    BatchCreateObject,
+    BatchCreateObject (BatchCreateObject'),
     newBatchCreateObject,
     batchCreateObject_batchReferenceName,
     batchCreateObject_linkName,
@@ -185,110 +185,110 @@ module Amazonka.CloudDirectory.Types
     batchCreateObject_objectAttributeList,
 
     -- * BatchCreateObjectResponse
-    BatchCreateObjectResponse,
+    BatchCreateObjectResponse (BatchCreateObjectResponse'),
     newBatchCreateObjectResponse,
     batchCreateObjectResponse_objectIdentifier,
 
     -- * BatchDeleteObject
-    BatchDeleteObject,
+    BatchDeleteObject (BatchDeleteObject'),
     newBatchDeleteObject,
     batchDeleteObject_objectReference,
 
     -- * BatchDeleteObjectResponse
-    BatchDeleteObjectResponse,
+    BatchDeleteObjectResponse (BatchDeleteObjectResponse'),
     newBatchDeleteObjectResponse,
 
     -- * BatchDetachFromIndex
-    BatchDetachFromIndex,
+    BatchDetachFromIndex (BatchDetachFromIndex'),
     newBatchDetachFromIndex,
     batchDetachFromIndex_indexReference,
     batchDetachFromIndex_targetReference,
 
     -- * BatchDetachFromIndexResponse
-    BatchDetachFromIndexResponse,
+    BatchDetachFromIndexResponse (BatchDetachFromIndexResponse'),
     newBatchDetachFromIndexResponse,
     batchDetachFromIndexResponse_detachedObjectIdentifier,
 
     -- * BatchDetachObject
-    BatchDetachObject,
+    BatchDetachObject (BatchDetachObject'),
     newBatchDetachObject,
     batchDetachObject_batchReferenceName,
     batchDetachObject_parentReference,
     batchDetachObject_linkName,
 
     -- * BatchDetachObjectResponse
-    BatchDetachObjectResponse,
+    BatchDetachObjectResponse (BatchDetachObjectResponse'),
     newBatchDetachObjectResponse,
     batchDetachObjectResponse_detachedObjectIdentifier,
 
     -- * BatchDetachPolicy
-    BatchDetachPolicy,
+    BatchDetachPolicy (BatchDetachPolicy'),
     newBatchDetachPolicy,
     batchDetachPolicy_policyReference,
     batchDetachPolicy_objectReference,
 
     -- * BatchDetachPolicyResponse
-    BatchDetachPolicyResponse,
+    BatchDetachPolicyResponse (BatchDetachPolicyResponse'),
     newBatchDetachPolicyResponse,
 
     -- * BatchDetachTypedLink
-    BatchDetachTypedLink,
+    BatchDetachTypedLink (BatchDetachTypedLink'),
     newBatchDetachTypedLink,
     batchDetachTypedLink_typedLinkSpecifier,
 
     -- * BatchDetachTypedLinkResponse
-    BatchDetachTypedLinkResponse,
+    BatchDetachTypedLinkResponse (BatchDetachTypedLinkResponse'),
     newBatchDetachTypedLinkResponse,
 
     -- * BatchGetLinkAttributes
-    BatchGetLinkAttributes,
+    BatchGetLinkAttributes (BatchGetLinkAttributes'),
     newBatchGetLinkAttributes,
     batchGetLinkAttributes_typedLinkSpecifier,
     batchGetLinkAttributes_attributeNames,
 
     -- * BatchGetLinkAttributesResponse
-    BatchGetLinkAttributesResponse,
+    BatchGetLinkAttributesResponse (BatchGetLinkAttributesResponse'),
     newBatchGetLinkAttributesResponse,
     batchGetLinkAttributesResponse_attributes,
 
     -- * BatchGetObjectAttributes
-    BatchGetObjectAttributes,
+    BatchGetObjectAttributes (BatchGetObjectAttributes'),
     newBatchGetObjectAttributes,
     batchGetObjectAttributes_objectReference,
     batchGetObjectAttributes_schemaFacet,
     batchGetObjectAttributes_attributeNames,
 
     -- * BatchGetObjectAttributesResponse
-    BatchGetObjectAttributesResponse,
+    BatchGetObjectAttributesResponse (BatchGetObjectAttributesResponse'),
     newBatchGetObjectAttributesResponse,
     batchGetObjectAttributesResponse_attributes,
 
     -- * BatchGetObjectInformation
-    BatchGetObjectInformation,
+    BatchGetObjectInformation (BatchGetObjectInformation'),
     newBatchGetObjectInformation,
     batchGetObjectInformation_objectReference,
 
     -- * BatchGetObjectInformationResponse
-    BatchGetObjectInformationResponse,
+    BatchGetObjectInformationResponse (BatchGetObjectInformationResponse'),
     newBatchGetObjectInformationResponse,
     batchGetObjectInformationResponse_objectIdentifier,
     batchGetObjectInformationResponse_schemaFacets,
 
     -- * BatchListAttachedIndices
-    BatchListAttachedIndices,
+    BatchListAttachedIndices (BatchListAttachedIndices'),
     newBatchListAttachedIndices,
     batchListAttachedIndices_maxResults,
     batchListAttachedIndices_nextToken,
     batchListAttachedIndices_targetReference,
 
     -- * BatchListAttachedIndicesResponse
-    BatchListAttachedIndicesResponse,
+    BatchListAttachedIndicesResponse (BatchListAttachedIndicesResponse'),
     newBatchListAttachedIndicesResponse,
     batchListAttachedIndicesResponse_indexAttachments,
     batchListAttachedIndicesResponse_nextToken,
 
     -- * BatchListIncomingTypedLinks
-    BatchListIncomingTypedLinks,
+    BatchListIncomingTypedLinks (BatchListIncomingTypedLinks'),
     newBatchListIncomingTypedLinks,
     batchListIncomingTypedLinks_filterAttributeRanges,
     batchListIncomingTypedLinks_filterTypedLink,
@@ -297,13 +297,13 @@ module Amazonka.CloudDirectory.Types
     batchListIncomingTypedLinks_objectReference,
 
     -- * BatchListIncomingTypedLinksResponse
-    BatchListIncomingTypedLinksResponse,
+    BatchListIncomingTypedLinksResponse (BatchListIncomingTypedLinksResponse'),
     newBatchListIncomingTypedLinksResponse,
     batchListIncomingTypedLinksResponse_linkSpecifiers,
     batchListIncomingTypedLinksResponse_nextToken,
 
     -- * BatchListIndex
-    BatchListIndex,
+    BatchListIndex (BatchListIndex'),
     newBatchListIndex,
     batchListIndex_maxResults,
     batchListIndex_nextToken,
@@ -311,13 +311,13 @@ module Amazonka.CloudDirectory.Types
     batchListIndex_indexReference,
 
     -- * BatchListIndexResponse
-    BatchListIndexResponse,
+    BatchListIndexResponse (BatchListIndexResponse'),
     newBatchListIndexResponse,
     batchListIndexResponse_indexAttachments,
     batchListIndexResponse_nextToken,
 
     -- * BatchListObjectAttributes
-    BatchListObjectAttributes,
+    BatchListObjectAttributes (BatchListObjectAttributes'),
     newBatchListObjectAttributes,
     batchListObjectAttributes_facetFilter,
     batchListObjectAttributes_maxResults,
@@ -325,65 +325,65 @@ module Amazonka.CloudDirectory.Types
     batchListObjectAttributes_objectReference,
 
     -- * BatchListObjectAttributesResponse
-    BatchListObjectAttributesResponse,
+    BatchListObjectAttributesResponse (BatchListObjectAttributesResponse'),
     newBatchListObjectAttributesResponse,
     batchListObjectAttributesResponse_attributes,
     batchListObjectAttributesResponse_nextToken,
 
     -- * BatchListObjectChildren
-    BatchListObjectChildren,
+    BatchListObjectChildren (BatchListObjectChildren'),
     newBatchListObjectChildren,
     batchListObjectChildren_maxResults,
     batchListObjectChildren_nextToken,
     batchListObjectChildren_objectReference,
 
     -- * BatchListObjectChildrenResponse
-    BatchListObjectChildrenResponse,
+    BatchListObjectChildrenResponse (BatchListObjectChildrenResponse'),
     newBatchListObjectChildrenResponse,
     batchListObjectChildrenResponse_children,
     batchListObjectChildrenResponse_nextToken,
 
     -- * BatchListObjectParentPaths
-    BatchListObjectParentPaths,
+    BatchListObjectParentPaths (BatchListObjectParentPaths'),
     newBatchListObjectParentPaths,
     batchListObjectParentPaths_maxResults,
     batchListObjectParentPaths_nextToken,
     batchListObjectParentPaths_objectReference,
 
     -- * BatchListObjectParentPathsResponse
-    BatchListObjectParentPathsResponse,
+    BatchListObjectParentPathsResponse (BatchListObjectParentPathsResponse'),
     newBatchListObjectParentPathsResponse,
     batchListObjectParentPathsResponse_nextToken,
     batchListObjectParentPathsResponse_pathToObjectIdentifiersList,
 
     -- * BatchListObjectParents
-    BatchListObjectParents,
+    BatchListObjectParents (BatchListObjectParents'),
     newBatchListObjectParents,
     batchListObjectParents_maxResults,
     batchListObjectParents_nextToken,
     batchListObjectParents_objectReference,
 
     -- * BatchListObjectParentsResponse
-    BatchListObjectParentsResponse,
+    BatchListObjectParentsResponse (BatchListObjectParentsResponse'),
     newBatchListObjectParentsResponse,
     batchListObjectParentsResponse_nextToken,
     batchListObjectParentsResponse_parentLinks,
 
     -- * BatchListObjectPolicies
-    BatchListObjectPolicies,
+    BatchListObjectPolicies (BatchListObjectPolicies'),
     newBatchListObjectPolicies,
     batchListObjectPolicies_maxResults,
     batchListObjectPolicies_nextToken,
     batchListObjectPolicies_objectReference,
 
     -- * BatchListObjectPoliciesResponse
-    BatchListObjectPoliciesResponse,
+    BatchListObjectPoliciesResponse (BatchListObjectPoliciesResponse'),
     newBatchListObjectPoliciesResponse,
     batchListObjectPoliciesResponse_attachedPolicyIds,
     batchListObjectPoliciesResponse_nextToken,
 
     -- * BatchListOutgoingTypedLinks
-    BatchListOutgoingTypedLinks,
+    BatchListOutgoingTypedLinks (BatchListOutgoingTypedLinks'),
     newBatchListOutgoingTypedLinks,
     batchListOutgoingTypedLinks_filterAttributeRanges,
     batchListOutgoingTypedLinks_filterTypedLink,
@@ -392,45 +392,45 @@ module Amazonka.CloudDirectory.Types
     batchListOutgoingTypedLinks_objectReference,
 
     -- * BatchListOutgoingTypedLinksResponse
-    BatchListOutgoingTypedLinksResponse,
+    BatchListOutgoingTypedLinksResponse (BatchListOutgoingTypedLinksResponse'),
     newBatchListOutgoingTypedLinksResponse,
     batchListOutgoingTypedLinksResponse_nextToken,
     batchListOutgoingTypedLinksResponse_typedLinkSpecifiers,
 
     -- * BatchListPolicyAttachments
-    BatchListPolicyAttachments,
+    BatchListPolicyAttachments (BatchListPolicyAttachments'),
     newBatchListPolicyAttachments,
     batchListPolicyAttachments_maxResults,
     batchListPolicyAttachments_nextToken,
     batchListPolicyAttachments_policyReference,
 
     -- * BatchListPolicyAttachmentsResponse
-    BatchListPolicyAttachmentsResponse,
+    BatchListPolicyAttachmentsResponse (BatchListPolicyAttachmentsResponse'),
     newBatchListPolicyAttachmentsResponse,
     batchListPolicyAttachmentsResponse_nextToken,
     batchListPolicyAttachmentsResponse_objectIdentifiers,
 
     -- * BatchLookupPolicy
-    BatchLookupPolicy,
+    BatchLookupPolicy (BatchLookupPolicy'),
     newBatchLookupPolicy,
     batchLookupPolicy_maxResults,
     batchLookupPolicy_nextToken,
     batchLookupPolicy_objectReference,
 
     -- * BatchLookupPolicyResponse
-    BatchLookupPolicyResponse,
+    BatchLookupPolicyResponse (BatchLookupPolicyResponse'),
     newBatchLookupPolicyResponse,
     batchLookupPolicyResponse_nextToken,
     batchLookupPolicyResponse_policyToPathList,
 
     -- * BatchReadException
-    BatchReadException,
+    BatchReadException (BatchReadException'),
     newBatchReadException,
     batchReadException_message,
     batchReadException_type,
 
     -- * BatchReadOperation
-    BatchReadOperation,
+    BatchReadOperation (BatchReadOperation'),
     newBatchReadOperation,
     batchReadOperation_getLinkAttributes,
     batchReadOperation_getObjectAttributes,
@@ -448,13 +448,13 @@ module Amazonka.CloudDirectory.Types
     batchReadOperation_lookupPolicy,
 
     -- * BatchReadOperationResponse
-    BatchReadOperationResponse,
+    BatchReadOperationResponse (BatchReadOperationResponse'),
     newBatchReadOperationResponse,
     batchReadOperationResponse_exceptionResponse,
     batchReadOperationResponse_successfulResponse,
 
     -- * BatchReadSuccessfulResponse
-    BatchReadSuccessfulResponse,
+    BatchReadSuccessfulResponse (BatchReadSuccessfulResponse'),
     newBatchReadSuccessfulResponse,
     batchReadSuccessfulResponse_getLinkAttributes,
     batchReadSuccessfulResponse_getObjectAttributes,
@@ -472,38 +472,38 @@ module Amazonka.CloudDirectory.Types
     batchReadSuccessfulResponse_lookupPolicy,
 
     -- * BatchRemoveFacetFromObject
-    BatchRemoveFacetFromObject,
+    BatchRemoveFacetFromObject (BatchRemoveFacetFromObject'),
     newBatchRemoveFacetFromObject,
     batchRemoveFacetFromObject_schemaFacet,
     batchRemoveFacetFromObject_objectReference,
 
     -- * BatchRemoveFacetFromObjectResponse
-    BatchRemoveFacetFromObjectResponse,
+    BatchRemoveFacetFromObjectResponse (BatchRemoveFacetFromObjectResponse'),
     newBatchRemoveFacetFromObjectResponse,
 
     -- * BatchUpdateLinkAttributes
-    BatchUpdateLinkAttributes,
+    BatchUpdateLinkAttributes (BatchUpdateLinkAttributes'),
     newBatchUpdateLinkAttributes,
     batchUpdateLinkAttributes_typedLinkSpecifier,
     batchUpdateLinkAttributes_attributeUpdates,
 
     -- * BatchUpdateLinkAttributesResponse
-    BatchUpdateLinkAttributesResponse,
+    BatchUpdateLinkAttributesResponse (BatchUpdateLinkAttributesResponse'),
     newBatchUpdateLinkAttributesResponse,
 
     -- * BatchUpdateObjectAttributes
-    BatchUpdateObjectAttributes,
+    BatchUpdateObjectAttributes (BatchUpdateObjectAttributes'),
     newBatchUpdateObjectAttributes,
     batchUpdateObjectAttributes_objectReference,
     batchUpdateObjectAttributes_attributeUpdates,
 
     -- * BatchUpdateObjectAttributesResponse
-    BatchUpdateObjectAttributesResponse,
+    BatchUpdateObjectAttributesResponse (BatchUpdateObjectAttributesResponse'),
     newBatchUpdateObjectAttributesResponse,
     batchUpdateObjectAttributesResponse_objectIdentifier,
 
     -- * BatchWriteOperation
-    BatchWriteOperation,
+    BatchWriteOperation (BatchWriteOperation'),
     newBatchWriteOperation,
     batchWriteOperation_addFacetToObject,
     batchWriteOperation_attachObject,
@@ -522,7 +522,7 @@ module Amazonka.CloudDirectory.Types
     batchWriteOperation_updateObjectAttributes,
 
     -- * BatchWriteOperationResponse
-    BatchWriteOperationResponse,
+    BatchWriteOperationResponse (BatchWriteOperationResponse'),
     newBatchWriteOperationResponse,
     batchWriteOperationResponse_addFacetToObject,
     batchWriteOperationResponse_attachObject,
@@ -541,7 +541,7 @@ module Amazonka.CloudDirectory.Types
     batchWriteOperationResponse_updateObjectAttributes,
 
     -- * Directory
-    Directory,
+    Directory (Directory'),
     newDirectory,
     directory_creationDateTime,
     directory_directoryArn,
@@ -549,14 +549,14 @@ module Amazonka.CloudDirectory.Types
     directory_state,
 
     -- * Facet
-    Facet,
+    Facet (Facet'),
     newFacet,
     facet_facetStyle,
     facet_name,
     facet_objectType,
 
     -- * FacetAttribute
-    FacetAttribute,
+    FacetAttribute (FacetAttribute'),
     newFacetAttribute,
     facetAttribute_attributeDefinition,
     facetAttribute_attributeReference,
@@ -564,7 +564,7 @@ module Amazonka.CloudDirectory.Types
     facetAttribute_name,
 
     -- * FacetAttributeDefinition
-    FacetAttributeDefinition,
+    FacetAttributeDefinition (FacetAttributeDefinition'),
     newFacetAttributeDefinition,
     facetAttributeDefinition_defaultValue,
     facetAttributeDefinition_isImmutable,
@@ -572,103 +572,103 @@ module Amazonka.CloudDirectory.Types
     facetAttributeDefinition_type,
 
     -- * FacetAttributeReference
-    FacetAttributeReference,
+    FacetAttributeReference (FacetAttributeReference'),
     newFacetAttributeReference,
     facetAttributeReference_targetFacetName,
     facetAttributeReference_targetAttributeName,
 
     -- * FacetAttributeUpdate
-    FacetAttributeUpdate,
+    FacetAttributeUpdate (FacetAttributeUpdate'),
     newFacetAttributeUpdate,
     facetAttributeUpdate_action,
     facetAttributeUpdate_attribute,
 
     -- * IndexAttachment
-    IndexAttachment,
+    IndexAttachment (IndexAttachment'),
     newIndexAttachment,
     indexAttachment_indexedAttributes,
     indexAttachment_objectIdentifier,
 
     -- * LinkAttributeAction
-    LinkAttributeAction,
+    LinkAttributeAction (LinkAttributeAction'),
     newLinkAttributeAction,
     linkAttributeAction_attributeActionType,
     linkAttributeAction_attributeUpdateValue,
 
     -- * LinkAttributeUpdate
-    LinkAttributeUpdate,
+    LinkAttributeUpdate (LinkAttributeUpdate'),
     newLinkAttributeUpdate,
     linkAttributeUpdate_attributeAction,
     linkAttributeUpdate_attributeKey,
 
     -- * ObjectAttributeAction
-    ObjectAttributeAction,
+    ObjectAttributeAction (ObjectAttributeAction'),
     newObjectAttributeAction,
     objectAttributeAction_objectAttributeActionType,
     objectAttributeAction_objectAttributeUpdateValue,
 
     -- * ObjectAttributeRange
-    ObjectAttributeRange,
+    ObjectAttributeRange (ObjectAttributeRange'),
     newObjectAttributeRange,
     objectAttributeRange_attributeKey,
     objectAttributeRange_range,
 
     -- * ObjectAttributeUpdate
-    ObjectAttributeUpdate,
+    ObjectAttributeUpdate (ObjectAttributeUpdate'),
     newObjectAttributeUpdate,
     objectAttributeUpdate_objectAttributeAction,
     objectAttributeUpdate_objectAttributeKey,
 
     -- * ObjectIdentifierAndLinkNameTuple
-    ObjectIdentifierAndLinkNameTuple,
+    ObjectIdentifierAndLinkNameTuple (ObjectIdentifierAndLinkNameTuple'),
     newObjectIdentifierAndLinkNameTuple,
     objectIdentifierAndLinkNameTuple_linkName,
     objectIdentifierAndLinkNameTuple_objectIdentifier,
 
     -- * ObjectReference
-    ObjectReference,
+    ObjectReference (ObjectReference'),
     newObjectReference,
     objectReference_selector,
 
     -- * PathToObjectIdentifiers
-    PathToObjectIdentifiers,
+    PathToObjectIdentifiers (PathToObjectIdentifiers'),
     newPathToObjectIdentifiers,
     pathToObjectIdentifiers_objectIdentifiers,
     pathToObjectIdentifiers_path,
 
     -- * PolicyAttachment
-    PolicyAttachment,
+    PolicyAttachment (PolicyAttachment'),
     newPolicyAttachment,
     policyAttachment_objectIdentifier,
     policyAttachment_policyId,
     policyAttachment_policyType,
 
     -- * PolicyToPath
-    PolicyToPath,
+    PolicyToPath (PolicyToPath'),
     newPolicyToPath,
     policyToPath_path,
     policyToPath_policies,
 
     -- * Rule
-    Rule,
+    Rule (Rule'),
     newRule,
     rule_parameters,
     rule_type,
 
     -- * SchemaFacet
-    SchemaFacet,
+    SchemaFacet (SchemaFacet'),
     newSchemaFacet,
     schemaFacet_facetName,
     schemaFacet_schemaArn,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
 
     -- * TypedAttributeValue
-    TypedAttributeValue,
+    TypedAttributeValue (TypedAttributeValue'),
     newTypedAttributeValue,
     typedAttributeValue_binaryValue,
     typedAttributeValue_booleanValue,
@@ -677,7 +677,7 @@ module Amazonka.CloudDirectory.Types
     typedAttributeValue_stringValue,
 
     -- * TypedAttributeValueRange
-    TypedAttributeValueRange,
+    TypedAttributeValueRange (TypedAttributeValueRange'),
     newTypedAttributeValueRange,
     typedAttributeValueRange_endValue,
     typedAttributeValueRange_startValue,
@@ -685,7 +685,7 @@ module Amazonka.CloudDirectory.Types
     typedAttributeValueRange_endMode,
 
     -- * TypedLinkAttributeDefinition
-    TypedLinkAttributeDefinition,
+    TypedLinkAttributeDefinition (TypedLinkAttributeDefinition'),
     newTypedLinkAttributeDefinition,
     typedLinkAttributeDefinition_defaultValue,
     typedLinkAttributeDefinition_isImmutable,
@@ -695,32 +695,32 @@ module Amazonka.CloudDirectory.Types
     typedLinkAttributeDefinition_requiredBehavior,
 
     -- * TypedLinkAttributeRange
-    TypedLinkAttributeRange,
+    TypedLinkAttributeRange (TypedLinkAttributeRange'),
     newTypedLinkAttributeRange,
     typedLinkAttributeRange_attributeName,
     typedLinkAttributeRange_range,
 
     -- * TypedLinkFacet
-    TypedLinkFacet,
+    TypedLinkFacet (TypedLinkFacet'),
     newTypedLinkFacet,
     typedLinkFacet_name,
     typedLinkFacet_attributes,
     typedLinkFacet_identityAttributeOrder,
 
     -- * TypedLinkFacetAttributeUpdate
-    TypedLinkFacetAttributeUpdate,
+    TypedLinkFacetAttributeUpdate (TypedLinkFacetAttributeUpdate'),
     newTypedLinkFacetAttributeUpdate,
     typedLinkFacetAttributeUpdate_attribute,
     typedLinkFacetAttributeUpdate_action,
 
     -- * TypedLinkSchemaAndFacetName
-    TypedLinkSchemaAndFacetName,
+    TypedLinkSchemaAndFacetName (TypedLinkSchemaAndFacetName'),
     newTypedLinkSchemaAndFacetName,
     typedLinkSchemaAndFacetName_schemaArn,
     typedLinkSchemaAndFacetName_typedLinkName,
 
     -- * TypedLinkSpecifier
-    TypedLinkSpecifier,
+    TypedLinkSpecifier (TypedLinkSpecifier'),
     newTypedLinkSpecifier,
     typedLinkSpecifier_typedLinkFacet,
     typedLinkSpecifier_sourceObjectReference,

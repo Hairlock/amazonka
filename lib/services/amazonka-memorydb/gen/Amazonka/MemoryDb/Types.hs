@@ -74,28 +74,28 @@ module Amazonka.MemoryDb.Types
     _UserQuotaExceededFault,
 
     -- * AZStatus
-    AZStatus,
+    AZStatus (AZStatus'),
 
     -- * AuthenticationType
-    AuthenticationType,
+    AuthenticationType (AuthenticationType'),
 
     -- * DataTieringStatus
-    DataTieringStatus,
+    DataTieringStatus (DataTieringStatus'),
 
     -- * InputAuthenticationType
-    InputAuthenticationType,
+    InputAuthenticationType (InputAuthenticationType'),
 
     -- * ServiceUpdateStatus
-    ServiceUpdateStatus,
+    ServiceUpdateStatus (ServiceUpdateStatus'),
 
     -- * ServiceUpdateType
-    ServiceUpdateType,
+    ServiceUpdateType (ServiceUpdateType'),
 
     -- * SourceType
-    SourceType,
+    SourceType (SourceType'),
 
     -- * ACL
-    ACL,
+    ACL (ACL'),
     newACL,
     acl_arn,
     acl_clusters,
@@ -106,35 +106,35 @@ module Amazonka.MemoryDb.Types
     acl_userNames,
 
     -- * ACLPendingChanges
-    ACLPendingChanges,
+    ACLPendingChanges (ACLPendingChanges'),
     newACLPendingChanges,
     aCLPendingChanges_userNamesToAdd,
     aCLPendingChanges_userNamesToRemove,
 
     -- * ACLsUpdateStatus
-    ACLsUpdateStatus,
+    ACLsUpdateStatus (ACLsUpdateStatus'),
     newACLsUpdateStatus,
     aCLsUpdateStatus_aCLToApply,
 
     -- * Authentication
-    Authentication,
+    Authentication (Authentication'),
     newAuthentication,
     authentication_passwordCount,
     authentication_type,
 
     -- * AuthenticationMode
-    AuthenticationMode,
+    AuthenticationMode (AuthenticationMode'),
     newAuthenticationMode,
     authenticationMode_passwords,
     authenticationMode_type,
 
     -- * AvailabilityZone
-    AvailabilityZone,
+    AvailabilityZone (AvailabilityZone'),
     newAvailabilityZone,
     availabilityZone_name,
 
     -- * Cluster
-    Cluster,
+    Cluster (Cluster'),
     newCluster,
     cluster_aCLName,
     cluster_arn,
@@ -164,7 +164,7 @@ module Amazonka.MemoryDb.Types
     cluster_tLSEnabled,
 
     -- * ClusterConfiguration
-    ClusterConfiguration,
+    ClusterConfiguration (ClusterConfiguration'),
     newClusterConfiguration,
     clusterConfiguration_description,
     clusterConfiguration_engineVersion,
@@ -182,27 +182,27 @@ module Amazonka.MemoryDb.Types
     clusterConfiguration_vpcId,
 
     -- * ClusterPendingUpdates
-    ClusterPendingUpdates,
+    ClusterPendingUpdates (ClusterPendingUpdates'),
     newClusterPendingUpdates,
     clusterPendingUpdates_aCLs,
     clusterPendingUpdates_resharding,
     clusterPendingUpdates_serviceUpdates,
 
     -- * Endpoint
-    Endpoint,
+    Endpoint (Endpoint'),
     newEndpoint,
     endpoint_address,
     endpoint_port,
 
     -- * EngineVersionInfo
-    EngineVersionInfo,
+    EngineVersionInfo (EngineVersionInfo'),
     newEngineVersionInfo,
     engineVersionInfo_enginePatchVersion,
     engineVersionInfo_engineVersion,
     engineVersionInfo_parameterGroupFamily,
 
     -- * Event
-    Event,
+    Event (Event'),
     newEvent,
     event_date,
     event_message,
@@ -210,13 +210,13 @@ module Amazonka.MemoryDb.Types
     event_sourceType,
 
     -- * Filter
-    Filter,
+    Filter (Filter'),
     newFilter,
     filter_name,
     filter_values,
 
     -- * Node
-    Node,
+    Node (Node'),
     newNode,
     node_availabilityZone,
     node_createTime,
@@ -225,7 +225,7 @@ module Amazonka.MemoryDb.Types
     node_status,
 
     -- * Parameter
-    Parameter,
+    Parameter (Parameter'),
     newParameter,
     parameter_allowedValues,
     parameter_dataType,
@@ -235,7 +235,7 @@ module Amazonka.MemoryDb.Types
     parameter_value,
 
     -- * ParameterGroup
-    ParameterGroup,
+    ParameterGroup (ParameterGroup'),
     newParameterGroup,
     parameterGroup_arn,
     parameterGroup_description,
@@ -243,30 +243,30 @@ module Amazonka.MemoryDb.Types
     parameterGroup_name,
 
     -- * ParameterNameValue
-    ParameterNameValue,
+    ParameterNameValue (ParameterNameValue'),
     newParameterNameValue,
     parameterNameValue_parameterName,
     parameterNameValue_parameterValue,
 
     -- * PendingModifiedServiceUpdate
-    PendingModifiedServiceUpdate,
+    PendingModifiedServiceUpdate (PendingModifiedServiceUpdate'),
     newPendingModifiedServiceUpdate,
     pendingModifiedServiceUpdate_serviceUpdateName,
     pendingModifiedServiceUpdate_status,
 
     -- * RecurringCharge
-    RecurringCharge,
+    RecurringCharge (RecurringCharge'),
     newRecurringCharge,
     recurringCharge_recurringChargeAmount,
     recurringCharge_recurringChargeFrequency,
 
     -- * ReplicaConfigurationRequest
-    ReplicaConfigurationRequest,
+    ReplicaConfigurationRequest (ReplicaConfigurationRequest'),
     newReplicaConfigurationRequest,
     replicaConfigurationRequest_replicaCount,
 
     -- * ReservedNode
-    ReservedNode,
+    ReservedNode (ReservedNode'),
     newReservedNode,
     reservedNode_arn,
     reservedNode_duration,
@@ -281,7 +281,7 @@ module Amazonka.MemoryDb.Types
     reservedNode_state,
 
     -- * ReservedNodesOffering
-    ReservedNodesOffering,
+    ReservedNodesOffering (ReservedNodesOffering'),
     newReservedNodesOffering,
     reservedNodesOffering_duration,
     reservedNodesOffering_fixedPrice,
@@ -291,18 +291,18 @@ module Amazonka.MemoryDb.Types
     reservedNodesOffering_reservedNodesOfferingId,
 
     -- * ReshardingStatus
-    ReshardingStatus,
+    ReshardingStatus (ReshardingStatus'),
     newReshardingStatus,
     reshardingStatus_slotMigration,
 
     -- * SecurityGroupMembership
-    SecurityGroupMembership,
+    SecurityGroupMembership (SecurityGroupMembership'),
     newSecurityGroupMembership,
     securityGroupMembership_securityGroupId,
     securityGroupMembership_status,
 
     -- * ServiceUpdate
-    ServiceUpdate,
+    ServiceUpdate (ServiceUpdate'),
     newServiceUpdate,
     serviceUpdate_autoUpdateStartDate,
     serviceUpdate_clusterName,
@@ -314,12 +314,12 @@ module Amazonka.MemoryDb.Types
     serviceUpdate_type,
 
     -- * ServiceUpdateRequest
-    ServiceUpdateRequest,
+    ServiceUpdateRequest (ServiceUpdateRequest'),
     newServiceUpdateRequest,
     serviceUpdateRequest_serviceUpdateNameToApply,
 
     -- * Shard
-    Shard,
+    Shard (Shard'),
     newShard,
     shard_name,
     shard_nodes,
@@ -328,18 +328,18 @@ module Amazonka.MemoryDb.Types
     shard_status,
 
     -- * ShardConfiguration
-    ShardConfiguration,
+    ShardConfiguration (ShardConfiguration'),
     newShardConfiguration,
     shardConfiguration_replicaCount,
     shardConfiguration_slots,
 
     -- * ShardConfigurationRequest
-    ShardConfigurationRequest,
+    ShardConfigurationRequest (ShardConfigurationRequest'),
     newShardConfigurationRequest,
     shardConfigurationRequest_shardCount,
 
     -- * ShardDetail
-    ShardDetail,
+    ShardDetail (ShardDetail'),
     newShardDetail,
     shardDetail_configuration,
     shardDetail_name,
@@ -347,12 +347,12 @@ module Amazonka.MemoryDb.Types
     shardDetail_snapshotCreationTime,
 
     -- * SlotMigration
-    SlotMigration,
+    SlotMigration (SlotMigration'),
     newSlotMigration,
     slotMigration_progressPercentage,
 
     -- * Snapshot
-    Snapshot,
+    Snapshot (Snapshot'),
     newSnapshot,
     snapshot_arn,
     snapshot_clusterConfiguration,
@@ -363,13 +363,13 @@ module Amazonka.MemoryDb.Types
     snapshot_status,
 
     -- * Subnet
-    Subnet,
+    Subnet (Subnet'),
     newSubnet,
     subnet_availabilityZone,
     subnet_identifier,
 
     -- * SubnetGroup
-    SubnetGroup,
+    SubnetGroup (SubnetGroup'),
     newSubnetGroup,
     subnetGroup_arn,
     subnetGroup_description,
@@ -378,20 +378,20 @@ module Amazonka.MemoryDb.Types
     subnetGroup_vpcId,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
 
     -- * UnprocessedCluster
-    UnprocessedCluster,
+    UnprocessedCluster (UnprocessedCluster'),
     newUnprocessedCluster,
     unprocessedCluster_clusterName,
     unprocessedCluster_errorMessage,
     unprocessedCluster_errorType,
 
     -- * User
-    User,
+    User (User'),
     newUser,
     user_aCLNames,
     user_arn,

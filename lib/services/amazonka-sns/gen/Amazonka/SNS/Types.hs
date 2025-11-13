@@ -53,19 +53,19 @@ module Amazonka.SNS.Types
     _VerificationException,
 
     -- * LanguageCodeString
-    LanguageCodeString,
+    LanguageCodeString (LanguageCodeString'),
 
     -- * NumberCapability
-    NumberCapability,
+    NumberCapability (NumberCapability'),
 
     -- * RouteType
-    RouteType,
+    RouteType (RouteType'),
 
     -- * SMSSandboxPhoneNumberVerificationStatus
-    SMSSandboxPhoneNumberVerificationStatus,
+    SMSSandboxPhoneNumberVerificationStatus (SMSSandboxPhoneNumberVerificationStatus'),
 
     -- * BatchResultErrorEntry
-    BatchResultErrorEntry,
+    BatchResultErrorEntry (BatchResultErrorEntry'),
     newBatchResultErrorEntry,
     batchResultErrorEntry_message,
     batchResultErrorEntry_id,
@@ -73,20 +73,20 @@ module Amazonka.SNS.Types
     batchResultErrorEntry_senderFault,
 
     -- * Endpoint
-    Endpoint,
+    Endpoint (Endpoint'),
     newEndpoint,
     endpoint_attributes,
     endpoint_endpointArn,
 
     -- * MessageAttributeValue
-    MessageAttributeValue,
+    MessageAttributeValue (MessageAttributeValue'),
     newMessageAttributeValue,
     messageAttributeValue_binaryValue,
     messageAttributeValue_stringValue,
     messageAttributeValue_dataType,
 
     -- * PhoneNumberInformation
-    PhoneNumberInformation,
+    PhoneNumberInformation (PhoneNumberInformation'),
     newPhoneNumberInformation,
     phoneNumberInformation_createdAt,
     phoneNumberInformation_iso2CountryCode,
@@ -96,13 +96,13 @@ module Amazonka.SNS.Types
     phoneNumberInformation_status,
 
     -- * PlatformApplication
-    PlatformApplication,
+    PlatformApplication (PlatformApplication'),
     newPlatformApplication,
     platformApplication_attributes,
     platformApplication_platformApplicationArn,
 
     -- * PublishBatchRequestEntry
-    PublishBatchRequestEntry,
+    PublishBatchRequestEntry (PublishBatchRequestEntry'),
     newPublishBatchRequestEntry,
     publishBatchRequestEntry_messageAttributes,
     publishBatchRequestEntry_messageDeduplicationId,
@@ -113,20 +113,20 @@ module Amazonka.SNS.Types
     publishBatchRequestEntry_message,
 
     -- * PublishBatchResultEntry
-    PublishBatchResultEntry,
+    PublishBatchResultEntry (PublishBatchResultEntry'),
     newPublishBatchResultEntry,
     publishBatchResultEntry_id,
     publishBatchResultEntry_messageId,
     publishBatchResultEntry_sequenceNumber,
 
     -- * SMSSandboxPhoneNumber
-    SMSSandboxPhoneNumber,
+    SMSSandboxPhoneNumber (SMSSandboxPhoneNumber'),
     newSMSSandboxPhoneNumber,
     sMSSandboxPhoneNumber_phoneNumber,
     sMSSandboxPhoneNumber_status,
 
     -- * Subscription
-    Subscription,
+    Subscription (Subscription'),
     newSubscription,
     subscription_endpoint,
     subscription_owner,
@@ -135,13 +135,13 @@ module Amazonka.SNS.Types
     subscription_topicArn,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
 
     -- * Topic
-    Topic,
+    Topic (Topic'),
     newTopic,
     topic_topicArn,
   )

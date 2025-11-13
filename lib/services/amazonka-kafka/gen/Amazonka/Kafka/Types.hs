@@ -29,48 +29,48 @@ module Amazonka.Kafka.Types
     _UnauthorizedException,
 
     -- * BrokerAZDistribution
-    BrokerAZDistribution,
+    BrokerAZDistribution (BrokerAZDistribution'),
 
     -- * ClientBroker
-    ClientBroker,
+    ClientBroker (ClientBroker'),
 
     -- * ClusterState
-    ClusterState,
+    ClusterState (ClusterState'),
 
     -- * ClusterType
-    ClusterType,
+    ClusterType (ClusterType'),
 
     -- * ConfigurationState
-    ConfigurationState,
+    ConfigurationState (ConfigurationState'),
 
     -- * EnhancedMonitoring
-    EnhancedMonitoring,
+    EnhancedMonitoring (EnhancedMonitoring'),
 
     -- * KafkaVersionStatus
-    KafkaVersionStatus,
+    KafkaVersionStatus (KafkaVersionStatus'),
 
     -- * NodeType
-    NodeType,
+    NodeType (NodeType'),
 
     -- * StorageMode
-    StorageMode,
+    StorageMode (StorageMode'),
 
     -- * BrokerEBSVolumeInfo
-    BrokerEBSVolumeInfo,
+    BrokerEBSVolumeInfo (BrokerEBSVolumeInfo'),
     newBrokerEBSVolumeInfo,
     brokerEBSVolumeInfo_provisionedThroughput,
     brokerEBSVolumeInfo_volumeSizeGB,
     brokerEBSVolumeInfo_kafkaBrokerNodeId,
 
     -- * BrokerLogs
-    BrokerLogs,
+    BrokerLogs (BrokerLogs'),
     newBrokerLogs,
     brokerLogs_cloudWatchLogs,
     brokerLogs_firehose,
     brokerLogs_s3,
 
     -- * BrokerNodeGroupInfo
-    BrokerNodeGroupInfo,
+    BrokerNodeGroupInfo (BrokerNodeGroupInfo'),
     newBrokerNodeGroupInfo,
     brokerNodeGroupInfo_brokerAZDistribution,
     brokerNodeGroupInfo_connectivityInfo,
@@ -80,7 +80,7 @@ module Amazonka.Kafka.Types
     brokerNodeGroupInfo_instanceType,
 
     -- * BrokerNodeInfo
-    BrokerNodeInfo,
+    BrokerNodeInfo (BrokerNodeInfo'),
     newBrokerNodeInfo,
     brokerNodeInfo_attachedENIId,
     brokerNodeInfo_brokerId,
@@ -90,27 +90,27 @@ module Amazonka.Kafka.Types
     brokerNodeInfo_endpoints,
 
     -- * BrokerSoftwareInfo
-    BrokerSoftwareInfo,
+    BrokerSoftwareInfo (BrokerSoftwareInfo'),
     newBrokerSoftwareInfo,
     brokerSoftwareInfo_configurationArn,
     brokerSoftwareInfo_configurationRevision,
     brokerSoftwareInfo_kafkaVersion,
 
     -- * ClientAuthentication
-    ClientAuthentication,
+    ClientAuthentication (ClientAuthentication'),
     newClientAuthentication,
     clientAuthentication_sasl,
     clientAuthentication_tls,
     clientAuthentication_unauthenticated,
 
     -- * CloudWatchLogs
-    CloudWatchLogs,
+    CloudWatchLogs (CloudWatchLogs'),
     newCloudWatchLogs,
     cloudWatchLogs_logGroup,
     cloudWatchLogs_enabled,
 
     -- * Cluster
-    Cluster,
+    Cluster (Cluster'),
     newCluster,
     cluster_activeOperationArn,
     cluster_clusterArn,
@@ -125,7 +125,7 @@ module Amazonka.Kafka.Types
     cluster_tags,
 
     -- * ClusterInfo
-    ClusterInfo,
+    ClusterInfo (ClusterInfo'),
     newClusterInfo,
     clusterInfo_activeOperationArn,
     clusterInfo_brokerNodeGroupInfo,
@@ -148,7 +148,7 @@ module Amazonka.Kafka.Types
     clusterInfo_zookeeperConnectStringTls,
 
     -- * ClusterOperationInfo
-    ClusterOperationInfo,
+    ClusterOperationInfo (ClusterOperationInfo'),
     newClusterOperationInfo,
     clusterOperationInfo_clientRequestId,
     clusterOperationInfo_clusterArn,
@@ -163,24 +163,24 @@ module Amazonka.Kafka.Types
     clusterOperationInfo_targetClusterInfo,
 
     -- * ClusterOperationStep
-    ClusterOperationStep,
+    ClusterOperationStep (ClusterOperationStep'),
     newClusterOperationStep,
     clusterOperationStep_stepInfo,
     clusterOperationStep_stepName,
 
     -- * ClusterOperationStepInfo
-    ClusterOperationStepInfo,
+    ClusterOperationStepInfo (ClusterOperationStepInfo'),
     newClusterOperationStepInfo,
     clusterOperationStepInfo_stepStatus,
 
     -- * CompatibleKafkaVersion
-    CompatibleKafkaVersion,
+    CompatibleKafkaVersion (CompatibleKafkaVersion'),
     newCompatibleKafkaVersion,
     compatibleKafkaVersion_sourceVersion,
     compatibleKafkaVersion_targetVersions,
 
     -- * Configuration
-    Configuration,
+    Configuration (Configuration'),
     newConfiguration,
     configuration_description,
     configuration_latestRevision,
@@ -191,86 +191,86 @@ module Amazonka.Kafka.Types
     configuration_state,
 
     -- * ConfigurationInfo
-    ConfigurationInfo,
+    ConfigurationInfo (ConfigurationInfo'),
     newConfigurationInfo,
     configurationInfo_revision,
     configurationInfo_arn,
 
     -- * ConfigurationRevision
-    ConfigurationRevision,
+    ConfigurationRevision (ConfigurationRevision'),
     newConfigurationRevision,
     configurationRevision_description,
     configurationRevision_revision,
     configurationRevision_creationTime,
 
     -- * ConnectivityInfo
-    ConnectivityInfo,
+    ConnectivityInfo (ConnectivityInfo'),
     newConnectivityInfo,
     connectivityInfo_publicAccess,
 
     -- * EBSStorageInfo
-    EBSStorageInfo,
+    EBSStorageInfo (EBSStorageInfo'),
     newEBSStorageInfo,
     eBSStorageInfo_provisionedThroughput,
     eBSStorageInfo_volumeSize,
 
     -- * EncryptionAtRest
-    EncryptionAtRest,
+    EncryptionAtRest (EncryptionAtRest'),
     newEncryptionAtRest,
     encryptionAtRest_dataVolumeKMSKeyId,
 
     -- * EncryptionInTransit
-    EncryptionInTransit,
+    EncryptionInTransit (EncryptionInTransit'),
     newEncryptionInTransit,
     encryptionInTransit_clientBroker,
     encryptionInTransit_inCluster,
 
     -- * EncryptionInfo
-    EncryptionInfo,
+    EncryptionInfo (EncryptionInfo'),
     newEncryptionInfo,
     encryptionInfo_encryptionAtRest,
     encryptionInfo_encryptionInTransit,
 
     -- * ErrorInfo
-    ErrorInfo,
+    ErrorInfo (ErrorInfo'),
     newErrorInfo,
     errorInfo_errorCode,
     errorInfo_errorString,
 
     -- * Firehose
-    Firehose,
+    Firehose (Firehose'),
     newFirehose,
     firehose_deliveryStream,
     firehose_enabled,
 
     -- * Iam
-    Iam,
+    Iam (Iam'),
     newIam,
     iam_enabled,
 
     -- * JmxExporter
-    JmxExporter,
+    JmxExporter (JmxExporter'),
     newJmxExporter,
     jmxExporter_enabledInBroker,
 
     -- * JmxExporterInfo
-    JmxExporterInfo,
+    JmxExporterInfo (JmxExporterInfo'),
     newJmxExporterInfo,
     jmxExporterInfo_enabledInBroker,
 
     -- * KafkaVersion
-    KafkaVersion,
+    KafkaVersion (KafkaVersion'),
     newKafkaVersion,
     kafkaVersion_status,
     kafkaVersion_version,
 
     -- * LoggingInfo
-    LoggingInfo,
+    LoggingInfo (LoggingInfo'),
     newLoggingInfo,
     loggingInfo_brokerLogs,
 
     -- * MutableClusterInfo
-    MutableClusterInfo,
+    MutableClusterInfo (MutableClusterInfo'),
     newMutableClusterInfo,
     mutableClusterInfo_brokerEBSVolumeInfo,
     mutableClusterInfo_clientAuthentication,
@@ -286,17 +286,17 @@ module Amazonka.Kafka.Types
     mutableClusterInfo_storageMode,
 
     -- * NodeExporter
-    NodeExporter,
+    NodeExporter (NodeExporter'),
     newNodeExporter,
     nodeExporter_enabledInBroker,
 
     -- * NodeExporterInfo
-    NodeExporterInfo,
+    NodeExporterInfo (NodeExporterInfo'),
     newNodeExporterInfo,
     nodeExporterInfo_enabledInBroker,
 
     -- * NodeInfo
-    NodeInfo,
+    NodeInfo (NodeInfo'),
     newNodeInfo,
     nodeInfo_addedToClusterTime,
     nodeInfo_brokerNodeInfo,
@@ -306,29 +306,29 @@ module Amazonka.Kafka.Types
     nodeInfo_zookeeperNodeInfo,
 
     -- * OpenMonitoring
-    OpenMonitoring,
+    OpenMonitoring (OpenMonitoring'),
     newOpenMonitoring,
     openMonitoring_prometheus,
 
     -- * OpenMonitoringInfo
-    OpenMonitoringInfo,
+    OpenMonitoringInfo (OpenMonitoringInfo'),
     newOpenMonitoringInfo,
     openMonitoringInfo_prometheus,
 
     -- * Prometheus
-    Prometheus,
+    Prometheus (Prometheus'),
     newPrometheus,
     prometheus_jmxExporter,
     prometheus_nodeExporter,
 
     -- * PrometheusInfo
-    PrometheusInfo,
+    PrometheusInfo (PrometheusInfo'),
     newPrometheusInfo,
     prometheusInfo_jmxExporter,
     prometheusInfo_nodeExporter,
 
     -- * Provisioned
-    Provisioned,
+    Provisioned (Provisioned'),
     newProvisioned,
     provisioned_clientAuthentication,
     provisioned_currentBrokerSoftwareInfo,
@@ -343,7 +343,7 @@ module Amazonka.Kafka.Types
     provisioned_numberOfBrokerNodes,
 
     -- * ProvisionedRequest
-    ProvisionedRequest,
+    ProvisionedRequest (ProvisionedRequest'),
     newProvisionedRequest,
     provisionedRequest_clientAuthentication,
     provisionedRequest_configurationInfo,
@@ -357,93 +357,93 @@ module Amazonka.Kafka.Types
     provisionedRequest_numberOfBrokerNodes,
 
     -- * ProvisionedThroughput
-    ProvisionedThroughput,
+    ProvisionedThroughput (ProvisionedThroughput'),
     newProvisionedThroughput,
     provisionedThroughput_enabled,
     provisionedThroughput_volumeThroughput,
 
     -- * PublicAccess
-    PublicAccess,
+    PublicAccess (PublicAccess'),
     newPublicAccess,
     publicAccess_type,
 
     -- * S3
-    S3,
+    S3 (S3'),
     newS3,
     s3_bucket,
     s3_prefix,
     s3_enabled,
 
     -- * Sasl
-    Sasl,
+    Sasl (Sasl'),
     newSasl,
     sasl_iam,
     sasl_scram,
 
     -- * Scram
-    Scram,
+    Scram (Scram'),
     newScram,
     scram_enabled,
 
     -- * Serverless
-    Serverless,
+    Serverless (Serverless'),
     newServerless,
     serverless_clientAuthentication,
     serverless_vpcConfigs,
 
     -- * ServerlessClientAuthentication
-    ServerlessClientAuthentication,
+    ServerlessClientAuthentication (ServerlessClientAuthentication'),
     newServerlessClientAuthentication,
     serverlessClientAuthentication_sasl,
 
     -- * ServerlessRequest
-    ServerlessRequest,
+    ServerlessRequest (ServerlessRequest'),
     newServerlessRequest,
     serverlessRequest_clientAuthentication,
     serverlessRequest_vpcConfigs,
 
     -- * ServerlessSasl
-    ServerlessSasl,
+    ServerlessSasl (ServerlessSasl'),
     newServerlessSasl,
     serverlessSasl_iam,
 
     -- * StateInfo
-    StateInfo,
+    StateInfo (StateInfo'),
     newStateInfo,
     stateInfo_code,
     stateInfo_message,
 
     -- * StorageInfo
-    StorageInfo,
+    StorageInfo (StorageInfo'),
     newStorageInfo,
     storageInfo_ebsStorageInfo,
 
     -- * Tls
-    Tls,
+    Tls (Tls'),
     newTls,
     tls_certificateAuthorityArnList,
     tls_enabled,
 
     -- * Unauthenticated
-    Unauthenticated,
+    Unauthenticated (Unauthenticated'),
     newUnauthenticated,
     unauthenticated_enabled,
 
     -- * UnprocessedScramSecret
-    UnprocessedScramSecret,
+    UnprocessedScramSecret (UnprocessedScramSecret'),
     newUnprocessedScramSecret,
     unprocessedScramSecret_errorCode,
     unprocessedScramSecret_errorMessage,
     unprocessedScramSecret_secretArn,
 
     -- * VpcConfig
-    VpcConfig,
+    VpcConfig (VpcConfig'),
     newVpcConfig,
     vpcConfig_securityGroupIds,
     vpcConfig_subnetIds,
 
     -- * ZookeeperNodeInfo
-    ZookeeperNodeInfo,
+    ZookeeperNodeInfo (ZookeeperNodeInfo'),
     newZookeeperNodeInfo,
     zookeeperNodeInfo_attachedENIId,
     zookeeperNodeInfo_clientVpcIpAddress,

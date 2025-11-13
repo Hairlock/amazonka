@@ -29,92 +29,92 @@ module Amazonka.Pinpoint.Types
     _TooManyRequestsException,
 
     -- * Action
-    Action,
+    Action (Action'),
 
     -- * Alignment
-    Alignment,
+    Alignment (Alignment'),
 
     -- * AttributeType
-    AttributeType,
+    AttributeType (AttributeType'),
 
     -- * ButtonAction
-    ButtonAction,
+    ButtonAction (ButtonAction'),
 
     -- * CampaignStatus
-    CampaignStatus,
+    CampaignStatus (CampaignStatus'),
 
     -- * ChannelType
-    ChannelType,
+    ChannelType (ChannelType'),
 
     -- * DayOfWeek
-    DayOfWeek,
+    DayOfWeek (DayOfWeek'),
 
     -- * DefinitionFormat
-    DefinitionFormat,
+    DefinitionFormat (DefinitionFormat'),
 
     -- * DeliveryStatus
-    DeliveryStatus,
+    DeliveryStatus (DeliveryStatus'),
 
     -- * DimensionType
-    DimensionType,
+    DimensionType (DimensionType'),
 
     -- * Duration
-    Duration,
+    Duration (Duration'),
 
     -- * EndpointTypesElement
-    EndpointTypesElement,
+    EndpointTypesElement (EndpointTypesElement'),
 
     -- * FilterType
-    FilterType,
+    FilterType (FilterType'),
 
     -- * Frequency
-    Frequency,
+    Frequency (Frequency'),
 
     -- * Include
-    Include,
+    Include (Include'),
 
     -- * JobStatus
-    JobStatus,
+    JobStatus (JobStatus'),
 
     -- * Layout
-    Layout,
+    Layout (Layout'),
 
     -- * MessageType
-    MessageType,
+    MessageType (MessageType'),
 
     -- * Mode
-    Mode,
+    Mode (Mode'),
 
     -- * Operator
-    Operator,
+    Operator (Operator'),
 
     -- * RecencyType
-    RecencyType,
+    RecencyType (RecencyType'),
 
     -- * SegmentType
-    SegmentType,
+    SegmentType (SegmentType'),
 
     -- * SourceType
-    SourceType,
+    SourceType (SourceType'),
 
     -- * State
-    State,
+    State (State'),
 
     -- * TemplateType
-    TemplateType,
+    TemplateType (TemplateType'),
 
     -- * Type
-    Type,
+    Type (Type'),
 
     -- * ADMChannelRequest
-    ADMChannelRequest,
+    ADMChannelRequest (ADMChannelRequest'),
     newADMChannelRequest,
     aDMChannelRequest_enabled,
     aDMChannelRequest_clientSecret,
     aDMChannelRequest_clientId,
 
     -- * ADMChannelResponse
-    ADMChannelResponse,
+    ADMChannelResponse (ADMChannelResponse'),
     newADMChannelResponse,
     aDMChannelResponse_applicationId,
     aDMChannelResponse_creationDate,
@@ -128,7 +128,7 @@ module Amazonka.Pinpoint.Types
     aDMChannelResponse_platform,
 
     -- * ADMMessage
-    ADMMessage,
+    ADMMessage (ADMMessage'),
     newADMMessage,
     aDMMessage_action,
     aDMMessage_body,
@@ -148,7 +148,7 @@ module Amazonka.Pinpoint.Types
     aDMMessage_url,
 
     -- * APNSChannelRequest
-    APNSChannelRequest,
+    APNSChannelRequest (APNSChannelRequest'),
     newAPNSChannelRequest,
     aPNSChannelRequest_bundleId,
     aPNSChannelRequest_certificate,
@@ -160,7 +160,7 @@ module Amazonka.Pinpoint.Types
     aPNSChannelRequest_tokenKeyId,
 
     -- * APNSChannelResponse
-    APNSChannelResponse,
+    APNSChannelResponse (APNSChannelResponse'),
     newAPNSChannelResponse,
     aPNSChannelResponse_applicationId,
     aPNSChannelResponse_creationDate,
@@ -176,7 +176,7 @@ module Amazonka.Pinpoint.Types
     aPNSChannelResponse_platform,
 
     -- * APNSMessage
-    APNSMessage,
+    APNSMessage (APNSMessage'),
     newAPNSMessage,
     aPNSMessage_aPNSPushType,
     aPNSMessage_action,
@@ -198,7 +198,7 @@ module Amazonka.Pinpoint.Types
     aPNSMessage_url,
 
     -- * APNSPushNotificationTemplate
-    APNSPushNotificationTemplate,
+    APNSPushNotificationTemplate (APNSPushNotificationTemplate'),
     newAPNSPushNotificationTemplate,
     aPNSPushNotificationTemplate_action,
     aPNSPushNotificationTemplate_body,
@@ -209,7 +209,7 @@ module Amazonka.Pinpoint.Types
     aPNSPushNotificationTemplate_url,
 
     -- * APNSSandboxChannelRequest
-    APNSSandboxChannelRequest,
+    APNSSandboxChannelRequest (APNSSandboxChannelRequest'),
     newAPNSSandboxChannelRequest,
     aPNSSandboxChannelRequest_bundleId,
     aPNSSandboxChannelRequest_certificate,
@@ -221,7 +221,7 @@ module Amazonka.Pinpoint.Types
     aPNSSandboxChannelRequest_tokenKeyId,
 
     -- * APNSSandboxChannelResponse
-    APNSSandboxChannelResponse,
+    APNSSandboxChannelResponse (APNSSandboxChannelResponse'),
     newAPNSSandboxChannelResponse,
     aPNSSandboxChannelResponse_applicationId,
     aPNSSandboxChannelResponse_creationDate,
@@ -237,7 +237,7 @@ module Amazonka.Pinpoint.Types
     aPNSSandboxChannelResponse_platform,
 
     -- * APNSVoipChannelRequest
-    APNSVoipChannelRequest,
+    APNSVoipChannelRequest (APNSVoipChannelRequest'),
     newAPNSVoipChannelRequest,
     aPNSVoipChannelRequest_bundleId,
     aPNSVoipChannelRequest_certificate,
@@ -249,7 +249,7 @@ module Amazonka.Pinpoint.Types
     aPNSVoipChannelRequest_tokenKeyId,
 
     -- * APNSVoipChannelResponse
-    APNSVoipChannelResponse,
+    APNSVoipChannelResponse (APNSVoipChannelResponse'),
     newAPNSVoipChannelResponse,
     aPNSVoipChannelResponse_applicationId,
     aPNSVoipChannelResponse_creationDate,
@@ -265,7 +265,7 @@ module Amazonka.Pinpoint.Types
     aPNSVoipChannelResponse_platform,
 
     -- * APNSVoipSandboxChannelRequest
-    APNSVoipSandboxChannelRequest,
+    APNSVoipSandboxChannelRequest (APNSVoipSandboxChannelRequest'),
     newAPNSVoipSandboxChannelRequest,
     aPNSVoipSandboxChannelRequest_bundleId,
     aPNSVoipSandboxChannelRequest_certificate,
@@ -277,7 +277,7 @@ module Amazonka.Pinpoint.Types
     aPNSVoipSandboxChannelRequest_tokenKeyId,
 
     -- * APNSVoipSandboxChannelResponse
-    APNSVoipSandboxChannelResponse,
+    APNSVoipSandboxChannelResponse (APNSVoipSandboxChannelResponse'),
     newAPNSVoipSandboxChannelResponse,
     aPNSVoipSandboxChannelResponse_applicationId,
     aPNSVoipSandboxChannelResponse_creationDate,
@@ -293,13 +293,13 @@ module Amazonka.Pinpoint.Types
     aPNSVoipSandboxChannelResponse_platform,
 
     -- * ActivitiesResponse
-    ActivitiesResponse,
+    ActivitiesResponse (ActivitiesResponse'),
     newActivitiesResponse,
     activitiesResponse_nextToken,
     activitiesResponse_item,
 
     -- * Activity
-    Activity,
+    Activity (Activity'),
     newActivity,
     activity_custom,
     activity_conditionalSplit,
@@ -314,7 +314,7 @@ module Amazonka.Pinpoint.Types
     activity_wait,
 
     -- * ActivityResponse
-    ActivityResponse,
+    ActivityResponse (ActivityResponse'),
     newActivityResponse,
     activityResponse_end,
     activityResponse_result,
@@ -331,7 +331,7 @@ module Amazonka.Pinpoint.Types
     activityResponse_applicationId,
 
     -- * AddressConfiguration
-    AddressConfiguration,
+    AddressConfiguration (AddressConfiguration'),
     newAddressConfiguration,
     addressConfiguration_bodyOverride,
     addressConfiguration_channelType,
@@ -341,7 +341,7 @@ module Amazonka.Pinpoint.Types
     addressConfiguration_titleOverride,
 
     -- * AndroidPushNotificationTemplate
-    AndroidPushNotificationTemplate,
+    AndroidPushNotificationTemplate (AndroidPushNotificationTemplate'),
     newAndroidPushNotificationTemplate,
     androidPushNotificationTemplate_action,
     androidPushNotificationTemplate_body,
@@ -354,7 +354,7 @@ module Amazonka.Pinpoint.Types
     androidPushNotificationTemplate_url,
 
     -- * ApplicationDateRangeKpiResponse
-    ApplicationDateRangeKpiResponse,
+    ApplicationDateRangeKpiResponse (ApplicationDateRangeKpiResponse'),
     newApplicationDateRangeKpiResponse,
     applicationDateRangeKpiResponse_nextToken,
     applicationDateRangeKpiResponse_kpiResult,
@@ -364,7 +364,7 @@ module Amazonka.Pinpoint.Types
     applicationDateRangeKpiResponse_applicationId,
 
     -- * ApplicationResponse
-    ApplicationResponse,
+    ApplicationResponse (ApplicationResponse'),
     newApplicationResponse,
     applicationResponse_creationDate,
     applicationResponse_tags,
@@ -373,7 +373,7 @@ module Amazonka.Pinpoint.Types
     applicationResponse_name,
 
     -- * ApplicationSettingsResource
-    ApplicationSettingsResource,
+    ApplicationSettingsResource (ApplicationSettingsResource'),
     newApplicationSettingsResource,
     applicationSettingsResource_campaignHook,
     applicationSettingsResource_lastModifiedDate,
@@ -382,33 +382,33 @@ module Amazonka.Pinpoint.Types
     applicationSettingsResource_applicationId,
 
     -- * ApplicationsResponse
-    ApplicationsResponse,
+    ApplicationsResponse (ApplicationsResponse'),
     newApplicationsResponse,
     applicationsResponse_item,
     applicationsResponse_nextToken,
 
     -- * AttributeDimension
-    AttributeDimension,
+    AttributeDimension (AttributeDimension'),
     newAttributeDimension,
     attributeDimension_attributeType,
     attributeDimension_values,
 
     -- * AttributesResource
-    AttributesResource,
+    AttributesResource (AttributesResource'),
     newAttributesResource,
     attributesResource_attributes,
     attributesResource_attributeType,
     attributesResource_applicationId,
 
     -- * BaiduChannelRequest
-    BaiduChannelRequest,
+    BaiduChannelRequest (BaiduChannelRequest'),
     newBaiduChannelRequest,
     baiduChannelRequest_enabled,
     baiduChannelRequest_secretKey,
     baiduChannelRequest_apiKey,
 
     -- * BaiduChannelResponse
-    BaiduChannelResponse,
+    BaiduChannelResponse (BaiduChannelResponse'),
     newBaiduChannelResponse,
     baiduChannelResponse_applicationId,
     baiduChannelResponse_creationDate,
@@ -423,7 +423,7 @@ module Amazonka.Pinpoint.Types
     baiduChannelResponse_platform,
 
     -- * BaiduMessage
-    BaiduMessage,
+    BaiduMessage (BaiduMessage'),
     newBaiduMessage,
     baiduMessage_action,
     baiduMessage_body,
@@ -441,17 +441,17 @@ module Amazonka.Pinpoint.Types
     baiduMessage_url,
 
     -- * BaseKpiResult
-    BaseKpiResult,
+    BaseKpiResult (BaseKpiResult'),
     newBaseKpiResult,
     baseKpiResult_rows,
 
     -- * CampaignCustomMessage
-    CampaignCustomMessage,
+    CampaignCustomMessage (CampaignCustomMessage'),
     newCampaignCustomMessage,
     campaignCustomMessage_data,
 
     -- * CampaignDateRangeKpiResponse
-    CampaignDateRangeKpiResponse,
+    CampaignDateRangeKpiResponse (CampaignDateRangeKpiResponse'),
     newCampaignDateRangeKpiResponse,
     campaignDateRangeKpiResponse_nextToken,
     campaignDateRangeKpiResponse_kpiResult,
@@ -462,7 +462,7 @@ module Amazonka.Pinpoint.Types
     campaignDateRangeKpiResponse_applicationId,
 
     -- * CampaignEmailMessage
-    CampaignEmailMessage,
+    CampaignEmailMessage (CampaignEmailMessage'),
     newCampaignEmailMessage,
     campaignEmailMessage_body,
     campaignEmailMessage_fromAddress,
@@ -470,20 +470,20 @@ module Amazonka.Pinpoint.Types
     campaignEmailMessage_title,
 
     -- * CampaignEventFilter
-    CampaignEventFilter,
+    CampaignEventFilter (CampaignEventFilter'),
     newCampaignEventFilter,
     campaignEventFilter_filterType,
     campaignEventFilter_dimensions,
 
     -- * CampaignHook
-    CampaignHook,
+    CampaignHook (CampaignHook'),
     newCampaignHook,
     campaignHook_lambdaFunctionName,
     campaignHook_mode,
     campaignHook_webUrl,
 
     -- * CampaignInAppMessage
-    CampaignInAppMessage,
+    CampaignInAppMessage (CampaignInAppMessage'),
     newCampaignInAppMessage,
     campaignInAppMessage_body,
     campaignInAppMessage_content,
@@ -491,7 +491,7 @@ module Amazonka.Pinpoint.Types
     campaignInAppMessage_layout,
 
     -- * CampaignLimits
-    CampaignLimits,
+    CampaignLimits (CampaignLimits'),
     newCampaignLimits,
     campaignLimits_daily,
     campaignLimits_maximumDuration,
@@ -500,7 +500,7 @@ module Amazonka.Pinpoint.Types
     campaignLimits_total,
 
     -- * CampaignResponse
-    CampaignResponse,
+    CampaignResponse (CampaignResponse'),
     newCampaignResponse,
     campaignResponse_additionalTreatments,
     campaignResponse_customDeliveryConfiguration,
@@ -529,7 +529,7 @@ module Amazonka.Pinpoint.Types
     campaignResponse_applicationId,
 
     -- * CampaignSmsMessage
-    CampaignSmsMessage,
+    CampaignSmsMessage (CampaignSmsMessage'),
     newCampaignSmsMessage,
     campaignSmsMessage_body,
     campaignSmsMessage_entityId,
@@ -539,18 +539,18 @@ module Amazonka.Pinpoint.Types
     campaignSmsMessage_templateId,
 
     -- * CampaignState
-    CampaignState,
+    CampaignState (CampaignState'),
     newCampaignState,
     campaignState_campaignStatus,
 
     -- * CampaignsResponse
-    CampaignsResponse,
+    CampaignsResponse (CampaignsResponse'),
     newCampaignsResponse,
     campaignsResponse_nextToken,
     campaignsResponse_item,
 
     -- * ChannelResponse
-    ChannelResponse,
+    ChannelResponse (ChannelResponse'),
     newChannelResponse,
     channelResponse_applicationId,
     channelResponse_creationDate,
@@ -563,12 +563,12 @@ module Amazonka.Pinpoint.Types
     channelResponse_version,
 
     -- * ChannelsResponse
-    ChannelsResponse,
+    ChannelsResponse (ChannelsResponse'),
     newChannelsResponse,
     channelsResponse_channels,
 
     -- * ClosedDays
-    ClosedDays,
+    ClosedDays (ClosedDays'),
     newClosedDays,
     closedDays_custom,
     closedDays_email,
@@ -577,20 +577,20 @@ module Amazonka.Pinpoint.Types
     closedDays_voice,
 
     -- * ClosedDaysRule
-    ClosedDaysRule,
+    ClosedDaysRule (ClosedDaysRule'),
     newClosedDaysRule,
     closedDaysRule_endDateTime,
     closedDaysRule_name,
     closedDaysRule_startDateTime,
 
     -- * Condition
-    Condition,
+    Condition (Condition'),
     newCondition,
     condition_conditions,
     condition_operator,
 
     -- * ConditionalSplitActivity
-    ConditionalSplitActivity,
+    ConditionalSplitActivity (ConditionalSplitActivity'),
     newConditionalSplitActivity,
     conditionalSplitActivity_condition,
     conditionalSplitActivity_evaluationWaitTime,
@@ -598,18 +598,18 @@ module Amazonka.Pinpoint.Types
     conditionalSplitActivity_trueActivity,
 
     -- * ContactCenterActivity
-    ContactCenterActivity,
+    ContactCenterActivity (ContactCenterActivity'),
     newContactCenterActivity,
     contactCenterActivity_nextActivity,
 
     -- * CreateApplicationRequest
-    CreateApplicationRequest,
+    CreateApplicationRequest (CreateApplicationRequest'),
     newCreateApplicationRequest,
     createApplicationRequest_tags,
     createApplicationRequest_name,
 
     -- * CreateRecommenderConfiguration
-    CreateRecommenderConfiguration,
+    CreateRecommenderConfiguration (CreateRecommenderConfiguration'),
     newCreateRecommenderConfiguration,
     createRecommenderConfiguration_attributes,
     createRecommenderConfiguration_description,
@@ -622,20 +622,20 @@ module Amazonka.Pinpoint.Types
     createRecommenderConfiguration_recommendationProviderRoleArn,
 
     -- * CreateTemplateMessageBody
-    CreateTemplateMessageBody,
+    CreateTemplateMessageBody (CreateTemplateMessageBody'),
     newCreateTemplateMessageBody,
     createTemplateMessageBody_arn,
     createTemplateMessageBody_message,
     createTemplateMessageBody_requestID,
 
     -- * CustomDeliveryConfiguration
-    CustomDeliveryConfiguration,
+    CustomDeliveryConfiguration (CustomDeliveryConfiguration'),
     newCustomDeliveryConfiguration,
     customDeliveryConfiguration_endpointTypes,
     customDeliveryConfiguration_deliveryUri,
 
     -- * CustomMessageActivity
-    CustomMessageActivity,
+    CustomMessageActivity (CustomMessageActivity'),
     newCustomMessageActivity,
     customMessageActivity_deliveryUri,
     customMessageActivity_endpointTypes,
@@ -645,7 +645,7 @@ module Amazonka.Pinpoint.Types
     customMessageActivity_templateVersion,
 
     -- * DefaultButtonConfiguration
-    DefaultButtonConfiguration,
+    DefaultButtonConfiguration (DefaultButtonConfiguration'),
     newDefaultButtonConfiguration,
     defaultButtonConfiguration_backgroundColor,
     defaultButtonConfiguration_borderRadius,
@@ -655,13 +655,13 @@ module Amazonka.Pinpoint.Types
     defaultButtonConfiguration_text,
 
     -- * DefaultMessage
-    DefaultMessage,
+    DefaultMessage (DefaultMessage'),
     newDefaultMessage,
     defaultMessage_body,
     defaultMessage_substitutions,
 
     -- * DefaultPushNotificationMessage
-    DefaultPushNotificationMessage,
+    DefaultPushNotificationMessage (DefaultPushNotificationMessage'),
     newDefaultPushNotificationMessage,
     defaultPushNotificationMessage_action,
     defaultPushNotificationMessage_body,
@@ -672,7 +672,7 @@ module Amazonka.Pinpoint.Types
     defaultPushNotificationMessage_url,
 
     -- * DefaultPushNotificationTemplate
-    DefaultPushNotificationTemplate,
+    DefaultPushNotificationTemplate (DefaultPushNotificationTemplate'),
     newDefaultPushNotificationTemplate,
     defaultPushNotificationTemplate_action,
     defaultPushNotificationTemplate_body,
@@ -681,7 +681,7 @@ module Amazonka.Pinpoint.Types
     defaultPushNotificationTemplate_url,
 
     -- * DirectMessageConfiguration
-    DirectMessageConfiguration,
+    DirectMessageConfiguration (DirectMessageConfiguration'),
     newDirectMessageConfiguration,
     directMessageConfiguration_aDMMessage,
     directMessageConfiguration_aPNSMessage,
@@ -694,7 +694,7 @@ module Amazonka.Pinpoint.Types
     directMessageConfiguration_voiceMessage,
 
     -- * EmailChannelRequest
-    EmailChannelRequest,
+    EmailChannelRequest (EmailChannelRequest'),
     newEmailChannelRequest,
     emailChannelRequest_configurationSet,
     emailChannelRequest_enabled,
@@ -703,7 +703,7 @@ module Amazonka.Pinpoint.Types
     emailChannelRequest_identity,
 
     -- * EmailChannelResponse
-    EmailChannelResponse,
+    EmailChannelResponse (EmailChannelResponse'),
     newEmailChannelResponse,
     emailChannelResponse_applicationId,
     emailChannelResponse_configurationSet,
@@ -722,7 +722,7 @@ module Amazonka.Pinpoint.Types
     emailChannelResponse_platform,
 
     -- * EmailMessage
-    EmailMessage,
+    EmailMessage (EmailMessage'),
     newEmailMessage,
     emailMessage_body,
     emailMessage_feedbackForwardingAddress,
@@ -733,7 +733,7 @@ module Amazonka.Pinpoint.Types
     emailMessage_substitutions,
 
     -- * EmailMessageActivity
-    EmailMessageActivity,
+    EmailMessageActivity (EmailMessageActivity'),
     newEmailMessageActivity,
     emailMessageActivity_messageConfig,
     emailMessageActivity_nextActivity,
@@ -741,7 +741,7 @@ module Amazonka.Pinpoint.Types
     emailMessageActivity_templateVersion,
 
     -- * EmailTemplateRequest
-    EmailTemplateRequest,
+    EmailTemplateRequest (EmailTemplateRequest'),
     newEmailTemplateRequest,
     emailTemplateRequest_defaultSubstitutions,
     emailTemplateRequest_htmlPart,
@@ -752,7 +752,7 @@ module Amazonka.Pinpoint.Types
     emailTemplateRequest_tags,
 
     -- * EmailTemplateResponse
-    EmailTemplateResponse,
+    EmailTemplateResponse (EmailTemplateResponse'),
     newEmailTemplateResponse,
     emailTemplateResponse_arn,
     emailTemplateResponse_defaultSubstitutions,
@@ -769,7 +769,7 @@ module Amazonka.Pinpoint.Types
     emailTemplateResponse_templateType,
 
     -- * EndpointBatchItem
-    EndpointBatchItem,
+    EndpointBatchItem (EndpointBatchItem'),
     newEndpointBatchItem,
     endpointBatchItem_address,
     endpointBatchItem_attributes,
@@ -785,12 +785,12 @@ module Amazonka.Pinpoint.Types
     endpointBatchItem_user,
 
     -- * EndpointBatchRequest
-    EndpointBatchRequest,
+    EndpointBatchRequest (EndpointBatchRequest'),
     newEndpointBatchRequest,
     endpointBatchRequest_item,
 
     -- * EndpointDemographic
-    EndpointDemographic,
+    EndpointDemographic (EndpointDemographic'),
     newEndpointDemographic,
     endpointDemographic_appVersion,
     endpointDemographic_locale,
@@ -802,13 +802,13 @@ module Amazonka.Pinpoint.Types
     endpointDemographic_timezone,
 
     -- * EndpointItemResponse
-    EndpointItemResponse,
+    EndpointItemResponse (EndpointItemResponse'),
     newEndpointItemResponse,
     endpointItemResponse_message,
     endpointItemResponse_statusCode,
 
     -- * EndpointLocation
-    EndpointLocation,
+    EndpointLocation (EndpointLocation'),
     newEndpointLocation,
     endpointLocation_city,
     endpointLocation_country,
@@ -818,7 +818,7 @@ module Amazonka.Pinpoint.Types
     endpointLocation_region,
 
     -- * EndpointMessageResult
-    EndpointMessageResult,
+    EndpointMessageResult (EndpointMessageResult'),
     newEndpointMessageResult,
     endpointMessageResult_address,
     endpointMessageResult_messageId,
@@ -828,7 +828,7 @@ module Amazonka.Pinpoint.Types
     endpointMessageResult_statusCode,
 
     -- * EndpointRequest
-    EndpointRequest,
+    EndpointRequest (EndpointRequest'),
     newEndpointRequest,
     endpointRequest_address,
     endpointRequest_attributes,
@@ -843,7 +843,7 @@ module Amazonka.Pinpoint.Types
     endpointRequest_user,
 
     -- * EndpointResponse
-    EndpointResponse,
+    EndpointResponse (EndpointResponse'),
     newEndpointResponse,
     endpointResponse_address,
     endpointResponse_applicationId,
@@ -862,7 +862,7 @@ module Amazonka.Pinpoint.Types
     endpointResponse_user,
 
     -- * EndpointSendConfiguration
-    EndpointSendConfiguration,
+    EndpointSendConfiguration (EndpointSendConfiguration'),
     newEndpointSendConfiguration,
     endpointSendConfiguration_bodyOverride,
     endpointSendConfiguration_context,
@@ -871,18 +871,18 @@ module Amazonka.Pinpoint.Types
     endpointSendConfiguration_titleOverride,
 
     -- * EndpointUser
-    EndpointUser,
+    EndpointUser (EndpointUser'),
     newEndpointUser,
     endpointUser_userAttributes,
     endpointUser_userId,
 
     -- * EndpointsResponse
-    EndpointsResponse,
+    EndpointsResponse (EndpointsResponse'),
     newEndpointsResponse,
     endpointsResponse_item,
 
     -- * Event
-    Event,
+    Event (Event'),
     newEvent,
     event_appPackageName,
     event_appTitle,
@@ -896,38 +896,38 @@ module Amazonka.Pinpoint.Types
     event_timestamp,
 
     -- * EventCondition
-    EventCondition,
+    EventCondition (EventCondition'),
     newEventCondition,
     eventCondition_dimensions,
     eventCondition_messageActivity,
 
     -- * EventDimensions
-    EventDimensions,
+    EventDimensions (EventDimensions'),
     newEventDimensions,
     eventDimensions_attributes,
     eventDimensions_eventType,
     eventDimensions_metrics,
 
     -- * EventFilter
-    EventFilter,
+    EventFilter (EventFilter'),
     newEventFilter,
     eventFilter_filterType,
     eventFilter_dimensions,
 
     -- * EventItemResponse
-    EventItemResponse,
+    EventItemResponse (EventItemResponse'),
     newEventItemResponse,
     eventItemResponse_message,
     eventItemResponse_statusCode,
 
     -- * EventStartCondition
-    EventStartCondition,
+    EventStartCondition (EventStartCondition'),
     newEventStartCondition,
     eventStartCondition_eventFilter,
     eventStartCondition_segmentId,
 
     -- * EventStream
-    EventStream,
+    EventStream (EventStream'),
     newEventStream,
     eventStream_externalId,
     eventStream_lastModifiedDate,
@@ -937,23 +937,23 @@ module Amazonka.Pinpoint.Types
     eventStream_destinationStreamArn,
 
     -- * EventsBatch
-    EventsBatch,
+    EventsBatch (EventsBatch'),
     newEventsBatch,
     eventsBatch_endpoint,
     eventsBatch_events,
 
     -- * EventsRequest
-    EventsRequest,
+    EventsRequest (EventsRequest'),
     newEventsRequest,
     eventsRequest_batchItem,
 
     -- * EventsResponse
-    EventsResponse,
+    EventsResponse (EventsResponse'),
     newEventsResponse,
     eventsResponse_results,
 
     -- * ExportJobRequest
-    ExportJobRequest,
+    ExportJobRequest (ExportJobRequest'),
     newExportJobRequest,
     exportJobRequest_segmentId,
     exportJobRequest_segmentVersion,
@@ -961,7 +961,7 @@ module Amazonka.Pinpoint.Types
     exportJobRequest_roleArn,
 
     -- * ExportJobResource
-    ExportJobResource,
+    ExportJobResource (ExportJobResource'),
     newExportJobResource,
     exportJobResource_segmentId,
     exportJobResource_segmentVersion,
@@ -969,7 +969,7 @@ module Amazonka.Pinpoint.Types
     exportJobResource_roleArn,
 
     -- * ExportJobResponse
-    ExportJobResponse,
+    ExportJobResponse (ExportJobResponse'),
     newExportJobResponse,
     exportJobResponse_completedPieces,
     exportJobResponse_completionDate,
@@ -986,19 +986,19 @@ module Amazonka.Pinpoint.Types
     exportJobResponse_applicationId,
 
     -- * ExportJobsResponse
-    ExportJobsResponse,
+    ExportJobsResponse (ExportJobsResponse'),
     newExportJobsResponse,
     exportJobsResponse_nextToken,
     exportJobsResponse_item,
 
     -- * GCMChannelRequest
-    GCMChannelRequest,
+    GCMChannelRequest (GCMChannelRequest'),
     newGCMChannelRequest,
     gCMChannelRequest_enabled,
     gCMChannelRequest_apiKey,
 
     -- * GCMChannelResponse
-    GCMChannelResponse,
+    GCMChannelResponse (GCMChannelResponse'),
     newGCMChannelResponse,
     gCMChannelResponse_applicationId,
     gCMChannelResponse_creationDate,
@@ -1013,7 +1013,7 @@ module Amazonka.Pinpoint.Types
     gCMChannelResponse_platform,
 
     -- * GCMMessage
-    GCMMessage,
+    GCMMessage (GCMMessage'),
     newGCMMessage,
     gCMMessage_action,
     gCMMessage_body,
@@ -1034,25 +1034,25 @@ module Amazonka.Pinpoint.Types
     gCMMessage_url,
 
     -- * GPSCoordinates
-    GPSCoordinates,
+    GPSCoordinates (GPSCoordinates'),
     newGPSCoordinates,
     gPSCoordinates_latitude,
     gPSCoordinates_longitude,
 
     -- * GPSPointDimension
-    GPSPointDimension,
+    GPSPointDimension (GPSPointDimension'),
     newGPSPointDimension,
     gPSPointDimension_rangeInKilometers,
     gPSPointDimension_coordinates,
 
     -- * HoldoutActivity
-    HoldoutActivity,
+    HoldoutActivity (HoldoutActivity'),
     newHoldoutActivity,
     holdoutActivity_nextActivity,
     holdoutActivity_percentage,
 
     -- * ImportJobRequest
-    ImportJobRequest,
+    ImportJobRequest (ImportJobRequest'),
     newImportJobRequest,
     importJobRequest_defineSegment,
     importJobRequest_externalId,
@@ -1064,7 +1064,7 @@ module Amazonka.Pinpoint.Types
     importJobRequest_roleArn,
 
     -- * ImportJobResource
-    ImportJobResource,
+    ImportJobResource (ImportJobResource'),
     newImportJobResource,
     importJobResource_defineSegment,
     importJobResource_externalId,
@@ -1076,7 +1076,7 @@ module Amazonka.Pinpoint.Types
     importJobResource_roleArn,
 
     -- * ImportJobResponse
-    ImportJobResponse,
+    ImportJobResponse (ImportJobResponse'),
     newImportJobResponse,
     importJobResponse_completedPieces,
     importJobResponse_completionDate,
@@ -1093,34 +1093,34 @@ module Amazonka.Pinpoint.Types
     importJobResponse_applicationId,
 
     -- * ImportJobsResponse
-    ImportJobsResponse,
+    ImportJobsResponse (ImportJobsResponse'),
     newImportJobsResponse,
     importJobsResponse_nextToken,
     importJobsResponse_item,
 
     -- * InAppCampaignSchedule
-    InAppCampaignSchedule,
+    InAppCampaignSchedule (InAppCampaignSchedule'),
     newInAppCampaignSchedule,
     inAppCampaignSchedule_endDate,
     inAppCampaignSchedule_eventFilter,
     inAppCampaignSchedule_quietTime,
 
     -- * InAppMessage
-    InAppMessage,
+    InAppMessage (InAppMessage'),
     newInAppMessage,
     inAppMessage_content,
     inAppMessage_customConfig,
     inAppMessage_layout,
 
     -- * InAppMessageBodyConfig
-    InAppMessageBodyConfig,
+    InAppMessageBodyConfig (InAppMessageBodyConfig'),
     newInAppMessageBodyConfig,
     inAppMessageBodyConfig_alignment,
     inAppMessageBodyConfig_textColor,
     inAppMessageBodyConfig_body,
 
     -- * InAppMessageButton
-    InAppMessageButton,
+    InAppMessageButton (InAppMessageButton'),
     newInAppMessageButton,
     inAppMessageButton_android,
     inAppMessageButton_defaultConfig,
@@ -1128,7 +1128,7 @@ module Amazonka.Pinpoint.Types
     inAppMessageButton_web,
 
     -- * InAppMessageCampaign
-    InAppMessageCampaign,
+    InAppMessageCampaign (InAppMessageCampaign'),
     newInAppMessageCampaign,
     inAppMessageCampaign_campaignId,
     inAppMessageCampaign_dailyCap,
@@ -1140,7 +1140,7 @@ module Amazonka.Pinpoint.Types
     inAppMessageCampaign_treatmentId,
 
     -- * InAppMessageContent
-    InAppMessageContent,
+    InAppMessageContent (InAppMessageContent'),
     newInAppMessageContent,
     inAppMessageContent_backgroundColor,
     inAppMessageContent_bodyConfig,
@@ -1150,19 +1150,19 @@ module Amazonka.Pinpoint.Types
     inAppMessageContent_secondaryBtn,
 
     -- * InAppMessageHeaderConfig
-    InAppMessageHeaderConfig,
+    InAppMessageHeaderConfig (InAppMessageHeaderConfig'),
     newInAppMessageHeaderConfig,
     inAppMessageHeaderConfig_alignment,
     inAppMessageHeaderConfig_header,
     inAppMessageHeaderConfig_textColor,
 
     -- * InAppMessagesResponse
-    InAppMessagesResponse,
+    InAppMessagesResponse (InAppMessagesResponse'),
     newInAppMessagesResponse,
     inAppMessagesResponse_inAppMessageCampaigns,
 
     -- * InAppTemplateRequest
-    InAppTemplateRequest,
+    InAppTemplateRequest (InAppTemplateRequest'),
     newInAppTemplateRequest,
     inAppTemplateRequest_content,
     inAppTemplateRequest_customConfig,
@@ -1171,7 +1171,7 @@ module Amazonka.Pinpoint.Types
     inAppTemplateRequest_tags,
 
     -- * InAppTemplateResponse
-    InAppTemplateResponse,
+    InAppTemplateResponse (InAppTemplateResponse'),
     newInAppTemplateResponse,
     inAppTemplateResponse_arn,
     inAppTemplateResponse_content,
@@ -1186,24 +1186,24 @@ module Amazonka.Pinpoint.Types
     inAppTemplateResponse_templateType,
 
     -- * ItemResponse
-    ItemResponse,
+    ItemResponse (ItemResponse'),
     newItemResponse,
     itemResponse_endpointItemResponse,
     itemResponse_eventsItemResponse,
 
     -- * JourneyChannelSettings
-    JourneyChannelSettings,
+    JourneyChannelSettings (JourneyChannelSettings'),
     newJourneyChannelSettings,
     journeyChannelSettings_connectCampaignArn,
     journeyChannelSettings_connectCampaignExecutionRoleArn,
 
     -- * JourneyCustomMessage
-    JourneyCustomMessage,
+    JourneyCustomMessage (JourneyCustomMessage'),
     newJourneyCustomMessage,
     journeyCustomMessage_data,
 
     -- * JourneyDateRangeKpiResponse
-    JourneyDateRangeKpiResponse,
+    JourneyDateRangeKpiResponse (JourneyDateRangeKpiResponse'),
     newJourneyDateRangeKpiResponse,
     journeyDateRangeKpiResponse_nextToken,
     journeyDateRangeKpiResponse_kpiResult,
@@ -1214,12 +1214,12 @@ module Amazonka.Pinpoint.Types
     journeyDateRangeKpiResponse_applicationId,
 
     -- * JourneyEmailMessage
-    JourneyEmailMessage,
+    JourneyEmailMessage (JourneyEmailMessage'),
     newJourneyEmailMessage,
     journeyEmailMessage_fromAddress,
 
     -- * JourneyExecutionActivityMetricsResponse
-    JourneyExecutionActivityMetricsResponse,
+    JourneyExecutionActivityMetricsResponse (JourneyExecutionActivityMetricsResponse'),
     newJourneyExecutionActivityMetricsResponse,
     journeyExecutionActivityMetricsResponse_metrics,
     journeyExecutionActivityMetricsResponse_journeyId,
@@ -1229,7 +1229,7 @@ module Amazonka.Pinpoint.Types
     journeyExecutionActivityMetricsResponse_applicationId,
 
     -- * JourneyExecutionMetricsResponse
-    JourneyExecutionMetricsResponse,
+    JourneyExecutionMetricsResponse (JourneyExecutionMetricsResponse'),
     newJourneyExecutionMetricsResponse,
     journeyExecutionMetricsResponse_metrics,
     journeyExecutionMetricsResponse_journeyId,
@@ -1237,7 +1237,7 @@ module Amazonka.Pinpoint.Types
     journeyExecutionMetricsResponse_applicationId,
 
     -- * JourneyLimits
-    JourneyLimits,
+    JourneyLimits (JourneyLimits'),
     newJourneyLimits,
     journeyLimits_dailyCap,
     journeyLimits_endpointReentryCap,
@@ -1245,12 +1245,12 @@ module Amazonka.Pinpoint.Types
     journeyLimits_messagesPerSecond,
 
     -- * JourneyPushMessage
-    JourneyPushMessage,
+    JourneyPushMessage (JourneyPushMessage'),
     newJourneyPushMessage,
     journeyPushMessage_timeToLive,
 
     -- * JourneyResponse
-    JourneyResponse,
+    JourneyResponse (JourneyResponse'),
     newJourneyResponse,
     journeyResponse_activities,
     journeyResponse_closedDays,
@@ -1275,7 +1275,7 @@ module Amazonka.Pinpoint.Types
     journeyResponse_applicationId,
 
     -- * JourneySMSMessage
-    JourneySMSMessage,
+    JourneySMSMessage (JourneySMSMessage'),
     newJourneySMSMessage,
     journeySMSMessage_entityId,
     journeySMSMessage_messageType,
@@ -1284,31 +1284,31 @@ module Amazonka.Pinpoint.Types
     journeySMSMessage_templateId,
 
     -- * JourneySchedule
-    JourneySchedule,
+    JourneySchedule (JourneySchedule'),
     newJourneySchedule,
     journeySchedule_endTime,
     journeySchedule_startTime,
     journeySchedule_timezone,
 
     -- * JourneyStateRequest
-    JourneyStateRequest,
+    JourneyStateRequest (JourneyStateRequest'),
     newJourneyStateRequest,
     journeyStateRequest_state,
 
     -- * JourneysResponse
-    JourneysResponse,
+    JourneysResponse (JourneysResponse'),
     newJourneysResponse,
     journeysResponse_nextToken,
     journeysResponse_item,
 
     -- * ListRecommenderConfigurationsResponse
-    ListRecommenderConfigurationsResponse,
+    ListRecommenderConfigurationsResponse (ListRecommenderConfigurationsResponse'),
     newListRecommenderConfigurationsResponse,
     listRecommenderConfigurationsResponse_nextToken,
     listRecommenderConfigurationsResponse_item,
 
     -- * Message
-    Message,
+    Message (Message'),
     newMessage,
     message_action,
     message_body,
@@ -1324,13 +1324,13 @@ module Amazonka.Pinpoint.Types
     message_url,
 
     -- * MessageBody
-    MessageBody,
+    MessageBody (MessageBody'),
     newMessageBody,
     messageBody_message,
     messageBody_requestID,
 
     -- * MessageConfiguration
-    MessageConfiguration,
+    MessageConfiguration (MessageConfiguration'),
     newMessageConfiguration,
     messageConfiguration_aDMMessage,
     messageConfiguration_aPNSMessage,
@@ -1343,7 +1343,7 @@ module Amazonka.Pinpoint.Types
     messageConfiguration_sMSMessage,
 
     -- * MessageRequest
-    MessageRequest,
+    MessageRequest (MessageRequest'),
     newMessageRequest,
     messageRequest_addresses,
     messageRequest_context,
@@ -1353,7 +1353,7 @@ module Amazonka.Pinpoint.Types
     messageRequest_messageConfiguration,
 
     -- * MessageResponse
-    MessageResponse,
+    MessageResponse (MessageResponse'),
     newMessageResponse,
     messageResponse_endpointResult,
     messageResponse_requestId,
@@ -1361,7 +1361,7 @@ module Amazonka.Pinpoint.Types
     messageResponse_applicationId,
 
     -- * MessageResult
-    MessageResult,
+    MessageResult (MessageResult'),
     newMessageResult,
     messageResult_messageId,
     messageResult_statusMessage,
@@ -1370,32 +1370,32 @@ module Amazonka.Pinpoint.Types
     messageResult_statusCode,
 
     -- * MetricDimension
-    MetricDimension,
+    MetricDimension (MetricDimension'),
     newMetricDimension,
     metricDimension_comparisonOperator,
     metricDimension_value,
 
     -- * MultiConditionalBranch
-    MultiConditionalBranch,
+    MultiConditionalBranch (MultiConditionalBranch'),
     newMultiConditionalBranch,
     multiConditionalBranch_condition,
     multiConditionalBranch_nextActivity,
 
     -- * MultiConditionalSplitActivity
-    MultiConditionalSplitActivity,
+    MultiConditionalSplitActivity (MultiConditionalSplitActivity'),
     newMultiConditionalSplitActivity,
     multiConditionalSplitActivity_branches,
     multiConditionalSplitActivity_defaultActivity,
     multiConditionalSplitActivity_evaluationWaitTime,
 
     -- * NumberValidateRequest
-    NumberValidateRequest,
+    NumberValidateRequest (NumberValidateRequest'),
     newNumberValidateRequest,
     numberValidateRequest_isoCountryCode,
     numberValidateRequest_phoneNumber,
 
     -- * NumberValidateResponse
-    NumberValidateResponse,
+    NumberValidateResponse (NumberValidateResponse'),
     newNumberValidateResponse,
     numberValidateResponse_carrier,
     numberValidateResponse_city,
@@ -1413,7 +1413,7 @@ module Amazonka.Pinpoint.Types
     numberValidateResponse_zipCode,
 
     -- * OpenHours
-    OpenHours,
+    OpenHours (OpenHours'),
     newOpenHours,
     openHours_custom,
     openHours_email,
@@ -1422,19 +1422,19 @@ module Amazonka.Pinpoint.Types
     openHours_voice,
 
     -- * OpenHoursRule
-    OpenHoursRule,
+    OpenHoursRule (OpenHoursRule'),
     newOpenHoursRule,
     openHoursRule_endTime,
     openHoursRule_startTime,
 
     -- * OverrideButtonConfiguration
-    OverrideButtonConfiguration,
+    OverrideButtonConfiguration (OverrideButtonConfiguration'),
     newOverrideButtonConfiguration,
     overrideButtonConfiguration_link,
     overrideButtonConfiguration_buttonAction,
 
     -- * PublicEndpoint
-    PublicEndpoint,
+    PublicEndpoint (PublicEndpoint'),
     newPublicEndpoint,
     publicEndpoint_address,
     publicEndpoint_attributes,
@@ -1449,7 +1449,7 @@ module Amazonka.Pinpoint.Types
     publicEndpoint_user,
 
     -- * PushMessageActivity
-    PushMessageActivity,
+    PushMessageActivity (PushMessageActivity'),
     newPushMessageActivity,
     pushMessageActivity_messageConfig,
     pushMessageActivity_nextActivity,
@@ -1457,7 +1457,7 @@ module Amazonka.Pinpoint.Types
     pushMessageActivity_templateVersion,
 
     -- * PushNotificationTemplateRequest
-    PushNotificationTemplateRequest,
+    PushNotificationTemplateRequest (PushNotificationTemplateRequest'),
     newPushNotificationTemplateRequest,
     pushNotificationTemplateRequest_adm,
     pushNotificationTemplateRequest_apns,
@@ -1470,7 +1470,7 @@ module Amazonka.Pinpoint.Types
     pushNotificationTemplateRequest_tags,
 
     -- * PushNotificationTemplateResponse
-    PushNotificationTemplateResponse,
+    PushNotificationTemplateResponse (PushNotificationTemplateResponse'),
     newPushNotificationTemplateResponse,
     pushNotificationTemplateResponse_adm,
     pushNotificationTemplateResponse_apns,
@@ -1489,35 +1489,35 @@ module Amazonka.Pinpoint.Types
     pushNotificationTemplateResponse_templateName,
 
     -- * QuietTime
-    QuietTime,
+    QuietTime (QuietTime'),
     newQuietTime,
     quietTime_end,
     quietTime_start,
 
     -- * RandomSplitActivity
-    RandomSplitActivity,
+    RandomSplitActivity (RandomSplitActivity'),
     newRandomSplitActivity,
     randomSplitActivity_branches,
 
     -- * RandomSplitEntry
-    RandomSplitEntry,
+    RandomSplitEntry (RandomSplitEntry'),
     newRandomSplitEntry,
     randomSplitEntry_nextActivity,
     randomSplitEntry_percentage,
 
     -- * RawEmail
-    RawEmail,
+    RawEmail (RawEmail'),
     newRawEmail,
     rawEmail_data,
 
     -- * RecencyDimension
-    RecencyDimension,
+    RecencyDimension (RecencyDimension'),
     newRecencyDimension,
     recencyDimension_duration,
     recencyDimension_recencyType,
 
     -- * RecommenderConfigurationResponse
-    RecommenderConfigurationResponse,
+    RecommenderConfigurationResponse (RecommenderConfigurationResponse'),
     newRecommenderConfigurationResponse,
     recommenderConfigurationResponse_attributes,
     recommenderConfigurationResponse_description,
@@ -1533,27 +1533,27 @@ module Amazonka.Pinpoint.Types
     recommenderConfigurationResponse_id,
 
     -- * ResultRow
-    ResultRow,
+    ResultRow (ResultRow'),
     newResultRow,
     resultRow_groupedBys,
     resultRow_values,
 
     -- * ResultRowValue
-    ResultRowValue,
+    ResultRowValue (ResultRowValue'),
     newResultRowValue,
     resultRowValue_type,
     resultRowValue_value,
     resultRowValue_key,
 
     -- * SMSChannelRequest
-    SMSChannelRequest,
+    SMSChannelRequest (SMSChannelRequest'),
     newSMSChannelRequest,
     sMSChannelRequest_enabled,
     sMSChannelRequest_senderId,
     sMSChannelRequest_shortCode,
 
     -- * SMSChannelResponse
-    SMSChannelResponse,
+    SMSChannelResponse (SMSChannelResponse'),
     newSMSChannelResponse,
     sMSChannelResponse_applicationId,
     sMSChannelResponse_creationDate,
@@ -1571,7 +1571,7 @@ module Amazonka.Pinpoint.Types
     sMSChannelResponse_platform,
 
     -- * SMSMessage
-    SMSMessage,
+    SMSMessage (SMSMessage'),
     newSMSMessage,
     sMSMessage_body,
     sMSMessage_entityId,
@@ -1584,7 +1584,7 @@ module Amazonka.Pinpoint.Types
     sMSMessage_templateId,
 
     -- * SMSMessageActivity
-    SMSMessageActivity,
+    SMSMessageActivity (SMSMessageActivity'),
     newSMSMessageActivity,
     sMSMessageActivity_messageConfig,
     sMSMessageActivity_nextActivity,
@@ -1592,7 +1592,7 @@ module Amazonka.Pinpoint.Types
     sMSMessageActivity_templateVersion,
 
     -- * SMSTemplateRequest
-    SMSTemplateRequest,
+    SMSTemplateRequest (SMSTemplateRequest'),
     newSMSTemplateRequest,
     sMSTemplateRequest_body,
     sMSTemplateRequest_defaultSubstitutions,
@@ -1601,7 +1601,7 @@ module Amazonka.Pinpoint.Types
     sMSTemplateRequest_tags,
 
     -- * SMSTemplateResponse
-    SMSTemplateResponse,
+    SMSTemplateResponse (SMSTemplateResponse'),
     newSMSTemplateResponse,
     sMSTemplateResponse_arn,
     sMSTemplateResponse_body,
@@ -1616,7 +1616,7 @@ module Amazonka.Pinpoint.Types
     sMSTemplateResponse_templateType,
 
     -- * Schedule
-    Schedule,
+    Schedule (Schedule'),
     newSchedule,
     schedule_endTime,
     schedule_eventFilter,
@@ -1627,17 +1627,17 @@ module Amazonka.Pinpoint.Types
     schedule_startTime,
 
     -- * SegmentBehaviors
-    SegmentBehaviors,
+    SegmentBehaviors (SegmentBehaviors'),
     newSegmentBehaviors,
     segmentBehaviors_recency,
 
     -- * SegmentCondition
-    SegmentCondition,
+    SegmentCondition (SegmentCondition'),
     newSegmentCondition,
     segmentCondition_segmentId,
 
     -- * SegmentDemographics
-    SegmentDemographics,
+    SegmentDemographics (SegmentDemographics'),
     newSegmentDemographics,
     segmentDemographics_appVersion,
     segmentDemographics_channel,
@@ -1647,7 +1647,7 @@ module Amazonka.Pinpoint.Types
     segmentDemographics_platform,
 
     -- * SegmentDimensions
-    SegmentDimensions,
+    SegmentDimensions (SegmentDimensions'),
     newSegmentDimensions,
     segmentDimensions_attributes,
     segmentDimensions_behavior,
@@ -1657,7 +1657,7 @@ module Amazonka.Pinpoint.Types
     segmentDimensions_userAttributes,
 
     -- * SegmentGroup
-    SegmentGroup,
+    SegmentGroup (SegmentGroup'),
     newSegmentGroup,
     segmentGroup_dimensions,
     segmentGroup_sourceSegments,
@@ -1665,13 +1665,13 @@ module Amazonka.Pinpoint.Types
     segmentGroup_type,
 
     -- * SegmentGroupList
-    SegmentGroupList,
+    SegmentGroupList (SegmentGroupList'),
     newSegmentGroupList,
     segmentGroupList_groups,
     segmentGroupList_include,
 
     -- * SegmentImportResource
-    SegmentImportResource,
+    SegmentImportResource (SegmentImportResource'),
     newSegmentImportResource,
     segmentImportResource_channelCounts,
     segmentImportResource_format,
@@ -1681,19 +1681,19 @@ module Amazonka.Pinpoint.Types
     segmentImportResource_roleArn,
 
     -- * SegmentLocation
-    SegmentLocation,
+    SegmentLocation (SegmentLocation'),
     newSegmentLocation,
     segmentLocation_country,
     segmentLocation_gPSPoint,
 
     -- * SegmentReference
-    SegmentReference,
+    SegmentReference (SegmentReference'),
     newSegmentReference,
     segmentReference_version,
     segmentReference_id,
 
     -- * SegmentResponse
-    SegmentResponse,
+    SegmentResponse (SegmentResponse'),
     newSegmentResponse,
     segmentResponse_dimensions,
     segmentResponse_importDefinition,
@@ -1709,13 +1709,13 @@ module Amazonka.Pinpoint.Types
     segmentResponse_applicationId,
 
     -- * SegmentsResponse
-    SegmentsResponse,
+    SegmentsResponse (SegmentsResponse'),
     newSegmentsResponse,
     segmentsResponse_nextToken,
     segmentsResponse_item,
 
     -- * SendOTPMessageRequestParameters
-    SendOTPMessageRequestParameters,
+    SendOTPMessageRequestParameters (SendOTPMessageRequestParameters'),
     newSendOTPMessageRequestParameters,
     sendOTPMessageRequestParameters_allowedAttempts,
     sendOTPMessageRequestParameters_codeLength,
@@ -1730,7 +1730,7 @@ module Amazonka.Pinpoint.Types
     sendOTPMessageRequestParameters_originationIdentity,
 
     -- * SendUsersMessageRequest
-    SendUsersMessageRequest,
+    SendUsersMessageRequest (SendUsersMessageRequest'),
     newSendUsersMessageRequest,
     sendUsersMessageRequest_context,
     sendUsersMessageRequest_templateConfiguration,
@@ -1739,14 +1739,14 @@ module Amazonka.Pinpoint.Types
     sendUsersMessageRequest_users,
 
     -- * SendUsersMessageResponse
-    SendUsersMessageResponse,
+    SendUsersMessageResponse (SendUsersMessageResponse'),
     newSendUsersMessageResponse,
     sendUsersMessageResponse_requestId,
     sendUsersMessageResponse_result,
     sendUsersMessageResponse_applicationId,
 
     -- * Session
-    Session,
+    Session (Session'),
     newSession,
     session_duration,
     session_stopTimestamp,
@@ -1754,56 +1754,56 @@ module Amazonka.Pinpoint.Types
     session_id,
 
     -- * SetDimension
-    SetDimension,
+    SetDimension (SetDimension'),
     newSetDimension,
     setDimension_dimensionType,
     setDimension_values,
 
     -- * SimpleCondition
-    SimpleCondition,
+    SimpleCondition (SimpleCondition'),
     newSimpleCondition,
     simpleCondition_eventCondition,
     simpleCondition_segmentCondition,
     simpleCondition_segmentDimensions,
 
     -- * SimpleEmail
-    SimpleEmail,
+    SimpleEmail (SimpleEmail'),
     newSimpleEmail,
     simpleEmail_htmlPart,
     simpleEmail_subject,
     simpleEmail_textPart,
 
     -- * SimpleEmailPart
-    SimpleEmailPart,
+    SimpleEmailPart (SimpleEmailPart'),
     newSimpleEmailPart,
     simpleEmailPart_charset,
     simpleEmailPart_data,
 
     -- * StartCondition
-    StartCondition,
+    StartCondition (StartCondition'),
     newStartCondition,
     startCondition_description,
     startCondition_eventStartCondition,
     startCondition_segmentStartCondition,
 
     -- * TagsModel
-    TagsModel,
+    TagsModel (TagsModel'),
     newTagsModel,
     tagsModel_tags,
 
     -- * Template
-    Template,
+    Template (Template'),
     newTemplate,
     template_name,
     template_version,
 
     -- * TemplateActiveVersionRequest
-    TemplateActiveVersionRequest,
+    TemplateActiveVersionRequest (TemplateActiveVersionRequest'),
     newTemplateActiveVersionRequest,
     templateActiveVersionRequest_version,
 
     -- * TemplateConfiguration
-    TemplateConfiguration,
+    TemplateConfiguration (TemplateConfiguration'),
     newTemplateConfiguration,
     templateConfiguration_emailTemplate,
     templateConfiguration_pushTemplate,
@@ -1811,14 +1811,14 @@ module Amazonka.Pinpoint.Types
     templateConfiguration_voiceTemplate,
 
     -- * TemplateCreateMessageBody
-    TemplateCreateMessageBody,
+    TemplateCreateMessageBody (TemplateCreateMessageBody'),
     newTemplateCreateMessageBody,
     templateCreateMessageBody_arn,
     templateCreateMessageBody_message,
     templateCreateMessageBody_requestID,
 
     -- * TemplateResponse
-    TemplateResponse,
+    TemplateResponse (TemplateResponse'),
     newTemplateResponse,
     templateResponse_arn,
     templateResponse_defaultSubstitutions,
@@ -1831,7 +1831,7 @@ module Amazonka.Pinpoint.Types
     templateResponse_templateType,
 
     -- * TemplateVersionResponse
-    TemplateVersionResponse,
+    TemplateVersionResponse (TemplateVersionResponse'),
     newTemplateVersionResponse,
     templateVersionResponse_defaultSubstitutions,
     templateVersionResponse_templateDescription,
@@ -1842,7 +1842,7 @@ module Amazonka.Pinpoint.Types
     templateVersionResponse_templateType,
 
     -- * TemplateVersionsResponse
-    TemplateVersionsResponse,
+    TemplateVersionsResponse (TemplateVersionsResponse'),
     newTemplateVersionsResponse,
     templateVersionsResponse_message,
     templateVersionsResponse_nextToken,
@@ -1850,13 +1850,13 @@ module Amazonka.Pinpoint.Types
     templateVersionsResponse_item,
 
     -- * TemplatesResponse
-    TemplatesResponse,
+    TemplatesResponse (TemplatesResponse'),
     newTemplatesResponse,
     templatesResponse_nextToken,
     templatesResponse_item,
 
     -- * TreatmentResource
-    TreatmentResource,
+    TreatmentResource (TreatmentResource'),
     newTreatmentResource,
     treatmentResource_customDeliveryConfiguration,
     treatmentResource_messageConfiguration,
@@ -1869,12 +1869,12 @@ module Amazonka.Pinpoint.Types
     treatmentResource_sizePercent,
 
     -- * UpdateAttributesRequest
-    UpdateAttributesRequest,
+    UpdateAttributesRequest (UpdateAttributesRequest'),
     newUpdateAttributesRequest,
     updateAttributesRequest_blacklist,
 
     -- * UpdateRecommenderConfiguration
-    UpdateRecommenderConfiguration,
+    UpdateRecommenderConfiguration (UpdateRecommenderConfiguration'),
     newUpdateRecommenderConfiguration,
     updateRecommenderConfiguration_attributes,
     updateRecommenderConfiguration_description,
@@ -1887,24 +1887,24 @@ module Amazonka.Pinpoint.Types
     updateRecommenderConfiguration_recommendationProviderRoleArn,
 
     -- * VerificationResponse
-    VerificationResponse,
+    VerificationResponse (VerificationResponse'),
     newVerificationResponse,
     verificationResponse_valid,
 
     -- * VerifyOTPMessageRequestParameters
-    VerifyOTPMessageRequestParameters,
+    VerifyOTPMessageRequestParameters (VerifyOTPMessageRequestParameters'),
     newVerifyOTPMessageRequestParameters,
     verifyOTPMessageRequestParameters_referenceId,
     verifyOTPMessageRequestParameters_otp,
     verifyOTPMessageRequestParameters_destinationIdentity,
 
     -- * VoiceChannelRequest
-    VoiceChannelRequest,
+    VoiceChannelRequest (VoiceChannelRequest'),
     newVoiceChannelRequest,
     voiceChannelRequest_enabled,
 
     -- * VoiceChannelResponse
-    VoiceChannelResponse,
+    VoiceChannelResponse (VoiceChannelResponse'),
     newVoiceChannelResponse,
     voiceChannelResponse_applicationId,
     voiceChannelResponse_creationDate,
@@ -1918,7 +1918,7 @@ module Amazonka.Pinpoint.Types
     voiceChannelResponse_platform,
 
     -- * VoiceMessage
-    VoiceMessage,
+    VoiceMessage (VoiceMessage'),
     newVoiceMessage,
     voiceMessage_body,
     voiceMessage_languageCode,
@@ -1927,7 +1927,7 @@ module Amazonka.Pinpoint.Types
     voiceMessage_voiceId,
 
     -- * VoiceTemplateRequest
-    VoiceTemplateRequest,
+    VoiceTemplateRequest (VoiceTemplateRequest'),
     newVoiceTemplateRequest,
     voiceTemplateRequest_body,
     voiceTemplateRequest_defaultSubstitutions,
@@ -1937,7 +1937,7 @@ module Amazonka.Pinpoint.Types
     voiceTemplateRequest_tags,
 
     -- * VoiceTemplateResponse
-    VoiceTemplateResponse,
+    VoiceTemplateResponse (VoiceTemplateResponse'),
     newVoiceTemplateResponse,
     voiceTemplateResponse_arn,
     voiceTemplateResponse_body,
@@ -1953,19 +1953,19 @@ module Amazonka.Pinpoint.Types
     voiceTemplateResponse_templateType,
 
     -- * WaitActivity
-    WaitActivity,
+    WaitActivity (WaitActivity'),
     newWaitActivity,
     waitActivity_nextActivity,
     waitActivity_waitTime,
 
     -- * WaitTime
-    WaitTime,
+    WaitTime (WaitTime'),
     newWaitTime,
     waitTime_waitFor,
     waitTime_waitUntil,
 
     -- * WriteApplicationSettingsRequest
-    WriteApplicationSettingsRequest,
+    WriteApplicationSettingsRequest (WriteApplicationSettingsRequest'),
     newWriteApplicationSettingsRequest,
     writeApplicationSettingsRequest_campaignHook,
     writeApplicationSettingsRequest_cloudWatchMetricsEnabled,
@@ -1974,7 +1974,7 @@ module Amazonka.Pinpoint.Types
     writeApplicationSettingsRequest_quietTime,
 
     -- * WriteCampaignRequest
-    WriteCampaignRequest,
+    WriteCampaignRequest (WriteCampaignRequest'),
     newWriteCampaignRequest,
     writeCampaignRequest_additionalTreatments,
     writeCampaignRequest_customDeliveryConfiguration,
@@ -1995,13 +1995,13 @@ module Amazonka.Pinpoint.Types
     writeCampaignRequest_tags,
 
     -- * WriteEventStream
-    WriteEventStream,
+    WriteEventStream (WriteEventStream'),
     newWriteEventStream,
     writeEventStream_roleArn,
     writeEventStream_destinationStreamArn,
 
     -- * WriteJourneyRequest
-    WriteJourneyRequest,
+    WriteJourneyRequest (WriteJourneyRequest'),
     newWriteJourneyRequest,
     writeJourneyRequest_activities,
     writeJourneyRequest_closedDays,
@@ -2023,7 +2023,7 @@ module Amazonka.Pinpoint.Types
     writeJourneyRequest_name,
 
     -- * WriteSegmentRequest
-    WriteSegmentRequest,
+    WriteSegmentRequest (WriteSegmentRequest'),
     newWriteSegmentRequest,
     writeSegmentRequest_dimensions,
     writeSegmentRequest_name,
@@ -2031,7 +2031,7 @@ module Amazonka.Pinpoint.Types
     writeSegmentRequest_tags,
 
     -- * WriteTreatmentResource
-    WriteTreatmentResource,
+    WriteTreatmentResource (WriteTreatmentResource'),
     newWriteTreatmentResource,
     writeTreatmentResource_customDeliveryConfiguration,
     writeTreatmentResource_messageConfiguration,

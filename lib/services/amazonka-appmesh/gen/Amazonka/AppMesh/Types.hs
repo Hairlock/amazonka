@@ -31,78 +31,78 @@ module Amazonka.AppMesh.Types
     _TooManyTagsException,
 
     -- * DefaultGatewayRouteRewrite
-    DefaultGatewayRouteRewrite,
+    DefaultGatewayRouteRewrite (DefaultGatewayRouteRewrite'),
 
     -- * DnsResponseType
-    DnsResponseType,
+    DnsResponseType (DnsResponseType'),
 
     -- * DurationUnit
-    DurationUnit,
+    DurationUnit (DurationUnit'),
 
     -- * EgressFilterType
-    EgressFilterType,
+    EgressFilterType (EgressFilterType'),
 
     -- * GatewayRouteStatusCode
-    GatewayRouteStatusCode,
+    GatewayRouteStatusCode (GatewayRouteStatusCode'),
 
     -- * GrpcRetryPolicyEvent
-    GrpcRetryPolicyEvent,
+    GrpcRetryPolicyEvent (GrpcRetryPolicyEvent'),
 
     -- * HttpMethod
-    HttpMethod,
+    HttpMethod (HttpMethod'),
 
     -- * HttpScheme
-    HttpScheme,
+    HttpScheme (HttpScheme'),
 
     -- * IpPreference
-    IpPreference,
+    IpPreference (IpPreference'),
 
     -- * ListenerTlsMode
-    ListenerTlsMode,
+    ListenerTlsMode (ListenerTlsMode'),
 
     -- * MeshStatusCode
-    MeshStatusCode,
+    MeshStatusCode (MeshStatusCode'),
 
     -- * PortProtocol
-    PortProtocol,
+    PortProtocol (PortProtocol'),
 
     -- * RouteStatusCode
-    RouteStatusCode,
+    RouteStatusCode (RouteStatusCode'),
 
     -- * TcpRetryPolicyEvent
-    TcpRetryPolicyEvent,
+    TcpRetryPolicyEvent (TcpRetryPolicyEvent'),
 
     -- * VirtualGatewayListenerTlsMode
-    VirtualGatewayListenerTlsMode,
+    VirtualGatewayListenerTlsMode (VirtualGatewayListenerTlsMode'),
 
     -- * VirtualGatewayPortProtocol
-    VirtualGatewayPortProtocol,
+    VirtualGatewayPortProtocol (VirtualGatewayPortProtocol'),
 
     -- * VirtualGatewayStatusCode
-    VirtualGatewayStatusCode,
+    VirtualGatewayStatusCode (VirtualGatewayStatusCode'),
 
     -- * VirtualNodeStatusCode
-    VirtualNodeStatusCode,
+    VirtualNodeStatusCode (VirtualNodeStatusCode'),
 
     -- * VirtualRouterStatusCode
-    VirtualRouterStatusCode,
+    VirtualRouterStatusCode (VirtualRouterStatusCode'),
 
     -- * VirtualServiceStatusCode
-    VirtualServiceStatusCode,
+    VirtualServiceStatusCode (VirtualServiceStatusCode'),
 
     -- * AccessLog
-    AccessLog,
+    AccessLog (AccessLog'),
     newAccessLog,
     accessLog_file,
 
     -- * AwsCloudMapInstanceAttribute
-    AwsCloudMapInstanceAttribute,
+    AwsCloudMapInstanceAttribute (AwsCloudMapInstanceAttribute'),
     newAwsCloudMapInstanceAttribute,
     awsCloudMapInstanceAttribute_key,
     awsCloudMapInstanceAttribute_value,
 
     -- * AwsCloudMapServiceDiscovery
-    AwsCloudMapServiceDiscovery,
+    AwsCloudMapServiceDiscovery (AwsCloudMapServiceDiscovery'),
     newAwsCloudMapServiceDiscovery,
     awsCloudMapServiceDiscovery_attributes,
     awsCloudMapServiceDiscovery_ipPreference,
@@ -110,22 +110,22 @@ module Amazonka.AppMesh.Types
     awsCloudMapServiceDiscovery_serviceName,
 
     -- * Backend
-    Backend,
+    Backend (Backend'),
     newBackend,
     backend_virtualService,
 
     -- * BackendDefaults
-    BackendDefaults,
+    BackendDefaults (BackendDefaults'),
     newBackendDefaults,
     backendDefaults_clientPolicy,
 
     -- * ClientPolicy
-    ClientPolicy,
+    ClientPolicy (ClientPolicy'),
     newClientPolicy,
     clientPolicy_tls,
 
     -- * ClientPolicyTls
-    ClientPolicyTls,
+    ClientPolicyTls (ClientPolicyTls'),
     newClientPolicyTls,
     clientPolicyTls_certificate,
     clientPolicyTls_enforce,
@@ -133,37 +133,37 @@ module Amazonka.AppMesh.Types
     clientPolicyTls_validation,
 
     -- * ClientTlsCertificate
-    ClientTlsCertificate,
+    ClientTlsCertificate (ClientTlsCertificate'),
     newClientTlsCertificate,
     clientTlsCertificate_file,
     clientTlsCertificate_sds,
 
     -- * DnsServiceDiscovery
-    DnsServiceDiscovery,
+    DnsServiceDiscovery (DnsServiceDiscovery'),
     newDnsServiceDiscovery,
     dnsServiceDiscovery_ipPreference,
     dnsServiceDiscovery_responseType,
     dnsServiceDiscovery_hostname,
 
     -- * Duration
-    Duration,
+    Duration (Duration'),
     newDuration,
     duration_unit,
     duration_value,
 
     -- * EgressFilter
-    EgressFilter,
+    EgressFilter (EgressFilter'),
     newEgressFilter,
     egressFilter_type,
 
     -- * FileAccessLog
-    FileAccessLog,
+    FileAccessLog (FileAccessLog'),
     newFileAccessLog,
     fileAccessLog_format,
     fileAccessLog_path,
 
     -- * GatewayRouteData
-    GatewayRouteData,
+    GatewayRouteData (GatewayRouteData'),
     newGatewayRouteData,
     gatewayRouteData_gatewayRouteName,
     gatewayRouteData_meshName,
@@ -173,18 +173,18 @@ module Amazonka.AppMesh.Types
     gatewayRouteData_virtualGatewayName,
 
     -- * GatewayRouteHostnameMatch
-    GatewayRouteHostnameMatch,
+    GatewayRouteHostnameMatch (GatewayRouteHostnameMatch'),
     newGatewayRouteHostnameMatch,
     gatewayRouteHostnameMatch_exact,
     gatewayRouteHostnameMatch_suffix,
 
     -- * GatewayRouteHostnameRewrite
-    GatewayRouteHostnameRewrite,
+    GatewayRouteHostnameRewrite (GatewayRouteHostnameRewrite'),
     newGatewayRouteHostnameRewrite,
     gatewayRouteHostnameRewrite_defaultTargetHostname,
 
     -- * GatewayRouteRef
-    GatewayRouteRef,
+    GatewayRouteRef (GatewayRouteRef'),
     newGatewayRouteRef,
     gatewayRouteRef_arn,
     gatewayRouteRef_createdAt,
@@ -197,7 +197,7 @@ module Amazonka.AppMesh.Types
     gatewayRouteRef_virtualGatewayName,
 
     -- * GatewayRouteSpec
-    GatewayRouteSpec,
+    GatewayRouteSpec (GatewayRouteSpec'),
     newGatewayRouteSpec,
     gatewayRouteSpec_grpcRoute,
     gatewayRouteSpec_http2Route,
@@ -205,35 +205,35 @@ module Amazonka.AppMesh.Types
     gatewayRouteSpec_priority,
 
     -- * GatewayRouteStatus
-    GatewayRouteStatus,
+    GatewayRouteStatus (GatewayRouteStatus'),
     newGatewayRouteStatus,
     gatewayRouteStatus_status,
 
     -- * GatewayRouteTarget
-    GatewayRouteTarget,
+    GatewayRouteTarget (GatewayRouteTarget'),
     newGatewayRouteTarget,
     gatewayRouteTarget_port,
     gatewayRouteTarget_virtualService,
 
     -- * GatewayRouteVirtualService
-    GatewayRouteVirtualService,
+    GatewayRouteVirtualService (GatewayRouteVirtualService'),
     newGatewayRouteVirtualService,
     gatewayRouteVirtualService_virtualServiceName,
 
     -- * GrpcGatewayRoute
-    GrpcGatewayRoute,
+    GrpcGatewayRoute (GrpcGatewayRoute'),
     newGrpcGatewayRoute,
     grpcGatewayRoute_action,
     grpcGatewayRoute_match,
 
     -- * GrpcGatewayRouteAction
-    GrpcGatewayRouteAction,
+    GrpcGatewayRouteAction (GrpcGatewayRouteAction'),
     newGrpcGatewayRouteAction,
     grpcGatewayRouteAction_rewrite,
     grpcGatewayRouteAction_target,
 
     -- * GrpcGatewayRouteMatch
-    GrpcGatewayRouteMatch,
+    GrpcGatewayRouteMatch (GrpcGatewayRouteMatch'),
     newGrpcGatewayRouteMatch,
     grpcGatewayRouteMatch_hostname,
     grpcGatewayRouteMatch_metadata,
@@ -241,19 +241,19 @@ module Amazonka.AppMesh.Types
     grpcGatewayRouteMatch_serviceName,
 
     -- * GrpcGatewayRouteMetadata
-    GrpcGatewayRouteMetadata,
+    GrpcGatewayRouteMetadata (GrpcGatewayRouteMetadata'),
     newGrpcGatewayRouteMetadata,
     grpcGatewayRouteMetadata_invert,
     grpcGatewayRouteMetadata_match,
     grpcGatewayRouteMetadata_name,
 
     -- * GrpcGatewayRouteRewrite
-    GrpcGatewayRouteRewrite,
+    GrpcGatewayRouteRewrite (GrpcGatewayRouteRewrite'),
     newGrpcGatewayRouteRewrite,
     grpcGatewayRouteRewrite_hostname,
 
     -- * GrpcMetadataMatchMethod
-    GrpcMetadataMatchMethod,
+    GrpcMetadataMatchMethod (GrpcMetadataMatchMethod'),
     newGrpcMetadataMatchMethod,
     grpcMetadataMatchMethod_exact,
     grpcMetadataMatchMethod_prefix,
@@ -262,7 +262,7 @@ module Amazonka.AppMesh.Types
     grpcMetadataMatchMethod_suffix,
 
     -- * GrpcRetryPolicy
-    GrpcRetryPolicy,
+    GrpcRetryPolicy (GrpcRetryPolicy'),
     newGrpcRetryPolicy,
     grpcRetryPolicy_grpcRetryEvents,
     grpcRetryPolicy_httpRetryEvents,
@@ -271,7 +271,7 @@ module Amazonka.AppMesh.Types
     grpcRetryPolicy_perRetryTimeout,
 
     -- * GrpcRoute
-    GrpcRoute,
+    GrpcRoute (GrpcRoute'),
     newGrpcRoute,
     grpcRoute_retryPolicy,
     grpcRoute_timeout,
@@ -279,12 +279,12 @@ module Amazonka.AppMesh.Types
     grpcRoute_match,
 
     -- * GrpcRouteAction
-    GrpcRouteAction,
+    GrpcRouteAction (GrpcRouteAction'),
     newGrpcRouteAction,
     grpcRouteAction_weightedTargets,
 
     -- * GrpcRouteMatch
-    GrpcRouteMatch,
+    GrpcRouteMatch (GrpcRouteMatch'),
     newGrpcRouteMatch,
     grpcRouteMatch_metadata,
     grpcRouteMatch_methodName,
@@ -292,14 +292,14 @@ module Amazonka.AppMesh.Types
     grpcRouteMatch_serviceName,
 
     -- * GrpcRouteMetadata
-    GrpcRouteMetadata,
+    GrpcRouteMetadata (GrpcRouteMetadata'),
     newGrpcRouteMetadata,
     grpcRouteMetadata_invert,
     grpcRouteMetadata_match,
     grpcRouteMetadata_name,
 
     -- * GrpcRouteMetadataMatchMethod
-    GrpcRouteMetadataMatchMethod,
+    GrpcRouteMetadataMatchMethod (GrpcRouteMetadataMatchMethod'),
     newGrpcRouteMetadataMatchMethod,
     grpcRouteMetadataMatchMethod_exact,
     grpcRouteMetadataMatchMethod_prefix,
@@ -308,13 +308,13 @@ module Amazonka.AppMesh.Types
     grpcRouteMetadataMatchMethod_suffix,
 
     -- * GrpcTimeout
-    GrpcTimeout,
+    GrpcTimeout (GrpcTimeout'),
     newGrpcTimeout,
     grpcTimeout_idle,
     grpcTimeout_perRequest,
 
     -- * HeaderMatchMethod
-    HeaderMatchMethod,
+    HeaderMatchMethod (HeaderMatchMethod'),
     newHeaderMatchMethod,
     headerMatchMethod_exact,
     headerMatchMethod_prefix,
@@ -323,7 +323,7 @@ module Amazonka.AppMesh.Types
     headerMatchMethod_suffix,
 
     -- * HealthCheckPolicy
-    HealthCheckPolicy,
+    HealthCheckPolicy (HealthCheckPolicy'),
     newHealthCheckPolicy,
     healthCheckPolicy_path,
     healthCheckPolicy_port,
@@ -334,26 +334,26 @@ module Amazonka.AppMesh.Types
     healthCheckPolicy_unhealthyThreshold,
 
     -- * HttpGatewayRoute
-    HttpGatewayRoute,
+    HttpGatewayRoute (HttpGatewayRoute'),
     newHttpGatewayRoute,
     httpGatewayRoute_action,
     httpGatewayRoute_match,
 
     -- * HttpGatewayRouteAction
-    HttpGatewayRouteAction,
+    HttpGatewayRouteAction (HttpGatewayRouteAction'),
     newHttpGatewayRouteAction,
     httpGatewayRouteAction_rewrite,
     httpGatewayRouteAction_target,
 
     -- * HttpGatewayRouteHeader
-    HttpGatewayRouteHeader,
+    HttpGatewayRouteHeader (HttpGatewayRouteHeader'),
     newHttpGatewayRouteHeader,
     httpGatewayRouteHeader_invert,
     httpGatewayRouteHeader_match,
     httpGatewayRouteHeader_name,
 
     -- * HttpGatewayRouteMatch
-    HttpGatewayRouteMatch,
+    HttpGatewayRouteMatch (HttpGatewayRouteMatch'),
     newHttpGatewayRouteMatch,
     httpGatewayRouteMatch_headers,
     httpGatewayRouteMatch_hostname,
@@ -364,37 +364,37 @@ module Amazonka.AppMesh.Types
     httpGatewayRouteMatch_queryParameters,
 
     -- * HttpGatewayRoutePathRewrite
-    HttpGatewayRoutePathRewrite,
+    HttpGatewayRoutePathRewrite (HttpGatewayRoutePathRewrite'),
     newHttpGatewayRoutePathRewrite,
     httpGatewayRoutePathRewrite_exact,
 
     -- * HttpGatewayRoutePrefixRewrite
-    HttpGatewayRoutePrefixRewrite,
+    HttpGatewayRoutePrefixRewrite (HttpGatewayRoutePrefixRewrite'),
     newHttpGatewayRoutePrefixRewrite,
     httpGatewayRoutePrefixRewrite_defaultPrefix,
     httpGatewayRoutePrefixRewrite_value,
 
     -- * HttpGatewayRouteRewrite
-    HttpGatewayRouteRewrite,
+    HttpGatewayRouteRewrite (HttpGatewayRouteRewrite'),
     newHttpGatewayRouteRewrite,
     httpGatewayRouteRewrite_hostname,
     httpGatewayRouteRewrite_path,
     httpGatewayRouteRewrite_prefix,
 
     -- * HttpPathMatch
-    HttpPathMatch,
+    HttpPathMatch (HttpPathMatch'),
     newHttpPathMatch,
     httpPathMatch_exact,
     httpPathMatch_regex,
 
     -- * HttpQueryParameter
-    HttpQueryParameter,
+    HttpQueryParameter (HttpQueryParameter'),
     newHttpQueryParameter,
     httpQueryParameter_match,
     httpQueryParameter_name,
 
     -- * HttpRetryPolicy
-    HttpRetryPolicy,
+    HttpRetryPolicy (HttpRetryPolicy'),
     newHttpRetryPolicy,
     httpRetryPolicy_httpRetryEvents,
     httpRetryPolicy_tcpRetryEvents,
@@ -402,7 +402,7 @@ module Amazonka.AppMesh.Types
     httpRetryPolicy_perRetryTimeout,
 
     -- * HttpRoute
-    HttpRoute,
+    HttpRoute (HttpRoute'),
     newHttpRoute,
     httpRoute_retryPolicy,
     httpRoute_timeout,
@@ -410,19 +410,19 @@ module Amazonka.AppMesh.Types
     httpRoute_match,
 
     -- * HttpRouteAction
-    HttpRouteAction,
+    HttpRouteAction (HttpRouteAction'),
     newHttpRouteAction,
     httpRouteAction_weightedTargets,
 
     -- * HttpRouteHeader
-    HttpRouteHeader,
+    HttpRouteHeader (HttpRouteHeader'),
     newHttpRouteHeader,
     httpRouteHeader_invert,
     httpRouteHeader_match,
     httpRouteHeader_name,
 
     -- * HttpRouteMatch
-    HttpRouteMatch,
+    HttpRouteMatch (HttpRouteMatch'),
     newHttpRouteMatch,
     httpRouteMatch_headers,
     httpRouteMatch_method,
@@ -433,19 +433,19 @@ module Amazonka.AppMesh.Types
     httpRouteMatch_scheme,
 
     -- * HttpTimeout
-    HttpTimeout,
+    HttpTimeout (HttpTimeout'),
     newHttpTimeout,
     httpTimeout_idle,
     httpTimeout_perRequest,
 
     -- * JsonFormatRef
-    JsonFormatRef,
+    JsonFormatRef (JsonFormatRef'),
     newJsonFormatRef,
     jsonFormatRef_key,
     jsonFormatRef_value,
 
     -- * Listener
-    Listener,
+    Listener (Listener'),
     newListener,
     listener_connectionPool,
     listener_healthCheck,
@@ -455,7 +455,7 @@ module Amazonka.AppMesh.Types
     listener_portMapping,
 
     -- * ListenerTimeout
-    ListenerTimeout,
+    ListenerTimeout (ListenerTimeout'),
     newListenerTimeout,
     listenerTimeout_grpc,
     listenerTimeout_http,
@@ -463,66 +463,66 @@ module Amazonka.AppMesh.Types
     listenerTimeout_tcp,
 
     -- * ListenerTls
-    ListenerTls,
+    ListenerTls (ListenerTls'),
     newListenerTls,
     listenerTls_validation,
     listenerTls_certificate,
     listenerTls_mode,
 
     -- * ListenerTlsAcmCertificate
-    ListenerTlsAcmCertificate,
+    ListenerTlsAcmCertificate (ListenerTlsAcmCertificate'),
     newListenerTlsAcmCertificate,
     listenerTlsAcmCertificate_certificateArn,
 
     -- * ListenerTlsCertificate
-    ListenerTlsCertificate,
+    ListenerTlsCertificate (ListenerTlsCertificate'),
     newListenerTlsCertificate,
     listenerTlsCertificate_acm,
     listenerTlsCertificate_file,
     listenerTlsCertificate_sds,
 
     -- * ListenerTlsFileCertificate
-    ListenerTlsFileCertificate,
+    ListenerTlsFileCertificate (ListenerTlsFileCertificate'),
     newListenerTlsFileCertificate,
     listenerTlsFileCertificate_certificateChain,
     listenerTlsFileCertificate_privateKey,
 
     -- * ListenerTlsSdsCertificate
-    ListenerTlsSdsCertificate,
+    ListenerTlsSdsCertificate (ListenerTlsSdsCertificate'),
     newListenerTlsSdsCertificate,
     listenerTlsSdsCertificate_secretName,
 
     -- * ListenerTlsValidationContext
-    ListenerTlsValidationContext,
+    ListenerTlsValidationContext (ListenerTlsValidationContext'),
     newListenerTlsValidationContext,
     listenerTlsValidationContext_subjectAlternativeNames,
     listenerTlsValidationContext_trust,
 
     -- * ListenerTlsValidationContextTrust
-    ListenerTlsValidationContextTrust,
+    ListenerTlsValidationContextTrust (ListenerTlsValidationContextTrust'),
     newListenerTlsValidationContextTrust,
     listenerTlsValidationContextTrust_file,
     listenerTlsValidationContextTrust_sds,
 
     -- * Logging
-    Logging,
+    Logging (Logging'),
     newLogging,
     logging_accessLog,
 
     -- * LoggingFormat
-    LoggingFormat,
+    LoggingFormat (LoggingFormat'),
     newLoggingFormat,
     loggingFormat_json,
     loggingFormat_text,
 
     -- * MatchRange
-    MatchRange,
+    MatchRange (MatchRange'),
     newMatchRange,
     matchRange_end,
     matchRange_start,
 
     -- * MeshData
-    MeshData,
+    MeshData (MeshData'),
     newMeshData,
     meshData_meshName,
     meshData_metadata,
@@ -530,7 +530,7 @@ module Amazonka.AppMesh.Types
     meshData_status,
 
     -- * MeshRef
-    MeshRef,
+    MeshRef (MeshRef'),
     newMeshRef,
     meshRef_arn,
     meshRef_createdAt,
@@ -541,23 +541,23 @@ module Amazonka.AppMesh.Types
     meshRef_version,
 
     -- * MeshServiceDiscovery
-    MeshServiceDiscovery,
+    MeshServiceDiscovery (MeshServiceDiscovery'),
     newMeshServiceDiscovery,
     meshServiceDiscovery_ipPreference,
 
     -- * MeshSpec
-    MeshSpec,
+    MeshSpec (MeshSpec'),
     newMeshSpec,
     meshSpec_egressFilter,
     meshSpec_serviceDiscovery,
 
     -- * MeshStatus
-    MeshStatus,
+    MeshStatus (MeshStatus'),
     newMeshStatus,
     meshStatus_status,
 
     -- * OutlierDetection
-    OutlierDetection,
+    OutlierDetection (OutlierDetection'),
     newOutlierDetection,
     outlierDetection_baseEjectionDuration,
     outlierDetection_interval,
@@ -565,18 +565,18 @@ module Amazonka.AppMesh.Types
     outlierDetection_maxServerErrors,
 
     -- * PortMapping
-    PortMapping,
+    PortMapping (PortMapping'),
     newPortMapping,
     portMapping_port,
     portMapping_protocol,
 
     -- * QueryParameterMatch
-    QueryParameterMatch,
+    QueryParameterMatch (QueryParameterMatch'),
     newQueryParameterMatch,
     queryParameterMatch_exact,
 
     -- * ResourceMetadata
-    ResourceMetadata,
+    ResourceMetadata (ResourceMetadata'),
     newResourceMetadata,
     resourceMetadata_arn,
     resourceMetadata_createdAt,
@@ -587,7 +587,7 @@ module Amazonka.AppMesh.Types
     resourceMetadata_version,
 
     -- * RouteData
-    RouteData,
+    RouteData (RouteData'),
     newRouteData,
     routeData_meshName,
     routeData_metadata,
@@ -597,7 +597,7 @@ module Amazonka.AppMesh.Types
     routeData_virtualRouterName,
 
     -- * RouteRef
-    RouteRef,
+    RouteRef (RouteRef'),
     newRouteRef,
     routeRef_arn,
     routeRef_createdAt,
@@ -610,7 +610,7 @@ module Amazonka.AppMesh.Types
     routeRef_virtualRouterName,
 
     -- * RouteSpec
-    RouteSpec,
+    RouteSpec (RouteSpec'),
     newRouteSpec,
     routeSpec_grpcRoute,
     routeSpec_http2Route,
@@ -619,99 +619,99 @@ module Amazonka.AppMesh.Types
     routeSpec_tcpRoute,
 
     -- * RouteStatus
-    RouteStatus,
+    RouteStatus (RouteStatus'),
     newRouteStatus,
     routeStatus_status,
 
     -- * ServiceDiscovery
-    ServiceDiscovery,
+    ServiceDiscovery (ServiceDiscovery'),
     newServiceDiscovery,
     serviceDiscovery_awsCloudMap,
     serviceDiscovery_dns,
 
     -- * SubjectAlternativeNameMatchers
-    SubjectAlternativeNameMatchers,
+    SubjectAlternativeNameMatchers (SubjectAlternativeNameMatchers'),
     newSubjectAlternativeNameMatchers,
     subjectAlternativeNameMatchers_exact,
 
     -- * SubjectAlternativeNames
-    SubjectAlternativeNames,
+    SubjectAlternativeNames (SubjectAlternativeNames'),
     newSubjectAlternativeNames,
     subjectAlternativeNames_match,
 
     -- * TagRef
-    TagRef,
+    TagRef (TagRef'),
     newTagRef,
     tagRef_key,
     tagRef_value,
 
     -- * TcpRoute
-    TcpRoute,
+    TcpRoute (TcpRoute'),
     newTcpRoute,
     tcpRoute_match,
     tcpRoute_timeout,
     tcpRoute_action,
 
     -- * TcpRouteAction
-    TcpRouteAction,
+    TcpRouteAction (TcpRouteAction'),
     newTcpRouteAction,
     tcpRouteAction_weightedTargets,
 
     -- * TcpRouteMatch
-    TcpRouteMatch,
+    TcpRouteMatch (TcpRouteMatch'),
     newTcpRouteMatch,
     tcpRouteMatch_port,
 
     -- * TcpTimeout
-    TcpTimeout,
+    TcpTimeout (TcpTimeout'),
     newTcpTimeout,
     tcpTimeout_idle,
 
     -- * TlsValidationContext
-    TlsValidationContext,
+    TlsValidationContext (TlsValidationContext'),
     newTlsValidationContext,
     tlsValidationContext_subjectAlternativeNames,
     tlsValidationContext_trust,
 
     -- * TlsValidationContextAcmTrust
-    TlsValidationContextAcmTrust,
+    TlsValidationContextAcmTrust (TlsValidationContextAcmTrust'),
     newTlsValidationContextAcmTrust,
     tlsValidationContextAcmTrust_certificateAuthorityArns,
 
     -- * TlsValidationContextFileTrust
-    TlsValidationContextFileTrust,
+    TlsValidationContextFileTrust (TlsValidationContextFileTrust'),
     newTlsValidationContextFileTrust,
     tlsValidationContextFileTrust_certificateChain,
 
     -- * TlsValidationContextSdsTrust
-    TlsValidationContextSdsTrust,
+    TlsValidationContextSdsTrust (TlsValidationContextSdsTrust'),
     newTlsValidationContextSdsTrust,
     tlsValidationContextSdsTrust_secretName,
 
     -- * TlsValidationContextTrust
-    TlsValidationContextTrust,
+    TlsValidationContextTrust (TlsValidationContextTrust'),
     newTlsValidationContextTrust,
     tlsValidationContextTrust_acm,
     tlsValidationContextTrust_file,
     tlsValidationContextTrust_sds,
 
     -- * VirtualGatewayAccessLog
-    VirtualGatewayAccessLog,
+    VirtualGatewayAccessLog (VirtualGatewayAccessLog'),
     newVirtualGatewayAccessLog,
     virtualGatewayAccessLog_file,
 
     -- * VirtualGatewayBackendDefaults
-    VirtualGatewayBackendDefaults,
+    VirtualGatewayBackendDefaults (VirtualGatewayBackendDefaults'),
     newVirtualGatewayBackendDefaults,
     virtualGatewayBackendDefaults_clientPolicy,
 
     -- * VirtualGatewayClientPolicy
-    VirtualGatewayClientPolicy,
+    VirtualGatewayClientPolicy (VirtualGatewayClientPolicy'),
     newVirtualGatewayClientPolicy,
     virtualGatewayClientPolicy_tls,
 
     -- * VirtualGatewayClientPolicyTls
-    VirtualGatewayClientPolicyTls,
+    VirtualGatewayClientPolicyTls (VirtualGatewayClientPolicyTls'),
     newVirtualGatewayClientPolicyTls,
     virtualGatewayClientPolicyTls_certificate,
     virtualGatewayClientPolicyTls_enforce,
@@ -719,20 +719,20 @@ module Amazonka.AppMesh.Types
     virtualGatewayClientPolicyTls_validation,
 
     -- * VirtualGatewayClientTlsCertificate
-    VirtualGatewayClientTlsCertificate,
+    VirtualGatewayClientTlsCertificate (VirtualGatewayClientTlsCertificate'),
     newVirtualGatewayClientTlsCertificate,
     virtualGatewayClientTlsCertificate_file,
     virtualGatewayClientTlsCertificate_sds,
 
     -- * VirtualGatewayConnectionPool
-    VirtualGatewayConnectionPool,
+    VirtualGatewayConnectionPool (VirtualGatewayConnectionPool'),
     newVirtualGatewayConnectionPool,
     virtualGatewayConnectionPool_grpc,
     virtualGatewayConnectionPool_http,
     virtualGatewayConnectionPool_http2,
 
     -- * VirtualGatewayData
-    VirtualGatewayData,
+    VirtualGatewayData (VirtualGatewayData'),
     newVirtualGatewayData,
     virtualGatewayData_meshName,
     virtualGatewayData_metadata,
@@ -741,18 +741,18 @@ module Amazonka.AppMesh.Types
     virtualGatewayData_virtualGatewayName,
 
     -- * VirtualGatewayFileAccessLog
-    VirtualGatewayFileAccessLog,
+    VirtualGatewayFileAccessLog (VirtualGatewayFileAccessLog'),
     newVirtualGatewayFileAccessLog,
     virtualGatewayFileAccessLog_format,
     virtualGatewayFileAccessLog_path,
 
     -- * VirtualGatewayGrpcConnectionPool
-    VirtualGatewayGrpcConnectionPool,
+    VirtualGatewayGrpcConnectionPool (VirtualGatewayGrpcConnectionPool'),
     newVirtualGatewayGrpcConnectionPool,
     virtualGatewayGrpcConnectionPool_maxRequests,
 
     -- * VirtualGatewayHealthCheckPolicy
-    VirtualGatewayHealthCheckPolicy,
+    VirtualGatewayHealthCheckPolicy (VirtualGatewayHealthCheckPolicy'),
     newVirtualGatewayHealthCheckPolicy,
     virtualGatewayHealthCheckPolicy_path,
     virtualGatewayHealthCheckPolicy_port,
@@ -763,18 +763,18 @@ module Amazonka.AppMesh.Types
     virtualGatewayHealthCheckPolicy_unhealthyThreshold,
 
     -- * VirtualGatewayHttp2ConnectionPool
-    VirtualGatewayHttp2ConnectionPool,
+    VirtualGatewayHttp2ConnectionPool (VirtualGatewayHttp2ConnectionPool'),
     newVirtualGatewayHttp2ConnectionPool,
     virtualGatewayHttp2ConnectionPool_maxRequests,
 
     -- * VirtualGatewayHttpConnectionPool
-    VirtualGatewayHttpConnectionPool,
+    VirtualGatewayHttpConnectionPool (VirtualGatewayHttpConnectionPool'),
     newVirtualGatewayHttpConnectionPool,
     virtualGatewayHttpConnectionPool_maxPendingRequests,
     virtualGatewayHttpConnectionPool_maxConnections,
 
     -- * VirtualGatewayListener
-    VirtualGatewayListener,
+    VirtualGatewayListener (VirtualGatewayListener'),
     newVirtualGatewayListener,
     virtualGatewayListener_connectionPool,
     virtualGatewayListener_healthCheck,
@@ -782,60 +782,60 @@ module Amazonka.AppMesh.Types
     virtualGatewayListener_portMapping,
 
     -- * VirtualGatewayListenerTls
-    VirtualGatewayListenerTls,
+    VirtualGatewayListenerTls (VirtualGatewayListenerTls'),
     newVirtualGatewayListenerTls,
     virtualGatewayListenerTls_validation,
     virtualGatewayListenerTls_certificate,
     virtualGatewayListenerTls_mode,
 
     -- * VirtualGatewayListenerTlsAcmCertificate
-    VirtualGatewayListenerTlsAcmCertificate,
+    VirtualGatewayListenerTlsAcmCertificate (VirtualGatewayListenerTlsAcmCertificate'),
     newVirtualGatewayListenerTlsAcmCertificate,
     virtualGatewayListenerTlsAcmCertificate_certificateArn,
 
     -- * VirtualGatewayListenerTlsCertificate
-    VirtualGatewayListenerTlsCertificate,
+    VirtualGatewayListenerTlsCertificate (VirtualGatewayListenerTlsCertificate'),
     newVirtualGatewayListenerTlsCertificate,
     virtualGatewayListenerTlsCertificate_acm,
     virtualGatewayListenerTlsCertificate_file,
     virtualGatewayListenerTlsCertificate_sds,
 
     -- * VirtualGatewayListenerTlsFileCertificate
-    VirtualGatewayListenerTlsFileCertificate,
+    VirtualGatewayListenerTlsFileCertificate (VirtualGatewayListenerTlsFileCertificate'),
     newVirtualGatewayListenerTlsFileCertificate,
     virtualGatewayListenerTlsFileCertificate_certificateChain,
     virtualGatewayListenerTlsFileCertificate_privateKey,
 
     -- * VirtualGatewayListenerTlsSdsCertificate
-    VirtualGatewayListenerTlsSdsCertificate,
+    VirtualGatewayListenerTlsSdsCertificate (VirtualGatewayListenerTlsSdsCertificate'),
     newVirtualGatewayListenerTlsSdsCertificate,
     virtualGatewayListenerTlsSdsCertificate_secretName,
 
     -- * VirtualGatewayListenerTlsValidationContext
-    VirtualGatewayListenerTlsValidationContext,
+    VirtualGatewayListenerTlsValidationContext (VirtualGatewayListenerTlsValidationContext'),
     newVirtualGatewayListenerTlsValidationContext,
     virtualGatewayListenerTlsValidationContext_subjectAlternativeNames,
     virtualGatewayListenerTlsValidationContext_trust,
 
     -- * VirtualGatewayListenerTlsValidationContextTrust
-    VirtualGatewayListenerTlsValidationContextTrust,
+    VirtualGatewayListenerTlsValidationContextTrust (VirtualGatewayListenerTlsValidationContextTrust'),
     newVirtualGatewayListenerTlsValidationContextTrust,
     virtualGatewayListenerTlsValidationContextTrust_file,
     virtualGatewayListenerTlsValidationContextTrust_sds,
 
     -- * VirtualGatewayLogging
-    VirtualGatewayLogging,
+    VirtualGatewayLogging (VirtualGatewayLogging'),
     newVirtualGatewayLogging,
     virtualGatewayLogging_accessLog,
 
     -- * VirtualGatewayPortMapping
-    VirtualGatewayPortMapping,
+    VirtualGatewayPortMapping (VirtualGatewayPortMapping'),
     newVirtualGatewayPortMapping,
     virtualGatewayPortMapping_port,
     virtualGatewayPortMapping_protocol,
 
     -- * VirtualGatewayRef
-    VirtualGatewayRef,
+    VirtualGatewayRef (VirtualGatewayRef'),
     newVirtualGatewayRef,
     virtualGatewayRef_arn,
     virtualGatewayRef_createdAt,
@@ -847,47 +847,47 @@ module Amazonka.AppMesh.Types
     virtualGatewayRef_virtualGatewayName,
 
     -- * VirtualGatewaySpec
-    VirtualGatewaySpec,
+    VirtualGatewaySpec (VirtualGatewaySpec'),
     newVirtualGatewaySpec,
     virtualGatewaySpec_backendDefaults,
     virtualGatewaySpec_logging,
     virtualGatewaySpec_listeners,
 
     -- * VirtualGatewayStatus
-    VirtualGatewayStatus,
+    VirtualGatewayStatus (VirtualGatewayStatus'),
     newVirtualGatewayStatus,
     virtualGatewayStatus_status,
 
     -- * VirtualGatewayTlsValidationContext
-    VirtualGatewayTlsValidationContext,
+    VirtualGatewayTlsValidationContext (VirtualGatewayTlsValidationContext'),
     newVirtualGatewayTlsValidationContext,
     virtualGatewayTlsValidationContext_subjectAlternativeNames,
     virtualGatewayTlsValidationContext_trust,
 
     -- * VirtualGatewayTlsValidationContextAcmTrust
-    VirtualGatewayTlsValidationContextAcmTrust,
+    VirtualGatewayTlsValidationContextAcmTrust (VirtualGatewayTlsValidationContextAcmTrust'),
     newVirtualGatewayTlsValidationContextAcmTrust,
     virtualGatewayTlsValidationContextAcmTrust_certificateAuthorityArns,
 
     -- * VirtualGatewayTlsValidationContextFileTrust
-    VirtualGatewayTlsValidationContextFileTrust,
+    VirtualGatewayTlsValidationContextFileTrust (VirtualGatewayTlsValidationContextFileTrust'),
     newVirtualGatewayTlsValidationContextFileTrust,
     virtualGatewayTlsValidationContextFileTrust_certificateChain,
 
     -- * VirtualGatewayTlsValidationContextSdsTrust
-    VirtualGatewayTlsValidationContextSdsTrust,
+    VirtualGatewayTlsValidationContextSdsTrust (VirtualGatewayTlsValidationContextSdsTrust'),
     newVirtualGatewayTlsValidationContextSdsTrust,
     virtualGatewayTlsValidationContextSdsTrust_secretName,
 
     -- * VirtualGatewayTlsValidationContextTrust
-    VirtualGatewayTlsValidationContextTrust,
+    VirtualGatewayTlsValidationContextTrust (VirtualGatewayTlsValidationContextTrust'),
     newVirtualGatewayTlsValidationContextTrust,
     virtualGatewayTlsValidationContextTrust_acm,
     virtualGatewayTlsValidationContextTrust_file,
     virtualGatewayTlsValidationContextTrust_sds,
 
     -- * VirtualNodeConnectionPool
-    VirtualNodeConnectionPool,
+    VirtualNodeConnectionPool (VirtualNodeConnectionPool'),
     newVirtualNodeConnectionPool,
     virtualNodeConnectionPool_grpc,
     virtualNodeConnectionPool_http,
@@ -895,7 +895,7 @@ module Amazonka.AppMesh.Types
     virtualNodeConnectionPool_tcp,
 
     -- * VirtualNodeData
-    VirtualNodeData,
+    VirtualNodeData (VirtualNodeData'),
     newVirtualNodeData,
     virtualNodeData_meshName,
     virtualNodeData_metadata,
@@ -904,23 +904,23 @@ module Amazonka.AppMesh.Types
     virtualNodeData_virtualNodeName,
 
     -- * VirtualNodeGrpcConnectionPool
-    VirtualNodeGrpcConnectionPool,
+    VirtualNodeGrpcConnectionPool (VirtualNodeGrpcConnectionPool'),
     newVirtualNodeGrpcConnectionPool,
     virtualNodeGrpcConnectionPool_maxRequests,
 
     -- * VirtualNodeHttp2ConnectionPool
-    VirtualNodeHttp2ConnectionPool,
+    VirtualNodeHttp2ConnectionPool (VirtualNodeHttp2ConnectionPool'),
     newVirtualNodeHttp2ConnectionPool,
     virtualNodeHttp2ConnectionPool_maxRequests,
 
     -- * VirtualNodeHttpConnectionPool
-    VirtualNodeHttpConnectionPool,
+    VirtualNodeHttpConnectionPool (VirtualNodeHttpConnectionPool'),
     newVirtualNodeHttpConnectionPool,
     virtualNodeHttpConnectionPool_maxPendingRequests,
     virtualNodeHttpConnectionPool_maxConnections,
 
     -- * VirtualNodeRef
-    VirtualNodeRef,
+    VirtualNodeRef (VirtualNodeRef'),
     newVirtualNodeRef,
     virtualNodeRef_arn,
     virtualNodeRef_createdAt,
@@ -932,12 +932,12 @@ module Amazonka.AppMesh.Types
     virtualNodeRef_virtualNodeName,
 
     -- * VirtualNodeServiceProvider
-    VirtualNodeServiceProvider,
+    VirtualNodeServiceProvider (VirtualNodeServiceProvider'),
     newVirtualNodeServiceProvider,
     virtualNodeServiceProvider_virtualNodeName,
 
     -- * VirtualNodeSpec
-    VirtualNodeSpec,
+    VirtualNodeSpec (VirtualNodeSpec'),
     newVirtualNodeSpec,
     virtualNodeSpec_backendDefaults,
     virtualNodeSpec_backends,
@@ -946,17 +946,17 @@ module Amazonka.AppMesh.Types
     virtualNodeSpec_serviceDiscovery,
 
     -- * VirtualNodeStatus
-    VirtualNodeStatus,
+    VirtualNodeStatus (VirtualNodeStatus'),
     newVirtualNodeStatus,
     virtualNodeStatus_status,
 
     -- * VirtualNodeTcpConnectionPool
-    VirtualNodeTcpConnectionPool,
+    VirtualNodeTcpConnectionPool (VirtualNodeTcpConnectionPool'),
     newVirtualNodeTcpConnectionPool,
     virtualNodeTcpConnectionPool_maxConnections,
 
     -- * VirtualRouterData
-    VirtualRouterData,
+    VirtualRouterData (VirtualRouterData'),
     newVirtualRouterData,
     virtualRouterData_meshName,
     virtualRouterData_metadata,
@@ -965,12 +965,12 @@ module Amazonka.AppMesh.Types
     virtualRouterData_virtualRouterName,
 
     -- * VirtualRouterListener
-    VirtualRouterListener,
+    VirtualRouterListener (VirtualRouterListener'),
     newVirtualRouterListener,
     virtualRouterListener_portMapping,
 
     -- * VirtualRouterRef
-    VirtualRouterRef,
+    VirtualRouterRef (VirtualRouterRef'),
     newVirtualRouterRef,
     virtualRouterRef_arn,
     virtualRouterRef_createdAt,
@@ -982,28 +982,28 @@ module Amazonka.AppMesh.Types
     virtualRouterRef_virtualRouterName,
 
     -- * VirtualRouterServiceProvider
-    VirtualRouterServiceProvider,
+    VirtualRouterServiceProvider (VirtualRouterServiceProvider'),
     newVirtualRouterServiceProvider,
     virtualRouterServiceProvider_virtualRouterName,
 
     -- * VirtualRouterSpec
-    VirtualRouterSpec,
+    VirtualRouterSpec (VirtualRouterSpec'),
     newVirtualRouterSpec,
     virtualRouterSpec_listeners,
 
     -- * VirtualRouterStatus
-    VirtualRouterStatus,
+    VirtualRouterStatus (VirtualRouterStatus'),
     newVirtualRouterStatus,
     virtualRouterStatus_status,
 
     -- * VirtualServiceBackend
-    VirtualServiceBackend,
+    VirtualServiceBackend (VirtualServiceBackend'),
     newVirtualServiceBackend,
     virtualServiceBackend_clientPolicy,
     virtualServiceBackend_virtualServiceName,
 
     -- * VirtualServiceData
-    VirtualServiceData,
+    VirtualServiceData (VirtualServiceData'),
     newVirtualServiceData,
     virtualServiceData_meshName,
     virtualServiceData_metadata,
@@ -1012,13 +1012,13 @@ module Amazonka.AppMesh.Types
     virtualServiceData_virtualServiceName,
 
     -- * VirtualServiceProvider
-    VirtualServiceProvider,
+    VirtualServiceProvider (VirtualServiceProvider'),
     newVirtualServiceProvider,
     virtualServiceProvider_virtualNode,
     virtualServiceProvider_virtualRouter,
 
     -- * VirtualServiceRef
-    VirtualServiceRef,
+    VirtualServiceRef (VirtualServiceRef'),
     newVirtualServiceRef,
     virtualServiceRef_arn,
     virtualServiceRef_createdAt,
@@ -1030,17 +1030,17 @@ module Amazonka.AppMesh.Types
     virtualServiceRef_virtualServiceName,
 
     -- * VirtualServiceSpec
-    VirtualServiceSpec,
+    VirtualServiceSpec (VirtualServiceSpec'),
     newVirtualServiceSpec,
     virtualServiceSpec_provider,
 
     -- * VirtualServiceStatus
-    VirtualServiceStatus,
+    VirtualServiceStatus (VirtualServiceStatus'),
     newVirtualServiceStatus,
     virtualServiceStatus_status,
 
     -- * WeightedTarget
-    WeightedTarget,
+    WeightedTarget (WeightedTarget'),
     newWeightedTarget,
     weightedTarget_port,
     weightedTarget_virtualNode,

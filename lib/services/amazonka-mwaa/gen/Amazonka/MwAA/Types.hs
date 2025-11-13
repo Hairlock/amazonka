@@ -25,28 +25,28 @@ module Amazonka.MwAA.Types
     _ValidationException,
 
     -- * EnvironmentStatus
-    EnvironmentStatus,
+    EnvironmentStatus (EnvironmentStatus'),
 
     -- * LoggingLevel
-    LoggingLevel,
+    LoggingLevel (LoggingLevel'),
 
     -- * Unit
-    Unit,
+    Unit (Unit'),
 
     -- * UpdateStatus
-    UpdateStatus,
+    UpdateStatus (UpdateStatus'),
 
     -- * WebserverAccessMode
-    WebserverAccessMode,
+    WebserverAccessMode (WebserverAccessMode'),
 
     -- * Dimension
-    Dimension,
+    Dimension (Dimension'),
     newDimension,
     dimension_name,
     dimension_value,
 
     -- * Environment
-    Environment,
+    Environment (Environment'),
     newEnvironment,
     environment_airflowConfigurationOptions,
     environment_airflowVersion,
@@ -76,7 +76,7 @@ module Amazonka.MwAA.Types
     environment_weeklyMaintenanceWindowStart,
 
     -- * LastUpdate
-    LastUpdate,
+    LastUpdate (LastUpdate'),
     newLastUpdate,
     lastUpdate_createdAt,
     lastUpdate_error,
@@ -84,7 +84,7 @@ module Amazonka.MwAA.Types
     lastUpdate_status,
 
     -- * LoggingConfiguration
-    LoggingConfiguration,
+    LoggingConfiguration (LoggingConfiguration'),
     newLoggingConfiguration,
     loggingConfiguration_dagProcessingLogs,
     loggingConfiguration_schedulerLogs,
@@ -93,7 +93,7 @@ module Amazonka.MwAA.Types
     loggingConfiguration_workerLogs,
 
     -- * LoggingConfigurationInput
-    LoggingConfigurationInput,
+    LoggingConfigurationInput (LoggingConfigurationInput'),
     newLoggingConfigurationInput,
     loggingConfigurationInput_dagProcessingLogs,
     loggingConfigurationInput_schedulerLogs,
@@ -102,7 +102,7 @@ module Amazonka.MwAA.Types
     loggingConfigurationInput_workerLogs,
 
     -- * MetricDatum
-    MetricDatum,
+    MetricDatum (MetricDatum'),
     newMetricDatum,
     metricDatum_dimensions,
     metricDatum_statisticValues,
@@ -112,26 +112,26 @@ module Amazonka.MwAA.Types
     metricDatum_timestamp,
 
     -- * ModuleLoggingConfiguration
-    ModuleLoggingConfiguration,
+    ModuleLoggingConfiguration (ModuleLoggingConfiguration'),
     newModuleLoggingConfiguration,
     moduleLoggingConfiguration_cloudWatchLogGroupArn,
     moduleLoggingConfiguration_enabled,
     moduleLoggingConfiguration_logLevel,
 
     -- * ModuleLoggingConfigurationInput
-    ModuleLoggingConfigurationInput,
+    ModuleLoggingConfigurationInput (ModuleLoggingConfigurationInput'),
     newModuleLoggingConfigurationInput,
     moduleLoggingConfigurationInput_enabled,
     moduleLoggingConfigurationInput_logLevel,
 
     -- * NetworkConfiguration
-    NetworkConfiguration,
+    NetworkConfiguration (NetworkConfiguration'),
     newNetworkConfiguration,
     networkConfiguration_securityGroupIds,
     networkConfiguration_subnetIds,
 
     -- * StatisticSet
-    StatisticSet,
+    StatisticSet (StatisticSet'),
     newStatisticSet,
     statisticSet_maximum,
     statisticSet_minimum,
@@ -139,13 +139,13 @@ module Amazonka.MwAA.Types
     statisticSet_sum,
 
     -- * UpdateError
-    UpdateError,
+    UpdateError (UpdateError'),
     newUpdateError,
     updateError_errorCode,
     updateError_errorMessage,
 
     -- * UpdateNetworkConfigurationInput
-    UpdateNetworkConfigurationInput,
+    UpdateNetworkConfigurationInput (UpdateNetworkConfigurationInput'),
     newUpdateNetworkConfigurationInput,
     updateNetworkConfigurationInput_securityGroupIds,
   )

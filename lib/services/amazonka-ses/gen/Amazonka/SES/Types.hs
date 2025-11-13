@@ -55,67 +55,67 @@ module Amazonka.SES.Types
     _TrackingOptionsDoesNotExistException,
 
     -- * BehaviorOnMXFailure
-    BehaviorOnMXFailure,
+    BehaviorOnMXFailure (BehaviorOnMXFailure'),
 
     -- * BounceType
-    BounceType,
+    BounceType (BounceType'),
 
     -- * BulkEmailStatus
-    BulkEmailStatus,
+    BulkEmailStatus (BulkEmailStatus'),
 
     -- * ConfigurationSetAttribute
-    ConfigurationSetAttribute,
+    ConfigurationSetAttribute (ConfigurationSetAttribute'),
 
     -- * CustomMailFromStatus
-    CustomMailFromStatus,
+    CustomMailFromStatus (CustomMailFromStatus'),
 
     -- * DimensionValueSource
-    DimensionValueSource,
+    DimensionValueSource (DimensionValueSource'),
 
     -- * DsnAction
-    DsnAction,
+    DsnAction (DsnAction'),
 
     -- * EventType
-    EventType,
+    EventType (EventType'),
 
     -- * IdentityType
-    IdentityType,
+    IdentityType (IdentityType'),
 
     -- * InvocationType
-    InvocationType,
+    InvocationType (InvocationType'),
 
     -- * NotificationType
-    NotificationType,
+    NotificationType (NotificationType'),
 
     -- * ReceiptFilterPolicy
-    ReceiptFilterPolicy,
+    ReceiptFilterPolicy (ReceiptFilterPolicy'),
 
     -- * SNSActionEncoding
-    SNSActionEncoding,
+    SNSActionEncoding (SNSActionEncoding'),
 
     -- * StopScope
-    StopScope,
+    StopScope (StopScope'),
 
     -- * TlsPolicy
-    TlsPolicy,
+    TlsPolicy (TlsPolicy'),
 
     -- * VerificationStatus
-    VerificationStatus,
+    VerificationStatus (VerificationStatus'),
 
     -- * AddHeaderAction
-    AddHeaderAction,
+    AddHeaderAction (AddHeaderAction'),
     newAddHeaderAction,
     addHeaderAction_headerName,
     addHeaderAction_headerValue,
 
     -- * Body
-    Body,
+    Body (Body'),
     newBody,
     body_html,
     body_text,
 
     -- * BounceAction
-    BounceAction,
+    BounceAction (BounceAction'),
     newBounceAction,
     bounceAction_statusCode,
     bounceAction_topicArn,
@@ -124,7 +124,7 @@ module Amazonka.SES.Types
     bounceAction_sender,
 
     -- * BouncedRecipientInfo
-    BouncedRecipientInfo,
+    BouncedRecipientInfo (BouncedRecipientInfo'),
     newBouncedRecipientInfo,
     bouncedRecipientInfo_bounceType,
     bouncedRecipientInfo_recipientArn,
@@ -132,44 +132,44 @@ module Amazonka.SES.Types
     bouncedRecipientInfo_recipient,
 
     -- * BulkEmailDestination
-    BulkEmailDestination,
+    BulkEmailDestination (BulkEmailDestination'),
     newBulkEmailDestination,
     bulkEmailDestination_replacementTags,
     bulkEmailDestination_replacementTemplateData,
     bulkEmailDestination_destination,
 
     -- * BulkEmailDestinationStatus
-    BulkEmailDestinationStatus,
+    BulkEmailDestinationStatus (BulkEmailDestinationStatus'),
     newBulkEmailDestinationStatus,
     bulkEmailDestinationStatus_error,
     bulkEmailDestinationStatus_messageId,
     bulkEmailDestinationStatus_status,
 
     -- * CloudWatchDestination
-    CloudWatchDestination,
+    CloudWatchDestination (CloudWatchDestination'),
     newCloudWatchDestination,
     cloudWatchDestination_dimensionConfigurations,
 
     -- * CloudWatchDimensionConfiguration
-    CloudWatchDimensionConfiguration,
+    CloudWatchDimensionConfiguration (CloudWatchDimensionConfiguration'),
     newCloudWatchDimensionConfiguration,
     cloudWatchDimensionConfiguration_dimensionName,
     cloudWatchDimensionConfiguration_dimensionValueSource,
     cloudWatchDimensionConfiguration_defaultDimensionValue,
 
     -- * ConfigurationSet
-    ConfigurationSet,
+    ConfigurationSet (ConfigurationSet'),
     newConfigurationSet,
     configurationSet_name,
 
     -- * Content
-    Content,
+    Content (Content'),
     newContent,
     content_charset,
     content_data,
 
     -- * CustomVerificationEmailTemplate
-    CustomVerificationEmailTemplate,
+    CustomVerificationEmailTemplate (CustomVerificationEmailTemplate'),
     newCustomVerificationEmailTemplate,
     customVerificationEmailTemplate_failureRedirectionURL,
     customVerificationEmailTemplate_fromEmailAddress,
@@ -178,19 +178,19 @@ module Amazonka.SES.Types
     customVerificationEmailTemplate_templateSubject,
 
     -- * DeliveryOptions
-    DeliveryOptions,
+    DeliveryOptions (DeliveryOptions'),
     newDeliveryOptions,
     deliveryOptions_tlsPolicy,
 
     -- * Destination
-    Destination,
+    Destination (Destination'),
     newDestination,
     destination_bccAddresses,
     destination_ccAddresses,
     destination_toAddresses,
 
     -- * EventDestination
-    EventDestination,
+    EventDestination (EventDestination'),
     newEventDestination,
     eventDestination_cloudWatchDestination,
     eventDestination_enabled,
@@ -200,27 +200,27 @@ module Amazonka.SES.Types
     eventDestination_matchingEventTypes,
 
     -- * ExtensionField
-    ExtensionField,
+    ExtensionField (ExtensionField'),
     newExtensionField,
     extensionField_name,
     extensionField_value,
 
     -- * IdentityDkimAttributes
-    IdentityDkimAttributes,
+    IdentityDkimAttributes (IdentityDkimAttributes'),
     newIdentityDkimAttributes,
     identityDkimAttributes_dkimTokens,
     identityDkimAttributes_dkimEnabled,
     identityDkimAttributes_dkimVerificationStatus,
 
     -- * IdentityMailFromDomainAttributes
-    IdentityMailFromDomainAttributes,
+    IdentityMailFromDomainAttributes (IdentityMailFromDomainAttributes'),
     newIdentityMailFromDomainAttributes,
     identityMailFromDomainAttributes_mailFromDomain,
     identityMailFromDomainAttributes_mailFromDomainStatus,
     identityMailFromDomainAttributes_behaviorOnMXFailure,
 
     -- * IdentityNotificationAttributes
-    IdentityNotificationAttributes,
+    IdentityNotificationAttributes (IdentityNotificationAttributes'),
     newIdentityNotificationAttributes,
     identityNotificationAttributes_headersInBounceNotificationsEnabled,
     identityNotificationAttributes_headersInComplaintNotificationsEnabled,
@@ -231,50 +231,50 @@ module Amazonka.SES.Types
     identityNotificationAttributes_forwardingEnabled,
 
     -- * IdentityVerificationAttributes
-    IdentityVerificationAttributes,
+    IdentityVerificationAttributes (IdentityVerificationAttributes'),
     newIdentityVerificationAttributes,
     identityVerificationAttributes_verificationToken,
     identityVerificationAttributes_verificationStatus,
 
     -- * KinesisFirehoseDestination
-    KinesisFirehoseDestination,
+    KinesisFirehoseDestination (KinesisFirehoseDestination'),
     newKinesisFirehoseDestination,
     kinesisFirehoseDestination_iAMRoleARN,
     kinesisFirehoseDestination_deliveryStreamARN,
 
     -- * LambdaAction
-    LambdaAction,
+    LambdaAction (LambdaAction'),
     newLambdaAction,
     lambdaAction_invocationType,
     lambdaAction_topicArn,
     lambdaAction_functionArn,
 
     -- * Message
-    Message,
+    Message (Message'),
     newMessage,
     message_subject,
     message_body,
 
     -- * MessageDsn
-    MessageDsn,
+    MessageDsn (MessageDsn'),
     newMessageDsn,
     messageDsn_arrivalDate,
     messageDsn_extensionFields,
     messageDsn_reportingMta,
 
     -- * MessageTag
-    MessageTag,
+    MessageTag (MessageTag'),
     newMessageTag,
     messageTag_name,
     messageTag_value,
 
     -- * RawMessage
-    RawMessage,
+    RawMessage (RawMessage'),
     newRawMessage,
     rawMessage_data,
 
     -- * ReceiptAction
-    ReceiptAction,
+    ReceiptAction (ReceiptAction'),
     newReceiptAction,
     receiptAction_addHeaderAction,
     receiptAction_bounceAction,
@@ -285,19 +285,19 @@ module Amazonka.SES.Types
     receiptAction_workmailAction,
 
     -- * ReceiptFilter
-    ReceiptFilter,
+    ReceiptFilter (ReceiptFilter'),
     newReceiptFilter,
     receiptFilter_name,
     receiptFilter_ipFilter,
 
     -- * ReceiptIpFilter
-    ReceiptIpFilter,
+    ReceiptIpFilter (ReceiptIpFilter'),
     newReceiptIpFilter,
     receiptIpFilter_policy,
     receiptIpFilter_cidr,
 
     -- * ReceiptRule
-    ReceiptRule,
+    ReceiptRule (ReceiptRule'),
     newReceiptRule,
     receiptRule_actions,
     receiptRule_enabled,
@@ -307,13 +307,13 @@ module Amazonka.SES.Types
     receiptRule_name,
 
     -- * ReceiptRuleSetMetadata
-    ReceiptRuleSetMetadata,
+    ReceiptRuleSetMetadata (ReceiptRuleSetMetadata'),
     newReceiptRuleSetMetadata,
     receiptRuleSetMetadata_createdTimestamp,
     receiptRuleSetMetadata_name,
 
     -- * RecipientDsnFields
-    RecipientDsnFields,
+    RecipientDsnFields (RecipientDsnFields'),
     newRecipientDsnFields,
     recipientDsnFields_diagnosticCode,
     recipientDsnFields_extensionFields,
@@ -324,14 +324,14 @@ module Amazonka.SES.Types
     recipientDsnFields_status,
 
     -- * ReputationOptions
-    ReputationOptions,
+    ReputationOptions (ReputationOptions'),
     newReputationOptions,
     reputationOptions_lastFreshStart,
     reputationOptions_reputationMetricsEnabled,
     reputationOptions_sendingEnabled,
 
     -- * S3Action
-    S3Action,
+    S3Action (S3Action'),
     newS3Action,
     s3Action_kmsKeyArn,
     s3Action_objectKeyPrefix,
@@ -339,18 +339,18 @@ module Amazonka.SES.Types
     s3Action_bucketName,
 
     -- * SNSAction
-    SNSAction,
+    SNSAction (SNSAction'),
     newSNSAction,
     sNSAction_encoding,
     sNSAction_topicArn,
 
     -- * SNSDestination
-    SNSDestination,
+    SNSDestination (SNSDestination'),
     newSNSDestination,
     sNSDestination_topicARN,
 
     -- * SendDataPoint
-    SendDataPoint,
+    SendDataPoint (SendDataPoint'),
     newSendDataPoint,
     sendDataPoint_bounces,
     sendDataPoint_complaints,
@@ -359,13 +359,13 @@ module Amazonka.SES.Types
     sendDataPoint_timestamp,
 
     -- * StopAction
-    StopAction,
+    StopAction (StopAction'),
     newStopAction,
     stopAction_topicArn,
     stopAction_scope,
 
     -- * Template
-    Template,
+    Template (Template'),
     newTemplate,
     template_htmlPart,
     template_subjectPart,
@@ -373,18 +373,18 @@ module Amazonka.SES.Types
     template_templateName,
 
     -- * TemplateMetadata
-    TemplateMetadata,
+    TemplateMetadata (TemplateMetadata'),
     newTemplateMetadata,
     templateMetadata_createdTimestamp,
     templateMetadata_name,
 
     -- * TrackingOptions
-    TrackingOptions,
+    TrackingOptions (TrackingOptions'),
     newTrackingOptions,
     trackingOptions_customRedirectDomain,
 
     -- * WorkmailAction
-    WorkmailAction,
+    WorkmailAction (WorkmailAction'),
     newWorkmailAction,
     workmailAction_topicArn,
     workmailAction_organizationArn,

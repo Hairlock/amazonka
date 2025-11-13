@@ -30,33 +30,33 @@ module Amazonka.ConnectCampaigns.Types
     _ValidationException,
 
     -- * CampaignState
-    CampaignState,
+    CampaignState (CampaignState'),
 
     -- * EncryptionType
-    EncryptionType,
+    EncryptionType (EncryptionType'),
 
     -- * FailureCode
-    FailureCode,
+    FailureCode (FailureCode'),
 
     -- * GetCampaignStateBatchFailureCode
-    GetCampaignStateBatchFailureCode,
+    GetCampaignStateBatchFailureCode (GetCampaignStateBatchFailureCode'),
 
     -- * InstanceIdFilterOperator
-    InstanceIdFilterOperator,
+    InstanceIdFilterOperator (InstanceIdFilterOperator'),
 
     -- * InstanceOnboardingJobFailureCode
-    InstanceOnboardingJobFailureCode,
+    InstanceOnboardingJobFailureCode (InstanceOnboardingJobFailureCode'),
 
     -- * InstanceOnboardingJobStatusCode
-    InstanceOnboardingJobStatusCode,
+    InstanceOnboardingJobStatusCode (InstanceOnboardingJobStatusCode'),
 
     -- * AnswerMachineDetectionConfig
-    AnswerMachineDetectionConfig,
+    AnswerMachineDetectionConfig (AnswerMachineDetectionConfig'),
     newAnswerMachineDetectionConfig,
     answerMachineDetectionConfig_enableAnswerMachineDetection,
 
     -- * Campaign
-    Campaign,
+    Campaign (Campaign'),
     newCampaign,
     campaign_tags,
     campaign_arn,
@@ -67,12 +67,12 @@ module Amazonka.ConnectCampaigns.Types
     campaign_outboundCallConfig,
 
     -- * CampaignFilters
-    CampaignFilters,
+    CampaignFilters (CampaignFilters'),
     newCampaignFilters,
     campaignFilters_instanceIdFilter,
 
     -- * CampaignSummary
-    CampaignSummary,
+    CampaignSummary (CampaignSummary'),
     newCampaignSummary,
     campaignSummary_arn,
     campaignSummary_connectInstanceId,
@@ -80,7 +80,7 @@ module Amazonka.ConnectCampaigns.Types
     campaignSummary_name,
 
     -- * DialRequest
-    DialRequest,
+    DialRequest (DialRequest'),
     newDialRequest,
     dialRequest_attributes,
     dialRequest_clientToken,
@@ -88,53 +88,53 @@ module Amazonka.ConnectCampaigns.Types
     dialRequest_phoneNumber,
 
     -- * DialerConfig
-    DialerConfig,
+    DialerConfig (DialerConfig'),
     newDialerConfig,
     dialerConfig_predictiveDialerConfig,
     dialerConfig_progressiveDialerConfig,
 
     -- * EncryptionConfig
-    EncryptionConfig,
+    EncryptionConfig (EncryptionConfig'),
     newEncryptionConfig,
     encryptionConfig_encryptionType,
     encryptionConfig_keyArn,
     encryptionConfig_enabled,
 
     -- * FailedCampaignStateResponse
-    FailedCampaignStateResponse,
+    FailedCampaignStateResponse (FailedCampaignStateResponse'),
     newFailedCampaignStateResponse,
     failedCampaignStateResponse_campaignId,
     failedCampaignStateResponse_failureCode,
 
     -- * FailedRequest
-    FailedRequest,
+    FailedRequest (FailedRequest'),
     newFailedRequest,
     failedRequest_clientToken,
     failedRequest_failureCode,
     failedRequest_id,
 
     -- * InstanceConfig
-    InstanceConfig,
+    InstanceConfig (InstanceConfig'),
     newInstanceConfig,
     instanceConfig_connectInstanceId,
     instanceConfig_encryptionConfig,
     instanceConfig_serviceLinkedRoleArn,
 
     -- * InstanceIdFilter
-    InstanceIdFilter,
+    InstanceIdFilter (InstanceIdFilter'),
     newInstanceIdFilter,
     instanceIdFilter_operator,
     instanceIdFilter_value,
 
     -- * InstanceOnboardingJobStatus
-    InstanceOnboardingJobStatus,
+    InstanceOnboardingJobStatus (InstanceOnboardingJobStatus'),
     newInstanceOnboardingJobStatus,
     instanceOnboardingJobStatus_failureCode,
     instanceOnboardingJobStatus_connectInstanceId,
     instanceOnboardingJobStatus_status,
 
     -- * OutboundCallConfig
-    OutboundCallConfig,
+    OutboundCallConfig (OutboundCallConfig'),
     newOutboundCallConfig,
     outboundCallConfig_answerMachineDetectionConfig,
     outboundCallConfig_connectSourcePhoneNumber,
@@ -142,23 +142,23 @@ module Amazonka.ConnectCampaigns.Types
     outboundCallConfig_connectQueueId,
 
     -- * PredictiveDialerConfig
-    PredictiveDialerConfig,
+    PredictiveDialerConfig (PredictiveDialerConfig'),
     newPredictiveDialerConfig,
     predictiveDialerConfig_bandwidthAllocation,
 
     -- * ProgressiveDialerConfig
-    ProgressiveDialerConfig,
+    ProgressiveDialerConfig (ProgressiveDialerConfig'),
     newProgressiveDialerConfig,
     progressiveDialerConfig_bandwidthAllocation,
 
     -- * SuccessfulCampaignStateResponse
-    SuccessfulCampaignStateResponse,
+    SuccessfulCampaignStateResponse (SuccessfulCampaignStateResponse'),
     newSuccessfulCampaignStateResponse,
     successfulCampaignStateResponse_campaignId,
     successfulCampaignStateResponse_state,
 
     -- * SuccessfulRequest
-    SuccessfulRequest,
+    SuccessfulRequest (SuccessfulRequest'),
     newSuccessfulRequest,
     successfulRequest_clientToken,
     successfulRequest_id,

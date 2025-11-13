@@ -27,49 +27,49 @@ module Amazonka.AutoScalingPlans.Types
     _ValidationException,
 
     -- * ForecastDataType
-    ForecastDataType,
+    ForecastDataType (ForecastDataType'),
 
     -- * LoadMetricType
-    LoadMetricType,
+    LoadMetricType (LoadMetricType'),
 
     -- * MetricStatistic
-    MetricStatistic,
+    MetricStatistic (MetricStatistic'),
 
     -- * PolicyType
-    PolicyType,
+    PolicyType (PolicyType'),
 
     -- * PredictiveScalingMaxCapacityBehavior
-    PredictiveScalingMaxCapacityBehavior,
+    PredictiveScalingMaxCapacityBehavior (PredictiveScalingMaxCapacityBehavior'),
 
     -- * PredictiveScalingMode
-    PredictiveScalingMode,
+    PredictiveScalingMode (PredictiveScalingMode'),
 
     -- * ScalableDimension
-    ScalableDimension,
+    ScalableDimension (ScalableDimension'),
 
     -- * ScalingMetricType
-    ScalingMetricType,
+    ScalingMetricType (ScalingMetricType'),
 
     -- * ScalingPlanStatusCode
-    ScalingPlanStatusCode,
+    ScalingPlanStatusCode (ScalingPlanStatusCode'),
 
     -- * ScalingPolicyUpdateBehavior
-    ScalingPolicyUpdateBehavior,
+    ScalingPolicyUpdateBehavior (ScalingPolicyUpdateBehavior'),
 
     -- * ScalingStatusCode
-    ScalingStatusCode,
+    ScalingStatusCode (ScalingStatusCode'),
 
     -- * ServiceNamespace
-    ServiceNamespace,
+    ServiceNamespace (ServiceNamespace'),
 
     -- * ApplicationSource
-    ApplicationSource,
+    ApplicationSource (ApplicationSource'),
     newApplicationSource,
     applicationSource_cloudFormationStackARN,
     applicationSource_tagFilters,
 
     -- * CustomizedLoadMetricSpecification
-    CustomizedLoadMetricSpecification,
+    CustomizedLoadMetricSpecification (CustomizedLoadMetricSpecification'),
     newCustomizedLoadMetricSpecification,
     customizedLoadMetricSpecification_dimensions,
     customizedLoadMetricSpecification_unit,
@@ -78,7 +78,7 @@ module Amazonka.AutoScalingPlans.Types
     customizedLoadMetricSpecification_statistic,
 
     -- * CustomizedScalingMetricSpecification
-    CustomizedScalingMetricSpecification,
+    CustomizedScalingMetricSpecification (CustomizedScalingMetricSpecification'),
     newCustomizedScalingMetricSpecification,
     customizedScalingMetricSpecification_dimensions,
     customizedScalingMetricSpecification_unit,
@@ -87,31 +87,31 @@ module Amazonka.AutoScalingPlans.Types
     customizedScalingMetricSpecification_statistic,
 
     -- * Datapoint
-    Datapoint,
+    Datapoint (Datapoint'),
     newDatapoint,
     datapoint_timestamp,
     datapoint_value,
 
     -- * MetricDimension
-    MetricDimension,
+    MetricDimension (MetricDimension'),
     newMetricDimension,
     metricDimension_name,
     metricDimension_value,
 
     -- * PredefinedLoadMetricSpecification
-    PredefinedLoadMetricSpecification,
+    PredefinedLoadMetricSpecification (PredefinedLoadMetricSpecification'),
     newPredefinedLoadMetricSpecification,
     predefinedLoadMetricSpecification_resourceLabel,
     predefinedLoadMetricSpecification_predefinedLoadMetricType,
 
     -- * PredefinedScalingMetricSpecification
-    PredefinedScalingMetricSpecification,
+    PredefinedScalingMetricSpecification (PredefinedScalingMetricSpecification'),
     newPredefinedScalingMetricSpecification,
     predefinedScalingMetricSpecification_resourceLabel,
     predefinedScalingMetricSpecification_predefinedScalingMetricType,
 
     -- * ScalingInstruction
-    ScalingInstruction,
+    ScalingInstruction (ScalingInstruction'),
     newScalingInstruction,
     scalingInstruction_customizedLoadMetricSpecification,
     scalingInstruction_disableDynamicScaling,
@@ -129,7 +129,7 @@ module Amazonka.AutoScalingPlans.Types
     scalingInstruction_targetTrackingConfigurations,
 
     -- * ScalingPlan
-    ScalingPlan,
+    ScalingPlan (ScalingPlan'),
     newScalingPlan,
     scalingPlan_creationTime,
     scalingPlan_statusMessage,
@@ -141,7 +141,7 @@ module Amazonka.AutoScalingPlans.Types
     scalingPlan_statusCode,
 
     -- * ScalingPlanResource
-    ScalingPlanResource,
+    ScalingPlanResource (ScalingPlanResource'),
     newScalingPlanResource,
     scalingPlanResource_scalingPolicies,
     scalingPlanResource_scalingStatusMessage,
@@ -153,20 +153,20 @@ module Amazonka.AutoScalingPlans.Types
     scalingPlanResource_scalingStatusCode,
 
     -- * ScalingPolicy
-    ScalingPolicy,
+    ScalingPolicy (ScalingPolicy'),
     newScalingPolicy,
     scalingPolicy_targetTrackingConfiguration,
     scalingPolicy_policyName,
     scalingPolicy_policyType,
 
     -- * TagFilter
-    TagFilter,
+    TagFilter (TagFilter'),
     newTagFilter,
     tagFilter_key,
     tagFilter_values,
 
     -- * TargetTrackingConfiguration
-    TargetTrackingConfiguration,
+    TargetTrackingConfiguration (TargetTrackingConfiguration'),
     newTargetTrackingConfiguration,
     targetTrackingConfiguration_customizedScalingMetricSpecification,
     targetTrackingConfiguration_disableScaleIn,

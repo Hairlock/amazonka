@@ -27,25 +27,25 @@ module Amazonka.AmplifyUiBuilder.Types
     _UnauthorizedException,
 
     -- * FixedPosition
-    FixedPosition,
+    FixedPosition (FixedPosition'),
 
     -- * FormActionType
-    FormActionType,
+    FormActionType (FormActionType'),
 
     -- * FormButtonsPosition
-    FormButtonsPosition,
+    FormButtonsPosition (FormButtonsPosition'),
 
     -- * FormDataSourceType
-    FormDataSourceType,
+    FormDataSourceType (FormDataSourceType'),
 
     -- * SortDirection
-    SortDirection,
+    SortDirection (SortDirection'),
 
     -- * TokenProviders
-    TokenProviders,
+    TokenProviders (TokenProviders'),
 
     -- * ActionParameters
-    ActionParameters,
+    ActionParameters (ActionParameters'),
     newActionParameters,
     actionParameters_anchor,
     actionParameters_fields,
@@ -58,7 +58,7 @@ module Amazonka.AmplifyUiBuilder.Types
     actionParameters_url,
 
     -- * Component
-    Component,
+    Component (Component'),
     newComponent,
     component_children,
     component_collectionProperties,
@@ -79,14 +79,14 @@ module Amazonka.AmplifyUiBuilder.Types
     component_variants,
 
     -- * ComponentBindingPropertiesValue
-    ComponentBindingPropertiesValue,
+    ComponentBindingPropertiesValue (ComponentBindingPropertiesValue'),
     newComponentBindingPropertiesValue,
     componentBindingPropertiesValue_bindingProperties,
     componentBindingPropertiesValue_defaultValue,
     componentBindingPropertiesValue_type,
 
     -- * ComponentBindingPropertiesValueProperties
-    ComponentBindingPropertiesValueProperties,
+    ComponentBindingPropertiesValueProperties (ComponentBindingPropertiesValueProperties'),
     newComponentBindingPropertiesValueProperties,
     componentBindingPropertiesValueProperties_bucket,
     componentBindingPropertiesValueProperties_defaultValue,
@@ -98,7 +98,7 @@ module Amazonka.AmplifyUiBuilder.Types
     componentBindingPropertiesValueProperties_userAttribute,
 
     -- * ComponentChild
-    ComponentChild,
+    ComponentChild (ComponentChild'),
     newComponentChild,
     componentChild_children,
     componentChild_events,
@@ -108,7 +108,7 @@ module Amazonka.AmplifyUiBuilder.Types
     componentChild_properties,
 
     -- * ComponentConditionProperty
-    ComponentConditionProperty,
+    ComponentConditionProperty (ComponentConditionProperty'),
     newComponentConditionProperty,
     componentConditionProperty_else,
     componentConditionProperty_field,
@@ -119,7 +119,7 @@ module Amazonka.AmplifyUiBuilder.Types
     componentConditionProperty_then,
 
     -- * ComponentDataConfiguration
-    ComponentDataConfiguration,
+    ComponentDataConfiguration (ComponentDataConfiguration'),
     newComponentDataConfiguration,
     componentDataConfiguration_identifiers,
     componentDataConfiguration_predicate,
@@ -127,14 +127,14 @@ module Amazonka.AmplifyUiBuilder.Types
     componentDataConfiguration_model,
 
     -- * ComponentEvent
-    ComponentEvent,
+    ComponentEvent (ComponentEvent'),
     newComponentEvent,
     componentEvent_action,
     componentEvent_bindingEvent,
     componentEvent_parameters,
 
     -- * ComponentProperty
-    ComponentProperty,
+    ComponentProperty (ComponentProperty'),
     newComponentProperty,
     componentProperty_bindingProperties,
     componentProperty_bindings,
@@ -153,13 +153,13 @@ module Amazonka.AmplifyUiBuilder.Types
     componentProperty_value,
 
     -- * ComponentPropertyBindingProperties
-    ComponentPropertyBindingProperties,
+    ComponentPropertyBindingProperties (ComponentPropertyBindingProperties'),
     newComponentPropertyBindingProperties,
     componentPropertyBindingProperties_field,
     componentPropertyBindingProperties_property,
 
     -- * ComponentSummary
-    ComponentSummary,
+    ComponentSummary (ComponentSummary'),
     newComponentSummary,
     componentSummary_appId,
     componentSummary_componentType,
@@ -168,13 +168,13 @@ module Amazonka.AmplifyUiBuilder.Types
     componentSummary_name,
 
     -- * ComponentVariant
-    ComponentVariant,
+    ComponentVariant (ComponentVariant'),
     newComponentVariant,
     componentVariant_overrides,
     componentVariant_variantValues,
 
     -- * CreateComponentData
-    CreateComponentData,
+    CreateComponentData (CreateComponentData'),
     newCreateComponentData,
     createComponentData_children,
     createComponentData_collectionProperties,
@@ -190,7 +190,7 @@ module Amazonka.AmplifyUiBuilder.Types
     createComponentData_variants,
 
     -- * CreateFormData
-    CreateFormData,
+    CreateFormData (CreateFormData'),
     newCreateFormData,
     createFormData_cta,
     createFormData_tags,
@@ -203,7 +203,7 @@ module Amazonka.AmplifyUiBuilder.Types
     createFormData_style,
 
     -- * CreateThemeData
-    CreateThemeData,
+    CreateThemeData (CreateThemeData'),
     newCreateThemeData,
     createThemeData_overrides,
     createThemeData_tags,
@@ -211,13 +211,13 @@ module Amazonka.AmplifyUiBuilder.Types
     createThemeData_values,
 
     -- * ExchangeCodeForTokenRequestBody
-    ExchangeCodeForTokenRequestBody,
+    ExchangeCodeForTokenRequestBody (ExchangeCodeForTokenRequestBody'),
     newExchangeCodeForTokenRequestBody,
     exchangeCodeForTokenRequestBody_code,
     exchangeCodeForTokenRequestBody_redirectUri,
 
     -- * FieldConfig
-    FieldConfig,
+    FieldConfig (FieldConfig'),
     newFieldConfig,
     fieldConfig_excluded,
     fieldConfig_inputType,
@@ -226,7 +226,7 @@ module Amazonka.AmplifyUiBuilder.Types
     fieldConfig_validations,
 
     -- * FieldInputConfig
-    FieldInputConfig,
+    FieldInputConfig (FieldInputConfig'),
     newFieldInputConfig,
     fieldInputConfig_defaultChecked,
     fieldInputConfig_defaultCountryCode,
@@ -245,14 +245,14 @@ module Amazonka.AmplifyUiBuilder.Types
     fieldInputConfig_type,
 
     -- * FieldPosition
-    FieldPosition,
+    FieldPosition (FieldPosition'),
     newFieldPosition,
     fieldPosition_below,
     fieldPosition_fixed,
     fieldPosition_rightOf,
 
     -- * FieldValidationConfiguration
-    FieldValidationConfiguration,
+    FieldValidationConfiguration (FieldValidationConfiguration'),
     newFieldValidationConfiguration,
     fieldValidationConfiguration_numValues,
     fieldValidationConfiguration_strValues,
@@ -260,7 +260,7 @@ module Amazonka.AmplifyUiBuilder.Types
     fieldValidationConfiguration_type,
 
     -- * Form
-    Form,
+    Form (Form'),
     newForm,
     form_cta,
     form_tags,
@@ -276,20 +276,20 @@ module Amazonka.AmplifyUiBuilder.Types
     form_style,
 
     -- * FormBindingElement
-    FormBindingElement,
+    FormBindingElement (FormBindingElement'),
     newFormBindingElement,
     formBindingElement_element,
     formBindingElement_property,
 
     -- * FormButton
-    FormButton,
+    FormButton (FormButton'),
     newFormButton,
     formButton_children,
     formButton_excluded,
     formButton_position,
 
     -- * FormCTA
-    FormCTA,
+    FormCTA (FormCTA'),
     newFormCTA,
     formCTA_cancel,
     formCTA_clear,
@@ -297,31 +297,31 @@ module Amazonka.AmplifyUiBuilder.Types
     formCTA_submit,
 
     -- * FormDataTypeConfig
-    FormDataTypeConfig,
+    FormDataTypeConfig (FormDataTypeConfig'),
     newFormDataTypeConfig,
     formDataTypeConfig_dataSourceType,
     formDataTypeConfig_dataTypeName,
 
     -- * FormInputValueProperty
-    FormInputValueProperty,
+    FormInputValueProperty (FormInputValueProperty'),
     newFormInputValueProperty,
     formInputValueProperty_value,
 
     -- * FormStyle
-    FormStyle,
+    FormStyle (FormStyle'),
     newFormStyle,
     formStyle_horizontalGap,
     formStyle_outerPadding,
     formStyle_verticalGap,
 
     -- * FormStyleConfig
-    FormStyleConfig,
+    FormStyleConfig (FormStyleConfig'),
     newFormStyleConfig,
     formStyleConfig_tokenReference,
     formStyleConfig_value,
 
     -- * FormSummary
-    FormSummary,
+    FormSummary (FormSummary'),
     newFormSummary,
     formSummary_appId,
     formSummary_dataType,
@@ -331,14 +331,14 @@ module Amazonka.AmplifyUiBuilder.Types
     formSummary_name,
 
     -- * MutationActionSetStateParameter
-    MutationActionSetStateParameter,
+    MutationActionSetStateParameter (MutationActionSetStateParameter'),
     newMutationActionSetStateParameter,
     mutationActionSetStateParameter_componentName,
     mutationActionSetStateParameter_property,
     mutationActionSetStateParameter_set,
 
     -- * Predicate
-    Predicate,
+    Predicate (Predicate'),
     newPredicate,
     predicate_and,
     predicate_field,
@@ -347,17 +347,17 @@ module Amazonka.AmplifyUiBuilder.Types
     predicate_or,
 
     -- * PutMetadataFlagBody
-    PutMetadataFlagBody,
+    PutMetadataFlagBody (PutMetadataFlagBody'),
     newPutMetadataFlagBody,
     putMetadataFlagBody_newValue,
 
     -- * RefreshTokenRequestBody
-    RefreshTokenRequestBody,
+    RefreshTokenRequestBody (RefreshTokenRequestBody'),
     newRefreshTokenRequestBody,
     refreshTokenRequestBody_token,
 
     -- * SectionalElement
-    SectionalElement,
+    SectionalElement (SectionalElement'),
     newSectionalElement,
     sectionalElement_level,
     sectionalElement_orientation,
@@ -366,13 +366,13 @@ module Amazonka.AmplifyUiBuilder.Types
     sectionalElement_type,
 
     -- * SortProperty
-    SortProperty,
+    SortProperty (SortProperty'),
     newSortProperty,
     sortProperty_direction,
     sortProperty_field,
 
     -- * Theme
-    Theme,
+    Theme (Theme'),
     newTheme,
     theme_modifiedAt,
     theme_overrides,
@@ -385,7 +385,7 @@ module Amazonka.AmplifyUiBuilder.Types
     theme_values,
 
     -- * ThemeSummary
-    ThemeSummary,
+    ThemeSummary (ThemeSummary'),
     newThemeSummary,
     themeSummary_appId,
     themeSummary_environmentName,
@@ -393,19 +393,19 @@ module Amazonka.AmplifyUiBuilder.Types
     themeSummary_name,
 
     -- * ThemeValue
-    ThemeValue,
+    ThemeValue (ThemeValue'),
     newThemeValue,
     themeValue_children,
     themeValue_value,
 
     -- * ThemeValues
-    ThemeValues,
+    ThemeValues (ThemeValues'),
     newThemeValues,
     themeValues_key,
     themeValues_value,
 
     -- * UpdateComponentData
-    UpdateComponentData,
+    UpdateComponentData (UpdateComponentData'),
     newUpdateComponentData,
     updateComponentData_bindingProperties,
     updateComponentData_children,
@@ -421,7 +421,7 @@ module Amazonka.AmplifyUiBuilder.Types
     updateComponentData_variants,
 
     -- * UpdateFormData
-    UpdateFormData,
+    UpdateFormData (UpdateFormData'),
     newUpdateFormData,
     updateFormData_cta,
     updateFormData_dataType,
@@ -433,7 +433,7 @@ module Amazonka.AmplifyUiBuilder.Types
     updateFormData_style,
 
     -- * UpdateThemeData
-    UpdateThemeData,
+    UpdateThemeData (UpdateThemeData'),
     newUpdateThemeData,
     updateThemeData_id,
     updateThemeData_name,
@@ -441,13 +441,13 @@ module Amazonka.AmplifyUiBuilder.Types
     updateThemeData_values,
 
     -- * ValueMapping
-    ValueMapping,
+    ValueMapping (ValueMapping'),
     newValueMapping,
     valueMapping_displayValue,
     valueMapping_value,
 
     -- * ValueMappings
-    ValueMappings,
+    ValueMappings (ValueMappings'),
     newValueMappings,
     valueMappings_values,
   )

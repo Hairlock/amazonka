@@ -26,13 +26,13 @@ module Amazonka.CodeStarConnections.Types
     _UnsupportedOperationException,
 
     -- * ConnectionStatus
-    ConnectionStatus,
+    ConnectionStatus (ConnectionStatus'),
 
     -- * ProviderType
-    ProviderType,
+    ProviderType (ProviderType'),
 
     -- * Connection
-    Connection,
+    Connection (Connection'),
     newConnection,
     connection_connectionArn,
     connection_connectionName,
@@ -42,7 +42,7 @@ module Amazonka.CodeStarConnections.Types
     connection_providerType,
 
     -- * Host
-    Host,
+    Host (Host'),
     newHost,
     host_hostArn,
     host_name,
@@ -53,13 +53,13 @@ module Amazonka.CodeStarConnections.Types
     host_vpcConfiguration,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
 
     -- * VpcConfiguration
-    VpcConfiguration,
+    VpcConfiguration (VpcConfiguration'),
     newVpcConfiguration,
     vpcConfiguration_tlsCertificate,
     vpcConfiguration_vpcId,

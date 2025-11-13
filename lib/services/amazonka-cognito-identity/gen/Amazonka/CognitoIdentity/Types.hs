@@ -32,26 +32,26 @@ module Amazonka.CognitoIdentity.Types
     _TooManyRequestsException,
 
     -- * AmbiguousRoleResolutionType
-    AmbiguousRoleResolutionType,
+    AmbiguousRoleResolutionType (AmbiguousRoleResolutionType'),
 
     -- * CognitoErrorCode
-    CognitoErrorCode,
+    CognitoErrorCode (CognitoErrorCode'),
 
     -- * MappingRuleMatchType
-    MappingRuleMatchType,
+    MappingRuleMatchType (MappingRuleMatchType'),
 
     -- * RoleMappingType
-    RoleMappingType,
+    RoleMappingType (RoleMappingType'),
 
     -- * CognitoIdentityProvider
-    CognitoIdentityProvider,
+    CognitoIdentityProvider (CognitoIdentityProvider'),
     newCognitoIdentityProvider,
     cognitoIdentityProvider_clientId,
     cognitoIdentityProvider_providerName,
     cognitoIdentityProvider_serverSideTokenCheck,
 
     -- * Credentials
-    Credentials,
+    Credentials (Credentials'),
     newCredentials,
     credentials_accessKeyId,
     credentials_expiration,
@@ -59,7 +59,7 @@ module Amazonka.CognitoIdentity.Types
     credentials_sessionToken,
 
     -- * IdentityDescription
-    IdentityDescription,
+    IdentityDescription (IdentityDescription'),
     newIdentityDescription,
     identityDescription_creationDate,
     identityDescription_identityId,
@@ -67,7 +67,7 @@ module Amazonka.CognitoIdentity.Types
     identityDescription_logins,
 
     -- * IdentityPool
-    IdentityPool,
+    IdentityPool (IdentityPool'),
     newIdentityPool,
     identityPool_allowClassicFlow,
     identityPool_cognitoIdentityProviders,
@@ -81,13 +81,13 @@ module Amazonka.CognitoIdentity.Types
     identityPool_allowUnauthenticatedIdentities,
 
     -- * IdentityPoolShortDescription
-    IdentityPoolShortDescription,
+    IdentityPoolShortDescription (IdentityPoolShortDescription'),
     newIdentityPoolShortDescription,
     identityPoolShortDescription_identityPoolId,
     identityPoolShortDescription_identityPoolName,
 
     -- * MappingRule
-    MappingRule,
+    MappingRule (MappingRule'),
     newMappingRule,
     mappingRule_claim,
     mappingRule_matchType,
@@ -95,19 +95,19 @@ module Amazonka.CognitoIdentity.Types
     mappingRule_roleARN,
 
     -- * RoleMapping
-    RoleMapping,
+    RoleMapping (RoleMapping'),
     newRoleMapping,
     roleMapping_ambiguousRoleResolution,
     roleMapping_rulesConfiguration,
     roleMapping_type,
 
     -- * RulesConfigurationType
-    RulesConfigurationType,
+    RulesConfigurationType (RulesConfigurationType'),
     newRulesConfigurationType,
     rulesConfigurationType_rules,
 
     -- * UnprocessedIdentityId
-    UnprocessedIdentityId,
+    UnprocessedIdentityId (UnprocessedIdentityId'),
     newUnprocessedIdentityId,
     unprocessedIdentityId_errorCode,
     unprocessedIdentityId_identityId,

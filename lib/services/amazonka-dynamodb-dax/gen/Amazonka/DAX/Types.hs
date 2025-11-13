@@ -48,25 +48,25 @@ module Amazonka.DAX.Types
     _TagQuotaPerResourceExceeded,
 
     -- * ChangeType
-    ChangeType,
+    ChangeType (ChangeType'),
 
     -- * ClusterEndpointEncryptionType
-    ClusterEndpointEncryptionType,
+    ClusterEndpointEncryptionType (ClusterEndpointEncryptionType'),
 
     -- * IsModifiable
-    IsModifiable,
+    IsModifiable (IsModifiable'),
 
     -- * ParameterType
-    ParameterType,
+    ParameterType (ParameterType'),
 
     -- * SSEStatus
-    SSEStatus,
+    SSEStatus (SSEStatus'),
 
     -- * SourceType
-    SourceType,
+    SourceType (SourceType'),
 
     -- * Cluster
-    Cluster,
+    Cluster (Cluster'),
     newCluster,
     cluster_activeNodes,
     cluster_clusterArn,
@@ -88,14 +88,14 @@ module Amazonka.DAX.Types
     cluster_totalNodes,
 
     -- * Endpoint
-    Endpoint,
+    Endpoint (Endpoint'),
     newEndpoint,
     endpoint_address,
     endpoint_port,
     endpoint_url,
 
     -- * Event
-    Event,
+    Event (Event'),
     newEvent,
     event_date,
     event_message,
@@ -103,7 +103,7 @@ module Amazonka.DAX.Types
     event_sourceType,
 
     -- * Node
-    Node,
+    Node (Node'),
     newNode,
     node_availabilityZone,
     node_endpoint,
@@ -113,19 +113,19 @@ module Amazonka.DAX.Types
     node_parameterGroupStatus,
 
     -- * NodeTypeSpecificValue
-    NodeTypeSpecificValue,
+    NodeTypeSpecificValue (NodeTypeSpecificValue'),
     newNodeTypeSpecificValue,
     nodeTypeSpecificValue_nodeType,
     nodeTypeSpecificValue_value,
 
     -- * NotificationConfiguration
-    NotificationConfiguration,
+    NotificationConfiguration (NotificationConfiguration'),
     newNotificationConfiguration,
     notificationConfiguration_topicArn,
     notificationConfiguration_topicStatus,
 
     -- * Parameter
-    Parameter,
+    Parameter (Parameter'),
     newParameter,
     parameter_allowedValues,
     parameter_changeType,
@@ -139,48 +139,48 @@ module Amazonka.DAX.Types
     parameter_source,
 
     -- * ParameterGroup
-    ParameterGroup,
+    ParameterGroup (ParameterGroup'),
     newParameterGroup,
     parameterGroup_description,
     parameterGroup_parameterGroupName,
 
     -- * ParameterGroupStatus
-    ParameterGroupStatus,
+    ParameterGroupStatus (ParameterGroupStatus'),
     newParameterGroupStatus,
     parameterGroupStatus_nodeIdsToReboot,
     parameterGroupStatus_parameterApplyStatus,
     parameterGroupStatus_parameterGroupName,
 
     -- * ParameterNameValue
-    ParameterNameValue,
+    ParameterNameValue (ParameterNameValue'),
     newParameterNameValue,
     parameterNameValue_parameterName,
     parameterNameValue_parameterValue,
 
     -- * SSEDescription
-    SSEDescription,
+    SSEDescription (SSEDescription'),
     newSSEDescription,
     sSEDescription_status,
 
     -- * SSESpecification
-    SSESpecification,
+    SSESpecification (SSESpecification'),
     newSSESpecification,
     sSESpecification_enabled,
 
     -- * SecurityGroupMembership
-    SecurityGroupMembership,
+    SecurityGroupMembership (SecurityGroupMembership'),
     newSecurityGroupMembership,
     securityGroupMembership_securityGroupIdentifier,
     securityGroupMembership_status,
 
     -- * Subnet
-    Subnet,
+    Subnet (Subnet'),
     newSubnet,
     subnet_subnetAvailabilityZone,
     subnet_subnetIdentifier,
 
     -- * SubnetGroup
-    SubnetGroup,
+    SubnetGroup (SubnetGroup'),
     newSubnetGroup,
     subnetGroup_description,
     subnetGroup_subnetGroupName,
@@ -188,7 +188,7 @@ module Amazonka.DAX.Types
     subnetGroup_vpcId,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,

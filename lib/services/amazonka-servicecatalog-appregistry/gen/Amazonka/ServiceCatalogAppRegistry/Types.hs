@@ -26,21 +26,21 @@ module Amazonka.ServiceCatalogAppRegistry.Types
     _ValidationException,
 
     -- * ResourceGroupState
-    ResourceGroupState,
+    ResourceGroupState (ResourceGroupState'),
 
     -- * ResourceType
-    ResourceType,
+    ResourceType (ResourceType'),
 
     -- * SyncAction
-    SyncAction,
+    SyncAction (SyncAction'),
 
     -- * AppRegistryConfiguration
-    AppRegistryConfiguration,
+    AppRegistryConfiguration (AppRegistryConfiguration'),
     newAppRegistryConfiguration,
     appRegistryConfiguration_tagQueryConfiguration,
 
     -- * Application
-    Application,
+    Application (Application'),
     newApplication,
     application_arn,
     application_creationTime,
@@ -51,7 +51,7 @@ module Amazonka.ServiceCatalogAppRegistry.Types
     application_tags,
 
     -- * ApplicationSummary
-    ApplicationSummary,
+    ApplicationSummary (ApplicationSummary'),
     newApplicationSummary,
     applicationSummary_arn,
     applicationSummary_creationTime,
@@ -61,7 +61,7 @@ module Amazonka.ServiceCatalogAppRegistry.Types
     applicationSummary_name,
 
     -- * AttributeGroup
-    AttributeGroup,
+    AttributeGroup (AttributeGroup'),
     newAttributeGroup,
     attributeGroup_arn,
     attributeGroup_creationTime,
@@ -72,14 +72,14 @@ module Amazonka.ServiceCatalogAppRegistry.Types
     attributeGroup_tags,
 
     -- * AttributeGroupDetails
-    AttributeGroupDetails,
+    AttributeGroupDetails (AttributeGroupDetails'),
     newAttributeGroupDetails,
     attributeGroupDetails_arn,
     attributeGroupDetails_id,
     attributeGroupDetails_name,
 
     -- * AttributeGroupSummary
-    AttributeGroupSummary,
+    AttributeGroupSummary (AttributeGroupSummary'),
     newAttributeGroupSummary,
     attributeGroupSummary_arn,
     attributeGroupSummary_creationTime,
@@ -89,12 +89,12 @@ module Amazonka.ServiceCatalogAppRegistry.Types
     attributeGroupSummary_name,
 
     -- * Integrations
-    Integrations,
+    Integrations (Integrations'),
     newIntegrations,
     integrations_resourceGroup,
 
     -- * Resource
-    Resource,
+    Resource (Resource'),
     newResource,
     resource_arn,
     resource_associationTime,
@@ -102,19 +102,19 @@ module Amazonka.ServiceCatalogAppRegistry.Types
     resource_name,
 
     -- * ResourceDetails
-    ResourceDetails,
+    ResourceDetails (ResourceDetails'),
     newResourceDetails,
     resourceDetails_tagValue,
 
     -- * ResourceGroup
-    ResourceGroup,
+    ResourceGroup (ResourceGroup'),
     newResourceGroup,
     resourceGroup_arn,
     resourceGroup_errorMessage,
     resourceGroup_state,
 
     -- * ResourceInfo
-    ResourceInfo,
+    ResourceInfo (ResourceInfo'),
     newResourceInfo,
     resourceInfo_arn,
     resourceInfo_name,
@@ -122,12 +122,12 @@ module Amazonka.ServiceCatalogAppRegistry.Types
     resourceInfo_resourceType,
 
     -- * ResourceIntegrations
-    ResourceIntegrations,
+    ResourceIntegrations (ResourceIntegrations'),
     newResourceIntegrations,
     resourceIntegrations_resourceGroup,
 
     -- * TagQueryConfiguration
-    TagQueryConfiguration,
+    TagQueryConfiguration (TagQueryConfiguration'),
     newTagQueryConfiguration,
     tagQueryConfiguration_tagKey,
   )

@@ -29,34 +29,34 @@ module Amazonka.WorkSpacesWeb.Types
     _ValidationException,
 
     -- * BrowserType
-    BrowserType,
+    BrowserType (BrowserType'),
 
     -- * EnabledType
-    EnabledType,
+    EnabledType (EnabledType'),
 
     -- * IdentityProviderType
-    IdentityProviderType,
+    IdentityProviderType (IdentityProviderType'),
 
     -- * PortalStatus
-    PortalStatus,
+    PortalStatus (PortalStatus'),
 
     -- * RendererType
-    RendererType,
+    RendererType (RendererType'),
 
     -- * BrowserSettings
-    BrowserSettings,
+    BrowserSettings (BrowserSettings'),
     newBrowserSettings,
     browserSettings_associatedPortalArns,
     browserSettings_browserPolicy,
     browserSettings_browserSettingsArn,
 
     -- * BrowserSettingsSummary
-    BrowserSettingsSummary,
+    BrowserSettingsSummary (BrowserSettingsSummary'),
     newBrowserSettingsSummary,
     browserSettingsSummary_browserSettingsArn,
 
     -- * Certificate
-    Certificate,
+    Certificate (Certificate'),
     newCertificate,
     certificate_body,
     certificate_issuer,
@@ -66,7 +66,7 @@ module Amazonka.WorkSpacesWeb.Types
     certificate_thumbprint,
 
     -- * CertificateSummary
-    CertificateSummary,
+    CertificateSummary (CertificateSummary'),
     newCertificateSummary,
     certificateSummary_issuer,
     certificateSummary_notValidAfter,
@@ -75,7 +75,7 @@ module Amazonka.WorkSpacesWeb.Types
     certificateSummary_thumbprint,
 
     -- * IdentityProvider
-    IdentityProvider,
+    IdentityProvider (IdentityProvider'),
     newIdentityProvider,
     identityProvider_identityProviderDetails,
     identityProvider_identityProviderName,
@@ -83,14 +83,14 @@ module Amazonka.WorkSpacesWeb.Types
     identityProvider_identityProviderArn,
 
     -- * IdentityProviderSummary
-    IdentityProviderSummary,
+    IdentityProviderSummary (IdentityProviderSummary'),
     newIdentityProviderSummary,
     identityProviderSummary_identityProviderArn,
     identityProviderSummary_identityProviderName,
     identityProviderSummary_identityProviderType,
 
     -- * NetworkSettings
-    NetworkSettings,
+    NetworkSettings (NetworkSettings'),
     newNetworkSettings,
     networkSettings_associatedPortalArns,
     networkSettings_securityGroupIds,
@@ -99,13 +99,13 @@ module Amazonka.WorkSpacesWeb.Types
     networkSettings_networkSettingsArn,
 
     -- * NetworkSettingsSummary
-    NetworkSettingsSummary,
+    NetworkSettingsSummary (NetworkSettingsSummary'),
     newNetworkSettingsSummary,
     networkSettingsSummary_networkSettingsArn,
     networkSettingsSummary_vpcId,
 
     -- * Portal
-    Portal,
+    Portal (Portal'),
     newPortal,
     portal_browserSettingsArn,
     portal_browserType,
@@ -122,7 +122,7 @@ module Amazonka.WorkSpacesWeb.Types
     portal_userSettingsArn,
 
     -- * PortalSummary
-    PortalSummary,
+    PortalSummary (PortalSummary'),
     newPortalSummary,
     portalSummary_browserSettingsArn,
     portalSummary_browserType,
@@ -138,37 +138,37 @@ module Amazonka.WorkSpacesWeb.Types
     portalSummary_userSettingsArn,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
 
     -- * TrustStore
-    TrustStore,
+    TrustStore (TrustStore'),
     newTrustStore,
     trustStore_associatedPortalArns,
     trustStore_trustStoreArn,
 
     -- * TrustStoreSummary
-    TrustStoreSummary,
+    TrustStoreSummary (TrustStoreSummary'),
     newTrustStoreSummary,
     trustStoreSummary_trustStoreArn,
 
     -- * UserAccessLoggingSettings
-    UserAccessLoggingSettings,
+    UserAccessLoggingSettings (UserAccessLoggingSettings'),
     newUserAccessLoggingSettings,
     userAccessLoggingSettings_associatedPortalArns,
     userAccessLoggingSettings_kinesisStreamArn,
     userAccessLoggingSettings_userAccessLoggingSettingsArn,
 
     -- * UserAccessLoggingSettingsSummary
-    UserAccessLoggingSettingsSummary,
+    UserAccessLoggingSettingsSummary (UserAccessLoggingSettingsSummary'),
     newUserAccessLoggingSettingsSummary,
     userAccessLoggingSettingsSummary_kinesisStreamArn,
     userAccessLoggingSettingsSummary_userAccessLoggingSettingsArn,
 
     -- * UserSettings
-    UserSettings,
+    UserSettings (UserSettings'),
     newUserSettings,
     userSettings_associatedPortalArns,
     userSettings_copyAllowed,
@@ -181,7 +181,7 @@ module Amazonka.WorkSpacesWeb.Types
     userSettings_userSettingsArn,
 
     -- * UserSettingsSummary
-    UserSettingsSummary,
+    UserSettingsSummary (UserSettingsSummary'),
     newUserSettingsSummary,
     userSettingsSummary_copyAllowed,
     userSettingsSummary_disconnectTimeoutInMinutes,

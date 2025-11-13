@@ -165,139 +165,139 @@ module Amazonka.CloudFront.Types
     _UnsupportedOperation,
 
     -- * CachePolicyCookieBehavior
-    CachePolicyCookieBehavior,
+    CachePolicyCookieBehavior (CachePolicyCookieBehavior'),
 
     -- * CachePolicyHeaderBehavior
-    CachePolicyHeaderBehavior,
+    CachePolicyHeaderBehavior (CachePolicyHeaderBehavior'),
 
     -- * CachePolicyQueryStringBehavior
-    CachePolicyQueryStringBehavior,
+    CachePolicyQueryStringBehavior (CachePolicyQueryStringBehavior'),
 
     -- * CachePolicyType
-    CachePolicyType,
+    CachePolicyType (CachePolicyType'),
 
     -- * CertificateSource
-    CertificateSource,
+    CertificateSource (CertificateSource'),
 
     -- * ContinuousDeploymentPolicyType
-    ContinuousDeploymentPolicyType,
+    ContinuousDeploymentPolicyType (ContinuousDeploymentPolicyType'),
 
     -- * EventType
-    EventType,
+    EventType (EventType'),
 
     -- * Format
-    Format,
+    Format (Format'),
 
     -- * FrameOptionsList
-    FrameOptionsList,
+    FrameOptionsList (FrameOptionsList'),
 
     -- * FunctionRuntime
-    FunctionRuntime,
+    FunctionRuntime (FunctionRuntime'),
 
     -- * FunctionStage
-    FunctionStage,
+    FunctionStage (FunctionStage'),
 
     -- * GeoRestrictionType
-    GeoRestrictionType,
+    GeoRestrictionType (GeoRestrictionType'),
 
     -- * HttpVersion
-    HttpVersion,
+    HttpVersion (HttpVersion'),
 
     -- * ICPRecordalStatus
-    ICPRecordalStatus,
+    ICPRecordalStatus (ICPRecordalStatus'),
 
     -- * ItemSelection
-    ItemSelection,
+    ItemSelection (ItemSelection'),
 
     -- * Method
-    Method,
+    Method (Method'),
 
     -- * MinimumProtocolVersion
-    MinimumProtocolVersion,
+    MinimumProtocolVersion (MinimumProtocolVersion'),
 
     -- * OriginAccessControlOriginTypes
-    OriginAccessControlOriginTypes,
+    OriginAccessControlOriginTypes (OriginAccessControlOriginTypes'),
 
     -- * OriginAccessControlSigningBehaviors
-    OriginAccessControlSigningBehaviors,
+    OriginAccessControlSigningBehaviors (OriginAccessControlSigningBehaviors'),
 
     -- * OriginAccessControlSigningProtocols
-    OriginAccessControlSigningProtocols,
+    OriginAccessControlSigningProtocols (OriginAccessControlSigningProtocols'),
 
     -- * OriginProtocolPolicy
-    OriginProtocolPolicy,
+    OriginProtocolPolicy (OriginProtocolPolicy'),
 
     -- * OriginRequestPolicyCookieBehavior
-    OriginRequestPolicyCookieBehavior,
+    OriginRequestPolicyCookieBehavior (OriginRequestPolicyCookieBehavior'),
 
     -- * OriginRequestPolicyHeaderBehavior
-    OriginRequestPolicyHeaderBehavior,
+    OriginRequestPolicyHeaderBehavior (OriginRequestPolicyHeaderBehavior'),
 
     -- * OriginRequestPolicyQueryStringBehavior
-    OriginRequestPolicyQueryStringBehavior,
+    OriginRequestPolicyQueryStringBehavior (OriginRequestPolicyQueryStringBehavior'),
 
     -- * OriginRequestPolicyType
-    OriginRequestPolicyType,
+    OriginRequestPolicyType (OriginRequestPolicyType'),
 
     -- * PriceClass
-    PriceClass,
+    PriceClass (PriceClass'),
 
     -- * RealtimeMetricsSubscriptionStatus
-    RealtimeMetricsSubscriptionStatus,
+    RealtimeMetricsSubscriptionStatus (RealtimeMetricsSubscriptionStatus'),
 
     -- * ReferrerPolicyList
-    ReferrerPolicyList,
+    ReferrerPolicyList (ReferrerPolicyList'),
 
     -- * ResponseHeadersPolicyAccessControlAllowMethodsValues
-    ResponseHeadersPolicyAccessControlAllowMethodsValues,
+    ResponseHeadersPolicyAccessControlAllowMethodsValues (ResponseHeadersPolicyAccessControlAllowMethodsValues'),
 
     -- * ResponseHeadersPolicyType
-    ResponseHeadersPolicyType,
+    ResponseHeadersPolicyType (ResponseHeadersPolicyType'),
 
     -- * SSLSupportMethod
-    SSLSupportMethod,
+    SSLSupportMethod (SSLSupportMethod'),
 
     -- * SslProtocol
-    SslProtocol,
+    SslProtocol (SslProtocol'),
 
     -- * ViewerProtocolPolicy
-    ViewerProtocolPolicy,
+    ViewerProtocolPolicy (ViewerProtocolPolicy'),
 
     -- * ActiveTrustedKeyGroups
-    ActiveTrustedKeyGroups,
+    ActiveTrustedKeyGroups (ActiveTrustedKeyGroups'),
     newActiveTrustedKeyGroups,
     activeTrustedKeyGroups_items,
     activeTrustedKeyGroups_enabled,
     activeTrustedKeyGroups_quantity,
 
     -- * ActiveTrustedSigners
-    ActiveTrustedSigners,
+    ActiveTrustedSigners (ActiveTrustedSigners'),
     newActiveTrustedSigners,
     activeTrustedSigners_items,
     activeTrustedSigners_enabled,
     activeTrustedSigners_quantity,
 
     -- * AliasICPRecordal
-    AliasICPRecordal,
+    AliasICPRecordal (AliasICPRecordal'),
     newAliasICPRecordal,
     aliasICPRecordal_cname,
     aliasICPRecordal_iCPRecordalStatus,
 
     -- * Aliases
-    Aliases,
+    Aliases (Aliases'),
     newAliases,
     aliases_items,
     aliases_quantity,
 
     -- * AllowedMethods
-    AllowedMethods,
+    AllowedMethods (AllowedMethods'),
     newAllowedMethods,
     allowedMethods_cachedMethods,
     allowedMethods_quantity,
     allowedMethods_items,
 
     -- * CacheBehavior
-    CacheBehavior,
+    CacheBehavior (CacheBehavior'),
     newCacheBehavior,
     cacheBehavior_allowedMethods,
     cacheBehavior_cachePolicyId,
@@ -320,20 +320,20 @@ module Amazonka.CloudFront.Types
     cacheBehavior_viewerProtocolPolicy,
 
     -- * CacheBehaviors
-    CacheBehaviors,
+    CacheBehaviors (CacheBehaviors'),
     newCacheBehaviors,
     cacheBehaviors_items,
     cacheBehaviors_quantity,
 
     -- * CachePolicy
-    CachePolicy,
+    CachePolicy (CachePolicy'),
     newCachePolicy,
     cachePolicy_id,
     cachePolicy_lastModifiedTime,
     cachePolicy_cachePolicyConfig,
 
     -- * CachePolicyConfig
-    CachePolicyConfig,
+    CachePolicyConfig (CachePolicyConfig'),
     newCachePolicyConfig,
     cachePolicyConfig_comment,
     cachePolicyConfig_defaultTTL,
@@ -343,19 +343,19 @@ module Amazonka.CloudFront.Types
     cachePolicyConfig_minTTL,
 
     -- * CachePolicyCookiesConfig
-    CachePolicyCookiesConfig,
+    CachePolicyCookiesConfig (CachePolicyCookiesConfig'),
     newCachePolicyCookiesConfig,
     cachePolicyCookiesConfig_cookies,
     cachePolicyCookiesConfig_cookieBehavior,
 
     -- * CachePolicyHeadersConfig
-    CachePolicyHeadersConfig,
+    CachePolicyHeadersConfig (CachePolicyHeadersConfig'),
     newCachePolicyHeadersConfig,
     cachePolicyHeadersConfig_headers,
     cachePolicyHeadersConfig_headerBehavior,
 
     -- * CachePolicyList
-    CachePolicyList,
+    CachePolicyList (CachePolicyList'),
     newCachePolicyList,
     cachePolicyList_items,
     cachePolicyList_nextMarker,
@@ -363,38 +363,38 @@ module Amazonka.CloudFront.Types
     cachePolicyList_quantity,
 
     -- * CachePolicyQueryStringsConfig
-    CachePolicyQueryStringsConfig,
+    CachePolicyQueryStringsConfig (CachePolicyQueryStringsConfig'),
     newCachePolicyQueryStringsConfig,
     cachePolicyQueryStringsConfig_queryStrings,
     cachePolicyQueryStringsConfig_queryStringBehavior,
 
     -- * CachePolicySummary
-    CachePolicySummary,
+    CachePolicySummary (CachePolicySummary'),
     newCachePolicySummary,
     cachePolicySummary_type,
     cachePolicySummary_cachePolicy,
 
     -- * CachedMethods
-    CachedMethods,
+    CachedMethods (CachedMethods'),
     newCachedMethods,
     cachedMethods_quantity,
     cachedMethods_items,
 
     -- * CloudFrontOriginAccessIdentity
-    CloudFrontOriginAccessIdentity,
+    CloudFrontOriginAccessIdentity (CloudFrontOriginAccessIdentity'),
     newCloudFrontOriginAccessIdentity,
     cloudFrontOriginAccessIdentity_cloudFrontOriginAccessIdentityConfig,
     cloudFrontOriginAccessIdentity_id,
     cloudFrontOriginAccessIdentity_s3CanonicalUserId,
 
     -- * CloudFrontOriginAccessIdentityConfig
-    CloudFrontOriginAccessIdentityConfig,
+    CloudFrontOriginAccessIdentityConfig (CloudFrontOriginAccessIdentityConfig'),
     newCloudFrontOriginAccessIdentityConfig,
     cloudFrontOriginAccessIdentityConfig_callerReference,
     cloudFrontOriginAccessIdentityConfig_comment,
 
     -- * CloudFrontOriginAccessIdentityList
-    CloudFrontOriginAccessIdentityList,
+    CloudFrontOriginAccessIdentityList (CloudFrontOriginAccessIdentityList'),
     newCloudFrontOriginAccessIdentityList,
     cloudFrontOriginAccessIdentityList_items,
     cloudFrontOriginAccessIdentityList_nextMarker,
@@ -404,21 +404,21 @@ module Amazonka.CloudFront.Types
     cloudFrontOriginAccessIdentityList_quantity,
 
     -- * CloudFrontOriginAccessIdentitySummary
-    CloudFrontOriginAccessIdentitySummary,
+    CloudFrontOriginAccessIdentitySummary (CloudFrontOriginAccessIdentitySummary'),
     newCloudFrontOriginAccessIdentitySummary,
     cloudFrontOriginAccessIdentitySummary_id,
     cloudFrontOriginAccessIdentitySummary_s3CanonicalUserId,
     cloudFrontOriginAccessIdentitySummary_comment,
 
     -- * ConflictingAlias
-    ConflictingAlias,
+    ConflictingAlias (ConflictingAlias'),
     newConflictingAlias,
     conflictingAlias_accountId,
     conflictingAlias_alias,
     conflictingAlias_distributionId,
 
     -- * ConflictingAliasesList
-    ConflictingAliasesList,
+    ConflictingAliasesList (ConflictingAliasesList'),
     newConflictingAliasesList,
     conflictingAliasesList_items,
     conflictingAliasesList_maxItems,
@@ -426,40 +426,40 @@ module Amazonka.CloudFront.Types
     conflictingAliasesList_quantity,
 
     -- * ContentTypeProfile
-    ContentTypeProfile,
+    ContentTypeProfile (ContentTypeProfile'),
     newContentTypeProfile,
     contentTypeProfile_profileId,
     contentTypeProfile_format,
     contentTypeProfile_contentType,
 
     -- * ContentTypeProfileConfig
-    ContentTypeProfileConfig,
+    ContentTypeProfileConfig (ContentTypeProfileConfig'),
     newContentTypeProfileConfig,
     contentTypeProfileConfig_contentTypeProfiles,
     contentTypeProfileConfig_forwardWhenContentTypeIsUnknown,
 
     -- * ContentTypeProfiles
-    ContentTypeProfiles,
+    ContentTypeProfiles (ContentTypeProfiles'),
     newContentTypeProfiles,
     contentTypeProfiles_items,
     contentTypeProfiles_quantity,
 
     -- * ContinuousDeploymentPolicy
-    ContinuousDeploymentPolicy,
+    ContinuousDeploymentPolicy (ContinuousDeploymentPolicy'),
     newContinuousDeploymentPolicy,
     continuousDeploymentPolicy_id,
     continuousDeploymentPolicy_lastModifiedTime,
     continuousDeploymentPolicy_continuousDeploymentPolicyConfig,
 
     -- * ContinuousDeploymentPolicyConfig
-    ContinuousDeploymentPolicyConfig,
+    ContinuousDeploymentPolicyConfig (ContinuousDeploymentPolicyConfig'),
     newContinuousDeploymentPolicyConfig,
     continuousDeploymentPolicyConfig_trafficConfig,
     continuousDeploymentPolicyConfig_stagingDistributionDnsNames,
     continuousDeploymentPolicyConfig_enabled,
 
     -- * ContinuousDeploymentPolicyList
-    ContinuousDeploymentPolicyList,
+    ContinuousDeploymentPolicyList (ContinuousDeploymentPolicyList'),
     newContinuousDeploymentPolicyList,
     continuousDeploymentPolicyList_items,
     continuousDeploymentPolicyList_nextMarker,
@@ -467,36 +467,36 @@ module Amazonka.CloudFront.Types
     continuousDeploymentPolicyList_quantity,
 
     -- * ContinuousDeploymentPolicySummary
-    ContinuousDeploymentPolicySummary,
+    ContinuousDeploymentPolicySummary (ContinuousDeploymentPolicySummary'),
     newContinuousDeploymentPolicySummary,
     continuousDeploymentPolicySummary_continuousDeploymentPolicy,
 
     -- * ContinuousDeploymentSingleHeaderConfig
-    ContinuousDeploymentSingleHeaderConfig,
+    ContinuousDeploymentSingleHeaderConfig (ContinuousDeploymentSingleHeaderConfig'),
     newContinuousDeploymentSingleHeaderConfig,
     continuousDeploymentSingleHeaderConfig_header,
     continuousDeploymentSingleHeaderConfig_value,
 
     -- * ContinuousDeploymentSingleWeightConfig
-    ContinuousDeploymentSingleWeightConfig,
+    ContinuousDeploymentSingleWeightConfig (ContinuousDeploymentSingleWeightConfig'),
     newContinuousDeploymentSingleWeightConfig,
     continuousDeploymentSingleWeightConfig_sessionStickinessConfig,
     continuousDeploymentSingleWeightConfig_weight,
 
     -- * CookieNames
-    CookieNames,
+    CookieNames (CookieNames'),
     newCookieNames,
     cookieNames_items,
     cookieNames_quantity,
 
     -- * CookiePreference
-    CookiePreference,
+    CookiePreference (CookiePreference'),
     newCookiePreference,
     cookiePreference_whitelistedNames,
     cookiePreference_forward,
 
     -- * CustomErrorResponse
-    CustomErrorResponse,
+    CustomErrorResponse (CustomErrorResponse'),
     newCustomErrorResponse,
     customErrorResponse_errorCachingMinTTL,
     customErrorResponse_responseCode,
@@ -504,19 +504,19 @@ module Amazonka.CloudFront.Types
     customErrorResponse_errorCode,
 
     -- * CustomErrorResponses
-    CustomErrorResponses,
+    CustomErrorResponses (CustomErrorResponses'),
     newCustomErrorResponses,
     customErrorResponses_items,
     customErrorResponses_quantity,
 
     -- * CustomHeaders
-    CustomHeaders,
+    CustomHeaders (CustomHeaders'),
     newCustomHeaders,
     customHeaders_items,
     customHeaders_quantity,
 
     -- * CustomOriginConfig
-    CustomOriginConfig,
+    CustomOriginConfig (CustomOriginConfig'),
     newCustomOriginConfig,
     customOriginConfig_originKeepaliveTimeout,
     customOriginConfig_originReadTimeout,
@@ -526,7 +526,7 @@ module Amazonka.CloudFront.Types
     customOriginConfig_originProtocolPolicy,
 
     -- * DefaultCacheBehavior
-    DefaultCacheBehavior,
+    DefaultCacheBehavior (DefaultCacheBehavior'),
     newDefaultCacheBehavior,
     defaultCacheBehavior_allowedMethods,
     defaultCacheBehavior_cachePolicyId,
@@ -548,7 +548,7 @@ module Amazonka.CloudFront.Types
     defaultCacheBehavior_viewerProtocolPolicy,
 
     -- * Distribution
-    Distribution,
+    Distribution (Distribution'),
     newDistribution,
     distribution_activeTrustedKeyGroups,
     distribution_activeTrustedSigners,
@@ -562,7 +562,7 @@ module Amazonka.CloudFront.Types
     distribution_distributionConfig,
 
     -- * DistributionConfig
-    DistributionConfig,
+    DistributionConfig (DistributionConfig'),
     newDistributionConfig,
     distributionConfig_aliases,
     distributionConfig_cacheBehaviors,
@@ -585,13 +585,13 @@ module Amazonka.CloudFront.Types
     distributionConfig_enabled,
 
     -- * DistributionConfigWithTags
-    DistributionConfigWithTags,
+    DistributionConfigWithTags (DistributionConfigWithTags'),
     newDistributionConfigWithTags,
     distributionConfigWithTags_distributionConfig,
     distributionConfigWithTags_tags,
 
     -- * DistributionIdList
-    DistributionIdList,
+    DistributionIdList (DistributionIdList'),
     newDistributionIdList,
     distributionIdList_items,
     distributionIdList_nextMarker,
@@ -601,7 +601,7 @@ module Amazonka.CloudFront.Types
     distributionIdList_quantity,
 
     -- * DistributionList
-    DistributionList,
+    DistributionList (DistributionList'),
     newDistributionList,
     distributionList_items,
     distributionList_nextMarker,
@@ -611,7 +611,7 @@ module Amazonka.CloudFront.Types
     distributionList_quantity,
 
     -- * DistributionSummary
-    DistributionSummary,
+    DistributionSummary (DistributionSummary'),
     newDistributionSummary,
     distributionSummary_aliasICPRecordals,
     distributionSummary_originGroups,
@@ -636,33 +636,33 @@ module Amazonka.CloudFront.Types
     distributionSummary_staging,
 
     -- * EncryptionEntities
-    EncryptionEntities,
+    EncryptionEntities (EncryptionEntities'),
     newEncryptionEntities,
     encryptionEntities_items,
     encryptionEntities_quantity,
 
     -- * EncryptionEntity
-    EncryptionEntity,
+    EncryptionEntity (EncryptionEntity'),
     newEncryptionEntity,
     encryptionEntity_publicKeyId,
     encryptionEntity_providerId,
     encryptionEntity_fieldPatterns,
 
     -- * EndPoint
-    EndPoint,
+    EndPoint (EndPoint'),
     newEndPoint,
     endPoint_kinesisStreamConfig,
     endPoint_streamType,
 
     -- * FieldLevelEncryption
-    FieldLevelEncryption,
+    FieldLevelEncryption (FieldLevelEncryption'),
     newFieldLevelEncryption,
     fieldLevelEncryption_id,
     fieldLevelEncryption_lastModifiedTime,
     fieldLevelEncryption_fieldLevelEncryptionConfig,
 
     -- * FieldLevelEncryptionConfig
-    FieldLevelEncryptionConfig,
+    FieldLevelEncryptionConfig (FieldLevelEncryptionConfig'),
     newFieldLevelEncryptionConfig,
     fieldLevelEncryptionConfig_comment,
     fieldLevelEncryptionConfig_contentTypeProfileConfig,
@@ -670,7 +670,7 @@ module Amazonka.CloudFront.Types
     fieldLevelEncryptionConfig_callerReference,
 
     -- * FieldLevelEncryptionList
-    FieldLevelEncryptionList,
+    FieldLevelEncryptionList (FieldLevelEncryptionList'),
     newFieldLevelEncryptionList,
     fieldLevelEncryptionList_items,
     fieldLevelEncryptionList_nextMarker,
@@ -678,14 +678,14 @@ module Amazonka.CloudFront.Types
     fieldLevelEncryptionList_quantity,
 
     -- * FieldLevelEncryptionProfile
-    FieldLevelEncryptionProfile,
+    FieldLevelEncryptionProfile (FieldLevelEncryptionProfile'),
     newFieldLevelEncryptionProfile,
     fieldLevelEncryptionProfile_id,
     fieldLevelEncryptionProfile_lastModifiedTime,
     fieldLevelEncryptionProfile_fieldLevelEncryptionProfileConfig,
 
     -- * FieldLevelEncryptionProfileConfig
-    FieldLevelEncryptionProfileConfig,
+    FieldLevelEncryptionProfileConfig (FieldLevelEncryptionProfileConfig'),
     newFieldLevelEncryptionProfileConfig,
     fieldLevelEncryptionProfileConfig_comment,
     fieldLevelEncryptionProfileConfig_name,
@@ -693,7 +693,7 @@ module Amazonka.CloudFront.Types
     fieldLevelEncryptionProfileConfig_encryptionEntities,
 
     -- * FieldLevelEncryptionProfileList
-    FieldLevelEncryptionProfileList,
+    FieldLevelEncryptionProfileList (FieldLevelEncryptionProfileList'),
     newFieldLevelEncryptionProfileList,
     fieldLevelEncryptionProfileList_items,
     fieldLevelEncryptionProfileList_nextMarker,
@@ -701,7 +701,7 @@ module Amazonka.CloudFront.Types
     fieldLevelEncryptionProfileList_quantity,
 
     -- * FieldLevelEncryptionProfileSummary
-    FieldLevelEncryptionProfileSummary,
+    FieldLevelEncryptionProfileSummary (FieldLevelEncryptionProfileSummary'),
     newFieldLevelEncryptionProfileSummary,
     fieldLevelEncryptionProfileSummary_comment,
     fieldLevelEncryptionProfileSummary_id,
@@ -710,7 +710,7 @@ module Amazonka.CloudFront.Types
     fieldLevelEncryptionProfileSummary_encryptionEntities,
 
     -- * FieldLevelEncryptionSummary
-    FieldLevelEncryptionSummary,
+    FieldLevelEncryptionSummary (FieldLevelEncryptionSummary'),
     newFieldLevelEncryptionSummary,
     fieldLevelEncryptionSummary_comment,
     fieldLevelEncryptionSummary_contentTypeProfileConfig,
@@ -719,13 +719,13 @@ module Amazonka.CloudFront.Types
     fieldLevelEncryptionSummary_lastModifiedTime,
 
     -- * FieldPatterns
-    FieldPatterns,
+    FieldPatterns (FieldPatterns'),
     newFieldPatterns,
     fieldPatterns_items,
     fieldPatterns_quantity,
 
     -- * ForwardedValues
-    ForwardedValues,
+    ForwardedValues (ForwardedValues'),
     newForwardedValues,
     forwardedValues_headers,
     forwardedValues_queryStringCacheKeys,
@@ -733,25 +733,25 @@ module Amazonka.CloudFront.Types
     forwardedValues_cookies,
 
     -- * FunctionAssociation
-    FunctionAssociation,
+    FunctionAssociation (FunctionAssociation'),
     newFunctionAssociation,
     functionAssociation_functionARN,
     functionAssociation_eventType,
 
     -- * FunctionAssociations
-    FunctionAssociations,
+    FunctionAssociations (FunctionAssociations'),
     newFunctionAssociations,
     functionAssociations_items,
     functionAssociations_quantity,
 
     -- * FunctionConfig
-    FunctionConfig,
+    FunctionConfig (FunctionConfig'),
     newFunctionConfig,
     functionConfig_comment,
     functionConfig_runtime,
 
     -- * FunctionList
-    FunctionList,
+    FunctionList (FunctionList'),
     newFunctionList,
     functionList_items,
     functionList_nextMarker,
@@ -759,7 +759,7 @@ module Amazonka.CloudFront.Types
     functionList_quantity,
 
     -- * FunctionMetadata
-    FunctionMetadata,
+    FunctionMetadata (FunctionMetadata'),
     newFunctionMetadata,
     functionMetadata_createdTime,
     functionMetadata_stage,
@@ -767,7 +767,7 @@ module Amazonka.CloudFront.Types
     functionMetadata_lastModifiedTime,
 
     -- * FunctionSummary
-    FunctionSummary,
+    FunctionSummary (FunctionSummary'),
     newFunctionSummary,
     functionSummary_status,
     functionSummary_name,
@@ -775,20 +775,20 @@ module Amazonka.CloudFront.Types
     functionSummary_functionMetadata,
 
     -- * GeoRestriction
-    GeoRestriction,
+    GeoRestriction (GeoRestriction'),
     newGeoRestriction,
     geoRestriction_items,
     geoRestriction_restrictionType,
     geoRestriction_quantity,
 
     -- * Headers
-    Headers,
+    Headers (Headers'),
     newHeaders,
     headers_items,
     headers_quantity,
 
     -- * Invalidation
-    Invalidation,
+    Invalidation (Invalidation'),
     newInvalidation,
     invalidation_id,
     invalidation_status,
@@ -796,13 +796,13 @@ module Amazonka.CloudFront.Types
     invalidation_invalidationBatch,
 
     -- * InvalidationBatch
-    InvalidationBatch,
+    InvalidationBatch (InvalidationBatch'),
     newInvalidationBatch,
     invalidationBatch_paths,
     invalidationBatch_callerReference,
 
     -- * InvalidationList
-    InvalidationList,
+    InvalidationList (InvalidationList'),
     newInvalidationList,
     invalidationList_items,
     invalidationList_nextMarker,
@@ -812,34 +812,34 @@ module Amazonka.CloudFront.Types
     invalidationList_quantity,
 
     -- * InvalidationSummary
-    InvalidationSummary,
+    InvalidationSummary (InvalidationSummary'),
     newInvalidationSummary,
     invalidationSummary_id,
     invalidationSummary_createTime,
     invalidationSummary_status,
 
     -- * KGKeyPairIds
-    KGKeyPairIds,
+    KGKeyPairIds (KGKeyPairIds'),
     newKGKeyPairIds,
     kGKeyPairIds_keyGroupId,
     kGKeyPairIds_keyPairIds,
 
     -- * KeyGroup
-    KeyGroup,
+    KeyGroup (KeyGroup'),
     newKeyGroup,
     keyGroup_id,
     keyGroup_lastModifiedTime,
     keyGroup_keyGroupConfig,
 
     -- * KeyGroupConfig
-    KeyGroupConfig,
+    KeyGroupConfig (KeyGroupConfig'),
     newKeyGroupConfig,
     keyGroupConfig_comment,
     keyGroupConfig_name,
     keyGroupConfig_items,
 
     -- * KeyGroupList
-    KeyGroupList,
+    KeyGroupList (KeyGroupList'),
     newKeyGroupList,
     keyGroupList_items,
     keyGroupList_nextMarker,
@@ -847,37 +847,37 @@ module Amazonka.CloudFront.Types
     keyGroupList_quantity,
 
     -- * KeyGroupSummary
-    KeyGroupSummary,
+    KeyGroupSummary (KeyGroupSummary'),
     newKeyGroupSummary,
     keyGroupSummary_keyGroup,
 
     -- * KeyPairIds
-    KeyPairIds,
+    KeyPairIds (KeyPairIds'),
     newKeyPairIds,
     keyPairIds_items,
     keyPairIds_quantity,
 
     -- * KinesisStreamConfig
-    KinesisStreamConfig,
+    KinesisStreamConfig (KinesisStreamConfig'),
     newKinesisStreamConfig,
     kinesisStreamConfig_roleARN,
     kinesisStreamConfig_streamARN,
 
     -- * LambdaFunctionAssociation
-    LambdaFunctionAssociation,
+    LambdaFunctionAssociation (LambdaFunctionAssociation'),
     newLambdaFunctionAssociation,
     lambdaFunctionAssociation_includeBody,
     lambdaFunctionAssociation_lambdaFunctionARN,
     lambdaFunctionAssociation_eventType,
 
     -- * LambdaFunctionAssociations
-    LambdaFunctionAssociations,
+    LambdaFunctionAssociations (LambdaFunctionAssociations'),
     newLambdaFunctionAssociations,
     lambdaFunctionAssociations_items,
     lambdaFunctionAssociations_quantity,
 
     -- * LoggingConfig
-    LoggingConfig,
+    LoggingConfig (LoggingConfig'),
     newLoggingConfig,
     loggingConfig_enabled,
     loggingConfig_includeCookies,
@@ -885,12 +885,12 @@ module Amazonka.CloudFront.Types
     loggingConfig_prefix,
 
     -- * MonitoringSubscription
-    MonitoringSubscription,
+    MonitoringSubscription (MonitoringSubscription'),
     newMonitoringSubscription,
     monitoringSubscription_realtimeMetricsSubscriptionConfig,
 
     -- * Origin
-    Origin,
+    Origin (Origin'),
     newOrigin,
     origin_connectionAttempts,
     origin_connectionTimeout,
@@ -904,13 +904,13 @@ module Amazonka.CloudFront.Types
     origin_domainName,
 
     -- * OriginAccessControl
-    OriginAccessControl,
+    OriginAccessControl (OriginAccessControl'),
     newOriginAccessControl,
     originAccessControl_originAccessControlConfig,
     originAccessControl_id,
 
     -- * OriginAccessControlConfig
-    OriginAccessControlConfig,
+    OriginAccessControlConfig (OriginAccessControlConfig'),
     newOriginAccessControlConfig,
     originAccessControlConfig_description,
     originAccessControlConfig_name,
@@ -919,7 +919,7 @@ module Amazonka.CloudFront.Types
     originAccessControlConfig_originAccessControlOriginType,
 
     -- * OriginAccessControlList
-    OriginAccessControlList,
+    OriginAccessControlList (OriginAccessControlList'),
     newOriginAccessControlList,
     originAccessControlList_items,
     originAccessControlList_nextMarker,
@@ -929,7 +929,7 @@ module Amazonka.CloudFront.Types
     originAccessControlList_quantity,
 
     -- * OriginAccessControlSummary
-    OriginAccessControlSummary,
+    OriginAccessControlSummary (OriginAccessControlSummary'),
     newOriginAccessControlSummary,
     originAccessControlSummary_id,
     originAccessControlSummary_description,
@@ -939,49 +939,49 @@ module Amazonka.CloudFront.Types
     originAccessControlSummary_originAccessControlOriginType,
 
     -- * OriginCustomHeader
-    OriginCustomHeader,
+    OriginCustomHeader (OriginCustomHeader'),
     newOriginCustomHeader,
     originCustomHeader_headerName,
     originCustomHeader_headerValue,
 
     -- * OriginGroup
-    OriginGroup,
+    OriginGroup (OriginGroup'),
     newOriginGroup,
     originGroup_id,
     originGroup_failoverCriteria,
     originGroup_members,
 
     -- * OriginGroupFailoverCriteria
-    OriginGroupFailoverCriteria,
+    OriginGroupFailoverCriteria (OriginGroupFailoverCriteria'),
     newOriginGroupFailoverCriteria,
     originGroupFailoverCriteria_statusCodes,
 
     -- * OriginGroupMember
-    OriginGroupMember,
+    OriginGroupMember (OriginGroupMember'),
     newOriginGroupMember,
     originGroupMember_originId,
 
     -- * OriginGroupMembers
-    OriginGroupMembers,
+    OriginGroupMembers (OriginGroupMembers'),
     newOriginGroupMembers,
     originGroupMembers_quantity,
     originGroupMembers_items,
 
     -- * OriginGroups
-    OriginGroups,
+    OriginGroups (OriginGroups'),
     newOriginGroups,
     originGroups_items,
     originGroups_quantity,
 
     -- * OriginRequestPolicy
-    OriginRequestPolicy,
+    OriginRequestPolicy (OriginRequestPolicy'),
     newOriginRequestPolicy,
     originRequestPolicy_id,
     originRequestPolicy_lastModifiedTime,
     originRequestPolicy_originRequestPolicyConfig,
 
     -- * OriginRequestPolicyConfig
-    OriginRequestPolicyConfig,
+    OriginRequestPolicyConfig (OriginRequestPolicyConfig'),
     newOriginRequestPolicyConfig,
     originRequestPolicyConfig_comment,
     originRequestPolicyConfig_name,
@@ -990,19 +990,19 @@ module Amazonka.CloudFront.Types
     originRequestPolicyConfig_queryStringsConfig,
 
     -- * OriginRequestPolicyCookiesConfig
-    OriginRequestPolicyCookiesConfig,
+    OriginRequestPolicyCookiesConfig (OriginRequestPolicyCookiesConfig'),
     newOriginRequestPolicyCookiesConfig,
     originRequestPolicyCookiesConfig_cookies,
     originRequestPolicyCookiesConfig_cookieBehavior,
 
     -- * OriginRequestPolicyHeadersConfig
-    OriginRequestPolicyHeadersConfig,
+    OriginRequestPolicyHeadersConfig (OriginRequestPolicyHeadersConfig'),
     newOriginRequestPolicyHeadersConfig,
     originRequestPolicyHeadersConfig_headers,
     originRequestPolicyHeadersConfig_headerBehavior,
 
     -- * OriginRequestPolicyList
-    OriginRequestPolicyList,
+    OriginRequestPolicyList (OriginRequestPolicyList'),
     newOriginRequestPolicyList,
     originRequestPolicyList_items,
     originRequestPolicyList_nextMarker,
@@ -1010,37 +1010,37 @@ module Amazonka.CloudFront.Types
     originRequestPolicyList_quantity,
 
     -- * OriginRequestPolicyQueryStringsConfig
-    OriginRequestPolicyQueryStringsConfig,
+    OriginRequestPolicyQueryStringsConfig (OriginRequestPolicyQueryStringsConfig'),
     newOriginRequestPolicyQueryStringsConfig,
     originRequestPolicyQueryStringsConfig_queryStrings,
     originRequestPolicyQueryStringsConfig_queryStringBehavior,
 
     -- * OriginRequestPolicySummary
-    OriginRequestPolicySummary,
+    OriginRequestPolicySummary (OriginRequestPolicySummary'),
     newOriginRequestPolicySummary,
     originRequestPolicySummary_type,
     originRequestPolicySummary_originRequestPolicy,
 
     -- * OriginShield
-    OriginShield,
+    OriginShield (OriginShield'),
     newOriginShield,
     originShield_originShieldRegion,
     originShield_enabled,
 
     -- * OriginSslProtocols
-    OriginSslProtocols,
+    OriginSslProtocols (OriginSslProtocols'),
     newOriginSslProtocols,
     originSslProtocols_quantity,
     originSslProtocols_items,
 
     -- * Origins
-    Origins,
+    Origins (Origins'),
     newOrigins,
     origins_quantity,
     origins_items,
 
     -- * ParametersInCacheKeyAndForwardedToOrigin
-    ParametersInCacheKeyAndForwardedToOrigin,
+    ParametersInCacheKeyAndForwardedToOrigin (ParametersInCacheKeyAndForwardedToOrigin'),
     newParametersInCacheKeyAndForwardedToOrigin,
     parametersInCacheKeyAndForwardedToOrigin_enableAcceptEncodingBrotli,
     parametersInCacheKeyAndForwardedToOrigin_enableAcceptEncodingGzip,
@@ -1049,20 +1049,20 @@ module Amazonka.CloudFront.Types
     parametersInCacheKeyAndForwardedToOrigin_queryStringsConfig,
 
     -- * Paths
-    Paths,
+    Paths (Paths'),
     newPaths,
     paths_items,
     paths_quantity,
 
     -- * PublicKey
-    PublicKey,
+    PublicKey (PublicKey'),
     newPublicKey,
     publicKey_id,
     publicKey_createdTime,
     publicKey_publicKeyConfig,
 
     -- * PublicKeyConfig
-    PublicKeyConfig,
+    PublicKeyConfig (PublicKeyConfig'),
     newPublicKeyConfig,
     publicKeyConfig_comment,
     publicKeyConfig_callerReference,
@@ -1070,7 +1070,7 @@ module Amazonka.CloudFront.Types
     publicKeyConfig_encodedKey,
 
     -- * PublicKeyList
-    PublicKeyList,
+    PublicKeyList (PublicKeyList'),
     newPublicKeyList,
     publicKeyList_items,
     publicKeyList_nextMarker,
@@ -1078,7 +1078,7 @@ module Amazonka.CloudFront.Types
     publicKeyList_quantity,
 
     -- * PublicKeySummary
-    PublicKeySummary,
+    PublicKeySummary (PublicKeySummary'),
     newPublicKeySummary,
     publicKeySummary_comment,
     publicKeySummary_id,
@@ -1087,37 +1087,37 @@ module Amazonka.CloudFront.Types
     publicKeySummary_encodedKey,
 
     -- * QueryArgProfile
-    QueryArgProfile,
+    QueryArgProfile (QueryArgProfile'),
     newQueryArgProfile,
     queryArgProfile_queryArg,
     queryArgProfile_profileId,
 
     -- * QueryArgProfileConfig
-    QueryArgProfileConfig,
+    QueryArgProfileConfig (QueryArgProfileConfig'),
     newQueryArgProfileConfig,
     queryArgProfileConfig_queryArgProfiles,
     queryArgProfileConfig_forwardWhenQueryArgProfileIsUnknown,
 
     -- * QueryArgProfiles
-    QueryArgProfiles,
+    QueryArgProfiles (QueryArgProfiles'),
     newQueryArgProfiles,
     queryArgProfiles_items,
     queryArgProfiles_quantity,
 
     -- * QueryStringCacheKeys
-    QueryStringCacheKeys,
+    QueryStringCacheKeys (QueryStringCacheKeys'),
     newQueryStringCacheKeys,
     queryStringCacheKeys_items,
     queryStringCacheKeys_quantity,
 
     -- * QueryStringNames
-    QueryStringNames,
+    QueryStringNames (QueryStringNames'),
     newQueryStringNames,
     queryStringNames_items,
     queryStringNames_quantity,
 
     -- * RealtimeLogConfig
-    RealtimeLogConfig,
+    RealtimeLogConfig (RealtimeLogConfig'),
     newRealtimeLogConfig,
     realtimeLogConfig_arn,
     realtimeLogConfig_name,
@@ -1126,7 +1126,7 @@ module Amazonka.CloudFront.Types
     realtimeLogConfig_fields,
 
     -- * RealtimeLogConfigs
-    RealtimeLogConfigs,
+    RealtimeLogConfigs (RealtimeLogConfigs'),
     newRealtimeLogConfigs,
     realtimeLogConfigs_items,
     realtimeLogConfigs_nextMarker,
@@ -1135,43 +1135,43 @@ module Amazonka.CloudFront.Types
     realtimeLogConfigs_marker,
 
     -- * RealtimeMetricsSubscriptionConfig
-    RealtimeMetricsSubscriptionConfig,
+    RealtimeMetricsSubscriptionConfig (RealtimeMetricsSubscriptionConfig'),
     newRealtimeMetricsSubscriptionConfig,
     realtimeMetricsSubscriptionConfig_realtimeMetricsSubscriptionStatus,
 
     -- * ResponseHeadersPolicy
-    ResponseHeadersPolicy,
+    ResponseHeadersPolicy (ResponseHeadersPolicy'),
     newResponseHeadersPolicy,
     responseHeadersPolicy_id,
     responseHeadersPolicy_lastModifiedTime,
     responseHeadersPolicy_responseHeadersPolicyConfig,
 
     -- * ResponseHeadersPolicyAccessControlAllowHeaders
-    ResponseHeadersPolicyAccessControlAllowHeaders,
+    ResponseHeadersPolicyAccessControlAllowHeaders (ResponseHeadersPolicyAccessControlAllowHeaders'),
     newResponseHeadersPolicyAccessControlAllowHeaders,
     responseHeadersPolicyAccessControlAllowHeaders_quantity,
     responseHeadersPolicyAccessControlAllowHeaders_items,
 
     -- * ResponseHeadersPolicyAccessControlAllowMethods
-    ResponseHeadersPolicyAccessControlAllowMethods,
+    ResponseHeadersPolicyAccessControlAllowMethods (ResponseHeadersPolicyAccessControlAllowMethods'),
     newResponseHeadersPolicyAccessControlAllowMethods,
     responseHeadersPolicyAccessControlAllowMethods_quantity,
     responseHeadersPolicyAccessControlAllowMethods_items,
 
     -- * ResponseHeadersPolicyAccessControlAllowOrigins
-    ResponseHeadersPolicyAccessControlAllowOrigins,
+    ResponseHeadersPolicyAccessControlAllowOrigins (ResponseHeadersPolicyAccessControlAllowOrigins'),
     newResponseHeadersPolicyAccessControlAllowOrigins,
     responseHeadersPolicyAccessControlAllowOrigins_quantity,
     responseHeadersPolicyAccessControlAllowOrigins_items,
 
     -- * ResponseHeadersPolicyAccessControlExposeHeaders
-    ResponseHeadersPolicyAccessControlExposeHeaders,
+    ResponseHeadersPolicyAccessControlExposeHeaders (ResponseHeadersPolicyAccessControlExposeHeaders'),
     newResponseHeadersPolicyAccessControlExposeHeaders,
     responseHeadersPolicyAccessControlExposeHeaders_items,
     responseHeadersPolicyAccessControlExposeHeaders_quantity,
 
     -- * ResponseHeadersPolicyConfig
-    ResponseHeadersPolicyConfig,
+    ResponseHeadersPolicyConfig (ResponseHeadersPolicyConfig'),
     newResponseHeadersPolicyConfig,
     responseHeadersPolicyConfig_comment,
     responseHeadersPolicyConfig_corsConfig,
@@ -1182,18 +1182,18 @@ module Amazonka.CloudFront.Types
     responseHeadersPolicyConfig_name,
 
     -- * ResponseHeadersPolicyContentSecurityPolicy
-    ResponseHeadersPolicyContentSecurityPolicy,
+    ResponseHeadersPolicyContentSecurityPolicy (ResponseHeadersPolicyContentSecurityPolicy'),
     newResponseHeadersPolicyContentSecurityPolicy,
     responseHeadersPolicyContentSecurityPolicy_override,
     responseHeadersPolicyContentSecurityPolicy_contentSecurityPolicy,
 
     -- * ResponseHeadersPolicyContentTypeOptions
-    ResponseHeadersPolicyContentTypeOptions,
+    ResponseHeadersPolicyContentTypeOptions (ResponseHeadersPolicyContentTypeOptions'),
     newResponseHeadersPolicyContentTypeOptions,
     responseHeadersPolicyContentTypeOptions_override,
 
     -- * ResponseHeadersPolicyCorsConfig
-    ResponseHeadersPolicyCorsConfig,
+    ResponseHeadersPolicyCorsConfig (ResponseHeadersPolicyCorsConfig'),
     newResponseHeadersPolicyCorsConfig,
     responseHeadersPolicyCorsConfig_accessControlExposeHeaders,
     responseHeadersPolicyCorsConfig_accessControlMaxAgeSec,
@@ -1204,26 +1204,26 @@ module Amazonka.CloudFront.Types
     responseHeadersPolicyCorsConfig_originOverride,
 
     -- * ResponseHeadersPolicyCustomHeader
-    ResponseHeadersPolicyCustomHeader,
+    ResponseHeadersPolicyCustomHeader (ResponseHeadersPolicyCustomHeader'),
     newResponseHeadersPolicyCustomHeader,
     responseHeadersPolicyCustomHeader_header,
     responseHeadersPolicyCustomHeader_value,
     responseHeadersPolicyCustomHeader_override,
 
     -- * ResponseHeadersPolicyCustomHeadersConfig
-    ResponseHeadersPolicyCustomHeadersConfig,
+    ResponseHeadersPolicyCustomHeadersConfig (ResponseHeadersPolicyCustomHeadersConfig'),
     newResponseHeadersPolicyCustomHeadersConfig,
     responseHeadersPolicyCustomHeadersConfig_items,
     responseHeadersPolicyCustomHeadersConfig_quantity,
 
     -- * ResponseHeadersPolicyFrameOptions
-    ResponseHeadersPolicyFrameOptions,
+    ResponseHeadersPolicyFrameOptions (ResponseHeadersPolicyFrameOptions'),
     newResponseHeadersPolicyFrameOptions,
     responseHeadersPolicyFrameOptions_override,
     responseHeadersPolicyFrameOptions_frameOption,
 
     -- * ResponseHeadersPolicyList
-    ResponseHeadersPolicyList,
+    ResponseHeadersPolicyList (ResponseHeadersPolicyList'),
     newResponseHeadersPolicyList,
     responseHeadersPolicyList_items,
     responseHeadersPolicyList_nextMarker,
@@ -1231,24 +1231,24 @@ module Amazonka.CloudFront.Types
     responseHeadersPolicyList_quantity,
 
     -- * ResponseHeadersPolicyReferrerPolicy
-    ResponseHeadersPolicyReferrerPolicy,
+    ResponseHeadersPolicyReferrerPolicy (ResponseHeadersPolicyReferrerPolicy'),
     newResponseHeadersPolicyReferrerPolicy,
     responseHeadersPolicyReferrerPolicy_override,
     responseHeadersPolicyReferrerPolicy_referrerPolicy,
 
     -- * ResponseHeadersPolicyRemoveHeader
-    ResponseHeadersPolicyRemoveHeader,
+    ResponseHeadersPolicyRemoveHeader (ResponseHeadersPolicyRemoveHeader'),
     newResponseHeadersPolicyRemoveHeader,
     responseHeadersPolicyRemoveHeader_header,
 
     -- * ResponseHeadersPolicyRemoveHeadersConfig
-    ResponseHeadersPolicyRemoveHeadersConfig,
+    ResponseHeadersPolicyRemoveHeadersConfig (ResponseHeadersPolicyRemoveHeadersConfig'),
     newResponseHeadersPolicyRemoveHeadersConfig,
     responseHeadersPolicyRemoveHeadersConfig_items,
     responseHeadersPolicyRemoveHeadersConfig_quantity,
 
     -- * ResponseHeadersPolicySecurityHeadersConfig
-    ResponseHeadersPolicySecurityHeadersConfig,
+    ResponseHeadersPolicySecurityHeadersConfig (ResponseHeadersPolicySecurityHeadersConfig'),
     newResponseHeadersPolicySecurityHeadersConfig,
     responseHeadersPolicySecurityHeadersConfig_contentSecurityPolicy,
     responseHeadersPolicySecurityHeadersConfig_contentTypeOptions,
@@ -1258,13 +1258,13 @@ module Amazonka.CloudFront.Types
     responseHeadersPolicySecurityHeadersConfig_xSSProtection,
 
     -- * ResponseHeadersPolicyServerTimingHeadersConfig
-    ResponseHeadersPolicyServerTimingHeadersConfig,
+    ResponseHeadersPolicyServerTimingHeadersConfig (ResponseHeadersPolicyServerTimingHeadersConfig'),
     newResponseHeadersPolicyServerTimingHeadersConfig,
     responseHeadersPolicyServerTimingHeadersConfig_samplingRate,
     responseHeadersPolicyServerTimingHeadersConfig_enabled,
 
     -- * ResponseHeadersPolicyStrictTransportSecurity
-    ResponseHeadersPolicyStrictTransportSecurity,
+    ResponseHeadersPolicyStrictTransportSecurity (ResponseHeadersPolicyStrictTransportSecurity'),
     newResponseHeadersPolicyStrictTransportSecurity,
     responseHeadersPolicyStrictTransportSecurity_includeSubdomains,
     responseHeadersPolicyStrictTransportSecurity_preload,
@@ -1272,13 +1272,13 @@ module Amazonka.CloudFront.Types
     responseHeadersPolicyStrictTransportSecurity_accessControlMaxAgeSec,
 
     -- * ResponseHeadersPolicySummary
-    ResponseHeadersPolicySummary,
+    ResponseHeadersPolicySummary (ResponseHeadersPolicySummary'),
     newResponseHeadersPolicySummary,
     responseHeadersPolicySummary_type,
     responseHeadersPolicySummary_responseHeadersPolicy,
 
     -- * ResponseHeadersPolicyXSSProtection
-    ResponseHeadersPolicyXSSProtection,
+    ResponseHeadersPolicyXSSProtection (ResponseHeadersPolicyXSSProtection'),
     newResponseHeadersPolicyXSSProtection,
     responseHeadersPolicyXSSProtection_modeBlock,
     responseHeadersPolicyXSSProtection_reportUri,
@@ -1286,47 +1286,47 @@ module Amazonka.CloudFront.Types
     responseHeadersPolicyXSSProtection_protection,
 
     -- * Restrictions
-    Restrictions,
+    Restrictions (Restrictions'),
     newRestrictions,
     restrictions_geoRestriction,
 
     -- * S3Origin
-    S3Origin,
+    S3Origin (S3Origin'),
     newS3Origin,
     s3Origin_domainName,
     s3Origin_originAccessIdentity,
 
     -- * S3OriginConfig
-    S3OriginConfig,
+    S3OriginConfig (S3OriginConfig'),
     newS3OriginConfig,
     s3OriginConfig_originAccessIdentity,
 
     -- * SessionStickinessConfig
-    SessionStickinessConfig,
+    SessionStickinessConfig (SessionStickinessConfig'),
     newSessionStickinessConfig,
     sessionStickinessConfig_idleTTL,
     sessionStickinessConfig_maximumTTL,
 
     -- * Signer
-    Signer,
+    Signer (Signer'),
     newSigner,
     signer_awsAccountNumber,
     signer_keyPairIds,
 
     -- * StagingDistributionDnsNames
-    StagingDistributionDnsNames,
+    StagingDistributionDnsNames (StagingDistributionDnsNames'),
     newStagingDistributionDnsNames,
     stagingDistributionDnsNames_items,
     stagingDistributionDnsNames_quantity,
 
     -- * StatusCodes
-    StatusCodes,
+    StatusCodes (StatusCodes'),
     newStatusCodes,
     statusCodes_quantity,
     statusCodes_items,
 
     -- * StreamingDistribution
-    StreamingDistribution,
+    StreamingDistribution (StreamingDistribution'),
     newStreamingDistribution,
     streamingDistribution_lastModifiedTime,
     streamingDistribution_id,
@@ -1337,7 +1337,7 @@ module Amazonka.CloudFront.Types
     streamingDistribution_streamingDistributionConfig,
 
     -- * StreamingDistributionConfig
-    StreamingDistributionConfig,
+    StreamingDistributionConfig (StreamingDistributionConfig'),
     newStreamingDistributionConfig,
     streamingDistributionConfig_aliases,
     streamingDistributionConfig_logging,
@@ -1349,13 +1349,13 @@ module Amazonka.CloudFront.Types
     streamingDistributionConfig_enabled,
 
     -- * StreamingDistributionConfigWithTags
-    StreamingDistributionConfigWithTags,
+    StreamingDistributionConfigWithTags (StreamingDistributionConfigWithTags'),
     newStreamingDistributionConfigWithTags,
     streamingDistributionConfigWithTags_streamingDistributionConfig,
     streamingDistributionConfigWithTags_tags,
 
     -- * StreamingDistributionList
-    StreamingDistributionList,
+    StreamingDistributionList (StreamingDistributionList'),
     newStreamingDistributionList,
     streamingDistributionList_items,
     streamingDistributionList_nextMarker,
@@ -1365,7 +1365,7 @@ module Amazonka.CloudFront.Types
     streamingDistributionList_quantity,
 
     -- * StreamingDistributionSummary
-    StreamingDistributionSummary,
+    StreamingDistributionSummary (StreamingDistributionSummary'),
     newStreamingDistributionSummary,
     streamingDistributionSummary_id,
     streamingDistributionSummary_arn,
@@ -1380,30 +1380,30 @@ module Amazonka.CloudFront.Types
     streamingDistributionSummary_enabled,
 
     -- * StreamingLoggingConfig
-    StreamingLoggingConfig,
+    StreamingLoggingConfig (StreamingLoggingConfig'),
     newStreamingLoggingConfig,
     streamingLoggingConfig_enabled,
     streamingLoggingConfig_bucket,
     streamingLoggingConfig_prefix,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_value,
     tag_key,
 
     -- * TagKeys
-    TagKeys,
+    TagKeys (TagKeys'),
     newTagKeys,
     tagKeys_items,
 
     -- * Tags
-    Tags,
+    Tags (Tags'),
     newTags,
     tags_items,
 
     -- * TestResult
-    TestResult,
+    TestResult (TestResult'),
     newTestResult,
     testResult_computeUtilization,
     testResult_functionErrorMessage,
@@ -1412,28 +1412,28 @@ module Amazonka.CloudFront.Types
     testResult_functionSummary,
 
     -- * TrafficConfig
-    TrafficConfig,
+    TrafficConfig (TrafficConfig'),
     newTrafficConfig,
     trafficConfig_singleHeaderConfig,
     trafficConfig_singleWeightConfig,
     trafficConfig_type,
 
     -- * TrustedKeyGroups
-    TrustedKeyGroups,
+    TrustedKeyGroups (TrustedKeyGroups'),
     newTrustedKeyGroups,
     trustedKeyGroups_items,
     trustedKeyGroups_enabled,
     trustedKeyGroups_quantity,
 
     -- * TrustedSigners
-    TrustedSigners,
+    TrustedSigners (TrustedSigners'),
     newTrustedSigners,
     trustedSigners_items,
     trustedSigners_enabled,
     trustedSigners_quantity,
 
     -- * ViewerCertificate
-    ViewerCertificate,
+    ViewerCertificate (ViewerCertificate'),
     newViewerCertificate,
     viewerCertificate_aCMCertificateArn,
     viewerCertificate_certificate,

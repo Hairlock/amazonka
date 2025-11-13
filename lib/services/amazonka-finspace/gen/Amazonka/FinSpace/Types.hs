@@ -29,13 +29,13 @@ module Amazonka.FinSpace.Types
     _ValidationException,
 
     -- * EnvironmentStatus
-    EnvironmentStatus,
+    EnvironmentStatus (EnvironmentStatus'),
 
     -- * FederationMode
-    FederationMode,
+    FederationMode (FederationMode'),
 
     -- * Environment
-    Environment,
+    Environment (Environment'),
     newEnvironment,
     environment_awsAccountId,
     environment_dedicatedServiceAccountId,
@@ -51,7 +51,7 @@ module Amazonka.FinSpace.Types
     environment_status,
 
     -- * FederationParameters
-    FederationParameters,
+    FederationParameters (FederationParameters'),
     newFederationParameters,
     federationParameters_applicationCallBackURL,
     federationParameters_attributeMap,
@@ -61,7 +61,7 @@ module Amazonka.FinSpace.Types
     federationParameters_samlMetadataURL,
 
     -- * SuperuserParameters
-    SuperuserParameters,
+    SuperuserParameters (SuperuserParameters'),
     newSuperuserParameters,
     superuserParameters_emailAddress,
     superuserParameters_firstName,

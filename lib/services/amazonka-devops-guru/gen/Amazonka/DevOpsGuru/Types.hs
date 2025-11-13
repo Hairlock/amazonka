@@ -28,96 +28,96 @@ module Amazonka.DevOpsGuru.Types
     _ValidationException,
 
     -- * AnomalySeverity
-    AnomalySeverity,
+    AnomalySeverity (AnomalySeverity'),
 
     -- * AnomalyStatus
-    AnomalyStatus,
+    AnomalyStatus (AnomalyStatus'),
 
     -- * AnomalyType
-    AnomalyType,
+    AnomalyType (AnomalyType'),
 
     -- * CloudWatchMetricDataStatusCode
-    CloudWatchMetricDataStatusCode,
+    CloudWatchMetricDataStatusCode (CloudWatchMetricDataStatusCode'),
 
     -- * CloudWatchMetricsStat
-    CloudWatchMetricsStat,
+    CloudWatchMetricsStat (CloudWatchMetricsStat'),
 
     -- * CostEstimationServiceResourceState
-    CostEstimationServiceResourceState,
+    CostEstimationServiceResourceState (CostEstimationServiceResourceState'),
 
     -- * CostEstimationStatus
-    CostEstimationStatus,
+    CostEstimationStatus (CostEstimationStatus'),
 
     -- * EventClass
-    EventClass,
+    EventClass (EventClass'),
 
     -- * EventDataSource
-    EventDataSource,
+    EventDataSource (EventDataSource'),
 
     -- * EventSourceOptInStatus
-    EventSourceOptInStatus,
+    EventSourceOptInStatus (EventSourceOptInStatus'),
 
     -- * InsightFeedbackOption
-    InsightFeedbackOption,
+    InsightFeedbackOption (InsightFeedbackOption'),
 
     -- * InsightSeverity
-    InsightSeverity,
+    InsightSeverity (InsightSeverity'),
 
     -- * InsightStatus
-    InsightStatus,
+    InsightStatus (InsightStatus'),
 
     -- * InsightType
-    InsightType,
+    InsightType (InsightType'),
 
     -- * Locale
-    Locale,
+    Locale (Locale'),
 
     -- * LogAnomalyType
-    LogAnomalyType,
+    LogAnomalyType (LogAnomalyType'),
 
     -- * NotificationMessageType
-    NotificationMessageType,
+    NotificationMessageType (NotificationMessageType'),
 
     -- * OptInStatus
-    OptInStatus,
+    OptInStatus (OptInStatus'),
 
     -- * OrganizationResourceCollectionType
-    OrganizationResourceCollectionType,
+    OrganizationResourceCollectionType (OrganizationResourceCollectionType'),
 
     -- * ResourceCollectionType
-    ResourceCollectionType,
+    ResourceCollectionType (ResourceCollectionType'),
 
     -- * ResourcePermission
-    ResourcePermission,
+    ResourcePermission (ResourcePermission'),
 
     -- * ResourceTypeFilter
-    ResourceTypeFilter,
+    ResourceTypeFilter (ResourceTypeFilter'),
 
     -- * ServiceName
-    ServiceName,
+    ServiceName (ServiceName'),
 
     -- * UpdateResourceCollectionAction
-    UpdateResourceCollectionAction,
+    UpdateResourceCollectionAction (UpdateResourceCollectionAction'),
 
     -- * AccountHealth
-    AccountHealth,
+    AccountHealth (AccountHealth'),
     newAccountHealth,
     accountHealth_accountId,
     accountHealth_insight,
 
     -- * AccountInsightHealth
-    AccountInsightHealth,
+    AccountInsightHealth (AccountInsightHealth'),
     newAccountInsightHealth,
     accountInsightHealth_openProactiveInsights,
     accountInsightHealth_openReactiveInsights,
 
     -- * AmazonCodeGuruProfilerIntegration
-    AmazonCodeGuruProfilerIntegration,
+    AmazonCodeGuruProfilerIntegration (AmazonCodeGuruProfilerIntegration'),
     newAmazonCodeGuruProfilerIntegration,
     amazonCodeGuruProfilerIntegration_status,
 
     -- * AnomalousLogGroup
-    AnomalousLogGroup,
+    AnomalousLogGroup (AnomalousLogGroup'),
     newAnomalousLogGroup,
     anomalousLogGroup_impactEndTime,
     anomalousLogGroup_impactStartTime,
@@ -126,66 +126,66 @@ module Amazonka.DevOpsGuru.Types
     anomalousLogGroup_numberOfLogLinesScanned,
 
     -- * AnomalyReportedTimeRange
-    AnomalyReportedTimeRange,
+    AnomalyReportedTimeRange (AnomalyReportedTimeRange'),
     newAnomalyReportedTimeRange,
     anomalyReportedTimeRange_closeTime,
     anomalyReportedTimeRange_openTime,
 
     -- * AnomalyResource
-    AnomalyResource,
+    AnomalyResource (AnomalyResource'),
     newAnomalyResource,
     anomalyResource_name,
     anomalyResource_type,
 
     -- * AnomalySourceDetails
-    AnomalySourceDetails,
+    AnomalySourceDetails (AnomalySourceDetails'),
     newAnomalySourceDetails,
     anomalySourceDetails_cloudWatchMetrics,
     anomalySourceDetails_performanceInsightsMetrics,
 
     -- * AnomalySourceMetadata
-    AnomalySourceMetadata,
+    AnomalySourceMetadata (AnomalySourceMetadata'),
     newAnomalySourceMetadata,
     anomalySourceMetadata_source,
     anomalySourceMetadata_sourceResourceName,
     anomalySourceMetadata_sourceResourceType,
 
     -- * AnomalyTimeRange
-    AnomalyTimeRange,
+    AnomalyTimeRange (AnomalyTimeRange'),
     newAnomalyTimeRange,
     anomalyTimeRange_endTime,
     anomalyTimeRange_startTime,
 
     -- * CloudFormationCollection
-    CloudFormationCollection,
+    CloudFormationCollection (CloudFormationCollection'),
     newCloudFormationCollection,
     cloudFormationCollection_stackNames,
 
     -- * CloudFormationCollectionFilter
-    CloudFormationCollectionFilter,
+    CloudFormationCollectionFilter (CloudFormationCollectionFilter'),
     newCloudFormationCollectionFilter,
     cloudFormationCollectionFilter_stackNames,
 
     -- * CloudFormationCostEstimationResourceCollectionFilter
-    CloudFormationCostEstimationResourceCollectionFilter,
+    CloudFormationCostEstimationResourceCollectionFilter (CloudFormationCostEstimationResourceCollectionFilter'),
     newCloudFormationCostEstimationResourceCollectionFilter,
     cloudFormationCostEstimationResourceCollectionFilter_stackNames,
 
     -- * CloudFormationHealth
-    CloudFormationHealth,
+    CloudFormationHealth (CloudFormationHealth'),
     newCloudFormationHealth,
     cloudFormationHealth_analyzedResourceCount,
     cloudFormationHealth_insight,
     cloudFormationHealth_stackName,
 
     -- * CloudWatchMetricsDataSummary
-    CloudWatchMetricsDataSummary,
+    CloudWatchMetricsDataSummary (CloudWatchMetricsDataSummary'),
     newCloudWatchMetricsDataSummary,
     cloudWatchMetricsDataSummary_statusCode,
     cloudWatchMetricsDataSummary_timestampMetricValuePairList,
 
     -- * CloudWatchMetricsDetail
-    CloudWatchMetricsDetail,
+    CloudWatchMetricsDetail (CloudWatchMetricsDetail'),
     newCloudWatchMetricsDetail,
     cloudWatchMetricsDetail_dimensions,
     cloudWatchMetricsDetail_metricDataSummary,
@@ -196,31 +196,31 @@ module Amazonka.DevOpsGuru.Types
     cloudWatchMetricsDetail_unit,
 
     -- * CloudWatchMetricsDimension
-    CloudWatchMetricsDimension,
+    CloudWatchMetricsDimension (CloudWatchMetricsDimension'),
     newCloudWatchMetricsDimension,
     cloudWatchMetricsDimension_name,
     cloudWatchMetricsDimension_value,
 
     -- * CostEstimationResourceCollectionFilter
-    CostEstimationResourceCollectionFilter,
+    CostEstimationResourceCollectionFilter (CostEstimationResourceCollectionFilter'),
     newCostEstimationResourceCollectionFilter,
     costEstimationResourceCollectionFilter_cloudFormation,
     costEstimationResourceCollectionFilter_tags,
 
     -- * CostEstimationTimeRange
-    CostEstimationTimeRange,
+    CostEstimationTimeRange (CostEstimationTimeRange'),
     newCostEstimationTimeRange,
     costEstimationTimeRange_endTime,
     costEstimationTimeRange_startTime,
 
     -- * EndTimeRange
-    EndTimeRange,
+    EndTimeRange (EndTimeRange'),
     newEndTimeRange,
     endTimeRange_fromTime,
     endTimeRange_toTime,
 
     -- * Event
-    Event,
+    Event (Event'),
     newEvent,
     event_dataSource,
     event_eventClass,
@@ -232,44 +232,44 @@ module Amazonka.DevOpsGuru.Types
     event_time,
 
     -- * EventResource
-    EventResource,
+    EventResource (EventResource'),
     newEventResource,
     eventResource_arn,
     eventResource_name,
     eventResource_type,
 
     -- * EventSourcesConfig
-    EventSourcesConfig,
+    EventSourcesConfig (EventSourcesConfig'),
     newEventSourcesConfig,
     eventSourcesConfig_amazonCodeGuruProfiler,
 
     -- * EventTimeRange
-    EventTimeRange,
+    EventTimeRange (EventTimeRange'),
     newEventTimeRange,
     eventTimeRange_fromTime,
     eventTimeRange_toTime,
 
     -- * InsightFeedback
-    InsightFeedback,
+    InsightFeedback (InsightFeedback'),
     newInsightFeedback,
     insightFeedback_feedback,
     insightFeedback_id,
 
     -- * InsightHealth
-    InsightHealth,
+    InsightHealth (InsightHealth'),
     newInsightHealth,
     insightHealth_meanTimeToRecoverInMilliseconds,
     insightHealth_openProactiveInsights,
     insightHealth_openReactiveInsights,
 
     -- * InsightTimeRange
-    InsightTimeRange,
+    InsightTimeRange (InsightTimeRange'),
     newInsightTimeRange,
     insightTimeRange_endTime,
     insightTimeRange_startTime,
 
     -- * ListEventsFilters
-    ListEventsFilters,
+    ListEventsFilters (ListEventsFilters'),
     newListEventsFilters,
     listEventsFilters_dataSource,
     listEventsFilters_eventClass,
@@ -279,37 +279,37 @@ module Amazonka.DevOpsGuru.Types
     listEventsFilters_resourceCollection,
 
     -- * ListInsightsAnyStatusFilter
-    ListInsightsAnyStatusFilter,
+    ListInsightsAnyStatusFilter (ListInsightsAnyStatusFilter'),
     newListInsightsAnyStatusFilter,
     listInsightsAnyStatusFilter_type,
     listInsightsAnyStatusFilter_startTimeRange,
 
     -- * ListInsightsClosedStatusFilter
-    ListInsightsClosedStatusFilter,
+    ListInsightsClosedStatusFilter (ListInsightsClosedStatusFilter'),
     newListInsightsClosedStatusFilter,
     listInsightsClosedStatusFilter_type,
     listInsightsClosedStatusFilter_endTimeRange,
 
     -- * ListInsightsOngoingStatusFilter
-    ListInsightsOngoingStatusFilter,
+    ListInsightsOngoingStatusFilter (ListInsightsOngoingStatusFilter'),
     newListInsightsOngoingStatusFilter,
     listInsightsOngoingStatusFilter_type,
 
     -- * ListInsightsStatusFilter
-    ListInsightsStatusFilter,
+    ListInsightsStatusFilter (ListInsightsStatusFilter'),
     newListInsightsStatusFilter,
     listInsightsStatusFilter_any,
     listInsightsStatusFilter_closed,
     listInsightsStatusFilter_ongoing,
 
     -- * ListMonitoredResourcesFilters
-    ListMonitoredResourcesFilters,
+    ListMonitoredResourcesFilters (ListMonitoredResourcesFilters'),
     newListMonitoredResourcesFilters,
     listMonitoredResourcesFilters_resourcePermission,
     listMonitoredResourcesFilters_resourceTypeFilters,
 
     -- * LogAnomalyClass
-    LogAnomalyClass,
+    LogAnomalyClass (LogAnomalyClass'),
     newLogAnomalyClass,
     logAnomalyClass_explanation,
     logAnomalyClass_logAnomalyToken,
@@ -320,22 +320,22 @@ module Amazonka.DevOpsGuru.Types
     logAnomalyClass_numberOfLogLinesOccurrences,
 
     -- * LogAnomalyShowcase
-    LogAnomalyShowcase,
+    LogAnomalyShowcase (LogAnomalyShowcase'),
     newLogAnomalyShowcase,
     logAnomalyShowcase_logAnomalyClasses,
 
     -- * LogsAnomalyDetectionIntegration
-    LogsAnomalyDetectionIntegration,
+    LogsAnomalyDetectionIntegration (LogsAnomalyDetectionIntegration'),
     newLogsAnomalyDetectionIntegration,
     logsAnomalyDetectionIntegration_optInStatus,
 
     -- * LogsAnomalyDetectionIntegrationConfig
-    LogsAnomalyDetectionIntegrationConfig,
+    LogsAnomalyDetectionIntegrationConfig (LogsAnomalyDetectionIntegrationConfig'),
     newLogsAnomalyDetectionIntegrationConfig,
     logsAnomalyDetectionIntegrationConfig_optInStatus,
 
     -- * MonitoredResourceIdentifier
-    MonitoredResourceIdentifier,
+    MonitoredResourceIdentifier (MonitoredResourceIdentifier'),
     newMonitoredResourceIdentifier,
     monitoredResourceIdentifier_lastUpdated,
     monitoredResourceIdentifier_monitoredResourceName,
@@ -344,49 +344,49 @@ module Amazonka.DevOpsGuru.Types
     monitoredResourceIdentifier_type,
 
     -- * NotificationChannel
-    NotificationChannel,
+    NotificationChannel (NotificationChannel'),
     newNotificationChannel,
     notificationChannel_config,
     notificationChannel_id,
 
     -- * NotificationChannelConfig
-    NotificationChannelConfig,
+    NotificationChannelConfig (NotificationChannelConfig'),
     newNotificationChannelConfig,
     notificationChannelConfig_filters,
     notificationChannelConfig_sns,
 
     -- * NotificationFilterConfig
-    NotificationFilterConfig,
+    NotificationFilterConfig (NotificationFilterConfig'),
     newNotificationFilterConfig,
     notificationFilterConfig_messageTypes,
     notificationFilterConfig_severities,
 
     -- * OpsCenterIntegration
-    OpsCenterIntegration,
+    OpsCenterIntegration (OpsCenterIntegration'),
     newOpsCenterIntegration,
     opsCenterIntegration_optInStatus,
 
     -- * OpsCenterIntegrationConfig
-    OpsCenterIntegrationConfig,
+    OpsCenterIntegrationConfig (OpsCenterIntegrationConfig'),
     newOpsCenterIntegrationConfig,
     opsCenterIntegrationConfig_optInStatus,
 
     -- * PerformanceInsightsMetricDimensionGroup
-    PerformanceInsightsMetricDimensionGroup,
+    PerformanceInsightsMetricDimensionGroup (PerformanceInsightsMetricDimensionGroup'),
     newPerformanceInsightsMetricDimensionGroup,
     performanceInsightsMetricDimensionGroup_dimensions,
     performanceInsightsMetricDimensionGroup_group,
     performanceInsightsMetricDimensionGroup_limit,
 
     -- * PerformanceInsightsMetricQuery
-    PerformanceInsightsMetricQuery,
+    PerformanceInsightsMetricQuery (PerformanceInsightsMetricQuery'),
     newPerformanceInsightsMetricQuery,
     performanceInsightsMetricQuery_filter,
     performanceInsightsMetricQuery_groupBy,
     performanceInsightsMetricQuery_metric,
 
     -- * PerformanceInsightsMetricsDetail
-    PerformanceInsightsMetricsDetail,
+    PerformanceInsightsMetricsDetail (PerformanceInsightsMetricsDetail'),
     newPerformanceInsightsMetricsDetail,
     performanceInsightsMetricsDetail_metricDisplayName,
     performanceInsightsMetricsDetail_metricQuery,
@@ -396,41 +396,41 @@ module Amazonka.DevOpsGuru.Types
     performanceInsightsMetricsDetail_unit,
 
     -- * PerformanceInsightsReferenceComparisonValues
-    PerformanceInsightsReferenceComparisonValues,
+    PerformanceInsightsReferenceComparisonValues (PerformanceInsightsReferenceComparisonValues'),
     newPerformanceInsightsReferenceComparisonValues,
     performanceInsightsReferenceComparisonValues_referenceMetric,
     performanceInsightsReferenceComparisonValues_referenceScalar,
 
     -- * PerformanceInsightsReferenceData
-    PerformanceInsightsReferenceData,
+    PerformanceInsightsReferenceData (PerformanceInsightsReferenceData'),
     newPerformanceInsightsReferenceData,
     performanceInsightsReferenceData_comparisonValues,
     performanceInsightsReferenceData_name,
 
     -- * PerformanceInsightsReferenceMetric
-    PerformanceInsightsReferenceMetric,
+    PerformanceInsightsReferenceMetric (PerformanceInsightsReferenceMetric'),
     newPerformanceInsightsReferenceMetric,
     performanceInsightsReferenceMetric_metricQuery,
 
     -- * PerformanceInsightsReferenceScalar
-    PerformanceInsightsReferenceScalar,
+    PerformanceInsightsReferenceScalar (PerformanceInsightsReferenceScalar'),
     newPerformanceInsightsReferenceScalar,
     performanceInsightsReferenceScalar_value,
 
     -- * PerformanceInsightsStat
-    PerformanceInsightsStat,
+    PerformanceInsightsStat (PerformanceInsightsStat'),
     newPerformanceInsightsStat,
     performanceInsightsStat_type,
     performanceInsightsStat_value,
 
     -- * PredictionTimeRange
-    PredictionTimeRange,
+    PredictionTimeRange (PredictionTimeRange'),
     newPredictionTimeRange,
     predictionTimeRange_endTime,
     predictionTimeRange_startTime,
 
     -- * ProactiveAnomaly
-    ProactiveAnomaly,
+    ProactiveAnomaly (ProactiveAnomaly'),
     newProactiveAnomaly,
     proactiveAnomaly_anomalyReportedTimeRange,
     proactiveAnomaly_anomalyResources,
@@ -447,7 +447,7 @@ module Amazonka.DevOpsGuru.Types
     proactiveAnomaly_updateTime,
 
     -- * ProactiveAnomalySummary
-    ProactiveAnomalySummary,
+    ProactiveAnomalySummary (ProactiveAnomalySummary'),
     newProactiveAnomalySummary,
     proactiveAnomalySummary_anomalyReportedTimeRange,
     proactiveAnomalySummary_anomalyResources,
@@ -464,7 +464,7 @@ module Amazonka.DevOpsGuru.Types
     proactiveAnomalySummary_updateTime,
 
     -- * ProactiveInsight
-    ProactiveInsight,
+    ProactiveInsight (ProactiveInsight'),
     newProactiveInsight,
     proactiveInsight_description,
     proactiveInsight_id,
@@ -477,7 +477,7 @@ module Amazonka.DevOpsGuru.Types
     proactiveInsight_status,
 
     -- * ProactiveInsightSummary
-    ProactiveInsightSummary,
+    ProactiveInsightSummary (ProactiveInsightSummary'),
     newProactiveInsightSummary,
     proactiveInsightSummary_associatedResourceArns,
     proactiveInsightSummary_id,
@@ -490,7 +490,7 @@ module Amazonka.DevOpsGuru.Types
     proactiveInsightSummary_status,
 
     -- * ProactiveOrganizationInsightSummary
-    ProactiveOrganizationInsightSummary,
+    ProactiveOrganizationInsightSummary (ProactiveOrganizationInsightSummary'),
     newProactiveOrganizationInsightSummary,
     proactiveOrganizationInsightSummary_accountId,
     proactiveOrganizationInsightSummary_id,
@@ -504,7 +504,7 @@ module Amazonka.DevOpsGuru.Types
     proactiveOrganizationInsightSummary_status,
 
     -- * ReactiveAnomaly
-    ReactiveAnomaly,
+    ReactiveAnomaly (ReactiveAnomaly'),
     newReactiveAnomaly,
     reactiveAnomaly_anomalyReportedTimeRange,
     reactiveAnomaly_anomalyResources,
@@ -521,7 +521,7 @@ module Amazonka.DevOpsGuru.Types
     reactiveAnomaly_type,
 
     -- * ReactiveAnomalySummary
-    ReactiveAnomalySummary,
+    ReactiveAnomalySummary (ReactiveAnomalySummary'),
     newReactiveAnomalySummary,
     reactiveAnomalySummary_anomalyReportedTimeRange,
     reactiveAnomalySummary_anomalyResources,
@@ -538,7 +538,7 @@ module Amazonka.DevOpsGuru.Types
     reactiveAnomalySummary_type,
 
     -- * ReactiveInsight
-    ReactiveInsight,
+    ReactiveInsight (ReactiveInsight'),
     newReactiveInsight,
     reactiveInsight_description,
     reactiveInsight_id,
@@ -550,7 +550,7 @@ module Amazonka.DevOpsGuru.Types
     reactiveInsight_status,
 
     -- * ReactiveInsightSummary
-    ReactiveInsightSummary,
+    ReactiveInsightSummary (ReactiveInsightSummary'),
     newReactiveInsightSummary,
     reactiveInsightSummary_associatedResourceArns,
     reactiveInsightSummary_id,
@@ -562,7 +562,7 @@ module Amazonka.DevOpsGuru.Types
     reactiveInsightSummary_status,
 
     -- * ReactiveOrganizationInsightSummary
-    ReactiveOrganizationInsightSummary,
+    ReactiveOrganizationInsightSummary (ReactiveOrganizationInsightSummary'),
     newReactiveOrganizationInsightSummary,
     reactiveOrganizationInsightSummary_accountId,
     reactiveOrganizationInsightSummary_id,
@@ -575,7 +575,7 @@ module Amazonka.DevOpsGuru.Types
     reactiveOrganizationInsightSummary_status,
 
     -- * Recommendation
-    Recommendation,
+    Recommendation (Recommendation'),
     newRecommendation,
     recommendation_category,
     recommendation_description,
@@ -586,55 +586,55 @@ module Amazonka.DevOpsGuru.Types
     recommendation_relatedEvents,
 
     -- * RecommendationRelatedAnomaly
-    RecommendationRelatedAnomaly,
+    RecommendationRelatedAnomaly (RecommendationRelatedAnomaly'),
     newRecommendationRelatedAnomaly,
     recommendationRelatedAnomaly_anomalyId,
     recommendationRelatedAnomaly_resources,
     recommendationRelatedAnomaly_sourceDetails,
 
     -- * RecommendationRelatedAnomalyResource
-    RecommendationRelatedAnomalyResource,
+    RecommendationRelatedAnomalyResource (RecommendationRelatedAnomalyResource'),
     newRecommendationRelatedAnomalyResource,
     recommendationRelatedAnomalyResource_name,
     recommendationRelatedAnomalyResource_type,
 
     -- * RecommendationRelatedAnomalySourceDetail
-    RecommendationRelatedAnomalySourceDetail,
+    RecommendationRelatedAnomalySourceDetail (RecommendationRelatedAnomalySourceDetail'),
     newRecommendationRelatedAnomalySourceDetail,
     recommendationRelatedAnomalySourceDetail_cloudWatchMetrics,
 
     -- * RecommendationRelatedCloudWatchMetricsSourceDetail
-    RecommendationRelatedCloudWatchMetricsSourceDetail,
+    RecommendationRelatedCloudWatchMetricsSourceDetail (RecommendationRelatedCloudWatchMetricsSourceDetail'),
     newRecommendationRelatedCloudWatchMetricsSourceDetail,
     recommendationRelatedCloudWatchMetricsSourceDetail_metricName,
     recommendationRelatedCloudWatchMetricsSourceDetail_namespace,
 
     -- * RecommendationRelatedEvent
-    RecommendationRelatedEvent,
+    RecommendationRelatedEvent (RecommendationRelatedEvent'),
     newRecommendationRelatedEvent,
     recommendationRelatedEvent_name,
     recommendationRelatedEvent_resources,
 
     -- * RecommendationRelatedEventResource
-    RecommendationRelatedEventResource,
+    RecommendationRelatedEventResource (RecommendationRelatedEventResource'),
     newRecommendationRelatedEventResource,
     recommendationRelatedEventResource_name,
     recommendationRelatedEventResource_type,
 
     -- * ResourceCollection
-    ResourceCollection,
+    ResourceCollection (ResourceCollection'),
     newResourceCollection,
     resourceCollection_cloudFormation,
     resourceCollection_tags,
 
     -- * ResourceCollectionFilter
-    ResourceCollectionFilter,
+    ResourceCollectionFilter (ResourceCollectionFilter'),
     newResourceCollectionFilter,
     resourceCollectionFilter_cloudFormation,
     resourceCollectionFilter_tags,
 
     -- * SearchInsightsFilters
-    SearchInsightsFilters,
+    SearchInsightsFilters (SearchInsightsFilters'),
     newSearchInsightsFilters,
     searchInsightsFilters_resourceCollection,
     searchInsightsFilters_serviceCollection,
@@ -642,7 +642,7 @@ module Amazonka.DevOpsGuru.Types
     searchInsightsFilters_statuses,
 
     -- * SearchOrganizationInsightsFilters
-    SearchOrganizationInsightsFilters,
+    SearchOrganizationInsightsFilters (SearchOrganizationInsightsFilters'),
     newSearchOrganizationInsightsFilters,
     searchOrganizationInsightsFilters_resourceCollection,
     searchOrganizationInsightsFilters_serviceCollection,
@@ -650,31 +650,31 @@ module Amazonka.DevOpsGuru.Types
     searchOrganizationInsightsFilters_statuses,
 
     -- * ServiceCollection
-    ServiceCollection,
+    ServiceCollection (ServiceCollection'),
     newServiceCollection,
     serviceCollection_serviceNames,
 
     -- * ServiceHealth
-    ServiceHealth,
+    ServiceHealth (ServiceHealth'),
     newServiceHealth,
     serviceHealth_analyzedResourceCount,
     serviceHealth_insight,
     serviceHealth_serviceName,
 
     -- * ServiceInsightHealth
-    ServiceInsightHealth,
+    ServiceInsightHealth (ServiceInsightHealth'),
     newServiceInsightHealth,
     serviceInsightHealth_openProactiveInsights,
     serviceInsightHealth_openReactiveInsights,
 
     -- * ServiceIntegrationConfig
-    ServiceIntegrationConfig,
+    ServiceIntegrationConfig (ServiceIntegrationConfig'),
     newServiceIntegrationConfig,
     serviceIntegrationConfig_logsAnomalyDetection,
     serviceIntegrationConfig_opsCenter,
 
     -- * ServiceResourceCost
-    ServiceResourceCost,
+    ServiceResourceCost (ServiceResourceCost'),
     newServiceResourceCost,
     serviceResourceCost_cost,
     serviceResourceCost_count,
@@ -683,36 +683,36 @@ module Amazonka.DevOpsGuru.Types
     serviceResourceCost_unitCost,
 
     -- * SnsChannelConfig
-    SnsChannelConfig,
+    SnsChannelConfig (SnsChannelConfig'),
     newSnsChannelConfig,
     snsChannelConfig_topicArn,
 
     -- * StartTimeRange
-    StartTimeRange,
+    StartTimeRange (StartTimeRange'),
     newStartTimeRange,
     startTimeRange_fromTime,
     startTimeRange_toTime,
 
     -- * TagCollection
-    TagCollection,
+    TagCollection (TagCollection'),
     newTagCollection,
     tagCollection_appBoundaryKey,
     tagCollection_tagValues,
 
     -- * TagCollectionFilter
-    TagCollectionFilter,
+    TagCollectionFilter (TagCollectionFilter'),
     newTagCollectionFilter,
     tagCollectionFilter_appBoundaryKey,
     tagCollectionFilter_tagValues,
 
     -- * TagCostEstimationResourceCollectionFilter
-    TagCostEstimationResourceCollectionFilter,
+    TagCostEstimationResourceCollectionFilter (TagCostEstimationResourceCollectionFilter'),
     newTagCostEstimationResourceCollectionFilter,
     tagCostEstimationResourceCollectionFilter_appBoundaryKey,
     tagCostEstimationResourceCollectionFilter_tagValues,
 
     -- * TagHealth
-    TagHealth,
+    TagHealth (TagHealth'),
     newTagHealth,
     tagHealth_analyzedResourceCount,
     tagHealth_appBoundaryKey,
@@ -720,30 +720,30 @@ module Amazonka.DevOpsGuru.Types
     tagHealth_tagValue,
 
     -- * TimestampMetricValuePair
-    TimestampMetricValuePair,
+    TimestampMetricValuePair (TimestampMetricValuePair'),
     newTimestampMetricValuePair,
     timestampMetricValuePair_metricValue,
     timestampMetricValuePair_timestamp,
 
     -- * UpdateCloudFormationCollectionFilter
-    UpdateCloudFormationCollectionFilter,
+    UpdateCloudFormationCollectionFilter (UpdateCloudFormationCollectionFilter'),
     newUpdateCloudFormationCollectionFilter,
     updateCloudFormationCollectionFilter_stackNames,
 
     -- * UpdateResourceCollectionFilter
-    UpdateResourceCollectionFilter,
+    UpdateResourceCollectionFilter (UpdateResourceCollectionFilter'),
     newUpdateResourceCollectionFilter,
     updateResourceCollectionFilter_cloudFormation,
     updateResourceCollectionFilter_tags,
 
     -- * UpdateServiceIntegrationConfig
-    UpdateServiceIntegrationConfig,
+    UpdateServiceIntegrationConfig (UpdateServiceIntegrationConfig'),
     newUpdateServiceIntegrationConfig,
     updateServiceIntegrationConfig_logsAnomalyDetection,
     updateServiceIntegrationConfig_opsCenter,
 
     -- * UpdateTagCollectionFilter
-    UpdateTagCollectionFilter,
+    UpdateTagCollectionFilter (UpdateTagCollectionFilter'),
     newUpdateTagCollectionFilter,
     updateTagCollectionFilter_appBoundaryKey,
     updateTagCollectionFilter_tagValues,

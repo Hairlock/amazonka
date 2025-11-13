@@ -27,28 +27,28 @@ module Amazonka.SnowDeviceManagement.Types
     _ValidationException,
 
     -- * AttachmentStatus
-    AttachmentStatus,
+    AttachmentStatus (AttachmentStatus'),
 
     -- * ExecutionState
-    ExecutionState,
+    ExecutionState (ExecutionState'),
 
     -- * InstanceStateName
-    InstanceStateName,
+    InstanceStateName (InstanceStateName'),
 
     -- * IpAddressAssignment
-    IpAddressAssignment,
+    IpAddressAssignment (IpAddressAssignment'),
 
     -- * PhysicalConnectorType
-    PhysicalConnectorType,
+    PhysicalConnectorType (PhysicalConnectorType'),
 
     -- * TaskState
-    TaskState,
+    TaskState (TaskState'),
 
     -- * UnlockState
-    UnlockState,
+    UnlockState (UnlockState'),
 
     -- * Capacity
-    Capacity,
+    Capacity (Capacity'),
     newCapacity,
     capacity_available,
     capacity_name,
@@ -57,19 +57,19 @@ module Amazonka.SnowDeviceManagement.Types
     capacity_used,
 
     -- * Command
-    Command,
+    Command (Command'),
     newCommand,
     command_reboot,
     command_unlock,
 
     -- * CpuOptions
-    CpuOptions,
+    CpuOptions (CpuOptions'),
     newCpuOptions,
     cpuOptions_coreCount,
     cpuOptions_threadsPerCore,
 
     -- * DeviceSummary
-    DeviceSummary,
+    DeviceSummary (DeviceSummary'),
     newDeviceSummary,
     deviceSummary_associatedWithJob,
     deviceSummary_managedDeviceArn,
@@ -77,7 +77,7 @@ module Amazonka.SnowDeviceManagement.Types
     deviceSummary_tags,
 
     -- * EbsInstanceBlockDevice
-    EbsInstanceBlockDevice,
+    EbsInstanceBlockDevice (EbsInstanceBlockDevice'),
     newEbsInstanceBlockDevice,
     ebsInstanceBlockDevice_attachTime,
     ebsInstanceBlockDevice_deleteOnTermination,
@@ -85,7 +85,7 @@ module Amazonka.SnowDeviceManagement.Types
     ebsInstanceBlockDevice_volumeId,
 
     -- * ExecutionSummary
-    ExecutionSummary,
+    ExecutionSummary (ExecutionSummary'),
     newExecutionSummary,
     executionSummary_executionId,
     executionSummary_managedDeviceId,
@@ -93,7 +93,7 @@ module Amazonka.SnowDeviceManagement.Types
     executionSummary_taskId,
 
     -- * Instance
-    Instance,
+    Instance (Instance'),
     newInstance,
     instance_amiLaunchIndex,
     instance_blockDeviceMappings,
@@ -110,25 +110,25 @@ module Amazonka.SnowDeviceManagement.Types
     instance_updatedAt,
 
     -- * InstanceBlockDeviceMapping
-    InstanceBlockDeviceMapping,
+    InstanceBlockDeviceMapping (InstanceBlockDeviceMapping'),
     newInstanceBlockDeviceMapping,
     instanceBlockDeviceMapping_deviceName,
     instanceBlockDeviceMapping_ebs,
 
     -- * InstanceState
-    InstanceState,
+    InstanceState (InstanceState'),
     newInstanceState,
     instanceState_code,
     instanceState_name,
 
     -- * InstanceSummary
-    InstanceSummary,
+    InstanceSummary (InstanceSummary'),
     newInstanceSummary,
     instanceSummary_instance,
     instanceSummary_lastUpdatedAt,
 
     -- * PhysicalNetworkInterface
-    PhysicalNetworkInterface,
+    PhysicalNetworkInterface (PhysicalNetworkInterface'),
     newPhysicalNetworkInterface,
     physicalNetworkInterface_defaultGateway,
     physicalNetworkInterface_ipAddress,
@@ -139,31 +139,31 @@ module Amazonka.SnowDeviceManagement.Types
     physicalNetworkInterface_physicalNetworkInterfaceId,
 
     -- * Reboot
-    Reboot,
+    Reboot (Reboot'),
     newReboot,
 
     -- * ResourceSummary
-    ResourceSummary,
+    ResourceSummary (ResourceSummary'),
     newResourceSummary,
     resourceSummary_arn,
     resourceSummary_id,
     resourceSummary_resourceType,
 
     -- * SecurityGroupIdentifier
-    SecurityGroupIdentifier,
+    SecurityGroupIdentifier (SecurityGroupIdentifier'),
     newSecurityGroupIdentifier,
     securityGroupIdentifier_groupId,
     securityGroupIdentifier_groupName,
 
     -- * SoftwareInformation
-    SoftwareInformation,
+    SoftwareInformation (SoftwareInformation'),
     newSoftwareInformation,
     softwareInformation_installState,
     softwareInformation_installedVersion,
     softwareInformation_installingVersion,
 
     -- * TaskSummary
-    TaskSummary,
+    TaskSummary (TaskSummary'),
     newTaskSummary,
     taskSummary_state,
     taskSummary_tags,
@@ -171,7 +171,7 @@ module Amazonka.SnowDeviceManagement.Types
     taskSummary_taskId,
 
     -- * Unlock
-    Unlock,
+    Unlock (Unlock'),
     newUnlock,
   )
 where

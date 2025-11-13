@@ -28,54 +28,54 @@ module Amazonka.DataExchange.Types
     _ValidationException,
 
     -- * AssetType
-    AssetType,
+    AssetType (AssetType'),
 
     -- * Code
-    Code,
+    Code (Code'),
 
     -- * DatabaseLFTagPolicyPermission
-    DatabaseLFTagPolicyPermission,
+    DatabaseLFTagPolicyPermission (DatabaseLFTagPolicyPermission'),
 
     -- * JobErrorLimitName
-    JobErrorLimitName,
+    JobErrorLimitName (JobErrorLimitName'),
 
     -- * JobErrorResourceTypes
-    JobErrorResourceTypes,
+    JobErrorResourceTypes (JobErrorResourceTypes'),
 
     -- * LFPermission
-    LFPermission,
+    LFPermission (LFPermission'),
 
     -- * LFResourceType
-    LFResourceType,
+    LFResourceType (LFResourceType'),
 
     -- * LakeFormationDataPermissionType
-    LakeFormationDataPermissionType,
+    LakeFormationDataPermissionType (LakeFormationDataPermissionType'),
 
     -- * Origin
-    Origin,
+    Origin (Origin'),
 
     -- * ProtocolType
-    ProtocolType,
+    ProtocolType (ProtocolType'),
 
     -- * ServerSideEncryptionTypes
-    ServerSideEncryptionTypes,
+    ServerSideEncryptionTypes (ServerSideEncryptionTypes'),
 
     -- * State
-    State,
+    State (State'),
 
     -- * TableTagPolicyLFPermission
-    TableTagPolicyLFPermission,
+    TableTagPolicyLFPermission (TableTagPolicyLFPermission'),
 
     -- * Type
-    Type,
+    Type (Type'),
 
     -- * Action
-    Action,
+    Action (Action'),
     newAction,
     action_exportRevisionToS3,
 
     -- * ApiGatewayApiAsset
-    ApiGatewayApiAsset,
+    ApiGatewayApiAsset (ApiGatewayApiAsset'),
     newApiGatewayApiAsset,
     apiGatewayApiAsset_apiDescription,
     apiGatewayApiAsset_apiEndpoint,
@@ -88,14 +88,14 @@ module Amazonka.DataExchange.Types
     apiGatewayApiAsset_stage,
 
     -- * AssetDestinationEntry
-    AssetDestinationEntry,
+    AssetDestinationEntry (AssetDestinationEntry'),
     newAssetDestinationEntry,
     assetDestinationEntry_key,
     assetDestinationEntry_assetId,
     assetDestinationEntry_bucket,
 
     -- * AssetDetails
-    AssetDetails,
+    AssetDetails (AssetDetails'),
     newAssetDetails,
     assetDetails_apiGatewayApiAsset,
     assetDetails_lakeFormationDataPermissionAsset,
@@ -104,7 +104,7 @@ module Amazonka.DataExchange.Types
     assetDetails_s3SnapshotAsset,
 
     -- * AssetEntry
-    AssetEntry,
+    AssetEntry (AssetEntry'),
     newAssetEntry,
     assetEntry_sourceId,
     assetEntry_arn,
@@ -118,39 +118,39 @@ module Amazonka.DataExchange.Types
     assetEntry_updatedAt,
 
     -- * AssetSourceEntry
-    AssetSourceEntry,
+    AssetSourceEntry (AssetSourceEntry'),
     newAssetSourceEntry,
     assetSourceEntry_bucket,
     assetSourceEntry_key,
 
     -- * AutoExportRevisionDestinationEntry
-    AutoExportRevisionDestinationEntry,
+    AutoExportRevisionDestinationEntry (AutoExportRevisionDestinationEntry'),
     newAutoExportRevisionDestinationEntry,
     autoExportRevisionDestinationEntry_keyPattern,
     autoExportRevisionDestinationEntry_bucket,
 
     -- * AutoExportRevisionToS3RequestDetails
-    AutoExportRevisionToS3RequestDetails,
+    AutoExportRevisionToS3RequestDetails (AutoExportRevisionToS3RequestDetails'),
     newAutoExportRevisionToS3RequestDetails,
     autoExportRevisionToS3RequestDetails_encryption,
     autoExportRevisionToS3RequestDetails_revisionDestination,
 
     -- * CreateS3DataAccessFromS3BucketRequestDetails
-    CreateS3DataAccessFromS3BucketRequestDetails,
+    CreateS3DataAccessFromS3BucketRequestDetails (CreateS3DataAccessFromS3BucketRequestDetails'),
     newCreateS3DataAccessFromS3BucketRequestDetails,
     createS3DataAccessFromS3BucketRequestDetails_assetSource,
     createS3DataAccessFromS3BucketRequestDetails_dataSetId,
     createS3DataAccessFromS3BucketRequestDetails_revisionId,
 
     -- * CreateS3DataAccessFromS3BucketResponseDetails
-    CreateS3DataAccessFromS3BucketResponseDetails,
+    CreateS3DataAccessFromS3BucketResponseDetails (CreateS3DataAccessFromS3BucketResponseDetails'),
     newCreateS3DataAccessFromS3BucketResponseDetails,
     createS3DataAccessFromS3BucketResponseDetails_assetSource,
     createS3DataAccessFromS3BucketResponseDetails_dataSetId,
     createS3DataAccessFromS3BucketResponseDetails_revisionId,
 
     -- * DataSetEntry
-    DataSetEntry,
+    DataSetEntry (DataSetEntry'),
     newDataSetEntry,
     dataSetEntry_originDetails,
     dataSetEntry_sourceId,
@@ -164,29 +164,29 @@ module Amazonka.DataExchange.Types
     dataSetEntry_updatedAt,
 
     -- * DatabaseLFTagPolicy
-    DatabaseLFTagPolicy,
+    DatabaseLFTagPolicy (DatabaseLFTagPolicy'),
     newDatabaseLFTagPolicy,
     databaseLFTagPolicy_expression,
 
     -- * DatabaseLFTagPolicyAndPermissions
-    DatabaseLFTagPolicyAndPermissions,
+    DatabaseLFTagPolicyAndPermissions (DatabaseLFTagPolicyAndPermissions'),
     newDatabaseLFTagPolicyAndPermissions,
     databaseLFTagPolicyAndPermissions_expression,
     databaseLFTagPolicyAndPermissions_permissions,
 
     -- * Details
-    Details,
+    Details (Details'),
     newDetails,
     details_importAssetFromSignedUrlJobErrorDetails,
     details_importAssetsFromS3JobErrorDetails,
 
     -- * Event
-    Event,
+    Event (Event'),
     newEvent,
     event_revisionPublished,
 
     -- * EventActionEntry
-    EventActionEntry,
+    EventActionEntry (EventActionEntry'),
     newEventActionEntry,
     eventActionEntry_action,
     eventActionEntry_arn,
@@ -196,14 +196,14 @@ module Amazonka.DataExchange.Types
     eventActionEntry_updatedAt,
 
     -- * ExportAssetToSignedUrlRequestDetails
-    ExportAssetToSignedUrlRequestDetails,
+    ExportAssetToSignedUrlRequestDetails (ExportAssetToSignedUrlRequestDetails'),
     newExportAssetToSignedUrlRequestDetails,
     exportAssetToSignedUrlRequestDetails_assetId,
     exportAssetToSignedUrlRequestDetails_dataSetId,
     exportAssetToSignedUrlRequestDetails_revisionId,
 
     -- * ExportAssetToSignedUrlResponseDetails
-    ExportAssetToSignedUrlResponseDetails,
+    ExportAssetToSignedUrlResponseDetails (ExportAssetToSignedUrlResponseDetails'),
     newExportAssetToSignedUrlResponseDetails,
     exportAssetToSignedUrlResponseDetails_signedUrl,
     exportAssetToSignedUrlResponseDetails_signedUrlExpiresAt,
@@ -212,7 +212,7 @@ module Amazonka.DataExchange.Types
     exportAssetToSignedUrlResponseDetails_revisionId,
 
     -- * ExportAssetsToS3RequestDetails
-    ExportAssetsToS3RequestDetails,
+    ExportAssetsToS3RequestDetails (ExportAssetsToS3RequestDetails'),
     newExportAssetsToS3RequestDetails,
     exportAssetsToS3RequestDetails_encryption,
     exportAssetsToS3RequestDetails_assetDestinations,
@@ -220,7 +220,7 @@ module Amazonka.DataExchange.Types
     exportAssetsToS3RequestDetails_revisionId,
 
     -- * ExportAssetsToS3ResponseDetails
-    ExportAssetsToS3ResponseDetails,
+    ExportAssetsToS3ResponseDetails (ExportAssetsToS3ResponseDetails'),
     newExportAssetsToS3ResponseDetails,
     exportAssetsToS3ResponseDetails_encryption,
     exportAssetsToS3ResponseDetails_assetDestinations,
@@ -228,14 +228,14 @@ module Amazonka.DataExchange.Types
     exportAssetsToS3ResponseDetails_revisionId,
 
     -- * ExportRevisionsToS3RequestDetails
-    ExportRevisionsToS3RequestDetails,
+    ExportRevisionsToS3RequestDetails (ExportRevisionsToS3RequestDetails'),
     newExportRevisionsToS3RequestDetails,
     exportRevisionsToS3RequestDetails_encryption,
     exportRevisionsToS3RequestDetails_dataSetId,
     exportRevisionsToS3RequestDetails_revisionDestinations,
 
     -- * ExportRevisionsToS3ResponseDetails
-    ExportRevisionsToS3ResponseDetails,
+    ExportRevisionsToS3ResponseDetails (ExportRevisionsToS3ResponseDetails'),
     newExportRevisionsToS3ResponseDetails,
     exportRevisionsToS3ResponseDetails_encryption,
     exportRevisionsToS3ResponseDetails_eventActionArn,
@@ -243,13 +243,13 @@ module Amazonka.DataExchange.Types
     exportRevisionsToS3ResponseDetails_revisionDestinations,
 
     -- * ExportServerSideEncryption
-    ExportServerSideEncryption,
+    ExportServerSideEncryption (ExportServerSideEncryption'),
     newExportServerSideEncryption,
     exportServerSideEncryption_kmsKeyArn,
     exportServerSideEncryption_type,
 
     -- * ImportAssetFromApiGatewayApiRequestDetails
-    ImportAssetFromApiGatewayApiRequestDetails,
+    ImportAssetFromApiGatewayApiRequestDetails (ImportAssetFromApiGatewayApiRequestDetails'),
     newImportAssetFromApiGatewayApiRequestDetails,
     importAssetFromApiGatewayApiRequestDetails_apiDescription,
     importAssetFromApiGatewayApiRequestDetails_apiKey,
@@ -262,7 +262,7 @@ module Amazonka.DataExchange.Types
     importAssetFromApiGatewayApiRequestDetails_stage,
 
     -- * ImportAssetFromApiGatewayApiResponseDetails
-    ImportAssetFromApiGatewayApiResponseDetails,
+    ImportAssetFromApiGatewayApiResponseDetails (ImportAssetFromApiGatewayApiResponseDetails'),
     newImportAssetFromApiGatewayApiResponseDetails,
     importAssetFromApiGatewayApiResponseDetails_apiDescription,
     importAssetFromApiGatewayApiResponseDetails_apiKey,
@@ -277,12 +277,12 @@ module Amazonka.DataExchange.Types
     importAssetFromApiGatewayApiResponseDetails_stage,
 
     -- * ImportAssetFromSignedUrlJobErrorDetails
-    ImportAssetFromSignedUrlJobErrorDetails,
+    ImportAssetFromSignedUrlJobErrorDetails (ImportAssetFromSignedUrlJobErrorDetails'),
     newImportAssetFromSignedUrlJobErrorDetails,
     importAssetFromSignedUrlJobErrorDetails_assetName,
 
     -- * ImportAssetFromSignedUrlRequestDetails
-    ImportAssetFromSignedUrlRequestDetails,
+    ImportAssetFromSignedUrlRequestDetails (ImportAssetFromSignedUrlRequestDetails'),
     newImportAssetFromSignedUrlRequestDetails,
     importAssetFromSignedUrlRequestDetails_assetName,
     importAssetFromSignedUrlRequestDetails_dataSetId,
@@ -290,7 +290,7 @@ module Amazonka.DataExchange.Types
     importAssetFromSignedUrlRequestDetails_revisionId,
 
     -- * ImportAssetFromSignedUrlResponseDetails
-    ImportAssetFromSignedUrlResponseDetails,
+    ImportAssetFromSignedUrlResponseDetails (ImportAssetFromSignedUrlResponseDetails'),
     newImportAssetFromSignedUrlResponseDetails,
     importAssetFromSignedUrlResponseDetails_md5Hash,
     importAssetFromSignedUrlResponseDetails_signedUrl,
@@ -300,7 +300,7 @@ module Amazonka.DataExchange.Types
     importAssetFromSignedUrlResponseDetails_revisionId,
 
     -- * ImportAssetsFromLakeFormationTagPolicyRequestDetails
-    ImportAssetsFromLakeFormationTagPolicyRequestDetails,
+    ImportAssetsFromLakeFormationTagPolicyRequestDetails (ImportAssetsFromLakeFormationTagPolicyRequestDetails'),
     newImportAssetsFromLakeFormationTagPolicyRequestDetails,
     importAssetsFromLakeFormationTagPolicyRequestDetails_database,
     importAssetsFromLakeFormationTagPolicyRequestDetails_table,
@@ -310,7 +310,7 @@ module Amazonka.DataExchange.Types
     importAssetsFromLakeFormationTagPolicyRequestDetails_revisionId,
 
     -- * ImportAssetsFromLakeFormationTagPolicyResponseDetails
-    ImportAssetsFromLakeFormationTagPolicyResponseDetails,
+    ImportAssetsFromLakeFormationTagPolicyResponseDetails (ImportAssetsFromLakeFormationTagPolicyResponseDetails'),
     newImportAssetsFromLakeFormationTagPolicyResponseDetails,
     importAssetsFromLakeFormationTagPolicyResponseDetails_database,
     importAssetsFromLakeFormationTagPolicyResponseDetails_table,
@@ -320,35 +320,35 @@ module Amazonka.DataExchange.Types
     importAssetsFromLakeFormationTagPolicyResponseDetails_revisionId,
 
     -- * ImportAssetsFromRedshiftDataSharesRequestDetails
-    ImportAssetsFromRedshiftDataSharesRequestDetails,
+    ImportAssetsFromRedshiftDataSharesRequestDetails (ImportAssetsFromRedshiftDataSharesRequestDetails'),
     newImportAssetsFromRedshiftDataSharesRequestDetails,
     importAssetsFromRedshiftDataSharesRequestDetails_assetSources,
     importAssetsFromRedshiftDataSharesRequestDetails_dataSetId,
     importAssetsFromRedshiftDataSharesRequestDetails_revisionId,
 
     -- * ImportAssetsFromRedshiftDataSharesResponseDetails
-    ImportAssetsFromRedshiftDataSharesResponseDetails,
+    ImportAssetsFromRedshiftDataSharesResponseDetails (ImportAssetsFromRedshiftDataSharesResponseDetails'),
     newImportAssetsFromRedshiftDataSharesResponseDetails,
     importAssetsFromRedshiftDataSharesResponseDetails_assetSources,
     importAssetsFromRedshiftDataSharesResponseDetails_dataSetId,
     importAssetsFromRedshiftDataSharesResponseDetails_revisionId,
 
     -- * ImportAssetsFromS3RequestDetails
-    ImportAssetsFromS3RequestDetails,
+    ImportAssetsFromS3RequestDetails (ImportAssetsFromS3RequestDetails'),
     newImportAssetsFromS3RequestDetails,
     importAssetsFromS3RequestDetails_assetSources,
     importAssetsFromS3RequestDetails_dataSetId,
     importAssetsFromS3RequestDetails_revisionId,
 
     -- * ImportAssetsFromS3ResponseDetails
-    ImportAssetsFromS3ResponseDetails,
+    ImportAssetsFromS3ResponseDetails (ImportAssetsFromS3ResponseDetails'),
     newImportAssetsFromS3ResponseDetails,
     importAssetsFromS3ResponseDetails_assetSources,
     importAssetsFromS3ResponseDetails_dataSetId,
     importAssetsFromS3ResponseDetails_revisionId,
 
     -- * JobEntry
-    JobEntry,
+    JobEntry (JobEntry'),
     newJobEntry,
     jobEntry_errors,
     jobEntry_arn,
@@ -360,7 +360,7 @@ module Amazonka.DataExchange.Types
     jobEntry_updatedAt,
 
     -- * JobError
-    JobError,
+    JobError (JobError'),
     newJobError,
     jobError_details,
     jobError_limitName,
@@ -371,26 +371,26 @@ module Amazonka.DataExchange.Types
     jobError_message,
 
     -- * LFResourceDetails
-    LFResourceDetails,
+    LFResourceDetails (LFResourceDetails'),
     newLFResourceDetails,
     lFResourceDetails_database,
     lFResourceDetails_table,
 
     -- * LFTag
-    LFTag,
+    LFTag (LFTag'),
     newLFTag,
     lFTag_tagKey,
     lFTag_tagValues,
 
     -- * LFTagPolicyDetails
-    LFTagPolicyDetails,
+    LFTagPolicyDetails (LFTagPolicyDetails'),
     newLFTagPolicyDetails,
     lFTagPolicyDetails_catalogId,
     lFTagPolicyDetails_resourceType,
     lFTagPolicyDetails_resourceDetails,
 
     -- * LakeFormationDataPermissionAsset
-    LakeFormationDataPermissionAsset,
+    LakeFormationDataPermissionAsset (LakeFormationDataPermissionAsset'),
     newLakeFormationDataPermissionAsset,
     lakeFormationDataPermissionAsset_roleArn,
     lakeFormationDataPermissionAsset_lakeFormationDataPermissionDetails,
@@ -398,27 +398,27 @@ module Amazonka.DataExchange.Types
     lakeFormationDataPermissionAsset_permissions,
 
     -- * LakeFormationDataPermissionDetails
-    LakeFormationDataPermissionDetails,
+    LakeFormationDataPermissionDetails (LakeFormationDataPermissionDetails'),
     newLakeFormationDataPermissionDetails,
     lakeFormationDataPermissionDetails_lFTagPolicy,
 
     -- * OriginDetails
-    OriginDetails,
+    OriginDetails (OriginDetails'),
     newOriginDetails,
     originDetails_productId,
 
     -- * RedshiftDataShareAsset
-    RedshiftDataShareAsset,
+    RedshiftDataShareAsset (RedshiftDataShareAsset'),
     newRedshiftDataShareAsset,
     redshiftDataShareAsset_arn,
 
     -- * RedshiftDataShareAssetSourceEntry
-    RedshiftDataShareAssetSourceEntry,
+    RedshiftDataShareAssetSourceEntry (RedshiftDataShareAssetSourceEntry'),
     newRedshiftDataShareAssetSourceEntry,
     redshiftDataShareAssetSourceEntry_dataShareArn,
 
     -- * RequestDetails
-    RequestDetails,
+    RequestDetails (RequestDetails'),
     newRequestDetails,
     requestDetails_createS3DataAccessFromS3Bucket,
     requestDetails_exportAssetToSignedUrl,
@@ -431,7 +431,7 @@ module Amazonka.DataExchange.Types
     requestDetails_importAssetsFromS3,
 
     -- * ResponseDetails
-    ResponseDetails,
+    ResponseDetails (ResponseDetails'),
     newResponseDetails,
     responseDetails_createS3DataAccessFromS3Bucket,
     responseDetails_exportAssetToSignedUrl,
@@ -444,14 +444,14 @@ module Amazonka.DataExchange.Types
     responseDetails_importAssetsFromS3,
 
     -- * RevisionDestinationEntry
-    RevisionDestinationEntry,
+    RevisionDestinationEntry (RevisionDestinationEntry'),
     newRevisionDestinationEntry,
     revisionDestinationEntry_keyPattern,
     revisionDestinationEntry_bucket,
     revisionDestinationEntry_revisionId,
 
     -- * RevisionEntry
-    RevisionEntry,
+    RevisionEntry (RevisionEntry'),
     newRevisionEntry,
     revisionEntry_comment,
     revisionEntry_finalized,
@@ -466,12 +466,12 @@ module Amazonka.DataExchange.Types
     revisionEntry_updatedAt,
 
     -- * RevisionPublished
-    RevisionPublished,
+    RevisionPublished (RevisionPublished'),
     newRevisionPublished,
     revisionPublished_dataSetId,
 
     -- * S3DataAccessAsset
-    S3DataAccessAsset,
+    S3DataAccessAsset (S3DataAccessAsset'),
     newS3DataAccessAsset,
     s3DataAccessAsset_keyPrefixes,
     s3DataAccessAsset_keys,
@@ -480,24 +480,24 @@ module Amazonka.DataExchange.Types
     s3DataAccessAsset_bucket,
 
     -- * S3DataAccessAssetSourceEntry
-    S3DataAccessAssetSourceEntry,
+    S3DataAccessAssetSourceEntry (S3DataAccessAssetSourceEntry'),
     newS3DataAccessAssetSourceEntry,
     s3DataAccessAssetSourceEntry_keyPrefixes,
     s3DataAccessAssetSourceEntry_keys,
     s3DataAccessAssetSourceEntry_bucket,
 
     -- * S3SnapshotAsset
-    S3SnapshotAsset,
+    S3SnapshotAsset (S3SnapshotAsset'),
     newS3SnapshotAsset,
     s3SnapshotAsset_size,
 
     -- * TableLFTagPolicy
-    TableLFTagPolicy,
+    TableLFTagPolicy (TableLFTagPolicy'),
     newTableLFTagPolicy,
     tableLFTagPolicy_expression,
 
     -- * TableLFTagPolicyAndPermissions
-    TableLFTagPolicyAndPermissions,
+    TableLFTagPolicyAndPermissions (TableLFTagPolicyAndPermissions'),
     newTableLFTagPolicyAndPermissions,
     tableLFTagPolicyAndPermissions_expression,
     tableLFTagPolicyAndPermissions_permissions,

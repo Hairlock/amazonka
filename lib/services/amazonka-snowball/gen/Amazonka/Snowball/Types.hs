@@ -32,46 +32,46 @@ module Amazonka.Snowball.Types
     _UnsupportedAddressException,
 
     -- * ClusterState
-    ClusterState,
+    ClusterState (ClusterState'),
 
     -- * DeviceServiceName
-    DeviceServiceName,
+    DeviceServiceName (DeviceServiceName'),
 
     -- * JobState
-    JobState,
+    JobState (JobState'),
 
     -- * JobType
-    JobType,
+    JobType (JobType'),
 
     -- * LongTermPricingType
-    LongTermPricingType,
+    LongTermPricingType (LongTermPricingType'),
 
     -- * RemoteManagement
-    RemoteManagement,
+    RemoteManagement (RemoteManagement'),
 
     -- * ShipmentState
-    ShipmentState,
+    ShipmentState (ShipmentState'),
 
     -- * ShippingLabelStatus
-    ShippingLabelStatus,
+    ShippingLabelStatus (ShippingLabelStatus'),
 
     -- * ShippingOption
-    ShippingOption,
+    ShippingOption (ShippingOption'),
 
     -- * SnowballCapacity
-    SnowballCapacity,
+    SnowballCapacity (SnowballCapacity'),
 
     -- * SnowballType
-    SnowballType,
+    SnowballType (SnowballType'),
 
     -- * StorageUnit
-    StorageUnit,
+    StorageUnit (StorageUnit'),
 
     -- * TransferOption
-    TransferOption,
+    TransferOption (TransferOption'),
 
     -- * Address
-    Address,
+    Address (Address'),
     newAddress,
     address_addressId,
     address_city,
@@ -89,7 +89,7 @@ module Amazonka.Snowball.Types
     address_street3,
 
     -- * ClusterListEntry
-    ClusterListEntry,
+    ClusterListEntry (ClusterListEntry'),
     newClusterListEntry,
     clusterListEntry_clusterId,
     clusterListEntry_clusterState,
@@ -97,7 +97,7 @@ module Amazonka.Snowball.Types
     clusterListEntry_description,
 
     -- * ClusterMetadata
-    ClusterMetadata,
+    ClusterMetadata (ClusterMetadata'),
     newClusterMetadata,
     clusterMetadata_addressId,
     clusterMetadata_clusterId,
@@ -116,13 +116,13 @@ module Amazonka.Snowball.Types
     clusterMetadata_taxDocuments,
 
     -- * CompatibleImage
-    CompatibleImage,
+    CompatibleImage (CompatibleImage'),
     newCompatibleImage,
     compatibleImage_amiId,
     compatibleImage_name,
 
     -- * DataTransfer
-    DataTransfer,
+    DataTransfer (DataTransfer'),
     newDataTransfer,
     dataTransfer_bytesTransferred,
     dataTransfer_objectsTransferred,
@@ -130,28 +130,28 @@ module Amazonka.Snowball.Types
     dataTransfer_totalObjects,
 
     -- * DeviceConfiguration
-    DeviceConfiguration,
+    DeviceConfiguration (DeviceConfiguration'),
     newDeviceConfiguration,
     deviceConfiguration_snowconeDeviceConfiguration,
 
     -- * Ec2AmiResource
-    Ec2AmiResource,
+    Ec2AmiResource (Ec2AmiResource'),
     newEc2AmiResource,
     ec2AmiResource_snowballAmiId,
     ec2AmiResource_amiId,
 
     -- * EventTriggerDefinition
-    EventTriggerDefinition,
+    EventTriggerDefinition (EventTriggerDefinition'),
     newEventTriggerDefinition,
     eventTriggerDefinition_eventResourceARN,
 
     -- * INDTaxDocuments
-    INDTaxDocuments,
+    INDTaxDocuments (INDTaxDocuments'),
     newINDTaxDocuments,
     iNDTaxDocuments_gstin,
 
     -- * JobListEntry
-    JobListEntry,
+    JobListEntry (JobListEntry'),
     newJobListEntry,
     jobListEntry_creationDate,
     jobListEntry_description,
@@ -162,14 +162,14 @@ module Amazonka.Snowball.Types
     jobListEntry_snowballType,
 
     -- * JobLogs
-    JobLogs,
+    JobLogs (JobLogs'),
     newJobLogs,
     jobLogs_jobCompletionReportURI,
     jobLogs_jobFailureLogURI,
     jobLogs_jobSuccessLogURI,
 
     -- * JobMetadata
-    JobMetadata,
+    JobMetadata (JobMetadata'),
     newJobMetadata,
     jobMetadata_addressId,
     jobMetadata_clusterId,
@@ -195,26 +195,26 @@ module Amazonka.Snowball.Types
     jobMetadata_taxDocuments,
 
     -- * JobResource
-    JobResource,
+    JobResource (JobResource'),
     newJobResource,
     jobResource_ec2AmiResources,
     jobResource_lambdaResources,
     jobResource_s3Resources,
 
     -- * KeyRange
-    KeyRange,
+    KeyRange (KeyRange'),
     newKeyRange,
     keyRange_beginMarker,
     keyRange_endMarker,
 
     -- * LambdaResource
-    LambdaResource,
+    LambdaResource (LambdaResource'),
     newLambdaResource,
     lambdaResource_eventTriggers,
     lambdaResource_lambdaArn,
 
     -- * LongTermPricingListEntry
-    LongTermPricingListEntry,
+    LongTermPricingListEntry (LongTermPricingListEntry'),
     newLongTermPricingListEntry,
     longTermPricingListEntry_currentActiveJob,
     longTermPricingListEntry_isLongTermPricingAutoRenew,
@@ -228,68 +228,68 @@ module Amazonka.Snowball.Types
     longTermPricingListEntry_snowballType,
 
     -- * NFSOnDeviceServiceConfiguration
-    NFSOnDeviceServiceConfiguration,
+    NFSOnDeviceServiceConfiguration (NFSOnDeviceServiceConfiguration'),
     newNFSOnDeviceServiceConfiguration,
     nFSOnDeviceServiceConfiguration_storageLimit,
     nFSOnDeviceServiceConfiguration_storageUnit,
 
     -- * Notification
-    Notification,
+    Notification (Notification'),
     newNotification,
     notification_jobStatesToNotify,
     notification_notifyAll,
     notification_snsTopicARN,
 
     -- * OnDeviceServiceConfiguration
-    OnDeviceServiceConfiguration,
+    OnDeviceServiceConfiguration (OnDeviceServiceConfiguration'),
     newOnDeviceServiceConfiguration,
     onDeviceServiceConfiguration_nFSOnDeviceService,
     onDeviceServiceConfiguration_tGWOnDeviceService,
 
     -- * S3Resource
-    S3Resource,
+    S3Resource (S3Resource'),
     newS3Resource,
     s3Resource_bucketArn,
     s3Resource_keyRange,
     s3Resource_targetOnDeviceServices,
 
     -- * Shipment
-    Shipment,
+    Shipment (Shipment'),
     newShipment,
     shipment_status,
     shipment_trackingNumber,
 
     -- * ShippingDetails
-    ShippingDetails,
+    ShippingDetails (ShippingDetails'),
     newShippingDetails,
     shippingDetails_inboundShipment,
     shippingDetails_outboundShipment,
     shippingDetails_shippingOption,
 
     -- * SnowconeDeviceConfiguration
-    SnowconeDeviceConfiguration,
+    SnowconeDeviceConfiguration (SnowconeDeviceConfiguration'),
     newSnowconeDeviceConfiguration,
     snowconeDeviceConfiguration_wirelessConnection,
 
     -- * TGWOnDeviceServiceConfiguration
-    TGWOnDeviceServiceConfiguration,
+    TGWOnDeviceServiceConfiguration (TGWOnDeviceServiceConfiguration'),
     newTGWOnDeviceServiceConfiguration,
     tGWOnDeviceServiceConfiguration_storageLimit,
     tGWOnDeviceServiceConfiguration_storageUnit,
 
     -- * TargetOnDeviceService
-    TargetOnDeviceService,
+    TargetOnDeviceService (TargetOnDeviceService'),
     newTargetOnDeviceService,
     targetOnDeviceService_serviceName,
     targetOnDeviceService_transferOption,
 
     -- * TaxDocuments
-    TaxDocuments,
+    TaxDocuments (TaxDocuments'),
     newTaxDocuments,
     taxDocuments_ind,
 
     -- * WirelessConnection
-    WirelessConnection,
+    WirelessConnection (WirelessConnection'),
     newWirelessConnection,
     wirelessConnection_isWifiEnabled,
   )

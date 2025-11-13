@@ -39,43 +39,43 @@ module Amazonka.LakeFormation.Types
     _WorkUnitsNotReadyYetException,
 
     -- * ComparisonOperator
-    ComparisonOperator,
+    ComparisonOperator (ComparisonOperator'),
 
     -- * DataLakeResourceType
-    DataLakeResourceType,
+    DataLakeResourceType (DataLakeResourceType'),
 
     -- * FieldNameString
-    FieldNameString,
+    FieldNameString (FieldNameString'),
 
     -- * OptimizerType
-    OptimizerType,
+    OptimizerType (OptimizerType'),
 
     -- * Permission
-    Permission,
+    Permission (Permission'),
 
     -- * PermissionType
-    PermissionType,
+    PermissionType (PermissionType'),
 
     -- * QueryStateString
-    QueryStateString,
+    QueryStateString (QueryStateString'),
 
     -- * ResourceShareType
-    ResourceShareType,
+    ResourceShareType (ResourceShareType'),
 
     -- * ResourceType
-    ResourceType,
+    ResourceType (ResourceType'),
 
     -- * TransactionStatus
-    TransactionStatus,
+    TransactionStatus (TransactionStatus'),
 
     -- * TransactionStatusFilter
-    TransactionStatusFilter,
+    TransactionStatusFilter (TransactionStatusFilter'),
 
     -- * TransactionType
-    TransactionType,
+    TransactionType (TransactionType'),
 
     -- * AddObjectInput
-    AddObjectInput,
+    AddObjectInput (AddObjectInput'),
     newAddObjectInput,
     addObjectInput_partitionValues,
     addObjectInput_uri,
@@ -83,22 +83,22 @@ module Amazonka.LakeFormation.Types
     addObjectInput_size,
 
     -- * AllRowsWildcard
-    AllRowsWildcard,
+    AllRowsWildcard (AllRowsWildcard'),
     newAllRowsWildcard,
 
     -- * AuditContext
-    AuditContext,
+    AuditContext (AuditContext'),
     newAuditContext,
     auditContext_additionalAuditContext,
 
     -- * BatchPermissionsFailureEntry
-    BatchPermissionsFailureEntry,
+    BatchPermissionsFailureEntry (BatchPermissionsFailureEntry'),
     newBatchPermissionsFailureEntry,
     batchPermissionsFailureEntry_error,
     batchPermissionsFailureEntry_requestEntry,
 
     -- * BatchPermissionsRequestEntry
-    BatchPermissionsRequestEntry,
+    BatchPermissionsRequestEntry (BatchPermissionsRequestEntry'),
     newBatchPermissionsRequestEntry,
     batchPermissionsRequestEntry_permissions,
     batchPermissionsRequestEntry_permissionsWithGrantOption,
@@ -107,22 +107,22 @@ module Amazonka.LakeFormation.Types
     batchPermissionsRequestEntry_id,
 
     -- * CatalogResource
-    CatalogResource,
+    CatalogResource (CatalogResource'),
     newCatalogResource,
 
     -- * ColumnLFTag
-    ColumnLFTag,
+    ColumnLFTag (ColumnLFTag'),
     newColumnLFTag,
     columnLFTag_lFTags,
     columnLFTag_name,
 
     -- * ColumnWildcard
-    ColumnWildcard,
+    ColumnWildcard (ColumnWildcard'),
     newColumnWildcard,
     columnWildcard_excludedColumnNames,
 
     -- * DataCellsFilter
-    DataCellsFilter,
+    DataCellsFilter (DataCellsFilter'),
     newDataCellsFilter,
     dataCellsFilter_columnNames,
     dataCellsFilter_columnWildcard,
@@ -133,7 +133,7 @@ module Amazonka.LakeFormation.Types
     dataCellsFilter_name,
 
     -- * DataCellsFilterResource
-    DataCellsFilterResource,
+    DataCellsFilterResource (DataCellsFilterResource'),
     newDataCellsFilterResource,
     dataCellsFilterResource_databaseName,
     dataCellsFilterResource_name,
@@ -141,12 +141,12 @@ module Amazonka.LakeFormation.Types
     dataCellsFilterResource_tableName,
 
     -- * DataLakePrincipal
-    DataLakePrincipal,
+    DataLakePrincipal (DataLakePrincipal'),
     newDataLakePrincipal,
     dataLakePrincipal_dataLakePrincipalIdentifier,
 
     -- * DataLakeSettings
-    DataLakeSettings,
+    DataLakeSettings (DataLakeSettings'),
     newDataLakeSettings,
     dataLakeSettings_allowExternalDataFiltering,
     dataLakeSettings_authorizedSessionTagValueList,
@@ -158,95 +158,95 @@ module Amazonka.LakeFormation.Types
     dataLakeSettings_trustedResourceOwners,
 
     -- * DataLocationResource
-    DataLocationResource,
+    DataLocationResource (DataLocationResource'),
     newDataLocationResource,
     dataLocationResource_catalogId,
     dataLocationResource_resourceArn,
 
     -- * DatabaseResource
-    DatabaseResource,
+    DatabaseResource (DatabaseResource'),
     newDatabaseResource,
     databaseResource_catalogId,
     databaseResource_name,
 
     -- * DeleteObjectInput
-    DeleteObjectInput,
+    DeleteObjectInput (DeleteObjectInput'),
     newDeleteObjectInput,
     deleteObjectInput_eTag,
     deleteObjectInput_partitionValues,
     deleteObjectInput_uri,
 
     -- * DetailsMap
-    DetailsMap,
+    DetailsMap (DetailsMap'),
     newDetailsMap,
     detailsMap_resourceShare,
 
     -- * ErrorDetail
-    ErrorDetail,
+    ErrorDetail (ErrorDetail'),
     newErrorDetail,
     errorDetail_errorCode,
     errorDetail_errorMessage,
 
     -- * ExecutionStatistics
-    ExecutionStatistics,
+    ExecutionStatistics (ExecutionStatistics'),
     newExecutionStatistics,
     executionStatistics_averageExecutionTimeMillis,
     executionStatistics_dataScannedBytes,
     executionStatistics_workUnitsExecutedCount,
 
     -- * FilterCondition
-    FilterCondition,
+    FilterCondition (FilterCondition'),
     newFilterCondition,
     filterCondition_comparisonOperator,
     filterCondition_field,
     filterCondition_stringValueList,
 
     -- * LFTag
-    LFTag,
+    LFTag (LFTag'),
     newLFTag,
     lFTag_tagKey,
     lFTag_tagValues,
 
     -- * LFTagError
-    LFTagError,
+    LFTagError (LFTagError'),
     newLFTagError,
     lFTagError_error,
     lFTagError_lFTag,
 
     -- * LFTagKeyResource
-    LFTagKeyResource,
+    LFTagKeyResource (LFTagKeyResource'),
     newLFTagKeyResource,
     lFTagKeyResource_catalogId,
     lFTagKeyResource_tagKey,
     lFTagKeyResource_tagValues,
 
     -- * LFTagPair
-    LFTagPair,
+    LFTagPair (LFTagPair'),
     newLFTagPair,
     lFTagPair_catalogId,
     lFTagPair_tagKey,
     lFTagPair_tagValues,
 
     -- * LFTagPolicyResource
-    LFTagPolicyResource,
+    LFTagPolicyResource (LFTagPolicyResource'),
     newLFTagPolicyResource,
     lFTagPolicyResource_catalogId,
     lFTagPolicyResource_resourceType,
     lFTagPolicyResource_expression,
 
     -- * PartitionObjects
-    PartitionObjects,
+    PartitionObjects (PartitionObjects'),
     newPartitionObjects,
     partitionObjects_objects,
     partitionObjects_partitionValues,
 
     -- * PartitionValueList
-    PartitionValueList,
+    PartitionValueList (PartitionValueList'),
     newPartitionValueList,
     partitionValueList_values,
 
     -- * PlanningStatistics
-    PlanningStatistics,
+    PlanningStatistics (PlanningStatistics'),
     newPlanningStatistics,
     planningStatistics_estimatedDataToScanBytes,
     planningStatistics_planningTimeMillis,
@@ -254,13 +254,13 @@ module Amazonka.LakeFormation.Types
     planningStatistics_workUnitsGeneratedCount,
 
     -- * PrincipalPermissions
-    PrincipalPermissions,
+    PrincipalPermissions (PrincipalPermissions'),
     newPrincipalPermissions,
     principalPermissions_permissions,
     principalPermissions_principal,
 
     -- * PrincipalResourcePermissions
-    PrincipalResourcePermissions,
+    PrincipalResourcePermissions (PrincipalResourcePermissions'),
     newPrincipalResourcePermissions,
     principalResourcePermissions_additionalDetails,
     principalResourcePermissions_permissions,
@@ -269,7 +269,7 @@ module Amazonka.LakeFormation.Types
     principalResourcePermissions_resource,
 
     -- * QueryPlanningContext
-    QueryPlanningContext,
+    QueryPlanningContext (QueryPlanningContext'),
     newQueryPlanningContext,
     queryPlanningContext_catalogId,
     queryPlanningContext_queryAsOfTime,
@@ -278,7 +278,7 @@ module Amazonka.LakeFormation.Types
     queryPlanningContext_databaseName,
 
     -- * Resource
-    Resource,
+    Resource (Resource'),
     newResource,
     resource_catalog,
     resource_dataCellsFilter,
@@ -290,20 +290,20 @@ module Amazonka.LakeFormation.Types
     resource_tableWithColumns,
 
     -- * ResourceInfo
-    ResourceInfo,
+    ResourceInfo (ResourceInfo'),
     newResourceInfo,
     resourceInfo_lastModified,
     resourceInfo_resourceArn,
     resourceInfo_roleArn,
 
     -- * RowFilter
-    RowFilter,
+    RowFilter (RowFilter'),
     newRowFilter,
     rowFilter_allRowsWildcard,
     rowFilter_filterExpression,
 
     -- * StorageOptimizer
-    StorageOptimizer,
+    StorageOptimizer (StorageOptimizer'),
     newStorageOptimizer,
     storageOptimizer_config,
     storageOptimizer_errorMessage,
@@ -312,14 +312,14 @@ module Amazonka.LakeFormation.Types
     storageOptimizer_warnings,
 
     -- * TableObject
-    TableObject,
+    TableObject (TableObject'),
     newTableObject,
     tableObject_eTag,
     tableObject_size,
     tableObject_uri,
 
     -- * TableResource
-    TableResource,
+    TableResource (TableResource'),
     newTableResource,
     tableResource_catalogId,
     tableResource_name,
@@ -327,11 +327,11 @@ module Amazonka.LakeFormation.Types
     tableResource_databaseName,
 
     -- * TableWildcard
-    TableWildcard,
+    TableWildcard (TableWildcard'),
     newTableWildcard,
 
     -- * TableWithColumnsResource
-    TableWithColumnsResource,
+    TableWithColumnsResource (TableWithColumnsResource'),
     newTableWithColumnsResource,
     tableWithColumnsResource_catalogId,
     tableWithColumnsResource_columnNames,
@@ -340,13 +340,13 @@ module Amazonka.LakeFormation.Types
     tableWithColumnsResource_name,
 
     -- * TaggedDatabase
-    TaggedDatabase,
+    TaggedDatabase (TaggedDatabase'),
     newTaggedDatabase,
     taggedDatabase_database,
     taggedDatabase_lFTags,
 
     -- * TaggedTable
-    TaggedTable,
+    TaggedTable (TaggedTable'),
     newTaggedTable,
     taggedTable_lFTagOnDatabase,
     taggedTable_lFTagsOnColumns,
@@ -354,7 +354,7 @@ module Amazonka.LakeFormation.Types
     taggedTable_table,
 
     -- * TransactionDescription
-    TransactionDescription,
+    TransactionDescription (TransactionDescription'),
     newTransactionDescription,
     transactionDescription_transactionEndTime,
     transactionDescription_transactionId,
@@ -362,20 +362,20 @@ module Amazonka.LakeFormation.Types
     transactionDescription_transactionStatus,
 
     -- * VirtualObject
-    VirtualObject,
+    VirtualObject (VirtualObject'),
     newVirtualObject,
     virtualObject_eTag,
     virtualObject_uri,
 
     -- * WorkUnitRange
-    WorkUnitRange,
+    WorkUnitRange (WorkUnitRange'),
     newWorkUnitRange,
     workUnitRange_workUnitIdMax,
     workUnitRange_workUnitIdMin,
     workUnitRange_workUnitToken,
 
     -- * WriteOperation
-    WriteOperation,
+    WriteOperation (WriteOperation'),
     newWriteOperation,
     writeOperation_addObject,
     writeOperation_deleteObject,

@@ -29,94 +29,94 @@ module Amazonka.MGN.Types
     _ValidationException,
 
     -- * ApplicationHealthStatus
-    ApplicationHealthStatus,
+    ApplicationHealthStatus (ApplicationHealthStatus'),
 
     -- * ApplicationProgressStatus
-    ApplicationProgressStatus,
+    ApplicationProgressStatus (ApplicationProgressStatus'),
 
     -- * BootMode
-    BootMode,
+    BootMode (BootMode'),
 
     -- * ChangeServerLifeCycleStateSourceServerLifecycleState
-    ChangeServerLifeCycleStateSourceServerLifecycleState,
+    ChangeServerLifeCycleStateSourceServerLifecycleState (ChangeServerLifeCycleStateSourceServerLifecycleState'),
 
     -- * DataReplicationErrorString
-    DataReplicationErrorString,
+    DataReplicationErrorString (DataReplicationErrorString'),
 
     -- * DataReplicationInitiationStepName
-    DataReplicationInitiationStepName,
+    DataReplicationInitiationStepName (DataReplicationInitiationStepName'),
 
     -- * DataReplicationInitiationStepStatus
-    DataReplicationInitiationStepStatus,
+    DataReplicationInitiationStepStatus (DataReplicationInitiationStepStatus'),
 
     -- * DataReplicationState
-    DataReplicationState,
+    DataReplicationState (DataReplicationState'),
 
     -- * FirstBoot
-    FirstBoot,
+    FirstBoot (FirstBoot'),
 
     -- * InitiatedBy
-    InitiatedBy,
+    InitiatedBy (InitiatedBy'),
 
     -- * JobLogEvent
-    JobLogEvent,
+    JobLogEvent (JobLogEvent'),
 
     -- * JobStatus
-    JobStatus,
+    JobStatus (JobStatus'),
 
     -- * JobType
-    JobType,
+    JobType (JobType'),
 
     -- * LaunchDisposition
-    LaunchDisposition,
+    LaunchDisposition (LaunchDisposition'),
 
     -- * LaunchStatus
-    LaunchStatus,
+    LaunchStatus (LaunchStatus'),
 
     -- * LifeCycleState
-    LifeCycleState,
+    LifeCycleState (LifeCycleState'),
 
     -- * PostLaunchActionExecutionStatus
-    PostLaunchActionExecutionStatus,
+    PostLaunchActionExecutionStatus (PostLaunchActionExecutionStatus'),
 
     -- * PostLaunchActionsDeploymentType
-    PostLaunchActionsDeploymentType,
+    PostLaunchActionsDeploymentType (PostLaunchActionsDeploymentType'),
 
     -- * ReplicationConfigurationDataPlaneRouting
-    ReplicationConfigurationDataPlaneRouting,
+    ReplicationConfigurationDataPlaneRouting (ReplicationConfigurationDataPlaneRouting'),
 
     -- * ReplicationConfigurationDefaultLargeStagingDiskType
-    ReplicationConfigurationDefaultLargeStagingDiskType,
+    ReplicationConfigurationDefaultLargeStagingDiskType (ReplicationConfigurationDefaultLargeStagingDiskType'),
 
     -- * ReplicationConfigurationEbsEncryption
-    ReplicationConfigurationEbsEncryption,
+    ReplicationConfigurationEbsEncryption (ReplicationConfigurationEbsEncryption'),
 
     -- * ReplicationConfigurationReplicatedDiskStagingDiskType
-    ReplicationConfigurationReplicatedDiskStagingDiskType,
+    ReplicationConfigurationReplicatedDiskStagingDiskType (ReplicationConfigurationReplicatedDiskStagingDiskType'),
 
     -- * ReplicationType
-    ReplicationType,
+    ReplicationType (ReplicationType'),
 
     -- * SsmDocumentType
-    SsmDocumentType,
+    SsmDocumentType (SsmDocumentType'),
 
     -- * SsmParameterStoreParameterType
-    SsmParameterStoreParameterType,
+    SsmParameterStoreParameterType (SsmParameterStoreParameterType'),
 
     -- * TargetInstanceTypeRightSizingMethod
-    TargetInstanceTypeRightSizingMethod,
+    TargetInstanceTypeRightSizingMethod (TargetInstanceTypeRightSizingMethod'),
 
     -- * VolumeType
-    VolumeType,
+    VolumeType (VolumeType'),
 
     -- * WaveHealthStatus
-    WaveHealthStatus,
+    WaveHealthStatus (WaveHealthStatus'),
 
     -- * WaveProgressStatus
-    WaveProgressStatus,
+    WaveProgressStatus (WaveProgressStatus'),
 
     -- * Application
-    Application,
+    Application (Application'),
     newApplication,
     application_applicationAggregatedStatus,
     application_applicationID,
@@ -130,7 +130,7 @@ module Amazonka.MGN.Types
     application_waveID,
 
     -- * ApplicationAggregatedStatus
-    ApplicationAggregatedStatus,
+    ApplicationAggregatedStatus (ApplicationAggregatedStatus'),
     newApplicationAggregatedStatus,
     applicationAggregatedStatus_healthStatus,
     applicationAggregatedStatus_lastUpdateDateTime,
@@ -138,24 +138,24 @@ module Amazonka.MGN.Types
     applicationAggregatedStatus_totalSourceServers,
 
     -- * CPU
-    CPU,
+    CPU (CPU'),
     newCPU,
     cpu_cores,
     cpu_modelName,
 
     -- * ChangeServerLifeCycleStateSourceServerLifecycle
-    ChangeServerLifeCycleStateSourceServerLifecycle,
+    ChangeServerLifeCycleStateSourceServerLifecycle (ChangeServerLifeCycleStateSourceServerLifecycle'),
     newChangeServerLifeCycleStateSourceServerLifecycle,
     changeServerLifeCycleStateSourceServerLifecycle_state,
 
     -- * DataReplicationError
-    DataReplicationError,
+    DataReplicationError (DataReplicationError'),
     newDataReplicationError,
     dataReplicationError_error,
     dataReplicationError_rawError,
 
     -- * DataReplicationInfo
-    DataReplicationInfo,
+    DataReplicationInfo (DataReplicationInfo'),
     newDataReplicationInfo,
     dataReplicationInfo_dataReplicationError,
     dataReplicationInfo_dataReplicationInitiation,
@@ -166,7 +166,7 @@ module Amazonka.MGN.Types
     dataReplicationInfo_replicatedDisks,
 
     -- * DataReplicationInfoReplicatedDisk
-    DataReplicationInfoReplicatedDisk,
+    DataReplicationInfoReplicatedDisk (DataReplicationInfoReplicatedDisk'),
     newDataReplicationInfoReplicatedDisk,
     dataReplicationInfoReplicatedDisk_backloggedStorageBytes,
     dataReplicationInfoReplicatedDisk_deviceName,
@@ -175,27 +175,27 @@ module Amazonka.MGN.Types
     dataReplicationInfoReplicatedDisk_totalStorageBytes,
 
     -- * DataReplicationInitiation
-    DataReplicationInitiation,
+    DataReplicationInitiation (DataReplicationInitiation'),
     newDataReplicationInitiation,
     dataReplicationInitiation_nextAttemptDateTime,
     dataReplicationInitiation_startDateTime,
     dataReplicationInitiation_steps,
 
     -- * DataReplicationInitiationStep
-    DataReplicationInitiationStep,
+    DataReplicationInitiationStep (DataReplicationInitiationStep'),
     newDataReplicationInitiationStep,
     dataReplicationInitiationStep_name,
     dataReplicationInitiationStep_status,
 
     -- * DescribeJobsRequestFilters
-    DescribeJobsRequestFilters,
+    DescribeJobsRequestFilters (DescribeJobsRequestFilters'),
     newDescribeJobsRequestFilters,
     describeJobsRequestFilters_fromDate,
     describeJobsRequestFilters_jobIDs,
     describeJobsRequestFilters_toDate,
 
     -- * DescribeSourceServersRequestFilters
-    DescribeSourceServersRequestFilters,
+    DescribeSourceServersRequestFilters (DescribeSourceServersRequestFilters'),
     newDescribeSourceServersRequestFilters,
     describeSourceServersRequestFilters_applicationIDs,
     describeSourceServersRequestFilters_isArchived,
@@ -204,13 +204,13 @@ module Amazonka.MGN.Types
     describeSourceServersRequestFilters_sourceServerIDs,
 
     -- * Disk
-    Disk,
+    Disk (Disk'),
     newDisk,
     disk_bytes,
     disk_deviceName,
 
     -- * IdentificationHints
-    IdentificationHints,
+    IdentificationHints (IdentificationHints'),
     newIdentificationHints,
     identificationHints_awsInstanceID,
     identificationHints_fqdn,
@@ -219,7 +219,7 @@ module Amazonka.MGN.Types
     identificationHints_vmWareUuid,
 
     -- * Job
-    Job,
+    Job (Job'),
     newJob,
     job_arn,
     job_creationDateTime,
@@ -232,14 +232,14 @@ module Amazonka.MGN.Types
     job_jobID,
 
     -- * JobLog
-    JobLog,
+    JobLog (JobLog'),
     newJobLog,
     jobLog_event,
     jobLog_eventData,
     jobLog_logDateTime,
 
     -- * JobLogEventData
-    JobLogEventData,
+    JobLogEventData (JobLogEventData'),
     newJobLogEventData,
     jobLogEventData_conversionServerID,
     jobLogEventData_rawError,
@@ -247,7 +247,7 @@ module Amazonka.MGN.Types
     jobLogEventData_targetInstanceID,
 
     -- * JobPostLaunchActionsLaunchStatus
-    JobPostLaunchActionsLaunchStatus,
+    JobPostLaunchActionsLaunchStatus (JobPostLaunchActionsLaunchStatus'),
     newJobPostLaunchActionsLaunchStatus,
     jobPostLaunchActionsLaunchStatus_executionID,
     jobPostLaunchActionsLaunchStatus_executionStatus,
@@ -256,7 +256,7 @@ module Amazonka.MGN.Types
     jobPostLaunchActionsLaunchStatus_ssmDocumentType,
 
     -- * LaunchConfiguration
-    LaunchConfiguration,
+    LaunchConfiguration (LaunchConfiguration'),
     newLaunchConfiguration,
     launchConfiguration_bootMode,
     launchConfiguration_copyPrivateIp,
@@ -272,7 +272,7 @@ module Amazonka.MGN.Types
     launchConfiguration_targetInstanceTypeRightSizingMethod,
 
     -- * LaunchConfigurationTemplate
-    LaunchConfigurationTemplate,
+    LaunchConfigurationTemplate (LaunchConfigurationTemplate'),
     newLaunchConfigurationTemplate,
     launchConfigurationTemplate_arn,
     launchConfigurationTemplate_associatePublicIpAddress,
@@ -293,26 +293,26 @@ module Amazonka.MGN.Types
     launchConfigurationTemplate_launchConfigurationTemplateID,
 
     -- * LaunchTemplateDiskConf
-    LaunchTemplateDiskConf,
+    LaunchTemplateDiskConf (LaunchTemplateDiskConf'),
     newLaunchTemplateDiskConf,
     launchTemplateDiskConf_iops,
     launchTemplateDiskConf_throughput,
     launchTemplateDiskConf_volumeType,
 
     -- * LaunchedInstance
-    LaunchedInstance,
+    LaunchedInstance (LaunchedInstance'),
     newLaunchedInstance,
     launchedInstance_ec2InstanceID,
     launchedInstance_firstBoot,
     launchedInstance_jobID,
 
     -- * Licensing
-    Licensing,
+    Licensing (Licensing'),
     newLicensing,
     licensing_osByol,
 
     -- * LifeCycle
-    LifeCycle,
+    LifeCycle (LifeCycle'),
     newLifeCycle,
     lifeCycle_addedToServiceDateTime,
     lifeCycle_elapsedReplicationDuration,
@@ -323,78 +323,78 @@ module Amazonka.MGN.Types
     lifeCycle_state,
 
     -- * LifeCycleLastCutover
-    LifeCycleLastCutover,
+    LifeCycleLastCutover (LifeCycleLastCutover'),
     newLifeCycleLastCutover,
     lifeCycleLastCutover_finalized,
     lifeCycleLastCutover_initiated,
     lifeCycleLastCutover_reverted,
 
     -- * LifeCycleLastCutoverFinalized
-    LifeCycleLastCutoverFinalized,
+    LifeCycleLastCutoverFinalized (LifeCycleLastCutoverFinalized'),
     newLifeCycleLastCutoverFinalized,
     lifeCycleLastCutoverFinalized_apiCallDateTime,
 
     -- * LifeCycleLastCutoverInitiated
-    LifeCycleLastCutoverInitiated,
+    LifeCycleLastCutoverInitiated (LifeCycleLastCutoverInitiated'),
     newLifeCycleLastCutoverInitiated,
     lifeCycleLastCutoverInitiated_apiCallDateTime,
     lifeCycleLastCutoverInitiated_jobID,
 
     -- * LifeCycleLastCutoverReverted
-    LifeCycleLastCutoverReverted,
+    LifeCycleLastCutoverReverted (LifeCycleLastCutoverReverted'),
     newLifeCycleLastCutoverReverted,
     lifeCycleLastCutoverReverted_apiCallDateTime,
 
     -- * LifeCycleLastTest
-    LifeCycleLastTest,
+    LifeCycleLastTest (LifeCycleLastTest'),
     newLifeCycleLastTest,
     lifeCycleLastTest_finalized,
     lifeCycleLastTest_initiated,
     lifeCycleLastTest_reverted,
 
     -- * LifeCycleLastTestFinalized
-    LifeCycleLastTestFinalized,
+    LifeCycleLastTestFinalized (LifeCycleLastTestFinalized'),
     newLifeCycleLastTestFinalized,
     lifeCycleLastTestFinalized_apiCallDateTime,
 
     -- * LifeCycleLastTestInitiated
-    LifeCycleLastTestInitiated,
+    LifeCycleLastTestInitiated (LifeCycleLastTestInitiated'),
     newLifeCycleLastTestInitiated,
     lifeCycleLastTestInitiated_apiCallDateTime,
     lifeCycleLastTestInitiated_jobID,
 
     -- * LifeCycleLastTestReverted
-    LifeCycleLastTestReverted,
+    LifeCycleLastTestReverted (LifeCycleLastTestReverted'),
     newLifeCycleLastTestReverted,
     lifeCycleLastTestReverted_apiCallDateTime,
 
     -- * ListApplicationsRequestFilters
-    ListApplicationsRequestFilters,
+    ListApplicationsRequestFilters (ListApplicationsRequestFilters'),
     newListApplicationsRequestFilters,
     listApplicationsRequestFilters_applicationIDs,
     listApplicationsRequestFilters_isArchived,
     listApplicationsRequestFilters_waveIDs,
 
     -- * ListWavesRequestFilters
-    ListWavesRequestFilters,
+    ListWavesRequestFilters (ListWavesRequestFilters'),
     newListWavesRequestFilters,
     listWavesRequestFilters_isArchived,
     listWavesRequestFilters_waveIDs,
 
     -- * NetworkInterface
-    NetworkInterface,
+    NetworkInterface (NetworkInterface'),
     newNetworkInterface,
     networkInterface_ips,
     networkInterface_isPrimary,
     networkInterface_macAddress,
 
     -- * OS
-    OS,
+    OS (OS'),
     newOS,
     os_fullString,
 
     -- * ParticipatingServer
-    ParticipatingServer,
+    ParticipatingServer (ParticipatingServer'),
     newParticipatingServer,
     participatingServer_launchStatus,
     participatingServer_launchedEc2InstanceID,
@@ -402,7 +402,7 @@ module Amazonka.MGN.Types
     participatingServer_sourceServerID,
 
     -- * PostLaunchActions
-    PostLaunchActions,
+    PostLaunchActions (PostLaunchActions'),
     newPostLaunchActions,
     postLaunchActions_cloudWatchLogGroupName,
     postLaunchActions_deployment,
@@ -411,13 +411,13 @@ module Amazonka.MGN.Types
     postLaunchActions_ssmDocuments,
 
     -- * PostLaunchActionsStatus
-    PostLaunchActionsStatus,
+    PostLaunchActionsStatus (PostLaunchActionsStatus'),
     newPostLaunchActionsStatus,
     postLaunchActionsStatus_postLaunchActionsLaunchStatusList,
     postLaunchActionsStatus_ssmAgentDiscoveryDatetime,
 
     -- * ReplicationConfiguration
-    ReplicationConfiguration,
+    ReplicationConfiguration (ReplicationConfiguration'),
     newReplicationConfiguration,
     replicationConfiguration_associateDefaultSecurityGroup,
     replicationConfiguration_bandwidthThrottling,
@@ -436,7 +436,7 @@ module Amazonka.MGN.Types
     replicationConfiguration_useDedicatedReplicationServer,
 
     -- * ReplicationConfigurationReplicatedDisk
-    ReplicationConfigurationReplicatedDisk,
+    ReplicationConfigurationReplicatedDisk (ReplicationConfigurationReplicatedDisk'),
     newReplicationConfigurationReplicatedDisk,
     replicationConfigurationReplicatedDisk_deviceName,
     replicationConfigurationReplicatedDisk_iops,
@@ -445,7 +445,7 @@ module Amazonka.MGN.Types
     replicationConfigurationReplicatedDisk_throughput,
 
     -- * ReplicationConfigurationTemplate
-    ReplicationConfigurationTemplate,
+    ReplicationConfigurationTemplate (ReplicationConfigurationTemplate'),
     newReplicationConfigurationTemplate,
     replicationConfigurationTemplate_arn,
     replicationConfigurationTemplate_associateDefaultSecurityGroup,
@@ -464,7 +464,7 @@ module Amazonka.MGN.Types
     replicationConfigurationTemplate_replicationConfigurationTemplateID,
 
     -- * SourceProperties
-    SourceProperties,
+    SourceProperties (SourceProperties'),
     newSourceProperties,
     sourceProperties_cpus,
     sourceProperties_disks,
@@ -476,7 +476,7 @@ module Amazonka.MGN.Types
     sourceProperties_recommendedInstanceType,
 
     -- * SourceServer
-    SourceServer,
+    SourceServer (SourceServer'),
     newSourceServer,
     sourceServer_applicationID,
     sourceServer_arn,
@@ -491,7 +491,7 @@ module Amazonka.MGN.Types
     sourceServer_vcenterClientID,
 
     -- * SourceServerActionDocument
-    SourceServerActionDocument,
+    SourceServerActionDocument (SourceServerActionDocument'),
     newSourceServerActionDocument,
     sourceServerActionDocument_actionID,
     sourceServerActionDocument_actionName,
@@ -504,12 +504,12 @@ module Amazonka.MGN.Types
     sourceServerActionDocument_timeoutSeconds,
 
     -- * SourceServerActionsRequestFilters
-    SourceServerActionsRequestFilters,
+    SourceServerActionsRequestFilters (SourceServerActionsRequestFilters'),
     newSourceServerActionsRequestFilters,
     sourceServerActionsRequestFilters_actionIDs,
 
     -- * SsmDocument
-    SsmDocument,
+    SsmDocument (SsmDocument'),
     newSsmDocument,
     ssmDocument_mustSucceedForCutover,
     ssmDocument_parameters,
@@ -518,13 +518,13 @@ module Amazonka.MGN.Types
     ssmDocument_ssmDocumentName,
 
     -- * SsmParameterStoreParameter
-    SsmParameterStoreParameter,
+    SsmParameterStoreParameter (SsmParameterStoreParameter'),
     newSsmParameterStoreParameter,
     ssmParameterStoreParameter_parameterName,
     ssmParameterStoreParameter_parameterType,
 
     -- * TemplateActionDocument
-    TemplateActionDocument,
+    TemplateActionDocument (TemplateActionDocument'),
     newTemplateActionDocument,
     templateActionDocument_actionID,
     templateActionDocument_actionName,
@@ -538,12 +538,12 @@ module Amazonka.MGN.Types
     templateActionDocument_timeoutSeconds,
 
     -- * TemplateActionsRequestFilters
-    TemplateActionsRequestFilters,
+    TemplateActionsRequestFilters (TemplateActionsRequestFilters'),
     newTemplateActionsRequestFilters,
     templateActionsRequestFilters_actionIDs,
 
     -- * VcenterClient
-    VcenterClient,
+    VcenterClient (VcenterClient'),
     newVcenterClient,
     vcenterClient_arn,
     vcenterClient_datacenterName,
@@ -555,7 +555,7 @@ module Amazonka.MGN.Types
     vcenterClient_vcenterUUID,
 
     -- * Wave
-    Wave,
+    Wave (Wave'),
     newWave,
     wave_arn,
     wave_creationDateTime,
@@ -568,7 +568,7 @@ module Amazonka.MGN.Types
     wave_waveID,
 
     -- * WaveAggregatedStatus
-    WaveAggregatedStatus,
+    WaveAggregatedStatus (WaveAggregatedStatus'),
     newWaveAggregatedStatus,
     waveAggregatedStatus_healthStatus,
     waveAggregatedStatus_lastUpdateDateTime,

@@ -33,28 +33,28 @@ module Amazonka.SecretsManager.Types
     _ResourceNotFoundException,
 
     -- * FilterNameStringType
-    FilterNameStringType,
+    FilterNameStringType (FilterNameStringType'),
 
     -- * SortOrderType
-    SortOrderType,
+    SortOrderType (SortOrderType'),
 
     -- * StatusType
-    StatusType,
+    StatusType (StatusType'),
 
     -- * Filter
-    Filter,
+    Filter (Filter'),
     newFilter,
     filter_key,
     filter_values,
 
     -- * ReplicaRegionType
-    ReplicaRegionType,
+    ReplicaRegionType (ReplicaRegionType'),
     newReplicaRegionType,
     replicaRegionType_kmsKeyId,
     replicaRegionType_region,
 
     -- * ReplicationStatusType
-    ReplicationStatusType,
+    ReplicationStatusType (ReplicationStatusType'),
     newReplicationStatusType,
     replicationStatusType_kmsKeyId,
     replicationStatusType_lastAccessedDate,
@@ -63,14 +63,14 @@ module Amazonka.SecretsManager.Types
     replicationStatusType_statusMessage,
 
     -- * RotationRulesType
-    RotationRulesType,
+    RotationRulesType (RotationRulesType'),
     newRotationRulesType,
     rotationRulesType_automaticallyAfterDays,
     rotationRulesType_duration,
     rotationRulesType_scheduleExpression,
 
     -- * SecretListEntry
-    SecretListEntry,
+    SecretListEntry (SecretListEntry'),
     newSecretListEntry,
     secretListEntry_arn,
     secretListEntry_createdDate,
@@ -91,7 +91,7 @@ module Amazonka.SecretsManager.Types
     secretListEntry_tags,
 
     -- * SecretVersionsListEntry
-    SecretVersionsListEntry,
+    SecretVersionsListEntry (SecretVersionsListEntry'),
     newSecretVersionsListEntry,
     secretVersionsListEntry_createdDate,
     secretVersionsListEntry_kmsKeyIds,
@@ -100,13 +100,13 @@ module Amazonka.SecretsManager.Types
     secretVersionsListEntry_versionStages,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
 
     -- * ValidationErrorsEntry
-    ValidationErrorsEntry,
+    ValidationErrorsEntry (ValidationErrorsEntry'),
     newValidationErrorsEntry,
     validationErrorsEntry_checkName,
     validationErrorsEntry_errorMessage,

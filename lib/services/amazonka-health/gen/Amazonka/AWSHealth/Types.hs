@@ -24,22 +24,22 @@ module Amazonka.AWSHealth.Types
     _UnsupportedLocale,
 
     -- * EntityStatusCode
-    EntityStatusCode,
+    EntityStatusCode (EntityStatusCode'),
 
     -- * EventAggregateField
-    EventAggregateField,
+    EventAggregateField (EventAggregateField'),
 
     -- * EventScopeCode
-    EventScopeCode,
+    EventScopeCode (EventScopeCode'),
 
     -- * EventStatusCode
-    EventStatusCode,
+    EventStatusCode (EventStatusCode'),
 
     -- * EventTypeCategory
-    EventTypeCategory,
+    EventTypeCategory (EventTypeCategory'),
 
     -- * AffectedEntity
-    AffectedEntity,
+    AffectedEntity (AffectedEntity'),
     newAffectedEntity,
     affectedEntity_awsAccountId,
     affectedEntity_entityArn,
@@ -51,19 +51,19 @@ module Amazonka.AWSHealth.Types
     affectedEntity_tags,
 
     -- * DateTimeRange
-    DateTimeRange,
+    DateTimeRange (DateTimeRange'),
     newDateTimeRange,
     dateTimeRange_from,
     dateTimeRange_to,
 
     -- * EntityAggregate
-    EntityAggregate,
+    EntityAggregate (EntityAggregate'),
     newEntityAggregate,
     entityAggregate_count,
     entityAggregate_eventArn,
 
     -- * EntityFilter
-    EntityFilter,
+    EntityFilter (EntityFilter'),
     newEntityFilter,
     entityFilter_entityArns,
     entityFilter_entityValues,
@@ -73,7 +73,7 @@ module Amazonka.AWSHealth.Types
     entityFilter_eventArns,
 
     -- * Event
-    Event,
+    Event (Event'),
     newEvent,
     event_arn,
     event_availabilityZone,
@@ -88,38 +88,38 @@ module Amazonka.AWSHealth.Types
     event_statusCode,
 
     -- * EventAccountFilter
-    EventAccountFilter,
+    EventAccountFilter (EventAccountFilter'),
     newEventAccountFilter,
     eventAccountFilter_awsAccountId,
     eventAccountFilter_eventArn,
 
     -- * EventAggregate
-    EventAggregate,
+    EventAggregate (EventAggregate'),
     newEventAggregate,
     eventAggregate_aggregateValue,
     eventAggregate_count,
 
     -- * EventDescription
-    EventDescription,
+    EventDescription (EventDescription'),
     newEventDescription,
     eventDescription_latestDescription,
 
     -- * EventDetails
-    EventDetails,
+    EventDetails (EventDetails'),
     newEventDetails,
     eventDetails_event,
     eventDetails_eventDescription,
     eventDetails_eventMetadata,
 
     -- * EventDetailsErrorItem
-    EventDetailsErrorItem,
+    EventDetailsErrorItem (EventDetailsErrorItem'),
     newEventDetailsErrorItem,
     eventDetailsErrorItem_errorMessage,
     eventDetailsErrorItem_errorName,
     eventDetailsErrorItem_eventArn,
 
     -- * EventFilter
-    EventFilter,
+    EventFilter (EventFilter'),
     newEventFilter,
     eventFilter_availabilityZones,
     eventFilter_endTimes,
@@ -136,21 +136,21 @@ module Amazonka.AWSHealth.Types
     eventFilter_tags,
 
     -- * EventType
-    EventType,
+    EventType (EventType'),
     newEventType,
     eventType_category,
     eventType_code,
     eventType_service,
 
     -- * EventTypeFilter
-    EventTypeFilter,
+    EventTypeFilter (EventTypeFilter'),
     newEventTypeFilter,
     eventTypeFilter_eventTypeCategories,
     eventTypeFilter_eventTypeCodes,
     eventTypeFilter_services,
 
     -- * OrganizationAffectedEntitiesErrorItem
-    OrganizationAffectedEntitiesErrorItem,
+    OrganizationAffectedEntitiesErrorItem (OrganizationAffectedEntitiesErrorItem'),
     newOrganizationAffectedEntitiesErrorItem,
     organizationAffectedEntitiesErrorItem_awsAccountId,
     organizationAffectedEntitiesErrorItem_errorMessage,
@@ -158,7 +158,7 @@ module Amazonka.AWSHealth.Types
     organizationAffectedEntitiesErrorItem_eventArn,
 
     -- * OrganizationEvent
-    OrganizationEvent,
+    OrganizationEvent (OrganizationEvent'),
     newOrganizationEvent,
     organizationEvent_arn,
     organizationEvent_endTime,
@@ -172,7 +172,7 @@ module Amazonka.AWSHealth.Types
     organizationEvent_statusCode,
 
     -- * OrganizationEventDetails
-    OrganizationEventDetails,
+    OrganizationEventDetails (OrganizationEventDetails'),
     newOrganizationEventDetails,
     organizationEventDetails_awsAccountId,
     organizationEventDetails_event,
@@ -180,7 +180,7 @@ module Amazonka.AWSHealth.Types
     organizationEventDetails_eventMetadata,
 
     -- * OrganizationEventDetailsErrorItem
-    OrganizationEventDetailsErrorItem,
+    OrganizationEventDetailsErrorItem (OrganizationEventDetailsErrorItem'),
     newOrganizationEventDetailsErrorItem,
     organizationEventDetailsErrorItem_awsAccountId,
     organizationEventDetailsErrorItem_errorMessage,
@@ -188,7 +188,7 @@ module Amazonka.AWSHealth.Types
     organizationEventDetailsErrorItem_eventArn,
 
     -- * OrganizationEventFilter
-    OrganizationEventFilter,
+    OrganizationEventFilter (OrganizationEventFilter'),
     newOrganizationEventFilter,
     organizationEventFilter_awsAccountIds,
     organizationEventFilter_endTime,

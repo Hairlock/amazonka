@@ -27,99 +27,99 @@ module Amazonka.DataBrew.Types
     _ValidationException,
 
     -- * AnalyticsMode
-    AnalyticsMode,
+    AnalyticsMode (AnalyticsMode'),
 
     -- * CompressionFormat
-    CompressionFormat,
+    CompressionFormat (CompressionFormat'),
 
     -- * DatabaseOutputMode
-    DatabaseOutputMode,
+    DatabaseOutputMode (DatabaseOutputMode'),
 
     -- * EncryptionMode
-    EncryptionMode,
+    EncryptionMode (EncryptionMode'),
 
     -- * InputFormat
-    InputFormat,
+    InputFormat (InputFormat'),
 
     -- * JobRunState
-    JobRunState,
+    JobRunState (JobRunState'),
 
     -- * JobType
-    JobType,
+    JobType (JobType'),
 
     -- * LogSubscription
-    LogSubscription,
+    LogSubscription (LogSubscription'),
 
     -- * Order
-    Order,
+    Order (Order'),
 
     -- * OrderedBy
-    OrderedBy,
+    OrderedBy (OrderedBy'),
 
     -- * OutputFormat
-    OutputFormat,
+    OutputFormat (OutputFormat'),
 
     -- * ParameterType
-    ParameterType,
+    ParameterType (ParameterType'),
 
     -- * SampleMode
-    SampleMode,
+    SampleMode (SampleMode'),
 
     -- * SampleType
-    SampleType,
+    SampleType (SampleType'),
 
     -- * SessionStatus
-    SessionStatus,
+    SessionStatus (SessionStatus'),
 
     -- * Source
-    Source,
+    Source (Source'),
 
     -- * ThresholdType
-    ThresholdType,
+    ThresholdType (ThresholdType'),
 
     -- * ThresholdUnit
-    ThresholdUnit,
+    ThresholdUnit (ThresholdUnit'),
 
     -- * ValidationMode
-    ValidationMode,
+    ValidationMode (ValidationMode'),
 
     -- * AllowedStatistics
-    AllowedStatistics,
+    AllowedStatistics (AllowedStatistics'),
     newAllowedStatistics,
     allowedStatistics_statistics,
 
     -- * ColumnSelector
-    ColumnSelector,
+    ColumnSelector (ColumnSelector'),
     newColumnSelector,
     columnSelector_name,
     columnSelector_regex,
 
     -- * ColumnStatisticsConfiguration
-    ColumnStatisticsConfiguration,
+    ColumnStatisticsConfiguration (ColumnStatisticsConfiguration'),
     newColumnStatisticsConfiguration,
     columnStatisticsConfiguration_selectors,
     columnStatisticsConfiguration_statistics,
 
     -- * ConditionExpression
-    ConditionExpression,
+    ConditionExpression (ConditionExpression'),
     newConditionExpression,
     conditionExpression_value,
     conditionExpression_condition,
     conditionExpression_targetColumn,
 
     -- * CsvOptions
-    CsvOptions,
+    CsvOptions (CsvOptions'),
     newCsvOptions,
     csvOptions_delimiter,
     csvOptions_headerRow,
 
     -- * CsvOutputOptions
-    CsvOutputOptions,
+    CsvOutputOptions (CsvOutputOptions'),
     newCsvOutputOptions,
     csvOutputOptions_delimiter,
 
     -- * DataCatalogInputDefinition
-    DataCatalogInputDefinition,
+    DataCatalogInputDefinition (DataCatalogInputDefinition'),
     newDataCatalogInputDefinition,
     dataCatalogInputDefinition_catalogId,
     dataCatalogInputDefinition_tempDirectory,
@@ -127,7 +127,7 @@ module Amazonka.DataBrew.Types
     dataCatalogInputDefinition_tableName,
 
     -- * DataCatalogOutput
-    DataCatalogOutput,
+    DataCatalogOutput (DataCatalogOutput'),
     newDataCatalogOutput,
     dataCatalogOutput_catalogId,
     dataCatalogOutput_databaseOptions,
@@ -137,7 +137,7 @@ module Amazonka.DataBrew.Types
     dataCatalogOutput_tableName,
 
     -- * DatabaseInputDefinition
-    DatabaseInputDefinition,
+    DatabaseInputDefinition (DatabaseInputDefinition'),
     newDatabaseInputDefinition,
     databaseInputDefinition_databaseTableName,
     databaseInputDefinition_queryString,
@@ -145,20 +145,20 @@ module Amazonka.DataBrew.Types
     databaseInputDefinition_glueConnectionName,
 
     -- * DatabaseOutput
-    DatabaseOutput,
+    DatabaseOutput (DatabaseOutput'),
     newDatabaseOutput,
     databaseOutput_databaseOutputMode,
     databaseOutput_glueConnectionName,
     databaseOutput_databaseOptions,
 
     -- * DatabaseTableOutputOptions
-    DatabaseTableOutputOptions,
+    DatabaseTableOutputOptions (DatabaseTableOutputOptions'),
     newDatabaseTableOutputOptions,
     databaseTableOutputOptions_tempDirectory,
     databaseTableOutputOptions_tableName,
 
     -- * Dataset
-    Dataset,
+    Dataset (Dataset'),
     newDataset,
     dataset_accountId,
     dataset_createDate,
@@ -175,7 +175,7 @@ module Amazonka.DataBrew.Types
     dataset_input,
 
     -- * DatasetParameter
-    DatasetParameter,
+    DatasetParameter (DatasetParameter'),
     newDatasetParameter,
     datasetParameter_createColumn,
     datasetParameter_datetimeOptions,
@@ -184,47 +184,47 @@ module Amazonka.DataBrew.Types
     datasetParameter_type,
 
     -- * DatetimeOptions
-    DatetimeOptions,
+    DatetimeOptions (DatetimeOptions'),
     newDatetimeOptions,
     datetimeOptions_localeCode,
     datetimeOptions_timezoneOffset,
     datetimeOptions_format,
 
     -- * EntityDetectorConfiguration
-    EntityDetectorConfiguration,
+    EntityDetectorConfiguration (EntityDetectorConfiguration'),
     newEntityDetectorConfiguration,
     entityDetectorConfiguration_allowedStatistics,
     entityDetectorConfiguration_entityTypes,
 
     -- * ExcelOptions
-    ExcelOptions,
+    ExcelOptions (ExcelOptions'),
     newExcelOptions,
     excelOptions_headerRow,
     excelOptions_sheetIndexes,
     excelOptions_sheetNames,
 
     -- * FilesLimit
-    FilesLimit,
+    FilesLimit (FilesLimit'),
     newFilesLimit,
     filesLimit_order,
     filesLimit_orderedBy,
     filesLimit_maxFiles,
 
     -- * FilterExpression
-    FilterExpression,
+    FilterExpression (FilterExpression'),
     newFilterExpression,
     filterExpression_expression,
     filterExpression_valuesMap,
 
     -- * FormatOptions
-    FormatOptions,
+    FormatOptions (FormatOptions'),
     newFormatOptions,
     formatOptions_csv,
     formatOptions_excel,
     formatOptions_json,
 
     -- * Input
-    Input,
+    Input (Input'),
     newInput,
     input_dataCatalogInputDefinition,
     input_databaseInputDefinition,
@@ -232,7 +232,7 @@ module Amazonka.DataBrew.Types
     input_s3InputDefinition,
 
     -- * Job
-    Job,
+    Job (Job'),
     newJob,
     job_accountId,
     job_createDate,
@@ -260,7 +260,7 @@ module Amazonka.DataBrew.Types
     job_name,
 
     -- * JobRun
-    JobRun,
+    JobRun (JobRun'),
     newJobRun,
     jobRun_attempt,
     jobRun_completedOn,
@@ -282,23 +282,23 @@ module Amazonka.DataBrew.Types
     jobRun_validationConfigurations,
 
     -- * JobSample
-    JobSample,
+    JobSample (JobSample'),
     newJobSample,
     jobSample_mode,
     jobSample_size,
 
     -- * JsonOptions
-    JsonOptions,
+    JsonOptions (JsonOptions'),
     newJsonOptions,
     jsonOptions_multiLine,
 
     -- * Metadata
-    Metadata,
+    Metadata (Metadata'),
     newMetadata,
     metadata_sourceArn,
 
     -- * Output
-    Output,
+    Output (Output'),
     newOutput,
     output_compressionFormat,
     output_format,
@@ -309,19 +309,19 @@ module Amazonka.DataBrew.Types
     output_location,
 
     -- * OutputFormatOptions
-    OutputFormatOptions,
+    OutputFormatOptions (OutputFormatOptions'),
     newOutputFormatOptions,
     outputFormatOptions_csv,
 
     -- * PathOptions
-    PathOptions,
+    PathOptions (PathOptions'),
     newPathOptions,
     pathOptions_filesLimit,
     pathOptions_lastModifiedDateCondition,
     pathOptions_parameters,
 
     -- * ProfileConfiguration
-    ProfileConfiguration,
+    ProfileConfiguration (ProfileConfiguration'),
     newProfileConfiguration,
     profileConfiguration_columnStatisticsConfigurations,
     profileConfiguration_datasetStatisticsConfiguration,
@@ -329,7 +329,7 @@ module Amazonka.DataBrew.Types
     profileConfiguration_profileColumns,
 
     -- * Project
-    Project,
+    Project (Project'),
     newProject,
     project_accountId,
     project_createDate,
@@ -347,7 +347,7 @@ module Amazonka.DataBrew.Types
     project_recipeName,
 
     -- * Recipe
-    Recipe,
+    Recipe (Recipe'),
     newRecipe,
     recipe_createDate,
     recipe_createdBy,
@@ -364,32 +364,32 @@ module Amazonka.DataBrew.Types
     recipe_name,
 
     -- * RecipeAction
-    RecipeAction,
+    RecipeAction (RecipeAction'),
     newRecipeAction,
     recipeAction_parameters,
     recipeAction_operation,
 
     -- * RecipeReference
-    RecipeReference,
+    RecipeReference (RecipeReference'),
     newRecipeReference,
     recipeReference_recipeVersion,
     recipeReference_name,
 
     -- * RecipeStep
-    RecipeStep,
+    RecipeStep (RecipeStep'),
     newRecipeStep,
     recipeStep_conditionExpressions,
     recipeStep_action,
 
     -- * RecipeVersionErrorDetail
-    RecipeVersionErrorDetail,
+    RecipeVersionErrorDetail (RecipeVersionErrorDetail'),
     newRecipeVersionErrorDetail,
     recipeVersionErrorDetail_errorCode,
     recipeVersionErrorDetail_errorMessage,
     recipeVersionErrorDetail_recipeVersion,
 
     -- * Rule
-    Rule,
+    Rule (Rule'),
     newRule,
     rule_columnSelectors,
     rule_disabled,
@@ -399,7 +399,7 @@ module Amazonka.DataBrew.Types
     rule_checkExpression,
 
     -- * RulesetItem
-    RulesetItem,
+    RulesetItem (RulesetItem'),
     newRulesetItem,
     rulesetItem_accountId,
     rulesetItem_createDate,
@@ -414,25 +414,25 @@ module Amazonka.DataBrew.Types
     rulesetItem_targetArn,
 
     -- * S3Location
-    S3Location,
+    S3Location (S3Location'),
     newS3Location,
     s3Location_bucketOwner,
     s3Location_key,
     s3Location_bucket,
 
     -- * S3TableOutputOptions
-    S3TableOutputOptions,
+    S3TableOutputOptions (S3TableOutputOptions'),
     newS3TableOutputOptions,
     s3TableOutputOptions_location,
 
     -- * Sample
-    Sample,
+    Sample (Sample'),
     newSample,
     sample_size,
     sample_type,
 
     -- * Schedule
-    Schedule,
+    Schedule (Schedule'),
     newSchedule,
     schedule_accountId,
     schedule_createDate,
@@ -446,32 +446,32 @@ module Amazonka.DataBrew.Types
     schedule_name,
 
     -- * StatisticOverride
-    StatisticOverride,
+    StatisticOverride (StatisticOverride'),
     newStatisticOverride,
     statisticOverride_statistic,
     statisticOverride_parameters,
 
     -- * StatisticsConfiguration
-    StatisticsConfiguration,
+    StatisticsConfiguration (StatisticsConfiguration'),
     newStatisticsConfiguration,
     statisticsConfiguration_includedStatistics,
     statisticsConfiguration_overrides,
 
     -- * Threshold
-    Threshold,
+    Threshold (Threshold'),
     newThreshold,
     threshold_type,
     threshold_unit,
     threshold_value,
 
     -- * ValidationConfiguration
-    ValidationConfiguration,
+    ValidationConfiguration (ValidationConfiguration'),
     newValidationConfiguration,
     validationConfiguration_validationMode,
     validationConfiguration_rulesetArn,
 
     -- * ViewFrame
-    ViewFrame,
+    ViewFrame (ViewFrame'),
     newViewFrame,
     viewFrame_analytics,
     viewFrame_columnRange,

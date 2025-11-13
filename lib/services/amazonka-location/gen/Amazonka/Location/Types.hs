@@ -28,97 +28,97 @@ module Amazonka.Location.Types
     _ValidationException,
 
     -- * BatchItemErrorCode
-    BatchItemErrorCode,
+    BatchItemErrorCode (BatchItemErrorCode'),
 
     -- * DimensionUnit
-    DimensionUnit,
+    DimensionUnit (DimensionUnit'),
 
     -- * DistanceUnit
-    DistanceUnit,
+    DistanceUnit (DistanceUnit'),
 
     -- * IntendedUse
-    IntendedUse,
+    IntendedUse (IntendedUse'),
 
     -- * PositionFiltering
-    PositionFiltering,
+    PositionFiltering (PositionFiltering'),
 
     -- * PricingPlan
-    PricingPlan,
+    PricingPlan (PricingPlan'),
 
     -- * RouteMatrixErrorCode
-    RouteMatrixErrorCode,
+    RouteMatrixErrorCode (RouteMatrixErrorCode'),
 
     -- * TravelMode
-    TravelMode,
+    TravelMode (TravelMode'),
 
     -- * VehicleWeightUnit
-    VehicleWeightUnit,
+    VehicleWeightUnit (VehicleWeightUnit'),
 
     -- * BatchDeleteDevicePositionHistoryError
-    BatchDeleteDevicePositionHistoryError,
+    BatchDeleteDevicePositionHistoryError (BatchDeleteDevicePositionHistoryError'),
     newBatchDeleteDevicePositionHistoryError,
     batchDeleteDevicePositionHistoryError_deviceId,
     batchDeleteDevicePositionHistoryError_error,
 
     -- * BatchDeleteGeofenceError
-    BatchDeleteGeofenceError,
+    BatchDeleteGeofenceError (BatchDeleteGeofenceError'),
     newBatchDeleteGeofenceError,
     batchDeleteGeofenceError_error,
     batchDeleteGeofenceError_geofenceId,
 
     -- * BatchEvaluateGeofencesError
-    BatchEvaluateGeofencesError,
+    BatchEvaluateGeofencesError (BatchEvaluateGeofencesError'),
     newBatchEvaluateGeofencesError,
     batchEvaluateGeofencesError_deviceId,
     batchEvaluateGeofencesError_error,
     batchEvaluateGeofencesError_sampleTime,
 
     -- * BatchGetDevicePositionError
-    BatchGetDevicePositionError,
+    BatchGetDevicePositionError (BatchGetDevicePositionError'),
     newBatchGetDevicePositionError,
     batchGetDevicePositionError_deviceId,
     batchGetDevicePositionError_error,
 
     -- * BatchItemError
-    BatchItemError,
+    BatchItemError (BatchItemError'),
     newBatchItemError,
     batchItemError_code,
     batchItemError_message,
 
     -- * BatchPutGeofenceError
-    BatchPutGeofenceError,
+    BatchPutGeofenceError (BatchPutGeofenceError'),
     newBatchPutGeofenceError,
     batchPutGeofenceError_error,
     batchPutGeofenceError_geofenceId,
 
     -- * BatchPutGeofenceRequestEntry
-    BatchPutGeofenceRequestEntry,
+    BatchPutGeofenceRequestEntry (BatchPutGeofenceRequestEntry'),
     newBatchPutGeofenceRequestEntry,
     batchPutGeofenceRequestEntry_geofenceId,
     batchPutGeofenceRequestEntry_geometry,
 
     -- * BatchPutGeofenceSuccess
-    BatchPutGeofenceSuccess,
+    BatchPutGeofenceSuccess (BatchPutGeofenceSuccess'),
     newBatchPutGeofenceSuccess,
     batchPutGeofenceSuccess_createTime,
     batchPutGeofenceSuccess_geofenceId,
     batchPutGeofenceSuccess_updateTime,
 
     -- * BatchUpdateDevicePositionError
-    BatchUpdateDevicePositionError,
+    BatchUpdateDevicePositionError (BatchUpdateDevicePositionError'),
     newBatchUpdateDevicePositionError,
     batchUpdateDevicePositionError_deviceId,
     batchUpdateDevicePositionError_error,
     batchUpdateDevicePositionError_sampleTime,
 
     -- * CalculateRouteCarModeOptions
-    CalculateRouteCarModeOptions,
+    CalculateRouteCarModeOptions (CalculateRouteCarModeOptions'),
     newCalculateRouteCarModeOptions,
     calculateRouteCarModeOptions_avoidFerries,
     calculateRouteCarModeOptions_avoidTolls,
 
     -- * CalculateRouteMatrixSummary
-    CalculateRouteMatrixSummary,
+    CalculateRouteMatrixSummary (CalculateRouteMatrixSummary'),
     newCalculateRouteMatrixSummary,
     calculateRouteMatrixSummary_dataSource,
     calculateRouteMatrixSummary_distanceUnit,
@@ -126,7 +126,7 @@ module Amazonka.Location.Types
     calculateRouteMatrixSummary_routeCount,
 
     -- * CalculateRouteSummary
-    CalculateRouteSummary,
+    CalculateRouteSummary (CalculateRouteSummary'),
     newCalculateRouteSummary,
     calculateRouteSummary_dataSource,
     calculateRouteSummary_distance,
@@ -135,7 +135,7 @@ module Amazonka.Location.Types
     calculateRouteSummary_routeBBox,
 
     -- * CalculateRouteTruckModeOptions
-    CalculateRouteTruckModeOptions,
+    CalculateRouteTruckModeOptions (CalculateRouteTruckModeOptions'),
     newCalculateRouteTruckModeOptions,
     calculateRouteTruckModeOptions_avoidFerries,
     calculateRouteTruckModeOptions_avoidTolls,
@@ -143,18 +143,18 @@ module Amazonka.Location.Types
     calculateRouteTruckModeOptions_weight,
 
     -- * Circle
-    Circle,
+    Circle (Circle'),
     newCircle,
     circle_center,
     circle_radius,
 
     -- * DataSourceConfiguration
-    DataSourceConfiguration,
+    DataSourceConfiguration (DataSourceConfiguration'),
     newDataSourceConfiguration,
     dataSourceConfiguration_intendedUse,
 
     -- * DevicePosition
-    DevicePosition,
+    DevicePosition (DevicePosition'),
     newDevicePosition,
     devicePosition_accuracy,
     devicePosition_deviceId,
@@ -164,7 +164,7 @@ module Amazonka.Location.Types
     devicePosition_sampleTime,
 
     -- * DevicePositionUpdate
-    DevicePositionUpdate,
+    DevicePositionUpdate (DevicePositionUpdate'),
     newDevicePositionUpdate,
     devicePositionUpdate_accuracy,
     devicePositionUpdate_positionProperties,
@@ -173,13 +173,13 @@ module Amazonka.Location.Types
     devicePositionUpdate_sampleTime,
 
     -- * GeofenceGeometry
-    GeofenceGeometry,
+    GeofenceGeometry (GeofenceGeometry'),
     newGeofenceGeometry,
     geofenceGeometry_circle,
     geofenceGeometry_polygon,
 
     -- * Leg
-    Leg,
+    Leg (Leg'),
     newLeg,
     leg_geometry,
     leg_distance,
@@ -189,12 +189,12 @@ module Amazonka.Location.Types
     leg_steps,
 
     -- * LegGeometry
-    LegGeometry,
+    LegGeometry (LegGeometry'),
     newLegGeometry,
     legGeometry_lineString,
 
     -- * ListDevicePositionsResponseEntry
-    ListDevicePositionsResponseEntry,
+    ListDevicePositionsResponseEntry (ListDevicePositionsResponseEntry'),
     newListDevicePositionsResponseEntry,
     listDevicePositionsResponseEntry_accuracy,
     listDevicePositionsResponseEntry_positionProperties,
@@ -203,7 +203,7 @@ module Amazonka.Location.Types
     listDevicePositionsResponseEntry_sampleTime,
 
     -- * ListGeofenceCollectionsResponseEntry
-    ListGeofenceCollectionsResponseEntry,
+    ListGeofenceCollectionsResponseEntry (ListGeofenceCollectionsResponseEntry'),
     newListGeofenceCollectionsResponseEntry,
     listGeofenceCollectionsResponseEntry_pricingPlan,
     listGeofenceCollectionsResponseEntry_pricingPlanDataSource,
@@ -213,7 +213,7 @@ module Amazonka.Location.Types
     listGeofenceCollectionsResponseEntry_updateTime,
 
     -- * ListGeofenceResponseEntry
-    ListGeofenceResponseEntry,
+    ListGeofenceResponseEntry (ListGeofenceResponseEntry'),
     newListGeofenceResponseEntry,
     listGeofenceResponseEntry_createTime,
     listGeofenceResponseEntry_geofenceId,
@@ -222,7 +222,7 @@ module Amazonka.Location.Types
     listGeofenceResponseEntry_updateTime,
 
     -- * ListMapsResponseEntry
-    ListMapsResponseEntry,
+    ListMapsResponseEntry (ListMapsResponseEntry'),
     newListMapsResponseEntry,
     listMapsResponseEntry_pricingPlan,
     listMapsResponseEntry_createTime,
@@ -232,7 +232,7 @@ module Amazonka.Location.Types
     listMapsResponseEntry_updateTime,
 
     -- * ListPlaceIndexesResponseEntry
-    ListPlaceIndexesResponseEntry,
+    ListPlaceIndexesResponseEntry (ListPlaceIndexesResponseEntry'),
     newListPlaceIndexesResponseEntry,
     listPlaceIndexesResponseEntry_pricingPlan,
     listPlaceIndexesResponseEntry_createTime,
@@ -242,7 +242,7 @@ module Amazonka.Location.Types
     listPlaceIndexesResponseEntry_updateTime,
 
     -- * ListRouteCalculatorsResponseEntry
-    ListRouteCalculatorsResponseEntry,
+    ListRouteCalculatorsResponseEntry (ListRouteCalculatorsResponseEntry'),
     newListRouteCalculatorsResponseEntry,
     listRouteCalculatorsResponseEntry_pricingPlan,
     listRouteCalculatorsResponseEntry_calculatorName,
@@ -252,7 +252,7 @@ module Amazonka.Location.Types
     listRouteCalculatorsResponseEntry_updateTime,
 
     -- * ListTrackersResponseEntry
-    ListTrackersResponseEntry,
+    ListTrackersResponseEntry (ListTrackersResponseEntry'),
     newListTrackersResponseEntry,
     listTrackersResponseEntry_pricingPlan,
     listTrackersResponseEntry_pricingPlanDataSource,
@@ -262,12 +262,12 @@ module Amazonka.Location.Types
     listTrackersResponseEntry_updateTime,
 
     -- * MapConfiguration
-    MapConfiguration,
+    MapConfiguration (MapConfiguration'),
     newMapConfiguration,
     mapConfiguration_style,
 
     -- * Place
-    Place,
+    Place (Place'),
     newPlace,
     place_addressNumber,
     place_country,
@@ -285,43 +285,43 @@ module Amazonka.Location.Types
     place_geometry,
 
     -- * PlaceGeometry
-    PlaceGeometry,
+    PlaceGeometry (PlaceGeometry'),
     newPlaceGeometry,
     placeGeometry_point,
 
     -- * PositionalAccuracy
-    PositionalAccuracy,
+    PositionalAccuracy (PositionalAccuracy'),
     newPositionalAccuracy,
     positionalAccuracy_horizontal,
 
     -- * RouteMatrixEntry
-    RouteMatrixEntry,
+    RouteMatrixEntry (RouteMatrixEntry'),
     newRouteMatrixEntry,
     routeMatrixEntry_distance,
     routeMatrixEntry_durationSeconds,
     routeMatrixEntry_error,
 
     -- * RouteMatrixEntryError
-    RouteMatrixEntryError,
+    RouteMatrixEntryError (RouteMatrixEntryError'),
     newRouteMatrixEntryError,
     routeMatrixEntryError_message,
     routeMatrixEntryError_code,
 
     -- * SearchForPositionResult
-    SearchForPositionResult,
+    SearchForPositionResult (SearchForPositionResult'),
     newSearchForPositionResult,
     searchForPositionResult_placeId,
     searchForPositionResult_distance,
     searchForPositionResult_place,
 
     -- * SearchForSuggestionsResult
-    SearchForSuggestionsResult,
+    SearchForSuggestionsResult (SearchForSuggestionsResult'),
     newSearchForSuggestionsResult,
     searchForSuggestionsResult_placeId,
     searchForSuggestionsResult_text,
 
     -- * SearchForTextResult
-    SearchForTextResult,
+    SearchForTextResult (SearchForTextResult'),
     newSearchForTextResult,
     searchForTextResult_distance,
     searchForTextResult_placeId,
@@ -329,7 +329,7 @@ module Amazonka.Location.Types
     searchForTextResult_place,
 
     -- * SearchPlaceIndexForPositionSummary
-    SearchPlaceIndexForPositionSummary,
+    SearchPlaceIndexForPositionSummary (SearchPlaceIndexForPositionSummary'),
     newSearchPlaceIndexForPositionSummary,
     searchPlaceIndexForPositionSummary_language,
     searchPlaceIndexForPositionSummary_maxResults,
@@ -337,7 +337,7 @@ module Amazonka.Location.Types
     searchPlaceIndexForPositionSummary_position,
 
     -- * SearchPlaceIndexForSuggestionsSummary
-    SearchPlaceIndexForSuggestionsSummary,
+    SearchPlaceIndexForSuggestionsSummary (SearchPlaceIndexForSuggestionsSummary'),
     newSearchPlaceIndexForSuggestionsSummary,
     searchPlaceIndexForSuggestionsSummary_biasPosition,
     searchPlaceIndexForSuggestionsSummary_filterBBox,
@@ -348,7 +348,7 @@ module Amazonka.Location.Types
     searchPlaceIndexForSuggestionsSummary_text,
 
     -- * SearchPlaceIndexForTextSummary
-    SearchPlaceIndexForTextSummary,
+    SearchPlaceIndexForTextSummary (SearchPlaceIndexForTextSummary'),
     newSearchPlaceIndexForTextSummary,
     searchPlaceIndexForTextSummary_biasPosition,
     searchPlaceIndexForTextSummary_filterBBox,
@@ -360,7 +360,7 @@ module Amazonka.Location.Types
     searchPlaceIndexForTextSummary_text,
 
     -- * Step
-    Step,
+    Step (Step'),
     newStep,
     step_geometryOffset,
     step_distance,
@@ -369,13 +369,13 @@ module Amazonka.Location.Types
     step_startPosition,
 
     -- * TimeZone
-    TimeZone,
+    TimeZone (TimeZone'),
     newTimeZone,
     timeZone_offset,
     timeZone_name,
 
     -- * TruckDimensions
-    TruckDimensions,
+    TruckDimensions (TruckDimensions'),
     newTruckDimensions,
     truckDimensions_height,
     truckDimensions_length,
@@ -383,7 +383,7 @@ module Amazonka.Location.Types
     truckDimensions_width,
 
     -- * TruckWeight
-    TruckWeight,
+    TruckWeight (TruckWeight'),
     newTruckWeight,
     truckWeight_total,
     truckWeight_unit,

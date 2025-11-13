@@ -27,31 +27,31 @@ module Amazonka.AppConfig.Types
     _ServiceQuotaExceededException,
 
     -- * ActionPoint
-    ActionPoint,
+    ActionPoint (ActionPoint'),
 
     -- * DeploymentEventType
-    DeploymentEventType,
+    DeploymentEventType (DeploymentEventType'),
 
     -- * DeploymentState
-    DeploymentState,
+    DeploymentState (DeploymentState'),
 
     -- * EnvironmentState
-    EnvironmentState,
+    EnvironmentState (EnvironmentState'),
 
     -- * GrowthType
-    GrowthType,
+    GrowthType (GrowthType'),
 
     -- * ReplicateTo
-    ReplicateTo,
+    ReplicateTo (ReplicateTo'),
 
     -- * TriggeredBy
-    TriggeredBy,
+    TriggeredBy (TriggeredBy'),
 
     -- * ValidatorType
-    ValidatorType,
+    ValidatorType (ValidatorType'),
 
     -- * Action
-    Action,
+    Action (Action'),
     newAction,
     action_description,
     action_name,
@@ -59,7 +59,7 @@ module Amazonka.AppConfig.Types
     action_uri,
 
     -- * ActionInvocation
-    ActionInvocation,
+    ActionInvocation (ActionInvocation'),
     newActionInvocation,
     actionInvocation_actionName,
     actionInvocation_errorCode,
@@ -70,14 +70,14 @@ module Amazonka.AppConfig.Types
     actionInvocation_uri,
 
     -- * Application
-    Application,
+    Application (Application'),
     newApplication,
     application_description,
     application_id,
     application_name,
 
     -- * AppliedExtension
-    AppliedExtension,
+    AppliedExtension (AppliedExtension'),
     newAppliedExtension,
     appliedExtension_extensionAssociationId,
     appliedExtension_extensionId,
@@ -85,7 +85,7 @@ module Amazonka.AppConfig.Types
     appliedExtension_versionNumber,
 
     -- * ConfigurationProfile
-    ConfigurationProfile,
+    ConfigurationProfile (ConfigurationProfile'),
     newConfigurationProfile,
     configurationProfile_applicationId,
     configurationProfile_description,
@@ -97,7 +97,7 @@ module Amazonka.AppConfig.Types
     configurationProfile_validators,
 
     -- * ConfigurationProfileSummary
-    ConfigurationProfileSummary,
+    ConfigurationProfileSummary (ConfigurationProfileSummary'),
     newConfigurationProfileSummary,
     configurationProfileSummary_applicationId,
     configurationProfileSummary_id,
@@ -107,7 +107,7 @@ module Amazonka.AppConfig.Types
     configurationProfileSummary_validatorTypes,
 
     -- * Deployment
-    Deployment,
+    Deployment (Deployment'),
     newDeployment,
     deployment_applicationId,
     deployment_appliedExtensions,
@@ -130,7 +130,7 @@ module Amazonka.AppConfig.Types
     deployment_state,
 
     -- * DeploymentEvent
-    DeploymentEvent,
+    DeploymentEvent (DeploymentEvent'),
     newDeploymentEvent,
     deploymentEvent_actionInvocations,
     deploymentEvent_description,
@@ -139,7 +139,7 @@ module Amazonka.AppConfig.Types
     deploymentEvent_triggeredBy,
 
     -- * DeploymentStrategy
-    DeploymentStrategy,
+    DeploymentStrategy (DeploymentStrategy'),
     newDeploymentStrategy,
     deploymentStrategy_deploymentDurationInMinutes,
     deploymentStrategy_description,
@@ -151,7 +151,7 @@ module Amazonka.AppConfig.Types
     deploymentStrategy_replicateTo,
 
     -- * DeploymentSummary
-    DeploymentSummary,
+    DeploymentSummary (DeploymentSummary'),
     newDeploymentSummary,
     deploymentSummary_completedAt,
     deploymentSummary_configurationName,
@@ -166,7 +166,7 @@ module Amazonka.AppConfig.Types
     deploymentSummary_state,
 
     -- * Environment
-    Environment,
+    Environment (Environment'),
     newEnvironment,
     environment_applicationId,
     environment_description,
@@ -176,7 +176,7 @@ module Amazonka.AppConfig.Types
     environment_state,
 
     -- * Extension
-    Extension,
+    Extension (Extension'),
     newExtension,
     extension_actions,
     extension_arn,
@@ -187,7 +187,7 @@ module Amazonka.AppConfig.Types
     extension_versionNumber,
 
     -- * ExtensionAssociation
-    ExtensionAssociation,
+    ExtensionAssociation (ExtensionAssociation'),
     newExtensionAssociation,
     extensionAssociation_arn,
     extensionAssociation_extensionArn,
@@ -197,14 +197,14 @@ module Amazonka.AppConfig.Types
     extensionAssociation_resourceArn,
 
     -- * ExtensionAssociationSummary
-    ExtensionAssociationSummary,
+    ExtensionAssociationSummary (ExtensionAssociationSummary'),
     newExtensionAssociationSummary,
     extensionAssociationSummary_extensionArn,
     extensionAssociationSummary_id,
     extensionAssociationSummary_resourceArn,
 
     -- * ExtensionSummary
-    ExtensionSummary,
+    ExtensionSummary (ExtensionSummary'),
     newExtensionSummary,
     extensionSummary_arn,
     extensionSummary_description,
@@ -213,7 +213,7 @@ module Amazonka.AppConfig.Types
     extensionSummary_versionNumber,
 
     -- * HostedConfigurationVersion
-    HostedConfigurationVersion,
+    HostedConfigurationVersion (HostedConfigurationVersion'),
     newHostedConfigurationVersion,
     hostedConfigurationVersion_applicationId,
     hostedConfigurationVersion_configurationProfileId,
@@ -223,7 +223,7 @@ module Amazonka.AppConfig.Types
     hostedConfigurationVersion_versionNumber,
 
     -- * HostedConfigurationVersionSummary
-    HostedConfigurationVersionSummary,
+    HostedConfigurationVersionSummary (HostedConfigurationVersionSummary'),
     newHostedConfigurationVersionSummary,
     hostedConfigurationVersionSummary_applicationId,
     hostedConfigurationVersionSummary_configurationProfileId,
@@ -232,19 +232,19 @@ module Amazonka.AppConfig.Types
     hostedConfigurationVersionSummary_versionNumber,
 
     -- * Monitor
-    Monitor,
+    Monitor (Monitor'),
     newMonitor,
     monitor_alarmRoleArn,
     monitor_alarmArn,
 
     -- * Parameter
-    Parameter,
+    Parameter (Parameter'),
     newParameter,
     parameter_description,
     parameter_required,
 
     -- * Validator
-    Validator,
+    Validator (Validator'),
     newValidator,
     validator_type,
     validator_content,

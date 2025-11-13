@@ -33,64 +33,64 @@ module Amazonka.SMS.Types
     _UnauthorizedOperationException,
 
     -- * AppLaunchConfigurationStatus
-    AppLaunchConfigurationStatus,
+    AppLaunchConfigurationStatus (AppLaunchConfigurationStatus'),
 
     -- * AppLaunchStatus
-    AppLaunchStatus,
+    AppLaunchStatus (AppLaunchStatus'),
 
     -- * AppReplicationConfigurationStatus
-    AppReplicationConfigurationStatus,
+    AppReplicationConfigurationStatus (AppReplicationConfigurationStatus'),
 
     -- * AppReplicationStatus
-    AppReplicationStatus,
+    AppReplicationStatus (AppReplicationStatus'),
 
     -- * AppStatus
-    AppStatus,
+    AppStatus (AppStatus'),
 
     -- * AppValidationStrategy
-    AppValidationStrategy,
+    AppValidationStrategy (AppValidationStrategy'),
 
     -- * ConnectorCapability
-    ConnectorCapability,
+    ConnectorCapability (ConnectorCapability'),
 
     -- * ConnectorStatus
-    ConnectorStatus,
+    ConnectorStatus (ConnectorStatus'),
 
     -- * LicenseType
-    LicenseType,
+    LicenseType (LicenseType'),
 
     -- * OutputFormat
-    OutputFormat,
+    OutputFormat (OutputFormat'),
 
     -- * ReplicationJobState
-    ReplicationJobState,
+    ReplicationJobState (ReplicationJobState'),
 
     -- * ReplicationRunState
-    ReplicationRunState,
+    ReplicationRunState (ReplicationRunState'),
 
     -- * ReplicationRunType
-    ReplicationRunType,
+    ReplicationRunType (ReplicationRunType'),
 
     -- * ScriptType
-    ScriptType,
+    ScriptType (ScriptType'),
 
     -- * ServerCatalogStatus
-    ServerCatalogStatus,
+    ServerCatalogStatus (ServerCatalogStatus'),
 
     -- * ServerType
-    ServerType,
+    ServerType (ServerType'),
 
     -- * ServerValidationStrategy
-    ServerValidationStrategy,
+    ServerValidationStrategy (ServerValidationStrategy'),
 
     -- * ValidationStatus
-    ValidationStatus,
+    ValidationStatus (ValidationStatus'),
 
     -- * VmManagerType
-    VmManagerType,
+    VmManagerType (VmManagerType'),
 
     -- * AppSummary
-    AppSummary,
+    AppSummary (AppSummary'),
     newAppSummary,
     appSummary_appId,
     appSummary_creationTime,
@@ -113,7 +113,7 @@ module Amazonka.SMS.Types
     appSummary_totalServers,
 
     -- * AppValidationConfiguration
-    AppValidationConfiguration,
+    AppValidationConfiguration (AppValidationConfiguration'),
     newAppValidationConfiguration,
     appValidationConfiguration_appValidationStrategy,
     appValidationConfiguration_name,
@@ -121,12 +121,12 @@ module Amazonka.SMS.Types
     appValidationConfiguration_validationId,
 
     -- * AppValidationOutput
-    AppValidationOutput,
+    AppValidationOutput (AppValidationOutput'),
     newAppValidationOutput,
     appValidationOutput_ssmOutput,
 
     -- * Connector
-    Connector,
+    Connector (Connector'),
     newConnector,
     connector_associatedOn,
     connector_capabilityList,
@@ -140,21 +140,21 @@ module Amazonka.SMS.Types
     connector_vmManagerType,
 
     -- * LaunchDetails
-    LaunchDetails,
+    LaunchDetails (LaunchDetails'),
     newLaunchDetails,
     launchDetails_latestLaunchTime,
     launchDetails_stackId,
     launchDetails_stackName,
 
     -- * NotificationContext
-    NotificationContext,
+    NotificationContext (NotificationContext'),
     newNotificationContext,
     notificationContext_status,
     notificationContext_statusMessage,
     notificationContext_validationId,
 
     -- * ReplicationJob
-    ReplicationJob,
+    ReplicationJob (ReplicationJob'),
     newReplicationJob,
     replicationJob_description,
     replicationJob_encrypted,
@@ -176,7 +176,7 @@ module Amazonka.SMS.Types
     replicationJob_vmServer,
 
     -- * ReplicationRun
-    ReplicationRun,
+    ReplicationRun (ReplicationRun'),
     newReplicationRun,
     replicationRun_amiId,
     replicationRun_completedTime,
@@ -191,24 +191,24 @@ module Amazonka.SMS.Types
     replicationRun_type,
 
     -- * ReplicationRunStageDetails
-    ReplicationRunStageDetails,
+    ReplicationRunStageDetails (ReplicationRunStageDetails'),
     newReplicationRunStageDetails,
     replicationRunStageDetails_stage,
     replicationRunStageDetails_stageProgress,
 
     -- * S3Location
-    S3Location,
+    S3Location (S3Location'),
     newS3Location,
     s3Location_bucket,
     s3Location_key,
 
     -- * SSMOutput
-    SSMOutput,
+    SSMOutput (SSMOutput'),
     newSSMOutput,
     sSMOutput_s3Location,
 
     -- * SSMValidationParameters
-    SSMValidationParameters,
+    SSMValidationParameters (SSMValidationParameters'),
     newSSMValidationParameters,
     sSMValidationParameters_command,
     sSMValidationParameters_executionTimeoutSeconds,
@@ -218,7 +218,7 @@ module Amazonka.SMS.Types
     sSMValidationParameters_source,
 
     -- * Server
-    Server,
+    Server (Server'),
     newServer,
     server_replicationJobId,
     server_replicationJobTerminated,
@@ -227,33 +227,33 @@ module Amazonka.SMS.Types
     server_vmServer,
 
     -- * ServerGroup
-    ServerGroup,
+    ServerGroup (ServerGroup'),
     newServerGroup,
     serverGroup_name,
     serverGroup_serverGroupId,
     serverGroup_serverList,
 
     -- * ServerGroupLaunchConfiguration
-    ServerGroupLaunchConfiguration,
+    ServerGroupLaunchConfiguration (ServerGroupLaunchConfiguration'),
     newServerGroupLaunchConfiguration,
     serverGroupLaunchConfiguration_launchOrder,
     serverGroupLaunchConfiguration_serverGroupId,
     serverGroupLaunchConfiguration_serverLaunchConfigurations,
 
     -- * ServerGroupReplicationConfiguration
-    ServerGroupReplicationConfiguration,
+    ServerGroupReplicationConfiguration (ServerGroupReplicationConfiguration'),
     newServerGroupReplicationConfiguration,
     serverGroupReplicationConfiguration_serverGroupId,
     serverGroupReplicationConfiguration_serverReplicationConfigurations,
 
     -- * ServerGroupValidationConfiguration
-    ServerGroupValidationConfiguration,
+    ServerGroupValidationConfiguration (ServerGroupValidationConfiguration'),
     newServerGroupValidationConfiguration,
     serverGroupValidationConfiguration_serverGroupId,
     serverGroupValidationConfiguration_serverValidationConfigurations,
 
     -- * ServerLaunchConfiguration
-    ServerLaunchConfiguration,
+    ServerLaunchConfiguration (ServerLaunchConfiguration'),
     newServerLaunchConfiguration,
     serverLaunchConfiguration_associatePublicIpAddress,
     serverLaunchConfiguration_configureScript,
@@ -269,13 +269,13 @@ module Amazonka.SMS.Types
     serverLaunchConfiguration_vpc,
 
     -- * ServerReplicationConfiguration
-    ServerReplicationConfiguration,
+    ServerReplicationConfiguration (ServerReplicationConfiguration'),
     newServerReplicationConfiguration,
     serverReplicationConfiguration_server,
     serverReplicationConfiguration_serverReplicationParameters,
 
     -- * ServerReplicationParameters
-    ServerReplicationParameters,
+    ServerReplicationParameters (ServerReplicationParameters'),
     newServerReplicationParameters,
     serverReplicationParameters_encrypted,
     serverReplicationParameters_frequency,
@@ -286,7 +286,7 @@ module Amazonka.SMS.Types
     serverReplicationParameters_seedTime,
 
     -- * ServerValidationConfiguration
-    ServerValidationConfiguration,
+    ServerValidationConfiguration (ServerValidationConfiguration'),
     newServerValidationConfiguration,
     serverValidationConfiguration_name,
     serverValidationConfiguration_server,
@@ -295,34 +295,34 @@ module Amazonka.SMS.Types
     serverValidationConfiguration_validationId,
 
     -- * ServerValidationOutput
-    ServerValidationOutput,
+    ServerValidationOutput (ServerValidationOutput'),
     newServerValidationOutput,
     serverValidationOutput_server,
 
     -- * Source
-    Source,
+    Source (Source'),
     newSource,
     source_s3Location,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
 
     -- * UserData
-    UserData,
+    UserData (UserData'),
     newUserData,
     userData_s3Location,
 
     -- * UserDataValidationParameters
-    UserDataValidationParameters,
+    UserDataValidationParameters (UserDataValidationParameters'),
     newUserDataValidationParameters,
     userDataValidationParameters_scriptType,
     userDataValidationParameters_source,
 
     -- * ValidationOutput
-    ValidationOutput,
+    ValidationOutput (ValidationOutput'),
     newValidationOutput,
     validationOutput_appValidationOutput,
     validationOutput_latestValidationTime,
@@ -333,7 +333,7 @@ module Amazonka.SMS.Types
     validationOutput_validationId,
 
     -- * VmServer
-    VmServer,
+    VmServer (VmServer'),
     newVmServer,
     vmServer_vmManagerName,
     vmServer_vmManagerType,
@@ -342,7 +342,7 @@ module Amazonka.SMS.Types
     vmServer_vmServerAddress,
 
     -- * VmServerAddress
-    VmServerAddress,
+    VmServerAddress (VmServerAddress'),
     newVmServerAddress,
     vmServerAddress_vmId,
     vmServerAddress_vmManagerId,

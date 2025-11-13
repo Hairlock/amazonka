@@ -29,25 +29,25 @@ module Amazonka.CodeStarNotifications.Types
     _ValidationException,
 
     -- * DetailType
-    DetailType,
+    DetailType (DetailType'),
 
     -- * ListEventTypesFilterName
-    ListEventTypesFilterName,
+    ListEventTypesFilterName (ListEventTypesFilterName'),
 
     -- * ListNotificationRulesFilterName
-    ListNotificationRulesFilterName,
+    ListNotificationRulesFilterName (ListNotificationRulesFilterName'),
 
     -- * ListTargetsFilterName
-    ListTargetsFilterName,
+    ListTargetsFilterName (ListTargetsFilterName'),
 
     -- * NotificationRuleStatus
-    NotificationRuleStatus,
+    NotificationRuleStatus (NotificationRuleStatus'),
 
     -- * TargetStatus
-    TargetStatus,
+    TargetStatus (TargetStatus'),
 
     -- * EventTypeSummary
-    EventTypeSummary,
+    EventTypeSummary (EventTypeSummary'),
     newEventTypeSummary,
     eventTypeSummary_eventTypeId,
     eventTypeSummary_eventTypeName,
@@ -55,37 +55,37 @@ module Amazonka.CodeStarNotifications.Types
     eventTypeSummary_serviceName,
 
     -- * ListEventTypesFilter
-    ListEventTypesFilter,
+    ListEventTypesFilter (ListEventTypesFilter'),
     newListEventTypesFilter,
     listEventTypesFilter_name,
     listEventTypesFilter_value,
 
     -- * ListNotificationRulesFilter
-    ListNotificationRulesFilter,
+    ListNotificationRulesFilter (ListNotificationRulesFilter'),
     newListNotificationRulesFilter,
     listNotificationRulesFilter_name,
     listNotificationRulesFilter_value,
 
     -- * ListTargetsFilter
-    ListTargetsFilter,
+    ListTargetsFilter (ListTargetsFilter'),
     newListTargetsFilter,
     listTargetsFilter_name,
     listTargetsFilter_value,
 
     -- * NotificationRuleSummary
-    NotificationRuleSummary,
+    NotificationRuleSummary (NotificationRuleSummary'),
     newNotificationRuleSummary,
     notificationRuleSummary_arn,
     notificationRuleSummary_id,
 
     -- * Target
-    Target,
+    Target (Target'),
     newTarget,
     target_targetAddress,
     target_targetType,
 
     -- * TargetSummary
-    TargetSummary,
+    TargetSummary (TargetSummary'),
     newTargetSummary,
     targetSummary_targetAddress,
     targetSummary_targetStatus,

@@ -26,16 +26,16 @@ module Amazonka.EMRServerless.Types
     _ValidationException,
 
     -- * ApplicationState
-    ApplicationState,
+    ApplicationState (ApplicationState'),
 
     -- * Architecture
-    Architecture,
+    Architecture (Architecture'),
 
     -- * JobRunState
-    JobRunState,
+    JobRunState (JobRunState'),
 
     -- * Application
-    Application,
+    Application (Application'),
     newApplication,
     application_architecture,
     application_autoStartConfiguration,
@@ -57,7 +57,7 @@ module Amazonka.EMRServerless.Types
     application_updatedAt,
 
     -- * ApplicationSummary
-    ApplicationSummary,
+    ApplicationSummary (ApplicationSummary'),
     newApplicationSummary,
     applicationSummary_architecture,
     applicationSummary_name,
@@ -71,61 +71,61 @@ module Amazonka.EMRServerless.Types
     applicationSummary_updatedAt,
 
     -- * AutoStartConfig
-    AutoStartConfig,
+    AutoStartConfig (AutoStartConfig'),
     newAutoStartConfig,
     autoStartConfig_enabled,
 
     -- * AutoStopConfig
-    AutoStopConfig,
+    AutoStopConfig (AutoStopConfig'),
     newAutoStopConfig,
     autoStopConfig_enabled,
     autoStopConfig_idleTimeoutMinutes,
 
     -- * Configuration
-    Configuration,
+    Configuration (Configuration'),
     newConfiguration,
     configuration_configurations,
     configuration_properties,
     configuration_classification,
 
     -- * ConfigurationOverrides
-    ConfigurationOverrides,
+    ConfigurationOverrides (ConfigurationOverrides'),
     newConfigurationOverrides,
     configurationOverrides_applicationConfiguration,
     configurationOverrides_monitoringConfiguration,
 
     -- * Hive
-    Hive,
+    Hive (Hive'),
     newHive,
     hive_initQueryFile,
     hive_parameters,
     hive_query,
 
     -- * ImageConfiguration
-    ImageConfiguration,
+    ImageConfiguration (ImageConfiguration'),
     newImageConfiguration,
     imageConfiguration_resolvedImageDigest,
     imageConfiguration_imageUri,
 
     -- * ImageConfigurationInput
-    ImageConfigurationInput,
+    ImageConfigurationInput (ImageConfigurationInput'),
     newImageConfigurationInput,
     imageConfigurationInput_imageUri,
 
     -- * InitialCapacityConfig
-    InitialCapacityConfig,
+    InitialCapacityConfig (InitialCapacityConfig'),
     newInitialCapacityConfig,
     initialCapacityConfig_workerConfiguration,
     initialCapacityConfig_workerCount,
 
     -- * JobDriver
-    JobDriver,
+    JobDriver (JobDriver'),
     newJobDriver,
     jobDriver_hive,
     jobDriver_sparkSubmit,
 
     -- * JobRun
-    JobRun,
+    JobRun (JobRun'),
     newJobRun,
     jobRun_configurationOverrides,
     jobRun_name,
@@ -146,7 +146,7 @@ module Amazonka.EMRServerless.Types
     jobRun_jobDriver,
 
     -- * JobRunSummary
-    JobRunSummary,
+    JobRunSummary (JobRunSummary'),
     newJobRunSummary,
     jobRunSummary_name,
     jobRunSummary_type,
@@ -162,64 +162,64 @@ module Amazonka.EMRServerless.Types
     jobRunSummary_releaseLabel,
 
     -- * ManagedPersistenceMonitoringConfiguration
-    ManagedPersistenceMonitoringConfiguration,
+    ManagedPersistenceMonitoringConfiguration (ManagedPersistenceMonitoringConfiguration'),
     newManagedPersistenceMonitoringConfiguration,
     managedPersistenceMonitoringConfiguration_enabled,
     managedPersistenceMonitoringConfiguration_encryptionKeyArn,
 
     -- * MaximumAllowedResources
-    MaximumAllowedResources,
+    MaximumAllowedResources (MaximumAllowedResources'),
     newMaximumAllowedResources,
     maximumAllowedResources_disk,
     maximumAllowedResources_cpu,
     maximumAllowedResources_memory,
 
     -- * MonitoringConfiguration
-    MonitoringConfiguration,
+    MonitoringConfiguration (MonitoringConfiguration'),
     newMonitoringConfiguration,
     monitoringConfiguration_managedPersistenceMonitoringConfiguration,
     monitoringConfiguration_s3MonitoringConfiguration,
 
     -- * NetworkConfiguration
-    NetworkConfiguration,
+    NetworkConfiguration (NetworkConfiguration'),
     newNetworkConfiguration,
     networkConfiguration_securityGroupIds,
     networkConfiguration_subnetIds,
 
     -- * S3MonitoringConfiguration
-    S3MonitoringConfiguration,
+    S3MonitoringConfiguration (S3MonitoringConfiguration'),
     newS3MonitoringConfiguration,
     s3MonitoringConfiguration_encryptionKeyArn,
     s3MonitoringConfiguration_logUri,
 
     -- * SparkSubmit
-    SparkSubmit,
+    SparkSubmit (SparkSubmit'),
     newSparkSubmit,
     sparkSubmit_entryPointArguments,
     sparkSubmit_sparkSubmitParameters,
     sparkSubmit_entryPoint,
 
     -- * TotalResourceUtilization
-    TotalResourceUtilization,
+    TotalResourceUtilization (TotalResourceUtilization'),
     newTotalResourceUtilization,
     totalResourceUtilization_memoryGBHour,
     totalResourceUtilization_storageGBHour,
     totalResourceUtilization_vCPUHour,
 
     -- * WorkerResourceConfig
-    WorkerResourceConfig,
+    WorkerResourceConfig (WorkerResourceConfig'),
     newWorkerResourceConfig,
     workerResourceConfig_disk,
     workerResourceConfig_cpu,
     workerResourceConfig_memory,
 
     -- * WorkerTypeSpecification
-    WorkerTypeSpecification,
+    WorkerTypeSpecification (WorkerTypeSpecification'),
     newWorkerTypeSpecification,
     workerTypeSpecification_imageConfiguration,
 
     -- * WorkerTypeSpecificationInput
-    WorkerTypeSpecificationInput,
+    WorkerTypeSpecificationInput (WorkerTypeSpecificationInput'),
     newWorkerTypeSpecificationInput,
     workerTypeSpecificationInput_imageConfiguration,
   )

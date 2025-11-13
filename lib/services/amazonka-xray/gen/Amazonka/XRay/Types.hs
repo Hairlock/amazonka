@@ -31,49 +31,49 @@ module Amazonka.XRay.Types
     _TooManyTagsException,
 
     -- * EncryptionStatus
-    EncryptionStatus,
+    EncryptionStatus (EncryptionStatus'),
 
     -- * EncryptionType
-    EncryptionType,
+    EncryptionType (EncryptionType'),
 
     -- * InsightCategory
-    InsightCategory,
+    InsightCategory (InsightCategory'),
 
     -- * InsightState
-    InsightState,
+    InsightState (InsightState'),
 
     -- * SamplingStrategyName
-    SamplingStrategyName,
+    SamplingStrategyName (SamplingStrategyName'),
 
     -- * TimeRangeType
-    TimeRangeType,
+    TimeRangeType (TimeRangeType'),
 
     -- * Alias
-    Alias,
+    Alias (Alias'),
     newAlias,
     alias_name,
     alias_names,
     alias_type,
 
     -- * AnnotationValue
-    AnnotationValue,
+    AnnotationValue (AnnotationValue'),
     newAnnotationValue,
     annotationValue_booleanValue,
     annotationValue_numberValue,
     annotationValue_stringValue,
 
     -- * AnomalousService
-    AnomalousService,
+    AnomalousService (AnomalousService'),
     newAnomalousService,
     anomalousService_serviceId,
 
     -- * AvailabilityZoneDetail
-    AvailabilityZoneDetail,
+    AvailabilityZoneDetail (AvailabilityZoneDetail'),
     newAvailabilityZoneDetail,
     availabilityZoneDetail_name,
 
     -- * BackendConnectionErrors
-    BackendConnectionErrors,
+    BackendConnectionErrors (BackendConnectionErrors'),
     newBackendConnectionErrors,
     backendConnectionErrors_connectionRefusedCount,
     backendConnectionErrors_hTTPCode4XXCount,
@@ -83,7 +83,7 @@ module Amazonka.XRay.Types
     backendConnectionErrors_unknownHostCount,
 
     -- * Edge
-    Edge,
+    Edge (Edge'),
     newEdge,
     edge_aliases,
     edge_edgeType,
@@ -95,7 +95,7 @@ module Amazonka.XRay.Types
     edge_summaryStatistics,
 
     -- * EdgeStatistics
-    EdgeStatistics,
+    EdgeStatistics (EdgeStatistics'),
     newEdgeStatistics,
     edgeStatistics_errorStatistics,
     edgeStatistics_faultStatistics,
@@ -104,27 +104,27 @@ module Amazonka.XRay.Types
     edgeStatistics_totalResponseTime,
 
     -- * EncryptionConfig
-    EncryptionConfig,
+    EncryptionConfig (EncryptionConfig'),
     newEncryptionConfig,
     encryptionConfig_keyId,
     encryptionConfig_status,
     encryptionConfig_type,
 
     -- * ErrorRootCause
-    ErrorRootCause,
+    ErrorRootCause (ErrorRootCause'),
     newErrorRootCause,
     errorRootCause_clientImpacting,
     errorRootCause_services,
 
     -- * ErrorRootCauseEntity
-    ErrorRootCauseEntity,
+    ErrorRootCauseEntity (ErrorRootCauseEntity'),
     newErrorRootCauseEntity,
     errorRootCauseEntity_exceptions,
     errorRootCauseEntity_name,
     errorRootCauseEntity_remote,
 
     -- * ErrorRootCauseService
-    ErrorRootCauseService,
+    ErrorRootCauseService (ErrorRootCauseService'),
     newErrorRootCauseService,
     errorRootCauseService_accountId,
     errorRootCauseService_entityPath,
@@ -134,27 +134,27 @@ module Amazonka.XRay.Types
     errorRootCauseService_type,
 
     -- * ErrorStatistics
-    ErrorStatistics,
+    ErrorStatistics (ErrorStatistics'),
     newErrorStatistics,
     errorStatistics_otherCount,
     errorStatistics_throttleCount,
     errorStatistics_totalCount,
 
     -- * FaultRootCause
-    FaultRootCause,
+    FaultRootCause (FaultRootCause'),
     newFaultRootCause,
     faultRootCause_clientImpacting,
     faultRootCause_services,
 
     -- * FaultRootCauseEntity
-    FaultRootCauseEntity,
+    FaultRootCauseEntity (FaultRootCauseEntity'),
     newFaultRootCauseEntity,
     faultRootCauseEntity_exceptions,
     faultRootCauseEntity_name,
     faultRootCauseEntity_remote,
 
     -- * FaultRootCauseService
-    FaultRootCauseService,
+    FaultRootCauseService (FaultRootCauseService'),
     newFaultRootCauseService,
     faultRootCauseService_accountId,
     faultRootCauseService_entityPath,
@@ -164,19 +164,19 @@ module Amazonka.XRay.Types
     faultRootCauseService_type,
 
     -- * FaultStatistics
-    FaultStatistics,
+    FaultStatistics (FaultStatistics'),
     newFaultStatistics,
     faultStatistics_otherCount,
     faultStatistics_totalCount,
 
     -- * ForecastStatistics
-    ForecastStatistics,
+    ForecastStatistics (ForecastStatistics'),
     newForecastStatistics,
     forecastStatistics_faultCountHigh,
     forecastStatistics_faultCountLow,
 
     -- * Group
-    Group,
+    Group (Group'),
     newGroup,
     group_filterExpression,
     group_groupARN,
@@ -184,7 +184,7 @@ module Amazonka.XRay.Types
     group_insightsConfiguration,
 
     -- * GroupSummary
-    GroupSummary,
+    GroupSummary (GroupSummary'),
     newGroupSummary,
     groupSummary_filterExpression,
     groupSummary_groupARN,
@@ -192,13 +192,13 @@ module Amazonka.XRay.Types
     groupSummary_insightsConfiguration,
 
     -- * HistogramEntry
-    HistogramEntry,
+    HistogramEntry (HistogramEntry'),
     newHistogramEntry,
     histogramEntry_count,
     histogramEntry_value,
 
     -- * Http
-    Http,
+    Http (Http'),
     newHttp,
     http_clientIp,
     http_httpMethod,
@@ -207,7 +207,7 @@ module Amazonka.XRay.Types
     http_userAgent,
 
     -- * Insight
-    Insight,
+    Insight (Insight'),
     newInsight,
     insight_categories,
     insight_clientRequestImpactStatistics,
@@ -223,7 +223,7 @@ module Amazonka.XRay.Types
     insight_topAnomalousServices,
 
     -- * InsightEvent
-    InsightEvent,
+    InsightEvent (InsightEvent'),
     newInsightEvent,
     insightEvent_clientRequestImpactStatistics,
     insightEvent_eventTime,
@@ -232,12 +232,12 @@ module Amazonka.XRay.Types
     insightEvent_topAnomalousServices,
 
     -- * InsightImpactGraphEdge
-    InsightImpactGraphEdge,
+    InsightImpactGraphEdge (InsightImpactGraphEdge'),
     newInsightImpactGraphEdge,
     insightImpactGraphEdge_referenceId,
 
     -- * InsightImpactGraphService
-    InsightImpactGraphService,
+    InsightImpactGraphService (InsightImpactGraphService'),
     newInsightImpactGraphService,
     insightImpactGraphService_accountId,
     insightImpactGraphService_edges,
@@ -247,7 +247,7 @@ module Amazonka.XRay.Types
     insightImpactGraphService_type,
 
     -- * InsightSummary
-    InsightSummary,
+    InsightSummary (InsightSummary'),
     newInsightSummary,
     insightSummary_categories,
     insightSummary_clientRequestImpactStatistics,
@@ -264,30 +264,30 @@ module Amazonka.XRay.Types
     insightSummary_topAnomalousServices,
 
     -- * InsightsConfiguration
-    InsightsConfiguration,
+    InsightsConfiguration (InsightsConfiguration'),
     newInsightsConfiguration,
     insightsConfiguration_insightsEnabled,
     insightsConfiguration_notificationsEnabled,
 
     -- * InstanceIdDetail
-    InstanceIdDetail,
+    InstanceIdDetail (InstanceIdDetail'),
     newInstanceIdDetail,
     instanceIdDetail_id,
 
     -- * RequestImpactStatistics
-    RequestImpactStatistics,
+    RequestImpactStatistics (RequestImpactStatistics'),
     newRequestImpactStatistics,
     requestImpactStatistics_faultCount,
     requestImpactStatistics_okCount,
     requestImpactStatistics_totalCount,
 
     -- * ResourceARNDetail
-    ResourceARNDetail,
+    ResourceARNDetail (ResourceARNDetail'),
     newResourceARNDetail,
     resourceARNDetail_arn,
 
     -- * ResourcePolicy
-    ResourcePolicy,
+    ResourcePolicy (ResourcePolicy'),
     newResourcePolicy,
     resourcePolicy_lastUpdatedTime,
     resourcePolicy_policyDocument,
@@ -295,20 +295,20 @@ module Amazonka.XRay.Types
     resourcePolicy_policyRevisionId,
 
     -- * ResponseTimeRootCause
-    ResponseTimeRootCause,
+    ResponseTimeRootCause (ResponseTimeRootCause'),
     newResponseTimeRootCause,
     responseTimeRootCause_clientImpacting,
     responseTimeRootCause_services,
 
     -- * ResponseTimeRootCauseEntity
-    ResponseTimeRootCauseEntity,
+    ResponseTimeRootCauseEntity (ResponseTimeRootCauseEntity'),
     newResponseTimeRootCauseEntity,
     responseTimeRootCauseEntity_coverage,
     responseTimeRootCauseEntity_name,
     responseTimeRootCauseEntity_remote,
 
     -- * ResponseTimeRootCauseService
-    ResponseTimeRootCauseService,
+    ResponseTimeRootCauseService (ResponseTimeRootCauseService'),
     newResponseTimeRootCauseService,
     responseTimeRootCauseService_accountId,
     responseTimeRootCauseService_entityPath,
@@ -318,13 +318,13 @@ module Amazonka.XRay.Types
     responseTimeRootCauseService_type,
 
     -- * RootCauseException
-    RootCauseException,
+    RootCauseException (RootCauseException'),
     newRootCauseException,
     rootCauseException_message,
     rootCauseException_name,
 
     -- * SamplingRule
-    SamplingRule,
+    SamplingRule (SamplingRule'),
     newSamplingRule,
     samplingRule_attributes,
     samplingRule_ruleARN,
@@ -341,14 +341,14 @@ module Amazonka.XRay.Types
     samplingRule_version,
 
     -- * SamplingRuleRecord
-    SamplingRuleRecord,
+    SamplingRuleRecord (SamplingRuleRecord'),
     newSamplingRuleRecord,
     samplingRuleRecord_createdAt,
     samplingRuleRecord_modifiedAt,
     samplingRuleRecord_samplingRule,
 
     -- * SamplingRuleUpdate
-    SamplingRuleUpdate,
+    SamplingRuleUpdate (SamplingRuleUpdate'),
     newSamplingRuleUpdate,
     samplingRuleUpdate_attributes,
     samplingRuleUpdate_fixedRate,
@@ -364,7 +364,7 @@ module Amazonka.XRay.Types
     samplingRuleUpdate_uRLPath,
 
     -- * SamplingStatisticSummary
-    SamplingStatisticSummary,
+    SamplingStatisticSummary (SamplingStatisticSummary'),
     newSamplingStatisticSummary,
     samplingStatisticSummary_borrowCount,
     samplingStatisticSummary_requestCount,
@@ -373,7 +373,7 @@ module Amazonka.XRay.Types
     samplingStatisticSummary_timestamp,
 
     -- * SamplingStatisticsDocument
-    SamplingStatisticsDocument,
+    SamplingStatisticsDocument (SamplingStatisticsDocument'),
     newSamplingStatisticsDocument,
     samplingStatisticsDocument_borrowCount,
     samplingStatisticsDocument_ruleName,
@@ -383,13 +383,13 @@ module Amazonka.XRay.Types
     samplingStatisticsDocument_sampledCount,
 
     -- * SamplingStrategy
-    SamplingStrategy,
+    SamplingStrategy (SamplingStrategy'),
     newSamplingStrategy,
     samplingStrategy_name,
     samplingStrategy_value,
 
     -- * SamplingTargetDocument
-    SamplingTargetDocument,
+    SamplingTargetDocument (SamplingTargetDocument'),
     newSamplingTargetDocument,
     samplingTargetDocument_fixedRate,
     samplingTargetDocument_interval,
@@ -398,13 +398,13 @@ module Amazonka.XRay.Types
     samplingTargetDocument_ruleName,
 
     -- * Segment
-    Segment,
+    Segment (Segment'),
     newSegment,
     segment_document,
     segment_id,
 
     -- * ServiceId
-    ServiceId,
+    ServiceId (ServiceId'),
     newServiceId,
     serviceId_accountId,
     serviceId_name,
@@ -412,7 +412,7 @@ module Amazonka.XRay.Types
     serviceId_type,
 
     -- * ServiceInfo
-    ServiceInfo,
+    ServiceInfo (ServiceInfo'),
     newServiceInfo,
     serviceInfo_accountId,
     serviceInfo_durationHistogram,
@@ -429,7 +429,7 @@ module Amazonka.XRay.Types
     serviceInfo_type,
 
     -- * ServiceStatistics
-    ServiceStatistics,
+    ServiceStatistics (ServiceStatistics'),
     newServiceStatistics,
     serviceStatistics_errorStatistics,
     serviceStatistics_faultStatistics,
@@ -438,13 +438,13 @@ module Amazonka.XRay.Types
     serviceStatistics_totalResponseTime,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
 
     -- * TelemetryRecord
-    TelemetryRecord,
+    TelemetryRecord (TelemetryRecord'),
     newTelemetryRecord,
     telemetryRecord_backendConnectionErrors,
     telemetryRecord_segmentsReceivedCount,
@@ -454,7 +454,7 @@ module Amazonka.XRay.Types
     telemetryRecord_timestamp,
 
     -- * TimeSeriesServiceStatistics
-    TimeSeriesServiceStatistics,
+    TimeSeriesServiceStatistics (TimeSeriesServiceStatistics'),
     newTimeSeriesServiceStatistics,
     timeSeriesServiceStatistics_edgeSummaryStatistics,
     timeSeriesServiceStatistics_responseTimeHistogram,
@@ -463,7 +463,7 @@ module Amazonka.XRay.Types
     timeSeriesServiceStatistics_timestamp,
 
     -- * Trace
-    Trace,
+    Trace (Trace'),
     newTrace,
     trace_duration,
     trace_id,
@@ -471,7 +471,7 @@ module Amazonka.XRay.Types
     trace_segments,
 
     -- * TraceSummary
-    TraceSummary,
+    TraceSummary (TraceSummary'),
     newTraceSummary,
     traceSummary_annotations,
     traceSummary_availabilityZones,
@@ -495,27 +495,27 @@ module Amazonka.XRay.Types
     traceSummary_users,
 
     -- * TraceUser
-    TraceUser,
+    TraceUser (TraceUser'),
     newTraceUser,
     traceUser_serviceIds,
     traceUser_userName,
 
     -- * UnprocessedStatistics
-    UnprocessedStatistics,
+    UnprocessedStatistics (UnprocessedStatistics'),
     newUnprocessedStatistics,
     unprocessedStatistics_errorCode,
     unprocessedStatistics_message,
     unprocessedStatistics_ruleName,
 
     -- * UnprocessedTraceSegment
-    UnprocessedTraceSegment,
+    UnprocessedTraceSegment (UnprocessedTraceSegment'),
     newUnprocessedTraceSegment,
     unprocessedTraceSegment_errorCode,
     unprocessedTraceSegment_id,
     unprocessedTraceSegment_message,
 
     -- * ValueWithServiceIds
-    ValueWithServiceIds,
+    ValueWithServiceIds (ValueWithServiceIds'),
     newValueWithServiceIds,
     valueWithServiceIds_annotationValue,
     valueWithServiceIds_serviceIds,

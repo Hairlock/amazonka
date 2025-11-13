@@ -29,25 +29,25 @@ module Amazonka.Personalize.Types
     _TooManyTagsException,
 
     -- * Domain
-    Domain,
+    Domain (Domain'),
 
     -- * ImportMode
-    ImportMode,
+    ImportMode (ImportMode'),
 
     -- * IngestionMode
-    IngestionMode,
+    IngestionMode (IngestionMode'),
 
     -- * ObjectiveSensitivity
-    ObjectiveSensitivity,
+    ObjectiveSensitivity (ObjectiveSensitivity'),
 
     -- * RecipeProvider
-    RecipeProvider,
+    RecipeProvider (RecipeProvider'),
 
     -- * TrainingMode
-    TrainingMode,
+    TrainingMode (TrainingMode'),
 
     -- * Algorithm
-    Algorithm,
+    Algorithm (Algorithm'),
     newAlgorithm,
     algorithm_algorithmArn,
     algorithm_algorithmImage,
@@ -61,24 +61,24 @@ module Amazonka.Personalize.Types
     algorithm_trainingInputMode,
 
     -- * AlgorithmImage
-    AlgorithmImage,
+    AlgorithmImage (AlgorithmImage'),
     newAlgorithmImage,
     algorithmImage_name,
     algorithmImage_dockerURI,
 
     -- * AutoMLConfig
-    AutoMLConfig,
+    AutoMLConfig (AutoMLConfig'),
     newAutoMLConfig,
     autoMLConfig_metricName,
     autoMLConfig_recipeList,
 
     -- * AutoMLResult
-    AutoMLResult,
+    AutoMLResult (AutoMLResult'),
     newAutoMLResult,
     autoMLResult_bestRecipeArn,
 
     -- * BatchInferenceJob
-    BatchInferenceJob,
+    BatchInferenceJob (BatchInferenceJob'),
     newBatchInferenceJob,
     batchInferenceJob_batchInferenceJobArn,
     batchInferenceJob_batchInferenceJobConfig,
@@ -95,22 +95,22 @@ module Amazonka.Personalize.Types
     batchInferenceJob_status,
 
     -- * BatchInferenceJobConfig
-    BatchInferenceJobConfig,
+    BatchInferenceJobConfig (BatchInferenceJobConfig'),
     newBatchInferenceJobConfig,
     batchInferenceJobConfig_itemExplorationConfig,
 
     -- * BatchInferenceJobInput
-    BatchInferenceJobInput,
+    BatchInferenceJobInput (BatchInferenceJobInput'),
     newBatchInferenceJobInput,
     batchInferenceJobInput_s3DataSource,
 
     -- * BatchInferenceJobOutput
-    BatchInferenceJobOutput,
+    BatchInferenceJobOutput (BatchInferenceJobOutput'),
     newBatchInferenceJobOutput,
     batchInferenceJobOutput_s3DataDestination,
 
     -- * BatchInferenceJobSummary
-    BatchInferenceJobSummary,
+    BatchInferenceJobSummary (BatchInferenceJobSummary'),
     newBatchInferenceJobSummary,
     batchInferenceJobSummary_batchInferenceJobArn,
     batchInferenceJobSummary_creationDateTime,
@@ -121,7 +121,7 @@ module Amazonka.Personalize.Types
     batchInferenceJobSummary_status,
 
     -- * BatchSegmentJob
-    BatchSegmentJob,
+    BatchSegmentJob (BatchSegmentJob'),
     newBatchSegmentJob,
     batchSegmentJob_batchSegmentJobArn,
     batchSegmentJob_creationDateTime,
@@ -137,17 +137,17 @@ module Amazonka.Personalize.Types
     batchSegmentJob_status,
 
     -- * BatchSegmentJobInput
-    BatchSegmentJobInput,
+    BatchSegmentJobInput (BatchSegmentJobInput'),
     newBatchSegmentJobInput,
     batchSegmentJobInput_s3DataSource,
 
     -- * BatchSegmentJobOutput
-    BatchSegmentJobOutput,
+    BatchSegmentJobOutput (BatchSegmentJobOutput'),
     newBatchSegmentJobOutput,
     batchSegmentJobOutput_s3DataDestination,
 
     -- * BatchSegmentJobSummary
-    BatchSegmentJobSummary,
+    BatchSegmentJobSummary (BatchSegmentJobSummary'),
     newBatchSegmentJobSummary,
     batchSegmentJobSummary_batchSegmentJobArn,
     batchSegmentJobSummary_creationDateTime,
@@ -158,7 +158,7 @@ module Amazonka.Personalize.Types
     batchSegmentJobSummary_status,
 
     -- * Campaign
-    Campaign,
+    Campaign (Campaign'),
     newCampaign,
     campaign_campaignArn,
     campaign_campaignConfig,
@@ -172,12 +172,12 @@ module Amazonka.Personalize.Types
     campaign_status,
 
     -- * CampaignConfig
-    CampaignConfig,
+    CampaignConfig (CampaignConfig'),
     newCampaignConfig,
     campaignConfig_itemExplorationConfig,
 
     -- * CampaignSummary
-    CampaignSummary,
+    CampaignSummary (CampaignSummary'),
     newCampaignSummary,
     campaignSummary_campaignArn,
     campaignSummary_creationDateTime,
@@ -187,7 +187,7 @@ module Amazonka.Personalize.Types
     campaignSummary_status,
 
     -- * CampaignUpdateSummary
-    CampaignUpdateSummary,
+    CampaignUpdateSummary (CampaignUpdateSummary'),
     newCampaignUpdateSummary,
     campaignUpdateSummary_campaignConfig,
     campaignUpdateSummary_creationDateTime,
@@ -198,25 +198,25 @@ module Amazonka.Personalize.Types
     campaignUpdateSummary_status,
 
     -- * CategoricalHyperParameterRange
-    CategoricalHyperParameterRange,
+    CategoricalHyperParameterRange (CategoricalHyperParameterRange'),
     newCategoricalHyperParameterRange,
     categoricalHyperParameterRange_name,
     categoricalHyperParameterRange_values,
 
     -- * ContinuousHyperParameterRange
-    ContinuousHyperParameterRange,
+    ContinuousHyperParameterRange (ContinuousHyperParameterRange'),
     newContinuousHyperParameterRange,
     continuousHyperParameterRange_maxValue,
     continuousHyperParameterRange_minValue,
     continuousHyperParameterRange_name,
 
     -- * DataSource
-    DataSource,
+    DataSource (DataSource'),
     newDataSource,
     dataSource_dataLocation,
 
     -- * Dataset
-    Dataset,
+    Dataset (Dataset'),
     newDataset,
     dataset_creationDateTime,
     dataset_datasetArn,
@@ -228,7 +228,7 @@ module Amazonka.Personalize.Types
     dataset_status,
 
     -- * DatasetExportJob
-    DatasetExportJob,
+    DatasetExportJob (DatasetExportJob'),
     newDatasetExportJob,
     datasetExportJob_creationDateTime,
     datasetExportJob_datasetArn,
@@ -242,12 +242,12 @@ module Amazonka.Personalize.Types
     datasetExportJob_status,
 
     -- * DatasetExportJobOutput
-    DatasetExportJobOutput,
+    DatasetExportJobOutput (DatasetExportJobOutput'),
     newDatasetExportJobOutput,
     datasetExportJobOutput_s3DataDestination,
 
     -- * DatasetExportJobSummary
-    DatasetExportJobSummary,
+    DatasetExportJobSummary (DatasetExportJobSummary'),
     newDatasetExportJobSummary,
     datasetExportJobSummary_creationDateTime,
     datasetExportJobSummary_datasetExportJobArn,
@@ -257,7 +257,7 @@ module Amazonka.Personalize.Types
     datasetExportJobSummary_status,
 
     -- * DatasetGroup
-    DatasetGroup,
+    DatasetGroup (DatasetGroup'),
     newDatasetGroup,
     datasetGroup_creationDateTime,
     datasetGroup_datasetGroupArn,
@@ -270,7 +270,7 @@ module Amazonka.Personalize.Types
     datasetGroup_status,
 
     -- * DatasetGroupSummary
-    DatasetGroupSummary,
+    DatasetGroupSummary (DatasetGroupSummary'),
     newDatasetGroupSummary,
     datasetGroupSummary_creationDateTime,
     datasetGroupSummary_datasetGroupArn,
@@ -281,7 +281,7 @@ module Amazonka.Personalize.Types
     datasetGroupSummary_status,
 
     -- * DatasetImportJob
-    DatasetImportJob,
+    DatasetImportJob (DatasetImportJob'),
     newDatasetImportJob,
     datasetImportJob_creationDateTime,
     datasetImportJob_dataSource,
@@ -296,7 +296,7 @@ module Amazonka.Personalize.Types
     datasetImportJob_status,
 
     -- * DatasetImportJobSummary
-    DatasetImportJobSummary,
+    DatasetImportJobSummary (DatasetImportJobSummary'),
     newDatasetImportJobSummary,
     datasetImportJobSummary_creationDateTime,
     datasetImportJobSummary_datasetImportJobArn,
@@ -307,7 +307,7 @@ module Amazonka.Personalize.Types
     datasetImportJobSummary_status,
 
     -- * DatasetSchema
-    DatasetSchema,
+    DatasetSchema (DatasetSchema'),
     newDatasetSchema,
     datasetSchema_creationDateTime,
     datasetSchema_domain,
@@ -317,7 +317,7 @@ module Amazonka.Personalize.Types
     datasetSchema_schemaArn,
 
     -- * DatasetSchemaSummary
-    DatasetSchemaSummary,
+    DatasetSchemaSummary (DatasetSchemaSummary'),
     newDatasetSchemaSummary,
     datasetSchemaSummary_creationDateTime,
     datasetSchemaSummary_domain,
@@ -326,7 +326,7 @@ module Amazonka.Personalize.Types
     datasetSchemaSummary_schemaArn,
 
     -- * DatasetSummary
-    DatasetSummary,
+    DatasetSummary (DatasetSummary'),
     newDatasetSummary,
     datasetSummary_creationDateTime,
     datasetSummary_datasetArn,
@@ -336,14 +336,14 @@ module Amazonka.Personalize.Types
     datasetSummary_status,
 
     -- * DefaultCategoricalHyperParameterRange
-    DefaultCategoricalHyperParameterRange,
+    DefaultCategoricalHyperParameterRange (DefaultCategoricalHyperParameterRange'),
     newDefaultCategoricalHyperParameterRange,
     defaultCategoricalHyperParameterRange_isTunable,
     defaultCategoricalHyperParameterRange_name,
     defaultCategoricalHyperParameterRange_values,
 
     -- * DefaultContinuousHyperParameterRange
-    DefaultContinuousHyperParameterRange,
+    DefaultContinuousHyperParameterRange (DefaultContinuousHyperParameterRange'),
     newDefaultContinuousHyperParameterRange,
     defaultContinuousHyperParameterRange_isTunable,
     defaultContinuousHyperParameterRange_maxValue,
@@ -351,14 +351,14 @@ module Amazonka.Personalize.Types
     defaultContinuousHyperParameterRange_name,
 
     -- * DefaultHyperParameterRanges
-    DefaultHyperParameterRanges,
+    DefaultHyperParameterRanges (DefaultHyperParameterRanges'),
     newDefaultHyperParameterRanges,
     defaultHyperParameterRanges_categoricalHyperParameterRanges,
     defaultHyperParameterRanges_continuousHyperParameterRanges,
     defaultHyperParameterRanges_integerHyperParameterRanges,
 
     -- * DefaultIntegerHyperParameterRange
-    DefaultIntegerHyperParameterRange,
+    DefaultIntegerHyperParameterRange (DefaultIntegerHyperParameterRange'),
     newDefaultIntegerHyperParameterRange,
     defaultIntegerHyperParameterRange_isTunable,
     defaultIntegerHyperParameterRange_maxValue,
@@ -366,7 +366,7 @@ module Amazonka.Personalize.Types
     defaultIntegerHyperParameterRange_name,
 
     -- * EventTracker
-    EventTracker,
+    EventTracker (EventTracker'),
     newEventTracker,
     eventTracker_accountId,
     eventTracker_creationDateTime,
@@ -378,7 +378,7 @@ module Amazonka.Personalize.Types
     eventTracker_trackingId,
 
     -- * EventTrackerSummary
-    EventTrackerSummary,
+    EventTrackerSummary (EventTrackerSummary'),
     newEventTrackerSummary,
     eventTrackerSummary_creationDateTime,
     eventTrackerSummary_eventTrackerArn,
@@ -387,7 +387,7 @@ module Amazonka.Personalize.Types
     eventTrackerSummary_status,
 
     -- * FeatureTransformation
-    FeatureTransformation,
+    FeatureTransformation (FeatureTransformation'),
     newFeatureTransformation,
     featureTransformation_creationDateTime,
     featureTransformation_defaultParameters,
@@ -397,7 +397,7 @@ module Amazonka.Personalize.Types
     featureTransformation_status,
 
     -- * Filter
-    Filter,
+    Filter (Filter'),
     newFilter,
     filter_creationDateTime,
     filter_datasetGroupArn,
@@ -409,7 +409,7 @@ module Amazonka.Personalize.Types
     filter_status,
 
     -- * FilterSummary
-    FilterSummary,
+    FilterSummary (FilterSummary'),
     newFilterSummary,
     filterSummary_creationDateTime,
     filterSummary_datasetGroupArn,
@@ -420,48 +420,48 @@ module Amazonka.Personalize.Types
     filterSummary_status,
 
     -- * HPOConfig
-    HPOConfig,
+    HPOConfig (HPOConfig'),
     newHPOConfig,
     hPOConfig_algorithmHyperParameterRanges,
     hPOConfig_hpoObjective,
     hPOConfig_hpoResourceConfig,
 
     -- * HPOObjective
-    HPOObjective,
+    HPOObjective (HPOObjective'),
     newHPOObjective,
     hPOObjective_metricName,
     hPOObjective_metricRegex,
     hPOObjective_type,
 
     -- * HPOResourceConfig
-    HPOResourceConfig,
+    HPOResourceConfig (HPOResourceConfig'),
     newHPOResourceConfig,
     hPOResourceConfig_maxNumberOfTrainingJobs,
     hPOResourceConfig_maxParallelTrainingJobs,
 
     -- * HyperParameterRanges
-    HyperParameterRanges,
+    HyperParameterRanges (HyperParameterRanges'),
     newHyperParameterRanges,
     hyperParameterRanges_categoricalHyperParameterRanges,
     hyperParameterRanges_continuousHyperParameterRanges,
     hyperParameterRanges_integerHyperParameterRanges,
 
     -- * IntegerHyperParameterRange
-    IntegerHyperParameterRange,
+    IntegerHyperParameterRange (IntegerHyperParameterRange'),
     newIntegerHyperParameterRange,
     integerHyperParameterRange_maxValue,
     integerHyperParameterRange_minValue,
     integerHyperParameterRange_name,
 
     -- * MetricAttribute
-    MetricAttribute,
+    MetricAttribute (MetricAttribute'),
     newMetricAttribute,
     metricAttribute_eventType,
     metricAttribute_metricName,
     metricAttribute_expression,
 
     -- * MetricAttribution
-    MetricAttribution,
+    MetricAttribution (MetricAttribution'),
     newMetricAttribution,
     metricAttribution_creationDateTime,
     metricAttribution_datasetGroupArn,
@@ -473,13 +473,13 @@ module Amazonka.Personalize.Types
     metricAttribution_status,
 
     -- * MetricAttributionOutput
-    MetricAttributionOutput,
+    MetricAttributionOutput (MetricAttributionOutput'),
     newMetricAttributionOutput,
     metricAttributionOutput_s3DataDestination,
     metricAttributionOutput_roleArn,
 
     -- * MetricAttributionSummary
-    MetricAttributionSummary,
+    MetricAttributionSummary (MetricAttributionSummary'),
     newMetricAttributionSummary,
     metricAttributionSummary_creationDateTime,
     metricAttributionSummary_failureReason,
@@ -489,13 +489,13 @@ module Amazonka.Personalize.Types
     metricAttributionSummary_status,
 
     -- * OptimizationObjective
-    OptimizationObjective,
+    OptimizationObjective (OptimizationObjective'),
     newOptimizationObjective,
     optimizationObjective_itemAttribute,
     optimizationObjective_objectiveSensitivity,
 
     -- * Recipe
-    Recipe,
+    Recipe (Recipe'),
     newRecipe,
     recipe_algorithmArn,
     recipe_creationDateTime,
@@ -508,7 +508,7 @@ module Amazonka.Personalize.Types
     recipe_status,
 
     -- * RecipeSummary
-    RecipeSummary,
+    RecipeSummary (RecipeSummary'),
     newRecipeSummary,
     recipeSummary_creationDateTime,
     recipeSummary_domain,
@@ -518,7 +518,7 @@ module Amazonka.Personalize.Types
     recipeSummary_status,
 
     -- * Recommender
-    Recommender,
+    Recommender (Recommender'),
     newRecommender,
     recommender_creationDateTime,
     recommender_datasetGroupArn,
@@ -533,13 +533,13 @@ module Amazonka.Personalize.Types
     recommender_status,
 
     -- * RecommenderConfig
-    RecommenderConfig,
+    RecommenderConfig (RecommenderConfig'),
     newRecommenderConfig,
     recommenderConfig_itemExplorationConfig,
     recommenderConfig_minRecommendationRequestsPerSecond,
 
     -- * RecommenderSummary
-    RecommenderSummary,
+    RecommenderSummary (RecommenderSummary'),
     newRecommenderSummary,
     recommenderSummary_creationDateTime,
     recommenderSummary_datasetGroupArn,
@@ -551,7 +551,7 @@ module Amazonka.Personalize.Types
     recommenderSummary_status,
 
     -- * RecommenderUpdateSummary
-    RecommenderUpdateSummary,
+    RecommenderUpdateSummary (RecommenderUpdateSummary'),
     newRecommenderUpdateSummary,
     recommenderUpdateSummary_creationDateTime,
     recommenderUpdateSummary_failureReason,
@@ -560,13 +560,13 @@ module Amazonka.Personalize.Types
     recommenderUpdateSummary_status,
 
     -- * S3DataConfig
-    S3DataConfig,
+    S3DataConfig (S3DataConfig'),
     newS3DataConfig,
     s3DataConfig_kmsKeyArn,
     s3DataConfig_path,
 
     -- * Solution
-    Solution,
+    Solution (Solution'),
     newSolution,
     solution_autoMLResult,
     solution_creationDateTime,
@@ -583,7 +583,7 @@ module Amazonka.Personalize.Types
     solution_status,
 
     -- * SolutionConfig
-    SolutionConfig,
+    SolutionConfig (SolutionConfig'),
     newSolutionConfig,
     solutionConfig_algorithmHyperParameters,
     solutionConfig_autoMLConfig,
@@ -593,7 +593,7 @@ module Amazonka.Personalize.Types
     solutionConfig_optimizationObjective,
 
     -- * SolutionSummary
-    SolutionSummary,
+    SolutionSummary (SolutionSummary'),
     newSolutionSummary,
     solutionSummary_creationDateTime,
     solutionSummary_lastUpdatedDateTime,
@@ -603,7 +603,7 @@ module Amazonka.Personalize.Types
     solutionSummary_status,
 
     -- * SolutionVersion
-    SolutionVersion,
+    SolutionVersion (SolutionVersion'),
     newSolutionVersion,
     solutionVersion_creationDateTime,
     solutionVersion_datasetGroupArn,
@@ -623,7 +623,7 @@ module Amazonka.Personalize.Types
     solutionVersion_tunedHPOParams,
 
     -- * SolutionVersionSummary
-    SolutionVersionSummary,
+    SolutionVersionSummary (SolutionVersionSummary'),
     newSolutionVersionSummary,
     solutionVersionSummary_creationDateTime,
     solutionVersionSummary_failureReason,
@@ -632,13 +632,13 @@ module Amazonka.Personalize.Types
     solutionVersionSummary_status,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_tagKey,
     tag_tagValue,
 
     -- * TunedHPOParams
-    TunedHPOParams,
+    TunedHPOParams (TunedHPOParams'),
     newTunedHPOParams,
     tunedHPOParams_algorithmHyperParameters,
   )

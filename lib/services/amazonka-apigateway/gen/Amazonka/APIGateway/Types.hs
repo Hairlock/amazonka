@@ -28,70 +28,70 @@ module Amazonka.APIGateway.Types
     _UnauthorizedException,
 
     -- * ApiKeySourceType
-    ApiKeySourceType,
+    ApiKeySourceType (ApiKeySourceType'),
 
     -- * ApiKeysFormat
-    ApiKeysFormat,
+    ApiKeysFormat (ApiKeysFormat'),
 
     -- * AuthorizerType
-    AuthorizerType,
+    AuthorizerType (AuthorizerType'),
 
     -- * CacheClusterSize
-    CacheClusterSize,
+    CacheClusterSize (CacheClusterSize'),
 
     -- * CacheClusterStatus
-    CacheClusterStatus,
+    CacheClusterStatus (CacheClusterStatus'),
 
     -- * ConnectionType
-    ConnectionType,
+    ConnectionType (ConnectionType'),
 
     -- * ContentHandlingStrategy
-    ContentHandlingStrategy,
+    ContentHandlingStrategy (ContentHandlingStrategy'),
 
     -- * DocumentationPartType
-    DocumentationPartType,
+    DocumentationPartType (DocumentationPartType'),
 
     -- * DomainNameStatus
-    DomainNameStatus,
+    DomainNameStatus (DomainNameStatus'),
 
     -- * EndpointType
-    EndpointType,
+    EndpointType (EndpointType'),
 
     -- * GatewayResponseType
-    GatewayResponseType,
+    GatewayResponseType (GatewayResponseType'),
 
     -- * IntegrationType
-    IntegrationType,
+    IntegrationType (IntegrationType'),
 
     -- * LocationStatusType
-    LocationStatusType,
+    LocationStatusType (LocationStatusType'),
 
     -- * Op
-    Op,
+    Op (Op'),
 
     -- * PutMode
-    PutMode,
+    PutMode (PutMode'),
 
     -- * QuotaPeriodType
-    QuotaPeriodType,
+    QuotaPeriodType (QuotaPeriodType'),
 
     -- * SecurityPolicy
-    SecurityPolicy,
+    SecurityPolicy (SecurityPolicy'),
 
     -- * UnauthorizedCacheControlHeaderStrategy
-    UnauthorizedCacheControlHeaderStrategy,
+    UnauthorizedCacheControlHeaderStrategy (UnauthorizedCacheControlHeaderStrategy'),
 
     -- * VpcLinkStatus
-    VpcLinkStatus,
+    VpcLinkStatus (VpcLinkStatus'),
 
     -- * AccessLogSettings
-    AccessLogSettings,
+    AccessLogSettings (AccessLogSettings'),
     newAccessLogSettings,
     accessLogSettings_destinationArn,
     accessLogSettings_format,
 
     -- * Account
-    Account,
+    Account (Account'),
     newAccount,
     account_apiKeyVersion,
     account_cloudwatchRoleArn,
@@ -99,7 +99,7 @@ module Amazonka.APIGateway.Types
     account_throttleSettings,
 
     -- * ApiKey
-    ApiKey,
+    ApiKey (ApiKey'),
     newApiKey,
     apiKey_createdDate,
     apiKey_customerId,
@@ -113,14 +113,14 @@ module Amazonka.APIGateway.Types
     apiKey_value,
 
     -- * ApiStage
-    ApiStage,
+    ApiStage (ApiStage'),
     newApiStage,
     apiStage_apiId,
     apiStage_stage,
     apiStage_throttle,
 
     -- * Authorizer
-    Authorizer,
+    Authorizer (Authorizer'),
     newAuthorizer,
     authorizer_authType,
     authorizer_authorizerCredentials,
@@ -134,14 +134,14 @@ module Amazonka.APIGateway.Types
     authorizer_type,
 
     -- * BasePathMapping
-    BasePathMapping,
+    BasePathMapping (BasePathMapping'),
     newBasePathMapping,
     basePathMapping_basePath,
     basePathMapping_restApiId,
     basePathMapping_stage,
 
     -- * CanarySettings
-    CanarySettings,
+    CanarySettings (CanarySettings'),
     newCanarySettings,
     canarySettings_deploymentId,
     canarySettings_percentTraffic,
@@ -149,7 +149,7 @@ module Amazonka.APIGateway.Types
     canarySettings_useStageCache,
 
     -- * ClientCertificate
-    ClientCertificate,
+    ClientCertificate (ClientCertificate'),
     newClientCertificate,
     clientCertificate_clientCertificateId,
     clientCertificate_createdDate,
@@ -159,7 +159,7 @@ module Amazonka.APIGateway.Types
     clientCertificate_tags,
 
     -- * Deployment
-    Deployment,
+    Deployment (Deployment'),
     newDeployment,
     deployment_apiSummary,
     deployment_createdDate,
@@ -167,21 +167,21 @@ module Amazonka.APIGateway.Types
     deployment_id,
 
     -- * DeploymentCanarySettings
-    DeploymentCanarySettings,
+    DeploymentCanarySettings (DeploymentCanarySettings'),
     newDeploymentCanarySettings,
     deploymentCanarySettings_percentTraffic,
     deploymentCanarySettings_stageVariableOverrides,
     deploymentCanarySettings_useStageCache,
 
     -- * DocumentationPart
-    DocumentationPart,
+    DocumentationPart (DocumentationPart'),
     newDocumentationPart,
     documentationPart_id,
     documentationPart_location,
     documentationPart_properties,
 
     -- * DocumentationPartLocation
-    DocumentationPartLocation,
+    DocumentationPartLocation (DocumentationPartLocation'),
     newDocumentationPartLocation,
     documentationPartLocation_method,
     documentationPartLocation_name,
@@ -190,14 +190,14 @@ module Amazonka.APIGateway.Types
     documentationPartLocation_type,
 
     -- * DocumentationVersion
-    DocumentationVersion,
+    DocumentationVersion (DocumentationVersion'),
     newDocumentationVersion,
     documentationVersion_createdDate,
     documentationVersion_description,
     documentationVersion_version,
 
     -- * DomainName
-    DomainName,
+    DomainName (DomainName'),
     newDomainName,
     domainName_certificateArn,
     domainName_certificateName,
@@ -218,13 +218,13 @@ module Amazonka.APIGateway.Types
     domainName_tags,
 
     -- * EndpointConfiguration
-    EndpointConfiguration,
+    EndpointConfiguration (EndpointConfiguration'),
     newEndpointConfiguration,
     endpointConfiguration_types,
     endpointConfiguration_vpcEndpointIds,
 
     -- * GatewayResponse
-    GatewayResponse,
+    GatewayResponse (GatewayResponse'),
     newGatewayResponse,
     gatewayResponse_defaultResponse,
     gatewayResponse_responseParameters,
@@ -233,7 +233,7 @@ module Amazonka.APIGateway.Types
     gatewayResponse_statusCode,
 
     -- * Integration
-    Integration,
+    Integration (Integration'),
     newIntegration,
     integration_cacheKeyParameters,
     integration_cacheNamespace,
@@ -252,7 +252,7 @@ module Amazonka.APIGateway.Types
     integration_uri,
 
     -- * IntegrationResponse
-    IntegrationResponse,
+    IntegrationResponse (IntegrationResponse'),
     newIntegrationResponse,
     integrationResponse_contentHandling,
     integrationResponse_responseParameters,
@@ -261,7 +261,7 @@ module Amazonka.APIGateway.Types
     integrationResponse_statusCode,
 
     -- * Method
-    Method,
+    Method (Method'),
     newMethod,
     method_apiKeyRequired,
     method_authorizationScopes,
@@ -276,14 +276,14 @@ module Amazonka.APIGateway.Types
     method_requestValidatorId,
 
     -- * MethodResponse
-    MethodResponse,
+    MethodResponse (MethodResponse'),
     newMethodResponse,
     methodResponse_responseModels,
     methodResponse_responseParameters,
     methodResponse_statusCode,
 
     -- * MethodSetting
-    MethodSetting,
+    MethodSetting (MethodSetting'),
     newMethodSetting,
     methodSetting_cacheDataEncrypted,
     methodSetting_cacheTtlInSeconds,
@@ -297,13 +297,13 @@ module Amazonka.APIGateway.Types
     methodSetting_unauthorizedCacheControlHeaderStrategy,
 
     -- * MethodSnapshot
-    MethodSnapshot,
+    MethodSnapshot (MethodSnapshot'),
     newMethodSnapshot,
     methodSnapshot_apiKeyRequired,
     methodSnapshot_authorizationType,
 
     -- * Model
-    Model,
+    Model (Model'),
     newModel,
     model_contentType,
     model_description,
@@ -312,20 +312,20 @@ module Amazonka.APIGateway.Types
     model_schema,
 
     -- * MutualTlsAuthentication
-    MutualTlsAuthentication,
+    MutualTlsAuthentication (MutualTlsAuthentication'),
     newMutualTlsAuthentication,
     mutualTlsAuthentication_truststoreUri,
     mutualTlsAuthentication_truststoreVersion,
     mutualTlsAuthentication_truststoreWarnings,
 
     -- * MutualTlsAuthenticationInput
-    MutualTlsAuthenticationInput,
+    MutualTlsAuthenticationInput (MutualTlsAuthenticationInput'),
     newMutualTlsAuthenticationInput,
     mutualTlsAuthenticationInput_truststoreUri,
     mutualTlsAuthenticationInput_truststoreVersion,
 
     -- * PatchOperation
-    PatchOperation,
+    PatchOperation (PatchOperation'),
     newPatchOperation,
     patchOperation_from,
     patchOperation_op,
@@ -333,14 +333,14 @@ module Amazonka.APIGateway.Types
     patchOperation_value,
 
     -- * QuotaSettings
-    QuotaSettings,
+    QuotaSettings (QuotaSettings'),
     newQuotaSettings,
     quotaSettings_limit,
     quotaSettings_offset,
     quotaSettings_period,
 
     -- * RequestValidator
-    RequestValidator,
+    RequestValidator (RequestValidator'),
     newRequestValidator,
     requestValidator_id,
     requestValidator_name,
@@ -348,7 +348,7 @@ module Amazonka.APIGateway.Types
     requestValidator_validateRequestParameters,
 
     -- * Resource
-    Resource,
+    Resource (Resource'),
     newResource,
     resource_id,
     resource_parentId,
@@ -357,7 +357,7 @@ module Amazonka.APIGateway.Types
     resource_resourceMethods,
 
     -- * RestApi
-    RestApi,
+    RestApi (RestApi'),
     newRestApi,
     restApi_apiKeySource,
     restApi_binaryMediaTypes,
@@ -374,7 +374,7 @@ module Amazonka.APIGateway.Types
     restApi_warnings,
 
     -- * SdkConfigurationProperty
-    SdkConfigurationProperty,
+    SdkConfigurationProperty (SdkConfigurationProperty'),
     newSdkConfigurationProperty,
     sdkConfigurationProperty_defaultValue,
     sdkConfigurationProperty_description,
@@ -383,7 +383,7 @@ module Amazonka.APIGateway.Types
     sdkConfigurationProperty_required,
 
     -- * SdkType
-    SdkType,
+    SdkType (SdkType'),
     newSdkType,
     sdkType_configurationProperties,
     sdkType_description,
@@ -391,7 +391,7 @@ module Amazonka.APIGateway.Types
     sdkType_id,
 
     -- * Stage
-    Stage,
+    Stage (Stage'),
     newStage,
     stage_accessLogSettings,
     stage_cacheClusterEnabled,
@@ -412,24 +412,24 @@ module Amazonka.APIGateway.Types
     stage_webAclArn,
 
     -- * StageKey
-    StageKey,
+    StageKey (StageKey'),
     newStageKey,
     stageKey_restApiId,
     stageKey_stageName,
 
     -- * ThrottleSettings
-    ThrottleSettings,
+    ThrottleSettings (ThrottleSettings'),
     newThrottleSettings,
     throttleSettings_burstLimit,
     throttleSettings_rateLimit,
 
     -- * TlsConfig
-    TlsConfig,
+    TlsConfig (TlsConfig'),
     newTlsConfig,
     tlsConfig_insecureSkipVerification,
 
     -- * Usage
-    Usage,
+    Usage (Usage'),
     newUsage,
     usage_endDate,
     usage_items,
@@ -438,7 +438,7 @@ module Amazonka.APIGateway.Types
     usage_usagePlanId,
 
     -- * UsagePlan
-    UsagePlan,
+    UsagePlan (UsagePlan'),
     newUsagePlan,
     usagePlan_apiStages,
     usagePlan_description,
@@ -450,7 +450,7 @@ module Amazonka.APIGateway.Types
     usagePlan_throttle,
 
     -- * UsagePlanKey
-    UsagePlanKey,
+    UsagePlanKey (UsagePlanKey'),
     newUsagePlanKey,
     usagePlanKey_id,
     usagePlanKey_name,
@@ -458,7 +458,7 @@ module Amazonka.APIGateway.Types
     usagePlanKey_value,
 
     -- * VpcLink
-    VpcLink,
+    VpcLink (VpcLink'),
     newVpcLink,
     vpcLink_description,
     vpcLink_id,

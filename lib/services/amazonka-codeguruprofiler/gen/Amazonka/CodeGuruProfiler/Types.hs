@@ -27,59 +27,59 @@ module Amazonka.CodeGuruProfiler.Types
     _ValidationException,
 
     -- * ActionGroup
-    ActionGroup,
+    ActionGroup (ActionGroup'),
 
     -- * AgentParameterField
-    AgentParameterField,
+    AgentParameterField (AgentParameterField'),
 
     -- * AggregationPeriod
-    AggregationPeriod,
+    AggregationPeriod (AggregationPeriod'),
 
     -- * ComputePlatform
-    ComputePlatform,
+    ComputePlatform (ComputePlatform'),
 
     -- * EventPublisher
-    EventPublisher,
+    EventPublisher (EventPublisher'),
 
     -- * FeedbackType
-    FeedbackType,
+    FeedbackType (FeedbackType'),
 
     -- * MetadataField
-    MetadataField,
+    MetadataField (MetadataField'),
 
     -- * MetricType
-    MetricType,
+    MetricType (MetricType'),
 
     -- * OrderBy
-    OrderBy,
+    OrderBy (OrderBy'),
 
     -- * AgentConfiguration
-    AgentConfiguration,
+    AgentConfiguration (AgentConfiguration'),
     newAgentConfiguration,
     agentConfiguration_agentParameters,
     agentConfiguration_periodInSeconds,
     agentConfiguration_shouldProfile,
 
     -- * AgentOrchestrationConfig
-    AgentOrchestrationConfig,
+    AgentOrchestrationConfig (AgentOrchestrationConfig'),
     newAgentOrchestrationConfig,
     agentOrchestrationConfig_profilingEnabled,
 
     -- * AggregatedProfileTime
-    AggregatedProfileTime,
+    AggregatedProfileTime (AggregatedProfileTime'),
     newAggregatedProfileTime,
     aggregatedProfileTime_period,
     aggregatedProfileTime_start,
 
     -- * Anomaly
-    Anomaly,
+    Anomaly (Anomaly'),
     newAnomaly,
     anomaly_instances,
     anomaly_metric,
     anomaly_reason,
 
     -- * AnomalyInstance
-    AnomalyInstance,
+    AnomalyInstance (AnomalyInstance'),
     newAnomalyInstance,
     anomalyInstance_endTime,
     anomalyInstance_userFeedback,
@@ -87,14 +87,14 @@ module Amazonka.CodeGuruProfiler.Types
     anomalyInstance_startTime,
 
     -- * Channel
-    Channel,
+    Channel (Channel'),
     newChannel,
     channel_id,
     channel_eventPublishers,
     channel_uri,
 
     -- * FindingsReportSummary
-    FindingsReportSummary,
+    FindingsReportSummary (FindingsReportSummary'),
     newFindingsReportSummary,
     findingsReportSummary_id,
     findingsReportSummary_profileEndTime,
@@ -103,39 +103,39 @@ module Amazonka.CodeGuruProfiler.Types
     findingsReportSummary_totalNumberOfFindings,
 
     -- * FrameMetric
-    FrameMetric,
+    FrameMetric (FrameMetric'),
     newFrameMetric,
     frameMetric_frameName,
     frameMetric_threadStates,
     frameMetric_type,
 
     -- * FrameMetricDatum
-    FrameMetricDatum,
+    FrameMetricDatum (FrameMetricDatum'),
     newFrameMetricDatum,
     frameMetricDatum_frameMetric,
     frameMetricDatum_values,
 
     -- * Match
-    Match,
+    Match (Match'),
     newMatch,
     match_frameAddress,
     match_targetFramesIndex,
     match_thresholdBreachValue,
 
     -- * Metric
-    Metric,
+    Metric (Metric'),
     newMetric,
     metric_frameName,
     metric_threadStates,
     metric_type,
 
     -- * NotificationConfiguration
-    NotificationConfiguration,
+    NotificationConfiguration (NotificationConfiguration'),
     newNotificationConfiguration,
     notificationConfiguration_channels,
 
     -- * Pattern
-    Pattern,
+    Pattern (Pattern'),
     newPattern,
     pattern_countersToAggregate,
     pattern_description,
@@ -146,12 +146,12 @@ module Amazonka.CodeGuruProfiler.Types
     pattern_thresholdPercent,
 
     -- * ProfileTime
-    ProfileTime,
+    ProfileTime (ProfileTime'),
     newProfileTime,
     profileTime_start,
 
     -- * ProfilingGroupDescription
-    ProfilingGroupDescription,
+    ProfilingGroupDescription (ProfilingGroupDescription'),
     newProfilingGroupDescription,
     profilingGroupDescription_agentOrchestrationConfig,
     profilingGroupDescription_arn,
@@ -163,14 +163,14 @@ module Amazonka.CodeGuruProfiler.Types
     profilingGroupDescription_updatedAt,
 
     -- * ProfilingStatus
-    ProfilingStatus,
+    ProfilingStatus (ProfilingStatus'),
     newProfilingStatus,
     profilingStatus_latestAgentOrchestratedAt,
     profilingStatus_latestAgentProfileReportedAt,
     profilingStatus_latestAggregatedProfile,
 
     -- * Recommendation
-    Recommendation,
+    Recommendation (Recommendation'),
     newRecommendation,
     recommendation_allMatchesCount,
     recommendation_allMatchesSum,
@@ -180,12 +180,12 @@ module Amazonka.CodeGuruProfiler.Types
     recommendation_topMatches,
 
     -- * TimestampStructure
-    TimestampStructure,
+    TimestampStructure (TimestampStructure'),
     newTimestampStructure,
     timestampStructure_value,
 
     -- * UserFeedback
-    UserFeedback,
+    UserFeedback (UserFeedback'),
     newUserFeedback,
     userFeedback_type,
   )

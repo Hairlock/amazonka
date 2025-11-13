@@ -39,117 +39,117 @@ module Amazonka.WAFV2.Types
     _WAFUnavailableEntityException,
 
     -- * ActionValue
-    ActionValue,
+    ActionValue (ActionValue'),
 
     -- * BodyParsingFallbackBehavior
-    BodyParsingFallbackBehavior,
+    BodyParsingFallbackBehavior (BodyParsingFallbackBehavior'),
 
     -- * ComparisonOperator
-    ComparisonOperator,
+    ComparisonOperator (ComparisonOperator'),
 
     -- * CountryCode
-    CountryCode,
+    CountryCode (CountryCode'),
 
     -- * FailureReason
-    FailureReason,
+    FailureReason (FailureReason'),
 
     -- * FallbackBehavior
-    FallbackBehavior,
+    FallbackBehavior (FallbackBehavior'),
 
     -- * FilterBehavior
-    FilterBehavior,
+    FilterBehavior (FilterBehavior'),
 
     -- * FilterRequirement
-    FilterRequirement,
+    FilterRequirement (FilterRequirement'),
 
     -- * ForwardedIPPosition
-    ForwardedIPPosition,
+    ForwardedIPPosition (ForwardedIPPosition'),
 
     -- * IPAddressVersion
-    IPAddressVersion,
+    IPAddressVersion (IPAddressVersion'),
 
     -- * InspectionLevel
-    InspectionLevel,
+    InspectionLevel (InspectionLevel'),
 
     -- * JsonMatchScope
-    JsonMatchScope,
+    JsonMatchScope (JsonMatchScope'),
 
     -- * LabelMatchScope
-    LabelMatchScope,
+    LabelMatchScope (LabelMatchScope'),
 
     -- * MapMatchScope
-    MapMatchScope,
+    MapMatchScope (MapMatchScope'),
 
     -- * OversizeHandling
-    OversizeHandling,
+    OversizeHandling (OversizeHandling'),
 
     -- * PayloadType
-    PayloadType,
+    PayloadType (PayloadType'),
 
     -- * Platform
-    Platform,
+    Platform (Platform'),
 
     -- * PositionalConstraint
-    PositionalConstraint,
+    PositionalConstraint (PositionalConstraint'),
 
     -- * RateBasedStatementAggregateKeyType
-    RateBasedStatementAggregateKeyType,
+    RateBasedStatementAggregateKeyType (RateBasedStatementAggregateKeyType'),
 
     -- * ResourceType
-    ResourceType,
+    ResourceType (ResourceType'),
 
     -- * ResponseContentType
-    ResponseContentType,
+    ResponseContentType (ResponseContentType'),
 
     -- * Scope
-    Scope,
+    Scope (Scope'),
 
     -- * SensitivityLevel
-    SensitivityLevel,
+    SensitivityLevel (SensitivityLevel'),
 
     -- * TextTransformationType
-    TextTransformationType,
+    TextTransformationType (TextTransformationType'),
 
     -- * AWSManagedRulesBotControlRuleSet
-    AWSManagedRulesBotControlRuleSet,
+    AWSManagedRulesBotControlRuleSet (AWSManagedRulesBotControlRuleSet'),
     newAWSManagedRulesBotControlRuleSet,
     aWSManagedRulesBotControlRuleSet_inspectionLevel,
 
     -- * ActionCondition
-    ActionCondition,
+    ActionCondition (ActionCondition'),
     newActionCondition,
     actionCondition_action,
 
     -- * All
-    All,
+    All (All'),
     newAll,
 
     -- * AllQueryArguments
-    AllQueryArguments,
+    AllQueryArguments (AllQueryArguments'),
     newAllQueryArguments,
 
     -- * AllowAction
-    AllowAction,
+    AllowAction (AllowAction'),
     newAllowAction,
     allowAction_customRequestHandling,
 
     -- * AndStatement
-    AndStatement,
+    AndStatement (AndStatement'),
     newAndStatement,
     andStatement_statements,
 
     -- * BlockAction
-    BlockAction,
+    BlockAction (BlockAction'),
     newBlockAction,
     blockAction_customResponse,
 
     -- * Body
-    Body,
+    Body (Body'),
     newBody,
     body_oversizeHandling,
 
     -- * ByteMatchStatement
-    ByteMatchStatement,
+    ByteMatchStatement (ByteMatchStatement'),
     newByteMatchStatement,
     byteMatchStatement_searchString,
     byteMatchStatement_fieldToMatch,
@@ -157,101 +157,101 @@ module Amazonka.WAFV2.Types
     byteMatchStatement_positionalConstraint,
 
     -- * CaptchaAction
-    CaptchaAction,
+    CaptchaAction (CaptchaAction'),
     newCaptchaAction,
     captchaAction_customRequestHandling,
 
     -- * CaptchaConfig
-    CaptchaConfig,
+    CaptchaConfig (CaptchaConfig'),
     newCaptchaConfig,
     captchaConfig_immunityTimeProperty,
 
     -- * CaptchaResponse
-    CaptchaResponse,
+    CaptchaResponse (CaptchaResponse'),
     newCaptchaResponse,
     captchaResponse_failureReason,
     captchaResponse_responseCode,
     captchaResponse_solveTimestamp,
 
     -- * ChallengeAction
-    ChallengeAction,
+    ChallengeAction (ChallengeAction'),
     newChallengeAction,
     challengeAction_customRequestHandling,
 
     -- * ChallengeConfig
-    ChallengeConfig,
+    ChallengeConfig (ChallengeConfig'),
     newChallengeConfig,
     challengeConfig_immunityTimeProperty,
 
     -- * ChallengeResponse
-    ChallengeResponse,
+    ChallengeResponse (ChallengeResponse'),
     newChallengeResponse,
     challengeResponse_failureReason,
     challengeResponse_responseCode,
     challengeResponse_solveTimestamp,
 
     -- * Condition
-    Condition,
+    Condition (Condition'),
     newCondition,
     condition_actionCondition,
     condition_labelNameCondition,
 
     -- * CookieMatchPattern
-    CookieMatchPattern,
+    CookieMatchPattern (CookieMatchPattern'),
     newCookieMatchPattern,
     cookieMatchPattern_all,
     cookieMatchPattern_excludedCookies,
     cookieMatchPattern_includedCookies,
 
     -- * Cookies
-    Cookies,
+    Cookies (Cookies'),
     newCookies,
     cookies_matchPattern,
     cookies_matchScope,
     cookies_oversizeHandling,
 
     -- * CountAction
-    CountAction,
+    CountAction (CountAction'),
     newCountAction,
     countAction_customRequestHandling,
 
     -- * CustomHTTPHeader
-    CustomHTTPHeader,
+    CustomHTTPHeader (CustomHTTPHeader'),
     newCustomHTTPHeader,
     customHTTPHeader_name,
     customHTTPHeader_value,
 
     -- * CustomRequestHandling
-    CustomRequestHandling,
+    CustomRequestHandling (CustomRequestHandling'),
     newCustomRequestHandling,
     customRequestHandling_insertHeaders,
 
     -- * CustomResponse
-    CustomResponse,
+    CustomResponse (CustomResponse'),
     newCustomResponse,
     customResponse_customResponseBodyKey,
     customResponse_responseHeaders,
     customResponse_responseCode,
 
     -- * CustomResponseBody
-    CustomResponseBody,
+    CustomResponseBody (CustomResponseBody'),
     newCustomResponseBody,
     customResponseBody_contentType,
     customResponseBody_content,
 
     -- * DefaultAction
-    DefaultAction,
+    DefaultAction (DefaultAction'),
     newDefaultAction,
     defaultAction_allow,
     defaultAction_block,
 
     -- * ExcludedRule
-    ExcludedRule,
+    ExcludedRule (ExcludedRule'),
     newExcludedRule,
     excludedRule_name,
 
     -- * FieldToMatch
-    FieldToMatch,
+    FieldToMatch (FieldToMatch'),
     newFieldToMatch,
     fieldToMatch_allQueryArguments,
     fieldToMatch_body,
@@ -265,14 +265,14 @@ module Amazonka.WAFV2.Types
     fieldToMatch_uriPath,
 
     -- * Filter
-    Filter,
+    Filter (Filter'),
     newFilter,
     filter_behavior,
     filter_requirement,
     filter_conditions,
 
     -- * FirewallManagerRuleGroup
-    FirewallManagerRuleGroup,
+    FirewallManagerRuleGroup (FirewallManagerRuleGroup'),
     newFirewallManagerRuleGroup,
     firewallManagerRuleGroup_name,
     firewallManagerRuleGroup_priority,
@@ -281,31 +281,31 @@ module Amazonka.WAFV2.Types
     firewallManagerRuleGroup_visibilityConfig,
 
     -- * FirewallManagerStatement
-    FirewallManagerStatement,
+    FirewallManagerStatement (FirewallManagerStatement'),
     newFirewallManagerStatement,
     firewallManagerStatement_managedRuleGroupStatement,
     firewallManagerStatement_ruleGroupReferenceStatement,
 
     -- * ForwardedIPConfig
-    ForwardedIPConfig,
+    ForwardedIPConfig (ForwardedIPConfig'),
     newForwardedIPConfig,
     forwardedIPConfig_headerName,
     forwardedIPConfig_fallbackBehavior,
 
     -- * GeoMatchStatement
-    GeoMatchStatement,
+    GeoMatchStatement (GeoMatchStatement'),
     newGeoMatchStatement,
     geoMatchStatement_countryCodes,
     geoMatchStatement_forwardedIPConfig,
 
     -- * HTTPHeader
-    HTTPHeader,
+    HTTPHeader (HTTPHeader'),
     newHTTPHeader,
     hTTPHeader_name,
     hTTPHeader_value,
 
     -- * HTTPRequest
-    HTTPRequest,
+    HTTPRequest (HTTPRequest'),
     newHTTPRequest,
     hTTPRequest_clientIP,
     hTTPRequest_country,
@@ -315,21 +315,21 @@ module Amazonka.WAFV2.Types
     hTTPRequest_uri,
 
     -- * HeaderMatchPattern
-    HeaderMatchPattern,
+    HeaderMatchPattern (HeaderMatchPattern'),
     newHeaderMatchPattern,
     headerMatchPattern_all,
     headerMatchPattern_excludedHeaders,
     headerMatchPattern_includedHeaders,
 
     -- * Headers
-    Headers,
+    Headers (Headers'),
     newHeaders,
     headers_matchPattern,
     headers_matchScope,
     headers_oversizeHandling,
 
     -- * IPSet
-    IPSet,
+    IPSet (IPSet'),
     newIPSet,
     iPSet_description,
     iPSet_name,
@@ -339,20 +339,20 @@ module Amazonka.WAFV2.Types
     iPSet_addresses,
 
     -- * IPSetForwardedIPConfig
-    IPSetForwardedIPConfig,
+    IPSetForwardedIPConfig (IPSetForwardedIPConfig'),
     newIPSetForwardedIPConfig,
     iPSetForwardedIPConfig_headerName,
     iPSetForwardedIPConfig_fallbackBehavior,
     iPSetForwardedIPConfig_position,
 
     -- * IPSetReferenceStatement
-    IPSetReferenceStatement,
+    IPSetReferenceStatement (IPSetReferenceStatement'),
     newIPSetReferenceStatement,
     iPSetReferenceStatement_iPSetForwardedIPConfig,
     iPSetReferenceStatement_arn,
 
     -- * IPSetSummary
-    IPSetSummary,
+    IPSetSummary (IPSetSummary'),
     newIPSetSummary,
     iPSetSummary_arn,
     iPSetSummary_description,
@@ -361,12 +361,12 @@ module Amazonka.WAFV2.Types
     iPSetSummary_name,
 
     -- * ImmunityTimeProperty
-    ImmunityTimeProperty,
+    ImmunityTimeProperty (ImmunityTimeProperty'),
     newImmunityTimeProperty,
     immunityTimeProperty_immunityTime,
 
     -- * JsonBody
-    JsonBody,
+    JsonBody (JsonBody'),
     newJsonBody,
     jsonBody_invalidFallbackBehavior,
     jsonBody_oversizeHandling,
@@ -374,34 +374,34 @@ module Amazonka.WAFV2.Types
     jsonBody_matchScope,
 
     -- * JsonMatchPattern
-    JsonMatchPattern,
+    JsonMatchPattern (JsonMatchPattern'),
     newJsonMatchPattern,
     jsonMatchPattern_all,
     jsonMatchPattern_includedPaths,
 
     -- * Label
-    Label,
+    Label (Label'),
     newLabel,
     label_name,
 
     -- * LabelMatchStatement
-    LabelMatchStatement,
+    LabelMatchStatement (LabelMatchStatement'),
     newLabelMatchStatement,
     labelMatchStatement_scope,
     labelMatchStatement_key,
 
     -- * LabelNameCondition
-    LabelNameCondition,
+    LabelNameCondition (LabelNameCondition'),
     newLabelNameCondition,
     labelNameCondition_labelName,
 
     -- * LabelSummary
-    LabelSummary,
+    LabelSummary (LabelSummary'),
     newLabelSummary,
     labelSummary_name,
 
     -- * LoggingConfiguration
-    LoggingConfiguration,
+    LoggingConfiguration (LoggingConfiguration'),
     newLoggingConfiguration,
     loggingConfiguration_loggingFilter,
     loggingConfiguration_managedByFirewallManager,
@@ -410,13 +410,13 @@ module Amazonka.WAFV2.Types
     loggingConfiguration_logDestinationConfigs,
 
     -- * LoggingFilter
-    LoggingFilter,
+    LoggingFilter (LoggingFilter'),
     newLoggingFilter,
     loggingFilter_filters,
     loggingFilter_defaultBehavior,
 
     -- * ManagedRuleGroupConfig
-    ManagedRuleGroupConfig,
+    ManagedRuleGroupConfig (ManagedRuleGroupConfig'),
     newManagedRuleGroupConfig,
     managedRuleGroupConfig_aWSManagedRulesBotControlRuleSet,
     managedRuleGroupConfig_loginPath,
@@ -425,7 +425,7 @@ module Amazonka.WAFV2.Types
     managedRuleGroupConfig_usernameField,
 
     -- * ManagedRuleGroupStatement
-    ManagedRuleGroupStatement,
+    ManagedRuleGroupStatement (ManagedRuleGroupStatement'),
     newManagedRuleGroupStatement,
     managedRuleGroupStatement_excludedRules,
     managedRuleGroupStatement_managedRuleGroupConfigs,
@@ -436,7 +436,7 @@ module Amazonka.WAFV2.Types
     managedRuleGroupStatement_name,
 
     -- * ManagedRuleGroupSummary
-    ManagedRuleGroupSummary,
+    ManagedRuleGroupSummary (ManagedRuleGroupSummary'),
     newManagedRuleGroupSummary,
     managedRuleGroupSummary_description,
     managedRuleGroupSummary_name,
@@ -444,13 +444,13 @@ module Amazonka.WAFV2.Types
     managedRuleGroupSummary_versioningSupported,
 
     -- * ManagedRuleGroupVersion
-    ManagedRuleGroupVersion,
+    ManagedRuleGroupVersion (ManagedRuleGroupVersion'),
     newManagedRuleGroupVersion,
     managedRuleGroupVersion_lastUpdateTimestamp,
     managedRuleGroupVersion_name,
 
     -- * ManagedRuleSet
-    ManagedRuleSet,
+    ManagedRuleSet (ManagedRuleSet'),
     newManagedRuleSet,
     managedRuleSet_description,
     managedRuleSet_labelNamespace,
@@ -461,7 +461,7 @@ module Amazonka.WAFV2.Types
     managedRuleSet_arn,
 
     -- * ManagedRuleSetSummary
-    ManagedRuleSetSummary,
+    ManagedRuleSetSummary (ManagedRuleSetSummary'),
     newManagedRuleSetSummary,
     managedRuleSetSummary_arn,
     managedRuleSetSummary_description,
@@ -471,7 +471,7 @@ module Amazonka.WAFV2.Types
     managedRuleSetSummary_name,
 
     -- * ManagedRuleSetVersion
-    ManagedRuleSetVersion,
+    ManagedRuleSetVersion (ManagedRuleSetVersion'),
     newManagedRuleSetVersion,
     managedRuleSetVersion_associatedRuleGroupArn,
     managedRuleSetVersion_capacity,
@@ -481,11 +481,11 @@ module Amazonka.WAFV2.Types
     managedRuleSetVersion_publishTimestamp,
 
     -- * Method
-    Method,
+    Method (Method'),
     newMethod,
 
     -- * MobileSdkRelease
-    MobileSdkRelease,
+    MobileSdkRelease (MobileSdkRelease'),
     newMobileSdkRelease,
     mobileSdkRelease_releaseNotes,
     mobileSdkRelease_releaseVersion,
@@ -493,36 +493,36 @@ module Amazonka.WAFV2.Types
     mobileSdkRelease_timestamp,
 
     -- * NoneAction
-    NoneAction,
+    NoneAction (NoneAction'),
     newNoneAction,
 
     -- * NotStatement
-    NotStatement,
+    NotStatement (NotStatement'),
     newNotStatement,
     notStatement_statement,
 
     -- * OrStatement
-    OrStatement,
+    OrStatement (OrStatement'),
     newOrStatement,
     orStatement_statements,
 
     -- * OverrideAction
-    OverrideAction,
+    OverrideAction (OverrideAction'),
     newOverrideAction,
     overrideAction_count,
     overrideAction_none,
 
     -- * PasswordField
-    PasswordField,
+    PasswordField (PasswordField'),
     newPasswordField,
     passwordField_identifier,
 
     -- * QueryString
-    QueryString,
+    QueryString (QueryString'),
     newQueryString,
 
     -- * RateBasedStatement
-    RateBasedStatement,
+    RateBasedStatement (RateBasedStatement'),
     newRateBasedStatement,
     rateBasedStatement_forwardedIPConfig,
     rateBasedStatement_scopeDownStatement,
@@ -530,25 +530,25 @@ module Amazonka.WAFV2.Types
     rateBasedStatement_aggregateKeyType,
 
     -- * RateBasedStatementManagedKeysIPSet
-    RateBasedStatementManagedKeysIPSet,
+    RateBasedStatementManagedKeysIPSet (RateBasedStatementManagedKeysIPSet'),
     newRateBasedStatementManagedKeysIPSet,
     rateBasedStatementManagedKeysIPSet_addresses,
     rateBasedStatementManagedKeysIPSet_iPAddressVersion,
 
     -- * Regex
-    Regex,
+    Regex (Regex'),
     newRegex,
     regex_regexString,
 
     -- * RegexMatchStatement
-    RegexMatchStatement,
+    RegexMatchStatement (RegexMatchStatement'),
     newRegexMatchStatement,
     regexMatchStatement_regexString,
     regexMatchStatement_fieldToMatch,
     regexMatchStatement_textTransformations,
 
     -- * RegexPatternSet
-    RegexPatternSet,
+    RegexPatternSet (RegexPatternSet'),
     newRegexPatternSet,
     regexPatternSet_arn,
     regexPatternSet_description,
@@ -557,14 +557,14 @@ module Amazonka.WAFV2.Types
     regexPatternSet_regularExpressionList,
 
     -- * RegexPatternSetReferenceStatement
-    RegexPatternSetReferenceStatement,
+    RegexPatternSetReferenceStatement (RegexPatternSetReferenceStatement'),
     newRegexPatternSetReferenceStatement,
     regexPatternSetReferenceStatement_arn,
     regexPatternSetReferenceStatement_fieldToMatch,
     regexPatternSetReferenceStatement_textTransformations,
 
     -- * RegexPatternSetSummary
-    RegexPatternSetSummary,
+    RegexPatternSetSummary (RegexPatternSetSummary'),
     newRegexPatternSetSummary,
     regexPatternSetSummary_arn,
     regexPatternSetSummary_description,
@@ -573,13 +573,13 @@ module Amazonka.WAFV2.Types
     regexPatternSetSummary_name,
 
     -- * ReleaseSummary
-    ReleaseSummary,
+    ReleaseSummary (ReleaseSummary'),
     newReleaseSummary,
     releaseSummary_releaseVersion,
     releaseSummary_timestamp,
 
     -- * Rule
-    Rule,
+    Rule (Rule'),
     newRule,
     rule_action,
     rule_captchaConfig,
@@ -592,7 +592,7 @@ module Amazonka.WAFV2.Types
     rule_visibilityConfig,
 
     -- * RuleAction
-    RuleAction,
+    RuleAction (RuleAction'),
     newRuleAction,
     ruleAction_allow,
     ruleAction_block,
@@ -601,13 +601,13 @@ module Amazonka.WAFV2.Types
     ruleAction_count,
 
     -- * RuleActionOverride
-    RuleActionOverride,
+    RuleActionOverride (RuleActionOverride'),
     newRuleActionOverride,
     ruleActionOverride_name,
     ruleActionOverride_actionToUse,
 
     -- * RuleGroup
-    RuleGroup,
+    RuleGroup (RuleGroup'),
     newRuleGroup,
     ruleGroup_availableLabels,
     ruleGroup_consumedLabels,
@@ -622,14 +622,14 @@ module Amazonka.WAFV2.Types
     ruleGroup_visibilityConfig,
 
     -- * RuleGroupReferenceStatement
-    RuleGroupReferenceStatement,
+    RuleGroupReferenceStatement (RuleGroupReferenceStatement'),
     newRuleGroupReferenceStatement,
     ruleGroupReferenceStatement_excludedRules,
     ruleGroupReferenceStatement_ruleActionOverrides,
     ruleGroupReferenceStatement_arn,
 
     -- * RuleGroupSummary
-    RuleGroupSummary,
+    RuleGroupSummary (RuleGroupSummary'),
     newRuleGroupSummary,
     ruleGroupSummary_arn,
     ruleGroupSummary_description,
@@ -638,13 +638,13 @@ module Amazonka.WAFV2.Types
     ruleGroupSummary_name,
 
     -- * RuleSummary
-    RuleSummary,
+    RuleSummary (RuleSummary'),
     newRuleSummary,
     ruleSummary_action,
     ruleSummary_name,
 
     -- * SampledHTTPRequest
-    SampledHTTPRequest,
+    SampledHTTPRequest (SampledHTTPRequest'),
     newSampledHTTPRequest,
     sampledHTTPRequest_action,
     sampledHTTPRequest_captchaResponse,
@@ -659,17 +659,17 @@ module Amazonka.WAFV2.Types
     sampledHTTPRequest_weight,
 
     -- * SingleHeader
-    SingleHeader,
+    SingleHeader (SingleHeader'),
     newSingleHeader,
     singleHeader_name,
 
     -- * SingleQueryArgument
-    SingleQueryArgument,
+    SingleQueryArgument (SingleQueryArgument'),
     newSingleQueryArgument,
     singleQueryArgument_name,
 
     -- * SizeConstraintStatement
-    SizeConstraintStatement,
+    SizeConstraintStatement (SizeConstraintStatement'),
     newSizeConstraintStatement,
     sizeConstraintStatement_fieldToMatch,
     sizeConstraintStatement_comparisonOperator,
@@ -677,14 +677,14 @@ module Amazonka.WAFV2.Types
     sizeConstraintStatement_textTransformations,
 
     -- * SqliMatchStatement
-    SqliMatchStatement,
+    SqliMatchStatement (SqliMatchStatement'),
     newSqliMatchStatement,
     sqliMatchStatement_sensitivityLevel,
     sqliMatchStatement_fieldToMatch,
     sqliMatchStatement_textTransformations,
 
     -- * Statement
-    Statement,
+    Statement (Statement'),
     newStatement,
     statement_andStatement,
     statement_byteMatchStatement,
@@ -703,53 +703,53 @@ module Amazonka.WAFV2.Types
     statement_xssMatchStatement,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
 
     -- * TagInfoForResource
-    TagInfoForResource,
+    TagInfoForResource (TagInfoForResource'),
     newTagInfoForResource,
     tagInfoForResource_resourceARN,
     tagInfoForResource_tagList,
 
     -- * TextTransformation
-    TextTransformation,
+    TextTransformation (TextTransformation'),
     newTextTransformation,
     textTransformation_priority,
     textTransformation_type,
 
     -- * TimeWindow
-    TimeWindow,
+    TimeWindow (TimeWindow'),
     newTimeWindow,
     timeWindow_startTime,
     timeWindow_endTime,
 
     -- * UriPath
-    UriPath,
+    UriPath (UriPath'),
     newUriPath,
 
     -- * UsernameField
-    UsernameField,
+    UsernameField (UsernameField'),
     newUsernameField,
     usernameField_identifier,
 
     -- * VersionToPublish
-    VersionToPublish,
+    VersionToPublish (VersionToPublish'),
     newVersionToPublish,
     versionToPublish_associatedRuleGroupArn,
     versionToPublish_forecastedLifetime,
 
     -- * VisibilityConfig
-    VisibilityConfig,
+    VisibilityConfig (VisibilityConfig'),
     newVisibilityConfig,
     visibilityConfig_sampledRequestsEnabled,
     visibilityConfig_cloudWatchMetricsEnabled,
     visibilityConfig_metricName,
 
     -- * WebACL
-    WebACL,
+    WebACL (WebACL'),
     newWebACL,
     webACL_capacity,
     webACL_captchaConfig,
@@ -769,7 +769,7 @@ module Amazonka.WAFV2.Types
     webACL_visibilityConfig,
 
     -- * WebACLSummary
-    WebACLSummary,
+    WebACLSummary (WebACLSummary'),
     newWebACLSummary,
     webACLSummary_arn,
     webACLSummary_description,
@@ -778,7 +778,7 @@ module Amazonka.WAFV2.Types
     webACLSummary_name,
 
     -- * XssMatchStatement
-    XssMatchStatement,
+    XssMatchStatement (XssMatchStatement'),
     newXssMatchStatement,
     xssMatchStatement_fieldToMatch,
     xssMatchStatement_textTransformations,

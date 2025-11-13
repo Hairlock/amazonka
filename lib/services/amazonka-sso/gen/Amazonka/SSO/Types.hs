@@ -25,14 +25,14 @@ module Amazonka.SSO.Types
     _UnauthorizedException,
 
     -- * AccountInfo
-    AccountInfo,
+    AccountInfo (AccountInfo'),
     newAccountInfo,
     accountInfo_accountId,
     accountInfo_accountName,
     accountInfo_emailAddress,
 
     -- * RoleCredentials
-    RoleCredentials,
+    RoleCredentials (RoleCredentials'),
     newRoleCredentials,
     roleCredentials_expiration,
     roleCredentials_sessionToken,
@@ -40,7 +40,7 @@ module Amazonka.SSO.Types
     roleCredentials_secretAccessKey,
 
     -- * RoleInfo
-    RoleInfo,
+    RoleInfo (RoleInfo'),
     newRoleInfo,
     roleInfo_accountId,
     roleInfo_roleName,

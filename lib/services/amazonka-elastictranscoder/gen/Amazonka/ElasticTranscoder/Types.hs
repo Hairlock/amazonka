@@ -28,7 +28,7 @@ module Amazonka.ElasticTranscoder.Types
     _ValidationException,
 
     -- * Artwork
-    Artwork,
+    Artwork (Artwork'),
     newArtwork,
     artwork_albumArtFormat,
     artwork_encryption,
@@ -39,7 +39,7 @@ module Amazonka.ElasticTranscoder.Types
     artwork_sizingPolicy,
 
     -- * AudioCodecOptions
-    AudioCodecOptions,
+    AudioCodecOptions (AudioCodecOptions'),
     newAudioCodecOptions,
     audioCodecOptions_bitDepth,
     audioCodecOptions_bitOrder,
@@ -47,7 +47,7 @@ module Amazonka.ElasticTranscoder.Types
     audioCodecOptions_signed,
 
     -- * AudioParameters
-    AudioParameters,
+    AudioParameters (AudioParameters'),
     newAudioParameters,
     audioParameters_audioPackingMode,
     audioParameters_bitRate,
@@ -57,14 +57,14 @@ module Amazonka.ElasticTranscoder.Types
     audioParameters_sampleRate,
 
     -- * CaptionFormat
-    CaptionFormat,
+    CaptionFormat (CaptionFormat'),
     newCaptionFormat,
     captionFormat_encryption,
     captionFormat_format,
     captionFormat_pattern,
 
     -- * CaptionSource
-    CaptionSource,
+    CaptionSource (CaptionSource'),
     newCaptionSource,
     captionSource_encryption,
     captionSource_key,
@@ -73,19 +73,19 @@ module Amazonka.ElasticTranscoder.Types
     captionSource_timeOffset,
 
     -- * Captions
-    Captions,
+    Captions (Captions'),
     newCaptions,
     captions_captionFormats,
     captions_captionSources,
     captions_mergePolicy,
 
     -- * Clip
-    Clip,
+    Clip (Clip'),
     newClip,
     clip_timeSpan,
 
     -- * CreateJobOutput
-    CreateJobOutput,
+    CreateJobOutput (CreateJobOutput'),
     newCreateJobOutput,
     createJobOutput_albumArt,
     createJobOutput_captions,
@@ -100,7 +100,7 @@ module Amazonka.ElasticTranscoder.Types
     createJobOutput_watermarks,
 
     -- * CreateJobPlaylist
-    CreateJobPlaylist,
+    CreateJobPlaylist (CreateJobPlaylist'),
     newCreateJobPlaylist,
     createJobPlaylist_format,
     createJobPlaylist_hlsContentProtection,
@@ -109,7 +109,7 @@ module Amazonka.ElasticTranscoder.Types
     createJobPlaylist_playReadyDrm,
 
     -- * DetectedProperties
-    DetectedProperties,
+    DetectedProperties (DetectedProperties'),
     newDetectedProperties,
     detectedProperties_durationMillis,
     detectedProperties_fileSize,
@@ -118,7 +118,7 @@ module Amazonka.ElasticTranscoder.Types
     detectedProperties_width,
 
     -- * Encryption
-    Encryption,
+    Encryption (Encryption'),
     newEncryption,
     encryption_initializationVector,
     encryption_key,
@@ -126,7 +126,7 @@ module Amazonka.ElasticTranscoder.Types
     encryption_mode,
 
     -- * HlsContentProtection
-    HlsContentProtection,
+    HlsContentProtection (HlsContentProtection'),
     newHlsContentProtection,
     hlsContentProtection_initializationVector,
     hlsContentProtection_key,
@@ -136,13 +136,13 @@ module Amazonka.ElasticTranscoder.Types
     hlsContentProtection_method,
 
     -- * InputCaptions
-    InputCaptions,
+    InputCaptions (InputCaptions'),
     newInputCaptions,
     inputCaptions_captionSources,
     inputCaptions_mergePolicy,
 
     -- * Job
-    Job,
+    Job (Job'),
     newJob,
     job_arn,
     job_id,
@@ -158,13 +158,13 @@ module Amazonka.ElasticTranscoder.Types
     job_userMetadata,
 
     -- * JobAlbumArt
-    JobAlbumArt,
+    JobAlbumArt (JobAlbumArt'),
     newJobAlbumArt,
     jobAlbumArt_artwork,
     jobAlbumArt_mergePolicy,
 
     -- * JobInput
-    JobInput,
+    JobInput (JobInput'),
     newJobInput,
     jobInput_aspectRatio,
     jobInput_container,
@@ -178,7 +178,7 @@ module Amazonka.ElasticTranscoder.Types
     jobInput_timeSpan,
 
     -- * JobOutput
-    JobOutput,
+    JobOutput (JobOutput'),
     newJobOutput,
     jobOutput_albumArt,
     jobOutput_appliedColorSpaceConversion,
@@ -203,14 +203,14 @@ module Amazonka.ElasticTranscoder.Types
     jobOutput_width,
 
     -- * JobWatermark
-    JobWatermark,
+    JobWatermark (JobWatermark'),
     newJobWatermark,
     jobWatermark_encryption,
     jobWatermark_inputKey,
     jobWatermark_presetWatermarkId,
 
     -- * Notifications
-    Notifications,
+    Notifications (Notifications'),
     newNotifications,
     notifications_completed,
     notifications_error,
@@ -218,14 +218,14 @@ module Amazonka.ElasticTranscoder.Types
     notifications_warning,
 
     -- * Permission
-    Permission,
+    Permission (Permission'),
     newPermission,
     permission_access,
     permission_grantee,
     permission_granteeType,
 
     -- * Pipeline
-    Pipeline,
+    Pipeline (Pipeline'),
     newPipeline,
     pipeline_arn,
     pipeline_awsKmsKeyArn,
@@ -240,14 +240,14 @@ module Amazonka.ElasticTranscoder.Types
     pipeline_thumbnailConfig,
 
     -- * PipelineOutputConfig
-    PipelineOutputConfig,
+    PipelineOutputConfig (PipelineOutputConfig'),
     newPipelineOutputConfig,
     pipelineOutputConfig_bucket,
     pipelineOutputConfig_permissions,
     pipelineOutputConfig_storageClass,
 
     -- * PlayReadyDrm
-    PlayReadyDrm,
+    PlayReadyDrm (PlayReadyDrm'),
     newPlayReadyDrm,
     playReadyDrm_format,
     playReadyDrm_initializationVector,
@@ -257,7 +257,7 @@ module Amazonka.ElasticTranscoder.Types
     playReadyDrm_licenseAcquisitionUrl,
 
     -- * Playlist
-    Playlist,
+    Playlist (Playlist'),
     newPlaylist,
     playlist_format,
     playlist_hlsContentProtection,
@@ -268,7 +268,7 @@ module Amazonka.ElasticTranscoder.Types
     playlist_statusDetail,
 
     -- * Preset
-    Preset,
+    Preset (Preset'),
     newPreset,
     preset_arn,
     preset_audio,
@@ -281,7 +281,7 @@ module Amazonka.ElasticTranscoder.Types
     preset_video,
 
     -- * PresetWatermark
-    PresetWatermark,
+    PresetWatermark (PresetWatermark'),
     newPresetWatermark,
     presetWatermark_horizontalAlign,
     presetWatermark_horizontalOffset,
@@ -295,7 +295,7 @@ module Amazonka.ElasticTranscoder.Types
     presetWatermark_verticalOffset,
 
     -- * Thumbnails
-    Thumbnails,
+    Thumbnails (Thumbnails'),
     newThumbnails,
     thumbnails_aspectRatio,
     thumbnails_format,
@@ -307,20 +307,20 @@ module Amazonka.ElasticTranscoder.Types
     thumbnails_sizingPolicy,
 
     -- * TimeSpan
-    TimeSpan,
+    TimeSpan (TimeSpan'),
     newTimeSpan,
     timeSpan_duration,
     timeSpan_startTime,
 
     -- * Timing
-    Timing,
+    Timing (Timing'),
     newTiming,
     timing_finishTimeMillis,
     timing_startTimeMillis,
     timing_submitTimeMillis,
 
     -- * VideoParameters
-    VideoParameters,
+    VideoParameters (VideoParameters'),
     newVideoParameters,
     videoParameters_aspectRatio,
     videoParameters_bitRate,
@@ -339,7 +339,7 @@ module Amazonka.ElasticTranscoder.Types
     videoParameters_watermarks,
 
     -- * Warning
-    Warning,
+    Warning (Warning'),
     newWarning,
     warning_code,
     warning_message,

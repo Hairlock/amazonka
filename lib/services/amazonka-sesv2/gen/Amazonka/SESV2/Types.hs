@@ -34,109 +34,109 @@ module Amazonka.SESV2.Types
     _TooManyRequestsException,
 
     -- * BehaviorOnMxFailure
-    BehaviorOnMxFailure,
+    BehaviorOnMxFailure (BehaviorOnMxFailure'),
 
     -- * BulkEmailStatus
-    BulkEmailStatus,
+    BulkEmailStatus (BulkEmailStatus'),
 
     -- * ContactLanguage
-    ContactLanguage,
+    ContactLanguage (ContactLanguage'),
 
     -- * ContactListImportAction
-    ContactListImportAction,
+    ContactListImportAction (ContactListImportAction'),
 
     -- * DataFormat
-    DataFormat,
+    DataFormat (DataFormat'),
 
     -- * DeliverabilityDashboardAccountStatus
-    DeliverabilityDashboardAccountStatus,
+    DeliverabilityDashboardAccountStatus (DeliverabilityDashboardAccountStatus'),
 
     -- * DeliverabilityTestStatus
-    DeliverabilityTestStatus,
+    DeliverabilityTestStatus (DeliverabilityTestStatus'),
 
     -- * DimensionValueSource
-    DimensionValueSource,
+    DimensionValueSource (DimensionValueSource'),
 
     -- * DkimSigningAttributesOrigin
-    DkimSigningAttributesOrigin,
+    DkimSigningAttributesOrigin (DkimSigningAttributesOrigin'),
 
     -- * DkimSigningKeyLength
-    DkimSigningKeyLength,
+    DkimSigningKeyLength (DkimSigningKeyLength'),
 
     -- * DkimStatus
-    DkimStatus,
+    DkimStatus (DkimStatus'),
 
     -- * EventType
-    EventType,
+    EventType (EventType'),
 
     -- * FeatureStatus
-    FeatureStatus,
+    FeatureStatus (FeatureStatus'),
 
     -- * IdentityType
-    IdentityType,
+    IdentityType (IdentityType'),
 
     -- * ImportDestinationType
-    ImportDestinationType,
+    ImportDestinationType (ImportDestinationType'),
 
     -- * JobStatus
-    JobStatus,
+    JobStatus (JobStatus'),
 
     -- * ListRecommendationsFilterKey
-    ListRecommendationsFilterKey,
+    ListRecommendationsFilterKey (ListRecommendationsFilterKey'),
 
     -- * MailFromDomainStatus
-    MailFromDomainStatus,
+    MailFromDomainStatus (MailFromDomainStatus'),
 
     -- * MailType
-    MailType,
+    MailType (MailType'),
 
     -- * Metric
-    Metric,
+    Metric (Metric'),
 
     -- * MetricDimensionName
-    MetricDimensionName,
+    MetricDimensionName (MetricDimensionName'),
 
     -- * MetricNamespace
-    MetricNamespace,
+    MetricNamespace (MetricNamespace'),
 
     -- * QueryErrorCode
-    QueryErrorCode,
+    QueryErrorCode (QueryErrorCode'),
 
     -- * RecommendationImpact
-    RecommendationImpact,
+    RecommendationImpact (RecommendationImpact'),
 
     -- * RecommendationStatus
-    RecommendationStatus,
+    RecommendationStatus (RecommendationStatus'),
 
     -- * RecommendationType
-    RecommendationType,
+    RecommendationType (RecommendationType'),
 
     -- * ReviewStatus
-    ReviewStatus,
+    ReviewStatus (ReviewStatus'),
 
     -- * ScalingMode
-    ScalingMode,
+    ScalingMode (ScalingMode'),
 
     -- * SubscriptionStatus
-    SubscriptionStatus,
+    SubscriptionStatus (SubscriptionStatus'),
 
     -- * SuppressionListImportAction
-    SuppressionListImportAction,
+    SuppressionListImportAction (SuppressionListImportAction'),
 
     -- * SuppressionListReason
-    SuppressionListReason,
+    SuppressionListReason (SuppressionListReason'),
 
     -- * TlsPolicy
-    TlsPolicy,
+    TlsPolicy (TlsPolicy'),
 
     -- * VerificationStatus
-    VerificationStatus,
+    VerificationStatus (VerificationStatus'),
 
     -- * WarmupStatus
-    WarmupStatus,
+    WarmupStatus (WarmupStatus'),
 
     -- * AccountDetails
-    AccountDetails,
+    AccountDetails (AccountDetails'),
     newAccountDetails,
     accountDetails_additionalContactEmailAddresses,
     accountDetails_contactLanguage,
@@ -146,7 +146,7 @@ module Amazonka.SESV2.Types
     accountDetails_websiteURL,
 
     -- * BatchGetMetricDataQuery
-    BatchGetMetricDataQuery,
+    BatchGetMetricDataQuery (BatchGetMetricDataQuery'),
     newBatchGetMetricDataQuery,
     batchGetMetricDataQuery_dimensions,
     batchGetMetricDataQuery_id,
@@ -156,51 +156,51 @@ module Amazonka.SESV2.Types
     batchGetMetricDataQuery_endDate,
 
     -- * BlacklistEntry
-    BlacklistEntry,
+    BlacklistEntry (BlacklistEntry'),
     newBlacklistEntry,
     blacklistEntry_description,
     blacklistEntry_listingTime,
     blacklistEntry_rblName,
 
     -- * Body
-    Body,
+    Body (Body'),
     newBody,
     body_html,
     body_text,
 
     -- * BulkEmailContent
-    BulkEmailContent,
+    BulkEmailContent (BulkEmailContent'),
     newBulkEmailContent,
     bulkEmailContent_template,
 
     -- * BulkEmailEntry
-    BulkEmailEntry,
+    BulkEmailEntry (BulkEmailEntry'),
     newBulkEmailEntry,
     bulkEmailEntry_replacementEmailContent,
     bulkEmailEntry_replacementTags,
     bulkEmailEntry_destination,
 
     -- * BulkEmailEntryResult
-    BulkEmailEntryResult,
+    BulkEmailEntryResult (BulkEmailEntryResult'),
     newBulkEmailEntryResult,
     bulkEmailEntryResult_error,
     bulkEmailEntryResult_messageId,
     bulkEmailEntryResult_status,
 
     -- * CloudWatchDestination
-    CloudWatchDestination,
+    CloudWatchDestination (CloudWatchDestination'),
     newCloudWatchDestination,
     cloudWatchDestination_dimensionConfigurations,
 
     -- * CloudWatchDimensionConfiguration
-    CloudWatchDimensionConfiguration,
+    CloudWatchDimensionConfiguration (CloudWatchDimensionConfiguration'),
     newCloudWatchDimensionConfiguration,
     cloudWatchDimensionConfiguration_dimensionName,
     cloudWatchDimensionConfiguration_dimensionValueSource,
     cloudWatchDimensionConfiguration_defaultDimensionValue,
 
     -- * Contact
-    Contact,
+    Contact (Contact'),
     newContact,
     contact_emailAddress,
     contact_lastUpdatedTimestamp,
@@ -209,25 +209,25 @@ module Amazonka.SESV2.Types
     contact_unsubscribeAll,
 
     -- * ContactList
-    ContactList,
+    ContactList (ContactList'),
     newContactList,
     contactList_contactListName,
     contactList_lastUpdatedTimestamp,
 
     -- * ContactListDestination
-    ContactListDestination,
+    ContactListDestination (ContactListDestination'),
     newContactListDestination,
     contactListDestination_contactListName,
     contactListDestination_contactListImportAction,
 
     -- * Content
-    Content,
+    Content (Content'),
     newContent,
     content_charset,
     content_data,
 
     -- * CustomVerificationEmailTemplateMetadata
-    CustomVerificationEmailTemplateMetadata,
+    CustomVerificationEmailTemplateMetadata (CustomVerificationEmailTemplateMetadata'),
     newCustomVerificationEmailTemplateMetadata,
     customVerificationEmailTemplateMetadata_failureRedirectionURL,
     customVerificationEmailTemplateMetadata_fromEmailAddress,
@@ -236,24 +236,24 @@ module Amazonka.SESV2.Types
     customVerificationEmailTemplateMetadata_templateSubject,
 
     -- * DailyVolume
-    DailyVolume,
+    DailyVolume (DailyVolume'),
     newDailyVolume,
     dailyVolume_domainIspPlacements,
     dailyVolume_startDate,
     dailyVolume_volumeStatistics,
 
     -- * DashboardAttributes
-    DashboardAttributes,
+    DashboardAttributes (DashboardAttributes'),
     newDashboardAttributes,
     dashboardAttributes_engagementMetrics,
 
     -- * DashboardOptions
-    DashboardOptions,
+    DashboardOptions (DashboardOptions'),
     newDashboardOptions,
     dashboardOptions_engagementMetrics,
 
     -- * DedicatedIp
-    DedicatedIp,
+    DedicatedIp (DedicatedIp'),
     newDedicatedIp,
     dedicatedIp_poolName,
     dedicatedIp_ip,
@@ -261,13 +261,13 @@ module Amazonka.SESV2.Types
     dedicatedIp_warmupPercentage,
 
     -- * DedicatedIpPool
-    DedicatedIpPool,
+    DedicatedIpPool (DedicatedIpPool'),
     newDedicatedIpPool,
     dedicatedIpPool_poolName,
     dedicatedIpPool_scalingMode,
 
     -- * DeliverabilityTestReport
-    DeliverabilityTestReport,
+    DeliverabilityTestReport (DeliverabilityTestReport'),
     newDeliverabilityTestReport,
     deliverabilityTestReport_createDate,
     deliverabilityTestReport_deliverabilityTestStatus,
@@ -277,20 +277,20 @@ module Amazonka.SESV2.Types
     deliverabilityTestReport_subject,
 
     -- * DeliveryOptions
-    DeliveryOptions,
+    DeliveryOptions (DeliveryOptions'),
     newDeliveryOptions,
     deliveryOptions_sendingPoolName,
     deliveryOptions_tlsPolicy,
 
     -- * Destination
-    Destination,
+    Destination (Destination'),
     newDestination,
     destination_bccAddresses,
     destination_ccAddresses,
     destination_toAddresses,
 
     -- * DkimAttributes
-    DkimAttributes,
+    DkimAttributes (DkimAttributes'),
     newDkimAttributes,
     dkimAttributes_currentSigningKeyLength,
     dkimAttributes_lastKeyGenerationTimestamp,
@@ -301,14 +301,14 @@ module Amazonka.SESV2.Types
     dkimAttributes_tokens,
 
     -- * DkimSigningAttributes
-    DkimSigningAttributes,
+    DkimSigningAttributes (DkimSigningAttributes'),
     newDkimSigningAttributes,
     dkimSigningAttributes_domainSigningPrivateKey,
     dkimSigningAttributes_domainSigningSelector,
     dkimSigningAttributes_nextSigningKeyLength,
 
     -- * DomainDeliverabilityCampaign
-    DomainDeliverabilityCampaign,
+    DomainDeliverabilityCampaign (DomainDeliverabilityCampaign'),
     newDomainDeliverabilityCampaign,
     domainDeliverabilityCampaign_campaignId,
     domainDeliverabilityCampaign_deleteRate,
@@ -326,14 +326,14 @@ module Amazonka.SESV2.Types
     domainDeliverabilityCampaign_subject,
 
     -- * DomainDeliverabilityTrackingOption
-    DomainDeliverabilityTrackingOption,
+    DomainDeliverabilityTrackingOption (DomainDeliverabilityTrackingOption'),
     newDomainDeliverabilityTrackingOption,
     domainDeliverabilityTrackingOption_domain,
     domainDeliverabilityTrackingOption_inboxPlacementTrackingOption,
     domainDeliverabilityTrackingOption_subscriptionStartDate,
 
     -- * DomainIspPlacement
-    DomainIspPlacement,
+    DomainIspPlacement (DomainIspPlacement'),
     newDomainIspPlacement,
     domainIspPlacement_inboxPercentage,
     domainIspPlacement_inboxRawCount,
@@ -342,27 +342,27 @@ module Amazonka.SESV2.Types
     domainIspPlacement_spamRawCount,
 
     -- * EmailContent
-    EmailContent,
+    EmailContent (EmailContent'),
     newEmailContent,
     emailContent_raw,
     emailContent_simple,
     emailContent_template,
 
     -- * EmailTemplateContent
-    EmailTemplateContent,
+    EmailTemplateContent (EmailTemplateContent'),
     newEmailTemplateContent,
     emailTemplateContent_html,
     emailTemplateContent_subject,
     emailTemplateContent_text,
 
     -- * EmailTemplateMetadata
-    EmailTemplateMetadata,
+    EmailTemplateMetadata (EmailTemplateMetadata'),
     newEmailTemplateMetadata,
     emailTemplateMetadata_createdTimestamp,
     emailTemplateMetadata_templateName,
 
     -- * EventDestination
-    EventDestination,
+    EventDestination (EventDestination'),
     newEventDestination,
     eventDestination_cloudWatchDestination,
     eventDestination_enabled,
@@ -373,7 +373,7 @@ module Amazonka.SESV2.Types
     eventDestination_matchingEventTypes,
 
     -- * EventDestinationDefinition
-    EventDestinationDefinition,
+    EventDestinationDefinition (EventDestinationDefinition'),
     newEventDestinationDefinition,
     eventDestinationDefinition_cloudWatchDestination,
     eventDestinationDefinition_enabled,
@@ -383,23 +383,23 @@ module Amazonka.SESV2.Types
     eventDestinationDefinition_snsDestination,
 
     -- * FailureInfo
-    FailureInfo,
+    FailureInfo (FailureInfo'),
     newFailureInfo,
     failureInfo_errorMessage,
     failureInfo_failedRecordsS3Url,
 
     -- * GuardianAttributes
-    GuardianAttributes,
+    GuardianAttributes (GuardianAttributes'),
     newGuardianAttributes,
     guardianAttributes_optimizedSharedDelivery,
 
     -- * GuardianOptions
-    GuardianOptions,
+    GuardianOptions (GuardianOptions'),
     newGuardianOptions,
     guardianOptions_optimizedSharedDelivery,
 
     -- * IdentityInfo
-    IdentityInfo,
+    IdentityInfo (IdentityInfo'),
     newIdentityInfo,
     identityInfo_identityName,
     identityInfo_identityType,
@@ -407,19 +407,19 @@ module Amazonka.SESV2.Types
     identityInfo_verificationStatus,
 
     -- * ImportDataSource
-    ImportDataSource,
+    ImportDataSource (ImportDataSource'),
     newImportDataSource,
     importDataSource_s3Url,
     importDataSource_dataFormat,
 
     -- * ImportDestination
-    ImportDestination,
+    ImportDestination (ImportDestination'),
     newImportDestination,
     importDestination_contactListDestination,
     importDestination_suppressionListDestination,
 
     -- * ImportJobSummary
-    ImportJobSummary,
+    ImportJobSummary (ImportJobSummary'),
     newImportJobSummary,
     importJobSummary_createdTimestamp,
     importJobSummary_failedRecordsCount,
@@ -429,82 +429,82 @@ module Amazonka.SESV2.Types
     importJobSummary_processedRecordsCount,
 
     -- * InboxPlacementTrackingOption
-    InboxPlacementTrackingOption,
+    InboxPlacementTrackingOption (InboxPlacementTrackingOption'),
     newInboxPlacementTrackingOption,
     inboxPlacementTrackingOption_global,
     inboxPlacementTrackingOption_trackedIsps,
 
     -- * IspPlacement
-    IspPlacement,
+    IspPlacement (IspPlacement'),
     newIspPlacement,
     ispPlacement_ispName,
     ispPlacement_placementStatistics,
 
     -- * KinesisFirehoseDestination
-    KinesisFirehoseDestination,
+    KinesisFirehoseDestination (KinesisFirehoseDestination'),
     newKinesisFirehoseDestination,
     kinesisFirehoseDestination_iamRoleArn,
     kinesisFirehoseDestination_deliveryStreamArn,
 
     -- * ListContactsFilter
-    ListContactsFilter,
+    ListContactsFilter (ListContactsFilter'),
     newListContactsFilter,
     listContactsFilter_filteredStatus,
     listContactsFilter_topicFilter,
 
     -- * ListManagementOptions
-    ListManagementOptions,
+    ListManagementOptions (ListManagementOptions'),
     newListManagementOptions,
     listManagementOptions_topicName,
     listManagementOptions_contactListName,
 
     -- * MailFromAttributes
-    MailFromAttributes,
+    MailFromAttributes (MailFromAttributes'),
     newMailFromAttributes,
     mailFromAttributes_mailFromDomain,
     mailFromAttributes_mailFromDomainStatus,
     mailFromAttributes_behaviorOnMxFailure,
 
     -- * Message
-    Message,
+    Message (Message'),
     newMessage,
     message_subject,
     message_body,
 
     -- * MessageTag
-    MessageTag,
+    MessageTag (MessageTag'),
     newMessageTag,
     messageTag_name,
     messageTag_value,
 
     -- * MetricDataError
-    MetricDataError,
+    MetricDataError (MetricDataError'),
     newMetricDataError,
     metricDataError_code,
     metricDataError_id,
     metricDataError_message,
 
     -- * MetricDataResult
-    MetricDataResult,
+    MetricDataResult (MetricDataResult'),
     newMetricDataResult,
     metricDataResult_id,
     metricDataResult_timestamps,
     metricDataResult_values,
 
     -- * OverallVolume
-    OverallVolume,
+    OverallVolume (OverallVolume'),
     newOverallVolume,
     overallVolume_domainIspPlacements,
     overallVolume_readRatePercent,
     overallVolume_volumeStatistics,
 
     -- * PinpointDestination
-    PinpointDestination,
+    PinpointDestination (PinpointDestination'),
     newPinpointDestination,
     pinpointDestination_applicationArn,
 
     -- * PlacementStatistics
-    PlacementStatistics,
+    PlacementStatistics (PlacementStatistics'),
     newPlacementStatistics,
     placementStatistics_dkimPercentage,
     placementStatistics_inboxPercentage,
@@ -513,12 +513,12 @@ module Amazonka.SESV2.Types
     placementStatistics_spfPercentage,
 
     -- * RawMessage
-    RawMessage,
+    RawMessage (RawMessage'),
     newRawMessage,
     rawMessage_data,
 
     -- * Recommendation
-    Recommendation,
+    Recommendation (Recommendation'),
     newRecommendation,
     recommendation_createdTimestamp,
     recommendation_description,
@@ -529,46 +529,46 @@ module Amazonka.SESV2.Types
     recommendation_type,
 
     -- * ReplacementEmailContent
-    ReplacementEmailContent,
+    ReplacementEmailContent (ReplacementEmailContent'),
     newReplacementEmailContent,
     replacementEmailContent_replacementTemplate,
 
     -- * ReplacementTemplate
-    ReplacementTemplate,
+    ReplacementTemplate (ReplacementTemplate'),
     newReplacementTemplate,
     replacementTemplate_replacementTemplateData,
 
     -- * ReputationOptions
-    ReputationOptions,
+    ReputationOptions (ReputationOptions'),
     newReputationOptions,
     reputationOptions_lastFreshStart,
     reputationOptions_reputationMetricsEnabled,
 
     -- * ReviewDetails
-    ReviewDetails,
+    ReviewDetails (ReviewDetails'),
     newReviewDetails,
     reviewDetails_caseId,
     reviewDetails_status,
 
     -- * SendQuota
-    SendQuota,
+    SendQuota (SendQuota'),
     newSendQuota,
     sendQuota_max24HourSend,
     sendQuota_maxSendRate,
     sendQuota_sentLast24Hours,
 
     -- * SendingOptions
-    SendingOptions,
+    SendingOptions (SendingOptions'),
     newSendingOptions,
     sendingOptions_sendingEnabled,
 
     -- * SnsDestination
-    SnsDestination,
+    SnsDestination (SnsDestination'),
     newSnsDestination,
     snsDestination_topicArn,
 
     -- * SuppressedDestination
-    SuppressedDestination,
+    SuppressedDestination (SuppressedDestination'),
     newSuppressedDestination,
     suppressedDestination_attributes,
     suppressedDestination_emailAddress,
@@ -576,48 +576,48 @@ module Amazonka.SESV2.Types
     suppressedDestination_lastUpdateTime,
 
     -- * SuppressedDestinationAttributes
-    SuppressedDestinationAttributes,
+    SuppressedDestinationAttributes (SuppressedDestinationAttributes'),
     newSuppressedDestinationAttributes,
     suppressedDestinationAttributes_feedbackId,
     suppressedDestinationAttributes_messageId,
 
     -- * SuppressedDestinationSummary
-    SuppressedDestinationSummary,
+    SuppressedDestinationSummary (SuppressedDestinationSummary'),
     newSuppressedDestinationSummary,
     suppressedDestinationSummary_emailAddress,
     suppressedDestinationSummary_reason,
     suppressedDestinationSummary_lastUpdateTime,
 
     -- * SuppressionAttributes
-    SuppressionAttributes,
+    SuppressionAttributes (SuppressionAttributes'),
     newSuppressionAttributes,
     suppressionAttributes_suppressedReasons,
 
     -- * SuppressionListDestination
-    SuppressionListDestination,
+    SuppressionListDestination (SuppressionListDestination'),
     newSuppressionListDestination,
     suppressionListDestination_suppressionListImportAction,
 
     -- * SuppressionOptions
-    SuppressionOptions,
+    SuppressionOptions (SuppressionOptions'),
     newSuppressionOptions,
     suppressionOptions_suppressedReasons,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
 
     -- * Template
-    Template,
+    Template (Template'),
     newTemplate,
     template_templateArn,
     template_templateData,
     template_templateName,
 
     -- * Topic
-    Topic,
+    Topic (Topic'),
     newTopic,
     topic_description,
     topic_topicName,
@@ -625,37 +625,37 @@ module Amazonka.SESV2.Types
     topic_defaultSubscriptionStatus,
 
     -- * TopicFilter
-    TopicFilter,
+    TopicFilter (TopicFilter'),
     newTopicFilter,
     topicFilter_topicName,
     topicFilter_useDefaultIfPreferenceUnavailable,
 
     -- * TopicPreference
-    TopicPreference,
+    TopicPreference (TopicPreference'),
     newTopicPreference,
     topicPreference_topicName,
     topicPreference_subscriptionStatus,
 
     -- * TrackingOptions
-    TrackingOptions,
+    TrackingOptions (TrackingOptions'),
     newTrackingOptions,
     trackingOptions_customRedirectDomain,
 
     -- * VdmAttributes
-    VdmAttributes,
+    VdmAttributes (VdmAttributes'),
     newVdmAttributes,
     vdmAttributes_dashboardAttributes,
     vdmAttributes_guardianAttributes,
     vdmAttributes_vdmEnabled,
 
     -- * VdmOptions
-    VdmOptions,
+    VdmOptions (VdmOptions'),
     newVdmOptions,
     vdmOptions_dashboardOptions,
     vdmOptions_guardianOptions,
 
     -- * VolumeStatistics
-    VolumeStatistics,
+    VolumeStatistics (VolumeStatistics'),
     newVolumeStatistics,
     volumeStatistics_inboxRawCount,
     volumeStatistics_projectedInbox,

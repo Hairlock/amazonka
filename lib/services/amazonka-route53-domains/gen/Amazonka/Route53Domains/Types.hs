@@ -28,46 +28,46 @@ module Amazonka.Route53Domains.Types
     _UnsupportedTLD,
 
     -- * ContactType
-    ContactType,
+    ContactType (ContactType'),
 
     -- * CountryCode
-    CountryCode,
+    CountryCode (CountryCode'),
 
     -- * DomainAvailability
-    DomainAvailability,
+    DomainAvailability (DomainAvailability'),
 
     -- * ExtraParamName
-    ExtraParamName,
+    ExtraParamName (ExtraParamName'),
 
     -- * ListDomainsAttributeName
-    ListDomainsAttributeName,
+    ListDomainsAttributeName (ListDomainsAttributeName'),
 
     -- * ListOperationsSortAttributeName
-    ListOperationsSortAttributeName,
+    ListOperationsSortAttributeName (ListOperationsSortAttributeName'),
 
     -- * OperationStatus
-    OperationStatus,
+    OperationStatus (OperationStatus'),
 
     -- * OperationType
-    OperationType,
+    OperationType (OperationType'),
 
     -- * Operator
-    Operator,
+    Operator (Operator'),
 
     -- * ReachabilityStatus
-    ReachabilityStatus,
+    ReachabilityStatus (ReachabilityStatus'),
 
     -- * SortOrder
-    SortOrder,
+    SortOrder (SortOrder'),
 
     -- * StatusFlag
-    StatusFlag,
+    StatusFlag (StatusFlag'),
 
     -- * Transferable
-    Transferable,
+    Transferable (Transferable'),
 
     -- * BillingRecord
-    BillingRecord,
+    BillingRecord (BillingRecord'),
     newBillingRecord,
     billingRecord_billDate,
     billingRecord_domainName,
@@ -76,13 +76,13 @@ module Amazonka.Route53Domains.Types
     billingRecord_price,
 
     -- * Consent
-    Consent,
+    Consent (Consent'),
     newConsent,
     consent_maxPrice,
     consent_currency,
 
     -- * ContactDetail
-    ContactDetail,
+    ContactDetail (ContactDetail'),
     newContactDetail,
     contactDetail_addressLine1,
     contactDetail_addressLine2,
@@ -100,7 +100,7 @@ module Amazonka.Route53Domains.Types
     contactDetail_zipCode,
 
     -- * DnssecKey
-    DnssecKey,
+    DnssecKey (DnssecKey'),
     newDnssecKey,
     dnssecKey_algorithm,
     dnssecKey_digest,
@@ -111,14 +111,14 @@ module Amazonka.Route53Domains.Types
     dnssecKey_publicKey,
 
     -- * DnssecSigningAttributes
-    DnssecSigningAttributes,
+    DnssecSigningAttributes (DnssecSigningAttributes'),
     newDnssecSigningAttributes,
     dnssecSigningAttributes_algorithm,
     dnssecSigningAttributes_flags,
     dnssecSigningAttributes_publicKey,
 
     -- * DomainPrice
-    DomainPrice,
+    DomainPrice (DomainPrice'),
     newDomainPrice,
     domainPrice_changeOwnershipPrice,
     domainPrice_name,
@@ -128,13 +128,13 @@ module Amazonka.Route53Domains.Types
     domainPrice_transferPrice,
 
     -- * DomainSuggestion
-    DomainSuggestion,
+    DomainSuggestion (DomainSuggestion'),
     newDomainSuggestion,
     domainSuggestion_availability,
     domainSuggestion_domainName,
 
     -- * DomainSummary
-    DomainSummary,
+    DomainSummary (DomainSummary'),
     newDomainSummary,
     domainSummary_autoRenew,
     domainSummary_domainName,
@@ -142,31 +142,31 @@ module Amazonka.Route53Domains.Types
     domainSummary_transferLock,
 
     -- * DomainTransferability
-    DomainTransferability,
+    DomainTransferability (DomainTransferability'),
     newDomainTransferability,
     domainTransferability_transferable,
 
     -- * ExtraParam
-    ExtraParam,
+    ExtraParam (ExtraParam'),
     newExtraParam,
     extraParam_name,
     extraParam_value,
 
     -- * FilterCondition
-    FilterCondition,
+    FilterCondition (FilterCondition'),
     newFilterCondition,
     filterCondition_name,
     filterCondition_operator,
     filterCondition_values,
 
     -- * Nameserver
-    Nameserver,
+    Nameserver (Nameserver'),
     newNameserver,
     nameserver_glueIps,
     nameserver_name,
 
     -- * OperationSummary
-    OperationSummary,
+    OperationSummary (OperationSummary'),
     newOperationSummary,
     operationSummary_domainName,
     operationSummary_lastUpdatedDate,
@@ -178,19 +178,19 @@ module Amazonka.Route53Domains.Types
     operationSummary_type,
 
     -- * PriceWithCurrency
-    PriceWithCurrency,
+    PriceWithCurrency (PriceWithCurrency'),
     newPriceWithCurrency,
     priceWithCurrency_price,
     priceWithCurrency_currency,
 
     -- * SortCondition
-    SortCondition,
+    SortCondition (SortCondition'),
     newSortCondition,
     sortCondition_name,
     sortCondition_sortOrder,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,

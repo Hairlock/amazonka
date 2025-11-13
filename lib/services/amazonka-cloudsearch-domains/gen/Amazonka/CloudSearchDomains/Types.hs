@@ -23,29 +23,29 @@ module Amazonka.CloudSearchDomains.Types
     _SearchException,
 
     -- * ContentType
-    ContentType,
+    ContentType (ContentType'),
 
     -- * QueryParser
-    QueryParser,
+    QueryParser (QueryParser'),
 
     -- * Bucket
-    Bucket,
+    Bucket (Bucket'),
     newBucket,
     bucket_count,
     bucket_value,
 
     -- * BucketInfo
-    BucketInfo,
+    BucketInfo (BucketInfo'),
     newBucketInfo,
     bucketInfo_buckets,
 
     -- * DocumentServiceWarning
-    DocumentServiceWarning,
+    DocumentServiceWarning (DocumentServiceWarning'),
     newDocumentServiceWarning,
     documentServiceWarning_message,
 
     -- * FieldStats
-    FieldStats,
+    FieldStats (FieldStats'),
     newFieldStats,
     fieldStats_count,
     fieldStats_max,
@@ -57,7 +57,7 @@ module Amazonka.CloudSearchDomains.Types
     fieldStats_sumOfSquares,
 
     -- * Hit
-    Hit,
+    Hit (Hit'),
     newHit,
     hit_exprs,
     hit_fields,
@@ -65,7 +65,7 @@ module Amazonka.CloudSearchDomains.Types
     hit_id,
 
     -- * Hits
-    Hits,
+    Hits (Hits'),
     newHits,
     hits_cursor,
     hits_found,
@@ -73,26 +73,26 @@ module Amazonka.CloudSearchDomains.Types
     hits_start,
 
     -- * SearchStatus
-    SearchStatus,
+    SearchStatus (SearchStatus'),
     newSearchStatus,
     searchStatus_rid,
     searchStatus_timems,
 
     -- * SuggestModel
-    SuggestModel,
+    SuggestModel (SuggestModel'),
     newSuggestModel,
     suggestModel_found,
     suggestModel_query,
     suggestModel_suggestions,
 
     -- * SuggestStatus
-    SuggestStatus,
+    SuggestStatus (SuggestStatus'),
     newSuggestStatus,
     suggestStatus_rid,
     suggestStatus_timems,
 
     -- * SuggestionMatch
-    SuggestionMatch,
+    SuggestionMatch (SuggestionMatch'),
     newSuggestionMatch,
     suggestionMatch_id,
     suggestionMatch_score,

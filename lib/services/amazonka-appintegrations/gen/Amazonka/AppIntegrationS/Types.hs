@@ -28,26 +28,26 @@ module Amazonka.AppIntegrationS.Types
     _ThrottlingException,
 
     -- * DataIntegrationAssociationSummary
-    DataIntegrationAssociationSummary,
+    DataIntegrationAssociationSummary (DataIntegrationAssociationSummary'),
     newDataIntegrationAssociationSummary,
     dataIntegrationAssociationSummary_clientId,
     dataIntegrationAssociationSummary_dataIntegrationArn,
     dataIntegrationAssociationSummary_dataIntegrationAssociationArn,
 
     -- * DataIntegrationSummary
-    DataIntegrationSummary,
+    DataIntegrationSummary (DataIntegrationSummary'),
     newDataIntegrationSummary,
     dataIntegrationSummary_arn,
     dataIntegrationSummary_name,
     dataIntegrationSummary_sourceURI,
 
     -- * EventFilter
-    EventFilter,
+    EventFilter (EventFilter'),
     newEventFilter,
     eventFilter_source,
 
     -- * EventIntegration
-    EventIntegration,
+    EventIntegration (EventIntegration'),
     newEventIntegration,
     eventIntegration_description,
     eventIntegration_eventBridgeBus,
@@ -57,7 +57,7 @@ module Amazonka.AppIntegrationS.Types
     eventIntegration_tags,
 
     -- * EventIntegrationAssociation
-    EventIntegrationAssociation,
+    EventIntegrationAssociation (EventIntegrationAssociation'),
     newEventIntegrationAssociation,
     eventIntegrationAssociation_clientAssociationMetadata,
     eventIntegrationAssociation_clientId,
@@ -67,7 +67,7 @@ module Amazonka.AppIntegrationS.Types
     eventIntegrationAssociation_eventIntegrationName,
 
     -- * ScheduleConfiguration
-    ScheduleConfiguration,
+    ScheduleConfiguration (ScheduleConfiguration'),
     newScheduleConfiguration,
     scheduleConfiguration_firstExecutionFrom,
     scheduleConfiguration_object,

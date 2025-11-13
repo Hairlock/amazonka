@@ -29,34 +29,34 @@ module Amazonka.DynamoDBStreams.Types
     module Amazonka.DynamoDBStreams.Types.AttributeValue,
 
     -- * KeyType
-    KeyType,
+    KeyType (KeyType'),
 
     -- * OperationType
-    OperationType,
+    OperationType (OperationType'),
 
     -- * ShardIteratorType
-    ShardIteratorType,
+    ShardIteratorType (ShardIteratorType'),
 
     -- * StreamStatus
-    StreamStatus,
+    StreamStatus (StreamStatus'),
 
     -- * StreamViewType
-    StreamViewType,
+    StreamViewType (StreamViewType'),
 
     -- * Identity
-    Identity,
+    Identity (Identity'),
     newIdentity,
     identity_principalId,
     identity_type,
 
     -- * KeySchemaElement
-    KeySchemaElement,
+    KeySchemaElement (KeySchemaElement'),
     newKeySchemaElement,
     keySchemaElement_attributeName,
     keySchemaElement_keyType,
 
     -- * Record
-    Record,
+    Record (Record'),
     newRecord,
     record_awsRegion,
     record_dynamodb,
@@ -67,27 +67,27 @@ module Amazonka.DynamoDBStreams.Types
     record_userIdentity,
 
     -- * SequenceNumberRange
-    SequenceNumberRange,
+    SequenceNumberRange (SequenceNumberRange'),
     newSequenceNumberRange,
     sequenceNumberRange_endingSequenceNumber,
     sequenceNumberRange_startingSequenceNumber,
 
     -- * Shard
-    Shard,
+    Shard (Shard'),
     newShard,
     shard_parentShardId,
     shard_sequenceNumberRange,
     shard_shardId,
 
     -- * Stream
-    Stream,
+    Stream (Stream'),
     newStream,
     stream_streamArn,
     stream_streamLabel,
     stream_tableName,
 
     -- * StreamDescription
-    StreamDescription,
+    StreamDescription (StreamDescription'),
     newStreamDescription,
     streamDescription_creationRequestDateTime,
     streamDescription_keySchema,
@@ -100,7 +100,7 @@ module Amazonka.DynamoDBStreams.Types
     streamDescription_tableName,
 
     -- * StreamRecord
-    StreamRecord,
+    StreamRecord (StreamRecord'),
     newStreamRecord,
     streamRecord_approximateCreationDateTime,
     streamRecord_keys,

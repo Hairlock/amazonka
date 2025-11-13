@@ -24,24 +24,24 @@ module Amazonka.ElasticInference.Types
     _ResourceNotFoundException,
 
     -- * LocationType
-    LocationType,
+    LocationType (LocationType'),
 
     -- * AcceleratorType
-    AcceleratorType,
+    AcceleratorType (AcceleratorType'),
     newAcceleratorType,
     acceleratorType_acceleratorTypeName,
     acceleratorType_memoryInfo,
     acceleratorType_throughputInfo,
 
     -- * AcceleratorTypeOffering
-    AcceleratorTypeOffering,
+    AcceleratorTypeOffering (AcceleratorTypeOffering'),
     newAcceleratorTypeOffering,
     acceleratorTypeOffering_acceleratorType,
     acceleratorTypeOffering_location,
     acceleratorTypeOffering_locationType,
 
     -- * ElasticInferenceAccelerator
-    ElasticInferenceAccelerator,
+    ElasticInferenceAccelerator (ElasticInferenceAccelerator'),
     newElasticInferenceAccelerator,
     elasticInferenceAccelerator_acceleratorHealth,
     elasticInferenceAccelerator_acceleratorId,
@@ -50,24 +50,24 @@ module Amazonka.ElasticInference.Types
     elasticInferenceAccelerator_availabilityZone,
 
     -- * ElasticInferenceAcceleratorHealth
-    ElasticInferenceAcceleratorHealth,
+    ElasticInferenceAcceleratorHealth (ElasticInferenceAcceleratorHealth'),
     newElasticInferenceAcceleratorHealth,
     elasticInferenceAcceleratorHealth_status,
 
     -- * Filter
-    Filter,
+    Filter (Filter'),
     newFilter,
     filter_name,
     filter_values,
 
     -- * KeyValuePair
-    KeyValuePair,
+    KeyValuePair (KeyValuePair'),
     newKeyValuePair,
     keyValuePair_key,
     keyValuePair_value,
 
     -- * MemoryInfo
-    MemoryInfo,
+    MemoryInfo (MemoryInfo'),
     newMemoryInfo,
     memoryInfo_sizeInMiB,
   )

@@ -25,35 +25,35 @@ module Amazonka.IoTDeviceAdvisor.Types
     _ValidationException,
 
     -- * Protocol
-    Protocol,
+    Protocol (Protocol'),
 
     -- * Status
-    Status,
+    Status (Status'),
 
     -- * SuiteRunStatus
-    SuiteRunStatus,
+    SuiteRunStatus (SuiteRunStatus'),
 
     -- * TestCaseScenarioStatus
-    TestCaseScenarioStatus,
+    TestCaseScenarioStatus (TestCaseScenarioStatus'),
 
     -- * TestCaseScenarioType
-    TestCaseScenarioType,
+    TestCaseScenarioType (TestCaseScenarioType'),
 
     -- * DeviceUnderTest
-    DeviceUnderTest,
+    DeviceUnderTest (DeviceUnderTest'),
     newDeviceUnderTest,
     deviceUnderTest_certificateArn,
     deviceUnderTest_thingArn,
 
     -- * GroupResult
-    GroupResult,
+    GroupResult (GroupResult'),
     newGroupResult,
     groupResult_groupId,
     groupResult_groupName,
     groupResult_tests,
 
     -- * SuiteDefinitionConfiguration
-    SuiteDefinitionConfiguration,
+    SuiteDefinitionConfiguration (SuiteDefinitionConfiguration'),
     newSuiteDefinitionConfiguration,
     suiteDefinitionConfiguration_devices,
     suiteDefinitionConfiguration_intendedForQualification,
@@ -64,7 +64,7 @@ module Amazonka.IoTDeviceAdvisor.Types
     suiteDefinitionConfiguration_devicePermissionRoleArn,
 
     -- * SuiteDefinitionInformation
-    SuiteDefinitionInformation,
+    SuiteDefinitionInformation (SuiteDefinitionInformation'),
     newSuiteDefinitionInformation,
     suiteDefinitionInformation_createdAt,
     suiteDefinitionInformation_defaultDevices,
@@ -75,14 +75,14 @@ module Amazonka.IoTDeviceAdvisor.Types
     suiteDefinitionInformation_suiteDefinitionName,
 
     -- * SuiteRunConfiguration
-    SuiteRunConfiguration,
+    SuiteRunConfiguration (SuiteRunConfiguration'),
     newSuiteRunConfiguration,
     suiteRunConfiguration_parallelRun,
     suiteRunConfiguration_selectedTestList,
     suiteRunConfiguration_primaryDevice,
 
     -- * SuiteRunInformation
-    SuiteRunInformation,
+    SuiteRunInformation (SuiteRunInformation'),
     newSuiteRunInformation,
     suiteRunInformation_createdAt,
     suiteRunInformation_endAt,
@@ -96,7 +96,7 @@ module Amazonka.IoTDeviceAdvisor.Types
     suiteRunInformation_suiteRunId,
 
     -- * TestCaseRun
-    TestCaseRun,
+    TestCaseRun (TestCaseRun'),
     newTestCaseRun,
     testCaseRun_endTime,
     testCaseRun_failure,
@@ -110,7 +110,7 @@ module Amazonka.IoTDeviceAdvisor.Types
     testCaseRun_warnings,
 
     -- * TestCaseScenario
-    TestCaseScenario,
+    TestCaseScenario (TestCaseScenario'),
     newTestCaseScenario,
     testCaseScenario_failure,
     testCaseScenario_status,
@@ -119,7 +119,7 @@ module Amazonka.IoTDeviceAdvisor.Types
     testCaseScenario_testCaseScenarioType,
 
     -- * TestResult
-    TestResult,
+    TestResult (TestResult'),
     newTestResult,
     testResult_groups,
   )

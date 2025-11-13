@@ -22,46 +22,46 @@ module Amazonka.MediaTailor.Types
     _BadRequestException,
 
     -- * AccessType
-    AccessType,
+    AccessType (AccessType'),
 
     -- * ChannelState
-    ChannelState,
+    ChannelState (ChannelState'),
 
     -- * MessageType
-    MessageType,
+    MessageType (MessageType'),
 
     -- * Mode
-    Mode,
+    Mode (Mode'),
 
     -- * Operator
-    Operator,
+    Operator (Operator'),
 
     -- * OriginManifestType
-    OriginManifestType,
+    OriginManifestType (OriginManifestType'),
 
     -- * PlaybackMode
-    PlaybackMode,
+    PlaybackMode (PlaybackMode'),
 
     -- * RelativePosition
-    RelativePosition,
+    RelativePosition (RelativePosition'),
 
     -- * ScheduleEntryType
-    ScheduleEntryType,
+    ScheduleEntryType (ScheduleEntryType'),
 
     -- * Tier
-    Tier,
+    Tier (Tier'),
 
     -- * Type
-    Type,
+    Type (Type'),
 
     -- * AccessConfiguration
-    AccessConfiguration,
+    AccessConfiguration (AccessConfiguration'),
     newAccessConfiguration,
     accessConfiguration_accessType,
     accessConfiguration_secretsManagerAccessTokenConfiguration,
 
     -- * AdBreak
-    AdBreak,
+    AdBreak (AdBreak'),
     newAdBreak,
     adBreak_messageType,
     adBreak_offsetMillis,
@@ -70,12 +70,12 @@ module Amazonka.MediaTailor.Types
     adBreak_timeSignalMessage,
 
     -- * AdMarkerPassthrough
-    AdMarkerPassthrough,
+    AdMarkerPassthrough (AdMarkerPassthrough'),
     newAdMarkerPassthrough,
     adMarkerPassthrough_enabled,
 
     -- * Alert
-    Alert,
+    Alert (Alert'),
     newAlert,
     alert_alertCode,
     alert_alertMessage,
@@ -84,31 +84,31 @@ module Amazonka.MediaTailor.Types
     alert_resourceArn,
 
     -- * AvailMatchingCriteria
-    AvailMatchingCriteria,
+    AvailMatchingCriteria (AvailMatchingCriteria'),
     newAvailMatchingCriteria,
     availMatchingCriteria_dynamicVariable,
     availMatchingCriteria_operator,
 
     -- * AvailSuppression
-    AvailSuppression,
+    AvailSuppression (AvailSuppression'),
     newAvailSuppression,
     availSuppression_mode,
     availSuppression_value,
 
     -- * Bumper
-    Bumper,
+    Bumper (Bumper'),
     newBumper,
     bumper_endUrl,
     bumper_startUrl,
 
     -- * CdnConfiguration
-    CdnConfiguration,
+    CdnConfiguration (CdnConfiguration'),
     newCdnConfiguration,
     cdnConfiguration_adSegmentUrlPrefix,
     cdnConfiguration_contentSegmentUrlPrefix,
 
     -- * Channel
-    Channel,
+    Channel (Channel'),
     newChannel,
     channel_creationTime,
     channel_fillerSlate,
@@ -122,20 +122,20 @@ module Amazonka.MediaTailor.Types
     channel_tier,
 
     -- * DashConfiguration
-    DashConfiguration,
+    DashConfiguration (DashConfiguration'),
     newDashConfiguration,
     dashConfiguration_manifestEndpointPrefix,
     dashConfiguration_mpdLocation,
     dashConfiguration_originManifestType,
 
     -- * DashConfigurationForPut
-    DashConfigurationForPut,
+    DashConfigurationForPut (DashConfigurationForPut'),
     newDashConfigurationForPut,
     dashConfigurationForPut_mpdLocation,
     dashConfigurationForPut_originManifestType,
 
     -- * DashPlaylistSettings
-    DashPlaylistSettings,
+    DashPlaylistSettings (DashPlaylistSettings'),
     newDashPlaylistSettings,
     dashPlaylistSettings_manifestWindowSeconds,
     dashPlaylistSettings_minBufferTimeSeconds,
@@ -143,40 +143,40 @@ module Amazonka.MediaTailor.Types
     dashPlaylistSettings_suggestedPresentationDelaySeconds,
 
     -- * DefaultSegmentDeliveryConfiguration
-    DefaultSegmentDeliveryConfiguration,
+    DefaultSegmentDeliveryConfiguration (DefaultSegmentDeliveryConfiguration'),
     newDefaultSegmentDeliveryConfiguration,
     defaultSegmentDeliveryConfiguration_baseUrl,
 
     -- * HlsConfiguration
-    HlsConfiguration,
+    HlsConfiguration (HlsConfiguration'),
     newHlsConfiguration,
     hlsConfiguration_manifestEndpointPrefix,
 
     -- * HlsPlaylistSettings
-    HlsPlaylistSettings,
+    HlsPlaylistSettings (HlsPlaylistSettings'),
     newHlsPlaylistSettings,
     hlsPlaylistSettings_manifestWindowSeconds,
 
     -- * HttpConfiguration
-    HttpConfiguration,
+    HttpConfiguration (HttpConfiguration'),
     newHttpConfiguration,
     httpConfiguration_baseUrl,
 
     -- * HttpPackageConfiguration
-    HttpPackageConfiguration,
+    HttpPackageConfiguration (HttpPackageConfiguration'),
     newHttpPackageConfiguration,
     httpPackageConfiguration_path,
     httpPackageConfiguration_sourceGroup,
     httpPackageConfiguration_type,
 
     -- * LivePreRollConfiguration
-    LivePreRollConfiguration,
+    LivePreRollConfiguration (LivePreRollConfiguration'),
     newLivePreRollConfiguration,
     livePreRollConfiguration_adDecisionServerUrl,
     livePreRollConfiguration_maxDurationSeconds,
 
     -- * LiveSource
-    LiveSource,
+    LiveSource (LiveSource'),
     newLiveSource,
     liveSource_creationTime,
     liveSource_lastModifiedTime,
@@ -187,17 +187,17 @@ module Amazonka.MediaTailor.Types
     liveSource_sourceLocationName,
 
     -- * LogConfiguration
-    LogConfiguration,
+    LogConfiguration (LogConfiguration'),
     newLogConfiguration,
     logConfiguration_percentEnabled,
 
     -- * ManifestProcessingRules
-    ManifestProcessingRules,
+    ManifestProcessingRules (ManifestProcessingRules'),
     newManifestProcessingRules,
     manifestProcessingRules_adMarkerPassthrough,
 
     -- * PlaybackConfiguration
-    PlaybackConfiguration,
+    PlaybackConfiguration (PlaybackConfiguration'),
     newPlaybackConfiguration,
     playbackConfiguration_adDecisionServerUrl,
     playbackConfiguration_availSuppression,
@@ -220,21 +220,21 @@ module Amazonka.MediaTailor.Types
     playbackConfiguration_videoContentSourceUrl,
 
     -- * PrefetchConsumption
-    PrefetchConsumption,
+    PrefetchConsumption (PrefetchConsumption'),
     newPrefetchConsumption,
     prefetchConsumption_availMatchingCriteria,
     prefetchConsumption_startTime,
     prefetchConsumption_endTime,
 
     -- * PrefetchRetrieval
-    PrefetchRetrieval,
+    PrefetchRetrieval (PrefetchRetrieval'),
     newPrefetchRetrieval,
     prefetchRetrieval_dynamicVariables,
     prefetchRetrieval_startTime,
     prefetchRetrieval_endTime,
 
     -- * PrefetchSchedule
-    PrefetchSchedule,
+    PrefetchSchedule (PrefetchSchedule'),
     newPrefetchSchedule,
     prefetchSchedule_streamId,
     prefetchSchedule_arn,
@@ -244,7 +244,7 @@ module Amazonka.MediaTailor.Types
     prefetchSchedule_retrieval,
 
     -- * RequestOutputItem
-    RequestOutputItem,
+    RequestOutputItem (RequestOutputItem'),
     newRequestOutputItem,
     requestOutputItem_dashPlaylistSettings,
     requestOutputItem_hlsPlaylistSettings,
@@ -252,7 +252,7 @@ module Amazonka.MediaTailor.Types
     requestOutputItem_sourceGroup,
 
     -- * ResponseOutputItem
-    ResponseOutputItem,
+    ResponseOutputItem (ResponseOutputItem'),
     newResponseOutputItem,
     responseOutputItem_dashPlaylistSettings,
     responseOutputItem_hlsPlaylistSettings,
@@ -261,7 +261,7 @@ module Amazonka.MediaTailor.Types
     responseOutputItem_sourceGroup,
 
     -- * ScheduleAdBreak
-    ScheduleAdBreak,
+    ScheduleAdBreak (ScheduleAdBreak'),
     newScheduleAdBreak,
     scheduleAdBreak_approximateDurationSeconds,
     scheduleAdBreak_approximateStartTime,
@@ -269,12 +269,12 @@ module Amazonka.MediaTailor.Types
     scheduleAdBreak_vodSourceName,
 
     -- * ScheduleConfiguration
-    ScheduleConfiguration,
+    ScheduleConfiguration (ScheduleConfiguration'),
     newScheduleConfiguration,
     scheduleConfiguration_transition,
 
     -- * ScheduleEntry
-    ScheduleEntry,
+    ScheduleEntry (ScheduleEntry'),
     newScheduleEntry,
     scheduleEntry_approximateDurationSeconds,
     scheduleEntry_approximateStartTime,
@@ -288,20 +288,20 @@ module Amazonka.MediaTailor.Types
     scheduleEntry_sourceLocationName,
 
     -- * SecretsManagerAccessTokenConfiguration
-    SecretsManagerAccessTokenConfiguration,
+    SecretsManagerAccessTokenConfiguration (SecretsManagerAccessTokenConfiguration'),
     newSecretsManagerAccessTokenConfiguration,
     secretsManagerAccessTokenConfiguration_headerName,
     secretsManagerAccessTokenConfiguration_secretArn,
     secretsManagerAccessTokenConfiguration_secretStringKey,
 
     -- * SegmentDeliveryConfiguration
-    SegmentDeliveryConfiguration,
+    SegmentDeliveryConfiguration (SegmentDeliveryConfiguration'),
     newSegmentDeliveryConfiguration,
     segmentDeliveryConfiguration_baseUrl,
     segmentDeliveryConfiguration_name,
 
     -- * SegmentationDescriptor
-    SegmentationDescriptor,
+    SegmentationDescriptor (SegmentationDescriptor'),
     newSegmentationDescriptor,
     segmentationDescriptor_segmentNum,
     segmentationDescriptor_segmentationEventId,
@@ -313,13 +313,13 @@ module Amazonka.MediaTailor.Types
     segmentationDescriptor_subSegmentsExpected,
 
     -- * SlateSource
-    SlateSource,
+    SlateSource (SlateSource'),
     newSlateSource,
     slateSource_sourceLocationName,
     slateSource_vodSourceName,
 
     -- * SourceLocation
-    SourceLocation,
+    SourceLocation (SourceLocation'),
     newSourceLocation,
     sourceLocation_accessConfiguration,
     sourceLocation_creationTime,
@@ -332,7 +332,7 @@ module Amazonka.MediaTailor.Types
     sourceLocation_sourceLocationName,
 
     -- * SpliceInsertMessage
-    SpliceInsertMessage,
+    SpliceInsertMessage (SpliceInsertMessage'),
     newSpliceInsertMessage,
     spliceInsertMessage_availNum,
     spliceInsertMessage_availsExpected,
@@ -340,12 +340,12 @@ module Amazonka.MediaTailor.Types
     spliceInsertMessage_uniqueProgramId,
 
     -- * TimeSignalMessage
-    TimeSignalMessage,
+    TimeSignalMessage (TimeSignalMessage'),
     newTimeSignalMessage,
     timeSignalMessage_segmentationDescriptors,
 
     -- * Transition
-    Transition,
+    Transition (Transition'),
     newTransition,
     transition_durationMillis,
     transition_relativeProgram,
@@ -354,7 +354,7 @@ module Amazonka.MediaTailor.Types
     transition_type,
 
     -- * VodSource
-    VodSource,
+    VodSource (VodSource'),
     newVodSource,
     vodSource_creationTime,
     vodSource_lastModifiedTime,

@@ -54,68 +54,68 @@ module Amazonka.ECR.Types
     _ValidationException,
 
     -- * EncryptionType
-    EncryptionType,
+    EncryptionType (EncryptionType'),
 
     -- * FindingSeverity
-    FindingSeverity,
+    FindingSeverity (FindingSeverity'),
 
     -- * ImageActionType
-    ImageActionType,
+    ImageActionType (ImageActionType'),
 
     -- * ImageFailureCode
-    ImageFailureCode,
+    ImageFailureCode (ImageFailureCode'),
 
     -- * ImageTagMutability
-    ImageTagMutability,
+    ImageTagMutability (ImageTagMutability'),
 
     -- * LayerAvailability
-    LayerAvailability,
+    LayerAvailability (LayerAvailability'),
 
     -- * LayerFailureCode
-    LayerFailureCode,
+    LayerFailureCode (LayerFailureCode'),
 
     -- * LifecyclePolicyPreviewStatus
-    LifecyclePolicyPreviewStatus,
+    LifecyclePolicyPreviewStatus (LifecyclePolicyPreviewStatus'),
 
     -- * ReplicationStatus
-    ReplicationStatus,
+    ReplicationStatus (ReplicationStatus'),
 
     -- * RepositoryFilterType
-    RepositoryFilterType,
+    RepositoryFilterType (RepositoryFilterType'),
 
     -- * ScanFrequency
-    ScanFrequency,
+    ScanFrequency (ScanFrequency'),
 
     -- * ScanStatus
-    ScanStatus,
+    ScanStatus (ScanStatus'),
 
     -- * ScanType
-    ScanType,
+    ScanType (ScanType'),
 
     -- * ScanningConfigurationFailureCode
-    ScanningConfigurationFailureCode,
+    ScanningConfigurationFailureCode (ScanningConfigurationFailureCode'),
 
     -- * ScanningRepositoryFilterType
-    ScanningRepositoryFilterType,
+    ScanningRepositoryFilterType (ScanningRepositoryFilterType'),
 
     -- * TagStatus
-    TagStatus,
+    TagStatus (TagStatus'),
 
     -- * Attribute
-    Attribute,
+    Attribute (Attribute'),
     newAttribute,
     attribute_value,
     attribute_key,
 
     -- * AuthorizationData
-    AuthorizationData,
+    AuthorizationData (AuthorizationData'),
     newAuthorizationData,
     authorizationData_authorizationToken,
     authorizationData_expiresAt,
     authorizationData_proxyEndpoint,
 
     -- * AwsEcrContainerImageDetails
-    AwsEcrContainerImageDetails,
+    AwsEcrContainerImageDetails (AwsEcrContainerImageDetails'),
     newAwsEcrContainerImageDetails,
     awsEcrContainerImageDetails_architecture,
     awsEcrContainerImageDetails_author,
@@ -127,7 +127,7 @@ module Amazonka.ECR.Types
     awsEcrContainerImageDetails_repositoryName,
 
     -- * CvssScore
-    CvssScore,
+    CvssScore (CvssScore'),
     newCvssScore,
     cvssScore_baseScore,
     cvssScore_scoringVector,
@@ -135,13 +135,13 @@ module Amazonka.ECR.Types
     cvssScore_version,
 
     -- * CvssScoreAdjustment
-    CvssScoreAdjustment,
+    CvssScoreAdjustment (CvssScoreAdjustment'),
     newCvssScoreAdjustment,
     cvssScoreAdjustment_metric,
     cvssScoreAdjustment_reason,
 
     -- * CvssScoreDetails
-    CvssScoreDetails,
+    CvssScoreDetails (CvssScoreDetails'),
     newCvssScoreDetails,
     cvssScoreDetails_adjustments,
     cvssScoreDetails_score,
@@ -150,18 +150,18 @@ module Amazonka.ECR.Types
     cvssScoreDetails_version,
 
     -- * DescribeImagesFilter
-    DescribeImagesFilter,
+    DescribeImagesFilter (DescribeImagesFilter'),
     newDescribeImagesFilter,
     describeImagesFilter_tagStatus,
 
     -- * EncryptionConfiguration
-    EncryptionConfiguration,
+    EncryptionConfiguration (EncryptionConfiguration'),
     newEncryptionConfiguration,
     encryptionConfiguration_kmsKey,
     encryptionConfiguration_encryptionType,
 
     -- * EnhancedImageScanFinding
-    EnhancedImageScanFinding,
+    EnhancedImageScanFinding (EnhancedImageScanFinding'),
     newEnhancedImageScanFinding,
     enhancedImageScanFinding_awsAccountId,
     enhancedImageScanFinding_description,
@@ -180,7 +180,7 @@ module Amazonka.ECR.Types
     enhancedImageScanFinding_updatedAt,
 
     -- * Image
-    Image,
+    Image (Image'),
     newImage,
     image_imageId,
     image_imageManifest,
@@ -189,7 +189,7 @@ module Amazonka.ECR.Types
     image_repositoryName,
 
     -- * ImageDetail
-    ImageDetail,
+    ImageDetail (ImageDetail'),
     newImageDetail,
     imageDetail_artifactMediaType,
     imageDetail_imageDigest,
@@ -204,20 +204,20 @@ module Amazonka.ECR.Types
     imageDetail_repositoryName,
 
     -- * ImageFailure
-    ImageFailure,
+    ImageFailure (ImageFailure'),
     newImageFailure,
     imageFailure_failureCode,
     imageFailure_failureReason,
     imageFailure_imageId,
 
     -- * ImageIdentifier
-    ImageIdentifier,
+    ImageIdentifier (ImageIdentifier'),
     newImageIdentifier,
     imageIdentifier_imageDigest,
     imageIdentifier_imageTag,
 
     -- * ImageReplicationStatus
-    ImageReplicationStatus,
+    ImageReplicationStatus (ImageReplicationStatus'),
     newImageReplicationStatus,
     imageReplicationStatus_failureCode,
     imageReplicationStatus_region,
@@ -225,7 +225,7 @@ module Amazonka.ECR.Types
     imageReplicationStatus_status,
 
     -- * ImageScanFinding
-    ImageScanFinding,
+    ImageScanFinding (ImageScanFinding'),
     newImageScanFinding,
     imageScanFinding_attributes,
     imageScanFinding_description,
@@ -234,7 +234,7 @@ module Amazonka.ECR.Types
     imageScanFinding_uri,
 
     -- * ImageScanFindings
-    ImageScanFindings,
+    ImageScanFindings (ImageScanFindings'),
     newImageScanFindings,
     imageScanFindings_enhancedFindings,
     imageScanFindings_findingSeverityCounts,
@@ -243,25 +243,25 @@ module Amazonka.ECR.Types
     imageScanFindings_vulnerabilitySourceUpdatedAt,
 
     -- * ImageScanFindingsSummary
-    ImageScanFindingsSummary,
+    ImageScanFindingsSummary (ImageScanFindingsSummary'),
     newImageScanFindingsSummary,
     imageScanFindingsSummary_findingSeverityCounts,
     imageScanFindingsSummary_imageScanCompletedAt,
     imageScanFindingsSummary_vulnerabilitySourceUpdatedAt,
 
     -- * ImageScanStatus
-    ImageScanStatus,
+    ImageScanStatus (ImageScanStatus'),
     newImageScanStatus,
     imageScanStatus_description,
     imageScanStatus_status,
 
     -- * ImageScanningConfiguration
-    ImageScanningConfiguration,
+    ImageScanningConfiguration (ImageScanningConfiguration'),
     newImageScanningConfiguration,
     imageScanningConfiguration_scanOnPush,
 
     -- * Layer
-    Layer,
+    Layer (Layer'),
     newLayer,
     layer_layerAvailability,
     layer_layerDigest,
@@ -269,19 +269,19 @@ module Amazonka.ECR.Types
     layer_mediaType,
 
     -- * LayerFailure
-    LayerFailure,
+    LayerFailure (LayerFailure'),
     newLayerFailure,
     layerFailure_failureCode,
     layerFailure_failureReason,
     layerFailure_layerDigest,
 
     -- * LifecyclePolicyPreviewFilter
-    LifecyclePolicyPreviewFilter,
+    LifecyclePolicyPreviewFilter (LifecyclePolicyPreviewFilter'),
     newLifecyclePolicyPreviewFilter,
     lifecyclePolicyPreviewFilter_tagStatus,
 
     -- * LifecyclePolicyPreviewResult
-    LifecyclePolicyPreviewResult,
+    LifecyclePolicyPreviewResult (LifecyclePolicyPreviewResult'),
     newLifecyclePolicyPreviewResult,
     lifecyclePolicyPreviewResult_action,
     lifecyclePolicyPreviewResult_appliedRulePriority,
@@ -290,22 +290,22 @@ module Amazonka.ECR.Types
     lifecyclePolicyPreviewResult_imageTags,
 
     -- * LifecyclePolicyPreviewSummary
-    LifecyclePolicyPreviewSummary,
+    LifecyclePolicyPreviewSummary (LifecyclePolicyPreviewSummary'),
     newLifecyclePolicyPreviewSummary,
     lifecyclePolicyPreviewSummary_expiringImageTotalCount,
 
     -- * LifecyclePolicyRuleAction
-    LifecyclePolicyRuleAction,
+    LifecyclePolicyRuleAction (LifecyclePolicyRuleAction'),
     newLifecyclePolicyRuleAction,
     lifecyclePolicyRuleAction_type,
 
     -- * ListImagesFilter
-    ListImagesFilter,
+    ListImagesFilter (ListImagesFilter'),
     newListImagesFilter,
     listImagesFilter_tagStatus,
 
     -- * PackageVulnerabilityDetails
-    PackageVulnerabilityDetails,
+    PackageVulnerabilityDetails (PackageVulnerabilityDetails'),
     newPackageVulnerabilityDetails,
     packageVulnerabilityDetails_cvss,
     packageVulnerabilityDetails_referenceUrls,
@@ -319,7 +319,7 @@ module Amazonka.ECR.Types
     packageVulnerabilityDetails_vulnerablePackages,
 
     -- * PullThroughCacheRule
-    PullThroughCacheRule,
+    PullThroughCacheRule (PullThroughCacheRule'),
     newPullThroughCacheRule,
     pullThroughCacheRule_createdAt,
     pullThroughCacheRule_ecrRepositoryPrefix,
@@ -327,47 +327,47 @@ module Amazonka.ECR.Types
     pullThroughCacheRule_upstreamRegistryUrl,
 
     -- * Recommendation
-    Recommendation,
+    Recommendation (Recommendation'),
     newRecommendation,
     recommendation_text,
     recommendation_url,
 
     -- * RegistryScanningConfiguration
-    RegistryScanningConfiguration,
+    RegistryScanningConfiguration (RegistryScanningConfiguration'),
     newRegistryScanningConfiguration,
     registryScanningConfiguration_rules,
     registryScanningConfiguration_scanType,
 
     -- * RegistryScanningRule
-    RegistryScanningRule,
+    RegistryScanningRule (RegistryScanningRule'),
     newRegistryScanningRule,
     registryScanningRule_scanFrequency,
     registryScanningRule_repositoryFilters,
 
     -- * Remediation
-    Remediation,
+    Remediation (Remediation'),
     newRemediation,
     remediation_recommendation,
 
     -- * ReplicationConfiguration
-    ReplicationConfiguration,
+    ReplicationConfiguration (ReplicationConfiguration'),
     newReplicationConfiguration,
     replicationConfiguration_rules,
 
     -- * ReplicationDestination
-    ReplicationDestination,
+    ReplicationDestination (ReplicationDestination'),
     newReplicationDestination,
     replicationDestination_region,
     replicationDestination_registryId,
 
     -- * ReplicationRule
-    ReplicationRule,
+    ReplicationRule (ReplicationRule'),
     newReplicationRule,
     replicationRule_repositoryFilters,
     replicationRule_destinations,
 
     -- * Repository
-    Repository,
+    Repository (Repository'),
     newRepository,
     repository_createdAt,
     repository_encryptionConfiguration,
@@ -379,13 +379,13 @@ module Amazonka.ECR.Types
     repository_repositoryUri,
 
     -- * RepositoryFilter
-    RepositoryFilter,
+    RepositoryFilter (RepositoryFilter'),
     newRepositoryFilter,
     repositoryFilter_filter,
     repositoryFilter_filterType,
 
     -- * RepositoryScanningConfiguration
-    RepositoryScanningConfiguration,
+    RepositoryScanningConfiguration (RepositoryScanningConfiguration'),
     newRepositoryScanningConfiguration,
     repositoryScanningConfiguration_appliedScanFilters,
     repositoryScanningConfiguration_repositoryArn,
@@ -394,14 +394,14 @@ module Amazonka.ECR.Types
     repositoryScanningConfiguration_scanOnPush,
 
     -- * RepositoryScanningConfigurationFailure
-    RepositoryScanningConfigurationFailure,
+    RepositoryScanningConfigurationFailure (RepositoryScanningConfigurationFailure'),
     newRepositoryScanningConfigurationFailure,
     repositoryScanningConfigurationFailure_failureCode,
     repositoryScanningConfigurationFailure_failureReason,
     repositoryScanningConfigurationFailure_repositoryName,
 
     -- * Resource
-    Resource,
+    Resource (Resource'),
     newResource,
     resource_details,
     resource_id,
@@ -409,29 +409,29 @@ module Amazonka.ECR.Types
     resource_type,
 
     -- * ResourceDetails
-    ResourceDetails,
+    ResourceDetails (ResourceDetails'),
     newResourceDetails,
     resourceDetails_awsEcrContainerImage,
 
     -- * ScanningRepositoryFilter
-    ScanningRepositoryFilter,
+    ScanningRepositoryFilter (ScanningRepositoryFilter'),
     newScanningRepositoryFilter,
     scanningRepositoryFilter_filter,
     scanningRepositoryFilter_filterType,
 
     -- * ScoreDetails
-    ScoreDetails,
+    ScoreDetails (ScoreDetails'),
     newScoreDetails,
     scoreDetails_cvss,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
 
     -- * VulnerablePackage
-    VulnerablePackage,
+    VulnerablePackage (VulnerablePackage'),
     newVulnerablePackage,
     vulnerablePackage_arch,
     vulnerablePackage_epoch,

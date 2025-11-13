@@ -28,48 +28,48 @@ module Amazonka.IoTAnalytics.Types
     _ThrottlingException,
 
     -- * ChannelStatus
-    ChannelStatus,
+    ChannelStatus (ChannelStatus'),
 
     -- * ComputeType
-    ComputeType,
+    ComputeType (ComputeType'),
 
     -- * DatasetActionType
-    DatasetActionType,
+    DatasetActionType (DatasetActionType'),
 
     -- * DatasetContentState
-    DatasetContentState,
+    DatasetContentState (DatasetContentState'),
 
     -- * DatasetStatus
-    DatasetStatus,
+    DatasetStatus (DatasetStatus'),
 
     -- * DatastoreStatus
-    DatastoreStatus,
+    DatastoreStatus (DatastoreStatus'),
 
     -- * FileFormatType
-    FileFormatType,
+    FileFormatType (FileFormatType'),
 
     -- * LoggingLevel
-    LoggingLevel,
+    LoggingLevel (LoggingLevel'),
 
     -- * ReprocessingStatus
-    ReprocessingStatus,
+    ReprocessingStatus (ReprocessingStatus'),
 
     -- * AddAttributesActivity
-    AddAttributesActivity,
+    AddAttributesActivity (AddAttributesActivity'),
     newAddAttributesActivity,
     addAttributesActivity_next,
     addAttributesActivity_name,
     addAttributesActivity_attributes,
 
     -- * BatchPutMessageErrorEntry
-    BatchPutMessageErrorEntry,
+    BatchPutMessageErrorEntry (BatchPutMessageErrorEntry'),
     newBatchPutMessageErrorEntry,
     batchPutMessageErrorEntry_errorCode,
     batchPutMessageErrorEntry_errorMessage,
     batchPutMessageErrorEntry_messageId,
 
     -- * Channel
-    Channel,
+    Channel (Channel'),
     newChannel,
     channel_arn,
     channel_creationTime,
@@ -81,36 +81,36 @@ module Amazonka.IoTAnalytics.Types
     channel_storage,
 
     -- * ChannelActivity
-    ChannelActivity,
+    ChannelActivity (ChannelActivity'),
     newChannelActivity,
     channelActivity_next,
     channelActivity_name,
     channelActivity_channelName,
 
     -- * ChannelMessages
-    ChannelMessages,
+    ChannelMessages (ChannelMessages'),
     newChannelMessages,
     channelMessages_s3Paths,
 
     -- * ChannelStatistics
-    ChannelStatistics,
+    ChannelStatistics (ChannelStatistics'),
     newChannelStatistics,
     channelStatistics_size,
 
     -- * ChannelStorage
-    ChannelStorage,
+    ChannelStorage (ChannelStorage'),
     newChannelStorage,
     channelStorage_customerManagedS3,
     channelStorage_serviceManagedS3,
 
     -- * ChannelStorageSummary
-    ChannelStorageSummary,
+    ChannelStorageSummary (ChannelStorageSummary'),
     newChannelStorageSummary,
     channelStorageSummary_customerManagedS3,
     channelStorageSummary_serviceManagedS3,
 
     -- * ChannelSummary
-    ChannelSummary,
+    ChannelSummary (ChannelSummary'),
     newChannelSummary,
     channelSummary_channelName,
     channelSummary_channelStorage,
@@ -120,13 +120,13 @@ module Amazonka.IoTAnalytics.Types
     channelSummary_status,
 
     -- * Column
-    Column,
+    Column (Column'),
     newColumn,
     column_name,
     column_type,
 
     -- * ContainerDatasetAction
-    ContainerDatasetAction,
+    ContainerDatasetAction (ContainerDatasetAction'),
     newContainerDatasetAction,
     containerDatasetAction_variables,
     containerDatasetAction_image,
@@ -134,35 +134,35 @@ module Amazonka.IoTAnalytics.Types
     containerDatasetAction_resourceConfiguration,
 
     -- * CustomerManagedChannelS3Storage
-    CustomerManagedChannelS3Storage,
+    CustomerManagedChannelS3Storage (CustomerManagedChannelS3Storage'),
     newCustomerManagedChannelS3Storage,
     customerManagedChannelS3Storage_keyPrefix,
     customerManagedChannelS3Storage_bucket,
     customerManagedChannelS3Storage_roleArn,
 
     -- * CustomerManagedChannelS3StorageSummary
-    CustomerManagedChannelS3StorageSummary,
+    CustomerManagedChannelS3StorageSummary (CustomerManagedChannelS3StorageSummary'),
     newCustomerManagedChannelS3StorageSummary,
     customerManagedChannelS3StorageSummary_bucket,
     customerManagedChannelS3StorageSummary_keyPrefix,
     customerManagedChannelS3StorageSummary_roleArn,
 
     -- * CustomerManagedDatastoreS3Storage
-    CustomerManagedDatastoreS3Storage,
+    CustomerManagedDatastoreS3Storage (CustomerManagedDatastoreS3Storage'),
     newCustomerManagedDatastoreS3Storage,
     customerManagedDatastoreS3Storage_keyPrefix,
     customerManagedDatastoreS3Storage_bucket,
     customerManagedDatastoreS3Storage_roleArn,
 
     -- * CustomerManagedDatastoreS3StorageSummary
-    CustomerManagedDatastoreS3StorageSummary,
+    CustomerManagedDatastoreS3StorageSummary (CustomerManagedDatastoreS3StorageSummary'),
     newCustomerManagedDatastoreS3StorageSummary,
     customerManagedDatastoreS3StorageSummary_bucket,
     customerManagedDatastoreS3StorageSummary_keyPrefix,
     customerManagedDatastoreS3StorageSummary_roleArn,
 
     -- * Dataset
-    Dataset,
+    Dataset (Dataset'),
     newDataset,
     dataset_actions,
     dataset_arn,
@@ -177,38 +177,38 @@ module Amazonka.IoTAnalytics.Types
     dataset_versioningConfiguration,
 
     -- * DatasetAction
-    DatasetAction,
+    DatasetAction (DatasetAction'),
     newDatasetAction,
     datasetAction_actionName,
     datasetAction_containerAction,
     datasetAction_queryAction,
 
     -- * DatasetActionSummary
-    DatasetActionSummary,
+    DatasetActionSummary (DatasetActionSummary'),
     newDatasetActionSummary,
     datasetActionSummary_actionName,
     datasetActionSummary_actionType,
 
     -- * DatasetContentDeliveryDestination
-    DatasetContentDeliveryDestination,
+    DatasetContentDeliveryDestination (DatasetContentDeliveryDestination'),
     newDatasetContentDeliveryDestination,
     datasetContentDeliveryDestination_iotEventsDestinationConfiguration,
     datasetContentDeliveryDestination_s3DestinationConfiguration,
 
     -- * DatasetContentDeliveryRule
-    DatasetContentDeliveryRule,
+    DatasetContentDeliveryRule (DatasetContentDeliveryRule'),
     newDatasetContentDeliveryRule,
     datasetContentDeliveryRule_entryName,
     datasetContentDeliveryRule_destination,
 
     -- * DatasetContentStatus
-    DatasetContentStatus,
+    DatasetContentStatus (DatasetContentStatus'),
     newDatasetContentStatus,
     datasetContentStatus_reason,
     datasetContentStatus_state,
 
     -- * DatasetContentSummary
-    DatasetContentSummary,
+    DatasetContentSummary (DatasetContentSummary'),
     newDatasetContentSummary,
     datasetContentSummary_completionTime,
     datasetContentSummary_creationTime,
@@ -217,18 +217,18 @@ module Amazonka.IoTAnalytics.Types
     datasetContentSummary_version,
 
     -- * DatasetContentVersionValue
-    DatasetContentVersionValue,
+    DatasetContentVersionValue (DatasetContentVersionValue'),
     newDatasetContentVersionValue,
     datasetContentVersionValue_datasetName,
 
     -- * DatasetEntry
-    DatasetEntry,
+    DatasetEntry (DatasetEntry'),
     newDatasetEntry,
     datasetEntry_dataURI,
     datasetEntry_entryName,
 
     -- * DatasetSummary
-    DatasetSummary,
+    DatasetSummary (DatasetSummary'),
     newDatasetSummary,
     datasetSummary_actions,
     datasetSummary_creationTime,
@@ -238,13 +238,13 @@ module Amazonka.IoTAnalytics.Types
     datasetSummary_triggers,
 
     -- * DatasetTrigger
-    DatasetTrigger,
+    DatasetTrigger (DatasetTrigger'),
     newDatasetTrigger,
     datasetTrigger_dataset,
     datasetTrigger_schedule,
 
     -- * Datastore
-    Datastore,
+    Datastore (Datastore'),
     newDatastore,
     datastore_arn,
     datastore_creationTime,
@@ -258,53 +258,53 @@ module Amazonka.IoTAnalytics.Types
     datastore_storage,
 
     -- * DatastoreActivity
-    DatastoreActivity,
+    DatastoreActivity (DatastoreActivity'),
     newDatastoreActivity,
     datastoreActivity_name,
     datastoreActivity_datastoreName,
 
     -- * DatastoreIotSiteWiseMultiLayerStorage
-    DatastoreIotSiteWiseMultiLayerStorage,
+    DatastoreIotSiteWiseMultiLayerStorage (DatastoreIotSiteWiseMultiLayerStorage'),
     newDatastoreIotSiteWiseMultiLayerStorage,
     datastoreIotSiteWiseMultiLayerStorage_customerManagedS3Storage,
 
     -- * DatastoreIotSiteWiseMultiLayerStorageSummary
-    DatastoreIotSiteWiseMultiLayerStorageSummary,
+    DatastoreIotSiteWiseMultiLayerStorageSummary (DatastoreIotSiteWiseMultiLayerStorageSummary'),
     newDatastoreIotSiteWiseMultiLayerStorageSummary,
     datastoreIotSiteWiseMultiLayerStorageSummary_customerManagedS3Storage,
 
     -- * DatastorePartition
-    DatastorePartition,
+    DatastorePartition (DatastorePartition'),
     newDatastorePartition,
     datastorePartition_attributePartition,
     datastorePartition_timestampPartition,
 
     -- * DatastorePartitions
-    DatastorePartitions,
+    DatastorePartitions (DatastorePartitions'),
     newDatastorePartitions,
     datastorePartitions_partitions,
 
     -- * DatastoreStatistics
-    DatastoreStatistics,
+    DatastoreStatistics (DatastoreStatistics'),
     newDatastoreStatistics,
     datastoreStatistics_size,
 
     -- * DatastoreStorage
-    DatastoreStorage,
+    DatastoreStorage (DatastoreStorage'),
     newDatastoreStorage,
     datastoreStorage_customerManagedS3,
     datastoreStorage_iotSiteWiseMultiLayerStorage,
     datastoreStorage_serviceManagedS3,
 
     -- * DatastoreStorageSummary
-    DatastoreStorageSummary,
+    DatastoreStorageSummary (DatastoreStorageSummary'),
     newDatastoreStorageSummary,
     datastoreStorageSummary_customerManagedS3,
     datastoreStorageSummary_iotSiteWiseMultiLayerStorage,
     datastoreStorageSummary_serviceManagedS3,
 
     -- * DatastoreSummary
-    DatastoreSummary,
+    DatastoreSummary (DatastoreSummary'),
     newDatastoreSummary,
     datastoreSummary_creationTime,
     datastoreSummary_datastoreName,
@@ -316,18 +316,18 @@ module Amazonka.IoTAnalytics.Types
     datastoreSummary_status,
 
     -- * DeltaTime
-    DeltaTime,
+    DeltaTime (DeltaTime'),
     newDeltaTime,
     deltaTime_offsetSeconds,
     deltaTime_timeExpression,
 
     -- * DeltaTimeSessionWindowConfiguration
-    DeltaTimeSessionWindowConfiguration,
+    DeltaTimeSessionWindowConfiguration (DeltaTimeSessionWindowConfiguration'),
     newDeltaTimeSessionWindowConfiguration,
     deltaTimeSessionWindowConfiguration_timeoutInMinutes,
 
     -- * DeviceRegistryEnrichActivity
-    DeviceRegistryEnrichActivity,
+    DeviceRegistryEnrichActivity (DeviceRegistryEnrichActivity'),
     newDeviceRegistryEnrichActivity,
     deviceRegistryEnrichActivity_next,
     deviceRegistryEnrichActivity_name,
@@ -336,7 +336,7 @@ module Amazonka.IoTAnalytics.Types
     deviceRegistryEnrichActivity_roleArn,
 
     -- * DeviceShadowEnrichActivity
-    DeviceShadowEnrichActivity,
+    DeviceShadowEnrichActivity (DeviceShadowEnrichActivity'),
     newDeviceShadowEnrichActivity,
     deviceShadowEnrichActivity_next,
     deviceShadowEnrichActivity_name,
@@ -345,54 +345,54 @@ module Amazonka.IoTAnalytics.Types
     deviceShadowEnrichActivity_roleArn,
 
     -- * EstimatedResourceSize
-    EstimatedResourceSize,
+    EstimatedResourceSize (EstimatedResourceSize'),
     newEstimatedResourceSize,
     estimatedResourceSize_estimatedOn,
     estimatedResourceSize_estimatedSizeInBytes,
 
     -- * FileFormatConfiguration
-    FileFormatConfiguration,
+    FileFormatConfiguration (FileFormatConfiguration'),
     newFileFormatConfiguration,
     fileFormatConfiguration_jsonConfiguration,
     fileFormatConfiguration_parquetConfiguration,
 
     -- * FilterActivity
-    FilterActivity,
+    FilterActivity (FilterActivity'),
     newFilterActivity,
     filterActivity_next,
     filterActivity_name,
     filterActivity_filter,
 
     -- * GlueConfiguration
-    GlueConfiguration,
+    GlueConfiguration (GlueConfiguration'),
     newGlueConfiguration,
     glueConfiguration_tableName,
     glueConfiguration_databaseName,
 
     -- * IotEventsDestinationConfiguration
-    IotEventsDestinationConfiguration,
+    IotEventsDestinationConfiguration (IotEventsDestinationConfiguration'),
     newIotEventsDestinationConfiguration,
     iotEventsDestinationConfiguration_inputName,
     iotEventsDestinationConfiguration_roleArn,
 
     -- * IotSiteWiseCustomerManagedDatastoreS3Storage
-    IotSiteWiseCustomerManagedDatastoreS3Storage,
+    IotSiteWiseCustomerManagedDatastoreS3Storage (IotSiteWiseCustomerManagedDatastoreS3Storage'),
     newIotSiteWiseCustomerManagedDatastoreS3Storage,
     iotSiteWiseCustomerManagedDatastoreS3Storage_keyPrefix,
     iotSiteWiseCustomerManagedDatastoreS3Storage_bucket,
 
     -- * IotSiteWiseCustomerManagedDatastoreS3StorageSummary
-    IotSiteWiseCustomerManagedDatastoreS3StorageSummary,
+    IotSiteWiseCustomerManagedDatastoreS3StorageSummary (IotSiteWiseCustomerManagedDatastoreS3StorageSummary'),
     newIotSiteWiseCustomerManagedDatastoreS3StorageSummary,
     iotSiteWiseCustomerManagedDatastoreS3StorageSummary_bucket,
     iotSiteWiseCustomerManagedDatastoreS3StorageSummary_keyPrefix,
 
     -- * JsonConfiguration
-    JsonConfiguration,
+    JsonConfiguration (JsonConfiguration'),
     newJsonConfiguration,
 
     -- * LambdaActivity
-    LambdaActivity,
+    LambdaActivity (LambdaActivity'),
     newLambdaActivity,
     lambdaActivity_next,
     lambdaActivity_name,
@@ -400,25 +400,25 @@ module Amazonka.IoTAnalytics.Types
     lambdaActivity_batchSize,
 
     -- * LateDataRule
-    LateDataRule,
+    LateDataRule (LateDataRule'),
     newLateDataRule,
     lateDataRule_ruleName,
     lateDataRule_ruleConfiguration,
 
     -- * LateDataRuleConfiguration
-    LateDataRuleConfiguration,
+    LateDataRuleConfiguration (LateDataRuleConfiguration'),
     newLateDataRuleConfiguration,
     lateDataRuleConfiguration_deltaTimeSessionWindowConfiguration,
 
     -- * LoggingOptions
-    LoggingOptions,
+    LoggingOptions (LoggingOptions'),
     newLoggingOptions,
     loggingOptions_roleArn,
     loggingOptions_level,
     loggingOptions_enabled,
 
     -- * MathActivity
-    MathActivity,
+    MathActivity (MathActivity'),
     newMathActivity,
     mathActivity_next,
     mathActivity_name,
@@ -426,28 +426,28 @@ module Amazonka.IoTAnalytics.Types
     mathActivity_math,
 
     -- * Message
-    Message,
+    Message (Message'),
     newMessage,
     message_messageId,
     message_payload,
 
     -- * OutputFileUriValue
-    OutputFileUriValue,
+    OutputFileUriValue (OutputFileUriValue'),
     newOutputFileUriValue,
     outputFileUriValue_fileName,
 
     -- * ParquetConfiguration
-    ParquetConfiguration,
+    ParquetConfiguration (ParquetConfiguration'),
     newParquetConfiguration,
     parquetConfiguration_schemaDefinition,
 
     -- * Partition
-    Partition,
+    Partition (Partition'),
     newPartition,
     partition_attributeName,
 
     -- * Pipeline
-    Pipeline,
+    Pipeline (Pipeline'),
     newPipeline,
     pipeline_activities,
     pipeline_arn,
@@ -457,7 +457,7 @@ module Amazonka.IoTAnalytics.Types
     pipeline_reprocessingSummaries,
 
     -- * PipelineActivity
-    PipelineActivity,
+    PipelineActivity (PipelineActivity'),
     newPipelineActivity,
     pipelineActivity_addAttributes,
     pipelineActivity_channel,
@@ -471,7 +471,7 @@ module Amazonka.IoTAnalytics.Types
     pipelineActivity_selectAttributes,
 
     -- * PipelineSummary
-    PipelineSummary,
+    PipelineSummary (PipelineSummary'),
     newPipelineSummary,
     pipelineSummary_creationTime,
     pipelineSummary_lastUpdateTime,
@@ -479,38 +479,38 @@ module Amazonka.IoTAnalytics.Types
     pipelineSummary_reprocessingSummaries,
 
     -- * QueryFilter
-    QueryFilter,
+    QueryFilter (QueryFilter'),
     newQueryFilter,
     queryFilter_deltaTime,
 
     -- * RemoveAttributesActivity
-    RemoveAttributesActivity,
+    RemoveAttributesActivity (RemoveAttributesActivity'),
     newRemoveAttributesActivity,
     removeAttributesActivity_next,
     removeAttributesActivity_name,
     removeAttributesActivity_attributes,
 
     -- * ReprocessingSummary
-    ReprocessingSummary,
+    ReprocessingSummary (ReprocessingSummary'),
     newReprocessingSummary,
     reprocessingSummary_creationTime,
     reprocessingSummary_id,
     reprocessingSummary_status,
 
     -- * ResourceConfiguration
-    ResourceConfiguration,
+    ResourceConfiguration (ResourceConfiguration'),
     newResourceConfiguration,
     resourceConfiguration_computeType,
     resourceConfiguration_volumeSizeInGB,
 
     -- * RetentionPeriod
-    RetentionPeriod,
+    RetentionPeriod (RetentionPeriod'),
     newRetentionPeriod,
     retentionPeriod_numberOfDays,
     retentionPeriod_unlimited,
 
     -- * S3DestinationConfiguration
-    S3DestinationConfiguration,
+    S3DestinationConfiguration (S3DestinationConfiguration'),
     newS3DestinationConfiguration,
     s3DestinationConfiguration_glueConfiguration,
     s3DestinationConfiguration_bucket,
@@ -518,63 +518,63 @@ module Amazonka.IoTAnalytics.Types
     s3DestinationConfiguration_roleArn,
 
     -- * Schedule
-    Schedule,
+    Schedule (Schedule'),
     newSchedule,
     schedule_expression,
 
     -- * SchemaDefinition
-    SchemaDefinition,
+    SchemaDefinition (SchemaDefinition'),
     newSchemaDefinition,
     schemaDefinition_columns,
 
     -- * SelectAttributesActivity
-    SelectAttributesActivity,
+    SelectAttributesActivity (SelectAttributesActivity'),
     newSelectAttributesActivity,
     selectAttributesActivity_next,
     selectAttributesActivity_name,
     selectAttributesActivity_attributes,
 
     -- * ServiceManagedChannelS3Storage
-    ServiceManagedChannelS3Storage,
+    ServiceManagedChannelS3Storage (ServiceManagedChannelS3Storage'),
     newServiceManagedChannelS3Storage,
 
     -- * ServiceManagedChannelS3StorageSummary
-    ServiceManagedChannelS3StorageSummary,
+    ServiceManagedChannelS3StorageSummary (ServiceManagedChannelS3StorageSummary'),
     newServiceManagedChannelS3StorageSummary,
 
     -- * ServiceManagedDatastoreS3Storage
-    ServiceManagedDatastoreS3Storage,
+    ServiceManagedDatastoreS3Storage (ServiceManagedDatastoreS3Storage'),
     newServiceManagedDatastoreS3Storage,
 
     -- * ServiceManagedDatastoreS3StorageSummary
-    ServiceManagedDatastoreS3StorageSummary,
+    ServiceManagedDatastoreS3StorageSummary (ServiceManagedDatastoreS3StorageSummary'),
     newServiceManagedDatastoreS3StorageSummary,
 
     -- * SqlQueryDatasetAction
-    SqlQueryDatasetAction,
+    SqlQueryDatasetAction (SqlQueryDatasetAction'),
     newSqlQueryDatasetAction,
     sqlQueryDatasetAction_filters,
     sqlQueryDatasetAction_sqlQuery,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
 
     -- * TimestampPartition
-    TimestampPartition,
+    TimestampPartition (TimestampPartition'),
     newTimestampPartition,
     timestampPartition_timestampFormat,
     timestampPartition_attributeName,
 
     -- * TriggeringDataset
-    TriggeringDataset,
+    TriggeringDataset (TriggeringDataset'),
     newTriggeringDataset,
     triggeringDataset_name,
 
     -- * Variable
-    Variable,
+    Variable (Variable'),
     newVariable,
     variable_datasetContentVersionValue,
     variable_doubleValue,
@@ -583,7 +583,7 @@ module Amazonka.IoTAnalytics.Types
     variable_name,
 
     -- * VersioningConfiguration
-    VersioningConfiguration,
+    VersioningConfiguration (VersioningConfiguration'),
     newVersioningConfiguration,
     versioningConfiguration_maxVersions,
     versioningConfiguration_unlimited,

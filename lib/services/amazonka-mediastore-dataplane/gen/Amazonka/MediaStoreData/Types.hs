@@ -25,16 +25,16 @@ module Amazonka.MediaStoreData.Types
     _RequestedRangeNotSatisfiableException,
 
     -- * ItemType
-    ItemType,
+    ItemType (ItemType'),
 
     -- * StorageClass
-    StorageClass,
+    StorageClass (StorageClass'),
 
     -- * UploadAvailability
-    UploadAvailability,
+    UploadAvailability (UploadAvailability'),
 
     -- * Item
-    Item,
+    Item (Item'),
     newItem,
     item_contentLength,
     item_contentType,

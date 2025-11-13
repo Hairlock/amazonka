@@ -25,695 +25,695 @@ module Amazonka.SageMaker.Types
     _ResourceNotFound,
 
     -- * ActionStatus
-    ActionStatus,
+    ActionStatus (ActionStatus'),
 
     -- * AlgorithmSortBy
-    AlgorithmSortBy,
+    AlgorithmSortBy (AlgorithmSortBy'),
 
     -- * AlgorithmStatus
-    AlgorithmStatus,
+    AlgorithmStatus (AlgorithmStatus'),
 
     -- * AppImageConfigSortKey
-    AppImageConfigSortKey,
+    AppImageConfigSortKey (AppImageConfigSortKey'),
 
     -- * AppInstanceType
-    AppInstanceType,
+    AppInstanceType (AppInstanceType'),
 
     -- * AppNetworkAccessType
-    AppNetworkAccessType,
+    AppNetworkAccessType (AppNetworkAccessType'),
 
     -- * AppSecurityGroupManagement
-    AppSecurityGroupManagement,
+    AppSecurityGroupManagement (AppSecurityGroupManagement'),
 
     -- * AppSortKey
-    AppSortKey,
+    AppSortKey (AppSortKey'),
 
     -- * AppStatus
-    AppStatus,
+    AppStatus (AppStatus'),
 
     -- * AppType
-    AppType,
+    AppType (AppType'),
 
     -- * ArtifactSourceIdType
-    ArtifactSourceIdType,
+    ArtifactSourceIdType (ArtifactSourceIdType'),
 
     -- * AssemblyType
-    AssemblyType,
+    AssemblyType (AssemblyType'),
 
     -- * AssociationEdgeType
-    AssociationEdgeType,
+    AssociationEdgeType (AssociationEdgeType'),
 
     -- * AthenaResultCompressionType
-    AthenaResultCompressionType,
+    AthenaResultCompressionType (AthenaResultCompressionType'),
 
     -- * AthenaResultFormat
-    AthenaResultFormat,
+    AthenaResultFormat (AthenaResultFormat'),
 
     -- * AuthMode
-    AuthMode,
+    AuthMode (AuthMode'),
 
     -- * AutoMLChannelType
-    AutoMLChannelType,
+    AutoMLChannelType (AutoMLChannelType'),
 
     -- * AutoMLJobObjectiveType
-    AutoMLJobObjectiveType,
+    AutoMLJobObjectiveType (AutoMLJobObjectiveType'),
 
     -- * AutoMLJobSecondaryStatus
-    AutoMLJobSecondaryStatus,
+    AutoMLJobSecondaryStatus (AutoMLJobSecondaryStatus'),
 
     -- * AutoMLJobStatus
-    AutoMLJobStatus,
+    AutoMLJobStatus (AutoMLJobStatus'),
 
     -- * AutoMLMetricEnum
-    AutoMLMetricEnum,
+    AutoMLMetricEnum (AutoMLMetricEnum'),
 
     -- * AutoMLMetricExtendedEnum
-    AutoMLMetricExtendedEnum,
+    AutoMLMetricExtendedEnum (AutoMLMetricExtendedEnum'),
 
     -- * AutoMLMode
-    AutoMLMode,
+    AutoMLMode (AutoMLMode'),
 
     -- * AutoMLS3DataType
-    AutoMLS3DataType,
+    AutoMLS3DataType (AutoMLS3DataType'),
 
     -- * AutoMLSortBy
-    AutoMLSortBy,
+    AutoMLSortBy (AutoMLSortBy'),
 
     -- * AutoMLSortOrder
-    AutoMLSortOrder,
+    AutoMLSortOrder (AutoMLSortOrder'),
 
     -- * AwsManagedHumanLoopRequestSource
-    AwsManagedHumanLoopRequestSource,
+    AwsManagedHumanLoopRequestSource (AwsManagedHumanLoopRequestSource'),
 
     -- * BatchStrategy
-    BatchStrategy,
+    BatchStrategy (BatchStrategy'),
 
     -- * BooleanOperator
-    BooleanOperator,
+    BooleanOperator (BooleanOperator'),
 
     -- * CandidateSortBy
-    CandidateSortBy,
+    CandidateSortBy (CandidateSortBy'),
 
     -- * CandidateStatus
-    CandidateStatus,
+    CandidateStatus (CandidateStatus'),
 
     -- * CandidateStepType
-    CandidateStepType,
+    CandidateStepType (CandidateStepType'),
 
     -- * CapacitySizeType
-    CapacitySizeType,
+    CapacitySizeType (CapacitySizeType'),
 
     -- * CaptureMode
-    CaptureMode,
+    CaptureMode (CaptureMode'),
 
     -- * CaptureStatus
-    CaptureStatus,
+    CaptureStatus (CaptureStatus'),
 
     -- * ClarifyFeatureType
-    ClarifyFeatureType,
+    ClarifyFeatureType (ClarifyFeatureType'),
 
     -- * ClarifyTextGranularity
-    ClarifyTextGranularity,
+    ClarifyTextGranularity (ClarifyTextGranularity'),
 
     -- * ClarifyTextLanguage
-    ClarifyTextLanguage,
+    ClarifyTextLanguage (ClarifyTextLanguage'),
 
     -- * CodeRepositorySortBy
-    CodeRepositorySortBy,
+    CodeRepositorySortBy (CodeRepositorySortBy'),
 
     -- * CodeRepositorySortOrder
-    CodeRepositorySortOrder,
+    CodeRepositorySortOrder (CodeRepositorySortOrder'),
 
     -- * CompilationJobStatus
-    CompilationJobStatus,
+    CompilationJobStatus (CompilationJobStatus'),
 
     -- * CompressionType
-    CompressionType,
+    CompressionType (CompressionType'),
 
     -- * ConditionOutcome
-    ConditionOutcome,
+    ConditionOutcome (ConditionOutcome'),
 
     -- * ContainerMode
-    ContainerMode,
+    ContainerMode (ContainerMode'),
 
     -- * ContentClassifier
-    ContentClassifier,
+    ContentClassifier (ContentClassifier'),
 
     -- * DataDistributionType
-    DataDistributionType,
+    DataDistributionType (DataDistributionType'),
 
     -- * DetailedAlgorithmStatus
-    DetailedAlgorithmStatus,
+    DetailedAlgorithmStatus (DetailedAlgorithmStatus'),
 
     -- * DetailedModelPackageStatus
-    DetailedModelPackageStatus,
+    DetailedModelPackageStatus (DetailedModelPackageStatus'),
 
     -- * DeviceDeploymentStatus
-    DeviceDeploymentStatus,
+    DeviceDeploymentStatus (DeviceDeploymentStatus'),
 
     -- * DeviceSubsetType
-    DeviceSubsetType,
+    DeviceSubsetType (DeviceSubsetType'),
 
     -- * DirectInternetAccess
-    DirectInternetAccess,
+    DirectInternetAccess (DirectInternetAccess'),
 
     -- * Direction
-    Direction,
+    Direction (Direction'),
 
     -- * DomainStatus
-    DomainStatus,
+    DomainStatus (DomainStatus'),
 
     -- * EdgePackagingJobStatus
-    EdgePackagingJobStatus,
+    EdgePackagingJobStatus (EdgePackagingJobStatus'),
 
     -- * EdgePresetDeploymentStatus
-    EdgePresetDeploymentStatus,
+    EdgePresetDeploymentStatus (EdgePresetDeploymentStatus'),
 
     -- * EdgePresetDeploymentType
-    EdgePresetDeploymentType,
+    EdgePresetDeploymentType (EdgePresetDeploymentType'),
 
     -- * EndpointConfigSortKey
-    EndpointConfigSortKey,
+    EndpointConfigSortKey (EndpointConfigSortKey'),
 
     -- * EndpointSortKey
-    EndpointSortKey,
+    EndpointSortKey (EndpointSortKey'),
 
     -- * EndpointStatus
-    EndpointStatus,
+    EndpointStatus (EndpointStatus'),
 
     -- * ExecutionRoleIdentityConfig
-    ExecutionRoleIdentityConfig,
+    ExecutionRoleIdentityConfig (ExecutionRoleIdentityConfig'),
 
     -- * ExecutionStatus
-    ExecutionStatus,
+    ExecutionStatus (ExecutionStatus'),
 
     -- * FailureHandlingPolicy
-    FailureHandlingPolicy,
+    FailureHandlingPolicy (FailureHandlingPolicy'),
 
     -- * FeatureGroupSortBy
-    FeatureGroupSortBy,
+    FeatureGroupSortBy (FeatureGroupSortBy'),
 
     -- * FeatureGroupSortOrder
-    FeatureGroupSortOrder,
+    FeatureGroupSortOrder (FeatureGroupSortOrder'),
 
     -- * FeatureGroupStatus
-    FeatureGroupStatus,
+    FeatureGroupStatus (FeatureGroupStatus'),
 
     -- * FeatureStatus
-    FeatureStatus,
+    FeatureStatus (FeatureStatus'),
 
     -- * FeatureType
-    FeatureType,
+    FeatureType (FeatureType'),
 
     -- * FileSystemAccessMode
-    FileSystemAccessMode,
+    FileSystemAccessMode (FileSystemAccessMode'),
 
     -- * FileSystemType
-    FileSystemType,
+    FileSystemType (FileSystemType'),
 
     -- * FlowDefinitionStatus
-    FlowDefinitionStatus,
+    FlowDefinitionStatus (FlowDefinitionStatus'),
 
     -- * Framework
-    Framework,
+    Framework (Framework'),
 
     -- * HubContentSortBy
-    HubContentSortBy,
+    HubContentSortBy (HubContentSortBy'),
 
     -- * HubContentStatus
-    HubContentStatus,
+    HubContentStatus (HubContentStatus'),
 
     -- * HubContentType
-    HubContentType,
+    HubContentType (HubContentType'),
 
     -- * HubSortBy
-    HubSortBy,
+    HubSortBy (HubSortBy'),
 
     -- * HubStatus
-    HubStatus,
+    HubStatus (HubStatus'),
 
     -- * HumanTaskUiStatus
-    HumanTaskUiStatus,
+    HumanTaskUiStatus (HumanTaskUiStatus'),
 
     -- * HyperParameterScalingType
-    HyperParameterScalingType,
+    HyperParameterScalingType (HyperParameterScalingType'),
 
     -- * HyperParameterTuningAllocationStrategy
-    HyperParameterTuningAllocationStrategy,
+    HyperParameterTuningAllocationStrategy (HyperParameterTuningAllocationStrategy'),
 
     -- * HyperParameterTuningJobObjectiveType
-    HyperParameterTuningJobObjectiveType,
+    HyperParameterTuningJobObjectiveType (HyperParameterTuningJobObjectiveType'),
 
     -- * HyperParameterTuningJobSortByOptions
-    HyperParameterTuningJobSortByOptions,
+    HyperParameterTuningJobSortByOptions (HyperParameterTuningJobSortByOptions'),
 
     -- * HyperParameterTuningJobStatus
-    HyperParameterTuningJobStatus,
+    HyperParameterTuningJobStatus (HyperParameterTuningJobStatus'),
 
     -- * HyperParameterTuningJobStrategyType
-    HyperParameterTuningJobStrategyType,
+    HyperParameterTuningJobStrategyType (HyperParameterTuningJobStrategyType'),
 
     -- * HyperParameterTuningJobWarmStartType
-    HyperParameterTuningJobWarmStartType,
+    HyperParameterTuningJobWarmStartType (HyperParameterTuningJobWarmStartType'),
 
     -- * ImageSortBy
-    ImageSortBy,
+    ImageSortBy (ImageSortBy'),
 
     -- * ImageSortOrder
-    ImageSortOrder,
+    ImageSortOrder (ImageSortOrder'),
 
     -- * ImageStatus
-    ImageStatus,
+    ImageStatus (ImageStatus'),
 
     -- * ImageVersionSortBy
-    ImageVersionSortBy,
+    ImageVersionSortBy (ImageVersionSortBy'),
 
     -- * ImageVersionSortOrder
-    ImageVersionSortOrder,
+    ImageVersionSortOrder (ImageVersionSortOrder'),
 
     -- * ImageVersionStatus
-    ImageVersionStatus,
+    ImageVersionStatus (ImageVersionStatus'),
 
     -- * InferenceExecutionMode
-    InferenceExecutionMode,
+    InferenceExecutionMode (InferenceExecutionMode'),
 
     -- * InferenceExperimentStatus
-    InferenceExperimentStatus,
+    InferenceExperimentStatus (InferenceExperimentStatus'),
 
     -- * InferenceExperimentStopDesiredState
-    InferenceExperimentStopDesiredState,
+    InferenceExperimentStopDesiredState (InferenceExperimentStopDesiredState'),
 
     -- * InferenceExperimentType
-    InferenceExperimentType,
+    InferenceExperimentType (InferenceExperimentType'),
 
     -- * InputMode
-    InputMode,
+    InputMode (InputMode'),
 
     -- * InstanceType
-    InstanceType,
+    InstanceType (InstanceType'),
 
     -- * JobType
-    JobType,
+    JobType (JobType'),
 
     -- * JoinSource
-    JoinSource,
+    JoinSource (JoinSource'),
 
     -- * LabelingJobStatus
-    LabelingJobStatus,
+    LabelingJobStatus (LabelingJobStatus'),
 
     -- * LastUpdateStatusValue
-    LastUpdateStatusValue,
+    LastUpdateStatusValue (LastUpdateStatusValue'),
 
     -- * LineageType
-    LineageType,
+    LineageType (LineageType'),
 
     -- * ListCompilationJobsSortBy
-    ListCompilationJobsSortBy,
+    ListCompilationJobsSortBy (ListCompilationJobsSortBy'),
 
     -- * ListDeviceFleetsSortBy
-    ListDeviceFleetsSortBy,
+    ListDeviceFleetsSortBy (ListDeviceFleetsSortBy'),
 
     -- * ListEdgeDeploymentPlansSortBy
-    ListEdgeDeploymentPlansSortBy,
+    ListEdgeDeploymentPlansSortBy (ListEdgeDeploymentPlansSortBy'),
 
     -- * ListEdgePackagingJobsSortBy
-    ListEdgePackagingJobsSortBy,
+    ListEdgePackagingJobsSortBy (ListEdgePackagingJobsSortBy'),
 
     -- * ListInferenceRecommendationsJobsSortBy
-    ListInferenceRecommendationsJobsSortBy,
+    ListInferenceRecommendationsJobsSortBy (ListInferenceRecommendationsJobsSortBy'),
 
     -- * ListLabelingJobsForWorkteamSortByOptions
-    ListLabelingJobsForWorkteamSortByOptions,
+    ListLabelingJobsForWorkteamSortByOptions (ListLabelingJobsForWorkteamSortByOptions'),
 
     -- * ListWorkforcesSortByOptions
-    ListWorkforcesSortByOptions,
+    ListWorkforcesSortByOptions (ListWorkforcesSortByOptions'),
 
     -- * ListWorkteamsSortByOptions
-    ListWorkteamsSortByOptions,
+    ListWorkteamsSortByOptions (ListWorkteamsSortByOptions'),
 
     -- * MetricSetSource
-    MetricSetSource,
+    MetricSetSource (MetricSetSource'),
 
     -- * ModelApprovalStatus
-    ModelApprovalStatus,
+    ModelApprovalStatus (ModelApprovalStatus'),
 
     -- * ModelCacheSetting
-    ModelCacheSetting,
+    ModelCacheSetting (ModelCacheSetting'),
 
     -- * ModelCardExportJobSortBy
-    ModelCardExportJobSortBy,
+    ModelCardExportJobSortBy (ModelCardExportJobSortBy'),
 
     -- * ModelCardExportJobSortOrder
-    ModelCardExportJobSortOrder,
+    ModelCardExportJobSortOrder (ModelCardExportJobSortOrder'),
 
     -- * ModelCardExportJobStatus
-    ModelCardExportJobStatus,
+    ModelCardExportJobStatus (ModelCardExportJobStatus'),
 
     -- * ModelCardProcessingStatus
-    ModelCardProcessingStatus,
+    ModelCardProcessingStatus (ModelCardProcessingStatus'),
 
     -- * ModelCardSortBy
-    ModelCardSortBy,
+    ModelCardSortBy (ModelCardSortBy'),
 
     -- * ModelCardSortOrder
-    ModelCardSortOrder,
+    ModelCardSortOrder (ModelCardSortOrder'),
 
     -- * ModelCardStatus
-    ModelCardStatus,
+    ModelCardStatus (ModelCardStatus'),
 
     -- * ModelCardVersionSortBy
-    ModelCardVersionSortBy,
+    ModelCardVersionSortBy (ModelCardVersionSortBy'),
 
     -- * ModelInfrastructureType
-    ModelInfrastructureType,
+    ModelInfrastructureType (ModelInfrastructureType'),
 
     -- * ModelMetadataFilterType
-    ModelMetadataFilterType,
+    ModelMetadataFilterType (ModelMetadataFilterType'),
 
     -- * ModelPackageGroupSortBy
-    ModelPackageGroupSortBy,
+    ModelPackageGroupSortBy (ModelPackageGroupSortBy'),
 
     -- * ModelPackageGroupStatus
-    ModelPackageGroupStatus,
+    ModelPackageGroupStatus (ModelPackageGroupStatus'),
 
     -- * ModelPackageSortBy
-    ModelPackageSortBy,
+    ModelPackageSortBy (ModelPackageSortBy'),
 
     -- * ModelPackageStatus
-    ModelPackageStatus,
+    ModelPackageStatus (ModelPackageStatus'),
 
     -- * ModelPackageType
-    ModelPackageType,
+    ModelPackageType (ModelPackageType'),
 
     -- * ModelSortKey
-    ModelSortKey,
+    ModelSortKey (ModelSortKey'),
 
     -- * ModelVariantAction
-    ModelVariantAction,
+    ModelVariantAction (ModelVariantAction'),
 
     -- * ModelVariantStatus
-    ModelVariantStatus,
+    ModelVariantStatus (ModelVariantStatus'),
 
     -- * MonitoringAlertHistorySortKey
-    MonitoringAlertHistorySortKey,
+    MonitoringAlertHistorySortKey (MonitoringAlertHistorySortKey'),
 
     -- * MonitoringAlertStatus
-    MonitoringAlertStatus,
+    MonitoringAlertStatus (MonitoringAlertStatus'),
 
     -- * MonitoringExecutionSortKey
-    MonitoringExecutionSortKey,
+    MonitoringExecutionSortKey (MonitoringExecutionSortKey'),
 
     -- * MonitoringJobDefinitionSortKey
-    MonitoringJobDefinitionSortKey,
+    MonitoringJobDefinitionSortKey (MonitoringJobDefinitionSortKey'),
 
     -- * MonitoringProblemType
-    MonitoringProblemType,
+    MonitoringProblemType (MonitoringProblemType'),
 
     -- * MonitoringScheduleSortKey
-    MonitoringScheduleSortKey,
+    MonitoringScheduleSortKey (MonitoringScheduleSortKey'),
 
     -- * MonitoringType
-    MonitoringType,
+    MonitoringType (MonitoringType'),
 
     -- * NotebookInstanceAcceleratorType
-    NotebookInstanceAcceleratorType,
+    NotebookInstanceAcceleratorType (NotebookInstanceAcceleratorType'),
 
     -- * NotebookInstanceLifecycleConfigSortKey
-    NotebookInstanceLifecycleConfigSortKey,
+    NotebookInstanceLifecycleConfigSortKey (NotebookInstanceLifecycleConfigSortKey'),
 
     -- * NotebookInstanceLifecycleConfigSortOrder
-    NotebookInstanceLifecycleConfigSortOrder,
+    NotebookInstanceLifecycleConfigSortOrder (NotebookInstanceLifecycleConfigSortOrder'),
 
     -- * NotebookInstanceSortKey
-    NotebookInstanceSortKey,
+    NotebookInstanceSortKey (NotebookInstanceSortKey'),
 
     -- * NotebookInstanceSortOrder
-    NotebookInstanceSortOrder,
+    NotebookInstanceSortOrder (NotebookInstanceSortOrder'),
 
     -- * NotebookInstanceStatus
-    NotebookInstanceStatus,
+    NotebookInstanceStatus (NotebookInstanceStatus'),
 
     -- * NotebookOutputOption
-    NotebookOutputOption,
+    NotebookOutputOption (NotebookOutputOption'),
 
     -- * ObjectiveStatus
-    ObjectiveStatus,
+    ObjectiveStatus (ObjectiveStatus'),
 
     -- * OfflineStoreStatusValue
-    OfflineStoreStatusValue,
+    OfflineStoreStatusValue (OfflineStoreStatusValue'),
 
     -- * Operator
-    Operator,
+    Operator (Operator'),
 
     -- * OrderKey
-    OrderKey,
+    OrderKey (OrderKey'),
 
     -- * ParameterType
-    ParameterType,
+    ParameterType (ParameterType'),
 
     -- * PipelineExecutionStatus
-    PipelineExecutionStatus,
+    PipelineExecutionStatus (PipelineExecutionStatus'),
 
     -- * PipelineStatus
-    PipelineStatus,
+    PipelineStatus (PipelineStatus'),
 
     -- * ProblemType
-    ProblemType,
+    ProblemType (ProblemType'),
 
     -- * ProcessingInstanceType
-    ProcessingInstanceType,
+    ProcessingInstanceType (ProcessingInstanceType'),
 
     -- * ProcessingJobStatus
-    ProcessingJobStatus,
+    ProcessingJobStatus (ProcessingJobStatus'),
 
     -- * ProcessingS3CompressionType
-    ProcessingS3CompressionType,
+    ProcessingS3CompressionType (ProcessingS3CompressionType'),
 
     -- * ProcessingS3DataDistributionType
-    ProcessingS3DataDistributionType,
+    ProcessingS3DataDistributionType (ProcessingS3DataDistributionType'),
 
     -- * ProcessingS3DataType
-    ProcessingS3DataType,
+    ProcessingS3DataType (ProcessingS3DataType'),
 
     -- * ProcessingS3InputMode
-    ProcessingS3InputMode,
+    ProcessingS3InputMode (ProcessingS3InputMode'),
 
     -- * ProcessingS3UploadMode
-    ProcessingS3UploadMode,
+    ProcessingS3UploadMode (ProcessingS3UploadMode'),
 
     -- * Processor
-    Processor,
+    Processor (Processor'),
 
     -- * ProductionVariantAcceleratorType
-    ProductionVariantAcceleratorType,
+    ProductionVariantAcceleratorType (ProductionVariantAcceleratorType'),
 
     -- * ProductionVariantInstanceType
-    ProductionVariantInstanceType,
+    ProductionVariantInstanceType (ProductionVariantInstanceType'),
 
     -- * ProfilingStatus
-    ProfilingStatus,
+    ProfilingStatus (ProfilingStatus'),
 
     -- * ProjectSortBy
-    ProjectSortBy,
+    ProjectSortBy (ProjectSortBy'),
 
     -- * ProjectSortOrder
-    ProjectSortOrder,
+    ProjectSortOrder (ProjectSortOrder'),
 
     -- * ProjectStatus
-    ProjectStatus,
+    ProjectStatus (ProjectStatus'),
 
     -- * RStudioServerProAccessStatus
-    RStudioServerProAccessStatus,
+    RStudioServerProAccessStatus (RStudioServerProAccessStatus'),
 
     -- * RStudioServerProUserGroup
-    RStudioServerProUserGroup,
+    RStudioServerProUserGroup (RStudioServerProUserGroup'),
 
     -- * RecommendationJobStatus
-    RecommendationJobStatus,
+    RecommendationJobStatus (RecommendationJobStatus'),
 
     -- * RecommendationJobType
-    RecommendationJobType,
+    RecommendationJobType (RecommendationJobType'),
 
     -- * RecommendationStepType
-    RecommendationStepType,
+    RecommendationStepType (RecommendationStepType'),
 
     -- * RecordWrapper
-    RecordWrapper,
+    RecordWrapper (RecordWrapper'),
 
     -- * RedshiftResultCompressionType
-    RedshiftResultCompressionType,
+    RedshiftResultCompressionType (RedshiftResultCompressionType'),
 
     -- * RedshiftResultFormat
-    RedshiftResultFormat,
+    RedshiftResultFormat (RedshiftResultFormat'),
 
     -- * RepositoryAccessMode
-    RepositoryAccessMode,
+    RepositoryAccessMode (RepositoryAccessMode'),
 
     -- * ResourceType
-    ResourceType,
+    ResourceType (ResourceType'),
 
     -- * RetentionType
-    RetentionType,
+    RetentionType (RetentionType'),
 
     -- * RootAccess
-    RootAccess,
+    RootAccess (RootAccess'),
 
     -- * RuleEvaluationStatus
-    RuleEvaluationStatus,
+    RuleEvaluationStatus (RuleEvaluationStatus'),
 
     -- * S3DataDistribution
-    S3DataDistribution,
+    S3DataDistribution (S3DataDistribution'),
 
     -- * S3DataType
-    S3DataType,
+    S3DataType (S3DataType'),
 
     -- * SagemakerServicecatalogStatus
-    SagemakerServicecatalogStatus,
+    SagemakerServicecatalogStatus (SagemakerServicecatalogStatus'),
 
     -- * ScheduleStatus
-    ScheduleStatus,
+    ScheduleStatus (ScheduleStatus'),
 
     -- * SearchSortOrder
-    SearchSortOrder,
+    SearchSortOrder (SearchSortOrder'),
 
     -- * SecondaryStatus
-    SecondaryStatus,
+    SecondaryStatus (SecondaryStatus'),
 
     -- * SortActionsBy
-    SortActionsBy,
+    SortActionsBy (SortActionsBy'),
 
     -- * SortArtifactsBy
-    SortArtifactsBy,
+    SortArtifactsBy (SortArtifactsBy'),
 
     -- * SortAssociationsBy
-    SortAssociationsBy,
+    SortAssociationsBy (SortAssociationsBy'),
 
     -- * SortBy
-    SortBy,
+    SortBy (SortBy'),
 
     -- * SortContextsBy
-    SortContextsBy,
+    SortContextsBy (SortContextsBy'),
 
     -- * SortExperimentsBy
-    SortExperimentsBy,
+    SortExperimentsBy (SortExperimentsBy'),
 
     -- * SortInferenceExperimentsBy
-    SortInferenceExperimentsBy,
+    SortInferenceExperimentsBy (SortInferenceExperimentsBy'),
 
     -- * SortLineageGroupsBy
-    SortLineageGroupsBy,
+    SortLineageGroupsBy (SortLineageGroupsBy'),
 
     -- * SortOrder
-    SortOrder,
+    SortOrder (SortOrder'),
 
     -- * SortPipelineExecutionsBy
-    SortPipelineExecutionsBy,
+    SortPipelineExecutionsBy (SortPipelineExecutionsBy'),
 
     -- * SortPipelinesBy
-    SortPipelinesBy,
+    SortPipelinesBy (SortPipelinesBy'),
 
     -- * SortTrialComponentsBy
-    SortTrialComponentsBy,
+    SortTrialComponentsBy (SortTrialComponentsBy'),
 
     -- * SortTrialsBy
-    SortTrialsBy,
+    SortTrialsBy (SortTrialsBy'),
 
     -- * SpaceSortKey
-    SpaceSortKey,
+    SpaceSortKey (SpaceSortKey'),
 
     -- * SpaceStatus
-    SpaceStatus,
+    SpaceStatus (SpaceStatus'),
 
     -- * SplitType
-    SplitType,
+    SplitType (SplitType'),
 
     -- * StageStatus
-    StageStatus,
+    StageStatus (StageStatus'),
 
     -- * StepStatus
-    StepStatus,
+    StepStatus (StepStatus'),
 
     -- * StudioLifecycleConfigAppType
-    StudioLifecycleConfigAppType,
+    StudioLifecycleConfigAppType (StudioLifecycleConfigAppType'),
 
     -- * StudioLifecycleConfigSortKey
-    StudioLifecycleConfigSortKey,
+    StudioLifecycleConfigSortKey (StudioLifecycleConfigSortKey'),
 
     -- * TableFormat
-    TableFormat,
+    TableFormat (TableFormat'),
 
     -- * TargetDevice
-    TargetDevice,
+    TargetDevice (TargetDevice'),
 
     -- * TargetPlatformAccelerator
-    TargetPlatformAccelerator,
+    TargetPlatformAccelerator (TargetPlatformAccelerator'),
 
     -- * TargetPlatformArch
-    TargetPlatformArch,
+    TargetPlatformArch (TargetPlatformArch'),
 
     -- * TargetPlatformOs
-    TargetPlatformOs,
+    TargetPlatformOs (TargetPlatformOs'),
 
     -- * TrafficRoutingConfigType
-    TrafficRoutingConfigType,
+    TrafficRoutingConfigType (TrafficRoutingConfigType'),
 
     -- * TrafficType
-    TrafficType,
+    TrafficType (TrafficType'),
 
     -- * TrainingInputMode
-    TrainingInputMode,
+    TrainingInputMode (TrainingInputMode'),
 
     -- * TrainingInstanceType
-    TrainingInstanceType,
+    TrainingInstanceType (TrainingInstanceType'),
 
     -- * TrainingJobEarlyStoppingType
-    TrainingJobEarlyStoppingType,
+    TrainingJobEarlyStoppingType (TrainingJobEarlyStoppingType'),
 
     -- * TrainingJobSortByOptions
-    TrainingJobSortByOptions,
+    TrainingJobSortByOptions (TrainingJobSortByOptions'),
 
     -- * TrainingJobStatus
-    TrainingJobStatus,
+    TrainingJobStatus (TrainingJobStatus'),
 
     -- * TransformInstanceType
-    TransformInstanceType,
+    TransformInstanceType (TransformInstanceType'),
 
     -- * TransformJobStatus
-    TransformJobStatus,
+    TransformJobStatus (TransformJobStatus'),
 
     -- * TrialComponentPrimaryStatus
-    TrialComponentPrimaryStatus,
+    TrialComponentPrimaryStatus (TrialComponentPrimaryStatus'),
 
     -- * UserProfileSortKey
-    UserProfileSortKey,
+    UserProfileSortKey (UserProfileSortKey'),
 
     -- * UserProfileStatus
-    UserProfileStatus,
+    UserProfileStatus (UserProfileStatus'),
 
     -- * VariantPropertyType
-    VariantPropertyType,
+    VariantPropertyType (VariantPropertyType'),
 
     -- * VariantStatus
-    VariantStatus,
+    VariantStatus (VariantStatus'),
 
     -- * VendorGuidance
-    VendorGuidance,
+    VendorGuidance (VendorGuidance'),
 
     -- * WarmPoolResourceStatus
-    WarmPoolResourceStatus,
+    WarmPoolResourceStatus (WarmPoolResourceStatus'),
 
     -- * WorkforceStatus
-    WorkforceStatus,
+    WorkforceStatus (WorkforceStatus'),
 
     -- * ActionSource
-    ActionSource,
+    ActionSource (ActionSource'),
     newActionSource,
     actionSource_sourceId,
     actionSource_sourceType,
     actionSource_sourceUri,
 
     -- * ActionSummary
-    ActionSummary,
+    ActionSummary (ActionSummary'),
     newActionSummary,
     actionSummary_actionArn,
     actionSummary_actionName,
@@ -724,7 +724,7 @@ module Amazonka.SageMaker.Types
     actionSummary_status,
 
     -- * AdditionalInferenceSpecificationDefinition
-    AdditionalInferenceSpecificationDefinition,
+    AdditionalInferenceSpecificationDefinition (AdditionalInferenceSpecificationDefinition'),
     newAdditionalInferenceSpecificationDefinition,
     additionalInferenceSpecificationDefinition_description,
     additionalInferenceSpecificationDefinition_supportedContentTypes,
@@ -735,18 +735,18 @@ module Amazonka.SageMaker.Types
     additionalInferenceSpecificationDefinition_containers,
 
     -- * AgentVersion
-    AgentVersion,
+    AgentVersion (AgentVersion'),
     newAgentVersion,
     agentVersion_version,
     agentVersion_agentCount,
 
     -- * Alarm
-    Alarm,
+    Alarm (Alarm'),
     newAlarm,
     alarm_alarmName,
 
     -- * AlgorithmSpecification
-    AlgorithmSpecification,
+    AlgorithmSpecification (AlgorithmSpecification'),
     newAlgorithmSpecification,
     algorithmSpecification_algorithmName,
     algorithmSpecification_containerArguments,
@@ -757,20 +757,20 @@ module Amazonka.SageMaker.Types
     algorithmSpecification_trainingInputMode,
 
     -- * AlgorithmStatusDetails
-    AlgorithmStatusDetails,
+    AlgorithmStatusDetails (AlgorithmStatusDetails'),
     newAlgorithmStatusDetails,
     algorithmStatusDetails_imageScanStatuses,
     algorithmStatusDetails_validationStatuses,
 
     -- * AlgorithmStatusItem
-    AlgorithmStatusItem,
+    AlgorithmStatusItem (AlgorithmStatusItem'),
     newAlgorithmStatusItem,
     algorithmStatusItem_failureReason,
     algorithmStatusItem_name,
     algorithmStatusItem_status,
 
     -- * AlgorithmSummary
-    AlgorithmSummary,
+    AlgorithmSummary (AlgorithmSummary'),
     newAlgorithmSummary,
     algorithmSummary_algorithmDescription,
     algorithmSummary_algorithmName,
@@ -779,25 +779,25 @@ module Amazonka.SageMaker.Types
     algorithmSummary_algorithmStatus,
 
     -- * AlgorithmValidationProfile
-    AlgorithmValidationProfile,
+    AlgorithmValidationProfile (AlgorithmValidationProfile'),
     newAlgorithmValidationProfile,
     algorithmValidationProfile_transformJobDefinition,
     algorithmValidationProfile_profileName,
     algorithmValidationProfile_trainingJobDefinition,
 
     -- * AlgorithmValidationSpecification
-    AlgorithmValidationSpecification,
+    AlgorithmValidationSpecification (AlgorithmValidationSpecification'),
     newAlgorithmValidationSpecification,
     algorithmValidationSpecification_validationRole,
     algorithmValidationSpecification_validationProfiles,
 
     -- * AnnotationConsolidationConfig
-    AnnotationConsolidationConfig,
+    AnnotationConsolidationConfig (AnnotationConsolidationConfig'),
     newAnnotationConsolidationConfig,
     annotationConsolidationConfig_annotationConsolidationLambdaArn,
 
     -- * AppDetails
-    AppDetails,
+    AppDetails (AppDetails'),
     newAppDetails,
     appDetails_appName,
     appDetails_appType,
@@ -808,7 +808,7 @@ module Amazonka.SageMaker.Types
     appDetails_userProfileName,
 
     -- * AppImageConfigDetails
-    AppImageConfigDetails,
+    AppImageConfigDetails (AppImageConfigDetails'),
     newAppImageConfigDetails,
     appImageConfigDetails_appImageConfigArn,
     appImageConfigDetails_appImageConfigName,
@@ -817,26 +817,26 @@ module Amazonka.SageMaker.Types
     appImageConfigDetails_lastModifiedTime,
 
     -- * AppSpecification
-    AppSpecification,
+    AppSpecification (AppSpecification'),
     newAppSpecification,
     appSpecification_containerArguments,
     appSpecification_containerEntrypoint,
     appSpecification_imageUri,
 
     -- * ArtifactSource
-    ArtifactSource,
+    ArtifactSource (ArtifactSource'),
     newArtifactSource,
     artifactSource_sourceTypes,
     artifactSource_sourceUri,
 
     -- * ArtifactSourceType
-    ArtifactSourceType,
+    ArtifactSourceType (ArtifactSourceType'),
     newArtifactSourceType,
     artifactSourceType_sourceIdType,
     artifactSourceType_value,
 
     -- * ArtifactSummary
-    ArtifactSummary,
+    ArtifactSummary (ArtifactSummary'),
     newArtifactSummary,
     artifactSummary_artifactArn,
     artifactSummary_artifactName,
@@ -846,7 +846,7 @@ module Amazonka.SageMaker.Types
     artifactSummary_source,
 
     -- * AssociationSummary
-    AssociationSummary,
+    AssociationSummary (AssociationSummary'),
     newAssociationSummary,
     associationSummary_associationType,
     associationSummary_createdBy,
@@ -859,31 +859,31 @@ module Amazonka.SageMaker.Types
     associationSummary_sourceType,
 
     -- * AsyncInferenceClientConfig
-    AsyncInferenceClientConfig,
+    AsyncInferenceClientConfig (AsyncInferenceClientConfig'),
     newAsyncInferenceClientConfig,
     asyncInferenceClientConfig_maxConcurrentInvocationsPerInstance,
 
     -- * AsyncInferenceConfig
-    AsyncInferenceConfig,
+    AsyncInferenceConfig (AsyncInferenceConfig'),
     newAsyncInferenceConfig,
     asyncInferenceConfig_clientConfig,
     asyncInferenceConfig_outputConfig,
 
     -- * AsyncInferenceNotificationConfig
-    AsyncInferenceNotificationConfig,
+    AsyncInferenceNotificationConfig (AsyncInferenceNotificationConfig'),
     newAsyncInferenceNotificationConfig,
     asyncInferenceNotificationConfig_errorTopic,
     asyncInferenceNotificationConfig_successTopic,
 
     -- * AsyncInferenceOutputConfig
-    AsyncInferenceOutputConfig,
+    AsyncInferenceOutputConfig (AsyncInferenceOutputConfig'),
     newAsyncInferenceOutputConfig,
     asyncInferenceOutputConfig_kmsKeyId,
     asyncInferenceOutputConfig_notificationConfig,
     asyncInferenceOutputConfig_s3OutputPath,
 
     -- * AthenaDatasetDefinition
-    AthenaDatasetDefinition,
+    AthenaDatasetDefinition (AthenaDatasetDefinition'),
     newAthenaDatasetDefinition,
     athenaDatasetDefinition_kmsKeyId,
     athenaDatasetDefinition_outputCompression,
@@ -895,7 +895,7 @@ module Amazonka.SageMaker.Types
     athenaDatasetDefinition_outputFormat,
 
     -- * AutoMLCandidate
-    AutoMLCandidate,
+    AutoMLCandidate (AutoMLCandidate'),
     newAutoMLCandidate,
     autoMLCandidate_candidateProperties,
     autoMLCandidate_endTime,
@@ -910,19 +910,19 @@ module Amazonka.SageMaker.Types
     autoMLCandidate_lastModifiedTime,
 
     -- * AutoMLCandidateGenerationConfig
-    AutoMLCandidateGenerationConfig,
+    AutoMLCandidateGenerationConfig (AutoMLCandidateGenerationConfig'),
     newAutoMLCandidateGenerationConfig,
     autoMLCandidateGenerationConfig_featureSpecificationS3Uri,
 
     -- * AutoMLCandidateStep
-    AutoMLCandidateStep,
+    AutoMLCandidateStep (AutoMLCandidateStep'),
     newAutoMLCandidateStep,
     autoMLCandidateStep_candidateStepType,
     autoMLCandidateStep_candidateStepArn,
     autoMLCandidateStep_candidateStepName,
 
     -- * AutoMLChannel
-    AutoMLChannel,
+    AutoMLChannel (AutoMLChannel'),
     newAutoMLChannel,
     autoMLChannel_channelType,
     autoMLChannel_compressionType,
@@ -931,37 +931,37 @@ module Amazonka.SageMaker.Types
     autoMLChannel_targetAttributeName,
 
     -- * AutoMLContainerDefinition
-    AutoMLContainerDefinition,
+    AutoMLContainerDefinition (AutoMLContainerDefinition'),
     newAutoMLContainerDefinition,
     autoMLContainerDefinition_environment,
     autoMLContainerDefinition_image,
     autoMLContainerDefinition_modelDataUrl,
 
     -- * AutoMLDataSource
-    AutoMLDataSource,
+    AutoMLDataSource (AutoMLDataSource'),
     newAutoMLDataSource,
     autoMLDataSource_s3DataSource,
 
     -- * AutoMLDataSplitConfig
-    AutoMLDataSplitConfig,
+    AutoMLDataSplitConfig (AutoMLDataSplitConfig'),
     newAutoMLDataSplitConfig,
     autoMLDataSplitConfig_validationFraction,
 
     -- * AutoMLJobArtifacts
-    AutoMLJobArtifacts,
+    AutoMLJobArtifacts (AutoMLJobArtifacts'),
     newAutoMLJobArtifacts,
     autoMLJobArtifacts_candidateDefinitionNotebookLocation,
     autoMLJobArtifacts_dataExplorationNotebookLocation,
 
     -- * AutoMLJobCompletionCriteria
-    AutoMLJobCompletionCriteria,
+    AutoMLJobCompletionCriteria (AutoMLJobCompletionCriteria'),
     newAutoMLJobCompletionCriteria,
     autoMLJobCompletionCriteria_maxAutoMLJobRuntimeInSeconds,
     autoMLJobCompletionCriteria_maxCandidates,
     autoMLJobCompletionCriteria_maxRuntimePerTrainingJobInSeconds,
 
     -- * AutoMLJobConfig
-    AutoMLJobConfig,
+    AutoMLJobConfig (AutoMLJobConfig'),
     newAutoMLJobConfig,
     autoMLJobConfig_candidateGenerationConfig,
     autoMLJobConfig_completionCriteria,
@@ -970,17 +970,17 @@ module Amazonka.SageMaker.Types
     autoMLJobConfig_securityConfig,
 
     -- * AutoMLJobObjective
-    AutoMLJobObjective,
+    AutoMLJobObjective (AutoMLJobObjective'),
     newAutoMLJobObjective,
     autoMLJobObjective_metricName,
 
     -- * AutoMLJobStepMetadata
-    AutoMLJobStepMetadata,
+    AutoMLJobStepMetadata (AutoMLJobStepMetadata'),
     newAutoMLJobStepMetadata,
     autoMLJobStepMetadata_arn,
 
     -- * AutoMLJobSummary
-    AutoMLJobSummary,
+    AutoMLJobSummary (AutoMLJobSummary'),
     newAutoMLJobSummary,
     autoMLJobSummary_endTime,
     autoMLJobSummary_failureReason,
@@ -993,49 +993,49 @@ module Amazonka.SageMaker.Types
     autoMLJobSummary_lastModifiedTime,
 
     -- * AutoMLOutputDataConfig
-    AutoMLOutputDataConfig,
+    AutoMLOutputDataConfig (AutoMLOutputDataConfig'),
     newAutoMLOutputDataConfig,
     autoMLOutputDataConfig_kmsKeyId,
     autoMLOutputDataConfig_s3OutputPath,
 
     -- * AutoMLPartialFailureReason
-    AutoMLPartialFailureReason,
+    AutoMLPartialFailureReason (AutoMLPartialFailureReason'),
     newAutoMLPartialFailureReason,
     autoMLPartialFailureReason_partialFailureMessage,
 
     -- * AutoMLS3DataSource
-    AutoMLS3DataSource,
+    AutoMLS3DataSource (AutoMLS3DataSource'),
     newAutoMLS3DataSource,
     autoMLS3DataSource_s3DataType,
     autoMLS3DataSource_s3Uri,
 
     -- * AutoMLSecurityConfig
-    AutoMLSecurityConfig,
+    AutoMLSecurityConfig (AutoMLSecurityConfig'),
     newAutoMLSecurityConfig,
     autoMLSecurityConfig_enableInterContainerTrafficEncryption,
     autoMLSecurityConfig_volumeKmsKeyId,
     autoMLSecurityConfig_vpcConfig,
 
     -- * AutoRollbackConfig
-    AutoRollbackConfig,
+    AutoRollbackConfig (AutoRollbackConfig'),
     newAutoRollbackConfig,
     autoRollbackConfig_alarms,
 
     -- * BatchDataCaptureConfig
-    BatchDataCaptureConfig,
+    BatchDataCaptureConfig (BatchDataCaptureConfig'),
     newBatchDataCaptureConfig,
     batchDataCaptureConfig_generateInferenceId,
     batchDataCaptureConfig_kmsKeyId,
     batchDataCaptureConfig_destinationS3Uri,
 
     -- * BatchDescribeModelPackageError
-    BatchDescribeModelPackageError,
+    BatchDescribeModelPackageError (BatchDescribeModelPackageError'),
     newBatchDescribeModelPackageError,
     batchDescribeModelPackageError_errorCode,
     batchDescribeModelPackageError_errorResponse,
 
     -- * BatchDescribeModelPackageSummary
-    BatchDescribeModelPackageSummary,
+    BatchDescribeModelPackageSummary (BatchDescribeModelPackageSummary'),
     newBatchDescribeModelPackageSummary,
     batchDescribeModelPackageSummary_modelApprovalStatus,
     batchDescribeModelPackageSummary_modelPackageDescription,
@@ -1047,7 +1047,7 @@ module Amazonka.SageMaker.Types
     batchDescribeModelPackageSummary_modelPackageStatus,
 
     -- * BatchTransformInput
-    BatchTransformInput,
+    BatchTransformInput (BatchTransformInput'),
     newBatchTransformInput,
     batchTransformInput_endTimeOffset,
     batchTransformInput_featuresAttribute,
@@ -1062,84 +1062,84 @@ module Amazonka.SageMaker.Types
     batchTransformInput_localPath,
 
     -- * Bias
-    Bias,
+    Bias (Bias'),
     newBias,
     bias_postTrainingReport,
     bias_preTrainingReport,
     bias_report,
 
     -- * BlueGreenUpdatePolicy
-    BlueGreenUpdatePolicy,
+    BlueGreenUpdatePolicy (BlueGreenUpdatePolicy'),
     newBlueGreenUpdatePolicy,
     blueGreenUpdatePolicy_maximumExecutionTimeoutInSeconds,
     blueGreenUpdatePolicy_terminationWaitInSeconds,
     blueGreenUpdatePolicy_trafficRoutingConfiguration,
 
     -- * CacheHitResult
-    CacheHitResult,
+    CacheHitResult (CacheHitResult'),
     newCacheHitResult,
     cacheHitResult_sourcePipelineExecutionArn,
 
     -- * CallbackStepMetadata
-    CallbackStepMetadata,
+    CallbackStepMetadata (CallbackStepMetadata'),
     newCallbackStepMetadata,
     callbackStepMetadata_callbackToken,
     callbackStepMetadata_outputParameters,
     callbackStepMetadata_sqsQueueUrl,
 
     -- * CandidateArtifactLocations
-    CandidateArtifactLocations,
+    CandidateArtifactLocations (CandidateArtifactLocations'),
     newCandidateArtifactLocations,
     candidateArtifactLocations_modelInsights,
     candidateArtifactLocations_explainability,
 
     -- * CandidateProperties
-    CandidateProperties,
+    CandidateProperties (CandidateProperties'),
     newCandidateProperties,
     candidateProperties_candidateArtifactLocations,
     candidateProperties_candidateMetrics,
 
     -- * CanvasAppSettings
-    CanvasAppSettings,
+    CanvasAppSettings (CanvasAppSettings'),
     newCanvasAppSettings,
     canvasAppSettings_timeSeriesForecastingSettings,
 
     -- * CapacitySize
-    CapacitySize,
+    CapacitySize (CapacitySize'),
     newCapacitySize,
     capacitySize_type,
     capacitySize_value,
 
     -- * CaptureContentTypeHeader
-    CaptureContentTypeHeader,
+    CaptureContentTypeHeader (CaptureContentTypeHeader'),
     newCaptureContentTypeHeader,
     captureContentTypeHeader_csvContentTypes,
     captureContentTypeHeader_jsonContentTypes,
 
     -- * CaptureOption
-    CaptureOption,
+    CaptureOption (CaptureOption'),
     newCaptureOption,
     captureOption_captureMode,
 
     -- * CategoricalParameter
-    CategoricalParameter,
+    CategoricalParameter (CategoricalParameter'),
     newCategoricalParameter,
     categoricalParameter_name,
     categoricalParameter_value,
 
     -- * CategoricalParameterRange
-    CategoricalParameterRange,
+    CategoricalParameterRange (CategoricalParameterRange'),
     newCategoricalParameterRange,
     categoricalParameterRange_name,
     categoricalParameterRange_values,
 
     -- * CategoricalParameterRangeSpecification
-    CategoricalParameterRangeSpecification,
+    CategoricalParameterRangeSpecification (CategoricalParameterRangeSpecification'),
     newCategoricalParameterRangeSpecification,
     categoricalParameterRangeSpecification_values,
 
     -- * Channel
-    Channel,
+    Channel (Channel'),
     newChannel,
     channel_compressionType,
     channel_contentType,
@@ -1150,7 +1150,7 @@ module Amazonka.SageMaker.Types
     channel_dataSource,
 
     -- * ChannelSpecification
-    ChannelSpecification,
+    ChannelSpecification (ChannelSpecification'),
     newChannelSpecification,
     channelSpecification_description,
     channelSpecification_isRequired,
@@ -1160,13 +1160,13 @@ module Amazonka.SageMaker.Types
     channelSpecification_supportedInputModes,
 
     -- * CheckpointConfig
-    CheckpointConfig,
+    CheckpointConfig (CheckpointConfig'),
     newCheckpointConfig,
     checkpointConfig_localPath,
     checkpointConfig_s3Uri,
 
     -- * ClarifyCheckStepMetadata
-    ClarifyCheckStepMetadata,
+    ClarifyCheckStepMetadata (ClarifyCheckStepMetadata'),
     newClarifyCheckStepMetadata,
     clarifyCheckStepMetadata_baselineUsedForDriftCheckConstraints,
     clarifyCheckStepMetadata_calculatedBaselineConstraints,
@@ -1178,14 +1178,14 @@ module Amazonka.SageMaker.Types
     clarifyCheckStepMetadata_violationReport,
 
     -- * ClarifyExplainerConfig
-    ClarifyExplainerConfig,
+    ClarifyExplainerConfig (ClarifyExplainerConfig'),
     newClarifyExplainerConfig,
     clarifyExplainerConfig_enableExplanations,
     clarifyExplainerConfig_inferenceConfig,
     clarifyExplainerConfig_shapConfig,
 
     -- * ClarifyInferenceConfig
-    ClarifyInferenceConfig,
+    ClarifyInferenceConfig (ClarifyInferenceConfig'),
     newClarifyInferenceConfig,
     clarifyInferenceConfig_contentTemplate,
     clarifyInferenceConfig_featureHeaders,
@@ -1200,14 +1200,14 @@ module Amazonka.SageMaker.Types
     clarifyInferenceConfig_probabilityIndex,
 
     -- * ClarifyShapBaselineConfig
-    ClarifyShapBaselineConfig,
+    ClarifyShapBaselineConfig (ClarifyShapBaselineConfig'),
     newClarifyShapBaselineConfig,
     clarifyShapBaselineConfig_mimeType,
     clarifyShapBaselineConfig_shapBaseline,
     clarifyShapBaselineConfig_shapBaselineUri,
 
     -- * ClarifyShapConfig
-    ClarifyShapConfig,
+    ClarifyShapConfig (ClarifyShapConfig'),
     newClarifyShapConfig,
     clarifyShapConfig_numberOfSamples,
     clarifyShapConfig_seed,
@@ -1216,18 +1216,18 @@ module Amazonka.SageMaker.Types
     clarifyShapConfig_shapBaselineConfig,
 
     -- * ClarifyTextConfig
-    ClarifyTextConfig,
+    ClarifyTextConfig (ClarifyTextConfig'),
     newClarifyTextConfig,
     clarifyTextConfig_language,
     clarifyTextConfig_granularity,
 
     -- * CodeRepository
-    CodeRepository,
+    CodeRepository (CodeRepository'),
     newCodeRepository,
     codeRepository_repositoryUrl,
 
     -- * CodeRepositorySummary
-    CodeRepositorySummary,
+    CodeRepositorySummary (CodeRepositorySummary'),
     newCodeRepositorySummary,
     codeRepositorySummary_gitConfig,
     codeRepositorySummary_codeRepositoryName,
@@ -1236,26 +1236,26 @@ module Amazonka.SageMaker.Types
     codeRepositorySummary_lastModifiedTime,
 
     -- * CognitoConfig
-    CognitoConfig,
+    CognitoConfig (CognitoConfig'),
     newCognitoConfig,
     cognitoConfig_userPool,
     cognitoConfig_clientId,
 
     -- * CognitoMemberDefinition
-    CognitoMemberDefinition,
+    CognitoMemberDefinition (CognitoMemberDefinition'),
     newCognitoMemberDefinition,
     cognitoMemberDefinition_userPool,
     cognitoMemberDefinition_userGroup,
     cognitoMemberDefinition_clientId,
 
     -- * CollectionConfiguration
-    CollectionConfiguration,
+    CollectionConfiguration (CollectionConfiguration'),
     newCollectionConfiguration,
     collectionConfiguration_collectionName,
     collectionConfiguration_collectionParameters,
 
     -- * CompilationJobSummary
-    CompilationJobSummary,
+    CompilationJobSummary (CompilationJobSummary'),
     newCompilationJobSummary,
     compilationJobSummary_compilationEndTime,
     compilationJobSummary_compilationStartTime,
@@ -1270,12 +1270,12 @@ module Amazonka.SageMaker.Types
     compilationJobSummary_compilationJobStatus,
 
     -- * ConditionStepMetadata
-    ConditionStepMetadata,
+    ConditionStepMetadata (ConditionStepMetadata'),
     newConditionStepMetadata,
     conditionStepMetadata_outcome,
 
     -- * ContainerDefinition
-    ContainerDefinition,
+    ContainerDefinition (ContainerDefinition'),
     newContainerDefinition,
     containerDefinition_containerHostname,
     containerDefinition_environment,
@@ -1288,14 +1288,14 @@ module Amazonka.SageMaker.Types
     containerDefinition_multiModelConfig,
 
     -- * ContextSource
-    ContextSource,
+    ContextSource (ContextSource'),
     newContextSource,
     contextSource_sourceId,
     contextSource_sourceType,
     contextSource_sourceUri,
 
     -- * ContextSummary
-    ContextSummary,
+    ContextSummary (ContextSummary'),
     newContextSummary,
     contextSummary_contextArn,
     contextSummary_contextName,
@@ -1305,7 +1305,7 @@ module Amazonka.SageMaker.Types
     contextSummary_source,
 
     -- * ContinuousParameterRange
-    ContinuousParameterRange,
+    ContinuousParameterRange (ContinuousParameterRange'),
     newContinuousParameterRange,
     continuousParameterRange_scalingType,
     continuousParameterRange_name,
@@ -1313,20 +1313,20 @@ module Amazonka.SageMaker.Types
     continuousParameterRange_maxValue,
 
     -- * ContinuousParameterRangeSpecification
-    ContinuousParameterRangeSpecification,
+    ContinuousParameterRangeSpecification (ContinuousParameterRangeSpecification'),
     newContinuousParameterRangeSpecification,
     continuousParameterRangeSpecification_minValue,
     continuousParameterRangeSpecification_maxValue,
 
     -- * CustomImage
-    CustomImage,
+    CustomImage (CustomImage'),
     newCustomImage,
     customImage_imageVersionNumber,
     customImage_imageName,
     customImage_appImageConfigName,
 
     -- * DataCaptureConfig
-    DataCaptureConfig,
+    DataCaptureConfig (DataCaptureConfig'),
     newDataCaptureConfig,
     dataCaptureConfig_captureContentTypeHeader,
     dataCaptureConfig_enableCapture,
@@ -1336,7 +1336,7 @@ module Amazonka.SageMaker.Types
     dataCaptureConfig_captureOptions,
 
     -- * DataCaptureConfigSummary
-    DataCaptureConfigSummary,
+    DataCaptureConfigSummary (DataCaptureConfigSummary'),
     newDataCaptureConfigSummary,
     dataCaptureConfigSummary_enableCapture,
     dataCaptureConfigSummary_captureStatus,
@@ -1345,21 +1345,21 @@ module Amazonka.SageMaker.Types
     dataCaptureConfigSummary_kmsKeyId,
 
     -- * DataCatalogConfig
-    DataCatalogConfig,
+    DataCatalogConfig (DataCatalogConfig'),
     newDataCatalogConfig,
     dataCatalogConfig_tableName,
     dataCatalogConfig_catalog,
     dataCatalogConfig_database,
 
     -- * DataProcessing
-    DataProcessing,
+    DataProcessing (DataProcessing'),
     newDataProcessing,
     dataProcessing_inputFilter,
     dataProcessing_joinSource,
     dataProcessing_outputFilter,
 
     -- * DataQualityAppSpecification
-    DataQualityAppSpecification,
+    DataQualityAppSpecification (DataQualityAppSpecification'),
     newDataQualityAppSpecification,
     dataQualityAppSpecification_containerArguments,
     dataQualityAppSpecification_containerEntrypoint,
@@ -1369,26 +1369,26 @@ module Amazonka.SageMaker.Types
     dataQualityAppSpecification_imageUri,
 
     -- * DataQualityBaselineConfig
-    DataQualityBaselineConfig,
+    DataQualityBaselineConfig (DataQualityBaselineConfig'),
     newDataQualityBaselineConfig,
     dataQualityBaselineConfig_baseliningJobName,
     dataQualityBaselineConfig_constraintsResource,
     dataQualityBaselineConfig_statisticsResource,
 
     -- * DataQualityJobInput
-    DataQualityJobInput,
+    DataQualityJobInput (DataQualityJobInput'),
     newDataQualityJobInput,
     dataQualityJobInput_batchTransformInput,
     dataQualityJobInput_endpointInput,
 
     -- * DataSource
-    DataSource,
+    DataSource (DataSource'),
     newDataSource,
     dataSource_fileSystemDataSource,
     dataSource_s3DataSource,
 
     -- * DatasetDefinition
-    DatasetDefinition,
+    DatasetDefinition (DatasetDefinition'),
     newDatasetDefinition,
     datasetDefinition_athenaDatasetDefinition,
     datasetDefinition_dataDistributionType,
@@ -1397,7 +1397,7 @@ module Amazonka.SageMaker.Types
     datasetDefinition_redshiftDatasetDefinition,
 
     -- * DebugHookConfig
-    DebugHookConfig,
+    DebugHookConfig (DebugHookConfig'),
     newDebugHookConfig,
     debugHookConfig_collectionConfigurations,
     debugHookConfig_hookParameters,
@@ -1405,7 +1405,7 @@ module Amazonka.SageMaker.Types
     debugHookConfig_s3OutputPath,
 
     -- * DebugRuleConfiguration
-    DebugRuleConfiguration,
+    DebugRuleConfiguration (DebugRuleConfiguration'),
     newDebugRuleConfiguration,
     debugRuleConfiguration_instanceType,
     debugRuleConfiguration_localPath,
@@ -1416,7 +1416,7 @@ module Amazonka.SageMaker.Types
     debugRuleConfiguration_ruleEvaluatorImage,
 
     -- * DebugRuleEvaluationStatus
-    DebugRuleEvaluationStatus,
+    DebugRuleEvaluationStatus (DebugRuleEvaluationStatus'),
     newDebugRuleEvaluationStatus,
     debugRuleEvaluationStatus_lastModifiedTime,
     debugRuleEvaluationStatus_ruleConfigurationName,
@@ -1425,7 +1425,7 @@ module Amazonka.SageMaker.Types
     debugRuleEvaluationStatus_statusDetails,
 
     -- * DefaultSpaceSettings
-    DefaultSpaceSettings,
+    DefaultSpaceSettings (DefaultSpaceSettings'),
     newDefaultSpaceSettings,
     defaultSpaceSettings_executionRole,
     defaultSpaceSettings_jupyterServerAppSettings,
@@ -1433,27 +1433,27 @@ module Amazonka.SageMaker.Types
     defaultSpaceSettings_securityGroups,
 
     -- * DeployedImage
-    DeployedImage,
+    DeployedImage (DeployedImage'),
     newDeployedImage,
     deployedImage_resolutionTime,
     deployedImage_resolvedImage,
     deployedImage_specifiedImage,
 
     -- * DeploymentConfig
-    DeploymentConfig,
+    DeploymentConfig (DeploymentConfig'),
     newDeploymentConfig,
     deploymentConfig_autoRollbackConfiguration,
     deploymentConfig_blueGreenUpdatePolicy,
 
     -- * DeploymentStage
-    DeploymentStage,
+    DeploymentStage (DeploymentStage'),
     newDeploymentStage,
     deploymentStage_deploymentConfig,
     deploymentStage_stageName,
     deploymentStage_deviceSelectionConfig,
 
     -- * DeploymentStageStatusSummary
-    DeploymentStageStatusSummary,
+    DeploymentStageStatusSummary (DeploymentStageStatusSummary'),
     newDeploymentStageStatusSummary,
     deploymentStageStatusSummary_stageName,
     deploymentStageStatusSummary_deviceSelectionConfig,
@@ -1461,21 +1461,21 @@ module Amazonka.SageMaker.Types
     deploymentStageStatusSummary_deploymentStatus,
 
     -- * DesiredWeightAndCapacity
-    DesiredWeightAndCapacity,
+    DesiredWeightAndCapacity (DesiredWeightAndCapacity'),
     newDesiredWeightAndCapacity,
     desiredWeightAndCapacity_desiredInstanceCount,
     desiredWeightAndCapacity_desiredWeight,
     desiredWeightAndCapacity_variantName,
 
     -- * Device
-    Device,
+    Device (Device'),
     newDevice,
     device_description,
     device_iotThingName,
     device_deviceName,
 
     -- * DeviceDeploymentSummary
-    DeviceDeploymentSummary,
+    DeviceDeploymentSummary (DeviceDeploymentSummary'),
     newDeviceDeploymentSummary,
     deviceDeploymentSummary_deployedStageName,
     deviceDeploymentSummary_deploymentStartTime,
@@ -1490,7 +1490,7 @@ module Amazonka.SageMaker.Types
     deviceDeploymentSummary_deviceArn,
 
     -- * DeviceFleetSummary
-    DeviceFleetSummary,
+    DeviceFleetSummary (DeviceFleetSummary'),
     newDeviceFleetSummary,
     deviceFleetSummary_creationTime,
     deviceFleetSummary_lastModifiedTime,
@@ -1498,7 +1498,7 @@ module Amazonka.SageMaker.Types
     deviceFleetSummary_deviceFleetName,
 
     -- * DeviceSelectionConfig
-    DeviceSelectionConfig,
+    DeviceSelectionConfig (DeviceSelectionConfig'),
     newDeviceSelectionConfig,
     deviceSelectionConfig_deviceNameContains,
     deviceSelectionConfig_deviceNames,
@@ -1506,13 +1506,13 @@ module Amazonka.SageMaker.Types
     deviceSelectionConfig_deviceSubsetType,
 
     -- * DeviceStats
-    DeviceStats,
+    DeviceStats (DeviceStats'),
     newDeviceStats,
     deviceStats_connectedDeviceCount,
     deviceStats_registeredDeviceCount,
 
     -- * DeviceSummary
-    DeviceSummary,
+    DeviceSummary (DeviceSummary'),
     newDeviceSummary,
     deviceSummary_agentVersion,
     deviceSummary_description,
@@ -1525,7 +1525,7 @@ module Amazonka.SageMaker.Types
     deviceSummary_deviceArn,
 
     -- * DomainDetails
-    DomainDetails,
+    DomainDetails (DomainDetails'),
     newDomainDetails,
     domainDetails_creationTime,
     domainDetails_domainArn,
@@ -1536,21 +1536,21 @@ module Amazonka.SageMaker.Types
     domainDetails_url,
 
     -- * DomainSettings
-    DomainSettings,
+    DomainSettings (DomainSettings'),
     newDomainSettings,
     domainSettings_executionRoleIdentityConfig,
     domainSettings_rStudioServerProDomainSettings,
     domainSettings_securityGroupIds,
 
     -- * DomainSettingsForUpdate
-    DomainSettingsForUpdate,
+    DomainSettingsForUpdate (DomainSettingsForUpdate'),
     newDomainSettingsForUpdate,
     domainSettingsForUpdate_executionRoleIdentityConfig,
     domainSettingsForUpdate_rStudioServerProDomainSettingsForUpdate,
     domainSettingsForUpdate_securityGroupIds,
 
     -- * DriftCheckBaselines
-    DriftCheckBaselines,
+    DriftCheckBaselines (DriftCheckBaselines'),
     newDriftCheckBaselines,
     driftCheckBaselines_bias,
     driftCheckBaselines_explainability,
@@ -1558,32 +1558,32 @@ module Amazonka.SageMaker.Types
     driftCheckBaselines_modelQuality,
 
     -- * DriftCheckBias
-    DriftCheckBias,
+    DriftCheckBias (DriftCheckBias'),
     newDriftCheckBias,
     driftCheckBias_configFile,
     driftCheckBias_postTrainingConstraints,
     driftCheckBias_preTrainingConstraints,
 
     -- * DriftCheckExplainability
-    DriftCheckExplainability,
+    DriftCheckExplainability (DriftCheckExplainability'),
     newDriftCheckExplainability,
     driftCheckExplainability_configFile,
     driftCheckExplainability_constraints,
 
     -- * DriftCheckModelDataQuality
-    DriftCheckModelDataQuality,
+    DriftCheckModelDataQuality (DriftCheckModelDataQuality'),
     newDriftCheckModelDataQuality,
     driftCheckModelDataQuality_constraints,
     driftCheckModelDataQuality_statistics,
 
     -- * DriftCheckModelQuality
-    DriftCheckModelQuality,
+    DriftCheckModelQuality (DriftCheckModelQuality'),
     newDriftCheckModelQuality,
     driftCheckModelQuality_constraints,
     driftCheckModelQuality_statistics,
 
     -- * EMRStepMetadata
-    EMRStepMetadata,
+    EMRStepMetadata (EMRStepMetadata'),
     newEMRStepMetadata,
     eMRStepMetadata_clusterId,
     eMRStepMetadata_logFilePath,
@@ -1591,25 +1591,25 @@ module Amazonka.SageMaker.Types
     eMRStepMetadata_stepName,
 
     -- * Edge
-    Edge,
+    Edge (Edge'),
     newEdge,
     edge_associationType,
     edge_destinationArn,
     edge_sourceArn,
 
     -- * EdgeDeploymentConfig
-    EdgeDeploymentConfig,
+    EdgeDeploymentConfig (EdgeDeploymentConfig'),
     newEdgeDeploymentConfig,
     edgeDeploymentConfig_failureHandlingPolicy,
 
     -- * EdgeDeploymentModelConfig
-    EdgeDeploymentModelConfig,
+    EdgeDeploymentModelConfig (EdgeDeploymentModelConfig'),
     newEdgeDeploymentModelConfig,
     edgeDeploymentModelConfig_modelHandle,
     edgeDeploymentModelConfig_edgePackagingJobName,
 
     -- * EdgeDeploymentPlanSummary
-    EdgeDeploymentPlanSummary,
+    EdgeDeploymentPlanSummary (EdgeDeploymentPlanSummary'),
     newEdgeDeploymentPlanSummary,
     edgeDeploymentPlanSummary_creationTime,
     edgeDeploymentPlanSummary_lastModifiedTime,
@@ -1621,7 +1621,7 @@ module Amazonka.SageMaker.Types
     edgeDeploymentPlanSummary_edgeDeploymentFailed,
 
     -- * EdgeDeploymentStatus
-    EdgeDeploymentStatus,
+    EdgeDeploymentStatus (EdgeDeploymentStatus'),
     newEdgeDeploymentStatus,
     edgeDeploymentStatus_edgeDeploymentStageStartTime,
     edgeDeploymentStatus_edgeDeploymentStatusMessage,
@@ -1631,7 +1631,7 @@ module Amazonka.SageMaker.Types
     edgeDeploymentStatus_edgeDeploymentFailedInStage,
 
     -- * EdgeModel
-    EdgeModel,
+    EdgeModel (EdgeModel'),
     newEdgeModel,
     edgeModel_latestInference,
     edgeModel_latestSampleTime,
@@ -1639,7 +1639,7 @@ module Amazonka.SageMaker.Types
     edgeModel_modelVersion,
 
     -- * EdgeModelStat
-    EdgeModelStat,
+    EdgeModelStat (EdgeModelStat'),
     newEdgeModelStat,
     edgeModelStat_modelName,
     edgeModelStat_modelVersion,
@@ -1649,13 +1649,13 @@ module Amazonka.SageMaker.Types
     edgeModelStat_samplingDeviceCount,
 
     -- * EdgeModelSummary
-    EdgeModelSummary,
+    EdgeModelSummary (EdgeModelSummary'),
     newEdgeModelSummary,
     edgeModelSummary_modelName,
     edgeModelSummary_modelVersion,
 
     -- * EdgeOutputConfig
-    EdgeOutputConfig,
+    EdgeOutputConfig (EdgeOutputConfig'),
     newEdgeOutputConfig,
     edgeOutputConfig_kmsKeyId,
     edgeOutputConfig_presetDeploymentConfig,
@@ -1663,7 +1663,7 @@ module Amazonka.SageMaker.Types
     edgeOutputConfig_s3OutputLocation,
 
     -- * EdgePackagingJobSummary
-    EdgePackagingJobSummary,
+    EdgePackagingJobSummary (EdgePackagingJobSummary'),
     newEdgePackagingJobSummary,
     edgePackagingJobSummary_compilationJobName,
     edgePackagingJobSummary_creationTime,
@@ -1675,7 +1675,7 @@ module Amazonka.SageMaker.Types
     edgePackagingJobSummary_edgePackagingJobStatus,
 
     -- * EdgePresetDeploymentOutput
-    EdgePresetDeploymentOutput,
+    EdgePresetDeploymentOutput (EdgePresetDeploymentOutput'),
     newEdgePresetDeploymentOutput,
     edgePresetDeploymentOutput_artifact,
     edgePresetDeploymentOutput_status,
@@ -1683,7 +1683,7 @@ module Amazonka.SageMaker.Types
     edgePresetDeploymentOutput_type,
 
     -- * Endpoint
-    Endpoint,
+    Endpoint (Endpoint'),
     newEndpoint,
     endpoint_dataCaptureConfig,
     endpoint_failureReason,
@@ -1699,19 +1699,19 @@ module Amazonka.SageMaker.Types
     endpoint_lastModifiedTime,
 
     -- * EndpointConfigSummary
-    EndpointConfigSummary,
+    EndpointConfigSummary (EndpointConfigSummary'),
     newEndpointConfigSummary,
     endpointConfigSummary_endpointConfigName,
     endpointConfigSummary_endpointConfigArn,
     endpointConfigSummary_creationTime,
 
     -- * EndpointInfo
-    EndpointInfo,
+    EndpointInfo (EndpointInfo'),
     newEndpointInfo,
     endpointInfo_endpointName,
 
     -- * EndpointInput
-    EndpointInput,
+    EndpointInput (EndpointInput'),
     newEndpointInput,
     endpointInput_endTimeOffset,
     endpointInput_featuresAttribute,
@@ -1725,14 +1725,14 @@ module Amazonka.SageMaker.Types
     endpointInput_localPath,
 
     -- * EndpointInputConfiguration
-    EndpointInputConfiguration,
+    EndpointInputConfiguration (EndpointInputConfiguration'),
     newEndpointInputConfiguration,
     endpointInputConfiguration_environmentParameterRanges,
     endpointInputConfiguration_inferenceSpecificationName,
     endpointInputConfiguration_instanceType,
 
     -- * EndpointMetadata
-    EndpointMetadata,
+    EndpointMetadata (EndpointMetadata'),
     newEndpointMetadata,
     endpointMetadata_endpointConfigName,
     endpointMetadata_endpointStatus,
@@ -1740,7 +1740,7 @@ module Amazonka.SageMaker.Types
     endpointMetadata_endpointName,
 
     -- * EndpointOutputConfiguration
-    EndpointOutputConfiguration,
+    EndpointOutputConfiguration (EndpointOutputConfiguration'),
     newEndpointOutputConfiguration,
     endpointOutputConfiguration_endpointName,
     endpointOutputConfiguration_variantName,
@@ -1748,13 +1748,13 @@ module Amazonka.SageMaker.Types
     endpointOutputConfiguration_initialInstanceCount,
 
     -- * EndpointPerformance
-    EndpointPerformance,
+    EndpointPerformance (EndpointPerformance'),
     newEndpointPerformance,
     endpointPerformance_metrics,
     endpointPerformance_endpointInfo,
 
     -- * EndpointSummary
-    EndpointSummary,
+    EndpointSummary (EndpointSummary'),
     newEndpointSummary,
     endpointSummary_endpointName,
     endpointSummary_endpointArn,
@@ -1763,19 +1763,19 @@ module Amazonka.SageMaker.Types
     endpointSummary_endpointStatus,
 
     -- * EnvironmentParameter
-    EnvironmentParameter,
+    EnvironmentParameter (EnvironmentParameter'),
     newEnvironmentParameter,
     environmentParameter_key,
     environmentParameter_valueType,
     environmentParameter_value,
 
     -- * EnvironmentParameterRanges
-    EnvironmentParameterRanges,
+    EnvironmentParameterRanges (EnvironmentParameterRanges'),
     newEnvironmentParameterRanges,
     environmentParameterRanges_categoricalParameterRanges,
 
     -- * Experiment
-    Experiment,
+    Experiment (Experiment'),
     newExperiment,
     experiment_createdBy,
     experiment_creationTime,
@@ -1789,7 +1789,7 @@ module Amazonka.SageMaker.Types
     experiment_tags,
 
     -- * ExperimentConfig
-    ExperimentConfig,
+    ExperimentConfig (ExperimentConfig'),
     newExperimentConfig,
     experimentConfig_experimentName,
     experimentConfig_runName,
@@ -1797,13 +1797,13 @@ module Amazonka.SageMaker.Types
     experimentConfig_trialName,
 
     -- * ExperimentSource
-    ExperimentSource,
+    ExperimentSource (ExperimentSource'),
     newExperimentSource,
     experimentSource_sourceType,
     experimentSource_sourceArn,
 
     -- * ExperimentSummary
-    ExperimentSummary,
+    ExperimentSummary (ExperimentSummary'),
     newExperimentSummary,
     experimentSummary_creationTime,
     experimentSummary_displayName,
@@ -1813,28 +1813,28 @@ module Amazonka.SageMaker.Types
     experimentSummary_lastModifiedTime,
 
     -- * Explainability
-    Explainability,
+    Explainability (Explainability'),
     newExplainability,
     explainability_report,
 
     -- * ExplainerConfig
-    ExplainerConfig,
+    ExplainerConfig (ExplainerConfig'),
     newExplainerConfig,
     explainerConfig_clarifyExplainerConfig,
 
     -- * FailStepMetadata
-    FailStepMetadata,
+    FailStepMetadata (FailStepMetadata'),
     newFailStepMetadata,
     failStepMetadata_errorMessage,
 
     -- * FeatureDefinition
-    FeatureDefinition,
+    FeatureDefinition (FeatureDefinition'),
     newFeatureDefinition,
     featureDefinition_featureName,
     featureDefinition_featureType,
 
     -- * FeatureGroup
-    FeatureGroup,
+    FeatureGroup (FeatureGroup'),
     newFeatureGroup,
     featureGroup_creationTime,
     featureGroup_description,
@@ -1854,7 +1854,7 @@ module Amazonka.SageMaker.Types
     featureGroup_tags,
 
     -- * FeatureGroupSummary
-    FeatureGroupSummary,
+    FeatureGroupSummary (FeatureGroupSummary'),
     newFeatureGroupSummary,
     featureGroupSummary_featureGroupStatus,
     featureGroupSummary_offlineStoreStatus,
@@ -1863,7 +1863,7 @@ module Amazonka.SageMaker.Types
     featureGroupSummary_creationTime,
 
     -- * FeatureMetadata
-    FeatureMetadata,
+    FeatureMetadata (FeatureMetadata'),
     newFeatureMetadata,
     featureMetadata_creationTime,
     featureMetadata_description,
@@ -1875,27 +1875,27 @@ module Amazonka.SageMaker.Types
     featureMetadata_parameters,
 
     -- * FeatureParameter
-    FeatureParameter,
+    FeatureParameter (FeatureParameter'),
     newFeatureParameter,
     featureParameter_key,
     featureParameter_value,
 
     -- * FileSource
-    FileSource,
+    FileSource (FileSource'),
     newFileSource,
     fileSource_contentDigest,
     fileSource_contentType,
     fileSource_s3Uri,
 
     -- * FileSystemConfig
-    FileSystemConfig,
+    FileSystemConfig (FileSystemConfig'),
     newFileSystemConfig,
     fileSystemConfig_defaultGid,
     fileSystemConfig_defaultUid,
     fileSystemConfig_mountPath,
 
     -- * FileSystemDataSource
-    FileSystemDataSource,
+    FileSystemDataSource (FileSystemDataSource'),
     newFileSystemDataSource,
     fileSystemDataSource_fileSystemId,
     fileSystemDataSource_fileSystemAccessMode,
@@ -1903,34 +1903,34 @@ module Amazonka.SageMaker.Types
     fileSystemDataSource_directoryPath,
 
     -- * Filter
-    Filter,
+    Filter (Filter'),
     newFilter,
     filter_operator,
     filter_value,
     filter_name,
 
     -- * FinalAutoMLJobObjectiveMetric
-    FinalAutoMLJobObjectiveMetric,
+    FinalAutoMLJobObjectiveMetric (FinalAutoMLJobObjectiveMetric'),
     newFinalAutoMLJobObjectiveMetric,
     finalAutoMLJobObjectiveMetric_type,
     finalAutoMLJobObjectiveMetric_metricName,
     finalAutoMLJobObjectiveMetric_value,
 
     -- * FinalHyperParameterTuningJobObjectiveMetric
-    FinalHyperParameterTuningJobObjectiveMetric,
+    FinalHyperParameterTuningJobObjectiveMetric (FinalHyperParameterTuningJobObjectiveMetric'),
     newFinalHyperParameterTuningJobObjectiveMetric,
     finalHyperParameterTuningJobObjectiveMetric_type,
     finalHyperParameterTuningJobObjectiveMetric_metricName,
     finalHyperParameterTuningJobObjectiveMetric_value,
 
     -- * FlowDefinitionOutputConfig
-    FlowDefinitionOutputConfig,
+    FlowDefinitionOutputConfig (FlowDefinitionOutputConfig'),
     newFlowDefinitionOutputConfig,
     flowDefinitionOutputConfig_kmsKeyId,
     flowDefinitionOutputConfig_s3OutputPath,
 
     -- * FlowDefinitionSummary
-    FlowDefinitionSummary,
+    FlowDefinitionSummary (FlowDefinitionSummary'),
     newFlowDefinitionSummary,
     flowDefinitionSummary_failureReason,
     flowDefinitionSummary_flowDefinitionName,
@@ -1939,25 +1939,25 @@ module Amazonka.SageMaker.Types
     flowDefinitionSummary_creationTime,
 
     -- * GitConfig
-    GitConfig,
+    GitConfig (GitConfig'),
     newGitConfig,
     gitConfig_branch,
     gitConfig_secretArn,
     gitConfig_repositoryUrl,
 
     -- * GitConfigForUpdate
-    GitConfigForUpdate,
+    GitConfigForUpdate (GitConfigForUpdate'),
     newGitConfigForUpdate,
     gitConfigForUpdate_secretArn,
 
     -- * HubContentDependency
-    HubContentDependency,
+    HubContentDependency (HubContentDependency'),
     newHubContentDependency,
     hubContentDependency_dependencyCopyPath,
     hubContentDependency_dependencyOriginPath,
 
     -- * HubContentInfo
-    HubContentInfo,
+    HubContentInfo (HubContentInfo'),
     newHubContentInfo,
     hubContentInfo_hubContentDescription,
     hubContentInfo_hubContentDisplayName,
@@ -1971,7 +1971,7 @@ module Amazonka.SageMaker.Types
     hubContentInfo_creationTime,
 
     -- * HubInfo
-    HubInfo,
+    HubInfo (HubInfo'),
     newHubInfo,
     hubInfo_hubDescription,
     hubInfo_hubDisplayName,
@@ -1983,22 +1983,22 @@ module Amazonka.SageMaker.Types
     hubInfo_lastModifiedTime,
 
     -- * HubS3StorageConfig
-    HubS3StorageConfig,
+    HubS3StorageConfig (HubS3StorageConfig'),
     newHubS3StorageConfig,
     hubS3StorageConfig_s3OutputPath,
 
     -- * HumanLoopActivationConditionsConfig
-    HumanLoopActivationConditionsConfig,
+    HumanLoopActivationConditionsConfig (HumanLoopActivationConditionsConfig'),
     newHumanLoopActivationConditionsConfig,
     humanLoopActivationConditionsConfig_humanLoopActivationConditions,
 
     -- * HumanLoopActivationConfig
-    HumanLoopActivationConfig,
+    HumanLoopActivationConfig (HumanLoopActivationConfig'),
     newHumanLoopActivationConfig,
     humanLoopActivationConfig_humanLoopActivationConditionsConfig,
 
     -- * HumanLoopConfig
-    HumanLoopConfig,
+    HumanLoopConfig (HumanLoopConfig'),
     newHumanLoopConfig,
     humanLoopConfig_publicWorkforceTaskPrice,
     humanLoopConfig_taskAvailabilityLifetimeInSeconds,
@@ -2011,12 +2011,12 @@ module Amazonka.SageMaker.Types
     humanLoopConfig_taskCount,
 
     -- * HumanLoopRequestSource
-    HumanLoopRequestSource,
+    HumanLoopRequestSource (HumanLoopRequestSource'),
     newHumanLoopRequestSource,
     humanLoopRequestSource_awsManagedHumanLoopRequestSource,
 
     -- * HumanTaskConfig
-    HumanTaskConfig,
+    HumanTaskConfig (HumanTaskConfig'),
     newHumanTaskConfig,
     humanTaskConfig_maxConcurrentTaskCount,
     humanTaskConfig_publicWorkforceTaskPrice,
@@ -2032,14 +2032,14 @@ module Amazonka.SageMaker.Types
     humanTaskConfig_annotationConsolidationConfig,
 
     -- * HumanTaskUiSummary
-    HumanTaskUiSummary,
+    HumanTaskUiSummary (HumanTaskUiSummary'),
     newHumanTaskUiSummary,
     humanTaskUiSummary_humanTaskUiName,
     humanTaskUiSummary_humanTaskUiArn,
     humanTaskUiSummary_creationTime,
 
     -- * HyperParameterAlgorithmSpecification
-    HyperParameterAlgorithmSpecification,
+    HyperParameterAlgorithmSpecification (HyperParameterAlgorithmSpecification'),
     newHyperParameterAlgorithmSpecification,
     hyperParameterAlgorithmSpecification_algorithmName,
     hyperParameterAlgorithmSpecification_metricDefinitions,
@@ -2047,7 +2047,7 @@ module Amazonka.SageMaker.Types
     hyperParameterAlgorithmSpecification_trainingInputMode,
 
     -- * HyperParameterSpecification
-    HyperParameterSpecification,
+    HyperParameterSpecification (HyperParameterSpecification'),
     newHyperParameterSpecification,
     hyperParameterSpecification_defaultValue,
     hyperParameterSpecification_description,
@@ -2058,7 +2058,7 @@ module Amazonka.SageMaker.Types
     hyperParameterSpecification_type,
 
     -- * HyperParameterTrainingJobDefinition
-    HyperParameterTrainingJobDefinition,
+    HyperParameterTrainingJobDefinition (HyperParameterTrainingJobDefinition'),
     newHyperParameterTrainingJobDefinition,
     hyperParameterTrainingJobDefinition_checkpointConfig,
     hyperParameterTrainingJobDefinition_definitionName,
@@ -2079,7 +2079,7 @@ module Amazonka.SageMaker.Types
     hyperParameterTrainingJobDefinition_stoppingCondition,
 
     -- * HyperParameterTrainingJobSummary
-    HyperParameterTrainingJobSummary,
+    HyperParameterTrainingJobSummary (HyperParameterTrainingJobSummary'),
     newHyperParameterTrainingJobSummary,
     hyperParameterTrainingJobSummary_failureReason,
     hyperParameterTrainingJobSummary_finalHyperParameterTuningJobObjectiveMetric,
@@ -2095,14 +2095,14 @@ module Amazonka.SageMaker.Types
     hyperParameterTrainingJobSummary_tunedHyperParameters,
 
     -- * HyperParameterTuningInstanceConfig
-    HyperParameterTuningInstanceConfig,
+    HyperParameterTuningInstanceConfig (HyperParameterTuningInstanceConfig'),
     newHyperParameterTuningInstanceConfig,
     hyperParameterTuningInstanceConfig_instanceType,
     hyperParameterTuningInstanceConfig_instanceCount,
     hyperParameterTuningInstanceConfig_volumeSizeInGB,
 
     -- * HyperParameterTuningJobConfig
-    HyperParameterTuningJobConfig,
+    HyperParameterTuningJobConfig (HyperParameterTuningJobConfig'),
     newHyperParameterTuningJobConfig,
     hyperParameterTuningJobConfig_hyperParameterTuningJobObjective,
     hyperParameterTuningJobConfig_parameterRanges,
@@ -2114,13 +2114,13 @@ module Amazonka.SageMaker.Types
     hyperParameterTuningJobConfig_resourceLimits,
 
     -- * HyperParameterTuningJobObjective
-    HyperParameterTuningJobObjective,
+    HyperParameterTuningJobObjective (HyperParameterTuningJobObjective'),
     newHyperParameterTuningJobObjective,
     hyperParameterTuningJobObjective_type,
     hyperParameterTuningJobObjective_metricName,
 
     -- * HyperParameterTuningJobSearchEntity
-    HyperParameterTuningJobSearchEntity,
+    HyperParameterTuningJobSearchEntity (HyperParameterTuningJobSearchEntity'),
     newHyperParameterTuningJobSearchEntity,
     hyperParameterTuningJobSearchEntity_bestTrainingJob,
     hyperParameterTuningJobSearchEntity_creationTime,
@@ -2140,12 +2140,12 @@ module Amazonka.SageMaker.Types
     hyperParameterTuningJobSearchEntity_warmStartConfig,
 
     -- * HyperParameterTuningJobStrategyConfig
-    HyperParameterTuningJobStrategyConfig,
+    HyperParameterTuningJobStrategyConfig (HyperParameterTuningJobStrategyConfig'),
     newHyperParameterTuningJobStrategyConfig,
     hyperParameterTuningJobStrategyConfig_hyperbandStrategyConfig,
 
     -- * HyperParameterTuningJobSummary
-    HyperParameterTuningJobSummary,
+    HyperParameterTuningJobSummary (HyperParameterTuningJobSummary'),
     newHyperParameterTuningJobSummary,
     hyperParameterTuningJobSummary_hyperParameterTuningEndTime,
     hyperParameterTuningJobSummary_lastModifiedTime,
@@ -2159,13 +2159,13 @@ module Amazonka.SageMaker.Types
     hyperParameterTuningJobSummary_objectiveStatusCounters,
 
     -- * HyperParameterTuningJobWarmStartConfig
-    HyperParameterTuningJobWarmStartConfig,
+    HyperParameterTuningJobWarmStartConfig (HyperParameterTuningJobWarmStartConfig'),
     newHyperParameterTuningJobWarmStartConfig,
     hyperParameterTuningJobWarmStartConfig_parentHyperParameterTuningJobs,
     hyperParameterTuningJobWarmStartConfig_warmStartType,
 
     -- * HyperParameterTuningResourceConfig
-    HyperParameterTuningResourceConfig,
+    HyperParameterTuningResourceConfig (HyperParameterTuningResourceConfig'),
     newHyperParameterTuningResourceConfig,
     hyperParameterTuningResourceConfig_allocationStrategy,
     hyperParameterTuningResourceConfig_instanceConfigs,
@@ -2175,13 +2175,13 @@ module Amazonka.SageMaker.Types
     hyperParameterTuningResourceConfig_volumeSizeInGB,
 
     -- * HyperbandStrategyConfig
-    HyperbandStrategyConfig,
+    HyperbandStrategyConfig (HyperbandStrategyConfig'),
     newHyperbandStrategyConfig,
     hyperbandStrategyConfig_maxResource,
     hyperbandStrategyConfig_minResource,
 
     -- * Image
-    Image,
+    Image (Image'),
     newImage,
     image_description,
     image_displayName,
@@ -2193,13 +2193,13 @@ module Amazonka.SageMaker.Types
     image_lastModifiedTime,
 
     -- * ImageConfig
-    ImageConfig,
+    ImageConfig (ImageConfig'),
     newImageConfig,
     imageConfig_repositoryAuthConfig,
     imageConfig_repositoryAccessMode,
 
     -- * ImageVersion
-    ImageVersion,
+    ImageVersion (ImageVersion'),
     newImageVersion,
     imageVersion_failureReason,
     imageVersion_creationTime,
@@ -2210,25 +2210,25 @@ module Amazonka.SageMaker.Types
     imageVersion_version,
 
     -- * InferenceExecutionConfig
-    InferenceExecutionConfig,
+    InferenceExecutionConfig (InferenceExecutionConfig'),
     newInferenceExecutionConfig,
     inferenceExecutionConfig_mode,
 
     -- * InferenceExperimentDataStorageConfig
-    InferenceExperimentDataStorageConfig,
+    InferenceExperimentDataStorageConfig (InferenceExperimentDataStorageConfig'),
     newInferenceExperimentDataStorageConfig,
     inferenceExperimentDataStorageConfig_contentType,
     inferenceExperimentDataStorageConfig_kmsKey,
     inferenceExperimentDataStorageConfig_destination,
 
     -- * InferenceExperimentSchedule
-    InferenceExperimentSchedule,
+    InferenceExperimentSchedule (InferenceExperimentSchedule'),
     newInferenceExperimentSchedule,
     inferenceExperimentSchedule_endTime,
     inferenceExperimentSchedule_startTime,
 
     -- * InferenceExperimentSummary
-    InferenceExperimentSummary,
+    InferenceExperimentSummary (InferenceExperimentSummary'),
     newInferenceExperimentSummary,
     inferenceExperimentSummary_completionTime,
     inferenceExperimentSummary_description,
@@ -2242,20 +2242,20 @@ module Amazonka.SageMaker.Types
     inferenceExperimentSummary_lastModifiedTime,
 
     -- * InferenceMetrics
-    InferenceMetrics,
+    InferenceMetrics (InferenceMetrics'),
     newInferenceMetrics,
     inferenceMetrics_maxInvocations,
     inferenceMetrics_modelLatency,
 
     -- * InferenceRecommendation
-    InferenceRecommendation,
+    InferenceRecommendation (InferenceRecommendation'),
     newInferenceRecommendation,
     inferenceRecommendation_metrics,
     inferenceRecommendation_endpointConfiguration,
     inferenceRecommendation_modelConfiguration,
 
     -- * InferenceRecommendationsJob
-    InferenceRecommendationsJob,
+    InferenceRecommendationsJob (InferenceRecommendationsJob'),
     newInferenceRecommendationsJob,
     inferenceRecommendationsJob_completionTime,
     inferenceRecommendationsJob_failureReason,
@@ -2269,7 +2269,7 @@ module Amazonka.SageMaker.Types
     inferenceRecommendationsJob_lastModifiedTime,
 
     -- * InferenceRecommendationsJobStep
-    InferenceRecommendationsJobStep,
+    InferenceRecommendationsJobStep (InferenceRecommendationsJobStep'),
     newInferenceRecommendationsJobStep,
     inferenceRecommendationsJobStep_inferenceBenchmark,
     inferenceRecommendationsJobStep_stepType,
@@ -2277,7 +2277,7 @@ module Amazonka.SageMaker.Types
     inferenceRecommendationsJobStep_status,
 
     -- * InferenceSpecification
-    InferenceSpecification,
+    InferenceSpecification (InferenceSpecification'),
     newInferenceSpecification,
     inferenceSpecification_supportedRealtimeInferenceInstanceTypes,
     inferenceSpecification_supportedTransformInstanceTypes,
@@ -2286,7 +2286,7 @@ module Amazonka.SageMaker.Types
     inferenceSpecification_supportedResponseMIMETypes,
 
     -- * InputConfig
-    InputConfig,
+    InputConfig (InputConfig'),
     newInputConfig,
     inputConfig_frameworkVersion,
     inputConfig_s3Uri,
@@ -2294,19 +2294,19 @@ module Amazonka.SageMaker.Types
     inputConfig_framework,
 
     -- * InstanceGroup
-    InstanceGroup,
+    InstanceGroup (InstanceGroup'),
     newInstanceGroup,
     instanceGroup_instanceType,
     instanceGroup_instanceCount,
     instanceGroup_instanceGroupName,
 
     -- * InstanceMetadataServiceConfiguration
-    InstanceMetadataServiceConfiguration,
+    InstanceMetadataServiceConfiguration (InstanceMetadataServiceConfiguration'),
     newInstanceMetadataServiceConfiguration,
     instanceMetadataServiceConfiguration_minimumInstanceMetadataServiceVersion,
 
     -- * IntegerParameterRange
-    IntegerParameterRange,
+    IntegerParameterRange (IntegerParameterRange'),
     newIntegerParameterRange,
     integerParameterRange_scalingType,
     integerParameterRange_name,
@@ -2314,39 +2314,39 @@ module Amazonka.SageMaker.Types
     integerParameterRange_maxValue,
 
     -- * IntegerParameterRangeSpecification
-    IntegerParameterRangeSpecification,
+    IntegerParameterRangeSpecification (IntegerParameterRangeSpecification'),
     newIntegerParameterRangeSpecification,
     integerParameterRangeSpecification_minValue,
     integerParameterRangeSpecification_maxValue,
 
     -- * JupyterServerAppSettings
-    JupyterServerAppSettings,
+    JupyterServerAppSettings (JupyterServerAppSettings'),
     newJupyterServerAppSettings,
     jupyterServerAppSettings_codeRepositories,
     jupyterServerAppSettings_defaultResourceSpec,
     jupyterServerAppSettings_lifecycleConfigArns,
 
     -- * KernelGatewayAppSettings
-    KernelGatewayAppSettings,
+    KernelGatewayAppSettings (KernelGatewayAppSettings'),
     newKernelGatewayAppSettings,
     kernelGatewayAppSettings_customImages,
     kernelGatewayAppSettings_defaultResourceSpec,
     kernelGatewayAppSettings_lifecycleConfigArns,
 
     -- * KernelGatewayImageConfig
-    KernelGatewayImageConfig,
+    KernelGatewayImageConfig (KernelGatewayImageConfig'),
     newKernelGatewayImageConfig,
     kernelGatewayImageConfig_fileSystemConfig,
     kernelGatewayImageConfig_kernelSpecs,
 
     -- * KernelSpec
-    KernelSpec,
+    KernelSpec (KernelSpec'),
     newKernelSpec,
     kernelSpec_displayName,
     kernelSpec_name,
 
     -- * LabelCounters
-    LabelCounters,
+    LabelCounters (LabelCounters'),
     newLabelCounters,
     labelCounters_failedNonRetryableError,
     labelCounters_humanLabeled,
@@ -2355,32 +2355,32 @@ module Amazonka.SageMaker.Types
     labelCounters_unlabeled,
 
     -- * LabelCountersForWorkteam
-    LabelCountersForWorkteam,
+    LabelCountersForWorkteam (LabelCountersForWorkteam'),
     newLabelCountersForWorkteam,
     labelCountersForWorkteam_humanLabeled,
     labelCountersForWorkteam_pendingHuman,
     labelCountersForWorkteam_total,
 
     -- * LabelingJobAlgorithmsConfig
-    LabelingJobAlgorithmsConfig,
+    LabelingJobAlgorithmsConfig (LabelingJobAlgorithmsConfig'),
     newLabelingJobAlgorithmsConfig,
     labelingJobAlgorithmsConfig_initialActiveLearningModelArn,
     labelingJobAlgorithmsConfig_labelingJobResourceConfig,
     labelingJobAlgorithmsConfig_labelingJobAlgorithmSpecificationArn,
 
     -- * LabelingJobDataAttributes
-    LabelingJobDataAttributes,
+    LabelingJobDataAttributes (LabelingJobDataAttributes'),
     newLabelingJobDataAttributes,
     labelingJobDataAttributes_contentClassifiers,
 
     -- * LabelingJobDataSource
-    LabelingJobDataSource,
+    LabelingJobDataSource (LabelingJobDataSource'),
     newLabelingJobDataSource,
     labelingJobDataSource_s3DataSource,
     labelingJobDataSource_snsDataSource,
 
     -- * LabelingJobForWorkteamSummary
-    LabelingJobForWorkteamSummary,
+    LabelingJobForWorkteamSummary (LabelingJobForWorkteamSummary'),
     newLabelingJobForWorkteamSummary,
     labelingJobForWorkteamSummary_labelCounters,
     labelingJobForWorkteamSummary_labelingJobName,
@@ -2390,48 +2390,48 @@ module Amazonka.SageMaker.Types
     labelingJobForWorkteamSummary_creationTime,
 
     -- * LabelingJobInputConfig
-    LabelingJobInputConfig,
+    LabelingJobInputConfig (LabelingJobInputConfig'),
     newLabelingJobInputConfig,
     labelingJobInputConfig_dataAttributes,
     labelingJobInputConfig_dataSource,
 
     -- * LabelingJobOutput
-    LabelingJobOutput,
+    LabelingJobOutput (LabelingJobOutput'),
     newLabelingJobOutput,
     labelingJobOutput_finalActiveLearningModelArn,
     labelingJobOutput_outputDatasetS3Uri,
 
     -- * LabelingJobOutputConfig
-    LabelingJobOutputConfig,
+    LabelingJobOutputConfig (LabelingJobOutputConfig'),
     newLabelingJobOutputConfig,
     labelingJobOutputConfig_kmsKeyId,
     labelingJobOutputConfig_snsTopicArn,
     labelingJobOutputConfig_s3OutputPath,
 
     -- * LabelingJobResourceConfig
-    LabelingJobResourceConfig,
+    LabelingJobResourceConfig (LabelingJobResourceConfig'),
     newLabelingJobResourceConfig,
     labelingJobResourceConfig_volumeKmsKeyId,
     labelingJobResourceConfig_vpcConfig,
 
     -- * LabelingJobS3DataSource
-    LabelingJobS3DataSource,
+    LabelingJobS3DataSource (LabelingJobS3DataSource'),
     newLabelingJobS3DataSource,
     labelingJobS3DataSource_manifestS3Uri,
 
     -- * LabelingJobSnsDataSource
-    LabelingJobSnsDataSource,
+    LabelingJobSnsDataSource (LabelingJobSnsDataSource'),
     newLabelingJobSnsDataSource,
     labelingJobSnsDataSource_snsTopicArn,
 
     -- * LabelingJobStoppingConditions
-    LabelingJobStoppingConditions,
+    LabelingJobStoppingConditions (LabelingJobStoppingConditions'),
     newLabelingJobStoppingConditions,
     labelingJobStoppingConditions_maxHumanLabeledObjectCount,
     labelingJobStoppingConditions_maxPercentageOfInputDatasetLabeled,
 
     -- * LabelingJobSummary
-    LabelingJobSummary,
+    LabelingJobSummary (LabelingJobSummary'),
     newLabelingJobSummary,
     labelingJobSummary_annotationConsolidationLambdaArn,
     labelingJobSummary_failureReason,
@@ -2447,19 +2447,19 @@ module Amazonka.SageMaker.Types
     labelingJobSummary_preHumanTaskLambdaArn,
 
     -- * LambdaStepMetadata
-    LambdaStepMetadata,
+    LambdaStepMetadata (LambdaStepMetadata'),
     newLambdaStepMetadata,
     lambdaStepMetadata_arn,
     lambdaStepMetadata_outputParameters,
 
     -- * LastUpdateStatus
-    LastUpdateStatus,
+    LastUpdateStatus (LastUpdateStatus'),
     newLastUpdateStatus,
     lastUpdateStatus_failureReason,
     lastUpdateStatus_status,
 
     -- * LineageGroupSummary
-    LineageGroupSummary,
+    LineageGroupSummary (LineageGroupSummary'),
     newLineageGroupSummary,
     lineageGroupSummary_creationTime,
     lineageGroupSummary_displayName,
@@ -2468,13 +2468,13 @@ module Amazonka.SageMaker.Types
     lineageGroupSummary_lineageGroupName,
 
     -- * MemberDefinition
-    MemberDefinition,
+    MemberDefinition (MemberDefinition'),
     newMemberDefinition,
     memberDefinition_cognitoMemberDefinition,
     memberDefinition_oidcMemberDefinition,
 
     -- * MetadataProperties
-    MetadataProperties,
+    MetadataProperties (MetadataProperties'),
     newMetadataProperties,
     metadataProperties_commitId,
     metadataProperties_generatedBy,
@@ -2482,14 +2482,14 @@ module Amazonka.SageMaker.Types
     metadataProperties_repository,
 
     -- * MetricData
-    MetricData,
+    MetricData (MetricData'),
     newMetricData,
     metricData_metricName,
     metricData_timestamp,
     metricData_value,
 
     -- * MetricDatum
-    MetricDatum,
+    MetricDatum (MetricDatum'),
     newMetricDatum,
     metricDatum_metricName,
     metricDatum_set,
@@ -2497,20 +2497,20 @@ module Amazonka.SageMaker.Types
     metricDatum_value,
 
     -- * MetricDefinition
-    MetricDefinition,
+    MetricDefinition (MetricDefinition'),
     newMetricDefinition,
     metricDefinition_name,
     metricDefinition_regex,
 
     -- * MetricsSource
-    MetricsSource,
+    MetricsSource (MetricsSource'),
     newMetricsSource,
     metricsSource_contentDigest,
     metricsSource_contentType,
     metricsSource_s3Uri,
 
     -- * Model
-    Model,
+    Model (Model'),
     newModel,
     model_containers,
     model_creationTime,
@@ -2524,32 +2524,32 @@ module Amazonka.SageMaker.Types
     model_vpcConfig,
 
     -- * ModelArtifacts
-    ModelArtifacts,
+    ModelArtifacts (ModelArtifacts'),
     newModelArtifacts,
     modelArtifacts_s3ModelArtifacts,
 
     -- * ModelBiasAppSpecification
-    ModelBiasAppSpecification,
+    ModelBiasAppSpecification (ModelBiasAppSpecification'),
     newModelBiasAppSpecification,
     modelBiasAppSpecification_environment,
     modelBiasAppSpecification_imageUri,
     modelBiasAppSpecification_configUri,
 
     -- * ModelBiasBaselineConfig
-    ModelBiasBaselineConfig,
+    ModelBiasBaselineConfig (ModelBiasBaselineConfig'),
     newModelBiasBaselineConfig,
     modelBiasBaselineConfig_baseliningJobName,
     modelBiasBaselineConfig_constraintsResource,
 
     -- * ModelBiasJobInput
-    ModelBiasJobInput,
+    ModelBiasJobInput (ModelBiasJobInput'),
     newModelBiasJobInput,
     modelBiasJobInput_batchTransformInput,
     modelBiasJobInput_endpointInput,
     modelBiasJobInput_groundTruthS3Input,
 
     -- * ModelCard
-    ModelCard,
+    ModelCard (ModelCard'),
     newModelCard,
     modelCard_content,
     modelCard_createdBy,
@@ -2566,12 +2566,12 @@ module Amazonka.SageMaker.Types
     modelCard_tags,
 
     -- * ModelCardExportArtifacts
-    ModelCardExportArtifacts,
+    ModelCardExportArtifacts (ModelCardExportArtifacts'),
     newModelCardExportArtifacts,
     modelCardExportArtifacts_s3ExportArtifacts,
 
     -- * ModelCardExportJobSummary
-    ModelCardExportJobSummary,
+    ModelCardExportJobSummary (ModelCardExportJobSummary'),
     newModelCardExportJobSummary,
     modelCardExportJobSummary_modelCardExportJobName,
     modelCardExportJobSummary_modelCardExportJobArn,
@@ -2582,17 +2582,17 @@ module Amazonka.SageMaker.Types
     modelCardExportJobSummary_lastModifiedAt,
 
     -- * ModelCardExportOutputConfig
-    ModelCardExportOutputConfig,
+    ModelCardExportOutputConfig (ModelCardExportOutputConfig'),
     newModelCardExportOutputConfig,
     modelCardExportOutputConfig_s3OutputPath,
 
     -- * ModelCardSecurityConfig
-    ModelCardSecurityConfig,
+    ModelCardSecurityConfig (ModelCardSecurityConfig'),
     newModelCardSecurityConfig,
     modelCardSecurityConfig_kmsKeyId,
 
     -- * ModelCardSummary
-    ModelCardSummary,
+    ModelCardSummary (ModelCardSummary'),
     newModelCardSummary,
     modelCardSummary_lastModifiedTime,
     modelCardSummary_modelCardName,
@@ -2601,7 +2601,7 @@ module Amazonka.SageMaker.Types
     modelCardSummary_creationTime,
 
     -- * ModelCardVersionSummary
-    ModelCardVersionSummary,
+    ModelCardVersionSummary (ModelCardVersionSummary'),
     newModelCardVersionSummary,
     modelCardVersionSummary_lastModifiedTime,
     modelCardVersionSummary_modelCardName,
@@ -2611,19 +2611,19 @@ module Amazonka.SageMaker.Types
     modelCardVersionSummary_creationTime,
 
     -- * ModelClientConfig
-    ModelClientConfig,
+    ModelClientConfig (ModelClientConfig'),
     newModelClientConfig,
     modelClientConfig_invocationsMaxRetries,
     modelClientConfig_invocationsTimeoutInSeconds,
 
     -- * ModelConfiguration
-    ModelConfiguration,
+    ModelConfiguration (ModelConfiguration'),
     newModelConfiguration,
     modelConfiguration_environmentParameters,
     modelConfiguration_inferenceSpecificationName,
 
     -- * ModelDashboardEndpoint
-    ModelDashboardEndpoint,
+    ModelDashboardEndpoint (ModelDashboardEndpoint'),
     newModelDashboardEndpoint,
     modelDashboardEndpoint_endpointName,
     modelDashboardEndpoint_endpointArn,
@@ -2632,12 +2632,12 @@ module Amazonka.SageMaker.Types
     modelDashboardEndpoint_endpointStatus,
 
     -- * ModelDashboardIndicatorAction
-    ModelDashboardIndicatorAction,
+    ModelDashboardIndicatorAction (ModelDashboardIndicatorAction'),
     newModelDashboardIndicatorAction,
     modelDashboardIndicatorAction_enabled,
 
     -- * ModelDashboardModel
-    ModelDashboardModel,
+    ModelDashboardModel (ModelDashboardModel'),
     newModelDashboardModel,
     modelDashboardModel_endpoints,
     modelDashboardModel_lastBatchTransformJob,
@@ -2646,7 +2646,7 @@ module Amazonka.SageMaker.Types
     modelDashboardModel_monitoringSchedules,
 
     -- * ModelDashboardModelCard
-    ModelDashboardModelCard,
+    ModelDashboardModelCard (ModelDashboardModelCard'),
     newModelDashboardModelCard,
     modelDashboardModelCard_createdBy,
     modelDashboardModelCard_creationTime,
@@ -2662,7 +2662,7 @@ module Amazonka.SageMaker.Types
     modelDashboardModelCard_tags,
 
     -- * ModelDashboardMonitoringSchedule
-    ModelDashboardMonitoringSchedule,
+    ModelDashboardMonitoringSchedule (ModelDashboardMonitoringSchedule'),
     newModelDashboardMonitoringSchedule,
     modelDashboardMonitoringSchedule_creationTime,
     modelDashboardMonitoringSchedule_endpointName,
@@ -2677,76 +2677,76 @@ module Amazonka.SageMaker.Types
     modelDashboardMonitoringSchedule_monitoringType,
 
     -- * ModelDataQuality
-    ModelDataQuality,
+    ModelDataQuality (ModelDataQuality'),
     newModelDataQuality,
     modelDataQuality_constraints,
     modelDataQuality_statistics,
 
     -- * ModelDeployConfig
-    ModelDeployConfig,
+    ModelDeployConfig (ModelDeployConfig'),
     newModelDeployConfig,
     modelDeployConfig_autoGenerateEndpointName,
     modelDeployConfig_endpointName,
 
     -- * ModelDeployResult
-    ModelDeployResult,
+    ModelDeployResult (ModelDeployResult'),
     newModelDeployResult,
     modelDeployResult_endpointName,
 
     -- * ModelDigests
-    ModelDigests,
+    ModelDigests (ModelDigests'),
     newModelDigests,
     modelDigests_artifactDigest,
 
     -- * ModelExplainabilityAppSpecification
-    ModelExplainabilityAppSpecification,
+    ModelExplainabilityAppSpecification (ModelExplainabilityAppSpecification'),
     newModelExplainabilityAppSpecification,
     modelExplainabilityAppSpecification_environment,
     modelExplainabilityAppSpecification_imageUri,
     modelExplainabilityAppSpecification_configUri,
 
     -- * ModelExplainabilityBaselineConfig
-    ModelExplainabilityBaselineConfig,
+    ModelExplainabilityBaselineConfig (ModelExplainabilityBaselineConfig'),
     newModelExplainabilityBaselineConfig,
     modelExplainabilityBaselineConfig_baseliningJobName,
     modelExplainabilityBaselineConfig_constraintsResource,
 
     -- * ModelExplainabilityJobInput
-    ModelExplainabilityJobInput,
+    ModelExplainabilityJobInput (ModelExplainabilityJobInput'),
     newModelExplainabilityJobInput,
     modelExplainabilityJobInput_batchTransformInput,
     modelExplainabilityJobInput_endpointInput,
 
     -- * ModelInfrastructureConfig
-    ModelInfrastructureConfig,
+    ModelInfrastructureConfig (ModelInfrastructureConfig'),
     newModelInfrastructureConfig,
     modelInfrastructureConfig_infrastructureType,
     modelInfrastructureConfig_realTimeInferenceConfig,
 
     -- * ModelInput
-    ModelInput,
+    ModelInput (ModelInput'),
     newModelInput,
     modelInput_dataInputConfig,
 
     -- * ModelLatencyThreshold
-    ModelLatencyThreshold,
+    ModelLatencyThreshold (ModelLatencyThreshold'),
     newModelLatencyThreshold,
     modelLatencyThreshold_percentile,
     modelLatencyThreshold_valueInMilliseconds,
 
     -- * ModelMetadataFilter
-    ModelMetadataFilter,
+    ModelMetadataFilter (ModelMetadataFilter'),
     newModelMetadataFilter,
     modelMetadataFilter_name,
     modelMetadataFilter_value,
 
     -- * ModelMetadataSearchExpression
-    ModelMetadataSearchExpression,
+    ModelMetadataSearchExpression (ModelMetadataSearchExpression'),
     newModelMetadataSearchExpression,
     modelMetadataSearchExpression_filters,
 
     -- * ModelMetadataSummary
-    ModelMetadataSummary,
+    ModelMetadataSummary (ModelMetadataSummary'),
     newModelMetadataSummary,
     modelMetadataSummary_domain,
     modelMetadataSummary_framework,
@@ -2755,7 +2755,7 @@ module Amazonka.SageMaker.Types
     modelMetadataSummary_frameworkVersion,
 
     -- * ModelMetrics
-    ModelMetrics,
+    ModelMetrics (ModelMetrics'),
     newModelMetrics,
     modelMetrics_bias,
     modelMetrics_explainability,
@@ -2763,7 +2763,7 @@ module Amazonka.SageMaker.Types
     modelMetrics_modelQuality,
 
     -- * ModelPackage
-    ModelPackage,
+    ModelPackage (ModelPackage'),
     newModelPackage,
     modelPackage_additionalInferenceSpecifications,
     modelPackage_approvalDescription,
@@ -2793,7 +2793,7 @@ module Amazonka.SageMaker.Types
     modelPackage_validationSpecification,
 
     -- * ModelPackageContainerDefinition
-    ModelPackageContainerDefinition,
+    ModelPackageContainerDefinition (ModelPackageContainerDefinition'),
     newModelPackageContainerDefinition,
     modelPackageContainerDefinition_containerHostname,
     modelPackageContainerDefinition_environment,
@@ -2807,7 +2807,7 @@ module Amazonka.SageMaker.Types
     modelPackageContainerDefinition_image,
 
     -- * ModelPackageGroup
-    ModelPackageGroup,
+    ModelPackageGroup (ModelPackageGroup'),
     newModelPackageGroup,
     modelPackageGroup_createdBy,
     modelPackageGroup_creationTime,
@@ -2818,7 +2818,7 @@ module Amazonka.SageMaker.Types
     modelPackageGroup_tags,
 
     -- * ModelPackageGroupSummary
-    ModelPackageGroupSummary,
+    ModelPackageGroupSummary (ModelPackageGroupSummary'),
     newModelPackageGroupSummary,
     modelPackageGroupSummary_modelPackageGroupDescription,
     modelPackageGroupSummary_modelPackageGroupName,
@@ -2827,20 +2827,20 @@ module Amazonka.SageMaker.Types
     modelPackageGroupSummary_modelPackageGroupStatus,
 
     -- * ModelPackageStatusDetails
-    ModelPackageStatusDetails,
+    ModelPackageStatusDetails (ModelPackageStatusDetails'),
     newModelPackageStatusDetails,
     modelPackageStatusDetails_imageScanStatuses,
     modelPackageStatusDetails_validationStatuses,
 
     -- * ModelPackageStatusItem
-    ModelPackageStatusItem,
+    ModelPackageStatusItem (ModelPackageStatusItem'),
     newModelPackageStatusItem,
     modelPackageStatusItem_failureReason,
     modelPackageStatusItem_name,
     modelPackageStatusItem_status,
 
     -- * ModelPackageSummary
-    ModelPackageSummary,
+    ModelPackageSummary (ModelPackageSummary'),
     newModelPackageSummary,
     modelPackageSummary_modelApprovalStatus,
     modelPackageSummary_modelPackageDescription,
@@ -2852,25 +2852,25 @@ module Amazonka.SageMaker.Types
     modelPackageSummary_modelPackageStatus,
 
     -- * ModelPackageValidationProfile
-    ModelPackageValidationProfile,
+    ModelPackageValidationProfile (ModelPackageValidationProfile'),
     newModelPackageValidationProfile,
     modelPackageValidationProfile_profileName,
     modelPackageValidationProfile_transformJobDefinition,
 
     -- * ModelPackageValidationSpecification
-    ModelPackageValidationSpecification,
+    ModelPackageValidationSpecification (ModelPackageValidationSpecification'),
     newModelPackageValidationSpecification,
     modelPackageValidationSpecification_validationRole,
     modelPackageValidationSpecification_validationProfiles,
 
     -- * ModelQuality
-    ModelQuality,
+    ModelQuality (ModelQuality'),
     newModelQuality,
     modelQuality_constraints,
     modelQuality_statistics,
 
     -- * ModelQualityAppSpecification
-    ModelQualityAppSpecification,
+    ModelQualityAppSpecification (ModelQualityAppSpecification'),
     newModelQualityAppSpecification,
     modelQualityAppSpecification_containerArguments,
     modelQualityAppSpecification_containerEntrypoint,
@@ -2881,39 +2881,39 @@ module Amazonka.SageMaker.Types
     modelQualityAppSpecification_imageUri,
 
     -- * ModelQualityBaselineConfig
-    ModelQualityBaselineConfig,
+    ModelQualityBaselineConfig (ModelQualityBaselineConfig'),
     newModelQualityBaselineConfig,
     modelQualityBaselineConfig_baseliningJobName,
     modelQualityBaselineConfig_constraintsResource,
 
     -- * ModelQualityJobInput
-    ModelQualityJobInput,
+    ModelQualityJobInput (ModelQualityJobInput'),
     newModelQualityJobInput,
     modelQualityJobInput_batchTransformInput,
     modelQualityJobInput_endpointInput,
     modelQualityJobInput_groundTruthS3Input,
 
     -- * ModelStepMetadata
-    ModelStepMetadata,
+    ModelStepMetadata (ModelStepMetadata'),
     newModelStepMetadata,
     modelStepMetadata_arn,
 
     -- * ModelSummary
-    ModelSummary,
+    ModelSummary (ModelSummary'),
     newModelSummary,
     modelSummary_modelName,
     modelSummary_modelArn,
     modelSummary_creationTime,
 
     -- * ModelVariantConfig
-    ModelVariantConfig,
+    ModelVariantConfig (ModelVariantConfig'),
     newModelVariantConfig,
     modelVariantConfig_modelName,
     modelVariantConfig_variantName,
     modelVariantConfig_infrastructureConfig,
 
     -- * ModelVariantConfigSummary
-    ModelVariantConfigSummary,
+    ModelVariantConfigSummary (ModelVariantConfigSummary'),
     newModelVariantConfigSummary,
     modelVariantConfigSummary_modelName,
     modelVariantConfigSummary_variantName,
@@ -2921,12 +2921,12 @@ module Amazonka.SageMaker.Types
     modelVariantConfigSummary_status,
 
     -- * MonitoringAlertActions
-    MonitoringAlertActions,
+    MonitoringAlertActions (MonitoringAlertActions'),
     newMonitoringAlertActions,
     monitoringAlertActions_modelDashboardIndicator,
 
     -- * MonitoringAlertHistorySummary
-    MonitoringAlertHistorySummary,
+    MonitoringAlertHistorySummary (MonitoringAlertHistorySummary'),
     newMonitoringAlertHistorySummary,
     monitoringAlertHistorySummary_monitoringScheduleName,
     monitoringAlertHistorySummary_monitoringAlertName,
@@ -2934,7 +2934,7 @@ module Amazonka.SageMaker.Types
     monitoringAlertHistorySummary_alertStatus,
 
     -- * MonitoringAlertSummary
-    MonitoringAlertSummary,
+    MonitoringAlertSummary (MonitoringAlertSummary'),
     newMonitoringAlertSummary,
     monitoringAlertSummary_monitoringAlertName,
     monitoringAlertSummary_creationTime,
@@ -2945,7 +2945,7 @@ module Amazonka.SageMaker.Types
     monitoringAlertSummary_actions,
 
     -- * MonitoringAppSpecification
-    MonitoringAppSpecification,
+    MonitoringAppSpecification (MonitoringAppSpecification'),
     newMonitoringAppSpecification,
     monitoringAppSpecification_containerArguments,
     monitoringAppSpecification_containerEntrypoint,
@@ -2954,14 +2954,14 @@ module Amazonka.SageMaker.Types
     monitoringAppSpecification_imageUri,
 
     -- * MonitoringBaselineConfig
-    MonitoringBaselineConfig,
+    MonitoringBaselineConfig (MonitoringBaselineConfig'),
     newMonitoringBaselineConfig,
     monitoringBaselineConfig_baseliningJobName,
     monitoringBaselineConfig_constraintsResource,
     monitoringBaselineConfig_statisticsResource,
 
     -- * MonitoringClusterConfig
-    MonitoringClusterConfig,
+    MonitoringClusterConfig (MonitoringClusterConfig'),
     newMonitoringClusterConfig,
     monitoringClusterConfig_volumeKmsKeyId,
     monitoringClusterConfig_instanceCount,
@@ -2969,24 +2969,24 @@ module Amazonka.SageMaker.Types
     monitoringClusterConfig_volumeSizeInGB,
 
     -- * MonitoringConstraintsResource
-    MonitoringConstraintsResource,
+    MonitoringConstraintsResource (MonitoringConstraintsResource'),
     newMonitoringConstraintsResource,
     monitoringConstraintsResource_s3Uri,
 
     -- * MonitoringCsvDatasetFormat
-    MonitoringCsvDatasetFormat,
+    MonitoringCsvDatasetFormat (MonitoringCsvDatasetFormat'),
     newMonitoringCsvDatasetFormat,
     monitoringCsvDatasetFormat_header,
 
     -- * MonitoringDatasetFormat
-    MonitoringDatasetFormat,
+    MonitoringDatasetFormat (MonitoringDatasetFormat'),
     newMonitoringDatasetFormat,
     monitoringDatasetFormat_csv,
     monitoringDatasetFormat_json,
     monitoringDatasetFormat_parquet,
 
     -- * MonitoringExecutionSummary
-    MonitoringExecutionSummary,
+    MonitoringExecutionSummary (MonitoringExecutionSummary'),
     newMonitoringExecutionSummary,
     monitoringExecutionSummary_endpointName,
     monitoringExecutionSummary_failureReason,
@@ -3000,18 +3000,18 @@ module Amazonka.SageMaker.Types
     monitoringExecutionSummary_monitoringExecutionStatus,
 
     -- * MonitoringGroundTruthS3Input
-    MonitoringGroundTruthS3Input,
+    MonitoringGroundTruthS3Input (MonitoringGroundTruthS3Input'),
     newMonitoringGroundTruthS3Input,
     monitoringGroundTruthS3Input_s3Uri,
 
     -- * MonitoringInput
-    MonitoringInput,
+    MonitoringInput (MonitoringInput'),
     newMonitoringInput,
     monitoringInput_batchTransformInput,
     monitoringInput_endpointInput,
 
     -- * MonitoringJobDefinition
-    MonitoringJobDefinition,
+    MonitoringJobDefinition (MonitoringJobDefinition'),
     newMonitoringJobDefinition,
     monitoringJobDefinition_baselineConfig,
     monitoringJobDefinition_environment,
@@ -3024,7 +3024,7 @@ module Amazonka.SageMaker.Types
     monitoringJobDefinition_roleArn,
 
     -- * MonitoringJobDefinitionSummary
-    MonitoringJobDefinitionSummary,
+    MonitoringJobDefinitionSummary (MonitoringJobDefinitionSummary'),
     newMonitoringJobDefinitionSummary,
     monitoringJobDefinitionSummary_monitoringJobDefinitionName,
     monitoringJobDefinitionSummary_monitoringJobDefinitionArn,
@@ -3032,46 +3032,46 @@ module Amazonka.SageMaker.Types
     monitoringJobDefinitionSummary_endpointName,
 
     -- * MonitoringJsonDatasetFormat
-    MonitoringJsonDatasetFormat,
+    MonitoringJsonDatasetFormat (MonitoringJsonDatasetFormat'),
     newMonitoringJsonDatasetFormat,
     monitoringJsonDatasetFormat_line,
 
     -- * MonitoringNetworkConfig
-    MonitoringNetworkConfig,
+    MonitoringNetworkConfig (MonitoringNetworkConfig'),
     newMonitoringNetworkConfig,
     monitoringNetworkConfig_enableInterContainerTrafficEncryption,
     monitoringNetworkConfig_enableNetworkIsolation,
     monitoringNetworkConfig_vpcConfig,
 
     -- * MonitoringOutput
-    MonitoringOutput,
+    MonitoringOutput (MonitoringOutput'),
     newMonitoringOutput,
     monitoringOutput_s3Output,
 
     -- * MonitoringOutputConfig
-    MonitoringOutputConfig,
+    MonitoringOutputConfig (MonitoringOutputConfig'),
     newMonitoringOutputConfig,
     monitoringOutputConfig_kmsKeyId,
     monitoringOutputConfig_monitoringOutputs,
 
     -- * MonitoringParquetDatasetFormat
-    MonitoringParquetDatasetFormat,
+    MonitoringParquetDatasetFormat (MonitoringParquetDatasetFormat'),
     newMonitoringParquetDatasetFormat,
 
     -- * MonitoringResources
-    MonitoringResources,
+    MonitoringResources (MonitoringResources'),
     newMonitoringResources,
     monitoringResources_clusterConfig,
 
     -- * MonitoringS3Output
-    MonitoringS3Output,
+    MonitoringS3Output (MonitoringS3Output'),
     newMonitoringS3Output,
     monitoringS3Output_s3UploadMode,
     monitoringS3Output_s3Uri,
     monitoringS3Output_localPath,
 
     -- * MonitoringSchedule
-    MonitoringSchedule,
+    MonitoringSchedule (MonitoringSchedule'),
     newMonitoringSchedule,
     monitoringSchedule_creationTime,
     monitoringSchedule_endpointName,
@@ -3086,7 +3086,7 @@ module Amazonka.SageMaker.Types
     monitoringSchedule_tags,
 
     -- * MonitoringScheduleConfig
-    MonitoringScheduleConfig,
+    MonitoringScheduleConfig (MonitoringScheduleConfig'),
     newMonitoringScheduleConfig,
     monitoringScheduleConfig_monitoringJobDefinition,
     monitoringScheduleConfig_monitoringJobDefinitionName,
@@ -3094,7 +3094,7 @@ module Amazonka.SageMaker.Types
     monitoringScheduleConfig_scheduleConfig,
 
     -- * MonitoringScheduleSummary
-    MonitoringScheduleSummary,
+    MonitoringScheduleSummary (MonitoringScheduleSummary'),
     newMonitoringScheduleSummary,
     monitoringScheduleSummary_endpointName,
     monitoringScheduleSummary_monitoringJobDefinitionName,
@@ -3106,41 +3106,41 @@ module Amazonka.SageMaker.Types
     monitoringScheduleSummary_monitoringScheduleStatus,
 
     -- * MonitoringStatisticsResource
-    MonitoringStatisticsResource,
+    MonitoringStatisticsResource (MonitoringStatisticsResource'),
     newMonitoringStatisticsResource,
     monitoringStatisticsResource_s3Uri,
 
     -- * MonitoringStoppingCondition
-    MonitoringStoppingCondition,
+    MonitoringStoppingCondition (MonitoringStoppingCondition'),
     newMonitoringStoppingCondition,
     monitoringStoppingCondition_maxRuntimeInSeconds,
 
     -- * MultiModelConfig
-    MultiModelConfig,
+    MultiModelConfig (MultiModelConfig'),
     newMultiModelConfig,
     multiModelConfig_modelCacheSetting,
 
     -- * NeoVpcConfig
-    NeoVpcConfig,
+    NeoVpcConfig (NeoVpcConfig'),
     newNeoVpcConfig,
     neoVpcConfig_securityGroupIds,
     neoVpcConfig_subnets,
 
     -- * NestedFilters
-    NestedFilters,
+    NestedFilters (NestedFilters'),
     newNestedFilters,
     nestedFilters_nestedPropertyName,
     nestedFilters_filters,
 
     -- * NetworkConfig
-    NetworkConfig,
+    NetworkConfig (NetworkConfig'),
     newNetworkConfig,
     networkConfig_enableInterContainerTrafficEncryption,
     networkConfig_enableNetworkIsolation,
     networkConfig_vpcConfig,
 
     -- * NotebookInstanceLifecycleConfigSummary
-    NotebookInstanceLifecycleConfigSummary,
+    NotebookInstanceLifecycleConfigSummary (NotebookInstanceLifecycleConfigSummary'),
     newNotebookInstanceLifecycleConfigSummary,
     notebookInstanceLifecycleConfigSummary_creationTime,
     notebookInstanceLifecycleConfigSummary_lastModifiedTime,
@@ -3148,12 +3148,12 @@ module Amazonka.SageMaker.Types
     notebookInstanceLifecycleConfigSummary_notebookInstanceLifecycleConfigArn,
 
     -- * NotebookInstanceLifecycleHook
-    NotebookInstanceLifecycleHook,
+    NotebookInstanceLifecycleHook (NotebookInstanceLifecycleHook'),
     newNotebookInstanceLifecycleHook,
     notebookInstanceLifecycleHook_content,
 
     -- * NotebookInstanceSummary
-    NotebookInstanceSummary,
+    NotebookInstanceSummary (NotebookInstanceSummary'),
     newNotebookInstanceSummary,
     notebookInstanceSummary_additionalCodeRepositories,
     notebookInstanceSummary_creationTime,
@@ -3167,19 +3167,19 @@ module Amazonka.SageMaker.Types
     notebookInstanceSummary_notebookInstanceArn,
 
     -- * NotificationConfiguration
-    NotificationConfiguration,
+    NotificationConfiguration (NotificationConfiguration'),
     newNotificationConfiguration,
     notificationConfiguration_notificationTopicArn,
 
     -- * ObjectiveStatusCounters
-    ObjectiveStatusCounters,
+    ObjectiveStatusCounters (ObjectiveStatusCounters'),
     newObjectiveStatusCounters,
     objectiveStatusCounters_failed,
     objectiveStatusCounters_pending,
     objectiveStatusCounters_succeeded,
 
     -- * OfflineStoreConfig
-    OfflineStoreConfig,
+    OfflineStoreConfig (OfflineStoreConfig'),
     newOfflineStoreConfig,
     offlineStoreConfig_dataCatalogConfig,
     offlineStoreConfig_disableGlueTableCreation,
@@ -3187,13 +3187,13 @@ module Amazonka.SageMaker.Types
     offlineStoreConfig_s3StorageConfig,
 
     -- * OfflineStoreStatus
-    OfflineStoreStatus,
+    OfflineStoreStatus (OfflineStoreStatus'),
     newOfflineStoreStatus,
     offlineStoreStatus_blockedReason,
     offlineStoreStatus_status,
 
     -- * OidcConfig
-    OidcConfig,
+    OidcConfig (OidcConfig'),
     newOidcConfig,
     oidcConfig_clientId,
     oidcConfig_clientSecret,
@@ -3205,7 +3205,7 @@ module Amazonka.SageMaker.Types
     oidcConfig_jwksUri,
 
     -- * OidcConfigForResponse
-    OidcConfigForResponse,
+    OidcConfigForResponse (OidcConfigForResponse'),
     newOidcConfigForResponse,
     oidcConfigForResponse_authorizationEndpoint,
     oidcConfigForResponse_clientId,
@@ -3216,23 +3216,23 @@ module Amazonka.SageMaker.Types
     oidcConfigForResponse_userInfoEndpoint,
 
     -- * OidcMemberDefinition
-    OidcMemberDefinition,
+    OidcMemberDefinition (OidcMemberDefinition'),
     newOidcMemberDefinition,
     oidcMemberDefinition_groups,
 
     -- * OnlineStoreConfig
-    OnlineStoreConfig,
+    OnlineStoreConfig (OnlineStoreConfig'),
     newOnlineStoreConfig,
     onlineStoreConfig_enableOnlineStore,
     onlineStoreConfig_securityConfig,
 
     -- * OnlineStoreSecurityConfig
-    OnlineStoreSecurityConfig,
+    OnlineStoreSecurityConfig (OnlineStoreSecurityConfig'),
     newOnlineStoreSecurityConfig,
     onlineStoreSecurityConfig_kmsKeyId,
 
     -- * OutputConfig
-    OutputConfig,
+    OutputConfig (OutputConfig'),
     newOutputConfig,
     outputConfig_compilerOptions,
     outputConfig_kmsKeyId,
@@ -3241,55 +3241,55 @@ module Amazonka.SageMaker.Types
     outputConfig_s3OutputLocation,
 
     -- * OutputDataConfig
-    OutputDataConfig,
+    OutputDataConfig (OutputDataConfig'),
     newOutputDataConfig,
     outputDataConfig_kmsKeyId,
     outputDataConfig_s3OutputPath,
 
     -- * OutputParameter
-    OutputParameter,
+    OutputParameter (OutputParameter'),
     newOutputParameter,
     outputParameter_name,
     outputParameter_value,
 
     -- * ParallelismConfiguration
-    ParallelismConfiguration,
+    ParallelismConfiguration (ParallelismConfiguration'),
     newParallelismConfiguration,
     parallelismConfiguration_maxParallelExecutionSteps,
 
     -- * Parameter
-    Parameter,
+    Parameter (Parameter'),
     newParameter,
     parameter_name,
     parameter_value,
 
     -- * ParameterRange
-    ParameterRange,
+    ParameterRange (ParameterRange'),
     newParameterRange,
     parameterRange_categoricalParameterRangeSpecification,
     parameterRange_continuousParameterRangeSpecification,
     parameterRange_integerParameterRangeSpecification,
 
     -- * ParameterRanges
-    ParameterRanges,
+    ParameterRanges (ParameterRanges'),
     newParameterRanges,
     parameterRanges_categoricalParameterRanges,
     parameterRanges_continuousParameterRanges,
     parameterRanges_integerParameterRanges,
 
     -- * Parent
-    Parent,
+    Parent (Parent'),
     newParent,
     parent_experimentName,
     parent_trialName,
 
     -- * ParentHyperParameterTuningJob
-    ParentHyperParameterTuningJob,
+    ParentHyperParameterTuningJob (ParentHyperParameterTuningJob'),
     newParentHyperParameterTuningJob,
     parentHyperParameterTuningJob_hyperParameterTuningJobName,
 
     -- * PendingDeploymentSummary
-    PendingDeploymentSummary,
+    PendingDeploymentSummary (PendingDeploymentSummary'),
     newPendingDeploymentSummary,
     pendingDeploymentSummary_productionVariants,
     pendingDeploymentSummary_shadowProductionVariants,
@@ -3297,7 +3297,7 @@ module Amazonka.SageMaker.Types
     pendingDeploymentSummary_endpointConfigName,
 
     -- * PendingProductionVariantSummary
-    PendingProductionVariantSummary,
+    PendingProductionVariantSummary (PendingProductionVariantSummary'),
     newPendingProductionVariantSummary,
     pendingProductionVariantSummary_acceleratorType,
     pendingProductionVariantSummary_currentInstanceCount,
@@ -3312,14 +3312,14 @@ module Amazonka.SageMaker.Types
     pendingProductionVariantSummary_variantName,
 
     -- * Phase
-    Phase,
+    Phase (Phase'),
     newPhase,
     phase_durationInSeconds,
     phase_initialNumberOfUsers,
     phase_spawnRate,
 
     -- * Pipeline
-    Pipeline,
+    Pipeline (Pipeline'),
     newPipeline,
     pipeline_createdBy,
     pipeline_creationTime,
@@ -3336,14 +3336,14 @@ module Amazonka.SageMaker.Types
     pipeline_tags,
 
     -- * PipelineDefinitionS3Location
-    PipelineDefinitionS3Location,
+    PipelineDefinitionS3Location (PipelineDefinitionS3Location'),
     newPipelineDefinitionS3Location,
     pipelineDefinitionS3Location_versionId,
     pipelineDefinitionS3Location_bucket,
     pipelineDefinitionS3Location_objectKey,
 
     -- * PipelineExecution
-    PipelineExecution,
+    PipelineExecution (PipelineExecution'),
     newPipelineExecution,
     pipelineExecution_createdBy,
     pipelineExecution_creationTime,
@@ -3360,7 +3360,7 @@ module Amazonka.SageMaker.Types
     pipelineExecution_pipelineParameters,
 
     -- * PipelineExecutionStep
-    PipelineExecutionStep,
+    PipelineExecutionStep (PipelineExecutionStep'),
     newPipelineExecutionStep,
     pipelineExecutionStep_attemptCount,
     pipelineExecutionStep_cacheHitResult,
@@ -3374,7 +3374,7 @@ module Amazonka.SageMaker.Types
     pipelineExecutionStep_stepStatus,
 
     -- * PipelineExecutionStepMetadata
-    PipelineExecutionStepMetadata,
+    PipelineExecutionStepMetadata (PipelineExecutionStepMetadata'),
     newPipelineExecutionStepMetadata,
     pipelineExecutionStepMetadata_autoMLJob,
     pipelineExecutionStepMetadata_callback,
@@ -3392,7 +3392,7 @@ module Amazonka.SageMaker.Types
     pipelineExecutionStepMetadata_tuningJob,
 
     -- * PipelineExecutionSummary
-    PipelineExecutionSummary,
+    PipelineExecutionSummary (PipelineExecutionSummary'),
     newPipelineExecutionSummary,
     pipelineExecutionSummary_pipelineExecutionArn,
     pipelineExecutionSummary_pipelineExecutionDescription,
@@ -3402,13 +3402,13 @@ module Amazonka.SageMaker.Types
     pipelineExecutionSummary_startTime,
 
     -- * PipelineExperimentConfig
-    PipelineExperimentConfig,
+    PipelineExperimentConfig (PipelineExperimentConfig'),
     newPipelineExperimentConfig,
     pipelineExperimentConfig_experimentName,
     pipelineExperimentConfig_trialName,
 
     -- * PipelineSummary
-    PipelineSummary,
+    PipelineSummary (PipelineSummary'),
     newPipelineSummary,
     pipelineSummary_creationTime,
     pipelineSummary_lastExecutionTime,
@@ -3420,7 +3420,7 @@ module Amazonka.SageMaker.Types
     pipelineSummary_roleArn,
 
     -- * ProcessingClusterConfig
-    ProcessingClusterConfig,
+    ProcessingClusterConfig (ProcessingClusterConfig'),
     newProcessingClusterConfig,
     processingClusterConfig_volumeKmsKeyId,
     processingClusterConfig_instanceCount,
@@ -3428,12 +3428,12 @@ module Amazonka.SageMaker.Types
     processingClusterConfig_volumeSizeInGB,
 
     -- * ProcessingFeatureStoreOutput
-    ProcessingFeatureStoreOutput,
+    ProcessingFeatureStoreOutput (ProcessingFeatureStoreOutput'),
     newProcessingFeatureStoreOutput,
     processingFeatureStoreOutput_featureGroupName,
 
     -- * ProcessingInput
-    ProcessingInput,
+    ProcessingInput (ProcessingInput'),
     newProcessingInput,
     processingInput_appManaged,
     processingInput_datasetDefinition,
@@ -3441,7 +3441,7 @@ module Amazonka.SageMaker.Types
     processingInput_inputName,
 
     -- * ProcessingJob
-    ProcessingJob,
+    ProcessingJob (ProcessingJob'),
     newProcessingJob,
     processingJob_appSpecification,
     processingJob_autoMLJobArn,
@@ -3467,12 +3467,12 @@ module Amazonka.SageMaker.Types
     processingJob_trainingJobArn,
 
     -- * ProcessingJobStepMetadata
-    ProcessingJobStepMetadata,
+    ProcessingJobStepMetadata (ProcessingJobStepMetadata'),
     newProcessingJobStepMetadata,
     processingJobStepMetadata_arn,
 
     -- * ProcessingJobSummary
-    ProcessingJobSummary,
+    ProcessingJobSummary (ProcessingJobSummary'),
     newProcessingJobSummary,
     processingJobSummary_exitMessage,
     processingJobSummary_failureReason,
@@ -3484,7 +3484,7 @@ module Amazonka.SageMaker.Types
     processingJobSummary_processingJobStatus,
 
     -- * ProcessingOutput
-    ProcessingOutput,
+    ProcessingOutput (ProcessingOutput'),
     newProcessingOutput,
     processingOutput_appManaged,
     processingOutput_featureStoreOutput,
@@ -3492,18 +3492,18 @@ module Amazonka.SageMaker.Types
     processingOutput_outputName,
 
     -- * ProcessingOutputConfig
-    ProcessingOutputConfig,
+    ProcessingOutputConfig (ProcessingOutputConfig'),
     newProcessingOutputConfig,
     processingOutputConfig_kmsKeyId,
     processingOutputConfig_outputs,
 
     -- * ProcessingResources
-    ProcessingResources,
+    ProcessingResources (ProcessingResources'),
     newProcessingResources,
     processingResources_clusterConfig,
 
     -- * ProcessingS3Input
-    ProcessingS3Input,
+    ProcessingS3Input (ProcessingS3Input'),
     newProcessingS3Input,
     processingS3Input_localPath,
     processingS3Input_s3CompressionType,
@@ -3513,19 +3513,19 @@ module Amazonka.SageMaker.Types
     processingS3Input_s3DataType,
 
     -- * ProcessingS3Output
-    ProcessingS3Output,
+    ProcessingS3Output (ProcessingS3Output'),
     newProcessingS3Output,
     processingS3Output_s3Uri,
     processingS3Output_localPath,
     processingS3Output_s3UploadMode,
 
     -- * ProcessingStoppingCondition
-    ProcessingStoppingCondition,
+    ProcessingStoppingCondition (ProcessingStoppingCondition'),
     newProcessingStoppingCondition,
     processingStoppingCondition_maxRuntimeInSeconds,
 
     -- * ProductionVariant
-    ProductionVariant,
+    ProductionVariant (ProductionVariant'),
     newProductionVariant,
     productionVariant_acceleratorType,
     productionVariant_containerStartupHealthCheckTimeoutInSeconds,
@@ -3540,26 +3540,26 @@ module Amazonka.SageMaker.Types
     productionVariant_modelName,
 
     -- * ProductionVariantCoreDumpConfig
-    ProductionVariantCoreDumpConfig,
+    ProductionVariantCoreDumpConfig (ProductionVariantCoreDumpConfig'),
     newProductionVariantCoreDumpConfig,
     productionVariantCoreDumpConfig_kmsKeyId,
     productionVariantCoreDumpConfig_destinationS3Uri,
 
     -- * ProductionVariantServerlessConfig
-    ProductionVariantServerlessConfig,
+    ProductionVariantServerlessConfig (ProductionVariantServerlessConfig'),
     newProductionVariantServerlessConfig,
     productionVariantServerlessConfig_memorySizeInMB,
     productionVariantServerlessConfig_maxConcurrency,
 
     -- * ProductionVariantStatus
-    ProductionVariantStatus,
+    ProductionVariantStatus (ProductionVariantStatus'),
     newProductionVariantStatus,
     productionVariantStatus_startTime,
     productionVariantStatus_statusMessage,
     productionVariantStatus_status,
 
     -- * ProductionVariantSummary
-    ProductionVariantSummary,
+    ProductionVariantSummary (ProductionVariantSummary'),
     newProductionVariantSummary,
     productionVariantSummary_currentInstanceCount,
     productionVariantSummary_currentServerlessConfig,
@@ -3572,7 +3572,7 @@ module Amazonka.SageMaker.Types
     productionVariantSummary_variantName,
 
     -- * ProfilerConfig
-    ProfilerConfig,
+    ProfilerConfig (ProfilerConfig'),
     newProfilerConfig,
     profilerConfig_disableProfiler,
     profilerConfig_profilingIntervalInMilliseconds,
@@ -3580,7 +3580,7 @@ module Amazonka.SageMaker.Types
     profilerConfig_s3OutputPath,
 
     -- * ProfilerConfigForUpdate
-    ProfilerConfigForUpdate,
+    ProfilerConfigForUpdate (ProfilerConfigForUpdate'),
     newProfilerConfigForUpdate,
     profilerConfigForUpdate_disableProfiler,
     profilerConfigForUpdate_profilingIntervalInMilliseconds,
@@ -3588,7 +3588,7 @@ module Amazonka.SageMaker.Types
     profilerConfigForUpdate_s3OutputPath,
 
     -- * ProfilerRuleConfiguration
-    ProfilerRuleConfiguration,
+    ProfilerRuleConfiguration (ProfilerRuleConfiguration'),
     newProfilerRuleConfiguration,
     profilerRuleConfiguration_instanceType,
     profilerRuleConfiguration_localPath,
@@ -3599,7 +3599,7 @@ module Amazonka.SageMaker.Types
     profilerRuleConfiguration_ruleEvaluatorImage,
 
     -- * ProfilerRuleEvaluationStatus
-    ProfilerRuleEvaluationStatus,
+    ProfilerRuleEvaluationStatus (ProfilerRuleEvaluationStatus'),
     newProfilerRuleEvaluationStatus,
     profilerRuleEvaluationStatus_lastModifiedTime,
     profilerRuleEvaluationStatus_ruleConfigurationName,
@@ -3608,7 +3608,7 @@ module Amazonka.SageMaker.Types
     profilerRuleEvaluationStatus_statusDetails,
 
     -- * Project
-    Project,
+    Project (Project'),
     newProject,
     project_createdBy,
     project_creationTime,
@@ -3624,7 +3624,7 @@ module Amazonka.SageMaker.Types
     project_tags,
 
     -- * ProjectSummary
-    ProjectSummary,
+    ProjectSummary (ProjectSummary'),
     newProjectSummary,
     projectSummary_projectDescription,
     projectSummary_projectName,
@@ -3634,28 +3634,28 @@ module Amazonka.SageMaker.Types
     projectSummary_projectStatus,
 
     -- * PropertyNameQuery
-    PropertyNameQuery,
+    PropertyNameQuery (PropertyNameQuery'),
     newPropertyNameQuery,
     propertyNameQuery_propertyNameHint,
 
     -- * PropertyNameSuggestion
-    PropertyNameSuggestion,
+    PropertyNameSuggestion (PropertyNameSuggestion'),
     newPropertyNameSuggestion,
     propertyNameSuggestion_propertyName,
 
     -- * ProvisioningParameter
-    ProvisioningParameter,
+    ProvisioningParameter (ProvisioningParameter'),
     newProvisioningParameter,
     provisioningParameter_key,
     provisioningParameter_value,
 
     -- * PublicWorkforceTaskPrice
-    PublicWorkforceTaskPrice,
+    PublicWorkforceTaskPrice (PublicWorkforceTaskPrice'),
     newPublicWorkforceTaskPrice,
     publicWorkforceTaskPrice_amountInUsd,
 
     -- * QualityCheckStepMetadata
-    QualityCheckStepMetadata,
+    QualityCheckStepMetadata (QualityCheckStepMetadata'),
     newQualityCheckStepMetadata,
     qualityCheckStepMetadata_baselineUsedForDriftCheckConstraints,
     qualityCheckStepMetadata_baselineUsedForDriftCheckStatistics,
@@ -3669,7 +3669,7 @@ module Amazonka.SageMaker.Types
     qualityCheckStepMetadata_violationReport,
 
     -- * QueryFilters
-    QueryFilters,
+    QueryFilters (QueryFilters'),
     newQueryFilters,
     queryFilters_createdAfter,
     queryFilters_createdBefore,
@@ -3680,19 +3680,19 @@ module Amazonka.SageMaker.Types
     queryFilters_types,
 
     -- * RSessionAppSettings
-    RSessionAppSettings,
+    RSessionAppSettings (RSessionAppSettings'),
     newRSessionAppSettings,
     rSessionAppSettings_customImages,
     rSessionAppSettings_defaultResourceSpec,
 
     -- * RStudioServerProAppSettings
-    RStudioServerProAppSettings,
+    RStudioServerProAppSettings (RStudioServerProAppSettings'),
     newRStudioServerProAppSettings,
     rStudioServerProAppSettings_accessStatus,
     rStudioServerProAppSettings_userGroup,
 
     -- * RStudioServerProDomainSettings
-    RStudioServerProDomainSettings,
+    RStudioServerProDomainSettings (RStudioServerProDomainSettings'),
     newRStudioServerProDomainSettings,
     rStudioServerProDomainSettings_defaultResourceSpec,
     rStudioServerProDomainSettings_rStudioConnectUrl,
@@ -3700,7 +3700,7 @@ module Amazonka.SageMaker.Types
     rStudioServerProDomainSettings_domainExecutionRoleArn,
 
     -- * RStudioServerProDomainSettingsForUpdate
-    RStudioServerProDomainSettingsForUpdate,
+    RStudioServerProDomainSettingsForUpdate (RStudioServerProDomainSettingsForUpdate'),
     newRStudioServerProDomainSettingsForUpdate,
     rStudioServerProDomainSettingsForUpdate_defaultResourceSpec,
     rStudioServerProDomainSettingsForUpdate_rStudioConnectUrl,
@@ -3708,18 +3708,18 @@ module Amazonka.SageMaker.Types
     rStudioServerProDomainSettingsForUpdate_domainExecutionRoleArn,
 
     -- * RealTimeInferenceConfig
-    RealTimeInferenceConfig,
+    RealTimeInferenceConfig (RealTimeInferenceConfig'),
     newRealTimeInferenceConfig,
     realTimeInferenceConfig_instanceType,
     realTimeInferenceConfig_instanceCount,
 
     -- * RecommendationJobCompiledOutputConfig
-    RecommendationJobCompiledOutputConfig,
+    RecommendationJobCompiledOutputConfig (RecommendationJobCompiledOutputConfig'),
     newRecommendationJobCompiledOutputConfig,
     recommendationJobCompiledOutputConfig_s3OutputUri,
 
     -- * RecommendationJobContainerConfig
-    RecommendationJobContainerConfig,
+    RecommendationJobContainerConfig (RecommendationJobContainerConfig'),
     newRecommendationJobContainerConfig,
     recommendationJobContainerConfig_domain,
     recommendationJobContainerConfig_framework,
@@ -3730,7 +3730,7 @@ module Amazonka.SageMaker.Types
     recommendationJobContainerConfig_task,
 
     -- * RecommendationJobInferenceBenchmark
-    RecommendationJobInferenceBenchmark,
+    RecommendationJobInferenceBenchmark (RecommendationJobInferenceBenchmark'),
     newRecommendationJobInferenceBenchmark,
     recommendationJobInferenceBenchmark_endpointConfiguration,
     recommendationJobInferenceBenchmark_failureReason,
@@ -3738,7 +3738,7 @@ module Amazonka.SageMaker.Types
     recommendationJobInferenceBenchmark_modelConfiguration,
 
     -- * RecommendationJobInputConfig
-    RecommendationJobInputConfig,
+    RecommendationJobInputConfig (RecommendationJobInputConfig'),
     newRecommendationJobInputConfig,
     recommendationJobInputConfig_containerConfig,
     recommendationJobInputConfig_endpointConfigurations,
@@ -3751,37 +3751,37 @@ module Amazonka.SageMaker.Types
     recommendationJobInputConfig_modelPackageVersionArn,
 
     -- * RecommendationJobOutputConfig
-    RecommendationJobOutputConfig,
+    RecommendationJobOutputConfig (RecommendationJobOutputConfig'),
     newRecommendationJobOutputConfig,
     recommendationJobOutputConfig_compiledOutputConfig,
     recommendationJobOutputConfig_kmsKeyId,
 
     -- * RecommendationJobPayloadConfig
-    RecommendationJobPayloadConfig,
+    RecommendationJobPayloadConfig (RecommendationJobPayloadConfig'),
     newRecommendationJobPayloadConfig,
     recommendationJobPayloadConfig_samplePayloadUrl,
     recommendationJobPayloadConfig_supportedContentTypes,
 
     -- * RecommendationJobResourceLimit
-    RecommendationJobResourceLimit,
+    RecommendationJobResourceLimit (RecommendationJobResourceLimit'),
     newRecommendationJobResourceLimit,
     recommendationJobResourceLimit_maxNumberOfTests,
     recommendationJobResourceLimit_maxParallelOfTests,
 
     -- * RecommendationJobStoppingConditions
-    RecommendationJobStoppingConditions,
+    RecommendationJobStoppingConditions (RecommendationJobStoppingConditions'),
     newRecommendationJobStoppingConditions,
     recommendationJobStoppingConditions_maxInvocations,
     recommendationJobStoppingConditions_modelLatencyThresholds,
 
     -- * RecommendationJobVpcConfig
-    RecommendationJobVpcConfig,
+    RecommendationJobVpcConfig (RecommendationJobVpcConfig'),
     newRecommendationJobVpcConfig,
     recommendationJobVpcConfig_securityGroupIds,
     recommendationJobVpcConfig_subnets,
 
     -- * RecommendationMetrics
-    RecommendationMetrics,
+    RecommendationMetrics (RecommendationMetrics'),
     newRecommendationMetrics,
     recommendationMetrics_costPerHour,
     recommendationMetrics_costPerInference,
@@ -3789,7 +3789,7 @@ module Amazonka.SageMaker.Types
     recommendationMetrics_modelLatency,
 
     -- * RedshiftDatasetDefinition
-    RedshiftDatasetDefinition,
+    RedshiftDatasetDefinition (RedshiftDatasetDefinition'),
     newRedshiftDatasetDefinition,
     redshiftDatasetDefinition_kmsKeyId,
     redshiftDatasetDefinition_outputCompression,
@@ -3802,35 +3802,35 @@ module Amazonka.SageMaker.Types
     redshiftDatasetDefinition_outputFormat,
 
     -- * RegisterModelStepMetadata
-    RegisterModelStepMetadata,
+    RegisterModelStepMetadata (RegisterModelStepMetadata'),
     newRegisterModelStepMetadata,
     registerModelStepMetadata_arn,
 
     -- * RenderableTask
-    RenderableTask,
+    RenderableTask (RenderableTask'),
     newRenderableTask,
     renderableTask_input,
 
     -- * RenderingError
-    RenderingError,
+    RenderingError (RenderingError'),
     newRenderingError,
     renderingError_code,
     renderingError_message,
 
     -- * RepositoryAuthConfig
-    RepositoryAuthConfig,
+    RepositoryAuthConfig (RepositoryAuthConfig'),
     newRepositoryAuthConfig,
     repositoryAuthConfig_repositoryCredentialsProviderArn,
 
     -- * ResolvedAttributes
-    ResolvedAttributes,
+    ResolvedAttributes (ResolvedAttributes'),
     newResolvedAttributes,
     resolvedAttributes_autoMLJobObjective,
     resolvedAttributes_completionCriteria,
     resolvedAttributes_problemType,
 
     -- * ResourceConfig
-    ResourceConfig,
+    ResourceConfig (ResourceConfig'),
     newResourceConfig,
     resourceConfig_instanceCount,
     resourceConfig_instanceGroups,
@@ -3840,18 +3840,18 @@ module Amazonka.SageMaker.Types
     resourceConfig_volumeSizeInGB,
 
     -- * ResourceConfigForUpdate
-    ResourceConfigForUpdate,
+    ResourceConfigForUpdate (ResourceConfigForUpdate'),
     newResourceConfigForUpdate,
     resourceConfigForUpdate_keepAlivePeriodInSeconds,
 
     -- * ResourceLimits
-    ResourceLimits,
+    ResourceLimits (ResourceLimits'),
     newResourceLimits,
     resourceLimits_maxNumberOfTrainingJobs,
     resourceLimits_maxParallelTrainingJobs,
 
     -- * ResourceSpec
-    ResourceSpec,
+    ResourceSpec (ResourceSpec'),
     newResourceSpec,
     resourceSpec_instanceType,
     resourceSpec_lifecycleConfigArn,
@@ -3859,17 +3859,17 @@ module Amazonka.SageMaker.Types
     resourceSpec_sageMakerImageVersionArn,
 
     -- * RetentionPolicy
-    RetentionPolicy,
+    RetentionPolicy (RetentionPolicy'),
     newRetentionPolicy,
     retentionPolicy_homeEfsFileSystem,
 
     -- * RetryStrategy
-    RetryStrategy,
+    RetryStrategy (RetryStrategy'),
     newRetryStrategy,
     retryStrategy_maximumRetryAttempts,
 
     -- * S3DataSource
-    S3DataSource,
+    S3DataSource (S3DataSource'),
     newS3DataSource,
     s3DataSource_attributeNames,
     s3DataSource_instanceGroupNames,
@@ -3878,19 +3878,19 @@ module Amazonka.SageMaker.Types
     s3DataSource_s3Uri,
 
     -- * S3StorageConfig
-    S3StorageConfig,
+    S3StorageConfig (S3StorageConfig'),
     newS3StorageConfig,
     s3StorageConfig_kmsKeyId,
     s3StorageConfig_resolvedOutputS3Uri,
     s3StorageConfig_s3Uri,
 
     -- * ScheduleConfig
-    ScheduleConfig,
+    ScheduleConfig (ScheduleConfig'),
     newScheduleConfig,
     scheduleConfig_scheduleExpression,
 
     -- * SearchExpression
-    SearchExpression,
+    SearchExpression (SearchExpression'),
     newSearchExpression,
     searchExpression_filters,
     searchExpression_nestedFilters,
@@ -3898,7 +3898,7 @@ module Amazonka.SageMaker.Types
     searchExpression_subExpressions,
 
     -- * SearchRecord
-    SearchRecord,
+    SearchRecord (SearchRecord'),
     newSearchRecord,
     searchRecord_endpoint,
     searchRecord_experiment,
@@ -3917,7 +3917,7 @@ module Amazonka.SageMaker.Types
     searchRecord_trialComponent,
 
     -- * SecondaryStatusTransition
-    SecondaryStatusTransition,
+    SecondaryStatusTransition (SecondaryStatusTransition'),
     newSecondaryStatusTransition,
     secondaryStatusTransition_endTime,
     secondaryStatusTransition_statusMessage,
@@ -3925,13 +3925,13 @@ module Amazonka.SageMaker.Types
     secondaryStatusTransition_startTime,
 
     -- * ServiceCatalogProvisionedProductDetails
-    ServiceCatalogProvisionedProductDetails,
+    ServiceCatalogProvisionedProductDetails (ServiceCatalogProvisionedProductDetails'),
     newServiceCatalogProvisionedProductDetails,
     serviceCatalogProvisionedProductDetails_provisionedProductId,
     serviceCatalogProvisionedProductDetails_provisionedProductStatusMessage,
 
     -- * ServiceCatalogProvisioningDetails
-    ServiceCatalogProvisioningDetails,
+    ServiceCatalogProvisioningDetails (ServiceCatalogProvisioningDetails'),
     newServiceCatalogProvisioningDetails,
     serviceCatalogProvisioningDetails_pathId,
     serviceCatalogProvisioningDetails_provisioningArtifactId,
@@ -3939,53 +3939,53 @@ module Amazonka.SageMaker.Types
     serviceCatalogProvisioningDetails_productId,
 
     -- * ServiceCatalogProvisioningUpdateDetails
-    ServiceCatalogProvisioningUpdateDetails,
+    ServiceCatalogProvisioningUpdateDetails (ServiceCatalogProvisioningUpdateDetails'),
     newServiceCatalogProvisioningUpdateDetails,
     serviceCatalogProvisioningUpdateDetails_provisioningArtifactId,
     serviceCatalogProvisioningUpdateDetails_provisioningParameters,
 
     -- * ShadowModeConfig
-    ShadowModeConfig,
+    ShadowModeConfig (ShadowModeConfig'),
     newShadowModeConfig,
     shadowModeConfig_sourceModelVariantName,
     shadowModeConfig_shadowModelVariants,
 
     -- * ShadowModelVariantConfig
-    ShadowModelVariantConfig,
+    ShadowModelVariantConfig (ShadowModelVariantConfig'),
     newShadowModelVariantConfig,
     shadowModelVariantConfig_shadowModelVariantName,
     shadowModelVariantConfig_samplingPercentage,
 
     -- * SharingSettings
-    SharingSettings,
+    SharingSettings (SharingSettings'),
     newSharingSettings,
     sharingSettings_notebookOutputOption,
     sharingSettings_s3KmsKeyId,
     sharingSettings_s3OutputPath,
 
     -- * ShuffleConfig
-    ShuffleConfig,
+    ShuffleConfig (ShuffleConfig'),
     newShuffleConfig,
     shuffleConfig_seed,
 
     -- * SourceAlgorithm
-    SourceAlgorithm,
+    SourceAlgorithm (SourceAlgorithm'),
     newSourceAlgorithm,
     sourceAlgorithm_modelDataUrl,
     sourceAlgorithm_algorithmName,
 
     -- * SourceAlgorithmSpecification
-    SourceAlgorithmSpecification,
+    SourceAlgorithmSpecification (SourceAlgorithmSpecification'),
     newSourceAlgorithmSpecification,
     sourceAlgorithmSpecification_sourceAlgorithms,
 
     -- * SourceIpConfig
-    SourceIpConfig,
+    SourceIpConfig (SourceIpConfig'),
     newSourceIpConfig,
     sourceIpConfig_cidrs,
 
     -- * SpaceDetails
-    SpaceDetails,
+    SpaceDetails (SpaceDetails'),
     newSpaceDetails,
     spaceDetails_creationTime,
     spaceDetails_domainId,
@@ -3994,19 +3994,19 @@ module Amazonka.SageMaker.Types
     spaceDetails_status,
 
     -- * SpaceSettings
-    SpaceSettings,
+    SpaceSettings (SpaceSettings'),
     newSpaceSettings,
     spaceSettings_jupyterServerAppSettings,
     spaceSettings_kernelGatewayAppSettings,
 
     -- * StoppingCondition
-    StoppingCondition,
+    StoppingCondition (StoppingCondition'),
     newStoppingCondition,
     stoppingCondition_maxRuntimeInSeconds,
     stoppingCondition_maxWaitTimeInSeconds,
 
     -- * StudioLifecycleConfigDetails
-    StudioLifecycleConfigDetails,
+    StudioLifecycleConfigDetails (StudioLifecycleConfigDetails'),
     newStudioLifecycleConfigDetails,
     studioLifecycleConfigDetails_creationTime,
     studioLifecycleConfigDetails_lastModifiedTime,
@@ -4015,7 +4015,7 @@ module Amazonka.SageMaker.Types
     studioLifecycleConfigDetails_studioLifecycleConfigName,
 
     -- * SubscribedWorkteam
-    SubscribedWorkteam,
+    SubscribedWorkteam (SubscribedWorkteam'),
     newSubscribedWorkteam,
     subscribedWorkteam_listingId,
     subscribedWorkteam_marketplaceDescription,
@@ -4024,48 +4024,48 @@ module Amazonka.SageMaker.Types
     subscribedWorkteam_workteamArn,
 
     -- * SuggestionQuery
-    SuggestionQuery,
+    SuggestionQuery (SuggestionQuery'),
     newSuggestionQuery,
     suggestionQuery_propertyNameQuery,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
 
     -- * TargetPlatform
-    TargetPlatform,
+    TargetPlatform (TargetPlatform'),
     newTargetPlatform,
     targetPlatform_accelerator,
     targetPlatform_os,
     targetPlatform_arch,
 
     -- * TensorBoardAppSettings
-    TensorBoardAppSettings,
+    TensorBoardAppSettings (TensorBoardAppSettings'),
     newTensorBoardAppSettings,
     tensorBoardAppSettings_defaultResourceSpec,
 
     -- * TensorBoardOutputConfig
-    TensorBoardOutputConfig,
+    TensorBoardOutputConfig (TensorBoardOutputConfig'),
     newTensorBoardOutputConfig,
     tensorBoardOutputConfig_localPath,
     tensorBoardOutputConfig_s3OutputPath,
 
     -- * TimeSeriesForecastingSettings
-    TimeSeriesForecastingSettings,
+    TimeSeriesForecastingSettings (TimeSeriesForecastingSettings'),
     newTimeSeriesForecastingSettings,
     timeSeriesForecastingSettings_amazonForecastRoleArn,
     timeSeriesForecastingSettings_status,
 
     -- * TrafficPattern
-    TrafficPattern,
+    TrafficPattern (TrafficPattern'),
     newTrafficPattern,
     trafficPattern_phases,
     trafficPattern_trafficType,
 
     -- * TrafficRoutingConfig
-    TrafficRoutingConfig,
+    TrafficRoutingConfig (TrafficRoutingConfig'),
     newTrafficRoutingConfig,
     trafficRoutingConfig_canarySize,
     trafficRoutingConfig_linearStepSize,
@@ -4073,7 +4073,7 @@ module Amazonka.SageMaker.Types
     trafficRoutingConfig_waitIntervalInSeconds,
 
     -- * TrainingJob
-    TrainingJob,
+    TrainingJob (TrainingJob'),
     newTrainingJob,
     trainingJob_algorithmSpecification,
     trainingJob_autoMLJobArn,
@@ -4114,7 +4114,7 @@ module Amazonka.SageMaker.Types
     trainingJob_vpcConfig,
 
     -- * TrainingJobDefinition
-    TrainingJobDefinition,
+    TrainingJobDefinition (TrainingJobDefinition'),
     newTrainingJobDefinition,
     trainingJobDefinition_hyperParameters,
     trainingJobDefinition_trainingInputMode,
@@ -4124,7 +4124,7 @@ module Amazonka.SageMaker.Types
     trainingJobDefinition_stoppingCondition,
 
     -- * TrainingJobStatusCounters
-    TrainingJobStatusCounters,
+    TrainingJobStatusCounters (TrainingJobStatusCounters'),
     newTrainingJobStatusCounters,
     trainingJobStatusCounters_completed,
     trainingJobStatusCounters_inProgress,
@@ -4133,12 +4133,12 @@ module Amazonka.SageMaker.Types
     trainingJobStatusCounters_stopped,
 
     -- * TrainingJobStepMetadata
-    TrainingJobStepMetadata,
+    TrainingJobStepMetadata (TrainingJobStepMetadata'),
     newTrainingJobStepMetadata,
     trainingJobStepMetadata_arn,
 
     -- * TrainingJobSummary
-    TrainingJobSummary,
+    TrainingJobSummary (TrainingJobSummary'),
     newTrainingJobSummary,
     trainingJobSummary_lastModifiedTime,
     trainingJobSummary_trainingEndTime,
@@ -4149,7 +4149,7 @@ module Amazonka.SageMaker.Types
     trainingJobSummary_trainingJobStatus,
 
     -- * TrainingSpecification
-    TrainingSpecification,
+    TrainingSpecification (TrainingSpecification'),
     newTrainingSpecification,
     trainingSpecification_metricDefinitions,
     trainingSpecification_supportedHyperParameters,
@@ -4161,12 +4161,12 @@ module Amazonka.SageMaker.Types
     trainingSpecification_trainingChannels,
 
     -- * TransformDataSource
-    TransformDataSource,
+    TransformDataSource (TransformDataSource'),
     newTransformDataSource,
     transformDataSource_s3DataSource,
 
     -- * TransformInput
-    TransformInput,
+    TransformInput (TransformInput'),
     newTransformInput,
     transformInput_compressionType,
     transformInput_contentType,
@@ -4174,7 +4174,7 @@ module Amazonka.SageMaker.Types
     transformInput_dataSource,
 
     -- * TransformJob
-    TransformJob,
+    TransformJob (TransformJob'),
     newTransformJob,
     transformJob_autoMLJobArn,
     transformJob_batchStrategy,
@@ -4199,7 +4199,7 @@ module Amazonka.SageMaker.Types
     transformJob_transformStartTime,
 
     -- * TransformJobDefinition
-    TransformJobDefinition,
+    TransformJobDefinition (TransformJobDefinition'),
     newTransformJobDefinition,
     transformJobDefinition_batchStrategy,
     transformJobDefinition_environment,
@@ -4210,12 +4210,12 @@ module Amazonka.SageMaker.Types
     transformJobDefinition_transformResources,
 
     -- * TransformJobStepMetadata
-    TransformJobStepMetadata,
+    TransformJobStepMetadata (TransformJobStepMetadata'),
     newTransformJobStepMetadata,
     transformJobStepMetadata_arn,
 
     -- * TransformJobSummary
-    TransformJobSummary,
+    TransformJobSummary (TransformJobSummary'),
     newTransformJobSummary,
     transformJobSummary_failureReason,
     transformJobSummary_lastModifiedTime,
@@ -4226,7 +4226,7 @@ module Amazonka.SageMaker.Types
     transformJobSummary_transformJobStatus,
 
     -- * TransformOutput
-    TransformOutput,
+    TransformOutput (TransformOutput'),
     newTransformOutput,
     transformOutput_accept,
     transformOutput_assembleWith,
@@ -4234,20 +4234,20 @@ module Amazonka.SageMaker.Types
     transformOutput_s3OutputPath,
 
     -- * TransformResources
-    TransformResources,
+    TransformResources (TransformResources'),
     newTransformResources,
     transformResources_volumeKmsKeyId,
     transformResources_instanceType,
     transformResources_instanceCount,
 
     -- * TransformS3DataSource
-    TransformS3DataSource,
+    TransformS3DataSource (TransformS3DataSource'),
     newTransformS3DataSource,
     transformS3DataSource_s3DataType,
     transformS3DataSource_s3Uri,
 
     -- * Trial
-    Trial,
+    Trial (Trial'),
     newTrial,
     trial_createdBy,
     trial_creationTime,
@@ -4263,7 +4263,7 @@ module Amazonka.SageMaker.Types
     trial_trialName,
 
     -- * TrialComponent
-    TrialComponent,
+    TrialComponent (TrialComponent'),
     newTrialComponent,
     trialComponent_createdBy,
     trialComponent_creationTime,
@@ -4288,13 +4288,13 @@ module Amazonka.SageMaker.Types
     trialComponent_trialComponentName,
 
     -- * TrialComponentArtifact
-    TrialComponentArtifact,
+    TrialComponentArtifact (TrialComponentArtifact'),
     newTrialComponentArtifact,
     trialComponentArtifact_mediaType,
     trialComponentArtifact_value,
 
     -- * TrialComponentMetricSummary
-    TrialComponentMetricSummary,
+    TrialComponentMetricSummary (TrialComponentMetricSummary'),
     newTrialComponentMetricSummary,
     trialComponentMetricSummary_avg,
     trialComponentMetricSummary_count,
@@ -4307,13 +4307,13 @@ module Amazonka.SageMaker.Types
     trialComponentMetricSummary_timeStamp,
 
     -- * TrialComponentParameterValue
-    TrialComponentParameterValue,
+    TrialComponentParameterValue (TrialComponentParameterValue'),
     newTrialComponentParameterValue,
     trialComponentParameterValue_numberValue,
     trialComponentParameterValue_stringValue,
 
     -- * TrialComponentSimpleSummary
-    TrialComponentSimpleSummary,
+    TrialComponentSimpleSummary (TrialComponentSimpleSummary'),
     newTrialComponentSimpleSummary,
     trialComponentSimpleSummary_createdBy,
     trialComponentSimpleSummary_creationTime,
@@ -4322,13 +4322,13 @@ module Amazonka.SageMaker.Types
     trialComponentSimpleSummary_trialComponentSource,
 
     -- * TrialComponentSource
-    TrialComponentSource,
+    TrialComponentSource (TrialComponentSource'),
     newTrialComponentSource,
     trialComponentSource_sourceType,
     trialComponentSource_sourceArn,
 
     -- * TrialComponentSourceDetail
-    TrialComponentSourceDetail,
+    TrialComponentSourceDetail (TrialComponentSourceDetail'),
     newTrialComponentSourceDetail,
     trialComponentSourceDetail_processingJob,
     trialComponentSourceDetail_sourceArn,
@@ -4336,13 +4336,13 @@ module Amazonka.SageMaker.Types
     trialComponentSourceDetail_transformJob,
 
     -- * TrialComponentStatus
-    TrialComponentStatus,
+    TrialComponentStatus (TrialComponentStatus'),
     newTrialComponentStatus,
     trialComponentStatus_message,
     trialComponentStatus_primaryStatus,
 
     -- * TrialComponentSummary
-    TrialComponentSummary,
+    TrialComponentSummary (TrialComponentSummary'),
     newTrialComponentSummary,
     trialComponentSummary_createdBy,
     trialComponentSummary_creationTime,
@@ -4357,13 +4357,13 @@ module Amazonka.SageMaker.Types
     trialComponentSummary_trialComponentSource,
 
     -- * TrialSource
-    TrialSource,
+    TrialSource (TrialSource'),
     newTrialSource,
     trialSource_sourceType,
     trialSource_sourceArn,
 
     -- * TrialSummary
-    TrialSummary,
+    TrialSummary (TrialSummary'),
     newTrialSummary,
     trialSummary_creationTime,
     trialSummary_displayName,
@@ -4373,48 +4373,48 @@ module Amazonka.SageMaker.Types
     trialSummary_trialSource,
 
     -- * TuningJobCompletionCriteria
-    TuningJobCompletionCriteria,
+    TuningJobCompletionCriteria (TuningJobCompletionCriteria'),
     newTuningJobCompletionCriteria,
     tuningJobCompletionCriteria_targetObjectiveMetricValue,
 
     -- * TuningJobStepMetaData
-    TuningJobStepMetaData,
+    TuningJobStepMetaData (TuningJobStepMetaData'),
     newTuningJobStepMetaData,
     tuningJobStepMetaData_arn,
 
     -- * USD
-    USD,
+    USD (USD'),
     newUSD,
     usd_cents,
     usd_dollars,
     usd_tenthFractionsOfACent,
 
     -- * UiConfig
-    UiConfig,
+    UiConfig (UiConfig'),
     newUiConfig,
     uiConfig_humanTaskUiArn,
     uiConfig_uiTemplateS3Uri,
 
     -- * UiTemplate
-    UiTemplate,
+    UiTemplate (UiTemplate'),
     newUiTemplate,
     uiTemplate_content,
 
     -- * UiTemplateInfo
-    UiTemplateInfo,
+    UiTemplateInfo (UiTemplateInfo'),
     newUiTemplateInfo,
     uiTemplateInfo_contentSha256,
     uiTemplateInfo_url,
 
     -- * UserContext
-    UserContext,
+    UserContext (UserContext'),
     newUserContext,
     userContext_domainId,
     userContext_userProfileArn,
     userContext_userProfileName,
 
     -- * UserProfileDetails
-    UserProfileDetails,
+    UserProfileDetails (UserProfileDetails'),
     newUserProfileDetails,
     userProfileDetails_creationTime,
     userProfileDetails_domainId,
@@ -4423,7 +4423,7 @@ module Amazonka.SageMaker.Types
     userProfileDetails_userProfileName,
 
     -- * UserSettings
-    UserSettings,
+    UserSettings (UserSettings'),
     newUserSettings,
     userSettings_canvasAppSettings,
     userSettings_executionRole,
@@ -4436,32 +4436,32 @@ module Amazonka.SageMaker.Types
     userSettings_tensorBoardAppSettings,
 
     -- * VariantProperty
-    VariantProperty,
+    VariantProperty (VariantProperty'),
     newVariantProperty,
     variantProperty_variantPropertyType,
 
     -- * Vertex
-    Vertex,
+    Vertex (Vertex'),
     newVertex,
     vertex_arn,
     vertex_lineageType,
     vertex_type,
 
     -- * VpcConfig
-    VpcConfig,
+    VpcConfig (VpcConfig'),
     newVpcConfig,
     vpcConfig_securityGroupIds,
     vpcConfig_subnets,
 
     -- * WarmPoolStatus
-    WarmPoolStatus,
+    WarmPoolStatus (WarmPoolStatus'),
     newWarmPoolStatus,
     warmPoolStatus_resourceRetainedBillableTimeInSeconds,
     warmPoolStatus_reusedByJob,
     warmPoolStatus_status,
 
     -- * Workforce
-    Workforce,
+    Workforce (Workforce'),
     newWorkforce,
     workforce_cognitoConfig,
     workforce_createDate,
@@ -4476,14 +4476,14 @@ module Amazonka.SageMaker.Types
     workforce_workforceArn,
 
     -- * WorkforceVpcConfigRequest
-    WorkforceVpcConfigRequest,
+    WorkforceVpcConfigRequest (WorkforceVpcConfigRequest'),
     newWorkforceVpcConfigRequest,
     workforceVpcConfigRequest_securityGroupIds,
     workforceVpcConfigRequest_subnets,
     workforceVpcConfigRequest_vpcId,
 
     -- * WorkforceVpcConfigResponse
-    WorkforceVpcConfigResponse,
+    WorkforceVpcConfigResponse (WorkforceVpcConfigResponse'),
     newWorkforceVpcConfigResponse,
     workforceVpcConfigResponse_vpcEndpointId,
     workforceVpcConfigResponse_vpcId,
@@ -4491,7 +4491,7 @@ module Amazonka.SageMaker.Types
     workforceVpcConfigResponse_subnets,
 
     -- * Workteam
-    Workteam,
+    Workteam (Workteam'),
     newWorkteam,
     workteam_createDate,
     workteam_lastUpdatedDate,

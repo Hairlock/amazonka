@@ -28,24 +28,24 @@ module Amazonka.LicenseManagerUserSubscriptions.Types
     _ValidationException,
 
     -- * ActiveDirectoryIdentityProvider
-    ActiveDirectoryIdentityProvider,
+    ActiveDirectoryIdentityProvider (ActiveDirectoryIdentityProvider'),
     newActiveDirectoryIdentityProvider,
     activeDirectoryIdentityProvider_directoryId,
 
     -- * Filter
-    Filter,
+    Filter (Filter'),
     newFilter,
     filter_attribute,
     filter_operation,
     filter_value,
 
     -- * IdentityProvider
-    IdentityProvider,
+    IdentityProvider (IdentityProvider'),
     newIdentityProvider,
     identityProvider_activeDirectoryIdentityProvider,
 
     -- * IdentityProviderSummary
-    IdentityProviderSummary,
+    IdentityProviderSummary (IdentityProviderSummary'),
     newIdentityProviderSummary,
     identityProviderSummary_failureMessage,
     identityProviderSummary_identityProvider,
@@ -54,7 +54,7 @@ module Amazonka.LicenseManagerUserSubscriptions.Types
     identityProviderSummary_status,
 
     -- * InstanceSummary
-    InstanceSummary,
+    InstanceSummary (InstanceSummary'),
     newInstanceSummary,
     instanceSummary_lastStatusCheckDate,
     instanceSummary_statusMessage,
@@ -63,7 +63,7 @@ module Amazonka.LicenseManagerUserSubscriptions.Types
     instanceSummary_status,
 
     -- * InstanceUserSummary
-    InstanceUserSummary,
+    InstanceUserSummary (InstanceUserSummary'),
     newInstanceUserSummary,
     instanceUserSummary_associationDate,
     instanceUserSummary_disassociationDate,
@@ -75,7 +75,7 @@ module Amazonka.LicenseManagerUserSubscriptions.Types
     instanceUserSummary_username,
 
     -- * ProductUserSummary
-    ProductUserSummary,
+    ProductUserSummary (ProductUserSummary'),
     newProductUserSummary,
     productUserSummary_domain,
     productUserSummary_statusMessage,
@@ -87,13 +87,13 @@ module Amazonka.LicenseManagerUserSubscriptions.Types
     productUserSummary_username,
 
     -- * Settings
-    Settings,
+    Settings (Settings'),
     newSettings,
     settings_securityGroupId,
     settings_subnets,
 
     -- * UpdateSettings
-    UpdateSettings,
+    UpdateSettings (UpdateSettings'),
     newUpdateSettings,
     updateSettings_securityGroupId,
     updateSettings_addSubnets,

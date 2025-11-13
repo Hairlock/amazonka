@@ -28,160 +28,160 @@ module Amazonka.SageMakerGeoSpatial.Types
     _ValidationException,
 
     -- * AlgorithmNameCloudRemoval
-    AlgorithmNameCloudRemoval,
+    AlgorithmNameCloudRemoval (AlgorithmNameCloudRemoval'),
 
     -- * AlgorithmNameGeoMosaic
-    AlgorithmNameGeoMosaic,
+    AlgorithmNameGeoMosaic (AlgorithmNameGeoMosaic'),
 
     -- * AlgorithmNameResampling
-    AlgorithmNameResampling,
+    AlgorithmNameResampling (AlgorithmNameResampling'),
 
     -- * ComparisonOperator
-    ComparisonOperator,
+    ComparisonOperator (ComparisonOperator'),
 
     -- * DataCollectionType
-    DataCollectionType,
+    DataCollectionType (DataCollectionType'),
 
     -- * EarthObservationJobErrorType
-    EarthObservationJobErrorType,
+    EarthObservationJobErrorType (EarthObservationJobErrorType'),
 
     -- * EarthObservationJobExportStatus
-    EarthObservationJobExportStatus,
+    EarthObservationJobExportStatus (EarthObservationJobExportStatus'),
 
     -- * EarthObservationJobStatus
-    EarthObservationJobStatus,
+    EarthObservationJobStatus (EarthObservationJobStatus'),
 
     -- * ExportErrorType
-    ExportErrorType,
+    ExportErrorType (ExportErrorType'),
 
     -- * GroupBy
-    GroupBy,
+    GroupBy (GroupBy'),
 
     -- * LogicalOperator
-    LogicalOperator,
+    LogicalOperator (LogicalOperator'),
 
     -- * MetadataProvider
-    MetadataProvider,
+    MetadataProvider (MetadataProvider'),
 
     -- * OutputType
-    OutputType,
+    OutputType (OutputType'),
 
     -- * PredefinedResolution
-    PredefinedResolution,
+    PredefinedResolution (PredefinedResolution'),
 
     -- * SortOrder
-    SortOrder,
+    SortOrder (SortOrder'),
 
     -- * TargetOptions
-    TargetOptions,
+    TargetOptions (TargetOptions'),
 
     -- * TemporalStatistics
-    TemporalStatistics,
+    TemporalStatistics (TemporalStatistics'),
 
     -- * Unit
-    Unit,
+    Unit (Unit'),
 
     -- * VectorEnrichmentJobDocumentType
-    VectorEnrichmentJobDocumentType,
+    VectorEnrichmentJobDocumentType (VectorEnrichmentJobDocumentType'),
 
     -- * VectorEnrichmentJobErrorType
-    VectorEnrichmentJobErrorType,
+    VectorEnrichmentJobErrorType (VectorEnrichmentJobErrorType'),
 
     -- * VectorEnrichmentJobExportErrorType
-    VectorEnrichmentJobExportErrorType,
+    VectorEnrichmentJobExportErrorType (VectorEnrichmentJobExportErrorType'),
 
     -- * VectorEnrichmentJobExportStatus
-    VectorEnrichmentJobExportStatus,
+    VectorEnrichmentJobExportStatus (VectorEnrichmentJobExportStatus'),
 
     -- * VectorEnrichmentJobStatus
-    VectorEnrichmentJobStatus,
+    VectorEnrichmentJobStatus (VectorEnrichmentJobStatus'),
 
     -- * VectorEnrichmentJobType
-    VectorEnrichmentJobType,
+    VectorEnrichmentJobType (VectorEnrichmentJobType'),
 
     -- * ZonalStatistics
-    ZonalStatistics,
+    ZonalStatistics (ZonalStatistics'),
 
     -- * AreaOfInterest
-    AreaOfInterest,
+    AreaOfInterest (AreaOfInterest'),
     newAreaOfInterest,
     areaOfInterest_areaOfInterestGeometry,
 
     -- * AreaOfInterestGeometry
-    AreaOfInterestGeometry,
+    AreaOfInterestGeometry (AreaOfInterestGeometry'),
     newAreaOfInterestGeometry,
     areaOfInterestGeometry_multiPolygonGeometry,
     areaOfInterestGeometry_polygonGeometry,
 
     -- * AssetValue
-    AssetValue,
+    AssetValue (AssetValue'),
     newAssetValue,
     assetValue_href,
 
     -- * BandMathConfigInput
-    BandMathConfigInput,
+    BandMathConfigInput (BandMathConfigInput'),
     newBandMathConfigInput,
     bandMathConfigInput_customIndices,
     bandMathConfigInput_predefinedIndices,
 
     -- * CloudMaskingConfigInput
-    CloudMaskingConfigInput,
+    CloudMaskingConfigInput (CloudMaskingConfigInput'),
     newCloudMaskingConfigInput,
 
     -- * CloudRemovalConfigInput
-    CloudRemovalConfigInput,
+    CloudRemovalConfigInput (CloudRemovalConfigInput'),
     newCloudRemovalConfigInput,
     cloudRemovalConfigInput_algorithmName,
     cloudRemovalConfigInput_interpolationValue,
     cloudRemovalConfigInput_targetBands,
 
     -- * CustomIndicesInput
-    CustomIndicesInput,
+    CustomIndicesInput (CustomIndicesInput'),
     newCustomIndicesInput,
     customIndicesInput_operations,
 
     -- * EarthObservationJobErrorDetails
-    EarthObservationJobErrorDetails,
+    EarthObservationJobErrorDetails (EarthObservationJobErrorDetails'),
     newEarthObservationJobErrorDetails,
     earthObservationJobErrorDetails_message,
     earthObservationJobErrorDetails_type,
 
     -- * EoCloudCoverInput
-    EoCloudCoverInput,
+    EoCloudCoverInput (EoCloudCoverInput'),
     newEoCloudCoverInput,
     eoCloudCoverInput_lowerBound,
     eoCloudCoverInput_upperBound,
 
     -- * EojDataSourceConfigInput
-    EojDataSourceConfigInput,
+    EojDataSourceConfigInput (EojDataSourceConfigInput'),
     newEojDataSourceConfigInput,
     eojDataSourceConfigInput_s3Data,
 
     -- * ExportErrorDetails
-    ExportErrorDetails,
+    ExportErrorDetails (ExportErrorDetails'),
     newExportErrorDetails,
     exportErrorDetails_exportResults,
     exportErrorDetails_exportSourceImages,
 
     -- * ExportErrorDetailsOutput
-    ExportErrorDetailsOutput,
+    ExportErrorDetailsOutput (ExportErrorDetailsOutput'),
     newExportErrorDetailsOutput,
     exportErrorDetailsOutput_message,
     exportErrorDetailsOutput_type,
 
     -- * ExportS3DataInput
-    ExportS3DataInput,
+    ExportS3DataInput (ExportS3DataInput'),
     newExportS3DataInput,
     exportS3DataInput_kmsKeyId,
     exportS3DataInput_s3Uri,
 
     -- * ExportVectorEnrichmentJobOutputConfig
-    ExportVectorEnrichmentJobOutputConfig,
+    ExportVectorEnrichmentJobOutputConfig (ExportVectorEnrichmentJobOutputConfig'),
     newExportVectorEnrichmentJobOutputConfig,
     exportVectorEnrichmentJobOutputConfig_s3Data,
 
     -- * Filter
-    Filter,
+    Filter (Filter'),
     newFilter,
     filter_maximum,
     filter_minimum,
@@ -189,33 +189,33 @@ module Amazonka.SageMakerGeoSpatial.Types
     filter_type,
 
     -- * GeoMosaicConfigInput
-    GeoMosaicConfigInput,
+    GeoMosaicConfigInput (GeoMosaicConfigInput'),
     newGeoMosaicConfigInput,
     geoMosaicConfigInput_algorithmName,
     geoMosaicConfigInput_targetBands,
 
     -- * Geometry
-    Geometry,
+    Geometry (Geometry'),
     newGeometry,
     geometry_coordinates,
     geometry_type,
 
     -- * InputConfigInput
-    InputConfigInput,
+    InputConfigInput (InputConfigInput'),
     newInputConfigInput,
     inputConfigInput_dataSourceConfig,
     inputConfigInput_previousEarthObservationJobArn,
     inputConfigInput_rasterDataCollectionQuery,
 
     -- * InputConfigOutput
-    InputConfigOutput,
+    InputConfigOutput (InputConfigOutput'),
     newInputConfigOutput,
     inputConfigOutput_dataSourceConfig,
     inputConfigOutput_previousEarthObservationJobArn,
     inputConfigOutput_rasterDataCollectionQuery,
 
     -- * ItemSource
-    ItemSource,
+    ItemSource (ItemSource'),
     newItemSource,
     itemSource_assets,
     itemSource_properties,
@@ -224,7 +224,7 @@ module Amazonka.SageMakerGeoSpatial.Types
     itemSource_id,
 
     -- * JobConfigInput
-    JobConfigInput,
+    JobConfigInput (JobConfigInput'),
     newJobConfigInput,
     jobConfigInput_bandMathConfig,
     jobConfigInput_cloudMaskingConfig,
@@ -237,17 +237,17 @@ module Amazonka.SageMakerGeoSpatial.Types
     jobConfigInput_zonalStatisticsConfig,
 
     -- * LandCoverSegmentationConfigInput
-    LandCoverSegmentationConfigInput,
+    LandCoverSegmentationConfigInput (LandCoverSegmentationConfigInput'),
     newLandCoverSegmentationConfigInput,
 
     -- * LandsatCloudCoverLandInput
-    LandsatCloudCoverLandInput,
+    LandsatCloudCoverLandInput (LandsatCloudCoverLandInput'),
     newLandsatCloudCoverLandInput,
     landsatCloudCoverLandInput_lowerBound,
     landsatCloudCoverLandInput_upperBound,
 
     -- * ListEarthObservationJobOutputConfig
-    ListEarthObservationJobOutputConfig,
+    ListEarthObservationJobOutputConfig (ListEarthObservationJobOutputConfig'),
     newListEarthObservationJobOutputConfig,
     listEarthObservationJobOutputConfig_tags,
     listEarthObservationJobOutputConfig_arn,
@@ -258,7 +258,7 @@ module Amazonka.SageMakerGeoSpatial.Types
     listEarthObservationJobOutputConfig_status,
 
     -- * ListVectorEnrichmentJobOutputConfig
-    ListVectorEnrichmentJobOutputConfig,
+    ListVectorEnrichmentJobOutputConfig (ListVectorEnrichmentJobOutputConfig'),
     newListVectorEnrichmentJobOutputConfig,
     listVectorEnrichmentJobOutputConfig_tags,
     listVectorEnrichmentJobOutputConfig_arn,
@@ -269,7 +269,7 @@ module Amazonka.SageMakerGeoSpatial.Types
     listVectorEnrichmentJobOutputConfig_type,
 
     -- * MapMatchingConfig
-    MapMatchingConfig,
+    MapMatchingConfig (MapMatchingConfig'),
     newMapMatchingConfig,
     mapMatchingConfig_idAttributeName,
     mapMatchingConfig_timestampAttributeName,
@@ -277,52 +277,52 @@ module Amazonka.SageMakerGeoSpatial.Types
     mapMatchingConfig_yAttributeName,
 
     -- * MultiPolygonGeometryInput
-    MultiPolygonGeometryInput,
+    MultiPolygonGeometryInput (MultiPolygonGeometryInput'),
     newMultiPolygonGeometryInput,
     multiPolygonGeometryInput_coordinates,
 
     -- * Operation
-    Operation,
+    Operation (Operation'),
     newOperation,
     operation_outputType,
     operation_equation,
     operation_name,
 
     -- * OutputBand
-    OutputBand,
+    OutputBand (OutputBand'),
     newOutputBand,
     outputBand_bandName,
     outputBand_outputDataType,
 
     -- * OutputConfigInput
-    OutputConfigInput,
+    OutputConfigInput (OutputConfigInput'),
     newOutputConfigInput,
     outputConfigInput_s3Data,
 
     -- * OutputResolutionResamplingInput
-    OutputResolutionResamplingInput,
+    OutputResolutionResamplingInput (OutputResolutionResamplingInput'),
     newOutputResolutionResamplingInput,
     outputResolutionResamplingInput_userDefined,
 
     -- * OutputResolutionStackInput
-    OutputResolutionStackInput,
+    OutputResolutionStackInput (OutputResolutionStackInput'),
     newOutputResolutionStackInput,
     outputResolutionStackInput_predefined,
     outputResolutionStackInput_userDefined,
 
     -- * PlatformInput
-    PlatformInput,
+    PlatformInput (PlatformInput'),
     newPlatformInput,
     platformInput_comparisonOperator,
     platformInput_value,
 
     -- * PolygonGeometryInput
-    PolygonGeometryInput,
+    PolygonGeometryInput (PolygonGeometryInput'),
     newPolygonGeometryInput,
     polygonGeometryInput_coordinates,
 
     -- * Properties
-    Properties,
+    Properties (Properties'),
     newProperties,
     properties_eoCloudCover,
     properties_landsatCloudCoverLand,
@@ -332,7 +332,7 @@ module Amazonka.SageMakerGeoSpatial.Types
     properties_viewSunElevation,
 
     -- * Property
-    Property,
+    Property (Property'),
     newProperty,
     property_eoCloudCover,
     property_landsatCloudCoverLand,
@@ -342,18 +342,18 @@ module Amazonka.SageMakerGeoSpatial.Types
     property_viewSunElevation,
 
     -- * PropertyFilter
-    PropertyFilter,
+    PropertyFilter (PropertyFilter'),
     newPropertyFilter,
     propertyFilter_property,
 
     -- * PropertyFilters
-    PropertyFilters,
+    PropertyFilters (PropertyFilters'),
     newPropertyFilters,
     propertyFilters_logicalOperator,
     propertyFilters_properties,
 
     -- * RasterDataCollectionMetadata
-    RasterDataCollectionMetadata,
+    RasterDataCollectionMetadata (RasterDataCollectionMetadata'),
     newRasterDataCollectionMetadata,
     rasterDataCollectionMetadata_descriptionPageUrl,
     rasterDataCollectionMetadata_tags,
@@ -364,7 +364,7 @@ module Amazonka.SageMakerGeoSpatial.Types
     rasterDataCollectionMetadata_type,
 
     -- * RasterDataCollectionQueryInput
-    RasterDataCollectionQueryInput,
+    RasterDataCollectionQueryInput (RasterDataCollectionQueryInput'),
     newRasterDataCollectionQueryInput,
     rasterDataCollectionQueryInput_areaOfInterest,
     rasterDataCollectionQueryInput_propertyFilters,
@@ -372,7 +372,7 @@ module Amazonka.SageMakerGeoSpatial.Types
     rasterDataCollectionQueryInput_timeRangeFilter,
 
     -- * RasterDataCollectionQueryOutput
-    RasterDataCollectionQueryOutput,
+    RasterDataCollectionQueryOutput (RasterDataCollectionQueryOutput'),
     newRasterDataCollectionQueryOutput,
     rasterDataCollectionQueryOutput_areaOfInterest,
     rasterDataCollectionQueryOutput_propertyFilters,
@@ -381,7 +381,7 @@ module Amazonka.SageMakerGeoSpatial.Types
     rasterDataCollectionQueryOutput_timeRangeFilter,
 
     -- * RasterDataCollectionQueryWithBandFilterInput
-    RasterDataCollectionQueryWithBandFilterInput,
+    RasterDataCollectionQueryWithBandFilterInput (RasterDataCollectionQueryWithBandFilterInput'),
     newRasterDataCollectionQueryWithBandFilterInput,
     rasterDataCollectionQueryWithBandFilterInput_areaOfInterest,
     rasterDataCollectionQueryWithBandFilterInput_bandFilter,
@@ -389,105 +389,105 @@ module Amazonka.SageMakerGeoSpatial.Types
     rasterDataCollectionQueryWithBandFilterInput_timeRangeFilter,
 
     -- * ResamplingConfigInput
-    ResamplingConfigInput,
+    ResamplingConfigInput (ResamplingConfigInput'),
     newResamplingConfigInput,
     resamplingConfigInput_algorithmName,
     resamplingConfigInput_targetBands,
     resamplingConfigInput_outputResolution,
 
     -- * ReverseGeocodingConfig
-    ReverseGeocodingConfig,
+    ReverseGeocodingConfig (ReverseGeocodingConfig'),
     newReverseGeocodingConfig,
     reverseGeocodingConfig_xAttributeName,
     reverseGeocodingConfig_yAttributeName,
 
     -- * S3DataInput
-    S3DataInput,
+    S3DataInput (S3DataInput'),
     newS3DataInput,
     s3DataInput_kmsKeyId,
     s3DataInput_metadataProvider,
     s3DataInput_s3Uri,
 
     -- * StackConfigInput
-    StackConfigInput,
+    StackConfigInput (StackConfigInput'),
     newStackConfigInput,
     stackConfigInput_outputResolution,
     stackConfigInput_targetBands,
 
     -- * TemporalStatisticsConfigInput
-    TemporalStatisticsConfigInput,
+    TemporalStatisticsConfigInput (TemporalStatisticsConfigInput'),
     newTemporalStatisticsConfigInput,
     temporalStatisticsConfigInput_groupBy,
     temporalStatisticsConfigInput_targetBands,
     temporalStatisticsConfigInput_statistics,
 
     -- * TimeRangeFilterInput
-    TimeRangeFilterInput,
+    TimeRangeFilterInput (TimeRangeFilterInput'),
     newTimeRangeFilterInput,
     timeRangeFilterInput_endTime,
     timeRangeFilterInput_startTime,
 
     -- * UserDefined
-    UserDefined,
+    UserDefined (UserDefined'),
     newUserDefined,
     userDefined_unit,
     userDefined_value,
 
     -- * VectorEnrichmentJobConfig
-    VectorEnrichmentJobConfig,
+    VectorEnrichmentJobConfig (VectorEnrichmentJobConfig'),
     newVectorEnrichmentJobConfig,
     vectorEnrichmentJobConfig_mapMatchingConfig,
     vectorEnrichmentJobConfig_reverseGeocodingConfig,
 
     -- * VectorEnrichmentJobDataSourceConfigInput
-    VectorEnrichmentJobDataSourceConfigInput,
+    VectorEnrichmentJobDataSourceConfigInput (VectorEnrichmentJobDataSourceConfigInput'),
     newVectorEnrichmentJobDataSourceConfigInput,
     vectorEnrichmentJobDataSourceConfigInput_s3Data,
 
     -- * VectorEnrichmentJobErrorDetails
-    VectorEnrichmentJobErrorDetails,
+    VectorEnrichmentJobErrorDetails (VectorEnrichmentJobErrorDetails'),
     newVectorEnrichmentJobErrorDetails,
     vectorEnrichmentJobErrorDetails_errorMessage,
     vectorEnrichmentJobErrorDetails_errorType,
 
     -- * VectorEnrichmentJobExportErrorDetails
-    VectorEnrichmentJobExportErrorDetails,
+    VectorEnrichmentJobExportErrorDetails (VectorEnrichmentJobExportErrorDetails'),
     newVectorEnrichmentJobExportErrorDetails,
     vectorEnrichmentJobExportErrorDetails_message,
     vectorEnrichmentJobExportErrorDetails_type,
 
     -- * VectorEnrichmentJobInputConfig
-    VectorEnrichmentJobInputConfig,
+    VectorEnrichmentJobInputConfig (VectorEnrichmentJobInputConfig'),
     newVectorEnrichmentJobInputConfig,
     vectorEnrichmentJobInputConfig_dataSourceConfig,
     vectorEnrichmentJobInputConfig_documentType,
 
     -- * VectorEnrichmentJobS3Data
-    VectorEnrichmentJobS3Data,
+    VectorEnrichmentJobS3Data (VectorEnrichmentJobS3Data'),
     newVectorEnrichmentJobS3Data,
     vectorEnrichmentJobS3Data_kmsKeyId,
     vectorEnrichmentJobS3Data_s3Uri,
 
     -- * ViewOffNadirInput
-    ViewOffNadirInput,
+    ViewOffNadirInput (ViewOffNadirInput'),
     newViewOffNadirInput,
     viewOffNadirInput_lowerBound,
     viewOffNadirInput_upperBound,
 
     -- * ViewSunAzimuthInput
-    ViewSunAzimuthInput,
+    ViewSunAzimuthInput (ViewSunAzimuthInput'),
     newViewSunAzimuthInput,
     viewSunAzimuthInput_lowerBound,
     viewSunAzimuthInput_upperBound,
 
     -- * ViewSunElevationInput
-    ViewSunElevationInput,
+    ViewSunElevationInput (ViewSunElevationInput'),
     newViewSunElevationInput,
     viewSunElevationInput_lowerBound,
     viewSunElevationInput_upperBound,
 
     -- * ZonalStatisticsConfigInput
-    ZonalStatisticsConfigInput,
+    ZonalStatisticsConfigInput (ZonalStatisticsConfigInput'),
     newZonalStatisticsConfigInput,
     zonalStatisticsConfigInput_targetBands,
     zonalStatisticsConfigInput_statistics,

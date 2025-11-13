@@ -33,46 +33,46 @@ module Amazonka.ChimeSdkMeetings.Types
     _UnprocessableEntityException,
 
     -- * MediaCapabilities
-    MediaCapabilities,
+    MediaCapabilities (MediaCapabilities'),
 
     -- * MeetingFeatureStatus
-    MeetingFeatureStatus,
+    MeetingFeatureStatus (MeetingFeatureStatus'),
 
     -- * TranscribeContentIdentificationType
-    TranscribeContentIdentificationType,
+    TranscribeContentIdentificationType (TranscribeContentIdentificationType'),
 
     -- * TranscribeContentRedactionType
-    TranscribeContentRedactionType,
+    TranscribeContentRedactionType (TranscribeContentRedactionType'),
 
     -- * TranscribeLanguageCode
-    TranscribeLanguageCode,
+    TranscribeLanguageCode (TranscribeLanguageCode'),
 
     -- * TranscribeMedicalContentIdentificationType
-    TranscribeMedicalContentIdentificationType,
+    TranscribeMedicalContentIdentificationType (TranscribeMedicalContentIdentificationType'),
 
     -- * TranscribeMedicalLanguageCode
-    TranscribeMedicalLanguageCode,
+    TranscribeMedicalLanguageCode (TranscribeMedicalLanguageCode'),
 
     -- * TranscribeMedicalRegion
-    TranscribeMedicalRegion,
+    TranscribeMedicalRegion (TranscribeMedicalRegion'),
 
     -- * TranscribeMedicalSpecialty
-    TranscribeMedicalSpecialty,
+    TranscribeMedicalSpecialty (TranscribeMedicalSpecialty'),
 
     -- * TranscribeMedicalType
-    TranscribeMedicalType,
+    TranscribeMedicalType (TranscribeMedicalType'),
 
     -- * TranscribePartialResultsStability
-    TranscribePartialResultsStability,
+    TranscribePartialResultsStability (TranscribePartialResultsStability'),
 
     -- * TranscribeRegion
-    TranscribeRegion,
+    TranscribeRegion (TranscribeRegion'),
 
     -- * TranscribeVocabularyFilterMethod
-    TranscribeVocabularyFilterMethod,
+    TranscribeVocabularyFilterMethod (TranscribeVocabularyFilterMethod'),
 
     -- * Attendee
-    Attendee,
+    Attendee (Attendee'),
     newAttendee,
     attendee_attendeeId,
     attendee_capabilities,
@@ -80,37 +80,37 @@ module Amazonka.ChimeSdkMeetings.Types
     attendee_joinToken,
 
     -- * AttendeeCapabilities
-    AttendeeCapabilities,
+    AttendeeCapabilities (AttendeeCapabilities'),
     newAttendeeCapabilities,
     attendeeCapabilities_audio,
     attendeeCapabilities_video,
     attendeeCapabilities_content,
 
     -- * AttendeeIdItem
-    AttendeeIdItem,
+    AttendeeIdItem (AttendeeIdItem'),
     newAttendeeIdItem,
     attendeeIdItem_attendeeId,
 
     -- * AudioFeatures
-    AudioFeatures,
+    AudioFeatures (AudioFeatures'),
     newAudioFeatures,
     audioFeatures_echoReduction,
 
     -- * CreateAttendeeError
-    CreateAttendeeError,
+    CreateAttendeeError (CreateAttendeeError'),
     newCreateAttendeeError,
     createAttendeeError_errorCode,
     createAttendeeError_errorMessage,
     createAttendeeError_externalUserId,
 
     -- * CreateAttendeeRequestItem
-    CreateAttendeeRequestItem,
+    CreateAttendeeRequestItem (CreateAttendeeRequestItem'),
     newCreateAttendeeRequestItem,
     createAttendeeRequestItem_capabilities,
     createAttendeeRequestItem_externalUserId,
 
     -- * EngineTranscribeMedicalSettings
-    EngineTranscribeMedicalSettings,
+    EngineTranscribeMedicalSettings (EngineTranscribeMedicalSettings'),
     newEngineTranscribeMedicalSettings,
     engineTranscribeMedicalSettings_contentIdentificationType,
     engineTranscribeMedicalSettings_region,
@@ -120,7 +120,7 @@ module Amazonka.ChimeSdkMeetings.Types
     engineTranscribeMedicalSettings_type,
 
     -- * EngineTranscribeSettings
-    EngineTranscribeSettings,
+    EngineTranscribeSettings (EngineTranscribeSettings'),
     newEngineTranscribeSettings,
     engineTranscribeSettings_contentIdentificationType,
     engineTranscribeSettings_contentRedactionType,
@@ -138,7 +138,7 @@ module Amazonka.ChimeSdkMeetings.Types
     engineTranscribeSettings_vocabularyName,
 
     -- * MediaPlacement
-    MediaPlacement,
+    MediaPlacement (MediaPlacement'),
     newMediaPlacement,
     mediaPlacement_audioFallbackUrl,
     mediaPlacement_audioHostUrl,
@@ -150,7 +150,7 @@ module Amazonka.ChimeSdkMeetings.Types
     mediaPlacement_turnControlUrl,
 
     -- * Meeting
-    Meeting,
+    Meeting (Meeting'),
     newMeeting,
     meeting_externalMeetingId,
     meeting_mediaPlacement,
@@ -163,25 +163,25 @@ module Amazonka.ChimeSdkMeetings.Types
     meeting_tenantIds,
 
     -- * MeetingFeaturesConfiguration
-    MeetingFeaturesConfiguration,
+    MeetingFeaturesConfiguration (MeetingFeaturesConfiguration'),
     newMeetingFeaturesConfiguration,
     meetingFeaturesConfiguration_audio,
 
     -- * NotificationsConfiguration
-    NotificationsConfiguration,
+    NotificationsConfiguration (NotificationsConfiguration'),
     newNotificationsConfiguration,
     notificationsConfiguration_lambdaFunctionArn,
     notificationsConfiguration_snsTopicArn,
     notificationsConfiguration_sqsQueueArn,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
 
     -- * TranscriptionConfiguration
-    TranscriptionConfiguration,
+    TranscriptionConfiguration (TranscriptionConfiguration'),
     newTranscriptionConfiguration,
     transcriptionConfiguration_engineTranscribeMedicalSettings,
     transcriptionConfiguration_engineTranscribeSettings,

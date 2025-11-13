@@ -27,50 +27,50 @@ module Amazonka.Scheduler.Types
     _ValidationException,
 
     -- * AssignPublicIp
-    AssignPublicIp,
+    AssignPublicIp (AssignPublicIp'),
 
     -- * FlexibleTimeWindowMode
-    FlexibleTimeWindowMode,
+    FlexibleTimeWindowMode (FlexibleTimeWindowMode'),
 
     -- * LaunchType
-    LaunchType,
+    LaunchType (LaunchType'),
 
     -- * PlacementConstraintType
-    PlacementConstraintType,
+    PlacementConstraintType (PlacementConstraintType'),
 
     -- * PlacementStrategyType
-    PlacementStrategyType,
+    PlacementStrategyType (PlacementStrategyType'),
 
     -- * PropagateTags
-    PropagateTags,
+    PropagateTags (PropagateTags'),
 
     -- * ScheduleGroupState
-    ScheduleGroupState,
+    ScheduleGroupState (ScheduleGroupState'),
 
     -- * ScheduleState
-    ScheduleState,
+    ScheduleState (ScheduleState'),
 
     -- * AwsVpcConfiguration
-    AwsVpcConfiguration,
+    AwsVpcConfiguration (AwsVpcConfiguration'),
     newAwsVpcConfiguration,
     awsVpcConfiguration_assignPublicIp,
     awsVpcConfiguration_securityGroups,
     awsVpcConfiguration_subnets,
 
     -- * CapacityProviderStrategyItem
-    CapacityProviderStrategyItem,
+    CapacityProviderStrategyItem (CapacityProviderStrategyItem'),
     newCapacityProviderStrategyItem,
     capacityProviderStrategyItem_base,
     capacityProviderStrategyItem_weight,
     capacityProviderStrategyItem_capacityProvider,
 
     -- * DeadLetterConfig
-    DeadLetterConfig,
+    DeadLetterConfig (DeadLetterConfig'),
     newDeadLetterConfig,
     deadLetterConfig_arn,
 
     -- * EcsParameters
-    EcsParameters,
+    EcsParameters (EcsParameters'),
     newEcsParameters,
     ecsParameters_capacityProviderStrategy,
     ecsParameters_enableECSManagedTags,
@@ -88,58 +88,58 @@ module Amazonka.Scheduler.Types
     ecsParameters_taskDefinitionArn,
 
     -- * EventBridgeParameters
-    EventBridgeParameters,
+    EventBridgeParameters (EventBridgeParameters'),
     newEventBridgeParameters,
     eventBridgeParameters_detailType,
     eventBridgeParameters_source,
 
     -- * FlexibleTimeWindow
-    FlexibleTimeWindow,
+    FlexibleTimeWindow (FlexibleTimeWindow'),
     newFlexibleTimeWindow,
     flexibleTimeWindow_maximumWindowInMinutes,
     flexibleTimeWindow_mode,
 
     -- * KinesisParameters
-    KinesisParameters,
+    KinesisParameters (KinesisParameters'),
     newKinesisParameters,
     kinesisParameters_partitionKey,
 
     -- * NetworkConfiguration
-    NetworkConfiguration,
+    NetworkConfiguration (NetworkConfiguration'),
     newNetworkConfiguration,
     networkConfiguration_awsvpcConfiguration,
 
     -- * PlacementConstraint
-    PlacementConstraint,
+    PlacementConstraint (PlacementConstraint'),
     newPlacementConstraint,
     placementConstraint_expression,
     placementConstraint_type,
 
     -- * PlacementStrategy
-    PlacementStrategy,
+    PlacementStrategy (PlacementStrategy'),
     newPlacementStrategy,
     placementStrategy_field,
     placementStrategy_type,
 
     -- * RetryPolicy
-    RetryPolicy,
+    RetryPolicy (RetryPolicy'),
     newRetryPolicy,
     retryPolicy_maximumEventAgeInSeconds,
     retryPolicy_maximumRetryAttempts,
 
     -- * SageMakerPipelineParameter
-    SageMakerPipelineParameter,
+    SageMakerPipelineParameter (SageMakerPipelineParameter'),
     newSageMakerPipelineParameter,
     sageMakerPipelineParameter_name,
     sageMakerPipelineParameter_value,
 
     -- * SageMakerPipelineParameters
-    SageMakerPipelineParameters,
+    SageMakerPipelineParameters (SageMakerPipelineParameters'),
     newSageMakerPipelineParameters,
     sageMakerPipelineParameters_pipelineParameterList,
 
     -- * ScheduleGroupSummary
-    ScheduleGroupSummary,
+    ScheduleGroupSummary (ScheduleGroupSummary'),
     newScheduleGroupSummary,
     scheduleGroupSummary_arn,
     scheduleGroupSummary_creationDate,
@@ -148,7 +148,7 @@ module Amazonka.Scheduler.Types
     scheduleGroupSummary_state,
 
     -- * ScheduleSummary
-    ScheduleSummary,
+    ScheduleSummary (ScheduleSummary'),
     newScheduleSummary,
     scheduleSummary_arn,
     scheduleSummary_creationDate,
@@ -159,18 +159,18 @@ module Amazonka.Scheduler.Types
     scheduleSummary_target,
 
     -- * SqsParameters
-    SqsParameters,
+    SqsParameters (SqsParameters'),
     newSqsParameters,
     sqsParameters_messageGroupId,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
 
     -- * Target
-    Target,
+    Target (Target'),
     newTarget,
     target_deadLetterConfig,
     target_ecsParameters,
@@ -184,7 +184,7 @@ module Amazonka.Scheduler.Types
     target_roleArn,
 
     -- * TargetSummary
-    TargetSummary,
+    TargetSummary (TargetSummary'),
     newTargetSummary,
     targetSummary_arn,
   )

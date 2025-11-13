@@ -27,16 +27,16 @@ module Amazonka.BackupGateway.Types
     _ValidationException,
 
     -- * GatewayType
-    GatewayType,
+    GatewayType (GatewayType'),
 
     -- * HypervisorState
-    HypervisorState,
+    HypervisorState (HypervisorState'),
 
     -- * SyncMetadataStatus
-    SyncMetadataStatus,
+    SyncMetadataStatus (SyncMetadataStatus'),
 
     -- * BandwidthRateLimitInterval
-    BandwidthRateLimitInterval,
+    BandwidthRateLimitInterval (BandwidthRateLimitInterval'),
     newBandwidthRateLimitInterval,
     bandwidthRateLimitInterval_averageUploadRateLimitInBitsPerSec,
     bandwidthRateLimitInterval_daysOfWeek,
@@ -46,7 +46,7 @@ module Amazonka.BackupGateway.Types
     bandwidthRateLimitInterval_startMinuteOfHour,
 
     -- * Gateway
-    Gateway,
+    Gateway (Gateway'),
     newGateway,
     gateway_gatewayArn,
     gateway_gatewayDisplayName,
@@ -55,7 +55,7 @@ module Amazonka.BackupGateway.Types
     gateway_lastSeenTime,
 
     -- * GatewayDetails
-    GatewayDetails,
+    GatewayDetails (GatewayDetails'),
     newGatewayDetails,
     gatewayDetails_gatewayArn,
     gatewayDetails_gatewayDisplayName,
@@ -67,7 +67,7 @@ module Amazonka.BackupGateway.Types
     gatewayDetails_vpcEndpoint,
 
     -- * Hypervisor
-    Hypervisor,
+    Hypervisor (Hypervisor'),
     newHypervisor,
     hypervisor_host,
     hypervisor_hypervisorArn,
@@ -76,7 +76,7 @@ module Amazonka.BackupGateway.Types
     hypervisor_state,
 
     -- * HypervisorDetails
-    HypervisorDetails,
+    HypervisorDetails (HypervisorDetails'),
     newHypervisorDetails,
     hypervisorDetails_host,
     hypervisorDetails_hypervisorArn,
@@ -89,7 +89,7 @@ module Amazonka.BackupGateway.Types
     hypervisorDetails_state,
 
     -- * MaintenanceStartTime
-    MaintenanceStartTime,
+    MaintenanceStartTime (MaintenanceStartTime'),
     newMaintenanceStartTime,
     maintenanceStartTime_dayOfMonth,
     maintenanceStartTime_dayOfWeek,
@@ -97,13 +97,13 @@ module Amazonka.BackupGateway.Types
     maintenanceStartTime_minuteOfHour,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
 
     -- * VirtualMachine
-    VirtualMachine,
+    VirtualMachine (VirtualMachine'),
     newVirtualMachine,
     virtualMachine_hostName,
     virtualMachine_hypervisorId,
@@ -113,7 +113,7 @@ module Amazonka.BackupGateway.Types
     virtualMachine_resourceArn,
 
     -- * VirtualMachineDetails
-    VirtualMachineDetails,
+    VirtualMachineDetails (VirtualMachineDetails'),
     newVirtualMachineDetails,
     virtualMachineDetails_hostName,
     virtualMachineDetails_hypervisorId,
@@ -124,14 +124,14 @@ module Amazonka.BackupGateway.Types
     virtualMachineDetails_vmwareTags,
 
     -- * VmwareTag
-    VmwareTag,
+    VmwareTag (VmwareTag'),
     newVmwareTag,
     vmwareTag_vmwareCategory,
     vmwareTag_vmwareTagDescription,
     vmwareTag_vmwareTagName,
 
     -- * VmwareToAwsTagMapping
-    VmwareToAwsTagMapping,
+    VmwareToAwsTagMapping (VmwareToAwsTagMapping'),
     newVmwareToAwsTagMapping,
     vmwareToAwsTagMapping_awsTagKey,
     vmwareToAwsTagMapping_awsTagValue,

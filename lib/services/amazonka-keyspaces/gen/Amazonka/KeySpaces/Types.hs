@@ -27,32 +27,32 @@ module Amazonka.KeySpaces.Types
     _ValidationException,
 
     -- * EncryptionType
-    EncryptionType,
+    EncryptionType (EncryptionType'),
 
     -- * PointInTimeRecoveryStatus
-    PointInTimeRecoveryStatus,
+    PointInTimeRecoveryStatus (PointInTimeRecoveryStatus'),
 
     -- * SortOrder
-    SortOrder,
+    SortOrder (SortOrder'),
 
     -- * TableStatus
-    TableStatus,
+    TableStatus (TableStatus'),
 
     -- * ThroughputMode
-    ThroughputMode,
+    ThroughputMode (ThroughputMode'),
 
     -- * TimeToLiveStatus
-    TimeToLiveStatus,
+    TimeToLiveStatus (TimeToLiveStatus'),
 
     -- * CapacitySpecification
-    CapacitySpecification,
+    CapacitySpecification (CapacitySpecification'),
     newCapacitySpecification,
     capacitySpecification_readCapacityUnits,
     capacitySpecification_writeCapacityUnits,
     capacitySpecification_throughputMode,
 
     -- * CapacitySpecificationSummary
-    CapacitySpecificationSummary,
+    CapacitySpecificationSummary (CapacitySpecificationSummary'),
     newCapacitySpecificationSummary,
     capacitySpecificationSummary_lastUpdateToPayPerRequestTimestamp,
     capacitySpecificationSummary_readCapacityUnits,
@@ -60,52 +60,52 @@ module Amazonka.KeySpaces.Types
     capacitySpecificationSummary_throughputMode,
 
     -- * ClusteringKey
-    ClusteringKey,
+    ClusteringKey (ClusteringKey'),
     newClusteringKey,
     clusteringKey_name,
     clusteringKey_orderBy,
 
     -- * ColumnDefinition
-    ColumnDefinition,
+    ColumnDefinition (ColumnDefinition'),
     newColumnDefinition,
     columnDefinition_name,
     columnDefinition_type,
 
     -- * Comment
-    Comment,
+    Comment (Comment'),
     newComment,
     comment_message,
 
     -- * EncryptionSpecification
-    EncryptionSpecification,
+    EncryptionSpecification (EncryptionSpecification'),
     newEncryptionSpecification,
     encryptionSpecification_kmsKeyIdentifier,
     encryptionSpecification_type,
 
     -- * KeyspaceSummary
-    KeyspaceSummary,
+    KeyspaceSummary (KeyspaceSummary'),
     newKeyspaceSummary,
     keyspaceSummary_keyspaceName,
     keyspaceSummary_resourceArn,
 
     -- * PartitionKey
-    PartitionKey,
+    PartitionKey (PartitionKey'),
     newPartitionKey,
     partitionKey_name,
 
     -- * PointInTimeRecovery
-    PointInTimeRecovery,
+    PointInTimeRecovery (PointInTimeRecovery'),
     newPointInTimeRecovery,
     pointInTimeRecovery_status,
 
     -- * PointInTimeRecoverySummary
-    PointInTimeRecoverySummary,
+    PointInTimeRecoverySummary (PointInTimeRecoverySummary'),
     newPointInTimeRecoverySummary,
     pointInTimeRecoverySummary_earliestRestorableTimestamp,
     pointInTimeRecoverySummary_status,
 
     -- * SchemaDefinition
-    SchemaDefinition,
+    SchemaDefinition (SchemaDefinition'),
     newSchemaDefinition,
     schemaDefinition_clusteringKeys,
     schemaDefinition_staticColumns,
@@ -113,25 +113,25 @@ module Amazonka.KeySpaces.Types
     schemaDefinition_partitionKeys,
 
     -- * StaticColumn
-    StaticColumn,
+    StaticColumn (StaticColumn'),
     newStaticColumn,
     staticColumn_name,
 
     -- * TableSummary
-    TableSummary,
+    TableSummary (TableSummary'),
     newTableSummary,
     tableSummary_keyspaceName,
     tableSummary_tableName,
     tableSummary_resourceArn,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
 
     -- * TimeToLive
-    TimeToLive,
+    TimeToLive (TimeToLive'),
     newTimeToLive,
     timeToLive_status,
   )

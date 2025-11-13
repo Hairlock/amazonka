@@ -29,67 +29,67 @@ module Amazonka.ComprehendMedical.Types
     _ValidationException,
 
     -- * AttributeName
-    AttributeName,
+    AttributeName (AttributeName'),
 
     -- * EntitySubType
-    EntitySubType,
+    EntitySubType (EntitySubType'),
 
     -- * EntityType
-    EntityType,
+    EntityType (EntityType'),
 
     -- * ICD10CMAttributeType
-    ICD10CMAttributeType,
+    ICD10CMAttributeType (ICD10CMAttributeType'),
 
     -- * ICD10CMEntityCategory
-    ICD10CMEntityCategory,
+    ICD10CMEntityCategory (ICD10CMEntityCategory'),
 
     -- * ICD10CMEntityType
-    ICD10CMEntityType,
+    ICD10CMEntityType (ICD10CMEntityType'),
 
     -- * ICD10CMRelationshipType
-    ICD10CMRelationshipType,
+    ICD10CMRelationshipType (ICD10CMRelationshipType'),
 
     -- * ICD10CMTraitName
-    ICD10CMTraitName,
+    ICD10CMTraitName (ICD10CMTraitName'),
 
     -- * JobStatus
-    JobStatus,
+    JobStatus (JobStatus'),
 
     -- * LanguageCode
-    LanguageCode,
+    LanguageCode (LanguageCode'),
 
     -- * RelationshipType
-    RelationshipType,
+    RelationshipType (RelationshipType'),
 
     -- * RxNormAttributeType
-    RxNormAttributeType,
+    RxNormAttributeType (RxNormAttributeType'),
 
     -- * RxNormEntityCategory
-    RxNormEntityCategory,
+    RxNormEntityCategory (RxNormEntityCategory'),
 
     -- * RxNormEntityType
-    RxNormEntityType,
+    RxNormEntityType (RxNormEntityType'),
 
     -- * RxNormTraitName
-    RxNormTraitName,
+    RxNormTraitName (RxNormTraitName'),
 
     -- * SNOMEDCTAttributeType
-    SNOMEDCTAttributeType,
+    SNOMEDCTAttributeType (SNOMEDCTAttributeType'),
 
     -- * SNOMEDCTEntityCategory
-    SNOMEDCTEntityCategory,
+    SNOMEDCTEntityCategory (SNOMEDCTEntityCategory'),
 
     -- * SNOMEDCTEntityType
-    SNOMEDCTEntityType,
+    SNOMEDCTEntityType (SNOMEDCTEntityType'),
 
     -- * SNOMEDCTRelationshipType
-    SNOMEDCTRelationshipType,
+    SNOMEDCTRelationshipType (SNOMEDCTRelationshipType'),
 
     -- * SNOMEDCTTraitName
-    SNOMEDCTTraitName,
+    SNOMEDCTTraitName (SNOMEDCTTraitName'),
 
     -- * Attribute
-    Attribute,
+    Attribute (Attribute'),
     newAttribute,
     attribute_beginOffset,
     attribute_category,
@@ -103,12 +103,12 @@ module Amazonka.ComprehendMedical.Types
     attribute_type,
 
     -- * Characters
-    Characters,
+    Characters (Characters'),
     newCharacters,
     characters_originalTextCharacters,
 
     -- * ComprehendMedicalAsyncJobFilter
-    ComprehendMedicalAsyncJobFilter,
+    ComprehendMedicalAsyncJobFilter (ComprehendMedicalAsyncJobFilter'),
     newComprehendMedicalAsyncJobFilter,
     comprehendMedicalAsyncJobFilter_jobName,
     comprehendMedicalAsyncJobFilter_jobStatus,
@@ -116,7 +116,7 @@ module Amazonka.ComprehendMedical.Types
     comprehendMedicalAsyncJobFilter_submitTimeBefore,
 
     -- * ComprehendMedicalAsyncJobProperties
-    ComprehendMedicalAsyncJobProperties,
+    ComprehendMedicalAsyncJobProperties (ComprehendMedicalAsyncJobProperties'),
     newComprehendMedicalAsyncJobProperties,
     comprehendMedicalAsyncJobProperties_dataAccessRoleArn,
     comprehendMedicalAsyncJobProperties_endTime,
@@ -134,7 +134,7 @@ module Amazonka.ComprehendMedical.Types
     comprehendMedicalAsyncJobProperties_submitTime,
 
     -- * Entity
-    Entity,
+    Entity (Entity'),
     newEntity,
     entity_attributes,
     entity_beginOffset,
@@ -147,7 +147,7 @@ module Amazonka.ComprehendMedical.Types
     entity_type,
 
     -- * ICD10CMAttribute
-    ICD10CMAttribute,
+    ICD10CMAttribute (ICD10CMAttribute'),
     newICD10CMAttribute,
     iCD10CMAttribute_beginOffset,
     iCD10CMAttribute_category,
@@ -161,14 +161,14 @@ module Amazonka.ComprehendMedical.Types
     iCD10CMAttribute_type,
 
     -- * ICD10CMConcept
-    ICD10CMConcept,
+    ICD10CMConcept (ICD10CMConcept'),
     newICD10CMConcept,
     iCD10CMConcept_code,
     iCD10CMConcept_description,
     iCD10CMConcept_score,
 
     -- * ICD10CMEntity
-    ICD10CMEntity,
+    ICD10CMEntity (ICD10CMEntity'),
     newICD10CMEntity,
     iCD10CMEntity_attributes,
     iCD10CMEntity_beginOffset,
@@ -182,25 +182,25 @@ module Amazonka.ComprehendMedical.Types
     iCD10CMEntity_type,
 
     -- * ICD10CMTrait
-    ICD10CMTrait,
+    ICD10CMTrait (ICD10CMTrait'),
     newICD10CMTrait,
     iCD10CMTrait_name,
     iCD10CMTrait_score,
 
     -- * InputDataConfig
-    InputDataConfig,
+    InputDataConfig (InputDataConfig'),
     newInputDataConfig,
     inputDataConfig_s3Key,
     inputDataConfig_s3Bucket,
 
     -- * OutputDataConfig
-    OutputDataConfig,
+    OutputDataConfig (OutputDataConfig'),
     newOutputDataConfig,
     outputDataConfig_s3Key,
     outputDataConfig_s3Bucket,
 
     -- * RxNormAttribute
-    RxNormAttribute,
+    RxNormAttribute (RxNormAttribute'),
     newRxNormAttribute,
     rxNormAttribute_beginOffset,
     rxNormAttribute_endOffset,
@@ -212,14 +212,14 @@ module Amazonka.ComprehendMedical.Types
     rxNormAttribute_type,
 
     -- * RxNormConcept
-    RxNormConcept,
+    RxNormConcept (RxNormConcept'),
     newRxNormConcept,
     rxNormConcept_code,
     rxNormConcept_description,
     rxNormConcept_score,
 
     -- * RxNormEntity
-    RxNormEntity,
+    RxNormEntity (RxNormEntity'),
     newRxNormEntity,
     rxNormEntity_attributes,
     rxNormEntity_beginOffset,
@@ -233,13 +233,13 @@ module Amazonka.ComprehendMedical.Types
     rxNormEntity_type,
 
     -- * RxNormTrait
-    RxNormTrait,
+    RxNormTrait (RxNormTrait'),
     newRxNormTrait,
     rxNormTrait_name,
     rxNormTrait_score,
 
     -- * SNOMEDCTAttribute
-    SNOMEDCTAttribute,
+    SNOMEDCTAttribute (SNOMEDCTAttribute'),
     newSNOMEDCTAttribute,
     sNOMEDCTAttribute_beginOffset,
     sNOMEDCTAttribute_category,
@@ -254,21 +254,21 @@ module Amazonka.ComprehendMedical.Types
     sNOMEDCTAttribute_type,
 
     -- * SNOMEDCTConcept
-    SNOMEDCTConcept,
+    SNOMEDCTConcept (SNOMEDCTConcept'),
     newSNOMEDCTConcept,
     sNOMEDCTConcept_code,
     sNOMEDCTConcept_description,
     sNOMEDCTConcept_score,
 
     -- * SNOMEDCTDetails
-    SNOMEDCTDetails,
+    SNOMEDCTDetails (SNOMEDCTDetails'),
     newSNOMEDCTDetails,
     sNOMEDCTDetails_edition,
     sNOMEDCTDetails_language,
     sNOMEDCTDetails_versionDate,
 
     -- * SNOMEDCTEntity
-    SNOMEDCTEntity,
+    SNOMEDCTEntity (SNOMEDCTEntity'),
     newSNOMEDCTEntity,
     sNOMEDCTEntity_attributes,
     sNOMEDCTEntity_beginOffset,
@@ -282,19 +282,19 @@ module Amazonka.ComprehendMedical.Types
     sNOMEDCTEntity_type,
 
     -- * SNOMEDCTTrait
-    SNOMEDCTTrait,
+    SNOMEDCTTrait (SNOMEDCTTrait'),
     newSNOMEDCTTrait,
     sNOMEDCTTrait_name,
     sNOMEDCTTrait_score,
 
     -- * Trait
-    Trait,
+    Trait (Trait'),
     newTrait,
     trait_name,
     trait_score,
 
     -- * UnmappedAttribute
-    UnmappedAttribute,
+    UnmappedAttribute (UnmappedAttribute'),
     newUnmappedAttribute,
     unmappedAttribute_attribute,
     unmappedAttribute_type,

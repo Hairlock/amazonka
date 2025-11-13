@@ -33,25 +33,25 @@ module Amazonka.CloudWatchLogs.Types
     _UnrecognizedClientException,
 
     -- * DataProtectionStatus
-    DataProtectionStatus,
+    DataProtectionStatus (DataProtectionStatus'),
 
     -- * Distribution
-    Distribution,
+    Distribution (Distribution'),
 
     -- * ExportTaskStatusCode
-    ExportTaskStatusCode,
+    ExportTaskStatusCode (ExportTaskStatusCode'),
 
     -- * OrderBy
-    OrderBy,
+    OrderBy (OrderBy'),
 
     -- * QueryStatus
-    QueryStatus,
+    QueryStatus (QueryStatus'),
 
     -- * StandardUnit
-    StandardUnit,
+    StandardUnit (StandardUnit'),
 
     -- * Destination
-    Destination,
+    Destination (Destination'),
     newDestination,
     destination_accessPolicy,
     destination_arn,
@@ -61,7 +61,7 @@ module Amazonka.CloudWatchLogs.Types
     destination_targetArn,
 
     -- * ExportTask
-    ExportTask,
+    ExportTask (ExportTask'),
     newExportTask,
     exportTask_destination,
     exportTask_destinationPrefix,
@@ -74,19 +74,19 @@ module Amazonka.CloudWatchLogs.Types
     exportTask_to,
 
     -- * ExportTaskExecutionInfo
-    ExportTaskExecutionInfo,
+    ExportTaskExecutionInfo (ExportTaskExecutionInfo'),
     newExportTaskExecutionInfo,
     exportTaskExecutionInfo_completionTime,
     exportTaskExecutionInfo_creationTime,
 
     -- * ExportTaskStatus
-    ExportTaskStatus,
+    ExportTaskStatus (ExportTaskStatus'),
     newExportTaskStatus,
     exportTaskStatus_code,
     exportTaskStatus_message,
 
     -- * FilteredLogEvent
-    FilteredLogEvent,
+    FilteredLogEvent (FilteredLogEvent'),
     newFilteredLogEvent,
     filteredLogEvent_eventId,
     filteredLogEvent_ingestionTime,
@@ -95,13 +95,13 @@ module Amazonka.CloudWatchLogs.Types
     filteredLogEvent_timestamp,
 
     -- * InputLogEvent
-    InputLogEvent,
+    InputLogEvent (InputLogEvent'),
     newInputLogEvent,
     inputLogEvent_timestamp,
     inputLogEvent_message,
 
     -- * LogGroup
-    LogGroup,
+    LogGroup (LogGroup'),
     newLogGroup,
     logGroup_arn,
     logGroup_creationTime,
@@ -113,13 +113,13 @@ module Amazonka.CloudWatchLogs.Types
     logGroup_storedBytes,
 
     -- * LogGroupField
-    LogGroupField,
+    LogGroupField (LogGroupField'),
     newLogGroupField,
     logGroupField_name,
     logGroupField_percent,
 
     -- * LogStream
-    LogStream,
+    LogStream (LogStream'),
     newLogStream,
     logStream_arn,
     logStream_creationTime,
@@ -131,7 +131,7 @@ module Amazonka.CloudWatchLogs.Types
     logStream_uploadSequenceToken,
 
     -- * MetricFilter
-    MetricFilter,
+    MetricFilter (MetricFilter'),
     newMetricFilter,
     metricFilter_creationTime,
     metricFilter_filterName,
@@ -140,14 +140,14 @@ module Amazonka.CloudWatchLogs.Types
     metricFilter_metricTransformations,
 
     -- * MetricFilterMatchRecord
-    MetricFilterMatchRecord,
+    MetricFilterMatchRecord (MetricFilterMatchRecord'),
     newMetricFilterMatchRecord,
     metricFilterMatchRecord_eventMessage,
     metricFilterMatchRecord_eventNumber,
     metricFilterMatchRecord_extractedValues,
 
     -- * MetricTransformation
-    MetricTransformation,
+    MetricTransformation (MetricTransformation'),
     newMetricTransformation,
     metricTransformation_defaultValue,
     metricTransformation_dimensions,
@@ -157,14 +157,14 @@ module Amazonka.CloudWatchLogs.Types
     metricTransformation_metricValue,
 
     -- * OutputLogEvent
-    OutputLogEvent,
+    OutputLogEvent (OutputLogEvent'),
     newOutputLogEvent,
     outputLogEvent_ingestionTime,
     outputLogEvent_message,
     outputLogEvent_timestamp,
 
     -- * QueryDefinition
-    QueryDefinition,
+    QueryDefinition (QueryDefinition'),
     newQueryDefinition,
     queryDefinition_lastModified,
     queryDefinition_logGroupNames,
@@ -173,7 +173,7 @@ module Amazonka.CloudWatchLogs.Types
     queryDefinition_queryString,
 
     -- * QueryInfo
-    QueryInfo,
+    QueryInfo (QueryInfo'),
     newQueryInfo,
     queryInfo_createTime,
     queryInfo_logGroupName,
@@ -182,40 +182,40 @@ module Amazonka.CloudWatchLogs.Types
     queryInfo_status,
 
     -- * QueryStatistics
-    QueryStatistics,
+    QueryStatistics (QueryStatistics'),
     newQueryStatistics,
     queryStatistics_bytesScanned,
     queryStatistics_recordsMatched,
     queryStatistics_recordsScanned,
 
     -- * RejectedLogEventsInfo
-    RejectedLogEventsInfo,
+    RejectedLogEventsInfo (RejectedLogEventsInfo'),
     newRejectedLogEventsInfo,
     rejectedLogEventsInfo_expiredLogEventEndIndex,
     rejectedLogEventsInfo_tooNewLogEventStartIndex,
     rejectedLogEventsInfo_tooOldLogEventEndIndex,
 
     -- * ResourcePolicy
-    ResourcePolicy,
+    ResourcePolicy (ResourcePolicy'),
     newResourcePolicy,
     resourcePolicy_lastUpdatedTime,
     resourcePolicy_policyDocument,
     resourcePolicy_policyName,
 
     -- * ResultField
-    ResultField,
+    ResultField (ResultField'),
     newResultField,
     resultField_field,
     resultField_value,
 
     -- * SearchedLogStream
-    SearchedLogStream,
+    SearchedLogStream (SearchedLogStream'),
     newSearchedLogStream,
     searchedLogStream_logStreamName,
     searchedLogStream_searchedCompletely,
 
     -- * SubscriptionFilter
-    SubscriptionFilter,
+    SubscriptionFilter (SubscriptionFilter'),
     newSubscriptionFilter,
     subscriptionFilter_creationTime,
     subscriptionFilter_destinationArn,

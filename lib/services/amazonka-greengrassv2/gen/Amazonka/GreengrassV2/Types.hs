@@ -29,82 +29,82 @@ module Amazonka.GreengrassV2.Types
     _ValidationException,
 
     -- * CloudComponentState
-    CloudComponentState,
+    CloudComponentState (CloudComponentState'),
 
     -- * ComponentDependencyType
-    ComponentDependencyType,
+    ComponentDependencyType (ComponentDependencyType'),
 
     -- * ComponentVisibilityScope
-    ComponentVisibilityScope,
+    ComponentVisibilityScope (ComponentVisibilityScope'),
 
     -- * CoreDeviceStatus
-    CoreDeviceStatus,
+    CoreDeviceStatus (CoreDeviceStatus'),
 
     -- * DeploymentComponentUpdatePolicyAction
-    DeploymentComponentUpdatePolicyAction,
+    DeploymentComponentUpdatePolicyAction (DeploymentComponentUpdatePolicyAction'),
 
     -- * DeploymentFailureHandlingPolicy
-    DeploymentFailureHandlingPolicy,
+    DeploymentFailureHandlingPolicy (DeploymentFailureHandlingPolicy'),
 
     -- * DeploymentHistoryFilter
-    DeploymentHistoryFilter,
+    DeploymentHistoryFilter (DeploymentHistoryFilter'),
 
     -- * DeploymentStatus
-    DeploymentStatus,
+    DeploymentStatus (DeploymentStatus'),
 
     -- * EffectiveDeploymentExecutionStatus
-    EffectiveDeploymentExecutionStatus,
+    EffectiveDeploymentExecutionStatus (EffectiveDeploymentExecutionStatus'),
 
     -- * InstalledComponentLifecycleState
-    InstalledComponentLifecycleState,
+    InstalledComponentLifecycleState (InstalledComponentLifecycleState'),
 
     -- * InstalledComponentTopologyFilter
-    InstalledComponentTopologyFilter,
+    InstalledComponentTopologyFilter (InstalledComponentTopologyFilter'),
 
     -- * IoTJobAbortAction
-    IoTJobAbortAction,
+    IoTJobAbortAction (IoTJobAbortAction'),
 
     -- * IoTJobExecutionFailureType
-    IoTJobExecutionFailureType,
+    IoTJobExecutionFailureType (IoTJobExecutionFailureType'),
 
     -- * LambdaEventSourceType
-    LambdaEventSourceType,
+    LambdaEventSourceType (LambdaEventSourceType'),
 
     -- * LambdaFilesystemPermission
-    LambdaFilesystemPermission,
+    LambdaFilesystemPermission (LambdaFilesystemPermission'),
 
     -- * LambdaInputPayloadEncodingType
-    LambdaInputPayloadEncodingType,
+    LambdaInputPayloadEncodingType (LambdaInputPayloadEncodingType'),
 
     -- * LambdaIsolationMode
-    LambdaIsolationMode,
+    LambdaIsolationMode (LambdaIsolationMode'),
 
     -- * RecipeOutputFormat
-    RecipeOutputFormat,
+    RecipeOutputFormat (RecipeOutputFormat'),
 
     -- * VendorGuidance
-    VendorGuidance,
+    VendorGuidance (VendorGuidance'),
 
     -- * AssociateClientDeviceWithCoreDeviceEntry
-    AssociateClientDeviceWithCoreDeviceEntry,
+    AssociateClientDeviceWithCoreDeviceEntry (AssociateClientDeviceWithCoreDeviceEntry'),
     newAssociateClientDeviceWithCoreDeviceEntry,
     associateClientDeviceWithCoreDeviceEntry_thingName,
 
     -- * AssociateClientDeviceWithCoreDeviceErrorEntry
-    AssociateClientDeviceWithCoreDeviceErrorEntry,
+    AssociateClientDeviceWithCoreDeviceErrorEntry (AssociateClientDeviceWithCoreDeviceErrorEntry'),
     newAssociateClientDeviceWithCoreDeviceErrorEntry,
     associateClientDeviceWithCoreDeviceErrorEntry_code,
     associateClientDeviceWithCoreDeviceErrorEntry_message,
     associateClientDeviceWithCoreDeviceErrorEntry_thingName,
 
     -- * AssociatedClientDevice
-    AssociatedClientDevice,
+    AssociatedClientDevice (AssociatedClientDevice'),
     newAssociatedClientDevice,
     associatedClientDevice_associationTimestamp,
     associatedClientDevice_thingName,
 
     -- * CloudComponentStatus
-    CloudComponentStatus,
+    CloudComponentStatus (CloudComponentStatus'),
     newCloudComponentStatus,
     cloudComponentStatus_componentState,
     cloudComponentStatus_errors,
@@ -113,40 +113,40 @@ module Amazonka.GreengrassV2.Types
     cloudComponentStatus_vendorGuidanceMessage,
 
     -- * Component
-    Component,
+    Component (Component'),
     newComponent,
     component_arn,
     component_componentName,
     component_latestVersion,
 
     -- * ComponentCandidate
-    ComponentCandidate,
+    ComponentCandidate (ComponentCandidate'),
     newComponentCandidate,
     componentCandidate_componentName,
     componentCandidate_componentVersion,
     componentCandidate_versionRequirements,
 
     -- * ComponentConfigurationUpdate
-    ComponentConfigurationUpdate,
+    ComponentConfigurationUpdate (ComponentConfigurationUpdate'),
     newComponentConfigurationUpdate,
     componentConfigurationUpdate_merge,
     componentConfigurationUpdate_reset,
 
     -- * ComponentDependencyRequirement
-    ComponentDependencyRequirement,
+    ComponentDependencyRequirement (ComponentDependencyRequirement'),
     newComponentDependencyRequirement,
     componentDependencyRequirement_dependencyType,
     componentDependencyRequirement_versionRequirement,
 
     -- * ComponentDeploymentSpecification
-    ComponentDeploymentSpecification,
+    ComponentDeploymentSpecification (ComponentDeploymentSpecification'),
     newComponentDeploymentSpecification,
     componentDeploymentSpecification_componentVersion,
     componentDeploymentSpecification_configurationUpdate,
     componentDeploymentSpecification_runWith,
 
     -- * ComponentLatestVersion
-    ComponentLatestVersion,
+    ComponentLatestVersion (ComponentLatestVersion'),
     newComponentLatestVersion,
     componentLatestVersion_arn,
     componentLatestVersion_componentVersion,
@@ -156,27 +156,27 @@ module Amazonka.GreengrassV2.Types
     componentLatestVersion_publisher,
 
     -- * ComponentPlatform
-    ComponentPlatform,
+    ComponentPlatform (ComponentPlatform'),
     newComponentPlatform,
     componentPlatform_attributes,
     componentPlatform_name,
 
     -- * ComponentRunWith
-    ComponentRunWith,
+    ComponentRunWith (ComponentRunWith'),
     newComponentRunWith,
     componentRunWith_posixUser,
     componentRunWith_systemResourceLimits,
     componentRunWith_windowsUser,
 
     -- * ComponentVersionListItem
-    ComponentVersionListItem,
+    ComponentVersionListItem (ComponentVersionListItem'),
     newComponentVersionListItem,
     componentVersionListItem_arn,
     componentVersionListItem_componentName,
     componentVersionListItem_componentVersion,
 
     -- * ConnectivityInfo
-    ConnectivityInfo,
+    ConnectivityInfo (ConnectivityInfo'),
     newConnectivityInfo,
     connectivityInfo_hostAddress,
     connectivityInfo_id,
@@ -184,14 +184,14 @@ module Amazonka.GreengrassV2.Types
     connectivityInfo_portNumber,
 
     -- * CoreDevice
-    CoreDevice,
+    CoreDevice (CoreDevice'),
     newCoreDevice,
     coreDevice_coreDeviceThingName,
     coreDevice_lastStatusUpdateTimestamp,
     coreDevice_status,
 
     -- * Deployment
-    Deployment,
+    Deployment (Deployment'),
     newDeployment,
     deployment_creationTimestamp,
     deployment_deploymentId,
@@ -203,44 +203,44 @@ module Amazonka.GreengrassV2.Types
     deployment_targetArn,
 
     -- * DeploymentComponentUpdatePolicy
-    DeploymentComponentUpdatePolicy,
+    DeploymentComponentUpdatePolicy (DeploymentComponentUpdatePolicy'),
     newDeploymentComponentUpdatePolicy,
     deploymentComponentUpdatePolicy_action,
     deploymentComponentUpdatePolicy_timeoutInSeconds,
 
     -- * DeploymentConfigurationValidationPolicy
-    DeploymentConfigurationValidationPolicy,
+    DeploymentConfigurationValidationPolicy (DeploymentConfigurationValidationPolicy'),
     newDeploymentConfigurationValidationPolicy,
     deploymentConfigurationValidationPolicy_timeoutInSeconds,
 
     -- * DeploymentIoTJobConfiguration
-    DeploymentIoTJobConfiguration,
+    DeploymentIoTJobConfiguration (DeploymentIoTJobConfiguration'),
     newDeploymentIoTJobConfiguration,
     deploymentIoTJobConfiguration_abortConfig,
     deploymentIoTJobConfiguration_jobExecutionsRolloutConfig,
     deploymentIoTJobConfiguration_timeoutConfig,
 
     -- * DeploymentPolicies
-    DeploymentPolicies,
+    DeploymentPolicies (DeploymentPolicies'),
     newDeploymentPolicies,
     deploymentPolicies_componentUpdatePolicy,
     deploymentPolicies_configurationValidationPolicy,
     deploymentPolicies_failureHandlingPolicy,
 
     -- * DisassociateClientDeviceFromCoreDeviceEntry
-    DisassociateClientDeviceFromCoreDeviceEntry,
+    DisassociateClientDeviceFromCoreDeviceEntry (DisassociateClientDeviceFromCoreDeviceEntry'),
     newDisassociateClientDeviceFromCoreDeviceEntry,
     disassociateClientDeviceFromCoreDeviceEntry_thingName,
 
     -- * DisassociateClientDeviceFromCoreDeviceErrorEntry
-    DisassociateClientDeviceFromCoreDeviceErrorEntry,
+    DisassociateClientDeviceFromCoreDeviceErrorEntry (DisassociateClientDeviceFromCoreDeviceErrorEntry'),
     newDisassociateClientDeviceFromCoreDeviceErrorEntry,
     disassociateClientDeviceFromCoreDeviceErrorEntry_code,
     disassociateClientDeviceFromCoreDeviceErrorEntry_message,
     disassociateClientDeviceFromCoreDeviceErrorEntry_thingName,
 
     -- * EffectiveDeployment
-    EffectiveDeployment,
+    EffectiveDeployment (EffectiveDeployment'),
     newEffectiveDeployment,
     effectiveDeployment_description,
     effectiveDeployment_iotJobArn,
@@ -255,13 +255,13 @@ module Amazonka.GreengrassV2.Types
     effectiveDeployment_modifiedTimestamp,
 
     -- * EffectiveDeploymentStatusDetails
-    EffectiveDeploymentStatusDetails,
+    EffectiveDeploymentStatusDetails (EffectiveDeploymentStatusDetails'),
     newEffectiveDeploymentStatusDetails,
     effectiveDeploymentStatusDetails_errorStack,
     effectiveDeploymentStatusDetails_errorTypes,
 
     -- * InstalledComponent
-    InstalledComponent,
+    InstalledComponent (InstalledComponent'),
     newInstalledComponent,
     installedComponent_componentName,
     installedComponent_componentVersion,
@@ -274,12 +274,12 @@ module Amazonka.GreengrassV2.Types
     installedComponent_lifecycleStatusCodes,
 
     -- * IoTJobAbortConfig
-    IoTJobAbortConfig,
+    IoTJobAbortConfig (IoTJobAbortConfig'),
     newIoTJobAbortConfig,
     ioTJobAbortConfig_criteriaList,
 
     -- * IoTJobAbortCriteria
-    IoTJobAbortCriteria,
+    IoTJobAbortCriteria (IoTJobAbortCriteria'),
     newIoTJobAbortCriteria,
     ioTJobAbortCriteria_failureType,
     ioTJobAbortCriteria_action,
@@ -287,31 +287,31 @@ module Amazonka.GreengrassV2.Types
     ioTJobAbortCriteria_minNumberOfExecutedThings,
 
     -- * IoTJobExecutionsRolloutConfig
-    IoTJobExecutionsRolloutConfig,
+    IoTJobExecutionsRolloutConfig (IoTJobExecutionsRolloutConfig'),
     newIoTJobExecutionsRolloutConfig,
     ioTJobExecutionsRolloutConfig_exponentialRate,
     ioTJobExecutionsRolloutConfig_maximumPerMinute,
 
     -- * IoTJobExponentialRolloutRate
-    IoTJobExponentialRolloutRate,
+    IoTJobExponentialRolloutRate (IoTJobExponentialRolloutRate'),
     newIoTJobExponentialRolloutRate,
     ioTJobExponentialRolloutRate_baseRatePerMinute,
     ioTJobExponentialRolloutRate_incrementFactor,
     ioTJobExponentialRolloutRate_rateIncreaseCriteria,
 
     -- * IoTJobRateIncreaseCriteria
-    IoTJobRateIncreaseCriteria,
+    IoTJobRateIncreaseCriteria (IoTJobRateIncreaseCriteria'),
     newIoTJobRateIncreaseCriteria,
     ioTJobRateIncreaseCriteria_numberOfNotifiedThings,
     ioTJobRateIncreaseCriteria_numberOfSucceededThings,
 
     -- * IoTJobTimeoutConfig
-    IoTJobTimeoutConfig,
+    IoTJobTimeoutConfig (IoTJobTimeoutConfig'),
     newIoTJobTimeoutConfig,
     ioTJobTimeoutConfig_inProgressTimeoutInMinutes,
 
     -- * LambdaContainerParams
-    LambdaContainerParams,
+    LambdaContainerParams (LambdaContainerParams'),
     newLambdaContainerParams,
     lambdaContainerParams_devices,
     lambdaContainerParams_memorySizeInKB,
@@ -319,20 +319,20 @@ module Amazonka.GreengrassV2.Types
     lambdaContainerParams_volumes,
 
     -- * LambdaDeviceMount
-    LambdaDeviceMount,
+    LambdaDeviceMount (LambdaDeviceMount'),
     newLambdaDeviceMount,
     lambdaDeviceMount_addGroupOwner,
     lambdaDeviceMount_permission,
     lambdaDeviceMount_path,
 
     -- * LambdaEventSource
-    LambdaEventSource,
+    LambdaEventSource (LambdaEventSource'),
     newLambdaEventSource,
     lambdaEventSource_topic,
     lambdaEventSource_type,
 
     -- * LambdaExecutionParameters
-    LambdaExecutionParameters,
+    LambdaExecutionParameters (LambdaExecutionParameters'),
     newLambdaExecutionParameters,
     lambdaExecutionParameters_environmentVariables,
     lambdaExecutionParameters_eventSources,
@@ -347,7 +347,7 @@ module Amazonka.GreengrassV2.Types
     lambdaExecutionParameters_timeoutInSeconds,
 
     -- * LambdaFunctionRecipeSource
-    LambdaFunctionRecipeSource,
+    LambdaFunctionRecipeSource (LambdaFunctionRecipeSource'),
     newLambdaFunctionRecipeSource,
     lambdaFunctionRecipeSource_componentDependencies,
     lambdaFunctionRecipeSource_componentLambdaParameters,
@@ -357,13 +357,13 @@ module Amazonka.GreengrassV2.Types
     lambdaFunctionRecipeSource_lambdaArn,
 
     -- * LambdaLinuxProcessParams
-    LambdaLinuxProcessParams,
+    LambdaLinuxProcessParams (LambdaLinuxProcessParams'),
     newLambdaLinuxProcessParams,
     lambdaLinuxProcessParams_containerParams,
     lambdaLinuxProcessParams_isolationMode,
 
     -- * LambdaVolumeMount
-    LambdaVolumeMount,
+    LambdaVolumeMount (LambdaVolumeMount'),
     newLambdaVolumeMount,
     lambdaVolumeMount_addGroupOwner,
     lambdaVolumeMount_permission,
@@ -371,7 +371,7 @@ module Amazonka.GreengrassV2.Types
     lambdaVolumeMount_destinationPath,
 
     -- * ResolvedComponentVersion
-    ResolvedComponentVersion,
+    ResolvedComponentVersion (ResolvedComponentVersion'),
     newResolvedComponentVersion,
     resolvedComponentVersion_arn,
     resolvedComponentVersion_componentName,
@@ -381,7 +381,7 @@ module Amazonka.GreengrassV2.Types
     resolvedComponentVersion_vendorGuidance,
 
     -- * SystemResourceLimits
-    SystemResourceLimits,
+    SystemResourceLimits (SystemResourceLimits'),
     newSystemResourceLimits,
     systemResourceLimits_cpus,
     systemResourceLimits_memory,

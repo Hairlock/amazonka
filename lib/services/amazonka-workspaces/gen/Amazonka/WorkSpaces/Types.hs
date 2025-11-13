@@ -35,106 +35,106 @@ module Amazonka.WorkSpaces.Types
     _WorkspacesDefaultRoleNotFoundException,
 
     -- * AccessPropertyValue
-    AccessPropertyValue,
+    AccessPropertyValue (AccessPropertyValue'),
 
     -- * Application
-    Application,
+    Application (Application'),
 
     -- * AssociationStatus
-    AssociationStatus,
+    AssociationStatus (AssociationStatus'),
 
     -- * BundleType
-    BundleType,
+    BundleType (BundleType'),
 
     -- * CertificateBasedAuthStatusEnum
-    CertificateBasedAuthStatusEnum,
+    CertificateBasedAuthStatusEnum (CertificateBasedAuthStatusEnum'),
 
     -- * ClientDeviceType
-    ClientDeviceType,
+    ClientDeviceType (ClientDeviceType'),
 
     -- * Compute
-    Compute,
+    Compute (Compute'),
 
     -- * ConnectionAliasState
-    ConnectionAliasState,
+    ConnectionAliasState (ConnectionAliasState'),
 
     -- * ConnectionState
-    ConnectionState,
+    ConnectionState (ConnectionState'),
 
     -- * DedicatedTenancyModificationStateEnum
-    DedicatedTenancyModificationStateEnum,
+    DedicatedTenancyModificationStateEnum (DedicatedTenancyModificationStateEnum'),
 
     -- * DedicatedTenancySupportEnum
-    DedicatedTenancySupportEnum,
+    DedicatedTenancySupportEnum (DedicatedTenancySupportEnum'),
 
     -- * DedicatedTenancySupportResultEnum
-    DedicatedTenancySupportResultEnum,
+    DedicatedTenancySupportResultEnum (DedicatedTenancySupportResultEnum'),
 
     -- * DeletableCertificateBasedAuthProperty
-    DeletableCertificateBasedAuthProperty,
+    DeletableCertificateBasedAuthProperty (DeletableCertificateBasedAuthProperty'),
 
     -- * DeletableSamlProperty
-    DeletableSamlProperty,
+    DeletableSamlProperty (DeletableSamlProperty'),
 
     -- * ImageType
-    ImageType,
+    ImageType (ImageType'),
 
     -- * LogUploadEnum
-    LogUploadEnum,
+    LogUploadEnum (LogUploadEnum'),
 
     -- * ModificationResourceEnum
-    ModificationResourceEnum,
+    ModificationResourceEnum (ModificationResourceEnum'),
 
     -- * ModificationStateEnum
-    ModificationStateEnum,
+    ModificationStateEnum (ModificationStateEnum'),
 
     -- * OperatingSystemType
-    OperatingSystemType,
+    OperatingSystemType (OperatingSystemType'),
 
     -- * Protocol
-    Protocol,
+    Protocol (Protocol'),
 
     -- * ReconnectEnum
-    ReconnectEnum,
+    ReconnectEnum (ReconnectEnum'),
 
     -- * RunningMode
-    RunningMode,
+    RunningMode (RunningMode'),
 
     -- * SamlStatusEnum
-    SamlStatusEnum,
+    SamlStatusEnum (SamlStatusEnum'),
 
     -- * StandbyWorkspaceRelationshipType
-    StandbyWorkspaceRelationshipType,
+    StandbyWorkspaceRelationshipType (StandbyWorkspaceRelationshipType'),
 
     -- * TargetWorkspaceState
-    TargetWorkspaceState,
+    TargetWorkspaceState (TargetWorkspaceState'),
 
     -- * Tenancy
-    Tenancy,
+    Tenancy (Tenancy'),
 
     -- * WorkspaceBundleState
-    WorkspaceBundleState,
+    WorkspaceBundleState (WorkspaceBundleState'),
 
     -- * WorkspaceDirectoryState
-    WorkspaceDirectoryState,
+    WorkspaceDirectoryState (WorkspaceDirectoryState'),
 
     -- * WorkspaceDirectoryType
-    WorkspaceDirectoryType,
+    WorkspaceDirectoryType (WorkspaceDirectoryType'),
 
     -- * WorkspaceImageIngestionProcess
-    WorkspaceImageIngestionProcess,
+    WorkspaceImageIngestionProcess (WorkspaceImageIngestionProcess'),
 
     -- * WorkspaceImageRequiredTenancy
-    WorkspaceImageRequiredTenancy,
+    WorkspaceImageRequiredTenancy (WorkspaceImageRequiredTenancy'),
 
     -- * WorkspaceImageState
-    WorkspaceImageState,
+    WorkspaceImageState (WorkspaceImageState'),
 
     -- * WorkspaceState
-    WorkspaceState,
+    WorkspaceState (WorkspaceState'),
 
     -- * AccountModification
-    AccountModification,
+    AccountModification (AccountModification'),
     newAccountModification,
     accountModification_dedicatedTenancyManagementCidrRange,
     accountModification_dedicatedTenancySupport,
@@ -144,30 +144,30 @@ module Amazonka.WorkSpaces.Types
     accountModification_startTime,
 
     -- * CertificateBasedAuthProperties
-    CertificateBasedAuthProperties,
+    CertificateBasedAuthProperties (CertificateBasedAuthProperties'),
     newCertificateBasedAuthProperties,
     certificateBasedAuthProperties_certificateAuthorityArn,
     certificateBasedAuthProperties_status,
 
     -- * ClientProperties
-    ClientProperties,
+    ClientProperties (ClientProperties'),
     newClientProperties,
     clientProperties_logUploadEnabled,
     clientProperties_reconnectEnabled,
 
     -- * ClientPropertiesResult
-    ClientPropertiesResult,
+    ClientPropertiesResult (ClientPropertiesResult'),
     newClientPropertiesResult,
     clientPropertiesResult_clientProperties,
     clientPropertiesResult_resourceId,
 
     -- * ComputeType
-    ComputeType,
+    ComputeType (ComputeType'),
     newComputeType,
     computeType_name,
 
     -- * ConnectClientAddIn
-    ConnectClientAddIn,
+    ConnectClientAddIn (ConnectClientAddIn'),
     newConnectClientAddIn,
     connectClientAddIn_addInId,
     connectClientAddIn_name,
@@ -175,7 +175,7 @@ module Amazonka.WorkSpaces.Types
     connectClientAddIn_url,
 
     -- * ConnectionAlias
-    ConnectionAlias,
+    ConnectionAlias (ConnectionAlias'),
     newConnectionAlias,
     connectionAlias_aliasId,
     connectionAlias_associations,
@@ -184,7 +184,7 @@ module Amazonka.WorkSpaces.Types
     connectionAlias_state,
 
     -- * ConnectionAliasAssociation
-    ConnectionAliasAssociation,
+    ConnectionAliasAssociation (ConnectionAliasAssociation'),
     newConnectionAliasAssociation,
     connectionAliasAssociation_associatedAccountId,
     connectionAliasAssociation_associationStatus,
@@ -192,13 +192,13 @@ module Amazonka.WorkSpaces.Types
     connectionAliasAssociation_resourceId,
 
     -- * ConnectionAliasPermission
-    ConnectionAliasPermission,
+    ConnectionAliasPermission (ConnectionAliasPermission'),
     newConnectionAliasPermission,
     connectionAliasPermission_sharedAccountId,
     connectionAliasPermission_allowAssociation,
 
     -- * DefaultClientBrandingAttributes
-    DefaultClientBrandingAttributes,
+    DefaultClientBrandingAttributes (DefaultClientBrandingAttributes'),
     newDefaultClientBrandingAttributes,
     defaultClientBrandingAttributes_forgotPasswordLink,
     defaultClientBrandingAttributes_loginMessage,
@@ -207,7 +207,7 @@ module Amazonka.WorkSpaces.Types
     defaultClientBrandingAttributes_supportLink,
 
     -- * DefaultImportClientBrandingAttributes
-    DefaultImportClientBrandingAttributes,
+    DefaultImportClientBrandingAttributes (DefaultImportClientBrandingAttributes'),
     newDefaultImportClientBrandingAttributes,
     defaultImportClientBrandingAttributes_forgotPasswordLink,
     defaultImportClientBrandingAttributes_loginMessage,
@@ -216,7 +216,7 @@ module Amazonka.WorkSpaces.Types
     defaultImportClientBrandingAttributes_supportLink,
 
     -- * DefaultWorkspaceCreationProperties
-    DefaultWorkspaceCreationProperties,
+    DefaultWorkspaceCreationProperties (DefaultWorkspaceCreationProperties'),
     newDefaultWorkspaceCreationProperties,
     defaultWorkspaceCreationProperties_customSecurityGroupId,
     defaultWorkspaceCreationProperties_defaultOu,
@@ -226,33 +226,33 @@ module Amazonka.WorkSpaces.Types
     defaultWorkspaceCreationProperties_userEnabledAsLocalAdministrator,
 
     -- * FailedCreateStandbyWorkspacesRequest
-    FailedCreateStandbyWorkspacesRequest,
+    FailedCreateStandbyWorkspacesRequest (FailedCreateStandbyWorkspacesRequest'),
     newFailedCreateStandbyWorkspacesRequest,
     failedCreateStandbyWorkspacesRequest_errorCode,
     failedCreateStandbyWorkspacesRequest_errorMessage,
     failedCreateStandbyWorkspacesRequest_standbyWorkspaceRequest,
 
     -- * FailedCreateWorkspaceRequest
-    FailedCreateWorkspaceRequest,
+    FailedCreateWorkspaceRequest (FailedCreateWorkspaceRequest'),
     newFailedCreateWorkspaceRequest,
     failedCreateWorkspaceRequest_errorCode,
     failedCreateWorkspaceRequest_errorMessage,
     failedCreateWorkspaceRequest_workspaceRequest,
 
     -- * FailedWorkspaceChangeRequest
-    FailedWorkspaceChangeRequest,
+    FailedWorkspaceChangeRequest (FailedWorkspaceChangeRequest'),
     newFailedWorkspaceChangeRequest,
     failedWorkspaceChangeRequest_errorCode,
     failedWorkspaceChangeRequest_errorMessage,
     failedWorkspaceChangeRequest_workspaceId,
 
     -- * ImagePermission
-    ImagePermission,
+    ImagePermission (ImagePermission'),
     newImagePermission,
     imagePermission_sharedAccountId,
 
     -- * IosClientBrandingAttributes
-    IosClientBrandingAttributes,
+    IosClientBrandingAttributes (IosClientBrandingAttributes'),
     newIosClientBrandingAttributes,
     iosClientBrandingAttributes_forgotPasswordLink,
     iosClientBrandingAttributes_loginMessage,
@@ -263,7 +263,7 @@ module Amazonka.WorkSpaces.Types
     iosClientBrandingAttributes_supportLink,
 
     -- * IosImportClientBrandingAttributes
-    IosImportClientBrandingAttributes,
+    IosImportClientBrandingAttributes (IosImportClientBrandingAttributes'),
     newIosImportClientBrandingAttributes,
     iosImportClientBrandingAttributes_forgotPasswordLink,
     iosImportClientBrandingAttributes_loginMessage,
@@ -274,24 +274,24 @@ module Amazonka.WorkSpaces.Types
     iosImportClientBrandingAttributes_supportLink,
 
     -- * IpRuleItem
-    IpRuleItem,
+    IpRuleItem (IpRuleItem'),
     newIpRuleItem,
     ipRuleItem_ipRule,
     ipRuleItem_ruleDesc,
 
     -- * ModificationState
-    ModificationState,
+    ModificationState (ModificationState'),
     newModificationState,
     modificationState_resource,
     modificationState_state,
 
     -- * OperatingSystem
-    OperatingSystem,
+    OperatingSystem (OperatingSystem'),
     newOperatingSystem,
     operatingSystem_type,
 
     -- * PendingCreateStandbyWorkspacesRequest
-    PendingCreateStandbyWorkspacesRequest,
+    PendingCreateStandbyWorkspacesRequest (PendingCreateStandbyWorkspacesRequest'),
     newPendingCreateStandbyWorkspacesRequest,
     pendingCreateStandbyWorkspacesRequest_directoryId,
     pendingCreateStandbyWorkspacesRequest_state,
@@ -299,17 +299,17 @@ module Amazonka.WorkSpaces.Types
     pendingCreateStandbyWorkspacesRequest_workspaceId,
 
     -- * RebootRequest
-    RebootRequest,
+    RebootRequest (RebootRequest'),
     newRebootRequest,
     rebootRequest_workspaceId,
 
     -- * RebuildRequest
-    RebuildRequest,
+    RebuildRequest (RebuildRequest'),
     newRebuildRequest,
     rebuildRequest_workspaceId,
 
     -- * RelatedWorkspaceProperties
-    RelatedWorkspaceProperties,
+    RelatedWorkspaceProperties (RelatedWorkspaceProperties'),
     newRelatedWorkspaceProperties,
     relatedWorkspaceProperties_region,
     relatedWorkspaceProperties_state,
@@ -317,19 +317,19 @@ module Amazonka.WorkSpaces.Types
     relatedWorkspaceProperties_workspaceId,
 
     -- * RootStorage
-    RootStorage,
+    RootStorage (RootStorage'),
     newRootStorage,
     rootStorage_capacity,
 
     -- * SamlProperties
-    SamlProperties,
+    SamlProperties (SamlProperties'),
     newSamlProperties,
     samlProperties_relayStateParameterName,
     samlProperties_status,
     samlProperties_userAccessUrl,
 
     -- * SelfservicePermissions
-    SelfservicePermissions,
+    SelfservicePermissions (SelfservicePermissions'),
     newSelfservicePermissions,
     selfservicePermissions_changeComputeType,
     selfservicePermissions_increaseVolumeSize,
@@ -338,12 +338,12 @@ module Amazonka.WorkSpaces.Types
     selfservicePermissions_switchRunningMode,
 
     -- * Snapshot
-    Snapshot,
+    Snapshot (Snapshot'),
     newSnapshot,
     snapshot_snapshotTime,
 
     -- * StandbyWorkspace
-    StandbyWorkspace,
+    StandbyWorkspace (StandbyWorkspace'),
     newStandbyWorkspace,
     standbyWorkspace_tags,
     standbyWorkspace_volumeEncryptionKey,
@@ -351,39 +351,39 @@ module Amazonka.WorkSpaces.Types
     standbyWorkspace_directoryId,
 
     -- * StartRequest
-    StartRequest,
+    StartRequest (StartRequest'),
     newStartRequest,
     startRequest_workspaceId,
 
     -- * StopRequest
-    StopRequest,
+    StopRequest (StopRequest'),
     newStopRequest,
     stopRequest_workspaceId,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_value,
     tag_key,
 
     -- * TerminateRequest
-    TerminateRequest,
+    TerminateRequest (TerminateRequest'),
     newTerminateRequest,
     terminateRequest_workspaceId,
 
     -- * UpdateResult
-    UpdateResult,
+    UpdateResult (UpdateResult'),
     newUpdateResult,
     updateResult_description,
     updateResult_updateAvailable,
 
     -- * UserStorage
-    UserStorage,
+    UserStorage (UserStorage'),
     newUserStorage,
     userStorage_capacity,
 
     -- * Workspace
-    Workspace,
+    Workspace (Workspace'),
     newWorkspace,
     workspace_bundleId,
     workspace_computerName,
@@ -403,7 +403,7 @@ module Amazonka.WorkSpaces.Types
     workspace_workspaceProperties,
 
     -- * WorkspaceAccessProperties
-    WorkspaceAccessProperties,
+    WorkspaceAccessProperties (WorkspaceAccessProperties'),
     newWorkspaceAccessProperties,
     workspaceAccessProperties_deviceTypeAndroid,
     workspaceAccessProperties_deviceTypeChromeOs,
@@ -415,7 +415,7 @@ module Amazonka.WorkSpaces.Types
     workspaceAccessProperties_deviceTypeZeroClient,
 
     -- * WorkspaceBundle
-    WorkspaceBundle,
+    WorkspaceBundle (WorkspaceBundle'),
     newWorkspaceBundle,
     workspaceBundle_bundleId,
     workspaceBundle_bundleType,
@@ -431,7 +431,7 @@ module Amazonka.WorkSpaces.Types
     workspaceBundle_userStorage,
 
     -- * WorkspaceConnectionStatus
-    WorkspaceConnectionStatus,
+    WorkspaceConnectionStatus (WorkspaceConnectionStatus'),
     newWorkspaceConnectionStatus,
     workspaceConnectionStatus_connectionState,
     workspaceConnectionStatus_connectionStateCheckTimestamp,
@@ -439,7 +439,7 @@ module Amazonka.WorkSpaces.Types
     workspaceConnectionStatus_workspaceId,
 
     -- * WorkspaceCreationProperties
-    WorkspaceCreationProperties,
+    WorkspaceCreationProperties (WorkspaceCreationProperties'),
     newWorkspaceCreationProperties,
     workspaceCreationProperties_customSecurityGroupId,
     workspaceCreationProperties_defaultOu,
@@ -449,7 +449,7 @@ module Amazonka.WorkSpaces.Types
     workspaceCreationProperties_userEnabledAsLocalAdministrator,
 
     -- * WorkspaceDirectory
-    WorkspaceDirectory,
+    WorkspaceDirectory (WorkspaceDirectory'),
     newWorkspaceDirectory,
     workspaceDirectory_alias,
     workspaceDirectory_certificateBasedAuthProperties,
@@ -471,7 +471,7 @@ module Amazonka.WorkSpaces.Types
     workspaceDirectory_ipGroupIds,
 
     -- * WorkspaceImage
-    WorkspaceImage,
+    WorkspaceImage (WorkspaceImage'),
     newWorkspaceImage,
     workspaceImage_created,
     workspaceImage_description,
@@ -486,7 +486,7 @@ module Amazonka.WorkSpaces.Types
     workspaceImage_updates,
 
     -- * WorkspaceProperties
-    WorkspaceProperties,
+    WorkspaceProperties (WorkspaceProperties'),
     newWorkspaceProperties,
     workspaceProperties_computeTypeName,
     workspaceProperties_protocols,
@@ -496,7 +496,7 @@ module Amazonka.WorkSpaces.Types
     workspaceProperties_userVolumeSizeGib,
 
     -- * WorkspaceRequest
-    WorkspaceRequest,
+    WorkspaceRequest (WorkspaceRequest'),
     newWorkspaceRequest,
     workspaceRequest_rootVolumeEncryptionEnabled,
     workspaceRequest_tags,
@@ -508,7 +508,7 @@ module Amazonka.WorkSpaces.Types
     workspaceRequest_bundleId,
 
     -- * WorkspacesIpGroup
-    WorkspacesIpGroup,
+    WorkspacesIpGroup (WorkspacesIpGroup'),
     newWorkspacesIpGroup,
     workspacesIpGroup_groupDesc,
     workspacesIpGroup_groupId,

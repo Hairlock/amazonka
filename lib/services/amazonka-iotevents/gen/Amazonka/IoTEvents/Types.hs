@@ -30,39 +30,39 @@ module Amazonka.IoTEvents.Types
     _UnsupportedOperationException,
 
     -- * AlarmModelVersionStatus
-    AlarmModelVersionStatus,
+    AlarmModelVersionStatus (AlarmModelVersionStatus'),
 
     -- * AnalysisResultLevel
-    AnalysisResultLevel,
+    AnalysisResultLevel (AnalysisResultLevel'),
 
     -- * AnalysisStatus
-    AnalysisStatus,
+    AnalysisStatus (AnalysisStatus'),
 
     -- * ComparisonOperator
-    ComparisonOperator,
+    ComparisonOperator (ComparisonOperator'),
 
     -- * DetectorModelVersionStatus
-    DetectorModelVersionStatus,
+    DetectorModelVersionStatus (DetectorModelVersionStatus'),
 
     -- * EvaluationMethod
-    EvaluationMethod,
+    EvaluationMethod (EvaluationMethod'),
 
     -- * InputStatus
-    InputStatus,
+    InputStatus (InputStatus'),
 
     -- * LoggingLevel
-    LoggingLevel,
+    LoggingLevel (LoggingLevel'),
 
     -- * PayloadType
-    PayloadType,
+    PayloadType (PayloadType'),
 
     -- * AcknowledgeFlow
-    AcknowledgeFlow,
+    AcknowledgeFlow (AcknowledgeFlow'),
     newAcknowledgeFlow,
     acknowledgeFlow_enabled,
 
     -- * Action
-    Action,
+    Action (Action'),
     newAction,
     action_clearTimer,
     action_dynamoDB,
@@ -79,7 +79,7 @@ module Amazonka.IoTEvents.Types
     action_sqs,
 
     -- * AlarmAction
-    AlarmAction,
+    AlarmAction (AlarmAction'),
     newAlarmAction,
     alarmAction_dynamoDB,
     alarmAction_dynamoDBv2,
@@ -92,25 +92,25 @@ module Amazonka.IoTEvents.Types
     alarmAction_sqs,
 
     -- * AlarmCapabilities
-    AlarmCapabilities,
+    AlarmCapabilities (AlarmCapabilities'),
     newAlarmCapabilities,
     alarmCapabilities_acknowledgeFlow,
     alarmCapabilities_initializationConfiguration,
 
     -- * AlarmEventActions
-    AlarmEventActions,
+    AlarmEventActions (AlarmEventActions'),
     newAlarmEventActions,
     alarmEventActions_alarmActions,
 
     -- * AlarmModelSummary
-    AlarmModelSummary,
+    AlarmModelSummary (AlarmModelSummary'),
     newAlarmModelSummary,
     alarmModelSummary_alarmModelDescription,
     alarmModelSummary_alarmModelName,
     alarmModelSummary_creationTime,
 
     -- * AlarmModelVersionSummary
-    AlarmModelVersionSummary,
+    AlarmModelVersionSummary (AlarmModelVersionSummary'),
     newAlarmModelVersionSummary,
     alarmModelVersionSummary_alarmModelArn,
     alarmModelVersionSummary_alarmModelName,
@@ -122,17 +122,17 @@ module Amazonka.IoTEvents.Types
     alarmModelVersionSummary_statusMessage,
 
     -- * AlarmNotification
-    AlarmNotification,
+    AlarmNotification (AlarmNotification'),
     newAlarmNotification,
     alarmNotification_notificationActions,
 
     -- * AlarmRule
-    AlarmRule,
+    AlarmRule (AlarmRule'),
     newAlarmRule,
     alarmRule_simpleRule,
 
     -- * AnalysisResult
-    AnalysisResult,
+    AnalysisResult (AnalysisResult'),
     newAnalysisResult,
     analysisResult_level,
     analysisResult_locations,
@@ -140,25 +140,25 @@ module Amazonka.IoTEvents.Types
     analysisResult_type,
 
     -- * AnalysisResultLocation
-    AnalysisResultLocation,
+    AnalysisResultLocation (AnalysisResultLocation'),
     newAnalysisResultLocation,
     analysisResultLocation_path,
 
     -- * AssetPropertyTimestamp
-    AssetPropertyTimestamp,
+    AssetPropertyTimestamp (AssetPropertyTimestamp'),
     newAssetPropertyTimestamp,
     assetPropertyTimestamp_offsetInNanos,
     assetPropertyTimestamp_timeInSeconds,
 
     -- * AssetPropertyValue
-    AssetPropertyValue,
+    AssetPropertyValue (AssetPropertyValue'),
     newAssetPropertyValue,
     assetPropertyValue_quality,
     assetPropertyValue_timestamp,
     assetPropertyValue_value,
 
     -- * AssetPropertyVariant
-    AssetPropertyVariant,
+    AssetPropertyVariant (AssetPropertyVariant'),
     newAssetPropertyVariant,
     assetPropertyVariant_booleanValue,
     assetPropertyVariant_doubleValue,
@@ -166,29 +166,29 @@ module Amazonka.IoTEvents.Types
     assetPropertyVariant_stringValue,
 
     -- * Attribute
-    Attribute,
+    Attribute (Attribute'),
     newAttribute,
     attribute_jsonPath,
 
     -- * ClearTimerAction
-    ClearTimerAction,
+    ClearTimerAction (ClearTimerAction'),
     newClearTimerAction,
     clearTimerAction_timerName,
 
     -- * DetectorDebugOption
-    DetectorDebugOption,
+    DetectorDebugOption (DetectorDebugOption'),
     newDetectorDebugOption,
     detectorDebugOption_keyValue,
     detectorDebugOption_detectorModelName,
 
     -- * DetectorModel
-    DetectorModel,
+    DetectorModel (DetectorModel'),
     newDetectorModel,
     detectorModel_detectorModelConfiguration,
     detectorModel_detectorModelDefinition,
 
     -- * DetectorModelConfiguration
-    DetectorModelConfiguration,
+    DetectorModelConfiguration (DetectorModelConfiguration'),
     newDetectorModelConfiguration,
     detectorModelConfiguration_creationTime,
     detectorModelConfiguration_detectorModelArn,
@@ -202,20 +202,20 @@ module Amazonka.IoTEvents.Types
     detectorModelConfiguration_status,
 
     -- * DetectorModelDefinition
-    DetectorModelDefinition,
+    DetectorModelDefinition (DetectorModelDefinition'),
     newDetectorModelDefinition,
     detectorModelDefinition_states,
     detectorModelDefinition_initialStateName,
 
     -- * DetectorModelSummary
-    DetectorModelSummary,
+    DetectorModelSummary (DetectorModelSummary'),
     newDetectorModelSummary,
     detectorModelSummary_creationTime,
     detectorModelSummary_detectorModelDescription,
     detectorModelSummary_detectorModelName,
 
     -- * DetectorModelVersionSummary
-    DetectorModelVersionSummary,
+    DetectorModelVersionSummary (DetectorModelVersionSummary'),
     newDetectorModelVersionSummary,
     detectorModelVersionSummary_creationTime,
     detectorModelVersionSummary_detectorModelArn,
@@ -227,7 +227,7 @@ module Amazonka.IoTEvents.Types
     detectorModelVersionSummary_status,
 
     -- * DynamoDBAction
-    DynamoDBAction,
+    DynamoDBAction (DynamoDBAction'),
     newDynamoDBAction,
     dynamoDBAction_hashKeyType,
     dynamoDBAction_operation,
@@ -241,56 +241,56 @@ module Amazonka.IoTEvents.Types
     dynamoDBAction_tableName,
 
     -- * DynamoDBv2Action
-    DynamoDBv2Action,
+    DynamoDBv2Action (DynamoDBv2Action'),
     newDynamoDBv2Action,
     dynamoDBv2Action_payload,
     dynamoDBv2Action_tableName,
 
     -- * EmailConfiguration
-    EmailConfiguration,
+    EmailConfiguration (EmailConfiguration'),
     newEmailConfiguration,
     emailConfiguration_content,
     emailConfiguration_from,
     emailConfiguration_recipients,
 
     -- * EmailContent
-    EmailContent,
+    EmailContent (EmailContent'),
     newEmailContent,
     emailContent_additionalMessage,
     emailContent_subject,
 
     -- * EmailRecipients
-    EmailRecipients,
+    EmailRecipients (EmailRecipients'),
     newEmailRecipients,
     emailRecipients_to,
 
     -- * Event
-    Event,
+    Event (Event'),
     newEvent,
     event_actions,
     event_condition,
     event_eventName,
 
     -- * FirehoseAction
-    FirehoseAction,
+    FirehoseAction (FirehoseAction'),
     newFirehoseAction,
     firehoseAction_payload,
     firehoseAction_separator,
     firehoseAction_deliveryStreamName,
 
     -- * InitializationConfiguration
-    InitializationConfiguration,
+    InitializationConfiguration (InitializationConfiguration'),
     newInitializationConfiguration,
     initializationConfiguration_disabledOnInitialization,
 
     -- * Input
-    Input,
+    Input (Input'),
     newInput,
     input_inputConfiguration,
     input_inputDefinition,
 
     -- * InputConfiguration
-    InputConfiguration,
+    InputConfiguration (InputConfiguration'),
     newInputConfiguration,
     inputConfiguration_inputDescription,
     inputConfiguration_inputName,
@@ -300,18 +300,18 @@ module Amazonka.IoTEvents.Types
     inputConfiguration_status,
 
     -- * InputDefinition
-    InputDefinition,
+    InputDefinition (InputDefinition'),
     newInputDefinition,
     inputDefinition_attributes,
 
     -- * InputIdentifier
-    InputIdentifier,
+    InputIdentifier (InputIdentifier'),
     newInputIdentifier,
     inputIdentifier_iotEventsInputIdentifier,
     inputIdentifier_iotSiteWiseInputIdentifier,
 
     -- * InputSummary
-    InputSummary,
+    InputSummary (InputSummary'),
     newInputSummary,
     inputSummary_creationTime,
     inputSummary_inputArn,
@@ -321,18 +321,18 @@ module Amazonka.IoTEvents.Types
     inputSummary_status,
 
     -- * IotEventsAction
-    IotEventsAction,
+    IotEventsAction (IotEventsAction'),
     newIotEventsAction,
     iotEventsAction_payload,
     iotEventsAction_inputName,
 
     -- * IotEventsInputIdentifier
-    IotEventsInputIdentifier,
+    IotEventsInputIdentifier (IotEventsInputIdentifier'),
     newIotEventsInputIdentifier,
     iotEventsInputIdentifier_inputName,
 
     -- * IotSiteWiseAction
-    IotSiteWiseAction,
+    IotSiteWiseAction (IotSiteWiseAction'),
     newIotSiteWiseAction,
     iotSiteWiseAction_assetId,
     iotSiteWiseAction_entryId,
@@ -341,30 +341,30 @@ module Amazonka.IoTEvents.Types
     iotSiteWiseAction_propertyValue,
 
     -- * IotSiteWiseAssetModelPropertyIdentifier
-    IotSiteWiseAssetModelPropertyIdentifier,
+    IotSiteWiseAssetModelPropertyIdentifier (IotSiteWiseAssetModelPropertyIdentifier'),
     newIotSiteWiseAssetModelPropertyIdentifier,
     iotSiteWiseAssetModelPropertyIdentifier_assetModelId,
     iotSiteWiseAssetModelPropertyIdentifier_propertyId,
 
     -- * IotSiteWiseInputIdentifier
-    IotSiteWiseInputIdentifier,
+    IotSiteWiseInputIdentifier (IotSiteWiseInputIdentifier'),
     newIotSiteWiseInputIdentifier,
     iotSiteWiseInputIdentifier_iotSiteWiseAssetModelPropertyIdentifier,
 
     -- * IotTopicPublishAction
-    IotTopicPublishAction,
+    IotTopicPublishAction (IotTopicPublishAction'),
     newIotTopicPublishAction,
     iotTopicPublishAction_payload,
     iotTopicPublishAction_mqttTopic,
 
     -- * LambdaAction
-    LambdaAction,
+    LambdaAction (LambdaAction'),
     newLambdaAction,
     lambdaAction_payload,
     lambdaAction_functionArn,
 
     -- * LoggingOptions
-    LoggingOptions,
+    LoggingOptions (LoggingOptions'),
     newLoggingOptions,
     loggingOptions_detectorDebugOptions,
     loggingOptions_roleArn,
@@ -372,103 +372,103 @@ module Amazonka.IoTEvents.Types
     loggingOptions_enabled,
 
     -- * NotificationAction
-    NotificationAction,
+    NotificationAction (NotificationAction'),
     newNotificationAction,
     notificationAction_emailConfigurations,
     notificationAction_smsConfigurations,
     notificationAction_action,
 
     -- * NotificationTargetActions
-    NotificationTargetActions,
+    NotificationTargetActions (NotificationTargetActions'),
     newNotificationTargetActions,
     notificationTargetActions_lambdaAction,
 
     -- * OnEnterLifecycle
-    OnEnterLifecycle,
+    OnEnterLifecycle (OnEnterLifecycle'),
     newOnEnterLifecycle,
     onEnterLifecycle_events,
 
     -- * OnExitLifecycle
-    OnExitLifecycle,
+    OnExitLifecycle (OnExitLifecycle'),
     newOnExitLifecycle,
     onExitLifecycle_events,
 
     -- * OnInputLifecycle
-    OnInputLifecycle,
+    OnInputLifecycle (OnInputLifecycle'),
     newOnInputLifecycle,
     onInputLifecycle_events,
     onInputLifecycle_transitionEvents,
 
     -- * Payload
-    Payload,
+    Payload (Payload'),
     newPayload,
     payload_contentExpression,
     payload_type,
 
     -- * RecipientDetail
-    RecipientDetail,
+    RecipientDetail (RecipientDetail'),
     newRecipientDetail,
     recipientDetail_ssoIdentity,
 
     -- * ResetTimerAction
-    ResetTimerAction,
+    ResetTimerAction (ResetTimerAction'),
     newResetTimerAction,
     resetTimerAction_timerName,
 
     -- * RoutedResource
-    RoutedResource,
+    RoutedResource (RoutedResource'),
     newRoutedResource,
     routedResource_arn,
     routedResource_name,
 
     -- * SMSConfiguration
-    SMSConfiguration,
+    SMSConfiguration (SMSConfiguration'),
     newSMSConfiguration,
     sMSConfiguration_additionalMessage,
     sMSConfiguration_senderId,
     sMSConfiguration_recipients,
 
     -- * SNSTopicPublishAction
-    SNSTopicPublishAction,
+    SNSTopicPublishAction (SNSTopicPublishAction'),
     newSNSTopicPublishAction,
     sNSTopicPublishAction_payload,
     sNSTopicPublishAction_targetArn,
 
     -- * SSOIdentity
-    SSOIdentity,
+    SSOIdentity (SSOIdentity'),
     newSSOIdentity,
     sSOIdentity_userId,
     sSOIdentity_identityStoreId,
 
     -- * SetTimerAction
-    SetTimerAction,
+    SetTimerAction (SetTimerAction'),
     newSetTimerAction,
     setTimerAction_durationExpression,
     setTimerAction_seconds,
     setTimerAction_timerName,
 
     -- * SetVariableAction
-    SetVariableAction,
+    SetVariableAction (SetVariableAction'),
     newSetVariableAction,
     setVariableAction_variableName,
     setVariableAction_value,
 
     -- * SimpleRule
-    SimpleRule,
+    SimpleRule (SimpleRule'),
     newSimpleRule,
     simpleRule_inputProperty,
     simpleRule_comparisonOperator,
     simpleRule_threshold,
 
     -- * SqsAction
-    SqsAction,
+    SqsAction (SqsAction'),
     newSqsAction,
     sqsAction_payload,
     sqsAction_useBase64,
     sqsAction_queueUrl,
 
     -- * State
-    State,
+    State (State'),
     newState,
     state_onEnter,
     state_onExit,
@@ -476,13 +476,13 @@ module Amazonka.IoTEvents.Types
     state_stateName,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
 
     -- * TransitionEvent
-    TransitionEvent,
+    TransitionEvent (TransitionEvent'),
     newTransitionEvent,
     transitionEvent_actions,
     transitionEvent_eventName,

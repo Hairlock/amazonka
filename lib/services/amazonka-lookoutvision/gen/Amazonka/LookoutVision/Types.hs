@@ -28,37 +28,37 @@ module Amazonka.LookoutVision.Types
     _ValidationException,
 
     -- * DatasetStatus
-    DatasetStatus,
+    DatasetStatus (DatasetStatus'),
 
     -- * ModelHostingStatus
-    ModelHostingStatus,
+    ModelHostingStatus (ModelHostingStatus'),
 
     -- * ModelPackagingJobStatus
-    ModelPackagingJobStatus,
+    ModelPackagingJobStatus (ModelPackagingJobStatus'),
 
     -- * ModelStatus
-    ModelStatus,
+    ModelStatus (ModelStatus'),
 
     -- * TargetDevice
-    TargetDevice,
+    TargetDevice (TargetDevice'),
 
     -- * TargetPlatformAccelerator
-    TargetPlatformAccelerator,
+    TargetPlatformAccelerator (TargetPlatformAccelerator'),
 
     -- * TargetPlatformArch
-    TargetPlatformArch,
+    TargetPlatformArch (TargetPlatformArch'),
 
     -- * TargetPlatformOs
-    TargetPlatformOs,
+    TargetPlatformOs (TargetPlatformOs'),
 
     -- * Anomaly
-    Anomaly,
+    Anomaly (Anomaly'),
     newAnomaly,
     anomaly_name,
     anomaly_pixelAnomaly,
 
     -- * DatasetDescription
-    DatasetDescription,
+    DatasetDescription (DatasetDescription'),
     newDatasetDescription,
     datasetDescription_creationTimestamp,
     datasetDescription_datasetType,
@@ -69,12 +69,12 @@ module Amazonka.LookoutVision.Types
     datasetDescription_statusMessage,
 
     -- * DatasetGroundTruthManifest
-    DatasetGroundTruthManifest,
+    DatasetGroundTruthManifest (DatasetGroundTruthManifest'),
     newDatasetGroundTruthManifest,
     datasetGroundTruthManifest_s3Object,
 
     -- * DatasetImageStats
-    DatasetImageStats,
+    DatasetImageStats (DatasetImageStats'),
     newDatasetImageStats,
     datasetImageStats_anomaly,
     datasetImageStats_labeled,
@@ -82,7 +82,7 @@ module Amazonka.LookoutVision.Types
     datasetImageStats_total,
 
     -- * DatasetMetadata
-    DatasetMetadata,
+    DatasetMetadata (DatasetMetadata'),
     newDatasetMetadata,
     datasetMetadata_creationTimestamp,
     datasetMetadata_datasetType,
@@ -90,12 +90,12 @@ module Amazonka.LookoutVision.Types
     datasetMetadata_statusMessage,
 
     -- * DatasetSource
-    DatasetSource,
+    DatasetSource (DatasetSource'),
     newDatasetSource,
     datasetSource_groundTruthManifest,
 
     -- * DetectAnomalyResult
-    DetectAnomalyResult,
+    DetectAnomalyResult (DetectAnomalyResult'),
     newDetectAnomalyResult,
     detectAnomalyResult_anomalies,
     detectAnomalyResult_anomalyMask,
@@ -104,7 +104,7 @@ module Amazonka.LookoutVision.Types
     detectAnomalyResult_source,
 
     -- * GreengrassConfiguration
-    GreengrassConfiguration,
+    GreengrassConfiguration (GreengrassConfiguration'),
     newGreengrassConfiguration,
     greengrassConfiguration_compilerOptions,
     greengrassConfiguration_componentDescription,
@@ -116,26 +116,26 @@ module Amazonka.LookoutVision.Types
     greengrassConfiguration_componentName,
 
     -- * GreengrassOutputDetails
-    GreengrassOutputDetails,
+    GreengrassOutputDetails (GreengrassOutputDetails'),
     newGreengrassOutputDetails,
     greengrassOutputDetails_componentName,
     greengrassOutputDetails_componentVersion,
     greengrassOutputDetails_componentVersionArn,
 
     -- * ImageSource
-    ImageSource,
+    ImageSource (ImageSource'),
     newImageSource,
     imageSource_type,
 
     -- * InputS3Object
-    InputS3Object,
+    InputS3Object (InputS3Object'),
     newInputS3Object,
     inputS3Object_versionId,
     inputS3Object_bucket,
     inputS3Object_key,
 
     -- * ModelDescription
-    ModelDescription,
+    ModelDescription (ModelDescription'),
     newModelDescription,
     modelDescription_creationTimestamp,
     modelDescription_description,
@@ -153,7 +153,7 @@ module Amazonka.LookoutVision.Types
     modelDescription_statusMessage,
 
     -- * ModelMetadata
-    ModelMetadata,
+    ModelMetadata (ModelMetadata'),
     newModelMetadata,
     modelMetadata_creationTimestamp,
     modelMetadata_description,
@@ -164,12 +164,12 @@ module Amazonka.LookoutVision.Types
     modelMetadata_statusMessage,
 
     -- * ModelPackagingConfiguration
-    ModelPackagingConfiguration,
+    ModelPackagingConfiguration (ModelPackagingConfiguration'),
     newModelPackagingConfiguration,
     modelPackagingConfiguration_greengrass,
 
     -- * ModelPackagingDescription
-    ModelPackagingDescription,
+    ModelPackagingDescription (ModelPackagingDescription'),
     newModelPackagingDescription,
     modelPackagingDescription_creationTimestamp,
     modelPackagingDescription_jobName,
@@ -184,7 +184,7 @@ module Amazonka.LookoutVision.Types
     modelPackagingDescription_statusMessage,
 
     -- * ModelPackagingJobMetadata
-    ModelPackagingJobMetadata,
+    ModelPackagingJobMetadata (ModelPackagingJobMetadata'),
     newModelPackagingJobMetadata,
     modelPackagingJobMetadata_creationTimestamp,
     modelPackagingJobMetadata_jobName,
@@ -197,36 +197,36 @@ module Amazonka.LookoutVision.Types
     modelPackagingJobMetadata_statusMessage,
 
     -- * ModelPackagingOutputDetails
-    ModelPackagingOutputDetails,
+    ModelPackagingOutputDetails (ModelPackagingOutputDetails'),
     newModelPackagingOutputDetails,
     modelPackagingOutputDetails_greengrass,
 
     -- * ModelPerformance
-    ModelPerformance,
+    ModelPerformance (ModelPerformance'),
     newModelPerformance,
     modelPerformance_f1Score,
     modelPerformance_precision,
     modelPerformance_recall,
 
     -- * OutputConfig
-    OutputConfig,
+    OutputConfig (OutputConfig'),
     newOutputConfig,
     outputConfig_s3Location,
 
     -- * OutputS3Object
-    OutputS3Object,
+    OutputS3Object (OutputS3Object'),
     newOutputS3Object,
     outputS3Object_bucket,
     outputS3Object_key,
 
     -- * PixelAnomaly
-    PixelAnomaly,
+    PixelAnomaly (PixelAnomaly'),
     newPixelAnomaly,
     pixelAnomaly_color,
     pixelAnomaly_totalPercentageArea,
 
     -- * ProjectDescription
-    ProjectDescription,
+    ProjectDescription (ProjectDescription'),
     newProjectDescription,
     projectDescription_creationTimestamp,
     projectDescription_datasets,
@@ -234,26 +234,26 @@ module Amazonka.LookoutVision.Types
     projectDescription_projectName,
 
     -- * ProjectMetadata
-    ProjectMetadata,
+    ProjectMetadata (ProjectMetadata'),
     newProjectMetadata,
     projectMetadata_creationTimestamp,
     projectMetadata_projectArn,
     projectMetadata_projectName,
 
     -- * S3Location
-    S3Location,
+    S3Location (S3Location'),
     newS3Location,
     s3Location_prefix,
     s3Location_bucket,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
 
     -- * TargetPlatform
-    TargetPlatform,
+    TargetPlatform (TargetPlatform'),
     newTargetPlatform,
     targetPlatform_accelerator,
     targetPlatform_os,

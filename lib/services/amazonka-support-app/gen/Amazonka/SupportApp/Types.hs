@@ -27,13 +27,13 @@ module Amazonka.SupportApp.Types
     _ValidationException,
 
     -- * AccountType
-    AccountType,
+    AccountType (AccountType'),
 
     -- * NotificationSeverityLevel
-    NotificationSeverityLevel,
+    NotificationSeverityLevel (NotificationSeverityLevel'),
 
     -- * SlackChannelConfiguration
-    SlackChannelConfiguration,
+    SlackChannelConfiguration (SlackChannelConfiguration'),
     newSlackChannelConfiguration,
     slackChannelConfiguration_channelName,
     slackChannelConfiguration_channelRoleArn,
@@ -45,7 +45,7 @@ module Amazonka.SupportApp.Types
     slackChannelConfiguration_teamId,
 
     -- * SlackWorkspaceConfiguration
-    SlackWorkspaceConfiguration,
+    SlackWorkspaceConfiguration (SlackWorkspaceConfiguration'),
     newSlackWorkspaceConfiguration,
     slackWorkspaceConfiguration_allowOrganizationMemberAccount,
     slackWorkspaceConfiguration_teamName,

@@ -31,37 +31,37 @@ module Amazonka.Backup.Types
     _ServiceUnavailableException,
 
     -- * BackupJobState
-    BackupJobState,
+    BackupJobState (BackupJobState'),
 
     -- * BackupVaultEvent
-    BackupVaultEvent,
+    BackupVaultEvent (BackupVaultEvent'),
 
     -- * ConditionType
-    ConditionType,
+    ConditionType (ConditionType'),
 
     -- * CopyJobState
-    CopyJobState,
+    CopyJobState (CopyJobState'),
 
     -- * LegalHoldStatus
-    LegalHoldStatus,
+    LegalHoldStatus (LegalHoldStatus'),
 
     -- * RecoveryPointStatus
-    RecoveryPointStatus,
+    RecoveryPointStatus (RecoveryPointStatus'),
 
     -- * RestoreJobStatus
-    RestoreJobStatus,
+    RestoreJobStatus (RestoreJobStatus'),
 
     -- * StorageClass
-    StorageClass,
+    StorageClass (StorageClass'),
 
     -- * AdvancedBackupSetting
-    AdvancedBackupSetting,
+    AdvancedBackupSetting (AdvancedBackupSetting'),
     newAdvancedBackupSetting,
     advancedBackupSetting_backupOptions,
     advancedBackupSetting_resourceType,
 
     -- * BackupJob
-    BackupJob,
+    BackupJob (BackupJob'),
     newBackupJob,
     backupJob_accountId,
     backupJob_backupJobId,
@@ -87,27 +87,27 @@ module Amazonka.Backup.Types
     backupJob_statusMessage,
 
     -- * BackupPlan
-    BackupPlan,
+    BackupPlan (BackupPlan'),
     newBackupPlan,
     backupPlan_advancedBackupSettings,
     backupPlan_backupPlanName,
     backupPlan_rules,
 
     -- * BackupPlanInput
-    BackupPlanInput,
+    BackupPlanInput (BackupPlanInput'),
     newBackupPlanInput,
     backupPlanInput_advancedBackupSettings,
     backupPlanInput_backupPlanName,
     backupPlanInput_rules,
 
     -- * BackupPlanTemplatesListMember
-    BackupPlanTemplatesListMember,
+    BackupPlanTemplatesListMember (BackupPlanTemplatesListMember'),
     newBackupPlanTemplatesListMember,
     backupPlanTemplatesListMember_backupPlanTemplateId,
     backupPlanTemplatesListMember_backupPlanTemplateName,
 
     -- * BackupPlansListMember
-    BackupPlansListMember,
+    BackupPlansListMember (BackupPlansListMember'),
     newBackupPlansListMember,
     backupPlansListMember_advancedBackupSettings,
     backupPlansListMember_backupPlanArn,
@@ -120,7 +120,7 @@ module Amazonka.Backup.Types
     backupPlansListMember_versionId,
 
     -- * BackupRule
-    BackupRule,
+    BackupRule (BackupRule'),
     newBackupRule,
     backupRule_completionWindowMinutes,
     backupRule_copyActions,
@@ -134,7 +134,7 @@ module Amazonka.Backup.Types
     backupRule_targetBackupVaultName,
 
     -- * BackupRuleInput
-    BackupRuleInput,
+    BackupRuleInput (BackupRuleInput'),
     newBackupRuleInput,
     backupRuleInput_completionWindowMinutes,
     backupRuleInput_copyActions,
@@ -147,7 +147,7 @@ module Amazonka.Backup.Types
     backupRuleInput_targetBackupVaultName,
 
     -- * BackupSelection
-    BackupSelection,
+    BackupSelection (BackupSelection'),
     newBackupSelection,
     backupSelection_conditions,
     backupSelection_listOfTags,
@@ -157,7 +157,7 @@ module Amazonka.Backup.Types
     backupSelection_iamRoleArn,
 
     -- * BackupSelectionsListMember
-    BackupSelectionsListMember,
+    BackupSelectionsListMember (BackupSelectionsListMember'),
     newBackupSelectionsListMember,
     backupSelectionsListMember_backupPlanId,
     backupSelectionsListMember_creationDate,
@@ -167,7 +167,7 @@ module Amazonka.Backup.Types
     backupSelectionsListMember_selectionName,
 
     -- * BackupVaultListMember
-    BackupVaultListMember,
+    BackupVaultListMember (BackupVaultListMember'),
     newBackupVaultListMember,
     backupVaultListMember_backupVaultArn,
     backupVaultListMember_backupVaultName,
@@ -181,26 +181,26 @@ module Amazonka.Backup.Types
     backupVaultListMember_numberOfRecoveryPoints,
 
     -- * CalculatedLifecycle
-    CalculatedLifecycle,
+    CalculatedLifecycle (CalculatedLifecycle'),
     newCalculatedLifecycle,
     calculatedLifecycle_deleteAt,
     calculatedLifecycle_moveToColdStorageAt,
 
     -- * Condition
-    Condition,
+    Condition (Condition'),
     newCondition,
     condition_conditionType,
     condition_conditionKey,
     condition_conditionValue,
 
     -- * ConditionParameter
-    ConditionParameter,
+    ConditionParameter (ConditionParameter'),
     newConditionParameter,
     conditionParameter_conditionKey,
     conditionParameter_conditionValue,
 
     -- * Conditions
-    Conditions,
+    Conditions (Conditions'),
     newConditions,
     conditions_stringEquals,
     conditions_stringLike,
@@ -208,26 +208,26 @@ module Amazonka.Backup.Types
     conditions_stringNotLike,
 
     -- * ControlInputParameter
-    ControlInputParameter,
+    ControlInputParameter (ControlInputParameter'),
     newControlInputParameter,
     controlInputParameter_parameterName,
     controlInputParameter_parameterValue,
 
     -- * ControlScope
-    ControlScope,
+    ControlScope (ControlScope'),
     newControlScope,
     controlScope_complianceResourceIds,
     controlScope_complianceResourceTypes,
     controlScope_tags,
 
     -- * CopyAction
-    CopyAction,
+    CopyAction (CopyAction'),
     newCopyAction,
     copyAction_lifecycle,
     copyAction_destinationBackupVaultArn,
 
     -- * CopyJob
-    CopyJob,
+    CopyJob (CopyJob'),
     newCopyJob,
     copyJob_accountId,
     copyJob_backupSizeInBytes,
@@ -251,13 +251,13 @@ module Amazonka.Backup.Types
     copyJob_statusMessage,
 
     -- * DateRange
-    DateRange,
+    DateRange (DateRange'),
     newDateRange,
     dateRange_fromDate,
     dateRange_toDate,
 
     -- * Framework
-    Framework,
+    Framework (Framework'),
     newFramework,
     framework_creationTime,
     framework_deploymentStatus,
@@ -267,14 +267,14 @@ module Amazonka.Backup.Types
     framework_numberOfControls,
 
     -- * FrameworkControl
-    FrameworkControl,
+    FrameworkControl (FrameworkControl'),
     newFrameworkControl,
     frameworkControl_controlInputParameters,
     frameworkControl_controlScope,
     frameworkControl_controlName,
 
     -- * LegalHold
-    LegalHold,
+    LegalHold (LegalHold'),
     newLegalHold,
     legalHold_cancellationDate,
     legalHold_creationDate,
@@ -285,20 +285,20 @@ module Amazonka.Backup.Types
     legalHold_title,
 
     -- * Lifecycle
-    Lifecycle,
+    Lifecycle (Lifecycle'),
     newLifecycle,
     lifecycle_deleteAfterDays,
     lifecycle_moveToColdStorageAfterDays,
 
     -- * ProtectedResource
-    ProtectedResource,
+    ProtectedResource (ProtectedResource'),
     newProtectedResource,
     protectedResource_lastBackupTime,
     protectedResource_resourceArn,
     protectedResource_resourceType,
 
     -- * RecoveryPointByBackupVault
-    RecoveryPointByBackupVault,
+    RecoveryPointByBackupVault (RecoveryPointByBackupVault'),
     newRecoveryPointByBackupVault,
     recoveryPointByBackupVault_backupSizeInBytes,
     recoveryPointByBackupVault_backupVaultArn,
@@ -323,7 +323,7 @@ module Amazonka.Backup.Types
     recoveryPointByBackupVault_statusMessage,
 
     -- * RecoveryPointByResource
-    RecoveryPointByResource,
+    RecoveryPointByResource (RecoveryPointByResource'),
     newRecoveryPointByResource,
     recoveryPointByResource_backupSizeBytes,
     recoveryPointByResource_backupVaultName,
@@ -336,7 +336,7 @@ module Amazonka.Backup.Types
     recoveryPointByResource_statusMessage,
 
     -- * RecoveryPointCreator
-    RecoveryPointCreator,
+    RecoveryPointCreator (RecoveryPointCreator'),
     newRecoveryPointCreator,
     recoveryPointCreator_backupPlanArn,
     recoveryPointCreator_backupPlanId,
@@ -344,32 +344,32 @@ module Amazonka.Backup.Types
     recoveryPointCreator_backupRuleId,
 
     -- * RecoveryPointMember
-    RecoveryPointMember,
+    RecoveryPointMember (RecoveryPointMember'),
     newRecoveryPointMember,
     recoveryPointMember_recoveryPointArn,
 
     -- * RecoveryPointSelection
-    RecoveryPointSelection,
+    RecoveryPointSelection (RecoveryPointSelection'),
     newRecoveryPointSelection,
     recoveryPointSelection_dateRange,
     recoveryPointSelection_resourceIdentifiers,
     recoveryPointSelection_vaultNames,
 
     -- * ReportDeliveryChannel
-    ReportDeliveryChannel,
+    ReportDeliveryChannel (ReportDeliveryChannel'),
     newReportDeliveryChannel,
     reportDeliveryChannel_formats,
     reportDeliveryChannel_s3KeyPrefix,
     reportDeliveryChannel_s3BucketName,
 
     -- * ReportDestination
-    ReportDestination,
+    ReportDestination (ReportDestination'),
     newReportDestination,
     reportDestination_s3BucketName,
     reportDestination_s3Keys,
 
     -- * ReportJob
-    ReportJob,
+    ReportJob (ReportJob'),
     newReportJob,
     reportJob_completionTime,
     reportJob_creationTime,
@@ -381,7 +381,7 @@ module Amazonka.Backup.Types
     reportJob_statusMessage,
 
     -- * ReportPlan
-    ReportPlan,
+    ReportPlan (ReportPlan'),
     newReportPlan,
     reportPlan_creationTime,
     reportPlan_deploymentStatus,
@@ -394,7 +394,7 @@ module Amazonka.Backup.Types
     reportPlan_reportSetting,
 
     -- * ReportSetting
-    ReportSetting,
+    ReportSetting (ReportSetting'),
     newReportSetting,
     reportSetting_accounts,
     reportSetting_frameworkArns,
@@ -404,7 +404,7 @@ module Amazonka.Backup.Types
     reportSetting_reportTemplate,
 
     -- * RestoreJobsListMember
-    RestoreJobsListMember,
+    RestoreJobsListMember (RestoreJobsListMember'),
     newRestoreJobsListMember,
     restoreJobsListMember_accountId,
     restoreJobsListMember_backupSizeInBytes,

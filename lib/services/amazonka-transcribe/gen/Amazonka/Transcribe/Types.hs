@@ -26,70 +26,70 @@ module Amazonka.Transcribe.Types
     _NotFoundException,
 
     -- * BaseModelName
-    BaseModelName,
+    BaseModelName (BaseModelName'),
 
     -- * CLMLanguageCode
-    CLMLanguageCode,
+    CLMLanguageCode (CLMLanguageCode'),
 
     -- * CallAnalyticsJobStatus
-    CallAnalyticsJobStatus,
+    CallAnalyticsJobStatus (CallAnalyticsJobStatus'),
 
     -- * InputType
-    InputType,
+    InputType (InputType'),
 
     -- * LanguageCode
-    LanguageCode,
+    LanguageCode (LanguageCode'),
 
     -- * MediaFormat
-    MediaFormat,
+    MediaFormat (MediaFormat'),
 
     -- * MedicalContentIdentificationType
-    MedicalContentIdentificationType,
+    MedicalContentIdentificationType (MedicalContentIdentificationType'),
 
     -- * ModelStatus
-    ModelStatus,
+    ModelStatus (ModelStatus'),
 
     -- * OutputLocationType
-    OutputLocationType,
+    OutputLocationType (OutputLocationType'),
 
     -- * ParticipantRole
-    ParticipantRole,
+    ParticipantRole (ParticipantRole'),
 
     -- * PiiEntityType
-    PiiEntityType,
+    PiiEntityType (PiiEntityType'),
 
     -- * RedactionOutput
-    RedactionOutput,
+    RedactionOutput (RedactionOutput'),
 
     -- * RedactionType
-    RedactionType,
+    RedactionType (RedactionType'),
 
     -- * SentimentValue
-    SentimentValue,
+    SentimentValue (SentimentValue'),
 
     -- * Specialty
-    Specialty,
+    Specialty (Specialty'),
 
     -- * SubtitleFormat
-    SubtitleFormat,
+    SubtitleFormat (SubtitleFormat'),
 
     -- * TranscriptFilterType
-    TranscriptFilterType,
+    TranscriptFilterType (TranscriptFilterType'),
 
     -- * TranscriptionJobStatus
-    TranscriptionJobStatus,
+    TranscriptionJobStatus (TranscriptionJobStatus'),
 
     -- * Type
-    Type,
+    Type (Type'),
 
     -- * VocabularyFilterMethod
-    VocabularyFilterMethod,
+    VocabularyFilterMethod (VocabularyFilterMethod'),
 
     -- * VocabularyState
-    VocabularyState,
+    VocabularyState (VocabularyState'),
 
     -- * AbsoluteTimeRange
-    AbsoluteTimeRange,
+    AbsoluteTimeRange (AbsoluteTimeRange'),
     newAbsoluteTimeRange,
     absoluteTimeRange_endTime,
     absoluteTimeRange_first,
@@ -97,7 +97,7 @@ module Amazonka.Transcribe.Types
     absoluteTimeRange_startTime,
 
     -- * CallAnalyticsJob
-    CallAnalyticsJob,
+    CallAnalyticsJob (CallAnalyticsJob'),
     newCallAnalyticsJob,
     callAnalyticsJob_callAnalyticsJobName,
     callAnalyticsJob_callAnalyticsJobStatus,
@@ -116,7 +116,7 @@ module Amazonka.Transcribe.Types
     callAnalyticsJob_transcript,
 
     -- * CallAnalyticsJobSettings
-    CallAnalyticsJobSettings,
+    CallAnalyticsJobSettings (CallAnalyticsJobSettings'),
     newCallAnalyticsJobSettings,
     callAnalyticsJobSettings_contentRedaction,
     callAnalyticsJobSettings_languageIdSettings,
@@ -127,7 +127,7 @@ module Amazonka.Transcribe.Types
     callAnalyticsJobSettings_vocabularyName,
 
     -- * CallAnalyticsJobSummary
-    CallAnalyticsJobSummary,
+    CallAnalyticsJobSummary (CallAnalyticsJobSummary'),
     newCallAnalyticsJobSummary,
     callAnalyticsJobSummary_callAnalyticsJobName,
     callAnalyticsJobSummary_callAnalyticsJobStatus,
@@ -138,7 +138,7 @@ module Amazonka.Transcribe.Types
     callAnalyticsJobSummary_startTime,
 
     -- * CategoryProperties
-    CategoryProperties,
+    CategoryProperties (CategoryProperties'),
     newCategoryProperties,
     categoryProperties_categoryName,
     categoryProperties_createTime,
@@ -147,27 +147,27 @@ module Amazonka.Transcribe.Types
     categoryProperties_rules,
 
     -- * ChannelDefinition
-    ChannelDefinition,
+    ChannelDefinition (ChannelDefinition'),
     newChannelDefinition,
     channelDefinition_channelId,
     channelDefinition_participantRole,
 
     -- * ContentRedaction
-    ContentRedaction,
+    ContentRedaction (ContentRedaction'),
     newContentRedaction,
     contentRedaction_piiEntityTypes,
     contentRedaction_redactionType,
     contentRedaction_redactionOutput,
 
     -- * InputDataConfig
-    InputDataConfig,
+    InputDataConfig (InputDataConfig'),
     newInputDataConfig,
     inputDataConfig_tuningDataS3Uri,
     inputDataConfig_s3Uri,
     inputDataConfig_dataAccessRoleArn,
 
     -- * InterruptionFilter
-    InterruptionFilter,
+    InterruptionFilter (InterruptionFilter'),
     newInterruptionFilter,
     interruptionFilter_absoluteTimeRange,
     interruptionFilter_negate,
@@ -176,26 +176,26 @@ module Amazonka.Transcribe.Types
     interruptionFilter_threshold,
 
     -- * JobExecutionSettings
-    JobExecutionSettings,
+    JobExecutionSettings (JobExecutionSettings'),
     newJobExecutionSettings,
     jobExecutionSettings_allowDeferredExecution,
     jobExecutionSettings_dataAccessRoleArn,
 
     -- * LanguageCodeItem
-    LanguageCodeItem,
+    LanguageCodeItem (LanguageCodeItem'),
     newLanguageCodeItem,
     languageCodeItem_durationInSeconds,
     languageCodeItem_languageCode,
 
     -- * LanguageIdSettings
-    LanguageIdSettings,
+    LanguageIdSettings (LanguageIdSettings'),
     newLanguageIdSettings,
     languageIdSettings_languageModelName,
     languageIdSettings_vocabularyFilterName,
     languageIdSettings_vocabularyName,
 
     -- * LanguageModel
-    LanguageModel,
+    LanguageModel (LanguageModel'),
     newLanguageModel,
     languageModel_baseModelName,
     languageModel_createTime,
@@ -208,18 +208,18 @@ module Amazonka.Transcribe.Types
     languageModel_upgradeAvailability,
 
     -- * Media
-    Media,
+    Media (Media'),
     newMedia,
     media_mediaFileUri,
     media_redactedMediaFileUri,
 
     -- * MedicalTranscript
-    MedicalTranscript,
+    MedicalTranscript (MedicalTranscript'),
     newMedicalTranscript,
     medicalTranscript_transcriptFileUri,
 
     -- * MedicalTranscriptionJob
-    MedicalTranscriptionJob,
+    MedicalTranscriptionJob (MedicalTranscriptionJob'),
     newMedicalTranscriptionJob,
     medicalTranscriptionJob_completionTime,
     medicalTranscriptionJob_contentIdentificationType,
@@ -239,7 +239,7 @@ module Amazonka.Transcribe.Types
     medicalTranscriptionJob_type,
 
     -- * MedicalTranscriptionJobSummary
-    MedicalTranscriptionJobSummary,
+    MedicalTranscriptionJobSummary (MedicalTranscriptionJobSummary'),
     newMedicalTranscriptionJobSummary,
     medicalTranscriptionJobSummary_completionTime,
     medicalTranscriptionJobSummary_contentIdentificationType,
@@ -254,7 +254,7 @@ module Amazonka.Transcribe.Types
     medicalTranscriptionJobSummary_type,
 
     -- * MedicalTranscriptionSetting
-    MedicalTranscriptionSetting,
+    MedicalTranscriptionSetting (MedicalTranscriptionSetting'),
     newMedicalTranscriptionSetting,
     medicalTranscriptionSetting_channelIdentification,
     medicalTranscriptionSetting_maxAlternatives,
@@ -264,12 +264,12 @@ module Amazonka.Transcribe.Types
     medicalTranscriptionSetting_vocabularyName,
 
     -- * ModelSettings
-    ModelSettings,
+    ModelSettings (ModelSettings'),
     newModelSettings,
     modelSettings_languageModelName,
 
     -- * NonTalkTimeFilter
-    NonTalkTimeFilter,
+    NonTalkTimeFilter (NonTalkTimeFilter'),
     newNonTalkTimeFilter,
     nonTalkTimeFilter_absoluteTimeRange,
     nonTalkTimeFilter_negate,
@@ -277,7 +277,7 @@ module Amazonka.Transcribe.Types
     nonTalkTimeFilter_threshold,
 
     -- * RelativeTimeRange
-    RelativeTimeRange,
+    RelativeTimeRange (RelativeTimeRange'),
     newRelativeTimeRange,
     relativeTimeRange_endPercentage,
     relativeTimeRange_first,
@@ -285,7 +285,7 @@ module Amazonka.Transcribe.Types
     relativeTimeRange_startPercentage,
 
     -- * Rule
-    Rule,
+    Rule (Rule'),
     newRule,
     rule_interruptionFilter,
     rule_nonTalkTimeFilter,
@@ -293,7 +293,7 @@ module Amazonka.Transcribe.Types
     rule_transcriptFilter,
 
     -- * SentimentFilter
-    SentimentFilter,
+    SentimentFilter (SentimentFilter'),
     newSentimentFilter,
     sentimentFilter_absoluteTimeRange,
     sentimentFilter_negate,
@@ -302,7 +302,7 @@ module Amazonka.Transcribe.Types
     sentimentFilter_sentiments,
 
     -- * Settings
-    Settings,
+    Settings (Settings'),
     newSettings,
     settings_channelIdentification,
     settings_maxAlternatives,
@@ -314,32 +314,32 @@ module Amazonka.Transcribe.Types
     settings_vocabularyName,
 
     -- * Subtitles
-    Subtitles,
+    Subtitles (Subtitles'),
     newSubtitles,
     subtitles_formats,
     subtitles_outputStartIndex,
 
     -- * SubtitlesOutput
-    SubtitlesOutput,
+    SubtitlesOutput (SubtitlesOutput'),
     newSubtitlesOutput,
     subtitlesOutput_formats,
     subtitlesOutput_outputStartIndex,
     subtitlesOutput_subtitleFileUris,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
 
     -- * Transcript
-    Transcript,
+    Transcript (Transcript'),
     newTranscript,
     transcript_redactedTranscriptFileUri,
     transcript_transcriptFileUri,
 
     -- * TranscriptFilter
-    TranscriptFilter,
+    TranscriptFilter (TranscriptFilter'),
     newTranscriptFilter,
     transcriptFilter_absoluteTimeRange,
     transcriptFilter_negate,
@@ -349,7 +349,7 @@ module Amazonka.Transcribe.Types
     transcriptFilter_targets,
 
     -- * TranscriptionJob
-    TranscriptionJob,
+    TranscriptionJob (TranscriptionJob'),
     newTranscriptionJob,
     transcriptionJob_completionTime,
     transcriptionJob_contentRedaction,
@@ -376,7 +376,7 @@ module Amazonka.Transcribe.Types
     transcriptionJob_transcriptionJobStatus,
 
     -- * TranscriptionJobSummary
-    TranscriptionJobSummary,
+    TranscriptionJobSummary (TranscriptionJobSummary'),
     newTranscriptionJobSummary,
     transcriptionJobSummary_completionTime,
     transcriptionJobSummary_contentRedaction,
@@ -394,14 +394,14 @@ module Amazonka.Transcribe.Types
     transcriptionJobSummary_transcriptionJobStatus,
 
     -- * VocabularyFilterInfo
-    VocabularyFilterInfo,
+    VocabularyFilterInfo (VocabularyFilterInfo'),
     newVocabularyFilterInfo,
     vocabularyFilterInfo_languageCode,
     vocabularyFilterInfo_lastModifiedTime,
     vocabularyFilterInfo_vocabularyFilterName,
 
     -- * VocabularyInfo
-    VocabularyInfo,
+    VocabularyInfo (VocabularyInfo'),
     newVocabularyInfo,
     vocabularyInfo_languageCode,
     vocabularyInfo_lastModifiedTime,

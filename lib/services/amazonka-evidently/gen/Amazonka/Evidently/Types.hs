@@ -29,75 +29,75 @@ module Amazonka.Evidently.Types
     _ValidationException,
 
     -- * ChangeDirectionEnum
-    ChangeDirectionEnum,
+    ChangeDirectionEnum (ChangeDirectionEnum'),
 
     -- * EventType
-    EventType,
+    EventType (EventType'),
 
     -- * ExperimentBaseStat
-    ExperimentBaseStat,
+    ExperimentBaseStat (ExperimentBaseStat'),
 
     -- * ExperimentReportName
-    ExperimentReportName,
+    ExperimentReportName (ExperimentReportName'),
 
     -- * ExperimentResultRequestType
-    ExperimentResultRequestType,
+    ExperimentResultRequestType (ExperimentResultRequestType'),
 
     -- * ExperimentResultResponseType
-    ExperimentResultResponseType,
+    ExperimentResultResponseType (ExperimentResultResponseType'),
 
     -- * ExperimentStatus
-    ExperimentStatus,
+    ExperimentStatus (ExperimentStatus'),
 
     -- * ExperimentStopDesiredState
-    ExperimentStopDesiredState,
+    ExperimentStopDesiredState (ExperimentStopDesiredState'),
 
     -- * ExperimentType
-    ExperimentType,
+    ExperimentType (ExperimentType'),
 
     -- * FeatureEvaluationStrategy
-    FeatureEvaluationStrategy,
+    FeatureEvaluationStrategy (FeatureEvaluationStrategy'),
 
     -- * FeatureStatus
-    FeatureStatus,
+    FeatureStatus (FeatureStatus'),
 
     -- * LaunchStatus
-    LaunchStatus,
+    LaunchStatus (LaunchStatus'),
 
     -- * LaunchStopDesiredState
-    LaunchStopDesiredState,
+    LaunchStopDesiredState (LaunchStopDesiredState'),
 
     -- * LaunchType
-    LaunchType,
+    LaunchType (LaunchType'),
 
     -- * ProjectStatus
-    ProjectStatus,
+    ProjectStatus (ProjectStatus'),
 
     -- * SegmentReferenceResourceType
-    SegmentReferenceResourceType,
+    SegmentReferenceResourceType (SegmentReferenceResourceType'),
 
     -- * VariationValueType
-    VariationValueType,
+    VariationValueType (VariationValueType'),
 
     -- * CloudWatchLogsDestination
-    CloudWatchLogsDestination,
+    CloudWatchLogsDestination (CloudWatchLogsDestination'),
     newCloudWatchLogsDestination,
     cloudWatchLogsDestination_logGroup,
 
     -- * CloudWatchLogsDestinationConfig
-    CloudWatchLogsDestinationConfig,
+    CloudWatchLogsDestinationConfig (CloudWatchLogsDestinationConfig'),
     newCloudWatchLogsDestinationConfig,
     cloudWatchLogsDestinationConfig_logGroup,
 
     -- * EvaluationRequest
-    EvaluationRequest,
+    EvaluationRequest (EvaluationRequest'),
     newEvaluationRequest,
     evaluationRequest_evaluationContext,
     evaluationRequest_entityId,
     evaluationRequest_feature,
 
     -- * EvaluationResult
-    EvaluationResult,
+    EvaluationResult (EvaluationResult'),
     newEvaluationResult,
     evaluationResult_details,
     evaluationResult_project,
@@ -108,20 +108,20 @@ module Amazonka.Evidently.Types
     evaluationResult_feature,
 
     -- * EvaluationRule
-    EvaluationRule,
+    EvaluationRule (EvaluationRule'),
     newEvaluationRule,
     evaluationRule_name,
     evaluationRule_type,
 
     -- * Event
-    Event,
+    Event (Event'),
     newEvent,
     event_data,
     event_timestamp,
     event_type,
 
     -- * Experiment
-    Experiment,
+    Experiment (Experiment'),
     newExperiment,
     experiment_description,
     experiment_execution,
@@ -143,13 +143,13 @@ module Amazonka.Evidently.Types
     experiment_type,
 
     -- * ExperimentExecution
-    ExperimentExecution,
+    ExperimentExecution (ExperimentExecution'),
     newExperimentExecution,
     experimentExecution_endedTime,
     experimentExecution_startedTime,
 
     -- * ExperimentReport
-    ExperimentReport,
+    ExperimentReport (ExperimentReport'),
     newExperimentReport,
     experimentReport_content,
     experimentReport_metricName,
@@ -157,7 +157,7 @@ module Amazonka.Evidently.Types
     experimentReport_treatmentName,
 
     -- * ExperimentResultsData
-    ExperimentResultsData,
+    ExperimentResultsData (ExperimentResultsData'),
     newExperimentResultsData,
     experimentResultsData_metricName,
     experimentResultsData_resultStat,
@@ -165,12 +165,12 @@ module Amazonka.Evidently.Types
     experimentResultsData_values,
 
     -- * ExperimentSchedule
-    ExperimentSchedule,
+    ExperimentSchedule (ExperimentSchedule'),
     newExperimentSchedule,
     experimentSchedule_analysisCompleteTime,
 
     -- * Feature
-    Feature,
+    Feature (Feature'),
     newFeature,
     feature_defaultVariation,
     feature_description,
@@ -188,7 +188,7 @@ module Amazonka.Evidently.Types
     feature_variations,
 
     -- * FeatureSummary
-    FeatureSummary,
+    FeatureSummary (FeatureSummary'),
     newFeatureSummary,
     featureSummary_defaultVariation,
     featureSummary_evaluationRules,
@@ -202,7 +202,7 @@ module Amazonka.Evidently.Types
     featureSummary_status,
 
     -- * Launch
-    Launch,
+    Launch (Launch'),
     newLaunch,
     launch_description,
     launch_execution,
@@ -221,20 +221,20 @@ module Amazonka.Evidently.Types
     launch_type,
 
     -- * LaunchExecution
-    LaunchExecution,
+    LaunchExecution (LaunchExecution'),
     newLaunchExecution,
     launchExecution_endedTime,
     launchExecution_startedTime,
 
     -- * LaunchGroup
-    LaunchGroup,
+    LaunchGroup (LaunchGroup'),
     newLaunchGroup,
     launchGroup_description,
     launchGroup_featureVariations,
     launchGroup_name,
 
     -- * LaunchGroupConfig
-    LaunchGroupConfig,
+    LaunchGroupConfig (LaunchGroupConfig'),
     newLaunchGroupConfig,
     launchGroupConfig_description,
     launchGroupConfig_feature,
@@ -242,7 +242,7 @@ module Amazonka.Evidently.Types
     launchGroupConfig_variation,
 
     -- * MetricDefinition
-    MetricDefinition,
+    MetricDefinition (MetricDefinition'),
     newMetricDefinition,
     metricDefinition_entityIdKey,
     metricDefinition_eventPattern,
@@ -251,7 +251,7 @@ module Amazonka.Evidently.Types
     metricDefinition_valueKey,
 
     -- * MetricDefinitionConfig
-    MetricDefinitionConfig,
+    MetricDefinitionConfig (MetricDefinitionConfig'),
     newMetricDefinitionConfig,
     metricDefinitionConfig_eventPattern,
     metricDefinitionConfig_unitLabel,
@@ -260,41 +260,41 @@ module Amazonka.Evidently.Types
     metricDefinitionConfig_valueKey,
 
     -- * MetricGoal
-    MetricGoal,
+    MetricGoal (MetricGoal'),
     newMetricGoal,
     metricGoal_desiredChange,
     metricGoal_metricDefinition,
 
     -- * MetricGoalConfig
-    MetricGoalConfig,
+    MetricGoalConfig (MetricGoalConfig'),
     newMetricGoalConfig,
     metricGoalConfig_desiredChange,
     metricGoalConfig_metricDefinition,
 
     -- * MetricMonitor
-    MetricMonitor,
+    MetricMonitor (MetricMonitor'),
     newMetricMonitor,
     metricMonitor_metricDefinition,
 
     -- * MetricMonitorConfig
-    MetricMonitorConfig,
+    MetricMonitorConfig (MetricMonitorConfig'),
     newMetricMonitorConfig,
     metricMonitorConfig_metricDefinition,
 
     -- * OnlineAbConfig
-    OnlineAbConfig,
+    OnlineAbConfig (OnlineAbConfig'),
     newOnlineAbConfig,
     onlineAbConfig_controlTreatmentName,
     onlineAbConfig_treatmentWeights,
 
     -- * OnlineAbDefinition
-    OnlineAbDefinition,
+    OnlineAbDefinition (OnlineAbDefinition'),
     newOnlineAbDefinition,
     onlineAbDefinition_controlTreatmentName,
     onlineAbDefinition_treatmentWeights,
 
     -- * Project
-    Project,
+    Project (Project'),
     newProject,
     project_activeExperimentCount,
     project_activeLaunchCount,
@@ -312,32 +312,32 @@ module Amazonka.Evidently.Types
     project_status,
 
     -- * ProjectAppConfigResource
-    ProjectAppConfigResource,
+    ProjectAppConfigResource (ProjectAppConfigResource'),
     newProjectAppConfigResource,
     projectAppConfigResource_applicationId,
     projectAppConfigResource_configurationProfileId,
     projectAppConfigResource_environmentId,
 
     -- * ProjectAppConfigResourceConfig
-    ProjectAppConfigResourceConfig,
+    ProjectAppConfigResourceConfig (ProjectAppConfigResourceConfig'),
     newProjectAppConfigResourceConfig,
     projectAppConfigResourceConfig_applicationId,
     projectAppConfigResourceConfig_environmentId,
 
     -- * ProjectDataDelivery
-    ProjectDataDelivery,
+    ProjectDataDelivery (ProjectDataDelivery'),
     newProjectDataDelivery,
     projectDataDelivery_cloudWatchLogs,
     projectDataDelivery_s3Destination,
 
     -- * ProjectDataDeliveryConfig
-    ProjectDataDeliveryConfig,
+    ProjectDataDeliveryConfig (ProjectDataDeliveryConfig'),
     newProjectDataDeliveryConfig,
     projectDataDeliveryConfig_cloudWatchLogs,
     projectDataDeliveryConfig_s3Destination,
 
     -- * ProjectSummary
-    ProjectSummary,
+    ProjectSummary (ProjectSummary'),
     newProjectSummary,
     projectSummary_activeExperimentCount,
     projectSummary_activeLaunchCount,
@@ -353,14 +353,14 @@ module Amazonka.Evidently.Types
     projectSummary_status,
 
     -- * PutProjectEventsResultEntry
-    PutProjectEventsResultEntry,
+    PutProjectEventsResultEntry (PutProjectEventsResultEntry'),
     newPutProjectEventsResultEntry,
     putProjectEventsResultEntry_errorCode,
     putProjectEventsResultEntry_errorMessage,
     putProjectEventsResultEntry_eventId,
 
     -- * RefResource
-    RefResource,
+    RefResource (RefResource'),
     newRefResource,
     refResource_arn,
     refResource_endTime,
@@ -371,43 +371,43 @@ module Amazonka.Evidently.Types
     refResource_type,
 
     -- * S3Destination
-    S3Destination,
+    S3Destination (S3Destination'),
     newS3Destination,
     s3Destination_bucket,
     s3Destination_prefix,
 
     -- * S3DestinationConfig
-    S3DestinationConfig,
+    S3DestinationConfig (S3DestinationConfig'),
     newS3DestinationConfig,
     s3DestinationConfig_bucket,
     s3DestinationConfig_prefix,
 
     -- * ScheduledSplit
-    ScheduledSplit,
+    ScheduledSplit (ScheduledSplit'),
     newScheduledSplit,
     scheduledSplit_groupWeights,
     scheduledSplit_segmentOverrides,
     scheduledSplit_startTime,
 
     -- * ScheduledSplitConfig
-    ScheduledSplitConfig,
+    ScheduledSplitConfig (ScheduledSplitConfig'),
     newScheduledSplitConfig,
     scheduledSplitConfig_segmentOverrides,
     scheduledSplitConfig_groupWeights,
     scheduledSplitConfig_startTime,
 
     -- * ScheduledSplitsLaunchConfig
-    ScheduledSplitsLaunchConfig,
+    ScheduledSplitsLaunchConfig (ScheduledSplitsLaunchConfig'),
     newScheduledSplitsLaunchConfig,
     scheduledSplitsLaunchConfig_steps,
 
     -- * ScheduledSplitsLaunchDefinition
-    ScheduledSplitsLaunchDefinition,
+    ScheduledSplitsLaunchDefinition (ScheduledSplitsLaunchDefinition'),
     newScheduledSplitsLaunchDefinition,
     scheduledSplitsLaunchDefinition_steps,
 
     -- * Segment
-    Segment,
+    Segment (Segment'),
     newSegment,
     segment_description,
     segment_experimentCount,
@@ -420,21 +420,21 @@ module Amazonka.Evidently.Types
     segment_pattern,
 
     -- * SegmentOverride
-    SegmentOverride,
+    SegmentOverride (SegmentOverride'),
     newSegmentOverride,
     segmentOverride_evaluationOrder,
     segmentOverride_segment,
     segmentOverride_weights,
 
     -- * Treatment
-    Treatment,
+    Treatment (Treatment'),
     newTreatment,
     treatment_description,
     treatment_featureVariations,
     treatment_name,
 
     -- * TreatmentConfig
-    TreatmentConfig,
+    TreatmentConfig (TreatmentConfig'),
     newTreatmentConfig,
     treatmentConfig_description,
     treatmentConfig_feature,
@@ -442,7 +442,7 @@ module Amazonka.Evidently.Types
     treatmentConfig_variation,
 
     -- * VariableValue
-    VariableValue,
+    VariableValue (VariableValue'),
     newVariableValue,
     variableValue_boolValue,
     variableValue_doubleValue,
@@ -450,13 +450,13 @@ module Amazonka.Evidently.Types
     variableValue_stringValue,
 
     -- * Variation
-    Variation,
+    Variation (Variation'),
     newVariation,
     variation_name,
     variation_value,
 
     -- * VariationConfig
-    VariationConfig,
+    VariationConfig (VariationConfig'),
     newVariationConfig,
     variationConfig_name,
     variationConfig_value,

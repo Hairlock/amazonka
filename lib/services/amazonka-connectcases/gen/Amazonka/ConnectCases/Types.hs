@@ -28,106 +28,106 @@ module Amazonka.ConnectCases.Types
     _ValidationException,
 
     -- * CommentBodyTextType
-    CommentBodyTextType,
+    CommentBodyTextType (CommentBodyTextType'),
 
     -- * DomainStatus
-    DomainStatus,
+    DomainStatus (DomainStatus'),
 
     -- * FieldNamespace
-    FieldNamespace,
+    FieldNamespace (FieldNamespace'),
 
     -- * FieldType
-    FieldType,
+    FieldType (FieldType'),
 
     -- * Order
-    Order,
+    Order (Order'),
 
     -- * RelatedItemType
-    RelatedItemType,
+    RelatedItemType (RelatedItemType'),
 
     -- * TemplateStatus
-    TemplateStatus,
+    TemplateStatus (TemplateStatus'),
 
     -- * BasicLayout
-    BasicLayout,
+    BasicLayout (BasicLayout'),
     newBasicLayout,
     basicLayout_moreInfo,
     basicLayout_topPanel,
 
     -- * CaseEventIncludedData
-    CaseEventIncludedData,
+    CaseEventIncludedData (CaseEventIncludedData'),
     newCaseEventIncludedData,
     caseEventIncludedData_fields,
 
     -- * CaseFilter
-    CaseFilter,
+    CaseFilter (CaseFilter'),
     newCaseFilter,
     caseFilter_andAll,
     caseFilter_field,
     caseFilter_not,
 
     -- * CaseSummary
-    CaseSummary,
+    CaseSummary (CaseSummary'),
     newCaseSummary,
     caseSummary_caseId,
     caseSummary_templateId,
 
     -- * CommentContent
-    CommentContent,
+    CommentContent (CommentContent'),
     newCommentContent,
     commentContent_body,
     commentContent_contentType,
 
     -- * CommentFilter
-    CommentFilter,
+    CommentFilter (CommentFilter'),
     newCommentFilter,
 
     -- * Contact
-    Contact,
+    Contact (Contact'),
     newContact,
     contact_contactArn,
 
     -- * ContactContent
-    ContactContent,
+    ContactContent (ContactContent'),
     newContactContent,
     contactContent_channel,
     contactContent_connectedToSystemTime,
     contactContent_contactArn,
 
     -- * ContactFilter
-    ContactFilter,
+    ContactFilter (ContactFilter'),
     newContactFilter,
     contactFilter_channel,
     contactFilter_contactArn,
 
     -- * DomainSummary
-    DomainSummary,
+    DomainSummary (DomainSummary'),
     newDomainSummary,
     domainSummary_domainArn,
     domainSummary_domainId,
     domainSummary_name,
 
     -- * EventBridgeConfiguration
-    EventBridgeConfiguration,
+    EventBridgeConfiguration (EventBridgeConfiguration'),
     newEventBridgeConfiguration,
     eventBridgeConfiguration_includedData,
     eventBridgeConfiguration_enabled,
 
     -- * EventIncludedData
-    EventIncludedData,
+    EventIncludedData (EventIncludedData'),
     newEventIncludedData,
     eventIncludedData_caseData,
     eventIncludedData_relatedItemData,
 
     -- * FieldError
-    FieldError,
+    FieldError (FieldError'),
     newFieldError,
     fieldError_message,
     fieldError_errorCode,
     fieldError_id,
 
     -- * FieldFilter
-    FieldFilter,
+    FieldFilter (FieldFilter'),
     newFieldFilter,
     fieldFilter_contains,
     fieldFilter_equalTo,
@@ -137,37 +137,37 @@ module Amazonka.ConnectCases.Types
     fieldFilter_lessThanOrEqualTo,
 
     -- * FieldGroup
-    FieldGroup,
+    FieldGroup (FieldGroup'),
     newFieldGroup,
     fieldGroup_name,
     fieldGroup_fields,
 
     -- * FieldIdentifier
-    FieldIdentifier,
+    FieldIdentifier (FieldIdentifier'),
     newFieldIdentifier,
     fieldIdentifier_id,
 
     -- * FieldItem
-    FieldItem,
+    FieldItem (FieldItem'),
     newFieldItem,
     fieldItem_id,
 
     -- * FieldOption
-    FieldOption,
+    FieldOption (FieldOption'),
     newFieldOption,
     fieldOption_active,
     fieldOption_name,
     fieldOption_value,
 
     -- * FieldOptionError
-    FieldOptionError,
+    FieldOptionError (FieldOptionError'),
     newFieldOptionError,
     fieldOptionError_errorCode,
     fieldOptionError_message,
     fieldOptionError_value,
 
     -- * FieldSummary
-    FieldSummary,
+    FieldSummary (FieldSummary'),
     newFieldSummary,
     fieldSummary_fieldArn,
     fieldSummary_fieldId,
@@ -176,20 +176,20 @@ module Amazonka.ConnectCases.Types
     fieldSummary_type,
 
     -- * FieldValue
-    FieldValue,
+    FieldValue (FieldValue'),
     newFieldValue,
     fieldValue_id,
     fieldValue_value,
 
     -- * FieldValueUnion
-    FieldValueUnion,
+    FieldValueUnion (FieldValueUnion'),
     newFieldValueUnion,
     fieldValueUnion_booleanValue,
     fieldValueUnion_doubleValue,
     fieldValueUnion_stringValue,
 
     -- * GetFieldResponse
-    GetFieldResponse,
+    GetFieldResponse (GetFieldResponse'),
     newGetFieldResponse,
     getFieldResponse_description,
     getFieldResponse_tags,
@@ -200,57 +200,57 @@ module Amazonka.ConnectCases.Types
     getFieldResponse_type,
 
     -- * LayoutConfiguration
-    LayoutConfiguration,
+    LayoutConfiguration (LayoutConfiguration'),
     newLayoutConfiguration,
     layoutConfiguration_defaultLayout,
 
     -- * LayoutContent
-    LayoutContent,
+    LayoutContent (LayoutContent'),
     newLayoutContent,
     layoutContent_basic,
 
     -- * LayoutSections
-    LayoutSections,
+    LayoutSections (LayoutSections'),
     newLayoutSections,
     layoutSections_sections,
 
     -- * LayoutSummary
-    LayoutSummary,
+    LayoutSummary (LayoutSummary'),
     newLayoutSummary,
     layoutSummary_layoutArn,
     layoutSummary_layoutId,
     layoutSummary_name,
 
     -- * RelatedItemContent
-    RelatedItemContent,
+    RelatedItemContent (RelatedItemContent'),
     newRelatedItemContent,
     relatedItemContent_comment,
     relatedItemContent_contact,
 
     -- * RelatedItemEventIncludedData
-    RelatedItemEventIncludedData,
+    RelatedItemEventIncludedData (RelatedItemEventIncludedData'),
     newRelatedItemEventIncludedData,
     relatedItemEventIncludedData_includeContent,
 
     -- * RelatedItemInputContent
-    RelatedItemInputContent,
+    RelatedItemInputContent (RelatedItemInputContent'),
     newRelatedItemInputContent,
     relatedItemInputContent_comment,
     relatedItemInputContent_contact,
 
     -- * RelatedItemTypeFilter
-    RelatedItemTypeFilter,
+    RelatedItemTypeFilter (RelatedItemTypeFilter'),
     newRelatedItemTypeFilter,
     relatedItemTypeFilter_comment,
     relatedItemTypeFilter_contact,
 
     -- * RequiredField
-    RequiredField,
+    RequiredField (RequiredField'),
     newRequiredField,
     requiredField_fieldId,
 
     -- * SearchCasesResponseItem
-    SearchCasesResponseItem,
+    SearchCasesResponseItem (SearchCasesResponseItem'),
     newSearchCasesResponseItem,
     searchCasesResponseItem_tags,
     searchCasesResponseItem_caseId,
@@ -258,7 +258,7 @@ module Amazonka.ConnectCases.Types
     searchCasesResponseItem_templateId,
 
     -- * SearchRelatedItemsResponseItem
-    SearchRelatedItemsResponseItem,
+    SearchRelatedItemsResponseItem (SearchRelatedItemsResponseItem'),
     newSearchRelatedItemsResponseItem,
     searchRelatedItemsResponseItem_tags,
     searchRelatedItemsResponseItem_associationTime,
@@ -267,18 +267,18 @@ module Amazonka.ConnectCases.Types
     searchRelatedItemsResponseItem_type,
 
     -- * Section
-    Section,
+    Section (Section'),
     newSection,
     section_fieldGroup,
 
     -- * Sort
-    Sort,
+    Sort (Sort'),
     newSort,
     sort_fieldId,
     sort_sortOrder,
 
     -- * TemplateSummary
-    TemplateSummary,
+    TemplateSummary (TemplateSummary'),
     newTemplateSummary,
     templateSummary_name,
     templateSummary_status,

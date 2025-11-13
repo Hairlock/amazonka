@@ -58,46 +58,46 @@ module Amazonka.ELBV2.Types
     _UnsupportedProtocolException,
 
     -- * ActionTypeEnum
-    ActionTypeEnum,
+    ActionTypeEnum (ActionTypeEnum'),
 
     -- * AuthenticateCognitoActionConditionalBehaviorEnum
-    AuthenticateCognitoActionConditionalBehaviorEnum,
+    AuthenticateCognitoActionConditionalBehaviorEnum (AuthenticateCognitoActionConditionalBehaviorEnum'),
 
     -- * AuthenticateOidcActionConditionalBehaviorEnum
-    AuthenticateOidcActionConditionalBehaviorEnum,
+    AuthenticateOidcActionConditionalBehaviorEnum (AuthenticateOidcActionConditionalBehaviorEnum'),
 
     -- * IpAddressType
-    IpAddressType,
+    IpAddressType (IpAddressType'),
 
     -- * LoadBalancerSchemeEnum
-    LoadBalancerSchemeEnum,
+    LoadBalancerSchemeEnum (LoadBalancerSchemeEnum'),
 
     -- * LoadBalancerStateEnum
-    LoadBalancerStateEnum,
+    LoadBalancerStateEnum (LoadBalancerStateEnum'),
 
     -- * LoadBalancerTypeEnum
-    LoadBalancerTypeEnum,
+    LoadBalancerTypeEnum (LoadBalancerTypeEnum'),
 
     -- * ProtocolEnum
-    ProtocolEnum,
+    ProtocolEnum (ProtocolEnum'),
 
     -- * RedirectActionStatusCodeEnum
-    RedirectActionStatusCodeEnum,
+    RedirectActionStatusCodeEnum (RedirectActionStatusCodeEnum'),
 
     -- * TargetGroupIpAddressTypeEnum
-    TargetGroupIpAddressTypeEnum,
+    TargetGroupIpAddressTypeEnum (TargetGroupIpAddressTypeEnum'),
 
     -- * TargetHealthReasonEnum
-    TargetHealthReasonEnum,
+    TargetHealthReasonEnum (TargetHealthReasonEnum'),
 
     -- * TargetHealthStateEnum
-    TargetHealthStateEnum,
+    TargetHealthStateEnum (TargetHealthStateEnum'),
 
     -- * TargetTypeEnum
-    TargetTypeEnum,
+    TargetTypeEnum (TargetTypeEnum'),
 
     -- * Action
-    Action,
+    Action (Action'),
     newAction,
     action_authenticateCognitoConfig,
     action_authenticateOidcConfig,
@@ -109,7 +109,7 @@ module Amazonka.ELBV2.Types
     action_type,
 
     -- * AuthenticateCognitoActionConfig
-    AuthenticateCognitoActionConfig,
+    AuthenticateCognitoActionConfig (AuthenticateCognitoActionConfig'),
     newAuthenticateCognitoActionConfig,
     authenticateCognitoActionConfig_authenticationRequestExtraParams,
     authenticateCognitoActionConfig_onUnauthenticatedRequest,
@@ -121,7 +121,7 @@ module Amazonka.ELBV2.Types
     authenticateCognitoActionConfig_userPoolDomain,
 
     -- * AuthenticateOidcActionConfig
-    AuthenticateOidcActionConfig,
+    AuthenticateOidcActionConfig (AuthenticateOidcActionConfig'),
     newAuthenticateOidcActionConfig,
     authenticateOidcActionConfig_authenticationRequestExtraParams,
     authenticateOidcActionConfig_clientSecret,
@@ -137,7 +137,7 @@ module Amazonka.ELBV2.Types
     authenticateOidcActionConfig_clientId,
 
     -- * AvailabilityZone
-    AvailabilityZone,
+    AvailabilityZone (AvailabilityZone'),
     newAvailabilityZone,
     availabilityZone_loadBalancerAddresses,
     availabilityZone_outpostId,
@@ -145,54 +145,54 @@ module Amazonka.ELBV2.Types
     availabilityZone_zoneName,
 
     -- * Certificate
-    Certificate,
+    Certificate (Certificate'),
     newCertificate,
     certificate_certificateArn,
     certificate_isDefault,
 
     -- * Cipher
-    Cipher,
+    Cipher (Cipher'),
     newCipher,
     cipher_name,
     cipher_priority,
 
     -- * FixedResponseActionConfig
-    FixedResponseActionConfig,
+    FixedResponseActionConfig (FixedResponseActionConfig'),
     newFixedResponseActionConfig,
     fixedResponseActionConfig_contentType,
     fixedResponseActionConfig_messageBody,
     fixedResponseActionConfig_statusCode,
 
     -- * ForwardActionConfig
-    ForwardActionConfig,
+    ForwardActionConfig (ForwardActionConfig'),
     newForwardActionConfig,
     forwardActionConfig_targetGroupStickinessConfig,
     forwardActionConfig_targetGroups,
 
     -- * HostHeaderConditionConfig
-    HostHeaderConditionConfig,
+    HostHeaderConditionConfig (HostHeaderConditionConfig'),
     newHostHeaderConditionConfig,
     hostHeaderConditionConfig_values,
 
     -- * HttpHeaderConditionConfig
-    HttpHeaderConditionConfig,
+    HttpHeaderConditionConfig (HttpHeaderConditionConfig'),
     newHttpHeaderConditionConfig,
     httpHeaderConditionConfig_httpHeaderName,
     httpHeaderConditionConfig_values,
 
     -- * HttpRequestMethodConditionConfig
-    HttpRequestMethodConditionConfig,
+    HttpRequestMethodConditionConfig (HttpRequestMethodConditionConfig'),
     newHttpRequestMethodConditionConfig,
     httpRequestMethodConditionConfig_values,
 
     -- * Limit
-    Limit,
+    Limit (Limit'),
     newLimit,
     limit_max,
     limit_name,
 
     -- * Listener
-    Listener,
+    Listener (Listener'),
     newListener,
     listener_alpnPolicy,
     listener_certificates,
@@ -204,7 +204,7 @@ module Amazonka.ELBV2.Types
     listener_sslPolicy,
 
     -- * LoadBalancer
-    LoadBalancer,
+    LoadBalancer (LoadBalancer'),
     newLoadBalancer,
     loadBalancer_availabilityZones,
     loadBalancer_canonicalHostedZoneId,
@@ -221,7 +221,7 @@ module Amazonka.ELBV2.Types
     loadBalancer_vpcId,
 
     -- * LoadBalancerAddress
-    LoadBalancerAddress,
+    LoadBalancerAddress (LoadBalancerAddress'),
     newLoadBalancerAddress,
     loadBalancerAddress_allocationId,
     loadBalancerAddress_iPv6Address,
@@ -229,41 +229,41 @@ module Amazonka.ELBV2.Types
     loadBalancerAddress_privateIPv4Address,
 
     -- * LoadBalancerAttribute
-    LoadBalancerAttribute,
+    LoadBalancerAttribute (LoadBalancerAttribute'),
     newLoadBalancerAttribute,
     loadBalancerAttribute_key,
     loadBalancerAttribute_value,
 
     -- * LoadBalancerState
-    LoadBalancerState,
+    LoadBalancerState (LoadBalancerState'),
     newLoadBalancerState,
     loadBalancerState_code,
     loadBalancerState_reason,
 
     -- * Matcher
-    Matcher,
+    Matcher (Matcher'),
     newMatcher,
     matcher_grpcCode,
     matcher_httpCode,
 
     -- * PathPatternConditionConfig
-    PathPatternConditionConfig,
+    PathPatternConditionConfig (PathPatternConditionConfig'),
     newPathPatternConditionConfig,
     pathPatternConditionConfig_values,
 
     -- * QueryStringConditionConfig
-    QueryStringConditionConfig,
+    QueryStringConditionConfig (QueryStringConditionConfig'),
     newQueryStringConditionConfig,
     queryStringConditionConfig_values,
 
     -- * QueryStringKeyValuePair
-    QueryStringKeyValuePair,
+    QueryStringKeyValuePair (QueryStringKeyValuePair'),
     newQueryStringKeyValuePair,
     queryStringKeyValuePair_key,
     queryStringKeyValuePair_value,
 
     -- * RedirectActionConfig
-    RedirectActionConfig,
+    RedirectActionConfig (RedirectActionConfig'),
     newRedirectActionConfig,
     redirectActionConfig_host,
     redirectActionConfig_path,
@@ -273,7 +273,7 @@ module Amazonka.ELBV2.Types
     redirectActionConfig_statusCode,
 
     -- * Rule
-    Rule,
+    Rule (Rule'),
     newRule,
     rule_actions,
     rule_conditions,
@@ -282,7 +282,7 @@ module Amazonka.ELBV2.Types
     rule_ruleArn,
 
     -- * RuleCondition
-    RuleCondition,
+    RuleCondition (RuleCondition'),
     newRuleCondition,
     ruleCondition_field,
     ruleCondition_hostHeaderConfig,
@@ -294,18 +294,18 @@ module Amazonka.ELBV2.Types
     ruleCondition_values,
 
     -- * RulePriorityPair
-    RulePriorityPair,
+    RulePriorityPair (RulePriorityPair'),
     newRulePriorityPair,
     rulePriorityPair_priority,
     rulePriorityPair_ruleArn,
 
     -- * SourceIpConditionConfig
-    SourceIpConditionConfig,
+    SourceIpConditionConfig (SourceIpConditionConfig'),
     newSourceIpConditionConfig,
     sourceIpConditionConfig_values,
 
     -- * SslPolicy
-    SslPolicy,
+    SslPolicy (SslPolicy'),
     newSslPolicy,
     sslPolicy_ciphers,
     sslPolicy_name,
@@ -313,7 +313,7 @@ module Amazonka.ELBV2.Types
     sslPolicy_supportedLoadBalancerTypes,
 
     -- * SubnetMapping
-    SubnetMapping,
+    SubnetMapping (SubnetMapping'),
     newSubnetMapping,
     subnetMapping_allocationId,
     subnetMapping_iPv6Address,
@@ -321,26 +321,26 @@ module Amazonka.ELBV2.Types
     subnetMapping_subnetId,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_value,
     tag_key,
 
     -- * TagDescription
-    TagDescription,
+    TagDescription (TagDescription'),
     newTagDescription,
     tagDescription_resourceArn,
     tagDescription_tags,
 
     -- * TargetDescription
-    TargetDescription,
+    TargetDescription (TargetDescription'),
     newTargetDescription,
     targetDescription_availabilityZone,
     targetDescription_port,
     targetDescription_id,
 
     -- * TargetGroup
-    TargetGroup,
+    TargetGroup (TargetGroup'),
     newTargetGroup,
     targetGroup_healthCheckEnabled,
     targetGroup_healthCheckIntervalSeconds,
@@ -362,32 +362,32 @@ module Amazonka.ELBV2.Types
     targetGroup_vpcId,
 
     -- * TargetGroupAttribute
-    TargetGroupAttribute,
+    TargetGroupAttribute (TargetGroupAttribute'),
     newTargetGroupAttribute,
     targetGroupAttribute_key,
     targetGroupAttribute_value,
 
     -- * TargetGroupStickinessConfig
-    TargetGroupStickinessConfig,
+    TargetGroupStickinessConfig (TargetGroupStickinessConfig'),
     newTargetGroupStickinessConfig,
     targetGroupStickinessConfig_durationSeconds,
     targetGroupStickinessConfig_enabled,
 
     -- * TargetGroupTuple
-    TargetGroupTuple,
+    TargetGroupTuple (TargetGroupTuple'),
     newTargetGroupTuple,
     targetGroupTuple_targetGroupArn,
     targetGroupTuple_weight,
 
     -- * TargetHealth
-    TargetHealth,
+    TargetHealth (TargetHealth'),
     newTargetHealth,
     targetHealth_description,
     targetHealth_reason,
     targetHealth_state,
 
     -- * TargetHealthDescription
-    TargetHealthDescription,
+    TargetHealthDescription (TargetHealthDescription'),
     newTargetHealthDescription,
     targetHealthDescription_healthCheckPort,
     targetHealthDescription_target,

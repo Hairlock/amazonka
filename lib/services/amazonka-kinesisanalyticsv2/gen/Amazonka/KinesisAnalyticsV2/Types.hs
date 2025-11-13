@@ -34,64 +34,64 @@ module Amazonka.KinesisAnalyticsV2.Types
     _UnsupportedOperationException,
 
     -- * ApplicationMode
-    ApplicationMode,
+    ApplicationMode (ApplicationMode'),
 
     -- * ApplicationRestoreType
-    ApplicationRestoreType,
+    ApplicationRestoreType (ApplicationRestoreType'),
 
     -- * ApplicationStatus
-    ApplicationStatus,
+    ApplicationStatus (ApplicationStatus'),
 
     -- * ArtifactType
-    ArtifactType,
+    ArtifactType (ArtifactType'),
 
     -- * CodeContentType
-    CodeContentType,
+    CodeContentType (CodeContentType'),
 
     -- * ConfigurationType
-    ConfigurationType,
+    ConfigurationType (ConfigurationType'),
 
     -- * InputStartingPosition
-    InputStartingPosition,
+    InputStartingPosition (InputStartingPosition'),
 
     -- * LogLevel
-    LogLevel,
+    LogLevel (LogLevel'),
 
     -- * MetricsLevel
-    MetricsLevel,
+    MetricsLevel (MetricsLevel'),
 
     -- * RecordFormatType
-    RecordFormatType,
+    RecordFormatType (RecordFormatType'),
 
     -- * RuntimeEnvironment
-    RuntimeEnvironment,
+    RuntimeEnvironment (RuntimeEnvironment'),
 
     -- * SnapshotStatus
-    SnapshotStatus,
+    SnapshotStatus (SnapshotStatus'),
 
     -- * UrlType
-    UrlType,
+    UrlType (UrlType'),
 
     -- * ApplicationCodeConfiguration
-    ApplicationCodeConfiguration,
+    ApplicationCodeConfiguration (ApplicationCodeConfiguration'),
     newApplicationCodeConfiguration,
     applicationCodeConfiguration_codeContent,
     applicationCodeConfiguration_codeContentType,
 
     -- * ApplicationCodeConfigurationDescription
-    ApplicationCodeConfigurationDescription,
+    ApplicationCodeConfigurationDescription (ApplicationCodeConfigurationDescription'),
     newApplicationCodeConfigurationDescription,
     applicationCodeConfigurationDescription_codeContentDescription,
     applicationCodeConfigurationDescription_codeContentType,
 
     -- * ApplicationCodeConfigurationUpdate
-    ApplicationCodeConfigurationUpdate,
+    ApplicationCodeConfigurationUpdate (ApplicationCodeConfigurationUpdate'),
     newApplicationCodeConfigurationUpdate,
     applicationCodeConfigurationUpdate_codeContentTypeUpdate,
     applicationCodeConfigurationUpdate_codeContentUpdate,
 
     -- * ApplicationConfiguration
-    ApplicationConfiguration,
+    ApplicationConfiguration (ApplicationConfiguration'),
     newApplicationConfiguration,
     applicationConfiguration_applicationCodeConfiguration,
     applicationConfiguration_applicationSnapshotConfiguration,
@@ -102,7 +102,7 @@ module Amazonka.KinesisAnalyticsV2.Types
     applicationConfiguration_zeppelinApplicationConfiguration,
 
     -- * ApplicationConfigurationDescription
-    ApplicationConfigurationDescription,
+    ApplicationConfigurationDescription (ApplicationConfigurationDescription'),
     newApplicationConfigurationDescription,
     applicationConfigurationDescription_applicationCodeConfigurationDescription,
     applicationConfigurationDescription_applicationSnapshotConfigurationDescription,
@@ -114,7 +114,7 @@ module Amazonka.KinesisAnalyticsV2.Types
     applicationConfigurationDescription_zeppelinApplicationConfigurationDescription,
 
     -- * ApplicationConfigurationUpdate
-    ApplicationConfigurationUpdate,
+    ApplicationConfigurationUpdate (ApplicationConfigurationUpdate'),
     newApplicationConfigurationUpdate,
     applicationConfigurationUpdate_applicationCodeConfigurationUpdate,
     applicationConfigurationUpdate_applicationSnapshotConfigurationUpdate,
@@ -125,7 +125,7 @@ module Amazonka.KinesisAnalyticsV2.Types
     applicationConfigurationUpdate_zeppelinApplicationConfigurationUpdate,
 
     -- * ApplicationDetail
-    ApplicationDetail,
+    ApplicationDetail (ApplicationDetail'),
     newApplicationDetail,
     applicationDetail_applicationConfigurationDescription,
     applicationDetail_applicationDescription,
@@ -146,39 +146,39 @@ module Amazonka.KinesisAnalyticsV2.Types
     applicationDetail_applicationVersionId,
 
     -- * ApplicationMaintenanceConfigurationDescription
-    ApplicationMaintenanceConfigurationDescription,
+    ApplicationMaintenanceConfigurationDescription (ApplicationMaintenanceConfigurationDescription'),
     newApplicationMaintenanceConfigurationDescription,
     applicationMaintenanceConfigurationDescription_applicationMaintenanceWindowStartTime,
     applicationMaintenanceConfigurationDescription_applicationMaintenanceWindowEndTime,
 
     -- * ApplicationMaintenanceConfigurationUpdate
-    ApplicationMaintenanceConfigurationUpdate,
+    ApplicationMaintenanceConfigurationUpdate (ApplicationMaintenanceConfigurationUpdate'),
     newApplicationMaintenanceConfigurationUpdate,
     applicationMaintenanceConfigurationUpdate_applicationMaintenanceWindowStartTimeUpdate,
 
     -- * ApplicationRestoreConfiguration
-    ApplicationRestoreConfiguration,
+    ApplicationRestoreConfiguration (ApplicationRestoreConfiguration'),
     newApplicationRestoreConfiguration,
     applicationRestoreConfiguration_snapshotName,
     applicationRestoreConfiguration_applicationRestoreType,
 
     -- * ApplicationSnapshotConfiguration
-    ApplicationSnapshotConfiguration,
+    ApplicationSnapshotConfiguration (ApplicationSnapshotConfiguration'),
     newApplicationSnapshotConfiguration,
     applicationSnapshotConfiguration_snapshotsEnabled,
 
     -- * ApplicationSnapshotConfigurationDescription
-    ApplicationSnapshotConfigurationDescription,
+    ApplicationSnapshotConfigurationDescription (ApplicationSnapshotConfigurationDescription'),
     newApplicationSnapshotConfigurationDescription,
     applicationSnapshotConfigurationDescription_snapshotsEnabled,
 
     -- * ApplicationSnapshotConfigurationUpdate
-    ApplicationSnapshotConfigurationUpdate,
+    ApplicationSnapshotConfigurationUpdate (ApplicationSnapshotConfigurationUpdate'),
     newApplicationSnapshotConfigurationUpdate,
     applicationSnapshotConfigurationUpdate_snapshotsEnabledUpdate,
 
     -- * ApplicationSummary
-    ApplicationSummary,
+    ApplicationSummary (ApplicationSummary'),
     newApplicationSummary,
     applicationSummary_applicationMode,
     applicationSummary_applicationName,
@@ -188,34 +188,34 @@ module Amazonka.KinesisAnalyticsV2.Types
     applicationSummary_runtimeEnvironment,
 
     -- * ApplicationVersionSummary
-    ApplicationVersionSummary,
+    ApplicationVersionSummary (ApplicationVersionSummary'),
     newApplicationVersionSummary,
     applicationVersionSummary_applicationVersionId,
     applicationVersionSummary_applicationStatus,
 
     -- * CSVMappingParameters
-    CSVMappingParameters,
+    CSVMappingParameters (CSVMappingParameters'),
     newCSVMappingParameters,
     cSVMappingParameters_recordRowDelimiter,
     cSVMappingParameters_recordColumnDelimiter,
 
     -- * CatalogConfiguration
-    CatalogConfiguration,
+    CatalogConfiguration (CatalogConfiguration'),
     newCatalogConfiguration,
     catalogConfiguration_glueDataCatalogConfiguration,
 
     -- * CatalogConfigurationDescription
-    CatalogConfigurationDescription,
+    CatalogConfigurationDescription (CatalogConfigurationDescription'),
     newCatalogConfigurationDescription,
     catalogConfigurationDescription_glueDataCatalogConfigurationDescription,
 
     -- * CatalogConfigurationUpdate
-    CatalogConfigurationUpdate,
+    CatalogConfigurationUpdate (CatalogConfigurationUpdate'),
     newCatalogConfigurationUpdate,
     catalogConfigurationUpdate_glueDataCatalogConfigurationUpdate,
 
     -- * CheckpointConfiguration
-    CheckpointConfiguration,
+    CheckpointConfiguration (CheckpointConfiguration'),
     newCheckpointConfiguration,
     checkpointConfiguration_checkpointInterval,
     checkpointConfiguration_checkpointingEnabled,
@@ -223,7 +223,7 @@ module Amazonka.KinesisAnalyticsV2.Types
     checkpointConfiguration_configurationType,
 
     -- * CheckpointConfigurationDescription
-    CheckpointConfigurationDescription,
+    CheckpointConfigurationDescription (CheckpointConfigurationDescription'),
     newCheckpointConfigurationDescription,
     checkpointConfigurationDescription_checkpointInterval,
     checkpointConfigurationDescription_checkpointingEnabled,
@@ -231,7 +231,7 @@ module Amazonka.KinesisAnalyticsV2.Types
     checkpointConfigurationDescription_minPauseBetweenCheckpoints,
 
     -- * CheckpointConfigurationUpdate
-    CheckpointConfigurationUpdate,
+    CheckpointConfigurationUpdate (CheckpointConfigurationUpdate'),
     newCheckpointConfigurationUpdate,
     checkpointConfigurationUpdate_checkpointIntervalUpdate,
     checkpointConfigurationUpdate_checkpointingEnabledUpdate,
@@ -239,32 +239,32 @@ module Amazonka.KinesisAnalyticsV2.Types
     checkpointConfigurationUpdate_minPauseBetweenCheckpointsUpdate,
 
     -- * CloudWatchLoggingOption
-    CloudWatchLoggingOption,
+    CloudWatchLoggingOption (CloudWatchLoggingOption'),
     newCloudWatchLoggingOption,
     cloudWatchLoggingOption_logStreamARN,
 
     -- * CloudWatchLoggingOptionDescription
-    CloudWatchLoggingOptionDescription,
+    CloudWatchLoggingOptionDescription (CloudWatchLoggingOptionDescription'),
     newCloudWatchLoggingOptionDescription,
     cloudWatchLoggingOptionDescription_cloudWatchLoggingOptionId,
     cloudWatchLoggingOptionDescription_roleARN,
     cloudWatchLoggingOptionDescription_logStreamARN,
 
     -- * CloudWatchLoggingOptionUpdate
-    CloudWatchLoggingOptionUpdate,
+    CloudWatchLoggingOptionUpdate (CloudWatchLoggingOptionUpdate'),
     newCloudWatchLoggingOptionUpdate,
     cloudWatchLoggingOptionUpdate_logStreamARNUpdate,
     cloudWatchLoggingOptionUpdate_cloudWatchLoggingOptionId,
 
     -- * CodeContent
-    CodeContent,
+    CodeContent (CodeContent'),
     newCodeContent,
     codeContent_s3ContentLocation,
     codeContent_textContent,
     codeContent_zipFileContent,
 
     -- * CodeContentDescription
-    CodeContentDescription,
+    CodeContentDescription (CodeContentDescription'),
     newCodeContentDescription,
     codeContentDescription_codeMD5,
     codeContentDescription_codeSize,
@@ -272,70 +272,70 @@ module Amazonka.KinesisAnalyticsV2.Types
     codeContentDescription_textContent,
 
     -- * CodeContentUpdate
-    CodeContentUpdate,
+    CodeContentUpdate (CodeContentUpdate'),
     newCodeContentUpdate,
     codeContentUpdate_s3ContentLocationUpdate,
     codeContentUpdate_textContentUpdate,
     codeContentUpdate_zipFileContentUpdate,
 
     -- * CustomArtifactConfiguration
-    CustomArtifactConfiguration,
+    CustomArtifactConfiguration (CustomArtifactConfiguration'),
     newCustomArtifactConfiguration,
     customArtifactConfiguration_mavenReference,
     customArtifactConfiguration_s3ContentLocation,
     customArtifactConfiguration_artifactType,
 
     -- * CustomArtifactConfigurationDescription
-    CustomArtifactConfigurationDescription,
+    CustomArtifactConfigurationDescription (CustomArtifactConfigurationDescription'),
     newCustomArtifactConfigurationDescription,
     customArtifactConfigurationDescription_artifactType,
     customArtifactConfigurationDescription_mavenReferenceDescription,
     customArtifactConfigurationDescription_s3ContentLocationDescription,
 
     -- * DeployAsApplicationConfiguration
-    DeployAsApplicationConfiguration,
+    DeployAsApplicationConfiguration (DeployAsApplicationConfiguration'),
     newDeployAsApplicationConfiguration,
     deployAsApplicationConfiguration_s3ContentLocation,
 
     -- * DeployAsApplicationConfigurationDescription
-    DeployAsApplicationConfigurationDescription,
+    DeployAsApplicationConfigurationDescription (DeployAsApplicationConfigurationDescription'),
     newDeployAsApplicationConfigurationDescription,
     deployAsApplicationConfigurationDescription_s3ContentLocationDescription,
 
     -- * DeployAsApplicationConfigurationUpdate
-    DeployAsApplicationConfigurationUpdate,
+    DeployAsApplicationConfigurationUpdate (DeployAsApplicationConfigurationUpdate'),
     newDeployAsApplicationConfigurationUpdate,
     deployAsApplicationConfigurationUpdate_s3ContentLocationUpdate,
 
     -- * DestinationSchema
-    DestinationSchema,
+    DestinationSchema (DestinationSchema'),
     newDestinationSchema,
     destinationSchema_recordFormatType,
 
     -- * EnvironmentProperties
-    EnvironmentProperties,
+    EnvironmentProperties (EnvironmentProperties'),
     newEnvironmentProperties,
     environmentProperties_propertyGroups,
 
     -- * EnvironmentPropertyDescriptions
-    EnvironmentPropertyDescriptions,
+    EnvironmentPropertyDescriptions (EnvironmentPropertyDescriptions'),
     newEnvironmentPropertyDescriptions,
     environmentPropertyDescriptions_propertyGroupDescriptions,
 
     -- * EnvironmentPropertyUpdates
-    EnvironmentPropertyUpdates,
+    EnvironmentPropertyUpdates (EnvironmentPropertyUpdates'),
     newEnvironmentPropertyUpdates,
     environmentPropertyUpdates_propertyGroups,
 
     -- * FlinkApplicationConfiguration
-    FlinkApplicationConfiguration,
+    FlinkApplicationConfiguration (FlinkApplicationConfiguration'),
     newFlinkApplicationConfiguration,
     flinkApplicationConfiguration_checkpointConfiguration,
     flinkApplicationConfiguration_monitoringConfiguration,
     flinkApplicationConfiguration_parallelismConfiguration,
 
     -- * FlinkApplicationConfigurationDescription
-    FlinkApplicationConfigurationDescription,
+    FlinkApplicationConfigurationDescription (FlinkApplicationConfigurationDescription'),
     newFlinkApplicationConfigurationDescription,
     flinkApplicationConfigurationDescription_checkpointConfigurationDescription,
     flinkApplicationConfigurationDescription_jobPlanDescription,
@@ -343,34 +343,34 @@ module Amazonka.KinesisAnalyticsV2.Types
     flinkApplicationConfigurationDescription_parallelismConfigurationDescription,
 
     -- * FlinkApplicationConfigurationUpdate
-    FlinkApplicationConfigurationUpdate,
+    FlinkApplicationConfigurationUpdate (FlinkApplicationConfigurationUpdate'),
     newFlinkApplicationConfigurationUpdate,
     flinkApplicationConfigurationUpdate_checkpointConfigurationUpdate,
     flinkApplicationConfigurationUpdate_monitoringConfigurationUpdate,
     flinkApplicationConfigurationUpdate_parallelismConfigurationUpdate,
 
     -- * FlinkRunConfiguration
-    FlinkRunConfiguration,
+    FlinkRunConfiguration (FlinkRunConfiguration'),
     newFlinkRunConfiguration,
     flinkRunConfiguration_allowNonRestoredState,
 
     -- * GlueDataCatalogConfiguration
-    GlueDataCatalogConfiguration,
+    GlueDataCatalogConfiguration (GlueDataCatalogConfiguration'),
     newGlueDataCatalogConfiguration,
     glueDataCatalogConfiguration_databaseARN,
 
     -- * GlueDataCatalogConfigurationDescription
-    GlueDataCatalogConfigurationDescription,
+    GlueDataCatalogConfigurationDescription (GlueDataCatalogConfigurationDescription'),
     newGlueDataCatalogConfigurationDescription,
     glueDataCatalogConfigurationDescription_databaseARN,
 
     -- * GlueDataCatalogConfigurationUpdate
-    GlueDataCatalogConfigurationUpdate,
+    GlueDataCatalogConfigurationUpdate (GlueDataCatalogConfigurationUpdate'),
     newGlueDataCatalogConfigurationUpdate,
     glueDataCatalogConfigurationUpdate_databaseARNUpdate,
 
     -- * Input
-    Input,
+    Input (Input'),
     newInput,
     input_inputParallelism,
     input_inputProcessingConfiguration,
@@ -380,7 +380,7 @@ module Amazonka.KinesisAnalyticsV2.Types
     input_inputSchema,
 
     -- * InputDescription
-    InputDescription,
+    InputDescription (InputDescription'),
     newInputDescription,
     inputDescription_inAppStreamNames,
     inputDescription_inputId,
@@ -393,60 +393,60 @@ module Amazonka.KinesisAnalyticsV2.Types
     inputDescription_namePrefix,
 
     -- * InputLambdaProcessor
-    InputLambdaProcessor,
+    InputLambdaProcessor (InputLambdaProcessor'),
     newInputLambdaProcessor,
     inputLambdaProcessor_resourceARN,
 
     -- * InputLambdaProcessorDescription
-    InputLambdaProcessorDescription,
+    InputLambdaProcessorDescription (InputLambdaProcessorDescription'),
     newInputLambdaProcessorDescription,
     inputLambdaProcessorDescription_roleARN,
     inputLambdaProcessorDescription_resourceARN,
 
     -- * InputLambdaProcessorUpdate
-    InputLambdaProcessorUpdate,
+    InputLambdaProcessorUpdate (InputLambdaProcessorUpdate'),
     newInputLambdaProcessorUpdate,
     inputLambdaProcessorUpdate_resourceARNUpdate,
 
     -- * InputParallelism
-    InputParallelism,
+    InputParallelism (InputParallelism'),
     newInputParallelism,
     inputParallelism_count,
 
     -- * InputParallelismUpdate
-    InputParallelismUpdate,
+    InputParallelismUpdate (InputParallelismUpdate'),
     newInputParallelismUpdate,
     inputParallelismUpdate_countUpdate,
 
     -- * InputProcessingConfiguration
-    InputProcessingConfiguration,
+    InputProcessingConfiguration (InputProcessingConfiguration'),
     newInputProcessingConfiguration,
     inputProcessingConfiguration_inputLambdaProcessor,
 
     -- * InputProcessingConfigurationDescription
-    InputProcessingConfigurationDescription,
+    InputProcessingConfigurationDescription (InputProcessingConfigurationDescription'),
     newInputProcessingConfigurationDescription,
     inputProcessingConfigurationDescription_inputLambdaProcessorDescription,
 
     -- * InputProcessingConfigurationUpdate
-    InputProcessingConfigurationUpdate,
+    InputProcessingConfigurationUpdate (InputProcessingConfigurationUpdate'),
     newInputProcessingConfigurationUpdate,
     inputProcessingConfigurationUpdate_inputLambdaProcessorUpdate,
 
     -- * InputSchemaUpdate
-    InputSchemaUpdate,
+    InputSchemaUpdate (InputSchemaUpdate'),
     newInputSchemaUpdate,
     inputSchemaUpdate_recordColumnUpdates,
     inputSchemaUpdate_recordEncodingUpdate,
     inputSchemaUpdate_recordFormatUpdate,
 
     -- * InputStartingPositionConfiguration
-    InputStartingPositionConfiguration,
+    InputStartingPositionConfiguration (InputStartingPositionConfiguration'),
     newInputStartingPositionConfiguration,
     inputStartingPositionConfiguration_inputStartingPosition,
 
     -- * InputUpdate
-    InputUpdate,
+    InputUpdate (InputUpdate'),
     newInputUpdate,
     inputUpdate_inputParallelismUpdate,
     inputUpdate_inputProcessingConfigurationUpdate,
@@ -457,126 +457,126 @@ module Amazonka.KinesisAnalyticsV2.Types
     inputUpdate_inputId,
 
     -- * JSONMappingParameters
-    JSONMappingParameters,
+    JSONMappingParameters (JSONMappingParameters'),
     newJSONMappingParameters,
     jSONMappingParameters_recordRowPath,
 
     -- * KinesisFirehoseInput
-    KinesisFirehoseInput,
+    KinesisFirehoseInput (KinesisFirehoseInput'),
     newKinesisFirehoseInput,
     kinesisFirehoseInput_resourceARN,
 
     -- * KinesisFirehoseInputDescription
-    KinesisFirehoseInputDescription,
+    KinesisFirehoseInputDescription (KinesisFirehoseInputDescription'),
     newKinesisFirehoseInputDescription,
     kinesisFirehoseInputDescription_roleARN,
     kinesisFirehoseInputDescription_resourceARN,
 
     -- * KinesisFirehoseInputUpdate
-    KinesisFirehoseInputUpdate,
+    KinesisFirehoseInputUpdate (KinesisFirehoseInputUpdate'),
     newKinesisFirehoseInputUpdate,
     kinesisFirehoseInputUpdate_resourceARNUpdate,
 
     -- * KinesisFirehoseOutput
-    KinesisFirehoseOutput,
+    KinesisFirehoseOutput (KinesisFirehoseOutput'),
     newKinesisFirehoseOutput,
     kinesisFirehoseOutput_resourceARN,
 
     -- * KinesisFirehoseOutputDescription
-    KinesisFirehoseOutputDescription,
+    KinesisFirehoseOutputDescription (KinesisFirehoseOutputDescription'),
     newKinesisFirehoseOutputDescription,
     kinesisFirehoseOutputDescription_roleARN,
     kinesisFirehoseOutputDescription_resourceARN,
 
     -- * KinesisFirehoseOutputUpdate
-    KinesisFirehoseOutputUpdate,
+    KinesisFirehoseOutputUpdate (KinesisFirehoseOutputUpdate'),
     newKinesisFirehoseOutputUpdate,
     kinesisFirehoseOutputUpdate_resourceARNUpdate,
 
     -- * KinesisStreamsInput
-    KinesisStreamsInput,
+    KinesisStreamsInput (KinesisStreamsInput'),
     newKinesisStreamsInput,
     kinesisStreamsInput_resourceARN,
 
     -- * KinesisStreamsInputDescription
-    KinesisStreamsInputDescription,
+    KinesisStreamsInputDescription (KinesisStreamsInputDescription'),
     newKinesisStreamsInputDescription,
     kinesisStreamsInputDescription_roleARN,
     kinesisStreamsInputDescription_resourceARN,
 
     -- * KinesisStreamsInputUpdate
-    KinesisStreamsInputUpdate,
+    KinesisStreamsInputUpdate (KinesisStreamsInputUpdate'),
     newKinesisStreamsInputUpdate,
     kinesisStreamsInputUpdate_resourceARNUpdate,
 
     -- * KinesisStreamsOutput
-    KinesisStreamsOutput,
+    KinesisStreamsOutput (KinesisStreamsOutput'),
     newKinesisStreamsOutput,
     kinesisStreamsOutput_resourceARN,
 
     -- * KinesisStreamsOutputDescription
-    KinesisStreamsOutputDescription,
+    KinesisStreamsOutputDescription (KinesisStreamsOutputDescription'),
     newKinesisStreamsOutputDescription,
     kinesisStreamsOutputDescription_roleARN,
     kinesisStreamsOutputDescription_resourceARN,
 
     -- * KinesisStreamsOutputUpdate
-    KinesisStreamsOutputUpdate,
+    KinesisStreamsOutputUpdate (KinesisStreamsOutputUpdate'),
     newKinesisStreamsOutputUpdate,
     kinesisStreamsOutputUpdate_resourceARNUpdate,
 
     -- * LambdaOutput
-    LambdaOutput,
+    LambdaOutput (LambdaOutput'),
     newLambdaOutput,
     lambdaOutput_resourceARN,
 
     -- * LambdaOutputDescription
-    LambdaOutputDescription,
+    LambdaOutputDescription (LambdaOutputDescription'),
     newLambdaOutputDescription,
     lambdaOutputDescription_roleARN,
     lambdaOutputDescription_resourceARN,
 
     -- * LambdaOutputUpdate
-    LambdaOutputUpdate,
+    LambdaOutputUpdate (LambdaOutputUpdate'),
     newLambdaOutputUpdate,
     lambdaOutputUpdate_resourceARNUpdate,
 
     -- * MappingParameters
-    MappingParameters,
+    MappingParameters (MappingParameters'),
     newMappingParameters,
     mappingParameters_cSVMappingParameters,
     mappingParameters_jSONMappingParameters,
 
     -- * MavenReference
-    MavenReference,
+    MavenReference (MavenReference'),
     newMavenReference,
     mavenReference_groupId,
     mavenReference_artifactId,
     mavenReference_version,
 
     -- * MonitoringConfiguration
-    MonitoringConfiguration,
+    MonitoringConfiguration (MonitoringConfiguration'),
     newMonitoringConfiguration,
     monitoringConfiguration_logLevel,
     monitoringConfiguration_metricsLevel,
     monitoringConfiguration_configurationType,
 
     -- * MonitoringConfigurationDescription
-    MonitoringConfigurationDescription,
+    MonitoringConfigurationDescription (MonitoringConfigurationDescription'),
     newMonitoringConfigurationDescription,
     monitoringConfigurationDescription_configurationType,
     monitoringConfigurationDescription_logLevel,
     monitoringConfigurationDescription_metricsLevel,
 
     -- * MonitoringConfigurationUpdate
-    MonitoringConfigurationUpdate,
+    MonitoringConfigurationUpdate (MonitoringConfigurationUpdate'),
     newMonitoringConfigurationUpdate,
     monitoringConfigurationUpdate_configurationTypeUpdate,
     monitoringConfigurationUpdate_logLevelUpdate,
     monitoringConfigurationUpdate_metricsLevelUpdate,
 
     -- * Output
-    Output,
+    Output (Output'),
     newOutput,
     output_kinesisFirehoseOutput,
     output_kinesisStreamsOutput,
@@ -585,7 +585,7 @@ module Amazonka.KinesisAnalyticsV2.Types
     output_destinationSchema,
 
     -- * OutputDescription
-    OutputDescription,
+    OutputDescription (OutputDescription'),
     newOutputDescription,
     outputDescription_destinationSchema,
     outputDescription_kinesisFirehoseOutputDescription,
@@ -595,7 +595,7 @@ module Amazonka.KinesisAnalyticsV2.Types
     outputDescription_outputId,
 
     -- * OutputUpdate
-    OutputUpdate,
+    OutputUpdate (OutputUpdate'),
     newOutputUpdate,
     outputUpdate_destinationSchemaUpdate,
     outputUpdate_kinesisFirehoseOutputUpdate,
@@ -605,7 +605,7 @@ module Amazonka.KinesisAnalyticsV2.Types
     outputUpdate_outputId,
 
     -- * ParallelismConfiguration
-    ParallelismConfiguration,
+    ParallelismConfiguration (ParallelismConfiguration'),
     newParallelismConfiguration,
     parallelismConfiguration_autoScalingEnabled,
     parallelismConfiguration_parallelism,
@@ -613,7 +613,7 @@ module Amazonka.KinesisAnalyticsV2.Types
     parallelismConfiguration_configurationType,
 
     -- * ParallelismConfigurationDescription
-    ParallelismConfigurationDescription,
+    ParallelismConfigurationDescription (ParallelismConfigurationDescription'),
     newParallelismConfigurationDescription,
     parallelismConfigurationDescription_autoScalingEnabled,
     parallelismConfigurationDescription_configurationType,
@@ -622,7 +622,7 @@ module Amazonka.KinesisAnalyticsV2.Types
     parallelismConfigurationDescription_parallelismPerKPU,
 
     -- * ParallelismConfigurationUpdate
-    ParallelismConfigurationUpdate,
+    ParallelismConfigurationUpdate (ParallelismConfigurationUpdate'),
     newParallelismConfigurationUpdate,
     parallelismConfigurationUpdate_autoScalingEnabledUpdate,
     parallelismConfigurationUpdate_configurationTypeUpdate,
@@ -630,33 +630,33 @@ module Amazonka.KinesisAnalyticsV2.Types
     parallelismConfigurationUpdate_parallelismUpdate,
 
     -- * PropertyGroup
-    PropertyGroup,
+    PropertyGroup (PropertyGroup'),
     newPropertyGroup,
     propertyGroup_propertyGroupId,
     propertyGroup_propertyMap,
 
     -- * RecordColumn
-    RecordColumn,
+    RecordColumn (RecordColumn'),
     newRecordColumn,
     recordColumn_mapping,
     recordColumn_name,
     recordColumn_sqlType,
 
     -- * RecordFormat
-    RecordFormat,
+    RecordFormat (RecordFormat'),
     newRecordFormat,
     recordFormat_mappingParameters,
     recordFormat_recordFormatType,
 
     -- * ReferenceDataSource
-    ReferenceDataSource,
+    ReferenceDataSource (ReferenceDataSource'),
     newReferenceDataSource,
     referenceDataSource_s3ReferenceDataSource,
     referenceDataSource_tableName,
     referenceDataSource_referenceSchema,
 
     -- * ReferenceDataSourceDescription
-    ReferenceDataSourceDescription,
+    ReferenceDataSourceDescription (ReferenceDataSourceDescription'),
     newReferenceDataSourceDescription,
     referenceDataSourceDescription_referenceSchema,
     referenceDataSourceDescription_referenceId,
@@ -664,7 +664,7 @@ module Amazonka.KinesisAnalyticsV2.Types
     referenceDataSourceDescription_s3ReferenceDataSourceDescription,
 
     -- * ReferenceDataSourceUpdate
-    ReferenceDataSourceUpdate,
+    ReferenceDataSourceUpdate (ReferenceDataSourceUpdate'),
     newReferenceDataSourceUpdate,
     referenceDataSourceUpdate_referenceSchemaUpdate,
     referenceDataSourceUpdate_s3ReferenceDataSourceUpdate,
@@ -672,90 +672,90 @@ module Amazonka.KinesisAnalyticsV2.Types
     referenceDataSourceUpdate_referenceId,
 
     -- * RunConfiguration
-    RunConfiguration,
+    RunConfiguration (RunConfiguration'),
     newRunConfiguration,
     runConfiguration_applicationRestoreConfiguration,
     runConfiguration_flinkRunConfiguration,
     runConfiguration_sqlRunConfigurations,
 
     -- * RunConfigurationDescription
-    RunConfigurationDescription,
+    RunConfigurationDescription (RunConfigurationDescription'),
     newRunConfigurationDescription,
     runConfigurationDescription_applicationRestoreConfigurationDescription,
     runConfigurationDescription_flinkRunConfigurationDescription,
 
     -- * RunConfigurationUpdate
-    RunConfigurationUpdate,
+    RunConfigurationUpdate (RunConfigurationUpdate'),
     newRunConfigurationUpdate,
     runConfigurationUpdate_applicationRestoreConfiguration,
     runConfigurationUpdate_flinkRunConfiguration,
 
     -- * S3ApplicationCodeLocationDescription
-    S3ApplicationCodeLocationDescription,
+    S3ApplicationCodeLocationDescription (S3ApplicationCodeLocationDescription'),
     newS3ApplicationCodeLocationDescription,
     s3ApplicationCodeLocationDescription_objectVersion,
     s3ApplicationCodeLocationDescription_bucketARN,
     s3ApplicationCodeLocationDescription_fileKey,
 
     -- * S3Configuration
-    S3Configuration,
+    S3Configuration (S3Configuration'),
     newS3Configuration,
     s3Configuration_bucketARN,
     s3Configuration_fileKey,
 
     -- * S3ContentBaseLocation
-    S3ContentBaseLocation,
+    S3ContentBaseLocation (S3ContentBaseLocation'),
     newS3ContentBaseLocation,
     s3ContentBaseLocation_basePath,
     s3ContentBaseLocation_bucketARN,
 
     -- * S3ContentBaseLocationDescription
-    S3ContentBaseLocationDescription,
+    S3ContentBaseLocationDescription (S3ContentBaseLocationDescription'),
     newS3ContentBaseLocationDescription,
     s3ContentBaseLocationDescription_basePath,
     s3ContentBaseLocationDescription_bucketARN,
 
     -- * S3ContentBaseLocationUpdate
-    S3ContentBaseLocationUpdate,
+    S3ContentBaseLocationUpdate (S3ContentBaseLocationUpdate'),
     newS3ContentBaseLocationUpdate,
     s3ContentBaseLocationUpdate_basePathUpdate,
     s3ContentBaseLocationUpdate_bucketARNUpdate,
 
     -- * S3ContentLocation
-    S3ContentLocation,
+    S3ContentLocation (S3ContentLocation'),
     newS3ContentLocation,
     s3ContentLocation_objectVersion,
     s3ContentLocation_bucketARN,
     s3ContentLocation_fileKey,
 
     -- * S3ContentLocationUpdate
-    S3ContentLocationUpdate,
+    S3ContentLocationUpdate (S3ContentLocationUpdate'),
     newS3ContentLocationUpdate,
     s3ContentLocationUpdate_bucketARNUpdate,
     s3ContentLocationUpdate_fileKeyUpdate,
     s3ContentLocationUpdate_objectVersionUpdate,
 
     -- * S3ReferenceDataSource
-    S3ReferenceDataSource,
+    S3ReferenceDataSource (S3ReferenceDataSource'),
     newS3ReferenceDataSource,
     s3ReferenceDataSource_bucketARN,
     s3ReferenceDataSource_fileKey,
 
     -- * S3ReferenceDataSourceDescription
-    S3ReferenceDataSourceDescription,
+    S3ReferenceDataSourceDescription (S3ReferenceDataSourceDescription'),
     newS3ReferenceDataSourceDescription,
     s3ReferenceDataSourceDescription_referenceRoleARN,
     s3ReferenceDataSourceDescription_bucketARN,
     s3ReferenceDataSourceDescription_fileKey,
 
     -- * S3ReferenceDataSourceUpdate
-    S3ReferenceDataSourceUpdate,
+    S3ReferenceDataSourceUpdate (S3ReferenceDataSourceUpdate'),
     newS3ReferenceDataSourceUpdate,
     s3ReferenceDataSourceUpdate_bucketARNUpdate,
     s3ReferenceDataSourceUpdate_fileKeyUpdate,
 
     -- * SnapshotDetails
-    SnapshotDetails,
+    SnapshotDetails (SnapshotDetails'),
     newSnapshotDetails,
     snapshotDetails_snapshotCreationTimestamp,
     snapshotDetails_snapshotName,
@@ -763,53 +763,53 @@ module Amazonka.KinesisAnalyticsV2.Types
     snapshotDetails_applicationVersionId,
 
     -- * SourceSchema
-    SourceSchema,
+    SourceSchema (SourceSchema'),
     newSourceSchema,
     sourceSchema_recordEncoding,
     sourceSchema_recordFormat,
     sourceSchema_recordColumns,
 
     -- * SqlApplicationConfiguration
-    SqlApplicationConfiguration,
+    SqlApplicationConfiguration (SqlApplicationConfiguration'),
     newSqlApplicationConfiguration,
     sqlApplicationConfiguration_inputs,
     sqlApplicationConfiguration_outputs,
     sqlApplicationConfiguration_referenceDataSources,
 
     -- * SqlApplicationConfigurationDescription
-    SqlApplicationConfigurationDescription,
+    SqlApplicationConfigurationDescription (SqlApplicationConfigurationDescription'),
     newSqlApplicationConfigurationDescription,
     sqlApplicationConfigurationDescription_inputDescriptions,
     sqlApplicationConfigurationDescription_outputDescriptions,
     sqlApplicationConfigurationDescription_referenceDataSourceDescriptions,
 
     -- * SqlApplicationConfigurationUpdate
-    SqlApplicationConfigurationUpdate,
+    SqlApplicationConfigurationUpdate (SqlApplicationConfigurationUpdate'),
     newSqlApplicationConfigurationUpdate,
     sqlApplicationConfigurationUpdate_inputUpdates,
     sqlApplicationConfigurationUpdate_outputUpdates,
     sqlApplicationConfigurationUpdate_referenceDataSourceUpdates,
 
     -- * SqlRunConfiguration
-    SqlRunConfiguration,
+    SqlRunConfiguration (SqlRunConfiguration'),
     newSqlRunConfiguration,
     sqlRunConfiguration_inputId,
     sqlRunConfiguration_inputStartingPositionConfiguration,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_value,
     tag_key,
 
     -- * VpcConfiguration
-    VpcConfiguration,
+    VpcConfiguration (VpcConfiguration'),
     newVpcConfiguration,
     vpcConfiguration_subnetIds,
     vpcConfiguration_securityGroupIds,
 
     -- * VpcConfigurationDescription
-    VpcConfigurationDescription,
+    VpcConfigurationDescription (VpcConfigurationDescription'),
     newVpcConfigurationDescription,
     vpcConfigurationDescription_vpcConfigurationId,
     vpcConfigurationDescription_vpcId,
@@ -817,14 +817,14 @@ module Amazonka.KinesisAnalyticsV2.Types
     vpcConfigurationDescription_securityGroupIds,
 
     -- * VpcConfigurationUpdate
-    VpcConfigurationUpdate,
+    VpcConfigurationUpdate (VpcConfigurationUpdate'),
     newVpcConfigurationUpdate,
     vpcConfigurationUpdate_securityGroupIdUpdates,
     vpcConfigurationUpdate_subnetIdUpdates,
     vpcConfigurationUpdate_vpcConfigurationId,
 
     -- * ZeppelinApplicationConfiguration
-    ZeppelinApplicationConfiguration,
+    ZeppelinApplicationConfiguration (ZeppelinApplicationConfiguration'),
     newZeppelinApplicationConfiguration,
     zeppelinApplicationConfiguration_catalogConfiguration,
     zeppelinApplicationConfiguration_customArtifactsConfiguration,
@@ -832,7 +832,7 @@ module Amazonka.KinesisAnalyticsV2.Types
     zeppelinApplicationConfiguration_monitoringConfiguration,
 
     -- * ZeppelinApplicationConfigurationDescription
-    ZeppelinApplicationConfigurationDescription,
+    ZeppelinApplicationConfigurationDescription (ZeppelinApplicationConfigurationDescription'),
     newZeppelinApplicationConfigurationDescription,
     zeppelinApplicationConfigurationDescription_catalogConfigurationDescription,
     zeppelinApplicationConfigurationDescription_customArtifactsConfigurationDescription,
@@ -840,7 +840,7 @@ module Amazonka.KinesisAnalyticsV2.Types
     zeppelinApplicationConfigurationDescription_monitoringConfigurationDescription,
 
     -- * ZeppelinApplicationConfigurationUpdate
-    ZeppelinApplicationConfigurationUpdate,
+    ZeppelinApplicationConfigurationUpdate (ZeppelinApplicationConfigurationUpdate'),
     newZeppelinApplicationConfigurationUpdate,
     zeppelinApplicationConfigurationUpdate_catalogConfigurationUpdate,
     zeppelinApplicationConfigurationUpdate_customArtifactsConfigurationUpdate,
@@ -848,17 +848,17 @@ module Amazonka.KinesisAnalyticsV2.Types
     zeppelinApplicationConfigurationUpdate_monitoringConfigurationUpdate,
 
     -- * ZeppelinMonitoringConfiguration
-    ZeppelinMonitoringConfiguration,
+    ZeppelinMonitoringConfiguration (ZeppelinMonitoringConfiguration'),
     newZeppelinMonitoringConfiguration,
     zeppelinMonitoringConfiguration_logLevel,
 
     -- * ZeppelinMonitoringConfigurationDescription
-    ZeppelinMonitoringConfigurationDescription,
+    ZeppelinMonitoringConfigurationDescription (ZeppelinMonitoringConfigurationDescription'),
     newZeppelinMonitoringConfigurationDescription,
     zeppelinMonitoringConfigurationDescription_logLevel,
 
     -- * ZeppelinMonitoringConfigurationUpdate
-    ZeppelinMonitoringConfigurationUpdate,
+    ZeppelinMonitoringConfigurationUpdate (ZeppelinMonitoringConfigurationUpdate'),
     newZeppelinMonitoringConfigurationUpdate,
     zeppelinMonitoringConfigurationUpdate_logLevelUpdate,
   )

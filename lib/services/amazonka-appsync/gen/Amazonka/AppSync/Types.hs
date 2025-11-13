@@ -32,58 +32,58 @@ module Amazonka.AppSync.Types
     _UnauthorizedException,
 
     -- * ApiCacheStatus
-    ApiCacheStatus,
+    ApiCacheStatus (ApiCacheStatus'),
 
     -- * ApiCacheType
-    ApiCacheType,
+    ApiCacheType (ApiCacheType'),
 
     -- * ApiCachingBehavior
-    ApiCachingBehavior,
+    ApiCachingBehavior (ApiCachingBehavior'),
 
     -- * AssociationStatus
-    AssociationStatus,
+    AssociationStatus (AssociationStatus'),
 
     -- * AuthenticationType
-    AuthenticationType,
+    AuthenticationType (AuthenticationType'),
 
     -- * AuthorizationType
-    AuthorizationType,
+    AuthorizationType (AuthorizationType'),
 
     -- * ConflictDetectionType
-    ConflictDetectionType,
+    ConflictDetectionType (ConflictDetectionType'),
 
     -- * ConflictHandlerType
-    ConflictHandlerType,
+    ConflictHandlerType (ConflictHandlerType'),
 
     -- * DataSourceType
-    DataSourceType,
+    DataSourceType (DataSourceType'),
 
     -- * DefaultAction
-    DefaultAction,
+    DefaultAction (DefaultAction'),
 
     -- * FieldLogLevel
-    FieldLogLevel,
+    FieldLogLevel (FieldLogLevel'),
 
     -- * OutputType
-    OutputType,
+    OutputType (OutputType'),
 
     -- * RelationalDatabaseSourceType
-    RelationalDatabaseSourceType,
+    RelationalDatabaseSourceType (RelationalDatabaseSourceType'),
 
     -- * ResolverKind
-    ResolverKind,
+    ResolverKind (ResolverKind'),
 
     -- * RuntimeName
-    RuntimeName,
+    RuntimeName (RuntimeName'),
 
     -- * SchemaStatus
-    SchemaStatus,
+    SchemaStatus (SchemaStatus'),
 
     -- * TypeDefinitionFormat
-    TypeDefinitionFormat,
+    TypeDefinitionFormat (TypeDefinitionFormat'),
 
     -- * AdditionalAuthenticationProvider
-    AdditionalAuthenticationProvider,
+    AdditionalAuthenticationProvider (AdditionalAuthenticationProvider'),
     newAdditionalAuthenticationProvider,
     additionalAuthenticationProvider_authenticationType,
     additionalAuthenticationProvider_lambdaAuthorizerConfig,
@@ -91,7 +91,7 @@ module Amazonka.AppSync.Types
     additionalAuthenticationProvider_userPoolConfig,
 
     -- * ApiAssociation
-    ApiAssociation,
+    ApiAssociation (ApiAssociation'),
     newApiAssociation,
     apiAssociation_apiId,
     apiAssociation_associationStatus,
@@ -99,7 +99,7 @@ module Amazonka.AppSync.Types
     apiAssociation_domainName,
 
     -- * ApiCache
-    ApiCache,
+    ApiCache (ApiCache'),
     newApiCache,
     apiCache_apiCachingBehavior,
     apiCache_atRestEncryptionEnabled,
@@ -109,7 +109,7 @@ module Amazonka.AppSync.Types
     apiCache_type,
 
     -- * ApiKey
-    ApiKey,
+    ApiKey (ApiKey'),
     newApiKey,
     apiKey_deletes,
     apiKey_description,
@@ -117,52 +117,52 @@ module Amazonka.AppSync.Types
     apiKey_id,
 
     -- * AppSyncRuntime
-    AppSyncRuntime,
+    AppSyncRuntime (AppSyncRuntime'),
     newAppSyncRuntime,
     appSyncRuntime_name,
     appSyncRuntime_runtimeVersion,
 
     -- * AuthorizationConfig
-    AuthorizationConfig,
+    AuthorizationConfig (AuthorizationConfig'),
     newAuthorizationConfig,
     authorizationConfig_awsIamConfig,
     authorizationConfig_authorizationType,
 
     -- * AwsIamConfig
-    AwsIamConfig,
+    AwsIamConfig (AwsIamConfig'),
     newAwsIamConfig,
     awsIamConfig_signingRegion,
     awsIamConfig_signingServiceName,
 
     -- * CachingConfig
-    CachingConfig,
+    CachingConfig (CachingConfig'),
     newCachingConfig,
     cachingConfig_cachingKeys,
     cachingConfig_ttl,
 
     -- * CodeError
-    CodeError,
+    CodeError (CodeError'),
     newCodeError,
     codeError_errorType,
     codeError_location,
     codeError_value,
 
     -- * CodeErrorLocation
-    CodeErrorLocation,
+    CodeErrorLocation (CodeErrorLocation'),
     newCodeErrorLocation,
     codeErrorLocation_column,
     codeErrorLocation_line,
     codeErrorLocation_span,
 
     -- * CognitoUserPoolConfig
-    CognitoUserPoolConfig,
+    CognitoUserPoolConfig (CognitoUserPoolConfig'),
     newCognitoUserPoolConfig,
     cognitoUserPoolConfig_appIdClientRegex,
     cognitoUserPoolConfig_userPoolId,
     cognitoUserPoolConfig_awsRegion,
 
     -- * DataSource
-    DataSource,
+    DataSource (DataSource'),
     newDataSource,
     dataSource_dataSourceArn,
     dataSource_description,
@@ -177,14 +177,14 @@ module Amazonka.AppSync.Types
     dataSource_type,
 
     -- * DeltaSyncConfig
-    DeltaSyncConfig,
+    DeltaSyncConfig (DeltaSyncConfig'),
     newDeltaSyncConfig,
     deltaSyncConfig_baseTableTTL,
     deltaSyncConfig_deltaSyncTableName,
     deltaSyncConfig_deltaSyncTableTTL,
 
     -- * DomainNameConfig
-    DomainNameConfig,
+    DomainNameConfig (DomainNameConfig'),
     newDomainNameConfig,
     domainNameConfig_appsyncDomainName,
     domainNameConfig_certificateArn,
@@ -193,7 +193,7 @@ module Amazonka.AppSync.Types
     domainNameConfig_hostedZoneId,
 
     -- * DynamodbDataSourceConfig
-    DynamodbDataSourceConfig,
+    DynamodbDataSourceConfig (DynamodbDataSourceConfig'),
     newDynamodbDataSourceConfig,
     dynamodbDataSourceConfig_deltaSyncConfig,
     dynamodbDataSourceConfig_useCallerCredentials,
@@ -202,24 +202,24 @@ module Amazonka.AppSync.Types
     dynamodbDataSourceConfig_awsRegion,
 
     -- * ElasticsearchDataSourceConfig
-    ElasticsearchDataSourceConfig,
+    ElasticsearchDataSourceConfig (ElasticsearchDataSourceConfig'),
     newElasticsearchDataSourceConfig,
     elasticsearchDataSourceConfig_endpoint,
     elasticsearchDataSourceConfig_awsRegion,
 
     -- * ErrorDetail
-    ErrorDetail,
+    ErrorDetail (ErrorDetail'),
     newErrorDetail,
     errorDetail_message,
 
     -- * EvaluateCodeErrorDetail
-    EvaluateCodeErrorDetail,
+    EvaluateCodeErrorDetail (EvaluateCodeErrorDetail'),
     newEvaluateCodeErrorDetail,
     evaluateCodeErrorDetail_codeErrors,
     evaluateCodeErrorDetail_message,
 
     -- * FunctionConfiguration
-    FunctionConfiguration,
+    FunctionConfiguration (FunctionConfiguration'),
     newFunctionConfiguration,
     functionConfiguration_code,
     functionConfiguration_dataSourceName,
@@ -235,7 +235,7 @@ module Amazonka.AppSync.Types
     functionConfiguration_syncConfig,
 
     -- * GraphqlApi
-    GraphqlApi,
+    GraphqlApi (GraphqlApi'),
     newGraphqlApi,
     graphqlApi_additionalAuthenticationProviders,
     graphqlApi_apiId,
@@ -252,37 +252,37 @@ module Amazonka.AppSync.Types
     graphqlApi_xrayEnabled,
 
     -- * HttpDataSourceConfig
-    HttpDataSourceConfig,
+    HttpDataSourceConfig (HttpDataSourceConfig'),
     newHttpDataSourceConfig,
     httpDataSourceConfig_authorizationConfig,
     httpDataSourceConfig_endpoint,
 
     -- * LambdaAuthorizerConfig
-    LambdaAuthorizerConfig,
+    LambdaAuthorizerConfig (LambdaAuthorizerConfig'),
     newLambdaAuthorizerConfig,
     lambdaAuthorizerConfig_authorizerResultTtlInSeconds,
     lambdaAuthorizerConfig_identityValidationExpression,
     lambdaAuthorizerConfig_authorizerUri,
 
     -- * LambdaConflictHandlerConfig
-    LambdaConflictHandlerConfig,
+    LambdaConflictHandlerConfig (LambdaConflictHandlerConfig'),
     newLambdaConflictHandlerConfig,
     lambdaConflictHandlerConfig_lambdaConflictHandlerArn,
 
     -- * LambdaDataSourceConfig
-    LambdaDataSourceConfig,
+    LambdaDataSourceConfig (LambdaDataSourceConfig'),
     newLambdaDataSourceConfig,
     lambdaDataSourceConfig_lambdaFunctionArn,
 
     -- * LogConfig
-    LogConfig,
+    LogConfig (LogConfig'),
     newLogConfig,
     logConfig_excludeVerboseContent,
     logConfig_fieldLogLevel,
     logConfig_cloudWatchLogsRoleArn,
 
     -- * OpenIDConnectConfig
-    OpenIDConnectConfig,
+    OpenIDConnectConfig (OpenIDConnectConfig'),
     newOpenIDConnectConfig,
     openIDConnectConfig_authTTL,
     openIDConnectConfig_clientId,
@@ -290,18 +290,18 @@ module Amazonka.AppSync.Types
     openIDConnectConfig_issuer,
 
     -- * OpenSearchServiceDataSourceConfig
-    OpenSearchServiceDataSourceConfig,
+    OpenSearchServiceDataSourceConfig (OpenSearchServiceDataSourceConfig'),
     newOpenSearchServiceDataSourceConfig,
     openSearchServiceDataSourceConfig_endpoint,
     openSearchServiceDataSourceConfig_awsRegion,
 
     -- * PipelineConfig
-    PipelineConfig,
+    PipelineConfig (PipelineConfig'),
     newPipelineConfig,
     pipelineConfig_functions,
 
     -- * RdsHttpEndpointConfig
-    RdsHttpEndpointConfig,
+    RdsHttpEndpointConfig (RdsHttpEndpointConfig'),
     newRdsHttpEndpointConfig,
     rdsHttpEndpointConfig_awsRegion,
     rdsHttpEndpointConfig_awsSecretStoreArn,
@@ -310,13 +310,13 @@ module Amazonka.AppSync.Types
     rdsHttpEndpointConfig_schema,
 
     -- * RelationalDatabaseDataSourceConfig
-    RelationalDatabaseDataSourceConfig,
+    RelationalDatabaseDataSourceConfig (RelationalDatabaseDataSourceConfig'),
     newRelationalDatabaseDataSourceConfig,
     relationalDatabaseDataSourceConfig_rdsHttpEndpointConfig,
     relationalDatabaseDataSourceConfig_relationalDatabaseSourceType,
 
     -- * Resolver
-    Resolver,
+    Resolver (Resolver'),
     newResolver,
     resolver_cachingConfig,
     resolver_code,
@@ -333,14 +333,14 @@ module Amazonka.AppSync.Types
     resolver_typeName,
 
     -- * SyncConfig
-    SyncConfig,
+    SyncConfig (SyncConfig'),
     newSyncConfig,
     syncConfig_conflictDetection,
     syncConfig_conflictHandler,
     syncConfig_lambdaConflictHandlerConfig,
 
     -- * Type
-    Type,
+    Type (Type'),
     newType,
     type_arn,
     type_definition,
@@ -349,7 +349,7 @@ module Amazonka.AppSync.Types
     type_name,
 
     -- * UserPoolConfig
-    UserPoolConfig,
+    UserPoolConfig (UserPoolConfig'),
     newUserPoolConfig,
     userPoolConfig_appIdClientRegex,
     userPoolConfig_userPoolId,

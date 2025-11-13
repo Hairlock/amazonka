@@ -28,187 +28,187 @@ module Amazonka.LexV2Models.Types
     _ValidationException,
 
     -- * AggregatedUtterancesFilterName
-    AggregatedUtterancesFilterName,
+    AggregatedUtterancesFilterName (AggregatedUtterancesFilterName'),
 
     -- * AggregatedUtterancesFilterOperator
-    AggregatedUtterancesFilterOperator,
+    AggregatedUtterancesFilterOperator (AggregatedUtterancesFilterOperator'),
 
     -- * AggregatedUtterancesSortAttribute
-    AggregatedUtterancesSortAttribute,
+    AggregatedUtterancesSortAttribute (AggregatedUtterancesSortAttribute'),
 
     -- * AssociatedTranscriptFilterName
-    AssociatedTranscriptFilterName,
+    AssociatedTranscriptFilterName (AssociatedTranscriptFilterName'),
 
     -- * AudioRecognitionStrategy
-    AudioRecognitionStrategy,
+    AudioRecognitionStrategy (AudioRecognitionStrategy'),
 
     -- * BotAliasStatus
-    BotAliasStatus,
+    BotAliasStatus (BotAliasStatus'),
 
     -- * BotFilterName
-    BotFilterName,
+    BotFilterName (BotFilterName'),
 
     -- * BotFilterOperator
-    BotFilterOperator,
+    BotFilterOperator (BotFilterOperator'),
 
     -- * BotLocaleFilterName
-    BotLocaleFilterName,
+    BotLocaleFilterName (BotLocaleFilterName'),
 
     -- * BotLocaleFilterOperator
-    BotLocaleFilterOperator,
+    BotLocaleFilterOperator (BotLocaleFilterOperator'),
 
     -- * BotLocaleSortAttribute
-    BotLocaleSortAttribute,
+    BotLocaleSortAttribute (BotLocaleSortAttribute'),
 
     -- * BotLocaleStatus
-    BotLocaleStatus,
+    BotLocaleStatus (BotLocaleStatus'),
 
     -- * BotRecommendationStatus
-    BotRecommendationStatus,
+    BotRecommendationStatus (BotRecommendationStatus'),
 
     -- * BotSortAttribute
-    BotSortAttribute,
+    BotSortAttribute (BotSortAttribute'),
 
     -- * BotStatus
-    BotStatus,
+    BotStatus (BotStatus'),
 
     -- * BotVersionSortAttribute
-    BotVersionSortAttribute,
+    BotVersionSortAttribute (BotVersionSortAttribute'),
 
     -- * BuiltInIntentSortAttribute
-    BuiltInIntentSortAttribute,
+    BuiltInIntentSortAttribute (BuiltInIntentSortAttribute'),
 
     -- * BuiltInSlotTypeSortAttribute
-    BuiltInSlotTypeSortAttribute,
+    BuiltInSlotTypeSortAttribute (BuiltInSlotTypeSortAttribute'),
 
     -- * CustomVocabularyStatus
-    CustomVocabularyStatus,
+    CustomVocabularyStatus (CustomVocabularyStatus'),
 
     -- * DialogActionType
-    DialogActionType,
+    DialogActionType (DialogActionType'),
 
     -- * Effect
-    Effect,
+    Effect (Effect'),
 
     -- * ErrorCode
-    ErrorCode,
+    ErrorCode (ErrorCode'),
 
     -- * ExportFilterName
-    ExportFilterName,
+    ExportFilterName (ExportFilterName'),
 
     -- * ExportFilterOperator
-    ExportFilterOperator,
+    ExportFilterOperator (ExportFilterOperator'),
 
     -- * ExportSortAttribute
-    ExportSortAttribute,
+    ExportSortAttribute (ExportSortAttribute'),
 
     -- * ExportStatus
-    ExportStatus,
+    ExportStatus (ExportStatus'),
 
     -- * ImportExportFileFormat
-    ImportExportFileFormat,
+    ImportExportFileFormat (ImportExportFileFormat'),
 
     -- * ImportFilterName
-    ImportFilterName,
+    ImportFilterName (ImportFilterName'),
 
     -- * ImportFilterOperator
-    ImportFilterOperator,
+    ImportFilterOperator (ImportFilterOperator'),
 
     -- * ImportResourceType
-    ImportResourceType,
+    ImportResourceType (ImportResourceType'),
 
     -- * ImportSortAttribute
-    ImportSortAttribute,
+    ImportSortAttribute (ImportSortAttribute'),
 
     -- * ImportStatus
-    ImportStatus,
+    ImportStatus (ImportStatus'),
 
     -- * IntentFilterName
-    IntentFilterName,
+    IntentFilterName (IntentFilterName'),
 
     -- * IntentFilterOperator
-    IntentFilterOperator,
+    IntentFilterOperator (IntentFilterOperator'),
 
     -- * IntentSortAttribute
-    IntentSortAttribute,
+    IntentSortAttribute (IntentSortAttribute'),
 
     -- * MergeStrategy
-    MergeStrategy,
+    MergeStrategy (MergeStrategy'),
 
     -- * MessageSelectionStrategy
-    MessageSelectionStrategy,
+    MessageSelectionStrategy (MessageSelectionStrategy'),
 
     -- * ObfuscationSettingType
-    ObfuscationSettingType,
+    ObfuscationSettingType (ObfuscationSettingType'),
 
     -- * PromptAttempt
-    PromptAttempt,
+    PromptAttempt (PromptAttempt'),
 
     -- * SearchOrder
-    SearchOrder,
+    SearchOrder (SearchOrder'),
 
     -- * SlotConstraint
-    SlotConstraint,
+    SlotConstraint (SlotConstraint'),
 
     -- * SlotFilterName
-    SlotFilterName,
+    SlotFilterName (SlotFilterName'),
 
     -- * SlotFilterOperator
-    SlotFilterOperator,
+    SlotFilterOperator (SlotFilterOperator'),
 
     -- * SlotShape
-    SlotShape,
+    SlotShape (SlotShape'),
 
     -- * SlotSortAttribute
-    SlotSortAttribute,
+    SlotSortAttribute (SlotSortAttribute'),
 
     -- * SlotTypeCategory
-    SlotTypeCategory,
+    SlotTypeCategory (SlotTypeCategory'),
 
     -- * SlotTypeFilterName
-    SlotTypeFilterName,
+    SlotTypeFilterName (SlotTypeFilterName'),
 
     -- * SlotTypeFilterOperator
-    SlotTypeFilterOperator,
+    SlotTypeFilterOperator (SlotTypeFilterOperator'),
 
     -- * SlotTypeSortAttribute
-    SlotTypeSortAttribute,
+    SlotTypeSortAttribute (SlotTypeSortAttribute'),
 
     -- * SlotValueResolutionStrategy
-    SlotValueResolutionStrategy,
+    SlotValueResolutionStrategy (SlotValueResolutionStrategy'),
 
     -- * SortOrder
-    SortOrder,
+    SortOrder (SortOrder'),
 
     -- * TimeDimension
-    TimeDimension,
+    TimeDimension (TimeDimension'),
 
     -- * TranscriptFormat
-    TranscriptFormat,
+    TranscriptFormat (TranscriptFormat'),
 
     -- * VoiceEngine
-    VoiceEngine,
+    VoiceEngine (VoiceEngine'),
 
     -- * AdvancedRecognitionSetting
-    AdvancedRecognitionSetting,
+    AdvancedRecognitionSetting (AdvancedRecognitionSetting'),
     newAdvancedRecognitionSetting,
     advancedRecognitionSetting_audioRecognitionStrategy,
 
     -- * AggregatedUtterancesFilter
-    AggregatedUtterancesFilter,
+    AggregatedUtterancesFilter (AggregatedUtterancesFilter'),
     newAggregatedUtterancesFilter,
     aggregatedUtterancesFilter_name,
     aggregatedUtterancesFilter_values,
     aggregatedUtterancesFilter_operator,
 
     -- * AggregatedUtterancesSortBy
-    AggregatedUtterancesSortBy,
+    AggregatedUtterancesSortBy (AggregatedUtterancesSortBy'),
     newAggregatedUtterancesSortBy,
     aggregatedUtterancesSortBy_attribute,
     aggregatedUtterancesSortBy_order,
 
     -- * AggregatedUtterancesSummary
-    AggregatedUtterancesSummary,
+    AggregatedUtterancesSummary (AggregatedUtterancesSummary'),
     newAggregatedUtterancesSummary,
     aggregatedUtterancesSummary_containsDataFromDeletedResources,
     aggregatedUtterancesSummary_hitCount,
@@ -218,61 +218,61 @@ module Amazonka.LexV2Models.Types
     aggregatedUtterancesSummary_utteranceLastRecordedInAggregationDuration,
 
     -- * AllowedInputTypes
-    AllowedInputTypes,
+    AllowedInputTypes (AllowedInputTypes'),
     newAllowedInputTypes,
     allowedInputTypes_allowAudioInput,
     allowedInputTypes_allowDTMFInput,
 
     -- * AssociatedTranscript
-    AssociatedTranscript,
+    AssociatedTranscript (AssociatedTranscript'),
     newAssociatedTranscript,
     associatedTranscript_transcript,
 
     -- * AssociatedTranscriptFilter
-    AssociatedTranscriptFilter,
+    AssociatedTranscriptFilter (AssociatedTranscriptFilter'),
     newAssociatedTranscriptFilter,
     associatedTranscriptFilter_name,
     associatedTranscriptFilter_values,
 
     -- * AudioAndDTMFInputSpecification
-    AudioAndDTMFInputSpecification,
+    AudioAndDTMFInputSpecification (AudioAndDTMFInputSpecification'),
     newAudioAndDTMFInputSpecification,
     audioAndDTMFInputSpecification_audioSpecification,
     audioAndDTMFInputSpecification_dtmfSpecification,
     audioAndDTMFInputSpecification_startTimeoutMs,
 
     -- * AudioLogDestination
-    AudioLogDestination,
+    AudioLogDestination (AudioLogDestination'),
     newAudioLogDestination,
     audioLogDestination_s3Bucket,
 
     -- * AudioLogSetting
-    AudioLogSetting,
+    AudioLogSetting (AudioLogSetting'),
     newAudioLogSetting,
     audioLogSetting_enabled,
     audioLogSetting_destination,
 
     -- * AudioSpecification
-    AudioSpecification,
+    AudioSpecification (AudioSpecification'),
     newAudioSpecification,
     audioSpecification_maxLengthMs,
     audioSpecification_endTimeoutMs,
 
     -- * BotAliasHistoryEvent
-    BotAliasHistoryEvent,
+    BotAliasHistoryEvent (BotAliasHistoryEvent'),
     newBotAliasHistoryEvent,
     botAliasHistoryEvent_botVersion,
     botAliasHistoryEvent_endDate,
     botAliasHistoryEvent_startDate,
 
     -- * BotAliasLocaleSettings
-    BotAliasLocaleSettings,
+    BotAliasLocaleSettings (BotAliasLocaleSettings'),
     newBotAliasLocaleSettings,
     botAliasLocaleSettings_codeHookSpecification,
     botAliasLocaleSettings_enabled,
 
     -- * BotAliasSummary
-    BotAliasSummary,
+    BotAliasSummary (BotAliasSummary'),
     newBotAliasSummary,
     botAliasSummary_botAliasId,
     botAliasSummary_botAliasName,
@@ -283,20 +283,20 @@ module Amazonka.LexV2Models.Types
     botAliasSummary_lastUpdatedDateTime,
 
     -- * BotExportSpecification
-    BotExportSpecification,
+    BotExportSpecification (BotExportSpecification'),
     newBotExportSpecification,
     botExportSpecification_botId,
     botExportSpecification_botVersion,
 
     -- * BotFilter
-    BotFilter,
+    BotFilter (BotFilter'),
     newBotFilter,
     botFilter_name,
     botFilter_values,
     botFilter_operator,
 
     -- * BotImportSpecification
-    BotImportSpecification,
+    BotImportSpecification (BotImportSpecification'),
     newBotImportSpecification,
     botImportSpecification_botTags,
     botImportSpecification_idleSessionTTLInSeconds,
@@ -306,27 +306,27 @@ module Amazonka.LexV2Models.Types
     botImportSpecification_dataPrivacy,
 
     -- * BotLocaleExportSpecification
-    BotLocaleExportSpecification,
+    BotLocaleExportSpecification (BotLocaleExportSpecification'),
     newBotLocaleExportSpecification,
     botLocaleExportSpecification_botId,
     botLocaleExportSpecification_botVersion,
     botLocaleExportSpecification_localeId,
 
     -- * BotLocaleFilter
-    BotLocaleFilter,
+    BotLocaleFilter (BotLocaleFilter'),
     newBotLocaleFilter,
     botLocaleFilter_name,
     botLocaleFilter_values,
     botLocaleFilter_operator,
 
     -- * BotLocaleHistoryEvent
-    BotLocaleHistoryEvent,
+    BotLocaleHistoryEvent (BotLocaleHistoryEvent'),
     newBotLocaleHistoryEvent,
     botLocaleHistoryEvent_event,
     botLocaleHistoryEvent_eventDate,
 
     -- * BotLocaleImportSpecification
-    BotLocaleImportSpecification,
+    BotLocaleImportSpecification (BotLocaleImportSpecification'),
     newBotLocaleImportSpecification,
     botLocaleImportSpecification_nluIntentConfidenceThreshold,
     botLocaleImportSpecification_voiceSettings,
@@ -335,13 +335,13 @@ module Amazonka.LexV2Models.Types
     botLocaleImportSpecification_localeId,
 
     -- * BotLocaleSortBy
-    BotLocaleSortBy,
+    BotLocaleSortBy (BotLocaleSortBy'),
     newBotLocaleSortBy,
     botLocaleSortBy_attribute,
     botLocaleSortBy_order,
 
     -- * BotLocaleSummary
-    BotLocaleSummary,
+    BotLocaleSummary (BotLocaleSummary'),
     newBotLocaleSummary,
     botLocaleSummary_botLocaleStatus,
     botLocaleSummary_description,
@@ -351,20 +351,20 @@ module Amazonka.LexV2Models.Types
     botLocaleSummary_localeName,
 
     -- * BotRecommendationResultStatistics
-    BotRecommendationResultStatistics,
+    BotRecommendationResultStatistics (BotRecommendationResultStatistics'),
     newBotRecommendationResultStatistics,
     botRecommendationResultStatistics_intents,
     botRecommendationResultStatistics_slotTypes,
 
     -- * BotRecommendationResults
-    BotRecommendationResults,
+    BotRecommendationResults (BotRecommendationResults'),
     newBotRecommendationResults,
     botRecommendationResults_associatedTranscriptsUrl,
     botRecommendationResults_botLocaleExportUrl,
     botRecommendationResults_statistics,
 
     -- * BotRecommendationSummary
-    BotRecommendationSummary,
+    BotRecommendationSummary (BotRecommendationSummary'),
     newBotRecommendationSummary,
     botRecommendationSummary_creationDateTime,
     botRecommendationSummary_lastUpdatedDateTime,
@@ -372,13 +372,13 @@ module Amazonka.LexV2Models.Types
     botRecommendationSummary_botRecommendationId,
 
     -- * BotSortBy
-    BotSortBy,
+    BotSortBy (BotSortBy'),
     newBotSortBy,
     botSortBy_attribute,
     botSortBy_order,
 
     -- * BotSummary
-    BotSummary,
+    BotSummary (BotSummary'),
     newBotSummary,
     botSummary_botId,
     botSummary_botName,
@@ -388,18 +388,18 @@ module Amazonka.LexV2Models.Types
     botSummary_latestBotVersion,
 
     -- * BotVersionLocaleDetails
-    BotVersionLocaleDetails,
+    BotVersionLocaleDetails (BotVersionLocaleDetails'),
     newBotVersionLocaleDetails,
     botVersionLocaleDetails_sourceBotVersion,
 
     -- * BotVersionSortBy
-    BotVersionSortBy,
+    BotVersionSortBy (BotVersionSortBy'),
     newBotVersionSortBy,
     botVersionSortBy_attribute,
     botVersionSortBy_order,
 
     -- * BotVersionSummary
-    BotVersionSummary,
+    BotVersionSummary (BotVersionSummary'),
     newBotVersionSummary,
     botVersionSummary_botName,
     botVersionSummary_botStatus,
@@ -408,58 +408,58 @@ module Amazonka.LexV2Models.Types
     botVersionSummary_description,
 
     -- * BuiltInIntentSortBy
-    BuiltInIntentSortBy,
+    BuiltInIntentSortBy (BuiltInIntentSortBy'),
     newBuiltInIntentSortBy,
     builtInIntentSortBy_attribute,
     builtInIntentSortBy_order,
 
     -- * BuiltInIntentSummary
-    BuiltInIntentSummary,
+    BuiltInIntentSummary (BuiltInIntentSummary'),
     newBuiltInIntentSummary,
     builtInIntentSummary_description,
     builtInIntentSummary_intentSignature,
 
     -- * BuiltInSlotTypeSortBy
-    BuiltInSlotTypeSortBy,
+    BuiltInSlotTypeSortBy (BuiltInSlotTypeSortBy'),
     newBuiltInSlotTypeSortBy,
     builtInSlotTypeSortBy_attribute,
     builtInSlotTypeSortBy_order,
 
     -- * BuiltInSlotTypeSummary
-    BuiltInSlotTypeSummary,
+    BuiltInSlotTypeSummary (BuiltInSlotTypeSummary'),
     newBuiltInSlotTypeSummary,
     builtInSlotTypeSummary_description,
     builtInSlotTypeSummary_slotTypeSignature,
 
     -- * Button
-    Button,
+    Button (Button'),
     newButton,
     button_text,
     button_value,
 
     -- * CloudWatchLogGroupLogDestination
-    CloudWatchLogGroupLogDestination,
+    CloudWatchLogGroupLogDestination (CloudWatchLogGroupLogDestination'),
     newCloudWatchLogGroupLogDestination,
     cloudWatchLogGroupLogDestination_cloudWatchLogGroupArn,
     cloudWatchLogGroupLogDestination_logPrefix,
 
     -- * CodeHookSpecification
-    CodeHookSpecification,
+    CodeHookSpecification (CodeHookSpecification'),
     newCodeHookSpecification,
     codeHookSpecification_lambdaCodeHook,
 
     -- * CompositeSlotTypeSetting
-    CompositeSlotTypeSetting,
+    CompositeSlotTypeSetting (CompositeSlotTypeSetting'),
     newCompositeSlotTypeSetting,
     compositeSlotTypeSetting_subSlots,
 
     -- * Condition
-    Condition,
+    Condition (Condition'),
     newCondition,
     condition_expressionString,
 
     -- * ConditionalBranch
-    ConditionalBranch,
+    ConditionalBranch (ConditionalBranch'),
     newConditionalBranch,
     conditionalBranch_response,
     conditionalBranch_name,
@@ -467,44 +467,44 @@ module Amazonka.LexV2Models.Types
     conditionalBranch_nextStep,
 
     -- * ConditionalSpecification
-    ConditionalSpecification,
+    ConditionalSpecification (ConditionalSpecification'),
     newConditionalSpecification,
     conditionalSpecification_active,
     conditionalSpecification_conditionalBranches,
     conditionalSpecification_defaultBranch,
 
     -- * ConversationLogSettings
-    ConversationLogSettings,
+    ConversationLogSettings (ConversationLogSettings'),
     newConversationLogSettings,
     conversationLogSettings_audioLogSettings,
     conversationLogSettings_textLogSettings,
 
     -- * CustomPayload
-    CustomPayload,
+    CustomPayload (CustomPayload'),
     newCustomPayload,
     customPayload_value,
 
     -- * CustomVocabularyEntryId
-    CustomVocabularyEntryId,
+    CustomVocabularyEntryId (CustomVocabularyEntryId'),
     newCustomVocabularyEntryId,
     customVocabularyEntryId_itemId,
 
     -- * CustomVocabularyExportSpecification
-    CustomVocabularyExportSpecification,
+    CustomVocabularyExportSpecification (CustomVocabularyExportSpecification'),
     newCustomVocabularyExportSpecification,
     customVocabularyExportSpecification_botId,
     customVocabularyExportSpecification_botVersion,
     customVocabularyExportSpecification_localeId,
 
     -- * CustomVocabularyImportSpecification
-    CustomVocabularyImportSpecification,
+    CustomVocabularyImportSpecification (CustomVocabularyImportSpecification'),
     newCustomVocabularyImportSpecification,
     customVocabularyImportSpecification_botId,
     customVocabularyImportSpecification_botVersion,
     customVocabularyImportSpecification_localeId,
 
     -- * CustomVocabularyItem
-    CustomVocabularyItem,
+    CustomVocabularyItem (CustomVocabularyItem'),
     newCustomVocabularyItem,
     customVocabularyItem_displayAs,
     customVocabularyItem_weight,
@@ -512,7 +512,7 @@ module Amazonka.LexV2Models.Types
     customVocabularyItem_phrase,
 
     -- * DTMFSpecification
-    DTMFSpecification,
+    DTMFSpecification (DTMFSpecification'),
     newDTMFSpecification,
     dTMFSpecification_maxLength,
     dTMFSpecification_endTimeoutMs,
@@ -520,31 +520,31 @@ module Amazonka.LexV2Models.Types
     dTMFSpecification_endCharacter,
 
     -- * DataPrivacy
-    DataPrivacy,
+    DataPrivacy (DataPrivacy'),
     newDataPrivacy,
     dataPrivacy_childDirected,
 
     -- * DateRangeFilter
-    DateRangeFilter,
+    DateRangeFilter (DateRangeFilter'),
     newDateRangeFilter,
     dateRangeFilter_startDateTime,
     dateRangeFilter_endDateTime,
 
     -- * DefaultConditionalBranch
-    DefaultConditionalBranch,
+    DefaultConditionalBranch (DefaultConditionalBranch'),
     newDefaultConditionalBranch,
     defaultConditionalBranch_nextStep,
     defaultConditionalBranch_response,
 
     -- * DialogAction
-    DialogAction,
+    DialogAction (DialogAction'),
     newDialogAction,
     dialogAction_slotToElicit,
     dialogAction_suppressNextMessage,
     dialogAction_type,
 
     -- * DialogCodeHookInvocationSetting
-    DialogCodeHookInvocationSetting,
+    DialogCodeHookInvocationSetting (DialogCodeHookInvocationSetting'),
     newDialogCodeHookInvocationSetting,
     dialogCodeHookInvocationSetting_invocationLabel,
     dialogCodeHookInvocationSetting_enableCodeHookInvocation,
@@ -552,52 +552,52 @@ module Amazonka.LexV2Models.Types
     dialogCodeHookInvocationSetting_postCodeHookSpecification,
 
     -- * DialogCodeHookSettings
-    DialogCodeHookSettings,
+    DialogCodeHookSettings (DialogCodeHookSettings'),
     newDialogCodeHookSettings,
     dialogCodeHookSettings_enabled,
 
     -- * DialogState
-    DialogState,
+    DialogState (DialogState'),
     newDialogState,
     dialogState_dialogAction,
     dialogState_intent,
     dialogState_sessionAttributes,
 
     -- * ElicitationCodeHookInvocationSetting
-    ElicitationCodeHookInvocationSetting,
+    ElicitationCodeHookInvocationSetting (ElicitationCodeHookInvocationSetting'),
     newElicitationCodeHookInvocationSetting,
     elicitationCodeHookInvocationSetting_invocationLabel,
     elicitationCodeHookInvocationSetting_enableCodeHookInvocation,
 
     -- * EncryptionSetting
-    EncryptionSetting,
+    EncryptionSetting (EncryptionSetting'),
     newEncryptionSetting,
     encryptionSetting_associatedTranscriptsPassword,
     encryptionSetting_botLocaleExportPassword,
     encryptionSetting_kmsKeyArn,
 
     -- * ExportFilter
-    ExportFilter,
+    ExportFilter (ExportFilter'),
     newExportFilter,
     exportFilter_name,
     exportFilter_values,
     exportFilter_operator,
 
     -- * ExportResourceSpecification
-    ExportResourceSpecification,
+    ExportResourceSpecification (ExportResourceSpecification'),
     newExportResourceSpecification,
     exportResourceSpecification_botExportSpecification,
     exportResourceSpecification_botLocaleExportSpecification,
     exportResourceSpecification_customVocabularyExportSpecification,
 
     -- * ExportSortBy
-    ExportSortBy,
+    ExportSortBy (ExportSortBy'),
     newExportSortBy,
     exportSortBy_attribute,
     exportSortBy_order,
 
     -- * ExportSummary
-    ExportSummary,
+    ExportSummary (ExportSummary'),
     newExportSummary,
     exportSummary_creationDateTime,
     exportSummary_exportId,
@@ -607,19 +607,19 @@ module Amazonka.LexV2Models.Types
     exportSummary_resourceSpecification,
 
     -- * ExternalSourceSetting
-    ExternalSourceSetting,
+    ExternalSourceSetting (ExternalSourceSetting'),
     newExternalSourceSetting,
     externalSourceSetting_grammarSlotTypeSetting,
 
     -- * FailedCustomVocabularyItem
-    FailedCustomVocabularyItem,
+    FailedCustomVocabularyItem (FailedCustomVocabularyItem'),
     newFailedCustomVocabularyItem,
     failedCustomVocabularyItem_errorCode,
     failedCustomVocabularyItem_errorMessage,
     failedCustomVocabularyItem_itemId,
 
     -- * FulfillmentCodeHookSettings
-    FulfillmentCodeHookSettings,
+    FulfillmentCodeHookSettings (FulfillmentCodeHookSettings'),
     newFulfillmentCodeHookSettings,
     fulfillmentCodeHookSettings_active,
     fulfillmentCodeHookSettings_fulfillmentUpdatesSpecification,
@@ -627,21 +627,21 @@ module Amazonka.LexV2Models.Types
     fulfillmentCodeHookSettings_enabled,
 
     -- * FulfillmentStartResponseSpecification
-    FulfillmentStartResponseSpecification,
+    FulfillmentStartResponseSpecification (FulfillmentStartResponseSpecification'),
     newFulfillmentStartResponseSpecification,
     fulfillmentStartResponseSpecification_allowInterrupt,
     fulfillmentStartResponseSpecification_delayInSeconds,
     fulfillmentStartResponseSpecification_messageGroups,
 
     -- * FulfillmentUpdateResponseSpecification
-    FulfillmentUpdateResponseSpecification,
+    FulfillmentUpdateResponseSpecification (FulfillmentUpdateResponseSpecification'),
     newFulfillmentUpdateResponseSpecification,
     fulfillmentUpdateResponseSpecification_allowInterrupt,
     fulfillmentUpdateResponseSpecification_frequencyInSeconds,
     fulfillmentUpdateResponseSpecification_messageGroups,
 
     -- * FulfillmentUpdatesSpecification
-    FulfillmentUpdatesSpecification,
+    FulfillmentUpdatesSpecification (FulfillmentUpdatesSpecification'),
     newFulfillmentUpdatesSpecification,
     fulfillmentUpdatesSpecification_startResponse,
     fulfillmentUpdatesSpecification_timeoutInSeconds,
@@ -649,19 +649,19 @@ module Amazonka.LexV2Models.Types
     fulfillmentUpdatesSpecification_active,
 
     -- * GrammarSlotTypeSetting
-    GrammarSlotTypeSetting,
+    GrammarSlotTypeSetting (GrammarSlotTypeSetting'),
     newGrammarSlotTypeSetting,
     grammarSlotTypeSetting_source,
 
     -- * GrammarSlotTypeSource
-    GrammarSlotTypeSource,
+    GrammarSlotTypeSource (GrammarSlotTypeSource'),
     newGrammarSlotTypeSource,
     grammarSlotTypeSource_kmsKeyArn,
     grammarSlotTypeSource_s3BucketName,
     grammarSlotTypeSource_s3ObjectKey,
 
     -- * ImageResponseCard
-    ImageResponseCard,
+    ImageResponseCard (ImageResponseCard'),
     newImageResponseCard,
     imageResponseCard_buttons,
     imageResponseCard_imageUrl,
@@ -669,27 +669,27 @@ module Amazonka.LexV2Models.Types
     imageResponseCard_title,
 
     -- * ImportFilter
-    ImportFilter,
+    ImportFilter (ImportFilter'),
     newImportFilter,
     importFilter_name,
     importFilter_values,
     importFilter_operator,
 
     -- * ImportResourceSpecification
-    ImportResourceSpecification,
+    ImportResourceSpecification (ImportResourceSpecification'),
     newImportResourceSpecification,
     importResourceSpecification_botImportSpecification,
     importResourceSpecification_botLocaleImportSpecification,
     importResourceSpecification_customVocabularyImportSpecification,
 
     -- * ImportSortBy
-    ImportSortBy,
+    ImportSortBy (ImportSortBy'),
     newImportSortBy,
     importSortBy_attribute,
     importSortBy_order,
 
     -- * ImportSummary
-    ImportSummary,
+    ImportSummary (ImportSummary'),
     newImportSummary,
     importSummary_creationDateTime,
     importSummary_importId,
@@ -701,7 +701,7 @@ module Amazonka.LexV2Models.Types
     importSummary_mergeStrategy,
 
     -- * InitialResponseSetting
-    InitialResponseSetting,
+    InitialResponseSetting (InitialResponseSetting'),
     newInitialResponseSetting,
     initialResponseSetting_codeHook,
     initialResponseSetting_conditional,
@@ -709,12 +709,12 @@ module Amazonka.LexV2Models.Types
     initialResponseSetting_nextStep,
 
     -- * InputContext
-    InputContext,
+    InputContext (InputContext'),
     newInputContext,
     inputContext_name,
 
     -- * IntentClosingSetting
-    IntentClosingSetting,
+    IntentClosingSetting (IntentClosingSetting'),
     newIntentClosingSetting,
     intentClosingSetting_active,
     intentClosingSetting_closingResponse,
@@ -722,7 +722,7 @@ module Amazonka.LexV2Models.Types
     intentClosingSetting_nextStep,
 
     -- * IntentConfirmationSetting
-    IntentConfirmationSetting,
+    IntentConfirmationSetting (IntentConfirmationSetting'),
     newIntentConfirmationSetting,
     intentConfirmationSetting_active,
     intentConfirmationSetting_codeHook,
@@ -739,31 +739,31 @@ module Amazonka.LexV2Models.Types
     intentConfirmationSetting_promptSpecification,
 
     -- * IntentFilter
-    IntentFilter,
+    IntentFilter (IntentFilter'),
     newIntentFilter,
     intentFilter_name,
     intentFilter_values,
     intentFilter_operator,
 
     -- * IntentOverride
-    IntentOverride,
+    IntentOverride (IntentOverride'),
     newIntentOverride,
     intentOverride_name,
     intentOverride_slots,
 
     -- * IntentSortBy
-    IntentSortBy,
+    IntentSortBy (IntentSortBy'),
     newIntentSortBy,
     intentSortBy_attribute,
     intentSortBy_order,
 
     -- * IntentStatistics
-    IntentStatistics,
+    IntentStatistics (IntentStatistics'),
     newIntentStatistics,
     intentStatistics_discoveredIntentCount,
 
     -- * IntentSummary
-    IntentSummary,
+    IntentSummary (IntentSummary'),
     newIntentSummary,
     intentSummary_description,
     intentSummary_inputContexts,
@@ -774,25 +774,25 @@ module Amazonka.LexV2Models.Types
     intentSummary_parentIntentSignature,
 
     -- * KendraConfiguration
-    KendraConfiguration,
+    KendraConfiguration (KendraConfiguration'),
     newKendraConfiguration,
     kendraConfiguration_queryFilterString,
     kendraConfiguration_queryFilterStringEnabled,
     kendraConfiguration_kendraIndex,
 
     -- * LambdaCodeHook
-    LambdaCodeHook,
+    LambdaCodeHook (LambdaCodeHook'),
     newLambdaCodeHook,
     lambdaCodeHook_lambdaARN,
     lambdaCodeHook_codeHookInterfaceVersion,
 
     -- * LexTranscriptFilter
-    LexTranscriptFilter,
+    LexTranscriptFilter (LexTranscriptFilter'),
     newLexTranscriptFilter,
     lexTranscriptFilter_dateRangeFilter,
 
     -- * Message
-    Message,
+    Message (Message'),
     newMessage,
     message_customPayload,
     message_imageResponseCard,
@@ -800,47 +800,47 @@ module Amazonka.LexV2Models.Types
     message_ssmlMessage,
 
     -- * MessageGroup
-    MessageGroup,
+    MessageGroup (MessageGroup'),
     newMessageGroup,
     messageGroup_variations,
     messageGroup_message,
 
     -- * MultipleValuesSetting
-    MultipleValuesSetting,
+    MultipleValuesSetting (MultipleValuesSetting'),
     newMultipleValuesSetting,
     multipleValuesSetting_allowMultipleValues,
 
     -- * NewCustomVocabularyItem
-    NewCustomVocabularyItem,
+    NewCustomVocabularyItem (NewCustomVocabularyItem'),
     newNewCustomVocabularyItem,
     newCustomVocabularyItem_displayAs,
     newCustomVocabularyItem_weight,
     newCustomVocabularyItem_phrase,
 
     -- * ObfuscationSetting
-    ObfuscationSetting,
+    ObfuscationSetting (ObfuscationSetting'),
     newObfuscationSetting,
     obfuscationSetting_obfuscationSettingType,
 
     -- * OutputContext
-    OutputContext,
+    OutputContext (OutputContext'),
     newOutputContext,
     outputContext_name,
     outputContext_timeToLiveInSeconds,
     outputContext_turnsToLive,
 
     -- * PathFormat
-    PathFormat,
+    PathFormat (PathFormat'),
     newPathFormat,
     pathFormat_objectPrefixes,
 
     -- * PlainTextMessage
-    PlainTextMessage,
+    PlainTextMessage (PlainTextMessage'),
     newPlainTextMessage,
     plainTextMessage_value,
 
     -- * PostDialogCodeHookInvocationSpecification
-    PostDialogCodeHookInvocationSpecification,
+    PostDialogCodeHookInvocationSpecification (PostDialogCodeHookInvocationSpecification'),
     newPostDialogCodeHookInvocationSpecification,
     postDialogCodeHookInvocationSpecification_failureConditional,
     postDialogCodeHookInvocationSpecification_failureNextStep,
@@ -853,7 +853,7 @@ module Amazonka.LexV2Models.Types
     postDialogCodeHookInvocationSpecification_timeoutResponse,
 
     -- * PostFulfillmentStatusSpecification
-    PostFulfillmentStatusSpecification,
+    PostFulfillmentStatusSpecification (PostFulfillmentStatusSpecification'),
     newPostFulfillmentStatusSpecification,
     postFulfillmentStatusSpecification_failureConditional,
     postFulfillmentStatusSpecification_failureNextStep,
@@ -866,13 +866,13 @@ module Amazonka.LexV2Models.Types
     postFulfillmentStatusSpecification_timeoutResponse,
 
     -- * Principal
-    Principal,
+    Principal (Principal'),
     newPrincipal,
     principal_arn,
     principal_service,
 
     -- * PromptAttemptSpecification
-    PromptAttemptSpecification,
+    PromptAttemptSpecification (PromptAttemptSpecification'),
     newPromptAttemptSpecification,
     promptAttemptSpecification_allowInterrupt,
     promptAttemptSpecification_audioAndDTMFInputSpecification,
@@ -880,7 +880,7 @@ module Amazonka.LexV2Models.Types
     promptAttemptSpecification_allowedInputTypes,
 
     -- * PromptSpecification
-    PromptSpecification,
+    PromptSpecification (PromptSpecification'),
     newPromptSpecification,
     promptSpecification_allowInterrupt,
     promptSpecification_messageSelectionStrategy,
@@ -889,33 +889,33 @@ module Amazonka.LexV2Models.Types
     promptSpecification_maxRetries,
 
     -- * RecommendedIntentSummary
-    RecommendedIntentSummary,
+    RecommendedIntentSummary (RecommendedIntentSummary'),
     newRecommendedIntentSummary,
     recommendedIntentSummary_intentId,
     recommendedIntentSummary_intentName,
     recommendedIntentSummary_sampleUtterancesCount,
 
     -- * RelativeAggregationDuration
-    RelativeAggregationDuration,
+    RelativeAggregationDuration (RelativeAggregationDuration'),
     newRelativeAggregationDuration,
     relativeAggregationDuration_timeDimension,
     relativeAggregationDuration_timeValue,
 
     -- * ResponseSpecification
-    ResponseSpecification,
+    ResponseSpecification (ResponseSpecification'),
     newResponseSpecification,
     responseSpecification_allowInterrupt,
     responseSpecification_messageGroups,
 
     -- * S3BucketLogDestination
-    S3BucketLogDestination,
+    S3BucketLogDestination (S3BucketLogDestination'),
     newS3BucketLogDestination,
     s3BucketLogDestination_kmsKeyArn,
     s3BucketLogDestination_s3BucketArn,
     s3BucketLogDestination_logPrefix,
 
     -- * S3BucketTranscriptSource
-    S3BucketTranscriptSource,
+    S3BucketTranscriptSource (S3BucketTranscriptSource'),
     newS3BucketTranscriptSource,
     s3BucketTranscriptSource_kmsKeyArn,
     s3BucketTranscriptSource_pathFormat,
@@ -924,27 +924,27 @@ module Amazonka.LexV2Models.Types
     s3BucketTranscriptSource_transcriptFormat,
 
     -- * SSMLMessage
-    SSMLMessage,
+    SSMLMessage (SSMLMessage'),
     newSSMLMessage,
     sSMLMessage_value,
 
     -- * SampleUtterance
-    SampleUtterance,
+    SampleUtterance (SampleUtterance'),
     newSampleUtterance,
     sampleUtterance_utterance,
 
     -- * SampleValue
-    SampleValue,
+    SampleValue (SampleValue'),
     newSampleValue,
     sampleValue_value,
 
     -- * SentimentAnalysisSettings
-    SentimentAnalysisSettings,
+    SentimentAnalysisSettings (SentimentAnalysisSettings'),
     newSentimentAnalysisSettings,
     sentimentAnalysisSettings_detectSentiment,
 
     -- * SlotCaptureSetting
-    SlotCaptureSetting,
+    SlotCaptureSetting (SlotCaptureSetting'),
     newSlotCaptureSetting,
     slotCaptureSetting_captureConditional,
     slotCaptureSetting_captureNextStep,
@@ -956,36 +956,36 @@ module Amazonka.LexV2Models.Types
     slotCaptureSetting_failureResponse,
 
     -- * SlotDefaultValue
-    SlotDefaultValue,
+    SlotDefaultValue (SlotDefaultValue'),
     newSlotDefaultValue,
     slotDefaultValue_defaultValue,
 
     -- * SlotDefaultValueSpecification
-    SlotDefaultValueSpecification,
+    SlotDefaultValueSpecification (SlotDefaultValueSpecification'),
     newSlotDefaultValueSpecification,
     slotDefaultValueSpecification_defaultValueList,
 
     -- * SlotFilter
-    SlotFilter,
+    SlotFilter (SlotFilter'),
     newSlotFilter,
     slotFilter_name,
     slotFilter_values,
     slotFilter_operator,
 
     -- * SlotPriority
-    SlotPriority,
+    SlotPriority (SlotPriority'),
     newSlotPriority,
     slotPriority_priority,
     slotPriority_slotId,
 
     -- * SlotSortBy
-    SlotSortBy,
+    SlotSortBy (SlotSortBy'),
     newSlotSortBy,
     slotSortBy_attribute,
     slotSortBy_order,
 
     -- * SlotSummary
-    SlotSummary,
+    SlotSummary (SlotSummary'),
     newSlotSummary,
     slotSummary_description,
     slotSummary_lastUpdatedDateTime,
@@ -996,25 +996,25 @@ module Amazonka.LexV2Models.Types
     slotSummary_valueElicitationPromptSpecification,
 
     -- * SlotTypeFilter
-    SlotTypeFilter,
+    SlotTypeFilter (SlotTypeFilter'),
     newSlotTypeFilter,
     slotTypeFilter_name,
     slotTypeFilter_values,
     slotTypeFilter_operator,
 
     -- * SlotTypeSortBy
-    SlotTypeSortBy,
+    SlotTypeSortBy (SlotTypeSortBy'),
     newSlotTypeSortBy,
     slotTypeSortBy_attribute,
     slotTypeSortBy_order,
 
     -- * SlotTypeStatistics
-    SlotTypeStatistics,
+    SlotTypeStatistics (SlotTypeStatistics'),
     newSlotTypeStatistics,
     slotTypeStatistics_discoveredSlotTypeCount,
 
     -- * SlotTypeSummary
-    SlotTypeSummary,
+    SlotTypeSummary (SlotTypeSummary'),
     newSlotTypeSummary,
     slotTypeSummary_description,
     slotTypeSummary_lastUpdatedDateTime,
@@ -1024,18 +1024,18 @@ module Amazonka.LexV2Models.Types
     slotTypeSummary_slotTypeName,
 
     -- * SlotTypeValue
-    SlotTypeValue,
+    SlotTypeValue (SlotTypeValue'),
     newSlotTypeValue,
     slotTypeValue_sampleValue,
     slotTypeValue_synonyms,
 
     -- * SlotValue
-    SlotValue,
+    SlotValue (SlotValue'),
     newSlotValue,
     slotValue_interpretedValue,
 
     -- * SlotValueElicitationSetting
-    SlotValueElicitationSetting,
+    SlotValueElicitationSetting (SlotValueElicitationSetting'),
     newSlotValueElicitationSetting,
     slotValueElicitationSetting_defaultValueSpecification,
     slotValueElicitationSetting_promptSpecification,
@@ -1045,32 +1045,32 @@ module Amazonka.LexV2Models.Types
     slotValueElicitationSetting_slotConstraint,
 
     -- * SlotValueOverride
-    SlotValueOverride,
+    SlotValueOverride (SlotValueOverride'),
     newSlotValueOverride,
     slotValueOverride_shape,
     slotValueOverride_value,
     slotValueOverride_values,
 
     -- * SlotValueRegexFilter
-    SlotValueRegexFilter,
+    SlotValueRegexFilter (SlotValueRegexFilter'),
     newSlotValueRegexFilter,
     slotValueRegexFilter_pattern,
 
     -- * SlotValueSelectionSetting
-    SlotValueSelectionSetting,
+    SlotValueSelectionSetting (SlotValueSelectionSetting'),
     newSlotValueSelectionSetting,
     slotValueSelectionSetting_advancedRecognitionSetting,
     slotValueSelectionSetting_regexFilter,
     slotValueSelectionSetting_resolutionStrategy,
 
     -- * Specifications
-    Specifications,
+    Specifications (Specifications'),
     newSpecifications,
     specifications_slotTypeId,
     specifications_valueElicitationSetting,
 
     -- * StillWaitingResponseSpecification
-    StillWaitingResponseSpecification,
+    StillWaitingResponseSpecification (StillWaitingResponseSpecification'),
     newStillWaitingResponseSpecification,
     stillWaitingResponseSpecification_allowInterrupt,
     stillWaitingResponseSpecification_messageGroups,
@@ -1078,19 +1078,19 @@ module Amazonka.LexV2Models.Types
     stillWaitingResponseSpecification_timeoutInSeconds,
 
     -- * SubSlotSetting
-    SubSlotSetting,
+    SubSlotSetting (SubSlotSetting'),
     newSubSlotSetting,
     subSlotSetting_expression,
     subSlotSetting_slotSpecifications,
 
     -- * SubSlotTypeComposition
-    SubSlotTypeComposition,
+    SubSlotTypeComposition (SubSlotTypeComposition'),
     newSubSlotTypeComposition,
     subSlotTypeComposition_name,
     subSlotTypeComposition_slotTypeId,
 
     -- * SubSlotValueElicitationSetting
-    SubSlotValueElicitationSetting,
+    SubSlotValueElicitationSetting (SubSlotValueElicitationSetting'),
     newSubSlotValueElicitationSetting,
     subSlotValueElicitationSetting_defaultValueSpecification,
     subSlotValueElicitationSetting_sampleUtterances,
@@ -1098,44 +1098,44 @@ module Amazonka.LexV2Models.Types
     subSlotValueElicitationSetting_promptSpecification,
 
     -- * TextInputSpecification
-    TextInputSpecification,
+    TextInputSpecification (TextInputSpecification'),
     newTextInputSpecification,
     textInputSpecification_startTimeoutMs,
 
     -- * TextLogDestination
-    TextLogDestination,
+    TextLogDestination (TextLogDestination'),
     newTextLogDestination,
     textLogDestination_cloudWatch,
 
     -- * TextLogSetting
-    TextLogSetting,
+    TextLogSetting (TextLogSetting'),
     newTextLogSetting,
     textLogSetting_enabled,
     textLogSetting_destination,
 
     -- * TranscriptFilter
-    TranscriptFilter,
+    TranscriptFilter (TranscriptFilter'),
     newTranscriptFilter,
     transcriptFilter_lexTranscriptFilter,
 
     -- * TranscriptSourceSetting
-    TranscriptSourceSetting,
+    TranscriptSourceSetting (TranscriptSourceSetting'),
     newTranscriptSourceSetting,
     transcriptSourceSetting_s3BucketTranscriptSource,
 
     -- * UtteranceAggregationDuration
-    UtteranceAggregationDuration,
+    UtteranceAggregationDuration (UtteranceAggregationDuration'),
     newUtteranceAggregationDuration,
     utteranceAggregationDuration_relativeAggregationDuration,
 
     -- * VoiceSettings
-    VoiceSettings,
+    VoiceSettings (VoiceSettings'),
     newVoiceSettings,
     voiceSettings_engine,
     voiceSettings_voiceId,
 
     -- * WaitAndContinueSpecification
-    WaitAndContinueSpecification,
+    WaitAndContinueSpecification (WaitAndContinueSpecification'),
     newWaitAndContinueSpecification,
     waitAndContinueSpecification_active,
     waitAndContinueSpecification_stillWaitingResponse,

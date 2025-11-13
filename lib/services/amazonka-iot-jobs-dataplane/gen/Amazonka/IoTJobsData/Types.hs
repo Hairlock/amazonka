@@ -28,10 +28,10 @@ module Amazonka.IoTJobsData.Types
     _ThrottlingException,
 
     -- * JobExecutionStatus
-    JobExecutionStatus,
+    JobExecutionStatus (JobExecutionStatus'),
 
     -- * JobExecution
-    JobExecution,
+    JobExecution (JobExecution'),
     newJobExecution,
     jobExecution_approximateSecondsBeforeTimedOut,
     jobExecution_executionNumber,
@@ -46,14 +46,14 @@ module Amazonka.IoTJobsData.Types
     jobExecution_versionNumber,
 
     -- * JobExecutionState
-    JobExecutionState,
+    JobExecutionState (JobExecutionState'),
     newJobExecutionState,
     jobExecutionState_status,
     jobExecutionState_statusDetails,
     jobExecutionState_versionNumber,
 
     -- * JobExecutionSummary
-    JobExecutionSummary,
+    JobExecutionSummary (JobExecutionSummary'),
     newJobExecutionSummary,
     jobExecutionSummary_executionNumber,
     jobExecutionSummary_jobId,

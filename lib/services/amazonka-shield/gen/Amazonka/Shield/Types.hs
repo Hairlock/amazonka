@@ -34,46 +34,46 @@ module Amazonka.Shield.Types
     _ResourceNotFoundException,
 
     -- * ApplicationLayerAutomaticResponseStatus
-    ApplicationLayerAutomaticResponseStatus,
+    ApplicationLayerAutomaticResponseStatus (ApplicationLayerAutomaticResponseStatus'),
 
     -- * AttackLayer
-    AttackLayer,
+    AttackLayer (AttackLayer'),
 
     -- * AttackPropertyIdentifier
-    AttackPropertyIdentifier,
+    AttackPropertyIdentifier (AttackPropertyIdentifier'),
 
     -- * AutoRenew
-    AutoRenew,
+    AutoRenew (AutoRenew'),
 
     -- * ProactiveEngagementStatus
-    ProactiveEngagementStatus,
+    ProactiveEngagementStatus (ProactiveEngagementStatus'),
 
     -- * ProtectedResourceType
-    ProtectedResourceType,
+    ProtectedResourceType (ProtectedResourceType'),
 
     -- * ProtectionGroupAggregation
-    ProtectionGroupAggregation,
+    ProtectionGroupAggregation (ProtectionGroupAggregation'),
 
     -- * ProtectionGroupPattern
-    ProtectionGroupPattern,
+    ProtectionGroupPattern (ProtectionGroupPattern'),
 
     -- * SubResourceType
-    SubResourceType,
+    SubResourceType (SubResourceType'),
 
     -- * SubscriptionState
-    SubscriptionState,
+    SubscriptionState (SubscriptionState'),
 
     -- * Unit
-    Unit,
+    Unit (Unit'),
 
     -- * ApplicationLayerAutomaticResponseConfiguration
-    ApplicationLayerAutomaticResponseConfiguration,
+    ApplicationLayerAutomaticResponseConfiguration (ApplicationLayerAutomaticResponseConfiguration'),
     newApplicationLayerAutomaticResponseConfiguration,
     applicationLayerAutomaticResponseConfiguration_status,
     applicationLayerAutomaticResponseConfiguration_action,
 
     -- * AttackDetail
-    AttackDetail,
+    AttackDetail (AttackDetail'),
     newAttackDetail,
     attackDetail_attackCounters,
     attackDetail_attackId,
@@ -85,7 +85,7 @@ module Amazonka.Shield.Types
     attackDetail_subResources,
 
     -- * AttackProperty
-    AttackProperty,
+    AttackProperty (AttackProperty'),
     newAttackProperty,
     attackProperty_attackLayer,
     attackProperty_attackPropertyIdentifier,
@@ -94,13 +94,13 @@ module Amazonka.Shield.Types
     attackProperty_unit,
 
     -- * AttackStatisticsDataItem
-    AttackStatisticsDataItem,
+    AttackStatisticsDataItem (AttackStatisticsDataItem'),
     newAttackStatisticsDataItem,
     attackStatisticsDataItem_attackVolume,
     attackStatisticsDataItem_attackCount,
 
     -- * AttackSummary
-    AttackSummary,
+    AttackSummary (AttackSummary'),
     newAttackSummary,
     attackSummary_attackId,
     attackSummary_attackVectors,
@@ -109,52 +109,52 @@ module Amazonka.Shield.Types
     attackSummary_startTime,
 
     -- * AttackVectorDescription
-    AttackVectorDescription,
+    AttackVectorDescription (AttackVectorDescription'),
     newAttackVectorDescription,
     attackVectorDescription_vectorType,
 
     -- * AttackVolume
-    AttackVolume,
+    AttackVolume (AttackVolume'),
     newAttackVolume,
     attackVolume_bitsPerSecond,
     attackVolume_packetsPerSecond,
     attackVolume_requestsPerSecond,
 
     -- * AttackVolumeStatistics
-    AttackVolumeStatistics,
+    AttackVolumeStatistics (AttackVolumeStatistics'),
     newAttackVolumeStatistics,
     attackVolumeStatistics_max,
 
     -- * BlockAction
-    BlockAction,
+    BlockAction (BlockAction'),
     newBlockAction,
 
     -- * Contributor
-    Contributor,
+    Contributor (Contributor'),
     newContributor,
     contributor_name,
     contributor_value,
 
     -- * CountAction
-    CountAction,
+    CountAction (CountAction'),
     newCountAction,
 
     -- * EmergencyContact
-    EmergencyContact,
+    EmergencyContact (EmergencyContact'),
     newEmergencyContact,
     emergencyContact_contactNotes,
     emergencyContact_phoneNumber,
     emergencyContact_emailAddress,
 
     -- * InclusionProtectionFilters
-    InclusionProtectionFilters,
+    InclusionProtectionFilters (InclusionProtectionFilters'),
     newInclusionProtectionFilters,
     inclusionProtectionFilters_protectionNames,
     inclusionProtectionFilters_resourceArns,
     inclusionProtectionFilters_resourceTypes,
 
     -- * InclusionProtectionGroupFilters
-    InclusionProtectionGroupFilters,
+    InclusionProtectionGroupFilters (InclusionProtectionGroupFilters'),
     newInclusionProtectionGroupFilters,
     inclusionProtectionGroupFilters_aggregations,
     inclusionProtectionGroupFilters_patterns,
@@ -162,18 +162,18 @@ module Amazonka.Shield.Types
     inclusionProtectionGroupFilters_resourceTypes,
 
     -- * Limit
-    Limit,
+    Limit (Limit'),
     newLimit,
     limit_max,
     limit_type,
 
     -- * Mitigation
-    Mitigation,
+    Mitigation (Mitigation'),
     newMitigation,
     mitigation_mitigationName,
 
     -- * Protection
-    Protection,
+    Protection (Protection'),
     newProtection,
     protection_applicationLayerAutomaticResponseConfiguration,
     protection_healthCheckIds,
@@ -183,7 +183,7 @@ module Amazonka.Shield.Types
     protection_resourceArn,
 
     -- * ProtectionGroup
-    ProtectionGroup,
+    ProtectionGroup (ProtectionGroup'),
     newProtectionGroup,
     protectionGroup_protectionGroupArn,
     protectionGroup_resourceType,
@@ -193,34 +193,34 @@ module Amazonka.Shield.Types
     protectionGroup_members,
 
     -- * ProtectionGroupArbitraryPatternLimits
-    ProtectionGroupArbitraryPatternLimits,
+    ProtectionGroupArbitraryPatternLimits (ProtectionGroupArbitraryPatternLimits'),
     newProtectionGroupArbitraryPatternLimits,
     protectionGroupArbitraryPatternLimits_maxMembers,
 
     -- * ProtectionGroupLimits
-    ProtectionGroupLimits,
+    ProtectionGroupLimits (ProtectionGroupLimits'),
     newProtectionGroupLimits,
     protectionGroupLimits_maxProtectionGroups,
     protectionGroupLimits_patternTypeLimits,
 
     -- * ProtectionGroupPatternTypeLimits
-    ProtectionGroupPatternTypeLimits,
+    ProtectionGroupPatternTypeLimits (ProtectionGroupPatternTypeLimits'),
     newProtectionGroupPatternTypeLimits,
     protectionGroupPatternTypeLimits_arbitraryPatternLimits,
 
     -- * ProtectionLimits
-    ProtectionLimits,
+    ProtectionLimits (ProtectionLimits'),
     newProtectionLimits,
     protectionLimits_protectedResourceTypeLimits,
 
     -- * ResponseAction
-    ResponseAction,
+    ResponseAction (ResponseAction'),
     newResponseAction,
     responseAction_block,
     responseAction_count,
 
     -- * SubResourceSummary
-    SubResourceSummary,
+    SubResourceSummary (SubResourceSummary'),
     newSubResourceSummary,
     subResourceSummary_attackVectors,
     subResourceSummary_counters,
@@ -228,7 +228,7 @@ module Amazonka.Shield.Types
     subResourceSummary_type,
 
     -- * Subscription
-    Subscription,
+    Subscription (Subscription'),
     newSubscription,
     subscription_autoRenew,
     subscription_endTime,
@@ -240,19 +240,19 @@ module Amazonka.Shield.Types
     subscription_subscriptionLimits,
 
     -- * SubscriptionLimits
-    SubscriptionLimits,
+    SubscriptionLimits (SubscriptionLimits'),
     newSubscriptionLimits,
     subscriptionLimits_protectionLimits,
     subscriptionLimits_protectionGroupLimits,
 
     -- * SummarizedAttackVector
-    SummarizedAttackVector,
+    SummarizedAttackVector (SummarizedAttackVector'),
     newSummarizedAttackVector,
     summarizedAttackVector_vectorCounters,
     summarizedAttackVector_vectorType,
 
     -- * SummarizedCounter
-    SummarizedCounter,
+    SummarizedCounter (SummarizedCounter'),
     newSummarizedCounter,
     summarizedCounter_average,
     summarizedCounter_max,
@@ -262,13 +262,13 @@ module Amazonka.Shield.Types
     summarizedCounter_unit,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
 
     -- * TimeRange
-    TimeRange,
+    TimeRange (TimeRange'),
     newTimeRange,
     timeRange_fromInclusive,
     timeRange_toExclusive,

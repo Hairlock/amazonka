@@ -30,76 +30,76 @@ module Amazonka.KinesisVideoArchivedMedia.Types
     _UnsupportedStreamMediaTypeException,
 
     -- * ClipFragmentSelectorType
-    ClipFragmentSelectorType,
+    ClipFragmentSelectorType (ClipFragmentSelectorType'),
 
     -- * ContainerFormat
-    ContainerFormat,
+    ContainerFormat (ContainerFormat'),
 
     -- * DASHDisplayFragmentNumber
-    DASHDisplayFragmentNumber,
+    DASHDisplayFragmentNumber (DASHDisplayFragmentNumber'),
 
     -- * DASHDisplayFragmentTimestamp
-    DASHDisplayFragmentTimestamp,
+    DASHDisplayFragmentTimestamp (DASHDisplayFragmentTimestamp'),
 
     -- * DASHFragmentSelectorType
-    DASHFragmentSelectorType,
+    DASHFragmentSelectorType (DASHFragmentSelectorType'),
 
     -- * DASHPlaybackMode
-    DASHPlaybackMode,
+    DASHPlaybackMode (DASHPlaybackMode'),
 
     -- * Format
-    Format,
+    Format (Format'),
 
     -- * FormatConfigKey
-    FormatConfigKey,
+    FormatConfigKey (FormatConfigKey'),
 
     -- * FragmentSelectorType
-    FragmentSelectorType,
+    FragmentSelectorType (FragmentSelectorType'),
 
     -- * HLSDiscontinuityMode
-    HLSDiscontinuityMode,
+    HLSDiscontinuityMode (HLSDiscontinuityMode'),
 
     -- * HLSDisplayFragmentTimestamp
-    HLSDisplayFragmentTimestamp,
+    HLSDisplayFragmentTimestamp (HLSDisplayFragmentTimestamp'),
 
     -- * HLSFragmentSelectorType
-    HLSFragmentSelectorType,
+    HLSFragmentSelectorType (HLSFragmentSelectorType'),
 
     -- * HLSPlaybackMode
-    HLSPlaybackMode,
+    HLSPlaybackMode (HLSPlaybackMode'),
 
     -- * ImageError
-    ImageError,
+    ImageError (ImageError'),
 
     -- * ImageSelectorType
-    ImageSelectorType,
+    ImageSelectorType (ImageSelectorType'),
 
     -- * ClipFragmentSelector
-    ClipFragmentSelector,
+    ClipFragmentSelector (ClipFragmentSelector'),
     newClipFragmentSelector,
     clipFragmentSelector_fragmentSelectorType,
     clipFragmentSelector_timestampRange,
 
     -- * ClipTimestampRange
-    ClipTimestampRange,
+    ClipTimestampRange (ClipTimestampRange'),
     newClipTimestampRange,
     clipTimestampRange_startTimestamp,
     clipTimestampRange_endTimestamp,
 
     -- * DASHFragmentSelector
-    DASHFragmentSelector,
+    DASHFragmentSelector (DASHFragmentSelector'),
     newDASHFragmentSelector,
     dASHFragmentSelector_fragmentSelectorType,
     dASHFragmentSelector_timestampRange,
 
     -- * DASHTimestampRange
-    DASHTimestampRange,
+    DASHTimestampRange (DASHTimestampRange'),
     newDASHTimestampRange,
     dASHTimestampRange_endTimestamp,
     dASHTimestampRange_startTimestamp,
 
     -- * Fragment
-    Fragment,
+    Fragment (Fragment'),
     newFragment,
     fragment_fragmentLengthInMilliseconds,
     fragment_fragmentNumber,
@@ -108,32 +108,32 @@ module Amazonka.KinesisVideoArchivedMedia.Types
     fragment_serverTimestamp,
 
     -- * FragmentSelector
-    FragmentSelector,
+    FragmentSelector (FragmentSelector'),
     newFragmentSelector,
     fragmentSelector_fragmentSelectorType,
     fragmentSelector_timestampRange,
 
     -- * HLSFragmentSelector
-    HLSFragmentSelector,
+    HLSFragmentSelector (HLSFragmentSelector'),
     newHLSFragmentSelector,
     hLSFragmentSelector_fragmentSelectorType,
     hLSFragmentSelector_timestampRange,
 
     -- * HLSTimestampRange
-    HLSTimestampRange,
+    HLSTimestampRange (HLSTimestampRange'),
     newHLSTimestampRange,
     hLSTimestampRange_endTimestamp,
     hLSTimestampRange_startTimestamp,
 
     -- * Image
-    Image,
+    Image (Image'),
     newImage,
     image_error,
     image_imageContent,
     image_timeStamp,
 
     -- * TimestampRange
-    TimestampRange,
+    TimestampRange (TimestampRange'),
     newTimestampRange,
     timestampRange_startTimestamp,
     timestampRange_endTimestamp,

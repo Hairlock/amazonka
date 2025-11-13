@@ -46,7 +46,7 @@ module Amazonka.ELB.Types
     module Amazonka.ELB.Internal,
 
     -- * AccessLog
-    AccessLog,
+    AccessLog (AccessLog'),
     newAccessLog,
     accessLog_emitInterval,
     accessLog_s3BucketName,
@@ -54,41 +54,41 @@ module Amazonka.ELB.Types
     accessLog_enabled,
 
     -- * AdditionalAttribute
-    AdditionalAttribute,
+    AdditionalAttribute (AdditionalAttribute'),
     newAdditionalAttribute,
     additionalAttribute_key,
     additionalAttribute_value,
 
     -- * AppCookieStickinessPolicy
-    AppCookieStickinessPolicy,
+    AppCookieStickinessPolicy (AppCookieStickinessPolicy'),
     newAppCookieStickinessPolicy,
     appCookieStickinessPolicy_cookieName,
     appCookieStickinessPolicy_policyName,
 
     -- * BackendServerDescription
-    BackendServerDescription,
+    BackendServerDescription (BackendServerDescription'),
     newBackendServerDescription,
     backendServerDescription_instancePort,
     backendServerDescription_policyNames,
 
     -- * ConnectionDraining
-    ConnectionDraining,
+    ConnectionDraining (ConnectionDraining'),
     newConnectionDraining,
     connectionDraining_timeout,
     connectionDraining_enabled,
 
     -- * ConnectionSettings
-    ConnectionSettings,
+    ConnectionSettings (ConnectionSettings'),
     newConnectionSettings,
     connectionSettings_idleTimeout,
 
     -- * CrossZoneLoadBalancing
-    CrossZoneLoadBalancing,
+    CrossZoneLoadBalancing (CrossZoneLoadBalancing'),
     newCrossZoneLoadBalancing,
     crossZoneLoadBalancing_enabled,
 
     -- * HealthCheck
-    HealthCheck,
+    HealthCheck (HealthCheck'),
     newHealthCheck,
     healthCheck_target,
     healthCheck_interval,
@@ -97,12 +97,12 @@ module Amazonka.ELB.Types
     healthCheck_healthyThreshold,
 
     -- * Instance
-    Instance,
+    Instance (Instance'),
     newInstance,
     instance_instanceId,
 
     -- * InstanceState
-    InstanceState,
+    InstanceState (InstanceState'),
     newInstanceState,
     instanceState_description,
     instanceState_instanceId,
@@ -110,19 +110,19 @@ module Amazonka.ELB.Types
     instanceState_state,
 
     -- * LBCookieStickinessPolicy
-    LBCookieStickinessPolicy,
+    LBCookieStickinessPolicy (LBCookieStickinessPolicy'),
     newLBCookieStickinessPolicy,
     lBCookieStickinessPolicy_cookieExpirationPeriod,
     lBCookieStickinessPolicy_policyName,
 
     -- * Limit
-    Limit,
+    Limit (Limit'),
     newLimit,
     limit_max,
     limit_name,
 
     -- * Listener
-    Listener,
+    Listener (Listener'),
     newListener,
     listener_instanceProtocol,
     listener_sSLCertificateId,
@@ -131,13 +131,13 @@ module Amazonka.ELB.Types
     listener_instancePort,
 
     -- * ListenerDescription
-    ListenerDescription,
+    ListenerDescription (ListenerDescription'),
     newListenerDescription,
     listenerDescription_listener,
     listenerDescription_policyNames,
 
     -- * LoadBalancerAttributes
-    LoadBalancerAttributes,
+    LoadBalancerAttributes (LoadBalancerAttributes'),
     newLoadBalancerAttributes,
     loadBalancerAttributes_accessLog,
     loadBalancerAttributes_additionalAttributes,
@@ -146,7 +146,7 @@ module Amazonka.ELB.Types
     loadBalancerAttributes_crossZoneLoadBalancing,
 
     -- * LoadBalancerDescription
-    LoadBalancerDescription,
+    LoadBalancerDescription (LoadBalancerDescription'),
     newLoadBalancerDescription,
     loadBalancerDescription_availabilityZones,
     loadBalancerDescription_backendServerDescriptions,
@@ -166,26 +166,26 @@ module Amazonka.ELB.Types
     loadBalancerDescription_vPCId,
 
     -- * Policies
-    Policies,
+    Policies (Policies'),
     newPolicies,
     policies_appCookieStickinessPolicies,
     policies_lBCookieStickinessPolicies,
     policies_otherPolicies,
 
     -- * PolicyAttribute
-    PolicyAttribute,
+    PolicyAttribute (PolicyAttribute'),
     newPolicyAttribute,
     policyAttribute_attributeName,
     policyAttribute_attributeValue,
 
     -- * PolicyAttributeDescription
-    PolicyAttributeDescription,
+    PolicyAttributeDescription (PolicyAttributeDescription'),
     newPolicyAttributeDescription,
     policyAttributeDescription_attributeName,
     policyAttributeDescription_attributeValue,
 
     -- * PolicyAttributeTypeDescription
-    PolicyAttributeTypeDescription,
+    PolicyAttributeTypeDescription (PolicyAttributeTypeDescription'),
     newPolicyAttributeTypeDescription,
     policyAttributeTypeDescription_attributeName,
     policyAttributeTypeDescription_attributeType,
@@ -194,39 +194,39 @@ module Amazonka.ELB.Types
     policyAttributeTypeDescription_description,
 
     -- * PolicyDescription
-    PolicyDescription,
+    PolicyDescription (PolicyDescription'),
     newPolicyDescription,
     policyDescription_policyAttributeDescriptions,
     policyDescription_policyName,
     policyDescription_policyTypeName,
 
     -- * PolicyTypeDescription
-    PolicyTypeDescription,
+    PolicyTypeDescription (PolicyTypeDescription'),
     newPolicyTypeDescription,
     policyTypeDescription_description,
     policyTypeDescription_policyAttributeTypeDescriptions,
     policyTypeDescription_policyTypeName,
 
     -- * SourceSecurityGroup
-    SourceSecurityGroup,
+    SourceSecurityGroup (SourceSecurityGroup'),
     newSourceSecurityGroup,
     sourceSecurityGroup_groupName,
     sourceSecurityGroup_ownerAlias,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_value,
     tag_key,
 
     -- * TagDescription
-    TagDescription,
+    TagDescription (TagDescription'),
     newTagDescription,
     tagDescription_loadBalancerName,
     tagDescription_tags,
 
     -- * TagKeyOnly
-    TagKeyOnly,
+    TagKeyOnly (TagKeyOnly'),
     newTagKeyOnly,
     tagKeyOnly_key,
   )

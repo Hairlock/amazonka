@@ -28,7 +28,7 @@ module Amazonka.IdentityStore.Types
     _ValidationException,
 
     -- * Address
-    Address,
+    Address (Address'),
     newAddress,
     address_country,
     address_formatted,
@@ -40,42 +40,42 @@ module Amazonka.IdentityStore.Types
     address_type,
 
     -- * AlternateIdentifier
-    AlternateIdentifier,
+    AlternateIdentifier (AlternateIdentifier'),
     newAlternateIdentifier,
     alternateIdentifier_externalId,
     alternateIdentifier_uniqueAttribute,
 
     -- * AttributeOperation
-    AttributeOperation,
+    AttributeOperation (AttributeOperation'),
     newAttributeOperation,
     attributeOperation_attributeValue,
     attributeOperation_attributePath,
 
     -- * AttributeValue
-    AttributeValue,
+    AttributeValue (AttributeValue'),
     newAttributeValue,
 
     -- * Email
-    Email,
+    Email (Email'),
     newEmail,
     email_primary,
     email_type,
     email_value,
 
     -- * ExternalId
-    ExternalId,
+    ExternalId (ExternalId'),
     newExternalId,
     externalId_issuer,
     externalId_id,
 
     -- * Filter
-    Filter,
+    Filter (Filter'),
     newFilter,
     filter_attributePath,
     filter_attributeValue,
 
     -- * Group
-    Group,
+    Group (Group'),
     newGroup,
     group_description,
     group_displayName,
@@ -84,7 +84,7 @@ module Amazonka.IdentityStore.Types
     group_identityStoreId,
 
     -- * GroupMembership
-    GroupMembership,
+    GroupMembership (GroupMembership'),
     newGroupMembership,
     groupMembership_groupId,
     groupMembership_memberId,
@@ -92,19 +92,19 @@ module Amazonka.IdentityStore.Types
     groupMembership_identityStoreId,
 
     -- * GroupMembershipExistenceResult
-    GroupMembershipExistenceResult,
+    GroupMembershipExistenceResult (GroupMembershipExistenceResult'),
     newGroupMembershipExistenceResult,
     groupMembershipExistenceResult_groupId,
     groupMembershipExistenceResult_memberId,
     groupMembershipExistenceResult_membershipExists,
 
     -- * MemberId
-    MemberId,
+    MemberId (MemberId'),
     newMemberId,
     memberId_userId,
 
     -- * Name
-    Name,
+    Name (Name'),
     newName,
     name_familyName,
     name_formatted,
@@ -114,20 +114,20 @@ module Amazonka.IdentityStore.Types
     name_middleName,
 
     -- * PhoneNumber
-    PhoneNumber,
+    PhoneNumber (PhoneNumber'),
     newPhoneNumber,
     phoneNumber_primary,
     phoneNumber_type,
     phoneNumber_value,
 
     -- * UniqueAttribute
-    UniqueAttribute,
+    UniqueAttribute (UniqueAttribute'),
     newUniqueAttribute,
     uniqueAttribute_attributePath,
     uniqueAttribute_attributeValue,
 
     -- * User
-    User,
+    User (User'),
     newUser,
     user_addresses,
     user_displayName,

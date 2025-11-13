@@ -28,13 +28,13 @@ module Amazonka.ControlTower.Types
     _ValidationException,
 
     -- * ControlOperationStatus
-    ControlOperationStatus,
+    ControlOperationStatus (ControlOperationStatus'),
 
     -- * ControlOperationType
-    ControlOperationType,
+    ControlOperationType (ControlOperationType'),
 
     -- * ControlOperation
-    ControlOperation,
+    ControlOperation (ControlOperation'),
     newControlOperation,
     controlOperation_endTime,
     controlOperation_operationType,
@@ -43,7 +43,7 @@ module Amazonka.ControlTower.Types
     controlOperation_statusMessage,
 
     -- * EnabledControlSummary
-    EnabledControlSummary,
+    EnabledControlSummary (EnabledControlSummary'),
     newEnabledControlSummary,
     enabledControlSummary_controlIdentifier,
   )

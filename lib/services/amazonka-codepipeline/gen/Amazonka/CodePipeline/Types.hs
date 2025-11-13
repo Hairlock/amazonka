@@ -58,73 +58,73 @@ module Amazonka.CodePipeline.Types
     _WebhookNotFoundException,
 
     -- * ActionCategory
-    ActionCategory,
+    ActionCategory (ActionCategory'),
 
     -- * ActionConfigurationPropertyType
-    ActionConfigurationPropertyType,
+    ActionConfigurationPropertyType (ActionConfigurationPropertyType'),
 
     -- * ActionExecutionStatus
-    ActionExecutionStatus,
+    ActionExecutionStatus (ActionExecutionStatus'),
 
     -- * ActionOwner
-    ActionOwner,
+    ActionOwner (ActionOwner'),
 
     -- * ApprovalStatus
-    ApprovalStatus,
+    ApprovalStatus (ApprovalStatus'),
 
     -- * ArtifactLocationType
-    ArtifactLocationType,
+    ArtifactLocationType (ArtifactLocationType'),
 
     -- * ArtifactStoreType
-    ArtifactStoreType,
+    ArtifactStoreType (ArtifactStoreType'),
 
     -- * BlockerType
-    BlockerType,
+    BlockerType (BlockerType'),
 
     -- * EncryptionKeyType
-    EncryptionKeyType,
+    EncryptionKeyType (EncryptionKeyType'),
 
     -- * ExecutorType
-    ExecutorType,
+    ExecutorType (ExecutorType'),
 
     -- * FailureType
-    FailureType,
+    FailureType (FailureType'),
 
     -- * JobStatus
-    JobStatus,
+    JobStatus (JobStatus'),
 
     -- * PipelineExecutionStatus
-    PipelineExecutionStatus,
+    PipelineExecutionStatus (PipelineExecutionStatus'),
 
     -- * StageExecutionStatus
-    StageExecutionStatus,
+    StageExecutionStatus (StageExecutionStatus'),
 
     -- * StageRetryMode
-    StageRetryMode,
+    StageRetryMode (StageRetryMode'),
 
     -- * StageTransitionType
-    StageTransitionType,
+    StageTransitionType (StageTransitionType'),
 
     -- * TriggerType
-    TriggerType,
+    TriggerType (TriggerType'),
 
     -- * WebhookAuthenticationType
-    WebhookAuthenticationType,
+    WebhookAuthenticationType (WebhookAuthenticationType'),
 
     -- * AWSSessionCredentials
-    AWSSessionCredentials,
+    AWSSessionCredentials (AWSSessionCredentials'),
     newAWSSessionCredentials,
     aWSSessionCredentials_accessKeyId,
     aWSSessionCredentials_secretAccessKey,
     aWSSessionCredentials_sessionToken,
 
     -- * ActionConfiguration
-    ActionConfiguration,
+    ActionConfiguration (ActionConfiguration'),
     newActionConfiguration,
     actionConfiguration_configuration,
 
     -- * ActionConfigurationProperty
-    ActionConfigurationProperty,
+    ActionConfigurationProperty (ActionConfigurationProperty'),
     newActionConfigurationProperty,
     actionConfigurationProperty_description,
     actionConfigurationProperty_queryable,
@@ -135,13 +135,13 @@ module Amazonka.CodePipeline.Types
     actionConfigurationProperty_secret,
 
     -- * ActionContext
-    ActionContext,
+    ActionContext (ActionContext'),
     newActionContext,
     actionContext_actionExecutionId,
     actionContext_name,
 
     -- * ActionDeclaration
-    ActionDeclaration,
+    ActionDeclaration (ActionDeclaration'),
     newActionDeclaration,
     actionDeclaration_configuration,
     actionDeclaration_inputArtifacts,
@@ -154,7 +154,7 @@ module Amazonka.CodePipeline.Types
     actionDeclaration_actionTypeId,
 
     -- * ActionExecution
-    ActionExecution,
+    ActionExecution (ActionExecution'),
     newActionExecution,
     actionExecution_actionExecutionId,
     actionExecution_errorDetails,
@@ -168,7 +168,7 @@ module Amazonka.CodePipeline.Types
     actionExecution_token,
 
     -- * ActionExecutionDetail
-    ActionExecutionDetail,
+    ActionExecutionDetail (ActionExecutionDetail'),
     newActionExecutionDetail,
     actionExecutionDetail_actionExecutionId,
     actionExecutionDetail_actionName,
@@ -182,12 +182,12 @@ module Amazonka.CodePipeline.Types
     actionExecutionDetail_status,
 
     -- * ActionExecutionFilter
-    ActionExecutionFilter,
+    ActionExecutionFilter (ActionExecutionFilter'),
     newActionExecutionFilter,
     actionExecutionFilter_pipelineExecutionId,
 
     -- * ActionExecutionInput
-    ActionExecutionInput,
+    ActionExecutionInput (ActionExecutionInput'),
     newActionExecutionInput,
     actionExecutionInput_actionTypeId,
     actionExecutionInput_configuration,
@@ -198,28 +198,28 @@ module Amazonka.CodePipeline.Types
     actionExecutionInput_roleArn,
 
     -- * ActionExecutionOutput
-    ActionExecutionOutput,
+    ActionExecutionOutput (ActionExecutionOutput'),
     newActionExecutionOutput,
     actionExecutionOutput_executionResult,
     actionExecutionOutput_outputArtifacts,
     actionExecutionOutput_outputVariables,
 
     -- * ActionExecutionResult
-    ActionExecutionResult,
+    ActionExecutionResult (ActionExecutionResult'),
     newActionExecutionResult,
     actionExecutionResult_externalExecutionId,
     actionExecutionResult_externalExecutionSummary,
     actionExecutionResult_externalExecutionUrl,
 
     -- * ActionRevision
-    ActionRevision,
+    ActionRevision (ActionRevision'),
     newActionRevision,
     actionRevision_revisionId,
     actionRevision_revisionChangeId,
     actionRevision_created,
 
     -- * ActionState
-    ActionState,
+    ActionState (ActionState'),
     newActionState,
     actionState_actionName,
     actionState_currentRevision,
@@ -228,7 +228,7 @@ module Amazonka.CodePipeline.Types
     actionState_revisionUrl,
 
     -- * ActionType
-    ActionType,
+    ActionType (ActionType'),
     newActionType,
     actionType_actionConfigurationProperties,
     actionType_settings,
@@ -237,13 +237,13 @@ module Amazonka.CodePipeline.Types
     actionType_outputArtifactDetails,
 
     -- * ActionTypeArtifactDetails
-    ActionTypeArtifactDetails,
+    ActionTypeArtifactDetails (ActionTypeArtifactDetails'),
     newActionTypeArtifactDetails,
     actionTypeArtifactDetails_minimumCount,
     actionTypeArtifactDetails_maximumCount,
 
     -- * ActionTypeDeclaration
-    ActionTypeDeclaration,
+    ActionTypeDeclaration (ActionTypeDeclaration'),
     newActionTypeDeclaration,
     actionTypeDeclaration_description,
     actionTypeDeclaration_permissions,
@@ -255,7 +255,7 @@ module Amazonka.CodePipeline.Types
     actionTypeDeclaration_outputArtifactDetails,
 
     -- * ActionTypeExecutor
-    ActionTypeExecutor,
+    ActionTypeExecutor (ActionTypeExecutor'),
     newActionTypeExecutor,
     actionTypeExecutor_jobTimeout,
     actionTypeExecutor_policyStatementsTemplate,
@@ -263,7 +263,7 @@ module Amazonka.CodePipeline.Types
     actionTypeExecutor_type,
 
     -- * ActionTypeId
-    ActionTypeId,
+    ActionTypeId (ActionTypeId'),
     newActionTypeId,
     actionTypeId_category,
     actionTypeId_owner,
@@ -271,7 +271,7 @@ module Amazonka.CodePipeline.Types
     actionTypeId_version,
 
     -- * ActionTypeIdentifier
-    ActionTypeIdentifier,
+    ActionTypeIdentifier (ActionTypeIdentifier'),
     newActionTypeIdentifier,
     actionTypeIdentifier_category,
     actionTypeIdentifier_owner,
@@ -279,12 +279,12 @@ module Amazonka.CodePipeline.Types
     actionTypeIdentifier_version,
 
     -- * ActionTypePermissions
-    ActionTypePermissions,
+    ActionTypePermissions (ActionTypePermissions'),
     newActionTypePermissions,
     actionTypePermissions_allowedAccounts,
 
     -- * ActionTypeProperty
-    ActionTypeProperty,
+    ActionTypeProperty (ActionTypeProperty'),
     newActionTypeProperty,
     actionTypeProperty_description,
     actionTypeProperty_queryable,
@@ -294,7 +294,7 @@ module Amazonka.CodePipeline.Types
     actionTypeProperty_noEcho,
 
     -- * ActionTypeSettings
-    ActionTypeSettings,
+    ActionTypeSettings (ActionTypeSettings'),
     newActionTypeSettings,
     actionTypeSettings_entityUrlTemplate,
     actionTypeSettings_executionUrlTemplate,
@@ -302,7 +302,7 @@ module Amazonka.CodePipeline.Types
     actionTypeSettings_thirdPartyConfigurationUrl,
 
     -- * ActionTypeUrls
-    ActionTypeUrls,
+    ActionTypeUrls (ActionTypeUrls'),
     newActionTypeUrls,
     actionTypeUrls_configurationUrl,
     actionTypeUrls_entityUrlTemplate,
@@ -310,38 +310,38 @@ module Amazonka.CodePipeline.Types
     actionTypeUrls_revisionUrlTemplate,
 
     -- * ApprovalResult
-    ApprovalResult,
+    ApprovalResult (ApprovalResult'),
     newApprovalResult,
     approvalResult_summary,
     approvalResult_status,
 
     -- * Artifact
-    Artifact,
+    Artifact (Artifact'),
     newArtifact,
     artifact_location,
     artifact_name,
     artifact_revision,
 
     -- * ArtifactDetail
-    ArtifactDetail,
+    ArtifactDetail (ArtifactDetail'),
     newArtifactDetail,
     artifactDetail_name,
     artifactDetail_s3location,
 
     -- * ArtifactDetails
-    ArtifactDetails,
+    ArtifactDetails (ArtifactDetails'),
     newArtifactDetails,
     artifactDetails_minimumCount,
     artifactDetails_maximumCount,
 
     -- * ArtifactLocation
-    ArtifactLocation,
+    ArtifactLocation (ArtifactLocation'),
     newArtifactLocation,
     artifactLocation_s3Location,
     artifactLocation_type,
 
     -- * ArtifactRevision
-    ArtifactRevision,
+    ArtifactRevision (ArtifactRevision'),
     newArtifactRevision,
     artifactRevision_created,
     artifactRevision_name,
@@ -351,20 +351,20 @@ module Amazonka.CodePipeline.Types
     artifactRevision_revisionUrl,
 
     -- * ArtifactStore
-    ArtifactStore,
+    ArtifactStore (ArtifactStore'),
     newArtifactStore,
     artifactStore_encryptionKey,
     artifactStore_type,
     artifactStore_location,
 
     -- * BlockerDeclaration
-    BlockerDeclaration,
+    BlockerDeclaration (BlockerDeclaration'),
     newBlockerDeclaration,
     blockerDeclaration_name,
     blockerDeclaration_type,
 
     -- * CurrentRevision
-    CurrentRevision,
+    CurrentRevision (CurrentRevision'),
     newCurrentRevision,
     currentRevision_created,
     currentRevision_revisionSummary,
@@ -372,50 +372,50 @@ module Amazonka.CodePipeline.Types
     currentRevision_changeIdentifier,
 
     -- * EncryptionKey
-    EncryptionKey,
+    EncryptionKey (EncryptionKey'),
     newEncryptionKey,
     encryptionKey_id,
     encryptionKey_type,
 
     -- * ErrorDetails
-    ErrorDetails,
+    ErrorDetails (ErrorDetails'),
     newErrorDetails,
     errorDetails_code,
     errorDetails_message,
 
     -- * ExecutionDetails
-    ExecutionDetails,
+    ExecutionDetails (ExecutionDetails'),
     newExecutionDetails,
     executionDetails_externalExecutionId,
     executionDetails_percentComplete,
     executionDetails_summary,
 
     -- * ExecutionTrigger
-    ExecutionTrigger,
+    ExecutionTrigger (ExecutionTrigger'),
     newExecutionTrigger,
     executionTrigger_triggerDetail,
     executionTrigger_triggerType,
 
     -- * ExecutorConfiguration
-    ExecutorConfiguration,
+    ExecutorConfiguration (ExecutorConfiguration'),
     newExecutorConfiguration,
     executorConfiguration_jobWorkerExecutorConfiguration,
     executorConfiguration_lambdaExecutorConfiguration,
 
     -- * FailureDetails
-    FailureDetails,
+    FailureDetails (FailureDetails'),
     newFailureDetails,
     failureDetails_externalExecutionId,
     failureDetails_type,
     failureDetails_message,
 
     -- * InputArtifact
-    InputArtifact,
+    InputArtifact (InputArtifact'),
     newInputArtifact,
     inputArtifact_name,
 
     -- * Job
-    Job,
+    Job (Job'),
     newJob,
     job_accountId,
     job_data,
@@ -423,7 +423,7 @@ module Amazonka.CodePipeline.Types
     job_nonce,
 
     -- * JobData
-    JobData,
+    JobData (JobData'),
     newJobData,
     jobData_actionConfiguration,
     jobData_actionTypeId,
@@ -435,25 +435,25 @@ module Amazonka.CodePipeline.Types
     jobData_pipelineContext,
 
     -- * JobDetails
-    JobDetails,
+    JobDetails (JobDetails'),
     newJobDetails,
     jobDetails_accountId,
     jobDetails_data,
     jobDetails_id,
 
     -- * JobWorkerExecutorConfiguration
-    JobWorkerExecutorConfiguration,
+    JobWorkerExecutorConfiguration (JobWorkerExecutorConfiguration'),
     newJobWorkerExecutorConfiguration,
     jobWorkerExecutorConfiguration_pollingAccounts,
     jobWorkerExecutorConfiguration_pollingServicePrincipals,
 
     -- * LambdaExecutorConfiguration
-    LambdaExecutorConfiguration,
+    LambdaExecutorConfiguration (LambdaExecutorConfiguration'),
     newLambdaExecutorConfiguration,
     lambdaExecutorConfiguration_lambdaFunctionArn,
 
     -- * ListWebhookItem
-    ListWebhookItem,
+    ListWebhookItem (ListWebhookItem'),
     newListWebhookItem,
     listWebhookItem_arn,
     listWebhookItem_errorCode,
@@ -464,12 +464,12 @@ module Amazonka.CodePipeline.Types
     listWebhookItem_url,
 
     -- * OutputArtifact
-    OutputArtifact,
+    OutputArtifact (OutputArtifact'),
     newOutputArtifact,
     outputArtifact_name,
 
     -- * PipelineContext
-    PipelineContext,
+    PipelineContext (PipelineContext'),
     newPipelineContext,
     pipelineContext_action,
     pipelineContext_pipelineArn,
@@ -478,7 +478,7 @@ module Amazonka.CodePipeline.Types
     pipelineContext_stage,
 
     -- * PipelineDeclaration
-    PipelineDeclaration,
+    PipelineDeclaration (PipelineDeclaration'),
     newPipelineDeclaration,
     pipelineDeclaration_artifactStore,
     pipelineDeclaration_artifactStores,
@@ -488,7 +488,7 @@ module Amazonka.CodePipeline.Types
     pipelineDeclaration_stages,
 
     -- * PipelineExecution
-    PipelineExecution,
+    PipelineExecution (PipelineExecution'),
     newPipelineExecution,
     pipelineExecution_artifactRevisions,
     pipelineExecution_pipelineExecutionId,
@@ -498,7 +498,7 @@ module Amazonka.CodePipeline.Types
     pipelineExecution_statusSummary,
 
     -- * PipelineExecutionSummary
-    PipelineExecutionSummary,
+    PipelineExecutionSummary (PipelineExecutionSummary'),
     newPipelineExecutionSummary,
     pipelineExecutionSummary_lastUpdateTime,
     pipelineExecutionSummary_pipelineExecutionId,
@@ -509,14 +509,14 @@ module Amazonka.CodePipeline.Types
     pipelineExecutionSummary_trigger,
 
     -- * PipelineMetadata
-    PipelineMetadata,
+    PipelineMetadata (PipelineMetadata'),
     newPipelineMetadata,
     pipelineMetadata_created,
     pipelineMetadata_pipelineArn,
     pipelineMetadata_updated,
 
     -- * PipelineSummary
-    PipelineSummary,
+    PipelineSummary (PipelineSummary'),
     newPipelineSummary,
     pipelineSummary_created,
     pipelineSummary_name,
@@ -524,19 +524,19 @@ module Amazonka.CodePipeline.Types
     pipelineSummary_version,
 
     -- * S3ArtifactLocation
-    S3ArtifactLocation,
+    S3ArtifactLocation (S3ArtifactLocation'),
     newS3ArtifactLocation,
     s3ArtifactLocation_bucketName,
     s3ArtifactLocation_objectKey,
 
     -- * S3Location
-    S3Location,
+    S3Location (S3Location'),
     newS3Location,
     s3Location_bucket,
     s3Location_key,
 
     -- * SourceRevision
-    SourceRevision,
+    SourceRevision (SourceRevision'),
     newSourceRevision,
     sourceRevision_revisionId,
     sourceRevision_revisionSummary,
@@ -544,25 +544,25 @@ module Amazonka.CodePipeline.Types
     sourceRevision_actionName,
 
     -- * StageContext
-    StageContext,
+    StageContext (StageContext'),
     newStageContext,
     stageContext_name,
 
     -- * StageDeclaration
-    StageDeclaration,
+    StageDeclaration (StageDeclaration'),
     newStageDeclaration,
     stageDeclaration_blockers,
     stageDeclaration_name,
     stageDeclaration_actions,
 
     -- * StageExecution
-    StageExecution,
+    StageExecution (StageExecution'),
     newStageExecution,
     stageExecution_pipelineExecutionId,
     stageExecution_status,
 
     -- * StageState
-    StageState,
+    StageState (StageState'),
     newStageState,
     stageState_actionStates,
     stageState_inboundExecution,
@@ -571,24 +571,24 @@ module Amazonka.CodePipeline.Types
     stageState_stageName,
 
     -- * StopExecutionTrigger
-    StopExecutionTrigger,
+    StopExecutionTrigger (StopExecutionTrigger'),
     newStopExecutionTrigger,
     stopExecutionTrigger_reason,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
 
     -- * ThirdPartyJob
-    ThirdPartyJob,
+    ThirdPartyJob (ThirdPartyJob'),
     newThirdPartyJob,
     thirdPartyJob_clientId,
     thirdPartyJob_jobId,
 
     -- * ThirdPartyJobData
-    ThirdPartyJobData,
+    ThirdPartyJobData (ThirdPartyJobData'),
     newThirdPartyJobData,
     thirdPartyJobData_actionConfiguration,
     thirdPartyJobData_actionTypeId,
@@ -600,14 +600,14 @@ module Amazonka.CodePipeline.Types
     thirdPartyJobData_pipelineContext,
 
     -- * ThirdPartyJobDetails
-    ThirdPartyJobDetails,
+    ThirdPartyJobDetails (ThirdPartyJobDetails'),
     newThirdPartyJobDetails,
     thirdPartyJobDetails_data,
     thirdPartyJobDetails_id,
     thirdPartyJobDetails_nonce,
 
     -- * TransitionState
-    TransitionState,
+    TransitionState (TransitionState'),
     newTransitionState,
     transitionState_disabledReason,
     transitionState_enabled,
@@ -615,13 +615,13 @@ module Amazonka.CodePipeline.Types
     transitionState_lastChangedBy,
 
     -- * WebhookAuthConfiguration
-    WebhookAuthConfiguration,
+    WebhookAuthConfiguration (WebhookAuthConfiguration'),
     newWebhookAuthConfiguration,
     webhookAuthConfiguration_allowedIPRange,
     webhookAuthConfiguration_secretToken,
 
     -- * WebhookDefinition
-    WebhookDefinition,
+    WebhookDefinition (WebhookDefinition'),
     newWebhookDefinition,
     webhookDefinition_name,
     webhookDefinition_targetPipeline,
@@ -631,7 +631,7 @@ module Amazonka.CodePipeline.Types
     webhookDefinition_authenticationConfiguration,
 
     -- * WebhookFilterRule
-    WebhookFilterRule,
+    WebhookFilterRule (WebhookFilterRule'),
     newWebhookFilterRule,
     webhookFilterRule_matchEquals,
     webhookFilterRule_jsonPath,

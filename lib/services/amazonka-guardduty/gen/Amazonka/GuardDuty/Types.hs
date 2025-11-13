@@ -23,76 +23,76 @@ module Amazonka.GuardDuty.Types
     _InternalServerErrorException,
 
     -- * AdminStatus
-    AdminStatus,
+    AdminStatus (AdminStatus'),
 
     -- * CriterionKey
-    CriterionKey,
+    CriterionKey (CriterionKey'),
 
     -- * DataSource
-    DataSource,
+    DataSource (DataSource'),
 
     -- * DataSourceStatus
-    DataSourceStatus,
+    DataSourceStatus (DataSourceStatus'),
 
     -- * DestinationType
-    DestinationType,
+    DestinationType (DestinationType'),
 
     -- * DetectorStatus
-    DetectorStatus,
+    DetectorStatus (DetectorStatus'),
 
     -- * EbsSnapshotPreservation
-    EbsSnapshotPreservation,
+    EbsSnapshotPreservation (EbsSnapshotPreservation'),
 
     -- * Feedback
-    Feedback,
+    Feedback (Feedback'),
 
     -- * FilterAction
-    FilterAction,
+    FilterAction (FilterAction'),
 
     -- * FindingPublishingFrequency
-    FindingPublishingFrequency,
+    FindingPublishingFrequency (FindingPublishingFrequency'),
 
     -- * FindingStatisticType
-    FindingStatisticType,
+    FindingStatisticType (FindingStatisticType'),
 
     -- * IpSetFormat
-    IpSetFormat,
+    IpSetFormat (IpSetFormat'),
 
     -- * IpSetStatus
-    IpSetStatus,
+    IpSetStatus (IpSetStatus'),
 
     -- * OrderBy
-    OrderBy,
+    OrderBy (OrderBy'),
 
     -- * PublishingStatus
-    PublishingStatus,
+    PublishingStatus (PublishingStatus'),
 
     -- * ScanCriterionKey
-    ScanCriterionKey,
+    ScanCriterionKey (ScanCriterionKey'),
 
     -- * ScanResult
-    ScanResult,
+    ScanResult (ScanResult'),
 
     -- * ScanStatus
-    ScanStatus,
+    ScanStatus (ScanStatus'),
 
     -- * ThreatIntelSetFormat
-    ThreatIntelSetFormat,
+    ThreatIntelSetFormat (ThreatIntelSetFormat'),
 
     -- * ThreatIntelSetStatus
-    ThreatIntelSetStatus,
+    ThreatIntelSetStatus (ThreatIntelSetStatus'),
 
     -- * UsageStatisticType
-    UsageStatisticType,
+    UsageStatisticType (UsageStatisticType'),
 
     -- * AccessControlList
-    AccessControlList,
+    AccessControlList (AccessControlList'),
     newAccessControlList,
     accessControlList_allowsPublicReadAccess,
     accessControlList_allowsPublicWriteAccess,
 
     -- * AccessKeyDetails
-    AccessKeyDetails,
+    AccessKeyDetails (AccessKeyDetails'),
     newAccessKeyDetails,
     accessKeyDetails_accessKeyId,
     accessKeyDetails_principalId,
@@ -100,24 +100,24 @@ module Amazonka.GuardDuty.Types
     accessKeyDetails_userType,
 
     -- * AccountDetail
-    AccountDetail,
+    AccountDetail (AccountDetail'),
     newAccountDetail,
     accountDetail_accountId,
     accountDetail_email,
 
     -- * AccountFreeTrialInfo
-    AccountFreeTrialInfo,
+    AccountFreeTrialInfo (AccountFreeTrialInfo'),
     newAccountFreeTrialInfo,
     accountFreeTrialInfo_accountId,
     accountFreeTrialInfo_dataSources,
 
     -- * AccountLevelPermissions
-    AccountLevelPermissions,
+    AccountLevelPermissions (AccountLevelPermissions'),
     newAccountLevelPermissions,
     accountLevelPermissions_blockPublicAccess,
 
     -- * Action
-    Action,
+    Action (Action'),
     newAction,
     action_actionType,
     action_awsApiCallAction,
@@ -127,13 +127,13 @@ module Amazonka.GuardDuty.Types
     action_portProbeAction,
 
     -- * AdminAccount
-    AdminAccount,
+    AdminAccount (AdminAccount'),
     newAdminAccount,
     adminAccount_adminAccountId,
     adminAccount_adminStatus,
 
     -- * Administrator
-    Administrator,
+    Administrator (Administrator'),
     newAdministrator,
     administrator_accountId,
     administrator_invitationId,
@@ -141,7 +141,7 @@ module Amazonka.GuardDuty.Types
     administrator_relationshipStatus,
 
     -- * AwsApiCallAction
-    AwsApiCallAction,
+    AwsApiCallAction (AwsApiCallAction'),
     newAwsApiCallAction,
     awsApiCallAction_affectedResources,
     awsApiCallAction_api,
@@ -154,7 +154,7 @@ module Amazonka.GuardDuty.Types
     awsApiCallAction_userAgent,
 
     -- * BlockPublicAccess
-    BlockPublicAccess,
+    BlockPublicAccess (BlockPublicAccess'),
     newBlockPublicAccess,
     blockPublicAccess_blockPublicAcls,
     blockPublicAccess_blockPublicPolicy,
@@ -162,30 +162,30 @@ module Amazonka.GuardDuty.Types
     blockPublicAccess_restrictPublicBuckets,
 
     -- * BucketLevelPermissions
-    BucketLevelPermissions,
+    BucketLevelPermissions (BucketLevelPermissions'),
     newBucketLevelPermissions,
     bucketLevelPermissions_accessControlList,
     bucketLevelPermissions_blockPublicAccess,
     bucketLevelPermissions_bucketPolicy,
 
     -- * BucketPolicy
-    BucketPolicy,
+    BucketPolicy (BucketPolicy'),
     newBucketPolicy,
     bucketPolicy_allowsPublicReadAccess,
     bucketPolicy_allowsPublicWriteAccess,
 
     -- * City
-    City,
+    City (City'),
     newCity,
     city_cityName,
 
     -- * CloudTrailConfigurationResult
-    CloudTrailConfigurationResult,
+    CloudTrailConfigurationResult (CloudTrailConfigurationResult'),
     newCloudTrailConfigurationResult,
     cloudTrailConfigurationResult_status,
 
     -- * Condition
-    Condition,
+    Condition (Condition'),
     newCondition,
     condition_eq,
     condition_equals,
@@ -201,7 +201,7 @@ module Amazonka.GuardDuty.Types
     condition_notEquals,
 
     -- * Container
-    Container,
+    Container (Container'),
     newContainer,
     container_containerRuntime,
     container_id,
@@ -212,25 +212,25 @@ module Amazonka.GuardDuty.Types
     container_volumeMounts,
 
     -- * Country
-    Country,
+    Country (Country'),
     newCountry,
     country_countryCode,
     country_countryName,
 
     -- * DNSLogsConfigurationResult
-    DNSLogsConfigurationResult,
+    DNSLogsConfigurationResult (DNSLogsConfigurationResult'),
     newDNSLogsConfigurationResult,
     dNSLogsConfigurationResult_status,
 
     -- * DataSourceConfigurations
-    DataSourceConfigurations,
+    DataSourceConfigurations (DataSourceConfigurations'),
     newDataSourceConfigurations,
     dataSourceConfigurations_kubernetes,
     dataSourceConfigurations_malwareProtection,
     dataSourceConfigurations_s3Logs,
 
     -- * DataSourceConfigurationsResult
-    DataSourceConfigurationsResult,
+    DataSourceConfigurationsResult (DataSourceConfigurationsResult'),
     newDataSourceConfigurationsResult,
     dataSourceConfigurationsResult_kubernetes,
     dataSourceConfigurationsResult_malwareProtection,
@@ -240,12 +240,12 @@ module Amazonka.GuardDuty.Types
     dataSourceConfigurationsResult_s3Logs,
 
     -- * DataSourceFreeTrial
-    DataSourceFreeTrial,
+    DataSourceFreeTrial (DataSourceFreeTrial'),
     newDataSourceFreeTrial,
     dataSourceFreeTrial_freeTrialDaysRemaining,
 
     -- * DataSourcesFreeTrial
-    DataSourcesFreeTrial,
+    DataSourcesFreeTrial (DataSourcesFreeTrial'),
     newDataSourcesFreeTrial,
     dataSourcesFreeTrial_cloudTrail,
     dataSourcesFreeTrial_dnsLogs,
@@ -255,44 +255,44 @@ module Amazonka.GuardDuty.Types
     dataSourcesFreeTrial_s3Logs,
 
     -- * DefaultServerSideEncryption
-    DefaultServerSideEncryption,
+    DefaultServerSideEncryption (DefaultServerSideEncryption'),
     newDefaultServerSideEncryption,
     defaultServerSideEncryption_encryptionType,
     defaultServerSideEncryption_kmsMasterKeyArn,
 
     -- * Destination
-    Destination,
+    Destination (Destination'),
     newDestination,
     destination_destinationId,
     destination_destinationType,
     destination_status,
 
     -- * DestinationProperties
-    DestinationProperties,
+    DestinationProperties (DestinationProperties'),
     newDestinationProperties,
     destinationProperties_destinationArn,
     destinationProperties_kmsKeyArn,
 
     -- * DnsRequestAction
-    DnsRequestAction,
+    DnsRequestAction (DnsRequestAction'),
     newDnsRequestAction,
     dnsRequestAction_blocked,
     dnsRequestAction_domain,
     dnsRequestAction_protocol,
 
     -- * DomainDetails
-    DomainDetails,
+    DomainDetails (DomainDetails'),
     newDomainDetails,
     domainDetails_domain,
 
     -- * EbsVolumeDetails
-    EbsVolumeDetails,
+    EbsVolumeDetails (EbsVolumeDetails'),
     newEbsVolumeDetails,
     ebsVolumeDetails_scannedVolumeDetails,
     ebsVolumeDetails_skippedVolumeDetails,
 
     -- * EbsVolumeScanDetails
-    EbsVolumeScanDetails,
+    EbsVolumeScanDetails (EbsVolumeScanDetails'),
     newEbsVolumeScanDetails,
     ebsVolumeScanDetails_scanCompletedAt,
     ebsVolumeScanDetails_scanDetections,
@@ -302,13 +302,13 @@ module Amazonka.GuardDuty.Types
     ebsVolumeScanDetails_triggerFindingId,
 
     -- * EbsVolumesResult
-    EbsVolumesResult,
+    EbsVolumesResult (EbsVolumesResult'),
     newEbsVolumesResult,
     ebsVolumesResult_reason,
     ebsVolumesResult_status,
 
     -- * EcsClusterDetails
-    EcsClusterDetails,
+    EcsClusterDetails (EcsClusterDetails'),
     newEcsClusterDetails,
     ecsClusterDetails_activeServicesCount,
     ecsClusterDetails_arn,
@@ -320,7 +320,7 @@ module Amazonka.GuardDuty.Types
     ecsClusterDetails_taskDetails,
 
     -- * EcsTaskDetails
-    EcsTaskDetails,
+    EcsTaskDetails (EcsTaskDetails'),
     newEcsTaskDetails,
     ecsTaskDetails_arn,
     ecsTaskDetails_containers,
@@ -334,7 +334,7 @@ module Amazonka.GuardDuty.Types
     ecsTaskDetails_volumes,
 
     -- * EksClusterDetails
-    EksClusterDetails,
+    EksClusterDetails (EksClusterDetails'),
     newEksClusterDetails,
     eksClusterDetails_arn,
     eksClusterDetails_createdAt,
@@ -344,30 +344,30 @@ module Amazonka.GuardDuty.Types
     eksClusterDetails_vpcId,
 
     -- * Evidence
-    Evidence,
+    Evidence (Evidence'),
     newEvidence,
     evidence_threatIntelligenceDetails,
 
     -- * FilterCondition
-    FilterCondition,
+    FilterCondition (FilterCondition'),
     newFilterCondition,
     filterCondition_equalsValue,
     filterCondition_greaterThan,
     filterCondition_lessThan,
 
     -- * FilterCriteria
-    FilterCriteria,
+    FilterCriteria (FilterCriteria'),
     newFilterCriteria,
     filterCriteria_filterCriterion,
 
     -- * FilterCriterion
-    FilterCriterion,
+    FilterCriterion (FilterCriterion'),
     newFilterCriterion,
     filterCriterion_criterionKey,
     filterCriterion_filterCondition,
 
     -- * Finding
-    Finding,
+    Finding (Finding'),
     newFinding,
     finding_confidence,
     finding_description,
@@ -386,46 +386,46 @@ module Amazonka.GuardDuty.Types
     finding_updatedAt,
 
     -- * FindingCriteria
-    FindingCriteria,
+    FindingCriteria (FindingCriteria'),
     newFindingCriteria,
     findingCriteria_criterion,
 
     -- * FindingStatistics
-    FindingStatistics,
+    FindingStatistics (FindingStatistics'),
     newFindingStatistics,
     findingStatistics_countBySeverity,
 
     -- * FlowLogsConfigurationResult
-    FlowLogsConfigurationResult,
+    FlowLogsConfigurationResult (FlowLogsConfigurationResult'),
     newFlowLogsConfigurationResult,
     flowLogsConfigurationResult_status,
 
     -- * GeoLocation
-    GeoLocation,
+    GeoLocation (GeoLocation'),
     newGeoLocation,
     geoLocation_lat,
     geoLocation_lon,
 
     -- * HighestSeverityThreatDetails
-    HighestSeverityThreatDetails,
+    HighestSeverityThreatDetails (HighestSeverityThreatDetails'),
     newHighestSeverityThreatDetails,
     highestSeverityThreatDetails_count,
     highestSeverityThreatDetails_severity,
     highestSeverityThreatDetails_threatName,
 
     -- * HostPath
-    HostPath,
+    HostPath (HostPath'),
     newHostPath,
     hostPath_path,
 
     -- * IamInstanceProfile
-    IamInstanceProfile,
+    IamInstanceProfile (IamInstanceProfile'),
     newIamInstanceProfile,
     iamInstanceProfile_arn,
     iamInstanceProfile_id,
 
     -- * InstanceDetails
-    InstanceDetails,
+    InstanceDetails (InstanceDetails'),
     newInstanceDetails,
     instanceDetails_availabilityZone,
     instanceDetails_iamInstanceProfile,
@@ -442,7 +442,7 @@ module Amazonka.GuardDuty.Types
     instanceDetails_tags,
 
     -- * Invitation
-    Invitation,
+    Invitation (Invitation'),
     newInvitation,
     invitation_accountId,
     invitation_invitationId,
@@ -450,7 +450,7 @@ module Amazonka.GuardDuty.Types
     invitation_relationshipStatus,
 
     -- * KubernetesApiCallAction
-    KubernetesApiCallAction,
+    KubernetesApiCallAction (KubernetesApiCallAction'),
     newKubernetesApiCallAction,
     kubernetesApiCallAction_parameters,
     kubernetesApiCallAction_remoteIpDetails,
@@ -461,45 +461,45 @@ module Amazonka.GuardDuty.Types
     kubernetesApiCallAction_verb,
 
     -- * KubernetesAuditLogsConfiguration
-    KubernetesAuditLogsConfiguration,
+    KubernetesAuditLogsConfiguration (KubernetesAuditLogsConfiguration'),
     newKubernetesAuditLogsConfiguration,
     kubernetesAuditLogsConfiguration_enable,
 
     -- * KubernetesAuditLogsConfigurationResult
-    KubernetesAuditLogsConfigurationResult,
+    KubernetesAuditLogsConfigurationResult (KubernetesAuditLogsConfigurationResult'),
     newKubernetesAuditLogsConfigurationResult,
     kubernetesAuditLogsConfigurationResult_status,
 
     -- * KubernetesConfiguration
-    KubernetesConfiguration,
+    KubernetesConfiguration (KubernetesConfiguration'),
     newKubernetesConfiguration,
     kubernetesConfiguration_auditLogs,
 
     -- * KubernetesConfigurationResult
-    KubernetesConfigurationResult,
+    KubernetesConfigurationResult (KubernetesConfigurationResult'),
     newKubernetesConfigurationResult,
     kubernetesConfigurationResult_auditLogs,
 
     -- * KubernetesDataSourceFreeTrial
-    KubernetesDataSourceFreeTrial,
+    KubernetesDataSourceFreeTrial (KubernetesDataSourceFreeTrial'),
     newKubernetesDataSourceFreeTrial,
     kubernetesDataSourceFreeTrial_auditLogs,
 
     -- * KubernetesDetails
-    KubernetesDetails,
+    KubernetesDetails (KubernetesDetails'),
     newKubernetesDetails,
     kubernetesDetails_kubernetesUserDetails,
     kubernetesDetails_kubernetesWorkloadDetails,
 
     -- * KubernetesUserDetails
-    KubernetesUserDetails,
+    KubernetesUserDetails (KubernetesUserDetails'),
     newKubernetesUserDetails,
     kubernetesUserDetails_groups,
     kubernetesUserDetails_uid,
     kubernetesUserDetails_username,
 
     -- * KubernetesWorkloadDetails
-    KubernetesWorkloadDetails,
+    KubernetesWorkloadDetails (KubernetesWorkloadDetails'),
     newKubernetesWorkloadDetails,
     kubernetesWorkloadDetails_containers,
     kubernetesWorkloadDetails_hostNetwork,
@@ -510,34 +510,34 @@ module Amazonka.GuardDuty.Types
     kubernetesWorkloadDetails_volumes,
 
     -- * LocalIpDetails
-    LocalIpDetails,
+    LocalIpDetails (LocalIpDetails'),
     newLocalIpDetails,
     localIpDetails_ipAddressV4,
 
     -- * LocalPortDetails
-    LocalPortDetails,
+    LocalPortDetails (LocalPortDetails'),
     newLocalPortDetails,
     localPortDetails_port,
     localPortDetails_portName,
 
     -- * MalwareProtectionConfiguration
-    MalwareProtectionConfiguration,
+    MalwareProtectionConfiguration (MalwareProtectionConfiguration'),
     newMalwareProtectionConfiguration,
     malwareProtectionConfiguration_scanEc2InstanceWithFindings,
 
     -- * MalwareProtectionConfigurationResult
-    MalwareProtectionConfigurationResult,
+    MalwareProtectionConfigurationResult (MalwareProtectionConfigurationResult'),
     newMalwareProtectionConfigurationResult,
     malwareProtectionConfigurationResult_scanEc2InstanceWithFindings,
     malwareProtectionConfigurationResult_serviceRole,
 
     -- * MalwareProtectionDataSourceFreeTrial
-    MalwareProtectionDataSourceFreeTrial,
+    MalwareProtectionDataSourceFreeTrial (MalwareProtectionDataSourceFreeTrial'),
     newMalwareProtectionDataSourceFreeTrial,
     malwareProtectionDataSourceFreeTrial_scanEc2InstanceWithFindings,
 
     -- * Member
-    Member,
+    Member (Member'),
     newMember,
     member_administratorId,
     member_detectorId,
@@ -549,13 +549,13 @@ module Amazonka.GuardDuty.Types
     member_updatedAt,
 
     -- * MemberDataSourceConfiguration
-    MemberDataSourceConfiguration,
+    MemberDataSourceConfiguration (MemberDataSourceConfiguration'),
     newMemberDataSourceConfiguration,
     memberDataSourceConfiguration_accountId,
     memberDataSourceConfiguration_dataSources,
 
     -- * NetworkConnectionAction
-    NetworkConnectionAction,
+    NetworkConnectionAction (NetworkConnectionAction'),
     newNetworkConnectionAction,
     networkConnectionAction_blocked,
     networkConnectionAction_connectionDirection,
@@ -566,7 +566,7 @@ module Amazonka.GuardDuty.Types
     networkConnectionAction_remotePortDetails,
 
     -- * NetworkInterface
-    NetworkInterface,
+    NetworkInterface (NetworkInterface'),
     newNetworkInterface,
     networkInterface_ipv6Addresses,
     networkInterface_networkInterfaceId,
@@ -580,7 +580,7 @@ module Amazonka.GuardDuty.Types
     networkInterface_vpcId,
 
     -- * Organization
-    Organization,
+    Organization (Organization'),
     newOrganization,
     organization_asn,
     organization_asnOrg,
@@ -588,129 +588,129 @@ module Amazonka.GuardDuty.Types
     organization_org,
 
     -- * OrganizationDataSourceConfigurations
-    OrganizationDataSourceConfigurations,
+    OrganizationDataSourceConfigurations (OrganizationDataSourceConfigurations'),
     newOrganizationDataSourceConfigurations,
     organizationDataSourceConfigurations_kubernetes,
     organizationDataSourceConfigurations_malwareProtection,
     organizationDataSourceConfigurations_s3Logs,
 
     -- * OrganizationDataSourceConfigurationsResult
-    OrganizationDataSourceConfigurationsResult,
+    OrganizationDataSourceConfigurationsResult (OrganizationDataSourceConfigurationsResult'),
     newOrganizationDataSourceConfigurationsResult,
     organizationDataSourceConfigurationsResult_kubernetes,
     organizationDataSourceConfigurationsResult_malwareProtection,
     organizationDataSourceConfigurationsResult_s3Logs,
 
     -- * OrganizationEbsVolumes
-    OrganizationEbsVolumes,
+    OrganizationEbsVolumes (OrganizationEbsVolumes'),
     newOrganizationEbsVolumes,
     organizationEbsVolumes_autoEnable,
 
     -- * OrganizationEbsVolumesResult
-    OrganizationEbsVolumesResult,
+    OrganizationEbsVolumesResult (OrganizationEbsVolumesResult'),
     newOrganizationEbsVolumesResult,
     organizationEbsVolumesResult_autoEnable,
 
     -- * OrganizationKubernetesAuditLogsConfiguration
-    OrganizationKubernetesAuditLogsConfiguration,
+    OrganizationKubernetesAuditLogsConfiguration (OrganizationKubernetesAuditLogsConfiguration'),
     newOrganizationKubernetesAuditLogsConfiguration,
     organizationKubernetesAuditLogsConfiguration_autoEnable,
 
     -- * OrganizationKubernetesAuditLogsConfigurationResult
-    OrganizationKubernetesAuditLogsConfigurationResult,
+    OrganizationKubernetesAuditLogsConfigurationResult (OrganizationKubernetesAuditLogsConfigurationResult'),
     newOrganizationKubernetesAuditLogsConfigurationResult,
     organizationKubernetesAuditLogsConfigurationResult_autoEnable,
 
     -- * OrganizationKubernetesConfiguration
-    OrganizationKubernetesConfiguration,
+    OrganizationKubernetesConfiguration (OrganizationKubernetesConfiguration'),
     newOrganizationKubernetesConfiguration,
     organizationKubernetesConfiguration_auditLogs,
 
     -- * OrganizationKubernetesConfigurationResult
-    OrganizationKubernetesConfigurationResult,
+    OrganizationKubernetesConfigurationResult (OrganizationKubernetesConfigurationResult'),
     newOrganizationKubernetesConfigurationResult,
     organizationKubernetesConfigurationResult_auditLogs,
 
     -- * OrganizationMalwareProtectionConfiguration
-    OrganizationMalwareProtectionConfiguration,
+    OrganizationMalwareProtectionConfiguration (OrganizationMalwareProtectionConfiguration'),
     newOrganizationMalwareProtectionConfiguration,
     organizationMalwareProtectionConfiguration_scanEc2InstanceWithFindings,
 
     -- * OrganizationMalwareProtectionConfigurationResult
-    OrganizationMalwareProtectionConfigurationResult,
+    OrganizationMalwareProtectionConfigurationResult (OrganizationMalwareProtectionConfigurationResult'),
     newOrganizationMalwareProtectionConfigurationResult,
     organizationMalwareProtectionConfigurationResult_scanEc2InstanceWithFindings,
 
     -- * OrganizationS3LogsConfiguration
-    OrganizationS3LogsConfiguration,
+    OrganizationS3LogsConfiguration (OrganizationS3LogsConfiguration'),
     newOrganizationS3LogsConfiguration,
     organizationS3LogsConfiguration_autoEnable,
 
     -- * OrganizationS3LogsConfigurationResult
-    OrganizationS3LogsConfigurationResult,
+    OrganizationS3LogsConfigurationResult (OrganizationS3LogsConfigurationResult'),
     newOrganizationS3LogsConfigurationResult,
     organizationS3LogsConfigurationResult_autoEnable,
 
     -- * OrganizationScanEc2InstanceWithFindings
-    OrganizationScanEc2InstanceWithFindings,
+    OrganizationScanEc2InstanceWithFindings (OrganizationScanEc2InstanceWithFindings'),
     newOrganizationScanEc2InstanceWithFindings,
     organizationScanEc2InstanceWithFindings_ebsVolumes,
 
     -- * OrganizationScanEc2InstanceWithFindingsResult
-    OrganizationScanEc2InstanceWithFindingsResult,
+    OrganizationScanEc2InstanceWithFindingsResult (OrganizationScanEc2InstanceWithFindingsResult'),
     newOrganizationScanEc2InstanceWithFindingsResult,
     organizationScanEc2InstanceWithFindingsResult_ebsVolumes,
 
     -- * Owner
-    Owner,
+    Owner (Owner'),
     newOwner,
     owner_id,
 
     -- * PermissionConfiguration
-    PermissionConfiguration,
+    PermissionConfiguration (PermissionConfiguration'),
     newPermissionConfiguration,
     permissionConfiguration_accountLevelPermissions,
     permissionConfiguration_bucketLevelPermissions,
 
     -- * PortProbeAction
-    PortProbeAction,
+    PortProbeAction (PortProbeAction'),
     newPortProbeAction,
     portProbeAction_blocked,
     portProbeAction_portProbeDetails,
 
     -- * PortProbeDetail
-    PortProbeDetail,
+    PortProbeDetail (PortProbeDetail'),
     newPortProbeDetail,
     portProbeDetail_localIpDetails,
     portProbeDetail_localPortDetails,
     portProbeDetail_remoteIpDetails,
 
     -- * PrivateIpAddressDetails
-    PrivateIpAddressDetails,
+    PrivateIpAddressDetails (PrivateIpAddressDetails'),
     newPrivateIpAddressDetails,
     privateIpAddressDetails_privateDnsName,
     privateIpAddressDetails_privateIpAddress,
 
     -- * ProductCode
-    ProductCode,
+    ProductCode (ProductCode'),
     newProductCode,
     productCode_code,
     productCode_productType,
 
     -- * PublicAccess
-    PublicAccess,
+    PublicAccess (PublicAccess'),
     newPublicAccess,
     publicAccess_effectivePermission,
     publicAccess_permissionConfiguration,
 
     -- * RemoteAccountDetails
-    RemoteAccountDetails,
+    RemoteAccountDetails (RemoteAccountDetails'),
     newRemoteAccountDetails,
     remoteAccountDetails_accountId,
     remoteAccountDetails_affiliated,
 
     -- * RemoteIpDetails
-    RemoteIpDetails,
+    RemoteIpDetails (RemoteIpDetails'),
     newRemoteIpDetails,
     remoteIpDetails_city,
     remoteIpDetails_country,
@@ -719,13 +719,13 @@ module Amazonka.GuardDuty.Types
     remoteIpDetails_organization,
 
     -- * RemotePortDetails
-    RemotePortDetails,
+    RemotePortDetails (RemotePortDetails'),
     newRemotePortDetails,
     remotePortDetails_port,
     remotePortDetails_portName,
 
     -- * Resource
-    Resource,
+    Resource (Resource'),
     newResource,
     resource_accessKeyDetails,
     resource_containerDetails,
@@ -738,12 +738,12 @@ module Amazonka.GuardDuty.Types
     resource_s3BucketDetails,
 
     -- * ResourceDetails
-    ResourceDetails,
+    ResourceDetails (ResourceDetails'),
     newResourceDetails,
     resourceDetails_instanceArn,
 
     -- * S3BucketDetail
-    S3BucketDetail,
+    S3BucketDetail (S3BucketDetail'),
     newS3BucketDetail,
     s3BucketDetail_arn,
     s3BucketDetail_createdAt,
@@ -755,17 +755,17 @@ module Amazonka.GuardDuty.Types
     s3BucketDetail_type,
 
     -- * S3LogsConfiguration
-    S3LogsConfiguration,
+    S3LogsConfiguration (S3LogsConfiguration'),
     newS3LogsConfiguration,
     s3LogsConfiguration_enable,
 
     -- * S3LogsConfigurationResult
-    S3LogsConfigurationResult,
+    S3LogsConfigurationResult (S3LogsConfigurationResult'),
     newS3LogsConfigurationResult,
     s3LogsConfigurationResult_status,
 
     -- * Scan
-    Scan,
+    Scan (Scan'),
     newScan,
     scan_accountId,
     scan_adminDetectorId,
@@ -783,18 +783,18 @@ module Amazonka.GuardDuty.Types
     scan_triggerDetails,
 
     -- * ScanCondition
-    ScanCondition,
+    ScanCondition (ScanCondition'),
     newScanCondition,
     scanCondition_mapEquals,
 
     -- * ScanConditionPair
-    ScanConditionPair,
+    ScanConditionPair (ScanConditionPair'),
     newScanConditionPair,
     scanConditionPair_value,
     scanConditionPair_key,
 
     -- * ScanDetections
-    ScanDetections,
+    ScanDetections (ScanDetections'),
     newScanDetections,
     scanDetections_highestSeverityThreatDetails,
     scanDetections_scannedItemCount,
@@ -802,17 +802,17 @@ module Amazonka.GuardDuty.Types
     scanDetections_threatsDetectedItemCount,
 
     -- * ScanEc2InstanceWithFindings
-    ScanEc2InstanceWithFindings,
+    ScanEc2InstanceWithFindings (ScanEc2InstanceWithFindings'),
     newScanEc2InstanceWithFindings,
     scanEc2InstanceWithFindings_ebsVolumes,
 
     -- * ScanEc2InstanceWithFindingsResult
-    ScanEc2InstanceWithFindingsResult,
+    ScanEc2InstanceWithFindingsResult (ScanEc2InstanceWithFindingsResult'),
     newScanEc2InstanceWithFindingsResult,
     scanEc2InstanceWithFindingsResult_ebsVolumes,
 
     -- * ScanFilePath
-    ScanFilePath,
+    ScanFilePath (ScanFilePath'),
     newScanFilePath,
     scanFilePath_fileName,
     scanFilePath_filePath,
@@ -820,18 +820,18 @@ module Amazonka.GuardDuty.Types
     scanFilePath_volumeArn,
 
     -- * ScanResourceCriteria
-    ScanResourceCriteria,
+    ScanResourceCriteria (ScanResourceCriteria'),
     newScanResourceCriteria,
     scanResourceCriteria_exclude,
     scanResourceCriteria_include,
 
     -- * ScanResultDetails
-    ScanResultDetails,
+    ScanResultDetails (ScanResultDetails'),
     newScanResultDetails,
     scanResultDetails_scanResult,
 
     -- * ScanThreatName
-    ScanThreatName,
+    ScanThreatName (ScanThreatName'),
     newScanThreatName,
     scanThreatName_filePaths,
     scanThreatName_itemCount,
@@ -839,31 +839,31 @@ module Amazonka.GuardDuty.Types
     scanThreatName_severity,
 
     -- * ScannedItemCount
-    ScannedItemCount,
+    ScannedItemCount (ScannedItemCount'),
     newScannedItemCount,
     scannedItemCount_files,
     scannedItemCount_totalGb,
     scannedItemCount_volumes,
 
     -- * SecurityContext
-    SecurityContext,
+    SecurityContext (SecurityContext'),
     newSecurityContext,
     securityContext_privileged,
 
     -- * SecurityGroup
-    SecurityGroup,
+    SecurityGroup (SecurityGroup'),
     newSecurityGroup,
     securityGroup_groupId,
     securityGroup_groupName,
 
     -- * ServiceAdditionalInfo
-    ServiceAdditionalInfo,
+    ServiceAdditionalInfo (ServiceAdditionalInfo'),
     newServiceAdditionalInfo,
     serviceAdditionalInfo_type,
     serviceAdditionalInfo_value,
 
     -- * ServiceInfo
-    ServiceInfo,
+    ServiceInfo (ServiceInfo'),
     newServiceInfo,
     serviceInfo_action,
     serviceInfo_additionalInfo,
@@ -880,19 +880,19 @@ module Amazonka.GuardDuty.Types
     serviceInfo_userFeedback,
 
     -- * SortCriteria
-    SortCriteria,
+    SortCriteria (SortCriteria'),
     newSortCriteria,
     sortCriteria_attributeName,
     sortCriteria_orderBy,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
 
     -- * ThreatDetectedByName
-    ThreatDetectedByName,
+    ThreatDetectedByName (ThreatDetectedByName'),
     newThreatDetectedByName,
     threatDetectedByName_itemCount,
     threatDetectedByName_shortened,
@@ -900,66 +900,66 @@ module Amazonka.GuardDuty.Types
     threatDetectedByName_uniqueThreatNameCount,
 
     -- * ThreatIntelligenceDetail
-    ThreatIntelligenceDetail,
+    ThreatIntelligenceDetail (ThreatIntelligenceDetail'),
     newThreatIntelligenceDetail,
     threatIntelligenceDetail_threatListName,
     threatIntelligenceDetail_threatNames,
 
     -- * ThreatsDetectedItemCount
-    ThreatsDetectedItemCount,
+    ThreatsDetectedItemCount (ThreatsDetectedItemCount'),
     newThreatsDetectedItemCount,
     threatsDetectedItemCount_files,
 
     -- * Total
-    Total,
+    Total (Total'),
     newTotal,
     total_amount,
     total_unit,
 
     -- * TriggerDetails
-    TriggerDetails,
+    TriggerDetails (TriggerDetails'),
     newTriggerDetails,
     triggerDetails_description,
     triggerDetails_guardDutyFindingId,
 
     -- * UnprocessedAccount
-    UnprocessedAccount,
+    UnprocessedAccount (UnprocessedAccount'),
     newUnprocessedAccount,
     unprocessedAccount_accountId,
     unprocessedAccount_result,
 
     -- * UnprocessedDataSourcesResult
-    UnprocessedDataSourcesResult,
+    UnprocessedDataSourcesResult (UnprocessedDataSourcesResult'),
     newUnprocessedDataSourcesResult,
     unprocessedDataSourcesResult_malwareProtection,
 
     -- * UsageAccountResult
-    UsageAccountResult,
+    UsageAccountResult (UsageAccountResult'),
     newUsageAccountResult,
     usageAccountResult_accountId,
     usageAccountResult_total,
 
     -- * UsageCriteria
-    UsageCriteria,
+    UsageCriteria (UsageCriteria'),
     newUsageCriteria,
     usageCriteria_accountIds,
     usageCriteria_resources,
     usageCriteria_dataSources,
 
     -- * UsageDataSourceResult
-    UsageDataSourceResult,
+    UsageDataSourceResult (UsageDataSourceResult'),
     newUsageDataSourceResult,
     usageDataSourceResult_dataSource,
     usageDataSourceResult_total,
 
     -- * UsageResourceResult
-    UsageResourceResult,
+    UsageResourceResult (UsageResourceResult'),
     newUsageResourceResult,
     usageResourceResult_resource,
     usageResourceResult_total,
 
     -- * UsageStatistics
-    UsageStatistics,
+    UsageStatistics (UsageStatistics'),
     newUsageStatistics,
     usageStatistics_sumByAccount,
     usageStatistics_sumByDataSource,
@@ -967,13 +967,13 @@ module Amazonka.GuardDuty.Types
     usageStatistics_topResources,
 
     -- * Volume
-    Volume,
+    Volume (Volume'),
     newVolume,
     volume_hostPath,
     volume_name,
 
     -- * VolumeDetail
-    VolumeDetail,
+    VolumeDetail (VolumeDetail'),
     newVolumeDetail,
     volumeDetail_deviceName,
     volumeDetail_encryptionType,
@@ -984,7 +984,7 @@ module Amazonka.GuardDuty.Types
     volumeDetail_volumeType,
 
     -- * VolumeMount
-    VolumeMount,
+    VolumeMount (VolumeMount'),
     newVolumeMount,
     volumeMount_mountPath,
     volumeMount_name,

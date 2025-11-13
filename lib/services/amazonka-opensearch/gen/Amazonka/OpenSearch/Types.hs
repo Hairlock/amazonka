@@ -32,116 +32,116 @@ module Amazonka.OpenSearch.Types
     _ValidationException,
 
     -- * AutoTuneDesiredState
-    AutoTuneDesiredState,
+    AutoTuneDesiredState (AutoTuneDesiredState'),
 
     -- * AutoTuneState
-    AutoTuneState,
+    AutoTuneState (AutoTuneState'),
 
     -- * AutoTuneType
-    AutoTuneType,
+    AutoTuneType (AutoTuneType'),
 
     -- * DeploymentStatus
-    DeploymentStatus,
+    DeploymentStatus (DeploymentStatus'),
 
     -- * DescribePackagesFilterName
-    DescribePackagesFilterName,
+    DescribePackagesFilterName (DescribePackagesFilterName'),
 
     -- * DomainPackageStatus
-    DomainPackageStatus,
+    DomainPackageStatus (DomainPackageStatus'),
 
     -- * EngineType
-    EngineType,
+    EngineType (EngineType'),
 
     -- * InboundConnectionStatusCode
-    InboundConnectionStatusCode,
+    InboundConnectionStatusCode (InboundConnectionStatusCode'),
 
     -- * LogType
-    LogType,
+    LogType (LogType'),
 
     -- * OpenSearchPartitionInstanceType
-    OpenSearchPartitionInstanceType,
+    OpenSearchPartitionInstanceType (OpenSearchPartitionInstanceType'),
 
     -- * OpenSearchWarmPartitionInstanceType
-    OpenSearchWarmPartitionInstanceType,
+    OpenSearchWarmPartitionInstanceType (OpenSearchWarmPartitionInstanceType'),
 
     -- * OptionState
-    OptionState,
+    OptionState (OptionState'),
 
     -- * OutboundConnectionStatusCode
-    OutboundConnectionStatusCode,
+    OutboundConnectionStatusCode (OutboundConnectionStatusCode'),
 
     -- * OverallChangeStatus
-    OverallChangeStatus,
+    OverallChangeStatus (OverallChangeStatus'),
 
     -- * PackageStatus
-    PackageStatus,
+    PackageStatus (PackageStatus'),
 
     -- * PackageType
-    PackageType,
+    PackageType (PackageType'),
 
     -- * PrincipalType
-    PrincipalType,
+    PrincipalType (PrincipalType'),
 
     -- * ReservedInstancePaymentOption
-    ReservedInstancePaymentOption,
+    ReservedInstancePaymentOption (ReservedInstancePaymentOption'),
 
     -- * RollbackOnDisable
-    RollbackOnDisable,
+    RollbackOnDisable (RollbackOnDisable'),
 
     -- * ScheduledAutoTuneActionType
-    ScheduledAutoTuneActionType,
+    ScheduledAutoTuneActionType (ScheduledAutoTuneActionType'),
 
     -- * ScheduledAutoTuneSeverityType
-    ScheduledAutoTuneSeverityType,
+    ScheduledAutoTuneSeverityType (ScheduledAutoTuneSeverityType'),
 
     -- * TLSSecurityPolicy
-    TLSSecurityPolicy,
+    TLSSecurityPolicy (TLSSecurityPolicy'),
 
     -- * TimeUnit
-    TimeUnit,
+    TimeUnit (TimeUnit'),
 
     -- * UpgradeStatus
-    UpgradeStatus,
+    UpgradeStatus (UpgradeStatus'),
 
     -- * UpgradeStep
-    UpgradeStep,
+    UpgradeStep (UpgradeStep'),
 
     -- * VolumeType
-    VolumeType,
+    VolumeType (VolumeType'),
 
     -- * VpcEndpointErrorCode
-    VpcEndpointErrorCode,
+    VpcEndpointErrorCode (VpcEndpointErrorCode'),
 
     -- * VpcEndpointStatus
-    VpcEndpointStatus,
+    VpcEndpointStatus (VpcEndpointStatus'),
 
     -- * AWSDomainInformation
-    AWSDomainInformation,
+    AWSDomainInformation (AWSDomainInformation'),
     newAWSDomainInformation,
     aWSDomainInformation_ownerId,
     aWSDomainInformation_region,
     aWSDomainInformation_domainName,
 
     -- * AccessPoliciesStatus
-    AccessPoliciesStatus,
+    AccessPoliciesStatus (AccessPoliciesStatus'),
     newAccessPoliciesStatus,
     accessPoliciesStatus_options,
     accessPoliciesStatus_status,
 
     -- * AdditionalLimit
-    AdditionalLimit,
+    AdditionalLimit (AdditionalLimit'),
     newAdditionalLimit,
     additionalLimit_limitName,
     additionalLimit_limitValues,
 
     -- * AdvancedOptionsStatus
-    AdvancedOptionsStatus,
+    AdvancedOptionsStatus (AdvancedOptionsStatus'),
     newAdvancedOptionsStatus,
     advancedOptionsStatus_options,
     advancedOptionsStatus_status,
 
     -- * AdvancedSecurityOptions
-    AdvancedSecurityOptions,
+    AdvancedSecurityOptions (AdvancedSecurityOptions'),
     newAdvancedSecurityOptions,
     advancedSecurityOptions_anonymousAuthDisableDate,
     advancedSecurityOptions_anonymousAuthEnabled,
@@ -150,7 +150,7 @@ module Amazonka.OpenSearch.Types
     advancedSecurityOptions_sAMLOptions,
 
     -- * AdvancedSecurityOptionsInput
-    AdvancedSecurityOptionsInput,
+    AdvancedSecurityOptionsInput (AdvancedSecurityOptionsInput'),
     newAdvancedSecurityOptionsInput,
     advancedSecurityOptionsInput_anonymousAuthEnabled,
     advancedSecurityOptionsInput_enabled,
@@ -159,62 +159,62 @@ module Amazonka.OpenSearch.Types
     advancedSecurityOptionsInput_sAMLOptions,
 
     -- * AdvancedSecurityOptionsStatus
-    AdvancedSecurityOptionsStatus,
+    AdvancedSecurityOptionsStatus (AdvancedSecurityOptionsStatus'),
     newAdvancedSecurityOptionsStatus,
     advancedSecurityOptionsStatus_options,
     advancedSecurityOptionsStatus_status,
 
     -- * AuthorizedPrincipal
-    AuthorizedPrincipal,
+    AuthorizedPrincipal (AuthorizedPrincipal'),
     newAuthorizedPrincipal,
     authorizedPrincipal_principal,
     authorizedPrincipal_principalType,
 
     -- * AutoTune
-    AutoTune,
+    AutoTune (AutoTune'),
     newAutoTune,
     autoTune_autoTuneDetails,
     autoTune_autoTuneType,
 
     -- * AutoTuneDetails
-    AutoTuneDetails,
+    AutoTuneDetails (AutoTuneDetails'),
     newAutoTuneDetails,
     autoTuneDetails_scheduledAutoTuneDetails,
 
     -- * AutoTuneMaintenanceSchedule
-    AutoTuneMaintenanceSchedule,
+    AutoTuneMaintenanceSchedule (AutoTuneMaintenanceSchedule'),
     newAutoTuneMaintenanceSchedule,
     autoTuneMaintenanceSchedule_cronExpressionForRecurrence,
     autoTuneMaintenanceSchedule_duration,
     autoTuneMaintenanceSchedule_startAt,
 
     -- * AutoTuneOptions
-    AutoTuneOptions,
+    AutoTuneOptions (AutoTuneOptions'),
     newAutoTuneOptions,
     autoTuneOptions_desiredState,
     autoTuneOptions_maintenanceSchedules,
     autoTuneOptions_rollbackOnDisable,
 
     -- * AutoTuneOptionsInput
-    AutoTuneOptionsInput,
+    AutoTuneOptionsInput (AutoTuneOptionsInput'),
     newAutoTuneOptionsInput,
     autoTuneOptionsInput_desiredState,
     autoTuneOptionsInput_maintenanceSchedules,
 
     -- * AutoTuneOptionsOutput
-    AutoTuneOptionsOutput,
+    AutoTuneOptionsOutput (AutoTuneOptionsOutput'),
     newAutoTuneOptionsOutput,
     autoTuneOptionsOutput_errorMessage,
     autoTuneOptionsOutput_state,
 
     -- * AutoTuneOptionsStatus
-    AutoTuneOptionsStatus,
+    AutoTuneOptionsStatus (AutoTuneOptionsStatus'),
     newAutoTuneOptionsStatus,
     autoTuneOptionsStatus_options,
     autoTuneOptionsStatus_status,
 
     -- * AutoTuneStatus
-    AutoTuneStatus,
+    AutoTuneStatus (AutoTuneStatus'),
     newAutoTuneStatus,
     autoTuneStatus_errorMessage,
     autoTuneStatus_pendingDeletion,
@@ -224,13 +224,13 @@ module Amazonka.OpenSearch.Types
     autoTuneStatus_state,
 
     -- * ChangeProgressDetails
-    ChangeProgressDetails,
+    ChangeProgressDetails (ChangeProgressDetails'),
     newChangeProgressDetails,
     changeProgressDetails_changeId,
     changeProgressDetails_message,
 
     -- * ChangeProgressStage
-    ChangeProgressStage,
+    ChangeProgressStage (ChangeProgressStage'),
     newChangeProgressStage,
     changeProgressStage_description,
     changeProgressStage_lastUpdated,
@@ -238,7 +238,7 @@ module Amazonka.OpenSearch.Types
     changeProgressStage_status,
 
     -- * ChangeProgressStatusDetails
-    ChangeProgressStatusDetails,
+    ChangeProgressStatusDetails (ChangeProgressStatusDetails'),
     newChangeProgressStatusDetails,
     changeProgressStatusDetails_changeId,
     changeProgressStatusDetails_changeProgressStages,
@@ -249,7 +249,7 @@ module Amazonka.OpenSearch.Types
     changeProgressStatusDetails_totalNumberOfStages,
 
     -- * ClusterConfig
-    ClusterConfig,
+    ClusterConfig (ClusterConfig'),
     newClusterConfig,
     clusterConfig_coldStorageOptions,
     clusterConfig_dedicatedMasterCount,
@@ -264,13 +264,13 @@ module Amazonka.OpenSearch.Types
     clusterConfig_zoneAwarenessEnabled,
 
     -- * ClusterConfigStatus
-    ClusterConfigStatus,
+    ClusterConfigStatus (ClusterConfigStatus'),
     newClusterConfigStatus,
     clusterConfigStatus_options,
     clusterConfigStatus_status,
 
     -- * CognitoOptions
-    CognitoOptions,
+    CognitoOptions (CognitoOptions'),
     newCognitoOptions,
     cognitoOptions_enabled,
     cognitoOptions_identityPoolId,
@@ -278,30 +278,30 @@ module Amazonka.OpenSearch.Types
     cognitoOptions_userPoolId,
 
     -- * CognitoOptionsStatus
-    CognitoOptionsStatus,
+    CognitoOptionsStatus (CognitoOptionsStatus'),
     newCognitoOptionsStatus,
     cognitoOptionsStatus_options,
     cognitoOptionsStatus_status,
 
     -- * ColdStorageOptions
-    ColdStorageOptions,
+    ColdStorageOptions (ColdStorageOptions'),
     newColdStorageOptions,
     coldStorageOptions_enabled,
 
     -- * CompatibleVersionsMap
-    CompatibleVersionsMap,
+    CompatibleVersionsMap (CompatibleVersionsMap'),
     newCompatibleVersionsMap,
     compatibleVersionsMap_sourceVersion,
     compatibleVersionsMap_targetVersions,
 
     -- * DescribePackagesFilter
-    DescribePackagesFilter,
+    DescribePackagesFilter (DescribePackagesFilter'),
     newDescribePackagesFilter,
     describePackagesFilter_name,
     describePackagesFilter_value,
 
     -- * DomainConfig
-    DomainConfig,
+    DomainConfig (DomainConfig'),
     newDomainConfig,
     domainConfig_accessPolicies,
     domainConfig_advancedOptions,
@@ -320,7 +320,7 @@ module Amazonka.OpenSearch.Types
     domainConfig_vPCOptions,
 
     -- * DomainEndpointOptions
-    DomainEndpointOptions,
+    DomainEndpointOptions (DomainEndpointOptions'),
     newDomainEndpointOptions,
     domainEndpointOptions_customEndpoint,
     domainEndpointOptions_customEndpointCertificateArn,
@@ -329,24 +329,24 @@ module Amazonka.OpenSearch.Types
     domainEndpointOptions_tLSSecurityPolicy,
 
     -- * DomainEndpointOptionsStatus
-    DomainEndpointOptionsStatus,
+    DomainEndpointOptionsStatus (DomainEndpointOptionsStatus'),
     newDomainEndpointOptionsStatus,
     domainEndpointOptionsStatus_options,
     domainEndpointOptionsStatus_status,
 
     -- * DomainInfo
-    DomainInfo,
+    DomainInfo (DomainInfo'),
     newDomainInfo,
     domainInfo_domainName,
     domainInfo_engineType,
 
     -- * DomainInformationContainer
-    DomainInformationContainer,
+    DomainInformationContainer (DomainInformationContainer'),
     newDomainInformationContainer,
     domainInformationContainer_aWSDomainInformation,
 
     -- * DomainPackageDetails
-    DomainPackageDetails,
+    DomainPackageDetails (DomainPackageDetails'),
     newDomainPackageDetails,
     domainPackageDetails_domainName,
     domainPackageDetails_domainPackageStatus,
@@ -359,7 +359,7 @@ module Amazonka.OpenSearch.Types
     domainPackageDetails_referencePath,
 
     -- * DomainStatus
-    DomainStatus,
+    DomainStatus (DomainStatus'),
     newDomainStatus,
     domainStatus_accessPolicies,
     domainStatus_advancedOptions,
@@ -388,19 +388,19 @@ module Amazonka.OpenSearch.Types
     domainStatus_clusterConfig,
 
     -- * DryRunResults
-    DryRunResults,
+    DryRunResults (DryRunResults'),
     newDryRunResults,
     dryRunResults_deploymentType,
     dryRunResults_message,
 
     -- * Duration
-    Duration,
+    Duration (Duration'),
     newDuration,
     duration_unit,
     duration_value,
 
     -- * EBSOptions
-    EBSOptions,
+    EBSOptions (EBSOptions'),
     newEBSOptions,
     eBSOptions_eBSEnabled,
     eBSOptions_iops,
@@ -409,37 +409,37 @@ module Amazonka.OpenSearch.Types
     eBSOptions_volumeType,
 
     -- * EBSOptionsStatus
-    EBSOptionsStatus,
+    EBSOptionsStatus (EBSOptionsStatus'),
     newEBSOptionsStatus,
     eBSOptionsStatus_options,
     eBSOptionsStatus_status,
 
     -- * EncryptionAtRestOptions
-    EncryptionAtRestOptions,
+    EncryptionAtRestOptions (EncryptionAtRestOptions'),
     newEncryptionAtRestOptions,
     encryptionAtRestOptions_enabled,
     encryptionAtRestOptions_kmsKeyId,
 
     -- * EncryptionAtRestOptionsStatus
-    EncryptionAtRestOptionsStatus,
+    EncryptionAtRestOptionsStatus (EncryptionAtRestOptionsStatus'),
     newEncryptionAtRestOptionsStatus,
     encryptionAtRestOptionsStatus_options,
     encryptionAtRestOptionsStatus_status,
 
     -- * ErrorDetails
-    ErrorDetails,
+    ErrorDetails (ErrorDetails'),
     newErrorDetails,
     errorDetails_errorMessage,
     errorDetails_errorType,
 
     -- * Filter
-    Filter,
+    Filter (Filter'),
     newFilter,
     filter_name,
     filter_values,
 
     -- * InboundConnection
-    InboundConnection,
+    InboundConnection (InboundConnection'),
     newInboundConnection,
     inboundConnection_connectionId,
     inboundConnection_connectionStatus,
@@ -447,24 +447,24 @@ module Amazonka.OpenSearch.Types
     inboundConnection_remoteDomainInfo,
 
     -- * InboundConnectionStatus
-    InboundConnectionStatus,
+    InboundConnectionStatus (InboundConnectionStatus'),
     newInboundConnectionStatus,
     inboundConnectionStatus_message,
     inboundConnectionStatus_statusCode,
 
     -- * InstanceCountLimits
-    InstanceCountLimits,
+    InstanceCountLimits (InstanceCountLimits'),
     newInstanceCountLimits,
     instanceCountLimits_maximumInstanceCount,
     instanceCountLimits_minimumInstanceCount,
 
     -- * InstanceLimits
-    InstanceLimits,
+    InstanceLimits (InstanceLimits'),
     newInstanceLimits,
     instanceLimits_instanceCountLimits,
 
     -- * InstanceTypeDetails
-    InstanceTypeDetails,
+    InstanceTypeDetails (InstanceTypeDetails'),
     newInstanceTypeDetails,
     instanceTypeDetails_advancedSecurityEnabled,
     instanceTypeDetails_appLogsEnabled,
@@ -475,44 +475,44 @@ module Amazonka.OpenSearch.Types
     instanceTypeDetails_warmEnabled,
 
     -- * Limits
-    Limits,
+    Limits (Limits'),
     newLimits,
     limits_additionalLimits,
     limits_instanceLimits,
     limits_storageTypes,
 
     -- * LogPublishingOption
-    LogPublishingOption,
+    LogPublishingOption (LogPublishingOption'),
     newLogPublishingOption,
     logPublishingOption_cloudWatchLogsLogGroupArn,
     logPublishingOption_enabled,
 
     -- * LogPublishingOptionsStatus
-    LogPublishingOptionsStatus,
+    LogPublishingOptionsStatus (LogPublishingOptionsStatus'),
     newLogPublishingOptionsStatus,
     logPublishingOptionsStatus_options,
     logPublishingOptionsStatus_status,
 
     -- * MasterUserOptions
-    MasterUserOptions,
+    MasterUserOptions (MasterUserOptions'),
     newMasterUserOptions,
     masterUserOptions_masterUserARN,
     masterUserOptions_masterUserName,
     masterUserOptions_masterUserPassword,
 
     -- * NodeToNodeEncryptionOptions
-    NodeToNodeEncryptionOptions,
+    NodeToNodeEncryptionOptions (NodeToNodeEncryptionOptions'),
     newNodeToNodeEncryptionOptions,
     nodeToNodeEncryptionOptions_enabled,
 
     -- * NodeToNodeEncryptionOptionsStatus
-    NodeToNodeEncryptionOptionsStatus,
+    NodeToNodeEncryptionOptionsStatus (NodeToNodeEncryptionOptionsStatus'),
     newNodeToNodeEncryptionOptionsStatus,
     nodeToNodeEncryptionOptionsStatus_options,
     nodeToNodeEncryptionOptionsStatus_status,
 
     -- * OptionStatus
-    OptionStatus,
+    OptionStatus (OptionStatus'),
     newOptionStatus,
     optionStatus_pendingDeletion,
     optionStatus_updateVersion,
@@ -521,7 +521,7 @@ module Amazonka.OpenSearch.Types
     optionStatus_state,
 
     -- * OutboundConnection
-    OutboundConnection,
+    OutboundConnection (OutboundConnection'),
     newOutboundConnection,
     outboundConnection_connectionAlias,
     outboundConnection_connectionId,
@@ -530,13 +530,13 @@ module Amazonka.OpenSearch.Types
     outboundConnection_remoteDomainInfo,
 
     -- * OutboundConnectionStatus
-    OutboundConnectionStatus,
+    OutboundConnectionStatus (OutboundConnectionStatus'),
     newOutboundConnectionStatus,
     outboundConnectionStatus_message,
     outboundConnectionStatus_statusCode,
 
     -- * PackageDetails
-    PackageDetails,
+    PackageDetails (PackageDetails'),
     newPackageDetails,
     packageDetails_availablePackageVersion,
     packageDetails_createdAt,
@@ -549,26 +549,26 @@ module Amazonka.OpenSearch.Types
     packageDetails_packageType,
 
     -- * PackageSource
-    PackageSource,
+    PackageSource (PackageSource'),
     newPackageSource,
     packageSource_s3BucketName,
     packageSource_s3Key,
 
     -- * PackageVersionHistory
-    PackageVersionHistory,
+    PackageVersionHistory (PackageVersionHistory'),
     newPackageVersionHistory,
     packageVersionHistory_commitMessage,
     packageVersionHistory_createdAt,
     packageVersionHistory_packageVersion,
 
     -- * RecurringCharge
-    RecurringCharge,
+    RecurringCharge (RecurringCharge'),
     newRecurringCharge,
     recurringCharge_recurringChargeAmount,
     recurringCharge_recurringChargeFrequency,
 
     -- * ReservedInstance
-    ReservedInstance,
+    ReservedInstance (ReservedInstance'),
     newReservedInstance,
     reservedInstance_billingSubscriptionId,
     reservedInstance_currencyCode,
@@ -586,7 +586,7 @@ module Amazonka.OpenSearch.Types
     reservedInstance_usagePrice,
 
     -- * ReservedInstanceOffering
-    ReservedInstanceOffering,
+    ReservedInstanceOffering (ReservedInstanceOffering'),
     newReservedInstanceOffering,
     reservedInstanceOffering_currencyCode,
     reservedInstanceOffering_duration,
@@ -598,13 +598,13 @@ module Amazonka.OpenSearch.Types
     reservedInstanceOffering_usagePrice,
 
     -- * SAMLIdp
-    SAMLIdp,
+    SAMLIdp (SAMLIdp'),
     newSAMLIdp,
     sAMLIdp_metadataContent,
     sAMLIdp_entityId,
 
     -- * SAMLOptionsInput
-    SAMLOptionsInput,
+    SAMLOptionsInput (SAMLOptionsInput'),
     newSAMLOptionsInput,
     sAMLOptionsInput_enabled,
     sAMLOptionsInput_idp,
@@ -615,7 +615,7 @@ module Amazonka.OpenSearch.Types
     sAMLOptionsInput_subjectKey,
 
     -- * SAMLOptionsOutput
-    SAMLOptionsOutput,
+    SAMLOptionsOutput (SAMLOptionsOutput'),
     newSAMLOptionsOutput,
     sAMLOptionsOutput_enabled,
     sAMLOptionsOutput_idp,
@@ -624,7 +624,7 @@ module Amazonka.OpenSearch.Types
     sAMLOptionsOutput_subjectKey,
 
     -- * ScheduledAutoTuneDetails
-    ScheduledAutoTuneDetails,
+    ScheduledAutoTuneDetails (ScheduledAutoTuneDetails'),
     newScheduledAutoTuneDetails,
     scheduledAutoTuneDetails_action,
     scheduledAutoTuneDetails_actionType,
@@ -632,7 +632,7 @@ module Amazonka.OpenSearch.Types
     scheduledAutoTuneDetails_severity,
 
     -- * ServiceSoftwareOptions
-    ServiceSoftwareOptions,
+    ServiceSoftwareOptions (ServiceSoftwareOptions'),
     newServiceSoftwareOptions,
     serviceSoftwareOptions_automatedUpdateDate,
     serviceSoftwareOptions_cancellable,
@@ -644,37 +644,37 @@ module Amazonka.OpenSearch.Types
     serviceSoftwareOptions_updateStatus,
 
     -- * SnapshotOptions
-    SnapshotOptions,
+    SnapshotOptions (SnapshotOptions'),
     newSnapshotOptions,
     snapshotOptions_automatedSnapshotStartHour,
 
     -- * SnapshotOptionsStatus
-    SnapshotOptionsStatus,
+    SnapshotOptionsStatus (SnapshotOptionsStatus'),
     newSnapshotOptionsStatus,
     snapshotOptionsStatus_options,
     snapshotOptionsStatus_status,
 
     -- * StorageType
-    StorageType,
+    StorageType (StorageType'),
     newStorageType,
     storageType_storageSubTypeName,
     storageType_storageTypeLimits,
     storageType_storageTypeName,
 
     -- * StorageTypeLimit
-    StorageTypeLimit,
+    StorageTypeLimit (StorageTypeLimit'),
     newStorageTypeLimit,
     storageTypeLimit_limitName,
     storageTypeLimit_limitValues,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
 
     -- * UpgradeHistory
-    UpgradeHistory,
+    UpgradeHistory (UpgradeHistory'),
     newUpgradeHistory,
     upgradeHistory_startTimestamp,
     upgradeHistory_stepsList,
@@ -682,7 +682,7 @@ module Amazonka.OpenSearch.Types
     upgradeHistory_upgradeStatus,
 
     -- * UpgradeStepItem
-    UpgradeStepItem,
+    UpgradeStepItem (UpgradeStepItem'),
     newUpgradeStepItem,
     upgradeStepItem_issues,
     upgradeStepItem_progressPercent,
@@ -690,7 +690,7 @@ module Amazonka.OpenSearch.Types
     upgradeStepItem_upgradeStepStatus,
 
     -- * VPCDerivedInfo
-    VPCDerivedInfo,
+    VPCDerivedInfo (VPCDerivedInfo'),
     newVPCDerivedInfo,
     vPCDerivedInfo_availabilityZones,
     vPCDerivedInfo_securityGroupIds,
@@ -698,25 +698,25 @@ module Amazonka.OpenSearch.Types
     vPCDerivedInfo_vPCId,
 
     -- * VPCDerivedInfoStatus
-    VPCDerivedInfoStatus,
+    VPCDerivedInfoStatus (VPCDerivedInfoStatus'),
     newVPCDerivedInfoStatus,
     vPCDerivedInfoStatus_options,
     vPCDerivedInfoStatus_status,
 
     -- * VPCOptions
-    VPCOptions,
+    VPCOptions (VPCOptions'),
     newVPCOptions,
     vPCOptions_securityGroupIds,
     vPCOptions_subnetIds,
 
     -- * VersionStatus
-    VersionStatus,
+    VersionStatus (VersionStatus'),
     newVersionStatus,
     versionStatus_options,
     versionStatus_status,
 
     -- * VpcEndpoint
-    VpcEndpoint,
+    VpcEndpoint (VpcEndpoint'),
     newVpcEndpoint,
     vpcEndpoint_domainArn,
     vpcEndpoint_endpoint,
@@ -726,14 +726,14 @@ module Amazonka.OpenSearch.Types
     vpcEndpoint_vpcOptions,
 
     -- * VpcEndpointError
-    VpcEndpointError,
+    VpcEndpointError (VpcEndpointError'),
     newVpcEndpointError,
     vpcEndpointError_errorCode,
     vpcEndpointError_errorMessage,
     vpcEndpointError_vpcEndpointId,
 
     -- * VpcEndpointSummary
-    VpcEndpointSummary,
+    VpcEndpointSummary (VpcEndpointSummary'),
     newVpcEndpointSummary,
     vpcEndpointSummary_domainArn,
     vpcEndpointSummary_status,
@@ -741,7 +741,7 @@ module Amazonka.OpenSearch.Types
     vpcEndpointSummary_vpcEndpointOwner,
 
     -- * ZoneAwarenessConfig
-    ZoneAwarenessConfig,
+    ZoneAwarenessConfig (ZoneAwarenessConfig'),
     newZoneAwarenessConfig,
     zoneAwarenessConfig_availabilityZoneCount,
   )

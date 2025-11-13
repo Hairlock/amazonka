@@ -36,133 +36,133 @@ module Amazonka.GameLift.Types
     _UnsupportedRegionException,
 
     -- * AcceptanceType
-    AcceptanceType,
+    AcceptanceType (AcceptanceType'),
 
     -- * BackfillMode
-    BackfillMode,
+    BackfillMode (BackfillMode'),
 
     -- * BalancingStrategy
-    BalancingStrategy,
+    BalancingStrategy (BalancingStrategy'),
 
     -- * BuildStatus
-    BuildStatus,
+    BuildStatus (BuildStatus'),
 
     -- * CertificateType
-    CertificateType,
+    CertificateType (CertificateType'),
 
     -- * ComparisonOperatorType
-    ComparisonOperatorType,
+    ComparisonOperatorType (ComparisonOperatorType'),
 
     -- * ComputeStatus
-    ComputeStatus,
+    ComputeStatus (ComputeStatus'),
 
     -- * ComputeType
-    ComputeType,
+    ComputeType (ComputeType'),
 
     -- * EC2InstanceType
-    EC2InstanceType,
+    EC2InstanceType (EC2InstanceType'),
 
     -- * EventCode
-    EventCode,
+    EventCode (EventCode'),
 
     -- * FleetAction
-    FleetAction,
+    FleetAction (FleetAction'),
 
     -- * FleetStatus
-    FleetStatus,
+    FleetStatus (FleetStatus'),
 
     -- * FleetType
-    FleetType,
+    FleetType (FleetType'),
 
     -- * FlexMatchMode
-    FlexMatchMode,
+    FlexMatchMode (FlexMatchMode'),
 
     -- * GameServerClaimStatus
-    GameServerClaimStatus,
+    GameServerClaimStatus (GameServerClaimStatus'),
 
     -- * GameServerGroupAction
-    GameServerGroupAction,
+    GameServerGroupAction (GameServerGroupAction'),
 
     -- * GameServerGroupDeleteOption
-    GameServerGroupDeleteOption,
+    GameServerGroupDeleteOption (GameServerGroupDeleteOption'),
 
     -- * GameServerGroupInstanceType
-    GameServerGroupInstanceType,
+    GameServerGroupInstanceType (GameServerGroupInstanceType'),
 
     -- * GameServerGroupStatus
-    GameServerGroupStatus,
+    GameServerGroupStatus (GameServerGroupStatus'),
 
     -- * GameServerHealthCheck
-    GameServerHealthCheck,
+    GameServerHealthCheck (GameServerHealthCheck'),
 
     -- * GameServerInstanceStatus
-    GameServerInstanceStatus,
+    GameServerInstanceStatus (GameServerInstanceStatus'),
 
     -- * GameServerProtectionPolicy
-    GameServerProtectionPolicy,
+    GameServerProtectionPolicy (GameServerProtectionPolicy'),
 
     -- * GameServerUtilizationStatus
-    GameServerUtilizationStatus,
+    GameServerUtilizationStatus (GameServerUtilizationStatus'),
 
     -- * GameSessionPlacementState
-    GameSessionPlacementState,
+    GameSessionPlacementState (GameSessionPlacementState'),
 
     -- * GameSessionStatus
-    GameSessionStatus,
+    GameSessionStatus (GameSessionStatus'),
 
     -- * GameSessionStatusReason
-    GameSessionStatusReason,
+    GameSessionStatusReason (GameSessionStatusReason'),
 
     -- * InstanceStatus
-    InstanceStatus,
+    InstanceStatus (InstanceStatus'),
 
     -- * IpProtocol
-    IpProtocol,
+    IpProtocol (IpProtocol'),
 
     -- * LocationFilter
-    LocationFilter,
+    LocationFilter (LocationFilter'),
 
     -- * LocationUpdateStatus
-    LocationUpdateStatus,
+    LocationUpdateStatus (LocationUpdateStatus'),
 
     -- * MatchmakingConfigurationStatus
-    MatchmakingConfigurationStatus,
+    MatchmakingConfigurationStatus (MatchmakingConfigurationStatus'),
 
     -- * MetricName
-    MetricName,
+    MetricName (MetricName'),
 
     -- * OperatingSystem
-    OperatingSystem,
+    OperatingSystem (OperatingSystem'),
 
     -- * PlayerSessionCreationPolicy
-    PlayerSessionCreationPolicy,
+    PlayerSessionCreationPolicy (PlayerSessionCreationPolicy'),
 
     -- * PlayerSessionStatus
-    PlayerSessionStatus,
+    PlayerSessionStatus (PlayerSessionStatus'),
 
     -- * PolicyType
-    PolicyType,
+    PolicyType (PolicyType'),
 
     -- * PriorityType
-    PriorityType,
+    PriorityType (PriorityType'),
 
     -- * ProtectionPolicy
-    ProtectionPolicy,
+    ProtectionPolicy (ProtectionPolicy'),
 
     -- * RoutingStrategyType
-    RoutingStrategyType,
+    RoutingStrategyType (RoutingStrategyType'),
 
     -- * ScalingAdjustmentType
-    ScalingAdjustmentType,
+    ScalingAdjustmentType (ScalingAdjustmentType'),
 
     -- * ScalingStatusType
-    ScalingStatusType,
+    ScalingStatusType (ScalingStatusType'),
 
     -- * SortOrder
-    SortOrder,
+    SortOrder (SortOrder'),
 
     -- * Alias
-    Alias,
+    Alias (Alias'),
     newAlias,
     alias_aliasArn,
     alias_aliasId,
@@ -173,12 +173,12 @@ module Amazonka.GameLift.Types
     alias_routingStrategy,
 
     -- * AnywhereConfiguration
-    AnywhereConfiguration,
+    AnywhereConfiguration (AnywhereConfiguration'),
     newAnywhereConfiguration,
     anywhereConfiguration_cost,
 
     -- * AttributeValue
-    AttributeValue,
+    AttributeValue (AttributeValue'),
     newAttributeValue,
     attributeValue_n,
     attributeValue_s,
@@ -186,14 +186,14 @@ module Amazonka.GameLift.Types
     attributeValue_sl,
 
     -- * AwsCredentials
-    AwsCredentials,
+    AwsCredentials (AwsCredentials'),
     newAwsCredentials,
     awsCredentials_accessKeyId,
     awsCredentials_secretAccessKey,
     awsCredentials_sessionToken,
 
     -- * Build
-    Build,
+    Build (Build'),
     newBuild,
     build_buildArn,
     build_buildId,
@@ -206,12 +206,12 @@ module Amazonka.GameLift.Types
     build_version,
 
     -- * CertificateConfiguration
-    CertificateConfiguration,
+    CertificateConfiguration (CertificateConfiguration'),
     newCertificateConfiguration,
     certificateConfiguration_certificateType,
 
     -- * Compute
-    Compute,
+    Compute (Compute'),
     newCompute,
     compute_computeArn,
     compute_computeName,
@@ -227,13 +227,13 @@ module Amazonka.GameLift.Types
     compute_type,
 
     -- * DesiredPlayerSession
-    DesiredPlayerSession,
+    DesiredPlayerSession (DesiredPlayerSession'),
     newDesiredPlayerSession,
     desiredPlayerSession_playerData,
     desiredPlayerSession_playerId,
 
     -- * EC2InstanceCounts
-    EC2InstanceCounts,
+    EC2InstanceCounts (EC2InstanceCounts'),
     newEC2InstanceCounts,
     eC2InstanceCounts_active,
     eC2InstanceCounts_desired,
@@ -244,7 +244,7 @@ module Amazonka.GameLift.Types
     eC2InstanceCounts_terminating,
 
     -- * EC2InstanceLimit
-    EC2InstanceLimit,
+    EC2InstanceLimit (EC2InstanceLimit'),
     newEC2InstanceLimit,
     eC2InstanceLimit_currentInstances,
     eC2InstanceLimit_eC2InstanceType,
@@ -252,7 +252,7 @@ module Amazonka.GameLift.Types
     eC2InstanceLimit_location,
 
     -- * Event
-    Event,
+    Event (Event'),
     newEvent,
     event_eventCode,
     event_eventId,
@@ -262,12 +262,12 @@ module Amazonka.GameLift.Types
     event_resourceId,
 
     -- * FilterConfiguration
-    FilterConfiguration,
+    FilterConfiguration (FilterConfiguration'),
     newFilterConfiguration,
     filterConfiguration_allowedLocations,
 
     -- * FleetAttributes
-    FleetAttributes,
+    FleetAttributes (FleetAttributes'),
     newFleetAttributes,
     fleetAttributes_anywhereConfiguration,
     fleetAttributes_buildArn,
@@ -296,7 +296,7 @@ module Amazonka.GameLift.Types
     fleetAttributes_terminationTime,
 
     -- * FleetCapacity
-    FleetCapacity,
+    FleetCapacity (FleetCapacity'),
     newFleetCapacity,
     fleetCapacity_fleetArn,
     fleetCapacity_fleetId,
@@ -305,7 +305,7 @@ module Amazonka.GameLift.Types
     fleetCapacity_location,
 
     -- * FleetUtilization
-    FleetUtilization,
+    FleetUtilization (FleetUtilization'),
     newFleetUtilization,
     fleetUtilization_activeGameSessionCount,
     fleetUtilization_activeServerProcessCount,
@@ -316,13 +316,13 @@ module Amazonka.GameLift.Types
     fleetUtilization_maximumPlayerSessionCount,
 
     -- * GameProperty
-    GameProperty,
+    GameProperty (GameProperty'),
     newGameProperty,
     gameProperty_key,
     gameProperty_value,
 
     -- * GameServer
-    GameServer,
+    GameServer (GameServer'),
     newGameServer,
     gameServer_claimStatus,
     gameServer_connectionInfo,
@@ -337,7 +337,7 @@ module Amazonka.GameLift.Types
     gameServer_utilizationStatus,
 
     -- * GameServerGroup
-    GameServerGroup,
+    GameServerGroup (GameServerGroup'),
     newGameServerGroup,
     gameServerGroup_autoScalingGroupArn,
     gameServerGroup_balancingStrategy,
@@ -353,13 +353,13 @@ module Amazonka.GameLift.Types
     gameServerGroup_suspendedActions,
 
     -- * GameServerGroupAutoScalingPolicy
-    GameServerGroupAutoScalingPolicy,
+    GameServerGroupAutoScalingPolicy (GameServerGroupAutoScalingPolicy'),
     newGameServerGroupAutoScalingPolicy,
     gameServerGroupAutoScalingPolicy_estimatedInstanceWarmup,
     gameServerGroupAutoScalingPolicy_targetTrackingConfiguration,
 
     -- * GameServerInstance
-    GameServerInstance,
+    GameServerInstance (GameServerInstance'),
     newGameServerInstance,
     gameServerInstance_gameServerGroupArn,
     gameServerInstance_gameServerGroupName,
@@ -367,7 +367,7 @@ module Amazonka.GameLift.Types
     gameServerInstance_instanceStatus,
 
     -- * GameSession
-    GameSession,
+    GameSession (GameSession'),
     newGameSession,
     gameSession_creationTime,
     gameSession_creatorId,
@@ -390,7 +390,7 @@ module Amazonka.GameLift.Types
     gameSession_terminationTime,
 
     -- * GameSessionConnectionInfo
-    GameSessionConnectionInfo,
+    GameSessionConnectionInfo (GameSessionConnectionInfo'),
     newGameSessionConnectionInfo,
     gameSessionConnectionInfo_dnsName,
     gameSessionConnectionInfo_gameSessionArn,
@@ -399,13 +399,13 @@ module Amazonka.GameLift.Types
     gameSessionConnectionInfo_port,
 
     -- * GameSessionDetail
-    GameSessionDetail,
+    GameSessionDetail (GameSessionDetail'),
     newGameSessionDetail,
     gameSessionDetail_gameSession,
     gameSessionDetail_protectionPolicy,
 
     -- * GameSessionPlacement
-    GameSessionPlacement,
+    GameSessionPlacement (GameSessionPlacement'),
     newGameSessionPlacement,
     gameSessionPlacement_dnsName,
     gameSessionPlacement_endTime,
@@ -427,7 +427,7 @@ module Amazonka.GameLift.Types
     gameSessionPlacement_status,
 
     -- * GameSessionQueue
-    GameSessionQueue,
+    GameSessionQueue (GameSessionQueue'),
     newGameSessionQueue,
     gameSessionQueue_customEventData,
     gameSessionQueue_destinations,
@@ -440,12 +440,12 @@ module Amazonka.GameLift.Types
     gameSessionQueue_timeoutInSeconds,
 
     -- * GameSessionQueueDestination
-    GameSessionQueueDestination,
+    GameSessionQueueDestination (GameSessionQueueDestination'),
     newGameSessionQueueDestination,
     gameSessionQueueDestination_destinationArn,
 
     -- * Instance
-    Instance,
+    Instance (Instance'),
     newInstance,
     instance_creationTime,
     instance_dnsName,
@@ -459,7 +459,7 @@ module Amazonka.GameLift.Types
     instance_type,
 
     -- * InstanceAccess
-    InstanceAccess,
+    InstanceAccess (InstanceAccess'),
     newInstanceAccess,
     instanceAccess_credentials,
     instanceAccess_fleetId,
@@ -468,19 +468,19 @@ module Amazonka.GameLift.Types
     instanceAccess_operatingSystem,
 
     -- * InstanceCredentials
-    InstanceCredentials,
+    InstanceCredentials (InstanceCredentials'),
     newInstanceCredentials,
     instanceCredentials_secret,
     instanceCredentials_userName,
 
     -- * InstanceDefinition
-    InstanceDefinition,
+    InstanceDefinition (InstanceDefinition'),
     newInstanceDefinition,
     instanceDefinition_weightedCapacity,
     instanceDefinition_instanceType,
 
     -- * IpPermission
-    IpPermission,
+    IpPermission (IpPermission'),
     newIpPermission,
     ipPermission_fromPort,
     ipPermission_toPort,
@@ -488,44 +488,44 @@ module Amazonka.GameLift.Types
     ipPermission_protocol,
 
     -- * LaunchTemplateSpecification
-    LaunchTemplateSpecification,
+    LaunchTemplateSpecification (LaunchTemplateSpecification'),
     newLaunchTemplateSpecification,
     launchTemplateSpecification_launchTemplateId,
     launchTemplateSpecification_launchTemplateName,
     launchTemplateSpecification_version,
 
     -- * LocationAttributes
-    LocationAttributes,
+    LocationAttributes (LocationAttributes'),
     newLocationAttributes,
     locationAttributes_locationState,
     locationAttributes_stoppedActions,
     locationAttributes_updateStatus,
 
     -- * LocationConfiguration
-    LocationConfiguration,
+    LocationConfiguration (LocationConfiguration'),
     newLocationConfiguration,
     locationConfiguration_location,
 
     -- * LocationModel
-    LocationModel,
+    LocationModel (LocationModel'),
     newLocationModel,
     locationModel_locationArn,
     locationModel_locationName,
 
     -- * LocationState
-    LocationState,
+    LocationState (LocationState'),
     newLocationState,
     locationState_location,
     locationState_status,
 
     -- * MatchedPlayerSession
-    MatchedPlayerSession,
+    MatchedPlayerSession (MatchedPlayerSession'),
     newMatchedPlayerSession,
     matchedPlayerSession_playerId,
     matchedPlayerSession_playerSessionId,
 
     -- * MatchmakingConfiguration
-    MatchmakingConfiguration,
+    MatchmakingConfiguration (MatchmakingConfiguration'),
     newMatchmakingConfiguration,
     matchmakingConfiguration_acceptanceRequired,
     matchmakingConfiguration_acceptanceTimeoutSeconds,
@@ -546,7 +546,7 @@ module Amazonka.GameLift.Types
     matchmakingConfiguration_ruleSetName,
 
     -- * MatchmakingRuleSet
-    MatchmakingRuleSet,
+    MatchmakingRuleSet (MatchmakingRuleSet'),
     newMatchmakingRuleSet,
     matchmakingRuleSet_creationTime,
     matchmakingRuleSet_ruleSetArn,
@@ -554,7 +554,7 @@ module Amazonka.GameLift.Types
     matchmakingRuleSet_ruleSetBody,
 
     -- * MatchmakingTicket
-    MatchmakingTicket,
+    MatchmakingTicket (MatchmakingTicket'),
     newMatchmakingTicket,
     matchmakingTicket_configurationArn,
     matchmakingTicket_configurationName,
@@ -569,13 +569,13 @@ module Amazonka.GameLift.Types
     matchmakingTicket_ticketId,
 
     -- * PlacedPlayerSession
-    PlacedPlayerSession,
+    PlacedPlayerSession (PlacedPlayerSession'),
     newPlacedPlayerSession,
     placedPlayerSession_playerId,
     placedPlayerSession_playerSessionId,
 
     -- * Player
-    Player,
+    Player (Player'),
     newPlayer,
     player_latencyInMs,
     player_playerAttributes,
@@ -583,20 +583,20 @@ module Amazonka.GameLift.Types
     player_team,
 
     -- * PlayerLatency
-    PlayerLatency,
+    PlayerLatency (PlayerLatency'),
     newPlayerLatency,
     playerLatency_latencyInMilliseconds,
     playerLatency_playerId,
     playerLatency_regionIdentifier,
 
     -- * PlayerLatencyPolicy
-    PlayerLatencyPolicy,
+    PlayerLatencyPolicy (PlayerLatencyPolicy'),
     newPlayerLatencyPolicy,
     playerLatencyPolicy_maximumIndividualPlayerLatencyMilliseconds,
     playerLatencyPolicy_policyDurationSeconds,
 
     -- * PlayerSession
-    PlayerSession,
+    PlayerSession (PlayerSession'),
     newPlayerSession,
     playerSession_creationTime,
     playerSession_dnsName,
@@ -612,33 +612,33 @@ module Amazonka.GameLift.Types
     playerSession_terminationTime,
 
     -- * PriorityConfiguration
-    PriorityConfiguration,
+    PriorityConfiguration (PriorityConfiguration'),
     newPriorityConfiguration,
     priorityConfiguration_locationOrder,
     priorityConfiguration_priorityOrder,
 
     -- * ResourceCreationLimitPolicy
-    ResourceCreationLimitPolicy,
+    ResourceCreationLimitPolicy (ResourceCreationLimitPolicy'),
     newResourceCreationLimitPolicy,
     resourceCreationLimitPolicy_newGameSessionsPerCreator,
     resourceCreationLimitPolicy_policyPeriodInMinutes,
 
     -- * RoutingStrategy
-    RoutingStrategy,
+    RoutingStrategy (RoutingStrategy'),
     newRoutingStrategy,
     routingStrategy_fleetId,
     routingStrategy_message,
     routingStrategy_type,
 
     -- * RuntimeConfiguration
-    RuntimeConfiguration,
+    RuntimeConfiguration (RuntimeConfiguration'),
     newRuntimeConfiguration,
     runtimeConfiguration_gameSessionActivationTimeoutSeconds,
     runtimeConfiguration_maxConcurrentGameSessionActivations,
     runtimeConfiguration_serverProcesses,
 
     -- * S3Location
-    S3Location,
+    S3Location (S3Location'),
     newS3Location,
     s3Location_bucket,
     s3Location_key,
@@ -646,7 +646,7 @@ module Amazonka.GameLift.Types
     s3Location_roleArn,
 
     -- * ScalingPolicy
-    ScalingPolicy,
+    ScalingPolicy (ScalingPolicy'),
     newScalingPolicy,
     scalingPolicy_comparisonOperator,
     scalingPolicy_evaluationPeriods,
@@ -664,7 +664,7 @@ module Amazonka.GameLift.Types
     scalingPolicy_updateStatus,
 
     -- * Script
-    Script,
+    Script (Script'),
     newScript,
     script_creationTime,
     script_name,
@@ -675,30 +675,30 @@ module Amazonka.GameLift.Types
     script_version,
 
     -- * ServerProcess
-    ServerProcess,
+    ServerProcess (ServerProcess'),
     newServerProcess,
     serverProcess_parameters,
     serverProcess_launchPath,
     serverProcess_concurrentExecutions,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
 
     -- * TargetConfiguration
-    TargetConfiguration,
+    TargetConfiguration (TargetConfiguration'),
     newTargetConfiguration,
     targetConfiguration_targetValue,
 
     -- * TargetTrackingConfiguration
-    TargetTrackingConfiguration,
+    TargetTrackingConfiguration (TargetTrackingConfiguration'),
     newTargetTrackingConfiguration,
     targetTrackingConfiguration_targetValue,
 
     -- * VpcPeeringAuthorization
-    VpcPeeringAuthorization,
+    VpcPeeringAuthorization (VpcPeeringAuthorization'),
     newVpcPeeringAuthorization,
     vpcPeeringAuthorization_creationTime,
     vpcPeeringAuthorization_expirationTime,
@@ -707,7 +707,7 @@ module Amazonka.GameLift.Types
     vpcPeeringAuthorization_peerVpcId,
 
     -- * VpcPeeringConnection
-    VpcPeeringConnection,
+    VpcPeeringConnection (VpcPeeringConnection'),
     newVpcPeeringConnection,
     vpcPeeringConnection_fleetArn,
     vpcPeeringConnection_fleetId,
@@ -718,7 +718,7 @@ module Amazonka.GameLift.Types
     vpcPeeringConnection_vpcPeeringConnectionId,
 
     -- * VpcPeeringConnectionStatus
-    VpcPeeringConnectionStatus,
+    VpcPeeringConnectionStatus (VpcPeeringConnectionStatus'),
     newVpcPeeringConnectionStatus,
     vpcPeeringConnectionStatus_code,
     vpcPeeringConnectionStatus_message,

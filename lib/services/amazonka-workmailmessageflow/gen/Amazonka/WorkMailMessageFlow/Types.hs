@@ -25,12 +25,12 @@ module Amazonka.WorkMailMessageFlow.Types
     _ResourceNotFoundException,
 
     -- * RawMessageContent
-    RawMessageContent,
+    RawMessageContent (RawMessageContent'),
     newRawMessageContent,
     rawMessageContent_s3Reference,
 
     -- * S3Reference
-    S3Reference,
+    S3Reference (S3Reference'),
     newS3Reference,
     s3Reference_objectVersion,
     s3Reference_bucket,

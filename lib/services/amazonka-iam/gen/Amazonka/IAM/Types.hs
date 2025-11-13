@@ -48,67 +48,67 @@ module Amazonka.IAM.Types
     _UnrecognizedPublicKeyEncodingException,
 
     -- * AccessAdvisorUsageGranularityType
-    AccessAdvisorUsageGranularityType,
+    AccessAdvisorUsageGranularityType (AccessAdvisorUsageGranularityType'),
 
     -- * AssignmentStatusType
-    AssignmentStatusType,
+    AssignmentStatusType (AssignmentStatusType'),
 
     -- * ContextKeyTypeEnum
-    ContextKeyTypeEnum,
+    ContextKeyTypeEnum (ContextKeyTypeEnum'),
 
     -- * DeletionTaskStatusType
-    DeletionTaskStatusType,
+    DeletionTaskStatusType (DeletionTaskStatusType'),
 
     -- * EncodingType
-    EncodingType,
+    EncodingType (EncodingType'),
 
     -- * EntityType
-    EntityType,
+    EntityType (EntityType'),
 
     -- * GlobalEndpointTokenVersion
-    GlobalEndpointTokenVersion,
+    GlobalEndpointTokenVersion (GlobalEndpointTokenVersion'),
 
     -- * JobStatusType
-    JobStatusType,
+    JobStatusType (JobStatusType'),
 
     -- * PermissionsBoundaryAttachmentType
-    PermissionsBoundaryAttachmentType,
+    PermissionsBoundaryAttachmentType (PermissionsBoundaryAttachmentType'),
 
     -- * PolicyEvaluationDecisionType
-    PolicyEvaluationDecisionType,
+    PolicyEvaluationDecisionType (PolicyEvaluationDecisionType'),
 
     -- * PolicyOwnerEntityType
-    PolicyOwnerEntityType,
+    PolicyOwnerEntityType (PolicyOwnerEntityType'),
 
     -- * PolicyScopeType
-    PolicyScopeType,
+    PolicyScopeType (PolicyScopeType'),
 
     -- * PolicySourceType
-    PolicySourceType,
+    PolicySourceType (PolicySourceType'),
 
     -- * PolicyType
-    PolicyType,
+    PolicyType (PolicyType'),
 
     -- * PolicyUsageType
-    PolicyUsageType,
+    PolicyUsageType (PolicyUsageType'),
 
     -- * ReportFormatType
-    ReportFormatType,
+    ReportFormatType (ReportFormatType'),
 
     -- * ReportStateType
-    ReportStateType,
+    ReportStateType (ReportStateType'),
 
     -- * SortKeyType
-    SortKeyType,
+    SortKeyType (SortKeyType'),
 
     -- * StatusType
-    StatusType,
+    StatusType (StatusType'),
 
     -- * SummaryKeyType
-    SummaryKeyType,
+    SummaryKeyType (SummaryKeyType'),
 
     -- * AccessDetail
-    AccessDetail,
+    AccessDetail (AccessDetail'),
     newAccessDetail,
     accessDetail_entityPath,
     accessDetail_lastAuthenticatedTime,
@@ -118,7 +118,7 @@ module Amazonka.IAM.Types
     accessDetail_serviceNamespace,
 
     -- * AccessKeyInfo
-    AccessKeyInfo,
+    AccessKeyInfo (AccessKeyInfo'),
     newAccessKeyInfo,
     accessKeyInfo_createDate,
     accessKeyInfo_userName,
@@ -127,14 +127,14 @@ module Amazonka.IAM.Types
     accessKeyInfo_secretAccessKey,
 
     -- * AccessKeyLastUsed
-    AccessKeyLastUsed,
+    AccessKeyLastUsed (AccessKeyLastUsed'),
     newAccessKeyLastUsed,
     accessKeyLastUsed_lastUsedDate,
     accessKeyLastUsed_serviceName,
     accessKeyLastUsed_region,
 
     -- * AccessKeyMetadata
-    AccessKeyMetadata,
+    AccessKeyMetadata (AccessKeyMetadata'),
     newAccessKeyMetadata,
     accessKeyMetadata_accessKeyId,
     accessKeyMetadata_createDate,
@@ -142,38 +142,38 @@ module Amazonka.IAM.Types
     accessKeyMetadata_userName,
 
     -- * AttachedPermissionsBoundary
-    AttachedPermissionsBoundary,
+    AttachedPermissionsBoundary (AttachedPermissionsBoundary'),
     newAttachedPermissionsBoundary,
     attachedPermissionsBoundary_permissionsBoundaryArn,
     attachedPermissionsBoundary_permissionsBoundaryType,
 
     -- * AttachedPolicy
-    AttachedPolicy,
+    AttachedPolicy (AttachedPolicy'),
     newAttachedPolicy,
     attachedPolicy_policyArn,
     attachedPolicy_policyName,
 
     -- * ContextEntry
-    ContextEntry,
+    ContextEntry (ContextEntry'),
     newContextEntry,
     contextEntry_contextKeyName,
     contextEntry_contextKeyType,
     contextEntry_contextKeyValues,
 
     -- * DeletionTaskFailureReasonType
-    DeletionTaskFailureReasonType,
+    DeletionTaskFailureReasonType (DeletionTaskFailureReasonType'),
     newDeletionTaskFailureReasonType,
     deletionTaskFailureReasonType_reason,
     deletionTaskFailureReasonType_roleUsageList,
 
     -- * EntityDetails
-    EntityDetails,
+    EntityDetails (EntityDetails'),
     newEntityDetails,
     entityDetails_lastAuthenticated,
     entityDetails_entityInfo,
 
     -- * EntityInfo
-    EntityInfo,
+    EntityInfo (EntityInfo'),
     newEntityInfo,
     entityInfo_path,
     entityInfo_arn,
@@ -182,13 +182,13 @@ module Amazonka.IAM.Types
     entityInfo_id,
 
     -- * ErrorDetails
-    ErrorDetails,
+    ErrorDetails (ErrorDetails'),
     newErrorDetails,
     errorDetails_message,
     errorDetails_code,
 
     -- * EvaluationResult
-    EvaluationResult,
+    EvaluationResult (EvaluationResult'),
     newEvaluationResult,
     evaluationResult_evalDecisionDetails,
     evaluationResult_evalResourceName,
@@ -201,12 +201,12 @@ module Amazonka.IAM.Types
     evaluationResult_evalDecision,
 
     -- * GetContextKeysForPolicyResponse
-    GetContextKeysForPolicyResponse,
+    GetContextKeysForPolicyResponse (GetContextKeysForPolicyResponse'),
     newGetContextKeysForPolicyResponse,
     getContextKeysForPolicyResponse_contextKeyNames,
 
     -- * Group
-    Group,
+    Group (Group'),
     newGroup,
     group_path,
     group_groupName,
@@ -215,7 +215,7 @@ module Amazonka.IAM.Types
     group_createDate,
 
     -- * GroupDetail
-    GroupDetail,
+    GroupDetail (GroupDetail'),
     newGroupDetail,
     groupDetail_arn,
     groupDetail_attachedManagedPolicies,
@@ -226,7 +226,7 @@ module Amazonka.IAM.Types
     groupDetail_path,
 
     -- * InstanceProfile
-    InstanceProfile,
+    InstanceProfile (InstanceProfile'),
     newInstanceProfile,
     instanceProfile_tags,
     instanceProfile_path,
@@ -237,27 +237,27 @@ module Amazonka.IAM.Types
     instanceProfile_roles,
 
     -- * ListPoliciesGrantingServiceAccessEntry
-    ListPoliciesGrantingServiceAccessEntry,
+    ListPoliciesGrantingServiceAccessEntry (ListPoliciesGrantingServiceAccessEntry'),
     newListPoliciesGrantingServiceAccessEntry,
     listPoliciesGrantingServiceAccessEntry_policies,
     listPoliciesGrantingServiceAccessEntry_serviceNamespace,
 
     -- * LoginProfile
-    LoginProfile,
+    LoginProfile (LoginProfile'),
     newLoginProfile,
     loginProfile_passwordResetRequired,
     loginProfile_userName,
     loginProfile_createDate,
 
     -- * MFADevice
-    MFADevice,
+    MFADevice (MFADevice'),
     newMFADevice,
     mfaDevice_userName,
     mfaDevice_serialNumber,
     mfaDevice_enableDate,
 
     -- * ManagedPolicyDetail
-    ManagedPolicyDetail,
+    ManagedPolicyDetail (ManagedPolicyDetail'),
     newManagedPolicyDetail,
     managedPolicyDetail_arn,
     managedPolicyDetail_attachmentCount,
@@ -273,17 +273,17 @@ module Amazonka.IAM.Types
     managedPolicyDetail_updateDate,
 
     -- * OpenIDConnectProviderListEntry
-    OpenIDConnectProviderListEntry,
+    OpenIDConnectProviderListEntry (OpenIDConnectProviderListEntry'),
     newOpenIDConnectProviderListEntry,
     openIDConnectProviderListEntry_arn,
 
     -- * OrganizationsDecisionDetail
-    OrganizationsDecisionDetail,
+    OrganizationsDecisionDetail (OrganizationsDecisionDetail'),
     newOrganizationsDecisionDetail,
     organizationsDecisionDetail_allowedByOrganizations,
 
     -- * PasswordPolicy
-    PasswordPolicy,
+    PasswordPolicy (PasswordPolicy'),
     newPasswordPolicy,
     passwordPolicy_allowUsersToChangePassword,
     passwordPolicy_expirePasswords,
@@ -297,12 +297,12 @@ module Amazonka.IAM.Types
     passwordPolicy_requireUppercaseCharacters,
 
     -- * PermissionsBoundaryDecisionDetail
-    PermissionsBoundaryDecisionDetail,
+    PermissionsBoundaryDecisionDetail (PermissionsBoundaryDecisionDetail'),
     newPermissionsBoundaryDecisionDetail,
     permissionsBoundaryDecisionDetail_allowedByPermissionsBoundary,
 
     -- * Policy
-    Policy,
+    Policy (Policy'),
     newPolicy,
     policy_arn,
     policy_attachmentCount,
@@ -318,13 +318,13 @@ module Amazonka.IAM.Types
     policy_updateDate,
 
     -- * PolicyDetail
-    PolicyDetail,
+    PolicyDetail (PolicyDetail'),
     newPolicyDetail,
     policyDetail_policyDocument,
     policyDetail_policyName,
 
     -- * PolicyGrantingServiceAccess
-    PolicyGrantingServiceAccess,
+    PolicyGrantingServiceAccess (PolicyGrantingServiceAccess'),
     newPolicyGrantingServiceAccess,
     policyGrantingServiceAccess_entityName,
     policyGrantingServiceAccess_entityType,
@@ -333,25 +333,25 @@ module Amazonka.IAM.Types
     policyGrantingServiceAccess_policyType,
 
     -- * PolicyGroup
-    PolicyGroup,
+    PolicyGroup (PolicyGroup'),
     newPolicyGroup,
     policyGroup_groupId,
     policyGroup_groupName,
 
     -- * PolicyRole
-    PolicyRole,
+    PolicyRole (PolicyRole'),
     newPolicyRole,
     policyRole_roleId,
     policyRole_roleName,
 
     -- * PolicyUser
-    PolicyUser,
+    PolicyUser (PolicyUser'),
     newPolicyUser,
     policyUser_userId,
     policyUser_userName,
 
     -- * PolicyVersion
-    PolicyVersion,
+    PolicyVersion (PolicyVersion'),
     newPolicyVersion,
     policyVersion_createDate,
     policyVersion_document,
@@ -359,13 +359,13 @@ module Amazonka.IAM.Types
     policyVersion_versionId,
 
     -- * Position
-    Position,
+    Position (Position'),
     newPosition,
     position_column,
     position_line,
 
     -- * ResourceSpecificResult
-    ResourceSpecificResult,
+    ResourceSpecificResult (ResourceSpecificResult'),
     newResourceSpecificResult,
     resourceSpecificResult_evalDecisionDetails,
     resourceSpecificResult_matchedStatements,
@@ -375,7 +375,7 @@ module Amazonka.IAM.Types
     resourceSpecificResult_evalResourceDecision,
 
     -- * Role
-    Role,
+    Role (Role'),
     newRole,
     role_assumeRolePolicyDocument,
     role_description,
@@ -390,7 +390,7 @@ module Amazonka.IAM.Types
     role_createDate,
 
     -- * RoleDetail
-    RoleDetail,
+    RoleDetail (RoleDetail'),
     newRoleDetail,
     roleDetail_arn,
     roleDetail_assumeRolePolicyDocument,
@@ -406,26 +406,26 @@ module Amazonka.IAM.Types
     roleDetail_tags,
 
     -- * RoleLastUsed
-    RoleLastUsed,
+    RoleLastUsed (RoleLastUsed'),
     newRoleLastUsed,
     roleLastUsed_lastUsedDate,
     roleLastUsed_region,
 
     -- * RoleUsageType
-    RoleUsageType,
+    RoleUsageType (RoleUsageType'),
     newRoleUsageType,
     roleUsageType_region,
     roleUsageType_resources,
 
     -- * SAMLProviderListEntry
-    SAMLProviderListEntry,
+    SAMLProviderListEntry (SAMLProviderListEntry'),
     newSAMLProviderListEntry,
     sAMLProviderListEntry_arn,
     sAMLProviderListEntry_createDate,
     sAMLProviderListEntry_validUntil,
 
     -- * SSHPublicKey
-    SSHPublicKey,
+    SSHPublicKey (SSHPublicKey'),
     newSSHPublicKey,
     sSHPublicKey_uploadDate,
     sSHPublicKey_userName,
@@ -435,7 +435,7 @@ module Amazonka.IAM.Types
     sSHPublicKey_status,
 
     -- * SSHPublicKeyMetadata
-    SSHPublicKeyMetadata,
+    SSHPublicKeyMetadata (SSHPublicKeyMetadata'),
     newSSHPublicKeyMetadata,
     sSHPublicKeyMetadata_userName,
     sSHPublicKeyMetadata_sSHPublicKeyId,
@@ -443,7 +443,7 @@ module Amazonka.IAM.Types
     sSHPublicKeyMetadata_uploadDate,
 
     -- * ServerCertificate
-    ServerCertificate,
+    ServerCertificate (ServerCertificate'),
     newServerCertificate,
     serverCertificate_certificateChain,
     serverCertificate_tags,
@@ -451,7 +451,7 @@ module Amazonka.IAM.Types
     serverCertificate_certificateBody,
 
     -- * ServerCertificateMetadata
-    ServerCertificateMetadata,
+    ServerCertificateMetadata (ServerCertificateMetadata'),
     newServerCertificateMetadata,
     serverCertificateMetadata_expiration,
     serverCertificateMetadata_uploadDate,
@@ -461,7 +461,7 @@ module Amazonka.IAM.Types
     serverCertificateMetadata_arn,
 
     -- * ServiceLastAccessed
-    ServiceLastAccessed,
+    ServiceLastAccessed (ServiceLastAccessed'),
     newServiceLastAccessed,
     serviceLastAccessed_lastAuthenticated,
     serviceLastAccessed_lastAuthenticatedEntity,
@@ -472,7 +472,7 @@ module Amazonka.IAM.Types
     serviceLastAccessed_serviceNamespace,
 
     -- * ServiceSpecificCredential
-    ServiceSpecificCredential,
+    ServiceSpecificCredential (ServiceSpecificCredential'),
     newServiceSpecificCredential,
     serviceSpecificCredential_createDate,
     serviceSpecificCredential_serviceName,
@@ -483,7 +483,7 @@ module Amazonka.IAM.Types
     serviceSpecificCredential_status,
 
     -- * ServiceSpecificCredentialMetadata
-    ServiceSpecificCredentialMetadata,
+    ServiceSpecificCredentialMetadata (ServiceSpecificCredentialMetadata'),
     newServiceSpecificCredentialMetadata,
     serviceSpecificCredentialMetadata_userName,
     serviceSpecificCredentialMetadata_status,
@@ -493,7 +493,7 @@ module Amazonka.IAM.Types
     serviceSpecificCredentialMetadata_serviceName,
 
     -- * SigningCertificate
-    SigningCertificate,
+    SigningCertificate (SigningCertificate'),
     newSigningCertificate,
     signingCertificate_uploadDate,
     signingCertificate_userName,
@@ -502,14 +502,14 @@ module Amazonka.IAM.Types
     signingCertificate_status,
 
     -- * SimulatePolicyResponse
-    SimulatePolicyResponse,
+    SimulatePolicyResponse (SimulatePolicyResponse'),
     newSimulatePolicyResponse,
     simulatePolicyResponse_evaluationResults,
     simulatePolicyResponse_isTruncated,
     simulatePolicyResponse_marker,
 
     -- * Statement
-    Statement,
+    Statement (Statement'),
     newStatement,
     statement_endPosition,
     statement_sourcePolicyId,
@@ -517,13 +517,13 @@ module Amazonka.IAM.Types
     statement_startPosition,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
 
     -- * TrackedActionLastAccessed
-    TrackedActionLastAccessed,
+    TrackedActionLastAccessed (TrackedActionLastAccessed'),
     newTrackedActionLastAccessed,
     trackedActionLastAccessed_actionName,
     trackedActionLastAccessed_lastAccessedEntity,
@@ -531,7 +531,7 @@ module Amazonka.IAM.Types
     trackedActionLastAccessed_lastAccessedTime,
 
     -- * User
-    User,
+    User (User'),
     newUser,
     user_passwordLastUsed,
     user_path,
@@ -543,7 +543,7 @@ module Amazonka.IAM.Types
     user_createDate,
 
     -- * UserDetail
-    UserDetail,
+    UserDetail (UserDetail'),
     newUserDetail,
     userDetail_arn,
     userDetail_attachedManagedPolicies,
@@ -557,7 +557,7 @@ module Amazonka.IAM.Types
     userDetail_userPolicyList,
 
     -- * VirtualMFADevice
-    VirtualMFADevice,
+    VirtualMFADevice (VirtualMFADevice'),
     newVirtualMFADevice,
     virtualMFADevice_base32StringSeed,
     virtualMFADevice_enableDate,

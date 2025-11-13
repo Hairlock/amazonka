@@ -28,13 +28,13 @@ module Amazonka.RedshiftData.Types
     _ValidationException,
 
     -- * StatementStatusString
-    StatementStatusString,
+    StatementStatusString (StatementStatusString'),
 
     -- * StatusString
-    StatusString,
+    StatusString (StatusString'),
 
     -- * ColumnMetadata
-    ColumnMetadata,
+    ColumnMetadata (ColumnMetadata'),
     newColumnMetadata,
     columnMetadata_columnDefault,
     columnMetadata_isCaseSensitive,
@@ -51,7 +51,7 @@ module Amazonka.RedshiftData.Types
     columnMetadata_typeName,
 
     -- * Field
-    Field,
+    Field (Field'),
     newField,
     field_blobValue,
     field_booleanValue,
@@ -61,13 +61,13 @@ module Amazonka.RedshiftData.Types
     field_stringValue,
 
     -- * SqlParameter
-    SqlParameter,
+    SqlParameter (SqlParameter'),
     newSqlParameter,
     sqlParameter_name,
     sqlParameter_value,
 
     -- * StatementData
-    StatementData,
+    StatementData (StatementData'),
     newStatementData,
     statementData_createdAt,
     statementData_isBatchStatement,
@@ -81,7 +81,7 @@ module Amazonka.RedshiftData.Types
     statementData_id,
 
     -- * SubStatementData
-    SubStatementData,
+    SubStatementData (SubStatementData'),
     newSubStatementData,
     subStatementData_createdAt,
     subStatementData_duration,
@@ -96,7 +96,7 @@ module Amazonka.RedshiftData.Types
     subStatementData_id,
 
     -- * TableMember
-    TableMember,
+    TableMember (TableMember'),
     newTableMember,
     tableMember_name,
     tableMember_schema,

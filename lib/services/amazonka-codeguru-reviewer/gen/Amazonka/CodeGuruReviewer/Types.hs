@@ -28,57 +28,57 @@ module Amazonka.CodeGuruReviewer.Types
     _ValidationException,
 
     -- * AnalysisType
-    AnalysisType,
+    AnalysisType (AnalysisType'),
 
     -- * ConfigFileState
-    ConfigFileState,
+    ConfigFileState (ConfigFileState'),
 
     -- * EncryptionOption
-    EncryptionOption,
+    EncryptionOption (EncryptionOption'),
 
     -- * JobState
-    JobState,
+    JobState (JobState'),
 
     -- * ProviderType
-    ProviderType,
+    ProviderType (ProviderType'),
 
     -- * Reaction
-    Reaction,
+    Reaction (Reaction'),
 
     -- * RecommendationCategory
-    RecommendationCategory,
+    RecommendationCategory (RecommendationCategory'),
 
     -- * RepositoryAssociationState
-    RepositoryAssociationState,
+    RepositoryAssociationState (RepositoryAssociationState'),
 
     -- * Severity
-    Severity,
+    Severity (Severity'),
 
     -- * Type
-    Type,
+    Type (Type'),
 
     -- * VendorName
-    VendorName,
+    VendorName (VendorName'),
 
     -- * BranchDiffSourceCodeType
-    BranchDiffSourceCodeType,
+    BranchDiffSourceCodeType (BranchDiffSourceCodeType'),
     newBranchDiffSourceCodeType,
     branchDiffSourceCodeType_sourceBranchName,
     branchDiffSourceCodeType_destinationBranchName,
 
     -- * CodeArtifacts
-    CodeArtifacts,
+    CodeArtifacts (CodeArtifacts'),
     newCodeArtifacts,
     codeArtifacts_buildArtifactsObjectKey,
     codeArtifacts_sourceCodeArtifactsObjectKey,
 
     -- * CodeCommitRepository
-    CodeCommitRepository,
+    CodeCommitRepository (CodeCommitRepository'),
     newCodeCommitRepository,
     codeCommitRepository_name,
 
     -- * CodeReview
-    CodeReview,
+    CodeReview (CodeReview'),
     newCodeReview,
     codeReview_analysisTypes,
     codeReview_associationArn,
@@ -98,7 +98,7 @@ module Amazonka.CodeGuruReviewer.Types
     codeReview_type,
 
     -- * CodeReviewSummary
-    CodeReviewSummary,
+    CodeReviewSummary (CodeReviewSummary'),
     newCodeReviewSummary,
     codeReviewSummary_codeReviewArn,
     codeReviewSummary_createdTimeStamp,
@@ -114,46 +114,46 @@ module Amazonka.CodeGuruReviewer.Types
     codeReviewSummary_type,
 
     -- * CodeReviewType
-    CodeReviewType,
+    CodeReviewType (CodeReviewType'),
     newCodeReviewType,
     codeReviewType_analysisTypes,
     codeReviewType_repositoryAnalysis,
 
     -- * CommitDiffSourceCodeType
-    CommitDiffSourceCodeType,
+    CommitDiffSourceCodeType (CommitDiffSourceCodeType'),
     newCommitDiffSourceCodeType,
     commitDiffSourceCodeType_destinationCommit,
     commitDiffSourceCodeType_mergeBaseCommit,
     commitDiffSourceCodeType_sourceCommit,
 
     -- * EventInfo
-    EventInfo,
+    EventInfo (EventInfo'),
     newEventInfo,
     eventInfo_name,
     eventInfo_state,
 
     -- * KMSKeyDetails
-    KMSKeyDetails,
+    KMSKeyDetails (KMSKeyDetails'),
     newKMSKeyDetails,
     kmsKeyDetails_encryptionOption,
     kmsKeyDetails_kmsKeyId,
 
     -- * Metrics
-    Metrics,
+    Metrics (Metrics'),
     newMetrics,
     metrics_findingsCount,
     metrics_meteredLinesOfCodeCount,
     metrics_suppressedLinesOfCodeCount,
 
     -- * MetricsSummary
-    MetricsSummary,
+    MetricsSummary (MetricsSummary'),
     newMetricsSummary,
     metricsSummary_findingsCount,
     metricsSummary_meteredLinesOfCodeCount,
     metricsSummary_suppressedLinesOfCodeCount,
 
     -- * RecommendationFeedback
-    RecommendationFeedback,
+    RecommendationFeedback (RecommendationFeedback'),
     newRecommendationFeedback,
     recommendationFeedback_codeReviewArn,
     recommendationFeedback_createdTimeStamp,
@@ -163,14 +163,14 @@ module Amazonka.CodeGuruReviewer.Types
     recommendationFeedback_userId,
 
     -- * RecommendationFeedbackSummary
-    RecommendationFeedbackSummary,
+    RecommendationFeedbackSummary (RecommendationFeedbackSummary'),
     newRecommendationFeedbackSummary,
     recommendationFeedbackSummary_reactions,
     recommendationFeedbackSummary_recommendationId,
     recommendationFeedbackSummary_userId,
 
     -- * RecommendationSummary
-    RecommendationSummary,
+    RecommendationSummary (RecommendationSummary'),
     newRecommendationSummary,
     recommendationSummary_description,
     recommendationSummary_endLine,
@@ -182,7 +182,7 @@ module Amazonka.CodeGuruReviewer.Types
     recommendationSummary_startLine,
 
     -- * Repository
-    Repository,
+    Repository (Repository'),
     newRepository,
     repository_bitbucket,
     repository_codeCommit,
@@ -190,13 +190,13 @@ module Amazonka.CodeGuruReviewer.Types
     repository_s3Bucket,
 
     -- * RepositoryAnalysis
-    RepositoryAnalysis,
+    RepositoryAnalysis (RepositoryAnalysis'),
     newRepositoryAnalysis,
     repositoryAnalysis_repositoryHead,
     repositoryAnalysis_sourceCodeType,
 
     -- * RepositoryAssociation
-    RepositoryAssociation,
+    RepositoryAssociation (RepositoryAssociation'),
     newRepositoryAssociation,
     repositoryAssociation_associationArn,
     repositoryAssociation_associationId,
@@ -212,7 +212,7 @@ module Amazonka.CodeGuruReviewer.Types
     repositoryAssociation_stateReason,
 
     -- * RepositoryAssociationSummary
-    RepositoryAssociationSummary,
+    RepositoryAssociationSummary (RepositoryAssociationSummary'),
     newRepositoryAssociationSummary,
     repositoryAssociationSummary_associationArn,
     repositoryAssociationSummary_associationId,
@@ -224,12 +224,12 @@ module Amazonka.CodeGuruReviewer.Types
     repositoryAssociationSummary_state,
 
     -- * RepositoryHeadSourceCodeType
-    RepositoryHeadSourceCodeType,
+    RepositoryHeadSourceCodeType (RepositoryHeadSourceCodeType'),
     newRepositoryHeadSourceCodeType,
     repositoryHeadSourceCodeType_branchName,
 
     -- * RequestMetadata
-    RequestMetadata,
+    RequestMetadata (RequestMetadata'),
     newRequestMetadata,
     requestMetadata_eventInfo,
     requestMetadata_requestId,
@@ -237,7 +237,7 @@ module Amazonka.CodeGuruReviewer.Types
     requestMetadata_vendorName,
 
     -- * RuleMetadata
-    RuleMetadata,
+    RuleMetadata (RuleMetadata'),
     newRuleMetadata,
     ruleMetadata_longDescription,
     ruleMetadata_ruleId,
@@ -246,25 +246,25 @@ module Amazonka.CodeGuruReviewer.Types
     ruleMetadata_shortDescription,
 
     -- * S3BucketRepository
-    S3BucketRepository,
+    S3BucketRepository (S3BucketRepository'),
     newS3BucketRepository,
     s3BucketRepository_details,
     s3BucketRepository_name,
 
     -- * S3Repository
-    S3Repository,
+    S3Repository (S3Repository'),
     newS3Repository,
     s3Repository_name,
     s3Repository_bucketName,
 
     -- * S3RepositoryDetails
-    S3RepositoryDetails,
+    S3RepositoryDetails (S3RepositoryDetails'),
     newS3RepositoryDetails,
     s3RepositoryDetails_bucketName,
     s3RepositoryDetails_codeArtifacts,
 
     -- * SourceCodeType
-    SourceCodeType,
+    SourceCodeType (SourceCodeType'),
     newSourceCodeType,
     sourceCodeType_branchDiff,
     sourceCodeType_commitDiff,
@@ -273,7 +273,7 @@ module Amazonka.CodeGuruReviewer.Types
     sourceCodeType_s3BucketRepository,
 
     -- * ThirdPartySourceRepository
-    ThirdPartySourceRepository,
+    ThirdPartySourceRepository (ThirdPartySourceRepository'),
     newThirdPartySourceRepository,
     thirdPartySourceRepository_name,
     thirdPartySourceRepository_connectionArn,

@@ -29,34 +29,34 @@ module Amazonka.KafkaConnect.Types
     _UnauthorizedException,
 
     -- * ConnectorState
-    ConnectorState,
+    ConnectorState (ConnectorState'),
 
     -- * CustomPluginContentType
-    CustomPluginContentType,
+    CustomPluginContentType (CustomPluginContentType'),
 
     -- * CustomPluginState
-    CustomPluginState,
+    CustomPluginState (CustomPluginState'),
 
     -- * KafkaClusterClientAuthenticationType
-    KafkaClusterClientAuthenticationType,
+    KafkaClusterClientAuthenticationType (KafkaClusterClientAuthenticationType'),
 
     -- * KafkaClusterEncryptionInTransitType
-    KafkaClusterEncryptionInTransitType,
+    KafkaClusterEncryptionInTransitType (KafkaClusterEncryptionInTransitType'),
 
     -- * ApacheKafkaCluster
-    ApacheKafkaCluster,
+    ApacheKafkaCluster (ApacheKafkaCluster'),
     newApacheKafkaCluster,
     apacheKafkaCluster_bootstrapServers,
     apacheKafkaCluster_vpc,
 
     -- * ApacheKafkaClusterDescription
-    ApacheKafkaClusterDescription,
+    ApacheKafkaClusterDescription (ApacheKafkaClusterDescription'),
     newApacheKafkaClusterDescription,
     apacheKafkaClusterDescription_bootstrapServers,
     apacheKafkaClusterDescription_vpc,
 
     -- * AutoScaling
-    AutoScaling,
+    AutoScaling (AutoScaling'),
     newAutoScaling,
     autoScaling_scaleInPolicy,
     autoScaling_scaleOutPolicy,
@@ -65,7 +65,7 @@ module Amazonka.KafkaConnect.Types
     autoScaling_minWorkerCount,
 
     -- * AutoScalingDescription
-    AutoScalingDescription,
+    AutoScalingDescription (AutoScalingDescription'),
     newAutoScalingDescription,
     autoScalingDescription_maxWorkerCount,
     autoScalingDescription_mcuCount,
@@ -74,7 +74,7 @@ module Amazonka.KafkaConnect.Types
     autoScalingDescription_scaleOutPolicy,
 
     -- * AutoScalingUpdate
-    AutoScalingUpdate,
+    AutoScalingUpdate (AutoScalingUpdate'),
     newAutoScalingUpdate,
     autoScalingUpdate_maxWorkerCount,
     autoScalingUpdate_mcuCount,
@@ -83,37 +83,37 @@ module Amazonka.KafkaConnect.Types
     autoScalingUpdate_scaleOutPolicy,
 
     -- * Capacity
-    Capacity,
+    Capacity (Capacity'),
     newCapacity,
     capacity_autoScaling,
     capacity_provisionedCapacity,
 
     -- * CapacityDescription
-    CapacityDescription,
+    CapacityDescription (CapacityDescription'),
     newCapacityDescription,
     capacityDescription_autoScaling,
     capacityDescription_provisionedCapacity,
 
     -- * CapacityUpdate
-    CapacityUpdate,
+    CapacityUpdate (CapacityUpdate'),
     newCapacityUpdate,
     capacityUpdate_autoScaling,
     capacityUpdate_provisionedCapacity,
 
     -- * CloudWatchLogsLogDelivery
-    CloudWatchLogsLogDelivery,
+    CloudWatchLogsLogDelivery (CloudWatchLogsLogDelivery'),
     newCloudWatchLogsLogDelivery,
     cloudWatchLogsLogDelivery_logGroup,
     cloudWatchLogsLogDelivery_enabled,
 
     -- * CloudWatchLogsLogDeliveryDescription
-    CloudWatchLogsLogDeliveryDescription,
+    CloudWatchLogsLogDeliveryDescription (CloudWatchLogsLogDeliveryDescription'),
     newCloudWatchLogsLogDeliveryDescription,
     cloudWatchLogsLogDeliveryDescription_enabled,
     cloudWatchLogsLogDeliveryDescription_logGroup,
 
     -- * ConnectorSummary
-    ConnectorSummary,
+    ConnectorSummary (ConnectorSummary'),
     newConnectorSummary,
     connectorSummary_capacity,
     connectorSummary_connectorArn,
@@ -132,35 +132,35 @@ module Amazonka.KafkaConnect.Types
     connectorSummary_workerConfiguration,
 
     -- * CustomPlugin
-    CustomPlugin,
+    CustomPlugin (CustomPlugin'),
     newCustomPlugin,
     customPlugin_customPluginArn,
     customPlugin_revision,
 
     -- * CustomPluginDescription
-    CustomPluginDescription,
+    CustomPluginDescription (CustomPluginDescription'),
     newCustomPluginDescription,
     customPluginDescription_customPluginArn,
     customPluginDescription_revision,
 
     -- * CustomPluginFileDescription
-    CustomPluginFileDescription,
+    CustomPluginFileDescription (CustomPluginFileDescription'),
     newCustomPluginFileDescription,
     customPluginFileDescription_fileMd5,
     customPluginFileDescription_fileSize,
 
     -- * CustomPluginLocation
-    CustomPluginLocation,
+    CustomPluginLocation (CustomPluginLocation'),
     newCustomPluginLocation,
     customPluginLocation_s3Location,
 
     -- * CustomPluginLocationDescription
-    CustomPluginLocationDescription,
+    CustomPluginLocationDescription (CustomPluginLocationDescription'),
     newCustomPluginLocationDescription,
     customPluginLocationDescription_s3Location,
 
     -- * CustomPluginRevisionSummary
-    CustomPluginRevisionSummary,
+    CustomPluginRevisionSummary (CustomPluginRevisionSummary'),
     newCustomPluginRevisionSummary,
     customPluginRevisionSummary_contentType,
     customPluginRevisionSummary_creationTime,
@@ -170,7 +170,7 @@ module Amazonka.KafkaConnect.Types
     customPluginRevisionSummary_revision,
 
     -- * CustomPluginSummary
-    CustomPluginSummary,
+    CustomPluginSummary (CustomPluginSummary'),
     newCustomPluginSummary,
     customPluginSummary_creationTime,
     customPluginSummary_customPluginArn,
@@ -180,175 +180,175 @@ module Amazonka.KafkaConnect.Types
     customPluginSummary_name,
 
     -- * FirehoseLogDelivery
-    FirehoseLogDelivery,
+    FirehoseLogDelivery (FirehoseLogDelivery'),
     newFirehoseLogDelivery,
     firehoseLogDelivery_deliveryStream,
     firehoseLogDelivery_enabled,
 
     -- * FirehoseLogDeliveryDescription
-    FirehoseLogDeliveryDescription,
+    FirehoseLogDeliveryDescription (FirehoseLogDeliveryDescription'),
     newFirehoseLogDeliveryDescription,
     firehoseLogDeliveryDescription_deliveryStream,
     firehoseLogDeliveryDescription_enabled,
 
     -- * KafkaCluster
-    KafkaCluster,
+    KafkaCluster (KafkaCluster'),
     newKafkaCluster,
     kafkaCluster_apacheKafkaCluster,
 
     -- * KafkaClusterClientAuthentication
-    KafkaClusterClientAuthentication,
+    KafkaClusterClientAuthentication (KafkaClusterClientAuthentication'),
     newKafkaClusterClientAuthentication,
     kafkaClusterClientAuthentication_authenticationType,
 
     -- * KafkaClusterClientAuthenticationDescription
-    KafkaClusterClientAuthenticationDescription,
+    KafkaClusterClientAuthenticationDescription (KafkaClusterClientAuthenticationDescription'),
     newKafkaClusterClientAuthenticationDescription,
     kafkaClusterClientAuthenticationDescription_authenticationType,
 
     -- * KafkaClusterDescription
-    KafkaClusterDescription,
+    KafkaClusterDescription (KafkaClusterDescription'),
     newKafkaClusterDescription,
     kafkaClusterDescription_apacheKafkaCluster,
 
     -- * KafkaClusterEncryptionInTransit
-    KafkaClusterEncryptionInTransit,
+    KafkaClusterEncryptionInTransit (KafkaClusterEncryptionInTransit'),
     newKafkaClusterEncryptionInTransit,
     kafkaClusterEncryptionInTransit_encryptionType,
 
     -- * KafkaClusterEncryptionInTransitDescription
-    KafkaClusterEncryptionInTransitDescription,
+    KafkaClusterEncryptionInTransitDescription (KafkaClusterEncryptionInTransitDescription'),
     newKafkaClusterEncryptionInTransitDescription,
     kafkaClusterEncryptionInTransitDescription_encryptionType,
 
     -- * LogDelivery
-    LogDelivery,
+    LogDelivery (LogDelivery'),
     newLogDelivery,
     logDelivery_workerLogDelivery,
 
     -- * LogDeliveryDescription
-    LogDeliveryDescription,
+    LogDeliveryDescription (LogDeliveryDescription'),
     newLogDeliveryDescription,
     logDeliveryDescription_workerLogDelivery,
 
     -- * Plugin
-    Plugin,
+    Plugin (Plugin'),
     newPlugin,
     plugin_customPlugin,
 
     -- * PluginDescription
-    PluginDescription,
+    PluginDescription (PluginDescription'),
     newPluginDescription,
     pluginDescription_customPlugin,
 
     -- * ProvisionedCapacity
-    ProvisionedCapacity,
+    ProvisionedCapacity (ProvisionedCapacity'),
     newProvisionedCapacity,
     provisionedCapacity_mcuCount,
     provisionedCapacity_workerCount,
 
     -- * ProvisionedCapacityDescription
-    ProvisionedCapacityDescription,
+    ProvisionedCapacityDescription (ProvisionedCapacityDescription'),
     newProvisionedCapacityDescription,
     provisionedCapacityDescription_mcuCount,
     provisionedCapacityDescription_workerCount,
 
     -- * ProvisionedCapacityUpdate
-    ProvisionedCapacityUpdate,
+    ProvisionedCapacityUpdate (ProvisionedCapacityUpdate'),
     newProvisionedCapacityUpdate,
     provisionedCapacityUpdate_mcuCount,
     provisionedCapacityUpdate_workerCount,
 
     -- * S3Location
-    S3Location,
+    S3Location (S3Location'),
     newS3Location,
     s3Location_objectVersion,
     s3Location_bucketArn,
     s3Location_fileKey,
 
     -- * S3LocationDescription
-    S3LocationDescription,
+    S3LocationDescription (S3LocationDescription'),
     newS3LocationDescription,
     s3LocationDescription_bucketArn,
     s3LocationDescription_fileKey,
     s3LocationDescription_objectVersion,
 
     -- * S3LogDelivery
-    S3LogDelivery,
+    S3LogDelivery (S3LogDelivery'),
     newS3LogDelivery,
     s3LogDelivery_bucket,
     s3LogDelivery_prefix,
     s3LogDelivery_enabled,
 
     -- * S3LogDeliveryDescription
-    S3LogDeliveryDescription,
+    S3LogDeliveryDescription (S3LogDeliveryDescription'),
     newS3LogDeliveryDescription,
     s3LogDeliveryDescription_bucket,
     s3LogDeliveryDescription_enabled,
     s3LogDeliveryDescription_prefix,
 
     -- * ScaleInPolicy
-    ScaleInPolicy,
+    ScaleInPolicy (ScaleInPolicy'),
     newScaleInPolicy,
     scaleInPolicy_cpuUtilizationPercentage,
 
     -- * ScaleInPolicyDescription
-    ScaleInPolicyDescription,
+    ScaleInPolicyDescription (ScaleInPolicyDescription'),
     newScaleInPolicyDescription,
     scaleInPolicyDescription_cpuUtilizationPercentage,
 
     -- * ScaleInPolicyUpdate
-    ScaleInPolicyUpdate,
+    ScaleInPolicyUpdate (ScaleInPolicyUpdate'),
     newScaleInPolicyUpdate,
     scaleInPolicyUpdate_cpuUtilizationPercentage,
 
     -- * ScaleOutPolicy
-    ScaleOutPolicy,
+    ScaleOutPolicy (ScaleOutPolicy'),
     newScaleOutPolicy,
     scaleOutPolicy_cpuUtilizationPercentage,
 
     -- * ScaleOutPolicyDescription
-    ScaleOutPolicyDescription,
+    ScaleOutPolicyDescription (ScaleOutPolicyDescription'),
     newScaleOutPolicyDescription,
     scaleOutPolicyDescription_cpuUtilizationPercentage,
 
     -- * ScaleOutPolicyUpdate
-    ScaleOutPolicyUpdate,
+    ScaleOutPolicyUpdate (ScaleOutPolicyUpdate'),
     newScaleOutPolicyUpdate,
     scaleOutPolicyUpdate_cpuUtilizationPercentage,
 
     -- * StateDescription
-    StateDescription,
+    StateDescription (StateDescription'),
     newStateDescription,
     stateDescription_code,
     stateDescription_message,
 
     -- * Vpc
-    Vpc,
+    Vpc (Vpc'),
     newVpc,
     vpc_securityGroups,
     vpc_subnets,
 
     -- * VpcDescription
-    VpcDescription,
+    VpcDescription (VpcDescription'),
     newVpcDescription,
     vpcDescription_securityGroups,
     vpcDescription_subnets,
 
     -- * WorkerConfiguration
-    WorkerConfiguration,
+    WorkerConfiguration (WorkerConfiguration'),
     newWorkerConfiguration,
     workerConfiguration_revision,
     workerConfiguration_workerConfigurationArn,
 
     -- * WorkerConfigurationDescription
-    WorkerConfigurationDescription,
+    WorkerConfigurationDescription (WorkerConfigurationDescription'),
     newWorkerConfigurationDescription,
     workerConfigurationDescription_revision,
     workerConfigurationDescription_workerConfigurationArn,
 
     -- * WorkerConfigurationRevisionDescription
-    WorkerConfigurationRevisionDescription,
+    WorkerConfigurationRevisionDescription (WorkerConfigurationRevisionDescription'),
     newWorkerConfigurationRevisionDescription,
     workerConfigurationRevisionDescription_creationTime,
     workerConfigurationRevisionDescription_description,
@@ -356,14 +356,14 @@ module Amazonka.KafkaConnect.Types
     workerConfigurationRevisionDescription_revision,
 
     -- * WorkerConfigurationRevisionSummary
-    WorkerConfigurationRevisionSummary,
+    WorkerConfigurationRevisionSummary (WorkerConfigurationRevisionSummary'),
     newWorkerConfigurationRevisionSummary,
     workerConfigurationRevisionSummary_creationTime,
     workerConfigurationRevisionSummary_description,
     workerConfigurationRevisionSummary_revision,
 
     -- * WorkerConfigurationSummary
-    WorkerConfigurationSummary,
+    WorkerConfigurationSummary (WorkerConfigurationSummary'),
     newWorkerConfigurationSummary,
     workerConfigurationSummary_creationTime,
     workerConfigurationSummary_description,
@@ -372,14 +372,14 @@ module Amazonka.KafkaConnect.Types
     workerConfigurationSummary_workerConfigurationArn,
 
     -- * WorkerLogDelivery
-    WorkerLogDelivery,
+    WorkerLogDelivery (WorkerLogDelivery'),
     newWorkerLogDelivery,
     workerLogDelivery_cloudWatchLogs,
     workerLogDelivery_firehose,
     workerLogDelivery_s3,
 
     -- * WorkerLogDeliveryDescription
-    WorkerLogDeliveryDescription,
+    WorkerLogDeliveryDescription (WorkerLogDeliveryDescription'),
     newWorkerLogDeliveryDescription,
     workerLogDeliveryDescription_cloudWatchLogs,
     workerLogDeliveryDescription_firehose,

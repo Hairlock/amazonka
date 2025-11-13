@@ -149,268 +149,268 @@ module Amazonka.SSM.Types
     _UnsupportedPlatformType,
 
     -- * AssociationComplianceSeverity
-    AssociationComplianceSeverity,
+    AssociationComplianceSeverity (AssociationComplianceSeverity'),
 
     -- * AssociationExecutionFilterKey
-    AssociationExecutionFilterKey,
+    AssociationExecutionFilterKey (AssociationExecutionFilterKey'),
 
     -- * AssociationExecutionTargetsFilterKey
-    AssociationExecutionTargetsFilterKey,
+    AssociationExecutionTargetsFilterKey (AssociationExecutionTargetsFilterKey'),
 
     -- * AssociationFilterKey
-    AssociationFilterKey,
+    AssociationFilterKey (AssociationFilterKey'),
 
     -- * AssociationFilterOperatorType
-    AssociationFilterOperatorType,
+    AssociationFilterOperatorType (AssociationFilterOperatorType'),
 
     -- * AssociationStatusName
-    AssociationStatusName,
+    AssociationStatusName (AssociationStatusName'),
 
     -- * AssociationSyncCompliance
-    AssociationSyncCompliance,
+    AssociationSyncCompliance (AssociationSyncCompliance'),
 
     -- * AttachmentHashType
-    AttachmentHashType,
+    AttachmentHashType (AttachmentHashType'),
 
     -- * AttachmentsSourceKey
-    AttachmentsSourceKey,
+    AttachmentsSourceKey (AttachmentsSourceKey'),
 
     -- * AutomationExecutionFilterKey
-    AutomationExecutionFilterKey,
+    AutomationExecutionFilterKey (AutomationExecutionFilterKey'),
 
     -- * AutomationExecutionStatus
-    AutomationExecutionStatus,
+    AutomationExecutionStatus (AutomationExecutionStatus'),
 
     -- * AutomationSubtype
-    AutomationSubtype,
+    AutomationSubtype (AutomationSubtype'),
 
     -- * AutomationType
-    AutomationType,
+    AutomationType (AutomationType'),
 
     -- * CalendarState
-    CalendarState,
+    CalendarState (CalendarState'),
 
     -- * CommandFilterKey
-    CommandFilterKey,
+    CommandFilterKey (CommandFilterKey'),
 
     -- * CommandInvocationStatus
-    CommandInvocationStatus,
+    CommandInvocationStatus (CommandInvocationStatus'),
 
     -- * CommandPluginStatus
-    CommandPluginStatus,
+    CommandPluginStatus (CommandPluginStatus'),
 
     -- * CommandStatus
-    CommandStatus,
+    CommandStatus (CommandStatus'),
 
     -- * ComplianceQueryOperatorType
-    ComplianceQueryOperatorType,
+    ComplianceQueryOperatorType (ComplianceQueryOperatorType'),
 
     -- * ComplianceSeverity
-    ComplianceSeverity,
+    ComplianceSeverity (ComplianceSeverity'),
 
     -- * ComplianceStatus
-    ComplianceStatus,
+    ComplianceStatus (ComplianceStatus'),
 
     -- * ComplianceUploadType
-    ComplianceUploadType,
+    ComplianceUploadType (ComplianceUploadType'),
 
     -- * ConnectionStatus
-    ConnectionStatus,
+    ConnectionStatus (ConnectionStatus'),
 
     -- * DescribeActivationsFilterKeys
-    DescribeActivationsFilterKeys,
+    DescribeActivationsFilterKeys (DescribeActivationsFilterKeys'),
 
     -- * DocumentFilterKey
-    DocumentFilterKey,
+    DocumentFilterKey (DocumentFilterKey'),
 
     -- * DocumentFormat
-    DocumentFormat,
+    DocumentFormat (DocumentFormat'),
 
     -- * DocumentHashType
-    DocumentHashType,
+    DocumentHashType (DocumentHashType'),
 
     -- * DocumentMetadataEnum
-    DocumentMetadataEnum,
+    DocumentMetadataEnum (DocumentMetadataEnum'),
 
     -- * DocumentParameterType
-    DocumentParameterType,
+    DocumentParameterType (DocumentParameterType'),
 
     -- * DocumentPermissionType
-    DocumentPermissionType,
+    DocumentPermissionType (DocumentPermissionType'),
 
     -- * DocumentReviewAction
-    DocumentReviewAction,
+    DocumentReviewAction (DocumentReviewAction'),
 
     -- * DocumentReviewCommentType
-    DocumentReviewCommentType,
+    DocumentReviewCommentType (DocumentReviewCommentType'),
 
     -- * DocumentStatus
-    DocumentStatus,
+    DocumentStatus (DocumentStatus'),
 
     -- * DocumentType
-    DocumentType,
+    DocumentType (DocumentType'),
 
     -- * ExecutionMode
-    ExecutionMode,
+    ExecutionMode (ExecutionMode'),
 
     -- * ExternalAlarmState
-    ExternalAlarmState,
+    ExternalAlarmState (ExternalAlarmState'),
 
     -- * Fault
-    Fault,
+    Fault (Fault'),
 
     -- * InstanceInformationFilterKey
-    InstanceInformationFilterKey,
+    InstanceInformationFilterKey (InstanceInformationFilterKey'),
 
     -- * InstancePatchStateOperatorType
-    InstancePatchStateOperatorType,
+    InstancePatchStateOperatorType (InstancePatchStateOperatorType'),
 
     -- * InventoryAttributeDataType
-    InventoryAttributeDataType,
+    InventoryAttributeDataType (InventoryAttributeDataType'),
 
     -- * InventoryDeletionStatus
-    InventoryDeletionStatus,
+    InventoryDeletionStatus (InventoryDeletionStatus'),
 
     -- * InventoryQueryOperatorType
-    InventoryQueryOperatorType,
+    InventoryQueryOperatorType (InventoryQueryOperatorType'),
 
     -- * InventorySchemaDeleteOption
-    InventorySchemaDeleteOption,
+    InventorySchemaDeleteOption (InventorySchemaDeleteOption'),
 
     -- * LastResourceDataSyncStatus
-    LastResourceDataSyncStatus,
+    LastResourceDataSyncStatus (LastResourceDataSyncStatus'),
 
     -- * MaintenanceWindowExecutionStatus
-    MaintenanceWindowExecutionStatus,
+    MaintenanceWindowExecutionStatus (MaintenanceWindowExecutionStatus'),
 
     -- * MaintenanceWindowResourceType
-    MaintenanceWindowResourceType,
+    MaintenanceWindowResourceType (MaintenanceWindowResourceType'),
 
     -- * MaintenanceWindowTaskCutoffBehavior
-    MaintenanceWindowTaskCutoffBehavior,
+    MaintenanceWindowTaskCutoffBehavior (MaintenanceWindowTaskCutoffBehavior'),
 
     -- * MaintenanceWindowTaskType
-    MaintenanceWindowTaskType,
+    MaintenanceWindowTaskType (MaintenanceWindowTaskType'),
 
     -- * NotificationEvent
-    NotificationEvent,
+    NotificationEvent (NotificationEvent'),
 
     -- * NotificationType
-    NotificationType,
+    NotificationType (NotificationType'),
 
     -- * OperatingSystem
-    OperatingSystem,
+    OperatingSystem (OperatingSystem'),
 
     -- * OpsFilterOperatorType
-    OpsFilterOperatorType,
+    OpsFilterOperatorType (OpsFilterOperatorType'),
 
     -- * OpsItemDataType
-    OpsItemDataType,
+    OpsItemDataType (OpsItemDataType'),
 
     -- * OpsItemEventFilterKey
-    OpsItemEventFilterKey,
+    OpsItemEventFilterKey (OpsItemEventFilterKey'),
 
     -- * OpsItemEventFilterOperator
-    OpsItemEventFilterOperator,
+    OpsItemEventFilterOperator (OpsItemEventFilterOperator'),
 
     -- * OpsItemFilterKey
-    OpsItemFilterKey,
+    OpsItemFilterKey (OpsItemFilterKey'),
 
     -- * OpsItemFilterOperator
-    OpsItemFilterOperator,
+    OpsItemFilterOperator (OpsItemFilterOperator'),
 
     -- * OpsItemRelatedItemsFilterKey
-    OpsItemRelatedItemsFilterKey,
+    OpsItemRelatedItemsFilterKey (OpsItemRelatedItemsFilterKey'),
 
     -- * OpsItemRelatedItemsFilterOperator
-    OpsItemRelatedItemsFilterOperator,
+    OpsItemRelatedItemsFilterOperator (OpsItemRelatedItemsFilterOperator'),
 
     -- * OpsItemStatus
-    OpsItemStatus,
+    OpsItemStatus (OpsItemStatus'),
 
     -- * ParameterTier
-    ParameterTier,
+    ParameterTier (ParameterTier'),
 
     -- * ParameterType
-    ParameterType,
+    ParameterType (ParameterType'),
 
     -- * ParametersFilterKey
-    ParametersFilterKey,
+    ParametersFilterKey (ParametersFilterKey'),
 
     -- * PatchAction
-    PatchAction,
+    PatchAction (PatchAction'),
 
     -- * PatchComplianceDataState
-    PatchComplianceDataState,
+    PatchComplianceDataState (PatchComplianceDataState'),
 
     -- * PatchComplianceLevel
-    PatchComplianceLevel,
+    PatchComplianceLevel (PatchComplianceLevel'),
 
     -- * PatchDeploymentStatus
-    PatchDeploymentStatus,
+    PatchDeploymentStatus (PatchDeploymentStatus'),
 
     -- * PatchFilterKey
-    PatchFilterKey,
+    PatchFilterKey (PatchFilterKey'),
 
     -- * PatchOperationType
-    PatchOperationType,
+    PatchOperationType (PatchOperationType'),
 
     -- * PatchProperty
-    PatchProperty,
+    PatchProperty (PatchProperty'),
 
     -- * PatchSet
-    PatchSet,
+    PatchSet (PatchSet'),
 
     -- * PingStatus
-    PingStatus,
+    PingStatus (PingStatus'),
 
     -- * PlatformType
-    PlatformType,
+    PlatformType (PlatformType'),
 
     -- * RebootOption
-    RebootOption,
+    RebootOption (RebootOption'),
 
     -- * ResourceDataSyncS3Format
-    ResourceDataSyncS3Format,
+    ResourceDataSyncS3Format (ResourceDataSyncS3Format'),
 
     -- * ResourceType
-    ResourceType,
+    ResourceType (ResourceType'),
 
     -- * ResourceTypeForTagging
-    ResourceTypeForTagging,
+    ResourceTypeForTagging (ResourceTypeForTagging'),
 
     -- * ReviewStatus
-    ReviewStatus,
+    ReviewStatus (ReviewStatus'),
 
     -- * SessionFilterKey
-    SessionFilterKey,
+    SessionFilterKey (SessionFilterKey'),
 
     -- * SessionState
-    SessionState,
+    SessionState (SessionState'),
 
     -- * SessionStatus
-    SessionStatus,
+    SessionStatus (SessionStatus'),
 
     -- * SignalType
-    SignalType,
+    SignalType (SignalType'),
 
     -- * SourceType
-    SourceType,
+    SourceType (SourceType'),
 
     -- * StepExecutionFilterKey
-    StepExecutionFilterKey,
+    StepExecutionFilterKey (StepExecutionFilterKey'),
 
     -- * StopType
-    StopType,
+    StopType (StopType'),
 
     -- * AccountSharingInfo
-    AccountSharingInfo,
+    AccountSharingInfo (AccountSharingInfo'),
     newAccountSharingInfo,
     accountSharingInfo_accountId,
     accountSharingInfo_sharedDocumentVersion,
 
     -- * Activation
-    Activation,
+    Activation (Activation'),
     newActivation,
     activation_activationId,
     activation_createdDate,
@@ -424,24 +424,24 @@ module Amazonka.SSM.Types
     activation_tags,
 
     -- * Alarm
-    Alarm,
+    Alarm (Alarm'),
     newAlarm,
     alarm_name,
 
     -- * AlarmConfiguration
-    AlarmConfiguration,
+    AlarmConfiguration (AlarmConfiguration'),
     newAlarmConfiguration,
     alarmConfiguration_ignorePollAlarmFailure,
     alarmConfiguration_alarms,
 
     -- * AlarmStateInformation
-    AlarmStateInformation,
+    AlarmStateInformation (AlarmStateInformation'),
     newAlarmStateInformation,
     alarmStateInformation_name,
     alarmStateInformation_state,
 
     -- * Association
-    Association,
+    Association (Association'),
     newAssociation,
     association_associationId,
     association_associationName,
@@ -457,7 +457,7 @@ module Amazonka.SSM.Types
     association_targets,
 
     -- * AssociationDescription
-    AssociationDescription,
+    AssociationDescription (AssociationDescription'),
     newAssociationDescription,
     associationDescription_alarmConfiguration,
     associationDescription_applyOnlyAtCronInterval,
@@ -489,7 +489,7 @@ module Amazonka.SSM.Types
     associationDescription_triggeredAlarms,
 
     -- * AssociationExecution
-    AssociationExecution,
+    AssociationExecution (AssociationExecution'),
     newAssociationExecution,
     associationExecution_alarmConfiguration,
     associationExecution_associationId,
@@ -503,14 +503,14 @@ module Amazonka.SSM.Types
     associationExecution_triggeredAlarms,
 
     -- * AssociationExecutionFilter
-    AssociationExecutionFilter,
+    AssociationExecutionFilter (AssociationExecutionFilter'),
     newAssociationExecutionFilter,
     associationExecutionFilter_key,
     associationExecutionFilter_value,
     associationExecutionFilter_type,
 
     -- * AssociationExecutionTarget
-    AssociationExecutionTarget,
+    AssociationExecutionTarget (AssociationExecutionTarget'),
     newAssociationExecutionTarget,
     associationExecutionTarget_associationId,
     associationExecutionTarget_associationVersion,
@@ -523,26 +523,26 @@ module Amazonka.SSM.Types
     associationExecutionTarget_status,
 
     -- * AssociationExecutionTargetsFilter
-    AssociationExecutionTargetsFilter,
+    AssociationExecutionTargetsFilter (AssociationExecutionTargetsFilter'),
     newAssociationExecutionTargetsFilter,
     associationExecutionTargetsFilter_key,
     associationExecutionTargetsFilter_value,
 
     -- * AssociationFilter
-    AssociationFilter,
+    AssociationFilter (AssociationFilter'),
     newAssociationFilter,
     associationFilter_key,
     associationFilter_value,
 
     -- * AssociationOverview
-    AssociationOverview,
+    AssociationOverview (AssociationOverview'),
     newAssociationOverview,
     associationOverview_associationStatusAggregatedCount,
     associationOverview_detailedStatus,
     associationOverview_status,
 
     -- * AssociationStatus
-    AssociationStatus,
+    AssociationStatus (AssociationStatus'),
     newAssociationStatus,
     associationStatus_additionalInfo,
     associationStatus_date,
@@ -550,7 +550,7 @@ module Amazonka.SSM.Types
     associationStatus_message,
 
     -- * AssociationVersionInfo
-    AssociationVersionInfo,
+    AssociationVersionInfo (AssociationVersionInfo'),
     newAssociationVersionInfo,
     associationVersionInfo_applyOnlyAtCronInterval,
     associationVersionInfo_associationId,
@@ -573,7 +573,7 @@ module Amazonka.SSM.Types
     associationVersionInfo_targets,
 
     -- * AttachmentContent
-    AttachmentContent,
+    AttachmentContent (AttachmentContent'),
     newAttachmentContent,
     attachmentContent_hash,
     attachmentContent_hashType,
@@ -582,19 +582,19 @@ module Amazonka.SSM.Types
     attachmentContent_url,
 
     -- * AttachmentInformation
-    AttachmentInformation,
+    AttachmentInformation (AttachmentInformation'),
     newAttachmentInformation,
     attachmentInformation_name,
 
     -- * AttachmentsSource
-    AttachmentsSource,
+    AttachmentsSource (AttachmentsSource'),
     newAttachmentsSource,
     attachmentsSource_key,
     attachmentsSource_name,
     attachmentsSource_values,
 
     -- * AutomationExecution
-    AutomationExecution,
+    AutomationExecution (AutomationExecution'),
     newAutomationExecution,
     automationExecution_alarmConfiguration,
     automationExecution_associationId,
@@ -631,13 +631,13 @@ module Amazonka.SSM.Types
     automationExecution_triggeredAlarms,
 
     -- * AutomationExecutionFilter
-    AutomationExecutionFilter,
+    AutomationExecutionFilter (AutomationExecutionFilter'),
     newAutomationExecutionFilter,
     automationExecutionFilter_key,
     automationExecutionFilter_values,
 
     -- * AutomationExecutionMetadata
-    AutomationExecutionMetadata,
+    AutomationExecutionMetadata (AutomationExecutionMetadata'),
     newAutomationExecutionMetadata,
     automationExecutionMetadata_alarmConfiguration,
     automationExecutionMetadata_associationId,
@@ -671,7 +671,7 @@ module Amazonka.SSM.Types
     automationExecutionMetadata_triggeredAlarms,
 
     -- * BaselineOverride
-    BaselineOverride,
+    BaselineOverride (BaselineOverride'),
     newBaselineOverride,
     baselineOverride_approvalRules,
     baselineOverride_approvedPatches,
@@ -684,13 +684,13 @@ module Amazonka.SSM.Types
     baselineOverride_sources,
 
     -- * CloudWatchOutputConfig
-    CloudWatchOutputConfig,
+    CloudWatchOutputConfig (CloudWatchOutputConfig'),
     newCloudWatchOutputConfig,
     cloudWatchOutputConfig_cloudWatchLogGroupName,
     cloudWatchOutputConfig_cloudWatchOutputEnabled,
 
     -- * Command
-    Command,
+    Command (Command'),
     newCommand,
     command_alarmConfiguration,
     command_cloudWatchOutputConfig,
@@ -720,13 +720,13 @@ module Amazonka.SSM.Types
     command_triggeredAlarms,
 
     -- * CommandFilter
-    CommandFilter,
+    CommandFilter (CommandFilter'),
     newCommandFilter,
     commandFilter_key,
     commandFilter_value,
 
     -- * CommandInvocation
-    CommandInvocation,
+    CommandInvocation (CommandInvocation'),
     newCommandInvocation,
     commandInvocation_cloudWatchOutputConfig,
     commandInvocation_commandId,
@@ -746,7 +746,7 @@ module Amazonka.SSM.Types
     commandInvocation_traceOutput,
 
     -- * CommandPlugin
-    CommandPlugin,
+    CommandPlugin (CommandPlugin'),
     newCommandPlugin,
     commandPlugin_name,
     commandPlugin_output,
@@ -762,14 +762,14 @@ module Amazonka.SSM.Types
     commandPlugin_statusDetails,
 
     -- * ComplianceExecutionSummary
-    ComplianceExecutionSummary,
+    ComplianceExecutionSummary (ComplianceExecutionSummary'),
     newComplianceExecutionSummary,
     complianceExecutionSummary_executionId,
     complianceExecutionSummary_executionType,
     complianceExecutionSummary_executionTime,
 
     -- * ComplianceItem
-    ComplianceItem,
+    ComplianceItem (ComplianceItem'),
     newComplianceItem,
     complianceItem_complianceType,
     complianceItem_details,
@@ -782,7 +782,7 @@ module Amazonka.SSM.Types
     complianceItem_title,
 
     -- * ComplianceItemEntry
-    ComplianceItemEntry,
+    ComplianceItemEntry (ComplianceItemEntry'),
     newComplianceItemEntry,
     complianceItemEntry_details,
     complianceItemEntry_id,
@@ -791,27 +791,27 @@ module Amazonka.SSM.Types
     complianceItemEntry_status,
 
     -- * ComplianceStringFilter
-    ComplianceStringFilter,
+    ComplianceStringFilter (ComplianceStringFilter'),
     newComplianceStringFilter,
     complianceStringFilter_key,
     complianceStringFilter_type,
     complianceStringFilter_values,
 
     -- * ComplianceSummaryItem
-    ComplianceSummaryItem,
+    ComplianceSummaryItem (ComplianceSummaryItem'),
     newComplianceSummaryItem,
     complianceSummaryItem_complianceType,
     complianceSummaryItem_compliantSummary,
     complianceSummaryItem_nonCompliantSummary,
 
     -- * CompliantSummary
-    CompliantSummary,
+    CompliantSummary (CompliantSummary'),
     newCompliantSummary,
     compliantSummary_compliantCount,
     compliantSummary_severitySummary,
 
     -- * CreateAssociationBatchRequestEntry
-    CreateAssociationBatchRequestEntry,
+    CreateAssociationBatchRequestEntry (CreateAssociationBatchRequestEntry'),
     newCreateAssociationBatchRequestEntry,
     createAssociationBatchRequestEntry_alarmConfiguration,
     createAssociationBatchRequestEntry_applyOnlyAtCronInterval,
@@ -834,20 +834,20 @@ module Amazonka.SSM.Types
     createAssociationBatchRequestEntry_name,
 
     -- * DescribeActivationsFilter
-    DescribeActivationsFilter,
+    DescribeActivationsFilter (DescribeActivationsFilter'),
     newDescribeActivationsFilter,
     describeActivationsFilter_filterKey,
     describeActivationsFilter_filterValues,
 
     -- * DocumentDefaultVersionDescription
-    DocumentDefaultVersionDescription,
+    DocumentDefaultVersionDescription (DocumentDefaultVersionDescription'),
     newDocumentDefaultVersionDescription,
     documentDefaultVersionDescription_defaultVersion,
     documentDefaultVersionDescription_defaultVersionName,
     documentDefaultVersionDescription_name,
 
     -- * DocumentDescription
-    DocumentDescription,
+    DocumentDescription (DocumentDescription'),
     newDocumentDescription,
     documentDescription_approvedVersion,
     documentDescription_attachmentsInformation,
@@ -881,13 +881,13 @@ module Amazonka.SSM.Types
     documentDescription_versionName,
 
     -- * DocumentFilter
-    DocumentFilter,
+    DocumentFilter (DocumentFilter'),
     newDocumentFilter,
     documentFilter_key,
     documentFilter_value,
 
     -- * DocumentIdentifier
-    DocumentIdentifier,
+    DocumentIdentifier (DocumentIdentifier'),
     newDocumentIdentifier,
     documentIdentifier_author,
     documentIdentifier_createdDate,
@@ -906,18 +906,18 @@ module Amazonka.SSM.Types
     documentIdentifier_versionName,
 
     -- * DocumentKeyValuesFilter
-    DocumentKeyValuesFilter,
+    DocumentKeyValuesFilter (DocumentKeyValuesFilter'),
     newDocumentKeyValuesFilter,
     documentKeyValuesFilter_key,
     documentKeyValuesFilter_values,
 
     -- * DocumentMetadataResponseInfo
-    DocumentMetadataResponseInfo,
+    DocumentMetadataResponseInfo (DocumentMetadataResponseInfo'),
     newDocumentMetadataResponseInfo,
     documentMetadataResponseInfo_reviewerResponse,
 
     -- * DocumentParameter
-    DocumentParameter,
+    DocumentParameter (DocumentParameter'),
     newDocumentParameter,
     documentParameter_defaultValue,
     documentParameter_description,
@@ -925,7 +925,7 @@ module Amazonka.SSM.Types
     documentParameter_type,
 
     -- * DocumentRequires
-    DocumentRequires,
+    DocumentRequires (DocumentRequires'),
     newDocumentRequires,
     documentRequires_requireType,
     documentRequires_version,
@@ -933,13 +933,13 @@ module Amazonka.SSM.Types
     documentRequires_name,
 
     -- * DocumentReviewCommentSource
-    DocumentReviewCommentSource,
+    DocumentReviewCommentSource (DocumentReviewCommentSource'),
     newDocumentReviewCommentSource,
     documentReviewCommentSource_content,
     documentReviewCommentSource_type,
 
     -- * DocumentReviewerResponseSource
-    DocumentReviewerResponseSource,
+    DocumentReviewerResponseSource (DocumentReviewerResponseSource'),
     newDocumentReviewerResponseSource,
     documentReviewerResponseSource_comment,
     documentReviewerResponseSource_createTime,
@@ -948,13 +948,13 @@ module Amazonka.SSM.Types
     documentReviewerResponseSource_updatedTime,
 
     -- * DocumentReviews
-    DocumentReviews,
+    DocumentReviews (DocumentReviews'),
     newDocumentReviews,
     documentReviews_comment,
     documentReviews_action,
 
     -- * DocumentVersionInfo
-    DocumentVersionInfo,
+    DocumentVersionInfo (DocumentVersionInfo'),
     newDocumentVersionInfo,
     documentVersionInfo_createdDate,
     documentVersionInfo_displayName,
@@ -968,40 +968,40 @@ module Amazonka.SSM.Types
     documentVersionInfo_versionName,
 
     -- * EffectivePatch
-    EffectivePatch,
+    EffectivePatch (EffectivePatch'),
     newEffectivePatch,
     effectivePatch_patch,
     effectivePatch_patchStatus,
 
     -- * FailedCreateAssociation
-    FailedCreateAssociation,
+    FailedCreateAssociation (FailedCreateAssociation'),
     newFailedCreateAssociation,
     failedCreateAssociation_entry,
     failedCreateAssociation_fault,
     failedCreateAssociation_message,
 
     -- * FailureDetails
-    FailureDetails,
+    FailureDetails (FailureDetails'),
     newFailureDetails,
     failureDetails_details,
     failureDetails_failureStage,
     failureDetails_failureType,
 
     -- * GetResourcePoliciesResponseEntry
-    GetResourcePoliciesResponseEntry,
+    GetResourcePoliciesResponseEntry (GetResourcePoliciesResponseEntry'),
     newGetResourcePoliciesResponseEntry,
     getResourcePoliciesResponseEntry_policy,
     getResourcePoliciesResponseEntry_policyHash,
     getResourcePoliciesResponseEntry_policyId,
 
     -- * InstanceAggregatedAssociationOverview
-    InstanceAggregatedAssociationOverview,
+    InstanceAggregatedAssociationOverview (InstanceAggregatedAssociationOverview'),
     newInstanceAggregatedAssociationOverview,
     instanceAggregatedAssociationOverview_detailedStatus,
     instanceAggregatedAssociationOverview_instanceAssociationStatusAggregatedCount,
 
     -- * InstanceAssociation
-    InstanceAssociation,
+    InstanceAssociation (InstanceAssociation'),
     newInstanceAssociation,
     instanceAssociation_associationId,
     instanceAssociation_associationVersion,
@@ -1009,17 +1009,17 @@ module Amazonka.SSM.Types
     instanceAssociation_instanceId,
 
     -- * InstanceAssociationOutputLocation
-    InstanceAssociationOutputLocation,
+    InstanceAssociationOutputLocation (InstanceAssociationOutputLocation'),
     newInstanceAssociationOutputLocation,
     instanceAssociationOutputLocation_s3Location,
 
     -- * InstanceAssociationOutputUrl
-    InstanceAssociationOutputUrl,
+    InstanceAssociationOutputUrl (InstanceAssociationOutputUrl'),
     newInstanceAssociationOutputUrl,
     instanceAssociationOutputUrl_s3OutputUrl,
 
     -- * InstanceAssociationStatusInfo
-    InstanceAssociationStatusInfo,
+    InstanceAssociationStatusInfo (InstanceAssociationStatusInfo'),
     newInstanceAssociationStatusInfo,
     instanceAssociationStatusInfo_associationId,
     instanceAssociationStatusInfo_associationName,
@@ -1035,7 +1035,7 @@ module Amazonka.SSM.Types
     instanceAssociationStatusInfo_status,
 
     -- * InstanceInformation
-    InstanceInformation,
+    InstanceInformation (InstanceInformation'),
     newInstanceInformation,
     instanceInformation_activationId,
     instanceInformation_agentVersion,
@@ -1060,19 +1060,19 @@ module Amazonka.SSM.Types
     instanceInformation_sourceType,
 
     -- * InstanceInformationFilter
-    InstanceInformationFilter,
+    InstanceInformationFilter (InstanceInformationFilter'),
     newInstanceInformationFilter,
     instanceInformationFilter_key,
     instanceInformationFilter_valueSet,
 
     -- * InstanceInformationStringFilter
-    InstanceInformationStringFilter,
+    InstanceInformationStringFilter (InstanceInformationStringFilter'),
     newInstanceInformationStringFilter,
     instanceInformationStringFilter_key,
     instanceInformationStringFilter_values,
 
     -- * InstancePatchState
-    InstancePatchState,
+    InstancePatchState (InstancePatchState'),
     newInstancePatchState,
     instancePatchState_criticalNonCompliantCount,
     instancePatchState_failedCount,
@@ -1098,21 +1098,21 @@ module Amazonka.SSM.Types
     instancePatchState_operation,
 
     -- * InstancePatchStateFilter
-    InstancePatchStateFilter,
+    InstancePatchStateFilter (InstancePatchStateFilter'),
     newInstancePatchStateFilter,
     instancePatchStateFilter_key,
     instancePatchStateFilter_values,
     instancePatchStateFilter_type,
 
     -- * InventoryAggregator
-    InventoryAggregator,
+    InventoryAggregator (InventoryAggregator'),
     newInventoryAggregator,
     inventoryAggregator_aggregators,
     inventoryAggregator_expression,
     inventoryAggregator_groups,
 
     -- * InventoryDeletionStatusItem
-    InventoryDeletionStatusItem,
+    InventoryDeletionStatusItem (InventoryDeletionStatusItem'),
     newInventoryDeletionStatusItem,
     inventoryDeletionStatusItem_deletionId,
     inventoryDeletionStatusItem_deletionStartTime,
@@ -1123,34 +1123,34 @@ module Amazonka.SSM.Types
     inventoryDeletionStatusItem_typeName,
 
     -- * InventoryDeletionSummary
-    InventoryDeletionSummary,
+    InventoryDeletionSummary (InventoryDeletionSummary'),
     newInventoryDeletionSummary,
     inventoryDeletionSummary_remainingCount,
     inventoryDeletionSummary_summaryItems,
     inventoryDeletionSummary_totalCount,
 
     -- * InventoryDeletionSummaryItem
-    InventoryDeletionSummaryItem,
+    InventoryDeletionSummaryItem (InventoryDeletionSummaryItem'),
     newInventoryDeletionSummaryItem,
     inventoryDeletionSummaryItem_count,
     inventoryDeletionSummaryItem_remainingCount,
     inventoryDeletionSummaryItem_version,
 
     -- * InventoryFilter
-    InventoryFilter,
+    InventoryFilter (InventoryFilter'),
     newInventoryFilter,
     inventoryFilter_type,
     inventoryFilter_key,
     inventoryFilter_values,
 
     -- * InventoryGroup
-    InventoryGroup,
+    InventoryGroup (InventoryGroup'),
     newInventoryGroup,
     inventoryGroup_name,
     inventoryGroup_filters,
 
     -- * InventoryItem
-    InventoryItem,
+    InventoryItem (InventoryItem'),
     newInventoryItem,
     inventoryItem_content,
     inventoryItem_contentHash,
@@ -1160,13 +1160,13 @@ module Amazonka.SSM.Types
     inventoryItem_captureTime,
 
     -- * InventoryItemAttribute
-    InventoryItemAttribute,
+    InventoryItemAttribute (InventoryItemAttribute'),
     newInventoryItemAttribute,
     inventoryItemAttribute_name,
     inventoryItemAttribute_dataType,
 
     -- * InventoryItemSchema
-    InventoryItemSchema,
+    InventoryItemSchema (InventoryItemSchema'),
     newInventoryItemSchema,
     inventoryItemSchema_displayName,
     inventoryItemSchema_version,
@@ -1174,13 +1174,13 @@ module Amazonka.SSM.Types
     inventoryItemSchema_attributes,
 
     -- * InventoryResultEntity
-    InventoryResultEntity,
+    InventoryResultEntity (InventoryResultEntity'),
     newInventoryResultEntity,
     inventoryResultEntity_data,
     inventoryResultEntity_id,
 
     -- * InventoryResultItem
-    InventoryResultItem,
+    InventoryResultItem (InventoryResultItem'),
     newInventoryResultItem,
     inventoryResultItem_captureTime,
     inventoryResultItem_contentHash,
@@ -1189,20 +1189,20 @@ module Amazonka.SSM.Types
     inventoryResultItem_content,
 
     -- * LoggingInfo
-    LoggingInfo,
+    LoggingInfo (LoggingInfo'),
     newLoggingInfo,
     loggingInfo_s3KeyPrefix,
     loggingInfo_s3BucketName,
     loggingInfo_s3Region,
 
     -- * MaintenanceWindowAutomationParameters
-    MaintenanceWindowAutomationParameters,
+    MaintenanceWindowAutomationParameters (MaintenanceWindowAutomationParameters'),
     newMaintenanceWindowAutomationParameters,
     maintenanceWindowAutomationParameters_documentVersion,
     maintenanceWindowAutomationParameters_parameters,
 
     -- * MaintenanceWindowExecution
-    MaintenanceWindowExecution,
+    MaintenanceWindowExecution (MaintenanceWindowExecution'),
     newMaintenanceWindowExecution,
     maintenanceWindowExecution_endTime,
     maintenanceWindowExecution_startTime,
@@ -1212,7 +1212,7 @@ module Amazonka.SSM.Types
     maintenanceWindowExecution_windowId,
 
     -- * MaintenanceWindowExecutionTaskIdentity
-    MaintenanceWindowExecutionTaskIdentity,
+    MaintenanceWindowExecutionTaskIdentity (MaintenanceWindowExecutionTaskIdentity'),
     newMaintenanceWindowExecutionTaskIdentity,
     maintenanceWindowExecutionTaskIdentity_alarmConfiguration,
     maintenanceWindowExecutionTaskIdentity_endTime,
@@ -1226,7 +1226,7 @@ module Amazonka.SSM.Types
     maintenanceWindowExecutionTaskIdentity_windowExecutionId,
 
     -- * MaintenanceWindowExecutionTaskInvocationIdentity
-    MaintenanceWindowExecutionTaskInvocationIdentity,
+    MaintenanceWindowExecutionTaskInvocationIdentity (MaintenanceWindowExecutionTaskInvocationIdentity'),
     newMaintenanceWindowExecutionTaskInvocationIdentity,
     maintenanceWindowExecutionTaskInvocationIdentity_endTime,
     maintenanceWindowExecutionTaskInvocationIdentity_executionId,
@@ -1242,13 +1242,13 @@ module Amazonka.SSM.Types
     maintenanceWindowExecutionTaskInvocationIdentity_windowTargetId,
 
     -- * MaintenanceWindowFilter
-    MaintenanceWindowFilter,
+    MaintenanceWindowFilter (MaintenanceWindowFilter'),
     newMaintenanceWindowFilter,
     maintenanceWindowFilter_key,
     maintenanceWindowFilter_values,
 
     -- * MaintenanceWindowIdentity
-    MaintenanceWindowIdentity,
+    MaintenanceWindowIdentity (MaintenanceWindowIdentity'),
     newMaintenanceWindowIdentity,
     maintenanceWindowIdentity_cutoff,
     maintenanceWindowIdentity_description,
@@ -1264,20 +1264,20 @@ module Amazonka.SSM.Types
     maintenanceWindowIdentity_windowId,
 
     -- * MaintenanceWindowIdentityForTarget
-    MaintenanceWindowIdentityForTarget,
+    MaintenanceWindowIdentityForTarget (MaintenanceWindowIdentityForTarget'),
     newMaintenanceWindowIdentityForTarget,
     maintenanceWindowIdentityForTarget_name,
     maintenanceWindowIdentityForTarget_windowId,
 
     -- * MaintenanceWindowLambdaParameters
-    MaintenanceWindowLambdaParameters,
+    MaintenanceWindowLambdaParameters (MaintenanceWindowLambdaParameters'),
     newMaintenanceWindowLambdaParameters,
     maintenanceWindowLambdaParameters_clientContext,
     maintenanceWindowLambdaParameters_payload,
     maintenanceWindowLambdaParameters_qualifier,
 
     -- * MaintenanceWindowRunCommandParameters
-    MaintenanceWindowRunCommandParameters,
+    MaintenanceWindowRunCommandParameters (MaintenanceWindowRunCommandParameters'),
     newMaintenanceWindowRunCommandParameters,
     maintenanceWindowRunCommandParameters_cloudWatchOutputConfig,
     maintenanceWindowRunCommandParameters_comment,
@@ -1292,13 +1292,13 @@ module Amazonka.SSM.Types
     maintenanceWindowRunCommandParameters_timeoutSeconds,
 
     -- * MaintenanceWindowStepFunctionsParameters
-    MaintenanceWindowStepFunctionsParameters,
+    MaintenanceWindowStepFunctionsParameters (MaintenanceWindowStepFunctionsParameters'),
     newMaintenanceWindowStepFunctionsParameters,
     maintenanceWindowStepFunctionsParameters_input,
     maintenanceWindowStepFunctionsParameters_name,
 
     -- * MaintenanceWindowTarget
-    MaintenanceWindowTarget,
+    MaintenanceWindowTarget (MaintenanceWindowTarget'),
     newMaintenanceWindowTarget,
     maintenanceWindowTarget_description,
     maintenanceWindowTarget_name,
@@ -1309,7 +1309,7 @@ module Amazonka.SSM.Types
     maintenanceWindowTarget_windowTargetId,
 
     -- * MaintenanceWindowTask
-    MaintenanceWindowTask,
+    MaintenanceWindowTask (MaintenanceWindowTask'),
     newMaintenanceWindowTask,
     maintenanceWindowTask_alarmConfiguration,
     maintenanceWindowTask_cutoffBehavior,
@@ -1328,7 +1328,7 @@ module Amazonka.SSM.Types
     maintenanceWindowTask_windowTaskId,
 
     -- * MaintenanceWindowTaskInvocationParameters
-    MaintenanceWindowTaskInvocationParameters,
+    MaintenanceWindowTaskInvocationParameters (MaintenanceWindowTaskInvocationParameters'),
     newMaintenanceWindowTaskInvocationParameters,
     maintenanceWindowTaskInvocationParameters_automation,
     maintenanceWindowTaskInvocationParameters_lambda,
@@ -1336,30 +1336,30 @@ module Amazonka.SSM.Types
     maintenanceWindowTaskInvocationParameters_stepFunctions,
 
     -- * MaintenanceWindowTaskParameterValueExpression
-    MaintenanceWindowTaskParameterValueExpression,
+    MaintenanceWindowTaskParameterValueExpression (MaintenanceWindowTaskParameterValueExpression'),
     newMaintenanceWindowTaskParameterValueExpression,
     maintenanceWindowTaskParameterValueExpression_values,
 
     -- * MetadataValue
-    MetadataValue,
+    MetadataValue (MetadataValue'),
     newMetadataValue,
     metadataValue_value,
 
     -- * NonCompliantSummary
-    NonCompliantSummary,
+    NonCompliantSummary (NonCompliantSummary'),
     newNonCompliantSummary,
     nonCompliantSummary_nonCompliantCount,
     nonCompliantSummary_severitySummary,
 
     -- * NotificationConfig
-    NotificationConfig,
+    NotificationConfig (NotificationConfig'),
     newNotificationConfig,
     notificationConfig_notificationArn,
     notificationConfig_notificationEvents,
     notificationConfig_notificationType,
 
     -- * OpsAggregator
-    OpsAggregator,
+    OpsAggregator (OpsAggregator'),
     newOpsAggregator,
     opsAggregator_aggregatorType,
     opsAggregator_aggregators,
@@ -1369,26 +1369,26 @@ module Amazonka.SSM.Types
     opsAggregator_values,
 
     -- * OpsEntity
-    OpsEntity,
+    OpsEntity (OpsEntity'),
     newOpsEntity,
     opsEntity_data,
     opsEntity_id,
 
     -- * OpsEntityItem
-    OpsEntityItem,
+    OpsEntityItem (OpsEntityItem'),
     newOpsEntityItem,
     opsEntityItem_captureTime,
     opsEntityItem_content,
 
     -- * OpsFilter
-    OpsFilter,
+    OpsFilter (OpsFilter'),
     newOpsFilter,
     opsFilter_type,
     opsFilter_key,
     opsFilter_values,
 
     -- * OpsItem
-    OpsItem,
+    OpsItem (OpsItem'),
     newOpsItem,
     opsItem_actualEndTime,
     opsItem_actualStartTime,
@@ -1414,20 +1414,20 @@ module Amazonka.SSM.Types
     opsItem_version,
 
     -- * OpsItemDataValue
-    OpsItemDataValue,
+    OpsItemDataValue (OpsItemDataValue'),
     newOpsItemDataValue,
     opsItemDataValue_type,
     opsItemDataValue_value,
 
     -- * OpsItemEventFilter
-    OpsItemEventFilter,
+    OpsItemEventFilter (OpsItemEventFilter'),
     newOpsItemEventFilter,
     opsItemEventFilter_key,
     opsItemEventFilter_values,
     opsItemEventFilter_operator,
 
     -- * OpsItemEventSummary
-    OpsItemEventSummary,
+    OpsItemEventSummary (OpsItemEventSummary'),
     newOpsItemEventSummary,
     opsItemEventSummary_createdBy,
     opsItemEventSummary_createdTime,
@@ -1438,24 +1438,24 @@ module Amazonka.SSM.Types
     opsItemEventSummary_source,
 
     -- * OpsItemFilter
-    OpsItemFilter,
+    OpsItemFilter (OpsItemFilter'),
     newOpsItemFilter,
     opsItemFilter_key,
     opsItemFilter_values,
     opsItemFilter_operator,
 
     -- * OpsItemIdentity
-    OpsItemIdentity,
+    OpsItemIdentity (OpsItemIdentity'),
     newOpsItemIdentity,
     opsItemIdentity_arn,
 
     -- * OpsItemNotification
-    OpsItemNotification,
+    OpsItemNotification (OpsItemNotification'),
     newOpsItemNotification,
     opsItemNotification_arn,
 
     -- * OpsItemRelatedItemSummary
-    OpsItemRelatedItemSummary,
+    OpsItemRelatedItemSummary (OpsItemRelatedItemSummary'),
     newOpsItemRelatedItemSummary,
     opsItemRelatedItemSummary_associationId,
     opsItemRelatedItemSummary_associationType,
@@ -1468,14 +1468,14 @@ module Amazonka.SSM.Types
     opsItemRelatedItemSummary_resourceUri,
 
     -- * OpsItemRelatedItemsFilter
-    OpsItemRelatedItemsFilter,
+    OpsItemRelatedItemsFilter (OpsItemRelatedItemsFilter'),
     newOpsItemRelatedItemsFilter,
     opsItemRelatedItemsFilter_key,
     opsItemRelatedItemsFilter_values,
     opsItemRelatedItemsFilter_operator,
 
     -- * OpsItemSummary
-    OpsItemSummary,
+    OpsItemSummary (OpsItemSummary'),
     newOpsItemSummary,
     opsItemSummary_actualEndTime,
     opsItemSummary_actualStartTime,
@@ -1496,7 +1496,7 @@ module Amazonka.SSM.Types
     opsItemSummary_title,
 
     -- * OpsMetadata
-    OpsMetadata,
+    OpsMetadata (OpsMetadata'),
     newOpsMetadata,
     opsMetadata_creationDate,
     opsMetadata_lastModifiedDate,
@@ -1505,24 +1505,24 @@ module Amazonka.SSM.Types
     opsMetadata_resourceId,
 
     -- * OpsMetadataFilter
-    OpsMetadataFilter,
+    OpsMetadataFilter (OpsMetadataFilter'),
     newOpsMetadataFilter,
     opsMetadataFilter_key,
     opsMetadataFilter_values,
 
     -- * OpsResultAttribute
-    OpsResultAttribute,
+    OpsResultAttribute (OpsResultAttribute'),
     newOpsResultAttribute,
     opsResultAttribute_typeName,
 
     -- * OutputSource
-    OutputSource,
+    OutputSource (OutputSource'),
     newOutputSource,
     outputSource_outputSourceId,
     outputSource_outputSourceType,
 
     -- * Parameter
-    Parameter,
+    Parameter (Parameter'),
     newParameter,
     parameter_arn,
     parameter_dataType,
@@ -1535,7 +1535,7 @@ module Amazonka.SSM.Types
     parameter_version,
 
     -- * ParameterHistory
-    ParameterHistory,
+    ParameterHistory (ParameterHistory'),
     newParameterHistory,
     parameterHistory_allowedPattern,
     parameterHistory_dataType,
@@ -1552,14 +1552,14 @@ module Amazonka.SSM.Types
     parameterHistory_version,
 
     -- * ParameterInlinePolicy
-    ParameterInlinePolicy,
+    ParameterInlinePolicy (ParameterInlinePolicy'),
     newParameterInlinePolicy,
     parameterInlinePolicy_policyStatus,
     parameterInlinePolicy_policyText,
     parameterInlinePolicy_policyType,
 
     -- * ParameterMetadata
-    ParameterMetadata,
+    ParameterMetadata (ParameterMetadata'),
     newParameterMetadata,
     parameterMetadata_allowedPattern,
     parameterMetadata_dataType,
@@ -1574,20 +1574,20 @@ module Amazonka.SSM.Types
     parameterMetadata_version,
 
     -- * ParameterStringFilter
-    ParameterStringFilter,
+    ParameterStringFilter (ParameterStringFilter'),
     newParameterStringFilter,
     parameterStringFilter_option,
     parameterStringFilter_values,
     parameterStringFilter_key,
 
     -- * ParametersFilter
-    ParametersFilter,
+    ParametersFilter (ParametersFilter'),
     newParametersFilter,
     parametersFilter_key,
     parametersFilter_values,
 
     -- * Patch
-    Patch,
+    Patch (Patch'),
     newPatch,
     patch_advisoryIds,
     patch_arch,
@@ -1614,7 +1614,7 @@ module Amazonka.SSM.Types
     patch_version,
 
     -- * PatchBaselineIdentity
-    PatchBaselineIdentity,
+    PatchBaselineIdentity (PatchBaselineIdentity'),
     newPatchBaselineIdentity,
     patchBaselineIdentity_baselineDescription,
     patchBaselineIdentity_baselineId,
@@ -1623,7 +1623,7 @@ module Amazonka.SSM.Types
     patchBaselineIdentity_operatingSystem,
 
     -- * PatchComplianceData
-    PatchComplianceData,
+    PatchComplianceData (PatchComplianceData'),
     newPatchComplianceData,
     patchComplianceData_cVEIds,
     patchComplianceData_title,
@@ -1634,30 +1634,30 @@ module Amazonka.SSM.Types
     patchComplianceData_installedTime,
 
     -- * PatchFilter
-    PatchFilter,
+    PatchFilter (PatchFilter'),
     newPatchFilter,
     patchFilter_key,
     patchFilter_values,
 
     -- * PatchFilterGroup
-    PatchFilterGroup,
+    PatchFilterGroup (PatchFilterGroup'),
     newPatchFilterGroup,
     patchFilterGroup_patchFilters,
 
     -- * PatchGroupPatchBaselineMapping
-    PatchGroupPatchBaselineMapping,
+    PatchGroupPatchBaselineMapping (PatchGroupPatchBaselineMapping'),
     newPatchGroupPatchBaselineMapping,
     patchGroupPatchBaselineMapping_baselineIdentity,
     patchGroupPatchBaselineMapping_patchGroup,
 
     -- * PatchOrchestratorFilter
-    PatchOrchestratorFilter,
+    PatchOrchestratorFilter (PatchOrchestratorFilter'),
     newPatchOrchestratorFilter,
     patchOrchestratorFilter_key,
     patchOrchestratorFilter_values,
 
     -- * PatchRule
-    PatchRule,
+    PatchRule (PatchRule'),
     newPatchRule,
     patchRule_approveAfterDays,
     patchRule_approveUntilDate,
@@ -1666,26 +1666,26 @@ module Amazonka.SSM.Types
     patchRule_patchFilterGroup,
 
     -- * PatchRuleGroup
-    PatchRuleGroup,
+    PatchRuleGroup (PatchRuleGroup'),
     newPatchRuleGroup,
     patchRuleGroup_patchRules,
 
     -- * PatchSource
-    PatchSource,
+    PatchSource (PatchSource'),
     newPatchSource,
     patchSource_name,
     patchSource_products,
     patchSource_configuration,
 
     -- * PatchStatus
-    PatchStatus,
+    PatchStatus (PatchStatus'),
     newPatchStatus,
     patchStatus_approvalDate,
     patchStatus_complianceLevel,
     patchStatus_deploymentStatus,
 
     -- * ProgressCounters
-    ProgressCounters,
+    ProgressCounters (ProgressCounters'),
     newProgressCounters,
     progressCounters_cancelledSteps,
     progressCounters_failedSteps,
@@ -1694,24 +1694,24 @@ module Amazonka.SSM.Types
     progressCounters_totalSteps,
 
     -- * RegistrationMetadataItem
-    RegistrationMetadataItem,
+    RegistrationMetadataItem (RegistrationMetadataItem'),
     newRegistrationMetadataItem,
     registrationMetadataItem_key,
     registrationMetadataItem_value,
 
     -- * RelatedOpsItem
-    RelatedOpsItem,
+    RelatedOpsItem (RelatedOpsItem'),
     newRelatedOpsItem,
     relatedOpsItem_opsItemId,
 
     -- * ResolvedTargets
-    ResolvedTargets,
+    ResolvedTargets (ResolvedTargets'),
     newResolvedTargets,
     resolvedTargets_parameterValues,
     resolvedTargets_truncated,
 
     -- * ResourceComplianceSummaryItem
-    ResourceComplianceSummaryItem,
+    ResourceComplianceSummaryItem (ResourceComplianceSummaryItem'),
     newResourceComplianceSummaryItem,
     resourceComplianceSummaryItem_complianceType,
     resourceComplianceSummaryItem_compliantSummary,
@@ -1723,18 +1723,18 @@ module Amazonka.SSM.Types
     resourceComplianceSummaryItem_status,
 
     -- * ResourceDataSyncAwsOrganizationsSource
-    ResourceDataSyncAwsOrganizationsSource,
+    ResourceDataSyncAwsOrganizationsSource (ResourceDataSyncAwsOrganizationsSource'),
     newResourceDataSyncAwsOrganizationsSource,
     resourceDataSyncAwsOrganizationsSource_organizationalUnits,
     resourceDataSyncAwsOrganizationsSource_organizationSourceType,
 
     -- * ResourceDataSyncDestinationDataSharing
-    ResourceDataSyncDestinationDataSharing,
+    ResourceDataSyncDestinationDataSharing (ResourceDataSyncDestinationDataSharing'),
     newResourceDataSyncDestinationDataSharing,
     resourceDataSyncDestinationDataSharing_destinationDataSharingType,
 
     -- * ResourceDataSyncItem
-    ResourceDataSyncItem,
+    ResourceDataSyncItem (ResourceDataSyncItem'),
     newResourceDataSyncItem,
     resourceDataSyncItem_lastStatus,
     resourceDataSyncItem_lastSuccessfulSyncTime,
@@ -1748,12 +1748,12 @@ module Amazonka.SSM.Types
     resourceDataSyncItem_syncType,
 
     -- * ResourceDataSyncOrganizationalUnit
-    ResourceDataSyncOrganizationalUnit,
+    ResourceDataSyncOrganizationalUnit (ResourceDataSyncOrganizationalUnit'),
     newResourceDataSyncOrganizationalUnit,
     resourceDataSyncOrganizationalUnit_organizationalUnitId,
 
     -- * ResourceDataSyncS3Destination
-    ResourceDataSyncS3Destination,
+    ResourceDataSyncS3Destination (ResourceDataSyncS3Destination'),
     newResourceDataSyncS3Destination,
     resourceDataSyncS3Destination_aWSKMSKeyARN,
     resourceDataSyncS3Destination_destinationDataSharing,
@@ -1763,7 +1763,7 @@ module Amazonka.SSM.Types
     resourceDataSyncS3Destination_region,
 
     -- * ResourceDataSyncSource
-    ResourceDataSyncSource,
+    ResourceDataSyncSource (ResourceDataSyncSource'),
     newResourceDataSyncSource,
     resourceDataSyncSource_awsOrganizationsSource,
     resourceDataSyncSource_enableAllOpsDataSources,
@@ -1772,7 +1772,7 @@ module Amazonka.SSM.Types
     resourceDataSyncSource_sourceRegions,
 
     -- * ResourceDataSyncSourceWithState
-    ResourceDataSyncSourceWithState,
+    ResourceDataSyncSourceWithState (ResourceDataSyncSourceWithState'),
     newResourceDataSyncSourceWithState,
     resourceDataSyncSourceWithState_awsOrganizationsSource,
     resourceDataSyncSourceWithState_enableAllOpsDataSources,
@@ -1782,19 +1782,19 @@ module Amazonka.SSM.Types
     resourceDataSyncSourceWithState_state,
 
     -- * ResultAttribute
-    ResultAttribute,
+    ResultAttribute (ResultAttribute'),
     newResultAttribute,
     resultAttribute_typeName,
 
     -- * ReviewInformation
-    ReviewInformation,
+    ReviewInformation (ReviewInformation'),
     newReviewInformation,
     reviewInformation_reviewedTime,
     reviewInformation_reviewer,
     reviewInformation_status,
 
     -- * Runbook
-    Runbook,
+    Runbook (Runbook'),
     newRunbook,
     runbook_documentVersion,
     runbook_maxConcurrency,
@@ -1807,26 +1807,26 @@ module Amazonka.SSM.Types
     runbook_documentName,
 
     -- * S3OutputLocation
-    S3OutputLocation,
+    S3OutputLocation (S3OutputLocation'),
     newS3OutputLocation,
     s3OutputLocation_outputS3BucketName,
     s3OutputLocation_outputS3KeyPrefix,
     s3OutputLocation_outputS3Region,
 
     -- * S3OutputUrl
-    S3OutputUrl,
+    S3OutputUrl (S3OutputUrl'),
     newS3OutputUrl,
     s3OutputUrl_outputUrl,
 
     -- * ScheduledWindowExecution
-    ScheduledWindowExecution,
+    ScheduledWindowExecution (ScheduledWindowExecution'),
     newScheduledWindowExecution,
     scheduledWindowExecution_executionTime,
     scheduledWindowExecution_name,
     scheduledWindowExecution_windowId,
 
     -- * ServiceSetting
-    ServiceSetting,
+    ServiceSetting (ServiceSetting'),
     newServiceSetting,
     serviceSetting_arn,
     serviceSetting_lastModifiedDate,
@@ -1836,7 +1836,7 @@ module Amazonka.SSM.Types
     serviceSetting_status,
 
     -- * Session
-    Session,
+    Session (Session'),
     newSession,
     session_details,
     session_documentName,
@@ -1851,19 +1851,19 @@ module Amazonka.SSM.Types
     session_target,
 
     -- * SessionFilter
-    SessionFilter,
+    SessionFilter (SessionFilter'),
     newSessionFilter,
     sessionFilter_key,
     sessionFilter_value,
 
     -- * SessionManagerOutputUrl
-    SessionManagerOutputUrl,
+    SessionManagerOutputUrl (SessionManagerOutputUrl'),
     newSessionManagerOutputUrl,
     sessionManagerOutputUrl_cloudWatchOutputUrl,
     sessionManagerOutputUrl_s3OutputUrl,
 
     -- * SeveritySummary
-    SeveritySummary,
+    SeveritySummary (SeveritySummary'),
     newSeveritySummary,
     severitySummary_criticalCount,
     severitySummary_highCount,
@@ -1873,7 +1873,7 @@ module Amazonka.SSM.Types
     severitySummary_unspecifiedCount,
 
     -- * StepExecution
-    StepExecution,
+    StepExecution (StepExecution'),
     newStepExecution,
     stepExecution_action,
     stepExecution_executionEndTime,
@@ -1900,25 +1900,25 @@ module Amazonka.SSM.Types
     stepExecution_validNextSteps,
 
     -- * StepExecutionFilter
-    StepExecutionFilter,
+    StepExecutionFilter (StepExecutionFilter'),
     newStepExecutionFilter,
     stepExecutionFilter_key,
     stepExecutionFilter_values,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
 
     -- * Target
-    Target,
+    Target (Target'),
     newTarget,
     target_key,
     target_values,
 
     -- * TargetLocation
-    TargetLocation,
+    TargetLocation (TargetLocation'),
     newTargetLocation,
     targetLocation_accounts,
     targetLocation_executionRoleName,

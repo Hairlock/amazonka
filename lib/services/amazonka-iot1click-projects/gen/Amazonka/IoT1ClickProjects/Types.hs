@@ -26,13 +26,13 @@ module Amazonka.IoT1ClickProjects.Types
     _TooManyRequestsException,
 
     -- * DeviceTemplate
-    DeviceTemplate,
+    DeviceTemplate (DeviceTemplate'),
     newDeviceTemplate,
     deviceTemplate_callbackOverrides,
     deviceTemplate_deviceType,
 
     -- * PlacementDescription
-    PlacementDescription,
+    PlacementDescription (PlacementDescription'),
     newPlacementDescription,
     placementDescription_projectName,
     placementDescription_placementName,
@@ -41,7 +41,7 @@ module Amazonka.IoT1ClickProjects.Types
     placementDescription_updatedDate,
 
     -- * PlacementSummary
-    PlacementSummary,
+    PlacementSummary (PlacementSummary'),
     newPlacementSummary,
     placementSummary_projectName,
     placementSummary_placementName,
@@ -49,13 +49,13 @@ module Amazonka.IoT1ClickProjects.Types
     placementSummary_updatedDate,
 
     -- * PlacementTemplate
-    PlacementTemplate,
+    PlacementTemplate (PlacementTemplate'),
     newPlacementTemplate,
     placementTemplate_defaultAttributes,
     placementTemplate_deviceTemplates,
 
     -- * ProjectDescription
-    ProjectDescription,
+    ProjectDescription (ProjectDescription'),
     newProjectDescription,
     projectDescription_arn,
     projectDescription_description,
@@ -66,7 +66,7 @@ module Amazonka.IoT1ClickProjects.Types
     projectDescription_updatedDate,
 
     -- * ProjectSummary
-    ProjectSummary,
+    ProjectSummary (ProjectSummary'),
     newProjectSummary,
     projectSummary_arn,
     projectSummary_tags,

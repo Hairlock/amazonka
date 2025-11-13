@@ -26,22 +26,22 @@ module Amazonka.Pricing.Types
     _NotFoundException,
 
     -- * FilterType
-    FilterType,
+    FilterType (FilterType'),
 
     -- * AttributeValue
-    AttributeValue,
+    AttributeValue (AttributeValue'),
     newAttributeValue,
     attributeValue_value,
 
     -- * Filter
-    Filter,
+    Filter (Filter'),
     newFilter,
     filter_type,
     filter_field,
     filter_value,
 
     -- * PricingService
-    PricingService,
+    PricingService (PricingService'),
     newPricingService,
     pricingService_attributeNames,
     pricingService_serviceCode,

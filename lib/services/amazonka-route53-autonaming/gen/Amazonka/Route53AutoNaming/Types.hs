@@ -35,91 +35,91 @@ module Amazonka.Route53AutoNaming.Types
     _TooManyTagsException,
 
     -- * CustomHealthStatus
-    CustomHealthStatus,
+    CustomHealthStatus (CustomHealthStatus'),
 
     -- * FilterCondition
-    FilterCondition,
+    FilterCondition (FilterCondition'),
 
     -- * HealthCheckType
-    HealthCheckType,
+    HealthCheckType (HealthCheckType'),
 
     -- * HealthStatus
-    HealthStatus,
+    HealthStatus (HealthStatus'),
 
     -- * HealthStatusFilter
-    HealthStatusFilter,
+    HealthStatusFilter (HealthStatusFilter'),
 
     -- * NamespaceFilterName
-    NamespaceFilterName,
+    NamespaceFilterName (NamespaceFilterName'),
 
     -- * NamespaceType
-    NamespaceType,
+    NamespaceType (NamespaceType'),
 
     -- * OperationFilterName
-    OperationFilterName,
+    OperationFilterName (OperationFilterName'),
 
     -- * OperationStatus
-    OperationStatus,
+    OperationStatus (OperationStatus'),
 
     -- * OperationTargetType
-    OperationTargetType,
+    OperationTargetType (OperationTargetType'),
 
     -- * OperationType
-    OperationType,
+    OperationType (OperationType'),
 
     -- * RecordType
-    RecordType,
+    RecordType (RecordType'),
 
     -- * RoutingPolicy
-    RoutingPolicy,
+    RoutingPolicy (RoutingPolicy'),
 
     -- * ServiceFilterName
-    ServiceFilterName,
+    ServiceFilterName (ServiceFilterName'),
 
     -- * ServiceType
-    ServiceType,
+    ServiceType (ServiceType'),
 
     -- * ServiceTypeOption
-    ServiceTypeOption,
+    ServiceTypeOption (ServiceTypeOption'),
 
     -- * DnsConfig
-    DnsConfig,
+    DnsConfig (DnsConfig'),
     newDnsConfig,
     dnsConfig_namespaceId,
     dnsConfig_routingPolicy,
     dnsConfig_dnsRecords,
 
     -- * DnsConfigChange
-    DnsConfigChange,
+    DnsConfigChange (DnsConfigChange'),
     newDnsConfigChange,
     dnsConfigChange_dnsRecords,
 
     -- * DnsProperties
-    DnsProperties,
+    DnsProperties (DnsProperties'),
     newDnsProperties,
     dnsProperties_hostedZoneId,
     dnsProperties_soa,
 
     -- * DnsRecord
-    DnsRecord,
+    DnsRecord (DnsRecord'),
     newDnsRecord,
     dnsRecord_type,
     dnsRecord_ttl,
 
     -- * HealthCheckConfig
-    HealthCheckConfig,
+    HealthCheckConfig (HealthCheckConfig'),
     newHealthCheckConfig,
     healthCheckConfig_failureThreshold,
     healthCheckConfig_resourcePath,
     healthCheckConfig_type,
 
     -- * HealthCheckCustomConfig
-    HealthCheckCustomConfig,
+    HealthCheckCustomConfig (HealthCheckCustomConfig'),
     newHealthCheckCustomConfig,
     healthCheckCustomConfig_failureThreshold,
 
     -- * HttpInstanceSummary
-    HttpInstanceSummary,
+    HttpInstanceSummary (HttpInstanceSummary'),
     newHttpInstanceSummary,
     httpInstanceSummary_attributes,
     httpInstanceSummary_healthStatus,
@@ -128,30 +128,30 @@ module Amazonka.Route53AutoNaming.Types
     httpInstanceSummary_serviceName,
 
     -- * HttpNamespaceChange
-    HttpNamespaceChange,
+    HttpNamespaceChange (HttpNamespaceChange'),
     newHttpNamespaceChange,
     httpNamespaceChange_description,
 
     -- * HttpProperties
-    HttpProperties,
+    HttpProperties (HttpProperties'),
     newHttpProperties,
     httpProperties_httpName,
 
     -- * Instance
-    Instance,
+    Instance (Instance'),
     newInstance,
     instance_attributes,
     instance_creatorRequestId,
     instance_id,
 
     -- * InstanceSummary
-    InstanceSummary,
+    InstanceSummary (InstanceSummary'),
     newInstanceSummary,
     instanceSummary_attributes,
     instanceSummary_id,
 
     -- * Namespace
-    Namespace,
+    Namespace (Namespace'),
     newNamespace,
     namespace_arn,
     namespace_createDate,
@@ -164,20 +164,20 @@ module Amazonka.Route53AutoNaming.Types
     namespace_type,
 
     -- * NamespaceFilter
-    NamespaceFilter,
+    NamespaceFilter (NamespaceFilter'),
     newNamespaceFilter,
     namespaceFilter_condition,
     namespaceFilter_name,
     namespaceFilter_values,
 
     -- * NamespaceProperties
-    NamespaceProperties,
+    NamespaceProperties (NamespaceProperties'),
     newNamespaceProperties,
     namespaceProperties_dnsProperties,
     namespaceProperties_httpProperties,
 
     -- * NamespaceSummary
-    NamespaceSummary,
+    NamespaceSummary (NamespaceSummary'),
     newNamespaceSummary,
     namespaceSummary_arn,
     namespaceSummary_createDate,
@@ -189,7 +189,7 @@ module Amazonka.Route53AutoNaming.Types
     namespaceSummary_type,
 
     -- * Operation
-    Operation,
+    Operation (Operation'),
     newOperation,
     operation_createDate,
     operation_errorCode,
@@ -201,96 +201,96 @@ module Amazonka.Route53AutoNaming.Types
     operation_updateDate,
 
     -- * OperationFilter
-    OperationFilter,
+    OperationFilter (OperationFilter'),
     newOperationFilter,
     operationFilter_condition,
     operationFilter_name,
     operationFilter_values,
 
     -- * OperationSummary
-    OperationSummary,
+    OperationSummary (OperationSummary'),
     newOperationSummary,
     operationSummary_id,
     operationSummary_status,
 
     -- * PrivateDnsNamespaceChange
-    PrivateDnsNamespaceChange,
+    PrivateDnsNamespaceChange (PrivateDnsNamespaceChange'),
     newPrivateDnsNamespaceChange,
     privateDnsNamespaceChange_description,
     privateDnsNamespaceChange_properties,
 
     -- * PrivateDnsNamespaceProperties
-    PrivateDnsNamespaceProperties,
+    PrivateDnsNamespaceProperties (PrivateDnsNamespaceProperties'),
     newPrivateDnsNamespaceProperties,
     privateDnsNamespaceProperties_dnsProperties,
 
     -- * PrivateDnsNamespacePropertiesChange
-    PrivateDnsNamespacePropertiesChange,
+    PrivateDnsNamespacePropertiesChange (PrivateDnsNamespacePropertiesChange'),
     newPrivateDnsNamespacePropertiesChange,
     privateDnsNamespacePropertiesChange_dnsProperties,
 
     -- * PrivateDnsPropertiesMutable
-    PrivateDnsPropertiesMutable,
+    PrivateDnsPropertiesMutable (PrivateDnsPropertiesMutable'),
     newPrivateDnsPropertiesMutable,
     privateDnsPropertiesMutable_soa,
 
     -- * PrivateDnsPropertiesMutableChange
-    PrivateDnsPropertiesMutableChange,
+    PrivateDnsPropertiesMutableChange (PrivateDnsPropertiesMutableChange'),
     newPrivateDnsPropertiesMutableChange,
     privateDnsPropertiesMutableChange_soa,
 
     -- * PublicDnsNamespaceChange
-    PublicDnsNamespaceChange,
+    PublicDnsNamespaceChange (PublicDnsNamespaceChange'),
     newPublicDnsNamespaceChange,
     publicDnsNamespaceChange_description,
     publicDnsNamespaceChange_properties,
 
     -- * PublicDnsNamespaceProperties
-    PublicDnsNamespaceProperties,
+    PublicDnsNamespaceProperties (PublicDnsNamespaceProperties'),
     newPublicDnsNamespaceProperties,
     publicDnsNamespaceProperties_dnsProperties,
 
     -- * PublicDnsNamespacePropertiesChange
-    PublicDnsNamespacePropertiesChange,
+    PublicDnsNamespacePropertiesChange (PublicDnsNamespacePropertiesChange'),
     newPublicDnsNamespacePropertiesChange,
     publicDnsNamespacePropertiesChange_dnsProperties,
 
     -- * PublicDnsPropertiesMutable
-    PublicDnsPropertiesMutable,
+    PublicDnsPropertiesMutable (PublicDnsPropertiesMutable'),
     newPublicDnsPropertiesMutable,
     publicDnsPropertiesMutable_soa,
 
     -- * PublicDnsPropertiesMutableChange
-    PublicDnsPropertiesMutableChange,
+    PublicDnsPropertiesMutableChange (PublicDnsPropertiesMutableChange'),
     newPublicDnsPropertiesMutableChange,
     publicDnsPropertiesMutableChange_soa,
 
     -- * SOA
-    SOA,
+    SOA (SOA'),
     newSOA,
     soa_ttl,
 
     -- * SOAChange
-    SOAChange,
+    SOAChange (SOAChange'),
     newSOAChange,
     sOAChange_ttl,
 
     -- * ServiceChange
-    ServiceChange,
+    ServiceChange (ServiceChange'),
     newServiceChange,
     serviceChange_description,
     serviceChange_dnsConfig,
     serviceChange_healthCheckConfig,
 
     -- * ServiceFilter
-    ServiceFilter,
+    ServiceFilter (ServiceFilter'),
     newServiceFilter,
     serviceFilter_condition,
     serviceFilter_name,
     serviceFilter_values,
 
     -- * ServiceInfo
-    ServiceInfo,
+    ServiceInfo (ServiceInfo'),
     newServiceInfo,
     serviceInfo_arn,
     serviceInfo_createDate,
@@ -306,7 +306,7 @@ module Amazonka.Route53AutoNaming.Types
     serviceInfo_type,
 
     -- * ServiceSummary
-    ServiceSummary,
+    ServiceSummary (ServiceSummary'),
     newServiceSummary,
     serviceSummary_arn,
     serviceSummary_createDate,
@@ -320,7 +320,7 @@ module Amazonka.Route53AutoNaming.Types
     serviceSummary_type,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,

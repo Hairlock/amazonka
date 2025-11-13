@@ -23,46 +23,46 @@ module Amazonka.MechanicalTurk.Types
     _ServiceFault,
 
     -- * AssignmentStatus
-    AssignmentStatus,
+    AssignmentStatus (AssignmentStatus'),
 
     -- * Comparator
-    Comparator,
+    Comparator (Comparator'),
 
     -- * EventType
-    EventType,
+    EventType (EventType'),
 
     -- * HITAccessActions
-    HITAccessActions,
+    HITAccessActions (HITAccessActions'),
 
     -- * HITReviewStatus
-    HITReviewStatus,
+    HITReviewStatus (HITReviewStatus'),
 
     -- * HITStatus
-    HITStatus,
+    HITStatus (HITStatus'),
 
     -- * NotificationTransport
-    NotificationTransport,
+    NotificationTransport (NotificationTransport'),
 
     -- * NotifyWorkersFailureCode
-    NotifyWorkersFailureCode,
+    NotifyWorkersFailureCode (NotifyWorkersFailureCode'),
 
     -- * QualificationStatus
-    QualificationStatus,
+    QualificationStatus (QualificationStatus'),
 
     -- * QualificationTypeStatus
-    QualificationTypeStatus,
+    QualificationTypeStatus (QualificationTypeStatus'),
 
     -- * ReviewActionStatus
-    ReviewActionStatus,
+    ReviewActionStatus (ReviewActionStatus'),
 
     -- * ReviewPolicyLevel
-    ReviewPolicyLevel,
+    ReviewPolicyLevel (ReviewPolicyLevel'),
 
     -- * ReviewableHITStatus
-    ReviewableHITStatus,
+    ReviewableHITStatus (ReviewableHITStatus'),
 
     -- * Assignment
-    Assignment,
+    Assignment (Assignment'),
     newAssignment,
     assignment_acceptTime,
     assignment_answer,
@@ -78,7 +78,7 @@ module Amazonka.MechanicalTurk.Types
     assignment_workerId,
 
     -- * BonusPayment
-    BonusPayment,
+    BonusPayment (BonusPayment'),
     newBonusPayment,
     bonusPayment_assignmentId,
     bonusPayment_bonusAmount,
@@ -87,7 +87,7 @@ module Amazonka.MechanicalTurk.Types
     bonusPayment_workerId,
 
     -- * HIT
-    HIT,
+    HIT (HIT'),
     newHIT,
     hit_assignmentDurationInSeconds,
     hit_autoApprovalDelayInSeconds,
@@ -112,19 +112,19 @@ module Amazonka.MechanicalTurk.Types
     hit_title,
 
     -- * HITLayoutParameter
-    HITLayoutParameter,
+    HITLayoutParameter (HITLayoutParameter'),
     newHITLayoutParameter,
     hITLayoutParameter_name,
     hITLayoutParameter_value,
 
     -- * Locale
-    Locale,
+    Locale (Locale'),
     newLocale,
     locale_subdivision,
     locale_country,
 
     -- * NotificationSpecification
-    NotificationSpecification,
+    NotificationSpecification (NotificationSpecification'),
     newNotificationSpecification,
     notificationSpecification_destination,
     notificationSpecification_transport,
@@ -132,27 +132,27 @@ module Amazonka.MechanicalTurk.Types
     notificationSpecification_eventTypes,
 
     -- * NotifyWorkersFailureStatus
-    NotifyWorkersFailureStatus,
+    NotifyWorkersFailureStatus (NotifyWorkersFailureStatus'),
     newNotifyWorkersFailureStatus,
     notifyWorkersFailureStatus_notifyWorkersFailureCode,
     notifyWorkersFailureStatus_notifyWorkersFailureMessage,
     notifyWorkersFailureStatus_workerId,
 
     -- * ParameterMapEntry
-    ParameterMapEntry,
+    ParameterMapEntry (ParameterMapEntry'),
     newParameterMapEntry,
     parameterMapEntry_key,
     parameterMapEntry_values,
 
     -- * PolicyParameter
-    PolicyParameter,
+    PolicyParameter (PolicyParameter'),
     newPolicyParameter,
     policyParameter_key,
     policyParameter_mapEntries,
     policyParameter_values,
 
     -- * Qualification
-    Qualification,
+    Qualification (Qualification'),
     newQualification,
     qualification_grantTime,
     qualification_integerValue,
@@ -162,7 +162,7 @@ module Amazonka.MechanicalTurk.Types
     qualification_workerId,
 
     -- * QualificationRequest
-    QualificationRequest,
+    QualificationRequest (QualificationRequest'),
     newQualificationRequest,
     qualificationRequest_answer,
     qualificationRequest_qualificationRequestId,
@@ -172,7 +172,7 @@ module Amazonka.MechanicalTurk.Types
     qualificationRequest_workerId,
 
     -- * QualificationRequirement
-    QualificationRequirement,
+    QualificationRequirement (QualificationRequirement'),
     newQualificationRequirement,
     qualificationRequirement_actionsGuarded,
     qualificationRequirement_integerValues,
@@ -182,7 +182,7 @@ module Amazonka.MechanicalTurk.Types
     qualificationRequirement_comparator,
 
     -- * QualificationType
-    QualificationType,
+    QualificationType (QualificationType'),
     newQualificationType,
     qualificationType_answerKey,
     qualificationType_autoGranted,
@@ -199,7 +199,7 @@ module Amazonka.MechanicalTurk.Types
     qualificationType_testDurationInSeconds,
 
     -- * ReviewActionDetail
-    ReviewActionDetail,
+    ReviewActionDetail (ReviewActionDetail'),
     newReviewActionDetail,
     reviewActionDetail_actionId,
     reviewActionDetail_actionName,
@@ -211,19 +211,19 @@ module Amazonka.MechanicalTurk.Types
     reviewActionDetail_targetType,
 
     -- * ReviewPolicy
-    ReviewPolicy,
+    ReviewPolicy (ReviewPolicy'),
     newReviewPolicy,
     reviewPolicy_parameters,
     reviewPolicy_policyName,
 
     -- * ReviewReport
-    ReviewReport,
+    ReviewReport (ReviewReport'),
     newReviewReport,
     reviewReport_reviewActions,
     reviewReport_reviewResults,
 
     -- * ReviewResultDetail
-    ReviewResultDetail,
+    ReviewResultDetail (ReviewResultDetail'),
     newReviewResultDetail,
     reviewResultDetail_actionId,
     reviewResultDetail_key,
@@ -233,7 +233,7 @@ module Amazonka.MechanicalTurk.Types
     reviewResultDetail_value,
 
     -- * WorkerBlock
-    WorkerBlock,
+    WorkerBlock (WorkerBlock'),
     newWorkerBlock,
     workerBlock_reason,
     workerBlock_workerId,

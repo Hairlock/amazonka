@@ -93,43 +93,43 @@ module Amazonka.CloudTrail.Types
     _UnsupportedOperationException,
 
     -- * DeliveryStatus
-    DeliveryStatus,
+    DeliveryStatus (DeliveryStatus'),
 
     -- * DestinationType
-    DestinationType,
+    DestinationType (DestinationType'),
 
     -- * EventCategory
-    EventCategory,
+    EventCategory (EventCategory'),
 
     -- * EventDataStoreStatus
-    EventDataStoreStatus,
+    EventDataStoreStatus (EventDataStoreStatus'),
 
     -- * ImportFailureStatus
-    ImportFailureStatus,
+    ImportFailureStatus (ImportFailureStatus'),
 
     -- * ImportStatus
-    ImportStatus,
+    ImportStatus (ImportStatus'),
 
     -- * InsightType
-    InsightType,
+    InsightType (InsightType'),
 
     -- * LookupAttributeKey
-    LookupAttributeKey,
+    LookupAttributeKey (LookupAttributeKey'),
 
     -- * QueryStatus
-    QueryStatus,
+    QueryStatus (QueryStatus'),
 
     -- * ReadWriteType
-    ReadWriteType,
+    ReadWriteType (ReadWriteType'),
 
     -- * AdvancedEventSelector
-    AdvancedEventSelector,
+    AdvancedEventSelector (AdvancedEventSelector'),
     newAdvancedEventSelector,
     advancedEventSelector_name,
     advancedEventSelector_fieldSelectors,
 
     -- * AdvancedFieldSelector
-    AdvancedFieldSelector,
+    AdvancedFieldSelector (AdvancedFieldSelector'),
     newAdvancedFieldSelector,
     advancedFieldSelector_endsWith,
     advancedFieldSelector_equals,
@@ -140,25 +140,25 @@ module Amazonka.CloudTrail.Types
     advancedFieldSelector_field,
 
     -- * Channel
-    Channel,
+    Channel (Channel'),
     newChannel,
     channel_channelArn,
     channel_name,
 
     -- * DataResource
-    DataResource,
+    DataResource (DataResource'),
     newDataResource,
     dataResource_type,
     dataResource_values,
 
     -- * Destination
-    Destination,
+    Destination (Destination'),
     newDestination,
     destination_type,
     destination_location,
 
     -- * Event
-    Event,
+    Event (Event'),
     newEvent,
     event_accessKeyId,
     event_cloudTrailEvent,
@@ -171,7 +171,7 @@ module Amazonka.CloudTrail.Types
     event_username,
 
     -- * EventDataStore
-    EventDataStore,
+    EventDataStore (EventDataStore'),
     newEventDataStore,
     eventDataStore_advancedEventSelectors,
     eventDataStore_createdTimestamp,
@@ -185,7 +185,7 @@ module Amazonka.CloudTrail.Types
     eventDataStore_updatedTimestamp,
 
     -- * EventSelector
-    EventSelector,
+    EventSelector (EventSelector'),
     newEventSelector,
     eventSelector_dataResources,
     eventSelector_excludeManagementEventSources,
@@ -193,7 +193,7 @@ module Amazonka.CloudTrail.Types
     eventSelector_readWriteType,
 
     -- * ImportFailureListItem
-    ImportFailureListItem,
+    ImportFailureListItem (ImportFailureListItem'),
     newImportFailureListItem,
     importFailureListItem_errorMessage,
     importFailureListItem_errorType,
@@ -202,12 +202,12 @@ module Amazonka.CloudTrail.Types
     importFailureListItem_status,
 
     -- * ImportSource
-    ImportSource,
+    ImportSource (ImportSource'),
     newImportSource,
     importSource_s3,
 
     -- * ImportStatistics
-    ImportStatistics,
+    ImportStatistics (ImportStatistics'),
     newImportStatistics,
     importStatistics_eventsCompleted,
     importStatistics_failedEntries,
@@ -216,7 +216,7 @@ module Amazonka.CloudTrail.Types
     importStatistics_prefixesFound,
 
     -- * ImportsListItem
-    ImportsListItem,
+    ImportsListItem (ImportsListItem'),
     newImportsListItem,
     importsListItem_createdTimestamp,
     importsListItem_destinations,
@@ -225,18 +225,18 @@ module Amazonka.CloudTrail.Types
     importsListItem_updatedTimestamp,
 
     -- * InsightSelector
-    InsightSelector,
+    InsightSelector (InsightSelector'),
     newInsightSelector,
     insightSelector_insightType,
 
     -- * LookupAttribute
-    LookupAttribute,
+    LookupAttribute (LookupAttribute'),
     newLookupAttribute,
     lookupAttribute_attributeKey,
     lookupAttribute_attributeValue,
 
     -- * PublicKey
-    PublicKey,
+    PublicKey (PublicKey'),
     newPublicKey,
     publicKey_fingerprint,
     publicKey_validityEndTime,
@@ -244,21 +244,21 @@ module Amazonka.CloudTrail.Types
     publicKey_value,
 
     -- * Query
-    Query,
+    Query (Query'),
     newQuery,
     query_creationTime,
     query_queryId,
     query_queryStatus,
 
     -- * QueryStatistics
-    QueryStatistics,
+    QueryStatistics (QueryStatistics'),
     newQueryStatistics,
     queryStatistics_bytesScanned,
     queryStatistics_resultsCount,
     queryStatistics_totalResultsCount,
 
     -- * QueryStatisticsForDescribeQuery
-    QueryStatisticsForDescribeQuery,
+    QueryStatisticsForDescribeQuery (QueryStatisticsForDescribeQuery'),
     newQueryStatisticsForDescribeQuery,
     queryStatisticsForDescribeQuery_bytesScanned,
     queryStatisticsForDescribeQuery_creationTime,
@@ -267,38 +267,38 @@ module Amazonka.CloudTrail.Types
     queryStatisticsForDescribeQuery_executionTimeInMillis,
 
     -- * Resource
-    Resource,
+    Resource (Resource'),
     newResource,
     resource_resourceName,
     resource_resourceType,
 
     -- * ResourceTag
-    ResourceTag,
+    ResourceTag (ResourceTag'),
     newResourceTag,
     resourceTag_resourceId,
     resourceTag_tagsList,
 
     -- * S3ImportSource
-    S3ImportSource,
+    S3ImportSource (S3ImportSource'),
     newS3ImportSource,
     s3ImportSource_s3LocationUri,
     s3ImportSource_s3BucketRegion,
     s3ImportSource_s3BucketAccessRoleArn,
 
     -- * SourceConfig
-    SourceConfig,
+    SourceConfig (SourceConfig'),
     newSourceConfig,
     sourceConfig_advancedEventSelectors,
     sourceConfig_applyToAllRegions,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_value,
     tag_key,
 
     -- * Trail
-    Trail,
+    Trail (Trail'),
     newTrail,
     trail_cloudWatchLogsLogGroupArn,
     trail_cloudWatchLogsRoleArn,
@@ -318,7 +318,7 @@ module Amazonka.CloudTrail.Types
     trail_trailARN,
 
     -- * TrailInfo
-    TrailInfo,
+    TrailInfo (TrailInfo'),
     newTrailInfo,
     trailInfo_homeRegion,
     trailInfo_name,

@@ -25,7 +25,7 @@ module Amazonka.APIGatewayManagementAPI.Types
     _PayloadTooLargeException,
 
     -- * Identity
-    Identity,
+    Identity (Identity'),
     newIdentity,
     identity_sourceIp,
     identity_userAgent,

@@ -29,131 +29,131 @@ module Amazonka.ServiceCatalog.Types
     _TagOptionNotMigratedException,
 
     -- * AccessLevelFilterKey
-    AccessLevelFilterKey,
+    AccessLevelFilterKey (AccessLevelFilterKey'),
 
     -- * AccessStatus
-    AccessStatus,
+    AccessStatus (AccessStatus'),
 
     -- * ChangeAction
-    ChangeAction,
+    ChangeAction (ChangeAction'),
 
     -- * CopyOption
-    CopyOption,
+    CopyOption (CopyOption'),
 
     -- * CopyProductStatus
-    CopyProductStatus,
+    CopyProductStatus (CopyProductStatus'),
 
     -- * DescribePortfolioShareType
-    DescribePortfolioShareType,
+    DescribePortfolioShareType (DescribePortfolioShareType'),
 
     -- * EvaluationType
-    EvaluationType,
+    EvaluationType (EvaluationType'),
 
     -- * LastSyncStatus
-    LastSyncStatus,
+    LastSyncStatus (LastSyncStatus'),
 
     -- * OrganizationNodeType
-    OrganizationNodeType,
+    OrganizationNodeType (OrganizationNodeType'),
 
     -- * PortfolioShareType
-    PortfolioShareType,
+    PortfolioShareType (PortfolioShareType'),
 
     -- * PrincipalType
-    PrincipalType,
+    PrincipalType (PrincipalType'),
 
     -- * ProductSource
-    ProductSource,
+    ProductSource (ProductSource'),
 
     -- * ProductType
-    ProductType,
+    ProductType (ProductType'),
 
     -- * ProductViewFilterBy
-    ProductViewFilterBy,
+    ProductViewFilterBy (ProductViewFilterBy'),
 
     -- * ProductViewSortBy
-    ProductViewSortBy,
+    ProductViewSortBy (ProductViewSortBy'),
 
     -- * PropertyKey
-    PropertyKey,
+    PropertyKey (PropertyKey'),
 
     -- * ProvisionedProductPlanStatus
-    ProvisionedProductPlanStatus,
+    ProvisionedProductPlanStatus (ProvisionedProductPlanStatus'),
 
     -- * ProvisionedProductPlanType
-    ProvisionedProductPlanType,
+    ProvisionedProductPlanType (ProvisionedProductPlanType'),
 
     -- * ProvisionedProductStatus
-    ProvisionedProductStatus,
+    ProvisionedProductStatus (ProvisionedProductStatus'),
 
     -- * ProvisionedProductViewFilterBy
-    ProvisionedProductViewFilterBy,
+    ProvisionedProductViewFilterBy (ProvisionedProductViewFilterBy'),
 
     -- * ProvisioningArtifactGuidance
-    ProvisioningArtifactGuidance,
+    ProvisioningArtifactGuidance (ProvisioningArtifactGuidance'),
 
     -- * ProvisioningArtifactPropertyName
-    ProvisioningArtifactPropertyName,
+    ProvisioningArtifactPropertyName (ProvisioningArtifactPropertyName'),
 
     -- * ProvisioningArtifactType
-    ProvisioningArtifactType,
+    ProvisioningArtifactType (ProvisioningArtifactType'),
 
     -- * RecordStatus
-    RecordStatus,
+    RecordStatus (RecordStatus'),
 
     -- * Replacement
-    Replacement,
+    Replacement (Replacement'),
 
     -- * RequestStatus
-    RequestStatus,
+    RequestStatus (RequestStatus'),
 
     -- * RequiresRecreation
-    RequiresRecreation,
+    RequiresRecreation (RequiresRecreation'),
 
     -- * ResourceAttribute
-    ResourceAttribute,
+    ResourceAttribute (ResourceAttribute'),
 
     -- * ServiceActionAssociationErrorCode
-    ServiceActionAssociationErrorCode,
+    ServiceActionAssociationErrorCode (ServiceActionAssociationErrorCode'),
 
     -- * ServiceActionDefinitionKey
-    ServiceActionDefinitionKey,
+    ServiceActionDefinitionKey (ServiceActionDefinitionKey'),
 
     -- * ServiceActionDefinitionType
-    ServiceActionDefinitionType,
+    ServiceActionDefinitionType (ServiceActionDefinitionType'),
 
     -- * ShareStatus
-    ShareStatus,
+    ShareStatus (ShareStatus'),
 
     -- * SortOrder
-    SortOrder,
+    SortOrder (SortOrder'),
 
     -- * SourceType
-    SourceType,
+    SourceType (SourceType'),
 
     -- * StackInstanceStatus
-    StackInstanceStatus,
+    StackInstanceStatus (StackInstanceStatus'),
 
     -- * StackSetOperationType
-    StackSetOperationType,
+    StackSetOperationType (StackSetOperationType'),
 
     -- * AccessLevelFilter
-    AccessLevelFilter,
+    AccessLevelFilter (AccessLevelFilter'),
     newAccessLevelFilter,
     accessLevelFilter_key,
     accessLevelFilter_value,
 
     -- * BudgetDetail
-    BudgetDetail,
+    BudgetDetail (BudgetDetail'),
     newBudgetDetail,
     budgetDetail_budgetName,
 
     -- * CloudWatchDashboard
-    CloudWatchDashboard,
+    CloudWatchDashboard (CloudWatchDashboard'),
     newCloudWatchDashboard,
     cloudWatchDashboard_name,
 
     -- * CodeStarParameters
-    CodeStarParameters,
+    CodeStarParameters (CodeStarParameters'),
     newCodeStarParameters,
     codeStarParameters_connectionArn,
     codeStarParameters_repository,
@@ -161,7 +161,7 @@ module Amazonka.ServiceCatalog.Types
     codeStarParameters_artifactPath,
 
     -- * ConstraintDetail
-    ConstraintDetail,
+    ConstraintDetail (ConstraintDetail'),
     newConstraintDetail,
     constraintDetail_constraintId,
     constraintDetail_description,
@@ -171,20 +171,20 @@ module Amazonka.ServiceCatalog.Types
     constraintDetail_type,
 
     -- * ConstraintSummary
-    ConstraintSummary,
+    ConstraintSummary (ConstraintSummary'),
     newConstraintSummary,
     constraintSummary_description,
     constraintSummary_type,
 
     -- * ExecutionParameter
-    ExecutionParameter,
+    ExecutionParameter (ExecutionParameter'),
     newExecutionParameter,
     executionParameter_defaultValues,
     executionParameter_name,
     executionParameter_type,
 
     -- * FailedServiceActionAssociation
-    FailedServiceActionAssociation,
+    FailedServiceActionAssociation (FailedServiceActionAssociation'),
     newFailedServiceActionAssociation,
     failedServiceActionAssociation_errorCode,
     failedServiceActionAssociation_errorMessage,
@@ -193,7 +193,7 @@ module Amazonka.ServiceCatalog.Types
     failedServiceActionAssociation_serviceActionId,
 
     -- * LastSync
-    LastSync,
+    LastSync (LastSync'),
     newLastSync,
     lastSync_lastSuccessfulSyncProvisioningArtifactId,
     lastSync_lastSuccessfulSyncTime,
@@ -202,13 +202,13 @@ module Amazonka.ServiceCatalog.Types
     lastSync_lastSyncTime,
 
     -- * LaunchPath
-    LaunchPath,
+    LaunchPath (LaunchPath'),
     newLaunchPath,
     launchPath_id,
     launchPath_name,
 
     -- * LaunchPathSummary
-    LaunchPathSummary,
+    LaunchPathSummary (LaunchPathSummary'),
     newLaunchPathSummary,
     launchPathSummary_constraintSummaries,
     launchPathSummary_id,
@@ -216,26 +216,26 @@ module Amazonka.ServiceCatalog.Types
     launchPathSummary_tags,
 
     -- * ListRecordHistorySearchFilter
-    ListRecordHistorySearchFilter,
+    ListRecordHistorySearchFilter (ListRecordHistorySearchFilter'),
     newListRecordHistorySearchFilter,
     listRecordHistorySearchFilter_key,
     listRecordHistorySearchFilter_value,
 
     -- * ListTagOptionsFilters
-    ListTagOptionsFilters,
+    ListTagOptionsFilters (ListTagOptionsFilters'),
     newListTagOptionsFilters,
     listTagOptionsFilters_active,
     listTagOptionsFilters_key,
     listTagOptionsFilters_value,
 
     -- * OrganizationNode
-    OrganizationNode,
+    OrganizationNode (OrganizationNode'),
     newOrganizationNode,
     organizationNode_type,
     organizationNode_value,
 
     -- * ParameterConstraints
-    ParameterConstraints,
+    ParameterConstraints (ParameterConstraints'),
     newParameterConstraints,
     parameterConstraints_allowedPattern,
     parameterConstraints_allowedValues,
@@ -246,7 +246,7 @@ module Amazonka.ServiceCatalog.Types
     parameterConstraints_minValue,
 
     -- * PortfolioDetail
-    PortfolioDetail,
+    PortfolioDetail (PortfolioDetail'),
     newPortfolioDetail,
     portfolioDetail_arn,
     portfolioDetail_createdTime,
@@ -256,7 +256,7 @@ module Amazonka.ServiceCatalog.Types
     portfolioDetail_providerName,
 
     -- * PortfolioShareDetail
-    PortfolioShareDetail,
+    PortfolioShareDetail (PortfolioShareDetail'),
     newPortfolioShareDetail,
     portfolioShareDetail_accepted,
     portfolioShareDetail_principalId,
@@ -265,19 +265,19 @@ module Amazonka.ServiceCatalog.Types
     portfolioShareDetail_type,
 
     -- * Principal
-    Principal,
+    Principal (Principal'),
     newPrincipal,
     principal_principalARN,
     principal_principalType,
 
     -- * ProductViewAggregationValue
-    ProductViewAggregationValue,
+    ProductViewAggregationValue (ProductViewAggregationValue'),
     newProductViewAggregationValue,
     productViewAggregationValue_approximateCount,
     productViewAggregationValue_value,
 
     -- * ProductViewDetail
-    ProductViewDetail,
+    ProductViewDetail (ProductViewDetail'),
     newProductViewDetail,
     productViewDetail_createdTime,
     productViewDetail_productARN,
@@ -286,7 +286,7 @@ module Amazonka.ServiceCatalog.Types
     productViewDetail_status,
 
     -- * ProductViewSummary
-    ProductViewSummary,
+    ProductViewSummary (ProductViewSummary'),
     newProductViewSummary,
     productViewSummary_distributor,
     productViewSummary_hasDefaultPath,
@@ -301,7 +301,7 @@ module Amazonka.ServiceCatalog.Types
     productViewSummary_type,
 
     -- * ProvisionedProductAttribute
-    ProvisionedProductAttribute,
+    ProvisionedProductAttribute (ProvisionedProductAttribute'),
     newProvisionedProductAttribute,
     provisionedProductAttribute_arn,
     provisionedProductAttribute_createdTime,
@@ -324,7 +324,7 @@ module Amazonka.ServiceCatalog.Types
     provisionedProductAttribute_userArnSession,
 
     -- * ProvisionedProductDetail
-    ProvisionedProductDetail,
+    ProvisionedProductDetail (ProvisionedProductDetail'),
     newProvisionedProductDetail,
     provisionedProductDetail_arn,
     provisionedProductDetail_createdTime,
@@ -342,7 +342,7 @@ module Amazonka.ServiceCatalog.Types
     provisionedProductDetail_type,
 
     -- * ProvisionedProductPlanDetails
-    ProvisionedProductPlanDetails,
+    ProvisionedProductPlanDetails (ProvisionedProductPlanDetails'),
     newProvisionedProductPlanDetails,
     provisionedProductPlanDetails_createdTime,
     provisionedProductPlanDetails_notificationArns,
@@ -361,7 +361,7 @@ module Amazonka.ServiceCatalog.Types
     provisionedProductPlanDetails_updatedTime,
 
     -- * ProvisionedProductPlanSummary
-    ProvisionedProductPlanSummary,
+    ProvisionedProductPlanSummary (ProvisionedProductPlanSummary'),
     newProvisionedProductPlanSummary,
     provisionedProductPlanSummary_planId,
     provisionedProductPlanSummary_planName,
@@ -371,7 +371,7 @@ module Amazonka.ServiceCatalog.Types
     provisionedProductPlanSummary_provisioningArtifactId,
 
     -- * ProvisioningArtifact
-    ProvisioningArtifact,
+    ProvisioningArtifact (ProvisioningArtifact'),
     newProvisioningArtifact,
     provisioningArtifact_createdTime,
     provisioningArtifact_description,
@@ -380,7 +380,7 @@ module Amazonka.ServiceCatalog.Types
     provisioningArtifact_name,
 
     -- * ProvisioningArtifactDetail
-    ProvisioningArtifactDetail,
+    ProvisioningArtifactDetail (ProvisioningArtifactDetail'),
     newProvisioningArtifactDetail,
     provisioningArtifactDetail_active,
     provisioningArtifactDetail_createdTime,
@@ -392,13 +392,13 @@ module Amazonka.ServiceCatalog.Types
     provisioningArtifactDetail_type,
 
     -- * ProvisioningArtifactOutput
-    ProvisioningArtifactOutput,
+    ProvisioningArtifactOutput (ProvisioningArtifactOutput'),
     newProvisioningArtifactOutput,
     provisioningArtifactOutput_description,
     provisioningArtifactOutput_key,
 
     -- * ProvisioningArtifactParameter
-    ProvisioningArtifactParameter,
+    ProvisioningArtifactParameter (ProvisioningArtifactParameter'),
     newProvisioningArtifactParameter,
     provisioningArtifactParameter_defaultValue,
     provisioningArtifactParameter_description,
@@ -408,13 +408,13 @@ module Amazonka.ServiceCatalog.Types
     provisioningArtifactParameter_parameterType,
 
     -- * ProvisioningArtifactPreferences
-    ProvisioningArtifactPreferences,
+    ProvisioningArtifactPreferences (ProvisioningArtifactPreferences'),
     newProvisioningArtifactPreferences,
     provisioningArtifactPreferences_stackSetAccounts,
     provisioningArtifactPreferences_stackSetRegions,
 
     -- * ProvisioningArtifactProperties
-    ProvisioningArtifactProperties,
+    ProvisioningArtifactProperties (ProvisioningArtifactProperties'),
     newProvisioningArtifactProperties,
     provisioningArtifactProperties_description,
     provisioningArtifactProperties_disableTemplateValidation,
@@ -423,7 +423,7 @@ module Amazonka.ServiceCatalog.Types
     provisioningArtifactProperties_type,
 
     -- * ProvisioningArtifactSummary
-    ProvisioningArtifactSummary,
+    ProvisioningArtifactSummary (ProvisioningArtifactSummary'),
     newProvisioningArtifactSummary,
     provisioningArtifactSummary_createdTime,
     provisioningArtifactSummary_description,
@@ -432,19 +432,19 @@ module Amazonka.ServiceCatalog.Types
     provisioningArtifactSummary_provisioningArtifactMetadata,
 
     -- * ProvisioningArtifactView
-    ProvisioningArtifactView,
+    ProvisioningArtifactView (ProvisioningArtifactView'),
     newProvisioningArtifactView,
     provisioningArtifactView_productViewSummary,
     provisioningArtifactView_provisioningArtifact,
 
     -- * ProvisioningParameter
-    ProvisioningParameter,
+    ProvisioningParameter (ProvisioningParameter'),
     newProvisioningParameter,
     provisioningParameter_key,
     provisioningParameter_value,
 
     -- * ProvisioningPreferences
-    ProvisioningPreferences,
+    ProvisioningPreferences (ProvisioningPreferences'),
     newProvisioningPreferences,
     provisioningPreferences_stackSetAccounts,
     provisioningPreferences_stackSetFailureToleranceCount,
@@ -454,7 +454,7 @@ module Amazonka.ServiceCatalog.Types
     provisioningPreferences_stackSetRegions,
 
     -- * RecordDetail
-    RecordDetail,
+    RecordDetail (RecordDetail'),
     newRecordDetail,
     recordDetail_createdTime,
     recordDetail_launchRoleArn,
@@ -472,26 +472,26 @@ module Amazonka.ServiceCatalog.Types
     recordDetail_updatedTime,
 
     -- * RecordError
-    RecordError,
+    RecordError (RecordError'),
     newRecordError,
     recordError_code,
     recordError_description,
 
     -- * RecordOutput
-    RecordOutput,
+    RecordOutput (RecordOutput'),
     newRecordOutput,
     recordOutput_description,
     recordOutput_outputKey,
     recordOutput_outputValue,
 
     -- * RecordTag
-    RecordTag,
+    RecordTag (RecordTag'),
     newRecordTag,
     recordTag_key,
     recordTag_value,
 
     -- * ResourceChange
-    ResourceChange,
+    ResourceChange (ResourceChange'),
     newResourceChange,
     resourceChange_action,
     resourceChange_details,
@@ -502,14 +502,14 @@ module Amazonka.ServiceCatalog.Types
     resourceChange_scope,
 
     -- * ResourceChangeDetail
-    ResourceChangeDetail,
+    ResourceChangeDetail (ResourceChangeDetail'),
     newResourceChangeDetail,
     resourceChangeDetail_causingEntity,
     resourceChangeDetail_evaluation,
     resourceChangeDetail_target,
 
     -- * ResourceDetail
-    ResourceDetail,
+    ResourceDetail (ResourceDetail'),
     newResourceDetail,
     resourceDetail_arn,
     resourceDetail_createdTime,
@@ -518,27 +518,27 @@ module Amazonka.ServiceCatalog.Types
     resourceDetail_name,
 
     -- * ResourceTargetDefinition
-    ResourceTargetDefinition,
+    ResourceTargetDefinition (ResourceTargetDefinition'),
     newResourceTargetDefinition,
     resourceTargetDefinition_attribute,
     resourceTargetDefinition_name,
     resourceTargetDefinition_requiresRecreation,
 
     -- * ServiceActionAssociation
-    ServiceActionAssociation,
+    ServiceActionAssociation (ServiceActionAssociation'),
     newServiceActionAssociation,
     serviceActionAssociation_serviceActionId,
     serviceActionAssociation_productId,
     serviceActionAssociation_provisioningArtifactId,
 
     -- * ServiceActionDetail
-    ServiceActionDetail,
+    ServiceActionDetail (ServiceActionDetail'),
     newServiceActionDetail,
     serviceActionDetail_definition,
     serviceActionDetail_serviceActionSummary,
 
     -- * ServiceActionSummary
-    ServiceActionSummary,
+    ServiceActionSummary (ServiceActionSummary'),
     newServiceActionSummary,
     serviceActionSummary_definitionType,
     serviceActionSummary_description,
@@ -546,51 +546,51 @@ module Amazonka.ServiceCatalog.Types
     serviceActionSummary_name,
 
     -- * ShareDetails
-    ShareDetails,
+    ShareDetails (ShareDetails'),
     newShareDetails,
     shareDetails_shareErrors,
     shareDetails_successfulShares,
 
     -- * ShareError
-    ShareError,
+    ShareError (ShareError'),
     newShareError,
     shareError_accounts,
     shareError_error,
     shareError_message,
 
     -- * SourceConnection
-    SourceConnection,
+    SourceConnection (SourceConnection'),
     newSourceConnection,
     sourceConnection_type,
     sourceConnection_connectionParameters,
 
     -- * SourceConnectionDetail
-    SourceConnectionDetail,
+    SourceConnectionDetail (SourceConnectionDetail'),
     newSourceConnectionDetail,
     sourceConnectionDetail_connectionParameters,
     sourceConnectionDetail_lastSync,
     sourceConnectionDetail_type,
 
     -- * SourceConnectionParameters
-    SourceConnectionParameters,
+    SourceConnectionParameters (SourceConnectionParameters'),
     newSourceConnectionParameters,
     sourceConnectionParameters_codeStar,
 
     -- * StackInstance
-    StackInstance,
+    StackInstance (StackInstance'),
     newStackInstance,
     stackInstance_account,
     stackInstance_region,
     stackInstance_stackInstanceStatus,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
 
     -- * TagOptionDetail
-    TagOptionDetail,
+    TagOptionDetail (TagOptionDetail'),
     newTagOptionDetail,
     tagOptionDetail_active,
     tagOptionDetail_id,
@@ -599,20 +599,20 @@ module Amazonka.ServiceCatalog.Types
     tagOptionDetail_value,
 
     -- * TagOptionSummary
-    TagOptionSummary,
+    TagOptionSummary (TagOptionSummary'),
     newTagOptionSummary,
     tagOptionSummary_key,
     tagOptionSummary_values,
 
     -- * UpdateProvisioningParameter
-    UpdateProvisioningParameter,
+    UpdateProvisioningParameter (UpdateProvisioningParameter'),
     newUpdateProvisioningParameter,
     updateProvisioningParameter_key,
     updateProvisioningParameter_usePreviousValue,
     updateProvisioningParameter_value,
 
     -- * UpdateProvisioningPreferences
-    UpdateProvisioningPreferences,
+    UpdateProvisioningPreferences (UpdateProvisioningPreferences'),
     newUpdateProvisioningPreferences,
     updateProvisioningPreferences_stackSetAccounts,
     updateProvisioningPreferences_stackSetFailureToleranceCount,
@@ -623,7 +623,7 @@ module Amazonka.ServiceCatalog.Types
     updateProvisioningPreferences_stackSetRegions,
 
     -- * UsageInstruction
-    UsageInstruction,
+    UsageInstruction (UsageInstruction'),
     newUsageInstruction,
     usageInstruction_type,
     usageInstruction_value,

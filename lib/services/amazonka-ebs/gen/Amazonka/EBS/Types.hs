@@ -29,29 +29,29 @@ module Amazonka.EBS.Types
     _ValidationException,
 
     -- * ChecksumAggregationMethod
-    ChecksumAggregationMethod,
+    ChecksumAggregationMethod (ChecksumAggregationMethod'),
 
     -- * ChecksumAlgorithm
-    ChecksumAlgorithm,
+    ChecksumAlgorithm (ChecksumAlgorithm'),
 
     -- * Status
-    Status,
+    Status (Status'),
 
     -- * Block
-    Block,
+    Block (Block'),
     newBlock,
     block_blockIndex,
     block_blockToken,
 
     -- * ChangedBlock
-    ChangedBlock,
+    ChangedBlock (ChangedBlock'),
     newChangedBlock,
     changedBlock_blockIndex,
     changedBlock_firstBlockToken,
     changedBlock_secondBlockToken,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,

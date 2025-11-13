@@ -26,37 +26,37 @@ module Amazonka.MigrationHubOrchestrator.Types
     _ValidationException,
 
     -- * DataType
-    DataType,
+    DataType (DataType'),
 
     -- * MigrationWorkflowStatusEnum
-    MigrationWorkflowStatusEnum,
+    MigrationWorkflowStatusEnum (MigrationWorkflowStatusEnum'),
 
     -- * Owner
-    Owner,
+    Owner (Owner'),
 
     -- * PluginHealth
-    PluginHealth,
+    PluginHealth (PluginHealth'),
 
     -- * RunEnvironment
-    RunEnvironment,
+    RunEnvironment (RunEnvironment'),
 
     -- * StepActionType
-    StepActionType,
+    StepActionType (StepActionType'),
 
     -- * StepGroupStatus
-    StepGroupStatus,
+    StepGroupStatus (StepGroupStatus'),
 
     -- * StepStatus
-    StepStatus,
+    StepStatus (StepStatus'),
 
     -- * TargetType
-    TargetType,
+    TargetType (TargetType'),
 
     -- * TemplateStatus
-    TemplateStatus,
+    TemplateStatus (TemplateStatus'),
 
     -- * MigrationWorkflowSummary
-    MigrationWorkflowSummary,
+    MigrationWorkflowSummary (MigrationWorkflowSummary'),
     newMigrationWorkflowSummary,
     migrationWorkflowSummary_adsApplicationConfigurationName,
     migrationWorkflowSummary_completedSteps,
@@ -70,19 +70,19 @@ module Amazonka.MigrationHubOrchestrator.Types
     migrationWorkflowSummary_totalSteps,
 
     -- * PlatformCommand
-    PlatformCommand,
+    PlatformCommand (PlatformCommand'),
     newPlatformCommand,
     platformCommand_linux,
     platformCommand_windows,
 
     -- * PlatformScriptKey
-    PlatformScriptKey,
+    PlatformScriptKey (PlatformScriptKey'),
     newPlatformScriptKey,
     platformScriptKey_linux,
     platformScriptKey_windows,
 
     -- * PluginSummary
-    PluginSummary,
+    PluginSummary (PluginSummary'),
     newPluginSummary,
     pluginSummary_hostname,
     pluginSummary_ipAddress,
@@ -92,7 +92,7 @@ module Amazonka.MigrationHubOrchestrator.Types
     pluginSummary_version,
 
     -- * StepAutomationConfiguration
-    StepAutomationConfiguration,
+    StepAutomationConfiguration (StepAutomationConfiguration'),
     newStepAutomationConfiguration,
     stepAutomationConfiguration_command,
     stepAutomationConfiguration_runEnvironment,
@@ -101,7 +101,7 @@ module Amazonka.MigrationHubOrchestrator.Types
     stepAutomationConfiguration_targetType,
 
     -- * StepInput
-    StepInput,
+    StepInput (StepInput'),
     newStepInput,
     stepInput_integerValue,
     stepInput_listOfStringsValue,
@@ -109,21 +109,21 @@ module Amazonka.MigrationHubOrchestrator.Types
     stepInput_stringValue,
 
     -- * StepOutput
-    StepOutput,
+    StepOutput (StepOutput'),
     newStepOutput,
     stepOutput_dataType,
     stepOutput_name,
     stepOutput_required,
 
     -- * TemplateInput
-    TemplateInput,
+    TemplateInput (TemplateInput'),
     newTemplateInput,
     templateInput_dataType,
     templateInput_inputName,
     templateInput_required,
 
     -- * TemplateStepGroupSummary
-    TemplateStepGroupSummary,
+    TemplateStepGroupSummary (TemplateStepGroupSummary'),
     newTemplateStepGroupSummary,
     templateStepGroupSummary_id,
     templateStepGroupSummary_name,
@@ -131,7 +131,7 @@ module Amazonka.MigrationHubOrchestrator.Types
     templateStepGroupSummary_previous,
 
     -- * TemplateStepSummary
-    TemplateStepSummary,
+    TemplateStepSummary (TemplateStepSummary'),
     newTemplateStepSummary,
     templateStepSummary_id,
     templateStepSummary_name,
@@ -144,7 +144,7 @@ module Amazonka.MigrationHubOrchestrator.Types
     templateStepSummary_templateId,
 
     -- * TemplateSummary
-    TemplateSummary,
+    TemplateSummary (TemplateSummary'),
     newTemplateSummary,
     templateSummary_arn,
     templateSummary_description,
@@ -152,13 +152,13 @@ module Amazonka.MigrationHubOrchestrator.Types
     templateSummary_name,
 
     -- * Tool
-    Tool,
+    Tool (Tool'),
     newTool,
     tool_name,
     tool_url,
 
     -- * WorkflowStepAutomationConfiguration
-    WorkflowStepAutomationConfiguration,
+    WorkflowStepAutomationConfiguration (WorkflowStepAutomationConfiguration'),
     newWorkflowStepAutomationConfiguration,
     workflowStepAutomationConfiguration_command,
     workflowStepAutomationConfiguration_runEnvironment,
@@ -167,7 +167,7 @@ module Amazonka.MigrationHubOrchestrator.Types
     workflowStepAutomationConfiguration_targetType,
 
     -- * WorkflowStepGroupSummary
-    WorkflowStepGroupSummary,
+    WorkflowStepGroupSummary (WorkflowStepGroupSummary'),
     newWorkflowStepGroupSummary,
     workflowStepGroupSummary_id,
     workflowStepGroupSummary_name,
@@ -177,7 +177,7 @@ module Amazonka.MigrationHubOrchestrator.Types
     workflowStepGroupSummary_status,
 
     -- * WorkflowStepOutput
-    WorkflowStepOutput,
+    WorkflowStepOutput (WorkflowStepOutput'),
     newWorkflowStepOutput,
     workflowStepOutput_dataType,
     workflowStepOutput_name,
@@ -185,14 +185,14 @@ module Amazonka.MigrationHubOrchestrator.Types
     workflowStepOutput_value,
 
     -- * WorkflowStepOutputUnion
-    WorkflowStepOutputUnion,
+    WorkflowStepOutputUnion (WorkflowStepOutputUnion'),
     newWorkflowStepOutputUnion,
     workflowStepOutputUnion_integerValue,
     workflowStepOutputUnion_listOfStringValue,
     workflowStepOutputUnion_stringValue,
 
     -- * WorkflowStepSummary
-    WorkflowStepSummary,
+    WorkflowStepSummary (WorkflowStepSummary'),
     newWorkflowStepSummary,
     workflowStepSummary_description,
     workflowStepSummary_name,

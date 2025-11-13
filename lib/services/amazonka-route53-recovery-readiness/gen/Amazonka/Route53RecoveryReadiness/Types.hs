@@ -27,10 +27,10 @@ module Amazonka.Route53RecoveryReadiness.Types
     _ValidationException,
 
     -- * Readiness
-    Readiness,
+    Readiness (Readiness'),
 
     -- * CellOutput
-    CellOutput,
+    CellOutput (CellOutput'),
     newCellOutput,
     cellOutput_tags,
     cellOutput_parentReadinessScopes,
@@ -39,7 +39,7 @@ module Amazonka.Route53RecoveryReadiness.Types
     cellOutput_cells,
 
     -- * DNSTargetResource
-    DNSTargetResource,
+    DNSTargetResource (DNSTargetResource'),
     newDNSTargetResource,
     dNSTargetResource_domainName,
     dNSTargetResource_hostedZoneArn,
@@ -48,30 +48,30 @@ module Amazonka.Route53RecoveryReadiness.Types
     dNSTargetResource_targetResource,
 
     -- * ListRulesOutput
-    ListRulesOutput,
+    ListRulesOutput (ListRulesOutput'),
     newListRulesOutput,
     listRulesOutput_ruleDescription,
     listRulesOutput_ruleId,
     listRulesOutput_resourceType,
 
     -- * Message
-    Message,
+    Message (Message'),
     newMessage,
     message_messageText,
 
     -- * NLBResource
-    NLBResource,
+    NLBResource (NLBResource'),
     newNLBResource,
     nLBResource_arn,
 
     -- * R53ResourceRecord
-    R53ResourceRecord,
+    R53ResourceRecord (R53ResourceRecord'),
     newR53ResourceRecord,
     r53ResourceRecord_domainName,
     r53ResourceRecord_recordSetId,
 
     -- * ReadinessCheckOutput
-    ReadinessCheckOutput,
+    ReadinessCheckOutput (ReadinessCheckOutput'),
     newReadinessCheckOutput,
     readinessCheckOutput_readinessCheckName,
     readinessCheckOutput_tags,
@@ -79,18 +79,18 @@ module Amazonka.Route53RecoveryReadiness.Types
     readinessCheckOutput_resourceSet,
 
     -- * ReadinessCheckSummary
-    ReadinessCheckSummary,
+    ReadinessCheckSummary (ReadinessCheckSummary'),
     newReadinessCheckSummary,
     readinessCheckSummary_readiness,
     readinessCheckSummary_readinessCheckName,
 
     -- * Recommendation
-    Recommendation,
+    Recommendation (Recommendation'),
     newRecommendation,
     recommendation_recommendationText,
 
     -- * RecoveryGroupOutput
-    RecoveryGroupOutput,
+    RecoveryGroupOutput (RecoveryGroupOutput'),
     newRecoveryGroupOutput,
     recoveryGroupOutput_tags,
     recoveryGroupOutput_recoveryGroupArn,
@@ -98,7 +98,7 @@ module Amazonka.Route53RecoveryReadiness.Types
     recoveryGroupOutput_cells,
 
     -- * Resource
-    Resource,
+    Resource (Resource'),
     newResource,
     resource_componentId,
     resource_dnsTargetResource,
@@ -106,7 +106,7 @@ module Amazonka.Route53RecoveryReadiness.Types
     resource_resourceArn,
 
     -- * ResourceResult
-    ResourceResult,
+    ResourceResult (ResourceResult'),
     newResourceResult,
     resourceResult_componentId,
     resourceResult_resourceArn,
@@ -114,7 +114,7 @@ module Amazonka.Route53RecoveryReadiness.Types
     resourceResult_lastCheckedTimestamp,
 
     -- * ResourceSetOutput
-    ResourceSetOutput,
+    ResourceSetOutput (ResourceSetOutput'),
     newResourceSetOutput,
     resourceSetOutput_tags,
     resourceSetOutput_resourceSetType,
@@ -123,7 +123,7 @@ module Amazonka.Route53RecoveryReadiness.Types
     resourceSetOutput_resources,
 
     -- * RuleResult
-    RuleResult,
+    RuleResult (RuleResult'),
     newRuleResult,
     ruleResult_messages,
     ruleResult_readiness,
@@ -131,7 +131,7 @@ module Amazonka.Route53RecoveryReadiness.Types
     ruleResult_lastCheckedTimestamp,
 
     -- * TargetResource
-    TargetResource,
+    TargetResource (TargetResource'),
     newTargetResource,
     targetResource_nLBResource,
     targetResource_r53Resource,

@@ -28,79 +28,79 @@ module Amazonka.WellArchitected.Types
     _ValidationException,
 
     -- * AdditionalResourceType
-    AdditionalResourceType,
+    AdditionalResourceType (AdditionalResourceType'),
 
     -- * AnswerReason
-    AnswerReason,
+    AnswerReason (AnswerReason'),
 
     -- * CheckFailureReason
-    CheckFailureReason,
+    CheckFailureReason (CheckFailureReason'),
 
     -- * CheckProvider
-    CheckProvider,
+    CheckProvider (CheckProvider'),
 
     -- * CheckStatus
-    CheckStatus,
+    CheckStatus (CheckStatus'),
 
     -- * ChoiceReason
-    ChoiceReason,
+    ChoiceReason (ChoiceReason'),
 
     -- * ChoiceStatus
-    ChoiceStatus,
+    ChoiceStatus (ChoiceStatus'),
 
     -- * DifferenceStatus
-    DifferenceStatus,
+    DifferenceStatus (DifferenceStatus'),
 
     -- * ImportLensStatus
-    ImportLensStatus,
+    ImportLensStatus (ImportLensStatus'),
 
     -- * LensStatus
-    LensStatus,
+    LensStatus (LensStatus'),
 
     -- * LensStatusType
-    LensStatusType,
+    LensStatusType (LensStatusType'),
 
     -- * LensType
-    LensType,
+    LensType (LensType'),
 
     -- * NotificationType
-    NotificationType,
+    NotificationType (NotificationType'),
 
     -- * OrganizationSharingStatus
-    OrganizationSharingStatus,
+    OrganizationSharingStatus (OrganizationSharingStatus'),
 
     -- * PermissionType
-    PermissionType,
+    PermissionType (PermissionType'),
 
     -- * Risk
-    Risk,
+    Risk (Risk'),
 
     -- * ShareInvitationAction
-    ShareInvitationAction,
+    ShareInvitationAction (ShareInvitationAction'),
 
     -- * ShareResourceType
-    ShareResourceType,
+    ShareResourceType (ShareResourceType'),
 
     -- * ShareStatus
-    ShareStatus,
+    ShareStatus (ShareStatus'),
 
     -- * TrustedAdvisorIntegrationStatus
-    TrustedAdvisorIntegrationStatus,
+    TrustedAdvisorIntegrationStatus (TrustedAdvisorIntegrationStatus'),
 
     -- * WorkloadEnvironment
-    WorkloadEnvironment,
+    WorkloadEnvironment (WorkloadEnvironment'),
 
     -- * WorkloadImprovementStatus
-    WorkloadImprovementStatus,
+    WorkloadImprovementStatus (WorkloadImprovementStatus'),
 
     -- * AdditionalResources
-    AdditionalResources,
+    AdditionalResources (AdditionalResources'),
     newAdditionalResources,
     additionalResources_content,
     additionalResources_type,
 
     -- * Answer
-    Answer,
+    Answer (Answer'),
     newAnswer,
     answer_choiceAnswers,
     answer_choices,
@@ -118,7 +118,7 @@ module Amazonka.WellArchitected.Types
     answer_selectedChoices,
 
     -- * AnswerSummary
-    AnswerSummary,
+    AnswerSummary (AnswerSummary'),
     newAnswerSummary,
     answerSummary_choiceAnswerSummaries,
     answerSummary_choices,
@@ -131,7 +131,7 @@ module Amazonka.WellArchitected.Types
     answerSummary_selectedChoices,
 
     -- * CheckDetail
-    CheckDetail,
+    CheckDetail (CheckDetail'),
     newCheckDetail,
     checkDetail_accountId,
     checkDetail_choiceId,
@@ -148,7 +148,7 @@ module Amazonka.WellArchitected.Types
     checkDetail_updatedAt,
 
     -- * CheckSummary
-    CheckSummary,
+    CheckSummary (CheckSummary'),
     newCheckSummary,
     checkSummary_accountSummary,
     checkSummary_choiceId,
@@ -163,7 +163,7 @@ module Amazonka.WellArchitected.Types
     checkSummary_updatedAt,
 
     -- * Choice
-    Choice,
+    Choice (Choice'),
     newChoice,
     choice_additionalResources,
     choice_choiceId,
@@ -173,7 +173,7 @@ module Amazonka.WellArchitected.Types
     choice_title,
 
     -- * ChoiceAnswer
-    ChoiceAnswer,
+    ChoiceAnswer (ChoiceAnswer'),
     newChoiceAnswer,
     choiceAnswer_choiceId,
     choiceAnswer_notes,
@@ -181,34 +181,34 @@ module Amazonka.WellArchitected.Types
     choiceAnswer_status,
 
     -- * ChoiceAnswerSummary
-    ChoiceAnswerSummary,
+    ChoiceAnswerSummary (ChoiceAnswerSummary'),
     newChoiceAnswerSummary,
     choiceAnswerSummary_choiceId,
     choiceAnswerSummary_reason,
     choiceAnswerSummary_status,
 
     -- * ChoiceContent
-    ChoiceContent,
+    ChoiceContent (ChoiceContent'),
     newChoiceContent,
     choiceContent_displayText,
     choiceContent_url,
 
     -- * ChoiceImprovementPlan
-    ChoiceImprovementPlan,
+    ChoiceImprovementPlan (ChoiceImprovementPlan'),
     newChoiceImprovementPlan,
     choiceImprovementPlan_choiceId,
     choiceImprovementPlan_displayText,
     choiceImprovementPlan_improvementPlanUrl,
 
     -- * ChoiceUpdate
-    ChoiceUpdate,
+    ChoiceUpdate (ChoiceUpdate'),
     newChoiceUpdate,
     choiceUpdate_notes,
     choiceUpdate_reason,
     choiceUpdate_status,
 
     -- * ImprovementSummary
-    ImprovementSummary,
+    ImprovementSummary (ImprovementSummary'),
     newImprovementSummary,
     improvementSummary_improvementPlanUrl,
     improvementSummary_improvementPlans,
@@ -218,7 +218,7 @@ module Amazonka.WellArchitected.Types
     improvementSummary_risk,
 
     -- * Lens
-    Lens,
+    Lens (Lens'),
     newLens,
     lens_description,
     lens_lensArn,
@@ -229,7 +229,7 @@ module Amazonka.WellArchitected.Types
     lens_tags,
 
     -- * LensReview
-    LensReview,
+    LensReview (LensReview'),
     newLensReview,
     lensReview_lensAlias,
     lensReview_lensArn,
@@ -243,14 +243,14 @@ module Amazonka.WellArchitected.Types
     lensReview_updatedAt,
 
     -- * LensReviewReport
-    LensReviewReport,
+    LensReviewReport (LensReviewReport'),
     newLensReviewReport,
     lensReviewReport_base64String,
     lensReviewReport_lensAlias,
     lensReviewReport_lensArn,
 
     -- * LensReviewSummary
-    LensReviewSummary,
+    LensReviewSummary (LensReviewSummary'),
     newLensReviewSummary,
     lensReviewSummary_lensAlias,
     lensReviewSummary_lensArn,
@@ -261,7 +261,7 @@ module Amazonka.WellArchitected.Types
     lensReviewSummary_updatedAt,
 
     -- * LensShareSummary
-    LensShareSummary,
+    LensShareSummary (LensShareSummary'),
     newLensShareSummary,
     lensShareSummary_shareId,
     lensShareSummary_sharedWith,
@@ -269,7 +269,7 @@ module Amazonka.WellArchitected.Types
     lensShareSummary_statusMessage,
 
     -- * LensSummary
-    LensSummary,
+    LensSummary (LensSummary'),
     newLensSummary,
     lensSummary_createdAt,
     lensSummary_description,
@@ -283,7 +283,7 @@ module Amazonka.WellArchitected.Types
     lensSummary_updatedAt,
 
     -- * LensUpgradeSummary
-    LensUpgradeSummary,
+    LensUpgradeSummary (LensUpgradeSummary'),
     newLensUpgradeSummary,
     lensUpgradeSummary_currentLensVersion,
     lensUpgradeSummary_latestLensVersion,
@@ -293,7 +293,7 @@ module Amazonka.WellArchitected.Types
     lensUpgradeSummary_workloadName,
 
     -- * Milestone
-    Milestone,
+    Milestone (Milestone'),
     newMilestone,
     milestone_milestoneName,
     milestone_milestoneNumber,
@@ -301,7 +301,7 @@ module Amazonka.WellArchitected.Types
     milestone_workload,
 
     -- * MilestoneSummary
-    MilestoneSummary,
+    MilestoneSummary (MilestoneSummary'),
     newMilestoneSummary,
     milestoneSummary_milestoneName,
     milestoneSummary_milestoneNumber,
@@ -309,13 +309,13 @@ module Amazonka.WellArchitected.Types
     milestoneSummary_workloadSummary,
 
     -- * NotificationSummary
-    NotificationSummary,
+    NotificationSummary (NotificationSummary'),
     newNotificationSummary,
     notificationSummary_lensUpgradeSummary,
     notificationSummary_type,
 
     -- * PillarDifference
-    PillarDifference,
+    PillarDifference (PillarDifference'),
     newPillarDifference,
     pillarDifference_differenceStatus,
     pillarDifference_pillarId,
@@ -323,7 +323,7 @@ module Amazonka.WellArchitected.Types
     pillarDifference_questionDifferences,
 
     -- * PillarReviewSummary
-    PillarReviewSummary,
+    PillarReviewSummary (PillarReviewSummary'),
     newPillarReviewSummary,
     pillarReviewSummary_notes,
     pillarReviewSummary_pillarId,
@@ -331,14 +331,14 @@ module Amazonka.WellArchitected.Types
     pillarReviewSummary_riskCounts,
 
     -- * QuestionDifference
-    QuestionDifference,
+    QuestionDifference (QuestionDifference'),
     newQuestionDifference,
     questionDifference_differenceStatus,
     questionDifference_questionId,
     questionDifference_questionTitle,
 
     -- * ShareInvitation
-    ShareInvitation,
+    ShareInvitation (ShareInvitation'),
     newShareInvitation,
     shareInvitation_lensAlias,
     shareInvitation_lensArn,
@@ -347,7 +347,7 @@ module Amazonka.WellArchitected.Types
     shareInvitation_workloadId,
 
     -- * ShareInvitationSummary
-    ShareInvitationSummary,
+    ShareInvitationSummary (ShareInvitationSummary'),
     newShareInvitationSummary,
     shareInvitationSummary_lensArn,
     shareInvitationSummary_lensName,
@@ -360,12 +360,12 @@ module Amazonka.WellArchitected.Types
     shareInvitationSummary_workloadName,
 
     -- * VersionDifferences
-    VersionDifferences,
+    VersionDifferences (VersionDifferences'),
     newVersionDifferences,
     versionDifferences_pillarDifferences,
 
     -- * Workload
-    Workload,
+    Workload (Workload'),
     newWorkload,
     workload_accountIds,
     workload_applications,
@@ -394,12 +394,12 @@ module Amazonka.WellArchitected.Types
     workload_workloadName,
 
     -- * WorkloadDiscoveryConfig
-    WorkloadDiscoveryConfig,
+    WorkloadDiscoveryConfig (WorkloadDiscoveryConfig'),
     newWorkloadDiscoveryConfig,
     workloadDiscoveryConfig_trustedAdvisorIntegrationStatus,
 
     -- * WorkloadShare
-    WorkloadShare,
+    WorkloadShare (WorkloadShare'),
     newWorkloadShare,
     workloadShare_permissionType,
     workloadShare_shareId,
@@ -410,7 +410,7 @@ module Amazonka.WellArchitected.Types
     workloadShare_workloadName,
 
     -- * WorkloadShareSummary
-    WorkloadShareSummary,
+    WorkloadShareSummary (WorkloadShareSummary'),
     newWorkloadShareSummary,
     workloadShareSummary_permissionType,
     workloadShareSummary_shareId,
@@ -419,7 +419,7 @@ module Amazonka.WellArchitected.Types
     workloadShareSummary_statusMessage,
 
     -- * WorkloadSummary
-    WorkloadSummary,
+    WorkloadSummary (WorkloadSummary'),
     newWorkloadSummary,
     workloadSummary_improvementStatus,
     workloadSummary_lenses,

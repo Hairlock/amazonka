@@ -26,13 +26,13 @@ module Amazonka.ForecastQuery.Types
     _ResourceNotFoundException,
 
     -- * DataPoint
-    DataPoint,
+    DataPoint (DataPoint'),
     newDataPoint,
     dataPoint_timestamp,
     dataPoint_value,
 
     -- * Forecast
-    Forecast,
+    Forecast (Forecast'),
     newForecast,
     forecast_predictions,
   )

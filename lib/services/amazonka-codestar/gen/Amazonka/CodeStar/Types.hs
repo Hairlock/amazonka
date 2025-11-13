@@ -34,29 +34,29 @@ module Amazonka.CodeStar.Types
     _ValidationException,
 
     -- * Code
-    Code,
+    Code (Code'),
     newCode,
     code_source,
     code_destination,
 
     -- * CodeCommitCodeDestination
-    CodeCommitCodeDestination,
+    CodeCommitCodeDestination (CodeCommitCodeDestination'),
     newCodeCommitCodeDestination,
     codeCommitCodeDestination_name,
 
     -- * CodeDestination
-    CodeDestination,
+    CodeDestination (CodeDestination'),
     newCodeDestination,
     codeDestination_codeCommit,
     codeDestination_gitHub,
 
     -- * CodeSource
-    CodeSource,
+    CodeSource (CodeSource'),
     newCodeSource,
     codeSource_s3,
 
     -- * GitHubCodeDestination
-    GitHubCodeDestination,
+    GitHubCodeDestination (GitHubCodeDestination'),
     newGitHubCodeDestination,
     gitHubCodeDestination_description,
     gitHubCodeDestination_name,
@@ -67,49 +67,49 @@ module Amazonka.CodeStar.Types
     gitHubCodeDestination_token,
 
     -- * ProjectStatus
-    ProjectStatus,
+    ProjectStatus (ProjectStatus'),
     newProjectStatus,
     projectStatus_reason,
     projectStatus_state,
 
     -- * ProjectSummary
-    ProjectSummary,
+    ProjectSummary (ProjectSummary'),
     newProjectSummary,
     projectSummary_projectArn,
     projectSummary_projectId,
 
     -- * Resource
-    Resource,
+    Resource (Resource'),
     newResource,
     resource_id,
 
     -- * S3Location
-    S3Location,
+    S3Location (S3Location'),
     newS3Location,
     s3Location_bucketKey,
     s3Location_bucketName,
 
     -- * TeamMember
-    TeamMember,
+    TeamMember (TeamMember'),
     newTeamMember,
     teamMember_remoteAccessAllowed,
     teamMember_userArn,
     teamMember_projectRole,
 
     -- * Toolchain
-    Toolchain,
+    Toolchain (Toolchain'),
     newToolchain,
     toolchain_roleArn,
     toolchain_stackParameters,
     toolchain_source,
 
     -- * ToolchainSource
-    ToolchainSource,
+    ToolchainSource (ToolchainSource'),
     newToolchainSource,
     toolchainSource_s3,
 
     -- * UserProfileSummary
-    UserProfileSummary,
+    UserProfileSummary (UserProfileSummary'),
     newUserProfileSummary,
     userProfileSummary_displayName,
     userProfileSummary_emailAddress,

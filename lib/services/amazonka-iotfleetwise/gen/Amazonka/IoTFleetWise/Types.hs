@@ -31,52 +31,52 @@ module Amazonka.IoTFleetWise.Types
     _ValidationException,
 
     -- * CampaignStatus
-    CampaignStatus,
+    CampaignStatus (CampaignStatus'),
 
     -- * Compression
-    Compression,
+    Compression (Compression'),
 
     -- * DiagnosticsMode
-    DiagnosticsMode,
+    DiagnosticsMode (DiagnosticsMode'),
 
     -- * LogType
-    LogType,
+    LogType (LogType'),
 
     -- * ManifestStatus
-    ManifestStatus,
+    ManifestStatus (ManifestStatus'),
 
     -- * NetworkInterfaceType
-    NetworkInterfaceType,
+    NetworkInterfaceType (NetworkInterfaceType'),
 
     -- * NodeDataType
-    NodeDataType,
+    NodeDataType (NodeDataType'),
 
     -- * RegistrationStatus
-    RegistrationStatus,
+    RegistrationStatus (RegistrationStatus'),
 
     -- * SignalDecoderType
-    SignalDecoderType,
+    SignalDecoderType (SignalDecoderType'),
 
     -- * SpoolingMode
-    SpoolingMode,
+    SpoolingMode (SpoolingMode'),
 
     -- * TriggerMode
-    TriggerMode,
+    TriggerMode (TriggerMode'),
 
     -- * UpdateCampaignAction
-    UpdateCampaignAction,
+    UpdateCampaignAction (UpdateCampaignAction'),
 
     -- * UpdateMode
-    UpdateMode,
+    UpdateMode (UpdateMode'),
 
     -- * VehicleAssociationBehavior
-    VehicleAssociationBehavior,
+    VehicleAssociationBehavior (VehicleAssociationBehavior'),
 
     -- * VehicleState
-    VehicleState,
+    VehicleState (VehicleState'),
 
     -- * Actuator
-    Actuator,
+    Actuator (Actuator'),
     newActuator,
     actuator_allowedValues,
     actuator_assignedValue,
@@ -88,7 +88,7 @@ module Amazonka.IoTFleetWise.Types
     actuator_dataType,
 
     -- * Attribute
-    Attribute,
+    Attribute (Attribute'),
     newAttribute,
     attribute_allowedValues,
     attribute_assignedValue,
@@ -101,13 +101,13 @@ module Amazonka.IoTFleetWise.Types
     attribute_dataType,
 
     -- * Branch
-    Branch,
+    Branch (Branch'),
     newBranch,
     branch_description,
     branch_fullyQualifiedName,
 
     -- * CampaignSummary
-    CampaignSummary,
+    CampaignSummary (CampaignSummary'),
     newCampaignSummary,
     campaignSummary_arn,
     campaignSummary_description,
@@ -119,21 +119,21 @@ module Amazonka.IoTFleetWise.Types
     campaignSummary_lastModificationTime,
 
     -- * CanDbcDefinition
-    CanDbcDefinition,
+    CanDbcDefinition (CanDbcDefinition'),
     newCanDbcDefinition,
     canDbcDefinition_signalsMap,
     canDbcDefinition_networkInterface,
     canDbcDefinition_canDbcFiles,
 
     -- * CanInterface
-    CanInterface,
+    CanInterface (CanInterface'),
     newCanInterface,
     canInterface_protocolName,
     canInterface_protocolVersion,
     canInterface_name,
 
     -- * CanSignal
-    CanSignal,
+    CanSignal (CanSignal'),
     newCanSignal,
     canSignal_name,
     canSignal_messageId,
@@ -145,19 +145,19 @@ module Amazonka.IoTFleetWise.Types
     canSignal_length,
 
     -- * CloudWatchLogDeliveryOptions
-    CloudWatchLogDeliveryOptions,
+    CloudWatchLogDeliveryOptions (CloudWatchLogDeliveryOptions'),
     newCloudWatchLogDeliveryOptions,
     cloudWatchLogDeliveryOptions_logGroupName,
     cloudWatchLogDeliveryOptions_logType,
 
     -- * CollectionScheme
-    CollectionScheme,
+    CollectionScheme (CollectionScheme'),
     newCollectionScheme,
     collectionScheme_conditionBasedCollectionScheme,
     collectionScheme_timeBasedCollectionScheme,
 
     -- * ConditionBasedCollectionScheme
-    ConditionBasedCollectionScheme,
+    ConditionBasedCollectionScheme (ConditionBasedCollectionScheme'),
     newConditionBasedCollectionScheme,
     conditionBasedCollectionScheme_conditionLanguageVersion,
     conditionBasedCollectionScheme_minimumTriggerIntervalMs,
@@ -165,14 +165,14 @@ module Amazonka.IoTFleetWise.Types
     conditionBasedCollectionScheme_expression,
 
     -- * CreateVehicleError
-    CreateVehicleError,
+    CreateVehicleError (CreateVehicleError'),
     newCreateVehicleError,
     createVehicleError_code,
     createVehicleError_message,
     createVehicleError_vehicleName,
 
     -- * CreateVehicleRequestItem
-    CreateVehicleRequestItem,
+    CreateVehicleRequestItem (CreateVehicleRequestItem'),
     newCreateVehicleRequestItem,
     createVehicleRequestItem_associationBehavior,
     createVehicleRequestItem_attributes,
@@ -182,14 +182,14 @@ module Amazonka.IoTFleetWise.Types
     createVehicleRequestItem_decoderManifestArn,
 
     -- * CreateVehicleResponseItem
-    CreateVehicleResponseItem,
+    CreateVehicleResponseItem (CreateVehicleResponseItem'),
     newCreateVehicleResponseItem,
     createVehicleResponseItem_arn,
     createVehicleResponseItem_thingArn,
     createVehicleResponseItem_vehicleName,
 
     -- * DecoderManifestSummary
-    DecoderManifestSummary,
+    DecoderManifestSummary (DecoderManifestSummary'),
     newDecoderManifestSummary,
     decoderManifestSummary_arn,
     decoderManifestSummary_description,
@@ -200,7 +200,7 @@ module Amazonka.IoTFleetWise.Types
     decoderManifestSummary_lastModificationTime,
 
     -- * FleetSummary
-    FleetSummary,
+    FleetSummary (FleetSummary'),
     newFleetSummary,
     fleetSummary_description,
     fleetSummary_lastModificationTime,
@@ -210,24 +210,24 @@ module Amazonka.IoTFleetWise.Types
     fleetSummary_creationTime,
 
     -- * FormattedVss
-    FormattedVss,
+    FormattedVss (FormattedVss'),
     newFormattedVss,
     formattedVss_vssJson,
 
     -- * IamRegistrationResponse
-    IamRegistrationResponse,
+    IamRegistrationResponse (IamRegistrationResponse'),
     newIamRegistrationResponse,
     iamRegistrationResponse_errorMessage,
     iamRegistrationResponse_roleArn,
     iamRegistrationResponse_registrationStatus,
 
     -- * IamResources
-    IamResources,
+    IamResources (IamResources'),
     newIamResources,
     iamResources_roleArn,
 
     -- * ModelManifestSummary
-    ModelManifestSummary,
+    ModelManifestSummary (ModelManifestSummary'),
     newModelManifestSummary,
     modelManifestSummary_arn,
     modelManifestSummary_description,
@@ -238,12 +238,12 @@ module Amazonka.IoTFleetWise.Types
     modelManifestSummary_lastModificationTime,
 
     -- * NetworkFileDefinition
-    NetworkFileDefinition,
+    NetworkFileDefinition (NetworkFileDefinition'),
     newNetworkFileDefinition,
     networkFileDefinition_canDbc,
 
     -- * NetworkInterface
-    NetworkInterface,
+    NetworkInterface (NetworkInterface'),
     newNetworkInterface,
     networkInterface_canInterface,
     networkInterface_obdInterface,
@@ -251,7 +251,7 @@ module Amazonka.IoTFleetWise.Types
     networkInterface_type,
 
     -- * Node
-    Node,
+    Node (Node'),
     newNode,
     node_actuator,
     node_attribute,
@@ -259,7 +259,7 @@ module Amazonka.IoTFleetWise.Types
     node_sensor,
 
     -- * NodeCounts
-    NodeCounts,
+    NodeCounts (NodeCounts'),
     newNodeCounts,
     nodeCounts_totalActuators,
     nodeCounts_totalAttributes,
@@ -268,7 +268,7 @@ module Amazonka.IoTFleetWise.Types
     nodeCounts_totalSensors,
 
     -- * ObdInterface
-    ObdInterface,
+    ObdInterface (ObdInterface'),
     newObdInterface,
     obdInterface_dtcRequestIntervalSeconds,
     obdInterface_hasTransmissionEcu,
@@ -279,7 +279,7 @@ module Amazonka.IoTFleetWise.Types
     obdInterface_requestMessageId,
 
     -- * ObdSignal
-    ObdSignal,
+    ObdSignal (ObdSignal'),
     newObdSignal,
     obdSignal_bitMaskLength,
     obdSignal_bitRightShift,
@@ -292,7 +292,7 @@ module Amazonka.IoTFleetWise.Types
     obdSignal_byteLength,
 
     -- * Sensor
-    Sensor,
+    Sensor (Sensor'),
     newSensor,
     sensor_allowedValues,
     sensor_description,
@@ -303,7 +303,7 @@ module Amazonka.IoTFleetWise.Types
     sensor_dataType,
 
     -- * SignalCatalogSummary
-    SignalCatalogSummary,
+    SignalCatalogSummary (SignalCatalogSummary'),
     newSignalCatalogSummary,
     signalCatalogSummary_arn,
     signalCatalogSummary_creationTime,
@@ -311,7 +311,7 @@ module Amazonka.IoTFleetWise.Types
     signalCatalogSummary_name,
 
     -- * SignalDecoder
-    SignalDecoder,
+    SignalDecoder (SignalDecoder'),
     newSignalDecoder,
     signalDecoder_canSignal,
     signalDecoder_obdSignal,
@@ -320,25 +320,25 @@ module Amazonka.IoTFleetWise.Types
     signalDecoder_interfaceId,
 
     -- * SignalInformation
-    SignalInformation,
+    SignalInformation (SignalInformation'),
     newSignalInformation,
     signalInformation_maxSampleCount,
     signalInformation_minimumSamplingIntervalMs,
     signalInformation_name,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
 
     -- * TimeBasedCollectionScheme
-    TimeBasedCollectionScheme,
+    TimeBasedCollectionScheme (TimeBasedCollectionScheme'),
     newTimeBasedCollectionScheme,
     timeBasedCollectionScheme_periodMs,
 
     -- * TimestreamRegistrationResponse
-    TimestreamRegistrationResponse,
+    TimestreamRegistrationResponse (TimestreamRegistrationResponse'),
     newTimestreamRegistrationResponse,
     timestreamRegistrationResponse_errorMessage,
     timestreamRegistrationResponse_timestreamDatabaseArn,
@@ -348,20 +348,20 @@ module Amazonka.IoTFleetWise.Types
     timestreamRegistrationResponse_registrationStatus,
 
     -- * TimestreamResources
-    TimestreamResources,
+    TimestreamResources (TimestreamResources'),
     newTimestreamResources,
     timestreamResources_timestreamDatabaseName,
     timestreamResources_timestreamTableName,
 
     -- * UpdateVehicleError
-    UpdateVehicleError,
+    UpdateVehicleError (UpdateVehicleError'),
     newUpdateVehicleError,
     updateVehicleError_code,
     updateVehicleError_message,
     updateVehicleError_vehicleName,
 
     -- * UpdateVehicleRequestItem
-    UpdateVehicleRequestItem,
+    UpdateVehicleRequestItem (UpdateVehicleRequestItem'),
     newUpdateVehicleRequestItem,
     updateVehicleRequestItem_attributeUpdateMode,
     updateVehicleRequestItem_attributes,
@@ -370,20 +370,20 @@ module Amazonka.IoTFleetWise.Types
     updateVehicleRequestItem_vehicleName,
 
     -- * UpdateVehicleResponseItem
-    UpdateVehicleResponseItem,
+    UpdateVehicleResponseItem (UpdateVehicleResponseItem'),
     newUpdateVehicleResponseItem,
     updateVehicleResponseItem_arn,
     updateVehicleResponseItem_vehicleName,
 
     -- * VehicleStatus
-    VehicleStatus,
+    VehicleStatus (VehicleStatus'),
     newVehicleStatus,
     vehicleStatus_campaignName,
     vehicleStatus_status,
     vehicleStatus_vehicleName,
 
     -- * VehicleSummary
-    VehicleSummary,
+    VehicleSummary (VehicleSummary'),
     newVehicleSummary,
     vehicleSummary_vehicleName,
     vehicleSummary_arn,

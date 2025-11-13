@@ -31,13 +31,13 @@ module Amazonka.BackupStorage.Types
     _ThrottlingException,
 
     -- * DataChecksumAlgorithm
-    DataChecksumAlgorithm,
+    DataChecksumAlgorithm (DataChecksumAlgorithm'),
 
     -- * SummaryChecksumAlgorithm
-    SummaryChecksumAlgorithm,
+    SummaryChecksumAlgorithm (SummaryChecksumAlgorithm'),
 
     -- * BackupObject
-    BackupObject,
+    BackupObject (BackupObject'),
     newBackupObject,
     backupObject_chunksCount,
     backupObject_metadataString,
@@ -47,7 +47,7 @@ module Amazonka.BackupStorage.Types
     backupObject_objectToken,
 
     -- * Chunk
-    Chunk,
+    Chunk (Chunk'),
     newChunk,
     chunk_index,
     chunk_length,

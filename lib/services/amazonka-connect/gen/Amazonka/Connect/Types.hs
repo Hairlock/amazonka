@@ -42,177 +42,177 @@ module Amazonka.Connect.Types
     _UserNotFoundException,
 
     -- * ActionType
-    ActionType,
+    ActionType (ActionType'),
 
     -- * AgentStatusState
-    AgentStatusState,
+    AgentStatusState (AgentStatusState'),
 
     -- * AgentStatusType
-    AgentStatusType,
+    AgentStatusType (AgentStatusType'),
 
     -- * Channel
-    Channel,
+    Channel (Channel'),
 
     -- * Comparison
-    Comparison,
+    Comparison (Comparison'),
 
     -- * ContactFlowModuleState
-    ContactFlowModuleState,
+    ContactFlowModuleState (ContactFlowModuleState'),
 
     -- * ContactFlowModuleStatus
-    ContactFlowModuleStatus,
+    ContactFlowModuleStatus (ContactFlowModuleStatus'),
 
     -- * ContactFlowState
-    ContactFlowState,
+    ContactFlowState (ContactFlowState'),
 
     -- * ContactFlowType
-    ContactFlowType,
+    ContactFlowType (ContactFlowType'),
 
     -- * ContactInitiationMethod
-    ContactInitiationMethod,
+    ContactInitiationMethod (ContactInitiationMethod'),
 
     -- * ContactState
-    ContactState,
+    ContactState (ContactState'),
 
     -- * CurrentMetricName
-    CurrentMetricName,
+    CurrentMetricName (CurrentMetricName'),
 
     -- * DirectoryType
-    DirectoryType,
+    DirectoryType (DirectoryType'),
 
     -- * EncryptionType
-    EncryptionType,
+    EncryptionType (EncryptionType'),
 
     -- * EventSourceName
-    EventSourceName,
+    EventSourceName (EventSourceName'),
 
     -- * Grouping
-    Grouping,
+    Grouping (Grouping'),
 
     -- * HierarchyGroupMatchType
-    HierarchyGroupMatchType,
+    HierarchyGroupMatchType (HierarchyGroupMatchType'),
 
     -- * HistoricalMetricName
-    HistoricalMetricName,
+    HistoricalMetricName (HistoricalMetricName'),
 
     -- * HoursOfOperationDays
-    HoursOfOperationDays,
+    HoursOfOperationDays (HoursOfOperationDays'),
 
     -- * InstanceAttributeType
-    InstanceAttributeType,
+    InstanceAttributeType (InstanceAttributeType'),
 
     -- * InstanceStatus
-    InstanceStatus,
+    InstanceStatus (InstanceStatus'),
 
     -- * InstanceStorageResourceType
-    InstanceStorageResourceType,
+    InstanceStorageResourceType (InstanceStorageResourceType'),
 
     -- * IntegrationType
-    IntegrationType,
+    IntegrationType (IntegrationType'),
 
     -- * LexVersion
-    LexVersion,
+    LexVersion (LexVersion'),
 
     -- * MonitorCapability
-    MonitorCapability,
+    MonitorCapability (MonitorCapability'),
 
     -- * NotificationContentType
-    NotificationContentType,
+    NotificationContentType (NotificationContentType'),
 
     -- * NotificationDeliveryType
-    NotificationDeliveryType,
+    NotificationDeliveryType (NotificationDeliveryType'),
 
     -- * ParticipantTimerAction
-    ParticipantTimerAction,
+    ParticipantTimerAction (ParticipantTimerAction'),
 
     -- * ParticipantTimerType
-    ParticipantTimerType,
+    ParticipantTimerType (ParticipantTimerType'),
 
     -- * PhoneNumberCountryCode
-    PhoneNumberCountryCode,
+    PhoneNumberCountryCode (PhoneNumberCountryCode'),
 
     -- * PhoneNumberType
-    PhoneNumberType,
+    PhoneNumberType (PhoneNumberType'),
 
     -- * PhoneNumberWorkflowStatus
-    PhoneNumberWorkflowStatus,
+    PhoneNumberWorkflowStatus (PhoneNumberWorkflowStatus'),
 
     -- * PhoneType
-    PhoneType,
+    PhoneType (PhoneType'),
 
     -- * QueueStatus
-    QueueStatus,
+    QueueStatus (QueueStatus'),
 
     -- * QueueType
-    QueueType,
+    QueueType (QueueType'),
 
     -- * QuickConnectType
-    QuickConnectType,
+    QuickConnectType (QuickConnectType'),
 
     -- * ReferenceStatus
-    ReferenceStatus,
+    ReferenceStatus (ReferenceStatus'),
 
     -- * ReferenceType
-    ReferenceType,
+    ReferenceType (ReferenceType'),
 
     -- * RulePublishStatus
-    RulePublishStatus,
+    RulePublishStatus (RulePublishStatus'),
 
     -- * SearchableQueueType
-    SearchableQueueType,
+    SearchableQueueType (SearchableQueueType'),
 
     -- * SortOrder
-    SortOrder,
+    SortOrder (SortOrder'),
 
     -- * SourceType
-    SourceType,
+    SourceType (SourceType'),
 
     -- * Statistic
-    Statistic,
+    Statistic (Statistic'),
 
     -- * StorageType
-    StorageType,
+    StorageType (StorageType'),
 
     -- * StringComparisonType
-    StringComparisonType,
+    StringComparisonType (StringComparisonType'),
 
     -- * TaskTemplateFieldType
-    TaskTemplateFieldType,
+    TaskTemplateFieldType (TaskTemplateFieldType'),
 
     -- * TaskTemplateStatus
-    TaskTemplateStatus,
+    TaskTemplateStatus (TaskTemplateStatus'),
 
     -- * TimerEligibleParticipantRoles
-    TimerEligibleParticipantRoles,
+    TimerEligibleParticipantRoles (TimerEligibleParticipantRoles'),
 
     -- * TrafficDistributionGroupStatus
-    TrafficDistributionGroupStatus,
+    TrafficDistributionGroupStatus (TrafficDistributionGroupStatus'),
 
     -- * TrafficType
-    TrafficType,
+    TrafficType (TrafficType'),
 
     -- * Unit
-    Unit,
+    Unit (Unit'),
 
     -- * UseCaseType
-    UseCaseType,
+    UseCaseType (UseCaseType'),
 
     -- * VocabularyLanguageCode
-    VocabularyLanguageCode,
+    VocabularyLanguageCode (VocabularyLanguageCode'),
 
     -- * VocabularyState
-    VocabularyState,
+    VocabularyState (VocabularyState'),
 
     -- * VoiceRecordingTrack
-    VoiceRecordingTrack,
+    VoiceRecordingTrack (VoiceRecordingTrack'),
 
     -- * ActionSummary
-    ActionSummary,
+    ActionSummary (ActionSummary'),
     newActionSummary,
     actionSummary_actionType,
 
     -- * AgentContactReference
-    AgentContactReference,
+    AgentContactReference (AgentContactReference'),
     newAgentContactReference,
     agentContactReference_agentContactState,
     agentContactReference_channel,
@@ -223,13 +223,13 @@ module Amazonka.Connect.Types
     agentContactReference_stateStartTimestamp,
 
     -- * AgentInfo
-    AgentInfo,
+    AgentInfo (AgentInfo'),
     newAgentInfo,
     agentInfo_connectedToAgentTimestamp,
     agentInfo_id,
 
     -- * AgentStatus
-    AgentStatus,
+    AgentStatus (AgentStatus'),
     newAgentStatus,
     agentStatus_agentStatusARN,
     agentStatus_agentStatusId,
@@ -241,14 +241,14 @@ module Amazonka.Connect.Types
     agentStatus_type,
 
     -- * AgentStatusReference
-    AgentStatusReference,
+    AgentStatusReference (AgentStatusReference'),
     newAgentStatusReference,
     agentStatusReference_statusArn,
     agentStatusReference_statusName,
     agentStatusReference_statusStartTimestamp,
 
     -- * AgentStatusSummary
-    AgentStatusSummary,
+    AgentStatusSummary (AgentStatusSummary'),
     newAgentStatusSummary,
     agentStatusSummary_arn,
     agentStatusSummary_id,
@@ -256,53 +256,53 @@ module Amazonka.Connect.Types
     agentStatusSummary_type,
 
     -- * AnswerMachineDetectionConfig
-    AnswerMachineDetectionConfig,
+    AnswerMachineDetectionConfig (AnswerMachineDetectionConfig'),
     newAnswerMachineDetectionConfig,
     answerMachineDetectionConfig_awaitAnswerMachinePrompt,
     answerMachineDetectionConfig_enableAnswerMachineDetection,
 
     -- * AssignContactCategoryActionDefinition
-    AssignContactCategoryActionDefinition,
+    AssignContactCategoryActionDefinition (AssignContactCategoryActionDefinition'),
     newAssignContactCategoryActionDefinition,
 
     -- * AttachmentReference
-    AttachmentReference,
+    AttachmentReference (AttachmentReference'),
     newAttachmentReference,
     attachmentReference_name,
     attachmentReference_status,
     attachmentReference_value,
 
     -- * Attribute
-    Attribute,
+    Attribute (Attribute'),
     newAttribute,
     attribute_attributeType,
     attribute_value,
 
     -- * AvailableNumberSummary
-    AvailableNumberSummary,
+    AvailableNumberSummary (AvailableNumberSummary'),
     newAvailableNumberSummary,
     availableNumberSummary_phoneNumber,
     availableNumberSummary_phoneNumberCountryCode,
     availableNumberSummary_phoneNumberType,
 
     -- * ChatMessage
-    ChatMessage,
+    ChatMessage (ChatMessage'),
     newChatMessage,
     chatMessage_contentType,
     chatMessage_content,
 
     -- * ChatParticipantRoleConfig
-    ChatParticipantRoleConfig,
+    ChatParticipantRoleConfig (ChatParticipantRoleConfig'),
     newChatParticipantRoleConfig,
     chatParticipantRoleConfig_participantTimerConfigList,
 
     -- * ChatStreamingConfiguration
-    ChatStreamingConfiguration,
+    ChatStreamingConfiguration (ChatStreamingConfiguration'),
     newChatStreamingConfiguration,
     chatStreamingConfiguration_streamingEndpointArn,
 
     -- * ClaimedPhoneNumberSummary
-    ClaimedPhoneNumberSummary,
+    ClaimedPhoneNumberSummary (ClaimedPhoneNumberSummary'),
     newClaimedPhoneNumberSummary,
     claimedPhoneNumberSummary_phoneNumber,
     claimedPhoneNumberSummary_phoneNumberArn,
@@ -315,7 +315,7 @@ module Amazonka.Connect.Types
     claimedPhoneNumberSummary_targetArn,
 
     -- * Contact
-    Contact,
+    Contact (Contact'),
     newContact,
     contact_agentInfo,
     contact_arn,
@@ -333,12 +333,12 @@ module Amazonka.Connect.Types
     contact_scheduledTimestamp,
 
     -- * ContactFilter
-    ContactFilter,
+    ContactFilter (ContactFilter'),
     newContactFilter,
     contactFilter_contactStates,
 
     -- * ContactFlow
-    ContactFlow,
+    ContactFlow (ContactFlow'),
     newContactFlow,
     contactFlow_arn,
     contactFlow_content,
@@ -350,7 +350,7 @@ module Amazonka.Connect.Types
     contactFlow_type,
 
     -- * ContactFlowModule
-    ContactFlowModule,
+    ContactFlowModule (ContactFlowModule'),
     newContactFlowModule,
     contactFlowModule_arn,
     contactFlowModule_content,
@@ -362,7 +362,7 @@ module Amazonka.Connect.Types
     contactFlowModule_tags,
 
     -- * ContactFlowModuleSummary
-    ContactFlowModuleSummary,
+    ContactFlowModuleSummary (ContactFlowModuleSummary'),
     newContactFlowModuleSummary,
     contactFlowModuleSummary_arn,
     contactFlowModuleSummary_id,
@@ -370,7 +370,7 @@ module Amazonka.Connect.Types
     contactFlowModuleSummary_state,
 
     -- * ContactFlowSummary
-    ContactFlowSummary,
+    ContactFlowSummary (ContactFlowSummary'),
     newContactFlowSummary,
     contactFlowSummary_arn,
     contactFlowSummary_contactFlowState,
@@ -379,14 +379,14 @@ module Amazonka.Connect.Types
     contactFlowSummary_name,
 
     -- * ControlPlaneTagFilter
-    ControlPlaneTagFilter,
+    ControlPlaneTagFilter (ControlPlaneTagFilter'),
     newControlPlaneTagFilter,
     controlPlaneTagFilter_andConditions,
     controlPlaneTagFilter_orConditions,
     controlPlaneTagFilter_tagCondition,
 
     -- * Credentials
-    Credentials,
+    Credentials (Credentials'),
     newCredentials,
     credentials_accessToken,
     credentials_accessTokenExpiration,
@@ -394,37 +394,37 @@ module Amazonka.Connect.Types
     credentials_refreshTokenExpiration,
 
     -- * CurrentMetric
-    CurrentMetric,
+    CurrentMetric (CurrentMetric'),
     newCurrentMetric,
     currentMetric_name,
     currentMetric_unit,
 
     -- * CurrentMetricData
-    CurrentMetricData,
+    CurrentMetricData (CurrentMetricData'),
     newCurrentMetricData,
     currentMetricData_metric,
     currentMetricData_value,
 
     -- * CurrentMetricResult
-    CurrentMetricResult,
+    CurrentMetricResult (CurrentMetricResult'),
     newCurrentMetricResult,
     currentMetricResult_collections,
     currentMetricResult_dimensions,
 
     -- * CurrentMetricSortCriteria
-    CurrentMetricSortCriteria,
+    CurrentMetricSortCriteria (CurrentMetricSortCriteria'),
     newCurrentMetricSortCriteria,
     currentMetricSortCriteria_sortByMetric,
     currentMetricSortCriteria_sortOrder,
 
     -- * DateReference
-    DateReference,
+    DateReference (DateReference'),
     newDateReference,
     dateReference_name,
     dateReference_value,
 
     -- * DefaultVocabulary
-    DefaultVocabulary,
+    DefaultVocabulary (DefaultVocabulary'),
     newDefaultVocabulary,
     defaultVocabulary_instanceId,
     defaultVocabulary_languageCode,
@@ -432,44 +432,44 @@ module Amazonka.Connect.Types
     defaultVocabulary_vocabularyName,
 
     -- * Dimensions
-    Dimensions,
+    Dimensions (Dimensions'),
     newDimensions,
     dimensions_channel,
     dimensions_queue,
     dimensions_routingProfile,
 
     -- * Distribution
-    Distribution,
+    Distribution (Distribution'),
     newDistribution,
     distribution_region,
     distribution_percentage,
 
     -- * EmailReference
-    EmailReference,
+    EmailReference (EmailReference'),
     newEmailReference,
     emailReference_name,
     emailReference_value,
 
     -- * EncryptionConfig
-    EncryptionConfig,
+    EncryptionConfig (EncryptionConfig'),
     newEncryptionConfig,
     encryptionConfig_encryptionType,
     encryptionConfig_keyId,
 
     -- * EventBridgeActionDefinition
-    EventBridgeActionDefinition,
+    EventBridgeActionDefinition (EventBridgeActionDefinition'),
     newEventBridgeActionDefinition,
     eventBridgeActionDefinition_name,
 
     -- * Filters
-    Filters,
+    Filters (Filters'),
     newFilters,
     filters_channels,
     filters_queues,
     filters_routingProfiles,
 
     -- * HierarchyGroup
-    HierarchyGroup,
+    HierarchyGroup (HierarchyGroup'),
     newHierarchyGroup,
     hierarchyGroup_arn,
     hierarchyGroup_hierarchyPath,
@@ -479,38 +479,38 @@ module Amazonka.Connect.Types
     hierarchyGroup_tags,
 
     -- * HierarchyGroupCondition
-    HierarchyGroupCondition,
+    HierarchyGroupCondition (HierarchyGroupCondition'),
     newHierarchyGroupCondition,
     hierarchyGroupCondition_hierarchyGroupMatchType,
     hierarchyGroupCondition_value,
 
     -- * HierarchyGroupSummary
-    HierarchyGroupSummary,
+    HierarchyGroupSummary (HierarchyGroupSummary'),
     newHierarchyGroupSummary,
     hierarchyGroupSummary_arn,
     hierarchyGroupSummary_id,
     hierarchyGroupSummary_name,
 
     -- * HierarchyGroupSummaryReference
-    HierarchyGroupSummaryReference,
+    HierarchyGroupSummaryReference (HierarchyGroupSummaryReference'),
     newHierarchyGroupSummaryReference,
     hierarchyGroupSummaryReference_arn,
     hierarchyGroupSummaryReference_id,
 
     -- * HierarchyLevel
-    HierarchyLevel,
+    HierarchyLevel (HierarchyLevel'),
     newHierarchyLevel,
     hierarchyLevel_arn,
     hierarchyLevel_id,
     hierarchyLevel_name,
 
     -- * HierarchyLevelUpdate
-    HierarchyLevelUpdate,
+    HierarchyLevelUpdate (HierarchyLevelUpdate'),
     newHierarchyLevelUpdate,
     hierarchyLevelUpdate_name,
 
     -- * HierarchyPath
-    HierarchyPath,
+    HierarchyPath (HierarchyPath'),
     newHierarchyPath,
     hierarchyPath_levelFive,
     hierarchyPath_levelFour,
@@ -519,7 +519,7 @@ module Amazonka.Connect.Types
     hierarchyPath_levelTwo,
 
     -- * HierarchyPathReference
-    HierarchyPathReference,
+    HierarchyPathReference (HierarchyPathReference'),
     newHierarchyPathReference,
     hierarchyPathReference_levelFive,
     hierarchyPathReference_levelFour,
@@ -528,7 +528,7 @@ module Amazonka.Connect.Types
     hierarchyPathReference_levelTwo,
 
     -- * HierarchyStructure
-    HierarchyStructure,
+    HierarchyStructure (HierarchyStructure'),
     newHierarchyStructure,
     hierarchyStructure_levelFive,
     hierarchyStructure_levelFour,
@@ -537,7 +537,7 @@ module Amazonka.Connect.Types
     hierarchyStructure_levelTwo,
 
     -- * HierarchyStructureUpdate
-    HierarchyStructureUpdate,
+    HierarchyStructureUpdate (HierarchyStructureUpdate'),
     newHierarchyStructureUpdate,
     hierarchyStructureUpdate_levelFive,
     hierarchyStructureUpdate_levelFour,
@@ -546,7 +546,7 @@ module Amazonka.Connect.Types
     hierarchyStructureUpdate_levelTwo,
 
     -- * HistoricalMetric
-    HistoricalMetric,
+    HistoricalMetric (HistoricalMetric'),
     newHistoricalMetric,
     historicalMetric_name,
     historicalMetric_statistic,
@@ -554,19 +554,19 @@ module Amazonka.Connect.Types
     historicalMetric_unit,
 
     -- * HistoricalMetricData
-    HistoricalMetricData,
+    HistoricalMetricData (HistoricalMetricData'),
     newHistoricalMetricData,
     historicalMetricData_metric,
     historicalMetricData_value,
 
     -- * HistoricalMetricResult
-    HistoricalMetricResult,
+    HistoricalMetricResult (HistoricalMetricResult'),
     newHistoricalMetricResult,
     historicalMetricResult_collections,
     historicalMetricResult_dimensions,
 
     -- * HoursOfOperation
-    HoursOfOperation,
+    HoursOfOperation (HoursOfOperation'),
     newHoursOfOperation,
     hoursOfOperation_config,
     hoursOfOperation_description,
@@ -577,27 +577,27 @@ module Amazonka.Connect.Types
     hoursOfOperation_timeZone,
 
     -- * HoursOfOperationConfig
-    HoursOfOperationConfig,
+    HoursOfOperationConfig (HoursOfOperationConfig'),
     newHoursOfOperationConfig,
     hoursOfOperationConfig_day,
     hoursOfOperationConfig_startTime,
     hoursOfOperationConfig_endTime,
 
     -- * HoursOfOperationSummary
-    HoursOfOperationSummary,
+    HoursOfOperationSummary (HoursOfOperationSummary'),
     newHoursOfOperationSummary,
     hoursOfOperationSummary_arn,
     hoursOfOperationSummary_id,
     hoursOfOperationSummary_name,
 
     -- * HoursOfOperationTimeSlice
-    HoursOfOperationTimeSlice,
+    HoursOfOperationTimeSlice (HoursOfOperationTimeSlice'),
     newHoursOfOperationTimeSlice,
     hoursOfOperationTimeSlice_hours,
     hoursOfOperationTimeSlice_minutes,
 
     -- * Instance
-    Instance,
+    Instance (Instance'),
     newInstance,
     instance_arn,
     instance_createdTime,
@@ -611,12 +611,12 @@ module Amazonka.Connect.Types
     instance_statusReason,
 
     -- * InstanceStatusReason
-    InstanceStatusReason,
+    InstanceStatusReason (InstanceStatusReason'),
     newInstanceStatusReason,
     instanceStatusReason_message,
 
     -- * InstanceStorageConfig
-    InstanceStorageConfig,
+    InstanceStorageConfig (InstanceStorageConfig'),
     newInstanceStorageConfig,
     instanceStorageConfig_associationId,
     instanceStorageConfig_kinesisFirehoseConfig,
@@ -626,7 +626,7 @@ module Amazonka.Connect.Types
     instanceStorageConfig_storageType,
 
     -- * InstanceSummary
-    InstanceSummary,
+    InstanceSummary (InstanceSummary'),
     newInstanceSummary,
     instanceSummary_arn,
     instanceSummary_createdTime,
@@ -639,7 +639,7 @@ module Amazonka.Connect.Types
     instanceSummary_serviceRole,
 
     -- * IntegrationAssociationSummary
-    IntegrationAssociationSummary,
+    IntegrationAssociationSummary (IntegrationAssociationSummary'),
     newIntegrationAssociationSummary,
     integrationAssociationSummary_instanceId,
     integrationAssociationSummary_integrationArn,
@@ -651,46 +651,46 @@ module Amazonka.Connect.Types
     integrationAssociationSummary_sourceType,
 
     -- * InvisibleFieldInfo
-    InvisibleFieldInfo,
+    InvisibleFieldInfo (InvisibleFieldInfo'),
     newInvisibleFieldInfo,
     invisibleFieldInfo_id,
 
     -- * KinesisFirehoseConfig
-    KinesisFirehoseConfig,
+    KinesisFirehoseConfig (KinesisFirehoseConfig'),
     newKinesisFirehoseConfig,
     kinesisFirehoseConfig_firehoseArn,
 
     -- * KinesisStreamConfig
-    KinesisStreamConfig,
+    KinesisStreamConfig (KinesisStreamConfig'),
     newKinesisStreamConfig,
     kinesisStreamConfig_streamArn,
 
     -- * KinesisVideoStreamConfig
-    KinesisVideoStreamConfig,
+    KinesisVideoStreamConfig (KinesisVideoStreamConfig'),
     newKinesisVideoStreamConfig,
     kinesisVideoStreamConfig_prefix,
     kinesisVideoStreamConfig_retentionPeriodHours,
     kinesisVideoStreamConfig_encryptionConfig,
 
     -- * LexBot
-    LexBot,
+    LexBot (LexBot'),
     newLexBot,
     lexBot_lexRegion,
     lexBot_name,
 
     -- * LexBotConfig
-    LexBotConfig,
+    LexBotConfig (LexBotConfig'),
     newLexBotConfig,
     lexBotConfig_lexBot,
     lexBotConfig_lexV2Bot,
 
     -- * LexV2Bot
-    LexV2Bot,
+    LexV2Bot (LexV2Bot'),
     newLexV2Bot,
     lexV2Bot_aliasArn,
 
     -- * ListPhoneNumbersSummary
-    ListPhoneNumbersSummary,
+    ListPhoneNumbersSummary (ListPhoneNumbersSummary'),
     newListPhoneNumbersSummary,
     listPhoneNumbersSummary_phoneNumber,
     listPhoneNumbersSummary_phoneNumberArn,
@@ -700,61 +700,61 @@ module Amazonka.Connect.Types
     listPhoneNumbersSummary_targetArn,
 
     -- * MediaConcurrency
-    MediaConcurrency,
+    MediaConcurrency (MediaConcurrency'),
     newMediaConcurrency,
     mediaConcurrency_channel,
     mediaConcurrency_concurrency,
 
     -- * NotificationRecipientType
-    NotificationRecipientType,
+    NotificationRecipientType (NotificationRecipientType'),
     newNotificationRecipientType,
     notificationRecipientType_userIds,
     notificationRecipientType_userTags,
 
     -- * NumberReference
-    NumberReference,
+    NumberReference (NumberReference'),
     newNumberReference,
     numberReference_name,
     numberReference_value,
 
     -- * OutboundCallerConfig
-    OutboundCallerConfig,
+    OutboundCallerConfig (OutboundCallerConfig'),
     newOutboundCallerConfig,
     outboundCallerConfig_outboundCallerIdName,
     outboundCallerConfig_outboundCallerIdNumberId,
     outboundCallerConfig_outboundFlowId,
 
     -- * ParticipantDetails
-    ParticipantDetails,
+    ParticipantDetails (ParticipantDetails'),
     newParticipantDetails,
     participantDetails_displayName,
 
     -- * ParticipantTimerConfiguration
-    ParticipantTimerConfiguration,
+    ParticipantTimerConfiguration (ParticipantTimerConfiguration'),
     newParticipantTimerConfiguration,
     participantTimerConfiguration_participantRole,
     participantTimerConfiguration_timerType,
     participantTimerConfiguration_timerValue,
 
     -- * ParticipantTimerValue
-    ParticipantTimerValue,
+    ParticipantTimerValue (ParticipantTimerValue'),
     newParticipantTimerValue,
     participantTimerValue_participantTimerAction,
     participantTimerValue_participantTimerDurationInMinutes,
 
     -- * PhoneNumberQuickConnectConfig
-    PhoneNumberQuickConnectConfig,
+    PhoneNumberQuickConnectConfig (PhoneNumberQuickConnectConfig'),
     newPhoneNumberQuickConnectConfig,
     phoneNumberQuickConnectConfig_phoneNumber,
 
     -- * PhoneNumberStatus
-    PhoneNumberStatus,
+    PhoneNumberStatus (PhoneNumberStatus'),
     newPhoneNumberStatus,
     phoneNumberStatus_message,
     phoneNumberStatus_status,
 
     -- * PhoneNumberSummary
-    PhoneNumberSummary,
+    PhoneNumberSummary (PhoneNumberSummary'),
     newPhoneNumberSummary,
     phoneNumberSummary_arn,
     phoneNumberSummary_id,
@@ -763,14 +763,14 @@ module Amazonka.Connect.Types
     phoneNumberSummary_phoneNumberType,
 
     -- * PromptSummary
-    PromptSummary,
+    PromptSummary (PromptSummary'),
     newPromptSummary,
     promptSummary_arn,
     promptSummary_id,
     promptSummary_name,
 
     -- * Queue
-    Queue,
+    Queue (Queue'),
     newQueue,
     queue_description,
     queue_hoursOfOperationId,
@@ -783,25 +783,25 @@ module Amazonka.Connect.Types
     queue_tags,
 
     -- * QueueInfo
-    QueueInfo,
+    QueueInfo (QueueInfo'),
     newQueueInfo,
     queueInfo_enqueueTimestamp,
     queueInfo_id,
 
     -- * QueueQuickConnectConfig
-    QueueQuickConnectConfig,
+    QueueQuickConnectConfig (QueueQuickConnectConfig'),
     newQueueQuickConnectConfig,
     queueQuickConnectConfig_queueId,
     queueQuickConnectConfig_contactFlowId,
 
     -- * QueueReference
-    QueueReference,
+    QueueReference (QueueReference'),
     newQueueReference,
     queueReference_arn,
     queueReference_id,
 
     -- * QueueSearchCriteria
-    QueueSearchCriteria,
+    QueueSearchCriteria (QueueSearchCriteria'),
     newQueueSearchCriteria,
     queueSearchCriteria_andConditions,
     queueSearchCriteria_orConditions,
@@ -809,12 +809,12 @@ module Amazonka.Connect.Types
     queueSearchCriteria_stringCondition,
 
     -- * QueueSearchFilter
-    QueueSearchFilter,
+    QueueSearchFilter (QueueSearchFilter'),
     newQueueSearchFilter,
     queueSearchFilter_tagFilter,
 
     -- * QueueSummary
-    QueueSummary,
+    QueueSummary (QueueSummary'),
     newQueueSummary,
     queueSummary_arn,
     queueSummary_id,
@@ -822,7 +822,7 @@ module Amazonka.Connect.Types
     queueSummary_queueType,
 
     -- * QuickConnect
-    QuickConnect,
+    QuickConnect (QuickConnect'),
     newQuickConnect,
     quickConnect_description,
     quickConnect_name,
@@ -832,7 +832,7 @@ module Amazonka.Connect.Types
     quickConnect_tags,
 
     -- * QuickConnectConfig
-    QuickConnectConfig,
+    QuickConnectConfig (QuickConnectConfig'),
     newQuickConnectConfig,
     quickConnectConfig_phoneConfig,
     quickConnectConfig_queueConfig,
@@ -840,7 +840,7 @@ module Amazonka.Connect.Types
     quickConnectConfig_quickConnectType,
 
     -- * QuickConnectSummary
-    QuickConnectSummary,
+    QuickConnectSummary (QuickConnectSummary'),
     newQuickConnectSummary,
     quickConnectSummary_arn,
     quickConnectSummary_id,
@@ -848,18 +848,18 @@ module Amazonka.Connect.Types
     quickConnectSummary_quickConnectType,
 
     -- * ReadOnlyFieldInfo
-    ReadOnlyFieldInfo,
+    ReadOnlyFieldInfo (ReadOnlyFieldInfo'),
     newReadOnlyFieldInfo,
     readOnlyFieldInfo_id,
 
     -- * Reference
-    Reference,
+    Reference (Reference'),
     newReference,
     reference_value,
     reference_type,
 
     -- * ReferenceSummary
-    ReferenceSummary,
+    ReferenceSummary (ReferenceSummary'),
     newReferenceSummary,
     referenceSummary_attachment,
     referenceSummary_date,
@@ -869,12 +869,12 @@ module Amazonka.Connect.Types
     referenceSummary_url,
 
     -- * RequiredFieldInfo
-    RequiredFieldInfo,
+    RequiredFieldInfo (RequiredFieldInfo'),
     newRequiredFieldInfo,
     requiredFieldInfo_id,
 
     -- * RoutingProfile
-    RoutingProfile,
+    RoutingProfile (RoutingProfile'),
     newRoutingProfile,
     routingProfile_defaultOutboundQueueId,
     routingProfile_description,
@@ -888,14 +888,14 @@ module Amazonka.Connect.Types
     routingProfile_tags,
 
     -- * RoutingProfileQueueConfig
-    RoutingProfileQueueConfig,
+    RoutingProfileQueueConfig (RoutingProfileQueueConfig'),
     newRoutingProfileQueueConfig,
     routingProfileQueueConfig_queueReference,
     routingProfileQueueConfig_priority,
     routingProfileQueueConfig_delay,
 
     -- * RoutingProfileQueueConfigSummary
-    RoutingProfileQueueConfigSummary,
+    RoutingProfileQueueConfigSummary (RoutingProfileQueueConfigSummary'),
     newRoutingProfileQueueConfigSummary,
     routingProfileQueueConfigSummary_queueId,
     routingProfileQueueConfigSummary_queueArn,
@@ -905,38 +905,38 @@ module Amazonka.Connect.Types
     routingProfileQueueConfigSummary_channel,
 
     -- * RoutingProfileQueueReference
-    RoutingProfileQueueReference,
+    RoutingProfileQueueReference (RoutingProfileQueueReference'),
     newRoutingProfileQueueReference,
     routingProfileQueueReference_queueId,
     routingProfileQueueReference_channel,
 
     -- * RoutingProfileReference
-    RoutingProfileReference,
+    RoutingProfileReference (RoutingProfileReference'),
     newRoutingProfileReference,
     routingProfileReference_arn,
     routingProfileReference_id,
 
     -- * RoutingProfileSearchCriteria
-    RoutingProfileSearchCriteria,
+    RoutingProfileSearchCriteria (RoutingProfileSearchCriteria'),
     newRoutingProfileSearchCriteria,
     routingProfileSearchCriteria_andConditions,
     routingProfileSearchCriteria_orConditions,
     routingProfileSearchCriteria_stringCondition,
 
     -- * RoutingProfileSearchFilter
-    RoutingProfileSearchFilter,
+    RoutingProfileSearchFilter (RoutingProfileSearchFilter'),
     newRoutingProfileSearchFilter,
     routingProfileSearchFilter_tagFilter,
 
     -- * RoutingProfileSummary
-    RoutingProfileSummary,
+    RoutingProfileSummary (RoutingProfileSummary'),
     newRoutingProfileSummary,
     routingProfileSummary_arn,
     routingProfileSummary_id,
     routingProfileSummary_name,
 
     -- * Rule
-    Rule,
+    Rule (Rule'),
     newRule,
     rule_tags,
     rule_name,
@@ -951,7 +951,7 @@ module Amazonka.Connect.Types
     rule_lastUpdatedBy,
 
     -- * RuleAction
-    RuleAction,
+    RuleAction (RuleAction'),
     newRuleAction,
     ruleAction_assignContactCategoryAction,
     ruleAction_eventBridgeAction,
@@ -960,7 +960,7 @@ module Amazonka.Connect.Types
     ruleAction_actionType,
 
     -- * RuleSummary
-    RuleSummary,
+    RuleSummary (RuleSummary'),
     newRuleSummary,
     ruleSummary_name,
     ruleSummary_ruleId,
@@ -972,27 +972,27 @@ module Amazonka.Connect.Types
     ruleSummary_lastUpdatedTime,
 
     -- * RuleTriggerEventSource
-    RuleTriggerEventSource,
+    RuleTriggerEventSource (RuleTriggerEventSource'),
     newRuleTriggerEventSource,
     ruleTriggerEventSource_integrationAssociationId,
     ruleTriggerEventSource_eventSourceName,
 
     -- * S3Config
-    S3Config,
+    S3Config (S3Config'),
     newS3Config,
     s3Config_encryptionConfig,
     s3Config_bucketName,
     s3Config_bucketPrefix,
 
     -- * SecurityKey
-    SecurityKey,
+    SecurityKey (SecurityKey'),
     newSecurityKey,
     securityKey_associationId,
     securityKey_creationTime,
     securityKey_key,
 
     -- * SecurityProfile
-    SecurityProfile,
+    SecurityProfile (SecurityProfile'),
     newSecurityProfile,
     securityProfile_allowedAccessControlTags,
     securityProfile_arn,
@@ -1004,14 +1004,14 @@ module Amazonka.Connect.Types
     securityProfile_tags,
 
     -- * SecurityProfileSearchCriteria
-    SecurityProfileSearchCriteria,
+    SecurityProfileSearchCriteria (SecurityProfileSearchCriteria'),
     newSecurityProfileSearchCriteria,
     securityProfileSearchCriteria_andConditions,
     securityProfileSearchCriteria_orConditions,
     securityProfileSearchCriteria_stringCondition,
 
     -- * SecurityProfileSearchSummary
-    SecurityProfileSearchSummary,
+    SecurityProfileSearchSummary (SecurityProfileSearchSummary'),
     newSecurityProfileSearchSummary,
     securityProfileSearchSummary_arn,
     securityProfileSearchSummary_description,
@@ -1021,19 +1021,19 @@ module Amazonka.Connect.Types
     securityProfileSearchSummary_tags,
 
     -- * SecurityProfileSummary
-    SecurityProfileSummary,
+    SecurityProfileSummary (SecurityProfileSummary'),
     newSecurityProfileSummary,
     securityProfileSummary_arn,
     securityProfileSummary_id,
     securityProfileSummary_name,
 
     -- * SecurityProfilesSearchFilter
-    SecurityProfilesSearchFilter,
+    SecurityProfilesSearchFilter (SecurityProfilesSearchFilter'),
     newSecurityProfilesSearchFilter,
     securityProfilesSearchFilter_tagFilter,
 
     -- * SendNotificationActionDefinition
-    SendNotificationActionDefinition,
+    SendNotificationActionDefinition (SendNotificationActionDefinition'),
     newSendNotificationActionDefinition,
     sendNotificationActionDefinition_subject,
     sendNotificationActionDefinition_deliveryMethod,
@@ -1042,26 +1042,26 @@ module Amazonka.Connect.Types
     sendNotificationActionDefinition_recipient,
 
     -- * StringCondition
-    StringCondition,
+    StringCondition (StringCondition'),
     newStringCondition,
     stringCondition_comparisonType,
     stringCondition_fieldName,
     stringCondition_value,
 
     -- * StringReference
-    StringReference,
+    StringReference (StringReference'),
     newStringReference,
     stringReference_name,
     stringReference_value,
 
     -- * TagCondition
-    TagCondition,
+    TagCondition (TagCondition'),
     newTagCondition,
     tagCondition_tagKey,
     tagCondition_tagValue,
 
     -- * TaskActionDefinition
-    TaskActionDefinition,
+    TaskActionDefinition (TaskActionDefinition'),
     newTaskActionDefinition,
     taskActionDefinition_description,
     taskActionDefinition_references,
@@ -1069,25 +1069,25 @@ module Amazonka.Connect.Types
     taskActionDefinition_contactFlowId,
 
     -- * TaskTemplateConstraints
-    TaskTemplateConstraints,
+    TaskTemplateConstraints (TaskTemplateConstraints'),
     newTaskTemplateConstraints,
     taskTemplateConstraints_invisibleFields,
     taskTemplateConstraints_readOnlyFields,
     taskTemplateConstraints_requiredFields,
 
     -- * TaskTemplateDefaultFieldValue
-    TaskTemplateDefaultFieldValue,
+    TaskTemplateDefaultFieldValue (TaskTemplateDefaultFieldValue'),
     newTaskTemplateDefaultFieldValue,
     taskTemplateDefaultFieldValue_defaultValue,
     taskTemplateDefaultFieldValue_id,
 
     -- * TaskTemplateDefaults
-    TaskTemplateDefaults,
+    TaskTemplateDefaults (TaskTemplateDefaults'),
     newTaskTemplateDefaults,
     taskTemplateDefaults_defaultFieldValues,
 
     -- * TaskTemplateField
-    TaskTemplateField,
+    TaskTemplateField (TaskTemplateField'),
     newTaskTemplateField,
     taskTemplateField_description,
     taskTemplateField_singleSelectOptions,
@@ -1095,12 +1095,12 @@ module Amazonka.Connect.Types
     taskTemplateField_id,
 
     -- * TaskTemplateFieldIdentifier
-    TaskTemplateFieldIdentifier,
+    TaskTemplateFieldIdentifier (TaskTemplateFieldIdentifier'),
     newTaskTemplateFieldIdentifier,
     taskTemplateFieldIdentifier_name,
 
     -- * TaskTemplateMetadata
-    TaskTemplateMetadata,
+    TaskTemplateMetadata (TaskTemplateMetadata'),
     newTaskTemplateMetadata,
     taskTemplateMetadata_arn,
     taskTemplateMetadata_createdTime,
@@ -1111,18 +1111,18 @@ module Amazonka.Connect.Types
     taskTemplateMetadata_status,
 
     -- * TelephonyConfig
-    TelephonyConfig,
+    TelephonyConfig (TelephonyConfig'),
     newTelephonyConfig,
     telephonyConfig_distributions,
 
     -- * Threshold
-    Threshold,
+    Threshold (Threshold'),
     newThreshold,
     threshold_comparison,
     threshold_thresholdValue,
 
     -- * TrafficDistributionGroup
-    TrafficDistributionGroup,
+    TrafficDistributionGroup (TrafficDistributionGroup'),
     newTrafficDistributionGroup,
     trafficDistributionGroup_arn,
     trafficDistributionGroup_description,
@@ -1133,7 +1133,7 @@ module Amazonka.Connect.Types
     trafficDistributionGroup_tags,
 
     -- * TrafficDistributionGroupSummary
-    TrafficDistributionGroupSummary,
+    TrafficDistributionGroupSummary (TrafficDistributionGroupSummary'),
     newTrafficDistributionGroupSummary,
     trafficDistributionGroupSummary_arn,
     trafficDistributionGroupSummary_id,
@@ -1142,25 +1142,25 @@ module Amazonka.Connect.Types
     trafficDistributionGroupSummary_status,
 
     -- * UpdateParticipantRoleConfigChannelInfo
-    UpdateParticipantRoleConfigChannelInfo,
+    UpdateParticipantRoleConfigChannelInfo (UpdateParticipantRoleConfigChannelInfo'),
     newUpdateParticipantRoleConfigChannelInfo,
     updateParticipantRoleConfigChannelInfo_chat,
 
     -- * UrlReference
-    UrlReference,
+    UrlReference (UrlReference'),
     newUrlReference,
     urlReference_name,
     urlReference_value,
 
     -- * UseCase
-    UseCase,
+    UseCase (UseCase'),
     newUseCase,
     useCase_useCaseArn,
     useCase_useCaseId,
     useCase_useCaseType,
 
     -- * User
-    User,
+    User (User'),
     newUser,
     user_arn,
     user_directoryUserId,
@@ -1174,7 +1174,7 @@ module Amazonka.Connect.Types
     user_username,
 
     -- * UserData
-    UserData,
+    UserData (UserData'),
     newUserData,
     userData_activeSlotsByChannel,
     userData_availableSlotsByChannel,
@@ -1187,7 +1187,7 @@ module Amazonka.Connect.Types
     userData_user,
 
     -- * UserDataFilters
-    UserDataFilters,
+    UserDataFilters (UserDataFilters'),
     newUserDataFilters,
     userDataFilters_agents,
     userDataFilters_contactFilter,
@@ -1196,7 +1196,7 @@ module Amazonka.Connect.Types
     userDataFilters_userHierarchyGroups,
 
     -- * UserIdentityInfo
-    UserIdentityInfo,
+    UserIdentityInfo (UserIdentityInfo'),
     newUserIdentityInfo,
     userIdentityInfo_email,
     userIdentityInfo_firstName,
@@ -1205,13 +1205,13 @@ module Amazonka.Connect.Types
     userIdentityInfo_secondaryEmail,
 
     -- * UserIdentityInfoLite
-    UserIdentityInfoLite,
+    UserIdentityInfoLite (UserIdentityInfoLite'),
     newUserIdentityInfoLite,
     userIdentityInfoLite_firstName,
     userIdentityInfoLite_lastName,
 
     -- * UserPhoneConfig
-    UserPhoneConfig,
+    UserPhoneConfig (UserPhoneConfig'),
     newUserPhoneConfig,
     userPhoneConfig_afterContactWorkTimeLimit,
     userPhoneConfig_autoAccept,
@@ -1219,19 +1219,19 @@ module Amazonka.Connect.Types
     userPhoneConfig_phoneType,
 
     -- * UserQuickConnectConfig
-    UserQuickConnectConfig,
+    UserQuickConnectConfig (UserQuickConnectConfig'),
     newUserQuickConnectConfig,
     userQuickConnectConfig_userId,
     userQuickConnectConfig_contactFlowId,
 
     -- * UserReference
-    UserReference,
+    UserReference (UserReference'),
     newUserReference,
     userReference_arn,
     userReference_id,
 
     -- * UserSearchCriteria
-    UserSearchCriteria,
+    UserSearchCriteria (UserSearchCriteria'),
     newUserSearchCriteria,
     userSearchCriteria_andConditions,
     userSearchCriteria_hierarchyGroupCondition,
@@ -1239,12 +1239,12 @@ module Amazonka.Connect.Types
     userSearchCriteria_stringCondition,
 
     -- * UserSearchFilter
-    UserSearchFilter,
+    UserSearchFilter (UserSearchFilter'),
     newUserSearchFilter,
     userSearchFilter_tagFilter,
 
     -- * UserSearchSummary
-    UserSearchSummary,
+    UserSearchSummary (UserSearchSummary'),
     newUserSearchSummary,
     userSearchSummary_arn,
     userSearchSummary_directoryUserId,
@@ -1258,14 +1258,14 @@ module Amazonka.Connect.Types
     userSearchSummary_username,
 
     -- * UserSummary
-    UserSummary,
+    UserSummary (UserSummary'),
     newUserSummary,
     userSummary_arn,
     userSummary_id,
     userSummary_username,
 
     -- * Vocabulary
-    Vocabulary,
+    Vocabulary (Vocabulary'),
     newVocabulary,
     vocabulary_content,
     vocabulary_failureReason,
@@ -1278,7 +1278,7 @@ module Amazonka.Connect.Types
     vocabulary_lastModifiedTime,
 
     -- * VocabularySummary
-    VocabularySummary,
+    VocabularySummary (VocabularySummary'),
     newVocabularySummary,
     vocabularySummary_failureReason,
     vocabularySummary_name,
@@ -1289,7 +1289,7 @@ module Amazonka.Connect.Types
     vocabularySummary_lastModifiedTime,
 
     -- * VoiceRecordingConfiguration
-    VoiceRecordingConfiguration,
+    VoiceRecordingConfiguration (VoiceRecordingConfiguration'),
     newVoiceRecordingConfiguration,
     voiceRecordingConfiguration_voiceRecordingTrack,
   )

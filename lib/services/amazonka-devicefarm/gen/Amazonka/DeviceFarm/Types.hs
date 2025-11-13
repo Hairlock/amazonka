@@ -33,91 +33,91 @@ module Amazonka.DeviceFarm.Types
     _TooManyTagsException,
 
     -- * ArtifactCategory
-    ArtifactCategory,
+    ArtifactCategory (ArtifactCategory'),
 
     -- * ArtifactType
-    ArtifactType,
+    ArtifactType (ArtifactType'),
 
     -- * BillingMethod
-    BillingMethod,
+    BillingMethod (BillingMethod'),
 
     -- * CurrencyCode
-    CurrencyCode,
+    CurrencyCode (CurrencyCode'),
 
     -- * DeviceAttribute
-    DeviceAttribute,
+    DeviceAttribute (DeviceAttribute'),
 
     -- * DeviceAvailability
-    DeviceAvailability,
+    DeviceAvailability (DeviceAvailability'),
 
     -- * DeviceFilterAttribute
-    DeviceFilterAttribute,
+    DeviceFilterAttribute (DeviceFilterAttribute'),
 
     -- * DeviceFormFactor
-    DeviceFormFactor,
+    DeviceFormFactor (DeviceFormFactor'),
 
     -- * DevicePlatform
-    DevicePlatform,
+    DevicePlatform (DevicePlatform'),
 
     -- * DevicePoolType
-    DevicePoolType,
+    DevicePoolType (DevicePoolType'),
 
     -- * ExecutionResult
-    ExecutionResult,
+    ExecutionResult (ExecutionResult'),
 
     -- * ExecutionResultCode
-    ExecutionResultCode,
+    ExecutionResultCode (ExecutionResultCode'),
 
     -- * ExecutionStatus
-    ExecutionStatus,
+    ExecutionStatus (ExecutionStatus'),
 
     -- * InstanceStatus
-    InstanceStatus,
+    InstanceStatus (InstanceStatus'),
 
     -- * InteractionMode
-    InteractionMode,
+    InteractionMode (InteractionMode'),
 
     -- * NetworkProfileType
-    NetworkProfileType,
+    NetworkProfileType (NetworkProfileType'),
 
     -- * OfferingTransactionType
-    OfferingTransactionType,
+    OfferingTransactionType (OfferingTransactionType'),
 
     -- * OfferingType
-    OfferingType,
+    OfferingType (OfferingType'),
 
     -- * RecurringChargeFrequency
-    RecurringChargeFrequency,
+    RecurringChargeFrequency (RecurringChargeFrequency'),
 
     -- * RuleOperator
-    RuleOperator,
+    RuleOperator (RuleOperator'),
 
     -- * SampleType
-    SampleType,
+    SampleType (SampleType'),
 
     -- * TestGridSessionArtifactCategory
-    TestGridSessionArtifactCategory,
+    TestGridSessionArtifactCategory (TestGridSessionArtifactCategory'),
 
     -- * TestGridSessionArtifactType
-    TestGridSessionArtifactType,
+    TestGridSessionArtifactType (TestGridSessionArtifactType'),
 
     -- * TestGridSessionStatus
-    TestGridSessionStatus,
+    TestGridSessionStatus (TestGridSessionStatus'),
 
     -- * TestType
-    TestType,
+    TestType (TestType'),
 
     -- * UploadCategory
-    UploadCategory,
+    UploadCategory (UploadCategory'),
 
     -- * UploadStatus
-    UploadStatus,
+    UploadStatus (UploadStatus'),
 
     -- * UploadType
-    UploadType,
+    UploadType (UploadType'),
 
     -- * AccountSettings
-    AccountSettings,
+    AccountSettings (AccountSettings'),
     newAccountSettings,
     accountSettings_awsAccountNumber,
     accountSettings_defaultJobTimeoutMinutes,
@@ -129,7 +129,7 @@ module Amazonka.DeviceFarm.Types
     accountSettings_unmeteredRemoteAccessDevices,
 
     -- * Artifact
-    Artifact,
+    Artifact (Artifact'),
     newArtifact,
     artifact_arn,
     artifact_extension,
@@ -138,14 +138,14 @@ module Amazonka.DeviceFarm.Types
     artifact_url,
 
     -- * CPU
-    CPU,
+    CPU (CPU'),
     newCPU,
     cpu_architecture,
     cpu_clock,
     cpu_frequency,
 
     -- * Counters
-    Counters,
+    Counters (Counters'),
     newCounters,
     counters_errored,
     counters_failed,
@@ -156,20 +156,20 @@ module Amazonka.DeviceFarm.Types
     counters_warned,
 
     -- * CreateRemoteAccessSessionConfiguration
-    CreateRemoteAccessSessionConfiguration,
+    CreateRemoteAccessSessionConfiguration (CreateRemoteAccessSessionConfiguration'),
     newCreateRemoteAccessSessionConfiguration,
     createRemoteAccessSessionConfiguration_billingMethod,
     createRemoteAccessSessionConfiguration_vpceConfigurationArns,
 
     -- * CustomerArtifactPaths
-    CustomerArtifactPaths,
+    CustomerArtifactPaths (CustomerArtifactPaths'),
     newCustomerArtifactPaths,
     customerArtifactPaths_androidPaths,
     customerArtifactPaths_deviceHostPaths,
     customerArtifactPaths_iosPaths,
 
     -- * Device
-    Device,
+    Device (Device'),
     newDevice,
     device_arn,
     device_availability,
@@ -194,14 +194,14 @@ module Amazonka.DeviceFarm.Types
     device_resolution,
 
     -- * DeviceFilter
-    DeviceFilter,
+    DeviceFilter (DeviceFilter'),
     newDeviceFilter,
     deviceFilter_attribute,
     deviceFilter_operator,
     deviceFilter_values,
 
     -- * DeviceInstance
-    DeviceInstance,
+    DeviceInstance (DeviceInstance'),
     newDeviceInstance,
     deviceInstance_arn,
     deviceInstance_deviceArn,
@@ -211,14 +211,14 @@ module Amazonka.DeviceFarm.Types
     deviceInstance_udid,
 
     -- * DeviceMinutes
-    DeviceMinutes,
+    DeviceMinutes (DeviceMinutes'),
     newDeviceMinutes,
     deviceMinutes_metered,
     deviceMinutes_total,
     deviceMinutes_unmetered,
 
     -- * DevicePool
-    DevicePool,
+    DevicePool (DevicePool'),
     newDevicePool,
     devicePool_arn,
     devicePool_description,
@@ -228,27 +228,27 @@ module Amazonka.DeviceFarm.Types
     devicePool_type,
 
     -- * DevicePoolCompatibilityResult
-    DevicePoolCompatibilityResult,
+    DevicePoolCompatibilityResult (DevicePoolCompatibilityResult'),
     newDevicePoolCompatibilityResult,
     devicePoolCompatibilityResult_compatible,
     devicePoolCompatibilityResult_device,
     devicePoolCompatibilityResult_incompatibilityMessages,
 
     -- * DeviceSelectionConfiguration
-    DeviceSelectionConfiguration,
+    DeviceSelectionConfiguration (DeviceSelectionConfiguration'),
     newDeviceSelectionConfiguration,
     deviceSelectionConfiguration_filters,
     deviceSelectionConfiguration_maxDevices,
 
     -- * DeviceSelectionResult
-    DeviceSelectionResult,
+    DeviceSelectionResult (DeviceSelectionResult'),
     newDeviceSelectionResult,
     deviceSelectionResult_filters,
     deviceSelectionResult_matchedDevicesCount,
     deviceSelectionResult_maxDevices,
 
     -- * ExecutionConfiguration
-    ExecutionConfiguration,
+    ExecutionConfiguration (ExecutionConfiguration'),
     newExecutionConfiguration,
     executionConfiguration_accountsCleanup,
     executionConfiguration_appPackagesCleanup,
@@ -257,13 +257,13 @@ module Amazonka.DeviceFarm.Types
     executionConfiguration_videoCapture,
 
     -- * IncompatibilityMessage
-    IncompatibilityMessage,
+    IncompatibilityMessage (IncompatibilityMessage'),
     newIncompatibilityMessage,
     incompatibilityMessage_message,
     incompatibilityMessage_type,
 
     -- * InstanceProfile
-    InstanceProfile,
+    InstanceProfile (InstanceProfile'),
     newInstanceProfile,
     instanceProfile_arn,
     instanceProfile_description,
@@ -273,7 +273,7 @@ module Amazonka.DeviceFarm.Types
     instanceProfile_rebootAfterUse,
 
     -- * Job
-    Job,
+    Job (Job'),
     newJob,
     job_arn,
     job_counters,
@@ -292,19 +292,19 @@ module Amazonka.DeviceFarm.Types
     job_videoEndpoint,
 
     -- * Location
-    Location,
+    Location (Location'),
     newLocation,
     location_latitude,
     location_longitude,
 
     -- * MonetaryAmount
-    MonetaryAmount,
+    MonetaryAmount (MonetaryAmount'),
     newMonetaryAmount,
     monetaryAmount_amount,
     monetaryAmount_currencyCode,
 
     -- * NetworkProfile
-    NetworkProfile,
+    NetworkProfile (NetworkProfile'),
     newNetworkProfile,
     networkProfile_arn,
     networkProfile_description,
@@ -320,7 +320,7 @@ module Amazonka.DeviceFarm.Types
     networkProfile_uplinkLossPercent,
 
     -- * Offering
-    Offering,
+    Offering (Offering'),
     newOffering,
     offering_description,
     offering_id,
@@ -329,13 +329,13 @@ module Amazonka.DeviceFarm.Types
     offering_type,
 
     -- * OfferingPromotion
-    OfferingPromotion,
+    OfferingPromotion (OfferingPromotion'),
     newOfferingPromotion,
     offeringPromotion_description,
     offeringPromotion_id,
 
     -- * OfferingStatus
-    OfferingStatus,
+    OfferingStatus (OfferingStatus'),
     newOfferingStatus,
     offeringStatus_effectiveOn,
     offeringStatus_offering,
@@ -343,7 +343,7 @@ module Amazonka.DeviceFarm.Types
     offeringStatus_type,
 
     -- * OfferingTransaction
-    OfferingTransaction,
+    OfferingTransaction (OfferingTransaction'),
     newOfferingTransaction,
     offeringTransaction_cost,
     offeringTransaction_createdOn,
@@ -352,7 +352,7 @@ module Amazonka.DeviceFarm.Types
     offeringTransaction_transactionId,
 
     -- * Problem
-    Problem,
+    Problem (Problem'),
     newProblem,
     problem_device,
     problem_job,
@@ -363,13 +363,13 @@ module Amazonka.DeviceFarm.Types
     problem_test,
 
     -- * ProblemDetail
-    ProblemDetail,
+    ProblemDetail (ProblemDetail'),
     newProblemDetail,
     problemDetail_arn,
     problemDetail_name,
 
     -- * Project
-    Project,
+    Project (Project'),
     newProject,
     project_arn,
     project_created,
@@ -378,7 +378,7 @@ module Amazonka.DeviceFarm.Types
     project_vpcConfig,
 
     -- * Radios
-    Radios,
+    Radios (Radios'),
     newRadios,
     radios_bluetooth,
     radios_gps,
@@ -386,13 +386,13 @@ module Amazonka.DeviceFarm.Types
     radios_wifi,
 
     -- * RecurringCharge
-    RecurringCharge,
+    RecurringCharge (RecurringCharge'),
     newRecurringCharge,
     recurringCharge_cost,
     recurringCharge_frequency,
 
     -- * RemoteAccessSession
-    RemoteAccessSession,
+    RemoteAccessSession (RemoteAccessSession'),
     newRemoteAccessSession,
     remoteAccessSession_arn,
     remoteAccessSession_billingMethod,
@@ -418,20 +418,20 @@ module Amazonka.DeviceFarm.Types
     remoteAccessSession_vpcConfig,
 
     -- * Resolution
-    Resolution,
+    Resolution (Resolution'),
     newResolution,
     resolution_height,
     resolution_width,
 
     -- * Rule
-    Rule,
+    Rule (Rule'),
     newRule,
     rule_attribute,
     rule_operator,
     rule_value,
 
     -- * Run
-    Run,
+    Run (Run'),
     newRun,
     run_appUpload,
     run_arn,
@@ -467,14 +467,14 @@ module Amazonka.DeviceFarm.Types
     run_webUrl,
 
     -- * Sample
-    Sample,
+    Sample (Sample'),
     newSample,
     sample_arn,
     sample_type,
     sample_url,
 
     -- * ScheduleRunConfiguration
-    ScheduleRunConfiguration,
+    ScheduleRunConfiguration (ScheduleRunConfiguration'),
     newScheduleRunConfiguration,
     scheduleRunConfiguration_auxiliaryApps,
     scheduleRunConfiguration_billingMethod,
@@ -487,7 +487,7 @@ module Amazonka.DeviceFarm.Types
     scheduleRunConfiguration_vpceConfigurationArns,
 
     -- * ScheduleRunTest
-    ScheduleRunTest,
+    ScheduleRunTest (ScheduleRunTest'),
     newScheduleRunTest,
     scheduleRunTest_filter,
     scheduleRunTest_parameters,
@@ -496,7 +496,7 @@ module Amazonka.DeviceFarm.Types
     scheduleRunTest_type,
 
     -- * Suite
-    Suite,
+    Suite (Suite'),
     newSuite,
     suite_arn,
     suite_counters,
@@ -511,13 +511,13 @@ module Amazonka.DeviceFarm.Types
     suite_type,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
 
     -- * Test
-    Test,
+    Test (Test'),
     newTest,
     test_arn,
     test_counters,
@@ -532,7 +532,7 @@ module Amazonka.DeviceFarm.Types
     test_type,
 
     -- * TestGridProject
-    TestGridProject,
+    TestGridProject (TestGridProject'),
     newTestGridProject,
     testGridProject_arn,
     testGridProject_created,
@@ -541,7 +541,7 @@ module Amazonka.DeviceFarm.Types
     testGridProject_vpcConfig,
 
     -- * TestGridSession
-    TestGridSession,
+    TestGridSession (TestGridSession'),
     newTestGridSession,
     testGridSession_arn,
     testGridSession_billingMinutes,
@@ -551,7 +551,7 @@ module Amazonka.DeviceFarm.Types
     testGridSession_status,
 
     -- * TestGridSessionAction
-    TestGridSessionAction,
+    TestGridSessionAction (TestGridSessionAction'),
     newTestGridSessionAction,
     testGridSessionAction_action,
     testGridSessionAction_duration,
@@ -560,33 +560,33 @@ module Amazonka.DeviceFarm.Types
     testGridSessionAction_statusCode,
 
     -- * TestGridSessionArtifact
-    TestGridSessionArtifact,
+    TestGridSessionArtifact (TestGridSessionArtifact'),
     newTestGridSessionArtifact,
     testGridSessionArtifact_filename,
     testGridSessionArtifact_type,
     testGridSessionArtifact_url,
 
     -- * TestGridVpcConfig
-    TestGridVpcConfig,
+    TestGridVpcConfig (TestGridVpcConfig'),
     newTestGridVpcConfig,
     testGridVpcConfig_securityGroupIds,
     testGridVpcConfig_subnetIds,
     testGridVpcConfig_vpcId,
 
     -- * TrialMinutes
-    TrialMinutes,
+    TrialMinutes (TrialMinutes'),
     newTrialMinutes,
     trialMinutes_remaining,
     trialMinutes_total,
 
     -- * UniqueProblem
-    UniqueProblem,
+    UniqueProblem (UniqueProblem'),
     newUniqueProblem,
     uniqueProblem_message,
     uniqueProblem_problems,
 
     -- * Upload
-    Upload,
+    Upload (Upload'),
     newUpload,
     upload_arn,
     upload_category,
@@ -600,7 +600,7 @@ module Amazonka.DeviceFarm.Types
     upload_url,
 
     -- * VPCEConfiguration
-    VPCEConfiguration,
+    VPCEConfiguration (VPCEConfiguration'),
     newVPCEConfiguration,
     vPCEConfiguration_arn,
     vPCEConfiguration_serviceDnsName,
@@ -609,7 +609,7 @@ module Amazonka.DeviceFarm.Types
     vPCEConfiguration_vpceServiceName,
 
     -- * VpcConfig
-    VpcConfig,
+    VpcConfig (VpcConfig'),
     newVpcConfig,
     vpcConfig_securityGroupIds,
     vpcConfig_subnetIds,

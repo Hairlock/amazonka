@@ -42,16 +42,16 @@ module Amazonka.CloudControl.Types
     _UnsupportedActionException,
 
     -- * HandlerErrorCode
-    HandlerErrorCode,
+    HandlerErrorCode (HandlerErrorCode'),
 
     -- * Operation
-    Operation,
+    Operation (Operation'),
 
     -- * OperationStatus
-    OperationStatus,
+    OperationStatus (OperationStatus'),
 
     -- * ProgressEvent
-    ProgressEvent,
+    ProgressEvent (ProgressEvent'),
     newProgressEvent,
     progressEvent_errorCode,
     progressEvent_eventTime,
@@ -65,13 +65,13 @@ module Amazonka.CloudControl.Types
     progressEvent_typeName,
 
     -- * ResourceDescription
-    ResourceDescription,
+    ResourceDescription (ResourceDescription'),
     newResourceDescription,
     resourceDescription_identifier,
     resourceDescription_properties,
 
     -- * ResourceRequestStatusFilter
-    ResourceRequestStatusFilter,
+    ResourceRequestStatusFilter (ResourceRequestStatusFilter'),
     newResourceRequestStatusFilter,
     resourceRequestStatusFilter_operationStatuses,
     resourceRequestStatusFilter_operations,

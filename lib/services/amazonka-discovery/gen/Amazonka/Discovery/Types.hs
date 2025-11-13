@@ -30,44 +30,44 @@ module Amazonka.Discovery.Types
     _ServerInternalErrorException,
 
     -- * AgentStatus
-    AgentStatus,
+    AgentStatus (AgentStatus'),
 
     -- * BatchDeleteImportDataErrorCode
-    BatchDeleteImportDataErrorCode,
+    BatchDeleteImportDataErrorCode (BatchDeleteImportDataErrorCode'),
 
     -- * ConfigurationItemType
-    ConfigurationItemType,
+    ConfigurationItemType (ConfigurationItemType'),
 
     -- * ContinuousExportStatus
-    ContinuousExportStatus,
+    ContinuousExportStatus (ContinuousExportStatus'),
 
     -- * DataSource
-    DataSource,
+    DataSource (DataSource'),
 
     -- * ExportDataFormat
-    ExportDataFormat,
+    ExportDataFormat (ExportDataFormat'),
 
     -- * ExportStatus
-    ExportStatus,
+    ExportStatus (ExportStatus'),
 
     -- * ImportStatus
-    ImportStatus,
+    ImportStatus (ImportStatus'),
 
     -- * ImportTaskFilterName
-    ImportTaskFilterName,
+    ImportTaskFilterName (ImportTaskFilterName'),
 
     -- * OrderString
-    OrderString,
+    OrderString (OrderString'),
 
     -- * AgentConfigurationStatus
-    AgentConfigurationStatus,
+    AgentConfigurationStatus (AgentConfigurationStatus'),
     newAgentConfigurationStatus,
     agentConfigurationStatus_agentId,
     agentConfigurationStatus_description,
     agentConfigurationStatus_operationSucceeded,
 
     -- * AgentInfo
-    AgentInfo,
+    AgentInfo (AgentInfo'),
     newAgentInfo,
     agentInfo_agentId,
     agentInfo_agentNetworkInfoList,
@@ -81,20 +81,20 @@ module Amazonka.Discovery.Types
     agentInfo_version,
 
     -- * AgentNetworkInfo
-    AgentNetworkInfo,
+    AgentNetworkInfo (AgentNetworkInfo'),
     newAgentNetworkInfo,
     agentNetworkInfo_ipAddress,
     agentNetworkInfo_macAddress,
 
     -- * BatchDeleteImportDataError
-    BatchDeleteImportDataError,
+    BatchDeleteImportDataError (BatchDeleteImportDataError'),
     newBatchDeleteImportDataError,
     batchDeleteImportDataError_errorCode,
     batchDeleteImportDataError_errorDescription,
     batchDeleteImportDataError_importTaskId,
 
     -- * ConfigurationTag
-    ConfigurationTag,
+    ConfigurationTag (ConfigurationTag'),
     newConfigurationTag,
     configurationTag_configurationId,
     configurationTag_configurationType,
@@ -103,7 +103,7 @@ module Amazonka.Discovery.Types
     configurationTag_value,
 
     -- * ContinuousExportDescription
-    ContinuousExportDescription,
+    ContinuousExportDescription (ContinuousExportDescription'),
     newContinuousExportDescription,
     continuousExportDescription_dataSource,
     continuousExportDescription_exportId,
@@ -115,7 +115,7 @@ module Amazonka.Discovery.Types
     continuousExportDescription_stopTime,
 
     -- * CustomerAgentInfo
-    CustomerAgentInfo,
+    CustomerAgentInfo (CustomerAgentInfo'),
     newCustomerAgentInfo,
     customerAgentInfo_activeAgents,
     customerAgentInfo_healthyAgents,
@@ -126,7 +126,7 @@ module Amazonka.Discovery.Types
     customerAgentInfo_unknownAgents,
 
     -- * CustomerAgentlessCollectorInfo
-    CustomerAgentlessCollectorInfo,
+    CustomerAgentlessCollectorInfo (CustomerAgentlessCollectorInfo'),
     newCustomerAgentlessCollectorInfo,
     customerAgentlessCollectorInfo_activeAgentlessCollectors,
     customerAgentlessCollectorInfo_healthyAgentlessCollectors,
@@ -137,7 +137,7 @@ module Amazonka.Discovery.Types
     customerAgentlessCollectorInfo_unknownAgentlessCollectors,
 
     -- * CustomerConnectorInfo
-    CustomerConnectorInfo,
+    CustomerConnectorInfo (CustomerConnectorInfo'),
     newCustomerConnectorInfo,
     customerConnectorInfo_activeConnectors,
     customerConnectorInfo_healthyConnectors,
@@ -148,7 +148,7 @@ module Amazonka.Discovery.Types
     customerConnectorInfo_unknownConnectors,
 
     -- * CustomerMeCollectorInfo
-    CustomerMeCollectorInfo,
+    CustomerMeCollectorInfo (CustomerMeCollectorInfo'),
     newCustomerMeCollectorInfo,
     customerMeCollectorInfo_activeMeCollectors,
     customerMeCollectorInfo_healthyMeCollectors,
@@ -159,14 +159,14 @@ module Amazonka.Discovery.Types
     customerMeCollectorInfo_unknownMeCollectors,
 
     -- * ExportFilter
-    ExportFilter,
+    ExportFilter (ExportFilter'),
     newExportFilter,
     exportFilter_name,
     exportFilter_values,
     exportFilter_condition,
 
     -- * ExportInfo
-    ExportInfo,
+    ExportInfo (ExportInfo'),
     newExportInfo,
     exportInfo_configurationsDownloadUrl,
     exportInfo_isTruncated,
@@ -178,14 +178,14 @@ module Amazonka.Discovery.Types
     exportInfo_exportRequestTime,
 
     -- * Filter
-    Filter,
+    Filter (Filter'),
     newFilter,
     filter_name,
     filter_values,
     filter_condition,
 
     -- * ImportTask
-    ImportTask,
+    ImportTask (ImportTask'),
     newImportTask,
     importTask_applicationImportFailure,
     importTask_applicationImportSuccess,
@@ -202,13 +202,13 @@ module Amazonka.Discovery.Types
     importTask_status,
 
     -- * ImportTaskFilter
-    ImportTaskFilter,
+    ImportTaskFilter (ImportTaskFilter'),
     newImportTaskFilter,
     importTaskFilter_name,
     importTaskFilter_values,
 
     -- * NeighborConnectionDetail
-    NeighborConnectionDetail,
+    NeighborConnectionDetail (NeighborConnectionDetail'),
     newNeighborConnectionDetail,
     neighborConnectionDetail_destinationPort,
     neighborConnectionDetail_transportProtocol,
@@ -217,19 +217,19 @@ module Amazonka.Discovery.Types
     neighborConnectionDetail_connectionsCount,
 
     -- * OrderByElement
-    OrderByElement,
+    OrderByElement (OrderByElement'),
     newOrderByElement,
     orderByElement_sortOrder,
     orderByElement_fieldName,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
 
     -- * TagFilter
-    TagFilter,
+    TagFilter (TagFilter'),
     newTagFilter,
     tagFilter_name,
     tagFilter_values,

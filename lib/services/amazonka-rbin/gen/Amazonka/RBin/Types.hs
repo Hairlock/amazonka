@@ -26,39 +26,39 @@ module Amazonka.RBin.Types
     _ValidationException,
 
     -- * LockState
-    LockState,
+    LockState (LockState'),
 
     -- * ResourceType
-    ResourceType,
+    ResourceType (ResourceType'),
 
     -- * RetentionPeriodUnit
-    RetentionPeriodUnit,
+    RetentionPeriodUnit (RetentionPeriodUnit'),
 
     -- * RuleStatus
-    RuleStatus,
+    RuleStatus (RuleStatus'),
 
     -- * UnlockDelayUnit
-    UnlockDelayUnit,
+    UnlockDelayUnit (UnlockDelayUnit'),
 
     -- * LockConfiguration
-    LockConfiguration,
+    LockConfiguration (LockConfiguration'),
     newLockConfiguration,
     lockConfiguration_unlockDelay,
 
     -- * ResourceTag
-    ResourceTag,
+    ResourceTag (ResourceTag'),
     newResourceTag,
     resourceTag_resourceTagValue,
     resourceTag_resourceTagKey,
 
     -- * RetentionPeriod
-    RetentionPeriod,
+    RetentionPeriod (RetentionPeriod'),
     newRetentionPeriod,
     retentionPeriod_retentionPeriodValue,
     retentionPeriod_retentionPeriodUnit,
 
     -- * RuleSummary
-    RuleSummary,
+    RuleSummary (RuleSummary'),
     newRuleSummary,
     ruleSummary_description,
     ruleSummary_identifier,
@@ -66,13 +66,13 @@ module Amazonka.RBin.Types
     ruleSummary_retentionPeriod,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
 
     -- * UnlockDelay
-    UnlockDelay,
+    UnlockDelay (UnlockDelay'),
     newUnlockDelay,
     unlockDelay_unlockDelayValue,
     unlockDelay_unlockDelayUnit,

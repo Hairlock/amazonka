@@ -25,55 +25,55 @@ module Amazonka.DirectConnect.Types
     _TooManyTagsException,
 
     -- * AddressFamily
-    AddressFamily,
+    AddressFamily (AddressFamily'),
 
     -- * BGPPeerState
-    BGPPeerState,
+    BGPPeerState (BGPPeerState'),
 
     -- * BGPStatus
-    BGPStatus,
+    BGPStatus (BGPStatus'),
 
     -- * ConnectionState
-    ConnectionState,
+    ConnectionState (ConnectionState'),
 
     -- * DirectConnectGatewayAssociationProposalState
-    DirectConnectGatewayAssociationProposalState,
+    DirectConnectGatewayAssociationProposalState (DirectConnectGatewayAssociationProposalState'),
 
     -- * DirectConnectGatewayAssociationState
-    DirectConnectGatewayAssociationState,
+    DirectConnectGatewayAssociationState (DirectConnectGatewayAssociationState'),
 
     -- * DirectConnectGatewayAttachmentState
-    DirectConnectGatewayAttachmentState,
+    DirectConnectGatewayAttachmentState (DirectConnectGatewayAttachmentState'),
 
     -- * DirectConnectGatewayAttachmentType
-    DirectConnectGatewayAttachmentType,
+    DirectConnectGatewayAttachmentType (DirectConnectGatewayAttachmentType'),
 
     -- * DirectConnectGatewayState
-    DirectConnectGatewayState,
+    DirectConnectGatewayState (DirectConnectGatewayState'),
 
     -- * GatewayType
-    GatewayType,
+    GatewayType (GatewayType'),
 
     -- * HasLogicalRedundancy
-    HasLogicalRedundancy,
+    HasLogicalRedundancy (HasLogicalRedundancy'),
 
     -- * InterconnectState
-    InterconnectState,
+    InterconnectState (InterconnectState'),
 
     -- * LagState
-    LagState,
+    LagState (LagState'),
 
     -- * LoaContentType
-    LoaContentType,
+    LoaContentType (LoaContentType'),
 
     -- * NniPartnerType
-    NniPartnerType,
+    NniPartnerType (NniPartnerType'),
 
     -- * VirtualInterfaceState
-    VirtualInterfaceState,
+    VirtualInterfaceState (VirtualInterfaceState'),
 
     -- * AssociatedGateway
-    AssociatedGateway,
+    AssociatedGateway (AssociatedGateway'),
     newAssociatedGateway,
     associatedGateway_id,
     associatedGateway_ownerAccount,
@@ -81,7 +81,7 @@ module Amazonka.DirectConnect.Types
     associatedGateway_type,
 
     -- * BGPPeer
-    BGPPeer,
+    BGPPeer (BGPPeer'),
     newBGPPeer,
     bGPPeer_addressFamily,
     bGPPeer_amazonAddress,
@@ -95,7 +95,7 @@ module Amazonka.DirectConnect.Types
     bGPPeer_customerAddress,
 
     -- * Connection
-    Connection,
+    Connection (Connection'),
     newConnection,
     connection_awsDevice,
     connection_awsDeviceV2,
@@ -121,18 +121,18 @@ module Amazonka.DirectConnect.Types
     connection_vlan,
 
     -- * Connections
-    Connections,
+    Connections (Connections'),
     newConnections,
     connections_connections,
 
     -- * CustomerAgreement
-    CustomerAgreement,
+    CustomerAgreement (CustomerAgreement'),
     newCustomerAgreement,
     customerAgreement_agreementName,
     customerAgreement_status,
 
     -- * DirectConnectGateway
-    DirectConnectGateway,
+    DirectConnectGateway (DirectConnectGateway'),
     newDirectConnectGateway,
     directConnectGateway_amazonSideAsn,
     directConnectGateway_directConnectGatewayId,
@@ -142,7 +142,7 @@ module Amazonka.DirectConnect.Types
     directConnectGateway_stateChangeError,
 
     -- * DirectConnectGatewayAssociation
-    DirectConnectGatewayAssociation,
+    DirectConnectGatewayAssociation (DirectConnectGatewayAssociation'),
     newDirectConnectGatewayAssociation,
     directConnectGatewayAssociation_allowedPrefixesToDirectConnectGateway,
     directConnectGatewayAssociation_associatedGateway,
@@ -156,7 +156,7 @@ module Amazonka.DirectConnect.Types
     directConnectGatewayAssociation_virtualGatewayRegion,
 
     -- * DirectConnectGatewayAssociationProposal
-    DirectConnectGatewayAssociationProposal,
+    DirectConnectGatewayAssociationProposal (DirectConnectGatewayAssociationProposal'),
     newDirectConnectGatewayAssociationProposal,
     directConnectGatewayAssociationProposal_associatedGateway,
     directConnectGatewayAssociationProposal_directConnectGatewayId,
@@ -167,7 +167,7 @@ module Amazonka.DirectConnect.Types
     directConnectGatewayAssociationProposal_requestedAllowedPrefixesToDirectConnectGateway,
 
     -- * DirectConnectGatewayAttachment
-    DirectConnectGatewayAttachment,
+    DirectConnectGatewayAttachment (DirectConnectGatewayAttachment'),
     newDirectConnectGatewayAttachment,
     directConnectGatewayAttachment_attachmentState,
     directConnectGatewayAttachment_attachmentType,
@@ -178,7 +178,7 @@ module Amazonka.DirectConnect.Types
     directConnectGatewayAttachment_virtualInterfaceRegion,
 
     -- * Interconnect
-    Interconnect,
+    Interconnect (Interconnect'),
     newInterconnect,
     interconnect_awsDevice,
     interconnect_awsDeviceV2,
@@ -197,7 +197,7 @@ module Amazonka.DirectConnect.Types
     interconnect_tags,
 
     -- * Lag
-    Lag,
+    Lag (Lag'),
     newLag,
     lag_allowsHostedConnections,
     lag_awsDevice,
@@ -222,7 +222,7 @@ module Amazonka.DirectConnect.Types
     lag_tags,
 
     -- * Location
-    Location,
+    Location (Location'),
     newLocation,
     location_availableMacSecPortSpeeds,
     location_availablePortSpeeds,
@@ -232,7 +232,7 @@ module Amazonka.DirectConnect.Types
     location_region,
 
     -- * MacSecKey
-    MacSecKey,
+    MacSecKey (MacSecKey'),
     newMacSecKey,
     macSecKey_ckn,
     macSecKey_secretARN,
@@ -240,7 +240,7 @@ module Amazonka.DirectConnect.Types
     macSecKey_state,
 
     -- * NewBGPPeer
-    NewBGPPeer,
+    NewBGPPeer (NewBGPPeer'),
     newNewBGPPeer,
     newBGPPeer_addressFamily,
     newBGPPeer_amazonAddress,
@@ -249,7 +249,7 @@ module Amazonka.DirectConnect.Types
     newBGPPeer_customerAddress,
 
     -- * NewPrivateVirtualInterface
-    NewPrivateVirtualInterface,
+    NewPrivateVirtualInterface (NewPrivateVirtualInterface'),
     newNewPrivateVirtualInterface,
     newPrivateVirtualInterface_addressFamily,
     newPrivateVirtualInterface_amazonAddress,
@@ -265,7 +265,7 @@ module Amazonka.DirectConnect.Types
     newPrivateVirtualInterface_asn,
 
     -- * NewPrivateVirtualInterfaceAllocation
-    NewPrivateVirtualInterfaceAllocation,
+    NewPrivateVirtualInterfaceAllocation (NewPrivateVirtualInterfaceAllocation'),
     newNewPrivateVirtualInterfaceAllocation,
     newPrivateVirtualInterfaceAllocation_addressFamily,
     newPrivateVirtualInterfaceAllocation_amazonAddress,
@@ -278,7 +278,7 @@ module Amazonka.DirectConnect.Types
     newPrivateVirtualInterfaceAllocation_asn,
 
     -- * NewPublicVirtualInterface
-    NewPublicVirtualInterface,
+    NewPublicVirtualInterface (NewPublicVirtualInterface'),
     newNewPublicVirtualInterface,
     newPublicVirtualInterface_addressFamily,
     newPublicVirtualInterface_amazonAddress,
@@ -291,7 +291,7 @@ module Amazonka.DirectConnect.Types
     newPublicVirtualInterface_asn,
 
     -- * NewPublicVirtualInterfaceAllocation
-    NewPublicVirtualInterfaceAllocation,
+    NewPublicVirtualInterfaceAllocation (NewPublicVirtualInterfaceAllocation'),
     newNewPublicVirtualInterfaceAllocation,
     newPublicVirtualInterfaceAllocation_addressFamily,
     newPublicVirtualInterfaceAllocation_amazonAddress,
@@ -304,7 +304,7 @@ module Amazonka.DirectConnect.Types
     newPublicVirtualInterfaceAllocation_asn,
 
     -- * NewTransitVirtualInterface
-    NewTransitVirtualInterface,
+    NewTransitVirtualInterface (NewTransitVirtualInterface'),
     newNewTransitVirtualInterface,
     newTransitVirtualInterface_addressFamily,
     newTransitVirtualInterface_amazonAddress,
@@ -319,7 +319,7 @@ module Amazonka.DirectConnect.Types
     newTransitVirtualInterface_vlan,
 
     -- * NewTransitVirtualInterfaceAllocation
-    NewTransitVirtualInterfaceAllocation,
+    NewTransitVirtualInterfaceAllocation (NewTransitVirtualInterfaceAllocation'),
     newNewTransitVirtualInterfaceAllocation,
     newTransitVirtualInterfaceAllocation_addressFamily,
     newTransitVirtualInterfaceAllocation_amazonAddress,
@@ -332,18 +332,18 @@ module Amazonka.DirectConnect.Types
     newTransitVirtualInterfaceAllocation_vlan,
 
     -- * ResourceTag
-    ResourceTag,
+    ResourceTag (ResourceTag'),
     newResourceTag,
     resourceTag_resourceArn,
     resourceTag_tags,
 
     -- * RouteFilterPrefix
-    RouteFilterPrefix,
+    RouteFilterPrefix (RouteFilterPrefix'),
     newRouteFilterPrefix,
     routeFilterPrefix_cidr,
 
     -- * RouterType
-    RouterType,
+    RouterType (RouterType'),
     newRouterType,
     routerType_platform,
     routerType_routerTypeIdentifier,
@@ -353,19 +353,19 @@ module Amazonka.DirectConnect.Types
     routerType_xsltTemplateNameForMacSec,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_value,
     tag_key,
 
     -- * VirtualGateway
-    VirtualGateway,
+    VirtualGateway (VirtualGateway'),
     newVirtualGateway,
     virtualGateway_virtualGatewayId,
     virtualGateway_virtualGatewayState,
 
     -- * VirtualInterface
-    VirtualInterface,
+    VirtualInterface (VirtualInterface'),
     newVirtualInterface,
     virtualInterface_addressFamily,
     virtualInterface_amazonAddress,
@@ -395,7 +395,7 @@ module Amazonka.DirectConnect.Types
     virtualInterface_vlan,
 
     -- * VirtualInterfaceTestHistory
-    VirtualInterfaceTestHistory,
+    VirtualInterfaceTestHistory (VirtualInterfaceTestHistory'),
     newVirtualInterfaceTestHistory,
     virtualInterfaceTestHistory_bgpPeers,
     virtualInterfaceTestHistory_endTime,

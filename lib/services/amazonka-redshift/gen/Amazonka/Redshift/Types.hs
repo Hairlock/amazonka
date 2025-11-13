@@ -150,126 +150,126 @@ module Amazonka.Redshift.Types
     module Amazonka.Redshift.Internal,
 
     -- * ActionType
-    ActionType,
+    ActionType (ActionType'),
 
     -- * AquaConfigurationStatus
-    AquaConfigurationStatus,
+    AquaConfigurationStatus (AquaConfigurationStatus'),
 
     -- * AquaStatus
-    AquaStatus,
+    AquaStatus (AquaStatus'),
 
     -- * AuthorizationStatus
-    AuthorizationStatus,
+    AuthorizationStatus (AuthorizationStatus'),
 
     -- * DataShareStatus
-    DataShareStatus,
+    DataShareStatus (DataShareStatus'),
 
     -- * DataShareStatusForConsumer
-    DataShareStatusForConsumer,
+    DataShareStatusForConsumer (DataShareStatusForConsumer'),
 
     -- * DataShareStatusForProducer
-    DataShareStatusForProducer,
+    DataShareStatusForProducer (DataShareStatusForProducer'),
 
     -- * LogDestinationType
-    LogDestinationType,
+    LogDestinationType (LogDestinationType'),
 
     -- * Mode
-    Mode,
+    Mode (Mode'),
 
     -- * NodeConfigurationOptionsFilterName
-    NodeConfigurationOptionsFilterName,
+    NodeConfigurationOptionsFilterName (NodeConfigurationOptionsFilterName'),
 
     -- * OperatorType
-    OperatorType,
+    OperatorType (OperatorType'),
 
     -- * ParameterApplyType
-    ParameterApplyType,
+    ParameterApplyType (ParameterApplyType'),
 
     -- * PartnerIntegrationStatus
-    PartnerIntegrationStatus,
+    PartnerIntegrationStatus (PartnerIntegrationStatus'),
 
     -- * ReservedNodeExchangeActionType
-    ReservedNodeExchangeActionType,
+    ReservedNodeExchangeActionType (ReservedNodeExchangeActionType'),
 
     -- * ReservedNodeExchangeStatusType
-    ReservedNodeExchangeStatusType,
+    ReservedNodeExchangeStatusType (ReservedNodeExchangeStatusType'),
 
     -- * ReservedNodeOfferingType
-    ReservedNodeOfferingType,
+    ReservedNodeOfferingType (ReservedNodeOfferingType'),
 
     -- * ScheduleState
-    ScheduleState,
+    ScheduleState (ScheduleState'),
 
     -- * ScheduledActionFilterName
-    ScheduledActionFilterName,
+    ScheduledActionFilterName (ScheduledActionFilterName'),
 
     -- * ScheduledActionState
-    ScheduledActionState,
+    ScheduledActionState (ScheduledActionState'),
 
     -- * ScheduledActionTypeValues
-    ScheduledActionTypeValues,
+    ScheduledActionTypeValues (ScheduledActionTypeValues'),
 
     -- * SnapshotAttributeToSortBy
-    SnapshotAttributeToSortBy,
+    SnapshotAttributeToSortBy (SnapshotAttributeToSortBy'),
 
     -- * SortByOrder
-    SortByOrder,
+    SortByOrder (SortByOrder'),
 
     -- * SourceType
-    SourceType,
+    SourceType (SourceType'),
 
     -- * TableRestoreStatusType
-    TableRestoreStatusType,
+    TableRestoreStatusType (TableRestoreStatusType'),
 
     -- * UsageLimitBreachAction
-    UsageLimitBreachAction,
+    UsageLimitBreachAction (UsageLimitBreachAction'),
 
     -- * UsageLimitFeatureType
-    UsageLimitFeatureType,
+    UsageLimitFeatureType (UsageLimitFeatureType'),
 
     -- * UsageLimitLimitType
-    UsageLimitLimitType,
+    UsageLimitLimitType (UsageLimitLimitType'),
 
     -- * UsageLimitPeriod
-    UsageLimitPeriod,
+    UsageLimitPeriod (UsageLimitPeriod'),
 
     -- * AccountAttribute
-    AccountAttribute,
+    AccountAttribute (AccountAttribute'),
     newAccountAttribute,
     accountAttribute_attributeName,
     accountAttribute_attributeValues,
 
     -- * AccountWithRestoreAccess
-    AccountWithRestoreAccess,
+    AccountWithRestoreAccess (AccountWithRestoreAccess'),
     newAccountWithRestoreAccess,
     accountWithRestoreAccess_accountAlias,
     accountWithRestoreAccess_accountId,
 
     -- * AquaConfiguration
-    AquaConfiguration,
+    AquaConfiguration (AquaConfiguration'),
     newAquaConfiguration,
     aquaConfiguration_aquaConfigurationStatus,
     aquaConfiguration_aquaStatus,
 
     -- * AttributeValueTarget
-    AttributeValueTarget,
+    AttributeValueTarget (AttributeValueTarget'),
     newAttributeValueTarget,
     attributeValueTarget_attributeValue,
 
     -- * AuthenticationProfile
-    AuthenticationProfile,
+    AuthenticationProfile (AuthenticationProfile'),
     newAuthenticationProfile,
     authenticationProfile_authenticationProfileContent,
     authenticationProfile_authenticationProfileName,
 
     -- * AvailabilityZone
-    AvailabilityZone,
+    AvailabilityZone (AvailabilityZone'),
     newAvailabilityZone,
     availabilityZone_name,
     availabilityZone_supportedPlatforms,
 
     -- * Cluster
-    Cluster,
+    Cluster (Cluster'),
     newCluster,
     cluster_allowVersionUpgrade,
     cluster_aquaConfiguration,
@@ -325,13 +325,13 @@ module Amazonka.Redshift.Types
     cluster_vpcSecurityGroups,
 
     -- * ClusterAssociatedToSchedule
-    ClusterAssociatedToSchedule,
+    ClusterAssociatedToSchedule (ClusterAssociatedToSchedule'),
     newClusterAssociatedToSchedule,
     clusterAssociatedToSchedule_clusterIdentifier,
     clusterAssociatedToSchedule_scheduleAssociationState,
 
     -- * ClusterDbRevision
-    ClusterDbRevision,
+    ClusterDbRevision (ClusterDbRevision'),
     newClusterDbRevision,
     clusterDbRevision_clusterIdentifier,
     clusterDbRevision_currentDatabaseRevision,
@@ -339,20 +339,20 @@ module Amazonka.Redshift.Types
     clusterDbRevision_revisionTargets,
 
     -- * ClusterIamRole
-    ClusterIamRole,
+    ClusterIamRole (ClusterIamRole'),
     newClusterIamRole,
     clusterIamRole_applyStatus,
     clusterIamRole_iamRoleArn,
 
     -- * ClusterNode
-    ClusterNode,
+    ClusterNode (ClusterNode'),
     newClusterNode,
     clusterNode_nodeRole,
     clusterNode_privateIPAddress,
     clusterNode_publicIPAddress,
 
     -- * ClusterParameterGroup
-    ClusterParameterGroup,
+    ClusterParameterGroup (ClusterParameterGroup'),
     newClusterParameterGroup,
     clusterParameterGroup_description,
     clusterParameterGroup_parameterGroupFamily,
@@ -360,27 +360,27 @@ module Amazonka.Redshift.Types
     clusterParameterGroup_tags,
 
     -- * ClusterParameterGroupNameMessage
-    ClusterParameterGroupNameMessage,
+    ClusterParameterGroupNameMessage (ClusterParameterGroupNameMessage'),
     newClusterParameterGroupNameMessage,
     clusterParameterGroupNameMessage_parameterGroupName,
     clusterParameterGroupNameMessage_parameterGroupStatus,
 
     -- * ClusterParameterGroupStatus
-    ClusterParameterGroupStatus,
+    ClusterParameterGroupStatus (ClusterParameterGroupStatus'),
     newClusterParameterGroupStatus,
     clusterParameterGroupStatus_clusterParameterStatusList,
     clusterParameterGroupStatus_parameterApplyStatus,
     clusterParameterGroupStatus_parameterGroupName,
 
     -- * ClusterParameterStatus
-    ClusterParameterStatus,
+    ClusterParameterStatus (ClusterParameterStatus'),
     newClusterParameterStatus,
     clusterParameterStatus_parameterApplyErrorDescription,
     clusterParameterStatus_parameterApplyStatus,
     clusterParameterStatus_parameterName,
 
     -- * ClusterSecurityGroup
-    ClusterSecurityGroup,
+    ClusterSecurityGroup (ClusterSecurityGroup'),
     newClusterSecurityGroup,
     clusterSecurityGroup_clusterSecurityGroupName,
     clusterSecurityGroup_description,
@@ -389,13 +389,13 @@ module Amazonka.Redshift.Types
     clusterSecurityGroup_tags,
 
     -- * ClusterSecurityGroupMembership
-    ClusterSecurityGroupMembership,
+    ClusterSecurityGroupMembership (ClusterSecurityGroupMembership'),
     newClusterSecurityGroupMembership,
     clusterSecurityGroupMembership_clusterSecurityGroupName,
     clusterSecurityGroupMembership_status,
 
     -- * ClusterSnapshotCopyStatus
-    ClusterSnapshotCopyStatus,
+    ClusterSnapshotCopyStatus (ClusterSnapshotCopyStatus'),
     newClusterSnapshotCopyStatus,
     clusterSnapshotCopyStatus_destinationRegion,
     clusterSnapshotCopyStatus_manualSnapshotRetentionPeriod,
@@ -403,7 +403,7 @@ module Amazonka.Redshift.Types
     clusterSnapshotCopyStatus_snapshotCopyGrantName,
 
     -- * ClusterSubnetGroup
-    ClusterSubnetGroup,
+    ClusterSubnetGroup (ClusterSubnetGroup'),
     newClusterSubnetGroup,
     clusterSubnetGroup_clusterSubnetGroupName,
     clusterSubnetGroup_description,
@@ -413,14 +413,14 @@ module Amazonka.Redshift.Types
     clusterSubnetGroup_vpcId,
 
     -- * ClusterVersion
-    ClusterVersion,
+    ClusterVersion (ClusterVersion'),
     newClusterVersion,
     clusterVersion_clusterParameterGroupFamily,
     clusterVersion_clusterVersion,
     clusterVersion_description,
 
     -- * DataShare
-    DataShare,
+    DataShare (DataShare'),
     newDataShare,
     dataShare_allowPubliclyAccessibleConsumers,
     dataShare_dataShareArn,
@@ -429,7 +429,7 @@ module Amazonka.Redshift.Types
     dataShare_producerArn,
 
     -- * DataShareAssociation
-    DataShareAssociation,
+    DataShareAssociation (DataShareAssociation'),
     newDataShareAssociation,
     dataShareAssociation_consumerIdentifier,
     dataShareAssociation_consumerRegion,
@@ -438,7 +438,7 @@ module Amazonka.Redshift.Types
     dataShareAssociation_statusChangeDate,
 
     -- * DataTransferProgress
-    DataTransferProgress,
+    DataTransferProgress (DataTransferProgress'),
     newDataTransferProgress,
     dataTransferProgress_currentRateInMegaBytesPerSecond,
     dataTransferProgress_dataTransferredInMegaBytes,
@@ -448,27 +448,27 @@ module Amazonka.Redshift.Types
     dataTransferProgress_totalDataInMegaBytes,
 
     -- * DefaultClusterParameters
-    DefaultClusterParameters,
+    DefaultClusterParameters (DefaultClusterParameters'),
     newDefaultClusterParameters,
     defaultClusterParameters_marker,
     defaultClusterParameters_parameterGroupFamily,
     defaultClusterParameters_parameters,
 
     -- * DeferredMaintenanceWindow
-    DeferredMaintenanceWindow,
+    DeferredMaintenanceWindow (DeferredMaintenanceWindow'),
     newDeferredMaintenanceWindow,
     deferredMaintenanceWindow_deferMaintenanceEndTime,
     deferredMaintenanceWindow_deferMaintenanceIdentifier,
     deferredMaintenanceWindow_deferMaintenanceStartTime,
 
     -- * DeleteClusterSnapshotMessage
-    DeleteClusterSnapshotMessage,
+    DeleteClusterSnapshotMessage (DeleteClusterSnapshotMessage'),
     newDeleteClusterSnapshotMessage,
     deleteClusterSnapshotMessage_snapshotClusterIdentifier,
     deleteClusterSnapshotMessage_snapshotIdentifier,
 
     -- * EC2SecurityGroup
-    EC2SecurityGroup,
+    EC2SecurityGroup (EC2SecurityGroup'),
     newEC2SecurityGroup,
     eC2SecurityGroup_eC2SecurityGroupName,
     eC2SecurityGroup_eC2SecurityGroupOwnerId,
@@ -476,20 +476,20 @@ module Amazonka.Redshift.Types
     eC2SecurityGroup_tags,
 
     -- * ElasticIpStatus
-    ElasticIpStatus,
+    ElasticIpStatus (ElasticIpStatus'),
     newElasticIpStatus,
     elasticIpStatus_elasticIp,
     elasticIpStatus_status,
 
     -- * Endpoint
-    Endpoint,
+    Endpoint (Endpoint'),
     newEndpoint,
     endpoint_address,
     endpoint_port,
     endpoint_vpcEndpoints,
 
     -- * EndpointAccess
-    EndpointAccess,
+    EndpointAccess (EndpointAccess'),
     newEndpointAccess,
     endpointAccess_address,
     endpointAccess_clusterIdentifier,
@@ -503,7 +503,7 @@ module Amazonka.Redshift.Types
     endpointAccess_vpcSecurityGroups,
 
     -- * EndpointAuthorization
-    EndpointAuthorization,
+    EndpointAuthorization (EndpointAuthorization'),
     newEndpointAuthorization,
     endpointAuthorization_allowedAllVPCs,
     endpointAuthorization_allowedVPCs,
@@ -516,7 +516,7 @@ module Amazonka.Redshift.Types
     endpointAuthorization_status,
 
     -- * Event
-    Event,
+    Event (Event'),
     newEvent,
     event_date,
     event_eventCategories,
@@ -527,13 +527,13 @@ module Amazonka.Redshift.Types
     event_sourceType,
 
     -- * EventCategoriesMap
-    EventCategoriesMap,
+    EventCategoriesMap (EventCategoriesMap'),
     newEventCategoriesMap,
     eventCategoriesMap_events,
     eventCategoriesMap_sourceType,
 
     -- * EventInfoMap
-    EventInfoMap,
+    EventInfoMap (EventInfoMap'),
     newEventInfoMap,
     eventInfoMap_eventCategories,
     eventInfoMap_eventDescription,
@@ -541,7 +541,7 @@ module Amazonka.Redshift.Types
     eventInfoMap_severity,
 
     -- * EventSubscription
-    EventSubscription,
+    EventSubscription (EventSubscription'),
     newEventSubscription,
     eventSubscription_custSubscriptionId,
     eventSubscription_customerAwsId,
@@ -556,14 +556,14 @@ module Amazonka.Redshift.Types
     eventSubscription_tags,
 
     -- * HsmClientCertificate
-    HsmClientCertificate,
+    HsmClientCertificate (HsmClientCertificate'),
     newHsmClientCertificate,
     hsmClientCertificate_hsmClientCertificateIdentifier,
     hsmClientCertificate_hsmClientCertificatePublicKey,
     hsmClientCertificate_tags,
 
     -- * HsmConfiguration
-    HsmConfiguration,
+    HsmConfiguration (HsmConfiguration'),
     newHsmConfiguration,
     hsmConfiguration_description,
     hsmConfiguration_hsmConfigurationIdentifier,
@@ -572,21 +572,21 @@ module Amazonka.Redshift.Types
     hsmConfiguration_tags,
 
     -- * HsmStatus
-    HsmStatus,
+    HsmStatus (HsmStatus'),
     newHsmStatus,
     hsmStatus_hsmClientCertificateIdentifier,
     hsmStatus_hsmConfigurationIdentifier,
     hsmStatus_status,
 
     -- * IPRange
-    IPRange,
+    IPRange (IPRange'),
     newIPRange,
     iPRange_cidrip,
     iPRange_status,
     iPRange_tags,
 
     -- * LoggingStatus
-    LoggingStatus,
+    LoggingStatus (LoggingStatus'),
     newLoggingStatus,
     loggingStatus_bucketName,
     loggingStatus_lastFailureMessage,
@@ -598,14 +598,14 @@ module Amazonka.Redshift.Types
     loggingStatus_s3KeyPrefix,
 
     -- * MaintenanceTrack
-    MaintenanceTrack,
+    MaintenanceTrack (MaintenanceTrack'),
     newMaintenanceTrack,
     maintenanceTrack_databaseVersion,
     maintenanceTrack_maintenanceTrackName,
     maintenanceTrack_updateTargets,
 
     -- * NetworkInterface
-    NetworkInterface,
+    NetworkInterface (NetworkInterface'),
     newNetworkInterface,
     networkInterface_availabilityZone,
     networkInterface_networkInterfaceId,
@@ -613,7 +613,7 @@ module Amazonka.Redshift.Types
     networkInterface_subnetId,
 
     -- * NodeConfigurationOption
-    NodeConfigurationOption,
+    NodeConfigurationOption (NodeConfigurationOption'),
     newNodeConfigurationOption,
     nodeConfigurationOption_estimatedDiskUtilizationPercent,
     nodeConfigurationOption_mode,
@@ -621,14 +621,14 @@ module Amazonka.Redshift.Types
     nodeConfigurationOption_numberOfNodes,
 
     -- * NodeConfigurationOptionsFilter
-    NodeConfigurationOptionsFilter,
+    NodeConfigurationOptionsFilter (NodeConfigurationOptionsFilter'),
     newNodeConfigurationOptionsFilter,
     nodeConfigurationOptionsFilter_name,
     nodeConfigurationOptionsFilter_operator,
     nodeConfigurationOptionsFilter_values,
 
     -- * OrderableClusterOption
-    OrderableClusterOption,
+    OrderableClusterOption (OrderableClusterOption'),
     newOrderableClusterOption,
     orderableClusterOption_availabilityZones,
     orderableClusterOption_clusterType,
@@ -636,7 +636,7 @@ module Amazonka.Redshift.Types
     orderableClusterOption_nodeType,
 
     -- * Parameter
-    Parameter,
+    Parameter (Parameter'),
     newParameter,
     parameter_allowedValues,
     parameter_applyType,
@@ -649,7 +649,7 @@ module Amazonka.Redshift.Types
     parameter_source,
 
     -- * PartnerIntegrationInfo
-    PartnerIntegrationInfo,
+    PartnerIntegrationInfo (PartnerIntegrationInfo'),
     newPartnerIntegrationInfo,
     partnerIntegrationInfo_createdAt,
     partnerIntegrationInfo_databaseName,
@@ -659,7 +659,7 @@ module Amazonka.Redshift.Types
     partnerIntegrationInfo_updatedAt,
 
     -- * PartnerIntegrationInputMessage
-    PartnerIntegrationInputMessage,
+    PartnerIntegrationInputMessage (PartnerIntegrationInputMessage'),
     newPartnerIntegrationInputMessage,
     partnerIntegrationInputMessage_accountId,
     partnerIntegrationInputMessage_clusterIdentifier,
@@ -667,18 +667,18 @@ module Amazonka.Redshift.Types
     partnerIntegrationInputMessage_partnerName,
 
     -- * PartnerIntegrationOutputMessage
-    PartnerIntegrationOutputMessage,
+    PartnerIntegrationOutputMessage (PartnerIntegrationOutputMessage'),
     newPartnerIntegrationOutputMessage,
     partnerIntegrationOutputMessage_databaseName,
     partnerIntegrationOutputMessage_partnerName,
 
     -- * PauseClusterMessage
-    PauseClusterMessage,
+    PauseClusterMessage (PauseClusterMessage'),
     newPauseClusterMessage,
     pauseClusterMessage_clusterIdentifier,
 
     -- * PendingModifiedValues
-    PendingModifiedValues,
+    PendingModifiedValues (PendingModifiedValues'),
     newPendingModifiedValues,
     pendingModifiedValues_automatedSnapshotRetentionPeriod,
     pendingModifiedValues_clusterIdentifier,
@@ -693,13 +693,13 @@ module Amazonka.Redshift.Types
     pendingModifiedValues_publiclyAccessible,
 
     -- * RecurringCharge
-    RecurringCharge,
+    RecurringCharge (RecurringCharge'),
     newRecurringCharge,
     recurringCharge_recurringChargeAmount,
     recurringCharge_recurringChargeFrequency,
 
     -- * ReservedNode
-    ReservedNode,
+    ReservedNode (ReservedNode'),
     newReservedNode,
     reservedNode_currencyCode,
     reservedNode_duration,
@@ -716,14 +716,14 @@ module Amazonka.Redshift.Types
     reservedNode_usagePrice,
 
     -- * ReservedNodeConfigurationOption
-    ReservedNodeConfigurationOption,
+    ReservedNodeConfigurationOption (ReservedNodeConfigurationOption'),
     newReservedNodeConfigurationOption,
     reservedNodeConfigurationOption_sourceReservedNode,
     reservedNodeConfigurationOption_targetReservedNodeCount,
     reservedNodeConfigurationOption_targetReservedNodeOffering,
 
     -- * ReservedNodeExchangeStatus
-    ReservedNodeExchangeStatus,
+    ReservedNodeExchangeStatus (ReservedNodeExchangeStatus'),
     newReservedNodeExchangeStatus,
     reservedNodeExchangeStatus_requestTime,
     reservedNodeExchangeStatus_reservedNodeExchangeRequestId,
@@ -736,7 +736,7 @@ module Amazonka.Redshift.Types
     reservedNodeExchangeStatus_targetReservedNodeType,
 
     -- * ReservedNodeOffering
-    ReservedNodeOffering,
+    ReservedNodeOffering (ReservedNodeOffering'),
     newReservedNodeOffering,
     reservedNodeOffering_currencyCode,
     reservedNodeOffering_duration,
@@ -749,7 +749,7 @@ module Amazonka.Redshift.Types
     reservedNodeOffering_usagePrice,
 
     -- * ResizeClusterMessage
-    ResizeClusterMessage,
+    ResizeClusterMessage (ResizeClusterMessage'),
     newResizeClusterMessage,
     resizeClusterMessage_classic,
     resizeClusterMessage_clusterType,
@@ -760,13 +760,13 @@ module Amazonka.Redshift.Types
     resizeClusterMessage_clusterIdentifier,
 
     -- * ResizeInfo
-    ResizeInfo,
+    ResizeInfo (ResizeInfo'),
     newResizeInfo,
     resizeInfo_allowCancelResize,
     resizeInfo_resizeType,
 
     -- * ResizeProgressMessage
-    ResizeProgressMessage,
+    ResizeProgressMessage (ResizeProgressMessage'),
     newResizeProgressMessage,
     resizeProgressMessage_avgResizeRateInMegaBytesPerSecond,
     resizeProgressMessage_dataTransferProgressPercent,
@@ -786,7 +786,7 @@ module Amazonka.Redshift.Types
     resizeProgressMessage_totalResizeDataInMegaBytes,
 
     -- * RestoreStatus
-    RestoreStatus,
+    RestoreStatus (RestoreStatus'),
     newRestoreStatus,
     restoreStatus_currentRestoreRateInMegaBytesPerSecond,
     restoreStatus_elapsedTimeInSeconds,
@@ -796,19 +796,19 @@ module Amazonka.Redshift.Types
     restoreStatus_status,
 
     -- * ResumeClusterMessage
-    ResumeClusterMessage,
+    ResumeClusterMessage (ResumeClusterMessage'),
     newResumeClusterMessage,
     resumeClusterMessage_clusterIdentifier,
 
     -- * RevisionTarget
-    RevisionTarget,
+    RevisionTarget (RevisionTarget'),
     newRevisionTarget,
     revisionTarget_databaseRevision,
     revisionTarget_databaseRevisionReleaseDate,
     revisionTarget_description,
 
     -- * ScheduledAction
-    ScheduledAction,
+    ScheduledAction (ScheduledAction'),
     newScheduledAction,
     scheduledAction_endTime,
     scheduledAction_iamRole,
@@ -821,20 +821,20 @@ module Amazonka.Redshift.Types
     scheduledAction_targetAction,
 
     -- * ScheduledActionFilter
-    ScheduledActionFilter,
+    ScheduledActionFilter (ScheduledActionFilter'),
     newScheduledActionFilter,
     scheduledActionFilter_name,
     scheduledActionFilter_values,
 
     -- * ScheduledActionType
-    ScheduledActionType,
+    ScheduledActionType (ScheduledActionType'),
     newScheduledActionType,
     scheduledActionType_pauseCluster,
     scheduledActionType_resizeCluster,
     scheduledActionType_resumeCluster,
 
     -- * Snapshot
-    Snapshot,
+    Snapshot (Snapshot'),
     newSnapshot,
     snapshot_accountsWithRestoreAccess,
     snapshot_actualIncrementalBackupSizeInMegaBytes,
@@ -872,14 +872,14 @@ module Amazonka.Redshift.Types
     snapshot_vpcId,
 
     -- * SnapshotCopyGrant
-    SnapshotCopyGrant,
+    SnapshotCopyGrant (SnapshotCopyGrant'),
     newSnapshotCopyGrant,
     snapshotCopyGrant_kmsKeyId,
     snapshotCopyGrant_snapshotCopyGrantName,
     snapshotCopyGrant_tags,
 
     -- * SnapshotErrorMessage
-    SnapshotErrorMessage,
+    SnapshotErrorMessage (SnapshotErrorMessage'),
     newSnapshotErrorMessage,
     snapshotErrorMessage_failureCode,
     snapshotErrorMessage_failureReason,
@@ -887,7 +887,7 @@ module Amazonka.Redshift.Types
     snapshotErrorMessage_snapshotIdentifier,
 
     -- * SnapshotSchedule
-    SnapshotSchedule,
+    SnapshotSchedule (SnapshotSchedule'),
     newSnapshotSchedule,
     snapshotSchedule_associatedClusterCount,
     snapshotSchedule_associatedClusters,
@@ -898,30 +898,30 @@ module Amazonka.Redshift.Types
     snapshotSchedule_tags,
 
     -- * SnapshotSortingEntity
-    SnapshotSortingEntity,
+    SnapshotSortingEntity (SnapshotSortingEntity'),
     newSnapshotSortingEntity,
     snapshotSortingEntity_sortOrder,
     snapshotSortingEntity_attribute,
 
     -- * Subnet
-    Subnet,
+    Subnet (Subnet'),
     newSubnet,
     subnet_subnetAvailabilityZone,
     subnet_subnetIdentifier,
     subnet_subnetStatus,
 
     -- * SupportedOperation
-    SupportedOperation,
+    SupportedOperation (SupportedOperation'),
     newSupportedOperation,
     supportedOperation_operationName,
 
     -- * SupportedPlatform
-    SupportedPlatform,
+    SupportedPlatform (SupportedPlatform'),
     newSupportedPlatform,
     supportedPlatform_name,
 
     -- * TableRestoreStatus
-    TableRestoreStatus,
+    TableRestoreStatus (TableRestoreStatus'),
     newTableRestoreStatus,
     tableRestoreStatus_clusterIdentifier,
     tableRestoreStatus_message,
@@ -939,27 +939,27 @@ module Amazonka.Redshift.Types
     tableRestoreStatus_totalDataInMegaBytes,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
 
     -- * TaggedResource
-    TaggedResource,
+    TaggedResource (TaggedResource'),
     newTaggedResource,
     taggedResource_resourceName,
     taggedResource_resourceType,
     taggedResource_tag,
 
     -- * UpdateTarget
-    UpdateTarget,
+    UpdateTarget (UpdateTarget'),
     newUpdateTarget,
     updateTarget_databaseVersion,
     updateTarget_maintenanceTrackName,
     updateTarget_supportedOperations,
 
     -- * UsageLimit
-    UsageLimit,
+    UsageLimit (UsageLimit'),
     newUsageLimit,
     usageLimit_amount,
     usageLimit_breachAction,
@@ -971,14 +971,14 @@ module Amazonka.Redshift.Types
     usageLimit_usageLimitId,
 
     -- * VpcEndpoint
-    VpcEndpoint,
+    VpcEndpoint (VpcEndpoint'),
     newVpcEndpoint,
     vpcEndpoint_networkInterfaces,
     vpcEndpoint_vpcEndpointId,
     vpcEndpoint_vpcId,
 
     -- * VpcSecurityGroupMembership
-    VpcSecurityGroupMembership,
+    VpcSecurityGroupMembership (VpcSecurityGroupMembership'),
     newVpcSecurityGroupMembership,
     vpcSecurityGroupMembership_status,
     vpcSecurityGroupMembership_vpcSecurityGroupId,

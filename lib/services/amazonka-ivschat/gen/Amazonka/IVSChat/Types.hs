@@ -29,39 +29,39 @@ module Amazonka.IVSChat.Types
     _ValidationException,
 
     -- * ChatTokenCapability
-    ChatTokenCapability,
+    ChatTokenCapability (ChatTokenCapability'),
 
     -- * CreateLoggingConfigurationState
-    CreateLoggingConfigurationState,
+    CreateLoggingConfigurationState (CreateLoggingConfigurationState'),
 
     -- * FallbackResult
-    FallbackResult,
+    FallbackResult (FallbackResult'),
 
     -- * LoggingConfigurationState
-    LoggingConfigurationState,
+    LoggingConfigurationState (LoggingConfigurationState'),
 
     -- * UpdateLoggingConfigurationState
-    UpdateLoggingConfigurationState,
+    UpdateLoggingConfigurationState (UpdateLoggingConfigurationState'),
 
     -- * CloudWatchLogsDestinationConfiguration
-    CloudWatchLogsDestinationConfiguration,
+    CloudWatchLogsDestinationConfiguration (CloudWatchLogsDestinationConfiguration'),
     newCloudWatchLogsDestinationConfiguration,
     cloudWatchLogsDestinationConfiguration_logGroupName,
 
     -- * DestinationConfiguration
-    DestinationConfiguration,
+    DestinationConfiguration (DestinationConfiguration'),
     newDestinationConfiguration,
     destinationConfiguration_cloudWatchLogs,
     destinationConfiguration_firehose,
     destinationConfiguration_s3,
 
     -- * FirehoseDestinationConfiguration
-    FirehoseDestinationConfiguration,
+    FirehoseDestinationConfiguration (FirehoseDestinationConfiguration'),
     newFirehoseDestinationConfiguration,
     firehoseDestinationConfiguration_deliveryStreamName,
 
     -- * LoggingConfigurationSummary
-    LoggingConfigurationSummary,
+    LoggingConfigurationSummary (LoggingConfigurationSummary'),
     newLoggingConfigurationSummary,
     loggingConfigurationSummary_arn,
     loggingConfigurationSummary_createTime,
@@ -73,13 +73,13 @@ module Amazonka.IVSChat.Types
     loggingConfigurationSummary_updateTime,
 
     -- * MessageReviewHandler
-    MessageReviewHandler,
+    MessageReviewHandler (MessageReviewHandler'),
     newMessageReviewHandler,
     messageReviewHandler_fallbackResult,
     messageReviewHandler_uri,
 
     -- * RoomSummary
-    RoomSummary,
+    RoomSummary (RoomSummary'),
     newRoomSummary,
     roomSummary_arn,
     roomSummary_createTime,
@@ -91,7 +91,7 @@ module Amazonka.IVSChat.Types
     roomSummary_updateTime,
 
     -- * S3DestinationConfiguration
-    S3DestinationConfiguration,
+    S3DestinationConfiguration (S3DestinationConfiguration'),
     newS3DestinationConfiguration,
     s3DestinationConfiguration_bucketName,
   )

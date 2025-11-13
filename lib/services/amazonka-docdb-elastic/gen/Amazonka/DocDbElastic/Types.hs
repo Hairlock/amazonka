@@ -28,13 +28,13 @@ module Amazonka.DocDbElastic.Types
     _ValidationException,
 
     -- * Auth
-    Auth,
+    Auth (Auth'),
 
     -- * Status
-    Status,
+    Status (Status'),
 
     -- * Cluster
-    Cluster,
+    Cluster (Cluster'),
     newCluster,
     cluster_adminUserName,
     cluster_authType,
@@ -51,14 +51,14 @@ module Amazonka.DocDbElastic.Types
     cluster_vpcSecurityGroupIds,
 
     -- * ClusterInList
-    ClusterInList,
+    ClusterInList (ClusterInList'),
     newClusterInList,
     clusterInList_clusterArn,
     clusterInList_clusterName,
     clusterInList_status,
 
     -- * ClusterSnapshot
-    ClusterSnapshot,
+    ClusterSnapshot (ClusterSnapshot'),
     newClusterSnapshot,
     clusterSnapshot_adminUserName,
     clusterSnapshot_clusterArn,
@@ -72,7 +72,7 @@ module Amazonka.DocDbElastic.Types
     clusterSnapshot_vpcSecurityGroupIds,
 
     -- * ClusterSnapshotInList
-    ClusterSnapshotInList,
+    ClusterSnapshotInList (ClusterSnapshotInList'),
     newClusterSnapshotInList,
     clusterSnapshotInList_clusterArn,
     clusterSnapshotInList_snapshotArn,

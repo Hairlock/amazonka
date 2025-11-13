@@ -31,161 +31,161 @@ module Amazonka.AppFlow.Types
     _ValidationException,
 
     -- * AggregationType
-    AggregationType,
+    AggregationType (AggregationType'),
 
     -- * AmplitudeConnectorOperator
-    AmplitudeConnectorOperator,
+    AmplitudeConnectorOperator (AmplitudeConnectorOperator'),
 
     -- * AuthenticationType
-    AuthenticationType,
+    AuthenticationType (AuthenticationType'),
 
     -- * CatalogType
-    CatalogType,
+    CatalogType (CatalogType'),
 
     -- * ConnectionMode
-    ConnectionMode,
+    ConnectionMode (ConnectionMode'),
 
     -- * ConnectorProvisioningType
-    ConnectorProvisioningType,
+    ConnectorProvisioningType (ConnectorProvisioningType'),
 
     -- * ConnectorType
-    ConnectorType,
+    ConnectorType (ConnectorType'),
 
     -- * DataPullMode
-    DataPullMode,
+    DataPullMode (DataPullMode'),
 
     -- * DatadogConnectorOperator
-    DatadogConnectorOperator,
+    DatadogConnectorOperator (DatadogConnectorOperator'),
 
     -- * DynatraceConnectorOperator
-    DynatraceConnectorOperator,
+    DynatraceConnectorOperator (DynatraceConnectorOperator'),
 
     -- * ExecutionStatus
-    ExecutionStatus,
+    ExecutionStatus (ExecutionStatus'),
 
     -- * FileType
-    FileType,
+    FileType (FileType'),
 
     -- * FlowStatus
-    FlowStatus,
+    FlowStatus (FlowStatus'),
 
     -- * GoogleAnalyticsConnectorOperator
-    GoogleAnalyticsConnectorOperator,
+    GoogleAnalyticsConnectorOperator (GoogleAnalyticsConnectorOperator'),
 
     -- * InforNexusConnectorOperator
-    InforNexusConnectorOperator,
+    InforNexusConnectorOperator (InforNexusConnectorOperator'),
 
     -- * MarketoConnectorOperator
-    MarketoConnectorOperator,
+    MarketoConnectorOperator (MarketoConnectorOperator'),
 
     -- * OAuth2CustomPropType
-    OAuth2CustomPropType,
+    OAuth2CustomPropType (OAuth2CustomPropType'),
 
     -- * OAuth2GrantType
-    OAuth2GrantType,
+    OAuth2GrantType (OAuth2GrantType'),
 
     -- * Operator
-    Operator,
+    Operator (Operator'),
 
     -- * OperatorPropertiesKeys
-    OperatorPropertiesKeys,
+    OperatorPropertiesKeys (OperatorPropertiesKeys'),
 
     -- * Operators
-    Operators,
+    Operators (Operators'),
 
     -- * PathPrefix
-    PathPrefix,
+    PathPrefix (PathPrefix'),
 
     -- * PrefixFormat
-    PrefixFormat,
+    PrefixFormat (PrefixFormat'),
 
     -- * PrefixType
-    PrefixType,
+    PrefixType (PrefixType'),
 
     -- * PrivateConnectionProvisioningFailureCause
-    PrivateConnectionProvisioningFailureCause,
+    PrivateConnectionProvisioningFailureCause (PrivateConnectionProvisioningFailureCause'),
 
     -- * PrivateConnectionProvisioningStatus
-    PrivateConnectionProvisioningStatus,
+    PrivateConnectionProvisioningStatus (PrivateConnectionProvisioningStatus'),
 
     -- * S3ConnectorOperator
-    S3ConnectorOperator,
+    S3ConnectorOperator (S3ConnectorOperator'),
 
     -- * S3InputFileType
-    S3InputFileType,
+    S3InputFileType (S3InputFileType'),
 
     -- * SAPODataConnectorOperator
-    SAPODataConnectorOperator,
+    SAPODataConnectorOperator (SAPODataConnectorOperator'),
 
     -- * SalesforceConnectorOperator
-    SalesforceConnectorOperator,
+    SalesforceConnectorOperator (SalesforceConnectorOperator'),
 
     -- * SalesforceDataTransferApi
-    SalesforceDataTransferApi,
+    SalesforceDataTransferApi (SalesforceDataTransferApi'),
 
     -- * ScheduleFrequencyType
-    ScheduleFrequencyType,
+    ScheduleFrequencyType (ScheduleFrequencyType'),
 
     -- * ServiceNowConnectorOperator
-    ServiceNowConnectorOperator,
+    ServiceNowConnectorOperator (ServiceNowConnectorOperator'),
 
     -- * SingularConnectorOperator
-    SingularConnectorOperator,
+    SingularConnectorOperator (SingularConnectorOperator'),
 
     -- * SlackConnectorOperator
-    SlackConnectorOperator,
+    SlackConnectorOperator (SlackConnectorOperator'),
 
     -- * TaskType
-    TaskType,
+    TaskType (TaskType'),
 
     -- * TrendmicroConnectorOperator
-    TrendmicroConnectorOperator,
+    TrendmicroConnectorOperator (TrendmicroConnectorOperator'),
 
     -- * TriggerType
-    TriggerType,
+    TriggerType (TriggerType'),
 
     -- * VeevaConnectorOperator
-    VeevaConnectorOperator,
+    VeevaConnectorOperator (VeevaConnectorOperator'),
 
     -- * WriteOperationType
-    WriteOperationType,
+    WriteOperationType (WriteOperationType'),
 
     -- * ZendeskConnectorOperator
-    ZendeskConnectorOperator,
+    ZendeskConnectorOperator (ZendeskConnectorOperator'),
 
     -- * AggregationConfig
-    AggregationConfig,
+    AggregationConfig (AggregationConfig'),
     newAggregationConfig,
     aggregationConfig_aggregationType,
     aggregationConfig_targetFileSize,
 
     -- * AmplitudeConnectorProfileCredentials
-    AmplitudeConnectorProfileCredentials,
+    AmplitudeConnectorProfileCredentials (AmplitudeConnectorProfileCredentials'),
     newAmplitudeConnectorProfileCredentials,
     amplitudeConnectorProfileCredentials_apiKey,
     amplitudeConnectorProfileCredentials_secretKey,
 
     -- * AmplitudeConnectorProfileProperties
-    AmplitudeConnectorProfileProperties,
+    AmplitudeConnectorProfileProperties (AmplitudeConnectorProfileProperties'),
     newAmplitudeConnectorProfileProperties,
 
     -- * AmplitudeMetadata
-    AmplitudeMetadata,
+    AmplitudeMetadata (AmplitudeMetadata'),
     newAmplitudeMetadata,
 
     -- * AmplitudeSourceProperties
-    AmplitudeSourceProperties,
+    AmplitudeSourceProperties (AmplitudeSourceProperties'),
     newAmplitudeSourceProperties,
     amplitudeSourceProperties_object,
 
     -- * ApiKeyCredentials
-    ApiKeyCredentials,
+    ApiKeyCredentials (ApiKeyCredentials'),
     newApiKeyCredentials,
     apiKeyCredentials_apiSecretKey,
     apiKeyCredentials_apiKey,
 
     -- * AuthParameter
-    AuthParameter,
+    AuthParameter (AuthParameter'),
     newAuthParameter,
     authParameter_connectorSuppliedValues,
     authParameter_description,
@@ -195,7 +195,7 @@ module Amazonka.AppFlow.Types
     authParameter_label,
 
     -- * AuthenticationConfig
-    AuthenticationConfig,
+    AuthenticationConfig (AuthenticationConfig'),
     newAuthenticationConfig,
     authenticationConfig_customAuthConfigs,
     authenticationConfig_isApiKeyAuthSupported,
@@ -205,13 +205,13 @@ module Amazonka.AppFlow.Types
     authenticationConfig_oAuth2Defaults,
 
     -- * BasicAuthCredentials
-    BasicAuthCredentials,
+    BasicAuthCredentials (BasicAuthCredentials'),
     newBasicAuthCredentials,
     basicAuthCredentials_username,
     basicAuthCredentials_password,
 
     -- * ConnectorConfiguration
-    ConnectorConfiguration,
+    ConnectorConfiguration (ConnectorConfiguration'),
     newConnectorConfiguration,
     connectorConfiguration_authenticationConfig,
     connectorConfiguration_canUseAsDestination,
@@ -241,7 +241,7 @@ module Amazonka.AppFlow.Types
     connectorConfiguration_supportedWriteOperations,
 
     -- * ConnectorDetail
-    ConnectorDetail,
+    ConnectorDetail (ConnectorDetail'),
     newConnectorDetail,
     connectorDetail_applicationType,
     connectorDetail_connectorDescription,
@@ -256,14 +256,14 @@ module Amazonka.AppFlow.Types
     connectorDetail_registeredBy,
 
     -- * ConnectorEntity
-    ConnectorEntity,
+    ConnectorEntity (ConnectorEntity'),
     newConnectorEntity,
     connectorEntity_hasNestedEntities,
     connectorEntity_label,
     connectorEntity_name,
 
     -- * ConnectorEntityField
-    ConnectorEntityField,
+    ConnectorEntityField (ConnectorEntityField'),
     newConnectorEntityField,
     connectorEntityField_customProperties,
     connectorEntityField_defaultValue,
@@ -278,7 +278,7 @@ module Amazonka.AppFlow.Types
     connectorEntityField_identifier,
 
     -- * ConnectorMetadata
-    ConnectorMetadata,
+    ConnectorMetadata (ConnectorMetadata'),
     newConnectorMetadata,
     connectorMetadata_amplitude,
     connectorMetadata_customerProfiles,
@@ -303,13 +303,13 @@ module Amazonka.AppFlow.Types
     connectorMetadata_zendesk,
 
     -- * ConnectorOAuthRequest
-    ConnectorOAuthRequest,
+    ConnectorOAuthRequest (ConnectorOAuthRequest'),
     newConnectorOAuthRequest,
     connectorOAuthRequest_authCode,
     connectorOAuthRequest_redirectUri,
 
     -- * ConnectorOperator
-    ConnectorOperator,
+    ConnectorOperator (ConnectorOperator'),
     newConnectorOperator,
     connectorOperator_amplitude,
     connectorOperator_customConnector,
@@ -329,7 +329,7 @@ module Amazonka.AppFlow.Types
     connectorOperator_zendesk,
 
     -- * ConnectorProfile
-    ConnectorProfile,
+    ConnectorProfile (ConnectorProfile'),
     newConnectorProfile,
     connectorProfile_connectionMode,
     connectorProfile_connectorLabel,
@@ -343,13 +343,13 @@ module Amazonka.AppFlow.Types
     connectorProfile_privateConnectionProvisioningState,
 
     -- * ConnectorProfileConfig
-    ConnectorProfileConfig,
+    ConnectorProfileConfig (ConnectorProfileConfig'),
     newConnectorProfileConfig,
     connectorProfileConfig_connectorProfileCredentials,
     connectorProfileConfig_connectorProfileProperties,
 
     -- * ConnectorProfileCredentials
-    ConnectorProfileCredentials,
+    ConnectorProfileCredentials (ConnectorProfileCredentials'),
     newConnectorProfileCredentials,
     connectorProfileCredentials_amplitude,
     connectorProfileCredentials_customConnector,
@@ -371,7 +371,7 @@ module Amazonka.AppFlow.Types
     connectorProfileCredentials_zendesk,
 
     -- * ConnectorProfileProperties
-    ConnectorProfileProperties,
+    ConnectorProfileProperties (ConnectorProfileProperties'),
     newConnectorProfileProperties,
     connectorProfileProperties_amplitude,
     connectorProfileProperties_customConnector,
@@ -393,12 +393,12 @@ module Amazonka.AppFlow.Types
     connectorProfileProperties_zendesk,
 
     -- * ConnectorProvisioningConfig
-    ConnectorProvisioningConfig,
+    ConnectorProvisioningConfig (ConnectorProvisioningConfig'),
     newConnectorProvisioningConfig,
     connectorProvisioningConfig_lambda,
 
     -- * ConnectorRuntimeSetting
-    ConnectorRuntimeSetting,
+    ConnectorRuntimeSetting (ConnectorRuntimeSetting'),
     newConnectorRuntimeSetting,
     connectorRuntimeSetting_connectorSuppliedValueOptions,
     connectorRuntimeSetting_dataType,
@@ -409,19 +409,19 @@ module Amazonka.AppFlow.Types
     connectorRuntimeSetting_scope,
 
     -- * CustomAuthConfig
-    CustomAuthConfig,
+    CustomAuthConfig (CustomAuthConfig'),
     newCustomAuthConfig,
     customAuthConfig_authParameters,
     customAuthConfig_customAuthenticationType,
 
     -- * CustomAuthCredentials
-    CustomAuthCredentials,
+    CustomAuthCredentials (CustomAuthCredentials'),
     newCustomAuthCredentials,
     customAuthCredentials_credentialsMap,
     customAuthCredentials_customAuthenticationType,
 
     -- * CustomConnectorDestinationProperties
-    CustomConnectorDestinationProperties,
+    CustomConnectorDestinationProperties (CustomConnectorDestinationProperties'),
     newCustomConnectorDestinationProperties,
     customConnectorDestinationProperties_customProperties,
     customConnectorDestinationProperties_errorHandlingConfig,
@@ -430,7 +430,7 @@ module Amazonka.AppFlow.Types
     customConnectorDestinationProperties_entityName,
 
     -- * CustomConnectorProfileCredentials
-    CustomConnectorProfileCredentials,
+    CustomConnectorProfileCredentials (CustomConnectorProfileCredentials'),
     newCustomConnectorProfileCredentials,
     customConnectorProfileCredentials_apiKey,
     customConnectorProfileCredentials_basic,
@@ -439,49 +439,49 @@ module Amazonka.AppFlow.Types
     customConnectorProfileCredentials_authenticationType,
 
     -- * CustomConnectorProfileProperties
-    CustomConnectorProfileProperties,
+    CustomConnectorProfileProperties (CustomConnectorProfileProperties'),
     newCustomConnectorProfileProperties,
     customConnectorProfileProperties_oAuth2Properties,
     customConnectorProfileProperties_profileProperties,
 
     -- * CustomConnectorSourceProperties
-    CustomConnectorSourceProperties,
+    CustomConnectorSourceProperties (CustomConnectorSourceProperties'),
     newCustomConnectorSourceProperties,
     customConnectorSourceProperties_customProperties,
     customConnectorSourceProperties_entityName,
 
     -- * CustomerProfilesDestinationProperties
-    CustomerProfilesDestinationProperties,
+    CustomerProfilesDestinationProperties (CustomerProfilesDestinationProperties'),
     newCustomerProfilesDestinationProperties,
     customerProfilesDestinationProperties_objectTypeName,
     customerProfilesDestinationProperties_domainName,
 
     -- * CustomerProfilesMetadata
-    CustomerProfilesMetadata,
+    CustomerProfilesMetadata (CustomerProfilesMetadata'),
     newCustomerProfilesMetadata,
 
     -- * DatadogConnectorProfileCredentials
-    DatadogConnectorProfileCredentials,
+    DatadogConnectorProfileCredentials (DatadogConnectorProfileCredentials'),
     newDatadogConnectorProfileCredentials,
     datadogConnectorProfileCredentials_apiKey,
     datadogConnectorProfileCredentials_applicationKey,
 
     -- * DatadogConnectorProfileProperties
-    DatadogConnectorProfileProperties,
+    DatadogConnectorProfileProperties (DatadogConnectorProfileProperties'),
     newDatadogConnectorProfileProperties,
     datadogConnectorProfileProperties_instanceUrl,
 
     -- * DatadogMetadata
-    DatadogMetadata,
+    DatadogMetadata (DatadogMetadata'),
     newDatadogMetadata,
 
     -- * DatadogSourceProperties
-    DatadogSourceProperties,
+    DatadogSourceProperties (DatadogSourceProperties'),
     newDatadogSourceProperties,
     datadogSourceProperties_object,
 
     -- * DestinationConnectorProperties
-    DestinationConnectorProperties,
+    DestinationConnectorProperties (DestinationConnectorProperties'),
     newDestinationConnectorProperties,
     destinationConnectorProperties_customConnector,
     destinationConnectorProperties_customerProfiles,
@@ -498,7 +498,7 @@ module Amazonka.AppFlow.Types
     destinationConnectorProperties_zendesk,
 
     -- * DestinationFieldProperties
-    DestinationFieldProperties,
+    DestinationFieldProperties (DestinationFieldProperties'),
     newDestinationFieldProperties,
     destinationFieldProperties_isCreatable,
     destinationFieldProperties_isDefaultedOnCreate,
@@ -508,7 +508,7 @@ module Amazonka.AppFlow.Types
     destinationFieldProperties_supportedWriteOperations,
 
     -- * DestinationFlowConfig
-    DestinationFlowConfig,
+    DestinationFlowConfig (DestinationFlowConfig'),
     newDestinationFlowConfig,
     destinationFlowConfig_apiVersion,
     destinationFlowConfig_connectorProfileName,
@@ -516,56 +516,56 @@ module Amazonka.AppFlow.Types
     destinationFlowConfig_destinationConnectorProperties,
 
     -- * DynatraceConnectorProfileCredentials
-    DynatraceConnectorProfileCredentials,
+    DynatraceConnectorProfileCredentials (DynatraceConnectorProfileCredentials'),
     newDynatraceConnectorProfileCredentials,
     dynatraceConnectorProfileCredentials_apiToken,
 
     -- * DynatraceConnectorProfileProperties
-    DynatraceConnectorProfileProperties,
+    DynatraceConnectorProfileProperties (DynatraceConnectorProfileProperties'),
     newDynatraceConnectorProfileProperties,
     dynatraceConnectorProfileProperties_instanceUrl,
 
     -- * DynatraceMetadata
-    DynatraceMetadata,
+    DynatraceMetadata (DynatraceMetadata'),
     newDynatraceMetadata,
 
     -- * DynatraceSourceProperties
-    DynatraceSourceProperties,
+    DynatraceSourceProperties (DynatraceSourceProperties'),
     newDynatraceSourceProperties,
     dynatraceSourceProperties_object,
 
     -- * ErrorHandlingConfig
-    ErrorHandlingConfig,
+    ErrorHandlingConfig (ErrorHandlingConfig'),
     newErrorHandlingConfig,
     errorHandlingConfig_bucketName,
     errorHandlingConfig_bucketPrefix,
     errorHandlingConfig_failOnFirstDestinationError,
 
     -- * ErrorInfo
-    ErrorInfo,
+    ErrorInfo (ErrorInfo'),
     newErrorInfo,
     errorInfo_executionMessage,
     errorInfo_putFailuresCount,
 
     -- * EventBridgeDestinationProperties
-    EventBridgeDestinationProperties,
+    EventBridgeDestinationProperties (EventBridgeDestinationProperties'),
     newEventBridgeDestinationProperties,
     eventBridgeDestinationProperties_errorHandlingConfig,
     eventBridgeDestinationProperties_object,
 
     -- * EventBridgeMetadata
-    EventBridgeMetadata,
+    EventBridgeMetadata (EventBridgeMetadata'),
     newEventBridgeMetadata,
 
     -- * ExecutionDetails
-    ExecutionDetails,
+    ExecutionDetails (ExecutionDetails'),
     newExecutionDetails,
     executionDetails_mostRecentExecutionMessage,
     executionDetails_mostRecentExecutionStatus,
     executionDetails_mostRecentExecutionTime,
 
     -- * ExecutionRecord
-    ExecutionRecord,
+    ExecutionRecord (ExecutionRecord'),
     newExecutionRecord,
     executionRecord_dataPullEndTime,
     executionRecord_dataPullStartTime,
@@ -577,7 +577,7 @@ module Amazonka.AppFlow.Types
     executionRecord_startedAt,
 
     -- * ExecutionResult
-    ExecutionResult,
+    ExecutionResult (ExecutionResult'),
     newExecutionResult,
     executionResult_bytesProcessed,
     executionResult_bytesWritten,
@@ -585,7 +585,7 @@ module Amazonka.AppFlow.Types
     executionResult_recordsProcessed,
 
     -- * FieldTypeDetails
-    FieldTypeDetails,
+    FieldTypeDetails (FieldTypeDetails'),
     newFieldTypeDetails,
     fieldTypeDetails_fieldLengthRange,
     fieldTypeDetails_fieldValueRange,
@@ -596,7 +596,7 @@ module Amazonka.AppFlow.Types
     fieldTypeDetails_filterOperators,
 
     -- * FlowDefinition
-    FlowDefinition,
+    FlowDefinition (FlowDefinition'),
     newFlowDefinition,
     flowDefinition_createdAt,
     flowDefinition_createdBy,
@@ -615,14 +615,14 @@ module Amazonka.AppFlow.Types
     flowDefinition_triggerType,
 
     -- * GlueDataCatalogConfig
-    GlueDataCatalogConfig,
+    GlueDataCatalogConfig (GlueDataCatalogConfig'),
     newGlueDataCatalogConfig,
     glueDataCatalogConfig_roleArn,
     glueDataCatalogConfig_databaseName,
     glueDataCatalogConfig_tablePrefix,
 
     -- * GoogleAnalyticsConnectorProfileCredentials
-    GoogleAnalyticsConnectorProfileCredentials,
+    GoogleAnalyticsConnectorProfileCredentials (GoogleAnalyticsConnectorProfileCredentials'),
     newGoogleAnalyticsConnectorProfileCredentials,
     googleAnalyticsConnectorProfileCredentials_accessToken,
     googleAnalyticsConnectorProfileCredentials_oAuthRequest,
@@ -631,48 +631,48 @@ module Amazonka.AppFlow.Types
     googleAnalyticsConnectorProfileCredentials_clientSecret,
 
     -- * GoogleAnalyticsConnectorProfileProperties
-    GoogleAnalyticsConnectorProfileProperties,
+    GoogleAnalyticsConnectorProfileProperties (GoogleAnalyticsConnectorProfileProperties'),
     newGoogleAnalyticsConnectorProfileProperties,
 
     -- * GoogleAnalyticsMetadata
-    GoogleAnalyticsMetadata,
+    GoogleAnalyticsMetadata (GoogleAnalyticsMetadata'),
     newGoogleAnalyticsMetadata,
     googleAnalyticsMetadata_oAuthScopes,
 
     -- * GoogleAnalyticsSourceProperties
-    GoogleAnalyticsSourceProperties,
+    GoogleAnalyticsSourceProperties (GoogleAnalyticsSourceProperties'),
     newGoogleAnalyticsSourceProperties,
     googleAnalyticsSourceProperties_object,
 
     -- * HoneycodeConnectorProfileCredentials
-    HoneycodeConnectorProfileCredentials,
+    HoneycodeConnectorProfileCredentials (HoneycodeConnectorProfileCredentials'),
     newHoneycodeConnectorProfileCredentials,
     honeycodeConnectorProfileCredentials_accessToken,
     honeycodeConnectorProfileCredentials_oAuthRequest,
     honeycodeConnectorProfileCredentials_refreshToken,
 
     -- * HoneycodeConnectorProfileProperties
-    HoneycodeConnectorProfileProperties,
+    HoneycodeConnectorProfileProperties (HoneycodeConnectorProfileProperties'),
     newHoneycodeConnectorProfileProperties,
 
     -- * HoneycodeDestinationProperties
-    HoneycodeDestinationProperties,
+    HoneycodeDestinationProperties (HoneycodeDestinationProperties'),
     newHoneycodeDestinationProperties,
     honeycodeDestinationProperties_errorHandlingConfig,
     honeycodeDestinationProperties_object,
 
     -- * HoneycodeMetadata
-    HoneycodeMetadata,
+    HoneycodeMetadata (HoneycodeMetadata'),
     newHoneycodeMetadata,
     honeycodeMetadata_oAuthScopes,
 
     -- * IncrementalPullConfig
-    IncrementalPullConfig,
+    IncrementalPullConfig (IncrementalPullConfig'),
     newIncrementalPullConfig,
     incrementalPullConfig_datetimeTypeFieldName,
 
     -- * InforNexusConnectorProfileCredentials
-    InforNexusConnectorProfileCredentials,
+    InforNexusConnectorProfileCredentials (InforNexusConnectorProfileCredentials'),
     newInforNexusConnectorProfileCredentials,
     inforNexusConnectorProfileCredentials_accessKeyId,
     inforNexusConnectorProfileCredentials_userId,
@@ -680,30 +680,30 @@ module Amazonka.AppFlow.Types
     inforNexusConnectorProfileCredentials_datakey,
 
     -- * InforNexusConnectorProfileProperties
-    InforNexusConnectorProfileProperties,
+    InforNexusConnectorProfileProperties (InforNexusConnectorProfileProperties'),
     newInforNexusConnectorProfileProperties,
     inforNexusConnectorProfileProperties_instanceUrl,
 
     -- * InforNexusMetadata
-    InforNexusMetadata,
+    InforNexusMetadata (InforNexusMetadata'),
     newInforNexusMetadata,
 
     -- * InforNexusSourceProperties
-    InforNexusSourceProperties,
+    InforNexusSourceProperties (InforNexusSourceProperties'),
     newInforNexusSourceProperties,
     inforNexusSourceProperties_object,
 
     -- * LambdaConnectorProvisioningConfig
-    LambdaConnectorProvisioningConfig,
+    LambdaConnectorProvisioningConfig (LambdaConnectorProvisioningConfig'),
     newLambdaConnectorProvisioningConfig,
     lambdaConnectorProvisioningConfig_lambdaArn,
 
     -- * LookoutMetricsDestinationProperties
-    LookoutMetricsDestinationProperties,
+    LookoutMetricsDestinationProperties (LookoutMetricsDestinationProperties'),
     newLookoutMetricsDestinationProperties,
 
     -- * MarketoConnectorProfileCredentials
-    MarketoConnectorProfileCredentials,
+    MarketoConnectorProfileCredentials (MarketoConnectorProfileCredentials'),
     newMarketoConnectorProfileCredentials,
     marketoConnectorProfileCredentials_accessToken,
     marketoConnectorProfileCredentials_oAuthRequest,
@@ -711,32 +711,32 @@ module Amazonka.AppFlow.Types
     marketoConnectorProfileCredentials_clientSecret,
 
     -- * MarketoConnectorProfileProperties
-    MarketoConnectorProfileProperties,
+    MarketoConnectorProfileProperties (MarketoConnectorProfileProperties'),
     newMarketoConnectorProfileProperties,
     marketoConnectorProfileProperties_instanceUrl,
 
     -- * MarketoDestinationProperties
-    MarketoDestinationProperties,
+    MarketoDestinationProperties (MarketoDestinationProperties'),
     newMarketoDestinationProperties,
     marketoDestinationProperties_errorHandlingConfig,
     marketoDestinationProperties_object,
 
     -- * MarketoMetadata
-    MarketoMetadata,
+    MarketoMetadata (MarketoMetadata'),
     newMarketoMetadata,
 
     -- * MarketoSourceProperties
-    MarketoSourceProperties,
+    MarketoSourceProperties (MarketoSourceProperties'),
     newMarketoSourceProperties,
     marketoSourceProperties_object,
 
     -- * MetadataCatalogConfig
-    MetadataCatalogConfig,
+    MetadataCatalogConfig (MetadataCatalogConfig'),
     newMetadataCatalogConfig,
     metadataCatalogConfig_glueDataCatalog,
 
     -- * MetadataCatalogDetail
-    MetadataCatalogDetail,
+    MetadataCatalogDetail (MetadataCatalogDetail'),
     newMetadataCatalogDetail,
     metadataCatalogDetail_catalogType,
     metadataCatalogDetail_partitionRegistrationOutput,
@@ -744,7 +744,7 @@ module Amazonka.AppFlow.Types
     metadataCatalogDetail_tableRegistrationOutput,
 
     -- * OAuth2Credentials
-    OAuth2Credentials,
+    OAuth2Credentials (OAuth2Credentials'),
     newOAuth2Credentials,
     oAuth2Credentials_accessToken,
     oAuth2Credentials_clientId,
@@ -753,7 +753,7 @@ module Amazonka.AppFlow.Types
     oAuth2Credentials_refreshToken,
 
     -- * OAuth2CustomParameter
-    OAuth2CustomParameter,
+    OAuth2CustomParameter (OAuth2CustomParameter'),
     newOAuth2CustomParameter,
     oAuth2CustomParameter_connectorSuppliedValues,
     oAuth2CustomParameter_description,
@@ -764,7 +764,7 @@ module Amazonka.AppFlow.Types
     oAuth2CustomParameter_type,
 
     -- * OAuth2Defaults
-    OAuth2Defaults,
+    OAuth2Defaults (OAuth2Defaults'),
     newOAuth2Defaults,
     oAuth2Defaults_authCodeUrls,
     oAuth2Defaults_oauth2CustomProperties,
@@ -773,14 +773,14 @@ module Amazonka.AppFlow.Types
     oAuth2Defaults_tokenUrls,
 
     -- * OAuth2Properties
-    OAuth2Properties,
+    OAuth2Properties (OAuth2Properties'),
     newOAuth2Properties,
     oAuth2Properties_tokenUrlCustomProperties,
     oAuth2Properties_tokenUrl,
     oAuth2Properties_oAuth2GrantType,
 
     -- * OAuthCredentials
-    OAuthCredentials,
+    OAuthCredentials (OAuthCredentials'),
     newOAuthCredentials,
     oAuthCredentials_accessToken,
     oAuthCredentials_oAuthRequest,
@@ -789,40 +789,40 @@ module Amazonka.AppFlow.Types
     oAuthCredentials_clientSecret,
 
     -- * OAuthProperties
-    OAuthProperties,
+    OAuthProperties (OAuthProperties'),
     newOAuthProperties,
     oAuthProperties_tokenUrl,
     oAuthProperties_authCodeUrl,
     oAuthProperties_oAuthScopes,
 
     -- * PrefixConfig
-    PrefixConfig,
+    PrefixConfig (PrefixConfig'),
     newPrefixConfig,
     prefixConfig_pathPrefixHierarchy,
     prefixConfig_prefixFormat,
     prefixConfig_prefixType,
 
     -- * PrivateConnectionProvisioningState
-    PrivateConnectionProvisioningState,
+    PrivateConnectionProvisioningState (PrivateConnectionProvisioningState'),
     newPrivateConnectionProvisioningState,
     privateConnectionProvisioningState_failureCause,
     privateConnectionProvisioningState_failureMessage,
     privateConnectionProvisioningState_status,
 
     -- * Range
-    Range,
+    Range (Range'),
     newRange,
     range_maximum,
     range_minimum,
 
     -- * RedshiftConnectorProfileCredentials
-    RedshiftConnectorProfileCredentials,
+    RedshiftConnectorProfileCredentials (RedshiftConnectorProfileCredentials'),
     newRedshiftConnectorProfileCredentials,
     redshiftConnectorProfileCredentials_password,
     redshiftConnectorProfileCredentials_username,
 
     -- * RedshiftConnectorProfileProperties
-    RedshiftConnectorProfileProperties,
+    RedshiftConnectorProfileProperties (RedshiftConnectorProfileProperties'),
     newRedshiftConnectorProfileProperties,
     redshiftConnectorProfileProperties_bucketPrefix,
     redshiftConnectorProfileProperties_clusterIdentifier,
@@ -835,7 +835,7 @@ module Amazonka.AppFlow.Types
     redshiftConnectorProfileProperties_roleArn,
 
     -- * RedshiftDestinationProperties
-    RedshiftDestinationProperties,
+    RedshiftDestinationProperties (RedshiftDestinationProperties'),
     newRedshiftDestinationProperties,
     redshiftDestinationProperties_bucketPrefix,
     redshiftDestinationProperties_errorHandlingConfig,
@@ -843,34 +843,34 @@ module Amazonka.AppFlow.Types
     redshiftDestinationProperties_intermediateBucketName,
 
     -- * RedshiftMetadata
-    RedshiftMetadata,
+    RedshiftMetadata (RedshiftMetadata'),
     newRedshiftMetadata,
 
     -- * RegistrationOutput
-    RegistrationOutput,
+    RegistrationOutput (RegistrationOutput'),
     newRegistrationOutput,
     registrationOutput_message,
     registrationOutput_result,
     registrationOutput_status,
 
     -- * S3DestinationProperties
-    S3DestinationProperties,
+    S3DestinationProperties (S3DestinationProperties'),
     newS3DestinationProperties,
     s3DestinationProperties_bucketPrefix,
     s3DestinationProperties_s3OutputFormatConfig,
     s3DestinationProperties_bucketName,
 
     -- * S3InputFormatConfig
-    S3InputFormatConfig,
+    S3InputFormatConfig (S3InputFormatConfig'),
     newS3InputFormatConfig,
     s3InputFormatConfig_s3InputFileType,
 
     -- * S3Metadata
-    S3Metadata,
+    S3Metadata (S3Metadata'),
     newS3Metadata,
 
     -- * S3OutputFormatConfig
-    S3OutputFormatConfig,
+    S3OutputFormatConfig (S3OutputFormatConfig'),
     newS3OutputFormatConfig,
     s3OutputFormatConfig_aggregationConfig,
     s3OutputFormatConfig_fileType,
@@ -878,20 +878,20 @@ module Amazonka.AppFlow.Types
     s3OutputFormatConfig_preserveSourceDataTyping,
 
     -- * S3SourceProperties
-    S3SourceProperties,
+    S3SourceProperties (S3SourceProperties'),
     newS3SourceProperties,
     s3SourceProperties_bucketPrefix,
     s3SourceProperties_s3InputFormatConfig,
     s3SourceProperties_bucketName,
 
     -- * SAPODataConnectorProfileCredentials
-    SAPODataConnectorProfileCredentials,
+    SAPODataConnectorProfileCredentials (SAPODataConnectorProfileCredentials'),
     newSAPODataConnectorProfileCredentials,
     sAPODataConnectorProfileCredentials_basicAuthCredentials,
     sAPODataConnectorProfileCredentials_oAuthCredentials,
 
     -- * SAPODataConnectorProfileProperties
-    SAPODataConnectorProfileProperties,
+    SAPODataConnectorProfileProperties (SAPODataConnectorProfileProperties'),
     newSAPODataConnectorProfileProperties,
     sAPODataConnectorProfileProperties_logonLanguage,
     sAPODataConnectorProfileProperties_oAuthProperties,
@@ -902,7 +902,7 @@ module Amazonka.AppFlow.Types
     sAPODataConnectorProfileProperties_clientNumber,
 
     -- * SAPODataDestinationProperties
-    SAPODataDestinationProperties,
+    SAPODataDestinationProperties (SAPODataDestinationProperties'),
     newSAPODataDestinationProperties,
     sAPODataDestinationProperties_errorHandlingConfig,
     sAPODataDestinationProperties_idFieldNames,
@@ -911,16 +911,16 @@ module Amazonka.AppFlow.Types
     sAPODataDestinationProperties_objectPath,
 
     -- * SAPODataMetadata
-    SAPODataMetadata,
+    SAPODataMetadata (SAPODataMetadata'),
     newSAPODataMetadata,
 
     -- * SAPODataSourceProperties
-    SAPODataSourceProperties,
+    SAPODataSourceProperties (SAPODataSourceProperties'),
     newSAPODataSourceProperties,
     sAPODataSourceProperties_objectPath,
 
     -- * SalesforceConnectorProfileCredentials
-    SalesforceConnectorProfileCredentials,
+    SalesforceConnectorProfileCredentials (SalesforceConnectorProfileCredentials'),
     newSalesforceConnectorProfileCredentials,
     salesforceConnectorProfileCredentials_accessToken,
     salesforceConnectorProfileCredentials_clientCredentialsArn,
@@ -928,13 +928,13 @@ module Amazonka.AppFlow.Types
     salesforceConnectorProfileCredentials_refreshToken,
 
     -- * SalesforceConnectorProfileProperties
-    SalesforceConnectorProfileProperties,
+    SalesforceConnectorProfileProperties (SalesforceConnectorProfileProperties'),
     newSalesforceConnectorProfileProperties,
     salesforceConnectorProfileProperties_instanceUrl,
     salesforceConnectorProfileProperties_isSandboxEnvironment,
 
     -- * SalesforceDestinationProperties
-    SalesforceDestinationProperties,
+    SalesforceDestinationProperties (SalesforceDestinationProperties'),
     newSalesforceDestinationProperties,
     salesforceDestinationProperties_dataTransferApi,
     salesforceDestinationProperties_errorHandlingConfig,
@@ -943,13 +943,13 @@ module Amazonka.AppFlow.Types
     salesforceDestinationProperties_object,
 
     -- * SalesforceMetadata
-    SalesforceMetadata,
+    SalesforceMetadata (SalesforceMetadata'),
     newSalesforceMetadata,
     salesforceMetadata_dataTransferApis,
     salesforceMetadata_oAuthScopes,
 
     -- * SalesforceSourceProperties
-    SalesforceSourceProperties,
+    SalesforceSourceProperties (SalesforceSourceProperties'),
     newSalesforceSourceProperties,
     salesforceSourceProperties_dataTransferApi,
     salesforceSourceProperties_enableDynamicFieldUpdate,
@@ -957,7 +957,7 @@ module Amazonka.AppFlow.Types
     salesforceSourceProperties_object,
 
     -- * ScheduledTriggerProperties
-    ScheduledTriggerProperties,
+    ScheduledTriggerProperties (ScheduledTriggerProperties'),
     newScheduledTriggerProperties,
     scheduledTriggerProperties_dataPullMode,
     scheduledTriggerProperties_firstExecutionFrom,
@@ -969,45 +969,45 @@ module Amazonka.AppFlow.Types
     scheduledTriggerProperties_scheduleExpression,
 
     -- * ServiceNowConnectorProfileCredentials
-    ServiceNowConnectorProfileCredentials,
+    ServiceNowConnectorProfileCredentials (ServiceNowConnectorProfileCredentials'),
     newServiceNowConnectorProfileCredentials,
     serviceNowConnectorProfileCredentials_username,
     serviceNowConnectorProfileCredentials_password,
 
     -- * ServiceNowConnectorProfileProperties
-    ServiceNowConnectorProfileProperties,
+    ServiceNowConnectorProfileProperties (ServiceNowConnectorProfileProperties'),
     newServiceNowConnectorProfileProperties,
     serviceNowConnectorProfileProperties_instanceUrl,
 
     -- * ServiceNowMetadata
-    ServiceNowMetadata,
+    ServiceNowMetadata (ServiceNowMetadata'),
     newServiceNowMetadata,
 
     -- * ServiceNowSourceProperties
-    ServiceNowSourceProperties,
+    ServiceNowSourceProperties (ServiceNowSourceProperties'),
     newServiceNowSourceProperties,
     serviceNowSourceProperties_object,
 
     -- * SingularConnectorProfileCredentials
-    SingularConnectorProfileCredentials,
+    SingularConnectorProfileCredentials (SingularConnectorProfileCredentials'),
     newSingularConnectorProfileCredentials,
     singularConnectorProfileCredentials_apiKey,
 
     -- * SingularConnectorProfileProperties
-    SingularConnectorProfileProperties,
+    SingularConnectorProfileProperties (SingularConnectorProfileProperties'),
     newSingularConnectorProfileProperties,
 
     -- * SingularMetadata
-    SingularMetadata,
+    SingularMetadata (SingularMetadata'),
     newSingularMetadata,
 
     -- * SingularSourceProperties
-    SingularSourceProperties,
+    SingularSourceProperties (SingularSourceProperties'),
     newSingularSourceProperties,
     singularSourceProperties_object,
 
     -- * SlackConnectorProfileCredentials
-    SlackConnectorProfileCredentials,
+    SlackConnectorProfileCredentials (SlackConnectorProfileCredentials'),
     newSlackConnectorProfileCredentials,
     slackConnectorProfileCredentials_accessToken,
     slackConnectorProfileCredentials_oAuthRequest,
@@ -1015,28 +1015,28 @@ module Amazonka.AppFlow.Types
     slackConnectorProfileCredentials_clientSecret,
 
     -- * SlackConnectorProfileProperties
-    SlackConnectorProfileProperties,
+    SlackConnectorProfileProperties (SlackConnectorProfileProperties'),
     newSlackConnectorProfileProperties,
     slackConnectorProfileProperties_instanceUrl,
 
     -- * SlackMetadata
-    SlackMetadata,
+    SlackMetadata (SlackMetadata'),
     newSlackMetadata,
     slackMetadata_oAuthScopes,
 
     -- * SlackSourceProperties
-    SlackSourceProperties,
+    SlackSourceProperties (SlackSourceProperties'),
     newSlackSourceProperties,
     slackSourceProperties_object,
 
     -- * SnowflakeConnectorProfileCredentials
-    SnowflakeConnectorProfileCredentials,
+    SnowflakeConnectorProfileCredentials (SnowflakeConnectorProfileCredentials'),
     newSnowflakeConnectorProfileCredentials,
     snowflakeConnectorProfileCredentials_username,
     snowflakeConnectorProfileCredentials_password,
 
     -- * SnowflakeConnectorProfileProperties
-    SnowflakeConnectorProfileProperties,
+    SnowflakeConnectorProfileProperties (SnowflakeConnectorProfileProperties'),
     newSnowflakeConnectorProfileProperties,
     snowflakeConnectorProfileProperties_accountName,
     snowflakeConnectorProfileProperties_bucketPrefix,
@@ -1047,7 +1047,7 @@ module Amazonka.AppFlow.Types
     snowflakeConnectorProfileProperties_bucketName,
 
     -- * SnowflakeDestinationProperties
-    SnowflakeDestinationProperties,
+    SnowflakeDestinationProperties (SnowflakeDestinationProperties'),
     newSnowflakeDestinationProperties,
     snowflakeDestinationProperties_bucketPrefix,
     snowflakeDestinationProperties_errorHandlingConfig,
@@ -1055,12 +1055,12 @@ module Amazonka.AppFlow.Types
     snowflakeDestinationProperties_intermediateBucketName,
 
     -- * SnowflakeMetadata
-    SnowflakeMetadata,
+    SnowflakeMetadata (SnowflakeMetadata'),
     newSnowflakeMetadata,
     snowflakeMetadata_supportedRegions,
 
     -- * SourceConnectorProperties
-    SourceConnectorProperties,
+    SourceConnectorProperties (SourceConnectorProperties'),
     newSourceConnectorProperties,
     sourceConnectorProperties_amplitude,
     sourceConnectorProperties_customConnector,
@@ -1080,14 +1080,14 @@ module Amazonka.AppFlow.Types
     sourceConnectorProperties_zendesk,
 
     -- * SourceFieldProperties
-    SourceFieldProperties,
+    SourceFieldProperties (SourceFieldProperties'),
     newSourceFieldProperties,
     sourceFieldProperties_isQueryable,
     sourceFieldProperties_isRetrievable,
     sourceFieldProperties_isTimestampFieldForIncrementalQueries,
 
     -- * SourceFlowConfig
-    SourceFlowConfig,
+    SourceFlowConfig (SourceFlowConfig'),
     newSourceFlowConfig,
     sourceFlowConfig_apiVersion,
     sourceFlowConfig_connectorProfileName,
@@ -1096,18 +1096,18 @@ module Amazonka.AppFlow.Types
     sourceFlowConfig_sourceConnectorProperties,
 
     -- * SuccessResponseHandlingConfig
-    SuccessResponseHandlingConfig,
+    SuccessResponseHandlingConfig (SuccessResponseHandlingConfig'),
     newSuccessResponseHandlingConfig,
     successResponseHandlingConfig_bucketName,
     successResponseHandlingConfig_bucketPrefix,
 
     -- * SupportedFieldTypeDetails
-    SupportedFieldTypeDetails,
+    SupportedFieldTypeDetails (SupportedFieldTypeDetails'),
     newSupportedFieldTypeDetails,
     supportedFieldTypeDetails_v1,
 
     -- * Task
-    Task,
+    Task (Task'),
     newTask,
     task_connectorOperator,
     task_destinationField,
@@ -1116,69 +1116,69 @@ module Amazonka.AppFlow.Types
     task_taskType,
 
     -- * TrendmicroConnectorProfileCredentials
-    TrendmicroConnectorProfileCredentials,
+    TrendmicroConnectorProfileCredentials (TrendmicroConnectorProfileCredentials'),
     newTrendmicroConnectorProfileCredentials,
     trendmicroConnectorProfileCredentials_apiSecretKey,
 
     -- * TrendmicroConnectorProfileProperties
-    TrendmicroConnectorProfileProperties,
+    TrendmicroConnectorProfileProperties (TrendmicroConnectorProfileProperties'),
     newTrendmicroConnectorProfileProperties,
 
     -- * TrendmicroMetadata
-    TrendmicroMetadata,
+    TrendmicroMetadata (TrendmicroMetadata'),
     newTrendmicroMetadata,
 
     -- * TrendmicroSourceProperties
-    TrendmicroSourceProperties,
+    TrendmicroSourceProperties (TrendmicroSourceProperties'),
     newTrendmicroSourceProperties,
     trendmicroSourceProperties_object,
 
     -- * TriggerConfig
-    TriggerConfig,
+    TriggerConfig (TriggerConfig'),
     newTriggerConfig,
     triggerConfig_triggerProperties,
     triggerConfig_triggerType,
 
     -- * TriggerProperties
-    TriggerProperties,
+    TriggerProperties (TriggerProperties'),
     newTriggerProperties,
     triggerProperties_scheduled,
 
     -- * UpsolverDestinationProperties
-    UpsolverDestinationProperties,
+    UpsolverDestinationProperties (UpsolverDestinationProperties'),
     newUpsolverDestinationProperties,
     upsolverDestinationProperties_bucketPrefix,
     upsolverDestinationProperties_bucketName,
     upsolverDestinationProperties_s3OutputFormatConfig,
 
     -- * UpsolverMetadata
-    UpsolverMetadata,
+    UpsolverMetadata (UpsolverMetadata'),
     newUpsolverMetadata,
 
     -- * UpsolverS3OutputFormatConfig
-    UpsolverS3OutputFormatConfig,
+    UpsolverS3OutputFormatConfig (UpsolverS3OutputFormatConfig'),
     newUpsolverS3OutputFormatConfig,
     upsolverS3OutputFormatConfig_aggregationConfig,
     upsolverS3OutputFormatConfig_fileType,
     upsolverS3OutputFormatConfig_prefixConfig,
 
     -- * VeevaConnectorProfileCredentials
-    VeevaConnectorProfileCredentials,
+    VeevaConnectorProfileCredentials (VeevaConnectorProfileCredentials'),
     newVeevaConnectorProfileCredentials,
     veevaConnectorProfileCredentials_username,
     veevaConnectorProfileCredentials_password,
 
     -- * VeevaConnectorProfileProperties
-    VeevaConnectorProfileProperties,
+    VeevaConnectorProfileProperties (VeevaConnectorProfileProperties'),
     newVeevaConnectorProfileProperties,
     veevaConnectorProfileProperties_instanceUrl,
 
     -- * VeevaMetadata
-    VeevaMetadata,
+    VeevaMetadata (VeevaMetadata'),
     newVeevaMetadata,
 
     -- * VeevaSourceProperties
-    VeevaSourceProperties,
+    VeevaSourceProperties (VeevaSourceProperties'),
     newVeevaSourceProperties,
     veevaSourceProperties_documentType,
     veevaSourceProperties_includeAllVersions,
@@ -1187,7 +1187,7 @@ module Amazonka.AppFlow.Types
     veevaSourceProperties_object,
 
     -- * ZendeskConnectorProfileCredentials
-    ZendeskConnectorProfileCredentials,
+    ZendeskConnectorProfileCredentials (ZendeskConnectorProfileCredentials'),
     newZendeskConnectorProfileCredentials,
     zendeskConnectorProfileCredentials_accessToken,
     zendeskConnectorProfileCredentials_oAuthRequest,
@@ -1195,12 +1195,12 @@ module Amazonka.AppFlow.Types
     zendeskConnectorProfileCredentials_clientSecret,
 
     -- * ZendeskConnectorProfileProperties
-    ZendeskConnectorProfileProperties,
+    ZendeskConnectorProfileProperties (ZendeskConnectorProfileProperties'),
     newZendeskConnectorProfileProperties,
     zendeskConnectorProfileProperties_instanceUrl,
 
     -- * ZendeskDestinationProperties
-    ZendeskDestinationProperties,
+    ZendeskDestinationProperties (ZendeskDestinationProperties'),
     newZendeskDestinationProperties,
     zendeskDestinationProperties_errorHandlingConfig,
     zendeskDestinationProperties_idFieldNames,
@@ -1208,12 +1208,12 @@ module Amazonka.AppFlow.Types
     zendeskDestinationProperties_object,
 
     -- * ZendeskMetadata
-    ZendeskMetadata,
+    ZendeskMetadata (ZendeskMetadata'),
     newZendeskMetadata,
     zendeskMetadata_oAuthScopes,
 
     -- * ZendeskSourceProperties
-    ZendeskSourceProperties,
+    ZendeskSourceProperties (ZendeskSourceProperties'),
     newZendeskSourceProperties,
     zendeskSourceProperties_object,
   )

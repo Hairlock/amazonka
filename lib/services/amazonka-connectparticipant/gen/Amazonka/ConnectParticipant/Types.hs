@@ -27,25 +27,25 @@ module Amazonka.ConnectParticipant.Types
     _ValidationException,
 
     -- * ArtifactStatus
-    ArtifactStatus,
+    ArtifactStatus (ArtifactStatus'),
 
     -- * ChatItemType
-    ChatItemType,
+    ChatItemType (ChatItemType'),
 
     -- * ConnectionType
-    ConnectionType,
+    ConnectionType (ConnectionType'),
 
     -- * ParticipantRole
-    ParticipantRole,
+    ParticipantRole (ParticipantRole'),
 
     -- * ScanDirection
-    ScanDirection,
+    ScanDirection (ScanDirection'),
 
     -- * SortKey
-    SortKey,
+    SortKey (SortKey'),
 
     -- * AttachmentItem
-    AttachmentItem,
+    AttachmentItem (AttachmentItem'),
     newAttachmentItem,
     attachmentItem_attachmentId,
     attachmentItem_attachmentName,
@@ -53,13 +53,13 @@ module Amazonka.ConnectParticipant.Types
     attachmentItem_status,
 
     -- * ConnectionCredentials
-    ConnectionCredentials,
+    ConnectionCredentials (ConnectionCredentials'),
     newConnectionCredentials,
     connectionCredentials_connectionToken,
     connectionCredentials_expiry,
 
     -- * Item
-    Item,
+    Item (Item'),
     newItem,
     item_absoluteTime,
     item_attachments,
@@ -73,34 +73,34 @@ module Amazonka.ConnectParticipant.Types
     item_type,
 
     -- * MessageMetadata
-    MessageMetadata,
+    MessageMetadata (MessageMetadata'),
     newMessageMetadata,
     messageMetadata_messageId,
     messageMetadata_receipts,
 
     -- * Receipt
-    Receipt,
+    Receipt (Receipt'),
     newReceipt,
     receipt_deliveredTimestamp,
     receipt_readTimestamp,
     receipt_recipientParticipantId,
 
     -- * StartPosition
-    StartPosition,
+    StartPosition (StartPosition'),
     newStartPosition,
     startPosition_absoluteTime,
     startPosition_id,
     startPosition_mostRecent,
 
     -- * UploadMetadata
-    UploadMetadata,
+    UploadMetadata (UploadMetadata'),
     newUploadMetadata,
     uploadMetadata_headersToInclude,
     uploadMetadata_url,
     uploadMetadata_urlExpiry,
 
     -- * Websocket
-    Websocket,
+    Websocket (Websocket'),
     newWebsocket,
     websocket_connectionExpiry,
     websocket_url,

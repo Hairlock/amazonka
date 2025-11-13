@@ -28,86 +28,86 @@ module Amazonka.SSMIncidents.Types
     _ValidationException,
 
     -- * IncidentRecordStatus
-    IncidentRecordStatus,
+    IncidentRecordStatus (IncidentRecordStatus'),
 
     -- * ItemType
-    ItemType,
+    ItemType (ItemType'),
 
     -- * RegionStatus
-    RegionStatus,
+    RegionStatus (RegionStatus'),
 
     -- * ReplicationSetStatus
-    ReplicationSetStatus,
+    ReplicationSetStatus (ReplicationSetStatus'),
 
     -- * SortOrder
-    SortOrder,
+    SortOrder (SortOrder'),
 
     -- * SsmTargetAccount
-    SsmTargetAccount,
+    SsmTargetAccount (SsmTargetAccount'),
 
     -- * TimelineEventSort
-    TimelineEventSort,
+    TimelineEventSort (TimelineEventSort'),
 
     -- * VariableType
-    VariableType,
+    VariableType (VariableType'),
 
     -- * Action
-    Action,
+    Action (Action'),
     newAction,
     action_ssmAutomation,
 
     -- * AddRegionAction
-    AddRegionAction,
+    AddRegionAction (AddRegionAction'),
     newAddRegionAction,
     addRegionAction_sseKmsKeyId,
     addRegionAction_regionName,
 
     -- * AttributeValueList
-    AttributeValueList,
+    AttributeValueList (AttributeValueList'),
     newAttributeValueList,
     attributeValueList_integerValues,
     attributeValueList_stringValues,
 
     -- * AutomationExecution
-    AutomationExecution,
+    AutomationExecution (AutomationExecution'),
     newAutomationExecution,
     automationExecution_ssmExecutionArn,
 
     -- * ChatChannel
-    ChatChannel,
+    ChatChannel (ChatChannel'),
     newChatChannel,
     chatChannel_chatbotSns,
     chatChannel_empty,
 
     -- * Condition
-    Condition,
+    Condition (Condition'),
     newCondition,
     condition_after,
     condition_before,
     condition_equals,
 
     -- * DeleteRegionAction
-    DeleteRegionAction,
+    DeleteRegionAction (DeleteRegionAction'),
     newDeleteRegionAction,
     deleteRegionAction_regionName,
 
     -- * DynamicSsmParameterValue
-    DynamicSsmParameterValue,
+    DynamicSsmParameterValue (DynamicSsmParameterValue'),
     newDynamicSsmParameterValue,
     dynamicSsmParameterValue_variable,
 
     -- * EmptyChatChannel
-    EmptyChatChannel,
+    EmptyChatChannel (EmptyChatChannel'),
     newEmptyChatChannel,
 
     -- * EventReference
-    EventReference,
+    EventReference (EventReference'),
     newEventReference,
     eventReference_relatedItemId,
     eventReference_resource,
 
     -- * EventSummary
-    EventSummary,
+    EventSummary (EventSummary'),
     newEventSummary,
     eventSummary_eventReferences,
     eventSummary_eventId,
@@ -117,13 +117,13 @@ module Amazonka.SSMIncidents.Types
     eventSummary_incidentRecordArn,
 
     -- * Filter
-    Filter,
+    Filter (Filter'),
     newFilter,
     filter_condition,
     filter_key,
 
     -- * IncidentRecord
-    IncidentRecord,
+    IncidentRecord (IncidentRecord'),
     newIncidentRecord,
     incidentRecord_automationExecutions,
     incidentRecord_chatChannel,
@@ -141,7 +141,7 @@ module Amazonka.SSMIncidents.Types
     incidentRecord_title,
 
     -- * IncidentRecordSource
-    IncidentRecordSource,
+    IncidentRecordSource (IncidentRecordSource'),
     newIncidentRecordSource,
     incidentRecordSource_invokedBy,
     incidentRecordSource_resourceArn,
@@ -149,7 +149,7 @@ module Amazonka.SSMIncidents.Types
     incidentRecordSource_source,
 
     -- * IncidentRecordSummary
-    IncidentRecordSummary,
+    IncidentRecordSummary (IncidentRecordSummary'),
     newIncidentRecordSummary,
     incidentRecordSummary_resolvedTime,
     incidentRecordSummary_arn,
@@ -160,7 +160,7 @@ module Amazonka.SSMIncidents.Types
     incidentRecordSummary_title,
 
     -- * IncidentTemplate
-    IncidentTemplate,
+    IncidentTemplate (IncidentTemplate'),
     newIncidentTemplate,
     incidentTemplate_dedupeString,
     incidentTemplate_incidentTags,
@@ -170,18 +170,18 @@ module Amazonka.SSMIncidents.Types
     incidentTemplate_title,
 
     -- * Integration
-    Integration,
+    Integration (Integration'),
     newIntegration,
     integration_pagerDutyConfiguration,
 
     -- * ItemIdentifier
-    ItemIdentifier,
+    ItemIdentifier (ItemIdentifier'),
     newItemIdentifier,
     itemIdentifier_type,
     itemIdentifier_value,
 
     -- * ItemValue
-    ItemValue,
+    ItemValue (ItemValue'),
     newItemValue,
     itemValue_arn,
     itemValue_metricDefinition,
@@ -189,31 +189,31 @@ module Amazonka.SSMIncidents.Types
     itemValue_url,
 
     -- * NotificationTargetItem
-    NotificationTargetItem,
+    NotificationTargetItem (NotificationTargetItem'),
     newNotificationTargetItem,
     notificationTargetItem_snsTopicArn,
 
     -- * PagerDutyConfiguration
-    PagerDutyConfiguration,
+    PagerDutyConfiguration (PagerDutyConfiguration'),
     newPagerDutyConfiguration,
     pagerDutyConfiguration_name,
     pagerDutyConfiguration_pagerDutyIncidentConfiguration,
     pagerDutyConfiguration_secretId,
 
     -- * PagerDutyIncidentConfiguration
-    PagerDutyIncidentConfiguration,
+    PagerDutyIncidentConfiguration (PagerDutyIncidentConfiguration'),
     newPagerDutyIncidentConfiguration,
     pagerDutyIncidentConfiguration_serviceId,
 
     -- * PagerDutyIncidentDetail
-    PagerDutyIncidentDetail,
+    PagerDutyIncidentDetail (PagerDutyIncidentDetail'),
     newPagerDutyIncidentDetail,
     pagerDutyIncidentDetail_autoResolve,
     pagerDutyIncidentDetail_secretId,
     pagerDutyIncidentDetail_id,
 
     -- * RegionInfo
-    RegionInfo,
+    RegionInfo (RegionInfo'),
     newRegionInfo,
     regionInfo_sseKmsKeyId,
     regionInfo_statusMessage,
@@ -221,25 +221,25 @@ module Amazonka.SSMIncidents.Types
     regionInfo_statusUpdateDateTime,
 
     -- * RegionMapInputValue
-    RegionMapInputValue,
+    RegionMapInputValue (RegionMapInputValue'),
     newRegionMapInputValue,
     regionMapInputValue_sseKmsKeyId,
 
     -- * RelatedItem
-    RelatedItem,
+    RelatedItem (RelatedItem'),
     newRelatedItem,
     relatedItem_generatedId,
     relatedItem_title,
     relatedItem_identifier,
 
     -- * RelatedItemsUpdate
-    RelatedItemsUpdate,
+    RelatedItemsUpdate (RelatedItemsUpdate'),
     newRelatedItemsUpdate,
     relatedItemsUpdate_itemToAdd,
     relatedItemsUpdate_itemToRemove,
 
     -- * ReplicationSet
-    ReplicationSet,
+    ReplicationSet (ReplicationSet'),
     newReplicationSet,
     replicationSet_arn,
     replicationSet_createdBy,
@@ -251,21 +251,21 @@ module Amazonka.SSMIncidents.Types
     replicationSet_status,
 
     -- * ResourcePolicy
-    ResourcePolicy,
+    ResourcePolicy (ResourcePolicy'),
     newResourcePolicy,
     resourcePolicy_policyDocument,
     resourcePolicy_policyId,
     resourcePolicy_ramResourceShareRegion,
 
     -- * ResponsePlanSummary
-    ResponsePlanSummary,
+    ResponsePlanSummary (ResponsePlanSummary'),
     newResponsePlanSummary,
     responsePlanSummary_displayName,
     responsePlanSummary_arn,
     responsePlanSummary_name,
 
     -- * SsmAutomation
-    SsmAutomation,
+    SsmAutomation (SsmAutomation'),
     newSsmAutomation,
     ssmAutomation_documentVersion,
     ssmAutomation_dynamicParameters,
@@ -275,7 +275,7 @@ module Amazonka.SSMIncidents.Types
     ssmAutomation_roleArn,
 
     -- * TimelineEvent
-    TimelineEvent,
+    TimelineEvent (TimelineEvent'),
     newTimelineEvent,
     timelineEvent_eventReferences,
     timelineEvent_eventData,
@@ -286,7 +286,7 @@ module Amazonka.SSMIncidents.Types
     timelineEvent_incidentRecordArn,
 
     -- * TriggerDetails
-    TriggerDetails,
+    TriggerDetails (TriggerDetails'),
     newTriggerDetails,
     triggerDetails_rawData,
     triggerDetails_triggerArn,
@@ -294,7 +294,7 @@ module Amazonka.SSMIncidents.Types
     triggerDetails_timestamp,
 
     -- * UpdateReplicationSetAction
-    UpdateReplicationSetAction,
+    UpdateReplicationSetAction (UpdateReplicationSetAction'),
     newUpdateReplicationSetAction,
     updateReplicationSetAction_addRegionAction,
     updateReplicationSetAction_deleteRegionAction,

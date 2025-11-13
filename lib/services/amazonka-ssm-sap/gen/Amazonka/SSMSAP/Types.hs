@@ -25,37 +25,37 @@ module Amazonka.SSMSAP.Types
     _ValidationException,
 
     -- * ApplicationStatus
-    ApplicationStatus,
+    ApplicationStatus (ApplicationStatus'),
 
     -- * ApplicationType
-    ApplicationType,
+    ApplicationType (ApplicationType'),
 
     -- * ComponentStatus
-    ComponentStatus,
+    ComponentStatus (ComponentStatus'),
 
     -- * ComponentType
-    ComponentType,
+    ComponentType (ComponentType'),
 
     -- * CredentialType
-    CredentialType,
+    CredentialType (CredentialType'),
 
     -- * DatabaseStatus
-    DatabaseStatus,
+    DatabaseStatus (DatabaseStatus'),
 
     -- * DatabaseType
-    DatabaseType,
+    DatabaseType (DatabaseType'),
 
     -- * HostRole
-    HostRole,
+    HostRole (HostRole'),
 
     -- * OperationStatus
-    OperationStatus,
+    OperationStatus (OperationStatus'),
 
     -- * PermissionActionType
-    PermissionActionType,
+    PermissionActionType (PermissionActionType'),
 
     -- * Application
-    Application,
+    Application (Application'),
     newApplication,
     application_appRegistryArn,
     application_arn,
@@ -67,14 +67,14 @@ module Amazonka.SSMSAP.Types
     application_type,
 
     -- * ApplicationCredential
-    ApplicationCredential,
+    ApplicationCredential (ApplicationCredential'),
     newApplicationCredential,
     applicationCredential_databaseName,
     applicationCredential_credentialType,
     applicationCredential_secretId,
 
     -- * ApplicationSummary
-    ApplicationSummary,
+    ApplicationSummary (ApplicationSummary'),
     newApplicationSummary,
     applicationSummary_arn,
     applicationSummary_id,
@@ -82,7 +82,7 @@ module Amazonka.SSMSAP.Types
     applicationSummary_type,
 
     -- * Component
-    Component,
+    Component (Component'),
     newComponent,
     component_applicationId,
     component_componentId,
@@ -94,7 +94,7 @@ module Amazonka.SSMSAP.Types
     component_status,
 
     -- * ComponentSummary
-    ComponentSummary,
+    ComponentSummary (ComponentSummary'),
     newComponentSummary,
     componentSummary_applicationId,
     componentSummary_componentId,
@@ -102,7 +102,7 @@ module Amazonka.SSMSAP.Types
     componentSummary_tags,
 
     -- * Database
-    Database,
+    Database (Database'),
     newDatabase,
     database_applicationId,
     database_arn,
@@ -117,7 +117,7 @@ module Amazonka.SSMSAP.Types
     database_status,
 
     -- * DatabaseSummary
-    DatabaseSummary,
+    DatabaseSummary (DatabaseSummary'),
     newDatabaseSummary,
     databaseSummary_applicationId,
     databaseSummary_arn,
@@ -127,7 +127,7 @@ module Amazonka.SSMSAP.Types
     databaseSummary_tags,
 
     -- * Host
-    Host,
+    Host (Host'),
     newHost,
     host_hostIp,
     host_hostName,
@@ -135,7 +135,7 @@ module Amazonka.SSMSAP.Types
     host_instanceId,
 
     -- * Operation
-    Operation,
+    Operation (Operation'),
     newOperation,
     operation_endTime,
     operation_id,

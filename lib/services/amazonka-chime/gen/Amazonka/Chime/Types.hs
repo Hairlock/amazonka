@@ -32,160 +32,160 @@ module Amazonka.Chime.Types
     _UnprocessableEntityException,
 
     -- * AccountStatus
-    AccountStatus,
+    AccountStatus (AccountStatus'),
 
     -- * AccountType
-    AccountType,
+    AccountType (AccountType'),
 
     -- * AppInstanceDataType
-    AppInstanceDataType,
+    AppInstanceDataType (AppInstanceDataType'),
 
     -- * ArtifactsState
-    ArtifactsState,
+    ArtifactsState (ArtifactsState'),
 
     -- * AudioMuxType
-    AudioMuxType,
+    AudioMuxType (AudioMuxType'),
 
     -- * BotType
-    BotType,
+    BotType (BotType'),
 
     -- * CallingNameStatus
-    CallingNameStatus,
+    CallingNameStatus (CallingNameStatus'),
 
     -- * Capability
-    Capability,
+    Capability (Capability'),
 
     -- * ChannelMembershipType
-    ChannelMembershipType,
+    ChannelMembershipType (ChannelMembershipType'),
 
     -- * ChannelMessagePersistenceType
-    ChannelMessagePersistenceType,
+    ChannelMessagePersistenceType (ChannelMessagePersistenceType'),
 
     -- * ChannelMessageType
-    ChannelMessageType,
+    ChannelMessageType (ChannelMessageType'),
 
     -- * ChannelMode
-    ChannelMode,
+    ChannelMode (ChannelMode'),
 
     -- * ChannelPrivacy
-    ChannelPrivacy,
+    ChannelPrivacy (ChannelPrivacy'),
 
     -- * ContentMuxType
-    ContentMuxType,
+    ContentMuxType (ContentMuxType'),
 
     -- * EmailStatus
-    EmailStatus,
+    EmailStatus (EmailStatus'),
 
     -- * ErrorCode
-    ErrorCode,
+    ErrorCode (ErrorCode'),
 
     -- * GeoMatchLevel
-    GeoMatchLevel,
+    GeoMatchLevel (GeoMatchLevel'),
 
     -- * InviteStatus
-    InviteStatus,
+    InviteStatus (InviteStatus'),
 
     -- * License
-    License,
+    License (License'),
 
     -- * MediaPipelineSinkType
-    MediaPipelineSinkType,
+    MediaPipelineSinkType (MediaPipelineSinkType'),
 
     -- * MediaPipelineSourceType
-    MediaPipelineSourceType,
+    MediaPipelineSourceType (MediaPipelineSourceType'),
 
     -- * MediaPipelineStatus
-    MediaPipelineStatus,
+    MediaPipelineStatus (MediaPipelineStatus'),
 
     -- * MemberType
-    MemberType,
+    MemberType (MemberType'),
 
     -- * NotificationTarget
-    NotificationTarget,
+    NotificationTarget (NotificationTarget'),
 
     -- * NumberSelectionBehavior
-    NumberSelectionBehavior,
+    NumberSelectionBehavior (NumberSelectionBehavior'),
 
     -- * OrderedPhoneNumberStatus
-    OrderedPhoneNumberStatus,
+    OrderedPhoneNumberStatus (OrderedPhoneNumberStatus'),
 
     -- * OriginationRouteProtocol
-    OriginationRouteProtocol,
+    OriginationRouteProtocol (OriginationRouteProtocol'),
 
     -- * PhoneNumberAssociationName
-    PhoneNumberAssociationName,
+    PhoneNumberAssociationName (PhoneNumberAssociationName'),
 
     -- * PhoneNumberOrderStatus
-    PhoneNumberOrderStatus,
+    PhoneNumberOrderStatus (PhoneNumberOrderStatus'),
 
     -- * PhoneNumberProductType
-    PhoneNumberProductType,
+    PhoneNumberProductType (PhoneNumberProductType'),
 
     -- * PhoneNumberStatus
-    PhoneNumberStatus,
+    PhoneNumberStatus (PhoneNumberStatus'),
 
     -- * PhoneNumberType
-    PhoneNumberType,
+    PhoneNumberType (PhoneNumberType'),
 
     -- * ProxySessionStatus
-    ProxySessionStatus,
+    ProxySessionStatus (ProxySessionStatus'),
 
     -- * RegistrationStatus
-    RegistrationStatus,
+    RegistrationStatus (RegistrationStatus'),
 
     -- * RoomMembershipRole
-    RoomMembershipRole,
+    RoomMembershipRole (RoomMembershipRole'),
 
     -- * SipRuleTriggerType
-    SipRuleTriggerType,
+    SipRuleTriggerType (SipRuleTriggerType'),
 
     -- * SortOrder
-    SortOrder,
+    SortOrder (SortOrder'),
 
     -- * TranscribeContentIdentificationType
-    TranscribeContentIdentificationType,
+    TranscribeContentIdentificationType (TranscribeContentIdentificationType'),
 
     -- * TranscribeContentRedactionType
-    TranscribeContentRedactionType,
+    TranscribeContentRedactionType (TranscribeContentRedactionType'),
 
     -- * TranscribeLanguageCode
-    TranscribeLanguageCode,
+    TranscribeLanguageCode (TranscribeLanguageCode'),
 
     -- * TranscribeMedicalContentIdentificationType
-    TranscribeMedicalContentIdentificationType,
+    TranscribeMedicalContentIdentificationType (TranscribeMedicalContentIdentificationType'),
 
     -- * TranscribeMedicalLanguageCode
-    TranscribeMedicalLanguageCode,
+    TranscribeMedicalLanguageCode (TranscribeMedicalLanguageCode'),
 
     -- * TranscribeMedicalRegion
-    TranscribeMedicalRegion,
+    TranscribeMedicalRegion (TranscribeMedicalRegion'),
 
     -- * TranscribeMedicalSpecialty
-    TranscribeMedicalSpecialty,
+    TranscribeMedicalSpecialty (TranscribeMedicalSpecialty'),
 
     -- * TranscribeMedicalType
-    TranscribeMedicalType,
+    TranscribeMedicalType (TranscribeMedicalType'),
 
     -- * TranscribePartialResultsStability
-    TranscribePartialResultsStability,
+    TranscribePartialResultsStability (TranscribePartialResultsStability'),
 
     -- * TranscribeRegion
-    TranscribeRegion,
+    TranscribeRegion (TranscribeRegion'),
 
     -- * TranscribeVocabularyFilterMethod
-    TranscribeVocabularyFilterMethod,
+    TranscribeVocabularyFilterMethod (TranscribeVocabularyFilterMethod'),
 
     -- * UserType
-    UserType,
+    UserType (UserType'),
 
     -- * VideoMuxType
-    VideoMuxType,
+    VideoMuxType (VideoMuxType'),
 
     -- * VoiceConnectorAwsRegion
-    VoiceConnectorAwsRegion,
+    VoiceConnectorAwsRegion (VoiceConnectorAwsRegion'),
 
     -- * Account
-    Account,
+    Account (Account'),
     newAccount,
     account_accountStatus,
     account_accountType,
@@ -198,13 +198,13 @@ module Amazonka.Chime.Types
     account_name,
 
     -- * AccountSettings
-    AccountSettings,
+    AccountSettings (AccountSettings'),
     newAccountSettings,
     accountSettings_disableRemoteControl,
     accountSettings_enableDialOut,
 
     -- * Address
-    Address,
+    Address (Address'),
     newAddress,
     address_city,
     address_country,
@@ -218,13 +218,13 @@ module Amazonka.Chime.Types
     address_streetSuffix,
 
     -- * AlexaForBusinessMetadata
-    AlexaForBusinessMetadata,
+    AlexaForBusinessMetadata (AlexaForBusinessMetadata'),
     newAlexaForBusinessMetadata,
     alexaForBusinessMetadata_alexaForBusinessRoomArn,
     alexaForBusinessMetadata_isAlexaForBusinessEnabled,
 
     -- * AppInstance
-    AppInstance,
+    AppInstance (AppInstance'),
     newAppInstance,
     appInstance_appInstanceArn,
     appInstance_createdTimestamp,
@@ -233,37 +233,37 @@ module Amazonka.Chime.Types
     appInstance_name,
 
     -- * AppInstanceAdmin
-    AppInstanceAdmin,
+    AppInstanceAdmin (AppInstanceAdmin'),
     newAppInstanceAdmin,
     appInstanceAdmin_admin,
     appInstanceAdmin_appInstanceArn,
     appInstanceAdmin_createdTimestamp,
 
     -- * AppInstanceAdminSummary
-    AppInstanceAdminSummary,
+    AppInstanceAdminSummary (AppInstanceAdminSummary'),
     newAppInstanceAdminSummary,
     appInstanceAdminSummary_admin,
 
     -- * AppInstanceRetentionSettings
-    AppInstanceRetentionSettings,
+    AppInstanceRetentionSettings (AppInstanceRetentionSettings'),
     newAppInstanceRetentionSettings,
     appInstanceRetentionSettings_channelRetentionSettings,
 
     -- * AppInstanceStreamingConfiguration
-    AppInstanceStreamingConfiguration,
+    AppInstanceStreamingConfiguration (AppInstanceStreamingConfiguration'),
     newAppInstanceStreamingConfiguration,
     appInstanceStreamingConfiguration_appInstanceDataType,
     appInstanceStreamingConfiguration_resourceArn,
 
     -- * AppInstanceSummary
-    AppInstanceSummary,
+    AppInstanceSummary (AppInstanceSummary'),
     newAppInstanceSummary,
     appInstanceSummary_appInstanceArn,
     appInstanceSummary_metadata,
     appInstanceSummary_name,
 
     -- * AppInstanceUser
-    AppInstanceUser,
+    AppInstanceUser (AppInstanceUser'),
     newAppInstanceUser,
     appInstanceUser_appInstanceUserArn,
     appInstanceUser_createdTimestamp,
@@ -272,39 +272,39 @@ module Amazonka.Chime.Types
     appInstanceUser_name,
 
     -- * AppInstanceUserMembershipSummary
-    AppInstanceUserMembershipSummary,
+    AppInstanceUserMembershipSummary (AppInstanceUserMembershipSummary'),
     newAppInstanceUserMembershipSummary,
     appInstanceUserMembershipSummary_readMarkerTimestamp,
     appInstanceUserMembershipSummary_type,
 
     -- * AppInstanceUserSummary
-    AppInstanceUserSummary,
+    AppInstanceUserSummary (AppInstanceUserSummary'),
     newAppInstanceUserSummary,
     appInstanceUserSummary_appInstanceUserArn,
     appInstanceUserSummary_metadata,
     appInstanceUserSummary_name,
 
     -- * ArtifactsConfiguration
-    ArtifactsConfiguration,
+    ArtifactsConfiguration (ArtifactsConfiguration'),
     newArtifactsConfiguration,
     artifactsConfiguration_audio,
     artifactsConfiguration_video,
     artifactsConfiguration_content,
 
     -- * Attendee
-    Attendee,
+    Attendee (Attendee'),
     newAttendee,
     attendee_attendeeId,
     attendee_externalUserId,
     attendee_joinToken,
 
     -- * AudioArtifactsConfiguration
-    AudioArtifactsConfiguration,
+    AudioArtifactsConfiguration (AudioArtifactsConfiguration'),
     newAudioArtifactsConfiguration,
     audioArtifactsConfiguration_muxType,
 
     -- * BatchChannelMemberships
-    BatchChannelMemberships,
+    BatchChannelMemberships (BatchChannelMemberships'),
     newBatchChannelMemberships,
     batchChannelMemberships_channelArn,
     batchChannelMemberships_invitedBy,
@@ -312,14 +312,14 @@ module Amazonka.Chime.Types
     batchChannelMemberships_type,
 
     -- * BatchCreateChannelMembershipError
-    BatchCreateChannelMembershipError,
+    BatchCreateChannelMembershipError (BatchCreateChannelMembershipError'),
     newBatchCreateChannelMembershipError,
     batchCreateChannelMembershipError_errorCode,
     batchCreateChannelMembershipError_errorMessage,
     batchCreateChannelMembershipError_memberArn,
 
     -- * Bot
-    Bot,
+    Bot (Bot'),
     newBot,
     bot_botEmail,
     bot_botId,
@@ -332,12 +332,12 @@ module Amazonka.Chime.Types
     bot_userId,
 
     -- * BusinessCallingSettings
-    BusinessCallingSettings,
+    BusinessCallingSettings (BusinessCallingSettings'),
     newBusinessCallingSettings,
     businessCallingSettings_cdrBucket,
 
     -- * CandidateAddress
-    CandidateAddress,
+    CandidateAddress (CandidateAddress'),
     newCandidateAddress,
     candidateAddress_city,
     candidateAddress_country,
@@ -348,7 +348,7 @@ module Amazonka.Chime.Types
     candidateAddress_streetNumber,
 
     -- * Channel
-    Channel,
+    Channel (Channel'),
     newChannel,
     channel_channelArn,
     channel_createdBy,
@@ -361,7 +361,7 @@ module Amazonka.Chime.Types
     channel_privacy,
 
     -- * ChannelBan
-    ChannelBan,
+    ChannelBan (ChannelBan'),
     newChannelBan,
     channelBan_channelArn,
     channelBan_createdBy,
@@ -369,12 +369,12 @@ module Amazonka.Chime.Types
     channelBan_member,
 
     -- * ChannelBanSummary
-    ChannelBanSummary,
+    ChannelBanSummary (ChannelBanSummary'),
     newChannelBanSummary,
     channelBanSummary_member,
 
     -- * ChannelMembership
-    ChannelMembership,
+    ChannelMembership (ChannelMembership'),
     newChannelMembership,
     channelMembership_channelArn,
     channelMembership_createdTimestamp,
@@ -384,18 +384,18 @@ module Amazonka.Chime.Types
     channelMembership_type,
 
     -- * ChannelMembershipForAppInstanceUserSummary
-    ChannelMembershipForAppInstanceUserSummary,
+    ChannelMembershipForAppInstanceUserSummary (ChannelMembershipForAppInstanceUserSummary'),
     newChannelMembershipForAppInstanceUserSummary,
     channelMembershipForAppInstanceUserSummary_appInstanceUserMembershipSummary,
     channelMembershipForAppInstanceUserSummary_channelSummary,
 
     -- * ChannelMembershipSummary
-    ChannelMembershipSummary,
+    ChannelMembershipSummary (ChannelMembershipSummary'),
     newChannelMembershipSummary,
     channelMembershipSummary_member,
 
     -- * ChannelMessage
-    ChannelMessage,
+    ChannelMessage (ChannelMessage'),
     newChannelMessage,
     channelMessage_channelArn,
     channelMessage_content,
@@ -410,7 +410,7 @@ module Amazonka.Chime.Types
     channelMessage_type,
 
     -- * ChannelMessageSummary
-    ChannelMessageSummary,
+    ChannelMessageSummary (ChannelMessageSummary'),
     newChannelMessageSummary,
     channelMessageSummary_content,
     channelMessageSummary_createdTimestamp,
@@ -423,12 +423,12 @@ module Amazonka.Chime.Types
     channelMessageSummary_type,
 
     -- * ChannelModeratedByAppInstanceUserSummary
-    ChannelModeratedByAppInstanceUserSummary,
+    ChannelModeratedByAppInstanceUserSummary (ChannelModeratedByAppInstanceUserSummary'),
     newChannelModeratedByAppInstanceUserSummary,
     channelModeratedByAppInstanceUserSummary_channelSummary,
 
     -- * ChannelModerator
-    ChannelModerator,
+    ChannelModerator (ChannelModerator'),
     newChannelModerator,
     channelModerator_channelArn,
     channelModerator_createdBy,
@@ -436,17 +436,17 @@ module Amazonka.Chime.Types
     channelModerator_moderator,
 
     -- * ChannelModeratorSummary
-    ChannelModeratorSummary,
+    ChannelModeratorSummary (ChannelModeratorSummary'),
     newChannelModeratorSummary,
     channelModeratorSummary_moderator,
 
     -- * ChannelRetentionSettings
-    ChannelRetentionSettings,
+    ChannelRetentionSettings (ChannelRetentionSettings'),
     newChannelRetentionSettings,
     channelRetentionSettings_retentionDays,
 
     -- * ChannelSummary
-    ChannelSummary,
+    ChannelSummary (ChannelSummary'),
     newChannelSummary,
     channelSummary_channelArn,
     channelSummary_lastMessageTimestamp,
@@ -456,55 +456,55 @@ module Amazonka.Chime.Types
     channelSummary_privacy,
 
     -- * ChimeSdkMeetingConfiguration
-    ChimeSdkMeetingConfiguration,
+    ChimeSdkMeetingConfiguration (ChimeSdkMeetingConfiguration'),
     newChimeSdkMeetingConfiguration,
     chimeSdkMeetingConfiguration_artifactsConfiguration,
     chimeSdkMeetingConfiguration_sourceConfiguration,
 
     -- * ContentArtifactsConfiguration
-    ContentArtifactsConfiguration,
+    ContentArtifactsConfiguration (ContentArtifactsConfiguration'),
     newContentArtifactsConfiguration,
     contentArtifactsConfiguration_muxType,
     contentArtifactsConfiguration_state,
 
     -- * ConversationRetentionSettings
-    ConversationRetentionSettings,
+    ConversationRetentionSettings (ConversationRetentionSettings'),
     newConversationRetentionSettings,
     conversationRetentionSettings_retentionDays,
 
     -- * CreateAttendeeError
-    CreateAttendeeError,
+    CreateAttendeeError (CreateAttendeeError'),
     newCreateAttendeeError,
     createAttendeeError_errorCode,
     createAttendeeError_errorMessage,
     createAttendeeError_externalUserId,
 
     -- * CreateAttendeeRequestItem
-    CreateAttendeeRequestItem,
+    CreateAttendeeRequestItem (CreateAttendeeRequestItem'),
     newCreateAttendeeRequestItem,
     createAttendeeRequestItem_tags,
     createAttendeeRequestItem_externalUserId,
 
     -- * Credential
-    Credential,
+    Credential (Credential'),
     newCredential,
     credential_password,
     credential_username,
 
     -- * DNISEmergencyCallingConfiguration
-    DNISEmergencyCallingConfiguration,
+    DNISEmergencyCallingConfiguration (DNISEmergencyCallingConfiguration'),
     newDNISEmergencyCallingConfiguration,
     dNISEmergencyCallingConfiguration_testPhoneNumber,
     dNISEmergencyCallingConfiguration_emergencyPhoneNumber,
     dNISEmergencyCallingConfiguration_callingCountry,
 
     -- * EmergencyCallingConfiguration
-    EmergencyCallingConfiguration,
+    EmergencyCallingConfiguration (EmergencyCallingConfiguration'),
     newEmergencyCallingConfiguration,
     emergencyCallingConfiguration_dnis,
 
     -- * EngineTranscribeMedicalSettings
-    EngineTranscribeMedicalSettings,
+    EngineTranscribeMedicalSettings (EngineTranscribeMedicalSettings'),
     newEngineTranscribeMedicalSettings,
     engineTranscribeMedicalSettings_contentIdentificationType,
     engineTranscribeMedicalSettings_region,
@@ -514,7 +514,7 @@ module Amazonka.Chime.Types
     engineTranscribeMedicalSettings_type,
 
     -- * EngineTranscribeSettings
-    EngineTranscribeSettings,
+    EngineTranscribeSettings (EngineTranscribeSettings'),
     newEngineTranscribeSettings,
     engineTranscribeSettings_contentIdentificationType,
     engineTranscribeSettings_contentRedactionType,
@@ -529,26 +529,26 @@ module Amazonka.Chime.Types
     engineTranscribeSettings_languageCode,
 
     -- * EventsConfiguration
-    EventsConfiguration,
+    EventsConfiguration (EventsConfiguration'),
     newEventsConfiguration,
     eventsConfiguration_botId,
     eventsConfiguration_lambdaFunctionArn,
     eventsConfiguration_outboundEventsHTTPSEndpoint,
 
     -- * GeoMatchParams
-    GeoMatchParams,
+    GeoMatchParams (GeoMatchParams'),
     newGeoMatchParams,
     geoMatchParams_country,
     geoMatchParams_areaCode,
 
     -- * Identity
-    Identity,
+    Identity (Identity'),
     newIdentity,
     identity_arn,
     identity_name,
 
     -- * Invite
-    Invite,
+    Invite (Invite'),
     newInvite,
     invite_emailAddress,
     invite_emailStatus,
@@ -556,13 +556,13 @@ module Amazonka.Chime.Types
     invite_status,
 
     -- * LoggingConfiguration
-    LoggingConfiguration,
+    LoggingConfiguration (LoggingConfiguration'),
     newLoggingConfiguration,
     loggingConfiguration_enableMediaMetricLogs,
     loggingConfiguration_enableSIPLogs,
 
     -- * MediaCapturePipeline
-    MediaCapturePipeline,
+    MediaCapturePipeline (MediaCapturePipeline'),
     newMediaCapturePipeline,
     mediaCapturePipeline_chimeSdkMeetingConfiguration,
     mediaCapturePipeline_createdTimestamp,
@@ -575,7 +575,7 @@ module Amazonka.Chime.Types
     mediaCapturePipeline_updatedTimestamp,
 
     -- * MediaPlacement
-    MediaPlacement,
+    MediaPlacement (MediaPlacement'),
     newMediaPlacement,
     mediaPlacement_audioFallbackUrl,
     mediaPlacement_audioHostUrl,
@@ -587,7 +587,7 @@ module Amazonka.Chime.Types
     mediaPlacement_turnControlUrl,
 
     -- * Meeting
-    Meeting,
+    Meeting (Meeting'),
     newMeeting,
     meeting_externalMeetingId,
     meeting_mediaPlacement,
@@ -595,13 +595,13 @@ module Amazonka.Chime.Types
     meeting_meetingId,
 
     -- * MeetingNotificationConfiguration
-    MeetingNotificationConfiguration,
+    MeetingNotificationConfiguration (MeetingNotificationConfiguration'),
     newMeetingNotificationConfiguration,
     meetingNotificationConfiguration_snsTopicArn,
     meetingNotificationConfiguration_sqsQueueArn,
 
     -- * Member
-    Member,
+    Member (Member'),
     newMember,
     member_accountId,
     member_email,
@@ -610,37 +610,37 @@ module Amazonka.Chime.Types
     member_memberType,
 
     -- * MemberError
-    MemberError,
+    MemberError (MemberError'),
     newMemberError,
     memberError_errorCode,
     memberError_errorMessage,
     memberError_memberId,
 
     -- * MembershipItem
-    MembershipItem,
+    MembershipItem (MembershipItem'),
     newMembershipItem,
     membershipItem_memberId,
     membershipItem_role,
 
     -- * MessagingSessionEndpoint
-    MessagingSessionEndpoint,
+    MessagingSessionEndpoint (MessagingSessionEndpoint'),
     newMessagingSessionEndpoint,
     messagingSessionEndpoint_url,
 
     -- * OrderedPhoneNumber
-    OrderedPhoneNumber,
+    OrderedPhoneNumber (OrderedPhoneNumber'),
     newOrderedPhoneNumber,
     orderedPhoneNumber_e164PhoneNumber,
     orderedPhoneNumber_status,
 
     -- * Origination
-    Origination,
+    Origination (Origination'),
     newOrigination,
     origination_disabled,
     origination_routes,
 
     -- * OriginationRoute
-    OriginationRoute,
+    OriginationRoute (OriginationRoute'),
     newOriginationRoute,
     originationRoute_host,
     originationRoute_port,
@@ -649,13 +649,13 @@ module Amazonka.Chime.Types
     originationRoute_weight,
 
     -- * Participant
-    Participant,
+    Participant (Participant'),
     newParticipant,
     participant_phoneNumber,
     participant_proxyPhoneNumber,
 
     -- * PhoneNumber
-    PhoneNumber,
+    PhoneNumber (PhoneNumber'),
     newPhoneNumber,
     phoneNumber_associations,
     phoneNumber_callingName,
@@ -672,14 +672,14 @@ module Amazonka.Chime.Types
     phoneNumber_updatedTimestamp,
 
     -- * PhoneNumberAssociation
-    PhoneNumberAssociation,
+    PhoneNumberAssociation (PhoneNumberAssociation'),
     newPhoneNumberAssociation,
     phoneNumberAssociation_associatedTimestamp,
     phoneNumberAssociation_name,
     phoneNumberAssociation_value,
 
     -- * PhoneNumberCapabilities
-    PhoneNumberCapabilities,
+    PhoneNumberCapabilities (PhoneNumberCapabilities'),
     newPhoneNumberCapabilities,
     phoneNumberCapabilities_inboundCall,
     phoneNumberCapabilities_inboundMMS,
@@ -689,20 +689,20 @@ module Amazonka.Chime.Types
     phoneNumberCapabilities_outboundSMS,
 
     -- * PhoneNumberCountry
-    PhoneNumberCountry,
+    PhoneNumberCountry (PhoneNumberCountry'),
     newPhoneNumberCountry,
     phoneNumberCountry_countryCode,
     phoneNumberCountry_supportedPhoneNumberTypes,
 
     -- * PhoneNumberError
-    PhoneNumberError,
+    PhoneNumberError (PhoneNumberError'),
     newPhoneNumberError,
     phoneNumberError_errorCode,
     phoneNumberError_errorMessage,
     phoneNumberError_phoneNumberId,
 
     -- * PhoneNumberOrder
-    PhoneNumberOrder,
+    PhoneNumberOrder (PhoneNumberOrder'),
     newPhoneNumberOrder,
     phoneNumberOrder_createdTimestamp,
     phoneNumberOrder_orderedPhoneNumbers,
@@ -712,7 +712,7 @@ module Amazonka.Chime.Types
     phoneNumberOrder_updatedTimestamp,
 
     -- * Proxy
-    Proxy,
+    Proxy (Proxy'),
     newProxy,
     proxy_defaultSessionExpiryMinutes,
     proxy_disabled,
@@ -720,7 +720,7 @@ module Amazonka.Chime.Types
     proxy_phoneNumberCountries,
 
     -- * ProxySession
-    ProxySession,
+    ProxySession (ProxySession'),
     newProxySession,
     proxySession_capabilities,
     proxySession_createdTimestamp,
@@ -737,13 +737,13 @@ module Amazonka.Chime.Types
     proxySession_voiceConnectorId,
 
     -- * RetentionSettings
-    RetentionSettings,
+    RetentionSettings (RetentionSettings'),
     newRetentionSettings,
     retentionSettings_conversationRetentionSettings,
     retentionSettings_roomRetentionSettings,
 
     -- * Room
-    Room,
+    Room (Room'),
     newRoom,
     room_accountId,
     room_createdBy,
@@ -753,7 +753,7 @@ module Amazonka.Chime.Types
     room_updatedTimestamp,
 
     -- * RoomMembership
-    RoomMembership,
+    RoomMembership (RoomMembership'),
     newRoomMembership,
     roomMembership_invitedBy,
     roomMembership_member,
@@ -762,23 +762,23 @@ module Amazonka.Chime.Types
     roomMembership_updatedTimestamp,
 
     -- * RoomRetentionSettings
-    RoomRetentionSettings,
+    RoomRetentionSettings (RoomRetentionSettings'),
     newRoomRetentionSettings,
     roomRetentionSettings_retentionDays,
 
     -- * SelectedVideoStreams
-    SelectedVideoStreams,
+    SelectedVideoStreams (SelectedVideoStreams'),
     newSelectedVideoStreams,
     selectedVideoStreams_attendeeIds,
     selectedVideoStreams_externalUserIds,
 
     -- * SigninDelegateGroup
-    SigninDelegateGroup,
+    SigninDelegateGroup (SigninDelegateGroup'),
     newSigninDelegateGroup,
     signinDelegateGroup_groupName,
 
     -- * SipMediaApplication
-    SipMediaApplication,
+    SipMediaApplication (SipMediaApplication'),
     newSipMediaApplication,
     sipMediaApplication_awsRegion,
     sipMediaApplication_createdTimestamp,
@@ -788,22 +788,22 @@ module Amazonka.Chime.Types
     sipMediaApplication_updatedTimestamp,
 
     -- * SipMediaApplicationCall
-    SipMediaApplicationCall,
+    SipMediaApplicationCall (SipMediaApplicationCall'),
     newSipMediaApplicationCall,
     sipMediaApplicationCall_transactionId,
 
     -- * SipMediaApplicationEndpoint
-    SipMediaApplicationEndpoint,
+    SipMediaApplicationEndpoint (SipMediaApplicationEndpoint'),
     newSipMediaApplicationEndpoint,
     sipMediaApplicationEndpoint_lambdaArn,
 
     -- * SipMediaApplicationLoggingConfiguration
-    SipMediaApplicationLoggingConfiguration,
+    SipMediaApplicationLoggingConfiguration (SipMediaApplicationLoggingConfiguration'),
     newSipMediaApplicationLoggingConfiguration,
     sipMediaApplicationLoggingConfiguration_enableSipMediaApplicationMessageLogs,
 
     -- * SipRule
-    SipRule,
+    SipRule (SipRule'),
     newSipRule,
     sipRule_createdTimestamp,
     sipRule_disabled,
@@ -815,44 +815,44 @@ module Amazonka.Chime.Types
     sipRule_updatedTimestamp,
 
     -- * SipRuleTargetApplication
-    SipRuleTargetApplication,
+    SipRuleTargetApplication (SipRuleTargetApplication'),
     newSipRuleTargetApplication,
     sipRuleTargetApplication_awsRegion,
     sipRuleTargetApplication_priority,
     sipRuleTargetApplication_sipMediaApplicationId,
 
     -- * SourceConfiguration
-    SourceConfiguration,
+    SourceConfiguration (SourceConfiguration'),
     newSourceConfiguration,
     sourceConfiguration_selectedVideoStreams,
 
     -- * StreamingConfiguration
-    StreamingConfiguration,
+    StreamingConfiguration (StreamingConfiguration'),
     newStreamingConfiguration,
     streamingConfiguration_disabled,
     streamingConfiguration_streamingNotificationTargets,
     streamingConfiguration_dataRetentionInHours,
 
     -- * StreamingNotificationTarget
-    StreamingNotificationTarget,
+    StreamingNotificationTarget (StreamingNotificationTarget'),
     newStreamingNotificationTarget,
     streamingNotificationTarget_notificationTarget,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
 
     -- * TelephonySettings
-    TelephonySettings,
+    TelephonySettings (TelephonySettings'),
     newTelephonySettings,
     telephonySettings_inboundCalling,
     telephonySettings_outboundCalling,
     telephonySettings_sms,
 
     -- * Termination
-    Termination,
+    Termination (Termination'),
     newTermination,
     termination_callingRegions,
     termination_cidrAllowedList,
@@ -861,26 +861,26 @@ module Amazonka.Chime.Types
     termination_disabled,
 
     -- * TerminationHealth
-    TerminationHealth,
+    TerminationHealth (TerminationHealth'),
     newTerminationHealth,
     terminationHealth_source,
     terminationHealth_timestamp,
 
     -- * TranscriptionConfiguration
-    TranscriptionConfiguration,
+    TranscriptionConfiguration (TranscriptionConfiguration'),
     newTranscriptionConfiguration,
     transcriptionConfiguration_engineTranscribeMedicalSettings,
     transcriptionConfiguration_engineTranscribeSettings,
 
     -- * UpdatePhoneNumberRequestItem
-    UpdatePhoneNumberRequestItem,
+    UpdatePhoneNumberRequestItem (UpdatePhoneNumberRequestItem'),
     newUpdatePhoneNumberRequestItem,
     updatePhoneNumberRequestItem_callingName,
     updatePhoneNumberRequestItem_productType,
     updatePhoneNumberRequestItem_phoneNumberId,
 
     -- * UpdateUserRequestItem
-    UpdateUserRequestItem,
+    UpdateUserRequestItem (UpdateUserRequestItem'),
     newUpdateUserRequestItem,
     updateUserRequestItem_alexaForBusinessMetadata,
     updateUserRequestItem_licenseType,
@@ -888,7 +888,7 @@ module Amazonka.Chime.Types
     updateUserRequestItem_userId,
 
     -- * User
-    User,
+    User (User'),
     newUser,
     user_accountId,
     user_alexaForBusinessMetadata,
@@ -905,25 +905,25 @@ module Amazonka.Chime.Types
     user_userId,
 
     -- * UserError
-    UserError,
+    UserError (UserError'),
     newUserError,
     userError_errorCode,
     userError_errorMessage,
     userError_userId,
 
     -- * UserSettings
-    UserSettings,
+    UserSettings (UserSettings'),
     newUserSettings,
     userSettings_telephony,
 
     -- * VideoArtifactsConfiguration
-    VideoArtifactsConfiguration,
+    VideoArtifactsConfiguration (VideoArtifactsConfiguration'),
     newVideoArtifactsConfiguration,
     videoArtifactsConfiguration_muxType,
     videoArtifactsConfiguration_state,
 
     -- * VoiceConnector
-    VoiceConnector,
+    VoiceConnector (VoiceConnector'),
     newVoiceConnector,
     voiceConnector_awsRegion,
     voiceConnector_createdTimestamp,
@@ -935,7 +935,7 @@ module Amazonka.Chime.Types
     voiceConnector_voiceConnectorId,
 
     -- * VoiceConnectorGroup
-    VoiceConnectorGroup,
+    VoiceConnectorGroup (VoiceConnectorGroup'),
     newVoiceConnectorGroup,
     voiceConnectorGroup_createdTimestamp,
     voiceConnectorGroup_name,
@@ -945,13 +945,13 @@ module Amazonka.Chime.Types
     voiceConnectorGroup_voiceConnectorItems,
 
     -- * VoiceConnectorItem
-    VoiceConnectorItem,
+    VoiceConnectorItem (VoiceConnectorItem'),
     newVoiceConnectorItem,
     voiceConnectorItem_voiceConnectorId,
     voiceConnectorItem_priority,
 
     -- * VoiceConnectorSettings
-    VoiceConnectorSettings,
+    VoiceConnectorSettings (VoiceConnectorSettings'),
     newVoiceConnectorSettings,
     voiceConnectorSettings_cdrBucket,
   )

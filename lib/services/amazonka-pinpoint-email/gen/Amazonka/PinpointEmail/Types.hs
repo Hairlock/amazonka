@@ -31,75 +31,75 @@ module Amazonka.PinpointEmail.Types
     _TooManyRequestsException,
 
     -- * BehaviorOnMxFailure
-    BehaviorOnMxFailure,
+    BehaviorOnMxFailure (BehaviorOnMxFailure'),
 
     -- * DeliverabilityDashboardAccountStatus
-    DeliverabilityDashboardAccountStatus,
+    DeliverabilityDashboardAccountStatus (DeliverabilityDashboardAccountStatus'),
 
     -- * DeliverabilityTestStatus
-    DeliverabilityTestStatus,
+    DeliverabilityTestStatus (DeliverabilityTestStatus'),
 
     -- * DimensionValueSource
-    DimensionValueSource,
+    DimensionValueSource (DimensionValueSource'),
 
     -- * DkimStatus
-    DkimStatus,
+    DkimStatus (DkimStatus'),
 
     -- * EventType
-    EventType,
+    EventType (EventType'),
 
     -- * IdentityType
-    IdentityType,
+    IdentityType (IdentityType'),
 
     -- * MailFromDomainStatus
-    MailFromDomainStatus,
+    MailFromDomainStatus (MailFromDomainStatus'),
 
     -- * TlsPolicy
-    TlsPolicy,
+    TlsPolicy (TlsPolicy'),
 
     -- * WarmupStatus
-    WarmupStatus,
+    WarmupStatus (WarmupStatus'),
 
     -- * BlacklistEntry
-    BlacklistEntry,
+    BlacklistEntry (BlacklistEntry'),
     newBlacklistEntry,
     blacklistEntry_description,
     blacklistEntry_listingTime,
     blacklistEntry_rblName,
 
     -- * Body
-    Body,
+    Body (Body'),
     newBody,
     body_html,
     body_text,
 
     -- * CloudWatchDestination
-    CloudWatchDestination,
+    CloudWatchDestination (CloudWatchDestination'),
     newCloudWatchDestination,
     cloudWatchDestination_dimensionConfigurations,
 
     -- * CloudWatchDimensionConfiguration
-    CloudWatchDimensionConfiguration,
+    CloudWatchDimensionConfiguration (CloudWatchDimensionConfiguration'),
     newCloudWatchDimensionConfiguration,
     cloudWatchDimensionConfiguration_dimensionName,
     cloudWatchDimensionConfiguration_dimensionValueSource,
     cloudWatchDimensionConfiguration_defaultDimensionValue,
 
     -- * Content
-    Content,
+    Content (Content'),
     newContent,
     content_charset,
     content_data,
 
     -- * DailyVolume
-    DailyVolume,
+    DailyVolume (DailyVolume'),
     newDailyVolume,
     dailyVolume_domainIspPlacements,
     dailyVolume_startDate,
     dailyVolume_volumeStatistics,
 
     -- * DedicatedIp
-    DedicatedIp,
+    DedicatedIp (DedicatedIp'),
     newDedicatedIp,
     dedicatedIp_poolName,
     dedicatedIp_ip,
@@ -107,7 +107,7 @@ module Amazonka.PinpointEmail.Types
     dedicatedIp_warmupPercentage,
 
     -- * DeliverabilityTestReport
-    DeliverabilityTestReport,
+    DeliverabilityTestReport (DeliverabilityTestReport'),
     newDeliverabilityTestReport,
     deliverabilityTestReport_createDate,
     deliverabilityTestReport_deliverabilityTestStatus,
@@ -117,27 +117,27 @@ module Amazonka.PinpointEmail.Types
     deliverabilityTestReport_subject,
 
     -- * DeliveryOptions
-    DeliveryOptions,
+    DeliveryOptions (DeliveryOptions'),
     newDeliveryOptions,
     deliveryOptions_sendingPoolName,
     deliveryOptions_tlsPolicy,
 
     -- * Destination
-    Destination,
+    Destination (Destination'),
     newDestination,
     destination_bccAddresses,
     destination_ccAddresses,
     destination_toAddresses,
 
     -- * DkimAttributes
-    DkimAttributes,
+    DkimAttributes (DkimAttributes'),
     newDkimAttributes,
     dkimAttributes_signingEnabled,
     dkimAttributes_status,
     dkimAttributes_tokens,
 
     -- * DomainDeliverabilityCampaign
-    DomainDeliverabilityCampaign,
+    DomainDeliverabilityCampaign (DomainDeliverabilityCampaign'),
     newDomainDeliverabilityCampaign,
     domainDeliverabilityCampaign_campaignId,
     domainDeliverabilityCampaign_deleteRate,
@@ -155,14 +155,14 @@ module Amazonka.PinpointEmail.Types
     domainDeliverabilityCampaign_subject,
 
     -- * DomainDeliverabilityTrackingOption
-    DomainDeliverabilityTrackingOption,
+    DomainDeliverabilityTrackingOption (DomainDeliverabilityTrackingOption'),
     newDomainDeliverabilityTrackingOption,
     domainDeliverabilityTrackingOption_domain,
     domainDeliverabilityTrackingOption_inboxPlacementTrackingOption,
     domainDeliverabilityTrackingOption_subscriptionStartDate,
 
     -- * DomainIspPlacement
-    DomainIspPlacement,
+    DomainIspPlacement (DomainIspPlacement'),
     newDomainIspPlacement,
     domainIspPlacement_inboxPercentage,
     domainIspPlacement_inboxRawCount,
@@ -171,14 +171,14 @@ module Amazonka.PinpointEmail.Types
     domainIspPlacement_spamRawCount,
 
     -- * EmailContent
-    EmailContent,
+    EmailContent (EmailContent'),
     newEmailContent,
     emailContent_raw,
     emailContent_simple,
     emailContent_template,
 
     -- * EventDestination
-    EventDestination,
+    EventDestination (EventDestination'),
     newEventDestination,
     eventDestination_cloudWatchDestination,
     eventDestination_enabled,
@@ -189,7 +189,7 @@ module Amazonka.PinpointEmail.Types
     eventDestination_matchingEventTypes,
 
     -- * EventDestinationDefinition
-    EventDestinationDefinition,
+    EventDestinationDefinition (EventDestinationDefinition'),
     newEventDestinationDefinition,
     eventDestinationDefinition_cloudWatchDestination,
     eventDestinationDefinition_enabled,
@@ -199,63 +199,63 @@ module Amazonka.PinpointEmail.Types
     eventDestinationDefinition_snsDestination,
 
     -- * IdentityInfo
-    IdentityInfo,
+    IdentityInfo (IdentityInfo'),
     newIdentityInfo,
     identityInfo_identityName,
     identityInfo_identityType,
     identityInfo_sendingEnabled,
 
     -- * InboxPlacementTrackingOption
-    InboxPlacementTrackingOption,
+    InboxPlacementTrackingOption (InboxPlacementTrackingOption'),
     newInboxPlacementTrackingOption,
     inboxPlacementTrackingOption_global,
     inboxPlacementTrackingOption_trackedIsps,
 
     -- * IspPlacement
-    IspPlacement,
+    IspPlacement (IspPlacement'),
     newIspPlacement,
     ispPlacement_ispName,
     ispPlacement_placementStatistics,
 
     -- * KinesisFirehoseDestination
-    KinesisFirehoseDestination,
+    KinesisFirehoseDestination (KinesisFirehoseDestination'),
     newKinesisFirehoseDestination,
     kinesisFirehoseDestination_iamRoleArn,
     kinesisFirehoseDestination_deliveryStreamArn,
 
     -- * MailFromAttributes
-    MailFromAttributes,
+    MailFromAttributes (MailFromAttributes'),
     newMailFromAttributes,
     mailFromAttributes_mailFromDomain,
     mailFromAttributes_mailFromDomainStatus,
     mailFromAttributes_behaviorOnMxFailure,
 
     -- * Message
-    Message,
+    Message (Message'),
     newMessage,
     message_subject,
     message_body,
 
     -- * MessageTag
-    MessageTag,
+    MessageTag (MessageTag'),
     newMessageTag,
     messageTag_name,
     messageTag_value,
 
     -- * OverallVolume
-    OverallVolume,
+    OverallVolume (OverallVolume'),
     newOverallVolume,
     overallVolume_domainIspPlacements,
     overallVolume_readRatePercent,
     overallVolume_volumeStatistics,
 
     -- * PinpointDestination
-    PinpointDestination,
+    PinpointDestination (PinpointDestination'),
     newPinpointDestination,
     pinpointDestination_applicationArn,
 
     -- * PlacementStatistics
-    PlacementStatistics,
+    PlacementStatistics (PlacementStatistics'),
     newPlacementStatistics,
     placementStatistics_dkimPercentage,
     placementStatistics_inboxPercentage,
@@ -264,52 +264,52 @@ module Amazonka.PinpointEmail.Types
     placementStatistics_spfPercentage,
 
     -- * RawMessage
-    RawMessage,
+    RawMessage (RawMessage'),
     newRawMessage,
     rawMessage_data,
 
     -- * ReputationOptions
-    ReputationOptions,
+    ReputationOptions (ReputationOptions'),
     newReputationOptions,
     reputationOptions_lastFreshStart,
     reputationOptions_reputationMetricsEnabled,
 
     -- * SendQuota
-    SendQuota,
+    SendQuota (SendQuota'),
     newSendQuota,
     sendQuota_max24HourSend,
     sendQuota_maxSendRate,
     sendQuota_sentLast24Hours,
 
     -- * SendingOptions
-    SendingOptions,
+    SendingOptions (SendingOptions'),
     newSendingOptions,
     sendingOptions_sendingEnabled,
 
     -- * SnsDestination
-    SnsDestination,
+    SnsDestination (SnsDestination'),
     newSnsDestination,
     snsDestination_topicArn,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
 
     -- * Template
-    Template,
+    Template (Template'),
     newTemplate,
     template_templateArn,
     template_templateData,
 
     -- * TrackingOptions
-    TrackingOptions,
+    TrackingOptions (TrackingOptions'),
     newTrackingOptions,
     trackingOptions_customRedirectDomain,
 
     -- * VolumeStatistics
-    VolumeStatistics,
+    VolumeStatistics (VolumeStatistics'),
     newVolumeStatistics,
     volumeStatistics_inboxRawCount,
     volumeStatistics_projectedInbox,

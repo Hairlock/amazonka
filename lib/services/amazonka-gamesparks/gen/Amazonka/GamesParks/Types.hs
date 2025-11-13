@@ -28,51 +28,51 @@ module Amazonka.GamesParks.Types
     _ValidationException,
 
     -- * DeploymentAction
-    DeploymentAction,
+    DeploymentAction (DeploymentAction'),
 
     -- * DeploymentState
-    DeploymentState,
+    DeploymentState (DeploymentState'),
 
     -- * GameState
-    GameState,
+    GameState (GameState'),
 
     -- * GeneratedCodeJobState
-    GeneratedCodeJobState,
+    GeneratedCodeJobState (GeneratedCodeJobState'),
 
     -- * Operation
-    Operation,
+    Operation (Operation'),
 
     -- * ResultCode
-    ResultCode,
+    ResultCode (ResultCode'),
 
     -- * StageState
-    StageState,
+    StageState (StageState'),
 
     -- * Connection
-    Connection,
+    Connection (Connection'),
     newConnection,
     connection_created,
     connection_id,
 
     -- * DeploymentResult
-    DeploymentResult,
+    DeploymentResult (DeploymentResult'),
     newDeploymentResult,
     deploymentResult_message,
     deploymentResult_resultCode,
 
     -- * Document
-    Document,
+    Document (Document'),
     newDocument,
 
     -- * ExtensionDetails
-    ExtensionDetails,
+    ExtensionDetails (ExtensionDetails'),
     newExtensionDetails,
     extensionDetails_description,
     extensionDetails_name,
     extensionDetails_namespace,
 
     -- * ExtensionVersionDetails
-    ExtensionVersionDetails,
+    ExtensionVersionDetails (ExtensionVersionDetails'),
     newExtensionVersionDetails,
     extensionVersionDetails_name,
     extensionVersionDetails_namespace,
@@ -80,14 +80,14 @@ module Amazonka.GamesParks.Types
     extensionVersionDetails_version,
 
     -- * GameConfigurationDetails
-    GameConfigurationDetails,
+    GameConfigurationDetails (GameConfigurationDetails'),
     newGameConfigurationDetails,
     gameConfigurationDetails_created,
     gameConfigurationDetails_lastUpdated,
     gameConfigurationDetails_sections,
 
     -- * GameDetails
-    GameDetails,
+    GameDetails (GameDetails'),
     newGameDetails,
     gameDetails_arn,
     gameDetails_created,
@@ -99,7 +99,7 @@ module Amazonka.GamesParks.Types
     gameDetails_tags,
 
     -- * GameSummary
-    GameSummary,
+    GameSummary (GameSummary'),
     newGameSummary,
     gameSummary_description,
     gameSummary_name,
@@ -107,7 +107,7 @@ module Amazonka.GamesParks.Types
     gameSummary_tags,
 
     -- * GeneratedCodeJobDetails
-    GeneratedCodeJobDetails,
+    GeneratedCodeJobDetails (GeneratedCodeJobDetails'),
     newGeneratedCodeJobDetails,
     generatedCodeJobDetails_description,
     generatedCodeJobDetails_expirationTime,
@@ -116,26 +116,26 @@ module Amazonka.GamesParks.Types
     generatedCodeJobDetails_status,
 
     -- * Generator
-    Generator,
+    Generator (Generator'),
     newGenerator,
     generator_gameSdkVersion,
     generator_language,
     generator_targetPlatform,
 
     -- * ImportGameConfigurationSource
-    ImportGameConfigurationSource,
+    ImportGameConfigurationSource (ImportGameConfigurationSource'),
     newImportGameConfigurationSource,
     importGameConfigurationSource_file,
 
     -- * Section
-    Section,
+    Section (Section'),
     newSection,
     section_attributes,
     section_name,
     section_size,
 
     -- * SectionModification
-    SectionModification,
+    SectionModification (SectionModification'),
     newSectionModification,
     sectionModification_value,
     sectionModification_operation,
@@ -143,7 +143,7 @@ module Amazonka.GamesParks.Types
     sectionModification_section,
 
     -- * SnapshotDetails
-    SnapshotDetails,
+    SnapshotDetails (SnapshotDetails'),
     newSnapshotDetails,
     snapshotDetails_created,
     snapshotDetails_description,
@@ -152,7 +152,7 @@ module Amazonka.GamesParks.Types
     snapshotDetails_sections,
 
     -- * SnapshotSummary
-    SnapshotSummary,
+    SnapshotSummary (SnapshotSummary'),
     newSnapshotSummary,
     snapshotSummary_created,
     snapshotSummary_description,
@@ -160,7 +160,7 @@ module Amazonka.GamesParks.Types
     snapshotSummary_lastUpdated,
 
     -- * StageDeploymentDetails
-    StageDeploymentDetails,
+    StageDeploymentDetails (StageDeploymentDetails'),
     newStageDeploymentDetails,
     stageDeploymentDetails_created,
     stageDeploymentDetails_deploymentAction,
@@ -171,7 +171,7 @@ module Amazonka.GamesParks.Types
     stageDeploymentDetails_snapshotId,
 
     -- * StageDeploymentSummary
-    StageDeploymentSummary,
+    StageDeploymentSummary (StageDeploymentSummary'),
     newStageDeploymentSummary,
     stageDeploymentSummary_deploymentAction,
     stageDeploymentSummary_deploymentId,
@@ -181,7 +181,7 @@ module Amazonka.GamesParks.Types
     stageDeploymentSummary_snapshotId,
 
     -- * StageDetails
-    StageDetails,
+    StageDetails (StageDetails'),
     newStageDetails,
     stageDetails_arn,
     stageDetails_created,
@@ -195,7 +195,7 @@ module Amazonka.GamesParks.Types
     stageDetails_tags,
 
     -- * StageSummary
-    StageSummary,
+    StageSummary (StageSummary'),
     newStageSummary,
     stageSummary_description,
     stageSummary_gameKey,

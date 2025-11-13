@@ -27,37 +27,37 @@ module Amazonka.ResourceGroupsTagging.Types
     _ThrottledException,
 
     -- * GroupByAttribute
-    GroupByAttribute,
+    GroupByAttribute (GroupByAttribute'),
 
     -- * ResourceErrorCode
-    ResourceErrorCode,
+    ResourceErrorCode (ResourceErrorCode'),
 
     -- * TargetIdType
-    TargetIdType,
+    TargetIdType (TargetIdType'),
 
     -- * ComplianceDetails
-    ComplianceDetails,
+    ComplianceDetails (ComplianceDetails'),
     newComplianceDetails,
     complianceDetails_complianceStatus,
     complianceDetails_keysWithNoncompliantValues,
     complianceDetails_noncompliantKeys,
 
     -- * FailureInfo
-    FailureInfo,
+    FailureInfo (FailureInfo'),
     newFailureInfo,
     failureInfo_errorCode,
     failureInfo_errorMessage,
     failureInfo_statusCode,
 
     -- * ResourceTagMapping
-    ResourceTagMapping,
+    ResourceTagMapping (ResourceTagMapping'),
     newResourceTagMapping,
     resourceTagMapping_complianceDetails,
     resourceTagMapping_resourceARN,
     resourceTagMapping_tags,
 
     -- * Summary
-    Summary,
+    Summary (Summary'),
     newSummary,
     summary_lastUpdated,
     summary_nonCompliantResources,
@@ -67,13 +67,13 @@ module Amazonka.ResourceGroupsTagging.Types
     summary_targetIdType,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
 
     -- * TagFilter
-    TagFilter,
+    TagFilter (TagFilter'),
     newTagFilter,
     tagFilter_key,
     tagFilter_values,

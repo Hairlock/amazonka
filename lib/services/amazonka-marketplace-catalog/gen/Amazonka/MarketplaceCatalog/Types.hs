@@ -29,16 +29,16 @@ module Amazonka.MarketplaceCatalog.Types
     _ValidationException,
 
     -- * ChangeStatus
-    ChangeStatus,
+    ChangeStatus (ChangeStatus'),
 
     -- * FailureCode
-    FailureCode,
+    FailureCode (FailureCode'),
 
     -- * SortOrder
-    SortOrder,
+    SortOrder (SortOrder'),
 
     -- * Change
-    Change,
+    Change (Change'),
     newChange,
     change_changeName,
     change_entityTags,
@@ -47,7 +47,7 @@ module Amazonka.MarketplaceCatalog.Types
     change_details,
 
     -- * ChangeSetSummaryListItem
-    ChangeSetSummaryListItem,
+    ChangeSetSummaryListItem (ChangeSetSummaryListItem'),
     newChangeSetSummaryListItem,
     changeSetSummaryListItem_changeSetArn,
     changeSetSummaryListItem_changeSetId,
@@ -59,7 +59,7 @@ module Amazonka.MarketplaceCatalog.Types
     changeSetSummaryListItem_status,
 
     -- * ChangeSummary
-    ChangeSummary,
+    ChangeSummary (ChangeSummary'),
     newChangeSummary,
     changeSummary_changeName,
     changeSummary_changeType,
@@ -68,13 +68,13 @@ module Amazonka.MarketplaceCatalog.Types
     changeSummary_errorDetailList,
 
     -- * Entity
-    Entity,
+    Entity (Entity'),
     newEntity,
     entity_identifier,
     entity_type,
 
     -- * EntitySummary
-    EntitySummary,
+    EntitySummary (EntitySummary'),
     newEntitySummary,
     entitySummary_entityArn,
     entitySummary_entityId,
@@ -84,25 +84,25 @@ module Amazonka.MarketplaceCatalog.Types
     entitySummary_visibility,
 
     -- * ErrorDetail
-    ErrorDetail,
+    ErrorDetail (ErrorDetail'),
     newErrorDetail,
     errorDetail_errorCode,
     errorDetail_errorMessage,
 
     -- * Filter
-    Filter,
+    Filter (Filter'),
     newFilter,
     filter_name,
     filter_valueList,
 
     -- * Sort
-    Sort,
+    Sort (Sort'),
     newSort,
     sort_sortBy,
     sort_sortOrder,
 
     -- * Tag
-    Tag,
+    Tag (Tag'),
     newTag,
     tag_key,
     tag_value,
