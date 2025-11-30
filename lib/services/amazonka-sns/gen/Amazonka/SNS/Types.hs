@@ -92,7 +92,7 @@ module Amazonka.SNS.Types
     phoneNumberInformation_numberCapabilities,
     phoneNumberInformation_phoneNumber,
     phoneNumberInformation_routeType,
-    phoneNumberInformation_status,
+    -- phoneNumberInformation_status, -- conflicts with sMSSandboxPhoneNumber_status
 
     -- * PlatformApplication
     PlatformApplication (..),
@@ -122,7 +122,7 @@ module Amazonka.SNS.Types
     SMSSandboxPhoneNumber (..),
     newSMSSandboxPhoneNumber,
     sMSSandboxPhoneNumber_phoneNumber,
-    sMSSandboxPhoneNumber_status,
+    -- sMSSandboxPhoneNumber_status, -- conflicts with phoneNumberInformation_status
 
     -- * Subscription
     Subscription (..),
@@ -131,7 +131,7 @@ module Amazonka.SNS.Types
     subscription_owner,
     subscription_protocol,
     subscription_subscriptionArn,
-    subscription_topicArn,
+    -- subscription_topicArn, -- conflicts with topic_topicArn
 
     -- * Tag
     Tag (..),
@@ -142,7 +142,7 @@ module Amazonka.SNS.Types
     -- * Topic
     Topic (..),
     newTopic,
-    topic_topicArn,
+    -- topic_topicArn, -- conflicts with subscription_topicArn
   )
 where
 
