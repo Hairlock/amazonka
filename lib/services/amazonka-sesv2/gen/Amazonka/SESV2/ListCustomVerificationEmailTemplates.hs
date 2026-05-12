@@ -133,8 +133,7 @@ instance
     Response.receiveJSON
       ( \s h x ->
           ListCustomVerificationEmailTemplatesResponse'
-            Prelude.<$> ( x
-                            Data..?> "CustomVerificationEmailTemplates"
+            Prelude.<$> ( x Data..?> "CustomVerificationEmailTemplates"
                             Core..!@ Prelude.mempty
                         )
             Prelude.<*> (x Data..?> "NextToken")

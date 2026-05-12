@@ -128,7 +128,7 @@ instance Core.AWSRequest ListImportJobs where
     AWSResponse ListImportJobs =
       ListImportJobsResponse
   request overrides =
-    Request.get (overrides defaultService)
+    Request.postJSON (overrides defaultService)
   response =
     Response.receiveJSON
       ( \s h x ->
@@ -162,15 +162,22 @@ instance Data.ToHeaders ListImportJobs where
           ]
       )
 
+instance Data.ToJSON ListImportJobs where
+  toJSON ListImportJobs' {..} =
+    Data.object
+      ( Prelude.catMaybes
+          [ ("ImportDestinationType" Data..=)
+              Prelude.<$> importDestinationType,
+            ("NextToken" Data..=) Prelude.<$> nextToken,
+            ("PageSize" Data..=) Prelude.<$> pageSize
+          ]
+      )
+
 instance Data.ToPath ListImportJobs where
-  toPath = Prelude.const "/v2/email/import-jobs"
+  toPath = Prelude.const "/v2/email/import-jobs/list"
 
 instance Data.ToQuery ListImportJobs where
-  toQuery ListImportJobs' {..} =
-    Prelude.mconcat
-      [ "NextToken" Data.=: nextToken,
-        "PageSize" Data.=: pageSize
-      ]
+  toQuery = Prelude.const Prelude.mempty
 
 -- | An HTTP 200 response if the request succeeds, or an error message if the
 -- request fails.

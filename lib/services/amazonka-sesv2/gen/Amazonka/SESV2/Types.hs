@@ -32,8 +32,17 @@ module Amazonka.SESV2.Types
     _SendingPausedException,
     _TooManyRequestsException,
 
+    -- * AttachmentContentDisposition
+    AttachmentContentDisposition (..),
+
+    -- * AttachmentContentTransferEncoding
+    AttachmentContentTransferEncoding (..),
+
     -- * BehaviorOnMxFailure
     BehaviorOnMxFailure (..),
+
+    -- * BounceType
+    BounceType (..),
 
     -- * BulkEmailStatus
     BulkEmailStatus (..),
@@ -53,6 +62,9 @@ module Amazonka.SESV2.Types
     -- * DeliverabilityTestStatus
     DeliverabilityTestStatus (..),
 
+    -- * DeliveryEventType
+    DeliveryEventType (..),
+
     -- * DimensionValueSource
     DimensionValueSource (..),
 
@@ -65,11 +77,23 @@ module Amazonka.SESV2.Types
     -- * DkimStatus
     DkimStatus (..),
 
+    -- * EmailAddressInsightsConfidenceVerdict
+    EmailAddressInsightsConfidenceVerdict (..),
+
+    -- * EngagementEventType
+    EngagementEventType (..),
+
     -- * EventType
     EventType (..),
 
+    -- * ExportSourceType
+    ExportSourceType (..),
+
     -- * FeatureStatus
     FeatureStatus (..),
+
+    -- * HttpsPolicy
+    HttpsPolicy (..),
 
     -- * IdentityType
     IdentityType (..),
@@ -83,6 +107,9 @@ module Amazonka.SESV2.Types
     -- * ListRecommendationsFilterKey
     ListRecommendationsFilterKey (..),
 
+    -- * ListTenantResourcesFilterKey
+    ListTenantResourcesFilterKey (..),
+
     -- * MailFromDomainStatus
     MailFromDomainStatus (..),
 
@@ -91,6 +118,9 @@ module Amazonka.SESV2.Types
 
     -- * Metric
     Metric (..),
+
+    -- * MetricAggregation
+    MetricAggregation (..),
 
     -- * MetricDimensionName
     MetricDimensionName (..),
@@ -110,14 +140,32 @@ module Amazonka.SESV2.Types
     -- * RecommendationType
     RecommendationType (..),
 
+    -- * ReputationEntityFilterKey
+    ReputationEntityFilterKey (..),
+
+    -- * ReputationEntityType
+    ReputationEntityType (..),
+
+    -- * ResourceType
+    ResourceType (..),
+
     -- * ReviewStatus
     ReviewStatus (..),
 
     -- * ScalingMode
     ScalingMode (..),
 
+    -- * SendingStatus
+    SendingStatus (..),
+
+    -- * Status
+    Status (..),
+
     -- * SubscriptionStatus
     SubscriptionStatus (..),
+
+    -- * SuppressionConfidenceVerdictThreshold
+    SuppressionConfidenceVerdictThreshold (..),
 
     -- * SuppressionListImportAction
     SuppressionListImportAction (..),
@@ -127,6 +175,9 @@ module Amazonka.SESV2.Types
 
     -- * TlsPolicy
     TlsPolicy (..),
+
+    -- * VerificationError
+    VerificationError (..),
 
     -- * VerificationStatus
     VerificationStatus (..),
@@ -143,6 +194,22 @@ module Amazonka.SESV2.Types
     accountDetails_reviewDetails,
     accountDetails_useCaseDescription,
     accountDetails_websiteURL,
+
+    -- * ArchivingOptions
+    ArchivingOptions (..),
+    newArchivingOptions,
+    archivingOptions_archiveArn,
+
+    -- * Attachment
+    Attachment (..),
+    newAttachment,
+    attachment_contentDescription,
+    attachment_contentDisposition,
+    attachment_contentId,
+    attachment_contentTransferEncoding,
+    attachment_contentType,
+    attachment_rawContent,
+    attachment_fileName,
 
     -- * BatchGetMetricDataQuery
     BatchGetMetricDataQuery (..),
@@ -167,6 +234,13 @@ module Amazonka.SESV2.Types
     body_html,
     body_text,
 
+    -- * Bounce
+    Bounce (..),
+    newBounce,
+    bounce_bounceSubType,
+    bounce_bounceType,
+    bounce_diagnosticCode,
+
     -- * BulkEmailContent
     BulkEmailContent (..),
     newBulkEmailContent,
@@ -176,6 +250,7 @@ module Amazonka.SESV2.Types
     BulkEmailEntry (..),
     newBulkEmailEntry,
     bulkEmailEntry_replacementEmailContent,
+    bulkEmailEntry_replacementHeaders,
     bulkEmailEntry_replacementTags,
     bulkEmailEntry_destination,
 
@@ -197,6 +272,12 @@ module Amazonka.SESV2.Types
     cloudWatchDimensionConfiguration_dimensionName,
     cloudWatchDimensionConfiguration_dimensionValueSource,
     cloudWatchDimensionConfiguration_defaultDimensionValue,
+
+    -- * Complaint
+    Complaint (..),
+    newComplaint,
+    complaint_complaintFeedbackType,
+    complaint_complaintSubType,
 
     -- * Contact
     Contact (..),
@@ -278,6 +359,7 @@ module Amazonka.SESV2.Types
     -- * DeliveryOptions
     DeliveryOptions (..),
     newDeliveryOptions,
+    deliveryOptions_maxDeliverySeconds,
     deliveryOptions_sendingPoolName,
     deliveryOptions_tlsPolicy,
 
@@ -288,6 +370,11 @@ module Amazonka.SESV2.Types
     destination_ccAddresses,
     destination_toAddresses,
 
+    -- * Details
+    Details (..),
+    newDetails,
+    details_routesDetails,
+
     -- * DkimAttributes
     DkimAttributes (..),
     newDkimAttributes,
@@ -296,12 +383,14 @@ module Amazonka.SESV2.Types
     dkimAttributes_nextSigningKeyLength,
     dkimAttributes_signingAttributesOrigin,
     dkimAttributes_signingEnabled,
+    dkimAttributes_signingHostedZone,
     dkimAttributes_status,
     dkimAttributes_tokens,
 
     -- * DkimSigningAttributes
     DkimSigningAttributes (..),
     newDkimSigningAttributes,
+    dkimSigningAttributes_domainSigningAttributesOrigin,
     dkimSigningAttributes_domainSigningPrivateKey,
     dkimSigningAttributes_domainSigningSelector,
     dkimSigningAttributes_nextSigningKeyLength,
@@ -340,12 +429,34 @@ module Amazonka.SESV2.Types
     domainIspPlacement_spamPercentage,
     domainIspPlacement_spamRawCount,
 
+    -- * EmailAddressInsightsMailboxEvaluations
+    EmailAddressInsightsMailboxEvaluations (..),
+    newEmailAddressInsightsMailboxEvaluations,
+    emailAddressInsightsMailboxEvaluations_hasValidDnsRecords,
+    emailAddressInsightsMailboxEvaluations_hasValidSyntax,
+    emailAddressInsightsMailboxEvaluations_isDisposable,
+    emailAddressInsightsMailboxEvaluations_isRandomInput,
+    emailAddressInsightsMailboxEvaluations_isRoleAddress,
+    emailAddressInsightsMailboxEvaluations_mailboxExists,
+
+    -- * EmailAddressInsightsVerdict
+    EmailAddressInsightsVerdict (..),
+    newEmailAddressInsightsVerdict,
+    emailAddressInsightsVerdict_confidenceVerdict,
+
     -- * EmailContent
     EmailContent (..),
     newEmailContent,
     emailContent_raw,
     emailContent_simple,
     emailContent_template,
+
+    -- * EmailInsights
+    EmailInsights (..),
+    newEmailInsights,
+    emailInsights_destination,
+    emailInsights_events,
+    emailInsights_isp,
 
     -- * EmailTemplateContent
     EmailTemplateContent (..),
@@ -360,11 +471,17 @@ module Amazonka.SESV2.Types
     emailTemplateMetadata_createdTimestamp,
     emailTemplateMetadata_templateName,
 
+    -- * EventBridgeDestination
+    EventBridgeDestination (..),
+    newEventBridgeDestination,
+    eventBridgeDestination_eventBusArn,
+
     -- * EventDestination
     EventDestination (..),
     newEventDestination,
     eventDestination_cloudWatchDestination,
     eventDestination_enabled,
+    eventDestination_eventBridgeDestination,
     eventDestination_kinesisFirehoseDestination,
     eventDestination_pinpointDestination,
     eventDestination_snsDestination,
@@ -376,10 +493,50 @@ module Amazonka.SESV2.Types
     newEventDestinationDefinition,
     eventDestinationDefinition_cloudWatchDestination,
     eventDestinationDefinition_enabled,
+    eventDestinationDefinition_eventBridgeDestination,
     eventDestinationDefinition_kinesisFirehoseDestination,
     eventDestinationDefinition_matchingEventTypes,
     eventDestinationDefinition_pinpointDestination,
     eventDestinationDefinition_snsDestination,
+
+    -- * EventDetails
+    EventDetails (..),
+    newEventDetails,
+    eventDetails_bounce,
+    eventDetails_complaint,
+
+    -- * ExportDataSource
+    ExportDataSource (..),
+    newExportDataSource,
+    exportDataSource_messageInsightsDataSource,
+    exportDataSource_metricsDataSource,
+
+    -- * ExportDestination
+    ExportDestination (..),
+    newExportDestination,
+    exportDestination_s3Url,
+    exportDestination_dataFormat,
+
+    -- * ExportJobSummary
+    ExportJobSummary (..),
+    newExportJobSummary,
+    exportJobSummary_completedTimestamp,
+    exportJobSummary_createdTimestamp,
+    exportJobSummary_exportSourceType,
+    exportJobSummary_jobId,
+    exportJobSummary_jobStatus,
+
+    -- * ExportMetric
+    ExportMetric (..),
+    newExportMetric,
+    exportMetric_aggregation,
+    exportMetric_name,
+
+    -- * ExportStatistics
+    ExportStatistics (..),
+    newExportStatistics,
+    exportStatistics_exportedRecordsCount,
+    exportStatistics_processedRecordsCount,
 
     -- * FailureInfo
     FailureInfo (..),
@@ -433,6 +590,13 @@ module Amazonka.SESV2.Types
     inboxPlacementTrackingOption_global,
     inboxPlacementTrackingOption_trackedIsps,
 
+    -- * InsightsEvent
+    InsightsEvent (..),
+    newInsightsEvent,
+    insightsEvent_details,
+    insightsEvent_timestamp,
+    insightsEvent_type,
+
     -- * IspPlacement
     IspPlacement (..),
     newIspPlacement,
@@ -464,11 +628,44 @@ module Amazonka.SESV2.Types
     mailFromAttributes_mailFromDomainStatus,
     mailFromAttributes_behaviorOnMxFailure,
 
+    -- * MailboxValidation
+    MailboxValidation (..),
+    newMailboxValidation,
+    mailboxValidation_evaluations,
+    mailboxValidation_isValid,
+
     -- * Message
     Message (..),
     newMessage,
+    message_attachments,
+    message_headers,
     message_subject,
     message_body,
+
+    -- * MessageHeader
+    MessageHeader (..),
+    newMessageHeader,
+    messageHeader_name,
+    messageHeader_value,
+
+    -- * MessageInsightsDataSource
+    MessageInsightsDataSource (..),
+    newMessageInsightsDataSource,
+    messageInsightsDataSource_exclude,
+    messageInsightsDataSource_include,
+    messageInsightsDataSource_maxResults,
+    messageInsightsDataSource_startDate,
+    messageInsightsDataSource_endDate,
+
+    -- * MessageInsightsFilters
+    MessageInsightsFilters (..),
+    newMessageInsightsFilters,
+    messageInsightsFilters_destination,
+    messageInsightsFilters_fromEmailAddress,
+    messageInsightsFilters_isp,
+    messageInsightsFilters_lastDeliveryEvent,
+    messageInsightsFilters_lastEngagementEvent,
+    messageInsightsFilters_subject,
 
     -- * MessageTag
     MessageTag (..),
@@ -489,6 +686,25 @@ module Amazonka.SESV2.Types
     metricDataResult_id,
     metricDataResult_timestamps,
     metricDataResult_values,
+
+    -- * MetricsDataSource
+    MetricsDataSource (..),
+    newMetricsDataSource,
+    metricsDataSource_dimensions,
+    metricsDataSource_namespace,
+    metricsDataSource_metrics,
+    metricsDataSource_startDate,
+    metricsDataSource_endDate,
+
+    -- * MultiRegionEndpoint
+    MultiRegionEndpoint (..),
+    newMultiRegionEndpoint,
+    multiRegionEndpoint_createdTimestamp,
+    multiRegionEndpoint_endpointId,
+    multiRegionEndpoint_endpointName,
+    multiRegionEndpoint_lastUpdatedTimestamp,
+    multiRegionEndpoint_regions,
+    multiRegionEndpoint_status,
 
     -- * OverallVolume
     OverallVolume (..),
@@ -537,17 +753,53 @@ module Amazonka.SESV2.Types
     newReplacementTemplate,
     replacementTemplate_replacementTemplateData,
 
+    -- * ReputationEntity
+    ReputationEntity (..),
+    newReputationEntity,
+    reputationEntity_awsSesManagedStatus,
+    reputationEntity_customerManagedStatus,
+    reputationEntity_reputationEntityReference,
+    reputationEntity_reputationEntityType,
+    reputationEntity_reputationImpact,
+    reputationEntity_reputationManagementPolicy,
+    reputationEntity_sendingStatusAggregate,
+
     -- * ReputationOptions
     ReputationOptions (..),
     newReputationOptions,
     reputationOptions_lastFreshStart,
     reputationOptions_reputationMetricsEnabled,
 
+    -- * ResourceTenantMetadata
+    ResourceTenantMetadata (..),
+    newResourceTenantMetadata,
+    resourceTenantMetadata_associatedTimestamp,
+    resourceTenantMetadata_resourceArn,
+    resourceTenantMetadata_tenantId,
+    resourceTenantMetadata_tenantName,
+
     -- * ReviewDetails
     ReviewDetails (..),
     newReviewDetails,
     reviewDetails_caseId,
     reviewDetails_status,
+
+    -- * Route
+    Route (..),
+    newRoute,
+    route_region,
+
+    -- * RouteDetails
+    RouteDetails (..),
+    newRouteDetails,
+    routeDetails_region,
+
+    -- * SOARecord
+    SOARecord (..),
+    newSOARecord,
+    sOARecord_adminEmail,
+    sOARecord_primaryNameServer,
+    sOARecord_serialNumber,
 
     -- * SendQuota
     SendQuota (..),
@@ -565,6 +817,13 @@ module Amazonka.SESV2.Types
     SnsDestination (..),
     newSnsDestination,
     snsDestination_topicArn,
+
+    -- * StatusRecord
+    StatusRecord (..),
+    newStatusRecord,
+    statusRecord_cause,
+    statusRecord_lastUpdatedTimestamp,
+    statusRecord_status,
 
     -- * SuppressedDestination
     SuppressedDestination (..),
@@ -591,6 +850,18 @@ module Amazonka.SESV2.Types
     SuppressionAttributes (..),
     newSuppressionAttributes,
     suppressionAttributes_suppressedReasons,
+    suppressionAttributes_validationAttributes,
+
+    -- * SuppressionConditionThreshold
+    SuppressionConditionThreshold (..),
+    newSuppressionConditionThreshold,
+    suppressionConditionThreshold_overallConfidenceThreshold,
+    suppressionConditionThreshold_conditionThresholdEnabled,
+
+    -- * SuppressionConfidenceThreshold
+    SuppressionConfidenceThreshold (..),
+    newSuppressionConfidenceThreshold,
+    suppressionConfidenceThreshold_confidenceVerdictThreshold,
 
     -- * SuppressionListDestination
     SuppressionListDestination (..),
@@ -601,6 +872,17 @@ module Amazonka.SESV2.Types
     SuppressionOptions (..),
     newSuppressionOptions,
     suppressionOptions_suppressedReasons,
+    suppressionOptions_validationOptions,
+
+    -- * SuppressionValidationAttributes
+    SuppressionValidationAttributes (..),
+    newSuppressionValidationAttributes,
+    suppressionValidationAttributes_conditionThreshold,
+
+    -- * SuppressionValidationOptions
+    SuppressionValidationOptions (..),
+    newSuppressionValidationOptions,
+    suppressionValidationOptions_conditionThreshold,
 
     -- * Tag
     Tag (..),
@@ -611,9 +893,36 @@ module Amazonka.SESV2.Types
     -- * Template
     Template (..),
     newTemplate,
+    template_attachments,
+    template_headers,
     template_templateArn,
+    template_templateContent,
     template_templateData,
     template_templateName,
+
+    -- * Tenant
+    Tenant (..),
+    newTenant,
+    tenant_createdTimestamp,
+    tenant_sendingStatus,
+    tenant_tags,
+    tenant_tenantArn,
+    tenant_tenantId,
+    tenant_tenantName,
+
+    -- * TenantInfo
+    TenantInfo (..),
+    newTenantInfo,
+    tenantInfo_createdTimestamp,
+    tenantInfo_tenantArn,
+    tenantInfo_tenantId,
+    tenantInfo_tenantName,
+
+    -- * TenantResource
+    TenantResource (..),
+    newTenantResource,
+    tenantResource_resourceArn,
+    tenantResource_resourceType,
 
     -- * Topic
     Topic (..),
@@ -638,6 +947,7 @@ module Amazonka.SESV2.Types
     -- * TrackingOptions
     TrackingOptions (..),
     newTrackingOptions,
+    trackingOptions_httpsPolicy,
     trackingOptions_customRedirectDomain,
 
     -- * VdmAttributes
@@ -653,6 +963,14 @@ module Amazonka.SESV2.Types
     vdmOptions_dashboardOptions,
     vdmOptions_guardianOptions,
 
+    -- * VerificationInfo
+    VerificationInfo (..),
+    newVerificationInfo,
+    verificationInfo_errorType,
+    verificationInfo_lastCheckedTimestamp,
+    verificationInfo_lastSuccessTimestamp,
+    verificationInfo_sOARecord,
+
     -- * VolumeStatistics
     VolumeStatistics (..),
     newVolumeStatistics,
@@ -667,16 +985,23 @@ import qualified Amazonka.Core as Core
 import qualified Amazonka.Core.Lens.Internal as Lens
 import qualified Amazonka.Prelude as Prelude
 import Amazonka.SESV2.Types.AccountDetails
+import Amazonka.SESV2.Types.ArchivingOptions
+import Amazonka.SESV2.Types.Attachment
+import Amazonka.SESV2.Types.AttachmentContentDisposition
+import Amazonka.SESV2.Types.AttachmentContentTransferEncoding
 import Amazonka.SESV2.Types.BatchGetMetricDataQuery
 import Amazonka.SESV2.Types.BehaviorOnMxFailure
 import Amazonka.SESV2.Types.BlacklistEntry
 import Amazonka.SESV2.Types.Body
+import Amazonka.SESV2.Types.Bounce
+import Amazonka.SESV2.Types.BounceType
 import Amazonka.SESV2.Types.BulkEmailContent
 import Amazonka.SESV2.Types.BulkEmailEntry
 import Amazonka.SESV2.Types.BulkEmailEntryResult
 import Amazonka.SESV2.Types.BulkEmailStatus
 import Amazonka.SESV2.Types.CloudWatchDestination
 import Amazonka.SESV2.Types.CloudWatchDimensionConfiguration
+import Amazonka.SESV2.Types.Complaint
 import Amazonka.SESV2.Types.Contact
 import Amazonka.SESV2.Types.ContactLanguage
 import Amazonka.SESV2.Types.ContactList
@@ -693,8 +1018,10 @@ import Amazonka.SESV2.Types.DedicatedIpPool
 import Amazonka.SESV2.Types.DeliverabilityDashboardAccountStatus
 import Amazonka.SESV2.Types.DeliverabilityTestReport
 import Amazonka.SESV2.Types.DeliverabilityTestStatus
+import Amazonka.SESV2.Types.DeliveryEventType
 import Amazonka.SESV2.Types.DeliveryOptions
 import Amazonka.SESV2.Types.Destination
+import Amazonka.SESV2.Types.Details
 import Amazonka.SESV2.Types.DimensionValueSource
 import Amazonka.SESV2.Types.DkimAttributes
 import Amazonka.SESV2.Types.DkimSigningAttributes
@@ -704,16 +1031,30 @@ import Amazonka.SESV2.Types.DkimStatus
 import Amazonka.SESV2.Types.DomainDeliverabilityCampaign
 import Amazonka.SESV2.Types.DomainDeliverabilityTrackingOption
 import Amazonka.SESV2.Types.DomainIspPlacement
+import Amazonka.SESV2.Types.EmailAddressInsightsConfidenceVerdict
+import Amazonka.SESV2.Types.EmailAddressInsightsMailboxEvaluations
+import Amazonka.SESV2.Types.EmailAddressInsightsVerdict
 import Amazonka.SESV2.Types.EmailContent
+import Amazonka.SESV2.Types.EmailInsights
 import Amazonka.SESV2.Types.EmailTemplateContent
 import Amazonka.SESV2.Types.EmailTemplateMetadata
+import Amazonka.SESV2.Types.EngagementEventType
+import Amazonka.SESV2.Types.EventBridgeDestination
 import Amazonka.SESV2.Types.EventDestination
 import Amazonka.SESV2.Types.EventDestinationDefinition
+import Amazonka.SESV2.Types.EventDetails
 import Amazonka.SESV2.Types.EventType
+import Amazonka.SESV2.Types.ExportDataSource
+import Amazonka.SESV2.Types.ExportDestination
+import Amazonka.SESV2.Types.ExportJobSummary
+import Amazonka.SESV2.Types.ExportMetric
+import Amazonka.SESV2.Types.ExportSourceType
+import Amazonka.SESV2.Types.ExportStatistics
 import Amazonka.SESV2.Types.FailureInfo
 import Amazonka.SESV2.Types.FeatureStatus
 import Amazonka.SESV2.Types.GuardianAttributes
 import Amazonka.SESV2.Types.GuardianOptions
+import Amazonka.SESV2.Types.HttpsPolicy
 import Amazonka.SESV2.Types.IdentityInfo
 import Amazonka.SESV2.Types.IdentityType
 import Amazonka.SESV2.Types.ImportDataSource
@@ -721,22 +1062,31 @@ import Amazonka.SESV2.Types.ImportDestination
 import Amazonka.SESV2.Types.ImportDestinationType
 import Amazonka.SESV2.Types.ImportJobSummary
 import Amazonka.SESV2.Types.InboxPlacementTrackingOption
+import Amazonka.SESV2.Types.InsightsEvent
 import Amazonka.SESV2.Types.IspPlacement
 import Amazonka.SESV2.Types.JobStatus
 import Amazonka.SESV2.Types.KinesisFirehoseDestination
 import Amazonka.SESV2.Types.ListContactsFilter
 import Amazonka.SESV2.Types.ListManagementOptions
 import Amazonka.SESV2.Types.ListRecommendationsFilterKey
+import Amazonka.SESV2.Types.ListTenantResourcesFilterKey
 import Amazonka.SESV2.Types.MailFromAttributes
 import Amazonka.SESV2.Types.MailFromDomainStatus
 import Amazonka.SESV2.Types.MailType
+import Amazonka.SESV2.Types.MailboxValidation
 import Amazonka.SESV2.Types.Message
+import Amazonka.SESV2.Types.MessageHeader
+import Amazonka.SESV2.Types.MessageInsightsDataSource
+import Amazonka.SESV2.Types.MessageInsightsFilters
 import Amazonka.SESV2.Types.MessageTag
 import Amazonka.SESV2.Types.Metric
+import Amazonka.SESV2.Types.MetricAggregation
 import Amazonka.SESV2.Types.MetricDataError
 import Amazonka.SESV2.Types.MetricDataResult
 import Amazonka.SESV2.Types.MetricDimensionName
 import Amazonka.SESV2.Types.MetricNamespace
+import Amazonka.SESV2.Types.MetricsDataSource
+import Amazonka.SESV2.Types.MultiRegionEndpoint
 import Amazonka.SESV2.Types.OverallVolume
 import Amazonka.SESV2.Types.PinpointDestination
 import Amazonka.SESV2.Types.PlacementStatistics
@@ -748,24 +1098,43 @@ import Amazonka.SESV2.Types.RecommendationStatus
 import Amazonka.SESV2.Types.RecommendationType
 import Amazonka.SESV2.Types.ReplacementEmailContent
 import Amazonka.SESV2.Types.ReplacementTemplate
+import Amazonka.SESV2.Types.ReputationEntity
+import Amazonka.SESV2.Types.ReputationEntityFilterKey
+import Amazonka.SESV2.Types.ReputationEntityType
 import Amazonka.SESV2.Types.ReputationOptions
+import Amazonka.SESV2.Types.ResourceTenantMetadata
+import Amazonka.SESV2.Types.ResourceType
 import Amazonka.SESV2.Types.ReviewDetails
 import Amazonka.SESV2.Types.ReviewStatus
+import Amazonka.SESV2.Types.Route
+import Amazonka.SESV2.Types.RouteDetails
+import Amazonka.SESV2.Types.SOARecord
 import Amazonka.SESV2.Types.ScalingMode
 import Amazonka.SESV2.Types.SendQuota
 import Amazonka.SESV2.Types.SendingOptions
+import Amazonka.SESV2.Types.SendingStatus
 import Amazonka.SESV2.Types.SnsDestination
+import Amazonka.SESV2.Types.Status
+import Amazonka.SESV2.Types.StatusRecord
 import Amazonka.SESV2.Types.SubscriptionStatus
 import Amazonka.SESV2.Types.SuppressedDestination
 import Amazonka.SESV2.Types.SuppressedDestinationAttributes
 import Amazonka.SESV2.Types.SuppressedDestinationSummary
 import Amazonka.SESV2.Types.SuppressionAttributes
+import Amazonka.SESV2.Types.SuppressionConditionThreshold
+import Amazonka.SESV2.Types.SuppressionConfidenceThreshold
+import Amazonka.SESV2.Types.SuppressionConfidenceVerdictThreshold
 import Amazonka.SESV2.Types.SuppressionListDestination
 import Amazonka.SESV2.Types.SuppressionListImportAction
 import Amazonka.SESV2.Types.SuppressionListReason
 import Amazonka.SESV2.Types.SuppressionOptions
+import Amazonka.SESV2.Types.SuppressionValidationAttributes
+import Amazonka.SESV2.Types.SuppressionValidationOptions
 import Amazonka.SESV2.Types.Tag
 import Amazonka.SESV2.Types.Template
+import Amazonka.SESV2.Types.Tenant
+import Amazonka.SESV2.Types.TenantInfo
+import Amazonka.SESV2.Types.TenantResource
 import Amazonka.SESV2.Types.TlsPolicy
 import Amazonka.SESV2.Types.Topic
 import Amazonka.SESV2.Types.TopicFilter
@@ -773,6 +1142,8 @@ import Amazonka.SESV2.Types.TopicPreference
 import Amazonka.SESV2.Types.TrackingOptions
 import Amazonka.SESV2.Types.VdmAttributes
 import Amazonka.SESV2.Types.VdmOptions
+import Amazonka.SESV2.Types.VerificationError
+import Amazonka.SESV2.Types.VerificationInfo
 import Amazonka.SESV2.Types.VerificationStatus
 import Amazonka.SESV2.Types.VolumeStatistics
 import Amazonka.SESV2.Types.WarmupStatus

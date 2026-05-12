@@ -125,8 +125,7 @@ instance Core.AWSRequest ListEmailIdentities where
     Response.receiveJSON
       ( \s h x ->
           ListEmailIdentitiesResponse'
-            Prelude.<$> ( x
-                            Data..?> "EmailIdentities"
+            Prelude.<$> ( x Data..?> "EmailIdentities"
                             Core..!@ Prelude.mempty
                         )
             Prelude.<*> (x Data..?> "NextToken")

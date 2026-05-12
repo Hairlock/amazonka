@@ -24,6 +24,7 @@ import qualified Amazonka.Core.Lens.Internal as Lens
 import qualified Amazonka.Data as Data
 import qualified Amazonka.Prelude as Prelude
 import Amazonka.SESV2.Types.CloudWatchDestination
+import Amazonka.SESV2.Types.EventBridgeDestination
 import Amazonka.SESV2.Types.EventType
 import Amazonka.SESV2.Types.KinesisFirehoseDestination
 import Amazonka.SESV2.Types.PinpointDestination
@@ -51,6 +52,10 @@ data EventDestination = EventDestination'
     -- destination is disabled, events aren\'t sent to the specified
     -- destinations.
     enabled :: Prelude.Maybe Prelude.Bool,
+    -- | An object that defines an Amazon EventBridge destination for email
+    -- events. You can use Amazon EventBridge to send notifications when
+    -- certain email events occur.
+    eventBridgeDestination :: Prelude.Maybe EventBridgeDestination,
     -- | An object that defines an Amazon Kinesis Data Firehose destination for
     -- email events. You can use Amazon Kinesis Data Firehose to stream data to
     -- other services, such as Amazon S3 and Amazon Redshift.
@@ -63,12 +68,56 @@ data EventDestination = EventDestination'
     -- in the /Amazon Pinpoint User Guide/.
     pinpointDestination :: Prelude.Maybe PinpointDestination,
     -- | An object that defines an Amazon SNS destination for email events. You
-    -- can use Amazon SNS to send notification when certain email events occur.
+    -- can use Amazon SNS to send notifications when certain email events
+    -- occur.
     snsDestination :: Prelude.Maybe SnsDestination,
     -- | A name that identifies the event destination.
     name :: Prelude.Text,
     -- | The types of events that Amazon SES sends to the specified event
     -- destinations.
+    --
+    -- -   @SEND@ - The send request was successful and SES will attempt to
+    --     deliver the message to the recipient’s mail server. (If
+    --     account-level or global suppression is being used, SES will still
+    --     count it as a send, but delivery is suppressed.)
+    --
+    -- -   @REJECT@ - SES accepted the email, but determined that it contained
+    --     a virus and didn’t attempt to deliver it to the recipient’s mail
+    --     server.
+    --
+    -- -   @BOUNCE@ - (/Hard bounce/) The recipient\'s mail server permanently
+    --     rejected the email. (/Soft bounces/ are only included when SES fails
+    --     to deliver the email after retrying for a period of time.)
+    --
+    -- -   @COMPLAINT@ - The email was successfully delivered to the
+    --     recipient’s mail server, but the recipient marked it as spam.
+    --
+    -- -   @DELIVERY@ - SES successfully delivered the email to the
+    --     recipient\'s mail server.
+    --
+    -- -   @OPEN@ - The recipient received the message and opened it in their
+    --     email client.
+    --
+    -- -   @CLICK@ - The recipient clicked one or more links in the email.
+    --
+    -- -   @RENDERING_FAILURE@ - The email wasn\'t sent because of a template
+    --     rendering issue. This event type can occur when template data is
+    --     missing, or when there is a mismatch between template parameters and
+    --     data. (This event type only occurs when you send email using the
+    --     <https://docs.aws.amazon.com/ses/latest/APIReference-V2/API_SendEmail.html SendEmail>
+    --     or
+    --     <https://docs.aws.amazon.com/ses/latest/APIReference-V2/API_SendBulkEmail.html SendBulkEmail>
+    --     API operations.)
+    --
+    -- -   @DELIVERY_DELAY@ - The email couldn\'t be delivered to the
+    --     recipient’s mail server because a temporary issue occurred. Delivery
+    --     delays can occur, for example, when the recipient\'s inbox is full,
+    --     or when the receiving email server experiences a transient issue.
+    --
+    -- -   @SUBSCRIPTION@ - The email was successfully delivered, but the
+    --     recipient updated their subscription preferences by clicking on an
+    --     /unsubscribe/ link as part of your
+    --     <https://docs.aws.amazon.com/ses/latest/dg/sending-email-subscription-management.html subscription management>.
     matchingEventTypes :: [EventType]
   }
   deriving (Prelude.Eq, Prelude.Read, Prelude.Show, Prelude.Generic)
@@ -93,6 +142,10 @@ data EventDestination = EventDestination'
 -- destination is disabled, events aren\'t sent to the specified
 -- destinations.
 --
+-- 'eventBridgeDestination', 'eventDestination_eventBridgeDestination' - An object that defines an Amazon EventBridge destination for email
+-- events. You can use Amazon EventBridge to send notifications when
+-- certain email events occur.
+--
 -- 'kinesisFirehoseDestination', 'eventDestination_kinesisFirehoseDestination' - An object that defines an Amazon Kinesis Data Firehose destination for
 -- email events. You can use Amazon Kinesis Data Firehose to stream data to
 -- other services, such as Amazon S3 and Amazon Redshift.
@@ -105,12 +158,56 @@ data EventDestination = EventDestination'
 -- in the /Amazon Pinpoint User Guide/.
 --
 -- 'snsDestination', 'eventDestination_snsDestination' - An object that defines an Amazon SNS destination for email events. You
--- can use Amazon SNS to send notification when certain email events occur.
+-- can use Amazon SNS to send notifications when certain email events
+-- occur.
 --
 -- 'name', 'eventDestination_name' - A name that identifies the event destination.
 --
 -- 'matchingEventTypes', 'eventDestination_matchingEventTypes' - The types of events that Amazon SES sends to the specified event
 -- destinations.
+--
+-- -   @SEND@ - The send request was successful and SES will attempt to
+--     deliver the message to the recipient’s mail server. (If
+--     account-level or global suppression is being used, SES will still
+--     count it as a send, but delivery is suppressed.)
+--
+-- -   @REJECT@ - SES accepted the email, but determined that it contained
+--     a virus and didn’t attempt to deliver it to the recipient’s mail
+--     server.
+--
+-- -   @BOUNCE@ - (/Hard bounce/) The recipient\'s mail server permanently
+--     rejected the email. (/Soft bounces/ are only included when SES fails
+--     to deliver the email after retrying for a period of time.)
+--
+-- -   @COMPLAINT@ - The email was successfully delivered to the
+--     recipient’s mail server, but the recipient marked it as spam.
+--
+-- -   @DELIVERY@ - SES successfully delivered the email to the
+--     recipient\'s mail server.
+--
+-- -   @OPEN@ - The recipient received the message and opened it in their
+--     email client.
+--
+-- -   @CLICK@ - The recipient clicked one or more links in the email.
+--
+-- -   @RENDERING_FAILURE@ - The email wasn\'t sent because of a template
+--     rendering issue. This event type can occur when template data is
+--     missing, or when there is a mismatch between template parameters and
+--     data. (This event type only occurs when you send email using the
+--     <https://docs.aws.amazon.com/ses/latest/APIReference-V2/API_SendEmail.html SendEmail>
+--     or
+--     <https://docs.aws.amazon.com/ses/latest/APIReference-V2/API_SendBulkEmail.html SendBulkEmail>
+--     API operations.)
+--
+-- -   @DELIVERY_DELAY@ - The email couldn\'t be delivered to the
+--     recipient’s mail server because a temporary issue occurred. Delivery
+--     delays can occur, for example, when the recipient\'s inbox is full,
+--     or when the receiving email server experiences a transient issue.
+--
+-- -   @SUBSCRIPTION@ - The email was successfully delivered, but the
+--     recipient updated their subscription preferences by clicking on an
+--     /unsubscribe/ link as part of your
+--     <https://docs.aws.amazon.com/ses/latest/dg/sending-email-subscription-management.html subscription management>.
 newEventDestination ::
   -- | 'name'
   Prelude.Text ->
@@ -120,6 +217,7 @@ newEventDestination pName_ =
     { cloudWatchDestination =
         Prelude.Nothing,
       enabled = Prelude.Nothing,
+      eventBridgeDestination = Prelude.Nothing,
       kinesisFirehoseDestination = Prelude.Nothing,
       pinpointDestination = Prelude.Nothing,
       snsDestination = Prelude.Nothing,
@@ -143,6 +241,12 @@ eventDestination_cloudWatchDestination = Lens.lens (\EventDestination' {cloudWat
 eventDestination_enabled :: Lens.Lens' EventDestination (Prelude.Maybe Prelude.Bool)
 eventDestination_enabled = Lens.lens (\EventDestination' {enabled} -> enabled) (\s@EventDestination' {} a -> s {enabled = a} :: EventDestination)
 
+-- | An object that defines an Amazon EventBridge destination for email
+-- events. You can use Amazon EventBridge to send notifications when
+-- certain email events occur.
+eventDestination_eventBridgeDestination :: Lens.Lens' EventDestination (Prelude.Maybe EventBridgeDestination)
+eventDestination_eventBridgeDestination = Lens.lens (\EventDestination' {eventBridgeDestination} -> eventBridgeDestination) (\s@EventDestination' {} a -> s {eventBridgeDestination = a} :: EventDestination)
+
 -- | An object that defines an Amazon Kinesis Data Firehose destination for
 -- email events. You can use Amazon Kinesis Data Firehose to stream data to
 -- other services, such as Amazon S3 and Amazon Redshift.
@@ -159,7 +263,8 @@ eventDestination_pinpointDestination :: Lens.Lens' EventDestination (Prelude.May
 eventDestination_pinpointDestination = Lens.lens (\EventDestination' {pinpointDestination} -> pinpointDestination) (\s@EventDestination' {} a -> s {pinpointDestination = a} :: EventDestination)
 
 -- | An object that defines an Amazon SNS destination for email events. You
--- can use Amazon SNS to send notification when certain email events occur.
+-- can use Amazon SNS to send notifications when certain email events
+-- occur.
 eventDestination_snsDestination :: Lens.Lens' EventDestination (Prelude.Maybe SnsDestination)
 eventDestination_snsDestination = Lens.lens (\EventDestination' {snsDestination} -> snsDestination) (\s@EventDestination' {} a -> s {snsDestination = a} :: EventDestination)
 
@@ -169,6 +274,49 @@ eventDestination_name = Lens.lens (\EventDestination' {name} -> name) (\s@EventD
 
 -- | The types of events that Amazon SES sends to the specified event
 -- destinations.
+--
+-- -   @SEND@ - The send request was successful and SES will attempt to
+--     deliver the message to the recipient’s mail server. (If
+--     account-level or global suppression is being used, SES will still
+--     count it as a send, but delivery is suppressed.)
+--
+-- -   @REJECT@ - SES accepted the email, but determined that it contained
+--     a virus and didn’t attempt to deliver it to the recipient’s mail
+--     server.
+--
+-- -   @BOUNCE@ - (/Hard bounce/) The recipient\'s mail server permanently
+--     rejected the email. (/Soft bounces/ are only included when SES fails
+--     to deliver the email after retrying for a period of time.)
+--
+-- -   @COMPLAINT@ - The email was successfully delivered to the
+--     recipient’s mail server, but the recipient marked it as spam.
+--
+-- -   @DELIVERY@ - SES successfully delivered the email to the
+--     recipient\'s mail server.
+--
+-- -   @OPEN@ - The recipient received the message and opened it in their
+--     email client.
+--
+-- -   @CLICK@ - The recipient clicked one or more links in the email.
+--
+-- -   @RENDERING_FAILURE@ - The email wasn\'t sent because of a template
+--     rendering issue. This event type can occur when template data is
+--     missing, or when there is a mismatch between template parameters and
+--     data. (This event type only occurs when you send email using the
+--     <https://docs.aws.amazon.com/ses/latest/APIReference-V2/API_SendEmail.html SendEmail>
+--     or
+--     <https://docs.aws.amazon.com/ses/latest/APIReference-V2/API_SendBulkEmail.html SendBulkEmail>
+--     API operations.)
+--
+-- -   @DELIVERY_DELAY@ - The email couldn\'t be delivered to the
+--     recipient’s mail server because a temporary issue occurred. Delivery
+--     delays can occur, for example, when the recipient\'s inbox is full,
+--     or when the receiving email server experiences a transient issue.
+--
+-- -   @SUBSCRIPTION@ - The email was successfully delivered, but the
+--     recipient updated their subscription preferences by clicking on an
+--     /unsubscribe/ link as part of your
+--     <https://docs.aws.amazon.com/ses/latest/dg/sending-email-subscription-management.html subscription management>.
 eventDestination_matchingEventTypes :: Lens.Lens' EventDestination [EventType]
 eventDestination_matchingEventTypes = Lens.lens (\EventDestination' {matchingEventTypes} -> matchingEventTypes) (\s@EventDestination' {} a -> s {matchingEventTypes = a} :: EventDestination) Prelude.. Lens.coerced
 
@@ -180,6 +328,7 @@ instance Data.FromJSON EventDestination where
           EventDestination'
             Prelude.<$> (x Data..:? "CloudWatchDestination")
             Prelude.<*> (x Data..:? "Enabled")
+            Prelude.<*> (x Data..:? "EventBridgeDestination")
             Prelude.<*> (x Data..:? "KinesisFirehoseDestination")
             Prelude.<*> (x Data..:? "PinpointDestination")
             Prelude.<*> (x Data..:? "SnsDestination")
@@ -195,6 +344,7 @@ instance Prelude.Hashable EventDestination where
     _salt
       `Prelude.hashWithSalt` cloudWatchDestination
       `Prelude.hashWithSalt` enabled
+      `Prelude.hashWithSalt` eventBridgeDestination
       `Prelude.hashWithSalt` kinesisFirehoseDestination
       `Prelude.hashWithSalt` pinpointDestination
       `Prelude.hashWithSalt` snsDestination
@@ -205,8 +355,9 @@ instance Prelude.NFData EventDestination where
   rnf EventDestination' {..} =
     Prelude.rnf cloudWatchDestination `Prelude.seq`
       Prelude.rnf enabled `Prelude.seq`
-        Prelude.rnf kinesisFirehoseDestination `Prelude.seq`
-          Prelude.rnf pinpointDestination `Prelude.seq`
-            Prelude.rnf snsDestination `Prelude.seq`
-              Prelude.rnf name `Prelude.seq`
-                Prelude.rnf matchingEventTypes
+        Prelude.rnf eventBridgeDestination `Prelude.seq`
+          Prelude.rnf kinesisFirehoseDestination `Prelude.seq`
+            Prelude.rnf pinpointDestination `Prelude.seq`
+              Prelude.rnf snsDestination `Prelude.seq`
+                Prelude.rnf name `Prelude.seq`
+                  Prelude.rnf matchingEventTypes

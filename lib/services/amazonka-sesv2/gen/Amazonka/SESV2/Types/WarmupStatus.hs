@@ -21,7 +21,8 @@ module Amazonka.SESV2.Types.WarmupStatus
   ( WarmupStatus
       ( ..,
         WarmupStatus_DONE,
-        WarmupStatus_IN_PROGRESS
+        WarmupStatus_IN_PROGRESS,
+        WarmupStatus_NOT_APPLICABLE
       ),
   )
 where
@@ -65,8 +66,12 @@ pattern WarmupStatus_DONE = WarmupStatus' "DONE"
 pattern WarmupStatus_IN_PROGRESS :: WarmupStatus
 pattern WarmupStatus_IN_PROGRESS = WarmupStatus' "IN_PROGRESS"
 
+pattern WarmupStatus_NOT_APPLICABLE :: WarmupStatus
+pattern WarmupStatus_NOT_APPLICABLE = WarmupStatus' "NOT_APPLICABLE"
+
 {-# COMPLETE
   WarmupStatus_DONE,
   WarmupStatus_IN_PROGRESS,
+  WarmupStatus_NOT_APPLICABLE,
   WarmupStatus'
   #-}

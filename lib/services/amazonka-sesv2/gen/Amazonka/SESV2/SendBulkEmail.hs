@@ -29,11 +29,13 @@ module Amazonka.SESV2.SendBulkEmail
     -- * Request Lenses
     sendBulkEmail_configurationSetName,
     sendBulkEmail_defaultEmailTags,
+    sendBulkEmail_endpointId,
     sendBulkEmail_feedbackForwardingEmailAddress,
     sendBulkEmail_feedbackForwardingEmailAddressIdentityArn,
     sendBulkEmail_fromEmailAddress,
     sendBulkEmail_fromEmailAddressIdentityArn,
     sendBulkEmail_replyToAddresses,
+    sendBulkEmail_tenantName,
     sendBulkEmail_defaultContent,
     sendBulkEmail_bulkEmailEntries,
 
@@ -68,6 +70,8 @@ data SendBulkEmail = SendBulkEmail'
     -- characteristics of the email that you define, so that you can publish
     -- email sending events.
     defaultEmailTags :: Prelude.Maybe [MessageTag],
+    -- | The ID of the multi-region endpoint (global-endpoint).
+    endpointId :: Prelude.Maybe Prelude.Text,
     -- | The address that you want bounce and complaint notifications to be sent
     -- to.
     feedbackForwardingEmailAddress :: Prelude.Maybe Prelude.Text,
@@ -107,6 +111,12 @@ data SendBulkEmail = SendBulkEmail'
     -- | The \"Reply-to\" email addresses for the message. When the recipient
     -- replies to the message, each Reply-to address receives the reply.
     replyToAddresses :: Prelude.Maybe [Prelude.Text],
+    -- | The name of the tenant through which this bulk email will be sent.
+    --
+    -- The email sending operation will only succeed if all referenced
+    -- resources (identities, configuration sets, and templates) are associated
+    -- with this tenant.
+    tenantName :: Prelude.Maybe Prelude.Text,
     -- | An object that contains the body of the message. You can specify a
     -- template message.
     defaultContent :: BulkEmailContent,
@@ -129,6 +139,8 @@ data SendBulkEmail = SendBulkEmail'
 -- that you send using the @SendEmail@ operation. Tags correspond to
 -- characteristics of the email that you define, so that you can publish
 -- email sending events.
+--
+-- 'endpointId', 'sendBulkEmail_endpointId' - The ID of the multi-region endpoint (global-endpoint).
 --
 -- 'feedbackForwardingEmailAddress', 'sendBulkEmail_feedbackForwardingEmailAddress' - The address that you want bounce and complaint notifications to be sent
 -- to.
@@ -169,6 +181,12 @@ data SendBulkEmail = SendBulkEmail'
 -- 'replyToAddresses', 'sendBulkEmail_replyToAddresses' - The \"Reply-to\" email addresses for the message. When the recipient
 -- replies to the message, each Reply-to address receives the reply.
 --
+-- 'tenantName', 'sendBulkEmail_tenantName' - The name of the tenant through which this bulk email will be sent.
+--
+-- The email sending operation will only succeed if all referenced
+-- resources (identities, configuration sets, and templates) are associated
+-- with this tenant.
+--
 -- 'defaultContent', 'sendBulkEmail_defaultContent' - An object that contains the body of the message. You can specify a
 -- template message.
 --
@@ -182,12 +200,14 @@ newSendBulkEmail pDefaultContent_ =
     { configurationSetName =
         Prelude.Nothing,
       defaultEmailTags = Prelude.Nothing,
+      endpointId = Prelude.Nothing,
       feedbackForwardingEmailAddress = Prelude.Nothing,
       feedbackForwardingEmailAddressIdentityArn =
         Prelude.Nothing,
       fromEmailAddress = Prelude.Nothing,
       fromEmailAddressIdentityArn = Prelude.Nothing,
       replyToAddresses = Prelude.Nothing,
+      tenantName = Prelude.Nothing,
       defaultContent = pDefaultContent_,
       bulkEmailEntries = Prelude.mempty
     }
@@ -202,6 +222,10 @@ sendBulkEmail_configurationSetName = Lens.lens (\SendBulkEmail' {configurationSe
 -- email sending events.
 sendBulkEmail_defaultEmailTags :: Lens.Lens' SendBulkEmail (Prelude.Maybe [MessageTag])
 sendBulkEmail_defaultEmailTags = Lens.lens (\SendBulkEmail' {defaultEmailTags} -> defaultEmailTags) (\s@SendBulkEmail' {} a -> s {defaultEmailTags = a} :: SendBulkEmail) Prelude.. Lens.mapping Lens.coerced
+
+-- | The ID of the multi-region endpoint (global-endpoint).
+sendBulkEmail_endpointId :: Lens.Lens' SendBulkEmail (Prelude.Maybe Prelude.Text)
+sendBulkEmail_endpointId = Lens.lens (\SendBulkEmail' {endpointId} -> endpointId) (\s@SendBulkEmail' {} a -> s {endpointId = a} :: SendBulkEmail)
 
 -- | The address that you want bounce and complaint notifications to be sent
 -- to.
@@ -252,6 +276,14 @@ sendBulkEmail_fromEmailAddressIdentityArn = Lens.lens (\SendBulkEmail' {fromEmai
 sendBulkEmail_replyToAddresses :: Lens.Lens' SendBulkEmail (Prelude.Maybe [Prelude.Text])
 sendBulkEmail_replyToAddresses = Lens.lens (\SendBulkEmail' {replyToAddresses} -> replyToAddresses) (\s@SendBulkEmail' {} a -> s {replyToAddresses = a} :: SendBulkEmail) Prelude.. Lens.mapping Lens.coerced
 
+-- | The name of the tenant through which this bulk email will be sent.
+--
+-- The email sending operation will only succeed if all referenced
+-- resources (identities, configuration sets, and templates) are associated
+-- with this tenant.
+sendBulkEmail_tenantName :: Lens.Lens' SendBulkEmail (Prelude.Maybe Prelude.Text)
+sendBulkEmail_tenantName = Lens.lens (\SendBulkEmail' {tenantName} -> tenantName) (\s@SendBulkEmail' {} a -> s {tenantName = a} :: SendBulkEmail)
+
 -- | An object that contains the body of the message. You can specify a
 -- template message.
 sendBulkEmail_defaultContent :: Lens.Lens' SendBulkEmail BulkEmailContent
@@ -272,8 +304,7 @@ instance Core.AWSRequest SendBulkEmail where
       ( \s h x ->
           SendBulkEmailResponse'
             Prelude.<$> (Prelude.pure (Prelude.fromEnum s))
-            Prelude.<*> ( x
-                            Data..?> "BulkEmailEntryResults"
+            Prelude.<*> ( x Data..?> "BulkEmailEntryResults"
                             Core..!@ Prelude.mempty
                         )
       )
@@ -283,11 +314,13 @@ instance Prelude.Hashable SendBulkEmail where
     _salt
       `Prelude.hashWithSalt` configurationSetName
       `Prelude.hashWithSalt` defaultEmailTags
+      `Prelude.hashWithSalt` endpointId
       `Prelude.hashWithSalt` feedbackForwardingEmailAddress
       `Prelude.hashWithSalt` feedbackForwardingEmailAddressIdentityArn
       `Prelude.hashWithSalt` fromEmailAddress
       `Prelude.hashWithSalt` fromEmailAddressIdentityArn
       `Prelude.hashWithSalt` replyToAddresses
+      `Prelude.hashWithSalt` tenantName
       `Prelude.hashWithSalt` defaultContent
       `Prelude.hashWithSalt` bulkEmailEntries
 
@@ -295,13 +328,15 @@ instance Prelude.NFData SendBulkEmail where
   rnf SendBulkEmail' {..} =
     Prelude.rnf configurationSetName `Prelude.seq`
       Prelude.rnf defaultEmailTags `Prelude.seq`
-        Prelude.rnf feedbackForwardingEmailAddress `Prelude.seq`
-          Prelude.rnf feedbackForwardingEmailAddressIdentityArn `Prelude.seq`
-            Prelude.rnf fromEmailAddress `Prelude.seq`
-              Prelude.rnf fromEmailAddressIdentityArn `Prelude.seq`
-                Prelude.rnf replyToAddresses `Prelude.seq`
-                  Prelude.rnf defaultContent `Prelude.seq`
-                    Prelude.rnf bulkEmailEntries
+        Prelude.rnf endpointId `Prelude.seq`
+          Prelude.rnf feedbackForwardingEmailAddress `Prelude.seq`
+            Prelude.rnf feedbackForwardingEmailAddressIdentityArn `Prelude.seq`
+              Prelude.rnf fromEmailAddress `Prelude.seq`
+                Prelude.rnf fromEmailAddressIdentityArn `Prelude.seq`
+                  Prelude.rnf replyToAddresses `Prelude.seq`
+                    Prelude.rnf tenantName `Prelude.seq`
+                      Prelude.rnf defaultContent `Prelude.seq`
+                        Prelude.rnf bulkEmailEntries
 
 instance Data.ToHeaders SendBulkEmail where
   toHeaders =
@@ -322,6 +357,7 @@ instance Data.ToJSON SendBulkEmail where
               Prelude.<$> configurationSetName,
             ("DefaultEmailTags" Data..=)
               Prelude.<$> defaultEmailTags,
+            ("EndpointId" Data..=) Prelude.<$> endpointId,
             ("FeedbackForwardingEmailAddress" Data..=)
               Prelude.<$> feedbackForwardingEmailAddress,
             ("FeedbackForwardingEmailAddressIdentityArn" Data..=)
@@ -332,6 +368,7 @@ instance Data.ToJSON SendBulkEmail where
               Prelude.<$> fromEmailAddressIdentityArn,
             ("ReplyToAddresses" Data..=)
               Prelude.<$> replyToAddresses,
+            ("TenantName" Data..=) Prelude.<$> tenantName,
             Prelude.Just
               ("DefaultContent" Data..= defaultContent),
             Prelude.Just

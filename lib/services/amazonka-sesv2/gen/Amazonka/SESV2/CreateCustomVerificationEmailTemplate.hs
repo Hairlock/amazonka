@@ -33,6 +33,7 @@ module Amazonka.SESV2.CreateCustomVerificationEmailTemplate
     newCreateCustomVerificationEmailTemplate,
 
     -- * Request Lenses
+    createCustomVerificationEmailTemplate_tags,
     createCustomVerificationEmailTemplate_templateName,
     createCustomVerificationEmailTemplate_fromEmailAddress,
     createCustomVerificationEmailTemplate_templateSubject,
@@ -61,7 +62,10 @@ import Amazonka.SESV2.Types
 --
 -- /See:/ 'newCreateCustomVerificationEmailTemplate' smart constructor.
 data CreateCustomVerificationEmailTemplate = CreateCustomVerificationEmailTemplate'
-  { -- | The name of the custom verification email template.
+  { -- | An array of objects that define the tags (keys and values) to associate
+    -- with the custom verification email template.
+    tags :: Prelude.Maybe [Tag],
+    -- | The name of the custom verification email template.
     templateName :: Prelude.Text,
     -- | The email address that the custom verification email is sent from.
     fromEmailAddress :: Prelude.Text,
@@ -89,6 +93,9 @@ data CreateCustomVerificationEmailTemplate = CreateCustomVerificationEmailTempla
 --
 -- The following record fields are available, with the corresponding lenses provided
 -- for backwards compatibility:
+--
+-- 'tags', 'createCustomVerificationEmailTemplate_tags' - An array of objects that define the tags (keys and values) to associate
+-- with the custom verification email template.
 --
 -- 'templateName', 'createCustomVerificationEmailTemplate_templateName' - The name of the custom verification email template.
 --
@@ -129,8 +136,9 @@ newCreateCustomVerificationEmailTemplate
   pSuccessRedirectionURL_
   pFailureRedirectionURL_ =
     CreateCustomVerificationEmailTemplate'
-      { templateName =
-          pTemplateName_,
+      { tags =
+          Prelude.Nothing,
+        templateName = pTemplateName_,
         fromEmailAddress =
           pFromEmailAddress_,
         templateSubject = pTemplateSubject_,
@@ -140,6 +148,11 @@ newCreateCustomVerificationEmailTemplate
         failureRedirectionURL =
           pFailureRedirectionURL_
       }
+
+-- | An array of objects that define the tags (keys and values) to associate
+-- with the custom verification email template.
+createCustomVerificationEmailTemplate_tags :: Lens.Lens' CreateCustomVerificationEmailTemplate (Prelude.Maybe [Tag])
+createCustomVerificationEmailTemplate_tags = Lens.lens (\CreateCustomVerificationEmailTemplate' {tags} -> tags) (\s@CreateCustomVerificationEmailTemplate' {} a -> s {tags = a} :: CreateCustomVerificationEmailTemplate) Prelude.. Lens.mapping Lens.coerced
 
 -- | The name of the custom verification email template.
 createCustomVerificationEmailTemplate_templateName :: Lens.Lens' CreateCustomVerificationEmailTemplate Prelude.Text
@@ -196,6 +209,7 @@ instance
     _salt
     CreateCustomVerificationEmailTemplate' {..} =
       _salt
+        `Prelude.hashWithSalt` tags
         `Prelude.hashWithSalt` templateName
         `Prelude.hashWithSalt` fromEmailAddress
         `Prelude.hashWithSalt` templateSubject
@@ -208,12 +222,13 @@ instance
     CreateCustomVerificationEmailTemplate
   where
   rnf CreateCustomVerificationEmailTemplate' {..} =
-    Prelude.rnf templateName `Prelude.seq`
-      Prelude.rnf fromEmailAddress `Prelude.seq`
-        Prelude.rnf templateSubject `Prelude.seq`
-          Prelude.rnf templateContent `Prelude.seq`
-            Prelude.rnf successRedirectionURL `Prelude.seq`
-              Prelude.rnf failureRedirectionURL
+    Prelude.rnf tags `Prelude.seq`
+      Prelude.rnf templateName `Prelude.seq`
+        Prelude.rnf fromEmailAddress `Prelude.seq`
+          Prelude.rnf templateSubject `Prelude.seq`
+            Prelude.rnf templateContent `Prelude.seq`
+              Prelude.rnf successRedirectionURL `Prelude.seq`
+                Prelude.rnf failureRedirectionURL
 
 instance
   Data.ToHeaders
@@ -236,7 +251,8 @@ instance
   toJSON CreateCustomVerificationEmailTemplate' {..} =
     Data.object
       ( Prelude.catMaybes
-          [ Prelude.Just ("TemplateName" Data..= templateName),
+          [ ("Tags" Data..=) Prelude.<$> tags,
+            Prelude.Just ("TemplateName" Data..= templateName),
             Prelude.Just
               ("FromEmailAddress" Data..= fromEmailAddress),
             Prelude.Just

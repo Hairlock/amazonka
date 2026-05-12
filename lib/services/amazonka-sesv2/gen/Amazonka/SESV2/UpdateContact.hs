@@ -20,9 +20,11 @@
 -- Stability   : auto-generated
 -- Portability : non-portable (GHC extensions)
 --
--- Updates a contact\'s preferences for a list. It is not necessary to
--- specify all existing topic preferences in the TopicPreferences object,
--- just the ones that need updating.
+-- Updates a contact\'s preferences for a list.
+--
+-- You must specify all existing topic preferences in the
+-- @TopicPreferences@ object, not just the ones that need updating;
+-- otherwise, all your existing preferences will be removed.
 module Amazonka.SESV2.UpdateContact
   ( -- * Creating a Request
     UpdateContact (..),
@@ -63,7 +65,7 @@ data UpdateContact = UpdateContact'
     unsubscribeAll :: Prelude.Maybe Prelude.Bool,
     -- | The name of the contact list.
     contactListName :: Prelude.Text,
-    -- | The contact\'s email addres.
+    -- | The contact\'s email address.
     emailAddress :: Prelude.Text
   }
   deriving (Prelude.Eq, Prelude.Read, Prelude.Show, Prelude.Generic)
@@ -85,7 +87,7 @@ data UpdateContact = UpdateContact'
 --
 -- 'contactListName', 'updateContact_contactListName' - The name of the contact list.
 --
--- 'emailAddress', 'updateContact_emailAddress' - The contact\'s email addres.
+-- 'emailAddress', 'updateContact_emailAddress' - The contact\'s email address.
 newUpdateContact ::
   -- | 'contactListName'
   Prelude.Text ->
@@ -118,7 +120,7 @@ updateContact_unsubscribeAll = Lens.lens (\UpdateContact' {unsubscribeAll} -> un
 updateContact_contactListName :: Lens.Lens' UpdateContact Prelude.Text
 updateContact_contactListName = Lens.lens (\UpdateContact' {contactListName} -> contactListName) (\s@UpdateContact' {} a -> s {contactListName = a} :: UpdateContact)
 
--- | The contact\'s email addres.
+-- | The contact\'s email address.
 updateContact_emailAddress :: Lens.Lens' UpdateContact Prelude.Text
 updateContact_emailAddress = Lens.lens (\UpdateContact' {emailAddress} -> emailAddress) (\s@UpdateContact' {} a -> s {emailAddress = a} :: UpdateContact)
 

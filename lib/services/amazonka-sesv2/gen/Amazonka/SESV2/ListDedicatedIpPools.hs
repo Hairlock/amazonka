@@ -110,8 +110,7 @@ instance Core.AWSRequest ListDedicatedIpPools where
     Response.receiveJSON
       ( \s h x ->
           ListDedicatedIpPoolsResponse'
-            Prelude.<$> ( x
-                            Data..?> "DedicatedIpPools"
+            Prelude.<$> ( x Data..?> "DedicatedIpPools"
                             Core..!@ Prelude.mempty
                         )
             Prelude.<*> (x Data..?> "NextToken")

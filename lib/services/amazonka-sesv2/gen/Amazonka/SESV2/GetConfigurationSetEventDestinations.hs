@@ -26,9 +26,8 @@
 -- /Events/ include message sends, deliveries, opens, clicks, bounces, and
 -- complaints. /Event destinations/ are places that you can send
 -- information about these events to. For example, you can send event data
--- to Amazon SNS to receive notifications when you receive bounces or
--- complaints, or you can use Amazon Kinesis Data Firehose to stream data
--- to Amazon S3 for long-term storage.
+-- to Amazon EventBridge and associate a rule to send the event to the
+-- specified target.
 module Amazonka.SESV2.GetConfigurationSetEventDestinations
   ( -- * Creating a Request
     GetConfigurationSetEventDestinations (..),
@@ -102,8 +101,7 @@ instance
     Response.receiveJSON
       ( \s h x ->
           GetConfigurationSetEventDestinationsResponse'
-            Prelude.<$> ( x
-                            Data..?> "EventDestinations"
+            Prelude.<$> ( x Data..?> "EventDestinations"
                             Core..!@ Prelude.mempty
                         )
             Prelude.<*> (Prelude.pure (Prelude.fromEnum s))

@@ -44,6 +44,7 @@ module Amazonka.SESV2.GetCustomVerificationEmailTemplate
     getCustomVerificationEmailTemplateResponse_failureRedirectionURL,
     getCustomVerificationEmailTemplateResponse_fromEmailAddress,
     getCustomVerificationEmailTemplateResponse_successRedirectionURL,
+    getCustomVerificationEmailTemplateResponse_tags,
     getCustomVerificationEmailTemplateResponse_templateContent,
     getCustomVerificationEmailTemplateResponse_templateName,
     getCustomVerificationEmailTemplateResponse_templateSubject,
@@ -111,6 +112,7 @@ instance
             Prelude.<$> (x Data..?> "FailureRedirectionURL")
             Prelude.<*> (x Data..?> "FromEmailAddress")
             Prelude.<*> (x Data..?> "SuccessRedirectionURL")
+            Prelude.<*> (x Data..?> "Tags" Core..!@ Prelude.mempty)
             Prelude.<*> (x Data..?> "TemplateContent")
             Prelude.<*> (x Data..?> "TemplateName")
             Prelude.<*> (x Data..?> "TemplateSubject")
@@ -175,6 +177,9 @@ data GetCustomVerificationEmailTemplateResponse = GetCustomVerificationEmailTemp
     -- | The URL that the recipient of the verification email is sent to if his
     -- or her address is successfully verified.
     successRedirectionURL :: Prelude.Maybe Prelude.Text,
+    -- | An array of objects that define the tags (keys and values) that are
+    -- associated with the custom verification email template.
+    tags :: Prelude.Maybe [Tag],
     -- | The content of the custom verification email.
     templateContent :: Prelude.Maybe Prelude.Text,
     -- | The name of the custom verification email template.
@@ -202,6 +207,9 @@ data GetCustomVerificationEmailTemplateResponse = GetCustomVerificationEmailTemp
 -- 'successRedirectionURL', 'getCustomVerificationEmailTemplateResponse_successRedirectionURL' - The URL that the recipient of the verification email is sent to if his
 -- or her address is successfully verified.
 --
+-- 'tags', 'getCustomVerificationEmailTemplateResponse_tags' - An array of objects that define the tags (keys and values) that are
+-- associated with the custom verification email template.
+--
 -- 'templateContent', 'getCustomVerificationEmailTemplateResponse_templateContent' - The content of the custom verification email.
 --
 -- 'templateName', 'getCustomVerificationEmailTemplateResponse_templateName' - The name of the custom verification email template.
@@ -222,6 +230,7 @@ newGetCustomVerificationEmailTemplateResponse
           Prelude.Nothing,
         successRedirectionURL =
           Prelude.Nothing,
+        tags = Prelude.Nothing,
         templateContent =
           Prelude.Nothing,
         templateName = Prelude.Nothing,
@@ -243,6 +252,11 @@ getCustomVerificationEmailTemplateResponse_fromEmailAddress = Lens.lens (\GetCus
 -- or her address is successfully verified.
 getCustomVerificationEmailTemplateResponse_successRedirectionURL :: Lens.Lens' GetCustomVerificationEmailTemplateResponse (Prelude.Maybe Prelude.Text)
 getCustomVerificationEmailTemplateResponse_successRedirectionURL = Lens.lens (\GetCustomVerificationEmailTemplateResponse' {successRedirectionURL} -> successRedirectionURL) (\s@GetCustomVerificationEmailTemplateResponse' {} a -> s {successRedirectionURL = a} :: GetCustomVerificationEmailTemplateResponse)
+
+-- | An array of objects that define the tags (keys and values) that are
+-- associated with the custom verification email template.
+getCustomVerificationEmailTemplateResponse_tags :: Lens.Lens' GetCustomVerificationEmailTemplateResponse (Prelude.Maybe [Tag])
+getCustomVerificationEmailTemplateResponse_tags = Lens.lens (\GetCustomVerificationEmailTemplateResponse' {tags} -> tags) (\s@GetCustomVerificationEmailTemplateResponse' {} a -> s {tags = a} :: GetCustomVerificationEmailTemplateResponse) Prelude.. Lens.mapping Lens.coerced
 
 -- | The content of the custom verification email.
 getCustomVerificationEmailTemplateResponse_templateContent :: Lens.Lens' GetCustomVerificationEmailTemplateResponse (Prelude.Maybe Prelude.Text)
@@ -268,7 +282,8 @@ instance
     Prelude.rnf failureRedirectionURL `Prelude.seq`
       Prelude.rnf fromEmailAddress `Prelude.seq`
         Prelude.rnf successRedirectionURL `Prelude.seq`
-          Prelude.rnf templateContent `Prelude.seq`
-            Prelude.rnf templateName `Prelude.seq`
-              Prelude.rnf templateSubject `Prelude.seq`
-                Prelude.rnf httpStatus
+          Prelude.rnf tags `Prelude.seq`
+            Prelude.rnf templateContent `Prelude.seq`
+              Prelude.rnf templateName `Prelude.seq`
+                Prelude.rnf templateSubject `Prelude.seq`
+                  Prelude.rnf httpStatus

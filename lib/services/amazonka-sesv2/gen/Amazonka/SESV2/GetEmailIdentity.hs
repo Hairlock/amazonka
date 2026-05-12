@@ -43,6 +43,7 @@ module Amazonka.SESV2.GetEmailIdentity
     getEmailIdentityResponse_mailFromAttributes,
     getEmailIdentityResponse_policies,
     getEmailIdentityResponse_tags,
+    getEmailIdentityResponse_verificationInfo,
     getEmailIdentityResponse_verificationStatus,
     getEmailIdentityResponse_verifiedForSendingStatus,
     getEmailIdentityResponse_httpStatus,
@@ -103,6 +104,7 @@ instance Core.AWSRequest GetEmailIdentity where
             Prelude.<*> (x Data..?> "MailFromAttributes")
             Prelude.<*> (x Data..?> "Policies" Core..!@ Prelude.mempty)
             Prelude.<*> (x Data..?> "Tags" Core..!@ Prelude.mempty)
+            Prelude.<*> (x Data..?> "VerificationInfo")
             Prelude.<*> (x Data..?> "VerificationStatus")
             Prelude.<*> (x Data..?> "VerifiedForSendingStatus")
             Prelude.<*> (Prelude.pure (Prelude.fromEnum s))
@@ -166,6 +168,9 @@ data GetEmailIdentityResponse = GetEmailIdentityResponse'
     -- | An array of objects that define the tags (keys and values) that are
     -- associated with the email identity.
     tags :: Prelude.Maybe [Tag],
+    -- | An object that contains additional information about the verification
+    -- status for the identity.
+    verificationInfo :: Prelude.Maybe VerificationInfo,
     -- | The verification status of the identity. The status can be one of the
     -- following:
     --
@@ -228,6 +233,9 @@ data GetEmailIdentityResponse = GetEmailIdentityResponse'
 -- 'tags', 'getEmailIdentityResponse_tags' - An array of objects that define the tags (keys and values) that are
 -- associated with the email identity.
 --
+-- 'verificationInfo', 'getEmailIdentityResponse_verificationInfo' - An object that contains additional information about the verification
+-- status for the identity.
+--
 -- 'verificationStatus', 'getEmailIdentityResponse_verificationStatus' - The verification status of the identity. The status can be one of the
 -- following:
 --
@@ -264,6 +272,7 @@ newGetEmailIdentityResponse pHttpStatus_ =
       mailFromAttributes = Prelude.Nothing,
       policies = Prelude.Nothing,
       tags = Prelude.Nothing,
+      verificationInfo = Prelude.Nothing,
       verificationStatus = Prelude.Nothing,
       verifiedForSendingStatus = Prelude.Nothing,
       httpStatus = pHttpStatus_
@@ -311,6 +320,11 @@ getEmailIdentityResponse_policies = Lens.lens (\GetEmailIdentityResponse' {polic
 getEmailIdentityResponse_tags :: Lens.Lens' GetEmailIdentityResponse (Prelude.Maybe [Tag])
 getEmailIdentityResponse_tags = Lens.lens (\GetEmailIdentityResponse' {tags} -> tags) (\s@GetEmailIdentityResponse' {} a -> s {tags = a} :: GetEmailIdentityResponse) Prelude.. Lens.mapping Lens.coerced
 
+-- | An object that contains additional information about the verification
+-- status for the identity.
+getEmailIdentityResponse_verificationInfo :: Lens.Lens' GetEmailIdentityResponse (Prelude.Maybe VerificationInfo)
+getEmailIdentityResponse_verificationInfo = Lens.lens (\GetEmailIdentityResponse' {verificationInfo} -> verificationInfo) (\s@GetEmailIdentityResponse' {} a -> s {verificationInfo = a} :: GetEmailIdentityResponse)
+
 -- | The verification status of the identity. The status can be one of the
 -- following:
 --
@@ -349,6 +363,7 @@ instance Prelude.NFData GetEmailIdentityResponse where
             Prelude.rnf mailFromAttributes `Prelude.seq`
               Prelude.rnf policies `Prelude.seq`
                 Prelude.rnf tags `Prelude.seq`
-                  Prelude.rnf verificationStatus `Prelude.seq`
-                    Prelude.rnf verifiedForSendingStatus `Prelude.seq`
-                      Prelude.rnf httpStatus
+                  Prelude.rnf verificationInfo `Prelude.seq`
+                    Prelude.rnf verificationStatus `Prelude.seq`
+                      Prelude.rnf verifiedForSendingStatus `Prelude.seq`
+                        Prelude.rnf httpStatus

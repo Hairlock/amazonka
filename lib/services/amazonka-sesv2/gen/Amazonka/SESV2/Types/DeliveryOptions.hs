@@ -29,7 +29,12 @@ import Amazonka.SESV2.Types.TlsPolicy
 --
 -- /See:/ 'newDeliveryOptions' smart constructor.
 data DeliveryOptions = DeliveryOptions'
-  { -- | The name of the dedicated IP pool to associate with the configuration
+  { -- | The maximum amount of time, in seconds, that Amazon SES API v2 will
+    -- attempt delivery of email. If specified, the value must greater than or
+    -- equal to 300 seconds (5 minutes) and less than or equal to 50400 seconds
+    -- (840 minutes).
+    maxDeliverySeconds :: Prelude.Maybe Prelude.Natural,
+    -- | The name of the dedicated IP pool to associate with the configuration
     -- set.
     sendingPoolName :: Prelude.Maybe Prelude.Text,
     -- | Specifies whether messages that use the configuration set are required
@@ -49,6 +54,11 @@ data DeliveryOptions = DeliveryOptions'
 -- The following record fields are available, with the corresponding lenses provided
 -- for backwards compatibility:
 --
+-- 'maxDeliverySeconds', 'deliveryOptions_maxDeliverySeconds' - The maximum amount of time, in seconds, that Amazon SES API v2 will
+-- attempt delivery of email. If specified, the value must greater than or
+-- equal to 300 seconds (5 minutes) and less than or equal to 50400 seconds
+-- (840 minutes).
+--
 -- 'sendingPoolName', 'deliveryOptions_sendingPoolName' - The name of the dedicated IP pool to associate with the configuration
 -- set.
 --
@@ -61,9 +71,18 @@ newDeliveryOptions ::
   DeliveryOptions
 newDeliveryOptions =
   DeliveryOptions'
-    { sendingPoolName = Prelude.Nothing,
+    { maxDeliverySeconds =
+        Prelude.Nothing,
+      sendingPoolName = Prelude.Nothing,
       tlsPolicy = Prelude.Nothing
     }
+
+-- | The maximum amount of time, in seconds, that Amazon SES API v2 will
+-- attempt delivery of email. If specified, the value must greater than or
+-- equal to 300 seconds (5 minutes) and less than or equal to 50400 seconds
+-- (840 minutes).
+deliveryOptions_maxDeliverySeconds :: Lens.Lens' DeliveryOptions (Prelude.Maybe Prelude.Natural)
+deliveryOptions_maxDeliverySeconds = Lens.lens (\DeliveryOptions' {maxDeliverySeconds} -> maxDeliverySeconds) (\s@DeliveryOptions' {} a -> s {maxDeliverySeconds = a} :: DeliveryOptions)
 
 -- | The name of the dedicated IP pool to associate with the configuration
 -- set.
@@ -84,26 +103,31 @@ instance Data.FromJSON DeliveryOptions where
       "DeliveryOptions"
       ( \x ->
           DeliveryOptions'
-            Prelude.<$> (x Data..:? "SendingPoolName")
+            Prelude.<$> (x Data..:? "MaxDeliverySeconds")
+            Prelude.<*> (x Data..:? "SendingPoolName")
             Prelude.<*> (x Data..:? "TlsPolicy")
       )
 
 instance Prelude.Hashable DeliveryOptions where
   hashWithSalt _salt DeliveryOptions' {..} =
     _salt
+      `Prelude.hashWithSalt` maxDeliverySeconds
       `Prelude.hashWithSalt` sendingPoolName
       `Prelude.hashWithSalt` tlsPolicy
 
 instance Prelude.NFData DeliveryOptions where
   rnf DeliveryOptions' {..} =
-    Prelude.rnf sendingPoolName `Prelude.seq`
-      Prelude.rnf tlsPolicy
+    Prelude.rnf maxDeliverySeconds `Prelude.seq`
+      Prelude.rnf sendingPoolName `Prelude.seq`
+        Prelude.rnf tlsPolicy
 
 instance Data.ToJSON DeliveryOptions where
   toJSON DeliveryOptions' {..} =
     Data.object
       ( Prelude.catMaybes
-          [ ("SendingPoolName" Data..=)
+          [ ("MaxDeliverySeconds" Data..=)
+              Prelude.<$> maxDeliverySeconds,
+            ("SendingPoolName" Data..=)
               Prelude.<$> sendingPoolName,
             ("TlsPolicy" Data..=) Prelude.<$> tlsPolicy
           ]

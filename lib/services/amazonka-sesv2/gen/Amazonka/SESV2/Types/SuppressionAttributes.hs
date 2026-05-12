@@ -24,6 +24,7 @@ import qualified Amazonka.Core.Lens.Internal as Lens
 import qualified Amazonka.Data as Data
 import qualified Amazonka.Prelude as Prelude
 import Amazonka.SESV2.Types.SuppressionListReason
+import Amazonka.SESV2.Types.SuppressionValidationAttributes
 
 -- | An object that contains information about the email address suppression
 -- preferences for your account in the current Amazon Web Services Region.
@@ -41,7 +42,8 @@ data SuppressionAttributes = SuppressionAttributes'
     -- -   @BOUNCE@ – Amazon SES adds an email address to the suppression list
     --     for your account when a message sent to that address results in a
     --     hard bounce.
-    suppressedReasons :: Prelude.Maybe [SuppressionListReason]
+    suppressedReasons :: Prelude.Maybe [SuppressionListReason],
+    validationAttributes :: Prelude.Maybe SuppressionValidationAttributes
   }
   deriving (Prelude.Eq, Prelude.Read, Prelude.Show, Prelude.Generic)
 
@@ -64,12 +66,15 @@ data SuppressionAttributes = SuppressionAttributes'
 -- -   @BOUNCE@ – Amazon SES adds an email address to the suppression list
 --     for your account when a message sent to that address results in a
 --     hard bounce.
+--
+-- 'validationAttributes', 'suppressionAttributes_validationAttributes' - Undocumented member.
 newSuppressionAttributes ::
   SuppressionAttributes
 newSuppressionAttributes =
   SuppressionAttributes'
     { suppressedReasons =
-        Prelude.Nothing
+        Prelude.Nothing,
+      validationAttributes = Prelude.Nothing
     }
 
 -- | A list that contains the reasons that email addresses will be
@@ -86,6 +91,10 @@ newSuppressionAttributes =
 suppressionAttributes_suppressedReasons :: Lens.Lens' SuppressionAttributes (Prelude.Maybe [SuppressionListReason])
 suppressionAttributes_suppressedReasons = Lens.lens (\SuppressionAttributes' {suppressedReasons} -> suppressedReasons) (\s@SuppressionAttributes' {} a -> s {suppressedReasons = a} :: SuppressionAttributes) Prelude.. Lens.mapping Lens.coerced
 
+-- | Undocumented member.
+suppressionAttributes_validationAttributes :: Lens.Lens' SuppressionAttributes (Prelude.Maybe SuppressionValidationAttributes)
+suppressionAttributes_validationAttributes = Lens.lens (\SuppressionAttributes' {validationAttributes} -> validationAttributes) (\s@SuppressionAttributes' {} a -> s {validationAttributes = a} :: SuppressionAttributes)
+
 instance Data.FromJSON SuppressionAttributes where
   parseJSON =
     Data.withObject
@@ -96,12 +105,16 @@ instance Data.FromJSON SuppressionAttributes where
                             Data..:? "SuppressedReasons"
                             Data..!= Prelude.mempty
                         )
+            Prelude.<*> (x Data..:? "ValidationAttributes")
       )
 
 instance Prelude.Hashable SuppressionAttributes where
   hashWithSalt _salt SuppressionAttributes' {..} =
-    _salt `Prelude.hashWithSalt` suppressedReasons
+    _salt
+      `Prelude.hashWithSalt` suppressedReasons
+      `Prelude.hashWithSalt` validationAttributes
 
 instance Prelude.NFData SuppressionAttributes where
   rnf SuppressionAttributes' {..} =
-    Prelude.rnf suppressedReasons
+    Prelude.rnf suppressedReasons `Prelude.seq`
+      Prelude.rnf validationAttributes

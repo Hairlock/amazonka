@@ -79,6 +79,12 @@ module Amazonka.SESV2
     BatchGetMetricDataResponse (BatchGetMetricDataResponse'),
     newBatchGetMetricDataResponse,
 
+    -- ** CancelExportJob
+    CancelExportJob (CancelExportJob'),
+    newCancelExportJob,
+    CancelExportJobResponse (CancelExportJobResponse'),
+    newCancelExportJobResponse,
+
     -- ** CreateConfigurationSet
     CreateConfigurationSet (CreateConfigurationSet'),
     newCreateConfigurationSet,
@@ -139,11 +145,35 @@ module Amazonka.SESV2
     CreateEmailTemplateResponse (CreateEmailTemplateResponse'),
     newCreateEmailTemplateResponse,
 
+    -- ** CreateExportJob
+    CreateExportJob (CreateExportJob'),
+    newCreateExportJob,
+    CreateExportJobResponse (CreateExportJobResponse'),
+    newCreateExportJobResponse,
+
     -- ** CreateImportJob
     CreateImportJob (CreateImportJob'),
     newCreateImportJob,
     CreateImportJobResponse (CreateImportJobResponse'),
     newCreateImportJobResponse,
+
+    -- ** CreateMultiRegionEndpoint
+    CreateMultiRegionEndpoint (CreateMultiRegionEndpoint'),
+    newCreateMultiRegionEndpoint,
+    CreateMultiRegionEndpointResponse (CreateMultiRegionEndpointResponse'),
+    newCreateMultiRegionEndpointResponse,
+
+    -- ** CreateTenant
+    CreateTenant (CreateTenant'),
+    newCreateTenant,
+    CreateTenantResponse (CreateTenantResponse'),
+    newCreateTenantResponse,
+
+    -- ** CreateTenantResourceAssociation
+    CreateTenantResourceAssociation (CreateTenantResourceAssociation'),
+    newCreateTenantResourceAssociation,
+    CreateTenantResourceAssociationResponse (CreateTenantResourceAssociationResponse'),
+    newCreateTenantResourceAssociationResponse,
 
     -- ** DeleteConfigurationSet
     DeleteConfigurationSet (DeleteConfigurationSet'),
@@ -199,11 +229,29 @@ module Amazonka.SESV2
     DeleteEmailTemplateResponse (DeleteEmailTemplateResponse'),
     newDeleteEmailTemplateResponse,
 
+    -- ** DeleteMultiRegionEndpoint
+    DeleteMultiRegionEndpoint (DeleteMultiRegionEndpoint'),
+    newDeleteMultiRegionEndpoint,
+    DeleteMultiRegionEndpointResponse (DeleteMultiRegionEndpointResponse'),
+    newDeleteMultiRegionEndpointResponse,
+
     -- ** DeleteSuppressedDestination
     DeleteSuppressedDestination (DeleteSuppressedDestination'),
     newDeleteSuppressedDestination,
     DeleteSuppressedDestinationResponse (DeleteSuppressedDestinationResponse'),
     newDeleteSuppressedDestinationResponse,
+
+    -- ** DeleteTenant
+    DeleteTenant (DeleteTenant'),
+    newDeleteTenant,
+    DeleteTenantResponse (DeleteTenantResponse'),
+    newDeleteTenantResponse,
+
+    -- ** DeleteTenantResourceAssociation
+    DeleteTenantResourceAssociation (DeleteTenantResourceAssociation'),
+    newDeleteTenantResourceAssociation,
+    DeleteTenantResourceAssociationResponse (DeleteTenantResourceAssociationResponse'),
+    newDeleteTenantResourceAssociationResponse,
 
     -- ** GetAccount
     GetAccount (GetAccount'),
@@ -289,6 +337,12 @@ module Amazonka.SESV2
     GetDomainStatisticsReportResponse (GetDomainStatisticsReportResponse'),
     newGetDomainStatisticsReportResponse,
 
+    -- ** GetEmailAddressInsights
+    GetEmailAddressInsights (GetEmailAddressInsights'),
+    newGetEmailAddressInsights,
+    GetEmailAddressInsightsResponse (GetEmailAddressInsightsResponse'),
+    newGetEmailAddressInsightsResponse,
+
     -- ** GetEmailIdentity
     GetEmailIdentity (GetEmailIdentity'),
     newGetEmailIdentity,
@@ -307,17 +361,47 @@ module Amazonka.SESV2
     GetEmailTemplateResponse (GetEmailTemplateResponse'),
     newGetEmailTemplateResponse,
 
+    -- ** GetExportJob
+    GetExportJob (GetExportJob'),
+    newGetExportJob,
+    GetExportJobResponse (GetExportJobResponse'),
+    newGetExportJobResponse,
+
     -- ** GetImportJob
     GetImportJob (GetImportJob'),
     newGetImportJob,
     GetImportJobResponse (GetImportJobResponse'),
     newGetImportJobResponse,
 
+    -- ** GetMessageInsights
+    GetMessageInsights (GetMessageInsights'),
+    newGetMessageInsights,
+    GetMessageInsightsResponse (GetMessageInsightsResponse'),
+    newGetMessageInsightsResponse,
+
+    -- ** GetMultiRegionEndpoint
+    GetMultiRegionEndpoint (GetMultiRegionEndpoint'),
+    newGetMultiRegionEndpoint,
+    GetMultiRegionEndpointResponse (GetMultiRegionEndpointResponse'),
+    newGetMultiRegionEndpointResponse,
+
+    -- ** GetReputationEntity
+    GetReputationEntity (GetReputationEntity'),
+    newGetReputationEntity,
+    GetReputationEntityResponse (GetReputationEntityResponse'),
+    newGetReputationEntityResponse,
+
     -- ** GetSuppressedDestination
     GetSuppressedDestination (GetSuppressedDestination'),
     newGetSuppressedDestination,
     GetSuppressedDestinationResponse (GetSuppressedDestinationResponse'),
     newGetSuppressedDestinationResponse,
+
+    -- ** GetTenant
+    GetTenant (GetTenant'),
+    newGetTenant,
+    GetTenantResponse (GetTenantResponse'),
+    newGetTenantResponse,
 
     -- ** ListConfigurationSets
     ListConfigurationSets (ListConfigurationSets'),
@@ -373,17 +457,41 @@ module Amazonka.SESV2
     ListEmailTemplatesResponse (ListEmailTemplatesResponse'),
     newListEmailTemplatesResponse,
 
+    -- ** ListExportJobs
+    ListExportJobs (ListExportJobs'),
+    newListExportJobs,
+    ListExportJobsResponse (ListExportJobsResponse'),
+    newListExportJobsResponse,
+
     -- ** ListImportJobs
     ListImportJobs (ListImportJobs'),
     newListImportJobs,
     ListImportJobsResponse (ListImportJobsResponse'),
     newListImportJobsResponse,
 
+    -- ** ListMultiRegionEndpoints (Paginated)
+    ListMultiRegionEndpoints (ListMultiRegionEndpoints'),
+    newListMultiRegionEndpoints,
+    ListMultiRegionEndpointsResponse (ListMultiRegionEndpointsResponse'),
+    newListMultiRegionEndpointsResponse,
+
     -- ** ListRecommendations
     ListRecommendations (ListRecommendations'),
     newListRecommendations,
     ListRecommendationsResponse (ListRecommendationsResponse'),
     newListRecommendationsResponse,
+
+    -- ** ListReputationEntities (Paginated)
+    ListReputationEntities (ListReputationEntities'),
+    newListReputationEntities,
+    ListReputationEntitiesResponse (ListReputationEntitiesResponse'),
+    newListReputationEntitiesResponse,
+
+    -- ** ListResourceTenants (Paginated)
+    ListResourceTenants (ListResourceTenants'),
+    newListResourceTenants,
+    ListResourceTenantsResponse (ListResourceTenantsResponse'),
+    newListResourceTenantsResponse,
 
     -- ** ListSuppressedDestinations
     ListSuppressedDestinations (ListSuppressedDestinations'),
@@ -396,6 +504,18 @@ module Amazonka.SESV2
     newListTagsForResource,
     ListTagsForResourceResponse (ListTagsForResourceResponse'),
     newListTagsForResourceResponse,
+
+    -- ** ListTenantResources (Paginated)
+    ListTenantResources (ListTenantResources'),
+    newListTenantResources,
+    ListTenantResourcesResponse (ListTenantResourcesResponse'),
+    newListTenantResourcesResponse,
+
+    -- ** ListTenants (Paginated)
+    ListTenants (ListTenants'),
+    newListTenants,
+    ListTenantsResponse (ListTenantsResponse'),
+    newListTenantsResponse,
 
     -- ** PutAccountDedicatedIpWarmupAttributes
     PutAccountDedicatedIpWarmupAttributes (PutAccountDedicatedIpWarmupAttributes'),
@@ -426,6 +546,12 @@ module Amazonka.SESV2
     newPutAccountVdmAttributes,
     PutAccountVdmAttributesResponse (PutAccountVdmAttributesResponse'),
     newPutAccountVdmAttributesResponse,
+
+    -- ** PutConfigurationSetArchivingOptions
+    PutConfigurationSetArchivingOptions (PutConfigurationSetArchivingOptions'),
+    newPutConfigurationSetArchivingOptions,
+    PutConfigurationSetArchivingOptionsResponse (PutConfigurationSetArchivingOptionsResponse'),
+    newPutConfigurationSetArchivingOptionsResponse,
 
     -- ** PutConfigurationSetDeliveryOptions
     PutConfigurationSetDeliveryOptions (PutConfigurationSetDeliveryOptions'),
@@ -468,6 +594,12 @@ module Amazonka.SESV2
     newPutDedicatedIpInPool,
     PutDedicatedIpInPoolResponse (PutDedicatedIpInPoolResponse'),
     newPutDedicatedIpInPoolResponse,
+
+    -- ** PutDedicatedIpPoolScalingAttributes
+    PutDedicatedIpPoolScalingAttributes (PutDedicatedIpPoolScalingAttributes'),
+    newPutDedicatedIpPoolScalingAttributes,
+    PutDedicatedIpPoolScalingAttributesResponse (PutDedicatedIpPoolScalingAttributesResponse'),
+    newPutDedicatedIpPoolScalingAttributesResponse,
 
     -- ** PutDedicatedIpWarmupAttributes
     PutDedicatedIpWarmupAttributes (PutDedicatedIpWarmupAttributes'),
@@ -589,10 +721,31 @@ module Amazonka.SESV2
     UpdateEmailTemplateResponse (UpdateEmailTemplateResponse'),
     newUpdateEmailTemplateResponse,
 
+    -- ** UpdateReputationEntityCustomerManagedStatus
+    UpdateReputationEntityCustomerManagedStatus (UpdateReputationEntityCustomerManagedStatus'),
+    newUpdateReputationEntityCustomerManagedStatus,
+    UpdateReputationEntityCustomerManagedStatusResponse (UpdateReputationEntityCustomerManagedStatusResponse'),
+    newUpdateReputationEntityCustomerManagedStatusResponse,
+
+    -- ** UpdateReputationEntityPolicy
+    UpdateReputationEntityPolicy (UpdateReputationEntityPolicy'),
+    newUpdateReputationEntityPolicy,
+    UpdateReputationEntityPolicyResponse (UpdateReputationEntityPolicyResponse'),
+    newUpdateReputationEntityPolicyResponse,
+
     -- * Types
+
+    -- ** AttachmentContentDisposition
+    AttachmentContentDisposition (..),
+
+    -- ** AttachmentContentTransferEncoding
+    AttachmentContentTransferEncoding (..),
 
     -- ** BehaviorOnMxFailure
     BehaviorOnMxFailure (..),
+
+    -- ** BounceType
+    BounceType (..),
 
     -- ** BulkEmailStatus
     BulkEmailStatus (..),
@@ -612,6 +765,9 @@ module Amazonka.SESV2
     -- ** DeliverabilityTestStatus
     DeliverabilityTestStatus (..),
 
+    -- ** DeliveryEventType
+    DeliveryEventType (..),
+
     -- ** DimensionValueSource
     DimensionValueSource (..),
 
@@ -624,11 +780,23 @@ module Amazonka.SESV2
     -- ** DkimStatus
     DkimStatus (..),
 
+    -- ** EmailAddressInsightsConfidenceVerdict
+    EmailAddressInsightsConfidenceVerdict (..),
+
+    -- ** EngagementEventType
+    EngagementEventType (..),
+
     -- ** EventType
     EventType (..),
 
+    -- ** ExportSourceType
+    ExportSourceType (..),
+
     -- ** FeatureStatus
     FeatureStatus (..),
+
+    -- ** HttpsPolicy
+    HttpsPolicy (..),
 
     -- ** IdentityType
     IdentityType (..),
@@ -642,6 +810,9 @@ module Amazonka.SESV2
     -- ** ListRecommendationsFilterKey
     ListRecommendationsFilterKey (..),
 
+    -- ** ListTenantResourcesFilterKey
+    ListTenantResourcesFilterKey (..),
+
     -- ** MailFromDomainStatus
     MailFromDomainStatus (..),
 
@@ -650,6 +821,9 @@ module Amazonka.SESV2
 
     -- ** Metric
     Metric (..),
+
+    -- ** MetricAggregation
+    MetricAggregation (..),
 
     -- ** MetricDimensionName
     MetricDimensionName (..),
@@ -669,14 +843,32 @@ module Amazonka.SESV2
     -- ** RecommendationType
     RecommendationType (..),
 
+    -- ** ReputationEntityFilterKey
+    ReputationEntityFilterKey (..),
+
+    -- ** ReputationEntityType
+    ReputationEntityType (..),
+
+    -- ** ResourceType
+    ResourceType (..),
+
     -- ** ReviewStatus
     ReviewStatus (..),
 
     -- ** ScalingMode
     ScalingMode (..),
 
+    -- ** SendingStatus
+    SendingStatus (..),
+
+    -- ** Status
+    Status (..),
+
     -- ** SubscriptionStatus
     SubscriptionStatus (..),
+
+    -- ** SuppressionConfidenceVerdictThreshold
+    SuppressionConfidenceVerdictThreshold (..),
 
     -- ** SuppressionListImportAction
     SuppressionListImportAction (..),
@@ -687,6 +879,9 @@ module Amazonka.SESV2
     -- ** TlsPolicy
     TlsPolicy (..),
 
+    -- ** VerificationError
+    VerificationError (..),
+
     -- ** VerificationStatus
     VerificationStatus (..),
 
@@ -696,6 +891,14 @@ module Amazonka.SESV2
     -- ** AccountDetails
     AccountDetails (AccountDetails'),
     newAccountDetails,
+
+    -- ** ArchivingOptions
+    ArchivingOptions (ArchivingOptions'),
+    newArchivingOptions,
+
+    -- ** Attachment
+    Attachment (Attachment'),
+    newAttachment,
 
     -- ** BatchGetMetricDataQuery
     BatchGetMetricDataQuery (BatchGetMetricDataQuery'),
@@ -708,6 +911,10 @@ module Amazonka.SESV2
     -- ** Body
     Body (Body'),
     newBody,
+
+    -- ** Bounce
+    Bounce (Bounce'),
+    newBounce,
 
     -- ** BulkEmailContent
     BulkEmailContent (BulkEmailContent'),
@@ -728,6 +935,10 @@ module Amazonka.SESV2
     -- ** CloudWatchDimensionConfiguration
     CloudWatchDimensionConfiguration (CloudWatchDimensionConfiguration'),
     newCloudWatchDimensionConfiguration,
+
+    -- ** Complaint
+    Complaint (Complaint'),
+    newComplaint,
 
     -- ** Contact
     Contact (Contact'),
@@ -781,6 +992,10 @@ module Amazonka.SESV2
     Destination (Destination'),
     newDestination,
 
+    -- ** Details
+    Details (Details'),
+    newDetails,
+
     -- ** DkimAttributes
     DkimAttributes (DkimAttributes'),
     newDkimAttributes,
@@ -801,9 +1016,21 @@ module Amazonka.SESV2
     DomainIspPlacement (DomainIspPlacement'),
     newDomainIspPlacement,
 
+    -- ** EmailAddressInsightsMailboxEvaluations
+    EmailAddressInsightsMailboxEvaluations (EmailAddressInsightsMailboxEvaluations'),
+    newEmailAddressInsightsMailboxEvaluations,
+
+    -- ** EmailAddressInsightsVerdict
+    EmailAddressInsightsVerdict (EmailAddressInsightsVerdict'),
+    newEmailAddressInsightsVerdict,
+
     -- ** EmailContent
     EmailContent (EmailContent'),
     newEmailContent,
+
+    -- ** EmailInsights
+    EmailInsights (EmailInsights'),
+    newEmailInsights,
 
     -- ** EmailTemplateContent
     EmailTemplateContent (EmailTemplateContent'),
@@ -813,6 +1040,10 @@ module Amazonka.SESV2
     EmailTemplateMetadata (EmailTemplateMetadata'),
     newEmailTemplateMetadata,
 
+    -- ** EventBridgeDestination
+    EventBridgeDestination (EventBridgeDestination'),
+    newEventBridgeDestination,
+
     -- ** EventDestination
     EventDestination (EventDestination'),
     newEventDestination,
@@ -820,6 +1051,30 @@ module Amazonka.SESV2
     -- ** EventDestinationDefinition
     EventDestinationDefinition (EventDestinationDefinition'),
     newEventDestinationDefinition,
+
+    -- ** EventDetails
+    EventDetails (EventDetails'),
+    newEventDetails,
+
+    -- ** ExportDataSource
+    ExportDataSource (ExportDataSource'),
+    newExportDataSource,
+
+    -- ** ExportDestination
+    ExportDestination (ExportDestination'),
+    newExportDestination,
+
+    -- ** ExportJobSummary
+    ExportJobSummary (ExportJobSummary'),
+    newExportJobSummary,
+
+    -- ** ExportMetric
+    ExportMetric (ExportMetric'),
+    newExportMetric,
+
+    -- ** ExportStatistics
+    ExportStatistics (ExportStatistics'),
+    newExportStatistics,
 
     -- ** FailureInfo
     FailureInfo (FailureInfo'),
@@ -853,6 +1108,10 @@ module Amazonka.SESV2
     InboxPlacementTrackingOption (InboxPlacementTrackingOption'),
     newInboxPlacementTrackingOption,
 
+    -- ** InsightsEvent
+    InsightsEvent (InsightsEvent'),
+    newInsightsEvent,
+
     -- ** IspPlacement
     IspPlacement (IspPlacement'),
     newIspPlacement,
@@ -873,9 +1132,25 @@ module Amazonka.SESV2
     MailFromAttributes (MailFromAttributes'),
     newMailFromAttributes,
 
+    -- ** MailboxValidation
+    MailboxValidation (MailboxValidation'),
+    newMailboxValidation,
+
     -- ** Message
     Message (Message'),
     newMessage,
+
+    -- ** MessageHeader
+    MessageHeader (MessageHeader'),
+    newMessageHeader,
+
+    -- ** MessageInsightsDataSource
+    MessageInsightsDataSource (MessageInsightsDataSource'),
+    newMessageInsightsDataSource,
+
+    -- ** MessageInsightsFilters
+    MessageInsightsFilters (MessageInsightsFilters'),
+    newMessageInsightsFilters,
 
     -- ** MessageTag
     MessageTag (MessageTag'),
@@ -888,6 +1163,14 @@ module Amazonka.SESV2
     -- ** MetricDataResult
     MetricDataResult (MetricDataResult'),
     newMetricDataResult,
+
+    -- ** MetricsDataSource
+    MetricsDataSource (MetricsDataSource'),
+    newMetricsDataSource,
+
+    -- ** MultiRegionEndpoint
+    MultiRegionEndpoint (MultiRegionEndpoint'),
+    newMultiRegionEndpoint,
 
     -- ** OverallVolume
     OverallVolume (OverallVolume'),
@@ -917,13 +1200,33 @@ module Amazonka.SESV2
     ReplacementTemplate (ReplacementTemplate'),
     newReplacementTemplate,
 
+    -- ** ReputationEntity
+    ReputationEntity (ReputationEntity'),
+    newReputationEntity,
+
     -- ** ReputationOptions
     ReputationOptions (ReputationOptions'),
     newReputationOptions,
 
+    -- ** ResourceTenantMetadata
+    ResourceTenantMetadata (ResourceTenantMetadata'),
+    newResourceTenantMetadata,
+
     -- ** ReviewDetails
     ReviewDetails (ReviewDetails'),
     newReviewDetails,
+
+    -- ** Route
+    Route (Route'),
+    newRoute,
+
+    -- ** RouteDetails
+    RouteDetails (RouteDetails'),
+    newRouteDetails,
+
+    -- ** SOARecord
+    SOARecord (SOARecord'),
+    newSOARecord,
 
     -- ** SendQuota
     SendQuota (SendQuota'),
@@ -936,6 +1239,10 @@ module Amazonka.SESV2
     -- ** SnsDestination
     SnsDestination (SnsDestination'),
     newSnsDestination,
+
+    -- ** StatusRecord
+    StatusRecord (StatusRecord'),
+    newStatusRecord,
 
     -- ** SuppressedDestination
     SuppressedDestination (SuppressedDestination'),
@@ -953,6 +1260,14 @@ module Amazonka.SESV2
     SuppressionAttributes (SuppressionAttributes'),
     newSuppressionAttributes,
 
+    -- ** SuppressionConditionThreshold
+    SuppressionConditionThreshold (SuppressionConditionThreshold'),
+    newSuppressionConditionThreshold,
+
+    -- ** SuppressionConfidenceThreshold
+    SuppressionConfidenceThreshold (SuppressionConfidenceThreshold'),
+    newSuppressionConfidenceThreshold,
+
     -- ** SuppressionListDestination
     SuppressionListDestination (SuppressionListDestination'),
     newSuppressionListDestination,
@@ -961,6 +1276,14 @@ module Amazonka.SESV2
     SuppressionOptions (SuppressionOptions'),
     newSuppressionOptions,
 
+    -- ** SuppressionValidationAttributes
+    SuppressionValidationAttributes (SuppressionValidationAttributes'),
+    newSuppressionValidationAttributes,
+
+    -- ** SuppressionValidationOptions
+    SuppressionValidationOptions (SuppressionValidationOptions'),
+    newSuppressionValidationOptions,
+
     -- ** Tag
     Tag (Tag'),
     newTag,
@@ -968,6 +1291,18 @@ module Amazonka.SESV2
     -- ** Template
     Template (Template'),
     newTemplate,
+
+    -- ** Tenant
+    Tenant (Tenant'),
+    newTenant,
+
+    -- ** TenantInfo
+    TenantInfo (TenantInfo'),
+    newTenantInfo,
+
+    -- ** TenantResource
+    TenantResource (TenantResource'),
+    newTenantResource,
 
     -- ** Topic
     Topic (Topic'),
@@ -993,6 +1328,10 @@ module Amazonka.SESV2
     VdmOptions (VdmOptions'),
     newVdmOptions,
 
+    -- ** VerificationInfo
+    VerificationInfo (VerificationInfo'),
+    newVerificationInfo,
+
     -- ** VolumeStatistics
     VolumeStatistics (VolumeStatistics'),
     newVolumeStatistics,
@@ -1000,6 +1339,7 @@ module Amazonka.SESV2
 where
 
 import Amazonka.SESV2.BatchGetMetricData
+import Amazonka.SESV2.CancelExportJob
 import Amazonka.SESV2.CreateConfigurationSet
 import Amazonka.SESV2.CreateConfigurationSetEventDestination
 import Amazonka.SESV2.CreateContact
@@ -1010,7 +1350,11 @@ import Amazonka.SESV2.CreateDeliverabilityTestReport
 import Amazonka.SESV2.CreateEmailIdentity
 import Amazonka.SESV2.CreateEmailIdentityPolicy
 import Amazonka.SESV2.CreateEmailTemplate
+import Amazonka.SESV2.CreateExportJob
 import Amazonka.SESV2.CreateImportJob
+import Amazonka.SESV2.CreateMultiRegionEndpoint
+import Amazonka.SESV2.CreateTenant
+import Amazonka.SESV2.CreateTenantResourceAssociation
 import Amazonka.SESV2.DeleteConfigurationSet
 import Amazonka.SESV2.DeleteConfigurationSetEventDestination
 import Amazonka.SESV2.DeleteContact
@@ -1020,7 +1364,10 @@ import Amazonka.SESV2.DeleteDedicatedIpPool
 import Amazonka.SESV2.DeleteEmailIdentity
 import Amazonka.SESV2.DeleteEmailIdentityPolicy
 import Amazonka.SESV2.DeleteEmailTemplate
+import Amazonka.SESV2.DeleteMultiRegionEndpoint
 import Amazonka.SESV2.DeleteSuppressedDestination
+import Amazonka.SESV2.DeleteTenant
+import Amazonka.SESV2.DeleteTenantResourceAssociation
 import Amazonka.SESV2.GetAccount
 import Amazonka.SESV2.GetBlacklistReports
 import Amazonka.SESV2.GetConfigurationSet
@@ -1035,11 +1382,17 @@ import Amazonka.SESV2.GetDeliverabilityDashboardOptions
 import Amazonka.SESV2.GetDeliverabilityTestReport
 import Amazonka.SESV2.GetDomainDeliverabilityCampaign
 import Amazonka.SESV2.GetDomainStatisticsReport
+import Amazonka.SESV2.GetEmailAddressInsights
 import Amazonka.SESV2.GetEmailIdentity
 import Amazonka.SESV2.GetEmailIdentityPolicies
 import Amazonka.SESV2.GetEmailTemplate
+import Amazonka.SESV2.GetExportJob
 import Amazonka.SESV2.GetImportJob
+import Amazonka.SESV2.GetMessageInsights
+import Amazonka.SESV2.GetMultiRegionEndpoint
+import Amazonka.SESV2.GetReputationEntity
 import Amazonka.SESV2.GetSuppressedDestination
+import Amazonka.SESV2.GetTenant
 import Amazonka.SESV2.Lens
 import Amazonka.SESV2.ListConfigurationSets
 import Amazonka.SESV2.ListContactLists
@@ -1050,15 +1403,22 @@ import Amazonka.SESV2.ListDeliverabilityTestReports
 import Amazonka.SESV2.ListDomainDeliverabilityCampaigns
 import Amazonka.SESV2.ListEmailIdentities
 import Amazonka.SESV2.ListEmailTemplates
+import Amazonka.SESV2.ListExportJobs
 import Amazonka.SESV2.ListImportJobs
+import Amazonka.SESV2.ListMultiRegionEndpoints
 import Amazonka.SESV2.ListRecommendations
+import Amazonka.SESV2.ListReputationEntities
+import Amazonka.SESV2.ListResourceTenants
 import Amazonka.SESV2.ListSuppressedDestinations
 import Amazonka.SESV2.ListTagsForResource
+import Amazonka.SESV2.ListTenantResources
+import Amazonka.SESV2.ListTenants
 import Amazonka.SESV2.PutAccountDedicatedIpWarmupAttributes
 import Amazonka.SESV2.PutAccountDetails
 import Amazonka.SESV2.PutAccountSendingAttributes
 import Amazonka.SESV2.PutAccountSuppressionAttributes
 import Amazonka.SESV2.PutAccountVdmAttributes
+import Amazonka.SESV2.PutConfigurationSetArchivingOptions
 import Amazonka.SESV2.PutConfigurationSetDeliveryOptions
 import Amazonka.SESV2.PutConfigurationSetReputationOptions
 import Amazonka.SESV2.PutConfigurationSetSendingOptions
@@ -1066,6 +1426,7 @@ import Amazonka.SESV2.PutConfigurationSetSuppressionOptions
 import Amazonka.SESV2.PutConfigurationSetTrackingOptions
 import Amazonka.SESV2.PutConfigurationSetVdmOptions
 import Amazonka.SESV2.PutDedicatedIpInPool
+import Amazonka.SESV2.PutDedicatedIpPoolScalingAttributes
 import Amazonka.SESV2.PutDedicatedIpWarmupAttributes
 import Amazonka.SESV2.PutDeliverabilityDashboardOption
 import Amazonka.SESV2.PutEmailIdentityConfigurationSetAttributes
@@ -1087,6 +1448,8 @@ import Amazonka.SESV2.UpdateContactList
 import Amazonka.SESV2.UpdateCustomVerificationEmailTemplate
 import Amazonka.SESV2.UpdateEmailIdentityPolicy
 import Amazonka.SESV2.UpdateEmailTemplate
+import Amazonka.SESV2.UpdateReputationEntityCustomerManagedStatus
+import Amazonka.SESV2.UpdateReputationEntityPolicy
 import Amazonka.SESV2.Waiters
 
 -- $errors

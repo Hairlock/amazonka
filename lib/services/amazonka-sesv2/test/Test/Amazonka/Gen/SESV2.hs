@@ -30,6 +30,9 @@ import Test.Tasty
 --         [ requestBatchGetMetricData $
 --             newBatchGetMetricData
 --
+--         , requestCancelExportJob $
+--             newCancelExportJob
+--
 --         , requestCreateConfigurationSet $
 --             newCreateConfigurationSet
 --
@@ -60,8 +63,20 @@ import Test.Tasty
 --         , requestCreateEmailTemplate $
 --             newCreateEmailTemplate
 --
+--         , requestCreateExportJob $
+--             newCreateExportJob
+--
 --         , requestCreateImportJob $
 --             newCreateImportJob
+--
+--         , requestCreateMultiRegionEndpoint $
+--             newCreateMultiRegionEndpoint
+--
+--         , requestCreateTenant $
+--             newCreateTenant
+--
+--         , requestCreateTenantResourceAssociation $
+--             newCreateTenantResourceAssociation
 --
 --         , requestDeleteConfigurationSet $
 --             newDeleteConfigurationSet
@@ -90,8 +105,17 @@ import Test.Tasty
 --         , requestDeleteEmailTemplate $
 --             newDeleteEmailTemplate
 --
+--         , requestDeleteMultiRegionEndpoint $
+--             newDeleteMultiRegionEndpoint
+--
 --         , requestDeleteSuppressedDestination $
 --             newDeleteSuppressedDestination
+--
+--         , requestDeleteTenant $
+--             newDeleteTenant
+--
+--         , requestDeleteTenantResourceAssociation $
+--             newDeleteTenantResourceAssociation
 --
 --         , requestGetAccount $
 --             newGetAccount
@@ -135,6 +159,9 @@ import Test.Tasty
 --         , requestGetDomainStatisticsReport $
 --             newGetDomainStatisticsReport
 --
+--         , requestGetEmailAddressInsights $
+--             newGetEmailAddressInsights
+--
 --         , requestGetEmailIdentity $
 --             newGetEmailIdentity
 --
@@ -144,11 +171,26 @@ import Test.Tasty
 --         , requestGetEmailTemplate $
 --             newGetEmailTemplate
 --
+--         , requestGetExportJob $
+--             newGetExportJob
+--
 --         , requestGetImportJob $
 --             newGetImportJob
 --
+--         , requestGetMessageInsights $
+--             newGetMessageInsights
+--
+--         , requestGetMultiRegionEndpoint $
+--             newGetMultiRegionEndpoint
+--
+--         , requestGetReputationEntity $
+--             newGetReputationEntity
+--
 --         , requestGetSuppressedDestination $
 --             newGetSuppressedDestination
+--
+--         , requestGetTenant $
+--             newGetTenant
 --
 --         , requestListConfigurationSets $
 --             newListConfigurationSets
@@ -177,17 +219,35 @@ import Test.Tasty
 --         , requestListEmailTemplates $
 --             newListEmailTemplates
 --
+--         , requestListExportJobs $
+--             newListExportJobs
+--
 --         , requestListImportJobs $
 --             newListImportJobs
 --
+--         , requestListMultiRegionEndpoints $
+--             newListMultiRegionEndpoints
+--
 --         , requestListRecommendations $
 --             newListRecommendations
+--
+--         , requestListReputationEntities $
+--             newListReputationEntities
+--
+--         , requestListResourceTenants $
+--             newListResourceTenants
 --
 --         , requestListSuppressedDestinations $
 --             newListSuppressedDestinations
 --
 --         , requestListTagsForResource $
 --             newListTagsForResource
+--
+--         , requestListTenantResources $
+--             newListTenantResources
+--
+--         , requestListTenants $
+--             newListTenants
 --
 --         , requestPutAccountDedicatedIpWarmupAttributes $
 --             newPutAccountDedicatedIpWarmupAttributes
@@ -203,6 +263,9 @@ import Test.Tasty
 --
 --         , requestPutAccountVdmAttributes $
 --             newPutAccountVdmAttributes
+--
+--         , requestPutConfigurationSetArchivingOptions $
+--             newPutConfigurationSetArchivingOptions
 --
 --         , requestPutConfigurationSetDeliveryOptions $
 --             newPutConfigurationSetDeliveryOptions
@@ -224,6 +287,9 @@ import Test.Tasty
 --
 --         , requestPutDedicatedIpInPool $
 --             newPutDedicatedIpInPool
+--
+--         , requestPutDedicatedIpPoolScalingAttributes $
+--             newPutDedicatedIpPoolScalingAttributes
 --
 --         , requestPutDedicatedIpWarmupAttributes $
 --             newPutDedicatedIpWarmupAttributes
@@ -285,11 +351,20 @@ import Test.Tasty
 --         , requestUpdateEmailTemplate $
 --             newUpdateEmailTemplate
 --
+--         , requestUpdateReputationEntityCustomerManagedStatus $
+--             newUpdateReputationEntityCustomerManagedStatus
+--
+--         , requestUpdateReputationEntityPolicy $
+--             newUpdateReputationEntityPolicy
+--
 --           ]
 
 --     , testGroup "response"
 --         [ responseBatchGetMetricData $
 --             newBatchGetMetricDataResponse
+--
+--         , responseCancelExportJob $
+--             newCancelExportJobResponse
 --
 --         , responseCreateConfigurationSet $
 --             newCreateConfigurationSetResponse
@@ -321,8 +396,20 @@ import Test.Tasty
 --         , responseCreateEmailTemplate $
 --             newCreateEmailTemplateResponse
 --
+--         , responseCreateExportJob $
+--             newCreateExportJobResponse
+--
 --         , responseCreateImportJob $
 --             newCreateImportJobResponse
+--
+--         , responseCreateMultiRegionEndpoint $
+--             newCreateMultiRegionEndpointResponse
+--
+--         , responseCreateTenant $
+--             newCreateTenantResponse
+--
+--         , responseCreateTenantResourceAssociation $
+--             newCreateTenantResourceAssociationResponse
 --
 --         , responseDeleteConfigurationSet $
 --             newDeleteConfigurationSetResponse
@@ -351,8 +438,17 @@ import Test.Tasty
 --         , responseDeleteEmailTemplate $
 --             newDeleteEmailTemplateResponse
 --
+--         , responseDeleteMultiRegionEndpoint $
+--             newDeleteMultiRegionEndpointResponse
+--
 --         , responseDeleteSuppressedDestination $
 --             newDeleteSuppressedDestinationResponse
+--
+--         , responseDeleteTenant $
+--             newDeleteTenantResponse
+--
+--         , responseDeleteTenantResourceAssociation $
+--             newDeleteTenantResourceAssociationResponse
 --
 --         , responseGetAccount $
 --             newGetAccountResponse
@@ -396,6 +492,9 @@ import Test.Tasty
 --         , responseGetDomainStatisticsReport $
 --             newGetDomainStatisticsReportResponse
 --
+--         , responseGetEmailAddressInsights $
+--             newGetEmailAddressInsightsResponse
+--
 --         , responseGetEmailIdentity $
 --             newGetEmailIdentityResponse
 --
@@ -405,11 +504,26 @@ import Test.Tasty
 --         , responseGetEmailTemplate $
 --             newGetEmailTemplateResponse
 --
+--         , responseGetExportJob $
+--             newGetExportJobResponse
+--
 --         , responseGetImportJob $
 --             newGetImportJobResponse
 --
+--         , responseGetMessageInsights $
+--             newGetMessageInsightsResponse
+--
+--         , responseGetMultiRegionEndpoint $
+--             newGetMultiRegionEndpointResponse
+--
+--         , responseGetReputationEntity $
+--             newGetReputationEntityResponse
+--
 --         , responseGetSuppressedDestination $
 --             newGetSuppressedDestinationResponse
+--
+--         , responseGetTenant $
+--             newGetTenantResponse
 --
 --         , responseListConfigurationSets $
 --             newListConfigurationSetsResponse
@@ -438,17 +552,35 @@ import Test.Tasty
 --         , responseListEmailTemplates $
 --             newListEmailTemplatesResponse
 --
+--         , responseListExportJobs $
+--             newListExportJobsResponse
+--
 --         , responseListImportJobs $
 --             newListImportJobsResponse
 --
+--         , responseListMultiRegionEndpoints $
+--             newListMultiRegionEndpointsResponse
+--
 --         , responseListRecommendations $
 --             newListRecommendationsResponse
+--
+--         , responseListReputationEntities $
+--             newListReputationEntitiesResponse
+--
+--         , responseListResourceTenants $
+--             newListResourceTenantsResponse
 --
 --         , responseListSuppressedDestinations $
 --             newListSuppressedDestinationsResponse
 --
 --         , responseListTagsForResource $
 --             newListTagsForResourceResponse
+--
+--         , responseListTenantResources $
+--             newListTenantResourcesResponse
+--
+--         , responseListTenants $
+--             newListTenantsResponse
 --
 --         , responsePutAccountDedicatedIpWarmupAttributes $
 --             newPutAccountDedicatedIpWarmupAttributesResponse
@@ -464,6 +596,9 @@ import Test.Tasty
 --
 --         , responsePutAccountVdmAttributes $
 --             newPutAccountVdmAttributesResponse
+--
+--         , responsePutConfigurationSetArchivingOptions $
+--             newPutConfigurationSetArchivingOptionsResponse
 --
 --         , responsePutConfigurationSetDeliveryOptions $
 --             newPutConfigurationSetDeliveryOptionsResponse
@@ -485,6 +620,9 @@ import Test.Tasty
 --
 --         , responsePutDedicatedIpInPool $
 --             newPutDedicatedIpInPoolResponse
+--
+--         , responsePutDedicatedIpPoolScalingAttributes $
+--             newPutDedicatedIpPoolScalingAttributesResponse
 --
 --         , responsePutDedicatedIpWarmupAttributes $
 --             newPutDedicatedIpWarmupAttributesResponse
@@ -546,6 +684,12 @@ import Test.Tasty
 --         , responseUpdateEmailTemplate $
 --             newUpdateEmailTemplateResponse
 --
+--         , responseUpdateReputationEntityCustomerManagedStatus $
+--             newUpdateReputationEntityCustomerManagedStatusResponse
+--
+--         , responseUpdateReputationEntityPolicy $
+--             newUpdateReputationEntityPolicyResponse
+--
 --           ]
 --     ]
 
@@ -556,6 +700,12 @@ requestBatchGetMetricData =
   req
     "BatchGetMetricData"
     "fixture/BatchGetMetricData.yaml"
+
+requestCancelExportJob :: CancelExportJob -> TestTree
+requestCancelExportJob =
+  req
+    "CancelExportJob"
+    "fixture/CancelExportJob.yaml"
 
 requestCreateConfigurationSet :: CreateConfigurationSet -> TestTree
 requestCreateConfigurationSet =
@@ -617,11 +767,35 @@ requestCreateEmailTemplate =
     "CreateEmailTemplate"
     "fixture/CreateEmailTemplate.yaml"
 
+requestCreateExportJob :: CreateExportJob -> TestTree
+requestCreateExportJob =
+  req
+    "CreateExportJob"
+    "fixture/CreateExportJob.yaml"
+
 requestCreateImportJob :: CreateImportJob -> TestTree
 requestCreateImportJob =
   req
     "CreateImportJob"
     "fixture/CreateImportJob.yaml"
+
+requestCreateMultiRegionEndpoint :: CreateMultiRegionEndpoint -> TestTree
+requestCreateMultiRegionEndpoint =
+  req
+    "CreateMultiRegionEndpoint"
+    "fixture/CreateMultiRegionEndpoint.yaml"
+
+requestCreateTenant :: CreateTenant -> TestTree
+requestCreateTenant =
+  req
+    "CreateTenant"
+    "fixture/CreateTenant.yaml"
+
+requestCreateTenantResourceAssociation :: CreateTenantResourceAssociation -> TestTree
+requestCreateTenantResourceAssociation =
+  req
+    "CreateTenantResourceAssociation"
+    "fixture/CreateTenantResourceAssociation.yaml"
 
 requestDeleteConfigurationSet :: DeleteConfigurationSet -> TestTree
 requestDeleteConfigurationSet =
@@ -677,11 +851,29 @@ requestDeleteEmailTemplate =
     "DeleteEmailTemplate"
     "fixture/DeleteEmailTemplate.yaml"
 
+requestDeleteMultiRegionEndpoint :: DeleteMultiRegionEndpoint -> TestTree
+requestDeleteMultiRegionEndpoint =
+  req
+    "DeleteMultiRegionEndpoint"
+    "fixture/DeleteMultiRegionEndpoint.yaml"
+
 requestDeleteSuppressedDestination :: DeleteSuppressedDestination -> TestTree
 requestDeleteSuppressedDestination =
   req
     "DeleteSuppressedDestination"
     "fixture/DeleteSuppressedDestination.yaml"
+
+requestDeleteTenant :: DeleteTenant -> TestTree
+requestDeleteTenant =
+  req
+    "DeleteTenant"
+    "fixture/DeleteTenant.yaml"
+
+requestDeleteTenantResourceAssociation :: DeleteTenantResourceAssociation -> TestTree
+requestDeleteTenantResourceAssociation =
+  req
+    "DeleteTenantResourceAssociation"
+    "fixture/DeleteTenantResourceAssociation.yaml"
 
 requestGetAccount :: GetAccount -> TestTree
 requestGetAccount =
@@ -767,6 +959,12 @@ requestGetDomainStatisticsReport =
     "GetDomainStatisticsReport"
     "fixture/GetDomainStatisticsReport.yaml"
 
+requestGetEmailAddressInsights :: GetEmailAddressInsights -> TestTree
+requestGetEmailAddressInsights =
+  req
+    "GetEmailAddressInsights"
+    "fixture/GetEmailAddressInsights.yaml"
+
 requestGetEmailIdentity :: GetEmailIdentity -> TestTree
 requestGetEmailIdentity =
   req
@@ -785,17 +983,47 @@ requestGetEmailTemplate =
     "GetEmailTemplate"
     "fixture/GetEmailTemplate.yaml"
 
+requestGetExportJob :: GetExportJob -> TestTree
+requestGetExportJob =
+  req
+    "GetExportJob"
+    "fixture/GetExportJob.yaml"
+
 requestGetImportJob :: GetImportJob -> TestTree
 requestGetImportJob =
   req
     "GetImportJob"
     "fixture/GetImportJob.yaml"
 
+requestGetMessageInsights :: GetMessageInsights -> TestTree
+requestGetMessageInsights =
+  req
+    "GetMessageInsights"
+    "fixture/GetMessageInsights.yaml"
+
+requestGetMultiRegionEndpoint :: GetMultiRegionEndpoint -> TestTree
+requestGetMultiRegionEndpoint =
+  req
+    "GetMultiRegionEndpoint"
+    "fixture/GetMultiRegionEndpoint.yaml"
+
+requestGetReputationEntity :: GetReputationEntity -> TestTree
+requestGetReputationEntity =
+  req
+    "GetReputationEntity"
+    "fixture/GetReputationEntity.yaml"
+
 requestGetSuppressedDestination :: GetSuppressedDestination -> TestTree
 requestGetSuppressedDestination =
   req
     "GetSuppressedDestination"
     "fixture/GetSuppressedDestination.yaml"
+
+requestGetTenant :: GetTenant -> TestTree
+requestGetTenant =
+  req
+    "GetTenant"
+    "fixture/GetTenant.yaml"
 
 requestListConfigurationSets :: ListConfigurationSets -> TestTree
 requestListConfigurationSets =
@@ -851,17 +1079,41 @@ requestListEmailTemplates =
     "ListEmailTemplates"
     "fixture/ListEmailTemplates.yaml"
 
+requestListExportJobs :: ListExportJobs -> TestTree
+requestListExportJobs =
+  req
+    "ListExportJobs"
+    "fixture/ListExportJobs.yaml"
+
 requestListImportJobs :: ListImportJobs -> TestTree
 requestListImportJobs =
   req
     "ListImportJobs"
     "fixture/ListImportJobs.yaml"
 
+requestListMultiRegionEndpoints :: ListMultiRegionEndpoints -> TestTree
+requestListMultiRegionEndpoints =
+  req
+    "ListMultiRegionEndpoints"
+    "fixture/ListMultiRegionEndpoints.yaml"
+
 requestListRecommendations :: ListRecommendations -> TestTree
 requestListRecommendations =
   req
     "ListRecommendations"
     "fixture/ListRecommendations.yaml"
+
+requestListReputationEntities :: ListReputationEntities -> TestTree
+requestListReputationEntities =
+  req
+    "ListReputationEntities"
+    "fixture/ListReputationEntities.yaml"
+
+requestListResourceTenants :: ListResourceTenants -> TestTree
+requestListResourceTenants =
+  req
+    "ListResourceTenants"
+    "fixture/ListResourceTenants.yaml"
 
 requestListSuppressedDestinations :: ListSuppressedDestinations -> TestTree
 requestListSuppressedDestinations =
@@ -874,6 +1126,18 @@ requestListTagsForResource =
   req
     "ListTagsForResource"
     "fixture/ListTagsForResource.yaml"
+
+requestListTenantResources :: ListTenantResources -> TestTree
+requestListTenantResources =
+  req
+    "ListTenantResources"
+    "fixture/ListTenantResources.yaml"
+
+requestListTenants :: ListTenants -> TestTree
+requestListTenants =
+  req
+    "ListTenants"
+    "fixture/ListTenants.yaml"
 
 requestPutAccountDedicatedIpWarmupAttributes :: PutAccountDedicatedIpWarmupAttributes -> TestTree
 requestPutAccountDedicatedIpWarmupAttributes =
@@ -904,6 +1168,12 @@ requestPutAccountVdmAttributes =
   req
     "PutAccountVdmAttributes"
     "fixture/PutAccountVdmAttributes.yaml"
+
+requestPutConfigurationSetArchivingOptions :: PutConfigurationSetArchivingOptions -> TestTree
+requestPutConfigurationSetArchivingOptions =
+  req
+    "PutConfigurationSetArchivingOptions"
+    "fixture/PutConfigurationSetArchivingOptions.yaml"
 
 requestPutConfigurationSetDeliveryOptions :: PutConfigurationSetDeliveryOptions -> TestTree
 requestPutConfigurationSetDeliveryOptions =
@@ -946,6 +1216,12 @@ requestPutDedicatedIpInPool =
   req
     "PutDedicatedIpInPool"
     "fixture/PutDedicatedIpInPool.yaml"
+
+requestPutDedicatedIpPoolScalingAttributes :: PutDedicatedIpPoolScalingAttributes -> TestTree
+requestPutDedicatedIpPoolScalingAttributes =
+  req
+    "PutDedicatedIpPoolScalingAttributes"
+    "fixture/PutDedicatedIpPoolScalingAttributes.yaml"
 
 requestPutDedicatedIpWarmupAttributes :: PutDedicatedIpWarmupAttributes -> TestTree
 requestPutDedicatedIpWarmupAttributes =
@@ -1067,6 +1343,18 @@ requestUpdateEmailTemplate =
     "UpdateEmailTemplate"
     "fixture/UpdateEmailTemplate.yaml"
 
+requestUpdateReputationEntityCustomerManagedStatus :: UpdateReputationEntityCustomerManagedStatus -> TestTree
+requestUpdateReputationEntityCustomerManagedStatus =
+  req
+    "UpdateReputationEntityCustomerManagedStatus"
+    "fixture/UpdateReputationEntityCustomerManagedStatus.yaml"
+
+requestUpdateReputationEntityPolicy :: UpdateReputationEntityPolicy -> TestTree
+requestUpdateReputationEntityPolicy =
+  req
+    "UpdateReputationEntityPolicy"
+    "fixture/UpdateReputationEntityPolicy.yaml"
+
 -- Responses
 
 responseBatchGetMetricData :: BatchGetMetricDataResponse -> TestTree
@@ -1076,6 +1364,14 @@ responseBatchGetMetricData =
     "fixture/BatchGetMetricDataResponse.proto"
     defaultService
     (Proxy.Proxy :: Proxy.Proxy BatchGetMetricData)
+
+responseCancelExportJob :: CancelExportJobResponse -> TestTree
+responseCancelExportJob =
+  res
+    "CancelExportJobResponse"
+    "fixture/CancelExportJobResponse.proto"
+    defaultService
+    (Proxy.Proxy :: Proxy.Proxy CancelExportJob)
 
 responseCreateConfigurationSet :: CreateConfigurationSetResponse -> TestTree
 responseCreateConfigurationSet =
@@ -1157,6 +1453,14 @@ responseCreateEmailTemplate =
     defaultService
     (Proxy.Proxy :: Proxy.Proxy CreateEmailTemplate)
 
+responseCreateExportJob :: CreateExportJobResponse -> TestTree
+responseCreateExportJob =
+  res
+    "CreateExportJobResponse"
+    "fixture/CreateExportJobResponse.proto"
+    defaultService
+    (Proxy.Proxy :: Proxy.Proxy CreateExportJob)
+
 responseCreateImportJob :: CreateImportJobResponse -> TestTree
 responseCreateImportJob =
   res
@@ -1164,6 +1468,30 @@ responseCreateImportJob =
     "fixture/CreateImportJobResponse.proto"
     defaultService
     (Proxy.Proxy :: Proxy.Proxy CreateImportJob)
+
+responseCreateMultiRegionEndpoint :: CreateMultiRegionEndpointResponse -> TestTree
+responseCreateMultiRegionEndpoint =
+  res
+    "CreateMultiRegionEndpointResponse"
+    "fixture/CreateMultiRegionEndpointResponse.proto"
+    defaultService
+    (Proxy.Proxy :: Proxy.Proxy CreateMultiRegionEndpoint)
+
+responseCreateTenant :: CreateTenantResponse -> TestTree
+responseCreateTenant =
+  res
+    "CreateTenantResponse"
+    "fixture/CreateTenantResponse.proto"
+    defaultService
+    (Proxy.Proxy :: Proxy.Proxy CreateTenant)
+
+responseCreateTenantResourceAssociation :: CreateTenantResourceAssociationResponse -> TestTree
+responseCreateTenantResourceAssociation =
+  res
+    "CreateTenantResourceAssociationResponse"
+    "fixture/CreateTenantResourceAssociationResponse.proto"
+    defaultService
+    (Proxy.Proxy :: Proxy.Proxy CreateTenantResourceAssociation)
 
 responseDeleteConfigurationSet :: DeleteConfigurationSetResponse -> TestTree
 responseDeleteConfigurationSet =
@@ -1237,6 +1565,14 @@ responseDeleteEmailTemplate =
     defaultService
     (Proxy.Proxy :: Proxy.Proxy DeleteEmailTemplate)
 
+responseDeleteMultiRegionEndpoint :: DeleteMultiRegionEndpointResponse -> TestTree
+responseDeleteMultiRegionEndpoint =
+  res
+    "DeleteMultiRegionEndpointResponse"
+    "fixture/DeleteMultiRegionEndpointResponse.proto"
+    defaultService
+    (Proxy.Proxy :: Proxy.Proxy DeleteMultiRegionEndpoint)
+
 responseDeleteSuppressedDestination :: DeleteSuppressedDestinationResponse -> TestTree
 responseDeleteSuppressedDestination =
   res
@@ -1244,6 +1580,22 @@ responseDeleteSuppressedDestination =
     "fixture/DeleteSuppressedDestinationResponse.proto"
     defaultService
     (Proxy.Proxy :: Proxy.Proxy DeleteSuppressedDestination)
+
+responseDeleteTenant :: DeleteTenantResponse -> TestTree
+responseDeleteTenant =
+  res
+    "DeleteTenantResponse"
+    "fixture/DeleteTenantResponse.proto"
+    defaultService
+    (Proxy.Proxy :: Proxy.Proxy DeleteTenant)
+
+responseDeleteTenantResourceAssociation :: DeleteTenantResourceAssociationResponse -> TestTree
+responseDeleteTenantResourceAssociation =
+  res
+    "DeleteTenantResourceAssociationResponse"
+    "fixture/DeleteTenantResourceAssociationResponse.proto"
+    defaultService
+    (Proxy.Proxy :: Proxy.Proxy DeleteTenantResourceAssociation)
 
 responseGetAccount :: GetAccountResponse -> TestTree
 responseGetAccount =
@@ -1357,6 +1709,14 @@ responseGetDomainStatisticsReport =
     defaultService
     (Proxy.Proxy :: Proxy.Proxy GetDomainStatisticsReport)
 
+responseGetEmailAddressInsights :: GetEmailAddressInsightsResponse -> TestTree
+responseGetEmailAddressInsights =
+  res
+    "GetEmailAddressInsightsResponse"
+    "fixture/GetEmailAddressInsightsResponse.proto"
+    defaultService
+    (Proxy.Proxy :: Proxy.Proxy GetEmailAddressInsights)
+
 responseGetEmailIdentity :: GetEmailIdentityResponse -> TestTree
 responseGetEmailIdentity =
   res
@@ -1381,6 +1741,14 @@ responseGetEmailTemplate =
     defaultService
     (Proxy.Proxy :: Proxy.Proxy GetEmailTemplate)
 
+responseGetExportJob :: GetExportJobResponse -> TestTree
+responseGetExportJob =
+  res
+    "GetExportJobResponse"
+    "fixture/GetExportJobResponse.proto"
+    defaultService
+    (Proxy.Proxy :: Proxy.Proxy GetExportJob)
+
 responseGetImportJob :: GetImportJobResponse -> TestTree
 responseGetImportJob =
   res
@@ -1389,6 +1757,30 @@ responseGetImportJob =
     defaultService
     (Proxy.Proxy :: Proxy.Proxy GetImportJob)
 
+responseGetMessageInsights :: GetMessageInsightsResponse -> TestTree
+responseGetMessageInsights =
+  res
+    "GetMessageInsightsResponse"
+    "fixture/GetMessageInsightsResponse.proto"
+    defaultService
+    (Proxy.Proxy :: Proxy.Proxy GetMessageInsights)
+
+responseGetMultiRegionEndpoint :: GetMultiRegionEndpointResponse -> TestTree
+responseGetMultiRegionEndpoint =
+  res
+    "GetMultiRegionEndpointResponse"
+    "fixture/GetMultiRegionEndpointResponse.proto"
+    defaultService
+    (Proxy.Proxy :: Proxy.Proxy GetMultiRegionEndpoint)
+
+responseGetReputationEntity :: GetReputationEntityResponse -> TestTree
+responseGetReputationEntity =
+  res
+    "GetReputationEntityResponse"
+    "fixture/GetReputationEntityResponse.proto"
+    defaultService
+    (Proxy.Proxy :: Proxy.Proxy GetReputationEntity)
+
 responseGetSuppressedDestination :: GetSuppressedDestinationResponse -> TestTree
 responseGetSuppressedDestination =
   res
@@ -1396,6 +1788,14 @@ responseGetSuppressedDestination =
     "fixture/GetSuppressedDestinationResponse.proto"
     defaultService
     (Proxy.Proxy :: Proxy.Proxy GetSuppressedDestination)
+
+responseGetTenant :: GetTenantResponse -> TestTree
+responseGetTenant =
+  res
+    "GetTenantResponse"
+    "fixture/GetTenantResponse.proto"
+    defaultService
+    (Proxy.Proxy :: Proxy.Proxy GetTenant)
 
 responseListConfigurationSets :: ListConfigurationSetsResponse -> TestTree
 responseListConfigurationSets =
@@ -1469,6 +1869,14 @@ responseListEmailTemplates =
     defaultService
     (Proxy.Proxy :: Proxy.Proxy ListEmailTemplates)
 
+responseListExportJobs :: ListExportJobsResponse -> TestTree
+responseListExportJobs =
+  res
+    "ListExportJobsResponse"
+    "fixture/ListExportJobsResponse.proto"
+    defaultService
+    (Proxy.Proxy :: Proxy.Proxy ListExportJobs)
+
 responseListImportJobs :: ListImportJobsResponse -> TestTree
 responseListImportJobs =
   res
@@ -1477,6 +1885,14 @@ responseListImportJobs =
     defaultService
     (Proxy.Proxy :: Proxy.Proxy ListImportJobs)
 
+responseListMultiRegionEndpoints :: ListMultiRegionEndpointsResponse -> TestTree
+responseListMultiRegionEndpoints =
+  res
+    "ListMultiRegionEndpointsResponse"
+    "fixture/ListMultiRegionEndpointsResponse.proto"
+    defaultService
+    (Proxy.Proxy :: Proxy.Proxy ListMultiRegionEndpoints)
+
 responseListRecommendations :: ListRecommendationsResponse -> TestTree
 responseListRecommendations =
   res
@@ -1484,6 +1900,22 @@ responseListRecommendations =
     "fixture/ListRecommendationsResponse.proto"
     defaultService
     (Proxy.Proxy :: Proxy.Proxy ListRecommendations)
+
+responseListReputationEntities :: ListReputationEntitiesResponse -> TestTree
+responseListReputationEntities =
+  res
+    "ListReputationEntitiesResponse"
+    "fixture/ListReputationEntitiesResponse.proto"
+    defaultService
+    (Proxy.Proxy :: Proxy.Proxy ListReputationEntities)
+
+responseListResourceTenants :: ListResourceTenantsResponse -> TestTree
+responseListResourceTenants =
+  res
+    "ListResourceTenantsResponse"
+    "fixture/ListResourceTenantsResponse.proto"
+    defaultService
+    (Proxy.Proxy :: Proxy.Proxy ListResourceTenants)
 
 responseListSuppressedDestinations :: ListSuppressedDestinationsResponse -> TestTree
 responseListSuppressedDestinations =
@@ -1500,6 +1932,22 @@ responseListTagsForResource =
     "fixture/ListTagsForResourceResponse.proto"
     defaultService
     (Proxy.Proxy :: Proxy.Proxy ListTagsForResource)
+
+responseListTenantResources :: ListTenantResourcesResponse -> TestTree
+responseListTenantResources =
+  res
+    "ListTenantResourcesResponse"
+    "fixture/ListTenantResourcesResponse.proto"
+    defaultService
+    (Proxy.Proxy :: Proxy.Proxy ListTenantResources)
+
+responseListTenants :: ListTenantsResponse -> TestTree
+responseListTenants =
+  res
+    "ListTenantsResponse"
+    "fixture/ListTenantsResponse.proto"
+    defaultService
+    (Proxy.Proxy :: Proxy.Proxy ListTenants)
 
 responsePutAccountDedicatedIpWarmupAttributes :: PutAccountDedicatedIpWarmupAttributesResponse -> TestTree
 responsePutAccountDedicatedIpWarmupAttributes =
@@ -1540,6 +1988,14 @@ responsePutAccountVdmAttributes =
     "fixture/PutAccountVdmAttributesResponse.proto"
     defaultService
     (Proxy.Proxy :: Proxy.Proxy PutAccountVdmAttributes)
+
+responsePutConfigurationSetArchivingOptions :: PutConfigurationSetArchivingOptionsResponse -> TestTree
+responsePutConfigurationSetArchivingOptions =
+  res
+    "PutConfigurationSetArchivingOptionsResponse"
+    "fixture/PutConfigurationSetArchivingOptionsResponse.proto"
+    defaultService
+    (Proxy.Proxy :: Proxy.Proxy PutConfigurationSetArchivingOptions)
 
 responsePutConfigurationSetDeliveryOptions :: PutConfigurationSetDeliveryOptionsResponse -> TestTree
 responsePutConfigurationSetDeliveryOptions =
@@ -1596,6 +2052,14 @@ responsePutDedicatedIpInPool =
     "fixture/PutDedicatedIpInPoolResponse.proto"
     defaultService
     (Proxy.Proxy :: Proxy.Proxy PutDedicatedIpInPool)
+
+responsePutDedicatedIpPoolScalingAttributes :: PutDedicatedIpPoolScalingAttributesResponse -> TestTree
+responsePutDedicatedIpPoolScalingAttributes =
+  res
+    "PutDedicatedIpPoolScalingAttributesResponse"
+    "fixture/PutDedicatedIpPoolScalingAttributesResponse.proto"
+    defaultService
+    (Proxy.Proxy :: Proxy.Proxy PutDedicatedIpPoolScalingAttributes)
 
 responsePutDedicatedIpWarmupAttributes :: PutDedicatedIpWarmupAttributesResponse -> TestTree
 responsePutDedicatedIpWarmupAttributes =
@@ -1756,3 +2220,19 @@ responseUpdateEmailTemplate =
     "fixture/UpdateEmailTemplateResponse.proto"
     defaultService
     (Proxy.Proxy :: Proxy.Proxy UpdateEmailTemplate)
+
+responseUpdateReputationEntityCustomerManagedStatus :: UpdateReputationEntityCustomerManagedStatusResponse -> TestTree
+responseUpdateReputationEntityCustomerManagedStatus =
+  res
+    "UpdateReputationEntityCustomerManagedStatusResponse"
+    "fixture/UpdateReputationEntityCustomerManagedStatusResponse.proto"
+    defaultService
+    (Proxy.Proxy :: Proxy.Proxy UpdateReputationEntityCustomerManagedStatus)
+
+responseUpdateReputationEntityPolicy :: UpdateReputationEntityPolicyResponse -> TestTree
+responseUpdateReputationEntityPolicy =
+  res
+    "UpdateReputationEntityPolicyResponse"
+    "fixture/UpdateReputationEntityPolicyResponse.proto"
+    defaultService
+    (Proxy.Proxy :: Proxy.Proxy UpdateReputationEntityPolicy)

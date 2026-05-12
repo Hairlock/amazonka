@@ -3,17 +3,17 @@
     "botocore": {
       "flake": false,
       "locked": {
-        "lastModified": 1673032067,
-        "narHash": "sha256-J7QDNjKjty89JYk2jQzMVLcn1nhseDiUaVtqSn3JmO8=",
+        "lastModified": 1778555228,
+        "narHash": "sha256-orsuFpUuSZlExHAkUUyN7TM4aQAw1ISOe3h5TGi/L6o=",
         "owner": "boto",
         "repo": "botocore",
-        "rev": "f14ab129706a99198d42eed78d75350ea61c48e9",
+        "rev": "b63fa4bfc0587ca55a8684d18a82b86904ab234e",
         "type": "github"
       },
       "original": {
         "owner": "boto",
+        "ref": "develop",
         "repo": "botocore",
-        "rev": "f14ab129706a99198d42eed78d75350ea61c48e9",
         "type": "github"
       }
     },

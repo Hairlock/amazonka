@@ -101,12 +101,10 @@ instance
       ( \s h x ->
           GetDeliverabilityDashboardOptionsResponse'
             Prelude.<$> (x Data..?> "AccountStatus")
-            Prelude.<*> ( x
-                            Data..?> "ActiveSubscribedDomains"
+            Prelude.<*> ( x Data..?> "ActiveSubscribedDomains"
                             Core..!@ Prelude.mempty
                         )
-            Prelude.<*> ( x
-                            Data..?> "PendingExpirationSubscribedDomains"
+            Prelude.<*> ( x Data..?> "PendingExpirationSubscribedDomains"
                             Core..!@ Prelude.mempty
                         )
             Prelude.<*> (x Data..?> "SubscriptionExpiryDate")

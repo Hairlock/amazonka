@@ -29,6 +29,7 @@ module Amazonka.SESV2.PutConfigurationSetSuppressionOptions
 
     -- * Request Lenses
     putConfigurationSetSuppressionOptions_suppressedReasons,
+    putConfigurationSetSuppressionOptions_validationOptions,
     putConfigurationSetSuppressionOptions_configurationSetName,
 
     -- * Destructuring the Response
@@ -65,6 +66,10 @@ data PutConfigurationSetSuppressionOptions = PutConfigurationSetSuppressionOptio
     --     for your account when a message sent to that address results in a
     --     hard bounce.
     suppressedReasons :: Prelude.Maybe [SuppressionListReason],
+    -- | An object that contains information about the email address suppression
+    -- preferences for the configuration set in the current Amazon Web Services
+    -- Region.
+    validationOptions :: Prelude.Maybe SuppressionValidationOptions,
     -- | The name of the configuration set to change the suppression list
     -- preferences for.
     configurationSetName :: Prelude.Text
@@ -91,6 +96,10 @@ data PutConfigurationSetSuppressionOptions = PutConfigurationSetSuppressionOptio
 --     for your account when a message sent to that address results in a
 --     hard bounce.
 --
+-- 'validationOptions', 'putConfigurationSetSuppressionOptions_validationOptions' - An object that contains information about the email address suppression
+-- preferences for the configuration set in the current Amazon Web Services
+-- Region.
+--
 -- 'configurationSetName', 'putConfigurationSetSuppressionOptions_configurationSetName' - The name of the configuration set to change the suppression list
 -- preferences for.
 newPutConfigurationSetSuppressionOptions ::
@@ -102,6 +111,7 @@ newPutConfigurationSetSuppressionOptions
     PutConfigurationSetSuppressionOptions'
       { suppressedReasons =
           Prelude.Nothing,
+        validationOptions = Prelude.Nothing,
         configurationSetName =
           pConfigurationSetName_
       }
@@ -119,6 +129,12 @@ newPutConfigurationSetSuppressionOptions
 --     hard bounce.
 putConfigurationSetSuppressionOptions_suppressedReasons :: Lens.Lens' PutConfigurationSetSuppressionOptions (Prelude.Maybe [SuppressionListReason])
 putConfigurationSetSuppressionOptions_suppressedReasons = Lens.lens (\PutConfigurationSetSuppressionOptions' {suppressedReasons} -> suppressedReasons) (\s@PutConfigurationSetSuppressionOptions' {} a -> s {suppressedReasons = a} :: PutConfigurationSetSuppressionOptions) Prelude.. Lens.mapping Lens.coerced
+
+-- | An object that contains information about the email address suppression
+-- preferences for the configuration set in the current Amazon Web Services
+-- Region.
+putConfigurationSetSuppressionOptions_validationOptions :: Lens.Lens' PutConfigurationSetSuppressionOptions (Prelude.Maybe SuppressionValidationOptions)
+putConfigurationSetSuppressionOptions_validationOptions = Lens.lens (\PutConfigurationSetSuppressionOptions' {validationOptions} -> validationOptions) (\s@PutConfigurationSetSuppressionOptions' {} a -> s {validationOptions = a} :: PutConfigurationSetSuppressionOptions)
 
 -- | The name of the configuration set to change the suppression list
 -- preferences for.
@@ -151,6 +167,7 @@ instance
     PutConfigurationSetSuppressionOptions' {..} =
       _salt
         `Prelude.hashWithSalt` suppressedReasons
+        `Prelude.hashWithSalt` validationOptions
         `Prelude.hashWithSalt` configurationSetName
 
 instance
@@ -159,7 +176,8 @@ instance
   where
   rnf PutConfigurationSetSuppressionOptions' {..} =
     Prelude.rnf suppressedReasons `Prelude.seq`
-      Prelude.rnf configurationSetName
+      Prelude.rnf validationOptions `Prelude.seq`
+        Prelude.rnf configurationSetName
 
 instance
   Data.ToHeaders
@@ -183,7 +201,9 @@ instance
     Data.object
       ( Prelude.catMaybes
           [ ("SuppressedReasons" Data..=)
-              Prelude.<$> suppressedReasons
+              Prelude.<$> suppressedReasons,
+            ("ValidationOptions" Data..=)
+              Prelude.<$> validationOptions
           ]
       )
 

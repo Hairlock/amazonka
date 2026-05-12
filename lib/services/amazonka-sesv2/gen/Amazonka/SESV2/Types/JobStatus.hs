@@ -20,6 +20,7 @@
 module Amazonka.SESV2.Types.JobStatus
   ( JobStatus
       ( ..,
+        JobStatus_CANCELLED,
         JobStatus_COMPLETED,
         JobStatus_CREATED,
         JobStatus_FAILED,
@@ -32,7 +33,15 @@ import qualified Amazonka.Core as Core
 import qualified Amazonka.Data as Data
 import qualified Amazonka.Prelude as Prelude
 
--- | The status of the import job.
+-- | The status of a job.
+--
+-- -   @CREATED@ – Job has just been created.
+--
+-- -   @PROCESSING@ – Job is processing.
+--
+-- -   @ERROR@ – An error occurred during processing.
+--
+-- -   @COMPLETED@ – Job has completed processing successfully.
 newtype JobStatus = JobStatus'
   { fromJobStatus ::
       Data.Text
@@ -61,6 +70,9 @@ newtype JobStatus = JobStatus'
       Data.ToXML
     )
 
+pattern JobStatus_CANCELLED :: JobStatus
+pattern JobStatus_CANCELLED = JobStatus' "CANCELLED"
+
 pattern JobStatus_COMPLETED :: JobStatus
 pattern JobStatus_COMPLETED = JobStatus' "COMPLETED"
 
@@ -74,6 +86,7 @@ pattern JobStatus_PROCESSING :: JobStatus
 pattern JobStatus_PROCESSING = JobStatus' "PROCESSING"
 
 {-# COMPLETE
+  JobStatus_CANCELLED,
   JobStatus_COMPLETED,
   JobStatus_CREATED,
   JobStatus_FAILED,

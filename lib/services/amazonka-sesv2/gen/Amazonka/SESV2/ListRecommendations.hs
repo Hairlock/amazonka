@@ -136,8 +136,7 @@ instance Core.AWSRequest ListRecommendations where
       ( \s h x ->
           ListRecommendationsResponse'
             Prelude.<$> (x Data..?> "NextToken")
-            Prelude.<*> ( x
-                            Data..?> "Recommendations"
+            Prelude.<*> ( x Data..?> "Recommendations"
                             Core..!@ Prelude.mempty
                         )
             Prelude.<*> (Prelude.pure (Prelude.fromEnum s))

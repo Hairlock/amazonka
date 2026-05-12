@@ -28,11 +28,12 @@ import Amazonka.SESV2.Types.RawMessage
 import Amazonka.SESV2.Types.Template
 
 -- | An object that defines the entire content of the email, including the
--- message headers and the body content. You can create a simple email
--- message, in which you specify the subject and the text and HTML versions
--- of the message body. You can also create raw messages, in which you
--- specify a complete MIME-formatted message. Raw messages can include
--- attachments and custom headers.
+-- message headers, body content, and attachments. For a simple email
+-- message, you specify the subject and provide both text and HTML versions
+-- of the message body. You can also add attachments to simple and
+-- templated messages. For a raw message, you provide a complete
+-- MIME-formatted message, which can include custom headers and
+-- attachments.
 --
 -- /See:/ 'newEmailContent' smart constructor.
 data EmailContent = EmailContent'
@@ -48,7 +49,10 @@ data EmailContent = EmailContent'
     -- -   If you include attachments, they must be in a file format that the
     --     Amazon SES API v2 supports.
     --
-    -- -   The entire message must be Base64 encoded.
+    -- -   The raw data of the message needs to base64-encoded if you are
+    --     accessing Amazon SES directly through the HTTPS interface. If you
+    --     are accessing Amazon SES using an Amazon Web Services SDK, the SDK
+    --     takes care of the base 64-encoding for you.
     --
     -- -   If any of the MIME parts in your message contain content that is
     --     outside of the 7-bit ASCII character range, you should encode that
@@ -59,8 +63,8 @@ data EmailContent = EmailContent'
     --     1,000 characters. This restriction is defined in
     --     <https://tools.ietf.org/html/rfc5321 RFC 5321>.
     raw :: Prelude.Maybe RawMessage,
-    -- | The simple email message. The message consists of a subject and a
-    -- message body.
+    -- | The simple email message. The message consists of a subject, message
+    -- body and attachments list.
     simple :: Prelude.Maybe Message,
     -- | The template to use for the email message.
     template :: Prelude.Maybe Template
@@ -87,7 +91,10 @@ data EmailContent = EmailContent'
 -- -   If you include attachments, they must be in a file format that the
 --     Amazon SES API v2 supports.
 --
--- -   The entire message must be Base64 encoded.
+-- -   The raw data of the message needs to base64-encoded if you are
+--     accessing Amazon SES directly through the HTTPS interface. If you
+--     are accessing Amazon SES using an Amazon Web Services SDK, the SDK
+--     takes care of the base 64-encoding for you.
 --
 -- -   If any of the MIME parts in your message contain content that is
 --     outside of the 7-bit ASCII character range, you should encode that
@@ -98,8 +105,8 @@ data EmailContent = EmailContent'
 --     1,000 characters. This restriction is defined in
 --     <https://tools.ietf.org/html/rfc5321 RFC 5321>.
 --
--- 'simple', 'emailContent_simple' - The simple email message. The message consists of a subject and a
--- message body.
+-- 'simple', 'emailContent_simple' - The simple email message. The message consists of a subject, message
+-- body and attachments list.
 --
 -- 'template', 'emailContent_template' - The template to use for the email message.
 newEmailContent ::
@@ -123,7 +130,10 @@ newEmailContent =
 -- -   If you include attachments, they must be in a file format that the
 --     Amazon SES API v2 supports.
 --
--- -   The entire message must be Base64 encoded.
+-- -   The raw data of the message needs to base64-encoded if you are
+--     accessing Amazon SES directly through the HTTPS interface. If you
+--     are accessing Amazon SES using an Amazon Web Services SDK, the SDK
+--     takes care of the base 64-encoding for you.
 --
 -- -   If any of the MIME parts in your message contain content that is
 --     outside of the 7-bit ASCII character range, you should encode that
@@ -136,8 +146,8 @@ newEmailContent =
 emailContent_raw :: Lens.Lens' EmailContent (Prelude.Maybe RawMessage)
 emailContent_raw = Lens.lens (\EmailContent' {raw} -> raw) (\s@EmailContent' {} a -> s {raw = a} :: EmailContent)
 
--- | The simple email message. The message consists of a subject and a
--- message body.
+-- | The simple email message. The message consists of a subject, message
+-- body and attachments list.
 emailContent_simple :: Lens.Lens' EmailContent (Prelude.Maybe Message)
 emailContent_simple = Lens.lens (\EmailContent' {simple} -> simple) (\s@EmailContent' {} a -> s {simple = a} :: EmailContent)
 

@@ -32,6 +32,7 @@ module Amazonka.SESV2.CreateEmailTemplate
     newCreateEmailTemplate,
 
     -- * Request Lenses
+    createEmailTemplate_tags,
     createEmailTemplate_templateName,
     createEmailTemplate_templateContent,
 
@@ -58,7 +59,10 @@ import Amazonka.SESV2.Types
 --
 -- /See:/ 'newCreateEmailTemplate' smart constructor.
 data CreateEmailTemplate = CreateEmailTemplate'
-  { -- | The name of the template.
+  { -- | An array of objects that define the tags (keys and values) to associate
+    -- with the email template.
+    tags :: Prelude.Maybe [Tag],
+    -- | The name of the template.
     templateName :: Prelude.Text,
     -- | The content of the email template, composed of a subject line, an HTML
     -- part, and a text-only part.
@@ -74,6 +78,9 @@ data CreateEmailTemplate = CreateEmailTemplate'
 -- The following record fields are available, with the corresponding lenses provided
 -- for backwards compatibility:
 --
+-- 'tags', 'createEmailTemplate_tags' - An array of objects that define the tags (keys and values) to associate
+-- with the email template.
+--
 -- 'templateName', 'createEmailTemplate_templateName' - The name of the template.
 --
 -- 'templateContent', 'createEmailTemplate_templateContent' - The content of the email template, composed of a subject line, an HTML
@@ -88,9 +95,15 @@ newCreateEmailTemplate
   pTemplateName_
   pTemplateContent_ =
     CreateEmailTemplate'
-      { templateName = pTemplateName_,
+      { tags = Prelude.Nothing,
+        templateName = pTemplateName_,
         templateContent = pTemplateContent_
       }
+
+-- | An array of objects that define the tags (keys and values) to associate
+-- with the email template.
+createEmailTemplate_tags :: Lens.Lens' CreateEmailTemplate (Prelude.Maybe [Tag])
+createEmailTemplate_tags = Lens.lens (\CreateEmailTemplate' {tags} -> tags) (\s@CreateEmailTemplate' {} a -> s {tags = a} :: CreateEmailTemplate) Prelude.. Lens.mapping Lens.coerced
 
 -- | The name of the template.
 createEmailTemplate_templateName :: Lens.Lens' CreateEmailTemplate Prelude.Text
@@ -117,13 +130,15 @@ instance Core.AWSRequest CreateEmailTemplate where
 instance Prelude.Hashable CreateEmailTemplate where
   hashWithSalt _salt CreateEmailTemplate' {..} =
     _salt
+      `Prelude.hashWithSalt` tags
       `Prelude.hashWithSalt` templateName
       `Prelude.hashWithSalt` templateContent
 
 instance Prelude.NFData CreateEmailTemplate where
   rnf CreateEmailTemplate' {..} =
-    Prelude.rnf templateName `Prelude.seq`
-      Prelude.rnf templateContent
+    Prelude.rnf tags `Prelude.seq`
+      Prelude.rnf templateName `Prelude.seq`
+        Prelude.rnf templateContent
 
 instance Data.ToHeaders CreateEmailTemplate where
   toHeaders =
@@ -140,7 +155,8 @@ instance Data.ToJSON CreateEmailTemplate where
   toJSON CreateEmailTemplate' {..} =
     Data.object
       ( Prelude.catMaybes
-          [ Prelude.Just ("TemplateName" Data..= templateName),
+          [ ("Tags" Data..=) Prelude.<$> tags,
+            Prelude.Just ("TemplateName" Data..= templateName),
             Prelude.Just
               ("TemplateContent" Data..= templateContent)
           ]

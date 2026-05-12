@@ -42,6 +42,7 @@ module Amazonka.SESV2.GetConfigurationSet
     newGetConfigurationSetResponse,
 
     -- * Response Lenses
+    getConfigurationSetResponse_archivingOptions,
     getConfigurationSetResponse_configurationSetName,
     getConfigurationSetResponse_deliveryOptions,
     getConfigurationSetResponse_reputationOptions,
@@ -104,7 +105,8 @@ instance Core.AWSRequest GetConfigurationSet where
     Response.receiveJSON
       ( \s h x ->
           GetConfigurationSetResponse'
-            Prelude.<$> (x Data..?> "ConfigurationSetName")
+            Prelude.<$> (x Data..?> "ArchivingOptions")
+            Prelude.<*> (x Data..?> "ConfigurationSetName")
             Prelude.<*> (x Data..?> "DeliveryOptions")
             Prelude.<*> (x Data..?> "ReputationOptions")
             Prelude.<*> (x Data..?> "SendingOptions")
@@ -148,7 +150,10 @@ instance Data.ToQuery GetConfigurationSet where
 --
 -- /See:/ 'newGetConfigurationSetResponse' smart constructor.
 data GetConfigurationSetResponse = GetConfigurationSetResponse'
-  { -- | The name of the configuration set.
+  { -- | An object that defines the MailManager archive where sent emails are
+    -- archived that you send using the configuration set.
+    archivingOptions :: Prelude.Maybe ArchivingOptions,
+    -- | The name of the configuration set.
     configurationSetName :: Prelude.Maybe Prelude.Text,
     -- | An object that defines the dedicated IP pool that is used to send emails
     -- that you send using the configuration set.
@@ -184,6 +189,9 @@ data GetConfigurationSetResponse = GetConfigurationSetResponse'
 -- The following record fields are available, with the corresponding lenses provided
 -- for backwards compatibility:
 --
+-- 'archivingOptions', 'getConfigurationSetResponse_archivingOptions' - An object that defines the MailManager archive where sent emails are
+-- archived that you send using the configuration set.
+--
 -- 'configurationSetName', 'getConfigurationSetResponse_configurationSetName' - The name of the configuration set.
 --
 -- 'deliveryOptions', 'getConfigurationSetResponse_deliveryOptions' - An object that defines the dedicated IP pool that is used to send emails
@@ -214,8 +222,9 @@ newGetConfigurationSetResponse ::
   GetConfigurationSetResponse
 newGetConfigurationSetResponse pHttpStatus_ =
   GetConfigurationSetResponse'
-    { configurationSetName =
+    { archivingOptions =
         Prelude.Nothing,
+      configurationSetName = Prelude.Nothing,
       deliveryOptions = Prelude.Nothing,
       reputationOptions = Prelude.Nothing,
       sendingOptions = Prelude.Nothing,
@@ -225,6 +234,11 @@ newGetConfigurationSetResponse pHttpStatus_ =
       vdmOptions = Prelude.Nothing,
       httpStatus = pHttpStatus_
     }
+
+-- | An object that defines the MailManager archive where sent emails are
+-- archived that you send using the configuration set.
+getConfigurationSetResponse_archivingOptions :: Lens.Lens' GetConfigurationSetResponse (Prelude.Maybe ArchivingOptions)
+getConfigurationSetResponse_archivingOptions = Lens.lens (\GetConfigurationSetResponse' {archivingOptions} -> archivingOptions) (\s@GetConfigurationSetResponse' {} a -> s {archivingOptions = a} :: GetConfigurationSetResponse)
 
 -- | The name of the configuration set.
 getConfigurationSetResponse_configurationSetName :: Lens.Lens' GetConfigurationSetResponse (Prelude.Maybe Prelude.Text)
@@ -271,12 +285,13 @@ getConfigurationSetResponse_httpStatus = Lens.lens (\GetConfigurationSetResponse
 
 instance Prelude.NFData GetConfigurationSetResponse where
   rnf GetConfigurationSetResponse' {..} =
-    Prelude.rnf configurationSetName `Prelude.seq`
-      Prelude.rnf deliveryOptions `Prelude.seq`
-        Prelude.rnf reputationOptions `Prelude.seq`
-          Prelude.rnf sendingOptions `Prelude.seq`
-            Prelude.rnf suppressionOptions `Prelude.seq`
-              Prelude.rnf tags `Prelude.seq`
-                Prelude.rnf trackingOptions `Prelude.seq`
-                  Prelude.rnf vdmOptions `Prelude.seq`
-                    Prelude.rnf httpStatus
+    Prelude.rnf archivingOptions `Prelude.seq`
+      Prelude.rnf configurationSetName `Prelude.seq`
+        Prelude.rnf deliveryOptions `Prelude.seq`
+          Prelude.rnf reputationOptions `Prelude.seq`
+            Prelude.rnf sendingOptions `Prelude.seq`
+              Prelude.rnf suppressionOptions `Prelude.seq`
+                Prelude.rnf tags `Prelude.seq`
+                  Prelude.rnf trackingOptions `Prelude.seq`
+                    Prelude.rnf vdmOptions `Prelude.seq`
+                      Prelude.rnf httpStatus

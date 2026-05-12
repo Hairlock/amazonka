@@ -30,7 +30,11 @@ import qualified Amazonka.Core as Core
 import qualified Amazonka.Data as Data
 import qualified Amazonka.Prelude as Prelude
 
--- | The data format of the import job\'s data source.
+-- | The data format of a file, can be one of the following:
+--
+-- -   @CSV@ – A comma-separated values file.
+--
+-- -   @JSON@ – A JSON file.
 newtype DataFormat = DataFormat'
   { fromDataFormat ::
       Data.Text

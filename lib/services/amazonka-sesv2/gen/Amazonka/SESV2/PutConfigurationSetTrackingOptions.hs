@@ -29,6 +29,7 @@ module Amazonka.SESV2.PutConfigurationSetTrackingOptions
 
     -- * Request Lenses
     putConfigurationSetTrackingOptions_customRedirectDomain,
+    putConfigurationSetTrackingOptions_httpsPolicy,
     putConfigurationSetTrackingOptions_configurationSetName,
 
     -- * Destructuring the Response
@@ -55,6 +56,7 @@ import Amazonka.SESV2.Types
 data PutConfigurationSetTrackingOptions = PutConfigurationSetTrackingOptions'
   { -- | The domain to use to track open and click events.
     customRedirectDomain :: Prelude.Maybe Prelude.Text,
+    httpsPolicy :: Prelude.Maybe HttpsPolicy,
     -- | The name of the configuration set.
     configurationSetName :: Prelude.Text
   }
@@ -70,6 +72,8 @@ data PutConfigurationSetTrackingOptions = PutConfigurationSetTrackingOptions'
 --
 -- 'customRedirectDomain', 'putConfigurationSetTrackingOptions_customRedirectDomain' - The domain to use to track open and click events.
 --
+-- 'httpsPolicy', 'putConfigurationSetTrackingOptions_httpsPolicy' - Undocumented member.
+--
 -- 'configurationSetName', 'putConfigurationSetTrackingOptions_configurationSetName' - The name of the configuration set.
 newPutConfigurationSetTrackingOptions ::
   -- | 'configurationSetName'
@@ -80,6 +84,7 @@ newPutConfigurationSetTrackingOptions
     PutConfigurationSetTrackingOptions'
       { customRedirectDomain =
           Prelude.Nothing,
+        httpsPolicy = Prelude.Nothing,
         configurationSetName =
           pConfigurationSetName_
       }
@@ -87,6 +92,10 @@ newPutConfigurationSetTrackingOptions
 -- | The domain to use to track open and click events.
 putConfigurationSetTrackingOptions_customRedirectDomain :: Lens.Lens' PutConfigurationSetTrackingOptions (Prelude.Maybe Prelude.Text)
 putConfigurationSetTrackingOptions_customRedirectDomain = Lens.lens (\PutConfigurationSetTrackingOptions' {customRedirectDomain} -> customRedirectDomain) (\s@PutConfigurationSetTrackingOptions' {} a -> s {customRedirectDomain = a} :: PutConfigurationSetTrackingOptions)
+
+-- | Undocumented member.
+putConfigurationSetTrackingOptions_httpsPolicy :: Lens.Lens' PutConfigurationSetTrackingOptions (Prelude.Maybe HttpsPolicy)
+putConfigurationSetTrackingOptions_httpsPolicy = Lens.lens (\PutConfigurationSetTrackingOptions' {httpsPolicy} -> httpsPolicy) (\s@PutConfigurationSetTrackingOptions' {} a -> s {httpsPolicy = a} :: PutConfigurationSetTrackingOptions)
 
 -- | The name of the configuration set.
 putConfigurationSetTrackingOptions_configurationSetName :: Lens.Lens' PutConfigurationSetTrackingOptions Prelude.Text
@@ -117,6 +126,7 @@ instance
     PutConfigurationSetTrackingOptions' {..} =
       _salt
         `Prelude.hashWithSalt` customRedirectDomain
+        `Prelude.hashWithSalt` httpsPolicy
         `Prelude.hashWithSalt` configurationSetName
 
 instance
@@ -125,7 +135,8 @@ instance
   where
   rnf PutConfigurationSetTrackingOptions' {..} =
     Prelude.rnf customRedirectDomain `Prelude.seq`
-      Prelude.rnf configurationSetName
+      Prelude.rnf httpsPolicy `Prelude.seq`
+        Prelude.rnf configurationSetName
 
 instance
   Data.ToHeaders
@@ -149,7 +160,8 @@ instance
     Data.object
       ( Prelude.catMaybes
           [ ("CustomRedirectDomain" Data..=)
-              Prelude.<$> customRedirectDomain
+              Prelude.<$> customRedirectDomain,
+            ("HttpsPolicy" Data..=) Prelude.<$> httpsPolicy
           ]
       )
 

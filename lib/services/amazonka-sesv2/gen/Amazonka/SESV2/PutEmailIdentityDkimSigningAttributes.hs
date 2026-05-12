@@ -53,6 +53,7 @@ module Amazonka.SESV2.PutEmailIdentityDkimSigningAttributes
     -- * Response Lenses
     putEmailIdentityDkimSigningAttributesResponse_dkimStatus,
     putEmailIdentityDkimSigningAttributesResponse_dkimTokens,
+    putEmailIdentityDkimSigningAttributesResponse_signingHostedZone,
     putEmailIdentityDkimSigningAttributesResponse_httpStatus,
   )
 where
@@ -169,6 +170,7 @@ instance
           PutEmailIdentityDkimSigningAttributesResponse'
             Prelude.<$> (x Data..?> "DkimStatus")
             Prelude.<*> (x Data..?> "DkimTokens" Core..!@ Prelude.mempty)
+            Prelude.<*> (x Data..?> "SigningHostedZone")
             Prelude.<*> (Prelude.pure (Prelude.fromEnum s))
       )
 
@@ -229,7 +231,7 @@ instance
   where
   toPath PutEmailIdentityDkimSigningAttributes' {..} =
     Prelude.mconcat
-      [ "/v1/email/identities/",
+      [ "/v2/email/identities/",
         Data.toBS emailIdentity,
         "/dkim/signing"
       ]
@@ -293,6 +295,20 @@ data PutEmailIdentityDkimSigningAttributesResponse = PutEmailIdentityDkimSigning
     -- searches for the appropriate records in the DNS configuration of the
     -- domain for up to 72 hours.
     dkimTokens :: Prelude.Maybe [Prelude.Text],
+    -- | The hosted zone where Amazon SES publishes the DKIM public key TXT
+    -- records for this email identity. This value indicates the DNS zone that
+    -- customers must reference when configuring their CNAME records for DKIM
+    -- authentication.
+    --
+    -- When configuring DKIM for your domain, create CNAME records in your DNS
+    -- that point to the selectors in this hosted zone. For example:
+    --
+    -- @ selector1._domainkey.yourdomain.com CNAME selector1.\<SigningHostedZone> @
+    --
+    -- @ selector2._domainkey.yourdomain.com CNAME selector2.\<SigningHostedZone> @
+    --
+    -- @ selector3._domainkey.yourdomain.com CNAME selector3.\<SigningHostedZone> @
+    signingHostedZone :: Prelude.Maybe Prelude.Text,
     -- | The response's http status code.
     httpStatus :: Prelude.Int
   }
@@ -352,6 +368,20 @@ data PutEmailIdentityDkimSigningAttributesResponse = PutEmailIdentityDkimSigning
 -- searches for the appropriate records in the DNS configuration of the
 -- domain for up to 72 hours.
 --
+-- 'signingHostedZone', 'putEmailIdentityDkimSigningAttributesResponse_signingHostedZone' - The hosted zone where Amazon SES publishes the DKIM public key TXT
+-- records for this email identity. This value indicates the DNS zone that
+-- customers must reference when configuring their CNAME records for DKIM
+-- authentication.
+--
+-- When configuring DKIM for your domain, create CNAME records in your DNS
+-- that point to the selectors in this hosted zone. For example:
+--
+-- @ selector1._domainkey.yourdomain.com CNAME selector1.\<SigningHostedZone> @
+--
+-- @ selector2._domainkey.yourdomain.com CNAME selector2.\<SigningHostedZone> @
+--
+-- @ selector3._domainkey.yourdomain.com CNAME selector3.\<SigningHostedZone> @
+--
 -- 'httpStatus', 'putEmailIdentityDkimSigningAttributesResponse_httpStatus' - The response's http status code.
 newPutEmailIdentityDkimSigningAttributesResponse ::
   -- | 'httpStatus'
@@ -363,6 +393,8 @@ newPutEmailIdentityDkimSigningAttributesResponse
       { dkimStatus =
           Prelude.Nothing,
         dkimTokens = Prelude.Nothing,
+        signingHostedZone =
+          Prelude.Nothing,
         httpStatus = pHttpStatus_
       }
 
@@ -416,6 +448,22 @@ putEmailIdentityDkimSigningAttributesResponse_dkimStatus = Lens.lens (\PutEmailI
 putEmailIdentityDkimSigningAttributesResponse_dkimTokens :: Lens.Lens' PutEmailIdentityDkimSigningAttributesResponse (Prelude.Maybe [Prelude.Text])
 putEmailIdentityDkimSigningAttributesResponse_dkimTokens = Lens.lens (\PutEmailIdentityDkimSigningAttributesResponse' {dkimTokens} -> dkimTokens) (\s@PutEmailIdentityDkimSigningAttributesResponse' {} a -> s {dkimTokens = a} :: PutEmailIdentityDkimSigningAttributesResponse) Prelude.. Lens.mapping Lens.coerced
 
+-- | The hosted zone where Amazon SES publishes the DKIM public key TXT
+-- records for this email identity. This value indicates the DNS zone that
+-- customers must reference when configuring their CNAME records for DKIM
+-- authentication.
+--
+-- When configuring DKIM for your domain, create CNAME records in your DNS
+-- that point to the selectors in this hosted zone. For example:
+--
+-- @ selector1._domainkey.yourdomain.com CNAME selector1.\<SigningHostedZone> @
+--
+-- @ selector2._domainkey.yourdomain.com CNAME selector2.\<SigningHostedZone> @
+--
+-- @ selector3._domainkey.yourdomain.com CNAME selector3.\<SigningHostedZone> @
+putEmailIdentityDkimSigningAttributesResponse_signingHostedZone :: Lens.Lens' PutEmailIdentityDkimSigningAttributesResponse (Prelude.Maybe Prelude.Text)
+putEmailIdentityDkimSigningAttributesResponse_signingHostedZone = Lens.lens (\PutEmailIdentityDkimSigningAttributesResponse' {signingHostedZone} -> signingHostedZone) (\s@PutEmailIdentityDkimSigningAttributesResponse' {} a -> s {signingHostedZone = a} :: PutEmailIdentityDkimSigningAttributesResponse)
+
 -- | The response's http status code.
 putEmailIdentityDkimSigningAttributesResponse_httpStatus :: Lens.Lens' PutEmailIdentityDkimSigningAttributesResponse Prelude.Int
 putEmailIdentityDkimSigningAttributesResponse_httpStatus = Lens.lens (\PutEmailIdentityDkimSigningAttributesResponse' {httpStatus} -> httpStatus) (\s@PutEmailIdentityDkimSigningAttributesResponse' {} a -> s {httpStatus = a} :: PutEmailIdentityDkimSigningAttributesResponse)
@@ -428,4 +476,5 @@ instance
     PutEmailIdentityDkimSigningAttributesResponse' {..} =
       Prelude.rnf dkimStatus `Prelude.seq`
         Prelude.rnf dkimTokens `Prelude.seq`
-          Prelude.rnf httpStatus
+          Prelude.rnf signingHostedZone `Prelude.seq`
+            Prelude.rnf httpStatus

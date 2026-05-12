@@ -28,6 +28,7 @@ module Amazonka.SESV2.PutAccountSuppressionAttributes
 
     -- * Request Lenses
     putAccountSuppressionAttributes_suppressedReasons,
+    putAccountSuppressionAttributes_validationAttributes,
 
     -- * Destructuring the Response
     PutAccountSuppressionAttributesResponse (..),
@@ -61,7 +62,10 @@ data PutAccountSuppressionAttributes = PutAccountSuppressionAttributes'
     -- -   @BOUNCE@ – Amazon SES adds an email address to the suppression list
     --     for your account when a message sent to that address results in a
     --     hard bounce.
-    suppressedReasons :: Prelude.Maybe [SuppressionListReason]
+    suppressedReasons :: Prelude.Maybe [SuppressionListReason],
+    -- | An object that contains additional suppression attributes for your
+    -- account.
+    validationAttributes :: Prelude.Maybe SuppressionValidationAttributes
   }
   deriving (Prelude.Eq, Prelude.Read, Prelude.Show, Prelude.Generic)
 
@@ -84,12 +88,16 @@ data PutAccountSuppressionAttributes = PutAccountSuppressionAttributes'
 -- -   @BOUNCE@ – Amazon SES adds an email address to the suppression list
 --     for your account when a message sent to that address results in a
 --     hard bounce.
+--
+-- 'validationAttributes', 'putAccountSuppressionAttributes_validationAttributes' - An object that contains additional suppression attributes for your
+-- account.
 newPutAccountSuppressionAttributes ::
   PutAccountSuppressionAttributes
 newPutAccountSuppressionAttributes =
   PutAccountSuppressionAttributes'
     { suppressedReasons =
-        Prelude.Nothing
+        Prelude.Nothing,
+      validationAttributes = Prelude.Nothing
     }
 
 -- | A list that contains the reasons that email addresses will be
@@ -105,6 +113,11 @@ newPutAccountSuppressionAttributes =
 --     hard bounce.
 putAccountSuppressionAttributes_suppressedReasons :: Lens.Lens' PutAccountSuppressionAttributes (Prelude.Maybe [SuppressionListReason])
 putAccountSuppressionAttributes_suppressedReasons = Lens.lens (\PutAccountSuppressionAttributes' {suppressedReasons} -> suppressedReasons) (\s@PutAccountSuppressionAttributes' {} a -> s {suppressedReasons = a} :: PutAccountSuppressionAttributes) Prelude.. Lens.mapping Lens.coerced
+
+-- | An object that contains additional suppression attributes for your
+-- account.
+putAccountSuppressionAttributes_validationAttributes :: Lens.Lens' PutAccountSuppressionAttributes (Prelude.Maybe SuppressionValidationAttributes)
+putAccountSuppressionAttributes_validationAttributes = Lens.lens (\PutAccountSuppressionAttributes' {validationAttributes} -> validationAttributes) (\s@PutAccountSuppressionAttributes' {} a -> s {validationAttributes = a} :: PutAccountSuppressionAttributes)
 
 instance
   Core.AWSRequest
@@ -129,14 +142,17 @@ instance
   hashWithSalt
     _salt
     PutAccountSuppressionAttributes' {..} =
-      _salt `Prelude.hashWithSalt` suppressedReasons
+      _salt
+        `Prelude.hashWithSalt` suppressedReasons
+        `Prelude.hashWithSalt` validationAttributes
 
 instance
   Prelude.NFData
     PutAccountSuppressionAttributes
   where
   rnf PutAccountSuppressionAttributes' {..} =
-    Prelude.rnf suppressedReasons
+    Prelude.rnf suppressedReasons `Prelude.seq`
+      Prelude.rnf validationAttributes
 
 instance
   Data.ToHeaders
@@ -157,7 +173,9 @@ instance Data.ToJSON PutAccountSuppressionAttributes where
     Data.object
       ( Prelude.catMaybes
           [ ("SuppressedReasons" Data..=)
-              Prelude.<$> suppressedReasons
+              Prelude.<$> suppressedReasons,
+            ("ValidationAttributes" Data..=)
+              Prelude.<$> validationAttributes
           ]
       )
 

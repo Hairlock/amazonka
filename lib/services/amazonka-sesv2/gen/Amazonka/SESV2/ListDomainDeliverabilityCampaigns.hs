@@ -172,8 +172,7 @@ instance
           ListDomainDeliverabilityCampaignsResponse'
             Prelude.<$> (x Data..?> "NextToken")
             Prelude.<*> (Prelude.pure (Prelude.fromEnum s))
-            Prelude.<*> ( x
-                            Data..?> "DomainDeliverabilityCampaigns"
+            Prelude.<*> ( x Data..?> "DomainDeliverabilityCampaigns"
                             Core..!@ Prelude.mempty
                         )
       )

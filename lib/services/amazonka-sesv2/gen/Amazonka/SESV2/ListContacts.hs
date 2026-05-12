@@ -134,7 +134,7 @@ listContacts_contactListName = Lens.lens (\ListContacts' {contactListName} -> co
 instance Core.AWSRequest ListContacts where
   type AWSResponse ListContacts = ListContactsResponse
   request overrides =
-    Request.get (overrides defaultService)
+    Request.postJSON (overrides defaultService)
   response =
     Response.receiveJSON
       ( \s h x ->
@@ -170,20 +170,26 @@ instance Data.ToHeaders ListContacts where
           ]
       )
 
+instance Data.ToJSON ListContacts where
+  toJSON ListContacts' {..} =
+    Data.object
+      ( Prelude.catMaybes
+          [ ("Filter" Data..=) Prelude.<$> filter',
+            ("NextToken" Data..=) Prelude.<$> nextToken,
+            ("PageSize" Data..=) Prelude.<$> pageSize
+          ]
+      )
+
 instance Data.ToPath ListContacts where
   toPath ListContacts' {..} =
     Prelude.mconcat
       [ "/v2/email/contact-lists/",
         Data.toBS contactListName,
-        "/contacts"
+        "/contacts/list"
       ]
 
 instance Data.ToQuery ListContacts where
-  toQuery ListContacts' {..} =
-    Prelude.mconcat
-      [ "NextToken" Data.=: nextToken,
-        "PageSize" Data.=: pageSize
-      ]
+  toQuery = Prelude.const Prelude.mempty
 
 -- | /See:/ 'newListContactsResponse' smart constructor.
 data ListContactsResponse = ListContactsResponse'

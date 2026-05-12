@@ -24,6 +24,7 @@ import qualified Amazonka.Core.Lens.Internal as Lens
 import qualified Amazonka.Data as Data
 import qualified Amazonka.Prelude as Prelude
 import Amazonka.SESV2.Types.SuppressionListReason
+import Amazonka.SESV2.Types.SuppressionValidationOptions
 
 -- | An object that contains information about the suppression list
 -- preferences for your account.
@@ -41,7 +42,8 @@ data SuppressionOptions = SuppressionOptions'
     -- -   @BOUNCE@ – Amazon SES adds an email address to the suppression list
     --     for your account when a message sent to that address results in a
     --     hard bounce.
-    suppressedReasons :: Prelude.Maybe [SuppressionListReason]
+    suppressedReasons :: Prelude.Maybe [SuppressionListReason],
+    validationOptions :: Prelude.Maybe SuppressionValidationOptions
   }
   deriving (Prelude.Eq, Prelude.Read, Prelude.Show, Prelude.Generic)
 
@@ -64,12 +66,15 @@ data SuppressionOptions = SuppressionOptions'
 -- -   @BOUNCE@ – Amazon SES adds an email address to the suppression list
 --     for your account when a message sent to that address results in a
 --     hard bounce.
+--
+-- 'validationOptions', 'suppressionOptions_validationOptions' - Undocumented member.
 newSuppressionOptions ::
   SuppressionOptions
 newSuppressionOptions =
   SuppressionOptions'
     { suppressedReasons =
-        Prelude.Nothing
+        Prelude.Nothing,
+      validationOptions = Prelude.Nothing
     }
 
 -- | A list that contains the reasons that email addresses are automatically
@@ -86,6 +91,10 @@ newSuppressionOptions =
 suppressionOptions_suppressedReasons :: Lens.Lens' SuppressionOptions (Prelude.Maybe [SuppressionListReason])
 suppressionOptions_suppressedReasons = Lens.lens (\SuppressionOptions' {suppressedReasons} -> suppressedReasons) (\s@SuppressionOptions' {} a -> s {suppressedReasons = a} :: SuppressionOptions) Prelude.. Lens.mapping Lens.coerced
 
+-- | Undocumented member.
+suppressionOptions_validationOptions :: Lens.Lens' SuppressionOptions (Prelude.Maybe SuppressionValidationOptions)
+suppressionOptions_validationOptions = Lens.lens (\SuppressionOptions' {validationOptions} -> validationOptions) (\s@SuppressionOptions' {} a -> s {validationOptions = a} :: SuppressionOptions)
+
 instance Data.FromJSON SuppressionOptions where
   parseJSON =
     Data.withObject
@@ -96,21 +105,27 @@ instance Data.FromJSON SuppressionOptions where
                             Data..:? "SuppressedReasons"
                             Data..!= Prelude.mempty
                         )
+            Prelude.<*> (x Data..:? "ValidationOptions")
       )
 
 instance Prelude.Hashable SuppressionOptions where
   hashWithSalt _salt SuppressionOptions' {..} =
-    _salt `Prelude.hashWithSalt` suppressedReasons
+    _salt
+      `Prelude.hashWithSalt` suppressedReasons
+      `Prelude.hashWithSalt` validationOptions
 
 instance Prelude.NFData SuppressionOptions where
   rnf SuppressionOptions' {..} =
-    Prelude.rnf suppressedReasons
+    Prelude.rnf suppressedReasons `Prelude.seq`
+      Prelude.rnf validationOptions
 
 instance Data.ToJSON SuppressionOptions where
   toJSON SuppressionOptions' {..} =
     Data.object
       ( Prelude.catMaybes
           [ ("SuppressedReasons" Data..=)
-              Prelude.<$> suppressedReasons
+              Prelude.<$> suppressedReasons,
+            ("ValidationOptions" Data..=)
+              Prelude.<$> validationOptions
           ]
       )

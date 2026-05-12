@@ -23,6 +23,7 @@ import qualified Amazonka.Core as Core
 import qualified Amazonka.Core.Lens.Internal as Lens
 import qualified Amazonka.Data as Data
 import qualified Amazonka.Prelude as Prelude
+import Amazonka.SESV2.Types.HttpsPolicy
 
 -- | An object that defines the tracking options for a configuration set.
 -- When you use the Amazon SES API v2 to send an email, it contains an
@@ -36,7 +37,9 @@ import qualified Amazonka.Prelude as Prelude
 --
 -- /See:/ 'newTrackingOptions' smart constructor.
 data TrackingOptions = TrackingOptions'
-  { -- | The domain to use for tracking open and click events.
+  { -- | The https policy to use for tracking open and click events.
+    httpsPolicy :: Prelude.Maybe HttpsPolicy,
+    -- | The domain to use for tracking open and click events.
     customRedirectDomain :: Prelude.Text
   }
   deriving (Prelude.Eq, Prelude.Read, Prelude.Show, Prelude.Generic)
@@ -49,6 +52,8 @@ data TrackingOptions = TrackingOptions'
 -- The following record fields are available, with the corresponding lenses provided
 -- for backwards compatibility:
 --
+-- 'httpsPolicy', 'trackingOptions_httpsPolicy' - The https policy to use for tracking open and click events.
+--
 -- 'customRedirectDomain', 'trackingOptions_customRedirectDomain' - The domain to use for tracking open and click events.
 newTrackingOptions ::
   -- | 'customRedirectDomain'
@@ -56,9 +61,13 @@ newTrackingOptions ::
   TrackingOptions
 newTrackingOptions pCustomRedirectDomain_ =
   TrackingOptions'
-    { customRedirectDomain =
-        pCustomRedirectDomain_
+    { httpsPolicy = Prelude.Nothing,
+      customRedirectDomain = pCustomRedirectDomain_
     }
+
+-- | The https policy to use for tracking open and click events.
+trackingOptions_httpsPolicy :: Lens.Lens' TrackingOptions (Prelude.Maybe HttpsPolicy)
+trackingOptions_httpsPolicy = Lens.lens (\TrackingOptions' {httpsPolicy} -> httpsPolicy) (\s@TrackingOptions' {} a -> s {httpsPolicy = a} :: TrackingOptions)
 
 -- | The domain to use for tracking open and click events.
 trackingOptions_customRedirectDomain :: Lens.Lens' TrackingOptions Prelude.Text
@@ -70,22 +79,27 @@ instance Data.FromJSON TrackingOptions where
       "TrackingOptions"
       ( \x ->
           TrackingOptions'
-            Prelude.<$> (x Data..: "CustomRedirectDomain")
+            Prelude.<$> (x Data..:? "HttpsPolicy")
+            Prelude.<*> (x Data..: "CustomRedirectDomain")
       )
 
 instance Prelude.Hashable TrackingOptions where
   hashWithSalt _salt TrackingOptions' {..} =
-    _salt `Prelude.hashWithSalt` customRedirectDomain
+    _salt
+      `Prelude.hashWithSalt` httpsPolicy
+      `Prelude.hashWithSalt` customRedirectDomain
 
 instance Prelude.NFData TrackingOptions where
   rnf TrackingOptions' {..} =
-    Prelude.rnf customRedirectDomain
+    Prelude.rnf httpsPolicy `Prelude.seq`
+      Prelude.rnf customRedirectDomain
 
 instance Data.ToJSON TrackingOptions where
   toJSON TrackingOptions' {..} =
     Data.object
       ( Prelude.catMaybes
-          [ Prelude.Just
+          [ ("HttpsPolicy" Data..=) Prelude.<$> httpsPolicy,
+            Prelude.Just
               ( "CustomRedirectDomain"
                   Data..= customRedirectDomain
               )

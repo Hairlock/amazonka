@@ -25,7 +25,8 @@ import qualified Amazonka.Data as Data
 import qualified Amazonka.Prelude as Prelude
 
 -- | An object that defines an Amazon SNS destination for email events. You
--- can use Amazon SNS to send notification when certain email events occur.
+-- can use Amazon SNS to send notifications when certain email events
+-- occur.
 --
 -- /See:/ 'newSnsDestination' smart constructor.
 data SnsDestination = SnsDestination'

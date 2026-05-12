@@ -67,7 +67,7 @@ data ListEmailTemplates = ListEmailTemplates'
     -- parameter, then the response includes a @NextToken@ element, which you
     -- can use to obtain additional results.
     --
-    -- The value you specify has to be at least 1, and can be no more than 10.
+    -- The value you specify has to be at least 1, and can be no more than 100.
     pageSize :: Prelude.Maybe Prelude.Int
   }
   deriving (Prelude.Eq, Prelude.Read, Prelude.Show, Prelude.Generic)
@@ -88,7 +88,7 @@ data ListEmailTemplates = ListEmailTemplates'
 -- parameter, then the response includes a @NextToken@ element, which you
 -- can use to obtain additional results.
 --
--- The value you specify has to be at least 1, and can be no more than 10.
+-- The value you specify has to be at least 1, and can be no more than 100.
 newListEmailTemplates ::
   ListEmailTemplates
 newListEmailTemplates =
@@ -107,7 +107,7 @@ listEmailTemplates_nextToken = Lens.lens (\ListEmailTemplates' {nextToken} -> ne
 -- parameter, then the response includes a @NextToken@ element, which you
 -- can use to obtain additional results.
 --
--- The value you specify has to be at least 1, and can be no more than 10.
+-- The value you specify has to be at least 1, and can be no more than 100.
 listEmailTemplates_pageSize :: Lens.Lens' ListEmailTemplates (Prelude.Maybe Prelude.Int)
 listEmailTemplates_pageSize = Lens.lens (\ListEmailTemplates' {pageSize} -> pageSize) (\s@ListEmailTemplates' {} a -> s {pageSize = a} :: ListEmailTemplates)
 
@@ -122,8 +122,7 @@ instance Core.AWSRequest ListEmailTemplates where
       ( \s h x ->
           ListEmailTemplatesResponse'
             Prelude.<$> (x Data..?> "NextToken")
-            Prelude.<*> ( x
-                            Data..?> "TemplatesMetadata"
+            Prelude.<*> ( x Data..?> "TemplatesMetadata"
                             Core..!@ Prelude.mempty
                         )
             Prelude.<*> (Prelude.pure (Prelude.fromEnum s))

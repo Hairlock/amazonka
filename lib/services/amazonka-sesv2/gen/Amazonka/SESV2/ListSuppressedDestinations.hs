@@ -149,8 +149,7 @@ instance Core.AWSRequest ListSuppressedDestinations where
       ( \s h x ->
           ListSuppressedDestinationsResponse'
             Prelude.<$> (x Data..?> "NextToken")
-            Prelude.<*> ( x
-                            Data..?> "SuppressedDestinationSummaries"
+            Prelude.<*> ( x Data..?> "SuppressedDestinationSummaries"
                             Core..!@ Prelude.mempty
                         )
             Prelude.<*> (Prelude.pure (Prelude.fromEnum s))

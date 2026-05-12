@@ -32,6 +32,7 @@ module Amazonka.SESV2.CreateConfigurationSet
     newCreateConfigurationSet,
 
     -- * Request Lenses
+    createConfigurationSet_archivingOptions,
     createConfigurationSet_deliveryOptions,
     createConfigurationSet_reputationOptions,
     createConfigurationSet_sendingOptions,
@@ -62,7 +63,10 @@ import Amazonka.SESV2.Types
 --
 -- /See:/ 'newCreateConfigurationSet' smart constructor.
 data CreateConfigurationSet = CreateConfigurationSet'
-  { -- | An object that defines the dedicated IP pool that is used to send emails
+  { -- | An object that defines the MailManager archiving options for emails that
+    -- you send using the configuration set.
+    archivingOptions :: Prelude.Maybe ArchivingOptions,
+    -- | An object that defines the dedicated IP pool that is used to send emails
     -- that you send using the configuration set.
     deliveryOptions :: Prelude.Maybe DeliveryOptions,
     -- | An object that defines whether or not Amazon SES collects reputation
@@ -96,6 +100,9 @@ data CreateConfigurationSet = CreateConfigurationSet'
 -- The following record fields are available, with the corresponding lenses provided
 -- for backwards compatibility:
 --
+-- 'archivingOptions', 'createConfigurationSet_archivingOptions' - An object that defines the MailManager archiving options for emails that
+-- you send using the configuration set.
+--
 -- 'deliveryOptions', 'createConfigurationSet_deliveryOptions' - An object that defines the dedicated IP pool that is used to send emails
 -- that you send using the configuration set.
 --
@@ -125,8 +132,9 @@ newCreateConfigurationSet ::
   CreateConfigurationSet
 newCreateConfigurationSet pConfigurationSetName_ =
   CreateConfigurationSet'
-    { deliveryOptions =
+    { archivingOptions =
         Prelude.Nothing,
+      deliveryOptions = Prelude.Nothing,
       reputationOptions = Prelude.Nothing,
       sendingOptions = Prelude.Nothing,
       suppressionOptions = Prelude.Nothing,
@@ -135,6 +143,11 @@ newCreateConfigurationSet pConfigurationSetName_ =
       vdmOptions = Prelude.Nothing,
       configurationSetName = pConfigurationSetName_
     }
+
+-- | An object that defines the MailManager archiving options for emails that
+-- you send using the configuration set.
+createConfigurationSet_archivingOptions :: Lens.Lens' CreateConfigurationSet (Prelude.Maybe ArchivingOptions)
+createConfigurationSet_archivingOptions = Lens.lens (\CreateConfigurationSet' {archivingOptions} -> archivingOptions) (\s@CreateConfigurationSet' {} a -> s {archivingOptions = a} :: CreateConfigurationSet)
 
 -- | An object that defines the dedicated IP pool that is used to send emails
 -- that you send using the configuration set.
@@ -192,6 +205,7 @@ instance Core.AWSRequest CreateConfigurationSet where
 instance Prelude.Hashable CreateConfigurationSet where
   hashWithSalt _salt CreateConfigurationSet' {..} =
     _salt
+      `Prelude.hashWithSalt` archivingOptions
       `Prelude.hashWithSalt` deliveryOptions
       `Prelude.hashWithSalt` reputationOptions
       `Prelude.hashWithSalt` sendingOptions
@@ -203,14 +217,15 @@ instance Prelude.Hashable CreateConfigurationSet where
 
 instance Prelude.NFData CreateConfigurationSet where
   rnf CreateConfigurationSet' {..} =
-    Prelude.rnf deliveryOptions `Prelude.seq`
-      Prelude.rnf reputationOptions `Prelude.seq`
-        Prelude.rnf sendingOptions `Prelude.seq`
-          Prelude.rnf suppressionOptions `Prelude.seq`
-            Prelude.rnf tags `Prelude.seq`
-              Prelude.rnf trackingOptions `Prelude.seq`
-                Prelude.rnf vdmOptions `Prelude.seq`
-                  Prelude.rnf configurationSetName
+    Prelude.rnf archivingOptions `Prelude.seq`
+      Prelude.rnf deliveryOptions `Prelude.seq`
+        Prelude.rnf reputationOptions `Prelude.seq`
+          Prelude.rnf sendingOptions `Prelude.seq`
+            Prelude.rnf suppressionOptions `Prelude.seq`
+              Prelude.rnf tags `Prelude.seq`
+                Prelude.rnf trackingOptions `Prelude.seq`
+                  Prelude.rnf vdmOptions `Prelude.seq`
+                    Prelude.rnf configurationSetName
 
 instance Data.ToHeaders CreateConfigurationSet where
   toHeaders =
@@ -227,7 +242,9 @@ instance Data.ToJSON CreateConfigurationSet where
   toJSON CreateConfigurationSet' {..} =
     Data.object
       ( Prelude.catMaybes
-          [ ("DeliveryOptions" Data..=)
+          [ ("ArchivingOptions" Data..=)
+              Prelude.<$> archivingOptions,
+            ("DeliveryOptions" Data..=)
               Prelude.<$> deliveryOptions,
             ("ReputationOptions" Data..=)
               Prelude.<$> reputationOptions,

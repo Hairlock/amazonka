@@ -24,6 +24,7 @@ import qualified Amazonka.Core.Lens.Internal as Lens
 import qualified Amazonka.Data as Data
 import qualified Amazonka.Prelude as Prelude
 import Amazonka.SESV2.Types.Destination
+import Amazonka.SESV2.Types.MessageHeader
 import Amazonka.SESV2.Types.MessageTag
 import Amazonka.SESV2.Types.ReplacementEmailContent
 
@@ -31,6 +32,26 @@ import Amazonka.SESV2.Types.ReplacementEmailContent
 data BulkEmailEntry = BulkEmailEntry'
   { -- | The @ReplacementEmailContent@ associated with a @BulkEmailEntry@.
     replacementEmailContent :: Prelude.Maybe ReplacementEmailContent,
+    -- | The list of message headers associated with the @BulkEmailEntry@ data
+    -- type.
+    --
+    -- -   Headers Not Present in @BulkEmailEntry@: If a header is specified in
+    --     <https://docs.aws.amazon.com/ses/latest/APIReference-V2/API_Template.html Template>
+    --     but not in @BulkEmailEntry@, the header from @Template@ will be
+    --     added to the outgoing email.
+    --
+    -- -   Headers Present in @BulkEmailEntry@: If a header is specified in
+    --     @BulkEmailEntry@, it takes precedence over any header of the same
+    --     name specified in
+    --     <https://docs.aws.amazon.com/ses/latest/APIReference-V2/API_Template.html Template>
+    --     :
+    --
+    --     -   If the header is also defined within @Template@, the value from
+    --         @BulkEmailEntry@ will replace the header\'s value in the email.
+    --
+    --     -   If the header is not defined within @Template@, it will simply
+    --         be added to the email as specified in @BulkEmailEntry@.
+    replacementHeaders :: Prelude.Maybe [MessageHeader],
     -- | A list of tags, in the form of name\/value pairs, to apply to an email
     -- that you send using the @SendBulkTemplatedEmail@ operation. Tags
     -- correspond to characteristics of the email that you define, so that you
@@ -61,6 +82,26 @@ data BulkEmailEntry = BulkEmailEntry'
 --
 -- 'replacementEmailContent', 'bulkEmailEntry_replacementEmailContent' - The @ReplacementEmailContent@ associated with a @BulkEmailEntry@.
 --
+-- 'replacementHeaders', 'bulkEmailEntry_replacementHeaders' - The list of message headers associated with the @BulkEmailEntry@ data
+-- type.
+--
+-- -   Headers Not Present in @BulkEmailEntry@: If a header is specified in
+--     <https://docs.aws.amazon.com/ses/latest/APIReference-V2/API_Template.html Template>
+--     but not in @BulkEmailEntry@, the header from @Template@ will be
+--     added to the outgoing email.
+--
+-- -   Headers Present in @BulkEmailEntry@: If a header is specified in
+--     @BulkEmailEntry@, it takes precedence over any header of the same
+--     name specified in
+--     <https://docs.aws.amazon.com/ses/latest/APIReference-V2/API_Template.html Template>
+--     :
+--
+--     -   If the header is also defined within @Template@, the value from
+--         @BulkEmailEntry@ will replace the header\'s value in the email.
+--
+--     -   If the header is not defined within @Template@, it will simply
+--         be added to the email as specified in @BulkEmailEntry@.
+--
 -- 'replacementTags', 'bulkEmailEntry_replacementTags' - A list of tags, in the form of name\/value pairs, to apply to an email
 -- that you send using the @SendBulkTemplatedEmail@ operation. Tags
 -- correspond to characteristics of the email that you define, so that you
@@ -85,6 +126,7 @@ newBulkEmailEntry pDestination_ =
   BulkEmailEntry'
     { replacementEmailContent =
         Prelude.Nothing,
+      replacementHeaders = Prelude.Nothing,
       replacementTags = Prelude.Nothing,
       destination = pDestination_
     }
@@ -92,6 +134,28 @@ newBulkEmailEntry pDestination_ =
 -- | The @ReplacementEmailContent@ associated with a @BulkEmailEntry@.
 bulkEmailEntry_replacementEmailContent :: Lens.Lens' BulkEmailEntry (Prelude.Maybe ReplacementEmailContent)
 bulkEmailEntry_replacementEmailContent = Lens.lens (\BulkEmailEntry' {replacementEmailContent} -> replacementEmailContent) (\s@BulkEmailEntry' {} a -> s {replacementEmailContent = a} :: BulkEmailEntry)
+
+-- | The list of message headers associated with the @BulkEmailEntry@ data
+-- type.
+--
+-- -   Headers Not Present in @BulkEmailEntry@: If a header is specified in
+--     <https://docs.aws.amazon.com/ses/latest/APIReference-V2/API_Template.html Template>
+--     but not in @BulkEmailEntry@, the header from @Template@ will be
+--     added to the outgoing email.
+--
+-- -   Headers Present in @BulkEmailEntry@: If a header is specified in
+--     @BulkEmailEntry@, it takes precedence over any header of the same
+--     name specified in
+--     <https://docs.aws.amazon.com/ses/latest/APIReference-V2/API_Template.html Template>
+--     :
+--
+--     -   If the header is also defined within @Template@, the value from
+--         @BulkEmailEntry@ will replace the header\'s value in the email.
+--
+--     -   If the header is not defined within @Template@, it will simply
+--         be added to the email as specified in @BulkEmailEntry@.
+bulkEmailEntry_replacementHeaders :: Lens.Lens' BulkEmailEntry (Prelude.Maybe [MessageHeader])
+bulkEmailEntry_replacementHeaders = Lens.lens (\BulkEmailEntry' {replacementHeaders} -> replacementHeaders) (\s@BulkEmailEntry' {} a -> s {replacementHeaders = a} :: BulkEmailEntry) Prelude.. Lens.mapping Lens.coerced
 
 -- | A list of tags, in the form of name\/value pairs, to apply to an email
 -- that you send using the @SendBulkTemplatedEmail@ operation. Tags
@@ -118,14 +182,16 @@ instance Prelude.Hashable BulkEmailEntry where
   hashWithSalt _salt BulkEmailEntry' {..} =
     _salt
       `Prelude.hashWithSalt` replacementEmailContent
+      `Prelude.hashWithSalt` replacementHeaders
       `Prelude.hashWithSalt` replacementTags
       `Prelude.hashWithSalt` destination
 
 instance Prelude.NFData BulkEmailEntry where
   rnf BulkEmailEntry' {..} =
     Prelude.rnf replacementEmailContent `Prelude.seq`
-      Prelude.rnf replacementTags `Prelude.seq`
-        Prelude.rnf destination
+      Prelude.rnf replacementHeaders `Prelude.seq`
+        Prelude.rnf replacementTags `Prelude.seq`
+          Prelude.rnf destination
 
 instance Data.ToJSON BulkEmailEntry where
   toJSON BulkEmailEntry' {..} =
@@ -133,6 +199,8 @@ instance Data.ToJSON BulkEmailEntry where
       ( Prelude.catMaybes
           [ ("ReplacementEmailContent" Data..=)
               Prelude.<$> replacementEmailContent,
+            ("ReplacementHeaders" Data..=)
+              Prelude.<$> replacementHeaders,
             ("ReplacementTags" Data..=)
               Prelude.<$> replacementTags,
             Prelude.Just ("Destination" Data..= destination)

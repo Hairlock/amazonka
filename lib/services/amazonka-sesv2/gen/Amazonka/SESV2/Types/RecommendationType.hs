@@ -20,8 +20,13 @@
 module Amazonka.SESV2.Types.RecommendationType
   ( RecommendationType
       ( ..,
+        RecommendationType_BIMI,
+        RecommendationType_BOUNCE,
+        RecommendationType_COMPLAINT,
         RecommendationType_DKIM,
         RecommendationType_DMARC,
+        RecommendationType_FEEDBACK_3P,
+        RecommendationType_IP_LISTING,
         RecommendationType_SPF
       ),
   )
@@ -59,18 +64,38 @@ newtype RecommendationType = RecommendationType'
       Data.ToXML
     )
 
+pattern RecommendationType_BIMI :: RecommendationType
+pattern RecommendationType_BIMI = RecommendationType' "BIMI"
+
+pattern RecommendationType_BOUNCE :: RecommendationType
+pattern RecommendationType_BOUNCE = RecommendationType' "BOUNCE"
+
+pattern RecommendationType_COMPLAINT :: RecommendationType
+pattern RecommendationType_COMPLAINT = RecommendationType' "COMPLAINT"
+
 pattern RecommendationType_DKIM :: RecommendationType
 pattern RecommendationType_DKIM = RecommendationType' "DKIM"
 
 pattern RecommendationType_DMARC :: RecommendationType
 pattern RecommendationType_DMARC = RecommendationType' "DMARC"
 
+pattern RecommendationType_FEEDBACK_3P :: RecommendationType
+pattern RecommendationType_FEEDBACK_3P = RecommendationType' "FEEDBACK_3P"
+
+pattern RecommendationType_IP_LISTING :: RecommendationType
+pattern RecommendationType_IP_LISTING = RecommendationType' "IP_LISTING"
+
 pattern RecommendationType_SPF :: RecommendationType
 pattern RecommendationType_SPF = RecommendationType' "SPF"
 
 {-# COMPLETE
+  RecommendationType_BIMI,
+  RecommendationType_BOUNCE,
+  RecommendationType_COMPLAINT,
   RecommendationType_DKIM,
   RecommendationType_DMARC,
+  RecommendationType_FEEDBACK_3P,
+  RecommendationType_IP_LISTING,
   RecommendationType_SPF,
   RecommendationType'
   #-}

@@ -29,6 +29,7 @@ module Amazonka.SESV2.PutConfigurationSetDeliveryOptions
     newPutConfigurationSetDeliveryOptions,
 
     -- * Request Lenses
+    putConfigurationSetDeliveryOptions_maxDeliverySeconds,
     putConfigurationSetDeliveryOptions_sendingPoolName,
     putConfigurationSetDeliveryOptions_tlsPolicy,
     putConfigurationSetDeliveryOptions_configurationSetName,
@@ -54,7 +55,12 @@ import Amazonka.SESV2.Types
 --
 -- /See:/ 'newPutConfigurationSetDeliveryOptions' smart constructor.
 data PutConfigurationSetDeliveryOptions = PutConfigurationSetDeliveryOptions'
-  { -- | The name of the dedicated IP pool to associate with the configuration
+  { -- | The maximum amount of time, in seconds, that Amazon SES API v2 will
+    -- attempt delivery of email. If specified, the value must greater than or
+    -- equal to 300 seconds (5 minutes) and less than or equal to 50400 seconds
+    -- (840 minutes).
+    maxDeliverySeconds :: Prelude.Maybe Prelude.Natural,
+    -- | The name of the dedicated IP pool to associate with the configuration
     -- set.
     sendingPoolName :: Prelude.Maybe Prelude.Text,
     -- | Specifies whether messages that use the configuration set are required
@@ -76,6 +82,11 @@ data PutConfigurationSetDeliveryOptions = PutConfigurationSetDeliveryOptions'
 -- The following record fields are available, with the corresponding lenses provided
 -- for backwards compatibility:
 --
+-- 'maxDeliverySeconds', 'putConfigurationSetDeliveryOptions_maxDeliverySeconds' - The maximum amount of time, in seconds, that Amazon SES API v2 will
+-- attempt delivery of email. If specified, the value must greater than or
+-- equal to 300 seconds (5 minutes) and less than or equal to 50400 seconds
+-- (840 minutes).
+--
 -- 'sendingPoolName', 'putConfigurationSetDeliveryOptions_sendingPoolName' - The name of the dedicated IP pool to associate with the configuration
 -- set.
 --
@@ -93,12 +104,20 @@ newPutConfigurationSetDeliveryOptions ::
 newPutConfigurationSetDeliveryOptions
   pConfigurationSetName_ =
     PutConfigurationSetDeliveryOptions'
-      { sendingPoolName =
+      { maxDeliverySeconds =
           Prelude.Nothing,
+        sendingPoolName = Prelude.Nothing,
         tlsPolicy = Prelude.Nothing,
         configurationSetName =
           pConfigurationSetName_
       }
+
+-- | The maximum amount of time, in seconds, that Amazon SES API v2 will
+-- attempt delivery of email. If specified, the value must greater than or
+-- equal to 300 seconds (5 minutes) and less than or equal to 50400 seconds
+-- (840 minutes).
+putConfigurationSetDeliveryOptions_maxDeliverySeconds :: Lens.Lens' PutConfigurationSetDeliveryOptions (Prelude.Maybe Prelude.Natural)
+putConfigurationSetDeliveryOptions_maxDeliverySeconds = Lens.lens (\PutConfigurationSetDeliveryOptions' {maxDeliverySeconds} -> maxDeliverySeconds) (\s@PutConfigurationSetDeliveryOptions' {} a -> s {maxDeliverySeconds = a} :: PutConfigurationSetDeliveryOptions)
 
 -- | The name of the dedicated IP pool to associate with the configuration
 -- set.
@@ -141,6 +160,7 @@ instance
     _salt
     PutConfigurationSetDeliveryOptions' {..} =
       _salt
+        `Prelude.hashWithSalt` maxDeliverySeconds
         `Prelude.hashWithSalt` sendingPoolName
         `Prelude.hashWithSalt` tlsPolicy
         `Prelude.hashWithSalt` configurationSetName
@@ -150,9 +170,10 @@ instance
     PutConfigurationSetDeliveryOptions
   where
   rnf PutConfigurationSetDeliveryOptions' {..} =
-    Prelude.rnf sendingPoolName `Prelude.seq`
-      Prelude.rnf tlsPolicy `Prelude.seq`
-        Prelude.rnf configurationSetName
+    Prelude.rnf maxDeliverySeconds `Prelude.seq`
+      Prelude.rnf sendingPoolName `Prelude.seq`
+        Prelude.rnf tlsPolicy `Prelude.seq`
+          Prelude.rnf configurationSetName
 
 instance
   Data.ToHeaders
@@ -175,7 +196,9 @@ instance
   toJSON PutConfigurationSetDeliveryOptions' {..} =
     Data.object
       ( Prelude.catMaybes
-          [ ("SendingPoolName" Data..=)
+          [ ("MaxDeliverySeconds" Data..=)
+              Prelude.<$> maxDeliverySeconds,
+            ("SendingPoolName" Data..=)
               Prelude.<$> sendingPoolName,
             ("TlsPolicy" Data..=) Prelude.<$> tlsPolicy
           ]

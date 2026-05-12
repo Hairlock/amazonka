@@ -47,10 +47,21 @@ data DedicatedIp = DedicatedIp'
     --
     -- -   @DONE@ – The dedicated IP warm-up process is complete, and the IP
     --     address is ready to use.
+    --
+    -- -   @NOT_APPLICABLE@ – The warm-up status doesn\'t apply to this IP
+    --     address. This status is used for IP addresses in managed dedicated
+    --     IP pools, where Amazon SES automatically handles the warm-up
+    --     process.
     warmupStatus :: WarmupStatus,
-    -- | Indicates how complete the dedicated IP warm-up process is. When this
-    -- value equals 1, the address has completed the warm-up process and is
-    -- ready for use.
+    -- | Indicates the progress of your dedicated IP warm-up:
+    --
+    -- -   @0-100@ – For standard dedicated IP addresses, this shows the
+    --     warm-up completion percentage. A value of 100 means the IP address
+    --     is fully warmed up and ready for use.
+    --
+    -- -   @-1@ – Appears for IP addresses in managed dedicated pools where
+    --     Amazon SES automatically handles the warm-up process, making the
+    --     percentage not applicable.
     warmupPercentage :: Prelude.Int
   }
   deriving (Prelude.Eq, Prelude.Read, Prelude.Show, Prelude.Generic)
@@ -77,9 +88,20 @@ data DedicatedIp = DedicatedIp'
 -- -   @DONE@ – The dedicated IP warm-up process is complete, and the IP
 --     address is ready to use.
 --
--- 'warmupPercentage', 'dedicatedIp_warmupPercentage' - Indicates how complete the dedicated IP warm-up process is. When this
--- value equals 1, the address has completed the warm-up process and is
--- ready for use.
+-- -   @NOT_APPLICABLE@ – The warm-up status doesn\'t apply to this IP
+--     address. This status is used for IP addresses in managed dedicated
+--     IP pools, where Amazon SES automatically handles the warm-up
+--     process.
+--
+-- 'warmupPercentage', 'dedicatedIp_warmupPercentage' - Indicates the progress of your dedicated IP warm-up:
+--
+-- -   @0-100@ – For standard dedicated IP addresses, this shows the
+--     warm-up completion percentage. A value of 100 means the IP address
+--     is fully warmed up and ready for use.
+--
+-- -   @-1@ – Appears for IP addresses in managed dedicated pools where
+--     Amazon SES automatically handles the warm-up process, making the
+--     percentage not applicable.
 newDedicatedIp ::
   -- | 'ip'
   Prelude.Text ->
@@ -113,12 +135,23 @@ dedicatedIp_ip = Lens.lens (\DedicatedIp' {ip} -> ip) (\s@DedicatedIp' {} a -> s
 --
 -- -   @DONE@ – The dedicated IP warm-up process is complete, and the IP
 --     address is ready to use.
+--
+-- -   @NOT_APPLICABLE@ – The warm-up status doesn\'t apply to this IP
+--     address. This status is used for IP addresses in managed dedicated
+--     IP pools, where Amazon SES automatically handles the warm-up
+--     process.
 dedicatedIp_warmupStatus :: Lens.Lens' DedicatedIp WarmupStatus
 dedicatedIp_warmupStatus = Lens.lens (\DedicatedIp' {warmupStatus} -> warmupStatus) (\s@DedicatedIp' {} a -> s {warmupStatus = a} :: DedicatedIp)
 
--- | Indicates how complete the dedicated IP warm-up process is. When this
--- value equals 1, the address has completed the warm-up process and is
--- ready for use.
+-- | Indicates the progress of your dedicated IP warm-up:
+--
+-- -   @0-100@ – For standard dedicated IP addresses, this shows the
+--     warm-up completion percentage. A value of 100 means the IP address
+--     is fully warmed up and ready for use.
+--
+-- -   @-1@ – Appears for IP addresses in managed dedicated pools where
+--     Amazon SES automatically handles the warm-up process, making the
+--     percentage not applicable.
 dedicatedIp_warmupPercentage :: Lens.Lens' DedicatedIp Prelude.Int
 dedicatedIp_warmupPercentage = Lens.lens (\DedicatedIp' {warmupPercentage} -> warmupPercentage) (\s@DedicatedIp' {} a -> s {warmupPercentage = a} :: DedicatedIp)
 

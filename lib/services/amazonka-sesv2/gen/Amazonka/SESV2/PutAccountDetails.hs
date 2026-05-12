@@ -30,9 +30,9 @@ module Amazonka.SESV2.PutAccountDetails
     putAccountDetails_additionalContactEmailAddresses,
     putAccountDetails_contactLanguage,
     putAccountDetails_productionAccessEnabled,
+    putAccountDetails_useCaseDescription,
     putAccountDetails_mailType,
     putAccountDetails_websiteURL,
-    putAccountDetails_useCaseDescription,
 
     -- * Destructuring the Response
     PutAccountDetailsResponse (..),
@@ -65,22 +65,20 @@ data PutAccountDetails = PutAccountDetails'
     --
     -- If the value is @false@, then your account is in the /sandbox/. When
     -- your account is in the sandbox, you can only send email to verified
-    -- identities. Additionally, the maximum number of emails you can send in a
-    -- 24-hour period (your sending quota) is 200, and the maximum number of
-    -- emails you can send per second (your maximum sending rate) is 1.
+    -- identities.
     --
     -- If the value is @true@, then your account has production access. When
     -- your account has production access, you can send email to any address.
     -- The sending quota and maximum sending rate for your account vary based
     -- on your specific use case.
     productionAccessEnabled :: Prelude.Maybe Prelude.Bool,
+    -- | A description of the types of email that you plan to send.
+    useCaseDescription :: Prelude.Maybe (Data.Sensitive Prelude.Text),
     -- | The type of email your account will send.
     mailType :: MailType,
     -- | The URL of your website. This information helps us better understand the
     -- type of content that you plan to send.
-    websiteURL :: Data.Sensitive Prelude.Text,
-    -- | A description of the types of email that you plan to send.
-    useCaseDescription :: Data.Sensitive Prelude.Text
+    websiteURL :: Data.Sensitive Prelude.Text
   }
   deriving (Prelude.Eq, Prelude.Show, Prelude.Generic)
 
@@ -102,43 +100,35 @@ data PutAccountDetails = PutAccountDetails'
 --
 -- If the value is @false@, then your account is in the /sandbox/. When
 -- your account is in the sandbox, you can only send email to verified
--- identities. Additionally, the maximum number of emails you can send in a
--- 24-hour period (your sending quota) is 200, and the maximum number of
--- emails you can send per second (your maximum sending rate) is 1.
+-- identities.
 --
 -- If the value is @true@, then your account has production access. When
 -- your account has production access, you can send email to any address.
 -- The sending quota and maximum sending rate for your account vary based
 -- on your specific use case.
 --
+-- 'useCaseDescription', 'putAccountDetails_useCaseDescription' - A description of the types of email that you plan to send.
+--
 -- 'mailType', 'putAccountDetails_mailType' - The type of email your account will send.
 --
 -- 'websiteURL', 'putAccountDetails_websiteURL' - The URL of your website. This information helps us better understand the
 -- type of content that you plan to send.
---
--- 'useCaseDescription', 'putAccountDetails_useCaseDescription' - A description of the types of email that you plan to send.
 newPutAccountDetails ::
   -- | 'mailType'
   MailType ->
   -- | 'websiteURL'
   Prelude.Text ->
-  -- | 'useCaseDescription'
-  Prelude.Text ->
   PutAccountDetails
-newPutAccountDetails
-  pMailType_
-  pWebsiteURL_
-  pUseCaseDescription_ =
-    PutAccountDetails'
-      { additionalContactEmailAddresses =
-          Prelude.Nothing,
-        contactLanguage = Prelude.Nothing,
-        productionAccessEnabled = Prelude.Nothing,
-        mailType = pMailType_,
-        websiteURL = Data._Sensitive Lens.# pWebsiteURL_,
-        useCaseDescription =
-          Data._Sensitive Lens.# pUseCaseDescription_
-      }
+newPutAccountDetails pMailType_ pWebsiteURL_ =
+  PutAccountDetails'
+    { additionalContactEmailAddresses =
+        Prelude.Nothing,
+      contactLanguage = Prelude.Nothing,
+      productionAccessEnabled = Prelude.Nothing,
+      useCaseDescription = Prelude.Nothing,
+      mailType = pMailType_,
+      websiteURL = Data._Sensitive Lens.# pWebsiteURL_
+    }
 
 -- | Additional email addresses that you would like to be notified regarding
 -- Amazon SES matters.
@@ -154,9 +144,7 @@ putAccountDetails_contactLanguage = Lens.lens (\PutAccountDetails' {contactLangu
 --
 -- If the value is @false@, then your account is in the /sandbox/. When
 -- your account is in the sandbox, you can only send email to verified
--- identities. Additionally, the maximum number of emails you can send in a
--- 24-hour period (your sending quota) is 200, and the maximum number of
--- emails you can send per second (your maximum sending rate) is 1.
+-- identities.
 --
 -- If the value is @true@, then your account has production access. When
 -- your account has production access, you can send email to any address.
@@ -164,6 +152,10 @@ putAccountDetails_contactLanguage = Lens.lens (\PutAccountDetails' {contactLangu
 -- on your specific use case.
 putAccountDetails_productionAccessEnabled :: Lens.Lens' PutAccountDetails (Prelude.Maybe Prelude.Bool)
 putAccountDetails_productionAccessEnabled = Lens.lens (\PutAccountDetails' {productionAccessEnabled} -> productionAccessEnabled) (\s@PutAccountDetails' {} a -> s {productionAccessEnabled = a} :: PutAccountDetails)
+
+-- | A description of the types of email that you plan to send.
+putAccountDetails_useCaseDescription :: Lens.Lens' PutAccountDetails (Prelude.Maybe Prelude.Text)
+putAccountDetails_useCaseDescription = Lens.lens (\PutAccountDetails' {useCaseDescription} -> useCaseDescription) (\s@PutAccountDetails' {} a -> s {useCaseDescription = a} :: PutAccountDetails) Prelude.. Lens.mapping Data._Sensitive
 
 -- | The type of email your account will send.
 putAccountDetails_mailType :: Lens.Lens' PutAccountDetails MailType
@@ -173,10 +165,6 @@ putAccountDetails_mailType = Lens.lens (\PutAccountDetails' {mailType} -> mailTy
 -- type of content that you plan to send.
 putAccountDetails_websiteURL :: Lens.Lens' PutAccountDetails Prelude.Text
 putAccountDetails_websiteURL = Lens.lens (\PutAccountDetails' {websiteURL} -> websiteURL) (\s@PutAccountDetails' {} a -> s {websiteURL = a} :: PutAccountDetails) Prelude.. Data._Sensitive
-
--- | A description of the types of email that you plan to send.
-putAccountDetails_useCaseDescription :: Lens.Lens' PutAccountDetails Prelude.Text
-putAccountDetails_useCaseDescription = Lens.lens (\PutAccountDetails' {useCaseDescription} -> useCaseDescription) (\s@PutAccountDetails' {} a -> s {useCaseDescription = a} :: PutAccountDetails) Prelude.. Data._Sensitive
 
 instance Core.AWSRequest PutAccountDetails where
   type
@@ -197,18 +185,18 @@ instance Prelude.Hashable PutAccountDetails where
       `Prelude.hashWithSalt` additionalContactEmailAddresses
       `Prelude.hashWithSalt` contactLanguage
       `Prelude.hashWithSalt` productionAccessEnabled
+      `Prelude.hashWithSalt` useCaseDescription
       `Prelude.hashWithSalt` mailType
       `Prelude.hashWithSalt` websiteURL
-      `Prelude.hashWithSalt` useCaseDescription
 
 instance Prelude.NFData PutAccountDetails where
   rnf PutAccountDetails' {..} =
     Prelude.rnf additionalContactEmailAddresses `Prelude.seq`
       Prelude.rnf contactLanguage `Prelude.seq`
         Prelude.rnf productionAccessEnabled `Prelude.seq`
-          Prelude.rnf mailType `Prelude.seq`
-            Prelude.rnf websiteURL `Prelude.seq`
-              Prelude.rnf useCaseDescription
+          Prelude.rnf useCaseDescription `Prelude.seq`
+            Prelude.rnf mailType `Prelude.seq`
+              Prelude.rnf websiteURL
 
 instance Data.ToHeaders PutAccountDetails where
   toHeaders =
@@ -231,10 +219,10 @@ instance Data.ToJSON PutAccountDetails where
               Prelude.<$> contactLanguage,
             ("ProductionAccessEnabled" Data..=)
               Prelude.<$> productionAccessEnabled,
+            ("UseCaseDescription" Data..=)
+              Prelude.<$> useCaseDescription,
             Prelude.Just ("MailType" Data..= mailType),
-            Prelude.Just ("WebsiteURL" Data..= websiteURL),
-            Prelude.Just
-              ("UseCaseDescription" Data..= useCaseDescription)
+            Prelude.Just ("WebsiteURL" Data..= websiteURL)
           ]
       )
 

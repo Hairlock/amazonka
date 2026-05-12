@@ -37,6 +37,7 @@ module Amazonka.SESV2.GetEmailTemplate
     newGetEmailTemplateResponse,
 
     -- * Response Lenses
+    getEmailTemplateResponse_tags,
     getEmailTemplateResponse_httpStatus,
     getEmailTemplateResponse_templateName,
     getEmailTemplateResponse_templateContent,
@@ -91,7 +92,8 @@ instance Core.AWSRequest GetEmailTemplate where
     Response.receiveJSON
       ( \s h x ->
           GetEmailTemplateResponse'
-            Prelude.<$> (Prelude.pure (Prelude.fromEnum s))
+            Prelude.<$> (x Data..?> "Tags" Core..!@ Prelude.mempty)
+            Prelude.<*> (Prelude.pure (Prelude.fromEnum s))
             Prelude.<*> (x Data..:> "TemplateName")
             Prelude.<*> (x Data..:> "TemplateContent")
       )
@@ -126,7 +128,10 @@ instance Data.ToQuery GetEmailTemplate where
 --
 -- /See:/ 'newGetEmailTemplateResponse' smart constructor.
 data GetEmailTemplateResponse = GetEmailTemplateResponse'
-  { -- | The response's http status code.
+  { -- | An array of objects that define the tags (keys and values) that are
+    -- associated with the email template.
+    tags :: Prelude.Maybe [Tag],
+    -- | The response's http status code.
     httpStatus :: Prelude.Int,
     -- | The name of the template.
     templateName :: Prelude.Text,
@@ -143,6 +148,9 @@ data GetEmailTemplateResponse = GetEmailTemplateResponse'
 --
 -- The following record fields are available, with the corresponding lenses provided
 -- for backwards compatibility:
+--
+-- 'tags', 'getEmailTemplateResponse_tags' - An array of objects that define the tags (keys and values) that are
+-- associated with the email template.
 --
 -- 'httpStatus', 'getEmailTemplateResponse_httpStatus' - The response's http status code.
 --
@@ -163,11 +171,16 @@ newGetEmailTemplateResponse
   pTemplateName_
   pTemplateContent_ =
     GetEmailTemplateResponse'
-      { httpStatus =
-          pHttpStatus_,
+      { tags = Prelude.Nothing,
+        httpStatus = pHttpStatus_,
         templateName = pTemplateName_,
         templateContent = pTemplateContent_
       }
+
+-- | An array of objects that define the tags (keys and values) that are
+-- associated with the email template.
+getEmailTemplateResponse_tags :: Lens.Lens' GetEmailTemplateResponse (Prelude.Maybe [Tag])
+getEmailTemplateResponse_tags = Lens.lens (\GetEmailTemplateResponse' {tags} -> tags) (\s@GetEmailTemplateResponse' {} a -> s {tags = a} :: GetEmailTemplateResponse) Prelude.. Lens.mapping Lens.coerced
 
 -- | The response's http status code.
 getEmailTemplateResponse_httpStatus :: Lens.Lens' GetEmailTemplateResponse Prelude.Int
@@ -184,6 +197,7 @@ getEmailTemplateResponse_templateContent = Lens.lens (\GetEmailTemplateResponse'
 
 instance Prelude.NFData GetEmailTemplateResponse where
   rnf GetEmailTemplateResponse' {..} =
-    Prelude.rnf httpStatus `Prelude.seq`
-      Prelude.rnf templateName `Prelude.seq`
-        Prelude.rnf templateContent
+    Prelude.rnf tags `Prelude.seq`
+      Prelude.rnf httpStatus `Prelude.seq`
+        Prelude.rnf templateName `Prelude.seq`
+          Prelude.rnf templateContent

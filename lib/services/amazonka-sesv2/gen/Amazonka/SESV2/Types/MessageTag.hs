@@ -100,6 +100,16 @@ messageTag_name = Lens.lens (\MessageTag' {name} -> name) (\s@MessageTag' {} a -
 messageTag_value :: Lens.Lens' MessageTag Prelude.Text
 messageTag_value = Lens.lens (\MessageTag' {value} -> value) (\s@MessageTag' {} a -> s {value = a} :: MessageTag)
 
+instance Data.FromJSON MessageTag where
+  parseJSON =
+    Data.withObject
+      "MessageTag"
+      ( \x ->
+          MessageTag'
+            Prelude.<$> (x Data..: "Name")
+            Prelude.<*> (x Data..: "Value")
+      )
+
 instance Prelude.Hashable MessageTag where
   hashWithSalt _salt MessageTag' {..} =
     _salt

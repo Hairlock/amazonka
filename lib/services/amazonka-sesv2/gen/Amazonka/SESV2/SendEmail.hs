@@ -45,12 +45,14 @@ module Amazonka.SESV2.SendEmail
     sendEmail_configurationSetName,
     sendEmail_destination,
     sendEmail_emailTags,
+    sendEmail_endpointId,
     sendEmail_feedbackForwardingEmailAddress,
     sendEmail_feedbackForwardingEmailAddressIdentityArn,
     sendEmail_fromEmailAddress,
     sendEmail_fromEmailAddressIdentityArn,
     sendEmail_listManagementOptions,
     sendEmail_replyToAddresses,
+    sendEmail_tenantName,
     sendEmail_content,
 
     -- * Destructuring the Response
@@ -86,6 +88,8 @@ data SendEmail = SendEmail'
     -- characteristics of the email that you define, so that you can publish
     -- email sending events.
     emailTags :: Prelude.Maybe [MessageTag],
+    -- | The ID of the multi-region endpoint (global-endpoint).
+    endpointId :: Prelude.Maybe Prelude.Text,
     -- | The address that you want bounce and complaint notifications to be sent
     -- to.
     feedbackForwardingEmailAddress :: Prelude.Maybe Prelude.Text,
@@ -132,8 +136,14 @@ data SendEmail = SendEmail'
     -- | The \"Reply-to\" email addresses for the message. When the recipient
     -- replies to the message, each Reply-to address receives the reply.
     replyToAddresses :: Prelude.Maybe [Prelude.Text],
+    -- | The name of the tenant through which this email will be sent.
+    --
+    -- The email sending operation will only succeed if all referenced
+    -- resources (identities, configuration sets, and templates) are associated
+    -- with this tenant.
+    tenantName :: Prelude.Maybe Prelude.Text,
     -- | An object that contains the body of the message. You can send either a
-    -- Simple message Raw message or a template Message.
+    -- Simple message, Raw message, or a Templated message.
     content :: EmailContent
   }
   deriving (Prelude.Eq, Prelude.Read, Prelude.Show, Prelude.Generic)
@@ -154,6 +164,8 @@ data SendEmail = SendEmail'
 -- that you send using the @SendEmail@ operation. Tags correspond to
 -- characteristics of the email that you define, so that you can publish
 -- email sending events.
+--
+-- 'endpointId', 'sendEmail_endpointId' - The ID of the multi-region endpoint (global-endpoint).
 --
 -- 'feedbackForwardingEmailAddress', 'sendEmail_feedbackForwardingEmailAddress' - The address that you want bounce and complaint notifications to be sent
 -- to.
@@ -201,8 +213,14 @@ data SendEmail = SendEmail'
 -- 'replyToAddresses', 'sendEmail_replyToAddresses' - The \"Reply-to\" email addresses for the message. When the recipient
 -- replies to the message, each Reply-to address receives the reply.
 --
+-- 'tenantName', 'sendEmail_tenantName' - The name of the tenant through which this email will be sent.
+--
+-- The email sending operation will only succeed if all referenced
+-- resources (identities, configuration sets, and templates) are associated
+-- with this tenant.
+--
 -- 'content', 'sendEmail_content' - An object that contains the body of the message. You can send either a
--- Simple message Raw message or a template Message.
+-- Simple message, Raw message, or a Templated message.
 newSendEmail ::
   -- | 'content'
   EmailContent ->
@@ -212,6 +230,7 @@ newSendEmail pContent_ =
     { configurationSetName = Prelude.Nothing,
       destination = Prelude.Nothing,
       emailTags = Prelude.Nothing,
+      endpointId = Prelude.Nothing,
       feedbackForwardingEmailAddress = Prelude.Nothing,
       feedbackForwardingEmailAddressIdentityArn =
         Prelude.Nothing,
@@ -219,6 +238,7 @@ newSendEmail pContent_ =
       fromEmailAddressIdentityArn = Prelude.Nothing,
       listManagementOptions = Prelude.Nothing,
       replyToAddresses = Prelude.Nothing,
+      tenantName = Prelude.Nothing,
       content = pContent_
     }
 
@@ -236,6 +256,10 @@ sendEmail_destination = Lens.lens (\SendEmail' {destination} -> destination) (\s
 -- email sending events.
 sendEmail_emailTags :: Lens.Lens' SendEmail (Prelude.Maybe [MessageTag])
 sendEmail_emailTags = Lens.lens (\SendEmail' {emailTags} -> emailTags) (\s@SendEmail' {} a -> s {emailTags = a} :: SendEmail) Prelude.. Lens.mapping Lens.coerced
+
+-- | The ID of the multi-region endpoint (global-endpoint).
+sendEmail_endpointId :: Lens.Lens' SendEmail (Prelude.Maybe Prelude.Text)
+sendEmail_endpointId = Lens.lens (\SendEmail' {endpointId} -> endpointId) (\s@SendEmail' {} a -> s {endpointId = a} :: SendEmail)
 
 -- | The address that you want bounce and complaint notifications to be sent
 -- to.
@@ -295,8 +319,16 @@ sendEmail_listManagementOptions = Lens.lens (\SendEmail' {listManagementOptions}
 sendEmail_replyToAddresses :: Lens.Lens' SendEmail (Prelude.Maybe [Prelude.Text])
 sendEmail_replyToAddresses = Lens.lens (\SendEmail' {replyToAddresses} -> replyToAddresses) (\s@SendEmail' {} a -> s {replyToAddresses = a} :: SendEmail) Prelude.. Lens.mapping Lens.coerced
 
+-- | The name of the tenant through which this email will be sent.
+--
+-- The email sending operation will only succeed if all referenced
+-- resources (identities, configuration sets, and templates) are associated
+-- with this tenant.
+sendEmail_tenantName :: Lens.Lens' SendEmail (Prelude.Maybe Prelude.Text)
+sendEmail_tenantName = Lens.lens (\SendEmail' {tenantName} -> tenantName) (\s@SendEmail' {} a -> s {tenantName = a} :: SendEmail)
+
 -- | An object that contains the body of the message. You can send either a
--- Simple message Raw message or a template Message.
+-- Simple message, Raw message, or a Templated message.
 sendEmail_content :: Lens.Lens' SendEmail EmailContent
 sendEmail_content = Lens.lens (\SendEmail' {content} -> content) (\s@SendEmail' {} a -> s {content = a} :: SendEmail)
 
@@ -318,12 +350,14 @@ instance Prelude.Hashable SendEmail where
       `Prelude.hashWithSalt` configurationSetName
       `Prelude.hashWithSalt` destination
       `Prelude.hashWithSalt` emailTags
+      `Prelude.hashWithSalt` endpointId
       `Prelude.hashWithSalt` feedbackForwardingEmailAddress
       `Prelude.hashWithSalt` feedbackForwardingEmailAddressIdentityArn
       `Prelude.hashWithSalt` fromEmailAddress
       `Prelude.hashWithSalt` fromEmailAddressIdentityArn
       `Prelude.hashWithSalt` listManagementOptions
       `Prelude.hashWithSalt` replyToAddresses
+      `Prelude.hashWithSalt` tenantName
       `Prelude.hashWithSalt` content
 
 instance Prelude.NFData SendEmail where
@@ -331,13 +365,15 @@ instance Prelude.NFData SendEmail where
     Prelude.rnf configurationSetName `Prelude.seq`
       Prelude.rnf destination `Prelude.seq`
         Prelude.rnf emailTags `Prelude.seq`
-          Prelude.rnf feedbackForwardingEmailAddress `Prelude.seq`
-            Prelude.rnf feedbackForwardingEmailAddressIdentityArn `Prelude.seq`
-              Prelude.rnf fromEmailAddress `Prelude.seq`
-                Prelude.rnf fromEmailAddressIdentityArn `Prelude.seq`
-                  Prelude.rnf listManagementOptions `Prelude.seq`
-                    Prelude.rnf replyToAddresses `Prelude.seq`
-                      Prelude.rnf content
+          Prelude.rnf endpointId `Prelude.seq`
+            Prelude.rnf feedbackForwardingEmailAddress `Prelude.seq`
+              Prelude.rnf feedbackForwardingEmailAddressIdentityArn `Prelude.seq`
+                Prelude.rnf fromEmailAddress `Prelude.seq`
+                  Prelude.rnf fromEmailAddressIdentityArn `Prelude.seq`
+                    Prelude.rnf listManagementOptions `Prelude.seq`
+                      Prelude.rnf replyToAddresses `Prelude.seq`
+                        Prelude.rnf tenantName `Prelude.seq`
+                          Prelude.rnf content
 
 instance Data.ToHeaders SendEmail where
   toHeaders =
@@ -358,6 +394,7 @@ instance Data.ToJSON SendEmail where
               Prelude.<$> configurationSetName,
             ("Destination" Data..=) Prelude.<$> destination,
             ("EmailTags" Data..=) Prelude.<$> emailTags,
+            ("EndpointId" Data..=) Prelude.<$> endpointId,
             ("FeedbackForwardingEmailAddress" Data..=)
               Prelude.<$> feedbackForwardingEmailAddress,
             ("FeedbackForwardingEmailAddressIdentityArn" Data..=)
@@ -370,6 +407,7 @@ instance Data.ToJSON SendEmail where
               Prelude.<$> listManagementOptions,
             ("ReplyToAddresses" Data..=)
               Prelude.<$> replyToAddresses,
+            ("TenantName" Data..=) Prelude.<$> tenantName,
             Prelude.Just ("Content" Data..= content)
           ]
       )
@@ -389,9 +427,9 @@ data SendEmailResponse = SendEmailResponse'
     -- is accepted.
     --
     -- It\'s possible for Amazon SES to accept a message without sending it.
-    -- This can happen when the message that you\'re trying to send has an
-    -- attachment contains a virus, or when you send a templated email that
-    -- contains invalid personalization content, for example.
+    -- For example, this can happen when the message that you\'re trying to
+    -- send has an attachment that contains a virus, or when you send a
+    -- templated email that contains invalid personalization content.
     messageId :: Prelude.Maybe Prelude.Text,
     -- | The response's http status code.
     httpStatus :: Prelude.Int
@@ -410,9 +448,9 @@ data SendEmailResponse = SendEmailResponse'
 -- is accepted.
 --
 -- It\'s possible for Amazon SES to accept a message without sending it.
--- This can happen when the message that you\'re trying to send has an
--- attachment contains a virus, or when you send a templated email that
--- contains invalid personalization content, for example.
+-- For example, this can happen when the message that you\'re trying to
+-- send has an attachment that contains a virus, or when you send a
+-- templated email that contains invalid personalization content.
 --
 -- 'httpStatus', 'sendEmailResponse_httpStatus' - The response's http status code.
 newSendEmailResponse ::
@@ -429,9 +467,9 @@ newSendEmailResponse pHttpStatus_ =
 -- is accepted.
 --
 -- It\'s possible for Amazon SES to accept a message without sending it.
--- This can happen when the message that you\'re trying to send has an
--- attachment contains a virus, or when you send a templated email that
--- contains invalid personalization content, for example.
+-- For example, this can happen when the message that you\'re trying to
+-- send has an attachment that contains a virus, or when you send a
+-- templated email that contains invalid personalization content.
 sendEmailResponse_messageId :: Lens.Lens' SendEmailResponse (Prelude.Maybe Prelude.Text)
 sendEmailResponse_messageId = Lens.lens (\SendEmailResponse' {messageId} -> messageId) (\s@SendEmailResponse' {} a -> s {messageId = a} :: SendEmailResponse)
 

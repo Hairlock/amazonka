@@ -117,8 +117,7 @@ instance Core.AWSRequest ListConfigurationSets where
     Response.receiveJSON
       ( \s h x ->
           ListConfigurationSetsResponse'
-            Prelude.<$> ( x
-                            Data..?> "ConfigurationSets"
+            Prelude.<$> ( x Data..?> "ConfigurationSets"
                             Core..!@ Prelude.mempty
                         )
             Prelude.<*> (x Data..?> "NextToken")
